@@ -1,0 +1,114 @@
+# Oefenplatform Connectopia
+
+Een online oefenplatform waar kinderen interactief kunnen oefenen op de leerstof van de
+examencommissie — per vak opgedeeld in hoofdstukken met meerkeuzevragen, waar/niet-waar-vragen
+en invuloefeningen.
+
+**Toegangsmodel:**
+- Van elk vak is het **eerste hoofdstuk gratis** te proberen, voor iedereen — ook zonder account.
+- Kinderen van de **externe plusklas** hebben gratis **volledige** toegang (via een toegangscode
+  bij registratie).
+- Andere ouders kunnen **volledige toegang voor het schooljaar vrijgeven voor een eenmalig bedrag**
+  (via Mollie) — die opbrengsten gaan volledig naar vzw Connectopia.
+
+Dit is een volledig apart platform/project, los van het ouderportaal (`ouderportaal/`) — met een
+eigen Supabase-project en een eigen login-systeem waarop ouders zichzelf kunnen registreren.
+
+## Hoe dit werkt
+
+- **Next.js** — de website zelf (deze map).
+- **Supabase** — een NIEUW, apart gratis account voor de database en het login-systeem
+  (gebruik niet hetzelfde Supabase-project als het ouderportaal).
+- **Mollie** — voor het innen van de betalingen richting de vzw.
+- **Vercel** — om de site online te zetten.
+
+## Eenmalige opzet
+
+### 1. Supabase-project aanmaken
+
+1. Ga naar [supabase.com](https://supabase.com) en maak een **nieuw** project aan (regio EU voor
+   GDPR), los van het ouderportaal-project.
+2. Open **SQL Editor**, plak de volledige inhoud van [`supabase/schema.sql`](./supabase/schema.sql)
+   en klik **Run**. Dit maakt de tabellen, beveiligingsregels aan, én een voorbeeldvak
+   ("Nederlands") met één gratis hoofdstuk en drie voorbeeldvragen, zodat de site meteen iets
+   toont.
+3. Onder **Authentication → Providers**, zorg dat e-mail/wachtwoord aan staat (standaard aan).
+   Onder **Authentication → Settings** kan je kiezen of je e-mailbevestiging wil vereisen bij
+   registratie (standaard aan — ouders krijgen dan een bevestigingsmail).
+
+### 2. Mollie-account aanmaken
+
+1. Maak een gratis account op [mollie.com](https://www.mollie.com), gekoppeld aan de vzw
+   (rekeningnummer van de vzw invullen zodat betalingen daar terechtkomen).
+2. Ga naar **Ontwikkelaars → API-sleutels** en kopieer eerst de **testsleutel** (begint met
+   `test_...`) om alles uit te proberen zonder echt geld. Zodra alles werkt, schakel je over naar
+   de **livesleutel** (`live_...`).
+
+### 3. Omgevingsvariabelen
+
+1. Kopieer `.env.local.example` naar `.env.local`.
+2. Vul de Supabase-waarden in (Project Settings → API) en de Mollie-sleutel.
+3. `NEXT_PUBLIC_SITE_URL` moet exact overeenkomen met waar de site online staat (zonder `/` op
+   het einde) — Mollie gebruikt dit om bezoekers na betaling terug te sturen.
+
+### 4. Jezelf beheerder maken
+
+1. Registreer jezelf gewoon via de site op `/registreren` (laat het plusklas-code-veld leeg).
+2. Bevestig je e-mailadres als dat gevraagd wordt.
+3. Zoek je **User UID** op via Supabase dashboard → Authentication → Users.
+4. Voer in de SQL Editor uit:
+   ```sql
+   update public.profiles set role = 'beheerder' where id = 'PLAK-HIER-JOUW-USER-UID';
+   ```
+
+### 5. Lokaal uitproberen (optioneel)
+
+```bash
+npm install
+npm run dev
+```
+Open [http://localhost:3000](http://localhost:3000).
+
+**Mollie-webhook lokaal testen:** Mollie moet je `/api/mollie/webhook` kunnen bereiken, wat niet
+lukt op `localhost`. Gebruik hiervoor een tool als [ngrok](https://ngrok.com) tijdens het testen,
+of test de betaalflow pas na het online zetten op Vercel.
+
+### 6. Online zetten via Vercel
+
+1. Nieuw project op [vercel.com](https://vercel.com), deze GitHub-repository, map
+   `oefenplatform` als **Root Directory**.
+2. Vul dezelfde omgevingsvariabelen in als in stap 3 — met `NEXT_PUBLIC_SITE_URL` op de
+   uiteindelijke `vercel.app`-link (of je eigen domein, bv. `oefenen.connectopia.one`).
+3. Klik **Deploy**.
+
+## Dagelijks gebruik
+
+Log in op `/beheer` met je beheerdersaccount:
+
+- **Vakken beheren**: vakken en hoofdstukken toevoegen, per hoofdstuk instellen of het gratis is.
+- Klik op een hoofdstuk om **vragen** toe te voegen — één voor één via het formulier, of in bulk
+  door een JSON-lijst te plakken (handig als je vragen al voorbereidde met DeepSeek/Gemini — het
+  gewenste formaat staat op die pagina).
+- **Plusklas-codes beheren**: maak een code aan (bv. `PLUSKLAS2026`) en deel die met
+  plusklas-gezinnen. Wie zich daarmee registreert krijgt automatisch gratis volledige toegang.
+
+Ouders registreren zichzelf op `/registreren` en kunnen op `/betalen` volledige toegang voor het
+schooljaar vrijgeven.
+
+## Vraagtypes
+
+| Type | `opties` | `antwoord` |
+|---|---|---|
+| `meerkeuze` | lijst met keuzeteksten | index van het juiste antwoord (0, 1, 2, ...) |
+| `waarofniet` | — | `true` of `false` |
+| `invultekst` | — | het juiste antwoord als tekst (hoofdletterongevoelig vergeleken) |
+
+## Beperkingen van deze eerste versie
+
+- Toegang is platformbreed (alles of niets betaald), niet per vak instelbaar — dat kan later
+  verfijnd worden.
+- Geen voortgang/score-geschiedenis per kind wordt bewaard — enkel het resultaat binnen de
+  huidige sessie in de browser.
+- Eén betaling geldt per account voor het volledige lopende schooljaar; verlenging naar een nieuw
+  schooljaar vereist een nieuwe betaling (dit zetten we later eventueel om naar een herinnering per
+  e-mail).
