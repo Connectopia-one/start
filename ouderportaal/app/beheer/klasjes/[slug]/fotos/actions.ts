@@ -1,7 +1,7 @@
 "use server";
 
 import { revalidatePath } from "next/cache";
-import { requireBeheerder } from "@/lib/auth";
+import { requireBeheerder, requireStaff } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
 
 /**
@@ -10,7 +10,7 @@ import { createAdminClient } from "@/lib/supabase/admin";
  * limiet van ~4,5MB die Vercel op reguliere server-verzoeken zet.
  */
 export async function maakFotoUploadUrl(klasjeId: string, bestandsnaam: string) {
-  await requireBeheerder();
+  await requireStaff();
   const admin = createAdminClient();
   const path = `${klasjeId}/${Date.now()}-${Math.random().toString(36).slice(2, 8)}-${bestandsnaam}`;
 
@@ -27,7 +27,7 @@ export async function registreerFoto(input: {
   bestandspad: string;
   bijschrift?: string | null;
 }) {
-  const session = await requireBeheerder();
+  const session = await requireStaff();
   const admin = createAdminClient();
 
   const { error } = await admin.from("fotos").insert({

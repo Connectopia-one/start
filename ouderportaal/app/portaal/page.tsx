@@ -16,7 +16,9 @@ function klasjeVan(rij: ToegangRij) {
 export default async function PortaalPage() {
   const session = await requireIngelogd();
   const naam = session.profile?.full_name ?? session.email ?? "";
-  const isBeheerder = session.profile?.role === "beheerder";
+  const rol = session.profile?.role ?? "ouder";
+  const isBeheerder = rol === "beheerder";
+  const isLeerkracht = rol === "leerkracht";
 
   const supabase = await createClient();
   const { data } = await supabase
@@ -28,7 +30,7 @@ export default async function PortaalPage() {
 
   return (
     <>
-      <Header naam={naam} isBeheerder={isBeheerder} />
+      <Header naam={naam} rol={rol} />
       <main className="mx-auto w-full max-w-4xl flex-1 px-6 py-10">
         <h1 className="font-display text-2xl font-semibold text-ink">Welkom, {naam}</h1>
 
@@ -42,7 +44,17 @@ export default async function PortaalPage() {
           </div>
         )}
 
-        {rijen.length === 0 && !isBeheerder && (
+        {isLeerkracht && (
+          <div className="mt-4 rounded-lg border border-forest/30 bg-forest/5 px-4 py-3 text-sm text-forest-dark">
+            Je bent aangemeld als teamlid.{" "}
+            <Link href="/team" className="font-medium underline">
+              Ga naar het teamscherm
+            </Link>{" "}
+            om foto&apos;s toe te voegen en fiches te bekijken.
+          </div>
+        )}
+
+        {rijen.length === 0 && !isBeheerder && !isLeerkracht && (
           <p className="mt-6 text-sm text-ink-dim">
             Er is nog geen klasje aan je account gekoppeld. Neem contact op met Connectopia als je
             denkt dat dit niet klopt.

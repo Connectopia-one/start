@@ -20,7 +20,7 @@ export default async function MateriaalPage({
   const { slug } = await params;
   const session = await requireIngelogd();
   const naam = session.profile?.full_name ?? session.email ?? "";
-  const isBeheerder = session.profile?.role === "beheerder";
+  const rol = session.profile?.role ?? "ouder";
 
   const supabase = await createClient();
   const { data: klasje } = await supabase
@@ -53,7 +53,7 @@ export default async function MateriaalPage({
 
   return (
     <>
-      <Header naam={naam} isBeheerder={isBeheerder} terugHref="/portaal" terugLabel="Overzicht" />
+      <Header naam={naam} rol={rol} terugHref="/portaal" terugLabel="Overzicht" />
       <main className="mx-auto w-full max-w-3xl flex-1 px-6 py-10">
         <p className="text-sm font-medium uppercase tracking-wide text-forest">{klasje.naam}</p>
         <h1 className="font-display text-2xl font-semibold text-ink">Lesmateriaal</h1>

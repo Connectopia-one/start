@@ -21,7 +21,7 @@ export default async function BeheerPage({
 
   return (
     <>
-      <Header naam={naam} isBeheerder terugHref="/portaal" terugLabel="Ouderportaal" />
+      <Header naam={naam} rol="beheerder" terugHref="/portaal" terugLabel="Ouderportaal" />
       <main className="mx-auto w-full max-w-4xl flex-1 px-6 py-10">
         <h1 className="font-display text-2xl font-semibold text-ink">Beheer</h1>
         <p className="mt-1 text-sm text-ink-dim">
@@ -98,6 +98,18 @@ export default async function BeheerPage({
               className="mt-4 inline-block rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
             >
               Gezinnen beheren &rarr;
+            </Link>
+
+            <h2 className="mt-8 font-display text-lg font-semibold text-ink">Team</h2>
+            <p className="mt-3 text-sm text-ink-dim">
+              Accounts voor werknemers: zij kunnen foto&apos;s toevoegen en fiches bekijken, maar
+              geen klasjes of lesmateriaal beheren.
+            </p>
+            <Link
+              href="/beheer/team"
+              className="mt-4 inline-block rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
+            >
+              Team beheren &rarr;
             </Link>
           </section>
         </div>

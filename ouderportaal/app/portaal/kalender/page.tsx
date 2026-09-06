@@ -38,11 +38,11 @@ const KLEUR = {
 export default async function KalenderPage() {
   const session = await requireIngelogd();
   const naam = session.profile?.full_name ?? session.email ?? "";
-  const isBeheerder = session.profile?.role === "beheerder";
+  const rol = session.profile?.role ?? "ouder";
 
   return (
     <>
-      <Header naam={naam} isBeheerder={isBeheerder} terugHref="/portaal" terugLabel="Overzicht" />
+      <Header naam={naam} rol={rol} terugHref="/portaal" terugLabel="Overzicht" />
       <main className="mx-auto w-full max-w-5xl flex-1 px-6 py-10">
         <h1 className="font-display text-2xl font-semibold text-ink">Kalender schooljaar 2026-2027</h1>
         <p className="mt-1 text-sm text-ink-dim">

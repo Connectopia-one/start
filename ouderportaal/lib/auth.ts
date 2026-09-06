@@ -4,7 +4,7 @@ import { createClient } from "@/lib/supabase/server";
 export type Profile = {
   id: string;
   full_name: string;
-  role: "ouder" | "beheerder";
+  role: "ouder" | "beheerder" | "leerkracht";
 };
 
 export type Session = {
@@ -36,9 +36,17 @@ export async function requireIngelogd(): Promise<Session> {
   return session;
 }
 
-/** Zoals requireIngelogd, maar enkel voor beheerders — ouders gaan terug naar /portaal. */
+/** Zoals requireIngelogd, maar enkel voor beheerders — anderen gaan terug naar /portaal. */
 export async function requireBeheerder(): Promise<Session> {
   const session = await requireIngelogd();
   if (session.profile?.role !== "beheerder") redirect("/portaal");
+  return session;
+}
+
+/** Zoals requireIngelogd, maar voor beheerders én leerkrachten (beperkte teamtoegang). */
+export async function requireStaff(): Promise<Session> {
+  const session = await requireIngelogd();
+  const rol = session.profile?.role;
+  if (rol !== "beheerder" && rol !== "leerkracht") redirect("/portaal");
   return session;
 }

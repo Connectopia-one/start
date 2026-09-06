@@ -3,12 +3,12 @@ import { logout } from "@/app/login/actions";
 
 export function Header({
   naam,
-  isBeheerder,
+  rol,
   terugHref,
   terugLabel,
 }: {
   naam: string;
-  isBeheerder: boolean;
+  rol: "ouder" | "beheerder" | "leerkracht";
   terugHref?: string;
   terugLabel?: string;
 }) {
@@ -29,10 +29,17 @@ export function Header({
           <Link href="/portaal/kalender" className="text-forest-dark hover:underline">
             Kalender
           </Link>
-          <Link href="/portaal/gezin" className="text-forest-dark hover:underline">
-            Mijn gezin
-          </Link>
-          {isBeheerder && (
+          {rol !== "leerkracht" && (
+            <Link href="/portaal/gezin" className="text-forest-dark hover:underline">
+              Mijn gezin
+            </Link>
+          )}
+          {rol === "leerkracht" && (
+            <Link href="/team" className="text-forest-dark hover:underline">
+              Team
+            </Link>
+          )}
+          {rol === "beheerder" && (
             <Link href="/beheer" className="text-forest-dark hover:underline">
               Beheer
             </Link>

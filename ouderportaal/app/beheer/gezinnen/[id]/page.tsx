@@ -38,7 +38,7 @@ export default async function GezinDetailPage({
 
   return (
     <>
-      <Header naam={naam} isBeheerder terugHref="/beheer/gezinnen" terugLabel="Gezinnen" />
+      <Header naam={naam} rol="beheerder" terugHref="/beheer/gezinnen" terugLabel="Gezinnen" />
       <main className="mx-auto w-full max-w-2xl flex-1 px-6 py-10">
         <h1 className="font-display text-2xl font-semibold text-ink">{gezin.full_name}</h1>
         <p className="mt-1 text-sm text-ink-dim">

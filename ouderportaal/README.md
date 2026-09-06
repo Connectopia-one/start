@@ -86,6 +86,10 @@ Log in op `/beheer` met je beheerdersaccount:
   niet zomaar in een open groepsbericht).
 - Per gezin per klasje **lesmateriaal en foto's apart** aan- of uitzetten.
 - Per klasje **PDF's, links en aankondigingen** toevoegen, en **foto's** uploaden.
+- Onder **Team** accounts aanmaken voor werknemers ("leerkracht"-rol): zij loggen in op
+  hetzelfde adres en komen op een beperkt scherm (`/team`) terecht waar ze foto's
+  kunnen toevoegen en de inlichtingenfiches kunnen bekijken — klasjes en lesmateriaal
+  blijven overal exclusief voor jou.
 
 Ouders loggen in op de hoofdpagina (`/` of `/login`) met het e-mailadres en wachtwoord
 dat ze van jou kregen. Via **"Kalender"** zien ze het volledige lesrooster van het
@@ -105,8 +109,8 @@ enkel ontbrekende tabellen/kolommen toe.
 
 ## Beperkingen van deze eerste versie
 
-- Er is momenteel 1 type beheerder (ziet en beheert alles). Aparte, tot hun eigen
-  klasje beperkte leerkracht-accounts kunnen later toegevoegd worden.
+- Teamleden ("leerkracht"-rol) zien foto's en fiches van **alle** klasjes, niet enkel
+  hun eigen klasje — dat kan later verfijnd worden als dat nodig blijkt.
 - Een gezin kan zijn wachtwoord nog niet zelf wijzigen in de site — dat kan later
   toegevoegd worden.
 - Wachtwoorden worden nu door jou ingesteld en persoonlijk doorgegeven; e-mail-

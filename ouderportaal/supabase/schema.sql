@@ -12,9 +12,14 @@ create extension if not exists pgcrypto;
 create table if not exists public.profiles (
   id uuid primary key references auth.users(id) on delete cascade,
   full_name text not null,
-  role text not null default 'ouder' check (role in ('ouder', 'beheerder')),
+  role text not null default 'ouder' check (role in ('ouder', 'beheerder', 'leerkracht')),
   created_at timestamptz not null default now()
 );
+
+-- Voor een database die al bestond vóór de rol "leerkracht" toegevoegd werd.
+alter table public.profiles drop constraint if exists profiles_role_check;
+alter table public.profiles add constraint profiles_role_check
+  check (role in ('ouder', 'beheerder', 'leerkracht'));
 
 -- Klasjes / groepen.
 create table if not exists public.klasjes (
@@ -99,6 +104,21 @@ as $$
   );
 $$;
 
+-- beheerder OF leerkracht — beperkte teamtoegang (foto's toevoegen, fiches lezen).
+-- Klasjes en lesmateriaal BEHEREN blijft overal apart met is_beheerder() gecontroleerd.
+create or replace function public.is_staff()
+returns boolean
+language sql
+security definer
+set search_path = public
+stable
+as $$
+  select exists (
+    select 1 from public.profiles
+    where id = auth.uid() and role in ('beheerder', 'leerkracht')
+  );
+$$;
+
 -- ============================================================
 -- ROW LEVEL SECURITY
 -- ============================================================
@@ -121,7 +141,7 @@ create policy "beheerder profiel beheer" on public.profiles for all
 drop policy if exists "klasjes lezen" on public.klasjes;
 create policy "klasjes lezen" on public.klasjes for select
   using (
-    public.is_beheerder() or exists (
+    public.is_staff() or exists (
       select 1 from public.toegang t
       where t.klasje_id = klasjes.id and t.profile_id = auth.uid()
     )
@@ -157,7 +177,7 @@ create policy "materialen beheer" on public.materialen for all
 drop policy if exists "fotos lezen" on public.fotos;
 create policy "fotos lezen" on public.fotos for select
   using (
-    public.is_beheerder() or exists (
+    public.is_staff() or exists (
       select 1 from public.toegang t
       where t.klasje_id = fotos.klasje_id
         and t.profile_id = auth.uid()
@@ -171,7 +191,7 @@ create policy "fotos beheer" on public.fotos for all
 
 drop policy if exists "eigen kinderen lezen" on public.kinderen;
 create policy "eigen kinderen lezen" on public.kinderen for select
-  using (profile_id = auth.uid() or public.is_beheerder());
+  using (profile_id = auth.uid() or public.is_staff());
 
 drop policy if exists "beheerder kinderen beheer" on public.kinderen;
 create policy "beheerder kinderen beheer" on public.kinderen for all
@@ -215,7 +235,7 @@ drop policy if exists "fotos lezen storage" on storage.objects;
 create policy "fotos lezen storage" on storage.objects for select
   using (
     bucket_id = 'fotos' and (
-      public.is_beheerder() or exists (
+      public.is_staff() or exists (
         select 1 from public.fotos f
         join public.toegang t on t.klasje_id = f.klasje_id
         where f.bestandspad = storage.objects.name

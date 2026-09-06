@@ -29,7 +29,7 @@ export default async function BeheerMateriaalPage({
 
   return (
     <>
-      <Header naam={naam} isBeheerder terugHref="/beheer" terugLabel="Beheer" />
+      <Header naam={naam} rol="beheerder" terugHref="/beheer" terugLabel="Beheer" />
       <main className="mx-auto w-full max-w-2xl flex-1 px-6 py-10">
         <p className="text-sm font-medium uppercase tracking-wide text-forest">{klasje.naam}</p>
         <h1 className="font-display text-2xl font-semibold text-ink">Lesmateriaal beheren</h1>

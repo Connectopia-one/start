@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { requireBeheerder } from "@/lib/auth";
+import { requireStaff } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { Header } from "@/components/Header";
 import { verwijderFoto } from "./actions";
@@ -14,8 +14,10 @@ export default async function BeheerFotosPage({
 }) {
   const { slug } = await params;
   const { fout, succes } = await searchParams;
-  const session = await requireBeheerder();
+  const session = await requireStaff();
   const naam = session.profile?.full_name ?? session.email ?? "";
+  const rol = session.profile?.role ?? "ouder";
+  const isBeheerder = rol === "beheerder";
 
   const supabase = await createClient();
   const { data: klasje } = await supabase.from("klasjes").select("id, naam, slug").eq("slug", slug).single();
@@ -37,12 +39,17 @@ export default async function BeheerFotosPage({
 
   return (
     <>
-      <Header naam={naam} isBeheerder terugHref="/beheer" terugLabel="Beheer" />
+      <Header
+        naam={naam}
+        rol={rol}
+        terugHref={isBeheerder ? "/beheer" : "/team"}
+        terugLabel={isBeheerder ? "Beheer" : "Team"}
+      />
       <main className="mx-auto w-full max-w-3xl flex-1 px-6 py-10">
         <p className="text-sm font-medium uppercase tracking-wide text-forest">{klasje.naam}</p>
         <h1 className="font-display text-2xl font-semibold text-ink">Foto&apos;s beheren</h1>
         <p className="mt-1 text-sm text-ink-dim">
-          Enkel gezinnen waarvoor je &quot;Foto&apos;s&quot; hebt aangevinkt, kunnen deze zien.
+          Enkel gezinnen waarvoor &quot;Foto&apos;s&quot; is aangevinkt, kunnen deze zien.
         </p>
 
         {fout && <p className="mt-4 rounded-md bg-danger/10 px-3 py-2 text-sm text-danger">{fout}</p>}
@@ -56,14 +63,16 @@ export default async function BeheerFotosPage({
               <div key={f.id} className="overflow-hidden rounded-lg border border-border bg-surface">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img src={f.url} alt={f.bijschrift ?? ""} className="aspect-square w-full object-cover" />
-                <form action={verwijderFoto} className="p-2">
-                  <input type="hidden" name="id" value={f.id} />
-                  <input type="hidden" name="slug" value={slug} />
-                  <input type="hidden" name="bestandspad" value={f.bestandspad} />
-                  <button type="submit" className="text-xs text-danger hover:underline">
-                    Verwijderen
-                  </button>
-                </form>
+                {isBeheerder && (
+                  <form action={verwijderFoto} className="p-2">
+                    <input type="hidden" name="id" value={f.id} />
+                    <input type="hidden" name="slug" value={slug} />
+                    <input type="hidden" name="bestandspad" value={f.bestandspad} />
+                    <button type="submit" className="text-xs text-danger hover:underline">
+                      Verwijderen
+                    </button>
+                  </form>
+                )}
               </div>
             ) : null
           )}
