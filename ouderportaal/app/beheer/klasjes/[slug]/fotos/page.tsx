@@ -2,7 +2,8 @@ import { notFound } from "next/navigation";
 import { requireBeheerder } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { Header } from "@/components/Header";
-import { voegFotosToe, verwijderFoto } from "./actions";
+import { verwijderFoto } from "./actions";
+import { NieuweFotosForm } from "./NieuweFotosForm";
 
 export default async function BeheerFotosPage({
   params,
@@ -73,39 +74,7 @@ export default async function BeheerFotosPage({
 
         <section className="mt-10 rounded-xl border border-border bg-surface p-6">
           <h2 className="font-display text-lg font-semibold text-ink">Foto&apos;s toevoegen</h2>
-          <form action={voegFotosToe} className="mt-4 space-y-4" encType="multipart/form-data">
-            <input type="hidden" name="klasje_id" value={klasje.id} />
-            <input type="hidden" name="slug" value={slug} />
-            <div className="space-y-1.5">
-              <label htmlFor="bestanden" className="text-sm font-medium text-ink">
-                Foto&apos;s (je kan er meerdere tegelijk kiezen)
-              </label>
-              <input
-                id="bestanden"
-                name="bestanden"
-                type="file"
-                accept="image/*"
-                multiple
-                className="w-full text-sm"
-              />
-            </div>
-            <div className="space-y-1.5">
-              <label htmlFor="bijschrift" className="text-sm font-medium text-ink">
-                Bijschrift (optioneel, geldt voor alle gekozen foto&apos;s)
-              </label>
-              <input
-                id="bijschrift"
-                name="bijschrift"
-                className="w-full rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest"
-              />
-            </div>
-            <button
-              type="submit"
-              className="rounded-md bg-forest px-4 py-2 text-sm font-medium text-white hover:bg-forest-dark"
-            >
-              Uploaden
-            </button>
-          </form>
+          <NieuweFotosForm klasjeId={klasje.id} slug={slug} />
         </section>
       </main>
     </>

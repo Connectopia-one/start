@@ -1,43 +1,44 @@
 "use server";
 
-import { redirect } from "next/navigation";
 import { revalidatePath } from "next/cache";
 import { requireBeheerder } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
 
-export async function voegFotosToe(formData: FormData) {
-  const session = await requireBeheerder();
+/**
+ * Geeft een tijdelijke, rechtstreekse upload-link naar Supabase Storage terug.
+ * Zo gaat het beeldbestand niet door de server action heen — dat omzeilt de
+ * limiet van ~4,5MB die Vercel op reguliere server-verzoeken zet.
+ */
+export async function maakFotoUploadUrl(klasjeId: string, bestandsnaam: string) {
+  await requireBeheerder();
+  const admin = createAdminClient();
+  const path = `${klasjeId}/${Date.now()}-${Math.random().toString(36).slice(2, 8)}-${bestandsnaam}`;
 
-  const klasjeId = String(formData.get("klasje_id") || "");
-  const slug = String(formData.get("slug") || "");
-  const bijschrift = String(formData.get("bijschrift") || "").trim() || null;
-  const terug = `/beheer/klasjes/${slug}/fotos`;
-
-  const bestanden = formData.getAll("bestanden").filter((b): b is File => b instanceof File && b.size > 0);
-  if (bestanden.length === 0) {
-    redirect(`${terug}?fout=` + encodeURIComponent("Kies minstens één foto."));
+  const { data, error } = await admin.storage.from("fotos").createSignedUploadUrl(path);
+  if (error || !data) {
+    throw new Error(error?.message || "Kon geen upload-link aanmaken.");
   }
+  return { path: data.path, token: data.token };
+}
 
+export async function registreerFoto(input: {
+  klasjeId: string;
+  slug: string;
+  bestandspad: string;
+  bijschrift?: string | null;
+}) {
+  const session = await requireBeheerder();
   const admin = createAdminClient();
 
-  for (const file of bestanden) {
-    const bestandspad = `${klasjeId}/${Date.now()}-${Math.random().toString(36).slice(2, 8)}-${file.name}`;
-    const { error: uploadError } = await admin.storage
-      .from("fotos")
-      .upload(bestandspad, file, { contentType: file.type || "image/jpeg" });
-    if (uploadError) {
-      redirect(`${terug}?fout=` + encodeURIComponent("Uploaden mislukt: " + uploadError.message));
-    }
-    await admin.from("fotos").insert({
-      klasje_id: klasjeId,
-      bestandspad,
-      bijschrift,
-      created_by: session.userId,
-    });
-  }
+  const { error } = await admin.from("fotos").insert({
+    klasje_id: input.klasjeId,
+    bestandspad: input.bestandspad,
+    bijschrift: input.bijschrift ?? null,
+    created_by: session.userId,
+  });
 
-  revalidatePath(terug);
-  redirect(`${terug}?succes=` + encodeURIComponent(`${bestanden.length} foto('s) toegevoegd.`));
+  if (error) throw new Error(error.message);
+  revalidatePath(`/beheer/klasjes/${input.slug}/fotos`);
 }
 
 export async function verwijderFoto(formData: FormData) {

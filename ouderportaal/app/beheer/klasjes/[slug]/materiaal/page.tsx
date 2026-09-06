@@ -2,7 +2,8 @@ import { notFound } from "next/navigation";
 import { requireBeheerder } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { Header } from "@/components/Header";
-import { voegMateriaalToe, verwijderMateriaal } from "./actions";
+import { verwijderMateriaal } from "./actions";
+import { NieuwMateriaalForm } from "./NieuwMateriaalForm";
 
 export default async function BeheerMateriaalPage({
   params,
@@ -67,80 +68,7 @@ export default async function BeheerMateriaalPage({
 
         <section className="mt-10 rounded-xl border border-border bg-surface p-6">
           <h2 className="font-display text-lg font-semibold text-ink">Nieuw item</h2>
-          <form action={voegMateriaalToe} className="mt-4 space-y-4" encType="multipart/form-data">
-            <input type="hidden" name="klasje_id" value={klasje.id} />
-            <input type="hidden" name="slug" value={slug} />
-
-            <div className="space-y-1.5">
-              <label htmlFor="titel" className="text-sm font-medium text-ink">
-                Titel
-              </label>
-              <input
-                id="titel"
-                name="titel"
-                required
-                className="w-full rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest"
-              />
-            </div>
-
-            <fieldset className="space-y-2">
-              <legend className="text-sm font-medium text-ink">Type</legend>
-              <div className="flex gap-4 text-sm">
-                <label className="flex items-center gap-1.5">
-                  <input type="radio" name="type" value="pdf" defaultChecked /> PDF
-                </label>
-                <label className="flex items-center gap-1.5">
-                  <input type="radio" name="type" value="link" /> Link
-                </label>
-                <label className="flex items-center gap-1.5">
-                  <input type="radio" name="type" value="aankondiging" /> Aankondiging
-                </label>
-              </div>
-            </fieldset>
-
-            <div className="space-y-1.5">
-              <label htmlFor="bestand" className="text-sm font-medium text-ink">
-                PDF-bestand
-              </label>
-              <input
-                id="bestand"
-                name="bestand"
-                type="file"
-                accept="application/pdf"
-                className="w-full text-sm"
-              />
-            </div>
-            <div className="space-y-1.5">
-              <label htmlFor="link" className="text-sm font-medium text-ink">
-                Link (bij type &quot;Link&quot;)
-              </label>
-              <input
-                id="link"
-                name="link"
-                type="url"
-                placeholder="https://..."
-                className="w-full rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest"
-              />
-            </div>
-            <div className="space-y-1.5">
-              <label htmlFor="tekst" className="text-sm font-medium text-ink">
-                Tekst (bij type &quot;Aankondiging&quot;)
-              </label>
-              <textarea
-                id="tekst"
-                name="tekst"
-                rows={3}
-                className="w-full rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest"
-              />
-            </div>
-
-            <button
-              type="submit"
-              className="rounded-md bg-forest px-4 py-2 text-sm font-medium text-white hover:bg-forest-dark"
-            >
-              Toevoegen
-            </button>
-          </form>
+          <NieuwMateriaalForm klasjeId={klasje.id} slug={slug} />
         </section>
       </main>
     </>

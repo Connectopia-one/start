@@ -1,63 +1,48 @@
 "use server";
 
-import { redirect } from "next/navigation";
 import { revalidatePath } from "next/cache";
 import { requireBeheerder } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
 
-export async function voegMateriaalToe(formData: FormData) {
-  const session = await requireBeheerder();
-
-  const klasjeId = String(formData.get("klasje_id") || "");
-  const slug = String(formData.get("slug") || "");
-  const type = String(formData.get("type") || "");
-  const titel = String(formData.get("titel") || "").trim();
-  const terug = `/beheer/klasjes/${slug}/materiaal`;
-
-  if (!titel || !["pdf", "link", "aankondiging"].includes(type)) {
-    redirect(`${terug}?fout=` + encodeURIComponent("Vul een titel in en kies een type."));
-  }
-
+/**
+ * Geeft een tijdelijke, rechtstreekse upload-link naar Supabase Storage terug.
+ * Het bestand zelf gaat zo NIET door de server action heen — dat omzeilt de
+ * limiet van ~4,5MB die Vercel op reguliere server-verzoeken zet.
+ */
+export async function maakMateriaalUploadUrl(klasjeId: string, bestandsnaam: string) {
+  await requireBeheerder();
   const admin = createAdminClient();
-  let inhoud: string | null = null;
-  let bestandspad: string | null = null;
+  const path = `${klasjeId}/${Date.now()}-${bestandsnaam}`;
 
-  if (type === "pdf") {
-    const bestand = formData.get("bestand");
-    if (!(bestand instanceof File) || bestand.size === 0) {
-      redirect(`${terug}?fout=` + encodeURIComponent("Kies een PDF-bestand om te uploaden."));
-    }
-    const file = bestand as File;
-    bestandspad = `${klasjeId}/${Date.now()}-${file.name}`;
-    const { error: uploadError } = await admin.storage
-      .from("materialen")
-      .upload(bestandspad, file, { contentType: file.type || "application/pdf" });
-    if (uploadError) {
-      redirect(`${terug}?fout=` + encodeURIComponent("Uploaden mislukt: " + uploadError.message));
-    }
-  } else if (type === "link") {
-    inhoud = String(formData.get("link") || "").trim();
-    if (!inhoud) redirect(`${terug}?fout=` + encodeURIComponent("Vul een link in."));
-  } else {
-    inhoud = String(formData.get("tekst") || "").trim();
-    if (!inhoud) redirect(`${terug}?fout=` + encodeURIComponent("Vul een tekst in."));
+  const { data, error } = await admin.storage.from("materialen").createSignedUploadUrl(path);
+  if (error || !data) {
+    throw new Error(error?.message || "Kon geen upload-link aanmaken.");
   }
+  return { path: data.path, token: data.token };
+}
+
+export async function registreerMateriaal(input: {
+  klasjeId: string;
+  slug: string;
+  type: "pdf" | "link" | "aankondiging";
+  titel: string;
+  inhoud?: string | null;
+  bestandspad?: string | null;
+}) {
+  const session = await requireBeheerder();
+  const admin = createAdminClient();
 
   const { error } = await admin.from("materialen").insert({
-    klasje_id: klasjeId,
-    type,
-    titel,
-    inhoud,
-    bestandspad,
+    klasje_id: input.klasjeId,
+    type: input.type,
+    titel: input.titel,
+    inhoud: input.inhoud ?? null,
+    bestandspad: input.bestandspad ?? null,
     created_by: session.userId,
   });
 
-  if (error) {
-    redirect(`${terug}?fout=` + encodeURIComponent(error.message));
-  }
-
-  revalidatePath(terug);
-  redirect(`${terug}?succes=` + encodeURIComponent("Toegevoegd."));
+  if (error) throw new Error(error.message);
+  revalidatePath(`/beheer/klasjes/${input.slug}/materiaal`);
 }
 
 export async function verwijderMateriaal(formData: FormData) {
