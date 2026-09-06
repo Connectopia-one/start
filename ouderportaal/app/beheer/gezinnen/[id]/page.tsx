@@ -17,10 +17,17 @@ export default async function GezinDetailPage({
   const naam = session.profile?.full_name ?? session.email ?? "";
 
   const supabase = await createClient();
-  const [{ data: gezin }, { data: klasjes }, { data: toegangData }] = await Promise.all([
-    supabase.from("profiles").select("id, full_name").eq("id", id).single(),
+  const [{ data: gezin }, { data: klasjes }, { data: toegangData }, { data: kinderen }] = await Promise.all([
+    supabase.from("profiles").select("id, full_name, telefoon, adres").eq("id", id).single(),
     supabase.from("klasjes").select("id, naam").order("naam"),
     supabase.from("toegang").select("klasje_id, materiaal, fotos").eq("profile_id", id),
+    supabase
+      .from("kinderen")
+      .select(
+        "id, naam, geboortedatum, allergieen, diagnoses, noodcontact_naam, noodcontact_telefoon, toestemming_fotos, toestemming_social_media"
+      )
+      .eq("profile_id", id)
+      .order("naam"),
   ]);
 
   if (!gezin) notFound();
@@ -43,6 +50,81 @@ export default async function GezinDetailPage({
         {succes && (
           <p className="mt-4 rounded-md bg-forest/10 px-3 py-2 text-sm text-forest-dark">{succes}</p>
         )}
+
+        <section className="mt-6 rounded-xl border border-border bg-surface p-5">
+          <h2 className="font-display text-base font-semibold text-ink">Contactgegevens</h2>
+          {gezin.telefoon || gezin.adres ? (
+            <dl className="mt-2 space-y-1 text-sm text-ink-dim">
+              {gezin.telefoon && (
+                <div>
+                  <dt className="inline font-medium text-ink">Telefoon: </dt>
+                  <dd className="inline">{gezin.telefoon}</dd>
+                </div>
+              )}
+              {gezin.adres && (
+                <div>
+                  <dt className="inline font-medium text-ink">Adres: </dt>
+                  <dd className="inline">{gezin.adres}</dd>
+                </div>
+              )}
+            </dl>
+          ) : (
+            <p className="mt-2 text-sm text-ink-dim">Nog niet ingevuld door dit gezin.</p>
+          )}
+        </section>
+
+        <section className="mt-4 rounded-xl border border-border bg-surface p-5">
+          <h2 className="font-display text-base font-semibold text-ink">Inlichtingenfiche(s)</h2>
+          {(kinderen ?? []).length === 0 && (
+            <p className="mt-2 text-sm text-ink-dim">Nog geen kind toegevoegd door dit gezin.</p>
+          )}
+          <div className="mt-3 space-y-4">
+            {(kinderen ?? []).map((kind) => (
+              <div key={kind.id} className="rounded-lg border border-border bg-paper p-4 text-sm">
+                <p className="font-display font-semibold text-ink">
+                  {kind.naam}
+                  {kind.geboortedatum && (
+                    <span className="ml-2 font-sans text-xs font-normal text-ink-dim">
+                      geboren {new Date(kind.geboortedatum).toLocaleDateString("nl-BE")}
+                    </span>
+                  )}
+                </p>
+                {kind.allergieen && (
+                  <p className="mt-2">
+                    <strong className="text-ink">Allergieën: </strong>
+                    <span className="text-ink-dim">{kind.allergieen}</span>
+                  </p>
+                )}
+                {kind.diagnoses && (
+                  <p className="mt-1">
+                    <strong className="text-ink">Diagnoses: </strong>
+                    <span className="text-ink-dim">{kind.diagnoses}</span>
+                  </p>
+                )}
+                {(kind.noodcontact_naam || kind.noodcontact_telefoon) && (
+                  <p className="mt-1">
+                    <strong className="text-ink">Noodcontact: </strong>
+                    <span className="text-ink-dim">
+                      {[kind.noodcontact_naam, kind.noodcontact_telefoon].filter(Boolean).join(" — ")}
+                    </span>
+                  </p>
+                )}
+                <div className="mt-2 flex flex-wrap gap-2">
+                  <span
+                    className={`rounded-full px-2.5 py-0.5 text-xs font-medium ${kind.toestemming_fotos ? "bg-forest/10 text-forest-dark" : "bg-danger/10 text-danger"}`}
+                  >
+                    {kind.toestemming_fotos ? "Toestemming foto's" : "Geen toestemming foto's"}
+                  </span>
+                  <span
+                    className={`rounded-full px-2.5 py-0.5 text-xs font-medium ${kind.toestemming_social_media ? "bg-forest/10 text-forest-dark" : "bg-danger/10 text-danger"}`}
+                  >
+                    {kind.toestemming_social_media ? "Toestemming social media" : "Geen toestemming social media"}
+                  </span>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
 
         <div className="mt-6 space-y-3">
           {(klasjes ?? []).map((k) => {

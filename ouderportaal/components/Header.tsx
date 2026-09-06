@@ -29,6 +29,9 @@ export function Header({
           <Link href="/portaal/kalender" className="text-forest-dark hover:underline">
             Kalender
           </Link>
+          <Link href="/portaal/gezin" className="text-forest-dark hover:underline">
+            Mijn gezin
+          </Link>
           {isBeheerder && (
             <Link href="/beheer" className="text-forest-dark hover:underline">
               Beheer

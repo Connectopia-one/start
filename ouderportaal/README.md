@@ -88,7 +88,20 @@ Log in op `/beheer` met je beheerdersaccount:
 - Per klasje **PDF's, links en aankondigingen** toevoegen, en **foto's** uploaden.
 
 Ouders loggen in op de hoofdpagina (`/` of `/login`) met het e-mailadres en wachtwoord
-dat ze van jou kregen.
+dat ze van jou kregen. Via **"Kalender"** zien ze het volledige lesrooster van het
+schooljaar, en via **"Mijn gezin"** vullen ze zelf hun contactgegevens en een
+inlichtingenfiche per kind in (allergieën, diagnoses, noodcontact, toestemming
+foto's/social media) — die kan jij als beheerder raadplegen op de gezinspagina onder
+Beheer.
+
+**Belangrijk:** allergieën en diagnoses zijn gevoelige persoonsgegevens (bijzondere
+categorie onder de GDPR). De site zorgt dat enkel het gezin zelf en jij als beheerder
+dit ooit kunnen zien, maar de wettelijke grondslag (toestemming) en een redelijke
+bewaartermijn blijven jouw verantwoordelijkheid als vzw.
+
+Voegde je dit later toe aan een al werkend project? Plak `supabase/schema.sql`
+opnieuw in de SQL Editor en klik Run — het bestand is veilig om te herhalen en voegt
+enkel ontbrekende tabellen/kolommen toe.
 
 ## Beperkingen van deze eerste versie
 

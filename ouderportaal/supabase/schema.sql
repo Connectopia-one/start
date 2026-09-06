@@ -58,6 +58,28 @@ create table if not exists public.fotos (
   created_by uuid references public.profiles(id) on delete set null
 );
 
+-- Contactgegevens van het gezin, rechtstreeks op het profiel.
+alter table public.profiles add column if not exists telefoon text;
+alter table public.profiles add column if not exists adres text;
+
+-- Eén rij per kind: inlichtingenfiche. Enkel het eigen gezin en de
+-- beheerder(s) kunnen dit ooit lezen (zie policies verderop) — dit
+-- bevat gevoelige gegevens (allergieën, diagnoses).
+create table if not exists public.kinderen (
+  id uuid primary key default gen_random_uuid(),
+  profile_id uuid not null references public.profiles(id) on delete cascade,
+  naam text not null,
+  geboortedatum date,
+  allergieen text,
+  diagnoses text,
+  noodcontact_naam text,
+  noodcontact_telefoon text,
+  toestemming_fotos boolean not null default false,
+  toestemming_social_media boolean not null default false,
+  created_at timestamptz not null default now(),
+  updated_at timestamptz not null default now()
+);
+
 -- ============================================================
 -- HULPFUNCTIE
 -- ============================================================
@@ -86,6 +108,7 @@ alter table public.klasjes enable row level security;
 alter table public.toegang enable row level security;
 alter table public.materialen enable row level security;
 alter table public.fotos enable row level security;
+alter table public.kinderen enable row level security;
 
 drop policy if exists "eigen profiel lezen" on public.profiles;
 create policy "eigen profiel lezen" on public.profiles for select
@@ -144,6 +167,14 @@ create policy "fotos lezen" on public.fotos for select
 
 drop policy if exists "fotos beheer" on public.fotos;
 create policy "fotos beheer" on public.fotos for all
+  using (public.is_beheerder()) with check (public.is_beheerder());
+
+drop policy if exists "eigen kinderen lezen" on public.kinderen;
+create policy "eigen kinderen lezen" on public.kinderen for select
+  using (profile_id = auth.uid() or public.is_beheerder());
+
+drop policy if exists "beheerder kinderen beheer" on public.kinderen;
+create policy "beheerder kinderen beheer" on public.kinderen for all
   using (public.is_beheerder()) with check (public.is_beheerder());
 
 -- ============================================================
