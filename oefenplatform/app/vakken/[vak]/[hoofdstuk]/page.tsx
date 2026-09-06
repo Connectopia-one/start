@@ -6,6 +6,7 @@ import { getSessionProfile } from "@/lib/auth";
 import { hoofdstukToegankelijk } from "@/lib/toegang";
 import { createClient } from "@/lib/supabase/server";
 import { PRIJS_SCHOOLJAAR_EUR } from "@/lib/mollie";
+import { schooljaarEindeLabel } from "@/lib/schooljaar";
 
 export default async function HoofdstukPage({
   params,
@@ -59,7 +60,8 @@ export default async function HoofdstukPage({
             <p className="font-medium">Dit hoofdstuk is nog op slot.</p>
             <p className="mt-2 text-ink-dim">
               Geef volledige toegang tot alle hoofdstukken vrij voor €{PRIJS_SCHOOLJAAR_EUR} per
-              schooljaar, of vraag als plusklas-gezin de gratis toegangscode aan.
+              schooljaar (geldig tot en met {schooljaarEindeLabel()}), of vraag als plusklas-gezin
+              de gratis toegangscode aan.
             </p>
             <Link
               href={session ? "/betalen" : "/registreren"}

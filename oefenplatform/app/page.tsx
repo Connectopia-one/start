@@ -4,6 +4,7 @@ import { getSessionProfile } from "@/lib/auth";
 import { heeftVolledigeToegang, hoofdstukToegankelijk } from "@/lib/toegang";
 import { createClient } from "@/lib/supabase/server";
 import { PRIJS_SCHOOLJAAR_EUR } from "@/lib/mollie";
+import { schooljaarEindeLabel } from "@/lib/schooljaar";
 
 type Hoofdstuk = { id: string; titel: string; volgnummer: number; gratis: boolean };
 type Vak = { id: string; naam: string; slug: string; hoofdstukken: Hoofdstuk[] };
@@ -35,8 +36,8 @@ export default async function HomePage() {
         {!volledigeToegang && (
           <div className="mt-6 rounded-xl border border-amber/40 bg-amber/10 px-5 py-4 text-sm text-ink">
             Volledige toegang tot alle hoofdstukken kost{" "}
-            <strong>€{PRIJS_SCHOOLJAAR_EUR} per schooljaar</strong> — de opbrengsten gaan volledig
-            naar vzw Connectopia.{" "}
+            <strong>€{PRIJS_SCHOOLJAAR_EUR} per schooljaar</strong>, geldig tot en met{" "}
+            {schooljaarEindeLabel()} — de opbrengsten gaan volledig naar vzw Connectopia.{" "}
             <Link href={session ? "/betalen" : "/registreren"} className="font-medium text-forest-dark underline-offset-2 hover:underline">
               {session ? "Nu vrijgeven" : "Account maken en starten"}
             </Link>

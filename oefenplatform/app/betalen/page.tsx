@@ -1,7 +1,7 @@
 import { Header } from "@/components/Header";
 import { requireIngelogd } from "@/lib/auth";
 import { PRIJS_SCHOOLJAAR_EUR } from "@/lib/mollie";
-import { huidigSchooljaar } from "@/lib/schooljaar";
+import { huidigSchooljaar, schooljaarEindeLabel } from "@/lib/schooljaar";
 import { startBetaling } from "./actions";
 
 export default async function BetalenPage({
@@ -29,7 +29,7 @@ export default async function BetalenPage({
             €{PRIJS_SCHOOLJAAR_EUR}
             <span className="text-base font-normal text-ink-dim"> / schooljaar</span>
           </p>
-          <p className="mt-1 text-xs text-ink-dim">geldig tot einde schooljaar {huidigSchooljaar()}</p>
+          <p className="mt-1 text-xs text-ink-dim">geldig tot en met {schooljaarEindeLabel()}</p>
           <form action={startBetaling} className="mt-6">
             <button
               type="submit"

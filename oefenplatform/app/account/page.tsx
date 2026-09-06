@@ -2,7 +2,7 @@ import Link from "next/link";
 import { Header } from "@/components/Header";
 import { requireIngelogd } from "@/lib/auth";
 import { heeftVolledigeToegang } from "@/lib/toegang";
-import { huidigSchooljaar } from "@/lib/schooljaar";
+import { huidigSchooljaar, schooljaarEindeLabel } from "@/lib/schooljaar";
 import { PRIJS_SCHOOLJAAR_EUR } from "@/lib/mollie";
 
 export default async function AccountPage() {
@@ -26,7 +26,8 @@ export default async function AccountPage() {
             </p>
           ) : volledigeToegang ? (
             <p className="mt-2 text-sm text-forest-dark">
-              Je hebt volledige toegang tot alle hoofdstukken dit schooljaar.
+              Je hebt volledige toegang tot alle hoofdstukken, geldig tot en met{" "}
+              {schooljaarEindeLabel()}.
             </p>
           ) : (
             <>
@@ -37,7 +38,8 @@ export default async function AccountPage() {
                 href="/betalen"
                 className="mt-4 inline-block rounded-md bg-forest px-4 py-2 text-sm font-medium text-white transition hover:bg-forest-dark"
               >
-                Volledige toegang vrijgeven — €{PRIJS_SCHOOLJAAR_EUR} per schooljaar
+                Volledige toegang vrijgeven — €{PRIJS_SCHOOLJAAR_EUR} per schooljaar (tot en met{" "}
+                {schooljaarEindeLabel()})
               </Link>
             </>
           )}
