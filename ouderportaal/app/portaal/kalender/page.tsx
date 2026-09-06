@@ -22,6 +22,13 @@ function datumSleutel(jaar: number, maand: number, dag: number): string {
   return `${jaar}-${String(maand + 1).padStart(2, "0")}-${String(dag).padStart(2, "0")}`;
 }
 
+function korteLocatie(label: string): string {
+  if (label.includes("Atheneum")) return "Atheneum";
+  if (label.includes("T2 Campus")) return "T2 Campus";
+  if (label.includes("Level X")) return "Level X";
+  return label;
+}
+
 const KLEUR = {
   les: { bg: "bg-forest/10", tekst: "text-forest-dark" },
   kamp: { bg: "bg-amber/15", tekst: "text-amber" },
@@ -82,9 +89,7 @@ export default async function KalenderPage() {
                           {info && (
                             <span className={`text-[9.5px] leading-tight ${kleur?.tekst}`}>
                               {info.type === "les"
-                                ? info.label.includes("Genk")
-                                  ? "Genk"
-                                  : "Hasselt"
+                                ? korteLocatie(info.label)
                                 : info.type === "kamp"
                                   ? "Kamp"
                                   : "Geen les"}
