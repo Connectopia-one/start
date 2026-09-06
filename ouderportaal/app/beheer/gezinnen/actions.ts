@@ -63,6 +63,27 @@ export async function upsertToegang(formData: FormData) {
   revalidatePath(`/beheer/gezinnen/${profileId}`);
 }
 
+export async function wijzigWachtwoord(formData: FormData) {
+  await requireBeheerder();
+
+  const profileId = String(formData.get("profile_id") || "");
+  const wachtwoord = String(formData.get("wachtwoord") || "");
+
+  if (wachtwoord.length < 8) {
+    redirect(
+      `/beheer/gezinnen/${profileId}?fout=` + encodeURIComponent("Wachtwoord moet minstens 8 tekens hebben.")
+    );
+  }
+
+  const admin = createAdminClient();
+  const { error } = await admin.auth.admin.updateUserById(profileId, { password: wachtwoord });
+  if (error) {
+    redirect(`/beheer/gezinnen/${profileId}?fout=` + encodeURIComponent(error.message));
+  }
+
+  redirect(`/beheer/gezinnen/${profileId}?succes=` + encodeURIComponent("Nieuw wachtwoord ingesteld."));
+}
+
 export async function verwijderGezin(formData: FormData) {
   await requireBeheerder();
   const profileId = String(formData.get("profile_id") || "");

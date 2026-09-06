@@ -2,7 +2,7 @@ import Link from "next/link";
 import { requireBeheerder } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { Header } from "@/components/Header";
-import { maakKlasje } from "./actions";
+import { maakKlasje, hernoemKlasje } from "./actions";
 
 export default async function BeheerPage({
   searchParams,
@@ -42,7 +42,20 @@ export default async function BeheerPage({
             <ul className="mt-3 space-y-2">
               {(klasjes ?? []).map((k) => (
                 <li key={k.id} className="rounded-lg border border-border bg-surface p-3">
-                  <p className="font-medium text-ink">{k.naam}</p>
+                  <form action={hernoemKlasje} className="flex gap-2">
+                    <input type="hidden" name="id" value={k.id} />
+                    <input
+                      name="naam"
+                      defaultValue={k.naam}
+                      className="w-full rounded-md border border-transparent bg-transparent px-1 py-0.5 font-medium text-ink outline-none hover:border-border focus:border-forest focus:bg-paper focus:ring-1 focus:ring-forest"
+                    />
+                    <button
+                      type="submit"
+                      className="shrink-0 rounded-md border border-border px-2 py-0.5 text-xs text-ink-dim hover:border-forest hover:text-forest-dark"
+                    >
+                      Bewaren
+                    </button>
+                  </form>
                   <div className="mt-1 flex gap-3 text-sm">
                     <Link href={`/beheer/klasjes/${k.slug}/materiaal`} className="text-forest-dark hover:underline">
                       Lesmateriaal

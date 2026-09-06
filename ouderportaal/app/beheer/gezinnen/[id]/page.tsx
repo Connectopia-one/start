@@ -2,17 +2,17 @@ import { notFound } from "next/navigation";
 import { requireBeheerder } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { Header } from "@/components/Header";
-import { upsertToegang, verwijderGezin } from "../actions";
+import { upsertToegang, verwijderGezin, wijzigWachtwoord } from "../actions";
 
 export default async function GezinDetailPage({
   params,
   searchParams,
 }: {
   params: Promise<{ id: string }>;
-  searchParams: Promise<{ succes?: string }>;
+  searchParams: Promise<{ succes?: string; fout?: string }>;
 }) {
   const { id } = await params;
-  const { succes } = await searchParams;
+  const { succes, fout } = await searchParams;
   const session = await requireBeheerder();
   const naam = session.profile?.full_name ?? session.email ?? "";
 
@@ -39,6 +39,7 @@ export default async function GezinDetailPage({
           zonder het andere.
         </p>
 
+        {fout && <p className="mt-4 rounded-md bg-danger/10 px-3 py-2 text-sm text-danger">{fout}</p>}
         {succes && (
           <p className="mt-4 rounded-md bg-forest/10 px-3 py-2 text-sm text-forest-dark">{succes}</p>
         )}
@@ -78,6 +79,30 @@ export default async function GezinDetailPage({
             <p className="text-sm text-ink-dim">Maak eerst een klasje aan onder Beheer.</p>
           )}
         </div>
+
+        <form action={wijzigWachtwoord} className="mt-10 border-t border-border pt-6">
+          <input type="hidden" name="profile_id" value={gezin.id} />
+          <h2 className="font-display text-lg font-semibold text-ink">Wachtwoord wijzigen</h2>
+          <p className="mt-1 text-sm text-ink-dim">
+            Stel een nieuw wachtwoord in voor dit gezin en geef dat opnieuw veilig aan hen door.
+          </p>
+          <div className="mt-3 flex gap-2">
+            <input
+              name="wachtwoord"
+              type="text"
+              minLength={8}
+              required
+              placeholder="Nieuw wachtwoord (min. 8 tekens)"
+              className="w-full rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest"
+            />
+            <button
+              type="submit"
+              className="shrink-0 rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
+            >
+              Bijwerken
+            </button>
+          </div>
+        </form>
 
         <form
           action={verwijderGezin}
