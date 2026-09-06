@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+  --paper: #faf7f1;
+  --surface: #ffffff;
+  --ink: #23291f;
+  --ink-dim: #6b7260;
+  --border: #e4ded0;
+  --forest: #2f5d50;
+  --forest-dark: #234539;
+  --amber: #c17f2b;
+  --danger: #a6432f;
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-ink-dim: var(--ink-dim);
+  --color-border: var(--border);
+  --color-forest: var(--forest);
+  --color-forest-dark: var(--forest-dark);
+  --color-amber: var(--amber);
+  --color-danger: var(--danger);
+  --font-sans: var(--font-body);
+  --font-display: var(--font-display);
+}
+
+body {
+  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+}
+
+h1,
+h2,
+h3,
+.font-display {
+  font-family: var(--font-display), Georgia, serif;
+}
