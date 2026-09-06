@@ -26,6 +26,9 @@ export function Header({
           )}
         </div>
         <div className="flex items-center gap-4 text-sm">
+          <Link href="/portaal/kalender" className="text-forest-dark hover:underline">
+            Kalender
+          </Link>
           {isBeheerder && (
             <Link href="/beheer" className="text-forest-dark hover:underline">
               Beheer
