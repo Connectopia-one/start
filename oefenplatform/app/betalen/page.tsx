@@ -18,7 +18,7 @@ export default async function BetalenPage({
       <main className="mx-auto w-full max-w-md flex-1 px-6 py-16">
         <h1 className="font-display text-2xl font-semibold text-ink">Volledige toegang</h1>
         <p className="mt-2 text-sm text-ink-dim">
-          Eenmalige betaling voor volledige toegang tot alle hoofdstukken van schooljaar{" "}
+          Betaling voor volledige toegang tot alle hoofdstukken van schooljaar{" "}
           {huidigSchooljaar()}. De opbrengsten gaan volledig naar vzw Connectopia.
         </p>
 
@@ -27,8 +27,9 @@ export default async function BetalenPage({
         <div className="mt-6 rounded-xl border border-border bg-surface p-6 text-center">
           <p className="font-display text-3xl font-semibold text-forest-dark">
             €{PRIJS_SCHOOLJAAR_EUR}
+            <span className="text-base font-normal text-ink-dim"> / schooljaar</span>
           </p>
-          <p className="mt-1 text-xs text-ink-dim">eenmalig, geldig tot einde schooljaar</p>
+          <p className="mt-1 text-xs text-ink-dim">geldig tot einde schooljaar {huidigSchooljaar()}</p>
           <form action={startBetaling} className="mt-6">
             <button
               type="submit"

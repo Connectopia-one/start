@@ -5,6 +5,7 @@ import { Quiz } from "@/components/Quiz";
 import { getSessionProfile } from "@/lib/auth";
 import { hoofdstukToegankelijk } from "@/lib/toegang";
 import { createClient } from "@/lib/supabase/server";
+import { PRIJS_SCHOOLJAAR_EUR } from "@/lib/mollie";
 
 export default async function HoofdstukPage({
   params,
@@ -57,8 +58,8 @@ export default async function HoofdstukPage({
           <div className="mt-8 rounded-xl border border-amber/40 bg-amber/10 px-5 py-6 text-sm text-ink">
             <p className="font-medium">Dit hoofdstuk is nog op slot.</p>
             <p className="mt-2 text-ink-dim">
-              Geef volledige toegang tot alle hoofdstukken van dit schooljaar vrij voor eenmalig
-              €39, of vraag als plusklas-gezin de gratis toegangscode aan.
+              Geef volledige toegang tot alle hoofdstukken vrij voor €{PRIJS_SCHOOLJAAR_EUR} per
+              schooljaar, of vraag als plusklas-gezin de gratis toegangscode aan.
             </p>
             <Link
               href={session ? "/betalen" : "/registreren"}

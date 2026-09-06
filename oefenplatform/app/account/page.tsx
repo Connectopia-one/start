@@ -3,6 +3,7 @@ import { Header } from "@/components/Header";
 import { requireIngelogd } from "@/lib/auth";
 import { heeftVolledigeToegang } from "@/lib/toegang";
 import { huidigSchooljaar } from "@/lib/schooljaar";
+import { PRIJS_SCHOOLJAAR_EUR } from "@/lib/mollie";
 
 export default async function AccountPage() {
   const session = await requireIngelogd();
@@ -36,7 +37,7 @@ export default async function AccountPage() {
                 href="/betalen"
                 className="mt-4 inline-block rounded-md bg-forest px-4 py-2 text-sm font-medium text-white transition hover:bg-forest-dark"
               >
-                Volledige toegang vrijgeven — €39
+                Volledige toegang vrijgeven — €{PRIJS_SCHOOLJAAR_EUR} per schooljaar
               </Link>
             </>
           )}

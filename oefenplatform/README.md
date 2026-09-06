@@ -8,8 +8,8 @@ en invuloefeningen.
 - Van elk vak is het **eerste hoofdstuk gratis** te proberen, voor iedereen — ook zonder account.
 - Kinderen van de **externe plusklas** hebben gratis **volledige** toegang (via een toegangscode
   bij registratie).
-- Andere ouders kunnen **volledige toegang voor het schooljaar vrijgeven voor een eenmalig bedrag**
-  (via Mollie) — die opbrengsten gaan volledig naar vzw Connectopia.
+- Andere ouders kunnen **volledige toegang vrijgeven voor €50 per schooljaar** (via Mollie,
+  betaald per schooljaar opnieuw) — die opbrengsten gaan volledig naar vzw Connectopia.
 
 Dit is een volledig apart platform/project, los van het ouderportaal (`ouderportaal/`) — met een
 eigen Supabase-project en een eigen login-systeem waarop ouders zichzelf kunnen registreren.

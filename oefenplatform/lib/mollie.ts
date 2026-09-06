@@ -6,4 +6,4 @@ export function mollieClient() {
 }
 
 /** Prijs voor een volledig schooljaar toegang, in euro. Pas hier aan als de prijs wijzigt. */
-export const PRIJS_SCHOOLJAAR_EUR = 39;
+export const PRIJS_SCHOOLJAAR_EUR = 50;
