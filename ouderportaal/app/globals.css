@@ -10,6 +10,7 @@
   --forest-dark: #234539;
   --amber: #c17f2b;
   --danger: #a6432f;
+  --info: #3b6ea5;
 }
 
 @theme inline {
@@ -22,6 +23,7 @@
   --color-forest-dark: var(--forest-dark);
   --color-amber: var(--amber);
   --color-danger: var(--danger);
+  --color-info: var(--info);
   --font-sans: var(--font-body);
   --font-display: var(--font-display);
 }

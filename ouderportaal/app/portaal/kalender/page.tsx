@@ -33,6 +33,7 @@ const KLEUR = {
   les: { bg: "bg-forest/10", tekst: "text-forest-dark" },
   kamp: { bg: "bg-amber/15", tekst: "text-amber" },
   geenles: { bg: "bg-danger/10", tekst: "text-danger" },
+  feestdag: { bg: "bg-info/10", tekst: "text-info" },
 } as const;
 
 export default async function KalenderPage() {
@@ -59,6 +60,9 @@ export default async function KalenderPage() {
           </span>
           <span className="flex items-center gap-1.5">
             <span className="h-2.5 w-2.5 rounded-full bg-danger" /> Geen les
+          </span>
+          <span className="flex items-center gap-1.5">
+            <span className="h-2.5 w-2.5 rounded-full bg-info" /> Feestdag
           </span>
         </div>
 
@@ -92,7 +96,9 @@ export default async function KalenderPage() {
                                 ? korteLocatie(info.label)
                                 : info.type === "kamp"
                                   ? "Kamp"
-                                  : "Geen les"}
+                                  : info.type === "feestdag"
+                                    ? info.label
+                                    : "Geen les"}
                             </span>
                           )}
                         </div>

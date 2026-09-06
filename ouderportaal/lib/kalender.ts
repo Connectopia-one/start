@@ -1,6 +1,6 @@
 export type KalenderDag = {
   datum: string; // YYYY-MM-DD
-  type: "les" | "kamp" | "geenles";
+  type: "les" | "kamp" | "geenles" | "feestdag";
   label: string;
   detail?: string;
 };
@@ -15,6 +15,7 @@ export const KALENDER_2026_2027: KalenderDag[] = [
   { datum: "2026-09-19", type: "les", label: "Level X 28 Hasselt" },
   { datum: "2026-09-22", type: "les", label: "Atheneum Hasselt" },
   { datum: "2026-09-23", type: "les", label: "T2 Campus Genk" },
+  { datum: "2026-09-26", type: "les", label: "Level X 28 Hasselt" },
   { datum: "2026-09-29", type: "les", label: "Atheneum Hasselt" },
   { datum: "2026-09-30", type: "les", label: "T2 Campus Genk" },
 
@@ -34,10 +35,12 @@ export const KALENDER_2026_2027: KalenderDag[] = [
   { datum: "2026-10-31", type: "les", label: "Level X 28 Hasselt" },
 
   // november 2026
+  { datum: "2026-11-01", type: "feestdag", label: "Allerheiligen" },
   { datum: "2026-11-02", type: "kamp", label: "Herfstkamp" },
   { datum: "2026-11-03", type: "kamp", label: "Herfstkamp" },
   { datum: "2026-11-04", type: "kamp", label: "Herfstkamp" },
   { datum: "2026-11-05", type: "kamp", label: "Herfstkamp" },
+  { datum: "2026-11-07", type: "geenles", label: "Geen les" },
   { datum: "2026-11-10", type: "les", label: "Atheneum Hasselt" },
   { datum: "2026-11-11", type: "geenles", label: "Wapenstilstand" },
   { datum: "2026-11-14", type: "les", label: "Level X 28 Hasselt" },
@@ -57,6 +60,7 @@ export const KALENDER_2026_2027: KalenderDag[] = [
   { datum: "2026-12-15", type: "les", label: "Atheneum Hasselt" },
   { datum: "2026-12-16", type: "les", label: "T2 Campus Genk" },
   { datum: "2026-12-19", type: "geenles", label: "Geen les" },
+  { datum: "2026-12-25", type: "feestdag", label: "Kerstmis" },
   { datum: "2026-12-21", type: "kamp", label: "Kerstkamp 1" },
   { datum: "2026-12-22", type: "kamp", label: "Kerstkamp 1" },
   { datum: "2026-12-23", type: "kamp", label: "Kerstkamp 1" },
@@ -66,6 +70,8 @@ export const KALENDER_2026_2027: KalenderDag[] = [
   { datum: "2026-12-30", type: "kamp", label: "Kerstkamp 2" },
 
   // januari 2027
+  { datum: "2027-01-01", type: "feestdag", label: "Nieuwjaar" },
+  { datum: "2027-01-02", type: "geenles", label: "Geen les" },
   { datum: "2027-01-05", type: "les", label: "Atheneum Hasselt" },
   { datum: "2027-01-06", type: "les", label: "T2 Campus Genk" },
   { datum: "2027-01-09", type: "les", label: "Level X 28 Hasselt" },
@@ -88,7 +94,7 @@ export const KALENDER_2026_2027: KalenderDag[] = [
   { datum: "2027-02-10", type: "kamp", label: "Krokuskamp 1" },
   { datum: "2027-02-11", type: "kamp", label: "Krokuskamp 2" },
   { datum: "2027-02-12", type: "kamp", label: "Krokuskamp 2" },
-  { datum: "2027-02-13", type: "les", label: "Level X 28 Hasselt" },
+  { datum: "2027-02-13", type: "geenles", label: "Geen les" },
   { datum: "2027-02-16", type: "les", label: "Atheneum Hasselt" },
   { datum: "2027-02-17", type: "les", label: "T2 Campus Genk" },
   { datum: "2027-02-20", type: "les", label: "Level X 28 Hasselt" },
@@ -108,16 +114,19 @@ export const KALENDER_2026_2027: KalenderDag[] = [
   { datum: "2027-03-23", type: "les", label: "Atheneum Hasselt" },
   { datum: "2027-03-24", type: "les", label: "T2 Campus Genk" },
   { datum: "2027-03-27", type: "geenles", label: "Geen les" },
+  { datum: "2027-03-29", type: "feestdag", label: "Paasmaandag" },
   { datum: "2027-03-30", type: "kamp", label: "Paaskamp 1" },
   { datum: "2027-03-31", type: "kamp", label: "Paaskamp 1" },
 
   // april 2027
   { datum: "2027-04-01", type: "kamp", label: "Paaskamp 2" },
   { datum: "2027-04-02", type: "kamp", label: "Paaskamp 2" },
+  { datum: "2027-04-03", type: "geenles", label: "Geen les" },
   { datum: "2027-04-05", type: "kamp", label: "Paaskamp 3" },
   { datum: "2027-04-06", type: "kamp", label: "Paaskamp 3" },
   { datum: "2027-04-07", type: "kamp", label: "Paaskamp 4" },
   { datum: "2027-04-08", type: "kamp", label: "Paaskamp 4" },
+  { datum: "2027-04-10", type: "geenles", label: "Geen les" },
   { datum: "2027-04-13", type: "les", label: "Atheneum Hasselt" },
   { datum: "2027-04-14", type: "les", label: "T2 Campus Genk" },
   { datum: "2027-04-17", type: "les", label: "Level X 28 Hasselt" },
@@ -131,10 +140,12 @@ export const KALENDER_2026_2027: KalenderDag[] = [
   { datum: "2027-05-01", type: "geenles", label: "Dag van de Arbeid" },
   { datum: "2027-05-04", type: "les", label: "Atheneum Hasselt" },
   { datum: "2027-05-05", type: "les", label: "T2 Campus Genk" },
-  { datum: "2027-05-08", type: "geenles", label: "Hemelvaart" },
+  { datum: "2027-05-06", type: "feestdag", label: "Hemelvaart" },
+  { datum: "2027-05-08", type: "geenles", label: "Geen les", detail: "Hemelvaartweekend" },
   { datum: "2027-05-11", type: "les", label: "Atheneum Hasselt" },
   { datum: "2027-05-12", type: "les", label: "T2 Campus Genk" },
-  { datum: "2027-05-15", type: "geenles", label: "Pinksteren" },
+  { datum: "2027-05-15", type: "geenles", label: "Geen les", detail: "Pinksterweekend" },
+  { datum: "2027-05-17", type: "feestdag", label: "Pinkstermaandag" },
   { datum: "2027-05-18", type: "les", label: "Atheneum Hasselt" },
   { datum: "2027-05-19", type: "les", label: "T2 Campus Genk" },
   { datum: "2027-05-22", type: "les", label: "Level X 28 Hasselt" },
