@@ -360,3 +360,198 @@ from public.hoofdstukken h
 join public.vakken v on v.id = h.vak_id
 where v.slug = 'nederlands' and h.volgnummer = 1
 on conflict (hoofdstuk_id, volgnummer) do nothing;
+
+-- Wiskunde en Natuurwetenschappen — telkens één hoofdstuk per categorie
+-- (start/spark/boost/beyond), zodat er een volledige testpagina is over alle
+-- niveaus heen. Enkel het "start"-hoofdstuk is gratis, zoals bij Nederlands.
+
+insert into public.vakken (naam, slug, volgorde)
+values ('Wiskunde', 'wiskunde', 2)
+on conflict (slug) do nothing;
+
+insert into public.vakken (naam, slug, volgorde)
+values ('Natuurwetenschappen', 'natuurwetenschappen', 3)
+on conflict (slug) do nothing;
+
+insert into public.hoofdstukken (vak_id, titel, volgnummer, gratis, niveau)
+select id, 'Rekenen en breuken', 1, true, 'start' from public.vakken where slug = 'wiskunde'
+on conflict (vak_id, volgnummer) do nothing;
+insert into public.hoofdstukken (vak_id, titel, volgnummer, gratis, niveau)
+select id, 'Negatieve getallen en procenten', 2, false, 'spark' from public.vakken where slug = 'wiskunde'
+on conflict (vak_id, volgnummer) do nothing;
+insert into public.hoofdstukken (vak_id, titel, volgnummer, gratis, niveau)
+select id, 'Vergelijkingen en de stelling van Pythagoras', 3, false, 'boost' from public.vakken where slug = 'wiskunde'
+on conflict (vak_id, volgnummer) do nothing;
+insert into public.hoofdstukken (vak_id, titel, volgnummer, gratis, niveau)
+select id, 'Afgeleiden en goniometrie', 4, false, 'beyond' from public.vakken where slug = 'wiskunde'
+on conflict (vak_id, volgnummer) do nothing;
+
+insert into public.hoofdstukken (vak_id, titel, volgnummer, gratis, niveau)
+select id, 'Ons lichaam en planten', 1, true, 'start' from public.vakken where slug = 'natuurwetenschappen'
+on conflict (vak_id, volgnummer) do nothing;
+insert into public.hoofdstukken (vak_id, titel, volgnummer, gratis, niveau)
+select id, 'Cellen en toestanden van materie', 2, false, 'spark' from public.vakken where slug = 'natuurwetenschappen'
+on conflict (vak_id, volgnummer) do nothing;
+insert into public.hoofdstukken (vak_id, titel, volgnummer, gratis, niveau)
+select id, 'Fotosynthese en atomen', 3, false, 'boost' from public.vakken where slug = 'natuurwetenschappen'
+on conflict (vak_id, volgnummer) do nothing;
+insert into public.hoofdstukken (vak_id, titel, volgnummer, gratis, niveau)
+select id, 'Erfelijkheid en natuurkunde', 4, false, 'beyond' from public.vakken where slug = 'natuurwetenschappen'
+on conflict (vak_id, volgnummer) do nothing;
+
+-- Wiskunde — Start
+insert into public.vragen (hoofdstuk_id, volgnummer, type, vraag, opties, antwoord, uitleg)
+select h.id, 1, 'meerkeuze', 'Wat is 3/4 van 100?', '["50", "75", "80"]'::jsonb, '1'::jsonb,
+  '3/4 van 100 = 100 : 4 x 3 = 75.'
+from public.hoofdstukken h join public.vakken v on v.id = h.vak_id
+where v.slug = 'wiskunde' and h.volgnummer = 1
+on conflict (hoofdstuk_id, volgnummer) do nothing;
+insert into public.vragen (hoofdstuk_id, volgnummer, type, vraag, opties, antwoord, uitleg)
+select h.id, 2, 'waarofniet', 'Een rechthoek heeft 4 rechte hoeken.', null, 'true'::jsonb,
+  'Een rechthoek heeft per definitie 4 hoeken van 90°.'
+from public.hoofdstukken h join public.vakken v on v.id = h.vak_id
+where v.slug = 'wiskunde' and h.volgnummer = 1
+on conflict (hoofdstuk_id, volgnummer) do nothing;
+insert into public.vragen (hoofdstuk_id, volgnummer, type, vraag, opties, antwoord, uitleg)
+select h.id, 3, 'invultekst', '7 x 9 = ___', null, '"63"'::jsonb, '7 x 9 = 63.'
+from public.hoofdstukken h join public.vakken v on v.id = h.vak_id
+where v.slug = 'wiskunde' and h.volgnummer = 1
+on conflict (hoofdstuk_id, volgnummer) do nothing;
+
+-- Wiskunde — Spark
+insert into public.vragen (hoofdstuk_id, volgnummer, type, vraag, opties, antwoord, uitleg)
+select h.id, 1, 'meerkeuze', 'Wat is -5 + 8?', '["3", "-3", "13"]'::jsonb, '0'::jsonb,
+  '-5 + 8 = 3.'
+from public.hoofdstukken h join public.vakken v on v.id = h.vak_id
+where v.slug = 'wiskunde' and h.volgnummer = 2
+on conflict (hoofdstuk_id, volgnummer) do nothing;
+insert into public.vragen (hoofdstuk_id, volgnummer, type, vraag, opties, antwoord, uitleg)
+select h.id, 2, 'waarofniet', 'Een negatief getal vermenigvuldigd met een negatief getal geeft een positief resultaat.', null, 'true'::jsonb,
+  'Min keer min is plus.'
+from public.hoofdstukken h join public.vakken v on v.id = h.vak_id
+where v.slug = 'wiskunde' and h.volgnummer = 2
+on conflict (hoofdstuk_id, volgnummer) do nothing;
+insert into public.vragen (hoofdstuk_id, volgnummer, type, vraag, opties, antwoord, uitleg)
+select h.id, 3, 'invultekst', '20% van 150 is ___', null, '"30"'::jsonb, '20% van 150 = 150 : 100 x 20 = 30.'
+from public.hoofdstukken h join public.vakken v on v.id = h.vak_id
+where v.slug = 'wiskunde' and h.volgnummer = 2
+on conflict (hoofdstuk_id, volgnummer) do nothing;
+
+-- Wiskunde — Boost
+insert into public.vragen (hoofdstuk_id, volgnummer, type, vraag, opties, antwoord, uitleg)
+select h.id, 1, 'meerkeuze', 'Los op: 2x + 3 = 11. x = ?', '["3", "4", "5"]'::jsonb, '1'::jsonb,
+  '2x = 11 - 3 = 8, dus x = 4.'
+from public.hoofdstukken h join public.vakken v on v.id = h.vak_id
+where v.slug = 'wiskunde' and h.volgnummer = 3
+on conflict (hoofdstuk_id, volgnummer) do nothing;
+insert into public.vragen (hoofdstuk_id, volgnummer, type, vraag, opties, antwoord, uitleg)
+select h.id, 2, 'waarofniet', 'De stelling van Pythagoras geldt enkel voor rechthoekige driehoeken.', null, 'true'::jsonb,
+  'Pythagoras is specifiek voor rechthoekige driehoeken.'
+from public.hoofdstukken h join public.vakken v on v.id = h.vak_id
+where v.slug = 'wiskunde' and h.volgnummer = 3
+on conflict (hoofdstuk_id, volgnummer) do nothing;
+insert into public.vragen (hoofdstuk_id, volgnummer, type, vraag, opties, antwoord, uitleg)
+select h.id, 3, 'invultekst', 'Bij een rechthoekige driehoek met rechthoekszijden 3 en 4 is de schuine zijde ___', null, '"5"'::jsonb,
+  '3² + 4² = 9 + 16 = 25 = 5².'
+from public.hoofdstukken h join public.vakken v on v.id = h.vak_id
+where v.slug = 'wiskunde' and h.volgnummer = 3
+on conflict (hoofdstuk_id, volgnummer) do nothing;
+
+-- Wiskunde — Beyond
+insert into public.vragen (hoofdstuk_id, volgnummer, type, vraag, opties, antwoord, uitleg)
+select h.id, 1, 'meerkeuze', 'Wat is de afgeleide van x²?', '["x", "2x", "x²"]'::jsonb, '1'::jsonb,
+  'De afgeleide van x^n is n·x^(n-1), dus van x² is dat 2x.'
+from public.hoofdstukken h join public.vakken v on v.id = h.vak_id
+where v.slug = 'wiskunde' and h.volgnummer = 4
+on conflict (hoofdstuk_id, volgnummer) do nothing;
+insert into public.vragen (hoofdstuk_id, volgnummer, type, vraag, opties, antwoord, uitleg)
+select h.id, 2, 'waarofniet', 'sin(90°) = 1', null, 'true'::jsonb,
+  'De sinus van 90° is inderdaad 1.'
+from public.hoofdstukken h join public.vakken v on v.id = h.vak_id
+where v.slug = 'wiskunde' and h.volgnummer = 4
+on conflict (hoofdstuk_id, volgnummer) do nothing;
+insert into public.vragen (hoofdstuk_id, volgnummer, type, vraag, opties, antwoord, uitleg)
+select h.id, 3, 'invultekst', 'log(100) met grondtal 10 = ___', null, '"2"'::jsonb, '10² = 100, dus log₁₀(100) = 2.'
+from public.hoofdstukken h join public.vakken v on v.id = h.vak_id
+where v.slug = 'wiskunde' and h.volgnummer = 4
+on conflict (hoofdstuk_id, volgnummer) do nothing;
+
+-- Natuurwetenschappen — Start
+insert into public.vragen (hoofdstuk_id, volgnummer, type, vraag, opties, antwoord, uitleg)
+select h.id, 1, 'meerkeuze', 'Welk orgaan pompt het bloed door je lichaam?', '["Longen", "Hart", "Maag"]'::jsonb, '1'::jsonb,
+  'Het hart is de pomp van je bloedsomloop.'
+from public.hoofdstukken h join public.vakken v on v.id = h.vak_id
+where v.slug = 'natuurwetenschappen' and h.volgnummer = 1
+on conflict (hoofdstuk_id, volgnummer) do nothing;
+insert into public.vragen (hoofdstuk_id, volgnummer, type, vraag, opties, antwoord, uitleg)
+select h.id, 2, 'waarofniet', 'Planten hebben licht nodig om te groeien.', null, 'true'::jsonb,
+  'Planten gebruiken licht bij fotosynthese om te groeien.'
+from public.hoofdstukken h join public.vakken v on v.id = h.vak_id
+where v.slug = 'natuurwetenschappen' and h.volgnummer = 1
+on conflict (hoofdstuk_id, volgnummer) do nothing;
+insert into public.vragen (hoofdstuk_id, volgnummer, type, vraag, opties, antwoord, uitleg)
+select h.id, 3, 'invultekst', 'Water bestaat uit waterstof en ___', null, '"zuurstof"'::jsonb,
+  'Water (H₂O) bestaat uit waterstof en zuurstof.'
+from public.hoofdstukken h join public.vakken v on v.id = h.vak_id
+where v.slug = 'natuurwetenschappen' and h.volgnummer = 1
+on conflict (hoofdstuk_id, volgnummer) do nothing;
+
+-- Natuurwetenschappen — Spark
+insert into public.vragen (hoofdstuk_id, volgnummer, type, vraag, opties, antwoord, uitleg)
+select h.id, 1, 'meerkeuze', 'Wat is de kleinste bouwsteen van een levend organisme?', '["Molecule", "Cel", "Atoom"]'::jsonb, '1'::jsonb,
+  'De cel is de kleinste levende bouwsteen.'
+from public.hoofdstukken h join public.vakken v on v.id = h.vak_id
+where v.slug = 'natuurwetenschappen' and h.volgnummer = 2
+on conflict (hoofdstuk_id, volgnummer) do nothing;
+insert into public.vragen (hoofdstuk_id, volgnummer, type, vraag, opties, antwoord, uitleg)
+select h.id, 2, 'waarofniet', 'Water kookt bij 100°C op zeeniveau.', null, 'true'::jsonb,
+  'Bij normale luchtdruk kookt water bij 100°C.'
+from public.hoofdstukken h join public.vakken v on v.id = h.vak_id
+where v.slug = 'natuurwetenschappen' and h.volgnummer = 2
+on conflict (hoofdstuk_id, volgnummer) do nothing;
+insert into public.vragen (hoofdstuk_id, volgnummer, type, vraag, opties, antwoord, uitleg)
+select h.id, 3, 'invultekst', 'De drie toestanden van materie zijn vast, vloeibaar en ___', null, '"gasvormig"'::jsonb,
+  'Vast, vloeibaar en gasvormig zijn de drie klassieke toestanden van materie.'
+from public.hoofdstukken h join public.vakken v on v.id = h.vak_id
+where v.slug = 'natuurwetenschappen' and h.volgnummer = 2
+on conflict (hoofdstuk_id, volgnummer) do nothing;
+
+-- Natuurwetenschappen — Boost
+insert into public.vragen (hoofdstuk_id, volgnummer, type, vraag, opties, antwoord, uitleg)
+select h.id, 1, 'meerkeuze', 'Wat produceren planten tijdens fotosynthese?', '["Zuurstof", "Stikstof", "Koolstofdioxide"]'::jsonb, '0'::jsonb,
+  'Bij fotosynthese zetten planten CO₂ en water om in glucose en zuurstof.'
+from public.hoofdstukken h join public.vakken v on v.id = h.vak_id
+where v.slug = 'natuurwetenschappen' and h.volgnummer = 3
+on conflict (hoofdstuk_id, volgnummer) do nothing;
+insert into public.vragen (hoofdstuk_id, volgnummer, type, vraag, opties, antwoord, uitleg)
+select h.id, 2, 'waarofniet', 'Een atoom bestaat uit protonen, neutronen en elektronen.', null, 'true'::jsonb,
+  'Dat zijn de drie basisdeeltjes van een atoom.'
+from public.hoofdstukken h join public.vakken v on v.id = h.vak_id
+where v.slug = 'natuurwetenschappen' and h.volgnummer = 3
+on conflict (hoofdstuk_id, volgnummer) do nothing;
+insert into public.vragen (hoofdstuk_id, volgnummer, type, vraag, opties, antwoord, uitleg)
+select h.id, 3, 'invultekst', 'Het scheikundig symbool voor het element goud is ___', null, '"Au"'::jsonb,
+  'Au komt van het Latijnse "aurum" (goud).'
+from public.hoofdstukken h join public.vakken v on v.id = h.vak_id
+where v.slug = 'natuurwetenschappen' and h.volgnummer = 3
+on conflict (hoofdstuk_id, volgnummer) do nothing;
+
+-- Natuurwetenschappen — Beyond
+insert into public.vragen (hoofdstuk_id, volgnummer, type, vraag, opties, antwoord, uitleg)
+select h.id, 1, 'meerkeuze', 'Wat bepaalt de erfelijke eigenschappen van een organisme?', '["DNA", "RNA-polymerase", "Mitochondriën"]'::jsonb, '0'::jsonb,
+  'DNA draagt de erfelijke informatie.'
+from public.hoofdstukken h join public.vakken v on v.id = h.vak_id
+where v.slug = 'natuurwetenschappen' and h.volgnummer = 4
+on conflict (hoofdstuk_id, volgnummer) do nothing;
+insert into public.vragen (hoofdstuk_id, volgnummer, type, vraag, opties, antwoord, uitleg)
+select h.id, 2, 'waarofniet', 'De lichtsnelheid is ongeveer 300.000 km per seconde.', null, 'true'::jsonb,
+  'De lichtsnelheid in vacuüm is ongeveer 300.000 km/s.'
+from public.hoofdstukken h join public.vakken v on v.id = h.vak_id
+where v.slug = 'natuurwetenschappen' and h.volgnummer = 4
+on conflict (hoofdstuk_id, volgnummer) do nothing;
+insert into public.vragen (hoofdstuk_id, volgnummer, type, vraag, opties, antwoord, uitleg)
+select h.id, 3, 'invultekst', 'De SI-eenheid van kracht is de ___', null, '"newton"'::jsonb,
+  'Kracht wordt uitgedrukt in newton (N).'
+from public.hoofdstukken h join public.vakken v on v.id = h.vak_id
+where v.slug = 'natuurwetenschappen' and h.volgnummer = 4
+on conflict (hoofdstuk_id, volgnummer) do nothing;
