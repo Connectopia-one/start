@@ -5,6 +5,7 @@ import { redirect } from "next/navigation";
 import { requireBeheerder } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { slugify } from "@/lib/slug";
+import { NIVEAUS } from "@/lib/niveaus";
 
 export async function maakVak(formData: FormData) {
   await requireBeheerder();
@@ -34,7 +35,9 @@ export async function maakHoofdstuk(formData: FormData) {
   const vakId = String(formData.get("vak_id") || "");
   const titel = String(formData.get("titel") || "").trim();
   const gratis = formData.get("gratis") === "on";
+  const niveau = String(formData.get("niveau") || "start");
   if (!vakId || !titel) redirect("/beheer/vakken?fout=" + encodeURIComponent("Geef een titel op voor het hoofdstuk."));
+  if (!NIVEAUS.some((n) => n.slug === niveau)) redirect("/beheer/vakken?fout=" + encodeURIComponent("Ongeldige categorie."));
 
   const admin = createAdminClient();
   const { count } = await admin
@@ -47,6 +50,7 @@ export async function maakHoofdstuk(formData: FormData) {
     titel,
     volgnummer: (count ?? 0) + 1,
     gratis,
+    niveau,
   });
 
   revalidatePath("/beheer/vakken");

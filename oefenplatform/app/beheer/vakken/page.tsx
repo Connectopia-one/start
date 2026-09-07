@@ -3,8 +3,9 @@ import { requireBeheerder } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { Header } from "@/components/Header";
 import { maakVak, verwijderVak, maakHoofdstuk, wisselGratis, verwijderHoofdstuk } from "../actions";
+import { NIVEAUS, vindNiveau } from "@/lib/niveaus";
 
-type Hoofdstuk = { id: string; titel: string; volgnummer: number; gratis: boolean };
+type Hoofdstuk = { id: string; titel: string; volgnummer: number; gratis: boolean; niveau: string };
 type Vak = { id: string; naam: string; slug: string; hoofdstukken: Hoofdstuk[] };
 
 export default async function BeheerVakkenPage({
@@ -18,7 +19,7 @@ export default async function BeheerVakkenPage({
 
   const { data: vakken } = await supabase
     .from("vakken")
-    .select("id, naam, slug, hoofdstukken(id, titel, volgnummer, gratis)")
+    .select("id, naam, slug, hoofdstukken(id, titel, volgnummer, gratis, niveau)")
     .order("volgorde", { ascending: true });
 
   return (
@@ -60,6 +61,9 @@ export default async function BeheerVakkenPage({
                         {h.volgnummer}. {h.titel}
                       </Link>
                       <div className="flex items-center gap-3">
+                        <span className="text-xs text-ink-dim">
+                          {vindNiveau(h.niveau)?.emoji} {vindNiveau(h.niveau)?.naam}
+                        </span>
                         <form action={wisselGratis}>
                           <input type="hidden" name="id" value={h.id} />
                           <input type="hidden" name="gratis" value={String(h.gratis)} />
@@ -91,6 +95,17 @@ export default async function BeheerVakkenPage({
                   placeholder="Titel nieuw hoofdstuk"
                   className="min-w-0 flex-1 rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest"
                 />
+                <select
+                  name="niveau"
+                  defaultValue="start"
+                  className="rounded-md border border-border bg-paper px-2 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest"
+                >
+                  {NIVEAUS.map((n) => (
+                    <option key={n.slug} value={n.slug}>
+                      {n.emoji} {n.naam}
+                    </option>
+                  ))}
+                </select>
                 <label className="flex items-center gap-1.5 text-xs text-ink-dim">
                   <input type="checkbox" name="gratis" className="accent-forest" />
                   Gratis

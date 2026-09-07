@@ -7,6 +7,7 @@ import { hoofdstukToegankelijk } from "@/lib/toegang";
 import { createClient } from "@/lib/supabase/server";
 import { PRIJS_SCHOOLJAAR_EUR } from "@/lib/mollie";
 import { schooljaarEindeLabel } from "@/lib/schooljaar";
+import { vindNiveau } from "@/lib/niveaus";
 
 export default async function HoofdstukPage({
   params,
@@ -28,11 +29,13 @@ export default async function HoofdstukPage({
 
   const { data: hoofdstuk } = await supabase
     .from("hoofdstukken")
-    .select("id, titel, volgnummer, gratis")
+    .select("id, titel, volgnummer, gratis, niveau")
     .eq("vak_id", vak.id)
     .eq("volgnummer", volgnummer)
     .single();
   if (!hoofdstuk) notFound();
+
+  const niveau = vindNiveau(hoofdstuk.niveau);
 
   const magVolledig = hoofdstukToegankelijk(hoofdstuk.gratis, session?.profile ?? null);
 
@@ -52,8 +55,8 @@ export default async function HoofdstukPage({
     <>
       <Header naam={session?.profile?.full_name} rol={session?.profile?.role} />
       <main className="mx-auto w-full max-w-2xl flex-1 px-6 py-10">
-        <Link href="/" className="text-sm text-ink-dim hover:text-ink">
-          &larr; Alle vakken
+        <Link href={niveau ? `/niveaus/${niveau.slug}` : "/"} className="text-sm text-ink-dim hover:text-ink">
+          &larr; {niveau ? `${niveau.emoji} ${niveau.naam}` : "Categorieën"}
         </Link>
         <h1 className="mt-2 font-display text-2xl font-semibold text-ink">
           {vak.naam} — {hoofdstuk.titel}

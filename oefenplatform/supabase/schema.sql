@@ -42,15 +42,32 @@ create table if not exists public.vakken (
 
 -- Hoofdstukken per vak. Het eerste/gratis hoofdstuk is publiek zichtbaar als
 -- gratis proefhoofdstuk; de rest vereist volledige toegang.
+-- niveau: gebaseerd op de vakfiches van het Belgisch onderwijs, maar bedoeld
+-- als KUNNEN-categorie, niet als vaste leeftijds-/leerjaarindeling:
+--   start = 5de/6de leerjaar, spark = 1ste/2de middelbaar,
+--   boost = 3de/4de middelbaar, beyond = 5de/6de middelbaar.
 create table if not exists public.hoofdstukken (
   id uuid primary key default gen_random_uuid(),
   vak_id uuid not null references public.vakken(id) on delete cascade,
   titel text not null,
   volgnummer int not null default 0,
   gratis boolean not null default false,
+  niveau text not null default 'start' check (niveau in ('start', 'spark', 'boost', 'beyond')),
   created_at timestamptz not null default now(),
   unique (vak_id, volgnummer)
 );
+
+-- Migratie voor databases die dit bestand al eerder draaiden vóór "niveau" bestond.
+alter table public.hoofdstukken add column if not exists niveau text not null default 'start';
+do $$
+begin
+  if not exists (
+    select 1 from pg_constraint where conname = 'hoofdstukken_niveau_check'
+  ) then
+    alter table public.hoofdstukken add constraint hoofdstukken_niveau_check
+      check (niveau in ('start', 'spark', 'boost', 'beyond'));
+  end if;
+end $$;
 
 -- Interactieve vragen per hoofdstuk.
 -- type: 'meerkeuze' | 'invultekst' | 'waarofniet'

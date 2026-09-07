@@ -14,6 +14,21 @@ en invuloefeningen.
 Dit is een volledig apart platform/project, los van het ouderportaal (`ouderportaal/`) — met een
 eigen Supabase-project en een eigen login-systeem waarop ouders zichzelf kunnen registreren.
 
+**Categorieën (niveaus):** vóór een kind een vak kiest, kiest het eerst een categorie — gebaseerd
+op de vakfiches van het Belgisch onderwijs, maar bewust bedoeld als een **kunnen**-indeling, niet
+als een strikte leeftijds- of leerjaarregel. Een kind mag gerust een categorie hoger of lager
+oefenen dan de klas waarin het zit:
+
+| Categorie | Leerjaar |
+|---|---|
+| 🌱 Start | 5de & 6de leerjaar |
+| ✨ Spark | 1ste & 2de middelbaar |
+| 🚀 Boost | 3de & 4de middelbaar |
+| 🌍 Beyond | 5de & 6de middelbaar |
+
+Elk hoofdstuk hoort bij precies één categorie (ingesteld bij het aanmaken in `/beheer/vakken`).
+Een vak zoals "Wiskunde" kan best hoofdstukken in meerdere categorieën hebben.
+
 ## Hoe dit werkt
 
 - **Next.js** — de website zelf (deze map).
