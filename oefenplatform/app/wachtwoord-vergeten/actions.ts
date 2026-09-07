@@ -1,6 +1,7 @@
 "use server";
 
 import { redirect } from "next/navigation";
+import { headers } from "next/headers";
 import { createClient } from "@/lib/supabase/server";
 
 export async function stuurResetLink(formData: FormData) {
@@ -10,9 +11,17 @@ export async function stuurResetLink(formData: FormData) {
   }
 
   const supabase = await createClient();
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL!;
+
+  // Afgeleid van het echte inkomende verzoek in plaats van een omgevingsvariabele
+  // (NEXT_PUBLIC_SITE_URL) — zo kan een verkeerd ingestelde variabele deze link
+  // niet meer laten verwijzen naar het verkeerde adres (bv. localhost).
+  const requestHeaders = await headers();
+  const host = requestHeaders.get("host");
+  const proto = requestHeaders.get("x-forwarded-proto") ?? "https";
+  const origin = host?.startsWith("localhost") ? `http://${host}` : `${proto}://${host}`;
+
   await supabase.auth.resetPasswordForEmail(email, {
-    redirectTo: `${siteUrl}/wachtwoord-resetten`,
+    redirectTo: `${origin}/wachtwoord-resetten`,
   });
 
   // Altijd dezelfde melding, ook als het e-mailadres niet bestaat — zo lekken we
