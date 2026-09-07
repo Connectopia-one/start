@@ -24,7 +24,7 @@ export default async function HoofdstukPage({
 
   const { data: vak } = await supabase
     .from("vakken")
-    .select("id, naam, slug")
+    .select("id, naam, slug, rekenmachine")
     .eq("slug", vakSlug)
     .single();
   if (!vak) notFound();
@@ -98,7 +98,7 @@ export default async function HoofdstukPage({
           <HoofdstukTabs
             aantalLeerstof={leerstof.length}
             oefeningen={<Quiz vragen={vragen ?? []} kinderen={kinderen ?? []} hoofdstukId={hoofdstuk.id} />}
-            rekenmachine={<GeoGebraCalculator />}
+            rekenmachine={vak.rekenmachine ? <GeoGebraCalculator /> : null}
             leerstof={
               <div className="mt-6 space-y-2">
                 {leerstof.map((l) =>

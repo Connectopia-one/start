@@ -14,14 +14,16 @@ declare global {
 const CONTAINER_ID = "ggb-rekenmachine";
 
 export function GeoGebraCalculator() {
-  const wrapperRef = useRef<HTMLDivElement>(null);
   const geplaatst = useRef(false);
 
   useEffect(() => {
     function plaatsApplet() {
       if (geplaatst.current || !window.GGBApplet) return;
       geplaatst.current = true;
-      const breedte = wrapperRef.current?.clientWidth ?? 600;
+      // Niet clientWidth van de container gebruiken: dit tabblad kan bij het laden
+      // nog verborgen zijn (display: none) door de tabbladen-component, waardoor
+      // dat altijd 0 zou teruggeven en de rekenmachine kapot zou renderen.
+      const breedte = Math.min(624, window.innerWidth - 48);
       const applet = new window.GGBApplet(
         {
           appName: "classic",
@@ -55,7 +57,7 @@ export function GeoGebraCalculator() {
         De officiële GeoGebra-rekenmachine, rechtstreeks hier ingebouwd — handig om grafieken,
         meetkunde en berekeningen te oefenen zoals bij de examencommissie.
       </p>
-      <div ref={wrapperRef} id={CONTAINER_ID} className="overflow-hidden rounded-xl border border-border" />
+      <div id={CONTAINER_ID} className="overflow-hidden rounded-xl border border-border" />
     </div>
   );
 }

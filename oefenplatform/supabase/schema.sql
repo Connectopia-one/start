@@ -32,13 +32,19 @@ create table if not exists public.plusklas_codes (
 );
 
 -- Vakken (Nederlands, Wiskunde, ...).
+-- rekenmachine: toont een tabblad met de GeoGebra-rekenmachine bij elk hoofdstuk
+-- van dit vak (aan voor bv. Wiskunde/Natuurwetenschappen, uit voor Nederlands).
 create table if not exists public.vakken (
   id uuid primary key default gen_random_uuid(),
   naam text not null,
   slug text not null unique,
   volgorde int not null default 0,
+  rekenmachine boolean not null default false,
   created_at timestamptz not null default now()
 );
+
+-- Migratie voor databases die dit bestand al eerder draaiden vóór "rekenmachine" bestond.
+alter table public.vakken add column if not exists rekenmachine boolean not null default false;
 
 -- Hoofdstukken per vak. Het eerste/gratis hoofdstuk is publiek zichtbaar als
 -- gratis proefhoofdstuk; de rest vereist volledige toegang.
@@ -421,13 +427,17 @@ on conflict (hoofdstuk_id, volgnummer) do nothing;
 -- (start/spark/boost/beyond), zodat er een volledige testpagina is over alle
 -- niveaus heen. Enkel het "start"-hoofdstuk is gratis, zoals bij Nederlands.
 
-insert into public.vakken (naam, slug, volgorde)
-values ('Wiskunde', 'wiskunde', 2)
+insert into public.vakken (naam, slug, volgorde, rekenmachine)
+values ('Wiskunde', 'wiskunde', 2, true)
 on conflict (slug) do nothing;
 
-insert into public.vakken (naam, slug, volgorde)
-values ('Natuurwetenschappen', 'natuurwetenschappen', 3)
+insert into public.vakken (naam, slug, volgorde, rekenmachine)
+values ('Natuurwetenschappen', 'natuurwetenschappen', 3, true)
 on conflict (slug) do nothing;
+
+-- Voor bestaande installaties die deze vakken al eerder aanmaakten (dus vóór
+-- "rekenmachine" bestond): alsnog aanzetten voor Wiskunde/Natuurwetenschappen.
+update public.vakken set rekenmachine = true where slug in ('wiskunde', 'natuurwetenschappen');
 
 insert into public.hoofdstukken (vak_id, titel, volgnummer, gratis, niveau)
 select id, 'Rekenen en breuken', 1, true, 'start' from public.vakken where slug = 'wiskunde'

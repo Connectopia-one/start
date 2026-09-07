@@ -10,13 +10,26 @@ import { NIVEAUS } from "@/lib/niveaus";
 export async function maakVak(formData: FormData) {
   await requireBeheerder();
   const naam = String(formData.get("naam") || "").trim();
+  const rekenmachine = formData.get("rekenmachine") === "on";
   if (!naam) redirect("/beheer?fout=" + encodeURIComponent("Geef een naam op voor het vak."));
 
   const admin = createAdminClient();
   const { count } = await admin.from("vakken").select("id", { count: "exact", head: true });
-  const { error } = await admin.from("vakken").insert({ naam, slug: slugify(naam), volgorde: count ?? 0 });
+  const { error } = await admin
+    .from("vakken")
+    .insert({ naam, slug: slugify(naam), volgorde: count ?? 0, rekenmachine });
   if (error) redirect("/beheer?fout=" + encodeURIComponent("Kon vak niet aanmaken (bestaat de naam al?)."));
 
+  revalidatePath("/beheer/vakken");
+  redirect("/beheer/vakken");
+}
+
+export async function wisselRekenmachine(formData: FormData) {
+  await requireBeheerder();
+  const id = String(formData.get("id") || "");
+  const rekenmachine = formData.get("rekenmachine") === "true";
+  const admin = createAdminClient();
+  await admin.from("vakken").update({ rekenmachine: !rekenmachine }).eq("id", id);
   revalidatePath("/beheer/vakken");
   redirect("/beheer/vakken");
 }

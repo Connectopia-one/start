@@ -11,7 +11,7 @@ export function HoofdstukTabs({
   oefeningen: ReactNode;
   leerstof: ReactNode;
   aantalLeerstof: number;
-  rekenmachine: ReactNode;
+  rekenmachine: ReactNode | null;
 }) {
   const [tab, setTab] = useState<"oefeningen" | "leerstof" | "rekenmachine">("oefeningen");
 
@@ -36,20 +36,22 @@ export function HoofdstukTabs({
         >
           Leerstof {aantalLeerstof > 0 && `(${aantalLeerstof})`}
         </button>
-        <button
-          type="button"
-          onClick={() => setTab("rekenmachine")}
-          className={`px-3 py-2 text-sm font-medium ${
-            tab === "rekenmachine" ? "border-b-2 border-forest text-forest-dark" : "text-ink-dim hover:text-ink"
-          }`}
-        >
-          Rekenmachine
-        </button>
+        {rekenmachine && (
+          <button
+            type="button"
+            onClick={() => setTab("rekenmachine")}
+            className={`px-3 py-2 text-sm font-medium ${
+              tab === "rekenmachine" ? "border-b-2 border-forest text-forest-dark" : "text-ink-dim hover:text-ink"
+            }`}
+          >
+            Rekenmachine
+          </button>
+        )}
       </div>
 
       <div className={tab === "oefeningen" ? "" : "hidden"}>{oefeningen}</div>
       <div className={tab === "leerstof" ? "" : "hidden"}>{leerstof}</div>
-      <div className={tab === "rekenmachine" ? "" : "hidden"}>{rekenmachine}</div>
+      {rekenmachine && <div className={tab === "rekenmachine" ? "" : "hidden"}>{rekenmachine}</div>}
     </div>
   );
 }

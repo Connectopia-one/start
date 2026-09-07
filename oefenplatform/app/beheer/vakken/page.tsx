@@ -2,11 +2,18 @@ import Link from "next/link";
 import { requireBeheerder } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { Header } from "@/components/Header";
-import { maakVak, verwijderVak, maakHoofdstuk, wisselGratis, verwijderHoofdstuk } from "../actions";
+import {
+  maakVak,
+  verwijderVak,
+  maakHoofdstuk,
+  wisselGratis,
+  verwijderHoofdstuk,
+  wisselRekenmachine,
+} from "../actions";
 import { NIVEAUS, vindNiveau } from "@/lib/niveaus";
 
 type Hoofdstuk = { id: string; titel: string; volgnummer: number; gratis: boolean; niveau: string };
-type Vak = { id: string; naam: string; slug: string; hoofdstukken: Hoofdstuk[] };
+type Vak = { id: string; naam: string; slug: string; rekenmachine: boolean; hoofdstukken: Hoofdstuk[] };
 
 export default async function BeheerVakkenPage({
   searchParams,
@@ -19,7 +26,7 @@ export default async function BeheerVakkenPage({
 
   const { data: vakken } = await supabase
     .from("vakken")
-    .select("id, naam, slug, hoofdstukken(id, titel, volgnummer, gratis, niveau)")
+    .select("id, naam, slug, rekenmachine, hoofdstukken(id, titel, volgnummer, gratis, niveau)")
     .order("volgorde", { ascending: true });
 
   return (
@@ -38,12 +45,26 @@ export default async function BeheerVakkenPage({
             <section key={vak.id} className="rounded-xl border border-border bg-surface p-5">
               <div className="flex items-center justify-between">
                 <h2 className="font-display text-lg font-semibold text-ink">{vak.naam}</h2>
-                <form action={verwijderVak}>
-                  <input type="hidden" name="id" value={vak.id} />
-                  <button type="submit" className="text-xs text-danger hover:underline">
-                    Vak verwijderen
-                  </button>
-                </form>
+                <div className="flex items-center gap-3">
+                  <form action={wisselRekenmachine}>
+                    <input type="hidden" name="id" value={vak.id} />
+                    <input type="hidden" name="rekenmachine" value={String(vak.rekenmachine)} />
+                    <button
+                      type="submit"
+                      className={`rounded-full px-2.5 py-0.5 text-xs font-medium ${
+                        vak.rekenmachine ? "bg-forest/10 text-forest-dark" : "bg-ink-dim/10 text-ink-dim"
+                      }`}
+                    >
+                      {vak.rekenmachine ? "Rekenmachine aan" : "Rekenmachine uit"}
+                    </button>
+                  </form>
+                  <form action={verwijderVak}>
+                    <input type="hidden" name="id" value={vak.id} />
+                    <button type="submit" className="text-xs text-danger hover:underline">
+                      Vak verwijderen
+                    </button>
+                  </form>
+                </div>
               </div>
 
               <ul className="mt-4 space-y-2">
@@ -121,13 +142,17 @@ export default async function BeheerVakkenPage({
           ))}
         </div>
 
-        <form action={maakVak} className="mt-8 flex gap-2">
+        <form action={maakVak} className="mt-8 flex flex-wrap items-center gap-2">
           <input
             name="naam"
             required
             placeholder="Naam nieuw vak (bv. Wiskunde)"
-            className="w-full rounded-md border border-border bg-surface px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest"
+            className="min-w-0 flex-1 rounded-md border border-border bg-surface px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest"
           />
+          <label className="flex items-center gap-1.5 text-xs text-ink-dim">
+            <input type="checkbox" name="rekenmachine" className="accent-forest" />
+            Rekenmachine (GeoGebra)
+          </label>
           <button
             type="submit"
             className="shrink-0 rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"

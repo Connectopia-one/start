@@ -107,9 +107,11 @@ Log in op `/beheer` met je beheerdersaccount:
 - Op diezelfde pagina, onder **"Leerstof (theorie)"**: upload een PDF-leerbundel voor dat
   hoofdstuk. Kinderen zien die op een apart tabblad ("Leerstof") naast de oefeningen — met
   dezelfde toegang (gratis hoofdstuk = voor iedereen, anders volledige toegang nodig).
-- Elk hoofdstuk heeft ook een tabblad **"Rekenmachine"** met de officiële GeoGebra-rekenmachine
-  ingebouwd (grafieken, meetkunde, berekeningen) — precies zoals bij de examencommissie. Hier hoef
-  je zelf niets voor te configureren.
+- Per vak kan je een tabblad **"Rekenmachine"** aan- of uitzetten (bv. aan voor Wiskunde,
+  Natuurwetenschappen, Fysica, Chemie; uit voor Nederlands) — met de officiële GeoGebra-
+  rekenmachine ingebouwd (grafieken, meetkunde, berekeningen), zoals bij de examencommissie. Zet
+  dit aan bij het aanmaken van een vak, of nadien via de knop naast de vaknaam op
+  `/beheer/vakken`.
 - **Plusklas-codes beheren**: maak een code aan (bv. `PLUSKLAS2026`) en deel die met
   plusklas-gezinnen. Wie zich daarmee registreert krijgt automatisch gratis volledige toegang.
 
