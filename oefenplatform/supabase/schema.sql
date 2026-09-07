@@ -66,8 +66,29 @@ create table if not exists public.vragen (
   opties jsonb,
   antwoord jsonb not null,
   uitleg text,
-  created_at timestamptz not null default now()
+  created_at timestamptz not null default now(),
+  unique (hoofdstuk_id, volgnummer)
 );
+
+-- Opkuis + migratie voor databases die dit bestand al eerder draaiden vóór de
+-- unique-regel hierboven bestond: dat liet dubbele voorbeeldvragen ontstaan bij
+-- elke herhaalde run. Dit verwijdert dubbels (houdt de oudste per plek) en
+-- voegt de regel dan alsnog toe. Veilig om te laten staan — doet niets meer
+-- zodra er geen dubbels meer zijn.
+delete from public.vragen a
+using public.vragen b
+where a.hoofdstuk_id = b.hoofdstuk_id
+  and a.volgnummer = b.volgnummer
+  and (a.created_at, a.id) > (b.created_at, b.id);
+
+do $$
+begin
+  if not exists (
+    select 1 from pg_constraint where conname = 'vragen_hoofdstuk_id_volgnummer_key'
+  ) then
+    alter table public.vragen add constraint vragen_hoofdstuk_id_volgnummer_key unique (hoofdstuk_id, volgnummer);
+  end if;
+end $$;
 
 -- Kinderen — een gezinsaccount kan meerdere kinderen registreren (bv. broers/zussen).
 create table if not exists public.kinderen (
@@ -267,7 +288,7 @@ select h.id, 1, 'meerkeuze',
 from public.hoofdstukken h
 join public.vakken v on v.id = h.vak_id
 where v.slug = 'nederlands' and h.volgnummer = 1
-on conflict do nothing;
+on conflict (hoofdstuk_id, volgnummer) do nothing;
 
 insert into public.vragen (hoofdstuk_id, volgnummer, type, vraag, opties, antwoord, uitleg)
 select h.id, 2, 'waarofniet',
@@ -278,7 +299,7 @@ select h.id, 2, 'waarofniet',
 from public.hoofdstukken h
 join public.vakken v on v.id = h.vak_id
 where v.slug = 'nederlands' and h.volgnummer = 1
-on conflict do nothing;
+on conflict (hoofdstuk_id, volgnummer) do nothing;
 
 insert into public.vragen (hoofdstuk_id, volgnummer, type, vraag, opties, antwoord, uitleg)
 select h.id, 3, 'invultekst',
@@ -289,4 +310,4 @@ select h.id, 3, 'invultekst',
 from public.hoofdstukken h
 join public.vakken v on v.id = h.vak_id
 where v.slug = 'nederlands' and h.volgnummer = 1
-on conflict do nothing;
+on conflict (hoofdstuk_id, volgnummer) do nothing;
