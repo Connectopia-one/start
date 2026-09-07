@@ -24,10 +24,17 @@ async function kindEigenaarOfNull(kindId: string): Promise<SupabaseClient | null
  * de Quiz-client-component aangeroepen (geen formulier) — faalt altijd stil,
  * zodat een opslagprobleem nooit de oefenervaring van het kind onderbreekt.
  */
-export async function registreerAntwoord(kindId: string, vraagId: string, correct: boolean) {
+export async function registreerAntwoord(
+  kindId: string,
+  vraagId: string,
+  correct: boolean,
+  gegevenAntwoord: string | number | boolean | null
+) {
   const admin = await kindEigenaarOfNull(kindId);
   if (!admin) return;
-  await admin.from("voortgang").insert({ kind_id: kindId, vraag_id: vraagId, correct });
+  await admin
+    .from("voortgang")
+    .insert({ kind_id: kindId, vraag_id: vraagId, correct, gegeven_antwoord: gegevenAntwoord });
 }
 
 /**

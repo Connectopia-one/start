@@ -99,7 +99,7 @@ export default async function KindVoortgangPage({
 
         {totaalAantal > 0 ? (
           <p className="mt-1 text-sm text-ink-dim">
-            In totaal {totaalAantal} vraag{totaalAantal === 1 ? "" : "en"} beantwoord, waarvan{" "}
+            In totaal {totaalAantal} {totaalAantal === 1 ? "vraag" : "vragen"} beantwoord, waarvan{" "}
             {totaalCorrect} juist ({Math.round((totaalCorrect / totaalAantal) * 100)}%).
           </p>
         ) : (
@@ -145,9 +145,16 @@ export default async function KindVoortgangPage({
                     </tr>
                   </thead>
                   <tbody>
-                    {[...vak.hoofdstukken.values()].map((h) => (
-                      <tr key={h.titel} className="border-t border-border">
-                        <td className="px-3 py-2 text-ink">{h.titel}</td>
+                    {[...vak.hoofdstukken.entries()].map(([hoofdstukId, h]) => (
+                      <tr key={hoofdstukId} className="border-t border-border">
+                        <td className="px-3 py-2">
+                          <Link
+                            href={`/account/kinderen/${kindId}/${hoofdstukId}`}
+                            className="text-forest-dark hover:underline"
+                          >
+                            {h.titel}
+                          </Link>
+                        </td>
                         <td className="px-3 py-2 text-ink">
                           {h.correct}/{h.aantal} ({Math.round((h.correct / h.aantal) * 100)}%)
                         </td>

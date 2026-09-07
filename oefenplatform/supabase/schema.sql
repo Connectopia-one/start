@@ -123,13 +123,19 @@ create table if not exists public.kinderen (
 
 -- Voortgang — één rij per beantwoorde vraag. Wordt nooit overschreven bij een
 -- herkansing (blijft dus een geschiedenis), zodat een rapport ook evolutie kan tonen.
+-- gegeven_antwoord: wat het kind precies invulde (index bij meerkeuze, tekst bij
+-- invultekst, true/false bij waarofniet) — zodat ouders/beheerder dit kunnen naslaan.
 create table if not exists public.voortgang (
   id uuid primary key default gen_random_uuid(),
   kind_id uuid not null references public.kinderen(id) on delete cascade,
   vraag_id uuid not null references public.vragen(id) on delete cascade,
   correct boolean not null,
+  gegeven_antwoord jsonb,
   beantwoord_op timestamptz not null default now()
 );
+
+-- Migratie voor databases die dit bestand al eerder draaiden vóór "gegeven_antwoord" bestond.
+alter table public.voortgang add column if not exists gegeven_antwoord jsonb;
 
 -- Stickers — één rij per hoofdstuk dat een kind ooit volledig correct
 -- afwerkte (100%). De unique-regel zorgt dat het slechts één keer geteld

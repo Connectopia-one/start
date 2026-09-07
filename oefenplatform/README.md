@@ -125,7 +125,8 @@ oefenen via hetzelfde account). Bij het oefenen kiest men — indien er meer dan
 voor wie de score bijgehouden wordt; bij één kind gebeurt dit automatisch.
 
 - **Ouders** zien op `/account/kinderen/[id]` een rapport per kind: score per hoofdstuk, en
-  wanneer het laatst geoefend werd.
+  wanneer het laatst geoefend werd. Doorklikken op een hoofdstuk toont per vraag het antwoord
+  van de laatste poging (en bij een fout antwoord ook het juiste antwoord).
 - **Jij (beheerder)** ziet op `/beheer/voortgang` een overzicht van alle kinderen, met score en
   aantal beantwoorde vragen, en kan doorklikken naar het rapport per kind.
 

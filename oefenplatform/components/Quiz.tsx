@@ -228,7 +228,7 @@ export function Quiz({
               [vraag.id]: { ...s[vraag.id], gecontroleerd: true, correct },
             }));
             if (actiefKindId) {
-              registreerAntwoord(actiefKindId, vraag.id, correct).catch(() => {});
+              registreerAntwoord(actiefKindId, vraag.id, correct, statussen[vraag.id].gegevenAntwoord).catch(() => {});
             }
           }}
         />
