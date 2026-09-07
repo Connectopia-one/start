@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { Header } from "@/components/Header";
 import { requireIngelogd } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
+import { genereerTip } from "@/lib/inzicht";
 
 type Rij = {
   id: string;
@@ -16,6 +17,12 @@ type Rij = {
       vakken: { id: string; naam: string };
     };
   };
+};
+
+type StickerRij = {
+  id: string;
+  verdiend_op: string;
+  hoofdstukken: { titel: string; vakken: { naam: string } };
 };
 
 type HoofdstukStat = { titel: string; aantal: number; correct: number; laatst: string };
@@ -33,11 +40,18 @@ export default async function KindVoortgangPage({
   const { data: kind } = await supabase.from("kinderen").select("id, naam, profile_id").eq("id", kindId).single();
   if (!kind || (kind.profile_id !== session.userId && session.profile?.role !== "beheerder")) notFound();
 
-  const { data: rijen } = await supabase
-    .from("voortgang")
-    .select("id, correct, beantwoord_op, vragen(id, hoofdstukken(id, titel, vakken(id, naam)))")
-    .eq("kind_id", kindId)
-    .order("beantwoord_op", { ascending: false });
+  const [{ data: rijen }, { data: stickers }] = await Promise.all([
+    supabase
+      .from("voortgang")
+      .select("id, correct, beantwoord_op, vragen(id, hoofdstukken(id, titel, vakken(id, naam)))")
+      .eq("kind_id", kindId)
+      .order("beantwoord_op", { ascending: false }),
+    supabase
+      .from("stickers")
+      .select("id, verdiend_op, hoofdstukken(titel, vakken(naam))")
+      .eq("kind_id", kindId)
+      .order("verdiend_op", { ascending: false }),
+  ]);
 
   const vakken = new Map<string, VakStat>();
   let totaalAantal = 0;
@@ -62,6 +76,18 @@ export default async function KindVoortgangPage({
     if (rij.beantwoord_op > hStat.laatst) hStat.laatst = rij.beantwoord_op;
   }
 
+  const tip = genereerTip(
+    [...vakken.entries()].map(([vakId, vak]) => {
+      const hoofdstukken = [...vak.hoofdstukken.values()];
+      return {
+        vakId,
+        naam: vak.naam,
+        aantal: hoofdstukken.reduce((s, h) => s + h.aantal, 0),
+        correct: hoofdstukken.reduce((s, h) => s + h.correct, 0),
+      };
+    })
+  );
+
   return (
     <>
       <Header naam={session.profile?.full_name} rol={session.profile?.role} />
@@ -78,6 +104,31 @@ export default async function KindVoortgangPage({
           </p>
         ) : (
           <p className="mt-1 text-sm text-ink-dim">Nog geen vragen beantwoord.</p>
+        )}
+
+        {tip && (
+          <div className="mt-4 rounded-md bg-info/10 px-4 py-3 text-sm text-ink">
+            💡 <strong className="text-info">Tip:</strong> {tip}
+          </div>
+        )}
+
+        {!!stickers?.length && (
+          <div className="mt-6">
+            <h2 className="font-display text-lg font-semibold text-ink">
+              Verdiende stickers ({stickers.length})
+            </h2>
+            <div className="mt-2 flex flex-wrap gap-2">
+              {((stickers ?? []) as unknown as StickerRij[]).map((s) => (
+                <span
+                  key={s.id}
+                  title={new Date(s.verdiend_op).toLocaleDateString("nl-BE", { day: "numeric", month: "short", year: "numeric" })}
+                  className="flex items-center gap-1.5 rounded-full border border-amber/40 bg-amber/10 px-3 py-1.5 text-xs font-medium text-amber"
+                >
+                  🌟 {s.hoofdstukken.vakken.naam} — {s.hoofdstukken.titel}
+                </span>
+              ))}
+            </div>
+          </div>
         )}
 
         <div className="mt-6 space-y-6">

@@ -8,6 +8,7 @@ type Rij = {
   naam: string;
   profiles: { full_name: string } | null;
   voortgang: { id: string; correct: boolean }[];
+  stickers: { id: string }[];
 };
 
 export default async function BeheerVoortgangPage() {
@@ -16,7 +17,7 @@ export default async function BeheerVoortgangPage() {
 
   const { data: kinderen } = await supabase
     .from("kinderen")
-    .select("id, naam, profiles(full_name), voortgang(id, correct)")
+    .select("id, naam, profiles(full_name), voortgang(id, correct), stickers(id)")
     .order("naam");
 
   return (
@@ -36,6 +37,7 @@ export default async function BeheerVoortgangPage() {
                 <th className="px-3 py-2">Gezin</th>
                 <th className="px-3 py-2">Vragen beantwoord</th>
                 <th className="px-3 py-2">Score</th>
+                <th className="px-3 py-2">Stickers</th>
                 <th className="px-3 py-2"></th>
               </tr>
             </thead>
@@ -51,6 +53,7 @@ export default async function BeheerVoortgangPage() {
                     <td className="px-3 py-2 text-ink">
                       {aantal > 0 ? `${correct}/${aantal} (${Math.round((correct / aantal) * 100)}%)` : "—"}
                     </td>
+                    <td className="px-3 py-2 text-ink">{k.stickers.length ? `🌟 ${k.stickers.length}` : "—"}</td>
                     <td className="px-3 py-2">
                       <Link href={`/account/kinderen/${k.id}`} className="text-forest-dark hover:underline">
                         Detail &rarr;
@@ -61,7 +64,7 @@ export default async function BeheerVoortgangPage() {
               })}
               {!kinderen?.length && (
                 <tr>
-                  <td colSpan={5} className="px-3 py-4 text-center text-sm text-ink-dim">
+                  <td colSpan={6} className="px-3 py-4 text-center text-sm text-ink-dim">
                     Nog geen kinderen geregistreerd.
                   </td>
                 </tr>

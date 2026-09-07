@@ -1,8 +1,8 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
-import { registreerAntwoord } from "@/app/voortgang-actions";
+import { useEffect, useRef, useState } from "react";
+import { registreerAntwoord, registreerSticker } from "@/app/voortgang-actions";
 
 const ACTIEF_KIND_KEY = "oefenplatform_actief_kind";
 
@@ -120,7 +120,15 @@ function VraagKaart({
   );
 }
 
-export function Quiz({ vragen, kinderen = [] }: { vragen: Vraag[]; kinderen?: Kind[] }) {
+export function Quiz({
+  vragen,
+  kinderen = [],
+  hoofdstukId,
+}: {
+  vragen: Vraag[];
+  kinderen?: Kind[];
+  hoofdstukId?: string;
+}) {
   const [statussen, setStatussen] = useState<Record<string, Status>>(() =>
     Object.fromEntries(vragen.map((v) => [v.id, { gecontroleerd: false, correct: false, gegevenAntwoord: null }]))
   );
@@ -153,11 +161,22 @@ export function Quiz({ vragen, kinderen = [] }: { vragen: Vraag[]; kinderen?: Ki
   const aantalGecontroleerd = Object.values(statussen).filter((s) => s.gecontroleerd).length;
   const aantalCorrect = Object.values(statussen).filter((s) => s.correct).length;
   const klaar = vragen.length > 0 && aantalGecontroleerd === vragen.length;
+  const perfect = klaar && aantalCorrect === vragen.length;
 
-  const opnieuw = () =>
+  const stickerGegeven = useRef(false);
+  useEffect(() => {
+    if (perfect && actiefKindId && hoofdstukId && !stickerGegeven.current) {
+      stickerGegeven.current = true;
+      registreerSticker(actiefKindId, hoofdstukId).catch(() => {});
+    }
+  }, [perfect, actiefKindId, hoofdstukId]);
+
+  const opnieuw = () => {
+    stickerGegeven.current = false;
     setStatussen(
       Object.fromEntries(vragen.map((v) => [v.id, { gecontroleerd: false, correct: false, gegevenAntwoord: null }]))
     );
+  };
 
   if (!vragen.length) {
     return <p className="mt-8 text-sm text-ink-dim">Er zijn nog geen vragen in dit hoofdstuk.</p>;
@@ -216,14 +235,32 @@ export function Quiz({ vragen, kinderen = [] }: { vragen: Vraag[]; kinderen?: Ki
       ))}
 
       {klaar && (
-        <div className="rounded-xl border border-forest/30 bg-forest/10 px-5 py-4 text-center">
-          <p className="font-display text-lg font-semibold text-forest-dark">
-            Je scoorde {aantalCorrect} / {vragen.length}
-          </p>
+        <div
+          className={`rounded-xl border px-5 py-4 text-center ${
+            perfect ? "border-amber/40 bg-amber/10" : "border-forest/30 bg-forest/10"
+          }`}
+        >
+          {perfect ? (
+            <>
+              <p className="text-3xl">🌟</p>
+              <p className="mt-1 font-display text-lg font-semibold text-amber">Sticker verdiend!</p>
+              <p className="mt-1 text-sm text-ink">
+                Alle {vragen.length} vragen juist — helemaal correct, knap gedaan!
+              </p>
+            </>
+          ) : (
+            <p className="font-display text-lg font-semibold text-forest-dark">
+              Je scoorde {aantalCorrect} / {vragen.length}
+            </p>
+          )}
           <button
             type="button"
             onClick={opnieuw}
-            className="mt-3 rounded-md border border-forest px-4 py-2 text-sm font-medium text-forest-dark transition hover:bg-forest/10"
+            className={`mt-3 rounded-md border px-4 py-2 text-sm font-medium transition ${
+              perfect
+                ? "border-amber text-amber hover:bg-amber/10"
+                : "border-forest text-forest-dark hover:bg-forest/10"
+            }`}
           >
             Opnieuw proberen
           </button>

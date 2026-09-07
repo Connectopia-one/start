@@ -108,6 +108,17 @@ create table if not exists public.voortgang (
   beantwoord_op timestamptz not null default now()
 );
 
+-- Stickers — één rij per hoofdstuk dat een kind ooit volledig correct
+-- afwerkte (100%). De unique-regel zorgt dat het slechts één keer geteld
+-- wordt, ook als het kind het hoofdstuk later nog eens perfect maakt.
+create table if not exists public.stickers (
+  id uuid primary key default gen_random_uuid(),
+  kind_id uuid not null references public.kinderen(id) on delete cascade,
+  hoofdstuk_id uuid not null references public.hoofdstukken(id) on delete cascade,
+  verdiend_op timestamptz not null default now(),
+  unique (kind_id, hoofdstuk_id)
+);
+
 -- Betalingen — één rij per Mollie-poging. status wordt bijgewerkt door de
 -- Mollie-webhook; profiles.toegang_schooljaar wordt pas gezet zodra status = 'betaald'.
 create table if not exists public.betalingen (
@@ -178,6 +189,7 @@ alter table public.vragen enable row level security;
 alter table public.betalingen enable row level security;
 alter table public.kinderen enable row level security;
 alter table public.voortgang enable row level security;
+alter table public.stickers enable row level security;
 
 drop policy if exists "eigen profiel lezen" on public.profiles;
 create policy "eigen profiel lezen" on public.profiles for select
@@ -256,6 +268,26 @@ create policy "eigen kind voortgang toevoegen" on public.voortgang for insert
 
 drop policy if exists "beheerder voortgang beheer" on public.voortgang;
 create policy "beheerder voortgang beheer" on public.voortgang for all
+  using (public.is_beheerder()) with check (public.is_beheerder());
+
+drop policy if exists "eigen kind stickers lezen" on public.stickers;
+create policy "eigen kind stickers lezen" on public.stickers for select
+  using (
+    public.is_beheerder() or exists (
+      select 1 from public.kinderen k where k.id = stickers.kind_id and k.profile_id = auth.uid()
+    )
+  );
+
+drop policy if exists "eigen kind stickers toevoegen" on public.stickers;
+create policy "eigen kind stickers toevoegen" on public.stickers for insert
+  with check (
+    public.is_beheerder() or exists (
+      select 1 from public.kinderen k where k.id = stickers.kind_id and k.profile_id = auth.uid()
+    )
+  );
+
+drop policy if exists "beheerder stickers beheer" on public.stickers;
+create policy "beheerder stickers beheer" on public.stickers for all
   using (public.is_beheerder()) with check (public.is_beheerder());
 
 -- ============================================================

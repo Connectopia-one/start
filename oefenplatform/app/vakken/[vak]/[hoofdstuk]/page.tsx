@@ -75,7 +75,7 @@ export default async function HoofdstukPage({
             </Link>
           </div>
         ) : (
-          <Quiz vragen={vragen ?? []} kinderen={kinderen ?? []} />
+          <Quiz vragen={vragen ?? []} kinderen={kinderen ?? []} hoofdstukId={hoofdstuk.id} />
         )}
       </main>
     </>
