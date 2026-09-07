@@ -8,6 +8,7 @@ import { createClient } from "@/lib/supabase/server";
 import { PRIJS_SCHOOLJAAR_EUR } from "@/lib/mollie";
 import { schooljaarEindeLabel } from "@/lib/schooljaar";
 import { vindNiveau } from "@/lib/niveaus";
+import { HoofdstukTabs } from "@/components/HoofdstukTabs";
 
 export default async function HoofdstukPage({
   params,
@@ -51,6 +52,21 @@ export default async function HoofdstukPage({
     ? await supabase.from("kinderen").select("id, naam").eq("profile_id", session.userId).order("naam")
     : { data: [] };
 
+  const { data: leerstofRijen } = magVolledig
+    ? await supabase
+        .from("leerstof")
+        .select("id, titel, bestandspad")
+        .eq("hoofdstuk_id", hoofdstuk.id)
+        .order("created_at", { ascending: false })
+    : { data: [] };
+
+  const leerstof = await Promise.all(
+    (leerstofRijen ?? []).map(async (l) => {
+      const { data } = await supabase.storage.from("leerstof").createSignedUrl(l.bestandspad, 3600);
+      return { id: l.id, titel: l.titel, url: data?.signedUrl ?? null };
+    })
+  );
+
   return (
     <>
       <Header naam={session?.profile?.full_name} rol={session?.profile?.role} />
@@ -78,7 +94,31 @@ export default async function HoofdstukPage({
             </Link>
           </div>
         ) : (
-          <Quiz vragen={vragen ?? []} kinderen={kinderen ?? []} hoofdstukId={hoofdstuk.id} />
+          <HoofdstukTabs
+            aantalLeerstof={leerstof.length}
+            oefeningen={<Quiz vragen={vragen ?? []} kinderen={kinderen ?? []} hoofdstukId={hoofdstuk.id} />}
+            leerstof={
+              <div className="mt-6 space-y-2">
+                {leerstof.map((l) =>
+                  l.url ? (
+                    <a
+                      key={l.id}
+                      href={l.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex items-center justify-between rounded-lg border border-border bg-surface px-4 py-3 text-sm hover:border-forest"
+                    >
+                      <span className="text-ink">📄 {l.titel}</span>
+                      <span className="text-forest-dark">Openen &rarr;</span>
+                    </a>
+                  ) : null
+                )}
+                {!leerstof.length && (
+                  <p className="text-sm text-ink-dim">Er is nog geen leerstof geüpload voor dit hoofdstuk.</p>
+                )}
+              </div>
+            }
+          />
         )}
       </main>
     </>

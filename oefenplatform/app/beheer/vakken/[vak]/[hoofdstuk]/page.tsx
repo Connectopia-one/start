@@ -3,7 +3,8 @@ import { notFound } from "next/navigation";
 import { requireBeheerder } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { Header } from "@/components/Header";
-import { maakVraag, bulkImportVragen, verwijderVraag } from "./actions";
+import { maakVraag, bulkImportVragen, verwijderVraag, verwijderLeerstof } from "./actions";
+import { NieuwLeerstofForm } from "./NieuwLeerstofForm";
 
 const VOORBEELD_JSON = `[
   {
@@ -54,6 +55,12 @@ export default async function BeheerVragenPage({
     .select("id, volgnummer, type, vraag, opties, antwoord, uitleg")
     .eq("hoofdstuk_id", hoofdstuk.id)
     .order("volgnummer", { ascending: true });
+
+  const { data: leerstof } = await supabase
+    .from("leerstof")
+    .select("id, titel, bestandspad, created_at")
+    .eq("hoofdstuk_id", hoofdstuk.id)
+    .order("created_at", { ascending: false });
 
   return (
     <>
@@ -193,6 +200,37 @@ export default async function BeheerVragenPage({
               Importeren
             </button>
           </form>
+        </section>
+
+        <section className="mt-8 rounded-xl border border-border bg-surface p-5">
+          <h2 className="font-display text-base font-semibold text-ink">Leerstof (theorie)</h2>
+          <p className="mt-2 text-sm text-ink-dim">
+            Leerbundeltjes die kinderen naast de oefeningen kunnen lezen — dezelfde toegang als de
+            oefenvragen van dit hoofdstuk.
+          </p>
+
+          <ul className="mt-4 space-y-2">
+            {(leerstof ?? []).map((l) => (
+              <li
+                key={l.id}
+                className="flex items-center justify-between rounded-lg border border-border px-3 py-2 text-sm"
+              >
+                <span className="text-ink">{l.titel}</span>
+                <form action={verwijderLeerstof}>
+                  <input type="hidden" name="id" value={l.id} />
+                  <input type="hidden" name="bestandspad" value={l.bestandspad} />
+                  <input type="hidden" name="vak_slug" value={vakSlug} />
+                  <input type="hidden" name="volgnummer" value={volgnummerStr} />
+                  <button type="submit" className="text-xs text-danger hover:underline">
+                    Verwijderen
+                  </button>
+                </form>
+              </li>
+            ))}
+            {!leerstof?.length && <li className="text-sm text-ink-dim">Nog geen leerstof geüpload.</li>}
+          </ul>
+
+          <NieuwLeerstofForm hoofdstukId={hoofdstuk.id} vakSlug={vakSlug} volgnummer={volgnummerStr} />
         </section>
       </main>
     </>

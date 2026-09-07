@@ -118,3 +118,55 @@ export async function verwijderVraag(formData: FormData) {
   revalidatePath(terugPad(vakSlug, volgnummer));
   redirect(terugPad(vakSlug, volgnummer));
 }
+
+/**
+ * Geeft een tijdelijke, rechtstreekse upload-link naar Supabase Storage terug.
+ * Het bestand zelf gaat zo NIET door de server action heen — dat omzeilt de
+ * limiet van ~4,5MB die Vercel op reguliere server-verzoeken zet.
+ */
+export async function maakLeerstofUploadUrl(hoofdstukId: string, bestandsnaam: string) {
+  await requireBeheerder();
+  const admin = createAdminClient();
+  const path = `${hoofdstukId}/${Date.now()}-${bestandsnaam}`;
+
+  const { data, error } = await admin.storage.from("leerstof").createSignedUploadUrl(path);
+  if (error || !data) {
+    throw new Error(error?.message || "Kon geen upload-link aanmaken.");
+  }
+  return { path: data.path, token: data.token };
+}
+
+export async function registreerLeerstof(input: {
+  hoofdstukId: string;
+  vakSlug: string;
+  volgnummer: string;
+  titel: string;
+  bestandspad: string;
+}) {
+  await requireBeheerder();
+  const admin = createAdminClient();
+
+  const { error } = await admin.from("leerstof").insert({
+    hoofdstuk_id: input.hoofdstukId,
+    titel: input.titel,
+    bestandspad: input.bestandspad,
+  });
+
+  if (error) throw new Error(error.message);
+  revalidatePath(terugPad(input.vakSlug, input.volgnummer));
+}
+
+export async function verwijderLeerstof(formData: FormData) {
+  await requireBeheerder();
+  const id = String(formData.get("id") || "");
+  const bestandspad = String(formData.get("bestandspad") || "");
+  const vakSlug = String(formData.get("vak_slug") || "");
+  const volgnummer = String(formData.get("volgnummer") || "");
+
+  const admin = createAdminClient();
+  if (bestandspad) await admin.storage.from("leerstof").remove([bestandspad]);
+  await admin.from("leerstof").delete().eq("id", id);
+
+  revalidatePath(terugPad(vakSlug, volgnummer));
+  redirect(terugPad(vakSlug, volgnummer));
+}

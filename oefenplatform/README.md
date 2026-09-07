@@ -104,6 +104,9 @@ Log in op `/beheer` met je beheerdersaccount:
 - Klik op een hoofdstuk om **vragen** toe te voegen — één voor één via het formulier, of in bulk
   door een JSON-lijst te plakken (handig als je vragen al voorbereidde met DeepSeek/Gemini — het
   gewenste formaat staat op die pagina).
+- Op diezelfde pagina, onder **"Leerstof (theorie)"**: upload een PDF-leerbundel voor dat
+  hoofdstuk. Kinderen zien die op een apart tabblad ("Leerstof") naast de oefeningen — met
+  dezelfde toegang (gratis hoofdstuk = voor iedereen, anders volledige toegang nodig).
 - **Plusklas-codes beheren**: maak een code aan (bv. `PLUSKLAS2026`) en deel die met
   plusklas-gezinnen. Wie zich daarmee registreert krijgt automatisch gratis volledige toegang.
 

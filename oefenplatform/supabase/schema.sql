@@ -136,6 +136,17 @@ create table if not exists public.stickers (
   unique (kind_id, hoofdstuk_id)
 );
 
+-- Leerstof — leerbundeltjes (meestal PDF's) met de theorie per hoofdstuk,
+-- naast de online oefeningen. Volgt dezelfde toegang als de vragen van dat
+-- hoofdstuk (gratis hoofdstuk = voor iedereen, anders volledige toegang nodig).
+create table if not exists public.leerstof (
+  id uuid primary key default gen_random_uuid(),
+  hoofdstuk_id uuid not null references public.hoofdstukken(id) on delete cascade,
+  titel text not null,
+  bestandspad text not null,
+  created_at timestamptz not null default now()
+);
+
 -- Betalingen — één rij per Mollie-poging. status wordt bijgewerkt door de
 -- Mollie-webhook; profiles.toegang_schooljaar wordt pas gezet zodra status = 'betaald'.
 create table if not exists public.betalingen (
@@ -207,6 +218,7 @@ alter table public.betalingen enable row level security;
 alter table public.kinderen enable row level security;
 alter table public.voortgang enable row level security;
 alter table public.stickers enable row level security;
+alter table public.leerstof enable row level security;
 
 drop policy if exists "eigen profiel lezen" on public.profiles;
 create policy "eigen profiel lezen" on public.profiles for select
@@ -306,6 +318,50 @@ create policy "eigen kind stickers toevoegen" on public.stickers for insert
 drop policy if exists "beheerder stickers beheer" on public.stickers;
 create policy "beheerder stickers beheer" on public.stickers for all
   using (public.is_beheerder()) with check (public.is_beheerder());
+
+-- Leerstof: zelfde toegangslogica als vragen (zie "vragen lezen" hierboven).
+drop policy if exists "leerstof lezen" on public.leerstof;
+create policy "leerstof lezen" on public.leerstof for select
+  using (
+    exists (
+      select 1 from public.hoofdstukken h
+      where h.id = leerstof.hoofdstuk_id and h.gratis = true
+    )
+    or public.heeft_toegang(auth.uid())
+  );
+
+drop policy if exists "beheerder leerstof beheer" on public.leerstof;
+create policy "beheerder leerstof beheer" on public.leerstof for all
+  using (public.is_beheerder()) with check (public.is_beheerder());
+
+-- ============================================================
+-- OPSLAG (bestanden)
+-- ============================================================
+
+insert into storage.buckets (id, name, public)
+values ('leerstof', 'leerstof', false)
+on conflict (id) do nothing;
+
+drop policy if exists "leerstof lezen storage" on storage.objects;
+create policy "leerstof lezen storage" on storage.objects for select
+  using (
+    bucket_id = 'leerstof' and (
+      public.is_beheerder() or exists (
+        select 1 from public.leerstof l
+        join public.hoofdstukken h on h.id = l.hoofdstuk_id
+        where l.bestandspad = storage.objects.name
+          and (h.gratis = true or public.heeft_toegang(auth.uid()))
+      )
+    )
+  );
+
+drop policy if exists "leerstof schrijven" on storage.objects;
+create policy "leerstof schrijven" on storage.objects for insert
+  with check (bucket_id = 'leerstof' and public.is_beheerder());
+
+drop policy if exists "leerstof verwijderen" on storage.objects;
+create policy "leerstof verwijderen" on storage.objects for delete
+  using (bucket_id = 'leerstof' and public.is_beheerder());
 
 -- ============================================================
 -- JOUW EIGEN BEHEERDER-ACCOUNT
