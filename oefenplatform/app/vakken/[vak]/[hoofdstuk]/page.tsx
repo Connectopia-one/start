@@ -9,6 +9,7 @@ import { PRIJS_SCHOOLJAAR_EUR } from "@/lib/mollie";
 import { schooljaarEindeLabel } from "@/lib/schooljaar";
 import { vindNiveau } from "@/lib/niveaus";
 import { HoofdstukTabs } from "@/components/HoofdstukTabs";
+import { GeoGebraCalculator } from "@/components/GeoGebraCalculator";
 
 export default async function HoofdstukPage({
   params,
@@ -97,6 +98,7 @@ export default async function HoofdstukPage({
           <HoofdstukTabs
             aantalLeerstof={leerstof.length}
             oefeningen={<Quiz vragen={vragen ?? []} kinderen={kinderen ?? []} hoofdstukId={hoofdstuk.id} />}
+            rekenmachine={<GeoGebraCalculator />}
             leerstof={
               <div className="mt-6 space-y-2">
                 {leerstof.map((l) =>
