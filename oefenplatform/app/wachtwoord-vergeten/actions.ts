@@ -20,11 +20,17 @@ export async function stuurResetLink(formData: FormData) {
   const proto = requestHeaders.get("x-forwarded-proto") ?? "https";
   const origin = host?.startsWith("localhost") ? `http://${host}` : `${proto}://${host}`;
 
-  await supabase.auth.resetPasswordForEmail(email, {
+  const { error } = await supabase.auth.resetPasswordForEmail(email, {
     redirectTo: `${origin}/wachtwoord-resetten`,
   });
 
-  // Altijd dezelfde melding, ook als het e-mailadres niet bestaat — zo lekken we
-  // niet welke adressen wel/niet geregistreerd zijn.
+  if (error) {
+    // Supabase geeft voor dit endpoint sowieso geen "bestaat niet"-fout terug
+    // (dat verbergt het zelf al) — een fout hier is dus altijd iets anders
+    // (bv. snelheidslimiet op e-mails) en is veilig om te tonen.
+    console.error("resetPasswordForEmail fout:", error.message);
+    redirect("/wachtwoord-vergeten?fout=" + encodeURIComponent(error.message));
+  }
+
   redirect("/wachtwoord-vergeten?verstuurd=1");
 }
