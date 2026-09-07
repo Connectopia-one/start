@@ -53,7 +53,13 @@ export default async function LoginPage({
           </button>
         </form>
 
-        <p className="mt-6 text-center text-xs text-ink-dim">
+        <p className="mt-4 text-center text-xs text-ink-dim">
+          <Link href="/wachtwoord-vergeten" className="text-forest-dark underline-offset-2 hover:underline">
+            Wachtwoord vergeten?
+          </Link>
+        </p>
+
+        <p className="mt-4 text-center text-xs text-ink-dim">
           Nog geen account?{" "}
           <Link href="/registreren" className="text-forest-dark underline-offset-2 hover:underline">
             Registreer hier
