@@ -1,6 +1,12 @@
 "use client";
 
-import { useState } from "react";
+import Link from "next/link";
+import { useEffect, useState } from "react";
+import { registreerAntwoord } from "@/app/voortgang-actions";
+
+const ACTIEF_KIND_KEY = "oefenplatform_actief_kind";
+
+type Kind = { id: string; naam: string };
 
 type Vraag = {
   id: string;
@@ -114,10 +120,35 @@ function VraagKaart({
   );
 }
 
-export function Quiz({ vragen }: { vragen: Vraag[] }) {
+export function Quiz({ vragen, kinderen = [] }: { vragen: Vraag[]; kinderen?: Kind[] }) {
   const [statussen, setStatussen] = useState<Record<string, Status>>(() =>
     Object.fromEntries(vragen.map((v) => [v.id, { gecontroleerd: false, correct: false, gegevenAntwoord: null }]))
   );
+  const [actiefKindId, setActiefKindId] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (!kinderen.length) return;
+    let opgeslagen: string | null = null;
+    try {
+      opgeslagen = localStorage.getItem(ACTIEF_KIND_KEY);
+    } catch {
+      // privénavigatie of geblokkeerde opslag: gewoon zonder onthouden verdergaan
+    }
+    const geldig = opgeslagen && kinderen.some((k) => k.id === opgeslagen);
+    // Synchroniseert met localStorage (een externe bron) na mount — bewust hier,
+    // niet in de lazy state-initializer, om een server/client-mismatch te vermijden.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setActiefKindId(geldig ? opgeslagen : kinderen[0].id);
+  }, [kinderen]);
+
+  const kiesKind = (id: string) => {
+    setActiefKindId(id);
+    try {
+      localStorage.setItem(ACTIEF_KIND_KEY, id);
+    } catch {
+      // ignore
+    }
+  };
 
   const aantalGecontroleerd = Object.values(statussen).filter((s) => s.gecontroleerd).length;
   const aantalCorrect = Object.values(statussen).filter((s) => s.correct).length;
@@ -134,6 +165,35 @@ export function Quiz({ vragen }: { vragen: Vraag[] }) {
 
   return (
     <div className="mt-8 space-y-4">
+      {kinderen.length > 1 && (
+        <div className="flex items-center gap-2 text-sm">
+          <label htmlFor="actief-kind" className="text-ink-dim">
+            Wie oefent er:
+          </label>
+          <select
+            id="actief-kind"
+            value={actiefKindId ?? ""}
+            onChange={(e) => kiesKind(e.target.value)}
+            className="rounded-md border border-border bg-surface px-2 py-1 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest"
+          >
+            {kinderen.map((k) => (
+              <option key={k.id} value={k.id}>
+                {k.naam}
+              </option>
+            ))}
+          </select>
+        </div>
+      )}
+      {kinderen.length === 0 && (
+        <p className="rounded-md bg-info/10 px-3 py-2 text-xs text-info">
+          Voortgang wordt niet bijgehouden.{" "}
+          <Link href="/account" className="underline underline-offset-2">
+            Voeg een kind toe aan je account
+          </Link>{" "}
+          om een rapport per kind te krijgen.
+        </p>
+      )}
+
       {vragen.map((vraag) => (
         <VraagKaart
           key={vraag.id}
@@ -142,12 +202,16 @@ export function Quiz({ vragen }: { vragen: Vraag[] }) {
           onAntwoord={(v) =>
             setStatussen((s) => ({ ...s, [vraag.id]: { ...s[vraag.id], gegevenAntwoord: v } }))
           }
-          onControleer={() =>
+          onControleer={() => {
+            const correct = isCorrect(vraag, statussen[vraag.id].gegevenAntwoord);
             setStatussen((s) => ({
               ...s,
-              [vraag.id]: { ...s[vraag.id], gecontroleerd: true, correct: isCorrect(vraag, s[vraag.id].gegevenAntwoord) },
-            }))
-          }
+              [vraag.id]: { ...s[vraag.id], gecontroleerd: true, correct },
+            }));
+            if (actiefKindId) {
+              registreerAntwoord(actiefKindId, vraag.id, correct).catch(() => {});
+            }
+          }}
         />
       ))}
 

@@ -44,6 +44,10 @@ export default async function HoofdstukPage({
         .order("volgnummer", { ascending: true })
     : { data: [] };
 
+  const { data: kinderen } = session
+    ? await supabase.from("kinderen").select("id, naam").eq("profile_id", session.userId).order("naam")
+    : { data: [] };
+
   return (
     <>
       <Header naam={session?.profile?.full_name} rol={session?.profile?.role} />
@@ -71,7 +75,7 @@ export default async function HoofdstukPage({
             </Link>
           </div>
         ) : (
-          <Quiz vragen={vragen ?? []} />
+          <Quiz vragen={vragen ?? []} kinderen={kinderen ?? []} />
         )}
       </main>
     </>

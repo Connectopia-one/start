@@ -51,6 +51,19 @@ export default async function BeheerPage() {
               Codes beheren &rarr;
             </Link>
           </section>
+
+          <section>
+            <h2 className="font-display text-lg font-semibold text-ink">Voortgang</h2>
+            <p className="mt-3 text-sm text-ink-dim">
+              Score en aantal beantwoorde vragen per kind, over alle vakken heen.
+            </p>
+            <Link
+              href="/beheer/voortgang"
+              className="mt-4 inline-block rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
+            >
+              Voortgang bekijken &rarr;
+            </Link>
+          </section>
         </div>
       </main>
     </>

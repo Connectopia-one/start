@@ -95,6 +95,21 @@ Log in op `/beheer` met je beheerdersaccount:
 Ouders registreren zichzelf op `/registreren` en kunnen op `/betalen` volledige toegang voor het
 schooljaar vrijgeven.
 
+## Voortgang &amp; score per kind
+
+Op `/account` kan een ouder één of meerdere kinderen toevoegen (handig als broers/zussen allebei
+oefenen via hetzelfde account). Bij het oefenen kiest men — indien er meer dan één kind is —
+voor wie de score bijgehouden wordt; bij één kind gebeurt dit automatisch.
+
+- **Ouders** zien op `/account/kinderen/[id]` een rapport per kind: score per hoofdstuk, en
+  wanneer het laatst geoefend werd.
+- **Jij (beheerder)** ziet op `/beheer/voortgang` een overzicht van alle kinderen, met score en
+  aantal beantwoorde vragen, en kan doorklikken naar het rapport per kind.
+
+Elke beantwoorde vraag wordt bewaard (ook bij herkansen) — zo blijft de volledige geschiedenis
+zichtbaar, niet enkel de laatste poging. Zonder ingelogd account (bv. bij het gratis
+proefhoofdstuk als bezoeker) wordt niets bijgehouden.
+
 ## Vraagtypes
 
 | Type | `opties` | `antwoord` |
@@ -107,8 +122,8 @@ schooljaar vrijgeven.
 
 - Toegang is platformbreed (alles of niets betaald), niet per vak instelbaar — dat kan later
   verfijnd worden.
-- Geen voortgang/score-geschiedenis per kind wordt bewaard — enkel het resultaat binnen de
-  huidige sessie in de browser.
+- Bij meerdere kinderen op één account moet er vóór het oefenen bewust het juiste kind gekozen
+  worden — dat wordt onthouden per browser, maar niet automatisch herkend.
 - Eén betaling geldt per account voor het volledige lopende schooljaar; verlenging naar een nieuw
   schooljaar vereist een nieuwe betaling (dit zetten we later eventueel om naar een herinnering per
   e-mail).

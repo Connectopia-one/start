@@ -69,6 +69,24 @@ create table if not exists public.vragen (
   created_at timestamptz not null default now()
 );
 
+-- Kinderen — een gezinsaccount kan meerdere kinderen registreren (bv. broers/zussen).
+create table if not exists public.kinderen (
+  id uuid primary key default gen_random_uuid(),
+  profile_id uuid not null references public.profiles(id) on delete cascade,
+  naam text not null,
+  created_at timestamptz not null default now()
+);
+
+-- Voortgang — één rij per beantwoorde vraag. Wordt nooit overschreven bij een
+-- herkansing (blijft dus een geschiedenis), zodat een rapport ook evolutie kan tonen.
+create table if not exists public.voortgang (
+  id uuid primary key default gen_random_uuid(),
+  kind_id uuid not null references public.kinderen(id) on delete cascade,
+  vraag_id uuid not null references public.vragen(id) on delete cascade,
+  correct boolean not null,
+  beantwoord_op timestamptz not null default now()
+);
+
 -- Betalingen — één rij per Mollie-poging. status wordt bijgewerkt door de
 -- Mollie-webhook; profiles.toegang_schooljaar wordt pas gezet zodra status = 'betaald'.
 create table if not exists public.betalingen (
@@ -137,6 +155,8 @@ alter table public.vakken enable row level security;
 alter table public.hoofdstukken enable row level security;
 alter table public.vragen enable row level security;
 alter table public.betalingen enable row level security;
+alter table public.kinderen enable row level security;
+alter table public.voortgang enable row level security;
 
 drop policy if exists "eigen profiel lezen" on public.profiles;
 create policy "eigen profiel lezen" on public.profiles for select
@@ -190,6 +210,31 @@ create policy "eigen betalingen lezen" on public.betalingen for select
 
 drop policy if exists "beheerder betalingen beheer" on public.betalingen;
 create policy "beheerder betalingen beheer" on public.betalingen for all
+  using (public.is_beheerder()) with check (public.is_beheerder());
+
+drop policy if exists "eigen kinderen beheer" on public.kinderen;
+create policy "eigen kinderen beheer" on public.kinderen for all
+  using (profile_id = auth.uid() or public.is_beheerder())
+  with check (profile_id = auth.uid() or public.is_beheerder());
+
+drop policy if exists "eigen kind voortgang lezen" on public.voortgang;
+create policy "eigen kind voortgang lezen" on public.voortgang for select
+  using (
+    public.is_beheerder() or exists (
+      select 1 from public.kinderen k where k.id = voortgang.kind_id and k.profile_id = auth.uid()
+    )
+  );
+
+drop policy if exists "eigen kind voortgang toevoegen" on public.voortgang;
+create policy "eigen kind voortgang toevoegen" on public.voortgang for insert
+  with check (
+    public.is_beheerder() or exists (
+      select 1 from public.kinderen k where k.id = voortgang.kind_id and k.profile_id = auth.uid()
+    )
+  );
+
+drop policy if exists "beheerder voortgang beheer" on public.voortgang;
+create policy "beheerder voortgang beheer" on public.voortgang for all
   using (public.is_beheerder()) with check (public.is_beheerder());
 
 -- ============================================================
