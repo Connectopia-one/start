@@ -62,12 +62,28 @@ export async function maakHoofdstuk(formData: FormData) {
     vak_id: vakId,
     titel,
     volgnummer: (count ?? 0) + 1,
-    gratis,
+    gratis: gratis || (await isEersteVanNiveau(admin, vakId, niveau)),
     niveau,
   });
 
   revalidatePath("/beheer/vakken");
   redirect("/beheer/vakken");
+}
+
+/** Het eerste hoofdstuk van elke categorie (niveau) binnen een vak is altijd
+ * gratis om uit te proberen — zo geeft elk vak een gratis staaltje op elk
+ * niveau, niet enkel op het allereerste (start-)niveau. */
+async function isEersteVanNiveau(
+  admin: ReturnType<typeof createAdminClient>,
+  vakId: string,
+  niveau: string
+): Promise<boolean> {
+  const { count } = await admin
+    .from("hoofdstukken")
+    .select("id", { count: "exact", head: true })
+    .eq("vak_id", vakId)
+    .eq("niveau", niveau);
+  return (count ?? 0) === 0;
 }
 
 export async function wisselGratis(formData: FormData) {
@@ -133,12 +149,15 @@ export async function bulkImportVakInhoud(formData: FormData) {
 
   const { data: bestaande } = await admin
     .from("hoofdstukken")
-    .select("id, titel")
+    .select("id, titel, niveau")
     .eq("vak_id", vakId);
 
   let volgendVolgnummer = (bestaande?.length ?? 0) + 1;
   const titelNaarId = new Map<string, string>();
   (bestaande ?? []).forEach((h) => titelNaarId.set(h.titel.trim().toLowerCase(), h.id));
+  // Het eerste hoofdstuk van elke categorie (niveau) binnen dit vak is altijd
+  // gratis om uit te proberen — zowel al bestaande als in deze import zelf.
+  const niveausMetHoofdstuk = new Set<string>((bestaande ?? []).map((h) => h.niveau));
 
   for (const hfst of payload!.hoofdstukken) {
     const titel = String(hfst.titel || "").trim();
@@ -147,9 +166,11 @@ export async function bulkImportVakInhoud(formData: FormData) {
 
     let hoofdstukId = titelNaarId.get(titel.toLowerCase());
     if (!hoofdstukId) {
+      const eersteVanNiveau = !niveausMetHoofdstuk.has(niveau);
+      niveausMetHoofdstuk.add(niveau);
       const { data: nieuw, error: hoofdstukFout } = await admin
         .from("hoofdstukken")
-        .insert({ vak_id: vakId, titel, volgnummer: volgendVolgnummer, gratis: !!hfst.gratis, niveau })
+        .insert({ vak_id: vakId, titel, volgnummer: volgendVolgnummer, gratis: !!hfst.gratis || eersteVanNiveau, niveau })
         .select("id")
         .single();
       if (hoofdstukFout || !nieuw) {

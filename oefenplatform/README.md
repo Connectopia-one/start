@@ -5,7 +5,11 @@ examencommissie — per vak opgedeeld in hoofdstukken met meerkeuzevragen, waar/
 en invuloefeningen.
 
 **Toegangsmodel:**
-- Van elk vak is het **eerste hoofdstuk gratis** te proberen, voor iedereen — ook zonder account.
+- Van elk vak is het **eerste hoofdstuk van elke categorie** (🌱 Start, ✨ Spark, 🚀 Boost, 🌍
+  Beyond) gratis te proberen, voor iedereen — ook zonder account. Dit gebeurt automatisch: het
+  eerste hoofdstuk dat je voor een nieuwe categorie binnen een vak aanmaakt (via het formulier of
+  bulk-import) wordt vanzelf op gratis gezet. Nadien kan je dit altijd handmatig aanpassen via de
+  "Gratis / Op slot"-knop op `/beheer/vakken`.
 - Kinderen van de **externe plusklas** hebben gratis **volledige** toegang (via een toegangscode
   bij registratie).
 - Andere ouders kunnen **volledige toegang vrijgeven voor €50 per schooljaar** (via Mollie,
