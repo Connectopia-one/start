@@ -518,6 +518,52 @@ from public.hoofdstukken h join public.vakken v on v.id = h.vak_id
 where v.slug = 'wiskunde' and h.volgnummer = 2
 on conflict (hoofdstuk_id, volgnummer) do nothing;
 
+-- Extra vragen 4-10 voor dit hoofdstuk: bewust verspreid over verschillende
+-- domeinen uit de vakfiche (niet enkel negatieve getallen/procenten), zodat
+-- dit ene hoofdstuk een representatief beeld geeft van de volledige leerstof.
+insert into public.vragen (hoofdstuk_id, volgnummer, type, vraag, opties, antwoord, uitleg)
+select h.id, 4, 'meerkeuze', 'Wat is 3/4 als percent?', '["34%", "75%", "43%"]'::jsonb, '1'::jsonb,
+  '3/4 = 0,75 = 75%.'
+from public.hoofdstukken h join public.vakken v on v.id = h.vak_id
+where v.slug = 'wiskunde' and h.volgnummer = 2
+on conflict (hoofdstuk_id, volgnummer) do nothing;
+insert into public.vragen (hoofdstuk_id, volgnummer, type, vraag, opties, antwoord, uitleg)
+select h.id, 5, 'meerkeuze', 'Hoeveel graden heeft een rechte hoek?', '["45°", "90°", "180°"]'::jsonb, '1'::jsonb,
+  'Een rechte hoek is exact 90°.'
+from public.hoofdstukken h join public.vakken v on v.id = h.vak_id
+where v.slug = 'wiskunde' and h.volgnummer = 2
+on conflict (hoofdstuk_id, volgnummer) do nothing;
+insert into public.vragen (hoofdstuk_id, volgnummer, type, vraag, opties, antwoord, uitleg)
+select h.id, 6, 'invultekst', '3,5 liter is gelijk aan ___ ml.', null, '"3500"'::jsonb,
+  '1 liter = 1000 ml, dus 3,5 liter = 3500 ml.'
+from public.hoofdstukken h join public.vakken v on v.id = h.vak_id
+where v.slug = 'wiskunde' and h.volgnummer = 2
+on conflict (hoofdstuk_id, volgnummer) do nothing;
+insert into public.vragen (hoofdstuk_id, volgnummer, type, vraag, opties, antwoord, uitleg)
+select h.id, 7, 'waarofniet', '(a+b)² is hetzelfde als a² + b².', null, 'false'::jsonb,
+  'Het klopt niet: (a+b)² = a² + 2ab + b² (het merkwaardig product).'
+from public.hoofdstukken h join public.vakken v on v.id = h.vak_id
+where v.slug = 'wiskunde' and h.volgnummer = 2
+on conflict (hoofdstuk_id, volgnummer) do nothing;
+insert into public.vragen (hoofdstuk_id, volgnummer, type, vraag, opties, antwoord, uitleg)
+select h.id, 8, 'meerkeuze', 'Los op: 3x - 4 = 11. Wat is x?', '["5", "7", "15"]'::jsonb, '0'::jsonb,
+  '3x = 15, dus x = 5.'
+from public.hoofdstukken h join public.vakken v on v.id = h.vak_id
+where v.slug = 'wiskunde' and h.volgnummer = 2
+on conflict (hoofdstuk_id, volgnummer) do nothing;
+insert into public.vragen (hoofdstuk_id, volgnummer, type, vraag, opties, antwoord, uitleg)
+select h.id, 9, 'invultekst', 'Bij de reeks 4, 6, 6, 8 is de modus gelijk aan ___.', null, '"6"'::jsonb,
+  'De modus is de waarde die het vaakst voorkomt — hier is dat 6.'
+from public.hoofdstukken h join public.vakken v on v.id = h.vak_id
+where v.slug = 'wiskunde' and h.volgnummer = 2
+on conflict (hoofdstuk_id, volgnummer) do nothing;
+insert into public.vragen (hoofdstuk_id, volgnummer, type, vraag, opties, antwoord, uitleg)
+select h.id, 10, 'meerkeuze', 'Het symbool ∪ betekent:', '["doorsnede", "unie", "verschil"]'::jsonb, '1'::jsonb,
+  '∪ staat voor de unie: alle elementen die in minstens één van beide verzamelingen zitten.'
+from public.hoofdstukken h join public.vakken v on v.id = h.vak_id
+where v.slug = 'wiskunde' and h.volgnummer = 2
+on conflict (hoofdstuk_id, volgnummer) do nothing;
+
 -- Wiskunde — Boost
 insert into public.vragen (hoofdstuk_id, volgnummer, type, vraag, opties, antwoord, uitleg)
 select h.id, 1, 'meerkeuze', 'Los op: 2x + 3 = 11. x = ?', '["3", "4", "5"]'::jsonb, '1'::jsonb,
