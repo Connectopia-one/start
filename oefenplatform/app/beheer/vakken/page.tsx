@@ -9,11 +9,47 @@ import {
   wisselGratis,
   verwijderHoofdstuk,
   wisselRekenmachine,
+  bulkImportVakInhoud,
 } from "../actions";
 import { NIVEAUS, vindNiveau } from "@/lib/niveaus";
 
 type Hoofdstuk = { id: string; titel: string; volgnummer: number; gratis: boolean; niveau: string };
 type Vak = { id: string; naam: string; slug: string; rekenmachine: boolean; hoofdstukken: Hoofdstuk[] };
+
+const VOORBEELD_VAK_JSON = `{
+  "hoofdstukken": [
+    {
+      "titel": "Probleemoplossend denken",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 7 x 8?",
+          "opties": ["54", "56", "58"],
+          "antwoord": 1,
+          "uitleg": "7 x 8 = 56"
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een vierkant heeft 4 gelijke zijden.",
+          "antwoord": true
+        }
+      ]
+    },
+    {
+      "titel": "Getallenleer",
+      "niveau": "spark",
+      "vragen": [
+        {
+          "type": "invultekst",
+          "vraag": "3/4 als procent is ___.",
+          "antwoord": "75%"
+        }
+      ]
+    }
+  ]
+}`;
 
 export default async function BeheerVakkenPage({
   searchParams,
@@ -138,6 +174,40 @@ export default async function BeheerVakkenPage({
                   Toevoegen
                 </button>
               </form>
+
+              <details className="mt-4 rounded-lg border border-border">
+                <summary className="cursor-pointer px-3 py-2 text-sm font-medium text-ink">
+                  Bulk-import: meerdere hoofdstukken tegelijk (JSON)
+                </summary>
+                <div className="border-t border-border p-3">
+                  <p className="text-sm text-ink-dim">
+                    Plak hier vragen voor meerdere hoofdstukken in één keer — handig na het
+                    voorbereiden met DeepSeek/Gemini op basis van een vakfiche. Een hoofdstuk met
+                    een titel die hierboven al bestaat krijgt de vragen erbij; een nieuwe titel
+                    wordt automatisch als hoofdstuk aangemaakt. Vraag je AI-tool om exact dit
+                    formaat te gebruiken:
+                  </p>
+                  <pre className="mt-3 overflow-x-auto rounded-md bg-paper p-3 text-xs text-ink-dim">
+                    {VOORBEELD_VAK_JSON}
+                  </pre>
+                  <form action={bulkImportVakInhoud} className="mt-3 space-y-3">
+                    <input type="hidden" name="vak_id" value={vak.id} />
+                    <textarea
+                      name="json"
+                      required
+                      rows={8}
+                      placeholder={VOORBEELD_VAK_JSON}
+                      className="w-full rounded-md border border-border bg-paper px-3 py-2 font-mono text-xs outline-none focus:border-forest focus:ring-1 focus:ring-forest"
+                    />
+                    <button
+                      type="submit"
+                      className="rounded-md bg-forest px-4 py-2 text-sm font-medium text-white hover:bg-forest-dark"
+                    >
+                      Importeren
+                    </button>
+                  </form>
+                </div>
+              </details>
             </section>
           ))}
         </div>

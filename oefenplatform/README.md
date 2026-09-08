@@ -104,6 +104,10 @@ Log in op `/beheer` met je beheerdersaccount:
 - Klik op een hoofdstuk om **vragen** toe te voegen — één voor één via het formulier, of in bulk
   door een JSON-lijst te plakken (handig als je vragen al voorbereidde met DeepSeek/Gemini — het
   gewenste formaat staat op die pagina).
+- Op `/beheer/vakken`, onder elk vak: **"Bulk-import: meerdere hoofdstukken tegelijk (JSON)"** —
+  plak in één keer hoofdstukken mét hun vragen voor een heel vak (bv. op basis van een vakfiche).
+  Een hoofdstuktitel die al bestaat krijgt de vragen erbij; een nieuwe titel wordt automatisch
+  aangemaakt als hoofdstuk.
 - Op diezelfde pagina, onder **"Leerstof (theorie)"**: upload een PDF-leerbundel voor dat
   hoofdstuk. Kinderen zien die op een apart tabblad ("Leerstof") naast de oefeningen — met
   dezelfde toegang (gratis hoofdstuk = voor iedereen, anders volledige toegang nodig).

@@ -88,3 +88,108 @@ export async function verwijderHoofdstuk(formData: FormData) {
   revalidatePath("/beheer/vakken");
   redirect("/beheer/vakken");
 }
+
+type BulkVraag = {
+  type: "meerkeuze" | "invultekst" | "waarofniet";
+  vraag: string;
+  opties?: string[] | null;
+  antwoord: number | string | boolean;
+  uitleg?: string | null;
+};
+
+type BulkHoofdstuk = {
+  titel: string;
+  niveau?: string;
+  gratis?: boolean;
+  vragen: BulkVraag[];
+};
+
+/**
+ * Importeert in één keer meerdere hoofdstukken (met hun vragen) voor een vak.
+ * Een hoofdstuk met een titel die al bestaat binnen dit vak krijgt de nieuwe
+ * vragen erbij toegevoegd; een onbekende titel wordt als nieuw hoofdstuk
+ * aangemaakt (aan het einde van de bestaande hoofdstukkenlijst).
+ */
+export async function bulkImportVakInhoud(formData: FormData) {
+  await requireBeheerder();
+  const vakId = String(formData.get("vak_id") || "");
+  const json = String(formData.get("json") || "").trim();
+  if (!vakId) redirect("/beheer/vakken?fout=" + encodeURIComponent("Onbekend vak."));
+
+  let payload: { hoofdstukken: BulkHoofdstuk[] };
+  try {
+    payload = JSON.parse(json);
+    if (!payload || !Array.isArray(payload.hoofdstukken)) {
+      throw new Error('Verwacht een object met een "hoofdstukken"-lijst.');
+    }
+  } catch (e) {
+    redirect(
+      "/beheer/vakken?fout=" +
+        encodeURIComponent("Ongeldige JSON: " + (e instanceof Error ? e.message : "onbekende fout"))
+    );
+  }
+
+  const admin = createAdminClient();
+
+  const { data: bestaande } = await admin
+    .from("hoofdstukken")
+    .select("id, titel")
+    .eq("vak_id", vakId);
+
+  let volgendVolgnummer = (bestaande?.length ?? 0) + 1;
+  const titelNaarId = new Map<string, string>();
+  (bestaande ?? []).forEach((h) => titelNaarId.set(h.titel.trim().toLowerCase(), h.id));
+
+  for (const hfst of payload!.hoofdstukken) {
+    const titel = String(hfst.titel || "").trim();
+    if (!titel) continue;
+    const niveau = NIVEAUS.some((n) => n.slug === hfst.niveau) ? hfst.niveau! : "start";
+
+    let hoofdstukId = titelNaarId.get(titel.toLowerCase());
+    if (!hoofdstukId) {
+      const { data: nieuw, error: hoofdstukFout } = await admin
+        .from("hoofdstukken")
+        .insert({ vak_id: vakId, titel, volgnummer: volgendVolgnummer, gratis: !!hfst.gratis, niveau })
+        .select("id")
+        .single();
+      if (hoofdstukFout || !nieuw) {
+        redirect(
+          "/beheer/vakken?fout=" +
+            encodeURIComponent(`Hoofdstuk "${titel}" aanmaken mislukt: ${hoofdstukFout?.message ?? "onbekende fout"}`)
+        );
+      }
+      hoofdstukId = nieuw!.id as string;
+      titelNaarId.set(titel.toLowerCase(), hoofdstukId);
+      volgendVolgnummer += 1;
+    }
+
+    const vragen = Array.isArray(hfst.vragen) ? hfst.vragen : [];
+    if (!vragen.length) continue;
+
+    const { count } = await admin
+      .from("vragen")
+      .select("id", { count: "exact", head: true })
+      .eq("hoofdstuk_id", hoofdstukId);
+
+    const rijen = vragen.map((v, i) => ({
+      hoofdstuk_id: hoofdstukId,
+      volgnummer: (count ?? 0) + i + 1,
+      type: v.type,
+      vraag: v.vraag,
+      opties: v.opties ?? null,
+      antwoord: v.antwoord,
+      uitleg: v.uitleg ?? null,
+    }));
+
+    const { error: vragenFout } = await admin.from("vragen").insert(rijen);
+    if (vragenFout) {
+      redirect(
+        "/beheer/vakken?fout=" +
+          encodeURIComponent(`Vragen voor "${titel}" importeren mislukt: ${vragenFout.message}`)
+      );
+    }
+  }
+
+  revalidatePath("/beheer/vakken");
+  redirect("/beheer/vakken");
+}
