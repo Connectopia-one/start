@@ -78,6 +78,7 @@ export default async function OverOnsPage() {
             <ul className="mt-2 list-disc space-y-1 pl-5 text-sm text-ink-dim">
               <li>Wiskunde</li>
               <li>Nederlands</li>
+              <li>Engels</li>
               <li>Geschiedenis</li>
               <li>Natuurwetenschappen</li>
             </ul>

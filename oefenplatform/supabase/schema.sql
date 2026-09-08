@@ -441,6 +441,15 @@ insert into public.vakken (naam, slug, volgorde, rekenmachine)
 values ('Natuurwetenschappen', 'natuurwetenschappen', 3, true)
 on conflict (slug) do nothing;
 
+-- Geschiedenis en Engels — nog zonder hoofdstukken, toe te voegen via /beheer/vakken.
+insert into public.vakken (naam, slug, volgorde, rekenmachine)
+values ('Geschiedenis', 'geschiedenis', 4, false)
+on conflict (slug) do nothing;
+
+insert into public.vakken (naam, slug, volgorde, rekenmachine)
+values ('Engels', 'engels', 5, false)
+on conflict (slug) do nothing;
+
 -- Voor bestaande installaties die deze vakken al eerder aanmaakten (dus vóór
 -- "rekenmachine" bestond): alsnog aanzetten voor Wiskunde/Natuurwetenschappen.
 update public.vakken set rekenmachine = true where slug in ('wiskunde', 'natuurwetenschappen');
