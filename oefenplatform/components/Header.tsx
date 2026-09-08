@@ -18,6 +18,9 @@ export function Header({
           <Link href="/" className="text-forest-dark hover:underline">
             Vakken
           </Link>
+          <Link href="/over-ons" className="text-forest-dark hover:underline">
+            Over ons
+          </Link>
           {rol === "beheerder" && (
             <Link href="/beheer" className="text-forest-dark hover:underline">
               Beheer
