@@ -3,8 +3,9 @@ import { notFound } from "next/navigation";
 import { requireBeheerder } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { Header } from "@/components/Header";
-import { maakVraag, bulkImportVragen, verwijderVraag, verwijderLeerstof } from "./actions";
+import { bulkImportVragen, verwijderVraag, verwijderLeerstof } from "./actions";
 import { NieuwLeerstofForm } from "./NieuwLeerstofForm";
+import { NieuwVraagForm } from "./NieuwVraagForm";
 
 const VOORBEELD_JSON = `[
   {
@@ -23,6 +24,13 @@ const VOORBEELD_JSON = `[
     "type": "invultekst",
     "vraag": "De hoofdstad van Frankrijk is ___.",
     "antwoord": "Parijs"
+  },
+  {
+    "type": "meerkeuze",
+    "vraag": "Welke hoek zie je in de afbeelding?",
+    "opties": ["Scherpe hoek", "Rechte hoek", "Stompe hoek"],
+    "antwoord": 1,
+    "afbeelding_url": "https://voorbeeld.com/rechte-hoek.png"
   }
 ]`;
 
@@ -50,11 +58,20 @@ export default async function BeheerVragenPage({
     .single();
   if (!hoofdstuk) notFound();
 
-  const { data: vragen } = await supabase
+  const { data: vragenRuw } = await supabase
     .from("vragen")
-    .select("id, volgnummer, type, vraag, opties, antwoord, uitleg")
+    .select("id, volgnummer, type, vraag, opties, antwoord, uitleg, afbeelding_pad")
     .eq("hoofdstuk_id", hoofdstuk.id)
     .order("volgnummer", { ascending: true });
+
+  const vragen = await Promise.all(
+    (vragenRuw ?? []).map(async (v) => {
+      if (!v.afbeelding_pad) return { ...v, afbeeldingUrl: null as string | null };
+      if (v.afbeelding_pad.startsWith("http")) return { ...v, afbeeldingUrl: v.afbeelding_pad };
+      const { data } = await supabase.storage.from("vraagafbeeldingen").createSignedUrl(v.afbeelding_pad, 3600);
+      return { ...v, afbeeldingUrl: data?.signedUrl ?? null };
+    })
+  );
 
   const { data: leerstof } = await supabase
     .from("leerstof")
@@ -76,7 +93,7 @@ export default async function BeheerVragenPage({
         {fout && <p className="mt-4 rounded-md bg-danger/10 px-3 py-2 text-sm text-danger">{fout}</p>}
 
         <ul className="mt-6 space-y-2">
-          {(vragen ?? []).map((v) => (
+          {vragen.map((v) => (
             <li key={v.id} className="rounded-lg border border-border bg-surface p-3 text-sm">
               <div className="flex items-start justify-between gap-3">
                 <div>
@@ -88,6 +105,21 @@ export default async function BeheerVragenPage({
                     {v.opties ? ` · opties: ${(v.opties as string[]).join(", ")}` : ""} · antwoord:{" "}
                     {JSON.stringify(v.antwoord)}
                   </p>
+                  {v.afbeeldingUrl && (
+                    <a
+                      href={v.afbeeldingUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mt-2 inline-block"
+                    >
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src={v.afbeeldingUrl}
+                        alt="Afbeelding bij de vraag"
+                        className="max-h-32 rounded-md border border-border"
+                      />
+                    </a>
+                  )}
                 </div>
                 <form action={verwijderVraag}>
                   <input type="hidden" name="id" value={v.id} />
@@ -100,84 +132,22 @@ export default async function BeheerVragenPage({
               </div>
             </li>
           ))}
-          {!vragen?.length && <li className="text-sm text-ink-dim">Nog geen vragen.</li>}
+          {!vragen.length && <li className="text-sm text-ink-dim">Nog geen vragen.</li>}
         </ul>
 
         <section className="mt-8 rounded-xl border border-border bg-surface p-5">
           <h2 className="font-display text-base font-semibold text-ink">Vraag toevoegen</h2>
-          <form action={maakVraag} className="mt-4 space-y-3">
-            <input type="hidden" name="hoofdstuk_id" value={hoofdstuk.id} />
-            <input type="hidden" name="vak_slug" value={vakSlug} />
-            <input type="hidden" name="volgnummer" value={volgnummerStr} />
-
-            <div className="space-y-1.5">
-              <label className="text-sm font-medium text-ink">Type</label>
-              <select
-                name="type"
-                className="w-full rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest"
-              >
-                <option value="meerkeuze">Meerkeuze</option>
-                <option value="waarofniet">Waar of niet waar</option>
-                <option value="invultekst">Invultekst</option>
-              </select>
-            </div>
-
-            <div className="space-y-1.5">
-              <label className="text-sm font-medium text-ink">Vraag</label>
-              <textarea
-                name="vraag"
-                required
-                rows={2}
-                className="w-full rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest"
-              />
-            </div>
-
-            <div className="space-y-1.5">
-              <label className="text-sm font-medium text-ink">
-                Opties <span className="font-normal text-ink-dim">(enkel bij meerkeuze, één per regel)</span>
-              </label>
-              <textarea
-                name="opties"
-                rows={3}
-                className="w-full rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest"
-              />
-            </div>
-
-            <div className="space-y-1.5">
-              <label className="text-sm font-medium text-ink">Antwoord</label>
-              <input
-                name="antwoord"
-                required
-                placeholder='Meerkeuze: index (0, 1, 2...) · Waar/niet: "waar" of "niet waar" · Invultekst: het juiste woord'
-                className="w-full rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest"
-              />
-            </div>
-
-            <div className="space-y-1.5">
-              <label className="text-sm font-medium text-ink">
-                Uitleg <span className="font-normal text-ink-dim">(optioneel)</span>
-              </label>
-              <textarea
-                name="uitleg"
-                rows={2}
-                className="w-full rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest"
-              />
-            </div>
-
-            <button
-              type="submit"
-              className="rounded-md bg-forest px-4 py-2 text-sm font-medium text-white hover:bg-forest-dark"
-            >
-              Vraag toevoegen
-            </button>
-          </form>
+          <NieuwVraagForm hoofdstukId={hoofdstuk.id} vakSlug={vakSlug} volgnummer={volgnummerStr} />
         </section>
 
         <section className="mt-8 rounded-xl border border-border bg-surface p-5">
           <h2 className="font-display text-base font-semibold text-ink">Bulk-import via JSON</h2>
           <p className="mt-2 text-sm text-ink-dim">
             Plak hier een JSON-lijst met vragen — handig als je ze al met DeepSeek/Gemini
-            voorbereid hebt. Vraag je AI-tool om exact dit formaat te gebruiken:
+            voorbereid hebt. Vraag je AI-tool om exact dit formaat te gebruiken. Het veld
+            <code className="mx-1 rounded bg-paper px-1 py-0.5 text-xs">afbeelding_url</code>
+            is optioneel — enkel een volledige externe link (geen upload mogelijk via bulk-import;
+            gebruik daarvoor het formulier &quot;Vraag toevoegen&quot; hieronder).
           </p>
           <pre className="mt-3 overflow-x-auto rounded-md bg-paper p-3 text-xs text-ink-dim">
             {VOORBEELD_JSON}

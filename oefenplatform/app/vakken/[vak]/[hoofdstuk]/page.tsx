@@ -41,13 +41,23 @@ export default async function HoofdstukPage({
 
   const magVolledig = hoofdstukToegankelijk(hoofdstuk.gratis, session?.profile ?? null);
 
-  const { data: vragen } = magVolledig
+  const { data: vragenRuw } = magVolledig
     ? await supabase
         .from("vragen")
-        .select("id, type, vraag, opties, antwoord, uitleg, volgnummer")
+        .select("id, type, vraag, opties, antwoord, uitleg, volgnummer, afbeelding_pad")
         .eq("hoofdstuk_id", hoofdstuk.id)
         .order("volgnummer", { ascending: true })
     : { data: [] };
+
+  const vragen = await Promise.all(
+    (vragenRuw ?? []).map(async (v) => {
+      const { afbeelding_pad, ...rest } = v;
+      if (!afbeelding_pad) return { ...rest, afbeeldingUrl: null as string | null };
+      if (afbeelding_pad.startsWith("http")) return { ...rest, afbeeldingUrl: afbeelding_pad };
+      const { data } = await supabase.storage.from("vraagafbeeldingen").createSignedUrl(afbeelding_pad, 3600);
+      return { ...rest, afbeeldingUrl: data?.signedUrl ?? null };
+    })
+  );
 
   const { data: kinderen } = session
     ? await supabase.from("kinderen").select("id, naam").eq("profile_id", session.userId).order("naam")
@@ -97,7 +107,7 @@ export default async function HoofdstukPage({
         ) : (
           <HoofdstukTabs
             aantalLeerstof={leerstof.length}
-            oefeningen={<Quiz vragen={vragen ?? []} kinderen={kinderen ?? []} hoofdstukId={hoofdstuk.id} />}
+            oefeningen={<Quiz vragen={vragen} kinderen={kinderen ?? []} hoofdstukId={hoofdstuk.id} />}
             rekenmachine={vak.rekenmachine ? <GeoGebraCalculator /> : null}
             leerstof={
               <div className="mt-6 space-y-2">

@@ -16,6 +16,7 @@ type Vraag = {
   antwoord: number | string | boolean;
   uitleg: string | null;
   volgnummer: number;
+  afbeeldingUrl?: string | null;
 };
 
 type Status = { gecontroleerd: boolean; correct: boolean; gegevenAntwoord: string | number | boolean | null };
@@ -44,6 +45,15 @@ function VraagKaart({
   return (
     <div className="rounded-xl border border-border bg-surface p-5">
       <p className="font-medium text-ink">{vraag.vraag}</p>
+
+      {vraag.afbeeldingUrl && (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
+          src={vraag.afbeeldingUrl}
+          alt="Afbeelding bij deze vraag"
+          className="mt-3 max-h-64 rounded-md border border-border"
+        />
+      )}
 
       {vraag.type === "meerkeuze" && (
         <div className="mt-3 space-y-2">

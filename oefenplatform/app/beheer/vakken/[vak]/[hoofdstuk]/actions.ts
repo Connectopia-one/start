@@ -11,12 +11,20 @@ type NieuweVraag = {
   opties?: string[] | null;
   antwoord: number | string | boolean;
   uitleg?: string | null;
+  /** Optioneel: een volledige externe URL naar een afbeelding (bv. na bulk-import). */
+  afbeelding_url?: string | null;
 };
 
 function terugPad(vakSlug: string, volgnummer: string) {
   return `/beheer/vakken/${vakSlug}/${volgnummer}`;
 }
 
+/**
+ * Wordt rechtstreeks aangeroepen vanuit NieuwVraagForm (een client component),
+ * niet als een `<form action>` — gooit daarom een gewone Error in plaats van
+ * te redirecten, zodat het formulier zelf de foutmelding kan tonen (dezelfde
+ * aanpak als registreerLeerstof hieronder).
+ */
 export async function maakVraag(formData: FormData) {
   await requireBeheerder();
   const hoofdstukId = String(formData.get("hoofdstuk_id") || "");
@@ -27,9 +35,10 @@ export async function maakVraag(formData: FormData) {
   const optiesRaw = String(formData.get("opties") || "").trim();
   const antwoordRaw = String(formData.get("antwoord") || "").trim();
   const uitleg = String(formData.get("uitleg") || "").trim() || null;
+  const afbeeldingPad = String(formData.get("afbeelding_pad") || "").trim() || null;
 
   if (!vraag || !antwoordRaw) {
-    redirect(terugPad(vakSlug, volgnummer) + "?fout=" + encodeURIComponent("Vul minstens de vraag en het antwoord in."));
+    throw new Error("Vul minstens de vraag en het antwoord in.");
   }
 
   const opties = type === "meerkeuze" ? optiesRaw.split("\n").map((r) => r.trim()).filter(Boolean) : null;
@@ -52,14 +61,12 @@ export async function maakVraag(formData: FormData) {
     opties,
     antwoord,
     uitleg,
+    afbeelding_pad: afbeeldingPad,
   });
 
-  if (error) {
-    redirect(terugPad(vakSlug, volgnummer) + "?fout=" + encodeURIComponent("Vraag toevoegen is niet gelukt: " + error.message));
-  }
+  if (error) throw new Error("Vraag toevoegen is niet gelukt: " + error.message);
 
   revalidatePath(terugPad(vakSlug, volgnummer));
-  redirect(terugPad(vakSlug, volgnummer));
 }
 
 export async function bulkImportVragen(formData: FormData) {
@@ -95,6 +102,7 @@ export async function bulkImportVragen(formData: FormData) {
     opties: v.opties ?? null,
     antwoord: v.antwoord,
     uitleg: v.uitleg ?? null,
+    afbeelding_pad: v.afbeelding_url ?? null,
   }));
 
   const { error } = await admin.from("vragen").insert(rijen);
@@ -113,10 +121,32 @@ export async function verwijderVraag(formData: FormData) {
   const volgnummer = String(formData.get("volgnummer") || "");
 
   const admin = createAdminClient();
+  const { data: vraag } = await admin.from("vragen").select("afbeelding_pad").eq("id", id).maybeSingle();
+  // Enkel opruimen in onze eigen bucket — een externe URL (bulk-import) is niet
+  // iets dat wij bewaren en dus niet iets dat wij kunnen/mogen verwijderen.
+  if (vraag?.afbeelding_pad && !vraag.afbeelding_pad.startsWith("http")) {
+    await admin.storage.from("vraagafbeeldingen").remove([vraag.afbeelding_pad]);
+  }
   await admin.from("vragen").delete().eq("id", id);
 
   revalidatePath(terugPad(vakSlug, volgnummer));
   redirect(terugPad(vakSlug, volgnummer));
+}
+
+/**
+ * Geeft een tijdelijke, rechtstreekse upload-link naar Supabase Storage terug
+ * voor een afbeelding bij een vraag (zelfde patroon als leerstof-uploads).
+ */
+export async function maakVraagAfbeeldingUploadUrl(hoofdstukId: string, bestandsnaam: string) {
+  await requireBeheerder();
+  const admin = createAdminClient();
+  const path = `${hoofdstukId}/${Date.now()}-${bestandsnaam}`;
+
+  const { data, error } = await admin.storage.from("vraagafbeeldingen").createSignedUploadUrl(path);
+  if (error || !data) {
+    throw new Error(error?.message || "Kon geen upload-link aanmaken.");
+  }
+  return { path: data.path, token: data.token };
 }
 
 /**

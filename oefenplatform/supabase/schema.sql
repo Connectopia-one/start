@@ -89,9 +89,15 @@ create table if not exists public.vragen (
   opties jsonb,
   antwoord jsonb not null,
   uitleg text,
+  afbeelding_pad text,
   created_at timestamptz not null default now(),
   unique (hoofdstuk_id, volgnummer)
 );
+
+-- Migratie voor databases die dit bestand al eerder draaiden vóór "afbeelding_pad"
+-- bestond. Bevat ofwel een pad in de "vraagafbeeldingen"-storage-bucket, ofwel
+-- een volledige externe URL (herkenbaar aan http(s)://) — zie ook verderop.
+alter table public.vragen add column if not exists afbeelding_pad text;
 
 -- Opkuis + migratie voor databases die dit bestand al eerder draaiden vóór de
 -- unique-regel hierboven bestond: dat liet dubbele voorbeeldvragen ontstaan bij
@@ -374,6 +380,34 @@ create policy "leerstof schrijven" on storage.objects for insert
 drop policy if exists "leerstof verwijderen" on storage.objects;
 create policy "leerstof verwijderen" on storage.objects for delete
   using (bucket_id = 'leerstof' and public.is_beheerder());
+
+-- Afbeeldingen bij vragen (bv. een meetkundige figuur) — zelfde opzet als
+-- leerstof, maar gekoppeld aan vragen.afbeelding_pad in plaats van een aparte
+-- tabel.
+insert into storage.buckets (id, name, public)
+values ('vraagafbeeldingen', 'vraagafbeeldingen', false)
+on conflict (id) do nothing;
+
+drop policy if exists "vraagafbeeldingen lezen storage" on storage.objects;
+create policy "vraagafbeeldingen lezen storage" on storage.objects for select
+  using (
+    bucket_id = 'vraagafbeeldingen' and (
+      public.is_beheerder() or exists (
+        select 1 from public.vragen v
+        join public.hoofdstukken h on h.id = v.hoofdstuk_id
+        where v.afbeelding_pad = storage.objects.name
+          and (h.gratis = true or public.heeft_toegang(auth.uid()))
+      )
+    )
+  );
+
+drop policy if exists "vraagafbeeldingen schrijven" on storage.objects;
+create policy "vraagafbeeldingen schrijven" on storage.objects for insert
+  with check (bucket_id = 'vraagafbeeldingen' and public.is_beheerder());
+
+drop policy if exists "vraagafbeeldingen verwijderen" on storage.objects;
+create policy "vraagafbeeldingen verwijderen" on storage.objects for delete
+  using (bucket_id = 'vraagafbeeldingen' and public.is_beheerder());
 
 -- ============================================================
 -- JOUW EIGEN BEHEERDER-ACCOUNT
