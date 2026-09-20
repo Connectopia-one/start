@@ -95,6 +95,14 @@ export const organisaties: Organisatie[] = [
     regio: "Diepenbeek",
   },
   {
+    naam: "Bekina",
+    categorie: "Partners die we kennen",
+    omschrijving:
+      "Vereniging voor hoogbegaafde kinderen en jongeren en hun (groot)ouders, leerkrachten en professionals. Met activiteiten, kampen, lezingen en publicaties.",
+    regio: "West- en Oost-Vlaanderen",
+    link: "https://bekina.org",
+  },
+  {
     naam: "Charlotte Vanneste",
     categorie: "Partners die we kennen",
     omschrijving:
