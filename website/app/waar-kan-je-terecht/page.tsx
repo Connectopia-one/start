@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Kaart, PaginaKop, Sectie } from "@/components/ui";
-import { gidsTekst, organisaties } from "@/content/gids";
+import { gidsTekst, organisaties, organisatiesPerCategorie } from "@/content/gids";
 
 export const metadata: Metadata = {
   title: "Waar kan je terecht",
@@ -15,7 +15,13 @@ export default function GidsPagina() {
     <>
       <PaginaKop label={gidsTekst.label} titel={gidsTekst.titel} tekst={gidsTekst.tekst} />
 
-      <Sectie className="grid gap-8 pb-8">
+      <Sectie className="py-6">
+        <p className="rounded-[20px] bg-sage-soft px-6 py-5 text-[15px] text-ink">
+          {gidsTekst.geenVoorkeur}
+        </p>
+      </Sectie>
+
+      <Sectie className="grid gap-8 pt-0 pb-8">
         {categorieen.length === 0 ? (
           <p className="text-ink-dim">{gidsTekst.leegTekst}</p>
         ) : (
@@ -23,9 +29,7 @@ export default function GidsPagina() {
             <div key={categorie}>
               <h2 className="text-2xl text-green">{categorie}</h2>
               <div className="mt-4 grid gap-4 sm:grid-cols-2">
-                {organisaties
-                  .filter((o) => o.categorie === categorie)
-                  .map((organisatie) => (
+                {organisatiesPerCategorie(categorie).map((organisatie) => (
                     <Kaart key={organisatie.naam}>
                       <div className="flex items-start justify-between gap-3">
                         <h3 className="text-xl text-green">{organisatie.naam}</h3>

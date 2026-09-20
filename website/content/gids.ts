@@ -20,6 +20,9 @@ export const gidsTekst = {
   titel: "Diensten en organisaties die we kennen",
   tekst:
     "Van psycholoog en logopedist tot bijlesleerkracht met kennis van hoogbegaafdheid, ook bij dubbele diagnoses. We verwijzen alleen door naar mensen en organisaties waar we zelf vertrouwen in hebben.",
+  /* Deze zin staat bovenaan de lijst, in een gekleurd kader. */
+  geenVoorkeur:
+    "We trekken hier niemand voor. Elke organisatie op deze lijst doet goed werk, en welke bij jouw kind en jouw gezin past is een heel persoonlijke keuze. De lijst staat dan ook op alfabetische volgorde en is geen rangschikking. Neem gerust bij meerdere een kijkje en voel zelf waar het klikt.",
   nota:
     "Deze gids groeit mee. Ken je iemand die hier hoort, of wil je er zelf in staan? Laat het ons weten.",
   oproepTekst: "Een organisatie aanbrengen",
@@ -30,6 +33,10 @@ export const gidsTekst = {
   nogGeenOmschrijving: "Meer uitleg volgt binnenkort.",
 };
 
+/*
+  De volgorde hieronder maakt niet uit: de site zet elke categorie zelf op
+  alfabetische volgorde. Zo staat er niemand vooraan en trekken we niemand voor.
+*/
 export const organisaties: Organisatie[] = [
   {
     naam: "CLB van de school",
@@ -55,20 +62,23 @@ export const organisaties: Organisatie[] = [
     naam: "Samen slimmer groeien",
     categorie: "Partners die we kennen",
     omschrijving:
-      "Testing, opvoedingsadvies en studiecoaching rond hoogbegaafdheid, thuis en op school. Met aandacht voor intense emoties, zijnskenmerken en talentontwikkeling, individueel of met het hele gezin. Ook groeigroepen voor kinderen en jongeren.",
+      "Testing, opvoedingsadvies en studiecoaching rond hoogbegaafdheid, thuis en op school. Ook groeigroepen voor kinderen en jongeren.",
     regio: "Heel Vlaanderen en online",
     link: "https://samenslimmergroeien.be",
   },
   {
     naam: "Exentra",
     categorie: "Partners die we kennen",
+    omschrijving:
+      "Expertisecentrum rond hoogbegaafdheid, voor kinderen en ouders, jongeren, volwassenen, scholen en CLB. Met een eigen online academy.",
+    regio: "Vlaanderen en Nederland",
     link: "https://exentra.be",
   },
   {
     naam: "Hoogbegaan",
     categorie: "Partners die we kennen",
     omschrijving:
-      "Adviesgesprekken voor ouders van (vermoedelijk) hoogbegaafde kinderen, en individuele begeleiding van kinderen en tieners rond faalangst, perfectionisme, leervaardigheden, emoties, onderpresteren en studiekeuze. Kan mee op gesprek op school, en geeft lezingen voor oudergroepen en verenigingen.",
+      "Adviesgesprekken voor ouders en individuele begeleiding van hoogbegaafde kinderen en tieners. Kan mee op gesprek op school, en geeft lezingen.",
     regio: "Pelt en online",
     link: "https://hoogbegaan.be",
   },
@@ -88,7 +98,14 @@ export const organisaties: Organisatie[] = [
     naam: "Katrien Volckaert",
     categorie: "Partners die we kennen",
     omschrijving:
-      "Oudercoach bij neurodiversiteit, coach bij rouw en levend verlies, en transformatiecoach. Deskundige in gecamoufleerd autisme bij cognitieve begaafdheid en in PDA, bekeken vanuit de zelfdeterminatietheorie. Geeft ook webinars, lezingen, opleidingen en workshops.",
+      "Oudercoach bij neurodiversiteit, met expertise in gecamoufleerd autisme bij cognitieve begaafdheid en in PDA. Geeft ook webinars, lezingen en workshops.",
     link: "https://www.katrienvolckaert.be",
   },
 ];
+
+/* Alfabetisch, zodat de volgorde geen rangschikking is. */
+export function organisatiesPerCategorie(categorie: string) {
+  return organisaties
+    .filter((o) => o.categorie === categorie)
+    .sort((a, b) => a.naam.localeCompare(b.naam, "nl"));
+}
