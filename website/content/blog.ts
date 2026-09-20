@@ -132,7 +132,8 @@ export const berichten: Bericht[] = [
         bestand: "boek-voorstelling.jpg",
         beschrijving:
           "De vrouwen achter het boek staan samen op het podium bij de voorstelling in KU Leuven.",
-        bijschrift: "De voorstelling van het boek bij KU Leuven, Campus Group T Leuven.",
+        bijschrift:
+          "De voorstelling van het boek bij KU Leuven, Campus Group T Leuven.",
       },
       {
         soort: "tekst",
@@ -142,7 +143,8 @@ export const berichten: Bericht[] = [
       {
         soort: "afbeelding",
         bestand: "boek-tekening.jpg",
-        beschrijving: "Een lijntekening van een meisje in een kleedje met hartjes.",
+        beschrijving:
+          "Een lijntekening van een meisje in een kleedje met hartjes.",
         klein: true,
       },
       {
@@ -176,8 +178,10 @@ export const berichten: Bericht[] = [
       {
         soort: "afbeelding",
         bestand: "forum-zaal.jpg",
-        beschrijving: "Een volle collegezaal tijdens de forumavond over hoogbegaafdheid.",
-        bijschrift: "Forumavond rond hoogbegaafdheid bij KU Leuven. Foto: Joren De Weerdt",
+        beschrijving:
+          "Een volle collegezaal tijdens de forumavond over hoogbegaafdheid.",
+        bijschrift:
+          "Forumavond rond hoogbegaafdheid bij KU Leuven. Foto: Joren De Weerdt",
       },
       {
         soort: "tekst",
@@ -187,8 +191,10 @@ export const berichten: Bericht[] = [
       {
         soort: "afbeelding",
         bestand: "forum-spreker.jpg",
-        beschrijving: "Een spreekster aan de lessenaar van KU Leuven tijdens de forumavond.",
-        bijschrift: "Forumavond rond hoogbegaafdheid bij KU Leuven. Foto: Joren De Weerdt",
+        beschrijving:
+          "Een spreekster aan de lessenaar van KU Leuven tijdens de forumavond.",
+        bijschrift:
+          "Forumavond rond hoogbegaafdheid bij KU Leuven. Foto: Joren De Weerdt",
       },
       {
         soort: "tekst",
@@ -209,8 +215,10 @@ export const berichten: Bericht[] = [
       {
         soort: "afbeelding",
         bestand: "forum-applaus.jpg",
-        beschrijving: "Een zaal vol mensen die applaudisseren na de voordracht.",
-        bijschrift: "Forumavond rond hoogbegaafdheid bij KU Leuven. Foto: Joren De Weerdt",
+        beschrijving:
+          "Een zaal vol mensen die applaudisseren na de voordracht.",
+        bijschrift:
+          "Forumavond rond hoogbegaafdheid bij KU Leuven. Foto: Joren De Weerdt",
       },
       {
         soort: "kop",
@@ -257,7 +265,8 @@ export const berichten: Bericht[] = [
           },
           {
             titel: "Volg Connectopia",
-            tekst: "Hoe meer mensen meebouwen, hoe sneller we een écht vangnet hebben.",
+            tekst:
+              "Hoe meer mensen meebouwen, hoe sneller we een écht vangnet hebben.",
           },
           {
             titel: "Maak hoogbegaafdheid bespreekbaar",
@@ -327,7 +336,8 @@ export const berichten: Bericht[] = [
       {
         soort: "afbeelding",
         bestand: "zomer-begeleiding.png",
-        beschrijving: "Een begeleidster en een ouder kijken samen met een kind naar een tekening.",
+        beschrijving:
+          "Een begeleidster en een ouder kijken samen met een kind naar een tekening.",
         klein: true,
       },
       { soort: "kop", tekst: "Waarom prikkelarm geen luxe is, maar noodzaak" },
@@ -339,14 +349,16 @@ export const berichten: Bericht[] = [
       { soort: "kop", tekst: "Samen bouwen aan vertrouwen" },
       {
         soort: "tekst",
-        tekst: "Wij geloven in een nieuwe aanpak. Een aanpak waarbij communicatie centraal staat:",
+        tekst:
+          "Wij geloven in een nieuwe aanpak. Een aanpak waarbij communicatie centraal staat:",
       },
       {
         soort: "lijst",
         punten: [
           {
             titel: "Transparantie",
-            tekst: "Ouders moeten zich op elk moment kunnen verzekeren dat het goed gaat.",
+            tekst:
+              "Ouders moeten zich op elk moment kunnen verzekeren dat het goed gaat.",
           },
           {
             titel: "Betrokkenheid",
@@ -379,7 +391,8 @@ export const berichten: Bericht[] = [
       {
         soort: "afbeelding",
         bestand: "zomer-samen-spelen.png",
-        beschrijving: "Vier kinderen spelen samen een gezelschapsspel op de grond.",
+        beschrijving:
+          "Vier kinderen spelen samen een gezelschapsspel op de grond.",
         link: "https://www.facebook.com/groups/2075601083022326/",
         klein: true,
       },
@@ -423,7 +436,8 @@ export const berichten: Bericht[] = [
   },
   {
     slug: "geen-kind-is-hetzelfde",
-    titel: "Geen kind is hetzelfde: waarom we moeten stoppen met het hokje “hoogbegaafd”",
+    titel:
+      "Geen kind is hetzelfde: waarom we moeten stoppen met het hokje “hoogbegaafd”",
     datum: "2026-02-28",
     auteur: "Kim",
     labels: ["persoonlijk"],
@@ -623,7 +637,10 @@ export const berichten: Bericht[] = [
       {
         soort: "lijst",
         punten: [
-          { titel: "Gespreid", tekst: "Liefst over meerdere dagen, om te kunnen verwerken." },
+          {
+            titel: "Gespreid",
+            tekst: "Liefst over meerdere dagen, om te kunnen verwerken.",
+          },
           {
             titel: "Gefocust",
             tekst:
@@ -676,12 +693,17 @@ export const berichten: Bericht[] = [
         tekst:
           "Heb je vragen of opmerkingen over dit artikel, of wil je graag eens babbelen? Aarzel niet om contact op te nemen. Lucas Dumoulin, telefoon +32 472 43 23 05.",
       },
-      { soort: "knop", tekst: "Mail Lucas", link: "mailto:dmlnlucas@gmail.com" },
+      {
+        soort: "knop",
+        tekst: "Mail Lucas",
+        link: "mailto:dmlnlucas@gmail.com",
+      },
     ],
   },
   {
     slug: "de-wijsheid-van-de-zoektocht",
-    titel: "De wijsheid van de zoektocht: waarom niemand de waarheid in pacht heeft (en dat oké is)",
+    titel:
+      "De wijsheid van de zoektocht: waarom niemand de waarheid in pacht heeft (en dat oké is)",
     datum: "2026-02-19",
     auteur: "Kim",
     labels: ["ervaringen", "persoonlijk"],
@@ -781,7 +803,8 @@ export const berichten: Bericht[] = [
       {
         soort: "afbeelding",
         bestand: "katrien-volckaert.jpg",
-        beschrijving: "Katrien Volckaert, lachend, voor groen struikgewas met gele bloemen.",
+        beschrijving:
+          "Katrien Volckaert, lachend, voor groen struikgewas met gele bloemen.",
       },
       {
         soort: "tekst",
@@ -855,7 +878,10 @@ export const berichten: Bericht[] = [
         tekst:
           "Autisme komt wel degelijk voor in combinatie met een hoge begaafdheid. En daar dienen we heel erg attent op te zijn. Misschien is het wel net binnen deze doelgroep van cognitief begaafde kinderen het meest noodzakelijk om autisme actief op te gaan sporen. Zodat we deze kinderen én hun omgeving kunnen ontschuldigen, en tegelijkertijd de hulp bieden die ze broodnodig hebben om zichzelf, met hun cognitieve begaafdheid, in de wereld te zetten.",
       },
-      { soort: "kop", tekst: "Waarom autisme zo vaak verkeerd gediagnosticeerd wordt" },
+      {
+        soort: "kop",
+        tekst: "Waarom autisme zo vaak verkeerd gediagnosticeerd wordt",
+      },
       {
         soort: "tekst",
         tekst:
@@ -882,12 +908,17 @@ export const berichten: Bericht[] = [
           "Op tijd herkenning, erkenning en gerichte ondersteuning krijgen, kan een wereld van verschil maken voor een kind. Tot zolang onze maatschappij er niet in slaagt op gebied van onderwijs onvoorwaardelijk naar de individuele noden van elk kind te kijken, zal de diagnose van autisme dan ook een belangrijke stap zijn voor de gezonde ontwikkeling van het kind met autisme. Zodat het aan de wereld ook zijn sterktes kan laten zien!",
       },
       { soort: "tekst", tekst: "Katrien Volckaert" },
-      { soort: "knop", tekst: "Naar katrienvolckaert.be", link: "https://www.katrienvolckaert.be" },
+      {
+        soort: "knop",
+        tekst: "Naar katrienvolckaert.be",
+        link: "https://www.katrienvolckaert.be",
+      },
     ],
   },
   {
     slug: "onze-wereld",
-    titel: "Onze wereld: een verhaal van liefde, complexiteit en onzichtbare kracht",
+    titel:
+      "Onze wereld: een verhaal van liefde, complexiteit en onzichtbare kracht",
     datum: "2026-02-09",
     auteur: "Kim",
     labels: ["persoonlijk"],
@@ -897,14 +928,18 @@ export const berichten: Bericht[] = [
       {
         soort: "afbeelding",
         bestand: "onze-wereld-kim-en-mats.jpg",
-        beschrijving: "Kim en haar zoon Mats, wang tegen wang, allebei lachend.",
+        beschrijving:
+          "Kim en haar zoon Mats, wang tegen wang, allebei lachend.",
       },
       {
         soort: "tekst",
         tekst:
           "Hallo lieve lezer, welkom in ons leven. Ik schrijf deze woorden niet als expert, maar als mens. Als moeder. Als partner. Als iemand die gelooft dat echte verbinding begint bij eerlijke verhalen. Dit is ons verhaal, een verhaal dat ik deel uit liefde en uit noodzaak. Uit liefde voor mijn gezin, en uit de noodzaak om te laten zien hoe het écht is. Om een raam open te zetten naar een wereld die vaak achter gesloten deuren blijft.",
       },
-      { soort: "kop", tekst: "Wie wij zijn: HB, ASS en een lichaam dat zijn eigen weg gaat" },
+      {
+        soort: "kop",
+        tekst: "Wie wij zijn: HB, ASS en een lichaam dat zijn eigen weg gaat",
+      },
       {
         soort: "tekst",
         tekst:
@@ -936,7 +971,10 @@ export const berichten: Bericht[] = [
         tekst:
           "De belasting is niet alleen mentaal, prikkels reguleren en overleven in een wereld die niet voor jou is ontworpen, maar ook puur fysiek: de uitputting van ziek zijn, pijn hebben, behandelingen geven, en herstellen. Het is een leven waarin vermoeidheid een te zwak woord is voor de diepe uitputting die soms komt aanwaaien.",
       },
-      { soort: "kop", tekst: "En toch kiezen we voor lachen, verbinding en gelijkwaardigheid" },
+      {
+        soort: "kop",
+        tekst: "En toch kiezen we voor lachen, verbinding en gelijkwaardigheid",
+      },
       {
         soort: "tekst",
         tekst:
@@ -975,9 +1013,16 @@ export const berichten: Bericht[] = [
         punten: [
           { tekst: "Een eerlijk en volledig beeld te schetsen." },
           { tekst: "Herkenning te bieden aan wie in eenzelfde bootje zit." },
-          { tekst: "Begrip te kweken bij familie, vrienden en de samenleving." },
-          { tekst: "De kracht en veerkracht te tonen die schuilgaat achter de uitdagingen." },
-          { tekst: "Te bewijzen dat kwetsbaarheid en kracht hand in hand gaan." },
+          {
+            tekst: "Begrip te kweken bij familie, vrienden en de samenleving.",
+          },
+          {
+            tekst:
+              "De kracht en veerkracht te tonen die schuilgaat achter de uitdagingen.",
+          },
+          {
+            tekst: "Te bewijzen dat kwetsbaarheid en kracht hand in hand gaan.",
+          },
         ],
       },
       {
@@ -1003,6 +1048,141 @@ export const berichten: Bericht[] = [
           "PS: voel je vrij om te reageren, een vraag te stellen of je eigen ervaring te delen. Deze ruimte is er om te leren, te steunen en te groeien, samen.",
       },
       { soort: "knop", tekst: "Deel je verhaal", link: "/contact" },
+    ],
+  },
+  {
+    slug: "na-de-school-en-in-de-vakantie",
+    titel: "Na de school en in de vakantie: dit doen we samen",
+    datum: "2026-09-20",
+    auteur: "Connectopia",
+    labels: ["aanbod", "naschools", "kampen", "techniek"],
+    samenvatting:
+      "Een rondleiding door onze plusklas, de twee pluswerkingen, de Young Engineers-lessen en de vakantiekampen. Met foto's van wat er op zo'n dag gebeurt.",
+    blokken: [
+      {
+        soort: "tekst",
+        tekst:
+          "Nieuwsgierigheid stopt niet als de schoolbel gaat. Bij heel wat kinderen begint ze dan pas: de vragen die ze de hele dag opgespaard hebben, het boek dat nog openligt, het ding dat ze willen bouwen. Daar maken wij tijd voor. Tijdens de week, op woensdag- en zaterdagvoormiddag, en in elke schoolvakantie.",
+      },
+      {
+        soort: "afbeelding",
+        bestand: "naschools-natuurkunde.jpg",
+        beschrijving:
+          "Een jongen houdt een visuele gids over natuurkunde open en kijkt over het boek heen.",
+        bijschrift: "Nieuwsgierigheid houdt zich niet aan een uurrooster.",
+        klein: true,
+      },
+      { soort: "kop", tekst: "De plusklas en de twee pluswerkingen" },
+      {
+        soort: "tekst",
+        tekst:
+          "Onze plusklas en pluswerkingen zijn er voor kinderen van 6 tot 12 jaar die net dat beetje extra uitdaging, begrip of ruimte nodig hebben. We werken in kleine groepjes, met aandacht voor het proces, de samenwerking en het plezier in leren.",
+      },
+      {
+        soort: "lijst",
+        punten: [
+          {
+            titel: "Externe plusklas",
+            tekst:
+              "Dinsdag van 9 tot 15 uur in Atheneum Hasselt, in drie trajecten van telkens tien dagen. Een veilige haven waar gelijkgestemde kinderen samen een diepgaand leertraject aangaan.",
+          },
+          {
+            titel: "Pluswerking woensdag",
+            tekst:
+              "Woensdagvoormiddag van 9 tot 12 uur in Genk T2 Campus. Meer schoolse uitdaging en voorbereiding op de examencommissie, voor schoolgaande kinderen en voor kinderen in thuisonderwijs.",
+          },
+          {
+            titel: "Pluswerking zaterdag",
+            tekst:
+              "Zaterdagvoormiddag van 9 tot 12 uur in de Vilderstraat 28 in Hasselt. Creativiteit en techniek laten samenkomen, met veel ruimte om te experimenteren.",
+          },
+        ],
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Later instappen kan, ook in oktober is er nog plaats. En wie eerst wil proeven: je kind mag vrijblijvend een gratis proefles meedoen, zodat het zelf voelt of de groep past voor je iets vastlegt.",
+      },
+      {
+        soort: "afbeelding",
+        bestand: "naschools-knutselmateriaal.jpg",
+        beschrijving:
+          "Een tafel vol knutselmateriaal: blikken, eierdozen, klei, kartonnen rollen en bekertjes, onder een muur met handgeschreven tekst.",
+        bijschrift:
+          "“Wat zou jij hiermee creëren?” De vraag staat letterlijk op de muur.",
+      },
+      { soort: "kop", tekst: "Young Engineers, samen met ons" },
+      {
+        soort: "tekst",
+        tekst:
+          "Voor onze naschoolse activiteiten rond STEM en techniek werken we samen met Young Engineers. Ontdekken, experimenteren, bouwen en vooral plezier maken: met LEGO® echte uitdagingen aangaan, samenwerken en trots zijn op je werk.",
+      },
+      {
+        soort: "lijst",
+        punten: [
+          {
+            tekst: "Dinsdag van 15u20 tot 16u35 in Atheneum Hasselt.",
+          },
+          {
+            tekst:
+              "Woensdag van 13u tot 14u15 of van 14u15 tot 15u30 in Genk T2 Campus.",
+          },
+          {
+            tekst:
+              "Zaterdag van 13u tot 14u15 of van 14u15 tot 15u30 in de Vilderstraat 28 in Hasselt.",
+          },
+          { tekst: "Eén les duurt 1u15. Instappen kan het hele jaar door." },
+        ],
+      },
+      {
+        soort: "afbeelding",
+        bestand: "naschools-bouwen.jpg",
+        beschrijving:
+          "Een kind bouwt aan tafel een wagentje met een motor, naast de bouwdoos en het werkboekje.",
+        bijschrift: "Van het plan in het boekje naar iets dat echt rijdt.",
+      },
+      {
+        soort: "afbeelding",
+        bestand: "naschools-lego-doos.jpg",
+        beschrijving:
+          "Een geopende bouwdoos met blokken, wielen, assen, tandwielen en een motor.",
+        bijschrift:
+          "In elke doos zit een motor. Wat ermee gebeurt, kiest het kind zelf.",
+        klein: true,
+      },
+      { soort: "kop", tekst: "En in elke schoolvakantie: de kampen" },
+      {
+        soort: "tekst",
+        tekst:
+          "Tijdens de herfst-, kerst-, krokus-, paas- en zomervakantie organiseren we kampen: een vakantie vol nieuwsgierigheid, creativiteit, techniek en uitdaging, in kleine groepen en met aandacht voor ieder kind.",
+      },
+      {
+        soort: "lijst",
+        punten: [
+          { tekst: "Ontdekken: nieuwe dingen onderzoeken en vragen stellen" },
+          {
+            tekst:
+              "Maken en experimenteren: van een idee naar iets dat écht werkt",
+          },
+          {
+            tekst: "Creatief denken: eigen oplossingen bedenken en uitproberen",
+          },
+          {
+            tekst:
+              "Hun brein uitdagen: spelen, denken, bouwen en leren combineren",
+          },
+          {
+            tekst:
+              "Samen groeien: in kleine groepen en met aandacht voor ieder kind",
+          },
+        ],
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "De plaatsen zijn beperkt, dus reserveer tijdig. Nieuwe kampen en thema's maken we telkens bekend via de website en onze sociale media.",
+      },
+      { soort: "knop", tekst: "Bekijk het volledige aanbod", link: "/aanbod" },
     ],
   },
 ];
