@@ -207,7 +207,7 @@ function SponsorVak({ sponsor }: { sponsor: Sponsor }) {
     <img
       src={`/sponsors/${sponsor.logo}`}
       alt={sponsor.naam}
-      className="max-h-14 w-auto object-contain"
+      className="max-h-20 w-auto object-contain"
     />
   ) : (
     <span className="px-2 text-center">
@@ -219,7 +219,7 @@ function SponsorVak({ sponsor }: { sponsor: Sponsor }) {
   );
 
   const vak =
-    "flex h-20 items-center justify-center rounded-2xl bg-surface p-3 shadow-[0_2px_10px_rgba(47,74,34,0.07)]";
+    "flex h-28 items-center justify-center rounded-2xl bg-surface p-3 shadow-[0_2px_10px_rgba(47,74,34,0.07)]";
 
   if (sponsor.link) {
     return (

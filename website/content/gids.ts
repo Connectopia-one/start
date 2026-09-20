@@ -66,6 +66,10 @@ export const organisaties: Organisatie[] = [
   {
     naam: "Hoogbegaan",
     categorie: "Partners die we kennen",
+    omschrijving:
+      "Adviesgesprekken voor ouders van (vermoedelijk) hoogbegaafde kinderen, en individuele begeleiding van kinderen en tieners rond faalangst, perfectionisme, leervaardigheden, emoties, onderpresteren en studiekeuze. Kan mee op gesprek op school, en geeft lezingen voor oudergroepen en verenigingen.",
+    regio: "Pelt en online",
+    link: "https://hoogbegaan.be",
   },
   {
     naam: "Cleverlab studiebegeleiding",
@@ -82,5 +86,8 @@ export const organisaties: Organisatie[] = [
   {
     naam: "Katrien Volckaert",
     categorie: "Partners die we kennen",
+    omschrijving:
+      "Oudercoach bij neurodiversiteit, coach bij rouw en levend verlies, en transformatiecoach. Deskundige in gecamoufleerd autisme bij cognitieve begaafdheid en in PDA, bekeken vanuit de zelfdeterminatietheorie. Geeft ook webinars, lezingen, opleidingen en workshops.",
+    link: "https://www.katrienvolckaert.be",
   },
 ];

@@ -45,24 +45,29 @@ export const sponsors: Sponsor[] = [
   {
     naam: "Atheneum Hasselt",
     soort: "partner",
+    logo: "atheneum-hasselt.png",
   },
   {
     naam: "Level X 28",
     soort: "partner",
+    logo: "level-x28.png",
     toelichting: "Hasselt",
   },
   {
     naam: "T2 Campus",
     soort: "partner",
+    logo: "t2-campus.png",
     toelichting: "Genk",
   },
   {
     naam: "Technologiebende",
     soort: "partner",
+    logo: "technologiebende.png",
   },
   {
     naam: "Educathor",
     soort: "partner",
+    logo: "educathor.png",
   },
 ];
 
