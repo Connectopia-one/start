@@ -425,7 +425,7 @@ export const berichten: Bericht[] = [
     slug: "geen-kind-is-hetzelfde",
     titel: "Geen kind is hetzelfde: waarom we moeten stoppen met het hokje “hoogbegaafd”",
     datum: "2026-02-28",
-    auteur: "Connectopia",
+    auteur: "Kim",
     labels: ["persoonlijk"],
     samenvatting:
       "De snelle rekenaar, de jonge schaker, het kind dat zich verveelt in de klas. Die bestaan. Maar er zijn net zoveel verschillen tussen hoogbegaafde kinderen als tussen alle andere kinderen.",
@@ -683,7 +683,7 @@ export const berichten: Bericht[] = [
     slug: "de-wijsheid-van-de-zoektocht",
     titel: "De wijsheid van de zoektocht: waarom niemand de waarheid in pacht heeft (en dat oké is)",
     datum: "2026-02-19",
-    auteur: "Connectopia",
+    auteur: "Kim",
     labels: ["ervaringen", "persoonlijk"],
     samenvatting:
       "Geen handleidingen, geen heilige graal. Waarom we bij Connectopia liever samen zoeken dan elkaar de les spellen.",
