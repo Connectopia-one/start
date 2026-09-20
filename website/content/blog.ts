@@ -8,9 +8,10 @@
   auteur: "Connectopia" of de naam van de partner die het schreef
   labels: korte woorden waar het bericht over gaat, bv. ["kampen", "zorgen"]
 
-  De tekst bouw je op uit blokken. Er zijn er vijf:
+  De tekst bouw je op uit blokken. Er zijn er zes:
     { soort: "tekst",   tekst: "..." }                     een gewone alinea
     { soort: "kop",     tekst: "..." }                     een tussentitel
+    { soort: "citaat",  tekst: "..." }                     een uitgelichte quote
     { soort: "lijst",   punten: [{ titel: "...", tekst: "..." }] }
     { soort: "afbeelding", bestand: "naam.jpg", beschrijving: "...", bijschrift: "..." }
     { soort: "knop",    tekst: "...", link: "https://..." }
@@ -27,6 +28,7 @@
 export type Blok =
   | { soort: "tekst"; tekst: string }
   | { soort: "kop"; tekst: string }
+  | { soort: "citaat"; tekst: string }
   | { soort: "lijst"; punten: { titel?: string; tekst: string }[] }
   | {
       soort: "afbeelding";
@@ -57,6 +59,105 @@ export const blogTekst = {
 };
 
 export const berichten: Bericht[] = [
+  {
+    slug: "diep-gedacht-en-intens-gevoeld",
+    titel: "Diep gedacht en intens gevoeld: verhalen van hoogbegaafde vrouwen",
+    datum: "2026-03-20",
+    auteur: "Tine Geysen",
+    labels: ["boek", "Tine Geysen", "persoonlijk"],
+    samenvatting:
+      "Een boek van tien hoogbegaafde vrouwen die openhartig over hun leven vertellen, omkaderd door elf experts. Tine Geysen vertelt hoe het ontstond.",
+    blokken: [
+      {
+        soort: "afbeelding",
+        bestand: "boek-cover.jpg",
+        beschrijving:
+          "De cover van het boek Diep gedacht en intens gevoeld, met een lijntekening van een vrouw.",
+        klein: true,
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Het boek Diep gedacht en intens gevoeld is een samenwerking van 21 hoogbegaafde vrouwen. Tien vrouwen die elk hun eigen verhaal, hun eigen zoektocht en hun eigen moed hebben ingebracht. Deze ervaringen zijn omkaderd door 11 experts.",
+      },
+      {
+        soort: "citaat",
+        tekst:
+          "Ik dacht dat ik te veel voelde, te diep dacht en te anders was. Maar ik besef nu dat dit net mijn kracht is, mijn superkracht.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Ons boek is geen toeval. Het is het resultaat van een vuur dat in ons allemaal brandt. Dat maakt deze samenwerking bijzonder: we zijn verbonden door een gedeelde missie, hoogbegaafdheid beter zichtbaar maken, taboes doorbreken en de herkenning ervan bij vrouwen en meisjes omhoog brengen.",
+      },
+      { soort: "kop", tekst: "Een goed gelukte alien" },
+      {
+        soort: "tekst",
+        tekst:
+          "Voor mij persoonlijk begon dat vuur vanuit een gevoel waarmee ik lange tijd geworsteld heb: eenzaamheid. Ik voelde me vaak alsof ik een goed gelukte alien was die hier rondloopt. Met een missie, alleen waren ze me vergeten te vertellen welke missie dat precies was.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Tijdens de coronaperiode besloot ik dat het misschien tijd was om aan mijn zelfvertrouwen te werken. Ik begon te lezen over hoogsensitiviteit en trauma, en plots kwam hoogbegaafdheid op mijn pad. Of ik daar ooit al bij stilgestaan had?",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Hoe meer ik las, hoe meer ik meende te herkennen. Maar tegelijk groeide mijn twijfel. Wie was ik eigenlijk? Iemand die zogezegd alles had, maar toch een leegte voelde, zo ergens ter hoogte van mijn borstkas. Ik voelde wel dat er meer inzat, maar wat was meer dan net?",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Kon het echt dat ik mezelf hierin herkende? Waarom hoorde ik bij de term hoogbegaafdheid zo vaak: “Slim, maar…”? Die betekenisvolle “maar”, waar nooit echt concrete handvatten bij kwamen.",
+      },
+      { soort: "kop", tekst: "Van een ik-verhaal naar een wij-verhaal" },
+      {
+        soort: "tekst",
+        tekst:
+          "Ik ging op zoek naar gelijkgestemden. Eerst andere mama’s, op zoek naar antwoorden voor hun kinderen. Hoe kunnen we hoogbegaafdheid positief benaderen? Wie ziet hier ook de kracht in? Wat betekent die “maar” voor jullie?",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Via sociale media vond ik andere vrouwen die hun intense zoektocht rond hoogbegaafdheid deelden. Hun eerlijkheid, hun kwetsbaarheid, hun verhalen brachten herkenning. En langzaam groeide een nieuwe vraag: herkenden zij ook iets bij zichzelf? Mocht hoogbegaafdheid wel? Maar diep vanbinnen voelde ik dat het klopte. We besloten dan ook om samen ons levensverhaal te brengen. Want wat als onze verhalen ook andere vrouwen zouden helpen? Wat als herkenning de eerste stap kon zijn naar groei, naar zelfvertrouwen, naar het ontwikkelen van talent en het begrijpen van valkuilen?",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Er kwam een WhatsApp-groep. Gesprekken. Herkenning. En steeds vaker die verwondering: hoe kan het dat vrouwen die kilometers van elkaar opgroeiden, zonder elkaar te kennen, zo gelijkaardige ervaringen delen? Vanaf dat moment was het geen individueel verhaal meer, maar een wij-verhaal.",
+      },
+      {
+        soort: "afbeelding",
+        bestand: "boek-voorstelling.jpg",
+        beschrijving:
+          "De vrouwen achter het boek staan samen op het podium bij de voorstelling in KU Leuven.",
+        bijschrift: "De voorstelling van het boek bij KU Leuven, Campus Group T Leuven.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Omdat onze groep zo divers is, wilden we ook verschillende experts samenbrengen. Niet één definitie van hoogbegaafdheid opleggen, maar de vele gezichten ervan laten zien. De rode draad in onze verhalen zichtbaar maken.",
+      },
+      {
+        soort: "afbeelding",
+        bestand: "boek-tekening.jpg",
+        beschrijving: "Een lijntekening van een meisje in een kleedje met hartjes.",
+        klein: true,
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Dit boek is dan ook een ode aan elke vrouw die voelt dat er meer in haar zit. Dat ze hoogbegaafd is en dit talent omarmt. En dat ze dat wil voorleven. Je bent niet te veel en niet alleen, en je verdient zoveel liefde en begrip!",
+      },
+      { soort: "tekst", tekst: "— Tine Geysen" },
+      {
+        soort: "knop",
+        tekst: "Meer over het boek",
+        link: "https://www.projectdiepgedacht.be/",
+      },
+    ],
+  },
   {
     slug: "tranen-van-herkenning-op-het-forum",
     titel:

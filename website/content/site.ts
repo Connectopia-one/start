@@ -12,7 +12,8 @@ export const site = {
     "Connectopia vzw verbindt kinderen aan peers en ouders aan de juiste experts. Plusklas, pluswerkingen, Young Engineers en kampen voor nieuwsgierige kinderen.",
   afsluiter: "Samen bouwen we aan een toekomst vol mogelijkheden",
   socials: "@connectopia.one",
-  email: "info@connectopia.one",
+  /* Het mailadres uit al onze communicatie, van de MATM groep. */
+  email: "info@matmgroep.com",
 };
 
 /*

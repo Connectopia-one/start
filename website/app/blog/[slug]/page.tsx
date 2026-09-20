@@ -28,6 +28,13 @@ function BlokWeergave({ blok }: { blok: Blok }) {
     case "tekst":
       return <p className="text-[17px] text-ink-dim">{blok.tekst}</p>;
 
+    case "citaat":
+      return (
+        <blockquote className="font-hand my-2 rounded-[20px] bg-sage-soft px-7 py-6 text-center text-2xl text-green">
+          {blok.tekst}
+        </blockquote>
+      );
+
     case "lijst":
       return (
         <ul className="grid gap-3">

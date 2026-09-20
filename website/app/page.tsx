@@ -3,7 +3,8 @@ import { Tegel } from "@/components/Tegel";
 import { Blad, Icoon, Knop, Label, NaarLink, Penseel, stipKleur } from "@/components/ui";
 import { home } from "@/content/home";
 import { echteLink, onderdeelPerGroep, site } from "@/content/site";
-import { sponsors, sponsorsTekst } from "@/content/sponsors";
+import type { Sponsor } from "@/content/sponsors";
+import { sponsorsPerSoort, sponsorsTekst } from "@/content/sponsors";
 import { stappen, wegwijzerTekst } from "@/content/wegwijzer";
 
 export default function Startpagina() {
@@ -157,20 +158,20 @@ export default function Startpagina() {
       </section>
 
       {/* Sponsors en samenwerkingen */}
-      <section className="bg-sage-soft">
+      <section className="bg-sage-soft" id="sponsors">
         <div className="mx-auto w-full max-w-5xl px-5 py-12">
           <Label>{sponsorsTekst.label}</Label>
           <h2 className="mt-1.5 text-3xl text-green">{sponsorsTekst.titel}</h2>
           <p className="mt-2 max-w-[60ch] text-ink-dim">{sponsorsTekst.tekst}</p>
 
-          {/* Flexibele rij: werkt met twee logo's net zo goed als met twaalf. */}
-          <ul className="mt-6 flex flex-wrap gap-3.5">
-            {sponsors.map((sponsor) => (
-              <li key={sponsor.naam} className="w-[calc(50%-0.44rem)] sm:w-48">
-                <SponsorVak sponsor={sponsor} />
-              </li>
-            ))}
-          </ul>
+          <SponsorRij
+            kop={sponsorsTekst.kopSponsors}
+            lijst={sponsorsPerSoort("sponsor")}
+          />
+          <SponsorRij
+            kop={sponsorsTekst.kopPartners}
+            lijst={sponsorsPerSoort("partner")}
+          />
 
           <p className="mt-5 text-[15px] text-ink-dim">
             <Link href={sponsorsTekst.oproepLink} className="font-extrabold text-green underline-offset-4 hover:underline">
@@ -183,7 +184,24 @@ export default function Startpagina() {
   );
 }
 
-function SponsorVak({ sponsor }: { sponsor: { naam: string; logo?: string; link?: string } }) {
+function SponsorRij({ kop, lijst }: { kop: string; lijst: Sponsor[] }) {
+  if (lijst.length === 0) return null;
+  return (
+    <div className="mt-7">
+      <h3 className="text-[13px] font-bold tracking-[0.09em] text-green uppercase">{kop}</h3>
+      {/* Flexibele rij: werkt met twee logo's net zo goed als met twaalf. */}
+      <ul className="mt-3 flex flex-wrap gap-3.5">
+        {lijst.map((sponsor) => (
+          <li key={sponsor.naam} className="w-[calc(50%-0.44rem)] sm:w-48">
+            <SponsorVak sponsor={sponsor} />
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+function SponsorVak({ sponsor }: { sponsor: Sponsor }) {
   const inhoud = sponsor.logo ? (
     // eslint-disable-next-line @next/next/no-img-element
     <img
@@ -192,7 +210,12 @@ function SponsorVak({ sponsor }: { sponsor: { naam: string; logo?: string; link?
       className="max-h-14 w-auto object-contain"
     />
   ) : (
-    <span className="text-center text-[13px] font-bold text-ink-dim">{sponsor.naam}</span>
+    <span className="px-2 text-center">
+      <span className="block text-[14px] font-extrabold text-green">{sponsor.naam}</span>
+      {sponsor.toelichting ? (
+        <span className="block text-[12px] text-ink-dim">{sponsor.toelichting}</span>
+      ) : null}
+    </span>
   );
 
   const vak =
