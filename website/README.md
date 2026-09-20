@@ -60,6 +60,25 @@ hebben: `nadruk` voor de zin die je wil laten opvallen (die komt in een gekleurd
 kader) en `tip` voor een kadertje met een knop. Heeft een stap die niet nodig,
 laat ze dan gewoon weg.
 
+**De knoppen Inschrijven en Info aanvragen.** Die staan automatisch bij elk
+traject in `content/aanbod.ts`. Voeg je een traject toe, geef het dan een
+`slug` (kleine letters en streepjes, bijvoorbeeld `kerstkamp`) en de twee
+knoppen en hun formulieren komen er vanzelf bij.
+
+**De vragen op het formulier.** Die staan in `content/formulier.ts`, in de
+lijst `velden`. Een vraag bijzetten is één regel; `verplicht: true` betekent
+dat een ouder het veld moet invullen. De teksten van de drie soorten
+aanvragen (info, inschrijven, proefles) staan in hetzelfde bestand.
+
+**Waar een ingevuld formulier naartoe gaat.** Bovenaan `content/formulier.ts`
+staat `verzenden`. Nu staat `webadres` op `null`: dan opent het formulier het
+mailprogramma van de ouder met alle antwoorden er al in, klaar om naar
+info@matmgroep.com te sturen. Er komt dus geen andere firma aan de gegevens,
+maar de ouder moet wel een mailprogramma hebben. Wil je dat het formulier
+rechtstreeks verstuurt, neem dan een formulierdienst en zet het webadres dat
+je van hen krijgt bij `webadres`. Die dienst verwerkt dan gegevens van
+kinderen, dus kies bewust en leg het vast in je privacyverklaring.
+
 **De aankondigingsbalk weghalen.** In `content/home.ts` staat `aankondiging`.
 Zet die op `null` en de groene balk verdwijnt.
 

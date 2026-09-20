@@ -4,6 +4,8 @@
 */
 
 export type Traject = {
+  /* Kort kenmerk voor het webadres van het aanvraagformulier. Alleen kleine letters en streepjes. */
+  slug: string;
   naam: string;
   ondertitel: string;
   kleur: "green" | "orange" | "purple" | "blue";
@@ -27,7 +29,6 @@ export const proefles = {
   tekst:
     "Je kind mag vrijblijvend een gratis proefles meedoen. Zo voelt het zelf of de groep en de manier van werken passen, voor je iets vastlegt.",
   knopTekst: "Schrijf in voor een gratis proefles",
-  knopLink: "/over-ons#contact",
 };
 
 export const aanbodTekst = {
@@ -38,11 +39,11 @@ export const aanbodTekst = {
   tariefNota:
     "Vanaf schooljaar 2026–2027 zijn we officieel een vzw en verlagen we onze prijzen.",
   inschrijvenTekst: "Interesse of inschrijven?",
-  inschrijvenLink: "/over-ons#contact",
 };
 
 export const trajecten: Traject[] = [
   {
+    slug: "externe-plusklas",
     naam: "Externe plusklas",
     ondertitel: "De hele dag ontdekken in Hasselt",
     kleur: "green",
@@ -71,6 +72,7 @@ export const trajecten: Traject[] = [
     },
   },
   {
+    slug: "pluswerking-woensdag",
     naam: "Pluswerking woensdag",
     ondertitel: "Voorbereiding op de examencommissie",
     kleur: "purple",
@@ -96,6 +98,7 @@ export const trajecten: Traject[] = [
     },
   },
   {
+    slug: "pluswerking-zaterdag",
     naam: "Pluswerking zaterdag",
     ondertitel: "Creativiteit en techniek laten samenkomen",
     kleur: "orange",
@@ -117,6 +120,7 @@ export const trajecten: Traject[] = [
     },
   },
   {
+    slug: "young-engineers",
     naam: "Young Engineers",
     ondertitel: "Naschoolse activiteiten rond STEM en techniek",
     kleur: "blue",
@@ -137,6 +141,7 @@ export const trajecten: Traject[] = [
     },
   },
   {
+    slug: "vakantiekampen",
     naam: "Vakantiekampen",
     ondertitel: "Tijdens elke schoolvakantie",
     kleur: "green",

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Icoon, Kaart, PaginaKop, Penseel, Sectie, tekstKleur } from "@/components/ui";
 import { aanbodTekst, proefles, trajecten } from "@/content/aanbod";
+import { aanvraagLink, soorten } from "@/content/formulier";
 
 export const metadata: Metadata = {
   title: "Ons aanbod",
@@ -22,7 +23,7 @@ export default function AanbodPagina() {
             <p className="mt-2 max-w-[56ch] text-ink">{proefles.tekst}</p>
           </div>
           <Link
-            href={proefles.knopLink}
+            href={aanvraagLink("proefles")}
             className="inline-block rounded-full bg-orange px-6 py-3 text-[15px] font-extrabold text-cream transition hover:-translate-y-0.5"
           >
             {proefles.knopTekst} →
@@ -100,13 +101,29 @@ export default function AanbodPagina() {
                 ))}
               </ul>
             ) : null}
+
+            {/* Info vragen of meteen inschrijven, allebei met een eigen formulier. */}
+            <div className="mt-6 flex flex-wrap gap-3 border-t border-dashed border-border pt-5">
+              <Link
+                href={aanvraagLink("inschrijven", traject.slug)}
+                className="inline-block rounded-full bg-green px-6 py-3 text-[15px] font-extrabold text-cream transition hover:-translate-y-0.5 hover:bg-green-mid"
+              >
+                {soorten.inschrijven.knop} →
+              </Link>
+              <Link
+                href={aanvraagLink("info", traject.slug)}
+                className="inline-block rounded-full border-2 border-green px-6 py-3 text-[15px] font-extrabold text-green transition hover:-translate-y-0.5 hover:bg-sage-soft"
+              >
+                {soorten.info.knop}
+              </Link>
+            </div>
           </Kaart>
         ))}
 
         <div className="rounded-[20px] bg-green px-7 py-8 text-cream">
           <h2 className="text-2xl text-cream">{aanbodTekst.inschrijvenTekst}</h2>
           <Link
-            href={aanbodTekst.inschrijvenLink}
+            href={aanvraagLink("info")}
             className="mt-5 inline-block rounded-full bg-cream px-6 py-3 text-[15px] font-extrabold text-green transition hover:-translate-y-0.5"
           >
             Neem contact op →
