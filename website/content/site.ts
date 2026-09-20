@@ -65,6 +65,16 @@ export const onderdelen: Onderdeel[] = [
     kleur: "orange",
   },
   {
+    slug: "/wegwijzer",
+    titel: "Wegwijzer voor ouders",
+    menuTitel: "Wegwijzer",
+    icoon: "🗺️",
+    omschrijving:
+      "Een echte roadmap bij ASS, ADHD, HB en UHB. Van het eerste vermoeden tot ver na de diagnose.",
+    groep: "uitgelicht",
+    kleur: "blue",
+  },
+  {
     slug: "/waar-kan-je-terecht",
     titel: "Waar kan je terecht",
     menuTitel: "Waar kan je terecht",
@@ -102,6 +112,16 @@ export const onderdelen: Onderdeel[] = [
     // extern: "https://oefenen.connectopia.one",
   },
   {
+    slug: "/blog",
+    titel: "Blog, tips en meer",
+    menuTitel: "Blog",
+    icoon: "📰",
+    omschrijving:
+      "Artikels van ons team en van externe partners, over opvoeden, school, diagnoses en alles wat ouders bezighoudt.",
+    groep: "kennis",
+    kleur: "green",
+  },
+  {
     slug: "/prikbord",
     titel: "Prikbord voor ouders",
     menuTitel: "Prikbord",
@@ -111,26 +131,6 @@ export const onderdelen: Onderdeel[] = [
     groep: "platform",
     kleur: "purple",
     label: "Binnenkort",
-  },
-  {
-    slug: "/wegwijzer",
-    titel: "Wegwijzer voor ouders",
-    menuTitel: "Wegwijzer",
-    icoon: "🗺️",
-    omschrijving:
-      "Een echte roadmap bij ASS, ADHD, HB en UHB. Van het eerste vermoeden tot ver na de diagnose.",
-    groep: "uitgelicht",
-    kleur: "blue",
-  },
-  {
-    slug: "/blog",
-    titel: "Blog, tips en meer",
-    menuTitel: "Blog",
-    icoon: "📰",
-    omschrijving:
-      "Artikels van ons team en van externe partners, over opvoeden, school, diagnoses en alles wat ouders bezighoudt.",
-    groep: "kennis",
-    kleur: "green",
   },
 ];
 
