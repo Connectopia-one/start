@@ -105,8 +105,22 @@ export const velden: Veld[] = [
 ];
 
 export const formulierTekst = {
-  geenTraject: "Ik weet nog niet welk aanbod",
+  /* Het kadertje bovenaan als de ouder al een traject koos. */
   trajectVraag: "Over welk aanbod gaat het?",
+
+  /*
+    Het kadertje bovenaan als de ouder nog geen traject koos.
+      label   het kleine woordje bovenaan
+      titel   de dikke regel
+      tekst   de regel eronder
+      inMail  wat er in de mail komt te staan bij "Aanbod"
+  */
+  geenTraject: {
+    label: "Kom kennismaken",
+    titel: "Kom jij ons leren kennen?",
+    tekst: "Schrijf je in en maak kennis met ons en met ons aanbod.",
+    inMail: "Nog geen aanbod gekozen",
+  },
   verstuurKnop: "Versturen",
   terug: "Bekijk eerst het hele aanbod",
   terugLink: "/aanbod",

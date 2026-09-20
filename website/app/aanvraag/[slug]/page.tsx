@@ -79,16 +79,23 @@ export default async function AanvraagPagina({
           <Aanvraagformulier
             onderwerp={onderwerp}
             verborgen={[
-              { naam: "Aanbod", waarde: traject ? traject.naam : formulierTekst.geenTraject },
+              {
+                naam: "Aanbod",
+                waarde: traject ? traject.naam : formulierTekst.geenTraject.inMail,
+              },
               { naam: "Soort aanvraag", waarde: tekst.titel },
             ]}
             kop={
               <div className="rounded-[16px] bg-sage-soft px-5 py-4">
-                <Label>{formulierTekst.trajectVraag}</Label>
+                <Label>
+                  {traject ? formulierTekst.trajectVraag : formulierTekst.geenTraject.label}
+                </Label>
                 <p className="mt-1 text-[17px] font-extrabold text-green">
-                  {traject ? traject.naam : formulierTekst.geenTraject}
+                  {traject ? traject.naam : formulierTekst.geenTraject.titel}
                 </p>
-                <p className="text-[14px] text-ink-dim">{tekst.titel}</p>
+                <p className="text-[14px] text-ink-dim">
+                  {traject ? tekst.titel : formulierTekst.geenTraject.tekst}
+                </p>
               </div>
             }
           />
