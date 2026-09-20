@@ -1,0 +1,130 @@
+/*
+  Ons aanbod. Elk traject is één blok hieronder.
+  Een traject toevoegen of aanpassen doe je hier; de pagina past zich vanzelf aan.
+*/
+
+export type Traject = {
+  naam: string;
+  ondertitel: string;
+  kleur: "green" | "orange" | "purple" | "blue";
+  icoon: string;
+  leeftijd: string;
+  prijs?: string;
+  prijsWas?: string;
+  regels: { label: string; waarde: string }[];
+  tekst: string;
+  punten?: string[];
+};
+
+export const aanbodTekst = {
+  label: "Ons aanbod",
+  titel: "Samen ontdekken, leren, creëren en groeien",
+  tekst:
+    "Alles wat we zelf organiseren, op één pagina. Voor nieuwsgierige kinderen die net dat beetje extra uitdaging, begrip of ruimte nodig hebben.",
+  tariefNota:
+    "Vanaf schooljaar 2026–2027 zijn we officieel een vzw en verlagen we onze prijzen.",
+  inschrijvenTekst: "Interesse of inschrijven?",
+  inschrijvenLink: "/over-ons#contact",
+};
+
+export const trajecten: Traject[] = [
+  {
+    naam: "Externe plusklas",
+    ondertitel: "De hele dag ontdekken in Hasselt",
+    kleur: "green",
+    icoon: "🚀",
+    leeftijd: "6 tot 12 jaar",
+    prijs: "€50 per dag",
+    prijsWas: "€60",
+    regels: [
+      { label: "Wanneer", waarde: "Dinsdag, 9u – 15u" },
+      { label: "Start", waarde: "Dinsdag 15 september 2026" },
+      { label: "Waar", waarde: "Atheneum Hasselt, Kleine-Breemstraat 33, 3500 Hasselt" },
+      { label: "Opbouw", waarde: "3 trajecten van telkens 10 dagen" },
+    ],
+    tekst:
+      "Onze plusklas is meer dan extra uitdaging. Het is een veilige haven waar gelijkgestemde kinderen samen een diepgaand leertraject aangaan, met aandacht voor het proces, de samenwerking en het plezier in leren.",
+    punten: [
+      "Brainstorm: samen ideeën bedenken en nieuwsgierigheid prikkelen",
+      "Bijleren: nieuwe dingen ontdekken en kennis vergroten",
+      "Uitwerken: ideeën omzetten in echte projecten en oplossingen",
+      "Afgestemd op de noden en talenten van hoogbegaafde kinderen",
+      "Regelmatig overleg met de school van je kind",
+    ],
+  },
+  {
+    naam: "Pluswerking woensdag",
+    ondertitel: "Voorbereiding op de examencommissie",
+    kleur: "purple",
+    icoon: "🎓",
+    leeftijd: "6 tot 12 jaar",
+    prijs: "€25 per 3 uur",
+    prijsWas: "€30",
+    regels: [
+      { label: "Wanneer", waarde: "Woensdagvoormiddag, 9u – 12u" },
+      { label: "Start", waarde: "Woensdag 16 september 2026" },
+      { label: "Waar", waarde: "Genk T2 Campus, Thomas Morelaan 2, 3600 Genk" },
+    ],
+    tekst:
+      "Meer schoolse uitdaging en voorbereiding op de examencommissie, zowel voor kinderen die schoolgaand zijn als voor kinderen in thuisonderwijs.",
+    punten: [
+      "Kleine groepjes met persoonlijke begeleiding",
+      "Inhoud op maat",
+      "Voorbereiden, oefenen en begrijpen",
+    ],
+  },
+  {
+    naam: "Pluswerking zaterdag",
+    ondertitel: "Creativiteit en techniek laten samenkomen",
+    kleur: "orange",
+    icoon: "🎨",
+    leeftijd: "6 tot 12 jaar",
+    prijs: "€25 per 3 uur",
+    prijsWas: "€30",
+    regels: [
+      { label: "Wanneer", waarde: "Zaterdagvoormiddag, 9u – 12u" },
+      { label: "Start", waarde: "Zaterdag 12 september 2026" },
+      { label: "Waar", waarde: "Vilderstraat 28, 3500 Hasselt" },
+    ],
+    tekst:
+      "Voor kinderen die extra uitdaging zoeken en een creatieve uitlaatklep nodig hebben. Verbeelding aanzetten, vaardigheden ontdekken en vooral: plezier beleven.",
+    punten: ["Creatief denken en techniek ontdekken", "Experimenteren, bouwen en ontwerpen"],
+  },
+  {
+    naam: "Young Engineers",
+    ondertitel: "Naschoolse activiteiten rond STEM en techniek",
+    kleur: "blue",
+    icoon: "⚙️",
+    leeftijd: "6 tot 12 jaar",
+    prijs: "€20 per les",
+    prijsWas: "€25",
+    regels: [
+      { label: "Dinsdag", waarde: "15u20 – 16u35, Atheneum Hasselt" },
+      { label: "Woensdag", waarde: "13u – 14u15 of 14u15 – 15u30, Genk T2 Campus" },
+      { label: "Zaterdag", waarde: "13u – 14u15 of 14u15 – 15u30, Vilderstraat 28 Hasselt" },
+      { label: "Duur", waarde: "Eén les duurt 1u15" },
+    ],
+    tekst:
+      "Ontdekken, experimenteren, bouwen en vooral plezier maken. Met LEGO® en techniek echte uitdagingen aangaan, samenwerken en trots zijn op je werk.",
+  },
+  {
+    naam: "Vakantiekampen",
+    ondertitel: "Tijdens elke schoolvakantie",
+    kleur: "green",
+    icoon: "🏕️",
+    leeftijd: "6 tot 12 jaar",
+    regels: [
+      { label: "Wanneer", waarde: "Herfst-, kerst-, krokus-, paas- en zomervakantie" },
+      { label: "Plaatsen", waarde: "Beperkt, reserveer tijdig je plaatsje" },
+    ],
+    tekst:
+      "Een vakantie vol nieuwsgierigheid, creativiteit, techniek en uitdaging. Nieuwe kampen en thema's maken we telkens bekend via de website en de sociale media.",
+    punten: [
+      "Ontdekken: nieuwe dingen onderzoeken en vragen stellen",
+      "Maken en experimenteren: van een idee naar iets dat écht werkt",
+      "Creatief denken: eigen oplossingen bedenken en uitproberen",
+      "Hun brein uitdagen: spelen, denken, bouwen en leren combineren",
+      "Samen groeien: in kleine groepen en met aandacht voor ieder kind",
+    ],
+  },
+];
