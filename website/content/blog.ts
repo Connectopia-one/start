@@ -769,6 +769,242 @@ export const berichten: Bericht[] = [
       },
     ],
   },
+  {
+    slug: "autisme-bij-cognitief-begaafde-kinderen",
+    titel: "Autisme bij cognitief begaafde kinderen",
+    datum: "2026-02-19",
+    auteur: "Katrien Volckaert",
+    labels: ["Katrien Volckaert", "ervaringen"],
+    samenvatting:
+      "Slimme kinderen krijgen soms ten onrechte de diagnose autisme. Maar de omgekeerde fout bestaat ook: autisme dat onzichtbaar blijft achter een perfect gekopieerd maatpak.",
+    blokken: [
+      {
+        soort: "afbeelding",
+        bestand: "katrien-volckaert.jpg",
+        beschrijving: "Katrien Volckaert, lachend, voor groen struikgewas met gele bloemen.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Tijdens mijn opleiding tot experte in de hoogbegaafdheid leerde ik dat cognitief begaafde kinderen vaak ten onrechte de diagnose van autisme krijgen. Dit komt door hun soms weinig sociaal ogende gedrag. Ze vinden geen aansluiting bij hun leeftijdsgenootjes en zoeken jongere of net oudere kinderen op als speelkameraad. Wanneer dergelijk gedrag opgemerkt wordt, wordt er snel van uitgegaan dat deze kinderen sociaal nog niet rijp genoeg zijn. Dat ze wel heel intelligent zijn, maar dat ze sociaal-emotioneel nog niet op datzelfde niveau functioneren.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Hierbij wordt vaak over het hoofd gezien dat er nog andere redenen bestaan die kunnen maken dat cognitief begaafde kinderen moeilijk aansluiting vinden bij leeftijdsgenootjes. Eén van die redenen wordt prachtig geïllustreerd in onderstaande cartoon.",
+      },
+      {
+        soort: "afbeelding",
+        bestand: "autisme-cartoon.jpg",
+        beschrijving:
+          "Cartoon in vijf beeldjes. Een kleuter vraagt aan een ander kind om het rode blokje, roept daarna luider, en krijgt van een volwassene te horen dat hij niet moet zeuren, hij kreeg toch een blokje. Twee volwassenen concluderen erna dat hij wel reuze slim is, maar emotioneel toch heel erg achter.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Ik herinner me nog heel goed hoe mijn dochter, die zichzelf op driejarige leeftijd leerde lezen, in de tweede kleuterklas dagelijks naar huis kwam met verhalen over hoe dom haar klasgenootjes wel waren. In haar beleving, natuurlijk. “Mama, die kunnen nog niet eens de letter p lezen!” Je kunt je wel voorstellen dat zij op dat moment in een gans andere wereld vertoefde dan haar klasgenoten. Ook zij stelde ons meer dan eens de vraag: “Mama, hoe maak je vrienden?”, zelfs nadat ze een jaar was gesprongen.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Een andere verklaring voor de soms moeilijk lopende contacten met leeftijdsgenoten kunnen we vinden bij de vriendschapsverwachtingen. Op dat gebied lopen cognitief begaafde kinderen namelijk vaak voor op hun leeftijdsgenoten. Ze hebben op jonge leeftijd al veel hogere verwachtingen van vriendschap. Zo verwachten ze van een vriend of vriendin bijvoorbeeld waarden als trouw, loyaliteit en intimiteit, terwijl de andere kinderen nog in de fase zitten van wederzijdsheid: als ik naar jouw verjaardagsfeestje mag komen, dan mag jij naar het mijne komen. Het groot rechtvaardigheidsgevoel van hoogintelligente kinderen kan dan ook heel erg opspelen wanneer niet aan hun onuitgesproken hoge verwachtingen wordt voldaan.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Deze belangrijke inzichten in het sociaal functioneren van cognitief begaafde kinderen hebben veel ogen geopend. Een onterechte diagnose van autisme is natuurlijk ook niet niets.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Toch dienen we op te letten om hierdoor niet te gaan overcompenseren naar de andere kant. De combinatie van een hoge intelligentie met autisme komt wel degelijk voor. En misschien net iets vaker dan we momenteel vermoeden.",
+      },
+      { soort: "kop", tekst: "Het maatpak-effect" },
+      {
+        soort: "tekst",
+        tekst:
+          "We stellen vast dat er zich bij de combinatie van autisme en cognitieve begaafdheid een interessant fenomeen voordoet. Laat het ons even het maatpak-effect noemen.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Wat houdt dit fenomeen in? Wel, cognitief begaafde kinderen met autisme slagen er net dankzij hun grote intelligentie vaak in om toch op een aanvaardbare manier aan alle normen te voldoen. Zo meten ze zichzelf als het ware een maatpak aan om erbij te horen. Door goed te observeren en te kopiëren, én dankzij hun fenomenale geheugen, slagen deze kinderen er op een briljante manier in hun maatpak te perfectioneren en aldus hun autisme te camoufleren.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Helaas lukt dit niet zonder hier enorm hard mee bezig te zijn en er heel veel energie in te investeren. Binnenin dat maatpak voelen deze kinderen zich echter vaak onzeker, angstig en anders. Meer en meer raken ze verwijderd van hun eigen ik. Hoe ouder het kind, hoe groter de eisen van de omgeving. Hoe groter de eisen van de omgeving, hoe meer energie deze kinderen in het onderhouden en aanpassen van hun maatpak moeten steken.",
+      },
+      {
+        soort: "citaat",
+        tekst:
+          "Degenen die het meeste energie steken in hun maatpak, worden vaak het minste gezien, begrepen en dus ook het minste ondersteund.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Nochtans hebben deze kinderen wel degelijk ondersteuning nodig. Door hun significant andere manier van prikkelverwerking en van denken in het algemeen, lopen deze leerlingen voortdurend tegen hun grenzen aan.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Je krijgt aldus kinderen die, al dan niet zwaar, onderpresteren, doodmoe zijn, op de toppen van hun tenen lopen, thuis moeten ontladen of niet meer van hun scherm af te krijgen zijn, of zelfs kinderen die kampen met een burn-out en niet meer in staat zijn om naar school te gaan. Deze kinderen en hun ouders krijgen vaak nog een pakje schuld bovenop hun maatpak, want ze zijn toch intelligent genoeg? Daar kan het niet aan liggen!",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Autisme komt wel degelijk voor in combinatie met een hoge begaafdheid. En daar dienen we heel erg attent op te zijn. Misschien is het wel net binnen deze doelgroep van cognitief begaafde kinderen het meest noodzakelijk om autisme actief op te gaan sporen. Zodat we deze kinderen én hun omgeving kunnen ontschuldigen, en tegelijkertijd de hulp bieden die ze broodnodig hebben om zichzelf, met hun cognitieve begaafdheid, in de wereld te zetten.",
+      },
+      { soort: "kop", tekst: "Waarom autisme zo vaak verkeerd gediagnosticeerd wordt" },
+      {
+        soort: "tekst",
+        tekst:
+          "Wat maakt dat autisme nog zo vaak verkeerd gediagnosticeerd wordt, en dit langs beide kanten? Momenteel is de diagnose van autisme voornamelijk een gedragsdiagnose, een diagnose die gebaseerd wordt op hoe kinderen zich gedragen.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Bij cognitief begaafde kinderen is het gedrag echter geen correcte graadmeter voor het al dan niet aanwezig zijn van autisme. Zoals hierboven beschreven werd, kan gedrag dat op autisme lijkt andere oorzaken hebben. Evengoed kan het zijn dat er autisme aanwezig is zonder dat er opvallend autistisch gedrag opgemerkt wordt. Integendeel, soms zijn het net de kinderen die het meest binnen de lijnen lijken te kleuren, die het meest worstelen met hun anders zijn en al hun moeilijkheden internaliseren.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Beter dan naar het gedrag van kinderen te kijken, kan gekeken worden naar wat aan de basis ligt van autisme. Dat is enerzijds een sensorische over- en onderreactiviteit en anderzijds een andere informatieverwerking die we kunnen benoemen als autistisch denken. Door via gerichte testing op zoek te gaan naar eventuele tekortkomingen in de centrale coherentie, in de theory of mind én in de executieve functies krijg je niet enkel uitsluitsel over het al dan niet aanwezig zijn van autistisch denken, maar kun je ook gericht de moeilijkheden en de ondersteuningsnood van het individuele kind in kaart brengen.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Autisme is wel degelijk een beperking binnen onze huidige, niet altijd autismevriendelijke maatschappij. Het is helaas ook een erg onzichtbare beperking, zeker bij personen die cognitief begaafd zijn en zichzelf een perfect gekopieerd maatpak aangemeten hebben.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Op tijd herkenning, erkenning en gerichte ondersteuning krijgen, kan een wereld van verschil maken voor een kind. Tot zolang onze maatschappij er niet in slaagt op gebied van onderwijs onvoorwaardelijk naar de individuele noden van elk kind te kijken, zal de diagnose van autisme dan ook een belangrijke stap zijn voor de gezonde ontwikkeling van het kind met autisme. Zodat het aan de wereld ook zijn sterktes kan laten zien!",
+      },
+      { soort: "tekst", tekst: "Katrien Volckaert" },
+      { soort: "knop", tekst: "Naar katrienvolckaert.be", link: "https://www.katrienvolckaert.be" },
+    ],
+  },
+  {
+    slug: "onze-wereld",
+    titel: "Onze wereld: een verhaal van liefde, complexiteit en onzichtbare kracht",
+    datum: "2026-02-09",
+    auteur: "Kim",
+    labels: ["persoonlijk"],
+    samenvatting:
+      "Hoogbegaafdheid, autisme en een lichaam dat zijn eigen weg gaat. Kim zet een raam open naar een wereld die vaak achter gesloten deuren blijft.",
+    blokken: [
+      {
+        soort: "afbeelding",
+        bestand: "onze-wereld-kim-en-mats.jpg",
+        beschrijving: "Kim en haar zoon Mats, wang tegen wang, allebei lachend.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Hallo lieve lezer, welkom in ons leven. Ik schrijf deze woorden niet als expert, maar als mens. Als moeder. Als partner. Als iemand die gelooft dat echte verbinding begint bij eerlijke verhalen. Dit is ons verhaal, een verhaal dat ik deel uit liefde en uit noodzaak. Uit liefde voor mijn gezin, en uit de noodzaak om te laten zien hoe het écht is. Om een raam open te zetten naar een wereld die vaak achter gesloten deuren blijft.",
+      },
+      { soort: "kop", tekst: "Wie wij zijn: HB, ASS en een lichaam dat zijn eigen weg gaat" },
+      {
+        soort: "tekst",
+        tekst:
+          "In ons gezin draait het om termen die meer zijn dan alleen labels. HB (hoogbegaafdheid) en ASS (autismespectrumstoornis) zijn geen beperkingen, maar wel sleutels tot begrip. Ze betekenen een intense manier van zijn: diep voelen, sterk nadenken, behoefte aan duidelijkheid, en breinen die zelden stoppen. Voor onze zoon Mats gaat dit nog een laag dieper: hij heeft het label UHB (uiterst hoogbegaafd) met een disharmonisch profiel. Zijn ontwikkeling loopt niet synchroon; op sommige vlakken denkt hij als een filosoof, op andere vlakken heeft hij de ondersteuning nodig die past bij zijn leeftijd en ASS. Het is een complexe, unieke combinatie.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Maar ons verhaal heeft nog een andere, fysieke laag. Naast deze neurologische aspecten dragen wij lichamelijke uitdagingen met ons mee.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Voor mij betekent dit een totale systeemziekte: hypermobiliteit, bindweefselaandoeningen, POTS (een vorm van dysautonomie) en DVN, wat staat voor dunnevezelneuropathie. Dit is een aandoening van de dunste zenuwvezels, die zorgt voor vaak hevige pijn, branderige sensaties en extreme vermoeidheid. Mijn gezondheid fluctueert van invaliderend tot bijna normaal, vaak zonder waarschuwing.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Onze zoon Mats draagt zijn eigen zware last: een primaire immuundeficiëntie. Zijn lichaam kan niet zelf voldoende afweer opbouwen. Twee keer per week krijgt hij levensnoodzakelijke infusen, thuis gegeven. Door mij en door thuisverpleging. Onze woonkamer is daardoor soms een behandelkamer. Het is zorg verlenen met een moederhart, gedragen door een lichaam dat zelf ook vaak protesteert.",
+      },
+      { soort: "kop", tekst: "De onzichtbare, dubbele last" },
+      {
+        soort: "tekst",
+        tekst:
+          "De combinatie is wat ons leven intens maakt. Een hooggevoelig brein dat alles intens waarneemt, in een lichaam dat intense pijn of dysfunctie signaleert. Een brein dat behoefte heeft aan voorspelbaarheid, in een lichaam dat onvoorspelbaar is. De zorg voor een chronisch ziek kind, terwijl je zelf ook worstelt met je grenzen.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "De belasting is niet alleen mentaal, prikkels reguleren en overleven in een wereld die niet voor jou is ontworpen, maar ook puur fysiek: de uitputting van ziek zijn, pijn hebben, behandelingen geven, en herstellen. Het is een leven waarin vermoeidheid een te zwak woord is voor de diepe uitputting die soms komt aanwaaien.",
+      },
+      { soort: "kop", tekst: "En toch kiezen we voor lachen, verbinding en gelijkwaardigheid" },
+      {
+        soort: "tekst",
+        tekst:
+          "Maar, en dit is het belangrijkste, dit verhaal gaat niet alleen over last. Het gaat over veerkracht.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Het gaat over hoe wij, te midden van ziekenhuismateriaal, infusen, pijnlijke dagen en overprikkelde momenten, nog steeds lachen. Hoe we samen op de bank een film kijken als alles even te veel is. Hoe Mats tijdens zijn infuusjes de grappigste vragen stelt over het universum. Hoe we de kleine overwinningen vieren: een dag zonder koorts, een goed gesprek, een moment van begrip zonder woorden.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "We blijven verbinden, met elkaar en met de wereld. We blijven gelijkwaardig. Ons leven is anders, maar niet minder waardevol. Onze ervaringen zijn intens, maar brengen een diep begrip van wat écht belangrijk is.",
+      },
+      { soort: "kop", tekst: "Waarom ik dit deel: omdat praten moet" },
+      {
+        soort: "tekst",
+        tekst:
+          "Dit is mijn diepste drijfveer: ik wil dat meer mensen kennismaken met de échte betekenis van leven met complexe uitdagingen. Niet de karikaturen, maar het echte, dagelijkse leven. Met zijn lichtpunten en zijn schaduwkanten.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Ik schrijf omdat erover praten mag. Sterker nog: het moet. Niet om zielig gevonden te worden, maar om gezien te worden in je volledige mens-zijn. Om de last te delen, zodat je hem niet alleen hoeft te dragen. Om te laten zien dat het niet overal gemakkelijk is, en dat het oké is om dat te zeggen.",
+      },
+      {
+        soort: "citaat",
+        tekst:
+          "De stilte rond complexe, chronische aandoeningen kan eenzaam maken. Ik breek die stilte, voor ons en voor iedereen die zich herkent.",
+      },
+      { soort: "kop", tekst: "Mijn visie en hoop" },
+      { soort: "tekst", tekst: "Met dit verhaal hoop ik:" },
+      {
+        soort: "lijst",
+        punten: [
+          { tekst: "Een eerlijk en volledig beeld te schetsen." },
+          { tekst: "Herkenning te bieden aan wie in eenzelfde bootje zit." },
+          { tekst: "Begrip te kweken bij familie, vrienden en de samenleving." },
+          { tekst: "De kracht en veerkracht te tonen die schuilgaat achter de uitdagingen." },
+          { tekst: "Te bewijzen dat kwetsbaarheid en kracht hand in hand gaan." },
+        ],
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Ik nodig je uit om met mildheid naar jezelf en anderen te kijken. Om te vragen: “Hoe is het vandaag echt met je?” En om te luisteren zonder meteen oplossingen aan te dragen. Soms is er alleen maar behoefte aan erkenning: “Dat klinkt zwaar. Ik hoor je.”",
+      },
+      { soort: "kop", tekst: "Tot slot" },
+      {
+        soort: "tekst",
+        tekst:
+          "Dankjewel dat je ons verhaal leest. Door het te delen, maak je het lichter. Jij maakt het mogelijk dat we ons minder alleen voelen. Voor iedereen die zelf een complexe weg bewandelt: je bent niet alleen. Deel je verhaal wanneer je kunt, in je eigen tempo.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "En vergeet niet: zelfs op de zwaarste dagen is er ruimte voor een lach, hoe klein ook. Dat is ons geheim. Dat is onze kracht.",
+      },
+      { soort: "tekst", tekst: "Met een hart vol realisme, moed en hoop, Kim" },
+      {
+        soort: "tekst",
+        tekst:
+          "PS: voel je vrij om te reageren, een vraag te stellen of je eigen ervaring te delen. Deze ruimte is er om te leren, te steunen en te groeien, samen.",
+      },
+      { soort: "knop", tekst: "Deel je verhaal", link: "/contact" },
+    ],
+  },
 ];
 
 export const berichtenOpDatum = [...berichten].sort((a, b) =>
