@@ -54,6 +54,10 @@ export const organisaties: Organisatie[] = [
   {
     naam: "Samen slimmer groeien",
     categorie: "Partners die we kennen",
+    omschrijving:
+      "Testing, opvoedingsadvies en studiecoaching rond hoogbegaafdheid, thuis en op school. Met aandacht voor intense emoties, zijnskenmerken en talentontwikkeling, individueel of met het hele gezin. Ook groeigroepen voor kinderen en jongeren.",
+    regio: "Heel Vlaanderen en online",
+    link: "https://samenslimmergroeien.be",
   },
   {
     naam: "Exentra",
