@@ -55,7 +55,7 @@ export default function GidsPagina() {
                           rel="noopener noreferrer"
                           className="mt-3 inline-block text-sm font-extrabold text-green underline-offset-4 hover:underline"
                         >
-                          Naar hun website →
+                          {organisatie.linkTekst ?? gidsTekst.linkTekstStandaard} →
                         </a>
                       ) : null}
                     </Kaart>

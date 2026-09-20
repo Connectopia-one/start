@@ -13,6 +13,8 @@ export type Organisatie = {
   omschrijving?: string;
   regio?: string;
   link?: string;
+  /* De tekst op de knop. Laat leeg voor "Naar hun website". */
+  linkTekst?: string;
 };
 
 export const gidsTekst = {
@@ -27,6 +29,7 @@ export const gidsTekst = {
     "Deze gids groeit mee. Ken je iemand die hier hoort, of wil je er zelf in staan? Laat het ons weten.",
   oproepTekst: "Een organisatie aanbrengen",
   oproepLink: "/over-ons#contact",
+  linkTekstStandaard: "Naar hun website",
   leegTekst:
     "We zijn deze lijst nog aan het opbouwen. Heb je een concrete vraag? Stel ze gerust, dan verwijzen we je persoonlijk door.",
   /* Staat onder een partner waar we de omschrijving nog moeten aanvullen. */
@@ -42,8 +45,10 @@ export const organisaties: Organisatie[] = [
     naam: "CLB van de school",
     categorie: "Eerste stap",
     omschrijving:
-      "Gratis eerste aanspreekpunt bij twijfels over leren, gedrag of welbevinden. Kan screenen en doorverwijzen.",
+      "Gratis eerste aanspreekpunt bij twijfels over leren, gedrag of welbevinden. Kan screenen en doorverwijzen. Elke school hoort bij een vast CLB; via de lijst van de Vlaamse overheid vind je die van jouw school.",
     regio: "Overal",
+    link: "https://www.vlaanderen.be/onderwijs-en-vorming/ondersteuning-en-begeleiding-voor-leerlingen-cursisten-en-studenten/basis-en-secundair-onderwijs/centrum-voor-leerlingenbegeleiding",
+    linkTekst: "Zoek het CLB van je school",
   },
   {
     naam: "Huisarts",
@@ -85,13 +90,15 @@ export const organisaties: Organisatie[] = [
   {
     naam: "Cleverlab studiebegeleiding",
     categorie: "Partners die we kennen",
-    omschrijving: "Studiebegeleiding.",
+    omschrijving:
+      "Bijles en studiebegeleiding in wiskunde en wetenschappen, en begeleiding bij hoogbegaafdheid. Ook trajecten voor de examencommissie en toelatingsexamens.",
     regio: "Diepenbeek",
   },
   {
     naam: "Charlotte Vanneste",
     categorie: "Partners die we kennen",
-    omschrijving: "Psycholoog.",
+    omschrijving:
+      "Psychotherapie en coaching, diagnostisch onderzoek, kerntalentenanalyse en supervisie. Voor kinderen, jongeren en volwassenen.",
     regio: "Alken",
   },
   {
