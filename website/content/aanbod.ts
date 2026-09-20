@@ -16,6 +16,11 @@ export type Traject = {
   regels: { label: string; waarde: string }[];
   tekst: string;
   punten?: string[];
+  /*
+    De foto boven het traject. Zet het bestand in  public/fotos/
+    en vul hier alleen de bestandsnaam in. Laat weg als je geen foto wil.
+  */
+  foto?: { bestand: string; beschrijving: string };
   /* Extra instapmomenten: zo zien ouders dat later starten ook kan. */
   instappen?: {
     tekst: string;
@@ -54,9 +59,17 @@ export const trajecten: Traject[] = [
     regels: [
       { label: "Wanneer", waarde: "Dinsdag, 9u – 15u" },
       { label: "Start", waarde: "Dinsdag 15 september 2026" },
-      { label: "Waar", waarde: "Atheneum Hasselt, Kleine-Breemstraat 33, 3500 Hasselt" },
+      {
+        label: "Waar",
+        waarde: "Atheneum Hasselt, Kleine-Breemstraat 33, 3500 Hasselt",
+      },
       { label: "Opbouw", waarde: "3 trajecten van telkens 10 dagen" },
     ],
+    foto: {
+      bestand: "externe-plusklas.jpg",
+      beschrijving:
+        "Drie kinderen in de plusklas tonen trots hun zelfgemaakte schaakspel en kartonnen molen.",
+    },
     tekst:
       "Onze plusklas is meer dan extra uitdaging. Het is een veilige haven waar gelijkgestemde kinderen samen een diepgaand leertraject aangaan, met aandacht voor het proces, de samenwerking en het plezier in leren.",
     punten: [
@@ -85,6 +98,11 @@ export const trajecten: Traject[] = [
       { label: "Start", waarde: "Woensdag 16 september 2026" },
       { label: "Waar", waarde: "Genk T2 Campus, Thomas Morelaan 2, 3600 Genk" },
     ],
+    foto: {
+      bestand: "pluswerking-woensdag.jpg",
+      beschrijving:
+        "Twee kinderen spelen samen een zelfgebouwd schaakspel in de lichte hal van T2 Campus.",
+    },
     tekst:
       "Meer schoolse uitdaging en voorbereiding op de examencommissie, zowel voor kinderen die schoolgaand zijn als voor kinderen in thuisonderwijs.",
     punten: [
@@ -111,9 +129,17 @@ export const trajecten: Traject[] = [
       { label: "Start", waarde: "Zaterdag 12 september 2026" },
       { label: "Waar", waarde: "Vilderstraat 28, 3500 Hasselt" },
     ],
+    foto: {
+      bestand: "pluswerking-zaterdag.jpg",
+      beschrijving:
+        "Een kind houdt een groene ballon boven een tekening tijdens een proefje met statische elektriciteit.",
+    },
     tekst:
       "Voor kinderen die extra uitdaging zoeken en een creatieve uitlaatklep nodig hebben. Verbeelding aanzetten, vaardigheden ontdekken en vooral: plezier beleven.",
-    punten: ["Creatief denken en techniek ontdekken", "Experimenteren, bouwen en ontwerpen"],
+    punten: [
+      "Creatief denken en techniek ontdekken",
+      "Experimenteren, bouwen en ontwerpen",
+    ],
     instappen: {
       tekst: "Later instappen kan, ook in oktober is er nog plaats.",
       data: ["Zaterdag 3 oktober 2026"],
@@ -130,10 +156,21 @@ export const trajecten: Traject[] = [
     prijsWas: "€25",
     regels: [
       { label: "Dinsdag", waarde: "15u20 – 16u35, Atheneum Hasselt" },
-      { label: "Woensdag", waarde: "13u – 14u15 of 14u15 – 15u30, Genk T2 Campus" },
-      { label: "Zaterdag", waarde: "13u – 14u15 of 14u15 – 15u30, Vilderstraat 28 Hasselt" },
+      {
+        label: "Woensdag",
+        waarde: "13u – 14u15 of 14u15 – 15u30, Genk T2 Campus",
+      },
+      {
+        label: "Zaterdag",
+        waarde: "13u – 14u15 of 14u15 – 15u30, Vilderstraat 28 Hasselt",
+      },
       { label: "Duur", waarde: "Eén les duurt 1u15" },
     ],
+    foto: {
+      bestand: "young-engineers.jpg",
+      beschrijving:
+        "Een zelfgebouwde constructie van lego met een motor, een tandwiel en twee bakjes die op en neer gaan.",
+    },
     tekst:
       "Ontdekken, experimenteren, bouwen en vooral plezier maken. Met LEGO® en techniek echte uitdagingen aangaan, samenwerken en trots zijn op je werk.",
     instappen: {
@@ -148,9 +185,17 @@ export const trajecten: Traject[] = [
     icoon: "🏕️",
     leeftijd: "6 tot 12 jaar",
     regels: [
-      { label: "Wanneer", waarde: "Herfst-, kerst-, krokus-, paas- en zomervakantie" },
+      {
+        label: "Wanneer",
+        waarde: "Herfst-, kerst-, krokus-, paas- en zomervakantie",
+      },
       { label: "Plaatsen", waarde: "Beperkt, reserveer tijdig je plaatsje" },
     ],
+    foto: {
+      bestand: "vakantiekampen.jpg",
+      beschrijving:
+        "Een kind drukt op een knop bij een proefopstelling met een gele onderzeeër in een waterbak.",
+    },
     tekst:
       "Een vakantie vol nieuwsgierigheid, creativiteit, techniek en uitdaging. Nieuwe kampen en thema's maken we telkens bekend via de website en de sociale media.",
     punten: [

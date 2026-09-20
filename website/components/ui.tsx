@@ -32,7 +32,13 @@ export const stipKleur: Record<Kleur, string> = {
   blue: "bg-blue",
 };
 
-export function Icoon({ kleur, children }: { kleur: Kleur; children: ReactNode }) {
+export function Icoon({
+  kleur,
+  children,
+}: {
+  kleur: Kleur;
+  children: ReactNode;
+}) {
   return (
     <span
       aria-hidden
@@ -113,7 +119,9 @@ export function Sectie({
   className?: string;
 }) {
   return (
-    <section className={`mx-auto w-full max-w-5xl px-5 py-10 ${className}`}>{children}</section>
+    <section className={`mx-auto w-full max-w-5xl px-5 py-10 ${className}`}>
+      {children}
+    </section>
   );
 }
 
@@ -166,7 +174,12 @@ export function NaarLink({
 }) {
   if (href.startsWith("http")) {
     return (
-      <a href={href} target="_blank" rel="noopener noreferrer" className={className}>
+      <a
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        className={className}
+      >
         {children}
       </a>
     );
@@ -175,5 +188,32 @@ export function NaarLink({
     <Link href={href} className={className}>
       {children}
     </Link>
+  );
+}
+
+/*
+  Een foto met ronde hoeken, die de hele breedte vult.
+  Zet het bestand in  public/fotos/  en geef alleen de bestandsnaam mee.
+    verhouding  "breed" voor een brede band, "kaart" voor boven een kaart
+*/
+export function Foto({
+  bestand,
+  beschrijving,
+  verhouding = "kaart",
+  className = "",
+}: {
+  bestand: string;
+  beschrijving: string;
+  verhouding?: "breed" | "kaart";
+  className?: string;
+}) {
+  const hoogte = verhouding === "breed" ? "aspect-[8/3]" : "aspect-[16/9]";
+  return (
+    // eslint-disable-next-line @next/next/no-img-element
+    <img
+      src={`/fotos/${bestand}`}
+      alt={beschrijving}
+      className={`${hoogte} w-full rounded-[20px] border border-border object-cover ${className}`}
+    />
   );
 }

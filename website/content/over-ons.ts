@@ -49,6 +49,16 @@ export const overOns = {
     },
   ],
 
+  /*
+    De foto bij "Ons team". Zet het bestand in  public/fotos/
+    Wil je even geen foto?  teamFoto: null,
+  */
+  teamFoto: {
+    bestand: "team.jpg",
+    beschrijving:
+      "Kim, Melissa en Lut samen buiten, met een van de kinderen erbij.",
+  },
+
   team: [
     {
       naam: "Kim",

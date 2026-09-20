@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Icoon, Kaart, PaginaKop, Sectie } from "@/components/ui";
+import { Foto, Icoon, Kaart, PaginaKop, Sectie } from "@/components/ui";
 import { overOns } from "@/content/over-ons";
 import { site } from "@/content/site";
 
@@ -53,6 +53,13 @@ export default function OverOnsPagina() {
 
       <Sectie>
         <h2 className="text-2xl text-green">Ons team</h2>
+        {overOns.teamFoto ? (
+          <Foto
+            bestand={overOns.teamFoto.bestand}
+            beschrijving={overOns.teamFoto.beschrijving}
+            className="mt-5"
+          />
+        ) : null}
         <div className="mt-5 grid gap-4 sm:grid-cols-3">
           {overOns.team.map((lid) => (
             <Kaart key={lid.naam}>
@@ -64,9 +71,14 @@ export default function OverOnsPagina() {
       </Sectie>
 
       <Sectie className="pb-16">
-        <div id="contact" className="scroll-mt-24 rounded-[20px] bg-green px-7 py-9 text-cream">
+        <div
+          id="contact"
+          className="scroll-mt-24 rounded-[20px] bg-green px-7 py-9 text-cream"
+        >
           <h2 className="text-2xl text-cream">{overOns.contact.titel}</h2>
-          <p className="mt-3 max-w-[58ch] text-cream/85">{overOns.contact.tekst}</p>
+          <p className="mt-3 max-w-[58ch] text-cream/85">
+            {overOns.contact.tekst}
+          </p>
           <a
             href={`mailto:${site.email}`}
             className="mt-6 inline-block rounded-full bg-cream px-6 py-3 text-[15px] font-extrabold text-green transition hover:-translate-y-0.5"

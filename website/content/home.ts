@@ -11,14 +11,41 @@ export const home = {
     knopTweede: { tekst: "Bekijk ons aanbod", link: "/aanbod" },
   },
 
+  /*
+    De brede foto onder de titel bovenaan.
+    Zet het bestand in  public/fotos/  en vul hier de naam in.
+    Wil je even geen foto?  foto: null,
+  */
+  foto: {
+    bestand: "startpagina.jpg",
+    beschrijving:
+      "Kinderen werken aan een lange tafel met laptops en boeken, een begeleidster kijkt mee.",
+  },
+
   /* Het kaartje rechts in de hero: vier snelle ingangen. */
   kiesJeRichting: {
     titel: "Waar wil je naartoe?",
     keuzes: [
-      { tekst: "Ik vermoed iets bij mijn kind", link: "/wegwijzer", kleur: "green" },
-      { tekst: "Ik zoek een kamp of traject", link: "/aanbod", kleur: "orange" },
-      { tekst: "Ik zoek een psycholoog of begeleider", link: "/waar-kan-je-terecht", kleur: "purple" },
-      { tekst: "Ik wil naar het ouderportaal", link: "/ouderportaal", kleur: "blue" },
+      {
+        tekst: "Ik vermoed iets bij mijn kind",
+        link: "/wegwijzer",
+        kleur: "green",
+      },
+      {
+        tekst: "Ik zoek een kamp of traject",
+        link: "/aanbod",
+        kleur: "orange",
+      },
+      {
+        tekst: "Ik zoek een psycholoog of begeleider",
+        link: "/waar-kan-je-terecht",
+        kleur: "purple",
+      },
+      {
+        tekst: "Ik wil naar het ouderportaal",
+        link: "/ouderportaal",
+        kleur: "blue",
+      },
     ] as const,
   },
 
@@ -27,7 +54,8 @@ export const home = {
     Zet op null als je even geen aankondiging wil tonen:  aankondiging: null,
   */
   aankondiging: {
-    tekst: "Officieel een vzw! Vanaf schooljaar 2026–2027 verlagen we onze prijzen.",
+    tekst:
+      "Officieel een vzw! Vanaf schooljaar 2026–2027 verlagen we onze prijzen.",
     handgeschreven: "En dat vieren we, samen met jullie",
     link: { tekst: "Bekijk de nieuwe tarieven", href: "/aanbod" },
   },

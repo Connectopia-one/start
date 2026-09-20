@@ -1,6 +1,14 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Icoon, Kaart, PaginaKop, Penseel, Sectie, tekstKleur } from "@/components/ui";
+import {
+  Foto,
+  Icoon,
+  Kaart,
+  PaginaKop,
+  Penseel,
+  Sectie,
+  tekstKleur,
+} from "@/components/ui";
 import { aanbodTekst, proefles, trajecten } from "@/content/aanbod";
 import { aanvraagLink, soorten } from "@/content/formulier";
 
@@ -12,7 +20,11 @@ export const metadata: Metadata = {
 export default function AanbodPagina() {
   return (
     <>
-      <PaginaKop label={aanbodTekst.label} titel={aanbodTekst.titel} tekst={aanbodTekst.tekst} />
+      <PaginaKop
+        label={aanbodTekst.label}
+        titel={aanbodTekst.titel}
+        tekst={aanbodTekst.tekst}
+      />
 
       <Sectie className="py-6">
         <Penseel>{aanbodTekst.tariefNota}</Penseel>
@@ -37,8 +49,12 @@ export default function AanbodPagina() {
             <div className="flex flex-wrap items-start gap-4">
               <Icoon kleur={traject.kleur}>{traject.icoon}</Icoon>
               <div className="min-w-[14rem] flex-1">
-                <h2 className={`text-2xl ${tekstKleur[traject.kleur]}`}>{traject.naam}</h2>
-                <p className="text-[15px] font-bold text-ink-dim">{traject.ondertitel}</p>
+                <h2 className={`text-2xl ${tekstKleur[traject.kleur]}`}>
+                  {traject.naam}
+                </h2>
+                <p className="text-[15px] font-bold text-ink-dim">
+                  {traject.ondertitel}
+                </p>
               </div>
               <div className="text-right">
                 {traject.prijs ? (
@@ -51,15 +67,28 @@ export default function AanbodPagina() {
                     {traject.prijs}
                   </p>
                 ) : null}
-                <p className="text-sm font-bold text-ink-dim">{traject.leeftijd}</p>
+                <p className="text-sm font-bold text-ink-dim">
+                  {traject.leeftijd}
+                </p>
               </div>
             </div>
+
+            {traject.foto ? (
+              <Foto
+                bestand={traject.foto.bestand}
+                beschrijving={traject.foto.beschrijving}
+                className="mt-5"
+              />
+            ) : null}
 
             <p className="mt-4 max-w-[68ch] text-ink-dim">{traject.tekst}</p>
 
             <dl className="mt-5 grid gap-2 sm:grid-cols-2">
               {traject.regels.map((regel) => (
-                <div key={regel.label} className="rounded-xl bg-sage-soft px-4 py-3">
+                <div
+                  key={regel.label}
+                  className="rounded-xl bg-sage-soft px-4 py-3"
+                >
                   <dt className="text-[12px] font-extrabold tracking-[0.06em] text-green uppercase">
                     {regel.label}
                   </dt>
@@ -73,7 +102,9 @@ export default function AanbodPagina() {
                 <p className="text-[12px] font-extrabold tracking-[0.06em] text-orange uppercase">
                   Later instappen
                 </p>
-                <p className="mt-1 text-[15px] text-ink">{traject.instappen.tekst}</p>
+                <p className="mt-1 text-[15px] text-ink">
+                  {traject.instappen.tekst}
+                </p>
                 {traject.instappen.data && traject.instappen.data.length > 0 ? (
                   <ul className="mt-2 flex flex-wrap gap-2">
                     {traject.instappen.data.map((datum) => (
@@ -92,7 +123,10 @@ export default function AanbodPagina() {
             {traject.punten ? (
               <ul className="mt-4 grid gap-1.5">
                 {traject.punten.map((punt) => (
-                  <li key={punt} className="flex gap-2.5 text-[15px] text-ink-dim">
+                  <li
+                    key={punt}
+                    className="flex gap-2.5 text-[15px] text-ink-dim"
+                  >
                     <span aria-hidden className={tekstKleur[traject.kleur]}>
                       ●
                     </span>
@@ -121,7 +155,9 @@ export default function AanbodPagina() {
         ))}
 
         <div className="rounded-[20px] bg-green px-7 py-8 text-cream">
-          <h2 className="text-2xl text-cream">{aanbodTekst.inschrijvenTekst}</h2>
+          <h2 className="text-2xl text-cream">
+            {aanbodTekst.inschrijvenTekst}
+          </h2>
           <Link
             href={aanvraagLink("info")}
             className="mt-5 inline-block rounded-full bg-cream px-6 py-3 text-[15px] font-extrabold text-green transition hover:-translate-y-0.5"
