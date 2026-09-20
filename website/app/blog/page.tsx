@@ -27,6 +27,18 @@ export default function BlogPagina() {
                   </p>
                   <h2 className="mt-2 text-xl text-green">{bericht.titel}</h2>
                   <p className="mt-2 text-[15px] text-ink-dim">{bericht.samenvatting}</p>
+                  {bericht.labels && bericht.labels.length > 0 ? (
+                    <ul className="mt-3 flex flex-wrap gap-2">
+                      {bericht.labels.map((label) => (
+                        <li
+                          key={label}
+                          className="rounded-full bg-sage-soft px-3 py-0.5 text-[12.5px] font-bold text-green"
+                        >
+                          {label}
+                        </li>
+                      ))}
+                    </ul>
+                  ) : null}
                   <p className="mt-4 text-sm font-extrabold text-green">Lees verder →</p>
                 </Kaart>
               </Link>

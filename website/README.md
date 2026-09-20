@@ -30,7 +30,14 @@ aan, en sla op.
 laat `logo` dan weg: dan komt de naam in tekst te staan.
 
 **Een blogbericht schrijven.** Voeg in `content/blog.ts` onderaan een blok toe.
-Het bericht met de nieuwste datum komt vanzelf bovenaan.
+Het bericht met de nieuwste datum komt vanzelf bovenaan. De tekst bouw je op
+uit stukjes: `tekst` voor een alinea, `kop` voor een tussentitel, `lijst` voor
+opsommingen, `afbeelding` voor een foto en `knop` voor een knop naar een andere
+site. Bovenaan dat bestand staat uitgelegd hoe elk stukje eruitziet.
+
+**Een foto bij een blogbericht.** Zet het bestand in `public/blog/` en vul in
+`content/blog.ts` alleen de bestandsnaam in. Vul je er een `link` bij, dan is
+de foto klikbaar.
 
 **Een prijs of datum wijzigen.** Dat staat in `content/aanbod.ts`, bij het
 traject zelf.
