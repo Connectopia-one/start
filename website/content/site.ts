@@ -139,3 +139,12 @@ export const menu = onderdelen.filter((o) => o.inMenu !== false);
 export function onderdeelPerGroep(groep: Onderdeel["groep"]) {
   return onderdelen.filter((o) => o.groep === groep);
 }
+
+/*
+  Zet een link uit de teksten om naar het echte adres.
+  Verwijst een link naar een onderdeel dat op een ander webadres staat
+  (het veld "extern"), dan gebruikt de site dat adres.
+*/
+export function echteLink(link: string) {
+  return onderdelen.find((o) => o.slug === link)?.extern ?? link;
+}

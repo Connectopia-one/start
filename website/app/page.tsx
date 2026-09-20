@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { Tegel } from "@/components/Tegel";
-import { Blad, Icoon, Knop, Label, Penseel, stipKleur } from "@/components/ui";
+import { Blad, Icoon, Knop, Label, NaarLink, Penseel, stipKleur } from "@/components/ui";
 import { home } from "@/content/home";
-import { onderdeelPerGroep, site } from "@/content/site";
+import { echteLink, onderdeelPerGroep, site } from "@/content/site";
 import { sponsors, sponsorsTekst } from "@/content/sponsors";
 import { stappen, wegwijzerTekst } from "@/content/wegwijzer";
 
@@ -44,8 +44,8 @@ export default function Startpagina() {
             <ul className="mt-3 grid gap-0.5">
               {home.kiesJeRichting.keuzes.map((keuze) => (
                 <li key={keuze.link}>
-                  <Link
-                    href={keuze.link}
+                  <NaarLink
+                    href={echteLink(keuze.link)}
                     className="flex items-center gap-2.5 rounded-xl px-2.5 py-2.5 text-[15px] font-semibold hover:bg-sage-soft hover:text-green"
                   >
                     <span
@@ -53,7 +53,7 @@ export default function Startpagina() {
                       className={`h-2.5 w-2.5 shrink-0 rounded-full ${stipKleur[keuze.kleur]}`}
                     />
                     {keuze.tekst}
-                  </Link>
+                  </NaarLink>
                 </li>
               ))}
             </ul>
