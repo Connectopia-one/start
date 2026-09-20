@@ -62,6 +62,7 @@ export const organisaties: Organisatie[] = [
   {
     naam: "Exentra",
     categorie: "Partners die we kennen",
+    link: "https://exentra.be",
   },
   {
     naam: "Hoogbegaan",
