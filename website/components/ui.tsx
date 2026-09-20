@@ -147,3 +147,30 @@ export function Blad({ className = "" }: { className?: string }) {
     </svg>
   );
 }
+
+/*
+  Eén link die zowel naar een pagina van deze site als naar een ander
+  webadres kan wijzen. Externe adressen openen in een nieuw tabblad.
+*/
+export function NaarLink({
+  href,
+  className,
+  children,
+}: {
+  href: string;
+  className?: string;
+  children: ReactNode;
+}) {
+  if (href.startsWith("http")) {
+    return (
+      <a href={href} target="_blank" rel="noopener noreferrer" className={className}>
+        {children}
+      </a>
+    );
+  }
+  return (
+    <Link href={href} className={className}>
+      {children}
+    </Link>
+  );
+}

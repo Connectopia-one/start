@@ -35,9 +35,17 @@ Het bericht met de nieuwste datum komt vanzelf bovenaan.
 **Een prijs of datum wijzigen.** Dat staat in `content/aanbod.ts`, bij het
 traject zelf.
 
-**Het ouderportaal of oefenplatform koppelen.** In `content/site.ts` staat bij
-die twee onderdelen een regel `extern`. Zet daar het webadres, haal het streepje
-ervoor weg, en het menu en de startpagina linken er meteen naartoe.
+**Het ouderportaal en het oefenplatform.** Die staan op
+`ouders.connectopia.one` en `oefenplatform.connectopia.one`. De adressen staan
+in `content/site.ts` bij die twee onderdelen, in de regel `extern`. Verhuist er
+ooit iets, dan pas je alleen die regel aan.
+
+**Een extra instapmoment aankondigen.** Bij elk traject in `content/aanbod.ts`
+staat een blok `instappen`, met een zin en een lijstje datums. Voeg er een datum
+bij of pas de zin aan; laat je de datums leeg, dan toont de site alleen de zin.
+
+**De gratis proefles.** De tekst en de knop staan bovenaan in
+`content/aanbod.ts`, bij `proefles`.
 
 **De aankondigingsbalk weghalen.** In `content/home.ts` staat `aankondiging`.
 Zet die op `null` en de groene balk verdwijnt.

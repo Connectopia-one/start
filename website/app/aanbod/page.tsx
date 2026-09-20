@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Icoon, Kaart, PaginaKop, Penseel, Sectie, tekstKleur } from "@/components/ui";
-import { aanbodTekst, trajecten } from "@/content/aanbod";
+import { aanbodTekst, proefles, trajecten } from "@/content/aanbod";
 
 export const metadata: Metadata = {
   title: "Ons aanbod",
@@ -15,6 +15,19 @@ export default function AanbodPagina() {
 
       <Sectie className="py-6">
         <Penseel>{aanbodTekst.tariefNota}</Penseel>
+
+        <div className="mt-6 flex flex-wrap items-center gap-5 rounded-[20px] bg-orange-soft px-7 py-6">
+          <div className="min-w-[18rem] flex-1">
+            <h2 className="text-2xl text-orange">{proefles.titel}</h2>
+            <p className="mt-2 max-w-[56ch] text-ink">{proefles.tekst}</p>
+          </div>
+          <Link
+            href={proefles.knopLink}
+            className="inline-block rounded-full bg-orange px-6 py-3 text-[15px] font-extrabold text-cream transition hover:-translate-y-0.5"
+          >
+            {proefles.knopTekst} →
+          </Link>
+        </div>
       </Sectie>
 
       <Sectie className="grid gap-5 pb-16">
@@ -53,6 +66,27 @@ export default function AanbodPagina() {
                 </div>
               ))}
             </dl>
+
+            {traject.instappen ? (
+              <div className="mt-4 rounded-2xl border border-dashed border-orange/50 bg-orange-soft/50 px-5 py-4">
+                <p className="text-[12px] font-extrabold tracking-[0.06em] text-orange uppercase">
+                  Later instappen
+                </p>
+                <p className="mt-1 text-[15px] text-ink">{traject.instappen.tekst}</p>
+                {traject.instappen.data && traject.instappen.data.length > 0 ? (
+                  <ul className="mt-2 flex flex-wrap gap-2">
+                    {traject.instappen.data.map((datum) => (
+                      <li
+                        key={datum}
+                        className="rounded-full bg-surface px-3.5 py-1 text-[13px] font-bold text-orange"
+                      >
+                        {datum}
+                      </li>
+                    ))}
+                  </ul>
+                ) : null}
+              </div>
+            ) : null}
 
             {traject.punten ? (
               <ul className="mt-4 grid gap-1.5">

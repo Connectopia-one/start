@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Logo } from "@/components/Logo";
+import { NaarLink } from "@/components/ui";
 import { menu, onderdelen } from "@/content/site";
 
 const ouderportaal = onderdelen.find((o) => o.slug === "/ouderportaal");
@@ -13,21 +14,21 @@ export function SiteHeader() {
         </Link>
         <nav className="ml-auto hidden items-center gap-0.5 sm:flex">
           {menu.map((onderdeel) => (
-            <Link
+            <NaarLink
               key={onderdeel.slug}
               href={onderdeel.extern ?? onderdeel.slug}
               className="rounded-full px-3 py-2 text-[14.5px] font-bold text-ink-dim hover:bg-sage-soft hover:text-green"
             >
               {onderdeel.menuTitel}
-            </Link>
+            </NaarLink>
           ))}
           {ouderportaal ? (
-            <Link
+            <NaarLink
               href={ouderportaal.extern ?? ouderportaal.slug}
               className="ml-2 rounded-full bg-green px-4 py-2 text-[14.5px] font-bold text-cream hover:bg-green-mid"
             >
               Inloggen
-            </Link>
+            </NaarLink>
           ) : null}
         </nav>
       </div>

@@ -14,6 +14,20 @@ export type Traject = {
   regels: { label: string; waarde: string }[];
   tekst: string;
   punten?: string[];
+  /* Extra instapmomenten: zo zien ouders dat later starten ook kan. */
+  instappen?: {
+    tekst: string;
+    data?: string[];
+  };
+};
+
+/* Het blok over de gratis proefles, bovenaan de aanbodpagina. */
+export const proefles = {
+  titel: "Eerst eens komen proeven?",
+  tekst:
+    "Je kind mag vrijblijvend een gratis proefles meedoen. Zo voelt het zelf of de groep en de manier van werken passen, voor je iets vastlegt.",
+  knopTekst: "Schrijf in voor een gratis proefles",
+  knopLink: "/over-ons#contact",
 };
 
 export const aanbodTekst = {
@@ -51,6 +65,10 @@ export const trajecten: Traject[] = [
       "Afgestemd op de noden en talenten van hoogbegaafde kinderen",
       "Regelmatig overleg met de school van je kind",
     ],
+    instappen: {
+      tekst: "Later instappen kan, ook in oktober is er nog plaats.",
+      data: ["Dinsdag 6 oktober 2026"],
+    },
   },
   {
     naam: "Pluswerking woensdag",
@@ -72,6 +90,10 @@ export const trajecten: Traject[] = [
       "Inhoud op maat",
       "Voorbereiden, oefenen en begrijpen",
     ],
+    instappen: {
+      tekst: "Later instappen kan, ook in oktober is er nog plaats.",
+      data: ["Woensdag 7 oktober 2026"],
+    },
   },
   {
     naam: "Pluswerking zaterdag",
@@ -89,6 +111,10 @@ export const trajecten: Traject[] = [
     tekst:
       "Voor kinderen die extra uitdaging zoeken en een creatieve uitlaatklep nodig hebben. Verbeelding aanzetten, vaardigheden ontdekken en vooral: plezier beleven.",
     punten: ["Creatief denken en techniek ontdekken", "Experimenteren, bouwen en ontwerpen"],
+    instappen: {
+      tekst: "Later instappen kan, ook in oktober is er nog plaats.",
+      data: ["Zaterdag 3 oktober 2026"],
+    },
   },
   {
     naam: "Young Engineers",
@@ -106,6 +132,9 @@ export const trajecten: Traject[] = [
     ],
     tekst:
       "Ontdekken, experimenteren, bouwen en vooral plezier maken. Met LEGO® en techniek echte uitdagingen aangaan, samenwerken en trots zijn op je werk.",
+    instappen: {
+      tekst: "Je kan het hele jaar door instappen, ook in oktober.",
+    },
   },
   {
     naam: "Vakantiekampen",

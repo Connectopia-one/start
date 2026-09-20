@@ -63,6 +63,7 @@ export const onderdelen: Onderdeel[] = [
       "Alles wat we zelf organiseren, met data, locaties, leeftijden en inschrijving op één pagina.",
     groep: "watwedoen",
     kleur: "orange",
+    label: "Gratis proefles",
   },
   {
     slug: "/wegwijzer",
@@ -95,8 +96,7 @@ export const onderdelen: Onderdeel[] = [
     kleur: "green",
     label: "Inloggen",
     inMenu: false,
-    // Zet hier het adres van het ouderportaal zodra het online staat:
-    // extern: "https://portaal.connectopia.one",
+    extern: "https://ouders.connectopia.one",
   },
   {
     slug: "/oefenplatform",
@@ -109,7 +109,7 @@ export const onderdelen: Onderdeel[] = [
     kleur: "orange",
     label: "Inloggen",
     inMenu: false,
-    // extern: "https://oefenen.connectopia.one",
+    extern: "https://oefenplatform.connectopia.one",
   },
   {
     slug: "/blog",

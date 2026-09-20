@@ -1,6 +1,5 @@
-import Link from "next/link";
 import type { Onderdeel } from "@/content/site";
-import { Icoon, tekstKleur, vlakKleur } from "@/components/ui";
+import { Icoon, NaarLink, tekstKleur, vlakKleur } from "@/components/ui";
 
 /*
   Eén klikbaar blok op de startpagina.
@@ -20,7 +19,7 @@ export function Tegel({
     : "bg-surface border-border";
 
   return (
-    <Link
+    <NaarLink
       href={onderdeel.extern ?? onderdeel.slug}
       className={`flex flex-col gap-2.5 rounded-[20px] border p-6 shadow-[0_2px_10px_rgba(47,74,34,0.07)] transition hover:-translate-y-1 hover:shadow-[0_8px_20px_rgba(47,74,34,0.12)] ${achtergrond}`}
     >
@@ -40,6 +39,6 @@ export function Tegel({
       <span className={`mt-auto pt-3 text-sm font-extrabold ${tekstKleur[onderdeel.kleur]}`}>
         Bekijken →
       </span>
-    </Link>
+    </NaarLink>
   );
 }
