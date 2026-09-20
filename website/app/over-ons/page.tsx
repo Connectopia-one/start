@@ -57,7 +57,8 @@ export default function OverOnsPagina() {
           <Foto
             bestand={overOns.teamFoto.bestand}
             beschrijving={overOns.teamFoto.beschrijving}
-            className="mt-5"
+            verhouding="vrij"
+            className="mt-5 max-w-xl"
           />
         ) : null}
         <div className="mt-5 grid gap-4 sm:grid-cols-3">

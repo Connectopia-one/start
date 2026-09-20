@@ -194,7 +194,8 @@ export function NaarLink({
 /*
   Een foto met ronde hoeken, die de hele breedte vult.
   Zet het bestand in  public/fotos/  en geef alleen de bestandsnaam mee.
-    verhouding  "breed" voor een brede band, "kaart" voor boven een kaart
+    verhouding  "breed" voor een brede band, "kaart" voor boven een kaart,
+                "vrij" toont de foto zoals ze is, zonder bij te snijden
 */
 export function Foto({
   bestand,
@@ -204,16 +205,21 @@ export function Foto({
 }: {
   bestand: string;
   beschrijving: string;
-  verhouding?: "breed" | "kaart";
+  verhouding?: "breed" | "kaart" | "vrij";
   className?: string;
 }) {
-  const hoogte = verhouding === "breed" ? "aspect-[8/3]" : "aspect-[16/9]";
+  const hoogte =
+    verhouding === "breed"
+      ? "aspect-[8/3] object-cover"
+      : verhouding === "vrij"
+        ? "h-auto"
+        : "aspect-[16/9] object-cover";
   return (
     // eslint-disable-next-line @next/next/no-img-element
     <img
       src={`/fotos/${bestand}`}
       alt={beschrijving}
-      className={`${hoogte} w-full rounded-[20px] border border-border object-cover ${className}`}
+      className={`${hoogte} w-full rounded-[20px] border border-border ${className}`}
     />
   );
 }

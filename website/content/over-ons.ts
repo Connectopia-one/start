@@ -56,10 +56,14 @@ export const overOns = {
   teamFoto: {
     bestand: "team.jpg",
     beschrijving:
-      "Kim, Melissa en Lut samen buiten, met een van de kinderen erbij.",
+      "Lut, Kim en Melissa samen buiten, met een van de kinderen erbij.",
   },
 
   team: [
+    {
+      naam: "Lut",
+      rol: "Onze zachtaardige creatieve duizendpoot. Verandert elk thema in een magisch avontuur vol knutselen, verwondering en een luisterend oor.",
+    },
     {
       naam: "Kim",
       rol: "Bedenker, doener en ervaringsdeskundige in chief. Zette haar eigen zoektocht om in een kompas voor anderen.",
@@ -67,10 +71,6 @@ export const overOns = {
     {
       naam: "Melissa",
       rol: "De perfecte mix van vuurwerk en veilige haven. Laat de oudere kids groeien, springen en denken.",
-    },
-    {
-      naam: "Lut",
-      rol: "Onze zachtaardige creatieve duizendpoot. Verandert elk thema in een magisch avontuur vol knutselen, verwondering en een luisterend oor.",
     },
   ],
 

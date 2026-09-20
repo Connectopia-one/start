@@ -69,6 +69,12 @@ export const sponsors: Sponsor[] = [
     soort: "partner",
     logo: "educathor.png",
   },
+  {
+    naam: "Young Engineers",
+    soort: "partner",
+    logo: "young-engineers.png",
+    link: "https://www.demerland.e2youngengineers.com/",
+  },
 ];
 
 export const sponsorsPerSoort = (soort: Sponsor["soort"]) =>
