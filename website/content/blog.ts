@@ -525,6 +525,14 @@ export const berichten: Bericht[] = [
         tekst:
           "Waarom is het zo belangrijk dat we dit beeld bijstellen? Omdat ieder kind de kans verdient om gezien te worden voor wie het werkelijk is. Een kind dat zich niet herkent in het hokje “hoogbegaafd”, zal dat label al snel afwijzen. “Als hoogbegaafd zijn betekent dat ik van rekenen moet houden, dan ben ik het niet.” En zo blijven ze rondlopen met een gevoel van anders zijn, zonder te weten waarom.",
       },
+      {
+        soort: "afbeelding",
+        bestand: "eigen-interesse.jpg",
+        beschrijving:
+          "Van bovenaf gezien zit een jongen op de grond te typen op een laptop, met molecuulmodellen en boeken over natuurkunde rondom zich.",
+        bijschrift:
+          "Onze Mats, helemaal in zijn element. Geen schaakbord in zicht.",
+      },
       { soort: "kop", tekst: "De schoonheid van diversiteit" },
       {
         soort: "tekst",
