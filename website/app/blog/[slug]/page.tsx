@@ -55,7 +55,7 @@ function BlokWeergave({ blok }: { blok: Blok }) {
         />
       );
       return (
-        <figure className="mx-auto my-2 w-full max-w-sm">
+        <figure className={`my-2 w-full ${blok.klein ? "mx-auto max-w-sm" : ""}`}>
           {blok.link ? (
             <a
               href={blok.link}
@@ -68,6 +68,9 @@ function BlokWeergave({ blok }: { blok: Blok }) {
           ) : (
             plaatje
           )}
+          {blok.bijschrift ? (
+            <figcaption className="mt-2 text-[13px] text-ink-dim">{blok.bijschrift}</figcaption>
+          ) : null}
         </figure>
       );
     }

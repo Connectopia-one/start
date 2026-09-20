@@ -12,20 +12,30 @@
     { soort: "tekst",   tekst: "..." }                     een gewone alinea
     { soort: "kop",     tekst: "..." }                     een tussentitel
     { soort: "lijst",   punten: [{ titel: "...", tekst: "..." }] }
-    { soort: "afbeelding", bestand: "naam.png", beschrijving: "...", link: "..." }
+    { soort: "afbeelding", bestand: "naam.jpg", beschrijving: "...", bijschrift: "..." }
     { soort: "knop",    tekst: "...", link: "https://..." }
 
   Bij "titel" in een lijstpunt: laat het weg als je alleen een zin wil.
   Bij een afbeelding: zet het bestand in de map  public/blog/
-  en vul alleen de bestandsnaam in. "link" is optioneel; vul je die in,
-  dan is de afbeelding klikbaar.
+  en vul alleen de bestandsnaam in.
+    beschrijving  vertelt wat er te zien is, voor wie de foto niet kan zien
+    bijschrift    komt onder de foto te staan, bv. de naam van de fotograaf
+    link          maakt de foto klikbaar
+    klein: true   toont de foto op halve breedte, handig bij een kleine foto
 */
 
 export type Blok =
   | { soort: "tekst"; tekst: string }
   | { soort: "kop"; tekst: string }
   | { soort: "lijst"; punten: { titel?: string; tekst: string }[] }
-  | { soort: "afbeelding"; bestand: string; beschrijving: string; link?: string }
+  | {
+      soort: "afbeelding";
+      bestand: string;
+      beschrijving: string;
+      bijschrift?: string;
+      link?: string;
+      klein?: boolean;
+    }
   | { soort: "knop"; tekst: string; link: string };
 
 export type Bericht = {
@@ -47,6 +57,126 @@ export const blogTekst = {
 };
 
 export const berichten: Bericht[] = [
+  {
+    slug: "tranen-van-herkenning-op-het-forum",
+    titel:
+      "Tranen van herkenning: het forum De kracht van hoogbegaafdheid, en waarom Connectopia geen luxe is",
+    datum: "2026-05-18",
+    auteur: "Kim",
+    labels: ["persoonlijk", "KU Leuven"],
+    samenvatting:
+      "Afgelopen maart was ik op het forum De kracht van hoogbegaafdheid bij KU Leuven. De zaal zat bomvol, en dat zegt alles over hoe groot de nood is.",
+    blokken: [
+      {
+        soort: "tekst",
+        tekst:
+          "Afgelopen maart was ik op het forum “De kracht van hoogbegaafdheid” (KU Leuven). Ik had gehoopt op een interessante avond. Wat ik kreeg was veel meer: tranen van herkenning, een zaal die bomvol zat, en een vuur dat zegt: wij moeten verder.",
+      },
+      {
+        soort: "afbeelding",
+        bestand: "forum-zaal.jpg",
+        beschrijving: "Een volle collegezaal tijdens de forumavond over hoogbegaafdheid.",
+        bijschrift: "Forumavond rond hoogbegaafdheid bij KU Leuven. Foto: Joren De Weerdt",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Toen Kim Kiekens haar voordracht hield, schoot het bij mij helemaal vol. Ze verwoordde precies wat ik zo vaak niet kon zeggen: de eenzaamheid van een snel denkend brein, de vermoeidheid van jezelf steeds aanpassen, het verdriet als niemand ziet hoeveel moeite het kost om “normaal” te doen. Ik zat daar met kippenvel en een brok in mijn keel, en om me heen zag ik knikkende hoofden en ook natte ogen. Herkenning is geen theorie. Het is een lichamelijke ervaring.",
+      },
+      {
+        soort: "afbeelding",
+        bestand: "forum-spreker.jpg",
+        beschrijving: "Een spreekster aan de lessenaar van KU Leuven tijdens de forumavond.",
+        bijschrift: "Forumavond rond hoogbegaafdheid bij KU Leuven. Foto: Joren De Weerdt",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Wat me nóg meer raakte? De opkomst. De zaal was afgeladen vol. Ouders, leerkrachten, psychologen, coaches, en ook hoogbegaafde volwassenen die eindelijk antwoorden zochten. Die enorme opkomst benadrukt precies één ding: de nood is schrijnend. Mensen staan niet voor hun plezier in de file om naar een forum te gaan. Ze komen omdat ze ergens anders niet gehoord worden.",
+      },
+      { soort: "kop", tekst: "Hoogbegaafdheid mag geen taboe meer zijn" },
+      {
+        soort: "tekst",
+        tekst:
+          "We weten het al langer: hoogbegaafdheid wordt óf verheerlijkt, óf weggewuifd. “Ach wat erg, je kind kan zo goed leren.” Maar de valkuilen, perfectionisme, overprikkeling, sociale mismatch en faalangst, blijven te vaak onbesproken. Alsof je alleen maar dankbaar mag zijn. Alsof je geen recht hebt op steun.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Kim Kiekens brak dat taboe met haar verhaal. En de zaal liet zien: wij willen hier wél over praten. Zonder schaamte. Zonder bagatellisering.",
+      },
+      {
+        soort: "afbeelding",
+        bestand: "forum-applaus.jpg",
+        beschrijving: "Een zaal vol mensen die applaudisseren na de voordracht.",
+        bijschrift: "Forumavond rond hoogbegaafdheid bij KU Leuven. Foto: Joren De Weerdt",
+      },
+      {
+        soort: "kop",
+        tekst: "Waarom Connectopia geen platform “erbij” is, maar een noodzaak",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Precies dáárom ben ik begonnen met Connectopia. Geen vrijblijvend initiatief, maar een antwoord op wat ik die avond voelde en zag:",
+      },
+      {
+        soort: "lijst",
+        punten: [
+          { tekst: "Herkenning bieden waar die nu ontbreekt." },
+          { tekst: "Valkuilen bespreekbaar maken zonder oordeel." },
+          {
+            tekst:
+              "Lotgenoten en experts samenbrengen, omdat een school of gezin het vaak niet alleen kan trekken.",
+          },
+          {
+            tekst:
+              "Van taboe naar tool gaan: hoe herken je overprikkeling? Hoe praat je met een kind dat alles al snapt maar nog niet kan dragen?",
+          },
+        ],
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "De energie van die volle zaal heeft mij bevestigd: Connectopia is geen leuke extra, het is broodnodig. Er is een leegte in het hulplandschap voor cognitief sterke kinderen én hun omgeving. Die leegte willen we mee helpen vullen.",
+      },
+      { soort: "kop", tekst: "Laten we doorgaan" },
+      {
+        soort: "tekst",
+        tekst:
+          "Het forum was een prachtige start, maar geen eindpunt. Want morgen zitten diezelfde kinderen weer in een klas waar niemand begrijpt waarom ze zo intens reageren. Zitten ouders weer alleen met hun vragen. Zitten volwassen hoogbegaafden zich weer aan te passen tot ze knappen.",
+      },
+      { soort: "tekst", tekst: "Daarom mijn oproep:" },
+      {
+        soort: "lijst",
+        punten: [
+          {
+            titel: "Praat verder",
+            tekst: "Deel dit bericht, vertel over jouw traan van herkenning.",
+          },
+          {
+            titel: "Volg Connectopia",
+            tekst: "Hoe meer mensen meebouwen, hoe sneller we een écht vangnet hebben.",
+          },
+          {
+            titel: "Maak hoogbegaafdheid bespreekbaar",
+            tekst:
+              "Op school, aan de keukentafel, op de werkvloer. Zowel de krachten als de kwetsbaarheden.",
+          },
+        ],
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Samen zorgen we dat niemand meer in stilte huilt van onbegrip, maar dat tranen van herkenning altijd gevolgd worden door: “Wij gaan je helpen.”",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Met heel lieve groetjes en een welgemeend applaus, en ik hoop dat er nog veel forums mogen komen.",
+      },
+    ],
+  },
   {
     slug: "de-zomer-vreugde-of-stress",
     titel: "De zomer: een tijd van vreugde, of een bron van stress?",
@@ -97,6 +227,7 @@ export const berichten: Bericht[] = [
         soort: "afbeelding",
         bestand: "zomer-begeleiding.png",
         beschrijving: "Een begeleidster en een ouder kijken samen met een kind naar een tekening.",
+        klein: true,
       },
       { soort: "kop", tekst: "Waarom prikkelarm geen luxe is, maar noodzaak" },
       {
@@ -149,6 +280,7 @@ export const berichten: Bericht[] = [
         bestand: "zomer-samen-spelen.png",
         beschrijving: "Vier kinderen spelen samen een gezelschapsspel op de grond.",
         link: "https://www.facebook.com/groups/2075601083022326/",
+        klein: true,
       },
       {
         soort: "knop",
