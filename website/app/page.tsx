@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Tegel } from "@/components/Tegel";
-import { Blad, Icoon, Knop, Label, NaarLink, Penseel, stipKleur } from "@/components/ui";
+import { Blad, Icoon, Knop, Label, NaarLink, Penseel, stipKleur, tekstKleur } from "@/components/ui";
 import { home } from "@/content/home";
 import { echteLink, onderdeelPerGroep, site } from "@/content/site";
 import type { Sponsor } from "@/content/sponsors";
@@ -106,11 +106,11 @@ export default function Startpagina() {
               <p className="text-[15px] text-ink-dim">{wegwijzerTekst.tekst}</p>
             </div>
 
-            <div className="mt-6 grid gap-4 border-t border-dashed border-border pt-5 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="mt-6 grid gap-4 border-t border-dashed border-border pt-5 sm:grid-cols-2 lg:grid-cols-5">
               {stappen.map((stap) => (
                 <div key={stap.nummer} className="flex flex-col items-start gap-2">
                   <Icoon kleur={stap.kleur}>{stap.icoon}</Icoon>
-                  <h4 className={`text-[15.5px] ${stap.kleur === "green" ? "text-green" : stap.kleur === "orange" ? "text-orange" : stap.kleur === "purple" ? "text-purple" : "text-blue"}`}>
+                  <h4 className={`text-[15.5px] ${tekstKleur[stap.kleur]}`}>
                     {stap.nummer}. {stap.titel}
                   </h4>
                   <p className="text-[13.5px] text-ink-dim">{stap.samenvatting}</p>

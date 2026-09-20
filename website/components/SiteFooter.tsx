@@ -1,9 +1,9 @@
 import { NaarLink } from "@/components/ui";
-import { onderdelen, site } from "@/content/site";
+import { extraLinks, onderdelen, site } from "@/content/site";
 
 export function SiteFooter() {
   return (
-    <footer className="bg-green text-cream">
+    <footer className="niet-afdrukken bg-green text-cream">
       <div className="mx-auto w-full max-w-5xl px-5 py-10">
         <p className="font-hand text-2xl text-[#f3c98a]">{site.afsluiter}</p>
 
@@ -15,6 +15,15 @@ export function SiteFooter() {
               className="text-sm font-bold text-cream/90 underline-offset-4 hover:underline"
             >
               {onderdeel.menuTitel}
+            </NaarLink>
+          ))}
+          {extraLinks.map((extra) => (
+            <NaarLink
+              key={extra.slug}
+              href={extra.slug}
+              className="text-sm font-bold text-cream/90 underline-offset-4 hover:underline"
+            >
+              {extra.menuTitel}
             </NaarLink>
           ))}
         </nav>

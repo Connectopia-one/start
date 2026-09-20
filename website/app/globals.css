@@ -73,3 +73,62 @@ h4 {
     transition: none !important;
   }
 }
+
+/*
+  Afdrukken.
+  Alles met de klasse "niet-afdrukken" blijft op papier weg (het menu, de
+  voettekst, de uitleg die je alleen op je scherm nodig hebt). Kaarten met
+  "afdruk-kaart" worden niet halverwege over twee bladen gesplitst.
+*/
+@media print {
+  .niet-afdrukken {
+    display: none !important;
+  }
+
+  body {
+    background: #fff;
+  }
+
+  /* Compacter op papier, zodat de lijst niet uitdijt over te veel bladen. */
+  html {
+    font-size: 13px;
+  }
+
+  .afdruk-kaart {
+    border: 1px solid #b9b3a2;
+    box-shadow: none;
+    padding: 0.9rem 1rem;
+  }
+
+  /* Een vraag of een hoofdstuktitel valt nooit over twee bladen heen. */
+  .afdruk-kaart li,
+  .afdruk-kaart h2,
+  .afdruk-kaart h3 {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .afdruk-kaart h2 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  .afdruk-kaart li {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+  }
+
+  section {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+
+  input[type="text"] {
+    border-bottom: 1px solid #b9b3a2;
+  }
+
+  input[type="checkbox"] {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}

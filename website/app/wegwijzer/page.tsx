@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Icoon, Kaart, PaginaKop, Sectie, tekstKleur, vlakKleur } from "@/components/ui";
+import { Icoon, Kaart, Label, PaginaKop, Sectie, tekstKleur, vlakKleur } from "@/components/ui";
 import { stappen, wegwijzerTekst } from "@/content/wegwijzer";
 
 export const metadata: Metadata = {
@@ -75,6 +75,27 @@ export default function WegwijzerPagina() {
           </Kaart>
         ))}
       </Sectie>
+
+      {/* Het blad dat je invult en meeneemt naar je gesprek. */}
+      {wegwijzerTekst.observatieblok ? (
+        <Sectie className="py-0">
+          <Kaart className="border-2 border-orange">
+            <Label>{wegwijzerTekst.observatieblok.label}</Label>
+            <h2 className="mt-2 text-2xl text-green">
+              {wegwijzerTekst.observatieblok.titel}
+            </h2>
+            <p className="mt-3 max-w-[66ch] text-[15px] text-ink">
+              {wegwijzerTekst.observatieblok.tekst}
+            </p>
+            <Link
+              href={wegwijzerTekst.observatieblok.knopLink}
+              className="mt-5 inline-block rounded-full bg-green px-6 py-3 text-[15px] font-extrabold text-cream transition hover:-translate-y-0.5 hover:bg-green-mid"
+            >
+              {wegwijzerTekst.observatieblok.knopTekst} →
+            </Link>
+          </Kaart>
+        </Sectie>
+      ) : null}
 
       <Sectie className="pb-16">
         <div className="rounded-[20px] bg-green px-7 py-8 text-cream">

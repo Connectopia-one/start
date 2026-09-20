@@ -137,6 +137,14 @@ export const onderdelen: Onderdeel[] = [
 
 export const menu = onderdelen.filter((o) => o.inMenu !== false);
 
+/*
+  Extra links onderaan in de voettekst, naast de acht onderdelen.
+  Dit zijn pagina's die bij een onderdeel horen maar een eigen adres hebben.
+*/
+export const extraLinks = [
+  { slug: "/observatielijst", menuTitel: "Observatielijst" },
+];
+
 export function onderdeelPerGroep(groep: Onderdeel["groep"]) {
   return onderdelen.filter((o) => o.groep === groep);
 }

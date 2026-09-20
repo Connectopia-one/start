@@ -27,6 +27,19 @@ export const wegwijzerTekst = {
     "Een echte roadmap bij ASS, ADHD, hoogbegaafdheid en uitzonderlijke hoogbegaafdheid. Van het eerste vermoeden tot ver na de diagnose: bij wie begin je, wie doet wat, wat verandert er op school, en wat bestaat er aan ondersteuning.",
   nota:
     "Wij zijn geen diagnostici of klinisch psychologen. We zijn ervaringsdeskundigen met een zorgvuldig opgebouwd netwerk van wél-specialisten, en we delen hier wat we zelf geleerd hebben.",
+  /*
+    Het blok onder het stappenplan dat naar de observatielijst verwijst.
+    Wil je het weg? Zet observatieblok op null.
+  */
+  observatieblok: {
+    label: "Gratis en zonder inschrijven",
+    titel: "Neem een ingevuld blad mee naar je gesprek",
+    tekst:
+      "We maakten een uitgebreide observatielijst met kenmerken van hoogbegaafdheid, uitzonderlijke hoogbegaafdheid, autisme en ADHD. Je vult aan wat je herkent, schrijft je eigen voorbeelden erbij en drukt het af. Zo start je gesprek met de leerkracht, het CLB of de specialist niet bij nul. Het is geen test en geen diagnose, gewoon een blad dat je gedachten ordent.",
+    knopTekst: "Naar de observatielijst",
+    knopLink: "/observatielijst",
+  },
+
   slot: {
     titel: "Kom je er niet uit?",
     tekst:
@@ -111,5 +124,27 @@ export const stappen: Stap[] = [
     ],
     nadruk:
       "Heb je enkel een diagnose HB of UHB, dan heb je in België jammer genoeg geen recht op terugbetalingen. Vind je ergens toch iets, laat het ons dan zeker weten, dan delen we het verder.",
+  },
+  {
+    nummer: "5",
+    titel: "Jij en je gezin",
+    kleur: "green",
+    icoon: "💚",
+    samenvatting: "Het mooiste traject, en het traject dat het vaakst vergeten wordt.",
+    punten: [
+      "Een kind met extra noden, of dat nu HB, autisme, ADHD of iets anders is, geeft je gezin een ander parcours dan je je had voorgesteld.",
+      "Maak ruimte om een beetje te rouwen om het beeld dat je had van hoe je gezin en je leven eruit zouden zien. Dat mag.",
+      "En dan begint er een traject dat je samen met je kind beleeft. Zo'n leven kan heel mooi zijn.",
+      "Leer bij door je kind en voor je kind, en geniet. Want dat wordt nogal eens vergeten.",
+      "Je bent al zover geraakt om te zoeken waar je je kind mee verder kan helpen. Dat zegt toch al heel veel.",
+      "Neem nu eens de tijd om alle positieve dingen op te schrijven. Vraag je kind om dat ook over jou te doen.",
+      "Doe wat jij voelt dat goed zit.",
+    ],
+    nadruk: "Jouw gezin en jouw kind zijn uniek.",
+    tip: {
+      tekst: "Andere ouders schrijven op onze blog over precies dit stuk van de weg.",
+      knopTekst: "Lees mee",
+      knopLink: "/blog",
+    },
   },
 ];

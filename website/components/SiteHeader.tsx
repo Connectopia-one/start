@@ -7,7 +7,7 @@ const ouderportaal = onderdelen.find((o) => o.slug === "/ouderportaal");
 
 export function SiteHeader() {
   return (
-    <header className="sticky top-0 z-30 border-b border-border bg-cream/95 backdrop-blur">
+    <header className="niet-afdrukken sticky top-0 z-30 border-b border-border bg-cream/95 backdrop-blur">
       <div className="mx-auto flex w-full max-w-5xl flex-wrap items-center gap-4 px-5 py-3">
         <Link href="/" aria-label="Naar de startpagina">
           <Logo />
