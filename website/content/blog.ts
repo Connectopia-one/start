@@ -421,6 +421,354 @@ export const berichten: Bericht[] = [
       },
     ],
   },
+  {
+    slug: "geen-kind-is-hetzelfde",
+    titel: "Geen kind is hetzelfde: waarom we moeten stoppen met het hokje “hoogbegaafd”",
+    datum: "2026-02-28",
+    auteur: "Connectopia",
+    labels: ["persoonlijk"],
+    samenvatting:
+      "De snelle rekenaar, de jonge schaker, het kind dat zich verveelt in de klas. Die bestaan. Maar er zijn net zoveel verschillen tussen hoogbegaafde kinderen als tussen alle andere kinderen.",
+    blokken: [
+      {
+        soort: "tekst",
+        tekst:
+          "Wanneer mensen denken aan een hoogbegaafd kind, schieten er vaak een paar vaste plaatjes door hun hoofd: de snelle rekenaar, de jonge schaker, het meisje dat op haar vierde al zelfstandig leest, of de jongen die zijn tijd verveelt in de klas omdat hij alles al weet. En ja, die bestaan. Maar wat als ik je vertel dat het beeld dat we hebben van hoogbegaafdheid (HB) en uitzonderlijke hoogbegaafdheid (UHB) voor heel veel kinderen helemaal niet klopt? Dat er net zoveel verschillen zijn tussen hoogbegaafde kinderen als tussen alle andere kinderen op de wereld?",
+      },
+      {
+        soort: "afbeelding",
+        bestand: "hokje-dagdromen.jpg",
+        beschrijving:
+          "Tekening van een meisje dat in de klas voor zich uit droomt, met planeten, een boom, een vraagteken en een hart in een wolk boven haar hoofd.",
+      },
+      { soort: "kop", tekst: "De mythe van de universele HB'er" },
+      {
+        soort: "tekst",
+        tekst:
+          "De samenleving houdt van hokjes. Het geeft houvast. “Hoogbegaafd? Oh, dan ben je goed in wiskunde en schaken.” Maar de werkelijkheid is een stuk weerbarstiger en vooral een stuk kleurrijker.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Ik wil graag een lans breken voor de kinderen die niet in dat standaardplaatje passen. Want de waarheid is: niet elke hoogbegaafde houdt van schaken. Sterker nog, er zijn er genoeg die een hekel hebben aan de stilte en de strategie van een schaakbord.",
+      },
+      {
+        soort: "lijst",
+        punten: [
+          {
+            titel: "De creatieveling",
+            tekst:
+              "Er zijn HB'ers die hun intelligentie uiten in kunst, muziek of verhalen verzinnen. Hun hoofd zit vol beelden en emoties, niet per se met getallen.",
+          },
+          {
+            titel: "De doener",
+            tekst:
+              "Er zijn HB'ers die hun energie kwijt moeten in sport of bouwen. Hun slimheid zit in hun handelen, in het begrijpen van hoe dingen in elkaar steken door ze uit elkaar te halen.",
+          },
+          {
+            titel: "De alleskunner",
+            tekst:
+              "En ja, er zijn er ook die van alles een beetje lusten. Die net zo goed een potje kunnen schaken als een schilderij kunnen maken, maar zich nergens volledig in thuis voelen omdat de wereld hen vraagt om te kiezen.",
+          },
+        ],
+      },
+      {
+        soort: "afbeelding",
+        bestand: "hokje-bouwen.jpg",
+        beschrijving:
+          "Tekening van een jongen die aan tafel een raket van karton in elkaar knutselt, tussen schetsen, een schaar en lijm.",
+      },
+      { soort: "kop", tekst: "Door de mazen van het net" },
+      {
+        soort: "tekst",
+        tekst:
+          "Het grootste probleem van die vastomlijnde verwachtingen? Dat kinderen er letterlijk doorheen vallen. De kinderen die niet voldoen aan het stereotype, worden simpelweg niet gezien.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Denk aan het meisje dat stil is in de klas, niet voor haar beurt praat, maar thuis intense vragen stelt over het leven en de dood. Ze valt niet op, dus krijgt ze geen uitdaging.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Denk aan de jongen die constant in conflict is omdat hij de waarom-vragen stelt waar de juf geen antwoord op heeft, en daardoor niet als slim, maar als lastig wordt bestempeld.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "En denk aan de kinderen die moeite hebben met rekenen vanwege dyscalculie, maar wel een uitzonderlijk taalgevoel hebben. Hun hoogbegaafdheid is niet “rendabel” voor de schoolprestaties, dus glippen ze door de mazen van het net. Ze voldoen niet aan de gekke verwachtingen die mensen hebben, en dat is ontzettend schadelijk. Het zorgt voor onbegrip, een laag zelfbeeld en het gevoel dat er iets mis is met jou, terwijl er juist iets mis is met de bril waardoor we kijken.",
+      },
+      {
+        soort: "afbeelding",
+        bestand: "hokje-muziek.jpg",
+        beschrijving:
+          "Tekening van een jongen die in een nis in een muur zit, terwijl noten, tandwielen, een potlood en een boek uit de opening tevoorschijn komen.",
+      },
+      { soort: "kop", tekst: "Waarom het ertoe doet" },
+      {
+        soort: "tekst",
+        tekst:
+          "Waarom is het zo belangrijk dat we dit beeld bijstellen? Omdat ieder kind de kans verdient om gezien te worden voor wie het werkelijk is. Een kind dat zich niet herkent in het hokje “hoogbegaafd”, zal dat label al snel afwijzen. “Als hoogbegaafd zijn betekent dat ik van rekenen moet houden, dan ben ik het niet.” En zo blijven ze rondlopen met een gevoel van anders zijn, zonder te weten waarom.",
+      },
+      { soort: "kop", tekst: "De schoonheid van diversiteit" },
+      {
+        soort: "tekst",
+        tekst:
+          "Laten we eerlijk zijn: wat zou de wereld ontzettend saai zijn als we allemaal hetzelfde waren. Stel je een wereld voor waarin iedereen hetzelfde denkt, dezelfde hobby's heeft en op dezelfde manier leert. Het zou een stille, grijze wereld zijn.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "De kracht van hoogbegaafdheid zit hem juist in de diversiteit. In de ene die later uitvinder wordt, de ander die maatschappelijke problemen oplost en de derde die ons raakt met muziek of schilderijen. Hoogbegaafdheid is geen sjabloon, het is een unieke manier van in de wereld staan, die er bij ieder mens weer anders uitziet.",
+      },
+      { soort: "kop", tekst: "Tot slot" },
+      {
+        soort: "tekst",
+        tekst:
+          "Dus laten we stoppen met het opleggen van verwachtingen. Laten we in plaats daarvan nieuwsgierig zijn. Niet vragen: “Speel je schaak?”, maar vragen: “Waar ga jij van gloeien? Waar ben jij nieuwsgierig naar?” Pas dan gaan we de rijkdom van hoogbegaafdheid echt zien. Pas dan zien we het kind, niet het label.",
+      },
+      {
+        soort: "citaat",
+        tekst:
+          "Herken jij dit? Heb jij het gevoel dat je als kind, of nu, in een hokje werd gedrukt? Of heb je een kind dat niet in het plaatje past? Deel je ervaringen.",
+      },
+      { soort: "knop", tekst: "Deel je ervaring", link: "/contact" },
+    ],
+  },
+  {
+    slug: "leren-leren-lessen-uit-het-muziekonderwijs",
+    titel: "Leren leren: lessen uit het muziekonderwijs",
+    datum: "2026-02-28",
+    auteur: "Lucas Dumoulin",
+    labels: ["Lucas Dumoulin", "onderwijs", "ervaringen", "persoonlijk"],
+    samenvatting:
+      "Vaak ligt het probleem niet bij de leerstof, maar bij de studiemethode. Bijlesdocent en violist Lucas Dumoulin over wat het onderwijs kan leren van de muziekschool.",
+    blokken: [
+      {
+        soort: "tekst",
+        tekst:
+          "Veel studenten kloppen aan bij een bijlesdocent met problemen voor een vak, maar vaak blijkt al snel dat hun probleem niet aan de leerstof ligt, wel aan hun studiemethode. Tegelijkertijd merk ik dat leerlingen wél academische vaardigheden leren, maar dan in de muziekschool. Om kort door de bocht te gaan: de muziekschool leert vaardigheden aan, het onderwijs biedt kennis aan. De truc is om ze ook in het onderwijs toe te passen.",
+      },
+      {
+        soort: "afbeelding",
+        bestand: "lucas-dumoulin.jpg",
+        beschrijving:
+          "Lucas Dumoulin in een muzieklokaal, met een piano en een rij gitaren aan de muur achter hem.",
+        klein: true,
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Ik ben Lucas, een bijlesdocent met een sterke focus op studiemethoden. Mijn werk is dus eigenlijk pas geslaagd als leerlingen niet meer moeten terugkomen. Daarnaast speel ik ook viool: vanuit deze combinatie wil ik in deze blog verkennen wat het reguliere onderwijs wel eens kan leren van de muziekschool.",
+      },
+      { soort: "kop", tekst: "1. Focus op de fundamenten" },
+      {
+        soort: "tekst",
+        tekst:
+          "Wie muziek studeert, ontdekt het snel: zonder stevige fundamenten wordt de volgende stap onnodig moeilijk. Dit begint zelfs voor je een instrument aanraakt: de taal van de muziek kunnen spreken is cruciaal. In de eerste jaren gaat er veel aandacht naar begrijpen wat muziek nu eigenlijk is. Begrippen zoals een toonaard, noten en akkoorden zijn belangrijke basisstukken om later een instrument te bespelen. Wanneer de basis onvoldoende wordt beheerst ben je eigenlijk niet meer bezig met je instrument, maar met het ontcijferen van de taal. Zonde, want zo wordt oefenen onnodig inefficiënt.",
+      },
+      {
+        soort: "afbeelding",
+        bestand: "leren-leren-viool.jpg",
+        beschrijving:
+          "Een viool met strijkstok op een houten tafel, naast een rode ringmap en opengeslagen studieboeken.",
+        bijschrift: "Een greep uit mijn eigen leven",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Een parallel met wiskunde kan gemaakt worden: veel problemen die opduiken in het vierde en vijfde middelbaar hebben als oorzaak slechte fundamenten. Die problemen worden lang verscholen door intelligentie en patroonherkenning. Maar op een bepaald moment wordt verwacht dat alle regels gekend en toegepast worden, terwijl de oefeningen steeds complexer worden. Als die basisregels niet voldoende gekend zijn, gaat het mis en laat je steken vallen. “Domme fouten”. Harder studeren helpt niet wanneer het probleem ónder de leerstof zit. Op termijn concluderen dan veel studenten “ik ben gewoon niet goed in wiskunde of chemie”. Dat vind ik zonde.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Ik heb deze les zelf ook ondervonden. Wanneer je viool leert spelen, spendeer je de eerste jaren aan de basishandelingen. Pas wanneer dat vlot gaat begin je met het echte werk: muziek interpreteren en maken. Zonder die basis ben je continu aan het nadenken over hoe je moet bewegen om geluid te maken. Je kan dus niet meer bezig zijn met de echte muziek. Dit was voor mij wel duidelijk voor viool, maar bij wiskunde helemaal niet.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "In het vijfde middelbaar kwam ik dan ook in de problemen met wiskunde. Ik ben met de hakken over de sloot door geraakt, en ik dacht lang dat ik gewoon niet goed in wiskunde was. Tot ik later de kans kreeg om bijles examencommissie te geven. Tijdens mijn voorbereiding ben ik met de pure fundamenten begonnen, en blijkt: wat vroeger zo moeilijk leek bleek wel mee te vallen zonder fundamentele gaten in mijn kennis.",
+      },
+      { soort: "kop", tekst: "2. Moeilijkheden verdragen" },
+      {
+        soort: "tekst",
+        tekst:
+          "Voor slimme of hoogbegaafde kinderen gaat school meestal vanzelf. Studeren is iets vreemd, falen nog meer. Muziek biedt een harde, maar eerlijke leerschool: een muur waar je keer op keer tegenaan botst. Niemand, ongeacht hun intelligentie, kan uit zichzelf een instrument. Dat vereist duizenden uren oefening, en falen. Heel veel falen. Tijdens het oefenen, in de les, op toonmomenten. Vooruitgang ontstaat alleen door continu tegen die muur aan te lopen, en nog liefst met je hoofd eerst.",
+      },
+      {
+        soort: "afbeelding",
+        bestand: "leren-leren-piano.jpg",
+        klein: true,
+        beschrijving:
+          "Een pianist speelt op een vleugel op een groot podium, in het licht van een spot, voor een volle zaal.",
+        bijschrift: "Erger dan een spreekbeurt?",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Dat is prachtig: falen is een vaardigheid die iedereen moet leren. Je leert niet alleen een instrument, maar ook vele soft skills: leren optreden vertaalt heel goed naar spreekbeurten of presentaties geven. En ook omgaan met het feit dat soms niet alles gaat zoals je zou willen, en dat dat oké is. En tegelijkertijd word je steeds beter in je instrument: de vruchten van je harde werk. Voor veel kinderen is muziek een ideale opstap om dé belangrijkste vaardigheid te leren: vallen en terug opstaan.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Eén belangrijke kanttekening: doorzetten is belangrijk, maar weten wanneer te stoppen ook. Regelmatig herevalueren, bij de inschrijving voor volgend jaar bijvoorbeeld, en de vraag “is dit eigenlijk iets voor mij?” stellen is niet opgeven. Tijd is gelimiteerd, en dan kan je beter dingen doen die je graag doet.",
+      },
+      { soort: "kop", tekst: "3. (Gericht) herhalen, herhalen, herhalen" },
+      {
+        soort: "tekst",
+        tekst:
+          "Het meest herhaalde (ha!) devies van studiebegeleiding. Gevolgd door “ja, maar het is ook echt zo belangrijk!”. Absoluut, maar wat houdt herhalen nu eigenlijk in? En hoe herhaal ik nu goed? Als je methode aan deze eigenschappen voldoet, ben je al goed bezig:",
+      },
+      {
+        soort: "lijst",
+        punten: [
+          { titel: "Gespreid", tekst: "Liefst over meerdere dagen, om te kunnen verwerken." },
+          {
+            titel: "Gefocust",
+            tekst:
+              "Actief nadenken is veel effectiever. Na het herhalen moet je het gevoel hebben dat je hard gewerkt hebt.",
+          },
+          {
+            titel: "Tijdsbesparend",
+            tekst:
+              "Als je je tijd optelt, ben je minder lang bezig dan alles in één studeersessie te doen.",
+          },
+        ],
+      },
+      {
+        soort: "afbeelding",
+        bestand: "leren-leren-herhalen.png",
+        klein: true,
+        beschrijving:
+          "Grafiek met kennis op de verticale as en dagen op de horizontale as. Na elk moment van leren zakt de kennis, en elke herhaling brengt ze terug naar honderd procent, telkens minder steil.",
+        bijschrift:
+          "Gespreid herhalen is één van de meest gebruikte methodes. Met goede reden: het werkt",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Of het nu voetbal of viool is: een hobby oefen je ook niet één dag per week zes uur lang, maar liever gespreid. En als je iets wilt leren, dan gaat dat niet met je hersenen op automatische piloot. Herhaling werkt pas wanneer ze inspanning vraagt. Passieve herhaling heeft ook zijn plaats, maar dan als kers op de taart. Blootstelling is dé manier om uit te munten.",
+      },
+      { soort: "kop", tekst: "4. Leren door blootstelling" },
+      {
+        soort: "tekst",
+        tekst:
+          "Leren vereist niet altijd studeren. Ja, studeren is nodig, maar niet alles. Blootstelling kan helpen om met weinig extra inzet meer resultaten te boeken. Maar wat is dat?",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Een klassiek voorbeeld: een enthousiaste student legt de leerstof uit aan de keukentafel. Sommige delen gaan vlot, die zijn goed gekend. Andere gaan moeizamer, daar is nog werk aan. Ondertussen is alles nog een keer herhaald. Hetzelfde gaat voor uitleg geven aan medestudenten. Je test jezelf en herhaalt, zonder dat het als studeren aanvoelt.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Ook YouTube-video's over het onderwerp, wetenschappelijke artikels, gesprekken met AI en dergelijke kunnen het leerproces versterken. Uiteraard gecombineerd met studeren, want anders blijf je te oppervlakkig. Minstens even belangrijk: deze zaken werken motiverend. Soms moet je alleen de toepassing van de leerstof zien om iets te willen leren, of tenminste beter begrijpen.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Het is dus niet altijd nodig om nieuwe technieken te leren om beter te leren: we hebben al goede gewoontes die we elders al toepassen. De muziekschool begrijpt iets fundamenteels: vooruitgang is zelden spectaculair. Het is het resultaat van sterke fundamenten, gerichte herhaling en de bereidheid om moeilijkheden te confronteren.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Heb je vragen of opmerkingen over dit artikel, of wil je graag eens babbelen? Aarzel niet om contact op te nemen. Lucas Dumoulin, telefoon +32 472 43 23 05.",
+      },
+      { soort: "knop", tekst: "Mail Lucas", link: "mailto:dmlnlucas@gmail.com" },
+    ],
+  },
+  {
+    slug: "de-wijsheid-van-de-zoektocht",
+    titel: "De wijsheid van de zoektocht: waarom niemand de waarheid in pacht heeft (en dat oké is)",
+    datum: "2026-02-19",
+    auteur: "Connectopia",
+    labels: ["ervaringen", "persoonlijk"],
+    samenvatting:
+      "Geen handleidingen, geen heilige graal. Waarom we bij Connectopia liever samen zoeken dan elkaar de les spellen.",
+    blokken: [
+      {
+        soort: "tekst",
+        tekst:
+          "Welkom bij Connectopia. Een plek waar we geen handleidingen uitdelen, want die bestaan niet. Een plek waar we geen stempel van expert op iemand plakken alsof zij de heilige graal in handen hebben. Waarom niet? Omdat ieder mens, ieder kind, en zeker ieder hoogbegaafd (HB) of uitzonderlijk hoogbegaafd (UHB) kind, een uniek universum is.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Wat voor de één een verademing is, kan voor de ander een absolute ramp betekenen. De ene leerling bloeit op bij een bepaalde methode, terwijl de andere er volledig door vastloopt. En dat is precies waarom wij hier op een andere manier met elkaar willen omgaan.",
+      },
+      { soort: "kop", tekst: "Een gemeenschappelijk hart" },
+      {
+        soort: "tekst",
+        tekst:
+          "Het eerste wat we willen benadrukken is dit: iedereen die op deze website terechtkomt, of je nu een professional bent met jarenlange studie of een ouder die zichzelf heeft ingelezen uit pure noodzaak, doet dit met een hart voor onze kinderen. Iedereen probeert bij te scholen, te leren en te begrijpen. Laten we dat nooit uit het oog verliezen.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Want de harde waarheid is: niemand, zelfs de meest doorgewinterde expert niet, weet écht hoe alles zit. Het pad van een hoogbegaafd kind is niet lineair. Het is een kronkelend bospad dat constant verandert. Wat gisteren werkte, is vandaag achterhaald. De ontwikkeling van jouw kind is geen vaststaand gegeven, maar een dynamisch proces. En dat maakt het voor ons als ouders, maar zeker ook voor de kinderen zelf, soms ongelooflijk moeilijk.",
+      },
+      {
+        soort: "afbeelding",
+        bestand: "zoektocht-student.jpg",
+        beschrijving:
+          "Tekening van een jongere die met de handen aan het hoofd aan tafel zit, met een kluwen van gedachten boven het hoofd, een knuffel naast zich en een stapel boeken en papieren voor zich.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Deze kinderen denken dieper, voelen intenser en dragen vaak veel meer zorgen met zich mee dan wij aan de oppervlakte zien. Het opvoeden van een HB-kind is dan ook geen evidentie. Het is een intense reis vol hoogte- en dieptepunten.",
+      },
+      { soort: "kop", tekst: "De kracht van vriendelijke feedback" },
+      {
+        soort: "tekst",
+        tekst:
+          "We zien op forums en in ouderraden vaak zoveel boosheid en frustratie. En terecht! Soms is een test volledig fout gegaan. Soms is er een advies gegeven dat niet alleen niet hielp, maar averechts werkte. Het is meer dan begrijpelijk dat je kwaad bent. Ventileren mag, het is zelfs nodig.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Maar wat als we ons realiseren dat die frustratie, als we haar te lang vasthouden, vooral onszelf raakt? Wat als we in ons achterhoofd houden dat de persoon aan de andere kant van dat verkeerde advies, het waarschijnlijk wél goed bedoelde?",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "In plaats van boosheid, kunnen we kiezen voor vriendelijkheid en respect. Dat betekent niet dat je je mond houdt. Integendeel. Wat mij helpt, is uit te leggen waarom iets voor ons niet werkte. Dat doe ik met respect, maar ook met duidelijkheid. En daarna ga ik verder met zoeken naar wat wel werkt. Want wie kent jouw kind, of wie ben jijzelf, nu het beste?",
+      },
+      { soort: "kop", tekst: "Fouten maken mag, ook voor professionals" },
+      {
+        soort: "tekst",
+        tekst:
+          "We leren onze kinderen toch ook dat fouten maken mag? Al hebben veel HB- en UHB-kinderen het daar zelf moeilijk mee, omdat ze zo streng zijn voor zichzelf. Waarom zou dat dan niet gelden voor de mensen die ons proberen te helpen?",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Professionals kunnen alleen maar beter worden in hun werk als ze eerlijke, maar respectvolle feedback krijgen. Als wij hen niet vertellen wat er bij ons thuis écht gebeurde met hun advies, missen zij een cruciaal stukje van de puzzel. Zo leren we samen.",
+      },
+      { soort: "kop", tekst: "Samen lichter worden" },
+      {
+        soort: "tekst",
+        tekst:
+          "Connectopia wil een community zijn waar we die zoektocht samen aangaan. Waar we elkaar steunen, in plaats van afbreken. Waar we elkaars expertise erkennen, maar ook de grenzen ervan. Waar we mogen zeggen dat het moeilijk is, maar waar we elkaar ook helpen om positief te blijven.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Want door vriendelijk en lief te blijven, en door te onthouden dat we allemaal starten vanuit de juiste intenties, doen we iets bijzonders: we worden zelf ook lichter. En wie weet voelt de reis dan net iets minder eenzaam.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Dus laten we met elkaar in gesprek gaan. Niet als expert en leek, maar als metgezellen op een gedeeld pad. Met vriendelijkheid, met respect, en met een open blik voor de unieke noden van ieder kind en ieder gezin.",
+      },
+      {
+        soort: "citaat",
+        tekst: "Welkom bij Connectopia. Laten we samen op weg gaan.",
+      },
+    ],
+  },
 ];
 
 export const berichtenOpDatum = [...berichten].sort((a, b) =>
