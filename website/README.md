@@ -54,6 +54,12 @@ bij of pas de zin aan; laat je de datums leeg, dan toont de site alleen de zin.
 **De gratis proefles.** De tekst en de knop staan bovenaan in
 `content/aanbod.ts`, bij `proefles`.
 
+**Een stap in de wegwijzer aanpassen.** Elke stap staat in
+`content/wegwijzer.ts`. Naast de lijst `punten` kan een stap twee extra dingen
+hebben: `nadruk` voor de zin die je wil laten opvallen (die komt in een gekleurd
+kader) en `tip` voor een kadertje met een knop. Heeft een stap die niet nodig,
+laat ze dan gewoon weg.
+
 **De aankondigingsbalk weghalen.** In `content/home.ts` staat `aankondiging`.
 Zet die op `null` en de groene balk verdwijnt.
 

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { Icoon, Kaart, PaginaKop, Sectie, tekstKleur } from "@/components/ui";
+import { Icoon, Kaart, PaginaKop, Sectie, tekstKleur, vlakKleur } from "@/components/ui";
 import { stappen, wegwijzerTekst } from "@/content/wegwijzer";
 
 export const metadata: Metadata = {
@@ -36,6 +36,7 @@ export default function WegwijzerPagina() {
                 <p className="text-[15px] font-bold text-ink-dim">{stap.samenvatting}</p>
               </div>
             </div>
+
             <ul className="mt-4 grid gap-2">
               {stap.punten.map((punt) => (
                 <li key={punt} className="flex gap-2.5 text-[15px] text-ink-dim">
@@ -46,6 +47,31 @@ export default function WegwijzerPagina() {
                 </li>
               ))}
             </ul>
+
+            {/* De zin die mag opvallen, in een gekleurd kader. */}
+            {stap.nadruk ? (
+              <p
+                className={`mt-5 rounded-[16px] px-5 py-4 text-[15px] font-bold text-ink ${vlakKleur[stap.kleur]}`}
+              >
+                {stap.nadruk}
+              </p>
+            ) : null}
+
+            {/* Een kadertje met een knop, bijvoorbeeld om contact op te nemen. */}
+            {stap.tip ? (
+              <div className="mt-4 flex flex-wrap items-center gap-x-5 gap-y-3 rounded-[16px] border border-dashed border-border px-5 py-4">
+                <p className="min-w-[14rem] flex-1 text-[15px] text-ink-dim">
+                  <span className="font-hand mr-2 text-xl text-orange">Tip:</span>
+                  {stap.tip.tekst}
+                </p>
+                <Link
+                  href={stap.tip.knopLink}
+                  className="inline-block rounded-full border-2 border-green px-5 py-2.5 text-[14px] font-extrabold text-green transition hover:-translate-y-0.5 hover:bg-sage-soft"
+                >
+                  {stap.tip.knopTekst} →
+                </Link>
+              </div>
+            ) : null}
           </Kaart>
         ))}
       </Sectie>
