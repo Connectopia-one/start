@@ -120,12 +120,15 @@ export function Sectie({
 export function Kaart({
   children,
   className = "",
+  id,
 }: {
   children: ReactNode;
   className?: string;
+  id?: string;
 }) {
   return (
     <div
+      id={id}
       className={`rounded-[20px] border border-border bg-surface p-6 shadow-[0_2px_10px_rgba(47,74,34,0.07)] ${className}`}
     >
       {children}

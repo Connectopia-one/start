@@ -1,9 +1,10 @@
 import Link from "next/link";
 import { Logo } from "@/components/Logo";
 import { NaarLink } from "@/components/ui";
-import { menu, onderdelen } from "@/content/site";
+import { extraLinks, menu, onderdelen } from "@/content/site";
 
 const ouderportaal = onderdelen.find((o) => o.slug === "/ouderportaal");
+const extraInMenu = extraLinks.filter((extra) => extra.inMenu);
 
 export function SiteHeader() {
   return (
@@ -17,15 +18,24 @@ export function SiteHeader() {
             <NaarLink
               key={onderdeel.slug}
               href={onderdeel.extern ?? onderdeel.slug}
-              className="rounded-full px-3 py-2 text-[14.5px] font-bold text-ink-dim hover:bg-sage-soft hover:text-green"
+              className="rounded-full px-2.5 py-2 text-[14.5px] font-bold text-ink-dim hover:bg-sage-soft hover:text-green"
             >
               {onderdeel.menuTitel}
+            </NaarLink>
+          ))}
+          {extraInMenu.map((extra) => (
+            <NaarLink
+              key={extra.slug}
+              href={extra.slug}
+              className="rounded-full px-2.5 py-2 text-[14.5px] font-bold text-ink-dim hover:bg-sage-soft hover:text-green"
+            >
+              {extra.menuTitel}
             </NaarLink>
           ))}
           {ouderportaal ? (
             <NaarLink
               href={ouderportaal.extern ?? ouderportaal.slug}
-              className="ml-2 rounded-full bg-green px-4 py-2 text-[14.5px] font-bold text-cream hover:bg-green-mid"
+              className="ml-1.5 rounded-full bg-green px-4 py-2 text-[14.5px] font-bold text-cream hover:bg-green-mid"
             >
               Inloggen
             </NaarLink>

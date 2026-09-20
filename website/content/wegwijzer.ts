@@ -45,7 +45,7 @@ export const wegwijzerTekst = {
     tekst:
       "Stel je vraag gerust. We denken met je mee en verwijzen je door naar wie je verder kan helpen.",
     knopTekst: "Neem contact op",
-    knopLink: "/over-ons#contact",
+    knopLink: "/contact",
   },
 };
 
@@ -66,7 +66,7 @@ export const stappen: Stap[] = [
     tip: {
       tekst: "Zit je met vragen? Neem gerust contact op voor een gratis telefonisch gesprek.",
       knopTekst: "Plan een gesprek",
-      knopLink: "/over-ons#contact",
+      knopLink: "/contact",
     },
   },
   {
@@ -106,7 +106,7 @@ export const stappen: Stap[] = [
     tip: {
       tekst: "Wil je dat iemand van ons meegaat naar een gesprek op school? Vraag het gerust.",
       knopTekst: "Vraag ondersteuning",
-      knopLink: "/over-ons#contact",
+      knopLink: "/contact",
     },
   },
   {

@@ -14,6 +14,13 @@ export const site = {
   socials: "@connectopia.one",
   /* Het mailadres uit al onze communicatie, van de MATM groep. */
   email: "info@matmgroep.com",
+  /*
+    Het telefoonnummer zoals het op de site te lezen staat, en daaronder
+    hetzelfde nummer in de vorm die een telefoon nodig heeft om te bellen.
+    Verandert het nummer, pas dan allebei de regels aan.
+  */
+  telefoon: "0468 35 74 96",
+  telefoonLink: "tel:+32468357496",
 };
 
 /*
@@ -141,8 +148,14 @@ export const menu = onderdelen.filter((o) => o.inMenu !== false);
   Extra links onderaan in de voettekst, naast de acht onderdelen.
   Dit zijn pagina's die bij een onderdeel horen maar een eigen adres hebben.
 */
-export const extraLinks = [
+/*
+  Pagina's die wel bestaan maar geen eigen blok op de startpagina hebben.
+  Ze staan onderaan in de voettekst.
+  Zet inMenu op true als een pagina ook bovenaan in het menu mag staan.
+*/
+export const extraLinks: { slug: string; menuTitel: string; inMenu?: boolean }[] = [
   { slug: "/observatielijst", menuTitel: "Observatielijst" },
+  { slug: "/contact", menuTitel: "Contact", inMenu: true },
 ];
 
 export function onderdeelPerGroep(groep: Onderdeel["groep"]) {

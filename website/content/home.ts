@@ -58,6 +58,6 @@ export const home = {
     omschrijving:
       "Ben je professional of partnerorganisatie en wil je een artikel bijdragen of in de gids staan? We horen het graag.",
     linkTekst: "Neem contact op",
-    link: "/over-ons#contact",
+    link: "/contact",
   },
 };

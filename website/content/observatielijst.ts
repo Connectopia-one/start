@@ -67,7 +67,7 @@ export const observatieTekst = {
     tekst:
       "Heb je de lijst ingevuld en weet je niet goed wat je ermee moet? Stuur ons gerust een bericht, of vraag een gratis telefonisch gesprek aan. We denken met je mee, en we kunnen ook mee op gesprek gaan bij school of bij een dienst.",
     knopTekst: "Neem contact op",
-    knopLink: "/over-ons#contact",
+    knopLink: "/contact",
   },
 };
 

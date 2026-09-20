@@ -21,6 +21,6 @@ export const prikbord = {
     tekst:
       "We bouwen het prikbord samen met de ouders die het gaan gebruiken. Laat weten wat jij erin zou zoeken.",
     knopTekst: "Denk mee",
-    knopLink: "/over-ons#contact",
+    knopLink: "/contact",
   },
 };

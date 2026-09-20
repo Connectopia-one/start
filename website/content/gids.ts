@@ -28,7 +28,7 @@ export const gidsTekst = {
   nota:
     "Deze gids groeit mee. Ken je iemand die hier hoort, of wil je er zelf in staan? Laat het ons weten.",
   oproepTekst: "Een organisatie aanbrengen",
-  oproepLink: "/over-ons#contact",
+  oproepLink: "/contact",
   linkTekstStandaard: "Naar hun website",
   leegTekst:
     "We zijn deze lijst nog aan het opbouwen. Heb je een concrete vraag? Stel ze gerust, dan verwijzen we je persoonlijk door.",
