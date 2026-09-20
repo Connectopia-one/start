@@ -33,9 +33,26 @@ export const verzenden = {
 
 export type SoortSleutel = "info" | "inschrijven" | "proefles";
 
+/*
+  De drie soorten aanvragen.
+    knop         de tekst op de knop bij het aanbod
+    titel        de titel bovenaan het formulier
+    label        het kleine woordje erboven
+    tekst        de zin onder de titel
+    onderwerp    het onderwerp van de mail die bij ons toekomt
+    zonderAanbod de zin in het groene kadertje als de ouder nog geen
+                 traject koos; de titel erboven staat bij geenTraject
+*/
 export const soorten: Record<
   SoortSleutel,
-  { knop: string; titel: string; label: string; tekst: string; onderwerp: string }
+  {
+    knop: string;
+    titel: string;
+    label: string;
+    tekst: string;
+    onderwerp: string;
+    zonderAanbod: string;
+  }
 > = {
   info: {
     knop: "Info aanvragen",
@@ -44,6 +61,7 @@ export const soorten: Record<
     tekst:
       "Laat hier je gegevens achter en we bezorgen je alle praktische info. Je legt nog niets vast, en we bellen of mailen je terug.",
     onderwerp: "Infoaanvraag via de website",
+    zonderAanbod: "Laat je gegevens achter, dan bekijken we samen wat past.",
   },
   inschrijven: {
     knop: "Inschrijven",
@@ -52,6 +70,7 @@ export const soorten: Record<
     tekst:
       "Vul de gegevens van je kind en van jezelf in. Wij nemen contact op om de inschrijving af te ronden en om te bekijken welke groep het best past.",
     onderwerp: "Inschrijving via de website",
+    zonderAanbod: "Schrijf je in en maak kennis met ons en met ons aanbod.",
   },
   proefles: {
     knop: "Gratis proefles",
@@ -60,6 +79,7 @@ export const soorten: Record<
     tekst:
       "Je kind mag vrijblijvend een keer meedoen. Laat je gegevens achter, dan spreken we samen een datum af.",
     onderwerp: "Aanvraag gratis proefles via de website",
+    zonderAanbod: "Schrijf je in en maak kennis met ons en met ons aanbod.",
   },
 };
 
@@ -73,7 +93,12 @@ export type Veld = {
 };
 
 export const velden: Veld[] = [
-  { naam: "Naam van het kind", label: "Naam van het kind", soort: "tekst", verplicht: true },
+  {
+    naam: "Naam van het kind",
+    label: "Naam van het kind",
+    soort: "tekst",
+    verplicht: true,
+  },
   {
     naam: "Leeftijd van het kind",
     label: "Leeftijd van het kind",
@@ -94,8 +119,18 @@ export const velden: Veld[] = [
     verplicht: true,
     hulp: "Zo weten we welke locatie het dichtst bij jullie ligt.",
   },
-  { naam: "Gsm-nummer", label: "Gsm-nummer", soort: "telefoon", verplicht: true },
-  { naam: "E-mailadres", label: "E-mailadres", soort: "email", verplicht: true },
+  {
+    naam: "Gsm-nummer",
+    label: "Gsm-nummer",
+    soort: "telefoon",
+    verplicht: true,
+  },
+  {
+    naam: "E-mailadres",
+    label: "E-mailadres",
+    soort: "email",
+    verplicht: true,
+  },
   {
     naam: "Vraag of boodschap",
     label: "Je vraag of boodschap",
@@ -112,13 +147,13 @@ export const formulierTekst = {
     Het kadertje bovenaan als de ouder nog geen traject koos.
       label   het kleine woordje bovenaan
       titel   de dikke regel
-      tekst   de regel eronder
       inMail  wat er in de mail komt te staan bij "Aanbod"
+    De regel onder de titel verschilt per soort aanvraag en staat
+    hierboven bij "soorten", onder "zonderAanbod".
   */
   geenTraject: {
     label: "Kom kennismaken",
     titel: "Kom jij ons leren kennen?",
-    tekst: "Schrijf je in en maak kennis met ons en met ons aanbod.",
     inMail: "Nog geen aanbod gekozen",
   },
   verstuurKnop: "Versturen",
@@ -131,12 +166,15 @@ export const formulierTekst = {
 
   privacy:
     "We gebruiken deze gegevens enkel om je te contacteren over je aanvraag en om de deelname van je kind te regelen. We geven ze niet door aan anderen. Wil je dat we ze verwijderen, laat het dan weten.",
-  akkoordTekst: "Ik ga akkoord dat Connectopia deze gegevens hiervoor gebruikt.",
+  akkoordTekst:
+    "Ik ga akkoord dat Connectopia deze gegevens hiervoor gebruikt.",
 
   liever: "Liever gewoon bellen of mailen?",
 };
 
 /* Het webadres van het formulier voor een bepaalde soort aanvraag en traject. */
 export function aanvraagLink(soort: SoortSleutel, trajectSlug?: string) {
-  return trajectSlug ? `/aanvraag/${soort}-${trajectSlug}` : `/aanvraag/${soort}`;
+  return trajectSlug
+    ? `/aanvraag/${soort}-${trajectSlug}`
+    : `/aanvraag/${soort}`;
 }

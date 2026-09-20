@@ -94,7 +94,7 @@ export default async function AanvraagPagina({
                   {traject ? traject.naam : formulierTekst.geenTraject.titel}
                 </p>
                 <p className="text-[14px] text-ink-dim">
-                  {traject ? tekst.titel : formulierTekst.geenTraject.tekst}
+                  {traject ? tekst.titel : tekst.zonderAanbod}
                 </p>
               </div>
             }
