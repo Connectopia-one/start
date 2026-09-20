@@ -35,7 +35,15 @@ export default function GidsPagina() {
                           </span>
                         ) : null}
                       </div>
-                      <p className="mt-2 text-[15px] text-ink-dim">{organisatie.omschrijving}</p>
+                      {organisatie.omschrijving ? (
+                        <p className="mt-2 text-[15px] text-ink-dim">
+                          {organisatie.omschrijving}
+                        </p>
+                      ) : (
+                        <p className="mt-2 text-[15px] text-ink-dim italic">
+                          {gidsTekst.nogGeenOmschrijving}
+                        </p>
+                      )}
                       {organisatie.link ? (
                         <a
                           href={organisatie.link}
