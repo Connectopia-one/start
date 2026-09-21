@@ -46,7 +46,12 @@ export function Aanvraagformulier({
     >
       {kop}
       {verborgen.map((veld) => (
-        <input key={veld.naam} type="hidden" name={veld.naam} value={veld.waarde} />
+        <input
+          key={veld.naam}
+          type="hidden"
+          name={veld.naam}
+          value={veld.waarde}
+        />
       ))}
 
       <div className="grid gap-5 sm:grid-cols-2">
@@ -54,11 +59,15 @@ export function Aanvraagformulier({
           const lang = veld.soort === "lang";
           const verplicht = veld.verplicht && !optioneel.includes(veld.naam);
           const type =
-            veld.soort === "email" ? "email" : veld.soort === "telefoon" ? "tel" : "text";
+            veld.soort === "email"
+              ? "email"
+              : veld.soort === "telefoon"
+                ? "tel"
+                : "text";
           return (
             <div key={veld.naam} className={lang ? "sm:col-span-2" : undefined}>
               <label className="block">
-                <span className="text-[14px] font-bold text-ink">
+                <span className="text-[15px] font-bold text-ink">
                   {veld.label}
                   {verplicht ? (
                     <span className="text-orange" aria-hidden>
@@ -72,7 +81,7 @@ export function Aanvraagformulier({
                     name={veld.naam}
                     rows={4}
                     required={verplicht}
-                    className="mt-1.5 block w-full rounded-[14px] border border-border bg-cream px-4 py-3 text-[15px] text-ink outline-none focus:border-green"
+                    className="mt-1.5 block w-full rounded-[14px] border border-border bg-cream px-4 py-3 text-[16px] text-ink outline-none focus:border-green"
                   />
                 ) : (
                   <input
@@ -80,13 +89,19 @@ export function Aanvraagformulier({
                     name={veld.naam}
                     required={verplicht}
                     autoComplete={
-                      veld.soort === "email" ? "email" : veld.soort === "telefoon" ? "tel" : undefined
+                      veld.soort === "email"
+                        ? "email"
+                        : veld.soort === "telefoon"
+                          ? "tel"
+                          : undefined
                     }
-                    className="mt-1.5 block h-11 w-full rounded-full border border-border bg-cream px-4 text-[15px] text-ink outline-none focus:border-green"
+                    className="mt-1.5 block h-11 w-full rounded-full border border-border bg-cream px-4 text-[16px] text-ink outline-none focus:border-green"
                   />
                 )}
               </label>
-              {veld.hulp ? <p className="mt-1 text-[13px] text-ink-dim">{veld.hulp}</p> : null}
+              {veld.hulp ? (
+                <p className="mt-1 text-[14px] text-ink-dim">{veld.hulp}</p>
+              ) : null}
             </div>
           );
         })}
@@ -94,8 +109,8 @@ export function Aanvraagformulier({
 
       {/* Wat er met de gegevens gebeurt. */}
       <div className="rounded-[16px] bg-purple-soft px-5 py-4">
-        <p className="text-[14px] text-ink">{formulierTekst.privacy}</p>
-        <label className="mt-3 flex items-start gap-2.5 text-[14px] font-bold text-ink">
+        <p className="text-[15px] text-ink">{formulierTekst.privacy}</p>
+        <label className="mt-3 flex items-start gap-2.5 text-[15px] font-bold text-ink">
           <input
             type="checkbox"
             name="Akkoord met het gebruik van de gegevens"
@@ -113,13 +128,15 @@ export function Aanvraagformulier({
       <div>
         <button
           type="submit"
-          className="rounded-full bg-green px-7 py-3 text-[15px] font-extrabold text-cream transition hover:-translate-y-0.5 hover:bg-green-mid"
+          className="rounded-full bg-green px-7 py-3 text-[16px] font-extrabold text-cream transition hover:-translate-y-0.5 hover:bg-green-mid"
         >
           {formulierTekst.verstuurKnop} →
         </button>
       </div>
 
-      {perMail ? <p className="text-[13px] text-ink-dim">{formulierTekst.naVersturen}</p> : null}
+      {perMail ? (
+        <p className="text-[14px] text-ink-dim">{formulierTekst.naVersturen}</p>
+      ) : null}
     </form>
   );
 }

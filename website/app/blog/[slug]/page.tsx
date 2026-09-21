@@ -26,7 +26,7 @@ function BlokWeergave({ blok }: { blok: Blok }) {
       return <h2 className="mt-4 text-2xl text-green">{blok.tekst}</h2>;
 
     case "tekst":
-      return <p className="text-[17px] text-ink-dim">{blok.tekst}</p>;
+      return <p className="text-[18px] text-ink-dim">{blok.tekst}</p>;
 
     case "citaat":
       return (
@@ -44,9 +44,11 @@ function BlokWeergave({ blok }: { blok: Blok }) {
               className="rounded-2xl border-l-4 border-orange bg-orange-soft/40 px-5 py-4"
             >
               {punt.titel ? (
-                <strong className="block font-extrabold text-orange">{punt.titel}</strong>
+                <strong className="block font-extrabold text-orange">
+                  {punt.titel}
+                </strong>
               ) : null}
-              <span className="text-[16px] text-ink">{punt.tekst}</span>
+              <span className="text-[17px] text-ink">{punt.tekst}</span>
             </li>
           ))}
         </ul>
@@ -62,7 +64,9 @@ function BlokWeergave({ blok }: { blok: Blok }) {
         />
       );
       return (
-        <figure className={`my-2 w-full ${blok.klein ? "mx-auto max-w-sm" : ""}`}>
+        <figure
+          className={`my-2 w-full ${blok.klein ? "mx-auto max-w-sm" : ""}`}
+        >
           {blok.link ? (
             <a
               href={blok.link}
@@ -76,7 +80,9 @@ function BlokWeergave({ blok }: { blok: Blok }) {
             plaatje
           )}
           {blok.bijschrift ? (
-            <figcaption className="mt-2 text-[13px] text-ink-dim">{blok.bijschrift}</figcaption>
+            <figcaption className="mt-2 text-[14px] text-ink-dim">
+              {blok.bijschrift}
+            </figcaption>
           ) : null}
         </figure>
       );
@@ -89,7 +95,7 @@ function BlokWeergave({ blok }: { blok: Blok }) {
             href={blok.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block rounded-full bg-green px-6 py-3 text-[15px] font-extrabold text-cream transition hover:-translate-y-0.5"
+            className="inline-block rounded-full bg-green px-6 py-3 text-[16px] font-extrabold text-cream transition hover:-translate-y-0.5"
           >
             {blok.tekst} →
           </a>
@@ -112,20 +118,22 @@ export default async function BerichtPagina({
       <header className="mx-auto w-full max-w-3xl px-5 pt-14">
         <Link
           href="/blog"
-          className="text-sm font-extrabold text-sage underline-offset-4 hover:underline"
+          className="text-[15px] font-extrabold text-sage underline-offset-4 hover:underline"
         >
           ← Terug naar de blog
         </Link>
-        <p className="mt-4 text-[13px] font-bold text-sage">
+        <p className="mt-4 text-[14px] font-bold text-sage">
           {datumInWoorden(bericht.datum)} · {bericht.auteur}
         </p>
-        <h1 className="mt-2 text-3xl text-green sm:text-4xl">{bericht.titel}</h1>
+        <h1 className="mt-2 text-3xl text-green sm:text-4xl">
+          {bericht.titel}
+        </h1>
         {bericht.labels && bericht.labels.length > 0 ? (
           <ul className="mt-4 flex flex-wrap gap-2">
             {bericht.labels.map((label) => (
               <li
                 key={label}
-                className="rounded-full bg-sage-soft px-3.5 py-1 text-[13px] font-bold text-green"
+                className="rounded-full bg-sage-soft px-3.5 py-1 text-[14px] font-bold text-green"
               >
                 {label}
               </li>

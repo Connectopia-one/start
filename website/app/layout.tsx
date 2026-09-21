@@ -25,7 +25,11 @@ export const metadata: Metadata = {
   description: site.omschrijving,
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="nl" className={`${body.variable} ${hand.variable} h-full`}>
       <body className="flex min-h-full flex-col bg-cream text-ink antialiased">

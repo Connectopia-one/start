@@ -13,7 +13,7 @@ import { prikbord } from "@/content/prikbord";
 */
 
 const veld =
-  "mt-1.5 block w-full rounded-[14px] border border-border bg-cream px-4 py-3 text-[15px] text-ink outline-none focus:border-green";
+  "mt-1.5 block w-full rounded-[14px] border border-border bg-cream px-4 py-3 text-[16px] text-ink outline-none focus:border-green";
 
 export function Briefjeformulier({
   bord,
@@ -55,7 +55,7 @@ export function Briefjeformulier({
       ) : null}
 
       <label className="block">
-        <span className="text-[14px] font-bold text-ink">
+        <span className="text-[15px] font-bold text-ink">
           {prikbord.formulier.briefjeLabel}
           <span className="text-orange" aria-hidden>
             {" "}
@@ -73,7 +73,7 @@ export function Briefjeformulier({
 
       {metWanneer ? (
         <label className="block">
-          <span className="text-[14px] font-bold text-ink">
+          <span className="text-[15px] font-bold text-ink">
             {prikbord.formulier.wanneerLabel}
           </span>
           <input
@@ -88,7 +88,7 @@ export function Briefjeformulier({
 
       <div className="grid gap-4 sm:grid-cols-2">
         <label className="block">
-          <span className="text-[14px] font-bold text-ink">
+          <span className="text-[15px] font-bold text-ink">
             {prikbord.formulier.voornaamLabel}
             <span className="text-orange" aria-hidden>
               {" "}
@@ -102,13 +102,13 @@ export function Briefjeformulier({
             required
             className={veld}
           />
-          <span className="mt-1 block text-[13px] text-ink-dim">
+          <span className="mt-1 block text-[14px] text-ink-dim">
             {prikbord.formulier.voornaamUitleg}
           </span>
         </label>
 
         <label className="block">
-          <span className="text-[14px] font-bold text-ink">
+          <span className="text-[15px] font-bold text-ink">
             {prikbord.formulier.volledigeNaamLabel}
             <span className="text-orange" aria-hidden>
               {" "}
@@ -122,14 +122,14 @@ export function Briefjeformulier({
             required
             className={veld}
           />
-          <span className="mt-1 block text-[13px] text-ink-dim">
+          <span className="mt-1 block text-[14px] text-ink-dim">
             {prikbord.formulier.volledigeNaamUitleg}
           </span>
         </label>
       </div>
 
       <label className="block">
-        <span className="text-[14px] font-bold text-ink">
+        <span className="text-[15px] font-bold text-ink">
           {prikbord.formulier.mailLabel}
           <span className="text-orange" aria-hidden>
             {" "}
@@ -145,12 +145,12 @@ export function Briefjeformulier({
         />
       </label>
 
-      <p className="text-[13.5px] text-ink-dim">{prikbord.formulier.privacy}</p>
+      <p className="text-[14.5px] text-ink-dim">{prikbord.formulier.privacy}</p>
 
       <div>
         <button
           type="submit"
-          className="rounded-full bg-green px-6 py-3 text-[15px] font-extrabold text-cream transition hover:-translate-y-0.5"
+          className="rounded-full bg-green px-6 py-3 text-[16px] font-extrabold text-cream transition hover:-translate-y-0.5"
         >
           {prikbord.formulier.knopTekst} →
         </button>

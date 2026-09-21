@@ -12,12 +12,12 @@ export function PositieveToon({ klein = false }: { klein?: boolean }) {
       <h2 className={`text-purple ${klein ? "text-lg" : "text-xl"}`}>
         {prikbord.toon.titel}
       </h2>
-      <p className="mt-2 max-w-[68ch] text-[15px] text-ink">
+      <p className="mt-2 max-w-[68ch] text-[16px] text-ink">
         {prikbord.toon.tekst}
       </p>
       <a
         href={`mailto:${site.email}`}
-        className="mt-3 inline-block text-[14px] font-extrabold text-purple underline-offset-4 hover:underline"
+        className="mt-3 inline-block text-[15px] font-extrabold text-purple underline-offset-4 hover:underline"
       >
         {prikbord.toon.knopTekst} op {site.email} →
       </a>

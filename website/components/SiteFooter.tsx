@@ -12,7 +12,7 @@ export function SiteFooter() {
             <NaarLink
               key={onderdeel.slug}
               href={onderdeel.extern ?? onderdeel.slug}
-              className="text-sm font-bold text-cream/90 underline-offset-4 hover:underline"
+              className="text-[15px] font-bold text-cream/90 underline-offset-4 hover:underline"
             >
               {onderdeel.menuTitel}
             </NaarLink>
@@ -21,14 +21,14 @@ export function SiteFooter() {
             <NaarLink
               key={extra.slug}
               href={extra.slug}
-              className="text-sm font-bold text-cream/90 underline-offset-4 hover:underline"
+              className="text-[15px] font-bold text-cream/90 underline-offset-4 hover:underline"
             >
               {extra.menuTitel}
             </NaarLink>
           ))}
         </nav>
 
-        <p className="mt-6 text-sm text-cream/75">
+        <p className="mt-6 text-[15px] text-cream/75">
           {site.naam} {site.vzw} · {site.socials} · {site.email}
         </p>
       </div>

@@ -50,16 +50,12 @@ export function Icoon({
 }
 
 export function Label({ children }: { children: ReactNode }) {
-  return (
-    <span className="text-[13px] font-bold tracking-[0.09em] text-sage uppercase">
-      {children}
-    </span>
-  );
+  return <span className="text-[14px] font-bold text-sage">{children}</span>;
 }
 
 export function Penseel({ children }: { children: ReactNode }) {
   return (
-    <span className="inline-block rounded-full bg-sage-soft px-4 py-1.5 text-sm font-extrabold text-green">
+    <span className="inline-block rounded-full bg-sage-soft px-4 py-1.5 text-[15px] font-extrabold text-green">
       {children}
     </span>
   );
@@ -81,7 +77,7 @@ export function Knop({
   return (
     <Link
       href={href}
-      className={`inline-block rounded-full border-2 px-6 py-3 text-[15px] font-extrabold transition hover:-translate-y-0.5 ${stijl}`}
+      className={`inline-block rounded-full border-2 px-6 py-3 text-[16px] font-extrabold transition hover:-translate-y-0.5 ${stijl}`}
     >
       {children}
     </Link>

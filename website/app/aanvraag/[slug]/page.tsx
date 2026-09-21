@@ -16,7 +16,9 @@ const soortSleutels = Object.keys(soorten) as SoortSleutel[];
   iets moet worden aangeklikt, en zonder dat er scripts aan te pas komen.
 */
 export function generateStaticParams() {
-  const paden: { slug: string }[] = soortSleutels.map((soort) => ({ slug: soort }));
+  const paden: { slug: string }[] = soortSleutels.map((soort) => ({
+    slug: soort,
+  }));
   for (const soort of soortSleutels) {
     for (const traject of trajecten) {
       paden.push({ slug: `${soort}-${traject.slug}` });
@@ -47,7 +49,9 @@ export async function generateMetadata({
   if (!gelezen) return { title: "Aanvraag" };
   const { soort, traject } = gelezen;
   return {
-    title: traject ? `${soorten[soort].titel} — ${traject.naam}` : soorten[soort].titel,
+    title: traject
+      ? `${soorten[soort].titel} — ${traject.naam}`
+      : soorten[soort].titel,
     description: soorten[soort].tekst,
   };
 }
@@ -63,8 +67,9 @@ export default async function AanvraagPagina({
 
   const { soort, traject } = gelezen;
   const tekst = soorten[soort];
-  const onderwerp = traject ? `${tekst.onderwerp} — ${traject.naam}` : tekst.onderwerp;
-
+  const onderwerp = traject
+    ? `${tekst.onderwerp} — ${traject.naam}`
+    : tekst.onderwerp;
 
   return (
     <>
@@ -81,19 +86,23 @@ export default async function AanvraagPagina({
             verborgen={[
               {
                 naam: "Aanbod",
-                waarde: traject ? traject.naam : formulierTekst.geenTraject.inMail,
+                waarde: traject
+                  ? traject.naam
+                  : formulierTekst.geenTraject.inMail,
               },
               { naam: "Soort aanvraag", waarde: tekst.titel },
             ]}
             kop={
               <div className="rounded-[16px] bg-sage-soft px-5 py-4">
                 <Label>
-                  {traject ? formulierTekst.trajectVraag : formulierTekst.geenTraject.label}
+                  {traject
+                    ? formulierTekst.trajectVraag
+                    : formulierTekst.geenTraject.label}
                 </Label>
-                <p className="mt-1 text-[17px] font-extrabold text-green">
+                <p className="mt-1 text-[18px] font-extrabold text-green">
                   {traject ? traject.naam : formulierTekst.geenTraject.titel}
                 </p>
-                <p className="text-[14px] text-ink-dim">
+                <p className="text-[15px] text-ink-dim">
                   {traject ? tekst.titel : tekst.zonderAanbod}
                 </p>
               </div>
@@ -101,7 +110,7 @@ export default async function AanvraagPagina({
           />
           <Link
             href={formulierTekst.terugLink}
-            className="mt-5 inline-block text-[14px] font-bold text-green underline-offset-4 hover:underline"
+            className="mt-5 inline-block text-[15px] font-bold text-green underline-offset-4 hover:underline"
           >
             {formulierTekst.terug}
           </Link>
@@ -109,7 +118,7 @@ export default async function AanvraagPagina({
 
         <Kaart>
           <h2 className="text-xl text-green">{formulierTekst.liever}</h2>
-          <p className="mt-2 text-[15px] text-ink-dim">
+          <p className="mt-2 text-[16px] text-ink-dim">
             Mail ons op{" "}
             <a
               href={`mailto:${site.email}`}

@@ -51,9 +51,7 @@ export function Briefje({
       />
 
       {briefje.label ? (
-        <p className="text-[11px] font-bold tracking-[0.09em] text-ink-dim uppercase">
-          {briefje.label}
-        </p>
+        <p className="text-[13px] font-bold text-ink-dim">{briefje.label}</p>
       ) : null}
 
       {briefje.foto ? (
@@ -66,26 +64,24 @@ export function Briefje({
       ) : null}
 
       {briefje.wanneer ? (
-        <p className="mb-1 text-[14px] font-extrabold text-green">
+        <p className="mb-1 text-[15px] font-extrabold text-green">
           {briefje.wanneer}
         </p>
       ) : null}
 
-      <p className="font-hand text-[21px] leading-snug text-ink">
-        {briefje.tekst}
-      </p>
+      <p className="text-[17px] leading-relaxed text-ink">{briefje.tekst}</p>
 
       {briefje.link ? (
         <NaarLink
           href={briefje.link.href}
-          className="mt-3 inline-block text-[14px] font-extrabold text-green underline-offset-4 hover:underline"
+          className="mt-3 inline-block text-[15px] font-extrabold text-green underline-offset-4 hover:underline"
         >
           {briefje.link.tekst} →
         </NaarLink>
       ) : null}
 
       {briefje.van || briefje.datum ? (
-        <p className="mt-3 text-[13px] text-ink-dim">
+        <p className="mt-3 text-[14px] text-ink-dim">
           {briefje.van}
           {briefje.van && briefje.datum ? " · " : null}
           {briefje.datum ? datumInWoorden(briefje.datum) : null}
@@ -94,13 +90,13 @@ export function Briefje({
 
       {meldbaar ? (
         <details className="mt-2">
-          <summary className="cursor-pointer text-[12.5px] text-ink-dim underline-offset-4 hover:underline">
+          <summary className="cursor-pointer text-[13.5px] text-ink-dim underline-offset-4 hover:underline">
             {prikbord.formulier.meldKnop}
           </summary>
           <form action={briefjeMeldenActie} className="mt-2 grid gap-2">
             <input type="hidden" name="bord" value={meldbaar.bord} />
             <input type="hidden" name="briefjeId" value={meldbaar.id} />
-            <p className="text-[12.5px] text-ink-dim">
+            <p className="text-[13.5px] text-ink-dim">
               {prikbord.formulier.meldUitleg}
             </p>
             <textarea
@@ -108,11 +104,11 @@ export function Briefje({
               rows={2}
               maxLength={400}
               aria-label={prikbord.formulier.meldVeld}
-              className="w-full rounded-[10px] border border-white/70 bg-white/70 px-3 py-2 text-[13px] text-ink outline-none"
+              className="w-full rounded-[10px] border border-white/70 bg-white/70 px-3 py-2 text-[14px] text-ink outline-none"
             />
             <button
               type="submit"
-              className="justify-self-start rounded-full border border-ink/20 px-3 py-1.5 text-[12.5px] font-bold text-ink"
+              className="justify-self-start rounded-full border border-ink/20 px-3 py-1.5 text-[13.5px] font-bold text-ink"
             >
               {prikbord.formulier.meldVerstuur}
             </button>

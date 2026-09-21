@@ -16,7 +16,12 @@ export function Logo() {
 
   return (
     <span className="flex items-center gap-2.5 text-ink">
-      <svg viewBox="0 0 32 32" aria-hidden className="h-8 w-8 shrink-0" fill="none">
+      <svg
+        viewBox="0 0 32 32"
+        aria-hidden
+        className="h-8 w-8 shrink-0"
+        fill="none"
+      >
         <polyline
           points={punten.map(([x, y]) => `${x},${y}`).join(" ")}
           stroke="currentColor"
@@ -30,8 +35,10 @@ export function Logo() {
           ))}
         </g>
       </svg>
-      <span className="text-[19px] font-extrabold tracking-tight">{site.naam}</span>
-      <span className="text-[11px] font-extrabold tracking-[0.08em] text-ink-dim uppercase">
+      <span className="text-[20px] font-extrabold tracking-tight">
+        {site.naam}
+      </span>
+      <span className="text-[12px] font-extrabold tracking-[0.08em] text-ink-dim uppercase">
         {site.vzw}
       </span>
     </span>

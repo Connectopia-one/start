@@ -68,7 +68,7 @@ export default async function BordPagina({
       <header className="mx-auto w-full max-w-5xl px-5 pt-10 pb-2">
         <Link
           href="/prikbord"
-          className="text-sm font-bold text-green underline-offset-4 hover:underline"
+          className="text-[15px] font-bold text-green underline-offset-4 hover:underline"
         >
           ← Alle borden
         </Link>
@@ -79,7 +79,7 @@ export default async function BordPagina({
             <h1 className={`text-3xl ${tekstKleur[bord.kleur]} sm:text-4xl`}>
               {bord.naam}
             </h1>
-            <p className="text-[15px] text-ink-dim">{bord.ondertitel}</p>
+            <p className="text-[16px] text-ink-dim">{bord.ondertitel}</p>
           </div>
         </div>
 
@@ -89,7 +89,7 @@ export default async function BordPagina({
       {bericht ? (
         <Sectie className="py-4">
           <p
-            className={`rounded-[14px] px-5 py-4 text-[15px] font-bold ${
+            className={`rounded-[14px] px-5 py-4 text-[16px] font-bold ${
               goedNieuws
                 ? "bg-sage-soft text-green"
                 : "bg-orange-soft text-orange"
@@ -107,7 +107,7 @@ export default async function BordPagina({
             <li key={ander.slug}>
               <Link
                 href={`/prikbord/${ander.slug}`}
-                className={`inline-block rounded-full px-4 py-2 text-[14px] font-bold ${
+                className={`inline-block rounded-full px-4 py-2 text-[15px] font-bold ${
                   ander.slug === bord.slug
                     ? `${vlakKleur[ander.kleur]} ${tekstKleur[ander.kleur]}`
                     : "border border-border bg-surface text-ink-dim hover:text-green"
@@ -147,7 +147,7 @@ export default async function BordPagina({
       <Sectie className="pt-0 pb-16">
         <div className="rounded-[20px] border border-border bg-surface p-7 shadow-[0_2px_10px_rgba(47,74,34,0.07)]">
           <h2 className="text-2xl text-green">{prikbord.formulier.titel}</h2>
-          <p className="mt-2 max-w-[58ch] text-[15px] text-ink-dim">
+          <p className="mt-2 max-w-[58ch] text-[16px] text-ink-dim">
             {prikbord.formulier.tekst}
           </p>
           <div className="mt-6">

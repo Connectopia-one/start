@@ -42,21 +42,21 @@ export default function PrikbordPagina() {
                 <h2 className={`text-xl ${tekstKleur[bord.kleur]}`}>
                   {bord.naam}
                 </h2>
-                <p className="text-[14px] text-ink-dim">{bord.ondertitel}</p>
+                <p className="text-[15px] text-ink-dim">{bord.ondertitel}</p>
               </div>
-              <p className="text-[15px] text-ink-dim">{bord.uitleg}</p>
+              <p className="text-[16px] text-ink-dim">{bord.uitleg}</p>
               <ul className="mt-auto flex flex-wrap gap-2 pt-2">
                 {bord.waarvoor.map((punt) => (
                   <li
                     key={punt}
-                    className={`rounded-full px-3 py-1 text-[12.5px] font-bold ${vlakKleur[bord.kleur]} ${tekstKleur[bord.kleur]}`}
+                    className={`rounded-full px-3 py-1 text-[13.5px] font-bold ${vlakKleur[bord.kleur]} ${tekstKleur[bord.kleur]}`}
                   >
                     {punt}
                   </li>
                 ))}
               </ul>
               <span
-                className={`pt-2 text-sm font-extrabold ${tekstKleur[bord.kleur]}`}
+                className={`pt-2 text-[15px] font-extrabold ${tekstKleur[bord.kleur]}`}
               >
                 Bekijk dit bord →
               </span>
@@ -70,7 +70,7 @@ export default function PrikbordPagina() {
           <h2 className="text-2xl text-green">{prikbord.spelregels.titel}</h2>
           <ul className="mt-4 grid gap-2.5 sm:grid-cols-2">
             {prikbord.spelregels.punten.map((punt) => (
-              <li key={punt} className="text-[15px] text-ink">
+              <li key={punt} className="text-[16px] text-ink">
                 {punt}
               </li>
             ))}

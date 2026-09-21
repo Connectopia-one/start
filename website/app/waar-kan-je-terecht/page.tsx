@@ -1,7 +1,11 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Kaart, PaginaKop, Sectie } from "@/components/ui";
-import { gidsTekst, organisaties, organisatiesPerCategorie } from "@/content/gids";
+import {
+  gidsTekst,
+  organisaties,
+  organisatiesPerCategorie,
+} from "@/content/gids";
 
 export const metadata: Metadata = {
   title: "Waar kan je terecht",
@@ -13,10 +17,14 @@ export default function GidsPagina() {
 
   return (
     <>
-      <PaginaKop label={gidsTekst.label} titel={gidsTekst.titel} tekst={gidsTekst.tekst} />
+      <PaginaKop
+        label={gidsTekst.label}
+        titel={gidsTekst.titel}
+        tekst={gidsTekst.tekst}
+      />
 
       <Sectie className="py-6">
-        <p className="rounded-[20px] bg-sage-soft px-6 py-5 text-[15px] text-ink">
+        <p className="rounded-[20px] bg-sage-soft px-6 py-5 text-[16px] text-ink">
           {gidsTekst.geenVoorkeur}
         </p>
       </Sectie>
@@ -30,36 +38,37 @@ export default function GidsPagina() {
               <h2 className="text-2xl text-green">{categorie}</h2>
               <div className="mt-4 grid gap-4 sm:grid-cols-2">
                 {organisatiesPerCategorie(categorie).map((organisatie) => (
-                    <Kaart key={organisatie.naam}>
-                      <div className="flex items-start justify-between gap-3">
-                        <h3 className="text-xl text-green">{organisatie.naam}</h3>
-                        {organisatie.regio ? (
-                          <span className="rounded-full bg-sage-soft px-3 py-1 text-[12px] font-extrabold text-green">
-                            {organisatie.regio}
-                          </span>
-                        ) : null}
-                      </div>
-                      {organisatie.omschrijving ? (
-                        <p className="mt-2 text-[15px] text-ink-dim">
-                          {organisatie.omschrijving}
-                        </p>
-                      ) : (
-                        <p className="mt-2 text-[15px] text-ink-dim italic">
-                          {gidsTekst.nogGeenOmschrijving}
-                        </p>
-                      )}
-                      {organisatie.link ? (
-                        <a
-                          href={organisatie.link}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="mt-3 inline-block text-sm font-extrabold text-green underline-offset-4 hover:underline"
-                        >
-                          {organisatie.linkTekst ?? gidsTekst.linkTekstStandaard} →
-                        </a>
+                  <Kaart key={organisatie.naam}>
+                    <div className="flex items-start justify-between gap-3">
+                      <h3 className="text-xl text-green">{organisatie.naam}</h3>
+                      {organisatie.regio ? (
+                        <span className="rounded-full bg-sage-soft px-3 py-1 text-[13px] font-extrabold text-green">
+                          {organisatie.regio}
+                        </span>
                       ) : null}
-                    </Kaart>
-                  ))}
+                    </div>
+                    {organisatie.omschrijving ? (
+                      <p className="mt-2 text-[16px] text-ink-dim">
+                        {organisatie.omschrijving}
+                      </p>
+                    ) : (
+                      <p className="mt-2 text-[16px] text-ink-dim">
+                        {gidsTekst.nogGeenOmschrijving}
+                      </p>
+                    )}
+                    {organisatie.link ? (
+                      <a
+                        href={organisatie.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="mt-3 inline-block text-[15px] font-extrabold text-green underline-offset-4 hover:underline"
+                      >
+                        {organisatie.linkTekst ?? gidsTekst.linkTekstStandaard}{" "}
+                        →
+                      </a>
+                    ) : null}
+                  </Kaart>
+                ))}
               </div>
             </div>
           ))
@@ -71,7 +80,7 @@ export default function GidsPagina() {
           <p className="max-w-[60ch] text-ink">{gidsTekst.nota}</p>
           <Link
             href={gidsTekst.oproepLink}
-            className="mt-5 inline-block rounded-full bg-purple px-6 py-3 text-[15px] font-extrabold text-cream transition hover:-translate-y-0.5"
+            className="mt-5 inline-block rounded-full bg-purple px-6 py-3 text-[16px] font-extrabold text-cream transition hover:-translate-y-0.5"
           >
             {gidsTekst.oproepTekst} →
           </Link>

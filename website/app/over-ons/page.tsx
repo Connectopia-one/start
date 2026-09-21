@@ -18,7 +18,7 @@ export default function OverOnsPagina() {
       />
 
       <Sectie>
-        <div className="grid max-w-[68ch] gap-4 text-[17px] text-ink-dim">
+        <div className="grid max-w-[68ch] gap-4 text-[18px] text-ink-dim">
           {overOns.verhaal.map((alinea) => (
             <p key={alinea.slice(0, 24)}>{alinea}</p>
           ))}
@@ -44,8 +44,8 @@ export default function OverOnsPagina() {
           {overOns.kernwaarden.map((waarde) => (
             <div key={waarde.titel} className="flex flex-col items-start gap-2">
               <Icoon kleur={waarde.kleur}>{waarde.icoon}</Icoon>
-              <h3 className="text-[17px] text-green">{waarde.titel}</h3>
-              <p className="text-sm text-ink-dim">{waarde.tekst}</p>
+              <h3 className="text-[18px] text-green">{waarde.titel}</h3>
+              <p className="text-[15px] text-ink-dim">{waarde.tekst}</p>
             </div>
           ))}
         </div>
@@ -65,7 +65,7 @@ export default function OverOnsPagina() {
           {overOns.team.map((lid) => (
             <Kaart key={lid.naam}>
               <h3 className="text-xl text-green">{lid.naam}</h3>
-              <p className="mt-2 text-[15px] text-ink-dim">{lid.rol}</p>
+              <p className="mt-2 text-[16px] text-ink-dim">{lid.rol}</p>
             </Kaart>
           ))}
         </div>
@@ -82,7 +82,7 @@ export default function OverOnsPagina() {
           </p>
           <a
             href={`mailto:${site.email}`}
-            className="mt-6 inline-block rounded-full bg-cream px-6 py-3 text-[15px] font-extrabold text-green transition hover:-translate-y-0.5"
+            className="mt-6 inline-block rounded-full bg-cream px-6 py-3 text-[16px] font-extrabold text-green transition hover:-translate-y-0.5"
           >
             Mail ons op {site.email}
           </a>

@@ -40,7 +40,7 @@ export default function Startpagina() {
             <p className="font-hand mt-2 text-2xl text-orange sm:text-3xl">
               {home.hero.handgeschreven}
             </p>
-            <p className="mt-4 max-w-[48ch] text-[17px] text-ink-dim">
+            <p className="mt-4 max-w-[48ch] text-[18px] text-ink-dim">
               {home.hero.tekst}
             </p>
             <div className="mt-7 flex flex-wrap gap-3">
@@ -63,7 +63,7 @@ export default function Startpagina() {
                 <li key={keuze.link}>
                   <NaarLink
                     href={echteLink(keuze.link)}
-                    className="flex items-center gap-2.5 rounded-xl px-2.5 py-2.5 text-[15px] font-semibold hover:bg-sage-soft hover:text-green"
+                    className="flex items-center gap-2.5 rounded-xl px-2.5 py-2.5 text-[16px] font-semibold hover:bg-sage-soft hover:text-green"
                   >
                     <span
                       aria-hidden
@@ -92,7 +92,7 @@ export default function Startpagina() {
       {/* Aankondiging */}
       {home.aankondiging ? (
         <section className="bg-green text-cream">
-          <div className="mx-auto flex w-full max-w-5xl flex-wrap items-center justify-center gap-x-5 gap-y-2 px-5 py-4 text-center text-[15px] font-bold">
+          <div className="mx-auto flex w-full max-w-5xl flex-wrap items-center justify-center gap-x-5 gap-y-2 px-5 py-4 text-center text-[16px] font-bold">
             <span>{home.aankondiging.tekst}</span>
             <span className="font-hand text-2xl text-[#f3c98a]">
               {home.aankondiging.handgeschreven}
@@ -139,7 +139,7 @@ export default function Startpagina() {
                   {wegwijzerTekst.handgeschreven}
                 </p>
               </div>
-              <p className="text-[15px] text-ink-dim">{wegwijzerTekst.tekst}</p>
+              <p className="text-[16px] text-ink-dim">{wegwijzerTekst.tekst}</p>
             </div>
 
             <div className="mt-6 grid gap-4 border-t border-dashed border-border pt-5 sm:grid-cols-2 lg:grid-cols-5">
@@ -152,7 +152,7 @@ export default function Startpagina() {
                   <h4 className={`text-[15.5px] ${tekstKleur[stap.kleur]}`}>
                     {stap.nummer}. {stap.titel}
                   </h4>
-                  <p className="text-[13.5px] text-ink-dim">
+                  <p className="text-[14.5px] text-ink-dim">
                     {stap.samenvatting}
                   </p>
                 </div>
@@ -196,10 +196,10 @@ export default function Startpagina() {
           >
             <Icoon kleur="orange">{home.partnerBlok.icoon}</Icoon>
             <h3 className="text-xl text-orange">{home.partnerBlok.titel}</h3>
-            <p className="text-[15px] text-ink-dim">
+            <p className="text-[16px] text-ink-dim">
               {home.partnerBlok.omschrijving}
             </p>
-            <span className="mt-auto pt-3 text-sm font-extrabold text-orange">
+            <span className="mt-auto pt-3 text-[15px] font-extrabold text-orange">
               {home.partnerBlok.linkTekst} →
             </span>
           </Link>
@@ -224,7 +224,7 @@ export default function Startpagina() {
             lijst={sponsorsPerSoort("partner")}
           />
 
-          <p className="mt-5 text-[15px] text-ink-dim">
+          <p className="mt-5 text-[16px] text-ink-dim">
             <Link
               href={sponsorsTekst.oproepLink}
               className="font-extrabold text-green underline-offset-4 hover:underline"
@@ -242,9 +242,7 @@ function SponsorRij({ kop, lijst }: { kop: string; lijst: Sponsor[] }) {
   if (lijst.length === 0) return null;
   return (
     <div className="mt-7">
-      <h3 className="text-[13px] font-bold tracking-[0.09em] text-green uppercase">
-        {kop}
-      </h3>
+      <h3 className="text-[14px] font-bold text-green">{kop}</h3>
       {/* Flexibele rij: werkt met twee logo's net zo goed als met twaalf. */}
       <ul className="mt-3 flex flex-wrap gap-3.5">
         {lijst.map((sponsor) => (
@@ -267,11 +265,11 @@ function SponsorVak({ sponsor }: { sponsor: Sponsor }) {
     />
   ) : (
     <span className="px-2 text-center">
-      <span className="block text-[14px] font-extrabold text-green">
+      <span className="block text-[15px] font-extrabold text-green">
         {sponsor.naam}
       </span>
       {sponsor.toelichting ? (
-        <span className="block text-[12px] text-ink-dim">
+        <span className="block text-[13px] text-ink-dim">
           {sponsor.toelichting}
         </span>
       ) : null}

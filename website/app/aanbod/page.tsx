@@ -36,7 +36,7 @@ export default function AanbodPagina() {
           </div>
           <Link
             href={aanvraagLink("proefles")}
-            className="inline-block rounded-full bg-orange px-6 py-3 text-[15px] font-extrabold text-cream transition hover:-translate-y-0.5"
+            className="inline-block rounded-full bg-orange px-6 py-3 text-[16px] font-extrabold text-cream transition hover:-translate-y-0.5"
           >
             {proefles.knopTekst} →
           </Link>
@@ -52,7 +52,7 @@ export default function AanbodPagina() {
                 <h2 className={`text-2xl ${tekstKleur[traject.kleur]}`}>
                   {traject.naam}
                 </h2>
-                <p className="text-[15px] font-bold text-ink-dim">
+                <p className="text-[16px] font-bold text-ink-dim">
                   {traject.ondertitel}
                 </p>
               </div>
@@ -67,7 +67,7 @@ export default function AanbodPagina() {
                     {traject.prijs}
                   </p>
                 ) : null}
-                <p className="text-sm font-bold text-ink-dim">
+                <p className="text-[15px] font-bold text-ink-dim">
                   {traject.leeftijd}
                 </p>
               </div>
@@ -89,20 +89,20 @@ export default function AanbodPagina() {
                   key={regel.label}
                   className="rounded-xl bg-sage-soft px-4 py-3"
                 >
-                  <dt className="text-[12px] font-extrabold tracking-[0.06em] text-green uppercase">
+                  <dt className="text-[13px] font-extrabold text-green">
                     {regel.label}
                   </dt>
-                  <dd className="text-[15px] text-ink">{regel.waarde}</dd>
+                  <dd className="text-[16px] text-ink">{regel.waarde}</dd>
                 </div>
               ))}
             </dl>
 
             {traject.instappen ? (
               <div className="mt-4 rounded-2xl border border-dashed border-orange/50 bg-orange-soft/50 px-5 py-4">
-                <p className="text-[12px] font-extrabold tracking-[0.06em] text-orange uppercase">
+                <p className="text-[13px] font-extrabold text-orange">
                   Later instappen
                 </p>
-                <p className="mt-1 text-[15px] text-ink">
+                <p className="mt-1 text-[16px] text-ink">
                   {traject.instappen.tekst}
                 </p>
                 {traject.instappen.data && traject.instappen.data.length > 0 ? (
@@ -110,7 +110,7 @@ export default function AanbodPagina() {
                     {traject.instappen.data.map((datum) => (
                       <li
                         key={datum}
-                        className="rounded-full bg-surface px-3.5 py-1 text-[13px] font-bold text-orange"
+                        className="rounded-full bg-surface px-3.5 py-1 text-[14px] font-bold text-orange"
                       >
                         {datum}
                       </li>
@@ -125,7 +125,7 @@ export default function AanbodPagina() {
                 {traject.punten.map((punt) => (
                   <li
                     key={punt}
-                    className="flex gap-2.5 text-[15px] text-ink-dim"
+                    className="flex gap-2.5 text-[16px] text-ink-dim"
                   >
                     <span aria-hidden className={tekstKleur[traject.kleur]}>
                       ●
@@ -140,13 +140,13 @@ export default function AanbodPagina() {
             <div className="mt-6 flex flex-wrap gap-3 border-t border-dashed border-border pt-5">
               <Link
                 href={aanvraagLink("inschrijven", traject.slug)}
-                className="inline-block rounded-full bg-green px-6 py-3 text-[15px] font-extrabold text-cream transition hover:-translate-y-0.5 hover:bg-green-mid"
+                className="inline-block rounded-full bg-green px-6 py-3 text-[16px] font-extrabold text-cream transition hover:-translate-y-0.5 hover:bg-green-mid"
               >
                 {soorten.inschrijven.knop} →
               </Link>
               <Link
                 href={aanvraagLink("info", traject.slug)}
-                className="inline-block rounded-full border-2 border-green px-6 py-3 text-[15px] font-extrabold text-green transition hover:-translate-y-0.5 hover:bg-sage-soft"
+                className="inline-block rounded-full border-2 border-green px-6 py-3 text-[16px] font-extrabold text-green transition hover:-translate-y-0.5 hover:bg-sage-soft"
               >
                 {soorten.info.knop}
               </Link>
@@ -160,7 +160,7 @@ export default function AanbodPagina() {
           </h2>
           <Link
             href={aanvraagLink("info")}
-            className="mt-5 inline-block rounded-full bg-cream px-6 py-3 text-[15px] font-extrabold text-green transition hover:-translate-y-0.5"
+            className="mt-5 inline-block rounded-full bg-cream px-6 py-3 text-[16px] font-extrabold text-green transition hover:-translate-y-0.5"
           >
             Neem contact op →
           </Link>
