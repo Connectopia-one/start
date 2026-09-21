@@ -1,0 +1,412 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Biologie: leven en ecologie",
+      "niveau": "start",
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk orgaan pompt het bloed door je lichaam?",
+          "opties": [
+            "de longen",
+            "het hart",
+            "de lever",
+            "de maag"
+          ],
+          "antwoord": 1,
+          "uitleg": "Het hart is een spier die dag en nacht bloed rondpompt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Planten maken hun voedsel met behulp van licht.",
+          "antwoord": true,
+          "uitleg": "Daarvoor gebruiken ze ook water en koolstofdioxide."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe noem je het proces waarbij planten suiker maken uit water, koolstofdioxide en licht?",
+          "opties": [
+            "verbranding",
+            "fotosynthese",
+            "vertering",
+            "verdamping"
+          ],
+          "antwoord": 1,
+          "uitleg": "Foto betekent licht, synthese betekent samenstellen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Met welk orgaan adem je?",
+          "antwoord": "longen",
+          "uitleg": "In je longen gaat zuurstof uit de lucht naar je bloed."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een voedselketen?",
+          "opties": [
+            "een rij winkels",
+            "wie wat eet in de natuur",
+            "een soort plant",
+            "een deel van het skelet"
+          ],
+          "antwoord": 1,
+          "uitleg": "Bijvoorbeeld: gras wordt gegeten door een konijn, en het konijn door een vos."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een kikker is een zoogdier.",
+          "antwoord": false,
+          "uitleg": "Een kikker is een amfibie: hij legt eieren in het water."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat hebben alle zoogdieren gemeen?",
+          "opties": [
+            "ze leggen eieren",
+            "ze geven melk aan hun jongen",
+            "ze hebben veren",
+            "ze leven in het water"
+          ],
+          "antwoord": 1,
+          "uitleg": "Zoogdieren zogen hun jongen, daar komt de naam vandaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe noem je de plaats waar een dier leeft, met alles wat het daar nodig heeft?",
+          "opties": [
+            "de leefomgeving",
+            "de voedselketen",
+            "het skelet",
+            "de celkern"
+          ],
+          "antwoord": 0,
+          "uitleg": "In zijn leefomgeving vindt een dier voedsel, water en beschutting."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bijen helpen bij de bestuiving van bloemen.",
+          "antwoord": true,
+          "uitleg": "Ze dragen stuifmeel van de ene bloem naar de andere."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk deel van de plant neemt water op uit de grond?",
+          "opties": [
+            "het blad",
+            "de bloem",
+            "de wortel",
+            "de stengel"
+          ],
+          "antwoord": 2,
+          "uitleg": "De wortels halen water en voedingsstoffen uit de bodem."
+        }
+      ]
+    },
+    {
+      "titel": "Chemie: stoffen en mengsels",
+      "niveau": "start",
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke drie toestanden kan water hebben?",
+          "opties": [
+            "vast, vloeibaar en gas",
+            "hard, zacht en warm",
+            "zuur, zoet en zout",
+            "licht, zwaar en droog"
+          ],
+          "antwoord": 0,
+          "uitleg": "IJs is vast, water is vloeibaar en waterdamp is een gas."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bij hoeveel graden Celsius kookt water op zeeniveau?",
+          "antwoord": "100",
+          "uitleg": "Bij 100 graden gaat water over in waterdamp."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bij hoeveel graden Celsius smelt ijs?",
+          "antwoord": "0",
+          "uitleg": "Bij 0 graden gaat ijs over in vloeibaar water."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Suiker die oplost in water, geeft:",
+          "opties": [
+            "een mengsel",
+            "een nieuw metaal",
+            "een gas",
+            "een steen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De suiker is er nog, je ziet ze alleen niet meer; je kan ze terugkrijgen door het water te laten verdampen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er met water dat verdampt?",
+          "opties": [
+            "het wordt vast",
+            "het wordt waterdamp",
+            "het verdwijnt voorgoed",
+            "het wordt ijs"
+          ],
+          "antwoord": 1,
+          "uitleg": "Het gaat als onzichtbaar gas de lucht in."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Olie en water mengen zich goed met elkaar.",
+          "antwoord": false,
+          "uitleg": "Olie blijft bovenop drijven; het zijn twee lagen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke stof heb je nodig om iets te laten branden?",
+          "opties": [
+            "stikstof",
+            "zuurstof",
+            "koolstofdioxide",
+            "helium"
+          ],
+          "antwoord": 1,
+          "uitleg": "Zonder zuurstof dooft een vuur; daarom werkt een deksel op een pan."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Roest ontstaat als ijzer lang in contact komt met water en lucht.",
+          "antwoord": true,
+          "uitleg": "Daarom schilder of vet je ijzer in om het te beschermen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe haal je zout uit zout water?",
+          "opties": [
+            "door het water te laten verdampen",
+            "door te roeren",
+            "door er suiker bij te doen",
+            "dat kan niet"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het water verdampt en het zout blijft achter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk gas ademen mensen uit?",
+          "opties": [
+            "vooral zuurstof",
+            "vooral koolstofdioxide",
+            "vooral helium",
+            "vooral waterstof"
+          ],
+          "antwoord": 1,
+          "uitleg": "Je neemt zuurstof op en geeft koolstofdioxide af."
+        }
+      ]
+    },
+    {
+      "titel": "Natuurkunde: energie en krachten",
+      "niveau": "start",
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke kracht trekt alles naar de aarde toe?",
+          "opties": [
+            "wrijving",
+            "de zwaartekracht",
+            "magnetisme",
+            "veerkracht"
+          ],
+          "antwoord": 1,
+          "uitleg": "Daarom valt een bal naar beneden als je hem loslaat."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Licht gaat sneller dan geluid.",
+          "antwoord": true,
+          "uitleg": "Daarom zie je de bliksem voor je de donder hoort."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat heb je nodig om een lampje te laten branden?",
+          "opties": [
+            "een gesloten stroomkring met een stroombron",
+            "een open stroomkring",
+            "alleen een draad",
+            "alleen een schakelaar"
+          ],
+          "antwoord": 0,
+          "uitleg": "De stroom moet helemaal rond kunnen: van de batterij door het lampje en terug."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk van deze drie wordt aangetrokken door een magneet: hout, ijzer of glas?",
+          "antwoord": "ijzer",
+          "uitleg": "IJzer is magnetisch, hout en glas niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is wrijving?",
+          "opties": [
+            "een kracht die beweging afremt",
+            "een soort licht",
+            "een vorm van geluid",
+            "een eenheid van massa"
+          ],
+          "antwoord": 0,
+          "uitleg": "Door wrijving rolt een bal op gras trager uit dan op beton."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een isolator geleidt elektriciteit heel goed.",
+          "antwoord": false,
+          "uitleg": "Een isolator, zoals rubber of plastic, houdt de stroom juist tegen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Zonne-energie, windenergie en waterkracht noem je samen:",
+          "opties": [
+            "fossiele brandstoffen",
+            "hernieuwbare energie",
+            "kernenergie",
+            "chemische stoffen"
+          ],
+          "antwoord": 1,
+          "uitleg": "Ze raken niet op, in tegenstelling tot steenkool of aardolie."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je voluit de eenheid van massa die je afkort als kg?",
+          "antwoord": "kilogram",
+          "uitleg": "Kilo betekent duizend, dus een kilogram is duizend gram."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Geluid kan zich niet verplaatsen in de ruimte, waar geen lucht is.",
+          "antwoord": true,
+          "uitleg": "Geluid heeft stof nodig om door te trillen, licht niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke lamp verbruikt het minst energie voor evenveel licht?",
+          "opties": [
+            "een gloeilamp",
+            "een halogeenlamp",
+            "een ledlamp",
+            "een olielamp"
+          ],
+          "antwoord": 2,
+          "uitleg": "Een led zet bijna alle energie om in licht in plaats van in warmte."
+        }
+      ]
+    },
+    {
+      "titel": "Techniek: ontwerpen en maken",
+      "niveau": "start",
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de eerste stap als je iets wil ontwerpen?",
+          "opties": [
+            "meteen beginnen bouwen",
+            "eerst bekijken wat het probleem is en waaraan het moet voldoen",
+            "het resultaat tonen",
+            "opruimen"
+          ],
+          "antwoord": 1,
+          "uitleg": "Als je weet wat het moet kunnen, kan je pas een goed plan maken."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een tandwiel kan zijn beweging doorgeven aan een ander tandwiel.",
+          "antwoord": true,
+          "uitleg": "Zo werkt bijvoorbeeld de versnelling van een fiets."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor dient een hefboom?",
+          "opties": [
+            "om kleur te maken",
+            "om met minder kracht iets zwaars te tillen",
+            "om geluid te dempen",
+            "om licht te geven"
+          ],
+          "antwoord": 1,
+          "uitleg": "Een kruiwagen en een notenkraker zijn hefbomen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe noem je de tekening met maten die je maakt voor je iets bouwt?",
+          "opties": [
+            "een plan",
+            "een verslag",
+            "een gedicht",
+            "een factuur"
+          ],
+          "antwoord": 0,
+          "uitleg": "Op een plan staat hoe groot elk onderdeel moet zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk materiaal kies je het best voor een raam?",
+          "opties": [
+            "glas",
+            "stof",
+            "papier",
+            "rubber"
+          ],
+          "antwoord": 0,
+          "uitleg": "Glas is doorzichtig en houdt wind en regen tegen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij techniek test je je ontwerp en pas je het aan als het niet goed werkt.",
+          "antwoord": true,
+          "uitleg": "Verbeteren na het testen hoort bij het ontwerpen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet een schakelaar in een stroomkring?",
+          "opties": [
+            "hij maakt licht",
+            "hij opent of sluit de kring",
+            "hij meet de spanning",
+            "hij slaat stroom op"
+          ],
+          "antwoord": 1,
+          "uitleg": "Sluit je de kring, dan kan de stroom lopen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom draag je een veiligheidsbril als je zaagt of boort?",
+          "opties": [
+            "om beter te zien",
+            "om je ogen te beschermen tegen splinters",
+            "om het mooier te maken",
+            "om sneller te werken"
+          ],
+          "antwoord": 1,
+          "uitleg": "Kleine stukjes materiaal kunnen wegspringen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Materialen hergebruiken is beter voor het milieu dan alles weggooien.",
+          "antwoord": true,
+          "uitleg": "Je hebt dan minder nieuwe grondstoffen en minder afval."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor gebruik je een katrol?",
+          "opties": [
+            "om iets op te hijsen",
+            "om te tekenen",
+            "om te meten",
+            "om te verwarmen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Met een katrol til je een last makkelijker omhoog."
+        }
+      ]
+    }
+  ]
+}

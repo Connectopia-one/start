@@ -1,0 +1,298 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Kaartlezen en oriëntatie",
+      "niveau": "start",
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar wijst de naald van een kompas naar?",
+          "opties": [
+            "het oosten",
+            "het noorden",
+            "het zuiden",
+            "het westen"
+          ],
+          "antwoord": 1,
+          "uitleg": "De gekleurde punt van de kompasnaald wijst altijd naar het noorden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke windstreek ligt tegenover het noorden?",
+          "opties": [
+            "het oosten",
+            "het westen",
+            "het zuiden",
+            "het noordwesten"
+          ],
+          "antwoord": 2,
+          "uitleg": "Noord en zuid liggen recht tegenover elkaar, net als oost en west."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Op een kaart staat het noorden meestal bovenaan.",
+          "antwoord": true,
+          "uitleg": "Daarom staat er vaak een pijl met een N bij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat vertelt de schaal op een kaart je?",
+          "opties": [
+            "welke kleuren gebruikt zijn",
+            "hoeveel keer de werkelijkheid verkleind is",
+            "de namen van de steden",
+            "het weer"
+          ],
+          "antwoord": 1,
+          "uitleg": "Met de schaal reken je afstanden op de kaart om naar echte afstanden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Blauw op een landkaart betekent meestal:",
+          "opties": [
+            "bos",
+            "water",
+            "berg",
+            "stad"
+          ],
+          "antwoord": 1,
+          "uitleg": "Rivieren, meren en zeeën staan in blauw."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De legende van een kaart legt uit wat de tekens en kleuren betekenen.",
+          "antwoord": true,
+          "uitleg": "Zonder legende weet je niet waar de symbolen voor staan."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel hoofdwindstreken zijn er?",
+          "antwoord": "4",
+          "uitleg": "Noord, oost, zuid en west."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke denkbeeldige lijn verdeelt de aarde in een noordelijk en een zuidelijk halfrond?",
+          "opties": [
+            "de evenaar",
+            "de nulmeridiaan",
+            "de poolcirkel",
+            "de datumgrens"
+          ],
+          "antwoord": 0,
+          "uitleg": "De evenaar loopt rond het midden van de aarde."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een plattegrond toont een gebied zoals je het van bovenaf ziet.",
+          "antwoord": true,
+          "uitleg": "Daarom herken je er straten en gebouwen als vlakken op."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op een reliëfkaart betekent bruin meestal:",
+          "opties": [
+            "laagland",
+            "hoogland of bergen",
+            "zee",
+            "woestijn"
+          ],
+          "antwoord": 1,
+          "uitleg": "Hoe donkerder het bruin, hoe hoger het gebied."
+        }
+      ]
+    },
+    {
+      "titel": "België",
+      "niveau": "start",
+      "vragen": [
+        {
+          "type": "invultekst",
+          "vraag": "Wat is de hoofdstad van België?",
+          "antwoord": "Brussel",
+          "uitleg": "Brussel is ook de hoofdstad van de Europese Unie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel provincies telt Vlaanderen?",
+          "opties": [
+            "4",
+            "5",
+            "6",
+            "10"
+          ],
+          "antwoord": 1,
+          "uitleg": "Antwerpen, Limburg, Oost-Vlaanderen, Vlaams-Brabant en West-Vlaanderen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is de hoofdplaats van de provincie Limburg?",
+          "antwoord": "Hasselt",
+          "uitleg": "Hasselt is het bestuurlijke centrum van Limburg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke rivier stroomt door Antwerpen?",
+          "opties": [
+            "de Maas",
+            "de Schelde",
+            "de Leie",
+            "de Demer"
+          ],
+          "antwoord": 1,
+          "uitleg": "De haven van Antwerpen ligt aan de Schelde."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "België grenst aan Frankrijk, Nederland, Duitsland en Luxemburg.",
+          "antwoord": true,
+          "uitleg": "Vier buurlanden, en daarnaast de Noordzee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zee grenst aan België?",
+          "opties": [
+            "de Middellandse Zee",
+            "de Noordzee",
+            "de Oostzee",
+            "de Zwarte Zee"
+          ],
+          "antwoord": 1,
+          "uitleg": "De Belgische kust ligt aan de Noordzee."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel officiële landstalen heeft België?",
+          "antwoord": "3",
+          "uitleg": "Nederlands, Frans en Duits."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe heet het hoogste punt van België?",
+          "opties": [
+            "de Kemmelberg",
+            "het Signaal van Botrange",
+            "de Mont Ventoux",
+            "de Vaalserberg"
+          ],
+          "antwoord": 1,
+          "uitleg": "Het Signaal van Botrange ligt in de Hoge Venen en is ongeveer 694 meter hoog."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Wallonië ligt in het zuiden van België.",
+          "antwoord": true,
+          "uitleg": "Vlaanderen ligt in het noorden, Wallonië in het zuiden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke provincie ligt aan de kust?",
+          "opties": [
+            "Limburg",
+            "West-Vlaanderen",
+            "Vlaams-Brabant",
+            "Antwerpen"
+          ],
+          "antwoord": 1,
+          "uitleg": "De hele Belgische kust ligt in West-Vlaanderen."
+        }
+      ]
+    },
+    {
+      "titel": "Europa en de wereld",
+      "niveau": "start",
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk werelddeel is het grootste?",
+          "opties": [
+            "Europa",
+            "Azië",
+            "Afrika",
+            "Noord-Amerika"
+          ],
+          "antwoord": 1,
+          "uitleg": "Azië is veruit het grootste werelddeel, zowel in oppervlakte als in inwoners."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is de hoofdstad van Frankrijk?",
+          "antwoord": "Parijs",
+          "uitleg": "Parijs ligt aan de rivier de Seine."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is de hoofdstad van Duitsland?",
+          "antwoord": "Berlijn",
+          "uitleg": "Berlijn is meteen ook de grootste stad van Duitsland."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Europa is het kleinste werelddeel.",
+          "antwoord": false,
+          "uitleg": "Oceanië is kleiner; Europa is het op een na kleinste."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke berg is de hoogste ter wereld?",
+          "opties": [
+            "de Mont Blanc",
+            "de Kilimanjaro",
+            "de Mount Everest",
+            "de Matterhorn"
+          ],
+          "antwoord": 2,
+          "uitleg": "De Mount Everest in de Himalaya is bijna 8 850 meter hoog."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke oceaan ligt tussen Europa en Amerika?",
+          "opties": [
+            "de Stille Oceaan",
+            "de Atlantische Oceaan",
+            "de Indische Oceaan",
+            "de Noordelijke IJszee"
+          ],
+          "antwoord": 1,
+          "uitleg": "Je steekt de Atlantische Oceaan over om van Europa naar Amerika te varen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De euro is de munt in verschillende landen van de Europese Unie.",
+          "antwoord": true,
+          "uitleg": "Niet alle EU-landen gebruiken de euro, maar veel wel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke rivier is de langste van Europa?",
+          "opties": [
+            "de Rijn",
+            "de Donau",
+            "de Wolga",
+            "de Seine"
+          ],
+          "antwoord": 2,
+          "uitleg": "De Wolga stroomt door Rusland en is ongeveer 3 500 kilometer lang."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De evenaar loopt door Afrika.",
+          "antwoord": true,
+          "uitleg": "Onder meer door Kenia, Oeganda en Congo."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk land is het grootste ter wereld in oppervlakte?",
+          "opties": [
+            "China",
+            "Canada",
+            "Rusland",
+            "de Verenigde Staten"
+          ],
+          "antwoord": 2,
+          "uitleg": "Rusland ligt in twee werelddelen: Europa en Azië."
+        }
+      ]
+    }
+  ]
+}

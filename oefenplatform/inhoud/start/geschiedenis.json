@@ -1,0 +1,304 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Tijd en tijdlijn",
+      "niveau": "start",
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel jaar is een eeuw?",
+          "opties": [
+            "10",
+            "50",
+            "100",
+            "1 000"
+          ],
+          "antwoord": 2,
+          "uitleg": "Een eeuw duurt honderd jaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel jaar is een millennium?",
+          "opties": [
+            "100",
+            "500",
+            "1 000",
+            "10 000"
+          ],
+          "antwoord": 2,
+          "uitleg": "Een millennium duurt duizend jaar."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Op een tijdlijn staat het oudste gewoonlijk links.",
+          "antwoord": true,
+          "uitleg": "Je leest een tijdlijn van links naar rechts, van vroeger naar nu."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke eeuw ligt het jaar 1789?",
+          "opties": [
+            "de 17de",
+            "de 18de",
+            "de 19de",
+            "de 20ste"
+          ],
+          "antwoord": 1,
+          "uitleg": "De 18de eeuw loopt van 1701 tot en met 1800."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent de afkorting v.Chr.?",
+          "opties": [
+            "voor Christus",
+            "van Christus",
+            "vroege christenen",
+            "volgens Christus"
+          ],
+          "antwoord": 0,
+          "uitleg": "Jaartallen voor Christus tellen omgekeerd: 100 v.Chr. is later dan 200 v.Chr."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een bron die gemaakt is in de tijd zelf, noem je een primaire bron.",
+          "antwoord": true,
+          "uitleg": "Een dagboek of een foto uit die tijd is een primaire bron."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel jaar zit er tussen 1900 en 1975?",
+          "antwoord": "75",
+          "uitleg": "1975 min 1900 is 75 jaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat onderzoekt een archeoloog?",
+          "opties": [
+            "de sterren",
+            "sporen uit het verleden in de bodem",
+            "het weer",
+            "planten in de tuin"
+          ],
+          "antwoord": 1,
+          "uitleg": "Archeologen graven voorwerpen op en leiden daaruit af hoe mensen leefden."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het jaar 2000 hoorde nog bij de 20ste eeuw.",
+          "antwoord": true,
+          "uitleg": "De 20ste eeuw loopt van 1901 tot en met 2000."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe lang duurt een generatie ongeveer?",
+          "opties": [
+            "5 jaar",
+            "25 tot 30 jaar",
+            "100 jaar",
+            "1 jaar"
+          ],
+          "antwoord": 1,
+          "uitleg": "Dat is ongeveer de tijd tussen ouders en hun kinderen."
+        }
+      ]
+    },
+    {
+      "titel": "Van de prehistorie tot de Romeinen",
+      "niveau": "start",
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent prehistorie?",
+          "opties": [
+            "de tijd voor er geschreven werd",
+            "de tijd van de Romeinen",
+            "de tijd na de middeleeuwen",
+            "de tijd van de ridders"
+          ],
+          "antwoord": 0,
+          "uitleg": "Pre betekent voor: het is de tijd voor het schrift."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In de steentijd maakten mensen werktuigen van steen, been en hout.",
+          "antwoord": true,
+          "uitleg": "Metaal kenden ze toen nog niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat veranderde er toen de mensen aan landbouw begonnen?",
+          "opties": [
+            "ze trokken meer rond",
+            "ze gingen gewassen telen en dieren houden en bleven op één plaats wonen",
+            "ze stopten met eten koken",
+            "ze bouwden meteen steden van beton"
+          ],
+          "antwoord": 1,
+          "uitleg": "Door landbouw konden mensen zich vestigen in dorpen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat was de hoofdstad van het Romeinse Rijk?",
+          "opties": [
+            "Athene",
+            "Rome",
+            "Parijs",
+            "Caïro"
+          ],
+          "antwoord": 1,
+          "uitleg": "Vanuit Rome bestuurden de Romeinen een rijk rond de Middellandse Zee."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De Romeinen bouwden wegen en aquaducten.",
+          "antwoord": true,
+          "uitleg": "Met aquaducten brachten ze water naar hun steden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk volk woonde er in onze streken voor de Romeinen kwamen?",
+          "opties": [
+            "de Kelten",
+            "de Vikingen",
+            "de Grieken",
+            "de Egyptenaren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Julius Caesar noemde de stammen in onze streken de Belgae, een Keltisch volk."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In welk land staan de piramides van Gizeh?",
+          "antwoord": "Egypte",
+          "uitleg": "Ze staan vlak bij de hoofdstad Caïro."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor gebruikten de oude Egyptenaren hiërogliefen?",
+          "opties": [
+            "om te schrijven",
+            "om te koken",
+            "om te bouwen",
+            "om te tellen alleen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hierogliefen zijn een schrift met tekens en beelden."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De oude Grieken hielden de eerste Olympische Spelen.",
+          "antwoord": true,
+          "uitleg": "Die vonden plaats in Olympia, ter ere van hun goden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een amfitheater?",
+          "opties": [
+            "een ronde arena voor voorstellingen",
+            "een soort schip",
+            "een wapen",
+            "een munt"
+          ],
+          "antwoord": 0,
+          "uitleg": "De toeschouwers zaten in oplopende rijen rond de arena."
+        }
+      ]
+    },
+    {
+      "titel": "Van de middeleeuwen tot nu",
+      "niveau": "start",
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wie woonde er in de middeleeuwen in een kasteel?",
+          "opties": [
+            "de heer en zijn gezin",
+            "alleen boeren",
+            "alleen soldaten",
+            "niemand"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het kasteel was de woning van de heer en tegelijk een verdedigingsplaats."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In de middeleeuwen schreven monniken boeken met de hand over.",
+          "antwoord": true,
+          "uitleg": "Dat deden ze in het scriptorium van hun klooster."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wie maakte in Europa de boekdrukkunst met losse letters bekend?",
+          "opties": [
+            "Gutenberg",
+            "Newton",
+            "Edison",
+            "Columbus"
+          ],
+          "antwoord": 0,
+          "uitleg": "Daardoor konden boeken veel sneller en goedkoper gemaakt worden."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In welk jaar bereikte Columbus Amerika?",
+          "antwoord": "1492",
+          "uitleg": "Hij zocht een zeeweg naar Indië en kwam in Amerika terecht."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat veranderde er door de industriële revolutie?",
+          "opties": [
+            "machines namen veel handwerk over",
+            "iedereen ging op het land werken",
+            "er kwamen minder steden",
+            "het schrift werd uitgevonden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Fabrieken en stoommachines veranderden het werk en het leven in de steden."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De Eerste Wereldoorlog begon in 1914.",
+          "antwoord": true,
+          "uitleg": "Hij duurde tot 1918; in België werd zwaar gevochten aan de IJzer."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In welk jaar eindigde de Tweede Wereldoorlog?",
+          "antwoord": "1945",
+          "uitleg": "In Europa eindigde hij in mei 1945."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de Europese Unie?",
+          "opties": [
+            "een samenwerkingsverband van Europese landen",
+            "een leger",
+            "een bedrijf",
+            "een stad"
+          ],
+          "antwoord": 0,
+          "uitleg": "De lidstaten werken samen rond handel, wetten en veel meer."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Vrouwen in België mochten pas in de 20ste eeuw stemmen bij de nationale verkiezingen.",
+          "antwoord": true,
+          "uitleg": "Algemeen stemrecht voor vrouwen kwam er in 1948."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat maakte het internet vooral mogelijk?",
+          "opties": [
+            "sneller reizen",
+            "informatie wereldwijd delen",
+            "water zuiveren",
+            "planten kweken"
+          ],
+          "antwoord": 1,
+          "uitleg": "Sinds de jaren negentig kan bijna iedereen informatie delen en opzoeken."
+        }
+      ]
+    }
+  ]
+}
