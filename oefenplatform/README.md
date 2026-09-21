@@ -55,6 +55,14 @@ Een vak zoals "Wiskunde" kan best hoofdstukken in meerdere categorieën hebben.
    Onder **Authentication → Settings** kan je kiezen of je e-mailbevestiging wil vereisen bij
    registratie (standaard aan — ouders krijgen dan een bevestigingsmail).
 
+### 1b. Leerbundels aanzetten (bestaande projecten)
+
+Draaide je project al voor de leerbundels bestonden? Open dan opnieuw de
+**SQL Editor**, plak de inhoud van [`supabase/leerbundel.sql`](./supabase/leerbundel.sql)
+en klik **Run**. Dat maakt de tabel en de opslagmap aan waarin je per hoofdstuk
+theorie met afbeeldingen opbouwt. Wie het schema van nul af installeert, heeft
+dit al mee en moet niets extra doen.
+
 ### 2. Mollie-account aanmaken
 
 1. Maak een gratis account op [mollie.com](https://www.mollie.com), gekoppeld aan de vzw

@@ -21,10 +21,25 @@ type Vraag = {
 
 type Status = { gecontroleerd: boolean; correct: boolean; gegevenAntwoord: string | number | boolean | null };
 
+/**
+ * Zet een ingetypt antwoord om naar een vorm die we kunnen vergelijken.
+ * Hoofdletters, een lidwoord vooraan ("de longen"), een punt achteraan en
+ * dubbele spaties mogen het verschil niet maken tussen juist en fout — een
+ * kind dat het antwoord kent, hoort het ook juist te hebben.
+ */
+function normaliseerAntwoord(waarde: string): string {
+  return waarde
+    .trim()
+    .toLowerCase()
+    .replace(/[.!?]+$/, "")
+    .replace(/\s+/g, " ")
+    .replace(/^(de|het|een) /, "");
+}
+
 function isCorrect(vraag: Vraag, gegeven: string | number | boolean | null): boolean {
   if (gegeven === null) return false;
   if (vraag.type === "invultekst") {
-    return String(gegeven).trim().toLowerCase() === String(vraag.antwoord).trim().toLowerCase();
+    return normaliseerAntwoord(String(gegeven)) === normaliseerAntwoord(String(vraag.antwoord));
   }
   return gegeven === vraag.antwoord;
 }

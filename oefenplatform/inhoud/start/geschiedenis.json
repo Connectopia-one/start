@@ -99,6 +99,96 @@
           ],
           "antwoord": 1,
           "uitleg": "Dat is ongeveer de tijd tussen ouders en hun kinderen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke eeuw leven we nu?",
+          "opties": [
+            "de 19de",
+            "de 20ste",
+            "de 21ste",
+            "de 22ste"
+          ],
+          "antwoord": 2,
+          "uitleg": "De 21ste eeuw loopt van 2001 tot en met 2100."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel jaar zit er tussen 50 v.Chr. en 50 na Chr.?",
+          "antwoord": "100",
+          "uitleg": "Vijftig jaar voor en vijftig jaar na het jaar nul."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een kroniek is een verslag van gebeurtenissen in volgorde van tijd.",
+          "antwoord": true,
+          "uitleg": "Kroniekschrijvers noteerden wat er jaar na jaar gebeurde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een secundaire bron?",
+          "opties": [
+            "een tekst die later geschreven is over die tijd",
+            "een voorwerp uit die tijd",
+            "een foto uit die tijd",
+            "een brief uit die tijd"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een geschiedenisboek van vandaag over de Romeinen is een secundaire bron."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bedoelen historici met een tijdvak?",
+          "opties": [
+            "een periode met eigen kenmerken",
+            "één jaar",
+            "één dag",
+            "één eeuw altijd"
+          ],
+          "antwoord": 0,
+          "uitleg": "De middeleeuwen en de nieuwe tijd zijn tijdvakken."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Alles wat in een geschiedenisboek staat, is zeker gebeurd zoals beschreven.",
+          "antwoord": false,
+          "uitleg": "Historici werken met bronnen en die kunnen onvolledig of gekleurd zijn."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel jaar duurt een halve eeuw?",
+          "antwoord": "50",
+          "uitleg": "Een eeuw is honderd jaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom vergelijken historici verschillende bronnen met elkaar?",
+          "opties": [
+            "om te zien of ze elkaar bevestigen",
+            "om er meer te hebben",
+            "omdat het moet van de wet",
+            "om ze mooier te maken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Als meerdere bronnen hetzelfde zeggen, is het waarschijnlijker dat het klopt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Op een tijdlijn kan je ook periodes aanduiden, niet alleen losse jaartallen.",
+          "antwoord": true,
+          "uitleg": "Je tekent dan een balk van het begin tot het einde van die periode."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het jaar 1850 ligt in welke eeuw?",
+          "opties": [
+            "de 17de",
+            "de 18de",
+            "de 19de",
+            "de 20ste"
+          ],
+          "antwoord": 2,
+          "uitleg": "De 19de eeuw loopt van 1801 tot en met 1900."
         }
       ]
     },
@@ -201,6 +291,102 @@
           ],
           "antwoord": 0,
           "uitleg": "De toeschouwers zaten in oplopende rijen rond de arena."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom trokken mensen in de oude steentijd van plaats naar plaats?",
+          "opties": [
+            "ze volgden het voedsel: dieren en planten",
+            "ze hielden van reizen",
+            "ze bouwden steden",
+            "ze gingen naar school"
+          ],
+          "antwoord": 0,
+          "uitleg": "Jagers en verzamelaars trokken mee met de kudden en de seizoenen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het schrift werd voor het eerst gebruikt in Mesopotamië en Egypte.",
+          "antwoord": true,
+          "uitleg": "Dat is meteen het begin van wat we geschiedenis noemen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een hunebed of megalietgraf?",
+          "opties": [
+            "een grafmonument van grote stenen",
+            "een woonhuis",
+            "een soort wapen",
+            "een schip"
+          ],
+          "antwoord": 0,
+          "uitleg": "Mensen uit de nieuwe steentijd bouwden die met enorme keien."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke rivier was van levensbelang voor het oude Egypte?",
+          "antwoord": "Nijl",
+          "uitleg": "De jaarlijkse overstroming van de Nijl maakte de grond vruchtbaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat was de Romeinse heirbaan vooral voor?",
+          "opties": [
+            "snel soldaten en goederen verplaatsen",
+            "wandelen",
+            "water vervoeren",
+            "paardenkoersen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Goede wegen hielden het rijk bij elkaar."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De Romeinen spraken Latijn.",
+          "antwoord": true,
+          "uitleg": "Veel woorden in het Nederlands en het Frans komen daarvandaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat waren de thermen bij de Romeinen?",
+          "opties": [
+            "openbare badhuizen",
+            "tempels",
+            "scholen",
+            "legerkampen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Men ging er baden, sporten en elkaar ontmoeten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke Romeinse aanvoerder schreef over de Belgae?",
+          "opties": [
+            "Julius Caesar",
+            "Napoleon",
+            "Karel de Grote",
+            "Alexander"
+          ],
+          "antwoord": 0,
+          "uitleg": "In zijn verslag over de Gallische oorlog noemde hij hen de dappersten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De Grieken bouwden tempels met zuilen, zoals het Parthenon.",
+          "antwoord": true,
+          "uitleg": "Die bouwstijl inspireert tot vandaag gebouwen overal ter wereld."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe heet het alfabet dat wij van de Romeinen overhielden?",
+          "antwoord": 1,
+          "uitleg": "Wij schrijven vandaag nog altijd met het Latijnse alfabet.",
+          "opties": [
+            "het Griekse alfabet",
+            "het Latijnse alfabet",
+            "het Arabische alfabet",
+            "het cyrillische alfabet"
+          ]
         }
       ]
     },
@@ -297,6 +483,96 @@
           ],
           "antwoord": 1,
           "uitleg": "Sinds de jaren negentig kan bijna iedereen informatie delen en opzoeken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat was een gilde in de middeleeuwen?",
+          "opties": [
+            "een vereniging van vaklui uit hetzelfde beroep",
+            "een leger",
+            "een kerk",
+            "een school"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bakkers, smeden en wevers hadden elk hun gilde."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De pest trof Europa zwaar in de 14de eeuw.",
+          "antwoord": true,
+          "uitleg": "Een groot deel van de bevolking stierf eraan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat ontdekten ontdekkingsreizigers zoals Magellaan?",
+          "opties": [
+            "zeeroutes rond de wereld",
+            "de maan",
+            "het vuur",
+            "de elektriciteit"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zijn bemanning zeilde als eerste rond de aarde."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In welke eeuw vond de industriële revolutie vooral plaats in onze streken? Antwoord met een getal.",
+          "antwoord": "19",
+          "uitleg": "Vanaf het begin van de 19de eeuw kwamen fabrieken en stoommachines op."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat was de Verlichting?",
+          "opties": [
+            "een stroming die de rede en het onderzoek centraal zette",
+            "een soort lamp",
+            "een oorlog",
+            "een schilderstijl"
+          ],
+          "antwoord": 0,
+          "uitleg": "Denkers gingen op zoek naar kennis en vrijheid in plaats van blind gezag."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "België werd een onafhankelijk land in 1830.",
+          "antwoord": true,
+          "uitleg": "Daarvoor hoorde het bij het Verenigd Koninkrijk der Nederlanden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurde er in 1969 voor het eerst?",
+          "opties": [
+            "een mens zette voet op de maan",
+            "het internet werd uitgevonden",
+            "de auto werd uitgevonden",
+            "de eerste trein reed"
+          ],
+          "antwoord": 0,
+          "uitleg": "Neil Armstrong was de eerste mens op de maan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is kinderarbeid, zoals die in de 19de eeuw veel voorkwam?",
+          "opties": [
+            "kinderen die lange dagen in fabrieken of mijnen werkten",
+            "kinderen die huiswerk maken",
+            "kinderen die spelen",
+            "kinderen die naar school gaan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Pas later kwamen er wetten die dat verboden en leerplicht invoerden."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het vrouwenstemrecht en de leerplicht zijn voorbeelden van rechten die er niet altijd waren.",
+          "antwoord": true,
+          "uitleg": "Mensen hebben er jarenlang voor moeten strijden."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: de ... Muur deelde Berlijn van 1961 tot 1989 in twee.",
+          "antwoord": "Berlijnse",
+          "uitleg": "De Berlijnse Muur viel in november 1989."
         }
       ]
     }

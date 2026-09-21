@@ -99,6 +99,96 @@
           ],
           "antwoord": 2,
           "uitleg": "De wortels halen water en voedingsstoffen uit de bodem."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk orgaan verteert het voedsel verder nadat het je maag verlaten heeft?",
+          "opties": [
+            "de longen",
+            "de dunne darm",
+            "het hart",
+            "de nieren"
+          ],
+          "antwoord": 1,
+          "uitleg": "In de dunne darm worden de voedingsstoffen opgenomen in het bloed."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een spin is een insect.",
+          "antwoord": false,
+          "uitleg": "Een spin heeft acht poten; insecten hebben er zes."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doen de nieren?",
+          "opties": [
+            "bloed zuiveren",
+            "voedsel kauwen",
+            "zuurstof maken",
+            "botten maken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ze halen afvalstoffen uit het bloed, die daarna als urine het lichaam verlaten."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je dieren die alleen planten eten?",
+          "antwoord": "planteneters",
+          "uitleg": "Vleeseters eten vlees, alleseters eten allebei."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom laten bomen in de herfst hun bladeren vallen?",
+          "opties": [
+            "om water te sparen in de koude maanden",
+            "omdat ze ziek zijn",
+            "omdat het te warm wordt",
+            "om lichter te worden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zonder bladeren verdampt de boom veel minder water in de winter."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het skelet beschermt organen zoals je hersenen en je hart.",
+          "antwoord": true,
+          "uitleg": "De schedel beschermt de hersenen, de ribben het hart en de longen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er bij een metamorfose van rups tot vlinder?",
+          "opties": [
+            "het dier verandert helemaal van vorm",
+            "het dier wordt alleen groter",
+            "het dier verandert van kleur",
+            "er verandert niets"
+          ],
+          "antwoord": 0,
+          "uitleg": "Via de pop verandert de rups volledig van lichaamsbouw."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zijn regenwormen goed voor de grond?",
+          "opties": [
+            "ze maken de grond los en luchtig",
+            "ze eten plagen op",
+            "ze maken water",
+            "ze geven licht"
+          ],
+          "antwoord": 0,
+          "uitleg": "Door hun gangen komt er lucht en water bij de wortels."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Zonder planten zou er geen zuurstof in de lucht zijn.",
+          "antwoord": true,
+          "uitleg": "Planten geven zuurstof af bij de fotosynthese."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het orgaan waarmee vissen ademen onder water?",
+          "antwoord": "kieuwen",
+          "uitleg": "Kieuwen halen zuurstof uit het water."
         }
       ]
     },
@@ -201,6 +291,102 @@
           ],
           "antwoord": 1,
           "uitleg": "Je neemt zuurstof op en geeft koolstofdioxide af."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe noem je het overgaan van waterdamp naar vloeibaar water?",
+          "opties": [
+            "smelten",
+            "verdampen",
+            "condenseren",
+            "bevriezen"
+          ],
+          "antwoord": 2,
+          "uitleg": "Dat zie je op een koude ruit: er slaat water op neer."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als je een stof oplost in water, is de stof verdwenen.",
+          "antwoord": false,
+          "uitleg": "Ze zit er nog in, maar je ziet ze niet meer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe scheid je zand van water?",
+          "opties": [
+            "door te filteren",
+            "door te verwarmen",
+            "door te roeren",
+            "dat kan niet"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het zand blijft in de filter achter, het water loopt erdoor."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk gas hebben planten nodig om aan fotosynthese te doen? (afkorting CO2, voluit één woord)",
+          "antwoord": "koolstofdioxide",
+          "uitleg": "Planten nemen koolstofdioxide op en geven zuurstof af."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is er speciaal aan water wanneer het bevriest?",
+          "opties": [
+            "het wordt lichter en drijft",
+            "het wordt zwaarder en zinkt",
+            "het verdwijnt",
+            "het wordt warmer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Daarom drijft ijs op water en bevriest een vijver van bovenaf."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Alle metalen zijn magnetisch.",
+          "antwoord": false,
+          "uitleg": "IJzer wel, maar koper en aluminium bijvoorbeeld niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom strooit men zout op de weg bij vrieskou?",
+          "opties": [
+            "zodat water pas bij een lagere temperatuur bevriest",
+            "om de weg te kleuren",
+            "om de weg te verwarmen",
+            "om het water te laten verdampen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zout water bevriest pas onder nul graden, dus blijft de weg langer ijsvrij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er als je bakpoeder bij azijn doet?",
+          "opties": [
+            "er ontstaat gas en het bruist",
+            "er gebeurt niets",
+            "het wordt hard",
+            "het wordt blauw"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het gas dat vrijkomt is koolstofdioxide."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een mengsel van water en suiker kan je weer scheiden.",
+          "antwoord": true,
+          "uitleg": "Laat het water verdampen en de suiker blijft achter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk van deze is géén mengsel?",
+          "opties": [
+            "zeewater",
+            "fruitsap",
+            "zuiver water",
+            "melk"
+          ],
+          "antwoord": 2,
+          "uitleg": "Zuiver water bestaat uit één stof; de andere bevatten meerdere stoffen."
         }
       ]
     },
@@ -297,6 +483,102 @@
           ],
           "antwoord": 2,
           "uitleg": "Een led zet bijna alle energie om in licht in plaats van in warmte."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er met licht als het op een spiegel valt?",
+          "opties": [
+            "het wordt weerkaatst",
+            "het verdwijnt",
+            "het wordt warm",
+            "het gaat er dwars door"
+          ],
+          "antwoord": 0,
+          "uitleg": "Daarom zie je jezelf in een spiegel."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Hoe verder je van een geluidsbron staat, hoe zachter je het geluid hoort.",
+          "antwoord": true,
+          "uitleg": "Het geluid verspreidt zich over een groter gebied."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom drijft een boot van staal, terwijl een spijker van staal zinkt?",
+          "opties": [
+            "door de vorm verplaatst de boot veel water",
+            "staal van boten is lichter",
+            "omdat de boot beweegt",
+            "omdat een boot verf heeft"
+          ],
+          "antwoord": 0,
+          "uitleg": "De holle vorm verplaatst genoeg water om de boot te dragen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de energie van stromend water die je met een turbine kan opvangen?",
+          "antwoord": "waterkracht",
+          "uitleg": "Waterkracht is een vorm van hernieuwbare energie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een geleider?",
+          "opties": [
+            "een materiaal waar stroom goed doorheen kan",
+            "een materiaal dat stroom tegenhoudt",
+            "een soort batterij",
+            "een lamp"
+          ],
+          "antwoord": 0,
+          "uitleg": "Koper is een goede geleider, daarom zitten er koperdraden in kabels."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een voorwerp valt sneller naar beneden als het zwaarder is.",
+          "antwoord": false,
+          "uitleg": "Zonder luchtweerstand vallen een veer en een steen even snel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor dient de rem op een fiets?",
+          "opties": [
+            "om wrijving te maken zodat je trager rijdt",
+            "om de fiets lichter te maken",
+            "om de band op te pompen",
+            "om licht te geven"
+          ],
+          "antwoord": 0,
+          "uitleg": "De remblokjes wrijven tegen de velg of de schijf."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke energie zet een zonnepaneel om?",
+          "opties": [
+            "licht naar elektriciteit",
+            "warmte naar geluid",
+            "wind naar warmte",
+            "water naar licht"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zonlicht wordt rechtstreeks omgezet in elektrische stroom."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Warme lucht stijgt op.",
+          "antwoord": true,
+          "uitleg": "Daarom werkt een heteluchtballon en is het warmer boven in een kamer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er met een metalen staaf die je verwarmt?",
+          "opties": [
+            "hij zet uit en wordt een beetje langer",
+            "hij wordt korter",
+            "hij verandert van kleur",
+            "er gebeurt niets"
+          ],
+          "antwoord": 0,
+          "uitleg": "Daarom zitten er voegen tussen de delen van een brug."
         }
       ]
     },
@@ -405,6 +687,102 @@
           ],
           "antwoord": 0,
           "uitleg": "Met een katrol til je een last makkelijker omhoog."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de laatste stap in een ontwerpproces?",
+          "opties": [
+            "evalueren: nagaan of het doet wat het moest doen",
+            "het probleem zoeken",
+            "materiaal kiezen",
+            "tekenen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je kijkt terug of je ontwerp aan de eisen voldoet, en wat beter kan."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een schroef houdt beter vast in hout dan een gladde nagel.",
+          "antwoord": true,
+          "uitleg": "De schroefdraad grijpt in het hout."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor dient een waterpas?",
+          "opties": [
+            "nagaan of iets recht ligt",
+            "de lengte meten",
+            "de temperatuur meten",
+            "het gewicht meten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het luchtbelletje staat in het midden als iets waterpas ligt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het onderdeel van een fiets dat de kracht van de pedalen naar het wiel brengt?",
+          "antwoord": "ketting",
+          "uitleg": "De ketting loopt over de tandwielen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom staan er driehoeken in een bouwkraan of een brug?",
+          "opties": [
+            "een driehoek is een heel stevige vorm",
+            "het staat mooi",
+            "het is goedkoper",
+            "het gaat sneller"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een driehoek kan niet vervormen zonder dat een zijde breekt of buigt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij het ontwerpen hou je ook rekening met wie het gaat gebruiken.",
+          "antwoord": true,
+          "uitleg": "Een kruk voor een kleuter ziet er anders uit dan een kruk voor een volwassene."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet een zekering in een elektrische installatie?",
+          "opties": [
+            "de stroom onderbreken als er te veel stroom loopt",
+            "de stroom versterken",
+            "licht geven",
+            "de stroom meten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zo voorkom je oververhitting en brand."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk gereedschap gebruik je om een gat in hout te maken?",
+          "opties": [
+            "een boor",
+            "een zaag",
+            "een hamer",
+            "een schaar"
+          ],
+          "antwoord": 0,
+          "uitleg": "Met een boor draai je een rond gat."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Recycleren betekent dat een materiaal opnieuw als grondstof gebruikt wordt.",
+          "antwoord": true,
+          "uitleg": "Van oud papier maakt men weer nieuw papier."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een prototype?",
+          "opties": [
+            "een eerste proefmodel om te testen",
+            "het eindproduct in de winkel",
+            "een handleiding",
+            "een tekening op ware grootte"
+          ],
+          "antwoord": 0,
+          "uitleg": "Met een prototype ontdek je wat werkt en wat niet, voor je het echt maakt."
         }
       ]
     }

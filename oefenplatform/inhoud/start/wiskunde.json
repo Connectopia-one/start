@@ -105,6 +105,96 @@
           "vraag": "Hoeveel duizendtallen zitten er in 45 000?",
           "antwoord": "45",
           "uitleg": "45 000 is 45 keer duizend."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe schrijf je twee miljoen driehonderdduizend in cijfers?",
+          "opties": [
+            "230 000",
+            "2 030 000",
+            "2 300 000",
+            "23 000 000"
+          ],
+          "antwoord": 2,
+          "uitleg": "Twee miljoen is 2 000 000 en driehonderdduizend is 300 000, samen 2 300 000."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk getal komt hierna: 12, 24, 36, 48, ...?",
+          "antwoord": "60",
+          "uitleg": "Telkens komt er 12 bij."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het getal 1 is een priemgetal.",
+          "antwoord": false,
+          "uitleg": "Een priemgetal heeft precies twee delers; 1 heeft er maar één."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke breuk is het grootst?",
+          "opties": [
+            "1/2",
+            "2/5",
+            "3/8",
+            "1/3"
+          ],
+          "antwoord": 0,
+          "uitleg": "In kommagetallen: 0,5 tegenover 0,4, 0,375 en ongeveer 0,33."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel is 10% van 350?",
+          "antwoord": "35",
+          "uitleg": "10% is een tiende, dus je deelt door 10."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk getal hoort er tussen 0,8 en 1,0?",
+          "opties": [
+            "0,85",
+            "0,9",
+            "0,95",
+            "1,1"
+          ],
+          "antwoord": 1,
+          "uitleg": "0,9 ligt precies in het midden tussen 0,8 en 1,0."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Alle even getallen zijn deelbaar door 2.",
+          "antwoord": true,
+          "uitleg": "Dat is net wat even betekent."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel procent is 3/5?",
+          "opties": [
+            "35%",
+            "53%",
+            "60%",
+            "65%"
+          ],
+          "antwoord": 2,
+          "uitleg": "1/5 is 20%, dus 3/5 is 3 × 20 = 60%."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk getal is 1 000 minder dan 25 400?",
+          "opties": [
+            "24 400",
+            "25 300",
+            "24 500",
+            "15 400"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je haalt er één duizendtal af: 25 400 wordt 24 400."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een breuk met dezelfde teller en noemer is gelijk aan 1.",
+          "antwoord": true,
+          "uitleg": "4/4 of 9/9 is telkens één geheel."
         }
       ]
     },
@@ -195,6 +285,90 @@
           ],
           "antwoord": 1,
           "uitleg": "Zet er evenveel cijfers achter de komma: 2,50 + 1,75 = 4,25."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bereken: 45 × 6",
+          "antwoord": "270",
+          "uitleg": "45 × 6 = 270."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bereken: 924 : 4",
+          "antwoord": "231",
+          "uitleg": "924 gedeeld door 4 is 231."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bereken: 7 × 8 + 4",
+          "opties": [
+            "60",
+            "64",
+            "84",
+            "92"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst vermenigvuldigen: 56, dan 4 erbij is 60."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Delen door 1 verandert een getal niet.",
+          "antwoord": true,
+          "uitleg": "17 : 1 is nog altijd 17."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bereken: 1/2 + 1/4",
+          "opties": [
+            "1/6",
+            "2/6",
+            "3/4",
+            "2/4"
+          ],
+          "antwoord": 2,
+          "uitleg": "Maak er gelijke noemers van: 2/4 + 1/4 = 3/4."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bereken: 12 × 12",
+          "antwoord": "144",
+          "uitleg": "12 × 12 = 144."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bereken: 6 × (5 + 3)",
+          "opties": [
+            "33",
+            "36",
+            "48",
+            "54"
+          ],
+          "antwoord": 2,
+          "uitleg": "Wat tussen haakjes staat gaat eerst: 5 + 3 = 8, en 6 × 8 = 48."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel is 250 + 250 + 250 + 250?",
+          "antwoord": "1000",
+          "uitleg": "Vier keer 250 is 1 000."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij aftrekken mag je de volgorde omdraaien: 9 - 4 is hetzelfde als 4 - 9.",
+          "antwoord": false,
+          "uitleg": "Bij optellen en vermenigvuldigen mag dat wel, bij aftrekken en delen niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bereken: 3,6 : 3",
+          "opties": [
+            "0,12",
+            "1,2",
+            "1,8",
+            "12"
+          ],
+          "antwoord": 1,
+          "uitleg": "3,6 gedeeld door 3 is 1,2."
         }
       ]
     },
@@ -285,6 +459,96 @@
           "vraag": "Wat is de inhoud van een kubus met een ribbe van 3 cm? Antwoord in cm³.",
           "antwoord": "27",
           "uitleg": "Inhoud van een kubus is ribbe keer ribbe keer ribbe: 3 × 3 × 3 = 27."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel gram is 2,5 kilogram?",
+          "opties": [
+            "25",
+            "250",
+            "2 500",
+            "25 000"
+          ],
+          "antwoord": 2,
+          "uitleg": "1 kilogram is 1 000 gram, dus 2,5 kg is 2 500 g."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel dagen heeft een schrikkeljaar?",
+          "antwoord": "366",
+          "uitleg": "In een schrikkeljaar heeft februari 29 dagen in plaats van 28."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een decimeter is tien centimeter.",
+          "antwoord": true,
+          "uitleg": "Tien decimeter maakt dan weer een meter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de omtrek van een rechthoek van 9 cm bij 4 cm?",
+          "opties": [
+            "13 cm",
+            "22 cm",
+            "26 cm",
+            "36 cm"
+          ],
+          "antwoord": 2,
+          "uitleg": "9 + 4 + 9 + 4 = 26 cm."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel seconden zitten er in 3 minuten?",
+          "antwoord": "180",
+          "uitleg": "Een minuut is 60 seconden, dus 3 × 60 = 180."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel liter is 3 000 milliliter?",
+          "opties": [
+            "0,3 liter",
+            "3 liter",
+            "30 liter",
+            "300 liter"
+          ],
+          "antwoord": 1,
+          "uitleg": "1 000 ml is 1 liter."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een uur heeft 100 minuten.",
+          "antwoord": false,
+          "uitleg": "Een uur heeft 60 minuten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een vierkant heeft een oppervlakte van 36 cm². Hoe lang is een zijde?",
+          "opties": [
+            "4 cm",
+            "6 cm",
+            "9 cm",
+            "18 cm"
+          ],
+          "antwoord": 1,
+          "uitleg": "6 × 6 = 36, dus de zijde is 6 cm."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel maanden heeft een jaar?",
+          "antwoord": "12",
+          "uitleg": "Van januari tot december."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke temperatuur is het koudst?",
+          "opties": [
+            "-5 graden",
+            "0 graden",
+            "3 graden",
+            "-12 graden"
+          ],
+          "antwoord": 3,
+          "uitleg": "Hoe verder onder nul, hoe kouder: -12 is kouder dan -5."
         }
       ]
     },
@@ -387,6 +651,102 @@
           "vraag": "Een cilinder heeft twee cirkelvormige grondvlakken.",
           "antwoord": true,
           "uitleg": "Denk aan een blikje: boven en onder zit een cirkel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel hoekpunten heeft een kubus?",
+          "opties": [
+            "4",
+            "6",
+            "8",
+            "12"
+          ],
+          "antwoord": 2,
+          "uitleg": "Een kubus heeft 8 hoekpunten, 12 ribben en 6 vlakken."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een cirkel heeft hoeken.",
+          "antwoord": false,
+          "uitleg": "De rand van een cirkel is één ronde lijn zonder hoeken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe noem je de afstand van het midden van een cirkel tot de rand?",
+          "opties": [
+            "de diameter",
+            "de straal",
+            "de omtrek",
+            "de koorde"
+          ],
+          "antwoord": 1,
+          "uitleg": "De diameter is dubbel zo lang als de straal."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel graden is een volledige draai?",
+          "antwoord": "360",
+          "uitleg": "Vier rechte hoeken van 90 graden samen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel zijden heeft een zeshoek?",
+          "opties": [
+            "4",
+            "5",
+            "6",
+            "8"
+          ],
+          "antwoord": 2,
+          "uitleg": "Zes, dat zit in de naam."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een spiegeling blijft de figuur even groot.",
+          "antwoord": true,
+          "uitleg": "Alleen de kant waarnaar ze kijkt verandert."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De diameter van een cirkel is 10 cm. Hoe lang is de straal?",
+          "opties": [
+            "2,5 cm",
+            "5 cm",
+            "10 cm",
+            "20 cm"
+          ],
+          "antwoord": 1,
+          "uitleg": "De straal is de helft van de diameter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel vlakken heeft een piramide met een vierkant grondvlak?",
+          "opties": [
+            "4",
+            "5",
+            "6",
+            "8"
+          ],
+          "antwoord": 1,
+          "uitleg": "Het vierkante grondvlak plus vier driehoeken, dus vijf."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een rechthoek heeft vier rechte hoeken.",
+          "antwoord": true,
+          "uitleg": "Daar komt de naam vandaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe noem je twee lijnen die elkaar kruisen onder een hoek van 90 graden?",
+          "opties": [
+            "evenwijdig",
+            "loodrecht",
+            "gelijkvormig",
+            "symmetrisch"
+          ],
+          "antwoord": 1,
+          "uitleg": "Loodrecht betekent: onder een rechte hoek."
         }
       ]
     },
@@ -477,6 +837,96 @@
           "vraag": "Van 20 kinderen komen er 5 met de fiets. Hoeveel procent is dat?",
           "antwoord": "25",
           "uitleg": "5 van de 20 is een vierde, en een vierde is 25 procent."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je gooit met een dobbelsteen. Hoe groot is de kans op een even getal?",
+          "opties": [
+            "1 op 6",
+            "1 op 3",
+            "1 op 2",
+            "2 op 3"
+          ],
+          "antwoord": 2,
+          "uitleg": "2, 4 en 6 zijn even: drie van de zes, dus de helft."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is het gemiddelde van 10 en 20?",
+          "antwoord": "15",
+          "uitleg": "10 + 20 = 30, gedeeld door 2 is 15."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als iets zeker gebeurt, is de kans 0.",
+          "antwoord": false,
+          "uitleg": "Bij iets dat zeker gebeurt is de kans 1."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een klas hebben 8 van de 20 kinderen een huisdier. Welk deel is dat?",
+          "opties": [
+            "2/5",
+            "1/4",
+            "1/2",
+            "3/5"
+          ],
+          "antwoord": 0,
+          "uitleg": "8/20 vereenvoudig je tot 2/5."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor gebruik je een staafdiagram het best?",
+          "opties": [
+            "om aantallen met elkaar te vergelijken",
+            "om een recept te tonen",
+            "om te rekenen",
+            "om een verhaal te vertellen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De hoogte van de staven laat meteen zien wat meer of minder is."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je gooit 20 keer met een muntstuk. Hoe vaak verwacht je ongeveer kop?",
+          "antwoord": "10",
+          "uitleg": "De kans is de helft, dus ongeveer de helft van de worpen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het gemiddelde kan hoger zijn dan het grootste getal uit de rij.",
+          "antwoord": false,
+          "uitleg": "Het gemiddelde ligt altijd tussen het kleinste en het grootste getal."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De scores waren 3, 5, 7, 9 en 11. Wat is het middelste getal?",
+          "opties": [
+            "5",
+            "7",
+            "9",
+            "11"
+          ],
+          "antwoord": 1,
+          "uitleg": "Zet ze op volgorde en neem het midden: 7."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In een tabel lees je af via de rijen en de kolommen.",
+          "antwoord": true,
+          "uitleg": "Waar de rij en de kolom elkaar kruisen, staat het getal dat je zoekt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een zak zitten 2 witte en 8 zwarte ballen. Welke kleur trek je het waarschijnlijkst?",
+          "opties": [
+            "wit",
+            "zwart",
+            "allebei evenveel kans",
+            "dat kan je niet weten"
+          ],
+          "antwoord": 1,
+          "uitleg": "Er zijn vier keer zoveel zwarte ballen."
         }
       ]
     },
@@ -567,6 +1017,90 @@
           "vraag": "Om te weten hoeveel verf je nodig hebt voor een muur, bereken je de oppervlakte.",
           "antwoord": true,
           "uitleg": "Verf dek je uit over een vlak, dus je hebt de oppervlakte nodig."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een boek heeft 240 bladzijden. Je leest er 30 per dag. Na hoeveel dagen ben je klaar?",
+          "antwoord": "8",
+          "uitleg": "240 : 30 = 8 dagen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een pizza wordt in 8 stukken gesneden. Je eet er 3. Welk deel blijft er over?",
+          "opties": [
+            "3/8",
+            "4/8",
+            "5/8",
+            "6/8"
+          ],
+          "antwoord": 2,
+          "uitleg": "8 - 3 = 5 stukken van de 8, dus 5/8."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een trui kost 24 euro. Je koopt er 3. Hoeveel euro betaal je?",
+          "antwoord": "72",
+          "uitleg": "3 × 24 = 72 euro."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een trein vertrekt om 14.20 u en doet er 2 uur en 50 minuten over. Hoe laat komt hij aan?",
+          "opties": [
+            "16.10 u",
+            "17.10 u",
+            "16.50 u",
+            "17.50 u"
+          ],
+          "antwoord": 1,
+          "uitleg": "14.20 u plus 2 uur is 16.20 u, en 50 minuten later is het 17.10 u."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als je iets in gelijke delen verdeelt, is delen de juiste bewerking.",
+          "antwoord": true,
+          "uitleg": "Evenveel voor iedereen betekent delen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In een doos zitten 6 rijen van 8 koekjes. Hoeveel koekjes zijn dat?",
+          "antwoord": "48",
+          "uitleg": "6 × 8 = 48."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je hebt 50 euro. Je koopt een spel van 32 euro en een boek van 11 euro. Hoeveel hou je over?",
+          "opties": [
+            "5 euro",
+            "7 euro",
+            "9 euro",
+            "18 euro"
+          ],
+          "antwoord": 1,
+          "uitleg": "32 + 11 = 43, en 50 - 43 = 7 euro."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een fles bevat 2 liter. Je giet er 350 ml uit. Hoeveel milliliter blijft er over?",
+          "antwoord": "1650",
+          "uitleg": "2 liter is 2 000 ml, min 350 ml is 1 650 ml."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een klas van 24 kinderen wordt in groepjes van 4 verdeeld. Hoeveel groepjes zijn dat?",
+          "opties": [
+            "4",
+            "5",
+            "6",
+            "8"
+          ],
+          "antwoord": 2,
+          "uitleg": "24 : 4 = 6 groepjes."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een auto die 60 km per uur rijdt, legt in een half uur 30 km af.",
+          "antwoord": true,
+          "uitleg": "In de helft van de tijd leg je de helft van de afstand af."
         }
       ]
     }

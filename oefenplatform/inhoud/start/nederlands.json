@@ -105,6 +105,108 @@
           ],
           "antwoord": 1,
           "uitleg": "Zijn woorden zeggen iets anders dan zijn gebaar; dat noem je ironie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: 'Eerst kook je het water. Daarna doe je de pasta erin.' Wat geeft het woord daarna aan?",
+          "opties": [
+            "een reden",
+            "een volgorde in de tijd",
+            "een tegenstelling",
+            "een voorbeeld"
+          ],
+          "antwoord": 1,
+          "uitleg": "Daarna, vervolgens en ten slotte laten zien in welke volgorde iets gebeurt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De eerste zin van een alinea geeft vaak al het onderwerp van die alinea weer.",
+          "antwoord": true,
+          "uitleg": "Daarom kan je een tekst snel overlopen door alleen de eerste zinnen te lezen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: 'De winkel is gesloten, want de eigenaar is ziek.' Wat is de reden?",
+          "opties": [
+            "de winkel is gesloten",
+            "de eigenaar is ziek",
+            "het is zondag",
+            "er zijn geen klanten"
+          ],
+          "antwoord": 1,
+          "uitleg": "Het woord want kondigt de reden aan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welk boek zoek je de betekenis van een woord?",
+          "opties": [
+            "een atlas",
+            "een woordenboek",
+            "een kookboek",
+            "een stripboek"
+          ],
+          "antwoord": 1,
+          "uitleg": "Een woordenboek geeft de betekenis en de spelling."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een inhoudstafel helpt je om snel het juiste hoofdstuk te vinden.",
+          "antwoord": true,
+          "uitleg": "Ze staat vooraan of achteraan in een boek."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: 'Het regende dat het goot.' Wat betekent dat?",
+          "opties": [
+            "het regende heel hard",
+            "het regende een beetje",
+            "het was droog",
+            "het sneeuwde"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het is een uitdrukking voor stortregen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar let je op om te weten of informatie op het internet klopt?",
+          "opties": [
+            "of de pagina mooi is",
+            "wie de tekst geschreven heeft en wanneer",
+            "hoeveel kleuren er staan",
+            "hoe lang de tekst is"
+          ],
+          "antwoord": 1,
+          "uitleg": "Wie iets schrijft en wanneer, zegt veel over hoe betrouwbaar het is."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In een reclametekst probeert de schrijver je iets te doen kopen of geloven.",
+          "antwoord": true,
+          "uitleg": "Daarom lees je reclame altijd met een kritische blik."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: 'Lars was door het dolle heen toen hij won.' Hoe voelde Lars zich?",
+          "opties": [
+            "verdrietig",
+            "boos",
+            "uitgelaten blij",
+            "bang"
+          ],
+          "antwoord": 2,
+          "uitleg": "Door het dolle heen zijn betekent uitgelaten van vreugde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen een feit en een mening?",
+          "opties": [
+            "een feit kan je nagaan, een mening is wat iemand vindt",
+            "er is geen verschil",
+            "een mening is altijd juist",
+            "een feit staat altijd vooraan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Belgie heeft drie landstalen is een feit; Frans is het mooiste is een mening."
         }
       ]
     },
@@ -207,6 +309,96 @@
           ],
           "antwoord": 1,
           "uitleg": "Een zin begint met een hoofdletter en een plaatsnaam krijgt er ook een."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is juist?",
+          "opties": [
+            "Ik heb het gezien.",
+            "Ik heb het gezeien.",
+            "Ik heb het geziend.",
+            "Ik heb het zien."
+          ],
+          "antwoord": 0,
+          "uitleg": "Het voltooid deelwoord van zien is gezien."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Zet in het meervoud: de stad wordt de ...",
+          "antwoord": "steden",
+          "uitleg": "Bij stad wordt de a een e en komt er een d bij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin heeft de juiste leestekens?",
+          "opties": [
+            "Wat doe je.",
+            "Wat doe je?",
+            "Wat doe je!",
+            "Wat doe je,"
+          ],
+          "antwoord": 1,
+          "uitleg": "Een vraag eindigt op een vraagteken."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij het schrijven van een verhaal maak je het best eerst een plan met begin, midden en einde.",
+          "antwoord": true,
+          "uitleg": "Zo weet je waar je naartoe schrijft."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk woord is juist gespeld?",
+          "opties": [
+            "gebeurtenis",
+            "gebeurdtenis",
+            "gebeurtennis",
+            "gebeurtenies"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gebeurtenis komt van gebeuren, met één n en één s."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: wij ... naar huis. (het werkwoord gaan, tegenwoordige tijd)",
+          "antwoord": "gaan",
+          "uitleg": "Bij wij, jullie en zij gebruik je de hele vorm van het werkwoord."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat zet je achteraan een opsomming in een zin?",
+          "opties": [
+            "een punt",
+            "komma's tussen de delen en een punt achteraan",
+            "alleen hoofdletters",
+            "niets"
+          ],
+          "antwoord": 1,
+          "uitleg": "Bijvoorbeeld: ik kocht brood, kaas en fruit."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een e-mail aan je leerkracht schrijf je het best in dezelfde taal als een bericht aan een vriend.",
+          "antwoord": false,
+          "uitleg": "Tegen je leerkracht schrijf je beleefder en verzorgder."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin staat in de toekomende tijd?",
+          "opties": [
+            "Ik speelde buiten.",
+            "Ik speel buiten.",
+            "Ik zal buiten spelen.",
+            "Ik heb buiten gespeeld."
+          ],
+          "antwoord": 2,
+          "uitleg": "Zal of ga plus een werkwoord wijst naar de toekomst."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Zet in het meervoud: het ei wordt de ...",
+          "antwoord": "eieren",
+          "uitleg": "Bij ei komt er -eren bij in het meervoud."
         }
       ]
     },
@@ -309,6 +501,102 @@
           ],
           "antwoord": 1,
           "uitleg": "Een open vraag nodigt de ander uit om meer te vertellen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doe je als je iets niet goed verstaan hebt?",
+          "opties": [
+            "doen alsof je het begrepen hebt",
+            "vriendelijk vragen om het te herhalen",
+            "boos worden",
+            "weglopen"
+          ],
+          "antwoord": 1,
+          "uitleg": "Vragen om iets te herhalen is heel normaal en helpt iedereen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je stem laten dalen aan het einde van een zin helpt om duidelijk te maken dat je klaar bent.",
+          "antwoord": true,
+          "uitleg": "Zo weet je gesprekspartner dat hij aan de beurt is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je presenteert met een scherm erbij. Wat zet je het best op je dia?",
+          "opties": [
+            "je hele tekst",
+            "enkele steekwoorden en een beeld",
+            "niets",
+            "alleen je naam"
+          ],
+          "antwoord": 1,
+          "uitleg": "Je publiek leest anders mee in plaats van naar jou te luisteren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een argument?",
+          "opties": [
+            "een reden die je mening ondersteunt",
+            "een grapje",
+            "een vraag",
+            "een verhaal"
+          ],
+          "antwoord": 0,
+          "uitleg": "Met argumenten maak je je standpunt sterker."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In een gesprek is het beleefd om iemand aan te kijken terwijl hij spreekt.",
+          "antwoord": true,
+          "uitleg": "Dat toont dat je luistert. Voor sommige mensen is dat moeilijk, en dat mag je zeggen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand vertelt iets verdrietigs. Wat zeg je het best?",
+          "opties": [
+            "Dat is niet erg.",
+            "Wat vervelend voor je, wil je er meer over vertellen?",
+            "Bij mij was het erger.",
+            "Niets."
+          ],
+          "antwoord": 1,
+          "uitleg": "Meeleven en ruimte geven helpt meer dan het weg te wuiven."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het kort navertellen van wat iemand gezegd heeft, in je eigen woorden?",
+          "antwoord": "samenvatten",
+          "uitleg": "Samenvatten toont dat je goed geluisterd hebt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een telefoongesprek zeg je het best eerst wie je bent.",
+          "antwoord": true,
+          "uitleg": "De andere persoon ziet je niet, dus je stelt jezelf voor."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doe je als er in een groepsgesprek iemand nog niets gezegd heeft?",
+          "opties": [
+            "niets",
+            "die persoon uitnodigen om ook iets te zeggen",
+            "zelf nog meer praten",
+            "het gesprek stoppen"
+          ],
+          "antwoord": 1,
+          "uitleg": "Iedereen aan bod laten komen maakt een gesprek sterker."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een goede houding tijdens een spreekbeurt?",
+          "opties": [
+            "rechtop staan en rustig praten",
+            "met je rug naar het publiek",
+            "heel snel praten",
+            "in je blad kijken van begin tot eind"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zo kan iedereen je zien en horen."
         }
       ]
     },
@@ -417,6 +705,102 @@
           ],
           "antwoord": 0,
           "uitleg": "Je wacht af tot je weet hoe de zaken staan voor je zelf iets doet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk woord is een zelfstandig naamwoord?",
+          "opties": [
+            "snel",
+            "lopen",
+            "boom",
+            "erg"
+          ],
+          "antwoord": 2,
+          "uitleg": "Een zelfstandig naamwoord is een naam voor een ding, dier, mens of idee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het lijdend voorwerp in 'Ik eet een appel.'?",
+          "opties": [
+            "Ik",
+            "eet",
+            "een appel",
+            "een"
+          ],
+          "antwoord": 2,
+          "uitleg": "Vraag: wat eet ik? Een appel."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een bijwoord zegt iets over het werkwoord, bijvoorbeeld hoe iets gebeurt.",
+          "antwoord": true,
+          "uitleg": "In hij loopt snel zegt snel iets over lopen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk woord is een voorzetsel?",
+          "opties": [
+            "onder",
+            "lopen",
+            "huis",
+            "groen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Onder, op, in, naast en achter geven een plaats of richting aan."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel lettergrepen heeft het woord computer?",
+          "antwoord": "3",
+          "uitleg": "Com-pu-ter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin bevat een verkleinwoord?",
+          "opties": [
+            "De hond blaft.",
+            "Het hondje blaft.",
+            "De honden blaffen.",
+            "Hond, kom hier."
+          ],
+          "antwoord": 1,
+          "uitleg": "Een verkleinwoord eindigt op -je, -tje, -pje of -kje."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het woord snelheid is afgeleid van het woord snel.",
+          "antwoord": true,
+          "uitleg": "Met -heid maak je van een bijvoeglijk naamwoord een zelfstandig naamwoord."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent de uitdrukking 'een appeltje voor de dorst'?",
+          "opties": [
+            "iets opzij zetten voor later",
+            "honger hebben",
+            "ziek worden",
+            "snel eten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Meestal gaat het over geld dat je spaart voor moeilijke tijden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk woord hoort niet in het rijtje: fiets, auto, trein, boom?",
+          "opties": [
+            "fiets",
+            "auto",
+            "trein",
+            "boom"
+          ],
+          "antwoord": 3,
+          "uitleg": "De eerste drie zijn vervoermiddelen, een boom niet."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In de zin 'De kat slaapt' staat het werkwoord in het enkelvoud.",
+          "antwoord": true,
+          "uitleg": "Er is één kat, dus slaapt en niet slapen."
         }
       ]
     },
@@ -525,6 +909,102 @@
           ],
           "antwoord": 0,
           "uitleg": "Sagen en legenden gaan van generatie op generatie over."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is rijm?",
+          "opties": [
+            "woorden die eindigen op dezelfde klank",
+            "woorden met dezelfde betekenis",
+            "woorden met veel lettergrepen",
+            "woorden uit een andere taal"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kat en mat rijmen, want ze eindigen op -at."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De verteller van een verhaal en de schrijver zijn niet altijd dezelfde.",
+          "antwoord": true,
+          "uitleg": "Een schrijver kan een verhaal laten vertellen door een personage."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een mythe meestal?",
+          "opties": [
+            "een oud verhaal over goden en helden",
+            "een gebruiksaanwijzing",
+            "een krantenbericht",
+            "een woordenlijst"
+          ],
+          "antwoord": 0,
+          "uitleg": "Denk aan de Griekse mythen over Zeus en Hercules."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de spanning in een verhaal?",
+          "opties": [
+            "het gevoel dat je wil weten hoe het afloopt",
+            "de lengte van het boek",
+            "het aantal personages",
+            "de kleur van de kaft"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een schrijver bouwt spanning op door niet meteen alles te vertellen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een gedicht kan ook over iets alledaags gaan, zoals de regen of je fiets.",
+          "antwoord": true,
+          "uitleg": "Poezie gaat niet alleen over grote onderwerpen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een sprekend voorbeeld van non-fictie?",
+          "opties": [
+            "een boek over vulkanen met echte foto's",
+            "een sprookje",
+            "een verhaal over een draak",
+            "een strip over superhelden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Non-fictie gaat over dingen die echt zijn."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het korte tekstje achteraan op een boek dat vertelt waarover het gaat?",
+          "antwoord": "flaptekst",
+          "uitleg": "De flaptekst moet je nieuwsgierig maken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bedoelt men met de hoofdgedachte van een verhaal?",
+          "opties": [
+            "waar het verhaal in de kern over gaat",
+            "het eerste hoofdstuk",
+            "de naam van de schrijver",
+            "het aantal bladzijden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bijvoorbeeld: dit verhaal gaat over vriendschap die sterker is dan ruzie."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een toneelstuk lees je vooral als dialoog, met de namen van de personages ervoor.",
+          "antwoord": true,
+          "uitleg": "Daartussen staan regieaanwijzingen over wat de spelers doen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een cliffhanger?",
+          "opties": [
+            "een einde dat je in spanning laat",
+            "het begin van een boek",
+            "een soort gedicht",
+            "een personage"
+          ],
+          "antwoord": 0,
+          "uitleg": "Veel series eindigen zo, zodat je verder wil lezen of kijken."
         }
       ]
     }

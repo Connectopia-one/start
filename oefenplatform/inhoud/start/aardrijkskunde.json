@@ -99,6 +99,96 @@
           ],
           "antwoord": 1,
           "uitleg": "Hoe donkerder het bruin, hoe hoger het gebied."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een kaart heeft schaal 1 op 100 000. Hoeveel is 1 cm op die kaart in het echt?",
+          "opties": [
+            "100 meter",
+            "1 kilometer",
+            "10 kilometer",
+            "100 kilometer"
+          ],
+          "antwoord": 1,
+          "uitleg": "100 000 cm is 1 000 meter, dus 1 kilometer."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Op een wegenkaart staan hoogtelijnen die het reliëf tonen.",
+          "antwoord": false,
+          "uitleg": "Hoogtelijnen staan op een reliëfkaart of een topografische kaart."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke windstreek ligt tussen het noorden en het oosten?",
+          "opties": [
+            "noordwest",
+            "noordoost",
+            "zuidoost",
+            "zuidwest"
+          ],
+          "antwoord": 1,
+          "uitleg": "Noordoost ligt precies tussen noord en oost."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk toestel gebruik je om je te oriënteren met behulp van satellieten?",
+          "antwoord": "gps",
+          "uitleg": "Gps staat voor global positioning system."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een plattegrond van een stad vooral handig voor?",
+          "opties": [
+            "de weg vinden tussen de straten",
+            "het weer voorspellen",
+            "de hoogte meten",
+            "de bevolking tellen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Op een stadsplan zie je de straten en de gebouwen van bovenaf."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De nulmeridiaan loopt door Greenwich bij Londen.",
+          "antwoord": true,
+          "uitleg": "Vanaf die lijn tel je de oosterlengte en de westerlengte."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Groen op een landkaart betekent meestal:",
+          "opties": [
+            "bos of laagland",
+            "zee",
+            "hooggebergte",
+            "stad"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hoe hoger het gebied, hoe meer het naar geel en bruin gaat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je gaat op reis van Hasselt naar Brugge. In welke richting reis je ongeveer?",
+          "opties": [
+            "naar het noorden",
+            "naar het oosten",
+            "naar het westen",
+            "naar het zuiden"
+          ],
+          "antwoord": 2,
+          "uitleg": "Brugge ligt in West-Vlaanderen, dus westelijk van Hasselt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een satellietbeeld toont de echte aarde, een kaart is een vereenvoudigde tekening ervan.",
+          "antwoord": true,
+          "uitleg": "Op een kaart laat men weg wat niet nodig is, zodat je sneller vindt wat je zoekt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de denkbeeldige lijnen die van noordpool naar zuidpool lopen?",
+          "antwoord": "meridianen",
+          "uitleg": "De lijnen die er dwars op staan, evenwijdig met de evenaar, heten breedtecirkels."
         }
       ]
     },
@@ -195,6 +285,102 @@
           ],
           "antwoord": 1,
           "uitleg": "De hele Belgische kust ligt in West-Vlaanderen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel gewesten telt België?",
+          "opties": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "antwoord": 1,
+          "uitleg": "Het Vlaamse Gewest, het Waalse Gewest en het Brussels Hoofdstedelijk Gewest."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is de hoofdplaats van de provincie Antwerpen?",
+          "antwoord": "Antwerpen",
+          "uitleg": "De stad Antwerpen is meteen ook de hoofdplaats van de provincie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke provincie ligt het verst in het oosten van Vlaanderen?",
+          "opties": [
+            "West-Vlaanderen",
+            "Oost-Vlaanderen",
+            "Limburg",
+            "Vlaams-Brabant"
+          ],
+          "antwoord": 2,
+          "uitleg": "Limburg grenst aan Nederland en ligt het meest oostelijk."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De Ardennen liggen in het zuiden van België.",
+          "antwoord": true,
+          "uitleg": "Het is een heuvel- en bosgebied in Wallonië."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke rivier stroomt door Luik?",
+          "opties": [
+            "de Schelde",
+            "de Maas",
+            "de Leie",
+            "de Dender"
+          ],
+          "antwoord": 1,
+          "uitleg": "De Maas komt uit Frankrijk en stroomt via Luik naar Nederland."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In welke provincie ligt de stad Gent?",
+          "antwoord": "Oost-Vlaanderen",
+          "uitleg": "Gent is de hoofdplaats van Oost-Vlaanderen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor is de haven van Zeebrugge bekend?",
+          "opties": [
+            "zeeschepen en goederen",
+            "bergbeklimmen",
+            "wijnbouw",
+            "skiën"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zeebrugge is een van de grote zeehavens van België."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Brussel is officieel tweetalig, Nederlands en Frans.",
+          "antwoord": true,
+          "uitleg": "Straatnaamborden staan er in de twee talen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk landschap vind je vooral aan de Belgische kust?",
+          "opties": [
+            "duinen en strand",
+            "hoge bergen",
+            "woestijn",
+            "regenwoud"
+          ],
+          "antwoord": 0,
+          "uitleg": "Achter het strand liggen duinen die het land beschermen tegen de zee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke provincie ligt tussen Oost-Vlaanderen en Limburg?",
+          "opties": [
+            "West-Vlaanderen",
+            "Antwerpen",
+            "Henegouwen",
+            "Namen"
+          ],
+          "antwoord": 1,
+          "uitleg": "De provincie Antwerpen ligt daar tussenin, in het noorden van Vlaanderen."
         }
       ]
     },
@@ -291,6 +477,96 @@
           ],
           "antwoord": 2,
           "uitleg": "Rusland ligt in twee werelddelen: Europa en Azië."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is de hoofdstad van Italië?",
+          "antwoord": "Rome",
+          "uitleg": "Rome ligt in het midden van Italië."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk land ligt ten noorden van België?",
+          "opties": [
+            "Frankrijk",
+            "Nederland",
+            "Duitsland",
+            "Luxemburg"
+          ],
+          "antwoord": 1,
+          "uitleg": "Nederland is de noorderbuur."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Australië is zowel een land als een werelddeel.",
+          "antwoord": true,
+          "uitleg": "Het werelddeel heet ook wel Oceanië, met Australië als grootste land."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zee ligt tussen Europa en Afrika?",
+          "opties": [
+            "de Noordzee",
+            "de Middellandse Zee",
+            "de Oostzee",
+            "de Rode Zee"
+          ],
+          "antwoord": 1,
+          "uitleg": "Aan de Middellandse Zee liggen landen als Spanje, Italië en Marokko."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is de hoofdstad van Spanje?",
+          "antwoord": "Madrid",
+          "uitleg": "Madrid ligt midden in het land."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welk werelddeel ligt Brazilië?",
+          "opties": [
+            "Afrika",
+            "Azië",
+            "Zuid-Amerika",
+            "Noord-Amerika"
+          ],
+          "antwoord": 2,
+          "uitleg": "Brazilië is het grootste land van Zuid-Amerika."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De Sahara is de grootste warme woestijn ter wereld.",
+          "antwoord": true,
+          "uitleg": "Ze ligt in het noorden van Afrika."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke bergketen scheidt Frankrijk en Spanje?",
+          "opties": [
+            "de Alpen",
+            "de Pyreneeën",
+            "de Karpaten",
+            "de Oeral"
+          ],
+          "antwoord": 1,
+          "uitleg": "De Pyreneeën vormen de grens tussen beide landen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel tijdzones zijn er ongeveer op aarde?",
+          "opties": [
+            "4",
+            "12",
+            "24",
+            "60"
+          ],
+          "antwoord": 2,
+          "uitleg": "De aarde draait in 24 uur rond, dus ongeveer één zone per uur."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als het in België zomer is, is het in Australië winter.",
+          "antwoord": true,
+          "uitleg": "De seizoenen zijn omgekeerd op het zuidelijk halfrond."
         }
       ]
     }

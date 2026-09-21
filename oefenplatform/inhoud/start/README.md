@@ -6,11 +6,13 @@ categorie voor het 5de en 6de leerjaar.
 
 | Bestand | Vak | Hoofdstukken | Vragen |
 |---|---|---|---|
-| `wiskunde.json` | Wiskunde | 6 | 60 |
-| `nederlands.json` | Nederlands | 5 | 50 |
-| `wetenschap-en-techniek.json` | Wetenschap en techniek | 4 | 40 |
-| `aardrijkskunde.json` | Aardrijkskunde | 3 | 30 |
-| `geschiedenis.json` | Geschiedenis | 3 | 30 |
+| `wiskunde.json` | Wiskunde | 6 | 120 |
+| `nederlands.json` | Nederlands | 5 | 100 |
+| `wetenschap-en-techniek.json` | Wetenschap en techniek | 4 | 80 |
+| `aardrijkskunde.json` | Aardrijkskunde | 3 | 60 |
+| `geschiedenis.json` | Geschiedenis | 3 | 60 |
+
+Elk hoofdstuk heeft 20 vragen, samen 420.
 
 ## Waarop dit gebaseerd is
 
@@ -52,8 +54,9 @@ Elke vraag heeft een `type`:
 - `meerkeuze` — met vier `opties`; `antwoord` is het **nummer** van het juiste
   antwoord, waarbij het eerste 0 is, het tweede 1, enzovoort.
 - `waarofniet` — `antwoord` is `true` of `false`, zonder `opties`.
-- `invultekst` — `antwoord` is de tekst die het kind moet typen. Hoofdletters
-  maken niet uit. Houd het antwoord kort en zonder spaties of komma's, anders is
+- `invultekst` — `antwoord` is de tekst die het kind moet typen. Hoofdletters,
+  een lidwoord vooraan ("de longen" naast "longen") en een punt achteraan maken
+  niet uit. Houd het antwoord toch kort en zonder spaties of komma's, anders is
   het te moeilijk om het precies juist te typen.
 
 `uitleg` is de zin die het kind te zien krijgt na het antwoorden. Laat die nooit
