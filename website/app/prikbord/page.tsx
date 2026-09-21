@@ -7,6 +7,7 @@ import {
   tekstKleur,
   vlakKleur,
 } from "@/components/ui";
+import { PositieveToon } from "@/components/PositieveToon";
 import { borden, prikbord } from "@/content/prikbord";
 
 export const metadata: Metadata = {
@@ -24,7 +25,11 @@ export default function PrikbordPagina() {
         tekst={prikbord.tekst}
       />
 
-      <Sectie className="pt-6 pb-8">
+      <Sectie className="pt-6 pb-2">
+        <PositieveToon />
+      </Sectie>
+
+      <Sectie className="pt-4 pb-8">
         <div className="grid gap-4 sm:grid-cols-2">
           {borden.map((bord) => (
             <Link

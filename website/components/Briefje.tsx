@@ -1,6 +1,8 @@
+import { briefjeMeldenActie } from "@/app/prikbord/acties";
 import { NaarLink } from "@/components/ui";
 import { datumInWoorden } from "@/lib/datum";
 import type { Briefje as BriefjeType } from "@/content/prikbord";
+import { prikbord } from "@/content/prikbord";
 
 /*
   Eén briefje op het prikbord, zoals een sticky note: een gekleurd blaadje
@@ -24,9 +26,16 @@ const scheef = ["-rotate-1", "rotate-1", "-rotate-2", "rotate-2", "rotate-0"];
 export function Briefje({
   briefje,
   nummer,
+  meldbaar,
 }: {
   briefje: BriefjeType;
   nummer: number;
+  /*
+    Bij een briefje dat een bezoeker zelf ophing staat onderaan een klein
+    knopje om te melden dat er iets niet klopt. Bij onze eigen vaste
+    briefjes uit content/prikbord.ts staat dat er niet.
+  */
+  meldbaar?: { id: string; bord: string };
 }) {
   const blaadje = blaadjes[nummer % blaadjes.length];
   const hoek = scheef[nummer % scheef.length];
@@ -81,6 +90,34 @@ export function Briefje({
           {briefje.van && briefje.datum ? " · " : null}
           {briefje.datum ? datumInWoorden(briefje.datum) : null}
         </p>
+      ) : null}
+
+      {meldbaar ? (
+        <details className="mt-2">
+          <summary className="cursor-pointer text-[12.5px] text-ink-dim underline-offset-4 hover:underline">
+            {prikbord.formulier.meldKnop}
+          </summary>
+          <form action={briefjeMeldenActie} className="mt-2 grid gap-2">
+            <input type="hidden" name="bord" value={meldbaar.bord} />
+            <input type="hidden" name="briefjeId" value={meldbaar.id} />
+            <p className="text-[12.5px] text-ink-dim">
+              {prikbord.formulier.meldUitleg}
+            </p>
+            <textarea
+              name="reden"
+              rows={2}
+              maxLength={400}
+              aria-label={prikbord.formulier.meldVeld}
+              className="w-full rounded-[10px] border border-white/70 bg-white/70 px-3 py-2 text-[13px] text-ink outline-none"
+            />
+            <button
+              type="submit"
+              className="justify-self-start rounded-full border border-ink/20 px-3 py-1.5 text-[12.5px] font-bold text-ink"
+            >
+              {prikbord.formulier.meldVerstuur}
+            </button>
+          </form>
+        </details>
       ) : null}
     </article>
   );

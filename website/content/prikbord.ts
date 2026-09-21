@@ -57,29 +57,60 @@ export const prikbord = {
   tekst:
     "Hang een briefje op, lees wat anderen ophingen en vind elkaar. Kies hieronder het bord waar jouw briefje thuishoort.",
 
+  /*
+    De afspraak die bovenaan het prikbord en boven elk bord staat.
+    Het prikbord is een positieve plek; bedenkingen komen bij ons toe.
+  */
+  toon: {
+    titel: "Dit is een positieve plek",
+    tekst:
+      "Op het prikbord hangen we geen kritiek op scholen, organisaties of personen. Er is al genoeg negativiteit in de wereld, en dit wordt iets moois. Lees een briefje ook als iemands ervaring, niet als een oordeel: elk kind is uniek, elke behoefte is dat ook, en wat bij het ene gezin past, hoeft bij het jouwe niet te passen. Heb je een bedenking, of ben je het ergens niet mee eens? Mail het ons, dan kijken wij het na.",
+    knopTekst: "Mail ons",
+  },
+
   /* De zin bovenaan een bord dat nog geen briefjes heeft. */
   leegTekst: "Dit bord is nog leeg. Hang jij het eerste briefje op?",
 
   spelregels: {
     titel: "Hoe het werkt",
     punten: [
-      "Je briefje komt eerst bij ons toe. We hangen het op zodra we het gelezen hebben.",
+      "Je briefje hangt er meteen. Op het bord staat alleen je voornaam.",
+      "Je volledige naam en je e-mailadres blijven bij ons, zodat we weten wie iets ophing.",
       "Zet er geen achternaam, adres of school van een kind in. Een voornaam volstaat.",
-      "Reageren doe je via ons, dan geven we je vraag door aan wie het briefje ophing.",
-      "Past een briefje niet op een bord, dan zoeken we samen de juiste plek.",
+      "Klopt er iets niet aan een briefje? Meld het, dan kijken we er meteen naar.",
     ],
   },
 
   formulier: {
     titel: "Hang je briefje op",
     tekst:
-      "Schrijf hieronder wat er op je briefje moet komen. We lezen het na en hangen het op.",
-    knopTekst: "Versturen",
+      "Schrijf hieronder wat er op je briefje moet komen. Het hangt er meteen.",
+    knopTekst: "Ophangen",
     briefjeLabel: "Wat komt er op je briefje?",
-    naamLabel: "Je naam of voornaam",
+    wanneerLabel: "Wanneer en waar gaat het door?",
+    voornaamLabel: "Voornaam",
+    voornaamUitleg: "Dit is het enige dat op je briefje komt te staan.",
+    volledigeNaamLabel: "Je volledige naam",
+    volledigeNaamUitleg:
+      "Voor ons, zodat we weten wie het ophing. Niet zichtbaar.",
     mailLabel: "Je e-mailadres",
     privacy:
-      "We gebruiken je e-mailadres alleen om je te bereiken over dit briefje. Het komt niet op het prikbord te staan.",
+      "Je volledige naam en je e-mailadres blijven bij ons. Op het prikbord staat alleen je voornaam. We gebruiken je adres enkel om je te bereiken over dit briefje.",
+    meldKnop: "Klopt er iets niet?",
+    meldUitleg:
+      "Laat het ons weten, dan kijken we er meteen naar. Je hoeft je naam niet te zetten.",
+    meldVeld: "Wat klopt er niet?",
+    meldVerstuur: "Melden",
+  },
+
+  /* De berichtjes bovenaan het bord na het ophangen of melden. */
+  meldingen: {
+    opgehangen: "Je briefje hangt op het bord. Bedankt om te delen.",
+    gemeld: "Bedankt voor je melding. We kijken er zo snel mogelijk naar.",
+    tekst: "Je briefje was leeg of te lang. Probeer het nog eens.",
+    naam: "Vul je voornaam en je volledige naam in.",
+    mail: "Vul een geldig e-mailadres in.",
+    mislukt: "Er liep iets mis. Probeer het straks opnieuw of mail ons.",
   },
 };
 

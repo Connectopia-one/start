@@ -3,12 +3,14 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Briefje } from "@/components/Briefje";
 import { Briefjeformulier } from "@/components/Briefjeformulier";
+import { PositieveToon } from "@/components/PositieveToon";
 import { Icoon, Sectie, tekstKleur, vlakKleur } from "@/components/ui";
+import type { Briefje as BriefjeType } from "@/content/prikbord";
 import { borden, prikbord } from "@/content/prikbord";
+import { haalBriefjes, prikbordKlaar } from "@/lib/prikbord-db";
 
-export function generateStaticParams() {
-  return borden.map((bord) => ({ slug: bord.slug }));
-}
+/* Een bord toont wat er nú op hangt, dus geen opgeslagen versie. */
+export const dynamic = "force-dynamic";
 
 export async function generateMetadata({
   params,
@@ -21,14 +23,45 @@ export async function generateMetadata({
   return { title: `${bord.naam} · Prikbord`, description: bord.uitleg };
 }
 
+type Melding = keyof typeof prikbord.meldingen;
+
 export default async function BordPagina({
   params,
+  searchParams,
 }: {
   params: Promise<{ slug: string }>;
+  searchParams: Promise<{ melding?: string }>;
 }) {
   const { slug } = await params;
+  const { melding } = await searchParams;
   const bord = borden.find((b) => b.slug === slug);
   if (!bord) notFound();
+
+  const viaDatabank = prikbordKlaar();
+  const opgehangen = viaDatabank ? await haalBriefjes(bord.slug) : [];
+
+  /* Eerst wat bezoekers ophingen, daarna onze eigen vaste briefjes. */
+  const briefjes: {
+    briefje: BriefjeType;
+    meldbaar?: { id: string; bord: string };
+  }[] = [
+    ...opgehangen.map((rij) => ({
+      briefje: {
+        tekst: rij.tekst,
+        van: rij.naam ?? undefined,
+        datum: rij.created_at.slice(0, 10),
+        wanneer: rij.wanneer ?? undefined,
+      },
+      meldbaar: { id: rij.id, bord: bord.slug },
+    })),
+    ...bord.briefjes.map((briefje) => ({ briefje })),
+  ];
+
+  const bericht =
+    melding && melding in prikbord.meldingen
+      ? prikbord.meldingen[melding as Melding]
+      : null;
+  const goedNieuws = melding === "opgehangen" || melding === "gemeld";
 
   return (
     <>
@@ -53,6 +86,20 @@ export default async function BordPagina({
         <p className="mt-4 max-w-[62ch] text-ink-dim">{bord.uitleg}</p>
       </header>
 
+      {bericht ? (
+        <Sectie className="py-4">
+          <p
+            className={`rounded-[14px] px-5 py-4 text-[15px] font-bold ${
+              goedNieuws
+                ? "bg-sage-soft text-green"
+                : "bg-orange-soft text-orange"
+            }`}
+          >
+            {bericht}
+          </p>
+        </Sectie>
+      ) : null}
+
       {/* De andere borden, om snel te wisselen */}
       <Sectie className="py-5">
         <ul className="flex flex-wrap gap-2">
@@ -73,18 +120,23 @@ export default async function BordPagina({
         </ul>
       </Sectie>
 
+      <Sectie className="pt-0 pb-5">
+        <PositieveToon klein />
+      </Sectie>
+
       <Sectie className="pt-0 pb-10">
-        {bord.briefjes.length === 0 ? (
+        {briefjes.length === 0 ? (
           <p className="font-hand text-2xl text-orange">{prikbord.leegTekst}</p>
         ) : (
           /* Zoals op een echt prikbord: de briefjes vullen de kolommen op. */
           <div className="rounded-[20px] border border-border bg-[#f1e8d7] p-5 pb-0 shadow-[inset_0_2px_8px_rgba(47,74,34,0.08)]">
             <div className="columns-1 gap-5 sm:columns-2 lg:columns-3">
-              {bord.briefjes.map((briefje, nummer) => (
+              {briefjes.map((rij, nummer) => (
                 <Briefje
-                  key={`${briefje.tekst}-${nummer}`}
-                  briefje={briefje}
+                  key={rij.meldbaar?.id ?? `vast-${nummer}`}
+                  briefje={rij.briefje}
                   nummer={nummer}
+                  meldbaar={rij.meldbaar}
                 />
               ))}
             </div>
@@ -99,7 +151,12 @@ export default async function BordPagina({
             {prikbord.formulier.tekst}
           </p>
           <div className="mt-6">
-            <Briefjeformulier bord={bord.naam} />
+            <Briefjeformulier
+              bord={bord.slug}
+              bordNaam={bord.naam}
+              metWanneer={bord.slug === "samenkomen"}
+              viaDatabank={viaDatabank}
+            />
           </div>
         </div>
       </Sectie>

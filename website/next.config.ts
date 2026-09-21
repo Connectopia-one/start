@@ -1,14 +1,10 @@
 import type { NextConfig } from "next";
 
 /*
-  Met STATIC_EXPORT=1 bouwt Next de site als losse html-bestanden in de map
-  out/. Dat gebruiken we om een klikbaar voorbeeld te kunnen delen. Gewoon
-  "npm run build" blijft de normale build voor online zetten.
+  De site draait op Vercel als een gewone Next-app. Dat is nodig sinds het
+  prikbord: bezoekers hangen daar zelf briefjes op, en dat vraagt een
+  server die met de databank praat.
 */
-const statischeExport = process.env.STATIC_EXPORT === "1";
-
-const nextConfig: NextConfig = statischeExport
-  ? { output: "export", trailingSlash: true, images: { unoptimized: true } }
-  : {};
+const nextConfig: NextConfig = {};
 
 export default nextConfig;
