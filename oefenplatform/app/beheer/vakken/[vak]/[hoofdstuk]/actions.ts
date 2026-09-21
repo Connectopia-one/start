@@ -200,3 +200,121 @@ export async function verwijderLeerstof(formData: FormData) {
   revalidatePath(terugPad(vakSlug, volgnummer));
   redirect(terugPad(vakSlug, volgnummer));
 }
+
+/* ------------------------------------------------------------------ leerbundel
+   Een leerbundel is de theorie in het platform zelf, opgebouwd uit blokjes:
+   een tussentitel, een stuk tekst, een weetje in een kadertje, of een
+   afbeelding met een onderschrift. Zo kan je uitleg afwisselen met beeld.
+   De blokjes staan in de volgorde van hun volgnummer; met verplaatsLeerbundelBlok
+   wissel je een blokje van plaats met zijn buur. */
+
+export type LeerbundelSoort = "titel" | "tekst" | "weetje" | "afbeelding";
+
+/** Zie maakLeerstofUploadUrl: het bestand gaat rechtstreeks naar Supabase. */
+export async function maakLeerbundelUploadUrl(hoofdstukId: string, bestandsnaam: string) {
+  await requireBeheerder();
+  const admin = createAdminClient();
+  const path = `${hoofdstukId}/${Date.now()}-${bestandsnaam}`;
+
+  const { data, error } = await admin.storage.from("leerbundel").createSignedUploadUrl(path);
+  if (error || !data) {
+    throw new Error(error?.message || "Kon geen upload-link aanmaken.");
+  }
+  return { path: data.path, token: data.token };
+}
+
+export async function voegLeerbundelBlokToe(input: {
+  hoofdstukId: string;
+  vakSlug: string;
+  volgnummer: string;
+  soort: LeerbundelSoort;
+  tekst: string | null;
+  afbeeldingPad: string | null;
+}) {
+  await requireBeheerder();
+
+  const tekst = input.tekst?.trim() || null;
+  if (input.soort === "afbeelding") {
+    if (!input.afbeeldingPad) throw new Error("Kies eerst een afbeelding.");
+  } else if (!tekst) {
+    throw new Error("Vul de tekst in.");
+  }
+
+  const admin = createAdminClient();
+  const { data: laatste } = await admin
+    .from("leerbundel")
+    .select("volgnummer")
+    .eq("hoofdstuk_id", input.hoofdstukId)
+    .order("volgnummer", { ascending: false })
+    .limit(1);
+
+  const { error } = await admin.from("leerbundel").insert({
+    hoofdstuk_id: input.hoofdstukId,
+    volgnummer: (laatste?.[0]?.volgnummer ?? 0) + 1,
+    soort: input.soort,
+    tekst,
+    afbeelding_pad: input.afbeeldingPad,
+  });
+  if (error) throw new Error("Toevoegen is niet gelukt: " + error.message);
+
+  revalidatePath(terugPad(input.vakSlug, input.volgnummer));
+}
+
+export async function verwijderLeerbundelBlok(formData: FormData) {
+  await requireBeheerder();
+  const id = String(formData.get("id") || "");
+  const vakSlug = String(formData.get("vak_slug") || "");
+  const volgnummer = String(formData.get("volgnummer") || "");
+
+  const admin = createAdminClient();
+  const { data: blok } = await admin
+    .from("leerbundel")
+    .select("afbeelding_pad")
+    .eq("id", id)
+    .maybeSingle();
+  if (blok?.afbeelding_pad) {
+    await admin.storage.from("leerbundel").remove([blok.afbeelding_pad]);
+  }
+  await admin.from("leerbundel").delete().eq("id", id);
+
+  revalidatePath(terugPad(vakSlug, volgnummer));
+  redirect(terugPad(vakSlug, volgnummer));
+}
+
+/** Wisselt het blokje van plaats met het blokje erboven of eronder. */
+export async function verplaatsLeerbundelBlok(formData: FormData) {
+  await requireBeheerder();
+  const id = String(formData.get("id") || "");
+  const richting = String(formData.get("richting") || "");
+  const vakSlug = String(formData.get("vak_slug") || "");
+  const volgnummer = String(formData.get("volgnummer") || "");
+  const terug = terugPad(vakSlug, volgnummer);
+
+  const admin = createAdminClient();
+  const { data: blok } = await admin
+    .from("leerbundel")
+    .select("id, hoofdstuk_id, volgnummer")
+    .eq("id", id)
+    .maybeSingle();
+  if (!blok) redirect(terug);
+
+  const omhoog = richting === "omhoog";
+  const { data: buur } = await admin
+    .from("leerbundel")
+    .select("id, volgnummer")
+    .eq("hoofdstuk_id", blok!.hoofdstuk_id)
+    [omhoog ? "lt" : "gt"]("volgnummer", blok!.volgnummer)
+    .order("volgnummer", { ascending: !omhoog })
+    .limit(1);
+
+  const ander = buur?.[0];
+  if (ander) {
+    // Even naar een vrij nummer parkeren, anders botsen de twee nummers.
+    await admin.from("leerbundel").update({ volgnummer: -1 }).eq("id", blok!.id);
+    await admin.from("leerbundel").update({ volgnummer: blok!.volgnummer }).eq("id", ander.id);
+    await admin.from("leerbundel").update({ volgnummer: ander.volgnummer }).eq("id", blok!.id);
+  }
+
+  revalidatePath(terug);
+  redirect(terug);
+}

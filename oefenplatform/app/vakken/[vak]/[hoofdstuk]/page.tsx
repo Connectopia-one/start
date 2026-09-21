@@ -10,6 +10,7 @@ import { schooljaarEindeLabel } from "@/lib/schooljaar";
 import { vindNiveau } from "@/lib/niveaus";
 import { HoofdstukTabs } from "@/components/HoofdstukTabs";
 import { GeoGebraCalculator } from "@/components/GeoGebraCalculator";
+import { Leerbundel, type LeerbundelBlok } from "@/components/Leerbundel";
 
 export default async function HoofdstukPage({
   params,
@@ -71,6 +72,24 @@ export default async function HoofdstukPage({
         .order("created_at", { ascending: false })
     : { data: [] };
 
+  const { data: bundelRijen } = magVolledig
+    ? await supabase
+        .from("leerbundel")
+        .select("id, soort, tekst, afbeelding_pad")
+        .eq("hoofdstuk_id", hoofdstuk.id)
+        .order("volgnummer", { ascending: true })
+    : { data: [] };
+
+  const bundel: LeerbundelBlok[] = await Promise.all(
+    (bundelRijen ?? []).map(async (b) => {
+      if (!b.afbeelding_pad) {
+        return { id: b.id, soort: b.soort, tekst: b.tekst, afbeeldingUrl: null };
+      }
+      const { data } = await supabase.storage.from("leerbundel").createSignedUrl(b.afbeelding_pad, 3600);
+      return { id: b.id, soort: b.soort, tekst: b.tekst, afbeeldingUrl: data?.signedUrl ?? null };
+    })
+  );
+
   const leerstof = await Promise.all(
     (leerstofRijen ?? []).map(async (l) => {
       const { data } = await supabase.storage.from("leerstof").createSignedUrl(l.bestandspad, 3600);
@@ -106,10 +125,12 @@ export default async function HoofdstukPage({
           </div>
         ) : (
           <HoofdstukTabs
-            aantalLeerstof={leerstof.length}
+            aantalLeerstof={leerstof.length + (bundel.length ? 1 : 0)}
             oefeningen={<Quiz vragen={vragen} kinderen={kinderen ?? []} hoofdstukId={hoofdstuk.id} />}
             rekenmachine={vak.rekenmachine ? <GeoGebraCalculator /> : null}
             leerstof={
+              <>
+              <Leerbundel blokken={bundel} />
               <div className="mt-6 space-y-2">
                 {leerstof.map((l) =>
                   l.url ? (
@@ -125,10 +146,11 @@ export default async function HoofdstukPage({
                     </a>
                   ) : null
                 )}
-                {!leerstof.length && (
-                  <p className="text-sm text-ink-dim">Er is nog geen leerstof geüpload voor dit hoofdstuk.</p>
+                {!leerstof.length && !bundel.length && (
+                  <p className="text-sm text-ink-dim">Er is nog geen leerstof voor dit hoofdstuk.</p>
                 )}
               </div>
+              </>
             }
           />
         )}
