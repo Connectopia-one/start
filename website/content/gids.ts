@@ -12,6 +12,13 @@ export type Organisatie = {
   /* Eén of twee zinnen over wat ze doen. Laat leeg zolang je die nog niet hebt. */
   omschrijving?: string;
   regio?: string;
+  /*
+    De bestandsnaam van hun logo. Zet het bestand in de map  public/gids/
+    en vul hier alleen de naam in, bijvoorbeeld  bekina.png
+    Heb je nog geen logo? Laat deze regel gewoon weg, dan zet de site
+    de naam van de organisatie in het vakje.
+  */
+  logo?: string;
   link?: string;
   /* De tekst op de knop. Laat leeg voor "Naar hun website". */
   linkTekst?: string;
@@ -65,6 +72,7 @@ export const organisaties: Organisatie[] = [
   */
   {
     naam: "Samen slimmer groeien",
+    logo: "samen-slimmer-groeien.png",
     categorie: "Partners die we kennen",
     omschrijving:
       "Testing, opvoedingsadvies en studiecoaching rond hoogbegaafdheid, thuis en op school. Ook groeigroepen voor kinderen en jongeren.",
@@ -73,6 +81,7 @@ export const organisaties: Organisatie[] = [
   },
   {
     naam: "Exentra",
+    logo: "exentra.png",
     categorie: "Partners die we kennen",
     omschrijving:
       "Expertisecentrum rond hoogbegaafdheid, voor kinderen en ouders, jongeren, volwassenen, scholen en CLB. Met een eigen online academy.",
@@ -81,6 +90,7 @@ export const organisaties: Organisatie[] = [
   },
   {
     naam: "Hoogbegaan",
+    logo: "hoogbegaan.png",
     categorie: "Partners die we kennen",
     omschrijving:
       "Adviesgesprekken voor ouders en individuele begeleiding van hoogbegaafde kinderen en tieners. Kan mee op gesprek op school, en geeft lezingen.",
@@ -89,6 +99,7 @@ export const organisaties: Organisatie[] = [
   },
   {
     naam: "Cleverlab studiebegeleiding",
+    logo: "cleverlab.png",
     categorie: "Partners die we kennen",
     omschrijving:
       "Bijles en studiebegeleiding in wiskunde en wetenschappen, en begeleiding bij hoogbegaafdheid. Ook trajecten voor de examencommissie en toelatingsexamens.",
@@ -96,6 +107,7 @@ export const organisaties: Organisatie[] = [
   },
   {
     naam: "Bekina",
+    logo: "bekina.png",
     categorie: "Partners die we kennen",
     omschrijving:
       "Vereniging voor hoogbegaafde kinderen en jongeren en hun (groot)ouders, leerkrachten en professionals. Met activiteiten, kampen, lezingen en publicaties.",
@@ -111,6 +123,7 @@ export const organisaties: Organisatie[] = [
   },
   {
     naam: "Katrien Volckaert",
+    logo: "katrien-volckaert.png",
     categorie: "Partners die we kennen",
     omschrijving:
       "Oudercoach bij neurodiversiteit, met expertise in gecamoufleerd autisme bij cognitieve begaafdheid en in PDA. Geeft ook webinars, lezingen en workshops.",

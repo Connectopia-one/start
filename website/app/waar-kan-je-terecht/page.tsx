@@ -5,6 +5,7 @@ import {
   gidsTekst,
   organisaties,
   organisatiesPerCategorie,
+  type Organisatie,
 } from "@/content/gids";
 
 export const metadata: Metadata = {
@@ -33,13 +34,25 @@ export default function GidsPagina() {
         {categorieen.length === 0 ? (
           <p className="text-ink-dim">{gidsTekst.leegTekst}</p>
         ) : (
-          categorieen.map((categorie) => (
+          categorieen.map((categorie) => {
+            const lijst = organisatiesPerCategorie(categorie);
+            /*
+              Staat er in deze groep niemand met een logo, dan laten we de
+              logobalk helemaal weg. Zo komt er geen lege strook te staan.
+            */
+            const metLogo = lijst.some((o) => o.logo);
+            return (
             <div key={categorie}>
               <h2 className="text-2xl text-green">{categorie}</h2>
               <div className="mt-4 grid gap-4 sm:grid-cols-2">
-                {organisatiesPerCategorie(categorie).map((organisatie) => (
+                {lijst.map((organisatie) => (
                   <Kaart key={organisatie.naam}>
-                    <div className="flex items-start justify-between gap-3">
+                    {metLogo ? <LogoBalk organisatie={organisatie} /> : null}
+                    <div
+                      className={`flex items-start justify-between gap-3 ${
+                        metLogo ? "mt-4" : ""
+                      }`}
+                    >
                       <h3 className="text-xl text-green">{organisatie.naam}</h3>
                       {organisatie.regio ? (
                         <span className="rounded-full bg-sage-soft px-3 py-1 text-[13px] font-extrabold text-green">
@@ -71,7 +84,8 @@ export default function GidsPagina() {
                 ))}
               </div>
             </div>
-          ))
+            );
+          })
         )}
       </Sectie>
 
@@ -87,5 +101,31 @@ export default function GidsPagina() {
         </div>
       </Sectie>
     </>
+  );
+}
+
+/*
+  Het logo bovenaan elk kaartje. Alle vakjes zijn even hoog en de logo's
+  worden altijd binnen dezelfde hoogte geschaald, zodat geen enkele
+  organisatie er groter uitkomt dan een andere.
+  Heeft een organisatie nog geen logo, dan komt haar naam in het
+  handschriftlettertype op diezelfde plaats.
+*/
+function LogoBalk({ organisatie }: { organisatie: Organisatie }) {
+  return (
+    <div className="flex h-20 items-center border-b border-border pb-4">
+      {organisatie.logo ? (
+        // eslint-disable-next-line @next/next/no-img-element
+        <img
+          src={`/gids/${organisatie.logo}`}
+          alt={`Logo van ${organisatie.naam}`}
+          className="max-h-14 w-auto max-w-[80%] object-contain object-left"
+        />
+      ) : (
+        <span className="font-hand text-[26px] leading-none text-sage">
+          {organisatie.naam}
+        </span>
+      )}
+    </div>
   );
 }
