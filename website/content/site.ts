@@ -135,10 +135,10 @@ export const onderdelen: Onderdeel[] = [
     menuTitel: "Prikbord",
     icoon: "📌",
     omschrijving:
-      "Een vraag stellen, een tip delen, ervaringen uitwisselen. Het online prikbord van de Connectopia-ouders.",
+      "Vijf borden vol briefjes: zoekertjes, samenkomsten, aanraders, uitgezocht en mooie momenten.",
     groep: "platform",
     kleur: "purple",
-    label: "Binnenkort",
+    label: "Nieuw",
   },
 ];
 
@@ -153,7 +153,11 @@ export const menu = onderdelen.filter((o) => o.inMenu !== false);
   Ze staan onderaan in de voettekst.
   Zet inMenu op true als een pagina ook bovenaan in het menu mag staan.
 */
-export const extraLinks: { slug: string; menuTitel: string; inMenu?: boolean }[] = [
+export const extraLinks: {
+  slug: string;
+  menuTitel: string;
+  inMenu?: boolean;
+}[] = [
   { slug: "/observatielijst", menuTitel: "Observatielijst" },
   { slug: "/contact", menuTitel: "Contact", inMenu: true },
 ];
