@@ -5,5 +5,4 @@ export function mollieClient() {
   return createMollieClient({ apiKey: process.env.MOLLIE_API_KEY! });
 }
 
-/** Prijs voor een volledig schooljaar toegang, in euro. Pas hier aan als de prijs wijzigt. */
-export const PRIJS_SCHOOLJAAR_EUR = 50;
+// De prijs zelf staat in lib/prijs.ts, zodat hij op één plek aan te passen is.

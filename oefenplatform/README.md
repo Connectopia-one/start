@@ -12,8 +12,13 @@ en invuloefeningen.
   "Gratis / Op slot"-knop op `/beheer/vakken`.
 - Kinderen van de **externe plusklas** hebben gratis **volledige** toegang (via een toegangscode
   bij registratie).
-- Andere ouders kunnen **volledige toegang vrijgeven voor €50 per schooljaar** (via Mollie,
-  betaald per schooljaar opnieuw) — die opbrengsten gaan volledig naar vzw Connectopia.
+- Andere ouders kunnen **volledige toegang vrijgeven** (via Mollie, betaald per schooljaar
+  opnieuw) — die opbrengsten gaan volledig naar vzw Connectopia. De prijs staat nu tijdelijk op
+  **€20 in plaats van €50**, omdat het platform nog in opbouw is.
+
+**De prijs aanpassen** doe je op één plek: `lib/prijs.ts`. Daar staan het bedrag van nu, het
+bedrag waar we naartoe gaan, en de schakelaar `TIJDELIJKE_PRIJS`. Zet die op `false` zodra de
+gewone prijs ingaat; dan verdwijnt overal vanzelf het zinnetje over de tijdelijke prijs.
 
 Dit is een volledig apart platform/project, los van het ouderportaal (`ouderportaal/`) — met een
 eigen Supabase-project en een eigen login-systeem waarop ouders zichzelf kunnen registreren.

@@ -3,7 +3,7 @@ import { Header } from "@/components/Header";
 import { requireIngelogd } from "@/lib/auth";
 import { heeftVolledigeToegang } from "@/lib/toegang";
 import { huidigSchooljaar, schooljaarEindeLabel } from "@/lib/schooljaar";
-import { PRIJS_SCHOOLJAAR_EUR } from "@/lib/mollie";
+import { PRIJS_NU_EUR, TIJDELIJKE_PRIJS, TIJDELIJKE_PRIJS_KORT } from "@/lib/prijs";
 import { createClient } from "@/lib/supabase/server";
 import { maakKind } from "./kinderen/actions";
 
@@ -54,9 +54,12 @@ export default async function AccountPage({
                 href="/betalen"
                 className="mt-4 inline-block rounded-md bg-forest px-4 py-2 text-sm font-medium text-white transition hover:bg-forest-dark"
               >
-                Volledige toegang vrijgeven — €{PRIJS_SCHOOLJAAR_EUR} per schooljaar (tot en met{" "}
+                Volledige toegang vrijgeven — €{PRIJS_NU_EUR} per schooljaar (tot en met{" "}
                 {schooljaarEindeLabel()})
               </Link>
+              {TIJDELIJKE_PRIJS && (
+                <p className="mt-2 text-xs text-ink-dim">{TIJDELIJKE_PRIJS_KORT}</p>
+              )}
             </>
           )}
         </div>

@@ -1,6 +1,6 @@
 import { Header } from "@/components/Header";
 import { requireIngelogd } from "@/lib/auth";
-import { PRIJS_SCHOOLJAAR_EUR } from "@/lib/mollie";
+import { PRIJS_NU_EUR, PRIJS_STRAKS_EUR, TIJDELIJKE_PRIJS, TIJDELIJKE_PRIJS_UITLEG } from "@/lib/prijs";
 import { huidigSchooljaar, schooljaarEindeLabel } from "@/lib/schooljaar";
 import { startBetaling } from "./actions";
 
@@ -26,10 +26,20 @@ export default async function BetalenPage({
 
         <div className="mt-6 rounded-xl border border-border bg-surface p-6 text-center">
           <p className="font-display text-3xl font-semibold text-forest-dark">
-            €{PRIJS_SCHOOLJAAR_EUR}
+            {TIJDELIJKE_PRIJS && (
+              <span className="mr-2 align-middle text-lg font-normal text-ink-dim line-through">
+                €{PRIJS_STRAKS_EUR}
+              </span>
+            )}
+            €{PRIJS_NU_EUR}
             <span className="text-base font-normal text-ink-dim"> / schooljaar</span>
           </p>
           <p className="mt-1 text-xs text-ink-dim">geldig tot en met {schooljaarEindeLabel()}</p>
+          {TIJDELIJKE_PRIJS && (
+            <p className="mt-4 rounded-md bg-amber/10 px-4 py-3 text-left text-sm text-ink">
+              {TIJDELIJKE_PRIJS_UITLEG}
+            </p>
+          )}
           <form action={startBetaling} className="mt-6">
             <button
               type="submit"
