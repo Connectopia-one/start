@@ -2734,3 +2734,27 @@ def merkwaardige_lijnen(breedte=470):
                          f'y2="{M[1]+4}" stroke="{DIM}" stroke-width="1.4"/>')
         d.append(_tekst(ox + b / 2, h - 12, naam, 10, DIM))
     return _svg(breedte, h, "".join(d))
+
+
+def vierkante_stap(breedte=470):
+    """Waarom een stap bij oppervlakte maal honderd is en niet maal tien.
+
+    Eén vierkante decimeter, verdeeld in vierkante centimeters: tien rijen van
+    tien. Dat je de lengte én de breedte omzet, is precies wat je hier ziet.
+    """
+    zijde = 158
+    x0, y0 = (breedte - zijde) / 2, 30
+    vak = zijde / 10
+    d = [f'<rect x="{x0}" y="{y0}" width="{zijde}" height="{zijde}" '
+         f'fill="rgba(47,93,80,.06)" stroke="{DARK}" stroke-width="2"/>']
+    for k in range(1, 10):
+        d.append(f'<line x1="{x0+k*vak:.1f}" y1="{y0}" x2="{x0+k*vak:.1f}" y2="{y0+zijde}" '
+                 f'stroke="{BORDER}" stroke-width="1"/>')
+        d.append(f'<line x1="{x0}" y1="{y0+k*vak:.1f}" x2="{x0+zijde}" y2="{y0+k*vak:.1f}" '
+                 f'stroke="{BORDER}" stroke-width="1"/>')
+    # het eerste vakje opvullen, zodat je ziet hoe klein één cm² is
+    d.append(f'<rect x="{x0}" y="{y0}" width="{vak:.1f}" height="{vak:.1f}" fill="{AMBER}" opacity="0.8"/>')
+    d.append(_tekst(x0 + zijde / 2, y0 - 11, "1 dm", 11, DARK, vet=True))
+    d.append(_tekst(x0 - 10, y0 + zijde / 2 + 4, "1 dm", 11, DARK, anker="end", vet=True))
+    d.append(_tekst(x0 + zijde / 2, y0 + zijde + 20, "10 rijen van 10 = 100 cm²", 11, AMBER))
+    return _svg(breedte, y0 + zijde + 32, "".join(d))

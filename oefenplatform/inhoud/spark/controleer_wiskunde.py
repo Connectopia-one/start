@@ -16,7 +16,7 @@ waar/niet-vraag, gelijk zijn aan het aangeduide antwoord.
 Niet elke vraag staat hier: definitievragen ("wat is een noemer") vallen niet
 na te rekenen. Elke vraag met een getal erin hoort er wél in.
 """
-import json, pathlib, sys
+import json, pathlib, re, sys
 from fractions import Fraction as F
 
 BESTAND = pathlib.Path(__file__).parent / "wiskunde.json"
@@ -56,15 +56,33 @@ def kleiner_kwadraat(opties) -> str:
     return passend[0]
 
 
-def mintekens(waarde) -> str:
-    """Zet elk minteken in dezelfde vorm.
+PI = F(314, 100)   # zoals in de vragen zelf staat
 
-    In de vragen staat het echte minteken (−, U+2212) omdat dat in een zin
-    mooier leest dan het koppelteken van het toetsenbord. Python schrijft zijn
-    eigen uitkomsten met dat koppelteken (-). Zonder deze omzetting zou
-    "−8" niet gelijk zijn aan "-8" en meldde de controle een fout die er niet is.
+
+def komma_uit(waarde) -> str:
+    """3,14 × 25 → "78,5" — zonder nullen achteraan, met een komma."""
+    tekst = f"{float(waarde):.4f}".rstrip("0").rstrip(".")
+    return tekst.replace(".", ",")
+
+
+def zelfde_schrijfwijze(waarde) -> str:
+    """Zet een antwoord in één vaste vorm, zodat de vergelijking over
+    schrijfwijze struikelt noch fouten verbergt.
+
+    Twee dingen verschillen tussen de vragen en wat Python uitrekent:
+
+    - Het minteken. In de vragen staat het echte minteken (−, U+2212), want dat
+      leest in een zin beter dan het koppelteken van het toetsenbord. Python
+      schrijft zijn eigen uitkomsten met dat koppelteken (-).
+    - De duizendtalspatie. In het Nederlands schrijf je 75 000, Python schrijft
+      75000.
+
+    Zonder deze omzetting meldde de controle fouten die er niet waren.
     """
-    return str(waarde).replace("-", "\u2212")
+    tekst = str(waarde).replace("-", "\u2212")
+    # enkel een spatie tússen cijfers weghalen; "7 cm" moet "7 cm" blijven
+    return re.sub(r"(?<=\d)[ \u00a0\u202f](?=\d)", "", tekst)
+
 
 CONTROLES = [
     # --- Negatieve getallen en procenten, deel 1 ---
@@ -183,6 +201,43 @@ CONTROLES = [
     ("symmetrieassen heeft een gelijkzijdige driehoek", "3"),
     ("parallellogram is één hoek 110°",       f"{180 - 110}°"),
     ("hoeken van 90° en 45°",                 "Hij is rechthoekig én gelijkbenig"),
+    # --- Metend rekenen ---
+    # PI staat als 3,14 in de vragen zelf, dus reken er hier ook mee.
+    ("Hoeveel centimeter is 1 meter",        "100"),
+    ("Hoeveel meter is 3,5 km",              f"{int(F(35, 10) * 1000)} m"),
+    ("Hoeveel minuten is 2,5 uur",           str(int(F(25, 10) * 60))),
+    ("seconden zijn er in een kwartier",     str(15 * 60)),
+    ("Hoeveel gram is 2,5 kg",               f"{int(F(25, 10) * 1000)} g"),
+    ("halve liter",                          f"{int(F(1, 2) * 1000)} ml"),
+    ("omtrek van een rechthoek van 7 cm bij 3 cm", str(2 * (7 + 3))),
+    ("oppervlakte van een rechthoek van 7 cm bij 3 cm", str(7 * 3)),
+    ("vierkant heeft een zijde van 6 cm",    f"{4 * 6} cm"),
+    ("basis van 8 cm en een hoogte van 5 cm", f"{F(8 * 5, 2)} cm²"),
+    ("basis van 9 cm en een hoogte van 4 cm", f"{9 * 4} cm²"),
+    ("straal van 5 cm. Hoe groot is de omtrek", f"{komma_uit(2 * PI * 5)} cm"),
+    ("straal van 5 cm. Hoe groot is de oppervlakte", f"{komma_uit(PI * 25)} cm²"),
+    ("kubus met een ribbe van 4 cm",         str(4 ** 3)),
+    ("balk is 5 cm bij 3 cm bij 2 cm",       f"{5 * 3 * 2} cm³"),
+    ("2,5 m² in dm²",                        f"{int(F(25, 10) * 100)} dm²"),
+    ("Rond 12,467 af",                       "12,47"),
+    ("oppervlakte van 49 cm²",               "7 cm"),
+    ("48 cm² en een lengte van 8 cm",        f"{48 // 8} cm"),
+    ("evenwijdige zijden van 6 cm en 10 cm", f"{F((6 + 10) * 4, 2)} cm²"),
+    ("diagonalen van 8 cm en 6 cm",          f"{F(8 * 6, 2)} cm²"),
+    ("diameter van 10 cm",                   f"{komma_uit(PI * 10)} cm"),
+    ("kubus met een ribbe van 3 cm",         f"{6 * 3 * 3} cm²"),
+    ("balk is 5 cm bij 4 cm bij 2 cm",       f"{2 * (5 * 4) + 2 * (5 * 2) + 2 * (4 * 2)} cm²"),
+    ("cilinder heeft een straal van 3 cm",   f"{komma_uit(PI * 9 * 10)} cm³"),
+    ("kubus van 2 dm bij 2 dm bij 2 dm",     str(2 ** 3)),
+    ("zwembad van 10 m bij 5 m",             f"{int(F(10 * 5 * 15, 10) * 1000)} l"),
+    ("3 m² in cm²",                          f"{3 * 100 * 100} cm²"),
+    ("2 m³ in liter",                        f"{2 * 1000} l"),
+    ("tuin van 20 m bij 15 m",               f"{F(20 * 15, 100)} are"),
+    ("daarop een halve cirkel",              f"{komma_uit(36 + F(PI * 9, 2))} cm²"),
+    ("in elke hoek een vierkantje van 2 cm", f"{100 - 4 * (2 * 2)} cm²"),
+    ("wandelpad van 1,2 km",                 f"{1200 // 15} m"),
+    ("5 keer het recept",                    f"{-(-5 * 250 // 1000)} pakjes"),
+    ("schaal 1 : 200",                       f"{4 * 200 // 100} m"),
 ]
 
 # Vragen die je niet kúnt narekenen omdat het antwoord een woord is. Het juiste
@@ -217,6 +272,7 @@ WOORDEN = [
     ("√9 + √16",                              "Nee, √25 = 5. Een wortel mag je niet zo splitsen bij een som"),
     ("dan is het groter dan 5.” Welke pijl",  "⇒, want omgekeerd geldt het niet: 7 is groter dan 5 maar niet dan 10"),
     ("Een hoek van 130°",                    "stompe hoek"),
+    ("1 liter is hetzelfde als 1 dm³",       True),
 ]
 
 
@@ -235,13 +291,13 @@ def main():
         titel, vraag = treffers[0]
         gezien.add(vraag["vraag"])
 
-        verwacht = mintekens(uitkomst)
+        verwacht = zelfde_schrijfwijze(uitkomst)
 
         if vraag["type"] == "waarofniet":
             ok = vraag["antwoord"] == uitkomst
             gekregen = vraag["antwoord"]
         elif vraag["type"] == "meerkeuze":
-            opties = [mintekens(o) for o in vraag["opties"]]
+            opties = [zelfde_schrijfwijze(o) for o in vraag["opties"]]
             aangeduid = opties[vraag["antwoord"]]
             if verwacht in opties:
                 ok = aangeduid == verwacht
@@ -249,7 +305,7 @@ def main():
                 ok = verwacht in aangeduid
             gekregen = vraag["opties"][vraag["antwoord"]]
         else:
-            ok = verwacht == mintekens(vraag["antwoord"])
+            ok = verwacht == zelfde_schrijfwijze(vraag["antwoord"])
             gekregen = vraag["antwoord"]
 
         if ok:

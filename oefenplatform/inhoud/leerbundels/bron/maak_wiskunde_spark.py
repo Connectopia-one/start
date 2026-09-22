@@ -557,3 +557,122 @@ BUNDELS["meetkunde-spark"] = dict(
         "Translatie, rotatie en spiegeling behouden lengte en hoek: het beeld is congruent.",
         "Symmetrieassen: vierkant 4, rechthoek 2, gelijkzijdige driehoek 3.",
     ])
+
+
+BUNDELS["metend-rekenen-spark"] = dict(
+    vak="Wiskunde", niveau=SPARK, titel="Metend rekenen",
+    onder="Eenheden omzetten, en omtrek, oppervlakte en volume uitrekenen.",
+    secties=[
+        dict(kop="Eerst de eenheid, dan het getal", blokken=[
+            ("p", "Elke meting bestaat uit een <strong>maatgetal</strong> en een <strong>eenheid</strong>. "
+                  "Het getal alleen zegt niets: 3 kan 3 millimeter of 3 kilometer zijn."),
+            ("fig", svg.maatladder(["km", "hm", "dam", "m", "dm", "cm", "mm"]),
+             "Bij lengte is elke stap naar rechts maal 10, en elke stap naar links gedeeld door 10. Van km naar m zijn het drie stappen: 3,5 km = 3500 m."),
+            ("p", "Dezelfde ladder geldt voor <strong>inhoud</strong> (l, dl, cl, ml) en voor "
+                  "<strong>massa</strong> (kg, g, mg). Kies altijd de eenheid die bij de zaak past: "
+                  "een afstand tussen steden in kilometer, de dikte van een blad in millimeter."),
+            ("kader", "<strong>Tijd telt niet per tien.</strong> Een uur heeft 60 minuten en een minuut 60 "
+                      "seconden. Dus 2,5 uur is 150 minuten, en een kwartier is 15 × 60 = 900 seconden. "
+                      "Wie hier de maatladder gebruikt, komt er altijd naast."),
+        ]),
+        dict(kop="Oppervlakte gaat per honderd", blokken=[
+            ("p", "Dit is de fout die het vaakst gemaakt wordt. Bij <strong>oppervlakte</strong> is één "
+                  "stap niet maal 10 maar maal <strong>100</strong>, want je zet de lengte én de breedte om."),
+            ("fig", svg.vierkante_stap(),
+             "Eén vierkante decimeter is tien rijen van tien vierkante centimeter. Het oranje vakje is één cm²."),
+            ("p", "Dus 2,5 m² = <strong>250</strong> dm², en 3 m² = 3 × 100 × 100 = <strong>30 000</strong> cm². "
+                  "Bij <strong>volume</strong> is elke stap zelfs maal <strong>1000</strong>, want er komt "
+                  "nog een derde richting bij."),
+            ("kader", "Voor grond gebruik je are en hectare: 1 are = 100 m² en 1 hectare = 100 are = "
+                      "10 000 m². Een tuin van 20 m bij 15 m is 300 m², dus <strong>3 are</strong>."),
+        ]),
+        dict(kop="Omtrek of oppervlakte?", blokken=[
+            ("p", "<strong>Omtrek</strong> is hoe ver je loopt als je één keer rond de figuur gaat, en "
+                  "staat in cm of m. <strong>Oppervlakte</strong> is hoeveel vakjes er binnen passen, en "
+                  "staat in cm² of m²."),
+            ("fig", svg.rechthoek_maten(7, 3),
+             "Rond de rand: 7 + 3 + 7 + 3. Binnenin: zeven rijen van drie vakjes."),
+            ("p", "Een hek rond een tuin is dus omtrek, gras zaaien is oppervlakte. Bij een vierkant met "
+                  "zijde 6 cm is de omtrek 4 × 6 = <strong>24 cm</strong> en de oppervlakte 6 × 6 = "
+                  "<strong>36 cm²</strong>. De eenheid verraadt meteen welke van de twee je berekend hebt."),
+            ("kader", "Twee figuren met dezelfde omtrek hoeven <strong>niet</strong> dezelfde oppervlakte "
+                      "te hebben. Een rechthoek van 1 bij 5 en een van 3 bij 3 hebben allebei omtrek 12, "
+                      "maar oppervlakte 5 en 9."),
+        ]),
+        dict(kop="De formules voor vlakke figuren", blokken=[
+            ("p", "<strong>Rechthoek</strong>: lengte × breedte. <strong>Vierkant</strong>: zijde × zijde. "
+                  "<strong>Parallellogram</strong>: basis × hoogte — zonder delen door 2."),
+            ("p", "<strong>Driehoek</strong>: (basis × hoogte) : 2, want een driehoek is de helft van een "
+                  "rechthoek met dezelfde basis en hoogte. Met basis 8 en hoogte 5 geeft dat "
+                  "(8 × 5) : 2 = <strong>20 cm²</strong>."),
+            ("p", "<strong>Trapezium</strong>: (som van de twee evenwijdige zijden) × hoogte : 2. Met 6, "
+                  "10 en hoogte 4: (6 + 10) × 4 : 2 = <strong>32 cm²</strong>. <strong>Ruit</strong>: "
+                  "(diagonaal × diagonaal) : 2, dus met 8 en 6 is dat <strong>24 cm²</strong>."),
+            ("kader", "De <strong>hoogte</strong> in deze formules is altijd de <strong>loodrechte</strong> "
+                      "afstand, nooit de schuine zijde. Staat er een schuine zijde in de opgave, dan is dat "
+                      "meestal een afleider."),
+        ]),
+        dict(kop="De cirkel", blokken=[
+            ("fig", svg.cirkel_straal(),
+             "De diameter is twee keer de straal. Welke van de twee gegeven is, bepaalt welke formule het handigst is."),
+            ("p", "<strong>Omtrek</strong> = 2 × π × straal, of even goed π × diameter. "
+                  "<strong>Oppervlakte</strong> = π × straal². Reken met π ≈ 3,14 tenzij er iets anders "
+                  "gevraagd wordt."),
+            ("p", "Bij een straal van 5 cm: omtrek 2 × 3,14 × 5 = <strong>31,4 cm</strong>, oppervlakte "
+                  "3,14 × 25 = <strong>78,5 cm²</strong>. Bij een diameter van 10 cm is de omtrek "
+                  "3,14 × 10 = <strong>31,4 cm</strong> — dezelfde cirkel, dus logisch."),
+            ("kader", "Verwar de twee formules niet. In de omtrek staat de straal één keer en de 2 ervoor; "
+                      "in de oppervlakte staat de straal in het <strong>kwadraat</strong> en geen 2."),
+        ]),
+        dict(kop="Ruimtefiguren", blokken=[
+            ("fig", svg.ruimtefiguren(),
+             "Kubus, balk en cilinder zijn de drie waarvan je oppervlakte én volume moet kunnen berekenen."),
+            ("p", "<strong>Volume kubus</strong> = ribbe³, dus een ribbe van 4 cm geeft "
+                  "<strong>64 cm³</strong>. <strong>Volume balk</strong> = lengte × breedte × hoogte: "
+                  "5 × 3 × 2 = <strong>30 cm³</strong>. <strong>Volume cilinder</strong> = π × straal² × "
+                  "hoogte: met straal 3 en hoogte 10 is dat 3,14 × 9 × 10 = <strong>282,6 cm³</strong>."),
+            ("p", "De <strong>oppervlakte</strong> is alles wat je zou moeten inpakken. Een kubus heeft zes "
+                  "gelijke vierkanten: bij ribbe 3 is dat 6 × 9 = <strong>54 cm²</strong>. Een balk heeft "
+                  "drie paar vlakken: bij 5 bij 4 bij 2 is dat 2 × 20 + 2 × 10 + 2 × 8 = "
+                  "<strong>76 cm²</strong>."),
+            ("kader", "<strong>1 liter = 1 dm³</strong> en <strong>1 ml = 1 cm³</strong>. Een kubus van 2 dm "
+                      "bevat dus 8 liter. En 1 m³ = 1000 liter, dus een zwembad van 10 bij 5 bij 1,5 m "
+                      "houdt 75 m³ = <strong>75 000 liter</strong>."),
+        ]),
+        dict(kop="Samengesteld, en omgekeerd", blokken=[
+            ("p", "Een figuur die je niet kent, <strong>knip je in stukken</strong> die je wél kent. Een "
+                  "vierkant van 6 cm met daarop een halve cirkel van diameter 6: 36 + (3,14 × 9) : 2 = "
+                  "36 + 14,13 = <strong>50,13 cm²</strong>."),
+            ("p", "Gaat er iets af, dan trek je af. Knip je uit een vierkant van 10 cm in elke hoek een "
+                  "vierkantje van 2 cm, dan blijft er 100 − 4 × 4 = <strong>84 cm²</strong> over."),
+            ("p", "Soms krijg je de uitkomst en zoek je een maat. Een vierkant met oppervlakte 49 cm² heeft "
+                  "een zijde van √49 = <strong>7 cm</strong>. Een rechthoek met oppervlakte 48 cm² en "
+                  "lengte 8 cm is 48 : 8 = <strong>6 cm</strong> breed."),
+            ("kader", "Verdubbel je de zijde van een vierkant, dan wordt de oppervlakte <strong>vier</strong> "
+                      "keer zo groot, niet twee: van 3 cm (9 cm²) naar 6 cm (36 cm²). Allebei de "
+                      "afmetingen groeien mee."),
+        ]),
+        dict(kop="Voor je je antwoord opschrijft", blokken=[
+            ("p", "Zet alles eerst in <strong>dezelfde eenheid</strong>. Een pad van 1,2 km in 15 minuten: "
+                  "maak er 1200 m van, dan is het 1200 : 15 = <strong>80 meter per minuut</strong>."),
+            ("p", "Kijk of je <strong>eenheid</strong> past bij wat je berekende: cm bij omtrek, cm² bij "
+                  "oppervlakte, cm³ of liter bij volume. En rond pas op het <strong>einde</strong> af: "
+                  "12,467 tot op twee decimalen is <strong>12,47</strong>, want het derde decimaal is 7."),
+            ("kader", "Rond zinvol af. 5 × 250 ml is 1250 ml, dus je hebt <strong>2</strong> pakjes van een "
+                      "liter nodig — 1,25 pakje bestaat niet. Bij dozen, pakjes en bussen rond je naar boven af."),
+        ]),
+    ],
+    onthoud=[
+        "Lengte, inhoud en massa: elke stap is maal of gedeeld door 10.",
+        "Tijd niet: een uur is 60 minuten, een minuut 60 seconden. 2,5 uur = 150 min.",
+        "Oppervlakte: elke stap maal 100. Volume: elke stap maal 1000.",
+        "1 are = 100 m², 1 hectare = 10 000 m².",
+        "Omtrek staat in cm, oppervlakte in cm². Dezelfde omtrek betekent niet dezelfde oppervlakte.",
+        "Driehoek (b × h) : 2, parallellogram b × h, trapezium (a + b) × h : 2, ruit (d × d) : 2.",
+        "De hoogte is de loodrechte afstand, nooit de schuine zijde.",
+        "Cirkel: omtrek 2 × π × r, oppervlakte π × r². Met r = 5: 31,4 cm en 78,5 cm².",
+        "Volume: kubus r³, balk l × b × h, cilinder π × r² × h.",
+        "1 liter = 1 dm³, 1 ml = 1 cm³, 1 m³ = 1000 liter.",
+        "Samengesteld: knip in stukken die je kent, en trek af wat eruit gaat.",
+        "Zijde verdubbelen maakt de oppervlakte vier keer zo groot.",
+    ])
