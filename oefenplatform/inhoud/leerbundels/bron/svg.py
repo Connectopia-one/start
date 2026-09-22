@@ -454,3 +454,63 @@ def plattegrond(breedte=470):
     d.append(f'<text x="24" y="172" font-family="IBM Plex Sans,sans-serif" font-size="10.5" fill="{DIM}">'
              f'Turn right at the school.</text>')
     return _svg(breedte, h, "".join(d))
+
+
+def spanningsboog(breedte=470):
+    """De spanningsboog van een verhaal: begin, opbouw, hoogtepunt, einde."""
+    h = 178
+    basis = 128
+    d = [f'<path d="M30 {basis} C 150 {basis-10}, 210 40, 300 34 C 360 30, 400 70, {breedte-30} {basis}" '
+         f'fill="none" stroke="{FOREST}" stroke-width="2.6"/>']
+    # de labels staan bewust aan de kant waar de lijn niet loopt,
+    # anders snijdt de boog dwars door de tekst
+    punten = [(30, basis, "begin", "wie, waar, wanneer", "onder"),
+              (170, basis - 46, "probleem", "er loopt iets mis", "boven"),
+              (300, 34, "hoogtepunt", "het spannendst", "boven"),
+              (breedte - 30, basis, "einde", "het loopt af", "onder")]
+    for x, y, naam, onder, kant in punten:
+        d.append(f'<circle cx="{x}" cy="{y:.0f}" r="5" fill="{AMBER}"/>')
+        anker = "start" if x < 100 else ("end" if x > breedte - 100 else "middle")
+        if kant == "boven":
+            yn, yo = y - 26, y - 12
+        else:
+            yn, yo = y + 20, y + 34
+        d.append(f'<text x="{x}" y="{yn:.0f}" text-anchor="{anker}" font-family="IBM Plex Sans,sans-serif" '
+                 f'font-size="11.5" font-weight="600" fill="{DARK}">{naam}</text>')
+        d.append(f'<text x="{x}" y="{yo:.0f}" text-anchor="{anker}" font-family="IBM Plex Sans,sans-serif" '
+                 f'font-size="10" fill="{DIM}">{onder}</text>')
+    return _svg(breedte, h, "".join(d))
+
+
+def tekstopbouw(delen, breedte=470):
+    """delen = [(naam, wat er in staat, hoogte-factor), ...] — blokken onder elkaar."""
+    d = []
+    y = 4
+    for naam, wat, factor in delen:
+        hh = 30 * factor
+        d.append(f'<rect x="4" y="{y:.0f}" width="{breedte-8}" height="{hh:.0f}" rx="9" '
+                 f'fill="rgba(47,93,80,.07)" stroke="{FOREST}" stroke-width="1.5"/>')
+        d.append(f'<text x="20" y="{y+hh/2-3:.0f}" font-family="IBM Plex Sans,sans-serif" '
+                 f'font-size="12" font-weight="600" fill="{DARK}">{naam}</text>')
+        d.append(f'<text x="20" y="{y+hh/2+13:.0f}" font-family="IBM Plex Sans,sans-serif" '
+                 f'font-size="10.5" fill="{DIM}">{wat}</text>')
+        y += hh + 8
+    return _svg(breedte, y, "".join(d))
+
+
+def zinsdelen(delen, breedte=470):
+    """Een zin in gekleurde blokjes, met eronder wat elk deel is."""
+    n = len(delen)
+    d = []
+    x = 4
+    totaal = sum(len(w) for w, _, _ in delen)
+    h = 70
+    for woord, naam, kleur in delen:
+        b = (breedte - 8 - (n - 1) * 6) * (len(woord) / totaal)
+        d.append(f'<rect x="{x:.1f}" y="4" width="{b:.1f}" height="34" rx="8" fill="{kleur}22" stroke="{kleur}" stroke-width="1.6"/>')
+        d.append(f'<text x="{x+b/2:.1f}" y="26" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" '
+                 f'font-size="13" font-weight="600" fill="{DARK}">{woord}</text>')
+        d.append(f'<text x="{x+b/2:.1f}" y="55" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" '
+                 f'font-size="10" fill="{kleur}">{naam}</text>')
+        x += b + 6
+    return _svg(breedte, h, "".join(d))
