@@ -314,6 +314,17 @@ export default async function BeheerVakkenPage({
                       placeholder={VOORBEELD_VAK_JSON}
                       className="w-full rounded-md border border-border bg-paper px-3 py-2 font-mono text-xs outline-none focus:border-forest focus:ring-1 focus:ring-forest"
                     />
+                    <label className="flex items-start gap-2 rounded-md border border-border bg-paper px-3 py-2 text-xs text-ink">
+                      <input type="checkbox" name="vervang" className="mt-0.5 accent-forest" />
+                      <span>
+                        <span className="font-medium">Bestaande vragen vervangen</span> — is een
+                        hoofdstuk verouderd, vink dit dan aan: de oude vragen gaan weg en enkel die
+                        uit dit bestand blijven over. Het hoofdstuk houdt zijn plek, zijn webadres
+                        en zijn leerbundel, dus je hoeft het niet te verwijderen. Let op: de
+                        antwoorden die kinderen op die oude vragen gaven, verdwijnen mee. Laat je
+                        dit uit staan, dan komen de vragen er gewoon bij.
+                      </span>
+                    </label>
                     <button
                       type="submit"
                       className="rounded-md bg-forest px-4 py-2 text-sm font-medium text-white hover:bg-forest-dark"

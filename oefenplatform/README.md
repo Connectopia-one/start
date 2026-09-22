@@ -141,7 +141,12 @@ Log in op `/beheer` met je beheerdersaccount:
 - Op `/beheer/vakken`, onder elk vak: **"Bulk-import: meerdere hoofdstukken tegelijk (JSON)"** —
   plak in één keer hoofdstukken mét hun vragen voor een heel vak (bv. op basis van een vakfiche).
   Een hoofdstuktitel die al bestaat krijgt de vragen erbij; een nieuwe titel wordt automatisch
-  aangemaakt als hoofdstuk.
+  aangemaakt als hoofdstuk, op het eerste volgnummer dat nog vrij is.
+  Is een hoofdstuk **verouderd**, vink dan **"Bestaande vragen vervangen"** aan: de oude vragen
+  gaan weg en alleen die uit je bestand blijven over. Het hoofdstuk houdt zijn plek, zijn
+  webadres en zijn leerbundel, dus je hoeft het niet te verwijderen — verwijderen neemt de
+  leerbundel, de stickers en de voortgang mee. Wat je wél verliest bij vervangen: de antwoorden
+  die kinderen op die oude vragen gaven.
 - Op diezelfde pagina, onder **"Leerstof (theorie)"**: upload een PDF-leerbundel voor dat
   hoofdstuk. Kinderen zien die op een apart tabblad ("Leerstof") naast de oefeningen — met
   dezelfde toegang (gratis hoofdstuk = voor iedereen, anders volledige toegang nodig).
@@ -153,6 +158,10 @@ Log in op `/beheer` met je beheerdersaccount:
   Passen er twee hoofdstukken even goed — bijvoorbeeld dezelfde titel in 🌱 Start en ✨ Spark —
   dan kiest de pagina bewust niets, zodat je zelf beslist. Kies je vooraf de categorie, dan komt
   die situatie niet voor.
+  Staat er bij dat hoofdstuk **al een bundel**, dan zegt de pagina dat en vervangt ze de oude
+  door de nieuwe — vink dat uit als je ze allebei wil laten staan. Onderaan staat ook een
+  overzicht van alles wat er nu bij het gekozen vak staat, met per bundel een knop
+  **"Weghalen"**, voor een verouderde bundel die geen vervanger krijgt.
 - Per vak kan je een tabblad **"Rekenmachine"** aan- of uitzetten (bv. aan voor Wiskunde,
   Natuurwetenschappen, Fysica, Chemie; uit voor Nederlands) — met de officiële GeoGebra-
   rekenmachine ingebouwd (grafieken, meetkunde, berekeningen), zoals bij de examencommissie. Zet

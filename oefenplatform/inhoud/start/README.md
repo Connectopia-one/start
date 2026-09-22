@@ -27,10 +27,17 @@ platform verkopen, en drie vragen doen dat niet. `nederlands-spelling.json` zet 
 Dat bestand gebruikt de titel die het hoofdstuk in `schema.sql` krijgt:
 `Hoofdstuk 1 — Spelling: voorbeeld`. De bulk-import zoekt een hoofdstuk op zijn
 titel, dus **importeer eerst en hernoem daarna**; andersom maakt de import een
-tweede hoofdstuk aan.
+tweede hoofdstuk aan. Een streepje of een spatie te veel telt daarbij niet mee —
+`—` en `-` worden gelijk gelezen.
+
+**Een hoofdstuk bijwerken hoef je niet te verwijderen.** Vink bij de import
+**"Bestaande vragen vervangen"** aan: de oude vragen gaan weg en alleen die uit
+je bestand blijven over. Het hoofdstuk houdt zo zijn plek, zijn webadres en zijn
+leerbundel. Verwijderen neemt dat alles mee, en ook de stickers en de voortgang.
 
 **Wiskunde staat in twee bestanden.** `wiskunde.json` was al ingeladen toen de
-tweede reeks er kwam, en opnieuw importeren zou alles dubbel zetten. Daarom staan
+tweede reeks er kwam, en opnieuw importeren zou alles dubbel zetten (tenzij je
+"Bestaande vragen vervangen" aanvinkt, maar dan zou de eerste reeks net verdwijnen). Daarom staan
 de 120 nieuwe vragen apart in `wiskunde-extra.json`, met dezelfde hoofdstuktitels.
 Die tweede reeks komt er netjes bij. Begin je met een lege databank, importeer dan
 gewoon eerst het ene bestand en daarna het andere; samen geeft dat 40 vragen per

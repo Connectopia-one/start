@@ -3,16 +3,21 @@
 import { useMemo, useState, type ChangeEvent } from "react";
 import { useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
-import { maakBulkLeerstofUploadUrl, registreerBulkLeerstof } from "./actions";
+import { maakBulkLeerstofUploadUrl, registreerBulkLeerstof, verwijderLeerstof } from "./actions";
 import { NIVEAUS } from "@/lib/niveaus";
 
 export type Hoofdstuk = { id: string; titel: string; niveau: string; volgnummer: number };
 export type Vak = { id: string; naam: string; hoofdstukken: Hoofdstuk[] };
+export type Bundel = { id: string; hoofdstuk_id: string; titel: string };
 
 type Rij = {
   bestand: File;
   hoofdstukId: string;
   titel: string;
+  /* Vervangt deze bundel wat er al bij het hoofdstuk stond? Staat aan zodra er
+     al iets staat: een nieuwe versie uploaden is veel vaker de bedoeling dan
+     twee bundels naast elkaar willen. */
+  vervang: boolean;
   status: "wacht" | "bezig" | "klaar" | "fout";
   melding?: string;
 };
@@ -72,12 +77,22 @@ function niveauLabel(niveau: string): string {
   return n ? `${n.emoji} ${n.naam}` : niveau;
 }
 
-export function BulkLeerstofForm({ vakken }: { vakken: Vak[] }) {
+export function BulkLeerstofForm({ vakken, bundels }: { vakken: Vak[]; bundels: Bundel[] }) {
   const router = useRouter();
   const [vakId, setVakId] = useState(vakken[0]?.id ?? "");
   const [niveau, setNiveau] = useState("");
   const [rijen, setRijen] = useState<Rij[]>([]);
   const [bezig, setBezig] = useState(false);
+  const [wisBezig, setWisBezig] = useState("");
+
+  /* Wat staat er al per hoofdstuk? */
+  const bundelsPerHoofdstuk = useMemo(() => {
+    const kaart = new Map<string, Bundel[]>();
+    for (const b of bundels) {
+      kaart.set(b.hoofdstuk_id, [...(kaart.get(b.hoofdstuk_id) ?? []), b]);
+    }
+    return kaart;
+  }, [bundels]);
 
   /* De categorieën waarin dit vak effectief hoofdstukken heeft. */
   const niveausVanVak = useMemo(() => {
@@ -103,12 +118,16 @@ export function BulkLeerstofForm({ vakken }: { vakken: Vak[] }) {
   function kiesBestanden(e: ChangeEvent<HTMLInputElement>) {
     const gekozen = Array.from(e.target.files ?? []);
     setRijen(
-      gekozen.map((bestand) => ({
-        bestand,
-        hoofdstukId: raadHoofdstuk(bestand.name, hoofdstukken),
-        titel: titelUitBestandsnaam(bestand.name),
-        status: "wacht" as const,
-      })),
+      gekozen.map((bestand) => {
+        const hoofdstukId = raadHoofdstuk(bestand.name, hoofdstukken);
+        return {
+          bestand,
+          hoofdstukId,
+          titel: titelUitBestandsnaam(bestand.name),
+          vervang: (bundelsPerHoofdstuk.get(hoofdstukId)?.length ?? 0) > 0,
+          status: "wacht" as const,
+        };
+      }),
     );
   }
 
@@ -145,6 +164,7 @@ export function BulkLeerstofForm({ vakken }: { vakken: Vak[] }) {
           hoofdstukId: rij.hoofdstukId,
           titel: rij.titel.trim(),
           bestandspad: path,
+          vervang: rij.vervang,
         });
         pasAan(i, { status: "klaar", melding: undefined });
       } catch (err) {
@@ -157,6 +177,10 @@ export function BulkLeerstofForm({ vakken }: { vakken: Vak[] }) {
 
     setBezig(false);
     router.refresh();
+  }
+
+  function alBij(hoofdstukId: string): Bundel[] {
+    return hoofdstukId ? bundelsPerHoofdstuk.get(hoofdstukId) ?? [] : [];
   }
 
   const nogTeDoen = rijen.filter((r) => r.status !== "klaar").length;
@@ -257,7 +281,12 @@ export function BulkLeerstofForm({ vakken }: { vakken: Vak[] }) {
               <div className="mt-2 grid gap-2 sm:grid-cols-2">
                 <select
                   value={rij.hoofdstukId}
-                  onChange={(e) => pasAan(i, { hoofdstukId: e.target.value })}
+                  onChange={(e) =>
+                    pasAan(i, {
+                      hoofdstukId: e.target.value,
+                      vervang: (bundelsPerHoofdstuk.get(e.target.value)?.length ?? 0) > 0,
+                    })
+                  }
                   disabled={rij.status === "klaar"}
                   className="rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest disabled:opacity-60"
                 >
@@ -277,6 +306,30 @@ export function BulkLeerstofForm({ vakken }: { vakken: Vak[] }) {
                   className="rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest disabled:opacity-60"
                 />
               </div>
+
+              {/* Staat er al een bundel bij dit hoofdstuk, zeg dat dan meteen —
+                  anders zet je er ongemerkt een tweede naast. */}
+              {rij.status !== "klaar" && alBij(rij.hoofdstukId).length > 0 && (
+                <div className="mt-2 rounded-md border border-amber/40 bg-amber/10 px-3 py-2">
+                  <p className="text-xs text-ink">
+                    Hier staat al:{" "}
+                    {alBij(rij.hoofdstukId)
+                      .map((b) => b.titel)
+                      .join(", ")}
+                  </p>
+                  <label className="mt-1.5 flex items-start gap-2 text-xs text-ink">
+                    <input
+                      type="checkbox"
+                      checked={rij.vervang}
+                      onChange={(e) => pasAan(i, { vervang: e.target.checked })}
+                      className="mt-0.5 accent-forest"
+                    />
+                    <span>
+                      De oude vervangen door deze. Vink uit als je ze allebei wil laten staan.
+                    </span>
+                  </label>
+                </div>
+              )}
             </div>
           ))}
 
@@ -295,6 +348,42 @@ export function BulkLeerstofForm({ vakken }: { vakken: Vak[] }) {
               </p>
             )}
           </div>
+        </div>
+      )}
+
+      {/* Wat er nu bij dit vak staat, zodat je een verouderde bundel ook gewoon
+          kan weghalen zonder er een nieuwe voor in de plaats te zetten. */}
+      {hoofdstukken.some((h) => alBij(h.id).length > 0) && (
+        <div className="space-y-2 border-t border-border pt-5">
+          <p className="text-sm font-medium text-ink">Wat er nu al bij dit vak staat</p>
+          {hoofdstukken.map((h) =>
+            alBij(h.id).map((b) => (
+              <div
+                key={b.id}
+                className="flex items-center justify-between gap-3 rounded-lg border border-border bg-surface px-3 py-2"
+              >
+                <p className="min-w-0 text-sm text-ink">
+                  <span className="text-ink-dim">{h.titel}</span> — {b.titel}
+                </p>
+                <button
+                  type="button"
+                  disabled={wisBezig === b.id}
+                  onClick={async () => {
+                    setWisBezig(b.id);
+                    try {
+                      await verwijderLeerstof(b.id);
+                      router.refresh();
+                    } finally {
+                      setWisBezig("");
+                    }
+                  }}
+                  className="shrink-0 rounded-md border border-border px-3 py-1.5 text-xs text-danger hover:bg-danger/10 disabled:opacity-60"
+                >
+                  {wisBezig === b.id ? "bezig…" : "Weghalen"}
+                </button>
+              </div>
+            )),
+          )}
         </div>
       )}
     </div>

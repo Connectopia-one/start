@@ -190,17 +190,38 @@ type BulkHoofdstuk = {
 };
 
 /**
+ * Twee titels vergelijken zonder te struikelen over een streepje of een spatie
+ * te veel. Een titel die je uit een bestand kopieert, heeft soms een lang
+ * streepje (—) waar in de databank een kort streepje (-) staat, of een dubbele
+ * spatie. Zonder deze opkuis ziet de import zo'n titel als nieuw en maakt ze
+ * het hoofdstuk een tweede keer aan.
+ */
+function titelSleutel(titel: string) {
+  return titel
+    .replace(/[\u2010-\u2015]/g, "-")
+    .replace(/\s+/g, " ")
+    .trim()
+    .toLowerCase();
+}
+
+/**
  * Importeert in één keer meerdere hoofdstukken (met hun vragen) voor een vak.
  * Een hoofdstuk met een titel die al bestaat binnen dit vak krijgt de nieuwe
  * vragen erbij toegevoegd; een onbekende titel wordt als nieuw hoofdstuk
  * aangemaakt, op het eerste volgnummer dat nog vrij is. Verwijderde je net een
  * hoofdstuk, dan komt het nieuwe dus op die vrijgekomen plek te staan; anders
  * achteraan de lijst.
+ *
+ * Staat "vervang" aan, dan gaan de vragen die al bij zo'n hoofdstuk stonden
+ * eerst weg en blijven alleen die uit dit bestand over. Zo kan je een
+ * verouderd hoofdstuk bijwerken zonder het eerst te verwijderen — het houdt
+ * dan ook zijn plek, zijn webadres en zijn leerbundel.
  */
 export async function bulkImportVakInhoud(formData: FormData) {
   await requireBeheerder();
   const vakId = String(formData.get("vak_id") || "");
   const json = String(formData.get("json") || "").trim();
+  const vervang = formData.get("vervang") === "on";
   if (!vakId) redirect("/beheer/vakken?fout=" + encodeURIComponent("Onbekend vak."));
 
   let payload: { hoofdstukken: BulkHoofdstuk[] };
@@ -225,7 +246,7 @@ export async function bulkImportVakInhoud(formData: FormData) {
 
   const neemVolgnummer = await vrijeVolgnummers(admin, "hoofdstukken", "vak_id", vakId);
   const titelNaarId = new Map<string, string>();
-  (bestaande ?? []).forEach((h) => titelNaarId.set(h.titel.trim().toLowerCase(), h.id));
+  (bestaande ?? []).forEach((h) => titelNaarId.set(titelSleutel(h.titel), h.id));
   // Het eerste hoofdstuk van elke categorie (niveau) binnen dit vak is altijd
   // gratis om uit te proberen — zowel al bestaande als in deze import zelf.
   const niveausMetHoofdstuk = new Set<string>((bestaande ?? []).map((h) => h.niveau));
@@ -235,15 +256,27 @@ export async function bulkImportVakInhoud(formData: FormData) {
     if (!titel) continue;
     const niveau = NIVEAUS.some((n) => n.slug === hfst.niveau) ? hfst.niveau! : "start";
 
-    let hoofdstukId = titelNaarId.get(titel.toLowerCase());
+    let hoofdstukId = titelNaarId.get(titelSleutel(titel));
     if (!hoofdstukId) {
       const eersteVanNiveau = !niveausMetHoofdstuk.has(niveau);
       niveausMetHoofdstuk.add(niveau);
-      const { data: nieuw, error: hoofdstukFout } = await admin
+      const rij = { vak_id: vakId, titel, gratis: !!hfst.gratis || eersteVanNiveau, niveau };
+      let { data: nieuw, error: hoofdstukFout } = await admin
         .from("hoofdstukken")
-        .insert({ vak_id: vakId, titel, volgnummer: neemVolgnummer(), gratis: !!hfst.gratis || eersteVanNiveau, niveau })
+        .insert({ ...rij, volgnummer: neemVolgnummer() })
         .select("id")
         .single();
+      // Botst het nummer toch nog (bijvoorbeeld omdat iemand anders tegelijk
+      // iets toevoegde), kijk dan opnieuw welke nummers vrij zijn en probeer
+      // het nog één keer.
+      if (hoofdstukFout?.code === "23505") {
+        const opnieuw = await vrijeVolgnummers(admin, "hoofdstukken", "vak_id", vakId);
+        ({ data: nieuw, error: hoofdstukFout } = await admin
+          .from("hoofdstukken")
+          .insert({ ...rij, volgnummer: opnieuw() })
+          .select("id")
+          .single());
+      }
       if (hoofdstukFout || !nieuw) {
         redirect(
           "/beheer/vakken?fout=" +
@@ -251,11 +284,23 @@ export async function bulkImportVakInhoud(formData: FormData) {
         );
       }
       hoofdstukId = nieuw!.id as string;
-      titelNaarId.set(titel.toLowerCase(), hoofdstukId);
+      titelNaarId.set(titelSleutel(titel), hoofdstukId);
     }
 
     const vragen = Array.isArray(hfst.vragen) ? hfst.vragen : [];
     if (!vragen.length) continue;
+
+    // Bij "vervangen" gaan de oude vragen van dit hoofdstuk eerst weg, zodat je
+    // een bijgewerkt bestand kan importeren zonder alles dubbel te krijgen.
+    if (vervang) {
+      const { error: wisFout } = await admin.from("vragen").delete().eq("hoofdstuk_id", hoofdstukId);
+      if (wisFout) {
+        redirect(
+          "/beheer/vakken?fout=" +
+            encodeURIComponent(`Oude vragen van "${titel}" verwijderen mislukt: ${wisFout.message}`)
+        );
+      }
+    }
 
     const neemVraagnummer = await vrijeVolgnummers(admin, "vragen", "hoofdstuk_id", hoofdstukId);
 
