@@ -249,12 +249,16 @@ export async function bulkImportVakInhoud(formData: FormData) {
 
   const { data: bestaande } = await admin
     .from("hoofdstukken")
-    .select("id, titel, niveau")
+    .select("id, titel, niveau, gratis")
     .eq("vak_id", vakId);
 
   const neemVolgnummer = await vrijeVolgnummers(admin, "hoofdstukken", "vak_id", vakId);
   const titelNaarId = new Map<string, string>();
-  (bestaande ?? []).forEach((h) => titelNaarId.set(titelSleutel(h.titel), h.id));
+  const gratisVanId = new Map<string, boolean>();
+  (bestaande ?? []).forEach((h) => {
+    titelNaarId.set(titelSleutel(h.titel), h.id);
+    gratisVanId.set(h.id, !!h.gratis);
+  });
   // Het eerste hoofdstuk van elke categorie (niveau) binnen dit vak is altijd
   // gratis om uit te proberen — zowel al bestaande als in deze import zelf.
   const niveausMetHoofdstuk = new Set<string>((bestaande ?? []).map((h) => h.niveau));
@@ -292,6 +296,9 @@ export async function bulkImportVakInhoud(formData: FormData) {
       }
     }
 
+    const bestondAl = !!hoofdstukId;
+    const bestaandGratis = bestondAl ? gratisVanId.get(hoofdstukId!) ?? false : false;
+
     if (!hoofdstukId) {
       const eersteVanNiveau = !niveausMetHoofdstuk.has(niveau);
       niveausMetHoofdstuk.add(niveau);
@@ -320,6 +327,24 @@ export async function bulkImportVakInhoud(formData: FormData) {
       }
       hoofdstukId = nieuw!.id as string;
       titelNaarId.set(titelSleutel(titel), hoofdstukId);
+    }
+
+    // Zegt het bestand uitdrukkelijk of dit hoofdstuk gratis is, pas dat dan
+    // ook toe op een hoofdstuk dat er al stond. Zonder dit gold "gratis" enkel
+    // bij het aanmaken, en kon je het gratis proefhoofdstuk achteraf niet meer
+    // verleggen naar een ander hoofdstuk zonder het met de hand om te zetten.
+    // Staat er niets over gratis in het bestand, dan blijft het zoals het was.
+    if (bestondAl && hfst.gratis !== undefined && Boolean(hfst.gratis) !== bestaandGratis) {
+      const { error: gratisFout } = await admin
+        .from("hoofdstukken")
+        .update({ gratis: Boolean(hfst.gratis) })
+        .eq("id", hoofdstukId);
+      if (gratisFout) {
+        redirect(
+          "/beheer/vakken?fout=" +
+            encodeURIComponent(`"${titel}" op gratis zetten mislukt: ${gratisFout.message}`)
+        );
+      }
     }
 
     const vragen = Array.isArray(hfst.vragen) ? hfst.vragen : [];
