@@ -69,7 +69,12 @@ def _svg(breedte, hoogte, inhoud):
 
 
 def stappen(stappenlijst, breedte=470, kleur=None):
-    """Vakjes met pijltjes ertussen: een stappenplan."""
+    """Vakjes met pijltjes ertussen: een stappenplan.
+
+    Een vakje is smal — bij vier stappen zo'n 98 punten — en tekst die niet
+    past loopt er stil buiten. Zet daarom een | in de tekst waar de regel mag
+    afbreken; de tweede regel wordt dan wat kleiner en grijzer gezet.
+    """
     kleur = kleur or FOREST
     n = len(stappenlijst)
     pijl = 26
@@ -1966,4 +1971,131 @@ def gewesten(breedte=470):
                                "19 gemeenten,", "geen provincie."]):
         d.append(_tekst(x + bb / 2, 58 + i * 16, regel, 9.5, INK if i < 3 else DIM))
     d.append(_tekst(x + bb / 2, 31, "Brussel", 11.5, "#ffffff", "middle", True))
+    return _svg(breedte, h, "".join(d))
+
+
+# ---------------------------------------------------------------------------
+# Tekeningen bij spelling.
+# ---------------------------------------------------------------------------
+
+def _vakje(x, y, b, hh, tekst, kleur=None, grootte=12, vet=True, vul=None):
+    """Een afgerond kadertje met een woord erin."""
+    kleur = kleur or DARK
+    vul = vul or "#ffffff"
+    return (f'<rect x="{x}" y="{y}" width="{b}" height="{hh}" rx="8" fill="{vul}" '
+            f'stroke="{kleur}" stroke-width="1.6"/>'
+            + _tekst(x + b/2, y + hh/2 + grootte*0.36, tekst, grootte, kleur, "middle", vet))
+
+
+def _pijl(x1, y, x2, kleur=None):
+    """Een pijltje naar rechts."""
+    kleur = kleur or DIM
+    return (f'<line x1="{x1}" y1="{y}" x2="{x2-6}" y2="{y}" stroke="{kleur}" stroke-width="1.8"/>'
+            f'<polygon points="{x2},{y} {x2-8},{y-4.5} {x2-8},{y+4.5}" fill="{kleur}"/>')
+
+
+def kofschip(breedte=470):
+    """'t Kofschip: eindigt de stam op t, k, f, s, ch of p, dan -te en -t."""
+    h = 276
+    d = [f'<path d="M0 122 q39 -7 78 0 q39 7 78 0 q39 -7 78 0 q39 7 78 0 q39 -7 78 0 q39 7 78 0" '
+         f'fill="none" stroke="{WATER}" stroke-width="3.4"/>']
+    # het schip
+    d.append(f'<path d="M168 122 L302 122 L286 146 L184 146 Z" fill="{DARK}"/>')
+    d.append(f'<line x1="212" y1="30" x2="212" y2="122" stroke="#6b4f2a" stroke-width="4"/>')
+    d.append(f'<path d="M217 34 L217 116 L297 116 Z" fill="{AMBER}" opacity="0.85"/>')
+    d.append(f'<path d="M207 40 L207 116 L158 116 Z" fill="{AMBER}" opacity="0.45"/>')
+    d.append(f'<circle cx="212" cy="26" r="4" fill="{DARK}"/>')
+    d.append(_tekst(235, 168, "Eindigt de stam op een van deze letters?", 11, INK))
+
+    letters = ["t", "k", "f", "s", "ch", "p"]
+    bb, gat = 54, 8
+    x0 = (breedte - (len(letters)*bb + (len(letters)-1)*gat)) / 2
+    for i, letter in enumerate(letters):
+        x = x0 + i*(bb+gat)
+        d.append(f'<rect x="{x:.1f}" y="180" width="{bb}" height="32" rx="8" fill="{AMBER}" opacity="0.16"/>')
+        d.append(f'<rect x="{x:.1f}" y="180" width="{bb}" height="32" rx="8" fill="none" '
+                 f'stroke="{AMBER}" stroke-width="1.6"/>')
+        d.append(_tekst(x + bb/2, 202, letter, 15, AMBER, "middle", True))
+
+    for x, kop, regel, voorbeeld, kleur in [
+            (16, "ja", "-te en -t", "werken → werkte, gewerkt", AMBER),
+            (244, "nee", "-de en -d", "leren → leerde, geleerd", FOREST)]:
+        d.append(f'<rect x="{x}" y="228" width="210" height="42" rx="10" fill="#ffffff" '
+                 f'stroke="{kleur}" stroke-width="1.6"/>')
+        d.append(_tekst(x + 16, 247, f"{kop}: {regel}", 11.5, kleur, "start", True))
+        d.append(_tekst(x + 16, 262, voorbeeld, 10, DIM, "start"))
+    return _svg(breedte, h, "".join(d))
+
+
+def lettergrepen(breedte=470):
+    """Open en gesloten lettergrepen, en wanneer je een letter verdubbelt."""
+    h = 214
+    kaart_b = 222
+    d = []
+    kaarten = [
+        (10, "open lettergreep", "eindigt op een klinker", FOREST,
+         [("ra", "men", "ramen"), ("bo", "men", "bomen")],
+         "één medeklinker, lange klank"),
+        (238, "gesloten lettergreep", "eindigt op een medeklinker", AMBER,
+         [("ram", "men", "rammen"), ("bom", "men", "bommen")],
+         "twee medeklinkers, korte klank"),
+    ]
+    for x, kop, onder, kleur, paren, slot in kaarten:
+        d.append(f'<rect x="{x}" y="10" width="{kaart_b}" height="{h-24}" rx="12" fill="#ffffff" '
+                 f'stroke="{BORDER}" stroke-width="1.4"/>')
+        d.append(f'<path d="M{x} 19 a9 9 0 0 1 9 -9 h{kaart_b-18} a9 9 0 0 1 9 9 v19 h{-kaart_b} Z" fill="{kleur}"/>')
+        d.append(_tekst(x + kaart_b/2, 33, kop, 11.5, "#ffffff", "middle", True))
+        d.append(_tekst(x + kaart_b/2, 56, onder, 9.5, DIM))
+        for i, (eerste, tweede, heel) in enumerate(paren):
+            y = 68 + i*60
+            d.append(_vakje(x + 14, y, 50, 30, eerste, kleur, 12.5))
+            d.append(_vakje(x + 68, y, 50, 30, tweede, DIM, 12.5, vet=False))
+            d.append(_pijl(x + 124, y + 15, x + 140, kleur))
+            d.append(_tekst(x + kaart_b - 12, y + 20, heel, 12.5, DARK, "end", True))
+        d.append(_tekst(x + kaart_b/2, h - 24, slot, 9.5, kleur))
+    return _svg(breedte, h, "".join(d))
+
+
+def werkwoord_nu(breedte=470):
+    """De -t in de tegenwoordige tijd, per persoon."""
+    rijen = [("ik", "stam", "ik word"),
+             ("jij, hij, zij, u", "stam + t", "jij wordt"),
+             ("jij ná het werkwoord", "stam", "word jij?"),
+             ("wij, jullie, zij", "hele werkwoord", "wij worden")]
+    h = 34 + len(rijen)*46 + 10
+    d = [_tekst(14, 22, "wie doet het?", 9.5, DIM, "start"),
+         _tekst(190, 22, "wat schrijf je?", 9.5, DIM, "start"),
+         _tekst(348, 22, "voorbeeld", 9.5, DIM, "start")]
+    for i, (wie, wat, vb) in enumerate(rijen):
+        y = 34 + i*46
+        kleur = AMBER if "+ t" in wat else FOREST
+        d.append(_vakje(14, y, 160, 34, wie, DIM, 10.5, vet=False))
+        d.append(_pijl(178, y + 17, 192, kleur))
+        d.append(_vakje(196, y, 142, 34, wat, kleur, 11))
+        d.append(_pijl(342, y + 17, 356, DIM))
+        d.append(_tekst(362, y + 22, vb, 12, DARK, "start", True))
+    return _svg(breedte, h, "".join(d))
+
+
+def verkleinwoorden(breedte=470):
+    """De vijf uitgangen van het verkleinwoord, met een voorbeeld."""
+    h = 146
+    paren = [("-je", "boek", "boek", "je"), ("-tje", "stoel", "stoel", "tje"),
+             ("-pje", "boom", "boom", "pje"), ("-etje", "bal", "bal", "letje"),
+             ("-kje", "koning", "konin", "kje")]
+    vak = (breedte - 20) / len(paren)
+    d = []
+    for i, (uitgang, grondwoord, romp, staart) in enumerate(paren):
+        cx = 10 + vak*(i + 0.5)
+        d.append(f'<rect x="{cx-38:.1f}" y="20" width="76" height="38" rx="10" fill="{FOREST}" opacity="0.10"/>')
+        d.append(f'<rect x="{cx-38:.1f}" y="20" width="76" height="38" rx="10" fill="none" '
+                 f'stroke="{FOREST}" stroke-width="1.6"/>')
+        d.append(_tekst(cx, 46, uitgang, 15, FOREST, "middle", True))
+        d.append(_tekst(cx, 82, grondwoord, 11, DIM))
+        d.append(f'<text x="{cx:.1f}" y="104" text-anchor="middle" '
+                 f'font-family="IBM Plex Sans,sans-serif" font-size="12.5" font-weight="600">'
+                 f'<tspan fill="{INK}">{romp}</tspan><tspan fill="{AMBER}">{staart}</tspan></text>')
+        d.append(f'<path d="M{cx:.1f} 88 v8" stroke="{BORDER}" stroke-width="1.4"/>')
+    d.append(_tekst(breedte/2, 132, "Welke uitgang het wordt, hoor je aan de klank ervoor. "
+                                    "Bij koning verdwijnt de g.", 9.5, DIM))
     return _svg(breedte, h, "".join(d))

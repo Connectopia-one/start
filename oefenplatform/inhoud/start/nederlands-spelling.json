@@ -1,0 +1,410 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Hoofdstuk 1 — Spelling: voorbeeld",
+      "niveau": "start",
+      "gratis": true,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het meervoud van 'raam'?",
+          "opties": [
+            "ramen",
+            "rammen",
+            "raamen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ra-men: de eerste lettergreep eindigt op een klinker, dus ze is open. Dan één m."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het meervoud van 'bal'?",
+          "opties": [
+            "balen",
+            "ballen",
+            "ballenen"
+          ],
+          "antwoord": 1,
+          "uitleg": "Bal-len: de eerste lettergreep eindigt op een medeklinker, dus ze is gesloten. Dan verdubbel je."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Het meervoud van 'bom' is ___.",
+          "antwoord": "bommen",
+          "uitleg": "Bom-men, gesloten lettergreep met een korte o, dus dubbele m."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Het meervoud van 'boom' is ___.",
+          "antwoord": "bomen",
+          "uitleg": "Bo-men, open lettergreep met een lange oo, dus één m en één o."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In 'ra-men' is de eerste lettergreep open.",
+          "antwoord": true,
+          "uitleg": "Ze eindigt op de klinker a, dus open."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In een gesloten lettergreep verdubbel je de medeklinker erachter.",
+          "antwoord": true,
+          "uitleg": "Zo blijft de klank kort: bal wordt ballen, niet balen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het meervoud van 'pet'?",
+          "opties": [
+            "peten",
+            "petten",
+            "peeten"
+          ],
+          "antwoord": 1,
+          "uitleg": "Pet-ten: korte e, dus dubbele t."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "De stam van 'werken' is ___.",
+          "antwoord": "werk",
+          "uitleg": "Het hele werkwoord min -en: werken wordt werk."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "De stam van 'lopen' is ___.",
+          "antwoord": "loop",
+          "uitleg": "Lopen min -en is lop, maar je hoort een lange oo. Dus loop, met dubbele o."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de stam van 'eten'?",
+          "opties": [
+            "et",
+            "eet",
+            "ete"
+          ],
+          "antwoord": 1,
+          "uitleg": "Je hoort een lange ee: ik eet."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je vindt de stam door -en van het hele werkwoord te halen.",
+          "antwoord": true,
+          "uitleg": "En let dan nog op de klank: lopen wordt loop, niet lop."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: ik ___ (bouwen).",
+          "antwoord": "bouw",
+          "uitleg": "De stam is wat je zegt na ik: ik bouw."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is juist?",
+          "opties": [
+            "Hij wordt boos.",
+            "Hij word boos.",
+            "Hij wort boos."
+          ],
+          "antwoord": 0,
+          "uitleg": "Hij krijgt stam + t. De stam is word, dus wordt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is juist?",
+          "opties": [
+            "Word jij boos?",
+            "Wordt jij boos?",
+            "Wort jij boos?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Jij staat hier ná het werkwoord, en dan valt de t weg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is juist?",
+          "opties": [
+            "Ik vindt dat leuk.",
+            "Ik vind dat leuk.",
+            "Ik vint dat leuk."
+          ],
+          "antwoord": 1,
+          "uitleg": "Bij ik schrijf je alleen de stam: vind."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is juist?",
+          "opties": [
+            "Zij antwoord snel.",
+            "Zij antwoordt snel.",
+            "Zij antwoort snel."
+          ],
+          "antwoord": 1,
+          "uitleg": "Zij krijgt stam + t: antwoord + t = antwoordt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In 'Wat word jij later?' hoort er een t achter word.",
+          "antwoord": false,
+          "uitleg": "Jij staat achter het werkwoord, dus geen t."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: jij ___ (worden) groot.",
+          "antwoord": "wordt",
+          "uitleg": "Jij staat vóór het werkwoord: stam + t."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: ik ___ (vinden) dat mooi.",
+          "antwoord": "vind",
+          "uitleg": "Bij ik alleen de stam, zonder t."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vorm hoort bij 'wij'?",
+          "opties": [
+            "wij werkt",
+            "wij werk",
+            "wij werken"
+          ],
+          "antwoord": 2,
+          "uitleg": "Wij, jullie en zij krijgen het hele werkwoord."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is juist?",
+          "opties": [
+            "De hond blaft.",
+            "De hond blaff.",
+            "De hond blafd."
+          ],
+          "antwoord": 0,
+          "uitleg": "Stam blaf + t. Een d hoor je hier niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de verleden tijd van 'werken'?",
+          "opties": [
+            "ik werkte",
+            "ik werkde",
+            "ik werktte"
+          ],
+          "antwoord": 0,
+          "uitleg": "De stam werk eindigt op k, en de k zit in 't kofschip. Dus -te."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de verleden tijd van 'leren'?",
+          "opties": [
+            "ik leerte",
+            "ik leerde",
+            "ik leerdde"
+          ],
+          "antwoord": 1,
+          "uitleg": "De stam leer eindigt op r, en die zit niet in 't kofschip. Dus -de."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "De verleden tijd van 'hopen' is: ik ___.",
+          "antwoord": "hoopte",
+          "uitleg": "De stam hoop eindigt op p, dus -te."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "De verleden tijd van 'bouwen' is: ik ___.",
+          "antwoord": "bouwde",
+          "uitleg": "De stam bouw eindigt op w, die zit niet in 't kofschip. Dus -de."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De letters van 't kofschip zijn t, k, f, s, ch en p.",
+          "antwoord": true,
+          "uitleg": "Eindigt de stam op een van die letters, dan wordt het -te en -t."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de verleden tijd van 'verhuizen'?",
+          "opties": [
+            "ik verhuisde",
+            "ik verhuiste",
+            "ik verhuizde"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je schrijft verhuis, maar je hoort een z. Die zit niet in 't kofschip, dus -de."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de verleden tijd van 'fietsen'?",
+          "opties": [
+            "ik fietsde",
+            "ik fietste"
+          ],
+          "antwoord": 1,
+          "uitleg": "De stam fiets eindigt op s, en die zit in 't kofschip. Dus -te."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij 't kofschip luister je naar de klank van de stam, niet naar de letter.",
+          "antwoord": true,
+          "uitleg": "Daarom is het ik verhuisde: je hoort een z."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Ik heb gisteren hard ___.",
+          "opties": [
+            "gewerkt",
+            "gewerkd",
+            "gewerktt"
+          ],
+          "antwoord": 0,
+          "uitleg": "De stam werk eindigt op k, dus -t."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Zij heeft haar les goed ___.",
+          "opties": [
+            "geleert",
+            "geleerd",
+            "geleertd"
+          ],
+          "antwoord": 1,
+          "uitleg": "De stam leer eindigt op r, dus -d."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Ik heb daar echt op ___ (hopen).",
+          "antwoord": "gehoopt",
+          "uitleg": "Stam hoop, en de p zit in 't kofschip: -t."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een voltooid deelwoord begint bijna altijd met ge-.",
+          "antwoord": true,
+          "uitleg": "Gewerkt, geleerd, gehoopt. Een paar werkwoorden met be-, ver- of ont- doen dat niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is juist?",
+          "opties": [
+            "Ik heb naar de winkel gegaan.",
+            "Ik ben naar de winkel gegaan."
+          ],
+          "antwoord": 1,
+          "uitleg": "Gaan gebruikt zijn als hulpwerkwoord, niet hebben."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: wij hebben lang ___ (fietsen).",
+          "antwoord": "gefietst",
+          "uitleg": "De stam fiets eindigt op s, en die zit in 't kofschip. Dus -t."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het meervoud van 'oma'?",
+          "opties": [
+            "oma's",
+            "omas",
+            "omaas"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na een losse klinker komt er een apostrof, anders zou je omas lezen met een korte a."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Het meervoud van 'tafel' is ___.",
+          "antwoord": "tafels",
+          "uitleg": "Na -el komt er een s."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Het meervoud van 'kind' is ___.",
+          "antwoord": "kinderen",
+          "uitleg": "Een van de weinige woorden met -eren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het verkleinwoord van 'boom' is ___.",
+          "opties": [
+            "boomje",
+            "boompje",
+            "boomtje"
+          ],
+          "antwoord": 1,
+          "uitleg": "Na een lange klank plus m komt er -pje."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Het verkleinwoord van 'stoel' is ___.",
+          "antwoord": "stoeltje",
+          "uitleg": "Na een l komt er -tje."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je zegt 'het stoeltje', ook al is het 'de stoel'.",
+          "antwoord": true,
+          "uitleg": "Een verkleinwoord is altijd het."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het verkleinwoord van 'koning' is ___.",
+          "opties": [
+            "koningje",
+            "koninkje",
+            "koningkje"
+          ],
+          "antwoord": 1,
+          "uitleg": "Na -ing wordt het -kje, en de g verdwijnt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk woord is juist gespeld?",
+          "opties": [
+            "tijd",
+            "teid",
+            "tyd"
+          ],
+          "antwoord": 0,
+          "uitleg": "Tijd schrijf je met een lange ij. Dat moet je gewoon kennen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk woord is juist gespeld?",
+          "opties": [
+            "kaud",
+            "koud",
+            "kout"
+          ],
+          "antwoord": 1,
+          "uitleg": "Koud schrijf je met ou, net als hout en vrouw."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Namen van maanden krijgen in het Nederlands een hoofdletter.",
+          "antwoord": false,
+          "uitleg": "Januari, april en september schrijf je klein. Talen en landen wel met een hoofdletter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe schrijf je het?",
+          "opties": [
+            "pannekoek",
+            "pannenkoek",
+            "pannen koek"
+          ],
+          "antwoord": 1,
+          "uitleg": "Het meervoud van pan is pannen, dus komt er een tussen-n. En samenstellingen schrijf je aan elkaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is juist?",
+          "opties": [
+            "Lien spreekt nederlands.",
+            "Lien spreekt Nederlands."
+          ],
+          "antwoord": 1,
+          "uitleg": "Namen van talen krijgen een hoofdletter."
+        }
+      ]
+    }
+  ]
+}

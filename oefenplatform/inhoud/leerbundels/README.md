@@ -87,10 +87,15 @@ In `bron/` staat waarmee ze gemaakt zijn:
   klimaatdiagram, een zeehaven, een stadsplan, de gewesten en provincies, de
   aardbol met de klimaatgordels, de seizoenen rond de zon, een bergprofiel met
   boom- en sneeuwgrens, zandduinen met een oase, de lagen van het regenwoud en
-  een vulkaan in doorsnede.
+  een vulkaan in doorsnede. Voor spelling: 't kofschip, open en gesloten
+  lettergrepen, de -t in de tegenwoordige tijd, en de vijf verkleinuitgangen.
 - `bundel.py` — zet een bundel-beschrijving om naar een html-bestand.
 - `maak_<vak>.py` — de inhoud van alle bundels van dat vak.
 - `pdf.js` — zet een html-bestand om naar pdf (via Playwright).
+- `maak_alles.py` — maakt alle bundels opnieuw en zet elke pdf bij zijn vak.
+  Gebruik dit na elke aanpassing aan `stijl.css` of aan een tekening in `svg.py`,
+  want die raken elke bundel en niet alleen die van het vak waaraan je werkte.
+  Eén vak volstaat ook: `python3 maak_alles.py nederlands`.
 
 Zo maak je een heel vak opnieuw:
 

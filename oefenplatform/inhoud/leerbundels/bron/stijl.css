@@ -20,7 +20,7 @@ body {
   color: var(--ink);
   font-family: "IBM Plex Sans", system-ui, sans-serif;
   font-size: 11.5pt;
-  line-height: 1.55;
+  line-height: 1.62;
   -webkit-print-color-adjust: exact;
   print-color-adjust: exact;
 }
@@ -42,10 +42,13 @@ h1, h2, h3 { font-family: "Fraunces", Georgia, serif; font-weight: 600; }
 h1 { font-size: 23pt; margin: 4px 0 2px; color: var(--forest-dark); line-height: 1.15; }
 .kop .onder { font-size: 10pt; color: var(--ink-dim); margin: 0; }
 
-section { break-inside: avoid; margin-bottom: 20px; }
+section { break-inside: avoid; margin-bottom: 26px; }
+/* Een dun streepje tussen de stukken theorie: zo zie je in één oogopslag
+   waar het ene onderwerp stopt en het volgende begint. */
+section + section { border-top: 1px solid var(--border); padding-top: 22px; }
 h2 {
   font-size: 14.5pt;
-  margin: 0 0 8px;
+  margin: 0 0 12px;
   color: var(--forest-dark);
   display: flex;
   align-items: baseline;
@@ -66,26 +69,26 @@ h2 .nr {
   flex: none;
   transform: translateY(-1px);
 }
-p { margin: 0 0 9px; }
+p { margin: 0 0 12px; }
 strong { color: var(--forest-dark); }
 
 .kader {
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 12px;
-  padding: 13px 16px;
-  margin: 10px 0;
+  padding: 15px 18px;
+  margin: 16px 0;
 }
-figure { margin: 12px 0 10px; text-align: center; break-inside: avoid; }
+figure { margin: 20px 0 18px; text-align: center; break-inside: avoid; }
 figure svg { max-width: 100%; height: auto; }
-figcaption { font-size: 9.5pt; color: var(--ink-dim); margin-top: 6px; }
+figcaption { font-size: 9.5pt; color: var(--ink-dim); margin-top: 8px; line-height: 1.45; }
 
 .weetje {
   background: rgba(193, 127, 43, .10);
   border-left: 4px solid var(--amber);
   border-radius: 0 10px 10px 0;
-  padding: 11px 15px;
-  margin: 12px 0;
+  padding: 13px 16px;
+  margin: 18px 0;
   font-size: 11pt;
 }
 .weetje b { color: var(--amber); }
@@ -94,13 +97,13 @@ figcaption { font-size: 9.5pt; color: var(--ink-dim); margin-top: 6px; }
   background: rgba(47, 93, 80, .07);
   border: 1px solid rgba(47, 93, 80, .25);
   border-radius: 12px;
-  padding: 14px 18px;
-  margin-top: 26px;
+  padding: 16px 20px;
+  margin-top: 30px;
   break-inside: avoid;
 }
 .onthoud h2 { margin-bottom: 8px; }
 .onthoud ul { margin: 0; padding-left: 20px; }
-.onthoud li { margin-bottom: 5px; }
+.onthoud li { margin-bottom: 8px; }
 
 .voet {
   margin-top: 26px;

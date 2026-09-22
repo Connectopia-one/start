@@ -63,6 +63,36 @@ export async function hernoemVak(formData: FormData) {
   redirect("/beheer/vakken");
 }
 
+/**
+ * De titel van een hoofdstuk aanpassen, bijvoorbeeld na een typfout.
+ *
+ * Anders dan bij een vak zit hier geen slug aan vast: een hoofdstuk staat in
+ * het webadres als zijn volgnummer. Een nieuwe titel breekt dus geen links.
+ *
+ * Let wel: de bulk-import zoekt een hoofdstuk op zijn titel. Hernoem je er een,
+ * dan moet een JSON-bestand dat je daarna importeert de nieuwe titel gebruiken,
+ * anders wordt het oude hoofdstuk opnieuw aangemaakt.
+ */
+export async function hernoemHoofdstuk(formData: FormData) {
+  await requireBeheerder();
+  const id = String(formData.get("id") || "");
+  const titel = String(formData.get("titel") || "").trim();
+  if (!id) redirect("/beheer/vakken");
+  if (!titel) {
+    redirect("/beheer/vakken?fout=" + encodeURIComponent("Geef een titel op voor het hoofdstuk."));
+  }
+
+  const admin = createAdminClient();
+  const { error } = await admin.from("hoofdstukken").update({ titel }).eq("id", id);
+  if (error) {
+    redirect("/beheer/vakken?fout=" + encodeURIComponent("Kon de titel van het hoofdstuk niet aanpassen."));
+  }
+
+  revalidatePath("/beheer/vakken");
+  revalidatePath("/");
+  redirect("/beheer/vakken");
+}
+
 export async function wisselRekenmachine(formData: FormData) {
   await requireBeheerder();
   const id = String(formData.get("id") || "");

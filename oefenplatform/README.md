@@ -4,6 +4,12 @@ Een online oefenplatform waar kinderen interactief kunnen oefenen op de leerstof
 examencommissie — per vak opgedeeld in hoofdstukken met meerkeuzevragen, waar/niet-waar-vragen
 en invuloefeningen.
 
+**Het gratis proefhoofdstuk.** `Hoofdstuk 1 — Spelling: voorbeeld` van Nederlands is wat
+iemand zonder account te zien krijgt, en dus het enige waarop iemand beslist of dit
+platform iets voor hen is. Het heeft daarom een eigen, uitgebreidere leerbundel
+(`inhoud/leerbundels/nederlands/spelling.pdf`) en een langere reeks vragen
+(`inhoud/start/nederlands-spelling.json`).
+
 **Toegangsmodel:**
 - Van elk vak is het **eerste hoofdstuk van elke categorie** (🌱 Start, ✨ Spark, 🚀 Boost, 🌍
   Beyond) gratis te proberen, voor iedereen — ook zonder account. Dit gebeurt automatisch: het
@@ -122,6 +128,10 @@ Log in op `/beheer` met je beheerdersaccount:
 - **Vakken beheren**: vakken en hoofdstukken toevoegen, per hoofdstuk instellen of het gratis is.
   Onder elke vaknaam staat **"Naam aanpassen"**, voor als er een typfout in geslopen is. Het
   webadres van het vak volgt de nieuwe naam, tenzij je de slug ooit zelf anders zette.
+  Onder elk hoofdstuk staat **"Titel aanpassen"**, voor als er een typfout in de
+  hoofdstuktitel staat. Het webadres van een hoofdstuk is zijn volgnummer, dus dat
+  blijft gewoon werken. Let wel: de bulk-import hieronder zoekt een hoofdstuk op
+  zijn titel, dus importeer eerst en hernoem daarna.
 - Klik op een hoofdstuk om **vragen** toe te voegen — één voor één via het formulier, of in bulk
   door een JSON-lijst te plakken (handig als je vragen al voorbereidde met DeepSeek/Gemini — het
   gewenste formaat staat op die pagina).

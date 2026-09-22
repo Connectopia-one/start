@@ -9,13 +9,25 @@ categorie voor het 5de en 6de leerjaar.
 | `wiskunde.json` | Wiskunde | 6 | 120 |
 | `wiskunde-extra.json` | Wiskunde, tweede reeks | 6 | 120 |
 | `nederlands.json` | Nederlands | 5 | 100 |
+| `nederlands-spelling.json` | Nederlands, het gratis proefhoofdstuk | 1 | 47 |
 | `wetenschap-en-techniek.json` | Wetenschap en techniek | 4 | 80 |
 | `aardrijkskunde.json` | Aardrijkskunde | 3 | 60 |
 | `geschiedenis.json` | Geschiedenis | 3 | 120 |
 | `engels.json` | Engels | 6 | 120 |
 
 Elk hoofdstuk heeft 20 vragen, behalve geschiedenis: daar zijn het er 40 per
-hoofdstuk. Samen 720 vragen.
+hoofdstuk. Samen 767 vragen.
+
+**Spelling is het gratis proefhoofdstuk.** Dat hoofdstuk staat er al bij het
+opzetten van de databank (zie `supabase/schema.sql`) met drie voorbeeldvragen, en
+het is het enige wat iemand zonder account te zien krijgt. Het moet dus ook het
+platform verkopen, en drie vragen doen dat niet. `nederlands-spelling.json` zet er
+47 bij, en `inhoud/leerbundels/nederlands/spelling.pdf` is de leerbundel erbij.
+
+Dat bestand gebruikt de titel die het hoofdstuk in `schema.sql` krijgt:
+`Hoofdstuk 1 — Spelling: voorbeeld`. De bulk-import zoekt een hoofdstuk op zijn
+titel, dus **importeer eerst en hernoem daarna**; andersom maakt de import een
+tweede hoofdstuk aan.
 
 **Wiskunde staat in twee bestanden.** `wiskunde.json` was al ingeladen toen de
 tweede reeks er kwam, en opnieuw importeren zou alles dubbel zetten. Daarom staan
