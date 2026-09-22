@@ -7,14 +7,14 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel periodes telt het courante westerse historisch referentiekader?",
+          "vraag": "Wat doet een historicus?",
           "opties": [
-            "Vijf",
-            "Zeven",
-            "Negen"
+            "Hij onderzoekt het verleden aan de hand van bronnen",
+            "Hij graaft voorwerpen op uit de grond",
+            "Hij schrijft verhalen die zich vroeger afspelen"
           ],
-          "antwoord": 1,
-          "uitleg": "Het zijn er zeven: prehistorie, oude nabije oosten, klassieke oudheid, middeleeuwen, vroegmoderne tijd, moderne tijd en hedendaagse tijd."
+          "antwoord": 0,
+          "uitleg": "Een historicus onderzoekt het verleden met bronnen. Opgraven is het werk van een archeoloog. Ze werken wel vaak samen."
         },
         {
           "type": "meerkeuze",
@@ -199,6 +199,17 @@
       "vragen": [
         {
           "type": "meerkeuze",
+          "vraag": "Hoeveel periodes telt het courante westerse historisch referentiekader?",
+          "opties": [
+            "Vijf",
+            "Zeven",
+            "Negen"
+          ],
+          "antwoord": 1,
+          "uitleg": "Het zijn er zeven: prehistorie, oude nabije oosten, klassieke oudheid, middeleeuwen, vroegmoderne tijd, moderne tijd en hedendaagse tijd."
+        },
+        {
+          "type": "meerkeuze",
           "vraag": "Wat is een scharnierpunt in de geschiedenis?",
           "opties": [
             "Een gebeurtenis die de overgang vormt tussen twee periodes",
@@ -317,17 +328,6 @@
           ],
           "antwoord": 0,
           "uitleg": "Het is een kunstwerk, dus cultureel, maar het beeldt een senator in functie uit en toont zo zijn macht, dus ook politiek."
-        },
-        {
-          "type": "meerkeuze",
-          "vraag": "Een historicus onderzoekt de handel in graan tussen Egypte en Rome. Welke twee domeinen raken elkaar hier?",
-          "opties": [
-            "Het economische en het politieke domein",
-            "Het culturele en het sociale domein",
-            "Alleen het economische domein"
-          ],
-          "antwoord": 0,
-          "uitleg": "De graanhandel is economisch, maar Rome gebruikte die graanbevoorrading ook om de bevolking rustig te houden, en dat is politiek."
         },
         {
           "type": "meerkeuze",
