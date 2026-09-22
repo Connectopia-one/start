@@ -229,3 +229,131 @@ BUNDELS["prehistorie"] = dict(
         "Landbouw maakt sedentair: overschot, specialisatie, steden — maar ook ongelijkheid en ziekte.",
         "Naar gevolgen een revolutie, naar tempo een evolutie. Het neolithicum is de nieuwe steentijd.",
     ])
+
+BUNDELS["mesopotamie-en-egypte"] = dict(
+    vak="Geschiedenis", niveau=SPARK, titel="Mesopotamië en Egypte",
+    onder="De eerste steden, het eerste schrift en de eerste staten — allebei aan een rivier.",
+    secties=[
+        dict(kop="Twee rijken aan een rivier", blokken=[
+            ("p", "Rond 3300 v.C. ontstaan er twee samenlevingen die alles veranderen. Allebei liggen ze "
+                  "in een droog gebied, en allebei danken ze hun bestaan aan een rivier."),
+            ("p", "<strong>Mesopotamië</strong> betekent letterlijk <em>land tussen de rivieren</em>: het "
+                  "ligt tussen de <strong>Tigris</strong> en de <strong>Eufraat</strong>, in wat vandaag "
+                  "grotendeels Irak is. <strong>Egypte</strong> ligt in een smalle strook langs de "
+                  "<strong>Nijl</strong>; daarbuiten is het woestijn."),
+            ("kader", "Deze periode heet het <strong>oude nabije oosten</strong>. Ze begint bij de "
+                      "uitvinding van het schrift rond 3300 v.C. — precies daarom eindigt de prehistorie daar. "
+                      "Vanaf nu zijn er geschreven bronnen."),
+        ]),
+        dict(kop="Water, en wat je ervoor moet organiseren", blokken=[
+            ("p", "In een droog land regent het te weinig om te boeren. De oplossing is "
+                  "<strong>irrigatielandbouw</strong>: je leidt rivierwater via kanalen en dijken naar je "
+                  "akkers. In Egypte hielp de Nijl daarbij nog extra, want die overstroomde elk jaar en "
+                  "liet een laag vruchtbaar slib achter."),
+            ("fig", svg.irrigatie(),
+             "Een kanalenstelsel graven en onderhouden is geen werk voor één boer. Daar heb je veel mensen voor nodig, en afspraken."),
+            ("p", "En daar zit de kern van dit hoofdstuk. Wie het graafwerk organiseert, wie beslist welke "
+                  "akker eerst water krijgt en wie de voorraad bewaart, heeft <strong>macht</strong>. Uit de "
+                  "nood aan samenwerking groeit dus een <strong>bestuur</strong>."),
+            ("p", "Omdat een goed bevloeide akker veel meer opbrengt dan nodig, ontstaat er een "
+                  "<strong>overschot</strong>. Dat voedt mensen die zelf niet boeren: ambachtslieden, "
+                  "priesters, soldaten, ambtenaren. Die gaan samenwonen rond het bestuur, en zo groeit een "
+                  "stad."),
+        ]),
+        dict(kop="De eerste steden en staten", blokken=[
+            ("p", "In Mesopotamië ontstaan zo de eerste <strong>stadstaten</strong>: een stad met het land "
+                  "eromheen, met een eigen bestuur en een eigen god. Ur, Uruk en Babylon zijn de bekendste. "
+                  "Ze lagen niet onder één koning, maar voerden ook oorlog met elkaar."),
+            ("p", "Egypte gaat een andere weg. Daar smelten de gebieden langs de Nijl samen tot één rijk "
+                  "onder één heerser: de <strong>farao</strong>. Eén rivier, één land."),
+            ("kader", "Een <strong>ambtenaar</strong> is iemand die in dienst van de heerser bestuurt: hij "
+                      "meet akkers op, int belastingen, houdt de voorraad bij. Zonder ambtenaren is een staat "
+                      "van deze omvang onmogelijk."),
+        ]),
+        dict(kop="Het schrift", blokken=[
+            ("p", "Wie graan van honderden boeren moet bijhouden, kan dat niet onthouden. Daarom wordt het "
+                  "schrift uitgevonden: niet om verhalen te bewaren, maar om <strong>te tellen en te "
+                  "boekhouden</strong>. De oudste kleitabletten zijn voorraadlijsten."),
+            ("p", "In Mesopotamië schrijft men met een rietstengel in natte klei. De afdrukken hebben de "
+                  "vorm van wiggen of spijkers: het <strong>spijkerschrift</strong>. In Egypte gebruikt men "
+                  "<strong>hiërogliefen</strong>, tekens die op kleine afbeeldingen lijken, op steen en op "
+                  "papyrus."),
+            ("fig", svg.hierogliefen(),
+             "Hiërogliefen zijn geen tekeningetjes van wat ze voorstellen: sommige staan voor een klank, andere voor een woord."),
+            ("p", "Schrijven was moeilijk en duurde jaren om te leren. Daardoor kon maar een kleine groep "
+                  "het: de <strong>schrijvers</strong>. Wie kan lezen en schrijven, kan wetten opstellen, "
+                  "afspraken vastleggen en bezit bewijzen. Het schrift maakt de machtigen dus nog machtiger."),
+            ("kader", "Hiërogliefen waren eeuwenlang onleesbaar. De <strong>Steen van Rosetta</strong> "
+                      "bracht de doorbraak: daarop staat dezelfde tekst in hiërogliefen én in het Grieks, en "
+                      "Grieks kon men wél lezen."),
+        ]),
+        dict(kop="Wie staat waar?", blokken=[
+            ("p", "Allebei de samenlevingen zijn een <strong>standenmaatschappij</strong>: de bevolking valt "
+                  "uiteen in vaste lagen, en in welke laag je terechtkomt, ligt vast bij je geboorte. "
+                  "Opklimmen kan nauwelijks."),
+            ("fig", svg.standenpiramide([
+                ("farao of koning", "één persoon"),
+                ("priesters en ambtenaren", "besturen en rekenen"),
+                ("schrijvers en handelaars", "kunnen lezen"),
+                ("ambachtslieden", "pottenbakker, smid"),
+                ("boeren", "veruit de grootste groep"),
+                ("slaven", "geen rechten, geldt als bezit"),
+            ]),
+             "Hoe lager in de piramide, hoe meer mensen. De brede onderkant draagt met haar werk de smalle top."),
+            ("p", "Onderaan staan de <strong>slaven</strong>: krijgsgevangenen, of mensen die zich door "
+                  "schulden hebben moeten verkopen. Zij hebben geen rechten en gelden als bezit."),
+            ("p", "Je ziet die ongelijkheid terug in de bronnen zelf. Wetten straffen dezelfde daad zwaarder "
+                  "naargelang wie het slachtoffer is, en graven verschillen enorm: de ene krijgt goud mee, "
+                  "de andere een kuil."),
+        ]),
+        dict(kop="Goden, tempels en graven", blokken=[
+            ("p", "Beide volkeren zijn <strong>polytheïstisch</strong>: ze geloven in veel goden tegelijk, "
+                  "elk met een eigen taak — de zon, de rivier, de oogst, de oorlog."),
+            ("fig", svg.ziggurat(),
+             "De ziggurat is een trapvormige tempeltoren. Hij stond midden in de stad en was van ver te zien."),
+            ("p", "De tempel is niet enkel een gebedshuis. Hij bezit grond, slaat graan op en betaalt "
+                  "werkers uit. Dat noemt men een <strong>tempeleconomie</strong>: godsdienst en economie "
+                  "lopen door elkaar."),
+            ("p", "In Egypte is de farao zelf goddelijk: hij geldt als een god op aarde en als de schakel "
+                  "tussen de goden en de mensen. Hij bestuurt, spreekt recht, leidt het leger en de "
+                  "eredienst."),
+            ("fig", svg.piramides(),
+             "Een piramide is een graf. De Egyptenaren geloofden in een leven na de dood, en daar hoorde een lichaam bij."),
+            ("p", "Daarom <strong>mummificeerden</strong> ze hun doden: het lichaam moest bewaard blijven "
+                  "om verder te kunnen leven. In het graf legden ze voorwerpen, eten en het "
+                  "<strong>Dodenboek</strong>, een verzameling spreuken voor de tocht na de dood."),
+            ("kader", "<strong>Toetanchamon</strong> was een onbelangrijke farao die jong stierf. Zijn graf "
+                      "is wereldberoemd om één reden: het is als enige vrijwel ongeschonden teruggevonden. "
+                      "Alle andere waren al in de oudheid leeggeroofd."),
+        ]),
+        dict(kop="Handel zonder geld", blokken=[
+            ("p", "Mesopotamië heeft klei en graan in overvloed, maar geen steen, geen hout en geen metaal. "
+                  "Wie dat wil, moet het halen. Daarom is <strong>handel</strong> daar geen luxe maar een "
+                  "noodzaak, over water en over land."),
+            ("p", "Munten bestaan nog niet. Men werkt met <strong>ruilhandel</strong>, en rekent daarbij af "
+                  "in vaste maten graan of zilver, gewogen op een weegschaal. Wat er geruild is, wordt op een "
+                  "kleitablet gezet — weer dat schrift."),
+        ]),
+        dict(kop="Wat wij eraan overhielden", blokken=[
+            ("p", "Uit deze twee rijken komt verrassend veel van wat wij vanzelfsprekend vinden: het "
+                  "<strong>wiel</strong>, de <strong>ploeg</strong>, geschreven <strong>wetten</strong>, en "
+                  "de <strong>sterrenkunde</strong>."),
+            ("p", "Ook de manier waarop wij tijd meten komt van daar: de verdeling van het uur in zestig "
+                  "minuten gaat terug op het Mesopotamische rekenen met zestigtallen, en de kalender van "
+                  "twaalf maanden op de Egyptische zonnekalender."),
+            ("fig", svg.stappen(["rivier", "irrigatie", "overschot", "stad|en staat", "schrift"]),
+             "De ketting van dit hoofdstuk. Elke stap maakt de volgende mogelijk — en aan het einde staat een samenleving die wij nog herkennen."),
+        ]),
+    ],
+    onthoud=[
+        "Mesopotamië = land tussen Tigris en Eufraat; Egypte = het land langs de Nijl.",
+        "Het oude nabije oosten begint bij het schrift, rond 3300 v.C.",
+        "Irrigatielandbouw vraagt samenwerking, en uit die samenwerking groeit bestuur en macht.",
+        "Overschot → specialisatie → steden. Mesopotamië kreeg stadstaten, Egypte één rijk onder de farao.",
+        "Spijkerschrift in klei, hiërogliefen op steen en papyrus; uitgevonden om te boekhouden.",
+        "De Steen van Rosetta maakte hiërogliefen leesbaar, dankzij dezelfde tekst in het Grieks.",
+        "Standenmaatschappij: je plaats ligt vast bij je geboorte; onderaan staan de slaven.",
+        "Polytheïsme, ziggurat en tempeleconomie in Mesopotamië; goddelijke farao, mummies en piramides in Egypte.",
+        "Handel ging per ruil, afgerekend in gewogen graan of zilver — munten bestonden nog niet.",
+        "Van daar komen het wiel, de ploeg, geschreven wetten, de sterrenkunde, ons uur van 60 minuten en de 12 maanden.",
+    ])

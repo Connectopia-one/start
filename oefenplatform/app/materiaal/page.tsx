@@ -1,7 +1,8 @@
 import Link from "next/link";
 import { Header } from "@/components/Header";
 import { getSessionProfile } from "@/lib/auth";
-import { materiaalGroepen, materiaalTekst } from "@/inhoud/materiaal";
+import { createClient } from "@/lib/supabase/server";
+import { materiaalTekst } from "@/inhoud/materiaal";
 
 export const metadata = {
   title: "Handig materiaal — Oefenplatform Connectopia",
@@ -9,11 +10,42 @@ export const metadata = {
     "Gratis verzameling links naar vakfiches, naslagwerken en oefensites, bijeengebracht door Connectopia vzw.",
 };
 
+type Rij = {
+  id: string;
+  groep: string;
+  type: "link" | "pdf";
+  titel: string;
+  link: string | null;
+  bestandspad: string | null;
+  omschrijving: string | null;
+};
+
 export default async function MateriaalPage() {
   const session = await getSessionProfile();
-  /* Een groep zonder links tonen we wel, met een regeltje eronder, zodat je
-     ziet dat er nog iets komt. Alleen als álles leeg is, zeggen we dat één keer. */
-  const iets = materiaalGroepen.some((g) => g.linken.length > 0);
+  const supabase = await createClient();
+
+  /* Ook zichtbaar zonder account: de leespolicy op public.materiaal staat open. */
+  const { data } = await supabase
+    .from("materiaal")
+    .select("id, groep, type, titel, link, bestandspad, omschrijving")
+    .order("created_at", { ascending: true });
+
+  const rijen = (data ?? []) as Rij[];
+
+  /* De koppen staan in de volgorde waarin hun eerste item toegevoegd is. */
+  const groepen: { kop: string; items: Rij[] }[] = [];
+  for (const rij of rijen) {
+    const bestaande = groepen.find((g) => g.kop === rij.groep);
+    if (bestaande) bestaande.items.push(rij);
+    else groepen.push({ kop: rij.groep, items: [rij] });
+  }
+
+  /* Een pdf staat in een publieke bucket, dus een gewoon webadres volstaat. */
+  function adres(rij: Rij): string | null {
+    if (rij.type === "link") return rij.link;
+    if (!rij.bestandspad) return null;
+    return supabase.storage.from("materiaal").getPublicUrl(rij.bestandspad).data.publicUrl;
+  }
 
   return (
     <>
@@ -25,45 +57,44 @@ export default async function MateriaalPage() {
         <h1 className="font-display text-2xl font-semibold text-ink">{materiaalTekst.titel}</h1>
         <p className="mt-4 text-sm text-ink-dim">{materiaalTekst.intro}</p>
 
-        {!iets && (
+        {groepen.length === 0 ? (
           <p className="mt-6 rounded-xl border border-amber/40 bg-amber/10 px-5 py-4 text-sm text-ink">
-            We zijn deze lijst aan het samenstellen. Kom binnenkort nog eens kijken.
+            {materiaalTekst.leegTekst}
           </p>
-        )}
-
-        <div className="mt-8 space-y-9">
-          {materiaalGroepen.map((groep) => (
-            <section key={groep.kop}>
-              <h2 className="font-display text-lg font-semibold text-ink">{groep.kop}</h2>
-              {groep.uitleg && <p className="mt-1 text-sm text-ink-dim">{groep.uitleg}</p>}
-
-              {groep.linken.length === 0 ? (
-                <p className="mt-3 text-sm text-ink-dim">{materiaalTekst.leegTekst}</p>
-              ) : (
+        ) : (
+          <div className="mt-8 space-y-9">
+            {groepen.map((groep) => (
+              <section key={groep.kop}>
+                <h2 className="font-display text-lg font-semibold text-ink">{groep.kop}</h2>
                 <ul className="mt-3 space-y-2">
-                  {groep.linken.map((l) => (
-                    <li key={l.link}>
-                      <a
-                        href={l.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="block rounded-xl border border-border bg-surface p-4 transition hover:border-forest hover:shadow-sm"
-                      >
-                        <span className="font-medium text-forest-dark">{l.titel} ↗</span>
-                        {l.omschrijving && (
-                          <span className="mt-1 block text-sm text-ink-dim">{l.omschrijving}</span>
-                        )}
-                        {l.opmerking && (
-                          <span className="mt-1 block text-xs text-ink-dim">{l.opmerking}</span>
-                        )}
-                      </a>
-                    </li>
-                  ))}
+                  {groep.items.map((item) => {
+                    const href = adres(item);
+                    if (!href) return null;
+                    return (
+                      <li key={item.id}>
+                        <a
+                          href={href}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="block rounded-xl border border-border bg-surface p-4 transition hover:border-forest hover:shadow-sm"
+                        >
+                          <span className="font-medium text-forest-dark">
+                            {item.titel} {item.type === "pdf" ? "(pdf)" : "↗"}
+                          </span>
+                          {item.omschrijving && (
+                            <span className="mt-1 block text-sm text-ink-dim">
+                              {item.omschrijving}
+                            </span>
+                          )}
+                        </a>
+                      </li>
+                    );
+                  })}
                 </ul>
-              )}
-            </section>
-          ))}
-        </div>
+              </section>
+            ))}
+          </div>
+        )}
 
         <p className="mt-10 rounded-xl border border-border bg-surface px-5 py-4 text-sm text-ink-dim">
           {materiaalTekst.externNota}

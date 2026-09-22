@@ -194,25 +194,26 @@ proefhoofdstuk als bezoeker) wordt niets bijgehouden.
 ## Handig materiaal (`/materiaal`)
 
 Onder de vier niveaus op de startpagina staat een aparte knop **Handig materiaal**. Die leidt naar
-een gratis pagina met links naar bestaand online materiaal: vakfiches, een interactieve periodieke
-tabel, oefensites, enzovoort. Er is geen account voor nodig.
+een gratis pagina met links en documenten: vakfiches, een interactieve periodieke tabel,
+oefensites, enzovoort. Er is geen account voor nodig en ze staat los van het betalende aanbod.
 
-Je voegt links toe in `inhoud/materiaal.ts`. Eén link is één regel:
+Je beheert die pagina op **`/beheer/materiaal`**, net zoals je op het ouderportaal lesmateriaal bij
+een klasje zet. Per item geef je:
 
-```ts
-{
-  titel: "Interactieve periodieke tabel",
-  url: "https://...",
-  beschrijving: "Klik op een element en zie meteen alle eigenschappen.",
-},
-```
+- een **titel**;
+- een **link** (begint met `https://`) of een **pdf** die je uploadt;
+- de **kop** waaronder het komt te staan — kies er een uit de lijst of typ een nieuwe, die
+  verschijnt dan vanzelf op de pagina;
+- eventueel een **omschrijving** van één zin.
 
-Zet die tussen de blokhaken van `linken: [ ... ]` van de groep waar hij hoort. Wil je een groep
-erbij? Kopieer een heel groepsblok en pas `titel` en `linken` aan. Een groep zonder links wordt
-netjes getoond met "Hier komt binnenkort materiaal bij", dus een lege groep breekt niets.
+Verwijderen kan in hetzelfde overzicht. Bij een pdf gaat het bestand dan ook uit de opslag.
 
-De teksten bovenaan en onderaan de pagina (inleiding, nota, de knop "Een link doorgeven") staan in
-hetzelfde bestand, in `materiaalTekst`.
+De koppen staan op de pagina in de volgorde waarin je de eerste link van die kop toevoegde. De
+vaste teksten van de pagina (inleiding, de nota onderaan, de knop "Een link doorgeven") staan in
+`inhoud/materiaal.ts`, samen met de voorgestelde koppen.
+
+**Eenmalig**: voer `supabase/materiaal.sql` één keer uit in de SQL Editor van je Supabase-project.
+Dat maakt de tabel `public.materiaal` en de opslagmap voor de pdf's aan.
 
 ## Vraagtypes
 
