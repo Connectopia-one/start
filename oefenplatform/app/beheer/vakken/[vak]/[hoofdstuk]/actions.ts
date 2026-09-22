@@ -66,6 +66,34 @@ export async function maakVraag(formData: FormData) {
   revalidatePath(terugPad(vakSlug, volgnummer));
 }
 
+/**
+ * Haalt de vragen uit wat er geplakt is.
+ *
+ * Dit veld verwacht een kale lijst van vragen, want je zit al in één hoofdstuk.
+ * Maar de bestanden in `inhoud/start` zijn gemaakt voor het andere invoerveld,
+ * dat op de vakkenpagina staat: daar zit de lijst in `{"hoofdstukken": [...]}`.
+ * Die twee door elkaar halen is zo gebeurd, dus we nemen zo'n bestand hier ook
+ * gewoon aan. Staat er meer dan één hoofdstuk in, dan is het echt voor het
+ * andere veld bedoeld en zeggen we dat.
+ */
+function haalVragenEruit(gelezen: unknown): NieuweVraag[] {
+  if (Array.isArray(gelezen)) return gelezen as NieuweVraag[];
+
+  const hoofdstukken = (gelezen as { hoofdstukken?: unknown })?.hoofdstukken;
+  if (Array.isArray(hoofdstukken)) {
+    if (hoofdstukken.length === 1) {
+      const vragen = (hoofdstukken[0] as { vragen?: unknown })?.vragen;
+      if (Array.isArray(vragen)) return vragen as NieuweVraag[];
+    }
+    throw new Error(
+      "dit bestand bevat meerdere hoofdstukken. Gebruik het invoerveld op de vakkenpagina," +
+        " onder \"Bulk-import: meerdere hoofdstukken tegelijk\"."
+    );
+  }
+
+  throw new Error("Verwacht een JSON-array van vragen.");
+}
+
 export async function bulkImportVragen(formData: FormData) {
   await requireBeheerder();
   const hoofdstukId = String(formData.get("hoofdstuk_id") || "");
@@ -75,8 +103,8 @@ export async function bulkImportVragen(formData: FormData) {
 
   let vragen: NieuweVraag[];
   try {
-    vragen = JSON.parse(json);
-    if (!Array.isArray(vragen)) throw new Error("Verwacht een JSON-array van vragen.");
+    const gelezen = JSON.parse(json);
+    vragen = haalVragenEruit(gelezen);
   } catch (e) {
     redirect(
       terugPad(vakSlug, volgnummer) +

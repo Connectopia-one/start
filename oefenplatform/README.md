@@ -134,7 +134,9 @@ Log in op `/beheer` met je beheerdersaccount:
   zijn titel, dus importeer eerst en hernoem daarna.
 - Klik op een hoofdstuk om **vragen** toe te voegen — één voor één via het formulier, of in bulk
   door een JSON-lijst te plakken (handig als je vragen al voorbereidde met DeepSeek/Gemini — het
-  gewenste formaat staat op die pagina).
+  gewenste formaat staat op die pagina). Dat veld verwacht een kale lijst van vragen, maar neemt
+  ook een bestand aan in de vorm `{"hoofdstukken": [...]}` van de vak-import hieronder, zolang er
+  maar één hoofdstuk in staat — die twee velden zijn anders makkelijk te verwisselen.
 - Bij een vraag kan je optioneel een **afbeelding** toevoegen (bv. een figuur bij een
   meetkundevraag) — via het formulier upload je een bestand rechtstreeks; via bulk-import geef je
   een externe URL op (`afbeelding_url`).
