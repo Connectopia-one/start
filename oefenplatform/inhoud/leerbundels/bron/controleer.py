@@ -94,6 +94,24 @@ CONTROLES = [
     ("negatieve: 0,70 \u00d7 80 = 56",              56,             F(70, 100) * 80),
     ("negatieve: 80 \u2212 25 = 55",                55,             80 - 25),
     ("negatieve: \u20ac 25 korting is goedkoper",   True,           (80 - 25) < F(70, 100) * 80),
+
+    # --- probleemoplossend denken ---
+    ("probleem: een derde van 24 = 8",          8,              F(24, 3)),
+    ("probleem: 24 − 8 = 16",                   16,             24 - 8),
+    ("probleem: (5 + 7) × 3 = 36",              36,             (5 + 7) * 3),
+    ("probleem: 36 : 3 = 12",                   12,             36 // 3),
+    ("probleem: 12 − 7 = 5",                    5,              12 - 7),
+    ("probleem: 32 : 0,80 = 40",                40,             32 / F(80, 100)),
+    ("probleem: 3 truien × 2 broeken = 6",      6,              3 * 2),
+    ("probleem: 3 cijfers, 2 plaatsen = 6",     6,              3 * 2),
+    ("probleem: 3 vrienden = 3 handdrukken",    3,              3 * 2 // 2),
+    ("probleem: 20 m om de 4 m = 6 palen",      6,              20 // 4 + 1),
+    ("probleem: 100 : 14 = 7 rest 2",           (7, 2),         (100 // 14, 100 % 14)),
+    ("probleem: 100 mensen, 8 rijen",           8,              -(-100 // 14)),
+    ("probleem: 105 min = 1 u 45 min",          (1, 45),        divmod(105, 60)),
+    ("probleem: 300 g voor 4 → 75 g",           75,             F(300, 4)),
+    ("probleem: 6 × 75 = 450",                  450,            6 * 75),
+    ("probleem: 19 × 21 ligt rond 400",         True,           350 < 19 * 21 < 450),
 ]
 
 

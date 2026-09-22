@@ -237,3 +237,102 @@ BUNDELS["negatieve-getallen-en-procenten-spark"] = dict(
         "Stijging in procent: verschil delen door waar je vandaan komt, niet door waar je uitkomt.",
         "10 % omhoog en dan 10 % omlaag geeft 99, niet 100: het tweede percentage hoort bij een ander getal.",
     ])
+
+
+BUNDELS["probleemoplossend-denken-spark"] = dict(
+    vak="Wiskunde", niveau=SPARK, titel="Probleemoplossend denken",
+    onder="Hoe je een vraagstuk aanpakt als je niet meteen ziet wat je moet doen.",
+    secties=[
+        dict(kop="Vier stappen, altijd dezelfde", blokken=[
+            ("p", "Bij een vraagstuk is de verleiding groot om meteen met de getallen te beginnen "
+                  "rekenen. Net dan gaat het mis. De vakfiche zet er vier stappen tegenover, en die "
+                  "volgorde is de hele kunst."),
+            ("fig", svg.stappen(["begrijp|het probleem", "maak|een plan", "voer het|plan uit", "reflecteer"]),
+             "Pas bij de derde stap ga je rekenen. De eerste twee bepalen of dat rekenwerk ergens toe leidt."),
+            ("p", "<strong>Begrijp het probleem</strong> betekent: schrijf op wat er gegeven is en wat er "
+                  "gevraagd wordt. <strong>Maak een plan</strong> betekent: kies een aanpak. "
+                  "<strong>Voer uit</strong> is het rekenwerk. <strong>Reflecteer</strong> is nakijken of "
+                  "je antwoord kan kloppen én of het de gestelde vraag beantwoordt."),
+        ]),
+        dict(kop="Gegeven en gevraagd uit elkaar halen", blokken=[
+            ("p", "„In een klas van 24 leerlingen is een derde afwezig. Hoeveel leerlingen zijn er "
+                  "aanwezig?” Gegeven: 24 leerlingen, een derde afwezig. Gevraagd: het aantal "
+                  "<strong>aanwezigen</strong>."),
+            ("p", "Een derde van 24 is 8. Wie hier stopt, schrijft 8 op. Maar 8 is het aantal afwezigen. "
+                  "Het antwoord is 24 − 8 = <strong>16</strong>."),
+            ("kader", "Onderstreep in de vraag wat er precies gevraagd wordt. Een juist getal bij de "
+                      "verkeerde vraag is even fout als een rekenfout, en het voelt veel juister aan."),
+        ]),
+        dict(kop="Strategieën die vaak werken", blokken=[
+            ("p", "Er is geen enkele aanpak die altijd werkt. Dit zijn de strategieën die de fiche "
+                  "noemt en die je het vaakst nodig hebt."),
+            ("p", "Een <strong>schets of tekening</strong> maken. Gegevens in een <strong>tabel</strong> "
+                  "zetten. <strong>Terugrekenen</strong>, van achter naar voor. <strong>Alle "
+                  "mogelijkheden</strong> opschrijven. Een <strong>patroon</strong> zoeken. "
+                  "<strong>Schatten</strong> om te zien in welke buurt het antwoord ligt. Het probleem "
+                  "<strong>opsplitsen</strong> in kleinere stukken."),
+            ("kader", "Werkt je aanpak niet, probeer dan een andere in plaats van dezelfde weg nog eens "
+                      "te gaan. Vastlopen is normaal; blijven duwen in dezelfde richting helpt zelden."),
+        ]),
+        dict(kop="Terugrekenen", blokken=[
+            ("p", "„Ik denk aan een getal, tel er 7 bij op en vermenigvuldig met 3. Ik krijg 36.” "
+                  "Vooruit rekenen lukt niet, want je kent het begin niet. Dan draai je de weg om."),
+            ("fig", svg.stappen(["36", "deel door 3|12", "min 7|5"]),
+             "Van achter naar voor, en elke bewerking wordt haar omgekeerde: maal 3 wordt gedeeld door 3, plus 7 wordt min 7."),
+            ("p", "Controleer altijd vooruit: (5 + 7) × 3 = 36. Klopt. Datzelfde trucje werkt bij "
+                  "korting: een trui kost € 32 ná 20 % korting, dus € 32 is 80 % van de oude prijs, en "
+                  "32 : 0,80 = <strong>€ 40</strong>."),
+        ]),
+        dict(kop="Alle mogelijkheden overlopen", blokken=[
+            ("p", "Soms is het antwoord gewoon: tel ze. Maar tel ze dan ook <strong>allemaal</strong>, en "
+                  "geen enkele twee keer. Een boompje helpt daarbij."),
+            ("fig", svg.mogelijkhedenboom(["trui A", "trui B", "trui C"], ["broek 1", "broek 2"]),
+             "Bij elke trui passen twee broeken. Drie takken met elk twee bladeren: 3 × 2 = 6 combinaties."),
+            ("p", "Daarom vermenigvuldig je het aantal keuzes. Met de cijfers 1, 2 en 3 kan je "
+                  "<strong>6</strong> getallen van twee cijfers maken als elk cijfer maar één keer mag: "
+                  "drie keuzes voor het eerste cijfer, en dan nog twee over."),
+            ("kader", "Let op wanneer de volgorde értoe doet en wanneer niet. Drie vrienden die elkaar "
+                      "een hand geven, geven <strong>3</strong> handdrukken en geen 6: AB en BA is dezelfde "
+                      "handdruk."),
+        ]),
+        dict(kop="Verhoudingen", blokken=[
+            ("p", "Veel vraagstukken zijn verhoudingen in vermomming. Ga dan eerst naar één stuk, want "
+                  "van daaruit kan je naar elk aantal."),
+            ("fig", svg.verhoudingstabel([("4", "300 g"), ("1", "75 g"), ("6", "450 g")],
+                                         koppen=("personen", "rijst")),
+             "Een recept voor 4 personen vraagt 300 g rijst. Ga naar één persoon, en van daar naar zes."),
+            ("p", "Wat je met de ene rij doet, doe je met de andere ook. Dat werkt voor prijzen, "
+                  "hoeveelheden, afstanden en tijden."),
+        ]),
+        dict(kop="Drie valkuilen", blokken=[
+            ("p", "<strong>De paalfout.</strong> Langs een tuin van 20 m komt om de 4 meter een paal, ook "
+                  "aan het begin en het einde. 20 : 4 = 5, maar er staan <strong>6</strong> palen: de palen "
+                  "staan op de grenzen, niet in de vakjes. Maak bij twijfel een tekening."),
+            ("p", "<strong>Naar boven afronden.</strong> Voor 100 mensen in rijen van 14 stoelen is "
+                  "100 : 14 = 7 met 2 over. Die 2 hebben ook een stoel nodig, dus er zijn <strong>8</strong> "
+                  "rijen. Bij dozen, bussen en rijen rond je altijd naar boven af."),
+            ("p", "<strong>Eenheden door elkaar.</strong> Een film van 105 minuten duurt "
+                  "<strong>1 u 45 min</strong>, niet 1,05 uur. Een uur heeft 60 minuten, geen 100."),
+        ]),
+        dict(kop="Reflecteren: kan dit kloppen?", blokken=[
+            ("p", "De laatste stap kost tien seconden en vangt de meeste fouten. Stel jezelf drie vragen."),
+            ("p", "<strong>Is het mogelijk?</strong> Een klas van 25 leerlingen met samen 3 potloden, of "
+                  "iemand van 200 jaar: dan ging er iets mis. <strong>Ligt het in de buurt van mijn "
+                  "schatting?</strong> 19 × 21 moet rond 400 liggen. <strong>Beantwoordt het de "
+                  "vraag?</strong> Er werd naar de aanwezigen gevraagd, niet naar de afwezigen."),
+            ("kader", "Een onmogelijk antwoord is geen reden om te twijfelen aan jezelf, wel een aanwijzing "
+                      "waar de fout zit. Zoek de stap waar het getal onrealistisch werd."),
+        ]),
+    ],
+    onthoud=[
+        "Begrijp het probleem, maak een plan, voer uit, reflecteer. Pas bij stap drie reken je.",
+        "Schrijf op wat gegeven is en wat gevraagd wordt, en onderstreep de vraag.",
+        "Strategieën: tekening, tabel, terugrekenen, alle mogelijkheden, patroon, schatten, opsplitsen.",
+        "Terugrekenen: van achter naar voor, en elke bewerking wordt haar omgekeerde.",
+        "Aantal combinaties: vermenigvuldig de keuzes. Maar let op of de volgorde ertoe doet.",
+        "Verhoudingen: ga eerst naar één stuk, dan naar elk aantal.",
+        "Paalfout: op 20 m om de 4 m staan 6 palen, niet 5.",
+        "Bij rijen, dozen en bussen rond je naar boven af.",
+        "Een film van 105 minuten is 1 u 45 min, niet 1,05 uur.",
+        "Reflecteer: is het mogelijk, ligt het bij mijn schatting, en beantwoordt het de vraag?",
+    ])

@@ -2531,3 +2531,32 @@ def tekenregels(breedte=470):
         d.append(_tekst(x + vak / 2, y + 30, f"{eerste} × {tweede}", 11, DIM))
         d.append(_tekst(x + vak / 2, y + 58, uit, 26, FOREST if positief else AMBER, vet=True))
     return _svg(breedte, y0 + vak * 2 + 14, "".join(d))
+
+
+def mogelijkhedenboom(eerste, tweede, breedte=470):
+    """Een boompje dat alle combinaties van twee keuzes laat zien.
+
+    eerste = de takken bovenaan, tweede = wat er bij elke tak nog bij kan.
+    Zo wordt zichtbaar waarom je het aantal keuzes vermenigvuldigt.
+    """
+    n, m = len(eerste), len(tweede)
+    top_y, blad_y = 54, 132
+    vakb, vakh = 88, 30
+    stam_x = breedte / 2
+    tak_x = [(i + 0.5) * breedte / n for i in range(n)]
+    d = [f'<circle cx="{stam_x}" cy="20" r="5" fill="{FOREST}"/>']
+    for i, naam in enumerate(eerste):
+        d.append(f'<line x1="{stam_x}" y1="25" x2="{tak_x[i]:.1f}" y2="{top_y - vakh/2}" '
+                 f'stroke="{BORDER}" stroke-width="1.6"/>')
+        d.append(f'<rect x="{tak_x[i]-vakb/2:.1f}" y="{top_y-vakh/2}" width="{vakb}" height="{vakh}" '
+                 f'rx="8" fill="{PAPER}" stroke="{FOREST}" stroke-width="1.4"/>')
+        d.append(_tekst(tak_x[i], top_y + 4, naam, 11, DARK, vet=True))
+        for j, blad in enumerate(tweede):
+            bx = tak_x[i] + (j - (m - 1) / 2) * (vakb / m + 6)
+            d.append(f'<line x1="{tak_x[i]:.1f}" y1="{top_y + vakh/2}" x2="{bx:.1f}" '
+                     f'y2="{blad_y - vakh/2}" stroke="{BORDER}" stroke-width="1.4"/>')
+            d.append(f'<rect x="{bx - vakb/m/2 - 2:.1f}" y="{blad_y-vakh/2}" '
+                     f'width="{vakb/m + 4:.1f}" height="{vakh}" rx="8" fill="#ffffff" '
+                     f'stroke="{AMBER}" stroke-width="1.4"/>')
+            d.append(_tekst(bx, blad_y + 4, blad, 10, DARK))
+    return _svg(breedte, blad_y + vakh / 2 + 12, "".join(d))
