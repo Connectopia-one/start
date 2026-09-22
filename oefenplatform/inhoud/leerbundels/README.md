@@ -20,17 +20,19 @@ bladspiegel rustig — weinig kleuren, veel wit, korte alinea's.
 In `bron/` staat waarmee ze gemaakt zijn:
 
 - `stijl.css` — de huisstijl van het oefenplatform, in drukvorm.
-- `svg.py` — tekenhulpjes voor getallenlijnen, breukenstroken en het procentraster.
-- `maak_<hoofdstuk>.py` — de inhoud van één bundel; die schrijft een html-bestand.
-- `pdf.js` — zet dat html-bestand om naar pdf (via Playwright).
+- `svg.py` — de tekenhulpjes: getallenlijn, breukenstroken, procentraster,
+  maatladder, klok, hoeken, vlakke figuren, ruimtefiguren, staaf-, lijn- en
+  cirkeldiagram, dobbelsteen, stappenplan.
+- `bundel.py` — zet een bundel-beschrijving om naar een html-bestand.
+- `maak_<vak>.py` — de inhoud van alle bundels van dat vak.
+- `pdf.js` — zet een html-bestand om naar pdf (via Playwright).
 
-Zo gaat dat:
+Zo maak je een heel vak opnieuw:
 
 ```
-python3 maak_getallenkennis.py     # schrijft getallenkennis.html
-node pdf.js getallenkennis         # schrijft getallenkennis.pdf
+python3 maak_wiskunde.py       # schrijft één html-bestand per hoofdstuk
+node pdf.js getallenkennis     # en zo verder, per hoofdstuk
 ```
 
-Wil je enkel een zin aanpassen, dan hoef je de pdf niet opnieuw te maken: je kan
-ook gewoon de tekst in het `maak_`-bestand veranderen en die twee regels opnieuw
-draaien.
+Wil je enkel een zin aanpassen, verander die dan in het `maak_`-bestand van dat
+vak en draai die twee regels opnieuw.
