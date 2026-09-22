@@ -336,3 +336,98 @@ BUNDELS["probleemoplossend-denken-spark"] = dict(
         "Een film van 105 minuten is 1 u 45 min, niet 1,05 uur.",
         "Reflecteer: is het mogelijk, ligt het bij mijn schatting, en beantwoordt het de vraag?",
     ])
+
+
+BUNDELS["redeneringen-en-uitspraken-spark"] = dict(
+    vak="Wiskunde", niveau=SPARK, titel="Wiskundige redeneringen en uitspraken",
+    onder="Hoe je beoordeelt of iets klopt, en hoe je je oordeel opschrijft.",
+    secties=[
+        dict(kop="Klopt het, en hoe weet je dat?", blokken=[
+            ("p", "Wiskunde is niet enkel rekenen. Even vaak krijg je een <strong>uitspraak</strong> "
+                  "voorgeschoteld en is de vraag of ze klopt. Je antwoord is dan niet een getal, maar een "
+                  "oordeel met een reden erbij."),
+            ("p", "Klopt de uitspraak, dan geef je ter illustratie een <strong>voorbeeld</strong> of "
+                  "verwijs je naar een eigenschap. Klopt ze niet, dan geef je een "
+                  "<strong>tegenvoorbeeld</strong>: één geval waarin ze onderuitgaat."),
+            ("kader", "Let op het verschil: een voorbeeld <strong>illustreert</strong>, maar bewijst niets. "
+                      "Tien gevallen waarin iets klopt, laten nog altijd ruimte voor een elfde waarin het "
+                      "misgaat. Eén tegenvoorbeeld daarentegen is meteen beslissend."),
+        ]),
+        dict(kop="Eén tegenvoorbeeld is genoeg", blokken=[
+            ("p", "„Alle priemgetallen zijn oneven.” Dat klinkt aannemelijk: 3, 5, 7, 11, 13 … Maar "
+                  "<strong>2</strong> is een priemgetal, en 2 is even. Daarmee is de uitspraak weerlegd."),
+            ("p", "„Als een getal deelbaar is door 2, dan is het deelbaar door 4.” Tegenvoorbeeld: "
+                  "<strong>6</strong>. Deelbaar door 2, niet door 4. Klaar."),
+            ("kader", "Een tegenvoorbeeld moet wél aan de voorwaarde voldoen. Bij die laatste uitspraak is 9 "
+                      "géén tegenvoorbeeld: 9 is niet deelbaar door 2, dus de uitspraak zegt er niets over."),
+        ]),
+        dict(kop="De als-dan-pijl ⇒", blokken=[
+            ("p", "<strong>a ⇒ b</strong> lees je als: als a waar is, dan is b waar. De pijl heeft een "
+                  "richting, en die richting is het halve werk."),
+            ("fig", svg.pijlrichting("een vierkant", "vier rechte|hoeken", False),
+             "Heen klopt het altijd. Terug niet: een rechthoek van 3 bij 5 heeft vier rechte hoeken en is geen vierkant."),
+            ("p", "Denk aan: „als het regent, is de straat nat”. Het regent niet — wat weet je over de "
+                  "straat? <strong>Niets met zekerheid</strong>. Ze kan nat zijn van een sproeier. De pijl "
+                  "zegt alleen iets over het geval waarin het wél regent."),
+            ("fig", svg.insluiting("rechthoeken", "vierkanten", "3 bij 5", "4 bij 4"),
+             "Elk vierkant zit binnen de rechthoeken, maar niet elke rechthoek zit binnen de vierkanten. Zo zie je meteen welke kant de pijl op mag."),
+        ]),
+        dict(kop="De dubbele pijl ⇔", blokken=[
+            ("p", "Geldt het in <strong>allebei</strong> de richtingen, dan schrijf je <strong>⇔</strong>: "
+                  "als en slechts als."),
+            ("fig", svg.pijlrichting("eindigt op 0", "deelbaar|door 10", True),
+             "Heen: wie op 0 eindigt, is 10, 20, 30 … Terug: elk veelvoud van 10 eindigt op 0. Allebei, dus mag de dubbele pijl."),
+            ("p", "Zo ook: een getal is deelbaar door 3 <strong>⇔</strong> de som van zijn cijfers is "
+                  "deelbaar door 3. Bij 123: 1 + 2 + 3 = 6, deelbaar door 3, en inderdaad 123 : 3 = 41."),
+            ("kader", "Twijfel je tussen ⇒ en ⇔, zoek dan één getal of één figuur dat de terugweg "
+                      "onderuithaalt. Vind je er een, dan is het ⇒. Vind je er geen en zie je waarom, dan ⇔."),
+        ]),
+        dict(kop="Netjes opschrijven hoort erbij", blokken=[
+            ("p", "De fiche vraagt uitdrukkelijk dat je een redenering correct noteert. Dat is geen "
+                  "opsmuk: wie tussenstappen weglaat, kan zijn eigen fout niet terugvinden."),
+            ("p", "Gebruik de juiste tekens. <strong>≤</strong> betekent kleiner dan óf gelijk aan, dus "
+                  "x ≤ 5 laat 5 zelf ook toe; <strong>&lt;</strong> niet. Zet <strong>haakjes</strong> waar "
+                  "ze nodig zijn: 2 + 3 × 4 = 14, maar (2 + 3) × 4 = 20."),
+            ("kader", "Delen en aftrekken zijn niet associatief. 12 : 4 : 2 reken je van links naar rechts: "
+                      "12 : 4 = 3 en dan 3 : 2 = <strong>1,5</strong>. Wie eerst 4 : 2 doet, krijgt 6 en heeft "
+                      "stilzwijgend de opgave veranderd."),
+        ]),
+        dict(kop="Redeneerfouten die je moet kunnen betrappen", blokken=[
+            ("p", "<strong>De pijl omdraaien.</strong> Uit a ⇒ b volgt niet b ⇒ a. „Alle getallen die op 5 "
+                  "eindigen zijn deelbaar door 5” klopt; omgekeerd niet, want 10 is deelbaar door 5 en "
+                  "eindigt op 0."),
+            ("p", "<strong>Een regel gebruiken waar hij niet geldt.</strong> √(9 + 16) is niet √9 + √16. "
+                  "Eerst het haakje: 9 + 16 = 25, en √25 = <strong>5</strong>, niet 7."),
+            ("p", "<strong>Percentages optellen.</strong> 10 % korting en daarna nog eens 10 % is geen 20 %. "
+                  "Van € 100 blijft € 90 over, daarvan gaat € 9 af, je betaalt € 81. De korting is dus "
+                  "<strong>19 %</strong>."),
+            ("p", "<strong>Het teken vergeten bij maal min.</strong> Uit 5 &gt; 3 volgt niet −5 &gt; −3. "
+                  "Vermenigvuldigen met een negatief getal <strong>draait de ongelijkheid om</strong>: "
+                  "−5 &lt; −3. Optellen doet dat niet: uit 5 &gt; 3 volgt gewoon 7 &gt; 5."),
+        ]),
+        dict(kop="Van voorbeeld naar bewijs", blokken=[
+            ("p", "„De som van twee even getallen is even.” Je kan 2 + 4, 6 + 8 en 10 + 12 uitrekenen, "
+                  "maar dan heb je drie gevallen, niet alle."),
+            ("p", "Met letters dek je ze in één keer. Elk even getal is 2a, dus neem 2a en 2b. Hun som is "
+                  "2a + 2b = <strong>2(a + b)</strong>, en dat is een veelvoud van 2. Klaar voor alle even "
+                  "getallen tegelijk."),
+            ("kader", "Dat is meteen het verschil tussen een voorbeeld en een bewijs: een voorbeeld toont "
+                      "één geval, een bewijs dekt ze allemaal."),
+            ("p", "Kijk tot slot na of je antwoord de <strong>gestelde vraag</strong> beantwoordt. Een "
+                  "redenering waarvan elke stap klopt maar die eindigt bij iets anders dan wat gevraagd "
+                  "werd, is nog niet af."),
+        ]),
+    ],
+    onthoud=[
+        "Klopt een uitspraak: geef een voorbeeld of een eigenschap. Klopt ze niet: geef een tegenvoorbeeld.",
+        "Eén tegenvoorbeeld weerlegt; tien voorbeelden bewijzen niet.",
+        "Een tegenvoorbeeld moet zelf aan de voorwaarde voldoen.",
+        "a ⇒ b geldt maar één kant op. Elk vierkant is een rechthoek, niet elke rechthoek een vierkant.",
+        "⇔ gebruik je pas als je allebei de richtingen apart getest hebt.",
+        "≤ laat gelijk ook toe, < niet. Zet haakjes waar ze nodig zijn.",
+        "Delen gaat van links naar rechts: 12 : 4 : 2 = 1,5.",
+        "√(9 + 16) = 5, niet 3 + 4. Een wortel splits je niet over een som.",
+        "10 % en nog eens 10 % korting is samen 19 %, geen 20 %.",
+        "Maal een negatief getal draait de ongelijkheid om: uit 5 > 3 volgt −5 < −3.",
+        "Even + even: schrijf 2a + 2b = 2(a + b). Zo dek je alle gevallen in één keer.",
+    ])

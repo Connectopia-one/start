@@ -112,6 +112,27 @@ CONTROLES = [
     ("probleem: 300 g voor 4 → 75 g",           75,             F(300, 4)),
     ("probleem: 6 × 75 = 450",                  450,            6 * 75),
     ("probleem: 19 × 21 ligt rond 400",         True,           350 < 19 * 21 < 450),
+
+    # --- wiskundige redeneringen en uitspraken ---
+    ("redenering: 2 is priem en even",          (True, True),
+     (all(2 % d for d in range(2, 2)), 2 % 2 == 0)),
+    ("redenering: 6 wel door 2, niet door 4",   (0, 2),         (6 % 2, 6 % 4)),
+    ("redenering: 9 is niet deelbaar door 2",   1,              9 % 2),
+    ("redenering: 123 cijfersom is 6",          6,              1 + 2 + 3),
+    ("redenering: 123 : 3 = 41",                41,             123 // 3),
+    ("redenering: 12 : 4 : 2 = 1,5",            F(3, 2),        F(12, 4) / 2),
+    ("redenering: 4 : 2 zou 6 geven",           6,              12 // (4 // 2)),
+    ("redenering: √(9 + 16) = 5",               5,              math.isqrt(9 + 16)),
+    ("redenering: √9 + √16 = 7",                7,              math.isqrt(9) + math.isqrt(16)),
+    ("redenering: 10 % en nog eens 10 % → 81",  81,             F(90, 100) * F(90, 100) * 100),
+    ("redenering: dat is 19 % korting",         19,             100 - F(90, 100) * F(90, 100) * 100),
+    ("redenering: 5 > 3 maar −5 < −3",          True,           5 > 3 and -5 < -3),
+    ("redenering: uit 5 > 3 volgt 7 > 5",       True,           (5 + 2) > (3 + 2)),
+    ("redenering: 10 deelbaar door 5",          0,              10 % 5),
+    ("redenering: 2 + 3 × 4 = 14",              14,             2 + 3 * 4),
+    ("redenering: (2 + 3) × 4 = 20",            20,             (2 + 3) * 4),
+    ("redenering: 2a + 2b = 2(a + b)",          True,
+     all(2 * a + 2 * b == 2 * (a + b) for a in range(5) for b in range(5))),
 ]
 
 

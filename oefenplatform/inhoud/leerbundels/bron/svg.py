@@ -2560,3 +2560,57 @@ def mogelijkhedenboom(eerste, tweede, breedte=470):
                      f'stroke="{AMBER}" stroke-width="1.4"/>')
             d.append(_tekst(bx, blad_y + 4, blad, 10, DARK))
     return _svg(breedte, blad_y + vakh / 2 + 12, "".join(d))
+
+
+def pijlrichting(links, rechts, omkeerbaar, breedte=470):
+    """Twee uitspraken met een pijl ertussen: geldt het \u00e9\u00e9n kant op, of allebei.
+
+    Bewust zonder bijschrift bij de pijlen: tussen de twee vakjes is maar een
+    goede negentig punten plaats, en tekst die daar niet in past, loopt over de
+    vakjes heen. Wat de richtingen betekenen, hoort in het onderschrift.
+    """
+    vakb, vakh = 168, 54
+    y = 46
+    x1, x2 = 6, breedte - vakb - 6
+    d = []
+    for x, tekst in ((x1, links), (x2, rechts)):
+        d.append(f'<rect x="{x}" y="{y}" width="{vakb}" height="{vakh}" rx="10" '
+                 f'fill="{PAPER}" stroke="{FOREST}" stroke-width="1.6"/>')
+        regels = tekst.split("|")
+        start = y + vakh / 2 + 4 - (len(regels) - 1) * 7
+        for j, regel in enumerate(regels):
+            d.append(_tekst(x + vakb / 2, start + j * 15, regel, 11, DARK, vet=(j == 0)))
+    mx1, mx2 = x1 + vakb + 14, x2 - 14
+    mid = y + vakh / 2
+    d.append(f'<path d="M{mx1} {mid-8} H{mx2} l-7 -5 m7 5 l-7 5" stroke="{FOREST}" '
+             f'stroke-width="2" fill="none" stroke-linecap="round"/>')
+    if omkeerbaar:
+        d.append(f'<path d="M{mx2} {mid+8} H{mx1} l7 -5 m-7 5 l7 5" stroke="{FOREST}" '
+                 f'stroke-width="2" fill="none" stroke-linecap="round"/>')
+    else:
+        # de terugweg gestippeld en doorstreept: die geldt niet
+        d.append(f'<path d="M{mx2} {mid+8} H{mx1} l7 -5 m-7 5 l7 5" stroke="#c9c2b4" '
+                 f'stroke-width="2" fill="none" stroke-linecap="round" stroke-dasharray="4 4"/>')
+        m = (mx1 + mx2) / 2
+        d.append(f'<line x1="{m-7}" y1="{mid+1}" x2="{m+7}" y2="{mid+15}" '
+                 f'stroke="{AMBER}" stroke-width="2.4" stroke-linecap="round"/>')
+        d.append(f'<line x1="{m+7}" y1="{mid+1}" x2="{m-7}" y2="{mid+15}" '
+                 f'stroke="{AMBER}" stroke-width="2.4" stroke-linecap="round"/>')
+    return _svg(breedte, y + vakh + 16, "".join(d))
+
+
+def insluiting(buiten, binnen, voorbeeld_buiten, voorbeeld_binnen, breedte=470):
+    """Eén groep helemaal binnen een andere: elk vierkant is een rechthoek.
+
+    Zo wordt zichtbaar waarom de als-dan maar één kant op werkt.
+    """
+    h = 172
+    d = [f'<rect x="20" y="14" width="{breedte-40}" height="{h-28}" rx="14" fill="none" '
+         f'stroke="#5b7f9c" stroke-width="1.8"/>']
+    d.append(_tekst(34, 36, buiten, 11.5, "#5b7f9c", anker="start", vet=True))
+    d.append(_tekst(breedte - 34, 36, voorbeeld_buiten, 9.5, DIM, anker="end"))
+    d.append(f'<rect x="{breedte/2-108}" y="62" width="216" height="{h-96}" rx="12" fill="none" '
+             f'stroke="{FOREST}" stroke-width="1.8"/>')
+    d.append(_tekst(breedte / 2, 84, binnen, 11.5, FOREST, vet=True))
+    d.append(_tekst(breedte / 2, h - 48, voorbeeld_binnen, 9.5, DIM))
+    return _svg(breedte, h, "".join(d))

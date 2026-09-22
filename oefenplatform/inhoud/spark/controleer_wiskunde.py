@@ -37,6 +37,25 @@ def macht(grondtal: int, exponent: int) -> str:
     return f"{grondtal}{str(exponent).translate(hoog)}"
 
 
+def komma(getal: str) -> F:
+    """"0,5" → 1/2. De opties staan met een komma, zoals in het Nederlands."""
+    heel, _, deel = getal.partition(",")
+    return F(int(heel)) + (F(int(deel), 10 ** len(deel)) if deel else 0)
+
+
+def kleiner_kwadraat(opties) -> str:
+    """Welke van deze getallen wordt kleiner als je het kwadrateert.
+
+    Dat is het tegenvoorbeeld bij "het kwadraat is altijd groter dan het getal
+    zelf". Het script zoekt het zelf op, zodat de opties in de vraag mogen
+    wijzigen zonder dat deze controle stilzwijgend verkeerd wordt.
+    """
+    passend = [o for o in opties if komma(o) ** 2 < komma(o)]
+    if len(passend) != 1:
+        raise SystemExit(f"verwacht precies één tegenvoorbeeld, kreeg {passend}")
+    return passend[0]
+
+
 def mintekens(waarde) -> str:
     """Zet elk minteken in dezelfde vorm.
 
@@ -138,6 +157,14 @@ CONTROLES = [
     ("Anna is nu 12",                        f"{(40 - 12) - 12} jaar"),
     ("4 flessen voor de prijs van 3",        f"{int(F(2, 8) * 100)} %"),
     ("er blijven er 4 over",                 str([d for d in (7, 8, 9) if 96 % d == 0][0])),
+    # --- Wiskundige redeneringen en uitspraken ---
+    # Hier is het antwoord meestal een oordeel, geen getal. Wat je wél kan
+    # narekenen is het tegenvoorbeeld zelf: klopt het getal dat aangeduid staat
+    # ook echt als tegenvoorbeeld?
+    ("dan is het deelbaar door 4.” Welk getal", str(next(n for n in (6, 8, 12) if n % 2 == 0 and n % 4))),
+    ("Alle priemgetallen zijn oneven",        str(next(n for n in (2, 9, 15) if n % 2 == 0 and all(n % d for d in range(2, n))))),
+    ("kleiner dan of gelijk aan 5",           "x ≤ 5"),
+    ("altijd groter dan het getal zelf",      kleiner_kwadraat(("0,5", "2", "10"))),
 ]
 
 # Vragen die je niet kúnt narekenen omdat het antwoord een woord is. Het juiste
@@ -159,6 +186,18 @@ WOORDEN = [
     ("samen 3 potloden",                     "Je berekening opnieuw nakijken, want dit klinkt onwaarschijnlijk"),
     ("is het slim om een andere te proberen", True),
     ("Wat is de laatste stap",               "Nakijken of je antwoord de gestelde vraag beantwoordt"),
+    # --- Wiskundige redeneringen: het antwoord is een oordeel ---
+    ("dan is het deelbaar door 2.” Klopt dat", "Ja, altijd"),
+    ("Alle veelvouden van 6 zijn even",       "Enkele veelvouden opschrijven: 6, 12, 18, 24"),
+    ("En de omgekeerde uitspraak",            "De eerste klopt, de omgekeerde niet"),
+    ("dus −5 > −3",                           "Bij negatieve getallen draait de volgorde om: −5 < −3"),
+    ("Als a × b = 0",                         "a = 3 en b = 0"),
+    ("12 : 4 : 2",                            "Delen gaat van links naar rechts: 12 : 4 = 3, dan 3 : 2 = 1,5"),
+    ("Klopt de dubbele pijl",                 "Ja, het geldt in allebei de richtingen"),
+    ("is samen 20 % korting",                 "De tweede korting wordt van een kleiner bedrag genomen: samen is het 19 %"),
+    ("alle getallen die deelbaar zijn door 5", "De eerste klopt, de tweede niet"),
+    ("√9 + √16",                              "Nee, √25 = 5. Een wortel mag je niet zo splitsen bij een som"),
+    ("dan is het groter dan 5.” Welke pijl",  "⇒, want omgekeerd geldt het niet: 7 is groter dan 5 maar niet dan 10"),
 ]
 
 
