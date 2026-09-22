@@ -1176,6 +1176,1243 @@
           "uitleg": "Mesopotamië gaf ons onder meer het wiel en de astronomie. Onze zestig minuten en zestig seconden komen ook uit hun rekenstelsel."
         }
       ]
+    },
+    {
+      "titel": "Het oude Griekenland — deel 1",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Rond welke zee lag het oude Griekenland?",
+          "opties": [
+            "De Middellandse Zee",
+            "De Noordzee",
+            "De Rode Zee"
+          ],
+          "antwoord": 0,
+          "uitleg": "Griekenland ligt aan de Middellandse Zee, met de Egeïsche Zee tussen het vasteland en de eilanden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Griekenland heeft veel bergen en eilanden. Wat betekende dat voor de bewoning?",
+          "opties": [
+            "Mensen leefden in kleine gebieden die van elkaar gescheiden waren",
+            "Iedereen woonde samen in één grote stad",
+            "Niemand kon er wonen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bergen en zee maakten reizen moeilijk. Elke vallei of kuststrook werd zo een wereldje op zich."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemde men een Griekse stadstaat? (één woord)",
+          "antwoord": "polis",
+          "uitleg": "Een polis is een stad met het land eromheen, met een eigen bestuur, eigen wetten en een eigen beschermgod."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke twee stadstaten waren het bekendst?",
+          "opties": [
+            "Athene en Sparta",
+            "Rome en Carthago",
+            "Troje en Delphi"
+          ],
+          "antwoord": 0,
+          "uitleg": "Athene en Sparta waren de twee machtigste, en ze verschilden sterk van elkaar."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Alle Griekse stadstaten werden samen door één koning bestuurd.",
+          "antwoord": false,
+          "uitleg": "Nee. Elke polis bestuurde zichzelf. Ze deelden wel taal, goden en gewoonten, maar geen bestuur."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar staat Sparta vooral om bekend?",
+          "opties": [
+            "Zijn leger en zijn harde opvoeding",
+            "Zijn theaters",
+            "Zijn handelsvloot"
+          ],
+          "antwoord": 0,
+          "uitleg": "In Sparta draaide alles om het leger. Jongens gingen op hun zevende weg van huis om soldaat te worden."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke stadstaat leidde haar jongens vanaf hun zevende op tot soldaat? (één woord)",
+          "antwoord": "Sparta",
+          "uitleg": "Die opvoeding heette de agoge en duurde jaren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk bestuur groeide in Athene, na oligarchie en tirannie?",
+          "opties": [
+            "Democratie",
+            "Koningschap",
+            "Keizerrijk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Athene ging als eerste over op een bestuur waarin de burgers zelf beslisten."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je een bestuur waarin de burgers zelf meebeslissen? (één woord)",
+          "antwoord": "democratie",
+          "uitleg": "Het woord komt uit het Grieks: demos is het volk, kratos is de macht."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In Athene mochten ook vrouwen en slaven meestemmen.",
+          "antwoord": false,
+          "uitleg": "Nee. Alleen vrije mannen die burger waren mochten stemmen, en dat was een minderheid van de bevolking."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wie mocht er in Athene meestemmen?",
+          "opties": [
+            "Vrije mannen die burger waren",
+            "Iedereen die er woonde",
+            "Enkel de rijkste families"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vrouwen, slaven en vreemdelingen telden niet mee, ook al woonden ze er hun hele leven."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Geloofden de Grieken in één god of in meerdere?",
+          "opties": [
+            "In meerdere goden",
+            "In één god",
+            "In geen enkele god"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat heet polytheïsme. Elke god had een eigen taak en een eigen karakter."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Op welke berg woonden de Griekse goden volgens de verhalen? (één woord)",
+          "antwoord": "Olympus",
+          "uitleg": "De Olympus is de hoogste berg van Griekenland. Daar zetelden de twaalf belangrijkste goden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wie was de oppergod van de Grieken?",
+          "opties": [
+            "Zeus",
+            "Apollo",
+            "Hades"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zeus was de god van de hemel en de bliksem, en de baas over de andere goden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar kwamen de Olympische Spelen vandaan?",
+          "opties": [
+            "Uit een feest ter ere van Zeus in Olympia",
+            "Uit een oorlog tussen Athene en Sparta",
+            "Uit een school voor soldaten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het was een godsdienstig feest. Tijdens de spelen gold zelfs een wapenstilstand."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De Olympische Spelen bestonden al in het oude Griekenland.",
+          "antwoord": true,
+          "uitleg": "Ja, vanaf 776 v.C. Onze moderne spelen zijn er een heropleving van."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat was een orakel?",
+          "opties": [
+            "Een plaats waar men dacht een boodschap van de goden te krijgen",
+            "Een wapen",
+            "Een soort schip"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het bekendste was dat van Delphi. Antwoorden waren vaak dubbelzinnig, zodat ze achteraf altijd klopten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke beroemde tempel staat op de Akropolis van Athene?",
+          "opties": [
+            "Het Parthenon",
+            "Het Colosseum",
+            "De Hagia Sophia"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het Parthenon was gewijd aan Athena, de beschermgodin van de stad."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat deden Griekse kolonisten?",
+          "opties": [
+            "Ze stichtten nieuwe steden aan verre kusten",
+            "Ze bouwden de tempels in Athene",
+            "Ze schreven de wetten van Sparta"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zo kwamen er Griekse steden tot in Zuid-Italië, Frankrijk en rond de Zwarte Zee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wie was een beroemde Griekse denker?",
+          "opties": [
+            "Socrates",
+            "Caesar",
+            "Cleopatra"
+          ],
+          "antwoord": 0,
+          "uitleg": "Socrates stelde vragen in plaats van antwoorden te geven. Zijn leerling Plato schreef het op."
+        }
+      ]
+    },
+    {
+      "titel": "Het oude Griekenland — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom ontstonden er in Griekenland veel aparte stadstaten in plaats van één groot rijk?",
+          "opties": [
+            "Bergen en zee scheidden de gebieden, waardoor samen besturen moeilijk was",
+            "Omdat de Grieken een oorlog verloren hadden",
+            "Omdat de goden het zo bevalen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De geografie stuurde de politiek: wie niet vlot bij elkaar raakt, bestuurt zichzelf."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je een bestuur door een kleine groep rijke of adellijke mensen? (één woord)",
+          "antwoord": "oligarchie",
+          "uitleg": "In Sparta bleef het daarbij: twee koningen, een raad van ouderen en een kleine groep die besliste."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat was een tiran bij de Grieken?",
+          "opties": [
+            "Een alleenheerser die de macht gegrepen had",
+            "Een verkozen rechter",
+            "Een priester van Zeus"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het woord betekende toen niet vanzelf 'wreed'. Sommige tirannen waren populair bij het gewone volk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat was de grootste beperking van de Atheense democratie?",
+          "opties": [
+            "Slechts een minderheid van de bevolking was burger en mocht stemmen",
+            "Er werd maar één keer per jaar gestemd",
+            "Alleen soldaten mochten spreken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vrouwen, slaven en vreemdelingen waren uitgesloten. Van de hele bevolking stemde ongeveer één op tien."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Athene was een directe democratie: burgers stemden zelf, niet via verkozenen.",
+          "antwoord": true,
+          "uitleg": "Ja. De burgers kwamen samen op de volksvergadering en stemden daar over de wetten zelf."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wie vochten er tegen elkaar in de Perzische oorlogen?",
+          "opties": [
+            "De Griekse stadstaten tegen het Perzische Rijk",
+            "Athene tegen Sparta",
+            "Rome tegen Carthago"
+          ],
+          "antwoord": 0,
+          "uitleg": "De stadstaten werkten er uitzonderlijk samen tegen een gemeenschappelijke vijand van buitenaf."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat was een gevolg van de Perzische oorlogen?",
+          "opties": [
+            "Athene werd machtig en leidde een bondgenootschap",
+            "Griekenland werd Perzisch",
+            "De stadstaten verdwenen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Athene bouwde met het geld van dat bondgenootschap onder meer het Parthenon."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wie vochten er tegen elkaar in de Peloponnesische oorlog?",
+          "opties": [
+            "Athene tegen Sparta",
+            "Athene tegen Perzië",
+            "Sparta tegen Macedonië"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een oorlog tussen Grieken onderling, die bijna dertig jaar duurde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat was het gevolg van de Peloponnesische oorlog?",
+          "opties": [
+            "De Griekse stadstaten kwamen er verzwakt uit",
+            "Athene werd nog machtiger",
+            "Er kwam één Griekse koning"
+          ],
+          "antwoord": 0,
+          "uitleg": "Door die verzwakking kon Macedonië later makkelijk de baas worden over heel Griekenland."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom trokken Grieken weg om kolonies te stichten?",
+          "opties": [
+            "Er was te weinig vruchtbare grond voor een groeiende bevolking",
+            "Ze werden verbannen door de goden",
+            "Ze zochten sneeuw"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het bergachtige land kon niet iedereen voeden. Wie overbleef, ging op zoek naar akkers elders."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk cultureel gevolg had de Griekse kolonisatie?",
+          "opties": [
+            "Griekse taal, goden en gewoonten verspreidden zich rond de Middellandse Zee",
+            "De Grieken vergaten hun eigen taal",
+            "Er kwam één munt voor alle volkeren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Daardoor kwamen ook de Romeinen al vroeg met Griekse cultuur in aanraking."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wie waren de heloten in Sparta?",
+          "opties": [
+            "Onvrije landbouwers die voor de Spartanen werkten",
+            "De verkozen leiders",
+            "De priesters van de tempel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zij bewerkten het land, zodat de Spartanen zich volledig op het leger konden richten. Ze waren veruit in de meerderheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk verschil was er tussen vrouwen in Sparta en vrouwen in Athene?",
+          "opties": [
+            "Spartaanse vrouwen hadden meer bewegingsvrijheid en mochten sporten",
+            "Atheense vrouwen bestuurden de stad",
+            "Er was geen enkel verschil"
+          ],
+          "antwoord": 0,
+          "uitleg": "In Athene bleef een vrouw grotendeels binnenshuis. Meebeslissen deed ze op geen van beide plaatsen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wie was de leerling van Socrates die zelf de leraar van Aristoteles werd? (één woord)",
+          "antwoord": "Plato",
+          "uitleg": "Socrates schreef zelf niets. Wat wij van hem weten, komt vooral uit de boeken van Plato."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom noemt men de Grieken het begin van de wetenschap?",
+          "opties": [
+            "Zij zochten verklaringen in de natuur zelf, niet enkel bij de goden",
+            "Zij vonden de computer uit",
+            "Zij schreven als eersten iets op"
+          ],
+          "antwoord": 0,
+          "uitleg": "Die stap, van 'de goden deden het' naar 'hoe werkt dit', is wat hun denken zo bijzonder maakt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke drie zuilstijlen kenden de Grieken?",
+          "opties": [
+            "Dorisch, Ionisch en Korintisch",
+            "Rond, vierkant en plat",
+            "Hoog, laag en breed"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je herkent ze bovenaan de zuil: Dorisch is sober, Ionisch heeft krullen, Korintisch heeft bladeren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen archaïsche en klassieke Griekse beeldhouwkunst?",
+          "opties": [
+            "Klassieke beelden staan natuurlijker en lijken te bewegen",
+            "Archaïsche beelden zijn van goud",
+            "Klassieke beelden zijn kleiner"
+          ],
+          "antwoord": 0,
+          "uitleg": "Archaïsche beelden staan stijf rechtop en glimlachen star. Klassieke beelden verplaatsen hun gewicht op één been."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wie was Homeros?",
+          "opties": [
+            "De dichter aan wie de Ilias en de Odyssee toegeschreven worden",
+            "Een Spartaanse koning",
+            "De bouwer van het Parthenon"
+          ],
+          "antwoord": 0,
+          "uitleg": "De Ilias gaat over de Trojaanse oorlog, de Odyssee over de jarenlange thuisreis van Odysseus."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wie was Alexander de Grote?",
+          "opties": [
+            "Een Macedonische koning die een wereldrijk veroverde tot in India",
+            "De eerste keizer van Rome",
+            "Een Atheense filosoof"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hij was een leerling van Aristoteles en veroverde in een tiental jaar het hele Perzische Rijk."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de vermenging van Griekse cultuur met die van het oosten na Alexander? (één woord)",
+          "antwoord": "hellenisme",
+          "uitleg": "Na zijn dood viel het rijk uiteen, maar de Griekse taal en cultuur bleven er eeuwenlang de toon aangeven."
+        }
+      ]
+    },
+    {
+      "titel": "Het Romeinse Rijk — deel 1",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Aan welke rivier ontstond de stad Rome?",
+          "opties": [
+            "De Tiber",
+            "De Nijl",
+            "De Donau"
+          ],
+          "antwoord": 0,
+          "uitleg": "Rome groeide op de heuvels langs de Tiber, een eind van de zee maar wel bereikbaar per schip."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welk land ligt Rome vandaag?",
+          "opties": [
+            "Italië",
+            "Griekenland",
+            "Spanje"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het Italische schiereiland was het eerste gebied dat Rome helemaal in handen kreeg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat vertelt de stichtingsmythe van Rome?",
+          "opties": [
+            "Romulus en Remus werden als baby's grootgebracht door een wolvin",
+            "De stad werd gebouwd door Zeus",
+            "De stad kwam uit de zee"
+          ],
+          "antwoord": 0,
+          "uitleg": "Volgens het verhaal doodde Romulus zijn broer Remus en noemde hij de stad naar zichzelf."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Naar wie is Rome volgens de sage genoemd? (één woord)",
+          "antwoord": "Romulus",
+          "uitleg": "Een mythe is geen geschiedenis: ze vertelt vooral hoe de Romeinen zichzelf wilden zien."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Rome werd in het begin bestuurd door koningen.",
+          "antwoord": true,
+          "uitleg": "Ja. Die koningstijd kwam vóór de republiek. De laatste koningen waren Etrusken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk bestuur kwam er na de koningstijd?",
+          "opties": [
+            "De republiek",
+            "Het keizerrijk",
+            "De democratie"
+          ],
+          "antwoord": 0,
+          "uitleg": "De Romeinen joegen hun laatste koning weg en wilden nooit meer één alleenheerser."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je een staat zonder koning, waarin verkozen bestuurders het land leiden? (één woord)",
+          "antwoord": "republiek",
+          "uitleg": "Het woord komt van res publica: de publieke zaak, de zaak van iedereen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat was de senaat?",
+          "opties": [
+            "De raad van oud-bestuurders die grote invloed had",
+            "Het leger van Rome",
+            "Een tempel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Officieel gaf de senaat alleen advies, maar in de praktijk besliste ze mee over bijna alles."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke twee bevolkingsgroepen stonden in Rome tegenover elkaar?",
+          "opties": [
+            "Patriciërs en plebejers",
+            "Grieken en Etrusken",
+            "Boeren en zeelieden"
+          ],
+          "antwoord": 0,
+          "uitleg": "De plebejers moesten hun rechten stap voor stap afdwingen, onder meer door te staken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wie waren de patriciërs?",
+          "opties": [
+            "De oude rijke adellijke families",
+            "De slaven",
+            "De soldaten uit de provincies"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zij bezetten lange tijd alle belangrijke ambten en zetelden in de senaat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wie was de eerste keizer van Rome?",
+          "opties": [
+            "Augustus",
+            "Julius Caesar",
+            "Nero"
+          ],
+          "antwoord": 0,
+          "uitleg": "Augustus was de aangenomen zoon van Caesar. Caesar zelf is nooit keizer geweest."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke bekende Romein werd in de senaat vermoord?",
+          "opties": [
+            "Julius Caesar",
+            "Augustus",
+            "Romulus"
+          ],
+          "antwoord": 0,
+          "uitleg": "Caesar had zich tot dictator voor het leven laten benoemen. Zijn tegenstanders zagen daarin een nieuwe koning."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het Romeinse Rijk strekte zich uit rond de hele Middellandse Zee.",
+          "antwoord": true,
+          "uitleg": "Ja, op zijn grootst van Britannië tot Egypte, en van Spanje tot aan de Eufraat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekende mare nostrum?",
+          "opties": [
+            "Onze zee",
+            "Grote haven",
+            "Verre grens"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zo noemden de Romeinen de Middellandse Zee, toen alle kusten ervan van hen waren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarmee brachten de Romeinen water tot in hun steden?",
+          "opties": [
+            "Met aquaducten",
+            "Met windmolens",
+            "Met karren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een aquaduct loopt heel licht bergaf, kilometers lang, zodat het water vanzelf blijft stromen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar vochten gladiatoren?",
+          "opties": [
+            "In een amfitheater, zoals het Colosseum",
+            "In een tempel",
+            "Op het forum"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een amfitheater is rondom gebouwd, zodat iedereen zicht had op het midden."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De Romeinen namen veel over van de Griekse cultuur.",
+          "antwoord": true,
+          "uitleg": "Ja, van goden en bouwstijlen tot theater en filosofie. Ze gaven de Griekse goden wel eigen namen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe heette de Griekse god Zeus bij de Romeinen?",
+          "opties": [
+            "Jupiter",
+            "Mars",
+            "Mercurius"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dezelfde god, een andere naam. Zo werd Ares Mars en Aphrodite Venus."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke taal spraken de Romeinen?",
+          "opties": [
+            "Latijn",
+            "Grieks",
+            "Italiaans"
+          ],
+          "antwoord": 0,
+          "uitleg": "Uit het Latijn groeiden later onder meer het Frans, Spaans en Italiaans."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk spoor van de Romeinen zie je vandaag nog?",
+          "opties": [
+            "Onze maandnamen, wegen, letters en veel woorden",
+            "Onze elektriciteit",
+            "Ons internet"
+          ],
+          "antwoord": 0,
+          "uitleg": "Juli en augustus zijn zelfs rechtstreeks naar Julius Caesar en Augustus genoemd."
+        }
+      ]
+    },
+    {
+      "titel": "Het Romeinse Rijk — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke volkeren hadden invloed op het vroege Rome?",
+          "opties": [
+            "De Grieken en de Etrusken",
+            "De Egyptenaren en de Perzen",
+            "De Kelten en de Vikingen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van de Etrusken kwamen de boog en bestuursgewoonten, van de Grieken goden, kunst en het alfabet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom koos de republiek voor twee consuls, elk voor één jaar?",
+          "opties": [
+            "Zodat niemand alleen en langdurig alle macht zou krijgen",
+            "Omdat er te veel werk was voor één persoon",
+            "Omdat de goden het zo wilden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ze konden elkaars beslissingen tegenhouden. Alleen in uiterste nood benoemde men tijdelijk één dictator."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat deed de volksvergadering in de republiek?",
+          "opties": [
+            "Ze koos de magistraten en stemde over wetten",
+            "Ze bestuurde het leger",
+            "Ze sprak recht over de keizer"
+          ],
+          "antwoord": 0,
+          "uitleg": "De stemmen waren wel per groep geteld, en de rijkste groepen stemden eerst en wogen het zwaarst."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Tegen wie voerde Rome de Punische oorlogen?",
+          "opties": [
+            "Tegen Carthago",
+            "Tegen Athene",
+            "Tegen Egypte"
+          ],
+          "antwoord": 0,
+          "uitleg": "Carthago lag in wat nu Tunesië is en was de grote handelsmacht van de westelijke Middellandse Zee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat was het gevolg van de Punische oorlogen?",
+          "opties": [
+            "Rome werd de baas over de westelijke Middellandse Zee",
+            "Rome verloor Italië",
+            "Carthago veroverde Rome"
+          ],
+          "antwoord": 0,
+          "uitleg": "Carthago werd uiteindelijk volledig verwoest. Rome had geen tegenstander meer in het westen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een latifundium?",
+          "opties": [
+            "Een groot landgoed dat met slaven bewerkt werd",
+            "Een Romeinse tempel",
+            "Een soort belasting"
+          ],
+          "antwoord": 0,
+          "uitleg": "De oorlogen leverden zoveel krijgsgevangenen op dat slavenarbeid spotgoedkoop werd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk gevolg hadden de latifundia voor de kleine boer?",
+          "opties": [
+            "Hij kon niet concurreren en trok verarmd naar de stad",
+            "Hij werd rijk",
+            "Hij mocht geen graan meer telen"
+          ],
+          "antwoord": 0,
+          "uitleg": "In de stad groeide zo een grote groep arme, werkloze burgers. Politici probeerden die met brood en spelen tevreden te houden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat was een triumviraat?",
+          "opties": [
+            "Een samenwerking van drie machtige mannen",
+            "Een tempel voor drie goden",
+            "Een legerafdeling"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het eerste bestond uit Caesar, Pompeius en Crassus; het tweede uit Augustus, Marcus Antonius en Lepidus."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom ging de republiek uiteindelijk ten onder?",
+          "opties": [
+            "Door burgeroorlogen en legers die trouw waren aan hun generaal in plaats van aan de staat",
+            "Door een aardbeving",
+            "Omdat het volk om een koning vroeg"
+          ],
+          "antwoord": 0,
+          "uitleg": "Soldaten kregen hun land van hun generaal, niet van de staat. Daardoor volgden ze hem, ook tegen Rome in."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe noemde Augustus zichzelf, in plaats van koning?",
+          "opties": [
+            "Princeps, de eerste burger",
+            "Farao",
+            "Consul voor het leven"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hij hield de vormen van de republiek in stand, maar had in de praktijk alle macht. Slim, want koning lag gevoelig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent Pax Romana?",
+          "opties": [
+            "Romeinse vrede: een lange periode van rust in het rijk",
+            "Romeinse wet",
+            "Romeinse weg"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ze duurde ongeveer twee eeuwen, vanaf Augustus. Aan de grenzen werd wel nog gevochten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk verband is er tussen de Pax Romana en de economie?",
+          "opties": [
+            "Veilige wegen en zeeën maakten handel over het hele rijk mogelijk",
+            "De vrede maakte iedereen arm",
+            "Er was geen verband"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eén munt, één rechtssysteem en geen rovers of piraten: goederen konden van Britannië tot Egypte reizen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat was de keizerscultus?",
+          "opties": [
+            "De keizer werd als goddelijk vereerd",
+            "Een feest voor de senaat",
+            "Een belasting op tempels"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het was ook een politiek bindmiddel: in een rijk vol volkeren en goden vereerde iedereen tenminste de keizer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe verging het het christendom in het Romeinse Rijk?",
+          "opties": [
+            "Het werd eerst vervolgd en werd later staatsgodsdienst",
+            "Het werd meteen verboden en verdween",
+            "Het bestond er niet"
+          ],
+          "antwoord": 0,
+          "uitleg": "Christenen weigerden de keizer te vereren. Onder Constantijn werd het toegelaten, later werd het de enige toegestane godsdienst."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat voegden de Romeinen toe aan de Griekse bouwkunst?",
+          "opties": [
+            "De boog, het gewelf, de koepel en het beton",
+            "De zuil",
+            "Het dak"
+          ],
+          "antwoord": 0,
+          "uitleg": "Daarmee konden ze veel grotere ruimtes overspannen dan met alleen zuilen en balken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat valt op aan Romeinse portretbeelden?",
+          "opties": [
+            "Ze tonen de mens zoals hij was, met rimpels en al",
+            "Ze tonen iedereen als jonge god",
+            "Ze hebben geen gezicht"
+          ],
+          "antwoord": 0,
+          "uitleg": "Griekse beelden tonen het ideaal, Romeinse portretten tonen de persoon. Later gingen keizers zich wél idealer laten afbeelden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat waren oorzaken van de crisis van de 3de eeuw?",
+          "opties": [
+            "Invallen aan de grenzen, muntontwaarding en keizers die elkaar snel opvolgden",
+            "Een te goede oogst",
+            "Het vertrek van de senaat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Er volgden tientallen keizers in enkele decennia, vaak door het leger benoemd en weer afgezet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe werd het rijk uiteindelijk verdeeld?",
+          "opties": [
+            "In een West-Romeins en een Oost-Romeins Rijk",
+            "In drie gelijke delen",
+            "In twintig provincies"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het rijk was te groot om vanuit één punt te besturen. Het oostelijke deel bleef daarna nog duizend jaar bestaan."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het Oost-Romeinse Rijk verdween samen met het West-Romeinse Rijk.",
+          "antwoord": false,
+          "uitleg": "Nee. Het oosten leefde voort als het Byzantijnse Rijk, met Constantinopel als hoofdstad, tot 1453."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is 476 n.C. een scharnierpunt in de geschiedenis?",
+          "opties": [
+            "Het West-Romeinse Rijk valt, en daarmee begint volgens de indeling de middeleeuwen",
+            "Rome wordt gesticht",
+            "Caesar wordt vermoord"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zo'n scharnierpunt is een afspraak onder historici, geen dag waarop alles plots anders was."
+        }
+      ]
+    },
+    {
+      "titel": "Bronnen, kunst en beeldvorming — deel 1",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Een historicus was er zelf niet bij. Waaruit leidt hij het verleden dan af?",
+          "opties": [
+            "Uit alles wat er van vroeger overblijft",
+            "Uit zijn fantasie",
+            "Uit wat mensen vandaag denken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Teksten, voorwerpen, gebouwen, afbeeldingen, verhalen: alles wat de tijd doorstaan heeft, kan iets vertellen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een historische bron?",
+          "opties": [
+            "Alles uit het verleden waaruit je iets over die tijd kan afleiden",
+            "Enkel een geschreven tekst",
+            "Een boek van een historicus van vandaag"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ook een afvalhoop, een muntje of een kinderspeelgoed is een bron."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je iets uit het verleden waaruit een historicus informatie haalt? (één woord, enkelvoud)",
+          "antwoord": "bron",
+          "uitleg": "Zonder bronnen is er geen geschiedenis, enkel giswerk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een primaire bron?",
+          "opties": [
+            "Een bron die uit de tijd zelf komt",
+            "Een bron die het belangrijkst is",
+            "Een bron die je als eerste leest"
+          ],
+          "antwoord": 0,
+          "uitleg": "Primair slaat op de tijd, niet op het belang: gemaakt in of vlak bij de periode die je onderzoekt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een secundaire bron?",
+          "opties": [
+            "Een bron die later gemaakt is op basis van andere bronnen",
+            "Een bron van minder belang",
+            "Een bron zonder maker"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je handboek is een secundaire bron: de schrijver was er niet bij en werkte met wat anderen naliet."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je schoolboek over de Romeinen is een primaire bron.",
+          "antwoord": false,
+          "uitleg": "Nee, dat is secundair. Een primaire bron over de Romeinen is bijvoorbeeld een Romeinse grafsteen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een brief van een Romeinse soldaat aan zijn familie is …",
+          "opties": [
+            "een primaire bron",
+            "een secundaire bron",
+            "geen bron"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hij schreef hem zelf, in zijn eigen tijd. Zulke brieven zijn echt teruggevonden, onder meer bij de muur van Hadrianus."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke vier soorten verdeelt men historische bronnen?",
+          "opties": [
+            "Geschreven, mondeling, materieel en audiovisueel",
+            "Oud, nieuw, echt en vals",
+            "Groot, klein, licht en zwaar"
+          ],
+          "antwoord": 0,
+          "uitleg": "Die indeling gaat over de vorm van de bron, niet over haar waarde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een potscherf uit een opgraving is welke soort bron?",
+          "opties": [
+            "Een materiële bron",
+            "Een geschreven bron",
+            "Een mondelinge bron"
+          ],
+          "antwoord": 0,
+          "uitleg": "Materiële bronnen zijn voorwerpen en gebouwen: alles wat je kan vastnemen of betreden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een opgenomen gesprek met iemand die de oorlog meemaakte, is welke soort bron?",
+          "opties": [
+            "Een mondelinge bron",
+            "Een materiële bron",
+            "Een secundaire bron"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het gaat om het gesproken woord. Wordt het gefilmd, dan is het ook audiovisueel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een ooggetuige?",
+          "opties": [
+            "Iemand die het zelf gezien heeft",
+            "Iemand die erover gelezen heeft",
+            "Iemand die het onderzoekt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een ooggetuige staat het dichtst bij de gebeurtenis, maar ziet daardoor ook maar één stukje ervan."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je iemand die een gebeurtenis met eigen ogen gezien heeft? (één woord)",
+          "antwoord": "ooggetuige",
+          "uitleg": "Let op: dichtbij zijn maakt iemand niet vanzelf betrouwbaar. Ook een ooggetuige vergist zich of kiest partij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een tijdgenoot?",
+          "opties": [
+            "Iemand die in dezelfde tijd leefde, ook al was hij er niet bij",
+            "Iemand die het later onderzocht",
+            "Iemand van dezelfde leeftijd als jij"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een tijdgenoot kende de wereld van toen van binnenuit, maar hoorde het voorval misschien van horen zeggen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wie is de opdrachtgever van een bron?",
+          "opties": [
+            "Wie de bron liet maken en ervoor betaalde",
+            "Wie de bron terugvond",
+            "Wie de bron bewaart in een museum"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een standbeeld of een tempelmuur is de opdrachtgever vaak belangrijker dan de maker zelf."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Wie een bron betaalt, kan invloed hebben op wat erin komt te staan.",
+          "antwoord": true,
+          "uitleg": "Ja, en dat is precies waarom je je altijd afvraagt wie de opdracht gaf."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom wil een historicus weten wie een bron gemaakt heeft?",
+          "opties": [
+            "Omdat elke maker vanuit zijn eigen positie en belang vertelt",
+            "Omdat hij anders niet mag citeren",
+            "Om de maker te kunnen betalen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dezelfde slag ziet er anders uit in het verslag van de winnaar dan in dat van de verliezer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen het verleden en de geschiedenis?",
+          "opties": [
+            "Het verleden is alles wat gebeurd is; geschiedenis is het verhaal dat historici erover maken",
+            "Er is geen verschil",
+            "Het verleden is korter dan de geschiedenis"
+          ],
+          "antwoord": 0,
+          "uitleg": "Daarom kan geschiedenis herschreven worden, en het verleden niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat kan een kunstwerk een historicus vertellen?",
+          "opties": [
+            "Hoe mensen toen naar zichzelf en naar de wereld keken",
+            "Enkel hoe goed de kunstenaar kon tekenen",
+            "Niets"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wat mensen afbeelden, en hoe ze het afbeelden, verraadt wat zij belangrijk vonden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze kan een kunst- of cultuuruiting zijn?",
+          "opties": [
+            "Een schilderij, een gebouw, een film, een game of graffiti",
+            "Enkel een schilderij in een museum",
+            "Enkel iets ouder dan honderd jaar"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ook wat vandaag gemaakt wordt, is voor latere historici een bron over onze tijd."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een game kan nooit een bron zijn voor een historicus.",
+          "antwoord": false,
+          "uitleg": "Toch wel. Een game vertelt weinig over de periode die ze uitbeeldt, maar veel over de tijd waarin ze gemaakt is."
+        }
+      ]
+    },
+    {
+      "titel": "Bronnen, kunst en beeldvorming — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen bruikbaar en betrouwbaar?",
+          "opties": [
+            "Bruikbaar = ze geeft antwoord op jouw vraag; betrouwbaar = wat erin staat klopt",
+            "Het is hetzelfde",
+            "Bruikbaar = ze is oud; betrouwbaar = ze is nieuw"
+          ],
+          "antwoord": 0,
+          "uitleg": "Twee aparte vragen, en je moet ze allebei stellen. Een bron kan het ene zijn zonder het andere."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wanneer is een bron onbruikbaar, ook al klopt alles wat erin staat?",
+          "opties": [
+            "Als ze niets zegt over de vraag die jij onderzoekt",
+            "Als ze in een andere taal geschreven is",
+            "Als ze te oud is"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een perfect betrouwbare lijst van Egyptische graanvoorraden helpt je niet als je vraag over Griekse tempels gaat."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een onbetrouwbare bron is waardeloos voor een historicus.",
+          "antwoord": false,
+          "uitleg": "Nee. Ze zegt misschien weinig over wat er gebeurde, maar veel over wie ze maakte en wat die wilde bereiken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom kan een bron die overduidelijk overdrijft, toch nuttig zijn?",
+          "opties": [
+            "Ze toont wat de maker wilde dat de mensen zouden geloven",
+            "Ze is makkelijker te lezen",
+            "Ze is altijd korter"
+          ],
+          "antwoord": 0,
+          "uitleg": "Overdrijving is zelf een gegeven. Ze verraadt het doel van de maker."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent standplaatsgebondenheid?",
+          "opties": [
+            "Dat wie iets vertelt, dat doet vanuit zijn eigen tijd, plaats en positie",
+            "Dat een bron niet verplaatst mag worden",
+            "Dat een historicus ter plaatse moet gaan kijken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Niemand kijkt van nergens. Waar je staat, bepaalt wat je ziet en hoe je het benoemt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De Griekse schrijver Herodotos noemt de Perzen 'barbaren'. Wat bedoelde hij daarmee?",
+          "opties": [
+            "Mensen die geen Grieks spraken",
+            "Wrede en domme mensen",
+            "Soldaten te paard"
+          ],
+          "antwoord": 0,
+          "uitleg": "Voor de Grieken was het gewoon 'niet-Grieks'. Het woord klonk naar hun oren als onverstaanbaar gebrabbel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is dat woord een goed voorbeeld van standplaatsgebondenheid?",
+          "opties": [
+            "Wij lezen 'barbaar' als onbeschaafd, terwijl de Grieken iets anders bedoelden",
+            "Omdat Herodotos loog",
+            "Omdat het woord Perzisch is"
+          ],
+          "antwoord": 0,
+          "uitleg": "Onze eigen tijd kleurt mee hoe wij een oude tekst lezen. Daar moet je bewust tegenin denken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Heb jij zelf ook standplaatsgebondenheid?",
+          "opties": [
+            "Ja, jouw achtergrond kleurt mee hoe jij het verleden ziet",
+            "Nee, alleen mensen uit vroeger tijden",
+            "Nee, alleen historici"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je kan ze niet uitschakelen, maar je kan ze wel kennen. Dat is al de halve oplossing."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Na de slag bij Kadesj in 1274 v.C. claimden zowel farao Ramses als de Hettieten de overwinning. Wat leer je daaruit?",
+          "opties": [
+            "Dat je bronnen tegen elkaar moet afwegen in plaats van er één te geloven",
+            "Dat er twee slagen waren",
+            "Dat de slag nooit plaatsvond"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het werd vermoedelijk onbeslist. Kort daarna sloten beide partijen het oudste vredesverdrag dat wij kennen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom liet Ramses zijn 'overwinning' op tempelmuren uithouwen?",
+          "opties": [
+            "Om aan zijn eigen volk te tonen hoe machtig hij was",
+            "Om de Hettieten te informeren",
+            "Om historici te helpen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een bron heeft altijd een doelpubliek. Dat van Ramses waren zijn eigen onderdanen, niet wij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze is een historische redeneerwijze?",
+          "opties": [
+            "Oorzaak en gevolg benoemen",
+            "Snel kunnen lezen",
+            "Jaartallen vanbuiten leren"
+          ],
+          "antwoord": 0,
+          "uitleg": "De vijf zijn: oorzaak en gevolg, meerdere perspectieven, continuïteit en verandering, bewijs gebruiken, en verbanden leggen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bedoelt men met 'continuïteit en verandering'?",
+          "opties": [
+            "Kijken wat doorheen de tijd hetzelfde bleef en wat veranderde",
+            "Alles in de juiste volgorde zetten",
+            "Enkel naar veranderingen kijken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wat hetzelfde blijft is even veelzeggend als wat verandert, maar het valt veel minder op."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: de redeneerwijze heet continuïteit en … (één woord)",
+          "antwoord": "verandering",
+          "uitleg": "Ze horen bij elkaar: je kan het ene niet zien zonder het andere."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bedoelt men met 'meerdere perspectieven hanteren'?",
+          "opties": [
+            "Hetzelfde voorval bekijken vanuit verschillende betrokkenen",
+            "Veel bronnen lezen over verschillende periodes",
+            "Meerdere antwoorden geven op dezelfde vraag"
+          ],
+          "antwoord": 0,
+          "uitleg": "De slaaf, de soldaat en de keizer beleefden hetzelfde rijk. Hun verhalen erover lopen ver uiteen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bedoelt men met 'bewijs gebruiken'?",
+          "opties": [
+            "Je antwoord steunen op wat er in de bronnen staat, niet op je gevoel",
+            "Altijd gelijk krijgen",
+            "Enkel primaire bronnen gebruiken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een antwoord zonder bewijs is een mening. Met bewijs wordt het geschiedenis."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is mythevorming?",
+          "opties": [
+            "Een verhaal dat rond iemand of iets groeit en het beeld ervan vervormt",
+            "Een Grieks godenverhaal opschrijven",
+            "Een bron vervalsen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Meestal gebeurt het niet uit kwaad opzet: een goed verhaal wordt gewoon vaker doorverteld dan een saai."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het populaire beeld van de neanderthaler als dom en lomp …",
+          "opties": [
+            "klopt niet: zij maakten werktuigen, verzorgden zieken en begroeven hun doden",
+            "klopt helemaal",
+            "gaat over een diersoort"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ze hadden vuur, kleding en samengestelde werktuigen, en onze eigen genen dragen nog sporen van hen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het beeld dat historici van het verleden hebben, kan veranderen.",
+          "antwoord": true,
+          "uitleg": "Ja, en dat is geen zwakte van het vak maar de kern ervan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom kan dat beeld veranderen?",
+          "opties": [
+            "Door nieuwe bronnen, nieuwe onderzoekstechnieken en nieuwe vragen",
+            "Omdat het verleden zelf verandert",
+            "Omdat historici het snel vergeten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Koolstofdatering en DNA-onderzoek hebben in enkele decennia meer bijgesteld dan eeuwen discussie ervoor."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe geeft een kunstwerk betekenis?",
+          "opties": [
+            "Door vorm en inhoud samen: wát er staat én hóe het getoond wordt",
+            "Enkel door het onderwerp",
+            "Enkel door de kleuren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een keizer te paard, groter dan iedereen, met het licht op zijn gezicht: de vorm zegt hier evenveel als het onderwerp."
+        }
+      ]
     }
   ]
 }

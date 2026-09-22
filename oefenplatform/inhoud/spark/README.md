@@ -33,24 +33,22 @@ bezorgde (geldig 2027). De fiche behandelt de prehistorie, het oude nabije
 oosten en de klassieke oudheid, plus het historisch referentiekader en het
 werken met bronnen.
 
-Klaar (80 vragen):
+Klaar (240 vragen, alle zes de thema's uit de fiche):
 
-| Hoofdstuk | Vragen |
-| --- | --- |
-| Het historisch referentiekader — deel 1 | 20 |
-| Het historisch referentiekader — deel 2 | 20 |
-| De prehistorie — deel 1 | 20 |
-| De prehistorie — deel 2 | 20 |
+| Hoofdstuk | Vragen | Leerbundel |
+| --- | --- | --- |
+| Het historisch referentiekader — deel 1 en 2 | 2 x 20 | historisch-referentiekader.pdf |
+| De prehistorie — deel 1 en 2 | 2 x 20 | prehistorie.pdf |
+| Mesopotamië en Egypte — deel 1 en 2 | 2 x 20 | mesopotamie-en-egypte.pdf |
+| Het oude Griekenland — deel 1 en 2 | 2 x 20 | het-oude-griekenland.pdf |
+| Het Romeinse Rijk — deel 1 en 2 | 2 x 20 | het-romeinse-rijk.pdf |
+| Bronnen, kunst en beeldvorming — deel 1 en 2 | 2 x 20 | bronnen-kunst-en-beeldvorming.pdf |
 
-Nog te schrijven, uit dezelfde fiche:
+De bundels staan in `../leerbundels/geschiedenis/` en komen uit
+`../leerbundels/bron/maak_geschiedenis_spark.py`.
 
-- Mesopotamië en Egypte — deel 1 en 2
-- Het oude Griekenland — deel 1 en 2
-- Het Romeinse Rijk — deel 1 en 2
-- Bronnen, kunst en beeldvorming — deel 1 en 2
-
-Die komen in ditzelfde bestand erbij. Importeer je het later opnieuw, vink dan
-**"Bestaande vragen vervangen"** aan, anders staat het eerste deel dubbel.
+Importeer je dit bestand opnieuw, vink dan **"Bestaande vragen vervangen"** aan,
+anders staat alles wat er al in zat een tweede keer in je databank.
 
 ## Invulvragen
 

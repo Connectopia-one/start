@@ -2322,3 +2322,125 @@ def ziggurat(breedte=470):
     d.append(f'<text x="{mid:.1f}" y="{h-8}" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" '
              f'font-size="9.5" fill="{DIM}">gebouwd uit in de zon gedroogde kleitegels</text>')
     return _svg(breedte, h, "".join(d))
+
+
+def zuilstijlen(breedte=470):
+    """De drie Griekse zuilstijlen naast elkaar, herkenbaar aan hun kapiteel.
+
+    Het verschil zit bovenaan de zuil, in het kapiteel: Dorisch is een sober
+    kussen, Ionisch heeft twee krullen opzij, Korintisch een kelk vol bladeren.
+    Daarom staat dat stuk hier groot: dat is wat je moet kunnen herkennen.
+    """
+    h = 250
+    steen = "#d8d2c4"
+    ABACUS_Y, ABACUS_H = 46, 9      # de vierkante dekplaat, bij alle drie gelijk
+    KAP_TOP = ABACUS_Y + ABACUS_H   # waar het kapiteel begint
+    KAP_ONDER = 92                  # waar de schacht begint
+    kolommen = [
+        ("Dorisch", "een sober kussen", 84),
+        ("Ionisch", "twee krullen opzij", 235),
+        ("Korintisch", "een kelk vol bladeren", 386),
+    ]
+    schacht_b = 30
+    voet = h - 34
+    d = [f'<rect x="20" y="{voet}" width="{breedte-40}" height="9" fill="{BORDER}"/>']
+
+    for naam, onder, cx in kolommen:
+        # de schacht, met groeven
+        d.append(f'<rect x="{cx-schacht_b/2}" y="{KAP_ONDER}" width="{schacht_b}" '
+                 f'height="{voet-KAP_ONDER}" fill="{steen}" stroke="{FOREST}" stroke-width="1.4"/>')
+        for i in range(1, 4):
+            gx = cx - schacht_b / 2 + i * schacht_b / 4
+            d.append(f'<line x1="{gx:.1f}" y1="{KAP_ONDER+4}" x2="{gx:.1f}" y2="{voet-4}" '
+                     f'stroke="{FOREST}" stroke-width="0.7" opacity="0.5"/>')
+
+        if naam == "Dorisch":
+            # een breed kussen dat van de schacht naar de dekplaat uitloopt
+            d.append(f'<path d="M{cx-15} {KAP_ONDER} Q{cx-16} {KAP_TOP+4} {cx-26} {KAP_TOP} '
+                     f'H{cx+26} Q{cx+16} {KAP_TOP+4} {cx+15} {KAP_ONDER} Z" '
+                     f'fill="{steen}" stroke="{FOREST}" stroke-width="1.4"/>')
+            d.append(f'<line x1="{cx-20}" y1="{KAP_TOP+9}" x2="{cx+20}" y2="{KAP_TOP+9}" '
+                     f'stroke="{FOREST}" stroke-width="0.8" opacity="0.5"/>')
+            # geen voetstuk: een Dorische zuil staat rechtstreeks op de vloer
+        elif naam == "Ionisch":
+            d.append(f'<rect x="{cx-15}" y="{KAP_ONDER-8}" width="30" height="8" fill="{steen}" '
+                     f'stroke="{FOREST}" stroke-width="1.2"/>')
+            for kant in (-1, 1):
+                kx = cx + kant * 17
+                ky = KAP_TOP + 13
+                d.append(f'<circle cx="{kx}" cy="{ky}" r="11" fill="{steen}" '
+                         f'stroke="{FOREST}" stroke-width="1.4"/>')
+                d.append(f'<circle cx="{kx}" cy="{ky}" r="5.5" fill="none" '
+                         f'stroke="{FOREST}" stroke-width="1.1"/>')
+                d.append(f'<circle cx="{kx}" cy="{ky}" r="1.8" fill="{FOREST}"/>')
+            d.append(f'<rect x="{cx-7}" y="{KAP_TOP+6}" width="14" height="{KAP_ONDER-KAP_TOP-6}" '
+                     f'fill="{steen}" stroke="{FOREST}" stroke-width="1.1"/>')
+            d.append(f'<rect x="{cx-20}" y="{voet-7}" width="40" height="7" fill="{steen}" '
+                     f'stroke="{FOREST}" stroke-width="1.4"/>')
+        else:
+            # een kelk: smal onderaan, wijd bovenaan, met bladeren erin
+            d.append(f'<path d="M{cx-14} {KAP_ONDER} C{cx-15} {KAP_TOP+12} {cx-24} {KAP_TOP+8} '
+                     f'{cx-25} {KAP_TOP} H{cx+25} C{cx+24} {KAP_TOP+8} {cx+15} {KAP_TOP+12} '
+                     f'{cx+14} {KAP_ONDER} Z" fill="{steen}" stroke="{FOREST}" stroke-width="1.4"/>')
+            # onderste krans bladeren, en een tweede rij die erboven uitsteekt
+            for bx, bh in ((-8, 13), (0, 16), (8, 13)):
+                bo = KAP_ONDER - 2
+                d.append(f'<path d="M{cx+bx} {bo} Q{cx+bx-4.5} {bo-bh/2} {cx+bx} {bo-bh} '
+                         f'Q{cx+bx+4.5} {bo-bh/2} {cx+bx} {bo} Z" fill="{FOREST}" opacity="0.5"/>')
+            for bx in (-16, -5.5, 5.5, 16):
+                bo = KAP_TOP + 14
+                d.append(f'<path d="M{cx+bx} {bo} Q{cx+bx-4} {bo-7} {cx+bx} {bo-13} '
+                         f'Q{cx+bx+4} {bo-7} {cx+bx} {bo} Z" fill="{FOREST}" opacity="0.32"/>')
+            d.append(f'<rect x="{cx-20}" y="{voet-7}" width="40" height="7" fill="{steen}" '
+                     f'stroke="{FOREST}" stroke-width="1.4"/>')
+
+        # de dekplaat komt bovenop, zodat ze het kapiteel netjes afsluit
+        d.append(f'<rect x="{cx-29}" y="{ABACUS_Y}" width="58" height="{ABACUS_H}" '
+                 f'fill="{steen}" stroke="{FOREST}" stroke-width="1.4"/>')
+        d.append(_tekst(cx, 32, naam, 11, DARK, vet=True))
+        d.append(_tekst(cx, h - 12, onder, 9, DIM))
+
+    return _svg(breedte, h, "".join(d))
+
+
+def primair_secundair(breedte=470):
+    """Waarom een bron primair of secundair heet: het gaat om de tijd.
+
+    Links de gebeurtenis, daarnaast wat er toen gemaakt werd (primair), en
+    rechts wat er later uit gemaakt werd (secundair).
+    """
+    h = 214
+    lijn_y = 150
+    d = [f'<line x1="26" y1="{lijn_y}" x2="{breedte-26}" y2="{lijn_y}" '
+         f'stroke="{DIM}" stroke-width="1.6"/>',
+         f'<path d="M{breedte-30} {lijn_y-5} L{breedte-20} {lijn_y} L{breedte-30} {lijn_y+5} Z" fill="{DIM}"/>',
+         _tekst(breedte - 40, lijn_y + 20, "later", 9.5, DIM)]
+
+    blokken = [
+        (108, "de gebeurtenis", "het voorval zelf", AMBER, "toen"),
+        (250, "primaire bron", "toen gemaakt", FOREST, "toen"),
+        (396, "secundaire bron", "later gemaakt|uit die bronnen", DARK, "later"),
+    ]
+    for cx, kop, onder, kleur, _ in blokken:
+        bb, bh = 118, 60
+        d.append(f'<rect x="{cx-bb/2}" y="{lijn_y-bh-22}" width="{bb}" height="{bh}" rx="9" '
+                 f'fill="{PAPER}" stroke="{kleur}" stroke-width="1.6"/>')
+        d.append(_tekst(cx, lijn_y - bh - 22 + 24, kop, 10.5, kleur, vet=True))
+        for i, regel in enumerate(onder.split("|")):
+            d.append(_tekst(cx, lijn_y - bh - 22 + 40 + i * 12, regel, 9, DIM))
+        d.append(f'<line x1="{cx}" y1="{lijn_y-22}" x2="{cx}" y2="{lijn_y-5}" '
+                 f'stroke="{kleur}" stroke-width="1.3" stroke-dasharray="3 2.5"/>')
+        d.append(f'<circle cx="{cx}" cy="{lijn_y}" r="4.5" fill="{kleur}"/>')
+
+    # een boog over de vakjes heen: de secundaire bron komt uit de primaire voort
+    boog_y = lijn_y - 82
+    d.append(f'<path d="M250 {boog_y} Q323 {boog_y-30} 396 {boog_y-6}" fill="none" '
+             f'stroke="{DIM}" stroke-width="1.3"/>')
+    d.append(f'<path d="M396 {boog_y-6} l-8.5 -4.5 l1.5 8 Z" fill="{DIM}" '
+             f'transform="rotate(150 396 {boog_y-6})"/>')
+    d.append(_tekst(323, boog_y - 26, "wordt gemaakt uit", 9, DIM))
+
+    d.append(_tekst(breedte / 2, h - 10,
+                    "Primair of secundair gaat over wanneer de bron gemaakt is, niet over hoe goed ze is.",
+                    9.5, DIM))
+    return _svg(breedte, h, "".join(d))

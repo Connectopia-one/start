@@ -357,3 +357,358 @@ BUNDELS["mesopotamie-en-egypte"] = dict(
         "Handel ging per ruil, afgerekend in gewogen graan of zilver — munten bestonden nog niet.",
         "Van daar komen het wiel, de ploeg, geschreven wetten, de sterrenkunde, ons uur van 60 minuten en de 12 maanden.",
     ])
+
+BUNDELS["het-oude-griekenland"] = dict(
+    vak="Geschiedenis", niveau=SPARK, titel="Het oude Griekenland",
+    onder="Honderden kleine stadstaten, twee heel verschillende voorbeelden, en denkers die het nog altijd doen.",
+    secties=[
+        dict(kop="Een land dat zichzelf opdeelt", blokken=[
+            ("p", "Griekenland ligt aan de <strong>Middellandse Zee</strong> en bestaat uit bergen, "
+                  "schiereilanden en honderden eilanden. Over land reizen is lastig, over zee gaat het vlot."),
+            ("p", "Dat landschap stuurde de politiek. Omdat de gebieden moeilijk bij elkaar raakten, groeide "
+                  "er geen groot rijk maar een lappendeken van kleine, zelfstandige stadstaten: de "
+                  "<strong>polis</strong>. Elke polis had een eigen bestuur, eigen wetten, eigen munten en "
+                  "een eigen beschermgod."),
+            ("kader", "De Grieken voelden zich wél één volk: ze deelden taal, goden, verhalen en de "
+                      "Olympische Spelen. Politiek waren ze verdeeld, cultureel niet. Dat noemen ze "
+                      "<strong>Hellas</strong>."),
+            ("p", "Er was te weinig vruchtbare grond voor een groeiende bevolking. Daarom trokken groepen weg "
+                  "om elders een nieuwe stad te stichten: de <strong>kolonisatie</strong>. Zo kwamen er "
+                  "Griekse steden tot in Zuid-Italië, Zuid-Frankrijk en rond de Zwarte Zee — en zo kwamen de "
+                  "Romeinen al vroeg met Griekse cultuur in aanraking."),
+        ]),
+        dict(kop="Sparta en Athene: twee wegen", blokken=[
+            ("p", "<strong>Sparta</strong> was een <strong>oligarchie</strong>: een kleine groep besliste. "
+                  "Alles stond er in dienst van het leger. Jongens verlieten op hun zevende het gezin voor een "
+                  "harde militaire opvoeding."),
+            ("p", "Dat kon omdat de <strong>heloten</strong>, onvrije landbouwers, al het werk op het land "
+                  "deden. Zij waren veruit in de meerderheid, en de angst voor een opstand hield Sparta mee in "
+                  "dat keurslijf."),
+            ("p", "<strong>Athene</strong> ging een andere weg: van oligarchie over een periode van "
+                  "<strong>tirannen</strong> naar <strong>democratie</strong>. De burgers kwamen zelf samen op "
+                  "de volksvergadering en stemden daar over de wetten. Dat heet een <em>directe</em> democratie."),
+            ("kader", "Een <strong>tiran</strong> was bij de Grieken een alleenheerser die de macht gegrepen "
+                      "had. Het woord betekende nog niet vanzelf 'wreed'; sommige tirannen waren juist geliefd "
+                      "bij het gewone volk."),
+            ("p", "De beperking is even belangrijk als de uitvinding. Enkel <strong>vrije mannen met "
+                  "burgerrecht</strong> mochten stemmen. Vrouwen, slaven en vreemdelingen niet, ook al woonden "
+                  "die er hun leven lang. Van de hele bevolking stemde ongeveer één op tien."),
+            ("p", "Ook voor vrouwen verschilden de twee. Een Spartaanse vrouw mocht sporten, bezit hebben en "
+                  "zich vrij bewegen; een Atheense vrouw leefde grotendeels binnenshuis. Meebeslissen deed ze "
+                  "op geen van beide plaatsen."),
+        ]),
+        dict(kop="Twee oorlogen die alles veranderden", blokken=[
+            ("p", "In de <strong>Perzische oorlogen</strong> stonden de Griekse stadstaten tegenover het "
+                  "enorme Perzische Rijk. Uitzonderlijk genoeg werkten ze samen, en ze wonnen."),
+            ("p", "Gevolg: Athene werd de leider van een bondgenootschap van stadstaten, en gebruikte het geld "
+                  "daarvan onder meer om het <strong>Parthenon</strong> te bouwen. De andere leden begonnen "
+                  "dat als overheersing te voelen."),
+            ("p", "Dat liep uit op de <strong>Peloponnesische oorlog</strong>: Athene tegen Sparta, bijna "
+                  "dertig jaar lang. Sparta won, maar alle Griekse stadstaten kwamen er verzwakt uit."),
+            ("fig", svg.stappen(["Perzische|oorlogen", "Athene|machtig", "wrevel bij|de rest",
+                                 "Peloponnesische|oorlog", "allen|verzwakt"]),
+             "De ketting die Griekenland rijp maakte voor de Macedonische overname."),
+        ]),
+        dict(kop="Goden, orakels en spelen", blokken=[
+            ("p", "De Grieken waren <strong>polytheïstisch</strong>. Hun goden woonden volgens de verhalen op "
+                  "de berg <strong>Olympus</strong>, met <strong>Zeus</strong> als oppergod. Het waren geen "
+                  "verheven wezens: ze werden jaloers, verliefd en kwaad, precies zoals mensen."),
+            ("p", "Bij een moeilijke beslissing trok men naar een <strong>orakel</strong>, het bekendste in "
+                  "Delphi. De antwoorden waren vaak dubbelzinnig, zodat ze achteraf altijd bleken te kloppen."),
+            ("p", "De <strong>Olympische Spelen</strong> begonnen in 776 v.C. als een feest ter ere van Zeus "
+                  "in Olympia. Tijdens de spelen gold een wapenstilstand, zodat deelnemers uit alle stadstaten "
+                  "veilig konden reizen."),
+            ("kader", "<strong>Mythologie</strong> is niet hetzelfde als geschiedenis. De verhalen over Theseus "
+                      "en de Minotaurus of over de Trojaanse oorlog vertellen vooral hoe de Grieken zichzelf "
+                      "zagen. Ze verwijzen soms naar echte gebeurtenissen, maar zijn er geen verslag van."),
+        ]),
+        dict(kop="Denken, en er niet mee ophouden", blokken=[
+            ("p", "<strong>Socrates</strong> schreef zelf niets. Hij liep rond en stelde vragen, tot mensen "
+                  "merkten dat ze zelf niet wisten wat ze dachten te weten. Dat maakte hem niet overal geliefd: "
+                  "hij werd ter dood veroordeeld."),
+            ("p", "Zijn leerling <strong>Plato</strong> schreef het wel op, en werd op zijn beurt de leraar van "
+                  "<strong>Aristoteles</strong>, die zowat alles onderzocht wat hij tegenkwam — van sterren tot "
+                  "slakken. Aristoteles was later de leraar van Alexander de Grote."),
+            ("p", "Waarom noemt men dit het begin van de wetenschap? Omdat zij verklaringen begonnen te zoeken "
+                  "<strong>in de natuur zelf</strong>, in plaats van bij de goden. Ook de geneeskunde nam die "
+                  "wending: ziekte werd een zaak van het lichaam, niet van een vloek."),
+            ("p", "In de literatuur staat <strong>Homeros</strong> vooraan, met de <em>Ilias</em> over de "
+                  "Trojaanse oorlog en de <em>Odyssee</em> over een jarenlange thuisreis. In het theater "
+                  "speelde men <strong>tragedies</strong>, waarin een held ten onder gaat aan zijn eigen fout."),
+        ]),
+        dict(kop="De drie zuilstijlen", blokken=[
+            ("p", "Griekse bouwkunst werkt met <strong>zuilen en balken</strong>. Je herkent de stijl bovenaan "
+                  "de zuil, aan het <strong>kapiteel</strong>."),
+            ("fig", svg.zuilstijlen(),
+             "Dorisch is het oudst en het soberst, Korintisch het jongst en het rijkst versierd."),
+            ("p", "Bij de <strong>beeldhouwkunst</strong> zie je een duidelijke evolutie. "
+                  "<strong>Archaïsche</strong> beelden staan stijf rechtop, met beide voeten naast elkaar en "
+                  "een starre glimlach. <strong>Klassieke</strong> beelden zetten hun gewicht op één been, "
+                  "waardoor het lichaam kantelt en het beeld lijkt te bewegen."),
+            ("p", "Na Alexander, in de <strong>hellenistische</strong> periode, gaat het nog verder: dan tonen "
+                  "beelden ook pijn, ouderdom en beweging in plaats van enkel het ideaal."),
+        ]),
+        dict(kop="Alexander en het hellenisme", blokken=[
+            ("p", "De verzwakte stadstaten werden ingenomen door <strong>Macedonië</strong>, een koninkrijk in "
+                  "het noorden. De zoon van die koning was <strong>Alexander de Grote</strong>."),
+            ("p", "In ongeveer tien jaar veroverde hij het hele Perzische Rijk, tot in Egypte en tot aan de "
+                  "rand van India. Hij stierf op zijn tweeëndertigste, en zijn generaals verdeelden het rijk "
+                  "onder elkaar."),
+            ("p", "Wat bleef, is het <strong>hellenisme</strong>: de vermenging van Griekse cultuur met die van "
+                  "het oosten. Grieks werd de taal waarin men in dat hele gebied handel dreef en studeerde, "
+                  "eeuwenlang, ook nog toen de Romeinen er de baas waren."),
+        ]),
+    ],
+    onthoud=[
+        "Bergen en zee verdeelden Griekenland in honderden zelfstandige stadstaten: de polis.",
+        "Te weinig grond leidde tot kolonisatie rond de Middellandse Zee en de Zwarte Zee.",
+        "Sparta: oligarchie, leger, heloten. Athene: van oligarchie over tirannie naar directe democratie.",
+        "In Athene stemden enkel vrije mannelijke burgers — ongeveer één op tien van de bevolking.",
+        "Perzische oorlogen: samen tegen buiten, Athene wordt machtig. Peloponnesische oorlog: Athene tegen Sparta, allen verzwakt.",
+        "Polytheïsme, de Olympus met Zeus, orakels in Delphi, en vanaf 776 v.C. de Olympische Spelen.",
+        "Socrates, Plato en Aristoteles zochten verklaringen in de natuur zelf: het begin van de wetenschap.",
+        "Drie zuilstijlen: Dorisch (sober), Ionisch (krullen), Korintisch (bladeren).",
+        "Beeldhouwkunst: archaïsch is stijf, klassiek beweegt, hellenistisch toont ook pijn en ouderdom.",
+        "Alexander de Grote veroverde tot India; daarna bleef het hellenisme, Grieks als taal van het oosten.",
+    ])
+
+BUNDELS["het-romeinse-rijk"] = dict(
+    vak="Geschiedenis", niveau=SPARK, titel="Het Romeinse Rijk",
+    onder="Van één stad aan de Tiber tot een rijk rond de hele Middellandse Zee — en weer terug.",
+    secties=[
+        dict(kop="Van sage tot stad", blokken=[
+            ("p", "Rome ontstond op de heuvels langs de <strong>Tiber</strong>, in Italië: ver genoeg van zee "
+                  "om veilig te zijn, dicht genoeg om te handelen."),
+            ("p", "De Romeinen vertelden zelf het verhaal van <strong>Romulus en Remus</strong>, twee "
+                  "vondelingen die door een wolvin grootgebracht werden. Romulus doodde zijn broer en noemde "
+                  "de stad naar zichzelf."),
+            ("kader", "Zo'n stichtingsmythe is geen geschiedenis. Ze vertelt vooral hoe de Romeinen zichzelf "
+                      "wilden zien: hard, door de goden gewild, en bereid alles voor de stad opzij te zetten."),
+            ("p", "Het vroege Rome leerde veel van zijn buren: van de <strong>Etrusken</strong> de boog en "
+                  "bestuursgewoonten, van de <strong>Grieken</strong> het alfabet, de goden en de kunst."),
+        ]),
+        dict(kop="De republiek", blokken=[
+            ("p", "Eerst hadden koningen de macht. Toen de Romeinen hun laatste koning wegjoegen, wilden ze "
+                  "nooit meer één alleenheerser. Zo ontstond de <strong>republiek</strong>, van <em>res "
+                  "publica</em>: de zaak van iedereen."),
+            ("p", "Aan het hoofd stonden twee <strong>consuls</strong>, elk voor één jaar verkozen. Twee, "
+                  "zodat ze elkaar konden tegenhouden; één jaar, zodat niemand lang alleen de macht hield. "
+                  "Alleen in uiterste nood benoemde men tijdelijk één <strong>dictator</strong>."),
+            ("p", "De <strong>senaat</strong>, de raad van oud-bestuurders, gaf officieel enkel advies, maar "
+                  "besliste in de praktijk over bijna alles. De <strong>volksvergadering</strong> koos de "
+                  "bestuurders en stemde over de wetten — al stemden de rijkste groepen eerst en wogen die "
+                  "het zwaarst."),
+            ("p", "Binnen de stad stonden twee groepen tegenover elkaar: de <strong>patriciërs</strong>, de "
+                  "oude rijke families, en de <strong>plebejers</strong>, het gewone volk. De plebejers "
+                  "dwongen hun rechten stap voor stap af, onder meer door massaal het werk neer te leggen en "
+                  "de stad te verlaten."),
+        ]),
+        dict(kop="Van stad tot wereldrijk", blokken=[
+            ("p", "Eerst veroverde Rome het hele Italische schiereiland. Daarna botste het op "
+                  "<strong>Carthago</strong>, de grote handelsmacht in Noord-Afrika. Dat werden de "
+                  "<strong>Punische oorlogen</strong>."),
+            ("p", "Rome won, Carthago werd uiteindelijk volledig verwoest, en Rome had geen tegenstander meer "
+                  "in het westen. De Middellandse Zee werd <strong>mare nostrum</strong>: onze zee."),
+            ("fig", svg.stappen(["stadstaat", "Italië", "Punische|oorlogen", "mare|nostrum", "imperium|Romanum"]),
+             "Elke verovering maakte de volgende mogelijk — en maakte tegelijk de republiek onbestuurbaar."),
+            ("p", "Het succes ondermijnde het bestuur. Oorlogen leverden zoveel slaven op dat grootgrondbezit "
+                  "met slavenarbeid, het <strong>latifundium</strong>, spotgoedkoop werd. De kleine boer kon "
+                  "daar niet tegenop, verkocht zijn grond en trok verarmd naar de stad."),
+        ]),
+        dict(kop="Van republiek naar keizerrijk", blokken=[
+            ("p", "In de stad groeide zo een grote groep arme burgers. Politici hielden die tevreden met "
+                  "gratis graan en spelen. Tegelijk kregen soldaten hun stuk land niet van de staat maar van "
+                  "hun <strong>generaal</strong> — en dus volgden ze hem, desnoods tegen Rome in."),
+            ("p", "Dat leidde tot een eeuw van <strong>burgeroorlogen</strong>: Marius tegen Sulla, daarna "
+                  "Caesar tegen Pompeius. <strong>Julius Caesar</strong> won en liet zich dictator voor het "
+                  "leven benoemen. Zijn tegenstanders zagen daarin een nieuwe koning en vermoordden hem in de "
+                  "senaat."),
+            ("p", "Na nog een burgeroorlog bleef zijn aangenomen zoon over: <strong>Augustus</strong>, de "
+                  "eerste <strong>keizer</strong>. Hij noemde zich geen koning maar <em>princeps</em>, de "
+                  "eerste burger, en liet de senaat en de ambten gewoon bestaan."),
+            ("kader", "Dat was geen bescheidenheid maar berekening. De vormen van de republiek bleven staan, "
+                      "terwijl de macht in één paar handen zat. Zo kreeg Rome het alleenbewind dat het vier "
+                      "eeuwen eerder had afgezworen, zonder het zo te moeten noemen."),
+        ]),
+        dict(kop="Pax Romana", blokken=[
+            ("p", "Onder de eerste keizers volgde een periode van ongeveer twee eeuwen rust binnen het rijk: "
+                  "de <strong>Pax Romana</strong>, de Romeinse vrede. Aan de grenzen werd wel nog gevochten."),
+            ("p", "Die rust was ook economie. Eén munt, één rechtssysteem, geen rovers en geen piraten: "
+                  "goederen konden van Britannië tot Egypte reizen. Daarvoor bouwden de Romeinen wegen die "
+                  "eeuwen meegingen."),
+            ("fig", svg.heirbaan(),
+             "Een Romeinse weg is opgebouwd uit lagen, met een bolle bovenkant zodat het regenwater afloopt."),
+            ("p", "En water haalden ze van ver. Een <strong>aquaduct</strong> loopt kilometers lang heel licht "
+                  "bergaf, zodat het water vanzelf blijft stromen tot in de stad."),
+            ("fig", svg.aquaduct(),
+             "Bogen op bogen, met bovenaan de goot. De boog is precies wat de Romeinen aan de Griekse bouwkunst toevoegden."),
+        ]),
+        dict(kop="Bouwen, geloven en kijken", blokken=[
+            ("p", "De Grieken bouwden met zuilen en balken. De Romeinen voegden de <strong>boog</strong>, het "
+                  "<strong>gewelf</strong>, de <strong>koepel</strong> en <strong>beton</strong> toe. Daarmee "
+                  "konden ze veel grotere ruimtes overspannen."),
+            ("fig", svg.amfitheater(),
+             "Het Colosseum: een amfitheater is rondom gebouwd, zodat iedereen zicht heeft op het midden. Daar vochten gladiatoren."),
+            ("p", "Ook hun beelden verschillen van de Griekse. Griekse beelden tonen het <strong>ideaal</strong>; "
+                  "Romeinse portretten tonen de <strong>persoon</strong>, met rimpels, kale kruin en al. Pas "
+                  "later lieten keizers zich weer jonger en goddelijker afbeelden dan ze waren."),
+            ("p", "De Romeinen namen de Griekse goden over en gaven ze eigen namen: Zeus werd "
+                  "<strong>Jupiter</strong>, Ares werd Mars, Aphrodite werd Venus. Daarbovenop kwam de "
+                  "<strong>keizerscultus</strong>: de keizer zelf werd vereerd. In een rijk vol volkeren en "
+                  "goden was dat het bindmiddel."),
+            ("p", "Precies daarom botsten de <strong>christenen</strong>: zij weigerden de keizer te vereren. "
+                  "Ze werden vervolgd, maar het christendom groeide toch, werd onder Constantijn toegelaten en "
+                  "uiteindelijk zelfs staatsgodsdienst."),
+        ]),
+        dict(kop="Het einde van het westen", blokken=[
+            ("p", "In de <strong>3de eeuw</strong> liep het mis: invallen aan de grenzen, munten die steeds "
+                  "minder zilver bevatten, en keizers die elkaar in hoog tempo afzetten."),
+            ("p", "Het rijk bleek te groot om vanuit één punt te besturen en werd gesplitst in een "
+                  "<strong>West-</strong> en een <strong>Oost-Romeins Rijk</strong>. Het westen viel in "
+                  "<strong>476</strong>; het oosten leefde als het Byzantijnse Rijk nog duizend jaar voort, "
+                  "met Constantinopel als hoofdstad."),
+            ("kader", "476 geldt als <strong>scharnierpunt</strong> naar de middeleeuwen. Dat is een afspraak "
+                      "onder historici, geen dag waarop alles plots anders was. Voor de meeste mensen "
+                      "veranderde er dat jaar niets."),
+            ("p", "Wat bleef, zie je nog dagelijks: het <strong>Latijn</strong> in het Frans, Spaans en "
+                  "Italiaans en in duizenden woorden bij ons, onze letters, onze maandnamen — juli en augustus "
+                  "zijn naar Julius Caesar en Augustus genoemd — en het <strong>recht</strong>."),
+        ]),
+    ],
+    onthoud=[
+        "Rome ontstond aan de Tiber; de sage van Romulus en Remus is mythe, geen geschiedenis.",
+        "Koningstijd → republiek → keizerrijk. De republiek had twee consuls per jaar, een senaat en een volksvergadering.",
+        "Patriciërs tegen plebejers: het gewone volk dwong zijn rechten stap voor stap af.",
+        "Punische oorlogen tegen Carthago maakten Rome baas over het westen: mare nostrum.",
+        "Latifundia met slaven verdreven de kleine boer naar de stad; legers werden trouw aan hun generaal.",
+        "Caesar werd vermoord als dictator; Augustus werd de eerste keizer en noemde zich princeps.",
+        "Pax Romana: twee eeuwen rust, en daardoor handel over het hele rijk, over wegen en via aquaducten.",
+        "De Romeinen voegden boog, gewelf, koepel en beton toe aan de Griekse bouwkunst.",
+        "Portretbeelden tonen de mens zoals hij was; keizerscultus als bindmiddel, christendom van vervolgd tot staatsgodsdienst.",
+        "Crisis van de 3de eeuw, splitsing, val van het westen in 476 — het oosten hield nog duizend jaar stand.",
+    ])
+
+BUNDELS["bronnen-kunst-en-beeldvorming"] = dict(
+    vak="Geschiedenis", niveau=SPARK, titel="Bronnen, kunst en beeldvorming",
+    onder="Hoe je weet wat je weet — en waarom een historicus altijd vraagt wie er aan het woord is.",
+    secties=[
+        dict(kop="Verleden en geschiedenis", blokken=[
+            ("p", "Het <strong>verleden</strong> is alles wat gebeurd is. Dat ligt vast en verandert nooit meer. "
+                  "<strong>Geschiedenis</strong> is het verhaal dat historici daarover maken, op basis van wat "
+                  "er van dat verleden overblijft."),
+            ("p", "Die twee door elkaar halen, is de meest gemaakte fout. Precies omdat geschiedenis een "
+                  "<em>constructie</em> is, kan ze herschreven worden — en gebeurt dat ook, telkens als er "
+                  "nieuwe bronnen of nieuwe onderzoekstechnieken opduiken."),
+            ("kader", "Dat is geen zwakte van het vak, maar de kern ervan. Een historicus die zegt "
+                      "&bdquo;zo was het, punt&rdquo;, verzwijgt op welke bronnen hij steunt en wat hij "
+                      "niet weet."),
+        ]),
+        dict(kop="Wat is een bron?", blokken=[
+            ("p", "Een <strong>historische bron</strong> is alles uit het verleden waaruit je iets over die "
+                  "tijd kan afleiden: een tekst, een voorwerp, een gebouw, een lied, een foto. Ook een "
+                  "afvalhoop of een kinderspeeltje telt mee."),
+            ("fig", svg.primair_secundair(),
+             "Het onderscheid dat het vaakst verward wordt. Het gaat over tijd, niet over kwaliteit."),
+            ("p", "Een <strong>primaire</strong> bron komt uit de tijd zelf: een brief van een Romeinse "
+                  "soldaat, een grafsteen, een muntje. Een <strong>secundaire</strong> bron is later gemaakt "
+                  "op basis van andere bronnen — je handboek bijvoorbeeld."),
+            ("p", "Daarnaast deel je bronnen in naar hun <strong>vorm</strong>: geschreven, mondeling, "
+                  "materieel of audiovisueel. Een opgegraven potscherf is materieel, een opgenomen gesprek met "
+                  "een oudere is mondeling."),
+        ]),
+        dict(kop="Wie is er aan het woord?", blokken=[
+            ("p", "Een bron valt niet uit de lucht. Iemand maakte ze, voor iemand, met een bedoeling. Daarom "
+                  "kijkt een historicus altijd eerst naar de <strong>maker</strong>."),
+            ("p", "Was die een <strong>ooggetuige</strong>, iemand die het zelf zag? Of een "
+                  "<strong>tijdgenoot</strong>, die in dezelfde tijd leefde maar het van horen zeggen had? En "
+                  "wie was de <strong>opdrachtgever</strong>, degene die betaalde?"),
+            ("fig", svg.stappen(["de maker", "het publiek", "de bedoeling", "de inhoud"]),
+             "Wie maakte het, voor wie, waarom — en pas dan: wat staat erin? In die volgorde."),
+            ("p", "Dichtbij staan maakt iemand trouwens niet vanzelf betrouwbaar. Een ooggetuige ziet maar één "
+                  "hoek van wat er gebeurt, kiest partij, en vergist zich net zo goed als een ander."),
+        ]),
+        dict(kop="Bruikbaar is niet hetzelfde als betrouwbaar", blokken=[
+            ("p", "Twee aparte vragen, en je moet ze allebei stellen."),
+            ("p", "<strong>Bruikbaar</strong>: geeft deze bron antwoord op de vraag die ík onderzoek? Een "
+                  "perfect kloppende lijst van Egyptische graanvoorraden helpt je niets als je vraag over "
+                  "Griekse tempels gaat."),
+            ("p", "<strong>Betrouwbaar</strong>: klopt wat erin staat? Daarvoor kijk je naar de maker, zijn "
+                  "belang, zijn afstand tot het voorval, en of andere bronnen hetzelfde zeggen."),
+            ("kader", "Een onbetrouwbare bron is nooit waardeloos. Ze zegt misschien weinig over wat er "
+                      "gebeurde, maar veel over <strong>wie ze maakte</strong> en wat die wilde dat de mensen "
+                      "zouden geloven. Overdrijving is zelf een gegeven."),
+            ("p", "Neem de slag bij <strong>Kadesj</strong>, 1274 v.C. Farao Ramses liet op tempelmuren "
+                  "uithouwen dat hij glansrijk won. De Hettieten claimden diezelfde overwinning. Vermoedelijk "
+                  "werd het onbeslist — kort daarna sloten ze het oudste vredesverdrag dat wij kennen."),
+            ("p", "Eén bron geloven zou je dus meteen op het verkeerde been zetten. Bronnen <em>tegenover "
+                  "elkaar</em> leggen en afwegen: dat is het werk."),
+        ]),
+        dict(kop="Standplaatsgebondenheid", blokken=[
+            ("p", "Niemand kijkt van nergens. Wie iets vertelt, doet dat vanuit zijn eigen tijd, zijn eigen "
+                  "plaats en zijn eigen positie in de samenleving. Dat heet "
+                  "<strong>standplaatsgebondenheid</strong>."),
+            ("p", "De Griekse schrijver <strong>Herodotos</strong> noemt de Perzen <em>barbaren</em>. Voor hem "
+                  "betekende dat gewoon: mensen die geen Grieks spreken. Het woord klonk naar Griekse oren als "
+                  "onverstaanbaar gebrabbel."),
+            ("p", "Wij lezen <em>barbaar</em> als onbeschaafd en wreed. Wie die tekst leest zonder dat te "
+                  "beseffen, denkt dat Herodotos de Perzen uitscheldt — en vormt zich een verkeerd beeld."),
+            ("kader", "Het gaat dus twee kanten op: de <strong>maker</strong> van de bron is "
+                      "standplaatsgebonden, en <strong>jij als lezer</strong> ook. Je kan dat niet "
+                      "uitschakelen, maar je kan het wel weten. Dat is al de halve oplossing."),
+        ]),
+        dict(kop="Vijf manieren van redeneren", blokken=[
+            ("p", "Om van bronnen naar een antwoord te komen, gebruik je "
+                  "<strong>historische redeneerwijzen</strong>. Er zijn er vijf."),
+            ("p", "<strong>Oorzaak en gevolg</strong> benoemen: wat leidde waartoe. "
+                  "<strong>Meerdere perspectieven</strong> hanteren: dezelfde gebeurtenis bekijken vanuit de "
+                  "slaaf, de soldaat én de keizer. <strong>Continuïteit en verandering</strong> benoemen: wat "
+                  "bleef hetzelfde, wat veranderde."),
+            ("p", "<strong>Bewijs gebruiken</strong>: je antwoord steunen op wat er in de bronnen staat, niet "
+                  "op wat je voelt. En <strong>verbanden leggen</strong>: zien hoe stukken met elkaar "
+                  "samenhangen."),
+            ("kader", "Wat <em>hetzelfde blijft</em> is even veelzeggend als wat verandert, maar het valt veel "
+                      "minder op. Daarom staat continuïteit uitdrukkelijk in het rijtje."),
+        ]),
+        dict(kop="Mythevorming", blokken=[
+            ("p", "Rond een persoon, een plaats of een gebeurtenis groeit vaak een verhaal dat mooier of "
+                  "eenvoudiger is dan de werkelijkheid. Dat heet <strong>mythevorming</strong>, en ze vervormt "
+                  "het beeld dat mensen van het verleden hebben."),
+            ("p", "Meestal gebeurt dat niet uit kwaad opzet. Een goed verhaal wordt gewoon vaker doorverteld "
+                  "dan een saai of ingewikkeld verhaal."),
+            ("p", "Het bekendste voorbeeld is de <strong>neanderthaler</strong>: in films en strips een "
+                  "brute, domme, lompe holbewoner. De vondsten zeggen iets anders. Neanderthalers maakten "
+                  "samengestelde werktuigen, beheersten vuur, verzorgden zieken en gewonden, en begroeven hun "
+                  "doden. Wij dragen zelfs nog een stukje van hun erfelijk materiaal."),
+            ("kader", "Vraag bij mythevorming altijd twee dingen: <strong>wat is de bedoeling</strong> van het "
+                      "verhaal, en <strong>welk effect</strong> heeft het op hoe mensen naar dat verleden "
+                      "kijken?"),
+        ]),
+        dict(kop="Kunst lezen", blokken=[
+            ("p", "Ook een kunstwerk is een bron. Een schilderij, een beeld, een gebouw, een film, een game "
+                  "of graffiti vertelt hoe mensen naar zichzelf en naar de wereld keken."),
+            ("p", "Je leest het in drie stappen. Eerst <strong>verzamel je info</strong>: wanneer, waar, door "
+                  "wie, in welke context, welke soort. Dan <strong>beschrijf je wat je ziet</strong>: "
+                  "materialen, figuren, kleuren, licht en schaduw, hoe alles geschikt is."),
+            ("p", "Pas daarna <strong>interpreteer</strong> je: wat is het onderwerp, voor wie is het gemaakt, "
+                  "en met welke bedoeling — iets bevestigen, of juist bekritiseren?"),
+            ("p", "Een kunstwerk geeft betekenis door <strong>vorm en inhoud samen</strong>. Een keizer te "
+                  "paard, groter afgebeeld dan alle anderen, met het licht op zijn gezicht: hier zegt de vorm "
+                  "evenveel als het onderwerp."),
+            ("kader", "Een game over de Romeinen vertelt je weinig over Rome, maar veel over <strong>onze "
+                      "tijd</strong>: over wat wij spannend vinden aan dat verleden. Ook dat is een bron — "
+                      "over ons."),
+        ]),
+    ],
+    onthoud=[
+        "Verleden = wat gebeurd is. Geschiedenis = het verhaal dat historici eruit opbouwen.",
+        "Een bron is alles uit het verleden waaruit je iets kan afleiden.",
+        "Primair = uit de tijd zelf, secundair = later gemaakt uit andere bronnen. Het gaat over tijd, niet over kwaliteit.",
+        "Vormen: geschreven, mondeling, materieel, audiovisueel.",
+        "Vraag bij elke bron: wie maakte ze, voor wie, waarom — en pas dan wat staat erin.",
+        "Bruikbaar = geeft antwoord op jouw vraag. Betrouwbaar = het klopt. Twee aparte vragen.",
+        "Een onbetrouwbare bron toont wat de maker wilde laten geloven. Kadesj: beide partijen claimden de zege.",
+        "Standplaatsgebondenheid geldt voor de maker én voor jou. Herodotos' 'barbaren' betekende: niet-Grieks.",
+        "Vijf redeneerwijzen: oorzaak-gevolg, meerdere perspectieven, continuïteit en verandering, bewijs, verbanden.",
+        "Mythevorming vervormt het beeld — zoals de neanderthaler, die in werkelijkheid werktuigen maakte en zijn doden begroef.",
+        "Kunst lees je in drie stappen, en ze betekent iets door vorm en inhoud samen.",
+    ])
