@@ -98,7 +98,7 @@ export function NieuwLeerbundelForm({
             <label htmlFor="bestand" className="text-sm font-medium text-ink">
               Afbeelding
             </label>
-            <input id="bestand" name="bestand" type="file" accept="image/*" className="w-full text-sm" />
+            <input id="bestand" name="bestand" type="file" accept="image/*" className="block w-full cursor-pointer text-sm text-ink-dim file:mr-3 file:cursor-pointer file:rounded-md file:border-0 file:bg-forest file:px-4 file:py-2 file:text-sm file:font-medium file:text-white hover:file:bg-forest-dark" />
           </div>
           <div className="space-y-1.5">
             <label htmlFor="tekst" className="text-sm font-medium text-ink">

@@ -170,10 +170,13 @@ export function BulkLeerstofForm({ vakken }: { vakken: Vak[] }) {
         <input
           id="bestanden"
           type="file"
-          accept="application/pdf"
+          /* Ook de extensie meegeven: op sommige computers herkent de browser
+             het type van een pdf niet, en dan blijven de bestanden grijs staan
+             in het keuzevenster. */
+          accept=".pdf,application/pdf"
           multiple
           onChange={kiesBestanden}
-          className="w-full text-sm"
+          className="block w-full cursor-pointer text-sm text-ink-dim file:mr-3 file:cursor-pointer file:rounded-md file:border-0 file:bg-forest file:px-4 file:py-2 file:text-sm file:font-medium file:text-white hover:file:bg-forest-dark"
         />
         <p className="text-xs text-ink-dim">
           Noem je bestanden naar het hoofdstuk, bijvoorbeeld <em>getallenkennis.pdf</em>, dan zet
