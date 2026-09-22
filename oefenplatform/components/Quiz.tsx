@@ -17,7 +17,25 @@ type Vraag = {
   uitleg: string | null;
   volgnummer: number;
   afbeeldingUrl?: string | null;
+  /**
+   * Per getoonde plaats het nummer dat de optie in de databank heeft. De opties
+   * worden geschud voor ze getoond worden (zie lib/optievolgorde.ts), maar het
+   * antwoord van een kind wordt opgeslagen met het nummer uit de databank, zodat
+   * de pagina waar ouders meekijken blijft kloppen.
+   */
+  optieVolgorde?: number[] | null;
 };
+
+/** Het aangeklikte antwoord omgerekend naar hoe het opgeslagen moet worden. */
+function zoalsOpgeslagen(
+  vraag: Vraag,
+  gegeven: string | number | boolean | null
+): string | number | boolean | null {
+  if (vraag.type !== "meerkeuze" || typeof gegeven !== "number") return gegeven;
+  const volgorde = vraag.optieVolgorde;
+  if (!volgorde || gegeven < 0 || gegeven >= volgorde.length) return gegeven;
+  return volgorde[gegeven];
+}
 
 type Status = { gecontroleerd: boolean; correct: boolean; gegevenAntwoord: string | number | boolean | null };
 
@@ -253,7 +271,12 @@ export function Quiz({
               [vraag.id]: { ...s[vraag.id], gecontroleerd: true, correct },
             }));
             if (actiefKindId) {
-              registreerAntwoord(actiefKindId, vraag.id, correct, statussen[vraag.id].gegevenAntwoord).catch(() => {});
+              registreerAntwoord(
+                actiefKindId,
+                vraag.id,
+                correct,
+                zoalsOpgeslagen(vraag, statussen[vraag.id].gegevenAntwoord)
+              ).catch(() => {});
             }
           }}
         />

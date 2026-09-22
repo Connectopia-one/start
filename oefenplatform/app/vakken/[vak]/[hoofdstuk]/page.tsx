@@ -8,6 +8,7 @@ import { createClient } from "@/lib/supabase/server";
 import { PRIJS_NU_EUR, TIJDELIJKE_PRIJS, TIJDELIJKE_PRIJS_KORT } from "@/lib/prijs";
 import { schooljaarEindeLabel } from "@/lib/schooljaar";
 import { vindNiveau } from "@/lib/niveaus";
+import { schikOpties } from "@/lib/optievolgorde";
 import { HoofdstukTabs } from "@/components/HoofdstukTabs";
 import { GeoGebraCalculator } from "@/components/GeoGebraCalculator";
 import { Leerbundel, type LeerbundelBlok } from "@/components/Leerbundel";
@@ -52,7 +53,9 @@ export default async function HoofdstukPage({
 
   const vragen = await Promise.all(
     (vragenRuw ?? []).map(async (v) => {
-      const { afbeelding_pad, ...rest } = v;
+      // De opties krijgen hier hun volgorde, zodat het juiste antwoord niet
+      // altijd bovenaan staat. Zie lib/optievolgorde.ts.
+      const { afbeelding_pad, ...rest } = schikOpties(v);
       if (!afbeelding_pad) return { ...rest, afbeeldingUrl: null as string | null };
       if (afbeelding_pad.startsWith("http")) return { ...rest, afbeeldingUrl: afbeelding_pad };
       const { data } = await supabase.storage.from("vraagafbeeldingen").createSignedUrl(afbeelding_pad, 3600);
