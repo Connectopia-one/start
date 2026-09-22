@@ -514,3 +514,117 @@ def zinsdelen(delen, breedte=470):
                  f'font-size="10" fill="{kleur}">{naam}</text>')
         x += b + 6
     return _svg(breedte, h, "".join(d))
+
+
+def deeltjes(breedte=470):
+    """Vast, vloeibaar en gas: hoe de deeltjes erin liggen."""
+    import random
+    random.seed(7)
+    vak = breedte / 3
+    h = 138
+    bh, bb = 84, vak - 30
+    d = []
+    for i, (naam, onder) in enumerate([("vast", "netjes op hun plaats"),
+                                       ("vloeibaar", "tegen elkaar, maar ze schuiven"),
+                                       ("gas", "ver uit elkaar, ze vliegen rond")]):
+        x = i * vak + 15
+        d.append(f'<rect x="{x:.1f}" y="6" width="{bb:.1f}" height="{bh}" rx="8" fill="#ffffff" stroke="{DARK}" stroke-width="1.7"/>')
+        if naam == "vast":
+            for r in range(4):
+                for k in range(5):
+                    d.append(f'<circle cx="{x+14+k*(bb-28)/4:.1f}" cy="{18+r*19:.1f}" r="5" fill="{FOREST}"/>')
+        elif naam == "vloeibaar":
+            for r in range(3):
+                for k in range(5):
+                    dx = random.uniform(-3, 3)
+                    d.append(f'<circle cx="{x+14+k*(bb-28)/4+dx:.1f}" cy="{44+r*17+random.uniform(-3,3):.1f}" r="5" fill="{FOREST}"/>')
+        else:
+            for _ in range(8):
+                d.append(f'<circle cx="{x+12+random.uniform(0,bb-24):.1f}" cy="{14+random.uniform(0,bh-16):.1f}" r="5" fill="{FOREST}"/>')
+        d.append(f'<text x="{x+bb/2:.1f}" y="{bh+26}" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="11.5" font-weight="600" fill="{DARK}">{naam}</text>')
+        d.append(f'<text x="{x+bb/2:.1f}" y="{bh+40}" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="9.5" fill="{DIM}">{onder}</text>')
+    return _svg(breedte, h, "".join(d))
+
+
+def stroomkring(breedte=380):
+    """Een eenvoudige gesloten stroomkring met batterij, lampje en schakelaar."""
+    h = 160
+    x0, y0, x1, y1 = 40, 34, breedte - 40, 124
+    d = [f'<rect x="{x0}" y="{y0}" width="{x1-x0}" height="{y1-y0}" rx="14" fill="none" stroke="{DARK}" stroke-width="2.4"/>']
+    # batterij, onderaan
+    mx = (x0 + x1) / 2
+    d.append(f'<rect x="{mx-28}" y="{y1-9}" width="56" height="18" fill="{PAPER}" stroke="none"/>')
+    for i, (dx, hh, dik) in enumerate([(-12, 20, 2.6), (-2, 11, 4.5), (8, 20, 2.6), (18, 11, 4.5)]):
+        d.append(f'<line x1="{mx+dx}" y1="{y1-hh/2}" x2="{mx+dx}" y2="{y1+hh/2}" stroke="{DARK}" stroke-width="{dik}"/>')
+    d.append(f'<text x="{mx}" y="{y1+30}" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="10.5" fill="{DIM}">batterij</text>')
+    # lampje, bovenaan
+    d.append(f'<rect x="{mx-18}" y="{y0-16}" width="36" height="32" fill="{PAPER}" stroke="none"/>')
+    d.append(f'<circle cx="{mx}" cy="{y0}" r="14" fill="#fff8e6" stroke="{AMBER}" stroke-width="2.2"/>')
+    d.append(f'<path d="M{mx-7} {y0-7} l14 14 M{mx+7} {y0-7} l-14 14" stroke="{AMBER}" stroke-width="1.8"/>')
+    d.append(f'<text x="{mx}" y="{y0-24}" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="10.5" fill="{DIM}">lampje</text>')
+    # schakelaar, rechts
+    d.append(f'<rect x="{x1-9}" y="{(y0+y1)/2-18}" width="18" height="36" fill="{PAPER}" stroke="none"/>')
+    d.append(f'<circle cx="{x1}" cy="{(y0+y1)/2-16}" r="3" fill="{DARK}"/>')
+    d.append(f'<circle cx="{x1}" cy="{(y0+y1)/2+16}" r="3" fill="{DARK}"/>')
+    d.append(f'<line x1="{x1}" y1="{(y0+y1)/2+16}" x2="{x1+13}" y2="{(y0+y1)/2-12}" stroke="{DARK}" stroke-width="2.4" stroke-linecap="round"/>')
+    # het label onder de schakelaar, anders valt het buiten de tekening
+    d.append(f'<text x="{x1}" y="{(y0+y1)/2+40}" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="10.5" fill="{DIM}">schakelaar</text>')
+    return _svg(breedte, h, "".join(d))
+
+
+def hefboom(breedte=400):
+    """Een hefboom met last, steunpunt en kracht."""
+    h = 120
+    y = 62
+    d = [f'<line x1="30" y1="{y}" x2="{breedte-30}" y2="{y}" stroke="{DARK}" stroke-width="5" stroke-linecap="round"/>',
+         f'<polygon points="{breedte*0.34},{y+4} {breedte*0.28},{y+34} {breedte*0.40},{y+34}" fill="{DIM}"/>',
+         f'<text x="{breedte*0.34}" y="{y+48}" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="10.5" fill="{DIM}">steunpunt</text>',
+         f'<rect x="42" y="{y-34}" width="34" height="30" rx="5" fill="{FOREST}"/>',
+         f'<text x="59" y="{y-40}" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="10.5" fill="{FOREST}">last</text>',
+         f'<path d="M{breedte-60} {y-34} v26 m0 0 l-5 -6 m5 6 l5 -6" stroke="{AMBER}" stroke-width="2.6" fill="none" stroke-linecap="round"/>',
+         f'<text x="{breedte-60}" y="{y-40}" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="10.5" fill="{AMBER}">kracht</text>']
+    return _svg(breedte, h, "".join(d))
+
+
+def plantdelen(breedte=340):
+    """Een plant met wortel, stengel, blad en bloem benoemd."""
+    h = 210
+    mx = breedte * 0.40
+    d = [f'<path d="M{mx} 176 V62" stroke="{FOREST}" stroke-width="4" stroke-linecap="round"/>',
+         f'<path d="M{mx} 118 q-38 -22 -52 4 q34 20 52 -4" fill="rgba(47,93,80,.18)" stroke="{FOREST}" stroke-width="1.8"/>',
+         f'<path d="M{mx} 142 q38 -22 52 4 q-34 20 -52 -4" fill="rgba(47,93,80,.18)" stroke="{FOREST}" stroke-width="1.8"/>']
+    for hoek in range(0, 360, 60):
+        import math
+        a = math.radians(hoek)
+        d.append(f'<ellipse cx="{mx+16*math.cos(a):.1f}" cy="{48+16*math.sin(a):.1f}" rx="11" ry="8" '
+                 f'transform="rotate({hoek} {mx+16*math.cos(a):.1f} {48+16*math.sin(a):.1f})" fill="#e8b820" stroke="{AMBER}" stroke-width="1.4"/>')
+    d.append(f'<circle cx="{mx}" cy="48" r="9" fill="{AMBER}"/>')
+    d.append(f'<path d="M{mx} 176 q-26 12 -34 28 M{mx} 176 q26 12 34 28 M{mx} 176 v26" stroke="#7a5230" stroke-width="2.4" fill="none" stroke-linecap="round"/>')
+    for x, y, naam in [(mx + 34, 48, "bloem"), (mx + 60, 146, "blad"), (mx + 22, 100, "stengel"), (mx + 48, 200, "wortel")]:
+        d.append(f'<text x="{x:.0f}" y="{y}" font-family="IBM Plex Sans,sans-serif" font-size="11" font-weight="600" fill="{DARK}">{naam}</text>')
+    return _svg(breedte, h, "".join(d))
+
+
+def ontwerpcyclus(breedte=380):
+    """De cyclus van ontwerpen: probleem, idee, maken, testen, verbeteren."""
+    import math
+    h = 250
+    mx, my, r = breedte / 2, 122, 84
+    stappen_ = ["1 probleem", "2 idee", "3 maken", "4 testen", "5 verbeteren"]
+    d = []
+    for i in range(len(stappen_)):
+        a1 = math.radians(i * 72 - 90 + 9)
+        a2 = math.radians((i + 1) * 72 - 90 - 9)
+        x1, y1 = mx + r * math.cos(a1), my + r * math.sin(a1)
+        x2, y2 = mx + r * math.cos(a2), my + r * math.sin(a2)
+        d.append(f'<path d="M{x1:.1f} {y1:.1f} A{r} {r} 0 0 1 {x2:.1f} {y2:.1f}" fill="none" stroke="{BORDER}" stroke-width="2.4"/>')
+        am = math.radians((i + 1) * 72 - 90 - 9)
+        d.append(f'<path d="M{x2:.1f} {y2:.1f} l{-7*math.cos(am-0.4):.1f} {-7*math.sin(am-0.4):.1f} M{x2:.1f} {y2:.1f} l{-7*math.cos(am+0.4):.1f} {-7*math.sin(am+0.4):.1f}" stroke="{BORDER}" stroke-width="2.4" stroke-linecap="round"/>')
+    for i, naam in enumerate(stappen_):
+        a = math.radians(i * 72 - 90)
+        x, y = mx + r * math.cos(a), my + r * math.sin(a)
+        d.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="30" fill="#ffffff" stroke="{FOREST}" stroke-width="1.9"/>')
+        nr, woord = naam.split(" ", 1)
+        d.append(f'<text x="{x:.1f}" y="{y-3:.1f}" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="9.5" fill="{DIM}">{nr}</text>')
+        d.append(f'<text x="{x:.1f}" y="{y+11:.1f}" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="10.5" font-weight="600" fill="{DARK}">{woord}</text>')
+    return _svg(breedte, h, "".join(d))
