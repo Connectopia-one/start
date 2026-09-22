@@ -65,6 +65,36 @@ def komma_uit(waarde) -> str:
     return tekst.replace(".", ",")
 
 
+def als_python(uitdrukking: str) -> str:
+    """"x² + 8x + 16" → "x**2 + 8*x + 16", zodat Python het kan uitrekenen.
+
+    Alleen voor de eenvoudige vormen die in deze vragen voorkomen: cijfers,
+    de letters a, b, x en y, plus, min, en machten geschreven met ² of ³.
+    """
+    tekst = uitdrukking.replace("\u2212", "-").replace("\u00b2", "**2").replace("\u00b3", "**3")
+    tekst = re.sub(r"(?<=[\da-y])\s*(?=[a-y])", "*", tekst)   # 8x → 8*x, ab → a*b
+    tekst = re.sub(r"(?<=[a-y])\s*(?=\()", "*", tekst)        # a( → a*(
+    return tekst
+
+
+def uitwerking(kandidaat: str, echte, **waarden) -> str:
+    """Controleert of een uitgewerkte vorm hetzelfde geeft als het origineel.
+
+    `echte` is een functie die de oorspronkelijke uitdrukking uitrekent. De
+    kandidaat wordt op een handvol getallen getoetst; klopt hij overal, dan
+    komt hij ongewijzigd terug zodat CONTROLES hem kan vergelijken met de
+    aangeduide optie. Zo staat er in dit bestand niet gewoon hetzelfde
+    antwoord overgeschreven, maar wordt het echt nagerekend.
+    """
+    letters = sorted(set(re.findall(r"[a-y]", als_python(kandidaat))))
+    proeven = [-3, -1, 0, 2, 5, 7]
+    for getallen in zip(*[proeven] * max(len(letters), 1)):
+        omgeving = dict(zip(letters, getallen))
+        if eval(als_python(kandidaat), {}, omgeving) != echte(**omgeving):
+            raise SystemExit(f"{kandidaat!r} klopt niet bij {omgeving}")
+    return kandidaat
+
+
 def zelfde_schrijfwijze(waarde) -> str:
     """Zet een antwoord in één vaste vorm, zodat de vergelijking over
     schrijfwijze struikelt noch fouten verbergt.
@@ -238,6 +268,38 @@ CONTROLES = [
     ("wandelpad van 1,2 km",                 f"{1200 // 15} m"),
     ("5 keer het recept",                    f"{-(-5 * 250 // 1000)} pakjes"),
     ("schaal 1 : 200",                       f"{4 * 200 // 100} m"),
+    # --- Relaties en verandering ---
+    ("getalwaarde van 3x",                   str(3 * 4)),
+    ("getalwaarde van 2a + 5",               str(2 * 6 + 5)),
+    ("Herleid: 4a + 3a",                     f"{4 + 3 - 1}a"),
+    ("Los op: x + 7 = 12",                   str(12 - 7)),
+    ("Los op: 3x = 21",                      str(21 // 3)),
+    ("Los op: 2x + 5 = 17",                  f"x = {(17 - 5) // 2}"),
+    ("Los op: x − 4 = −9",                   f"x = {-9 + 4}"),
+    ("Drie broden kosten",                   f"€ {euro(5 * F(750, 100) / 3)}"),
+    ("bij 4 het getal 12",                   f"y = {int(F(6, 2))}x"),
+    ("rij begint met 3, 7, 11, 15",          str(15 + 4)),
+    ("getalwaarde van x² − 3x",              str(5 ** 2 - 3 * 5)),
+    ("getalwaarde van 2a − b",               str(2 * 3 - (-4))),
+    ("Los op: 5x − 3 = 2x + 9",              f"x = {(9 + 3) // (5 - 2)}"),
+    ("Los op: 3(x − 2) = 15",                f"x = {15 // 3 + 2}"),
+    ("Los op: x : 4 = 3",                    f"x = {3 * 4}"),
+    ("Het dubbele ervan plus 3 is 21",       f"2x + 3 = {21}"),
+    ("€ 2 per kilometer",                    f"{(19 - 3) // 2} km"),
+    ("Zes werklui",                          f"{6 * 4 // 12} dagen"),
+    ("2 kosten er 7, 3 kosten er 10",        f"{(10 - 4) // 2}n + 1"),
+    ("rij begint met 2, 4, 8, 16",           str(16 * 2)),
+    ("omtrek van een rechthoek is 26 cm",    f"2(8 + b) = {26}"),
+    ("enkel links door 4",                   "Wat je links doet, moet je ook rechts doen"),
+    ("Wat betekent de 3",                    "Drie stappen langs de horizontale as"),
+    ("welk getal is de coëfficiënt",         "5"),
+    ("Werk de haakjes weg: 3(x + 2)",        uitwerking("3x + 6", lambda x: 3 * (x + 2))),
+    ("Werk uit: (x + 4)²",                   uitwerking("x² + 8x + 16", lambda x: (x + 4) ** 2)),
+    ("Werk uit: 2(3x − 5) + 4x",             uitwerking("10x − 10", lambda x: 2 * (3 * x - 5) + 4 * x)),
+    ("Werk uit: (a + b)²",                   uitwerking("a² + 2ab + b²", lambda a, b: (a + b) ** 2)),
+    ("Werk uit: (a + b)(a − b)",             uitwerking("a² − b²", lambda a, b: (a + b) * (a - b))),
+    ("graad van de veelterm",                "2"),
+    ("omgekeerd evenredig verband met factor 24", "y = 24 : x"),
 ]
 
 # Vragen die je niet kúnt narekenen omdat het antwoord een woord is. Het juiste

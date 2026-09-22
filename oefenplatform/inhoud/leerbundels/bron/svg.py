@@ -2758,3 +2758,72 @@ def vierkante_stap(breedte=470):
     d.append(_tekst(x0 - 10, y0 + zijde / 2 + 4, "1 dm", 11, DARK, anker="end", vet=True))
     d.append(_tekst(x0 + zijde / 2, y0 + zijde + 20, "10 rijen van 10 = 100 cm²", 11, AMBER))
     return _svg(breedte, y0 + zijde + 32, "".join(d))
+
+
+def assenstelsel(punten, tot=6, breedte=300):
+    """Een assenstelsel met een paar punten erin.
+
+    punten = [(x, y, naam), ...] met waarden tussen 0 en `tot`.
+    """
+    rand = 30
+    # rechts wat meer lucht, anders plakt de letter x tegen het laatste cijfer
+    vlak = breedte - rand - 30
+    h = vlak + rand + 20
+    stap = vlak / tot
+    ox, oy = rand, rand + vlak - stap * 0  # oorsprong linksonder
+    oy = rand + vlak
+    d = []
+    for k in range(tot + 1):
+        d.append(f'<line x1="{ox+k*stap:.1f}" y1="{rand}" x2="{ox+k*stap:.1f}" y2="{oy}" '
+                 f'stroke="{BORDER}" stroke-width="1"/>')
+        d.append(f'<line x1="{ox}" y1="{oy-k*stap:.1f}" x2="{ox+vlak:.1f}" y2="{oy-k*stap:.1f}" '
+                 f'stroke="{BORDER}" stroke-width="1"/>')
+    d.append(f'<line x1="{ox}" y1="{oy}" x2="{ox+vlak+8:.1f}" y2="{oy}" stroke="{DARK}" stroke-width="1.8"/>')
+    d.append(f'<line x1="{ox}" y1="{oy}" x2="{ox}" y2="{rand-8}" stroke="{DARK}" stroke-width="1.8"/>')
+    d.append(_tekst(ox + vlak + 16, oy + 5, "x", 11, DARK, vet=True))
+    d.append(_tekst(ox - 14, rand - 4, "y", 11, DARK, vet=True))
+    d.append(_tekst(ox - 9, oy + 15, "0", 10, DIM))
+    for k in range(1, tot + 1):
+        d.append(_tekst(ox + k * stap, oy + 15, str(k), 9.5, DIM))
+        d.append(_tekst(ox - 10, oy - k * stap + 4, str(k), 9.5, DIM))
+    for x, y, naam in punten:
+        px, py = ox + x * stap, oy - y * stap
+        d.append(f'<line x1="{px:.1f}" y1="{py:.1f}" x2="{px:.1f}" y2="{oy}" stroke="{AMBER}" '
+                 f'stroke-width="1.2" stroke-dasharray="3 3"/>')
+        d.append(f'<line x1="{px:.1f}" y1="{py:.1f}" x2="{ox}" y2="{py:.1f}" stroke="{AMBER}" '
+                 f'stroke-width="1.2" stroke-dasharray="3 3"/>')
+        d.append(f'<circle cx="{px:.1f}" cy="{py:.1f}" r="4" fill="{FOREST}"/>')
+        d.append(_tekst(px + 20, py - 6, naam, 10.5, FOREST, vet=True))
+    return _svg(breedte, h, "".join(d))
+
+
+def evenredig_grafieken(breedte=470):
+    """Recht evenredig naast omgekeerd evenredig, zodat het verschil opvalt."""
+    vak = breedte / 2
+    rand, vlak = 30, 128
+    h = vlak + rand + 34
+    d = []
+    for i, soort in enumerate(("recht", "omgekeerd")):
+        ox = i * vak + rand
+        oy = rand + vlak
+        d.append(f'<line x1="{ox}" y1="{oy}" x2="{ox+vak-rand-12:.1f}" y2="{oy}" stroke="{DARK}" stroke-width="1.6"/>')
+        d.append(f'<line x1="{ox}" y1="{oy}" x2="{ox}" y2="{rand-6}" stroke="{DARK}" stroke-width="1.6"/>')
+        punten = []
+        if soort == "recht":
+            for k in range(0, 61):
+                x = k / 60
+                punten.append((ox + x * (vak - rand - 20), oy - x * vlak * 0.92))
+            bijschrift = "y = 3x"
+        else:
+            for k in range(0, 61):
+                x = 0.18 + k / 60 * 0.82
+                y = 0.18 / x
+                punten.append((ox + x * (vak - rand - 20), oy - min(y, 1.0) * vlak * 0.92))
+            bijschrift = "y = 24 : x"
+        pad = " ".join(f"{px:.1f},{py:.1f}" for px, py in punten)
+        d.append(f'<polyline points="{pad}" fill="none" stroke="{FOREST}" stroke-width="2.2"/>')
+        d.append(_tekst(ox + (vak - rand) / 2, h - 22, bijschrift, 11, FOREST, vet=True))
+        d.append(_tekst(ox + (vak - rand) / 2, h - 8,
+                        "rechte door de oorsprong" if soort == "recht" else "kromme, raakt de assen niet",
+                        9.5, DIM))
+    return _svg(breedte, h, "".join(d))

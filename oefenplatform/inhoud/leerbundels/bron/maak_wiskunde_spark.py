@@ -676,3 +676,110 @@ BUNDELS["metend-rekenen-spark"] = dict(
         "Samengesteld: knip in stukken die je kent, en trek af wat eruit gaat.",
         "Zijde verdubbelen maakt de oppervlakte vier keer zo groot.",
     ])
+
+
+BUNDELS["relaties-en-verandering-spark"] = dict(
+    vak="Wiskunde", niveau=SPARK, titel="Relaties en verandering",
+    onder="Coördinaten, rekenen met letters, verbanden tussen grootheden, en vergelijkingen.",
+    secties=[
+        dict(kop="Coördinaten", blokken=[
+            ("p", "In een <strong>assenstelsel</strong> ligt elk punt vast met twee getallen. Het eerste "
+                  "hoort bij de <strong>x-as</strong> (horizontaal), het tweede bij de <strong>y-as</strong> "
+                  "(verticaal). Altijd in die volgorde."),
+            ("fig", svg.assenstelsel([(3, 5, "A(3, 5)")]),
+             "Punt A: drie naar rechts en vijf omhoog. Het snijpunt van de twee assen heet de oorsprong en heeft coördinaten (0, 0)."),
+            ("kader", "Ligt een punt <strong>op de x-as</strong>, dan is zijn y-coördinaat 0. Ligt het op de "
+                      "y-as, dan is zijn x-coördinaat 0."),
+        ]),
+        dict(kop="Rekenen met letters", blokken=[
+            ("p", "Een <strong>eenterm</strong> is een getal maal letters, zoals 5x³. De "
+                  "<strong>coëfficiënt</strong> is het getal vooraan (5), het <strong>lettergedeelte</strong> "
+                  "is x³, en de <strong>graad</strong> is de exponent (3). Een <strong>veelterm</strong> is "
+                  "een som van eentermen; haar graad is de hoogste die erin voorkomt, dus "
+                  "3x² + 5x − 7 heeft graad <strong>2</strong>."),
+            ("p", "Optellen mag alleen bij <strong>gelijksoortige</strong> eentermen, dat zijn eentermen met "
+                  "hetzelfde lettergedeelte. 3x + 7x = 10x, en 4a + 3a − a = <strong>6a</strong>. Maar "
+                  "3x + 3x² kan je niet samennemen, en 3x + 3y evenmin."),
+            ("p", "Haakjes werk je weg met de distributieve eigenschap: 3(x + 2) = <strong>3x + 6</strong>. "
+                  "En 2(3x − 5) + 4x wordt 6x − 10 + 4x = <strong>10x − 10</strong>."),
+            ("kader", "De <strong>getalwaarde</strong> krijg je door de letters te vervangen door getallen. "
+                      "x² − 3x bij x = 5 is 25 − 15 = <strong>10</strong>. En 2a − b bij a = 3 en b = −4 is "
+                      "6 − (−4) = <strong>10</strong>: let op de twee mintekens."),
+        ]),
+        dict(kop="De merkwaardige producten", blokken=[
+            ("p", "Twee uitwerkingen komen zo vaak terug dat je ze uit het hoofd kent. Ze staan ook op de "
+                  "vakfiche."),
+            ("p", "<strong>(a + b)² = a² + 2ab + b²</strong>. De middelste term wordt het vaakst vergeten. "
+                  "Toets het met getallen: (2 + 3)² = 25, en 4 + 12 + 9 = 25. Klopt. Zo wordt "
+                  "(x + 4)² dus <strong>x² + 8x + 16</strong>."),
+            ("p", "<strong>(a + b)(a − b) = a² − b²</strong>. Hier vallen de middelste termen juist weg, "
+                  "want −ab + ab = 0. Toets: 5 en 2 geeft 7 × 3 = 21, en 25 − 4 = 21."),
+            ("kader", "Twijfel je of je een merkwaardig product juist uitwerkte, vul dan twee getallen in "
+                      "en reken allebei de kanten uit. Komen ze niet overeen, dan weet je het meteen."),
+        ]),
+        dict(kop="Recht en omgekeerd evenredig", blokken=[
+            ("p", "Twee grootheden zijn <strong>recht evenredig</strong> als ze samen meegroeien: dubbel "
+                  "zoveel van het ene geeft dubbel zoveel van het andere. Ze zijn <strong>omgekeerd "
+                  "evenredig</strong> als het ene groter wordt terwijl het andere even veel keer kleiner "
+                  "wordt."),
+            ("fig", svg.evenredig_grafieken(),
+             "Recht evenredig geeft een rechte lijn door de oorsprong. Omgekeerd evenredig geeft een kromme die naar de assen toe buigt zonder ze te raken."),
+            ("p", "Het onderscheid maak je met één blik op de tabel. Bij <strong>recht</strong> evenredig is "
+                  "het <strong>quotiënt</strong> telkens hetzelfde: bij 2 hoort 6, bij 4 hoort 12, bij 5 "
+                  "hoort 15, en 6 : 2 = 12 : 4 = 15 : 5 = 3. De formule is dan y = 3x, en die 3 heet de "
+                  "<strong>evenredigheidsfactor</strong>."),
+            ("p", "Bij <strong>omgekeerd</strong> evenredig is het <strong>product</strong> telkens "
+                  "hetzelfde. Zes werklui doen een klus in 4 dagen, dus 6 × 4 = 24. Met twaalf werklui: "
+                  "12 × ? = 24, dus <strong>2 dagen</strong>. De formule is y = 24 : x."),
+        ]),
+        dict(kop="Patronen in een formule zetten", blokken=[
+            ("p", "Bij een patroon zoek je eerst wat er telkens bij komt, en daarna wat er aan het begin "
+                  "staat."),
+            ("p", "Vierkantjes van lucifers op een rij: één vierkant kost 4 lucifers, twee kosten er 7, "
+                  "drie kosten er 10. Er komt telkens <strong>3</strong> bij, want elk volgend vierkant "
+                  "deelt een zijde met het vorige. Bij n vierkantjes: <strong>3n + 1</strong>. Toets bij "
+                  "n = 3: 3 × 3 + 1 = 10."),
+            ("p", "Let op wat voor soort rij het is. Bij 3, 7, 11, 15 komt er telkens 4 bij, dus het "
+                  "volgende is <strong>19</strong>. Bij 2, 4, 8, 16 wordt er telkens maal 2 gedaan, dus het "
+                  "volgende is <strong>32</strong> — dat groeit veel sneller."),
+        ]),
+        dict(kop="Vergelijkingen oplossen", blokken=[
+            ("p", "Een <strong>vergelijking</strong> heeft een <strong>linkerlid</strong>, een "
+                  "<strong>gelijkheidsteken</strong> en een <strong>rechterlid</strong>. De letter is de "
+                  "<strong>onbekende</strong>; de waarde die de gelijkheid klopt maakt, is de "
+                  "<strong>oplossing</strong>."),
+            ("fig", svg.stappen(["2x + 5 = 17", "min 5|2x = 12", "deel door 2|x = 6"]),
+             "Elke stap doe je aan allebei de kanten. Zo krijg je telkens een gelijkwaardige vergelijking: ze ziet er anders uit, maar heeft dezelfde oplossing."),
+            ("p", "Staan er x'en aan beide kanten, breng ze dan eerst samen. 5x − 3 = 2x + 9 wordt "
+                  "3x = 12, dus x = <strong>4</strong>. Staan er haakjes, dan kan je delen of uitwerken: "
+                  "3(x − 2) = 15 geeft x − 2 = 5, dus x = <strong>7</strong>."),
+            ("kader", "Wat je links doet, moet je <strong>ook rechts</strong> doen. Een vergelijking is een "
+                      "evenwicht; verander je maar één kant, dan klopt de gelijkheid niet meer. En "
+                      "controleer je oplossing altijd door ze in te vullen."),
+        ]),
+        dict(kop="Van een verhaal naar een vergelijking", blokken=[
+            ("p", "Het moeilijkste is niet het oplossen, wel het opstellen. Zet eerst met woorden wat de "
+                  "onbekende is, en vertaal dan zin per zin."),
+            ("p", "„Een taxi vraagt € 3 opstapgeld en € 2 per kilometer. Je betaalt € 19.” Noem het "
+                  "aantal kilometer x. Dan is de rit 3 + 2x, en dat is 19. Uit 2x = 16 volgt "
+                  "x = <strong>8 kilometer</strong>."),
+            ("p", "„De omtrek van een rechthoek is 26 cm en de lengte is 8 cm.” De omtrek is "
+                  "2 × (lengte + breedte), dus 2(8 + b) = 26. Delen door 2 geeft 8 + b = 13, dus "
+                  "b = <strong>5 cm</strong>."),
+            ("kader", "Formuleer op het einde een <strong>antwoord in woorden</strong>, met de eenheid erbij. "
+                      "„x = 8” is het halve werk; „de rit was 8 kilometer lang” is het antwoord op de vraag."),
+        ]),
+    ],
+    onthoud=[
+        "Coördinaten: eerst x (horizontaal), dan y (verticaal). De oorsprong is (0, 0).",
+        "Op de x-as is y = 0; op de y-as is x = 0.",
+        "In 5x³ is 5 de coëfficiënt, x³ het lettergedeelte en 3 de graad.",
+        "Optellen mag enkel bij gelijksoortige eentermen: 3x + 7x = 10x, maar 3x + 3x² niet.",
+        "(a + b)² = a² + 2ab + b². Vergeet de middelste term niet.",
+        "(a + b)(a − b) = a² − b². Daar valt de middelste term juist weg.",
+        "Recht evenredig: het quotiënt blijft gelijk, grafiek is een rechte door de oorsprong.",
+        "Omgekeerd evenredig: het product blijft gelijk. 6 werklui × 4 dagen = 12 × 2.",
+        "Patroon: zoek wat er telkens bij komt, en wat er aan het begin staat. Lucifervierkantjes: 3n + 1.",
+        "Wat je links van het gelijkheidsteken doet, doe je ook rechts.",
+        "Controleer je oplossing door ze in te vullen, en antwoord met een zin en een eenheid.",
+    ])
