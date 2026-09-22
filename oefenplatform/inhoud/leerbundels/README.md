@@ -41,6 +41,29 @@ Een **landkaart** tekenen we niet. Een kaart uit het hoofd natekenen wordt
 scheef, en scheve grenzen horen niet in lesmateriaal. Komt er een kaart in een
 bundel, dan is dat een echte kaart met een vrije licentie, met de bron erbij.
 
+## Een kaart met haar legende
+
+Kaarten zitten in `bron/fotos/`, samen met [`BRONNEN.md`](./bron/fotos/BRONNEN.md),
+waarin per bestand staat waar het vandaan komt. Zet daar elke nieuwe afbeelding bij.
+
+Gebruik `bundel.kaart(...)` in plaats van `bundel.foto(...)`:
+
+```python
+("fig", bundel.kaart("fotos/belgie-provincies-kaart.png",
+                     "fotos/belgie-provincies-legende.png",
+                     "Kaart: gemaakt met mapchart.net"),
+ "Zoek jouw provincie eens op.")
+```
+
+De legende staat met opzet in een **apart bestand**, in kolommen naast elkaar.
+Zou ze als smalle kolom naast de kaart staan, dan schaalt haar tekst mee met de
+kaart en wordt ze op A4 een paar millimeter groot. Nu krijgen kaart en legende
+allebei de volle breedte en blijft de tekst leesbaar.
+
+Is de kaart staand (Europa loopt van de poolcirkel tot Noord-Afrika), dan passen
+kaart en legende samen niet meer op één bladzijde. Geef de kaart dan een kleinere
+`breedte=`, want een legende die van haar kaart wegvalt helpt niemand.
+
 ## Waarom er tekeningen in staan
 
 Veel kinderen met een hoogbegaafd, ASS- of ADHD-profiel leren visueel: een

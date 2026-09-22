@@ -113,6 +113,8 @@ def foto(pad, breedte="100%", bron=None, hoogte=None):
     """
     import base64, mimetypes
     p = pathlib.Path(pad)
+    if not p.exists():
+        p = HIER / pad          # ook te vinden als je het script van elders draait
     soort = mimetypes.guess_type(p.name)[0] or "image/jpeg"
     data = base64.b64encode(p.read_bytes()).decode("ascii")
     stijl = f"width:{breedte};max-width:100%;border-radius:10px;border:1px solid #e4ded0;"
@@ -123,3 +125,21 @@ def foto(pad, breedte="100%", bron=None, hoogte=None):
         img += (f'<span style="display:block;margin-top:4px;font-size:8pt;color:#6b7260;'
                 f'text-align:right;">{bron}</span>')
     return img
+
+
+def kaart(kaart_pad, legende_pad, bron=None, breedte="100%"):
+    """Een kaart met haar legende als apart beeld eronder.
+
+    De legende hoort bij de kaart, maar mag er niet mee meeschalen: staat ze
+    als smalle kolom naast een kaart die de volle breedte krijgt, dan wordt
+    haar tekst op A4 een paar millimeter groot. Daarom staan ze in twee
+    bestanden, elk over de volle breedte, met de legende in kolommen.
+
+    breedte geldt alleen voor de kaart. Een staande kaart (Europa bijvoorbeeld,
+    van de poolcirkel tot Noord-Afrika) wordt over de volle breedte zo hoog dat
+    kaart en legende niet meer samen op één bladzijde passen; zet hem dan wat
+    smaller, want een legende die van haar kaart wegvalt helpt niemand.
+    """
+    return (foto(kaart_pad, breedte=breedte)
+            + '<span style="display:block;height:10px;"></span>'
+            + foto(legende_pad, bron=bron))

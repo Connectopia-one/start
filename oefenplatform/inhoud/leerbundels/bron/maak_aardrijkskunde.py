@@ -14,6 +14,9 @@ import sys, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
 import svg, bundel
 tabel = bundel.tabel
+kaart = bundel.kaart
+
+BRON_MAPCHART = "Kaart: gemaakt met mapchart.net, gedeeld als lesmateriaal via KlasCement."
 
 BUNDELS = {}
 
@@ -32,6 +35,12 @@ BUNDELS["belgie-landschap-en-streken"] = dict(
                   "Vlaanderen, maar het hoort bij geen van beide andere gewesten en heeft geen "
                   "provincie. Het bestaat uit negentien gemeenten, en er wordt zowel Nederlands "
                   "als Frans gesproken."),
+            ("fig", kaart("fotos/belgie-provincies-kaart.png",
+                          "fotos/belgie-provincies-legende.png", BRON_MAPCHART),
+             "Zoek jouw provincie eens op. Zie je Brussel liggen, het kleine paarse vlekje "
+             "middenin Vlaams-Brabant?"),
+        ]),
+        dict(kop="Onze buurlanden", blokken=[
             ("p", "België heeft vier buurlanden. Aan drie ervan grenst maar een klein stukje land; "
                   "met Frankrijk deelt ons land de langste grens."),
             ("kader", tabel(["Buurland", "Hoofdstad", "Taal die er het meest gesproken wordt"],
@@ -254,6 +263,16 @@ BUNDELS["europa-en-de-wereld"] = dict(
             ("p", "Na de Tweede Wereldoorlog zochten Europese landen elkaar op, met de gedachte: wie "
                   "samen handelt en samen beslist, voert geen oorlog meer tegen elkaar. Uit die "
                   "samenwerking is de <strong>Europese Unie</strong> gegroeid."),
+            ("fig", kaart("fotos/europa-landen-kaart.png",
+                          "fotos/europa-landen-legende.png", BRON_MAPCHART, breedte="68%"),
+             "De gekleurde landen zijn de landen van de Europese Unie, met het Verenigd Koninkrijk "
+             "er nog bij. Alles wat grijs is, hoort er niet bij: Noorwegen en Zwitserland "
+             "bijvoorbeeld liggen wel in Europa, maar niet in de EU."),
+            ("kader", "Twee dingen om op te letten bij deze kaart. <strong>Groot-Brittannië</strong> "
+                      "is eigenlijk de naam van het grote eiland; het lánd heet het "
+                      "<strong>Verenigd Koninkrijk</strong>, en daar hoort Noord-Ierland ook bij. En "
+                      "de hoofdstad van Malta schrijf je <strong>Valletta</strong>, die van Cyprus "
+                      "<strong>Nicosia</strong>."),
             ("fig", svg.tijdlijn(
                 [("samenwerking na de oorlog", 1945, 1993, "#3b6ea5"),
                  ("de Europese Unie", 1993, 2030, "#2f5d50")],
