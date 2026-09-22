@@ -2827,3 +2827,91 @@ def evenredig_grafieken(breedte=470):
                         "rechte door de oorsprong" if soort == "recht" else "kromme, raakt de assen niet",
                         9.5, DIM))
     return _svg(breedte, h, "".join(d))
+
+
+def venndiagram(naam_a, naam_b, enkel_a, samen, enkel_b, buiten=None, breedte=470):
+    """Twee overlappende cirkels met wat in elk deel zit.
+
+    De drie gebieden staan elk op hun eigen plek: links wat enkel in A zit,
+    in het midden de doorsnede, rechts wat enkel in B zit.
+    """
+    r = 92
+    cy = 112
+    kader_h = 196                      # de doos rond de cirkels
+    h = kader_h + (30 if buiten else 14)   # plus een strook voor het onderschrift
+    cxa, cxb = breedte / 2 - 52, breedte / 2 + 52
+    d = [f'<rect x="14" y="14" width="{breedte-28}" height="{kader_h}" rx="12" fill="{PAPER}" '
+         f'stroke="{BORDER}" stroke-width="1.2"/>']
+    d.append(f'<circle cx="{cxa}" cy="{cy}" r="{r}" fill="{FOREST}" fill-opacity="0.10" '
+             f'stroke="{FOREST}" stroke-width="1.8"/>')
+    d.append(f'<circle cx="{cxb}" cy="{cy}" r="{r}" fill="{AMBER}" fill-opacity="0.10" '
+             f'stroke="{AMBER}" stroke-width="1.8"/>')
+    d.append(_tekst(cxa - r + 26, cy - r + 2, naam_a, 12, FOREST, vet=True))
+    d.append(_tekst(cxb + r - 26, cy - r + 2, naam_b, 12, AMBER, vet=True))
+    # de drie gebieden; het middelste ligt precies tussen de twee middelpunten
+    for tekst, x, kleur in ((enkel_a, cxa - 48, DARK),
+                            (samen, (cxa + cxb) / 2, INK),
+                            (enkel_b, cxb + 48, DARK)):
+        for i, regel in enumerate(str(tekst).split("\n")):
+            d.append(_tekst(x, cy + 4 + i * 15, regel, 11.5, kleur))
+    if buiten:
+        d.append(_tekst(breedte / 2, h - 8, buiten, 10, DIM))
+    return _svg(breedte, h, "".join(d))
+
+
+def frequentietabel(paren, breedte=470, koppen=("waarde", "hoe vaak")):
+    """Een frequentietabel: elke waarde met het aantal keer dat ze voorkomt."""
+    n = len(paren)
+    kolom = min(84, (breedte - 130) / n)
+    x0 = 110
+    rij_y = [56, 94]
+    d = [f'<rect x="{x0}" y="{rij_y[0]-22}" width="{kolom*n}" height="88" fill="{PAPER}" '
+         f'stroke="{BORDER}" stroke-width="1.2"/>']
+    for r, kop in enumerate(koppen):
+        d.append(_tekst(x0 - 12, rij_y[r] + 4, kop, 10.5, DIM, anker="end"))
+    for i, (links, rechts) in enumerate(paren):
+        cx = x0 + kolom * i + kolom / 2
+        if i:
+            d.append(f'<line x1="{x0+kolom*i}" y1="{rij_y[0]-22}" x2="{x0+kolom*i}" '
+                     f'y2="{rij_y[0]+66}" stroke="{BORDER}" stroke-width="1.2"/>')
+        d.append(_tekst(cx, rij_y[0] + 4, str(links), 12, DARK, vet=True))
+        d.append(_tekst(cx, rij_y[1] + 4, str(rechts), 12, FOREST, vet=True))
+    d.append(f'<line x1="{x0}" y1="{rij_y[0]+20}" x2="{x0+kolom*n}" y2="{rij_y[0]+20}" '
+             f'stroke="{BORDER}" stroke-width="1.2"/>')
+    totaal = sum(int(r) for _, r in paren)
+    d.append(_tekst(x0 + kolom * n / 2, rij_y[1] + 46, f"samen {totaal} metingen", 10, DIM))
+    return _svg(breedte, 152, "".join(d))
+
+
+def middelmaten(getallen, breedte=470):
+    """De getallen op een rij, met de mediaan en het gemiddelde aangeduid."""
+    gesorteerd = sorted(getallen)
+    n = len(gesorteerd)
+    gem = sum(gesorteerd) / n
+    if n % 2:
+        med = gesorteerd[n // 2]
+    else:
+        med = (gesorteerd[n // 2 - 1] + gesorteerd[n // 2]) / 2
+    laag, hoog = gesorteerd[0], gesorteerd[-1]
+    marge = 56
+    span = max(hoog - laag, 1)
+    h = 150
+
+    def px(waarde):
+        return marge + (waarde - laag) / span * (breedte - 2 * marge)
+
+    d = [f'<line x1="{marge-14}" y1="86" x2="{breedte-marge+14}" y2="86" '
+         f'stroke="{BORDER}" stroke-width="2"/>']
+    for g in gesorteerd:
+        d.append(f'<circle cx="{px(g)}" cy="86" r="5.5" fill="{FOREST}"/>')
+        d.append(_tekst(px(g), 108, str(g), 10.5, DIM))
+    for waarde, naam, kleur, y in ((med, "mediaan", AMBER, 52), (gem, "gemiddelde", "#5b7f9c", 32)):
+        d.append(f'<line x1="{px(waarde)}" y1="{y+6}" x2="{px(waarde)}" y2="80" '
+                 f'stroke="{kleur}" stroke-width="1.6" stroke-dasharray="4 3"/>')
+        tekst = f"{naam} {str(waarde).replace('.', ',').removesuffix(',0')}"
+        anker = "start" if px(waarde) < breedte / 2 else "end"
+        schuif = 7 if anker == "start" else -7
+        d.append(_tekst(px(waarde) + schuif, y + 4, tekst, 10.5, kleur, anker=anker, vet=True))
+    d.append(_tekst(breedte / 2, h - 12,
+                    f"variatiebreedte: {hoog} − {laag} = {hoog - laag}", 10, DIM))
+    return _svg(breedte, h, "".join(d))

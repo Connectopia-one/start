@@ -783,3 +783,201 @@ BUNDELS["relaties-en-verandering-spark"] = dict(
         "Wat je links van het gelijkheidsteken doet, doe je ook rechts.",
         "Controleer je oplossing door ze in te vullen, en antwoord met een zin en een eenheid.",
     ])
+
+
+BUNDELS["data-en-onzekerheid-spark"] = dict(
+    vak="Wiskunde", niveau=SPARK, titel="Data en onzekerheid",
+    onder="Gegevens verzamelen en ordenen, gemiddelde, mediaan en modus, diagrammen lezen en doorzien.",
+    secties=[
+        dict(kop="Gegevens verzamelen en ordenen", blokken=[
+            ("p", "Statistiek begint niet bij rekenen maar bij een <strong>onderzoeksvraag</strong>. Die is "
+                  "goed als je er met gegevens een antwoord op kan geven. „Hoeveel uur slapen de leerlingen "
+                  "van mijn klas gemiddeld per nacht?” kan je onderzoeken; „slaapt iedereen genoeg?” niet, "
+                  "want daar staat nergens wat genoeg is."),
+            ("p", "Wat je meet heet een <strong>variabele</strong>. Kan je ze tellen of meten, dan is ze "
+                  "<strong>numeriek</strong> (aantal broers en zussen, lengte in cm). Is het een naam of een "
+                  "categorie, dan is ze <strong>categorisch</strong> (lievelingskleur, vervoermiddel). Dat "
+                  "onderscheid bepaalt wat je er later mee mag doen."),
+            ("fig", svg.frequentietabel([(0, 4), (1, 9), (2, 6), (3, 2), (4, 1)],
+                                        koppen=("broers en zussen", "hoe vaak")),
+             "Een frequentietabel zet elke waarde naast het aantal keer dat ze voorkomt. De som van de frequenties is altijd het aantal metingen: hier 22 leerlingen."),
+            ("kader", "Controleer je tabel altijd door de frequenties op te tellen. Komt dat niet uit op het "
+                      "aantal mensen dat je bevraagd hebt, dan ben je iets kwijt of heb je iets dubbel geteld."),
+        ]),
+        dict(kop="Gemiddelde, mediaan en modus", blokken=[
+            ("p", "Drie manieren om het midden van een reeks in één getal te vatten. Ze geven niet hetzelfde "
+                  "antwoord, en dat is precies waarom je ze alle drie kent."),
+            ("p", "Het <strong>gemiddelde</strong> is de som gedeeld door het aantal. Van 4, 6 en 8 is dat "
+                  "18 : 3 = <strong>6</strong>. De <strong>mediaan</strong> is het middelste getal als je ze "
+                  "op volgorde zet: van 3, 7, 9, 12, 20 is dat <strong>9</strong>. Bij een even aantal neem "
+                  "je het gemiddelde van de twee middelste: van 2, 4, 6, 10 is dat (4 + 6) : 2 = "
+                  "<strong>5</strong>. De <strong>modus</strong> is de waarde die het vaakst voorkomt: van "
+                  "3, 7, 7, 9, 12 is dat <strong>7</strong>."),
+            ("fig", svg.middelmaten([3, 5, 6, 8, 10, 16]),
+             "Bij een reeks zonder uitschieters liggen gemiddelde en mediaan dicht bij elkaar. De variatiebreedte is het grootste min het kleinste en zegt hoe ver de waarden uit elkaar liggen."),
+            ("p", "De modus is de enige van de drie die ook werkt bij een <strong>categorische</strong> "
+                  "variabele. Van lievelingskleuren kan je geen gemiddelde nemen, maar je kan wel zeggen "
+                  "welke kleur het vaakst gekozen werd. Er kunnen ook <strong>twee</strong> waarden even "
+                  "vaak voorkomen; dan heeft de reeks gewoon twee modi."),
+            ("kader", "Het gemiddelde hoeft <strong>geen</strong> waarde uit de reeks te zijn, en zelfs geen "
+                      "bestaand aantal. „De gemiddelde Belg heeft 1,7 kinderen” klopt gewoon: het is een "
+                      "rekenresultaat, geen beschrijving van één gezin."),
+        ]),
+        dict(kop="Wanneer welke maat?", blokken=[
+            ("p", "Eén uitschieter trekt het gemiddelde helemaal mee, maar laat de mediaan bijna ongemoeid. "
+                  "Daar moet je op letten."),
+            ("fig", svg.staafdiagram([("Aya", 10), ("Bram", 12), ("Cis", 14), ("Dina", 500)],
+                                     breedte=430, hoogte=200, stap=100),
+             "Vier weeklonen in euro. Het gemiddelde is € 134, terwijl drie van de vier mensen minder dan € 15 verdienen. De mediaan, € 13, beschrijft deze groep veel eerlijker."),
+            ("p", "Gebruik het <strong>gemiddelde</strong> als de waarden ongeveer bij elkaar liggen, en de "
+                  "<strong>mediaan</strong> zodra er uitschieters zijn. Twee reeksen kunnen hetzelfde "
+                  "gemiddelde hebben en toch heel verschillend zijn: bij gemiddelde 14 en variatiebreedte 4 "
+                  "zit iedereen dicht bijeen, bij gemiddelde 14 en variatiebreedte 15 liggen de resultaten "
+                  "ver uit elkaar. Is de variatiebreedte <strong>0</strong>, dan zijn alle waarden gelijk."),
+            ("p", "Met het gemiddelde kan je ook terugrekenen. Is het gemiddelde van vier toetsen 14, dan is "
+                  "de som 14 × 4 = <strong>56</strong>. Heb je 12, 15 en 16, en wil je een gemiddelde van 15, "
+                  "dan moet de som 60 worden; je staat op 43, dus je hebt <strong>17</strong> nodig."),
+            ("kader", "Vergelijk je twee klassen van verschillende grootte, gebruik dan "
+                      "<strong>percentages</strong> en geen aantallen. 8 van de 16 is meer dan 9 van de 30, "
+                      "ook al is 9 het grootste getal."),
+        ]),
+        dict(kop="Diagrammen", blokken=[
+            ("p", "Elk soort diagram beantwoordt een ander soort vraag. Kies het diagram bij je vraag, niet "
+                  "bij wat er mooi uitziet."),
+            ("fig", svg.naast_elkaar([svg.staafdiagram([("fiets", 10), ("te voet", 8), ("bus", 7)]),
+                                      svg.taartdiagram([("fiets 40 %", .40, svg.FOREST),
+                                                        ("te voet 32 %", .32, svg.AMBER),
+                                                        ("bus 28 %", .28, "#3b6ea5")])]),
+             "Een staafdiagram vergelijkt groepen: je leest de hoogte af op de verticale as. Een cirkeldiagram toont welk deel van het geheel elke groep is."),
+            ("p", "Een <strong>lijndiagram</strong> gebruik je voor verandering in de tijd. Loopt de lijn "
+                  "tussen 14 u en 15 u steil omhoog, dan werd het in dat uur snel warmer: de "
+                  "<strong>steilheid</strong> vertelt hoe snel het ging, niet hoe warm het was."),
+            ("p", "In een <strong>cirkeldiagram</strong> is de hele cirkel <strong>360°</strong> en dus "
+                  "100 %. Een groep van 20 % krijgt 20 % van 360° = <strong>72°</strong>. Een sector van "
+                  "90° is <strong>een vierde</strong> van het geheel. Van 40 leerlingen komen er 15 te voet; "
+                  "dat is 15/40 van 360° = <strong>135°</strong>."),
+            ("kader", "Een verticale as die niet bij <strong>0</strong> begint, blaast kleine verschillen op. "
+                      "Kijk altijd eerst naar de as voor je naar de staven kijkt: dat is de meest gebruikte "
+                      "manier om met een eerlijke grafiek toch te misleiden."),
+        ]),
+        dict(kop="Een onderzoek afmaken", blokken=[
+            ("p", "Een statistisch onderzoek is een rondje: je stelt een vraag, verzamelt gegevens, ordent ze "
+                  "in een tabel, tekent een diagram, rekent een centrummaat uit — en dan komt de stap die het "
+                  "vaakst vergeten wordt."),
+            ("p", "Die laatste stap is een <strong>antwoord formuleren op je onderzoeksvraag</strong>, in "
+                  "woorden. Een tabel en een grafiek zijn tussenstappen. Wie stopt bij de grafiek, heeft "
+                  "gegevens verzameld maar niets onderzocht."),
+            ("kader", "Zeg er ook bij <strong>waarover</strong> je iets weet. Je onderzocht jouw klas, dus je "
+                      "besluit gaat over jouw klas, niet over alle kinderen van het land."),
+        ]),
+    ],
+    onthoud=[
+        "Een goede onderzoeksvraag kan je met gegevens beantwoorden.",
+        "Numeriek kan je tellen of meten; categorisch is een naam of een categorie.",
+        "In een frequentietabel is de som van de frequenties het aantal metingen.",
+        "Gemiddelde = som : aantal. Het hoeft geen waarde uit de reeks te zijn.",
+        "Mediaan = het middelste getal op volgorde; bij een even aantal het gemiddelde van de twee middelste.",
+        "Modus = wat het vaakst voorkomt. De enige maat die ook werkt bij kleuren of categorieën.",
+        "Variatiebreedte = grootste − kleinste. Is ze 0, dan zijn alle waarden gelijk.",
+        "Bij uitschieters is de mediaan eerlijker dan het gemiddelde.",
+        "Staafdiagram vergelijkt groepen, lijndiagram toont verandering in de tijd, cirkeldiagram toont delen van een geheel.",
+        "De hele cirkel is 360°, dus 100 %. 20 % is 72°, en 90° is een vierde.",
+        "Een as die niet bij 0 begint, maakt kleine verschillen groot. Kijk eerst naar de as.",
+        "Vergelijk klassen van verschillende grootte met percentages, niet met aantallen.",
+        "De laatste stap is een antwoord in woorden op je onderzoeksvraag.",
+    ])
+
+
+BUNDELS["verzamelingen-spark"] = dict(
+    vak="Wiskunde", niveau=SPARK, titel="Verzamelingen",
+    onder="Elementen en deelverzamelingen, doorsnede, unie en verschil, en het venndiagram.",
+    secties=[
+        dict(kop="Wat is een verzameling?", blokken=[
+            ("p", "Een <strong>verzameling</strong> is een groep dingen die je samen wil bekijken. Je "
+                  "schrijft ze tussen <strong>accolades</strong>: {1, 2, 3}. De dingen erin heten de "
+                  "<strong>elementen</strong>."),
+            ("p", "Twee regels waar je vaak op getest wordt. Ten eerste telt elk element maar "
+                  "<strong>één keer</strong>: {3, 5, 5, 7} heeft dus <strong>3</strong> elementen. Ten "
+                  "tweede maakt de <strong>volgorde niet uit</strong>: {1, 2, 3} en {3, 1, 2} zijn dezelfde "
+                  "verzameling. Bij coördinaten als (1, 2) maakt de volgorde wél uit, en daarom staan die "
+                  "tussen ronde haakjes."),
+            ("p", "Een verzameling zonder elementen heet de <strong>lege verzameling</strong>, geschreven "
+                  "als <strong>∅</strong> of { }. Pas op met {0}: dat is een verzameling met één element "
+                  "erin, dus niet leeg. Een lege doos is niet hetzelfde als een doos met een nul erin."),
+        ]),
+        dict(kop="De tekens", blokken=[
+            ("p", "Vier tekens, en de regel welk teken waar mag staan."),
+            ("p", "<strong>∈</strong> betekent „is een element van” en staat tussen een <em>ding</em> en een "
+                  "verzameling: 3 ∈ {1, 2, 3}. De doorstreepte versie <strong>∉</strong> betekent „is geen "
+                  "element van”: 5 ∉ {1, 2, 3}."),
+            ("p", "<strong>⊂</strong> betekent „is een deelverzameling van” en staat tussen "
+                  "<em>twee verzamelingen</em>: B ⊂ A wil zeggen dat elk element van B ook in A zit. Met "
+                  "A = {1, 2, 3, 4} en B = {2, 4} geldt B ⊂ A, maar niet omgekeerd, want 1 en 3 zitten niet "
+                  "in B."),
+            ("kader", "De meest gemaakte fout is <strong>∈ en ⊂ verwisselen</strong>. Vraag je af wat er "
+                      "links staat: één ding, dan ∈. Een hele verzameling, dan ⊂."),
+            ("p", "Twee dingen die altijd waar zijn: elke verzameling is een deelverzameling van "
+                  "<strong>zichzelf</strong> (A ⊂ A), en de lege verzameling is een deelverzameling van "
+                  "<strong>elke</strong> verzameling. Daarom heeft {a, b} vier deelverzamelingen: ∅, {a}, "
+                  "{b} en {a, b} zelf."),
+        ]),
+        dict(kop="Doorsnede, unie en verschil", blokken=[
+            ("p", "Drie bewerkingen die van twee verzamelingen een nieuwe maken."),
+            ("fig", svg.venndiagram("A", "B", "1", "2, 3", "4",
+                                    buiten="A = {1, 2, 3} en B = {2, 3, 4}"),
+             "De doorsnede A ∩ B staat in het midden: {2, 3}. De unie A ∪ B is alles samen: {1, 2, 3, 4}. Het verschil A \\ B is het linkerdeel zonder het midden: {1}."),
+            ("p", "De <strong>doorsnede ∩</strong> is wat in allebei zit. De <strong>unie ∪</strong> is "
+                  "alles samen, waarbij je niets dubbel schrijft: {1, 2} ∪ {2, 5} = <strong>{1, 2, 5}</strong>. "
+                  "Het <strong>verschil A \\ B</strong> is wat in A zit maar niet in B: "
+                  "{1, 2, 3, 4} \\ {3, 4} = <strong>{1, 2}</strong>."),
+            ("p", "Hebben twee verzamelingen niets gemeenschappelijk, dan is hun doorsnede "
+                  "<strong>leeg</strong>: {1, 3, 5} ∩ {2, 4, 6} = ∅. En een unie met de lege verzameling "
+                  "verandert niets: {1, 2, 3} ∪ ∅ = {1, 2, 3}."),
+            ("kader", "Bij het <strong>verschil</strong> maakt de volgorde wél uit. Met A = {1, 2} en "
+                      "B = {2, 3} is A \\ B = {1} en B \\ A = {3}. Bij ∩ en ∪ maakt de volgorde niet uit."),
+        ]),
+        dict(kop="Het venndiagram bij vraagstukken", blokken=[
+            ("p", "Zodra een vraagstuk twee groepen heeft die elkaar overlappen, teken je een venndiagram. "
+                  "Zo zie je meteen wie er dubbel geteld wordt, en dat is daar de meest gemaakte fout."),
+            ("fig", svg.venndiagram("Frans (18)", "Duits (14)", "13", "5", "9",
+                                    buiten="30 leerlingen; 3 volgen geen van beide"),
+             "Vul eerst het midden in: 5 volgen allebei. De rest van Frans is dan 18 − 5 = 13, en de rest van Duits 14 − 5 = 9. Samen 13 + 5 + 9 = 27, dus 30 − 27 = 3 leerlingen volgen geen van beide."),
+            ("p", "Dezelfde redenering in één regel: het aantal in de unie is "
+                  "<strong>A + B − de overlap</strong>. Doen van 20 leerlingen er 12 aan voetbal en 8 aan "
+                  "zwemmen, en 3 allebei, dan doen er 12 + 8 − 3 = <strong>17</strong> minstens één van de "
+                  "twee. Heeft A 7 elementen, B 5, en hun doorsnede 2, dan heeft de unie "
+                  "7 + 5 − 2 = <strong>10</strong> elementen."),
+            ("kader", "Begin altijd <strong>in het midden</strong>. Wie de overlap als laatste invult, heeft "
+                      "de andere twee gebieden al fout."),
+        ]),
+        dict(kop="Verzamelingen in de rest van de wiskunde", blokken=[
+            ("p", "De tekens zijn niet het doel. Ze zijn een korte manier om te zeggen hoe de dingen die je "
+                  "al kent bij elkaar horen."),
+            ("fig", svg.insluiting("R: de rechthoeken", "V: de vierkanten",
+                                   "3 bij 5", "4 bij 4"),
+             "V ⊂ R: elk vierkant is een rechthoek, want het heeft vier rechte hoeken. Omgekeerd niet: een rechthoek van 3 bij 5 is geen vierkant."),
+            ("p", "Zo zit het ook bij de <strong>getallen</strong>: elk natuurlijk getal is een geheel "
+                  "getal, dus <strong>ℕ ⊂ ℤ</strong>. Omgekeerd niet, want −3 is geheel maar niet "
+                  "natuurlijk. En bij de <strong>driehoeken</strong>: een gelijkzijdige driehoek heeft drie "
+                  "gelijke zijden en dus zeker ook twee, dus Z ⊂ G."),
+            ("p", "Een doorsnede geeft soms een bekende naam terug. Een ruit heeft vier gelijke zijden, een "
+                  "rechthoek vier rechte hoeken; wie allebei is, is een <strong>vierkant</strong>. De "
+                  "doorsnede van de even getallen en de veelvouden van 3 zijn de <strong>veelvouden van "
+                  "6</strong>. En de doorsnede van de priemgetallen en de even getallen is "
+                  "<strong>{2}</strong>, want elk ander even getal is deelbaar door 2 en heeft dus meer dan "
+                  "twee delers."),
+        ]),
+    ],
+    onthoud=[
+        "Een verzameling staat tussen accolades: {1, 2, 3}. Wat erin zit, zijn de elementen.",
+        "Elk element telt één keer, en de volgorde maakt niet uit.",
+        "∅ is de lege verzameling. {0} is niet leeg: daar zit één element in.",
+        "∈ staat tussen een element en een verzameling; ⊂ staat tussen twee verzamelingen.",
+        "A ⊂ A, en ∅ is een deelverzameling van elke verzameling. {a, b} heeft 4 deelverzamelingen.",
+        "∩ is de doorsnede (wat in allebei zit), ∪ is de unie (alles samen, niets dubbel).",
+        "A \\ B is wat in A zit maar niet in B. Daar maakt de volgorde wél uit.",
+        "Hebben ze niets gemeen, dan is de doorsnede leeg.",
+        "Aantal in de unie = A + B − de overlap. Teken een venndiagram en begin in het midden.",
+        "ℕ ⊂ ℤ, de vierkanten ⊂ de rechthoeken, de gelijkzijdige ⊂ de gelijkbenige driehoeken.",
+        "Ruiten ∩ rechthoeken = de vierkanten. Priemgetallen ∩ even getallen = {2}.",
+    ])

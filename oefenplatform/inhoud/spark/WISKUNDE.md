@@ -70,12 +70,28 @@ in dezelfde map.
 
 ## Stand van zaken
 
+Alle negen hoofdstukken staan er, elk als een deel 1 en een deel 2 van twintig
+vragen. Samen 18 hoofdstukken en 360 vragen in `wiskunde.json`.
+
 | Hoofdstuk | Vragen | Bundel |
 | --- | --- | --- |
 | Negatieve getallen en procenten — deel 1 (gratis) en 2 | 2 x 20 | negatieve-getallen-en-procenten-spark.pdf |
 | Getallenleer — deel 1 en 2 | 2 x 20 | getallenleer-spark.pdf |
+| Probleemoplossend denken — deel 1 en 2 | 2 x 20 | probleemoplossend-denken-spark.pdf |
+| Wiskundige redeneringen en uitspraken — deel 1 en 2 | 2 x 20 | redeneringen-en-uitspraken-spark.pdf |
+| Meetkunde — deel 1 en 2 | 2 x 20 | meetkunde-spark.pdf |
+| Metend rekenen — deel 1 en 2 | 2 x 20 | metend-rekenen-spark.pdf |
+| Relaties en verandering — deel 1 en 2 | 2 x 20 | relaties-en-verandering-spark.pdf |
+| Data en onzekerheid — deel 1 en 2 | 2 x 20 | data-en-onzekerheid-spark.pdf |
+| Verzamelingen — deel 1 en 2 | 2 x 20 | verzamelingen-spark.pdf |
 
-De rest volgt in dezelfde opzet.
+De vragen staan per thema in een eigen bestand onder `bron/`, met Nederlandse
+uitleg erbij. `bron/bouw_wiskunde.py` zet ze samen in `wiskunde.json`; dat
+script vervangt een thema dat er al in staat, dus het opnieuw draaien is
+ongevaarlijk.
+
+`controleer_wiskunde.py` rekent de antwoorden zelf opnieuw uit (264 stuks) en
+waarschuwt bij een vraag met een getal erin die nog nergens nagekeken wordt.
 
 Deel 1 van "Negatieve getallen en procenten" staat op `gratis: true` en is het
 proefhoofdstuk: dat is wat iemand zonder account van wiskunde te zien krijgt.
