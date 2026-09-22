@@ -131,6 +131,11 @@ Log in op `/beheer` met je beheerdersaccount:
 - Op diezelfde pagina, onder **"Leerstof (theorie)"**: upload een PDF-leerbundel voor dat
   hoofdstuk. Kinderen zien die op een apart tabblad ("Leerstof") naast de oefeningen — met
   dezelfde toegang (gratis hoofdstuk = voor iedereen, anders volledige toegang nodig).
+- Op **`/beheer/leerstof`**: alle pdf's van een heel vak in één keer uploaden. Je kiest het vak,
+  selecteert alle bestanden tegelijk, en de pagina zoekt bij elke bestandsnaam zelf het best
+  passende hoofdstuk (op basis van de woorden in de naam). Je kan die koppeling en de titel per
+  bestand nog aanpassen voor je op uploaden klikt. Noem een bestand naar zijn hoofdstuk, bv.
+  `getallenkennis.pdf`, dan klopt de gok bijna altijd.
 - Per vak kan je een tabblad **"Rekenmachine"** aan- of uitzetten (bv. aan voor Wiskunde,
   Natuurwetenschappen, Fysica, Chemie; uit voor Nederlands) — met de officiële GeoGebra-
   rekenmachine ingebouwd (grafieken, meetkunde, berekeningen), zoals bij de examencommissie. Zet
