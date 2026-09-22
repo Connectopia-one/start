@@ -4,6 +4,7 @@ import { createClient } from "@/lib/supabase/server";
 import { Header } from "@/components/Header";
 import {
   maakVak,
+  hernoemVak,
   verwijderVak,
   maakHoofdstuk,
   wisselGratis,
@@ -102,6 +103,31 @@ export default async function BeheerVakkenPage({
                   </form>
                 </div>
               </div>
+
+              <details className="mt-3">
+                <summary className="cursor-pointer text-xs text-ink-dim hover:text-ink">
+                  Naam aanpassen
+                </summary>
+                <form action={hernoemVak} className="mt-2 flex flex-wrap items-center gap-2">
+                  <input type="hidden" name="id" value={vak.id} />
+                  <input
+                    name="naam"
+                    required
+                    defaultValue={vak.naam}
+                    className="min-w-0 flex-1 rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest"
+                  />
+                  <button
+                    type="submit"
+                    className="shrink-0 rounded-md border border-forest px-3 py-2 text-sm font-medium text-forest-dark hover:bg-forest hover:text-white"
+                  >
+                    Bewaren
+                  </button>
+                  <p className="w-full text-xs text-ink-dim">
+                    Het webadres van dit vak is nu <code>/vakken/{vak.slug}</code>. Dat past mee aan
+                    met de naam, zolang je het niet zelf anders gezet hebt.
+                  </p>
+                </form>
+              </details>
 
               <ul className="mt-4 space-y-2">
                 {vak.hoofdstukken

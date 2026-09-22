@@ -24,6 +24,45 @@ export async function maakVak(formData: FormData) {
   redirect("/beheer/vakken");
 }
 
+/**
+ * De naam van een vak aanpassen, bijvoorbeeld na een typfout.
+ *
+ * De slug staat in het webadres van het vak. Die passen we mee aan zolang ze
+ * nog de automatische vorm van de oude naam is — dan is het adres immers ook
+ * fout getypt. Koos je de slug ooit zelf anders, dan blijft het adres staan,
+ * zodat bestaande links blijven werken.
+ */
+export async function hernoemVak(formData: FormData) {
+  await requireBeheerder();
+  const id = String(formData.get("id") || "");
+  const naam = String(formData.get("naam") || "").trim();
+  if (!id) redirect("/beheer/vakken");
+  if (!naam) redirect("/beheer/vakken?fout=" + encodeURIComponent("Geef een naam op voor het vak."));
+
+  const admin = createAdminClient();
+  const { data: vak } = await admin.from("vakken").select("naam, slug").eq("id", id).maybeSingle();
+  if (!vak) redirect("/beheer/vakken?fout=" + encodeURIComponent("Dit vak bestaat niet meer."));
+
+  const nieuweSlug = slugify(naam);
+  const slugVolgdeDeNaam = vak.slug === slugify(vak.naam);
+  const wijziging: { naam: string; slug?: string } = { naam };
+  if (slugVolgdeDeNaam && nieuweSlug && nieuweSlug !== vak.slug) {
+    wijziging.slug = nieuweSlug;
+  }
+
+  const { error } = await admin.from("vakken").update(wijziging).eq("id", id);
+  if (error) {
+    redirect(
+      "/beheer/vakken?fout=" +
+        encodeURIComponent("Kon de naam niet aanpassen. Bestaat er al een vak met die naam?"),
+    );
+  }
+
+  revalidatePath("/beheer/vakken");
+  revalidatePath("/");
+  redirect("/beheer/vakken");
+}
+
 export async function wisselRekenmachine(formData: FormData) {
   await requireBeheerder();
   const id = String(formData.get("id") || "");

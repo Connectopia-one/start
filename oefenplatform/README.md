@@ -120,6 +120,8 @@ of test de betaalflow pas na het online zetten op Vercel.
 Log in op `/beheer` met je beheerdersaccount:
 
 - **Vakken beheren**: vakken en hoofdstukken toevoegen, per hoofdstuk instellen of het gratis is.
+  Onder elke vaknaam staat **"Naam aanpassen"**, voor als er een typfout in geslopen is. Het
+  webadres van het vak volgt de nieuwe naam, tenzij je de slug ooit zelf anders zette.
 - Klik op een hoofdstuk om **vragen** toe te voegen — één voor één via het formulier, of in bulk
   door een JSON-lijst te plakken (handig als je vragen al voorbereidde met DeepSeek/Gemini — het
   gewenste formaat staat op die pagina).
