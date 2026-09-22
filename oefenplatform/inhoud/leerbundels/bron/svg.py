@@ -628,3 +628,144 @@ def ontwerpcyclus(breedte=380):
         d.append(f'<text x="{x:.1f}" y="{y-3:.1f}" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="9.5" fill="{DIM}">{nr}</text>')
         d.append(f'<text x="{x:.1f}" y="{y+11:.1f}" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="10.5" font-weight="600" fill="{DARK}">{woord}</text>')
     return _svg(breedte, h, "".join(d))
+
+
+def windroos(straal=78):
+    """Een windroos met de vier hoofdrichtingen en de vier tussenrichtingen."""
+    import math
+    m = straal + 26
+    d = []
+    for hoek, naam in [(-90, "N"), (0, "O"), (90, "Z"), (180, "W")]:
+        a = math.radians(hoek)
+        x, y = m + straal * math.cos(a), m + straal * math.sin(a)
+        d.append(f'<polygon points="{m + 9*math.cos(a+1.57):.1f},{m + 9*math.sin(a+1.57):.1f} '
+                 f'{x:.1f},{y:.1f} {m + 9*math.cos(a-1.57):.1f},{m + 9*math.sin(a-1.57):.1f}" '
+                 f'fill="{FOREST if naam == "N" else "#ffffff"}" stroke="{DARK}" stroke-width="1.6"/>')
+        d.append(f'<text x="{m + (straal+15)*math.cos(a):.1f}" y="{m + (straal+15)*math.sin(a)+4:.1f}" '
+                 f'text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="14" '
+                 f'font-weight="600" fill="{DARK}">{naam}</text>')
+    for hoek, naam in [(-45, "NO"), (45, "ZO"), (135, "ZW"), (225, "NW")]:
+        a = math.radians(hoek)
+        d.append(f'<line x1="{m}" y1="{m}" x2="{m + straal*0.72*math.cos(a):.1f}" y2="{m + straal*0.72*math.sin(a):.1f}" '
+                 f'stroke="{BORDER}" stroke-width="1.6"/>')
+        d.append(f'<text x="{m + (straal+3)*math.cos(a):.1f}" y="{m + (straal+3)*math.sin(a)+4:.1f}" '
+                 f'text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="10" fill="{DIM}">{naam}</text>')
+    d.append(f'<circle cx="{m}" cy="{m}" r="5" fill="{DARK}"/>')
+    return _svg(m * 2, m * 2, "".join(d))
+
+
+def schaalbalk(breedte=330):
+    """Een schaalbalk zoals op een kaart, met wat ze betekent."""
+    h = 74
+    bb = breedte - 60
+    x0 = 30
+    d = []
+    for i in range(4):
+        kleur = DARK if i % 2 == 0 else "#ffffff"
+        d.append(f'<rect x="{x0 + i*bb/4:.1f}" y="18" width="{bb/4:.1f}" height="15" fill="{kleur}" stroke="{DARK}" stroke-width="1.3"/>')
+    for i in range(5):
+        d.append(f'<text x="{x0 + i*bb/4:.1f}" y="48" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" '
+                 f'font-size="10.5" fill="{DIM}">{i}</text>')
+    d.append(f'<text x="{x0 + bb/2:.1f}" y="66" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" '
+             f'font-size="11" fill="{DARK}">kilometer</text>')
+    d.append(f'<text x="{x0 + bb/2:.1f}" y="12" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" '
+             f'font-size="10.5" font-weight="600" fill="{FOREST}">1 cm op de kaart = 1 km in het echt</text>')
+    return _svg(breedte, h, "".join(d))
+
+
+def rasterkaart(breedte=400):
+    """Een kaartje met een raster, om coördinaten mee te oefenen."""
+    kop = 22
+    cel = (breedte - kop - 8) / 4
+    h = kop + cel * 4 + 8
+    d = [f'<rect x="{kop}" y="{kop}" width="{cel*4:.1f}" height="{cel*4:.1f}" fill="#f4f7f2" stroke="{DARK}" stroke-width="1.6"/>']
+    for i in range(1, 4):
+        d.append(f'<line x1="{kop + i*cel:.1f}" y1="{kop}" x2="{kop + i*cel:.1f}" y2="{kop + 4*cel:.1f}" stroke="{BORDER}" stroke-width="1.2"/>')
+        d.append(f'<line x1="{kop}" y1="{kop + i*cel:.1f}" x2="{kop + 4*cel:.1f}" y2="{kop + i*cel:.1f}" stroke="{BORDER}" stroke-width="1.2"/>')
+    for i, letter in enumerate("ABCD"):
+        d.append(f'<text x="{kop + i*cel + cel/2:.1f}" y="{kop-7}" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="11" font-weight="600" fill="{DIM}">{letter}</text>')
+        d.append(f'<text x="{kop-8}" y="{kop + i*cel + cel/2 + 4:.1f}" text-anchor="end" font-family="IBM Plex Sans,sans-serif" font-size="11" font-weight="600" fill="{DIM}">{i+1}</text>')
+    # een rivier, een bos, een kerk en een station
+    d.append(f'<path d="M{kop} {kop+cel*1.2:.1f} q{cel} {cel*0.6} {cel*2} 0 q{cel} {-cel*0.6} {cel*2} {cel*0.5}" fill="none" stroke="#3b6ea5" stroke-width="3.4"/>')
+    for dx, dy in [(0.35, 2.4), (0.65, 2.7), (0.45, 3.0)]:
+        cx, cy = kop + dx * cel, kop + dy * cel
+        d.append(f'<polygon points="{cx:.1f},{cy-11:.1f} {cx-9:.1f},{cy+5:.1f} {cx+9:.1f},{cy+5:.1f}" fill="#2f7d4f"/>')
+    cx, cy = kop + 2.5 * cel, kop + 2.5 * cel
+    d.append(f'<rect x="{cx-7:.1f}" y="{cy-4:.1f}" width="14" height="16" fill="{DARK}"/>')
+    d.append(f'<path d="M{cx} {cy-22:.1f} v11 M{cx-5:.1f} {cy-17:.1f} h10" stroke="{DARK}" stroke-width="2.4"/>')
+    cx, cy = kop + 3.5 * cel, kop + 3.4 * cel
+    d.append(f'<rect x="{cx-14:.1f}" y="{cy-7:.1f}" width="28" height="14" rx="4" fill="{AMBER}"/>')
+    d.append(f'<circle cx="{cx-7:.1f}" cy="{cy+8:.1f}" r="3.4" fill="{DARK}"/><circle cx="{cx+7:.1f}" cy="{cy+8:.1f}" r="3.4" fill="{DARK}"/>')
+    return _svg(breedte, h, "".join(d))
+
+
+def tijdlijn(perioden, merken, breedte=470):
+    """Een tijdlijn met gekleurde periodes en een paar jaartallen erop.
+
+    perioden = [(naam, van, tot, kleur), ...]
+    merken   = [(jaar, label, "boven" of "onder"), ...]
+
+    De naam van een periode past alleen in de balk als die breed genoeg is;
+    anders staat hij in het rijtje eronder. Jaartallen kiezen zelf geen kant:
+    die geef je mee, zodat twee labels nooit op elkaar vallen.
+    """
+    m = 26
+    y = 74
+    links = min(p[1] for p in perioden)
+    rechts = max(p[2] for p in perioden)
+    span = rechts - links
+
+    def x(v):
+        return m + (v - links) / span * (breedte - 2 * m)
+
+    d = []
+    buiten = []
+    for naam, van, tot, kleur in perioden:
+        x0, x1 = x(van), x(tot)
+        d.append(f'<rect x="{x0:.1f}" y="{y-13}" width="{x1-x0:.1f}" height="26" fill="{kleur}" stroke="#ffffff" stroke-width="1.5"/>')
+        if x1 - x0 >= 7.2 * len(naam):
+            d.append(f'<text x="{(x0+x1)/2:.1f}" y="{y+4}" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" '
+                     f'font-size="9.5" font-weight="600" fill="#ffffff">{naam}</text>')
+        else:
+            buiten.append((naam, kleur))
+
+    for jaar, label, kant in merken:
+        px = x(jaar)
+        boven = kant == "boven"
+        y2 = y - 22 if boven else y + 22
+        d.append(f'<line x1="{px:.1f}" y1="{y - 13 if boven else y + 13}" x2="{px:.1f}" y2="{y2:.0f}" stroke="{DARK}" stroke-width="1.5"/>')
+        d.append(f'<circle cx="{px:.1f}" cy="{y2:.0f}" r="3.4" fill="{DARK}"/>')
+        anker = "middle"
+        if px < 46:
+            anker = "start"
+        elif px > breedte - 46:
+            anker = "end"
+        d.append(f'<text x="{px:.1f}" y="{y2 - 9 if boven else y2 + 14:.0f}" text-anchor="{anker}" '
+                 f'font-family="IBM Plex Sans,sans-serif" font-size="10.5" font-weight="600" fill="{DARK}">{label}</text>')
+
+    h = y + 48
+    if buiten:
+        bx = m
+        for naam, kleur in buiten:
+            d.append(f'<rect x="{bx:.1f}" y="{h-8}" width="11" height="11" rx="2.5" fill="{kleur}"/>')
+            d.append(f'<text x="{bx+16:.1f}" y="{h+1}" font-family="IBM Plex Sans,sans-serif" font-size="10" fill="{DIM}">{naam}</text>')
+            bx += 22 + 5.6 * len(naam)
+        h += 16
+    return _svg(breedte, h, "".join(d))
+
+
+def eeuwenbalk(breedte=470):
+    """Waarom de jaren 1301 tot 1400 samen de 14de eeuw vormen."""
+    h = 96
+    vak = (breedte - 20) / 3
+    d = []
+    for i, (van, tot, eeuw) in enumerate([(1201, 1300, "13de eeuw"), (1301, 1400, "14de eeuw"), (1401, 1500, "15de eeuw")]):
+        x = 10 + i * vak
+        kleur = FOREST if i == 1 else "#ffffff"
+        tekst = "#ffffff" if i == 1 else DARK
+        d.append(f'<rect x="{x:.1f}" y="20" width="{vak-6:.1f}" height="44" rx="8" fill="{kleur}" stroke="{DARK}" stroke-width="1.6"/>')
+        d.append(f'<text x="{x + (vak-6)/2:.1f}" y="40" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" '
+                 f'font-size="12.5" font-weight="600" fill="{tekst}">{eeuw}</text>')
+        d.append(f'<text x="{x + (vak-6)/2:.1f}" y="56" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" '
+                 f'font-size="10.5" fill="{tekst}">{van} – {tot}</text>')
+    return _svg(breedte, 72, "".join(d))
