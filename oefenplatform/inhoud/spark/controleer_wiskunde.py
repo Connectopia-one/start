@@ -95,6 +95,34 @@ def uitwerking(kandidaat: str, echte, **waarden) -> str:
     return kandidaat
 
 
+def mediaan_of_modus(getallen, welke: str):
+    """De mediaan of de modus van een rijtje, zelf uitgerekend.
+
+    Zo staat het antwoord op zo'n vraag niet gewoon overgeschreven in dit
+    bestand: als iemand een getal in de vraag verandert, verandert de
+    verwachte uitkomst mee en valt een vergeten aanpassing meteen op.
+    """
+    op_volgorde = sorted(getallen)
+    if welke == "mediaan":
+        midden, oneven = divmod(len(op_volgorde), 2)
+        if oneven:
+            return op_volgorde[midden]
+        return F(op_volgorde[midden - 1] + op_volgorde[midden], 2)
+    vaakst = max(op_volgorde, key=op_volgorde.count)
+    return vaakst
+
+
+def verz(getallen) -> str:
+    """Schrijft een verzameling op zoals in de vragen: {1, 2, 3}."""
+    if not getallen:
+        return "De lege verzameling"
+    return "{" + ", ".join(str(g) for g in sorted(getallen)) + "}"
+
+
+def priem(n: int) -> bool:
+    return n > 1 and all(n % d for d in range(2, int(n ** 0.5) + 1))
+
+
 def zelfde_schrijfwijze(waarde) -> str:
     """Zet een antwoord in één vaste vorm, zodat de vergelijking over
     schrijfwijze struikelt noch fouten verbergt.
@@ -300,6 +328,57 @@ CONTROLES = [
     ("Werk uit: (a + b)(a − b)",             uitwerking("a² − b²", lambda a, b: (a + b) * (a - b))),
     ("graad van de veelterm",                "2"),
     ("omgekeerd evenredig verband met factor 24", "y = 24 : x"),
+    # --- Data en onzekerheid ---
+    ("gemiddelde van 4, 6 en 8",             str(F(4 + 6 + 8, 3))),
+    ("gemiddelde van 2, 5, 5 en 8",          str(F(2 + 5 + 5 + 8, 4))),
+    ("modus van 3, 7, 7, 9, 12",             str(mediaan_of_modus([3, 7, 7, 9, 12], "modus"))),
+    ("mediaan van 3, 7, 9, 12, 20",          str(mediaan_of_modus([3, 7, 9, 12, 20], "mediaan"))),
+    ("variatiebreedte van 4, 9, 11 en 20",   str(20 - 4)),
+    ("hele cirkel in een cirkeldiagram",     "360"),
+    ("25 komen er 10 met de fiets",          f"{int(F(10, 25) * 100)} %"),
+    ("groep is 20 % van het geheel",         f"{int(F(20, 100) * 360)}°"),
+    ("gemiddelde van 10, 10, 10 en 10",      str(F(40, 4))),
+    ("mediaan van 2, 4, 6 en 10",            str(mediaan_of_modus([2, 4, 6, 10], "mediaan"))),
+    ("Welke maat geeft het eerlijkste beeld", "De mediaan"),
+    ("gemiddelde van vier toetsen is 14",    str(14 * 4)),
+    ("moet je op de vierde halen",           str(15 * 4 - (12 + 15 + 16))),
+    ("het derde en vierde getal zijn 6 en 8", f"Ja, (6 + 8) : 2 = {F(6 + 8, 2)}"),
+    ("variatiebreedte 0",                    "Alle waarden zijn 20"),
+    ("sector van 90°",                       "Een vierde"),
+    ("40 leerlingen komen er 15 te voet",    f"{komma_uit(F(15, 40) * 360)}°"),
+    ("mediaan van 5, 3, 9, 1 en 7",          str(mediaan_of_modus([5, 3, 9, 1, 7], "mediaan"))),
+    ("waarde 4 komt 3 keer voor. Hoeveel metingen", str(5 + 3)),
+    ("Wat is het gemiddelde?",               komma_uit(F(5 * 3 + 3 * 4, 8))),
+    ("kleinste 3 en de grootste 3",          "3"),
+    # --- Verzamelingen, deel 1 ---
+    ("doorsnede van {1, 2, 3} en {2, 3, 4}", verz({1, 2, 3} & {2, 3, 4})),
+    ("unie van {1, 2} en {2, 5}",            verz({1, 2} | {2, 5})),
+    ("B = {3, 4}. Wat is A \\ B",              verz({1, 2, 3, 4} - {3, 4})),
+    ("doorsnede van {1, 3, 5} en {2, 4, 6}", verz({1, 3, 5} & {2, 4, 6})),
+    ("Hoeveel elementen heeft de verzameling {3, 5, 5, 7}", str(len({3, 5, 5, 7}))),
+    ("De volgorde waarin je de elementen opschrijft", [1, 2, 3] == [3, 1, 2]),
+    ("Hoeveel elementen heeft A?",           str(len({2, 4, 6, 8}))),
+    ("Elke verzameling is een deelverzameling van zichzelf", {1, 2} <= {1, 2}),
+    ("unie van {1, 2, 3} en de lege verzameling", verz({1, 2, 3} | set())),
+    ("12 aan voetbal en 8 aan zwemmen",      str(len(set(range(12)) | set(range(9, 17))))),
+    # --- Verzamelingen, deel 2 ---
+    ("doorsnede van de even getallen en de veelvouden van 3",
+     "De veelvouden van "
+     + str(min(n for n in range(1, 100) if n % 2 == 0 and n % 3 == 0))),
+    ("B = {4, 5, 6}. Wat is A \u222a B",       verz({1, 2, 3, 4, 5} | {4, 5, 6})),
+    ("B = {4, 5, 6}. Wat is B \\ A",           verz({4, 5, 6} - {1, 2, 3, 4, 5})),
+    ("A \\ B is altijd hetzelfde als B \\ A",  ({1, 2} - {2, 3}) == ({2, 3} - {1, 2})),
+    ("A heeft 7 elementen, B heeft 5",       str(7 + 5 - 2)),
+    ("Wat is {1, 2, 3} \u2229 {1, 2, 3}",      verz({1, 2, 3} & {1, 2, 3})),
+    ("Hoeveel deelverzamelingen heeft {a, b}", str(2 ** len({"a", "b"}))),
+    ("Wat is P \u2229 E",
+     verz({n for n in range(1, 200) if priem(n) and n % 2 == 0})),
+    ("D \u2229 V",
+     verz({n for n in range(1, 400)
+           if 12 % n == 0 and n % 12 == 0})),
+    ("18 Frans, 14 Duits en 5 allebei",      str(30 - (18 + 14 - 5))),
+    ("Als A \u2282 B, dan is A \u2229 B gelijk aan A",
+     ({1, 2} & {1, 2, 3}) == {1, 2}),
 ]
 
 # Vragen die je niet kúnt narekenen omdat het antwoord een woord is. Het juiste
@@ -320,7 +399,7 @@ WOORDEN = [
     ("Op welke dag ben je klaar",            "De achtste dag"),
     ("samen 3 potloden",                     "Je berekening opnieuw nakijken, want dit klinkt onwaarschijnlijk"),
     ("is het slim om een andere te proberen", True),
-    ("Wat is de laatste stap",               "Nakijken of je antwoord de gestelde vraag beantwoordt"),
+    ("laatste stap bij het oplossen",        "Nakijken of je antwoord de gestelde vraag beantwoordt"),
     # --- Wiskundige redeneringen: het antwoord is een oordeel ---
     ("dan is het deelbaar door 2.” Klopt dat", "Ja, altijd"),
     ("Alle veelvouden van 6 zijn even",       "Enkele veelvouden opschrijven: 6, 12, 18, 24"),
@@ -335,6 +414,31 @@ WOORDEN = [
     ("dan is het groter dan 5.” Welke pijl",  "⇒, want omgekeerd geldt het niet: 7 is groter dan 5 maar niet dan 10"),
     ("Een hoek van 130°",                    "stompe hoek"),
     ("1 liter is hetzelfde als 1 dm³",       True),
+    ("verticale as niet bij 0",              "Kleine verschillen lijken veel groter dan ze zijn"),
+    ("klas A heeft variatiebreedte 4",       "In klas B liggen de resultaten veel verder uit elkaar"),
+    ("1,7 kinderen",                         "Een gemiddelde hoeft geen bestaand aantal te zijn"),
+    ("Tussen 14 u en 15 u",                  "Het werd in dat uur snel warmer"),
+    ("laatste stap van een statistisch onderzoek", "Een antwoord formuleren op je onderzoeksvraag"),
+    # --- Verzamelingen: het antwoord is notatie of een naam ---
+    ("Hoe schrijf je de verzameling met 1, 2 en 3 erin", "{1, 2, 3}"),
+    ("Wat betekent het teken \u2208",        "is een element van"),
+    ("Welke uitspraak klopt voor A = {2, 4, 6}", "4 \u2208 A"),
+    ("Wat betekent B \u2282 A",                 "Elk element van B zit ook in A"),
+    ("B = {2, 4}. Wat klopt",                "B \u2282 A"),
+    ("Welk teken staat voor de doorsnede",   "\u2229"),
+    ("Hoe noem je een verzameling zonder elementen", "De lege verzameling"),
+    ("Waarvoor dient een venndiagram",       "Om met cirkels te tonen wat verzamelingen gemeen hebben"),
+    ("B = {1, 2}. Wat klopt",                "A en B zijn gelijk"),
+    ("staat een element in het overlappende deel", "Het zit in allebei de verzamelingen"),
+    ("\u2124 die van de gehele getallen",       "\u2115 \u2282 \u2124"),
+    ("V is de verzameling vierkanten",       "V \u2282 R"),
+    ("doorsnede van de ruiten en de rechthoeken", "De vierkanten"),
+    ("rechten die a snijden",                "De lege verzameling"),
+    ("gelijkbenige driehoeken",              "Z \u2282 G"),
+    ("linkercirkel volledig ingekleurd",     "A \\ B"),
+    ("wat is het verschil?",                 "{0} heeft \u00e9\u00e9n element, \u2205 heeft er geen"),
+    ("Hoe schrijf je wiskundig dat 5 niet in A zit", "5 \u2209 A"),
+    ("Waarom is een venndiagram handig",     "Je ziet meteen wie dubbel geteld wordt"),
 ]
 
 
