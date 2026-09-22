@@ -8,6 +8,22 @@ De bestandsnaam is telkens de naam van het hoofdstuk, bijvoorbeeld
 sleep je alle pdf's er tegelijk in, en zoekt het platform op basis van die naam
 zelf het juiste hoofdstuk erbij.
 
+## ✨ Spark — geschiedenis
+
+`bron/maak_geschiedenis_spark.py` maakt de bundels voor het Spark-niveau, uit de
+vakfiche geschiedenis 1ste graad A-stroom. Ze komen in dezelfde map
+`geschiedenis/` terecht als die van Start; je houdt ze uit elkaar aan hun naam,
+en in het beheer aan de categorie die je bovenaan kiest.
+
+Geef zo'n bundel `niveau=SPARK` mee, anders zet de kop van de pdf "🌱 Start"
+(de standaard in `bundel.py`).
+
+**Eén bundel per thema, niet per deel.** Een thema bestaat uit een hoofdstuk
+deel 1 en een hoofdstuk deel 2 met dezelfde leerstof en moeilijkere vragen. De
+bundel hoort bij allebei, dus die upload je twee keer.
+
+Klaar: `historisch-referentiekader.pdf` (4 blz) en `prehistorie.pdf` (5 blz).
+
 ## Echte foto's in een bundel
 
 Naast de tekeningen kan er ook echt beeldmateriaal in, met `bundel.foto(...)`.

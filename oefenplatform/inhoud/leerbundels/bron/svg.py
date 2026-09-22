@@ -755,11 +755,17 @@ def tijdlijn(perioden, merken, breedte=470):
 
     h = y + 48
     if buiten:
+        # De legende breekt af zodra ze de rand raakt. Bij zeven periodes passen
+        # de namen anders niet op één regel en valt de laatste er stil buiten.
         bx = m
         for naam, kleur in buiten:
+            breed = 22 + 5.6 * len(naam)
+            if bx > m and bx + breed > breedte - m + 10:
+                bx = m
+                h += 17
             d.append(f'<rect x="{bx:.1f}" y="{h-8}" width="11" height="11" rx="2.5" fill="{kleur}"/>')
             d.append(f'<text x="{bx+16:.1f}" y="{h+1}" font-family="IBM Plex Sans,sans-serif" font-size="10" fill="{DIM}">{naam}</text>')
-            bx += 22 + 5.6 * len(naam)
+            bx += breed
         h += 16
     return _svg(breedte, h, "".join(d))
 
@@ -2098,4 +2104,132 @@ def verkleinwoorden(breedte=470):
         d.append(f'<path d="M{cx:.1f} 88 v8" stroke="{BORDER}" stroke-width="1.4"/>')
     d.append(_tekst(breedte/2, 132, "Welke uitgang het wordt, hoor je aan de klank ervoor. "
                                     "Bij koning verdwijnt de g.", 9.5, DIM))
+    return _svg(breedte, h, "".join(d))
+
+
+# ---------------------------------------------------------------------------
+# Geschiedenis voor ✨ Spark: het historisch referentiekader en de prehistorie
+# ---------------------------------------------------------------------------
+
+def jaartellijn(breedte=470):
+    """De jaartelling rond het nulpunt: links v.C., rechts n.C.
+
+    Het lastige voor een leerling is dat de getallen links gróter worden
+    naarmate je verder teruggaat. Daarom staan de pijlen er expliciet bij.
+    """
+    h = 118
+    y = 58
+    m = 30
+    merken = [(-3000, "3000 v.C."), (-2000, "2000 v.C."), (-1000, "1000 v.C."),
+              (0, "0"), (1000, "1000 n.C."), (2000, "2000 n.C.")]
+    links, rechts = -3400, 2400
+    def x(v):
+        return m + (v - links) / (rechts - links) * (breedte - 2 * m)
+
+    d = [f'<line x1="{m}" y1="{y}" x2="{breedte-m}" y2="{y}" stroke="{INK}" stroke-width="2"/>',
+         f'<path d="M{breedte-m} {y} l-9 -5 v10 z" fill="{INK}"/>']
+    for waarde, label in merken:
+        px = x(waarde)
+        nul = waarde == 0
+        hoog = 14 if nul else 9
+        d.append(f'<line x1="{px:.1f}" y1="{y-hoog}" x2="{px:.1f}" y2="{y+hoog}" '
+                 f'stroke="{DARK if nul else DIM}" stroke-width="{3 if nul else 1.6}"/>')
+        # Vaste regel voor élk jaartal: anders hangt de dikkere nul lager
+        # dan de rest en lijkt de lijn scheef.
+        d.append(f'<text x="{px:.1f}" y="{y+28:.0f}" text-anchor="middle" '
+                 f'font-family="IBM Plex Sans,sans-serif" font-size="10" '
+                 f'font-weight="{600 if nul else 400}" fill="{DARK if nul else DIM}">{label}</text>')
+
+    # De twee helften benoemen, met een pijl die de telrichting toont.
+    for x0, x1, tekst, kleur in [(x(-3200), x(-300), "voor Christus", AMBER),
+                                 (x(300), x(2200), "na Christus", FOREST)]:
+        d.append(f'<line x1="{x0:.1f}" y1="{y-32}" x2="{x1:.1f}" y2="{y-32}" '
+                 f'stroke="{kleur}" stroke-width="1.6"/>')
+        punt = x0 if kleur == AMBER else x1
+        richting = 1 if kleur == AMBER else -1
+        d.append(f'<path d="M{punt:.1f} {y-32} l{7*richting} -4.5 v9 z" fill="{kleur}"/>')
+        d.append(f'<text x="{(x0+x1)/2:.1f}" y="{y-40}" text-anchor="middle" '
+                 f'font-family="IBM Plex Sans,sans-serif" font-size="10.5" font-weight="600" '
+                 f'fill="{kleur}">{tekst}</text>')
+    d.append(f'<text x="{x(-1800):.1f}" y="{y+48}" text-anchor="middle" '
+             f'font-family="IBM Plex Sans,sans-serif" font-size="9.5" fill="{AMBER}">'
+             f'hoe groter het getal, hoe langer geleden</text>')
+    return _svg(breedte, h, "".join(d))
+
+
+def domeinen(breedte=470):
+    """De vier maatschappelijke domeinen, met bij elk waar het over gaat."""
+    vakken = [("politiek", "macht, bestuur,|wetten, oorlog", FOREST),
+              ("sociaal", "bevolkingsgroepen,|rechten, ongelijkheid", "#5b7f9c"),
+              ("economisch", "landbouw, ambacht,|handel, geld", AMBER),
+              ("cultureel", "religie, kunst,|wetenschap, taal", "#7a5b8f")]
+    kolom = (breedte - 3 * 10) / 4
+    h = 92
+    d = []
+    for i, (naam, onder, kleur) in enumerate(vakken):
+        x = i * (kolom + 10)
+        d.append(f'<rect x="{x:.1f}" y="6" width="{kolom:.1f}" height="{h-12}" rx="9" '
+                 f'fill="#ffffff" stroke="{kleur}" stroke-width="1.8"/>')
+        d.append(f'<rect x="{x:.1f}" y="6" width="{kolom:.1f}" height="22" rx="9" fill="{kleur}"/>')
+        d.append(f'<rect x="{x:.1f}" y="19" width="{kolom:.1f}" height="9" fill="{kleur}"/>')
+        d.append(f'<text x="{x+kolom/2:.1f}" y="21" text-anchor="middle" '
+                 f'font-family="IBM Plex Sans,sans-serif" font-size="11" font-weight="600" '
+                 f'fill="#ffffff">{naam}</text>')
+        for j, regel in enumerate(onder.split("|")):
+            d.append(f'<text x="{x+kolom/2:.1f}" y="{47+j*14}" text-anchor="middle" '
+                     f'font-family="IBM Plex Sans,sans-serif" font-size="9.5" fill="{DIM}">{regel}</text>')
+    return _svg(breedte, h, "".join(d))
+
+
+def nomadisch_sedentair(breedte=470):
+    """Links: rondtrekken achter het voedsel aan. Rechts: blijven en boeren."""
+    h = 168
+    half = breedte / 2 - 8
+    d = []
+
+    def kader(x0, titel, kleur):
+        d.append(f'<rect x="{x0:.1f}" y="6" width="{half:.1f}" height="{h-14}" rx="10" '
+                 f'fill="{PAPER}" stroke="{BORDER}" stroke-width="1.4"/>')
+        d.append(f'<text x="{x0+half/2:.1f}" y="26" text-anchor="middle" '
+                 f'font-family="IBM Plex Sans,sans-serif" font-size="11.5" font-weight="600" '
+                 f'fill="{kleur}">{titel}</text>')
+
+    kader(0, "nomadisch", AMBER)
+    kader(breedte - half, "sedentair", FOREST)
+
+    # Links: drie kampplaatsen met pijlen ertussen, want de groep verhuist mee.
+    gy = 92
+    for i, x0 in enumerate([34, half / 2 + 4, half - 44]):
+        flauw = 1 if i == 1 else 0.45
+        d.append(f'<path d="M{x0-13} {gy} l13 -26 l13 26 z" fill="{AMBER}" opacity="{flauw}"/>')
+        d.append(f'<line x1="{x0-13}" y1="{gy}" x2="{x0+13}" y2="{gy}" stroke="{DARK}" '
+                 f'stroke-width="1.4" opacity="{flauw}"/>')
+    for x0 in [48, half / 2 + 20]:
+        d.append(f'<path d="M{x0} {gy-12} h20 m0 0 l-6 -4.5 m6 4.5 l-6 4.5" stroke="{DIM}" '
+                 f'stroke-width="1.5" fill="none" stroke-linecap="round"/>')
+    d.append(f'<text x="{half/2:.1f}" y="{gy+32}" text-anchor="middle" '
+             f'font-family="IBM Plex Sans,sans-serif" font-size="9.5" fill="{DIM}">'
+             f'de groep trekt mee met het voedsel</text>')
+    d.append(f'<text x="{half/2:.1f}" y="{gy+48}" text-anchor="middle" '
+             f'font-family="IBM Plex Sans,sans-serif" font-size="9.5" fill="{DIM}">'
+             f'jagen en verzamelen</text>')
+
+    # Rechts: twee huizen op een akker, want het voedsel komt naar de mens toe.
+    bx = breedte - half
+    akker_y = gy + 4
+    d.append(f'<rect x="{bx+22:.1f}" y="{akker_y}" width="{half-44:.1f}" height="20" rx="3" fill="{GRAS_LICHT}"/>')
+    for i in range(7):
+        lx = bx + 32 + i * (half - 64) / 6
+        d.append(f'<line x1="{lx:.1f}" y1="{akker_y+4}" x2="{lx:.1f}" y2="{akker_y+16}" '
+                 f'stroke="{GRAS}" stroke-width="1.6"/>')
+    for x0 in [bx + 44, bx + half - 62]:
+        d.append(f'<rect x="{x0:.1f}" y="{gy-24}" width="30" height="24" fill="#ffffff" '
+                 f'stroke="{DARK}" stroke-width="1.5"/>')
+        d.append(f'<path d="M{x0-4} {gy-24} l19 -15 l19 15 z" fill="{FOREST}"/>')
+    d.append(f'<text x="{bx+half/2:.1f}" y="{gy+32}" text-anchor="middle" '
+             f'font-family="IBM Plex Sans,sans-serif" font-size="9.5" fill="{DIM}">'
+             f'het voedsel groeit waar men woont</text>')
+    d.append(f'<text x="{bx+half/2:.1f}" y="{gy+48}" text-anchor="middle" '
+             f'font-family="IBM Plex Sans,sans-serif" font-size="9.5" fill="{DIM}">'
+             f'landbouw en veeteelt</text>')
     return _svg(breedte, h, "".join(d))
