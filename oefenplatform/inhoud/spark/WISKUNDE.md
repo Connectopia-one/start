@@ -72,6 +72,12 @@ in dezelfde map.
 
 | Hoofdstuk | Vragen | Bundel |
 | --- | --- | --- |
+| Negatieve getallen en procenten — deel 1 (gratis) en 2 | 2 x 20 | negatieve-getallen-en-procenten-spark.pdf |
 | Getallenleer — deel 1 en 2 | 2 x 20 | getallenleer-spark.pdf |
 
 De rest volgt in dezelfde opzet.
+
+Deel 1 van "Negatieve getallen en procenten" staat op `gratis: true` en is het
+proefhoofdstuk: dat is wat iemand zonder account van wiskunde te zien krijgt.
+De bundel erbij is daardoor ook zonder account leesbaar, dus die moet op zichzelf
+kunnen staan — geen verwijzingen naar hoofdstukken die achter de login zitten.

@@ -2503,3 +2503,31 @@ def verhoudingstabel(paren, breedte=470, koppen=("aantal", "prijs")):
     d.append(f'<line x1="{x0}" y1="{rij_y[0]+20}" x2="{x0+kolom*n}" y2="{rij_y[0]+20}" '
              f'stroke="{BORDER}" stroke-width="1.2"/>')
     return _svg(breedte, h - 26, "".join(d))
+
+
+def tekenregels(breedte=470):
+    """Het vierkantje met de tekenregels voor × en : bij negatieve getallen.
+
+    Vier vakjes: gelijke tekens geven plus, verschillende tekens geven min.
+    Bewust zonder getallen erin, zodat het voor maal én voor delen geldt.
+    """
+    vak = 84
+    x0 = (breedte - 2 * vak) / 2 + 16
+    y0 = 46
+    rijen = [("+", "+", "+"), ("+", "−", "−"),
+             ("−", "+", "−"), ("−", "−", "+")]
+    d = []
+    # koppen langs de rand: welk teken heeft het eerste, welk het tweede getal
+    d.append(_tekst(x0 + vak / 2, y0 - 12, "tweede getal +", 10.5, DIM))
+    d.append(_tekst(x0 + vak * 1.5, y0 - 12, "tweede getal −", 10.5, DIM))
+    for i, kop in enumerate(("eerste getal +", "eerste getal −")):
+        d.append(_tekst(x0 - 12, y0 + vak * i + vak / 2 + 4, kop, 10.5, DIM, anker="end"))
+    for i, (eerste, tweede, uit) in enumerate(rijen):
+        rij, kol = i // 2, i % 2
+        x, y = x0 + vak * kol, y0 + vak * rij
+        positief = uit == "+"
+        d.append(f'<rect x="{x}" y="{y}" width="{vak}" height="{vak}" rx="10" '
+                 f'fill="{PAPER if positief else "#f6efe4"}" stroke="{BORDER}" stroke-width="1.2"/>')
+        d.append(_tekst(x + vak / 2, y + 30, f"{eerste} × {tweede}", 11, DIM))
+        d.append(_tekst(x + vak / 2, y + 58, uit, 26, FOREST if positief else AMBER, vet=True))
+    return _svg(breedte, y0 + vak * 2 + 14, "".join(d))

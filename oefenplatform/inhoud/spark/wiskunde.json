@@ -1,6 +1,416 @@
 {
   "hoofdstukken": [
     {
+      "titel": "Negatieve getallen en procenten — deel 1",
+      "hernoemVan": "Negatieve getallen en procenten",
+      "niveau": "spark",
+      "gratis": true,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Het is 's ochtends −3 °C. Tegen de middag is het 7 graden warmer. Hoe warm is het dan?",
+          "opties": [
+            "4 °C",
+            "10 °C",
+            "−10 °C"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van −3 ga je 7 stappen naar rechts op de getallenas: −3 + 7 = 4."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk getal is het kleinste?",
+          "opties": [
+            "−8",
+            "−3",
+            "2"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij negatieve getallen is het grootste cijfer juist het kleinste getal. −8 ligt het verst links."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is −5 + 8?",
+          "opties": [
+            "3",
+            "−3",
+            "13"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je begint bij −5 en gaat 8 naar rechts. Je passeert de nul en komt op 3 uit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 4 − 9?",
+          "opties": [
+            "−5",
+            "5",
+            "−13"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je gaat 9 stappen naar links vanaf 4. Na 4 stappen sta je op 0, en dan nog 5 verder: −5."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is −6 − 4?",
+          "opties": [
+            "−10",
+            "−2",
+            "10"
+          ],
+          "antwoord": 0,
+          "uitleg": "Nog verder naar links: van −6 nog eens 4 erbij in de min. Twee keer min wordt hier niet plus."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel is −2 + 2?",
+          "antwoord": "0",
+          "uitleg": "Een getal en zijn tegengestelde geven samen altijd nul."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is −3 × 4?",
+          "opties": [
+            "−12",
+            "12",
+            "−7"
+          ],
+          "antwoord": 0,
+          "uitleg": "Min maal plus geeft min. Drie keer vier is twaalf, met een minteken ervoor."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is −6 × −2?",
+          "opties": [
+            "12",
+            "−12",
+            "−8"
+          ],
+          "antwoord": 0,
+          "uitleg": "Min maal min geeft plus. Dat is de regel die het vaakst fout gaat."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Twee negatieve getallen vermenigvuldigen geeft altijd een negatief getal.",
+          "antwoord": false,
+          "uitleg": "Nee, juist een positief. −6 × −2 = 12."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is −20 : 5?",
+          "opties": [
+            "−4",
+            "4",
+            "−15"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij delen gelden dezelfde tekenregels als bij vermenigvuldigen: min gedeeld door plus geeft min."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een duiker zit op −12 meter en stijgt 5 meter. Waar zit hij nu?",
+          "opties": [
+            "−7 meter",
+            "−17 meter",
+            "7 meter"
+          ],
+          "antwoord": 0,
+          "uitleg": "Stijgen is naar nul toe: −12 + 5 = −7. Hij zit nog altijd onder water."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent 50 %?",
+          "opties": [
+            "De helft",
+            "Een kwart",
+            "Vijftig keer zoveel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Procent betekent 'per honderd'. 50 van de 100 is de helft."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel procent is de helft?",
+          "antwoord": "50",
+          "uitleg": "1/2 = 0,5 en dat maal honderd is 50 %."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 10 % van 80?",
+          "opties": [
+            "8",
+            "10",
+            "18"
+          ],
+          "antwoord": 0,
+          "uitleg": "10 % is een tiende. Delen door 10 geeft 8."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 25 % van 60?",
+          "opties": [
+            "15",
+            "20",
+            "25"
+          ],
+          "antwoord": 0,
+          "uitleg": "25 % is een kwart. 60 : 4 = 15."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een jas van € 60 krijgt 20 % korting. Wat betaal je?",
+          "opties": [
+            "€ 48",
+            "€ 40",
+            "€ 52"
+          ],
+          "antwoord": 0,
+          "uitleg": "20 % van 60 is 12, dus je betaalt 60 − 12 = 48. Of meteen: 80 % van 60."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een klas van 25 leerlingen dragen er 5 een bril. Hoeveel procent is dat?",
+          "opties": [
+            "20 %",
+            "5 %",
+            "25 %"
+          ],
+          "antwoord": 0,
+          "uitleg": "5 van de 25 is 1/5, en 1/5 is 20 %. Even nagaan: 20 % van 25 is inderdaad 5."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "30 % van 50 is hetzelfde als 50 % van 30.",
+          "antwoord": true,
+          "uitleg": "Ja, allebei 15. Handig om te weten: je mag de twee getallen omwisselen als dat makkelijker rekent."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke schrijfwijze hoort niet bij de andere twee?",
+          "opties": [
+            "0,4",
+            "40 %",
+            "1/4"
+          ],
+          "antwoord": 2,
+          "uitleg": "0,4 en 40 % zijn hetzelfde. 1/4 is 0,25, ofwel 25 %."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel procent van een geheel is alles samen?",
+          "antwoord": "100",
+          "uitleg": "Het volledige geheel is 100 %. Meer dan 100 % kan wel, maar dan is het meer dan het oorspronkelijke geheel."
+        }
+      ]
+    },
+    {
+      "titel": "Negatieve getallen en procenten — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is −7 − (−3)?",
+          "opties": [
+            "−4",
+            "−10",
+            "4"
+          ],
+          "antwoord": 0,
+          "uitleg": "Min een min wordt plus: −7 + 3 = −4. Het aftrekken van een schuld maakt je rijker."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 5 − (−6)?",
+          "opties": [
+            "11",
+            "−1",
+            "−11"
+          ],
+          "antwoord": 0,
+          "uitleg": "5 + 6 = 11. Twee mintekens naast elkaar heffen elkaar op."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is (−2)³?",
+          "opties": [
+            "−8",
+            "8",
+            "−6"
+          ],
+          "antwoord": 0,
+          "uitleg": "−2 × −2 × −2. De eerste twee geven +4, en die maal −2 geeft −8. Een oneven exponent houdt het teken min."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is (−2)⁴?",
+          "opties": [
+            "16",
+            "−16",
+            "8"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een even exponent vallen de mintekens twee aan twee weg, dus de uitkomst is positief."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is −3 × (4 − 7)?",
+          "opties": [
+            "9",
+            "−9",
+            "−33"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst de haakjes: 4 − 7 = −3. Dan −3 × −3 = 9."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke rij staat van klein naar groot?",
+          "opties": [
+            "−9 < −4 < −1 < 0 < 3",
+            "−1 < −4 < −9 < 0 < 3",
+            "0 < −1 < −4 < −9 < 3"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hoe verder een negatief getal van nul ligt, hoe kleiner het is."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel is −4 × −4?",
+          "antwoord": "16",
+          "uitleg": "Min maal min geeft plus, dus hetzelfde als 4 × 4."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De temperatuur gaat van −5 °C naar 3 °C. Hoeveel graden is het gestegen?",
+          "opties": [
+            "8 graden",
+            "2 graden",
+            "−2 graden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van −5 naar 0 is 5 graden, en van 0 naar 3 nog eens 3. Samen 8."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 15 % van 200?",
+          "opties": [
+            "30",
+            "15",
+            "3"
+          ],
+          "antwoord": 0,
+          "uitleg": "10 % is 20 en 5 % is 10, samen 30. Zo splits je een lastig percentage in makkelijke stukken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een spel kost € 48 na 20 % korting. Wat was de oorspronkelijke prijs?",
+          "opties": [
+            "€ 60",
+            "€ 57,60",
+            "€ 68"
+          ],
+          "antwoord": 0,
+          "uitleg": "48 is 80 % van de prijs. Dus 1 % is 0,60 en 100 % is 60. Let op: 20 % bij 48 optellen geeft het verkeerde antwoord."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een trui van € 40 gaat eerst 10 % omhoog en daarna 10 % omlaag. Wat kost hij dan?",
+          "opties": [
+            "€ 39,60",
+            "€ 40",
+            "€ 39"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst 44, dan 10 % van 44 eraf, dat is 4,40. Je komt uit op 39,60 — de tweede korting rekent op een groter bedrag."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als iets eerst 50 % duurder wordt en daarna 50 % goedkoper, kost het weer evenveel.",
+          "antwoord": false,
+          "uitleg": "Nee. € 100 wordt € 150, en de helft daarvan is € 75. Procenten rekenen altijd op de laatste waarde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Van 40 naar 50 gaan: hoeveel procent stijging is dat?",
+          "opties": [
+            "25 %",
+            "10 %",
+            "20 %"
+          ],
+          "antwoord": 0,
+          "uitleg": "De stijging is 10, en 10 op de oorspronkelijke 40 is 10 : 40 = 0,25, dus 25 %."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarop reken je een percentage van stijging of daling altijd?",
+          "opties": [
+            "Op de oorspronkelijke waarde",
+            "Op de nieuwe waarde",
+            "Op honderd"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat is de valkuil bij stijgen en dalen: het vergelijkingspunt is waar je vandaan kwam."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel procent is 3/4?",
+          "antwoord": "75",
+          "uitleg": "3 : 4 = 0,75, en dat maal honderd is 75 %."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een fiets kost € 250. De prijs zakt met 12 %. Wat betaal je?",
+          "opties": [
+            "€ 220",
+            "€ 230",
+            "€ 238"
+          ],
+          "antwoord": 0,
+          "uitleg": "12 % van 250 is 30, dus 250 − 30 = 220. Sneller: 88 % van 250."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is 120 % van 50?",
+          "opties": [
+            "60",
+            "70",
+            "170"
+          ],
+          "antwoord": 0,
+          "uitleg": "100 % is 50 en 20 % is 10, samen 60. Meer dan 100 % betekent gewoon meer dan het geheel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een klas zit 60 % meisjes, dat zijn er 15. Hoeveel leerlingen telt de klas?",
+          "opties": [
+            "25",
+            "9",
+            "36"
+          ],
+          "antwoord": 0,
+          "uitleg": "60 % is 15, dus 1 % is 0,25 en 100 % is 25. Controle: 60 % van 25 is 15."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een korting van 25 % is hetzelfde als vermenigvuldigen met 0,75.",
+          "antwoord": true,
+          "uitleg": "Ja, en dat is meteen de snelste manier: je rekent in één stap wat je nog betaalt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee winkels: de ene geeft 30 % korting op € 80, de andere € 25 korting op € 80. Waar betaal je het minst?",
+          "opties": [
+            "Bij de winkel met 30 % korting",
+            "Bij de winkel met € 25 korting",
+            "Even duur"
+          ],
+          "antwoord": 1,
+          "uitleg": "30 % van 80 is 24, dus daar betaal je 56. Bij de andere winkel betaal je 80 − 25 = 55. Die tweede is dus een euro goedkoper. Een percentage klinkt vaak voordeliger dan het is: reken het altijd even uit."
+        }
+      ]
+    },
+    {
       "titel": "Getallenleer — deel 1",
       "hernoemVan": "Getallenleer",
       "niveau": "spark",
