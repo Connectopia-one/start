@@ -1,0 +1,777 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Het historisch referentiekader — deel 1",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel periodes telt het courante westerse historisch referentiekader?",
+          "opties": [
+            "Vijf",
+            "Zeven",
+            "Negen"
+          ],
+          "antwoord": 1,
+          "uitleg": "Het zijn er zeven: prehistorie, oude nabije oosten, klassieke oudheid, middeleeuwen, vroegmoderne tijd, moderne tijd en hedendaagse tijd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke periode komt meteen na de prehistorie?",
+          "opties": [
+            "De klassieke oudheid",
+            "De middeleeuwen",
+            "Het oude nabije oosten"
+          ],
+          "antwoord": 2,
+          "uitleg": "Na de prehistorie volgt het oude nabije oosten. Daarna pas komt de klassieke oudheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke periode komt meteen na de klassieke oudheid?",
+          "opties": [
+            "De middeleeuwen",
+            "De moderne tijd",
+            "De vroegmoderne tijd"
+          ],
+          "antwoord": 0,
+          "uitleg": "De volgorde is: klassieke oudheid, middeleeuwen, vroegmoderne tijd, moderne tijd, hedendaagse tijd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel jaar duurt een millennium?",
+          "opties": [
+            "Honderd jaar",
+            "Duizend jaar",
+            "Tienduizend jaar"
+          ],
+          "antwoord": 1,
+          "uitleg": "Een millennium is duizend jaar. Een eeuw is honderd jaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke eeuw ligt het jaar 1492?",
+          "opties": [
+            "De 14de eeuw",
+            "De 15de eeuw",
+            "De 16de eeuw"
+          ],
+          "antwoord": 1,
+          "uitleg": "De jaren 1401 tot en met 1500 vormen samen de 15de eeuw. Je telt dus altijd een eeuw hoger dan de eerste twee cijfers, behalve bij een rond honderdtal."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk jaartal ligt het verst in het verleden?",
+          "opties": [
+            "800 v.C.",
+            "300 v.C.",
+            "100 n.C."
+          ],
+          "antwoord": 0,
+          "uitleg": "Voor Christus tel je achterwaarts: hoe groter het getal, hoe langer geleden. 800 v.C. ligt dus verder terug dan 300 v.C."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent het structuurbegrip chronologie?",
+          "opties": [
+            "De volgorde van gebeurtenissen in de tijd",
+            "De oorzaak van een gebeurtenis",
+            "De plaats waar iets gebeurde"
+          ],
+          "antwoord": 0,
+          "uitleg": "Chronologie is de ordening van gebeurtenissen van vroeger naar later."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een samenleving die zijn manier van leven honderden jaren nauwelijks wijzigt, is een voorbeeld van:",
+          "opties": [
+            "verandering",
+            "continuïteit",
+            "revolutie"
+          ],
+          "antwoord": 1,
+          "uitleg": "Continuïteit is wat gelijk blijft door de tijd heen. Verandering is wat anders wordt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel maatschappelijke domeinen onderscheiden historici?",
+          "opties": [
+            "Drie",
+            "Vier",
+            "Zes"
+          ],
+          "antwoord": 1,
+          "uitleg": "Het zijn er vier: het culturele, het economische, het politieke en het sociale domein."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij welk maatschappelijk domein hoort het verkiezen van een bestuur?",
+          "opties": [
+            "Het politieke domein",
+            "Het economische domein",
+            "Het culturele domein"
+          ],
+          "antwoord": 0,
+          "uitleg": "Alles wat met macht, bestuur en wetten te maken heeft, hoort bij het politieke domein."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij welk maatschappelijk domein hoort het bouwen van een tempel voor een god?",
+          "opties": [
+            "Het sociale domein",
+            "Het culturele domein",
+            "Het economische domein"
+          ],
+          "antwoord": 1,
+          "uitleg": "Religie, kunst, wetenschap en filosofie horen bij het culturele domein."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een dorp midden in de velden, ver van een stad, noem je met het structuurbegrip:",
+          "opties": [
+            "stedelijk",
+            "maritiem",
+            "ruraal"
+          ],
+          "antwoord": 2,
+          "uitleg": "Ruraal betekent op het platteland. Stedelijk is het tegenovergestelde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een samenleving die vooral leeft van de zee en de scheepvaart, noem je:",
+          "opties": [
+            "continentaal",
+            "maritiem",
+            "regionaal"
+          ],
+          "antwoord": 1,
+          "uitleg": "Maritiem verwijst naar de zee. Continentaal verwijst naar het binnenland van een werelddeel."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je een periode van honderd jaar? (één woord)",
+          "antwoord": "eeuw",
+          "uitleg": "Honderd jaar is een eeuw, duizend jaar een millennium."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je een periode van duizend jaar? (één woord)",
+          "antwoord": "millennium",
+          "uitleg": "Duizend jaar is een millennium, honderd jaar een eeuw."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet de lijn waarop je gebeurtenissen in de juiste volgorde plaatst? (één woord)",
+          "antwoord": "tijdlijn",
+          "uitleg": "Op een tijdlijn zet je gebeurtenissen chronologisch naast elkaar."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk maatschappelijk domein gaat over handel, landbouw en geld? (één woord)",
+          "antwoord": "economisch",
+          "uitleg": "Het economische domein gaat over hoe mensen in hun levensonderhoud voorzien."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk maatschappelijk domein gaat over de groepen in de samenleving en hun onderlinge verhoudingen? (één woord)",
+          "antwoord": "sociaal",
+          "uitleg": "Het sociale domein gaat over bevolkingsgroepen, rechten, plichten en ongelijkheid."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De prehistorie is de langste van de zeven periodes.",
+          "antwoord": true,
+          "uitleg": "De prehistorie beslaat honderdduizenden jaren, veel langer dan alle andere periodes samen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het jaar 50 v.C. ligt later in de tijd dan het jaar 200 v.C.",
+          "antwoord": true,
+          "uitleg": "Voor Christus tel je terug, dus 50 v.C. ligt dichter bij ons dan 200 v.C."
+        }
+      ]
+    },
+    {
+      "titel": "Het historisch referentiekader — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een scharnierpunt in de geschiedenis?",
+          "opties": [
+            "Een gebeurtenis die de overgang vormt tussen twee periodes",
+            "Het midden van een historische periode",
+            "Een jaartal dat historici niet kunnen achterhalen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een scharnierpunt is een gebeurtenis of ontwikkeling zo ingrijpend dat historici er een nieuwe periode mee laten beginnen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke ontwikkeling markeert het einde van de prehistorie?",
+          "opties": [
+            "De ontdekking van het vuur",
+            "De uitvinding van het schrift",
+            "Het ontstaan van de landbouw"
+          ],
+          "antwoord": 1,
+          "uitleg": "Prehistorie betekent letterlijk vóór de geschiedenis: de tijd waarvan geen geschreven bronnen bestaan. Met het schrift begint de geschiedenis."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke gebeurtenis geldt als het scharnierpunt tussen de klassieke oudheid en de middeleeuwen?",
+          "opties": [
+            "De ondergang van het West-Romeinse Rijk",
+            "De dood van Alexander de Grote",
+            "De stichting van Rome"
+          ],
+          "antwoord": 0,
+          "uitleg": "De ondergang van het West-Romeinse Rijk in 476 wordt gebruikt als het einde van de klassieke oudheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom laat de verschuiving van de macht naar de Middellandse Zee een nieuwe periode beginnen?",
+          "opties": [
+            "Omdat het zwaartepunt van de macht verhuist van het nabije oosten naar Griekenland en Rome",
+            "Omdat er toen voor het eerst schepen werden gebouwd",
+            "Omdat de bevolking van het nabije oosten verdween"
+          ],
+          "antwoord": 0,
+          "uitleg": "De rijken rond Tigris en Eufraat verliezen hun leidende rol aan de samenlevingen rond de Middellandse Zee. Dat is het begin van de klassieke oudheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen een evolutie en een revolutie?",
+          "opties": [
+            "Een evolutie gaat geleidelijk, een revolutie snel en ingrijpend",
+            "Een evolutie is positief, een revolutie negatief",
+            "Een evolutie gebeurt in de natuur, een revolutie in de politiek"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het verschil zit in het tempo en de omvang van de verandering, niet in of ze goed of slecht is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Historici noemen de overgang naar de landbouw soms een evolutie en soms een revolutie. Hoe komt dat?",
+          "opties": [
+            "De gevolgen waren enorm, maar de verandering zelf duurde duizenden jaren",
+            "De ene helft van Europa noemt het anders dan de andere",
+            "Omdat men niet weet wanneer de landbouw begon"
+          ],
+          "antwoord": 0,
+          "uitleg": "Naar gevolgen gemeten was het een revolutie: mensen gingen totaal anders leven. Naar tempo gemeten was het een evolutie, want het ging heel traag."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bedoelen historici als ze zeggen dat de westerse periodisering tijdsgebonden is?",
+          "opties": [
+            "De grenzen tussen periodes zijn gekozen door mensen en kunnen veranderen",
+            "Elke periode duurt precies even lang",
+            "Er zijn te weinig jaartallen bekend"
+          ],
+          "antwoord": 0,
+          "uitleg": "De indeling is een afspraak, geen natuurwet. Nieuwe inzichten kunnen de grenzen verleggen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is het einde van het West-Romeinse Rijk een plaatsgebonden scharnierpunt?",
+          "opties": [
+            "Omdat het voor China of Amerika geen enkele betekenis had",
+            "Omdat niemand weet waar het rijk lag",
+            "Omdat het rijk in het oosten al eerder verdween"
+          ],
+          "antwoord": 0,
+          "uitleg": "Voor samenlevingen buiten Europa verandert er in 476 niets. De westerse indeling past dus niet op de hele wereld."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het spijkerschrift ontstond in Mesopotamië rond 3300 v.C. Wat toont dat over de periodisering?",
+          "opties": [
+            "Dat de prehistorie niet overal op hetzelfde moment eindigt",
+            "Dat het schrift overal tegelijk werd uitgevonden",
+            "Dat de prehistorie nooit echt geëindigd is"
+          ],
+          "antwoord": 0,
+          "uitleg": "In streken zonder schrift duurde de prehistorie nog duizenden jaren langer. De grens ligt dus niet overal gelijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Alexander de Grote veroverde een groot rijk. In welk maatschappelijk domein situeer je die verovering in de eerste plaats?",
+          "opties": [
+            "Het culturele domein",
+            "Het politieke domein",
+            "Het sociale domein"
+          ],
+          "antwoord": 1,
+          "uitleg": "Een verovering gaat over macht en gezag, en dat is het politieke domein. De verspreiding van de Griekse cultuur erna is wel cultureel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het bronzen beeld van de Romeinse senator Aulus Metellus hoort thuis in twee domeinen. Welke?",
+          "opties": [
+            "Het culturele en het politieke domein",
+            "Het economische en het sociale domein",
+            "Alleen het culturele domein"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het is een kunstwerk, dus cultureel, maar het beeldt een senator in functie uit en toont zo zijn macht, dus ook politiek."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een historicus onderzoekt de handel in graan tussen Egypte en Rome. Welke twee domeinen raken elkaar hier?",
+          "opties": [
+            "Het economische en het politieke domein",
+            "Het culturele en het sociale domein",
+            "Alleen het economische domein"
+          ],
+          "antwoord": 0,
+          "uitleg": "De graanhandel is economisch, maar Rome gebruikte die graanbevoorrading ook om de bevolking rustig te houden, en dat is politiek."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Sparta lag in het binnenland van de Peloponnesos en leefde van landbouw. Welk structuurbegrip past?",
+          "opties": [
+            "maritiem",
+            "continentaal",
+            "stedelijk"
+          ],
+          "antwoord": 1,
+          "uitleg": "Sparta richtte zich op het land, niet op de zee. Athene was juist wel een maritieme samenleving."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je een gebeurtenis die de overgang vormt tussen twee historische periodes? (één woord)",
+          "antwoord": "scharnierpunt",
+          "uitleg": "Een scharnierpunt is het draaipunt tussen twee periodes."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke uitvinding maakt een einde aan de prehistorie? (één woord)",
+          "antwoord": "schrift",
+          "uitleg": "Met geschreven bronnen begint de geschiedenis in de strikte zin."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In welk jaar ging het West-Romeinse Rijk ten onder? (een getal)",
+          "antwoord": "476",
+          "uitleg": "476 wordt gebruikt als het einde van de klassieke oudheid in het westen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een verandering die traag en stap voor stap verloopt, noem je een ... (één woord)",
+          "antwoord": "evolutie",
+          "uitleg": "Een revolutie verloopt juist snel en ingrijpend."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een scharnierpunt geldt voor de hele wereld tegelijk.",
+          "antwoord": false,
+          "uitleg": "Scharnierpunten zijn meestal plaatsgebonden: wat in Europa een omwenteling is, verandert elders niets."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De indeling in zeven periodes is een afspraak onder historici en geen natuurwet.",
+          "antwoord": true,
+          "uitleg": "Daarom kan die indeling ook bijgesteld worden als er nieuwe inzichten komen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Omdat de westerse periodisering uit Europa komt, past ze even goed op de geschiedenis van Afrika en Azië.",
+          "antwoord": false,
+          "uitleg": "Net omgekeerd: de indeling is gemaakt vanuit de Europese geschiedenis en past daarom vaak slecht op andere werelddelen."
+        }
+      ]
+    },
+    {
+      "titel": "De prehistorie — deel 1",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Op welk werelddeel ontstond de moderne mens?",
+          "opties": [
+            "Azië",
+            "Afrika",
+            "Europa"
+          ],
+          "antwoord": 1,
+          "uitleg": "De homo sapiens ontstond in Afrika en verspreidde zich van daaruit over de wereld."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke mensachtige trok als eerste weg uit Afrika?",
+          "opties": [
+            "De homo erectus",
+            "De homo sapiens",
+            "De neanderthaler"
+          ],
+          "antwoord": 0,
+          "uitleg": "De homo erectus, de rechtopgaande mens, was de eerste die Afrika verliet en Azië en Europa bereikte."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent de naam homo sapiens?",
+          "opties": [
+            "De rechtopgaande mens",
+            "De verstandige mens",
+            "De werkende mens"
+          ],
+          "antwoord": 1,
+          "uitleg": "Sapiens betekent verstandig of wijs. Erectus betekent rechtopgaand."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe leefden de allereerste mensachtigen aan voedsel voor ze konden jagen?",
+          "opties": [
+            "Ze aten alleen plantaardig voedsel",
+            "Ze verzamelden planten en aten vlees van reeds gestorven dieren",
+            "Ze hielden vee"
+          ],
+          "antwoord": 1,
+          "uitleg": "Ze waren aaseter-verzamelaars: ze verzamelden plantaardig voedsel en aten het vlees van dieren die al dood waren. Pas later gingen ze zelf jagen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom trokken jagers en verzamelaars steeds rond?",
+          "opties": [
+            "Omdat ze oorlog voerden met andere groepen",
+            "Omdat het voedsel in een gebied opraakte en de dieren verder trokken",
+            "Omdat ze geen huizen konden bouwen"
+          ],
+          "antwoord": 1,
+          "uitleg": "Zolang je van de natuur leeft, moet je mee met het voedsel. Daarom waren ze nomadisch."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor gebruikten prehistorische mensen vuur?",
+          "opties": [
+            "Alleen om zich te verwarmen",
+            "Om te verwarmen, te verlichten, voedsel te bereiden en dieren op afstand te houden",
+            "Alleen om voedsel te bereiden"
+          ],
+          "antwoord": 1,
+          "uitleg": "Vuur gaf warmte en licht, hield roofdieren weg, maakte voedsel beter verteerbaar en hielp bij het harden van houten punten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom was gekookt of geroosterd voedsel belangrijk voor de mens?",
+          "opties": [
+            "Het smaakte alleen maar beter",
+            "Het was beter verteerbaar en veiliger om te eten",
+            "Het kon jarenlang bewaard worden"
+          ],
+          "antwoord": 1,
+          "uitleg": "Door verhitting wordt voedsel makkelijker verteerbaar en gaan ziektekiemen dood. Dat leverde meer energie op."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Uit welk materiaal maakten prehistorische mensen hun scherpste werktuigen?",
+          "opties": [
+            "Vuursteen",
+            "Brons",
+            "IJzer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vuursteen splijt in vlijmscherpe schilfers. Metalen kwamen pas veel later."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een vuistbijl?",
+          "opties": [
+            "Een bijl met een houten steel",
+            "Een steen die zo bewerkt is dat je hem in de vuist kan vasthouden",
+            "Een wapen uit de bronstijd"
+          ],
+          "antwoord": 1,
+          "uitleg": "De vuistbijl heeft geen steel: je houdt hem vast in je hand. Hij diende om te snijden, hakken en schrapen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar vind je beroemde prehistorische grotschilderingen?",
+          "opties": [
+            "In Lascaux in Frankrijk",
+            "In Rome in Italië",
+            "In Athene in Griekenland"
+          ],
+          "antwoord": 0,
+          "uitleg": "Lascaux in Frankrijk en Altamira in Spanje zijn de bekendste voorbeelden van prehistorische grotkunst."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is er vooral afgebeeld op prehistorische grotschilderingen?",
+          "opties": [
+            "Steden en gebouwen",
+            "Dieren en jachttaferelen",
+            "Koningen en veldslagen"
+          ],
+          "antwoord": 1,
+          "uitleg": "Vooral dieren zoals paarden, bizons en herten, vaak in scènes die met de jacht te maken hebben."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke groepen leefden jagers en verzamelaars?",
+          "opties": [
+            "In kleine groepen van enkele tientallen mensen",
+            "In dorpen van enkele honderden mensen",
+            "Alleen, per gezin"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kleine groepen waren nodig: een groot gezelschap vindt in de natuur niet genoeg voedsel op één plek."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe verdeelden jagers en verzamelaars meestal het werk?",
+          "opties": [
+            "Iedereen deed precies hetzelfde",
+            "Er was een verdeling van taken binnen de groep",
+            "Alleen de kinderen verzamelden voedsel"
+          ],
+          "antwoord": 1,
+          "uitleg": "Er was een taakverdeling in de groep. Het verzamelde plantaardig voedsel leverde vaak het grootste deel van de maaltijd."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je mensen die rondtrekken en nergens vast wonen? (één woord)",
+          "antwoord": "nomaden",
+          "uitleg": "Nomaden trekken rond. Wie op een vaste plaats blijft, leeft sedentair."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke soort steen gebruikten prehistorische mensen voor scherpe werktuigen? (één woord)",
+          "antwoord": "vuursteen",
+          "uitleg": "Vuursteen breekt in scherpe schilfers en was daardoor het belangrijkste materiaal."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet de grot in Frankrijk met beroemde prehistorische schilderingen? (één woord)",
+          "antwoord": "Lascaux",
+          "uitleg": "De grot van Lascaux werd in 1940 ontdekt door enkele jongeren."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat betekent prehistorie letterlijk: de tijd vóór de ... (één woord)",
+          "antwoord": "geschiedenis",
+          "uitleg": "Prehistorie is de tijd waaruit geen geschreven bronnen bestaan."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke mensachtige verliet als eerste Afrika? Vul aan: homo ... (één woord)",
+          "antwoord": "erectus",
+          "uitleg": "De homo erectus bereikte als eerste Azië en Europa."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Jagers en verzamelaars aten uitsluitend vlees.",
+          "antwoord": false,
+          "uitleg": "Het verzamelde plantaardig voedsel vormde vaak het grootste deel van wat ze aten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De mens heeft het grootste deel van zijn bestaan als jager en verzamelaar geleefd.",
+          "antwoord": true,
+          "uitleg": "De landbouw bestaat pas zo'n tienduizend jaar. Daarvoor leefde de mens honderdduizenden jaren van jacht en verzameling."
+        }
+      ]
+    },
+    {
+      "titel": "De prehistorie — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent sedentair leven?",
+          "opties": [
+            "Rondtrekken met de seizoenen",
+            "Op een vaste plaats wonen",
+            "Leven van de jacht"
+          ],
+          "antwoord": 1,
+          "uitleg": "Sedentair betekent gevestigd op een vaste plaats. Het tegenovergestelde is nomadisch."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke twee ontwikkelingen vormen samen de agrarische revolutie?",
+          "opties": [
+            "Landbouw en veeteelt",
+            "Jacht en visserij",
+            "Handel en nijverheid"
+          ],
+          "antwoord": 0,
+          "uitleg": "Mensen gingen zelf gewassen telen en dieren houden in plaats van voedsel te zoeken in de natuur."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar begon de landbouw als eerste?",
+          "opties": [
+            "In het gebied van de Vruchtbare Halve Maan in het nabije oosten",
+            "In Noord-Europa",
+            "In Zuid-Amerika"
+          ],
+          "antwoord": 0,
+          "uitleg": "In de Vruchtbare Halve Maan, de streek van Tigris en Eufraat tot de Middellandse Zee, groeiden de wilde voorouders van graan en waren geschikte dieren aanwezig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Ongeveer hoelang geleden begon de landbouw?",
+          "opties": [
+            "Ongeveer 2000 jaar geleden",
+            "Ongeveer 10 000 jaar geleden",
+            "Ongeveer 100 000 jaar geleden"
+          ],
+          "antwoord": 1,
+          "uitleg": "De landbouw ontstond ruwweg 10 000 jaar geleden, dus rond 8000 v.C."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een overschot in de landbouw?",
+          "opties": [
+            "Voedsel dat bederft",
+            "Meer voedsel dan de boer zelf nodig heeft",
+            "Land dat niet bewerkt wordt"
+          ],
+          "antwoord": 1,
+          "uitleg": "Een overschot is voedsel dat overblijft. Dat kan je bewaren of ruilen, en daar begint de handel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom leidden overschotten tot nieuwe beroepen?",
+          "opties": [
+            "Omdat niet iedereen meer voedsel moest produceren",
+            "Omdat de boeren minder gingen werken",
+            "Omdat er minder mensen nodig waren in het dorp"
+          ],
+          "antwoord": 0,
+          "uitleg": "Als een deel van de groep voldoende voedsel produceert, kunnen anderen pottenbakker, smid of priester worden. Dat heet specialisatie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk verband bestaat er tussen de landbouw en het ontstaan van steden?",
+          "opties": [
+            "Landbouw leverde overschotten op, waardoor grotere groepen op één plaats konden leven",
+            "Steden bestonden al voor de landbouw",
+            "Boeren bouwden de eerste steden om er te wonen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zonder een betrouwbare voedselvoorraad kan een grote bevolking niet op één plek blijven. Steden werden daardoor pas mogelijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom noemen historici de overgang naar de landbouw een revolutie?",
+          "opties": [
+            "Omdat er oorlog over gevoerd werd",
+            "Omdat bijna alles aan het leven van de mens erdoor veranderde",
+            "Omdat het in één generatie gebeurde"
+          ],
+          "antwoord": 1,
+          "uitleg": "Wonen, werken, eten, bezit en samenleven veranderden allemaal. Naar gevolgen gemeten was het een omwenteling, ook al duurde ze duizenden jaren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk gevolg had de landbouw voor het bezit?",
+          "opties": [
+            "Bezit verdween, want alles werd gedeeld",
+            "Mensen konden voorraden en grond bezitten, waardoor verschillen in rijkdom ontstonden",
+            "Bezit bleef precies gelijk verdeeld"
+          ],
+          "antwoord": 1,
+          "uitleg": "Wie grond en voorraden had, stond sterker dan wie dat niet had. Zo ontstond sociale ongelijkheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk nadeel bracht het sedentaire leven met zich mee?",
+          "opties": [
+            "Ziektes verspreidden zich sneller doordat mensen dicht op elkaar en bij dieren leefden",
+            "Er was minder voedsel dan bij de jacht",
+            "Men verleerde het vuur te gebruiken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dichte bewoning en het samenleven met vee lieten ziektes gemakkelijker overslaan. Een misoogst kon ook meteen hongersnood betekenen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe heet de periode waarin de landbouw ontstaat?",
+          "opties": [
+            "Het paleolithicum",
+            "Het neolithicum",
+            "De bronstijd"
+          ],
+          "antwoord": 1,
+          "uitleg": "Het neolithicum is de nieuwe steentijd, de tijd van landbouw en gepolijste stenen werktuigen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waaraan herken je een werktuig uit het neolithicum tegenover een ouder werktuig?",
+          "opties": [
+            "Het is van metaal",
+            "Het is gepolijst en glad geslepen",
+            "Het is groter"
+          ],
+          "antwoord": 1,
+          "uitleg": "In het neolithicum sleep en polijstte men de stenen, waardoor bijlen sterker en gladder werden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom noemen historici de agrarische revolutie tegelijk een evolutie?",
+          "opties": [
+            "Omdat de verandering zich over duizenden jaren uitspreidde",
+            "Omdat ze zonder gevolgen bleef",
+            "Omdat ze maar in één dorp plaatsvond"
+          ],
+          "antwoord": 0,
+          "uitleg": "De verspreiding van de landbouw over Europa duurde millennia. Naar tempo gemeten ging het dus heel traag."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk spoor uit de prehistorie kan je vandaag nog in onze streken zien?",
+          "opties": [
+            "Romeinse wegen",
+            "Hunebedden en grafheuvels",
+            "Middeleeuwse kastelen"
+          ],
+          "antwoord": 1,
+          "uitleg": "Grote steenzettingen en grafheuvels uit het neolithicum liggen er nog altijd."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het leven op een vaste woonplaats? (één woord)",
+          "antwoord": "sedentair",
+          "uitleg": "Sedentair is het tegenovergestelde van nomadisch."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet de nieuwe steentijd, de periode van de landbouw? (één woord)",
+          "antwoord": "neolithicum",
+          "uitleg": "Neo betekent nieuw, lithos betekent steen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je voedsel dat overblijft nadat een boer zichzelf gevoed heeft? (één woord)",
+          "antwoord": "overschot",
+          "uitleg": "Overschotten maakten ruilhandel en specialisatie mogelijk."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het verschijnsel dat mensen zich toeleggen op één beroep? (één woord)",
+          "antwoord": "specialisatie",
+          "uitleg": "Door specialisatie ontstonden ambachten zoals pottenbakker en smid."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De landbouw ontstond overal op de wereld op hetzelfde moment.",
+          "antwoord": false,
+          "uitleg": "De landbouw ontstond op verschillende plaatsen onafhankelijk van elkaar, en op heel verschillende momenten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Door de landbouw werden alle mensen even rijk.",
+          "antwoord": false,
+          "uitleg": "Integendeel: wie grond en voorraden bezat, werd rijker dan wie dat niet had. Zo ontstond juist ongelijkheid."
+        }
+      ]
+    }
+  ]
+}
