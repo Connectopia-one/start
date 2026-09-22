@@ -4,6 +4,7 @@ import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { requireBeheerder } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { volgendVolgnummer, vrijeVolgnummers } from "@/lib/volgnummer";
 
 type NieuweVraag = {
   type: "meerkeuze" | "invultekst" | "waarofniet";
@@ -48,14 +49,10 @@ export async function maakVraag(formData: FormData) {
   else antwoord = antwoordRaw;
 
   const admin = createAdminClient();
-  const { count } = await admin
-    .from("vragen")
-    .select("id", { count: "exact", head: true })
-    .eq("hoofdstuk_id", hoofdstukId);
 
   const { error } = await admin.from("vragen").insert({
     hoofdstuk_id: hoofdstukId,
-    volgnummer: (count ?? 0) + 1,
+    volgnummer: await volgendVolgnummer(admin, "vragen", "hoofdstuk_id", hoofdstukId),
     type,
     vraag,
     opties,
@@ -89,14 +86,11 @@ export async function bulkImportVragen(formData: FormData) {
   }
 
   const admin = createAdminClient();
-  const { count } = await admin
-    .from("vragen")
-    .select("id", { count: "exact", head: true })
-    .eq("hoofdstuk_id", hoofdstukId);
+  const neemVolgnummer = await vrijeVolgnummers(admin, "vragen", "hoofdstuk_id", hoofdstukId);
 
-  const rijen = vragen!.map((v, i) => ({
+  const rijen = vragen!.map((v) => ({
     hoofdstuk_id: hoofdstukId,
-    volgnummer: (count ?? 0) + i + 1,
+    volgnummer: neemVolgnummer(),
     type: v.type,
     vraag: v.vraag,
     opties: v.opties ?? null,

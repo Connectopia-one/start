@@ -6,6 +6,7 @@ import { requireBeheerder } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { slugify } from "@/lib/slug";
 import { NIVEAUS } from "@/lib/niveaus";
+import { volgendVolgnummer, vrijeVolgnummers } from "@/lib/volgnummer";
 
 export async function maakVak(formData: FormData) {
   await requireBeheerder();
@@ -122,18 +123,17 @@ export async function maakHoofdstuk(formData: FormData) {
   if (!NIVEAUS.some((n) => n.slug === niveau)) redirect("/beheer/vakken?fout=" + encodeURIComponent("Ongeldige categorie."));
 
   const admin = createAdminClient();
-  const { count } = await admin
-    .from("hoofdstukken")
-    .select("id", { count: "exact", head: true })
-    .eq("vak_id", vakId);
 
-  await admin.from("hoofdstukken").insert({
+  const { error } = await admin.from("hoofdstukken").insert({
     vak_id: vakId,
     titel,
-    volgnummer: (count ?? 0) + 1,
+    volgnummer: await volgendVolgnummer(admin, "hoofdstukken", "vak_id", vakId),
     gratis: gratis || (await isEersteVanNiveau(admin, vakId, niveau)),
     niveau,
   });
+  if (error) {
+    redirect("/beheer/vakken?fout=" + encodeURIComponent(`Hoofdstuk "${titel}" aanmaken mislukt: ${error.message}`));
+  }
 
   revalidatePath("/beheer/vakken");
   redirect("/beheer/vakken");
@@ -193,7 +193,9 @@ type BulkHoofdstuk = {
  * Importeert in één keer meerdere hoofdstukken (met hun vragen) voor een vak.
  * Een hoofdstuk met een titel die al bestaat binnen dit vak krijgt de nieuwe
  * vragen erbij toegevoegd; een onbekende titel wordt als nieuw hoofdstuk
- * aangemaakt (aan het einde van de bestaande hoofdstukkenlijst).
+ * aangemaakt, op het eerste volgnummer dat nog vrij is. Verwijderde je net een
+ * hoofdstuk, dan komt het nieuwe dus op die vrijgekomen plek te staan; anders
+ * achteraan de lijst.
  */
 export async function bulkImportVakInhoud(formData: FormData) {
   await requireBeheerder();
@@ -221,7 +223,7 @@ export async function bulkImportVakInhoud(formData: FormData) {
     .select("id, titel, niveau")
     .eq("vak_id", vakId);
 
-  let volgendVolgnummer = (bestaande?.length ?? 0) + 1;
+  const neemVolgnummer = await vrijeVolgnummers(admin, "hoofdstukken", "vak_id", vakId);
   const titelNaarId = new Map<string, string>();
   (bestaande ?? []).forEach((h) => titelNaarId.set(h.titel.trim().toLowerCase(), h.id));
   // Het eerste hoofdstuk van elke categorie (niveau) binnen dit vak is altijd
@@ -239,7 +241,7 @@ export async function bulkImportVakInhoud(formData: FormData) {
       niveausMetHoofdstuk.add(niveau);
       const { data: nieuw, error: hoofdstukFout } = await admin
         .from("hoofdstukken")
-        .insert({ vak_id: vakId, titel, volgnummer: volgendVolgnummer, gratis: !!hfst.gratis || eersteVanNiveau, niveau })
+        .insert({ vak_id: vakId, titel, volgnummer: neemVolgnummer(), gratis: !!hfst.gratis || eersteVanNiveau, niveau })
         .select("id")
         .single();
       if (hoofdstukFout || !nieuw) {
@@ -250,20 +252,16 @@ export async function bulkImportVakInhoud(formData: FormData) {
       }
       hoofdstukId = nieuw!.id as string;
       titelNaarId.set(titel.toLowerCase(), hoofdstukId);
-      volgendVolgnummer += 1;
     }
 
     const vragen = Array.isArray(hfst.vragen) ? hfst.vragen : [];
     if (!vragen.length) continue;
 
-    const { count } = await admin
-      .from("vragen")
-      .select("id", { count: "exact", head: true })
-      .eq("hoofdstuk_id", hoofdstukId);
+    const neemVraagnummer = await vrijeVolgnummers(admin, "vragen", "hoofdstuk_id", hoofdstukId);
 
-    const rijen = vragen.map((v, i) => ({
+    const rijen = vragen.map((v) => ({
       hoofdstuk_id: hoofdstukId,
-      volgnummer: (count ?? 0) + i + 1,
+      volgnummer: neemVraagnummer(),
       type: v.type,
       vraag: v.vraag,
       opties: v.opties ?? null,
