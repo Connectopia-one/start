@@ -836,3 +836,79 @@ def hierogliefen(breedte=470):
                  f'font-size="10.5" fill="{DIM}">{onder}</text>')
 
     return _svg(breedte, h, "".join(d))
+
+
+def _veelhoek(cx, cy, punten, stijl):
+    """Een gesloten vorm uit losse punten, geplaatst rond (cx, cy)."""
+    pad = " ".join(f"{cx+x:.1f},{cy+y}" for x, y in punten)
+    return f'<polygon points="{pad}" {stijl}/>'
+
+
+def stenen_werktuigen(breedte=470):
+    """
+    Vier werktuigen uit de steentijd, met eronder waarvan ze gemaakt zijn.
+
+    Net als bij de hiërogliefen een tekening en geen foto: zo staat er niets
+    in de bundel waarvan de herkomst onduidelijk is. De afgeschilferde randjes
+    zijn met opzet getekend, want daaraan herken je bewerkte vuursteen.
+    """
+    h = 148
+    cy = 62
+    d = []
+    vak = (breedte - 40) / 4
+    lijn = f'stroke="{DARK}" stroke-width="2" fill="none"'
+    dun = f'stroke="{DIM}" stroke-width="1.1" fill="none" stroke-linecap="round"'
+
+    for i in range(4):
+        cx = 20 + vak * (i + 0.5)
+
+        if i == 0:
+            # vuistbijl: een onregelmatige amandelvorm, want bewerkte steen
+            # heeft rechte afslagvlakjes en geen vloeiende ronding
+            punten = [(0, -34), (9, -27), (17, -15), (22, -1), (23, 11), (18, 21),
+                      (10, 28), (0, 31), (-10, 28), (-18, 21), (-23, 11), (-22, -1),
+                      (-17, -15), (-9, -27)]
+            d.append(_veelhoek(cx, cy, punten, lijn))
+            for a, b, c2, e in [(18, -10, 6, -4), (21, 4, 8, 6), (15, 19, 5, 14),
+                                (-18, -8, -6, -3), (-21, 5, -8, 7), (-15, 19, -5, 14),
+                                (5, -27, 2, -16), (-6, -25, -2, -15)]:
+                d.append(f'<path d="M{cx+a:.1f} {cy+b} L{cx+c2:.1f} {cy+e}" {dun}/>')
+
+        elif i == 1:
+            # pijlpunt met weerhaken en een steeltje om in te binden
+            punten = [(0, -34), (14, 4), (9, 16), (4, 10), (4, 28), (-4, 28),
+                      (-4, 10), (-9, 16), (-14, 4)]
+            d.append(_veelhoek(cx, cy, punten, lijn))
+            d.append(f'<path d="M{cx:.1f} {cy-28} V{cy+6}" {dun}/>')
+            for a, b, c2, e in [(7, -18, 2, -16), (10, -7, 4, -6), (13, 2, 5, 3),
+                                (-7, -18, -2, -16), (-10, -7, -4, -6), (-13, 2, -5, 3)]:
+                d.append(f'<path d="M{cx+a:.1f} {cy+b} L{cx+c2:.1f} {cy+e}" {dun}/>')
+
+        elif i == 2:
+            # mes: rechte rug links, scherpe snede rechts
+            punten = [(-11, -32), (-4, -29), (2, -17), (7, -3), (8, 9), (5, 21),
+                      (1, 30), (-11, 30)]
+            d.append(_veelhoek(cx, cy, punten, lijn))
+            d.append(f'<path d="M{cx-8:.1f} {cy-26} L{cx-6:.1f} {cy+26}" {dun}/>')
+            for a, b, c2, e in [(7, -18, 0, -16), (8, -5, 1, -4), (7, 7, 0, 8), (4, 19, -2, 19)]:
+                d.append(f'<path d="M{cx+a:.1f} {cy+b} L{cx+c2:.1f} {cy+e}" {dun}/>')
+
+        else:
+            # bijl: een stenen kop, met touw op een houten steel gebonden
+            d.append(f'<path d="M{cx-4:.1f} {cy-18} h8 v46 a4 4 0 0 1 -8 0 Z" {lijn}/>')
+            d.append(f'<path d="M{cx-22:.1f} {cy-26} L{cx+18:.1f} {cy-34} L{cx+23:.1f} {cy-16} '
+                     f'L{cx-19:.1f} {cy-9} Z" {lijn}/>')
+            for y in (-20, -14):
+                d.append(f'<path d="M{cx-7:.1f} {cy+y} L{cx+7:.1f} {cy+y-2}" {dun}/>')
+            d.append(f'<path d="M{cx+18:.1f} {cy-31} L{cx+21:.1f} {cy-18}" {dun}/>')
+
+    namen = [("vuistbijl", "steen"), ("pijlpunt", "vuursteen"),
+             ("mes", "vuursteen"), ("bijl", "steen en hout")]
+    for i, (naam, stof) in enumerate(namen):
+        cx = 20 + vak * (i + 0.5)
+        d.append(f'<text x="{cx:.1f}" y="118" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" '
+                 f'font-size="12.5" font-weight="600" fill="{AMBER}">{naam}</text>')
+        d.append(f'<text x="{cx:.1f}" y="134" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" '
+                 f'font-size="10" fill="{DIM}">{stof}</text>')
+
+    return _svg(breedte, h, "".join(d))
