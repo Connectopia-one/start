@@ -32,6 +32,15 @@ van foto's. Dat lost het rechtenprobleem op, en het leest vaak duidelijker —
 een doorsnede van een Romeinse weg toont de vier lagen, een foto van kasseien
 niet.
 
+Bij aardrijkskunde geldt hetzelfde, met één uitzondering. Een landschap is een
+schema zodra je het uitlegt: een doorsnede van de kust toont in één beeld dat
+de polder lager ligt dan de zee, en dat ziet een kind op geen enkele luchtfoto.
+Zulke dingen tekenen we dus.
+
+Een **landkaart** tekenen we niet. Een kaart uit het hoofd natekenen wordt
+scheef, en scheve grenzen horen niet in lesmateriaal. Komt er een kaart in een
+bundel, dan is dat een echte kaart met een vrije licentie, met de bron erbij.
+
 ## Waarom er tekeningen in staan
 
 Veel kinderen met een hoogbegaafd, ASS- of ADHD-profiel leren visueel: een
@@ -50,7 +59,12 @@ In `bron/` staat waarmee ze gemaakt zijn:
   grotschildering, stenen werktuigen, hiërogliefen, de piramides, een Griekse
   tempel, een amfitheater, een aquaduct, de doorsnede van een heirbaan, een
   burcht, een verlucht handschrift, een drukpers, een stoommachine en een
-  mijnschacht.
+  mijnschacht. Voor aardrijkskunde komen daar nog bij: een doorsnede van de
+  kust, het hoogteprofiel van België, een rivier van bron tot monding, een
+  klimaatdiagram, een zeehaven, een stadsplan, de gewesten en provincies, de
+  aardbol met de klimaatgordels, de seizoenen rond de zon, een bergprofiel met
+  boom- en sneeuwgrens, zandduinen met een oase, de lagen van het regenwoud en
+  een vulkaan in doorsnede.
 - `bundel.py` — zet een bundel-beschrijving om naar een html-bestand.
 - `maak_<vak>.py` — de inhoud van alle bundels van dat vak.
 - `pdf.js` — zet een html-bestand om naar pdf (via Playwright).

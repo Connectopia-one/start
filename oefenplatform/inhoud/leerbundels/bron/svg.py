@@ -143,8 +143,13 @@ def klok(uur, minuut, straal=64):
     return _svg(br, br, "".join(d))
 
 
-def staafdiagram(paren, breedte=330, hoogte=180, kleur=None):
-    """paren = [(label, waarde), ...]"""
+def staafdiagram(paren, breedte=330, hoogte=180, kleur=None, stap=None):
+    """paren = [(label, waarde), ...]
+
+    stap bepaalt om de hoeveel de streepjes op de zij-as staan. Laat je hem
+    weg, dan kiest de tekening er zelf vier, wat niet altijd ronde getallen
+    geeft — bij grote waarden zet je hem dus beter zelf.
+    """
     kleur = kleur or FOREST
     links, onder, boven = 30, 28, 14
     top = max(w for _, w in paren)
@@ -154,7 +159,7 @@ def staafdiagram(paren, breedte=330, hoogte=180, kleur=None):
     vlak = hoogte - onder - boven
     d = [f'<line x1="{links}" y1="{boven}" x2="{links}" y2="{hoogte-onder}" stroke="{DIM}" stroke-width="1.4"/>',
          f'<line x1="{links}" y1="{hoogte-onder}" x2="{breedte}" y2="{hoogte-onder}" stroke="{DIM}" stroke-width="1.4"/>']
-    for s in range(0, top + 1, max(1, top // 4)):
+    for s in range(0, top + 1, stap or max(1, top // 4)):
         y = hoogte - onder - s / top * vlak
         d.append(f'<line x1="{links-4}" y1="{y:.1f}" x2="{links}" y2="{y:.1f}" stroke="{DIM}" stroke-width="1.2"/>')
         d.append(f'<text x="{links-7}" y="{y+3.5:.1f}" text-anchor="end" font-family="IBM Plex Sans,sans-serif" font-size="9.5" fill="{DIM}">{s}</text>')
@@ -1414,4 +1419,551 @@ def mijnschacht(breedte=470):
     d.append(f'<rect x="0" y="210" width="{breedte}" height="18" fill="{DARK}"/>')
     d.append(f'<text x="{breedte-10}" y="206" text-anchor="end" font-family="IBM Plex Sans,sans-serif" '
              f'font-size="10.5" font-weight="600" fill="{AMBER}">de laag steenkool</text>')
+    return _svg(breedte, h, "".join(d))
+
+
+# ---------------------------------------------------------------------------
+# Tekeningen bij aardrijkskunde.
+#
+# Ook hier tekenen we zelf in plaats van een foto te zoeken: een doorsnede van
+# de kust of de lagen van het regenwoud zijn schema's zoals ze in elk handboek
+# staan, en dan weten we zeker waar het beeld vandaan komt.
+#
+# Wat we NIET tekenen is een landkaart. Een kaart uit het hoofd natekenen
+# wordt scheef, en scheve grenzen horen niet in lesmateriaal. Daarvoor hoort
+# een echte kaart met een vrije licentie in de bundel.
+# ---------------------------------------------------------------------------
+
+ZAND = "#e0cfa0"
+ZAND_DONKER = "#c9b47f"
+GRAS = "#7ba368"
+GRAS_LICHT = "#dfeada"
+ZEE = "#5b93b8"
+ROTS = "#9a948a"
+SNEEUW = "#f4f8fa"
+LUCHT = "#dbe9f2"
+LOOF = "#3f7a46"
+LOOF_DONKER = "#2c5a33"
+LAVA = "#c2410c"
+
+_teller = [0]
+
+
+def _id(naam):
+    """Een uniek id, zodat twee figuren op dezelfde pagina elkaar niet bijten."""
+    _teller[0] += 1
+    return f"{naam}{_teller[0]}"
+
+
+def _tekst(x, y, tekst, grootte=10.5, kleur=None, anker="middle", vet=False):
+    kleur = kleur or INK
+    dik = ' font-weight="600"' if vet else ""
+    return (f'<text x="{x:.1f}" y="{y:.1f}" text-anchor="{anker}" '
+            f'font-family="IBM Plex Sans,sans-serif" font-size="{grootte}"{dik} '
+            f'fill="{kleur}">{tekst}</text>')
+
+
+def _kussen(x, y, tekst, grootte=9.5, kleur=None, anker="end", vet=False):
+    """Tekst op een wit vlakje, voor labels die over een tekening heen komen."""
+    br = len(tekst) * grootte * 0.55 + 10
+    x0 = {"end": x - br, "start": x, "middle": x - br / 2}[anker]
+    return (f'<rect x="{x0:.1f}" y="{y-grootte:.1f}" width="{br:.1f}" height="{grootte+7:.1f}" '
+            f'rx="4" fill="#ffffff" opacity="0.88"/>' + _tekst(x, y, tekst, grootte, kleur, anker, vet))
+
+
+def kustdoorsnede(breedte=470):
+    """Een dwarsdoorsnede van de Belgische kust: zee, strand, duin, polder.
+
+    Het punt van de tekening is de stippellijn: de polder ligt lager dan de
+    zee, en het duin houdt het water tegen.
+    """
+    h = 205
+    zee_y = 108
+    land = ("M0 160 L70 150 L150 108 L195 100 L225 60 "
+            "Q252 46 282 92 L315 122 L462 122 L462 172 L0 172 Z")
+    d = [f'<rect x="0" y="0" width="{breedte}" height="{h-33}" fill="#ffffff"/>',
+         f'<path d="{land}" fill="{ZAND}" stroke="{DARK}" stroke-width="1.6" stroke-linejoin="round"/>']
+    # de polder: gras bovenop, want daar wordt geboerd
+    knip = _id("polder")
+    d.append(f'<clipPath id="{knip}"><path d="{land}"/></clipPath>')
+    d.append(f'<rect x="300" y="122" width="170" height="52" fill="{GRAS}" clip-path="url(#{knip})"/>')
+    # de zee
+    d.append(f'<polygon points="0,{zee_y} 150,{zee_y} 70,150 0,160" fill="{ZEE}"/>')
+    for gy, gx1, gx2 in [(118, 12, 52), (130, 30, 66), (124, 74, 108)]:
+        d.append(f'<path d="M{gx1} {gy} q10 -4 20 0 q10 4 20 0" fill="none" '
+                 f'stroke="#ffffff" stroke-width="1.6" opacity="0.7"/>')
+    # zeeniveau doorgetrokken over het land
+    d.append(f'<line x1="150" y1="{zee_y}" x2="458" y2="{zee_y}" stroke="{ZEE}" '
+             f'stroke-width="1.4" stroke-dasharray="6 5"/>')
+    d.append(_tekst(458, zee_y - 5, "zeeniveau", 9.5, ZEE, "end"))
+    # helmgras op het duin
+    for hx, hy in [(232, 62), (245, 54), (258, 52), (270, 62), (222, 76)]:
+        d.append(f'<path d="M{hx} {hy} l-4 -11 M{hx} {hy} l0 -13 M{hx} {hy} l4 -11" '
+                 f'fill="none" stroke="{GRAS}" stroke-width="1.5" stroke-linecap="round"/>')
+    # een boerderijtje en een sloot in de polder
+    d.append(f'<path d="M340 122 h26 v-13 l-13 -9 l-13 9 Z" fill="#ffffff" stroke="{DARK}" stroke-width="1.4"/>')
+    d.append(f'<path d="M395 136 h56" stroke="{ZEE}" stroke-width="3" stroke-linecap="round"/>')
+    # hoogteverschil
+    d.append(f'<line x1="410" y1="{zee_y}" x2="410" y2="122" stroke="{DARK}" stroke-width="1.2"/>')
+    d.append(_tekst(392, 158, "de polder ligt lager dan de zee", 9.5, "#ffffff"))
+    for x, naam in [(72, "zee"), (172, "strand"), (252, "duin"), (392, "polder")]:
+        d.append(_tekst(x, 192, naam, 11.5, AMBER, "middle", True))
+    return _svg(breedte, h, "".join(d))
+
+
+def reliefprofiel(breedte=470):
+    """Het hoogteprofiel van België, van de kust tot het Signal de Botrange."""
+    h = 200
+    links, basis, top_y = 38, 152, 20
+    top_m = 700
+    vlak = basis - top_y
+
+    def y(m):
+        return basis - m / top_m * vlak
+
+    punten = [(0.00, 0), (0.14, 5), (0.24, 20), (0.36, 50), (0.48, 90),
+              (0.58, 140), (0.66, 190), (0.74, 300), (0.82, 430),
+              (0.90, 560), (0.96, 650), (1.00, 694)]
+    xs = [links + f * (breedte - links - 8) for f, _ in punten]
+    pad = " ".join(f"{x:.1f},{y(m):.1f}" for x, (_, m) in zip(xs, punten))
+    d = [f'<polygon points="{pad} {xs[-1]:.1f},{basis} {links},{basis}" '
+         f'fill="#dfe8dd" stroke="{DARK}" stroke-width="1.8" stroke-linejoin="round"/>']
+    # hoogte-as
+    d.append(f'<line x1="{links}" y1="{top_y}" x2="{links}" y2="{basis}" stroke="{DIM}" stroke-width="1.4"/>')
+    d.append(f'<line x1="{links}" y1="{basis}" x2="{breedte-8}" y2="{basis}" stroke="{DIM}" stroke-width="1.4"/>')
+    for m in (0, 200, 400, 600):
+        d.append(f'<line x1="{links-4}" y1="{y(m):.1f}" x2="{links}" y2="{y(m):.1f}" stroke="{DIM}" stroke-width="1.2"/>')
+        d.append(_tekst(links - 7, y(m) + 3.5, f"{m}", 9.5, DIM, "end"))
+    d.append(_tekst(links - 7, 14, "meter", 9.5, DIM, "end"))
+    # de grens tussen laag, midden en hoog België
+    for grens_x in (250, 321):
+        d.append(f'<line x1="{grens_x}" y1="{top_y}" x2="{grens_x}" y2="{basis}" '
+                 f'stroke="{DIM}" stroke-width="1.2" stroke-dasharray="4 4" opacity="0.6"/>')
+    for x, naam, bij in [(144, "Laag-België", "tot 100 m"),
+                         (285, "Midden-België", "100 tot 200 m"),
+                         (391, "Hoog-België", "meer dan 200 m")]:
+        d.append(_tekst(x, 172, naam, 10, AMBER, "middle", True))
+        d.append(_tekst(x, 186, bij, 9, DIM))
+    d.append(f'<circle cx="{xs[-1]:.1f}" cy="{y(694):.1f}" r="3.6" fill="{DARK}"/>')
+    d.append(_tekst(breedte - 12, 14, "Signal de Botrange, 694 m", 10, DARK, "end"))
+    return _svg(breedte, h, "".join(d))
+
+
+def rivierloop(breedte=470):
+    """Een rivier van de bron tot de monding, van bovenaf gezien."""
+    import math
+    h = 190
+    x0, x1 = 44, 438
+    boven, onder = [], []
+    x = x0
+    while x <= x1:
+        t = (x - x0) / (x1 - x0)
+        mid = 84 + 26 * t * math.sin((x - x0) / 36)
+        halve = 2.4 + 9 * t ** 1.4
+        if t > 0.88:
+            halve += (t - 0.88) / 0.12 * 15
+        boven.append(f"{x:.1f},{mid - halve:.1f}")
+        onder.append(f"{x:.1f},{mid + halve:.1f}")
+        x += 4
+    d = [f'<rect x="428" y="0" width="{breedte-428}" height="142" fill="{ZEE}" opacity="0.4"/>',
+         f'<polygon points="{" ".join(boven)} {" ".join(reversed(onder))}" fill="{ZEE}"/>']
+    # een zijrivier die er van bovenaf bij komt
+    d.append(f'<path d="M168 16 q16 26 6 40 q-8 12 4 22" fill="none" stroke="{ZEE}" '
+             f'stroke-width="5" stroke-linecap="round"/>')
+    # heuvels bij de bron, boven de rivier zodat ze elkaar niet raken
+    for bx, bb, bh in [(10, 30, 26), (34, 38, 40), (66, 28, 22)]:
+        d.append(f'<polygon points="{bx},66 {bx+bb/2:.0f},{66-bh} {bx+bb},66" fill="{ROTS}" opacity="0.45"/>')
+    d.append(f'<path d="M44 84 L44 70" stroke="{ZEE}" stroke-width="4" stroke-linecap="round"/>')
+    d.append(f'<circle cx="44" cy="68" r="5.5" fill="{DARK}"/>')
+    for x, naam, bij in [(44, "bron", ""), (124, "bovenloop", "smal en snel"),
+                         (232, "middenloop", ""), (340, "benedenloop", "breed en traag"),
+                         (436, "monding", "")]:
+        d.append(f'<line x1="{x}" y1="140" x2="{x}" y2="150" stroke="{DIM}" stroke-width="1.2"/>')
+        d.append(_tekst(x, 164, naam, 11, AMBER, "middle", True))
+        if bij:
+            d.append(_tekst(x, 177, bij, 9, DIM))
+    d.append(_tekst(178, 12, "zijrivier", 9.5, DIM, "start"))
+    d.append(_tekst(462, 132, "zee", 9.5, ZEE, "end"))
+    return _svg(breedte, h, "".join(d))
+
+
+def klimaatdiagram(temperaturen, neerslag, breedte=470, plaats=""):
+    """Een klimaatdiagram: balkjes voor de neerslag, een lijn voor de temperatuur.
+
+    temperaturen = 12 waarden in graden, neerslag = 12 waarden in millimeter.
+    """
+    h = 212
+    links, rechts, boven, onder = 40, 42, 22, 38
+    basis = h - onder
+    vlak = basis - boven
+    bb = breedte - links - rechts
+    top_mm = max(100, (max(neerslag) // 25 + 1) * 25)
+    top_gr = max(20, (max(temperaturen) // 5 + 1) * 5)
+    vak = bb / 12
+    d = []
+    for i, mm in enumerate(neerslag):
+        hoogte = mm / top_mm * vlak
+        x = links + i * vak + vak * 0.22
+        d.append(f'<rect x="{x:.1f}" y="{basis-hoogte:.1f}" width="{vak*0.56:.1f}" '
+                 f'height="{hoogte:.1f}" fill="{ZEE}" opacity="0.55" rx="2"/>')
+    pts = []
+    for i, gr in enumerate(temperaturen):
+        px = links + i * vak + vak / 2
+        py = basis - gr / top_gr * vlak
+        pts.append(f"{px:.1f},{py:.1f}")
+    d.append(f'<polyline points="{" ".join(pts)}" fill="none" stroke="{ROOD}" stroke-width="2.4"/>')
+    for p in pts:
+        px, py = p.split(",")
+        d.append(f'<circle cx="{px}" cy="{py}" r="2.8" fill="{ROOD}"/>')
+    d.append(f'<line x1="{links}" y1="{boven}" x2="{links}" y2="{basis}" stroke="{DIM}" stroke-width="1.4"/>')
+    d.append(f'<line x1="{breedte-rechts}" y1="{boven}" x2="{breedte-rechts}" y2="{basis}" stroke="{DIM}" stroke-width="1.4"/>')
+    d.append(f'<line x1="{links}" y1="{basis}" x2="{breedte-rechts}" y2="{basis}" stroke="{DIM}" stroke-width="1.4"/>')
+    for s in range(0, int(top_mm) + 1, 25):
+        yy = basis - s / top_mm * vlak
+        d.append(_tekst(links - 6, yy + 3.5, f"{s}", 9, ZEE, "end"))
+    for s in range(0, int(top_gr) + 1, 5):
+        yy = basis - s / top_gr * vlak
+        d.append(_tekst(breedte - rechts + 6, yy + 3.5, f"{s}", 9, ROOD, "start"))
+    d.append(_tekst(links - 6, 14, "mm", 9.5, ZEE, "end"))
+    d.append(_tekst(breedte - rechts + 6, 14, "°C", 9.5, ROOD, "start"))
+    for i, letter in enumerate("JFMAMJJASOND"):
+        d.append(_tekst(links + i * vak + vak / 2, basis + 14, letter, 9.5, DIM))
+    if plaats:
+        d.append(_tekst(links + bb / 2, basis + 30, plaats, 10, INK))
+    return _svg(breedte, h, "".join(d))
+
+
+def haven(breedte=470):
+    """Een zeehaven van opzij: een schip, een containerkraan en de kaai."""
+    h = 208
+    water_y, bodem = 118, 168
+    d = [f'<rect x="0" y="{water_y}" width="240" height="{bodem-water_y}" fill="{ZEE}" opacity="0.55"/>',
+         f'<rect x="240" y="{water_y}" width="{breedte-240}" height="{bodem-water_y}" fill="#d9d4c8"/>',
+         f'<line x1="240" y1="{water_y}" x2="{breedte}" y2="{water_y}" stroke="{DIM}" stroke-width="1.6"/>']
+    # het schip, met de stuurhut achteraan
+    d.append(f'<path d="M26 112 L216 112 L204 144 L44 144 Z" fill="{DARK}"/>')
+    d.append(f'<rect x="30" y="76" width="30" height="34" fill="#ffffff" stroke="{DARK}" stroke-width="1.3"/>')
+    d.append(f'<rect x="36" y="82" width="18" height="8" fill="{ZEE}" opacity="0.6"/>')
+    for i, kleur in enumerate([AMBER, FOREST, ROOD, AMBER, FOREST, ROOD]):
+        d.append(f'<rect x="{70+i*24}" y="94" width="21" height="16" fill="{kleur}" opacity="0.85"/>')
+        if i < 4:
+            d.append(f'<rect x="{70+i*24}" y="78" width="21" height="15" fill="{kleur}" opacity="0.55"/>')
+    # de containerkraan: twee poten op de kaai, een lange arm over het schip
+    d.append(f'<path d="M262 {water_y} V46 M344 {water_y} V46" stroke="{DARK}" stroke-width="5" fill="none"/>')
+    d.append(f'<path d="M262 60 H344" stroke="{DARK}" stroke-width="3"/>')
+    d.append(f'<path d="M146 42 H414" stroke="{DARK}" stroke-width="6" stroke-linecap="round"/>')
+    d.append(f'<path d="M303 42 V10" stroke="{DARK}" stroke-width="4"/>')
+    d.append(f'<path d="M303 12 L160 40 M303 12 L410 38" fill="none" stroke="{DARK}" stroke-width="1.6"/>')
+    # de kabel met een container eraan
+    d.append(f'<path d="M172 42 V66" stroke="{DIM}" stroke-width="1.6"/>')
+    d.append(f'<rect x="158" y="66" width="28" height="6" fill="{DARK}"/>')
+    d.append(f'<rect x="160" y="48" width="24" height="17" fill="{AMBER}" opacity="0.9"/>')
+    # containers op de kaai en een vrachtwagen eronder
+    for r in range(3):
+        for c in range(6):
+            kleur = [AMBER, FOREST, ROOD][(r + c) % 3]
+            d.append(f'<rect x="{352+c*19}" y="{water_y-16-r*15}" width="17" height="13" '
+                     f'fill="{kleur}" opacity="{0.85 - r*0.12:.2f}"/>')
+    d.append(f'<rect x="276" y="{water_y-22}" width="24" height="16" rx="3" fill="{FOREST}"/>')
+    d.append(f'<rect x="300" y="{water_y-16}" width="20" height="10" rx="2" fill="{FOREST}" opacity="0.7"/>')
+    d.append(f'<circle cx="284" cy="{water_y-4}" r="4.4" fill="{DARK}"/>')
+    d.append(f'<circle cx="312" cy="{water_y-4}" r="4.4" fill="{DARK}"/>')
+    for x, naam in [(110, "zeeschip"), (300, "containerkraan"), (410, "containers")]:
+        d.append(_tekst(x, 190, naam, 11, AMBER, "middle", True))
+    d.append(_tekst(462, 136, "kaai", 9.5, DIM, "end"))
+    return _svg(breedte, h, "".join(d))
+
+
+def stadsplan(breedte=470):
+    """Een stad van bovenaf, schematisch: kern, ring, woonwijken, bedrijven."""
+    h = 226
+    cx, cy = 168, 110
+    d = [f'<circle cx="{cx}" cy="{cy}" r="104" fill="{GRAS_LICHT}"/>',
+         f'<circle cx="{cx}" cy="{cy}" r="72" fill="#efe7d6"/>',
+         f'<circle cx="{cx}" cy="{cy}" r="72" fill="none" stroke="{AMBER}" stroke-width="7" opacity="0.8"/>',
+         f'<circle cx="{cx}" cy="{cy}" r="40" fill="#e0d6c0" stroke="{DARK}" stroke-width="1.4"/>']
+    # straatjes in de oude kern
+    for a in range(0, 360, 45):
+        import math
+        r = math.radians(a)
+        d.append(f'<line x1="{cx+10*math.cos(r):.1f}" y1="{cy+10*math.sin(r):.1f}" '
+                 f'x2="{cx+38*math.cos(r):.1f}" y2="{cy+38*math.sin(r):.1f}" stroke="#ffffff" stroke-width="2.2"/>')
+    d.append(f'<rect x="{cx-7}" y="{cy-9}" width="14" height="18" fill="{DARK}"/>')
+    # invalswegen door de ring naar buiten
+    for a in (20, 110, 200, 290):
+        import math
+        r = math.radians(a)
+        d.append(f'<line x1="{cx+40*math.cos(r):.1f}" y1="{cy+40*math.sin(r):.1f}" '
+                 f'x2="{cx+112*math.cos(r):.1f}" y2="{cy+112*math.sin(r):.1f}" stroke="#ffffff" stroke-width="3.4"/>')
+    # rivier, dwars door de stad
+    d.append(f'<path d="M34 24 q62 56 74 96 q12 42 58 76" fill="none" stroke="{ZEE}" '
+             f'stroke-width="7" opacity="0.7" stroke-linecap="round"/>')
+    # bedrijventerrein rechts, aan de autoweg
+    d.append(f'<rect x="332" y="60" width="126" height="86" rx="8" fill="#e6e1d4" stroke="{DIM}" stroke-width="1.4"/>')
+    for i in range(3):
+        for j in range(2):
+            d.append(f'<rect x="{344+i*40}" y="{74+j*38}" width="30" height="26" fill="{DIM}" opacity="0.45"/>')
+    d.append(f'<line x1="272" y1="103" x2="332" y2="103" stroke="{AMBER}" stroke-width="5"/>')
+    for x, y, naam in [(cx, 202, "oude kern"), (70, 206, "woonwijken"), (395, 162, "bedrijven")]:
+        d.append(_tekst(x, y, naam, 10.5, DARK, "middle", True))
+    d.append(_tekst(48, 26, "rivier", 10.5, ZEE, "middle", True))
+    d.append(f'<line x1="{cx}" y1="152" x2="{cx}" y2="192" stroke="{DIM}" stroke-width="1.1"/>')
+    d.append(f'<line x1="70" y1="196" x2="96" y2="164" stroke="{DIM}" stroke-width="1.1"/>')
+    d.append(_tekst(262, 78, "ring", 10.5, AMBER, "middle", True))
+    return _svg(breedte, h, "".join(d))
+
+
+def aardbolgordels(breedte=470):
+    """De aarde van opzij, met de evenaar, de keerkringen en de klimaatgordels."""
+    import math
+    h = 272
+    cx, cy, r = 200, 118, 95
+    knip = _id("bol")
+    pool = "#a8cce4"
+    gematigd = GRAS_LICHT
+    tropisch = "#f4e3c4"
+
+    def yl(graden):
+        return cy - r * math.sin(math.radians(graden))
+
+    d = [f'<clipPath id="{knip}"><circle cx="{cx}" cy="{cy}" r="{r}"/></clipPath>']
+    banden = [(cy - r - 2, yl(66.5), pool), (yl(66.5), yl(23.5), gematigd),
+              (yl(23.5), yl(-23.5), tropisch), (yl(-23.5), yl(-66.5), gematigd),
+              (yl(-66.5), cy + r + 2, pool)]
+    for y1, y2, kleur in banden:
+        d.append(f'<rect x="{cx-r-2}" y="{y1:.1f}" width="{2*r+4}" height="{y2-y1:.1f}" '
+                 f'fill="{kleur}" clip-path="url(#{knip})"/>')
+    d.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{DARK}" stroke-width="1.8"/>')
+    lijnen = [(66.5, "noordpoolcirkel", False), (23.5, "kreeftskeerkring", False),
+              (0, "evenaar", True), (-23.5, "steenbokskeerkring", False),
+              (-66.5, "zuidpoolcirkel", False)]
+    for graden, naam, vet in lijnen:
+        y = yl(graden)
+        halve = math.sqrt(max(r * r - (y - cy) ** 2, 0))
+        streep = "" if vet else ' stroke-dasharray="5 4"'
+        d.append(f'<line x1="{cx-halve:.1f}" y1="{y:.1f}" x2="{cx+halve:.1f}" y2="{y:.1f}" '
+                 f'stroke="{DARK}" stroke-width="{2.2 if vet else 1.3}"{streep}/>')
+        d.append(f'<line x1="{cx+halve:.1f}" y1="{y:.1f}" x2="302" y2="{y:.1f}" '
+                 f'stroke="{BORDER}" stroke-width="1.2"/>')
+        d.append(_tekst(308, y + 3.5, naam, 10, DARK if vet else DIM, "start", vet))
+    d.append(_tekst(cx, cy - r - 8, "noordpool", 9.5, DIM))
+    d.append(_tekst(cx, cy + r + 16, "zuidpool", 9.5, DIM))
+    legenda = [("poolgebied", pool), ("gematigd gebied", gematigd), ("tropisch gebied", tropisch)]
+    x = 48
+    for naam, kleur in legenda:
+        d.append(f'<rect x="{x}" y="{h-26}" width="14" height="14" rx="3" fill="{kleur}" stroke="{DIM}" stroke-width="1"/>')
+        d.append(_tekst(x + 20, h - 15, naam, 10.5, INK, "start"))
+        x += 24 + len(naam) * 6.4
+    return _svg(breedte, h, "".join(d))
+
+
+def seizoenen(breedte=470):
+    """De aarde rond de zon, met de as altijd even schuin en in dezelfde richting."""
+    import math
+    h = 276
+    mx, my, rx, ry = 235, 124, 172, 84
+    d = [f'<ellipse cx="{mx}" cy="{my}" rx="{rx}" ry="{ry}" fill="none" stroke="{BORDER}" '
+         f'stroke-width="1.6" stroke-dasharray="6 6"/>',
+         f'<polygon points="168,44 154,48.4 168,53" fill="{DIM}"/>',
+         f'<circle cx="{mx}" cy="{my}" r="26" fill="{AMBER}"/>']
+    for a in range(0, 360, 30):
+        rr = math.radians(a)
+        d.append(f'<line x1="{mx+29*math.cos(rr):.1f}" y1="{my+29*math.sin(rr):.1f}" '
+                 f'x2="{mx+37*math.cos(rr):.1f}" y2="{my+37*math.sin(rr):.1f}" '
+                 f'stroke="{AMBER}" stroke-width="2.4" stroke-linecap="round"/>')
+    d.append(_tekst(mx, my + 4, "zon", 11, "#ffffff", "middle", True))
+    scheef = math.radians(23.5)
+    ax, ay = 26 * math.sin(scheef), 26 * math.cos(scheef)
+    standen = [(mx - rx, my, "zomer (juni)", my + 40),
+               (mx + rx, my, "winter (december)", my + 40),
+               (mx, my - ry, "lente (maart)", my - ry - 30),
+               (mx, my + ry, "herfst (september)", my + ry + 40)]
+    for ex, ey, naam, ly in standen:
+        d.append(f'<circle cx="{ex}" cy="{ey}" r="22" fill="{ZEE}" opacity="0.35" '
+                 f'stroke="{DARK}" stroke-width="1.5"/>')
+        d.append(f'<line x1="{ex-ax:.1f}" y1="{ey+ay:.1f}" x2="{ex+ax:.1f}" y2="{ey-ay:.1f}" '
+                 f'stroke="{DARK}" stroke-width="2"/>')
+        d.append(f'<circle cx="{ex+ax:.1f}" cy="{ey-ay:.1f}" r="3" fill="{DARK}"/>')
+        d.append(_tekst(ex, ly, naam, 11, AMBER, "middle", True))
+    d.append(_tekst(mx, h - 8, "Het bolletje is de noordpool. De as staat altijd even schuin, "
+                               "en altijd in dezelfde richting.", 9.5, DIM))
+    return _svg(breedte, h, "".join(d))
+
+
+def bergprofiel(breedte=470):
+    """Een berg in de Alpen, met de boomgrens en de sneeuwgrens erop."""
+    h = 208
+    links, basis, top_y, top_m = 44, 170, 26, 4000
+
+    def y(m):
+        return basis - m / top_m * (basis - top_y)
+
+    punten = [(links, 170), (70, 161), (100, 136), (130, 145), (165, 100), (200, 74),
+              (230, 42), (265, 76), (295, 63), (325, 110), (360, 94), (395, 138),
+              (430, 156), (462, 165)]
+    pad = " ".join(f"{x},{yy}" for x, yy in punten)
+    berg = f"{pad} 462,{basis} {links},{basis}"
+    knipsel = _id("berg")
+    d = [f'<clipPath id="{knipsel}"><polygon points="{berg}"/></clipPath>']
+    boomgrens, sneeuwgrens = y(2000), y(2900)
+    lagen = [(top_y - 6, sneeuwgrens, SNEEUW), (sneeuwgrens, boomgrens, "#cfd6c6"),
+             (boomgrens, basis, "#4f7c48")]
+    for y1, y2, kleur in lagen:
+        d.append(f'<rect x="{links}" y="{y1:.1f}" width="{462-links}" height="{y2-y1:.1f}" '
+                 f'fill="{kleur}" clip-path="url(#{knipsel})"/>')
+    d.append(f'<polygon points="{berg}" fill="none" stroke="{DARK}" stroke-width="1.8" stroke-linejoin="round"/>')
+    for grens, naam in [(sneeuwgrens, "sneeuwgrens, \u00b1 2900 m"), (boomgrens, "boomgrens, \u00b1 2000 m")]:
+        d.append(f'<line x1="{links}" y1="{grens:.1f}" x2="462" y2="{grens:.1f}" '
+                 f'stroke="{DARK}" stroke-width="1.3" stroke-dasharray="5 4"/>')
+        d.append(_kussen(458, grens - 6, naam, 9.5, DARK, "end"))
+    d.append(f'<line x1="{links}" y1="{top_y}" x2="{links}" y2="{basis}" stroke="{DIM}" stroke-width="1.4"/>')
+    for m in (0, 1000, 2000, 3000, 4000):
+        d.append(f'<line x1="{links-4}" y1="{y(m):.1f}" x2="{links}" y2="{y(m):.1f}" stroke="{DIM}" stroke-width="1.2"/>')
+        d.append(_tekst(links - 7, y(m) + 3.5, f"{m}", 9, DIM, "end"))
+    d.append(_tekst(links - 7, 14, "meter", 9.5, DIM, "end"))
+    legenda = [("eeuwige sneeuw", SNEEUW), ("alpenweide", "#cfd6c6"), ("naaldbos en weiden", "#4f7c48")]
+    x = 40
+    for naam, kleur in legenda:
+        d.append(f'<rect x="{x}" y="{h-24}" width="13" height="13" rx="3" fill="{kleur}" stroke="{DIM}" stroke-width="1"/>')
+        d.append(_tekst(x + 18, h - 14, naam, 10, INK, "start"))
+        x += 22 + len(naam) * 6.1
+    return _svg(breedte, h, "".join(d))
+
+
+def woestijnduinen(breedte=470):
+    """Zandduinen, een felle zon en een oase met palmen."""
+    h = 186
+    d = [f'<rect x="0" y="0" width="{breedte}" height="{h-26}" fill="#f6efdd"/>',
+         f'<circle cx="392" cy="40" r="24" fill="{AMBER}" opacity="0.85"/>']
+    for a in range(0, 360, 45):
+        import math
+        r = math.radians(a)
+        d.append(f'<line x1="{392+29*math.cos(r):.1f}" y1="{40+29*math.sin(r):.1f}" '
+                 f'x2="{392+38*math.cos(r):.1f}" y2="{40+38*math.sin(r):.1f}" '
+                 f'stroke="{AMBER}" stroke-width="2.2" stroke-linecap="round" opacity="0.7"/>')
+    lagen = [("M0 104 q70 -30 150 -8 q90 24 170 -12 q90 -40 150 -6 V160 H0 Z", ZAND_DONKER),
+             ("M0 124 q80 -24 156 -2 q86 24 164 -8 q80 -32 150 4 V160 H0 Z", ZAND),
+             ("M0 144 q90 -18 170 2 q80 20 150 -4 q70 -22 150 6 V160 H0 Z", "#efe0b6")]
+    for pad, kleur in lagen:
+        d.append(f'<path d="{pad}" fill="{kleur}"/>')
+    # de oase
+    d.append(f'<ellipse cx="96" cy="146" rx="42" ry="11" fill="{ZEE}" opacity="0.7"/>')
+    for px, ph in [(66, 40), (88, 52), (112, 44)]:
+        d.append(f'<path d="M{px} 142 q4 -{ph//2} 1 -{ph}" fill="none" stroke="#6b4f2a" stroke-width="3"/>')
+        # de bladeren buigen aan het uiteinde naar beneden, zoals bij een palm
+        for dx, dy, ex, ey in [(-19, -13, -25, -2), (-12, -17, -17, -8), (0, -19, 0, -12),
+                               (12, -17, 17, -8), (19, -13, 25, -2)]:
+            d.append(f'<path d="M{px+1} {142-ph} q{dx} {dy} {ex} {ey}" fill="none" '
+                     f'stroke="{LOOF}" stroke-width="2.6" stroke-linecap="round"/>')
+    d.append(_tekst(96, 176, "oase", 11, AMBER, "middle", True))
+    d.append(_tekst(320, 176, "zandduinen", 11, AMBER, "middle", True))
+    return _svg(breedte, h, "".join(d))
+
+
+def regenwoudlagen(breedte=470):
+    """De lagen van het tropisch regenwoud, met de hoogte in meter ernaast."""
+    h = 254
+    links, basis, top_y, top_m = 36, 208, 24, 50
+
+    def y(m):
+        return basis - m / top_m * (basis - top_y)
+
+    d = []
+    banden = [(50, 35, "#eef4e8"), (35, 15, "#dcebd6"), (15, 3, "#cfe3c8"), (3, 0, "#b9d4b2")]
+    for hoog, laag, kleur in banden:
+        d.append(f'<rect x="{links}" y="{y(hoog):.1f}" width="{breedte-links-8}" '
+                 f'height="{y(laag)-y(hoog):.1f}" fill="{kleur}"/>')
+    # de bomen staan links, de namen rechts, zodat ze elkaar niet raken
+    for tx, kruin, br in [(64, 34, 30), (112, 22, 34), (158, 30, 28), (206, 20, 32),
+                          (252, 33, 26), (296, 24, 30)]:
+        d.append(f'<rect x="{tx-4}" y="{y(kruin):.1f}" width="8" height="{basis-y(kruin):.1f}" fill="#6b4f2a"/>')
+        d.append(f'<ellipse cx="{tx}" cy="{y(kruin):.1f}" rx="{br}" ry="{br*0.55:.1f}" '
+                 f'fill="{LOOF}" opacity="0.85"/>')
+    for tx in (138, 274):
+        d.append(f'<rect x="{tx-4}" y="{y(46):.1f}" width="8" height="{basis-y(46):.1f}" fill="#6b4f2a"/>')
+        d.append(f'<ellipse cx="{tx}" cy="{y(46):.1f}" rx="26" ry="15" fill="{LOOF_DONKER}"/>')
+    for tx in (86, 180, 232, 316):
+        d.append(f'<path d="M{tx} {basis} q-4 -22 4 -34 q6 -10 0 -16" fill="none" stroke="{LOOF_DONKER}" stroke-width="2.4"/>')
+    d.append(f'<line x1="{links}" y1="{basis}" x2="{breedte-8}" y2="{basis}" stroke="#6b4f2a" stroke-width="3"/>')
+    d.append(f'<line x1="{links}" y1="{top_y}" x2="{links}" y2="{basis}" stroke="{DIM}" stroke-width="1.4"/>')
+    for m in (0, 10, 20, 30, 40, 50):
+        d.append(f'<line x1="{links-4}" y1="{y(m):.1f}" x2="{links}" y2="{y(m):.1f}" stroke="{DIM}" stroke-width="1.2"/>')
+        d.append(_tekst(links - 7, y(m) + 3.5, f"{m}", 9, DIM, "end"))
+    d.append(_tekst(links - 7, 16, "meter", 9.5, DIM, "end"))
+    for m, naam in [(43, "uitstekende bomen"), (25, "kroonlaag"), (9, "struiklaag")]:
+        d.append(_tekst(346, y(m) + 4, naam, 10.5, DARK, "start", True))
+    d.append(_tekst(346, basis + 14, "bodemlaag", 10.5, DARK, "start", True))
+    d.append(_tekst(346, basis + 27, "donker, want het licht komt", 9, DIM, "start"))
+    d.append(_tekst(346, basis + 37, "er bijna niet door", 9, DIM, "start"))
+    return _svg(breedte, h, "".join(d))
+
+
+def vulkaan(breedte=470):
+    """Een vulkaan in doorsnede: magmakamer, pijp, krater en lavastroom."""
+    h = 286
+    grond = 212
+    d = [f'<rect x="0" y="{grond}" width="{breedte}" height="{h-grond}" fill="#e4dbc8"/>']
+    # de kegel, met laagjes as en lava zoals bij een echte stratovulkaan
+    kegel = "M104 212 L228 66 L242 66 L366 212 Z"
+    knip = _id("kegel")
+    d.append(f'<clipPath id="{knip}"><path d="{kegel}"/></clipPath>')
+    d.append(f'<path d="{kegel}" fill="{ROTS}"/>')
+    for i in range(6):
+        d.append(f'<path d="M104 {200-i*26} L366 {200-i*26}" stroke="{STEEN}" stroke-width="7" '
+                 f'opacity="0.5" clip-path="url(#{knip})"/>')
+    d.append(f'<path d="{kegel}" fill="none" stroke="{DARK}" stroke-width="1.8" stroke-linejoin="round"/>')
+    # pijp en magmakamer
+    d.append(f'<path d="M228 66 L228 240 L242 240 L242 66 Z" fill="{LAVA}" clip-path="url(#{knip})"/>')
+    d.append(f'<rect x="228" y="212" width="14" height="30" fill="{LAVA}"/>')
+    d.append(f'<ellipse cx="235" cy="250" rx="62" ry="24" fill="{LAVA}"/>')
+    d.append(f'<ellipse cx="235" cy="250" rx="62" ry="24" fill="none" stroke="{ROOD}" stroke-width="1.6"/>')
+    # lavastroom over de rechterflank
+    d.append(f'<path d="M240 70 q26 34 34 64 q10 32 34 78" fill="none" stroke="{LAVA}" '
+             f'stroke-width="7" stroke-linecap="round"/>')
+    # askolom
+    for cxx, cyy, rr in [(232, 46, 20), (208, 30, 17), (252, 26, 16), (226, 12, 14), (268, 44, 13)]:
+        d.append(f'<circle cx="{cxx}" cy="{cyy}" r="{rr}" fill="{DIM}" opacity="0.38"/>')
+    merken = [(120, 24, 208, 34, "askolom"), (330, 62, 250, 66, "krater"),
+              (412, 150, 292, 150, "lavastroom"), (86, 140, 224, 140, "pijp"),
+              (106, 264, 174, 252, "magmakamer")]
+    for tx, ty, lx, ly, naam in merken:
+        anker = "end" if tx < lx else "start"
+        d.append(f'<line x1="{tx + (4 if anker == "start" else -4)}" y1="{ty}" x2="{lx}" y2="{ly}" '
+                 f'stroke="{DIM}" stroke-width="1.1"/>')
+        d.append(_tekst(tx, ty + 3.5, naam, 10.5, DARK, anker, True))
+    return _svg(breedte, h, "".join(d))
+
+
+def gewesten(breedte=470):
+    """De drie gewesten en de tien provincies, met hun hoofdplaats."""
+    rijen = [
+        ("Vlaanderen", FOREST, 10, 168, [("Antwerpen", "Antwerpen"), ("Limburg", "Hasselt"),
+                                         ("Oost-Vlaanderen", "Gent"), ("Vlaams-Brabant", "Leuven"),
+                                         ("West-Vlaanderen", "Brugge")]),
+        ("Wallonië", AMBER, 186, 168, [("Henegouwen", "Bergen"), ("Luik", "Luik"),
+                                            ("Luxemburg", "Aarlen"), ("Namen", "Namen"),
+                                            ("Waals-Brabant", "Waver")]),
+    ]
+    h = 178
+    d = []
+    for naam, kleur, x, bb, provincies in rijen:
+        d.append(f'<rect x="{x}" y="10" width="{bb}" height="{h-20}" rx="9" fill="#ffffff" '
+                 f'stroke="{BORDER}" stroke-width="1.4"/>')
+        d.append(f'<path d="M{x} 19 a9 9 0 0 1 9 -9 h{bb-18} a9 9 0 0 1 9 9 v17 h{-bb} Z" fill="{kleur}"/>')
+        d.append(_tekst(x + bb / 2, 31, naam, 11.5, "#ffffff", "middle", True))
+        for i, (prov, stad) in enumerate(provincies):
+            y = 56 + i * 22
+            d.append(_tekst(x + 10, y, prov, 10.5, INK, "start"))
+            d.append(_tekst(x + bb - 10, y, stad, 9, DIM, "end"))
+            if i < 4:
+                d.append(f'<line x1="{x+10}" y1="{y+7}" x2="{x+bb-10}" y2="{y+7}" stroke="{BORDER}" stroke-width="1"/>')
+    x, bb = 362, 98
+    d.append(f'<rect x="{x}" y="10" width="{bb}" height="{h-20}" rx="9" fill="#ffffff" '
+             f'stroke="{BORDER}" stroke-width="1.4"/>')
+    d.append(f'<path d="M{x} 19 a9 9 0 0 1 9 -9 h{bb-18} a9 9 0 0 1 9 9 v17 h{-bb} Z" fill="{DIM}"/>')
+    d.append(_tekst(x + bb / 2, 31, "Brussel", 11.5, "#ffffff", "middle", True))
+    for i, regel in enumerate(["Hoofdstad van", "België en van", "Europa.", "",
+                               "19 gemeenten,", "geen provincie."]):
+        d.append(_tekst(x + bb / 2, 58 + i * 16, regel, 9.5, INK if i < 3 else DIM))
+    d.append(_tekst(x + bb / 2, 31, "Brussel", 11.5, "#ffffff", "middle", True))
     return _svg(breedte, h, "".join(d))
