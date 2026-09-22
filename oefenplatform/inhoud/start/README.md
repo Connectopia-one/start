@@ -12,9 +12,10 @@ categorie voor het 5de en 6de leerjaar.
 | `wetenschap-en-techniek.json` | Wetenschap en techniek | 4 | 80 |
 | `aardrijkskunde.json` | Aardrijkskunde | 3 | 60 |
 | `geschiedenis.json` | Geschiedenis | 3 | 120 |
+| `engels.json` | Engels | 6 | 120 |
 
 Elk hoofdstuk heeft 20 vragen, behalve geschiedenis: daar zijn het er 40 per
-hoofdstuk. Samen 600 vragen.
+hoofdstuk. Samen 720 vragen.
 
 **Wiskunde staat in twee bestanden.** `wiskunde.json` was al ingeladen toen de
 tweede reeks er kwam, en opnieuw importeren zou alles dubbel zetten. Daarom staan
@@ -36,6 +37,14 @@ De zes hoofdstukken van wiskunde zijn de zes domeinen uit de minimumdoelen
 statistiek, en probleemoplossend denken). Nederlands volgt dezelfde logica
 (lezen, schrijven, mondeling taalgebruik, taalsysteem en taalgebruik, literatuur),
 en wetenschap en techniek ook (biologie, chemie, natuurkunde, techniek).
+
+**Engels is een bewuste uitzondering.** In het Vlaamse basisonderwijs staat
+Frans als tweede taal in de minimumdoelen, Engels niet: dat begint pas in het
+secundair. Deze zes hoofdstukken staan er op vraag van Connectopia, om kinderen
+van het 5de en 6de leerjaar een stevige basis te geven voor de start in het
+middelbaar. Ze zijn opgebouwd naar wat een eerstejaars secundair verondersteld
+wordt te kunnen: woordenschat, zichzelf voorstellen, to be en to have, de
+tegenwoordige tijd, zinsbouw en taal voor op school en onderweg.
 
 De **vragen zelf** zijn hier geschreven op maat van dat niveau; ze staan niet
 letterlijk in de minimumdoelen. Kijk ze dus zeker eens na met je eigen leerplan

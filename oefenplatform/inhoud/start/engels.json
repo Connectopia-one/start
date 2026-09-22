@@ -1,0 +1,1114 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Woorden voor elke dag",
+      "niveau": "start",
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"Monday\"?",
+          "opties": [
+            "zondag",
+            "maandag",
+            "dinsdag",
+            "donderdag"
+          ],
+          "antwoord": 1,
+          "uitleg": "Monday is maandag. Let op: in het Engels krijgen de dagen altijd een hoofdletter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe zeg je \"donderdag\" in het Engels?",
+          "opties": [
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Saturday"
+          ],
+          "antwoord": 2,
+          "uitleg": "Thursday. Tuesday is dinsdag, Wednesday woensdag en Saturday zaterdag."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: het Engelse woord voor het getal 12 is ...",
+          "antwoord": "twelve",
+          "uitleg": "Twelve. Eleven is elf en thirteen is dertien."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\"Autumn\" betekent herfst.",
+          "antwoord": true,
+          "uitleg": "Klopt. De vier seizoenen zijn spring, summer, autumn en winter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"purple\"?",
+          "opties": [
+            "paars",
+            "bruin",
+            "grijs",
+            "roze"
+          ],
+          "antwoord": 0,
+          "uitleg": "Purple is paars. Bruin is brown, grijs is grey en roze is pink."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe schrijf je het getal 30 in het Engels?",
+          "antwoord": "thirty",
+          "uitleg": "Thirty. Let op het verschil met thirteen, dat dertien betekent."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk woord hoort bij de familie?",
+          "opties": [
+            "brother",
+            "bread",
+            "brown",
+            "bridge"
+          ],
+          "antwoord": 0,
+          "uitleg": "Brother is broer. Bread is brood, brown is bruin en bridge is brug."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\"Grandmother\" betekent tante.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Grandmother is grootmoeder. Tante is aunt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"shoulder\"?",
+          "opties": [
+            "elleboog",
+            "schouder",
+            "knie",
+            "enkel"
+          ],
+          "antwoord": 1,
+          "uitleg": "Shoulder is schouder. Elleboog is elbow, knie is knee en enkel is ankle."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: het Engelse woord voor \"been\" (het lichaamsdeel) is ...",
+          "antwoord": "leg",
+          "uitleg": "Leg. Arm is gewoon arm, en voet is foot."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke maand komt na \"July\"?",
+          "opties": [
+            "June",
+            "August",
+            "September",
+            "January"
+          ],
+          "antwoord": 1,
+          "uitleg": "Na July (juli) komt August (augustus). June is juni."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als je week op maandag begint, is \"Wednesday\" de derde dag.",
+          "antwoord": true,
+          "uitleg": "Klopt: Monday, Tuesday, Wednesday. Woensdag is de derde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"cousin\"?",
+          "opties": [
+            "neef of nicht",
+            "oom",
+            "buurman",
+            "vriend"
+          ],
+          "antwoord": 0,
+          "uitleg": "Cousin is neef of nicht. In het Engels is dat één woord voor allebei."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe zeg je \"geel\" in het Engels?",
+          "antwoord": "yellow",
+          "uitleg": "Yellow. Denk aan de gele bloem: a yellow flower."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk woord is GEEN kleur?",
+          "opties": [
+            "green",
+            "grey",
+            "glove",
+            "gold"
+          ],
+          "antwoord": 2,
+          "uitleg": "Glove betekent handschoen. Green is groen, grey grijs en gold goud."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\"Spring\" betekent lente.",
+          "antwoord": true,
+          "uitleg": "Klopt. Spring betekent ook springen of veer, maar als seizoen is het de lente."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"fifteen\"?",
+          "opties": [
+            "5",
+            "13",
+            "15",
+            "50"
+          ],
+          "antwoord": 2,
+          "uitleg": "Fifteen is 15. Vijftig is fifty, en dat klinkt er erg op."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: de Engelse naam voor de maand december is ...",
+          "antwoord": "December",
+          "uitleg": "December, met een hoofdletter, net als alle maanden in het Engels."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"aunt\"?",
+          "opties": [
+            "tante",
+            "nicht",
+            "oma",
+            "moeder"
+          ],
+          "antwoord": 0,
+          "uitleg": "Aunt is tante. Oom is uncle."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In het Engels schrijf je de dagen van de week met een hoofdletter.",
+          "antwoord": true,
+          "uitleg": "Klopt, en de maanden ook. In het Nederlands doen we dat net niet."
+        }
+      ]
+    },
+    {
+      "titel": "Mezelf voorstellen",
+      "niveau": "start",
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe vraag je iemands naam?",
+          "opties": [
+            "What is your name?",
+            "How old are you?",
+            "Where do you live?",
+            "How are you?"
+          ],
+          "antwoord": 0,
+          "uitleg": "What is your name? betekent: hoe heet jij?"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: \"My name ... Kim.\"",
+          "antwoord": "is",
+          "uitleg": "My name is Kim. Bij my name hoort de vorm is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat antwoord je het best op \"How are you?\"",
+          "opties": [
+            "I am ten.",
+            "I am fine, thanks.",
+            "My name is Sam.",
+            "I live in Genk."
+          ],
+          "antwoord": 1,
+          "uitleg": "How are you? vraagt hoe het met je gaat. I am fine, thanks betekent: goed, dank je."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\"Nice to meet you\" zeg je als je iemand voor het eerst ontmoet.",
+          "antwoord": true,
+          "uitleg": "Klopt. Het betekent: aangenaam kennis te maken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe zeg je \"Ik ben elf jaar\"?",
+          "opties": [
+            "I have eleven years.",
+            "I am eleven years old.",
+            "I am eleven year.",
+            "I have eleven."
+          ],
+          "antwoord": 1,
+          "uitleg": "In het Engels ben je je leeftijd, je hebt ze niet: I am eleven years old."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: \"Where ... you from?\"",
+          "antwoord": "are",
+          "uitleg": "Where are you from? betekent: waar kom je vandaan?"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"I live in Hasselt\"?",
+          "opties": [
+            "Ik leef voor Hasselt.",
+            "Ik woon in Hasselt.",
+            "Ik hou van Hasselt.",
+            "Ik ga naar Hasselt."
+          ],
+          "antwoord": 1,
+          "uitleg": "To live betekent hier wonen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In het Engels zeg je \"I have twelve years\" om je leeftijd te geven.",
+          "antwoord": false,
+          "uitleg": "Niet juist, dat is een klassieke fout. Het is I am twelve."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe zeg je gedag als je weggaat?",
+          "opties": [
+            "Good morning",
+            "Goodbye",
+            "Hello",
+            "Please"
+          ],
+          "antwoord": 1,
+          "uitleg": "Goodbye betekent tot ziens. Good morning is goedemorgen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: \"This is my sister. ... name is Emma.\"",
+          "antwoord": "Her",
+          "uitleg": "Her name is Emma. Bij een meisje of vrouw hoort her, bij een jongen of man his."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"Can you spell that, please?\"",
+          "opties": [
+            "Kan je dat spellen, alsjeblieft?",
+            "Kan je dat herhalen?",
+            "Kan je dat opschrijven?",
+            "Kan je dat vertalen?"
+          ],
+          "antwoord": 0,
+          "uitleg": "To spell is letter per letter zeggen hoe iets geschreven wordt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\"Please\" betekent alsjeblieft en \"thank you\" betekent dank je.",
+          "antwoord": true,
+          "uitleg": "Klopt, en Engelstaligen gebruiken die twee woorden vaker dan wij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand zegt \"Thank you\". Wat antwoord je?",
+          "opties": [
+            "You are welcome.",
+            "I am sorry.",
+            "See you.",
+            "Good night."
+          ],
+          "antwoord": 0,
+          "uitleg": "You are welcome betekent graag gedaan."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: \"I ... from Belgium.\"",
+          "antwoord": "am",
+          "uitleg": "I am from Belgium. Bij I hoort altijd am."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe vraag je waar iemand woont?",
+          "opties": [
+            "Where do you live?",
+            "Where are you going?",
+            "What do you like?",
+            "Who are you?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Where do you live? betekent: waar woon jij?"
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het woord \"I\" schrijf je in het Engels altijd met een hoofdletter.",
+          "antwoord": true,
+          "uitleg": "Klopt, ook midden in een zin: Tomorrow I go to school."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"My favourite colour is blue\"?",
+          "opties": [
+            "Mijn lievelingskleur is blauw.",
+            "Ik hou niet van blauw.",
+            "Mijn kamer is blauw.",
+            "Blauw is een mooie kleur."
+          ],
+          "antwoord": 0,
+          "uitleg": "Favourite betekent favoriet of lievelings-."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: \"How ... are you?\" als je naar iemands leeftijd vraagt.",
+          "antwoord": "old",
+          "uitleg": "How old are you? betekent: hoe oud ben je?"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze zinnen betekent \"tot ziens\", losjes gezegd?",
+          "opties": [
+            "See you!",
+            "Sit down!",
+            "Look out!",
+            "Stand up!"
+          ],
+          "antwoord": 0,
+          "uitleg": "See you! betekent letterlijk: ik zie je nog wel."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\"Good night\" zeg je 's morgens als je iemand begroet.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Good night zeg je bij het slapengaan. 's Morgens zeg je good morning."
+        }
+      ]
+    },
+    {
+      "titel": "To be en to have",
+      "niveau": "start",
+      "vragen": [
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: \"She ... my best friend.\"",
+          "antwoord": "is",
+          "uitleg": "She is my best friend. Bij he, she en it hoort is."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: \"We ... in the same class.\"",
+          "antwoord": "are",
+          "uitleg": "We are in the same class. Bij we, you en they hoort are."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is juist bij “he”?",
+          "opties": [
+            "He are happy.",
+            "He is happy.",
+            "He am happy.",
+            "He be happy."
+          ],
+          "antwoord": 1,
+          "uitleg": "Bij he hoort is. Am hoort enkel bij I."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij \"I\" hoort de vorm \"am\".",
+          "antwoord": true,
+          "uitleg": "Klopt: I am. Dat is de enige plek waar am staat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de ontkenning van \"They are late\"?",
+          "opties": [
+            "They not are late.",
+            "They aren't late.",
+            "They don't are late.",
+            "They isn't late."
+          ],
+          "antwoord": 1,
+          "uitleg": "Bij to be zet je not achter de werkwoordsvorm: they are not, korter they aren't."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: \"I ... a new bike.\" (hebben)",
+          "antwoord": "have",
+          "uitleg": "I have a new bike. Bij I hoort have, niet has."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is juist met “to have”?",
+          "opties": [
+            "My brother have a dog.",
+            "My brother has a dog.",
+            "My brother haves a dog.",
+            "My brother having a dog."
+          ],
+          "antwoord": 1,
+          "uitleg": "My brother is hetzelfde als he, en bij he hoort has."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij \"he\", \"she\" en \"it\" gebruik je \"has\" in plaats van \"have\".",
+          "antwoord": true,
+          "uitleg": "Klopt: he has, she has, it has. Bij alle andere is het have."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe maak je een vraag van \"You are ready\"?",
+          "opties": [
+            "You are ready?",
+            "Are you ready?",
+            "Do you are ready?",
+            "Ready you are?"
+          ],
+          "antwoord": 1,
+          "uitleg": "Bij to be draai je gewoon om: Are you ready?"
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: \"... you tired?\" (vraag met to be)",
+          "antwoord": "Are",
+          "uitleg": "Are you tired? betekent: ben je moe?"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"I have got a headache\"?",
+          "opties": [
+            "Ik heb hoofdpijn.",
+            "Ik heb een hoed.",
+            "Ik ben moe.",
+            "Ik heb honger."
+          ],
+          "antwoord": 0,
+          "uitleg": "A headache is hoofdpijn. Have got is een gewone manier om hebben te zeggen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\"It's\" is de korte vorm van \"it is\".",
+          "antwoord": true,
+          "uitleg": "Klopt. Pas op met its zonder apostrof: dat betekent zijn of haar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke korte vorm hoort bij \"they are\"?",
+          "opties": [
+            "they're",
+            "their",
+            "there",
+            "theyre"
+          ],
+          "antwoord": 0,
+          "uitleg": "They're, met een apostrof. Their betekent hun en there betekent daar."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: \"She ... two brothers.\" (hebben)",
+          "antwoord": "has",
+          "uitleg": "She has two brothers. Bij she hoort has."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de ontkenning van \"I have a pen\"?",
+          "opties": [
+            "I have not a pen.",
+            "I don't have a pen.",
+            "I not have a pen.",
+            "I haven a pen."
+          ],
+          "antwoord": 1,
+          "uitleg": "Bij gewone werkwoorden heb je don't of doesn't nodig: I don't have a pen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\"Hasn't\" betekent hetzelfde als \"has not\".",
+          "antwoord": true,
+          "uitleg": "Klopt. De apostrof vervangt de o van not."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is juist bij een meervoud?",
+          "opties": [
+            "Where is your books?",
+            "Where are your books?",
+            "Where am your books?",
+            "Where be your books?"
+          ],
+          "antwoord": 1,
+          "uitleg": "Books is meervoud, dus are."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: \"My parents ... at work.\"",
+          "antwoord": "are",
+          "uitleg": "My parents are at work. Parents is meervoud, dus are."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\"Am\" gebruik je alleen bij \"I\".",
+          "antwoord": true,
+          "uitleg": "Klopt. Bij alle andere personen is het is of are."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"We aren't at home\"?",
+          "opties": [
+            "We zijn thuis.",
+            "We zijn niet thuis.",
+            "We gaan naar huis.",
+            "We hebben geen huis."
+          ],
+          "antwoord": 1,
+          "uitleg": "Aren't is are not, dus: we zijn niet thuis."
+        }
+      ]
+    },
+    {
+      "titel": "De tegenwoordige tijd",
+      "niveau": "start",
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is juist in de tegenwoordige tijd?",
+          "opties": [
+            "He play football.",
+            "He plays football.",
+            "He playing football.",
+            "He is play football."
+          ],
+          "antwoord": 1,
+          "uitleg": "Bij he, she en it komt er een -s achter het werkwoord: he plays."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: \"She ... to school by bike.\" (gaan)",
+          "antwoord": "goes",
+          "uitleg": "She goes to school by bike. Na go komt er -es bij."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij \"he\", \"she\" en \"it\" komt er in de tegenwoordige tijd een -s achter het werkwoord.",
+          "antwoord": true,
+          "uitleg": "Klopt, en dat is meteen de fout die het vaakst gemaakt wordt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de vraagvorm van \"You like pizza\"?",
+          "opties": [
+            "Do you like pizza?",
+            "Does you like pizza?",
+            "You do like pizza?",
+            "Like you pizza?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij you gebruik je do. Does hoort bij he, she en it."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: \"... he speak English?\" (vraag)",
+          "antwoord": "Does",
+          "uitleg": "Does he speak English? Let op: na does valt de -s van het werkwoord weg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke ontkennende zin is juist?",
+          "opties": [
+            "I don't likes sport.",
+            "I doesn't like sport.",
+            "I don't like sport.",
+            "I not like sport."
+          ],
+          "antwoord": 2,
+          "uitleg": "Bij I hoort don't, en daarna komt het werkwoord zonder -s."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\"Does\" gebruik je bij \"I\" en \"you\".",
+          "antwoord": false,
+          "uitleg": "Niet juist. Bij I en you gebruik je do. Does hoort bij he, she en it."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"We watch television every evening\"?",
+          "opties": [
+            "We keken elke avond televisie.",
+            "We kijken elke avond televisie.",
+            "We gaan televisie kijken.",
+            "We kijken nooit televisie."
+          ],
+          "antwoord": 1,
+          "uitleg": "Every evening betekent elke avond. Het gaat over iets dat telkens opnieuw gebeurt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: \"My father ... in a shop.\" (werken)",
+          "antwoord": "works",
+          "uitleg": "My father works in a shop. My father is hetzelfde als he, dus -s erbij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin klopt?",
+          "opties": [
+            "She studys every day.",
+            "She studies every day.",
+            "She studyes every day.",
+            "She study every day."
+          ],
+          "antwoord": 1,
+          "uitleg": "Eindigt een werkwoord op een medeklinker plus -y, dan wordt die y een ie: study wordt studies."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij werkwoorden die eindigen op -ch of -sh komt er -es bij, zoals \"he watches\".",
+          "antwoord": true,
+          "uitleg": "Klopt: he watches, she washes, it catches."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: \"They ... in Antwerp.\" (wonen)",
+          "antwoord": "live",
+          "uitleg": "They live in Antwerp. Bij they komt er geen -s bij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de ontkenning van \"He knows the answer\"?",
+          "opties": [
+            "He don't know the answer.",
+            "He doesn't knows the answer.",
+            "He doesn't know the answer.",
+            "He not knows the answer."
+          ],
+          "antwoord": 2,
+          "uitleg": "Doesn't hoort bij he, en daarna valt de -s van het werkwoord weg."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Woorden als \"always\", \"never\" en \"sometimes\" horen bij de tegenwoordige tijd.",
+          "antwoord": true,
+          "uitleg": "Klopt. Altijd, nooit en soms wijzen op iets dat herhaald gebeurt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"I never eat fish\"?",
+          "opties": [
+            "Ik eet nooit vis.",
+            "Ik eet soms vis.",
+            "Ik eet graag vis.",
+            "Ik at nooit vis."
+          ],
+          "antwoord": 0,
+          "uitleg": "Never betekent nooit."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: \"She ... her homework after dinner.\" (doen)",
+          "antwoord": "does",
+          "uitleg": "She does her homework after dinner. To do wordt does bij she."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vraag is juist gebouwd?",
+          "opties": [
+            "Does she likes music?",
+            "Does she like music?",
+            "Do she like music?",
+            "Is she like music?"
+          ],
+          "antwoord": 1,
+          "uitleg": "Na does gebruik je het werkwoord zonder -s."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Na \"doesn't\" krijgt het werkwoord geen -s meer.",
+          "antwoord": true,
+          "uitleg": "Klopt: he doesn't play, niet he doesn't plays. De -s zit al in doesn't."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"They often go to the swimming pool\"?",
+          "opties": [
+            "Ze gingen vaak zwemmen.",
+            "Ze gaan vaak naar het zwembad.",
+            "Ze gaan nooit zwemmen.",
+            "Ze willen gaan zwemmen."
+          ],
+          "antwoord": 1,
+          "uitleg": "Often betekent vaak, en swimming pool is zwembad."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: \"He ... a lot of books.\" (lezen)",
+          "antwoord": "reads",
+          "uitleg": "He reads a lot of books. A lot of betekent veel."
+        }
+      ]
+    },
+    {
+      "titel": "Zinnen bouwen",
+      "niveau": "start",
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het meervoud van \"child\"?",
+          "opties": [
+            "childs",
+            "childes",
+            "children",
+            "childrens"
+          ],
+          "antwoord": 2,
+          "uitleg": "Children is een onregelmatig meervoud; er komt dus geen -s bij."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: het meervoud van \"box\" is ...",
+          "antwoord": "boxes",
+          "uitleg": "Boxes. Na -x, -s, -ch en -sh komt er -es bij."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Voor een woord dat met een klinkerklank begint, gebruik je \"an\" in plaats van \"a\".",
+          "antwoord": true,
+          "uitleg": "Klopt: an apple, an hour. Het gaat om de klank, niet om de letter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk lidwoord hoort hier: \"... apple\"?",
+          "opties": [
+            "a",
+            "an",
+            "one of",
+            "some"
+          ],
+          "antwoord": 1,
+          "uitleg": "An apple, want apple begint met een klinkerklank."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: het meervoud van \"man\" is ...",
+          "antwoord": "men",
+          "uitleg": "Men. Net als woman dat women wordt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin heeft de juiste woordvolgorde?",
+          "opties": [
+            "I go every day to school.",
+            "Every day I to school go.",
+            "I go to school every day.",
+            "To school I go every day."
+          ],
+          "antwoord": 2,
+          "uitleg": "In het Engels komt eerst wie, dan wat, dan waar, en pas daarna wanneer."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In het Engels staat het bijvoeglijk naamwoord voor het zelfstandig naamwoord: \"a red car\".",
+          "antwoord": true,
+          "uitleg": "Klopt, net als bij ons: een rode auto."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"There is a book on the table\"?",
+          "opties": [
+            "Er ligt een boek op de tafel.",
+            "Daar is de tafel met boeken.",
+            "Het boek is van de tafel.",
+            "Er zijn boeken op tafels."
+          ],
+          "antwoord": 0,
+          "uitleg": "There is betekent er is of er ligt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: \"There ... two cats in the garden.\"",
+          "antwoord": "are",
+          "uitleg": "There are two cats, want two cats is meervoud."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk vraagwoord vraagt naar een reden?",
+          "opties": [
+            "Where",
+            "Why",
+            "When",
+            "Who"
+          ],
+          "antwoord": 1,
+          "uitleg": "Why betekent waarom. Where is waar, when is wanneer en who is wie."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\"Whose\" vraagt naar een tijdstip.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Whose vraagt van wie iets is. Naar een tijdstip vraag je met when."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het meervoud van \"city\"?",
+          "opties": [
+            "citys",
+            "cityes",
+            "cities",
+            "citie"
+          ],
+          "antwoord": 2,
+          "uitleg": "Een medeklinker plus -y wordt -ies: city wordt cities."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: \"This is ... book.\" als het boek van jou is.",
+          "antwoord": "my",
+          "uitleg": "This is my book. My betekent mijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin toont juist van wie de fiets is?",
+          "opties": [
+            "Sarah's bike is new.",
+            "Sarahs bike is new.",
+            "Bike of Sarah is new.",
+            "Sarah bike is new."
+          ],
+          "antwoord": 0,
+          "uitleg": "Met 's toon je aan van wie iets is: Sarah's bike, de fiets van Sarah."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Met 's toon je in het Engels aan van wie iets is.",
+          "antwoord": true,
+          "uitleg": "Klopt: my mother's car is de auto van mijn moeder."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"I don't have any money\"?",
+          "opties": [
+            "Ik heb geen geld.",
+            "Ik heb wat geld.",
+            "Ik wil geld.",
+            "Ik heb veel geld."
+          ],
+          "antwoord": 0,
+          "uitleg": "Don't have any betekent helemaal geen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: het meervoud van \"foot\" is ...",
+          "antwoord": "feet",
+          "uitleg": "Feet. Ook tooth wordt teeth en goose wordt geese."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk vraagwoord vraagt naar een plaats?",
+          "opties": [
+            "What",
+            "Where",
+            "Why",
+            "Which"
+          ],
+          "antwoord": 1,
+          "uitleg": "Where betekent waar."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Alle Engelse meervouden krijgen een -s.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Denk aan children, men, women, feet en teeth."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is juist met “good”?",
+          "opties": [
+            "He is a good in English.",
+            "He is good in English.",
+            "He is good at English.",
+            "He is good on English."
+          ],
+          "antwoord": 2,
+          "uitleg": "Good at, niet good in. Je bent good at maths, good at sports."
+        }
+      ]
+    },
+    {
+      "titel": "Op school en onderweg",
+      "niveau": "start",
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"Open your book, please\"?",
+          "opties": [
+            "Sluit je boek.",
+            "Open je boek, alsjeblieft.",
+            "Neem een boek.",
+            "Leg je boek weg."
+          ],
+          "antwoord": 1,
+          "uitleg": "Open your book is een gewone klasinstructie, net als close your book."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: het Engelse woord voor \"potlood\" is ...",
+          "antwoord": "pencil",
+          "uitleg": "Pencil. Een pen is gewoon pen, en een gom is a rubber of an eraser."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\"Homework\" betekent huiswerk.",
+          "antwoord": true,
+          "uitleg": "Klopt. Let op: het is altijd enkelvoud, dus nooit homeworks."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe vraag je \"Mag ik naar het toilet?\"",
+          "opties": [
+            "Can I go to the toilet, please?",
+            "I want the toilet.",
+            "Where is toilet?",
+            "Give me toilet."
+          ],
+          "antwoord": 0,
+          "uitleg": "Met can I vraag je beleefd toestemming, en please maakt het nog vriendelijker."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe laat is het bij \"half past three\"?",
+          "opties": [
+            "2.30 u",
+            "3.00 u",
+            "3.30 u",
+            "4.30 u"
+          ],
+          "antwoord": 2,
+          "uitleg": "Half past three is half vier bij ons: 3.30 u. Let op, dat is net anders dan in het Nederlands."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"I don't understand\"?",
+          "opties": [
+            "Ik versta het niet.",
+            "Ik wil het niet.",
+            "Ik weet het.",
+            "Ik hoor je niet."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een van de nuttigste zinnetjes die er zijn als je een taal leert."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\"Turn left\" betekent sla rechtsaf.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Left is links, right is rechts."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"Go straight on\"?",
+          "opties": [
+            "Ga rechtdoor.",
+            "Ga terug.",
+            "Sta recht.",
+            "Stop hier."
+          ],
+          "antwoord": 0,
+          "uitleg": "Straight on betekent rechtdoor."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: het Engelse woord voor \"boekentas\" is ...",
+          "antwoord": "schoolbag",
+          "uitleg": "Schoolbag, of gewoon bag. In Amerika zeggen ze backpack."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand vraagt \"How much is it?\" Waarover gaat het?",
+          "opties": [
+            "de tijd",
+            "de prijs",
+            "de afstand",
+            "het weer"
+          ],
+          "antwoord": 1,
+          "uitleg": "How much is it? betekent: hoeveel kost het?"
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\"Next to\" betekent naast.",
+          "antwoord": true,
+          "uitleg": "Klopt. The shop is next to the bakery: de winkel is naast de bakker."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"It's raining\"?",
+          "opties": [
+            "Het regent.",
+            "Het is koud.",
+            "Het waait.",
+            "Het sneeuwt."
+          ],
+          "antwoord": 0,
+          "uitleg": "To rain is regenen. Sneeuwen is to snow."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: het Engelse woord voor \"leerkracht\" is ...",
+          "antwoord": "teacher",
+          "uitleg": "Teacher. To teach betekent lesgeven."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"Sorry, I'm late\"?",
+          "opties": [
+            "Sorry, ik ben te laat.",
+            "Sorry, ik ben ziek.",
+            "Sorry, ik ben moe.",
+            "Sorry, ik ben weg."
+          ],
+          "antwoord": 0,
+          "uitleg": "Late betekent te laat."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\"The station\" betekent het station.",
+          "antwoord": true,
+          "uitleg": "Klopt. Handig als je in het buitenland de trein zoekt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe laat is het bij \"quarter to eight\"?",
+          "opties": [
+            "7.15 u",
+            "7.45 u",
+            "8.15 u",
+            "8.45 u"
+          ],
+          "antwoord": 1,
+          "uitleg": "Quarter to eight is kwart voor acht, dus 7.45 u. Quarter past eight zou 8.15 u zijn."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: het Engelse woord voor \"woensdag\" is ...",
+          "antwoord": "Wednesday",
+          "uitleg": "Wednesday. Je schrijft een d die je niet hoort."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"Could you repeat that, please?\"",
+          "opties": [
+            "Kan je dat herhalen, alsjeblieft?",
+            "Kan je dat uitleggen?",
+            "Kan je stiller zijn?",
+            "Kan je dat opschrijven?"
+          ],
+          "antwoord": 0,
+          "uitleg": "To repeat is herhalen. Ook heel nuttig in de klas."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\"Tomorrow\" betekent gisteren.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Tomorrow is morgen, gisteren is yesterday en vandaag is today."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"The shop is opposite the church\"?",
+          "opties": [
+            "De winkel staat naast de kerk.",
+            "De winkel staat tegenover de kerk.",
+            "De winkel staat achter de kerk.",
+            "De winkel staat in de kerk."
+          ],
+          "antwoord": 1,
+          "uitleg": "Opposite betekent tegenover, dus aan de overkant."
+        }
+      ]
+    }
+  ]
+}
