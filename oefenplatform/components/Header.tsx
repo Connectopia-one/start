@@ -18,6 +18,9 @@ export function Header({
           <Link href="/" className="text-forest-dark hover:underline">
             Vakken
           </Link>
+          <Link href="/materiaal" className="hidden text-forest-dark hover:underline sm:inline">
+            Materiaal
+          </Link>
           <Link href="/over-ons" className="text-forest-dark hover:underline">
             Over ons
           </Link>

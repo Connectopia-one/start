@@ -36,6 +36,24 @@ export default async function HomePage() {
             </Link>
           ))}
         </div>
+
+        {/* Los van de vier categorieën, want het hoort niet bij het betalende
+            aanbod: een gratis verzameling links naar bestaand materiaal. */}
+        <Link
+          href="/materiaal"
+          className="mt-6 flex items-center justify-between gap-4 rounded-xl border border-dashed border-forest/50 bg-surface px-6 py-5 transition hover:border-forest hover:shadow-sm"
+        >
+          <span>
+            <span className="font-display text-lg font-semibold text-ink">
+              🔗 Handig materiaal
+            </span>
+            <span className="mt-1 block text-sm text-ink-dim">
+              Links die we zelf gebruiken: vakfiches, naslagwerken en oefensites. Gratis, ook
+              zonder account.
+            </span>
+          </span>
+          <span aria-hidden className="shrink-0 text-forest">&rarr;</span>
+        </Link>
       </main>
     </>
   );

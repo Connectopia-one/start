@@ -191,6 +191,29 @@ Elke beantwoorde vraag wordt bewaard (ook bij herkansen) — zo blijft de volled
 zichtbaar, niet enkel de laatste poging. Zonder ingelogd account (bv. bij het gratis
 proefhoofdstuk als bezoeker) wordt niets bijgehouden.
 
+## Handig materiaal (`/materiaal`)
+
+Onder de vier niveaus op de startpagina staat een aparte knop **Handig materiaal**. Die leidt naar
+een gratis pagina met links naar bestaand online materiaal: vakfiches, een interactieve periodieke
+tabel, oefensites, enzovoort. Er is geen account voor nodig.
+
+Je voegt links toe in `inhoud/materiaal.ts`. Eén link is één regel:
+
+```ts
+{
+  titel: "Interactieve periodieke tabel",
+  url: "https://...",
+  beschrijving: "Klik op een element en zie meteen alle eigenschappen.",
+},
+```
+
+Zet die tussen de blokhaken van `linken: [ ... ]` van de groep waar hij hoort. Wil je een groep
+erbij? Kopieer een heel groepsblok en pas `titel` en `linken` aan. Een groep zonder links wordt
+netjes getoond met "Hier komt binnenkort materiaal bij", dus een lege groep breekt niets.
+
+De teksten bovenaan en onderaan de pagina (inleiding, nota, de knop "Een link doorgeven") staan in
+hetzelfde bestand, in `materiaalTekst`.
+
 ## Vraagtypes
 
 | Type | `opties` | `antwoord` |
