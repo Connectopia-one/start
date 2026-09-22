@@ -7,13 +7,21 @@ categorie voor het 5de en 6de leerjaar.
 | Bestand | Vak | Hoofdstukken | Vragen |
 |---|---|---|---|
 | `wiskunde.json` | Wiskunde | 6 | 120 |
+| `wiskunde-extra.json` | Wiskunde, tweede reeks | 6 | 120 |
 | `nederlands.json` | Nederlands | 5 | 100 |
 | `wetenschap-en-techniek.json` | Wetenschap en techniek | 4 | 80 |
 | `aardrijkskunde.json` | Aardrijkskunde | 3 | 60 |
 | `geschiedenis.json` | Geschiedenis | 3 | 120 |
 
 Elk hoofdstuk heeft 20 vragen, behalve geschiedenis: daar zijn het er 40 per
-hoofdstuk, omdat de plusklas daarmee start. Samen 480 vragen.
+hoofdstuk. Samen 600 vragen.
+
+**Wiskunde staat in twee bestanden.** `wiskunde.json` was al ingeladen toen de
+tweede reeks er kwam, en opnieuw importeren zou alles dubbel zetten. Daarom staan
+de 120 nieuwe vragen apart in `wiskunde-extra.json`, met dezelfde hoofdstuktitels.
+Die tweede reeks komt er netjes bij. Begin je met een lege databank, importeer dan
+gewoon eerst het ene bestand en daarna het andere; samen geeft dat 40 vragen per
+hoofdstuk, net als bij geschiedenis.
 
 ## Waarop dit gebaseerd is
 
