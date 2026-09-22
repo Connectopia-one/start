@@ -189,6 +189,186 @@
           ],
           "antwoord": 2,
           "uitleg": "De 19de eeuw loopt van 1801 tot en met 1900."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel eeuwen zitten er in een millennium?",
+          "opties": [
+            "5",
+            "10",
+            "100",
+            "1000"
+          ],
+          "antwoord": 1,
+          "uitleg": "Een eeuw is 100 jaar en een millennium is 1000 jaar, dus tien eeuwen na elkaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent de afkorting n.Chr.?",
+          "opties": [
+            "nieuwe chronologie",
+            "na Christus",
+            "noordelijke chronologie",
+            "niet chronologisch"
+          ],
+          "antwoord": 1,
+          "uitleg": "n.Chr. betekent na Christus. Alles vanaf het jaar 1 tot vandaag hoort daarbij."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Er bestaat geen jaar 0: na het jaar 1 v.Chr. komt meteen het jaar 1 na Chr.",
+          "antwoord": true,
+          "uitleg": "Klopt. Wie de jaartelling bedacht, begon gewoon bij 1. Daarom moet je bij rekenen over het begin van de jaartelling opletten."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In welke eeuw ligt het jaar 1302? Antwoord met een getal.",
+          "antwoord": "14",
+          "uitleg": "De jaren 1301 tot en met 1400 horen bij de 14de eeuw. Je telt de eeuw dus altijd één hoger dan de eerste twee cijfers."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een decennium?",
+          "opties": [
+            "5 jaar",
+            "10 jaar",
+            "50 jaar",
+            "100 jaar"
+          ],
+          "antwoord": 1,
+          "uitleg": "Een decennium is tien jaar. Een eeuw bestaat dus uit tien decennia."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een dagboek van iemand die de oorlog zelf meemaakte, is een primaire bron.",
+          "antwoord": true,
+          "uitleg": "Klopt. Wie er zelf bij was en er toen over schreef, levert een bron uit de tijd zelf."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet een historicus vooral?",
+          "opties": [
+            "fossielen opgraven",
+            "bronnen zoeken, onderzoeken en met elkaar vergelijken",
+            "oude munten verzamelen",
+            "verhalen verzinnen over vroeger"
+          ],
+          "antwoord": 1,
+          "uitleg": "Een historicus onderzoekt bronnen. Opgraven is het werk van een archeoloog."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel jaar zit er tussen 1830 en 1914?",
+          "antwoord": "84",
+          "uitleg": "1914 min 1830 is 84 jaar. Zo lang bestond België al toen de Eerste Wereldoorlog begon."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als je op een tijdlijn naar rechts gaat, ga je terug in de tijd.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Naar rechts ga je vooruit in de tijd, naar het heden toe. Links staat het oudste."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bedoelen historici met de oudheid?",
+          "opties": [
+            "de tijd voor er mensen waren",
+            "de tijd van beschavingen zoals Egypte, Griekenland en Rome",
+            "de tijd van de ridders en de kastelen",
+            "de tijd van de eerste fabrieken"
+          ],
+          "antwoord": 1,
+          "uitleg": "De oudheid is de periode van de oude beschavingen, ruwweg vanaf het ontstaan van het schrift tot het einde van het Romeinse Rijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil weten hoe een Romeinse stad eruitzag. Welke bron helpt je het best?",
+          "opties": [
+            "een tekenfilm over Romeinen",
+            "opgravingen en resten van de stad zelf",
+            "een verhaal dat een vriend ooit hoorde",
+            "een spannend jeugdboek over Rome"
+          ],
+          "antwoord": 1,
+          "uitleg": "Resten uit de tijd zelf zijn het betrouwbaarst. Films en verhalen zijn later gemaakt en kloppen niet altijd."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een jaartal met vier cijfers ligt altijd na Christus.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Ook 1200 v.Chr. heeft vier cijfers. Je moet dus altijd kijken of er v.Chr. of n.Chr. bij staat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een anachronisme?",
+          "opties": [
+            "een heel oud voorwerp",
+            "iets dat in een verhaal opduikt maar in die tijd nog niet bestond",
+            "een tijdlijn met fouten erin",
+            "een verhaal uit de oudheid"
+          ],
+          "antwoord": 1,
+          "uitleg": "Een ridder met een gsm in een film is een anachronisme: dat hoort niet thuis in die tijd."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel jaar duurt een kwart eeuw?",
+          "antwoord": "25",
+          "uitleg": "Een eeuw is 100 jaar, dus een kwart daarvan is 25 jaar."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Historici delen de tijd in periodes op om het overzichtelijk te houden.",
+          "antwoord": true,
+          "uitleg": "Klopt. Prehistorie, oudheid, middeleeuwen, nieuwe tijd en nieuwste tijd zijn zulke periodes. Ze zijn bedacht door mensen, de grenzen liggen niet overal precies gelijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het grote verschil tussen prehistorie en geschiedenis?",
+          "opties": [
+            "in de prehistorie leefden er nog geen mensen",
+            "in de prehistorie bestond het schrift nog niet, dus er zijn geen geschreven bronnen",
+            "de prehistorie duurde maar heel kort",
+            "de prehistorie speelt zich af na de oudheid"
+          ],
+          "antwoord": 1,
+          "uitleg": "Pre betekent voor. De prehistorie is de tijd voor het schrift, dus we kennen ze enkel uit voorwerpen en resten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Verhalen die van generatie op generatie worden doorverteld, kunnen ook een bron zijn.",
+          "antwoord": true,
+          "uitleg": "Klopt, dat heet mondelinge overlevering. Wel opletten: bij het doorvertellen verandert er vaak iets aan het verhaal."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee bronnen spreken elkaar tegen. Wat doe je het best?",
+          "opties": [
+            "de leukste van de twee kiezen",
+            "kijken wie ze maakte en wanneer, en nog meer bronnen zoeken",
+            "allebei weggooien",
+            "de kortste geloven"
+          ],
+          "antwoord": 1,
+          "uitleg": "Bronnen vergelijken en nagaan wie ze maakte is precies wat historici doen. Iemand die erbij belang had, vertelt het verhaal soms anders."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel jaar zit er tussen 1000 v.Chr. en 500 v.Chr.?",
+          "antwoord": "500",
+          "uitleg": "Voor Christus tellen de jaartallen af. Van 1000 naar 500 v.Chr. is dus 500 jaar vooruit in de tijd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke volgorde volgen deze periodes op elkaar?",
+          "opties": [
+            "oudheid, prehistorie, middeleeuwen, nieuwe tijd",
+            "prehistorie, oudheid, middeleeuwen, nieuwe tijd",
+            "middeleeuwen, oudheid, prehistorie, nieuwe tijd",
+            "prehistorie, middeleeuwen, oudheid, nieuwe tijd"
+          ],
+          "antwoord": 1,
+          "uitleg": "Eerst de prehistorie zonder schrift, dan de oudheid, daarna de middeleeuwen en ten slotte de nieuwe tijd."
         }
       ]
     },
@@ -387,6 +567,186 @@
             "het Arabische alfabet",
             "het cyrillische alfabet"
           ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvan maakten de mensen in de bronstijd hun gereedschap?",
+          "opties": [
+            "ijzer",
+            "brons, een mengsel van koper en tin",
+            "plastic",
+            "enkel steen"
+          ],
+          "antwoord": 1,
+          "uitleg": "Brons is harder dan koper alleen. Daarom heet die periode de bronstijd."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Na de bronstijd kwam de ijzertijd.",
+          "antwoord": true,
+          "uitleg": "Klopt. Steentijd, bronstijd en ijzertijd zijn genoemd naar het materiaal waarmee de mensen toen werkten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een grafheuvel?",
+          "opties": [
+            "een berg waar mensen woonden",
+            "een heuvel van aarde die boven een graf werd opgeworpen",
+            "een put om afval in te gooien",
+            "een heuvel om vuur op te maken"
+          ],
+          "antwoord": 1,
+          "uitleg": "In onze streken liggen er nog grafheuvels uit de brons- en ijzertijd. Ze verraden waar iemand belangrijk begraven lag."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk dier temde de mens als allereerste?",
+          "antwoord": "hond",
+          "uitleg": "De hond, al in de oude steentijd. Hij hielp bij het jagen en waakte mee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom legden de Romeinen hun wegen zo recht aan?",
+          "opties": [
+            "omdat kronkelwegen te duur waren",
+            "om soldaten, post en handelswaar zo snel mogelijk te verplaatsen",
+            "omdat ze geen bochten konden bouwen",
+            "om de velden mooi te verdelen"
+          ],
+          "antwoord": 1,
+          "uitleg": "Snelheid was alles voor een rijk zo groot als dat van Rome. Een leger moest overal snel geraken."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De Romeinen gebruikten munten met de kop van de keizer erop.",
+          "antwoord": true,
+          "uitleg": "Klopt. Zo wist iedereen in het hele rijk wie er aan de macht was, ook wie niet kon lezen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wie mocht er meestemmen in het oude Athene?",
+          "opties": [
+            "iedereen die er woonde",
+            "enkel de vrije mannen die burger waren",
+            "enkel de vrouwen",
+            "enkel de koning"
+          ],
+          "antwoord": 1,
+          "uitleg": "Athene wordt de eerste democratie genoemd, maar vrouwen, slaven en vreemdelingen mochten niet meestemmen. Dat was dus maar een klein deel van de bevolking."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: de ... Zee lag midden in het Romeinse Rijk.",
+          "antwoord": "Middellandse",
+          "uitleg": "De Romeinen noemden de Middellandse Zee zelfs mare nostrum, onze zee, omdat het rijk er helemaal rond lag."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat was een slaaf in de Romeinse tijd?",
+          "opties": [
+            "een gewone werknemer met loon",
+            "iemand die geen vrij mens was en eigendom was van een ander",
+            "een soldaat in het leger",
+            "een leerling van een meester"
+          ],
+          "antwoord": 1,
+          "uitleg": "Slavernij was heel gewoon in de oudheid. Slaven werkten op het land, in huis of in de mijnen, en werden gekocht en verkocht."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De Romeinen noemden ons gebied Gallia Belgica.",
+          "antwoord": true,
+          "uitleg": "Klopt, en daar komt de naam België vandaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat was een Romeinse villa?",
+          "opties": [
+            "een vakantiehuis aan zee",
+            "een grote boerderij met een woonhuis op het platteland",
+            "een tempel voor de goden",
+            "een legerkamp"
+          ],
+          "antwoord": 1,
+          "uitleg": "Zo'n villa was een landbouwbedrijf. In Vlaanderen zijn er resten van teruggevonden."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In welk land lag de stad Athene?",
+          "antwoord": "Griekenland",
+          "uitleg": "Athene ligt in Griekenland en is er vandaag nog altijd de hoofdstad."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom woonden mensen in de prehistorie graag dicht bij water?",
+          "opties": [
+            "omdat ze graag zwommen",
+            "om te drinken, te vissen en zich te verplaatsen",
+            "omdat het er warmer was",
+            "om zich te verstoppen"
+          ],
+          "antwoord": 1,
+          "uitleg": "Water was drinken, eten en vervoer tegelijk. Daarom vind je oude woonplaatsen vaak langs rivieren."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In de prehistorie bestond er al schrift.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Net omdat er nog geen schrift was, noemen we die tijd prehistorie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat was een mammoet?",
+          "opties": [
+            "een grote vis",
+            "een uitgestorven harig dier, familie van de olifant",
+            "een soort beer",
+            "een reuzenvogel"
+          ],
+          "antwoord": 1,
+          "uitleg": "Mammoeten leefden tijdens de ijstijden. Mensen jaagden erop voor vlees, huiden en botten."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: de man die als de eerste Romeinse keizer geldt, heette ...",
+          "antwoord": "Augustus",
+          "uitleg": "Augustus kwam aan de macht na Julius Caesar en wordt gezien als de eerste keizer van Rome."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De Grieken bedachten het theater met toneelstukken.",
+          "antwoord": true,
+          "uitleg": "Klopt. In Griekenland stonden openluchttheaters waar mensen naar tragedies en komedies kwamen kijken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat was het forum in een Romeinse stad?",
+          "opties": [
+            "de kerk",
+            "het plein in het midden, met markt, tempels en bestuur",
+            "de poort in de stadsmuur",
+            "het huis van de rijkste inwoner"
+          ],
+          "antwoord": 1,
+          "uitleg": "Op het forum kwam alles samen: handel, recht en politiek. Het was het hart van de stad."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Alle Romeinen woonden in grote villa's.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Alleen de rijken. In de steden woonden gewone mensen dicht op elkaar in hoge huurblokken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat brachten de Romeinen mee naar onze streken?",
+          "opties": [
+            "de boekdrukkunst",
+            "stenen wegen, badhuizen, wijn en het Latijn",
+            "de stoommachine",
+            "de aardappel"
+          ],
+          "antwoord": 1,
+          "uitleg": "De boekdrukkunst en de aardappel kwamen pas veel later. De Romeinen brachten wegen, bouwkunst, wijn en hun taal."
         }
       ]
     },
@@ -573,6 +933,186 @@
           "vraag": "Vul aan: de ... Muur deelde Berlijn van 1961 tot 1989 in twee.",
           "antwoord": "Berlijnse",
           "uitleg": "De Berlijnse Muur viel in november 1989."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat was een leenheer in de middeleeuwen?",
+          "opties": [
+            "een geldschieter",
+            "een heer die grond uitleende aan iemand die hem trouw beloofde",
+            "de baas van een klooster",
+            "een boer die grond huurde"
+          ],
+          "antwoord": 1,
+          "uitleg": "Dat heet het leenstelsel: grond in ruil voor trouw en hulp in de oorlog."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De meeste mensen in de middeleeuwen waren boer.",
+          "antwoord": true,
+          "uitleg": "Klopt. Verreweg de meeste mensen werkten op het land; steden waren klein in vergelijking met nu."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom bouwde men een kasteel graag op een heuvel of aan een rivier?",
+          "opties": [
+            "voor het uitzicht",
+            "omdat het zo veel makkelijker te verdedigen was",
+            "omdat de grond er goedkoper was",
+            "omdat het er droger was"
+          ],
+          "antwoord": 1,
+          "uitleg": "Van boven zag je de vijand aankomen, en water of een steile helling hield hem tegen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: een grote kerk waar een bisschop zetelt, heet een ...",
+          "antwoord": "kathedraal",
+          "uitleg": "Aan zo'n kathedraal werd soms meer dan honderd jaar gebouwd, door generaties na elkaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat was de Guldensporenslag van 1302?",
+          "opties": [
+            "een zeeslag bij Oostende",
+            "een veldslag bij Kortrijk",
+            "een toernooi tussen ridders",
+            "een opstand in Brussel"
+          ],
+          "antwoord": 1,
+          "uitleg": "Bij Kortrijk versloegen Vlaamse stedelingen te voet een Frans ridderleger. 11 juli is daarom de feestdag van Vlaanderen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In de middeleeuwen konden de meeste mensen lezen en schrijven.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Lezen en schrijven was vooral iets voor monniken, geestelijken en een deel van de rijken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom waren de Vlaamse steden in de middeleeuwen zo rijk?",
+          "opties": [
+            "door de goudmijnen",
+            "door de handel in laken, een fijne wollen stof",
+            "door de olie",
+            "door de suiker uit Amerika"
+          ],
+          "antwoord": 1,
+          "uitleg": "Brugge, Gent en Ieper leefden van laken. De wol kwam uit Engeland, het weefwerk gebeurde hier."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In welk jaar begon de Tweede Wereldoorlog?",
+          "antwoord": "1939",
+          "uitleg": "De oorlog begon in 1939 en eindigde in 1945, dus hij duurde zes jaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een ambacht?",
+          "opties": [
+            "een stuk grond",
+            "een beroep waarbij je met de hand iets maakt, zoals smid of bakker",
+            "een soort belasting",
+            "een feest in de stad"
+          ],
+          "antwoord": 1,
+          "uitleg": "Wie een ambacht leerde, begon als leerjongen bij een meester. De ambachtslui van hetzelfde beroep zaten samen in een gilde."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De stoommachine was belangrijk voor de industriële revolutie.",
+          "antwoord": true,
+          "uitleg": "Klopt. Met stoom konden machines en treinen draaien zonder spierkracht van mens of dier."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat veranderde er voor kinderen toen de leerplicht kwam?",
+          "opties": [
+            "ze mochten later gaan werken maar moesten niet naar school",
+            "ze moesten naar school in plaats van in fabriek of mijn te werken",
+            "ze moesten thuis blijven",
+            "er veranderde niets"
+          ],
+          "antwoord": 1,
+          "uitleg": "Voor de leerplicht werkten veel kinderen al van jongs af. De school werd een recht van elk kind."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: het land waar de industriële revolutie begon, was ...",
+          "antwoord": "Engeland",
+          "uitleg": "Engeland had steenkool, machines en havens, en begon daarmee als eerste."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "België is sinds zijn ontstaan een koninkrijk.",
+          "antwoord": true,
+          "uitleg": "Klopt. Kort na de onafhankelijkheid kwam er een koning aan het hoofd, en dat is zo gebleven."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een democratie?",
+          "opties": [
+            "een land met een koning aan het hoofd",
+            "een land waar de inwoners hun bestuur zelf kiezen",
+            "een land zonder wetten",
+            "een land dat oorlog voert"
+          ],
+          "antwoord": 1,
+          "uitleg": "In een democratie kiezen de inwoners wie het land bestuurt, en kunnen ze die bij de volgende verkiezing ook weer wegstemmen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De Tweede Wereldoorlog duurde langer dan de Eerste.",
+          "antwoord": true,
+          "uitleg": "Klopt. De Eerste duurde van 1914 tot 1918, dus vier jaar, de Tweede van 1939 tot 1945, dus zes jaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat was de Holocaust?",
+          "opties": [
+            "een grote overstroming",
+            "de vervolging en moord op miljoenen mensen, vooral Joden, door het naziregime",
+            "een veldslag in Frankrijk",
+            "een ziekte die Europa trof"
+          ],
+          "antwoord": 1,
+          "uitleg": "Zes miljoen Joden werden vermoord, en ook Roma, mensen met een beperking en andere groepen. Daarom wordt er elk jaar herdacht: opdat het niet zou vergeten worden."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel wereldoorlogen waren er in de 20ste eeuw?",
+          "antwoord": "2",
+          "uitleg": "Twee: die van 1914-1918 en die van 1939-1945."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De Europese Unie ontstond onder andere om oorlog tussen Europese landen te voorkomen.",
+          "antwoord": true,
+          "uitleg": "Klopt. Landen die samen handel drijven en overleggen, vechten minder snel met elkaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor dienden de steenkoolmijnen in Limburg?",
+          "opties": [
+            "om goud te delven",
+            "om steenkool te delven, de brandstof voor fabrieken, treinen en kachels",
+            "om water op te pompen",
+            "om zout te winnen"
+          ],
+          "antwoord": 1,
+          "uitleg": "In Limburg werd van 1917 tot 1992 steenkool gedolven. Er kwamen duizenden mensen uit het buitenland werken; daar komt de bonte bevolking van Genk vandaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is het belangrijk om over het verleden te leren?",
+          "opties": [
+            "om jaartallen vanbuiten te kennen",
+            "om te begrijpen hoe onze wereld geworden is wat ze is, en om fouten niet te herhalen",
+            "omdat het moet van de leerkracht",
+            "om quizvragen te kunnen winnen"
+          ],
+          "antwoord": 1,
+          "uitleg": "Geschiedenis leert je vooral vragen stellen: hoe komt het dat het zo is, en had het ook anders gekund?"
         }
       ]
     }

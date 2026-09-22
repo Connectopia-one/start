@@ -10,9 +10,10 @@ categorie voor het 5de en 6de leerjaar.
 | `nederlands.json` | Nederlands | 5 | 100 |
 | `wetenschap-en-techniek.json` | Wetenschap en techniek | 4 | 80 |
 | `aardrijkskunde.json` | Aardrijkskunde | 3 | 60 |
-| `geschiedenis.json` | Geschiedenis | 3 | 60 |
+| `geschiedenis.json` | Geschiedenis | 3 | 120 |
 
-Elk hoofdstuk heeft 20 vragen, samen 420.
+Elk hoofdstuk heeft 20 vragen, behalve geschiedenis: daar zijn het er 40 per
+hoofdstuk, omdat de plusklas daarmee start. Samen 480 vragen.
 
 ## Waarop dit gebaseerd is
 
