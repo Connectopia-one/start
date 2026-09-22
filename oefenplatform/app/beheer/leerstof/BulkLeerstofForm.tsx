@@ -39,6 +39,7 @@ function raadHoofdstuk(bestandsnaam: string, hoofdstukken: Hoofdstuk[]): string 
   const plat = uitNaam.join(" ");
   let beste = "";
   let besteScore = 0;
+  let evenGoed = 0;
 
   for (const h of hoofdstukken) {
     const uitTitel = woorden(h.titel);
@@ -48,9 +49,16 @@ function raadHoofdstuk(bestandsnaam: string, hoofdstukken: Hoofdstuk[]): string 
     if (score > besteScore) {
       besteScore = score;
       beste = h.id;
+      evenGoed = 1;
+    } else if (score === besteScore && score > 0) {
+      evenGoed++;
     }
   }
-  return beste;
+
+  // Passen er twee even goed — bijvoorbeeld een hoofdstuk met dezelfde titel
+  // in twee categorieën — dan kiezen we niets. Liever zelf laten kiezen dan
+  // de bundel stilletjes bij het verkeerde hoofdstuk zetten.
+  return evenGoed === 1 ? beste : "";
 }
 
 /* "breuken-en-kommagetallen.pdf" wordt "Breuken en kommagetallen". */
@@ -67,16 +75,30 @@ function niveauLabel(niveau: string): string {
 export function BulkLeerstofForm({ vakken }: { vakken: Vak[] }) {
   const router = useRouter();
   const [vakId, setVakId] = useState(vakken[0]?.id ?? "");
+  const [niveau, setNiveau] = useState("");
   const [rijen, setRijen] = useState<Rij[]>([]);
   const [bezig, setBezig] = useState(false);
+
+  /* De categorieën waarin dit vak effectief hoofdstukken heeft. */
+  const niveausVanVak = useMemo(() => {
+    const vak = vakken.find((v) => v.id === vakId);
+    if (!vak) return [];
+    const aanwezig = new Set(vak.hoofdstukken.map((h) => h.niveau));
+    return NIVEAUS.filter((n) => aanwezig.has(n.slug));
+  }, [vakId, vakken]);
 
   const hoofdstukken = useMemo(() => {
     const vak = vakken.find((v) => v.id === vakId);
     if (!vak) return [];
-    return [...vak.hoofdstukken].sort(
-      (a, b) => a.niveau.localeCompare(b.niveau) || a.volgnummer - b.volgnummer,
-    );
-  }, [vakId, vakken]);
+    const volgorde: string[] = NIVEAUS.map((n) => n.slug);
+    return vak.hoofdstukken
+      .filter((h) => !niveau || h.niveau === niveau)
+      .slice()
+      .sort(
+        (a, b) =>
+          volgorde.indexOf(a.niveau) - volgorde.indexOf(b.niveau) || a.volgnummer - b.volgnummer,
+      );
+  }, [vakId, niveau, vakken]);
 
   function kiesBestanden(e: ChangeEvent<HTMLInputElement>) {
     const gekozen = Array.from(e.target.files ?? []);
@@ -151,6 +173,7 @@ export function BulkLeerstofForm({ vakken }: { vakken: Vak[] }) {
           value={vakId}
           onChange={(e) => {
             setVakId(e.target.value);
+            setNiveau("");
             setRijen([]);
           }}
           className="w-full rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest"
@@ -164,8 +187,34 @@ export function BulkLeerstofForm({ vakken }: { vakken: Vak[] }) {
       </div>
 
       <div className="space-y-1.5">
+        <label htmlFor="niveau" className="text-sm font-medium text-ink">
+          2. Kies de categorie
+        </label>
+        <select
+          id="niveau"
+          value={niveau}
+          onChange={(e) => {
+            setNiveau(e.target.value);
+            setRijen([]);
+          }}
+          className="w-full rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest"
+        >
+          <option value="">Alle categorieën</option>
+          {niveausVanVak.map((n) => (
+            <option key={n.slug} value={n.slug}>
+              {n.emoji} {n.naam} — {n.omschrijving}
+            </option>
+          ))}
+        </select>
+        <p className="text-xs text-ink-dim">
+          Heeft dit vak in meerdere categorieën een hoofdstuk met dezelfde titel, kies dan hier de
+          juiste. Anders kan een bundel bij het verkeerde hoofdstuk belanden.
+        </p>
+      </div>
+
+      <div className="space-y-1.5">
         <label htmlFor="bestanden" className="text-sm font-medium text-ink">
-          2. Kies alle pdf&apos;s tegelijk
+          3. Kies alle pdf&apos;s tegelijk
         </label>
         <input
           id="bestanden"
@@ -186,7 +235,7 @@ export function BulkLeerstofForm({ vakken }: { vakken: Vak[] }) {
 
       {rijen.length > 0 && (
         <div className="space-y-3">
-          <p className="text-sm font-medium text-ink">3. Kijk de koppeling na en pas aan waar nodig</p>
+          <p className="text-sm font-medium text-ink">4. Kijk de koppeling na en pas aan waar nodig</p>
 
           {rijen.map((rij, i) => (
             <div
