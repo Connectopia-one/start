@@ -13,6 +13,36 @@ from fractions import Fraction
 
 F = Fraction
 
+
+def hoekgroepen_bij_evenwijdigen():
+    """Welke van de acht hoeken in svg.evenwijdige_hoeken() even groot zijn.
+
+    Het onderschrift bij die tekening beweert dat 1, 4, 5 en 8 gelijk zijn en
+    2, 3, 6 en 7 ook. Dat volgt uit de stand van de snijlijn, en die staat in
+    svg.py. Verzet iemand daar de snijpunten, dan klopt het onderschrift
+    misschien niet meer — daarom rekenen we het hier na in plaats van erop te
+    vertrouwen.
+
+    Geeft de twee groepen terug, elk gesorteerd, plus of ze samen 180° zijn.
+    """
+    y1, y2, sx1, sx2 = 46, 130, 190, 282      # zoals in svg.evenwijdige_hoeken
+    lang = math.hypot(sx2 - sx1, y2 - y1)
+    v = ((sx2 - sx1) / lang, (y2 - y1) / lang)
+    takken = [((-1, 0), (-v[0], -v[1])), ((1, 0), (-v[0], -v[1])),
+              ((-1, 0), v), ((1, 0), v)]
+    hoeken = {}
+    for eerste in (1, 5):
+        for j, (u, w) in enumerate(takken):
+            cos = max(-1.0, min(1.0, u[0] * w[0] + u[1] * w[1]))
+            hoeken[eerste + j] = round(math.degrees(math.acos(cos)), 6)
+    per_grootte = {}
+    for nummer, graden in hoeken.items():
+        per_grootte.setdefault(graden, []).append(nummer)
+    groepen = sorted(tuple(sorted(g)) for g in per_grootte.values())
+    samen = abs(sum(per_grootte) - 180) < 1e-6 if len(per_grootte) == 2 else False
+    return groepen, samen
+
+
 CONTROLES = [
     # (waar het staat, wat de bundel beweert, hoe je het narekent)
     ("getallenleer: 7 is ook rationaal",        F(7, 1),        F(7)),
@@ -133,6 +163,20 @@ CONTROLES = [
     ("redenering: (2 + 3) × 4 = 20",            20,             (2 + 3) * 4),
     ("redenering: 2a + 2b = 2(a + b)",          True,
      all(2 * a + 2 * b == 2 * (a + b) for a in range(5) for b in range(5))),
+
+    # --- meetkunde ---
+    ("meetkunde: 180 − 50 − 60 = 70",           70,             180 - 50 - 60),
+    ("meetkunde: 180 : 3 = 60",                 60,             180 // 3),
+    ("meetkunde: vierhoek 2 × 180 = 360",       360,            2 * 180),
+    ("meetkunde: tophoek 40 → basishoek 70",    70,             (180 - 40) // 2),
+    ("meetkunde: basishoek 50 → tophoek 80",    80,             180 - 2 * 50),
+    ("meetkunde: nevenhoek van 70 is 110",      110,            180 - 70),
+    ("meetkunde: binnenhoek 65 → 115",          115,            180 - 65),
+    ("meetkunde: straal 6 → diameter 12",       12,             2 * 6),
+    ("meetkunde: parallellogram 110 → 70",      70,             180 - 110),
+    ("meetkunde: 90 en 45 → derde hoek 45",     45,             180 - 90 - 45),
+    ("meetkunde: hoekgroepen 1-4-5-8 en 2-3-6-7",
+     ([(1, 4, 5, 8), (2, 3, 6, 7)], True),      hoekgroepen_bij_evenwijdigen()),
 ]
 
 

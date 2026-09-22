@@ -2614,3 +2614,123 @@ def insluiting(buiten, binnen, voorbeeld_buiten, voorbeeld_binnen, breedte=470):
     d.append(_tekst(breedte / 2, 84, binnen, 11.5, FOREST, vet=True))
     d.append(_tekst(breedte / 2, h - 48, voorbeeld_binnen, 9.5, DIM))
     return _svg(breedte, h, "".join(d))
+
+
+def evenwijdige_hoeken(breedte=470):
+    """Twee evenwijdige rechten met een snijlijn, en de acht hoeken genummerd.
+
+    De nummertjes staan op de deellijn van hun eigen hoek, op vaste afstand van
+    het snijpunt. Zet je ze gewoon schuin naast het snijpunt, dan komen twee
+    van de vier op de snijlijn zelf te liggen, want die staat schuin.
+
+    Welke hoeken gelijk zijn, hoort in het onderschrift: in de tekening zelf is
+    daar geen plaats voor zonder dat het een kluwen wordt.
+    """
+    import math
+    y1, y2 = 46, 130
+    x0, x1 = 22, breedte - 22
+    sx1, sx2 = 190, 282
+    h = 182
+    d = []
+    for y in (y1, y2):
+        d.append(f'<line x1="{x0}" y1="{y}" x2="{x1}" y2="{y}" stroke="{FOREST}" stroke-width="2.2"/>')
+    rico = (sx2 - sx1) / (y2 - y1)
+    top = (sx1 - rico * (y1 - 14), 14)
+    bot = (sx2 + rico * (h - 12 - y2), h - 12)
+    d.append(f'<line x1="{top[0]:.1f}" y1="{top[1]}" x2="{bot[0]:.1f}" y2="{bot[1]}" '
+             f'stroke="{DARK}" stroke-width="2.2"/>')
+    for y in (y1, y2):
+        d.append(f'<path d="M{x1-58} {y-6} l8 6 l-8 6" fill="none" stroke="{FOREST}" '
+                 f'stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>')
+
+    # richting van de snijlijn, op lengte 1 gebracht
+    lang = math.hypot(sx2 - sx1, y2 - y1)
+    vx, vy = (sx2 - sx1) / lang, (y2 - y1) / lang
+    # Hoe smaller de hoek, hoe verder het nummertje van het snijpunt moet staan,
+    # anders raakt het bolletje een van de twee benen. Bij een halve hoek van a
+    # ligt een bolletje op afstand R op R·sin(a) van elk been; 17 geeft een
+    # bolletje van 10 nog een paar punten lucht.
+    def afstand(halve_hoek):
+        return max(27.0, 17.0 / max(math.sin(halve_hoek), 0.05))
+
+    for sx, sy, eerste in ((sx1, y1, 1), (sx2, y2, 5)):
+        # de vier hoeken, elk tussen een tak van de evenwijdige en een tak van
+        # de snijlijn; het nummertje komt op de deellijn ertussen
+        takken = [((-1, 0), (-vx, -vy)), ((1, 0), (-vx, -vy)),
+                  ((-1, 0), (vx, vy)), ((1, 0), (vx, vy))]
+        for j, ((ux, uy), (wx, wy)) in enumerate(takken):
+            bx, by = ux + wx, uy + wy
+            norm = math.hypot(bx, by) or 1
+            halve = math.acos(max(-1.0, min(1.0, ux * wx + uy * wy))) / 2
+            straal = afstand(halve)
+            cx, cy = sx + bx / norm * straal, sy + by / norm * straal
+            d.append(f'<circle cx="{cx:.1f}" cy="{cy:.1f}" r="10" fill="{PAPER}" '
+                     f'stroke="{BORDER}" stroke-width="1"/>')
+            d.append(_tekst(cx, cy + 4, str(eerste + j), 10.5, DIM))
+    return _svg(breedte, h, "".join(d))
+
+
+def merkwaardige_lijnen(breedte=470):
+    """De vier merkwaardige lijnen, elk in een eigen driehoekje.
+
+    De driehoek staat bewust scheef. In een driehoek die bijna gelijkbenig is,
+    vallen de hoogtelijn, de middelloodlijn en de zwaartelijn haast samen, en
+    dan lijken alle vier de tekeningen op elkaar — net het omgekeerde van wat
+    ze moeten laten zien. De lijnen worden echt berekend, niet geschat.
+    """
+    import math
+    vak = breedte / 4
+    h = 136
+    top = (0.30, 0.08)
+    linksonder = (0.06, 0.78)
+    rechtsonder = (0.96, 0.78)
+    namen = ["bissectrice", "hoogtelijn", "middelloodlijn", "zwaartelijn"]
+    d = []
+    for i, naam in enumerate(namen):
+        ox, oy = i * vak + 9, 12
+        b, hh = vak - 18, 82
+
+        def P(f):
+            return ox + f[0] * b, oy + f[1] * hh
+
+        A, B, C = P(top), P(linksonder), P(rechtsonder)
+        d.append(f'<polygon points="{A[0]:.1f},{A[1]:.1f} {B[0]:.1f},{B[1]:.1f} {C[0]:.1f},{C[1]:.1f}" '
+                 f'fill="#ffffff" stroke="{DARK}" stroke-width="1.8"/>')
+        M = ((B[0] + C[0]) / 2, (B[1] + C[1]) / 2)
+        voet = (A[0], C[1])           # BC loopt horizontaal, dus loodrecht is verticaal
+        if naam == "bissectrice":
+            # de echte deellijn: de som van de twee eenheidsvectoren uit A
+            eenheden = []
+            for hoekpunt in (B, C):
+                dx, dy = hoekpunt[0] - A[0], hoekpunt[1] - A[1]
+                lang = math.hypot(dx, dy)
+                eenheden.append((dx / lang, dy / lang))
+            rx, ry = eenheden[0][0] + eenheden[1][0], eenheden[0][1] + eenheden[1][1]
+            t = (C[1] - A[1]) / ry
+            doel = (A[0] + rx * t, C[1])
+            d.append(f'<line x1="{A[0]:.1f}" y1="{A[1]:.1f}" x2="{doel[0]:.1f}" y2="{doel[1]:.1f}" '
+                     f'stroke="{AMBER}" stroke-width="2"/>')
+            # twee boogjes: de tophoek is in twee gelijke stukken verdeeld
+            for hoekpunt in (B, doel):
+                dx, dy = hoekpunt[0] - A[0], hoekpunt[1] - A[1]
+                lang = math.hypot(dx, dy)
+                d.append(f'<circle cx="{A[0]+dx/lang*17:.1f}" cy="{A[1]+dy/lang*17:.1f}" r="1.9" fill="{AMBER}"/>')
+        elif naam == "hoogtelijn":
+            d.append(f'<line x1="{A[0]:.1f}" y1="{A[1]:.1f}" x2="{voet[0]:.1f}" y2="{voet[1]:.1f}" '
+                     f'stroke="{AMBER}" stroke-width="2"/>')
+            d.append(f'<path d="M{voet[0]+8:.1f} {voet[1]} v-8 h-8" fill="none" stroke="{AMBER}" stroke-width="1.4"/>')
+        elif naam == "middelloodlijn":
+            d.append(f'<line x1="{M[0]:.1f}" y1="{M[1]-40:.1f}" x2="{M[0]:.1f}" y2="{M[1]+9:.1f}" '
+                     f'stroke="{AMBER}" stroke-width="2"/>')
+            d.append(f'<path d="M{M[0]+8:.1f} {M[1]} v-8 h-8" fill="none" stroke="{AMBER}" stroke-width="1.4"/>')
+            for teken in (-1, 1):
+                d.append(f'<line x1="{M[0]+teken*14:.1f}" y1="{M[1]-4}" x2="{M[0]+teken*14:.1f}" '
+                         f'y2="{M[1]+4}" stroke="{DIM}" stroke-width="1.4"/>')
+        else:
+            d.append(f'<line x1="{A[0]:.1f}" y1="{A[1]:.1f}" x2="{M[0]:.1f}" y2="{M[1]:.1f}" '
+                     f'stroke="{AMBER}" stroke-width="2"/>')
+            for teken in (-1, 1):
+                d.append(f'<line x1="{M[0]+teken*14:.1f}" y1="{M[1]-4}" x2="{M[0]+teken*14:.1f}" '
+                         f'y2="{M[1]+4}" stroke="{DIM}" stroke-width="1.4"/>')
+        d.append(_tekst(ox + b / 2, h - 12, naam, 10, DIM))
+    return _svg(breedte, h, "".join(d))

@@ -431,3 +431,129 @@ BUNDELS["redeneringen-en-uitspraken-spark"] = dict(
         "Maal een negatief getal draait de ongelijkheid om: uit 5 > 3 volgt −5 < −3.",
         "Even + even: schrijf 2a + 2b = 2(a + b). Zo dek je alle gevallen in één keer.",
     ])
+
+
+BUNDELS["meetkunde-spark"] = dict(
+    vak="Wiskunde", niveau=SPARK, titel="Meetkunde",
+    onder="Hoeken, driehoeken en vierhoeken, en de eigenschappen waarmee je de rest uitrekent.",
+    secties=[
+        dict(kop="Soorten hoeken", blokken=[
+            ("p", "Een hoek meet je in <strong>graden</strong>. De vier soorten herken je aan hoe ze zich "
+                  "verhouden tot de rechte hoek van 90°."),
+            ("fig", svg.hoekenrij(),
+             "Scherp is minder dan 90°, recht is precies 90°, stomp ligt tussen 90° en 180°, gestrekt is 180° en dus een rechte lijn."),
+            ("p", "Twee hoeken die samen een gestrekte hoek vormen, heten <strong>nevenhoeken</strong>: ze "
+                  "zijn samen 180°. Bij twee snijdende rechten zijn de <strong>overstaande</strong> hoeken "
+                  "even groot. Is een hoek 70°, dan is de overstaande ook 70° en de nevenhoek 110°."),
+            ("kader", "<strong>Loodrecht</strong> betekent een hoek van 90°. <strong>Evenwijdig</strong> "
+                      "betekent dat twee rechten elkaar nooit snijden en overal dezelfde afstand houden."),
+        ]),
+        dict(kop="De hoekensom", blokken=[
+            ("p", "Dit is de eigenschap die je het vaakst nodig hebt. In <strong>elke</strong> driehoek is "
+                  "de som van de hoeken <strong>180°</strong>, hoe scheef hij ook staat."),
+            ("p", "Twee hoeken van 50° en 60°? Dan is de derde 180 − 50 − 60 = <strong>70°</strong>. In een "
+                  "gelijkzijdige driehoek zijn de drie hoeken even groot, dus elk 180 : 3 = <strong>60°</strong>."),
+            ("p", "In een <strong>vierhoek</strong> is de hoekensom <strong>360°</strong>. Dat hoef je niet "
+                  "te onthouden: trek één diagonaal en je hebt twee driehoeken, dus 2 × 180°."),
+            ("kader", "In een <strong>gelijkbenige</strong> driehoek zijn de twee basishoeken even groot. "
+                      "Is de tophoek 40°, dan blijft er 140° over voor twee gelijke hoeken: elk "
+                      "<strong>70°</strong>. En is een basishoek 50°, dan is de tophoek 180 − 100 = <strong>80°</strong>."),
+        ]),
+        dict(kop="Soorten driehoeken", blokken=[
+            ("p", "Een driehoek krijgt <strong>twee</strong> namen: één naar zijn zijden en één naar zijn "
+                  "hoeken. Die twee staan los van elkaar."),
+            ("p", "Naar de <strong>zijden</strong>: gelijkzijdig (drie gelijke), gelijkbenig (twee gelijke) "
+                  "of ongelijkbenig. Naar de <strong>hoeken</strong>: scherphoekig, rechthoekig of "
+                  "stomphoekig. Een driehoek met hoeken van 90° en 45° is dus rechthoekig én gelijkbenig."),
+            ("p", "In een gelijkbenige driehoek heten de twee gelijke zijden de <strong>benen</strong>, de "
+                  "hoek ertussen de <strong>tophoek</strong>, en de twee andere de <strong>basishoeken</strong>. "
+                  "In een rechthoekige driehoek heet de zijde tegenover de rechte hoek de "
+                  "<strong>schuine zijde</strong>; dat is altijd de langste."),
+        ]),
+        dict(kop="Soorten vierhoeken", blokken=[
+            ("fig", svg.vormenrij(),
+             "Van links naar rechts wordt een vierhoek bijzonderder: hoe meer eigenschappen, hoe specifieker de naam."),
+            ("p", "Een <strong>trapezium</strong> heeft één paar evenwijdige zijden. Een "
+                  "<strong>parallellogram</strong> twee paar. Een <strong>ruit</strong> is een "
+                  "parallellogram met vier gelijke zijden, een <strong>rechthoek</strong> een parallellogram "
+                  "met vier rechte hoeken, en een <strong>vierkant</strong> heeft allebei."),
+            ("p", "Daarom is elk vierkant een ruit én een rechthoek, maar niet omgekeerd. In een "
+                  "parallellogram zijn overstaande hoeken gelijk en aanliggende hoeken samen 180°: is er "
+                  "één 110°, dan is die ernaast <strong>70°</strong>."),
+            ("kader", "De <strong>diagonalen</strong> verraden veel. In een parallellogram delen ze elkaar "
+                      "middendoor. In een ruit staan ze bovendien <strong>loodrecht</strong>. In een "
+                      "rechthoek zijn ze even lang."),
+        ]),
+        dict(kop="De cirkel", blokken=[
+            ("fig", svg.cirkel_straal(),
+             "De straal gaat van het middelpunt naar de rand, de diameter gaat er helemaal door en is dus dubbel zo lang."),
+            ("p", "Een <strong>koorde</strong> is elk lijnstuk tussen twee punten van de cirkel. De "
+                  "<strong>middellijn</strong> is de langste koorde, want die gaat door het middelpunt. "
+                  "Een straal van 6 cm geeft dus een diameter van <strong>12 cm</strong>."),
+        ]),
+        dict(kop="Hoeken bij twee evenwijdige rechten", blokken=[
+            ("p", "Snijdt één rechte twee evenwijdige rechten, dan ontstaan er acht hoeken. En die acht "
+                  "zijn eigenlijk maar <strong>twee</strong> verschillende groottes."),
+            ("fig", svg.evenwijdige_hoeken(),
+             "De hoeken 1, 4, 5 en 8 zijn even groot; 2, 3, 6 en 7 ook. Elke hoek uit de ene groep en elke hoek uit de andere zijn samen 180°."),
+            ("p", "<strong>Overeenkomstige</strong> hoeken (1 en 5, 2 en 6) zijn gelijk. "
+                  "<strong>Verwisselende binnenhoeken</strong> (4 en 5) zijn gelijk. "
+                  "<strong>Binnenhoeken aan dezelfde kant</strong> van de snijlijn (3 en 5) zijn samen 180°."),
+            ("kader", "Dus: is een binnenhoek 65°, dan is de binnenhoek aan dezelfde kant "
+                      "180 − 65 = <strong>115°</strong>. Zoek in een tekening altijd eerst één hoek die je "
+                      "kent, en werk van daaruit verder."),
+        ]),
+        dict(kop="De merkwaardige lijnen", blokken=[
+            ("p", "Elke driehoek heeft vier soorten bijzondere lijnen. Ze lijken op elkaar, en net daarom "
+                  "worden ze verward."),
+            ("fig", svg.merkwaardige_lijnen(),
+             "De bissectrice deelt een hoek in twee, de hoogtelijn staat loodrecht op de overstaande zijde, de middelloodlijn staat loodrecht op een zijde én door het midden ervan, de zwaartelijn gaat naar dat midden."),
+            ("p", "Let op het verschil tussen de <strong>hoogtelijn</strong> en de "
+                  "<strong>middelloodlijn</strong>: allebei staan ze loodrecht op een zijde, maar de "
+                  "hoogtelijn vertrekt uit een hoekpunt en de middelloodlijn uit het midden van de zijde. "
+                  "Alleen in een gelijkbenige of gelijkzijdige driehoek vallen ze samen."),
+        ]),
+        dict(kop="Congruente driehoeken", blokken=[
+            ("p", "Twee figuren zijn <strong>congruent</strong> als ze volledig gelijk zijn: zelfde vorm "
+                  "én zelfde grootte. Je hoeft niet alle zes de maten te vergelijken; drie goed gekozen "
+                  "volstaan."),
+            ("p", "De kenmerken: <strong>ZZZ</strong> (drie zijden), <strong>ZHZ</strong> (twee zijden en "
+                  "de hoek ertussen), <strong>HZH</strong> (twee hoeken en de zijde ertussen), "
+                  "<strong>ZHH</strong> (een zijde en twee hoeken) en <strong>ZZ90°</strong> (twee zijden "
+                  "en een rechte hoek)."),
+            ("kader", "Drie gelijke <strong>hoeken</strong> volstaat <strong>niet</strong>. Twee "
+                      "gelijkzijdige driehoeken van 2 cm en van 5 cm hebben alle drie hun hoeken van 60°, "
+                      "maar ze zijn niet even groot. Gelijke hoeken geven dezelfde vorm, niet dezelfde maat."),
+            ("p", "Toon je aan dat twee driehoeken congruent zijn, dan zijn <strong>alle</strong> "
+                  "overeenkomstige zijden en hoeken gelijk. Net daarom gebruik je congruentie: om te "
+                  "bewijzen dat twee zijden even lang of twee hoeken even groot zijn."),
+        ]),
+        dict(kop="Transformaties en symmetrie", blokken=[
+            ("p", "Een <strong>translatie</strong> schuift een figuur op over een vector. Een "
+                  "<strong>rotatie</strong> draait hem rond een centrum over een hoek. Een "
+                  "<strong>spiegeling</strong> klapt hem om, rond een rechte of rond een punt."),
+            ("p", "Alle drie behouden ze de lengtes, de hoeken en de evenwijdigheid. Het beeld is dus "
+                  "altijd <strong>congruent</strong> met de oorspronkelijke figuur. Eén ding verandert wél "
+                  "bij een spiegeling om een rechte: de draairichting keert om."),
+            ("p", "Een <strong>symmetrieas</strong> is een lijn waarover je de figuur kan dubbelvouwen. Een "
+                  "vierkant heeft er <strong>4</strong>, een rechthoek die geen vierkant is "
+                  "<strong>2</strong>, een gelijkzijdige driehoek <strong>3</strong>."),
+            ("kader", "Een <strong>symmetriemiddelpunt</strong> is iets anders: de figuur valt op zichzelf "
+                      "na een halve draai. Een parallellogram dat geen ruit of rechthoek is, heeft wél een "
+                      "middelpunt maar géén as. Een gelijkbenige driehoek net omgekeerd."),
+        ]),
+    ],
+    onthoud=[
+        "Scherp < 90° < stomp < 180° = gestrekt. Nevenhoeken samen 180°, overstaande hoeken gelijk.",
+        "Hoekensom: driehoek 180°, vierhoek 360°. Gelijkzijdig betekent drie hoeken van 60°.",
+        "Gelijkbenig: de twee basishoeken zijn gelijk. Tophoek 40° geeft basishoeken van 70°.",
+        "Een driehoek heeft twee namen: naar zijn zijden én naar zijn hoeken.",
+        "Trapezium 1 paar evenwijdig, parallellogram 2, ruit 4 gelijke zijden, rechthoek 4 rechte hoeken.",
+        "Diagonalen: parallellogram deelt middendoor, ruit ook loodrecht, rechthoek even lang.",
+        "Diameter = 2 × straal. De middellijn is de langste koorde.",
+        "Bij evenwijdige rechten: overeenkomstige en verwisselende binnenhoeken gelijk, dezelfde kant samen 180°.",
+        "Hoogtelijn vertrekt uit een hoekpunt, middelloodlijn uit het midden van een zijde.",
+        "Congruent: ZZZ, ZHZ, HZH, ZHH, ZZ90°. Drie gelijke hoeken volstaat niet.",
+        "Translatie, rotatie en spiegeling behouden lengte en hoek: het beeld is congruent.",
+        "Symmetrieassen: vierkant 4, rechthoek 2, gelijkzijdige driehoek 3.",
+    ])

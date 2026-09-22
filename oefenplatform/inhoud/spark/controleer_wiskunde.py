@@ -165,6 +165,24 @@ CONTROLES = [
     ("Alle priemgetallen zijn oneven",        str(next(n for n in (2, 9, 15) if n % 2 == 0 and all(n % d for d in range(2, n))))),
     ("kleiner dan of gelijk aan 5",           "x ≤ 5"),
     ("altijd groter dan het getal zelf",      kleiner_kwadraat(("0,5", "2", "10"))),
+    # --- Meetkunde: hoeken uitrekenen ---
+    ("Hoeveel graden is een gestrekte hoek",  "180"),
+    ("som van de hoeken van een driehoek",    "180"),
+    ("zijn 50° en 60°",                       f"{180 - 50 - 60}°"),
+    ("som van de hoeken van een vierhoek",    str(2 * 180)),
+    ("elke hoek van een gelijkzijdige driehoek", str(180 // 3)),
+    ("straal van 6 cm",                       f"{2 * 6} cm"),
+    ("Hoeveel symmetrieassen heeft een vierkant", "4"),
+    ("rechthoek die geen vierkant is",        "2"),
+    ("de hoek er recht tegenover",            "70°"),
+    ("Hoe groot is zijn nevenhoek",           f"{180 - 70}°"),
+    ("binnenhoek van 65°",                    f"{180 - 65}°"),
+    ("de tophoek 40°",                        f"{(180 - 40) // 2}°"),
+    ("een basishoek 50°",                     f"{180 - 2 * 50}°"),
+    ("90°, 100° en 85°",                      f"{360 - 90 - 100 - 85}°"),
+    ("symmetrieassen heeft een gelijkzijdige driehoek", "3"),
+    ("parallellogram is één hoek 110°",       f"{180 - 110}°"),
+    ("hoeken van 90° en 45°",                 "Hij is rechthoekig én gelijkbenig"),
 ]
 
 # Vragen die je niet kúnt narekenen omdat het antwoord een woord is. Het juiste
@@ -198,6 +216,7 @@ WOORDEN = [
     ("alle getallen die deelbaar zijn door 5", "De eerste klopt, de tweede niet"),
     ("√9 + √16",                              "Nee, √25 = 5. Een wortel mag je niet zo splitsen bij een som"),
     ("dan is het groter dan 5.” Welke pijl",  "⇒, want omgekeerd geldt het niet: 7 is groter dan 5 maar niet dan 10"),
+    ("Een hoek van 130°",                    "stompe hoek"),
 ]
 
 
