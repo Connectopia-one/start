@@ -19,18 +19,7 @@ PLAATSWAARDE = """
 </table>
 """
 
-def tabel(kop, rijen, breed=None):
-    """Een eenvoudige tabel in de huisstijl."""
-    th = "".join(
-        f'<th style="border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;'
-        f'color:#234539;font-weight:600;text-align:left;">{k}</th>' for k in kop)
-    tr = "".join(
-        "<tr>" + "".join(
-            f'<td style="border:1px solid #e4ded0;padding:6px 9px;color:#23291f;">{c}</td>' for c in rij
-        ) + "</tr>" for rij in rijen)
-    return (f'<table style="width:{breed or "100%"};border-collapse:collapse;'
-            f'font-family:\'IBM Plex Sans\',sans-serif;font-size:10.5pt;text-align:left;">'
-            f'<tr>{th}</tr>{tr}</table>')
+tabel = bundel.tabel
 
 BUNDELS = {}
 

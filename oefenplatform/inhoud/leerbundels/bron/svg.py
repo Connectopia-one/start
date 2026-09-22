@@ -335,3 +335,122 @@ def lijngrafiek(punten, breedte=330, hoogte=180, labels=None):
             d.append(f'<text x="{x:.1f}" y="{hoogte-onder+14}" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="9.5" fill="{DIM}">{labels[i]}</text>')
     d.insert(2, f'<polyline points="{" ".join(pts)}" fill="none" stroke="{FOREST}" stroke-width="2.2"/>')
     return _svg(breedte, hoogte, "".join(d))
+
+
+def kleurstalen(paren, breedte=470):
+    """paren = [(engelse naam, nederlandse naam, hex), ...]"""
+    perrij = 4
+    vak = breedte / perrij
+    rijen = (len(paren) + perrij - 1) // perrij
+    rh = 60
+    d = []
+    for i, (en, nl, hex_) in enumerate(paren):
+        r, k = divmod(i, perrij)
+        x, y = k * vak, r * rh
+        d.append(f'<rect x="{x+6:.1f}" y="{y+4}" width="30" height="30" rx="7" fill="{hex_}" stroke="{DARK}" stroke-width="1.2"/>')
+        d.append(f'<text x="{x+44:.1f}" y="{y+17}" font-family="IBM Plex Sans,sans-serif" font-size="11.5" font-weight="600" fill="{DARK}">{en}</text>')
+        d.append(f'<text x="{x+44:.1f}" y="{y+31}" font-family="IBM Plex Sans,sans-serif" font-size="10.5" fill="{DIM}">{nl}</text>')
+    return _svg(breedte, rijen * rh - 12, "".join(d))
+
+
+def woordvolgorde(delen, breedte=470):
+    """delen = [(label, voorbeeld, kleur), ...] — blokken op een rij."""
+    n = len(delen)
+    vak = breedte / n
+    h = 62
+    d = []
+    for i, (label, voorbeeld, kleur) in enumerate(delen):
+        x = i * vak
+        d.append(f'<rect x="{x+4:.1f}" y="4" width="{vak-8:.1f}" height="{h}" rx="9" '
+                 f'fill="{kleur}22" stroke="{kleur}" stroke-width="1.7"/>')
+        d.append(f'<text x="{x+vak/2:.1f}" y="24" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" '
+                 f'font-size="10" fill="{DIM}">{label}</text>')
+        d.append(f'<text x="{x+vak/2:.1f}" y="46" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" '
+                 f'font-size="12.5" font-weight="600" fill="{DARK}">{voorbeeld}</text>')
+    return _svg(breedte, h + 12, "".join(d))
+
+
+def persoonsvormen(groepen, breedte=470):
+    """groepen = [(personen, vorm, kleur), ...] — wie hoort bij welke vorm."""
+    n = len(groepen)
+    vak = breedte / n
+    # de hoogte hangt af van de groep met de meeste personen eronder,
+    # anders valt het onderste vakje buiten de tekening
+    meeste = max(len(p.split("|")) for p, _, _ in groepen)
+    h = 16 + meeste * 15 + 16 + 30
+    d = []
+    for i, (personen, vorm, kleur) in enumerate(groepen):
+        x = i * vak + vak / 2
+        regels = personen.split("|")
+        for j, r in enumerate(regels):
+            d.append(f'<text x="{x:.1f}" y="{16 + j*15}" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" '
+                     f'font-size="11.5" fill="{DIM}">{r}</text>')
+        ty = 16 + len(regels) * 15
+        d.append(f'<path d="M{x:.1f} {ty} v12 m0 0 l-4 -5 m4 5 l4 -5" stroke="{kleur}" stroke-width="1.8" fill="none" stroke-linecap="round"/>')
+        d.append(f'<rect x="{x-38:.1f}" y="{ty+16}" width="76" height="30" rx="8" fill="{kleur}" />')
+        d.append(f'<text x="{x:.1f}" y="{ty+36}" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" '
+                 f'font-size="14" font-weight="600" fill="#ffffff">{vorm}</text>')
+    return _svg(breedte, h + 6, "".join(d))
+
+
+def spreekballonnen(regels, breedte=470):
+    """regels = [(spreker, tekst, links?), ...]"""
+    d = []
+    y = 6
+    for spreker, tekst, links in regels:
+        bb = breedte * 0.68
+        x = 6 if links else breedte - bb - 6
+        kleur = FOREST if links else AMBER
+        d.append(f'<rect x="{x:.1f}" y="{y}" width="{bb:.1f}" height="42" rx="12" '
+                 f'fill="{kleur}18" stroke="{kleur}" stroke-width="1.5"/>')
+        d.append(f'<text x="{x+13:.1f}" y="{y+17}" font-family="IBM Plex Sans,sans-serif" font-size="9.5" fill="{kleur}" font-weight="600">{spreker}</text>')
+        d.append(f'<text x="{x+13:.1f}" y="{y+33}" font-family="IBM Plex Sans,sans-serif" font-size="12" fill="{DARK}">{tekst}</text>')
+        y += 50
+    return _svg(breedte, y, "".join(d))
+
+
+def stamboom(breedte=470):
+    """Een klein familieoverzicht met de Engelse woorden erbij."""
+    d = []
+    def vak(x, y, en, nl, kleur=FOREST):
+        d.append(f'<rect x="{x}" y="{y}" width="104" height="38" rx="9" fill="#ffffff" stroke="{kleur}" stroke-width="1.6"/>')
+        d.append(f'<text x="{x+52}" y="{y+16}" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="11.5" font-weight="600" fill="{DARK}">{en}</text>')
+        d.append(f'<text x="{x+52}" y="{y+30}" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="10" fill="{DIM}">{nl}</text>')
+    m = breedte / 2
+    vak(m - 168, 4, "grandfather", "grootvader", DIM)
+    vak(m + 64, 4, "grandmother", "grootmoeder", DIM)
+    vak(m - 168, 70, "father", "vader")
+    vak(m + 64, 70, "mother", "moeder")
+    vak(m - 168, 136, "brother", "broer", AMBER)
+    vak(m - 52, 136, "me", "ik", AMBER)
+    vak(m + 64, 136, "sister", "zus", AMBER)
+    for x in (m - 116, m + 116):
+        d.append(f'<line x1="{x}" y1="42" x2="{x}" y2="70" stroke="{BORDER}" stroke-width="1.6"/>')
+    d.append(f'<line x1="{m-116}" y1="108" x2="{m+116}" y2="108" stroke="{BORDER}" stroke-width="1.6"/>')
+    for x in (m - 116, m, m + 116):
+        d.append(f'<line x1="{x}" y1="108" x2="{x}" y2="136" stroke="{BORDER}" stroke-width="1.6"/>')
+    return _svg(breedte, 184, "".join(d))
+
+
+def plattegrond(breedte=470):
+    """Een heel eenvoudig stratenplannetje om de weg mee uit te leggen."""
+    h = 190
+    d = [f'<rect x="0" y="0" width="{breedte}" height="{h}" fill="#ffffff" stroke="{BORDER}" stroke-width="1.4" rx="10"/>']
+    # straten
+    d.append(f'<rect x="0" y="118" width="{breedte}" height="26" fill="#f0ece2"/>')
+    d.append(f'<rect x="196" y="0" width="26" height="{h}" fill="#f0ece2"/>')
+    d.append(f'<line x1="0" y1="131" x2="{breedte}" y2="131" stroke="#ffffff" stroke-width="2" stroke-dasharray="10 9"/>')
+    d.append(f'<line x1="209" y1="0" x2="209" y2="{h}" stroke="#ffffff" stroke-width="2" stroke-dasharray="10 9"/>')
+
+    def gebouw(x, y, b, hh, naam, kleur):
+        d.append(f'<rect x="{x}" y="{y}" width="{b}" height="{hh}" rx="6" fill="{kleur}22" stroke="{kleur}" stroke-width="1.6"/>')
+        d.append(f'<text x="{x+b/2}" y="{y+hh/2+4}" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" '
+                 f'font-size="11" font-weight="600" fill="{DARK}">{naam}</text>')
+
+    gebouw(28, 38, 130, 52, "the school", FOREST)
+    gebouw(258, 32, 96, 58, "the church", DIM)
+    gebouw(258, 156, 96, 26, "the shop", AMBER)
+    gebouw(370, 38, 82, 52, "the park", FOREST)
+    d.append(f'<text x="24" y="172" font-family="IBM Plex Sans,sans-serif" font-size="10.5" fill="{DIM}">'
+             f'Turn right at the school.</text>')
+    return _svg(breedte, h, "".join(d))
