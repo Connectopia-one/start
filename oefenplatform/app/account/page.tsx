@@ -10,10 +10,10 @@ import { maakKind } from "./kinderen/actions";
 export default async function AccountPage({
   searchParams,
 }: {
-  searchParams: Promise<{ fout?: string }>;
+  searchParams: Promise<{ fout?: string; gelukt?: string }>;
 }) {
   const session = await requireIngelogd();
-  const { fout } = await searchParams;
+  const { fout, gelukt } = await searchParams;
   const profile = session.profile;
   const volledigeToegang = heeftVolledigeToegang(profile);
 
@@ -32,6 +32,11 @@ export default async function AccountPage({
         <p className="mt-1 text-sm text-ink-dim">{session.email}</p>
 
         {fout && <p className="mt-4 rounded-md bg-danger/10 px-3 py-2 text-sm text-danger">{fout}</p>}
+        {gelukt === "plusklas" && (
+          <p className="mt-4 rounded-md bg-forest/10 px-3 py-2 text-sm text-forest-dark">
+            Je plusklas-code is gelukt. Je hebt nu gratis volledige toegang tot alle hoofdstukken.
+          </p>
+        )}
 
         <div className="mt-8 rounded-xl border border-border bg-surface p-6">
           <h2 className="font-display text-lg font-semibold text-ink">Toegang schooljaar {huidigSchooljaar()}</h2>
@@ -60,6 +65,10 @@ export default async function AccountPage({
               {TIJDELIJKE_PRIJS && (
                 <p className="mt-2 text-xs text-ink-dim">{TIJDELIJKE_PRIJS_KORT}</p>
               )}
+              <p className="mt-3 text-sm text-ink-dim">
+                Zit je kind in de externe plusklas? Op diezelfde pagina kan je je plusklas-code
+                ingeven, ook als je die bij het registreren nog niet had.
+              </p>
             </>
           )}
         </div>

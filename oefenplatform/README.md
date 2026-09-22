@@ -11,7 +11,9 @@ en invuloefeningen.
   bulk-import) wordt vanzelf op gratis gezet. Nadien kan je dit altijd handmatig aanpassen via de
   "Gratis / Op slot"-knop op `/beheer/vakken`.
 - Kinderen van de **externe plusklas** hebben gratis **volledige** toegang (via een toegangscode
-  bij registratie).
+  bij registratie). Wie dat veld bij het registreren leeg liet, kan de code **achteraf alsnog
+  ingeven** op `/betalen` — daar staan de twee wegen naar volledige toegang naast elkaar: de
+  plusklas-code of de bijdrage. Hoofdletters maken bij het intikken niet uit.
 - Andere ouders kunnen **volledige toegang vrijgeven** (via Mollie, betaald per schooljaar
   opnieuw) — die opbrengsten gaan volledig naar vzw Connectopia. De prijs staat nu tijdelijk op
   **€20 in plaats van €50**, omdat het platform nog in opbouw is.

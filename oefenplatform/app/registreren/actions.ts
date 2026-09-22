@@ -3,6 +3,7 @@
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { zoekPlusklasCode } from "@/lib/plusklas";
 
 export async function registreren(formData: FormData) {
   const naam = String(formData.get("naam") || "").trim();
@@ -21,14 +22,9 @@ export async function registreren(formData: FormData) {
 
   let isPlusklas = false;
   if (plusklasCode) {
-    const { data: code } = await admin
-      .from("plusklas_codes")
-      .select("code")
-      .eq("code", plusklasCode)
-      .eq("actief", true)
-      .maybeSingle();
+    const code = await zoekPlusklasCode(plusklasCode);
     if (!code) {
-      redirect(`/registreren?fout=${encodeURIComponent("Deze plusklas-code klopt niet (meer). Laat het veld leeg om verder te gaan als betalend account.")}`);
+      redirect(`/registreren?fout=${encodeURIComponent("Deze plusklas-code klopt niet (meer). Laat het veld leeg om verder te gaan als betalend account — je kan de code later nog ingeven.")}`);
     }
     isPlusklas = true;
   }
