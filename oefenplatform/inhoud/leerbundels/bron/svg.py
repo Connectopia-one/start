@@ -2233,3 +2233,92 @@ def nomadisch_sedentair(breedte=470):
              f'font-family="IBM Plex Sans,sans-serif" font-size="9.5" fill="{DIM}">'
              f'landbouw en veeteelt</text>')
     return _svg(breedte, h, "".join(d))
+
+
+def irrigatie(breedte=470):
+    """Waarom bevloeiing om samenwerking vraagt: één rivier, veel akkers."""
+    h = 176
+    d = []
+    # De rivier loopt bovenaan dwars over het beeld.
+    d.append(f'<rect x="0" y="16" width="{breedte}" height="26" fill="{ZEE}" opacity="0.75"/>')
+    d.append(f'<text x="12" y="33" font-family="IBM Plex Sans,sans-serif" font-size="10.5" '
+             f'font-weight="600" fill="#ffffff">de rivier</text>')
+
+    kanaal_y = 92
+    d.append(f'<rect x="40" y="{kanaal_y}" width="{breedte-80}" height="9" fill="{ZEE}" opacity="0.6"/>')
+    # Tussen twee zijtakken in, anders schrijft het label over een tak heen.
+    d.append(f'<text x="{breedte*0.31:.1f}" y="{kanaal_y-6}" text-anchor="middle" '
+             f'font-family="IBM Plex Sans,sans-serif" font-size="9.5" fill="{DIM}">hoofdkanaal</text>')
+
+    # Aftakkingen van de rivier naar het kanaal, en van het kanaal naar de akkers.
+    for x0 in [78, breedte / 2, breedte - 78]:
+        d.append(f'<rect x="{x0-4:.1f}" y="42" width="8" height="{kanaal_y-42}" fill="{ZEE}" opacity="0.6"/>')
+
+    for i in range(4):
+        ax = 40 + i * (breedte - 80) / 4 + 8
+        ab = (breedte - 80) / 4 - 16
+        d.append(f'<rect x="{ax:.1f}" y="{kanaal_y+22}" width="{ab:.1f}" height="34" rx="3" fill="{GRAS_LICHT}" stroke="{GRAS}" stroke-width="1.2"/>')
+        d.append(f'<rect x="{ax+ab/2-3:.1f}" y="{kanaal_y+9}" width="6" height="13" fill="{ZEE}" opacity="0.6"/>')
+        for j in range(4):
+            lx = ax + 7 + j * (ab - 14) / 3
+            d.append(f'<line x1="{lx:.1f}" y1="{kanaal_y+29}" x2="{lx:.1f}" y2="{kanaal_y+49}" stroke="{GRAS}" stroke-width="1.5"/>')
+
+    d.append(f'<text x="{breedte/2:.1f}" y="{h-12}" text-anchor="middle" '
+             f'font-family="IBM Plex Sans,sans-serif" font-size="10" fill="{DIM}">'
+             f'graven, onderhouden en het water eerlijk verdelen: dat lukt alleen samen</text>')
+    return _svg(breedte, h, "".join(d))
+
+
+def standenpiramide(lagen, breedte=470):
+    """Een standenmaatschappij als piramide.
+
+    lagen = [(naam, toelichting), ...] van boven naar onder. De onderste laag
+    is het breedst, want dat is meteen het punt: bovenaan staan er weinig.
+    """
+    n = len(lagen)
+    laag_h = 40
+    h = n * laag_h + 16
+    top = 96
+    onder = breedte - 150
+    d = []
+    for i, (naam, toelichting) in enumerate(lagen):
+        b0 = top + (onder - top) * i / n
+        b1 = top + (onder - top) * (i + 1) / n
+        y0 = 8 + i * laag_h
+        mid = 120
+        kleur = [FOREST, "#3f6f5f", "#5b8878", "#84a99b", "#b4c9bf"][min(i, 4)]
+        tekst = "#ffffff" if i < 3 else DARK
+        d.append(f'<path d="M{mid-b0/2:.1f} {y0} H{mid+b0/2:.1f} L{mid+b1/2:.1f} {y0+laag_h-3} '
+                 f'H{mid-b1/2:.1f} Z" fill="{kleur}" stroke="#ffffff" stroke-width="1.5"/>')
+        d.append(f'<text x="{mid:.1f}" y="{y0+laag_h/2:.1f}" text-anchor="middle" dominant-baseline="middle" '
+                 f'font-family="IBM Plex Sans,sans-serif" font-size="10.5" font-weight="600" fill="{tekst}">{naam}</text>')
+        streep_start = max(mid + b0 / 2, mid + b1 / 2) + 10
+        d.append(f'<line x1="{streep_start:.1f}" y1="{y0+laag_h/2:.1f}" x2="{mid+onder/2+22:.1f}" y2="{y0+laag_h/2:.1f}" '
+                 f'stroke="{BORDER}" stroke-width="1.2"/>')
+        d.append(f'<text x="{mid+onder/2+30:.1f}" y="{y0+laag_h/2:.1f}" dominant-baseline="middle" '
+                 f'font-family="IBM Plex Sans,sans-serif" font-size="9.5" fill="{DIM}">{toelichting}</text>')
+    return _svg(breedte, h, "".join(d))
+
+
+def ziggurat(breedte=470):
+    """De tempeltoren midden in een Mesopotamische stad."""
+    h = 168
+    mid = breedte / 2
+    grond = h - 40
+    d = [f'<rect x="0" y="{grond}" width="{breedte}" height="14" fill="{ZAND}" opacity="0.55"/>']
+    treden = [(150, 30), (116, 26), (84, 24)]
+    y = grond
+    for b, hoogte in treden:
+        y -= hoogte
+        d.append(f'<rect x="{mid-b/2:.1f}" y="{y}" width="{b}" height="{hoogte}" fill="{ZAND_DONKER}" stroke="{DARK}" stroke-width="1.3"/>')
+    d.append(f'<rect x="{mid-26:.1f}" y="{y-26}" width="52" height="26" fill="{AMBER}" stroke="{DARK}" stroke-width="1.3"/>')
+    # De trap die tegen de voorkant omhoogloopt.
+    d.append(f'<path d="M{mid-9:.1f} {grond} L{mid-9:.1f} {y} h18 L{mid+9:.1f} {grond} Z" '
+             f'fill="{ZAND}" stroke="{DARK}" stroke-width="1.1"/>')
+    for i in range(7):
+        ty = grond - 4 - i * (grond - 4 - y) / 7
+        d.append(f'<line x1="{mid-9:.1f}" y1="{ty:.1f}" x2="{mid+9:.1f}" y2="{ty:.1f}" stroke="{DARK}" stroke-width="0.7" opacity="0.5"/>')
+    d.append(f'<text x="{mid+40:.1f}" y="{y-12}" font-family="IBM Plex Sans,sans-serif" font-size="9.5" fill="{DIM}">de tempel bovenaan</text>')
+    d.append(f'<text x="{mid:.1f}" y="{h-8}" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" '
+             f'font-size="9.5" fill="{DIM}">gebouwd uit in de zon gedroogde kleitegels</text>')
+    return _svg(breedte, h, "".join(d))

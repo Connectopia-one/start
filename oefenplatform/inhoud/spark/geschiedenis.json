@@ -772,6 +772,410 @@
           "uitleg": "Integendeel: wie grond en voorraden bezat, werd rijker dan wie dat niet had. Zo ontstond juist ongelijkheid."
         }
       ]
+    },
+    {
+      "titel": "Mesopotamië en Egypte — deel 1",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent de naam Mesopotamië?",
+          "opties": [
+            "Land van de zon",
+            "Land tussen de rivieren",
+            "Land van het schrift"
+          ],
+          "antwoord": 1,
+          "uitleg": "Mesopotamië ligt tussen de Tigris en de Eufraat, in wat vandaag grotendeels Irak is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke twee rivieren stromen door Mesopotamië?",
+          "opties": [
+            "De Nijl en de Jordaan",
+            "De Tigris en de Eufraat",
+            "De Indus en de Ganges"
+          ],
+          "antwoord": 1,
+          "uitleg": "Tigris en Eufraat leverden het water waarmee men het droge land kon bevloeien."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke rivier maakte het oude Egypte mogelijk?",
+          "opties": [
+            "De Nijl",
+            "De Eufraat",
+            "De Donau"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zonder de Nijl was Egypte woestijn geweest. Alle bewoning lag in een smalle strook langs die rivier."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is irrigatielandbouw?",
+          "opties": [
+            "Landbouw waarbij men water van de rivier naar de akkers leidt",
+            "Landbouw zonder dieren",
+            "Landbouw op de berghellingen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Met kanalen, dijken en bekkens bracht men rivierwater tot bij de velden. Zo kon je oogsten in een droge streek."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom was de jaarlijkse overstroming van de Nijl goed nieuws voor de boeren?",
+          "opties": [
+            "Ze spoelde het onkruid weg",
+            "Ze liet vruchtbaar slib achter op de akkers",
+            "Ze maakte de rivier bevaarbaar"
+          ],
+          "antwoord": 1,
+          "uitleg": "Het slib werkte als natuurlijke mest. Daardoor kon je er elk jaar opnieuw op dezelfde grond telen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een stadstaat?",
+          "opties": [
+            "Een stad die samen met het omliggende land een eigen staat vormt",
+            "De hoofdstad van een groot rijk",
+            "Een stad zonder muren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een stadstaat bestuurt zichzelf: de stad én de akkers eromheen vormen samen één staatje. Ur en Uruk zijn voorbeelden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe heet het schrift van Mesopotamië?",
+          "opties": [
+            "Hiërogliefen",
+            "Spijkerschrift",
+            "Het alfabet"
+          ],
+          "antwoord": 1,
+          "uitleg": "Met een rietstengel drukte men wigvormige tekens in natte klei. Die wiggen lijken op spijkertjes."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarop schreven de Mesopotamiërs?",
+          "opties": [
+            "Op papyrus",
+            "Op kleitabletten",
+            "Op perkament"
+          ],
+          "antwoord": 1,
+          "uitleg": "Klei lag er voor het rapen. Gebakken of gedroogde tabletten gaan bovendien duizenden jaren mee, en daarom weten we er zoveel van."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe heet het schrift van het oude Egypte?",
+          "opties": [
+            "Hiërogliefen",
+            "Spijkerschrift",
+            "Runen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hiërogliefen zijn tekens die eruitzien als kleine tekeningen. Sommige staan voor een klank, andere voor een heel woord."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Uit wat groeide het eerste schrift?",
+          "opties": [
+            "Uit beeldschrift: tekeningetjes van het ding zelf",
+            "Uit het alfabet",
+            "Uit getallen alleen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst tekende men het voorwerp. Die tekeningen werden steeds schematischer, tot er tekens overbleven die je niet meer als plaatje herkent."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe noemde men de heerser van Egypte?",
+          "opties": [
+            "De koning",
+            "De farao",
+            "De keizer"
+          ],
+          "antwoord": 1,
+          "uitleg": "De farao stond aan de top van de Egyptische staat, als bestuurder én als religieus hoofd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat geloofden de Egyptenaren over hun farao?",
+          "opties": [
+            "Dat hij een gewone man was zoals iedereen",
+            "Dat hij een god op aarde was",
+            "Dat hij door het volk gekozen werd"
+          ],
+          "antwoord": 1,
+          "uitleg": "De farao gold als een god onder de mensen. Daardoor waren zijn bevelen tegelijk politiek en religieus gezag."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een ziggurat?",
+          "opties": [
+            "Een grafkamer",
+            "Een trapvormige tempeltoren",
+            "Een verdedigingsmuur"
+          ],
+          "antwoord": 1,
+          "uitleg": "In het midden van een Mesopotamische stad stond een ziggurat: een hoge tempeltoren in trappen, voor de god van die stad."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent polytheïsme?",
+          "opties": [
+            "Het geloof in één god",
+            "Het geloof in meerdere goden",
+            "Het geloof in geen enkele god"
+          ],
+          "antwoord": 1,
+          "uitleg": "Poly betekent veel, theos betekent god. Zowel Mesopotamië als Egypte was polytheïstisch."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom mummificeerden de Egyptenaren hun doden?",
+          "opties": [
+            "Om ziektes tegen te gaan",
+            "Omdat de dode zijn lichaam nodig had in het hiernamaals",
+            "Om plaats te besparen in de graven"
+          ],
+          "antwoord": 1,
+          "uitleg": "Zij geloofden dat het leven verderging na de dood, en dat de overledene daarvoor zijn lichaam nodig had. Daarom bleef het bewaard."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet de rivier waaraan het oude Egypte lag? (één woord)",
+          "antwoord": "Nijl",
+          "uitleg": "De Nijl overstroomde elk jaar en liet vruchtbaar slib achter."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet de trapvormige tempeltoren van een Mesopotamische stad? (één woord)",
+          "antwoord": "ziggurat",
+          "uitleg": "De ziggurat stond midden in de stad, gewijd aan de stadsgod."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de heerser van het oude Egypte? (één woord)",
+          "antwoord": "farao",
+          "uitleg": "De farao was tegelijk staatshoofd en religieus leider."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Mesopotamië en Egypte lagen allebei aan een rivier.",
+          "antwoord": true,
+          "uitleg": "Zonder rivier geen landbouw in een droge streek, en zonder landbouw geen rijk."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In Egypte schreef men met spijkerschrift.",
+          "antwoord": false,
+          "uitleg": "Spijkerschrift hoort bij Mesopotamië. Egypte gebruikte hiërogliefen."
+        }
+      ]
+    },
+    {
+      "titel": "Mesopotamië en Egypte — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom vroeg irrigatielandbouw om samenwerking en bestuur?",
+          "opties": [
+            "Kanalen en dijken aanleggen en onderhouden kan niemand alleen",
+            "Omdat er te weinig boeren waren",
+            "Omdat de rivier van iemand anders was"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een kanalenstelsel graven, onderhouden en het water eerlijk verdelen vraagt veel mensen en afspraken. Wie dat organiseert, krijgt macht."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk verband bestaat er tussen landbouw en het ontstaan van de eerste stadstaten?",
+          "opties": [
+            "Overschotten voedden een bevolking die niet zelf boerde, en die ging in de stad wonen",
+            "Boeren hadden een stad nodig om hun vee te stallen",
+            "De steden bestonden al vóór de landbouw"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie het voedseloverschot bewaart en verdeelt, moet tellen, opslaan en besturen. Rond dat bestuur groeide de stad."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom ontstond het schrift in de eerste plaats?",
+          "opties": [
+            "Om verhalen en gedichten vast te leggen",
+            "Om te administreren: hoeveel graan, hoeveel vee, van wie",
+            "Om brieven naar het buitenland te sturen"
+          ],
+          "antwoord": 1,
+          "uitleg": "De oudste tabletten zijn boekhouding, geen literatuur. Het schrift is ontstaan uit de behoefte om bezit en voorraden bij te houden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk gevolg had het schrift voor de macht in de samenleving?",
+          "opties": [
+            "Iedereen werd gelijk",
+            "Wie kon schrijven hoorde bij een kleine, invloedrijke groep",
+            "De macht van de koning verdween"
+          ],
+          "antwoord": 1,
+          "uitleg": "Schrijven was een vak dat maar weinigen beheersten. Schrijvers en ambtenaren stonden daardoor hoog in de standenmaatschappij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een standenmaatschappij?",
+          "opties": [
+            "Een samenleving waarin iedereen dezelfde rechten heeft",
+            "Een samenleving met vaste lagen, waarin je positie meestal vastligt bij je geboorte",
+            "Een samenleving zonder bestuur"
+          ],
+          "antwoord": 1,
+          "uitleg": "De groepen liggen boven elkaar, elk met eigen rechten en plichten. Opklimmen kon zelden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wie stond in Egypte onderaan de standenmaatschappij?",
+          "opties": [
+            "De priesters",
+            "De schrijvers",
+            "De boeren en slaven"
+          ],
+          "antwoord": 2,
+          "uitleg": "Bovenaan stond de farao, daaronder priesters en ambtenaren, dan schrijvers en ambachtslieden, en onderaan de boeren en slaven, veruit de grootste groep."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat was een ambtenaar in deze rijken?",
+          "opties": [
+            "Iemand die in naam van de heerser bestuurt, telt en belast",
+            "Een soldaat te paard",
+            "Een priester zonder tempel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een rijk besturen doe je niet alleen. Ambtenaren inden de belastingen, hielden voorraden bij en gaven bevelen door."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een tempeleconomie?",
+          "opties": [
+            "Een economie waarin de tempel de oogst inzamelt, opslaat en herverdeelt",
+            "Een economie waarin alleen priesters mochten handeldrijven",
+            "Een economie zonder landbouw"
+          ],
+          "antwoord": 0,
+          "uitleg": "De tempel werkte als pakhuis en verdeelcentrum van de streek. Zo lagen economische en religieuze macht in dezelfde handen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe dreef men handel in een tijd zonder munten?",
+          "opties": [
+            "Met ruilhandel: goederen tegen goederen",
+            "Met papiergeld",
+            "Er was helemaal geen handel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Men ruilde graan, vee, metaal of stoffen tegen elkaar. Geld als munt komt pas veel later, in de klassieke oudheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom kon Mesopotamië niet zonder handel?",
+          "opties": [
+            "Er was volop hout en steen, maar te weinig graan",
+            "Er was graan en klei, maar nauwelijks hout, steen en metaal",
+            "Men wilde vooral luxeproducten"
+          ],
+          "antwoord": 1,
+          "uitleg": "De vlakte leverde voedsel en klei, maar bouwhout, steen en erts moest van ver komen. Handel was dus een noodzaak, geen keuze."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waardoor konden hiërogliefen eindelijk gelezen worden?",
+          "opties": [
+            "Door de Steen van Rosetta, met dezelfde tekst in drie schriften",
+            "Door een woordenboek uit de oudheid",
+            "Doordat het schrift nooit vergeten was"
+          ],
+          "antwoord": 0,
+          "uitleg": "Op de Steen van Rosetta staat dezelfde tekst in hiërogliefen, in demotisch en in het Grieks. Omdat men Grieks kon lezen, kreeg men greep op de rest. Champollion ontcijferde ze in 1822."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het Dodenboek?",
+          "opties": [
+            "Een lijst van overleden farao's",
+            "Een verzameling spreuken die de dode moest helpen in het hiernamaals",
+            "Het wetboek van Egypte"
+          ],
+          "antwoord": 1,
+          "uitleg": "Het Dodenboek gaf de overledene de formules mee die hij onderweg naar het hiernamaals nodig had."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is het graf van Toetanchamon zo beroemd, hoewel hij een onbelangrijke farao was?",
+          "opties": [
+            "Het was bijna onaangeroerd toen het gevonden werd",
+            "Het is het grootste graf van Egypte",
+            "Hij regeerde het langst"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bijna alle koningsgraven waren in de oudheid al leeggeroofd. Het zijne niet, en daardoor weten we hoe zo'n graf er echt uitzag."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke taken had een farao?",
+          "opties": [
+            "Alleen het leger aanvoeren",
+            "Besturen, rechtspreken, het leger leiden én de goden gunstig stemmen",
+            "Alleen de tempels bouwen"
+          ],
+          "antwoord": 1,
+          "uitleg": "Zijn taak was politiek én religieus: hij moest de orde bewaren, in de staat en tegenover de goden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe merk je de sociale ongelijkheid in Mesopotamië aan de bronnen?",
+          "opties": [
+            "Er zijn geen bronnen over gewone mensen",
+            "Wetten en documenten geven verschillende groepen verschillende rechten en straffen",
+            "Iedereen kreeg dezelfde straf"
+          ],
+          "antwoord": 1,
+          "uitleg": "In de geschreven bronnen hangt je straf, je vergoeding en je aandeel af van de groep waartoe je behoort. De ongelijkheid stond dus letterlijk in de wet."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het ruilen van goederen zonder geld? (één woord)",
+          "antwoord": "ruilhandel",
+          "uitleg": "Pas veel later kwam er geld in de vorm van munten."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet de steen waarmee de hiërogliefen ontcijferd werden? Vul aan: de Steen van ... (één woord)",
+          "antwoord": "Rosetta",
+          "uitleg": "Op die steen staat dezelfde tekst in drie schriften, waaronder het Grieks."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je een samenleving met vaste lagen waarin je plaats vastligt bij je geboorte? (één woord)",
+          "antwoord": "standenmaatschappij",
+          "uitleg": "Elke stand had eigen rechten en plichten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het schrift werd uitgevonden om verhalen te bewaren.",
+          "antwoord": false,
+          "uitleg": "De oudste teksten zijn administratie: voorraden, leveringen en schulden. Literatuur kwam later."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het wiel en de sterrenkunde komen allebei uit Mesopotamië.",
+          "antwoord": true,
+          "uitleg": "Mesopotamië gaf ons onder meer het wiel en de astronomie. Onze zestig minuten en zestig seconden komen ook uit hun rekenstelsel."
+        }
+      ]
     }
   ]
 }
