@@ -912,3 +912,506 @@ def stenen_werktuigen(breedte=470):
                  f'font-size="10" fill="{DIM}">{stof}</text>')
 
     return _svg(breedte, h, "".join(d))
+
+
+# Aardetinten voor de tekeningen bij geschiedenis: oker, roodbruin, steen.
+OKER = "#c17f2b"
+ROOD = "#a2521f"
+STEEN = "#d9cfb8"
+WAND = "#ece2cf"
+
+
+def grotschildering(breedte=470):
+    """
+    Een rotswand met dieren in oker en roodbruin, en een handafdruk.
+
+    Nagetekend in de stijl van de grotschilderingen, niet overgenomen van een
+    foto: de schilderingen zelf zijn vijftienduizend jaar oud en vrij, maar een
+    foto van een grotwand is dat niet.
+    """
+    h = 196
+    d = []
+
+    d.append(f'<path d="M8 16 C48 6 96 12 146 9 C212 5 278 13 338 8 C398 3 446 12 462 20 '
+             f'L459 172 C416 184 348 176 288 180 C218 184 148 178 88 182 C48 185 18 178 9 170 Z" '
+             f'fill="{WAND}" stroke="{BORDER}" stroke-width="2"/>')
+
+    # Allebei de dieren zijn één gesloten silhouet, poten inbegrepen. Zo kan
+    # een kop niet losraken van zijn lichaam, en zo zien die schilderingen er
+    # ook uit: gevulde vlakken, geen lijntekeningen.
+
+    # oerrund, naar rechts gekeerd
+    d.append(f'<path d="M66 72 C78 62 100 56 128 52 C146 50 158 50 190 44 '
+             f'L222 54 L214 68 L192 74 L178 84 '
+             f'L174 86 L172 128 L164 128 L163 88 L150 92 '
+             f'L146 92 L144 130 L137 130 L136 92 L110 96 '
+             f'L106 96 L104 130 L97 130 L96 94 L86 92 '
+             f'L82 92 L80 128 L73 128 L72 88 L64 82 Z" fill="{OKER}"/>')
+    for pad in ["M190 44 C197 30 215 24 227 31", "M183 47 C186 33 202 24 214 27"]:
+        d.append(f'<path d="{pad}" stroke="{DARK}" stroke-width="3.6" fill="none" stroke-linecap="round"/>')
+    d.append(f'<path d="M180 48 l-11 -7 l3 12 Z" fill="{DARK}"/>')
+    d.append(f'<circle cx="204" cy="56" r="2.6" fill="{WAND}"/>')
+    d.append(f'<path d="M66 74 C54 78 48 92 54 104" stroke="{OKER}" stroke-width="4" fill="none" stroke-linecap="round"/>')
+
+    # paard, naar links gekeerd
+    d.append(f'<path d="M398 102 C386 95 366 91 340 93 C324 94 314 96 306 98 '
+             f'C296 99 286 104 282 113 C280 119 292 120 306 122 '
+             f'L310 124 L312 160 L305 160 L303 124 C312 130 318 132 326 132 '
+             f'L330 132 L332 162 L325 162 L322 132 C334 136 342 136 352 134 '
+             f'L356 136 L360 160 L353 160 L350 134 C360 133 366 131 374 128 '
+             f'L378 128 L384 158 L377 158 L372 126 C382 124 390 121 396 118 Z" fill="{ROOD}"/>')
+    d.append(f'<path d="M350 90 C334 88 318 91 305 97" stroke="{DARK}" stroke-width="4.2" fill="none" stroke-linecap="round"/>')
+    d.append(f'<circle cx="297" cy="107" r="2.4" fill="{WAND}"/>')
+    d.append(f'<path d="M400 104 C413 107 417 122 409 133" stroke="{ROOD}" stroke-width="3.6" fill="none" stroke-linecap="round"/>')
+
+    # rij stippen, zoals de tekens die naast de dieren staan
+    for i in range(7):
+        d.append(f'<circle cx="{72 + i*17}" cy="166" r="3.6" fill="{ROOD}"/>')
+
+    # handafdruk: de hand lag op de wand, er werd verf omheen geblazen
+    hx, hy = 228, 108
+    d.append(f'<ellipse cx="{hx}" cy="{hy}" rx="25" ry="27" fill="{ROOD}" opacity="0.8"/>')
+    d.append(f'<ellipse cx="{hx}" cy="{hy+7}" rx="9.5" ry="11.5" fill="{WAND}"/>')
+    for hoek in (-46, -22, 2, 24):
+        d.append(f'<g transform="rotate({hoek} {hx} {hy+7})">'
+                 f'<rect x="{hx-3}" y="{hy-16}" width="6" height="17" rx="3" fill="{WAND}"/></g>')
+    d.append(f'<g transform="rotate(-74 {hx} {hy+9})">'
+             f'<rect x="{hx-3.5}" y="{hy-7}" width="7" height="15" rx="3.5" fill="{WAND}"/></g>')
+
+    return _svg(breedte, h, "".join(d))
+
+
+def piramides(breedte=470):
+    """De drie piramides van Gizeh met de sfinx, en een mens voor de schaal."""
+    h = 176
+    grond = 142
+    d = []
+    d.append(f'<path d="M0 {grond} H{breedte}" stroke="{DIM}" stroke-width="1.4"/>')
+
+    for top_x, top_y, half in [(150, 26, 92), (262, 52, 74), (352, 84, 46)]:
+        d.append(f'<path d="M{top_x} {top_y} L{top_x+half} {grond} L{top_x-half} {grond} Z" '
+                 f'fill="{STEEN}" stroke="{DARK}" stroke-width="1.8"/>')
+        # de ribbe die naar ons toe wijst, zodat je ziet dat het een lichaam is
+        d.append(f'<path d="M{top_x} {top_y} L{top_x - half*0.32:.0f} {grond}" '
+                 f'stroke="{DARK}" stroke-width="1.4" fill="none"/>')
+
+    # sfinx: liggend lijf met de poten naar voren, kop met hoofddoek
+    d.append(f'<path d="M378 {grond} V124 C378 119 383 116 390 116 L416 116 L418 92 L426 86 '
+             f'L442 86 L450 92 L448 116 L452 121 L458 133 L458 {grond} Z" '
+             f'fill="{STEEN}" stroke="{DARK}" stroke-width="1.8"/>')
+    d.append(f'<path d="M421 102 H447" stroke="{DARK}" stroke-width="1.2"/>')
+    d.append(f'<path d="M438 {grond} V133 M448 {grond} V134" stroke="{DARK}" stroke-width="1.2"/>')
+
+    # mens, om te tonen hoe groot die dingen zijn
+    d.append(f'<circle cx="58" cy="{grond-22}" r="4" fill="{DARK}"/>')
+    d.append(f'<path d="M58 {grond-18} V{grond-8} M58 {grond-15} L52 {grond-11} M58 {grond-15} L64 {grond-11} '
+             f'M58 {grond-8} L53 {grond} M58 {grond-8} L63 {grond}" '
+             f'stroke="{DARK}" stroke-width="1.8" fill="none" stroke-linecap="round"/>')
+    d.append(f'<text x="58" y="{grond+16}" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" '
+             f'font-size="10" fill="{DIM}">een mens</text>')
+    d.append(f'<text x="150" y="{grond+16}" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" '
+             f'font-size="11" font-weight="600" fill="{AMBER}">147 m hoog</text>')
+    d.append(f'<text x="428" y="{grond+16}" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" '
+             f'font-size="10" fill="{DIM}">de sfinx</text>')
+    return _svg(breedte, h, "".join(d))
+
+
+def griekse_tempel(breedte=470):
+    """Het Parthenon: een tempel op zuilen, met de delen benoemd."""
+    h = 190
+    d = []
+    links, rechts = 100, 404
+    vloer = 150
+
+    # drie treden
+    for i, inspring in enumerate([0, 7, 14]):
+        y = vloer - i * 7
+        d.append(f'<rect x="{links-18+inspring}" y="{y}" width="{rechts-links+36-2*inspring}" height="7" '
+                 f'fill="{STEEN}" stroke="{DARK}" stroke-width="1.4"/>')
+
+    kap = vloer - 21
+    # acht zuilen
+    n = 8
+    ruimte = (rechts - links) / (n - 1)
+    for i in range(n):
+        x = links + i * ruimte
+        d.append(f'<rect x="{x-8:.1f}" y="{kap-72}" width="16" height="72" fill="{STEEN}" stroke="{DARK}" stroke-width="1.4"/>')
+        for g in range(1, 4):
+            d.append(f'<path d="M{x-8+g*4:.1f} {kap-68} V{kap-4}" stroke="{DIM}" stroke-width="0.8"/>')
+        d.append(f'<rect x="{x-11:.1f}" y="{kap-79}" width="22" height="7" fill="{STEEN}" stroke="{DARK}" stroke-width="1.4"/>')
+
+    balk = kap - 79
+    d.append(f'<rect x="{links-22}" y="{balk-16}" width="{rechts-links+44}" height="16" fill="{STEEN}" stroke="{DARK}" stroke-width="1.6"/>')
+    d.append(f'<path d="M{links-28} {balk-16} L{(links+rechts)/2:.0f} {balk-58} L{rechts+28} {balk-16} Z" '
+             f'fill="{STEEN}" stroke="{DARK}" stroke-width="1.8"/>')
+
+    for x, y, tekst, anker in [(60, balk-42, "fronton", "end"), (60, kap-40, "zuil", "end")]:
+        d.append(f'<text x="{x}" y="{y}" text-anchor="{anker}" font-family="IBM Plex Sans,sans-serif" '
+                 f'font-size="11" font-weight="600" fill="{AMBER}">{tekst}</text>')
+    d.append(f'<path d="M64 {balk-46} L{links-16} {balk-30}" stroke="{AMBER}" stroke-width="1.2" fill="none"/>')
+    d.append(f'<path d="M64 {kap-44} L{links-11} {kap-40}" stroke="{AMBER}" stroke-width="1.2" fill="none"/>')
+    return _svg(breedte, h, "".join(d))
+
+
+def amfitheater(breedte=470):
+    """Het Colosseum: drie rijen bogen onder elkaar, rechtsboven afgebrokkeld."""
+    h = 190
+    d = []
+    grond = 158
+    links, rechts = 30, 440
+    d.append(f'<path d="M0 {grond} H{breedte}" stroke="{DIM}" stroke-width="1.4"/>')
+
+    n = 11
+    breed = (rechts - links) / n
+    for laag, (y, hh) in enumerate([(grond - 38, 38), (grond - 76, 38), (grond - 112, 36)]):
+        for i in range(n):
+            x = links + i * breed
+            d.append(f'<rect x="{x:.1f}" y="{y}" width="{breed:.1f}" height="{hh}" '
+                     f'fill="{STEEN}" stroke="{DARK}" stroke-width="1.3"/>')
+            bx = x + breed / 2
+            r = 11
+            d.append(f'<path d="M{bx-r} {y+hh-3} V{y+15} a{r} {r} 0 0 1 {2*r} 0 V{y+hh-3} Z" '
+                     f'fill="{PAPER}" stroke="{DARK}" stroke-width="1.3"/>')
+
+    # de bovenste muur staat nog maar voor een deel overeind, met een
+    # gerafelde breuk: zo herken je een ruïne en niet een flatgebouw
+    top = grond - 112
+    muur = f"M{links} {top} H{links + breed*6.6:.0f} "
+    brokken = [(0, -26), (9, -22), (16, -28), (26, -18), (34, -25), (42, -12), (52, -19), (60, -6)]
+    for dx, dy in brokken:
+        muur += f"L{links + breed*6.6 + dx:.0f} {top - 30 + (dy + 30) - 30:.0f} "
+    muur += f"L{links + breed*6.6 + 60:.0f} {top} Z"
+    d.append(f'<path d="M{links} {top} H{links + breed*6.6:.0f} L{links + breed*6.6 + 6:.0f} {top-24} '
+             f'L{links + breed*6.6 + 14:.0f} {top-30} L{links + breed*6.6 + 24:.0f} {top-19} '
+             f'L{links + breed*6.6 + 33:.0f} {top-27} L{links + breed*6.6 + 43:.0f} {top-14} '
+             f'L{links + breed*6.6 + 52:.0f} {top-20} L{links + breed*6.6 + 60:.0f} {top-8} '
+             f'L{links + breed*6.6 + 66:.0f} {top} Z" fill="{STEEN}" stroke="{DARK}" stroke-width="1.3"/>')
+    d.append(f'<rect x="{links}" y="{top-30}" width="{breed*6.6:.0f}" height="30" '
+             f'fill="{STEEN}" stroke="{DARK}" stroke-width="1.3"/>')
+    for i in range(6):
+        d.append(f'<rect x="{links + i*breed + breed/2 - 5:.1f}" y="{top-22}" width="10" height="13" '
+                 f'fill="{PAPER}" stroke="{DARK}" stroke-width="1.1"/>')
+    return _svg(breedte, h, "".join(d))
+
+
+def aquaduct(breedte=470):
+    """Een aquaduct: bogen op bogen, met bovenaan de goot waarin het water liep."""
+    h = 200
+    d = []
+    grond = 172
+    d.append(f'<path d="M0 {grond} H{breedte}" stroke="{DIM}" stroke-width="1.4"/>')
+
+    # onderste rij: brede, hoge bogen
+    onder_y, onder_h = grond - 76, 76
+    n1 = 5
+    b1 = (breedte - 60) / n1
+    for i in range(n1):
+        x = 30 + i * b1
+        d.append(f'<rect x="{x:.1f}" y="{onder_y}" width="{b1:.1f}" height="{onder_h}" fill="{STEEN}" stroke="{DARK}" stroke-width="1.5"/>')
+        bx = x + b1 / 2
+        r = b1 / 2 - 11
+        d.append(f'<path d="M{bx-r:.1f} {grond} V{onder_y+30} a{r:.1f} {r:.1f} 0 0 1 {2*r:.1f} 0 V{grond} Z" '
+                 f'fill="{PAPER}" stroke="{DARK}" stroke-width="1.5"/>')
+
+    # bovenste rij: dubbel zoveel, kleinere bogen
+    boven_y, boven_h = onder_y - 52, 52
+    n2 = 10
+    b2 = (breedte - 60) / n2
+    for i in range(n2):
+        x = 30 + i * b2
+        d.append(f'<rect x="{x:.1f}" y="{boven_y}" width="{b2:.1f}" height="{boven_h}" fill="{STEEN}" stroke="{DARK}" stroke-width="1.3"/>')
+        bx = x + b2 / 2
+        r = b2 / 2 - 6
+        d.append(f'<path d="M{bx-r:.1f} {onder_y} V{boven_y+20} a{r:.1f} {r:.1f} 0 0 1 {2*r:.1f} 0 V{onder_y} Z" '
+                 f'fill="{PAPER}" stroke="{DARK}" stroke-width="1.3"/>')
+
+    # de goot bovenop, links opengewerkt zodat je het water ziet
+    goot_y = boven_y - 20
+    d.append(f'<rect x="30" y="{goot_y}" width="{breedte-60}" height="20" fill="{STEEN}" stroke="{DARK}" stroke-width="1.5"/>')
+    d.append(f'<rect x="30" y="{goot_y+5}" width="120" height="15" fill="{PAPER}" stroke="{DARK}" stroke-width="1.3"/>')
+    d.append(f'<rect x="32" y="{goot_y+12}" width="116" height="7" fill="#9dc3d8"/>')
+    d.append(f'<text x="160" y="{goot_y-6}" font-family="IBM Plex Sans,sans-serif" font-size="11" '
+             f'font-weight="600" fill="{AMBER}">hier liep het water</text>')
+    d.append(f'<path d="M156 {goot_y-10} L120 {goot_y+8}" stroke="{AMBER}" stroke-width="1.2" fill="none"/>')
+    return _svg(breedte, h, "".join(d))
+
+
+def heirbaan(breedte=470):
+    """Doorsnede van een Romeinse weg: vier lagen, met de namen ernaast."""
+    h = 196
+    d = []
+    mid = 158
+    top = 52
+    d.append(f'<text x="{mid}" y="30" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" '
+             f'font-size="10.5" fill="{DIM}">Een doorsnede, alsof je de weg middendoor zaagt.</text>')
+
+    lagen = [(top, 18, "kasseien"), (top + 18, 24, "zand en grind"),
+             (top + 42, 28, "gebroken steen met kalk"), (top + 70, 32, "grote platte stenen")]
+    halve = [124, 118, 112, 106]
+
+    for i, (y, hh, naam) in enumerate(lagen):
+        hb = halve[i]
+        if i == 0:
+            # de bovenkant is bol, zodat het regenwater naar de kant loopt
+            d.append(f'<path d="M{mid-hb} {y+7} Q{mid} {y-6} {mid+hb} {y+7} V{y+hh} H{mid-hb} Z" '
+                     f'fill="{STEEN}" stroke="{DARK}" stroke-width="1.5"/>')
+        else:
+            d.append(f'<rect x="{mid-hb}" y="{y}" width="{2*hb}" height="{hh}" '
+                     f'fill="{STEEN if i % 2 == 0 else WAND}" stroke="{DARK}" stroke-width="1.5"/>')
+        ly = y + hh / 2 + (3 if i == 0 else 0)
+        d.append(f'<path d="M{mid+hb} {ly:.0f} H{mid+hb+14}" stroke="{AMBER}" stroke-width="1.2" fill="none"/>')
+        d.append(f'<text x="{mid+hb+19}" y="{ly+4:.0f}" font-family="IBM Plex Sans,sans-serif" '
+                 f'font-size="10.5" font-weight="600" fill="{AMBER}">{naam}</text>')
+
+    # kasseien, meegebogen met de bolle bovenkant
+    for i in range(11):
+        x = mid - 118 + i * 21.5
+        zak = ((x - mid) / 124) ** 2 * 13
+        d.append(f'<rect x="{x:.0f}" y="{top+1+zak:.0f}" width="18" height="12" rx="2.5" '
+                 f'fill="{WAND}" stroke="{DARK}" stroke-width="1"/>')
+    for i in range(20):
+        d.append(f'<circle cx="{mid-110 + (i*11) % 220}" cy="{top+24 + (i*7) % 14}" r="2.2" fill="{DIM}" opacity="0.5"/>')
+    for i in range(9):
+        d.append(f'<path d="M{mid-100 + i*24} {top+78} l10 -6 l11 5 l-9 8 Z" fill="{DIM}" opacity="0.35"/>')
+
+    d.append(f'<path d="M{mid-132} {top+102} H{mid+132}" stroke="{DIM}" stroke-width="1.4"/>')
+    d.append(f'<text x="{mid-132}" y="{top+116}" font-family="IBM Plex Sans,sans-serif" font-size="9.5" '
+             f'fill="{DIM}">de vaste grond eronder</text>')
+    return _svg(breedte, h, "".join(d))
+
+
+WATER = "#9dc3d8"
+
+
+def burcht(breedte=470):
+    """Een middeleeuwse burcht: gracht, muur met kantelen, torens en een donjon."""
+    h = 204
+    d = []
+    grond, waterboven, wateronder = 168, 168, 192
+
+    # donjon, achter de muur: de woontoren waar de heer zelf zat
+    d.append(f'<rect x="270" y="56" width="58" height="112" fill="{WAND}" stroke="{DARK}" stroke-width="1.6"/>')
+    d.append(f'<path d="M264 56 L299 28 L334 56 Z" fill="{STEEN}" stroke="{DARK}" stroke-width="1.6"/>')
+    d.append(f'<path d="M299 28 V14 L322 20 L299 26" fill="{ROOD}" stroke="{DARK}" stroke-width="1.3"/>')
+    for x in (284, 308):
+        d.append(f'<path d="M{x} 96 v-14 a5 5 0 0 1 10 0 v14 Z" fill="{DARK}"/>')
+
+    # ringmuur met kantelen
+    d.append(f'<rect x="96" y="104" width="278" height="{grond-104}" fill="{STEEN}" stroke="{DARK}" stroke-width="1.6"/>')
+    for i in range(14):
+        d.append(f'<rect x="{100 + i*20}" y="96" width="12" height="9" fill="{STEEN}" stroke="{DARK}" stroke-width="1.2"/>')
+
+    # twee ronde torens met een spits dak
+    for tx in (78, 356):
+        d.append(f'<rect x="{tx}" y="82" width="40" height="{grond-82}" fill="{WAND}" stroke="{DARK}" stroke-width="1.6"/>')
+        d.append(f'<path d="M{tx-7} 82 L{tx+20} 44 L{tx+47} 82 Z" fill="{STEEN}" stroke="{DARK}" stroke-width="1.6"/>')
+        d.append(f'<path d="M{tx+15} 124 v-15 a5 5 0 0 1 10 0 v15 Z" fill="{DARK}"/>')
+
+    # poortgebouw met de doorgang
+    d.append(f'<rect x="198" y="88" width="74" height="{grond-88}" fill="{STEEN}" stroke="{DARK}" stroke-width="1.6"/>')
+    for i in range(4):
+        d.append(f'<rect x="{201 + i*19}" y="80" width="12" height="9" fill="{STEEN}" stroke="{DARK}" stroke-width="1.2"/>')
+    d.append(f'<path d="M218 {grond} V132 a17 17 0 0 1 34 0 V{grond} Z" fill="{DARK}"/>')
+
+    # gracht
+    d.append(f'<rect x="0" y="{waterboven}" width="{breedte}" height="{wateronder-waterboven}" fill="{WATER}"/>')
+    for i in range(9):
+        d.append(f'<path d="M{18 + i*50} 180 q9 -5 18 0" stroke="#ffffff" stroke-width="1.4" fill="none" opacity="0.75"/>')
+
+    # brug over de gracht
+    d.append(f'<rect x="218" y="{waterboven-4}" width="34" height="{wateronder-waterboven+8}" '
+             f'fill="{WAND}" stroke="{DARK}" stroke-width="1.5"/>')
+    for y in (172, 180, 188):
+        d.append(f'<path d="M218 {y} H252" stroke="{DIM}" stroke-width="1"/>')
+
+    for x, y, tekst, anker in [(72, 70, "toren", "end"), (398, 92, "kantelen", "start"), (398, 202, "gracht", "end")]:
+        d.append(f'<text x="{x}" y="{y}" text-anchor="{anker}" font-family="IBM Plex Sans,sans-serif" '
+                 f'font-size="10.5" font-weight="600" fill="{AMBER}">{tekst}</text>')
+    d.append(f'<path d="M76 66 L92 60" stroke="{AMBER}" stroke-width="1.2" fill="none"/>')
+    d.append(f'<path d="M394 88 L342 94" stroke="{AMBER}" stroke-width="1.2" fill="none"/>')
+    d.append(f'<path d="M404 198 L414 186" stroke="{AMBER}" stroke-width="1.2" fill="none"/>')
+    return _svg(breedte, h, "".join(d))
+
+
+def verlucht_handschrift(breedte=470):
+    """Een opengeslagen handschrift: een versierde beginletter en regels met de hand."""
+    h = 210
+    d = []
+    boven, onder = 20, 186
+    links, rechts = 30, 440
+    mid = (links + rechts) / 2
+
+    d.append(f'<path d="M{links} {boven+8} C{mid-40} {boven-4} {mid-10} {boven+2} {mid} {boven+10} '
+             f'C{mid+10} {boven+2} {mid+40} {boven-4} {rechts} {boven+8} '
+             f'L{rechts} {onder-6} C{mid+40} {onder-16} {mid+10} {onder-10} {mid} {onder-2} '
+             f'C{mid-10} {onder-10} {mid-40} {onder-16} {links} {onder-6} Z" '
+             f'fill="{PAPER}" stroke="{DARK}" stroke-width="1.8"/>')
+    d.append(f'<path d="M{mid} {boven+10} V{onder-2}" stroke="{BORDER}" stroke-width="1.6"/>')
+
+    # versierde beginletter linksboven
+    d.append(f'<rect x="{links+16}" y="{boven+22}" width="46" height="46" fill="{OKER}" stroke="{DARK}" stroke-width="1.4"/>')
+    d.append(f'<path d="M{links+28} {boven+32} h14 a13 13 0 0 1 0 26 h-14 Z" fill="{PAPER}" stroke="{DARK}" stroke-width="2"/>')
+
+    # geschreven regels: korte streepjes, met hier en daar een rode regel
+    def regels(x0, x1, y0, n, inspring_eerste=0):
+        for r in range(n):
+            y = y0 + r * 12
+            begin = x0 + (inspring_eerste if r < 4 else 0)
+            kleur = ROOD if r in (0, 7) else INK
+            eind = x1 - (26 if r == n - 1 else 0)
+            d.append(f'<path d="M{begin} {y} H{eind}" stroke="{kleur}" stroke-width="2.4" '
+                     f'stroke-linecap="round" opacity="{0.9 if kleur == ROOD else 0.55}"/>')
+
+    regels(links + 16, mid - 22, boven + 80, 7)
+    regels(mid + 20, rechts - 18, boven + 30, 12)
+
+    # rank in de marge
+    d.append(f'<path d="M{links+10} {boven+24} C{links+2} {boven+60} {links+18} {boven+96} {links+8} {onder-24}" '
+             f'stroke="{FOREST}" stroke-width="1.6" fill="none"/>')
+    for y in (boven + 44, boven + 72, boven + 106, boven + 134):
+        d.append(f'<path d="M{links+9} {y} q10 -6 14 2 q-11 5 -14 -2 Z" fill="{FOREST}" opacity="0.7"/>')
+        d.append(f'<circle cx="{links+16}" cy="{y+9}" r="2.6" fill="{ROOD}"/>')
+
+    d.append(f'<text x="{links+39}" y="{onder+18}" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" '
+             f'font-size="10.5" font-weight="600" fill="{AMBER}">de beginletter</text>')
+    d.append(f'<text x="{rechts-80}" y="{onder+18}" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" '
+             f'font-size="10" fill="{DIM}">elke regel met de hand overgeschreven</text>')
+    return _svg(breedte, h, "".join(d))
+
+
+def drukpers(breedte=470):
+    """De drukpers met losse letters: schroef, pers en het vel papier."""
+    h = 212
+    d = []
+    grond = 186
+    d.append(f'<path d="M0 {grond} H{breedte}" stroke="{DIM}" stroke-width="1.4"/>')
+
+    # houten raamwerk
+    for x in (132, 252):
+        d.append(f'<rect x="{x}" y="34" width="18" height="{grond-34}" fill="{WAND}" stroke="{DARK}" stroke-width="1.6"/>')
+    d.append(f'<rect x="124" y="34" width="134" height="20" fill="{STEEN}" stroke="{DARK}" stroke-width="1.6"/>')
+    d.append(f'<rect x="124" y="{grond-18}" width="134" height="18" fill="{STEEN}" stroke="{DARK}" stroke-width="1.6"/>')
+
+    # de schroef, die de pers naar beneden duwt
+    d.append(f'<rect x="185" y="54" width="12" height="46" fill="{STEEN}" stroke="{DARK}" stroke-width="1.4"/>')
+    for i in range(6):
+        d.append(f'<path d="M185 {58 + i*7} l12 -5" stroke="{DARK}" stroke-width="1.2" fill="none"/>')
+    # hefboom om aan te draaien
+    d.append(f'<path d="M191 62 H300" stroke="{DARK}" stroke-width="5" stroke-linecap="round"/>')
+    d.append(f'<circle cx="306" cy="62" r="7" fill="{WAND}" stroke="{DARK}" stroke-width="1.6"/>')
+
+    # de pers zelf: het vlakke blok dat op het papier drukt
+    d.append(f'<rect x="150" y="100" width="82" height="16" fill="{STEEN}" stroke="{DARK}" stroke-width="1.6"/>')
+
+    # de bak met de letters, die onder de pers wordt geschoven
+    d.append(f'<rect x="152" y="140" width="88" height="14" fill="{DARK}"/>')
+    d.append(f'<rect x="156" y="126" width="92" height="14" fill="{PAPER}" stroke="{DARK}" stroke-width="1.4"/>')
+    for i in range(7):
+        d.append(f'<path d="M{164 + i*12} 130 v6" stroke="{DIM}" stroke-width="1.6"/>')
+
+    for x, y, tekst, anker, lx, ly, lx2, ly2 in [
+        (120, 66, "schroef", "end", 124, 62, 182, 68),
+        (120, 112, "de pers", "end", 124, 108, 146, 108),
+        (300, 130, "vel papier", "start", 296, 126, 250, 132),
+        (300, 152, "losse letters", "start", 296, 149, 244, 147),
+    ]:
+        d.append(f'<text x="{x}" y="{y}" text-anchor="{anker}" font-family="IBM Plex Sans,sans-serif" '
+                 f'font-size="10.5" font-weight="600" fill="{AMBER}">{tekst}</text>')
+        d.append(f'<path d="M{lx} {ly} L{lx2} {ly2}" stroke="{AMBER}" stroke-width="1.2" fill="none"/>')
+    return _svg(breedte, h, "".join(d))
+
+
+def stoommachine(breedte=470):
+    """Van vuur naar draaiend wiel: ketel, stoom, zuiger en vliegwiel."""
+    h = 210
+    d = []
+    grond = 176
+    d.append(f'<path d="M0 {grond} H{breedte}" stroke="{DIM}" stroke-width="1.4"/>')
+
+    # ketel met vuur eronder
+    d.append(f'<rect x="24" y="96" width="104" height="52" rx="14" fill="{STEEN}" stroke="{DARK}" stroke-width="1.8"/>')
+    d.append(f'<rect x="40" y="148" width="72" height="{grond-148}" fill="{WAND}" stroke="{DARK}" stroke-width="1.4"/>')
+    for i in range(4):
+        x = 52 + i * 16
+        d.append(f'<path d="M{x} {grond-4} c-5 -8 2 -10 1 -16 c6 5 9 10 8 16 Z" fill="{AMBER}"/>')
+    d.append(f'<text x="76" y="{grond+16}" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" '
+             f'font-size="10.5" font-weight="600" fill="{AMBER}">vuur</text>')
+
+    # stoomleiding naar de cilinder
+    d.append(f'<path d="M128 112 H176" stroke="{DARK}" stroke-width="6" fill="none"/>')
+    for i in range(3):
+        d.append(f'<circle cx="{140 + i*14}" cy="{100 - i*5}" r="{5 + i}" fill="none" stroke="{DIM}" stroke-width="1.3"/>')
+    d.append(f'<text x="152" y="80" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" '
+             f'font-size="10.5" font-weight="600" fill="{AMBER}">stoom</text>')
+
+    # cilinder met zuiger
+    d.append(f'<rect x="176" y="86" width="42" height="80" fill="{WAND}" stroke="{DARK}" stroke-width="1.8"/>')
+    d.append(f'<rect x="181" y="120" width="32" height="12" fill="{DARK}"/>')
+    d.append(f'<path d="M197 120 V56" stroke="{DARK}" stroke-width="4"/>')
+    d.append(f'<text x="197" y="{grond+16}" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" '
+             f'font-size="10.5" font-weight="600" fill="{AMBER}">zuiger</text>')
+
+    # balans: de wip die de op-en-neerbeweging doorgeeft
+    d.append(f'<path d="M197 56 L356 44" stroke="{DARK}" stroke-width="7" stroke-linecap="round"/>')
+    # drijfstang naar het vliegwiel
+    d.append(f'<path d="M356 44 L380 108" stroke="{DARK}" stroke-width="4" stroke-linecap="round"/>')
+
+    # vliegwiel
+    cx, cy, r = 388, 128, 44
+    d.append(f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="none" stroke="{DARK}" stroke-width="6"/>')
+    d.append(f'<circle cx="{cx}" cy="{cy}" r="8" fill="{DARK}"/>')
+    for hoek in range(0, 360, 45):
+        d.append(f'<g transform="rotate({hoek} {cx} {cy})"><path d="M{cx} {cy} V{cy-r+4}" '
+                 f'stroke="{DARK}" stroke-width="2.2"/></g>')
+    d.append(f'<text x="{cx}" y="{grond+16}" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" '
+             f'font-size="10.5" font-weight="600" fill="{AMBER}">vliegwiel</text>')
+    return _svg(breedte, h, "".join(d))
+
+
+def mijnschacht(breedte=470):
+    """Een schachtbok boven de grond, en eronder de schacht tot in de steenkool."""
+    h = 228
+    d = []
+    maaiveld = 116
+    d.append(f'<rect x="0" y="{maaiveld}" width="{breedte}" height="{h-maaiveld}" fill="{WAND}"/>')
+    d.append(f'<path d="M0 {maaiveld} H{breedte}" stroke="{DARK}" stroke-width="1.8"/>')
+
+    # de bok: twee schuine poten en een rechte toren
+    for x0, x1 in [(96, 148), (236, 184)]:
+        d.append(f'<path d="M{x0} {maaiveld} L{x1} 36" stroke="{DARK}" stroke-width="4.5" stroke-linecap="round"/>')
+    d.append(f'<rect x="148" y="30" width="36" height="{maaiveld-30}" fill="none" stroke="{DARK}" stroke-width="3"/>')
+    for i in range(5):
+        y = 38 + i * 16
+        d.append(f'<path d="M148 {y} L184 {y+16} M184 {y} L148 {y+16}" stroke="{DARK}" stroke-width="1.2"/>')
+    for i in range(4):
+        d.append(f'<path d="M{100 + i*10} {maaiveld - i*18} L{236 - i*13} {maaiveld - i*18}" '
+                 f'stroke="{DIM}" stroke-width="1.1"/>')
+
+    # de twee wielen waarmee de kooi op en neer gaat
+    for cx in (152, 180):
+        d.append(f'<circle cx="{cx}" cy="26" r="17" fill="none" stroke="{DARK}" stroke-width="3.4"/>')
+        d.append(f'<circle cx="{cx}" cy="26" r="3" fill="{DARK}"/>')
+    d.append(f'<text x="214" y="22" font-family="IBM Plex Sans,sans-serif" '
+             f'font-size="10.5" font-weight="600" fill="{AMBER}">de wielen draaien de kabel op</text>')
+    d.append(f'<path d="M210 19 L196 24" stroke="{AMBER}" stroke-width="1.2" fill="none"/>')
+
+    # gebouw aan de voet
+    d.append(f'<rect x="248" y="78" width="96" height="{maaiveld-78}" fill="{STEEN}" stroke="{DARK}" stroke-width="1.5"/>')
+    for i in range(4):
+        d.append(f'<rect x="{258 + i*22}" y="90" width="12" height="14" fill="{PAPER}" stroke="{DARK}" stroke-width="1"/>')
+
+    # de schacht, recht naar beneden
+    d.append(f'<rect x="152" y="{maaiveld}" width="28" height="86" fill="{PAPER}" stroke="{DARK}" stroke-width="1.5"/>')
+    d.append(f'<path d="M166 {maaiveld} V150" stroke="{DARK}" stroke-width="1.4"/>')
+    d.append(f'<rect x="156" y="150" width="20" height="22" fill="{STEEN}" stroke="{DARK}" stroke-width="1.5"/>')
+    d.append(f'<text x="196" y="164" font-family="IBM Plex Sans,sans-serif" font-size="10.5" '
+             f'font-weight="600" fill="{AMBER}">de kooi met de mijnwerkers</text>')
+    d.append(f'<path d="M192 160 L180 160" stroke="{AMBER}" stroke-width="1.2" fill="none"/>')
+
+    # gang naar de steenkoollaag
+    d.append(f'<rect x="180" y="192" width="176" height="18" fill="{PAPER}" stroke="{DARK}" stroke-width="1.5"/>')
+    d.append(f'<path d="M166 172 V201 H180" stroke="{DARK}" stroke-width="1.5" fill="none"/>')
+    d.append(f'<rect x="0" y="210" width="{breedte}" height="18" fill="{DARK}"/>')
+    d.append(f'<text x="{breedte-10}" y="206" text-anchor="end" font-family="IBM Plex Sans,sans-serif" '
+             f'font-size="10.5" font-weight="600" fill="{AMBER}">de laag steenkool</text>')
+    return _svg(breedte, h, "".join(d))

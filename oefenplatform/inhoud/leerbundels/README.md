@@ -24,6 +24,14 @@ Gebruik alleen beeld met een vrije licentie (publiek domein, CC0, CC BY of
 CC BY-SA) of eigen foto's. Een foto die je zomaar van het internet plukt, mag
 niet in lesmateriaal dat je verspreidt.
 
+Let op het verschil tussen het onderwerp en de foto. Een grotschildering, een
+hiëroglief of een Romeinse muur is duizenden jaren oud en dus vrij van rechten,
+maar de **foto** ervan is dat niet: wie die muur fotografeerde, heeft rechten op
+dat beeld. Daarom staan er in de bundels van geschiedenis tekeningen in plaats
+van foto's. Dat lost het rechtenprobleem op, en het leest vaak duidelijker —
+een doorsnede van een Romeinse weg toont de vier lagen, een foto van kasseien
+niet.
+
 ## Waarom er tekeningen in staan
 
 Veel kinderen met een hoogbegaafd, ASS- of ADHD-profiel leren visueel: een
@@ -38,7 +46,11 @@ In `bron/` staat waarmee ze gemaakt zijn:
 - `stijl.css` — de huisstijl van het oefenplatform, in drukvorm.
 - `svg.py` — de tekenhulpjes: getallenlijn, breukenstroken, procentraster,
   maatladder, klok, hoeken, vlakke figuren, ruimtefiguren, staaf-, lijn- en
-  cirkeldiagram, dobbelsteen, stappenplan.
+  cirkeldiagram, dobbelsteen, stappenplan, en voor geschiedenis een
+  grotschildering, stenen werktuigen, hiërogliefen, de piramides, een Griekse
+  tempel, een amfitheater, een aquaduct, de doorsnede van een heirbaan, een
+  burcht, een verlucht handschrift, een drukpers, een stoommachine en een
+  mijnschacht.
 - `bundel.py` — zet een bundel-beschrijving om naar een html-bestand.
 - `maak_<vak>.py` — de inhoud van alle bundels van dat vak.
 - `pdf.js` — zet een html-bestand om naar pdf (via Playwright).
