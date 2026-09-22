@@ -769,3 +769,70 @@ def eeuwenbalk(breedte=470):
         d.append(f'<text x="{x + (vak-6)/2:.1f}" y="56" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" '
                  f'font-size="10.5" fill="{tekst}">{van} – {tot}</text>')
     return _svg(breedte, 72, "".join(d))
+
+
+def hierogliefen(breedte=470):
+    """
+    Een cartouche met vijf hiërogliefen, met onder elk teken wat het betekent.
+
+    Bewust een tekening en geen foto: de tekens zelf zijn duizenden jaren oud
+    en vrij, maar een foto van een tempelmuur is dat niet. Voor een kind leest
+    dit bovendien duidelijker dan verweerde steen.
+    """
+    h = 164
+    cy = 58
+    x0, x1 = 26, 424
+    d = []
+
+    # De cartouche: de ovale omlijsting waarin Egyptenaren een koningsnaam zetten.
+    d.append(f'<rect x="{x0}" y="16" width="{x1-x0}" height="84" rx="42" '
+             f'fill="{PAPER}" stroke="{DARK}" stroke-width="2.6"/>')
+    d.append(f'<rect x="{x1+6}" y="26" width="11" height="64" rx="5" '
+             f'fill="{PAPER}" stroke="{DARK}" stroke-width="2.6"/>')
+
+    lijn = dict(stroke=DARK, fill="none")
+    vak = (x1 - x0 - 26) / 5
+    tekens = []
+
+    for i in range(5):
+        cx = x0 + 13 + vak * (i + 0.5)
+        tekens.append(cx)
+        if i == 0:
+            # rietblad: rechte stengel met een spits blad bovenaan
+            d.append(f'<path d="M{cx:.1f} {cy+24} V{cy-4}" stroke="{DARK}" stroke-width="2.4" fill="none" stroke-linecap="round"/>')
+            d.append(f'<path d="M{cx:.1f} {cy-4} C{cx-11:.1f} {cy-12} {cx-9:.1f} {cy-25} {cx:.1f} {cy-30} '
+                     f'C{cx+9:.1f} {cy-25} {cx+11:.1f} {cy-12} {cx:.1f} {cy-4} Z" '
+                     f'stroke="{DARK}" stroke-width="2.2" fill="none"/>')
+        elif i == 1:
+            # uil: van voren gezien, met twee ogen en een snavel
+            d.append(f'<path d="M{cx:.1f} {cy-28} C{cx+16:.1f} {cy-28} {cx+17:.1f} {cy-4} {cx+12:.1f} {cy+14} '
+                     f'L{cx+6:.1f} {cy+26} L{cx-6:.1f} {cy+26} L{cx-12:.1f} {cy+14} '
+                     f'C{cx-17:.1f} {cy-4} {cx-16:.1f} {cy-28} {cx:.1f} {cy-28} Z" '
+                     f'stroke="{DARK}" stroke-width="2.2" fill="none"/>')
+            d.append(f'<circle cx="{cx-6:.1f}" cy="{cy-17}" r="3.2" fill="{DARK}"/>')
+            d.append(f'<circle cx="{cx+6:.1f}" cy="{cy-17}" r="3.2" fill="{DARK}"/>')
+            d.append(f'<path d="M{cx:.1f} {cy-11} l-3.5 7 h7 z" fill="{DARK}"/>')
+        elif i == 2:
+            # water: de golvende lijn
+            d.append(f'<path d="M{cx-23:.1f} {cy+2} q5.75 -10 11.5 0 t11.5 0 t11.5 0 t11.5 0" '
+                     f'stroke="{DARK}" stroke-width="2.6" fill="none" stroke-linecap="round"/>')
+        elif i == 3:
+            # mond: een vlakke, puntige ovaal
+            d.append(f'<path d="M{cx-22:.1f} {cy} q22 -10 44 0 q-22 10 -44 0 Z" '
+                     f'stroke="{DARK}" stroke-width="2.2" fill="none"/>')
+        else:
+            # oog: dezelfde vorm maar boller, met pupil en wenkbrauw erboven
+            d.append(f'<path d="M{cx-22:.1f} {cy+2} q22 -17 44 0 q-22 17 -44 0 Z" '
+                     f'stroke="{DARK}" stroke-width="2.2" fill="none"/>')
+            d.append(f'<circle cx="{cx:.1f}" cy="{cy+2}" r="5.5" fill="{DARK}"/>')
+            d.append(f'<path d="M{cx-21:.1f} {cy-11} q21 -12 42 -3" '
+                     f'stroke="{DARK}" stroke-width="2.2" fill="none" stroke-linecap="round"/>')
+
+    uitleg = [("i", "rietblad"), ("m", "uil"), ("n", "water"), ("r", "mond"), ("oog", "oog van Horus")]
+    for cx, (boven, onder) in zip(tekens, uitleg):
+        d.append(f'<text x="{cx:.1f}" y="126" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" '
+                 f'font-size="15" font-weight="600" fill="{AMBER}">{boven}</text>')
+        d.append(f'<text x="{cx:.1f}" y="144" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" '
+                 f'font-size="10.5" fill="{DIM}">{onder}</text>')
+
+    return _svg(breedte, h, "".join(d))
