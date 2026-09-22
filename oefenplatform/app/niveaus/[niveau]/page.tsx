@@ -7,6 +7,7 @@ import { createClient } from "@/lib/supabase/server";
 import { PRIJS_NU_EUR, TIJDELIJKE_PRIJS, TIJDELIJKE_PRIJS_KORT } from "@/lib/prijs";
 import { schooljaarEindeLabel } from "@/lib/schooljaar";
 import { vindNiveau } from "@/lib/niveaus";
+import { sorteerHoofdstukken } from "@/lib/hoofdstukvolgorde";
 
 type Hoofdstuk = { id: string; titel: string; volgnummer: number; gratis: boolean; niveau: string };
 type Vak = { id: string; naam: string; slug: string; hoofdstukken: Hoofdstuk[] };
@@ -31,7 +32,10 @@ export default async function NiveauPage({
   const volledigeToegang = heeftVolledigeToegang(session?.profile ?? null);
 
   const vakkenInNiveau = ((vakken as Vak[] | null) ?? [])
-    .map((vak) => ({ ...vak, hoofdstukken: vak.hoofdstukken.filter((h) => h.niveau === niveau.slug) }))
+    .map((vak) => ({
+      ...vak,
+      hoofdstukken: sorteerHoofdstukken(vak.hoofdstukken.filter((h) => h.niveau === niveau.slug)),
+    }))
     .filter((vak) => vak.hoofdstukken.length > 0);
 
   return (
@@ -63,9 +67,7 @@ export default async function NiveauPage({
             <section key={vak.id}>
               <h2 className="font-display text-lg font-semibold text-forest-dark">{vak.naam}</h2>
               <ul className="mt-3 space-y-2">
-                {vak.hoofdstukken
-                  .sort((a, b) => a.volgnummer - b.volgnummer)
-                  .map((h) => {
+                {vak.hoofdstukken.map((h) => {
                     const mag = hoofdstukToegankelijk(h.gratis, session?.profile ?? null);
                     return (
                       <li key={h.id}>

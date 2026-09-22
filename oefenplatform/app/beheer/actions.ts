@@ -184,6 +184,14 @@ type BulkVraag = {
 
 type BulkHoofdstuk = {
   titel: string;
+  /**
+   * De titel die dit hoofdstuk nú in de databank heeft, als die verschilt van
+   * `titel`. Staat die er, dan wordt het bestaande hoofdstuk hernoemd in plaats
+   * van dat er een tweede naast komt. Zo kan je een hoofdstuk opsplitsen in een
+   * deel 1 en een deel 2 zonder de leerbundel, de stickers of de voortgang van
+   * de kinderen kwijt te spelen, en zonder alles met de hand te hernoemen.
+   */
+  hernoemVan?: string;
   niveau?: string;
   gratis?: boolean;
   vragen: BulkVraag[];
@@ -257,6 +265,33 @@ export async function bulkImportVakInhoud(formData: FormData) {
     const niveau = NIVEAUS.some((n) => n.slug === hfst.niveau) ? hfst.niveau! : "start";
 
     let hoofdstukId = titelNaarId.get(titelSleutel(titel));
+
+    // Staat het hoofdstuk nog onder zijn oude naam in de databank, hernoem het
+    // dan eerst. Bestaat de nieuwe titel al, dan is dit blijkbaar een tweede
+    // import en laten we alles ongemoeid.
+    const oudeTitel = String(hfst.hernoemVan || "").trim();
+    if (!hoofdstukId && oudeTitel) {
+      const oudeSleutel = titelSleutel(oudeTitel);
+      const teHernoemen = titelNaarId.get(oudeSleutel);
+      if (teHernoemen) {
+        const { error: hernoemFout } = await admin
+          .from("hoofdstukken")
+          .update({ titel })
+          .eq("id", teHernoemen);
+        if (hernoemFout) {
+          redirect(
+            "/beheer/vakken?fout=" +
+              encodeURIComponent(
+                `"${oudeTitel}" hernoemen naar "${titel}" mislukt: ${hernoemFout.message}`
+              )
+          );
+        }
+        titelNaarId.delete(oudeSleutel);
+        titelNaarId.set(titelSleutel(titel), teHernoemen);
+        hoofdstukId = teHernoemen;
+      }
+    }
+
     if (!hoofdstukId) {
       const eersteVanNiveau = !niveausMetHoofdstuk.has(niveau);
       niveausMetHoofdstuk.add(niveau);

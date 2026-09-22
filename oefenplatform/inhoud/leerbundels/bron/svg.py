@@ -31,8 +31,14 @@ def getallenlijn(breedte, links, rechts, merken, hoogte=86, label_y=None):
             d.append(f'<text x="{px:.1f}" y="{ty}" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="{12 if dik else 11}" fill="{kleur}" font-weight="{600 if dik else 400}">{label}</text>')
     return f'<svg viewBox="0 0 {breedte} {hoogte}" width="{breedte}" xmlns="http://www.w3.org/2000/svg">' + "".join(d) + "</svg>"
 
-def breukstroken(breedte=460):
-    rijen = [(1, "1 geheel"), (2, "1/2"), (3, "1/3"), (4, "1/4"), (5, "1/5")]
+def breukstroken(breedte=460, noemers=(1, 2, 3, 4, 5)):
+    """Stroken onder elkaar, elk in een ander aantal gelijke stukken verdeeld.
+
+    Geef `noemers` mee om andere breuken te tonen, bv. (1, 2, 4, 8) om te laten
+    zien dat elke stap een halvering is. Let erop dat het onderschrift bij de
+    figuur echt over de getoonde breuken gaat.
+    """
+    rijen = [(n, "1 geheel" if n == 1 else f"1/{n}") for n in noemers]
     h = 26
     gap = 9
     labelbreedte = 62
@@ -2444,3 +2450,56 @@ def primair_secundair(breedte=470):
                     "Primair of secundair gaat over wanneer de bron gemaakt is, niet over hoe goed ze is.",
                     9.5, DIM))
     return _svg(breedte, h, "".join(d))
+
+
+def getallensoorten(breedte=470):
+    """De getallenverzamelingen als dozen in elkaar: ℕ zit in ℤ, ℤ zit in ℚ.
+
+    Dat "in elkaar" is precies het punt van de uitbreiding: er komt telkens
+    iets bij, en alles wat je al had blijft gelden.
+    """
+    h = 232
+    lagen = [
+        ("ℚ  rationale getallen", "breuken en kommagetallen", "−3/4 · 0,25 · 2,5", "#7a5b8f", 0),
+        ("ℤ  gehele getallen", "de negatieve erbij", "−7 · −1", "#5b7f9c", 1),
+        ("ℕ  natuurlijke getallen", "om te tellen", "0 · 1 · 2 · 3", FOREST, 2),
+    ]
+    d = []
+    for kop, onder, voorbeeld, kleur, i in lagen:
+        pad = 24 + i * 46
+        y0 = 12 + i * 34
+        y1 = h - 14 - i * 34
+        d.append(f'<rect x="{pad}" y="{y0}" width="{breedte-2*pad}" height="{y1-y0}" rx="12" '
+                 f'fill="none" stroke="{kleur}" stroke-width="1.8"/>')
+        d.append(_tekst(pad + 14, y0 + 20, kop, 11.5, kleur, anker="start", vet=True))
+        d.append(_tekst(breedte - pad - 14, y0 + 20, onder, 9, DIM, anker="end"))
+        # de voorbeelden van deze laag staan onderin haar eigen strook
+        d.append(_tekst(breedte / 2, y1 - 11, voorbeeld, 10.5, kleur))
+
+    return _svg(breedte, h, "".join(d))
+
+
+def verhoudingstabel(paren, breedte=470, koppen=("aantal", "prijs")):
+    """Een verhoudingstabel: twee rijen die in dezelfde verhouding meegroeien.
+
+    paren = [(links, rechts), ...] als tekst, van links naar rechts.
+    """
+    n = len(paren)
+    kolom = min(96, (breedte - 120) / n)
+    x0 = 100
+    h = 150
+    rij_y = [54, 92]
+    d = [f'<rect x="{x0}" y="{rij_y[0]-22}" width="{kolom*n}" height="{88}" fill="{PAPER}" '
+         f'stroke="{BORDER}" stroke-width="1.2"/>']
+    for r, kop in enumerate(koppen):
+        d.append(_tekst(x0 - 12, rij_y[r] + 4, kop, 10.5, DIM, anker="end"))
+    for i, (links, rechts) in enumerate(paren):
+        cx = x0 + kolom * i + kolom / 2
+        if i:
+            d.append(f'<line x1="{x0+kolom*i}" y1="{rij_y[0]-22}" x2="{x0+kolom*i}" '
+                     f'y2="{rij_y[0]-22+88}" stroke="{BORDER}" stroke-width="1.2"/>')
+        d.append(_tekst(cx, rij_y[0] + 4, links, 12, DARK, vet=True))
+        d.append(_tekst(cx, rij_y[1] + 4, rechts, 12, FOREST, vet=True))
+    d.append(f'<line x1="{x0}" y1="{rij_y[0]+20}" x2="{x0+kolom*n}" y2="{rij_y[0]+20}" '
+             f'stroke="{BORDER}" stroke-width="1.2"/>')
+    return _svg(breedte, h - 26, "".join(d))

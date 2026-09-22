@@ -1,0 +1,419 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Getallenleer — deel 1",
+      "hernoemVan": "Getallenleer",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk van deze drie is géén natuurlijk getal?",
+          "opties": [
+            "0",
+            "7",
+            "−3"
+          ],
+          "antwoord": 2,
+          "uitleg": "De natuurlijke getallen zijn 0, 1, 2, 3, … Negatieve getallen horen er niet bij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat voegen de gehele getallen toe aan de natuurlijke getallen?",
+          "opties": [
+            "De negatieve getallen",
+            "De breuken",
+            "De kommagetallen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gehele getallen: … −3, −2, −1, 0, 1, 2, 3 … Daarmee kan je ook aftrekkingen maken die onder nul gaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een rationaal getal?",
+          "opties": [
+            "Een getal dat je kan schrijven als een breuk van twee gehele getallen",
+            "Een getal zonder komma",
+            "Elk getal groter dan nul"
+          ],
+          "antwoord": 0,
+          "uitleg": "0,25 is rationaal, want het is 1/4. Ook elk geheel getal is rationaal: 7 is 7/1."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In de breuk 3/4, hoe heet het getal 4? (één woord)",
+          "antwoord": "noemer",
+          "uitleg": "De noemer zegt in hoeveel gelijke stukken het geheel verdeeld is."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In de breuk 3/4, hoe heet het getal 3? (één woord)",
+          "antwoord": "teller",
+          "uitleg": "De teller telt hoeveel van die stukken je neemt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een stambreuk?",
+          "opties": [
+            "Een breuk met 1 als teller",
+            "Een breuk met 1 als noemer",
+            "Een breuk die je niet kan vereenvoudigen"
+          ],
+          "antwoord": 0,
+          "uitleg": "1/2, 1/3 en 1/8 zijn stambreuken. Ze stellen telkens één stuk van het geheel voor."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wanneer zijn twee breuken gelijknamig?",
+          "opties": [
+            "Als ze dezelfde noemer hebben",
+            "Als ze dezelfde teller hebben",
+            "Als ze even groot zijn"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gelijknamig maken doe je om te kunnen optellen: 1/2 + 1/3 wordt 3/6 + 2/6."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wanneer is een breuk onvereenvoudigbaar?",
+          "opties": [
+            "Als teller en noemer geen gemeenschappelijke deler meer hebben behalve 1",
+            "Als de teller kleiner is dan de noemer",
+            "Als de noemer een priemgetal is"
+          ],
+          "antwoord": 0,
+          "uitleg": "6/8 kan nog: deel beide door 2 en je krijgt 3/4. Verder gaat niet meer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het tegengestelde van −5?",
+          "opties": [
+            "5",
+            "1/5",
+            "−1/5"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het tegengestelde krijg je door het teken om te draaien. Samen geven ze 0: −5 + 5 = 0."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het omgekeerde van 2/3?",
+          "opties": [
+            "3/2",
+            "−2/3",
+            "2/3"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij het omgekeerde wissel je teller en noemer. Samen geven ze 1: 2/3 × 3/2 = 1."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel is de absolute waarde van −7?",
+          "antwoord": "7",
+          "uitleg": "De absolute waarde is de afstand tot nul op de getallenas, en een afstand is nooit negatief."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe heten de getallen die je optelt, en het resultaat?",
+          "opties": [
+            "Termen en som",
+            "Factoren en product",
+            "Deeltal en quotiënt"
+          ],
+          "antwoord": 0,
+          "uitleg": "7 + 3 = 10: 7 en 3 zijn de termen, 10 is de som."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe heten de getallen die je vermenigvuldigt, en het resultaat?",
+          "opties": [
+            "Factoren en product",
+            "Termen en som",
+            "Aftrektal en verschil"
+          ],
+          "antwoord": 0,
+          "uitleg": "4 × 5 = 20: 4 en 5 zijn de factoren, 20 is het product."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de rest bij de deling 20 : 3?",
+          "opties": [
+            "2",
+            "3",
+            "0"
+          ],
+          "antwoord": 0,
+          "uitleg": "3 gaat 6 keer in 20, dat is 18, en er blijft 2 over. Blijft er iets over, dan heet dat een niet-opgaande deling."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In de macht 5³, welk getal is de exponent?",
+          "opties": [
+            "3",
+            "5",
+            "15"
+          ],
+          "antwoord": 0,
+          "uitleg": "5 is het grondtal, 3 de exponent. 5³ betekent 5 × 5 × 5 = 125."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is √49?",
+          "opties": [
+            "7",
+            "24,5",
+            "±49"
+          ],
+          "antwoord": 0,
+          "uitleg": "Worteltrekken is het omgekeerde van kwadrateren: 7 × 7 = 49, dus √49 = 7."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 2 + 3 × 4?",
+          "opties": [
+            "14",
+            "20",
+            "24"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vermenigvuldigen gaat vóór optellen: eerst 3 × 4 = 12, dan 2 + 12 = 14."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "12 is een priemgetal.",
+          "antwoord": false,
+          "uitleg": "Nee. 12 is ook deelbaar door 2, 3, 4 en 6. Een priemgetal heeft precies twee delers: 1 en zichzelf."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk van deze getallen is een priemgetal?",
+          "opties": [
+            "2",
+            "1",
+            "9"
+          ],
+          "antwoord": 0,
+          "uitleg": "2 is het enige even priemgetal. 1 telt niet mee, want dat heeft maar één deler; 9 is 3 × 3."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Elk geheel getal is ook een rationaal getal.",
+          "antwoord": true,
+          "uitleg": "Ja. Je kan elk geheel getal als breuk schrijven met noemer 1, bijvoorbeeld −4 = −4/1."
+        }
+      ]
+    },
+    {
+      "titel": "Getallenleer — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe heet de eigenschap dat a + b hetzelfde geeft als b + a?",
+          "opties": [
+            "Commutatief",
+            "Associatief",
+            "Distributief"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je mag de volgorde wisselen. Dat geldt bij optellen en vermenigvuldigen, maar niet bij aftrekken: 5 − 3 is niet 3 − 5."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe heet de eigenschap dat (a + b) + c hetzelfde geeft als a + (b + c)?",
+          "opties": [
+            "Associatief",
+            "Commutatief",
+            "Opslorpend"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je mag de haakjes anders zetten. Handig om makkelijk te rekenen: 17 + (3 + 48) reken je sneller als (17 + 3) + 48."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke eigenschap gebruik je bij 3 × (4 + 5) = 3 × 4 + 3 × 5?",
+          "opties": [
+            "Distributief",
+            "Commutatief",
+            "Associatief"
+          ],
+          "antwoord": 0,
+          "uitleg": "De vermenigvuldiging wordt over de optelling verdeeld. Allebei geven ze 27."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het neutraal element voor de vermenigvuldiging?",
+          "opties": [
+            "1",
+            "0",
+            "−1"
+          ],
+          "antwoord": 0,
+          "uitleg": "Neutraal betekent: het verandert niets. a × 1 = a. Bij optellen is 0 het neutraal element."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het opslorpend element voor de vermenigvuldiging?",
+          "opties": [
+            "0",
+            "1",
+            "−1"
+          ],
+          "antwoord": 0,
+          "uitleg": "Alles wat je met 0 vermenigvuldigt wordt 0, wat het andere getal ook is. Het slorpt de uitkomst op."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 2³ × 2⁴?",
+          "opties": [
+            "2⁷",
+            "2¹²",
+            "4⁷"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij hetzelfde grondtal tel je de exponenten op: 3 + 4 = 7. Uitgeschreven zijn het samen zeven factoren 2."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is (2³)²?",
+          "opties": [
+            "2⁶",
+            "2⁵",
+            "2⁹"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een macht van een macht: exponenten vermenigvuldigen, 3 × 2 = 6."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 2⁻²?",
+          "opties": [
+            "1/4",
+            "−4",
+            "1/2"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een negatieve exponent betekent het omgekeerde: 2⁻² = 1/2² = 1/4."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de grootste gemeenschappelijke deler van 12 en 18?",
+          "opties": [
+            "6",
+            "3",
+            "36"
+          ],
+          "antwoord": 0,
+          "uitleg": "12 = 2 × 2 × 3 en 18 = 2 × 3 × 3. Wat ze samen hebben is 2 × 3 = 6."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het kleinste gemeenschappelijk veelvoud van 4 en 6?",
+          "opties": [
+            "12",
+            "24",
+            "10"
+          ],
+          "antwoord": 0,
+          "uitleg": "Veelvouden van 4: 4, 8, 12 … Van 6: 6, 12 … Het eerste dat in beide rijtjes staat is 12."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor gebruik je het kgv bij breuken?",
+          "opties": [
+            "Om ze gelijknamig te maken",
+            "Om ze te vereenvoudigen",
+            "Om ze om te zetten naar procent"
+          ],
+          "antwoord": 0,
+          "uitleg": "Voor 1/4 + 1/6 neem je noemer 12: dat wordt 3/12 + 2/12 = 5/12."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je een getal dat alleen deelbaar is door 1 en door zichzelf? (één woord)",
+          "antwoord": "priemgetal",
+          "uitleg": "2, 3, 5, 7, 11, 13 … Elk getal is te schrijven als een product van priemgetallen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel procent is 3/8?",
+          "opties": [
+            "37,5 %",
+            "3,8 %",
+            "26,7 %"
+          ],
+          "antwoord": 0,
+          "uitleg": "3 : 8 = 0,375, en dat maal 100 is 37,5 %."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een trui kost € 40 en gaat 25 % in prijs omlaag. Wat betaal je?",
+          "opties": [
+            "€ 30",
+            "€ 25",
+            "€ 35"
+          ],
+          "antwoord": 0,
+          "uitleg": "25 % van 40 is 10, dus je betaalt 40 − 10 = 30. Je kan ook meteen 75 % van 40 rekenen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op een plan met schaal 1 : 100 meet een muur 3 cm. Hoe lang is die muur echt?",
+          "opties": [
+            "3 m",
+            "30 cm",
+            "300 m"
+          ],
+          "antwoord": 0,
+          "uitleg": "Elke centimeter op het plan is 100 cm in het echt. 3 × 100 cm = 300 cm = 3 m."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vier broden kosten € 6. Wat kosten tien broden aan dezelfde prijs?",
+          "opties": [
+            "€ 15",
+            "€ 12",
+            "€ 18"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eén brood kost 6 : 4 = € 1,50. Tien broden is dan 10 × 1,50 = € 15."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Rond 3,247 af tot op twee decimalen.",
+          "opties": [
+            "3,25",
+            "3,24",
+            "3,20"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je kijkt naar het derde decimaal. Dat is 7, dus 5 of meer, en dan gaat het cijfer ervoor één omhoog."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "−3 is groter dan −5.",
+          "antwoord": true,
+          "uitleg": "Ja. Op de getallenas ligt −3 rechts van −5, en verder naar rechts betekent groter. Bij negatieve getallen is het grootste cijfer dus het kleinste getal."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke rij staat van klein naar groot?",
+          "opties": [
+            "−5 < −3 < 0 < 1/2 < 1",
+            "−3 < −5 < 0 < 1 < 1/2",
+            "0 < −3 < −5 < 1/2 < 1"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst de negatieve getallen, met de verst van nul vooraan, dan nul, dan de positieve."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de rechte lijn waarop je getallen op hun plaats zet? (één woord)",
+          "antwoord": "getallenas",
+          "uitleg": "Daarop zie je in één blik welk getal groter is: hoe verder naar rechts, hoe groter."
+        }
+      ]
+    }
+  ]
+}

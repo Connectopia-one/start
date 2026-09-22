@@ -14,6 +14,7 @@ import {
   bulkImportVakInhoud,
 } from "../actions";
 import { NIVEAUS, vindNiveau } from "@/lib/niveaus";
+import { sorteerHoofdstukken } from "@/lib/hoofdstukvolgorde";
 
 type Hoofdstuk = {
   id: string;
@@ -171,9 +172,7 @@ export default async function BeheerVakkenPage({
               </details>
 
               <ul className="mt-4 space-y-2">
-                {vak.hoofdstukken
-                  .sort((a, b) => a.volgnummer - b.volgnummer)
-                  .map((h) => (
+                {sorteerHoofdstukken(vak.hoofdstukken).map((h) => (
                     <li
                       key={h.id}
                       className="rounded-lg border border-border px-3 py-2 text-sm"
