@@ -27,7 +27,7 @@ export const sponsorsTekst = {
   kopSponsors: "Sponsors",
   kopPartners: "Samenwerkingen",
   oproep: "Samenwerken met Connectopia?",
-  oproepLink: "/contact",
+  oproepLink: "/professionals",
 };
 
 export const sponsors: Sponsor[] = [

@@ -206,6 +206,27 @@ export default function Startpagina() {
         </div>
       </section>
 
+      {/* Voor professionals: een uitnodiging, geen drempel */}
+      <section className="mx-auto w-full max-w-5xl px-5 pb-14">
+        <div className="grid items-center gap-5 rounded-[20px] bg-green px-6 py-7 text-cream sm:grid-cols-[1fr_auto] sm:px-8">
+          <div>
+            <span className="text-[14px] font-bold text-sage-soft">
+              {home.professionalsBand.label}
+            </span>
+            <h2 className="mt-1.5 text-2xl">{home.professionalsBand.titel}</h2>
+            <p className="mt-2 max-w-[60ch] text-[16px] text-sage-soft">
+              {home.professionalsBand.tekst}
+            </p>
+          </div>
+          <Link
+            href={home.professionalsBand.link}
+            className="inline-block justify-self-start rounded-full bg-cream px-6 py-3 text-[16px] font-extrabold text-green transition hover:-translate-y-0.5 hover:bg-sage-soft sm:justify-self-end"
+          >
+            {home.professionalsBand.knop} →
+          </Link>
+        </div>
+      </section>
+
       {/* Sponsors en samenwerkingen */}
       <section className="bg-sage-soft" id="sponsors">
         <div className="mx-auto w-full max-w-5xl px-5 py-12">

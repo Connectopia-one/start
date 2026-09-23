@@ -87,9 +87,21 @@ export type Veld = {
   /* De naam die in de mail voor de vraag komt te staan. */
   naam: string;
   label: string;
-  soort: "tekst" | "email" | "telefoon" | "lang";
+  soort: "tekst" | "email" | "telefoon" | "lang" | "keuzes";
   verplicht?: boolean;
   hulp?: string;
+  /*
+    Alleen bij soort "keuzes": de vakjes die aangevinkt kunnen worden.
+    Meerdere tegelijk mag. Elk vakje heeft zijn eigen naam en komt los in
+    de mail terecht; wat niet aangevinkt is, staat er ook niet in.
+    Zet "aantal" bij een vakje waar ook een hoeveelheid bij hoort, zoals
+    het aantal flyers. Dat vakje verschijnt dan ernaast.
+  */
+  keuzes?: {
+    naam: string;
+    label: string;
+    aantal?: { naam: string; label: string };
+  }[];
 };
 
 export const velden: Veld[] = [

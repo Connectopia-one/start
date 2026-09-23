@@ -164,6 +164,7 @@ export const extraLinks: {
   inMenu?: boolean;
 }[] = [
   { slug: "/observatielijst", menuTitel: "Observatielijst" },
+  { slug: "/professionals", menuTitel: "Voor professionals" },
   { slug: "/contact", menuTitel: "Contact", inMenu: true },
 ];
 

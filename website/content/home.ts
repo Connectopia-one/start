@@ -85,7 +85,21 @@ export const home = {
     titel: "Zelf iets delen?",
     omschrijving:
       "Ben je professional of partnerorganisatie en wil je een artikel bijdragen of in de gids staan? We horen het graag.",
-    linkTekst: "Neem contact op",
-    link: "/contact",
+    linkTekst: "Laat het weten",
+    link: "/professionals",
+  },
+
+  /*
+    De band voor professionals, onderaan de startpagina.
+    Hij nodigt uit, hij houdt niemand tegen: wie gewoon de site wil
+    bekijken, scrolt er voorbij.
+  */
+  professionalsBand: {
+    label: "Voor professionals",
+    titel: "Ben je een professional?",
+    tekst:
+      "Kinesist, logopedist, coach, auticoach, arts of begeleider: we bezorgen je graag folders, een poster voor je wachtzaal of flyers om uit te delen. En wie met deze kinderen werkt, mag in onze wegwijzer staan.",
+    knop: "Ik werk met deze kinderen",
+    link: "/professionals",
   },
 };
