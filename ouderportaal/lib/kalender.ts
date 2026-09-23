@@ -32,7 +32,7 @@ export const KALENDER_2026_2027: KalenderDag[] = [
   { datum: "2026-10-24", type: "les", label: "Level X 28 Hasselt" },
   { datum: "2026-10-27", type: "les", label: "Atheneum Hasselt" },
   { datum: "2026-10-28", type: "les", label: "T2 Campus Genk" },
-  { datum: "2026-10-31", type: "les", label: "Level X 28 Hasselt" },
+  { datum: "2026-10-31", type: "geenles", label: "Geen les" },
 
   // november 2026
   { datum: "2026-11-01", type: "feestdag", label: "Allerheiligen" },
