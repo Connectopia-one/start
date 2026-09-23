@@ -10,13 +10,13 @@ categorie voor het 5de en 6de leerjaar.
 | `wiskunde-extra.json` | Wiskunde, tweede reeks | 6 | 120 |
 | `nederlands.json` | Nederlands | 5 | 100 |
 | `nederlands-spelling.json` | Nederlands, het gratis proefhoofdstuk | 1 | 47 |
-| `wetenschap-en-techniek.json` | Wetenschap en techniek | 4 | 80 |
+| `wetenschap-en-techniek.json` | Wetenschap en techniek | 7 | 280 |
 | `aardrijkskunde.json` | Aardrijkskunde | 3 | 60 |
 | `geschiedenis.json` | Geschiedenis | 3 | 120 |
 | `engels.json` | Engels | 6 | 120 |
 
-Elk hoofdstuk heeft 20 vragen, behalve geschiedenis: daar zijn het er 40 per
-hoofdstuk. Samen 767 vragen.
+Elk hoofdstuk heeft 20 vragen, behalve geschiedenis en wetenschap en techniek:
+daar zijn het er 40 per hoofdstuk. Samen 967 vragen.
 
 **Spelling is het gratis proefhoofdstuk.** Dat hoofdstuk staat er al bij het
 opzetten van de databank (zie `supabase/schema.sql`) met drie voorbeeldvragen, en
@@ -55,7 +55,15 @@ De zes hoofdstukken van wiskunde zijn de zes domeinen uit de minimumdoelen
 (getallenkennis, bewerkingen, meten en metend rekenen, meetkunde, kansrekenen en
 statistiek, en probleemoplossend denken). Nederlands volgt dezelfde logica
 (lezen, schrijven, mondeling taalgebruik, taalsysteem en taalgebruik, literatuur),
-en wetenschap en techniek ook (biologie, chemie, natuurkunde, techniek).
+en wetenschap en techniek ook (biologie, chemie, natuurkunde, techniek). Dat
+laatste vak staat in zeven hoofdstukken: biologie en natuurkunde zijn elk in
+twee gesplitst omdat één hoofdstuk het gebied niet dekte, en er is een hoofdstuk
+over de aarde en de ruimte bij gekomen. Dat hoort bij wetenschappen en niet bij
+aardrijkskunde: het gaat over de aarde als hemellichaam, niet over kaarten,
+landschappen of streken. De vragen staan per hoofdstuk in `bron/*.py`;
+`bron/bouw_wetenschap.py` zet ze samen in `wetenschap-en-techniek.json` en
+bewaakt dat elk hoofdstuk precies 40 vragen heeft en dat geen vraag twee keer
+voorkomt.
 
 **Engels is een bewuste uitzondering.** In het Vlaamse basisonderwijs staat
 Frans als tweede taal in de minimumdoelen, Engels niet: dat begint pas in het

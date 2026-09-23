@@ -562,8 +562,20 @@ def deeltjes(breedte=470):
     return _svg(breedte, h, "".join(d))
 
 
-def stroomkring(breedte=380):
-    """Een eenvoudige gesloten stroomkring met batterij, lampje en schakelaar."""
+def _lampje(cx, cy, r, aan=True):
+    kleur = AMBER if aan else DIM
+    vul = "#fff8e6" if aan else "#eeece7"
+    return (f'<circle cx="{cx:.1f}" cy="{cy:.1f}" r="{r}" fill="{vul}" stroke="{kleur}" stroke-width="2.2"/>'
+            f'<path d="M{cx-r*0.5:.1f} {cy-r*0.5:.1f} l{r:.1f} {r:.1f} '
+            f'M{cx+r*0.5:.1f} {cy-r*0.5:.1f} l{-r:.1f} {r:.1f}" stroke="{kleur}" stroke-width="1.8"/>')
+
+
+def stroomkring(breedte=380, dicht=False):
+    """Een stroomkring met batterij, lampje en schakelaar.
+
+    Staat de schakelaar open, dan brandt het lampje niet. Anders zegt de
+    tekening het omgekeerde van het bijschrift.
+    """
     h = 160
     x0, y0, x1, y1 = 40, 34, breedte - 40, 124
     d = [f'<rect x="{x0}" y="{y0}" width="{x1-x0}" height="{y1-y0}" rx="14" fill="none" stroke="{DARK}" stroke-width="2.4"/>']
@@ -575,16 +587,18 @@ def stroomkring(breedte=380):
     d.append(f'<text x="{mx}" y="{y1+30}" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="10.5" fill="{DIM}">batterij</text>')
     # lampje, bovenaan
     d.append(f'<rect x="{mx-18}" y="{y0-16}" width="36" height="32" fill="{PAPER}" stroke="none"/>')
-    d.append(f'<circle cx="{mx}" cy="{y0}" r="14" fill="#fff8e6" stroke="{AMBER}" stroke-width="2.2"/>')
-    d.append(f'<path d="M{mx-7} {y0-7} l14 14 M{mx+7} {y0-7} l-14 14" stroke="{AMBER}" stroke-width="1.8"/>')
+    d.append(_lampje(mx, y0, 14, dicht))
     d.append(f'<text x="{mx}" y="{y0-24}" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="10.5" fill="{DIM}">lampje</text>')
     # schakelaar, rechts
     d.append(f'<rect x="{x1-9}" y="{(y0+y1)/2-18}" width="18" height="36" fill="{PAPER}" stroke="none"/>')
     d.append(f'<circle cx="{x1}" cy="{(y0+y1)/2-16}" r="3" fill="{DARK}"/>')
     d.append(f'<circle cx="{x1}" cy="{(y0+y1)/2+16}" r="3" fill="{DARK}"/>')
-    d.append(f'<line x1="{x1}" y1="{(y0+y1)/2+16}" x2="{x1+13}" y2="{(y0+y1)/2-12}" stroke="{DARK}" stroke-width="2.4" stroke-linecap="round"/>')
-    # het label onder de schakelaar, anders valt het buiten de tekening
-    d.append(f'<text x="{x1}" y="{(y0+y1)/2+40}" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="10.5" fill="{DIM}">schakelaar</text>')
+    mid = (y0 + y1) / 2
+    eind = (x1, mid - 16) if dicht else (x1 + 13, mid - 12)
+    d.append(f'<line x1="{x1}" y1="{mid+16}" x2="{eind[0]}" y2="{eind[1]}" stroke="{DARK}" stroke-width="2.4" stroke-linecap="round"/>')
+    # het label binnen de kring: rechts is er geen plaats en onder de schakelaar
+    # zou het dwars over de draad vallen
+    d.append(f'<text x="{x1-16}" y="{mid+4}" text-anchor="end" font-family="IBM Plex Sans,sans-serif" font-size="10.5" fill="{DIM}">schakelaar</text>')
     return _svg(breedte, h, "".join(d))
 
 
@@ -1487,6 +1501,472 @@ def _kussen(x, y, tekst, grootte=9.5, kleur=None, anker="end", vet=False):
     x0 = {"end": x - br, "start": x, "middle": x - br / 2}[anker]
     return (f'<rect x="{x0:.1f}" y="{y-grootte:.1f}" width="{br:.1f}" height="{grootte+7:.1f}" '
             f'rx="4" fill="#ffffff" opacity="0.88"/>' + _tekst(x, y, tekst, grootte, kleur, anker, vet))
+
+
+# ---------------------------------------------------------------------------
+# Wetenschap en techniek. Alles hieronder is zelf getekend: schema's, geen
+# afbeeldingen van iemand anders.
+# ---------------------------------------------------------------------------
+
+BLOED_ARM = "#5b93b8"     # zuurstofarm bloed, naar de longen toe
+BLOED_RIJK = "#c0392b"    # zuurstofrijk bloed, van de longen weg
+SPIER = "#c0705f"
+BOT = "#efe7d6"
+
+
+def bloedsomloop(breedte=470):
+    """De kleine en de grote bloedsomloop als één schema.
+
+    Links gaat het zuurstofarme bloed omhoog, rechts komt het zuurstofrijke
+    terug naar beneden. Dat is het hele punt: het bloed passeert twee keer
+    langs het hart voor het één volledig rondje gemaakt heeft.
+    """
+    h = 236
+    mid = breedte / 2
+    kader_b, kader_h = 168, 40
+    rijen = [(26, "de longen", "hier komt zuurstof bij"),
+             (105, "het hart", "pompt alles rond"),
+             (184, "de rest van je lichaam", "hier wordt zuurstof verbruikt")]
+    d = []
+    for y, naam, onder in rijen:
+        vul = "#ffffff" if naam != "het hart" else "#fdeceb"
+        d.append(f'<rect x="{mid-kader_b/2:.1f}" y="{y}" width="{kader_b}" height="{kader_h}" rx="9" '
+                 f'fill="{vul}" stroke="{DARK}" stroke-width="1.6"/>')
+        d.append(_tekst(mid, y + 17, naam, 11, DARK, "middle", True))
+        d.append(_tekst(mid, y + 31, onder, 9, DIM))
+
+    def pijl(x, y_van, y_naar, kleur, label, kant):
+        """Een verticale pijl naast de kaders, met haar naam ernaast."""
+        punt = -1 if y_naar < y_van else 1
+        eind = y_naar - punt * 7
+        d.append(f'<line x1="{x}" y1="{y_van}" x2="{x}" y2="{eind}" stroke="{kleur}" '
+                 f'stroke-width="4" stroke-linecap="round"/>')
+        d.append(f'<path d="M{x-6} {eind} L{x} {y_naar} L{x+6} {eind} Z" fill="{kleur}"/>')
+        anker = "end" if kant == "links" else "start"
+        lx = x - 11 if kant == "links" else x + 11
+        d.append(_tekst(lx, (y_van + y_naar) / 2 + 3, label, 9, kleur, anker))
+
+    links = mid - kader_b / 2 - 22
+    rechts = mid + kader_b / 2 + 22
+    pijl(links, 105, 66, BLOED_ARM, "zuurstofarm", "links")
+    pijl(links, 184, 145, BLOED_ARM, "zuurstofarm", "links")
+    pijl(rechts, 66, 105, BLOED_RIJK, "zuurstofrijk", "rechts")
+    pijl(rechts, 145, 184, BLOED_RIJK, "zuurstofrijk", "rechts")
+
+    return _svg(breedte, h, "".join(d))
+
+
+def spierpaar(breedte=470):
+    """Waarom spieren in paren zitten: een spier kan alleen trekken.
+
+    Links de arm geplooid, rechts gestrekt. Telkens is de spier die samentrekt
+    kort en dik getekend, en de andere lang en dun. Het bot staat bovenop de
+    spieren getekend, want anders verdwijnt het achter het vlees.
+    """
+    h = 208
+    half = breedte / 2 - 8
+    d = []
+
+    def bot(x1, y1, x2, y2):
+        d.append(f'<line x1="{x1:.1f}" y1="{y1:.1f}" x2="{x2:.1f}" y2="{y2:.1f}" '
+                 f'stroke="{DARK}" stroke-width="13" stroke-linecap="round"/>')
+        d.append(f'<line x1="{x1:.1f}" y1="{y1:.1f}" x2="{x2:.1f}" y2="{y2:.1f}" '
+                 f'stroke="{BOT}" stroke-width="11" stroke-linecap="round"/>')
+
+    def arm(x0, titel, geplooid):
+        d.append(f'<rect x="{x0:.1f}" y="6" width="{half:.1f}" height="{h-16}" rx="10" '
+                 f'fill="{PAPER}" stroke="{BORDER}" stroke-width="1.4"/>')
+        d.append(_tekst(x0 + half / 2, 26, titel, 11.5, FOREST, "middle", True))
+
+        as_x = x0 + 96
+        schouder, elleboog = (as_x, 58), (as_x, 136)
+        hand = (as_x + 48, 182) if geplooid else (as_x, 196)
+
+        # Eerst de spieren, dan de botten eroverheen.
+        for kant, naam, werkt in [(-1, "buigspier", geplooid), (1, "strekspier", not geplooid)]:
+            dik = 11 if werkt else 6
+            hoog = 29 if werkt else 39
+            cy = 93 if werkt else 97
+            cx = as_x + kant * 20
+            d.append(f'<line x1="{cx}" y1="{cy-hoog}" x2="{as_x}" y2="58" stroke="{SPIER}" '
+                     f'stroke-width="2.4" opacity="0.8"/>')
+            d.append(f'<line x1="{cx}" y1="{cy+hoog}" x2="{as_x+kant*4}" y2="140" stroke="{SPIER}" '
+                     f'stroke-width="2.4" opacity="0.8"/>')
+            d.append(f'<ellipse cx="{cx}" cy="{cy}" rx="{dik}" ry="{hoog}" fill="{SPIER}" '
+                     f'opacity="{0.95 if werkt else 0.38}" stroke="{DARK}" stroke-width="1.1"/>')
+            anker = "end" if kant < 0 else "start"
+            lx = cx - dik - 7 if kant < 0 else cx + dik + 7
+            d.append(_tekst(lx, cy - 2, naam, 9.5, DARK if werkt else DIM, anker, werkt))
+            d.append(_tekst(lx, cy + 11, "trekt samen" if werkt else "ontspant", 9,
+                            DARK if werkt else DIM, anker))
+
+        bot(*schouder, *elleboog)
+        bot(*elleboog, *hand)
+        d.append(f'<circle cx="{elleboog[0]}" cy="{elleboog[1]}" r="6" fill="#ffffff" '
+                 f'stroke="{DARK}" stroke-width="1.5"/>')
+        d.append(_tekst(elleboog[0] - 14, elleboog[1] + 4, "elleboog", 9, DIM, "end"))
+
+    arm(0, "arm geplooid", True)
+    arm(breedte - half, "arm gestrekt", False)
+    return _svg(breedte, h, "".join(d))
+
+
+def schaduw(breedte=470):
+    """Waarom een schaduw ontstaat: licht gaat in rechte lijnen."""
+    h = 226
+    lamp = (56, 112)
+    voor_x1, voor_x2, voor_y1, voor_y2 = 178, 196, 96, 128
+    scherm = 404
+    d = [f'<rect x="{scherm}" y="24" width="14" height="168" rx="3" fill="{STEEN}" '
+         f'stroke="{DARK}" stroke-width="1.4"/>']
+
+    def straal(py, kleur, dik, streep=""):
+        helling = (py - lamp[1]) / (voor_x2 - lamp[0])
+        y_eind = lamp[1] + (scherm - lamp[0]) * helling
+        d.append(f'<line x1="{lamp[0]}" y1="{lamp[1]}" x2="{scherm}" y2="{y_eind:.1f}" '
+                 f'stroke="{kleur}" stroke-width="{dik}"{streep}/>')
+        return y_eind
+
+    boven = straal(voor_y1, AMBER, 1.4)
+    onder = straal(voor_y2, AMBER, 1.4)
+    for py in (voor_y1 - 10, voor_y2 + 10):
+        straal(py, AMBER, 1.2, ' opacity="0.45"')
+
+    # De schaduw zelf, als een donkere band op het scherm.
+    d.append(f'<rect x="{scherm}" y="{boven:.1f}" width="14" height="{onder-boven:.1f}" '
+             f'fill="{DARK}"/>')
+
+    d.append(f'<rect x="{voor_x1}" y="{voor_y1}" width="{voor_x2-voor_x1}" '
+             f'height="{voor_y2-voor_y1}" rx="3" fill="{FOREST}" stroke="{DARK}" stroke-width="1.4"/>')
+    d.append(f'<circle cx="{lamp[0]}" cy="{lamp[1]}" r="13" fill="{AMBER}"/>')
+    for hoek in range(0, 360, 45):
+        import math
+        r = math.radians(hoek)
+        d.append(f'<line x1="{lamp[0]+16*math.cos(r):.1f}" y1="{lamp[1]+16*math.sin(r):.1f}" '
+                 f'x2="{lamp[0]+22*math.cos(r):.1f}" y2="{lamp[1]+22*math.sin(r):.1f}" '
+                 f'stroke="{AMBER}" stroke-width="2" stroke-linecap="round"/>')
+
+    d.append(_tekst(lamp[0], h - 24, "lichtbron", 9.5, DIM))
+    d.append(_tekst((voor_x1 + voor_x2) / 2, h - 24, "voorwerp", 9.5, DIM))
+    d.append(_tekst(scherm + 7, h - 24, "scherm", 9.5, DIM))
+    d.append(_kussen(scherm - 12, (boven + onder) / 2 + 3, "schaduw", 9.5, DARK, "end", True))
+    return _svg(breedte, h, "".join(d))
+
+
+def spiegel_weerkaatsing(breedte=470):
+    """Licht kaatst van een spiegel terug onder dezelfde hoek."""
+    import math
+    h = 192
+    top = (235, 150)
+    d = []
+    # De spiegel, met arcering eronder zodat je ziet welke kant de achterkant is.
+    d.append(f'<line x1="86" y1="150" x2="384" y2="150" stroke="{DARK}" stroke-width="3"/>')
+    for x in range(90, 381, 14):
+        d.append(f'<line x1="{x}" y1="150" x2="{x-8}" y2="162" stroke="{DIM}" stroke-width="1.1"/>')
+    d.append(_tekst(384, 176, "de spiegel", 9.5, DIM, "end"))
+
+    d.append(f'<line x1="{top[0]}" y1="{top[1]}" x2="{top[0]}" y2="46" stroke="{DIM}" '
+             f'stroke-width="1.3" stroke-dasharray="5 4"/>')
+    d.append(_tekst(top[0] + 6, 52, "loodlijn", 9, DIM, "start"))
+
+    for van, naar, label, lx in [((115, 60), top, "invallende straal", 115),
+                                 (top, (355, 60), "teruggekaatste straal", 355)]:
+        d.append(f'<line x1="{van[0]}" y1="{van[1]}" x2="{naar[0]}" y2="{naar[1]}" '
+                 f'stroke="{AMBER}" stroke-width="2.6"/>')
+    # Pijlpunten die de looprichting aangeven.
+    for (x, y, dx, dy) in [(178, 106, 4, 3), (296, 104, 4, -3)]:
+        hoek = math.degrees(math.atan2(dy, dx))
+        d.append(f'<polygon points="0,-5 11,0 0,5" fill="{AMBER}" '
+                 f'transform="translate({x},{y}) rotate({hoek:.1f})"/>')
+    d.append(_tekst(112, 48, "invallende straal", 9.5, DARK, "middle"))
+    d.append(_tekst(358, 48, "teruggekaatste straal", 9.5, DARK, "middle"))
+
+    r = 34
+    for kant in (-1, 1):
+        px = top[0] + kant * r * math.sin(math.radians(53))
+        py = top[1] - r * math.cos(math.radians(53))
+        boog = f'M{px:.1f} {py:.1f} A {r} {r} 0 0 {1 if kant < 0 else 0} {top[0]} {top[1]-r}'
+        d.append(f'<path d="{boog}" fill="none" stroke="{FOREST}" stroke-width="1.6"/>')
+        mx = top[0] + kant * (r + 12) * math.sin(math.radians(26.5))
+        my = top[1] - (r + 12) * math.cos(math.radians(26.5)) + 3
+        d.append(_tekst(mx, my, "hoek", 9, FOREST, "middle"))
+    return _svg(breedte, h, "".join(d))
+
+
+def breking(breedte=470):
+    """Waarom een rietje in een glas water geknikt lijkt."""
+    h = 212
+    gx1, gx2, gy1, gy2 = 156, 316, 46, 200
+    water_y = 100
+    d = [f'<rect x="{gx1}" y="{gy1}" width="{gx2-gx1}" height="{gy2-gy1}" rx="6" '
+         f'fill="#ffffff" stroke="{DARK}" stroke-width="1.8"/>',
+         f'<rect x="{gx1+2}" y="{water_y}" width="{gx2-gx1-4}" height="{gy2-water_y-2}" '
+         f'rx="4" fill="{ZEE}" opacity="0.32"/>',
+         f'<line x1="{gx1+2}" y1="{water_y}" x2="{gx2-2}" y2="{water_y}" stroke="{ZEE}" stroke-width="2"/>']
+    d.append(_tekst(gx2 + 10, water_y + 4, "wateroppervlak", 9.5, DIM, "start"))
+
+    knik = (252, water_y)
+    for (x1, y1), (x2, y2) in [((306, 26), knik), (knik, (230, 192))]:
+        d.append(f'<line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" stroke="{AMBER}" '
+                 f'stroke-width="9" stroke-linecap="round"/>')
+    d.append(f'<circle cx="{knik[0]}" cy="{knik[1]}" r="4" fill="{DARK}"/>')
+    d.append(f'<line x1="{gx1-6}" y1="{water_y-26}" x2="{knik[0]-10}" y2="{water_y-4}" '
+             f'stroke="{DIM}" stroke-width="1.1"/>')
+    d.append(_tekst(gx1 - 10, water_y - 24, "hier lijkt het geknikt", 9.5, DARK, "end"))
+    return _svg(breedte, h, "".join(d))
+
+
+def _golf(x0, x1, y, amplitude, golven, kleur, dik=2.2):
+    import math
+    punten = []
+    n = 160
+    for i in range(n + 1):
+        x = x0 + (x1 - x0) * i / n
+        hoek = 2 * math.pi * golven * i / n
+        punten.append(f"{x:.1f},{y - amplitude * math.sin(hoek):.1f}")
+    return (f'<polyline points="{" ".join(punten)}" fill="none" stroke="{kleur}" '
+            f'stroke-width="{dik}" stroke-linejoin="round"/>')
+
+
+def geluidsgolf(breedte=470):
+    """Hoog tegenover laag, en luid tegenover zacht, als golven getekend."""
+    h = 238
+    half = breedte / 2 - 8
+    d = []
+
+    def kader(x0, titel):
+        d.append(f'<rect x="{x0:.1f}" y="6" width="{half:.1f}" height="{h-18}" rx="10" '
+                 f'fill="{PAPER}" stroke="{BORDER}" stroke-width="1.4"/>')
+        d.append(_tekst(x0 + half / 2, 26, titel, 11.5, FOREST, "middle", True))
+
+    kader(0, "hoog of laag")
+    kader(breedte - half, "luid of zacht")
+
+    for (x0, paren) in [(0, [("lage toon", 2, 17, 76), ("hoge toon", 6, 17, 158)]),
+                        (breedte - half, [("zacht geluid", 4, 8, 76), ("luid geluid", 4, 24, 158)])]:
+        for naam, golven, amp, y in paren:
+            d.append(f'<line x1="{x0+18}" y1="{y}" x2="{x0+half-18}" y2="{y}" stroke="{BORDER}" '
+                     f'stroke-width="1.2"/>')
+            d.append(_golf(x0 + 18, x0 + half - 18, y, amp, golven, AMBER))
+            d.append(_tekst(x0 + half / 2, y + 42, naam, 10, DARK, "middle", True))
+
+    d.append(_tekst(half / 2, h - 26, "sneller trillen klinkt hoger", 9.5, DIM))
+    d.append(_tekst(breedte - half / 2, h - 26, "groter trillen klinkt luider", 9.5, DIM))
+    return _svg(breedte, h, "".join(d))
+
+
+def _batterij(mx, y, achtergrond=PAPER):
+    uit = [f'<rect x="{mx-28:.1f}" y="{y-9}" width="56" height="18" fill="{achtergrond}" stroke="none"/>']
+    for dx, hh, dik in [(-12, 20, 2.6), (-2, 11, 4.5), (8, 20, 2.6), (18, 11, 4.5)]:
+        uit.append(f'<line x1="{mx+dx:.1f}" y1="{y-hh/2}" x2="{mx+dx:.1f}" y2="{y+hh/2}" '
+                   f'stroke="{DARK}" stroke-width="{dik}"/>')
+    return "".join(uit)
+
+
+def serie_parallel(breedte=470):
+    """Twee lampjes na elkaar tegenover twee lampjes elk op hun eigen tak.
+
+    Het verschil dat telt: gaat er één lampje stuk, dan is in serie de hele
+    kring onderbroken, en bij een parallelschakeling alleen die ene tak.
+    """
+    h = 248
+    half = breedte / 2 - 8
+    ly0, ly1 = 58, 150
+    d = []
+
+    def kader(x0, titel):
+        d.append(f'<rect x="{x0:.1f}" y="6" width="{half:.1f}" height="{h-18}" rx="10" '
+                 f'fill="{PAPER}" stroke="{BORDER}" stroke-width="1.4"/>')
+        d.append(_tekst(x0 + half / 2, 28, titel, 11.5, FOREST, "middle", True))
+
+    def lus(x0):
+        a, b = x0 + 34, x0 + half - 34
+        d.append(f'<rect x="{a}" y="{ly0}" width="{b-a}" height="{ly1-ly0}" rx="12" '
+                 f'fill="none" stroke="{DARK}" stroke-width="2.4"/>')
+        d.append(_batterij((a + b) / 2, ly1))
+        d.append(_tekst((a + b) / 2, ly1 + 24, "batterij", 9.5, DIM))
+        return a, b
+
+    def lamp_op_draad(cx, cy):
+        d.append(f'<rect x="{cx-15:.1f}" y="{cy-16}" width="30" height="32" fill="{PAPER}" stroke="none"/>')
+        d.append(_lampje(cx, cy, 13))
+
+    def slot(x0, boven, onder, kleur):
+        d.append(_tekst(x0 + half / 2, h - 50, boven, 10, DARK, "middle", True))
+        d.append(_tekst(x0 + half / 2, h - 34, onder, 10, kleur, "middle", True))
+
+    kader(0, "in serie")
+    a, b = lus(0)
+    for cx in (a + (b - a) / 3, a + 2 * (b - a) / 3):
+        lamp_op_draad(cx, ly0)
+    slot(0, "één lampje stuk", "= allebei uit", BLOED_RIJK)
+
+    x0 = breedte - half
+    kader(x0, "parallel")
+    a, b = lus(x0)
+    tak = (a + b) / 2
+    d.append(f'<line x1="{tak}" y1="{ly0}" x2="{tak}" y2="{ly1-14}" stroke="{DARK}" stroke-width="2.4"/>')
+    for cx in ((a + tak) / 2, (tak + b) / 2):
+        lamp_op_draad(cx, ly0)
+    slot(x0, "één lampje stuk", "= het andere brandt door", FOREST)
+
+    return _svg(breedte, h, "".join(d))
+
+
+def staafmagneet(breedte=470):
+    """Gelijke polen stoten af, verschillende trekken aan."""
+    h = 212
+    half = breedte / 2 - 8
+    magneet_b, magneet_h = 64, 26
+    y = 78
+    d = []
+
+    def magneet(x, polen):
+        for i, naam in enumerate(polen):
+            kleur = BLOED_RIJK if naam == "N" else "#3b6ea5"
+            d.append(f'<rect x="{x+i*magneet_b/2:.1f}" y="{y}" width="{magneet_b/2}" '
+                     f'height="{magneet_h}" fill="{kleur}" stroke="{DARK}" stroke-width="1.3"/>')
+            d.append(_tekst(x + i * magneet_b / 2 + magneet_b / 4, y + magneet_h / 2 + 4,
+                            naam, 12, "#ffffff", "middle", True))
+
+    def paneel(x0, titel, rechtse_polen, naar_buiten, uitkomst, kleur):
+        d.append(f'<rect x="{x0:.1f}" y="6" width="{half:.1f}" height="{h-16}" rx="10" '
+                 f'fill="{PAPER}" stroke="{BORDER}" stroke-width="1.4"/>')
+        d.append(_tekst(x0 + half / 2, 28, titel, 11.5, FOREST, "middle", True))
+        magneet(x0 + 34, ("Z", "N"))
+        magneet(x0 + 129, rechtse_polen)
+        # De pijlen staan náást het paar, niet ertussen: naar buiten is afstoten,
+        # naar binnen is aantrekken. Tussen de magneten is er te weinig plaats.
+        my = y + magneet_h / 2
+        for binnen, buiten in [(x0 + 28, x0 + 6), (x0 + 199, x0 + 221)]:
+            van, naar = (binnen, buiten) if naar_buiten else (buiten, binnen)
+            d.append(f'<line x1="{van}" y1="{my}" x2="{naar}" y2="{my}" stroke="{kleur}" '
+                     f'stroke-width="3.2" stroke-linecap="round"/>')
+            richting = 1 if naar > van else -1
+            d.append(f'<path d="M{naar+richting*7} {my} l{-8*richting} -5.5 l0 11 Z" fill="{kleur}"/>')
+        d.append(_tekst(x0 + half / 2, y + 66, uitkomst, 10.5, kleur, "middle", True))
+
+    paneel(0, "N tegenover N", ("N", "Z"), True, "ze duwen elkaar weg", BLOED_RIJK)
+    paneel(breedte - half, "N tegenover Z", ("Z", "N"), False, "ze trekken elkaar aan", FOREST)
+    d.append(_tekst(breedte / 2, h - 8,
+                    "N is de noordpool, Z de zuidpool. Gelijke polen stoten af, verschillende trekken aan.",
+                    9.5, DIM))
+    return _svg(breedte, h, "".join(d))
+
+
+def dag_en_nacht(breedte=470):
+    """De aarde draait om haar as; de kant naar de zon heeft dag."""
+    import math
+    h = 212
+    zon = (58, 116)
+    aarde = (306, 116)
+    r = 62
+    knip = _id("dagnacht")
+    d = [f'<clipPath id="{knip}"><circle cx="{aarde[0]}" cy="{aarde[1]}" r="{r}"/></clipPath>']
+
+    # Zonnestralen, evenwijdig, want de zon staat onvoorstelbaar ver.
+    for dy in range(-66, 67, 22):
+        d.append(f'<line x1="{zon[0]+34}" y1="{aarde[1]+dy}" x2="{aarde[0]-r-12}" y2="{aarde[1]+dy}" '
+                 f'stroke="{AMBER}" stroke-width="1.6"/>')
+        d.append(f'<path d="M{aarde[0]-r-6} {aarde[1]+dy} l-9 -4.5 l0 9 Z" fill="{AMBER}"/>')
+
+    d.append(f'<circle cx="{zon[0]}" cy="{zon[1]}" r="30" fill="{AMBER}"/>')
+    for hoek in range(0, 360, 30):
+        rr = math.radians(hoek)
+        d.append(f'<line x1="{zon[0]+33*math.cos(rr):.1f}" y1="{zon[1]+33*math.sin(rr):.1f}" '
+                 f'x2="{zon[0]+41*math.cos(rr):.1f}" y2="{zon[1]+41*math.sin(rr):.1f}" '
+                 f'stroke="{AMBER}" stroke-width="2.4" stroke-linecap="round"/>')
+    d.append(_tekst(zon[0], zon[1] + 4, "zon", 11, "#ffffff", "middle", True))
+
+    # De aarde: linkerhelft verlicht, rechterhelft in het donker.
+    d.append(f'<rect x="{aarde[0]-r}" y="{aarde[1]-r}" width="{r}" height="{2*r}" '
+             f'fill="{ZEE}" opacity="0.45" clip-path="url(#{knip})"/>')
+    d.append(f'<rect x="{aarde[0]}" y="{aarde[1]-r}" width="{r}" height="{2*r}" '
+             f'fill="{DARK}" clip-path="url(#{knip})"/>')
+    d.append(f'<circle cx="{aarde[0]}" cy="{aarde[1]}" r="{r}" fill="none" stroke="{DARK}" stroke-width="1.8"/>')
+
+    # De scheve as, met de noordpool erop.
+    scheef = math.radians(23.5)
+    ax, ay = (r + 16) * math.sin(scheef), (r + 16) * math.cos(scheef)
+    d.append(f'<line x1="{aarde[0]-ax:.1f}" y1="{aarde[1]+ay:.1f}" x2="{aarde[0]+ax:.1f}" '
+             f'y2="{aarde[1]-ay:.1f}" stroke="{DARK}" stroke-width="2.2"/>')
+    d.append(f'<circle cx="{aarde[0]+ax:.1f}" cy="{aarde[1]-ay:.1f}" r="3.5" fill="{DARK}"/>')
+    d.append(_tekst(aarde[0] + ax + 8, aarde[1] - ay + 4, "noordpool", 9, DIM, "start"))
+
+    d.append(_tekst(aarde[0] - 31, aarde[1] + 4, "dag", 12, DARK, "middle", True))
+    d.append(_tekst(aarde[0] + 31, aarde[1] + 4, "nacht", 12, "#ffffff", "middle", True))
+    d.append(_tekst(aarde[0], aarde[1] + r + 24, "de aarde draait in 24 uur één keer rond", 9.5, DIM))
+    return _svg(breedte, h, "".join(d))
+
+
+def _maanvorm(cx, cy, r, fase):
+    """Het verlichte deel van de maan bij een fase tussen 0 en 1.
+
+    0 is nieuwe maan, 0,5 is volle maan. De rand tussen licht en donker is
+    een halve ellips; hoe platter die is, hoe dichter je bij kwartier zit.
+    """
+    import math
+    k = math.cos(2 * math.pi * fase)
+    rx = abs(k) * r
+    wassend = fase < 0.5
+    buiten_sweep = 1 if wassend else 0
+    binnen_sweep = (1 if k < 0 else 0) if wassend else (0 if k < 0 else 1)
+    return (f'M{cx} {cy-r} A {r} {r} 0 0 {buiten_sweep} {cx} {cy+r} '
+            f'A {rx:.2f} {r} 0 0 {binnen_sweep} {cx} {cy-r} Z')
+
+
+def maanfasen(breedte=470):
+    """De acht standen van de maan, van nieuw naar vol en terug."""
+    h = 186
+    namen = ["nieuwe maan", "wassende sikkel", "eerste kwartier", "wassende maan",
+             "volle maan", "afnemende maan", "laatste kwartier", "afnemende sikkel"]
+    r = 21
+    kolom = breedte / 4
+    d = []
+    for i, naam in enumerate(namen):
+        rij, kol = divmod(i, 4)
+        cx = kolom * kol + kolom / 2
+        cy = 34 + rij * 86
+        d.append(f'<circle cx="{cx:.1f}" cy="{cy}" r="{r}" fill="{DARK}" stroke="{DARK}" stroke-width="1.2"/>')
+        fase = i / 8
+        if i:
+            d.append(f'<path d="{_maanvorm(cx, cy, r, fase)}" fill="#f2efe4"/>')
+        for j, regel in enumerate(naam.split(" ")):
+            d.append(_tekst(cx, cy + r + 15 + j * 12, regel, 9.5, DARK))
+    d.append(_tekst(breedte / 2, h - 6,
+                    "De zon verlicht altijd de helft van de maan. Je kijkt er alleen elke avond anders tegenaan.",
+                    9.5, DIM))
+    return _svg(breedte, h, "".join(d))
+
+
+def zonnestelsel(breedte=470):
+    """De zon en de acht planeten op een rij, in de juiste volgorde."""
+    h = 174
+    planeten = [("Mercurius", 5.7, "#9a948a"), ("Venus", 6.6, "#d8b36a"),
+                ("aarde", 6.8, "#4f86b0"), ("Mars", 5.9, "#a2521f"),
+                ("Jupiter", 13.0, "#c9a173"), ("Saturnus", 12.3, "#dcc48d"),
+                ("Uranus", 9.4, "#8fc4c9"), ("Neptunus", 9.3, "#4a6fae")]
+    y = 74
+    x0, x1 = 104, breedte - 24
+    d = [f'<line x1="82" y1="{y}" x2="{x1}" y2="{y}" stroke="{BORDER}" stroke-width="1.4" '
+         f'stroke-dasharray="5 5"/>']
+    # De zon staat links, maar past niet heel: er is maar een rand van te zien.
+    d.append(f'<path d="M20 {y-58} A 58 58 0 0 1 20 {y+58} Z" fill="{AMBER}"/>')
+    d.append(_tekst(24, y + 4, "zon", 11, "#ffffff", "start", True))
+
+    stap = (x1 - x0) / (len(planeten) - 1)
+    for i, (naam, r, kleur) in enumerate(planeten):
+        cx = x0 + i * stap
+        if naam == "Saturnus":
+            d.append(f'<ellipse cx="{cx:.1f}" cy="{y}" rx="{r*1.9:.1f}" ry="{r*0.5:.1f}" '
+                     f'fill="none" stroke="{ZAND_DONKER}" stroke-width="2.4"/>')
+        d.append(f'<circle cx="{cx:.1f}" cy="{y}" r="{r}" fill="{kleur}" stroke="{DARK}" stroke-width="1.2"/>')
+        vet = naam == "aarde"
+        d.append(_tekst(cx, y + 34 + (i % 2) * 14, naam, 9.5, DARK if vet else DIM, "middle", vet))
+    d.append(_tekst(breedte / 2, h - 26, "Niet op schaal: in het echt staan de planeten "
+                                         "duizenden keren verder uit elkaar,", 9.5, DIM))
+    d.append(_tekst(breedte / 2, h - 12, "en past de aarde meer dan duizend keer in Jupiter.", 9.5, DIM))
+    return _svg(breedte, h, "".join(d))
 
 
 def kustdoorsnede(breedte=470):
