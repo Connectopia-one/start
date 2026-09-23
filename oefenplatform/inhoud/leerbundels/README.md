@@ -24,6 +24,16 @@ bundel hoort bij allebei, dus die upload je twee keer.
 
 Klaar: `historisch-referentiekader.pdf` (4 blz) en `prehistorie.pdf` (5 blz).
 
+## 🧱 Basis — wiskunde
+
+`bron/maak_basis.py` maakt vijf bundels voor de herhaling van de bouwstenen:
+de komma bij maal en gedeeld door 10, 100 en 1000, maten omzetten,
+wiskundewoorden, breuken en kommagetallen, en ggd en kgv. Ze krijgen het
+achtervoegsel `-basis` en staan in `wiskunde/`. De tekeningen die erbij kwamen
+staan onderaan `svg.py`: `cijfertabel`, `kommasprong`, `benoemde_som`,
+`breuk_namen`, `groepjes`, `rijtjes` en `dubbele_getallenlijn`. Zie ook
+`../basis/README.md`.
+
 ## Echte foto's in een bundel
 
 Naast de tekeningen kan er ook echt beeldmateriaal in, met `bundel.foto(...)`.

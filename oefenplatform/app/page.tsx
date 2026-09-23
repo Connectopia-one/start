@@ -1,10 +1,11 @@
 import Link from "next/link";
 import { Header } from "@/components/Header";
 import { getSessionProfile } from "@/lib/auth";
-import { NIVEAUS } from "@/lib/niveaus";
-import { startUitleg } from "@/inhoud/onderwijsdoelen";
+import { LEERJAARNIVEAUS, vindNiveau } from "@/lib/niveaus";
+import { startUitleg, basisUitleg } from "@/inhoud/onderwijsdoelen";
 
 export default async function HomePage() {
+  const basis = vindNiveau("basis")!;
   const session = await getSessionProfile();
 
   return (
@@ -51,7 +52,7 @@ export default async function HomePage() {
         </p>
 
         <div className="mt-8 grid gap-4 sm:grid-cols-2">
-          {NIVEAUS.map((n) => (
+          {LEERJAARNIVEAUS.map((n) => (
             <Link
               key={n.slug}
               href={`/niveaus/${n.slug}`}
@@ -63,6 +64,21 @@ export default async function HomePage() {
             </Link>
           ))}
         </div>
+
+        {/* Herhaling van de bouwstenen staat los van de vier leerjaren: een kind
+            uit eender welke categorie kan het nodig hebben. */}
+        <Link
+          href={`/niveaus/${basis.slug}`}
+          className="mt-4 flex items-center justify-between gap-4 rounded-xl border border-border bg-surface px-6 py-5 transition hover:border-forest hover:shadow-sm"
+        >
+          <span>
+            <span className="font-display text-lg font-semibold text-ink">
+              {basis.emoji} {basis.naam}
+            </span>
+            <span className="mt-1 block text-sm text-ink-dim">{basisUitleg}</span>
+          </span>
+          <span aria-hidden className="shrink-0 text-forest">&rarr;</span>
+        </Link>
 
         {/* Los van de vier categorieën, want het hoort niet bij het betalende
             aanbod: een gratis verzameling links naar bestaand materiaal. */}

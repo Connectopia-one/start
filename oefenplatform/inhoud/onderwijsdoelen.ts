@@ -139,3 +139,10 @@ export const startUitleg = {
   linkTekst: "Bekijk welke doelen we gebruiken",
   link: "/onderwijsdoelen",
 };
+
+/*
+  De zin onder 🧱 Basis op de startpagina. Basis is herhaling van de
+  bouwstenen, los van een leerjaar.
+*/
+export const basisUitleg =
+  "Nog niet vlot met de komma, maten, breuken of ggd en kgv? Hier herhaal je de bouwstenen stap voor stap, met een leerbundel en oefeningen. Voor elk niveau.";

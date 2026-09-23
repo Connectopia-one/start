@@ -2915,3 +2915,227 @@ def middelmaten(getallen, breedte=470):
     d.append(_tekst(breedte / 2, h - 12,
                     f"variatiebreedte: {hoog} − {laag} = {hoog - laag}", 10, DIM))
     return _svg(breedte, h, "".join(d))
+
+
+# ---------------------------------------------------------------------------
+# 🧱 Basis — de bouwstenen van wiskunde
+# ---------------------------------------------------------------------------
+
+def cijfertabel(koppen, rijen, breedte=470, accent=None, labelbreedte=130):
+    """Een tabel met één cijfer per vakje: de plaatswaardetabel (D H T E t h d)
+    of de herleidingstabel voor maten (km hm dam m …).
+
+    rijen: lijst van dicts met
+      cijfers    — één tekst per kolom ("" voor een leeg vakje)
+      komma      — na welke kolom (index) de komma staat, of None
+      label      — tekst rechts van de rij, bv. "= 3,5 km"
+      bijgezet   — indices van nullen die je zelf moest bijzetten (amber)
+    accent: index van de kolom waarvan de kop in het groen staat (E, m, g, l).
+    """
+    n = len(koppen)
+    cel = min(44, (breedte - labelbreedte) / n)
+    x0 = 4
+    kop_h, rij_h, gap = 26, 34, 10
+    d = []
+    for i, k in enumerate(koppen):
+        x = x0 + i * cel
+        vul = FOREST if i == accent else "#ffffff"
+        kl = "#ffffff" if i == accent else DARK
+        d.append(f'<rect x="{x+2:.1f}" y="4" width="{cel-4:.1f}" height="{kop_h}" rx="6" '
+                 f'fill="{vul}" stroke="{DARK}" stroke-width="1.2"/>')
+        d.append(_tekst(x + cel / 2, 4 + kop_h / 2 + 4, k, 11, kl, vet=True))
+    for r, rij in enumerate(rijen):
+        y = 4 + kop_h + gap + r * (rij_h + gap)
+        bijgezet = set(rij.get("bijgezet", ()))
+        for i, c in enumerate(rij["cijfers"]):
+            x = x0 + i * cel
+            extra = i in bijgezet
+            rand = AMBER if extra else BORDER
+            streep = ' stroke-dasharray="4 3"' if extra else ""
+            d.append(f'<rect x="{x+2:.1f}" y="{y}" width="{cel-4:.1f}" height="{rij_h}" rx="6" '
+                     f'fill="#ffffff" stroke="{rand}" stroke-width="1.4"{streep}/>')
+            if c:
+                d.append(_tekst(x + cel / 2, y + rij_h / 2 + 6, c, 16, AMBER if extra else INK, vet=True))
+        if rij.get("komma") is not None:
+            kx = x0 + (rij["komma"] + 1) * cel
+            d.append(f'<circle cx="{kx:.1f}" cy="{y+rij_h-5}" r="4.2" fill="{AMBER}"/>')
+        if rij.get("label"):
+            d.append(_tekst(x0 + n * cel + 12, y + rij_h / 2 + 5, rij["label"], 12.5, DARK, anker="start", vet=True))
+    h = 4 + kop_h + gap + len(rijen) * (rij_h + gap)
+    return _svg(breedte, h, "".join(d))
+
+
+def kommasprong(getal, sprongen, som, breedte=470):
+    """De komma springt: bij × 10 één plaats naar rechts, bij : 10 één naar links.
+
+    getal    — zoals je het schrijft, bv. "3,45" of "45"
+    sprongen — +2 is twee plaatsen naar rechts (× 100), -3 drie naar links
+    som      — de tekst erboven, bv. "3,45 × 100 = 345"
+    Nullen die je moet bijzetten, staan in een amberkleurig stippelvakje.
+    """
+    heel, _, deel = getal.partition(",")
+    cijfers = heel + deel
+    oud = len(heel)
+    nieuw = oud + sprongen
+    links = max(0, 1 - nieuw)
+    rechts = max(0, nieuw - len(cijfers))
+    cijfers = "0" * links + cijfers + "0" * rechts
+    oud += links
+    nieuw += links
+    extra = set(range(links)) | set(range(len(cijfers) - rechts, len(cijfers)))
+
+    cel = 40
+    b = len(cijfers) * cel
+    x0 = (breedte - b) / 2
+    y = 70
+    hh = 40
+    d = [_tekst(breedte / 2, 22, som, 15, DARK, vet=True)]
+    for i, c in enumerate(cijfers):
+        x = x0 + i * cel
+        rand = AMBER if i in extra else BORDER
+        streep = ' stroke-dasharray="4 3"' if i in extra else ""
+        d.append(f'<rect x="{x+3:.1f}" y="{y}" width="{cel-6}" height="{hh}" rx="7" '
+                 f'fill="#ffffff" stroke="{rand}" stroke-width="1.5"{streep}/>')
+        d.append(_tekst(x + cel / 2, y + hh / 2 + 7, c, 19, AMBER if i in extra else INK, vet=True))
+    # de oude komma, grijs en open
+    ox = x0 + oud * cel
+    d.append(f'<circle cx="{ox:.1f}" cy="{y+hh-4}" r="4.6" fill="#ffffff" stroke="{DIM}" stroke-width="1.5"/>')
+    # de sprongen, één boogje per plaats
+    stap = 1 if sprongen > 0 else -1
+    for k in range(abs(sprongen)):
+        a = ox + k * stap * cel
+        z = a + stap * cel
+        d.append(f'<path d="M{a:.1f} {y-4} Q{(a+z)/2:.1f} {y-26} {z:.1f} {y-4}" fill="none" '
+                 f'stroke="{AMBER}" stroke-width="1.8"/>')
+        d.append(f'<polygon points="{z:.1f},{y-3} {z-stap*7:.1f},{y-8} {z-stap*2:.1f},{y-11}" fill="{AMBER}"/>')
+    # de nieuwe komma, vol amber — tenzij ze achteraan staat: dan is het een geheel getal
+    nx = x0 + nieuw * cel
+    if nieuw < len(cijfers):
+        d.append(f'<circle cx="{nx:.1f}" cy="{y+hh-4}" r="5.2" fill="{AMBER}"/>')
+    else:
+        d.append(f'<circle cx="{nx:.1f}" cy="{y+hh-4}" r="5.2" fill="none" stroke="{AMBER}" stroke-width="1.6" stroke-dasharray="2 2"/>')
+    return _svg(breedte, y + hh + 12, "".join(d))
+
+
+def benoemde_som(delen, breedte=470, grootte=26):
+    """Een bewerking in groot, met onder elk deel zijn naam.
+
+    delen: lijst van (tekst, naam) — naam None voor tekens als + of =.
+    Bv. [("20", "deeltal"), (":", None), ("3", "deler"), ("=", None),
+         ("6", "quotiënt"), ("rest 2", "rest")]
+    """
+    breedtes = [max(len(t) * grootte * 0.62, 30 if n is None else 70) + 14 for t, n in delen]
+    totaal = sum(breedtes)
+    x = (breedte - totaal) / 2
+    d = []
+    for (tekst, naam), bw in zip(delen, breedtes):
+        cx = x + bw / 2
+        kleur = DIM if naam is None else INK
+        d.append(_tekst(cx, 44, tekst, grootte, kleur, vet=naam is not None))
+        if naam:
+            d.append(f'<line x1="{cx:.1f}" y1="54" x2="{cx:.1f}" y2="66" stroke="{AMBER}" stroke-width="1.5"/>')
+            d.append(_tekst(cx, 82, naam, 11.5, FOREST, vet=True))
+        x += bw
+    return _svg(breedte, 92, "".join(d))
+
+
+def breuk_namen(teller=3, noemer=4, breedte=470):
+    """Een grote breuk met pijltjes naar teller, breukstreep en noemer, en
+    rechts een strook in `noemer` stukken waarvan er `teller` gekleurd zijn."""
+    d = []
+    bx = 70
+    d.append(_tekst(bx, 60, str(teller), 40, INK, vet=True))
+    d.append(f'<line x1="{bx-26}" y1="78" x2="{bx+26}" y2="78" stroke="{INK}" stroke-width="3.2"/>')
+    d.append(_tekst(bx, 126, str(noemer), 40, INK, vet=True))
+    uitleg = [
+        (36, "teller", "hoeveel stukken je neemt"),
+        (78, "breukstreep", "betekent 'gedeeld door'"),
+        (120, "noemer", "in hoeveel gelijke stukken"),
+    ]
+    for y, naam, wat in uitleg:
+        d.append(f'<line x1="{bx+32}" y1="{y}" x2="{bx+62}" y2="{y}" stroke="{AMBER}" stroke-width="1.5"/>')
+        d.append(_tekst(bx + 68, y + 4, naam, 12, FOREST, anker="start", vet=True))
+        d.append(_tekst(bx + 68, y + 18, wat, 9.5, DIM, anker="start"))
+    sx, sb, sh = 300, breedte - 306, 40
+    for k in range(noemer):
+        x = sx + k * sb / noemer
+        vul = FOREST if k < teller else "#ffffff"
+        d.append(f'<rect x="{x:.1f}" y="58" width="{sb/noemer:.1f}" height="{sh}" fill="{vul}" '
+                 f'stroke="{DARK}" stroke-width="1.4"/>')
+    d.append(_tekst(sx + sb / 2, 118, f"{teller} van de {noemer} gelijke stukken", 10, DIM))
+    return _svg(breedte, 142, "".join(d))
+
+
+def groepjes(totaal, per, breedte=470):
+    """Stippen verdeeld in groepjes van `per`, met wat overblijft in amber.
+    Toont een deling met rest: 20 : 3 = 6, rest 2."""
+    aantal, rest = divmod(totaal, per)
+    r = 7
+    stap = 2 * r + 5
+    groep_b = per * stap + 14
+    gap = 10
+    per_rij = max(1, int((breedte + gap) // (groep_b + gap)))
+    d = []
+    blokken = [(per, FOREST)] * aantal + ([(rest, AMBER)] if rest else [])
+    for i, (n, kleur) in enumerate(blokken):
+        rij, kol = divmod(i, per_rij)
+        x = kol * (groep_b + gap)
+        y = rij * 44
+        rest_blok = kleur == AMBER
+        d.append(f'<rect x="{x+1}" y="{y+4}" width="{groep_b-2 if not rest_blok else n*stap+12}" height="30" rx="15" '
+                 f'fill="none" stroke="{kleur}" stroke-width="1.4"'
+                 + (' stroke-dasharray="4 3"' if rest_blok else "") + '/>')
+        for k in range(n):
+            d.append(f'<circle cx="{x + 8 + r + k*stap:.1f}" cy="{y+19}" r="{r}" fill="{kleur}"/>')
+    rijen = (len(blokken) + per_rij - 1) // per_rij
+    return _svg(breedte, rijen * 44 + 2, "".join(d))
+
+
+def rijtjes(rijen, breedte=470, labelbreedte=118):
+    """Rijtjes getallen als bolletjes: delers of veelvouden van twee getallen.
+
+    rijen: lijst van (label, getallen, gemeenschappelijk, omcirkeld)
+      gemeenschappelijk — getallen die in beide rijen staan (groen gevuld)
+      omcirkeld         — het ene getal waar het om draait (amber ring)
+    Een getal None tekent "…" (de rij gaat verder).
+    """
+    d = []
+    for r, (label, getallen, samen, rond) in enumerate(rijen):
+        y = 8 + r * 46
+        d.append(_tekst(0, y + 22, label, 10.5, DARK, anker="start", vet=True))
+        stap = min(42, (breedte - labelbreedte) / max(1, len(getallen)))
+        for i, g in enumerate(getallen):
+            cx = labelbreedte + i * stap + stap / 2
+            if g is None:
+                d.append(_tekst(cx, y + 22, "…", 13, DIM))
+                continue
+            gevuld = g in samen
+            vul = FOREST if gevuld else "#ffffff"
+            kl = "#ffffff" if gevuld else INK
+            d.append(f'<circle cx="{cx:.1f}" cy="{y+18}" r="15" fill="{vul}" stroke="{FOREST if gevuld else BORDER}" stroke-width="1.4"/>')
+            if g == rond:
+                d.append(f'<circle cx="{cx:.1f}" cy="{y+18}" r="19.5" fill="none" stroke="{AMBER}" stroke-width="2.4"/>')
+            d.append(_tekst(cx, y + 22.5, str(g), 11.5, kl, vet=True))
+    return _svg(breedte, 8 + len(rijen) * 46, "".join(d))
+
+
+def dubbele_getallenlijn(links, rechts, merken, breedte=470):
+    """Een getallenlijn met boven elk streepje de breuk en eronder het kommagetal:
+    hetzelfde punt, twee namen.  merken = lijst van (waarde, boven, onder)."""
+    m = 64
+    y = 50
+    def x(v):
+        return m + (v - links) / (rechts - links) * (breedte - 2 * m)
+    d = [f'<line x1="{m}" y1="{y}" x2="{breedte-m}" y2="{y}" stroke="{INK}" stroke-width="2"/>',
+         f'<path d="M{breedte-m+8} {y} l-9 -5 v10 z" fill="{INK}"/>']
+    for waarde, boven, onder in merken:
+        px = x(waarde)
+        geheel = float(waarde).is_integer()
+        d.append(f'<line x1="{px:.1f}" y1="{y-10}" x2="{px:.1f}" y2="{y+10}" stroke="{DARK if geheel else FOREST}" stroke-width="{2.6 if geheel else 2}"/>')
+        if boven:
+            d.append(_tekst(px, y - 18, boven, 12, FOREST, vet=True))
+        if onder:
+            d.append(_tekst(px, y + 28, onder, 12, AMBER, vet=True))
+    d.append(_tekst(4, y - 18, "breuk", 9, DIM, anker="start"))
+    d.append(_tekst(4, y + 28, "komma", 9, DIM, anker="start"))
+    return _svg(breedte, y + 40, "".join(d))
