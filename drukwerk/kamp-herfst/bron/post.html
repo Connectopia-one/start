@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<title>Herfstkampen, post voor sociale media</title>
+<style>
+  /*
+    Het vierkante beeld voor Instagram en Facebook: 1080 x 1350 px.
+    Zelfde kleuren en fonts als de flyer, maar in pixels in plaats van
+    millimeters, want dit gaat naar een scherm en niet naar de drukker.
+  */
+  @font-face { font-family: "Nunito"; src: url(nunito.woff2) format("woff2"); font-weight: 200 1000; }
+  @font-face { font-family: "Caveat"; src: url(caveat.woff2) format("woff2"); font-weight: 700; }
+
+  :root {
+    --cream: #fbf6ea;
+    --ink: #2a2d26;
+    --ink-dim: #61675a;
+    --border: #e6e0d0;
+    --green: #2f4a22;
+    --green-mid: #5c7a45;
+    --sage: #8aa173;
+    --sage-soft: #dfe7d0;
+    --purple: #5e2d91;
+    --orange: #d96e25;
+    --blue: #3d7cb0;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1080px; height: 1350px; background: var(--cream); }
+  body { font-family: "Nunito", sans-serif; color: var(--ink); position: relative; overflow: hidden; }
+
+  .hero { position: relative; height: 430px; overflow: hidden; }
+  .hero img { width: 100%; height: 100%; object-fit: cover; object-position: 50% 45%; display: block; }
+  .hero svg { position: absolute; left: 0; bottom: -1px; width: 100%; height: 70px; }
+
+  .kop { padding: 10px 70px 0; }
+  .kop .hand { font-family: "Caveat"; font-size: 46px; color: var(--purple); line-height: 1.1; }
+  .kop h1 { font-weight: 900; color: var(--green); font-size: 68px; line-height: 1.04; letter-spacing: -.015em; margin-top: 6px; }
+  .kop h1 span { color: var(--green-mid); }
+  .kop p { margin-top: 18px; font-size: 28px; line-height: 1.35; color: var(--ink-dim); font-weight: 600; }
+  .kop p b { color: var(--ink); font-weight: 800; }
+
+  .wanneer { padding: 26px 70px 0; display: grid; grid-template-columns: 1fr 1fr; gap: 22px; }
+  .datum { border-radius: 26px; background: #fff; border: 1px solid var(--border); padding: 20px 24px 22px; position: relative; overflow: hidden; }
+  .datum::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 12px; }
+  .datum.oranje::before { background: var(--orange); }
+  .datum.blauw::before { background: var(--blue); }
+  .datum .plaats { font-weight: 900; font-size: 24px; letter-spacing: .1em; text-transform: uppercase; }
+  .datum.oranje .plaats { color: var(--orange); }
+  .datum.blauw .plaats { color: var(--blue); }
+  .datum .dagen { font-weight: 900; font-size: 40px; color: var(--green); line-height: 1.1; margin-top: 4px; }
+  .datum .waar { margin-top: 12px; padding-top: 12px; border-top: 1px dashed var(--border); font-size: 23px; font-weight: 700; }
+  .datum .waar span { display: block; color: var(--ink-dim); font-weight: 600; }
+
+  .altijd {
+    margin: 24px 70px 0; border-radius: 20px; background: var(--sage-soft); border: 1px solid #cdd9bb;
+    padding: 14px 24px; display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: baseline;
+    font-size: 22px; font-weight: 600;
+  }
+  .altijd b { font-weight: 900; color: var(--green); }
+  .altijd .stip { color: var(--sage); }
+
+  .voet {
+    position: absolute; left: 0; right: 0; bottom: 0; height: 180px; background: var(--green);
+    display: flex; align-items: center; justify-content: space-between; padding: 0 70px; color: #fff;
+  }
+  .voet .actie { font-weight: 900; font-size: 34px; line-height: 1.2; }
+  .voet .actie span { display: block; font-size: 26px; font-weight: 700; opacity: .9; margin-top: 4px; }
+  .voet .actie em { font-style: normal; color: #f4b27c; }
+  .voet img { height: 120px; display: block; background: var(--cream); border-radius: 22px; padding: 8px; }
+</style>
+</head>
+<body>
+
+  <div class="hero">
+    <img src="hero.jpg" alt="">
+    <svg viewBox="0 0 148 10" preserveAspectRatio="none"><path d="M0 6 C 32 1, 63 1, 92 5 S 134 10, 148 3 L148 10 L0 10 Z" fill="#fbf6ea"/></svg>
+  </div>
+
+  <section class="kop">
+    <div class="hand">Herfstvakantie 2026</div>
+    <h1>Twee dagen bouwen,<br><span>denken en uitproberen</span></h1>
+    <p>Een kamp voor kinderen van <b>6 tot 12 jaar</b> die in de vakantie meer willen dan opvang. Nieuwsgierigheid, techniek en uitdaging, in kleine groepen.</p>
+  </section>
+
+  <section class="wanneer">
+    <div class="datum oranje">
+      <div class="plaats">Hasselt</div>
+      <div class="dagen">ma 2 &amp; di 3<br>november</div>
+      <div class="waar">Level X 28<span>Hasselt</span></div>
+    </div>
+    <div class="datum blauw">
+      <div class="plaats">Genk</div>
+      <div class="dagen">wo 4 &amp; do 5<br>november</div>
+      <div class="waar">T2 Campus<span>Thor Park 8040, Genk</span></div>
+    </div>
+  </section>
+
+  <div class="altijd">
+    <span><b>Bij alles wat we doen:</b></span>
+    <span>inclusief</span><span class="stip">&#9679;</span>
+    <span>prikkelarm</span><span class="stip">&#9679;</span>
+    <span>kleine groepen</span><span class="stip">&#9679;</span>
+    <span>rustige ruimtes</span>
+  </div>
+
+  <footer class="voet">
+    <div class="actie">
+      Inschrijven op <em>www.connectopia.one/aanbod</em>
+      <span>Plaatsen zijn beperkt &nbsp;&middot;&nbsp; info@matmgroep.com &nbsp;&middot;&nbsp; 0468 35 74 96</span>
+    </div>
+    <img src="logo-kim-transparant.png" alt="Connectopia vzw">
+  </footer>
+
+</body>
+</html>
