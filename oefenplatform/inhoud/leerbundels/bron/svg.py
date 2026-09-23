@@ -474,21 +474,24 @@ def plattegrond(breedte=470):
 
 def spanningsboog(breedte=470):
     """De spanningsboog van een verhaal: begin, opbouw, hoogtepunt, einde."""
-    h = 178
-    basis = 128
-    d = [f'<path d="M30 {basis} C 150 {basis-10}, 210 40, 300 34 C 360 30, 400 70, {breedte-30} {basis}" '
+    # 14 px lucht bovenaan: anders steekt het woord "hoogtepunt" boven de
+    # viewBox uit, en dat wordt niet afgeknipt maar half getoond.
+    h = 192
+    top = 14
+    basis = 128 + top
+    d = [f'<path d="M30 {basis} C 150 {basis-10}, 210 {40+top}, 300 {34+top} C 360 {30+top}, 400 {70+top}, {breedte-30} {basis}" '
          f'fill="none" stroke="{FOREST}" stroke-width="2.6"/>']
     # de labels staan bewust aan de kant waar de lijn niet loopt,
     # anders snijdt de boog dwars door de tekst
     punten = [(30, basis, "begin", "wie, waar, wanneer", "onder"),
               (170, basis - 46, "probleem", "er loopt iets mis", "boven"),
-              (300, 34, "hoogtepunt", "het spannendst", "boven"),
+              (300, 34 + top, "hoogtepunt", "het spannendst", "boven"),
               (breedte - 30, basis, "einde", "het loopt af", "onder")]
     for x, y, naam, onder, kant in punten:
         d.append(f'<circle cx="{x}" cy="{y:.0f}" r="5" fill="{AMBER}"/>')
         anker = "start" if x < 100 else ("end" if x > breedte - 100 else "middle")
         if kant == "boven":
-            yn, yo = y - 26, y - 12
+            yn, yo = y - 36, y - 22
         else:
             yn, yo = y + 20, y + 34
         d.append(f'<text x="{x}" y="{yn:.0f}" text-anchor="{anker}" font-family="IBM Plex Sans,sans-serif" '
