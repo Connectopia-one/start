@@ -3,7 +3,7 @@
 import { useState, type FormEvent } from "react";
 import { useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
-import { NIVEAUS } from "@/lib/niveaus";
+import { LEERJAARNIVEAUS as NIVEAUS } from "@/lib/niveaus";
 import { doelenBlokken } from "@/inhoud/onderwijsdoelen";
 import { maakDoelUploadUrl, registreerDoelbestand } from "./actions";
 

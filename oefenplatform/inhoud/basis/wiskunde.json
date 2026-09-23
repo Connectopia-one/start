@@ -1,0 +1,1939 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Maal en gedeeld door 10, 100 en 1000 — deel 1",
+      "niveau": "basis",
+      "gratis": true,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 7 × 10?",
+          "opties": [
+            "70",
+            "17",
+            "700"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij maal 10 zet je bij een geheel getal één nul achteraan: 7 × 10 = 70."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel is 25 × 100?",
+          "antwoord": "2500",
+          "uitleg": "Maal 100 heeft twee nullen, dus twee nullen erbij: 25 × 100 = 2500."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 3,4 × 10?",
+          "opties": [
+            "34",
+            "3,40",
+            "0,34"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eén nul, dus de komma springt één plaats naar rechts: 3,4 wordt 34. 3,40 is gewoon 3,4 met een nul erachter, dat verandert niets."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 5,6 × 100?",
+          "opties": [
+            "560",
+            "56",
+            "5,600"
+          ],
+          "antwoord": 0,
+          "uitleg": "Twee nullen, dus de komma springt twee plaatsen naar rechts. Na de 6 is er geen cijfer meer, dus zet je een 0 bij: 560."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel is 1,25 × 100?",
+          "antwoord": "125",
+          "uitleg": "Twee nullen, twee sprongen naar rechts: 1,25 wordt 125."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 0,8 × 10?",
+          "opties": [
+            "8",
+            "80",
+            "0,08"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eén sprong naar rechts: 0,8 wordt 8. Controleer: maal maakt groter, en 8 is groter dan 0,8."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 2,5 × 1000?",
+          "opties": [
+            "2500",
+            "250",
+            "25 000"
+          ],
+          "antwoord": 0,
+          "uitleg": "Drie nullen, drie sprongen naar rechts. Na de 5 zet je twee nullen bij: 2500."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij maal 100 springt de komma twee plaatsen naar rechts.",
+          "antwoord": true,
+          "uitleg": "Juist. 100 heeft twee nullen, dus twee plaatsen. En naar rechts, want maal maakt het getal groter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 60 : 10?",
+          "opties": [
+            "6",
+            "600",
+            "0,6"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gedeeld door 10: de komma springt één plaats naar links. 60 wordt 6,0, en dat schrijf je als 6."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel is 4500 : 100?",
+          "antwoord": "45",
+          "uitleg": "Twee nullen, twee sprongen naar links: 4500 wordt 45,00, dus 45."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 37 : 10?",
+          "opties": [
+            "3,7",
+            "370",
+            "0,37"
+          ],
+          "antwoord": 0,
+          "uitleg": "De verborgen komma staat achter 37. Eén sprong naar links: 3,7."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 8,4 : 10?",
+          "opties": [
+            "0,84",
+            "84",
+            "8,04"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eén sprong naar links: 8,4 wordt 0,84. Vóór de komma zet je een 0."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 52 : 100?",
+          "opties": [
+            "0,52",
+            "5,2",
+            "5200"
+          ],
+          "antwoord": 0,
+          "uitleg": "Twee sprongen naar links: 52 wordt 0,52."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel is 6,3 × 10?",
+          "antwoord": "63",
+          "uitleg": "Eén sprong naar rechts: 6,3 wordt 63."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "46 : 10 = 460",
+          "antwoord": false,
+          "uitleg": "Niet waar. Gedeeld door maakt kleiner, dus de komma gaat naar links: 46 : 10 = 4,6. 460 is 46 × 10."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Naar welke kant springt de komma bij gedeeld door 100?",
+          "opties": [
+            "Twee plaatsen naar links",
+            "Twee plaatsen naar rechts",
+            "Eén plaats naar links"
+          ],
+          "antwoord": 0,
+          "uitleg": "Twee nullen, dus twee plaatsen. Naar links, want gedeeld door maakt het getal kleiner."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk cijfer staat op de plaats van de tienden in 45,7?",
+          "opties": [
+            "7",
+            "4",
+            "5"
+          ],
+          "antwoord": 0,
+          "uitleg": "De tienden staan net achter de komma. In 45,7 is dat de 7."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 9 × 1000?",
+          "opties": [
+            "9000",
+            "900",
+            "90 000"
+          ],
+          "antwoord": 0,
+          "uitleg": "Drie nullen erbij: 9 × 1000 = 9000."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel is 700 : 100?",
+          "antwoord": "7",
+          "uitleg": "Twee sprongen naar links, of twee nullen weg: 700 : 100 = 7."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "0,5 × 10 = 5",
+          "antwoord": true,
+          "uitleg": "Waar. Eén sprong naar rechts: 0,5 wordt 5."
+        }
+      ]
+    },
+    {
+      "titel": "Maal en gedeeld door 10, 100 en 1000 — deel 2",
+      "niveau": "basis",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 0,45 × 100?",
+          "opties": [
+            "45",
+            "4,5",
+            "450"
+          ],
+          "antwoord": 0,
+          "uitleg": "Twee sprongen naar rechts: 0,45 wordt 45. De 0 vooraan valt weg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 3,07 × 100?",
+          "opties": [
+            "307",
+            "37",
+            "30,7"
+          ],
+          "antwoord": 0,
+          "uitleg": "Twee sprongen naar rechts: 3,07 wordt 307. De 0 in het midden blijft staan, anders krijg je een ander getal."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel is 0,036 × 1000?",
+          "antwoord": "36",
+          "uitleg": "Drie sprongen naar rechts: 0,036 wordt 36."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 4,2 × 1000?",
+          "opties": [
+            "4200",
+            "420",
+            "42 000"
+          ],
+          "antwoord": 0,
+          "uitleg": "Drie sprongen naar rechts. Er staat maar één cijfer na de komma, dus zet je twee nullen bij: 4200."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 3 : 100?",
+          "opties": [
+            "0,03",
+            "0,3",
+            "300"
+          ],
+          "antwoord": 0,
+          "uitleg": "De verborgen komma achter 3 springt twee plaatsen naar links. Eén lege plaats vul je met 0: 0,03."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 12,5 : 100?",
+          "opties": [
+            "0,125",
+            "1,25",
+            "1250"
+          ],
+          "antwoord": 0,
+          "uitleg": "Twee sprongen naar links: 12,5 wordt 0,125."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel is 250 : 1000? Schrijf je antwoord met een komma.",
+          "antwoord": "0,25",
+          "uitleg": "Drie sprongen naar links: 250 wordt 0,250, en dat is 0,25."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 6 : 1000?",
+          "opties": [
+            "0,006",
+            "0,06",
+            "0,6"
+          ],
+          "antwoord": 0,
+          "uitleg": "Drie sprongen naar links. Twee lege plaatsen worden een 0: 0,006."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk getal hoort op de puntjes? 4,8 × … = 480",
+          "opties": [
+            "100",
+            "10",
+            "1000"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van 4,8 naar 480 springt de komma twee plaatsen naar rechts. Twee plaatsen is maal 100."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk getal hoort op de puntjes? 350 : … = 0,35",
+          "opties": [
+            "1000",
+            "100",
+            "10"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van 350 naar 0,35 springt de komma drie plaatsen naar links. Drie plaatsen is gedeeld door 1000."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "7,5 × … = 750. Welk getal ontbreekt?",
+          "antwoord": "100",
+          "uitleg": "De komma springt twee plaatsen naar rechts, dus maal 100."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "2,05 × 100 = 25",
+          "antwoord": false,
+          "uitleg": "Niet waar. Twee sprongen naar rechts geeft 205. De 0 tussen de 2 en de 5 mag je niet weglaten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "0,9 : 10 = 0,09",
+          "antwoord": true,
+          "uitleg": "Waar. Eén sprong naar links: 0,9 wordt 0,09."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een pakje kauwgom kost € 0,85. Wat kosten 100 pakjes?",
+          "opties": [
+            "€ 85",
+            "€ 8,50",
+            "€ 850"
+          ],
+          "antwoord": 0,
+          "uitleg": "0,85 × 100: twee sprongen naar rechts, dus € 85."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Tien vrienden verdelen € 45 eerlijk. Hoeveel krijgt elk?",
+          "opties": [
+            "€ 4,50",
+            "€ 0,45",
+            "€ 4,05"
+          ],
+          "antwoord": 0,
+          "uitleg": "45 : 10: één sprong naar links, dus 4,5. Bij geld schrijf je € 4,50."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "1000 blaadjes papier wegen samen 4500 g. Hoeveel gram weegt één blad? Schrijf je antwoord met een komma.",
+          "antwoord": "4,5",
+          "uitleg": "4500 : 1000: drie sprongen naar links, dus 4,500 g, en dat is 4,5 g."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitkomst is fout?",
+          "opties": [
+            "5,1 × 100 = 51",
+            "3,2 × 10 = 32",
+            "0,4 × 100 = 40"
+          ],
+          "antwoord": 0,
+          "uitleg": "5,1 × 100 is 510: na de 1 moet je nog een 0 bijzetten. De andere twee kloppen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Tom schrijft 6,5 × 100 = 6,500. Wat ging er mis?",
+          "opties": [
+            "Hij zette nullen bij, maar liet de komma niet springen",
+            "Hij liet de komma naar links springen",
+            "Er ging niets mis"
+          ],
+          "antwoord": 0,
+          "uitleg": "6,500 is nog altijd 6,5: nullen achteraan na de komma veranderen niets. De komma moet twee plaatsen naar rechts: 650."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als je een getal gedeeld door 10 doet, wordt het kleiner.",
+          "antwoord": true,
+          "uitleg": "Waar. Je verdeelt het in tien stukken en houdt er één over. Daarom springt de komma naar links."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 0,07 × 1000?",
+          "opties": [
+            "70",
+            "7",
+            "700"
+          ],
+          "antwoord": 0,
+          "uitleg": "Drie sprongen naar rechts: 0,07 wordt 0,7, dan 7, dan 70. Voor de laatste sprong zet je een 0 bij."
+        }
+      ]
+    },
+    {
+      "titel": "Maten omzetten — deel 1",
+      "niveau": "basis",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel centimeter is 1 meter?",
+          "opties": [
+            "100 cm",
+            "10 cm",
+            "1000 cm"
+          ],
+          "antwoord": 0,
+          "uitleg": "1 m = 100 cm. Centi betekent een honderdste: er gaan honderd centimeters in een meter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel meter is 1 kilometer?",
+          "opties": [
+            "1000 m",
+            "100 m",
+            "10 m"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kilo betekent duizend: 1 km = 1000 m."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel gram is 1 kilogram?",
+          "antwoord": "1000",
+          "uitleg": "Kilo betekent duizend: 1 kg = 1000 g."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel milliliter is 1 liter?",
+          "opties": [
+            "1000 ml",
+            "100 ml",
+            "10 ml"
+          ],
+          "antwoord": 0,
+          "uitleg": "Milli betekent een duizendste: er gaan duizend milliliter in een liter."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel centimeter is 3 m?",
+          "antwoord": "300",
+          "uitleg": "Van m naar cm zijn twee treden naar rechts, dus maal 100: 3 × 100 = 300 cm."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel meter is 2,5 km?",
+          "opties": [
+            "2500 m",
+            "250 m",
+            "25 m"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van km naar m is maal 1000: de komma springt drie plaatsen naar rechts. 2,5 km = 2500 m."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel gram is 4 kg?",
+          "opties": [
+            "4000 g",
+            "400 g",
+            "40 g"
+          ],
+          "antwoord": 0,
+          "uitleg": "4 × 1000 = 4000 g."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel millimeter is 1 centimeter?",
+          "opties": [
+            "10 mm",
+            "100 mm",
+            "1000 mm"
+          ],
+          "antwoord": 0,
+          "uitleg": "cm en mm staan naast elkaar op de ladder: één trede, dus maal 10."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel centiliter is 1 liter?",
+          "antwoord": "100",
+          "uitleg": "Van l naar cl zijn twee treden (l, dl, cl), dus maal 100."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "1 m = 10 dm",
+          "antwoord": true,
+          "uitleg": "Waar. Deci betekent een tiende: er gaan tien decimeters in een meter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel meter is 400 cm?",
+          "opties": [
+            "4 m",
+            "40 m",
+            "0,4 m"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van cm naar m is naar een grotere maat, dus gedeeld door 100: 400 : 100 = 4 m."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel kilogram is 3000 g?",
+          "opties": [
+            "3 kg",
+            "30 kg",
+            "300 kg"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van g naar kg is gedeeld door 1000: 3000 : 1000 = 3 kg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel liter is 500 ml?",
+          "opties": [
+            "0,5 l",
+            "5 l",
+            "50 l"
+          ],
+          "antwoord": 0,
+          "uitleg": "500 : 1000 = 0,5. Een halve liter."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel millimeter is 6 cm?",
+          "antwoord": "60",
+          "uitleg": "Eén trede naar rechts, dus maal 10: 6 × 10 = 60 mm."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "1 kg = 100 g",
+          "antwoord": false,
+          "uitleg": "Niet waar. Kilo betekent duizend, dus 1 kg = 1000 g."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke lengte past bij een potlood?",
+          "opties": [
+            "18 cm",
+            "18 m",
+            "18 mm"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een potlood is ongeveer zo lang als je hand: 18 cm. 18 m is langer dan een klaslokaal, 18 mm is korter dan je duim."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel weegt een appel ongeveer?",
+          "opties": [
+            "150 g",
+            "150 kg",
+            "150 mg"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ongeveer 150 g. 150 kg is zwaarder dan twee volwassenen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel liter is 1 hl?",
+          "opties": [
+            "100 l",
+            "10 l",
+            "1000 l"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hecto betekent honderd: 1 hl = 100 l."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het kortst?",
+          "opties": [
+            "1 cm",
+            "1 dm",
+            "1 m"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hoe verder naar rechts op de maatladder, hoe kleiner de maat. 1 cm is het kortst."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Van meter naar centimeter doe je gedeeld door 100.",
+          "antwoord": false,
+          "uitleg": "Niet waar. Een centimeter is kleiner, dus je hebt er meer nodig: je doet maal 100. 2 m = 200 cm."
+        }
+      ]
+    },
+    {
+      "titel": "Maten omzetten — deel 2",
+      "niveau": "basis",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel meter is 1,75 km?",
+          "opties": [
+            "1750 m",
+            "175 m",
+            "17 500 m"
+          ],
+          "antwoord": 0,
+          "uitleg": "Maal 1000: drie sprongen naar rechts. 1,75 km = 1750 m."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel centimeter is 2,4 m?",
+          "antwoord": "240",
+          "uitleg": "Maal 100: twee sprongen naar rechts. 2,4 m = 240 cm."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel kilogram is 750 g?",
+          "opties": [
+            "0,75 kg",
+            "7,5 kg",
+            "75 kg"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gedeeld door 1000: drie sprongen naar links. 750 g = 0,75 kg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel liter is 25 cl?",
+          "opties": [
+            "0,25 l",
+            "2,5 l",
+            "0,025 l"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van cl naar l zijn twee treden naar links, dus gedeeld door 100: 0,25 l."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel milliliter is 1,5 l?",
+          "antwoord": "1500",
+          "uitleg": "Maal 1000: 1,5 l = 1500 ml."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel kilometer is 800 m?",
+          "opties": [
+            "0,8 km",
+            "8 km",
+            "0,08 km"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gedeeld door 1000: 800 m = 0,8 km. Dat is minder dan één kilometer, dus het moet kleiner zijn dan 1."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel centimeter is 45 mm?",
+          "opties": [
+            "4,5 cm",
+            "45 cm",
+            "0,45 cm"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van mm naar cm is één trede naar links, dus gedeeld door 10: 4,5 cm."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel deciliter is 3 l?",
+          "opties": [
+            "30 dl",
+            "300 dl",
+            "0,3 dl"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van l naar dl is één trede naar rechts, dus maal 10: 30 dl."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel gram is 0,2 kg?",
+          "antwoord": "200",
+          "uitleg": "Maal 1000: 0,2 kg = 200 g."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel meter is 35 dm?",
+          "opties": [
+            "3,5 m",
+            "35 m",
+            "350 m"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van dm naar m is gedeeld door 10: 3,5 m."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "0,5 km = 50 m",
+          "antwoord": false,
+          "uitleg": "Niet waar. 0,5 × 1000 = 500, dus 0,5 km = 500 m. Een halve kilometer."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "250 g = 0,25 kg",
+          "antwoord": true,
+          "uitleg": "Waar. 250 : 1000 = 0,25."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het langst?",
+          "opties": [
+            "1,2 m",
+            "95 cm",
+            "1050 mm"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zet alles in dezelfde maat: 1,2 m = 120 cm, 95 cm, en 1050 mm = 105 cm. 1,2 m is het langst."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het zwaarst?",
+          "opties": [
+            "900 g",
+            "0,8 kg",
+            "750 g"
+          ],
+          "antwoord": 0,
+          "uitleg": "0,8 kg = 800 g. Dan vergelijk je 900 g, 800 g en 750 g: 900 g wint."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar zit het meest in?",
+          "opties": [
+            "1600 ml",
+            "1,5 l",
+            "140 cl"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zet alles in ml: 1,5 l = 1500 ml en 140 cl = 1400 ml. 1600 ml is het meest."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een fles bevat 1,5 l. Je schenkt 3 glazen van 25 cl uit. Hoeveel blijft er over?",
+          "opties": [
+            "75 cl",
+            "125 cl",
+            "50 cl"
+          ],
+          "antwoord": 0,
+          "uitleg": "1,5 l = 150 cl. Drie glazen van 25 cl is 75 cl. 150 − 75 = 75 cl."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een lint is 2 m lang. Je knipt er 35 cm af. Hoeveel centimeter blijft er over?",
+          "antwoord": "165",
+          "uitleg": "2 m = 200 cm. 200 − 35 = 165 cm. Zet eerst alles in dezelfde maat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een zak meel weegt 1 kg. Voor één taart heb je 250 g nodig. Voor hoeveel taarten heb je genoeg?",
+          "opties": [
+            "4",
+            "2",
+            "25"
+          ],
+          "antwoord": 0,
+          "uitleg": "1 kg = 1000 g. 1000 : 250 = 4 taarten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Ella wandelt 800 m naar school en 800 m terug. Hoeveel kilometer is dat samen?",
+          "opties": [
+            "1,6 km",
+            "16 km",
+            "0,16 km"
+          ],
+          "antwoord": 0,
+          "uitleg": "800 + 800 = 1600 m. 1600 : 1000 = 1,6 km."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke omzetting klopt?",
+          "opties": [
+            "3,2 kg = 3200 g",
+            "3,2 kg = 320 g",
+            "3,2 kg = 32 g"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van kg naar g is maal 1000: 3,2 × 1000 = 3200 g."
+        }
+      ]
+    },
+    {
+      "titel": "Wiskundewoorden — deel 1",
+      "niveau": "basis",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "12 + 5 = 17. Hoe heet de 17?",
+          "opties": [
+            "De som",
+            "Het verschil",
+            "Het product"
+          ],
+          "antwoord": 0,
+          "uitleg": "De uitkomst van een optelling heet de som. 12 en 5 zijn de termen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "4 × 6 = 24. Hoe heet de 24?",
+          "opties": [
+            "Het product",
+            "De som",
+            "Het quotiënt"
+          ],
+          "antwoord": 0,
+          "uitleg": "De uitkomst van een vermenigvuldiging heet het product. 4 en 6 zijn de factoren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "17 − 5 = 12. Hoe heet de 12?",
+          "opties": [
+            "Het verschil",
+            "De som",
+            "De rest"
+          ],
+          "antwoord": 0,
+          "uitleg": "De uitkomst van een aftrekking heet het verschil: zoveel liggen 17 en 5 uit elkaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "24 : 6 = 4. Hoe heet de 4?",
+          "opties": [
+            "Het quotiënt",
+            "Het product",
+            "De deler"
+          ],
+          "antwoord": 0,
+          "uitleg": "De uitkomst van een deling heet het quotiënt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In de breuk 3/4: hoe heet de 3?",
+          "opties": [
+            "De teller",
+            "De noemer",
+            "De breukstreep"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het getal boven de breukstreep is de teller. Die telt hoeveel stukken je neemt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In de breuk 3/4: hoe heet de 4?",
+          "opties": [
+            "De noemer",
+            "De teller",
+            "De deler"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het getal onder de breukstreep is de noemer. Die zegt in hoeveel gelijke stukken het geheel verdeeld is."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In 4 × 6 = 24 zijn 4 en 6 de factoren.",
+          "antwoord": true,
+          "uitleg": "Waar. De getallen die je vermenigvuldigt heten factoren."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is de som van 8 en 7?",
+          "antwoord": "15",
+          "uitleg": "Som betekent optellen: 8 + 7 = 15."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is het product van 6 en 7?",
+          "antwoord": "42",
+          "uitleg": "Product betekent vermenigvuldigen: 6 × 7 = 42."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is het verschil tussen 20 en 8?",
+          "antwoord": "12",
+          "uitleg": "Verschil betekent aftrekken: 20 − 8 = 12."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "24 : 6 = 4. Hoe heet de 24?",
+          "opties": [
+            "Het deeltal",
+            "De deler",
+            "Het quotiënt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het deeltal is het getal dat verdeeld wordt: 24."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "24 : 6 = 4. Hoe heet de 6?",
+          "opties": [
+            "De deler",
+            "Het deeltal",
+            "De factor"
+          ],
+          "antwoord": 0,
+          "uitleg": "De deler is het getal waardoor je deelt: 6."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij 12 + 5 heten 12 en 5 de factoren.",
+          "antwoord": false,
+          "uitleg": "Niet waar. Bij optellen heten ze termen. Factoren zijn de getallen bij vermenigvuldigen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het quotiënt van 30 en 5?",
+          "opties": [
+            "6",
+            "25",
+            "150"
+          ],
+          "antwoord": 0,
+          "uitleg": "Quotiënt betekent delen: 30 : 5 = 6. 25 is het verschil en 150 het product."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je verdeelt 13 snoepjes over 4 kinderen. Elk krijgt er 3. Hoeveel blijven er over?",
+          "opties": [
+            "1",
+            "3",
+            "4"
+          ],
+          "antwoord": 0,
+          "uitleg": "4 kinderen × 3 snoepjes = 12. Van de 13 blijft er 1 over. Dat is de rest."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "13 : 4 = 3 rest 1. Hoe heet de 1?",
+          "opties": [
+            "De rest",
+            "Het quotiënt",
+            "De deler"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wat overblijft na een deling heet de rest."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De breukstreep betekent gedeeld door.",
+          "antwoord": true,
+          "uitleg": "Waar. 3/4 is hetzelfde als 3 : 4."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke breuk heeft teller 2 en noemer 5?",
+          "opties": [
+            "2/5",
+            "5/2",
+            "2/7"
+          ],
+          "antwoord": 0,
+          "uitleg": "De teller staat boven, de noemer onder: 2/5."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In 9 − 4 = 5 heet 9 de aftrekker.",
+          "antwoord": false,
+          "uitleg": "Niet waar. 9 is het aftrektal: daar trek je iets van af. 4 is de aftrekker."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is de teller van de breuk 7/9?",
+          "antwoord": "7",
+          "uitleg": "De teller staat boven de breukstreep: 7."
+        }
+      ]
+    },
+    {
+      "titel": "Wiskundewoorden — deel 2",
+      "niveau": "basis",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de som van 3,5 en 1,5?",
+          "opties": [
+            "5",
+            "2",
+            "5,25"
+          ],
+          "antwoord": 0,
+          "uitleg": "Som betekent optellen: 3,5 + 1,5 = 5. Het verschil zou 2 zijn."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is het product van 12 en 5?",
+          "antwoord": "60",
+          "uitleg": "Product betekent vermenigvuldigen: 12 × 5 = 60."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen 100 en 37?",
+          "opties": [
+            "63",
+            "137",
+            "73"
+          ],
+          "antwoord": 0,
+          "uitleg": "Verschil betekent aftrekken: 100 − 37 = 63. 137 is de som."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het quotiënt van 56 en 8?",
+          "opties": [
+            "7",
+            "48",
+            "64"
+          ],
+          "antwoord": 0,
+          "uitleg": "Quotiënt betekent delen: 56 : 8 = 7."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bereken 23 : 5. Wat is de rest?",
+          "opties": [
+            "3",
+            "4",
+            "5"
+          ],
+          "antwoord": 0,
+          "uitleg": "5 past 4 keer in 23, want 4 × 5 = 20. Er blijft 23 − 20 = 3 over."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bereken 23 : 5. Wat is het quotiënt?",
+          "opties": [
+            "4",
+            "3",
+            "5"
+          ],
+          "antwoord": 0,
+          "uitleg": "5 past 4 keer in 23 (4 × 5 = 20). Het quotiënt is 4, de rest 3."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bereken 38 : 6. Wat is de rest?",
+          "antwoord": "2",
+          "uitleg": "6 past 6 keer in 38, want 6 × 6 = 36. Er blijft 38 − 36 = 2 over."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij een deling is de deler 7. Welke rest kan niet?",
+          "opties": [
+            "8",
+            "6",
+            "0"
+          ],
+          "antwoord": 0,
+          "uitleg": "De rest is altijd kleiner dan de deler. Blijven er 8 over, dan kan je nog een groepje van 7 maken."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De rest van een deling kan groter zijn dan de deler.",
+          "antwoord": false,
+          "uitleg": "Niet waar. Is wat overblijft even groot als de deler of groter, dan kan je nog een keer delen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het quotiënt is 5, de deler 4 en de rest 3. Wat was het deeltal?",
+          "opties": [
+            "23",
+            "20",
+            "12"
+          ],
+          "antwoord": 0,
+          "uitleg": "Quotiënt × deler + rest = deeltal: 5 × 4 + 3 = 23."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Het quotiënt is 6, de deler 7 en de rest 2. Wat is het deeltal?",
+          "antwoord": "44",
+          "uitleg": "Quotiënt × deler + rest = deeltal: 6 × 7 + 2 = 44."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het product is 36 en één factor is 4. Wat is de andere factor?",
+          "opties": [
+            "9",
+            "32",
+            "40"
+          ],
+          "antwoord": 0,
+          "uitleg": "4 × ? = 36. Reken terug met delen: 36 : 4 = 9."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De som is 50 en één term is 18. Wat is de andere term?",
+          "opties": [
+            "32",
+            "68",
+            "42"
+          ],
+          "antwoord": 0,
+          "uitleg": "18 + ? = 50. Reken terug met aftrekken: 50 − 18 = 32."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het aftrektal is 40 en het verschil is 15. Wat is de aftrekker?",
+          "opties": [
+            "25",
+            "55",
+            "15"
+          ],
+          "antwoord": 0,
+          "uitleg": "40 − ? = 15. Dan is de aftrekker 40 − 15 = 25. Controle: 40 − 25 = 15."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een deling gaat op als de rest 0 is.",
+          "antwoord": true,
+          "uitleg": "Waar. Er blijft niets over, zoals bij 20 : 5 = 4."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke deling gaat op?",
+          "opties": [
+            "42 : 6",
+            "43 : 6",
+            "44 : 6"
+          ],
+          "antwoord": 0,
+          "uitleg": "42 staat in de tafel van 6 (7 × 6 = 42), dus daar blijft niets over."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe lees je 3/8?",
+          "opties": [
+            "Drie achtste",
+            "Acht derde",
+            "Drie en acht"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst de teller, dan de noemer met -de of -ste erachter: drie achtste."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een deling mag je deeltal en deler van plaats wisselen.",
+          "antwoord": false,
+          "uitleg": "Niet waar. 12 : 3 = 4, maar 3 : 12 = 0,25. Bij optellen en vermenigvuldigen mag het wel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk woord hoort bij 'maal'?",
+          "opties": [
+            "Product",
+            "Som",
+            "Verschil"
+          ],
+          "antwoord": 0,
+          "uitleg": "Maal is vermenigvuldigen, en de uitkomst daarvan heet het product."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je verdeelt 50 knikkers over zakjes van 8. Hoeveel zakjes worden vol, en hoeveel knikkers blijven over?",
+          "opties": [
+            "6 zakjes, 2 over",
+            "6 zakjes, 8 over",
+            "7 zakjes, 2 over"
+          ],
+          "antwoord": 0,
+          "uitleg": "6 × 8 = 48, dus 6 volle zakjes. 50 − 48 = 2 knikkers over. 50 : 8 = 6 rest 2."
+        }
+      ]
+    },
+    {
+      "titel": "Breuken, kommagetallen en gehele getallen — deel 1",
+      "niveau": "basis",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Je eet de helft van een pizza. Welk kommagetal hoort bij een half?",
+          "opties": [
+            "0,5",
+            "0,2",
+            "1,2"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een half is 1/2, en 1 : 2 = 0,5."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk kommagetal is hetzelfde als 7/10?",
+          "opties": [
+            "0,7",
+            "7,10",
+            "0,07"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zeven tienden: 7 : 10 = 0,7. De 7 komt op de plaats van de tienden, net achter de komma."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk kommagetal is hetzelfde als 23/100?",
+          "opties": [
+            "0,23",
+            "2,3",
+            "23,100"
+          ],
+          "antwoord": 0,
+          "uitleg": "23 : 100: de komma springt twee plaatsen naar links. 0,23."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf 9/10 als kommagetal.",
+          "antwoord": "0,9",
+          "uitleg": "9 : 10 = 0,9. Negen tienden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk kommagetal is 1/4?",
+          "opties": [
+            "0,25",
+            "0,4",
+            "1,4"
+          ],
+          "antwoord": 0,
+          "uitleg": "1/4 = 25/100 = 0,25. Denk aan een kwart euro: 25 cent."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk kommagetal is 3/4?",
+          "opties": [
+            "0,75",
+            "0,34",
+            "3,4"
+          ],
+          "antwoord": 0,
+          "uitleg": "3/4 = 75/100 = 0,75. Drie kwart euro is 75 cent."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "1/2 = 0,5",
+          "antwoord": true,
+          "uitleg": "Waar. 1 : 2 = 0,5."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke breuk is 0,3?",
+          "opties": [
+            "3/10",
+            "3/100",
+            "1/3"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eén cijfer na de komma, dus de noemer is 10: 0,3 = 3/10. Let op: 1/3 is geen 0,3."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke breuk is 0,07?",
+          "opties": [
+            "7/100",
+            "7/10",
+            "7/1000"
+          ],
+          "antwoord": 0,
+          "uitleg": "Twee cijfers na de komma, dus de noemer is 100: 0,07 = 7/100."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "0,5 = …/10. Welk getal hoort op de puntjes?",
+          "antwoord": "5",
+          "uitleg": "Eén cijfer na de komma, dus over 10: 0,5 = 5/10."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 8/4?",
+          "opties": [
+            "2",
+            "4",
+            "32"
+          ],
+          "antwoord": 0,
+          "uitleg": "De breukstreep is gedeeld door: 8 : 4 = 2."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 12/3?",
+          "opties": [
+            "4",
+            "9",
+            "36"
+          ],
+          "antwoord": 0,
+          "uitleg": "12 : 3 = 4."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel is 20/4?",
+          "antwoord": "5",
+          "uitleg": "20 : 4 = 5. De deling gaat op, dus het is een geheel getal."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "5/5 = 1",
+          "antwoord": true,
+          "uitleg": "Waar. Je neemt alle vijf de stukken: dat is het hele geheel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke breuk is een geheel getal?",
+          "opties": [
+            "6/3",
+            "5/3",
+            "7/3"
+          ],
+          "antwoord": 0,
+          "uitleg": "6 staat in de tafel van 3, dus 6 : 3 = 2 gaat op. Bij 5 en 7 blijft er iets over."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent de breukstreep in 3/4?",
+          "opties": [
+            "Gedeeld door",
+            "Maal",
+            "Min"
+          ],
+          "antwoord": 0,
+          "uitleg": "De breukstreep betekent gedeeld door: 3/4 = 3 : 4."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk kommagetal is 1/5?",
+          "opties": [
+            "0,2",
+            "0,5",
+            "1,5"
+          ],
+          "antwoord": 0,
+          "uitleg": "1/5 = 2/10 = 0,2. Maak de noemer 10 door teller en noemer maal 2 te doen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "0,4 is hetzelfde als 1/4.",
+          "antwoord": false,
+          "uitleg": "Niet waar. 1/4 = 0,25. 0,4 is 4/10, en dat is 2/5."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Schrijf 3/2 als kommagetal.",
+          "opties": [
+            "1,5",
+            "3,2",
+            "0,32"
+          ],
+          "antwoord": 0,
+          "uitleg": "3 : 2 = 1,5. Drie halven is anderhalf."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf 45/100 als kommagetal.",
+          "antwoord": "0,45",
+          "uitleg": "45 : 100: twee sprongen naar links. 0,45."
+        }
+      ]
+    },
+    {
+      "titel": "Breuken, kommagetallen en gehele getallen — deel 2",
+      "niveau": "basis",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk kommagetal is 2/5?",
+          "opties": [
+            "0,4",
+            "0,25",
+            "2,5"
+          ],
+          "antwoord": 0,
+          "uitleg": "Maak de noemer 10: 2/5 = 4/10 = 0,4."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk kommagetal is 3/5?",
+          "opties": [
+            "0,6",
+            "0,35",
+            "3,5"
+          ],
+          "antwoord": 0,
+          "uitleg": "Maak de noemer 10: 3/5 = 6/10 = 0,6."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Schrijf 3/4 als kommagetal.",
+          "antwoord": "0,75",
+          "uitleg": "Maak de noemer 100: 3/4 = 75/100 = 0,75."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk kommagetal is 7/1000?",
+          "opties": [
+            "0,007",
+            "0,07",
+            "0,7"
+          ],
+          "antwoord": 0,
+          "uitleg": "7 : 1000: drie sprongen naar links. 0,007."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Schrijf 0,25 als breuk, zo eenvoudig mogelijk.",
+          "opties": [
+            "1/4",
+            "25/10",
+            "2/5"
+          ],
+          "antwoord": 0,
+          "uitleg": "0,25 = 25/100. Deel teller en noemer door 25: 1/4."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Schrijf 0,6 als breuk, zo eenvoudig mogelijk.",
+          "opties": [
+            "3/5",
+            "6/100",
+            "1/6"
+          ],
+          "antwoord": 0,
+          "uitleg": "0,6 = 6/10. Deel teller en noemer door 2: 3/5."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke breuk is 0,125?",
+          "opties": [
+            "125/1000",
+            "125/100",
+            "12/5"
+          ],
+          "antwoord": 0,
+          "uitleg": "Drie cijfers na de komma, dus de noemer is 1000: 125/1000. Vereenvoudigd is dat 1/8."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "0,75 = …/100. Welk getal hoort op de puntjes?",
+          "antwoord": "75",
+          "uitleg": "Twee cijfers na de komma, dus over 100: 75/100."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Schrijf 7/2 als kommagetal.",
+          "opties": [
+            "3,5",
+            "7,2",
+            "2,7"
+          ],
+          "antwoord": 0,
+          "uitleg": "7 : 2 = 3 rest 1. Dat is 3 en een half: 3,5."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Schrijf 9/4 als gemengd getal.",
+          "opties": [
+            "2 1/4",
+            "9 1/4",
+            "3 1/4"
+          ],
+          "antwoord": 0,
+          "uitleg": "9 : 4 = 2 rest 1. Dus 2 gehelen en nog 1/4: 2 1/4."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Schrijf 9/4 als kommagetal.",
+          "opties": [
+            "2,25",
+            "9,4",
+            "0,94"
+          ],
+          "antwoord": 0,
+          "uitleg": "9/4 = 2 1/4, en 1/4 = 0,25. Samen 2,25."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "15/3 is een geheel getal.",
+          "antwoord": true,
+          "uitleg": "Waar. 15 : 3 = 5, en die deling gaat op."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "14/4 is een geheel getal.",
+          "antwoord": false,
+          "uitleg": "Niet waar. 14 : 4 = 3 rest 2, dus 14/4 = 3,5."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke breuk is gelijk aan 3?",
+          "opties": [
+            "12/4",
+            "4/12",
+            "3/9"
+          ],
+          "antwoord": 0,
+          "uitleg": "12 : 4 = 3. 4/12 en 3/9 zijn kleiner dan één."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk getal is het grootst?",
+          "opties": [
+            "0,6",
+            "1/2",
+            "0,55"
+          ],
+          "antwoord": 0,
+          "uitleg": "Maak er kommagetallen van: 1/2 = 0,5. Dan vergelijk je 0,60, 0,50 en 0,55: 0,6 wint."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk getal is het kleinst?",
+          "opties": [
+            "1/4",
+            "0,3",
+            "0,5"
+          ],
+          "antwoord": 0,
+          "uitleg": "1/4 = 0,25, en dat is kleiner dan 0,3 en 0,5."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "1,5 = …/2. Welk getal hoort op de puntjes?",
+          "antwoord": "3",
+          "uitleg": "1,5 is anderhalf, en dat zijn drie halven: 3/2."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lisa eet 3/4 van een reep chocolade van 100 g. Hoeveel gram eet ze?",
+          "opties": [
+            "75 g",
+            "34 g",
+            "25 g"
+          ],
+          "antwoord": 0,
+          "uitleg": "1/4 van 100 g is 25 g. Drie keer zoveel is 75 g."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke rij staat van klein naar groot?",
+          "opties": [
+            "0,2 · 1/2 · 0,7",
+            "1/2 · 0,2 · 0,7",
+            "0,7 · 1/2 · 0,2"
+          ],
+          "antwoord": 0,
+          "uitleg": "1/2 = 0,5. Dan is de volgorde 0,2, 0,5, 0,7."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "0,5 en 5/10 en 1/2 zijn drie namen voor hetzelfde getal.",
+          "antwoord": true,
+          "uitleg": "Waar. Ze staan alle drie op dezelfde plek op de getallenlijn, precies in het midden tussen 0 en 1."
+        }
+      ]
+    },
+    {
+      "titel": "Delers en veelvouden: ggd en kgv — deel 1",
+      "niveau": "basis",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Je verdeelt 12 koekjes eerlijk over 3 kinderen. Blijft er iets over?",
+          "opties": [
+            "Nee, elk krijgt er 4",
+            "Ja, er blijft 1 over",
+            "Ja, er blijven er 2 over"
+          ],
+          "antwoord": 0,
+          "uitleg": "12 : 3 = 4, zonder rest. Daarom zeggen we: 3 is een deler van 12."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "3 is een deler van 12.",
+          "antwoord": true,
+          "uitleg": "Waar. 12 : 3 = 4 gaat op, er blijft niets over."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "5 is een deler van 12.",
+          "antwoord": false,
+          "uitleg": "Niet waar. 12 : 5 = 2 rest 2. 12 staat niet in de tafel van 5."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk getal is een veelvoud van 4?",
+          "opties": [
+            "20",
+            "18",
+            "14"
+          ],
+          "antwoord": 0,
+          "uitleg": "20 staat in de tafel van 4: 5 × 4 = 20. 18 en 14 niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk getal is geen deler van 20?",
+          "opties": [
+            "3",
+            "4",
+            "5"
+          ],
+          "antwoord": 0,
+          "uitleg": "20 : 3 = 6 rest 2, dat gaat niet op. 20 : 4 = 5 en 20 : 5 = 4 wel."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is de vijfde uitkomst in de tafel van 6?",
+          "antwoord": "30",
+          "uitleg": "6, 12, 18, 24, 30. Of korter: 5 × 6 = 30."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat zijn alle delers van 8?",
+          "opties": [
+            "1, 2, 4, 8",
+            "2, 4, 8",
+            "1, 2, 4, 6, 8"
+          ],
+          "antwoord": 0,
+          "uitleg": "In paren: 1 × 8 en 2 × 4. Vergeet 1 en het getal zelf niet, die zijn altijd een deler."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat zijn alle delers van 15?",
+          "opties": [
+            "1, 3, 5, 15",
+            "3, 5",
+            "1, 5, 15"
+          ],
+          "antwoord": 0,
+          "uitleg": "In paren: 1 × 15 en 3 × 5. Dus 1, 3, 5 en 15."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk getal is deelbaar door 2?",
+          "opties": [
+            "346",
+            "347",
+            "349"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een getal is deelbaar door 2 als het laatste cijfer even is. 346 eindigt op 6."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk getal is deelbaar door 5?",
+          "opties": [
+            "235",
+            "253",
+            "352"
+          ],
+          "antwoord": 0,
+          "uitleg": "Deelbaar door 5 als het laatste cijfer 0 of 5 is. 235 eindigt op 5."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk getal is deelbaar door 3?",
+          "opties": [
+            "123",
+            "124",
+            "125"
+          ],
+          "antwoord": 0,
+          "uitleg": "Tel de cijfers op: 1 + 2 + 3 = 6, en 6 is deelbaar door 3. Dus 123 ook."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Elk getal dat eindigt op 0 is deelbaar door 10.",
+          "antwoord": true,
+          "uitleg": "Waar. 10, 20, 470, 1000: ze staan allemaal in de tafel van 10."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de ggd van 6 en 9?",
+          "opties": [
+            "3",
+            "18",
+            "6"
+          ],
+          "antwoord": 0,
+          "uitleg": "Delers van 6: 1, 2, 3, 6. Delers van 9: 1, 3, 9. Samen hebben ze 1 en 3. De grootste is 3."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is de ggd van 8 en 12?",
+          "antwoord": "4",
+          "uitleg": "Delers van 8: 1, 2, 4, 8. Delers van 12: 1, 2, 3, 4, 6, 12. De grootste die in beide staat is 4."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de ggd van 10 en 15?",
+          "opties": [
+            "5",
+            "30",
+            "10"
+          ],
+          "antwoord": 0,
+          "uitleg": "Delers van 10: 1, 2, 5, 10. Delers van 15: 1, 3, 5, 15. Samen: 1 en 5. De grootste is 5."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het kgv van 2 en 3?",
+          "opties": [
+            "6",
+            "1",
+            "5"
+          ],
+          "antwoord": 0,
+          "uitleg": "Tafel van 3: 3, 6 … 6 staat ook in de tafel van 2. Dus 6."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is het kgv van 4 en 6?",
+          "antwoord": "12",
+          "uitleg": "Tafel van 6: 6, 12 … 12 staat ook in de tafel van 4. Dus 12."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het kgv van 3 en 5?",
+          "opties": [
+            "15",
+            "8",
+            "1"
+          ],
+          "antwoord": 0,
+          "uitleg": "Tafel van 5: 5, 10, 15 … 15 is het eerste dat ook in de tafel van 3 staat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar staat ggd voor?",
+          "opties": [
+            "Grootste gemeenschappelijke deler",
+            "Grootste gemeenschappelijk veelvoud",
+            "Kleinste gemeenschappelijke deler"
+          ],
+          "antwoord": 0,
+          "uitleg": "ggd = grootste gemeenschappelijke deler: het grootste getal waardoor je allebei de getallen kan delen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar staat kgv voor?",
+          "opties": [
+            "Kleinste gemeenschappelijk veelvoud",
+            "Kleinste gemeenschappelijke deler",
+            "Grootste gemeenschappelijk veelvoud"
+          ],
+          "antwoord": 0,
+          "uitleg": "kgv = kleinste gemeenschappelijk veelvoud: het eerste getal dat in allebei de tafels staat."
+        }
+      ]
+    },
+    {
+      "titel": "Delers en veelvouden: ggd en kgv — deel 2",
+      "niveau": "basis",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de ggd van 12 en 18?",
+          "opties": [
+            "6",
+            "3",
+            "36"
+          ],
+          "antwoord": 0,
+          "uitleg": "Delers van 12: 1, 2, 3, 4, 6, 12. Delers van 18: 1, 2, 3, 6, 9, 18. De grootste gemeenschappelijke is 6."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is de ggd van 16 en 24?",
+          "antwoord": "8",
+          "uitleg": "Delers van 16: 1, 2, 4, 8, 16. Delers van 24: 1, 2, 3, 4, 6, 8, 12, 24. De grootste in beide is 8."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de ggd van 7 en 10?",
+          "opties": [
+            "1",
+            "7",
+            "70"
+          ],
+          "antwoord": 0,
+          "uitleg": "Delers van 7: 1, 7. Delers van 10: 1, 2, 5, 10. Alleen 1 staat in beide."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de ggd van 20 en 30?",
+          "opties": [
+            "10",
+            "5",
+            "60"
+          ],
+          "antwoord": 0,
+          "uitleg": "Delers van 20: 1, 2, 4, 5, 10, 20. Delers van 30: 1, 2, 3, 5, 6, 10, 15, 30. De grootste in beide is 10."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het kgv van 6 en 8?",
+          "opties": [
+            "24",
+            "48",
+            "2"
+          ],
+          "antwoord": 0,
+          "uitleg": "Tafel van 8: 8, 16, 24 … 24 staat ook in de tafel van 6 (4 × 6). Dus 24. 48 is ook gemeenschappelijk, maar niet het kleinste."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is het kgv van 5 en 10?",
+          "antwoord": "10",
+          "uitleg": "10 staat in de tafel van 10 én in de tafel van 5. Is het ene getal een veelvoud van het andere, dan is dat het kgv."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het kgv van 4 en 10?",
+          "opties": [
+            "20",
+            "40",
+            "2"
+          ],
+          "antwoord": 0,
+          "uitleg": "Tafel van 10: 10, 20 … 20 staat ook in de tafel van 4. Dus 20."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vereenvoudig 12/18 zo ver als het kan.",
+          "opties": [
+            "2/3",
+            "6/9",
+            "4/6"
+          ],
+          "antwoord": 0,
+          "uitleg": "De ggd van 12 en 18 is 6. 12 : 6 = 2 en 18 : 6 = 3, dus 2/3. 6/9 en 4/6 zijn even groot, maar nog niet zo eenvoudig als het kan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vereenvoudig 8/12 zo ver als het kan.",
+          "opties": [
+            "2/3",
+            "4/6",
+            "1/3"
+          ],
+          "antwoord": 0,
+          "uitleg": "De ggd van 8 en 12 is 4. 8 : 4 = 2 en 12 : 4 = 3, dus 2/3."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vereenvoudig 10/15 zo ver als het kan. Wat wordt de noemer?",
+          "antwoord": "3",
+          "uitleg": "De ggd van 10 en 15 is 5. 10 : 5 = 2 en 15 : 5 = 3, dus 2/3. De noemer is 3."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil 1/4 + 1/6 uitrekenen. Welke noemer kies je, als je de kleinste neemt die kan?",
+          "opties": [
+            "12",
+            "24",
+            "10"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je hebt een getal nodig in de tafel van 4 én van 6: het kgv. Dat is 12. 24 kan ook, maar is groter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 1/2 + 1/3?",
+          "opties": [
+            "5/6",
+            "2/5",
+            "1/5"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het kgv van 2 en 3 is 6. 1/2 = 3/6 en 1/3 = 2/6. Samen 5/6. Teller en noemer gewoon optellen (2/5) mag niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk getal is deelbaar door 9?",
+          "opties": [
+            "729",
+            "728",
+            "727"
+          ],
+          "antwoord": 0,
+          "uitleg": "7 + 2 + 9 = 18, en 18 is deelbaar door 9. Dus 729 ook."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk getal is deelbaar door 4?",
+          "opties": [
+            "316",
+            "318",
+            "314"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kijk naar de laatste twee cijfers: 16 is deelbaar door 4, 18 en 14 niet."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "1 is een deler van elk getal.",
+          "antwoord": true,
+          "uitleg": "Waar. Elk getal gedeeld door 1 blijft zichzelf, en er blijft niets over."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De ggd van twee getallen kan groter zijn dan het kleinste van de twee.",
+          "antwoord": false,
+          "uitleg": "Niet waar. De ggd moet een deler zijn van allebei, en een deler is nooit groter dan het getal zelf."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een bus vertrekt elke 6 minuten, een tram elke 10 minuten. Om 8.00 u vertrekken ze samen. Wanneer vertrekken ze weer samen?",
+          "opties": [
+            "8.30 u",
+            "8.16 u",
+            "9.00 u"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je zoekt het kgv van 6 en 10. Tafel van 10: 10, 20, 30 … 30 staat ook in de tafel van 6. Dus 30 minuten later: 8.30 u."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je hebt 12 rode en 18 blauwe knikkers. Je maakt zakjes die er allemaal hetzelfde uitzien, zonder dat er knikkers overblijven. Hoeveel zakjes kan je hoogstens maken?",
+          "opties": [
+            "6",
+            "3",
+            "30"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het aantal zakjes moet een deler zijn van 12 én van 18, en zo groot mogelijk: de ggd, 6. Elk zakje krijgt dan 2 rode en 3 blauwe."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk priemgetal ligt tussen 20 en 25?",
+          "antwoord": "23",
+          "uitleg": "21 = 3 × 7, 22 = 2 × 11, 24 = 4 × 6. Alleen 23 heeft precies twee delers: 1 en 23."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk getal is een priemgetal?",
+          "opties": [
+            "13",
+            "15",
+            "21"
+          ],
+          "antwoord": 0,
+          "uitleg": "13 kan je alleen delen door 1 en 13. 15 = 3 × 5 en 21 = 3 × 7."
+        }
+      ]
+    }
+  ]
+}

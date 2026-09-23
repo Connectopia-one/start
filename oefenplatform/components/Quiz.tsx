@@ -46,12 +46,29 @@ type Status = { gecontroleerd: boolean; correct: boolean; gegevenAntwoord: strin
  * kind dat het antwoord kent, hoort het ook juist te hebben.
  */
 function normaliseerAntwoord(waarde: string): string {
-  return waarde
+  const tekst = waarde
     .trim()
     .toLowerCase()
     .replace(/[.!?]+$/, "")
     .replace(/\s+/g, " ")
     .replace(/^(de|het|een) /, "");
+  return normaliseerGetal(tekst) ?? tekst;
+}
+
+/**
+ * Een getal kan je op meer dan één juiste manier typen: "3,5" en "3.5",
+ * "2 500" en "2500", "0,50" en "0,5". Is het antwoord een getal, dan
+ * herleiden we het tot één vorm. Zo telt een kind dat het juiste getal typt
+ * niet fout omdat het een punt gebruikte of een nul te veel schreef.
+ */
+function normaliseerGetal(tekst: string): string | null {
+  const zonderSpaties = tekst.replace(/(\d) (?=\d{3}\b)/g, "$1");
+  const treffer = zonderSpaties.match(/^(-?)(\d*)(?:[.,](\d+))?$/);
+  if (!treffer || (!treffer[2] && !treffer[3])) return null;
+  const heel = (treffer[2] || "0").replace(/^0+(?=\d)/, "");
+  const deel = (treffer[3] ?? "").replace(/0+$/, "");
+  const getal = deel ? `${heel},${deel}` : heel;
+  return getal === "0" ? "0" : treffer[1] + getal;
 }
 
 function isCorrect(vraag: Vraag, gegeven: string | number | boolean | null): boolean {
