@@ -184,14 +184,18 @@ export const trajecten: Traject[] = [
     kleur: "green",
     icoon: "🏕️",
     leeftijd: "6 tot 12 jaar",
+    prijs: "€40 per dag",
     regels: [
+      { label: "Uren", waarde: "Elke dag van 9u tot 15u" },
       {
         label: "Herfstvakantie, Hasselt",
-        waarde: "Maandag 2 en dinsdag 3 november 2026, bij Level X 28",
+        waarde:
+          "Maandag 2 en dinsdag 3 november 2026 bij Level X 28, thema Young Engineer Held",
       },
       {
         label: "Herfstvakantie, Genk",
-        waarde: "Woensdag 4 en donderdag 5 november 2026, op T2 Campus",
+        waarde:
+          "Woensdag 4 en donderdag 5 november 2026 op T2 Campus, thema Creatieve duizendpoot: van techniek tot design",
       },
       {
         label: "Daarna",

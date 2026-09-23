@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="stijl.css">
 <style>
   /* de kop van deze flyer is hoger dan bij de flyer voor professionals */
-  .hero { height: 35mm; }
+  .hero { height: 26mm; }
 
   .kop { padding-top: 1.5mm; }
 
@@ -24,7 +24,10 @@
   .datum.oranje .plaats { color: var(--orange); }
   .datum.blauw .plaats { color: var(--blue); }
   .datum .dagen { font-weight: 900; font-size: 12.5pt; color: var(--green); line-height: 1.1; margin-top: .6mm; }
-  .datum .waar { margin-top: 1.2mm; padding-top: 1.2mm; border-top: .25mm dashed var(--border); font-size: 7.8pt; font-weight: 700; color: var(--ink); }
+  .datum .thema {
+    margin-top: 1.4mm; font-weight: 800; font-size: 8.4pt; line-height: 1.2; color: var(--ink);
+  }
+  .datum .waar { margin-top: 1.4mm; padding-top: 1.2mm; border-top: .25mm dashed var(--border); font-size: 7.8pt; font-weight: 700; color: var(--ink); }
   .datum .waar span { display: block; color: var(--ink-dim); font-weight: 600; }
 
   .doen { padding: 2.4mm 11mm 0; }
@@ -48,6 +51,15 @@
 
   .actiewrap { padding: 2.4mm 11mm 0; }
   .actie h3 { font-size: 13pt; }
+
+  /* de strook met de uren, de prijs en de leeftijd */
+  .praktisch {
+    grid-column: 1 / -1; border-radius: 14px; background: #fff; border: .3mm solid var(--border);
+    padding: 2mm 3.4mm; display: flex; align-items: baseline; justify-content: space-between; gap: 3mm;
+    font-size: 8.6pt; font-weight: 700; color: var(--ink);
+  }
+  .praktisch b { font-weight: 900; color: var(--green); font-size: 9.6pt; }
+  .praktisch .stip { color: var(--sage); font-weight: 900; }
 </style>
 </head>
 <body>
@@ -64,19 +76,28 @@
   <section class="kop">
     <div class="hand">Herfstvakantie 2026</div>
     <h1>Twee dagen bouwen,<br><span>denken en uitproberen</span></h1>
-    <p>Een kamp voor kinderen van <b>6 tot 12 jaar</b> die in de vakantie meer willen dan opvang. Nieuwsgierigheid, techniek en uitdaging, in kleine groepen.</p>
+    <p>Een kamp voor kinderen van <b>6 tot 12 jaar</b> die in de vakantie meer willen dan opvang. Elk kamp heeft zijn eigen thema.</p>
   </section>
 
   <section class="wanneer">
     <div class="datum oranje">
       <div class="plaats">Hasselt</div>
       <div class="dagen">ma 2 &amp; di 3<br>november</div>
+      <div class="thema">Thema: Young Engineer Held</div>
       <div class="waar">Level X 28<span>Hasselt</span></div>
     </div>
     <div class="datum blauw">
       <div class="plaats">Genk</div>
       <div class="dagen">wo 4 &amp; do 5<br>november</div>
+      <div class="thema">Thema: Creatieve duizendpoot,<br>van techniek tot design</div>
       <div class="waar">T2 Campus<span>Thor Park 8040, Genk</span></div>
+    </div>
+    <div class="praktisch">
+      <span>Elke dag van <b>9u tot 15u</b></span>
+      <span class="stip">&#9679;</span>
+      <span><b>&euro;40</b> per dag</span>
+      <span class="stip">&#9679;</span>
+      <span><b>6 tot 12 jaar</b></span>
     </div>
   </section>
 
@@ -86,7 +107,6 @@
       <li><b>Ontdekken:</b> nieuwe dingen onderzoeken en vragen stellen</li>
       <li><b>Maken en experimenteren:</b> van een idee naar iets dat écht werkt</li>
       <li><b>Creatief denken:</b> eigen oplossingen bedenken en uitproberen</li>
-      <li><b>Samen groeien:</b> in kleine groepen, met aandacht voor ieder kind</li>
     </ul>
     <div class="altijd">
       <span><b>Bij alles wat we doen:</b></span>

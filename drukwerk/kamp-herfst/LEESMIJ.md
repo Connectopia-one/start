@@ -12,12 +12,13 @@ flyers.
 De QR-code op de flyer wijst naar `https://www.connectopia.one/aanbod` en is
 nagelezen met een decoder, dus hij scant.
 
-## Wat er nog in moet
+## Wat erop staat
 
-Drie dingen staan er bewust nog niet op, omdat ze nog niet vastlagen: **de uren,
-de prijs en het thema per kamp**. Zodra die er zijn, komt er een strook onder de
-twee datumkaartjes. Ook het adres van Level X 28 staat er nog niet volledig op,
-enkel "Hasselt".
+Elke dag van 9u tot 15u, 40 euro per dag, 6 tot 12 jaar. De thema's staan op de
+kaartjes: **Young Engineer Held** in Hasselt, **Creatieve duizendpoot, van
+techniek tot design** in Genk.
+
+Enkel het volledige adres van Level X 28 ontbreekt nog; daar staat nu "Hasselt".
 
 ## Opnieuw maken
 
