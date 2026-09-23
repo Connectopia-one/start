@@ -215,12 +215,6 @@ vaste teksten van de pagina (inleiding, de nota onderaan, de knop "Een link door
 **Eenmalig**: voer `supabase/materiaal.sql` één keer uit in de SQL Editor van je Supabase-project.
 Dat maakt de tabel `public.materiaal` en de opslagmap voor de pdf's aan.
 
-**Linken overnemen uit het ouderportaal.** Staan er al links bij het lesmateriaal van een klasje?
-`supabase/materiaal-overnemen.sql` zet ze over zonder iets over te typen. Het ouderportaal en het
-oefenplatform zijn twee aparte Supabase-projecten, dus het gaat in drie stappen: kijken wat er
-staat, de insert-regels laten schrijven, en die in het oefenplatform plakken. Pdf's gaan niet mee
-— die laad je opnieuw op via `/beheer/materiaal`.
-
 ## Vraagtypes
 
 | Type | `opties` | `antwoord` |
