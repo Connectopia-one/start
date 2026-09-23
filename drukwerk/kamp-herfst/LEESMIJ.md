@@ -18,7 +18,8 @@ Elke dag van 9u tot 15u, 40 euro per dag, 6 tot 12 jaar. De thema's staan op de
 kaartjes: **Young Engineer Held** in Hasselt, **Creatieve duizendpoot, van
 techniek tot design** in Genk.
 
-Enkel het volledige adres van Level X 28 ontbreekt nog; daar staat nu "Hasselt".
+De adressen: Level X 28, Vilderstraat 28 in Hasselt, en T2 Campus, Thor Park 8040
+in Genk.
 
 ## Opnieuw maken
 

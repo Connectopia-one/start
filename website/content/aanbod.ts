@@ -190,7 +190,7 @@ export const trajecten: Traject[] = [
       {
         label: "Herfstvakantie, Hasselt",
         waarde:
-          "Maandag 2 en dinsdag 3 november 2026 bij Level X 28, thema Young Engineer Held",
+          "Maandag 2 en dinsdag 3 november 2026 bij Level X 28, Vilderstraat 28, thema Young Engineer Held",
       },
       {
         label: "Herfstvakantie, Genk",
