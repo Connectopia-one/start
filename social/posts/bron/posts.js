@@ -107,7 +107,7 @@ module.exports = [
     bestand: "dag-12-extra-kamp-hasselt",
     kleur: "oranje",
     foto: "dag-12-extra-kamp-hasselt.jpg",
-    fotoPositie: "45% 34%",
+    fotoPositie: "38% 46%",
     pil: "Herfstkamp",
     hand: "Hasselt, maandag 2 en dinsdag 3 november",
     titel: "Young<br><span>Engineer Held</span>",
