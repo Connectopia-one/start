@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
 import { maakBulkLeerstofUploadUrl, registreerBulkLeerstof, verwijderLeerstof } from "./actions";
 import { NIVEAUS } from "@/lib/niveaus";
+import { splitsDeel } from "@/lib/hoofdstukvolgorde";
 
 export type Hoofdstuk = { id: string; titel: string; niveau: string; volgnummer: number };
 export type Vak = { id: string; naam: string; hoofdstukken: Hoofdstuk[] };
@@ -35,40 +36,57 @@ function woorden(tekst: string): string[] {
 }
 
 /*
-  Zoekt bij een bestandsnaam het hoofdstuk dat er het best bij past.
+  Zoekt bij een bestandsnaam de hoofdstukken die er het best bij passen.
   Elk woord dat in allebei voorkomt telt mee; staat de hele titel in de
   bestandsnaam, dan telt dat extra zwaar.
+
+  Meestal is dat één hoofdstuk. Maar een thema dat in een "— deel 1" en een
+  "— deel 2" gesplitst is, heeft één bundel voor allebei. Passen alleen de
+  delen van zo'n thema even goed, dan krijg je ze allemaal terug, zodat
+  dezelfde pdf in één keer bij elk deel komt.
 */
-function raadHoofdstuk(bestandsnaam: string, hoofdstukken: Hoofdstuk[]): string {
+function raadHoofdstukken(bestandsnaam: string, hoofdstukken: Hoofdstuk[]): string[] {
   const uitNaam = woorden(bestandsnaam);
   const plat = uitNaam.join(" ");
-  let beste = "";
   let besteScore = 0;
-  let evenGoed = 0;
+  let besten: Hoofdstuk[] = [];
 
   for (const h of hoofdstukken) {
     const uitTitel = woorden(h.titel);
     if (uitTitel.length === 0) continue;
     let score = uitTitel.filter((w) => uitNaam.includes(w)).length;
     if (plat.includes(uitTitel.join(" "))) score += 3;
+    if (score === 0) continue;
     if (score > besteScore) {
       besteScore = score;
-      beste = h.id;
-      evenGoed = 1;
-    } else if (score === besteScore && score > 0) {
-      evenGoed++;
+      besten = [h];
+    } else if (score === besteScore) {
+      besten.push(h);
     }
   }
 
-  // Passen er twee even goed — bijvoorbeeld een hoofdstuk met dezelfde titel
-  // in twee categorieën — dan kiezen we niets. Liever zelf laten kiezen dan
-  // de bundel stilletjes bij het verkeerde hoofdstuk zetten.
-  return evenGoed === 1 ? beste : "";
+  if (besten.length === 1) return [besten[0].id];
+
+  // Passen er meerdere even goed, dan enkel als het de delen van één thema
+  // zijn in één categorie. Is het bijvoorbeeld een hoofdstuk met dezelfde
+  // titel in twee categorieën, dan kiezen we niets: liever zelf laten kiezen
+  // dan de bundel stilletjes bij het verkeerde hoofdstuk zetten.
+  const delen = besten.map((h) => ({ h, ...splitsDeel(h.titel) }));
+  const eenThema =
+    delen.length > 1 &&
+    delen.every((d) => d.deel > 0 && d.thema === delen[0].thema && d.h.niveau === delen[0].h.niveau);
+  return eenThema ? delen.sort((a, b) => a.deel - b.deel).map((d) => d.h.id) : [""];
 }
 
-/* "breuken-en-kommagetallen.pdf" wordt "Breuken en kommagetallen". */
+/* "breuken-en-kommagetallen.pdf" wordt "Breuken en kommagetallen". Een
+   categorie achteraan ("maten-omzetten-basis.pdf") dient enkel om de bestanden
+   uit elkaar te houden en hoort niet in de titel die een kind ziet. */
 function titelUitBestandsnaam(bestandsnaam: string): string {
-  const kaal = bestandsnaam.replace(/\.[a-z0-9]+$/i, "").replace(/[_-]+/g, " ").trim();
+  const kaal = bestandsnaam
+    .replace(/\.[a-z0-9]+$/i, "")
+    .replace(/[_-]+/g, " ")
+    .trim()
+    .replace(new RegExp(`\\s+(${NIVEAUS.map((n) => n.slug).join("|")})$`, "i"), "");
   return kaal.charAt(0).toUpperCase() + kaal.slice(1);
 }
 
@@ -117,17 +135,18 @@ export function BulkLeerstofForm({ vakken, bundels }: { vakken: Vak[]; bundels: 
 
   function kiesBestanden(e: ChangeEvent<HTMLInputElement>) {
     const gekozen = Array.from(e.target.files ?? []);
+    // Eén rij per hoofdstuk: een bundel die bij deel 1 én deel 2 hoort, staat
+    // er dus twee keer, en wordt ook twee keer opgeladen.
     setRijen(
-      gekozen.map((bestand) => {
-        const hoofdstukId = raadHoofdstuk(bestand.name, hoofdstukken);
-        return {
+      gekozen.flatMap((bestand) =>
+        raadHoofdstukken(bestand.name, hoofdstukken).map((hoofdstukId) => ({
           bestand,
           hoofdstukId,
           titel: titelUitBestandsnaam(bestand.name),
           vervang: (bundelsPerHoofdstuk.get(hoofdstukId)?.length ?? 0) > 0,
           status: "wacht" as const,
-        };
-      }),
+        })),
+      ),
     );
   }
 
