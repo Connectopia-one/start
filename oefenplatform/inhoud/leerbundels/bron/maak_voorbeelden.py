@@ -30,12 +30,18 @@ BUNDELS["kaartlezen-en-orientatie"] = dict(
         dict(kop="De schaal", blokken=[
             ("p", "Een kaart is altijd kleiner dan de werkelijkheid. De schaal zegt hoeveel kleiner."),
             ("fig", svg.schaalbalk(340), "Meet je 3 cm op deze kaart, dan is dat 3 km in het echt."),
+            ("p", "Staat er <strong>1 op 100 000</strong> bij, dan is 1 cm op de kaart in het echt 100 000 cm. Zet dat om: 100 000 cm is 1 000 meter, dus <strong>1 kilometer</strong>. Zo reken je elke schaal om: deel door 100 voor meter, en nog eens door 1 000 voor kilometer."),
             ("p", "Hoe <em>kleiner</em> het gebied dat je toont, hoe <em>meer</em> detail er op past. Op een kaart van je gemeente zie je de straten; op een kaart van Europa alleen nog de grote steden."),
         ]),
         dict(kop="Coördinaten", blokken=[
             ("p", "Een raster met letters en cijfers helpt je iets snel terugvinden. Je zegt eerst de letter, dan het cijfer."),
             ("fig", svg.rasterkaart(400), "De kerk staat in vak C3, het station in D4 en de rivier loopt door A2 en B2."),
-            ("p", "Op een wereldkaart doen <strong>lengte- en breedtegraden</strong> hetzelfde werk, maar dan voor de hele aarde. De evenaar is breedtegraad 0."),
+            ("p", "Op een wereldkaart doen <strong>lengte- en breedtegraden</strong> hetzelfde werk, maar dan voor de hele aarde."),
+            ("fig", tabel(["Lijn", "Hoe ze loopt", "De lijn nul"], [
+                ["meridiaan (lengtecirkel)", "van de noordpool naar de zuidpool", "de nulmeridiaan, door Greenwich bij Londen"],
+                ["breedtecirkel", "evenwijdig met de evenaar, rond de aarde", "de evenaar"],
+            ]), "De evenaar verdeelt de aarde in het noordelijk en het zuidelijk halfrond; de nulmeridiaan in oosterlengte en westerlengte."),
+            ("p", "Met een <strong>gps</strong> gebeurt precies hetzelfde, maar dan automatisch: het toestel luistert naar satellieten en berekent daaruit je lengte- en breedtegraad. Gps staat voor global positioning system."),
         ]),
         dict(kop="Soorten kaarten", blokken=[
             ("fig", tabel(["Soort kaart", "Waarvoor je ze gebruikt"], [
@@ -46,6 +52,8 @@ BUNDELS["kaartlezen-en-orientatie"] = dict(
                 ["plattegrond", "één gebouw of één stad van heel dichtbij"],
             ]), None),
             ("p", "Welke kaart je nodig hebt, hangt dus af van je vraag. Met een weerkaart vind je de weg niet."),
+            ("p", "Op een reliëfkaart of een topografische kaart staan <strong>hoogtelijnen</strong>: lijnen die alle punten op dezelfde hoogte verbinden. Liggen ze dicht bij elkaar, dan loopt het steil omhoog; liggen ze ver uiteen, dan is het vlak. Op een gewone wegenkaart staan ze niet."),
+            ("weetje", "Een <strong>satellietbeeld</strong> is een foto van de echte aarde, een kaart is een vereenvoudigde tekening ervan. Op een kaart laat men weg wat je niet nodig hebt, en net daardoor vind je er sneller iets op terug."),
         ]),
     ],
     onthoud=[
@@ -55,6 +63,9 @@ BUNDELS["kaartlezen-en-orientatie"] = dict(
         "De schaal zegt hoeveel kleiner de kaart is dan het echt.",
         "Coördinaten: eerst de letter, dan het cijfer.",
         "Blauw is water, groen is laag land, bruin is hoog land.",
+        "Schaal 1 op 100 000: 1 cm op de kaart is 1 km in het echt.",
+        "Meridianen lopen van pool tot pool, breedtecirkels evenwijdig met de evenaar.",
+        "Hoogtelijnen dicht bij elkaar betekent steil.",
     ])
 
 BUNDELS["tijd-en-tijdlijn"] = dict(
