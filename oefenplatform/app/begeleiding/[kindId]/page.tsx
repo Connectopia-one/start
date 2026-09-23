@@ -172,9 +172,19 @@ export default async function FichePage({
 
         {/* Voortgang */}
         <section className="mt-8">
-          <h2 className="font-display text-lg font-semibold text-ink">
-            {t.fiche.voortgangKop}
-          </h2>
+          <div className="flex flex-wrap items-baseline justify-between gap-3">
+            <h2 className="font-display text-lg font-semibold text-ink">
+              {t.fiche.voortgangKop}
+            </h2>
+            {totaal > 0 && (
+              <Link
+                href={`/begeleiding/${kindId}/testen`}
+                className="niet-afdrukken text-sm font-medium text-forest-dark hover:underline"
+              >
+                {t.fiche.testenLink} &rarr;
+              </Link>
+            )}
+          </div>
           {totaal === 0 ? (
             <p className="mt-2 text-sm text-ink-dim">{t.fiche.voortgangLeeg}</p>
           ) : (
@@ -201,7 +211,14 @@ export default async function FichePage({
                         <tbody>
                           {[...vak.hoofdstukken.entries()].map(([id, h]) => (
                             <tr key={id} className="border-t border-border">
-                              <td className="px-3 py-2 text-ink">{h.titel}</td>
+                              <td className="px-3 py-2">
+                                <Link
+                                  href={`/begeleiding/${kindId}/testen?hoofdstuk=${id}`}
+                                  className="text-forest-dark hover:underline"
+                                >
+                                  {h.titel}
+                                </Link>
+                              </td>
                               <td className="px-3 py-2 text-ink">
                                 {h.correct}/{h.aantal} (
                                 {Math.round((h.correct / h.aantal) * 100)}%)

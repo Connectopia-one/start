@@ -29,6 +29,7 @@ export const begeleidingTekst = {
       "Pdf's van oefeningen of opdrachten die het kind thuis maakte, om er later bij te nemen.",
     documentenLeeg: "Nog geen documenten opgeladen.",
     voortgangKop: "Voortgang op het platform",
+    testenLink: "Opgeloste testen bekijken",
     voortgangLeeg: "Dit kind heeft nog geen vragen beantwoord op het platform.",
     stickersKop: "Verdiende stickers",
     afdrukTekst: "Deze fiche afdrukken",

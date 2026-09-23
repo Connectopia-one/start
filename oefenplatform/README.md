@@ -209,8 +209,17 @@ Op de fiche staat per kind:
 Alleen kinderen van een gezin dat met een **plusklascode** registreerde (`is_plusklas`) krijgen
 een fiche — ook voor jou als beheerder. Van andere gezinnen kan een begeleider niets zien.
 
-De fiche is gemaakt om af te drukken: de menubalk, de invulvelden en de verwijderknoppen vallen
-weg op papier. Gebruik gewoon Afdrukken in je browser.
+Vanaf de fiche kan je ook de **opgeloste testen** openen (`/begeleiding/[kind]/testen`): elke
+vraag die het kind maakte, met het antwoord dat het gaf, en bij een fout antwoord ook het juiste.
+Klik je op een hoofdstuk in de voortgangstabel, dan krijg je enkel dat hoofdstuk
+(`?hoofdstuk=...`); via de link bovenaan krijg je alles achter elkaar in één document. Er staat
+telkens het antwoord van de laatste poging bij, en hoeveel keer een vraag geprobeerd werd.
+
+De fiche en die testenpagina zijn gemaakt om af te drukken: de menubalk, de invulvelden en de
+verwijderknoppen vallen weg op papier. Gebruik Afdrukken in je browser en kies "Opslaan als pdf".
+Wil je zo'n pdf vastzetten in de tijd — bijvoorbeeld de stand van zaken op de dag van het
+oudercontact — laad hem dan op bij **Werk van thuis**; de testenpagina zelf toont altijd de
+huidige toestand.
 
 **Eenmalig**: voer `supabase/plusklasfiche.sql` één keer uit in de SQL Editor van je
 Supabase-project. Dat maakt de rol `begeleider`, de twee tabellen en de opslagmap `kinddossier`
