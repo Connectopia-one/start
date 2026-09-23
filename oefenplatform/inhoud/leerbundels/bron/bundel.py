@@ -17,6 +17,7 @@ Een bundel is een gewone dict:
             ]),
         ],
         onthoud=["korte zin", "nog een"],
+        soort="Leerbundel",   # of bv. "Overzicht", staat in de titel en de voet
     )
 
 Daarna:  schrijf(BUNDEL, "bewerkingen")
@@ -57,7 +58,7 @@ def render(bundel):
 <html lang="nl">
 <head>
 <meta charset="utf-8">
-<title>Leerbundel — {_html.escape(bundel["titel"])}</title>
+<title>{_html.escape(bundel.get("soort", "Leerbundel"))} — {_html.escape(bundel["titel"])}</title>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
 <style>{CSS}</style>
 </head>
@@ -74,7 +75,7 @@ def render(bundel):
 
 <div class="voet">
   <span>Connectopia vzw · oefenplatform.connectopia.one</span>
-  <span>Leerbundel — {bundel["vak"]}, {bundel["titel"]}</span>
+  <span>{bundel.get("soort", "Leerbundel")} — {bundel["vak"]}, {bundel["titel"]}</span>
 </div>
 
 </body>
