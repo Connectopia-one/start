@@ -1,10 +1,14 @@
 /*
   De pagina "Handig materiaal" — /materiaal
 
-  Een gratis verzamelplek voor links en documenten: vakfiches, naslagwerken,
-  interactieve tabellen, oefensites. Iedereen kan die pagina zien, ook wie geen
-  account heeft en wie niet betaald heeft. Dat is met opzet: het is een extra
-  dienst, geen onderdeel van het betalende aanbod.
+  Een gratis verzamelplek voor links en documenten die we zelf gebruiken:
+  naslagwerken, interactieve tabellen, oefensites, en evengoed gewoon leuke
+  sites die veel verder gaan dan de leerdoelen. Iedereen kan die pagina zien,
+  ook wie geen account heeft en wie niet betaald heeft. Dat is met opzet: het
+  is een extra dienst, geen onderdeel van het betalende aanbod.
+
+  De officiële onderwijsdoelen en vakfiches horen hier NIET thuis. Die staan op
+  /onderwijsdoelen en beheer je op /beheer/doelen.
 
   De links zelf staan NIET in dit bestand. Die voeg je toe op /beheer/materiaal,
   net zoals je op het ouderportaal lesmateriaal bij een klasje zet: titel, een
@@ -18,9 +22,16 @@ export const materiaalTekst = {
   label: "Handig materiaal",
   titel: "Links die we zelf gebruiken",
   intro:
-    "Hier verzamelen we online materiaal dat ons en onze kinderen verder helpt: officiële vakfiches, naslagwerken, interactieve tabellen en oefensites. Alles op deze pagina is gratis te gebruiken en staat los van een account of een abonnement.",
-  nota:
-    "Deze lijst groeit mee. Ken je iets wat hier thuishoort, of werkt een link niet meer? Laat het ons weten, dan zetten we het erbij.",
+    "Sites en documenten die we zelf gebruiken en de moeite vinden. Sommige sluiten aan bij de leerstof, andere zijn gewoon leuk en gaan een flink eind verder dan wat in de leerdoelen staat. Alles hier is gratis en je hebt er geen account voor nodig.",
+  /*
+    Het regeltje onder de inleiding dat naar de onderwijsdoelen wijst.
+    Laat verwijzingLink leeg om die regel te verbergen.
+  */
+  verwijzing:
+    "Zoek je de onderwijsdoelen en de vakfiches waarop onze hoofdstukken gebouwd zijn?",
+  verwijzingLinkTekst: "Die staan op een eigen pagina",
+  verwijzingLink: "/onderwijsdoelen",
+  nota: "Deze lijst groeit mee. Ken je iets wat hier thuishoort, of werkt een link niet meer? Laat het ons weten, dan zetten we het erbij.",
   /* Wat er staat zolang er nog niets toegevoegd is. */
   leegTekst: "Hier komt binnenkort materiaal bij.",
   /* De knop onderaan. Laat de link leeg om de knop te verbergen. */
@@ -38,7 +49,7 @@ export const materiaalTekst = {
   kop toegevoegd hebt.
 */
 export const materiaalGroepSuggesties = [
-  "Officiële leerstof",
+  "Ontdekken en verwonderen",
   "Wiskunde",
   "Wetenschap en techniek",
   "Talen",

@@ -7,7 +7,7 @@ import { materiaalTekst } from "@/inhoud/materiaal";
 export const metadata = {
   title: "Handig materiaal — Oefenplatform Connectopia",
   description:
-    "Gratis verzameling links naar vakfiches, naslagwerken en oefensites, bijeengebracht door Connectopia vzw.",
+    "Gratis verzameling links naar naslagwerken, oefensites en leuke plekken om verder te ontdekken, bijeengebracht door Connectopia vzw.",
 };
 
 type Rij = {
@@ -44,7 +44,8 @@ export default async function MateriaalPage() {
   function adres(rij: Rij): string | null {
     if (rij.type === "link") return rij.link;
     if (!rij.bestandspad) return null;
-    return supabase.storage.from("materiaal").getPublicUrl(rij.bestandspad).data.publicUrl;
+    return supabase.storage.from("materiaal").getPublicUrl(rij.bestandspad).data
+      .publicUrl;
   }
 
   return (
@@ -54,8 +55,23 @@ export default async function MateriaalPage() {
         <p className="mb-1 text-sm font-medium uppercase tracking-wide text-forest">
           {materiaalTekst.label}
         </p>
-        <h1 className="font-display text-2xl font-semibold text-ink">{materiaalTekst.titel}</h1>
+        <h1 className="font-display text-2xl font-semibold text-ink">
+          {materiaalTekst.titel}
+        </h1>
         <p className="mt-4 text-sm text-ink-dim">{materiaalTekst.intro}</p>
+
+        {materiaalTekst.verwijzingLink && (
+          <p className="mt-2 text-sm text-ink-dim">
+            {materiaalTekst.verwijzing}{" "}
+            <Link
+              href={materiaalTekst.verwijzingLink}
+              className="font-medium text-forest underline underline-offset-2 hover:text-forest-dark"
+            >
+              {materiaalTekst.verwijzingLinkTekst}
+            </Link>
+            .
+          </p>
+        )}
 
         {groepen.length === 0 ? (
           <p className="mt-6 rounded-xl border border-amber/40 bg-amber/10 px-5 py-4 text-sm text-ink">
@@ -65,7 +81,9 @@ export default async function MateriaalPage() {
           <div className="mt-8 space-y-9">
             {groepen.map((groep) => (
               <section key={groep.kop}>
-                <h2 className="font-display text-lg font-semibold text-ink">{groep.kop}</h2>
+                <h2 className="font-display text-lg font-semibold text-ink">
+                  {groep.kop}
+                </h2>
                 <ul className="mt-3 space-y-2">
                   {groep.items.map((item) => {
                     const href = adres(item);
