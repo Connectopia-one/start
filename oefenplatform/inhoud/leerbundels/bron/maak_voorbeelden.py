@@ -74,11 +74,23 @@ BUNDELS["tijd-en-tijdlijn"] = dict(
                 470),
                 "De prehistorie duurde vele duizenden jaren langer dan hier past; alles links van de oudheid is dus sterk ingekort."),
             ("p", "De grens tussen prehistorie en geschiedenis is het <strong>schrift</strong>. Vanaf het moment dat mensen dingen opschreven, hebben we geschreven bronnen."),
+            ("p", "Zo'n periode heet ook een <strong>tijdvak</strong>: een stuk tijd met eigen kenmerken, niet een vast aantal jaren. Het ene tijdvak duurt duizenden jaren, het andere een paar eeuwen. De <strong>oudheid</strong> bijvoorbeeld is het tijdvak van beschavingen zoals Egypte, Griekenland en Rome."),
         ]),
         dict(kop="Eeuwen tellen", blokken=[
             ("p", "Een eeuw is 100 jaar, een millennium 1 000 jaar en een decennium 10 jaar. Het lastige zit in het tellen van de eeuwen."),
             ("fig", svg.eeuwenbalk(470), "Je telt de eeuw altijd één hoger dan de eerste twee cijfers: 1302 ligt in de 14de eeuw, niet in de 13de."),
             ("weetje", "Er bestaat geen jaar 0: na 1 v.Chr. komt meteen 1 na Chr. Daarom moet je bij een berekening over het begin van de jaartelling altijd één jaar aftrekken."),
+        ]),
+        dict(kop="Woorden voor een stuk tijd", blokken=[
+            ("p", "Voor een stuk tijd bestaan er vaste woorden. Ze zeggen alle vijf iets anders, dus het loont om ze uit elkaar te houden."),
+            ("fig", tabel(["Woord", "Hoe lang", "Handig om te weten"], [
+                ["decennium", "10 jaar", "tien decennia maken een eeuw"],
+                ["generatie", "ongeveer 25 tot 30 jaar", "de tijd tussen ouders en hun kinderen"],
+                ["halve eeuw", "50 jaar", "de helft van honderd"],
+                ["eeuw", "100 jaar", "tien eeuwen maken een millennium"],
+                ["millennium", "1 000 jaar", "duizend jaar, dus tien eeuwen"],
+            ]), "Een kwart eeuw is 25 jaar, een kwart van honderd."),
+            ("p", "Een <strong>generatie</strong> is geen afgesproken getal maar een schatting: de tijd die er gemiddeld tussen ouders en hun kinderen zit. Reken met 25 tot 30 jaar. In één eeuw passen er dus ongeveer drie à vier."),
         ]),
         dict(kop="Voor en na Christus", blokken=[
             ("p", "Onze jaartelling begint bij het jaar 1. Alles daarvoor krijgt <strong>v.Chr.</strong>, en die jaartallen tellen <em>af</em>: 500 v.Chr. ligt later dan 1000 v.Chr."),
@@ -105,6 +117,7 @@ BUNDELS["tijd-en-tijdlijn"] = dict(
             ("fig", svg.stappen(["Wie|maakte deze bron?", "Wanneer|was dat?", "Waarom|maakte die het?", "Klopt het|met andere bronnen?"]),
              "Wie er belang bij had, vertelt het verhaal zelden helemaal neutraal."),
             ("p", "Spreken twee bronnen elkaar tegen, dan is de vraag niet welke je het liefst gelooft, maar wie er wat bij te winnen had."),
+            ("weetje", "Let ook op <strong>anachronismen</strong>: iets dat in een verhaal of een film opduikt terwijl het in die tijd nog niet bestond. Een ridder die op zijn horloge kijkt, of een Romein die een aardappel eet. Het is meteen een teken dat de maker het niet zo nauw nam."),
         ]),
         dict(kop="Wat historici en archeologen doen", blokken=[
             ("p", "Een <strong>historicus</strong> onderzoekt bronnen, vooral geschreven. Een <strong>archeoloog</strong> graaft op en onderzoekt wat er in de grond zit: potten, botten, muren, gereedschap."),
@@ -117,7 +130,10 @@ BUNDELS["tijd-en-tijdlijn"] = dict(
         "Tel de eeuw één hoger dan de eerste twee cijfers: 1302 is de 14de eeuw.",
         "Er bestaat geen jaar 0.",
         "Voor Christus tellen de jaartallen af.",
+        "Decennium 10 jaar, generatie ongeveer 25 tot 30 jaar, eeuw 100 jaar, millennium 1 000 jaar.",
+        "Een tijdvak is een periode met eigen kenmerken, geen vast aantal jaren.",
         "Vraag bij elke bron: wie, wanneer en waarom?",
+        "Een anachronisme is iets dat in die tijd nog niet bestond.",
     ])
 
 if __name__ == "__main__":

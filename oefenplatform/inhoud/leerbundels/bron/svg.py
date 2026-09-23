@@ -1043,7 +1043,8 @@ def griekse_tempel(breedte=470):
     h = 190
     d = []
     links, rechts = 100, 404
-    vloer = 150
+    # 162 en niet 150: bij 150 stak de top van het fronton boven de viewBox uit.
+    vloer = 162
 
     # drie treden
     for i, inspring in enumerate([0, 7, 14]):
@@ -2184,6 +2185,60 @@ def domeinen(breedte=470):
         for j, regel in enumerate(onder.split("|")):
             d.append(f'<text x="{x+kolom/2:.1f}" y="{47+j*14}" text-anchor="middle" '
                      f'font-family="IBM Plex Sans,sans-serif" font-size="9.5" fill="{DIM}">{regel}</text>')
+    return _svg(breedte, h, "".join(d))
+
+
+def oude_graven(breedte=470):
+    """Twee soorten graven uit de prehistorie naast elkaar.
+
+    Links een hunebed of megalietgraf: zware staande stenen met daarop een
+    platte deksteen. Rechts een grafheuvel, in doorsnede getekend, want het
+    punt is juist dat het graf ónder de heuvel zit.
+    """
+    h = 186
+    half = breedte / 2 - 8
+    grond = 132
+    d = []
+
+    def kader(x0, titel):
+        d.append(f'<rect x="{x0:.1f}" y="6" width="{half:.1f}" height="{h-16}" rx="10" '
+                 f'fill="{PAPER}" stroke="{BORDER}" stroke-width="1.4"/>')
+        d.append(_tekst(x0 + half / 2, 26, titel, 11.5, FOREST, "middle", True))
+
+    kader(0, "hunebed")
+    kader(breedte - half, "grafheuvel")
+
+    # Links: vier staande stenen met twee dekstenen erop.
+    d.append(f'<rect x="18" y="{grond}" width="{half-36:.1f}" height="11" rx="3" '
+             f'fill="{ZAND}" opacity="0.55"/>')
+    staand_top = grond - 46
+    for x0 in [30, 72, 116, 158]:
+        d.append(f'<rect x="{x0}" y="{staand_top}" width="21" height="46" rx="4" '
+                 f'fill="{STEEN}" stroke="{DARK}" stroke-width="1.4"/>')
+    for x0, br in [(20, 92), (116, 74)]:
+        d.append(f'<rect x="{x0}" y="{staand_top-22}" width="{br}" height="22" rx="6" '
+                 f'fill="{ROTS}" stroke="{DARK}" stroke-width="1.4"/>')
+    d.append(_tekst(half / 2, staand_top - 32, "dekstenen", 9.5, DIM))
+    d.append(_tekst(half / 2, grond + 28, "staande stenen met een platte steen erop", 9.5, DIM))
+    d.append(_tekst(half / 2, grond + 43, "de grafkamer ligt eronder", 9.5, DIM))
+
+    # Rechts: de heuvel in doorsnede, met het graf op het oude loopvlak.
+    bx = breedte - half
+    mid = bx + half / 2
+    d.append(f'<path d="M{bx+24:.1f} {grond} Q{mid:.1f} {grond-96} {bx+half-24:.1f} {grond} Z" '
+             f'fill="{ZAND}" stroke="{DARK}" stroke-width="1.4"/>')
+    d.append(f'<path d="M{bx+24:.1f} {grond} Q{mid:.1f} {grond-96} {bx+half-24:.1f} {grond}" '
+             f'fill="none" stroke="{GRAS}" stroke-width="3"/>')
+    d.append(f'<line x1="{bx+16:.1f}" y1="{grond}" x2="{bx+half-16:.1f}" y2="{grond}" '
+             f'stroke="{DARK}" stroke-width="1.2" stroke-dasharray="5 4"/>')
+    d.append(f'<rect x="{mid-26:.1f}" y="{grond-6}" width="52" height="22" rx="3" '
+             f'fill="{PAPER}" stroke="{DARK}" stroke-width="1.3"/>')
+    d.append(f'<circle cx="{mid:.1f}" cy="{grond+5}" r="6" fill="{OKER}" stroke="{DARK}" stroke-width="1"/>')
+    d.append(f'<line x1="{mid-44:.1f}" y1="{grond-18}" x2="{mid-28:.1f}" y2="{grond+2}" '
+             f'stroke="{DIM}" stroke-width="1.1"/>')
+    d.append(_kussen(mid - 42, grond - 16, "het graf", 9.5, DIM, "end"))
+    d.append(_tekst(mid, grond + 28, "een heuvel van aarde over het graf", 9.5, DIM))
+    d.append(_tekst(mid, grond + 43, "hier in doorsnede getekend", 9.5, DIM))
     return _svg(breedte, h, "".join(d))
 
 
