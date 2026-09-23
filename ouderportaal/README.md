@@ -110,9 +110,9 @@ enkel ontbrekende tabellen/kolommen toe.
 ## Het portaal bekijken zoals een gezin het ziet
 
 Als beheerder zie je op `/portaal` je eigen scherm, niet dat van een gezin. Om na te kijken of het
-materiaal er staat en of de links werken, hoef je niet uit te loggen: klik bij een gezin op
-**"Bekijk het portaal zoals dit gezin het ziet"** (op `/beheer/gezinnen` of op de pagina van dat
-gezin).
+materiaal er staat en of de links werken, hoef je niet uit te loggen. Er staat op `/portaal` zelf
+een kadertje **"Bekijk het portaal zoals een gezin het ziet"**: kies een gezin en klik Bekijken.
+Dezelfde knop staat bij elk gezin op `/beheer/gezinnen` en op de pagina van dat gezin.
 
 Je blijft daarbij gewoon als jezelf ingelogd — er wordt niet van account gewisseld en er is geen
 wachtwoord van iemand anders bij betrokken. Het portaal haalt enkel zijn gegevens op alsof je dat

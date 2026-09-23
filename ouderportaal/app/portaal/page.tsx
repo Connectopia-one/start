@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { requirePortaalSessie } from "@/lib/auth";
 import { MeekijkBalk } from "@/components/MeekijkBalk";
+import { startMeekijken } from "./meekijken-actions";
 import { createClient } from "@/lib/supabase/server";
 import { Header } from "@/components/Header";
 
@@ -34,6 +35,21 @@ export default async function PortaalPage() {
     (r) => r.materiaal || r.fotos,
   );
 
+  /*
+    Ben je beheerder en kijk je nog niet mee, dan hoort de keuze om het
+    portaal als een gezin te bekijken hier te staan — dit is het scherm waar
+    je je afvraagt hoe een gezin het ziet.
+  */
+  const toonKiezer =
+    session.echtProfiel?.role === "beheerder" && !session.meekijken;
+  const { data: gezinnen } = toonKiezer
+    ? await supabase
+        .from("profiles")
+        .select("id, full_name")
+        .eq("role", "ouder")
+        .order("full_name")
+    : { data: null };
+
   return (
     <>
       {session.meekijken && (
@@ -52,6 +68,49 @@ export default async function PortaalPage() {
               Ga naar het beheerscherm
             </Link>{" "}
             om klasjes, gezinnen en content te beheren.
+          </div>
+        )}
+
+        {toonKiezer && (
+          <div className="mt-4 rounded-lg border border-border bg-surface px-4 py-4">
+            <p className="text-sm font-medium text-ink">
+              Bekijk het portaal zoals een gezin het ziet
+            </p>
+            <p className="mt-1 text-sm text-ink-dim">
+              Je blijft gewoon als jezelf ingelogd. Handig om na te kijken of
+              het materiaal er staat en of de links werken.
+            </p>
+            {gezinnen?.length ? (
+              <form
+                action={startMeekijken}
+                className="mt-3 flex flex-wrap items-center gap-2"
+              >
+                <label htmlFor="gezinId" className="sr-only">
+                  Kies een gezin
+                </label>
+                <select
+                  id="gezinId"
+                  name="gezinId"
+                  className="rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest"
+                >
+                  {gezinnen.map((g) => (
+                    <option key={g.id} value={g.id}>
+                      {g.full_name}
+                    </option>
+                  ))}
+                </select>
+                <button
+                  type="submit"
+                  className="rounded-md bg-forest px-3 py-2 text-sm font-medium text-white transition hover:bg-forest-dark"
+                >
+                  Bekijken
+                </button>
+              </form>
+            ) : (
+              <p className="mt-3 text-sm text-ink-dim">
+                Er zijn nog geen gezinnen om mee te bekijken.
+              </p>
+            )}
           </div>
         )}
 

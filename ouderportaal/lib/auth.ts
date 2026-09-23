@@ -63,6 +63,8 @@ export async function requireBeheerder(): Promise<Session> {
 export type PortaalSessie = Session & {
   meekijken: Meekijken | null;
   alsOuder: boolean;
+  /* Wie je echt bent, ook terwijl je meekijkt met een gezin. */
+  echtProfiel: Profile | null;
 };
 
 export async function requirePortaalSessie(): Promise<PortaalSessie> {
@@ -71,12 +73,18 @@ export async function requirePortaalSessie(): Promise<PortaalSessie> {
 
   if (!meekijken) {
     const rol = session.profile?.role ?? "ouder";
-    return { ...session, meekijken: null, alsOuder: rol === "ouder" };
+    return {
+      ...session,
+      meekijken: null,
+      alsOuder: rol === "ouder",
+      echtProfiel: session.profile,
+    };
   }
 
   return {
     userId: meekijken.id,
     email: null,
+    echtProfiel: session.profile,
     profile: { id: meekijken.id, full_name: meekijken.naam, role: "ouder" },
     meekijken,
     alsOuder: true,
