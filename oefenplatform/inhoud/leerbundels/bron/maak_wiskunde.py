@@ -32,6 +32,7 @@ BUNDELS["getallenkennis"] = dict(
             ("p", "Elk cijfer in een getal heeft een eigen plaats, en die plaats bepaalt hoeveel het cijfer waard is. Een 6 vooraan is veel meer waard dan een 6 achteraan."),
             ("fig", PLAATSWAARDE, "In 2 645 130 staat de 6 op de plaats van de honderdduizendtallen. Die 6 is dus 600 000 waard."),
             ("p", "Je leest zo'n getal van links naar rechts, in groepjes van drie: <strong>twee miljoen — zeshonderdvijfenveertigduizend — honderddertig</strong>. Daarom laten we telkens een spatie tussen de groepjes."),
+            ("p", "Omgekeerd werkt het net zo. <strong>Twee miljoen driehonderdduizend</strong> schrijf je door elk groepje op zijn plaats te zetten: 2 300 000. En wil je weten hoeveel duizendtallen er in 45 000 zitten, dan deel je door 1 000: dat zijn er 45. Hoeveel honderdtallen in 7 400? Delen door 100 geeft 74."),
             ("weetje", "Die spatie is geen punt en geen komma. In het Engels schrijven ze wel een komma (2,645,130). Hetzelfde getal, een andere gewoonte."),
         ]),
         dict(kop="Afronden", blokken=[
@@ -62,6 +63,24 @@ BUNDELS["getallenkennis"] = dict(
             ("fig", svg.procentraster(25, 215), "25 van de 100 vakjes gekleurd: dat is 25%, of 1/4."),
             ("p", "Handige ankerpunten: 10% is delen door 10, 50% is de helft, 25% is een vierde. Wil je 20% van 250 weten, neem dan 10% (= 25) en verdubbel dat: 50."),
         ]),
+        dict(kop="Breuk, kommagetal en procent", blokken=[
+            ("p", "Dezelfde hoeveelheid kan er op drie manieren uitzien. Drie vierde, 0,75 en 75% zijn precies hetzelfde. Van een breuk naar een kommagetal deel je de teller door de noemer: 3 : 4 = 0,75. Van een kommagetal naar procent vermenigvuldig je met 100."),
+            ("fig", tabel(["Breuk", "Kommagetal", "Procent"], [
+                ["1/10", "0,1", "10%"],
+                ["1/5", "0,2", "20%"],
+                ["1/4", "0,25", "25%"],
+                ["1/2", "0,5", "50%"],
+                ["3/5", "0,6", "60%"],
+                ["3/4", "0,75", "75%"],
+            ], "80%"), "Deze zes ken je het best uit het hoofd. De rest reken je daarvan af: 2/5 is twee keer 1/5, dus 40%."),
+            ("p", "Een breuk <strong>vereenvoudigen</strong> doe je door de teller en de noemer allebei door hetzelfde getal te delen. 2/4 wordt 1/2, en 8/20 wordt 2/5. De waarde blijft gelijk, de breuk wordt alleen korter."),
+        ]),
+        dict(kop="Getallenrijen", blokken=[
+            ("p", "In een rij getallen zit altijd een regel. Zoek die eerst, dan weet je vanzelf welk getal erna komt. Kijk om te beginnen naar het verschil tussen twee buren; klopt dat niet, kijk dan waarmee je moet vermenigvuldigen."),
+            ("kader", "<p style='margin:0 0 4px'><strong>12, 24, 36, 48, …</strong> — er komt telkens 12 bij, dus daarna 60.</p>"
+                      "<p style='margin:0'><strong>3, 6, 12, 24, …</strong> — elk getal is het dubbel van het vorige, dus daarna 48.</p>"),
+            ("p", "Twijfel je tussen twee regels? Pas ze dan toe op de hele rij, niet alleen op de laatste twee getallen. Een regel die maar één keer klopt, is de juiste niet."),
+        ]),
         dict(kop="Negatieve getallen", blokken=[
             ("p", "Links van de nul gaan de getallen verder met een minteken. Denk aan de temperatuur in de winter, of aan verdiepingen onder de grond."),
             ("fig", svg.getallenlijn(470, -10, 10, [
@@ -86,6 +105,8 @@ BUNDELS["getallenkennis"] = dict(
         "Hoe groter de noemer, hoe kleiner het stukje.",
         "Procent is per honderd. 10% is delen door 10.",
         "Bij negatieve getallen is het grootst uitziende getal het kleinste.",
+        "3/4, 0,75 en 75% zijn drie namen voor hetzelfde.",
+        "Bij een getallenrij zoek je eerst de regel.",
     ])
 
 # ───────────────────────────────────────────── 2. Bewerkingen
@@ -111,9 +132,16 @@ BUNDELS["bewerkingen"] = dict(
                 ["37 × 4", "30 × 4 = 120 en 7 × 4 = 28", "148"],
                 ["16 × 50", "16 × 100 = 1 600, dan : 2", "800"],
                 ["1 250 : 5", "× 2 = 2 500, dan : 10", "250"],
+                ["24 × 25", "24 : 4 = 6, dan × 100", "600"],
                 ["0,25 × 80", "een vierde van 80", "20"],
             ]), "Niet elke som vraagt om cijferen; vaak is omdenken sneller."),
             ("p", "Ook handig: maal 0 geeft altijd 0, en delen door 1 verandert niets."),
+        ]),
+        dict(kop="Delen, stap voor stap", blokken=[
+            ("p", "Een grote deling hoef je niet in één keer te zien. Hak het getal in stukken die je wél kent, deel die apart, en tel de uitkomsten op."),
+            ("kader", "<p style='margin:0 0 5px'><strong>756 : 7</strong> → 700 : 7 = 100 en 56 : 7 = 8. Samen <strong>108</strong>.</p>"
+                      "<p style='margin:0'><strong>924 : 4</strong> → 800 : 4 = 200, 120 : 4 = 30 en 4 : 4 = 1. Samen <strong>231</strong>.</p>"),
+            ("p", "Pas op voor de nul in het midden. Bij <strong>832 : 8</strong> gaat 8 één keer in de 8, nul keer in de 3, en vier keer in de 32. Dat geeft <strong>104</strong>, niet 14. Wie de nul vergeet te schrijven, komt tien keer te laag uit."),
         ]),
         dict(kop="Rekenen met breuken", blokken=[
             ("p", "Hebben twee breuken dezelfde noemer, dan tel je gewoon de tellers op of trek je ze af. De noemer blijft staan."),
@@ -140,6 +168,7 @@ BUNDELS["bewerkingen"] = dict(
         "Gelijke noemers? Dan tel je gewoon de tellers op.",
         "Procent: zoek eerst 10% en reken van daaruit verder.",
         "Zet bij kommagetallen de komma's onder elkaar.",
+        "Hak een grote deling in stukken die je kent.",
     ])
 
 # ───────────────────────────────────────────── 3. Meten en metend rekenen
@@ -152,6 +181,7 @@ BUNDELS["meten-en-metend-rekenen"] = dict(
             ("fig", svg.maatladder(["km", "hm", "dam", "m", "dm", "cm", "mm"]),
              "3,5 m is drie stappen naar rechts tot cm: 350 cm."),
             ("p", "Voor inhoud (kl, hl, dal, l, dl, cl, ml) en voor massa (kg, hg, dag, g, dg, cg, mg) werkt precies dezelfde ladder."),
+            ("p", "De voorvoegsels zeggen precies hoeveel. <strong>Kilo</strong> is duizend, <strong>hecto</strong> honderd, <strong>deca</strong> tien, <strong>deci</strong> een tiende, <strong>centi</strong> een honderdste en <strong>milli</strong> een duizendste. Een hectometer is dus honderd meter — de hectometerpaaltjes langs de snelweg staan om de 100 meter — en in één liter gaan 100 centiliter."),
             ("weetje", "1 liter is 1 000 milliliter, 1 kilogram is 1 000 gram, en 1 ton is 1 000 kilogram. Telkens drie stappen, dus drie keer tien."),
         ]),
         dict(kop="Omtrek en oppervlakte", blokken=[
@@ -159,10 +189,23 @@ BUNDELS["meten-en-metend-rekenen"] = dict(
             ("fig", svg.rechthoek_maten(8, 5, 340),
              "Omtrek: 8 + 5 + 8 + 5. Oppervlakte: 8 × 5, dus 40 vierkantjes van 1 cm²."),
             ("p", "Bij een vierkant zijn alle zijden gelijk: omtrek is zijde × 4, oppervlakte is zijde × zijde. Een vierkant van 9 cm heeft dus een oppervlakte van 81 cm²."),
+            ("p", "Je kan de som ook omdraaien. Ken je de oppervlakte en één zijde, dan vind je de andere door te delen: een rechthoek van 48 cm² die 6 cm breed is, is 48 : 6 = <strong>8 cm</strong> lang. En een vierkant van 36 cm² heeft een zijde van <strong>6 cm</strong>, want 6 × 6 = 36."),
+        ]),
+        dict(kop="Vierkante en kubieke eenheden", blokken=[
+            ("p", "Bij gewone lengte is elke stap maal of gedeeld door 10. Bij oppervlakte tellen twee richtingen mee, dus is elke stap maal of gedeeld door <strong>100</strong>. Bij inhoud zijn het er drie, dus maal of gedeeld door <strong>1 000</strong>."),
+            ("fig", tabel(["1 van deze", "is zoveel van die"], [
+                ["1 m²", "100 dm²"],
+                ["1 dm²", "100 cm²"],
+                ["1 cm²", "100 mm²"],
+                ["1 dm³", "1 000 cm³"],
+                ["1 dm³", "1 liter"],
+            ], "70%"), "Een vierkante meter is dus honderd vierkante decimeter, niet tien."),
+            ("p", "Teken het gerust eens na: in een vierkant van 1 m op 1 m passen tien rijen van tien vierkantjes van 1 dm. Tien keer tien is honderd. Daarom springt de maatladder bij oppervlakte twee plaatsen tegelijk."),
         ]),
         dict(kop="Inhoud van een balk", blokken=[
             ("p", "Bij een ruimtefiguur komt er een derde maat bij: de hoogte. De inhoud is lengte × breedte × hoogte."),
             ("kader", "<p style='margin:0'>Een balk van 4 cm bij 3 cm bij 2 cm heeft een inhoud van 4 × 3 × 2 = <strong>24 cm³</strong>. Dat zijn 24 blokjes van één kubieke centimeter.</p>"),
+            ("p", "Bij een <strong>kubus</strong> zijn alle ribben even lang, dus wordt het ribbe × ribbe × ribbe. Een kubus met een ribbe van 3 cm heeft een inhoud van 3 × 3 × 3 = <strong>27 cm³</strong>."),
             ("p", "Let op de eenheid: cm voor lengte, cm² voor oppervlakte en cm³ voor inhoud. Het kleine cijfer zegt hoeveel richtingen je vermenigvuldigd hebt."),
         ]),
         dict(kop="De klok en de kalender", blokken=[
@@ -177,6 +220,19 @@ BUNDELS["meten-en-metend-rekenen"] = dict(
                 ["1 jaar", "12 maanden ≈ 52 weken = 365 dagen"],
                 ["1 schrikkeljaar", "366 dagen (om de 4 jaar)"],
             ], "80%"), "Handig om uit het hoofd te kennen."),
+        ]),
+        dict(kop="Welke eenheid kies je?", blokken=[
+            ("p", "Een goede eenheid geeft een getal dat je vlot kan uitspreken. De afstand tussen Hasselt en Genk in millimeter uitdrukken kan perfect, maar niemand doet het."),
+            ("fig", tabel(["Wat je meet", "Handigste eenheid"], [
+                ["de afstand tussen twee steden", "kilometer"],
+                ["de lengte van je tafel", "meter of centimeter"],
+                ["de dikte van een blad", "millimeter"],
+                ["het water in een badkuip", "liter"],
+                ["een lepel siroop", "milliliter"],
+                ["een zak aardappelen", "kilogram"],
+                ["een brief", "gram"],
+            ], "80%"), "Kies de eenheid waarin het getal noch heel groot noch heel klein wordt."),
+            ("p", "Moet je twee maten vergelijken, zet ze dan eerst allemaal in dezelfde eenheid. 500 g, 0,75 kg, 1,2 g en 200 g worden zo 500 g, <strong>750 g</strong>, 1,2 g en 200 g. Pas dan zie je dat 0,75 kg het zwaarst is."),
         ]),
         dict(kop="Temperatuur", blokken=[
             ("p", "We meten temperatuur in graden Celsius. Water bevriest bij 0 °C en kookt bij 100 °C."),
@@ -195,6 +251,8 @@ BUNDELS["meten-en-metend-rekenen"] = dict(
         "Oppervlakte in cm², inhoud in cm³.",
         "Tijd rekent met 60, niet met 10.",
         "Reken bij tijd eerst tot het volgende hele uur.",
+        "Bij oppervlakte is elke stap maal of gedeeld door 100, bij inhoud door 1 000.",
+        "Vergelijken? Zet eerst alles in dezelfde eenheid.",
     ])
 
 # ───────────────────────────────────────────── 4. Meetkunde
@@ -218,9 +276,12 @@ BUNDELS["meetkunde"] = dict(
                 ["gelijkzijdige driehoek", "drie gelijke zijden"],
                 ["gelijkbenige driehoek", "twee gelijke zijden"],
             ]), "De hoeken van elke driehoek zijn samen 180°, die van elke vierhoek 360°."),
+            ("p", "Een figuur met rechte zijden noemen we naar het aantal zijden: drie is een driehoek, vier een vierhoek, vijf een vijfhoek, zes een <strong>zeshoek</strong> en acht een <strong>achthoek</strong> — zoals een stopbord in het verkeer."),
+            ("p", "Twee lijnen die overal even ver uit elkaar liggen, noem je <strong>evenwijdig</strong>. Hoe ver je ze ook doortrekt, ze raken elkaar nooit. De twee lange zijden van een rechthoek zijn evenwijdig; een trapezium heeft er minstens één paar."),
         ]),
         dict(kop="Symmetrie en verschuiven", blokken=[
             ("p", "Kan je een figuur langs een lijn dubbelvouwen zodat de twee helften precies op elkaar passen, dan is die lijn een <strong>symmetrieas</strong>. Een vierkant heeft er vier, een rechthoek twee, een cirkel oneindig veel."),
+            ("p", "Niet elke figuur heeft er vier. Een gelijkbenige driehoek heeft er precies <strong>één</strong>: de lijn door de top, tussen de twee even lange zijden in. Een gelijkzijdige driehoek heeft er drie, en een figuur zonder gelijke zijden vaak geen enkele."),
             ("p", "Bij een spiegeling of een verschuiving blijft de figuur even groot en houdt ze dezelfde vorm. Alleen haar plaats verandert."),
         ]),
         dict(kop="De cirkel", blokken=[
@@ -236,8 +297,10 @@ BUNDELS["meetkunde"] = dict(
                 ["balk", "6 rechthoeken", "zoals een schoendoos"],
                 ["cilinder", "2 cirkels + een gebogen vlak", "zoals een blikje"],
                 ["kegel", "1 cirkel + een punt", "zoals een ijshoorntje"],
+                ["piramide", "1 grondvlak + driehoeken", "de driehoeken komen samen in één top"],
                 ["bol", "geen enkel vlak vlak", "rolt alle kanten op"],
             ]), None),
+            ("p", "Tel je de vlakken van een <strong>piramide met een vierkant grondvlak</strong>, dan kom je aan vijf: het vierkant onderaan plus de vier driehoeken errond. Vergeet het grondvlak niet mee te tellen, dat is de fout die iedereen maakt."),
         ]),
     ],
     onthoud=[
@@ -247,6 +310,8 @@ BUNDELS["meetkunde"] = dict(
         "De diameter is twee keer de straal.",
         "Een kubus en een balk: 6 vlakken, 12 ribben, 8 hoekpunten.",
         "Spiegelen en verschuiven verandert niets aan de grootte.",
+        "Evenwijdige lijnen raken elkaar nooit.",
+        "Een piramide met een vierkant grondvlak heeft 5 vlakken.",
     ])
 
 # ───────────────────────────────────────────── 5. Kansrekenen en statistiek
@@ -273,6 +338,19 @@ BUNDELS["kansrekenen-en-statistiek"] = dict(
              "6 + 8 + 8 + 10 = 32, gedeeld door 4 getallen geeft een gemiddelde van 8."),
             ("p", "Het gemiddelde ligt altijd tussen het kleinste en het grootste getal van de rij. Komt er iets daarbuiten uit, dan heb je je vergist."),
         ]),
+        dict(kop="Het vaakst en het middelste", blokken=[
+            ("p", "Naast het gemiddelde zijn er nog twee manieren om een rij getallen in één cijfer samen te vatten."),
+            ("kader", "<p style='margin:0 0 4px'><strong>Het vaakst</strong> — welk getal komt het meeste voor? Bij 12, 15, 15 en 18 graden is dat 15.</p>"
+                      "<p style='margin:0'><strong>Het middelste</strong> — zet de getallen op volgorde en neem het midden. Bij 3, 5, 7, 9 en 11 is dat 7.</p>"),
+            ("p", "Het middelste vind je alleen na sorteren. Staat de rij nog door elkaar, dan zegt het getal dat toevallig in het midden van je blad staat helemaal niets."),
+        ]),
+        dict(kop="Van aantal naar deel en procent", blokken=[
+            ("p", "Vaak vragen ze niet hoeveel er zijn, maar welk <em>deel</em> dat is. Schrijf het dan eerst als een breuk: het aantal dat meetelt, op het totaal. Daarna vereenvoudig je, en als het gevraagd wordt reken je door naar procent."),
+            ("kader", "<p style='margin:0 0 4px'>8 van de 20 kinderen hebben een huisdier → 8/20, en dat is <strong>2/5</strong>.</p>"
+                      "<p style='margin:0 0 4px'>5 van de 20 komen met de fiets → 5/20 = 1/4 = <strong>25%</strong>.</p>"
+                      "<p style='margin:0'>10 van de 50 komen te voet → dat is hetzelfde als 20 van de 100, dus <strong>20%</strong>.</p>"),
+            ("p", "Die laatste stap is de handigste van allemaal: reken je deel om naar <em>hoeveel op honderd</em>. Procent betekent letterlijk per honderd, dus dan staat het antwoord er meteen."),
+        ]),
         dict(kop="Grafieken lezen", blokken=[
             ("p", "Elke grafiek heeft zijn eigen werk. Kies je de verkeerde, dan verstop je net wat je wil tonen."),
             ("fig", svg.naast_elkaar([
@@ -281,7 +359,7 @@ BUNDELS["kansrekenen-en-statistiek"] = dict(
             ]), "Links een staafdiagram om te vergelijken, rechts een lijngrafiek om verandering te tonen."),
             ("fig", svg.taartdiagram([("1/2", .5, svg.FOREST), ("1/4", .25, svg.AMBER), ("1/4", .25, "#3b6ea5")]),
              "Een cirkeldiagram toont hoe een geheel verdeeld is in delen."),
-            ("p", "In een tabel lees je af via de rij en de kolom: je zoekt waar die twee elkaar kruisen."),
+            ("p", "Een staafdiagram lees je af op de as waar de getallen staan: je kijkt tot waar de staaf komt en leest daar het getal af. In een tabel lees je af via de rij en de kolom: je zoekt waar die twee elkaar kruisen."),
         ]),
     ],
     onthoud=[
@@ -290,6 +368,8 @@ BUNDELS["kansrekenen-en-statistiek"] = dict(
         "Gemiddelde = alles optellen, delen door hoeveel getallen er zijn.",
         "Het gemiddelde ligt tussen het kleinste en het grootste getal.",
         "Staafdiagram om te vergelijken, lijngrafiek voor verandering, cirkeldiagram voor delen van een geheel.",
+        "Het middelste getal vind je pas nadat je gesorteerd hebt.",
+        "Een deel op honderd is een procent.",
     ])
 
 # ───────────────────────────────────────────── 6. Vraagstukken
@@ -311,6 +391,13 @@ BUNDELS["vraagstukken-en-problemen-oplossen"] = dict(
                 ["eerlijk verdelen, hoeveel passen erin", "delen"],
                 ["korting, deel van een geheel", "procent of breuk"],
             ]), "Die woorden zijn een goede gids, maar lees altijd het hele verhaaltje na."),
+        ]),
+        dict(kop="Verhoudingen en prijs per stuk", blokken=[
+            ("p", "Staat er <em>1 op 3</em> of <em>3 van elke 5</em>, dan gaat het over een verhouding. Je verdeelt het geheel eerst in even grote groepjes, en daarna neem je er zoveel als gevraagd wordt."),
+            ("kader", "<p style='margin:0 0 4px'><strong>1 op 3 van 30 kinderen</strong> → 30 : 3 = <strong>10 kinderen</strong>.</p>"
+                      "<p style='margin:0'><strong>3 van elke 5, in een klas van 25</strong> → 25 : 5 = 5 groepjes, en 3 × 5 = <strong>15 kinderen</strong>.</p>"),
+            ("p", "Bij een prijs werkt het net zo. Kosten 3 pakken melk samen 4,50 euro, dan kost één pak 4,50 : 3 = 1,50 euro. En dubbel zoveel kost dubbel zoveel: zijn 4 broden 6 euro, dan zijn 8 broden 12 euro."),
+            ("p", "Wordt er iets opgegeten of weggenomen, dan is wat overblijft ook een breuk. Van een pizza in 8 stukken waarvan je er 3 opeet, blijft <strong>5/8</strong> over. Van een taart in 12 stukken waarvan er 9 op zijn, blijft 3/12 over, en dat vereenvoudig je tot <strong>1/4</strong>."),
         ]),
         dict(kop="Vraagstukken met geld", blokken=[
             ("kader", "<p style='margin:0 0 5px'><strong>Je hebt 100 euro. Schoenen kosten 55 euro, een broek 29 euro. Hoeveel hou je over?</strong></p>"
@@ -340,6 +427,7 @@ BUNDELS["vraagstukken-en-problemen-oplossen"] = dict(
         "Omheining is omtrek, tegels zijn oppervlakte, water is inhoud.",
         "Zet alles eerst in dezelfde eenheid.",
         "Kijk na met omgekeerd rekenen.",
+        "1 op 3 betekent: eerst delen door 3.",
     ])
 
 if __name__ == "__main__":
