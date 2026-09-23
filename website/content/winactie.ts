@@ -25,7 +25,7 @@ export const winactie = {
   label: "Winactie",
   titel: "Test ons oefenplatform gratis",
   handgeschreven: `${plaatsen} gezinnen gezocht!`,
-  tekst: `Help ons het oefenplatform nog beter te maken. ${plaatsen} gezinnen mogen alles gratis uittesten, en wie ons daarna vertelt wat ze ervan vinden, krijgt het volledige schooljaar gratis toegang.`,
+  tekst: `Help ons het oefenplatform nog beter te maken. ${plaatsen} gezinnen mogen alles gratis uittesten, en wie ons daarna vertelt wat ze ervan vinden, krijgt het volledige schooljaar gratis toegang. Inschrijven kan tot en met zaterdag 26 september.`,
 
   stappenTitel: "Zo werkt het",
   stappen: [
@@ -60,8 +60,8 @@ export const winactie = {
     },
   ],
 
-  /* Wat er gebeurt als er meer inschrijvingen zijn dan plaatsen. */
-  plaatsenTekst: `Er zijn ${plaatsen} plaatsen. Na het inschrijven laten we je per mail weten of jullie erbij zijn en hoe je toegang krijgt.`,
+  /* Tot wanneer je kan inschrijven en hoe de gezinnen gekozen worden. */
+  plaatsenTekst: `Inschrijven kan tot en met zaterdag 26 september. Daarna loten we de ${plaatsen} testgezinnen uit alle inschrijvingen, en iedereen hoort per mail of ze erbij zijn. De testgezinnen krijgen meteen ook te horen hoe ze toegang krijgen.`,
 
   formulierTitel: "Schrijf je gezin in",
   onderwerp: "Inschrijving winactie oefenplatform via de website",
