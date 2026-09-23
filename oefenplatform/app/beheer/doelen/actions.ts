@@ -67,3 +67,31 @@ export async function verwijderDoelbestand(formData: FormData) {
   revalidatePath("/beheer/doelen");
   revalidatePath("/onderwijsdoelen");
 }
+
+/**
+ * Past de gegevens van een opgeladen document aan zonder het bestand zelf
+ * opnieuw te moeten uploaden. Handig bij een titel waar een woord in ontbreekt.
+ * Wie het document zelf wil vervangen, verwijdert het en laadt het opnieuw op.
+ */
+export async function pasDoelbestandAan(formData: FormData) {
+  await requireBeheerder();
+
+  const id = String(formData.get("id") || "");
+  const titel = String(formData.get("titel") || "").trim();
+  if (!id || !titel) return;
+
+  const admin = createAdminClient();
+  const { error } = await admin
+    .from("doelbestanden")
+    .update({
+      titel,
+      vak: String(formData.get("vak") || "").trim() || null,
+      geldig_sinds: String(formData.get("geldigSinds") || "").trim() || null,
+      omschrijving: String(formData.get("omschrijving") || "").trim() || null,
+    })
+    .eq("id", id);
+
+  if (error) throw new Error(error.message);
+  revalidatePath("/beheer/doelen");
+  revalidatePath("/onderwijsdoelen");
+}
