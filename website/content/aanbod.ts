@@ -96,7 +96,7 @@ export const trajecten: Traject[] = [
     regels: [
       { label: "Wanneer", waarde: "Woensdagvoormiddag, 9u – 12u" },
       { label: "Start", waarde: "Woensdag 16 september 2026" },
-      { label: "Waar", waarde: "Genk T2 Campus, Thomas Morelaan 2, 3600 Genk" },
+      { label: "Waar", waarde: "Genk T2 Campus, Thor Park 8040, 3600 Genk" },
     ],
     foto: {
       bestand: "pluswerking-woensdag.jpg",
