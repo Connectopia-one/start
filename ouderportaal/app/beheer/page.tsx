@@ -4,6 +4,8 @@ import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { Header } from "@/components/Header";
 import { maakKlasje, hernoemKlasje } from "./actions";
+import { huidigMeekijken } from "@/lib/meekijken";
+import { stopMeekijken } from "@/app/portaal/meekijken-actions";
 
 export default async function BeheerPage({
   searchParams,
@@ -13,6 +15,8 @@ export default async function BeheerPage({
   const session = await requireBeheerder();
   const { fout, succes } = await searchParams;
   const naam = session.profile?.full_name ?? session.email ?? "";
+  /* Sta je nog ingesteld om mee te kijken, dan hoor je dat hier te zien. */
+  const meekijken = await huidigMeekijken();
 
   const supabase = await createClient();
   const beheerDb = createAdminClient();
@@ -41,6 +45,24 @@ export default async function BeheerPage({
         terugLabel="Ouderportaal"
       />
       <main className="mx-auto w-full max-w-4xl flex-1 px-6 py-10">
+        {meekijken && (
+          <div className="mb-6 flex flex-wrap items-center justify-between gap-3 rounded-lg border border-amber/40 bg-amber/15 px-4 py-3 text-sm">
+            <span className="text-ink">
+              Het ouderportaal toont je op dit moment wat{" "}
+              <strong className="font-semibold">{meekijken.naam}</strong> ziet.
+              Hier in het beheer ben je gewoon jezelf.
+            </span>
+            <form action={stopMeekijken}>
+              <input type="hidden" name="terug" value="/beheer" />
+              <button
+                type="submit"
+                className="rounded-md bg-forest px-3 py-1.5 text-sm font-medium text-white transition hover:bg-forest-dark"
+              >
+                Stoppen met meekijken
+              </button>
+            </form>
+          </div>
+        )}
         <h1 className="font-display text-2xl font-semibold text-ink">Beheer</h1>
         <p className="mt-1 text-sm text-ink-dim">
           {gezinnenCount ?? 0} gezin{(gezinnenCount ?? 0) === 1 ? "" : "nen"}{" "}

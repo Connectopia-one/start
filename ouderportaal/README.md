@@ -107,6 +107,25 @@ Voegde je dit later toe aan een al werkend project? Plak `supabase/schema.sql`
 opnieuw in de SQL Editor en klik Run — het bestand is veilig om te herhalen en voegt
 enkel ontbrekende tabellen/kolommen toe.
 
+## Het portaal bekijken zoals een gezin het ziet
+
+Als beheerder zie je op `/portaal` je eigen scherm, niet dat van een gezin. Om na te kijken of het
+materiaal er staat en of de links werken, hoef je niet uit te loggen: klik bij een gezin op
+**"Bekijk het portaal zoals dit gezin het ziet"** (op `/beheer/gezinnen` of op de pagina van dat
+gezin).
+
+Je blijft daarbij gewoon als jezelf ingelogd — er wordt niet van account gewisseld en er is geen
+wachtwoord van iemand anders bij betrokken. Het portaal haalt enkel zijn gegevens op alsof je dat
+gezin bent. De toegangsregels van dat gezin gelden daarbij ook: zie je een klasje of de foto's
+niet, dan ziet dat gezin ze ook niet.
+
+Zolang het aanstaat, zie je bovenaan een gele balk met een knop **Stoppen met meekijken**; op
+`/beheer` staat dezelfde herinnering. Na vier uur valt het vanzelf stil.
+
+Eén ding kan bewust niet: op `/portaal/gezin` de gegevens van dat gezin aanpassen. Die formulieren
+zouden op jouw account schrijven, niet op dat van hen. Wil je iets wijzigen aan een gezin, doe dat
+via `/beheer/gezinnen`.
+
 ## Beperkingen van deze eerste versie
 
 - Teamleden ("leerkracht"-rol) zien foto's en fiches van **alle** klasjes, niet enkel

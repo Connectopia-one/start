@@ -3,8 +3,24 @@
 import { revalidatePath } from "next/cache";
 import { requireIngelogd } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { huidigMeekijken } from "@/lib/meekijken";
+
+/*
+  Kijk je als beheerder mee met een gezin, dan mag je hier niets wijzigen.
+  De gegevens op dit scherm zijn van dat gezin, maar deze acties zouden
+  schrijven op JOUW account — dat is precies de verwarring die we niet willen.
+  Wil je iets aanpassen aan een gezin, doe dat via /beheer/gezinnen.
+*/
+async function nietTijdensMeekijken() {
+  if (await huidigMeekijken()) {
+    throw new Error(
+      "Je kijkt mee met een gezin. Stop daar eerst mee, of pas het gezin aan via het beheerscherm."
+    );
+  }
+}
 
 export async function wijzigContactgegevens(formData: FormData) {
+  await nietTijdensMeekijken();
   const session = await requireIngelogd();
   const telefoon = String(formData.get("telefoon") || "").trim() || null;
   const adres = String(formData.get("adres") || "").trim() || null;
@@ -16,6 +32,7 @@ export async function wijzigContactgegevens(formData: FormData) {
 }
 
 export async function voegKindToe(formData: FormData) {
+  await nietTijdensMeekijken();
   const session = await requireIngelogd();
   const naam = String(formData.get("naam") || "").trim();
   if (!naam) return;
@@ -45,6 +62,7 @@ export async function voegKindToe(formData: FormData) {
 }
 
 export async function wijzigKind(formData: FormData) {
+  await nietTijdensMeekijken();
   const session = await requireIngelogd();
   const kindId = String(formData.get("kind_id") || "");
   const naam = String(formData.get("naam") || "").trim();
@@ -79,6 +97,7 @@ export async function wijzigKind(formData: FormData) {
 }
 
 export async function verwijderKind(formData: FormData) {
+  await nietTijdensMeekijken();
   const session = await requireIngelogd();
   const kindId = String(formData.get("kind_id") || "");
 

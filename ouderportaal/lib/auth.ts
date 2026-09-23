@@ -1,5 +1,6 @@
 import { redirect } from "next/navigation";
 import { createClient } from "@/lib/supabase/server";
+import { huidigMeekijken, type Meekijken } from "@/lib/meekijken";
 
 export type Profile = {
   id: string;
@@ -26,7 +27,11 @@ export async function getSessionProfile(): Promise<Session | null> {
     .eq("id", user.id)
     .single();
 
-  return { userId: user.id, email: user.email ?? null, profile: (profile as Profile) ?? null };
+  return {
+    userId: user.id,
+    email: user.email ?? null,
+    profile: (profile as Profile) ?? null,
+  };
 }
 
 /** Stuurt niet-ingelogde bezoekers naar /login. Geeft de sessie terug. */
@@ -41,6 +46,41 @@ export async function requireBeheerder(): Promise<Session> {
   const session = await requireIngelogd();
   if (session.profile?.role !== "beheerder") redirect("/portaal");
   return session;
+}
+
+/*
+  De sessie voor de schermen van het portaal zelf (/portaal/...).
+
+  Kijk je als beheerder mee met een gezin (zie lib/meekijken.ts), dan geeft
+  deze functie dat gezin terug in plaats van jezelf: de schermen halen hun
+  gegevens dan op alsof je dat gezin bent, en tonen zich ook zo. "meekijken"
+  zegt met wie, zodat er een balk boven kan die eraan herinnert.
+
+  alsOuder is waar zodra je het portaal als een gezin bekijkt. De schermen
+  gebruiken dat om de toegangsregels van dat gezin echt toe te passen, ook al
+  zou jij als beheerder alles mogen zien.
+*/
+export type PortaalSessie = Session & {
+  meekijken: Meekijken | null;
+  alsOuder: boolean;
+};
+
+export async function requirePortaalSessie(): Promise<PortaalSessie> {
+  const session = await requireIngelogd();
+  const meekijken = await huidigMeekijken();
+
+  if (!meekijken) {
+    const rol = session.profile?.role ?? "ouder";
+    return { ...session, meekijken: null, alsOuder: rol === "ouder" };
+  }
+
+  return {
+    userId: meekijken.id,
+    email: null,
+    profile: { id: meekijken.id, full_name: meekijken.naam, role: "ouder" },
+    meekijken,
+    alsOuder: true,
+  };
 }
 
 /** Zoals requireIngelogd, maar voor beheerders én leerkrachten (beperkte teamtoegang). */
