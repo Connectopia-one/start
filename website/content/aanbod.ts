@@ -186,8 +186,16 @@ export const trajecten: Traject[] = [
     leeftijd: "6 tot 12 jaar",
     regels: [
       {
-        label: "Wanneer",
-        waarde: "Herfst-, kerst-, krokus-, paas- en zomervakantie",
+        label: "Herfstvakantie, Hasselt",
+        waarde: "Maandag 2 en dinsdag 3 november 2026, bij Level X 28",
+      },
+      {
+        label: "Herfstvakantie, Genk",
+        waarde: "Woensdag 4 en donderdag 5 november 2026, op T2 Campus",
+      },
+      {
+        label: "Daarna",
+        waarde: "Kerst-, krokus-, paas- en zomervakantie",
       },
       { label: "Plaatsen", waarde: "Beperkt, reserveer tijdig je plaatsje" },
     ],
