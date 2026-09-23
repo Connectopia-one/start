@@ -62,6 +62,26 @@ export default function ProfessionalsPagina() {
         </div>
       </Sectie>
 
+      {/* Dit geldt voor elk van onze werkingen, niet voor een ervan. */}
+      <Sectie className="py-4">
+        <div className="rounded-[20px] border border-border bg-surface px-6 py-5">
+          <h2 className="text-xl text-green">{professionals.altijd.titel}</h2>
+          <p className="mt-2 max-w-[68ch] text-[16px] text-ink-dim">
+            {professionals.altijd.tekst}
+          </p>
+          <ul className="mt-3 flex flex-wrap gap-2">
+            {professionals.altijd.woorden.map((woord) => (
+              <li
+                key={woord}
+                className="rounded-full bg-sage-soft px-4 py-1.5 text-[15px] font-extrabold text-green"
+              >
+                {woord}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </Sectie>
+
       {/* Wat we bezorgen. */}
       <Sectie className="py-6">
         <div className="rounded-[20px] bg-orange-soft px-6 py-5">

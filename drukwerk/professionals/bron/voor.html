@@ -10,23 +10,33 @@
   .wie p { font-size: 8.8pt; line-height: 1.45; font-weight: 600; color: var(--ink-dim); }
   .wie p b { color: var(--ink); font-weight: 800; }
 
-  .doen { padding: 3.5mm 11mm 0; }
+  .doen { padding: 3mm 11mm 0; }
+
+  /* de strook die zegt dat het voor élk van de vier geldt */
+  .altijd {
+    margin-top: 2.6mm; border-radius: 14px; background: var(--sage-soft);
+    border: .3mm solid #cdd9bb; padding: 2mm 3.4mm;
+    display: flex; flex-wrap: wrap; align-items: baseline; gap: 1mm 2.6mm;
+    font-size: 8.2pt; font-weight: 600; color: var(--ink);
+  }
+  .altijd b { font-weight: 900; color: var(--green); }
+  .altijd .stip { color: var(--sage); }
   .kaarten { display: grid; grid-template-columns: 1fr 1fr; gap: 2.6mm; margin-top: 2.2mm; }
   .kaart {
     border-radius: 16px; background: #fff; border: .3mm solid var(--border);
-    padding: 2.3mm 3.2mm 2.5mm; display: flex; flex-direction: column;
+    padding: 2mm 3mm 2.2mm; display: flex; flex-direction: column;
   }
   .kaart .ic {
-    width: 7.4mm; height: 7.4mm; border-radius: 50%; display: inline-flex;
-    align-items: center; justify-content: center; font-size: 11pt;
+    width: 6.6mm; height: 6.6mm; border-radius: 50%; display: inline-flex;
+    align-items: center; justify-content: center; font-size: 10pt;
   }
   .kaart.groen .ic { background: var(--sage-soft); }
   .kaart.paars .ic { background: var(--purple-soft); }
   .kaart.oranje .ic { background: var(--orange-soft); }
   .kaart.blauw .ic { background: var(--blue-soft); }
-  .kaart .titel { font-weight: 900; font-size: 10.5pt; color: var(--green); margin-top: 1.4mm; line-height: 1.1; }
-  .kaart .sub { font-weight: 700; font-size: 7.5pt; color: var(--ink-dim); line-height: 1.3; margin-top: .8mm; }
-  .kaart .waar { margin-top: 1.4mm; padding-top: 1.4mm; border-top: .25mm dashed var(--border); font-size: 7.6pt; font-weight: 700; color: var(--ink); }
+  .kaart .titel { font-weight: 900; font-size: 10.2pt; color: var(--green); margin-top: 1.1mm; line-height: 1.1; }
+  .kaart .sub { font-weight: 700; font-size: 7.2pt; color: var(--ink-dim); line-height: 1.28; margin-top: .7mm; }
+  .kaart .waar { margin-top: 1.1mm; padding-top: 1.1mm; border-top: .25mm dashed var(--border); font-size: 7.6pt; font-weight: 700; color: var(--ink); }
   .kaart .waar span { display: block; color: var(--ink-dim); font-weight: 600; }
 
 </style>
@@ -39,8 +49,8 @@
   </div>
 
   <!-- saliegroene blaadjes, zoals op de website -->
-  <svg class="blad" style="left: 121mm; top: 26mm; width: 9mm; transform: rotate(35deg)" viewBox="0 0 40 40"><path d="M4 36 C 4 14, 18 4, 36 4 C 36 22, 26 36, 4 36 Z" fill="#8aa173"/><path d="M4 36 L 30 10" stroke="#fbf6ea" stroke-width="1.6" fill="none"/></svg>
-  <svg class="blad" style="left: 130mm; top: 30mm; width: 6mm; transform: rotate(-20deg)" viewBox="0 0 40 40"><path d="M4 36 C 4 14, 18 4, 36 4 C 36 22, 26 36, 4 36 Z" fill="#dfe7d0"/><path d="M4 36 L 30 10" stroke="#fbf6ea" stroke-width="1.6" fill="none"/></svg>
+  <svg class="blad" style="left: 121mm; top: 22mm; width: 9mm; transform: rotate(35deg)" viewBox="0 0 40 40"><path d="M4 36 C 4 14, 18 4, 36 4 C 36 22, 26 36, 4 36 Z" fill="#8aa173"/><path d="M4 36 L 30 10" stroke="#fbf6ea" stroke-width="1.6" fill="none"/></svg>
+  <svg class="blad" style="left: 130mm; top: 26mm; width: 6mm; transform: rotate(-20deg)" viewBox="0 0 40 40"><path d="M4 36 C 4 14, 18 4, 36 4 C 36 22, 26 36, 4 36 Z" fill="#dfe7d0"/><path d="M4 36 L 30 10" stroke="#fbf6ea" stroke-width="1.6" fill="none"/></svg>
 
   <section class="kop">
     <div class="hand">Even kennismaken</div>
@@ -85,6 +95,13 @@
         <div class="sub">Nieuwsgierigheid, techniek en uitdaging, met een thema per kamp.</div>
         <div class="waar">Elke schoolvakantie<span>Plaatsen zijn beperkt</span></div>
       </div>
+    </div>
+    <div class="altijd">
+      <span><b>Bij alles wat we doen:</b></span>
+      <span>inclusief</span><span class="stip">●</span>
+      <span>prikkelarm</span><span class="stip">●</span>
+      <span>kleine groepen</span><span class="stip">●</span>
+      <span>rustige ruimtes</span>
     </div>
   </section>
 

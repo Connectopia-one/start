@@ -35,7 +35,7 @@ body {
 .blad { position: absolute; z-index: 1; }
 
 /* de kop */
-.hero { position: relative; height: 31mm; overflow: hidden; }
+.hero { position: relative; height: 27mm; overflow: hidden; }
 .hero img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .hero svg.golf { position: absolute; left: 0; bottom: -1px; width: 100%; height: 10mm; }
 

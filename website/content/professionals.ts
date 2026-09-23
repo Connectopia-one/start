@@ -27,6 +27,17 @@ export const professionals = {
       "Wij zijn ervaringsdeskundige ouders met een pedagogische achtergrond en een netwerk van specialisten. We vullen aan wat jij doet: een plek waar een kind peers vindt, en ouders die beter voorbereid bij je binnenkomen.",
   },
 
+  /*
+    De strook onder de drie punten: dit geldt voor élk van onze werkingen,
+    niet voor één ervan.
+  */
+  altijd: {
+    titel: "Bij alles wat we doen",
+    tekst:
+      "Al onze werkingen zijn inclusief en prikkelarm. Kleine groepen, rustige ruimtes, en niemand hoeft zich aan te passen om erbij te horen.",
+    woorden: ["inclusief", "prikkelarm", "kleine groepen", "rustige ruimtes"],
+  },
+
   puntenTitel: "Wat je eraan hebt",
   punten: [
     {
