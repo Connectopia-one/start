@@ -65,6 +65,19 @@ export default async function BeheerPage() {
           </section>
 
           <section>
+            <h2 className="font-display text-lg font-semibold text-ink">Doelen en vakfiches</h2>
+            <p className="mt-3 text-sm text-ink-dim">
+              De officiële documenten waarop onze oefeningen steunen, per niveau en per vak.
+            </p>
+            <Link
+              href="/beheer/doelen"
+              className="mt-4 inline-block rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
+            >
+              Doelen beheren &rarr;
+            </Link>
+          </section>
+
+          <section>
             <h2 className="font-display text-lg font-semibold text-ink">Plusklas-codes</h2>
             <p className="mt-3 text-sm text-ink-dim">
               Codes die je deelt met plusklas-gezinnen voor gratis volledige toegang bij

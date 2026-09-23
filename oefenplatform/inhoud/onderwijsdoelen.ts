@@ -23,12 +23,18 @@ export const doelenTekst = {
   foutTekst:
     "Merk je dat een hoofdstuk iets mist of iets bevat dat er niet in hoort? Laat het ons weten, dan kijken we het na.",
   foutMail: "info@matmgroep.com",
-  /* Wijst door naar de pagina waar de officiële documenten zelf staan. */
+  /* Staat boven de documenten, en legt uit waarom we ze zelf bewaren. */
+  bestandenUitleg:
+    "Hieronder staat bij elk vak het officiële document waarop we ons gebaseerd hebben. We bewaren daar met opzet onze eigen kopie van, met de datum erbij. Op de site van de Examencommissie staan namelijk honderden fiches, en dan weet je nog niet welke wij precies gebruikt hebben. Zie je dat een document verouderd is, laat het ons dan weten.",
+  /* Wijst door naar de pagina met de overige links. */
   materiaalTekst:
-    "De officiële documenten zelf verzamelen we op onze pagina met handig materiaal. Die is voor iedereen te bekijken, ook zonder account.",
+    "Op onze pagina met handig materiaal staan daarnaast nog naslagwerken en oefensites. Die is ook voor iedereen te bekijken, zonder account.",
 };
 
 export type DoelenBlok = {
+  /* De korte naam van het niveau: start, spark, boost of beyond. Daarmee
+     zoekt de pagina de opgeladen fiches bij het juiste blok. */
+  slug: "start" | "spark" | "boost" | "beyond";
   /* Het niveau waar dit over gaat, zoals het op de startpagina staat. */
   niveau: string;
   emoji: string;
@@ -43,6 +49,7 @@ export type DoelenBlok = {
 
 export const doelenBlokken: DoelenBlok[] = [
   {
+    slug: "start",
     niveau: "Start — 5de en 6de leerjaar",
     emoji: "🌱",
     herkomst:
@@ -80,6 +87,7 @@ export const doelenBlokken: DoelenBlok[] = [
     ],
   },
   {
+    slug: "spark",
     niveau: "Spark — 1ste en 2de middelbaar",
     emoji: "✨",
     herkomst:
@@ -100,12 +108,14 @@ export const doelenBlokken: DoelenBlok[] = [
     ],
   },
   {
+    slug: "boost",
     niveau: "Boost — 3de en 4de middelbaar",
     emoji: "🚀",
     herkomst: "De vakfiches van de Examencommissie voor de 2de graad.",
     vakken: [{ naam: "Alle vakken", doelen: "In opbouw.", stand: "Nog niet beschikbaar." }],
   },
   {
+    slug: "beyond",
     niveau: "Beyond — 5de en 6de middelbaar",
     emoji: "🌍",
     herkomst: "De vakfiches van de Examencommissie voor de 3de graad.",
