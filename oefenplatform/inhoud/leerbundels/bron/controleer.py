@@ -1,0 +1,405 @@
+# -*- coding: utf-8 -*-
+"""Rekent de getalvoorbeelden uit de wiskundebundels na.
+
+    python3 controleer.py
+
+Een scheve tekening zie je meteen; een fout rekenvoorbeeld niet. Daarom staat
+elk getal dat in een wiskundebundel beweerd wordt hier nog eens, maar dan
+uitgerekend in plaats van uitgeschreven. Zet je een nieuw voorbeeld in een
+bundel, zet het hier dan ook bij.
+"""
+import math
+from fractions import Fraction
+
+F = Fraction
+
+
+def hoekgroepen_bij_evenwijdigen():
+    """Welke van de acht hoeken in svg.evenwijdige_hoeken() even groot zijn.
+
+    Het onderschrift bij die tekening beweert dat 1, 4, 5 en 8 gelijk zijn en
+    2, 3, 6 en 7 ook. Dat volgt uit de stand van de snijlijn, en die staat in
+    svg.py. Verzet iemand daar de snijpunten, dan klopt het onderschrift
+    misschien niet meer — daarom rekenen we het hier na in plaats van erop te
+    vertrouwen.
+
+    Geeft de twee groepen terug, elk gesorteerd, plus of ze samen 180° zijn.
+    """
+    y1, y2, sx1, sx2 = 46, 130, 190, 282      # zoals in svg.evenwijdige_hoeken
+    lang = math.hypot(sx2 - sx1, y2 - y1)
+    v = ((sx2 - sx1) / lang, (y2 - y1) / lang)
+    takken = [((-1, 0), (-v[0], -v[1])), ((1, 0), (-v[0], -v[1])),
+              ((-1, 0), v), ((1, 0), v)]
+    hoeken = {}
+    for eerste in (1, 5):
+        for j, (u, w) in enumerate(takken):
+            cos = max(-1.0, min(1.0, u[0] * w[0] + u[1] * w[1]))
+            hoeken[eerste + j] = round(math.degrees(math.acos(cos)), 6)
+    per_grootte = {}
+    for nummer, graden in hoeken.items():
+        per_grootte.setdefault(graden, []).append(nummer)
+    groepen = sorted(tuple(sorted(g)) for g in per_grootte.values())
+    samen = abs(sum(per_grootte) - 180) < 1e-6 if len(per_grootte) == 2 else False
+    return groepen, samen
+
+
+CONTROLES = [
+    # (waar het staat, wat de bundel beweert, hoe je het narekent)
+
+    # ── wiskunde Start, bijgeschreven op 23 september 2026
+    ("start getallenkennis: 45 000 : 1 000 = 45",   45,         45000 // 1000),
+    ("start getallenkennis: 7 400 : 100 = 74",      74,         7400 // 100),
+    ("start getallenkennis: 3 : 4 = 0,75",          0.75,       3 / 4),
+    ("start getallenkennis: 1/5 = 20 %",            20.0,       float(F(1, 5)) * 100),
+    ("start getallenkennis: 3/5 = 60 %",            60.0,       float(F(3, 5)) * 100),
+    ("start getallenkennis: 2/5 = 40 %",            40.0,       float(F(2, 5)) * 100),
+    ("start getallenkennis: 2/4 = 1/2",             F(1, 2),    F(2, 4)),
+    ("start getallenkennis: 8/20 = 2/5",            F(2, 5),    F(8, 20)),
+    ("start getallenkennis: rij +12 → 60",          60,         48 + 12),
+    ("start getallenkennis: rij ×2 → 48",           48,         24 * 2),
+    ("start bewerkingen: 24 × 25 = 600",            600,        24 * 25),
+    ("start bewerkingen: 24 : 4 × 100 = 600",       600,        24 // 4 * 100),
+    ("start bewerkingen: 756 : 7 = 108",            108,        756 // 7),
+    ("start bewerkingen: 700:7 + 56:7 = 108",       108,        700 // 7 + 56 // 7),
+    ("start bewerkingen: 924 : 4 = 231",            231,        924 // 4),
+    ("start bewerkingen: 800:4 + 120:4 + 4:4",      231,        800 // 4 + 120 // 4 + 4 // 4),
+    ("start bewerkingen: 832 : 8 = 104",            104,        832 // 8),
+    ("start meten: 1 hectometer = 100 meter",       100,        10 ** 2),
+    ("start meten: 1 liter = 100 centiliter",       100,        10 ** 2),
+    ("start meten: 48 : 6 = 8",                     8,          48 // 6),
+    ("start meten: 6 × 6 = 36",                     36,         6 * 6),
+    ("start meten: 1 m² = 100 dm²",                 100,        10 * 10),
+    ("start meten: 1 dm³ = 1 000 cm³",              1000,       10 * 10 * 10),
+    ("start meten: kubus ribbe 3 → 27 cm³",         27,         3 ** 3),
+    ("start meten: 0,75 kg = 750 g",                750.0,      0.75 * 1000),
+    ("start meten: 750 g is het zwaarst",           750.0,      max(500, 0.75 * 1000, 1.2, 200)),
+    ("start meetkunde: piramide 1 + 4 = 5 vlakken", 5,          1 + 4),
+    ("start kansrekenen: middelste van 5 getallen", 7,          sorted([3, 5, 7, 9, 11])[2]),
+    ("start kansrekenen: 5/20 = 25 %",              25.0,       float(F(5, 20)) * 100),
+    ("start kansrekenen: 10/50 = 20 %",             20.0,       float(F(10, 50)) * 100),
+    ("start vraagstukken: 30 : 3 = 10",             10,         30 // 3),
+    ("start vraagstukken: 25 : 5 = 5, 3 × 5 = 15",  15,         3 * (25 // 5)),
+    ("start vraagstukken: 4,50 : 3 = 1,50",         F(3, 2),    F(9, 2) / 3),
+    ("start vraagstukken: 8 broden = 12 euro",      12,         2 * 6),
+    ("start vraagstukken: 8 − 3 = 5 → 5/8",         F(5, 8),    F(8 - 3, 8)),
+    ("start vraagstukken: 12 − 9 = 3 → 1/4",        F(1, 4),    F(12 - 9, 12)),
+
+    ("getallenleer: 7 is ook rationaal",        F(7, 1),        F(7)),
+    ("getallenleer: 1/8 < 1/4",                 True,           F(1, 8) < F(1, 4)),
+    ("getallenleer: 1/4 + 1/6 = 5/12",          F(5, 12),       F(1, 4) + F(1, 6)),
+    ("getallenleer: 1/4 = 3/12",                F(3, 12),       F(1, 4)),
+    ("getallenleer: 1/6 = 2/12",                F(2, 12),       F(1, 6)),
+    ("getallenleer: 6/8 vereenvoudigd = 3/4",   F(3, 4),        F(6, 8)),
+    ("getallenleer: tegengestelde −5 + 5 = 0",  0,              -5 + 5),
+    ("getallenleer: 2/3 × 3/2 = 1",             1,              F(2, 3) * F(3, 2)),
+    ("getallenleer: |−7| = 7",                  7,              abs(-7)),
+    ("getallenleer: 20 : 3 = 6 rest 2",         (6, 2),         (20 // 3, 20 % 3)),
+    ("getallenleer: 5³ = 125",                  125,            5 ** 3),
+    ("getallenleer: √49 = 7",                   7,              math.isqrt(49)),
+    ("getallenleer: 2 + 3 × 4 = 14",            14,             2 + 3 * 4),
+    ("getallenleer: (2 + 3) × 4 = 20",          20,             (2 + 3) * 4),
+    ("getallenleer: 3 × (4 + 5) = 3×4 + 3×5",   3 * (4 + 5),    3 * 4 + 3 * 5),
+    ("getallenleer: 5 − 3 ≠ 3 − 5",             True,           (5 - 3) != (3 - 5)),
+    ("getallenleer: 2³ × 2⁴ = 2⁷",              2 ** 7,         2 ** 3 * 2 ** 4),
+    ("getallenleer: (2³)² = 2⁶",                2 ** 6,         (2 ** 3) ** 2),
+    ("getallenleer: 2⁻² = 1/4",                 F(1, 4),        F(2) ** -2),
+    ("getallenleer: 12 = 2 × 2 × 3",            12,             2 * 2 * 3),
+    ("getallenleer: 18 = 2 × 3 × 3",            18,             2 * 3 * 3),
+    ("getallenleer: ggd(12, 18) = 6",           6,              math.gcd(12, 18)),
+    ("getallenleer: kgv(4, 6) = 12",            12,             math.lcm(4, 6)),
+    ("getallenleer: 3/8 = 0,375 = 37,5 %",      37.5,           float(F(3, 8)) * 100),
+    ("getallenleer: 25 % van 40 = 10",          10,             0.25 * 40),
+    ("getallenleer: 40 − 10 = 30",              30,             40 - 10),
+    ("getallenleer: 0,75 × 40 = 30",            30,             0.75 * 40),
+    ("getallenleer: 25 % = 1/4 = 0,25",         F(1, 4),        F(25, 100)),
+    ("getallenleer: 4 broden € 6 → 1 brood € 1,50", F(3, 2),    F(6, 4)),
+    ("getallenleer: 10 broden = € 15",          15,             10 * F(6, 4)),
+    ("getallenleer: schaal 1:100, 3 cm → 300 cm", 300,          3 * 100),
+    ("getallenleer: 300 cm = 3 m",              3,              300 / 100),
+    ("getallenleer: 3,247 op 2 decimalen = 3,25", 3.25,         round(3.247, 2)),
+    ("getallenleer: 3,247 op 1 decimaal = 3,2", 3.2,            round(3.247, 1)),
+    ("getallenleer: 19 × 21 ligt rond 400",     True,           350 < 19 * 21 < 450),
+    ("getallenleer: 20 × 20 = 400",             400,            20 * 20),
+    ("getallenleer: priemgetallen tot 13",      [2, 3, 5, 7, 11, 13],
+     [n for n in range(2, 14) if all(n % k for k in range(2, n))]),
+
+    # --- negatieve getallen en procenten ---
+    ("negatieve: \u22128 < \u22123",                    True,           -8 < -3),
+    ("negatieve: \u22123 > \u22125",                    True,           -3 > -5),
+    ("negatieve: \u22125 + 8 = 3",                  3,              -5 + 8),
+    ("negatieve: 4 \u2212 9 = \u22125",                 -5,             4 - 9),
+    ("negatieve: 5 \u2212 (\u22126) = 11",              11,             5 - (-6)),
+    ("negatieve: \u22127 \u2212 (\u22123) = \u22124",            -4,             -7 - (-3)),
+    ("negatieve: \u22126 \u2212 4 = \u221210",              -10,            -6 - 4),
+    ("negatieve: \u22123 \u00d7 4 = \u221212",              -12,            -3 * 4),
+    ("negatieve: \u22126 \u00d7 \u22122 = 12",              12,             -6 * -2),
+    ("negatieve: \u221220 : 5 = \u22124",               -4,             -20 // 5),
+    ("negatieve: (\u22122)\u00b3 = \u22128",               -8,             (-2) ** 3),
+    ("negatieve: (\u22122)\u2074 = 16",                16,             (-2) ** 4),
+    ("negatieve: 4 \u2212 7 = \u22123",                 -3,             4 - 7),
+    ("negatieve: \u22123 \u00d7 (4 \u2212 7) = 9",          9,              -3 * (4 - 7)),
+    ("negatieve: 50 % = de helft",              F(1, 2),        F(50, 100)),
+    ("negatieve: 25 % = 1/4 = 0,25",            F(1, 4),        F(25, 100)),
+    ("negatieve: 10 % van 80 = 8",              8,              F(10, 100) * 80),
+    ("negatieve: 15 % van 200 = 30",            30,             F(15, 100) * 200),
+    ("negatieve: 5 van 25 = 20 %",              F(20, 100),     F(5, 25)),
+    ("negatieve: 3/4 = 75 %",                   F(75, 100),     F(3, 4)),
+    ("negatieve: 30 % van 50 = 50 % van 30",    F(30, 100) * 50, F(50, 100) * 30),
+    ("negatieve: 30 % van 50 = 15",             15,             F(30, 100) * 50),
+    ("negatieve: 20 % van 60 = 12",             12,             F(20, 100) * 60),
+    ("negatieve: 60 \u2212 12 = 48",                48,             60 - 12),
+    ("negatieve: 0,80 \u00d7 60 = 48",              48,             F(80, 100) * 60),
+    ("negatieve: 120 % van 50 = 60",            60,             F(120, 100) * 50),
+    ("negatieve: 50 % van 60 = 30",             30,             F(50, 100) * 60),
+    ("negatieve: 48 : 0,80 = 60",               60,             48 / F(80, 100)),
+    ("negatieve: 40 \u2192 50 is 25 % erbij",       F(25, 100),     F(50 - 40, 40)),
+    ("negatieve: door 50 delen geeft 20 %",     F(20, 100),     F(50 - 40, 50)),
+    ("negatieve: 15 is 60 % \u2192 totaal 25",     25,             15 / F(60, 100)),
+    ("negatieve: 100 +10 % = 110",              110,            F(110, 100) * 100),
+    ("negatieve: 10 % van 110 = 11",            11,             F(10, 100) * 110),
+    ("negatieve: 110 \u2212 11 = 99",               99,             110 - 11),
+    ("negatieve: 100 +50 % = 150",              150,            F(150, 100) * 100),
+    ("negatieve: de helft van 150 = 75",        75,             F(150, 2)),
+    ("negatieve: 0,70 \u00d7 80 = 56",              56,             F(70, 100) * 80),
+    ("negatieve: 80 \u2212 25 = 55",                55,             80 - 25),
+    ("negatieve: \u20ac 25 korting is goedkoper",   True,           (80 - 25) < F(70, 100) * 80),
+
+    # --- probleemoplossend denken ---
+    ("probleem: een derde van 24 = 8",          8,              F(24, 3)),
+    ("probleem: 24 − 8 = 16",                   16,             24 - 8),
+    ("probleem: (5 + 7) × 3 = 36",              36,             (5 + 7) * 3),
+    ("probleem: 36 : 3 = 12",                   12,             36 // 3),
+    ("probleem: 12 − 7 = 5",                    5,              12 - 7),
+    ("probleem: 32 : 0,80 = 40",                40,             32 / F(80, 100)),
+    ("probleem: 3 truien × 2 broeken = 6",      6,              3 * 2),
+    ("probleem: 3 cijfers, 2 plaatsen = 6",     6,              3 * 2),
+    ("probleem: 3 vrienden = 3 handdrukken",    3,              3 * 2 // 2),
+    ("probleem: 20 m om de 4 m = 6 palen",      6,              20 // 4 + 1),
+    ("probleem: 100 : 14 = 7 rest 2",           (7, 2),         (100 // 14, 100 % 14)),
+    ("probleem: 100 mensen, 8 rijen",           8,              -(-100 // 14)),
+    ("probleem: 105 min = 1 u 45 min",          (1, 45),        divmod(105, 60)),
+    ("probleem: 300 g voor 4 → 75 g",           75,             F(300, 4)),
+    ("probleem: 6 × 75 = 450",                  450,            6 * 75),
+    ("probleem: 19 × 21 ligt rond 400",         True,           350 < 19 * 21 < 450),
+
+    # --- wiskundige redeneringen en uitspraken ---
+    ("redenering: 2 is priem en even",          (True, True),
+     (all(2 % d for d in range(2, 2)), 2 % 2 == 0)),
+    ("redenering: 6 wel door 2, niet door 4",   (0, 2),         (6 % 2, 6 % 4)),
+    ("redenering: 9 is niet deelbaar door 2",   1,              9 % 2),
+    ("redenering: 123 cijfersom is 6",          6,              1 + 2 + 3),
+    ("redenering: 123 : 3 = 41",                41,             123 // 3),
+    ("redenering: 12 : 4 : 2 = 1,5",            F(3, 2),        F(12, 4) / 2),
+    ("redenering: 4 : 2 zou 6 geven",           6,              12 // (4 // 2)),
+    ("redenering: √(9 + 16) = 5",               5,              math.isqrt(9 + 16)),
+    ("redenering: √9 + √16 = 7",                7,              math.isqrt(9) + math.isqrt(16)),
+    ("redenering: 10 % en nog eens 10 % → 81",  81,             F(90, 100) * F(90, 100) * 100),
+    ("redenering: dat is 19 % korting",         19,             100 - F(90, 100) * F(90, 100) * 100),
+    ("redenering: 5 > 3 maar −5 < −3",          True,           5 > 3 and -5 < -3),
+    ("redenering: uit 5 > 3 volgt 7 > 5",       True,           (5 + 2) > (3 + 2)),
+    ("redenering: 10 deelbaar door 5",          0,              10 % 5),
+    ("redenering: 2 + 3 × 4 = 14",              14,             2 + 3 * 4),
+    ("redenering: (2 + 3) × 4 = 20",            20,             (2 + 3) * 4),
+    ("redenering: 2a + 2b = 2(a + b)",          True,
+     all(2 * a + 2 * b == 2 * (a + b) for a in range(5) for b in range(5))),
+
+    # --- meetkunde ---
+    ("meetkunde: 180 − 50 − 60 = 70",           70,             180 - 50 - 60),
+    ("meetkunde: 180 : 3 = 60",                 60,             180 // 3),
+    ("meetkunde: vierhoek 2 × 180 = 360",       360,            2 * 180),
+    ("meetkunde: tophoek 40 → basishoek 70",    70,             (180 - 40) // 2),
+    ("meetkunde: basishoek 50 → tophoek 80",    80,             180 - 2 * 50),
+    ("meetkunde: nevenhoek van 70 is 110",      110,            180 - 70),
+    ("meetkunde: binnenhoek 65 → 115",          115,            180 - 65),
+    ("meetkunde: straal 6 → diameter 12",       12,             2 * 6),
+    ("meetkunde: parallellogram 110 → 70",      70,             180 - 110),
+    ("meetkunde: 90 en 45 → derde hoek 45",     45,             180 - 90 - 45),
+    ("meetkunde: hoekgroepen 1-4-5-8 en 2-3-6-7",
+     ([(1, 4, 5, 8), (2, 3, 6, 7)], True),      hoekgroepen_bij_evenwijdigen()),
+
+    # --- metend rekenen ---
+    ("metend: 3,5 km = 3500 m",                 3500,           F(35, 10) * 1000),
+    ("metend: 2,5 uur = 150 min",               150,            F(25, 10) * 60),
+    ("metend: kwartier = 900 s",                900,            15 * 60),
+    ("metend: 2,5 m² = 250 dm²",                250,            F(25, 10) * 100),
+    ("metend: 3 m² = 30 000 cm²",               30000,          3 * 100 * 100),
+    ("metend: tuin 20 × 15 = 300 m²",           300,            20 * 15),
+    ("metend: 300 m² = 3 are",                  3,              F(300, 100)),
+    ("metend: 1 hectare = 10 000 m²",           10000,          100 * 100),
+    ("metend: omtrek 7 bij 3 = 20",             20,             2 * (7 + 3)),
+    ("metend: oppervlakte 7 bij 3 = 21",        21,             7 * 3),
+    ("metend: omtrek vierkant 6 = 24",          24,             4 * 6),
+    ("metend: oppervlakte vierkant 6 = 36",     36,             6 * 6),
+    ("metend: omtrek 1×5 en 3×3 allebei 12",    (12, 12),       (2 * (1 + 5), 2 * (3 + 3))),
+    ("metend: maar oppervlakte 5 en 9",         (5, 9),         (1 * 5, 3 * 3)),
+    ("metend: driehoek (8 × 5) : 2 = 20",       20,             F(8 * 5, 2)),
+    ("metend: trapezium (6+10) × 4 : 2 = 32",   32,             F((6 + 10) * 4, 2)),
+    ("metend: ruit (8 × 6) : 2 = 24",           24,             F(8 * 6, 2)),
+    ("metend: omtrek cirkel r 5 = 31,4",        F(314, 10),     2 * F(314, 100) * 5),
+    ("metend: oppervlakte cirkel r 5 = 78,5",   F(785, 10),     F(314, 100) * 25),
+    ("metend: omtrek cirkel d 10 = 31,4",       F(314, 10),     F(314, 100) * 10),
+    ("metend: kubus 4³ = 64",                   64,             4 ** 3),
+    ("metend: balk 5 × 3 × 2 = 30",             30,             5 * 3 * 2),
+    ("metend: cilinder r3 h10 = 282,6",         F(2826, 10),    F(314, 100) * 9 * 10),
+    ("metend: kubus rib 3, opp 6 × 9 = 54",     54,             6 * 3 * 3),
+    ("metend: balk 5-4-2, opp = 76",            76,             2 * 20 + 2 * 10 + 2 * 8),
+    ("metend: kubus 2 dm = 8 liter",            8,              2 ** 3),
+    ("metend: zwembad 75 m³",                   75,             F(10 * 5 * 15, 10)),
+    ("metend: 75 m³ = 75 000 liter",            75000,          75 * 1000),
+    ("metend: halve cirkel r3 = 14,13",         F(1413, 100),   F(F(314, 100) * 9, 2)),
+    ("metend: samen 36 + 14,13 = 50,13",        F(5013, 100),   36 + F(F(314, 100) * 9, 2)),
+    ("metend: 100 − 4 × 4 = 84",                84,             100 - 4 * (2 * 2)),
+    ("metend: √49 = 7",                         7,              math.isqrt(49)),
+    ("metend: 48 : 8 = 6",                      6,              F(48, 8)),
+    ("metend: zijde 3 → 9, zijde 6 → 36",       (9, 36),        (3 * 3, 6 * 6)),
+    ("metend: 1200 : 15 = 80",                  80,             F(1200, 15)),
+    ("metend: 12,467 op 2 decimalen = 12,47",   12.47,          round(12.467, 2)),
+    ("metend: 5 × 250 = 1250 ml",               1250,           5 * 250),
+    ("metend: dus 2 pakjes van een liter",      2,              -(-1250 // 1000)),
+
+    # --- relaties en verandering ---
+    ("relaties: 3x + 7x = 10x",                 10,             3 + 7),
+    ("relaties: 4a + 3a − a = 6a",              6,              4 + 3 - 1),
+    ("relaties: 3(x + 2) = 3x + 6",             True,
+     all(3 * (x + 2) == 3 * x + 6 for x in range(-5, 6))),
+    ("relaties: 2(3x−5)+4x = 10x−10",           True,
+     all(2 * (3 * x - 5) + 4 * x == 10 * x - 10 for x in range(-5, 6))),
+    ("relaties: x² − 3x bij x = 5 is 10",       10,             5 ** 2 - 3 * 5),
+    ("relaties: 2a − b bij a=3, b=−4 is 10",    10,             2 * 3 - (-4)),
+    ("relaties: (2 + 3)² = 25",                 25,             (2 + 3) ** 2),
+    ("relaties: 4 + 12 + 9 = 25",               25,             4 + 12 + 9),
+    ("relaties: (a+b)² = a²+2ab+b²",            True,
+     all((a + b) ** 2 == a * a + 2 * a * b + b * b for a in range(-4, 5) for b in range(-4, 5))),
+    ("relaties: (x+4)² = x²+8x+16",             True,
+     all((x + 4) ** 2 == x * x + 8 * x + 16 for x in range(-5, 6))),
+    ("relaties: (a+b)(a−b) = a²−b²",            True,
+     all((a + b) * (a - b) == a * a - b * b for a in range(-4, 5) for b in range(-4, 5))),
+    ("relaties: 7 × 3 = 21 en 25 − 4 = 21",     (21, 21),       (7 * 3, 25 - 4)),
+    ("relaties: quotiënt 6:2 = 12:4 = 15:5",    (3, 3, 3),      (F(6, 2), F(12, 4), F(15, 5))),
+    ("relaties: 6 × 4 = 24 = 12 × 2",           (24, 24),       (6 * 4, 12 * 2)),
+    ("relaties: lucifers 3n+1 geeft 4, 7, 10",  [4, 7, 10],     [3 * n + 1 for n in (1, 2, 3)]),
+    ("relaties: rij 3,7,11,15 → 19",            19,             15 + 4),
+    ("relaties: rij 2,4,8,16 → 32",             32,             16 * 2),
+    ("relaties: 2x + 5 = 17 → x = 6",           6,              F(17 - 5, 2)),
+    ("relaties: 5x−3 = 2x+9 → 3x = 12",         (3, 12),        (5 - 2, 9 + 3)),
+    ("relaties: dus x = 4",                     4,              F(12, 3)),
+    ("relaties: 3(x−2) = 15 → x = 7",           7,              F(15, 3) + 2),
+    ("relaties: taxi 3 + 2x = 19 → x = 8",      8,              F(19 - 3, 2)),
+    ("relaties: 2(8+b) = 26 → b = 5",           5,              F(26, 2) - 8),
+    # --- Data en onzekerheid ---
+    ("data: gemiddelde van 4, 6, 8 is 6",       6,              F(4 + 6 + 8, 3)),
+    ("data: mediaan van 3,7,9,12,20 is 9",      9,              sorted([3, 7, 9, 12, 20])[2]),
+    ("data: mediaan van 2,4,6,10 is 5",         5,              F(4 + 6, 2)),
+    ("data: modus van 3,7,7,9,12 is 7",         7,
+     max(set([3, 7, 7, 9, 12]), key=[3, 7, 7, 9, 12].count)),
+    ("data: frequentietabel telt op tot 22",    22,             4 + 9 + 6 + 2 + 1),
+    ("data: reeks 3,5,6,8,10,16 gemiddelde 8",  8,              F(3 + 5 + 6 + 8 + 10 + 16, 6)),
+    ("data: die reeks heeft mediaan 7",         7,              F(6 + 8, 2)),
+    ("data: die reeks variatiebreedte 13",      13,             16 - 3),
+    ("data: weeklonen gemiddelde 134",          134,            F(10 + 12 + 14 + 500, 4)),
+    ("data: weeklonen mediaan 13",              13,             F(12 + 14, 2)),
+    ("data: som van vier toetsen met gem. 14",  56,             14 * 4),
+    ("data: vierde toets voor gemiddelde 15",   17,             15 * 4 - (12 + 15 + 16)),
+    ("data: 8 van 16 meer dan 9 van 30",        True,           F(8, 16) > F(9, 30)),
+    ("data: 20 % van 360\u00b0 is 72\u00b0",            72,             F(20, 100) * 360),
+    ("data: 90\u00b0 is een vierde",                 F(1, 4),        F(90, 360)),
+    ("data: 15 van 40 geeft 135\u00b0",             135,            F(15, 40) * 360),
+    ("data: taartdiagram 40/32/28 telt tot 1",  1,              F(40, 100) + F(32, 100) + F(28, 100)),
+    ("data: die delen zijn 10, 8 en 7 van 25",  (F(40, 100), F(32, 100), F(28, 100)),
+     (F(10, 25), F(8, 25), F(7, 25))),
+    # --- Verzamelingen ---
+    ("verz: {3,5,5,7} heeft 3 elementen",       3,              len({3, 5, 5, 7})),
+    ("verz: {1,2,3} en {3,1,2} zijn gelijk",    True,           {1, 2, 3} == {3, 1, 2}),
+    ("verz: {0} is niet leeg",                  1,              len({0})),
+    ("verz: {2,4} \u2282 {1,2,3,4}, niet omgekeerd", (True, False),
+     ({2, 4} <= {1, 2, 3, 4}, {1, 2, 3, 4} <= {2, 4})),
+    ("verz: {a,b} heeft 4 deelverzamelingen",   4,              2 ** len({"a", "b"})),
+    ("verz: {1,2,3} \u2229 {2,3,4} = {2,3}",       {2, 3},         {1, 2, 3} & {2, 3, 4}),
+    ("verz: {1,2,3} \u222a {2,3,4} = {1,2,3,4}",   {1, 2, 3, 4},   {1, 2, 3} | {2, 3, 4}),
+    ("verz: {1,2,3} \\ {2,3,4} = {1}",           {1},            {1, 2, 3} - {2, 3, 4}),
+    ("verz: {1,2} \u222a {2,5} = {1,2,5}",        {1, 2, 5},      {1, 2} | {2, 5}),
+    ("verz: {1,2,3,4} \\ {3,4} = {1,2}",         {1, 2},         {1, 2, 3, 4} - {3, 4}),
+    ("verz: {1,3,5} \u2229 {2,4,6} is leeg",      set(),          {1, 3, 5} & {2, 4, 6}),
+    ("verz: {1,2,3} \u222a \u2205 = {1,2,3}",        {1, 2, 3},      {1, 2, 3} | set()),
+    ("verz: A\\B = {1} en B\\A = {3}",           ({1}, {3}),
+     ({1, 2} - {2, 3}, {2, 3} - {1, 2})),
+    ("verz: Frans-Duits venn 13 / 5 / 9",       (13, 5, 9),     (18 - 5, 5, 14 - 5)),
+    ("verz: samen 27 van de 30, dus 3 geen",    (27, 3),        (13 + 5 + 9, 30 - (13 + 5 + 9))),
+    ("verz: 12 + 8 \u2212 3 = 17",                  17,             12 + 8 - 3),
+    ("verz: 7 + 5 \u2212 2 = 10",                   10,             7 + 5 - 2),
+    ("verz: even \u2229 veelvouden van 3 = van 6",  6,
+     min(n for n in range(1, 60) if n % 2 == 0 and n % 3 == 0)),
+    ("verz: priem \u2229 even = {2}",              {2},
+     {n for n in range(2, 200)
+      if n % 2 == 0 and all(n % d for d in range(2, int(n ** 0.5) + 1))}),
+    ("verz: rechthoek 3 bij 5 is geen vierkant", False,         3 == 5),
+    # 🧱 Basis (maak_basis.py)
+    ("basis komma: 345,6 heeft 3 honderdtallen", 300,           (3456 // 1000) * 100),
+    ("basis komma: 3,45 × 10 = 34,5",            F(345, 10),     F(345, 100) * 10),
+    ("basis komma: 3,45 × 100 = 345",            345,            F(345, 100) * 100),
+    ("basis komma: 3,45 × 1000 = 3450",          3450,           F(345, 100) * 1000),
+    ("basis komma: 2,7 × 1000 = 2700",           2700,           F(27, 10) * 1000),
+    ("basis komma: 45 × 100 = 4500",             4500,           45 * 100),
+    ("basis komma: 45 : 100 = 0,45",             F(45, 100),     F(45) / 100),
+    ("basis komma: 7 : 1000 = 0,007",            F(7, 1000),     F(7) / 1000),
+    ("basis komma: 34,50 = 34,5",                F(345, 10),     F(3450, 100)),
+    ("basis maten: 1 dm = 0,1 m",                F(1, 10),       F(1, 10)),
+    ("basis maten: 1 cl = 0,01 l",               F(1, 100),      F(1, 100)),
+    ("basis maten: 1 mg = 0,001 g",              F(1, 1000),     F(1, 1000)),
+    ("basis maten: 3,5 km = 3500 m",             3500,           F(35, 10) * 1000),
+    ("basis maten: 250 cm = 2,5 m",              F(25, 10),      F(250, 100)),
+    ("basis maten: 1,25 km = 1250 m",            1250,           F(125, 100) * 1000),
+    ("basis maten: 1 l = 100 cl = 1000 ml",      (100, 1000),    (1 * 100, 1 * 1000)),
+    ("basis woorden: 12 + 5 = 17",               17,             12 + 5),
+    ("basis woorden: 17 − 5 = 12",               12,             17 - 5),
+    ("basis woorden: 4 × 6 = 24",                24,             4 * 6),
+    ("basis woorden: 24 : 6 = 4",                4,              24 // 6),
+    ("basis woorden: 20 : 3 = 6 rest 2",         (6, 2),         divmod(20, 3)),
+    ("basis woorden: 6 × 3 + 2 = 20",            20,             6 * 3 + 2),
+    ("basis woorden: 12 : 3 = 4 en 3 : 12 = 0,25", (4, F(1, 4)), (F(12, 3), F(3, 12))),
+    ("basis breuken: 3/4 = 0,75",                F(75, 100),     F(3, 4)),
+    ("basis breuken: 1/2 = 0,5 en 2/5 = 0,4",    (F(5, 10), F(4, 10)), (F(1, 2), F(2, 5))),
+    ("basis breuken: 7/10, 23/100, 5/1000",      (F(7, 10), F(23, 100), F(5, 1000)),
+     (F(7) / 10, F(23) / 100, F(5) / 1000)),
+    ("basis breuken: 3/5 = 6/10 = 0,6",          F(6, 10),       F(3, 5)),
+    ("basis breuken: 1/4 = 25/100",              F(25, 100),     F(1, 4)),
+    ("basis breuken: tabel 1/5 = 0,2, 1/10 = 0,1, 1/100 = 0,01",
+     (F(2, 10), F(1, 10), F(1, 100)), (F(1, 5), F(1, 10), F(1, 100))),
+    ("basis breuken: 0,75 = 75/100 = 3/4, ggd 25", (F(3, 4), 25), (F(75, 100), math.gcd(75, 100))),
+    ("basis breuken: 8/4 = 2, 5/5 = 1",          (2, 1),         (F(8, 4), F(5, 5))),
+    ("basis breuken: 4/4, 8/4, 12/4 zijn geheel", [F(4, 4), F(8, 4), F(12, 4)],
+     [F(n, 4) for n in range(0, 13, 2) if F(n, 4).denominator == 1 and n > 0]),
+    ("basis breuken: 7/2 = 3 rest 1 = 3,5",      (3, 1, F(35, 10)), (7 // 2, 7 % 2, F(7, 2))),
+    ("basis ggd: delers van 12",                 [1, 2, 3, 4, 6, 12], [d for d in range(1, 13) if 12 % d == 0]),
+    ("basis ggd: 3 × 4 = 12 zit in tafel van 3", True,          12 in range(3, 25, 3)),
+    ("basis ggd: deelbaarheid 348, 235, 470",    (0, 0, 0),      (348 % 2, 235 % 5, 470 % 10)),
+    ("basis ggd: 123 en 729 via cijfersom",      (6, 18, 0, 0),  (1 + 2 + 3, 7 + 2 + 9, 123 % 3, 729 % 9)),
+    ("basis ggd: 316 deelbaar door 4",           (0, 4),         (316 % 4, 16 // 4)),
+    ("basis ggd: ggd(12, 18) = 6",               6,              math.gcd(12, 18)),
+    ("basis ggd: gemeenschappelijke delers 12/18", {1, 2, 3, 6},
+     {d for d in range(1, 13) if 12 % d == 0 and 18 % d == 0}),
+    ("basis ggd: kgv(4, 6) = 12",                12,             math.lcm(4, 6)),
+    ("basis ggd: 12 en 24 in tafel 4 en 6 (tot 24)", {12, 24},
+     {n for n in range(1, 25) if n % 4 == 0 and n % 6 == 0}),
+    ("basis ggd: 12/18 = 2/3",                   F(2, 3),        F(12, 18)),
+    ("basis ggd: 1/4 + 1/6 = 3/12 + 2/12 = 5/12", F(5, 12),      F(1, 4) + F(1, 6)),
+    ("basis ggd: bus en tram samen om 8.12 u",   12,             math.lcm(4, 6)),
+    ("basis ggd: priemgetallen tot 13",          [2, 3, 5, 7, 11, 13],
+     [n for n in range(2, 14) if all(n % d for d in range(2, n))]),
+]
+
+
+def main():
+    fout = 0
+    for naam, beweerd, nagerekend in CONTROLES:
+        if beweerd == nagerekend:
+            print("  ok  ", naam)
+        else:
+            fout += 1
+            print("  FOUT", naam, f"— bundel zegt {beweerd}, narekenen geeft {nagerekend}")
+    print(f"\n{len(CONTROLES) - fout} van de {len(CONTROLES)} kloppen.")
+    return 1 if fout else 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

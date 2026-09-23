@@ -1,0 +1,3734 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Negatieve getallen en procenten — deel 1",
+      "hernoemVan": "Negatieve getallen en procenten",
+      "niveau": "spark",
+      "gratis": true,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Het is 's ochtends −3 °C. Tegen de middag is het 7 graden warmer. Hoe warm is het dan?",
+          "opties": [
+            "4 °C",
+            "10 °C",
+            "−10 °C"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van −3 ga je 7 stappen naar rechts op de getallenas: −3 + 7 = 4."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk getal is het kleinste?",
+          "opties": [
+            "−8",
+            "−3",
+            "2"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij negatieve getallen is het grootste cijfer juist het kleinste getal. −8 ligt het verst links."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is −5 + 8?",
+          "opties": [
+            "3",
+            "−3",
+            "13"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je begint bij −5 en gaat 8 naar rechts. Je passeert de nul en komt op 3 uit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 4 − 9?",
+          "opties": [
+            "−5",
+            "5",
+            "−13"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je gaat 9 stappen naar links vanaf 4. Na 4 stappen sta je op 0, en dan nog 5 verder: −5."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is −6 − 4?",
+          "opties": [
+            "−10",
+            "−2",
+            "10"
+          ],
+          "antwoord": 0,
+          "uitleg": "Nog verder naar links: van −6 nog eens 4 erbij in de min. Twee keer min wordt hier niet plus."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel is −2 + 2?",
+          "antwoord": "0",
+          "uitleg": "Een getal en zijn tegengestelde geven samen altijd nul."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is −3 × 4?",
+          "opties": [
+            "−12",
+            "12",
+            "−7"
+          ],
+          "antwoord": 0,
+          "uitleg": "Min maal plus geeft min. Drie keer vier is twaalf, met een minteken ervoor."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is −6 × −2?",
+          "opties": [
+            "12",
+            "−12",
+            "−8"
+          ],
+          "antwoord": 0,
+          "uitleg": "Min maal min geeft plus. Dat is de regel die het vaakst fout gaat."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Twee negatieve getallen vermenigvuldigen geeft altijd een negatief getal.",
+          "antwoord": false,
+          "uitleg": "Nee, juist een positief. −6 × −2 = 12."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is −20 : 5?",
+          "opties": [
+            "−4",
+            "4",
+            "−15"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij delen gelden dezelfde tekenregels als bij vermenigvuldigen: min gedeeld door plus geeft min."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een duiker zit op −12 meter en stijgt 5 meter. Waar zit hij nu?",
+          "opties": [
+            "−7 meter",
+            "−17 meter",
+            "7 meter"
+          ],
+          "antwoord": 0,
+          "uitleg": "Stijgen is naar nul toe: −12 + 5 = −7. Hij zit nog altijd onder water."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent 50 %?",
+          "opties": [
+            "De helft",
+            "Een kwart",
+            "Vijftig keer zoveel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Procent betekent 'per honderd'. 50 van de 100 is de helft."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel procent is de helft?",
+          "antwoord": "50",
+          "uitleg": "1/2 = 0,5 en dat maal honderd is 50 %."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 10 % van 80?",
+          "opties": [
+            "8",
+            "10",
+            "18"
+          ],
+          "antwoord": 0,
+          "uitleg": "10 % is een tiende. Delen door 10 geeft 8."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 25 % van 60?",
+          "opties": [
+            "15",
+            "20",
+            "25"
+          ],
+          "antwoord": 0,
+          "uitleg": "25 % is een kwart. 60 : 4 = 15."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een jas van € 60 krijgt 20 % korting. Wat betaal je?",
+          "opties": [
+            "€ 48",
+            "€ 40",
+            "€ 52"
+          ],
+          "antwoord": 0,
+          "uitleg": "20 % van 60 is 12, dus je betaalt 60 − 12 = 48. Of meteen: 80 % van 60."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een klas van 25 leerlingen dragen er 5 een bril. Hoeveel procent is dat?",
+          "opties": [
+            "20 %",
+            "5 %",
+            "25 %"
+          ],
+          "antwoord": 0,
+          "uitleg": "5 van de 25 is 1/5, en 1/5 is 20 %. Even nagaan: 20 % van 25 is inderdaad 5."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "30 % van 50 is hetzelfde als 50 % van 30.",
+          "antwoord": true,
+          "uitleg": "Ja, allebei 15. Handig om te weten: je mag de twee getallen omwisselen als dat makkelijker rekent."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke schrijfwijze hoort niet bij de andere twee?",
+          "opties": [
+            "0,4",
+            "40 %",
+            "1/4"
+          ],
+          "antwoord": 2,
+          "uitleg": "0,4 en 40 % zijn hetzelfde. 1/4 is 0,25, ofwel 25 %."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel procent van een geheel is alles samen?",
+          "antwoord": "100",
+          "uitleg": "Het volledige geheel is 100 %. Meer dan 100 % kan wel, maar dan is het meer dan het oorspronkelijke geheel."
+        }
+      ]
+    },
+    {
+      "titel": "Negatieve getallen en procenten — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is −7 − (−3)?",
+          "opties": [
+            "−4",
+            "−10",
+            "4"
+          ],
+          "antwoord": 0,
+          "uitleg": "Min een min wordt plus: −7 + 3 = −4. Het aftrekken van een schuld maakt je rijker."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 5 − (−6)?",
+          "opties": [
+            "11",
+            "−1",
+            "−11"
+          ],
+          "antwoord": 0,
+          "uitleg": "5 + 6 = 11. Twee mintekens naast elkaar heffen elkaar op."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is (−2)³?",
+          "opties": [
+            "−8",
+            "8",
+            "−6"
+          ],
+          "antwoord": 0,
+          "uitleg": "−2 × −2 × −2. De eerste twee geven +4, en die maal −2 geeft −8. Een oneven exponent houdt het teken min."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is (−2)⁴?",
+          "opties": [
+            "16",
+            "−16",
+            "8"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een even exponent vallen de mintekens twee aan twee weg, dus de uitkomst is positief."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is −3 × (4 − 7)?",
+          "opties": [
+            "9",
+            "−9",
+            "−33"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst de haakjes: 4 − 7 = −3. Dan −3 × −3 = 9."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke rij staat van klein naar groot?",
+          "opties": [
+            "−9 < −4 < −1 < 0 < 3",
+            "−1 < −4 < −9 < 0 < 3",
+            "0 < −1 < −4 < −9 < 3"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hoe verder een negatief getal van nul ligt, hoe kleiner het is."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel is −4 × −4?",
+          "antwoord": "16",
+          "uitleg": "Min maal min geeft plus, dus hetzelfde als 4 × 4."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De temperatuur gaat van −5 °C naar 3 °C. Hoeveel graden is het gestegen?",
+          "opties": [
+            "8 graden",
+            "2 graden",
+            "−2 graden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van −5 naar 0 is 5 graden, en van 0 naar 3 nog eens 3. Samen 8."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 15 % van 200?",
+          "opties": [
+            "30",
+            "15",
+            "3"
+          ],
+          "antwoord": 0,
+          "uitleg": "10 % is 20 en 5 % is 10, samen 30. Zo splits je een lastig percentage in makkelijke stukken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een spel kost € 48 na 20 % korting. Wat was de oorspronkelijke prijs?",
+          "opties": [
+            "€ 60",
+            "€ 57,60",
+            "€ 68"
+          ],
+          "antwoord": 0,
+          "uitleg": "48 is 80 % van de prijs. Dus 1 % is 0,60 en 100 % is 60. Let op: 20 % bij 48 optellen geeft het verkeerde antwoord."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een trui van € 40 gaat eerst 10 % omhoog en daarna 10 % omlaag. Wat kost hij dan?",
+          "opties": [
+            "€ 39,60",
+            "€ 40",
+            "€ 39"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst 44, dan 10 % van 44 eraf, dat is 4,40. Je komt uit op 39,60 — de tweede korting rekent op een groter bedrag."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als iets eerst 50 % duurder wordt en daarna 50 % goedkoper, kost het weer evenveel.",
+          "antwoord": false,
+          "uitleg": "Nee. € 100 wordt € 150, en de helft daarvan is € 75. Procenten rekenen altijd op de laatste waarde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Van 40 naar 50 gaan: hoeveel procent stijging is dat?",
+          "opties": [
+            "25 %",
+            "10 %",
+            "20 %"
+          ],
+          "antwoord": 0,
+          "uitleg": "De stijging is 10, en 10 op de oorspronkelijke 40 is 10 : 40 = 0,25, dus 25 %."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarop reken je een percentage van stijging of daling altijd?",
+          "opties": [
+            "Op de oorspronkelijke waarde",
+            "Op de nieuwe waarde",
+            "Op honderd"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat is de valkuil bij stijgen en dalen: het vergelijkingspunt is waar je vandaan kwam."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel procent is 3/4?",
+          "antwoord": "75",
+          "uitleg": "3 : 4 = 0,75, en dat maal honderd is 75 %."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een fiets kost € 250. De prijs zakt met 12 %. Wat betaal je?",
+          "opties": [
+            "€ 220",
+            "€ 230",
+            "€ 238"
+          ],
+          "antwoord": 0,
+          "uitleg": "12 % van 250 is 30, dus 250 − 30 = 220. Sneller: 88 % van 250."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is 120 % van 50?",
+          "opties": [
+            "60",
+            "70",
+            "170"
+          ],
+          "antwoord": 0,
+          "uitleg": "100 % is 50 en 20 % is 10, samen 60. Meer dan 100 % betekent gewoon meer dan het geheel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een klas zit 60 % meisjes, dat zijn er 15. Hoeveel leerlingen telt de klas?",
+          "opties": [
+            "25",
+            "9",
+            "36"
+          ],
+          "antwoord": 0,
+          "uitleg": "60 % is 15, dus 1 % is 0,25 en 100 % is 25. Controle: 60 % van 25 is 15."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een korting van 25 % is hetzelfde als vermenigvuldigen met 0,75.",
+          "antwoord": true,
+          "uitleg": "Ja, en dat is meteen de snelste manier: je rekent in één stap wat je nog betaalt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee winkels: de ene geeft 30 % korting op € 80, de andere € 25 korting op € 80. Waar betaal je het minst?",
+          "opties": [
+            "Bij de winkel met 30 % korting",
+            "Bij de winkel met € 25 korting",
+            "Even duur"
+          ],
+          "antwoord": 1,
+          "uitleg": "30 % van 80 is 24, dus daar betaal je 56. Bij de andere winkel betaal je 80 − 25 = 55. Die tweede is dus een euro goedkoper. Een percentage klinkt vaak voordeliger dan het is: reken het altijd even uit."
+        }
+      ]
+    },
+    {
+      "titel": "Getallenleer — deel 1",
+      "hernoemVan": "Getallenleer",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk van deze drie is géén natuurlijk getal?",
+          "opties": [
+            "0",
+            "7",
+            "−3"
+          ],
+          "antwoord": 2,
+          "uitleg": "De natuurlijke getallen zijn 0, 1, 2, 3, … Negatieve getallen horen er niet bij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat voegen de gehele getallen toe aan de natuurlijke getallen?",
+          "opties": [
+            "De negatieve getallen",
+            "De breuken",
+            "De kommagetallen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gehele getallen: … −3, −2, −1, 0, 1, 2, 3 … Daarmee kan je ook aftrekkingen maken die onder nul gaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een rationaal getal?",
+          "opties": [
+            "Een getal dat je kan schrijven als een breuk van twee gehele getallen",
+            "Een getal zonder komma",
+            "Elk getal groter dan nul"
+          ],
+          "antwoord": 0,
+          "uitleg": "0,25 is rationaal, want het is 1/4. Ook elk geheel getal is rationaal: 7 is 7/1."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In de breuk 3/4, hoe heet het getal 4? (één woord)",
+          "antwoord": "noemer",
+          "uitleg": "De noemer zegt in hoeveel gelijke stukken het geheel verdeeld is."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In de breuk 3/4, hoe heet het getal 3? (één woord)",
+          "antwoord": "teller",
+          "uitleg": "De teller telt hoeveel van die stukken je neemt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een stambreuk?",
+          "opties": [
+            "Een breuk met 1 als teller",
+            "Een breuk met 1 als noemer",
+            "Een breuk die je niet kan vereenvoudigen"
+          ],
+          "antwoord": 0,
+          "uitleg": "1/2, 1/3 en 1/8 zijn stambreuken. Ze stellen telkens één stuk van het geheel voor."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wanneer zijn twee breuken gelijknamig?",
+          "opties": [
+            "Als ze dezelfde noemer hebben",
+            "Als ze dezelfde teller hebben",
+            "Als ze even groot zijn"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gelijknamig maken doe je om te kunnen optellen: 1/2 + 1/3 wordt 3/6 + 2/6."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wanneer is een breuk onvereenvoudigbaar?",
+          "opties": [
+            "Als teller en noemer geen gemeenschappelijke deler meer hebben behalve 1",
+            "Als de teller kleiner is dan de noemer",
+            "Als de noemer een priemgetal is"
+          ],
+          "antwoord": 0,
+          "uitleg": "6/8 kan nog: deel beide door 2 en je krijgt 3/4. Verder gaat niet meer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het tegengestelde van −5?",
+          "opties": [
+            "5",
+            "1/5",
+            "−1/5"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het tegengestelde krijg je door het teken om te draaien. Samen geven ze 0: −5 + 5 = 0."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het omgekeerde van 2/3?",
+          "opties": [
+            "3/2",
+            "−2/3",
+            "2/3"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij het omgekeerde wissel je teller en noemer. Samen geven ze 1: 2/3 × 3/2 = 1."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel is de absolute waarde van −7?",
+          "antwoord": "7",
+          "uitleg": "De absolute waarde is de afstand tot nul op de getallenas, en een afstand is nooit negatief."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe heten de getallen die je optelt, en het resultaat?",
+          "opties": [
+            "Termen en som",
+            "Factoren en product",
+            "Deeltal en quotiënt"
+          ],
+          "antwoord": 0,
+          "uitleg": "7 + 3 = 10: 7 en 3 zijn de termen, 10 is de som."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe heten de getallen die je vermenigvuldigt, en het resultaat?",
+          "opties": [
+            "Factoren en product",
+            "Termen en som",
+            "Aftrektal en verschil"
+          ],
+          "antwoord": 0,
+          "uitleg": "4 × 5 = 20: 4 en 5 zijn de factoren, 20 is het product."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de rest bij de deling 20 : 3?",
+          "opties": [
+            "2",
+            "3",
+            "0"
+          ],
+          "antwoord": 0,
+          "uitleg": "3 gaat 6 keer in 20, dat is 18, en er blijft 2 over. Blijft er iets over, dan heet dat een niet-opgaande deling."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In de macht 5³, welk getal is de exponent?",
+          "opties": [
+            "3",
+            "5",
+            "15"
+          ],
+          "antwoord": 0,
+          "uitleg": "5 is het grondtal, 3 de exponent. 5³ betekent 5 × 5 × 5 = 125."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is √49?",
+          "opties": [
+            "7",
+            "24,5",
+            "±49"
+          ],
+          "antwoord": 0,
+          "uitleg": "Worteltrekken is het omgekeerde van kwadrateren: 7 × 7 = 49, dus √49 = 7."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 2 + 3 × 4?",
+          "opties": [
+            "14",
+            "20",
+            "24"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vermenigvuldigen gaat vóór optellen: eerst 3 × 4 = 12, dan 2 + 12 = 14."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "12 is een priemgetal.",
+          "antwoord": false,
+          "uitleg": "Nee. 12 is ook deelbaar door 2, 3, 4 en 6. Een priemgetal heeft precies twee delers: 1 en zichzelf."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk van deze getallen is een priemgetal?",
+          "opties": [
+            "2",
+            "1",
+            "9"
+          ],
+          "antwoord": 0,
+          "uitleg": "2 is het enige even priemgetal. 1 telt niet mee, want dat heeft maar één deler; 9 is 3 × 3."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Elk geheel getal is ook een rationaal getal.",
+          "antwoord": true,
+          "uitleg": "Ja. Je kan elk geheel getal als breuk schrijven met noemer 1, bijvoorbeeld −4 = −4/1."
+        }
+      ]
+    },
+    {
+      "titel": "Getallenleer — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe heet de eigenschap dat a + b hetzelfde geeft als b + a?",
+          "opties": [
+            "Commutatief",
+            "Associatief",
+            "Distributief"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je mag de volgorde wisselen. Dat geldt bij optellen en vermenigvuldigen, maar niet bij aftrekken: 5 − 3 is niet 3 − 5."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe heet de eigenschap dat (a + b) + c hetzelfde geeft als a + (b + c)?",
+          "opties": [
+            "Associatief",
+            "Commutatief",
+            "Opslorpend"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je mag de haakjes anders zetten. Handig om makkelijk te rekenen: 17 + (3 + 48) reken je sneller als (17 + 3) + 48."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke eigenschap gebruik je bij 3 × (4 + 5) = 3 × 4 + 3 × 5?",
+          "opties": [
+            "Distributief",
+            "Commutatief",
+            "Associatief"
+          ],
+          "antwoord": 0,
+          "uitleg": "De vermenigvuldiging wordt over de optelling verdeeld. Allebei geven ze 27."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het neutraal element voor de vermenigvuldiging?",
+          "opties": [
+            "1",
+            "0",
+            "−1"
+          ],
+          "antwoord": 0,
+          "uitleg": "Neutraal betekent: het verandert niets. a × 1 = a. Bij optellen is 0 het neutraal element."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het opslorpend element voor de vermenigvuldiging?",
+          "opties": [
+            "0",
+            "1",
+            "−1"
+          ],
+          "antwoord": 0,
+          "uitleg": "Alles wat je met 0 vermenigvuldigt wordt 0, wat het andere getal ook is. Het slorpt de uitkomst op."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 2³ × 2⁴?",
+          "opties": [
+            "2⁷",
+            "2¹²",
+            "4⁷"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij hetzelfde grondtal tel je de exponenten op: 3 + 4 = 7. Uitgeschreven zijn het samen zeven factoren 2."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is (2³)²?",
+          "opties": [
+            "2⁶",
+            "2⁵",
+            "2⁹"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een macht van een macht: exponenten vermenigvuldigen, 3 × 2 = 6."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 2⁻²?",
+          "opties": [
+            "1/4",
+            "−4",
+            "1/2"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een negatieve exponent betekent het omgekeerde: 2⁻² = 1/2² = 1/4."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de grootste gemeenschappelijke deler van 12 en 18?",
+          "opties": [
+            "6",
+            "3",
+            "36"
+          ],
+          "antwoord": 0,
+          "uitleg": "12 = 2 × 2 × 3 en 18 = 2 × 3 × 3. Wat ze samen hebben is 2 × 3 = 6."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het kleinste gemeenschappelijk veelvoud van 4 en 6?",
+          "opties": [
+            "12",
+            "24",
+            "10"
+          ],
+          "antwoord": 0,
+          "uitleg": "Veelvouden van 4: 4, 8, 12 … Van 6: 6, 12 … Het eerste dat in beide rijtjes staat is 12."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor gebruik je het kgv bij breuken?",
+          "opties": [
+            "Om ze gelijknamig te maken",
+            "Om ze te vereenvoudigen",
+            "Om ze om te zetten naar procent"
+          ],
+          "antwoord": 0,
+          "uitleg": "Voor 1/4 + 1/6 neem je noemer 12: dat wordt 3/12 + 2/12 = 5/12."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je een getal dat alleen deelbaar is door 1 en door zichzelf? (één woord)",
+          "antwoord": "priemgetal",
+          "uitleg": "2, 3, 5, 7, 11, 13 … Elk getal is te schrijven als een product van priemgetallen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel procent is 3/8?",
+          "opties": [
+            "37,5 %",
+            "3,8 %",
+            "26,7 %"
+          ],
+          "antwoord": 0,
+          "uitleg": "3 : 8 = 0,375, en dat maal 100 is 37,5 %."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een trui kost € 40 en gaat 25 % in prijs omlaag. Wat betaal je?",
+          "opties": [
+            "€ 30",
+            "€ 25",
+            "€ 35"
+          ],
+          "antwoord": 0,
+          "uitleg": "25 % van 40 is 10, dus je betaalt 40 − 10 = 30. Je kan ook meteen 75 % van 40 rekenen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op een plan met schaal 1 : 100 meet een muur 3 cm. Hoe lang is die muur echt?",
+          "opties": [
+            "3 m",
+            "30 cm",
+            "300 m"
+          ],
+          "antwoord": 0,
+          "uitleg": "Elke centimeter op het plan is 100 cm in het echt. 3 × 100 cm = 300 cm = 3 m."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vier broden kosten € 6. Wat kosten tien broden aan dezelfde prijs?",
+          "opties": [
+            "€ 15",
+            "€ 12",
+            "€ 18"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eén brood kost 6 : 4 = € 1,50. Tien broden is dan 10 × 1,50 = € 15."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Rond 3,247 af tot op twee decimalen.",
+          "opties": [
+            "3,25",
+            "3,24",
+            "3,20"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je kijkt naar het derde decimaal. Dat is 7, dus 5 of meer, en dan gaat het cijfer ervoor één omhoog."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "−3 is groter dan −5.",
+          "antwoord": true,
+          "uitleg": "Ja. Op de getallenas ligt −3 rechts van −5, en verder naar rechts betekent groter. Bij negatieve getallen is het grootste cijfer dus het kleinste getal."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke rij staat van klein naar groot?",
+          "opties": [
+            "−5 < −3 < 0 < 1/2 < 1",
+            "−3 < −5 < 0 < 1 < 1/2",
+            "0 < −3 < −5 < 1/2 < 1"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst de negatieve getallen, met de verst van nul vooraan, dan nul, dan de positieve."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de rechte lijn waarop je getallen op hun plaats zet? (één woord)",
+          "antwoord": "getallenas",
+          "uitleg": "Daarop zie je in één blik welk getal groter is: hoe verder naar rechts, hoe groter."
+        }
+      ]
+    },
+    {
+      "titel": "Probleemoplossend denken — deel 1",
+      "niveau": "spark",
+      "gratis": false,
+      "hernoemVan": "Probleemoplossend denken",
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Een fles water kost € 1,20. Hoeveel kosten er zeven?",
+          "opties": [
+            "€ 8,40",
+            "€ 7,20",
+            "€ 84"
+          ],
+          "antwoord": 0,
+          "uitleg": "7 × € 1,20 = € 8,40. Reken even na of het kan kloppen: zeven flessen van iets meer dan een euro moet iets meer dan zeven euro zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest een opgave en je snapt niet meteen wat er gevraagd wordt. Wat doe je het best eerst?",
+          "opties": [
+            "De opgave nog eens lezen en opschrijven wat je weet en wat je zoekt",
+            "Alle getallen die je ziet bij elkaar optellen",
+            "Naar de volgende vraag gaan"
+          ],
+          "antwoord": 0,
+          "uitleg": "De eerste stap is altijd: begrijp het probleem. Pas als je weet wat gegeven is en wat gevraagd wordt, kan je een plan maken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een klas van 24 leerlingen is een derde afwezig. Hoeveel leerlingen zijn er aanwezig?",
+          "opties": [
+            "16",
+            "8",
+            "21"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een derde van 24 is 8, dus er zijn er 8 afwezig. Aanwezig: 24 − 8 = 16. Let op dat er naar de aanwezigen gevraagd wordt, niet naar de afwezigen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een rechthoekige tuin is 12 m lang en 8 m breed. Hoeveel meter draad heb je nodig om er een hek rond te zetten?",
+          "opties": [
+            "40 m",
+            "96 m",
+            "20 m"
+          ],
+          "antwoord": 0,
+          "uitleg": "Rond de tuin is de omtrek: 2 × (12 + 8) = 40 m. Met 12 × 8 zou je de oppervlakte krijgen, en die staat in m², niet in m."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een trein vertrekt om 9.45 u en rijdt 2 uur en 20 minuten. Hoe laat komt hij aan? (bijvoorbeeld 14.05)",
+          "antwoord": "12.05",
+          "uitleg": "9.45 u + 2 u = 11.45 u, en daar nog 20 minuten bij. 11.45 u + 15 min is 12.00 u, en nog 5 minuten geeft 12.05 u."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Drie vrienden delen € 45 eerlijk. Daarna geeft ieder € 2 aan een goed doel. Hoeveel houdt ieder over?",
+          "opties": [
+            "€ 13",
+            "€ 15",
+            "€ 39"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst delen: 45 : 3 = € 15 per persoon. Dan elk € 2 af: 15 − 2 = € 13. Doe de stappen in de volgorde waarin ze gebeuren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een pak van 500 g koekjes kost € 3. Wat betaal je voor een kilo?",
+          "opties": [
+            "€ 6",
+            "€ 1,50",
+            "€ 3"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een kilo is 1000 g, dus twee pakken: 2 × € 3 = € 6. Hier helpt een verhoudingstabel: 500 g ↔ € 3, dus 1000 g ↔ € 6."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als je antwoord op een vraagstuk onmogelijk is (bijvoorbeeld een leeftijd van 200 jaar), mag je het toch opschrijven zolang je berekening netjes is.",
+          "antwoord": false,
+          "uitleg": "Nee. De laatste stap is reflecteren: kan dit antwoord kloppen? Een onmogelijk antwoord betekent dat er iets misging, en dan zoek je de fout."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een film duurt 105 minuten. Hoe lang is dat in uren en minuten?",
+          "opties": [
+            "1 u 45 min",
+            "1 u 5 min",
+            "2 u 5 min"
+          ],
+          "antwoord": 0,
+          "uitleg": "105 : 60 = 1, met 45 over. Dus 1 uur en 45 minuten. Een uur heeft 60 minuten, geen 100."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je koopt vier broodjes van € 2,50 en betaalt met € 20. Hoeveel krijg je terug?",
+          "opties": [
+            "€ 10",
+            "€ 17,50",
+            "€ 12"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vier broodjes: 4 × € 2,50 = € 10. Terug: 20 − 10 = € 10."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een handige eerste stap bij een vraagstuk met veel gegevens door elkaar?",
+          "opties": [
+            "De gegevens in een tabel of schema zetten",
+            "Beginnen met het grootste getal",
+            "Meteen een formule opschrijven"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gegevens ordenen in een tabel of schema maakt zichtbaar wat bij wat hoort. Dat is een van de strategieën die de vakfiche noemt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een zwembad van 25 meter lang: hoeveel volledige lengtes zwem je als je 1 kilometer zwemt?",
+          "antwoord": "40",
+          "uitleg": "Een kilometer is 1000 m. 1000 : 25 = 40 lengtes."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een fietser rijdt 15 km per uur. Hoe lang doet hij over 45 km?",
+          "opties": [
+            "3 uur",
+            "30 minuten",
+            "60 uur"
+          ],
+          "antwoord": 0,
+          "uitleg": "45 : 15 = 3 uur. Controleer het omgekeerd: 3 uur aan 15 km per uur is 45 km."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een doos zitten 6 rijen van 8 chocolaatjes. Er zijn er al 12 op. Hoeveel blijven er over?",
+          "opties": [
+            "36",
+            "48",
+            "26"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst het totaal: 6 × 8 = 48. Dan eraf: 48 − 12 = 36."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Schatten voor je rekent, is tijdverlies.",
+          "antwoord": false,
+          "uitleg": "Schatten kost weinig tijd en laat je meteen zien of je uitkomst in de buurt ligt. Het is een van de strategieën uit de vakfiche."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een recept voor 4 personen vraagt 300 g rijst. Hoeveel heb je nodig voor 6 personen?",
+          "opties": [
+            "450 g",
+            "500 g",
+            "400 g"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ga eerst naar één persoon: 300 : 4 = 75 g. Dan maal zes: 6 × 75 = 450 g."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een boek heeft 240 bladzijden. Je leest er elke dag 30. Op welke dag ben je klaar?",
+          "opties": [
+            "De achtste dag",
+            "De zevende dag",
+            "De tiende dag"
+          ],
+          "antwoord": 0,
+          "uitleg": "240 : 30 = 8, dus na acht dagen ben je rond."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een gsm kost € 240. Je spaart € 15 per week. Na hoeveel weken heb je genoeg?",
+          "opties": [
+            "16 weken",
+            "15 weken",
+            "24 weken"
+          ],
+          "antwoord": 0,
+          "uitleg": "240 : 15 = 16 weken. Controleer: 16 × 15 = 240."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je hebt drie truien en twee broeken. Hoeveel verschillende combinaties kan je aantrekken?",
+          "antwoord": "6",
+          "uitleg": "Bij elke trui passen twee broeken: 3 × 2 = 6. Je kan ze ook alle zes opschrijven, dat is ook een strategie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je rekent uit dat een klas van 25 leerlingen samen 3 potloden heeft. Wat doe je?",
+          "opties": [
+            "Je berekening opnieuw nakijken, want dit klinkt onwaarschijnlijk",
+            "Het antwoord opschrijven, want je hebt netjes gerekend",
+            "Het getal afronden naar 25"
+          ],
+          "antwoord": 0,
+          "uitleg": "Reflecteren hoort bij het oplossen. Een antwoord dat niet plausibel is, is een teken dat er ergens een stap misliep."
+        }
+      ]
+    },
+    {
+      "titel": "Probleemoplossend denken — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Ik denk aan een getal, tel er 7 bij op en vermenigvuldig het resultaat met 3. Ik krijg 36. Aan welk getal dacht ik?",
+          "opties": [
+            "5",
+            "12",
+            "9"
+          ],
+          "antwoord": 0,
+          "uitleg": "Reken terug, van achter naar voor: 36 : 3 = 12, en 12 − 7 = 5. Controleer vooruit: (5 + 7) × 3 = 36."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een rij begint met 2, 5, 11, 23, … Welk getal komt er daarna?",
+          "opties": [
+            "47",
+            "35",
+            "46"
+          ],
+          "antwoord": 0,
+          "uitleg": "Elk getal is het vorige maal 2 plus 1: 2 → 5 → 11 → 23 → 47. Zoek bij een rij altijd eerst naar het verband tussen twee opeenvolgende getallen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op een parking staan auto's en motors: samen 20 voertuigen en 70 wielen. Hoeveel motors staan er?",
+          "opties": [
+            "5",
+            "10",
+            "15"
+          ],
+          "antwoord": 0,
+          "uitleg": "Stel dat het allemaal auto's waren: 20 × 4 = 80 wielen, dat is er 10 te veel. Elke motor scheelt 2 wielen, dus 10 : 2 = 5 motors. Controleer: 5 motors (10 wielen) en 15 auto's (60 wielen) is 70."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel getallen van twee cijfers kan je maken met de cijfers 1, 2 en 3 als elk cijfer maar één keer gebruikt mag worden?",
+          "opties": [
+            "6",
+            "9",
+            "3"
+          ],
+          "antwoord": 0,
+          "uitleg": "Schrijf ze allemaal op: 12, 13, 21, 23, 31, 32. Dat zijn er 6. Drie keuzes voor het eerste cijfer, en dan nog twee over voor het tweede: 3 × 2 = 6."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een kaars van 20 cm brandt 3 cm per uur op. Na hoeveel uur is ze nog 5 cm lang?",
+          "antwoord": "5",
+          "uitleg": "Er moet 20 − 5 = 15 cm wegbranden, en dat gaat 3 cm per uur: 15 : 3 = 5 uur. Let op dat er niet gevraagd wordt hoe lang ze helemaal opbrandt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Drie vrienden zitten aan een tafel. Ieder geeft ieder ander een hand. Hoeveel handdrukken zijn er?",
+          "opties": [
+            "3",
+            "6",
+            "9"
+          ],
+          "antwoord": 0,
+          "uitleg": "Noem ze A, B en C: AB, AC en BC. Dat zijn er 3. AB en BA is dezelfde handdruk, dus je mag niet gewoon 3 × 2 doen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een trui kost na 20 % korting € 32. Wat was de oude prijs?",
+          "opties": [
+            "€ 40",
+            "€ 38,40",
+            "€ 52"
+          ],
+          "antwoord": 0,
+          "uitleg": "€ 32 is 80 % van de oude prijs. Dus de oude prijs is 32 : 0,80 = € 40. Controleer: 20 % van 40 is 8, en 40 − 8 = 32."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een kraan vult een vat in 6 uur, een tweede kraan doet er 12 uur over. Hoe lang duurt het als ze samen lopen?",
+          "opties": [
+            "4 uur",
+            "9 uur",
+            "18 uur"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kijk naar 12 uur: de eerste kraan vult in die tijd 2 vaten, de tweede 1 vat. Samen 3 vaten in 12 uur, dus 1 vat in 4 uur. Samen gaat het altijd sneller dan de snelste alleen, dus 9 of 18 uur kon al niet."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel keer schrijf je het cijfer 1 als je alle getallen van 1 tot en met 20 opschrijft?",
+          "antwoord": "12",
+          "uitleg": "1 en 10 tot 19 geven elk één 1 op de plaats van de tientallen of de eenheden: 1, 10, 11 (twee keer), 12, 13, 14, 15, 16, 17, 18, 19. Samen 12."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een tuin van 20 m lang krijgt om de 4 meter een paal, ook aan het begin en aan het einde. Hoeveel palen zijn er?",
+          "opties": [
+            "6",
+            "5",
+            "4"
+          ],
+          "antwoord": 0,
+          "uitleg": "20 : 4 = 5 tussenruimtes, maar palen staan op de grenzen: 5 + 1 = 6. Dit heet de paalfout; maak bij twijfel een tekening."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een som van drie opeenvolgende getallen is 48. Wat is het kleinste?",
+          "opties": [
+            "15",
+            "16",
+            "14"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het middelste is 48 : 3 = 16, dus de getallen zijn 15, 16 en 17. Controleer: 15 + 16 + 17 = 48."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je koopt 3 kg appels en 2 kg peren voor € 11. Appels kosten € 2 per kilo. Wat kost een kilo peren?",
+          "opties": [
+            "€ 2,50",
+            "€ 2",
+            "€ 5"
+          ],
+          "antwoord": 0,
+          "uitleg": "De appels kosten 3 × € 2 = € 6. Blijft over voor de peren: 11 − 6 = € 5, voor 2 kilo. Dus 5 : 2 = € 2,50 per kilo."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als een strategie niet werkt, is het slim om een andere te proberen in plaats van dezelfde weg te blijven gaan.",
+          "antwoord": true,
+          "uitleg": "Juist. Terugkijken op je aanpak en die bijstellen hoort bij het oplossen. Een schets, een tabel of terugrekenen kan opeens wel werken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een zaal heeft rijen van 14 stoelen. Er komen 100 mensen. Hoeveel rijen zijn er nodig?",
+          "opties": [
+            "8",
+            "7",
+            "14"
+          ],
+          "antwoord": 0,
+          "uitleg": "100 : 14 = 7, met 2 over. Die 2 mensen hebben ook een stoel nodig, dus 8 rijen. Bij zo'n vraag rond je altijd naar boven af."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het is nu 14.00 u. Hoe laat is het over 100 uur?",
+          "opties": [
+            "18.00 u",
+            "16.00 u",
+            "20.00 u"
+          ],
+          "antwoord": 0,
+          "uitleg": "100 : 24 = 4 volle dagen met 4 uur over. Vier dagen later is het weer 14.00 u, plus 4 uur is 18.00 u."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel kleine kubusjes zitten er in een kubus van 3 bij 3 bij 3?",
+          "antwoord": "27",
+          "uitleg": "3 × 3 × 3 = 27. Een laag is 3 × 3 = 9 kubusjes, en er zijn drie lagen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Anna is nu 12 en haar mama 40. Over hoeveel jaar is haar mama precies dubbel zo oud als Anna?",
+          "opties": [
+            "16 jaar",
+            "14 jaar",
+            "28 jaar"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het verschil blijft altijd 28 jaar. Als mama dubbel zo oud is, is dat verschil gelijk aan Anna's leeftijd, dus Anna is dan 28 en mama 56. Dat is over 28 − 12 = 16 jaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een winkel verkoopt 4 flessen voor de prijs van 3. Eén fles kost € 2. Hoeveel procent korting krijg je op de vier samen?",
+          "opties": [
+            "25 %",
+            "33 %",
+            "20 %"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vier flessen kosten normaal € 8, nu betaal je € 6. De korting is € 2 op € 8, en 2 : 8 = 0,25, dus 25 %."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je verdeelt 100 snoepjes over een aantal kinderen, elk evenveel, en er blijven er 4 over. Hoeveel kinderen kunnen er zijn?",
+          "opties": [
+            "8",
+            "7",
+            "9"
+          ],
+          "antwoord": 0,
+          "uitleg": "Er zijn 100 − 4 = 96 snoepjes eerlijk verdeeld, dus het aantal kinderen is een deler van 96. Van de drie is enkel 8 dat. En er moeten meer dan 4 kinderen zijn, anders kon je de rest nog verdelen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de laatste stap bij het oplossen van een vraagstuk?",
+          "opties": [
+            "Nakijken of je antwoord de gestelde vraag beantwoordt",
+            "De berekening netjes overschrijven",
+            "Het grootste getal onderstrepen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Reflecteren: klopt het antwoord, is het mogelijk, en geeft het écht antwoord op wat er gevraagd werd? Een juist getal bij de verkeerde vraag is nog altijd fout."
+        }
+      ]
+    },
+    {
+      "titel": "Wiskundige redeneringen en uitspraken — deel 1",
+      "niveau": "spark",
+      "gratis": false,
+      "hernoemVan": "Wiskundige redeneringen en uitspraken",
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand zegt: „alle vogels kunnen vliegen”. Wat is genoeg om aan te tonen dat dat niet klopt?",
+          "opties": [
+            "Eén vogel aanwijzen die niet kan vliegen",
+            "Tien vogels aanwijzen die wel kunnen vliegen",
+            "Zeggen dat je het niet gelooft"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eén geval dat de uitspraak onderuithaalt, is genoeg. Zo'n geval heet een tegenvoorbeeld. Een pinguïn volstaat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe noem je één geval waarmee je aantoont dat een uitspraak niet klopt?",
+          "opties": [
+            "Een tegenvoorbeeld",
+            "Een bewijs",
+            "Een eigenschap"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een tegenvoorbeeld. Eén stuks is genoeg: een uitspraak die voor álle gevallen zou moeten gelden, valt door één uitzondering."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als je tien voorbeelden vindt waarin een uitspraak klopt, dan is de uitspraak bewezen.",
+          "antwoord": false,
+          "uitleg": "Nee. Voorbeelden kunnen een uitspraak illustreren, maar niet bewijzen. Er kan altijd nog een geval bestaan dat je niet bekeek. Eén tegenvoorbeeld kan haar wél omverwerpen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "„Als een getal deelbaar is door 4, dan is het deelbaar door 2.” Klopt dat?",
+          "opties": [
+            "Ja, altijd",
+            "Nee, nooit",
+            "Alleen bij even getallen boven 100"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie door 4 deelbaar is, is een veelvoud van 4, en elk veelvoud van 4 is ook een veelvoud van 2. Bijvoorbeeld 12: 12 : 4 = 3 en 12 : 2 = 6."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "„Als een getal deelbaar is door 2, dan is het deelbaar door 4.” Welk getal toont aan dat dit niet klopt?",
+          "opties": [
+            "6",
+            "8",
+            "12"
+          ],
+          "antwoord": 0,
+          "uitleg": "6 is deelbaar door 2 maar niet door 4. Dat ene getal volstaat als tegenvoorbeeld. 8 en 12 zijn door allebei deelbaar en weerleggen dus niets."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent het pijltje ⇒ in „a ⇒ b”?",
+          "opties": [
+            "Als a waar is, dan is b waar",
+            "a en b zijn hetzelfde",
+            "a is groter dan b"
+          ],
+          "antwoord": 0,
+          "uitleg": "⇒ is de als-dan-pijl, de implicatie. a ⇒ b lees je als: als a, dan b."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent de dubbele pijl ⇔?",
+          "opties": [
+            "Het een geldt precies wanneer het ander geldt",
+            "Het een volgt uit het ander, maar niet omgekeerd",
+            "De twee kanten zijn even groot"
+          ],
+          "antwoord": 0,
+          "uitleg": "⇔ is de als-en-slechts-als-pijl, de equivalentie: het geldt in allebei de richtingen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een vierkant is altijd een rechthoek.",
+          "antwoord": true,
+          "uitleg": "Juist. Een rechthoek is een vierhoek met vier rechte hoeken, en dat heeft een vierkant ook. Een vierkant heeft daarbovenop vier gelijke zijden."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een rechthoek is altijd een vierkant.",
+          "antwoord": false,
+          "uitleg": "Nee. Een rechthoek van 3 bij 5 heeft vier rechte hoeken maar geen vier gelijke zijden. Dat is meteen het tegenvoorbeeld. Let op de richting: de ene uitspraak klopt, de omgekeerde niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "„Alle priemgetallen zijn oneven.” Welk getal weerlegt dat?",
+          "opties": [
+            "2",
+            "9",
+            "15"
+          ],
+          "antwoord": 0,
+          "uitleg": "2 is een priemgetal en even. 9 en 15 zijn wel oneven, maar geen priemgetallen, dus die zeggen niets over deze uitspraak."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe schrijf je „x is kleiner dan of gelijk aan 5”?",
+          "opties": [
+            "x ≤ 5",
+            "x < 5",
+            "x ≥ 5"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het streepje onder het teken betekent „of gelijk aan”. x ≤ 5 laat 5 zelf ook toe, x < 5 niet."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Haakjes veranderen niets aan de uitkomst, zolang de getallen maar juist staan.",
+          "antwoord": false,
+          "uitleg": "Nee. 2 + 3 × 4 = 14 maar (2 + 3) × 4 = 20. Haakjes horen bij de redenering en mag je niet weglaten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "„Als het regent, is de straat nat.” Het regent niet. Wat weet je over de straat?",
+          "opties": [
+            "Niets met zekerheid, ze kan nat zijn of droog",
+            "Ze is zeker droog",
+            "Ze is zeker nat"
+          ],
+          "antwoord": 0,
+          "uitleg": "De als-dan zegt enkel iets over wat er gebeurt als het wél regent. De straat kan ook nat zijn door een sproeier. Zo'n omgekeerde redenering is een van de vaakst gemaakte fouten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "„Als een vierhoek vier gelijke zijden heeft, dan is het een vierkant.” Wat is hier het tegenvoorbeeld?",
+          "opties": [
+            "Een ruit die scheef staat",
+            "Een rechthoek",
+            "Een gelijkzijdige driehoek"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een ruit heeft vier gelijke zijden maar geen rechte hoeken. Een driehoek is geen vierhoek en kan dus geen tegenvoorbeeld zijn."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: een uitspraak weerleg je met één … (één woord)",
+          "antwoord": "tegenvoorbeeld",
+          "uitleg": "Eén tegenvoorbeeld volstaat om een uitspraak die voor alle gevallen zou gelden, onderuit te halen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het product van twee even getallen is altijd even.",
+          "antwoord": true,
+          "uitleg": "Juist. Elk even getal is een veelvoud van 2, dus hun product is zeker een veelvoud van 2. Bijvoorbeeld 4 × 6 = 24."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het product van twee oneven getallen is altijd even.",
+          "antwoord": false,
+          "uitleg": "Nee. 3 × 5 = 15, en dat is oneven. Dat ene geval weerlegt de uitspraak al."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraak geldt in allebei de richtingen, en verdient dus ⇔?",
+          "opties": [
+            "Een getal eindigt op 0 ⇔ het is deelbaar door 10",
+            "Een getal is deelbaar door 2 ⇔ het is deelbaar door 6",
+            "Een vierhoek is een ruit ⇔ het is een vierkant"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eindigt een getal op 0, dan is het deelbaar door 10, en omgekeerd. Bij de andere twee klopt maar één richting."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom schrijf je tussenstappen op in een berekening?",
+          "opties": [
+            "Zodat iemand anders kan nagaan waar een fout zit",
+            "Omdat het netter oogt",
+            "Omdat de uitkomst anders fout is"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een redenering moet te volgen zijn. Met tussenstappen kan je zelf en kan een ander zien welke stap klopt en welke niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "„Alle veelvouden van 6 zijn even.” Wat doe je om dit te illustreren?",
+          "opties": [
+            "Enkele veelvouden opschrijven: 6, 12, 18, 24",
+            "Een tegenvoorbeeld zoeken",
+            "Zeggen dat het niet klopt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een uitspraak die klopt, geef je ter illustratie een voorbeeld. Een tegenvoorbeeld bestaat hier niet, want 6 is even en een veelvoud van een even getal blijft even."
+        }
+      ]
+    },
+    {
+      "titel": "Wiskundige redeneringen en uitspraken — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "„Als een getal deelbaar is door 6, dan is het deelbaar door 3.” En de omgekeerde uitspraak?",
+          "opties": [
+            "De eerste klopt, de omgekeerde niet",
+            "Allebei kloppen, dus ⇔",
+            "Geen van beide klopt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Elk veelvoud van 6 is ook een veelvoud van 3. Omgekeerd niet: 9 is deelbaar door 3 maar niet door 6. Dus wel ⇒, geen ⇔."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand redeneert: „5 > 3, dus −5 > −3.” Waar zit de fout?",
+          "opties": [
+            "Bij negatieve getallen draait de volgorde om: −5 < −3",
+            "Er is geen fout",
+            "Je mag geen minteken voor een getal zetten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het tegengestelde nemen keert de ongelijkheid om. −5 ligt verder naar links dan −3, dus −5 < −3."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "„Als a × b = 0, dan is a = 0.” Wat is het tegenvoorbeeld?",
+          "opties": [
+            "a = 3 en b = 0",
+            "a = 0 en b = 0",
+            "a = 1 en b = 1"
+          ],
+          "antwoord": 0,
+          "uitleg": "3 × 0 = 0, terwijl a niet nul is. Wat wél klopt: als a × b = 0, dan is a = 0 óf b = 0."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als je aan beide kanten van een ongelijkheid hetzelfde getal optelt, blijft ze kloppen.",
+          "antwoord": true,
+          "uitleg": "Juist. Uit 5 > 3 volgt 5 + 2 > 3 + 2, dus 7 > 5. Optellen verschuift allebei de kanten evenveel."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als je beide kanten van een ongelijkheid met hetzelfde getal vermenigvuldigt, blijft ze kloppen.",
+          "antwoord": false,
+          "uitleg": "Niet altijd. Uit 5 > 3 volgt bij maal −1: −5 en −3, en −5 < −3. Bij een negatief getal draait het teken om. Dat is het tegenvoorbeeld."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "„Als een vierhoek een vierkant is, dan heeft hij vier rechte hoeken.” Welke pijl hoort hier?",
+          "opties": [
+            "⇒",
+            "⇔",
+            "Geen van beide"
+          ],
+          "antwoord": 0,
+          "uitleg": "Enkel ⇒. Omgekeerd geldt het niet: een rechthoek van 3 bij 5 heeft vier rechte hoeken en is geen vierkant."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "„Het kwadraat van een getal is altijd groter dan het getal zelf.” Welk getal weerlegt dat?",
+          "opties": [
+            "0,5",
+            "2",
+            "10"
+          ],
+          "antwoord": 0,
+          "uitleg": "0,5 × 0,5 = 0,25, en dat is kleiner dan 0,5. Bij getallen tussen 0 en 1 wordt het kwadraat juist kleiner. Ook 0 en 1 zijn tegenvoorbeelden, want daar is het even groot."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand schrijft: „12 : 4 : 2 = 12 : 2 = 6”. Wat ging er mis?",
+          "opties": [
+            "Delen gaat van links naar rechts: 12 : 4 = 3, dan 3 : 2 = 1,5",
+            "Niets, het klopt",
+            "Je mag niet twee keer na elkaar delen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Delen is niet associatief. Wie eerst 4 : 2 doet, verandert de opgave. Binnen dezelfde stap reken je van links naar rechts."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als twee driehoeken dezelfde oppervlakte hebben, zijn ze gelijk van vorm.",
+          "antwoord": false,
+          "uitleg": "Nee. Een driehoek met basis 6 en hoogte 2 en een met basis 3 en hoogte 4 hebben allebei oppervlakte 6, maar zien er heel anders uit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "„Als twee getallen even zijn, is hun som even.” Hoe toon je dat aan voor álle even getallen?",
+          "opties": [
+            "Schrijf ze als 2a en 2b: hun som is 2(a + b), dus een veelvoud van 2",
+            "Reken het na voor 2 + 4, 6 + 8 en 10 + 12",
+            "Zeg dat het voor de hand ligt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Met letters dek je alle gevallen in één keer. Voorbeelden illustreren wel, maar bewijzen niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "„Een getal is deelbaar door 3 ⇔ de som van zijn cijfers is deelbaar door 3.” Klopt de dubbele pijl?",
+          "opties": [
+            "Ja, het geldt in allebei de richtingen",
+            "Nee, enkel van links naar rechts",
+            "Nee, enkel van rechts naar links"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat is precies wat de deelbaarheidsregel zegt, en ze werkt beide kanten op. Bij 123: 1 + 2 + 3 = 6, deelbaar door 3, en 123 : 3 = 41."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand redeneert: „10 % korting en dan nog eens 10 % korting is samen 20 % korting.” Wat is er mis?",
+          "opties": [
+            "De tweede korting wordt van een kleiner bedrag genomen: samen is het 19 %",
+            "Niets, het klopt",
+            "Je mag geen twee kortingen na elkaar geven"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van € 100 blijft na de eerste korting € 90 over, en 10 % daarvan is € 9. Je betaalt € 81, dus de korting is 19 %. Percentages tel je niet zomaar op."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Uit „a = b” volgt „a² = b²”.",
+          "antwoord": true,
+          "uitleg": "Juist. Zijn twee getallen gelijk, dan zijn hun kwadraten dat ook."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Uit „a² = b²” volgt „a = b”.",
+          "antwoord": false,
+          "uitleg": "Nee. Neem a = 3 en b = −3: allebei in het kwadraat geeft 9, maar 3 is niet −3. De pijl werkt hier dus maar in één richting."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen een voorbeeld en een bewijs?",
+          "opties": [
+            "Een voorbeeld toont één geval, een bewijs dekt alle gevallen",
+            "Een bewijs is een voorbeeld met meer cijfers",
+            "Er is geen verschil"
+          ],
+          "antwoord": 0,
+          "uitleg": "Daarom kan je met voorbeelden nooit bewijzen dat iets áltijd geldt, terwijl één tegenvoorbeeld wel genoeg is om het te weerleggen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "„Alle getallen die op 5 eindigen zijn deelbaar door 5.” En: „alle getallen die deelbaar zijn door 5 eindigen op 5.”",
+          "opties": [
+            "De eerste klopt, de tweede niet",
+            "Allebei kloppen",
+            "De tweede klopt, de eerste niet"
+          ],
+          "antwoord": 0,
+          "uitleg": "10 is deelbaar door 5 maar eindigt op 0. Dat is het tegenvoorbeeld bij de tweede uitspraak."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk symbool gebruik je als iets in allebei de richtingen geldt?",
+          "opties": [
+            "⇔",
+            "⇒",
+            "="
+          ],
+          "antwoord": 0,
+          "uitleg": "De dubbele pijl ⇔ staat voor als en slechts als: het geldt heen én terug. De enkele pijl ⇒ geldt maar in één richting."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand schrijft: „√(9 + 16) = √9 + √16 = 3 + 4 = 7”. Klopt dat?",
+          "opties": [
+            "Nee, √25 = 5. Een wortel mag je niet zo splitsen bij een som",
+            "Ja, dat is de gewone rekenregel",
+            "Ja, maar enkel bij kwadraten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst het haakje: 9 + 16 = 25, en √25 = 5. Deze fout hoort bij het soort redeneerstap dat je moet kunnen betrappen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een redenering klopt in elke stap, maar de laatste zin beantwoordt een andere vraag dan er gesteld werd. Wat is je oordeel?",
+          "opties": [
+            "De redenering is niet af: het antwoord past niet bij de vraag",
+            "Ze is juist, want elke stap klopt",
+            "Ze is fout vanaf de eerste stap"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een redenering beoordelen is meer dan de stappen nakijken. Ze moet ook uitkomen bij wat er gevraagd werd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "„Als een getal groter is dan 10, dan is het groter dan 5.” Welke pijl hoort hier, en waarom?",
+          "opties": [
+            "⇒, want omgekeerd geldt het niet: 7 is groter dan 5 maar niet dan 10",
+            "⇔, want allebei gaan over grote getallen",
+            "Geen pijl, want het zijn geen wiskundige uitspraken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zoek bij elke als-dan altijd één getal dat de omgekeerde richting onderuithaalt. Vind je er een, dan is het ⇒ en geen ⇔."
+        }
+      ]
+    },
+    {
+      "titel": "Meetkunde — deel 1",
+      "niveau": "spark",
+      "gratis": false,
+      "hernoemVan": "Meetkunde",
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe noem je een hoek die precies past in de hoek van een blad papier?",
+          "opties": [
+            "Een rechte hoek",
+            "Een scherpe hoek",
+            "Een stompe hoek"
+          ],
+          "antwoord": 0,
+          "uitleg": "De hoek van een blad is 90°, en dat heet een rechte hoek. Kleiner dan 90° is scherp, groter dan 90° is stomp."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een hoek van 130° is een …",
+          "opties": [
+            "stompe hoek",
+            "scherpe hoek",
+            "gestrekte hoek"
+          ],
+          "antwoord": 0,
+          "uitleg": "Stomp is meer dan 90° en minder dan 180°. Een gestrekte hoek is precies 180°, dus een rechte lijn."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel graden is een gestrekte hoek?",
+          "antwoord": "180",
+          "uitleg": "Een gestrekte hoek is 180°: de twee benen liggen in elkaars verlengde en vormen samen een rechte lijn."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel is de som van de hoeken van een driehoek, in graden?",
+          "antwoord": "180",
+          "uitleg": "In elke driehoek is de hoekensom 180°, of hij nu scherp, recht of stomp is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee hoeken van een driehoek zijn 50° en 60°. Hoe groot is de derde?",
+          "opties": [
+            "70°",
+            "80°",
+            "110°"
+          ],
+          "antwoord": 0,
+          "uitleg": "180 − 50 − 60 = 70°. De hoekensom van een driehoek is altijd 180°."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel is de som van de hoeken van een vierhoek, in graden?",
+          "antwoord": "360",
+          "uitleg": "360°. Je kan elke vierhoek met één diagonaal in twee driehoeken verdelen: 2 × 180° = 360°."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe noem je een driehoek met drie gelijke zijden?",
+          "opties": [
+            "Gelijkzijdig",
+            "Gelijkbenig",
+            "Ongelijkbenig"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gelijkzijdig: drie gelijke zijden, en dus ook drie gelijke hoeken van 60°. Gelijkbenig heeft er twee gelijk."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel graden is elke hoek van een gelijkzijdige driehoek?",
+          "antwoord": "60",
+          "uitleg": "De drie hoeken zijn even groot en samen 180°, dus elk 180 : 3 = 60°."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een gelijkbenige driehoek heet de hoek tussen de twee gelijke zijden de …",
+          "opties": [
+            "tophoek",
+            "basishoek",
+            "buitenhoek"
+          ],
+          "antwoord": 0,
+          "uitleg": "De twee gelijke zijden heten de benen, de hoek ertussen is de tophoek. De twee andere hoeken liggen op de basis en heten de basishoeken; die zijn even groot."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe noem je de langste zijde van een rechthoekige driehoek?",
+          "opties": [
+            "De schuine zijde",
+            "De rechthoekszijde",
+            "De basis"
+          ],
+          "antwoord": 0,
+          "uitleg": "De schuine zijde ligt tegenover de rechte hoek en is altijd de langste. De twee andere zijden heten rechthoekszijden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een vierhoek waarvan beide paren overstaande zijden evenwijdig zijn, heet een …",
+          "opties": [
+            "parallellogram",
+            "trapezium",
+            "ruit"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een parallellogram heeft twee paar evenwijdige zijden. Een trapezium heeft er maar één paar."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een ruit heeft vier even lange zijden.",
+          "antwoord": true,
+          "uitleg": "Juist. Een ruit is een parallellogram met vier gelijke zijden. De hoeken hoeven niet recht te zijn; zijn ze dat wel, dan is het een vierkant."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe noem je de lijn van het middelpunt van een cirkel naar de rand?",
+          "opties": [
+            "De straal",
+            "De diameter",
+            "De koorde"
+          ],
+          "antwoord": 0,
+          "uitleg": "De straal gaat van het middelpunt naar de rand. De diameter gaat helemaal door de cirkel via het middelpunt en is dus dubbel zo lang."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een cirkel heeft een straal van 6 cm. Hoe lang is de diameter?",
+          "opties": [
+            "12 cm",
+            "3 cm",
+            "6 cm"
+          ],
+          "antwoord": 0,
+          "uitleg": "De diameter is twee keer de straal: 2 × 6 = 12 cm."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee rechten staan loodrecht op elkaar. Welke hoek maken ze?",
+          "opties": [
+            "90°",
+            "45°",
+            "180°"
+          ],
+          "antwoord": 0,
+          "uitleg": "Loodrecht betekent een hoek van 90°."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Twee evenwijdige rechten snijden elkaar nooit.",
+          "antwoord": true,
+          "uitleg": "Juist, dat is precies wat strikt evenwijdig betekent: ze houden overal dezelfde afstand en komen elkaar nooit tegen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel symmetrieassen heeft een vierkant?",
+          "antwoord": "4",
+          "uitleg": "Vier: de twee middelloodlijnen van de zijden en de twee diagonalen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel symmetrieassen heeft een gewone rechthoek die geen vierkant is?",
+          "opties": [
+            "2",
+            "4",
+            "1"
+          ],
+          "antwoord": 0,
+          "uitleg": "Twee: de lijnen door het midden van de overstaande zijden. De diagonalen zijn bij een rechthoek géén symmetrieassen, anders zou hij een vierkant zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een figuur schuift een eindje opzij, zonder te draaien of te spiegelen. Welke transformatie is dat?",
+          "opties": [
+            "Een translatie",
+            "Een rotatie",
+            "Een spiegeling"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een translatie is een verschuiving over een vector: elk punt schuift even ver in dezelfde richting."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Na een spiegeling is de figuur even groot als daarvoor.",
+          "antwoord": true,
+          "uitleg": "Juist. Translatie, rotatie en spiegeling behouden alle drie de lengtes en de hoeken. Het beeld is dus congruent met de oorspronkelijke figuur."
+        }
+      ]
+    },
+    {
+      "titel": "Meetkunde — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee rechten snijden elkaar. Eén hoek is 70°. Hoe groot is de hoek er recht tegenover?",
+          "opties": [
+            "70°",
+            "110°",
+            "20°"
+          ],
+          "antwoord": 0,
+          "uitleg": "Overstaande hoeken zijn even groot. De hoek ernaast is de nevenhoek en is 180 − 70 = 110°."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een hoek is 70°. Hoe groot is zijn nevenhoek?",
+          "opties": [
+            "110°",
+            "20°",
+            "70°"
+          ],
+          "antwoord": 0,
+          "uitleg": "Twee nevenhoeken vormen samen een gestrekte hoek: 180 − 70 = 110°."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee evenwijdige rechten worden gesneden door een derde rechte. Wat weet je over de overeenkomstige hoeken?",
+          "opties": [
+            "Ze zijn even groot",
+            "Ze zijn samen 180°",
+            "Ze zijn samen 90°"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij evenwijdige rechten zijn overeenkomstige hoeken gelijk, en verwisselende binnenhoeken ook. Binnenhoeken aan dezelfde kant van de snijlijn zijn samen 180°."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee evenwijdige rechten, een snijlijn, en een binnenhoek van 65°. Hoe groot is de binnenhoek aan dezelfde kant van de snijlijn?",
+          "opties": [
+            "115°",
+            "65°",
+            "25°"
+          ],
+          "antwoord": 0,
+          "uitleg": "Binnenhoeken aan dezelfde kant zijn samen 180°: 180 − 65 = 115°."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een gelijkbenige driehoek is de tophoek 40°. Hoe groot is elke basishoek?",
+          "opties": [
+            "70°",
+            "40°",
+            "140°"
+          ],
+          "antwoord": 0,
+          "uitleg": "De twee basishoeken zijn even groot en samen 180 − 40 = 140°, dus elk 70°."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een gelijkbenige driehoek is een basishoek 50°. Hoe groot is de tophoek?",
+          "opties": [
+            "80°",
+            "50°",
+            "130°"
+          ],
+          "antwoord": 0,
+          "uitleg": "Beide basishoeken zijn 50°, samen 100°. De tophoek is 180 − 100 = 80°."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Drie hoeken van een vierhoek zijn 90°, 100° en 85°. Hoe groot is de vierde?",
+          "opties": [
+            "85°",
+            "95°",
+            "75°"
+          ],
+          "antwoord": 0,
+          "uitleg": "De hoekensom van een vierhoek is 360°: 360 − 90 − 100 − 85 = 85°."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe noem je de lijn uit een hoekpunt die de hoek in twee gelijke stukken verdeelt?",
+          "opties": [
+            "De bissectrice",
+            "De hoogtelijn",
+            "De zwaartelijn"
+          ],
+          "antwoord": 0,
+          "uitleg": "De bissectrice deelt een hoek middendoor. De hoogtelijn staat loodrecht op de overstaande zijde, de zwaartelijn gaat naar het midden van die zijde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke merkwaardige lijn staat loodrecht op een zijde en gaat door het midden van die zijde?",
+          "opties": [
+            "De middelloodlijn",
+            "De hoogtelijn",
+            "De bissectrice"
+          ],
+          "antwoord": 0,
+          "uitleg": "De middelloodlijn van een zijde: loodrecht én door het midden. Ze hoeft niet door een hoekpunt te gaan, en daarin verschilt ze van de hoogtelijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee driehoeken hebben drie paar even lange zijden. Welk congruentiekenmerk is dat?",
+          "opties": [
+            "ZZZ",
+            "ZHZ",
+            "HZH"
+          ],
+          "antwoord": 0,
+          "uitleg": "ZZZ: zijde-zijde-zijde. Zijn de drie zijden gelijk, dan liggen de hoeken ook vast en zijn de driehoeken congruent."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee driehoeken hebben twee even lange zijden en dezelfde ingesloten hoek. Welk kenmerk is dat?",
+          "opties": [
+            "ZHZ",
+            "ZZZ",
+            "ZHH"
+          ],
+          "antwoord": 0,
+          "uitleg": "ZHZ: zijde-hoek-zijde. Let erop dat de hoek tússen de twee zijden ligt; ligt hij ergens anders, dan geldt dit kenmerk niet."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Twee driehoeken met drie gelijke hoeken zijn altijd congruent.",
+          "antwoord": false,
+          "uitleg": "Nee. Twee gelijkzijdige driehoeken met zijden van 2 cm en van 5 cm hebben alle drie de hoeken van 60°, maar ze zijn niet even groot. Gelijke hoeken geven dezelfde vorm, niet dezelfde grootte."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat mag je besluiten als je aantoont dat twee driehoeken congruent zijn?",
+          "opties": [
+            "Alle overeenkomstige zijden en hoeken zijn gelijk",
+            "Enkel de zijden zijn gelijk",
+            "Ze hebben dezelfde oppervlakte maar niet dezelfde vorm"
+          ],
+          "antwoord": 0,
+          "uitleg": "Congruent betekent volledig gelijk van vorm én grootte. Daarom gebruik je congruentie net om aan te tonen dat twee zijden even lang of twee hoeken even groot zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een figuur draait een kwartslag rond een punt. Welke transformatie is dat?",
+          "opties": [
+            "Een rotatie over 90°",
+            "Een translatie",
+            "Een puntspiegeling"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een rotatie rond een centrum over een hoek. Een kwartslag is 90°, een halve draai is 180° en dat is hetzelfde als een spiegeling om dat punt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke eigenschap blijft NIET noodzakelijk behouden bij een spiegeling om een rechte?",
+          "opties": [
+            "De draairichting waarin je de hoekpunten leest",
+            "De lengte van elk lijnstuk",
+            "De grootte van elke hoek"
+          ],
+          "antwoord": 0,
+          "uitleg": "Lengtes, hoeken en evenwijdigheid blijven, maar een spiegeling keert de richting om: wat met de klok mee gelezen werd, lees je nadien tegen de klok in."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel symmetrieassen heeft een gelijkzijdige driehoek?",
+          "antwoord": "3",
+          "uitleg": "Drie, één uit elk hoekpunt naar het midden van de overstaande zijde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke figuur heeft wél een symmetriemiddelpunt maar géén symmetrieas?",
+          "opties": [
+            "Een parallellogram dat geen ruit of rechthoek is",
+            "Een gelijkbenige driehoek",
+            "Een vierkant"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zo'n parallellogram valt op zichzelf na een halve draai rond zijn middelpunt, maar je kan hem niet dubbelvouwen. Een gelijkbenige driehoek heeft juist wel een as en geen middelpunt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een parallellogram is één hoek 110°. Hoe groot is de hoek ernaast?",
+          "opties": [
+            "70°",
+            "110°",
+            "90°"
+          ],
+          "antwoord": 0,
+          "uitleg": "In een parallellogram zijn overstaande hoeken gelijk en aanliggende hoeken samen 180°: 180 − 110 = 70°."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De diagonalen van een ruit staan loodrecht op elkaar.",
+          "antwoord": true,
+          "uitleg": "Juist, en ze delen elkaar bovendien middendoor. Bij een gewoon parallellogram delen de diagonalen elkaar wel middendoor, maar staan ze niet loodrecht."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een driehoek heeft hoeken van 90° en 45°. Wat weet je nog meer?",
+          "opties": [
+            "Hij is rechthoekig én gelijkbenig",
+            "Hij is gelijkzijdig",
+            "Hij is stomphoekig"
+          ],
+          "antwoord": 0,
+          "uitleg": "De derde hoek is 180 − 90 − 45 = 45°. Twee gelijke hoeken betekent twee gelijke zijden, dus hij is rechthoekig en gelijkbenig tegelijk."
+        }
+      ]
+    },
+    {
+      "titel": "Metend rekenen — deel 1",
+      "niveau": "spark",
+      "gratis": false,
+      "hernoemVan": "Metend rekenen",
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil de afstand tussen twee steden opschrijven. Welke eenheid past het best?",
+          "opties": [
+            "Kilometer",
+            "Centimeter",
+            "Milliliter"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kilometer. Een geschikte eenheid kiezen scheelt veel nullen: 120 km leest makkelijker dan 12 000 000 cm."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel centimeter is 1 meter?",
+          "antwoord": "100",
+          "uitleg": "1 m = 100 cm. Elke stap op de maatladder is maal of gedeeld door 10, en van meter naar centimeter zijn het twee stappen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel meter is 3,5 km?",
+          "opties": [
+            "3500 m",
+            "350 m",
+            "35 m"
+          ],
+          "antwoord": 0,
+          "uitleg": "1 km = 1000 m, dus 3,5 × 1000 = 3500 m."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel minuten is 2,5 uur?",
+          "antwoord": "150",
+          "uitleg": "Een uur heeft 60 minuten: 2,5 × 60 = 150 minuten. Let op, tijd gaat niet per tien."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel seconden zijn er in een kwartier?",
+          "opties": [
+            "900",
+            "150",
+            "1500"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een kwartier is 15 minuten, en elke minuut heeft 60 seconden: 15 × 60 = 900 s."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel gram is 2,5 kg?",
+          "opties": [
+            "2500 g",
+            "250 g",
+            "25 000 g"
+          ],
+          "antwoord": 0,
+          "uitleg": "1 kg = 1000 g, dus 2,5 × 1000 = 2500 g."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel milliliter gaat er in een halve liter?",
+          "opties": [
+            "500 ml",
+            "50 ml",
+            "5000 ml"
+          ],
+          "antwoord": 0,
+          "uitleg": "1 l = 1000 ml, dus een halve liter is 500 ml."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel is de omtrek van een rechthoek van 7 cm bij 3 cm, in centimeter?",
+          "antwoord": "20",
+          "uitleg": "Omtrek = 2 × (lengte + breedte) = 2 × (7 + 3) = 20 cm. Je loopt één keer rond de figuur."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel is de oppervlakte van een rechthoek van 7 cm bij 3 cm, in cm²?",
+          "antwoord": "21",
+          "uitleg": "Oppervlakte = lengte × breedte = 7 × 3 = 21 cm². Let op de eenheid: oppervlakte staat in cm², omtrek in cm."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een vierkant heeft een zijde van 6 cm. Wat is zijn omtrek?",
+          "opties": [
+            "24 cm",
+            "36 cm",
+            "12 cm"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vier gelijke zijden: 4 × 6 = 24 cm. Met 6 × 6 = 36 krijg je de oppervlakte, en die staat in cm²."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een driehoek heeft een basis van 8 cm en een hoogte van 5 cm. Wat is zijn oppervlakte?",
+          "opties": [
+            "20 cm²",
+            "40 cm²",
+            "13 cm²"
+          ],
+          "antwoord": 0,
+          "uitleg": "Oppervlakte driehoek = (basis × hoogte) : 2 = (8 × 5) : 2 = 20 cm². De helft van een rechthoek met dezelfde maten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een parallellogram heeft een basis van 9 cm en een hoogte van 4 cm. Wat is zijn oppervlakte?",
+          "opties": [
+            "36 cm²",
+            "18 cm²",
+            "26 cm²"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een parallellogram is het basis × hoogte = 9 × 4 = 36 cm², zonder delen door 2. En de hoogte is de loodrechte afstand, niet de schuine zijde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de formule voor de omtrek van een cirkel?",
+          "opties": [
+            "2 × π × straal",
+            "π × straal × straal",
+            "π × straal"
+          ],
+          "antwoord": 0,
+          "uitleg": "De omtrek is 2 × π × straal, of even goed π × diameter. Met π × straal² bereken je de oppervlakte."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een cirkel heeft een straal van 5 cm. Hoe groot is de omtrek? Neem π = 3,14.",
+          "opties": [
+            "31,4 cm",
+            "15,7 cm",
+            "78,5 cm"
+          ],
+          "antwoord": 0,
+          "uitleg": "Omtrek = 2 × π × straal = 2 × 3,14 × 5 = 31,4 cm. Met 78,5 zou je de oppervlakte hebben."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een cirkel heeft een straal van 5 cm. Hoe groot is de oppervlakte? Neem π = 3,14.",
+          "opties": [
+            "78,5 cm²",
+            "31,4 cm²",
+            "15,7 cm²"
+          ],
+          "antwoord": 0,
+          "uitleg": "Oppervlakte = π × straal² = 3,14 × 25 = 78,5 cm². In de formule kwadrateer je de straal, je vermenigvuldigt niet met 2."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is het volume van een kubus met een ribbe van 4 cm, in cm³?",
+          "antwoord": "64",
+          "uitleg": "Volume kubus = ribbe³ = 4 × 4 × 4 = 64 cm³."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een balk is 5 cm bij 3 cm bij 2 cm. Wat is zijn volume?",
+          "opties": [
+            "30 cm³",
+            "60 cm³",
+            "10 cm³"
+          ],
+          "antwoord": 0,
+          "uitleg": "Volume balk = lengte × breedte × hoogte = 5 × 3 × 2 = 30 cm³."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "1 liter is hetzelfde als 1 dm³.",
+          "antwoord": true,
+          "uitleg": "Juist. Een kubus van 1 dm bij 1 dm bij 1 dm bevat precies 1 liter. En 1 ml is 1 cm³."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 2,5 m² in dm²?",
+          "opties": [
+            "250 dm²",
+            "25 dm²",
+            "2500 dm²"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij oppervlakte gaat elke stap maal 100, niet maal 10: 2,5 × 100 = 250 dm²."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Rond 12,467 af tot op twee decimalen.",
+          "opties": [
+            "12,47",
+            "12,46",
+            "12,5"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het derde decimaal is 7, dus het cijfer ervoor gaat één omhoog: 12,47."
+        }
+      ]
+    },
+    {
+      "titel": "Metend rekenen — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Een vierkant heeft een oppervlakte van 49 cm². Hoe lang is een zijde?",
+          "opties": [
+            "7 cm",
+            "24,5 cm",
+            "12,25 cm"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zijde × zijde = 49, dus de zijde is √49 = 7 cm. Hier gebruik je worteltrekken als omgekeerde van kwadrateren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een rechthoek heeft een oppervlakte van 48 cm² en een lengte van 8 cm. Hoe breed is hij?",
+          "opties": [
+            "6 cm",
+            "40 cm",
+            "16 cm"
+          ],
+          "antwoord": 0,
+          "uitleg": "Oppervlakte : lengte = breedte, dus 48 : 8 = 6 cm."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een trapezium heeft evenwijdige zijden van 6 cm en 10 cm en een hoogte van 4 cm. Wat is zijn oppervlakte?",
+          "opties": [
+            "32 cm²",
+            "40 cm²",
+            "64 cm²"
+          ],
+          "antwoord": 0,
+          "uitleg": "Oppervlakte trapezium = (som van de evenwijdige zijden) × hoogte : 2 = (6 + 10) × 4 : 2 = 32 cm²."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een ruit heeft diagonalen van 8 cm en 6 cm. Wat is zijn oppervlakte?",
+          "opties": [
+            "24 cm²",
+            "48 cm²",
+            "14 cm²"
+          ],
+          "antwoord": 0,
+          "uitleg": "Oppervlakte ruit = (diagonaal × diagonaal) : 2 = (8 × 6) : 2 = 24 cm²."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een cirkel heeft een diameter van 10 cm. Hoe groot is de omtrek? Neem π = 3,14.",
+          "opties": [
+            "31,4 cm",
+            "62,8 cm",
+            "78,5 cm"
+          ],
+          "antwoord": 0,
+          "uitleg": "Omtrek = π × diameter = 3,14 × 10 = 31,4 cm. Let op of er een straal of een diameter gegeven is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de oppervlakte van een kubus met een ribbe van 3 cm?",
+          "opties": [
+            "54 cm²",
+            "27 cm²",
+            "9 cm²"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een kubus heeft zes gelijke vierkanten: 6 × (3 × 3) = 54 cm². Met 27 zou je het volume hebben, en dat staat in cm³."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een balk is 5 cm bij 4 cm bij 2 cm. Wat is zijn totale oppervlakte?",
+          "opties": [
+            "76 cm²",
+            "40 cm²",
+            "38 cm²"
+          ],
+          "antwoord": 0,
+          "uitleg": "Drie paar vlakken: 2 × (5 × 4) + 2 × (5 × 2) + 2 × (4 × 2) = 40 + 20 + 16 = 76 cm²."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een cilinder heeft een straal van 3 cm en een hoogte van 10 cm. Wat is zijn volume? Neem π = 3,14.",
+          "opties": [
+            "282,6 cm³",
+            "94,2 cm³",
+            "188,4 cm³"
+          ],
+          "antwoord": 0,
+          "uitleg": "Volume cilinder = π × straal² × hoogte = 3,14 × 9 × 10 = 282,6 cm³."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel liter gaat er in een kubus van 2 dm bij 2 dm bij 2 dm?",
+          "antwoord": "8",
+          "uitleg": "2 × 2 × 2 = 8 dm³, en 1 dm³ is 1 liter, dus 8 liter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een zwembad van 10 m bij 5 m staat 1,5 m vol water. Hoeveel liter is dat?",
+          "opties": [
+            "75 000 l",
+            "75 l",
+            "7500 l"
+          ],
+          "antwoord": 0,
+          "uitleg": "Volume = 10 × 5 × 1,5 = 75 m³. Eén m³ is 1000 liter, dus 75 000 liter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 3 m² in cm²?",
+          "opties": [
+            "30 000 cm²",
+            "300 cm²",
+            "3000 cm²"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van m naar cm is maal 100, dus bij oppervlakte maal 100 × 100 = 10 000. Dat geeft 3 × 10 000 = 30 000 cm²."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 2 m³ in liter?",
+          "opties": [
+            "2000 l",
+            "200 l",
+            "20 l"
+          ],
+          "antwoord": 0,
+          "uitleg": "1 m³ = 1000 dm³ = 1000 liter, dus 2 m³ = 2000 liter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een tuin van 20 m bij 15 m: hoeveel are is dat?",
+          "opties": [
+            "3 are",
+            "30 are",
+            "300 are"
+          ],
+          "antwoord": 0,
+          "uitleg": "20 × 15 = 300 m², en 1 are is 100 m², dus 3 are. Een hectare is 100 are, ofwel 10 000 m²."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een figuur bestaat uit een vierkant van 6 cm met daarop een halve cirkel met diameter 6 cm. Wat is de oppervlakte? Neem π = 3,14.",
+          "opties": [
+            "50,13 cm²",
+            "64,26 cm²",
+            "42,13 cm²"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vierkant: 6 × 6 = 36. Halve cirkel met straal 3: (3,14 × 9) : 2 = 14,13. Samen 50,13 cm². Bij samengestelde figuren splits je in stukken die je wél kent."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Uit een vierkant van 10 cm knip je in elke hoek een vierkantje van 2 cm. Wat blijft er over aan oppervlakte?",
+          "opties": [
+            "84 cm²",
+            "96 cm²",
+            "64 cm²"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het grote vierkant is 100 cm². Vier vierkantjes van 2 × 2 = 4 cm² geven samen 16 cm². Blijft over: 100 − 16 = 84 cm²."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een wandelpad van 1,2 km leg je af in 15 minuten. Hoeveel meter per minuut is dat?",
+          "opties": [
+            "80 m",
+            "8 m",
+            "800 m"
+          ],
+          "antwoord": 0,
+          "uitleg": "1,2 km is 1200 m, en 1200 : 15 = 80 meter per minuut. Zet altijd eerst alles in dezelfde eenheid."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Twee rechthoeken met dezelfde omtrek hebben ook dezelfde oppervlakte.",
+          "antwoord": false,
+          "uitleg": "Nee. Een rechthoek van 1 bij 5 en een van 3 bij 3 hebben allebei omtrek 12, maar de oppervlaktes zijn 5 en 9."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je verdubbelt de zijde van een vierkant. Wat gebeurt er met de oppervlakte?",
+          "opties": [
+            "Ze wordt vier keer zo groot",
+            "Ze wordt dubbel zo groot",
+            "Ze blijft gelijk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een vierkant van 3 cm heeft oppervlakte 9 cm², een van 6 cm heeft 36 cm². Dat is vier keer zo veel, want allebei de afmetingen verdubbelen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een recept vraagt 250 ml melk. Hoeveel pakjes van 1 liter heb je nodig voor 5 keer het recept?",
+          "opties": [
+            "2 pakjes",
+            "1 pakje",
+            "5 pakjes"
+          ],
+          "antwoord": 0,
+          "uitleg": "5 × 250 = 1250 ml, dus 1,25 liter. Eén pakje is te weinig, dus je hebt er 2 nodig. Hier rond je naar boven af."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een plan heeft schaal 1 : 200. Een muur is 4 cm op het plan. Hoe lang is hij in het echt?",
+          "opties": [
+            "8 m",
+            "80 m",
+            "800 m"
+          ],
+          "antwoord": 0,
+          "uitleg": "4 × 200 = 800 cm, en dat is 8 meter. Zet de uitkomst altijd om naar een eenheid die past bij wat je meet."
+        }
+      ]
+    },
+    {
+      "titel": "Relaties en verandering — deel 1",
+      "niveau": "spark",
+      "gratis": false,
+      "hernoemVan": "Relaties en verandering",
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "In een assenstelsel geeft een punt (3, 5) aan. Wat betekent de 3?",
+          "opties": [
+            "Drie stappen langs de horizontale as",
+            "Drie stappen omhoog",
+            "Dat het punt drie keer voorkomt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het eerste getal is de x-coördinaat en hoort bij de horizontale as. Het tweede is de y-coördinaat. Altijd in die volgorde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke coördinaten heeft de oorsprong?",
+          "opties": [
+            "(0, 0)",
+            "(1, 1)",
+            "(0, 1)"
+          ],
+          "antwoord": 0,
+          "uitleg": "De oorsprong is het punt waar de x-as en de y-as elkaar snijden, dus (0, 0)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een punt ligt op de x-as. Wat weet je over zijn y-coördinaat?",
+          "opties": [
+            "Die is 0",
+            "Die is 1",
+            "Die is even groot als de x-coördinaat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Op de x-as ga je niet omhoog of omlaag, dus y = 0. Een punt op de y-as heeft net zo x = 0."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bereken de getalwaarde van 3x als x = 4.",
+          "antwoord": "12",
+          "uitleg": "3x betekent 3 × x, dus 3 × 4 = 12."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bereken de getalwaarde van 2a + 5 als a = 6.",
+          "opties": [
+            "17",
+            "13",
+            "22"
+          ],
+          "antwoord": 0,
+          "uitleg": "2 × 6 = 12, en 12 + 5 = 17. Eerst vermenigvuldigen, dan optellen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In de eenterm 5x³, welk getal is de coëfficiënt?",
+          "opties": [
+            "5",
+            "3",
+            "x"
+          ],
+          "antwoord": 0,
+          "uitleg": "De coëfficiënt is het getal vooraan: 5. Het lettergedeelte is x³, en de graad van deze eenterm is 3."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke twee eentermen zijn gelijksoortig?",
+          "opties": [
+            "3x en 7x",
+            "3x en 3x²",
+            "3x en 3y"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gelijksoortig betekent hetzelfde lettergedeelte. Alleen dan mag je optellen: 3x + 7x = 10x. Bij 3x en 3x² kan dat niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Herleid: 4a + 3a − a",
+          "opties": [
+            "6a",
+            "7a",
+            "8a"
+          ],
+          "antwoord": 0,
+          "uitleg": "Alle drie zijn gelijksoortig, dus tel de coëfficiënten op: 4 + 3 − 1 = 6, dus 6a."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Werk de haakjes weg: 3(x + 2)",
+          "opties": [
+            "3x + 6",
+            "3x + 2",
+            "x + 6"
+          ],
+          "antwoord": 0,
+          "uitleg": "Distributief: de 3 gaat over allebei de termen. 3 × x = 3x en 3 × 2 = 6."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Los op: x + 7 = 12. Wat is x?",
+          "antwoord": "5",
+          "uitleg": "Trek aan beide kanten 7 af: x = 12 − 7 = 5."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Los op: 3x = 21. Wat is x?",
+          "antwoord": "7",
+          "uitleg": "Deel aan beide kanten door 3: x = 21 : 3 = 7."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: 2x + 5 = 17",
+          "opties": [
+            "x = 6",
+            "x = 11",
+            "x = 8"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst de 5 eraf: 2x = 12. Dan delen door 2: x = 6. Controleer: 2 × 6 + 5 = 17."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: x − 4 = −9",
+          "opties": [
+            "x = −5",
+            "x = −13",
+            "x = 5"
+          ],
+          "antwoord": 0,
+          "uitleg": "Tel aan beide kanten 4 op: x = −9 + 4 = −5. Controleer: −5 − 4 = −9."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe noem je het deel links van het gelijkheidsteken?",
+          "opties": [
+            "Het linkerlid",
+            "De onbekende",
+            "De oplossing"
+          ],
+          "antwoord": 0,
+          "uitleg": "Linkerlid en rechterlid, met het gelijkheidsteken ertussen. De onbekende is de letter, de oplossing is de waarde die klopt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Drie broden kosten € 7,50. Wat kosten er vijf?",
+          "opties": [
+            "€ 12,50",
+            "€ 15",
+            "€ 10"
+          ],
+          "antwoord": 0,
+          "uitleg": "Recht evenredig: ga naar één brood, 7,50 : 3 = € 2,50. Dan 5 × 2,50 = € 12,50."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee grootheden zijn recht evenredig. Wat gebeurt er als je de ene verdubbelt?",
+          "opties": [
+            "De andere verdubbelt ook",
+            "De andere halveert",
+            "De andere blijft gelijk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een recht evenredig verband groeien ze samen mee. Het quotiënt van de twee blijft altijd hetzelfde; dat getal heet de evenredigheidsfactor."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In de tabel hoort bij 2 het getal 6, bij 4 het getal 12 en bij 5 het getal 15. Welke formule past?",
+          "opties": [
+            "y = 3x",
+            "y = x + 4",
+            "y = 2x"
+          ],
+          "antwoord": 0,
+          "uitleg": "Elk tweede getal is drie keer het eerste: 6 : 2 = 3, 12 : 4 = 3, 15 : 5 = 3. De evenredigheidsfactor is dus 3."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De grafiek van een recht evenredig verband is een rechte lijn door de oorsprong.",
+          "antwoord": true,
+          "uitleg": "Juist. Bij nul van het ene hoort nul van het andere, dus de lijn vertrekt in (0, 0)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een rij begint met 3, 7, 11, 15, … Welk getal komt er daarna?",
+          "opties": [
+            "19",
+            "18",
+            "20"
+          ],
+          "antwoord": 0,
+          "uitleg": "Er komt telkens 4 bij: 15 + 4 = 19."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke formule geeft het aantal poten bij k koeien?",
+          "opties": [
+            "4k",
+            "k + 4",
+            "k : 4"
+          ],
+          "antwoord": 0,
+          "uitleg": "Elke koe heeft vier poten, dus 4 × k. Een formule opstellen begint met de vraag: wat gebeurt er per stuk?"
+        }
+      ]
+    },
+    {
+      "titel": "Relaties en verandering — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Werk uit: (a + b)²",
+          "opties": [
+            "a² + 2ab + b²",
+            "a² + b²",
+            "a² + ab + b²"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het merkwaardig product: (a + b)² = a² + 2ab + b². De middelste term wordt het vaakst vergeten. Controleer met a = 2 en b = 3: (2 + 3)² = 25, en 4 + 12 + 9 = 25."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Werk uit: (a + b)(a − b)",
+          "opties": [
+            "a² − b²",
+            "a² + b²",
+            "a² − 2ab + b²"
+          ],
+          "antwoord": 0,
+          "uitleg": "De middelste termen vallen weg: −ab + ab = 0. Blijft over a² − b². Met a = 5 en b = 2: 7 × 3 = 21, en 25 − 4 = 21."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Werk uit: (x + 4)²",
+          "opties": [
+            "x² + 8x + 16",
+            "x² + 16",
+            "x² + 4x + 16"
+          ],
+          "antwoord": 0,
+          "uitleg": "Volgens (a + b)²: x² + 2 × x × 4 + 4² = x² + 8x + 16."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Werk uit: 2(3x − 5) + 4x",
+          "opties": [
+            "10x − 10",
+            "6x − 10",
+            "10x − 5"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst de haakjes: 6x − 10. Dan 4x erbij: 6x + 4x = 10x, dus 10x − 10."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de graad van de veelterm 3x² + 5x − 7?",
+          "opties": [
+            "2",
+            "3",
+            "1"
+          ],
+          "antwoord": 0,
+          "uitleg": "De graad van een veelterm is de hoogste exponent die erin voorkomt, hier 2."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bereken de getalwaarde van x² − 3x als x = 5.",
+          "opties": [
+            "10",
+            "−10",
+            "40"
+          ],
+          "antwoord": 0,
+          "uitleg": "25 − 15 = 10. Eerst machtsverheffen, dan vermenigvuldigen, dan aftrekken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bereken de getalwaarde van 2a − b als a = 3 en b = −4.",
+          "opties": [
+            "10",
+            "2",
+            "−10"
+          ],
+          "antwoord": 0,
+          "uitleg": "2 × 3 = 6, en dan min −4, wat hetzelfde is als plus 4: 6 + 4 = 10. Let op de twee mintekens."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: 5x − 3 = 2x + 9",
+          "opties": [
+            "x = 4",
+            "x = 2",
+            "x = 12"
+          ],
+          "antwoord": 0,
+          "uitleg": "Haal de x'en naar één kant: 5x − 2x = 9 + 3, dus 3x = 12 en x = 4. Controleer: 5 × 4 − 3 = 17 en 2 × 4 + 9 = 17."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: 3(x − 2) = 15",
+          "opties": [
+            "x = 7",
+            "x = 5",
+            "x = 3"
+          ],
+          "antwoord": 0,
+          "uitleg": "Deel eerst door 3: x − 2 = 5, dus x = 7. Of werk de haakjes weg: 3x − 6 = 15."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Los op: x : 4 = 3",
+          "opties": [
+            "x = 12",
+            "x = 0,75",
+            "x = 7"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vermenigvuldig aan beide kanten met 4: x = 12. Delen en vermenigvuldigen zijn elkaars omgekeerde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Ik denk aan een getal. Het dubbele ervan plus 3 is 21. Welke vergelijking hoort daarbij?",
+          "opties": [
+            "2x + 3 = 21",
+            "2(x + 3) = 21",
+            "x + 3 = 21"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het dubbele is 2x, en daar komt 3 bij. De oplossing is dan x = 9."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een taxi vraagt € 3 opstapgeld en € 2 per kilometer. Je betaalt € 19. Hoeveel kilometer reed je?",
+          "opties": [
+            "8 km",
+            "9,5 km",
+            "11 km"
+          ],
+          "antwoord": 0,
+          "uitleg": "De vergelijking is 3 + 2x = 19, dus 2x = 16 en x = 8 kilometer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Zes werklui doen een klus in 4 dagen. Hoe lang doen twaalf werklui erover?",
+          "opties": [
+            "2 dagen",
+            "8 dagen",
+            "6 dagen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Omgekeerd evenredig: dubbel zoveel mensen, half zo lang. Het product blijft gelijk: 6 × 4 = 24 en 12 × 2 = 24."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waaraan herken je een omgekeerd evenredig verband in een tabel?",
+          "opties": [
+            "Het product van de twee getallen is telkens hetzelfde",
+            "Het quotiënt is telkens hetzelfde",
+            "Het verschil is telkens hetzelfde"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij omgekeerd evenredig blijft het product gelijk; bij recht evenredig blijft het quotiënt gelijk. Dat is meteen de manier om ze uit elkaar te houden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke formule hoort bij een omgekeerd evenredig verband met factor 24?",
+          "opties": [
+            "y = 24 : x",
+            "y = 24x",
+            "y = x + 24"
+          ],
+          "antwoord": 0,
+          "uitleg": "Omgekeerd evenredig betekent x × y = 24, dus y = 24 : x. Recht evenredig zou y = 24x zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Met lucifers leg je vierkantjes op een rij: 1 vierkant kost 4 lucifers, 2 kosten er 7, 3 kosten er 10. Hoeveel voor n vierkantjes?",
+          "opties": [
+            "3n + 1",
+            "4n",
+            "3n"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het eerste vierkant kost 4, elk volgend maar 3 extra omdat ze een zijde delen. Dus 3n + 1. Controleer bij n = 3: 3 × 3 + 1 = 10."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een rij begint met 2, 4, 8, 16, … Welk getal komt er daarna?",
+          "opties": [
+            "32",
+            "24",
+            "20"
+          ],
+          "antwoord": 0,
+          "uitleg": "Elk getal is het dubbele van het vorige: 16 × 2 = 32. Hier komt er niet telkens evenveel bij, dus is het geen recht evenredig verband."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Twee vergelijkingen die dezelfde oplossing hebben, heten gelijkwaardig.",
+          "antwoord": true,
+          "uitleg": "Juist. Bij elke stap die je zet, maak je een gelijkwaardige vergelijking: eentje die er anders uitziet maar dezelfde oplossing heeft."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij het oplossen van 4x = 20 deelt iemand enkel links door 4 en schrijft x = 20. Wat is er mis?",
+          "opties": [
+            "Wat je links doet, moet je ook rechts doen",
+            "Je mag niet delen bij een vergelijking",
+            "Niets, het klopt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een vergelijking is een evenwicht. Deel je maar één kant, dan klopt de gelijkheid niet meer. Juist is x = 20 : 4 = 5."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De omtrek van een rechthoek is 26 cm en de lengte is 8 cm. Welke vergelijking gebruik je voor de breedte b?",
+          "opties": [
+            "2(8 + b) = 26",
+            "8 × b = 26",
+            "8 + b = 26"
+          ],
+          "antwoord": 0,
+          "uitleg": "De omtrek is 2 × (lengte + breedte). Oplossen geeft 8 + b = 13, dus b = 5 cm."
+        }
+      ]
+    },
+    {
+      "titel": "Data en onzekerheid — deel 1",
+      "niveau": "spark",
+      "gratis": false,
+      "hernoemVan": "Data en onzekerheid",
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Je telt hoeveel broers en zussen iedereen in de klas heeft. Wat voor soort gegeven is dat?",
+          "opties": [
+            "Numeriek, want het is een aantal",
+            "Categorisch",
+            "Geen van beide"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een numerieke variabele is een getal waarmee je kan rekenen. Een categorische variabele is een soort of groep, zoals lievelingskleur of vervoermiddel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je vraagt iedereen naar zijn lievelingskleur. Wat voor soort variabele is dat?",
+          "opties": [
+            "Categorisch",
+            "Numeriek",
+            "Allebei"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kleuren zijn groepen, geen getallen. Je kan ze tellen, maar er geen gemiddelde van nemen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat zet je in een frequentietabel?",
+          "opties": [
+            "Hoe vaak elke waarde voorkomt",
+            "Het gemiddelde van alle waarden",
+            "De grootste waarde"
+          ],
+          "antwoord": 0,
+          "uitleg": "De frequentie is het aantal keer dat een waarde voorkomt. Zo'n tabel is meestal de eerste stap voor je een diagram tekent."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bereken het gemiddelde van 4, 6 en 8.",
+          "antwoord": "6",
+          "uitleg": "Tel op en deel door het aantal: (4 + 6 + 8) : 3 = 18 : 3 = 6."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het gemiddelde van 2, 5, 5 en 8?",
+          "opties": [
+            "5",
+            "4",
+            "6"
+          ],
+          "antwoord": 0,
+          "uitleg": "(2 + 5 + 5 + 8) : 4 = 20 : 4 = 5."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de modus van 3, 7, 7, 9, 12?",
+          "opties": [
+            "7",
+            "9",
+            "7,6"
+          ],
+          "antwoord": 0,
+          "uitleg": "De modus is de waarde die het vaakst voorkomt. Hier is dat 7, want die staat er twee keer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de mediaan van 3, 7, 9, 12, 20?",
+          "opties": [
+            "9",
+            "10,2",
+            "12"
+          ],
+          "antwoord": 0,
+          "uitleg": "De mediaan is het middelste getal als je ze op volgorde zet. Van vijf getallen is dat het derde: 9."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de variatiebreedte van 4, 9, 11 en 20?",
+          "opties": [
+            "16",
+            "11",
+            "20"
+          ],
+          "antwoord": 0,
+          "uitleg": "Variatiebreedte = grootste − kleinste = 20 − 4 = 16. Ze vertelt hoe ver de gegevens uit elkaar liggen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk diagram gebruik je het best om een verandering in de tijd te tonen?",
+          "opties": [
+            "Een lijndiagram",
+            "Een cirkeldiagram",
+            "Een staafdiagram"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een lijndiagram laat zien hoe iets stijgt of daalt. Een staafdiagram vergelijkt groepen, een cirkeldiagram toont delen van één geheel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk diagram past het best om te tonen welk deel van de klas met de fiets komt?",
+          "opties": [
+            "Een cirkeldiagram",
+            "Een lijndiagram",
+            "Geen van beide"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een cirkeldiagram toont hoe een geheel verdeeld is. De hele cirkel is samen 100 %, ofwel 360°."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel graden is de hele cirkel in een cirkeldiagram?",
+          "antwoord": "360",
+          "uitleg": "360°. Een kwart van de gegevens krijgt dus een sector van 90°."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een klas van 25 komen er 10 met de fiets. Hoeveel procent is dat?",
+          "opties": [
+            "40 %",
+            "25 %",
+            "10 %"
+          ],
+          "antwoord": 0,
+          "uitleg": "10 : 25 = 0,40, dus 40 %."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een groep is 20 % van het geheel. Hoeveel graden krijgt die in een cirkeldiagram?",
+          "opties": [
+            "72°",
+            "20°",
+            "36°"
+          ],
+          "antwoord": 0,
+          "uitleg": "20 % van 360° = 0,20 × 360 = 72°."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het gemiddelde van 10, 10, 10 en 10?",
+          "opties": [
+            "10",
+            "40",
+            "4"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zijn alle waarden gelijk, dan is het gemiddelde die waarde: 40 : 4 = 10."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het gemiddelde moet altijd een van de gegeven waarden zijn.",
+          "antwoord": false,
+          "uitleg": "Nee. Het gemiddelde van 4 en 7 is 5,5, en dat komt in de gegevens niet voor. De modus is wél altijd een van de waarden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een reeks heeft twee waarden die allebei het vaakst voorkomen. Wat betekent dat?",
+          "opties": [
+            "Er zijn twee modi",
+            "Er is geen modus",
+            "De modus is het gemiddelde"
+          ],
+          "antwoord": 0,
+          "uitleg": "Komen twee waarden even vaak voor, dan zijn er twee modi. Een reeks kan er ook helemaal geen hebben, als alles even vaak voorkomt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de mediaan van 2, 4, 6 en 10?",
+          "opties": [
+            "5",
+            "6",
+            "5,5"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een even aantal neem je het gemiddelde van de twee middelste: (4 + 6) : 2 = 5."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij een staafdiagram: waar lees je af hoe groot een groep is?",
+          "opties": [
+            "Aan de hoogte van de staaf",
+            "Aan de breedte",
+            "Aan de kleur"
+          ],
+          "antwoord": 0,
+          "uitleg": "De hoogte staat voor het aantal. De staven zijn even breed, zodat je ze eerlijk kan vergelijken."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In een frequentietabel is de som van alle frequenties gelijk aan het aantal metingen.",
+          "antwoord": true,
+          "uitleg": "Juist. Elke meting komt in precies één rij terecht, dus samen tellen ze op tot het totaal. Dat is meteen een handige controle."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je onderzoekt hoeveel uur je klasgenoten slapen. Wat is je onderzoeksvraag het best?",
+          "opties": [
+            "Hoeveel uur slaapt een leerling uit onze klas gemiddeld per nacht?",
+            "Slapen is gezond.",
+            "Hoeveel leerlingen zitten er in de klas?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een onderzoeksvraag is een vraag die je met je gegevens kan beantwoorden, en waarin staat wat je meet en bij wie."
+        }
+      ]
+    },
+    {
+      "titel": "Data en onzekerheid — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Vier vrienden verdienen € 10, € 12, € 14 en € 500 per week. Welke maat geeft het eerlijkste beeld van wat een gewone week opbrengt?",
+          "opties": [
+            "De mediaan",
+            "Het gemiddelde",
+            "De variatiebreedte"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het gemiddelde is € 134, en dat lijkt op niemand. De mediaan is (12 + 14) : 2 = € 13 en past bij de meesten. Eén uitschieter trekt het gemiddelde ver weg, de mediaan bijna niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het gemiddelde van vier toetsen is 14. Wat is het totaal van de punten?",
+          "opties": [
+            "56",
+            "14",
+            "18"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gemiddelde × aantal = totaal: 14 × 4 = 56. Zo reken je van een gemiddelde terug naar de som."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je hebt 12, 15 en 16 op drie toetsen. Wat moet je op de vierde halen voor een gemiddelde van 15?",
+          "opties": [
+            "17",
+            "15",
+            "16"
+          ],
+          "antwoord": 0,
+          "uitleg": "Voor gemiddelde 15 over vier toetsen heb je 60 punten nodig. Je hebt er al 12 + 15 + 16 = 43, dus je hebt nog 17 nodig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een reeks van zes getallen is de mediaan 7, en het derde en vierde getal zijn 6 en 8. Klopt dat?",
+          "opties": [
+            "Ja, (6 + 8) : 2 = 7",
+            "Nee, de mediaan moet 6 zijn",
+            "Nee, de mediaan bestaat niet"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij zes getallen is de mediaan het gemiddelde van het derde en het vierde. Die hoeft zelf niet in de reeks voor te komen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een reeks heeft gemiddelde 20 en variatiebreedte 0. Wat weet je?",
+          "opties": [
+            "Alle waarden zijn 20",
+            "Er zijn maar twee waarden",
+            "De mediaan is 0"
+          ],
+          "antwoord": 0,
+          "uitleg": "Variatiebreedte 0 betekent dat grootste en kleinste gelijk zijn, dus alles is hetzelfde getal. En dat getal is dan ook het gemiddelde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een cirkeldiagram toont een sector van 90°. Welk deel van het geheel is dat?",
+          "opties": [
+            "Een vierde",
+            "Een derde",
+            "Een negende"
+          ],
+          "antwoord": 0,
+          "uitleg": "90 : 360 = 0,25, dus een vierde ofwel 25 %."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Van 40 leerlingen komen er 15 te voet. Hoeveel graden krijgt die groep in een cirkeldiagram?",
+          "opties": [
+            "135°",
+            "150°",
+            "37,5°"
+          ],
+          "antwoord": 0,
+          "uitleg": "15 : 40 = 0,375, en 0,375 × 360 = 135°."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een staafdiagram begint zijn verticale as niet bij 0 maar bij 90. Wat is daar het gevaar van?",
+          "opties": [
+            "Kleine verschillen lijken veel groter dan ze zijn",
+            "De staven worden te breed",
+            "Er is geen gevaar"
+          ],
+          "antwoord": 0,
+          "uitleg": "Als de as niet bij nul begint, wordt een verschil van enkele eenheden visueel enorm. Kijk bij elk diagram eerst naar de as voor je conclusies trekt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is de mediaan van 5, 3, 9, 1 en 7?",
+          "antwoord": "5",
+          "uitleg": "Eerst op volgorde zetten: 1, 3, 5, 7, 9. Het middelste is 5. Vergeet dat sorteren nooit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er met het gemiddelde als je er een waarde bij doet die groter is dan het huidige gemiddelde?",
+          "opties": [
+            "Het stijgt",
+            "Het daalt",
+            "Het blijft gelijk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een waarde boven het gemiddelde trekt het omhoog. Een waarde die precies gelijk is aan het gemiddelde verandert er niets aan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een frequentietabel staat: waarde 3 komt 5 keer voor, waarde 4 komt 3 keer voor. Hoeveel metingen zijn er?",
+          "opties": [
+            "8",
+            "12",
+            "27"
+          ],
+          "antwoord": 0,
+          "uitleg": "Tel de frequenties op: 5 + 3 = 8 metingen. De waarden zelf tel je niet op."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarde 3 komt 5 keer voor en waarde 4 komt 3 keer voor. Wat is het gemiddelde?",
+          "opties": [
+            "3,375",
+            "3,5",
+            "8"
+          ],
+          "antwoord": 0,
+          "uitleg": "De som is 5 × 3 + 3 × 4 = 27, gedeeld door 8 metingen geeft 3,375. Vermenigvuldig elke waarde met haar frequentie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke centrummaat kan je gebruiken bij een categorische variabele zoals lievelingskleur?",
+          "opties": [
+            "Enkel de modus",
+            "Het gemiddelde",
+            "De mediaan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van kleuren kan je geen gemiddelde nemen en ze niet op volgorde zetten. Je kan wel zeggen welke het vaakst voorkomt: de modus."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee klassen hebben allebei gemiddelde 14, maar klas A heeft variatiebreedte 4 en klas B heeft 16. Wat besluit je?",
+          "opties": [
+            "In klas B liggen de resultaten veel verder uit elkaar",
+            "Klas A is beter",
+            "Klas B heeft meer leerlingen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het gemiddelde zegt waar het midden ligt, de variatiebreedte hoe verspreid het is. Daarom heb je ze allebei nodig om twee groepen te vergelijken."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De mediaan verandert nauwelijks als je één heel grote waarde toevoegt.",
+          "antwoord": true,
+          "uitleg": "Juist. De mediaan kijkt enkel naar de plaats in de rij, niet naar hoe groot de getallen zijn. Daarom is ze betrouwbaarder bij uitschieters."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest in een krant: „de gemiddelde Belg heeft 1,7 kinderen”. Hoe kan dat?",
+          "opties": [
+            "Een gemiddelde hoeft geen bestaand aantal te zijn",
+            "De krant heeft zich vergist",
+            "Sommige kinderen tellen voor 0,7"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een gemiddelde is een rekenresultaat, geen echte persoon. Het is handig om groepen te vergelijken, maar het beschrijft niemand in het bijzonder."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil twee klassen van verschillende grootte vergelijken. Wat gebruik je het best?",
+          "opties": [
+            "Procenten, want dan telt de klasgrootte niet mee",
+            "De absolute aantallen",
+            "De variatiebreedte"
+          ],
+          "antwoord": 0,
+          "uitleg": "10 van de 20 is meer dan 12 van de 40, ook al is 12 het grotere getal. Met procenten (50 % tegenover 30 %) vergelijk je eerlijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Van zeven metingen is de kleinste 3 en de grootste 3. Wat is de modus?",
+          "opties": [
+            "3",
+            "Er is geen modus",
+            "0"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kleinste en grootste zijn allebei 3, dus alle zeven metingen zijn 3. Die waarde komt dus het vaakst voor."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de laatste stap van een statistisch onderzoek?",
+          "opties": [
+            "Een antwoord formuleren op je onderzoeksvraag",
+            "Het diagram inkleuren",
+            "De variatiebreedte berekenen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Cijfers zijn geen antwoord. Je onderzoek is pas af als je in gewone taal zegt wat ze betekenen voor de vraag waarmee je begon."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een lijndiagram toont de temperatuur elk uur. Tussen 14 u en 15 u loopt de lijn steil omhoog. Wat betekent dat?",
+          "opties": [
+            "Het werd in dat uur snel warmer",
+            "Het was toen het warmst",
+            "Er zijn meer metingen gedaan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een lijndiagram zegt de steilheid hoe snel iets verandert, en de hoogte hoe groot het is. Dat zijn twee verschillende dingen."
+        }
+      ]
+    },
+    {
+      "titel": "Verzamelingen — deel 1",
+      "niveau": "spark",
+      "gratis": false,
+      "hernoemVan": "Verzamelingen",
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Een verzameling is een groep dingen die bij elkaar horen. Hoe schrijf je de verzameling met 1, 2 en 3 erin?",
+          "opties": [
+            "{1, 2, 3}",
+            "(1, 2, 3)",
+            "[1, 2, 3]"
+          ],
+          "antwoord": 0,
+          "uitleg": "Met accolades: {1, 2, 3}. De dingen erin heten de elementen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent het teken ∈?",
+          "opties": [
+            "is een element van",
+            "is een deel van",
+            "is gelijk aan"
+          ],
+          "antwoord": 0,
+          "uitleg": "3 ∈ {1, 2, 3} lees je als: 3 is een element van die verzameling. Hoort iets er niet bij, dan schrijf je ∉."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraak klopt voor A = {2, 4, 6}?",
+          "opties": [
+            "4 ∈ A",
+            "4 ∉ A",
+            "4 ⊂ A"
+          ],
+          "antwoord": 0,
+          "uitleg": "4 zit in A, dus 4 ∈ A. Het teken ⊂ gebruik je tussen twee verzamelingen, niet tussen een element en een verzameling."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent B ⊂ A?",
+          "opties": [
+            "Elk element van B zit ook in A",
+            "B en A hebben niets gemeenschappelijk",
+            "B is groter dan A"
+          ],
+          "antwoord": 0,
+          "uitleg": "B is een deelverzameling van A: alles wat in B zit, zit ook in A. A mag daarnaast nog meer bevatten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "A = {1, 2, 3, 4} en B = {2, 4}. Wat klopt?",
+          "opties": [
+            "B ⊂ A",
+            "A ⊂ B",
+            "A ∈ B"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zowel 2 als 4 zit in A, dus B is een deel van A. Omgekeerd niet, want 1 en 3 zitten niet in B."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de doorsnede van {1, 2, 3} en {2, 3, 4}?",
+          "opties": [
+            "{2, 3}",
+            "{1, 2, 3, 4}",
+            "{1, 4}"
+          ],
+          "antwoord": 0,
+          "uitleg": "De doorsnede (∩) is wat in allebei zit: 2 en 3. Denk aan het overlappende deel van twee cirkels."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de unie van {1, 2} en {2, 5}?",
+          "opties": [
+            "{1, 2, 5}",
+            "{2}",
+            "{1, 5}"
+          ],
+          "antwoord": 0,
+          "uitleg": "De unie (∪) is alles samen, zonder iets dubbel te schrijven: {1, 2, 5}. De 2 zit er maar één keer in."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk teken staat voor de doorsnede?",
+          "opties": [
+            "∩",
+            "∪",
+            "⊂"
+          ],
+          "antwoord": 0,
+          "uitleg": "∩ is de doorsnede en ∪ is de unie. Een ezelsbruggetje: de ∪ van unie ziet eruit als een emmer waar alles in gaat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "A = {1, 2, 3, 4} en B = {3, 4}. Wat is A \\ B?",
+          "opties": [
+            "{1, 2}",
+            "{3, 4}",
+            "{1, 2, 3, 4}"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het verschil A \\ B is wat in A zit maar niet in B: {1, 2}."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe noem je een verzameling zonder elementen?",
+          "opties": [
+            "De lege verzameling",
+            "De nulverzameling",
+            "De open verzameling"
+          ],
+          "antwoord": 0,
+          "uitleg": "De lege verzameling, geschreven als ∅ of { }. Let op: {0} is niet leeg, want daar zit één element in."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de doorsnede van {1, 3, 5} en {2, 4, 6}?",
+          "opties": [
+            "De lege verzameling",
+            "{1, 2, 3, 4, 5, 6}",
+            "{0}"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ze hebben geen enkel element gemeenschappelijk, dus de doorsnede is ∅."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor dient een venndiagram?",
+          "opties": [
+            "Om met cirkels te tonen wat verzamelingen gemeen hebben",
+            "Om getallen op volgorde te zetten",
+            "Om een gemiddelde te berekenen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Twee overlappende cirkels: in het midden staat de doorsnede, samen vormen ze de unie."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel elementen heeft de verzameling {3, 5, 5, 7}?",
+          "antwoord": "3",
+          "uitleg": "Drie. In een verzameling telt elk element maar één keer, ook al schrijf je het twee keer op."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De volgorde waarin je de elementen opschrijft, maakt uit.",
+          "antwoord": false,
+          "uitleg": "Nee. {1, 2, 3} en {3, 1, 2} zijn dezelfde verzameling. Bij coördinaten als (1, 2) maakt de volgorde wél uit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "A = {2, 4, 6, 8}. Hoeveel elementen heeft A?",
+          "opties": [
+            "4",
+            "8",
+            "20"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je telt hoeveel dingen erin zitten, niet hoe groot ze zijn: vier elementen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Elke verzameling is een deelverzameling van zichzelf.",
+          "antwoord": true,
+          "uitleg": "Juist. Elk element van A zit inderdaad in A, dus A ⊂ A. Ook de lege verzameling is een deel van elke verzameling."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "A = {1, 2} en B = {1, 2}. Wat klopt?",
+          "opties": [
+            "A en B zijn gelijk",
+            "A ⊂ B maar niet omgekeerd",
+            "Hun doorsnede is leeg"
+          ],
+          "antwoord": 0,
+          "uitleg": "Twee verzamelingen zijn gelijk als ze precies dezelfde elementen hebben. Hun doorsnede en hun unie zijn dan allebei {1, 2}."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de unie van {1, 2, 3} en de lege verzameling?",
+          "opties": [
+            "{1, 2, 3}",
+            "De lege verzameling",
+            "{0, 1, 2, 3}"
+          ],
+          "antwoord": 0,
+          "uitleg": "Er komt niets bij, dus je houdt {1, 2, 3} over. De doorsnede met de lege verzameling is wél leeg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een venndiagram staat een element in het overlappende deel. Wat weet je?",
+          "opties": [
+            "Het zit in allebei de verzamelingen",
+            "Het zit in geen van beide",
+            "Het zit enkel in de linkercirkel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het overlappende deel is de doorsnede: precies de elementen die in allebei zitten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Van 20 leerlingen doen er 12 aan voetbal en 8 aan zwemmen, en 3 doen allebei. Hoeveel doen er minstens één van de twee?",
+          "opties": [
+            "17",
+            "20",
+            "23"
+          ],
+          "antwoord": 0,
+          "uitleg": "12 + 8 = 20, maar dan tel je de 3 die allebei doen dubbel. Dus 20 − 3 = 17. Dat is precies wat een venndiagram zichtbaar maakt."
+        }
+      ]
+    },
+    {
+      "titel": "Verzamelingen — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "ℕ is de verzameling natuurlijke getallen en ℤ die van de gehele getallen. Wat klopt?",
+          "opties": [
+            "ℕ ⊂ ℤ",
+            "ℤ ⊂ ℕ",
+            "ℕ ∩ ℤ is leeg"
+          ],
+          "antwoord": 0,
+          "uitleg": "Elk natuurlijk getal is ook een geheel getal, dus ℕ zit in ℤ. Omgekeerd niet: −3 is geheel maar niet natuurlijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de doorsnede van de even getallen en de veelvouden van 3?",
+          "opties": [
+            "De veelvouden van 6",
+            "De veelvouden van 2",
+            "De lege verzameling"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een getal dat door 2 én door 3 deelbaar is, is deelbaar door 6: 6, 12, 18 … Dat is meteen het kleinste gemeenschappelijk veelvoud aan het werk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "V is de verzameling vierkanten en R die van de rechthoeken. Wat klopt?",
+          "opties": [
+            "V ⊂ R",
+            "R ⊂ V",
+            "V ∩ R is leeg"
+          ],
+          "antwoord": 0,
+          "uitleg": "Elk vierkant is een rechthoek, dus V zit in R. Omgekeerd niet: een rechthoek van 3 bij 5 is geen vierkant."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat zit in de doorsnede van de ruiten en de rechthoeken?",
+          "opties": [
+            "De vierkanten",
+            "De parallellogrammen",
+            "Niets"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een ruit heeft vier gelijke zijden, een rechthoek vier rechte hoeken. Allebei tegelijk is precies een vierkant."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "E is de verzameling rechten die evenwijdig zijn met rechte a, en S de verzameling rechten die a snijden. Wat is E ∩ S?",
+          "opties": [
+            "De lege verzameling",
+            "Alle rechten",
+            "Enkel rechte a"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een rechte die evenwijdig is met a, komt a nooit tegen. Geen enkele rechte kan dus in allebei de groepen zitten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "A = {1, 2, 3, 4, 5} en B = {4, 5, 6}. Wat is A ∪ B?",
+          "opties": [
+            "{1, 2, 3, 4, 5, 6}",
+            "{4, 5}",
+            "{1, 2, 3}"
+          ],
+          "antwoord": 0,
+          "uitleg": "Alles samen, elk element één keer. De 4 en 5 zitten in allebei maar schrijf je maar één keer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "A = {1, 2, 3, 4, 5} en B = {4, 5, 6}. Wat is B \\ A?",
+          "opties": [
+            "{6}",
+            "{4, 5}",
+            "{1, 2, 3}"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wat in B zit maar niet in A: enkel 6. Let op de volgorde, want A \\ B geeft {1, 2, 3} en dat is iets anders."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "A \\ B is altijd hetzelfde als B \\ A.",
+          "antwoord": false,
+          "uitleg": "Nee. Met A = {1, 2} en B = {2, 3} is A \\ B = {1} en B \\ A = {3}. Het verschil is niet commutatief; de doorsnede en de unie wel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "A heeft 7 elementen, B heeft 5, en hun doorsnede heeft er 2. Hoeveel elementen heeft de unie?",
+          "opties": [
+            "10",
+            "12",
+            "14"
+          ],
+          "antwoord": 0,
+          "uitleg": "7 + 5 = 12, maar de 2 gemeenschappelijke tel je dan dubbel: 12 − 2 = 10."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is {1, 2, 3} ∩ {1, 2, 3}?",
+          "opties": [
+            "{1, 2, 3}",
+            "De lege verzameling",
+            "{6}"
+          ],
+          "antwoord": 0,
+          "uitleg": "De doorsnede van een verzameling met zichzelf is die verzameling zelf. Hetzelfde geldt voor de unie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel deelverzamelingen heeft {a, b}?",
+          "opties": [
+            "4",
+            "2",
+            "3"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vier: ∅, {a}, {b} en {a, b}. De lege verzameling en de verzameling zelf tellen mee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "P is de verzameling priemgetallen en E die van de even getallen. Wat is P ∩ E?",
+          "opties": [
+            "{2}",
+            "De lege verzameling",
+            "Alle even getallen"
+          ],
+          "antwoord": 0,
+          "uitleg": "2 is het enige even priemgetal, want elk ander even getal is deelbaar door 2 en heeft dus meer dan twee delers."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "D is de verzameling delers van 12 en V die van de veelvouden van 12. Wat zit in D ∩ V?",
+          "opties": [
+            "{12}",
+            "De lege verzameling",
+            "{1, 12}"
+          ],
+          "antwoord": 0,
+          "uitleg": "12 is zowel een deler van zichzelf als een veelvoud van zichzelf. Geen enkel ander getal is allebei."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "G is de verzameling gelijkbenige driehoeken en Z die van de gelijkzijdige. Wat klopt?",
+          "opties": [
+            "Z ⊂ G",
+            "G ⊂ Z",
+            "Hun doorsnede is leeg"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een gelijkzijdige driehoek heeft drie gelijke zijden, dus zeker ook twee: hij is ook gelijkbenig. Omgekeerd geldt dat niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een venndiagram is de linkercirkel volledig ingekleurd behalve het overlappende deel. Welke bewerking is dat?",
+          "opties": [
+            "A \\ B",
+            "A ∩ B",
+            "A ∪ B"
+          ],
+          "antwoord": 0,
+          "uitleg": "Alles van A behalve wat het met B deelt: dat is het verschil A \\ B."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Van 30 leerlingen volgen er 18 Frans, 14 Duits en 5 allebei. Hoeveel volgen er geen van beide?",
+          "opties": [
+            "3",
+            "2",
+            "5"
+          ],
+          "antwoord": 0,
+          "uitleg": "Minstens één taal: 18 + 14 − 5 = 27. Blijft over: 30 − 27 = 3 leerlingen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als A ⊂ B, dan is A ∩ B gelijk aan A.",
+          "antwoord": true,
+          "uitleg": "Juist. Zit alles van A al in B, dan is alles wat ze gemeen hebben precies heel A. En A ∪ B is dan B."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "{0} en ∅: wat is het verschil?",
+          "opties": [
+            "{0} heeft één element, ∅ heeft er geen",
+            "Het is hetzelfde",
+            "∅ heeft één element"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een doos met een nul erin is niet hetzelfde als een lege doos. Dit is een klassieke strikvraag."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe schrijf je wiskundig dat 5 niet in A zit?",
+          "opties": [
+            "5 ∉ A",
+            "5 ∈ A",
+            "5 ⊄ A"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een streep door een teken betekent de ontkenning: ∉ is 'is geen element van'. Het teken ⊄ gebruik je tussen twee verzamelingen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is een venndiagram handig bij een vraagstuk met twee groepen?",
+          "opties": [
+            "Je ziet meteen wie dubbel geteld wordt",
+            "Het rekent vanzelf",
+            "Het toont het gemiddelde"
+          ],
+          "antwoord": 0,
+          "uitleg": "De meest gemaakte fout bij zulke vraagstukken is de overlap dubbel tellen. In een tekening staat die overlap apart, en dan zie je het."
+        }
+      ]
+    }
+  ]
+}

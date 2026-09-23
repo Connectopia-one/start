@@ -3,6 +3,7 @@ import { requireBeheerder } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { Header } from "@/components/Header";
 import { maakGezin } from "./actions";
+import { startMeekijken } from "@/app/portaal/meekijken-actions";
 
 export default async function GezinnenPage({
   searchParams,
@@ -22,36 +23,65 @@ export default async function GezinnenPage({
 
   return (
     <>
-      <Header naam={naam} rol="beheerder" terugHref="/beheer" terugLabel="Beheer" />
+      <Header
+        naam={naam}
+        rol="beheerder"
+        terugHref="/beheer"
+        terugLabel="Beheer"
+      />
       <main className="mx-auto w-full max-w-3xl flex-1 px-6 py-10">
-        <h1 className="font-display text-2xl font-semibold text-ink">Gezinnen</h1>
+        <h1 className="font-display text-2xl font-semibold text-ink">
+          Gezinnen
+        </h1>
 
-        {fout && <p className="mt-4 rounded-md bg-danger/10 px-3 py-2 text-sm text-danger">{fout}</p>}
+        {fout && (
+          <p className="mt-4 rounded-md bg-danger/10 px-3 py-2 text-sm text-danger">
+            {fout}
+          </p>
+        )}
         {succes && (
-          <p className="mt-4 rounded-md bg-forest/10 px-3 py-2 text-sm text-forest-dark">{succes}</p>
+          <p className="mt-4 rounded-md bg-forest/10 px-3 py-2 text-sm text-forest-dark">
+            {succes}
+          </p>
         )}
 
         <ul className="mt-6 space-y-2">
           {(gezinnen ?? []).map((g) => (
-            <li key={g.id}>
+            <li
+              key={g.id}
+              className="flex items-center justify-between gap-3 rounded-lg border border-border bg-surface p-3"
+            >
               <Link
                 href={`/beheer/gezinnen/${g.id}`}
-                className="block rounded-lg border border-border bg-surface p-3 font-medium text-ink hover:border-forest"
+                className="font-medium text-ink hover:underline"
               >
                 {g.full_name}
               </Link>
+              <form action={startMeekijken}>
+                <input type="hidden" name="gezinId" value={g.id} />
+                <button
+                  type="submit"
+                  className="shrink-0 text-sm font-medium text-forest-dark hover:underline"
+                >
+                  Bekijk het portaal zo &rarr;
+                </button>
+              </form>
             </li>
           ))}
           {(gezinnen ?? []).length === 0 && (
-            <li className="text-sm text-ink-dim">Nog geen gezinnen toegevoegd.</li>
+            <li className="text-sm text-ink-dim">
+              Nog geen gezinnen toegevoegd.
+            </li>
           )}
         </ul>
 
         <section className="mt-10 rounded-xl border border-border bg-surface p-6">
-          <h2 className="font-display text-lg font-semibold text-ink">Nieuw gezin toevoegen</h2>
+          <h2 className="font-display text-lg font-semibold text-ink">
+            Nieuw gezin toevoegen
+          </h2>
           <p className="mt-1 text-sm text-ink-dim">
-            Na het aanmaken kies je op de volgende pagina welke klasjes dit gezin mag zien, en of
-            dat lesmateriaal, foto&apos;s, of beide zijn.
+            Na het aanmaken kies je op de volgende pagina welke klasjes dit
+            gezin mag zien, en of dat lesmateriaal, foto&apos;s, of beide zijn.
           </p>
           <form action={maakGezin} className="mt-4 space-y-4">
             <div className="space-y-1.5">
@@ -79,7 +109,10 @@ export default async function GezinnenPage({
               />
             </div>
             <div className="space-y-1.5">
-              <label htmlFor="wachtwoord" className="text-sm font-medium text-ink">
+              <label
+                htmlFor="wachtwoord"
+                className="text-sm font-medium text-ink"
+              >
                 Tijdelijk wachtwoord (minstens 8 tekens)
               </label>
               <input

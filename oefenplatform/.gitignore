@@ -40,3 +40,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Python-cache van het gereedschap in inhoud/leerbundels/bron
+__pycache__/
+*.pyc
+
+# Tussenbestanden van de leerbundels (html, pdf en voorbeeldplaatje in bron/).
+# De pdf die je echt gebruikt, hoort in inhoud/leerbundels/<vak>/.
+inhoud/leerbundels/bron/*.html
+inhoud/leerbundels/bron/*.pdf
+inhoud/leerbundels/bron/*-p1.png

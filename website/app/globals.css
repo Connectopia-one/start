@@ -1,0 +1,148 @@
+@import "tailwindcss";
+
+/*
+  De huisstijl van Connectopia op één plek.
+  Wil je een kleur veranderen op de hele site? Pas hem hier aan.
+*/
+:root {
+  --cream: #fbf6ea;
+  --surface: #ffffff;
+  --ink: #2a2d26;
+  --ink-dim: #61675a;
+  --border: #e6e0d0;
+
+  --green: #2f4a22;
+  --green-mid: #5c7a45;
+  --sage: #8aa173;
+  --sage-soft: #dfe7d0;
+
+  --purple: #5e2d91;
+  --purple-soft: #eae0f6;
+  --orange: #d96e25;
+  --orange-soft: #fae5d1;
+  --blue: #3d7cb0;
+  --blue-soft: #dceaf5;
+}
+
+@theme inline {
+  --color-cream: var(--cream);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-ink-dim: var(--ink-dim);
+  --color-border: var(--border);
+
+  --color-green: var(--green);
+  --color-green-mid: var(--green-mid);
+  --color-sage: var(--sage);
+  --color-sage-soft: var(--sage-soft);
+
+  --color-purple: var(--purple);
+  --color-purple-soft: var(--purple-soft);
+  --color-orange: var(--orange);
+  --color-orange-soft: var(--orange-soft);
+  --color-blue: var(--blue);
+  --color-blue-soft: var(--blue-soft);
+
+  --font-sans: var(--font-body);
+  --font-hand: var(--font-hand);
+
+  --radius-card: 20px;
+}
+
+/*
+  Leesbaarheid.
+  Ruime regelafstand en een iets grotere letter maken de tekst rustiger
+  om te lezen, zeker voor wie dyslexie heeft. Wil je alles net iets
+  groter of kleiner? Pas hieronder de regel  font-size  aan.
+*/
+body {
+  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+  font-size: 17px;
+  line-height: 1.65;
+  letter-spacing: 0.01em;
+}
+
+p,
+li {
+  text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 800;
+  line-height: 1.15;
+  text-wrap: balance;
+}
+
+.font-hand {
+  font-family: var(--font-hand), cursive;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
+}
+
+/*
+  Afdrukken.
+  Alles met de klasse "niet-afdrukken" blijft op papier weg (het menu, de
+  voettekst, de uitleg die je alleen op je scherm nodig hebt). Kaarten met
+  "afdruk-kaart" worden niet halverwege over twee bladen gesplitst.
+*/
+@media print {
+  .niet-afdrukken {
+    display: none !important;
+  }
+
+  body {
+    background: #fff;
+  }
+
+  /* Compacter op papier, zodat de lijst niet uitdijt over te veel bladen. */
+  html {
+    font-size: 13px;
+  }
+
+  .afdruk-kaart {
+    border: 1px solid #b9b3a2;
+    box-shadow: none;
+    padding: 0.9rem 1rem;
+  }
+
+  /* Een vraag of een hoofdstuktitel valt nooit over twee bladen heen. */
+  .afdruk-kaart li,
+  .afdruk-kaart h2,
+  .afdruk-kaart h3 {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .afdruk-kaart h2 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  .afdruk-kaart li {
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+  }
+
+  section {
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
+  }
+
+  input[type="text"] {
+    border-bottom: 1px solid #b9b3a2;
+  }
+
+  input[type="checkbox"] {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}

@@ -39,6 +39,45 @@ export default async function BeheerPage() {
           </section>
 
           <section>
+            <h2 className="font-display text-lg font-semibold text-ink">Leerbundels uploaden</h2>
+            <p className="mt-3 text-sm text-ink-dim">
+              Alle pdf&apos;s van een vak in één keer uploaden, met het juiste hoofdstuk erbij.
+            </p>
+            <Link
+              href="/beheer/leerstof"
+              className="mt-4 inline-block rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
+            >
+              Leerbundels uploaden &rarr;
+            </Link>
+          </section>
+
+          <section>
+            <h2 className="font-display text-lg font-semibold text-ink">Handig materiaal</h2>
+            <p className="mt-3 text-sm text-ink-dim">
+              Links en documenten voor de gratis pagina met materiaal, voor iedereen zichtbaar.
+            </p>
+            <Link
+              href="/beheer/materiaal"
+              className="mt-4 inline-block rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
+            >
+              Materiaal beheren &rarr;
+            </Link>
+          </section>
+
+          <section>
+            <h2 className="font-display text-lg font-semibold text-ink">Doelen en vakfiches</h2>
+            <p className="mt-3 text-sm text-ink-dim">
+              De officiële documenten waarop onze oefeningen steunen, per niveau en per vak.
+            </p>
+            <Link
+              href="/beheer/doelen"
+              className="mt-4 inline-block rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
+            >
+              Doelen beheren &rarr;
+            </Link>
+          </section>
+
+          <section>
             <h2 className="font-display text-lg font-semibold text-ink">Plusklas-codes</h2>
             <p className="mt-3 text-sm text-ink-dim">
               Codes die je deelt met plusklas-gezinnen voor gratis volledige toegang bij
@@ -49,6 +88,34 @@ export default async function BeheerPage() {
               className="mt-4 inline-block rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
             >
               Codes beheren &rarr;
+            </Link>
+          </section>
+
+          <section>
+            <h2 className="font-display text-lg font-semibold text-ink">Opvolging plusklas</h2>
+            <p className="mt-3 text-sm text-ink-dim">
+              De fiche per plusklaskind: voortgang, jullie opmerkingen en het werk dat ze
+              thuis maakten. Om bij de hand te hebben op een oudercontact.
+            </p>
+            <Link
+              href="/begeleiding"
+              className="mt-4 inline-block rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
+            >
+              Fiches bekijken &rarr;
+            </Link>
+          </section>
+
+          <section>
+            <h2 className="font-display text-lg font-semibold text-ink">Begeleiders</h2>
+            <p className="mt-3 text-sm text-ink-dim">
+              Wie mag de opvolgfiches zien en erin schrijven. Een begeleider komt niet in dit
+              beheerscherm.
+            </p>
+            <Link
+              href="/beheer/begeleiders"
+              className="mt-4 inline-block rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
+            >
+              Begeleiders beheren &rarr;
             </Link>
           </section>
 

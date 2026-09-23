@@ -3,6 +3,7 @@ import { requireBeheerder } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { Header } from "@/components/Header";
 import { upsertToegang, verwijderGezin, wijzigWachtwoord } from "../actions";
+import { startMeekijken } from "@/app/portaal/meekijken-actions";
 
 export default async function GezinDetailPage({
   params,
@@ -17,14 +18,26 @@ export default async function GezinDetailPage({
   const naam = session.profile?.full_name ?? session.email ?? "";
 
   const supabase = await createClient();
-  const [{ data: gezin }, { data: klasjes }, { data: toegangData }, { data: kinderen }] = await Promise.all([
-    supabase.from("profiles").select("id, full_name, telefoon, adres").eq("id", id).single(),
+  const [
+    { data: gezin },
+    { data: klasjes },
+    { data: toegangData },
+    { data: kinderen },
+  ] = await Promise.all([
+    supabase
+      .from("profiles")
+      .select("id, full_name, telefoon, adres")
+      .eq("id", id)
+      .single(),
     supabase.from("klasjes").select("id, naam").order("naam"),
-    supabase.from("toegang").select("klasje_id, materiaal, fotos").eq("profile_id", id),
+    supabase
+      .from("toegang")
+      .select("klasje_id, materiaal, fotos")
+      .eq("profile_id", id),
     supabase
       .from("kinderen")
       .select(
-        "id, naam, geboortedatum, allergieen, diagnoses, noodcontact_naam, noodcontact_telefoon, toestemming_fotos, toestemming_social_media"
+        "id, naam, geboortedatum, allergieen, diagnoses, noodcontact_naam, noodcontact_telefoon, toestemming_fotos, toestemming_social_media",
       )
       .eq("profile_id", id)
       .order("naam"),
@@ -33,26 +46,56 @@ export default async function GezinDetailPage({
   if (!gezin) notFound();
 
   const toegangPerKlasje = new Map(
-    (toegangData ?? []).map((t) => [t.klasje_id, { materiaal: t.materiaal, fotos: t.fotos }])
+    (toegangData ?? []).map((t) => [
+      t.klasje_id,
+      { materiaal: t.materiaal, fotos: t.fotos },
+    ]),
   );
 
   return (
     <>
-      <Header naam={naam} rol="beheerder" terugHref="/beheer/gezinnen" terugLabel="Gezinnen" />
+      <Header
+        naam={naam}
+        rol="beheerder"
+        terugHref="/beheer/gezinnen"
+        terugLabel="Gezinnen"
+      />
       <main className="mx-auto w-full max-w-2xl flex-1 px-6 py-10">
-        <h1 className="font-display text-2xl font-semibold text-ink">{gezin.full_name}</h1>
+        <div className="flex flex-wrap items-center justify-between gap-3">
+          <h1 className="font-display text-2xl font-semibold text-ink">
+            {gezin.full_name}
+          </h1>
+          {/* Het portaal bekijken zoals dit gezin het ziet, zonder uit te loggen. */}
+          <form action={startMeekijken}>
+            <input type="hidden" name="gezinId" value={gezin.id} />
+            <button
+              type="submit"
+              className="rounded-md border border-forest px-3 py-2 text-sm font-medium text-forest-dark transition hover:bg-forest/5"
+            >
+              Bekijk het portaal zoals dit gezin het ziet
+            </button>
+          </form>
+        </div>
         <p className="mt-1 text-sm text-ink-dim">
-          Lesmateriaal en foto&apos;s staan hieronder los van elkaar — je kan het ene toestaan
-          zonder het andere.
+          Lesmateriaal en foto&apos;s staan hieronder los van elkaar — je kan
+          het ene toestaan zonder het andere.
         </p>
 
-        {fout && <p className="mt-4 rounded-md bg-danger/10 px-3 py-2 text-sm text-danger">{fout}</p>}
+        {fout && (
+          <p className="mt-4 rounded-md bg-danger/10 px-3 py-2 text-sm text-danger">
+            {fout}
+          </p>
+        )}
         {succes && (
-          <p className="mt-4 rounded-md bg-forest/10 px-3 py-2 text-sm text-forest-dark">{succes}</p>
+          <p className="mt-4 rounded-md bg-forest/10 px-3 py-2 text-sm text-forest-dark">
+            {succes}
+          </p>
         )}
 
         <section className="mt-6 rounded-xl border border-border bg-surface p-5">
-          <h2 className="font-display text-base font-semibold text-ink">Contactgegevens</h2>
+          <h2 className="font-display text-base font-semibold text-ink">
+            Contactgegevens
+          </h2>
           {gezin.telefoon || gezin.adres ? (
             <dl className="mt-2 space-y-1 text-sm text-ink-dim">
               {gezin.telefoon && (
@@ -69,23 +112,33 @@ export default async function GezinDetailPage({
               )}
             </dl>
           ) : (
-            <p className="mt-2 text-sm text-ink-dim">Nog niet ingevuld door dit gezin.</p>
+            <p className="mt-2 text-sm text-ink-dim">
+              Nog niet ingevuld door dit gezin.
+            </p>
           )}
         </section>
 
         <section className="mt-4 rounded-xl border border-border bg-surface p-5">
-          <h2 className="font-display text-base font-semibold text-ink">Inlichtingenfiche(s)</h2>
+          <h2 className="font-display text-base font-semibold text-ink">
+            Inlichtingenfiche(s)
+          </h2>
           {(kinderen ?? []).length === 0 && (
-            <p className="mt-2 text-sm text-ink-dim">Nog geen kind toegevoegd door dit gezin.</p>
+            <p className="mt-2 text-sm text-ink-dim">
+              Nog geen kind toegevoegd door dit gezin.
+            </p>
           )}
           <div className="mt-3 space-y-4">
             {(kinderen ?? []).map((kind) => (
-              <div key={kind.id} className="rounded-lg border border-border bg-paper p-4 text-sm">
+              <div
+                key={kind.id}
+                className="rounded-lg border border-border bg-paper p-4 text-sm"
+              >
                 <p className="font-display font-semibold text-ink">
                   {kind.naam}
                   {kind.geboortedatum && (
                     <span className="ml-2 font-sans text-xs font-normal text-ink-dim">
-                      geboren {new Date(kind.geboortedatum).toLocaleDateString("nl-BE")}
+                      geboren{" "}
+                      {new Date(kind.geboortedatum).toLocaleDateString("nl-BE")}
                     </span>
                   )}
                 </p>
@@ -105,7 +158,9 @@ export default async function GezinDetailPage({
                   <p className="mt-1">
                     <strong className="text-ink">Noodcontact: </strong>
                     <span className="text-ink-dim">
-                      {[kind.noodcontact_naam, kind.noodcontact_telefoon].filter(Boolean).join(" — ")}
+                      {[kind.noodcontact_naam, kind.noodcontact_telefoon]
+                        .filter(Boolean)
+                        .join(" — ")}
                     </span>
                   </p>
                 )}
@@ -113,12 +168,16 @@ export default async function GezinDetailPage({
                   <span
                     className={`rounded-full px-2.5 py-0.5 text-xs font-medium ${kind.toestemming_fotos ? "bg-forest/10 text-forest-dark" : "bg-danger/10 text-danger"}`}
                   >
-                    {kind.toestemming_fotos ? "Toestemming foto's" : "Geen toestemming foto's"}
+                    {kind.toestemming_fotos
+                      ? "Toestemming foto's"
+                      : "Geen toestemming foto's"}
                   </span>
                   <span
                     className={`rounded-full px-2.5 py-0.5 text-xs font-medium ${kind.toestemming_social_media ? "bg-forest/10 text-forest-dark" : "bg-danger/10 text-danger"}`}
                   >
-                    {kind.toestemming_social_media ? "Toestemming social media" : "Geen toestemming social media"}
+                    {kind.toestemming_social_media
+                      ? "Toestemming social media"
+                      : "Geen toestemming social media"}
                   </span>
                 </div>
               </div>
@@ -128,7 +187,10 @@ export default async function GezinDetailPage({
 
         <div className="mt-6 space-y-3">
           {(klasjes ?? []).map((k) => {
-            const huidig = toegangPerKlasje.get(k.id) ?? { materiaal: false, fotos: false };
+            const huidig = toegangPerKlasje.get(k.id) ?? {
+              materiaal: false,
+              fotos: false,
+            };
             return (
               <form
                 key={k.id}
@@ -140,11 +202,19 @@ export default async function GezinDetailPage({
                 <p className="font-medium text-ink">{k.naam}</p>
                 <div className="flex items-center gap-4 text-sm">
                   <label className="flex items-center gap-1.5">
-                    <input type="checkbox" name="materiaal" defaultChecked={huidig.materiaal} />
+                    <input
+                      type="checkbox"
+                      name="materiaal"
+                      defaultChecked={huidig.materiaal}
+                    />
                     Lesmateriaal
                   </label>
                   <label className="flex items-center gap-1.5">
-                    <input type="checkbox" name="fotos" defaultChecked={huidig.fotos} />
+                    <input
+                      type="checkbox"
+                      name="fotos"
+                      defaultChecked={huidig.fotos}
+                    />
                     Foto&apos;s
                   </label>
                   <button
@@ -158,15 +228,23 @@ export default async function GezinDetailPage({
             );
           })}
           {(klasjes ?? []).length === 0 && (
-            <p className="text-sm text-ink-dim">Maak eerst een klasje aan onder Beheer.</p>
+            <p className="text-sm text-ink-dim">
+              Maak eerst een klasje aan onder Beheer.
+            </p>
           )}
         </div>
 
-        <form action={wijzigWachtwoord} className="mt-10 border-t border-border pt-6">
+        <form
+          action={wijzigWachtwoord}
+          className="mt-10 border-t border-border pt-6"
+        >
           <input type="hidden" name="profile_id" value={gezin.id} />
-          <h2 className="font-display text-lg font-semibold text-ink">Wachtwoord wijzigen</h2>
+          <h2 className="font-display text-lg font-semibold text-ink">
+            Wachtwoord wijzigen
+          </h2>
           <p className="mt-1 text-sm text-ink-dim">
-            Stel een nieuw wachtwoord in voor dit gezin en geef dat opnieuw veilig aan hen door.
+            Stel een nieuw wachtwoord in voor dit gezin en geef dat opnieuw
+            veilig aan hen door.
           </p>
           <div className="mt-3 flex gap-2">
             <input
@@ -192,8 +270,8 @@ export default async function GezinDetailPage({
         >
           <input type="hidden" name="profile_id" value={gezin.id} />
           <p className="text-sm text-ink-dim">
-            Verwijder dit account volledig, bijvoorbeeld als het kind stopt. Dit kan niet ongedaan
-            gemaakt worden.
+            Verwijder dit account volledig, bijvoorbeeld als het kind stopt. Dit
+            kan niet ongedaan gemaakt worden.
           </p>
           <button
             type="submit"

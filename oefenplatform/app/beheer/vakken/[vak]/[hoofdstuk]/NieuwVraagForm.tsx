@@ -115,7 +115,7 @@ export function NieuwVraagForm({
         <label className="text-sm font-medium text-ink">
           Afbeelding <span className="font-normal text-ink-dim">(optioneel — bv. een figuur bij meetkunde)</span>
         </label>
-        <input name="afbeelding" type="file" accept="image/*" className="w-full text-sm" />
+        <input name="afbeelding" type="file" accept="image/*" className="block w-full cursor-pointer text-sm text-ink-dim file:mr-3 file:cursor-pointer file:rounded-md file:border-0 file:bg-forest file:px-4 file:py-2 file:text-sm file:font-medium file:text-white hover:file:bg-forest-dark" />
       </div>
 
       <button

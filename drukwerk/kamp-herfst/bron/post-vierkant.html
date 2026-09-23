@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<title>Herfstkampen, vierkante post voor sociale media</title>
+<style>
+  /*
+    De vierkante versie voor de feed: 1080 x 1080 px.
+    Zelfde kleuren en fonts als de flyer. Bovenaan staat een strook van
+    vier foto's uit de werking in plaats van één foto.
+  */
+  @font-face { font-family: "Nunito"; src: url(nunito.woff2) format("woff2"); font-weight: 200 1000; }
+  @font-face { font-family: "Caveat"; src: url(caveat.woff2) format("woff2"); font-weight: 700; }
+
+  :root {
+    --cream: #fbf6ea;
+    --ink: #2a2d26;
+    --ink-dim: #61675a;
+    --border: #e6e0d0;
+    --green: #2f4a22;
+    --green-mid: #5c7a45;
+    --sage: #8aa173;
+    --sage-soft: #dfe7d0;
+    --purple: #5e2d91;
+    --orange: #d96e25;
+    --blue: #3d7cb0;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1080px; height: 1080px; background: var(--cream); }
+  body { font-family: "Nunito", sans-serif; color: var(--ink); position: relative; overflow: hidden; }
+
+  /* de strook met de vier foto's */
+  .hero { position: relative; height: 294px; overflow: hidden; display: grid; grid-template-columns: repeat(4, 1fr); }
+  .hero figure { position: relative; overflow: hidden; }
+  .hero figure + figure { border-left: 3px solid var(--cream); }
+  .hero img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  .hero svg.golf { position: absolute; left: 0; bottom: -1px; width: 100%; height: 56px; }
+
+  .kop { padding: 6px 66px 0; }
+  .kop .hand { font-family: "Caveat"; font-size: 39px; color: var(--purple); line-height: 1.1; }
+  .kop h1 { font-weight: 900; color: var(--green); font-size: 56px; line-height: 1.04; letter-spacing: -.015em; margin-top: 4px; }
+  .kop h1 span { color: var(--green-mid); }
+  .kop p { margin-top: 10px; font-size: 24px; line-height: 1.32; color: var(--ink-dim); font-weight: 600; }
+  .kop p b { color: var(--ink); font-weight: 800; }
+
+  .wanneer { padding: 20px 66px 0; display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+  .datum { border-radius: 24px; background: #fff; border: 1px solid var(--border); padding: 16px 20px 18px; position: relative; overflow: hidden; }
+  .datum::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 11px; }
+  .datum.oranje::before { background: var(--orange); }
+  .datum.blauw::before { background: var(--blue); }
+  .datum .plaats { font-weight: 900; font-size: 21px; letter-spacing: .1em; text-transform: uppercase; }
+  .datum.oranje .plaats { color: var(--orange); }
+  .datum.blauw .plaats { color: var(--blue); }
+  .datum .dagen { font-weight: 900; font-size: 34px; color: var(--green); line-height: 1.1; margin-top: 2px; }
+  .datum .thema { margin-top: 8px; font-weight: 800; font-size: 21px; line-height: 1.2; }
+  .datum .waar { margin-top: 9px; padding-top: 9px; border-top: 1px dashed var(--border); font-size: 20px; font-weight: 700; }
+  .datum .waar span { display: block; color: var(--ink-dim); font-weight: 600; }
+
+  /* de strook met de uren, de prijs en de leeftijd */
+  .praktisch {
+    grid-column: 1 / -1; border-radius: 18px; background: var(--sage-soft); border: 1px solid #cdd9bb;
+    padding: 12px 22px; display: flex; align-items: baseline; justify-content: space-between; gap: 14px;
+    font-size: 22px; font-weight: 700;
+  }
+  .praktisch b { font-weight: 900; color: var(--green); font-size: 25px; }
+  .praktisch .stip { color: var(--sage); font-weight: 900; }
+
+  .voet {
+    position: absolute; left: 0; right: 0; bottom: 0; height: 162px; background: var(--green);
+    display: flex; align-items: center; justify-content: space-between; padding: 0 66px; color: #fff;
+  }
+  .voet .actie { font-weight: 900; font-size: 31px; line-height: 1.2; }
+  .voet .actie span { display: block; font-size: 23px; font-weight: 700; opacity: .9; margin-top: 4px; }
+  .voet .actie em { font-style: normal; color: #f4b27c; }
+  .voet img { height: 108px; display: block; background: var(--cream); border-radius: 20px; padding: 7px; }
+</style>
+</head>
+<body>
+
+  <div class="hero">
+    <figure><img src="collage-1.jpg" alt="" style="object-position: 46% 38%"></figure>
+    <figure><img src="collage-2.jpg" alt="" style="object-position: 50% 50%"></figure>
+    <figure><img src="collage-3.jpg" alt="" style="object-position: 50% 32%"></figure>
+    <figure><img src="collage-4.jpg" alt="" style="object-position: 47% 42%"></figure>
+    <svg class="golf" viewBox="0 0 148 10" preserveAspectRatio="none"><path d="M0 6 C 32 1, 63 1, 92 5 S 134 10, 148 3 L148 10 L0 10 Z" fill="#fbf6ea"/></svg>
+  </div>
+
+  <section class="kop">
+    <div class="hand">Herfstvakantie 2026</div>
+    <h1>Twee dagen bouwen,<br><span>denken en uitproberen</span></h1>
+    <p>Een kamp voor kinderen van <b>6 tot 12 jaar</b> die in de vakantie meer willen dan opvang. Elk kamp heeft zijn eigen thema.</p>
+  </section>
+
+  <section class="wanneer">
+    <div class="datum oranje">
+      <div class="plaats">Hasselt</div>
+      <div class="dagen">ma 2 &amp; di 3<br>november</div>
+      <div class="thema">Thema: Young Engineer Held</div>
+      <div class="waar">Level X 28<span>Vilderstraat 28, Hasselt</span></div>
+    </div>
+    <div class="datum blauw">
+      <div class="plaats">Genk</div>
+      <div class="dagen">wo 4 &amp; do 5<br>november</div>
+      <div class="thema">Thema: Creatieve duizendpoot,<br>van techniek tot design</div>
+      <div class="waar">T2 Campus<span>Thor Park 8040, Genk</span></div>
+    </div>
+    <div class="praktisch">
+      <span>Elke dag van <b>9u tot 15u</b></span>
+      <span class="stip">&#9679;</span>
+      <span><b>&euro;40</b> per dag</span>
+      <span class="stip">&#9679;</span>
+      <span><b>6 tot 12 jaar</b></span>
+    </div>
+  </section>
+
+  <footer class="voet">
+    <div class="actie">
+      Inschrijven op <em>www.connectopia.one/aanbod</em>
+      <span>Plaatsen zijn beperkt &nbsp;&middot;&nbsp; info@matmgroep.com &nbsp;&middot;&nbsp; 0468 35 74 96</span>
+    </div>
+    <img src="logo-kim-transparant.png" alt="Connectopia vzw">
+  </footer>
+
+</body>
+</html>

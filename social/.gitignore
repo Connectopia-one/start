@@ -1,0 +1,4 @@
+# render.js maakt deze bladen zelf opnieuw uit posts.js; enkel de bron
+# (posts.js, stijl.css, render.js) en de afgewerkte beelden horen in de repo.
+posts/bron/*.html
+kalender-pdf/bron/kalender.html

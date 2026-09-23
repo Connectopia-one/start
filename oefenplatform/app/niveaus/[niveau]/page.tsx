@@ -4,9 +4,10 @@ import { Header } from "@/components/Header";
 import { getSessionProfile } from "@/lib/auth";
 import { heeftVolledigeToegang, hoofdstukToegankelijk } from "@/lib/toegang";
 import { createClient } from "@/lib/supabase/server";
-import { PRIJS_SCHOOLJAAR_EUR } from "@/lib/mollie";
+import { PRIJS_NU_EUR, TIJDELIJKE_PRIJS, TIJDELIJKE_PRIJS_KORT } from "@/lib/prijs";
 import { schooljaarEindeLabel } from "@/lib/schooljaar";
 import { vindNiveau } from "@/lib/niveaus";
+import { sorteerHoofdstukken } from "@/lib/hoofdstukvolgorde";
 
 type Hoofdstuk = { id: string; titel: string; volgnummer: number; gratis: boolean; niveau: string };
 type Vak = { id: string; naam: string; slug: string; hoofdstukken: Hoofdstuk[] };
@@ -31,7 +32,10 @@ export default async function NiveauPage({
   const volledigeToegang = heeftVolledigeToegang(session?.profile ?? null);
 
   const vakkenInNiveau = ((vakken as Vak[] | null) ?? [])
-    .map((vak) => ({ ...vak, hoofdstukken: vak.hoofdstukken.filter((h) => h.niveau === niveau.slug) }))
+    .map((vak) => ({
+      ...vak,
+      hoofdstukken: sorteerHoofdstukken(vak.hoofdstukken.filter((h) => h.niveau === niveau.slug)),
+    }))
     .filter((vak) => vak.hoofdstukken.length > 0);
 
   return (
@@ -49,7 +53,8 @@ export default async function NiveauPage({
         {!volledigeToegang && (
           <div className="mt-6 rounded-xl border border-amber/40 bg-amber/10 px-5 py-4 text-sm text-ink">
             Volledige toegang tot alle hoofdstukken kost{" "}
-            <strong>€{PRIJS_SCHOOLJAAR_EUR} per schooljaar</strong>, geldig tot en met{" "}
+            <strong>€{PRIJS_NU_EUR} per schooljaar</strong>
+            {TIJDELIJKE_PRIJS && <> ({TIJDELIJKE_PRIJS_KORT})</>}, geldig tot en met{" "}
             {schooljaarEindeLabel()} — de opbrengsten gaan volledig naar vzw Connectopia.{" "}
             <Link href={session ? "/betalen" : "/registreren"} className="font-medium text-forest-dark underline-offset-2 hover:underline">
               {session ? "Nu vrijgeven" : "Account maken en starten"}
@@ -62,9 +67,7 @@ export default async function NiveauPage({
             <section key={vak.id}>
               <h2 className="font-display text-lg font-semibold text-forest-dark">{vak.naam}</h2>
               <ul className="mt-3 space-y-2">
-                {vak.hoofdstukken
-                  .sort((a, b) => a.volgnummer - b.volgnummer)
-                  .map((h) => {
+                {vak.hoofdstukken.map((h) => {
                     const mag = hoofdstukToegankelijk(h.gratis, session?.profile ?? null);
                     return (
                       <li key={h.id}>

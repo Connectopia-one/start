@@ -1,0 +1,2872 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Biologie: leven en ecologie",
+      "niveau": "start",
+      "vragen": [
+        {
+          "type": "waarofniet",
+          "vraag": "Planten maken hun voedsel met behulp van licht.",
+          "antwoord": true,
+          "uitleg": "Daarvoor gebruiken ze ook water en koolstofdioxide."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe noem je het proces waarbij planten suiker maken uit water, koolstofdioxide en licht?",
+          "opties": [
+            "verbranding",
+            "fotosynthese",
+            "vertering",
+            "verdamping"
+          ],
+          "antwoord": 1,
+          "uitleg": "Foto betekent licht, synthese betekent samenstellen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een voedselketen?",
+          "opties": [
+            "een rij winkels",
+            "wie wat eet in de natuur",
+            "een soort plant",
+            "een deel van het skelet"
+          ],
+          "antwoord": 1,
+          "uitleg": "Bijvoorbeeld: gras wordt gegeten door een konijn, en het konijn door een vos."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een kikker is een zoogdier.",
+          "antwoord": false,
+          "uitleg": "Een kikker is een amfibie: hij legt eieren in het water."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat hebben alle zoogdieren gemeen?",
+          "opties": [
+            "ze leggen eieren",
+            "ze geven melk aan hun jongen",
+            "ze hebben veren",
+            "ze leven in het water"
+          ],
+          "antwoord": 1,
+          "uitleg": "Zoogdieren zogen hun jongen, daar komt de naam vandaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe noem je de plaats waar een dier leeft, met alles wat het daar nodig heeft?",
+          "opties": [
+            "de leefomgeving",
+            "de voedselketen",
+            "het skelet",
+            "de celkern"
+          ],
+          "antwoord": 0,
+          "uitleg": "In zijn leefomgeving vindt een dier voedsel, water en beschutting."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bijen helpen bij de bestuiving van bloemen.",
+          "antwoord": true,
+          "uitleg": "Ze dragen stuifmeel van de ene bloem naar de andere."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk deel van de plant neemt water op uit de grond?",
+          "opties": [
+            "het blad",
+            "de bloem",
+            "de wortel",
+            "de stengel"
+          ],
+          "antwoord": 2,
+          "uitleg": "De wortels halen water en voedingsstoffen uit de bodem."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een spin is een insect.",
+          "antwoord": false,
+          "uitleg": "Een spin heeft acht poten; insecten hebben er zes."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je dieren die alleen planten eten?",
+          "antwoord": "planteneters",
+          "uitleg": "Vleeseters eten vlees, alleseters eten allebei."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom laten bomen in de herfst hun bladeren vallen?",
+          "opties": [
+            "om water te sparen in de koude maanden",
+            "omdat ze ziek zijn",
+            "omdat het te warm wordt",
+            "om lichter te worden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zonder bladeren verdampt de boom veel minder water in de winter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er bij een metamorfose van rups tot vlinder?",
+          "opties": [
+            "het dier verandert helemaal van vorm",
+            "het dier wordt alleen groter",
+            "het dier verandert van kleur",
+            "er verandert niets"
+          ],
+          "antwoord": 0,
+          "uitleg": "Via de pop verandert de rups volledig van lichaamsbouw."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zijn regenwormen goed voor de grond?",
+          "opties": [
+            "ze maken de grond los en luchtig",
+            "ze eten plagen op",
+            "ze maken water",
+            "ze geven licht"
+          ],
+          "antwoord": 0,
+          "uitleg": "Door hun gangen komt er lucht en water bij de wortels."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Zonder planten zou er geen zuurstof in de lucht zijn.",
+          "antwoord": true,
+          "uitleg": "Planten geven zuurstof af bij de fotosynthese."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het orgaan waarmee vissen ademen onder water?",
+          "antwoord": "kieuwen",
+          "uitleg": "Kieuwen halen zuurstof uit het water."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een producent in een voedselketen?",
+          "opties": [
+            "een plant, die zelf voedsel maakt uit licht",
+            "een dier dat planten eet",
+            "een dier dat andere dieren eet",
+            "een schimmel die dode resten afbreekt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een voedselketen begint altijd bij een producent: alleen planten maken hun eigen voedsel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe noem je dieren die zowel planten als dieren eten?",
+          "opties": [
+            "alleseters of omnivoren",
+            "planteneters of herbivoren",
+            "vleeseters of carnivoren",
+            "afbrekers"
+          ],
+          "antwoord": 0,
+          "uitleg": "De mens is er ook een. Een beer en een varken evengoed."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je met één woord de dieren die alleen vlees eten?",
+          "antwoord": "carnivoren",
+          "uitleg": "Een vos, een leeuw en een havik zijn carnivoren. Planteneters heten herbivoren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doen afbrekers zoals schimmels, bacteriën en pissebedden?",
+          "opties": [
+            "ze breken dode planten en dieren af tot voedingsstoffen in de bodem",
+            "ze eten levende planten op",
+            "ze maken voedsel uit zonlicht",
+            "ze jagen op kleine dieren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zonder afbrekers zou een bos onder zijn eigen bladeren bedolven raken, en zou er geen voeding terugkomen in de grond."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een voedselweb is een geheel van voedselketens die in elkaar haken.",
+          "antwoord": true,
+          "uitleg": "Klopt. In het echt eet bijna geen enkel dier maar één ding, dus de ketens lopen door elkaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent biodiversiteit?",
+          "opties": [
+            "hoeveel verschillende soorten er in een gebied leven",
+            "hoeveel dieren er in totaal leven",
+            "hoe groot een natuurgebied is",
+            "hoeveel bomen er staan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het gaat om de verscheidenheid, niet om het aantal. Honderd konijnen zijn minder divers dan tien verschillende soorten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Leven er in een gebied meer verschillende soorten, dan kan de natuur een tegenslag beter opvangen.",
+          "antwoord": true,
+          "uitleg": "Klopt. Valt één soort weg, dan zijn er andere die haar taak kunnen overnemen. Bij weinig soorten stort de boel sneller in."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je een dier dat een ruggengraat heeft?",
+          "antwoord": "gewerveld",
+          "uitleg": "Zoogdieren, vogels, vissen, reptielen en amfibieën zijn gewervelde dieren. Insecten, spinnen en wormen niet."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel poten heeft een insect? Antwoord met een getal.",
+          "antwoord": "6",
+          "uitleg": "Zes poten en drie lichaamsdelen: kop, borststuk en achterlijf."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel poten heeft een spin? Antwoord met een getal.",
+          "antwoord": "8",
+          "uitleg": "Acht poten en twee lichaamsdelen. Daarom is een spin geen insect."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Alle vogels kunnen vliegen.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Een struisvogel en een pinguïn zijn vogels, maar ze vliegen niet. De pinguïn gebruikt zijn vleugels om te zwemmen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat hebben vogels dat geen enkele andere diergroep heeft?",
+          "opties": [
+            "veren",
+            "vleugels",
+            "een snavel",
+            "eieren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vleermuizen en insecten hebben ook vleugels, en veel dieren leggen eieren. Veren heeft alleen een vogel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waaraan herken je een reptiel, zoals een hagedis of een slang?",
+          "opties": [
+            "een droge huid met schubben",
+            "een vacht met haren",
+            "een natte, gladde huid",
+            "veren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Reptielen hebben schubben en zijn koudbloedig: ze warmen zich op in de zon."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is bijzonder aan een amfibie, zoals een kikker of een salamander?",
+          "opties": [
+            "het leeft eerst in het water en later ook op het land",
+            "het leeft zijn hele leven onder water",
+            "het heeft schubben",
+            "het is een zoogdier"
+          ],
+          "antwoord": 0,
+          "uitleg": "Amfibie betekent letterlijk 'dubbelleven'. De eitjes en de larven zitten in het water."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de winterrust van een egel of een vleermuis?",
+          "antwoord": "winterslaap",
+          "uitleg": "Hun lichaam koelt af en hun hart klopt veel trager, zodat ze bijna geen voedsel nodig hebben."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom trekken sommige vogels in de herfst naar het zuiden?",
+          "opties": [
+            "omdat er hier in de winter te weinig voedsel te vinden is",
+            "omdat ze de kou niet verdragen",
+            "omdat ze daar geboren zijn",
+            "omdat ze de weg kwijt zijn"
+          ],
+          "antwoord": 0,
+          "uitleg": "Insecteneters vertrekken, want insecten verdwijnen in de winter. Vogels die zaden eten, kunnen blijven."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is camouflage?",
+          "opties": [
+            "een kleur of vorm waardoor een dier opgaat in zijn omgeving",
+            "een geluid om soortgenoten te waarschuwen",
+            "een geur om vijanden weg te jagen",
+            "een schuilplaats onder de grond"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een sneeuwhaas wordt wit in de winter, een rups lijkt op een takje. Zo zien jager én prooi elkaar minder snel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er bij de bestuiving van een bloem?",
+          "opties": [
+            "stuifmeel van de meeldraden komt op de stamper terecht",
+            "de bloem neemt water op uit de grond",
+            "het blad maakt suiker uit licht",
+            "de bloem laat haar blaadjes vallen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Pas daarna kunnen er zaadjes en vruchten groeien. Insecten en de wind brengen dat stuifmeel over."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe verspreiden planten hun zaden?",
+          "opties": [
+            "met de wind, met water, of doordat dieren ze meenemen",
+            "alleen met de wind",
+            "door ze zelf te verplaatsen",
+            "planten verspreiden hun zaden niet"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een paardenbloem gebruikt de wind, een klit haakt vast in een vacht, en een vogel eet een bes en poept de pit verderop uit."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk gas geven planten af bij de fotosynthese?",
+          "antwoord": "zuurstof",
+          "uitleg": "Ze nemen koolstofdioxide op en geven zuurstof af. Precies omgekeerd aan wat wij bij het ademen doen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een ecosysteem?",
+          "opties": [
+            "alles wat in één gebied samenleeft, samen met de bodem, het water en het weer",
+            "alleen de dieren van een gebied",
+            "alleen de planten van een gebied",
+            "een gebied waar mensen niet mogen komen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een vijver, een bos en een duin zijn ecosystemen. Alles erin hangt aan elkaar vast."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Schimmels zijn planten.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Schimmels vormen een eigen groep. Ze hebben geen bladgroen en maken dus geen eigen voedsel; ze halen het uit dode of levende resten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom laat een boswachter dood hout gewoon in het bos liggen?",
+          "opties": [
+            "omdat er insecten en schimmels in leven die het afbreken tot voeding voor de bodem",
+            "omdat opruimen te veel werk is",
+            "omdat dood hout niet brandt",
+            "omdat het er mooi uitziet"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een dode boom herbergt vaak meer leven dan een levende. Wat vergaat, voedt de volgende bomen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent het dat een diersoort uitsterft?",
+          "opties": [
+            "er leeft geen enkel dier van die soort meer, en dat is niet meer terug te draaien",
+            "de dieren zijn verhuisd naar een ander land",
+            "de soort slaapt een winter over",
+            "er zijn er nog maar weinig van"
+          ],
+          "antwoord": 0,
+          "uitleg": "Uitgestorven is voorgoed. Daarom proberen mensen soorten te beschermen vóór het zover komt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat kan je zelf doen om meer leven in je tuin te krijgen?",
+          "opties": [
+            "bloemen laten bloeien en een hoekje laten verwilderen",
+            "het gras elke week heel kort maaien",
+            "alle insecten wegjagen",
+            "alles met tegels bedekken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een rommelig hoekje met bloemen, een takkenhoop en wat water is voor insecten en vogels meer waard dan een perfect gazon."
+        }
+      ]
+    },
+    {
+      "titel": "Biologie: het menselijk lichaam",
+      "niveau": "start",
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk orgaan pompt het bloed door je lichaam?",
+          "opties": [
+            "de longen",
+            "het hart",
+            "de lever",
+            "de maag"
+          ],
+          "antwoord": 1,
+          "uitleg": "Het hart is een spier die dag en nacht bloed rondpompt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Met welk orgaan adem je?",
+          "antwoord": "longen",
+          "uitleg": "In je longen gaat zuurstof uit de lucht naar je bloed."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk orgaan verteert het voedsel verder nadat het je maag verlaten heeft?",
+          "opties": [
+            "de longen",
+            "de dunne darm",
+            "het hart",
+            "de nieren"
+          ],
+          "antwoord": 1,
+          "uitleg": "In de dunne darm worden de voedingsstoffen opgenomen in het bloed."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doen de nieren?",
+          "opties": [
+            "bloed zuiveren",
+            "voedsel kauwen",
+            "zuurstof maken",
+            "botten maken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ze halen afvalstoffen uit het bloed, die daarna als urine het lichaam verlaten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het skelet beschermt organen zoals je hersenen en je hart.",
+          "antwoord": true,
+          "uitleg": "De schedel beschermt de hersenen, de ribben het hart en de longen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar begint de spijsvertering al?",
+          "opties": [
+            "in je mond, bij het kauwen en het speeksel",
+            "in je maag",
+            "in je dunne darm",
+            "in je lever"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je tanden malen het voedsel klein en het speeksel begint het meteen af te breken. Daarom loont goed kauwen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Door welke buis zakt het voedsel van je mond naar je maag?",
+          "antwoord": "slokdarm",
+          "uitleg": "De slokdarm duwt het voedsel met spierbewegingen naar beneden. Dat lukt zelfs als je op je kop hangt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er in je maag?",
+          "opties": [
+            "het voedsel wordt gekneed en met maagsap afgebroken",
+            "de voedingsstoffen gaan er naar het bloed",
+            "het water wordt eruit gehaald",
+            "het bloed wordt er gezuiverd"
+          ],
+          "antwoord": 0,
+          "uitleg": "Maagsap is zuur. Het breekt het voedsel verder af en doodt meteen veel ziektekiemen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar gaan de voedingsstoffen vanuit je voedsel naar je bloed?",
+          "opties": [
+            "in de dunne darm",
+            "in de maag",
+            "in de dikke darm",
+            "in de slokdarm"
+          ],
+          "antwoord": 0,
+          "uitleg": "De dunne darm is bij een volwassene wel vijf meter lang en vanbinnen geplooid, zodat er zoveel mogelijk kan worden opgenomen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In de dikke darm wordt vooral water uit de resten gehaald.",
+          "antwoord": true,
+          "uitleg": "Klopt. Wat overblijft, verlaat het lichaam. Drink je te weinig, dan merk je dat daar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet je lever onder meer?",
+          "opties": [
+            "schadelijke stoffen uit het bloed halen en gal maken voor de vertering",
+            "het bloed rondpompen",
+            "zuurstof opnemen uit de lucht",
+            "urine maken"
+          ],
+          "antwoord": 0,
+          "uitleg": "De lever is het grootste orgaan binnenin je lichaam en doet honderden taken tegelijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Uit hoeveel holten bestaat het hart?",
+          "opties": [
+            "vier: twee boezems en twee kamers",
+            "twee",
+            "één grote holte",
+            "zes"
+          ],
+          "antwoord": 0,
+          "uitleg": "De rechterkant stuurt het bloed naar de longen, de linkerkant naar de rest van je lichaam."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen een slagader en een ader?",
+          "opties": [
+            "een slagader voert bloed wég van het hart, een ader voert het ernaartoe",
+            "een slagader ligt dieper",
+            "een ader vervoert alleen zuurstof",
+            "er is geen verschil"
+          ],
+          "antwoord": 0,
+          "uitleg": "Slagaders hebben dikkere wanden, want daar staat meer druk op. Je voelt er je pols mee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doen de rode bloedcellen?",
+          "opties": [
+            "zuurstof vervoeren door je lichaam",
+            "ziektekiemen opruimen",
+            "wondjes dichten",
+            "voedsel verteren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ze geven het bloed ook zijn kleur. Witte bloedcellen ruimen ziektekiemen op, bloedplaatjes dichten wondjes."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke bloedcellen bestrijden ziektekiemen? De ... bloedcellen.",
+          "antwoord": "witte",
+          "uitleg": "Ze zijn het leger van je lichaam. Bij een infectie maakt je lichaam er in één keer veel meer aan."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je hart klopt sneller als je sport.",
+          "antwoord": true,
+          "uitleg": "Klopt. Je spieren vragen dan meer zuurstof, dus moet het bloed sneller rond."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom adem je het best door je neus in plaats van door je mond?",
+          "opties": [
+            "de neus verwarmt, bevochtigt en filtert de lucht",
+            "dat gaat sneller",
+            "je longen worden er groter van",
+            "er past meer lucht door"
+          ],
+          "antwoord": 0,
+          "uitleg": "De haartjes en het slijm in je neus houden stof en ziektekiemen tegen voor ze je longen bereiken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er in de longblaasjes?",
+          "opties": [
+            "zuurstof gaat naar het bloed en koolstofdioxide komt eruit",
+            "het voedsel wordt afgebroken",
+            "het bloed wordt gezuiverd van afval",
+            "de lucht wordt verwarmd"
+          ],
+          "antwoord": 0,
+          "uitleg": "In je longen zitten er honderden miljoenen. Samen hebben ze een oppervlakte zo groot als een tennisveld."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke grote spier onder je longen helpt je ademen?",
+          "antwoord": "middenrif",
+          "uitleg": "Het middenrif trekt naar beneden en zuigt zo lucht binnen. De hik is een plotse samentrekking van die spier."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel botten heeft een volwassen mens ongeveer?",
+          "opties": [
+            "ongeveer 206",
+            "ongeveer 50",
+            "ongeveer 1 000",
+            "ongeveer 20"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een baby heeft er meer, ongeveer 300. Tijdens het opgroeien groeien sommige botten aan elkaar vast."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat beschermt je ruggenmerg?",
+          "opties": [
+            "de wervelkolom",
+            "de ribben",
+            "de schedel",
+            "het bekken"
+          ],
+          "antwoord": 0,
+          "uitleg": "De wervelkolom is een rij botjes met een kanaal erin. De schedel beschermt je hersenen, de ribben je hart en longen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de plaats waar twee botten ten opzichte van elkaar kunnen bewegen?",
+          "antwoord": "gewricht",
+          "uitleg": "Je knie, je elleboog en je schouder zijn gewrichten. Kraakbeen zorgt ervoor dat de botten er niet op elkaar schuren."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In je botten wordt bloed aangemaakt.",
+          "antwoord": true,
+          "uitleg": "Klopt. Dat gebeurt in het beenmerg, binnenin de botten. Een bot is dus geen dood stuk steen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zitten spieren meestal in paren, zoals de biceps en de triceps?",
+          "opties": [
+            "omdat een spier alleen kan trekken en nooit kan duwen",
+            "omdat het er sterker uitziet",
+            "omdat er dan één kan rusten",
+            "omdat ze anders niet passen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De ene trekt je arm op, de andere strekt hem weer. Daarom heb je er altijd twee nodig."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het stevige koordje dat een spier aan een bot vastmaakt?",
+          "antwoord": "pees",
+          "uitleg": "De achillespees, boven je hiel, is de dikste pees van je lichaam."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je hartspier werkt zonder dat je eraan moet denken.",
+          "antwoord": true,
+          "uitleg": "Klopt. Je hart, je darmen en je middenrif werken vanzelf. Je arm- en beenspieren stuur je wel zelf aan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waaruit bestaat het zenuwstelsel?",
+          "opties": [
+            "de hersenen, het ruggenmerg en de zenuwen",
+            "alleen de hersenen",
+            "de hersenen en het hart",
+            "de zintuigen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De zenuwen zijn de draden die berichten heen en weer sturen, met een snelheid van meer dan honderd meter per seconde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom trek je je hand weg van iets heets nog vóór je het beseft?",
+          "opties": [
+            "omdat een reflex via het ruggenmerg loopt en niet eerst langs de hersenen",
+            "omdat je hand zelf kan denken",
+            "omdat je hersenen heel traag zijn",
+            "omdat je huid samentrekt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zo win je een fractie van een seconde, en dat scheelt bij een brandwonde. Pas daarna voel je de pijn."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel zintuigen heeft een mens? Antwoord met een getal.",
+          "antwoord": "5",
+          "uitleg": "Zien, horen, ruiken, proeven en voelen. Je hebt daarnaast ook nog een gevoel voor evenwicht."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet de pupil van je oog bij fel licht?",
+          "opties": [
+            "hij wordt kleiner",
+            "hij wordt groter",
+            "hij verandert van kleur",
+            "hij blijft altijd gelijk"
+          ],
+          "antwoord": 0,
+          "uitleg": "De pupil is het gaatje waar het licht binnenkomt. Bij fel licht knijpt hij dicht, in het donker gaat hij wijd open."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er in je oor als er geluid binnenkomt?",
+          "opties": [
+            "het trommelvlies begint mee te trillen",
+            "het oor maakt zelf geluid",
+            "het oor vangt licht op",
+            "er stroomt lucht naar je longen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Die trilling gaat via drie piepkleine botjes naar het slakkenhuis, en van daar als bericht naar je hersenen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je oor helpt je ook om je evenwicht te bewaren.",
+          "antwoord": true,
+          "uitleg": "Klopt. Diep in je oor zitten kanaaltjes met vocht die voelen hoe je hoofd beweegt. Daarom word je duizelig van rondtollen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk orgaan is het grootste van je hele lichaam?",
+          "opties": [
+            "de huid",
+            "de lever",
+            "de longen",
+            "de darmen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De huid is één groot orgaan. Ze houdt ziektekiemen buiten, regelt je temperatuur en voelt aanraking, warmte en pijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat maken je nieren van de afvalstoffen die ze uit het bloed filteren?",
+          "opties": [
+            "urine",
+            "zweet",
+            "gal",
+            "speeksel"
+          ],
+          "antwoord": 0,
+          "uitleg": "De urine wordt opgeslagen in de blaas tot je naar het toilet gaat."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Zweten helpt je lichaam om af te koelen.",
+          "antwoord": true,
+          "uitleg": "Klopt. Het zweet verdampt op je huid, en verdampen kost warmte. Daarom voel je je koeler."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is gevarieerd eten belangrijk?",
+          "opties": [
+            "omdat je lichaam veel verschillende voedingsstoffen nodig heeft, en geen enkel voedingsmiddel ze allemaal bevat",
+            "omdat afwisseling lekkerder is",
+            "omdat je er sneller van groeit",
+            "omdat je dan minder moet eten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eiwitten om te bouwen, koolhydraten en vetten voor energie, en vitaminen en mineralen om alles te laten werken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel slaap heeft een kind van tien jaar ongeveer nodig?",
+          "opties": [
+            "ongeveer 9 tot 11 uur",
+            "ongeveer 4 uur",
+            "ongeveer 6 uur",
+            "ongeveer 14 uur"
+          ],
+          "antwoord": 0,
+          "uitleg": "Tijdens je slaap groeit je lichaam en ruimen je hersenen op wat je die dag geleerd hebt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen een bacterie en een virus?",
+          "opties": [
+            "een bacterie is een levend wezentje, een virus kan zich alleen in een cel vermenigvuldigen",
+            "een bacterie is altijd gevaarlijker",
+            "een virus is groter",
+            "er is geen verschil"
+          ],
+          "antwoord": 0,
+          "uitleg": "Daarom werken antibiotica wel tegen bacteriën en niet tegen een virus zoals een verkoudheid."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Koorts is een teken dat je lichaam zich aan het verweren is.",
+          "antwoord": true,
+          "uitleg": "Klopt. Bij een hogere temperatuur werkt je afweer beter en hebben veel ziektekiemen het moeilijker."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet een vaccin?",
+          "opties": [
+            "het leert je afweersysteem een ziektekiem herkennen, nog vóór je ziek wordt",
+            "het doodt alle bacteriën in je lichaam",
+            "het geneest een ziekte die je al hebt",
+            "het verlaagt je koorts"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je lichaam maakt afweer aan zonder de ziekte zelf door te maken. Kom je de echte ziektekiem later tegen, dan is je lichaam voorbereid."
+        }
+      ]
+    },
+    {
+      "titel": "Chemie: stoffen en mengsels",
+      "niveau": "start",
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke drie toestanden kan water hebben?",
+          "opties": [
+            "vast, vloeibaar en gas",
+            "hard, zacht en warm",
+            "zuur, zoet en zout",
+            "licht, zwaar en droog"
+          ],
+          "antwoord": 0,
+          "uitleg": "IJs is vast, water is vloeibaar en waterdamp is een gas."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bij hoeveel graden Celsius kookt water op zeeniveau?",
+          "antwoord": "100",
+          "uitleg": "Bij 100 graden gaat water over in waterdamp."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bij hoeveel graden Celsius smelt ijs?",
+          "antwoord": "0",
+          "uitleg": "Bij 0 graden gaat ijs over in vloeibaar water."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Suiker die oplost in water, geeft:",
+          "opties": [
+            "een mengsel",
+            "een nieuw metaal",
+            "een gas",
+            "een steen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De suiker is er nog, je ziet ze alleen niet meer; je kan ze terugkrijgen door het water te laten verdampen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er met water dat verdampt?",
+          "opties": [
+            "het wordt vast",
+            "het wordt waterdamp",
+            "het verdwijnt voorgoed",
+            "het wordt ijs"
+          ],
+          "antwoord": 1,
+          "uitleg": "Het gaat als onzichtbaar gas de lucht in."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Olie en water mengen zich goed met elkaar.",
+          "antwoord": false,
+          "uitleg": "Olie blijft bovenop drijven; het zijn twee lagen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke stof heb je nodig om iets te laten branden?",
+          "opties": [
+            "stikstof",
+            "zuurstof",
+            "koolstofdioxide",
+            "helium"
+          ],
+          "antwoord": 1,
+          "uitleg": "Zonder zuurstof dooft een vuur; daarom werkt een deksel op een pan."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Roest ontstaat als ijzer lang in contact komt met water en lucht.",
+          "antwoord": true,
+          "uitleg": "Daarom schilder of vet je ijzer in om het te beschermen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe haal je zout uit zout water?",
+          "opties": [
+            "door het water te laten verdampen",
+            "door te roeren",
+            "door er suiker bij te doen",
+            "dat kan niet"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het water verdampt en het zout blijft achter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk gas ademen mensen uit?",
+          "opties": [
+            "vooral zuurstof",
+            "vooral koolstofdioxide",
+            "vooral helium",
+            "vooral waterstof"
+          ],
+          "antwoord": 1,
+          "uitleg": "Je neemt zuurstof op en geeft koolstofdioxide af."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe noem je het overgaan van waterdamp naar vloeibaar water?",
+          "opties": [
+            "smelten",
+            "verdampen",
+            "condenseren",
+            "bevriezen"
+          ],
+          "antwoord": 2,
+          "uitleg": "Dat zie je op een koude ruit: er slaat water op neer."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als je een stof oplost in water, is de stof verdwenen.",
+          "antwoord": false,
+          "uitleg": "Ze zit er nog in, maar je ziet ze niet meer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe scheid je zand van water?",
+          "opties": [
+            "door te filteren",
+            "door te verwarmen",
+            "door te roeren",
+            "dat kan niet"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het zand blijft in de filter achter, het water loopt erdoor."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk gas hebben planten nodig om aan fotosynthese te doen? (afkorting CO2, voluit één woord)",
+          "antwoord": "koolstofdioxide",
+          "uitleg": "Planten nemen koolstofdioxide op en geven zuurstof af."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is er speciaal aan water wanneer het bevriest?",
+          "opties": [
+            "het wordt lichter en drijft",
+            "het wordt zwaarder en zinkt",
+            "het verdwijnt",
+            "het wordt warmer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Daarom drijft ijs op water en bevriest een vijver van bovenaf."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Alle metalen zijn magnetisch.",
+          "antwoord": false,
+          "uitleg": "IJzer wel, maar koper en aluminium bijvoorbeeld niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom strooit men zout op de weg bij vrieskou?",
+          "opties": [
+            "zodat water pas bij een lagere temperatuur bevriest",
+            "om de weg te kleuren",
+            "om de weg te verwarmen",
+            "om het water te laten verdampen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zout water bevriest pas onder nul graden, dus blijft de weg langer ijsvrij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er als je bakpoeder bij azijn doet?",
+          "opties": [
+            "er ontstaat gas en het bruist",
+            "er gebeurt niets",
+            "het wordt hard",
+            "het wordt blauw"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het gas dat vrijkomt is koolstofdioxide."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een mengsel van water en suiker kan je weer scheiden.",
+          "antwoord": true,
+          "uitleg": "Laat het water verdampen en de suiker blijft achter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk van deze is géén mengsel?",
+          "opties": [
+            "zeewater",
+            "fruitsap",
+            "zuiver water",
+            "melk"
+          ],
+          "antwoord": 2,
+          "uitleg": "Zuiver water bestaat uit één stof; de andere bevatten meerdere stoffen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Suiker lost sneller op in warm water dan in koud water.",
+          "antwoord": true,
+          "uitleg": "Klopt. In warm water bewegen de deeltjes sneller, en dan gaat het oplossen vlotter. Er past ook méér suiker in."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je roert steeds meer suiker in een glas water tot er onderaan suiker blijft liggen. Wat is er aan de hand?",
+          "opties": [
+            "de oplossing is verzadigd: er kan geen suiker meer bij",
+            "de suiker is bedorven",
+            "het water is te warm",
+            "de suiker is veranderd in zand"
+          ],
+          "antwoord": 0,
+          "uitleg": "Elke vloeistof kan maar een bepaalde hoeveelheid van een stof opnemen. Warm je het water op, dan kan er weer meer bij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je lost 10 gram suiker op in 100 gram water. Hoeveel weegt het geheel?",
+          "opties": [
+            "110 gram",
+            "100 gram",
+            "10 gram",
+            "dat kan je niet weten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Niets gaat verloren bij het oplossen. De suiker is enkel te klein geworden om nog te zien."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze stoffen is zuur?",
+          "opties": [
+            "azijn",
+            "zeep",
+            "soda",
+            "keukenzout"
+          ],
+          "antwoord": 0,
+          "uitleg": "Azijn en citroensap zijn zuur. Zeep en soda zijn juist basisch, en zout is neutraal."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent een pH van 7?",
+          "opties": [
+            "de stof is neutraal, dus niet zuur en niet basisch",
+            "de stof is heel zuur",
+            "de stof is heel basisch",
+            "de stof is giftig"
+          ],
+          "antwoord": 0,
+          "uitleg": "Onder 7 is zuur, boven 7 is basisch. Zuiver water zit precies op 7."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor kan je sap van rode kool gebruiken in een proefje?",
+          "opties": [
+            "om te zien of een stof zuur of basisch is, want het verandert van kleur",
+            "om water te zuiveren",
+            "om ijzer uit zand te halen",
+            "om water sneller te laten koken"
+          ],
+          "antwoord": 0,
+          "uitleg": "In een zuur wordt het rood of roze, in een base groen of geel. Zo'n stof heet een indicator."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen ijs dat smelt en hout dat verbrandt?",
+          "opties": [
+            "smelten kan je terugdraaien, verbranden niet: daarbij ontstaan nieuwe stoffen",
+            "er is geen verschil",
+            "bij smelten ontstaan nieuwe stoffen",
+            "verbranden gaat altijd sneller"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij smelten blijft het dezelfde stof in een andere toestand. Bij verbranden verandert de stof zelf, en dat is onomkeerbaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat heb je altijd samen nodig om iets te laten branden?",
+          "opties": [
+            "brandstof, zuurstof en warmte",
+            "brandstof en water",
+            "zuurstof en koude",
+            "alleen een vlam"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat heet de branddriehoek. Neem je er één van weg, dan dooft het vuur."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom dooft een kaars onder een omgekeerd glas?",
+          "opties": [
+            "de zuurstof onder het glas raakt op",
+            "het wordt er te koud",
+            "de kaars wordt nat",
+            "het glas drukt de vlam plat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zonder zuurstof geen verbranding. Datzelfde doe je met een deksel op een brandende pan."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Brandend frituurvet blus je met water.",
+          "antwoord": false,
+          "uitleg": "Nooit doen. Het water wordt in een flits stoom en slingert het brandende vet in het rond. Leg er een deksel of een blusdeken op."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Uit hoeveel waterstofatomen bestaat één watermolecule? Antwoord met een getal.",
+          "antwoord": "2",
+          "uitleg": "Twee waterstofatomen en één zuurstofatoom. Daarom schrijven we water als H₂O."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een molecule?",
+          "opties": [
+            "een groepje atomen dat aan elkaar vastzit",
+            "een heel klein diertje",
+            "een soort mengsel",
+            "een andere naam voor een druppel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Atomen zijn de allerkleinste bouwstenen. Samen vormen ze moleculen, en daaruit bestaat alles om je heen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waaruit bestaat lucht vooral?",
+          "opties": [
+            "uit stikstof, ongeveer vier vijfde",
+            "uit zuurstof, bijna helemaal",
+            "uit koolstofdioxide",
+            "uit waterdamp"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ongeveer 78 % stikstof en 21 % zuurstof. Koolstofdioxide is er maar een heel klein deel van."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je zet een streepje viltstift op een strook filtreerpapier en hangt het puntje in water. Wat gebeurt er?",
+          "opties": [
+            "de kleur splitst zich in de verschillende kleurstoffen waaruit ze gemaakt is",
+            "de kleur verdwijnt helemaal",
+            "het papier wordt zwart",
+            "er gebeurt niets"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zwarte stift blijkt vaak uit blauw, rood en geel te bestaan. Zo scheid je kleurstoffen van elkaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom drijft olie op water?",
+          "opties": [
+            "omdat olie lichter is dan evenveel water",
+            "omdat olie warmer is",
+            "omdat olie geen gewicht heeft",
+            "omdat water olie wegduwt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een halve liter olie weegt minder dan een halve liter water. Wat lichter is voor hetzelfde volume, komt bovenaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Mayonaise is olie en water door elkaar, en toch scheidt het niet. Hoe komt dat?",
+          "opties": [
+            "het ei erin houdt de olie en het water aan elkaar",
+            "de olie lost op in het water",
+            "mayonaise bevat geen water",
+            "het is stevig geklopt en dat volstaat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het eigeel werkt als een bemiddelaar tussen beide. Zo'n mengsel heet een emulsie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe komt water uit de zee uiteindelijk als regen naar beneden?",
+          "opties": [
+            "het verdampt, condenseert hoog in de lucht tot wolken en valt dan als neerslag",
+            "het wordt door de wind opgetild",
+            "het stijgt op als ijs",
+            "het wordt door de zon naar boven gepompt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat is de waterkringloop. Het water op aarde is al miljarden jaren hetzelfde water."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zit er na een tijd een witte laag in je waterkoker?",
+          "opties": [
+            "het is kalk, die in het water zat en achterblijft als het verdampt",
+            "het is zout uit de lucht",
+            "het metaal lost op",
+            "het is schimmel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hetzelfde principe als zout uit zeewater halen: het water gaat weg, de opgeloste stof blijft."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Er bestaan stoffen die van vast rechtstreeks naar gas gaan, zonder eerst vloeibaar te worden.",
+          "antwoord": true,
+          "uitleg": "Klopt, dat heet sublimeren. Droogijs, dat is bevroren koolstofdioxide, doet dat. Vandaar die mist bij een podiumshow."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je vindt thuis een fles met een doodshoofd op het etiket. Wat doe je?",
+          "opties": [
+            "afblijven en het aan een volwassene vragen",
+            "eraan ruiken om te weten wat het is",
+            "een beetje uitgieten om te kijken",
+            "het mengen met water om het onschadelijk te maken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een doodshoofd betekent giftig. Verdunnen maakt het niet veilig, en ruiken al helemaal niet."
+        }
+      ]
+    },
+    {
+      "titel": "Natuurkunde: energie en krachten",
+      "niveau": "start",
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke kracht trekt alles naar de aarde toe?",
+          "opties": [
+            "wrijving",
+            "de zwaartekracht",
+            "magnetisme",
+            "veerkracht"
+          ],
+          "antwoord": 1,
+          "uitleg": "Daarom valt een bal naar beneden als je hem loslaat."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk van deze drie wordt aangetrokken door een magneet: hout, ijzer of glas?",
+          "antwoord": "ijzer",
+          "uitleg": "IJzer is magnetisch, hout en glas niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is wrijving?",
+          "opties": [
+            "een kracht die beweging afremt",
+            "een soort licht",
+            "een vorm van geluid",
+            "een eenheid van massa"
+          ],
+          "antwoord": 0,
+          "uitleg": "Door wrijving rolt een bal op gras trager uit dan op beton."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Zonne-energie, windenergie en waterkracht noem je samen:",
+          "opties": [
+            "fossiele brandstoffen",
+            "hernieuwbare energie",
+            "kernenergie",
+            "chemische stoffen"
+          ],
+          "antwoord": 1,
+          "uitleg": "Ze raken niet op, in tegenstelling tot steenkool of aardolie."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je voluit de eenheid van massa die je afkort als kg?",
+          "antwoord": "kilogram",
+          "uitleg": "Kilo betekent duizend, dus een kilogram is duizend gram."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom drijft een boot van staal, terwijl een spijker van staal zinkt?",
+          "opties": [
+            "door de vorm verplaatst de boot veel water",
+            "staal van boten is lichter",
+            "omdat de boot beweegt",
+            "omdat een boot verf heeft"
+          ],
+          "antwoord": 0,
+          "uitleg": "De holle vorm verplaatst genoeg water om de boot te dragen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de energie van stromend water die je met een turbine kan opvangen?",
+          "antwoord": "waterkracht",
+          "uitleg": "Waterkracht is een vorm van hernieuwbare energie."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een voorwerp valt sneller naar beneden als het zwaarder is.",
+          "antwoord": false,
+          "uitleg": "Zonder luchtweerstand vallen een veer en een steen even snel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor dient de rem op een fiets?",
+          "opties": [
+            "om wrijving te maken zodat je trager rijdt",
+            "om de fiets lichter te maken",
+            "om de band op te pompen",
+            "om licht te geven"
+          ],
+          "antwoord": 0,
+          "uitleg": "De remblokjes wrijven tegen de velg of de schijf."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke energie zet een zonnepaneel om?",
+          "opties": [
+            "licht naar elektriciteit",
+            "warmte naar geluid",
+            "wind naar warmte",
+            "water naar licht"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zonlicht wordt rechtstreeks omgezet in elektrische stroom."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Warme lucht stijgt op.",
+          "antwoord": true,
+          "uitleg": "Daarom werkt een heteluchtballon en is het warmer boven in een kamer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er met een metalen staaf die je verwarmt?",
+          "opties": [
+            "hij zet uit en wordt een beetje langer",
+            "hij wordt korter",
+            "hij verandert van kleur",
+            "er gebeurt niets"
+          ],
+          "antwoord": 0,
+          "uitleg": "Daarom zitten er voegen tussen de delen van een brug."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een kracht?",
+          "opties": [
+            "een duw of een trek",
+            "alles wat zwaar is",
+            "een soort energie",
+            "een snelheid"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je ziet een kracht nooit zelf, wel wat ze doet: iets gaat bewegen, stoppen, sneller gaan of van vorm veranderen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet de eenheid waarin je een kracht uitdrukt?",
+          "antwoord": "newton",
+          "uitleg": "Genoemd naar Isaac Newton. Je schrijft ze af als N."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een kracht kan ook de vorm van iets veranderen, zonder dat het beweegt.",
+          "antwoord": true,
+          "uitleg": "Klopt. Denk aan een spons die je indrukt of een elastiek dat je uitrekt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je gaat naar de maan. Wat gebeurt er met je massa en je gewicht?",
+          "opties": [
+            "je massa blijft gelijk, je gewicht wordt kleiner",
+            "allebei blijven ze gelijk",
+            "allebei worden ze kleiner",
+            "je massa wordt kleiner, je gewicht blijft gelijk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Er is op de maan ongeveer zes keer minder zwaartekracht. Je hebt er nog altijd evenveel materie in je lichaam, maar de weegschaal wijst minder aan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee ploegen trekken even hard aan hetzelfde touw, maar in tegengestelde richting. Wat gebeurt er?",
+          "opties": [
+            "er beweegt niets: de krachten houden elkaar in evenwicht",
+            "het touw breekt altijd",
+            "de zwaarste ploeg wint sowieso",
+            "het touw gaat vanzelf bewegen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Twee even grote krachten in tegengestelde richting heffen elkaar op. Zodra één ploeg harder trekt, komt er beweging."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het punt waarrond een hefboom draait?",
+          "antwoord": "steunpunt",
+          "uitleg": "Bij een wip is dat de as in het midden, bij een kruiwagen is het het wiel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom duw je bij een hefboom het best zo ver mogelijk van het steunpunt?",
+          "opties": [
+            "omdat je dan minder kracht nodig hebt",
+            "omdat het dan sneller gaat",
+            "omdat het steunpunt anders breekt",
+            "dat maakt geen verschil"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je wint kracht, maar je verliest afstand: je moet je kant veel verder naar beneden duwen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je hangt één katrol aan een balk en hijst er een kist mee op. Wat verandert er?",
+          "opties": [
+            "je trekt naar beneden in plaats van te tillen, maar de kracht blijft even groot",
+            "de kist wordt half zo zwaar",
+            "de kist wordt twee keer zo zwaar",
+            "je hebt helemaal geen kracht meer nodig"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eén vaste katrol verandert alleen de richting, en daar kan je je eigen gewicht bij inzetten. Pas met meerdere katrollen na elkaar heb je ook echt minder kracht nodig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom rol je een zware ton liever langs een plank omhoog dan hem recht op te tillen?",
+          "opties": [
+            "omdat je over die schuine weg minder kracht nodig hebt",
+            "omdat de ton dan lichter wordt",
+            "omdat het sneller gaat",
+            "omdat een plank sterker is dan je armen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een hellend vlak spaart kracht en kost afstand. Daarom slingert een bergweg heen en weer in plaats van recht omhoog te gaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe maak je de wrijving tussen twee delen kleiner?",
+          "opties": [
+            "smeren met olie, of er wieltjes onder zetten",
+            "ze harder tegen elkaar duwen",
+            "ze ruwer maken",
+            "ze opwarmen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Daarom zit er olie op een fietsketting. Een lager met kogeltjes doet hetzelfde: rollen gaat makkelijker dan schuiven."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Zonder wrijving zou je niet kunnen stappen.",
+          "antwoord": true,
+          "uitleg": "Klopt. Je voet duwt tegen de grond en de grond houdt hem tegen. Op glad ijs merk je meteen wat er gebeurt als die wrijving wegvalt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom valt iemand met een parachute veel trager naar beneden?",
+          "opties": [
+            "het grote doek vangt veel lucht en die luchtweerstand remt de val af",
+            "de parachute weegt bijna niets",
+            "er is boven de wolken minder zwaartekracht",
+            "de lucht duwt de parachute omhoog als een ballon"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hoe groter het oppervlak, hoe meer lucht je opzij moet duwen, en hoe trager je valt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom heeft een raceauto een gladde, gestroomlijnde vorm?",
+          "opties": [
+            "om zo weinig mogelijk luchtweerstand te hebben",
+            "om er sneller uit te zien",
+            "om lichter te zijn",
+            "om beter te remmen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een spitse vorm laat de lucht netjes langs zich glijden. Een vlakke voorkant duwt een muur lucht voor zich uit."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een steen voelt lichter aan onder water dan erboven.",
+          "antwoord": true,
+          "uitleg": "Klopt. Het water duwt van onderaf terug; dat heet de opwaartse kracht. De steen is niet lichter geworden, hij wordt alleen mee gedragen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zak je met sneeuwschoenen minder diep weg in de sneeuw?",
+          "opties": [
+            "je gewicht wordt over een veel groter oppervlak verdeeld",
+            "sneeuwschoenen zijn lichter dan gewone schoenen",
+            "je weegt minder met sneeuwschoenen aan",
+            "ze zijn warmer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hetzelfde gewicht op meer oppervlak geeft minder druk. Een naald doet net het omgekeerde: alle kracht op één piepklein puntje."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom vlieg je naar voor als de auto waarin je zit plots remt?",
+          "opties": [
+            "omdat je lichaam vanzelf verder wil bewegen aan dezelfde snelheid",
+            "omdat de auto je naar voor duwt",
+            "omdat je gewicht verandert",
+            "omdat de zwaartekracht dan naar voor werkt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat heet traagheid. Daarom draag je een gordel: die houdt je tegen wanneer de auto stopt en jij nog niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je laat een opgeblazen ballon los en hij schiet weg. Hoe komt dat?",
+          "opties": [
+            "de lucht spuit er achteraan uit en duwt de ballon de andere kant op",
+            "de ballon is lichter geworden",
+            "de lucht in de kamer duwt hem vooruit",
+            "de ballon wordt aangetrokken door de grond"
+          ],
+          "antwoord": 0,
+          "uitleg": "Duw je iets weg, dan duwt het even hard terug. Een raket werkt precies zo, ook in de lege ruimte."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe noem je de energie die een voorwerp heeft omdat het beweegt?",
+          "opties": [
+            "bewegingsenergie",
+            "warmte-energie",
+            "chemische energie",
+            "lichtenergie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hoe sneller en hoe zwaarder iets beweegt, hoe meer bewegingsenergie het heeft. Daarom is een botsing bij hoge snelheid zoveel erger."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een bal ligt bovenaan een helling. Welke energie zit daarin verstopt?",
+          "opties": [
+            "hoogte-energie, die bij het naar beneden rollen bewegingsenergie wordt",
+            "geen enkele, want hij ligt stil",
+            "warmte-energie",
+            "lichtenergie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Alles wat hoog ligt, heeft energie in voorraad. Een stuwmeer en een opgetrokken kerkgewicht werken op datzelfde idee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke energie zit er in je boterham?",
+          "opties": [
+            "chemische energie",
+            "elektrische energie",
+            "geluidsenergie",
+            "hoogte-energie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je lichaam zet die om in beweging en warmte. In benzine en in een batterij zit ook chemische energie."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Energie kan nooit verdwijnen, ze verandert alleen van vorm.",
+          "antwoord": true,
+          "uitleg": "Klopt. Een lamp maakt van elektriciteit licht en warmte; samen is dat precies evenveel energie als erin ging."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom wordt een gsm warm als je hem lang gebruikt?",
+          "opties": [
+            "bij elke omzetting van energie gaat er een deel als warmte weg",
+            "de batterij lekt",
+            "de lucht binnenin zet uit",
+            "hij staat te dicht bij je hand"
+          ],
+          "antwoord": 0,
+          "uitleg": "Geen enkel toestel zet alle energie om in wat je wil. Wat overblijft, voel je als warmte."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke drie worden fossiele brandstoffen genoemd?",
+          "opties": [
+            "steenkool, aardolie en aardgas",
+            "zon, wind en water",
+            "hout, stro en papier",
+            "waterstof, zuurstof en stikstof"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ze zijn miljoenen jaren geleden uit resten van planten en dieren ontstaan. Ze raken op, en bij het verbranden komt er koolstofdioxide vrij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bespaart thuis het meest energie?",
+          "opties": [
+            "de verwarming een graadje lager zetten en goed isoleren",
+            "de lichten een uur per dag uitdoen",
+            "korter televisie kijken",
+            "de gsm 's nachts niet opladen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Verwarmen is veruit de grootste post. Een goed geïsoleerd dak spaart meer dan al je lampjes samen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Warmte gaat altijd van het warme naar het koude voorwerp.",
+          "antwoord": true,
+          "uitleg": "Klopt. Je hand wordt niet koud door de ijsblok: de warmte van je hand gaat naar het ijs. Het voelt alleen alsof het omgekeerd is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op welke drie manieren kan warmte zich verplaatsen?",
+          "opties": [
+            "door geleiding, door stroming en door straling",
+            "alleen door lucht",
+            "alleen door aanraking",
+            "door geleiding en door geluid"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een metalen lepel in de soep is geleiding, warme lucht die opstijgt is stroming, en de warmte van de zon bereikt ons als straling, dwars door de lege ruimte."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom houdt een dikke winterjas je warm?",
+          "opties": [
+            "er zit veel stilstaande lucht in, en die laat warmte slecht door",
+            "de jas maakt zelf warmte",
+            "de jas trekt warmte van buiten aan",
+            "de stof is warm"
+          ],
+          "antwoord": 0,
+          "uitleg": "Stilstaande lucht is een prima isolator. Daarom werkt dat ook bij dubbel glas en bij de vacht van een dier."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je fietst 12 kilometer in 1 uur. Hoe reken je je snelheid uit?",
+          "opties": [
+            "de afstand delen door de tijd, dus 12 km per uur",
+            "de afstand maal de tijd",
+            "de tijd delen door de afstand",
+            "de afstand plus de tijd"
+          ],
+          "antwoord": 0,
+          "uitleg": "Snelheid is altijd afstand gedeeld door tijd. In 2 uur 12 km fietsen is dus 6 km per uur."
+        }
+      ]
+    },
+    {
+      "titel": "Natuurkunde: licht, geluid en elektriciteit",
+      "niveau": "start",
+      "vragen": [
+        {
+          "type": "waarofniet",
+          "vraag": "Licht gaat sneller dan geluid.",
+          "antwoord": true,
+          "uitleg": "Daarom zie je de bliksem voor je de donder hoort."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat heb je nodig om een lampje te laten branden?",
+          "opties": [
+            "een gesloten stroomkring met een stroombron",
+            "een open stroomkring",
+            "alleen een draad",
+            "alleen een schakelaar"
+          ],
+          "antwoord": 0,
+          "uitleg": "De stroom moet helemaal rond kunnen: van de batterij door het lampje en terug."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een isolator geleidt elektriciteit heel goed.",
+          "antwoord": false,
+          "uitleg": "Een isolator, zoals rubber of plastic, houdt de stroom juist tegen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Geluid kan zich niet verplaatsen in de ruimte, waar geen lucht is.",
+          "antwoord": true,
+          "uitleg": "Geluid heeft stof nodig om door te trillen, licht niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke lamp verbruikt het minst energie voor evenveel licht?",
+          "opties": [
+            "een gloeilamp",
+            "een halogeenlamp",
+            "een ledlamp",
+            "een olielamp"
+          ],
+          "antwoord": 2,
+          "uitleg": "Een led zet bijna alle energie om in licht in plaats van in warmte."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er met licht als het op een spiegel valt?",
+          "opties": [
+            "het wordt weerkaatst",
+            "het verdwijnt",
+            "het wordt warm",
+            "het gaat er dwars door"
+          ],
+          "antwoord": 0,
+          "uitleg": "Daarom zie je jezelf in een spiegel."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Hoe verder je van een geluidsbron staat, hoe zachter je het geluid hoort.",
+          "antwoord": true,
+          "uitleg": "Het geluid verspreidt zich over een groter gebied."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een geleider?",
+          "opties": [
+            "een materiaal waar stroom goed doorheen kan",
+            "een materiaal dat stroom tegenhoudt",
+            "een soort batterij",
+            "een lamp"
+          ],
+          "antwoord": 0,
+          "uitleg": "Koper is een goede geleider, daarom zitten er koperdraden in kabels."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe verplaatst licht zich?",
+          "opties": [
+            "in rechte lijnen",
+            "in golvende bochten",
+            "in kringen rond de bron",
+            "altijd naar beneden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Precies daarom krijg je een schaduw: het licht kan niet om een voorwerp heen buigen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze is een echte lichtbron?",
+          "opties": [
+            "de zon",
+            "de maan",
+            "een spiegel",
+            "een witte muur"
+          ],
+          "antwoord": 0,
+          "uitleg": "De maan, een spiegel en een muur maken zelf geen licht; ze kaatsen het licht van iets anders terug."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zie je jezelf wel in een spiegel en niet in een witte muur?",
+          "opties": [
+            "een spiegel is zo glad dat het licht netjes in dezelfde richting terugkaatst",
+            "een spiegel maakt zelf licht",
+            "een muur slikt al het licht op",
+            "een spiegel is doorzichtig"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een ruwe muur strooit het licht alle kanten op. Daarom zie je hem wel, maar zie je er geen beeld in."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je zet een rietje schuin in een glas water. Waarom lijkt het geknikt?",
+          "opties": [
+            "het licht verandert van richting als het van water naar lucht gaat",
+            "het rietje buigt echt door het water",
+            "het water vergroot het rietje",
+            "je ogen zien even onscherp"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat heet breking. Daarom lijkt een zwembad ook ondieper dan het is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er als wit licht door een prisma gaat?",
+          "opties": [
+            "het splitst in de kleuren van de regenboog",
+            "het wordt feller",
+            "het verdwijnt",
+            "het wordt zwart"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wit licht is een mengsel van alle kleuren. Regendruppels doen hetzelfde als een prisma, en dan zie je een regenboog."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom ziet gras er groen uit?",
+          "opties": [
+            "het kaatst het groene licht terug en slikt de andere kleuren op",
+            "het maakt zelf groen licht",
+            "er valt alleen groen licht op",
+            "groen is de kleur van alle planten van nature"
+          ],
+          "antwoord": 0,
+          "uitleg": "De kleur die je ziet, is net de kleur die een voorwerp niet houdt. Iets zwarts slikt bijna alles op, en wordt daarom warm in de zon."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Melkglas in een badkamerraam is:",
+          "opties": [
+            "doorschijnend: er komt licht door, maar je ziet er geen beeld door",
+            "doorzichtig",
+            "ondoorzichtig",
+            "spiegelend"
+          ],
+          "antwoord": 0,
+          "uitleg": "Doorzichtig is helder glas, ondoorzichtig is een muur. Doorschijnend zit daar netjes tussenin."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je staat met je hand voor een zaklamp. Wat gebeurt er met de schaduw als je je hand dichter bij de lamp brengt?",
+          "opties": [
+            "de schaduw wordt groter",
+            "de schaduw wordt kleiner",
+            "de schaduw verdwijnt",
+            "er verandert niets"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je hand houdt dan een breder deel van de lichtbundel tegen. Verder van de lamp wordt de schaduw weer kleiner en scherper."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor dient de lens in een vergrootglas of in een bril?",
+          "opties": [
+            "om lichtstralen te buigen zodat je scherper of groter ziet",
+            "om licht tegen te houden",
+            "om licht te maken",
+            "om kleuren te scheiden"
+          ],
+          "antwoord": 0,
+          "uitleg": "In je oog zit ook een lens. Werkt die niet helemaal goed, dan helpt een bril de stralen op de juiste plek samen te brengen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je mag met een verrekijker gerust even recht naar de zon kijken.",
+          "antwoord": false,
+          "uitleg": "Nooit doen. Een verrekijker of telescoop bundelt het zonlicht en kan je ogen in een seconde blijvend beschadigen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe snel gaat licht ongeveer?",
+          "opties": [
+            "300 000 kilometer per seconde",
+            "300 kilometer per uur",
+            "1 000 kilometer per seconde",
+            "even snel als geluid"
+          ],
+          "antwoord": 0,
+          "uitleg": "Licht van de zon doet er ongeveer acht minuten over om bij ons te raken. Niets gaat sneller dan licht."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe ontstaat geluid?",
+          "opties": [
+            "doordat iets trilt",
+            "doordat iets warm wordt",
+            "doordat iets licht geeft",
+            "doordat lucht stilstaat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Leg je hand op je keel terwijl je praat, dan voel je die trilling."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Geluid gaat sneller door water dan door lucht.",
+          "antwoord": true,
+          "uitleg": "Klopt, en door een vaste stof nog sneller. De deeltjes zitten daar dichter bij elkaar en geven de trilling vlotter door. Vroeger legde men het oor op de rails."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waardoor klinkt een toon hoog in plaats van laag?",
+          "opties": [
+            "doordat er sneller getrild wordt",
+            "doordat er harder getrild wordt",
+            "doordat het geluid van ver komt",
+            "doordat er meer lucht is"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een dun, kort en strak gespannen snaartje trilt snel en klinkt hoog. Een dikke, lange snaar trilt traag en klinkt laag."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In welke eenheid druk je uit hoe luid een geluid is?",
+          "antwoord": "decibel",
+          "uitleg": "Een gesprek zit rond 60 decibel, een drukke straat rond 80. Vanaf ongeveer 85 decibel wordt langdurig luisteren schadelijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een echo?",
+          "opties": [
+            "geluid dat terugkaatst tegen een muur of een rots en je even later opnieuw bereikt",
+            "geluid dat luider wordt",
+            "geluid dat door de lucht verdwijnt",
+            "twee mensen die tegelijk roepen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vleermuizen en dolfijnen gebruiken dat om te zien in het donker: ze roepen en luisteren naar wat terugkomt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je ziet de bliksem en telt zes seconden tot de donder. Hoe ver is het onweer ongeveer?",
+          "opties": [
+            "ongeveer 2 kilometer",
+            "ongeveer 6 kilometer",
+            "ongeveer 600 meter",
+            "ongeveer 20 kilometer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Geluid legt ongeveer een kilometer per drie seconden af. Zes seconden is dus ongeveer twee kilometer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom galmt het in een lege kamer en niet in een kamer vol meubels?",
+          "opties": [
+            "kale muren kaatsen het geluid terug, terwijl zachte spullen het opslorpen",
+            "in een lege kamer is meer lucht",
+            "meubels maken zelf geluid",
+            "een lege kamer is groter"
+          ],
+          "antwoord": 0,
+          "uitleg": "Daarom hangen er in een muziekstudio dikke doeken en schuimplaten aan de muur."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Muziek heel luid door een koptelefoon kan je gehoor blijvend beschadigen.",
+          "antwoord": true,
+          "uitleg": "Klopt, en dat herstelt niet. De haarcelletjes in je oor die kapot gaan, groeien niet terug. Draag oordopjes op een festival."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe maakt een trommel geluid?",
+          "opties": [
+            "het strakke vel trilt en brengt de lucht in trilling",
+            "de lucht binnenin wordt warm",
+            "het hout kraakt",
+            "de stokken maken het geluid"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een gitaar trilt de snaar, bij een fluit de luchtkolom. Elk instrument laat iets trillen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Stroom loopt alleen als de kring helemaal gesloten is.",
+          "antwoord": true,
+          "uitleg": "Klopt. Zit er ergens een onderbreking, dan gebeurt er niets. Een schakelaar is niets anders dan een onderbreking die je zelf kan maken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat heeft een batterij altijd?",
+          "opties": [
+            "een pluspool en een minpool",
+            "twee pluspolen",
+            "een schakelaar",
+            "een lampje"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zet je de batterij omgekeerd in een zaklamp, dan werkt ze meestal niet. Bij een ledje maakt de richting altijd uit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee lampjes staan na elkaar in dezelfde kring. Eén lampje gaat stuk. Wat gebeurt er?",
+          "opties": [
+            "het andere gaat ook uit, want de kring is onderbroken",
+            "het andere blijft gewoon branden",
+            "het andere gaat feller branden",
+            "de batterij ontploft"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat is een serieschakeling. In een parallelschakeling heeft elk lampje zijn eigen weg, en blijven de andere wel branden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een kortsluiting?",
+          "opties": [
+            "de stroom neemt een veel te korte weg en wordt daardoor veel te groot",
+            "de stroom valt weg",
+            "de draad is te kort",
+            "de batterij is leeg"
+          ],
+          "antwoord": 0,
+          "uitleg": "De draden worden dan gloeiend heet, en dat kan brand veroorzaken. Daarom zit er een zekering in."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet een zekering of een automaat in een elektrische installatie?",
+          "opties": [
+            "ze onderbreekt de stroom als die te groot wordt",
+            "ze maakt de stroom sterker",
+            "ze meet hoeveel je verbruikt",
+            "ze zorgt voor licht"
+          ],
+          "antwoord": 0,
+          "uitleg": "Beter dat een zekering doorslaat dan dat de draden in de muur beginnen te smeulen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Proefjes met elektriciteit doe je uitsluitend met een batterij, nooit met het stopcontact.",
+          "antwoord": true,
+          "uitleg": "Klopt. Uit het stopcontact komt 230 volt, en dat is levensgevaarlijk. Een batterij van 1,5 volt voel je niet eens."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In welke eenheid druk je elektrische spanning uit?",
+          "antwoord": "volt",
+          "uitleg": "Een gewone batterij geeft 1,5 volt, het stopcontact bij ons 230 volt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom vervangen we gloeilampen door ledlampen?",
+          "opties": [
+            "een led geeft evenveel licht met veel minder stroom",
+            "een led geeft feller licht",
+            "een led is goedkoper om te maken",
+            "een gloeilamp geeft geen wit licht"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een gloeilamp maakt van bijna alle stroom warmte en maar een klein beetje licht. Bij een led is dat net omgekeerd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe maak je een elektromagneet?",
+          "opties": [
+            "je wikkelt een draad rond een ijzeren staaf en laat er stroom door lopen",
+            "je wrijft ijzer op met een magneet",
+            "je verwarmt een stuk ijzer",
+            "je legt een batterij op een magneet"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het handige eraan: zet je de stroom af, dan is de magneet weg. Zo tilt een schroothoop-kraan auto's op en laat ze weer los."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er als je twee noordpolen van een magneet tegen elkaar houdt?",
+          "opties": [
+            "ze duwen elkaar weg",
+            "ze trekken elkaar aan",
+            "er gebeurt niets",
+            "ze worden warm"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gelijke polen stoten af, verschillende trekken aan. Een noordpool en een zuidpool klikken dus wel aan elkaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom wijst de naald van een kompas naar het noorden?",
+          "opties": [
+            "omdat de aarde zelf als een grote magneet werkt",
+            "omdat de naald naar de zon wijst",
+            "omdat het noorden hoger ligt",
+            "omdat de naald altijd naar de dichtste berg wijst"
+          ],
+          "antwoord": 0,
+          "uitleg": "De aarde heeft een magnetisch veld, en de naald richt zich daarin. Leg je een magneet naast je kompas, dan slaat het tilt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet de dynamo op een fiets?",
+          "opties": [
+            "hij zet beweging om in elektriciteit voor je licht",
+            "hij slaat stroom op in een batterij",
+            "hij maakt je fiets lichter",
+            "hij remt het wiel af tot stilstand"
+          ],
+          "antwoord": 0,
+          "uitleg": "In een windmolen en in een waterkrachtcentrale gebeurt hetzelfde, alleen veel groter. Beweging erin, stroom eruit."
+        }
+      ]
+    },
+    {
+      "titel": "Techniek: ontwerpen en maken",
+      "niveau": "start",
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de eerste stap als je iets wil ontwerpen?",
+          "opties": [
+            "meteen beginnen bouwen",
+            "eerst bekijken wat het probleem is en waaraan het moet voldoen",
+            "het resultaat tonen",
+            "opruimen"
+          ],
+          "antwoord": 1,
+          "uitleg": "Als je weet wat het moet kunnen, kan je pas een goed plan maken."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een tandwiel kan zijn beweging doorgeven aan een ander tandwiel.",
+          "antwoord": true,
+          "uitleg": "Zo werkt bijvoorbeeld de versnelling van een fiets."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor dient een hefboom?",
+          "opties": [
+            "om kleur te maken",
+            "om met minder kracht iets zwaars te tillen",
+            "om geluid te dempen",
+            "om licht te geven"
+          ],
+          "antwoord": 1,
+          "uitleg": "Een kruiwagen en een notenkraker zijn hefbomen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe noem je de tekening met maten die je maakt voor je iets bouwt?",
+          "opties": [
+            "een plan",
+            "een verslag",
+            "een gedicht",
+            "een factuur"
+          ],
+          "antwoord": 0,
+          "uitleg": "Op een plan staat hoe groot elk onderdeel moet zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk materiaal kies je het best voor een raam?",
+          "opties": [
+            "glas",
+            "stof",
+            "papier",
+            "rubber"
+          ],
+          "antwoord": 0,
+          "uitleg": "Glas is doorzichtig en houdt wind en regen tegen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij techniek test je je ontwerp en pas je het aan als het niet goed werkt.",
+          "antwoord": true,
+          "uitleg": "Verbeteren na het testen hoort bij het ontwerpen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet een schakelaar in een stroomkring?",
+          "opties": [
+            "hij maakt licht",
+            "hij opent of sluit de kring",
+            "hij meet de spanning",
+            "hij slaat stroom op"
+          ],
+          "antwoord": 1,
+          "uitleg": "Sluit je de kring, dan kan de stroom lopen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom draag je een veiligheidsbril als je zaagt of boort?",
+          "opties": [
+            "om beter te zien",
+            "om je ogen te beschermen tegen splinters",
+            "om het mooier te maken",
+            "om sneller te werken"
+          ],
+          "antwoord": 1,
+          "uitleg": "Kleine stukjes materiaal kunnen wegspringen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Materialen hergebruiken is beter voor het milieu dan alles weggooien.",
+          "antwoord": true,
+          "uitleg": "Je hebt dan minder nieuwe grondstoffen en minder afval."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor gebruik je een katrol?",
+          "opties": [
+            "om iets op te hijsen",
+            "om te tekenen",
+            "om te meten",
+            "om te verwarmen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Met een katrol til je een last makkelijker omhoog."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de laatste stap in een ontwerpproces?",
+          "opties": [
+            "evalueren: nagaan of het doet wat het moest doen",
+            "het probleem zoeken",
+            "materiaal kiezen",
+            "tekenen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je kijkt terug of je ontwerp aan de eisen voldoet, en wat beter kan."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een schroef houdt beter vast in hout dan een gladde nagel.",
+          "antwoord": true,
+          "uitleg": "De schroefdraad grijpt in het hout."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor dient een waterpas?",
+          "opties": [
+            "nagaan of iets recht ligt",
+            "de lengte meten",
+            "de temperatuur meten",
+            "het gewicht meten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het luchtbelletje staat in het midden als iets waterpas ligt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het onderdeel van een fiets dat de kracht van de pedalen naar het wiel brengt?",
+          "antwoord": "ketting",
+          "uitleg": "De ketting loopt over de tandwielen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom staan er driehoeken in een bouwkraan of een brug?",
+          "opties": [
+            "een driehoek is een heel stevige vorm",
+            "het staat mooi",
+            "het is goedkoper",
+            "het gaat sneller"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een driehoek kan niet vervormen zonder dat een zijde breekt of buigt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij het ontwerpen hou je ook rekening met wie het gaat gebruiken.",
+          "antwoord": true,
+          "uitleg": "Een kruk voor een kleuter ziet er anders uit dan een kruk voor een volwassene."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet een zekering in een elektrische installatie?",
+          "opties": [
+            "de stroom onderbreken als er te veel stroom loopt",
+            "de stroom versterken",
+            "licht geven",
+            "de stroom meten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zo voorkom je oververhitting en brand."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk gereedschap gebruik je om een gat in hout te maken?",
+          "opties": [
+            "een boor",
+            "een zaag",
+            "een hamer",
+            "een schaar"
+          ],
+          "antwoord": 0,
+          "uitleg": "Met een boor draai je een rond gat."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Recycleren betekent dat een materiaal opnieuw als grondstof gebruikt wordt.",
+          "antwoord": true,
+          "uitleg": "Van oud papier maakt men weer nieuw papier."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een prototype?",
+          "opties": [
+            "een eerste proefmodel om te testen",
+            "het eindproduct in de winkel",
+            "een handleiding",
+            "een tekening op ware grootte"
+          ],
+          "antwoord": 0,
+          "uitleg": "Met een prototype ontdek je wat werkt en wat niet, voor je het echt maakt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een programma van eisen?",
+          "opties": [
+            "de lijst met wat je ontwerp moet kunnen en waaraan het moet voldoen",
+            "de tekening met alle maten",
+            "het lijstje gereedschap dat je nodig hebt",
+            "de handleiding achteraf"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bijvoorbeeld: het moet 20 kg dragen, in een rugzak passen en niet meer dan 10 euro kosten. Achteraf kan je eraan aftoetsen of het gelukt is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen een schets en een technische tekening?",
+          "opties": [
+            "een schets maak je snel uit de hand, een technische tekening heeft juiste maten en schaal",
+            "een schets is met kleur",
+            "een technische tekening is altijd groter",
+            "er is geen verschil"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst schets je ideeën, en pas als je er één kiest, teken je het netjes uit met maten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op een tekening staat schaal 1:10. Wat betekent dat?",
+          "opties": [
+            "in het echt is alles tien keer groter dan op de tekening",
+            "in het echt is alles tien keer kleiner",
+            "de tekening is tien centimeter groot",
+            "er passen tien tekeningen op één blad"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een lijn van 3 cm op de tekening is dus 30 cm in het echt. Zo krijg je een heel huis op één blad."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Op een technische tekening zet je de maten meestal in millimeter.",
+          "antwoord": true,
+          "uitleg": "Klopt. Zo hoef je geen kommagetallen te gebruiken, en dat scheelt fouten: 1 250 mm leest duidelijker dan 1,25 m."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke verbinding kan je later weer losmaken zonder iets te breken?",
+          "opties": [
+            "een schroef of een bout",
+            "lijm",
+            "een lasnaad",
+            "een klinknagel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wil je iets ooit herstellen of recycleren, kies dan een losneembare verbinding. Gelijmd en gelast krijg je er niet meer uit."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het beslag waarmee een deur kan opendraaien?",
+          "antwoord": "scharnier",
+          "uitleg": "Een scharnier laat beweging in één richting toe en houdt de rest vast. Je vindt ze ook aan een bril en aan een laptop."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor gebruik je een winkelhaak?",
+          "opties": [
+            "om na te gaan of een hoek precies recht is",
+            "om een gat te boren",
+            "om te zien of iets horizontaal staat",
+            "om hout glad te maken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een waterpas zegt of iets horizontaal staat, een winkelhaak of een hoek 90 graden is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is een holle buis vaak steviger dan een even zware volle staaf?",
+          "opties": [
+            "het materiaal zit verder van het midden, en net daar telt het mee tegen buigen",
+            "een buis is altijd van beter materiaal",
+            "lucht binnenin maakt het sterker",
+            "een buis is zwaarder"
+          ],
+          "antwoord": 0,
+          "uitleg": "Daarom zijn fietsframes, steigers en kraanarmen uit buizen gemaakt in plaats van uit massieve staven."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een klein tandwiel drijft een groot tandwiel aan. Wat doet dat grote wiel?",
+          "opties": [
+            "het draait trager, maar met meer kracht",
+            "het draait sneller en met meer kracht",
+            "het draait even snel",
+            "het draait achteruit en even snel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zo werkt de versnelling van een fiets: op een lichte versnelling trap je sneller rond, maar heb je minder kracht nodig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom gebruikt een wasmachine een riem in plaats van een ketting?",
+          "opties": [
+            "een riem loopt stiller en soepeler",
+            "een riem is sterker",
+            "een riem kan niet stuk",
+            "een riem draait de andere richting uit"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een ketting kan meer kracht doorgeven en slipt niet, maar maakt lawaai en heeft olie nodig. Op een fiets is die keuze net omgekeerd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet een sensor in een machine?",
+          "opties": [
+            "hij meet iets, zoals licht, warmte of beweging, zodat het toestel kan reageren",
+            "hij levert de stroom",
+            "hij geeft de beweging door",
+            "hij maakt het toestel steviger"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een straatlantaarn met een lichtsensor gaat vanzelf aan als het donker wordt. Een deur met een bewegingssensor opent als jij eraan komt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een robot doet precies wat er in zijn programma staat, en niets anders.",
+          "antwoord": true,
+          "uitleg": "Klopt. Werkt een robot verkeerd, dan zit de fout bijna altijd in het programma of in wat de sensoren meten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe maakt een 3D-printer een voorwerp?",
+          "opties": [
+            "door laagje na laagje materiaal op elkaar te leggen",
+            "door uit een blok te snijden",
+            "door materiaal in een vorm te gieten",
+            "door stukken aan elkaar te lijmen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Daarom kan een 3D-printer vormen maken die je met zagen of frezen niet uit één stuk krijgt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je toestel gaat stuk. Wat is het best voor het milieu?",
+          "opties": [
+            "eerst proberen te herstellen",
+            "meteen een nieuw kopen",
+            "het in de gewone vuilnisbak gooien",
+            "het in de tuin bewaren"
+          ],
+          "antwoord": 0,
+          "uitleg": "In een nieuw toestel zitten opnieuw grondstoffen en energie. Herstellen spaart die allebei uit. In een repair café helpen ze je daarbij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar komen de grondstoffen voor een gsm vandaan?",
+          "opties": [
+            "uit mijnen, vaak ver weg en soms onder slechte werkomstandigheden",
+            "uit de fabriek zelf",
+            "uit gerecycleerd papier",
+            "die worden in een labo gemaakt uit lucht"
+          ],
+          "antwoord": 0,
+          "uitleg": "Metalen zoals koper, kobalt en goud moeten uit de grond gehaald worden. Daarom is een oude gsm inleveren zoveel waard."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent het dat een ontwerp ergonomisch is?",
+          "opties": [
+            "het is gemaakt naar de mens die het gebruikt, zodat het goed ligt en niet belast",
+            "het is heel licht",
+            "het is goedkoop gemaakt",
+            "het ziet er mooi uit"
+          ],
+          "antwoord": 0,
+          "uitleg": "Denk aan een schaar voor linkshandigen of een schroevendraaier met een dikke greep. Wie het gebruikt, bepaalt mee hoe het eruitziet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom maak je een prototype vaak uit karton of piepschuim?",
+          "opties": [
+            "omdat je er snel en goedkoop fouten mee ontdekt vóór je het echt bouwt",
+            "omdat karton sterker is",
+            "omdat het er mooier uitziet",
+            "omdat je het achteraf toch weggooit"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een fout ontdekken in karton kost tien minuten. Diezelfde fout in metaal kost je het hele werkstuk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je test je ontwerp en het werkt niet. Wat doe je?",
+          "opties": [
+            "nagaan wat er precies misloopt, dat aanpassen en opnieuw testen",
+            "helemaal opnieuw beginnen met een ander idee",
+            "het toch zo laten",
+            "het probleem kleiner maken door een eis te schrappen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zo hoort de ontwerpcyclus te lopen. Een test die mislukt, heeft je net iets geleerd wat je vooraf niet kon weten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De gebruiksaanwijzing van een toestel lees je pas als er iets misgaat.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Er staan vaak veiligheidsregels in die je vooraf moet kennen, en instellingen die je anders nooit zou vinden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bedoelt men met de levensduur van een product?",
+          "opties": [
+            "hoe lang het meegaat voor het stuk of onbruikbaar is",
+            "hoe lang het duurt om het te maken",
+            "hoe lang de garantie loopt",
+            "hoe lang het in de winkel staat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een product dat twee keer zo lang meegaat, is voor het milieu bijna twee keer zo goed. Daarom kijkt een ontwerper ook naar herstelbaarheid."
+        }
+      ]
+    },
+    {
+      "titel": "De aarde en de ruimte",
+      "niveau": "start",
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Waardoor is het bij ons afwisselend dag en nacht?",
+          "opties": [
+            "de aarde draait in 24 uur één keer rond haar as",
+            "de zon draait rond de aarde",
+            "de aarde draait rond de zon",
+            "de maan schuift voor de zon"
+          ],
+          "antwoord": 0,
+          "uitleg": "De kant die naar de zon gekeerd staat, heeft dag. Een hele draai duurt 24 uur, en dat is precies onze dag."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel dagen duurt één rondje van de aarde om de zon, afgerond? Antwoord met een getal.",
+          "antwoord": "365",
+          "uitleg": "Precies is het ongeveer 365 dagen en 6 uur. Die extra uren sparen we vier jaar op."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom bestaat er om de vier jaar een schrikkeljaar met 29 februari?",
+          "opties": [
+            "omdat een rondje om de zon ongeveer zes uur langer duurt dan 365 dagen",
+            "omdat februari anders te kort is",
+            "omdat de maan om de vier jaar extra draait",
+            "omdat de aarde om de vier jaar trager draait"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vier keer zes uur is samen één dag. Zonder die extra dag zou de kalender langzaam verschuiven ten opzichte van de seizoenen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waardoor hebben we seizoenen?",
+          "opties": [
+            "de as van de aarde staat scheef ten opzichte van haar baan om de zon",
+            "de aarde staat in de zomer dichter bij de zon",
+            "de zon wordt in de zomer heter",
+            "de maan houdt in de winter licht tegen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Door die scheve as valt het zonlicht in de zomer veel steiler op ons, en dus krachtiger. De afstand tot de zon heeft er nagenoeg niets mee te maken."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als het bij ons zomer is, is het in Australië winter.",
+          "antwoord": true,
+          "uitleg": "Klopt. Staat het noordelijk halfrond naar de zon gekeerd, dan staat het zuidelijke er juist van weg. Daar valt Kerstmis dus midden in de zomer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is het aan de evenaar veel warmer dan aan de polen?",
+          "opties": [
+            "aan de evenaar valt het zonlicht recht op de aarde, aan de polen heel schuin",
+            "de evenaar ligt dichter bij de zon",
+            "aan de polen is er minder lucht",
+            "aan de polen schijnt de zon nooit"
+          ],
+          "antwoord": 0,
+          "uitleg": "Schuin licht wordt over een veel groter stuk grond uitgesmeerd, en warmt dus veel minder op."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe kan je zelf merken dat de aarde een bol is?",
+          "opties": [
+            "een schip dat wegvaart, verdwijnt van onder naar boven achter de horizon",
+            "de horizon ligt altijd hoger dan jij",
+            "de zon komt elke dag op dezelfde plaats op",
+            "in de verte wordt alles kleiner"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je ziet eerst de romp verdwijnen en het laatst de mast. Op een vlakke aarde zou het schip gewoon steeds kleiner worden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de atmosfeer?",
+          "opties": [
+            "de laag lucht rond de aarde",
+            "de korst waarop we wonen",
+            "de baan van de aarde om de zon",
+            "het gebied tussen de aarde en de maan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ze levert de lucht die we ademen, houdt warmte vast en vangt de meeste brokstukken uit de ruimte op."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Zonder de zwaartekracht van de aarde zou onze lucht wegdrijven de ruimte in.",
+          "antwoord": true,
+          "uitleg": "Klopt. Diezelfde kracht houdt jou op de grond en de lucht bij de planeet. De maan is te licht en hield haar lucht niet vast."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar draait de maan omheen?",
+          "opties": [
+            "om de aarde",
+            "om de zon",
+            "om Mars",
+            "de maan staat stil"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een maan draait altijd om een planeet, en die planeet draait om een ster. De maan reist dus samen met ons om de zon mee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe lang doet de maan ongeveer over één rondje om de aarde?",
+          "opties": [
+            "ongeveer een maand",
+            "ongeveer een week",
+            "ongeveer een dag",
+            "ongeveer een jaar"
+          ],
+          "antwoord": 0,
+          "uitleg": "Daar komt het woord maand vandaan. Van volle maan tot volle maan duurt het ongeveer 29 dagen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De maan maakt zelf licht.",
+          "antwoord": false,
+          "uitleg": "Niet juist. De maan kaatst het licht van de zon terug. Zelf is ze een donkere, grijze bol van steen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom lijkt de maan de ene week een sikkel en de andere week rond?",
+          "opties": [
+            "je ziet telkens een ander deel van de verlichte helft, omdat de maan rond de aarde draait",
+            "de aarde werpt haar schaduw op de maan",
+            "de maan verandert echt van vorm",
+            "er schuiven wolken voor"
+          ],
+          "antwoord": 0,
+          "uitleg": "De zon verlicht altijd de helft van de maan. Alleen: vanaf de aarde kijk je er elke avond onder een andere hoek naar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er bij een zonsverduistering?",
+          "opties": [
+            "de maan schuift tussen de zon en de aarde",
+            "de aarde schuift tussen de zon en de maan",
+            "de zon gaat even uit",
+            "de aarde draait even de andere kant op"
+          ],
+          "antwoord": 0,
+          "uitleg": "De maan werpt dan een schaduw op een smalle strook van de aarde. Daar wordt het midden op de dag even schemerdonker."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er bij een maansverduistering?",
+          "opties": [
+            "de aarde schuift tussen de zon en de maan",
+            "de maan schuift voor de zon",
+            "de maan draait weg van de aarde",
+            "de maan komt niet op"
+          ],
+          "antwoord": 0,
+          "uitleg": "De maan komt in de schaduw van de aarde en kleurt koperrood, omdat alleen het rode licht er via onze atmosfeer nog bij raakt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat veroorzaakt eb en vloed aan zee?",
+          "opties": [
+            "vooral de aantrekkingskracht van de maan op het water",
+            "de wind",
+            "het smelten van poolijs",
+            "de draaiing van de zon"
+          ],
+          "antwoord": 0,
+          "uitleg": "De maan trekt aan het water van de oceanen. Daardoor komt het tweemaal per dag op en gaat het tweemaal per dag terug."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De voetstappen van de astronauten staan nog altijd op de maan.",
+          "antwoord": true,
+          "uitleg": "Klopt. Er is geen lucht en dus geen wind of regen die ze kan uitwissen. Daarom hoor je er ook niets: geluid heeft lucht nodig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de zon?",
+          "opties": [
+            "een ster",
+            "een planeet",
+            "een heel grote maan",
+            "een wolk van gas zonder licht"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een gewone ster, alleen veel dichterbij dan alle andere. Daarom lijkt ze zo groot en zijn de andere sterren maar puntjes."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel planeten telt ons zonnestelsel? Antwoord met een getal.",
+          "antwoord": "8",
+          "uitleg": "Acht. Pluto telde vroeger mee, maar geldt sinds 2006 als dwergplaneet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke planeet staat het dichtst bij de zon?",
+          "opties": [
+            "Mercurius",
+            "Venus",
+            "de aarde",
+            "Mars"
+          ],
+          "antwoord": 0,
+          "uitleg": "De volgorde is Mercurius, Venus, aarde, Mars, Jupiter, Saturnus, Uranus en Neptunus."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveelste planeet vanaf de zon is de aarde?",
+          "opties": [
+            "de derde",
+            "de eerste",
+            "de tweede",
+            "de vierde"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na Mercurius en Venus, en vlak voor Mars. Net ver genoeg van de zon om vloeibaar water te hebben."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke is de grootste planeet van ons zonnestelsel?",
+          "opties": [
+            "Jupiter",
+            "Saturnus",
+            "de aarde",
+            "Neptunus"
+          ],
+          "antwoord": 0,
+          "uitleg": "Er zouden meer dan duizend aardes in passen. Jupiter is wel een gasreus: er is geen vast oppervlak om op te staan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke planeet is bekend om haar brede ringen?",
+          "opties": [
+            "Saturnus",
+            "Mars",
+            "Venus",
+            "Mercurius"
+          ],
+          "antwoord": 0,
+          "uitleg": "Die ringen bestaan uit miljarden stukjes ijs en steen, van zandkorrel tot huis groot."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke planeet wordt de rode planeet genoemd?",
+          "antwoord": "Mars",
+          "uitleg": "De grond van Mars zit vol roestig ijzer, en daardoor ziet de planeet er roodbruin uit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke planeet is de heetste, ook al staat ze niet het dichtst bij de zon?",
+          "opties": [
+            "Venus",
+            "Mercurius",
+            "Mars",
+            "Jupiter"
+          ],
+          "antwoord": 0,
+          "uitleg": "Venus heeft een dikke deken van wolken die de warmte vasthoudt. Het wordt er meer dan 400 graden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat maakt de aarde bijzonder in ons zonnestelsel?",
+          "opties": [
+            "er is vloeibaar water en er is leven",
+            "ze is de grootste planeet",
+            "ze staat het dichtst bij de zon",
+            "ze heeft de meeste manen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Te dicht bij de zon en het water kookt weg, te ver en het bevriest. De aarde zit precies goed."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom vliegen de planeten niet weg van de zon?",
+          "opties": [
+            "de zwaartekracht van de zon houdt ze in hun baan",
+            "ze zitten aan elkaar vast",
+            "er is lucht in de ruimte die hen tegenhoudt",
+            "ze staan stil"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ze vallen eigenlijk voortdurend naar de zon toe, maar ze schuiven er tegelijk zo snel langs dat ze er netjes omheen blijven draaien."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een jaar duurt op elke planeet even lang.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Een jaar is één rondje om de zon. Op Mercurius duurt dat 88 aardse dagen, op Neptunus ruim 160 aardse jaren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen een planeet en een ster?",
+          "opties": [
+            "een ster maakt zelf licht, een planeet niet",
+            "een planeet is altijd groter",
+            "een ster staat stil en een planeet beweegt",
+            "er is geen verschil"
+          ],
+          "antwoord": 0,
+          "uitleg": "In een ster komt door kernreacties enorm veel energie vrij. Een planeet is koud en zichtbaar door weerkaatst sterrenlicht."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De sterren die je 's nachts ziet, zijn zonnen zoals de onze.",
+          "antwoord": true,
+          "uitleg": "Klopt. Sommige zijn veel groter dan onze zon. Ze lijken alleen maar puntjes omdat ze onvoorstelbaar ver weg staan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een sterrenbeeld?",
+          "opties": [
+            "een groepje sterren waarin mensen vroeger een figuur zagen",
+            "een groep sterren die echt bij elkaar horen",
+            "een foto van de sterrenhemel",
+            "een ster die van kleur verandert"
+          ],
+          "antwoord": 0,
+          "uitleg": "De sterren van één sterrenbeeld staan vaak helemaal niet bij elkaar: de ene is twee keer zo ver als de andere. Het is wat je vanaf de aarde ziet."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet het sterrenstelsel waarin ons zonnestelsel ligt?",
+          "antwoord": "Melkweg",
+          "uitleg": "Op een donkere nacht zie je hem als een vage lichtband: dat zijn miljarden sterren achter elkaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een lichtjaar?",
+          "opties": [
+            "de afstand die licht in één jaar aflegt",
+            "de tijd die licht nodig heeft om ons te bereiken",
+            "een jaar op een andere planeet",
+            "de tijd dat een ster licht geeft"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het is dus een afstand, geen tijd. Eén lichtjaar is ongeveer 9 500 miljard kilometer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zie je overdag geen sterren?",
+          "opties": [
+            "de lucht is dan te fel verlicht door de zon",
+            "de sterren gaan overdag uit",
+            "de sterren staan dan aan de andere kant",
+            "de wolken houden ze tegen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De sterren staan er gewoon nog. Het licht van de zon dat in onze atmosfeer verstrooit, overstemt ze alleen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor dient een telescoop?",
+          "opties": [
+            "om veel meer licht op te vangen, zodat je zwakke en verre dingen kan zien",
+            "om sterren dichterbij te halen",
+            "om licht te maken",
+            "om de zon veilig te bekijken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hoe groter de spiegel of de lens, hoe meer licht erop valt. Daarom staan de grootste telescopen op hoge bergen, boven de meeste lucht."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom heeft een raket zoveel kracht nodig om te vertrekken?",
+          "opties": [
+            "ze moet loskomen van de zwaartekracht van de aarde en dwars door de atmosfeer",
+            "de ruimte duwt haar terug",
+            "ze is gemaakt van heel zwaar metaal",
+            "de lucht in de ruimte is dik"
+          ],
+          "antwoord": 0,
+          "uitleg": "Daarom is bijna heel de raket brandstof, en valt ze onderweg in stukken uit elkaar zodra die leeg zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor gebruiken we satellieten?",
+          "opties": [
+            "voor gps, weersvoorspellingen, televisie en internet",
+            "alleen voor sterrenonderzoek",
+            "om de maan te verlichten",
+            "om de aarde te laten draaien"
+          ],
+          "antwoord": 0,
+          "uitleg": "Er draaien er duizenden rond de aarde. Je gps op de fiets werkt dankzij signalen van verschillende satellieten tegelijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het ISS?",
+          "opties": [
+            "een ruimtestation waar astronauten rond de aarde wonen en onderzoek doen",
+            "een raket",
+            "een telescoop op de maan",
+            "de naam van een satellietbaan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het draait ongeveer 400 kilometer boven ons en doet er anderhalf uur over om één keer rond de aarde te gaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zweven astronauten in een ruimtestation?",
+          "opties": [
+            "ze vallen voortdurend rond de aarde, samen met hun station",
+            "er is daar geen zwaartekracht meer",
+            "ze zijn er gewichtloos gemaakt",
+            "ze dragen speciale pakken die hen doen zweven"
+          ],
+          "antwoord": 0,
+          "uitleg": "Er is daar nog bijna evenveel zwaartekracht als op de grond. Omdat het station en de astronaut samen vallen, voelt het als zweven."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In welk jaar zette voor het eerst een mens voet op de maan?",
+          "antwoord": "1969",
+          "uitleg": "Op 20 juli 1969, met de missie Apollo 11. Sindsdien zijn er in totaal twaalf mensen op de maan geweest."
+        }
+      ]
+    }
+  ]
+}

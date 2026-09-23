@@ -3,8 +3,15 @@ import { notFound } from "next/navigation";
 import { requireBeheerder } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { Header } from "@/components/Header";
-import { bulkImportVragen, verwijderVraag, verwijderLeerstof } from "./actions";
+import {
+  bulkImportVragen,
+  verwijderVraag,
+  verwijderLeerstof,
+  verwijderLeerbundelBlok,
+  verplaatsLeerbundelBlok,
+} from "./actions";
 import { NieuwLeerstofForm } from "./NieuwLeerstofForm";
+import { NieuwLeerbundelForm } from "./NieuwLeerbundelForm";
 import { NieuwVraagForm } from "./NieuwVraagForm";
 
 const VOORBEELD_JSON = `[
@@ -70,6 +77,20 @@ export default async function BeheerVragenPage({
       if (v.afbeelding_pad.startsWith("http")) return { ...v, afbeeldingUrl: v.afbeelding_pad };
       const { data } = await supabase.storage.from("vraagafbeeldingen").createSignedUrl(v.afbeelding_pad, 3600);
       return { ...v, afbeeldingUrl: data?.signedUrl ?? null };
+    })
+  );
+
+  const { data: bundelRuw } = await supabase
+    .from("leerbundel")
+    .select("id, volgnummer, soort, tekst, afbeelding_pad")
+    .eq("hoofdstuk_id", hoofdstuk.id)
+    .order("volgnummer", { ascending: true });
+
+  const bundel = await Promise.all(
+    (bundelRuw ?? []).map(async (b) => {
+      if (!b.afbeelding_pad) return { ...b, afbeeldingUrl: null as string | null };
+      const { data } = await supabase.storage.from("leerbundel").createSignedUrl(b.afbeelding_pad, 3600);
+      return { ...b, afbeeldingUrl: data?.signedUrl ?? null };
     })
   );
 
@@ -173,10 +194,75 @@ export default async function BeheerVragenPage({
         </section>
 
         <section className="mt-8 rounded-xl border border-border bg-surface p-5">
-          <h2 className="font-display text-base font-semibold text-ink">Leerstof (theorie)</h2>
+          <h2 className="font-display text-base font-semibold text-ink">Leerbundel (met afbeeldingen)</h2>
           <p className="mt-2 text-sm text-ink-dim">
-            Leerbundeltjes die kinderen naast de oefeningen kunnen lezen — dezelfde toegang als de
-            oefenvragen van dit hoofdstuk.
+            Bouw hier de theorie op die het kind in het platform zelf leest, blokje per blokje:
+            een tussentitel, een stuk tekst, een weetje of een afbeelding. Met de pijltjes zet je
+            een blokje hoger of lager.
+          </p>
+
+          <ol className="mt-4 space-y-2">
+            {bundel.map((b, i) => (
+              <li key={b.id} className="rounded-lg border border-border px-3 py-2 text-sm">
+                <div className="flex items-start justify-between gap-3">
+                  <div className="min-w-0">
+                    <p className="text-xs uppercase tracking-wide text-ink-dim">{b.soort}</p>
+                    {b.afbeeldingUrl ? (
+                      /* eslint-disable-next-line @next/next/no-img-element */
+                      <img
+                        src={b.afbeeldingUrl}
+                        alt={b.tekst || "Afbeelding in de leerbundel"}
+                        className="mt-1 max-h-28 rounded-md border border-border"
+                      />
+                    ) : null}
+                    {b.tekst ? <p className="mt-1 whitespace-pre-line text-ink">{b.tekst}</p> : null}
+                  </div>
+                  <div className="flex shrink-0 items-center gap-2">
+                    <form action={verplaatsLeerbundelBlok}>
+                      <input type="hidden" name="id" value={b.id} />
+                      <input type="hidden" name="richting" value="omhoog" />
+                      <input type="hidden" name="vak_slug" value={vakSlug} />
+                      <input type="hidden" name="volgnummer" value={volgnummerStr} />
+                      <button type="submit" disabled={i === 0} className="text-xs text-ink-dim hover:text-ink disabled:opacity-30">
+                        &uarr;
+                      </button>
+                    </form>
+                    <form action={verplaatsLeerbundelBlok}>
+                      <input type="hidden" name="id" value={b.id} />
+                      <input type="hidden" name="richting" value="omlaag" />
+                      <input type="hidden" name="vak_slug" value={vakSlug} />
+                      <input type="hidden" name="volgnummer" value={volgnummerStr} />
+                      <button
+                        type="submit"
+                        disabled={i === bundel.length - 1}
+                        className="text-xs text-ink-dim hover:text-ink disabled:opacity-30"
+                      >
+                        &darr;
+                      </button>
+                    </form>
+                    <form action={verwijderLeerbundelBlok}>
+                      <input type="hidden" name="id" value={b.id} />
+                      <input type="hidden" name="vak_slug" value={vakSlug} />
+                      <input type="hidden" name="volgnummer" value={volgnummerStr} />
+                      <button type="submit" className="text-xs text-danger hover:underline">
+                        Verwijderen
+                      </button>
+                    </form>
+                  </div>
+                </div>
+              </li>
+            ))}
+            {!bundel.length && <li className="text-sm text-ink-dim">Nog geen leerbundel voor dit hoofdstuk.</li>}
+          </ol>
+
+          <NieuwLeerbundelForm hoofdstukId={hoofdstuk.id} vakSlug={vakSlug} volgnummer={volgnummerStr} />
+        </section>
+
+        <section className="mt-8 rounded-xl border border-border bg-surface p-5">
+          <h2 className="font-display text-base font-semibold text-ink">Bestanden om te downloaden</h2>
+          <p className="mt-2 text-sm text-ink-dim">
+            PDF&apos;s die kinderen naast de oefeningen kunnen lezen of afdrukken — dezelfde toegang
+            als de oefenvragen van dit hoofdstuk.
           </p>
 
           <ul className="mt-4 space-y-2">

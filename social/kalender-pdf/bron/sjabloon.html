@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<title>Social media kalender, 30 dagen</title>
+<style>
+  /*
+    Het blad waarop de kalender als pdf gedrukt wordt. Kleuren en fonts komen
+    van de website, zodat het document bij de rest hoort.
+  */
+  @font-face { font-family: "Nunito"; src: url(nunito.woff2) format("woff2"); font-weight: 200 1000; }
+  @font-face { font-family: "Caveat"; src: url(caveat.woff2) format("woff2"); font-weight: 700; }
+  @page { size: A4; margin: 17mm 16mm 16mm; }
+
+  :root {
+    --cream: #fbf6ea;
+    --ink: #2a2d26;
+    --ink-dim: #61675a;
+    --border: #e6e0d0;
+    --green: #2f4a22;
+    --green-mid: #5c7a45;
+    --sage: #8aa173;
+    --sage-soft: #dfe7d0;
+    --purple: #5e2d91;
+    --orange: #d96e25;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Nunito", sans-serif; color: var(--ink); background: var(--cream);
+    font-size: 10.5pt; line-height: 1.45;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+
+  h1 {
+    font-weight: 900; color: var(--green); font-size: 30pt; line-height: 1.05;
+    letter-spacing: -.02em; margin-bottom: 3mm;
+  }
+  h2 {
+    font-weight: 900; color: var(--green); font-size: 19pt; line-height: 1.1;
+    letter-spacing: -.015em; margin: 0 0 4mm; padding-bottom: 2.5mm;
+    border-bottom: .6mm solid var(--sage-soft);
+    break-before: page; break-after: avoid;
+  }
+  h2.eerste { break-before: auto; }
+  h3 {
+    font-weight: 900; color: var(--green-mid); font-size: 12.5pt; line-height: 1.2;
+    margin: 6mm 0 1.6mm; break-after: avoid;
+  }
+
+  p { margin: 0 0 2.6mm; }
+  p.beeld { color: var(--ink-dim); font-size: 9.4pt; font-weight: 600; margin-bottom: 2mm; }
+  b { font-weight: 800; color: var(--green); }
+  a { color: var(--purple); text-decoration: none; word-break: break-all; }
+
+  ul { margin: 0 0 3mm 0; padding-left: 5mm; }
+  li { margin-bottom: 1.4mm; }
+  ul.vakjes { list-style: none; padding-left: 0; }
+  ul.vakjes li { margin-bottom: 2mm; }
+
+  blockquote {
+    background: #fff; border: .25mm solid var(--border); border-left: 1.2mm solid var(--green-mid);
+    border-radius: 3mm; padding: 3.4mm 4mm 1.4mm; margin: 0 0 3.5mm;
+    break-inside: avoid;
+  }
+  blockquote p { margin-bottom: 2mm; font-size: 10.5pt; }
+  blockquote p:last-child { margin-bottom: 0; }
+
+  table { width: 100%; border-collapse: collapse; margin: 0 0 4mm; font-size: 9.2pt; }
+  th {
+    text-align: left; background: var(--green); color: #fff; font-weight: 800;
+    padding: 2mm 2.6mm;
+  }
+  th:first-child { border-radius: 2mm 0 0 0; }
+  th:last-child { border-radius: 0 2mm 0 0; }
+  td { padding: 1.8mm 2.6mm; border-bottom: .25mm solid var(--border); vertical-align: top; }
+  tbody tr:nth-child(even) td { background: rgba(255,255,255,.65); }
+
+  /* de kop van het document */
+  .voorblad { margin-bottom: 7mm; }
+  .voorblad .hand { font-family: "Caveat"; font-size: 17pt; color: var(--orange); line-height: 1; }
+  .voorblad img { height: 22mm; display: block; margin-bottom: 4mm; }
+</style>
+</head>
+<body>
+
+  <header class="voorblad">
+    <img src="logo-kim-transparant.png" alt="connectopia.one vzw">
+    <div class="hand">Voor Melissa, om in te plannen</div>
+  </header>
+
+<!--INHOUD-->
+
+</body>
+</html>

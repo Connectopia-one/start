@@ -4,6 +4,12 @@ Een online oefenplatform waar kinderen interactief kunnen oefenen op de leerstof
 examencommissie — per vak opgedeeld in hoofdstukken met meerkeuzevragen, waar/niet-waar-vragen
 en invuloefeningen.
 
+**Het gratis proefhoofdstuk.** `Hoofdstuk 1 — Spelling: voorbeeld` van Nederlands is wat
+iemand zonder account te zien krijgt, en dus het enige waarop iemand beslist of dit
+platform iets voor hen is. Het heeft daarom een eigen, uitgebreidere leerbundel
+(`inhoud/leerbundels/nederlands/spelling.pdf`) en een langere reeks vragen
+(`inhoud/start/nederlands-spelling.json`).
+
 **Toegangsmodel:**
 - Van elk vak is het **eerste hoofdstuk van elke categorie** (🌱 Start, ✨ Spark, 🚀 Boost, 🌍
   Beyond) gratis te proberen, voor iedereen — ook zonder account. Dit gebeurt automatisch: het
@@ -11,9 +17,16 @@ en invuloefeningen.
   bulk-import) wordt vanzelf op gratis gezet. Nadien kan je dit altijd handmatig aanpassen via de
   "Gratis / Op slot"-knop op `/beheer/vakken`.
 - Kinderen van de **externe plusklas** hebben gratis **volledige** toegang (via een toegangscode
-  bij registratie).
-- Andere ouders kunnen **volledige toegang vrijgeven voor €50 per schooljaar** (via Mollie,
-  betaald per schooljaar opnieuw) — die opbrengsten gaan volledig naar vzw Connectopia.
+  bij registratie). Wie dat veld bij het registreren leeg liet, kan de code **achteraf alsnog
+  ingeven** op `/betalen` — daar staan de twee wegen naar volledige toegang naast elkaar: de
+  plusklas-code of de bijdrage. Hoofdletters maken bij het intikken niet uit.
+- Andere ouders kunnen **volledige toegang vrijgeven** (via Mollie, betaald per schooljaar
+  opnieuw) — die opbrengsten gaan volledig naar vzw Connectopia. De prijs staat nu tijdelijk op
+  **€20 in plaats van €50**, omdat het platform nog in opbouw is.
+
+**De prijs aanpassen** doe je op één plek: `lib/prijs.ts`. Daar staan het bedrag van nu, het
+bedrag waar we naartoe gaan, en de schakelaar `TIJDELIJKE_PRIJS`. Zet die op `false` zodra de
+gewone prijs ingaat; dan verdwijnt overal vanzelf het zinnetje over de tijdelijke prijs.
 
 Dit is een volledig apart platform/project, los van het ouderportaal (`ouderportaal/`) — met een
 eigen Supabase-project en een eigen login-systeem waarop ouders zichzelf kunnen registreren.
@@ -54,6 +67,14 @@ Een vak zoals "Wiskunde" kan best hoofdstukken in meerdere categorieën hebben.
 3. Onder **Authentication → Providers**, zorg dat e-mail/wachtwoord aan staat (standaard aan).
    Onder **Authentication → Settings** kan je kiezen of je e-mailbevestiging wil vereisen bij
    registratie (standaard aan — ouders krijgen dan een bevestigingsmail).
+
+### 1b. Leerbundels aanzetten (bestaande projecten)
+
+Draaide je project al voor de leerbundels bestonden? Open dan opnieuw de
+**SQL Editor**, plak de inhoud van [`supabase/leerbundel.sql`](./supabase/leerbundel.sql)
+en klik **Run**. Dat maakt de tabel en de opslagmap aan waarin je per hoofdstuk
+theorie met afbeeldingen opbouwt. Wie het schema van nul af installeert, heeft
+dit al mee en moet niets extra doen.
 
 ### 2. Mollie-account aanmaken
 
@@ -105,19 +126,44 @@ of test de betaalflow pas na het online zetten op Vercel.
 Log in op `/beheer` met je beheerdersaccount:
 
 - **Vakken beheren**: vakken en hoofdstukken toevoegen, per hoofdstuk instellen of het gratis is.
+  Onder elke vaknaam staat **"Naam aanpassen"**, voor als er een typfout in geslopen is. Het
+  webadres van het vak volgt de nieuwe naam, tenzij je de slug ooit zelf anders zette.
+  Onder elk hoofdstuk staat **"Titel aanpassen"**, voor als er een typfout in de
+  hoofdstuktitel staat. Het webadres van een hoofdstuk is zijn volgnummer, dus dat
+  blijft gewoon werken. Let wel: de bulk-import hieronder zoekt een hoofdstuk op
+  zijn titel, dus importeer eerst en hernoem daarna.
 - Klik op een hoofdstuk om **vragen** toe te voegen — één voor één via het formulier, of in bulk
   door een JSON-lijst te plakken (handig als je vragen al voorbereidde met DeepSeek/Gemini — het
-  gewenste formaat staat op die pagina).
+  gewenste formaat staat op die pagina). Dat veld verwacht een kale lijst van vragen, maar neemt
+  ook een bestand aan in de vorm `{"hoofdstukken": [...]}` van de vak-import hieronder, zolang er
+  maar één hoofdstuk in staat — die twee velden zijn anders makkelijk te verwisselen.
 - Bij een vraag kan je optioneel een **afbeelding** toevoegen (bv. een figuur bij een
   meetkundevraag) — via het formulier upload je een bestand rechtstreeks; via bulk-import geef je
   een externe URL op (`afbeelding_url`).
 - Op `/beheer/vakken`, onder elk vak: **"Bulk-import: meerdere hoofdstukken tegelijk (JSON)"** —
   plak in één keer hoofdstukken mét hun vragen voor een heel vak (bv. op basis van een vakfiche).
   Een hoofdstuktitel die al bestaat krijgt de vragen erbij; een nieuwe titel wordt automatisch
-  aangemaakt als hoofdstuk.
+  aangemaakt als hoofdstuk, op het eerste volgnummer dat nog vrij is.
+  Is een hoofdstuk **verouderd**, vink dan **"Bestaande vragen vervangen"** aan: de oude vragen
+  gaan weg en alleen die uit je bestand blijven over. Het hoofdstuk houdt zijn plek, zijn
+  webadres en zijn leerbundel, dus je hoeft het niet te verwijderen — verwijderen neemt de
+  leerbundel, de stickers en de voortgang mee. Wat je wél verliest bij vervangen: de antwoorden
+  die kinderen op die oude vragen gaven.
 - Op diezelfde pagina, onder **"Leerstof (theorie)"**: upload een PDF-leerbundel voor dat
   hoofdstuk. Kinderen zien die op een apart tabblad ("Leerstof") naast de oefeningen — met
   dezelfde toegang (gratis hoofdstuk = voor iedereen, anders volledige toegang nodig).
+- Op **`/beheer/leerstof`**: alle pdf's van een heel vak in één keer uploaden. Je kiest het vak
+  en de categorie, selecteert alle bestanden tegelijk, en de pagina zoekt bij elke bestandsnaam
+  zelf het best passende hoofdstuk (op basis van de woorden in de naam). Je kan die koppeling en
+  de titel per bestand nog aanpassen voor je op uploaden klikt. Noem een bestand naar zijn
+  hoofdstuk, bv. `getallenkennis.pdf`, dan klopt de gok bijna altijd.
+  Passen er twee hoofdstukken even goed — bijvoorbeeld dezelfde titel in 🌱 Start en ✨ Spark —
+  dan kiest de pagina bewust niets, zodat je zelf beslist. Kies je vooraf de categorie, dan komt
+  die situatie niet voor.
+  Staat er bij dat hoofdstuk **al een bundel**, dan zegt de pagina dat en vervangt ze de oude
+  door de nieuwe — vink dat uit als je ze allebei wil laten staan. Onderaan staat ook een
+  overzicht van alles wat er nu bij het gekozen vak staat, met per bundel een knop
+  **"Weghalen"**, voor een verouderde bundel die geen vervanger krijgt.
 - Per vak kan je een tabblad **"Rekenmachine"** aan- of uitzetten (bv. aan voor Wiskunde,
   Natuurwetenschappen, Fysica, Chemie; uit voor Nederlands) — met de officiële GeoGebra-
   rekenmachine ingebouwd (grafieken, meetkunde, berekeningen), zoals bij de examencommissie. Zet
@@ -144,6 +190,76 @@ voor wie de score bijgehouden wordt; bij één kind gebeurt dit automatisch.
 Elke beantwoorde vraag wordt bewaard (ook bij herkansen) — zo blijft de volledige geschiedenis
 zichtbaar, niet enkel de laatste poging. Zonder ingelogd account (bv. bij het gratis
 proefhoofdstuk als bezoeker) wordt niets bijgehouden.
+
+## Opvolgfiche plusklas (`/begeleiding`)
+
+Een achterliggende fiche per kind van de externe plusklas, om bij de hand te hebben op een
+oudercontact. Enkel jij en de begeleiders zien die; **ouders en kinderen zien er niets van, ook
+niet hun eigen fiche**. Dat is met opzet: een begeleider moet vrijuit kunnen noteren, en jij
+beslist zelf wat je op een oudercontact toont.
+
+Op de fiche staat per kind:
+
+- de **voortgang** per vak en per hoofdstuk, met score en wanneer er laatst geoefend werd, plus
+  de verdiende stickers;
+- **opmerkingen** die jullie er met de hand bij schrijven, met een datum, een soort (opmerking,
+  afspraak, of iets voor het oudercontact) en de naam van wie het schreef;
+- **werk van thuis**: pdf's of foto's van oefeningen die het kind thuis maakte.
+
+Alleen kinderen van een gezin dat met een **plusklascode** registreerde (`is_plusklas`) krijgen
+een fiche — ook voor jou als beheerder. Van andere gezinnen kan een begeleider niets zien.
+
+Vanaf de fiche kan je ook de **opgeloste testen** openen (`/begeleiding/[kind]/testen`): elke
+vraag die het kind maakte, met het antwoord dat het gaf, en bij een fout antwoord ook het juiste.
+Klik je op een hoofdstuk in de voortgangstabel, dan krijg je enkel dat hoofdstuk
+(`?hoofdstuk=...`); via de link bovenaan krijg je alles achter elkaar in één document. Er staat
+telkens het antwoord van de laatste poging bij, en hoeveel keer een vraag geprobeerd werd.
+
+Naast elk hoofdstuk staat **pdf**: dat maakt van die ene test meteen een pdf-bestand dat je
+downloadt en bewaart zoals een leerbundel. Die pdf wordt op de server getekend met `pdf-lib`
+(`lib/testpdf.ts`), dus zonder browser — licht genoeg om gewoon op Vercel te draaien. Twee
+gevolgen: de tekeningetjes bij een breukvraag staan er niet in (daar komt een korte omschrijving
+tussen haakjes), en emoji vallen weg, want het lettertype kent ze niet. De lettertypes staan in
+`lettertypes/` (DejaVu Sans, vrij te gebruiken, licentie erbij) en worden via
+`outputFileTracingIncludes` in `next.config.ts` mee uitgerold.
+
+De fiche en die testenpagina zijn ook gemaakt om af te drukken: de menubalk, de invulvelden en de
+verwijderknoppen vallen weg op papier. Gebruik Afdrukken in je browser en kies "Opslaan als pdf".
+Wil je zo'n pdf vastzetten in de tijd — bijvoorbeeld de stand van zaken op de dag van het
+oudercontact — laad hem dan op bij **Werk van thuis**; de testenpagina zelf toont altijd de
+huidige toestand.
+
+**Eenmalig**: voer `supabase/plusklasfiche.sql` één keer uit in de SQL Editor van je
+Supabase-project. Dat maakt de rol `begeleider`, de twee tabellen en de opslagmap `kinddossier`
+aan. Die map staat **niet** op publiek, anders dan die van Handig materiaal: het platform maakt
+telkens een tijdelijke link aan om een document te openen.
+
+Wie begeleider is, stel je in op `/beheer/begeleiders`. Beheerders maken of afzetten kan daar
+bewust niet — dat blijft iets voor de SQL Editor, zodat niemand zichzelf buitensluit.
+
+## Handig materiaal (`/materiaal`)
+
+Onder de vier niveaus op de startpagina staat een aparte knop **Handig materiaal**. Die leidt naar
+een gratis pagina met links en documenten: vakfiches, een interactieve periodieke tabel,
+oefensites, enzovoort. Er is geen account voor nodig en ze staat los van het betalende aanbod.
+
+Je beheert die pagina op **`/beheer/materiaal`**, net zoals je op het ouderportaal lesmateriaal bij
+een klasje zet. Per item geef je:
+
+- een **titel**;
+- een **link** (begint met `https://`) of een **pdf** die je uploadt;
+- de **kop** waaronder het komt te staan — kies er een uit de lijst of typ een nieuwe, die
+  verschijnt dan vanzelf op de pagina;
+- eventueel een **omschrijving** van één zin.
+
+Verwijderen kan in hetzelfde overzicht. Bij een pdf gaat het bestand dan ook uit de opslag.
+
+De koppen staan op de pagina in de volgorde waarin je de eerste link van die kop toevoegde. De
+vaste teksten van de pagina (inleiding, de nota onderaan, de knop "Een link doorgeven") staan in
+`inhoud/materiaal.ts`, samen met de voorgestelde koppen.
+
+**Eenmalig**: voer `supabase/materiaal.sql` één keer uit in de SQL Editor van je Supabase-project.
+Dat maakt de tabel `public.materiaal` en de opslagmap voor de pdf's aan.
 
 ## Vraagtypes
 

@@ -51,14 +51,15 @@ alter table public.vakken add column if not exists rekenmachine boolean not null
 -- niveau: gebaseerd op de vakfiches van het Belgisch onderwijs, maar bedoeld
 -- als KUNNEN-categorie, niet als vaste leeftijds-/leerjaarindeling:
 --   start = 5de/6de leerjaar, spark = 1ste/2de middelbaar,
---   boost = 3de/4de middelbaar, beyond = 5de/6de middelbaar.
+--   boost = 3de/4de middelbaar, beyond = 5de/6de middelbaar,
+--   basis = herhaling van de bouwstenen, voor elk niveau (zie basis.sql).
 create table if not exists public.hoofdstukken (
   id uuid primary key default gen_random_uuid(),
   vak_id uuid not null references public.vakken(id) on delete cascade,
   titel text not null,
   volgnummer int not null default 0,
   gratis boolean not null default false,
-  niveau text not null default 'start' check (niveau in ('start', 'spark', 'boost', 'beyond')),
+  niveau text not null default 'start' check (niveau in ('basis', 'start', 'spark', 'boost', 'beyond')),
   created_at timestamptz not null default now(),
   unique (vak_id, volgnummer)
 );
@@ -71,7 +72,7 @@ begin
     select 1 from pg_constraint where conname = 'hoofdstukken_niveau_check'
   ) then
     alter table public.hoofdstukken add constraint hoofdstukken_niveau_check
-      check (niveau in ('start', 'spark', 'boost', 'beyond'));
+      check (niveau in ('basis', 'start', 'spark', 'boost', 'beyond'));
   end if;
 end $$;
 
@@ -716,3 +717,67 @@ select h.id, 3, 'invultekst', 'De SI-eenheid van kracht is de ___', null, '"newt
 from public.hoofdstukken h join public.vakken v on v.id = h.vak_id
 where v.slug = 'natuurwetenschappen' and h.volgnummer = 4
 on conflict (hoofdstuk_id, volgnummer) do nothing;
+
+
+-- Leerbundels (theorie met afbeeldingen). Staat ook apart in
+-- supabase/leerbundel.sql, voor projecten die al draaien.
+-- aan als het nog niet bestaat".
+
+create table if not exists public.leerbundel (
+  id uuid primary key default gen_random_uuid(),
+  hoofdstuk_id uuid not null references public.hoofdstukken(id) on delete cascade,
+  volgnummer int not null default 1,
+  soort text not null check (soort in ('titel', 'tekst', 'weetje', 'afbeelding')),
+  -- tekst is de inhoud bij een titel, tekst of weetje, en het onderschrift bij
+  -- een afbeelding (daar mag het leeg blijven).
+  tekst text,
+  afbeelding_pad text,
+  created_at timestamptz not null default now()
+);
+
+create index if not exists leerbundel_hoofdstuk_idx
+  on public.leerbundel (hoofdstuk_id, volgnummer);
+
+alter table public.leerbundel enable row level security;
+
+-- Zelfde toegang als de oefenvragen: een gratis hoofdstuk mag iedereen lezen,
+-- de rest enkel wie volledige toegang heeft.
+drop policy if exists "leerbundel lezen" on public.leerbundel;
+create policy "leerbundel lezen" on public.leerbundel for select
+  using (
+    exists (
+      select 1 from public.hoofdstukken h
+      where h.id = leerbundel.hoofdstuk_id and h.gratis = true
+    )
+    or public.heeft_toegang(auth.uid())
+  );
+
+drop policy if exists "beheerder leerbundel beheer" on public.leerbundel;
+create policy "beheerder leerbundel beheer" on public.leerbundel for all
+  using (public.is_beheerder()) with check (public.is_beheerder());
+
+-- De afbeeldingen zelf, in een eigen bucket met dezelfde regels.
+insert into storage.buckets (id, name, public)
+values ('leerbundel', 'leerbundel', false)
+on conflict (id) do nothing;
+
+drop policy if exists "leerbundel lezen storage" on storage.objects;
+create policy "leerbundel lezen storage" on storage.objects for select
+  using (
+    bucket_id = 'leerbundel' and (
+      public.is_beheerder() or exists (
+        select 1 from public.leerbundel b
+        join public.hoofdstukken h on h.id = b.hoofdstuk_id
+        where b.afbeelding_pad = storage.objects.name
+          and (h.gratis = true or public.heeft_toegang(auth.uid()))
+      )
+    )
+  );
+
+drop policy if exists "leerbundel schrijven" on storage.objects;
+create policy "leerbundel schrijven" on storage.objects for insert
+  with check (bucket_id = 'leerbundel' and public.is_beheerder());
+
+drop policy if exists "leerbundel verwijderen" on storage.objects;
+create policy "leerbundel verwijderen" on storage.objects for delete
+  using (bucket_id = 'leerbundel' and public.is_beheerder());

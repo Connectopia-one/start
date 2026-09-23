@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<title>Herfstkampen Connectopia</title>
+<link rel="stylesheet" href="stijl.css">
+<style>
+  /* de kop van deze flyer is hoger dan bij de flyer voor professionals */
+  .hero { height: 26mm; }
+
+  .kop { padding-top: 1.5mm; }
+
+  .wanneer { padding: 3mm 11mm 0; display: grid; grid-template-columns: 1fr 1fr; gap: 2.8mm; }
+  .datum {
+    border-radius: 16px; background: #fff; border: .3mm solid var(--border);
+    padding: 2.4mm 3mm 2.8mm; position: relative; overflow: hidden;
+  }
+  .datum::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 1.6mm; }
+  .datum.oranje::before { background: var(--orange); }
+  .datum.blauw::before { background: var(--blue); }
+  .datum .plaats {
+    font-weight: 900; font-size: 8pt; letter-spacing: .1em; text-transform: uppercase;
+  }
+  .datum.oranje .plaats { color: var(--orange); }
+  .datum.blauw .plaats { color: var(--blue); }
+  .datum .dagen { font-weight: 900; font-size: 12.5pt; color: var(--green); line-height: 1.1; margin-top: .6mm; }
+  .datum .thema {
+    margin-top: 1.4mm; font-weight: 800; font-size: 8.4pt; line-height: 1.2; color: var(--ink);
+  }
+  .datum .waar { margin-top: 1.4mm; padding-top: 1.2mm; border-top: .25mm dashed var(--border); font-size: 7.8pt; font-weight: 700; color: var(--ink); }
+  .datum .waar span { display: block; color: var(--ink-dim); font-weight: 600; }
+
+  .doen { padding: 2.4mm 11mm 0; }
+  .doen ul { list-style: none; margin-top: 1.8mm; display: flex; flex-direction: column; gap: 1.1mm; }
+  .doen li { position: relative; padding-left: 5mm; font-size: 8.2pt; line-height: 1.35; font-weight: 600; color: var(--ink-dim); }
+  .doen li b { color: var(--ink); font-weight: 800; }
+  .doen li::before {
+    content: ""; position: absolute; left: 0; top: 1.1mm;
+    width: 2.4mm; height: 2.4mm; border-radius: 50%; background: var(--sage);
+  }
+
+  /* de strook die zegt dat dit voor élk van onze werkingen geldt */
+  .altijd {
+    margin: 2.8mm 0 0; border-radius: 14px; background: var(--sage-soft);
+    border: .3mm solid #cdd9bb; padding: 2mm 3.4mm;
+    display: flex; flex-wrap: wrap; align-items: baseline; gap: 1mm 2.2mm;
+    font-size: 8.2pt; font-weight: 600; color: var(--ink);
+  }
+  .altijd b { font-weight: 900; color: var(--green); }
+  .altijd .stip { color: var(--sage); }
+
+  .actiewrap { padding: 2.4mm 11mm 0; }
+  .actie h3 { font-size: 13pt; }
+
+  /* de strook met de uren, de prijs en de leeftijd */
+  .praktisch {
+    grid-column: 1 / -1; border-radius: 14px; background: #fff; border: .3mm solid var(--border);
+    padding: 2mm 3.4mm; display: flex; align-items: baseline; justify-content: space-between; gap: 3mm;
+    font-size: 8.6pt; font-weight: 700; color: var(--ink);
+  }
+  .praktisch b { font-weight: 900; color: var(--green); font-size: 9.6pt; }
+  .praktisch .stip { color: var(--sage); font-weight: 900; }
+</style>
+</head>
+<body>
+
+  <div class="hero">
+    <img src="hero.jpg" alt="" style="object-position: 50% 45%">
+    <svg class="golf" viewBox="0 0 148 10" preserveAspectRatio="none"><path d="M0 6 C 32 1, 63 1, 92 5 S 134 10, 148 3 L148 10 L0 10 Z" fill="#fbf6ea"/></svg>
+  </div>
+
+  <!-- saliegroene blaadjes, zoals op de website -->
+  <svg class="blad" style="left: 122mm; top: 36mm; width: 9mm; transform: rotate(35deg)" viewBox="0 0 40 40"><path d="M4 36 C 4 14, 18 4, 36 4 C 36 22, 26 36, 4 36 Z" fill="#8aa173"/><path d="M4 36 L 30 10" stroke="#fbf6ea" stroke-width="1.6" fill="none"/></svg>
+  <svg class="blad" style="left: 131mm; top: 40mm; width: 6mm; transform: rotate(-20deg)" viewBox="0 0 40 40"><path d="M4 36 C 4 14, 18 4, 36 4 C 36 22, 26 36, 4 36 Z" fill="#dfe7d0"/><path d="M4 36 L 30 10" stroke="#fbf6ea" stroke-width="1.6" fill="none"/></svg>
+
+  <section class="kop">
+    <div class="hand">Herfstvakantie 2026</div>
+    <h1>Twee dagen bouwen,<br><span>denken en uitproberen</span></h1>
+    <p>Een kamp voor kinderen van <b>6 tot 12 jaar</b> die in de vakantie meer willen dan opvang. Elk kamp heeft zijn eigen thema.</p>
+  </section>
+
+  <section class="wanneer">
+    <div class="datum oranje">
+      <div class="plaats">Hasselt</div>
+      <div class="dagen">ma 2 &amp; di 3<br>november</div>
+      <div class="thema">Thema: Young Engineer Held</div>
+      <div class="waar">Level X 28<span>Vilderstraat 28, Hasselt</span></div>
+    </div>
+    <div class="datum blauw">
+      <div class="plaats">Genk</div>
+      <div class="dagen">wo 4 &amp; do 5<br>november</div>
+      <div class="thema">Thema: Creatieve duizendpoot,<br>van techniek tot design</div>
+      <div class="waar">T2 Campus<span>Thor Park 8040, Genk</span></div>
+    </div>
+    <div class="praktisch">
+      <span>Elke dag van <b>9u tot 15u</b></span>
+      <span class="stip">&#9679;</span>
+      <span><b>&euro;40</b> per dag</span>
+      <span class="stip">&#9679;</span>
+      <span><b>6 tot 12 jaar</b></span>
+    </div>
+  </section>
+
+  <section class="doen">
+    <h2 class="blokkop">Wat we doen <span class="hand">twee volle dagen</span></h2>
+    <ul>
+      <li><b>Ontdekken:</b> nieuwe dingen onderzoeken en vragen stellen</li>
+      <li><b>Maken en experimenteren:</b> van een idee naar iets dat écht werkt</li>
+      <li><b>Creatief denken:</b> eigen oplossingen bedenken en uitproberen</li>
+    </ul>
+    <div class="altijd">
+      <span><b>Bij alles wat we doen:</b></span>
+      <span>inclusief</span><span class="stip">&#9679;</span>
+      <span>prikkelarm</span><span class="stip">&#9679;</span>
+      <span>kleine groepen</span><span class="stip">&#9679;</span>
+      <span>rustige ruimtes</span>
+    </div>
+  </section>
+
+  <section class="actiewrap">
+    <div class="actie">
+      <svg class="tw" viewBox="0 0 40 40"><path d="M4 36 C 4 14, 18 4, 36 4 C 36 22, 26 36, 4 36 Z" fill="#8aa173"/></svg>
+      <div>
+        <h3>Schrijf je <span>nu in</span></h3>
+        <p>Plaatsen zijn beperkt. Alle praktische info staat op de website.</p>
+        <div class="contact">
+          <div><span class="ic" style="background: var(--orange)"><svg viewBox="0 0 24 24"><path fill="#fff" d="M2 5h20v14H2zm2 2v.5l8 5 8-5V7zm0 2.8V17h16V9.8l-8 5z"/></svg></span>info@matmgroep.com</div>
+          <div><span class="ic" style="background: var(--sage)"><svg viewBox="0 0 24 24"><path fill="#fff" d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></svg></span>0468 35 74 96</div>
+        </div>
+      </div>
+      <div class="qr">
+        <img src="qr.svg" alt="">
+        <span>Inschrijven</span>
+      </div>
+    </div>
+  </section>
+
+  <footer class="voet">
+    <img class="logo-kim" src="logo-kim-transparant.png" alt="Connectopia vzw">
+    <div class="tekst">
+      <div class="hand">Ruimte voor nieuwsgierigheid, talent en uitdaging</div>
+      Connectopia vzw &nbsp;&middot;&nbsp; Hasselt en Genk<br>
+      www.connectopia.one/aanbod
+    </div>
+  </footer>
+
+</body>
+</html>

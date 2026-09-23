@@ -5,11 +5,13 @@ import { Quiz } from "@/components/Quiz";
 import { getSessionProfile } from "@/lib/auth";
 import { hoofdstukToegankelijk } from "@/lib/toegang";
 import { createClient } from "@/lib/supabase/server";
-import { PRIJS_SCHOOLJAAR_EUR } from "@/lib/mollie";
+import { PRIJS_NU_EUR, TIJDELIJKE_PRIJS, TIJDELIJKE_PRIJS_KORT } from "@/lib/prijs";
 import { schooljaarEindeLabel } from "@/lib/schooljaar";
 import { vindNiveau } from "@/lib/niveaus";
+import { schikOpties } from "@/lib/optievolgorde";
 import { HoofdstukTabs } from "@/components/HoofdstukTabs";
 import { GeoGebraCalculator } from "@/components/GeoGebraCalculator";
+import { Leerbundel, type LeerbundelBlok } from "@/components/Leerbundel";
 
 export default async function HoofdstukPage({
   params,
@@ -51,7 +53,9 @@ export default async function HoofdstukPage({
 
   const vragen = await Promise.all(
     (vragenRuw ?? []).map(async (v) => {
-      const { afbeelding_pad, ...rest } = v;
+      // De opties krijgen hier hun volgorde, zodat het juiste antwoord niet
+      // altijd bovenaan staat. Zie lib/optievolgorde.ts.
+      const { afbeelding_pad, ...rest } = schikOpties(v);
       if (!afbeelding_pad) return { ...rest, afbeeldingUrl: null as string | null };
       if (afbeelding_pad.startsWith("http")) return { ...rest, afbeeldingUrl: afbeelding_pad };
       const { data } = await supabase.storage.from("vraagafbeeldingen").createSignedUrl(afbeelding_pad, 3600);
@@ -70,6 +74,24 @@ export default async function HoofdstukPage({
         .eq("hoofdstuk_id", hoofdstuk.id)
         .order("created_at", { ascending: false })
     : { data: [] };
+
+  const { data: bundelRijen } = magVolledig
+    ? await supabase
+        .from("leerbundel")
+        .select("id, soort, tekst, afbeelding_pad")
+        .eq("hoofdstuk_id", hoofdstuk.id)
+        .order("volgnummer", { ascending: true })
+    : { data: [] };
+
+  const bundel: LeerbundelBlok[] = await Promise.all(
+    (bundelRijen ?? []).map(async (b) => {
+      if (!b.afbeelding_pad) {
+        return { id: b.id, soort: b.soort, tekst: b.tekst, afbeeldingUrl: null };
+      }
+      const { data } = await supabase.storage.from("leerbundel").createSignedUrl(b.afbeelding_pad, 3600);
+      return { id: b.id, soort: b.soort, tekst: b.tekst, afbeeldingUrl: data?.signedUrl ?? null };
+    })
+  );
 
   const leerstof = await Promise.all(
     (leerstofRijen ?? []).map(async (l) => {
@@ -93,9 +115,9 @@ export default async function HoofdstukPage({
           <div className="mt-8 rounded-xl border border-amber/40 bg-amber/10 px-5 py-6 text-sm text-ink">
             <p className="font-medium">Dit hoofdstuk is nog op slot.</p>
             <p className="mt-2 text-ink-dim">
-              Geef volledige toegang tot alle hoofdstukken vrij voor €{PRIJS_SCHOOLJAAR_EUR} per
-              schooljaar (geldig tot en met {schooljaarEindeLabel()}), of vraag als plusklas-gezin
-              de gratis toegangscode aan.
+              Geef volledige toegang tot alle hoofdstukken vrij voor €{PRIJS_NU_EUR} per
+              schooljaar{TIJDELIJKE_PRIJS && <> ({TIJDELIJKE_PRIJS_KORT})</>} (geldig tot en met{" "}
+              {schooljaarEindeLabel()}), of vraag als plusklas-gezin de gratis toegangscode aan.
             </p>
             <Link
               href={session ? "/betalen" : "/registreren"}
@@ -106,10 +128,12 @@ export default async function HoofdstukPage({
           </div>
         ) : (
           <HoofdstukTabs
-            aantalLeerstof={leerstof.length}
+            aantalLeerstof={leerstof.length + (bundel.length ? 1 : 0)}
             oefeningen={<Quiz vragen={vragen} kinderen={kinderen ?? []} hoofdstukId={hoofdstuk.id} />}
             rekenmachine={vak.rekenmachine ? <GeoGebraCalculator /> : null}
             leerstof={
+              <>
+              <Leerbundel blokken={bundel} />
               <div className="mt-6 space-y-2">
                 {leerstof.map((l) =>
                   l.url ? (
@@ -125,10 +149,11 @@ export default async function HoofdstukPage({
                     </a>
                   ) : null
                 )}
-                {!leerstof.length && (
-                  <p className="text-sm text-ink-dim">Er is nog geen leerstof geüpload voor dit hoofdstuk.</p>
+                {!leerstof.length && !bundel.length && (
+                  <p className="text-sm text-ink-dim">Er is nog geen leerstof voor dit hoofdstuk.</p>
                 )}
               </div>
+              </>
             }
           />
         )}

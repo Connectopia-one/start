@@ -1,5 +1,6 @@
 import { notFound } from "next/navigation";
-import { requireIngelogd } from "@/lib/auth";
+import { requirePortaalSessie } from "@/lib/auth";
+import { MeekijkBalk } from "@/components/MeekijkBalk";
 import { createClient } from "@/lib/supabase/server";
 import { Header } from "@/components/Header";
 
@@ -18,7 +19,7 @@ export default async function MateriaalPage({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const session = await requireIngelogd();
+  const session = await requirePortaalSessie();
   const naam = session.profile?.full_name ?? session.email ?? "";
   const rol = session.profile?.role ?? "ouder";
 
@@ -30,6 +31,22 @@ export default async function MateriaalPage({
     .single();
 
   if (!klasje) notFound();
+
+  /*
+    Bekijk je dit als gezin (of kijk je als beheerder mee met een gezin), dan
+    gelden de toegangsregels van dat gezin. Zonder deze controle zou een
+    beheerder die meekijkt materiaal te zien krijgen dat het gezin zelf niet
+    mag zien, en dan klopt het beeld niet meer.
+  */
+  if (session.alsOuder) {
+    const { data: toegang } = await supabase
+      .from("toegang")
+      .select("materiaal")
+      .eq("profile_id", session.userId)
+      .eq("klasje_id", klasje.id)
+      .maybeSingle();
+    if (!toegang?.materiaal) notFound();
+  }
 
   const { data: materialenData } = await supabase
     .from("materialen")
@@ -48,25 +65,47 @@ export default async function MateriaalPage({
         return { ...m, downloadUrl: data?.signedUrl ?? null };
       }
       return { ...m, downloadUrl: null };
-    })
+    }),
   );
 
   return (
     <>
-      <Header naam={naam} rol={rol} terugHref="/portaal" terugLabel="Overzicht" />
+      {session.meekijken && (
+        <MeekijkBalk naam={session.meekijken.naam} terug="/beheer/gezinnen" />
+      )}
+      <Header
+        naam={naam}
+        rol={rol}
+        terugHref="/portaal"
+        terugLabel="Overzicht"
+      />
       <main className="mx-auto w-full max-w-3xl flex-1 px-6 py-10">
-        <p className="text-sm font-medium uppercase tracking-wide text-forest">{klasje.naam}</p>
-        <h1 className="font-display text-2xl font-semibold text-ink">Lesmateriaal</h1>
+        <p className="text-sm font-medium uppercase tracking-wide text-forest">
+          {klasje.naam}
+        </p>
+        <h1 className="font-display text-2xl font-semibold text-ink">
+          Lesmateriaal
+        </h1>
 
         {metLinks.length === 0 && (
-          <p className="mt-6 text-sm text-ink-dim">Er staat hier nog niets klaar.</p>
+          <p className="mt-6 text-sm text-ink-dim">
+            Er staat hier nog niets klaar.
+          </p>
         )}
 
         <ul className="mt-6 space-y-3">
           {metLinks.map((m) => (
-            <li key={m.id} className="rounded-lg border border-border bg-surface p-4">
+            <li
+              key={m.id}
+              className="rounded-lg border border-border bg-surface p-4"
+            >
               <p className="text-xs uppercase tracking-wide text-ink-dim">
-                {m.type === "pdf" ? "Document" : m.type === "link" ? "Link" : "Aankondiging"} &middot;{" "}
+                {m.type === "pdf"
+                  ? "Document"
+                  : m.type === "link"
+                    ? "Link"
+                    : "Aankondiging"}{" "}
+                &middot;{" "}
                 {new Date(m.created_at).toLocaleDateString("nl-BE", {
                   day: "numeric",
                   month: "long",
@@ -93,7 +132,9 @@ export default async function MateriaalPage({
                 </a>
               )}
               {m.type === "aankondiging" && m.inhoud && (
-                <p className="mt-2 whitespace-pre-wrap text-sm text-ink">{m.inhoud}</p>
+                <p className="mt-2 whitespace-pre-wrap text-sm text-ink">
+                  {m.inhoud}
+                </p>
               )}
             </li>
           ))}

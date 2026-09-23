@@ -1,6 +1,7 @@
+import Link from "next/link";
 import { Header } from "@/components/Header";
 import { getSessionProfile } from "@/lib/auth";
-import { PRIJS_SCHOOLJAAR_EUR } from "@/lib/mollie";
+import { PRIJS_NU_EUR, TIJDELIJKE_PRIJS, TIJDELIJKE_PRIJS_UITLEG } from "@/lib/prijs";
 
 export default async function OverOnsPage() {
   const session = await getSessionProfile();
@@ -66,6 +67,14 @@ export default async function OverOnsPage() {
               officiële leerplannen op de voet, zodat jouw kind gericht kan oefenen op wat écht
               belangrijk is.
             </p>
+            <p className="mt-2 text-sm">
+              <Link
+                href="/onderwijsdoelen"
+                className="text-forest-dark underline-offset-2 hover:underline"
+              >
+                Bekijk per niveau en per vak welke doelen we gebruiken
+              </Link>
+            </p>
           </section>
 
           <section>
@@ -105,8 +114,13 @@ export default async function OverOnsPage() {
 
           <section>
             <h2 className="font-display text-lg font-semibold text-ink">💶 Hoeveel kost het?</h2>
+            {TIJDELIJKE_PRIJS && (
+              <p className="mt-2 rounded-md bg-amber/10 px-4 py-3 text-sm text-ink">
+                {TIJDELIJKE_PRIJS_UITLEG}
+              </p>
+            )}
             <p className="mt-2 text-sm text-ink-dim">
-              We vragen €{PRIJS_SCHOOLJAAR_EUR} per schooljaar voor een account. Met één account
+              We vragen €{PRIJS_NU_EUR} per schooljaar voor een account. Met één account
               kunnen meerdere kinderen uit hetzelfde gezin gebruikmaken van het platform. Zo kan
               je kostenefficiënt meerdere kinderen tegelijk laten oefenen.
             </p>

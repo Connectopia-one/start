@@ -4,6 +4,7 @@ import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { requireBeheerder } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { volgendVolgnummer, vrijeVolgnummers } from "@/lib/volgnummer";
 
 type NieuweVraag = {
   type: "meerkeuze" | "invultekst" | "waarofniet";
@@ -48,14 +49,10 @@ export async function maakVraag(formData: FormData) {
   else antwoord = antwoordRaw;
 
   const admin = createAdminClient();
-  const { count } = await admin
-    .from("vragen")
-    .select("id", { count: "exact", head: true })
-    .eq("hoofdstuk_id", hoofdstukId);
 
   const { error } = await admin.from("vragen").insert({
     hoofdstuk_id: hoofdstukId,
-    volgnummer: (count ?? 0) + 1,
+    volgnummer: await volgendVolgnummer(admin, "vragen", "hoofdstuk_id", hoofdstukId),
     type,
     vraag,
     opties,
@@ -69,6 +66,34 @@ export async function maakVraag(formData: FormData) {
   revalidatePath(terugPad(vakSlug, volgnummer));
 }
 
+/**
+ * Haalt de vragen uit wat er geplakt is.
+ *
+ * Dit veld verwacht een kale lijst van vragen, want je zit al in één hoofdstuk.
+ * Maar de bestanden in `inhoud/start` zijn gemaakt voor het andere invoerveld,
+ * dat op de vakkenpagina staat: daar zit de lijst in `{"hoofdstukken": [...]}`.
+ * Die twee door elkaar halen is zo gebeurd, dus we nemen zo'n bestand hier ook
+ * gewoon aan. Staat er meer dan één hoofdstuk in, dan is het echt voor het
+ * andere veld bedoeld en zeggen we dat.
+ */
+function haalVragenEruit(gelezen: unknown): NieuweVraag[] {
+  if (Array.isArray(gelezen)) return gelezen as NieuweVraag[];
+
+  const hoofdstukken = (gelezen as { hoofdstukken?: unknown })?.hoofdstukken;
+  if (Array.isArray(hoofdstukken)) {
+    if (hoofdstukken.length === 1) {
+      const vragen = (hoofdstukken[0] as { vragen?: unknown })?.vragen;
+      if (Array.isArray(vragen)) return vragen as NieuweVraag[];
+    }
+    throw new Error(
+      "dit bestand bevat meerdere hoofdstukken. Gebruik het invoerveld op de vakkenpagina," +
+        " onder \"Bulk-import: meerdere hoofdstukken tegelijk\"."
+    );
+  }
+
+  throw new Error("Verwacht een JSON-array van vragen.");
+}
+
 export async function bulkImportVragen(formData: FormData) {
   await requireBeheerder();
   const hoofdstukId = String(formData.get("hoofdstuk_id") || "");
@@ -78,8 +103,8 @@ export async function bulkImportVragen(formData: FormData) {
 
   let vragen: NieuweVraag[];
   try {
-    vragen = JSON.parse(json);
-    if (!Array.isArray(vragen)) throw new Error("Verwacht een JSON-array van vragen.");
+    const gelezen = JSON.parse(json);
+    vragen = haalVragenEruit(gelezen);
   } catch (e) {
     redirect(
       terugPad(vakSlug, volgnummer) +
@@ -89,14 +114,11 @@ export async function bulkImportVragen(formData: FormData) {
   }
 
   const admin = createAdminClient();
-  const { count } = await admin
-    .from("vragen")
-    .select("id", { count: "exact", head: true })
-    .eq("hoofdstuk_id", hoofdstukId);
+  const neemVolgnummer = await vrijeVolgnummers(admin, "vragen", "hoofdstuk_id", hoofdstukId);
 
-  const rijen = vragen!.map((v, i) => ({
+  const rijen = vragen!.map((v) => ({
     hoofdstuk_id: hoofdstukId,
-    volgnummer: (count ?? 0) + i + 1,
+    volgnummer: neemVolgnummer(),
     type: v.type,
     vraag: v.vraag,
     opties: v.opties ?? null,
@@ -199,4 +221,122 @@ export async function verwijderLeerstof(formData: FormData) {
 
   revalidatePath(terugPad(vakSlug, volgnummer));
   redirect(terugPad(vakSlug, volgnummer));
+}
+
+/* ------------------------------------------------------------------ leerbundel
+   Een leerbundel is de theorie in het platform zelf, opgebouwd uit blokjes:
+   een tussentitel, een stuk tekst, een weetje in een kadertje, of een
+   afbeelding met een onderschrift. Zo kan je uitleg afwisselen met beeld.
+   De blokjes staan in de volgorde van hun volgnummer; met verplaatsLeerbundelBlok
+   wissel je een blokje van plaats met zijn buur. */
+
+export type LeerbundelSoort = "titel" | "tekst" | "weetje" | "afbeelding";
+
+/** Zie maakLeerstofUploadUrl: het bestand gaat rechtstreeks naar Supabase. */
+export async function maakLeerbundelUploadUrl(hoofdstukId: string, bestandsnaam: string) {
+  await requireBeheerder();
+  const admin = createAdminClient();
+  const path = `${hoofdstukId}/${Date.now()}-${bestandsnaam}`;
+
+  const { data, error } = await admin.storage.from("leerbundel").createSignedUploadUrl(path);
+  if (error || !data) {
+    throw new Error(error?.message || "Kon geen upload-link aanmaken.");
+  }
+  return { path: data.path, token: data.token };
+}
+
+export async function voegLeerbundelBlokToe(input: {
+  hoofdstukId: string;
+  vakSlug: string;
+  volgnummer: string;
+  soort: LeerbundelSoort;
+  tekst: string | null;
+  afbeeldingPad: string | null;
+}) {
+  await requireBeheerder();
+
+  const tekst = input.tekst?.trim() || null;
+  if (input.soort === "afbeelding") {
+    if (!input.afbeeldingPad) throw new Error("Kies eerst een afbeelding.");
+  } else if (!tekst) {
+    throw new Error("Vul de tekst in.");
+  }
+
+  const admin = createAdminClient();
+  const { data: laatste } = await admin
+    .from("leerbundel")
+    .select("volgnummer")
+    .eq("hoofdstuk_id", input.hoofdstukId)
+    .order("volgnummer", { ascending: false })
+    .limit(1);
+
+  const { error } = await admin.from("leerbundel").insert({
+    hoofdstuk_id: input.hoofdstukId,
+    volgnummer: (laatste?.[0]?.volgnummer ?? 0) + 1,
+    soort: input.soort,
+    tekst,
+    afbeelding_pad: input.afbeeldingPad,
+  });
+  if (error) throw new Error("Toevoegen is niet gelukt: " + error.message);
+
+  revalidatePath(terugPad(input.vakSlug, input.volgnummer));
+}
+
+export async function verwijderLeerbundelBlok(formData: FormData) {
+  await requireBeheerder();
+  const id = String(formData.get("id") || "");
+  const vakSlug = String(formData.get("vak_slug") || "");
+  const volgnummer = String(formData.get("volgnummer") || "");
+
+  const admin = createAdminClient();
+  const { data: blok } = await admin
+    .from("leerbundel")
+    .select("afbeelding_pad")
+    .eq("id", id)
+    .maybeSingle();
+  if (blok?.afbeelding_pad) {
+    await admin.storage.from("leerbundel").remove([blok.afbeelding_pad]);
+  }
+  await admin.from("leerbundel").delete().eq("id", id);
+
+  revalidatePath(terugPad(vakSlug, volgnummer));
+  redirect(terugPad(vakSlug, volgnummer));
+}
+
+/** Wisselt het blokje van plaats met het blokje erboven of eronder. */
+export async function verplaatsLeerbundelBlok(formData: FormData) {
+  await requireBeheerder();
+  const id = String(formData.get("id") || "");
+  const richting = String(formData.get("richting") || "");
+  const vakSlug = String(formData.get("vak_slug") || "");
+  const volgnummer = String(formData.get("volgnummer") || "");
+  const terug = terugPad(vakSlug, volgnummer);
+
+  const admin = createAdminClient();
+  const { data: blok } = await admin
+    .from("leerbundel")
+    .select("id, hoofdstuk_id, volgnummer")
+    .eq("id", id)
+    .maybeSingle();
+  if (!blok) redirect(terug);
+
+  const omhoog = richting === "omhoog";
+  const { data: buur } = await admin
+    .from("leerbundel")
+    .select("id, volgnummer")
+    .eq("hoofdstuk_id", blok!.hoofdstuk_id)
+    [omhoog ? "lt" : "gt"]("volgnummer", blok!.volgnummer)
+    .order("volgnummer", { ascending: !omhoog })
+    .limit(1);
+
+  const ander = buur?.[0];
+  if (ander) {
+    // Even naar een vrij nummer parkeren, anders botsen de twee nummers.
+    await admin.from("leerbundel").update({ volgnummer: -1 }).eq("id", blok!.id);
+    await admin.from("leerbundel").update({ volgnummer: blok!.volgnummer }).eq("id", ander.id);
+    await admin.from("leerbundel").update({ volgnummer: ander.volgnummer }).eq("id", blok!.id);
+  }
+
+  revalidatePath(terug);
+  redirect(terug);
 }

@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { registreerAntwoord, registreerSticker } from "@/app/voortgang-actions";
+import { KleurVraag, SleepVraag, VraagTekst, leesVraag } from "@/components/Figuren";
 
 const ACTIEF_KIND_KEY = "oefenplatform_actief_kind";
 
@@ -17,14 +18,64 @@ type Vraag = {
   uitleg: string | null;
   volgnummer: number;
   afbeeldingUrl?: string | null;
+  /**
+   * Per getoonde plaats het nummer dat de optie in de databank heeft. De opties
+   * worden geschud voor ze getoond worden (zie lib/optievolgorde.ts), maar het
+   * antwoord van een kind wordt opgeslagen met het nummer uit de databank, zodat
+   * de pagina waar ouders meekijken blijft kloppen.
+   */
+  optieVolgorde?: number[] | null;
 };
 
+/** Het aangeklikte antwoord omgerekend naar hoe het opgeslagen moet worden. */
+function zoalsOpgeslagen(
+  vraag: Vraag,
+  gegeven: string | number | boolean | null
+): string | number | boolean | null {
+  if (vraag.type !== "meerkeuze" || typeof gegeven !== "number") return gegeven;
+  const volgorde = vraag.optieVolgorde;
+  if (!volgorde || gegeven < 0 || gegeven >= volgorde.length) return gegeven;
+  return volgorde[gegeven];
+}
+
 type Status = { gecontroleerd: boolean; correct: boolean; gegevenAntwoord: string | number | boolean | null };
+
+/**
+ * Zet een ingetypt antwoord om naar een vorm die we kunnen vergelijken.
+ * Hoofdletters, een lidwoord vooraan ("de longen"), een punt achteraan en
+ * dubbele spaties mogen het verschil niet maken tussen juist en fout — een
+ * kind dat het antwoord kent, hoort het ook juist te hebben.
+ */
+function normaliseerAntwoord(waarde: string): string {
+  const tekst = waarde
+    .trim()
+    .toLowerCase()
+    .replace(/[.!?]+$/, "")
+    .replace(/\s+/g, " ")
+    .replace(/^(de|het|een) /, "");
+  return normaliseerGetal(tekst) ?? tekst;
+}
+
+/**
+ * Een getal kan je op meer dan één juiste manier typen: "3,5" en "3.5",
+ * "2 500" en "2500", "0,50" en "0,5". Is het antwoord een getal, dan
+ * herleiden we het tot één vorm. Zo telt een kind dat het juiste getal typt
+ * niet fout omdat het een punt gebruikte of een nul te veel schreef.
+ */
+function normaliseerGetal(tekst: string): string | null {
+  const zonderSpaties = tekst.replace(/(\d) (?=\d{3}\b)/g, "$1");
+  const treffer = zonderSpaties.match(/^(-?)(\d*)(?:[.,](\d+))?$/);
+  if (!treffer || (!treffer[2] && !treffer[3])) return null;
+  const heel = (treffer[2] || "0").replace(/^0+(?=\d)/, "");
+  const deel = (treffer[3] ?? "").replace(/0+$/, "");
+  const getal = deel ? `${heel},${deel}` : heel;
+  return getal === "0" ? "0" : treffer[1] + getal;
+}
 
 function isCorrect(vraag: Vraag, gegeven: string | number | boolean | null): boolean {
   if (gegeven === null) return false;
   if (vraag.type === "invultekst") {
-    return String(gegeven).trim().toLowerCase() === String(vraag.antwoord).trim().toLowerCase();
+    return normaliseerAntwoord(String(gegeven)) === normaliseerAntwoord(String(vraag.antwoord));
   }
   return gegeven === vraag.antwoord;
 }
@@ -41,10 +92,12 @@ function VraagKaart({
   onControleer: () => void;
 }) {
   const gegeven = status.gegevenAntwoord;
+  // Een invulvraag kan ook een kleur- of sleepoefening zijn, zie Figuren.tsx.
+  const { interactie } = leesVraag(vraag.vraag);
 
   return (
     <div className="rounded-xl border border-border bg-surface p-5">
-      <p className="font-medium text-ink">{vraag.vraag}</p>
+      <VraagTekst tekst={vraag.vraag} />
 
       {vraag.afbeeldingUrl && (
         // eslint-disable-next-line @next/next/no-img-element
@@ -96,7 +149,26 @@ function VraagKaart({
         </div>
       )}
 
-      {vraag.type === "invultekst" && (
+      {vraag.type === "invultekst" && interactie?.soort === "kleur" && (
+        <KleurVraag
+          vorm={interactie.vorm}
+          delen={interactie.delen}
+          uitgeschakeld={status.gecontroleerd}
+          onAntwoord={onAntwoord}
+        />
+      )}
+
+      {vraag.type === "invultekst" && interactie?.soort === "sleep" && vraag.opties && (
+        <SleepVraag
+          id={vraag.id}
+          items={vraag.opties}
+          richting={interactie.richting}
+          uitgeschakeld={status.gecontroleerd}
+          onAntwoord={onAntwoord}
+        />
+      )}
+
+      {vraag.type === "invultekst" && !interactie && (
         <input
           type="text"
           disabled={status.gecontroleerd}
@@ -143,6 +215,9 @@ export function Quiz({
     Object.fromEntries(vragen.map((v) => [v.id, { gecontroleerd: false, correct: false, gegevenAntwoord: null }]))
   );
   const [actiefKindId, setActiefKindId] = useState<string | null>(null);
+  // Telt mee bij "Opnieuw proberen", zodat ook wat een kind ingekleurd of
+  // gesleept had weer leeg begint.
+  const [ronde, setRonde] = useState(0);
 
   useEffect(() => {
     if (!kinderen.length) return;
@@ -183,6 +258,7 @@ export function Quiz({
 
   const opnieuw = () => {
     stickerGegeven.current = false;
+    setRonde((r) => r + 1);
     setStatussen(
       Object.fromEntries(vragen.map((v) => [v.id, { gecontroleerd: false, correct: false, gegevenAntwoord: null }]))
     );
@@ -225,7 +301,7 @@ export function Quiz({
 
       {vragen.map((vraag) => (
         <VraagKaart
-          key={vraag.id}
+          key={`${vraag.id}-${ronde}`}
           vraag={vraag}
           status={statussen[vraag.id]}
           onAntwoord={(v) =>
@@ -238,7 +314,12 @@ export function Quiz({
               [vraag.id]: { ...s[vraag.id], gecontroleerd: true, correct },
             }));
             if (actiefKindId) {
-              registreerAntwoord(actiefKindId, vraag.id, correct, statussen[vraag.id].gegevenAntwoord).catch(() => {});
+              registreerAntwoord(
+                actiefKindId,
+                vraag.id,
+                correct,
+                zoalsOpgeslagen(vraag, statussen[vraag.id].gegevenAntwoord)
+              ).catch(() => {});
             }
           }}
         />
