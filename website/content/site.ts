@@ -21,6 +21,11 @@ export const site = {
   */
   telefoon: "0468 35 74 96",
   telefoonLink: "tel:+32468357496",
+  /*
+    Het adres waar de site staat. Wordt gebruikt om de deelafbeelding te
+    maken die verschijnt als iemand een link van de site doorstuurt.
+  */
+  webadres: "https://www.connectopia.one",
 };
 
 /*

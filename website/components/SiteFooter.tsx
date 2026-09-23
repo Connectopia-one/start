@@ -5,7 +5,18 @@ export function SiteFooter() {
   return (
     <footer className="niet-afdrukken bg-green text-cream">
       <div className="mx-auto w-full max-w-5xl px-5 py-10">
-        <p className="font-hand text-2xl text-[#f3c98a]">{site.afsluiter}</p>
+        <div className="flex flex-wrap items-center justify-between gap-6">
+          <p className="font-hand text-2xl text-[#f3c98a]">{site.afsluiter}</p>
+          {/* Het logo. Vervang public/beeldmerk.png om het te veranderen. */}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/beeldmerk.png"
+            alt={`Het logo van ${site.naam} ${site.vzw}`}
+            width={512}
+            height={512}
+            className="h-20 w-20 shrink-0 rounded-2xl"
+          />
+        </div>
 
         <nav className="mt-6 flex flex-wrap gap-x-5 gap-y-2">
           {onderdelen.map((onderdeel) => (

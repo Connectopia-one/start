@@ -10,6 +10,18 @@ export const overOns = {
     "Connectopia is ons levende archief van die reis. De momenten van frustratie, de lichtpuntjes, de waardevolle contacten en inzichten. We delen het hier, niet alleen als ouders, maar ook als organisatoren van activiteiten die wél werken. Omdat we geloven in de kracht van verbinding. Jouw zoektocht mag wat korter, minder eenzaam en met meer houvast zijn.",
   ],
 
+  /*
+    De foto bij "ons verhaal", bovenaan de pagina.
+    Zet het bestand in  public/fotos/
+    Wil je even geen foto?  verhaalFoto: null,
+  */
+  verhaalFoto: {
+    bestand: "waarom-we-begonnen.jpg",
+    beschrijving:
+      "Een kind zit op de grond te werken op een laptop, met een molecuulmodel en wetenschapsboeken ernaast.",
+    bijschrift: "Hier is het voor ons begonnen.",
+  },
+
   rol: {
     titel: "Ervaringsdeskundigen met een netwerk",
     tekst: [

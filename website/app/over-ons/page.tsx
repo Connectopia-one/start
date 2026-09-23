@@ -18,10 +18,26 @@ export default function OverOnsPagina() {
       />
 
       <Sectie>
-        <div className="grid max-w-[68ch] gap-4 text-[18px] text-ink-dim">
-          {overOns.verhaal.map((alinea) => (
-            <p key={alinea.slice(0, 24)}>{alinea}</p>
-          ))}
+        <div className="grid gap-8 lg:grid-cols-[1.15fr_0.85fr] lg:items-start">
+          <div className="grid max-w-[68ch] gap-4 text-[18px] text-ink-dim">
+            {overOns.verhaal.map((alinea) => (
+              <p key={alinea.slice(0, 24)}>{alinea}</p>
+            ))}
+          </div>
+          {overOns.verhaalFoto ? (
+            <figure className="lg:sticky lg:top-24">
+              <Foto
+                bestand={overOns.verhaalFoto.bestand}
+                beschrijving={overOns.verhaalFoto.beschrijving}
+                verhouding="vrij"
+              />
+              {overOns.verhaalFoto.bijschrift ? (
+                <figcaption className="font-hand mt-2 text-center text-2xl text-orange">
+                  {overOns.verhaalFoto.bijschrift}
+                </figcaption>
+              ) : null}
+            </figure>
+          ) : null}
         </div>
       </Sectie>
 

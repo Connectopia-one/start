@@ -17,12 +17,32 @@ const hand = Caveat({
   weight: ["600", "700"],
 });
 
+/*
+  De titel, de omschrijving en de afbeelding die verschijnen als iemand een
+  link van de site doorstuurt of opslaat. Het tabbladicoon en die afbeelding
+  zijn de bestanden  app/icon.png  en  app/opengraph-image.png  —
+  vervang gewoon het bestand als het logo ooit verandert.
+*/
 export const metadata: Metadata = {
+  metadataBase: new URL(site.webadres),
   title: {
     default: `${site.naam} — ${site.baseline}`,
     template: `%s — ${site.naam}`,
   },
   description: site.omschrijving,
+  openGraph: {
+    type: "website",
+    locale: "nl_BE",
+    url: site.webadres,
+    siteName: `${site.naam} ${site.vzw}`,
+    title: `${site.naam} — ${site.baseline}`,
+    description: site.omschrijving,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${site.naam} — ${site.baseline}`,
+    description: site.omschrijving,
+  },
 };
 
 export default function RootLayout({
