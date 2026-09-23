@@ -3677,3 +3677,306 @@ def dubbele_getallenlijn(links, rechts, merken, breedte=470):
     d.append(_tekst(4, y - 18, "breuk", 9, DIM, anker="start"))
     d.append(_tekst(4, y + 28, "komma", 9, DIM, anker="start"))
     return _svg(breedte, y + 40, "".join(d))
+
+
+# ---------------------------------------------------------------------------
+# Natuurwetenschappen ✨ Spark. Zelf getekende schema's bij de vakfiche
+# natuurwetenschappen eerste graad A-stroom.
+# ---------------------------------------------------------------------------
+
+CELWAND = "#6f8f4a"
+KERN = "#7a5b8f"
+
+
+def twee_cellen(breedte=470):
+    """Een plantaardige en een dierlijke cel naast elkaar, met labels.
+
+    Het verschil moet je in één oogopslag zien: links de hoekige cel met
+    celwand, bladgroenkorrels en één grote vacuole, rechts de ronde cel
+    zonder die drie.
+    """
+    h = 228
+    vak = breedte / 2
+    d = []
+    for i, soort in enumerate(("plantaardig", "dierlijk")):
+        ox = i * vak
+        cx, cy = ox + vak / 2, 108
+        if soort == "plantaardig":
+            d.append(f'<rect x="{ox+24}" y="36" width="{vak-48:.1f}" height="146" rx="10" '
+                     f'fill="rgba(111,143,74,.10)" stroke="{CELWAND}" stroke-width="4.5"/>')
+            d.append(f'<rect x="{ox+30}" y="42" width="{vak-60:.1f}" height="134" rx="8" '
+                     f'fill="none" stroke="{FOREST}" stroke-width="1.8"/>')
+            d.append(f'<rect x="{ox+46}" y="58" width="{vak-92:.1f}" height="66" rx="8" '
+                     f'fill="rgba(91,147,184,.18)" stroke="#5b93b8" stroke-width="1.6"/>')
+            d.append(_tekst(cx, 96, "vacuole", 9.5, "#3d6e8c"))
+            for k, (bx, by) in enumerate(((0.30, 150), (0.52, 158), (0.72, 146))):
+                d.append(f'<ellipse cx="{ox + vak*bx:.1f}" cy="{by}" rx="10" ry="6.5" '
+                         f'fill="rgba(47,93,80,.35)" stroke="{FOREST}" stroke-width="1.4"/>')
+            d.append(f'<circle cx="{ox + vak*0.34:.1f}" cy="134" r="12" fill="rgba(122,91,143,.28)" '
+                     f'stroke="{KERN}" stroke-width="1.8"/>')
+            d.append(f'<ellipse cx="{ox + vak*0.66:.1f}" cy="132" rx="11" ry="6" '
+                     f'fill="rgba(193,127,43,.25)" stroke="{AMBER}" stroke-width="1.5"/>')
+        else:
+            d.append(f'<ellipse cx="{cx:.1f}" cy="{cy}" rx="{vak/2-30:.1f}" ry="70" '
+                     f'fill="rgba(193,127,43,.08)" stroke="{FOREST}" stroke-width="2.4"/>')
+            d.append(f'<circle cx="{cx:.1f}" cy="{cy}" r="18" fill="rgba(122,91,143,.28)" '
+                     f'stroke="{KERN}" stroke-width="1.8"/>')
+            for bx, by in ((0.34, 84), (0.66, 86), (0.40, 140), (0.64, 138)):
+                d.append(f'<ellipse cx="{ox + vak*bx:.1f}" cy="{by}" rx="11" ry="6" '
+                         f'fill="rgba(193,127,43,.25)" stroke="{AMBER}" stroke-width="1.5"/>')
+        d.append(_tekst(cx, 24, f"{soort}e cel", 11.5, DARK, vet=True))
+    legende = [("celwand", CELWAND), ("celkern", KERN), ("mitochondrion", AMBER),
+               ("bladgroenkorrel", FOREST)]
+    x = 14
+    for naam, kleur in legende:
+        d.append(f'<rect x="{x}" y="206" width="13" height="13" rx="3" fill="{kleur}" opacity="0.55" '
+                 f'stroke="{kleur}" stroke-width="1.4"/>')
+        d.append(_tekst(x + 19, 217, naam, 9.5, DIM, anker="start"))
+        x += len(naam) * 5.6 + 42
+    return _svg(breedte, h, "".join(d))
+
+
+def fotosynthese(breedte=470):
+    """Wat er bij fotosynthese in en uit een blad gaat, met de omzetting erbij."""
+    h = 226
+    mx = breedte / 2
+    d = [f'<path d="M{mx-96} 132 q40 -60 96 -44 q56 -16 96 44 q-96 40 -192 0 Z" '
+         f'fill="rgba(47,93,80,.18)" stroke="{FOREST}" stroke-width="2.2"/>',
+         f'<path d="M{mx-96} 132 h192" stroke="{FOREST}" stroke-width="1.4" opacity="0.5"/>']
+    for k in range(-3, 4):
+        d.append(f'<path d="M{mx + k*24} 132 q6 -22 0 -38" stroke="{FOREST}" stroke-width="1" '
+                 f'fill="none" opacity="0.45"/>')
+    # zon
+    d.append(f'<circle cx="46" cy="38" r="17" fill="#f0c33c" stroke="{AMBER}" stroke-width="1.8"/>')
+    for hoek in range(0, 360, 45):
+        import math
+        a = math.radians(hoek)
+        d.append(f'<line x1="{46+22*math.cos(a):.1f}" y1="{38+22*math.sin(a):.1f}" '
+                 f'x2="{46+29*math.cos(a):.1f}" y2="{38+29*math.sin(a):.1f}" '
+                 f'stroke="{AMBER}" stroke-width="1.8" stroke-linecap="round"/>')
+    d.append(_tekst(46, 76, "lichtenergie", 9.5, AMBER, vet=True))
+    # naar_binnen: de pijl wijst naar het blad. naar_buiten: hij wijst ervandaan.
+    pijlen = [(112, 66, mx - 60, 96, "CO₂ in", "#5b7f9c", True),
+              (112, 150, mx - 60, 124, "H₂O in", "#5b93b8", True),
+              (breedte - 112, 66, mx + 60, 96, "O₂ uit", FOREST, False),
+              (breedte - 112, 150, mx + 60, 124, "glucose uit", AMBER, False)]
+    for xb, yb, xblad, yblad, naam, kleur, naar_binnen in pijlen:
+        if naar_binnen:
+            begin, eind = (xb, yb), (xblad, yblad)
+        else:
+            begin, eind = (xblad, yblad), (xb, yb)
+        d.append(f'<path d="M{begin[0]:.0f} {begin[1]:.0f} L{eind[0]:.0f} {eind[1]:.0f}" '
+                 f'stroke="{kleur}" stroke-width="2.2" '
+                 f'marker-end="url(#{_pijlpunt(kleur)})" fill="none"/>')
+        d.append(_tekst(xb + (-8 if naar_binnen else 8), yb - 8, naam, 10, kleur,
+                        anker="end" if naar_binnen else "start", vet=True))
+    d.append(f'<rect x="{mx-168:.0f}" y="176" width="336" height="36" rx="9" fill="{PAPER}" '
+             f'stroke="{BORDER}" stroke-width="1.4"/>')
+    d.append(_tekst(mx, 199, "koolstofdioxide + water → glucose + zuurstofgas", 11.5, DARK, vet=True))
+    return _svg(breedte, h, _pijlpunten() + "".join(d))
+
+
+_PIJLKLEUREN = {}
+
+
+def _pijlpunt(kleur):
+    """Registreert een pijlpunt in die kleur en geeft het id terug."""
+    if kleur not in _PIJLKLEUREN:
+        _PIJLKLEUREN[kleur] = _id("punt")
+    return _PIJLKLEUREN[kleur]
+
+
+def _pijlpunten():
+    """De <defs> met alle pijlpunten die tot hiertoe gevraagd zijn."""
+    marks = "".join(
+        f'<marker id="{mid}" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" '
+        f'markerHeight="6" orient="auto"><path d="M0 0 L10 5 L0 10 z" fill="{kleur}"/></marker>'
+        for kleur, mid in _PIJLKLEUREN.items())
+    return f"<defs>{marks}</defs>"
+
+
+def voedselpiramide(breedte=470):
+    """De voedselpiramide: veel producenten onderaan, weinig toppredatoren boven."""
+    h = 190
+    lagen = [("producenten — planten", FOREST, 1.0),
+             ("consumenten 1ste orde — planteneters", "#6f8f4a", 0.74),
+             ("consumenten 2de orde — vleeseters", AMBER, 0.48),
+             ("toppredator", "#a2521f", 0.24)]
+    laag_h = 40
+    d = []
+    for i, (naam, kleur, deel) in enumerate(reversed(lagen)):
+        y = 16 + i * laag_h
+        volgende = list(reversed(lagen))[i + 1][2] if i + 1 < len(lagen) else deel
+        b1 = (breedte - 150) * deel
+        b2 = (breedte - 150) * volgende
+        mx = (breedte - 60) / 2
+        d.append(f'<path d="M{mx-b1/2:.1f} {y} H{mx+b1/2:.1f} L{mx+b2/2:.1f} {y+laag_h} '
+                 f'H{mx-b2/2:.1f} Z" fill="{kleur}" opacity="0.30" stroke="{kleur}" stroke-width="1.8"/>')
+        d.append(_tekst(mx, y + laag_h / 2 + 4, naam.split(" — ")[0], 10.5, DARK, vet=True))
+        if " — " in naam:
+            d.append(_tekst(breedte - 8, y + laag_h / 2 + 4, naam.split(" — ")[1], 9.5, DIM, anker="end"))
+    d.append(f'<path d="M14 {16+len(lagen)*laag_h} V20 m0 0 l-5 6 m5 -6 l5 6" stroke="{DIM}" '
+             f'stroke-width="1.6" fill="none"/>')
+    d.append(_tekst(24, 100, "energie", 9.5, DIM, anker="start"))
+    return _svg(breedte, h, "".join(d))
+
+
+def bloemdoorsnede(breedte=470):
+    """Een bloem in doorsnede, met de meeldraad links en de stamper in het midden."""
+    h = 224
+    mx = breedte / 2
+    d = [f'<path d="M{mx} 196 V96" stroke="{FOREST}" stroke-width="4" stroke-linecap="round"/>']
+    # kroonbladen
+    d.append(f'<path d="M{mx-24} 150 q-70 -26 -86 -74 q54 6 86 44 Z" fill="rgba(240,195,60,.35)" '
+             f'stroke="{AMBER}" stroke-width="1.6"/>')
+    d.append(f'<path d="M{mx+24} 150 q70 -26 86 -74 q-54 6 -86 44 Z" fill="rgba(240,195,60,.35)" '
+             f'stroke="{AMBER}" stroke-width="1.6"/>')
+    # stamper
+    d.append(f'<path d="M{mx} 150 V66" stroke="{KERN}" stroke-width="3.2"/>')
+    d.append(f'<ellipse cx="{mx}" cy="60" rx="17" ry="8" fill="rgba(122,91,143,.35)" '
+             f'stroke="{KERN}" stroke-width="1.8"/>')
+    d.append(f'<ellipse cx="{mx}" cy="158" rx="24" ry="18" fill="rgba(122,91,143,.20)" '
+             f'stroke="{KERN}" stroke-width="1.8"/>')
+    for dx in (-8, 8):
+        d.append(f'<circle cx="{mx+dx}" cy="158" r="4.2" fill="{KERN}" opacity="0.75"/>')
+    # meeldraden
+    for zijde in (-1, 1):
+        x = mx + zijde * 46
+        d.append(f'<path d="M{mx + zijde*10} 150 Q{x} 120 {x} 84" stroke="{AMBER}" '
+                 f'stroke-width="2.6" fill="none"/>')
+        d.append(f'<ellipse cx="{x}" cy="78" rx="11" ry="7" fill="rgba(193,127,43,.45)" '
+                 f'stroke="{AMBER}" stroke-width="1.6"/>')
+    labels = [(mx + 24, 56, "stempel", "start", KERN), (mx + 14, 106, "stijl", "start", KERN),
+              (mx + 30, 176, "vruchtbeginsel met zaadbeginsels", "start", KERN),
+              (mx - 60, 70, "helmknop", "end", AMBER), (mx - 58, 122, "helmdraad", "end", AMBER),
+              (mx + 14, 208, "stengel", "start", FOREST)]
+    for x, y, naam, anker, kleur in labels:
+        d.append(_kussen(x, y, naam, 9.5, kleur, anker=anker, vet=True))
+    return _svg(breedte, h, "".join(d))
+
+
+def menstruatiecyclus(breedte=470):
+    """De cyclus van 28 dagen als een balk, met de vier gebeurtenissen erop."""
+    h = 168
+    links, rechts = 30, breedte - 20
+    y = 78
+    breed = rechts - links
+    d = [f'<rect x="{links}" y="{y}" width="{breed:.1f}" height="30" rx="8" fill="{PAPER}" '
+         f'stroke="{BORDER}" stroke-width="1.4"/>']
+
+    def plek(dag):
+        return links + breed * dag / 28
+
+    d.append(f'<rect x="{links}" y="{y}" width="{plek(5)-links:.1f}" height="30" rx="8" '
+             f'fill="rgba(192,57,43,.28)" stroke="#c0392b" stroke-width="1.4"/>')
+    d.append(f'<rect x="{plek(11):.1f}" y="{y}" width="{plek(16)-plek(11):.1f}" height="30" '
+             f'fill="rgba(240,195,60,.35)" stroke="{AMBER}" stroke-width="1.4"/>')
+    d.append(f'<line x1="{plek(14):.1f}" y1="{y-16}" x2="{plek(14):.1f}" y2="{y+38}" '
+             f'stroke="{FOREST}" stroke-width="2.2"/>')
+    for dag in (1, 7, 14, 21, 28):
+        d.append(f'<line x1="{plek(dag):.1f}" y1="{y+30}" x2="{plek(dag):.1f}" y2="{y+36}" '
+                 f'stroke="{DIM}" stroke-width="1.2"/>')
+        d.append(_tekst(plek(dag), y + 50, f"dag {dag}", 9.5, DIM))
+    d.append(_kussen(plek(2.5), y - 24, "menstruatie", 9.5, "#c0392b", anker="middle", vet=True))
+    d.append(_kussen(plek(14), y - 26, "eisprong", 9.5, FOREST, anker="middle", vet=True))
+    d.append(_kussen(plek(13.5), y + 26, "vruchtbare periode", 9.5, AMBER, anker="middle", vet=True))
+    d.append(_kussen(plek(23), y - 24, "slijmvlies verdikt", 9.5, KERN, anker="middle", vet=True))
+    d.append(_tekst(breedte / 2, 150,
+                    "Gemiddeld 28 dagen, maar 21 tot 35 dagen is normaal. Dag 1 is de eerste dag "
+                    "van de menstruatie.", 9.5, DIM))
+    return _svg(breedte, h, "".join(d))
+
+
+def krachtpijl(breedte=470):
+    """De vier kenmerken van een kracht: aangrijpingspunt, grootte, richting, zin."""
+    h = 172
+    y = 96
+    x0, x1 = 120, 330
+    d = [f'<rect x="60" y="{y-26}" width="60" height="52" rx="8" fill="rgba(193,127,43,.18)" '
+         f'stroke="{AMBER}" stroke-width="1.8"/>',
+         f'<line x1="40" y1="{y}" x2="{breedte-30}" y2="{y}" stroke="{DIM}" stroke-width="1" '
+         f'stroke-dasharray="5 5"/>',
+         f'<path d="M{x0} {y} H{x1}" stroke="{FOREST}" stroke-width="3.4" '
+         f'marker-end="url(#{_pijlpunt(FOREST)})"/>',
+         f'<circle cx="{x0}" cy="{y}" r="5" fill="{FOREST}"/>']
+    d.append(_tekst(x0, y + 26, "aangrijpingspunt", 9.5, FOREST, vet=True))
+    d.append(_tekst((x0 + x1) / 2, y - 14, "grootte", 9.5, DARK, vet=True))
+    d.append(_tekst(breedte - 34, y - 12, "zin", 9.5, FOREST, anker="end", vet=True))
+    d.append(_tekst(40, y - 12, "richting", 9.5, DIM, anker="start"))
+    d.append(f'<path d="M{x0} {y+58} H{x0-70}" stroke="#5b7f9c" stroke-width="3" '
+             f'marker-end="url(#{_pijlpunt("#5b7f9c")})"/>')
+    d.append(_tekst(x0 + 8, y + 62, "zelfde richting, andere zin", 9.5, "#5b7f9c", anker="start"))
+    return _svg(breedte, h, _pijlpunten() + "".join(d))
+
+
+def onderdompeling(breedte=470):
+    """Twee maatcilinders: het volume van een steen uit het verschil in waterpeil."""
+    h = 220
+    d = []
+    for i, (peil, met_steen, bijschrift) in enumerate(((50, False, "vóór: 50 mL"),
+                                                       (65, True, "na: 65 mL"))):
+        ox = 70 + i * 200
+        bodem, top = 176, 46
+        hoog = bodem - top
+        d.append(f'<rect x="{ox}" y="{top}" width="70" height="{hoog}" rx="6" fill="#ffffff" '
+                 f'stroke="{DIM}" stroke-width="1.8"/>')
+        waterhoogte = hoog * peil / 80
+        d.append(f'<rect x="{ox+2}" y="{bodem-waterhoogte:.1f}" width="66" height="{waterhoogte-2:.1f}" '
+                 f'rx="4" fill="rgba(91,147,184,.35)"/>')
+        for merk in range(10, 81, 10):
+            my = bodem - hoog * merk / 80
+            d.append(f'<line x1="{ox}" y1="{my:.1f}" x2="{ox+12}" y2="{my:.1f}" stroke="{DIM}" stroke-width="1"/>')
+            if merk % 20 == 0:
+                d.append(_tekst(ox - 6, my + 3.5, str(merk), 8.5, DIM, anker="end"))
+        if met_steen:
+            d.append(f'<path d="M{ox+22} 158 q-10 -20 6 -26 q22 -12 30 6 q10 18 -8 22 Z" '
+                     f'fill="rgba(122,91,143,.45)" stroke="{KERN}" stroke-width="1.6"/>')
+        d.append(_tekst(ox + 35, 198, bijschrift, 10.5, DARK, vet=True))
+    d.append(f'<path d="M160 110 H{268}" stroke="{FOREST}" stroke-width="2.4" '
+             f'marker-end="url(#{_pijlpunt(FOREST)})"/>')
+    d.append(_kussen(214, 102, "steen erin", 9.5, FOREST, anker="middle", vet=True))
+    d.append(_tekst(breedte / 2, 214,
+                    "65 mL − 50 mL = 15 mL, en 1 mL is 1 cm³. Het volume van de steen is dus 15 cm³.",
+                    10, DARK))
+    return _svg(breedte, h, _pijlpunten() + "".join(d))
+
+
+def faseovergangen(breedte=470):
+    """De drie toestanden in een driehoek, met de zes faseovergangen ertussen."""
+    h = 224
+    mx = breedte / 2
+    punten = {"vast": (mx - 150, 188), "vloeibaar": (mx + 150, 188), "gasvormig": (mx, 52)}
+    d = []
+    for naam, (x, y) in punten.items():
+        d.append(f'<rect x="{x-62:.0f}" y="{y-20:.0f}" width="124" height="40" rx="10" '
+                 f'fill="rgba(47,93,80,.10)" stroke="{FOREST}" stroke-width="2"/>')
+        d.append(_tekst(x, y + 5, naam, 11.5, DARK, vet=True))
+    paren = [("vast", "vloeibaar", "smelten", -13, AMBER),
+             ("vloeibaar", "vast", "stollen", 13, "#5b7f9c"),
+             ("vloeibaar", "gasvormig", "verdampen", -13, AMBER),
+             ("gasvormig", "vloeibaar", "condenseren", 13, "#5b7f9c"),
+             ("vast", "gasvormig", "sublimeren", -13, AMBER),
+             ("gasvormig", "vast", "rijpen", 13, "#5b7f9c")]
+    import math
+    for van, naar, naam, verschuiving, kleur in paren:
+        x0, y0 = punten[van]
+        x1, y1 = punten[naar]
+        hoek = math.atan2(y1 - y0, x1 - x0)
+        # De loodrechte wordt uit de vaste volgorde van de drie vakjes gehaald,
+        # niet uit de richting van deze pijl. Anders vallen de heen- en de
+        # terugpijl van hetzelfde paar op elkaar.
+        namen = list(punten)
+        vast0, vast1 = punten[min(van, naar, key=namen.index)], punten[max(van, naar, key=namen.index)]
+        basis = math.atan2(vast1[1] - vast0[1], vast1[0] - vast0[0])
+        nx, ny = -math.sin(basis) * verschuiving, math.cos(basis) * verschuiving
+        ax0, ay0 = x0 + math.cos(hoek) * 66 + nx, y0 + math.sin(hoek) * 30 + ny
+        ax1, ay1 = x1 - math.cos(hoek) * 66 + nx, y1 - math.sin(hoek) * 30 + ny
+        d.append(f'<path d="M{ax0:.1f} {ay0:.1f} L{ax1:.1f} {ay1:.1f}" stroke="{kleur}" '
+                 f'stroke-width="2" fill="none" marker-end="url(#{_pijlpunt(kleur)})"/>')
+        # Elk label staat op een kwart van zijn éigen beginpunt. Omdat de twee
+        # pijlen van een paar tegengesteld lopen, komen hun witte vlakjes zo aan
+        # weerszijden te liggen in plaats van over elkaar.
+        deel = 0.28
+        d.append(_kussen(ax0 + (ax1 - ax0) * deel, ay0 + (ay1 - ay0) * deel - 2, naam, 9.5, kleur,
+                         anker="middle", vet=True))
+    return _svg(breedte, h, _pijlpunten() + "".join(d))
