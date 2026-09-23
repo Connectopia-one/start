@@ -46,6 +46,38 @@ def hoekgroepen_bij_evenwijdigen():
 CONTROLES = [
     # (waar het staat, wat de bundel beweert, hoe je het narekent)
 
+    # ── het gratis proefhoofdstuk Rekenen en breuken (23 september 2026)
+    ("proef: 348 + 156 = 504",                      504,        348 + 156),
+    ("proef: 300+100 en 48+56 = 504",               504,        (300 + 100) + (48 + 56)),
+    ("proef: 1 000 − 365 = 635",                    635,        1000 - 365),
+    ("proef: 25 × 4 = 100",                         100,        25 * 4),
+    ("proef: 144 : 12 = 12",                        12,         144 // 12),
+    ("proef: 0,5 × 24 = 12",                        12.0,       0.5 * 24),
+    ("proef: 2 468 afgerond → 2 500",               2500,       round(2468, -2)),
+    ("proef: 12 + 3 × 4 = 24",                      24,         12 + 3 * 4),
+    ("proef: (7 + 3) × 5 = 50",                     50,         (7 + 3) * 5),
+    ("proef: 7 + 3 × 5 = 22",                       22,         7 + 3 * 5),
+    ("proef: 2,50 + 3,75 = 6,25",                   F(25, 4),   F(5, 2) + F(15, 4)),
+    ("proef: 4,2 : 2 = 2,1",                        F(21, 10),  F(42, 10) / 2),
+    ("proef: 2 000 : 250 = 8 glazen",               8,          2000 // 250),
+    ("proef: 3/8 van 64 = 24",                      24,         64 // 8 * 3),
+    ("proef: 1/5 van 45 = 9",                       9,          45 // 5),
+    ("proef: 2/3 van 27 = 18",                      18,         27 // 3 * 2),
+    ("proef: 1/4 + 2/4 = 3/4",                      F(3, 4),    F(1, 4) + F(2, 4)),
+    ("proef: 5/8 − 2/8 = 3/8",                      F(3, 8),    F(5, 8) - F(2, 8)),
+    ("proef: 6/8 = 3/4",                            F(3, 4),    F(6, 8)),
+    ("proef: 10/15 = 2/3",                          F(2, 3),    F(10, 15)),
+    ("proef: 2/6 = 1/3",                            F(1, 3),    F(2, 6)),
+    ("proef: 4/8 = 1/2",                            F(1, 2),    F(4, 8)),
+    ("proef: 2/4 = 1/2",                            F(1, 2),    F(2, 4)),
+    ("proef: 2/3 > 3/8",                            True,       F(2, 3) > F(3, 8)),
+    ("proef: 0,6 > 1/2",                            True,       F(6, 10) > F(1, 2)),
+    ("proef: 10 % van 240 = 24",                    24.0,       0.10 * 240),
+    ("proef: 25 % van 60 = 15",                     15.0,       0.25 * 60),
+    ("proef: 50 % van 86 = 43",                     43.0,       0.50 * 86),
+    ("proef: 20 % van 250 = 50",                    50.0,       0.20 * 250),
+    ("proef: 25 % van 40 = 10, blijft 30",          30.0,       40 - 0.25 * 40),
+
     # ── wiskunde Start, bijgeschreven op 23 september 2026
     ("start getallenkennis: 45 000 : 1 000 = 45",   45,         45000 // 1000),
     ("start getallenkennis: 7 400 : 100 = 74",      74,         7400 // 100),
