@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { Header } from "@/components/Header";
 import { requireIngelogd } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
+import { VraagTekst } from "@/components/Figuren";
 
 type Vraag = {
   id: string;
@@ -87,7 +88,7 @@ export default async function HoofdstukAntwoordenPage({
             const laatste = laatsteAntwoordPerVraag.get(vraag.id);
             return (
               <div key={vraag.id} className="rounded-xl border border-border bg-surface p-5">
-                <p className="font-medium text-ink">{vraag.vraag}</p>
+                <VraagTekst tekst={vraag.vraag} />
                 {!laatste ? (
                   <p className="mt-2 text-sm text-ink-dim">Nog niet geprobeerd.</p>
                 ) : (

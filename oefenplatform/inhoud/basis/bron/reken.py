@@ -100,12 +100,13 @@ def omzetting_klopt(tekst: str) -> bool:
 
 
 def som_klopt(tekst: str) -> bool:
-    """"3,2 × 10 = 32" of "45 : 100 = 0,45" → klopt het?"""
-    m = re.match(r"^\s*([\d ,]+?)\s*([×:])\s*([\d ,]+?)\s*=\s*([\d ,]+?)\s*$", tekst)
+    """"3,2 × 10 = 32", "45 : 100 = 0,45" of "1,6 + 0,45 = 2,05" → klopt het?"""
+    m = re.match(r"^\s*([\d ,]+?)\s*([×:+−-])\s*([\d ,]+?)\s*=\s*([\d ,]+?)\s*$", tekst)
     if not m:
         raise ValueError(f"geen som: {tekst!r}")
     a, b, c = g(m[1]), g(m[3]), g(m[4])
-    return (a * b if m[2] == "×" else a / b) == c
+    uitkomst = {"×": a * b, ":": a / b, "+": a + b, "−": a - b, "-": a - b}[m[2]]
+    return uitkomst == c
 
 
 def stijgend(tekst: str) -> bool:
@@ -141,3 +142,46 @@ def invul(vraag, antwoord, uitleg, reken):
 
 def won(vraag, antwoord, uitleg, reken):
     return dict(type="waarofniet", vraag=vraag, antwoord=antwoord, uitleg=uitleg, reken=reken)
+
+
+# --- tekeningen en doe-oefeningen (zie components/Figuren.tsx) -----------------
+
+_FIGUUR = re.compile(r"\{\{\s*figuur\s+(cirkel|strook|raster)\s+(\d+)/(\d+)\s*\}\}")
+
+
+def figuur(vorm: str, teller: int, noemer: int) -> str:
+    """De markering voor een tekening in de vraag: figuur("cirkel", 3, 8)."""
+    return "{{figuur %s %d/%d}}" % (vorm, teller, noemer)
+
+
+def gekleurd(vraag: str) -> F:
+    """Hoeveel er gekleurd is in de (enige) tekening van een vraag."""
+    treffers = _FIGUUR.findall(vraag)
+    if len(treffers) != 1:
+        raise SystemExit(f"verwacht één tekening in {vraag!r}, vond er {len(treffers)}")
+    return F(int(treffers[0][1]), int(treffers[0][2]))
+
+
+def kleur(vraag, vorm, delen, deel, uitleg):
+    """Een kleuroefening: het kind kleurt `deel` van een tekening in `delen` stukken.
+    Het antwoord is hoeveel stukken gekleurd moeten zijn."""
+    stukken = F(deel) * delen
+    if stukken.denominator != 1:
+        raise SystemExit(f"{vraag!r}: {deel} van {delen} stukken is geen geheel aantal")
+    return dict(type="invultekst", vraag=f"{vraag} {{{{kleur {vorm} {delen}}}}}",
+                antwoord=str(stukken.numerator), uitleg=uitleg, reken=stukken)
+
+
+SCHEIDING = " · "
+
+
+def sleep(vraag, items, richting, uitleg):
+    """Een sleepoefening: getallen in volgorde op een lijn zetten. Schrijf de
+    items in de juiste volgorde; `reken` zet ze zelf in volgorde om na te kijken."""
+    waarden = [getal(i) for i in items]
+    if len(set(waarden)) != len(waarden):
+        raise SystemExit(f"{vraag!r}: twee getallen zijn even groot")
+    juist = sorted(items, key=getal, reverse=(richting == "groot-klein"))
+    return dict(type="invultekst", vraag=f"{vraag} {{{{sleep {richting}}}}}",
+                opties=list(items), antwoord=SCHEIDING.join(items), uitleg=uitleg,
+                reken=SCHEIDING.join(juist))

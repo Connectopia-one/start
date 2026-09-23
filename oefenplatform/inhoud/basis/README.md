@@ -28,6 +28,29 @@ De bundels staan in `../leerbundels/wiskunde/` en komen uit
 `../leerbundels/bron/maak_basis.py`. Upload ze op `/beheer/leerstof` met
 categorie 🧱 Basis; elke bundel hoort bij deel 1 én deel 2.
 
+## Extra oefeningen: wiskunde-extra.json
+
+Later op 23 september vroeg Kim extra oefeningen, zonder nieuwe leerbundels:
+kommagetallen vergelijken, optellen en aftrekken (want kinderen dachten dat
+0,7 kleiner is dan 0,65), en breuken in beeld. Die staan in een apart bestand,
+`wiskunde-extra.json`, zodat `wiskunde.json` niet opnieuw geïmporteerd hoeft te
+worden. Importeer het één keer op dezelfde manier.
+
+| Hoofdstuk | Vragen |
+| --- | --- |
+| Kommagetallen vergelijken, optellen en aftrekken — deel 1 en 2 | 2 x 20 |
+| Breuken in beeld — deel 1 en 2 | 2 x 20 |
+
+Deze vragen gebruiken codes in de vraagtekst, die `components/Figuren.tsx`
+omzet in een tekening of een sleepoefening. Er is dus geen nieuwe kolom in de
+databank nodig.
+
+- `{{figuur cirkel 3/8}}` tekent een cirkel (ook `strook` of `raster`) met 3 van de 8 stukken gekleurd.
+- `{{kleur strook 10}}` bij een invulvraag: het kind kleurt zelf stukken in. Het antwoord is het aantal gekleurde stukken.
+- `{{sleep klein-groot}}` (of `groot-klein`) bij een invulvraag: het kind sleept de opties in volgorde. De opties staan in de juiste volgorde, het antwoord is ze samen met " · " ertussen. Na het controleren tekent het platform waar ze echt op de getallenlijn liggen.
+
+In `bron/reken.py` maken `figuur`, `kleur` en `sleep` die codes aan.
+
 ## Een vraag aanpassen
 
 De vragen staan per thema in `bron/*.py`. Pas daar aan en draai dan:
