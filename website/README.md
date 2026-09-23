@@ -21,6 +21,7 @@ aan, en sla op.
 | Blogberichten                            | `content/blog.ts`            |
 | Het prikbord                             | `content/prikbord.ts`        |
 | Sponsors en samenwerkingen               | `content/sponsors.ts`        |
+| De winactie van het oefenplatform        | `content/winactie.ts`        |
 | De kleuren van de hele site              | `app/globals.css`            |
 
 ## Een paar dingen die vaak voorkomen
