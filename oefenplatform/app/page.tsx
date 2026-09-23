@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Header } from "@/components/Header";
 import { getSessionProfile } from "@/lib/auth";
 import { NIVEAUS } from "@/lib/niveaus";
+import { startUitleg } from "@/inhoud/onderwijsdoelen";
 
 export default async function HomePage() {
   const session = await getSessionProfile();
@@ -17,7 +18,33 @@ export default async function HomePage() {
           Interactieve oefeningen, gemaakt door Connectopia. Kies hieronder een categorie om te
           starten.
         </p>
-        <p className="mt-3 max-w-2xl rounded-md bg-info/10 px-4 py-3 text-sm text-ink">
+
+        {/* Wie hier voor het eerst komt, weet nog niet wat dit is en waarop het
+            steunt. Vier korte zinnen, en een link voor wie het naadje van de
+            kous wil. De volledige tekst staat op /over-ons. */}
+        <section className="mt-5 max-w-2xl rounded-xl border border-border bg-surface p-5">
+          <h2 className="font-display text-base font-semibold text-ink">{startUitleg.kop}</h2>
+          <ul className="mt-2 space-y-1.5 text-sm text-ink-dim">
+            {startUitleg.punten.map((punt) => (
+              <li key={punt} className="flex gap-2">
+                <span aria-hidden className="text-forest">
+                  &bull;
+                </span>
+                <span>{punt}</span>
+              </li>
+            ))}
+          </ul>
+          <p className="mt-3 text-sm">
+            <Link
+              href={startUitleg.link}
+              className="text-forest-dark underline-offset-2 hover:underline"
+            >
+              {startUitleg.linkTekst}
+            </Link>
+          </p>
+        </section>
+
+        <p className="mt-5 max-w-2xl rounded-md bg-info/10 px-4 py-3 text-sm text-ink">
           💡 Kies de categorie die het beste past bij wat je kind <strong>al kan</strong> — niet
           per se het officiële leerjaar of de leeftijd. Een kind mag gerust een categorie hoger of
           lager oefenen dan de klas waarin het zit.

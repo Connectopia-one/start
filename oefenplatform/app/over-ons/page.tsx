@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Header } from "@/components/Header";
 import { getSessionProfile } from "@/lib/auth";
 import { PRIJS_NU_EUR, TIJDELIJKE_PRIJS, TIJDELIJKE_PRIJS_UITLEG } from "@/lib/prijs";
@@ -65,6 +66,14 @@ export default async function OverOnsPage() {
               Al het materiaal wordt door ons zelf samengesteld en geredigeerd. We volgen de
               officiële leerplannen op de voet, zodat jouw kind gericht kan oefenen op wat écht
               belangrijk is.
+            </p>
+            <p className="mt-2 text-sm">
+              <Link
+                href="/onderwijsdoelen"
+                className="text-forest-dark underline-offset-2 hover:underline"
+              >
+                Bekijk per niveau en per vak welke doelen we gebruiken
+              </Link>
             </p>
           </section>
 
