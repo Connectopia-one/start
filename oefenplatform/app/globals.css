@@ -38,3 +38,24 @@ h3,
 .font-display {
   font-family: var(--font-display), Georgia, serif;
 }
+
+/*
+  Afdrukken. Alles met de klasse "niet-afdrukken" verdwijnt van het papier:
+  de menubalk, de invulformuliertjes en de verwijderknoppen. Zo kan je een
+  opvolgfiche meenemen naar een oudercontact zonder dat er knoppen op staan.
+*/
+@media print {
+  .niet-afdrukken,
+  header {
+    display: none !important;
+  }
+
+  body {
+    background: #fff;
+  }
+
+  main {
+    max-width: none;
+    padding: 0;
+  }
+}

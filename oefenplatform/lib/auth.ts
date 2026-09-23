@@ -4,7 +4,7 @@ import { createClient } from "@/lib/supabase/server";
 export type Profile = {
   id: string;
   full_name: string;
-  role: "ouder" | "beheerder";
+  role: "ouder" | "beheerder" | "begeleider";
   is_plusklas: boolean;
   toegang_schooljaar: string | null;
 };
@@ -28,7 +28,11 @@ export async function getSessionProfile(): Promise<Session | null> {
     .eq("id", user.id)
     .single();
 
-  return { userId: user.id, email: user.email ?? null, profile: (profile as Profile) ?? null };
+  return {
+    userId: user.id,
+    email: user.email ?? null,
+    profile: (profile as Profile) ?? null,
+  };
 }
 
 /** Stuurt niet-ingelogde bezoekers naar /login. Geeft de sessie terug. */
@@ -42,5 +46,16 @@ export async function requireIngelogd(): Promise<Session> {
 export async function requireBeheerder(): Promise<Session> {
   const session = await requireIngelogd();
   if (session.profile?.role !== "beheerder") redirect("/account");
+  return session;
+}
+
+/**
+ * Voor de opvolgfiches van de plusklas: beheerder of begeleider.
+ * Een begeleider komt hiermee NIET in /beheer — die blijft enkel voor jou.
+ */
+export async function requireBegeleider(): Promise<Session> {
+  const session = await requireIngelogd();
+  const rol = session.profile?.role;
+  if (rol !== "beheerder" && rol !== "begeleider") redirect("/account");
   return session;
 }

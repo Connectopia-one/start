@@ -92,6 +92,34 @@ export default async function BeheerPage() {
           </section>
 
           <section>
+            <h2 className="font-display text-lg font-semibold text-ink">Opvolging plusklas</h2>
+            <p className="mt-3 text-sm text-ink-dim">
+              De fiche per plusklaskind: voortgang, jullie opmerkingen en het werk dat ze
+              thuis maakten. Om bij de hand te hebben op een oudercontact.
+            </p>
+            <Link
+              href="/begeleiding"
+              className="mt-4 inline-block rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
+            >
+              Fiches bekijken &rarr;
+            </Link>
+          </section>
+
+          <section>
+            <h2 className="font-display text-lg font-semibold text-ink">Begeleiders</h2>
+            <p className="mt-3 text-sm text-ink-dim">
+              Wie mag de opvolgfiches zien en erin schrijven. Een begeleider komt niet in dit
+              beheerscherm.
+            </p>
+            <Link
+              href="/beheer/begeleiders"
+              className="mt-4 inline-block rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
+            >
+              Begeleiders beheren &rarr;
+            </Link>
+          </section>
+
+          <section>
             <h2 className="font-display text-lg font-semibold text-ink">Voortgang</h2>
             <p className="mt-3 text-sm text-ink-dim">
               Score en aantal beantwoorde vragen per kind, over alle vakken heen.

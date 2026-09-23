@@ -6,24 +6,38 @@ export function Header({
   rol,
 }: {
   naam?: string;
-  rol?: "ouder" | "beheerder";
+  rol?: "ouder" | "beheerder" | "begeleider";
 }) {
   return (
     <header className="border-b border-border bg-surface">
       <div className="mx-auto flex max-w-4xl items-center justify-between gap-4 px-6 py-4">
-        <Link href="/" className="font-display text-lg font-semibold text-forest-dark">
+        <Link
+          href="/"
+          className="font-display text-lg font-semibold text-forest-dark"
+        >
           Oefenplatform
         </Link>
         <div className="flex items-center gap-4 text-sm">
           <Link href="/" className="text-forest-dark hover:underline">
             Vakken
           </Link>
-          <Link href="/materiaal" className="hidden text-forest-dark hover:underline sm:inline">
+          <Link
+            href="/materiaal"
+            className="hidden text-forest-dark hover:underline sm:inline"
+          >
             Materiaal
           </Link>
           <Link href="/over-ons" className="text-forest-dark hover:underline">
             Over ons
           </Link>
+          {(rol === "beheerder" || rol === "begeleider") && (
+            <Link
+              href="/begeleiding"
+              className="text-forest-dark hover:underline"
+            >
+              Begeleiding
+            </Link>
+          )}
           {rol === "beheerder" && (
             <Link href="/beheer" className="text-forest-dark hover:underline">
               Beheer
@@ -35,7 +49,10 @@ export function Header({
                 {naam}
               </Link>
               <form action={logout}>
-                <button type="submit" className="text-ink-dim underline-offset-2 hover:text-ink hover:underline">
+                <button
+                  type="submit"
+                  className="text-ink-dim underline-offset-2 hover:text-ink hover:underline"
+                >
                   Uitloggen
                 </button>
               </form>

@@ -191,6 +191,35 @@ Elke beantwoorde vraag wordt bewaard (ook bij herkansen) — zo blijft de volled
 zichtbaar, niet enkel de laatste poging. Zonder ingelogd account (bv. bij het gratis
 proefhoofdstuk als bezoeker) wordt niets bijgehouden.
 
+## Opvolgfiche plusklas (`/begeleiding`)
+
+Een achterliggende fiche per kind van de externe plusklas, om bij de hand te hebben op een
+oudercontact. Enkel jij en de begeleiders zien die; **ouders en kinderen zien er niets van, ook
+niet hun eigen fiche**. Dat is met opzet: een begeleider moet vrijuit kunnen noteren, en jij
+beslist zelf wat je op een oudercontact toont.
+
+Op de fiche staat per kind:
+
+- de **voortgang** per vak en per hoofdstuk, met score en wanneer er laatst geoefend werd, plus
+  de verdiende stickers;
+- **opmerkingen** die jullie er met de hand bij schrijven, met een datum, een soort (opmerking,
+  afspraak, of iets voor het oudercontact) en de naam van wie het schreef;
+- **werk van thuis**: pdf's of foto's van oefeningen die het kind thuis maakte.
+
+Alleen kinderen van een gezin dat met een **plusklascode** registreerde (`is_plusklas`) krijgen
+een fiche — ook voor jou als beheerder. Van andere gezinnen kan een begeleider niets zien.
+
+De fiche is gemaakt om af te drukken: de menubalk, de invulvelden en de verwijderknoppen vallen
+weg op papier. Gebruik gewoon Afdrukken in je browser.
+
+**Eenmalig**: voer `supabase/plusklasfiche.sql` één keer uit in de SQL Editor van je
+Supabase-project. Dat maakt de rol `begeleider`, de twee tabellen en de opslagmap `kinddossier`
+aan. Die map staat **niet** op publiek, anders dan die van Handig materiaal: het platform maakt
+telkens een tijdelijke link aan om een document te openen.
+
+Wie begeleider is, stel je in op `/beheer/begeleiders`. Beheerders maken of afzetten kan daar
+bewust niet — dat blijft iets voor de SQL Editor, zodat niemand zichzelf buitensluit.
+
 ## Handig materiaal (`/materiaal`)
 
 Onder de vier niveaus op de startpagina staat een aparte knop **Handig materiaal**. Die leidt naar
