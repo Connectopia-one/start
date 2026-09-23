@@ -1,3 +1,4 @@
+import { schrijfKeuzes } from "@/lib/antwoord";
 import { VraagTekst } from "@/components/Figuren";
 
 /*
@@ -24,16 +25,16 @@ export type Vraag = {
 export type Poging = {
   vraag_id: string;
   correct: boolean;
-  gegeven_antwoord: number | string | boolean | null;
+  gegeven_antwoord: number | string | boolean | number[] | null;
   beantwoord_op: string;
 };
 
 export function schrijfAntwoord(
   vraag: Vraag,
-  waarde: number | string | boolean | null,
+  waarde: number | string | boolean | number[] | null,
 ): string {
   if (waarde === null || waarde === undefined || waarde === "") return "—";
-  if (vraag.type === "meerkeuze") return vraag.opties?.[Number(waarde)] ?? "—";
+  if (vraag.type === "meerkeuze") return schrijfKeuzes(vraag.opties, waarde);
   if (vraag.type === "waarofniet")
     return waarde === true ? "Waar" : "Niet waar";
   return String(waarde);

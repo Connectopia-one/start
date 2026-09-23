@@ -1,3 +1,4 @@
+import { schrijfKeuzes } from "@/lib/antwoord";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Header } from "@/components/Header";
@@ -9,6 +10,7 @@ type Vraag = {
   id: string;
   volgnummer: number;
   type: "meerkeuze" | "invultekst" | "waarofniet";
+  // antwoord kan een lijstje nummers zijn: dan is er meer dan één juist.
   vraag: string;
   opties: string[] | null;
   antwoord: number | string | boolean;
@@ -18,16 +20,16 @@ type Vraag = {
 type VoortgangRij = {
   vraag_id: string;
   correct: boolean;
-  gegeven_antwoord: number | string | boolean | null;
+  gegeven_antwoord: number | string | boolean | number[] | null;
   beantwoord_op: string;
 };
 
-function formatAntwoord(vraag: Vraag, waarde: number | string | boolean | null): string {
+function formatAntwoord(
+  vraag: Vraag,
+  waarde: number | string | boolean | number[] | null
+): string {
   if (waarde === null || waarde === undefined || waarde === "") return "—";
-  if (vraag.type === "meerkeuze") {
-    const index = Number(waarde);
-    return vraag.opties?.[index] ?? "—";
-  }
+  if (vraag.type === "meerkeuze") return schrijfKeuzes(vraag.opties, waarde);
   if (vraag.type === "waarofniet") {
     return waarde === true ? "Waar" : "Niet waar";
   }

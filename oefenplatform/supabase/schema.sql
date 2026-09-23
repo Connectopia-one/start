@@ -81,6 +81,9 @@ end $$;
 -- opties: bij meerkeuze een array van keuzeteksten, bv. ["12", "14", "16"]
 -- antwoord: bij meerkeuze de index (bv. 1) of tekst; bij invultekst het juiste
 --           antwoord als tekst; bij waarofniet true/false.
+--           Bij meerkeuze mag het ook een lijstje indexen zijn, bv. [0, 2]:
+--           dan zijn er meerdere antwoorden juist en moet een kind ze allemaal
+--           aanduiden. Zie lib/antwoord.ts.
 create table if not exists public.vragen (
   id uuid primary key default gen_random_uuid(),
   hoofdstuk_id uuid not null references public.hoofdstukken(id) on delete cascade,

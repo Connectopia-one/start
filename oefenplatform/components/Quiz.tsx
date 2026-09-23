@@ -4,6 +4,7 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { registreerAntwoord, registreerSticker } from "@/app/voortgang-actions";
 import { KleurVraag, SleepVraag, VraagTekst, leesVraag } from "@/components/Figuren";
+import { gegevenKeuzes, juisteKeuzes, schrijfKeuzes, zelfdeKeuzes } from "@/lib/antwoord";
 
 const ACTIEF_KIND_KEY = "oefenplatform_actief_kind";
 
@@ -14,7 +15,8 @@ type Vraag = {
   type: "meerkeuze" | "invultekst" | "waarofniet";
   vraag: string;
   opties: string[] | null;
-  antwoord: number | string | boolean;
+  /** Een lijstje nummers betekent: er is meer dan één juist antwoord. */
+  antwoord: number | string | boolean | number[];
   uitleg: string | null;
   volgnummer: number;
   afbeeldingUrl?: string | null;
@@ -28,17 +30,19 @@ type Vraag = {
 };
 
 /** Het aangeklikte antwoord omgerekend naar hoe het opgeslagen moet worden. */
-function zoalsOpgeslagen(
-  vraag: Vraag,
-  gegeven: string | number | boolean | null
-): string | number | boolean | null {
-  if (vraag.type !== "meerkeuze" || typeof gegeven !== "number") return gegeven;
+function zoalsOpgeslagen(vraag: Vraag, gegeven: Gegeven): Gegeven {
+  if (vraag.type !== "meerkeuze") return gegeven;
   const volgorde = vraag.optieVolgorde;
-  if (!volgorde || gegeven < 0 || gegeven >= volgorde.length) return gegeven;
-  return volgorde[gegeven];
+  if (!volgorde) return gegeven;
+  const terug = (i: number) => (i >= 0 && i < volgorde.length ? volgorde[i] : i);
+  if (Array.isArray(gegeven)) return gegeven.map(terug).sort((a, b) => a - b);
+  if (typeof gegeven === "number") return terug(gegeven);
+  return gegeven;
 }
 
-type Status = { gecontroleerd: boolean; correct: boolean; gegevenAntwoord: string | number | boolean | null };
+type Gegeven = string | number | boolean | number[] | null;
+
+type Status = { gecontroleerd: boolean; correct: boolean; gegevenAntwoord: Gegeven };
 
 /**
  * Zet een ingetypt antwoord om naar een vorm die we kunnen vergelijken.
@@ -72,23 +76,38 @@ function normaliseerGetal(tekst: string): string | null {
   return getal === "0" ? "0" : treffer[1] + getal;
 }
 
-function isCorrect(vraag: Vraag, gegeven: string | number | boolean | null): boolean {
+function isCorrect(vraag: Vraag, gegeven: Gegeven): boolean {
   if (gegeven === null) return false;
   if (vraag.type === "invultekst") {
     return normaliseerAntwoord(String(gegeven)) === normaliseerAntwoord(String(vraag.antwoord));
   }
+  // Bij meerkeuze moet het aangeduide precies overeenkomen met wat juist is.
+  // Wie er één aanduidt terwijl er twee juist waren, heeft de vraag fout — net
+  // zoals op het examen, waar daar geen halve punten voor bestaan.
+  if (vraag.type === "meerkeuze") {
+    return zelfdeKeuzes(gegevenKeuzes(gegeven), juisteKeuzes(vraag.antwoord));
+  }
   return gegeven === vraag.antwoord;
+}
+
+/** Heeft het kind al iets aangeduid of ingevuld? */
+function isIngevuld(gegeven: Gegeven): boolean {
+  if (gegeven === null || gegeven === "") return false;
+  return !Array.isArray(gegeven) || gegeven.length > 0;
 }
 
 function VraagKaart({
   vraag,
   status,
+  alsVakjes,
   onAntwoord,
   onControleer,
 }: {
   vraag: Vraag;
   status: Status;
-  onAntwoord: (v: string | number | boolean) => void;
+  /** Vakjes in plaats van bolletjes: er kan meer dan één antwoord juist zijn. */
+  alsVakjes: boolean;
+  onAntwoord: (v: string | number | boolean | number[]) => void;
   onControleer: () => void;
 }) {
   const gegeven = status.gegevenAntwoord;
@@ -110,24 +129,33 @@ function VraagKaart({
 
       {vraag.type === "meerkeuze" && (
         <div className="mt-3 space-y-2">
-          {vraag.opties?.map((optie, i) => (
-            <label
-              key={i}
-              className={`flex cursor-pointer items-center gap-2 rounded-md border px-3 py-2 text-sm ${
-                gegeven === i ? "border-forest bg-forest/5" : "border-border"
-              }`}
-            >
-              <input
-                type="radio"
-                name={vraag.id}
-                checked={gegeven === i}
-                disabled={status.gecontroleerd}
-                onChange={() => onAntwoord(i)}
-                className="accent-forest"
-              />
-              {optie}
-            </label>
-          ))}
+          {vraag.opties?.map((optie, i) => {
+            const aangeduid = alsVakjes ? gegevenKeuzes(gegeven).includes(i) : gegeven === i;
+            return (
+              <label
+                key={i}
+                className={`flex cursor-pointer items-center gap-2 rounded-md border px-3 py-2 text-sm ${
+                  aangeduid ? "border-forest bg-forest/5" : "border-border"
+                }`}
+              >
+                <input
+                  type={alsVakjes ? "checkbox" : "radio"}
+                  name={vraag.id}
+                  checked={aangeduid}
+                  disabled={status.gecontroleerd}
+                  onChange={() => {
+                    if (!alsVakjes) return onAntwoord(i);
+                    const nu = gegevenKeuzes(gegeven);
+                    onAntwoord(
+                      nu.includes(i) ? nu.filter((k) => k !== i) : [...nu, i].sort((a, b) => a - b)
+                    );
+                  }}
+                  className="accent-forest"
+                />
+                {optie}
+              </label>
+            );
+          })}
         </div>
       )}
 
@@ -183,7 +211,7 @@ function VraagKaart({
         <button
           type="button"
           onClick={onControleer}
-          disabled={gegeven === null || gegeven === ""}
+          disabled={!isIngevuld(gegeven)}
           className="mt-4 rounded-md bg-forest px-4 py-2 text-sm font-medium text-white transition hover:bg-forest-dark disabled:cursor-not-allowed disabled:opacity-40"
         >
           Controleer
@@ -195,6 +223,14 @@ function VraagKaart({
           }`}
         >
           <p className="font-medium">{status.correct ? "Juist!" : "Niet helemaal juist."}</p>
+          {!status.correct && alsVakjes && vraag.opties && (
+            <p className="mt-1 text-ink">
+              {juisteKeuzes(vraag.antwoord).length > 1
+                ? `Er waren ${juisteKeuzes(vraag.antwoord).length} juiste antwoorden: `
+                : "Juist was: "}
+              <strong>{schrijfKeuzes(vraag.opties, juisteKeuzes(vraag.antwoord))}</strong>
+            </p>
+          )}
           {vraag.uitleg && <p className="mt-1 text-ink">{vraag.uitleg}</p>}
         </div>
       )}
@@ -242,6 +278,12 @@ export function Quiz({
       // ignore
     }
   };
+
+  // Staat er in dit hoofdstuk één vraag met meer dan één juist antwoord, dan
+  // krijgen álle meerkeuzevragen vakjes. Zou enkel die ene vraag vakjes hebben,
+  // dan verklapt het vakje het antwoord en oefent het kind net niet waar het om
+  // gaat: zelf zien hoeveel antwoorden er juist zijn.
+  const alsVakjes = vragen.some((v) => Array.isArray(v.antwoord) && v.antwoord.length > 1);
 
   const aantalGecontroleerd = Object.values(statussen).filter((s) => s.gecontroleerd).length;
   const aantalCorrect = Object.values(statussen).filter((s) => s.correct).length;
@@ -299,11 +341,20 @@ export function Quiz({
         </p>
       )}
 
+      {alsVakjes && (
+        <p className="rounded-md bg-amber/10 px-3 py-2 text-xs text-ink">
+          Let op: bij de keuzevragen in dit hoofdstuk kan er méér dan één antwoord juist zijn. Duid
+          alles aan wat klopt — net als op het examen krijg je de vraag maar goed als je ze allemaal
+          hebt, niet de helft.
+        </p>
+      )}
+
       {vragen.map((vraag) => (
         <VraagKaart
           key={`${vraag.id}-${ronde}`}
           vraag={vraag}
           status={statussen[vraag.id]}
+          alsVakjes={alsVakjes}
           onAntwoord={(v) =>
             setStatussen((s) => ({ ...s, [vraag.id]: { ...s[vraag.id], gegevenAntwoord: v } }))
           }
