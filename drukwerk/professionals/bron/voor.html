@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<title>Connectopia voor professionals, voorkant</title>
+<link rel="stylesheet" href="stijl.css">
+<style>
+  .wie { padding: 3mm 11mm 0; }
+  .wie .rij { display: grid; grid-template-columns: 1fr; gap: 2.4mm; margin-top: 2mm; }
+  .wie p { font-size: 8.8pt; line-height: 1.45; font-weight: 600; color: var(--ink-dim); }
+  .wie p b { color: var(--ink); font-weight: 800; }
+
+  .doen { padding: 3.5mm 11mm 0; }
+  .kaarten { display: grid; grid-template-columns: 1fr 1fr; gap: 2.6mm; margin-top: 2.2mm; }
+  .kaart {
+    border-radius: 16px; background: #fff; border: .3mm solid var(--border);
+    padding: 2.3mm 3.2mm 2.5mm; display: flex; flex-direction: column;
+  }
+  .kaart .ic {
+    width: 7.4mm; height: 7.4mm; border-radius: 50%; display: inline-flex;
+    align-items: center; justify-content: center; font-size: 11pt;
+  }
+  .kaart.groen .ic { background: var(--sage-soft); }
+  .kaart.paars .ic { background: var(--purple-soft); }
+  .kaart.oranje .ic { background: var(--orange-soft); }
+  .kaart.blauw .ic { background: var(--blue-soft); }
+  .kaart .titel { font-weight: 900; font-size: 10.5pt; color: var(--green); margin-top: 1.4mm; line-height: 1.1; }
+  .kaart .sub { font-weight: 700; font-size: 7.5pt; color: var(--ink-dim); line-height: 1.3; margin-top: .8mm; }
+  .kaart .waar { margin-top: 1.4mm; padding-top: 1.4mm; border-top: .25mm dashed var(--border); font-size: 7.6pt; font-weight: 700; color: var(--ink); }
+  .kaart .waar span { display: block; color: var(--ink-dim); font-weight: 600; }
+
+</style>
+</head>
+<body>
+
+  <div class="hero">
+    <img src="startpagina.jpg" alt="" style="object-position: 50% 38%">
+    <svg class="golf" viewBox="0 0 148 10" preserveAspectRatio="none"><path d="M0 6 C 32 1, 63 1, 92 5 S 134 10, 148 3 L148 10 L0 10 Z" fill="#fbf6ea"/></svg>
+  </div>
+
+  <!-- saliegroene blaadjes, zoals op de website -->
+  <svg class="blad" style="left: 121mm; top: 26mm; width: 9mm; transform: rotate(35deg)" viewBox="0 0 40 40"><path d="M4 36 C 4 14, 18 4, 36 4 C 36 22, 26 36, 4 36 Z" fill="#8aa173"/><path d="M4 36 L 30 10" stroke="#fbf6ea" stroke-width="1.6" fill="none"/></svg>
+  <svg class="blad" style="left: 130mm; top: 30mm; width: 6mm; transform: rotate(-20deg)" viewBox="0 0 40 40"><path d="M4 36 C 4 14, 18 4, 36 4 C 36 22, 26 36, 4 36 Z" fill="#dfe7d0"/><path d="M4 36 L 30 10" stroke="#fbf6ea" stroke-width="1.6" fill="none"/></svg>
+
+  <section class="kop">
+    <div class="hand">Even kennismaken</div>
+    <h1>Ruimte voor kinderen met<br><span>hoogbegaafdheid, ASS en ADHD</span></h1>
+    <p>Connectopia vzw brengt kinderen van <b>6 tot 12 jaar</b> samen met gelijkgestemden, en helpt hun ouders hun weg te vinden. In Hasselt en Genk, het hele schooljaar door.</p>
+  </section>
+
+  <section class="wie">
+    <h2 class="blokkop">Wie we zijn <span class="hand">en wie we niet zijn</span></h2>
+    <div class="rij">
+      <p>Wij zijn <b>ervaringsdeskundige ouders</b> met een pedagogische achtergrond en een netwerk van specialisten. Lut, Kim en Melissa staan elke week zelf in de groepen.</p>
+      <div class="nuance">
+        <b>Wij stellen geen diagnoses en geven geen therapie.</b> Wij vullen aan wat u doet: een plek waar een kind peers vindt, en ouders die beter voorbereid bij u binnenkomen.
+      </div>
+    </div>
+  </section>
+
+  <section class="doen">
+    <h2 class="blokkop">Wat we doen</h2>
+    <div class="kaarten">
+      <div class="kaart groen">
+        <span class="ic">🚀</span>
+        <div class="titel">Externe plusklas</div>
+        <div class="sub">Een volledige dag verdiepen, in trajecten van tien dagen.</div>
+        <div class="waar">Dinsdag, 9u – 15u<span>Atheneum Hasselt</span></div>
+      </div>
+      <div class="kaart paars">
+        <span class="ic">🎓</span>
+        <div class="titel">Pluswerkingen</div>
+        <div class="sub">Een voormiddag extra uitdaging, in kleine groepjes.</div>
+        <div class="waar">Woensdag &amp; zaterdag, 9u – 12u<span>Genk en Hasselt</span></div>
+      </div>
+      <div class="kaart blauw">
+        <span class="ic">⚙️</span>
+        <div class="titel">Young Engineers</div>
+        <div class="sub">Naschools bouwen en experimenteren met LEGO® en techniek.</div>
+        <div class="waar">Di, wo &amp; za, lessen van 1u15<span>Hasselt en Genk</span></div>
+      </div>
+      <div class="kaart oranje">
+        <span class="ic">🏕️</span>
+        <div class="titel">Vakantiekampen</div>
+        <div class="sub">Nieuwsgierigheid, techniek en uitdaging, met een thema per kamp.</div>
+        <div class="waar">Elke schoolvakantie<span>Plaatsen zijn beperkt</span></div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="voet">
+    <img class="logo-kim" src="logo-kim-transparant.png" alt="Connectopia vzw">
+    <div class="tekst">
+      <div class="hand">Ruimte voor nieuwsgierigheid, talent en uitdaging</div>
+      www.connectopia.one<br>
+      info@matmgroep.com &nbsp;·&nbsp; 0468 35 74 96
+    </div>
+  </footer>
+
+</body>
+</html>
