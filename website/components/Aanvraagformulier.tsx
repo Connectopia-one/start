@@ -1,4 +1,5 @@
 import type { ReactNode } from "react";
+import type { Veld } from "@/content/formulier";
 import { formulierTekst, velden, verzenden } from "@/content/formulier";
 
 /*
@@ -14,6 +15,7 @@ export function Aanvraagformulier({
   kop,
   verborgen = [],
   optioneel = [],
+  vragen = velden,
 }: {
   /* Wat er in de onderwerpregel van de mail komt te staan. */
   onderwerp: string;
@@ -27,6 +29,11 @@ export function Aanvraagformulier({
     bijvoorbeeld de naam van het kind niet in te vullen.
   */
   optioneel?: string[];
+  /*
+    Andere vragen dan de gewone, voor een formulier dat iets anders vraagt,
+    zoals de inschrijving voor de winactie (content/winactie.ts).
+  */
+  vragen?: Veld[];
 }) {
   /*
     Zolang er geen formulierdienst is ingesteld, opent het formulier het
@@ -55,7 +62,7 @@ export function Aanvraagformulier({
       ))}
 
       <div className="grid gap-5 sm:grid-cols-2">
-        {velden.map((veld) => {
+        {vragen.map((veld) => {
           const lang = veld.soort === "lang";
           const verplicht = veld.verplicht && !optioneel.includes(veld.naam);
           const type =
