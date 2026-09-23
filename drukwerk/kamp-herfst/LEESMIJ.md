@@ -8,6 +8,7 @@ flyers.
 | `kamp-herfst-flyer.pdf` | A5, om af te drukken of digitaal door te sturen |
 | `kamp-herfst-flyer.png` | Dezelfde flyer als afbeelding, 300 dpi |
 | `kamp-herfst-post.png` | 1080 x 1350, voor Instagram en Facebook |
+| `kamp-herfst-post-vierkant.png` | 1080 x 1080, vierkant, met vier foto's bovenaan |
 
 De QR-code op de flyer wijst naar `https://www.connectopia.one/aanbod` en is
 nagelezen met een decoder, dus hij scant.
@@ -27,9 +28,19 @@ in Genk.
 cd bron
 PW=$(npm root -g)/playwright HTML=flyer.html OUT=preview.png PDF=flyer.pdf DSF=3.125 node render.js
 PW=$(npm root -g)/playwright node render-post.js
+PW=$(npm root -g)/playwright node render-post-vierkant.js
 ```
 
-`render.js` waarschuwt zelf als de tekst onder de voettekst schuift.
-De foto in de kop is `bron/hero.jpg`, een uitsnede van
-`fotos-werking/werken-aan-de-groene-tafels.jpg`: kinderen van achteren, dus geen
-herkenbare gezichten.
+`render.js` waarschuwt zelf als de tekst onder de voettekst schuift, en de twee
+`render-post*.js` doen hetzelfde voor de posts.
+
+De foto in de kop van de flyer en van de staande post is `bron/hero.jpg`, een
+uitsnede van `fotos-werking/werken-aan-de-groene-tafels.jpg`: kinderen van
+achteren, dus geen herkenbare gezichten.
+
+De vierkante post heeft bovenaan een strook van vier foto's, `bron/collage-1.jpg`
+tot `bron/collage-4.jpg`: een jongen die op karton tekent, de lego-robot met het
+gekleurde scherm, een jongen met zijn lego-wagen en een meisje naast haar
+kartonnen robot. **Op drie van die vier staat een kind herkenbaar in beeld.**
+Kim stuurde ze zelf door om te gebruiken; wie ze elders hergebruikt, kijkt best
+eerst na of de toestemming van die ouders er is.
