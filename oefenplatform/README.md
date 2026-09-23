@@ -215,7 +215,15 @@ Klik je op een hoofdstuk in de voortgangstabel, dan krijg je enkel dat hoofdstuk
 (`?hoofdstuk=...`); via de link bovenaan krijg je alles achter elkaar in één document. Er staat
 telkens het antwoord van de laatste poging bij, en hoeveel keer een vraag geprobeerd werd.
 
-De fiche en die testenpagina zijn gemaakt om af te drukken: de menubalk, de invulvelden en de
+Naast elk hoofdstuk staat **pdf**: dat maakt van die ene test meteen een pdf-bestand dat je
+downloadt en bewaart zoals een leerbundel. Die pdf wordt op de server getekend met `pdf-lib`
+(`lib/testpdf.ts`), dus zonder browser — licht genoeg om gewoon op Vercel te draaien. Twee
+gevolgen: de tekeningetjes bij een breukvraag staan er niet in (daar komt een korte omschrijving
+tussen haakjes), en emoji vallen weg, want het lettertype kent ze niet. De lettertypes staan in
+`lettertypes/` (DejaVu Sans, vrij te gebruiken, licentie erbij) en worden via
+`outputFileTracingIncludes` in `next.config.ts` mee uitgerold.
+
+De fiche en die testenpagina zijn ook gemaakt om af te drukken: de menubalk, de invulvelden en de
 verwijderknoppen vallen weg op papier. Gebruik Afdrukken in je browser en kies "Opslaan als pdf".
 Wil je zo'n pdf vastzetten in de tijd — bijvoorbeeld de stand van zaken op de dag van het
 oudercontact — laad hem dan op bij **Werk van thuis**; de testenpagina zelf toont altijd de

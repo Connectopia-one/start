@@ -140,9 +140,17 @@ export default async function TestenPage({
                 .size;
               return (
                 <section key={id}>
-                  <h2 className="font-display text-lg font-semibold text-forest-dark">
-                    {h.vak} — {h.titel}
-                  </h2>
+                  <div className="flex flex-wrap items-baseline justify-between gap-3">
+                    <h2 className="font-display text-lg font-semibold text-forest-dark">
+                      {h.vak} — {h.titel}
+                    </h2>
+                    <a
+                      href={`/begeleiding/${kindId}/testen/${id}/pdf`}
+                      className="niet-afdrukken text-sm font-medium text-forest-dark hover:underline"
+                    >
+                      Download als pdf
+                    </a>
+                  </div>
                   <p className="mt-1 mb-3 text-sm text-ink-dim">
                     {beantwoord} van de {vragen.length}{" "}
                     {vragen.length === 1 ? "vraag" : "vragen"} beantwoord

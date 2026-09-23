@@ -206,6 +206,7 @@ export default async function FichePage({
                             <th className="px-3 py-2">Hoofdstuk</th>
                             <th className="px-3 py-2">Score</th>
                             <th className="px-3 py-2">Laatst geoefend</th>
+                            <th className="niet-afdrukken px-3 py-2"></th>
                           </tr>
                         </thead>
                         <tbody>
@@ -225,6 +226,14 @@ export default async function FichePage({
                               </td>
                               <td className="px-3 py-2 text-ink-dim">
                                 {datum(h.laatst)}
+                              </td>
+                              <td className="niet-afdrukken px-3 py-2">
+                                <a
+                                  href={`/begeleiding/${kindId}/testen/${id}/pdf`}
+                                  className="text-forest-dark hover:underline"
+                                >
+                                  pdf
+                                </a>
                               </td>
                             </tr>
                           ))}
