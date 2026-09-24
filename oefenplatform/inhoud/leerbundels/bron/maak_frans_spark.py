@@ -59,6 +59,22 @@ BUNDELS["een-franse-tekst-lezen"] = dict(
                   "anders."),
             ("fig", svg.kernpiramide(),
              "Onderwerp in enkele woorden, hoofdgedachte in één zin, daaronder de punten die haar dragen."),
+            ("kader", "<strong>Doe het eens op een echte tekst.</strong> <em>Les animaux "
+                      "sauvages ne sont pas heureux au zoo. Ils ont besoin de bouger dans la "
+                      "nature. Ils sont sensibles au stress et leur comportement change.</em><br>"
+                      "Het <strong>onderwerp</strong> is 'wilde dieren in de zoo'. De "
+                      "<strong>hoofdgedachte</strong> is 'wilde dieren zijn niet gelukkig in de "
+                      "zoo'. De drie <strong>hoofdpunten</strong> zijn de zinnen die dat "
+                      "staande houden: ze moeten kunnen bewegen, ze zijn gevoelig voor stress, "
+                      "en hun gedrag verandert."),
+            ("fig", tabel(["Frans", "Nederlands"], [
+                ["les animaux sauvages", "de wilde dieren"],
+                ["heureux / malheureux", "gelukkig / ongelukkig"],
+                ["avoir besoin de", "nodig hebben"],
+                ["bouger, ils bougent", "bewegen, ze bewegen"],
+                ["sensible au stress", "gevoelig voor stress"],
+                ["le comportement change", "het gedrag verandert"],
+            ]), "Die woorden komen terug in elke tekst over dieren of over gezondheid."),
             ("p", "Een tekst kondigt zijn onderwerp vaak zelf aan met "
                   "<strong>il s'agit de…</strong> (het gaat over…). En 'Kavaan, un éléphant, "
                   "a quitté le zoo pour un parc naturel au Cambodge' zegt je de kern: de "
@@ -117,6 +133,12 @@ BUNDELS["een-franse-tekst-lezen"] = dict(
                 ["un article de journal, le titre", "een krantenartikel, de titel"],
                 ["courir, la piscine, les jeunes, un écran", "lopen, het zwembad, de jongeren, een scherm"],
                 ["passer du temps, devant, dormir, bouger", "tijd doorbrengen, voor, slapen, bewegen"],
+                ["ils passent, ils dorment, ils bougent, moins", "ze brengen door, ze slapen, ze bewegen, minder"],
+                ["le train part, souvent, du retard", "de trein vertrekt, vaak, vertraging"],
+                ["la fête de l'école, samedi, la cour", "het schoolfeest, zaterdag, de speelplaats"],
+                ["un anniversaire, dimanche 5 octobre, rue des Fleurs 12", "een verjaardag, zondag 5 oktober, Bloemenstraat 12"],
+                ["les transports en commun, Bruxelles", "het openbaar vervoer, Brussel"],
+                ["en France, on mange, en famille, différent", "in Frankrijk, men eet, met het gezin, anders"],
             ]), "Environ, la moitié en plus de gaan over een hoeveelheid; 'la plupart des élèves' (de meeste leerlingen) is niet hetzelfde als 'tous les élèves' (alle leerlingen)."),
             ("weetje", "Op het examen krijg je teksten over het dagelijkse leven, de "
                        "samenleving en het schoolleven, én over landen en streken waar Frans "
@@ -152,7 +174,9 @@ BUNDELS["tekstsoorten-signaalwoorden-en-verwijswoorden"] = dict(
             ]), "Prescriptief komt van 'voorschrijven', narratief van het Franse 'narrer' (vertellen), opiniërend van 'opinie', wat mening betekent."),
             ("p", "Aan de woorden zie je vaak meteen welk soort je voor je hebt. "
                   "<em>'Mélangez la farine et les œufs, puis ajoutez le lait'</em> geeft "
-                  "bevelen: meng en voeg toe. Dat is een recept, dus prescriptief. "
+                  "bevelen: meng en voeg toe. Ook <em>'Coupez les tomates. Ajoutez le sel et l'huile. "
+                  "Mélangez bien'</em> doet dat (<em>couper</em> = snijden, <em>une tomate</em>, "
+                  "<em>le sel</em> = het zout, <em>l'huile</em> = de olie). Dat is een recept, dus prescriptief. "
                   "<em>'Ce film est vraiment ennuyeux, je ne le conseille à personne'</em> is "
                   "een mening (<em>ennuyeux</em> = saai, <em>conseiller</em> = aanraden). "
                   "<em>'Bonjour à tous ! Aujourd'hui je vous emmène à Marseille'</em> is een "

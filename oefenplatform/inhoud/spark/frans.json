@@ -7,39 +7,43 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Je leest een Franse tekst over dieren in de zoo. Wat is het onderwerp van die tekst?",
+          "vraag": "Je leest: 'Les animaux sauvages ne sont pas heureux au zoo. Ils ont besoin de bouger dans la nature. Ils sont sensibles au stress et leur comportement change.' Wat is het ONDERWERP van die tekst?",
           "opties": [
-            "dieren in de zoo",
-            "dat dieren niet in een zoo horen",
+            "wilde dieren in de zoo",
+            "dat wilde dieren niet gelukkig zijn in de zoo",
             "dat dieren gevoelig zijn voor stress",
             "de schrijver van de tekst"
           ],
           "antwoord": 0,
-          "uitleg": "Het onderwerp zeg je in één of enkele woorden: waarover gaat de tekst? Wat de schrijver ervan vindt, is de hoofdgedachte, niet het onderwerp."
+          "uitleg": "Sauvage = wild, bouger = bewegen, sensible = gevoelig, le comportement = het gedrag. Het onderwerp zeg je in één of enkele woorden: waarover gaat de tekst? Wat de schrijver ervan vindt, is de hoofdgedachte."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de hoofdgedachte van een tekst?",
+          "vraag": "Dezelfde tekst: 'Les animaux sauvages ne sont pas heureux au zoo. Ils ont besoin de bouger dans la nature. Ils sont sensibles au stress et leur comportement change.' Wat is de HOOFDGEDACHTE?",
           "opties": [
-            "de belangrijkste boodschap, in één zin",
-            "het eerste woord van de titel",
-            "alles wat in de tekst staat",
-            "de mening van de lezer"
+            "Wilde dieren zijn niet gelukkig in de zoo.",
+            "wilde dieren",
+            "Dieren bewegen graag in de natuur.",
+            "De zoo is een mooie plaats om te bezoeken."
           ],
           "antwoord": 0,
-          "uitleg": "Het onderwerp is één of enkele woorden ('dieren'), de hoofdgedachte is een hele zin ('Dieren horen niet thuis in de zoo')."
+          "uitleg": "De hoofdgedachte is de belangrijkste boodschap, in één hele zin. 'Wilde dieren' is maar het onderwerp, en dat ze graag bewegen is een van de hoofdpunten."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat zijn de hoofdpunten van een tekst?",
+          "vraag": "Nog eens dezelfde tekst over de zoo. Welke zinnen zijn HOOFDPUNTEN, die de hoofdgedachte 'wilde dieren zijn niet gelukkig in de zoo' ondersteunen?",
           "opties": [
-            "de elementen die de hoofdgedachte ondersteunen",
-            "de moeilijke woorden",
-            "de titels en tussentitels",
-            "de laatste zin"
+            "Ils ont besoin de bouger dans la nature.",
+            "Ils sont sensibles au stress.",
+            "Leur comportement change.",
+            "Les animaux sauvages ne sont pas heureux au zoo."
           ],
-          "antwoord": 0,
-          "uitleg": "De hoofdpunten zijn de argumenten of feiten waarmee de schrijver zijn hoofdgedachte staande houdt."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Bewegen, stress en veranderend gedrag zijn de drie redenen die de boodschap staande houden. De laatste zin ís de hoofdgedachte zelf, geen steunpunt."
         },
         {
           "type": "waarofniet",
@@ -49,7 +53,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat doe je het best vóór je een Franse tekst begint te lezen?",
+          "vraag": "Boven een tekst staat 'Les jeunes et les écrans', met een foto van een gsm erbij. Wat doe je het best vóór je begint te lezen?",
           "opties": [
             "Je kijkt naar de titel en de foto's en vraagt je af waarover het gaat.",
             "Je zoekt alle onbekende woorden op.",
@@ -57,11 +61,11 @@
             "Je leest de tekst achterstevoren."
           ],
           "antwoord": 0,
-          "uitleg": "De fiche noemt dat een strategie: stel jezelf vragen vooraf. Wat weet ik al over dit onderwerp? Waarover zou de tekst kunnen gaan?"
+          "uitleg": "Les jeunes = de jongeren, un écran = een scherm. De fiche noemt dat een strategie: stel jezelf vragen vooraf. Wat weet ik al over dit onderwerp? Waarover zou de tekst kunnen gaan?"
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je komt een Frans woord tegen dat je niet kent. Wat doe je eerst?",
+          "vraag": "Je leest: 'Le train part à 8 h, mais il y a souvent du retard.' Je kent het woord 'retard' niet. Wat doe je eerst?",
           "opties": [
             "Je kijkt of je de betekenis uit de zin eromheen kan afleiden.",
             "Je stopt met lezen.",
@@ -69,7 +73,7 @@
             "Je slaat de hele alinea over."
           ],
           "antwoord": 0,
-          "uitleg": "Afleiden uit de context is de eerste strategie. Pas als het woord echt nodig is om de tekst te begrijpen, zoek je het op."
+          "uitleg": "De zin gaat over een trein en over 'mais' (maar), dus 'du retard' is iets vervelends: vertraging. Afleiden uit de context is de eerste strategie. Pas als het woord echt nodig is om de tekst te begrijpen, zoek je het op."
         },
         {
           "type": "meerkeuze",
@@ -107,15 +111,15 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je zoekt in een tekst het uur van een activiteit. Hoe lees je dan?",
+          "vraag": "Op een affiche staat: 'Fête de l'école — samedi 14 juin, à partir de 14 h, dans la cour.' Je moet weten hoe laat het begint. Hoe lees je zo'n tekst?",
           "opties": [
-            "Je zoekt gericht naar cijfers en tijdsaanduidingen.",
+            "Je zoekt gericht naar cijfers en naar 'h' of 'heures'.",
             "Je leest de hele tekst woord voor woord.",
             "Je leest alleen de laatste alinea.",
             "Je vertaalt de tekst eerst volledig."
           ],
           "antwoord": 0,
-          "uitleg": "Informatie selecteren betekent: zoek gericht wat je nodig hebt. Voor een uur zoek je cijfers, 'à', 'heures' of 'h'."
+          "uitleg": "Informatie selecteren betekent: zoek gericht wat je nodig hebt. Hier staat 'à partir de 14 h', dus het begint om 14 uur. Dat de fête in 'la cour' (de speelplaats) doorgaat, is het antwoord op een andere vraag."
         },
         {
           "type": "meerkeuze",
@@ -189,7 +193,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat betekent 'les habitudes alimentaires'?",
+          "vraag": "Je leest: 'En France, les habitudes alimentaires sont différentes: on mange souvent à midi en famille.' Wat betekent 'les habitudes alimentaires'?",
           "opties": [
             "de eetgewoonten",
             "de woongewoonten",
@@ -381,7 +385,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke gegevens zoek je gericht in een uitnodiging?",
+          "vraag": "Je krijgt deze uitnodiging: 'Anniversaire de Léa ! Dimanche 5 octobre, à 15 h, chez moi, rue des Fleurs 12.' Welke gegevens moest je daarin zoeken?",
           "opties": [
             "de datum",
             "het uur",
@@ -393,7 +397,7 @@
             1,
             2
           ],
-          "uitleg": "Wanneer, hoe laat en waar: dat is de informatie die je nodig hebt. Wie de affiche gedrukt heeft, hoef je zelden te weten."
+          "uitleg": "Dimanche 5 octobre (wanneer), à 15 h (hoe laat) en rue des Fleurs 12 (waar). Wie de affiche gedrukt heeft, hoef je zelden te weten."
         },
         {
           "type": "meerkeuze",
@@ -439,7 +443,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je moet in één woord zeggen waarover een tekst gaat. Wat is dat?",
+          "vraag": "Een tekst gaat over 'les transports en commun à Bruxelles'. Je moet in enkele woorden zeggen waarover hij gaat. Hoe heet dat?",
           "opties": [
             "het onderwerp",
             "de hoofdgedachte",
@@ -447,7 +451,7 @@
             "de conclusie"
           ],
           "antwoord": 0,
-          "uitleg": "Eén of enkele woorden is het onderwerp. Een hele zin is de hoofdgedachte."
+          "uitleg": "Les transports en commun = het openbaar vervoer. Enkele woorden is het onderwerp; een hele zin zou de hoofdgedachte zijn."
         },
         {
           "type": "meerkeuze",
@@ -482,7 +486,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Je leest een Frans recept. Wat wil die tekst van je?",
+          "vraag": "Je leest: 'Coupez les tomates. Ajoutez le sel et l'huile. Mélangez bien.' Wat wil die tekst van je?",
           "opties": [
             "Hij legt uit hoe je iets moet doen.",
             "Hij geeft een mening.",
@@ -490,7 +494,7 @@
             "Hij wil je ontroeren."
           ],
           "antwoord": 0,
-          "uitleg": "Een recept zegt stap voor stap wat je moet doen. De fiche noemt zo'n tekst prescriptief."
+          "uitleg": "Couper = snijden, ajouter = toevoegen, mélanger = mengen. Een recept zegt stap voor stap wat je moet doen. De fiche noemt zo'n tekst prescriptief."
         },
         {
           "type": "meerkeuze",

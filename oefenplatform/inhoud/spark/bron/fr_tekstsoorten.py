@@ -9,13 +9,13 @@ zoals ils en y, en signaalwoorden zoals d'abord, puis en parce que.
 
 DEEL1 = [
     dict(type="meerkeuze",
-         vraag="Je leest een Frans recept. Wat wil die tekst van je?",
+         vraag="Je leest: 'Coupez les tomates. Ajoutez le sel et l\'huile. Mélangez bien.' Wat wil die tekst van je?",
          opties=["Hij legt uit hoe je iets moet doen.",
                  "Hij geeft een mening.",
                  "Hij vertelt een verhaal.",
                  "Hij wil je ontroeren."],
          antwoord=0,
-         uitleg="Een recept zegt stap voor stap wat je moet doen. De fiche noemt zo'n tekst prescriptief."),
+         uitleg="Couper = snijden, ajouter = toevoegen, mélanger = mengen. Een recept zegt stap voor stap wat je moet doen. De fiche noemt zo'n tekst prescriptief."),
     dict(type="meerkeuze",
          vraag="Hoe heet een tekst die uitlegt wat of hoe je iets moet doen?",
          opties=["een prescriptieve tekst", "een narratieve tekst",
