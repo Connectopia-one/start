@@ -65,6 +65,30 @@ altijd uit. Lees de lijst dus zelf na: wat overblijft, zijn meestal gewone
 werkwoorden, en precies daartussen vind je af en toe een begrip dat écht
 vergeten is.
 
+## ✨ Spark — Nederlands
+
+`bron/maak_nederlands_spark.py` maakt tien bundels uit de vakfiche Nederlands
+1ste graad A-stroom, één per thema, in de map `nederlands/`:
+
+| bundel | hoort bij |
+| --- | --- |
+| `onderwerp-hoofdgedachte-en-hoofdpunten.pdf` | Onderwerp, hoofdgedachte en hoofdpunten — deel 1 en 2 |
+| `tekstsoorten-en-het-communicatiemodel.pdf` | Tekstsoorten en het communicatiemodel — deel 1 en 2 |
+| `feiten-meningen-en-betrouwbaarheid.pdf` | Feiten, meningen en betrouwbaarheid — deel 1 en 2 |
+| `tekststructuur-en-signaalwoorden.pdf` | Tekststructuur en signaalwoorden — deel 1 en 2 |
+| `schrijven-spreken-en-gesprekken-voeren.pdf` | Schrijven, spreken en gesprekken voeren — deel 1 en 2 |
+| `register-taalvariatie-en-non-verbale-communicatie.pdf` | Register, taalvariatie en non-verbale communicatie — deel 1 en 2 |
+| `literatuur-en-beeldspraak.pdf` | Literatuur en beeldspraak — deel 1 en 2 |
+| `spelling-leestekens-en-werkwoordsvormen.pdf` | Spelling, leestekens en werkwoordsvormen — deel 1 en 2 |
+| `woordsoorten-en-woordvorming.pdf` | Woordsoorten en woordvorming — deel 1 en 2 |
+| `zinsdelen-zinssoorten-en-congruentie.pdf` | Zinsdelen, zinssoorten en congruentie — deel 1 en 2 |
+
+Drie tekeningen kwamen erbij, onderaan `svg.py`: `communicatiemodel`,
+`registerschaal` en `kernpiramide`. De bundels voor spelling, woordsoorten en
+zinsdelen hergebruiken `kofschip`, `werkwoord_nu`, `lettergrepen`,
+`verkleinwoorden`, `woordvolgorde`, `zinsdelen` en `persoonsvormen`, die er al
+stonden voor 🌱 Start.
+
 ## 🧱 Basis — wiskunde
 
 `bron/maak_basis.py` maakt vijf bundels voor de herhaling van de bouwstenen:

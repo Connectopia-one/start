@@ -89,6 +89,43 @@ voorbeeldvragen naast te laten staan.
 De bundels staan in `../leerbundels/natuurwetenschappen/` en komen uit
 `../leerbundels/bron/maak_natuurwetenschappen_spark.py`.
 
+## nederlands.json
+
+Gebaseerd op de officiële vakfiche **Nederlands eerste graad A-stroom** die Kim
+bezorgde. Het examen weegt lezen en luisteren het zwaarst (60 %), daarna
+schrijven en gesprekken (32 %) en spreken (8 %); literatuur en taalbeschouwing
+komen bij de andere vaardigheden aan bod. Vier thema's gaan daarom over lezen en
+luisteren, twee over schrijven, spreken en register, één over literatuur, en
+drie over de ondersteunende kennis van het taalsysteem, die je bij alles nodig
+hebt.
+
+Klaar (400 vragen, tien thema's van 2 x 20):
+
+| Hoofdstuk | Vragen | Leerbundel |
+| --- | --- | --- |
+| Onderwerp, hoofdgedachte en hoofdpunten — deel 1 en 2 | 2 x 20 | onderwerp-hoofdgedachte-en-hoofdpunten.pdf |
+| Tekstsoorten en het communicatiemodel — deel 1 en 2 | 2 x 20 | tekstsoorten-en-het-communicatiemodel.pdf |
+| Feiten, meningen en betrouwbaarheid — deel 1 en 2 | 2 x 20 | feiten-meningen-en-betrouwbaarheid.pdf |
+| Tekststructuur en signaalwoorden — deel 1 en 2 | 2 x 20 | tekststructuur-en-signaalwoorden.pdf |
+| Schrijven, spreken en gesprekken voeren — deel 1 en 2 | 2 x 20 | schrijven-spreken-en-gesprekken-voeren.pdf |
+| Register, taalvariatie en non-verbale communicatie — deel 1 en 2 | 2 x 20 | register-taalvariatie-en-non-verbale-communicatie.pdf |
+| Literatuur en beeldspraak — deel 1 en 2 | 2 x 20 | literatuur-en-beeldspraak.pdf |
+| Spelling, leestekens en werkwoordsvormen — deel 1 en 2 | 2 x 20 | spelling-leestekens-en-werkwoordsvormen.pdf |
+| Woordsoorten en woordvorming — deel 1 en 2 | 2 x 20 | woordsoorten-en-woordvorming.pdf |
+| Zinsdelen, zinssoorten en congruentie — deel 1 en 2 | 2 x 20 | zinsdelen-zinssoorten-en-congruentie.pdf |
+
+De vragen staan per thema in `bron/nl_*.py`; `python3 bron/bouw_nederlands.py`
+zet ze samen in het importbestand en bewaakt de twintig vragen per deel, de
+opties, de vragen die dubbel zouden staan en het aandeel meerkeuzevragen met
+meerdere juiste antwoorden (hier 25 %, minstens twee per hoofdstuk).
+
+Nederlands had op ✨ Spark nog geen hoofdstuk in de databank staan — het
+voorbeeldhoofdstuk uit `supabase/schema.sql` staat op 🌱 Start — dus er wordt
+niets hernoemd.
+
+De bundels staan in `../leerbundels/nederlands/` en komen uit
+`../leerbundels/bron/maak_nederlands_spark.py`.
+
 ## Meerkeuze met meer dan één juist antwoord
 
 Bij de examencommissie staat er bij een meerkeuzevraag **niet** hoeveel

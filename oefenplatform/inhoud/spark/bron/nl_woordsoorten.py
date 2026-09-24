@@ -1,0 +1,330 @@
+# -*- coding: utf-8 -*-
+"""De vragen voor "Woordsoorten en woordvorming" (✨ Spark, Nederlands).
+
+Uit de vakfiche, Inzicht in het taalsysteem: de woordsoorten (zelfstandig en
+bijvoeglijk naamwoord, werkwoord, de voornaamwoorden — zelfstandig,
+bijvoeglijk, persoonlijk, bezittelijk, aanwijzend en vragend —, lidwoord,
+voegwoord, voorzetsel, telwoord, bijwoord en tussenwerpsel), de samenstellingen
+en afleidingen met voorvoegsel, achtervoegsel, stam en uitgang, enkelvoud en
+meervoud en het verkleinwoord, en de betekenisrelaties synoniem en homoniem.
+
+Deel 1 herkent de woordsoorten in korte zinnen. Deel 2 gaat over de soorten
+voornaamwoorden, over woordvorming en over woorden met meer dan één betekenis.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="In de zin 'De hond blaft luid' — welk woord noemt een ding of een wezen?",
+        opties=["hond", "blaft", "luid", "de"],
+        antwoord=0,
+        uitleg="'Hond' is een zelfstandig naamwoord: het noemt een wezen. Je kan er 'de' of 'het' voor zetten.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke woorden zijn lidwoorden?",
+        opties=["de", "het", "een", "die"],
+        antwoord=[0, 1, 2],
+        uitleg="Het Nederlands heeft er maar drie: de, het en een. 'Die' is een aanwijzend voornaamwoord.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat doet een bijvoeglijk naamwoord?",
+        opties=[
+            "Het zegt iets over een zelfstandig naamwoord",
+            "Het vervangt een naam",
+            "Het verbindt twee zinnen",
+            "Het geeft een aantal aan",
+        ],
+        antwoord=0,
+        uitleg="'Een snelle fiets', 'het blauwe huis': het bijvoeglijk naamwoord beschrijft het zelfstandig naamwoord.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="In 'de oude toren' is 'oude' een ___ naamwoord.",
+        antwoord="bijvoeglijk",
+        uitleg="Het zegt hoe de toren is. Zet je er 'zijn' tussen — de toren is oud — dan klopt het nog altijd.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk woord is een werkwoord?",
+        opties=["fietsen", "fiets", "fietser", "fietsje"],
+        antwoord=0,
+        uitleg="'Fietsen' noemt een handeling. 'Fiets', 'fietser' en 'fietsje' zijn zelfstandige naamwoorden.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke woorden zijn voorzetsels?",
+        opties=["op", "onder", "tussen", "omdat"],
+        antwoord=[0, 1, 2],
+        uitleg="Voorzetsels geven een plaats, tijd of richting aan. 'Omdat' verbindt zinnen: dat is een voegwoord.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat doet een voegwoord?",
+        opties=[
+            "Het verbindt woorden of zinnen met elkaar",
+            "Het beschrijft een zelfstandig naamwoord",
+            "Het geeft een gevoel weer",
+            "Het staat altijd vooraan",
+        ],
+        antwoord=0,
+        uitleg="En, of, maar, want, omdat, hoewel: ze koppelen delen aan elkaar en tonen het verband.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk woord is een telwoord?",
+        opties=["drie", "de", "snel", "ach"],
+        antwoord=0,
+        uitleg="Telwoorden geven een aantal of een rangorde aan: drie, tien, eerste, derde.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="In 'Hij loopt snel' zegt 'snel' iets over het werkwoord. Zo'n woord is een ___.",
+        antwoord="bijwoord",
+        uitleg="Een bijwoord zegt iets over een werkwoord, een bijvoeglijk naamwoord of een hele zin.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke woorden zijn tussenwerpsels?",
+        opties=["oei", "hè", "hoera", "hij"],
+        antwoord=[0, 1, 2],
+        uitleg="Tussenwerpsels drukken een gevoel of een reactie uit en staan los in de zin. 'Hij' is een persoonlijk voornaamwoord.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk woord is een persoonlijk voornaamwoord?",
+        opties=["zij", "haar boek", "die", "welke"],
+        antwoord=0,
+        uitleg="Persoonlijke voornaamwoorden vervangen een persoon of zaak: ik, jij, hij, zij, wij, hem, ons.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk woord in 'Dat is mijn jas' is een bezittelijk voornaamwoord?",
+        opties=["mijn", "dat", "is", "jas"],
+        antwoord=0,
+        uitleg="Bezittelijke voornaamwoorden zeggen van wie iets is: mijn, jouw, zijn, haar, ons, hun.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="'Deze' en 'die' zijn aanwijzende voornaamwoorden.",
+        antwoord=True,
+        uitleg="Ze wijzen iets aan: deze en dit dichtbij, die en dat verder weg.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk woord is een vragend voornaamwoord?",
+        opties=["wie", "een", "groot", "met"],
+        antwoord=0,
+        uitleg="Wie, wat, welke en wiens vragen naar een persoon of een zaak.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een samenstelling?",
+        opties=[
+            "Een woord dat uit twee bestaande woorden bestaat",
+            "Een woord met een voorvoegsel",
+            "Een woord in het meervoud",
+            "Een verkleinwoord",
+        ],
+        antwoord=0,
+        uitleg="Tandarts, voetbal, schoolreglement: twee woorden die samen één nieuw woord vormen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke woorden zijn samenstellingen?",
+        opties=["voetbal", "tandarts", "boekentas", "vriendelijk"],
+        antwoord=[0, 1, 2],
+        uitleg="De eerste drie bestaan uit twee woorden. 'Vriendelijk' is een afleiding: vriend plus het achtervoegsel -elijk.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Het stukje 'on-' in 'onvriendelijk' is een ___.",
+        antwoord="voorvoegsel",
+        uitleg="Een voorvoegsel staat vooraan en verandert de betekenis: on-, ver-, be-, her-.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk stukje van 'bakker' is het achtervoegsel?",
+        opties=["-er", "bak-", "-kk-", "ba-"],
+        antwoord=0,
+        uitleg="Het achtervoegsel -er maakt van het werkwoord bakken de persoon die bakt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het verkleinwoord van 'boom'?",
+        opties=["boompje", "boomje", "bomertje", "boomtje"],
+        antwoord=0,
+        uitleg="Na een m volgt -pje: boompje, bloempje. Er zijn vijf uitgangen: -je, -tje, -pje, -etje en -kje.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een verkleinwoord is in het Nederlands altijd onzijdig: je zegt 'het'.",
+        antwoord=True,
+        uitleg="Het is 'de bal', maar 'het balletje'. Elk verkleinwoord krijgt 'het'.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="In 'Deze fiets is nieuw' en 'Deze is nieuw' — wat is het verschil voor het woord 'deze'?",
+        opties=[
+            "In de eerste zin hoort het bij een naamwoord, in de tweede staat het er alleen",
+            "In de eerste zin is het een lidwoord",
+            "In de tweede zin is het een werkwoord",
+            "Er is geen verschil",
+        ],
+        antwoord=0,
+        uitleg="Hoort het voornaamwoord bij een zelfstandig naamwoord, dan is het bijvoeglijk gebruikt; staat het er alleen, dan zelfstandig.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke voornaamwoorden in deze zinnen zijn bezittelijk? 'Hun huis is groot. Zij wonen daar al jaren. Ons huis is klein.'",
+        opties=["hun", "ons", "zij", "daar"],
+        antwoord=[0, 1],
+        uitleg="'Hun' en 'ons' zeggen van wie iets is. 'Zij' is persoonlijk, 'daar' is een bijwoord.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat voor woordsoort is 'gisteren' in 'Gisteren regende het'?",
+        opties=["Een bijwoord", "Een bijvoeglijk naamwoord", "Een voorzetsel", "Een telwoord"],
+        antwoord=0,
+        uitleg="Het zegt wanneer iets gebeurde en hoort bij het werkwoord: dat is een bijwoord van tijd.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het verschil tussen een bijvoeglijk naamwoord en een bijwoord?",
+        opties=[
+            "Een bijvoeglijk naamwoord hoort bij een zelfstandig naamwoord, een bijwoord bij een werkwoord of een hele zin",
+            "Een bijwoord is altijd korter",
+            "Een bijvoeglijk naamwoord staat altijd achteraan",
+            "Er is geen verschil",
+        ],
+        antwoord=0,
+        uitleg="'Een snelle fiets' (bijvoeglijk naamwoord) tegenover 'hij fietst snel' (bijwoord).",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Een woord met dezelfde vorm maar met twee heel verschillende betekenissen, zoals 'bank', is een ___.",
+        antwoord="homoniem",
+        uitleg="Een bank om op te zitten en een bank waar je geld haalt: dezelfde vorm, een andere betekenis.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke woorden zijn homoniemen?",
+        opties=["bank", "slot", "kussen", "fiets"],
+        antwoord=[0, 1, 2],
+        uitleg="Een slot op een deur of het einde van een tekst; een kussen op de zetel of iemand kussen. 'Fiets' heeft maar één betekenis.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke woorden zijn synoniemen van 'mooi'?",
+        opties=["fraai", "prachtig", "schitterend", "lelijk"],
+        antwoord=[0, 1, 2],
+        uitleg="Synoniemen betekenen ongeveer hetzelfde. 'Lelijk' is net het tegengestelde.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom gebruik je synoniemen in een tekst?",
+        opties=[
+            "Om je tekst levendig te maken en herhaling te vermijden",
+            "Om je tekst langer te maken",
+            "Omdat dat verplicht is",
+            "Om moeilijker te klinken",
+        ],
+        antwoord=0,
+        uitleg="Variëren in woordenschat hoort bij de vereisten: het maakt je tekst aangenamer om te lezen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="'Voetbalclub' bestaat uit hoeveel woorden?",
+        opties=["Drie: voet, bal en club", "Twee: voetbal en club", "Eén", "Vier"],
+        antwoord=0,
+        uitleg="Samenstellingen kunnen uit meer dan twee delen bestaan. Voetbal is zelf al een samenstelling.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke woorden zijn afleidingen?",
+        opties=["onvriendelijk", "vriendschap", "bakker", "tandarts"],
+        antwoord=[0, 1, 2],
+        uitleg="Die drie bestaan uit een grondwoord plus een voor- of achtervoegsel. Tandarts is een samenstelling van twee volwaardige woorden.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Het stukje -schap in 'vriendschap' is een ___.",
+        antwoord="achtervoegsel",
+        uitleg="Achtervoegsels als -schap, -heid, -ing en -er maken een nieuw woord van een bestaand woord.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Je kan de betekenis van een onbekend woord soms raden aan de delen waaruit het bestaat.",
+        antwoord=True,
+        uitleg="'Onbereikbaar' is on + bereik + baar: niet te bereiken. Woordvorming herkennen is een leesstrategie.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het meervoud van 'kind'?",
+        opties=["kinderen", "kinds", "kinden", "kindes"],
+        antwoord=0,
+        uitleg="Sommige woorden hebben een onregelmatig meervoud op -eren: kind, ei, blad, lied.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke meervoudsvormen zijn juist?",
+        opties=["eieren", "bladeren", "liederen", "kinds"],
+        antwoord=[0, 1, 2],
+        uitleg="Ei, blad en lied krijgen -eren. 'Kinds' bestaat niet als meervoud.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk woord is een zelfstandig gebruikt bijvoeglijk naamwoord in 'De jonge speelt beter dan de oude'?",
+        opties=["jonge", "speelt", "beter", "dan"],
+        antwoord=0,
+        uitleg="'De jonge' staat waar je 'de jonge speler' verwacht: het bijvoeglijk naamwoord neemt de plaats van het naamwoord in.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="In 'Wat een lawaai!' — welke woordsoort is 'wat'?",
+        opties=[
+            "Een vragend voornaamwoord, hier in een uitroep",
+            "Een lidwoord",
+            "Een voegwoord",
+            "Een telwoord",
+        ],
+        antwoord=0,
+        uitleg="Wie, wat en welke zijn vragende voornaamwoorden. In een uitroepzin gebruik je ze zonder dat je echt iets vraagt.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een woord kan in de ene zin een andere woordsoort zijn dan in de andere.",
+        antwoord=True,
+        uitleg="'Hard' is een bijvoeglijk naamwoord in 'een harde bal' en een bijwoord in 'hij loopt hard'. Kijk altijd naar de zin.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke woordsoorten kunnen je vertellen waar iets ligt?",
+        opties=["een voorzetsel", "een bijwoord van plaats", "een zelfstandig naamwoord met een voorzetsel ervoor", "een lidwoord"],
+        antwoord=[0, 1, 2],
+        uitleg="'Onder de tafel', 'daar', 'in de kast': voorzetsels en bijwoorden van plaats doen dat werk. Een lidwoord nooit.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is de uitgang in 'werkte'?",
+        opties=["-te", "werk-", "-e", "wer-"],
+        antwoord=0,
+        uitleg="De stam is werk, de uitgang -te maakt er de verleden tijd van.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom is het handig om de woordsoorten te kennen?",
+        opties=[
+            "Omdat je er spellingregels en zinsbouw mee kan toepassen",
+            "Omdat je dan sneller leest",
+            "Omdat je dan geen woordenboek meer nodig hebt",
+            "Omdat het op het examen los gevraagd wordt",
+        ],
+        antwoord=0,
+        uitleg="Wie ziet dat 'wordt' een werkwoord is, weet welke regel geldt. Woordsoorten zijn ondersteunende kennis, geen doel op zich.",
+    ),
+]

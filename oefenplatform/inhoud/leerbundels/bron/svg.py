@@ -3980,3 +3980,68 @@ def faseovergangen(breedte=470):
         d.append(_kussen(ax0 + (ax1 - ax0) * deel, ay0 + (ay1 - ay0) * deel - 2, naam, 9.5, kleur,
                          anker="middle", vet=True))
     return _svg(breedte, h, _pijlpunten() + "".join(d))
+
+
+# ---------------------------------------------------------------------------
+# Nederlands ✨ Spark: communicatie, register en de opbouw van een tekst
+# ---------------------------------------------------------------------------
+
+def communicatiemodel(breedte=470):
+    """Zender, boodschap en ontvanger, met kanaal, context en doel erbij."""
+    h = 186
+    d = [f'<rect x="6" y="6" width="{breedte-12}" height="140" rx="14" fill="none" '
+         f'stroke="{BORDER}" stroke-width="1.6" stroke-dasharray="6 5"/>',
+         _tekst(20, 26, "context: de situatie waarin je communiceert", 9.5, DIM, "start")]
+    vakken = [(26, "zender", "wie stuurt", FOREST),
+              (180, "boodschap", "wat je zegt", AMBER),
+              (334, "ontvanger", "voor wie", FOREST)]
+    for x, naam, onder, kleur in vakken:
+        d.append(f'<rect x="{x}" y="52" width="110" height="46" rx="10" fill="{kleur}18" '
+                 f'stroke="{kleur}" stroke-width="1.7"/>')
+        d.append(_tekst(x + 55, 74, naam, 12.5, DARK, "middle", True))
+        d.append(_tekst(x + 55, 90, onder, 9.5, DIM))
+    for x1, x2 in ((140, 176), (294, 330)):
+        d.append(_pijl(x1, 75, x2, DIM))
+        d.append(_tekst((x1 + x2) / 2, 64, "kanaal", 9, DIM))
+    d.append(_tekst(235, 120, "kanaal: mail, app, blog, telefoon, gesprek", 10, DIM))
+    d.append(f'<rect x="120" y="152" width="230" height="28" rx="9" fill="#ffffff" '
+             f'stroke="{AMBER}" stroke-width="1.6"/>')
+    d.append(_tekst(235, 171, "doel: waarom stuur je die boodschap?", 10.5, AMBER, "middle", True))
+    return _svg(breedte, h, "".join(d))
+
+
+def registerschaal(breedte=470):
+    """Van informeel naar formeel, met een voorbeeldzin per stap."""
+    h = 160
+    d = [f'<line x1="30" y1="46" x2="{breedte-30}" y2="46" stroke="{BORDER}" stroke-width="8" '
+         f'stroke-linecap="round"/>']
+    punten = [(78, "informeel", "je beste vriend", "Hey, kom je straks?", FOREST),
+              (235, "neutraal", "je trainer", "Kom je straks ook?", DIM),
+              (breedte - 78, "formeel", "een onbekende", "Komt u straks ook?", AMBER)]
+    for x, naam, wie, zin, kleur in punten:
+        d.append(f'<circle cx="{x}" cy="46" r="9" fill="{kleur}"/>')
+        d.append(_tekst(x, 28, naam, 11.5, DARK, "middle", True))
+        d.append(_tekst(x, 76, wie, 9.5, DIM))
+        d.append(f'<rect x="{x-72}" y="88" width="144" height="30" rx="9" fill="#ffffff" '
+                 f'stroke="{kleur}" stroke-width="1.5"/>')
+        d.append(_tekst(x, 107, zin, 10.5, kleur, "middle", True))
+    d.append(_tekst(breedte/2, 142, "Niet één vorm is juist: de situatie en de ontvanger bepalen je keuze.",
+                    9.5, DIM))
+    return _svg(breedte, h, "".join(d))
+
+
+def kernpiramide(breedte=470):
+    """Van onderwerp naar hoofdgedachte naar hoofdpunten en details."""
+    h = 196
+    rijen = [("onderwerp", "één of enkele woorden", FOREST, 150),
+             ("hoofdgedachte", "de belangrijkste boodschap, in één zin", AMBER, 250),
+             ("hoofdpunten", "wat die boodschap ondersteunt", FOREST, 340),
+             ("details", "voorbeelden, cijfers, namen", DIM, 430)]
+    for i, (naam, onder, kleur, b) in enumerate(rijen):
+        y = 8 + i * 46
+        x = (breedte - b) / 2
+        d = f'<rect x="{x:.0f}" y="{y}" width="{b}" height="38" rx="9" fill="{kleur}18" ' \
+            f'stroke="{kleur}" stroke-width="1.6"/>'
+        rijen[i] = d + _tekst(breedte/2, y + 18, naam, 12, DARK, "middle", True) \
+                     + _tekst(breedte/2, y + 31, onder, 9.5, DIM)
+    return _svg(breedte, h, "".join(rijen))
