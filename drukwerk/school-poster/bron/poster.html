@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<title>Connectopia voor scholen</title>
+<link rel="stylesheet" href="stijl.css">
+<style>
+  .hero { height: 22mm; }
+  .kop { padding-top: 1mm; }
+  .kop p { margin-top: 1.4mm; }
+
+  .doen { padding: 1.8mm 11mm 0; }
+  .doen h2.blokkop { font-size: 12pt; }
+
+  .kaarten { display: grid; grid-template-columns: 1fr 1fr; gap: 1.8mm; margin-top: 1.6mm; }
+  .kaart {
+    border-radius: 14px; background: #fff; border: .3mm solid var(--border);
+    padding: 1.7mm 2.6mm 1.9mm; display: flex; flex-direction: column;
+  }
+  .kaart .ic {
+    width: 6mm; height: 6mm; border-radius: 50%; display: inline-flex;
+    align-items: center; justify-content: center; font-size: 9pt;
+  }
+  .kaart.groen .ic { background: var(--sage-soft); }
+  .kaart.paars .ic { background: var(--purple-soft); }
+  .kaart.oranje .ic { background: var(--orange-soft); }
+  .kaart.blauw .ic { background: var(--blue-soft); }
+  .kaart .titel { font-weight: 900; font-size: 9.8pt; color: var(--green); margin-top: .8mm; line-height: 1.05; }
+  .kaart .sub { font-weight: 700; font-size: 6.9pt; color: var(--ink-dim); line-height: 1.22; margin-top: .5mm; }
+  .kaart .prijs { margin-top: .8mm; font-size: 8.2pt; font-weight: 700; color: var(--ink); }
+  .kaart .prijs b { font-weight: 900; font-size: 10pt; }
+  .kaart.groen .prijs b { color: var(--green); }
+  .kaart.paars .prijs b { color: var(--purple); }
+  .kaart.oranje .prijs b { color: var(--orange); }
+  .kaart.blauw .prijs b { color: var(--blue); }
+  .kaart .waar { margin-top: .7mm; padding-top: .7mm; border-top: .25mm dashed var(--border); font-size: 7.3pt; font-weight: 700; color: var(--ink); }
+  .kaart .waar span { display: block; color: var(--ink-dim); font-weight: 600; }
+
+  /* de strook die zegt dat het voor élk van de vier geldt */
+  .altijd {
+    margin-top: 1.8mm; border-radius: 14px; background: var(--sage-soft);
+    border: .3mm solid #cdd9bb; padding: 1.6mm 3.4mm;
+    display: flex; flex-wrap: wrap; align-items: baseline; gap: 1mm 2.6mm;
+    font-size: 7.8pt; font-weight: 600; color: var(--ink);
+  }
+  .altijd b { font-weight: 900; color: var(--green); }
+  .altijd .stip { color: var(--sage); }
+
+  .actiewrap { padding: 1.8mm 11mm 0; }
+  .actie { padding: 2.2mm 2.6mm 2.2mm 5mm; }
+  .actie h3 { font-size: 12pt; }
+</style>
+</head>
+<body>
+
+  <div class="hero">
+    <img src="startpagina.jpg" alt="" style="object-position: 50% 38%">
+    <svg class="golf" viewBox="0 0 148 10" preserveAspectRatio="none"><path d="M0 6 C 32 1, 63 1, 92 5 S 134 10, 148 3 L148 10 L0 10 Z" fill="#fbf6ea"/></svg>
+  </div>
+
+  <!-- saliegroene blaadjes, zoals op de website -->
+  <svg class="blad" style="left: 121mm; top: 22mm; width: 9mm; transform: rotate(35deg)" viewBox="0 0 40 40"><path d="M4 36 C 4 14, 18 4, 36 4 C 36 22, 26 36, 4 36 Z" fill="#8aa173"/><path d="M4 36 L 30 10" stroke="#fbf6ea" stroke-width="1.6" fill="none"/></svg>
+  <svg class="blad" style="left: 130mm; top: 26mm; width: 6mm; transform: rotate(-20deg)" viewBox="0 0 40 40"><path d="M4 36 C 4 14, 18 4, 36 4 C 36 22, 26 36, 4 36 Z" fill="#dfe7d0"/><path d="M4 36 L 30 10" stroke="#fbf6ea" stroke-width="1.6" fill="none"/></svg>
+
+  <section class="kop">
+    <div class="hand">Op zoek naar extra uitdaging voor een leerling?</div>
+    <h1>Ruimte voor kinderen met<br><span>hoogbegaafdheid, ASS en ADHD</span></h1>
+    <p>Extra uitdaging voor kinderen van <b>6 tot 12 jaar</b>, na school en in het weekend, in Hasselt en Genk. Herkent u een leerling die zich verveelt of vastloopt? Verwijs de ouders gerust door.</p>
+  </section>
+
+  <section class="doen">
+    <h2 class="blokkop">Wat we aanbieden <span class="hand">en wat het kost</span></h2>
+    <div class="kaarten">
+      <div class="kaart groen">
+        <span class="ic">🚀</span>
+        <div class="titel">Externe plusklas</div>
+        <div class="sub">Een volledige dag verdiepen, in trajecten van tien dagen.</div>
+        <div class="prijs"><b>&euro;50</b> per dag</div>
+        <div class="waar">Dinsdag, 9u – 15u<span>Atheneum Hasselt</span></div>
+      </div>
+      <div class="kaart paars">
+        <span class="ic">🎓</span>
+        <div class="titel">Pluswerkingen</div>
+        <div class="sub">Een voormiddag extra uitdaging, in kleine groepjes.</div>
+        <div class="prijs"><b>&euro;25</b> per voormiddag</div>
+        <div class="waar">Woensdag &amp; zaterdag, 9u – 12u<span>Genk en Hasselt</span></div>
+      </div>
+      <div class="kaart blauw">
+        <span class="ic">⚙️</span>
+        <div class="titel">Young Engineers</div>
+        <div class="sub">Naschools bouwen en experimenteren met LEGO® en techniek.</div>
+        <div class="prijs"><b>&euro;20</b> per les</div>
+        <div class="waar">Di, wo &amp; za, lessen van 1u15<span>Hasselt en Genk</span></div>
+      </div>
+      <div class="kaart oranje">
+        <span class="ic">🏕️</span>
+        <div class="titel">Vakantiekampen</div>
+        <div class="sub">Nieuwsgierigheid, techniek en uitdaging, met een thema per kamp.</div>
+        <div class="prijs"><b>&euro;40</b> per dag</div>
+        <div class="waar">Elke schoolvakantie<span>Plaatsen zijn beperkt</span></div>
+      </div>
+    </div>
+    <div class="altijd">
+      <span><b>Bij alles wat we doen:</b></span>
+      <span>inclusief</span><span class="stip">●</span>
+      <span>prikkelarm</span><span class="stip">●</span>
+      <span>kleine groepen</span><span class="stip">●</span>
+      <span>rustige ruimtes</span>
+    </div>
+  </section>
+
+  <section class="actiewrap">
+    <div class="actie">
+      <svg class="tw" viewBox="0 0 40 40"><path d="M4 36 C 4 14, 18 4, 36 4 C 36 22, 26 36, 4 36 Z" fill="#8aa173"/></svg>
+      <div>
+        <h3>Vragen of <span>doorverwijzen?</span></h3>
+        <p>Scan de code voor ons volledige aanbod, of neem contact op.</p>
+        <div class="contact">
+          <div><span class="ic" style="background: var(--orange)"><svg viewBox="0 0 24 24"><path fill="#fff" d="M2 5h20v14H2zm2 2v.5l8 5 8-5V7zm0 2.8V17h16V9.8l-8 5z"/></svg></span>info@matmgroep.com</div>
+          <div><span class="ic" style="background: var(--sage)"><svg viewBox="0 0 24 24"><path fill="#fff" d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 0 1 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.3 0 .7-.2 1z"/></svg></span>0468 35 74 96</div>
+        </div>
+      </div>
+      <div class="qr">
+        <img src="qr.svg" alt="">
+        <span>Aanbod &amp; inschrijven</span>
+      </div>
+    </div>
+  </section>
+
+  <footer class="voet">
+    <img class="logo-kim" src="logo-kim-transparant.png" alt="Connectopia vzw">
+    <div class="tekst">
+      <div class="hand">Ruimte voor nieuwsgierigheid, talent en uitdaging</div>
+      Connectopia vzw &nbsp;&middot;&nbsp; Hasselt en Genk<br>
+      www.connectopia.one
+    </div>
+  </footer>
+
+</body>
+</html>
