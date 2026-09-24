@@ -24,6 +24,7 @@ export default async function BeheerPage({
     { data: klasjes },
     { count: gezinnenCount },
     { count: nieuweBriefjes },
+    { count: nieuweAanvragen },
   ] = await Promise.all([
     supabase.from("klasjes").select("id, naam, slug").order("naam"),
     supabase
@@ -32,6 +33,11 @@ export default async function BeheerPage({
       .eq("role", "ouder"),
     beheerDb
       .from("prikbord_briefjes")
+      .select("id", { count: "exact", head: true })
+      .eq("gezien", false),
+    /* Staat de tabel er nog niet, dan geeft dit gewoon niets terug. */
+    beheerDb
+      .from("aanvragen")
       .select("id", { count: "exact", head: true })
       .eq("gezien", false),
   ]);
@@ -174,6 +180,25 @@ export default async function BeheerPage({
               className="mt-4 inline-block rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
             >
               Team beheren &rarr;
+            </Link>
+
+            <h2 className="mt-8 font-display text-lg font-semibold text-ink">
+              Aanvragen van de website
+              {(nieuweAanvragen ?? 0) > 0 && (
+                <span className="ml-2 rounded-full bg-forest px-2 py-0.5 align-middle text-xs font-semibold text-white">
+                  {nieuweAanvragen} nieuw
+                </span>
+              )}
+            </h2>
+            <p className="mt-3 text-sm text-ink-dim">
+              Wie op de website een formulier invult — een infovraag, een
+              inschrijving, een terugbelverzoek — komt hier binnen.
+            </p>
+            <Link
+              href="/beheer/aanvragen"
+              className="mt-4 inline-block rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
+            >
+              Aanvragen bekijken &rarr;
             </Link>
 
             <h2 className="mt-8 font-display text-lg font-semibold text-ink">

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Aanvraagformulier } from "@/components/Aanvraagformulier";
+import { aanvragenKlaar } from "@/lib/aanvragen-db";
 import { Icoon, Kaart, PaginaKop, Sectie } from "@/components/ui";
 import { contactTekst } from "@/content/contact";
 import { site } from "@/content/site";
@@ -9,7 +10,9 @@ export const metadata: Metadata = {
   description: contactTekst.tekst,
 };
 
-export default function ContactPagina() {
+export default async function ContactPagina() {
+  /* Komt de aanvraag in de databank terecht, of valt ze terug op een mail? */
+  const viaDatabank = await aanvragenKlaar();
   return (
     <>
       <PaginaKop
@@ -65,6 +68,7 @@ export default function ContactPagina() {
           </p>
           <div className="mt-6">
             <Aanvraagformulier
+              viaDatabank={viaDatabank}
               onderwerp={contactTekst.terugbellen.onderwerp}
               verborgen={[
                 { naam: "Soort aanvraag", waarde: "Terugbelverzoek" },

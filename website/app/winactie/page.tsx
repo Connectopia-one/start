@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Aanvraagformulier } from "@/components/Aanvraagformulier";
+import { aanvragenKlaar } from "@/lib/aanvragen-db";
 import { Kaart, PaginaKop, Sectie } from "@/components/ui";
 import { site } from "@/content/site";
 import { winactie, winactieVelden } from "@/content/winactie";
@@ -16,7 +17,9 @@ const niveauKleur = [
   { vlak: "bg-purple-soft", tekst: "text-purple" },
 ];
 
-export default function WinactiePagina() {
+export default async function WinactiePagina() {
+  /* Komt de aanvraag in de databank terecht, of valt ze terug op een mail? */
+  const viaDatabank = await aanvragenKlaar();
   return (
     <>
       <PaginaKop
@@ -83,6 +86,7 @@ export default function WinactiePagina() {
               </p>
               <div className="mt-6">
                 <Aanvraagformulier
+              viaDatabank={viaDatabank}
                   onderwerp={winactie.onderwerp}
                   vragen={winactieVelden}
                   verborgen={[

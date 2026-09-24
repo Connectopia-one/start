@@ -5,6 +5,7 @@ import type { Veld } from "@/content/formulier";
 import { formulierTekst, velden, verzenden } from "@/content/formulier";
 import { site } from "@/content/site";
 import { mailtoUitFormulier } from "@/lib/mailversturen";
+import { aanvraagVersturen } from "@/app/acties";
 
 /*
   Het formulier dat op twee plaatsen gebruikt wordt: bij het aanbod
@@ -21,6 +22,7 @@ export function Aanvraagformulier({
   optioneel = [],
   vragen = velden,
   privacy = formulierTekst.privacy,
+  viaDatabank = false,
 }: {
   /* Wat er in de onderwerpregel van de mail komt te staan. */
   onderwerp: string;
@@ -45,6 +47,12 @@ export function Aanvraagformulier({
     niet op elke pagina.
   */
   privacy?: string;
+  /*
+    Staat de databank klaar? Dan komt de aanvraag rechtstreeks bij ons
+    binnen en gaat de bezoeker naar de bedanktpagina. Zo niet, dan valt
+    het formulier terug op een mail via zijn eigen mailprogramma.
+  */
+  viaDatabank?: boolean;
 }) {
   /*
     Zolang er geen formulierdienst is ingesteld, opent het formulier het
@@ -52,7 +60,7 @@ export function Aanvraagformulier({
     mail zelf op in plaats van het formulier ernaartoe te laten versturen;
     zie lib/mailversturen.ts voor waarom.
   */
-  const perMail = !verzenden.webadres;
+  const perMail = !viaDatabank && !verzenden.webadres;
   const [geopend, setGeopend] = useState<string | null>(null);
 
   function openMailprogramma(gebeurtenis: FormEvent<HTMLFormElement>) {
@@ -68,12 +76,31 @@ export function Aanvraagformulier({
 
   return (
     <form
-      action={perMail ? undefined : verzenden.webadres!}
-      method={perMail ? undefined : "post"}
+      action={
+        viaDatabank
+          ? aanvraagVersturen
+          : perMail
+            ? undefined
+            : verzenden.webadres!
+      }
+      method={viaDatabank || perMail ? undefined : "post"}
       onSubmit={perMail ? openMailprogramma : undefined}
       className="grid gap-5"
     >
       {kop}
+
+      {viaDatabank ? (
+        <>
+          <input type="hidden" name="onderwerp" value={onderwerp} />
+          {/* Een vakje dat alleen een robot invult. Blijft onzichtbaar. */}
+          <div className="hidden" aria-hidden>
+            <label>
+              Laat dit veld leeg
+              <input type="text" name="adres" tabIndex={-1} autoComplete="off" />
+            </label>
+          </div>
+        </>
+      ) : null}
       {verborgen.map((veld) => (
         <input
           key={veld.naam}
