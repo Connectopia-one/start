@@ -259,7 +259,7 @@ BUNDELS["het-menselijk-lichaam"] = dict(
                 ["<strong>brandstof</strong>", "energie leveren", "suikers en vetten"],
                 ["<strong>bouwstof</strong>", "groeien en herstellen", "eiwitten"],
                 ["<strong>beschermstof</strong>", "je lichaam goed laten werken", "vitaminen en mineralen"],
-            ]), "Water levert geen energie, maar is even onmisbaar: het vervoert stoffen, regelt je temperatuur en voert afval af."),
+            ]), "Water is ook een voedingsstof. Het levert geen energie, maar is even onmisbaar: het vervoert stoffen, regelt je temperatuur en voert afval af."),
             ("p", "<strong>Voedingsvezels</strong> uit groenten, fruit en volkoren producten worden niet "
                   "verteerd. Ze geven je darmen werk en houden je stoelgang vlot. Een "
                   "<strong>voedingsmiddel</strong> (een appel, een boterham) is trouwens iets anders dan "
@@ -337,7 +337,7 @@ BUNDELS["het-menselijk-lichaam"] = dict(
                   "alleen bewaart, en van de blaas naar buiten loopt één <strong>urinebuis</strong>."),
             ("p", "Een nier bestaat van buiten naar binnen uit het <strong>kapsel</strong>, de "
                   "<strong>schors</strong>, het <strong>merg</strong> met zijn <strong>piramides</strong>, "
-                  "en het <strong>bekken</strong>, waar de urine samenkomt."),
+                  "en het <strong>nierbekken</strong>, waar de urine samenkomt."),
             ("p", "Ook de <strong>zweetklieren</strong> (zweet), de <strong>longen</strong> "
                   "(koolstofdioxide en waterdamp) en de <strong>lever</strong> horen bij de uitscheiding. "
                   "Voedselresten zijn iets anders: die zijn nooit in je bloed geweest."),
@@ -467,7 +467,8 @@ BUNDELS["voortplanting"] = dict(
                   "zaadcellen zwemmen door de baarmoeder tot daar en één ervan versmelt met de eicel. De "
                   "<strong>bevruchte eicel</strong> reist naar de baarmoeder en nestelt zich in het "
                   "baarmoederslijmvlies: de <strong>innesteling</strong>."),
-            ("p", "Daarna deelt ze zich verder tot een <strong>embryo</strong>. Vanaf ongeveer acht weken "
+            ("p", "Daar, in de <strong>baarmoeder</strong>, groeit ze tijdens de <strong>zwangerschap</strong> "
+                  "verder uit tot een baby. Ze deelt zich eerst tot een <strong>embryo</strong>. Vanaf ongeveer acht weken "
                   "spreken we van een <strong>foetus</strong>, en na ongeveer negen maanden volgt de "
                   "geboorte van de <strong>baby</strong>."),
         ]),
@@ -550,7 +551,7 @@ BUNDELS["ecologie-en-biodiversiteit"] = dict(
                   "In het echt eet een dier meestal van verschillende soorten; al die ketens samen vormen "
                   "een <strong>voedselweb</strong>."),
             ("fig", svg.voedselpiramide(),
-             "Bij elke stap gaat er energie verloren als warmte. Daarom kan elke laag maar een kleinere laag boven zich voeden, en staan er onderaan het meeste organismen."),
+             "Deze voorstelling heet de voedselpiramide: elke laag wordt smaller naar boven toe. Bij elke stap gaat er energie verloren als warmte, dus kan elke laag maar een kleinere laag boven zich voeden."),
             ("p", "De <strong>voedselkringloop</strong> toont nog iets anders: stoffen draaien rond. "
                   "Planten nemen voedingsstoffen op, dieren eten, alles sterft, reducenten breken het af en "
                   "de voedingsstoffen komen weer in de bodem. <strong>Energie</strong> daarentegen stroomt "
@@ -793,7 +794,8 @@ BUNDELS["massadichtheid"] = dict(
                   "massadichtheid: bij hetzelfde volume hoort daar de grootste massa. Zo herken je op een "
                   "grafiek of in een tabel welke meetresultaten bij welke stof horen."),
             ("p", "Bij een <strong>vaste massa</strong> ligt het net omgekeerd: wordt het volume groter, "
-                  "dan wordt ρ = m / V kleiner. Daarom drijft een schip van staal: door zijn grote volume "
+                  "dan wordt ρ = m / V kleiner. Massadichtheid en volume zijn dan "
+                  "<strong>omgekeerd evenredig</strong>: het volume staat in de formule onder de deelstreep. Daarom drijft een schip van staal: door zijn grote volume "
                   "is zijn gemiddelde massadichtheid klein."),
         ]),
         dict(kop="Zinken, zweven, stijgen of drijven", blokken=[
