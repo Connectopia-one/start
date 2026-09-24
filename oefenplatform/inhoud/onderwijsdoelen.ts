@@ -100,10 +100,28 @@ export const doelenBlokken: DoelenBlok[] = [
         stand: "Volledig: negen hoofdstukken, elk met een deel 1 en een deel 2, en bij elk een leerbundel.",
       },
       {
+        naam: "Nederlands",
+        doelen:
+          "De onderdelen van de fiche: lezen en luisteren, schrijven, spreken en gesprekken, literatuur, en het taalsysteem met spelling, woordsoorten en zinsdelen.",
+        stand: "Volledig: tien thema's, elk met een deel 1 en een deel 2, en bij elk een leerbundel.",
+      },
+      {
+        naam: "Natuurwetenschappen",
+        doelen:
+          "De onderdelen van de fiche: de wetenschappelijke methode, materie en stoffen, energie, het leven en de mens, en de aarde en het heelal.",
+        stand: "Volledig: tien thema's, elk met een deel 1 en een deel 2, en bij elk een leerbundel.",
+      },
+      {
         naam: "Geschiedenis",
         doelen:
           "De onderdelen van de fiche: het historisch referentiekader, bronnen, en de periodes van de prehistorie tot nu.",
         stand: "Volledig: zes thema's, elk met een deel 1 en een deel 2, en bij elk een leerbundel.",
+      },
+      {
+        naam: "Frans",
+        doelen:
+          "Alleen de schriftelijke onderdelen van de fiche: lezen, schrijven, woordenschat en grammatica, plus een foto of afbeelding beschrijven. Luisteren, spreken en de gesprekken oefen je hier niet: daar heb je geluid en een gesprekspartner voor nodig.",
+        stand: "Volledig voor het schriftelijke deel: tien thema's, elk met een deel 1 en een deel 2, en bij elk een leerbundel.",
       },
     ],
   },

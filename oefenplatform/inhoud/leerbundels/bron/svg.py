@@ -4045,3 +4045,86 @@ def kernpiramide(breedte=470):
         rijen[i] = d + _tekst(breedte/2, y + 18, naam, 12, DARK, "middle", True) \
                      + _tekst(breedte/2, y + 31, onder, 9.5, DIM)
     return _svg(breedte, h, "".join(rijen))
+
+
+# ---------------------------------------------------------------------------
+# Frans ✨ Spark
+# ---------------------------------------------------------------------------
+
+def fotokader(breedte=470):
+    """Een fotokader met de plaatsaanduidingen die je nodig hebt om het te beschrijven."""
+    h = 214
+    x0, y0 = 34, 14
+    br, hg = breedte - 2 * x0, 148
+    d = [f'<rect x="{x0}" y="{y0}" width="{br}" height="{hg}" rx="10" fill="#ffffff" '
+         f'stroke="{DARK}" stroke-width="2"/>']
+    # de band van de achtergrond, bovenaan
+    d.append(f'<rect x="{x0}" y="{y0}" width="{br}" height="52" fill="{FOREST}12"/>')
+    d.append(f'<line x1="{x0}" y1="{y0+52}" x2="{x0+br}" y2="{y0+52}" stroke="{FOREST}" '
+             f'stroke-width="1.3" stroke-dasharray="5 4"/>')
+    d.append(_tekst(x0 + br / 2, y0 + 30, "à l&#39;arrière-plan — op de achtergrond", 11, FOREST, "middle", True))
+    # de drie kolommen
+    for i, naam in enumerate(("à gauche", "au milieu", "à droite")):
+        cx = x0 + br * (i + 0.5) / 3
+        if i:
+            lx = x0 + br * i / 3
+            d.append(f'<line x1="{lx:.1f}" y1="{y0+52}" x2="{lx:.1f}" y2="{y0+hg}" '
+                     f'stroke="{BORDER}" stroke-width="1.3" stroke-dasharray="4 4"/>')
+        d.append(_tekst(cx, y0 + 96, naam, 12.5, DARK, "middle", True))
+    d.append(f'<rect x="{x0}" y="{y0+hg-34}" width="{br}" height="34" fill="{AMBER}14"/>')
+    d.append(f'<line x1="{x0}" y1="{y0+hg-34}" x2="{x0+br}" y2="{y0+hg-34}" stroke="{AMBER}" '
+             f'stroke-width="1.3" stroke-dasharray="5 4"/>')
+    d.append(_tekst(x0 + br / 2, y0 + hg - 13, "au premier plan — op de voorgrond", 11, AMBER, "middle", True))
+    d.append(_tekst(breedte / 2, h - 12,
+                    "Sur la photo, il y a… — begin met wat je ziet, en zeg er meteen bij wáár.",
+                    10, DIM))
+    return _svg(breedte, h, "".join(d))
+
+
+def franse_tijden(breedte=470):
+    """De tijden van de vakfiche op één lijn: verleden, nu en toekomst."""
+    h = 204
+    y = 104
+    d = [f'<line x1="18" y1="{y}" x2="{breedte-18}" y2="{y}" stroke="{BORDER}" stroke-width="7" '
+         f'stroke-linecap="round"/>']
+    d.append(f'<circle cx="{breedte/2}" cy="{y}" r="8" fill="{AMBER}"/>')
+    d.append(_tekst(breedte / 2, y - 16, "maintenant", 11, AMBER, "middle", True))
+    blokken = [(62, "imparfait", "je mangeais", "wat gewoonlijk zo was", FOREST, True),
+               (172, "passé composé", "j&#39;ai mangé", "één keer, afgelopen", DARK, True),
+               (breedte - 172, "passé récent", "je viens de manger", "net gebeurd", DARK, False),
+               (breedte - 62, "futur proche", "je vais manger", "straks", FOREST, False)]
+    for x, naam, vorm, onder, kleur, boven in blokken:
+        ty = y - 88 if boven else y + 18
+        d.append(f'<rect x="{x-52:.0f}" y="{ty}" width="104" height="54" rx="9" fill="{kleur}12" '
+                 f'stroke="{kleur}" stroke-width="1.6"/>')
+        d.append(_tekst(x, ty + 16, naam, 10, DIM))
+        # de vormen verschillen sterk in lengte; laat de letter krimpen zodat
+        # "je viens de manger" niet buiten zijn vakje loopt
+        maat = min(11.5, 98 / (len(vorm.replace("&#39;", "'")) * 0.58))
+        d.append(_tekst(x, ty + 32, vorm, round(maat, 1), kleur, "middle", True))
+        d.append(_tekst(x, ty + 46, onder, 8.5, DIM))
+        lijn = (ty + 54, y - 4) if boven else (ty, y + 4)
+        d.append(f'<line x1="{x}" y1="{lijn[0]}" x2="{x}" y2="{lijn[1]}" stroke="{kleur}" '
+                 f'stroke-width="1.4" stroke-dasharray="3 3"/>')
+    d.append(_tekst(breedte / 2, h - 10, "Het présent staat in het midden: je mange.", 10, DIM))
+    return _svg(breedte, h, "".join(d))
+
+
+def voornaamwoordplaats(breedte=470):
+    """Waar het persoonlijk voornaamwoord staat: in het Frans vóór het werkwoord."""
+    h = 168
+    d = []
+    for rij, (taal, delen, kleur) in enumerate((
+            ("Nederlands", [("ik", DIM), ("zie", DARK), ("haar", AMBER)], DIM),
+            ("Frans", [("je", DIM), ("la", AMBER), ("vois", DARK)], FOREST))):
+        y = 26 + rij * 74
+        d.append(_tekst(24, y + 24, taal, 11, kleur, "start", True))
+        for i, (woord, wk) in enumerate(delen):
+            x = 128 + i * 112
+            d.append(f'<rect x="{x}" y="{y}" width="100" height="40" rx="9" fill="{wk}18" '
+                     f'stroke="{wk}" stroke-width="1.6"/>')
+            d.append(_tekst(x + 50, y + 26, woord, 14, DARK, "middle", True))
+    d.append(_tekst(breedte / 2, h - 10,
+                    "Het voorwerp staat in het Frans vóór het werkwoord, in het Nederlands erachter.",
+                    10, DIM))
+    return _svg(breedte, h, "".join(d))

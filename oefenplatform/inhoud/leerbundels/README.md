@@ -89,6 +89,39 @@ zinsdelen hergebruiken `kofschip`, `werkwoord_nu`, `lettergrepen`,
 `verkleinwoorden`, `woordvolgorde`, `zinsdelen` en `persoonsvormen`, die er al
 stonden voor 🌱 Start.
 
+## ✨ Spark — Frans
+
+`bron/maak_frans_spark.py` maakt tien bundels uit de vakfiche Frans 1ste graad
+A-stroom, één per thema, in de map `frans/`. **Alleen de schriftelijke
+onderdelen**: luisteren, spreken en de gesprekken vragen geluid en een
+gesprekspartner. Dat staat in een kader boven aan de eerste bundel, zodat een
+kind niet denkt dat het hiermee het hele examen oefent.
+
+| bundel | hoort bij |
+| --- | --- |
+| `een-franse-tekst-lezen.pdf` | Een Franse tekst lezen — deel 1 en 2 |
+| `tekstsoorten-signaalwoorden-en-verwijswoorden.pdf` | Tekstsoorten, signaalwoorden en verwijswoorden — deel 1 en 2 |
+| `schrijven-berichten-uitnodigingen-en-mails.pdf` | Schrijven: berichten, uitnodigingen en mails — deel 1 en 2 |
+| `een-foto-of-afbeelding-beschrijven.pdf` | Een foto of afbeelding beschrijven — deel 1 en 2 |
+| `woordenschat-mensen-familie-gevoelens-en-gezondheid.pdf` | Woordenschat: mensen, familie, gevoelens en gezondheid — deel 1 en 2 |
+| `woordenschat-eten-wonen-kleding-en-dagelijkse-dingen.pdf` | Woordenschat: eten, wonen, kleding en dagelijkse dingen — deel 1 en 2 |
+| `woordenschat-school-beroepen-sport-en-vrije-tijd.pdf` | Woordenschat: school, beroepen, sport en vrije tijd — deel 1 en 2 |
+| `woordenschat-getallen-tijd-weer-reizen-en-landen.pdf` | Woordenschat: getallen, tijd, weer, reizen en landen — deel 1 en 2 |
+| `grammatica-lidwoorden-naamwoorden-en-voornaamwoorden.pdf` | Grammatica: lidwoorden, naamwoorden en voornaamwoorden — deel 1 en 2 |
+| `grammatica-werkwoorden-tijden-en-zinsbouw.pdf` | Grammatica: werkwoorden, tijden en zinsbouw — deel 1 en 2 |
+
+Drie tekeningen kwamen erbij, onderaan `svg.py`: `fotokader` (de vakken van een
+foto: links, midden, rechts, voorgrond en achtergrond), `franse_tijden` (de vijf
+tijden rond het nu op een lijn) en `voornaamwoordplaats` (het voorwerp staat in
+het Frans vóór het werkwoord). De bundels hergebruiken verder `stappen`,
+`tabel`, `woordvolgorde`, `persoonsvormen`, `communicatiemodel`,
+`registerschaal`, `kernpiramide` en `kleurstalen`.
+
+De Franse namen van de grammaticale begrippen staan er met opzet bij
+(*substantif*, *article contracté*, *pronom personnel*, *verbes pronominaux*,
+*nombres ordinaux*): de vakfiche gebruikt ze, en op het examen kan een vraag ze
+gebruiken.
+
 ## 🧱 Basis — wiskunde
 
 `bron/maak_basis.py` maakt vijf bundels voor de herhaling van de bouwstenen:

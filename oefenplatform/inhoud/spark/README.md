@@ -126,6 +126,48 @@ niets hernoemd.
 De bundels staan in `../leerbundels/nederlands/` en komen uit
 `../leerbundels/bron/maak_nederlands_spark.py`.
 
+## frans.json
+
+Gebaseerd op de officiële vakfiche **Frans eerste graad A-stroom** die Kim
+bezorgde. **Alleen de schriftelijke onderdelen.** Het examen telt vijf
+onderdelen: luisteren (30 %), lezen (30 %), schrijven (2 x 8 %), spreken (8 %)
+en twee gesprekken (2 x 8 %). Luisteren, spreken en de gesprekken vragen geluid
+en een gesprekspartner, dus die oefen je hier niet. Wat hier wel staat — lezen,
+schrijven, woordenschat en grammatica — is samen goed voor 46 % van de punten.
+Dat staat zo in de leerbundels, op `/onderwijsdoelen` en hieronder, zodat
+niemand denkt dat hij hiermee het hele examen oefent.
+
+Twee thema's gaan over lezen (het zwaarste onderdeel dat hier kan), één over
+schrijven, één over een foto of afbeelding beschrijven (dat vraagt de fiche bij
+schrijven én bij literatuur), vier over de woordvelden van de fiche, en twee
+over de grammaticale begrippen die de fiche opsomt.
+
+Klaar (400 vragen, tien thema's van 2 x 20):
+
+| Hoofdstuk | Vragen | Leerbundel |
+| --- | --- | --- |
+| Een Franse tekst lezen — deel 1 en 2 | 2 x 20 | een-franse-tekst-lezen.pdf |
+| Tekstsoorten, signaalwoorden en verwijswoorden — deel 1 en 2 | 2 x 20 | tekstsoorten-signaalwoorden-en-verwijswoorden.pdf |
+| Schrijven: berichten, uitnodigingen en mails — deel 1 en 2 | 2 x 20 | schrijven-berichten-uitnodigingen-en-mails.pdf |
+| Een foto of afbeelding beschrijven — deel 1 en 2 | 2 x 20 | een-foto-of-afbeelding-beschrijven.pdf |
+| Woordenschat: mensen, familie, gevoelens en gezondheid — deel 1 en 2 | 2 x 20 | woordenschat-mensen-familie-gevoelens-en-gezondheid.pdf |
+| Woordenschat: eten, wonen, kleding en dagelijkse dingen — deel 1 en 2 | 2 x 20 | woordenschat-eten-wonen-kleding-en-dagelijkse-dingen.pdf |
+| Woordenschat: school, beroepen, sport en vrije tijd — deel 1 en 2 | 2 x 20 | woordenschat-school-beroepen-sport-en-vrije-tijd.pdf |
+| Woordenschat: getallen, tijd, weer, reizen en landen — deel 1 en 2 | 2 x 20 | woordenschat-getallen-tijd-weer-reizen-en-landen.pdf |
+| Grammatica: lidwoorden, naamwoorden en voornaamwoorden — deel 1 en 2 | 2 x 20 | grammatica-lidwoorden-naamwoorden-en-voornaamwoorden.pdf |
+| Grammatica: werkwoorden, tijden en zinsbouw — deel 1 en 2 | 2 x 20 | grammatica-werkwoorden-tijden-en-zinsbouw.pdf |
+
+De vragen staan per thema in `bron/fr_*.py`; `python3 bron/bouw_frans.py` zet ze
+samen in het importbestand en bewaakt de twintig vragen per deel, de opties, de
+vragen die dubbel zouden staan en het aandeel meerkeuzevragen met meerdere
+juiste antwoorden (hier 22 %, minstens twee per hoofdstuk).
+
+Frans had op ✨ Spark nog geen hoofdstuk in de databank staan, dus er wordt
+niets hernoemd: `frans.json` importeren met "Bestaande vragen vervangen" aan.
+
+De bundels staan in `../leerbundels/frans/` en komen uit
+`../leerbundels/bron/maak_frans_spark.py`.
+
 ## Meerkeuze met meer dan één juist antwoord
 
 Bij de examencommissie staat er bij een meerkeuzevraag **niet** hoeveel
