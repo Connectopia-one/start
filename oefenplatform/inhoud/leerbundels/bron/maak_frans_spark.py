@@ -66,7 +66,7 @@ BUNDELS["een-franse-tekst-lezen"] = dict(
                   "(<em>quitter</em> = verlaten)."),
         ]),
         dict(kop="Wat je doet vóór en tijdens het lezen: de strategieën", blokken=[
-            ("p", "De vakfiche noemt ze met die naam: <strong>strategieën</strong>, manieren van aanpakken die je helpen om een tekst te begrijpen ook als hij moeilijker is dan je aankan. Je hoeft ze niet uit het hoofd te kennen, je moet ze gebruiken."),
+            ("p", "De vakfiche noemt ze met die naam: <strong>strategieën</strong>. Dat zijn manieren van aanpakken waarmee je een tekst toch begrijpt als er woorden in staan die je niet kent. Je hoeft ze niet uit het hoofd te kennen, je moet ze gebruiken."),
             ("fig", svg.stappen([
                 "Titel en foto&#39;s|Waarover gaat dit?",
                 "Lezen en zoeken|Uur, prijs, datum",
@@ -82,7 +82,7 @@ BUNDELS["een-franse-tekst-lezen"] = dict(
                   "tijdsaanduidingen in plaats van de hele tekst woord voor woord te lezen. "
                   "In een <strong>uitnodiging</strong> of op een affiche zoek je net die drie "
                   "gegevens: de <strong>datum</strong>, het <strong>uur</strong> en de "
-                  "<strong>plaats</strong>. Wie de affiche gedrukt heeft, zelden."),
+                  "<strong>plaats</strong>. Wie de affiche gedrukt heeft, hoef je zelden te weten."),
             ("kader", "<strong>Je moet niet elk woord kennen.</strong> Leid de betekenis af uit "
                       "de zin eromheen, uit wat je al weet, of uit de manier waarop het woord "
                       "gevormd is. Beslis daarna of dat woord echt nodig is om de tekst te "
@@ -149,7 +149,7 @@ BUNDELS["tekstsoorten-signaalwoorden-en-verwijswoorden"] = dict(
                 ["prescriptief — een prescriptieve tekst", "legt uit wat of hoe je iets moet doen", "een recept, een instructiefilmpje op YouTube, een schoolreglement"],
                 ["narratief — een narratieve tekst", "geeft feiten en gebeurtenissen verhalend weer", "een videoblog, een reisverslag, een podcast"],
                 ["literair — een literaire tekst", "heeft een esthetische waarde, speelt in op emoties", "een lied, een gedicht, een cartoon, een strip, een kortverhaal"],
-            ]), "Prescriptief komt van 'voorschrijven', narratief van 'narrer' (vertellen), opinie van 'mening'."),
+            ]), "Prescriptief komt van 'voorschrijven', narratief van het Franse 'narrer' (vertellen), opiniërend van 'opinie', wat mening betekent."),
             ("p", "Aan de woorden zie je vaak meteen welk soort je voor je hebt. "
                   "<em>'Mélangez la farine et les œufs, puis ajoutez le lait'</em> geeft "
                   "bevelen: meng en voeg toe. Dat is een recept, dus prescriptief. "
@@ -240,11 +240,13 @@ BUNDELS["schrijven-berichten-uitnodigingen-en-mails"] = dict(
                 ["beleefd blijven", "s'il te plaît / s'il vous plaît"],
                 ["te laat zijn", "Je serai en retard."],
             ]), "Une fête = een feest. 'À plus !' is heel informeel; 'Cordialement' past bij een leerkracht."),
-            ("kader", "In een <strong>uitnodiging</strong> horen zeker drie gegevens: <strong>wanneer</strong> (de datum), <strong>hoe laat</strong> (het uur) en <strong>waar</strong> (de plaats). <em>Tu viens à ma fête samedi, à 15 heures, chez moi ?</em> Wie het feestje organiseert of hoeveel het kost, hoeft er niet in; die drie wel, anders weet je gast niet waar hij moet zijn."),
+            ("kader", "In een <strong>uitnodiging</strong> horen zeker drie gegevens: <strong>wanneer</strong> (de datum), <strong>hoe laat</strong> (het uur) en <strong>waar</strong> (de plaats). <em>Tu viens à ma fête samedi, à 15 heures, chez moi ?</em> Wie het feestje organiseert of hoeveel het kost, hoeft er niet in. Die drie wel: zonder datum, uur of plaats weet je gast niet wanneer en waar hij moet zijn."),
         ]),
         dict(kop="Tu of vous: het register", blokken=[
-            ("fig", svg.registerschaal(),
-             "Tegen een klasgenoot 'tu', tegen een onbekende volwassene 'vous'."),
+            ("fig", svg.registerschaal(zinnen=("Salut ! Tu viens ?",
+                                               "Bonjour, tu viens ?",
+                                               "Bonjour, vous venez ?")),
+             "Tegen een klasgenoot 'tu', tegen een onbekende volwassene 'vous'. En altijd eerst bonjour."),
             ("p", "De fiche verwacht van jou een <strong>neutraal of informeel register</strong> "
                   "met <strong>gepaste beleefdheidsconventies</strong>. Een daarvan is heel "
                   "concreet: spreek je in het Frans een politieagent of een verkoper aan, dan "
@@ -837,7 +839,7 @@ BUNDELS["grammatica-lidwoorden-naamwoorden-en-voornaamwoorden"] = dict(
         ]),
         dict(kop="Déterminants: mijn, deze, welke", blokken=[
             ("fig", tabel(["soort", "vormen", "voorbeeld"], [
-                ["bezittelijk (possessif)", "mon, ma, mes / ton, ta, tes / son, sa, ses", "mon livre, ma sœur (mijn zus), ma sœur s'appelle Léa, mes parents"],
+                ["bezittelijk (possessif)", "mon, ma, mes / ton, ta, tes / son, sa, ses", "mon livre, mes parents, ma sœur s'appelle Léa (mijn zus heet Léa)"],
                 ["aanwijzend (démonstratif)", "ce, cet, cette, ces", "ce livre (dit boek), cette table, ces enfants"],
                 ["vragend (interrogatif)", "quel, quelle, quels, quelles", "Quel livre ? Quelle heure est-il ?"],
             ]), "Sœur is vrouwelijk enkelvoud, dus ma sœur; heure is vrouwelijk, dus quelle heure."),

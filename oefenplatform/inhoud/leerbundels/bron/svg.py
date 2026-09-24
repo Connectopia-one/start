@@ -4010,14 +4010,19 @@ def communicatiemodel(breedte=470):
     return _svg(breedte, h, "".join(d))
 
 
-def registerschaal(breedte=470):
-    """Van informeel naar formeel, met een voorbeeldzin per stap."""
+def registerschaal(breedte=470, zinnen=None):
+    """Van informeel naar formeel, met een voorbeeldzin per stap.
+
+    Met `zinnen` geef je drie andere voorbeeldzinnen mee, bijvoorbeeld Franse.
+    De schaal zelf blijft dezelfde: informeel, neutraal, formeel.
+    """
     h = 160
+    a, b, c = zinnen or ("Hey, kom je straks?", "Kom je straks ook?", "Komt u straks ook?")
     d = [f'<line x1="30" y1="46" x2="{breedte-30}" y2="46" stroke="{BORDER}" stroke-width="8" '
          f'stroke-linecap="round"/>']
-    punten = [(78, "informeel", "je beste vriend", "Hey, kom je straks?", FOREST),
-              (235, "neutraal", "je trainer", "Kom je straks ook?", DIM),
-              (breedte - 78, "formeel", "een onbekende", "Komt u straks ook?", AMBER)]
+    punten = [(78, "informeel", "je beste vriend", a, FOREST),
+              (235, "neutraal", "je trainer", b, DIM),
+              (breedte - 78, "formeel", "een onbekende", c, AMBER)]
     for x, naam, wie, zin, kleur in punten:
         d.append(f'<circle cx="{x}" cy="46" r="9" fill="{kleur}"/>')
         d.append(_tekst(x, 28, naam, 11.5, DARK, "middle", True))

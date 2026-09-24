@@ -189,7 +189,7 @@ DEEL2 = [
          vraag="Wat betekent 'télécharger'?",
          opties=["downloaden", "opbellen", "uitzenden", "doorsturen"],
          antwoord=0,
-         uitleg="Télécharger = downloaden of uploaden, afhankelijk van de context. Un téléchargement is een download."),
+         uitleg="Télécharger = downloaden. Un téléchargement is een download. Iets naar het internet zetten is 'téléverser'."),
     dict(type="waarofniet",
          vraag="'Un réseau social' is een sociaal netwerk.",
          antwoord=True,

@@ -125,7 +125,7 @@ DEEL2 = [
          antwoord=[0, 1, 2],
          uitleg="De fiche vraagt een eenvoudige, gepaste structuur: inleiding, midden, slot. Een bronnenlijst hoort bij een werkstuk."),
     dict(type="meerkeuze",
-         vraag="Wat betekent 'la conditionnel de politesse' in de praktijk?",
+         vraag="Wat betekent 'le conditionnel de politesse' in de praktijk?",
          opties=["Je gebruikt 'je voudrais' in plaats van 'je veux'.",
                  "Je schrijft alles in de verleden tijd.",
                  "Je laat het werkwoord weg.",

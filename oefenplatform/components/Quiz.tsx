@@ -51,13 +51,45 @@ type Status = { gecontroleerd: boolean; correct: boolean; gegevenAntwoord: Gegev
  * kind dat het antwoord kent, hoort het ook juist te hebben.
  */
 function normaliseerAntwoord(waarde: string): string {
-  const tekst = waarde
+  const tekst = zonderAccenten(waarde)
     .trim()
     .toLowerCase()
     .replace(/[.!?]+$/, "")
     .replace(/\s+/g, " ")
     .replace(/^(de|het|een) /, "");
   return normaliseerGetal(tekst) ?? tekst;
+}
+
+/**
+ * Haalt de accenten van een woord af: "tête" wordt "tete", "sœur" wordt
+ * "soeur". Bij Frans staan er accenten in bijna elk antwoord, en die zijn op
+ * een toetsenbord lastig te typen — de œ van sœur al helemaal. Een kind dat
+ * het woord kent maar de ê niet vindt, hoort daarom niet fout te staan. De
+ * juiste schrijfwijze blijft wel zichtbaar: staat er een accentverschil, dan
+ * zet het platform het correcte woord erbij (zie AccentNota).
+ */
+function zonderAccenten(waarde: string): string {
+  return waarde
+    .replace(/œ/g, "oe")
+    .replace(/Œ/g, "OE")
+    .replace(/æ/g, "ae")
+    .replace(/Æ/g, "AE")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
+}
+
+/**
+ * Was het antwoord juist, maar schreef het kind het zonder de accenten? Dan
+ * geven we het woord zoals het hoort te staan. De vakfiche Frans vraagt
+ * uitdrukkelijk een redelijk correcte spelling, dus verzwijgen doen we het
+ * verschil niet.
+ */
+function accentverschil(vraag: Vraag, gegeven: Gegeven): string | null {
+  if (vraag.type !== "invultekst" || typeof gegeven !== "string") return null;
+  const juist = String(vraag.antwoord);
+  if (juist === zonderAccenten(juist)) return null;
+  if (gegeven.trim().toLowerCase() === juist.toLowerCase()) return null;
+  return juist;
 }
 
 /**
@@ -223,6 +255,12 @@ function VraagKaart({
           }`}
         >
           <p className="font-medium">{status.correct ? "Juist!" : "Niet helemaal juist."}</p>
+          {status.correct && accentverschil(vraag, status.gegevenAntwoord) && (
+            <p className="mt-1 text-ink">
+              Let op de accenten: je schrijft het als{" "}
+              <strong>{accentverschil(vraag, status.gegevenAntwoord)}</strong>.
+            </p>
+          )}
           {!status.correct && alsVakjes && vraag.opties && (
             <p className="mt-1 text-ink">
               {juisteKeuzes(vraag.antwoord).length > 1

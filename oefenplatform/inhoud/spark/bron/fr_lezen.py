@@ -128,7 +128,7 @@ DEEL1 = [
                  "Er zijn geen leesvragen op het examen.",
                  "Lezen telt even zwaar als spreken."],
          antwoord=0,
-         uitleg="De fiche geeft lezen 30 % en luisteren 30 %; schrijven, spreken en de twee gesprekken elk 8 %."),
+         uitleg="De fiche geeft luisteren 30 % en lezen 30 %. De vijf andere onderdelen tellen elk 8 %: twee schrijfopdrachten, spreken en twee gesprekken. Schrijven is dus samen 16 %."),
 ]
 
 DEEL2 = [
@@ -203,7 +203,7 @@ DEEL2 = [
          vraag="Welke gegevens zoek je gericht in een uitnodiging?",
          opties=["de datum", "het uur", "de plaats", "de naam van de drukker"],
          antwoord=[0, 1, 2],
-         uitleg="Wanneer, hoe laat en waar: dat is de informatie die je nodig hebt. Wie de affiche gedrukt heeft, zelden."),
+         uitleg="Wanneer, hoe laat en waar: dat is de informatie die je nodig hebt. Wie de affiche gedrukt heeft, hoef je zelden te weten."),
     dict(type="meerkeuze",
          vraag="Wat betekent 'une enquête'?",
          opties=["een onderzoek of een enquête", "een gevecht", "een vraag", "een antwoord"],

@@ -167,7 +167,7 @@ DEEL2 = [
          antwoord=True,
          uitleg="Allebei kunnen, maar de conditionnel (pourriez) klinkt voorzichtiger. De fiche vraagt die vorm in een mail aan een volwassene die je niet kent."),
     dict(type="meerkeuze",
-         vraag="Welke zin bevat een enkelvoudige zin?",
+         vraag="Welke zin is een enkelvoudige zin?",
          opties=["Je mange une pomme.",
                  "Je mange une pomme parce que j'ai faim.",
                  "Quand il pleut, je reste à la maison.",
