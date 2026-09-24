@@ -136,9 +136,11 @@ BUNDELS["tekstsoorten-en-het-communicatiemodel"] = dict(
                 ["een verhaal vertellen", "een videoblog, een reisverslag, een podcast, een verhalend gedicht"],
                 ["literaire teksten", "een jeugdboek, een kortverhaal, een strip, een gedicht, een lied, stand-upcomedy"],
             ]), "Een literaire tekst heeft een esthetische waarde en speelt vaak in op je gevoel."),
-            ("p", "Let op de valkuilen. Een stukje uit een leerboek <em>informeert</em>, het geeft "
-                  "geen instructies. Een <strong>interview</strong> bestaat uit vragen en "
-                  "antwoorden, maar wil je informeren. Een <strong>protestlied</strong> brengt een "
+            ("p", "Let op de valkuilen. Een stukje uit een leerboek is een "
+                  "<strong>informatieve tekst</strong> en geen "
+                  "<strong>instructieve tekst</strong>: het informeert, het geeft je geen "
+                  "instructies. Een <strong>interview</strong> bestaat uit vragen en "
+                  "antwoorden, maar is óók een informatieve tekst. Een <strong>protestlied</strong> brengt een "
                   "standpunt én is literair. En één tekst kan meer dan één doel hebben: een "
                   "publireportage informeert en verkoopt tegelijk, en een <strong>zoekertje</strong> "
                   "voor je oude gsm geeft informatie én wil iemand overtuigen om te kopen."),
@@ -291,12 +293,15 @@ BUNDELS["tekststructuur-en-signaalwoorden"] = dict(
                 ("Slot", "vat samen en trekt het besluit", 1.3),
             ]), "Een nieuw argument hoort in het midden, waar je het kan uitwerken, nooit in het slot."),
             ("p", "Een <strong>alinea</strong> heeft meestal één kerngedachte. Je begint er een "
-                  "nieuwe als je over iets nieuws gaat schrijven, en je laat witruimte ertussen. "
+                  "nieuwe bij een nieuw <strong>deelonderwerp</strong>, en je laat witruimte "
+                  "ertussen, wat je lezer helpt. "
                   "Hoe lang een alinea is, ligt niet vast: de inhoud beslist."),
             ("p", "Krijg je losse alinea's en moet je er een tekst van maken, dan herken je de "
                   "inleiding daaraan dat ze het onderwerp voorstelt, en het slot aan woorden als "
-                  "'kortom' of 'tot slot'. Zet je sterkste argument vooraan of helemaal "
-                  "achteraan: daar blijft het het best hangen."),
+                  "'kortom' of 'tot slot'. Schrijf je een <strong>betoog</strong>, een tekst "
+                  "waarin je iemand met argumenten wil overtuigen, zet je sterkste argument dan "
+                  "vooraan of helemaal achteraan: daar valt het het meest op en blijft het het "
+                  "best hangen."),
         ]),
         dict(kop="Signaalwoorden: wat komt er?", blokken=[
             ("p", "<strong>Signaalwoorden</strong> geven het verband tussen zinnen aan. Ze zeggen "
@@ -363,6 +368,10 @@ BUNDELS["schrijven-spreken-en-gesprekken-voeren"] = dict(
             ("p", "Ga je in gesprek over een <strong>maatschappelijk thema</strong> zoals "
                   "gezondheid, klimaat, sociale media, inspraak of mobiliteit, dan gebruik je "
                   "<strong>bronnen</strong>: lees vooraf iets en onthoud er een cijfer uit."),
+            ("p", "Wil je creatief zijn met taal, dan maken drie <strong>technieken</strong> een "
+                  "<strong>slogan</strong> sterk: <strong>rijm</strong>, <strong>ritme</strong> "
+                  "en een korte, opvallende <strong>lay-out</strong>. Lang is niet beter: een "
+                  "slogan werkt net omdat hij kort is."),
         ]),
         dict(kop="Eerst een plan", blokken=[
             ("p", "Begin nooit blind. Maak een <strong>schrijfplan</strong> of een "
@@ -387,14 +396,15 @@ BUNDELS["schrijven-spreken-en-gesprekken-voeren"] = dict(
                 ["woordenschat", "frequente én minder frequente woorden, eenvoudige figuurlijke taal"],
                 ["grammatica en zinsbouw", "je maakt correcte zinnen"],
                 ["tekststructuur en samenhang", "inleiding, midden en slot, met signaal- en verwijswoorden"],
-                ["register en beleefdheid", "formeel of informeel, passend bij je ontvanger"],
+                ["register en beleefdheid", "formeel of informeel, met de beleefdheidsconventies die bij je ontvanger passen"],
                 ["spelling en leestekens", "alleen bij schrijven en schriftelijke interactie"],
                 ["tekstopbouw en lay-out", "titels waar nodig, ingedeeld in alinea's met een witregel ertussen"],
                 ["lichaamstaal, vlotheid, uitspraak", "alleen bij spreken: oogcontact, vlot spreken, verzorgd Standaardnederlands"],
             ]), "Op een digitaal examen typ je, dus je handschrift telt niet mee."),
             ("p", "<strong>Vlotheid</strong> betekent niet zo snel mogelijk praten: even nadenken "
                   "mag, als je verhaal maar blijft lopen. Zit je vast, laat je dan niet "
-                  "ontmoedigen. Zoek een <strong>omschrijving</strong> voor het woord dat je "
+                  "ontmoedigen: er zijn <strong>strategieën</strong> die je verder helpen. "
+                  "Zoek een <strong>omschrijving</strong> voor het woord dat je "
                   "mist, herlees een stukje en schrijf van daaruit verder, of gebruik een "
                   "woordenboek of een spellingcontrole."),
             ("p", "Variëren maakt je tekst levendig: gebruik <strong>synoniemen</strong> en "
@@ -407,8 +417,10 @@ BUNDELS["schrijven-spreken-en-gesprekken-voeren"] = dict(
         ]),
         dict(kop="Een gesprek voeren", blokken=[
             ("p", "Bij een <strong>spreekopdracht</strong> ben je alleen aan het woord. Met "
-                  "<strong>interactie</strong> bedoelen we dat je in gesprek gaat met iemand. Je "
-                  "krijgt voorbereidingstijd, maar je moet ook spontaan kunnen reageren."),
+                  "<strong>interactie</strong> bedoelen we dat je in gesprek gaat met iemand. Voor "
+                  "beide <strong>mondelinge opdrachten</strong> krijg je "
+                  "<strong>voorbereidingstijd</strong>, maar je moet ook spontaan kunnen "
+                  "reageren op wat de ander zegt."),
             ("fig", svg.spreekballonnen([
                 ("beginnen", "Goeiedag, ik ben Lotte. Ik kom voor de inschrijving.", True),
                 ("gaande houden", "En hoe laat start de training dan precies?", False),
@@ -467,14 +479,14 @@ BUNDELS["register-taalvariatie-en-non-verbale-communicatie"] = dict(
                       "aanhef en een nette slotgroet. Alles wat te los klinkt, haal je weg."),
         ]),
         dict(kop="Variëteiten van het Nederlands", blokken=[
-            ("p", "Het Nederlands wordt op veel manieren gebruikt, en elke variëteit heeft haar "
-                  "eigen plaats. Geen enkele is minderwaardig; wat past, hangt van de situatie af."),
+            ("p", "Het Nederlands wordt op veel manieren gebruikt, en elke "
+                  "<strong>taalvariëteit</strong> heeft haar eigen plaats. Geen enkele is minderwaardig; wat past, hangt van de situatie af."),
             ("fig", tabel(["variëteit", "wat het is", "voorbeeld"], [
-                ["Standaardnederlands", "overal begrepen en aanvaard: school, nieuws, officiële teksten", "Ga je mee?"],
+                ["Standaardnederlands", "overal in het taalgebied begrepen en aanvaard: school, nieuws, officiële teksten", "Ga je mee?"],
                 ["tussentaal", "tussen dialect en standaardtaal in", "Ge gaat da nie doen, hè"],
                 ["dialect", "streekgebonden, van één streek of dorp", "verschilt per gemeente"],
                 ["jongerentaal", "onder jongeren, sterk beïnvloed door het Engels, Marokkaans of Surinaams", "verandert snel"],
-                ["jargon", "de vaktaal van een beroep of een hobby", "buitenspel, diagnose, debet"],
+                ["jargon of vakjargon", "de vaktaal van een beroep of een hobby", "buitenspel (voetbal), diagnose (geneeskunde), debet (boekhouding)"],
             ]), "'Ge' en 'gij' zijn de tussentalige varianten van 'je' en 'jij'."),
             ("p", "Binnen de standaardtaal bestaan er ook variëteiten: "
                   "<strong>Belgisch-Nederlands</strong> en "
@@ -483,14 +495,15 @@ BUNDELS["register-taalvariatie-en-non-verbale-communicatie"] = dict(
                   "grens. Vlamingen en Nederlanders spreken ook sommige woorden anders uit."),
             ("p", "Wie tussen variëteiten kan schakelen, communiceert net sterk: twee vrienden "
                   "die onder elkaar dialect spreken en overschakelen op Standaardnederlands zodra "
-                  "er iemand bijkomt die het niet begrijpt, passen hun taal aan hun "
-                  "gesprekspartner aan. Datzelfde doe je met jargon: tegenover iemand die het vak "
+                  "er iemand bijkomt die het niet begrijpt, passen hun <strong>taalvariëteit</strong> aan "
+                  "hun gesprekspartner aan. Datzelfde doe je met jargon: tegenover iemand die het vak "
                   "niet kent, is vaktaal een muur. Leg uit in gewone woorden, ook als je aan je "
                   "oma schrijft over haar tablet."),
             ("weetje", "Tussentaal spreken heeft niets met spelfouten te maken: spreken en "
                        "schrijven zijn twee verschillende dingen. En wie een bepaald dialect "
-                       "spreekt, wordt soms onterecht minder slim gevonden — dat oordeel zegt "
-                       "alleen iets over de vooroordelen van de luisteraar."),
+                       "spreekt, wordt soms onterecht minder slim gevonden. Dat heet "
+                       "<strong>stereotypering</strong>, en zo'n oordeel zegt alleen iets over "
+                       "de vooroordelen van de luisteraar."),
             ("p", "Talen lijken bovendien op elkaar: water en <em>water</em>, kat en "
                   "<em>cat</em>, restaurant en <em>restaurant</em>. Wie dat verband ziet, raadt "
                   "de betekenis van een onbekend woord sneller."),
@@ -595,7 +608,7 @@ BUNDELS["literatuur-en-beeldspraak"] = dict(
                   "een verhaal laat je kijken door de ogen van iemand anders. Dat staat zo in "
                   "de vakfiche."),
             ("p", "Voor het mondelinge deel van het examen lees je <strong>twee boeken</strong> "
-                  "uit de lectuurlijst. Je hoeft ze niet mee te brengen, maar je moet er wel over "
+                  "uit de lectuurlijst: je <strong>examenboeken</strong>. Je hoeft ze niet mee te brengen, maar je moet er wel over "
                   "kunnen vertellen. Denk tijdens het lezen na over deze vragen:"),
             ("kader", "Waarom spreken bepaalde aspecten van het boek je aan, of net niet? Waarom "
                       "herken je je in een bepaald personage, of net niet? Hoe zou jij reageren "
@@ -643,6 +656,8 @@ BUNDELS["spelling-leestekens-en-werkwoordsvormen"] = dict(
                        "regel die je met je hoofd toepast, niet met je oor."),
         ]),
         dict(kop="'t Kofschip: verleden tijd en deelwoord", blokken=[
+            ("p", "<strong>'t Kofschip</strong> is een <strong>ezelsbruggetje</strong>: in dat "
+                  "woord zitten precies de medeklinkers t, k, f, s, ch en p."),
             ("fig", svg.kofschip(),
              "Eindigt de stam op t, k, f, s, ch of p, dan -te(n) en -t. Anders -de(n) en -d."),
             ("p", "Werken → werkte, gewerkt (stam op k). Leren → leerde, geleerd (stam op r). "
@@ -659,7 +674,7 @@ BUNDELS["spelling-leestekens-en-werkwoordsvormen"] = dict(
                 ["voltooid tegenwoordige tijd", "hebben of zijn in de tegenwoordige tijd + deelwoord", "ik heb gelopen, wij hebben gelopen"],
                 ["voltooid verleden tijd", "had of was + deelwoord", "ik had mijn huiswerk al gemaakt"],
                 ["onvoltooid toekomende tijd", "zullen + het hele werkwoord", "ik zal morgen komen"],
-                ["gebiedende wijs", "de kale stam, zonder onderwerp", "Sluit de deur."],
+                ["gebiedende wijs of imperatief", "de kale stam, zonder onderwerp", "Sluit de deur."],
             ]), "Met 'heb' krijg je de voltooid tegenwoordige tijd, met 'had' de voltooid verleden tijd."),
         ]),
         dict(kop="Klank, woordbeeld en meervoud", blokken=[
@@ -685,6 +700,9 @@ BUNDELS["spelling-leestekens-en-werkwoordsvormen"] = dict(
                   "schoolreglement, handdoek, voetbalclub. Dat is het verschil met het Engels."),
         ]),
         dict(kop="Leestekens", blokken=[
+            ("p", "Leestekens plaatsen heet <strong>interpunctie</strong>. Een zin die juist "
+                  "<strong>geïnterpungeerd</strong> is, heeft al haar leestekens op de juiste "
+                  "plaats staan."),
             ("fig", tabel(["leesteken", "waarvoor"], [
                 ["punt", "sluit een mededelende zin af"],
                 ["vraagteken", "sluit een vraag af"],
@@ -762,7 +780,8 @@ BUNDELS["woordsoorten-en-woordvorming"] = dict(
                 ("achtervoegsel", "-elijk", svg.AMBER),
             ]), "Onvriendelijk: voorvoegsels als on-, ver-, be- en her-, achtervoegsels als -schap, -heid, -ing en -er."),
             ("p", "Dat is handig bij het lezen: 'onbereikbaar' is on + bereik + baar, dus niet te "
-                  "bereiken. Wie de delen herkent, raadt de betekenis."),
+                  "bereiken. De betekenis van een <strong>onbekend woord</strong> kan je zo vaak "
+                  "raden aan de delen waaruit het bestaat."),
             ("p", "Ook de <strong>uitgang</strong> hoort hierbij: in 'werkte' is werk de stam en "
                   "-te de uitgang die er de verleden tijd van maakt."),
         ]),
