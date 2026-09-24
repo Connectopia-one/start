@@ -28,7 +28,8 @@ goedkoopste ingreep die er bestaat.
 per klik, maar je kan Google laten leren welke klikken tot een inschrijving
 leiden, en je geld daarheen laten gaan. Dat heet "Maximaliseer conversies" of
 "Doel-CPA". Daarvoor moet Google wel kunnen zíén wanneer er iemand inschrijft,
-en dat kan vandaag nog niet — zie het laatste deel van dit document.
+en dat kan sinds de formulieren in onze eigen databank binnenkomen — zie het
+laatste deel van dit document.
 
 ---
 
@@ -260,27 +261,19 @@ het budget niet apart regelen en weet je niet welke van de twee werkt.
 
 ---
 
-## Wat we nog niet kunnen meten, en waarom dat uitmaakt
+## Inschrijvingen laten meten: kan, maar er hangt iets aan vast
 
 Google kan pas op inschrijvingen sturen als het weet wanneer er iemand
-inschrijft. Op dit moment kan dat niet, en dat komt door een keuze die je zelf
-bewust gemaakt hebt.
-
-**Op de website** gaat een ingevuld formulier via het mailprogramma van de
-ouder naar info@matmgroep.com. Dat is precies waarom we geen formulierdienst
-gebruiken: zo komen de gegevens van kinderen bij niemand anders terecht. Maar
-het betekent ook dat de site zelf nooit te zien krijgt dat er iemand
-ingeschreven heeft — dat gebeurt in jouw mailbox. Het dichtste wat we kunnen
-meten is het moment waarop iemand op "verstuur" klikt en zijn mailprogramma
-opent. Dat is geen inschrijving, wel een goed teken.
-
-**Op het oefenplatform** kan het wél echt: wie betaalt, komt op een
-bevestigingspagina, en dat is een harde, controleerbare inschrijving.
+inschrijft. Dat kan nu, want een ingevuld formulier komt in onze eigen databank
+terecht en de ouder belandt daarna op de bedanktpagina
+(www.connectopia.one/bedankt). Die pagina is het harde signaal: wie daar komt,
+heeft echt ingeschreven. Op het oefenplatform is dat de bevestigingspagina na de
+betaling.
 
 Wat daarvoor nodig is: een klein stukje van Google op de site, en dat werkt met
-cookies. Dan heb je wél een cookiebanner nodig — die heb je nu niet, juist
-omdat de bezoekersteller van Vercel zonder cookies werkt. Dat is een echte
-afweging en die beslis jij, niet ik.
+cookies. Dan heb je wél een cookiebanner nodig — die heb je nu niet, juist omdat
+de bezoekersteller van Vercel zonder cookies werkt. Dat is een echte afweging en
+die beslis jij, niet ik.
 
 ---
 
@@ -293,8 +286,8 @@ afweging en die beslis jij, niet ik.
 4. Kijk in Vercel bij Analytics of er bezoekers van Google binnenkomen en wat
    ze bekijken.
 5. Pas daarna campagne 2 erbij, zodat je de twee uit elkaar kan houden.
-6. Beslis, als er iets begint te lopen, of je het meten van inschrijvingen
-   erbij wil en of je daarvoor een cookiebanner aanvaardt.
+6. Beslis, als er iets begint te lopen, of je Google ook wil laten meten wie er
+   inschrijft, en of je daarvoor een cookiebanner aanvaardt.
 
 Blijf niet alleen zitten met stap 2 en 3: stuur gerust een schermafbeelding van
 waar je vastzit, dan wijs ik aan waar je moet klikken.
