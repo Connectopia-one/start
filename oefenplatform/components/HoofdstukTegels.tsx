@@ -52,26 +52,26 @@ export function HoofdstukTegels({
             <Link
               key={h.id}
               href={`/vakken/${vakSlug}/${h.volgnummer}`}
-              className={`flex min-h-[8.5rem] flex-col rounded-xl border bg-surface p-4 transition hover:border-forest hover:shadow-sm ${
+              className={`relative flex min-h-[6rem] flex-col rounded-xl border bg-surface p-4 transition hover:border-forest hover:shadow-sm ${
                 s?.gemaakt ? "border-forest/40" : "border-border"
               }`}
             >
-              <span className="flex items-start justify-between gap-2">
-                <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-forest/10 text-xs font-semibold text-forest-dark">
-                  {h.volgnummer}
+              {/* Het merkteken zweeft in de hoek in plaats van in een eigen
+                  regel te staan: zo begint elk vakje met zijn titel, ook de
+                  vakjes die nog geen teken hebben. */}
+              {s?.perfect ? (
+                <span aria-hidden title="Foutloos gemaakt" className="absolute right-3 top-3 text-lg">
+                  ⭐
                 </span>
-                {s?.perfect ? (
-                  <span aria-hidden title="Foutloos gemaakt" className="text-lg">
-                    ⭐
-                  </span>
-                ) : s?.gemaakt ? (
-                  <span aria-hidden title="Al gemaakt" className="text-lg">
-                    ✅
-                  </span>
-                ) : null}
-              </span>
+              ) : s?.gemaakt ? (
+                <span aria-hidden title="Al gemaakt" className="absolute right-3 top-3 text-lg">
+                  ✅
+                </span>
+              ) : null}
 
-              <span className="mt-2 flex-1 text-sm font-medium text-ink">{h.titel}</span>
+              <span className={`flex-1 text-sm font-medium text-ink ${s?.gemaakt ? "pr-7" : ""}`}>
+                {h.titel}
+              </span>
 
               <span className="mt-3 flex flex-wrap items-center gap-2">
                 {h.gratis ? (
