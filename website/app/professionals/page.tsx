@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Aanvraagformulier } from "@/components/Aanvraagformulier";
-import { aanvragenKlaar } from "@/lib/aanvragen-db";
 import { Kaart, PaginaKop, Sectie } from "@/components/ui";
 import { professionals, professionalsVelden } from "@/content/professionals";
 import { site } from "@/content/site";
@@ -19,8 +18,6 @@ const puntKleur = {
 } as const;
 
 export default async function ProfessionalsPagina() {
-  /* Komt de aanvraag in de databank terecht, of valt ze terug op een mail? */
-  const viaDatabank = await aanvragenKlaar();
   return (
     <>
       <PaginaKop
@@ -118,7 +115,6 @@ export default async function ProfessionalsPagina() {
           </p>
           <div className="mt-6">
             <Aanvraagformulier
-              viaDatabank={viaDatabank}
               onderwerp={professionals.onderwerp}
               vragen={professionalsVelden}
               privacy={professionals.privacy}

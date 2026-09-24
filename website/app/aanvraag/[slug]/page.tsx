@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Aanvraagformulier } from "@/components/Aanvraagformulier";
-import { aanvragenKlaar } from "@/lib/aanvragen-db";
 import { Kaart, Label, PaginaKop, Sectie } from "@/components/ui";
 import { trajecten } from "@/content/aanbod";
 import type { SoortSleutel } from "@/content/formulier";
@@ -63,8 +62,6 @@ export default async function AanvraagPagina({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  /* Komt de aanvraag in de databank terecht, of valt ze terug op een mail? */
-  const viaDatabank = await aanvragenKlaar();
   const gelezen = leesSlug(slug);
   if (!gelezen) notFound();
 
@@ -85,7 +82,6 @@ export default async function AanvraagPagina({
       <Sectie className="grid gap-4 py-8">
         <Kaart>
           <Aanvraagformulier
-              viaDatabank={viaDatabank}
             onderwerp={onderwerp}
             verborgen={[
               {

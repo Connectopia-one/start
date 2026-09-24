@@ -1,10 +1,6 @@
-"use client";
-
-import { useState, type FormEvent, type ReactNode } from "react";
+import type { ReactNode } from "react";
 import type { Veld } from "@/content/formulier";
-import { formulierTekst, velden, verzenden } from "@/content/formulier";
-import { site } from "@/content/site";
-import { mailtoUitFormulier } from "@/lib/mailversturen";
+import { formulierTekst, velden } from "@/content/formulier";
 import { aanvraagVersturen } from "@/app/acties";
 
 /*
@@ -22,7 +18,6 @@ export function Aanvraagformulier({
   optioneel = [],
   vragen = velden,
   privacy = formulierTekst.privacy,
-  viaDatabank = false,
 }: {
   /* Wat er in de onderwerpregel van de mail komt te staan. */
   onderwerp: string;
@@ -47,60 +42,28 @@ export function Aanvraagformulier({
     niet op elke pagina.
   */
   privacy?: string;
-  /*
-    Staat de databank klaar? Dan komt de aanvraag rechtstreeks bij ons
-    binnen en gaat de bezoeker naar de bedanktpagina. Zo niet, dan valt
-    het formulier terug op een mail via zijn eigen mailprogramma.
-  */
-  viaDatabank?: boolean;
 }) {
   /*
-    Zolang er geen formulierdienst is ingesteld, opent het formulier het
-    mailprogramma van de ouder met alle antwoorden er al in. We bouwen die
-    mail zelf op in plaats van het formulier ernaartoe te laten versturen;
-    zie lib/mailversturen.ts voor waarom.
+    Een ingevuld formulier gaat rechtstreeks naar de server en belandt in de
+    databank van Connectopia; daarna komt de bezoeker op /bedankt. Er komt
+    geen mailprogramma en geen andere firma aan te pas.
+
+    Dit is met opzet een gewoon formulier zonder javascript eromheen: zo
+    werkt het op elke telefoon, ook bij wie zijn mail in de browser leest.
+    Zet hier dus nooit een mailto-actie terug.
   */
-  const perMail = !viaDatabank && !verzenden.webadres;
-  const [geopend, setGeopend] = useState<string | null>(null);
-
-  function openMailprogramma(gebeurtenis: FormEvent<HTMLFormElement>) {
-    gebeurtenis.preventDefault();
-    const link = mailtoUitFormulier(
-      gebeurtenis.currentTarget,
-      verzenden.mailnaar,
-      onderwerp
-    );
-    setGeopend(link);
-    window.location.href = link;
-  }
-
   return (
-    <form
-      action={
-        viaDatabank
-          ? aanvraagVersturen
-          : perMail
-            ? undefined
-            : verzenden.webadres!
-      }
-      method={viaDatabank || perMail ? undefined : "post"}
-      onSubmit={perMail ? openMailprogramma : undefined}
-      className="grid gap-5"
-    >
+    <form action={aanvraagVersturen} className="grid gap-5">
       {kop}
 
-      {viaDatabank ? (
-        <>
-          <input type="hidden" name="onderwerp" value={onderwerp} />
-          {/* Een vakje dat alleen een robot invult. Blijft onzichtbaar. */}
-          <div className="hidden" aria-hidden>
-            <label>
-              Laat dit veld leeg
-              <input type="text" name="adres" tabIndex={-1} autoComplete="off" />
-            </label>
-          </div>
-        </>
-      ) : null}
+      <input type="hidden" name="onderwerp" value={onderwerp} />
+      {/* Een vakje dat alleen een robot invult. Blijft onzichtbaar. */}
+      <div className="hidden" aria-hidden>
+        <label>
+          Laat dit veld leeg
+          <input type="text" name="adres" tabIndex={-1} autoComplete="off" />
+        </label>
+      </div>
       {verborgen.map((veld) => (
         <input
           key={veld.naam}
@@ -229,58 +192,13 @@ export function Aanvraagformulier({
       </div>
 
       <div>
-        {/* Zonder JavaScript kunnen we de mail niet opbouwen, dus dan tonen we
-            de knop niet en wijzen we meteen de weg. Het stijlblokje hieronder
-            staat in een noscript en werkt dus alleen als scripts uit staan. */}
-        <noscript>
-          <style>{".verstuurknop{display:none}"}</style>
-        </noscript>
         <button
           type="submit"
-          className="verstuurknop rounded-full bg-green px-7 py-3 text-[16px] font-extrabold text-cream transition hover:-translate-y-0.5 hover:bg-green-mid"
+          className="rounded-full bg-green px-7 py-3 text-[16px] font-extrabold text-cream transition hover:-translate-y-0.5 hover:bg-green-mid"
         >
           {formulierTekst.verstuurKnop} →
         </button>
-        <noscript>
-          <p className="text-[15px] text-ink">
-            Om dit formulier te versturen moet JavaScript aanstaan. Je mag ons
-            ook gewoon rechtstreeks bereiken:{" "}
-            <a className="font-bold underline" href={`mailto:${site.email}`}>
-              {site.email}
-            </a>{" "}
-            of{" "}
-            <a className="font-bold underline" href={site.telefoonLink}>
-              {site.telefoon}
-            </a>
-            .
-          </p>
-        </noscript>
       </div>
-
-      {/* Na het klikken opent het mailprogramma. Gebeurt er niets — dat kan op
-          een telefoon zonder ingesteld mailprogramma — dan staat hier hoe ze
-          ons alsnog bereiken. */}
-      {perMail && geopend ? (
-        <div className="rounded-[16px] bg-sage-soft px-5 py-4">
-          <p className="text-[15px] font-bold text-ink">
-            Je mailprogramma zou nu moeten openen.
-          </p>
-          <p className="mt-1 text-[15px] text-ink">
-            Klik daar op versturen en je bericht komt bij ons toe. Gebeurde er
-            niets?{" "}
-            <a className="font-bold underline" href={geopend}>
-              Probeer opnieuw
-            </a>{" "}
-            of mail ons rechtstreeks op{" "}
-            <a className="font-bold underline" href={`mailto:${site.email}`}>
-              {site.email}
-            </a>
-            .
-          </p>
-        </div>
-      ) : perMail ? (
-        <p className="text-[14px] text-ink-dim">{formulierTekst.naVersturen}</p>
-      ) : null}
     </form>
   );
 }
