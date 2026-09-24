@@ -76,6 +76,10 @@ BUNDELS["historisch-referentiekader"] = dict(
             ("p", "Naast wanneer, vraagt een historicus ook waar. Daarvoor bestaan vaste begrippen. "
                   "<strong>Lokaal</strong> is één plaats, <strong>regionaal</strong> een streek, "
                   "<strong>continentaal</strong> een heel werelddeel."),
+            ("kader", "Woorden als <strong>chronologie</strong>, continuïteit, ruraal, maritiem en evolutie "
+                      "heten <strong>structuurbegrippen</strong>: vaste begrippen waarmee historici elke "
+                      "samenleving kunnen beschrijven, welke periode het ook is. Vraagt een examen naar \"het "
+                      "structuurbegrip\", dan bedoelt het zo'n woord."),
             ("p", "<strong>Stedelijk</strong> en <strong>ruraal</strong> zetten stad en platteland tegenover "
                   "elkaar. <strong>Maritiem</strong> betekent gericht op de zee. Athene was maritiem: het "
                   "leefde van zijn vloot en zijn handel overzee. Sparta lag in het binnenland en was "
@@ -89,6 +93,10 @@ BUNDELS["historisch-referentiekader"] = dict(
             ("p", "Een voorbeeld. Alexander de Grote verovert een wereldrijk: dat is <strong>politiek</strong>. "
                   "Maar door die verovering verspreidt de Griekse taal en kunst zich over dat hele gebied, en "
                   "dat is <strong>cultureel</strong>. De handel die op gang komt, is <strong>economisch</strong>."),
+            ("p", "Nog een voorbeeld, nu van één voorwerp. Het bronzen beeld van de Romeinse "
+                  "<strong>senator</strong> Aulus Metellus is een kunstwerk, dus <strong>cultureel</strong>. "
+                  "Maar het toont hem in functie, met opgeheven hand alsof hij het woord neemt, en dus ook "
+                  "zijn macht: <strong>politiek</strong>. Twee domeinen in één beeld."),
             ("weetje", "Historici zoeken graag naar <em>verbanden</em> tussen de domeinen. Waarom leidt een "
                        "betere oogst (economisch) tot grotere steden (sociaal) en tot machtigere koningen "
                        "(politiek)? Dat soort vragen maakt geschiedenis interessanter dan een rij jaartallen."),
@@ -156,12 +164,19 @@ BUNDELS["prehistorie"] = dict(
         dict(kop="Leven als jager en verzamelaar", blokken=[
             ("p", "Jagers en verzamelaars leefden in <strong>kleine groepen</strong> van enkele tientallen "
                   "mensen. Groter kon niet: in de natuur vind je op één plek niet genoeg eten voor meer monden."),
-            ("p", "Ze waren <strong>nomadisch</strong>. Als het voedsel in een streek opraakte of de kudden "
-                  "verder trokken, trokken zij mee. Bezit had weinig zin, want alles moest mee op de rug."),
+            ("p", "Ze waren <strong>nomadisch</strong>: rondtrekkers, <strong>nomaden</strong>. Als het "
+                  "voedsel in een streek opraakte of de kudden verder trokken, trokken zij mee. Bezit had "
+                  "weinig zin, want alles moest mee op de rug."),
+            ("p", "Binnen zo'n groep was er een <strong>taakverdeling</strong>: niet iedereen deed hetzelfde. "
+                  "De een ging op jacht, de ander verzamelde, maakte werktuigen of hield het vuur brandend. "
+                  "Wie wat deed, kunnen we uit de bronnen niet met zekerheid afleiden."),
             ("weetje", "Het verzamelde plantaardige voedsel leverde vaak méér op dan de jacht. Het beeld van "
                        "de prehistorische mens die alleen maar mammoeten at, klopt dus niet."),
             ("fig", svg.stenen_werktuigen(),
              "Vuursteen splijt in vlijmscherpe schilfers. Aan die afslagvlakjes herken je een bewerkte steen van een gewone."),
+            ("p", "Het oudste werktuig is de <strong>vuistbijl</strong>. Die heeft geen steel: je houdt hem "
+                  "vast in je vuist, en daar komt de naam vandaan. Je kon ermee snijden, hakken en schrapen. "
+                  "Een steel aan een bijl of een punt aan een speer binden, kwam pas veel later."),
         ]),
         dict(kop="Het vuur", blokken=[
             ("p", "Vuur was de belangrijkste vondst van de prehistorie. Het gaf <strong>warmte</strong> en "
@@ -216,7 +231,8 @@ BUNDELS["prehistorie"] = dict(
                       "Het argument telt, niet het woord."),
             ("p", "De periode waarin dit gebeurt, heet het <strong>neolithicum</strong> of de nieuwe steentijd. "
                   "Je herkent de werktuigen eraan dat ze geslepen en gepolijst zijn in plaats van enkel "
-                  "afgeslagen. Bij ons liggen er nog grafheuvels en grote steenzettingen uit die tijd."),
+                  "afgeslagen. Uit die tijd liggen er nog <strong>hunebedden</strong> — grote steenzettingen boven een graf, vooral in "
+                  "Nederland — en bij ons <strong>grafheuvels</strong> in het landschap."),
         ]),
     ],
     onthoud=[
@@ -274,6 +290,9 @@ BUNDELS["mesopotamie-en-egypte"] = dict(
             ("p", "Wie graan van honderden boeren moet bijhouden, kan dat niet onthouden. Daarom wordt het "
                   "schrift uitgevonden: niet om verhalen te bewaren, maar om <strong>te tellen en te "
                   "boekhouden</strong>. De oudste kleitabletten zijn voorraadlijsten."),
+            ("p", "Het begon als <strong>beeldschrift</strong>: men tekende het ding zelf, een kop graan of "
+                  "een runderkop. Omdat dat te traag ging, werden die tekeningen steeds schematischer, tot er "
+                  "tekens overbleven waarin je het voorwerp niet meer herkent."),
             ("p", "In Mesopotamië schrijft men met een rietstengel in natte klei. De afdrukken hebben de "
                   "vorm van wiggen of spijkers: het <strong>spijkerschrift</strong>. In Egypte gebruikt men "
                   "<strong>hiërogliefen</strong>, tekens die op kleine afbeeldingen lijken, op steen en op "
@@ -284,8 +303,9 @@ BUNDELS["mesopotamie-en-egypte"] = dict(
                   "het: de <strong>schrijvers</strong>. Wie kan lezen en schrijven, kan wetten opstellen, "
                   "afspraken vastleggen en bezit bewijzen. Het schrift maakt de machtigen dus nog machtiger."),
             ("kader", "Hiërogliefen waren eeuwenlang onleesbaar. De <strong>Steen van Rosetta</strong> "
-                      "bracht de doorbraak: daarop staat dezelfde tekst in hiërogliefen én in het Grieks, en "
-                      "Grieks kon men wél lezen."),
+                      "bracht de doorbraak: daarop staat dezelfde tekst in <strong>drie schriften</strong> — "
+                      "hiërogliefen, demotisch en Grieks. Omdat men Grieks wél kon lezen, kreeg men greep op "
+                      "de rest. Champollion ontcijferde ze in 1822."),
         ]),
         dict(kop="Wie staat waar?", blokken=[
             ("p", "Allebei de samenlevingen zijn een <strong>standenmaatschappij</strong>: de bevolking valt "
@@ -319,9 +339,10 @@ BUNDELS["mesopotamie-en-egypte"] = dict(
                   "eredienst."),
             ("fig", svg.piramides(),
              "Een piramide is een graf. De Egyptenaren geloofden in een leven na de dood, en daar hoorde een lichaam bij."),
-            ("p", "Daarom <strong>mummificeerden</strong> ze hun doden: het lichaam moest bewaard blijven "
-                  "om verder te kunnen leven. In het graf legden ze voorwerpen, eten en het "
-                  "<strong>Dodenboek</strong>, een verzameling spreuken voor de tocht na de dood."),
+            ("p", "Zij geloofden dat het leven verderging in het <strong>hiernamaals</strong>, en dat de "
+                  "dode daarvoor zijn lichaam nodig had. Daarom <strong>mummificeerden</strong> ze hun doden: "
+                  "het lichaam moest bewaard blijven. In het graf legden ze voorwerpen, eten en het "
+                  "<strong>Dodenboek</strong>, een verzameling spreuken die de dode op die tocht moest helpen."),
             ("kader", "<strong>Toetanchamon</strong> was een onbelangrijke farao die jong stierf. Zijn graf "
                       "is wereldberoemd om één reden: het is als enige vrijwel ongeschonden teruggevonden. "
                       "Alle andere waren al in de oudheid leeggeroofd."),
@@ -380,7 +401,7 @@ BUNDELS["het-oude-griekenland"] = dict(
         dict(kop="Sparta en Athene: twee wegen", blokken=[
             ("p", "<strong>Sparta</strong> was een <strong>oligarchie</strong>: een kleine groep besliste. "
                   "Alles stond er in dienst van het leger. Jongens verlieten op hun zevende het gezin voor een "
-                  "harde militaire opvoeding."),
+                  "harde militaire opvoeding. Die opvoeding heette de <strong>agoge</strong> en duurde jaren."),
             ("p", "Dat kon omdat de <strong>heloten</strong>, onvrije landbouwers, al het werk op het land "
                   "deden. Zij waren veruit in de meerderheid, en de angst voor een opstand hield Sparta mee in "
                   "dat keurslijf."),
@@ -401,7 +422,9 @@ BUNDELS["het-oude-griekenland"] = dict(
             ("p", "In de <strong>Perzische oorlogen</strong> stonden de Griekse stadstaten tegenover het "
                   "enorme Perzische Rijk. Uitzonderlijk genoeg werkten ze samen, en ze wonnen."),
             ("p", "Gevolg: Athene werd de leider van een bondgenootschap van stadstaten, en gebruikte het geld "
-                  "daarvan onder meer om het <strong>Parthenon</strong> te bouwen. De andere leden begonnen "
+                  "daarvan onder meer om het <strong>Parthenon</strong> te bouwen, de tempel op de "
+                  "<strong>Akropolis</strong>, de burchtheuvel van de stad. Hij was gewijd aan "
+                  "<strong>Athena</strong>, de beschermgodin naar wie Athene genoemd is. De andere leden begonnen "
                   "dat als overheersing te voelen."),
             ("p", "Dat liep uit op de <strong>Peloponnesische oorlog</strong>: Athene tegen Sparta, bijna "
                   "dertig jaar lang. Sparta won, maar alle Griekse stadstaten kwamen er verzwakt uit."),
@@ -519,6 +542,10 @@ BUNDELS["het-romeinse-rijk"] = dict(
             ("p", "In de stad groeide zo een grote groep arme burgers. Politici hielden die tevreden met "
                   "gratis graan en spelen. Tegelijk kregen soldaten hun stuk land niet van de staat maar van "
                   "hun <strong>generaal</strong> — en dus volgden ze hem, desnoods tegen Rome in."),
+            ("p", "Wie de top wilde bereiken, zocht bondgenoten. Drie machtige mannen die samen de macht "
+                  "verdeelden, noemt men een <strong>triumviraat</strong>. Het eerste bestond uit Caesar, "
+                  "Pompeius en Crassus; het tweede, na de moord op Caesar, uit Augustus, Marcus Antonius en "
+                  "Lepidus. Allebei eindigden ze in een oorlog tussen de partners."),
             ("p", "Dat leidde tot een eeuw van <strong>burgeroorlogen</strong>: Marius tegen Sulla, daarna "
                   "Caesar tegen Pompeius. <strong>Julius Caesar</strong> won en liet zich dictator voor het "
                   "leven benoemen. Zijn tegenstanders zagen daarin een nieuwe koning en vermoordden hem in de "
@@ -598,7 +625,9 @@ BUNDELS["bronnen-kunst-en-beeldvorming"] = dict(
                   "er van dat verleden overblijft."),
             ("p", "Die twee door elkaar halen, is de meest gemaakte fout. Precies omdat geschiedenis een "
                   "<em>constructie</em> is, kan ze herschreven worden — en gebeurt dat ook, telkens als er "
-                  "nieuwe bronnen of nieuwe onderzoekstechnieken opduiken."),
+                  "nieuwe bronnen, nieuwe onderzoekstechnieken of nieuwe vragen opduiken. "
+                  "<strong>Koolstofdatering</strong> en <strong>DNA-onderzoek</strong> hebben in enkele "
+                  "decennia meer bijgesteld dan eeuwen discussie daarvoor."),
             ("kader", "Dat is geen zwakte van het vak, maar de kern ervan. Een historicus die zegt "
                       "&bdquo;zo was het, punt&rdquo;, verzwijgt op welke bronnen hij steunt en wat hij "
                       "niet weet."),

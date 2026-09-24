@@ -42,7 +42,7 @@ export type SchikbareVraag = {
   id: string;
   type: string;
   opties: string[] | null;
-  antwoord: number | string | boolean;
+  antwoord: number | string | boolean | number[];
 };
 
 /**
@@ -59,14 +59,20 @@ export function schikOpties<T extends SchikbareVraag>(
   vraag: T
 ): T & { optieVolgorde: number[] | null } {
   const opties = vraag.opties;
+  // Een vraag met meerdere juiste antwoorden bewaart een lijstje nummers in
+  // plaats van één nummer (zie lib/antwoord.ts). Die moeten alle mee verschoven
+  // worden, anders wijst het antwoord na het schudden de verkeerde opties aan.
+  const juist = Array.isArray(vraag.antwoord)
+    ? vraag.antwoord
+    : typeof vraag.antwoord === "number"
+      ? [vraag.antwoord]
+      : [];
   if (
     vraag.type !== "meerkeuze" ||
     !Array.isArray(opties) ||
     opties.length < 2 ||
-    typeof vraag.antwoord !== "number" ||
-    !Number.isInteger(vraag.antwoord) ||
-    vraag.antwoord < 0 ||
-    vraag.antwoord >= opties.length
+    !juist.length ||
+    !juist.every((i) => Number.isInteger(i) && i >= 0 && i < opties.length)
   ) {
     return { ...vraag, optieVolgorde: null };
   }
@@ -81,7 +87,9 @@ export function schikOpties<T extends SchikbareVraag>(
   return {
     ...vraag,
     opties: volgorde.map((i) => opties[i]),
-    antwoord: volgorde.indexOf(vraag.antwoord),
+    antwoord: Array.isArray(vraag.antwoord)
+      ? juist.map((i) => volgorde.indexOf(i)).sort((a, b) => a - b)
+      : volgorde.indexOf(juist[0]),
     optieVolgorde: volgorde,
   };
 }

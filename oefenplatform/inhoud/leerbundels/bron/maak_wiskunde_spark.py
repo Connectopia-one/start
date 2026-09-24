@@ -54,6 +54,10 @@ BUNDELS["getallenleer"] = dict(
                 (-5, "−5", "#6b7260", False), (5, "5", "#6b7260", False),
             ]),
              "−7 en 7 liggen allebei zeven stappen van nul. Hun absolute waarde is dus dezelfde."),
+            ("p", "Die rechte lijn met de getallen erop heet de <strong>getallenas</strong> (of "
+                  "getallenlijn). Ze beantwoordt in één blik de vraag welk getal het grootste is: hoe "
+                  "verder naar <strong>rechts</strong>, hoe groter. Daarom is −3 groter dan −5, en staat "
+                  "−5 &lt; −3 &lt; 0 &lt; 1/2 &lt; 1 van klein naar groot."),
         ]),
         dict(kop="De namen bij de bewerkingen", blokken=[
             ("p", "Op het examen staan deze woorden in de vraag zelf, dus je moet ze herkennen."),
@@ -92,7 +96,9 @@ BUNDELS["getallenleer"] = dict(
         ]),
         dict(kop="Priemgetallen, ggd en kgv", blokken=[
             ("p", "Een <strong>priemgetal</strong> heeft precies twee delers: 1 en zichzelf. 2, 3, 5, 7, 11, "
-                  "13 … 1 hoort er niet bij, want dat heeft er maar één."),
+                  "13 … 1 hoort er niet bij, want dat heeft er maar één. En 2 is het <strong>enige "
+                  "even</strong> priemgetal: elk ander even getal is ook deelbaar door 2 en heeft dus meer "
+                  "dan twee delers."),
             ("p", "Splits je een getal in priemfactoren, dan vallen ggd en kgv er zo uit. "
                   "12 = 2 × 2 × 3 en 18 = 2 × 3 × 3."),
             ("p", "De <strong>grootste gemeenschappelijke deler</strong> is wat ze allebei hebben: "
@@ -133,7 +139,9 @@ BUNDELS["getallenleer"] = dict(
         "Volgorde: haakjes, machten en wortels, maal en gedeeld, plus en min.",
         "Commutatief en associatief gelden niet bij aftrekken en delen.",
         "Machten met hetzelfde grondtal: maal → exponenten optellen, macht van macht → vermenigvuldigen.",
-        "Priemgetal heeft precies twee delers. ggd om te vereenvoudigen, kgv om gelijknamig te maken.",
+        "Priemgetal heeft precies twee delers; 2 is het enige even priemgetal.",
+        "ggd om te vereenvoudigen, kgv om gelijknamig te maken.",
+        "Op de getallenas ligt het grootste getal het verst naar rechts: −5 < −3 < 0 < 1/2 < 1.",
         "Procent is per honderd. 3/8 = 0,375 = 37,5 %. Schaal 1 : 100 → 3 cm op plan = 3 m echt.",
         "Afronden: kijk naar het eerste cijfer dat wegvalt, en rond pas op het einde af.",
     ])
@@ -163,6 +171,10 @@ BUNDELS["negatieve-getallen-en-procenten-spark"] = dict(
                   "juist <strong>groter</strong>."),
             ("p", "Dus 5 \u2212 (\u22126) = 5 + 6 = <strong>11</strong>, en \u22127 \u2212 (\u22123) = \u22127 + 3 = <strong>\u22124</strong>. "
                   "Een handige manier om het te onthouden: het tegengestelde aftrekken is hetzelfde als optellen."),
+            ("p", "Een thermometer maakt het concreet. Het is 's ochtends −3 °C en het wordt 7 graden "
+                  "warmer: −3 + 7 = <strong>4 °C</strong>. En hoeveel <strong>graden</strong> stijgt het "
+                  "van −5 °C naar 3 °C? Eerst 5 graden tot aan nul, en dan nog 3: samen <strong>8 "
+                  "graden</strong>. Tel over de nul heen in twee stukjes, dan gaat het vanzelf."),
             ("kader", "Let op het verschil tussen het <strong>teken</strong> van een getal en de <strong>bewerking</strong>. "
                       "In \u22126 \u2212 4 is de eerste min een teken en de tweede een bewerking: je begint op \u22126 en gaat "
                       "nog vier naar links, dus <strong>\u221210</strong>."),
@@ -185,6 +197,10 @@ BUNDELS["negatieve-getallen-en-procenten-spark"] = dict(
                   "ofwel de helft. Elk percentage is dus ook een breuk en een kommagetal."),
             ("fig", svg.procentraster(25),
              "Vijfentwintig van de honderd vakjes: 25 %, ofwel 1/4, ofwel 0,25. Drie schrijfwijzen voor hetzelfde."),
+            ("p", "Een paar percentages ken je best als breuk, want dan reken je ze uit het hoofd: 50 % is "
+                  "de <strong>helft</strong>, 25 % is een <strong>kwart</strong> (60 : 4 = 15), 10 % is een "
+                  "<strong>tiende</strong> (80 : 10 = 8). Het volledige geheel is <strong>100 %</strong>; "
+                  "meer dan 100 % kan ook, maar dan heb je meer dan waarmee je begon."),
             ("p", "Een percentage van een getal reken je uit door te vermenigvuldigen met het kommagetal. "
                   "10 % van 80 is 0,10 \u00d7 80 = <strong>8</strong>. En 15 % van 200 is 0,15 \u00d7 200 = <strong>30</strong>."),
             ("p", "Andersom kan ook: welk deel is 5 van de 25? Deel door elkaar en maal honderd: "
@@ -232,7 +248,9 @@ BUNDELS["negatieve-getallen-en-procenten-spark"] = dict(
         "Een tegengestelde aftrekken is optellen: 5 \u2212 (\u22126) = 11.",
         "Maal en gedeeld: gelijke tekens geven plus, verschillende tekens geven min.",
         "Macht van een negatief getal: even exponent geeft plus, oneven houdt de min. (\u22122)\u00b3 = \u22128, (\u22122)\u2074 = 16.",
-        "Procent is per honderd. 10 % van 80 = 8. En 30 % van 50 = 50 % van 30.",
+        "Procent is per honderd. 50 % is de helft, 25 % een kwart, 10 % een tiende. Het geheel is 100 %.",
+        "10 % van 80 = 8. En 30 % van 50 = 50 % van 30.",
+        "Over de nul tellen in twee stukjes: van −5 °C naar 3 °C is 5 + 3 = 8 graden.",
         "In \u00e9\u00e9n stap: 20 % korting \u2192 \u00d7 0,80. Terug naar de oude prijs \u2192 delen door 0,80.",
         "Stijging in procent: verschil delen door waar je vandaan komt, niet door waar je uitkomt.",
         "10 % omhoog en dan 10 % omlaag geeft 99, niet 100: het tweede percentage hoort bij een ander getal.",
@@ -312,7 +330,40 @@ BUNDELS["probleemoplossend-denken-spark"] = dict(
                   "100 : 14 = 7 met 2 over. Die 2 hebben ook een stoel nodig, dus er zijn <strong>8</strong> "
                   "rijen. Bij dozen, bussen en rijen rond je altijd naar boven af."),
             ("p", "<strong>Eenheden door elkaar.</strong> Een film van 105 minuten duurt "
-                  "<strong>1 u 45 min</strong>, niet 1,05 uur. Een uur heeft 60 minuten, geen 100."),
+                  "<strong>1 u 45 min</strong>, niet 1,05 uur. Een uur heeft 60 minuten, geen 100. "
+                  "Tel je een duur bij een uur op, doe dan eerst de volle uren en dan de minuten: een trein "
+                  "die om 9.45 u vertrekt en 2 u 20 min rijdt, is om 11.45 u twee uur onderweg, en 20 "
+                  "minuten later is het <strong>12.05 u</strong>."),
+            ("p", "<strong>Rond of vol.</strong> Een hek <em>rond</em> een tuin van 12 m bij 8 m is de "
+                  "omtrek: 2 × (12 + 8) = <strong>40 m</strong>. Gras <em>in</em> die tuin is de "
+                  "oppervlakte: 12 × 8 = 96 m². Het woordje rond of vol verklapt welke van de twee je "
+                  "nodig hebt, en de eenheid (m of m²) controleert het."),
+        ]),
+        dict(kop="Zes types die blijven terugkomen", blokken=[
+            ("p", "Deze zes duiken elk jaar weer op. Herken je het type, dan weet je meteen wat te doen."),
+            ("p", "<strong>Stel dat het er allemaal één soort waren.</strong> Op een parking staan 20 "
+                  "voertuigen met samen 70 wielen. Stel dat het allemaal auto's zijn: 20 × 4 = 80 wielen, "
+                  "tien te veel. Elke motor scheelt 2 wielen, dus 10 : 2 = <strong>5 motors</strong>."),
+            ("p", "<strong>Opeenvolgende getallen.</strong> Drie opeenvolgende getallen geven samen 48. Het "
+                  "<strong>middelste</strong> is 48 : 3 = 16, dus het zijn 15, 16 en 17."),
+            ("p", "<strong>Samen werken.</strong> Een kraan vult een vat in 6 uur, een andere in 12 uur. "
+                  "Kijk naar een tijd die voor allebei uitkomt: in 12 uur vult de eerste 2 vaten en de "
+                  "tweede 1, samen 3 vaten in 12 uur, dus één vat in <strong>4 uur</strong>. Samen gaat het "
+                  "altijd sneller dan de snelste alleen — een uitkomst hoger dan 6 kon dus al niet."),
+            ("p", "<strong>Leeftijden.</strong> Anna is 12, haar mama 40. Het <strong>verschil van 28 jaar "
+                  "blijft altijd gelijk</strong>. Als mama dubbel zo oud is, is dat verschil precies Anna's "
+                  "leeftijd: Anna 28, mama 56. Dat is over <strong>16 jaar</strong>."),
+            ("p", "<strong>Rekenen met de klok.</strong> Hoe laat is het 100 uur na 14.00 u? Deel door 24: "
+                  "100 = 4 × 24 + 4. Vier volle dagen brengen je op hetzelfde uur, plus 4 uur geeft "
+                  "<strong>18.00 u</strong>."),
+            ("p", "<strong>Rest bij verdelen.</strong> Je verdeelt 100 snoepjes eerlijk en er blijven er 4 "
+                  "over. Dan zijn er 96 verdeeld, dus het aantal kinderen is een <strong>deler van 96</strong> "
+                  "— en groter dan 4, anders kon je de rest nog verder verdelen. Bijvoorbeeld "
+                  "<strong>8</strong> kinderen, elk 12."),
+            ("kader", "Een <strong>rij</strong> pak je aan door te kijken wat er van het ene naar het "
+                      "volgende getal gebeurt. Bij 2, 5, 11, 23 is dat telkens maal 2 plus 1, dus het "
+                      "volgende is <strong>47</strong>. En een kubus van 3 bij 3 bij 3 bestaat uit drie "
+                      "lagen van 9, dus <strong>27</strong> kubusjes."),
         ]),
         dict(kop="Reflecteren: kan dit kloppen?", blokken=[
             ("p", "De laatste stap kost tien seconden en vangt de meeste fouten. Stel jezelf drie vragen."),
@@ -333,7 +384,13 @@ BUNDELS["probleemoplossend-denken-spark"] = dict(
         "Verhoudingen: ga eerst naar één stuk, dan naar elk aantal.",
         "Paalfout: op 20 m om de 4 m staan 6 palen, niet 5.",
         "Bij rijen, dozen en bussen rond je naar boven af.",
-        "Een film van 105 minuten is 1 u 45 min, niet 1,05 uur.",
+        "Een film van 105 minuten is 1 u 45 min, niet 1,05 uur. 9.45 u + 2 u 20 min = 12.05 u.",
+        "Rond de tuin is omtrek (m), de tuin vol is oppervlakte (m²).",
+        "Auto's en motors: stel dat het er allemaal één soort waren, en kijk hoeveel je te veel hebt.",
+        "Drie opeenvolgende getallen: het middelste is de som gedeeld door 3.",
+        "Samen werken: reken naar een tijd die voor allebei uitkomt. 6 u en 12 u geeft samen 4 u.",
+        "Een leeftijdsverschil blijft altijd gelijk.",
+        "Rest bij verdelen: het aantal is een deler van wat wél verdeeld werd.",
         "Reflecteer: is het mogelijk, ligt het bij mijn schatting, en beantwoordt het de vraag?",
     ])
 
@@ -358,6 +415,14 @@ BUNDELS["redeneringen-en-uitspraken-spark"] = dict(
                   "<strong>2</strong> is een priemgetal, en 2 is even. Daarmee is de uitspraak weerlegd."),
             ("p", "„Als een getal deelbaar is door 2, dan is het deelbaar door 4.” Tegenvoorbeeld: "
                   "<strong>6</strong>. Deelbaar door 2, niet door 4. Klaar."),
+            ("p", "De <strong>omgekeerde</strong> uitspraak klopt wél: is een getal deelbaar door 4, dan is "
+                  "het ook deelbaar door 2, want elk veelvoud van 4 is een veelvoud van 2. Bij 12: "
+                  "12 : 4 = 3 en 12 : 2 = 6. Zoek je geen tegenvoorbeeld meer, zeg dan waaróm het altijd "
+                  "geldt — dat is je bewijs."),
+            ("p", "Nog zo'n paar. „Het product van twee <strong>even</strong> getallen is even” klopt "
+                  "altijd: 4 × 6 = 24, en twee veelvouden van 2 geven samen zeker een veelvoud van 2. „Het "
+                  "product van twee <strong>oneven</strong> getallen is even” klopt niet: 3 × 5 = "
+                  "<strong>15</strong>, en dat ene geval volstaat."),
             ("kader", "Een tegenvoorbeeld moet wél aan de voorwaarde voldoen. Bij die laatste uitspraak is 9 "
                       "géén tegenvoorbeeld: 9 is niet deelbaar door 2, dus de uitspraak zegt er niets over."),
         ]),
@@ -371,6 +436,10 @@ BUNDELS["redeneringen-en-uitspraken-spark"] = dict(
                   "zegt alleen iets over het geval waarin het wél regent."),
             ("fig", svg.insluiting("rechthoeken", "vierkanten", "3 bij 5", "4 bij 4"),
              "Elk vierkant zit binnen de rechthoeken, maar niet elke rechthoek zit binnen de vierkanten. Zo zie je meteen welke kant de pijl op mag."),
+            ("p", "Let op: ook „als een vierhoek vier <strong>gelijke zijden</strong> heeft, dan is het een "
+                  "vierkant” klopt niet. Het tegenvoorbeeld is een <strong>ruit</strong> die scheef staat: "
+                  "vier gelijke zijden, maar geen rechte hoeken. Een driehoek helpt hier niet als "
+                  "tegenvoorbeeld, want die is geen vierhoek en voldoet dus niet aan de voorwaarde."),
         ]),
         dict(kop="De dubbele pijl ⇔", blokken=[
             ("p", "Geldt het in <strong>allebei</strong> de richtingen, dan schrijf je <strong>⇔</strong>: "
@@ -405,6 +474,21 @@ BUNDELS["redeneringen-en-uitspraken-spark"] = dict(
                   "Vermenigvuldigen met een negatief getal <strong>draait de ongelijkheid om</strong>: "
                   "−5 &lt; −3. Optellen doet dat niet: uit 5 &gt; 3 volgt gewoon 7 &gt; 5."),
         ]),
+        dict(kop="Nog vier uitspraken om te testen", blokken=[
+            ("p", "Deze vier lijken vanzelfsprekend en zijn het net niet. Elk heeft een tegenvoorbeeld dat "
+                  "je moet kennen."),
+            ("p", "<strong>„Als a × b = 0, dan is a = 0.”</strong> Neem a = 3 en b = 0: 3 × 0 = 0 terwijl a "
+                  "niet nul is. Wat wél klopt: als a × b = 0, dan is <strong>a = 0 óf b = 0</strong>."),
+            ("p", "<strong>„Het kwadraat van een getal is groter dan het getal zelf.”</strong> Neem 0,5: "
+                  "0,5 × 0,5 = <strong>0,25</strong>, en dat is kleiner. Tussen 0 en 1 wordt een kwadraat "
+                  "juist kleiner, en bij 0 en 1 blijft het gelijk."),
+            ("p", "<strong>„Twee driehoeken met dezelfde oppervlakte hebben dezelfde vorm.”</strong> Basis 6 "
+                  "en hoogte 2 geeft (6 × 2) : 2 = 6; basis 3 en hoogte 4 geeft (3 × 4) : 2 = ook "
+                  "<strong>6</strong>. Zelfde oppervlakte, heel andere driehoek."),
+            ("p", "<strong>„Uit a² = b² volgt a = b.”</strong> Neem a = 3 en b = −3: allebei in het kwadraat "
+                  "geeft 9, maar 3 is niet −3. Heen klopt het wel: uit a = b volgt zeker a² = b². Weer zo'n "
+                  "pijl die maar één richting op mag."),
+        ]),
         dict(kop="Van voorbeeld naar bewijs", blokken=[
             ("p", "„De som van twee even getallen is even.” Je kan 2 + 4, 6 + 8 en 10 + 12 uitrekenen, "
                   "maar dan heb je drie gevallen, niet alle."),
@@ -430,6 +514,11 @@ BUNDELS["redeneringen-en-uitspraken-spark"] = dict(
         "10 % en nog eens 10 % korting is samen 19 %, geen 20 %.",
         "Maal een negatief getal draait de ongelijkheid om: uit 5 > 3 volgt −5 < −3.",
         "Even + even: schrijf 2a + 2b = 2(a + b). Zo dek je alle gevallen in één keer.",
+        "Deelbaar door 4 ⇒ deelbaar door 2, maar niet omgekeerd (6).",
+        "Vier gelijke zijden maakt nog geen vierkant: een scheve ruit is het tegenvoorbeeld.",
+        "a × b = 0 betekent a = 0 óf b = 0. En uit a² = b² volgt niet a = b (3 en −3).",
+        "0,5² = 0,25: tussen 0 en 1 wordt een kwadraat kleiner.",
+        "Dezelfde oppervlakte betekent niet dezelfde vorm: (6 × 2) : 2 = (3 × 4) : 2 = 6.",
     ])
 
 
@@ -442,6 +531,9 @@ BUNDELS["meetkunde-spark"] = dict(
                   "verhouden tot de rechte hoek van 90°."),
             ("fig", svg.hoekenrij(),
              "Scherp is minder dan 90°, recht is precies 90°, stomp ligt tussen 90° en 180°, gestrekt is 180° en dus een rechte lijn."),
+            ("p", "Een <strong>scherpe hoek</strong> is kleiner dan 90°, een <strong>stompe hoek</strong> "
+                  "ligt tussen 90° en 180°. Een hoek van 130° is dus een stompe hoek, en de hoek van een "
+                  "blad papier is een rechte hoek van 90°."),
             ("p", "Twee hoeken die samen een gestrekte hoek vormen, heten <strong>nevenhoeken</strong>: ze "
                   "zijn samen 180°. Bij twee snijdende rechten zijn de <strong>overstaande</strong> hoeken "
                   "even groot. Is een hoek 70°, dan is de overstaande ook 70° en de nevenhoek 110°."),
@@ -532,6 +624,9 @@ BUNDELS["meetkunde-spark"] = dict(
             ("p", "Een <strong>translatie</strong> schuift een figuur op over een vector. Een "
                   "<strong>rotatie</strong> draait hem rond een centrum over een hoek. Een "
                   "<strong>spiegeling</strong> klapt hem om, rond een rechte of rond een punt."),
+            ("p", "Bij een rotatie wordt de hoek vaak in slagen genoemd: een <strong>kwartslag</strong> is "
+                  "een rotatie over <strong>90°</strong>, een halve draai over 180°. Die halve draai komt op "
+                  "hetzelfde neer als een spiegeling om het middelpunt."),
             ("p", "Alle drie behouden ze de lengtes, de hoeken en de evenwijdigheid. Het beeld is dus "
                   "altijd <strong>congruent</strong> met de oorspronkelijke figuur. Eén ding verandert wél "
                   "bij een spiegeling om een rechte: de draairichting keert om."),
@@ -544,7 +639,9 @@ BUNDELS["meetkunde-spark"] = dict(
         ]),
     ],
     onthoud=[
-        "Scherp < 90° < stomp < 180° = gestrekt. Nevenhoeken samen 180°, overstaande hoeken gelijk.",
+        "Een scherpe hoek is < 90°, een stompe ligt tussen 90° en 180°, gestrekt is 180°.",
+        "Nevenhoeken samen 180°, overstaande hoeken gelijk.",
+        "Een kwartslag is een rotatie over 90°, een halve draai over 180°.",
         "Hoekensom: driehoek 180°, vierhoek 360°. Gelijkzijdig betekent drie hoeken van 60°.",
         "Gelijkbenig: de twee basishoeken zijn gelijk. Tophoek 40° geeft basishoeken van 70°.",
         "Een driehoek heeft twee namen: naar zijn zijden én naar zijn hoeken.",
@@ -568,8 +665,9 @@ BUNDELS["metend-rekenen-spark"] = dict(
                   "Het getal alleen zegt niets: 3 kan 3 millimeter of 3 kilometer zijn."),
             ("fig", svg.maatladder(["km", "hm", "dam", "m", "dm", "cm", "mm"]),
              "Bij lengte is elke stap naar rechts maal 10, en elke stap naar links gedeeld door 10. Van km naar m zijn het drie stappen: 3,5 km = 3500 m."),
-            ("p", "Dezelfde ladder geldt voor <strong>inhoud</strong> (l, dl, cl, ml) en voor "
-                  "<strong>massa</strong> (kg, g, mg). Kies altijd de eenheid die bij de zaak past: "
+            ("p", "Dezelfde ladder geldt voor <strong>inhoud</strong> — liter, deciliter, centiliter, "
+                  "<strong>milliliter</strong>, dus 1 l = 1000 ml en een halve liter is <strong>500 ml</strong> "
+                  "— en voor <strong>massa</strong> (kg, g, mg; 2,5 kg = 2500 g). Kies altijd de eenheid die bij de zaak past: "
                   "een afstand tussen steden in kilometer, de dikte van een blad in millimeter."),
             ("kader", "<strong>Tijd telt niet per tien.</strong> Een uur heeft 60 minuten en een minuut 60 "
                       "seconden. Dus 2,5 uur is 150 minuten, en een kwartier is 15 × 60 = 900 seconden. "
@@ -658,7 +756,8 @@ BUNDELS["metend-rekenen-spark"] = dict(
             ("p", "Kijk of je <strong>eenheid</strong> past bij wat je berekende: cm bij omtrek, cm² bij "
                   "oppervlakte, cm³ of liter bij volume. En rond pas op het <strong>einde</strong> af: "
                   "12,467 tot op twee decimalen is <strong>12,47</strong>, want het derde decimaal is 7."),
-            ("kader", "Rond zinvol af. 5 × 250 ml is 1250 ml, dus je hebt <strong>2</strong> pakjes van een "
+            ("kader", "Rond zinvol af. Vraagt een <strong>recept</strong> 250 ml melk en maak je het vijf "
+                      "keer, dan is 5 × 250 ml = 1250 ml, dus je hebt <strong>2</strong> pakjes van een "
                       "liter nodig — 1,25 pakje bestaat niet. Bij dozen, pakjes en bussen rond je naar boven af."),
         ]),
     ],
@@ -739,6 +838,9 @@ BUNDELS["relaties-en-verandering-spark"] = dict(
                   "drie kosten er 10. Er komt telkens <strong>3</strong> bij, want elk volgend vierkant "
                   "deelt een zijde met het vorige. Bij n vierkantjes: <strong>3n + 1</strong>. Toets bij "
                   "n = 3: 3 × 3 + 1 = 10."),
+            ("p", "Soms hoeft er niets geteld te worden en zegt de situatie het zelf. Elke koe heeft vier "
+                  "poten, dus bij k koeien zijn dat er <strong>4k</strong>. Begin bij zo'n vraag altijd met: "
+                  "wat gebeurt er <em>per stuk</em>?"),
             ("p", "Let op wat voor soort rij het is. Bij 3, 7, 11, 15 komt er telkens 4 bij, dus het "
                   "volgende is <strong>19</strong>. Bij 2, 4, 8, 16 wordt er telkens maal 2 gedaan, dus het "
                   "volgende is <strong>32</strong> — dat groeit veel sneller."),
@@ -750,6 +852,9 @@ BUNDELS["relaties-en-verandering-spark"] = dict(
                   "<strong>oplossing</strong>."),
             ("fig", svg.stappen(["2x + 5 = 17", "min 5|2x = 12", "deel door 2|x = 6"]),
              "Elke stap doe je aan allebei de kanten. Zo krijg je telkens een gelijkwaardige vergelijking: ze ziet er anders uit, maar heeft dezelfde oplossing."),
+            ("p", "Staat de x onder een deelteken, vermenigvuldig dan: uit x : 4 = 3 volgt "
+                  "x = 3 × 4 = <strong>12</strong>. Delen en vermenigvuldigen zijn elkaars omgekeerde, net "
+                  "als optellen en aftrekken."),
             ("p", "Staan er x'en aan beide kanten, breng ze dan eerst samen. 5x − 3 = 2x + 9 wordt "
                   "3x = 12, dus x = <strong>4</strong>. Staan er haakjes, dan kan je delen of uitwerken: "
                   "3(x − 2) = 15 geeft x − 2 = 5, dus x = <strong>7</strong>."),
@@ -760,6 +865,9 @@ BUNDELS["relaties-en-verandering-spark"] = dict(
         dict(kop="Van een verhaal naar een vergelijking", blokken=[
             ("p", "Het moeilijkste is niet het oplossen, wel het opstellen. Zet eerst met woorden wat de "
                   "onbekende is, en vertaal dan zin per zin."),
+            ("p", "Let op de woorden die een bewerking verbergen. Het <strong>dubbele</strong> van een "
+                  "getal is 2x, de helft is x : 2, en „vijf meer dan” is + 5. „Het dubbele van mijn getal "
+                  "plus 3 is 21” wordt dus <strong>2x + 3 = 21</strong>, en daaruit volgt x = 9."),
             ("p", "„Een taxi vraagt € 3 opstapgeld en € 2 per kilometer. Je betaalt € 19.” Noem het "
                   "aantal kilometer x. Dan is de rit 3 + 2x, en dat is 19. Uit 2x = 16 volgt "
                   "x = <strong>8 kilometer</strong>."),
@@ -780,6 +888,8 @@ BUNDELS["relaties-en-verandering-spark"] = dict(
         "Recht evenredig: het quotiënt blijft gelijk, grafiek is een rechte door de oorsprong.",
         "Omgekeerd evenredig: het product blijft gelijk. 6 werklui × 4 dagen = 12 × 2.",
         "Patroon: zoek wat er telkens bij komt, en wat er aan het begin staat. Lucifervierkantjes: 3n + 1.",
+        "Per stuk denken geeft de formule: k koeien hebben 4k poten.",
+        "Het dubbele is 2x, de helft is x : 2. Uit x : 4 = 3 volgt x = 12.",
         "Wat je links van het gelijkheidsteken doet, doe je ook rechts.",
         "Controleer je oplossing door ze in te vullen, en antwoord met een zin en een eenheid.",
     ])
@@ -801,6 +911,11 @@ BUNDELS["data-en-onzekerheid-spark"] = dict(
             ("fig", svg.frequentietabel([(0, 4), (1, 9), (2, 6), (3, 2), (4, 1)],
                                         koppen=("broers en zussen", "hoe vaak")),
              "Een frequentietabel zet elke waarde naast het aantal keer dat ze voorkomt. De som van de frequenties is altijd het aantal metingen: hier 22 leerlingen."),
+            ("p", "Uit zo'n tabel haal je ook meteen het gemiddelde, maar dan moet je elke waarde "
+                  "<strong>maal haar frequentie</strong> doen. Komt waarde 3 vijf keer voor en waarde 4 drie "
+                  "keer, dan zijn er 5 + 3 = <strong>8</strong> metingen met een som van "
+                  "5 × 3 + 3 × 4 = 27, dus het gemiddelde is 27 : 8 = <strong>3,375</strong>. De waarden "
+                  "zelf optellen zou 3 + 4 = 7 geven, en dat is iets heel anders."),
             ("kader", "Controleer je tabel altijd door de frequenties op te tellen. Komt dat niet uit op het "
                       "aantal mensen dat je bevraagd hebt, dan ben je iets kwijt of heb je iets dubbel geteld."),
         ]),
@@ -837,6 +952,9 @@ BUNDELS["data-en-onzekerheid-spark"] = dict(
             ("p", "Met het gemiddelde kan je ook terugrekenen. Is het gemiddelde van vier toetsen 14, dan is "
                   "de som 14 × 4 = <strong>56</strong>. Heb je 12, 15 en 16, en wil je een gemiddelde van 15, "
                   "dan moet de som 60 worden; je staat op 43, dus je hebt <strong>17</strong> nodig."),
+            ("p", "Wat gebeurt er met een gemiddelde als er een waarde bij komt? Ligt die "
+                  "<strong>boven</strong> het gemiddelde, dan <strong>stijgt</strong> het; ligt ze eronder, "
+                  "dan daalt het; is ze er precies gelijk aan, dan verandert er niets."),
             ("kader", "Vergelijk je twee klassen van verschillende grootte, gebruik dan "
                       "<strong>percentages</strong> en geen aantallen. 8 van de 16 is meer dan 9 van de 30, "
                       "ook al is 9 het grootste getal."),
@@ -852,7 +970,7 @@ BUNDELS["data-en-onzekerheid-spark"] = dict(
             ("p", "Een <strong>lijndiagram</strong> gebruik je voor verandering in de tijd. Loopt de lijn "
                   "tussen 14 u en 15 u steil omhoog, dan werd het in dat uur snel warmer: de "
                   "<strong>steilheid</strong> vertelt hoe snel het ging, niet hoe warm het was."),
-            ("p", "In een <strong>cirkeldiagram</strong> is de hele cirkel <strong>360°</strong> en dus "
+            ("p", "In een <strong>cirkeldiagram</strong> is de hele cirkel <strong>360 graden</strong> en dus "
                   "100 %. Een groep van 20 % krijgt 20 % van 360° = <strong>72°</strong>. Een sector van "
                   "90° is <strong>een vierde</strong> van het geheel. Van 40 leerlingen komen er 15 te voet; "
                   "dat is 15/40 van 360° = <strong>135°</strong>."),
@@ -880,6 +998,8 @@ BUNDELS["data-en-onzekerheid-spark"] = dict(
         "Modus = wat het vaakst voorkomt. De enige maat die ook werkt bij kleuren of categorieën.",
         "Variatiebreedte = grootste − kleinste. Is ze 0, dan zijn alle waarden gelijk.",
         "Bij uitschieters is de mediaan eerlijker dan het gemiddelde.",
+        "Uit een frequentietabel: elke waarde maal haar frequentie, gedeeld door het aantal metingen.",
+        "Een waarde boven het gemiddelde doet het stijgen, eronder dalen, gelijk verandert niets.",
         "Staafdiagram vergelijkt groepen, lijndiagram toont verandering in de tijd, cirkeldiagram toont delen van een geheel.",
         "De hele cirkel is 360°, dus 100 %. 20 % is 72°, en 90° is een vierde.",
         "Een as die niet bij 0 begint, maakt kleine verschillen groot. Kijk eerst naar de as.",
@@ -960,6 +1080,14 @@ BUNDELS["verzamelingen-spark"] = dict(
                   "getal, dus <strong>ℕ ⊂ ℤ</strong>. Omgekeerd niet, want −3 is geheel maar niet "
                   "natuurlijk. En bij de <strong>driehoeken</strong>: een gelijkzijdige driehoek heeft drie "
                   "gelijke zijden en dus zeker ook twee, dus Z ⊂ G."),
+            ("p", "Een doorsnede kan ook <strong>leeg</strong> zijn omdat het niet anders kan. Neem E, de "
+                  "rechten die evenwijdig zijn met rechte a, en S, de rechten die a snijden. Een rechte die "
+                  "evenwijdig is met a komt a nooit tegen, dus E ∩ S = <strong>∅</strong>. En van de delers "
+                  "van 12 en de veelvouden van 12 is er precies één gemeenschappelijk: "
+                  "<strong>{12}</strong>, want 12 is een deler én een veelvoud van zichzelf."),
+            ("p", "Zit A helemaal <strong>in</strong> B, dan wordt het simpel: A ∩ B is dan gewoon "
+                  "<strong>A</strong> (meer dan heel A kunnen ze niet gemeen hebben) en A ∪ B is "
+                  "<strong>B</strong>."),
             ("p", "Een doorsnede geeft soms een bekende naam terug. Een ruit heeft vier gelijke zijden, een "
                   "rechthoek vier rechte hoeken; wie allebei is, is een <strong>vierkant</strong>. De "
                   "doorsnede van de even getallen en de veelvouden van 3 zijn de <strong>veelvouden van "
@@ -980,4 +1108,7 @@ BUNDELS["verzamelingen-spark"] = dict(
         "Aantal in de unie = A + B − de overlap. Teken een venndiagram en begin in het midden.",
         "ℕ ⊂ ℤ, de vierkanten ⊂ de rechthoeken, de gelijkzijdige ⊂ de gelijkbenige driehoeken.",
         "Ruiten ∩ rechthoeken = de vierkanten. Priemgetallen ∩ even getallen = {2}.",
+        "Evenwijdige en snijdende rechten hebben niets gemeen: die doorsnede is leeg.",
+        "Delers van 12 ∩ veelvouden van 12 = {12}.",
+        "Is A ⊂ B, dan is A ∩ B = A en A ∪ B = B.",
     ])

@@ -1,0 +1,4299 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Cellen, weefsels en organen — deel 1",
+      "niveau": "spark",
+      "gratis": false,
+      "hernoemVan": "Cellen en toestanden van materie",
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Waaruit is elk levend wezen opgebouwd?",
+          "opties": [
+            "Uit cellen",
+            "Uit atomen alleen",
+            "Uit organen alleen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De cel is de basiseenheid van het leven. Alles wat leeft, van een bacterie tot een olifant, is uit cellen opgebouwd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Zet van klein naar groot: cel, orgaan, stelsel, weefsel. Welke rij klopt?",
+          "opties": [
+            "cel – weefsel – orgaan – stelsel",
+            "cel – orgaan – weefsel – stelsel",
+            "weefsel – cel – orgaan – stelsel"
+          ],
+          "antwoord": 0,
+          "uitleg": "De organisatieniveaus gaan van eenvoudig naar ingewikkeld: celonderdelen, cellen, weefsels, organen, stelsels en ten slotte het hele organisme."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een weefsel?",
+          "opties": [
+            "Een groep cellen van dezelfde soort die samen één taak doen",
+            "Eén cel met een heel bijzondere vorm",
+            "Een groep organen die samenwerken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Cellen van dezelfde soort die samen dezelfde taak uitvoeren, vormen een weefsel. Verschillende weefsels samen vormen een orgaan."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Verschillende organen die samen één grote taak doen, vormen samen een ___.",
+          "antwoord": "stelsel",
+          "uitleg": "Mond, slokdarm, maag en darmen vormen samen het spijsverteringsstelsel. Een stelsel heet ook een orgaanstelsel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welk celonderdeel zit de erfelijke informatie van de cel?",
+          "opties": [
+            "In de celkern",
+            "In het cytoplasma",
+            "In de vacuole"
+          ],
+          "antwoord": 0,
+          "uitleg": "De celkern bevat het erfelijk materiaal en stuurt van daaruit alles wat in de cel gebeurt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke celonderdelen vind je in een plantaardige cel, maar niet in een dierlijke cel?",
+          "opties": [
+            "De celwand",
+            "De bladgroenkorrels",
+            "De celkern",
+            "Het celmembraan"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Een plantaardige cel heeft een stevige celwand en meestal bladgroenkorrels en een grote vacuole. De celkern en het celmembraan heeft elke cel, ook een dierlijke."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet het celmembraan?",
+          "opties": [
+            "Het regelt wat er in en uit de cel gaat",
+            "Het maakt suikers met zonlicht",
+            "Het bewaart de erfelijke informatie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het celmembraan is het dunne vlies rond de cel. Het laat sommige stoffen door en andere niet, en regelt zo de uitwisseling met de omgeving."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In het celonderdeel ___ gebeurt de celademhaling, waarbij de cel energie vrijmaakt.",
+          "antwoord": "mitochondrion",
+          "uitleg": "In de mitochondriën wordt glucose verbrand met zuurstof. Ze worden daarom de energiecentrales van de cel genoemd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor dient een vacuole in een plantencel?",
+          "opties": [
+            "Ze slaat water en voedingsstoffen op",
+            "Ze vangt het zonlicht op",
+            "Ze deelt de cel in tweeën"
+          ],
+          "antwoord": 0,
+          "uitleg": "De vacuole is een blaas vol vocht. Ze slaat water, voedings- en afvalstoffen op en houdt de cel door de druk van dat vocht stevig."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bladgroenkorrels vangen zonlicht op.",
+          "antwoord": true,
+          "uitleg": "Bladgroenkorrels of chloroplasten bevatten bladgroen. Dat vangt zonlicht op voor de fotosynthese, en geeft het blad meteen ook zijn groene kleur."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het cytoplasma?",
+          "opties": [
+            "De vloeistof in de cel waarin de celonderdelen liggen",
+            "De harde buitenkant van een plantencel",
+            "Het onderdeel dat zonlicht opvangt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het cytoplasma is het gelei-achtige vocht in de cel. De celonderdelen liggen erin, en veel stofomzettingen gebeuren erin."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze zijn weefsels bij de mens?",
+          "opties": [
+            "Spierweefsel",
+            "Zenuwweefsel",
+            "De maag",
+            "Het hart"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Spierweefsel en zenuwweefsel zijn weefsels. De maag en het hart zijn organen: ze bestaan uit verschillende weefsels samen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk van deze is een orgaan van een plant?",
+          "opties": [
+            "Het blad",
+            "Het dekweefsel",
+            "De bladgroenkorrel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wortel, stengel, blad en bloem zijn de organen van een plant. Dekweefsel is een weefsel en een bladgroenkorrel is een celonderdeel."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een bacterie is een eencellig organisme.",
+          "antwoord": true,
+          "uitleg": "Een eencellig organisme bestaat uit één enkele cel die alles zelf doet. Een mens is meercellig: zijn cellen hebben elk een eigen taak."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk stelsel zorgt ervoor dat zuurstof in je bloed komt?",
+          "opties": [
+            "Het ademhalingsstelsel",
+            "Het spijsverteringsstelsel",
+            "Het uitscheidingsstelsel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het ademhalingsstelsel haalt zuurstof uit de lucht en geeft koolstofdioxide af. Het transportstelsel brengt die zuurstof daarna naar alle cellen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Het stelsel dat je lichaam rechtop houdt en je organen beschermt, is het ___.",
+          "antwoord": "beenderstelsel",
+          "uitleg": "Het beenderstelsel of skelet draagt je lichaam, beschermt je hersenen, hart en longen, en geeft de spieren een aanhechtingspunt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke twee stelsels heeft een plant volgens de vakfiche?",
+          "opties": [
+            "Een transportstelsel",
+            "Een voortplantingsstelsel",
+            "Een ademhalingsstelsel",
+            "Een zenuwstelsel"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Een plant heeft een transportstelsel, dat water en suikers verplaatst, en een voortplantingsstelsel, de bloem. Zenuwen en longen heeft ze niet."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het hart is een weefsel.",
+          "antwoord": false,
+          "uitleg": "Het hart is een orgaan. Het bestaat uit spierweefsel, zenuwweefsel en bloedvaten samen, en die weefsels bestaan elk uit cellen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarmee bekijk je cellen die je met het blote oog niet ziet?",
+          "opties": [
+            "Met een microscoop",
+            "Met een dynamometer",
+            "Met een maatcilinder"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een lichtmicroscoop vergroot sterk genoeg om cellen te zien. Een loep of een binoculair vergroot minder en gebruik je voor grotere dingen, zoals een insect."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een dierlijke cel heeft een celwand.",
+          "antwoord": false,
+          "uitleg": "Alleen plantencellen (en bacteriën en schimmels) hebben een celwand. Een dierlijke cel heeft enkel een celmembraan en is daardoor buigzamer van vorm."
+        }
+      ]
+    },
+    {
+      "titel": "Cellen, weefsels en organen — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Zet van groot naar klein: orgaan, cel, organisme, weefsel, stelsel. Welke rij klopt?",
+          "opties": [
+            "organisme – stelsel – orgaan – weefsel – cel",
+            "organisme – orgaan – stelsel – weefsel – cel",
+            "stelsel – organisme – orgaan – cel – weefsel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van afnemende complexiteit: het hele organisme, dan zijn stelsels, daarin de organen, daarin de weefsels, en die bestaan uit cellen met celonderdelen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een spiercel heeft veel meer mitochondriën dan een huidcel. Waarom?",
+          "opties": [
+            "Omdat een spier veel energie nodig heeft om samen te trekken",
+            "Omdat een spiercel groter moet worden",
+            "Omdat een spiercel zonlicht moet opvangen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Mitochondriën maken energie vrij uit glucose. Een cel die veel arbeid levert, zoals een spiercel of een hartcel, heeft er daarom veel nodig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom heeft een cel uit de wortel van een plant geen bladgroenkorrels?",
+          "opties": [
+            "Omdat er in de grond geen licht komt",
+            "Omdat een wortel geen cellen heeft",
+            "Omdat de wortel geen water opneemt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bladgroenkorrels werken alleen met licht. In de donkere bodem heeft fotosynthese geen zin, dus wortelcellen hebben ze niet. Bladcellen zitten er vol mee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke celonderdelen hebben een plantaardige én een dierlijke cel allebei?",
+          "opties": [
+            "Celkern",
+            "Cytoplasma",
+            "Mitochondriën",
+            "Celwand"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Celkern, celmembraan, cytoplasma en mitochondriën vind je in allebei. Alleen de celwand, de bladgroenkorrels en de grote vacuole zijn typisch plantaardig."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een plantencel kan zowel bladgroenkorrels als mitochondriën hebben.",
+          "antwoord": true,
+          "uitleg": "Een bladcel maakt met haar bladgroenkorrels suikers, en verbrandt met haar mitochondriën een deel van die suikers weer. Een plant ademt dus ook."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een plant die te weinig water krijgt, gaat slap hangen. Welk celonderdeel verklaart dat?",
+          "opties": [
+            "De vacuole, die leegloopt en dus minder druk geeft",
+            "De celkern, die krimpt",
+            "Het mitochondrion, dat stopt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een volle vacuole duwt de cel van binnenuit tegen de celwand en houdt de plant stevig. Loopt ze leeg, dan verdwijnt die druk en hangt de plant slap."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom staat een boom rechtop en zakt hij niet in elkaar, terwijl een dier een skelet nodig heeft?",
+          "opties": [
+            "Omdat elke plantencel een stevige celwand heeft",
+            "Omdat planten geen gewicht hebben",
+            "Omdat planten geen cellen hebben"
+          ],
+          "antwoord": 0,
+          "uitleg": "De celwand van cellulose maakt elke plantencel stevig. Miljoenen stevige cellen samen dragen de hele boom. Dieren lossen dat op met beenderen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze horen bij het niveau 'weefsel'?",
+          "opties": [
+            "Huidweefsel",
+            "Transportweefsel van een plant",
+            "De nier",
+            "De stengel"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Huidweefsel en transportweefsel zijn weefsels. De nier en de stengel zijn organen, want daarin werken verschillende weefsels samen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Het weefsel dat bij een plant water en suikers vervoert, heet het ___.",
+          "antwoord": "transportweefsel",
+          "uitleg": "Het transportweefsel loopt als buisjes door wortel, stengel en blad. Het dekweefsel is de beschermlaag aan de buitenkant."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Elke cel van een meercellig organisme doet precies hetzelfde werk.",
+          "antwoord": false,
+          "uitleg": "In een meercellig organisme zijn de cellen gespecialiseerd: een zenuwcel geeft signalen door, een rode bloedcel vervoert zuurstof. Net daardoor kan het lichaam meer dan een eencellige."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een onderzoeker ziet onder de microscoop een cel met een celwand, een grote vacuole en groene korrels. Wat is het?",
+          "opties": [
+            "Een cel uit een blad",
+            "Een cel uit een spier",
+            "Een rode bloedcel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Celwand plus vacuole plus bladgroenkorrels wijst op een plantencel, en de groene korrels wijzen op een deel dat licht krijgt: een blad."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke stelsels van de mens werken samen om zuurstof en voedingsstoffen tot in je tenen te krijgen?",
+          "opties": [
+            "Het ademhalingsstelsel",
+            "Het spijsverteringsstelsel",
+            "Het transportstelsel",
+            "Het beenderstelsel"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De longen halen zuurstof binnen, de darmen de voedingsstoffen, en het bloed brengt allebei tot bij elke cel. Geen enkel stelsel redt dat alleen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er met een cel als haar celkern zou verdwijnen?",
+          "opties": [
+            "Ze verliest haar erfelijke informatie en kan zich niet meer delen",
+            "Ze zou meer energie maken",
+            "Ze zou een celwand krijgen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De celkern bewaart het erfelijk materiaal en stuurt de cel aan. Zonder kern valt die aansturing weg en kan de cel zich niet meer vermenigvuldigen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een organisme dat uit één enkele cel bestaat, noem je ___.",
+          "antwoord": "eencellig",
+          "uitleg": "Bij een eencellig organisme doet die ene cel alles: voeding opnemen, energie maken, afval kwijtraken en zich voortplanten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het celmembraan laat alle stoffen zomaar door.",
+          "antwoord": false,
+          "uitleg": "Het celmembraan is selectief: het kiest wat binnen mag en wat buiten blijft. Zo houdt de cel haar samenstelling in de hand."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke rij hoort volledig bij hetzelfde organisatieniveau?",
+          "opties": [
+            "Maag, hart, longen, nieren",
+            "Maag, spierweefsel, cel, hart",
+            "Celkern, maag, longen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Maag, hart, longen en nieren zijn alle vier organen. In de andere rijen staan niveaus door elkaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraken over een dierlijke cel kloppen?",
+          "opties": [
+            "Ze heeft een celmembraan",
+            "Ze heeft mitochondriën",
+            "Ze heeft bladgroenkorrels",
+            "Ze heeft een celwand"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Elke dierlijke cel heeft een celmembraan en mitochondriën. Bladgroenkorrels en een celwand heeft ze niet, want ze maakt geen suikers met licht en wordt gesteund door een skelet."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een orgaan bestaat uit verschillende weefsels.",
+          "antwoord": true,
+          "uitleg": "De maag bijvoorbeeld heeft spierweefsel om te kneden, een slijmvlies aan de binnenkant en zenuwweefsel dat alles aanstuurt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Het celonderdeel dat bij een plant zorgt voor stevigheid en bescherming, is de ___.",
+          "antwoord": "celwand",
+          "uitleg": "De celwand ligt rond het celmembraan en is gemaakt van cellulose. Hij is stevig en laat water en opgeloste stoffen door."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom bekijk je een stukje ui onder een microscoop en niet met een loep?",
+          "opties": [
+            "Omdat een loep te weinig vergroot om cellen te zien",
+            "Omdat een loep enkel voor planten dient",
+            "Omdat een microscoop geen licht nodig heeft"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kies je meetinstrument naar de nauwkeurigheid die je nodig hebt. Een loep vergroot enkele keren, een lichtmicroscoop honderden keren, en pas dan zie je afzonderlijke cellen."
+        }
+      ]
+    },
+    {
+      "titel": "Fotosynthese en de plant — deel 1",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat maakt een plant zelf aan met behulp van zonlicht?",
+          "opties": [
+            "Suiker (glucose)",
+            "Zout",
+            "IJzer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij de fotosynthese maakt een plant glucose. Dat is een energierijke stof: er zit energie in die uit het zonlicht komt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke twee stoffen heeft een plant nodig om aan fotosynthese te doen?",
+          "opties": [
+            "Water",
+            "Koolstofdioxide",
+            "Zuurstofgas",
+            "Glucose"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Water (H₂O) en koolstofdioxide (CO₂) zijn de grondstoffen. Glucose (C₆H₁₂O₆) en zuurstofgas (O₂) zijn net de producten die eruit komen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Het gas dat een plant bij de fotosynthese afgeeft, is ___.",
+          "antwoord": "zuurstofgas",
+          "uitleg": "Planten geven zuurstofgas (O₂) af. Daardoor blijft er zuurstof in de lucht om in te ademen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welk plantendeel gebeurt de fotosynthese vooral?",
+          "opties": [
+            "In het blad",
+            "In de wortel",
+            "In de bloem"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bladeren liggen breed uitgespreid in het licht en zitten vol bladgroenkorrels. Daar gebeurt het grootste deel van de fotosynthese."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke energieomzetting gebeurt er bij de fotosynthese?",
+          "opties": [
+            "Lichtenergie wordt chemische energie",
+            "Chemische energie wordt lichtenergie",
+            "Warmte wordt elektrische energie"
+          ],
+          "antwoord": 0,
+          "uitleg": "De stralingsenergie van de zon wordt vastgelegd als chemische energie in de glucose. Die energie kan later weer vrijkomen bij de verbranding van die suiker."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bladgroen is nodig om zonlicht op te vangen.",
+          "antwoord": true,
+          "uitleg": "Het bladgroen in de bladgroenkorrels vangt het licht op. Zonder bladgroen kan er geen fotosynthese gebeuren; een witte plek op een blad maakt dus geen suiker."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een autotroof organisme?",
+          "opties": [
+            "Een organisme dat zijn eigen voedsel maakt",
+            "Een organisme dat andere organismen opeet",
+            "Een organisme dat geen energie nodig heeft"
+          ],
+          "antwoord": 0,
+          "uitleg": "Autotroof betekent letterlijk 'zichzelf voedend'. Planten maken hun eigen energierijke stoffen. Heterotrofe organismen, zoals dieren en de mens, moeten die uit hun voedsel halen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze zijn heterotrofe organismen?",
+          "opties": [
+            "Een koe",
+            "Een paddenstoel",
+            "Een eik",
+            "Gras"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Een koe en een paddenstoel moeten hun energierijke stoffen uit ander materiaal halen. Een eik en gras maken die zelf en zijn dus autotroof."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Met haar ___ neemt een plant water uit de bodem op.",
+          "antwoord": "wortels",
+          "uitleg": "De wortels nemen water en opgeloste mineralen op. Via het transportweefsel in de stengel gaat dat water naar de bladeren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Langs welke openingen neemt een blad koolstofdioxide op?",
+          "opties": [
+            "Langs de huidmondjes",
+            "Langs de nerven",
+            "Langs de wortelharen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Huidmondjes zijn kleine openingen, vooral aan de onderkant van het blad. Ze laten CO₂ binnen en O₂ en waterdamp naar buiten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor dient de stengel van een plant?",
+          "opties": [
+            "Ze draagt de bladeren en vervoert stoffen",
+            "Ze neemt zonlicht op",
+            "Ze maakt zaden"
+          ],
+          "antwoord": 0,
+          "uitleg": "De stengel houdt de bladeren in het licht en bevat het transportweefsel dat water omhoog en suikers naar beneden brengt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Planten geven bij fotosynthese koolstofdioxide af.",
+          "antwoord": false,
+          "uitleg": "Bij de fotosynthese verbruiken planten net koolstofdioxide; ze geven zuurstofgas af. Koolstofdioxide geven ze wel af bij hun celademhaling."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is fotosynthese belangrijk voor mens en dier?",
+          "opties": [
+            "Ze levert de zuurstof en het voedsel waar wij van leven",
+            "Ze maakt de lucht warmer",
+            "Ze zorgt voor regen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Alle voedsel begint bij planten, en de zuurstof die wij inademen komt ervan. Zonder fotosynthese is er op aarde geen leven zoals wij het kennen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "De stof waarin een plant haar suiker opslaat als reserve, heet ___.",
+          "antwoord": "zetmeel",
+          "uitleg": "Zetmeel is een reservestof. De plant maakt het van glucose en slaat het op in bladeren, knollen of zaden, bijvoorbeeld in een aardappel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk gas is een broeikasgas dat planten uit de lucht halen?",
+          "opties": [
+            "Koolstofdioxide",
+            "Zuurstofgas",
+            "Waterstofgas"
+          ],
+          "antwoord": 0,
+          "uitleg": "Koolstofdioxide (CO₂) is een broeikasgas. Planten nemen het op bij de fotosynthese, en daarom helpen bossen tegen de klimaatverandering."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Zonder licht kan een plant geen fotosynthese doen.",
+          "antwoord": true,
+          "uitleg": "Licht levert de energie voor de omzetting. In het donker staat de fotosynthese stil, terwijl de celademhaling van de plant gewoon doorgaat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke plantendelen spelen een rol bij de fotosynthese?",
+          "opties": [
+            "Het blad",
+            "De bladgroenkorrels",
+            "De huidmondjes",
+            "De bloem"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Het blad vangt licht op, de bladgroenkorrels doen de omzetting en de huidmondjes laten de gassen door. De bloem dient voor de voortplanting."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet een plant met de glucose die ze maakt?",
+          "opties": [
+            "Ze gebruikt die als brandstof en als bouwstof, en slaat de rest op",
+            "Ze geeft die helemaal aan de bodem af",
+            "Ze ademt die uit"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een deel van de glucose verbrandt de plant zelf voor energie, een deel bouwt ze om tot cellulose voor haar celwanden, en de rest bewaart ze als zetmeel."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een plant gebruikt zelf ook zuurstof.",
+          "antwoord": true,
+          "uitleg": "Een plant ademt: in haar mitochondriën verbrandt ze glucose met zuurstof. Overdag maakt ze meer zuurstof dan ze verbruikt, 's nachts alleen maar verbruikt ze."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar in het blad zitten de bladgroenkorrels?",
+          "opties": [
+            "In de cellen van het blad",
+            "Tussen de bladeren",
+            "Op de wortels"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bladgroenkorrels zijn celonderdelen: ze liggen in het cytoplasma van de bladcellen. Daarom moet je een microscoop gebruiken om ze te zien."
+        }
+      ]
+    },
+    {
+      "titel": "Fotosynthese en de plant — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke weg legt water af in een plant?",
+          "opties": [
+            "Van de wortels via de stengel naar de bladeren",
+            "Van de bladeren via de stengel naar de wortels",
+            "Van de bloem rechtstreeks naar de wortels"
+          ],
+          "antwoord": 0,
+          "uitleg": "Water gaat omhoog: opgenomen door de wortels, door het transportweefsel van de stengel, tot in de bladeren. Daar wordt het gebruikt of het verdampt via de huidmondjes."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke weg legt de glucose af die in het blad gemaakt wordt?",
+          "opties": [
+            "Van het blad naar de rest van de plant, ook naar de wortels",
+            "Van het blad rechtstreeks de lucht in",
+            "Van de wortels naar het blad"
+          ],
+          "antwoord": 0,
+          "uitleg": "De suikers gaan via het transportweefsel naar alle plantendelen die zelf geen fotosynthese doen, zoals de wortels, de bloemen en de vruchten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'s Nachts geeft een plant netto zuurstof af.",
+          "antwoord": false,
+          "uitleg": "'s Nachts ligt de fotosynthese stil en blijft alleen de celademhaling over. De plant verbruikt dan zuurstof en geeft koolstofdioxide af."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke stofomzetting hoort bij de fotosynthese?",
+          "opties": [
+            "Koolstofdioxide en water worden glucose en zuurstofgas",
+            "Glucose en zuurstofgas worden koolstofdioxide en water",
+            "Water wordt waterstofgas en zuurstofgas"
+          ],
+          "antwoord": 0,
+          "uitleg": "Fotosynthese: CO₂ + H₂O → C₆H₁₂O₆ + O₂, met licht als energiebron. De celademhaling is precies de omgekeerde omzetting."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom staan huidmondjes vooral aan de onderkant van een blad?",
+          "opties": [
+            "Zo verdampt er minder water dan in de volle zon aan de bovenkant",
+            "Zo vangen ze meer licht",
+            "Zo kunnen insecten er beter bij"
+          ],
+          "antwoord": 0,
+          "uitleg": "De onderkant is koeler en schaduwrijker. De plant kan er gassen uitwisselen zonder te veel water te verliezen: een aanpassing aan haar omgeving."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom worden de bladeren van een plant in een donkere kast na een tijd geel?",
+          "opties": [
+            "Zonder licht maakt de plant geen suikers meer en breekt het bladgroen af",
+            "Zonder licht krijgt de plant te veel water",
+            "Zonder licht worden de wortels te warm"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bladgroen heeft licht nodig om zin te hebben. Zonder licht stopt de fotosynthese, teert de plant in op haar reserves en verdwijnt de groene kleur."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraken over fotosynthese en celademhaling kloppen?",
+          "opties": [
+            "Fotosynthese legt energie vast, celademhaling maakt ze vrij",
+            "Planten doen allebei",
+            "Dieren doen alleen celademhaling",
+            "Celademhaling gebeurt enkel in het donker"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De twee zijn elkaars omgekeerde. Een plant doet ze allebei, een dier alleen de celademhaling, en die loopt dag en nacht door."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Organismen die hun eigen energierijke stoffen maken, noem je ___.",
+          "antwoord": "autotroof",
+          "uitleg": "Planten, algen en sommige bacteriën zijn autotroof. In een voedselketen zijn zij daarom de producenten waar alles mee begint."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een boer zet zijn serre vol extra koolstofdioxide. Waarom?",
+          "opties": [
+            "Omdat de planten dan meer fotosynthese doen en sneller groeien",
+            "Omdat planten koolstofdioxide inademen om energie te maken",
+            "Omdat de planten er warmer van worden"
+          ],
+          "antwoord": 0,
+          "uitleg": "CO₂ is een grondstof voor de fotosynthese. Meer grondstof betekent meer glucose, dus meer groei — zolang licht en water niet tekortschieten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Ontbossing zorgt ervoor dat er minder koolstofdioxide uit de lucht gehaald wordt.",
+          "antwoord": true,
+          "uitleg": "Minder bomen betekent minder fotosynthese, dus minder opname van CO₂. Omdat CO₂ een broeikasgas is, versnelt ontbossing de klimaatverandering."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke stofuitwisseling gebeurt er bij de fotosynthese tussen plant en omgeving?",
+          "opties": [
+            "Opname van CO₂ en water, afgifte van O₂",
+            "Opname van O₂, afgifte van CO₂",
+            "Opname van zetmeel, afgifte van glucose"
+          ],
+          "antwoord": 0,
+          "uitleg": "Stofuitwisseling is wat er in en uit gaat: koolstofdioxide langs de huidmondjes, water langs de wortels, en zuurstofgas weer naar buiten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zit er zetmeel in een aardappel?",
+          "opties": [
+            "De plant slaat er haar suikerreserve in op",
+            "De aardappel doet zelf fotosynthese onder de grond",
+            "Het zetmeel komt uit de bodem"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een aardappel is een knol: een ondergrondse voorraadkast. De bladeren maken de glucose en de plant slaat die als zetmeel op om later uit te lopen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is fotosynthese belangrijk voor de plant zelf?",
+          "opties": [
+            "Ze levert de energierijke stoffen om te groeien en te leven",
+            "Ze houdt de plant koel",
+            "Ze zorgt dat de plant bloemen krijgt zonder energie"
+          ],
+          "antwoord": 0,
+          "uitleg": "De plant heeft glucose nodig als brandstof voor haar celademhaling en als bouwstof voor nieuwe cellen. Zonder fotosynthese heeft ze geen van beide."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een plant kan zonder mineralen uit de bodem perfect groeien.",
+          "antwoord": false,
+          "uitleg": "Naast water en CO₂ heeft een plant mineralen nodig, zoals stikstof. Die komen mee met het water uit de bodem; zonder blijft ze klein en verkleuren de bladeren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze zijn producten van de fotosynthese?",
+          "opties": [
+            "Glucose",
+            "Zuurstofgas",
+            "Koolstofdioxide",
+            "Water"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Wat eruit komt, zijn glucose en zuurstofgas. Koolstofdioxide en water gaan er net in."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee identieke planten staan op de vensterbank. Bij één plak je alle bladeren onderaan af, zodat de huidmondjes dicht zitten. Wat verwacht je?",
+          "opties": [
+            "Die plant groeit trager, want ze krijgt minder CO₂ binnen",
+            "Die plant groeit sneller, want ze verliest geen water",
+            "Er verandert niets"
+          ],
+          "antwoord": 0,
+          "uitleg": "De huidmondjes zijn de deur voor de gassen. Gaan ze dicht, dan stokt de aanvoer van koolstofdioxide en valt de fotosynthese grotendeels stil."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "De kleine openingen in een blad waarlangs gassen in en uit gaan, heten ___.",
+          "antwoord": "huidmondjes",
+          "uitleg": "Een huidmondje is een spleetje tussen twee sluitcellen. Bij droogte gaan die sluitcellen dicht, zodat de plant geen water verliest."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom noemen we glucose een energierijke stof?",
+          "opties": [
+            "Omdat er bij de verbranding ervan energie vrijkomt",
+            "Omdat ze zwaar is",
+            "Omdat ze licht uitstraalt"
+          ],
+          "antwoord": 0,
+          "uitleg": "De energie van het zonlicht zit opgeslagen in de bindingen van de glucose. Verbrandt een cel die suiker met zuurstof, dan komt die energie weer vrij."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De energie in het vlees dat je eet, komt oorspronkelijk van de zon.",
+          "antwoord": true,
+          "uitleg": "Het dier at planten (of dieren die planten aten), en die planten legden zonne-energie vast in suikers. Zo goed als alle energie in ons voedsel begint bij de fotosynthese."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraken over autotroof en heterotroof kloppen?",
+          "opties": [
+            "Een plant is autotroof",
+            "Een mens is heterotroof",
+            "Een schimmel is autotroof",
+            "Autotrofe organismen hebben geen energie nodig"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Planten maken hun eigen voedsel, mensen en schimmels niet. Ook een autotroof organisme heeft energie nodig; het haalt ze alleen rechtstreeks uit het licht."
+        }
+      ]
+    },
+    {
+      "titel": "Het menselijk lichaam — deel 1",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor heeft je lichaam voedsel nodig?",
+          "opties": [
+            "Als brandstof, als bouwstof en als beschermstof",
+            "Alleen om je maag te vullen",
+            "Alleen om warm te blijven"
+          ],
+          "antwoord": 0,
+          "uitleg": "Voedingsstoffen zijn brandstof (energie), bouwstof (groeien en herstellen) of beschermstof (goed blijven werken, zoals vitaminen en mineralen)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Zet de weg van het voedsel in de juiste volgorde.",
+          "opties": [
+            "mond – slokdarm – maag – dunne darm – dikke darm",
+            "mond – maag – slokdarm – dikke darm – dunne darm",
+            "mond – slokdarm – dunne darm – maag – dikke darm"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na de mond gaat het voedsel door de keel en de slokdarm naar de maag, dan door de twaalfvingerige darm en de dunne darm, en ten slotte door de dikke darm naar de endeldarm en de aars."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Het vocht in je mond dat al begint met verteren, heet ___.",
+          "antwoord": "speeksel",
+          "uitleg": "Speeksel komt uit de speekselklieren. Het maakt het voedsel glad en begint zetmeel af te breken, nog voor je geslikt hebt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze horen bij het spijsverteringsstelsel?",
+          "opties": [
+            "De maag",
+            "De lever",
+            "De longen",
+            "De nieren"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Maag, lever, galblaas, alvleesklier en de darmen horen bij de spijsvertering. De longen horen bij de ademhaling en de nieren bij de uitscheiding."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar komt de zuurstof uit de lucht in je bloed terecht?",
+          "opties": [
+            "In de longblaasjes",
+            "In de luchtpijp",
+            "In de maag"
+          ],
+          "antwoord": 0,
+          "uitleg": "De longblaasjes zijn piepkleine blaasjes met een heel dunne wand, omringd door haarvaten. Daar gaat zuurstof naar het bloed en koolstofdioxide eruit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet de strottenklep als je slikt?",
+          "opties": [
+            "Ze sluit de luchtpijp af",
+            "Ze opent de luchtpijp",
+            "Ze sluit de slokdarm af"
+          ],
+          "antwoord": 0,
+          "uitleg": "De strottenklep klapt over de luchtpijp zodat voedsel in de slokdarm gaat. Lukt dat niet, dan schiet je in je verkeerde keelgat en moet je hoesten."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "De spier onder je longen die je helpt ademen, is het ___.",
+          "antwoord": "middenrif",
+          "uitleg": "Het middenrif is een platte spier onder de longen. Trekt hij samen, dan wordt de borstkas groter en stroomt er lucht naar binnen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Uit hoeveel holtes bestaat het hart?",
+          "opties": [
+            "Vier: twee boezems en twee kamers",
+            "Twee",
+            "Drie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het hart heeft een linker- en een rechterboezem en een linker- en een rechterkamer. De boezems vangen het bloed op, de kamers pompen het weg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen een slagader en een ader?",
+          "opties": [
+            "Een slagader voert bloed weg van het hart, een ader ernaartoe",
+            "Een slagader voert bloed naar het hart, een ader ervandaan",
+            "Er is geen verschil"
+          ],
+          "antwoord": 0,
+          "uitleg": "Slagaders vertrekken bij het hart en hebben een dikke, gespierde wand. Aders brengen het bloed terug en hebben kleppen die terugstromen tegengaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke bestanddelen zitten er in bloed?",
+          "opties": [
+            "Plasma",
+            "Rode bloedcellen",
+            "Witte bloedcellen",
+            "Bloedplaatjes"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Bloed bestaat uit plasma (de vloeistof) met daarin rode bloedcellen, witte bloedcellen en bloedplaatjes. Alle vier zijn ze nodig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doen de rode bloedcellen?",
+          "opties": [
+            "Ze vervoeren zuurstof",
+            "Ze doden bacteriën",
+            "Ze laten een wonde stollen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Rode bloedcellen nemen zuurstof op in de longen en geven die af aan de cellen. Witte bloedcellen bestrijden ziektekiemen en bloedplaatjes laten je bloed stollen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Haarvaten zijn de allerdunste bloedvaten.",
+          "antwoord": true,
+          "uitleg": "Haarvaten hebben een wand van één cellaag dik. Juist daardoor kunnen zuurstof, voedingsstoffen en afvalstoffen erdoor naar de cellen en terug."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk orgaan maakt urine?",
+          "opties": [
+            "De nier",
+            "De blaas",
+            "De lever"
+          ],
+          "antwoord": 0,
+          "uitleg": "De nieren filteren afvalstoffen uit het bloed en maken daar urine van. De blaas bewaart die urine alleen maar tot je naar het toilet gaat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze horen bij het uitscheidingsstelsel?",
+          "opties": [
+            "De nieren",
+            "De zweetklieren",
+            "De longen",
+            "De maag"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Afvalstoffen verlaten je lichaam langs de nieren (urine), de zweetklieren (zweet) en de longen (koolstofdioxide en waterdamp). De maag verteert, maar scheidt niet uit."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Het buisje dat de urine van de nier naar de blaas brengt, is de ___.",
+          "antwoord": "urineleider",
+          "uitleg": "Elke nier heeft een urineleider naar de blaas. Van de blaas naar buiten loopt daarna één urinebuis."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er in de dunne darm?",
+          "opties": [
+            "De verteerde voedingsstoffen gaan het bloed in",
+            "Het voedsel wordt fijngekauwd",
+            "Het water wordt eruit gehaald"
+          ],
+          "antwoord": 0,
+          "uitleg": "In de dunne darm is de vertering klaar en worden de voedingsstoffen opgenomen in het bloed. Dat opnemen heet absorptie. De dikke darm haalt daarna vooral water eruit."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De maag maakt maagsap.",
+          "antwoord": true,
+          "uitleg": "Maagsap bevat zuur en verteringssappen. Het doodt bacteriën en begint met het afbreken van eiwitten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke voedingsstoffen zijn vooral bouwstoffen?",
+          "opties": [
+            "Eiwitten",
+            "Suikers",
+            "Vitaminen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eiwitten leveren de bouwstenen voor spieren, huid en bloed. Suikers en vetten zijn vooral brandstof; vitaminen en mineralen zijn beschermstoffen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat zijn voedingsvezels?",
+          "opties": [
+            "Delen van voedsel die je niet verteert maar die je darmen op gang houden",
+            "De suikers uit fruit",
+            "De eiwitten uit vlees"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vezels uit groenten, fruit en volkoren producten worden niet verteerd. Ze geven je darmen werk en houden je stoelgang vlot."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Water is een voedingsstof.",
+          "antwoord": true,
+          "uitleg": "Water levert geen energie, maar je lichaam kan er niet zonder: het vervoert stoffen, regelt je temperatuur en voert afval af."
+        }
+      ]
+    },
+    {
+      "titel": "Het menselijk lichaam — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke stofomzetting gebeurt er bij de vertering van eiwitten?",
+          "opties": [
+            "Eiwitten worden aminozuren",
+            "Eiwitten worden glucose",
+            "Eiwitten worden glycerol en vetzuren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eiwitten worden afgebroken tot aminozuren, suikers zoals zetmeel tot glucose, en vetten tot glycerol en drie vetzuren."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Bij de vertering wordt zetmeel omgezet in ___.",
+          "antwoord": "glucose",
+          "uitleg": "Zetmeel is een lange keten van glucosemoleculen. Speeksel en darmsap knippen die keten in losse glucosemoleculen, klein genoeg om in het bloed te gaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarin wordt een vet gesplitst bij de vertering?",
+          "opties": [
+            "In glycerol en drie vetzuren",
+            "In twee aminozuren",
+            "In glucose en water"
+          ],
+          "antwoord": 0,
+          "uitleg": "Elk vetmolecuul valt uiteen in één glycerol en drie vetzuren. Gal maakt de vetdruppels daarvoor eerst heel klein."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet gal?",
+          "opties": [
+            "Het verdeelt vetten in kleine druppeltjes",
+            "Het verteert eiwitten",
+            "Het neemt zuurstof op"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gal wordt in de lever gemaakt en in de galblaas bewaard. In de twaalfvingerige darm maakt het van vet heel kleine druppeltjes, zodat de verteringssappen er beter bij kunnen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke sappen helpen bij de vertering?",
+          "opties": [
+            "Maagsap",
+            "Alvleessap",
+            "Darmsap",
+            "Zweet"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Speeksel, maagsap, gal, alvleessap en darmsap horen bij de vertering. Zweet is een uitscheidingsproduct en heeft er niets mee te maken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke omzetting gebeurt er bij de celademhaling?",
+          "opties": [
+            "Glucose en zuurstofgas worden koolstofdioxide, water en energie",
+            "Koolstofdioxide en water worden glucose",
+            "Eiwitten worden aminozuren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Celademhaling is de verbranding van glucose in de mitochondriën. De energie die vrijkomt, gebruikt de cel om te werken; de rest gaat verloren als warmte."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Celademhaling gebeurt in de longen.",
+          "antwoord": false,
+          "uitleg": "Celademhaling gebeurt in élke cel, in de mitochondriën. De longen zorgen alleen voor de aanvoer van zuurstof en de afvoer van koolstofdioxide."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke stelsels moeten samenwerken om één spiercel aan het werk te houden?",
+          "opties": [
+            "Het ademhalingsstelsel, voor de zuurstof",
+            "Het spijsverteringsstelsel, voor de glucose",
+            "Het transportstelsel, dat allebei aanvoert",
+            "Het beenderstelsel, dat de energie levert"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De cel krijgt zuurstof van de longen en glucose uit de darmen, en het bloed brengt ze allebei. Beenderen dragen je lichaam, maar leveren geen energie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de kleine bloedsomloop?",
+          "opties": [
+            "De weg van het hart naar de longen en terug",
+            "De weg van het hart naar de rest van het lichaam en terug",
+            "De weg van de darmen naar de lever"
+          ],
+          "antwoord": 0,
+          "uitleg": "In de kleine bloedsomloop gaat zuurstofarm bloed via de longslagader naar de longen en komt het als zuurstofrijk bloed via de longader terug."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In de longslagader stroomt zuurstofarm bloed.",
+          "antwoord": true,
+          "uitleg": "Een slagader heet zo omdat ze van het hart wegvoert, niet omdat er zuurstofrijk bloed in zit. De longslagader brengt net zuurstofarm bloed naar de longen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "De grootste slagader van het lichaam, die uit de linkerkamer vertrekt, is de ___.",
+          "antwoord": "aorta",
+          "uitleg": "De aorta vervoert zuurstofrijk bloed naar het hele lichaam. De holle aders brengen het zuurstofarme bloed daarna terug naar de rechterboezem."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke onderdelen vind je in een nier?",
+          "opties": [
+            "De schors",
+            "Het merg",
+            "Het nierbekken",
+            "De boezem"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een nier bestaat van buiten naar binnen uit het kapsel, de schors, het merg met zijn piramides, en het bekken waar de urine samenkomt. Een boezem is een deel van het hart."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom heeft je lichaam bloedplaatjes nodig?",
+          "opties": [
+            "Om een wonde te laten stollen",
+            "Om zuurstof te vervoeren",
+            "Om voedsel te verteren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bloedplaatjes klitten bij een wonde samen en vormen een propje. Zonder bloedplaatjes zou een kleine snee blijven bloeden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je loopt hard. Waarom ga je sneller ademen én sneller met je hart kloppen?",
+          "opties": [
+            "Je spiercellen hebben meer zuurstof en glucose nodig, en het afval moet sneller weg",
+            "Je longen worden groter",
+            "Je bloed wordt dunner"
+          ],
+          "antwoord": 0,
+          "uitleg": "Meer celademhaling betekent meer verbruik van zuurstof en glucose en meer koolstofdioxide. De ademhaling en de bloedsomloop versnellen om dat bij te houden."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Onverteerde resten verlaten je lichaam via de endeldarm en de aars.",
+          "antwoord": true,
+          "uitleg": "Wat niet verteerd of opgenomen is, gaat als voedselresten door de dikke darm naar de endeldarm. Dat is iets anders dan uitscheiding van afvalstoffen uit het bloed."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat staat er onderaan, in het donkergroene deel van de actieve voedingsdriehoek?",
+          "opties": [
+            "Water, groenten, fruit en volle granen",
+            "Vlees en vis",
+            "Koek en frisdrank"
+          ],
+          "antwoord": 0,
+          "uitleg": "De driehoek zet plantaardige voeding en water onderaan: daar eet je het meest van. Hoe hoger je komt, hoe minder je er best van eet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand eet elke dag frieten en drinkt frisdrank, en zit de hele dag stil. Welke aanpassingen maken dat patroon gezonder?",
+          "opties": [
+            "Meer groenten en fruit eten",
+            "Water drinken in plaats van frisdrank",
+            "Elke dag bewegen",
+            "Meer koeken eten om aan energie te komen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De actieve voedings- en bewegingsdriehoek zegt: meer plantaardig, minder bewerkt, water als drank, en zo weinig mogelijk lang stilzitten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom staat lang stilzitten in de rode bol van de bewegingsdriehoek?",
+          "opties": [
+            "Omdat het ongezond is en je het beter zo veel mogelijk onderbreekt",
+            "Omdat het de beste vorm van beweging is",
+            "Omdat het alleen voor sporters geldt"
+          ],
+          "antwoord": 0,
+          "uitleg": "De rode bol is wat je best vermijdt. Lang stilzitten is ongezond, ook als je daarnaast sport; sta dus regelmatig even recht."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Het opnemen van verteerde voedingsstoffen in het bloed heet ___.",
+          "antwoord": "absorptie",
+          "uitleg": "De absorptie gebeurt in de dunne darm, door de darmvlokken heen. Die vlokken maken het oppervlak van de darm enorm groot."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk van deze is een ademhalingsproduct?",
+          "opties": [
+            "Koolstofdioxide",
+            "Urine",
+            "Voedselresten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Koolstofdioxide en waterdamp adem je uit. Urine is een uitscheidingsproduct en voedselresten zijn wat er van de vertering overblijft."
+        }
+      ]
+    },
+    {
+      "titel": "Voortplanting — deel 1",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen aseksuele en seksuele voortplanting?",
+          "opties": [
+            "Bij aseksuele voortplanting is er maar één ouder, bij seksuele zijn er twee geslachtscellen nodig",
+            "Bij aseksuele voortplanting zijn er altijd twee ouders",
+            "Er is geen verschil, het zijn twee woorden voor hetzelfde"
+          ],
+          "antwoord": 0,
+          "uitleg": "Aseksueel of ongeslachtelijk: één ouder maakt een kopie van zichzelf. Seksueel of geslachtelijk: een eicel en een zaadcel versmelten, dus er komt erfelijk materiaal van twee kanten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze zijn vormen van aseksuele voortplanting bij planten?",
+          "opties": [
+            "Stekken",
+            "Uitlopers",
+            "Bestuiving door een bij",
+            "Zaadjes zaaien"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Stekken, enten, oculeren, scheuren, uitlopers, bollen en knollen zijn ongeslachtelijk: er komt geen zaadcel aan te pas. Bestuiving en zaad horen bij de seksuele voortplanting."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een stukje van een plant afsnijden en het laten wortelen, heet ___.",
+          "antwoord": "stekken",
+          "uitleg": "Bij stekken groeit er uit een stukje stengel of blad een volledige nieuwe plant. Die is erfelijk identiek aan de moederplant."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een gist plant zich voort door knopvorming. Wat gebeurt er dan?",
+          "opties": [
+            "Er groeit een uitstulping aan de cel die loskomt als een nieuw individu",
+            "Twee gistcellen versmelten",
+            "De gist legt eitjes"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij knopvorming ontstaat er een knopje aan de ouder dat uitgroeit en loslaat. Het is aseksueel: het nieuwe individu heeft hetzelfde erfelijk materiaal."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk deel van de bloem is het mannelijke deel?",
+          "opties": [
+            "De meeldraad",
+            "De stamper",
+            "Het vruchtbeginsel"
+          ],
+          "antwoord": 0,
+          "uitleg": "De meeldraad bestaat uit een helmdraad met bovenaan een helmknop, waarin het stuifmeel zit. De stamper is het vrouwelijke deel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Uit welke onderdelen bestaat de stamper?",
+          "opties": [
+            "De stempel",
+            "De stijl",
+            "Het vruchtbeginsel",
+            "De helmknop"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De stamper heeft bovenaan een kleverige stempel, daaronder de stijl en onderaan het vruchtbeginsel met de zaadbeginsels. De helmknop hoort bij de meeldraad."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Stuifmeel dat op de stempel van een bloem terechtkomt: dat noem je ___.",
+          "antwoord": "bestuiving",
+          "uitleg": "Bestuiving gebeurt door de wind of door insecten. Pas daarna kan de bevruchting volgen, als de zaadcel bij de eicel in het zaadbeginsel raakt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is bevruchting?",
+          "opties": [
+            "Het versmelten van een zaadcel en een eicel",
+            "Het vervoeren van stuifmeel",
+            "Het openen van een bloem"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij de bevruchting versmelten de twee geslachtscellen tot één bevruchte eicel. Daaruit groeit bij een plant een zaadje met een kiemplantje erin."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een eicel en een zaadcel zijn allebei geslachtscellen.",
+          "antwoord": true,
+          "uitleg": "Geslachtscellen of voortplantingscellen zijn de enige cellen die bij een bevruchting versmelten. Bij dieren en de mens heten ze eicel en zaadcel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar worden bij de man zaadcellen gemaakt?",
+          "opties": [
+            "In de teelballen",
+            "In de prostaat",
+            "In de zaadblaasjes"
+          ],
+          "antwoord": 0,
+          "uitleg": "De teelballen maken de zaadcellen. Ze rijpen verder in de bijballen; de prostaat en de zaadblaasjes maken het vocht waarin de zaadcellen zwemmen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke onderdelen horen bij het vrouwelijke voortplantingsstelsel?",
+          "opties": [
+            "De eierstokken",
+            "De eileiders",
+            "De baarmoeder",
+            "De zaadleiders"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Eierstokken, eileiders met hun eitrechters, baarmoeder, baarmoederhals, vagina, clitoris en schaamlippen. De zaadleiders horen bij het mannelijke stelsel."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "De eicellen van een vrouw rijpen in de ___.",
+          "antwoord": "eierstokken",
+          "uitleg": "In de twee eierstokken rijpt er telkens één eicel per cyclus. Bij de eisprong komt die vrij en wordt ze door de eitrechter opgevangen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar groeit een baby tijdens de zwangerschap?",
+          "opties": [
+            "In de baarmoeder",
+            "In de eileider",
+            "In de eierstok"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na de bevruchting in de eileider reist de bevruchte eicel naar de baarmoeder en nestelt zich in het baarmoederslijmvlies. Daar groeit ze uit tot embryo, foetus en baby."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Sperma is het vocht waarin zaadcellen zitten.",
+          "antwoord": true,
+          "uitleg": "Sperma is een mengsel van zaadcellen en vocht van de prostaat en de zaadblaasjes. Dat vocht voedt en beschermt de zaadcellen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat zijn primaire geslachtskenmerken?",
+          "opties": [
+            "De geslachtsorganen waarmee je geboren wordt",
+            "De kenmerken die in de puberteit verschijnen",
+            "De kleur van je haar"
+          ],
+          "antwoord": 0,
+          "uitleg": "Primaire geslachtskenmerken zijn de voortplantingsorganen zelf. Secundaire geslachtskenmerken, zoals een zwaardere stem of borstontwikkeling, komen er in de puberteit bij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze zijn secundaire geslachtskenmerken?",
+          "opties": [
+            "Schaamhaar",
+            "Een zwaardere stem",
+            "De teelballen",
+            "De eierstokken"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Schaamhaar, een zwaardere stem, bredere heupen en borstontwikkeling komen in de puberteit door de geslachtshormonen. Teelballen en eierstokken zijn primaire kenmerken."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij maagdelijke voortplanting groeit er uit een onbevruchte eicel toch een nieuw individu.",
+          "antwoord": true,
+          "uitleg": "Sommige dieren, zoals bladluizen en bepaalde hagedissen, doen dat. Het is een vorm van aseksuele voortplanting: er komt geen zaadcel aan te pas."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is enten bij planten?",
+          "opties": [
+            "Een deel van de ene plant op de stam van een andere laten vergroeien",
+            "Een plant in twee stukken scheuren",
+            "Zaad van twee planten mengen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij enten zet je een twijg van een goede soort op de wortelstam van een andere. Fruittelers doen dat om elk jaar dezelfde appels te oogsten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat groeit er uit een zaadje?",
+          "opties": [
+            "Een kiemplant",
+            "Een bloem zonder stengel",
+            "Een knol"
+          ],
+          "antwoord": 0,
+          "uitleg": "In het zaadje zit een kiemplantje met een voorraad voedsel. Bij genoeg water en warmte kiemt het en groeit het uit tot een nieuwe plant."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een tulp plant zich ongeslachtelijk voort met een ___ onder de grond.",
+          "antwoord": "bol",
+          "uitleg": "Een bol is een ondergrondse voorraadkast waaruit elk jaar een nieuwe plant groeit. Aardappelen doen hetzelfde met knollen."
+        }
+      ]
+    },
+    {
+      "titel": "Voortplanting — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Zet de fasen in de juiste volgorde: bevruchting, eisprong, innesteling, geboorte.",
+          "opties": [
+            "eisprong – bevruchting – innesteling – geboorte",
+            "bevruchting – eisprong – innesteling – geboorte",
+            "eisprong – innesteling – bevruchting – geboorte"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst komt de eicel vrij (eisprong), dan versmelt ze met een zaadcel in de eileider (bevruchting), dan nestelt ze zich in de baarmoeder (innesteling), en na ongeveer negen maanden volgt de geboorte."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoelang duurt een menstruatiecyclus gemiddeld?",
+          "opties": [
+            "Ongeveer 28 dagen",
+            "Ongeveer 7 dagen",
+            "Ongeveer 90 dagen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gemiddeld 28 dagen, maar tussen 21 en 35 dagen is normaal. De eerste dag van de menstruatie is dag 1 van de cyclus."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er bij de eisprong?",
+          "opties": [
+            "Een rijpe eicel komt vrij uit de eierstok",
+            "Het baarmoederslijmvlies wordt afgestoten",
+            "Er worden zaadcellen gemaakt"
+          ],
+          "antwoord": 0,
+          "uitleg": "De eisprong valt ongeveer halverwege de cyclus, rond dag 14. De eicel wordt opgevangen door de eitrechter en kan daar ongeveer een dag bevrucht worden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke gebeurtenissen horen bij een menstruatiecyclus?",
+          "opties": [
+            "De eicelrijping",
+            "De verdikking van het baarmoederslijmvlies",
+            "De eisprong",
+            "De geboorte"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Rijpen van een eicel, verdikken van het slijmvlies, eisprong en, als er geen bevruchting is, de menstruatie. De geboorte hoort bij een zwangerschap, niet bij de cyclus."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom verdikt het baarmoederslijmvlies elke cyclus?",
+          "opties": [
+            "Om een bevruchte eicel te kunnen opvangen",
+            "Om de eicel te laten rijpen",
+            "Om zaadcellen te maken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een dik, goed doorbloed slijmvlies is nodig voor de innesteling. Komt er geen bevruchte eicel, dan wordt het afgestoten: dat is de menstruatie."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Het afstoten van het baarmoederslijmvlies heet de ___.",
+          "antwoord": "menstruatie",
+          "uitleg": "De menstruatie duurt meestal drie tot zeven dagen en is meteen het begin van een nieuwe cyclus."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke hormonen spelen een rol bij de voortplanting?",
+          "opties": [
+            "Oestrogeen",
+            "Progesteron",
+            "Testosteron",
+            "Insuline"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Oestrogeen en progesteron sturen de cyclus en de zwangerschap; testosteron stuurt de mannelijke ontwikkeling. Insuline regelt de suiker in je bloed en heeft er niets mee te maken."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De vruchtbare periode is de periode rond de eisprong.",
+          "antwoord": true,
+          "uitleg": "Zaadcellen kunnen enkele dagen overleven en de eicel ongeveer één dag. De vruchtbare periode loopt dus van een paar dagen vóór tot een dag na de eisprong."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Zet de ontwikkeling in de juiste volgorde: baby, embryo, bevruchte eicel, foetus.",
+          "opties": [
+            "bevruchte eicel – embryo – foetus – baby",
+            "embryo – bevruchte eicel – foetus – baby",
+            "bevruchte eicel – foetus – embryo – baby"
+          ],
+          "antwoord": 0,
+          "uitleg": "De bevruchte eicel deelt zich tot een embryo. Vanaf ongeveer acht weken spreken we van een foetus, en bij de geboorte van een baby."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk voorbehoedsmiddel beschermt óók tegen soa's?",
+          "opties": [
+            "Het condoom",
+            "De anticonceptiepil",
+            "Het koperspiraaltje"
+          ],
+          "antwoord": 0,
+          "uitleg": "Alleen een condoom of een vrouwencondoom houdt lichaamsvochten tegen en beschermt zo tegen soa's. Hormonale middelen en spiraaltjes voorkomen enkel een zwangerschap."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze zijn hormonale voorbehoedsmiddelen?",
+          "opties": [
+            "De anticonceptiepil",
+            "De vaginale ring",
+            "Het hormonenstaafje",
+            "Het condoom"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De pil, de pleister, de ring, de prikpil, het staafje en het hormonenspiraaltje werken met hormonen. Het condoom en het koperspiraaltje niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe zorgt de anticonceptiepil ervoor dat er geen zwangerschap komt?",
+          "opties": [
+            "De hormonen in de pil houden de eisprong tegen",
+            "De pil doodt de zaadcellen in de baarmoeder",
+            "De pil sluit de eileiders af"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zonder eisprong is er geen eicel om te bevruchten. De hormonen maken ook het slijm in de baarmoederhals dikker, zodat zaadcellen moeilijker passeren."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een condoom is maar één keer te gebruiken.",
+          "antwoord": true,
+          "uitleg": "Een condoom gebruik je één keer en gooi je daarna weg. Hergebruik maakt het onbetrouwbaar, zowel tegen zwangerschap als tegen soa's."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een voordeel van seksuele voortplanting?",
+          "opties": [
+            "De nakomelingen verschillen van elkaar, dus de soort past zich makkelijker aan",
+            "Er is maar één ouder nodig",
+            "Het gaat veel sneller dan aseksuele voortplanting"
+          ],
+          "antwoord": 0,
+          "uitleg": "Erfelijk materiaal van twee ouders geeft variatie. Verandert de omgeving of komt er een ziekte, dan is er meer kans dat sommige nakomelingen het overleven."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat zijn voordelen van aseksuele voortplanting?",
+          "opties": [
+            "Je hebt geen partner nodig",
+            "Het gaat snel en er komen veel nakomelingen",
+            "De nakomelingen verschillen sterk van elkaar",
+            "De soort past zich beter aan een nieuwe ziekte aan"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Zonder partner en snel: dat is het voordeel. Het nadeel is net dat alle nakomelingen identiek zijn, dus één ziekte kan ze allemaal treffen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een plant die door stekken ontstaat, is erfelijk identiek aan de moederplant.",
+          "antwoord": true,
+          "uitleg": "Bij aseksuele voortplanting is er geen versmelting van geslachtscellen, dus het erfelijk materiaal wordt gewoon gekopieerd. Zo houdt een kweker een ras zuiver."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom heeft een windbestuivende plant zoals gras geen opvallende bloemen?",
+          "opties": [
+            "Ze moet geen insecten lokken, want de wind doet het werk",
+            "Ze heeft geen stuifmeel nodig",
+            "Ze plant zich niet seksueel voort"
+          ],
+          "antwoord": 0,
+          "uitleg": "Insectenbestuivers lokken met kleur, geur en nectar. Windbestuivers maken in de plaats daarvan enorm veel licht stuifmeel — waar hooikoortspatiënten last van hebben."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "De buis waarlangs een zaadcel de teelbal verlaat richting de urinebuis, is de ___.",
+          "antwoord": "zaadleider",
+          "uitleg": "Vanuit de bijbal gaat de zaadleider naar de urinebuis. Onderweg voegen de zaadblaasjes en de prostaat hun vocht toe."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar gebeurt de bevruchting bij de mens meestal?",
+          "opties": [
+            "In de eileider",
+            "In de baarmoeder",
+            "In de vagina"
+          ],
+          "antwoord": 0,
+          "uitleg": "De zaadcellen zwemmen door de baarmoeder tot in de eileider en ontmoeten daar de eicel. De bevruchte eicel reist daarna naar de baarmoeder om zich in te nestelen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraken over soa's kloppen?",
+          "opties": [
+            "Ze worden doorgegeven bij seksueel contact",
+            "Een condoom vermindert het risico sterk",
+            "Je ziet altijd meteen dat iemand een soa heeft",
+            "De pil beschermt ertegen"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Soa's geef je door bij seksueel contact en een condoom is de beste bescherming. Veel soa's geven in het begin geen klachten, en hormonale middelen beschermen er niet tegen."
+        }
+      ]
+    },
+    {
+      "titel": "Ecologie en biodiversiteit — deel 1",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een biotoop?",
+          "opties": [
+            "De plaats met haar eigen omstandigheden waar bepaalde organismen leven",
+            "Een dier dat andere dieren opeet",
+            "Een tabel om planten te herkennen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een bos, een weiland, een moeras, een rivier of zelfs een woonwijk is een biotoop: een leefgebied met eigen omstandigheden waar bepaalde soorten bij passen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een abiotische factor?",
+          "opties": [
+            "Een invloed uit de niet-levende omgeving, zoals temperatuur of licht",
+            "Een invloed van andere organismen",
+            "Een soort voedselketen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Abiotisch betekent 'niet-levend': licht, temperatuur, vocht, wind, zoutgehalte, bodemhardheid en voedingsstoffen in de bodem. Biotische factoren zijn de levende wezens."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze zijn abiotische factoren?",
+          "opties": [
+            "De temperatuur",
+            "De luchtvochtigheid",
+            "De bacteriën in de bodem",
+            "De planten"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Temperatuur en luchtvochtigheid komen uit de niet-levende omgeving. Bacteriën, schimmels, planten en dieren zijn biotische factoren."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Alle levende invloeden in een biotoop noem je samen de ___ factoren.",
+          "antwoord": "biotische",
+          "uitleg": "Biotische factoren zijn de organismen zelf en wat ze doen: begrazen, jagen, bestuiven, ziek maken, beschutting geven."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Met welk meetinstrument meet je de temperatuur in een biotoop?",
+          "opties": [
+            "Met een thermometer",
+            "Met een anemometer",
+            "Met een hygrometer"
+          ],
+          "antwoord": 0,
+          "uitleg": "De thermometer meet de temperatuur, de anemometer de windsnelheid en de hygrometer de luchtvochtigheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarmee meet je de windsnelheid?",
+          "opties": [
+            "Met een anemometer",
+            "Met een lichtmeter",
+            "Met een geluidsmeter"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een anemometer meet hoe snel de wind waait. Een lichtmeter meet de verlichtingssterkte en een geluidsmeter de geluidssterkte."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke meetinstrumenten gebruik je om abiotische factoren te meten?",
+          "opties": [
+            "Een lichtmeter",
+            "Een vochtigheidsmeter",
+            "Een geluidsmeter",
+            "Een determineertabel"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Die drie meten licht, bodemvochtigheid en geluid. Een determineertabel is geen meetinstrument maar een hulpmiddel om een soort te herkennen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Uitzoeken van welke soort een plant of dier is, met behulp van een tabel, heet ___.",
+          "antwoord": "determineren",
+          "uitleg": "Bij het determineren volg je een determineertabel of determineerkaart: telkens kies je tussen twee kenmerken tot je bij de juiste soort uitkomt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk hulpmiddel gebruik je om een klein insect van dichtbij te bekijken in het veld?",
+          "opties": [
+            "Een loep of een binoculair",
+            "Een dynamometer",
+            "Een maatcilinder"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een loep vergroot een paar keer en een binoculair toont het beestje in drie dimensies. Voor cellen heb je een lichtmicroscoop nodig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke organismen zijn de producenten in een voedselketen?",
+          "opties": [
+            "De planten",
+            "De planteneters",
+            "De vleeseters"
+          ],
+          "antwoord": 0,
+          "uitleg": "Producenten maken zelf energierijke stoffen met fotosynthese. Elke voedselketen begint bij hen; alle andere organismen zijn consumenten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doen reducenten?",
+          "opties": [
+            "Ze breken dode resten af tot voedingsstoffen voor de bodem",
+            "Ze eten levende planten op",
+            "Ze jagen op consumenten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bacteriën en schimmels breken dood materiaal helemaal af. Detrivoren, zoals de regenworm en de pissebed, eten dat dode materiaal eerst in stukken."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een vos die een muis vangt, is een predator.",
+          "antwoord": true,
+          "uitleg": "Een predator of jager vangt en eet een prooi. De muis is hier de prooi; zelf is die muis een consument die zaden eet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat stelt een voedselketen voor?",
+          "opties": [
+            "Wie wat opeet, in één rij van pijlen",
+            "Alle dieren van een biotoop door elkaar",
+            "Het aantal organismen per laag"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een voedselketen is één rij: gras → konijn → vos. De pijl betekent 'wordt gegeten door', dus hij wijst in de richting waarin de energie stroomt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een voedselweb?",
+          "opties": [
+            "Alle voedselketens van een biotoop die aan elkaar hangen",
+            "Één lange voedselketen",
+            "Een tabel met alle soorten"
+          ],
+          "antwoord": 0,
+          "uitleg": "In het echt eet een dier meestal van verschillende soorten. Al die ketens samen vormen een web, en dat toont meteen hoe alles met alles samenhangt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een voorstelling waarin elke laag smaller wordt naar boven toe, heet een voedsel___.",
+          "antwoord": "piramide",
+          "uitleg": "Een voedselpiramide toont dat er veel planten nodig zijn voor weinig planteneters, en veel planteneters voor weinig roofdieren: bij elke stap gaat er energie verloren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent biodiversiteit?",
+          "opties": [
+            "De verscheidenheid aan soorten in een gebied",
+            "Het aantal dieren van één soort",
+            "De grootte van een biotoop"
+          ],
+          "antwoord": 0,
+          "uitleg": "Biodiversiteit is de rijkdom aan verschillende soorten, en ook de variatie binnen een soort. Hoe groter ze is, hoe beter een ecosysteem tegen een stoot kan."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een ecosysteem is een biotoop samen met alle organismen die erin leven.",
+          "antwoord": true,
+          "uitleg": "Het ecosysteem omvat de levende en de niet-levende delen én hun onderlinge relaties: voedsel, bescherming, voortplanting."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom hebben waterplanten licht nodig dat tot in het water raakt?",
+          "opties": [
+            "Zonder licht kunnen ze geen fotosynthese doen",
+            "Zonder licht krijgen ze geen zuurstof uit de bodem",
+            "Zonder licht kunnen ze zich niet voortplanten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Licht is een abiotische factor die bepaalt waar planten kunnen groeien. In troebel water raakt het licht minder diep en verdwijnen de waterplanten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke onderlinge relaties kunnen er tussen organismen zijn?",
+          "opties": [
+            "Voedsel",
+            "Bescherming",
+            "Voortplanting",
+            "Luchtdruk"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Organismen hebben elkaar nodig om te eten, om te schuilen en om zich voort te planten, bijvoorbeeld een bij die een bloem bestuift. Luchtdruk is geen relatie maar een abiotische factor."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een regenworm is een detrivoor.",
+          "antwoord": true,
+          "uitleg": "Detrivoren eten dood organisch materiaal, zoals gevallen bladeren. Ze maken het fijn, waarna de reducenten het verder afbreken."
+        }
+      ]
+    },
+    {
+      "titel": "Ecologie en biodiversiteit — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "In een voedselketen gras → konijn → vos verdwijnen alle vossen. Wat gebeurt er eerst?",
+          "opties": [
+            "Er komen meer konijnen, en daardoor blijft er minder gras over",
+            "Er komen minder konijnen",
+            "Er verandert niets"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zonder jager groeit de prooipopulatie tot het voedsel op raakt. Daarna sterven er konijnen van de honger: een verstoring werkt door de hele keten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke gevolgen kan het uitsterven van bijen in een gebied hebben?",
+          "opties": [
+            "Minder bestuiving, dus minder vruchten en zaden",
+            "Minder voedsel voor dieren die die vruchten eten",
+            "Minder soorten bloeiende planten",
+            "Meer fotosynthese in het gebied"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Bestuivers zitten onderaan veel relaties. Vallen ze weg, dan werkt dat door naar planten, vruchten en alles wat daarvan eet. Van meer fotosynthese is geen sprake."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom staan er in een voedselpiramide onderaan het meeste organismen?",
+          "opties": [
+            "Omdat er bij elke stap veel energie verloren gaat als warmte",
+            "Omdat planten kleiner zijn",
+            "Omdat roofdieren minder eten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van de energie die een dier opeet, gaat maar een klein deel naar groei; de rest verdwijnt als warmte en beweging. Daarom kan elke laag maar een kleine laag boven zich voeden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat stelt een voedselkringloop voor?",
+          "opties": [
+            "Dat stoffen uit dode resten via reducenten weer bij de planten komen",
+            "Dat energie eindeloos rondgaat",
+            "Dat elk dier maar één prooi heeft"
+          ],
+          "antwoord": 0,
+          "uitleg": "Stoffen draaien rond: planten nemen voedingsstoffen op, dieren eten, alles sterft, reducenten breken het af en de voedingsstoffen komen weer in de bodem. Energie daarentegen stroomt maar één kant op."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze hebben een negatieve invloed op de biodiversiteit?",
+          "opties": [
+            "Ontbossing",
+            "Overbevissing",
+            "Monocultuur",
+            "Ecoducten"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Ontbossing, overbevissing, vervuiling, verharding en monocultuur maken een gebied armer aan soorten. Een ecoduct doet net het omgekeerde: het verbindt gebieden weer."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een brug of tunnel waarlangs dieren veilig een autoweg kunnen kruisen, heet een ___.",
+          "antwoord": "ecoduct",
+          "uitleg": "Een ecoduct verbindt twee stukken natuur die door een weg doorsneden zijn, zodat dieren zich kunnen verplaatsen en populaties niet geïsoleerd raken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een exoot?",
+          "opties": [
+            "Een soort die van elders komt en hier niet van nature voorkomt",
+            "Een zeldzame inheemse plant",
+            "Een dier dat uitgestorven is"
+          ],
+          "antwoord": 0,
+          "uitleg": "Sommige exoten, zoals de Japanse duizendknoop, verdringen inheemse soorten omdat ze hier geen natuurlijke vijanden hebben. Dan spreken we van een invasieve exoot."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is een weiland met tien soorten bloemen steviger dan een weiland met één soort gras?",
+          "opties": [
+            "Bij ziekte of droogte blijven er soorten over die het wel volhouden",
+            "Omdat er meer zonlicht op valt",
+            "Omdat er minder insecten komen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat is het belang van biodiversiteit: variatie is een verzekering. Een monocultuur kan door één ziekte of één droog jaar in zijn geheel verloren gaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke keuzes verkleinen jouw ecologische voetafdruk?",
+          "opties": [
+            "Dagen zonder vlees inlassen",
+            "Streekeigen planten in de tuin zetten",
+            "Minder verharding en meer groen rond het huis",
+            "Elke dag met de auto naar school"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De ecologische voetafdruk is de oppervlakte natuur die nodig is voor jouw manier van leven. Minder vlees, meer streekeigen groen en minder beton maken ze kleiner."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "De hoeveelheid water die nodig is om te maken wat jij gebruikt, heet je water___.",
+          "antwoord": "voetafdruk",
+          "uitleg": "In je watervoetafdruk telt ook het verborgen water mee: het water dat nodig was om je kleren of je eten te produceren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom heeft een ijsbeer een dikke vetlaag en kleine oren?",
+          "opties": [
+            "Zo verliest hij minder warmte in een koude omgeving",
+            "Zo kan hij sneller zwemmen",
+            "Zo ziet hij beter in de sneeuw"
+          ],
+          "antwoord": 0,
+          "uitleg": "Aanpassingen verhogen de overlevingskans in een bepaalde omgeving. Een dikke isolatielaag en kleine uitsteeksels beperken het warmteverlies in de kou."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een haas heeft ogen aan de zijkant van zijn kop, een vos vooraan. Wat verklaart dat?",
+          "opties": [
+            "Een prooidier moet rondom kunnen kijken, een jager moet afstand kunnen schatten",
+            "Een prooidier ziet minder scherp",
+            "Een jager heeft grotere ogen nodig"
+          ],
+          "antwoord": 0,
+          "uitleg": "De stand van de ogen is een aanpassing: opzij geeft een bijna volledig overzicht om gevaar te zien, vooraan geeft dieptezicht om een prooi te grijpen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke kenmerken van een plant zijn aanpassingen aan een droge omgeving?",
+          "opties": [
+            "Kleine of naaldvormige bladeren",
+            "Een dikke waslaag op het blad",
+            "Diepe wortels",
+            "Heel grote, dunne bladeren"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Minder bladoppervlak, een waslaag en diepe wortels beperken het waterverlies. Grote dunne bladeren horen net bij een schaduwrijke, vochtige omgeving."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Kieuwen zijn een aanpassing om zuurstof uit water te halen.",
+          "antwoord": true,
+          "uitleg": "Vissen halen met hun kieuwen de opgeloste zuurstof uit het water. Landdieren doen hetzelfde met longen, uit de lucht."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is een wintervacht van een haas in de sneeuw wit?",
+          "opties": [
+            "Schutkleur: zo wordt hij minder gezien door jagers",
+            "Wit haar is warmer dan bruin haar",
+            "Wit haar groeit sneller"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een schutkleur vergroot de overlevingskans, en wie langer leeft, krijgt meer nakomelingen. Zo blijven zulke kenmerken in een soort bestaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een vijver wordt mest van een akker gespoeld. Er komen enorm veel algen. Wat gebeurt er daarna?",
+          "opties": [
+            "Het water wordt troebel, waterplanten sterven en er komt zuurstoftekort",
+            "De vissen krijgen meer zuurstof",
+            "De biodiversiteit neemt toe"
+          ],
+          "antwoord": 0,
+          "uitleg": "Te veel voedingsstoffen zijn ook een verstoring. Algen nemen het licht weg, en als ze afsterven, verbruiken de reducenten zo veel zuurstof dat vissen stikken."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Begrazing met schapen of runderen kan een natuurgebied soortenrijker maken.",
+          "antwoord": true,
+          "uitleg": "Grazers houden gras en struiken kort, zodat kleine bloeiende planten licht krijgen. Daarom wordt begrazing als beheer gebruikt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke rol speelt een schimmel op een dode boomstam?",
+          "opties": [
+            "Reducent",
+            "Producent",
+            "Predator"
+          ],
+          "antwoord": 0,
+          "uitleg": "De schimmel breekt het dode hout af tot voedingsstoffen die weer in de bodem komen. Zonder reducenten zou de kringloop stilvallen en alles onder dood materiaal bedolven raken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je meet in een bos overdag 300 lux onder de bomen en 20 000 lux op de open plek. Wat besluit je?",
+          "opties": [
+            "Onder de bomen groeien planten die met weinig licht toe kunnen",
+            "De lichtmeter is stuk",
+            "Op de open plek is het kouder"
+          ],
+          "antwoord": 0,
+          "uitleg": "Verlichtingssterkte meet je in lux met een lichtmeter. Het grote verschil verklaart waarom op de open plek andere soorten groeien dan in de schaduw."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraken over energie en stoffen in een ecosysteem kloppen?",
+          "opties": [
+            "Stoffen gaan rond in een kringloop",
+            "Energie komt van de zon en gaat uiteindelijk verloren als warmte",
+            "Energie gaat net als stoffen eindeloos rond",
+            "Reducenten zetten dode resten om in voedingsstoffen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            3
+          ],
+          "uitleg": "Stoffen draaien rond dankzij de reducenten, energie stroomt in één richting: van de zon, door de ketens, en weg als warmte. Daarom moet er telkens nieuwe zonne-energie bij."
+        }
+      ]
+    },
+    {
+      "titel": "Materie, stoffen en mengsels — deel 1",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat zijn de drie aggregatietoestanden van een stof?",
+          "opties": [
+            "Vast, vloeibaar en gasvormig",
+            "Hard, zacht en vloeibaar",
+            "Warm, koud en lauw"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dezelfde stof kan in drie toestanden voorkomen. Water is daar het bekendste voorbeeld van: ijs, water en waterdamp."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe liggen de deeltjes in een vaste stof volgens het deeltjesmodel?",
+          "opties": [
+            "Dicht bij elkaar, op een vaste plaats, ze trillen alleen",
+            "Ver uit elkaar en snel door elkaar",
+            "Dicht bij elkaar, maar ze schuiven vrij langs elkaar"
+          ],
+          "antwoord": 0,
+          "uitleg": "In een vaste stof zitten de deeltjes op een vaste plek en trillen ze alleen. In een vloeistof schuiven ze langs elkaar, in een gas vliegen ze ver uit elkaar rond."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een vaste stof die vloeibaar wordt: die faseovergang heet ___.",
+          "antwoord": "smelten",
+          "uitleg": "Smelten is van vast naar vloeibaar, stollen is het omgekeerde. IJs smelt bij 0 °C en water stolt bij diezelfde temperatuur."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe heet de overgang van gasvormig naar vloeibaar?",
+          "opties": [
+            "Condenseren",
+            "Verdampen",
+            "Sublimeren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Condenseren is gas dat vloeistof wordt, zoals damp op een koude spiegel. Verdampen is net het omgekeerde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke faseovergangen gebeuren er als je een stof opwarmt?",
+          "opties": [
+            "Smelten",
+            "Verdampen",
+            "Sublimeren",
+            "Stollen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Opwarmen geeft de deeltjes meer bewegingsenergie: smelten, verdampen en sublimeren (vast rechtstreeks naar gas). Stollen, condenseren en rijpen gebeuren net bij afkoelen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een gas dat rechtstreeks een vaste stof wordt, zoals rijp op een tak: dat heet ___.",
+          "antwoord": "rijpen",
+          "uitleg": "Rijpen of desublimeren is de overgang van gas naar vast, zonder vloeibare tussenstap. Sublimeren is het omgekeerde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een fysisch verschijnsel?",
+          "opties": [
+            "Er ontstaat geen nieuwe stof, alleen de vorm of de toestand verandert",
+            "Er ontstaat altijd een nieuwe stof",
+            "Er komt altijd gas bij vrij"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een fysisch verschijnsel blijven de deeltjes dezelfde: smelten, breken, oplossen. Bij een chemisch verschijnsel veranderen de deeltjes zelf en ontstaan er nieuwe stoffen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze zijn chemische verschijnselen?",
+          "opties": [
+            "IJzer dat roest",
+            "Hout dat verbrandt",
+            "IJs dat smelt",
+            "Suiker die oplost"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Bij roesten en verbranden ontstaan er nieuwe stoffen. Smelten en oplossen zijn fysisch: de stof is er nog, alleen in een andere toestand of verdeeld in water."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk verschijnsel wijst erop dat er een chemische reactie gebeurt?",
+          "opties": [
+            "Er ontstaat een gas of een neerslag",
+            "De stof wordt warmer",
+            "De stof wordt in stukken gebroken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kleurverandering, geurverandering, smaakverandering, neerslagvorming en gasontwikkeling zijn aanwijzingen voor een chemische omzetting."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Water dat kookt, is een chemisch verschijnsel.",
+          "antwoord": false,
+          "uitleg": "Koken is verdampen, dus fysisch: uit watermoleculen komen weer watermoleculen, alleen in gasvorm. Er ontstaat geen nieuwe stof."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een zuivere stof?",
+          "opties": [
+            "Een stof die maar uit één soort deeltje bestaat",
+            "Een stof zonder kleur",
+            "Een stof die je kan drinken"
+          ],
+          "antwoord": 0,
+          "uitleg": "In een zuivere stof zit maar één soort deeltjes, zoals in zuiver water of in koper. In een mengsel zitten er verschillende soorten door elkaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze zijn mengsels?",
+          "opties": [
+            "Zeewater",
+            "Lucht",
+            "Zuiver water",
+            "Koper"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Zeewater is water met opgeloste zouten, lucht is een mengsel van gassen. Zuiver water en koper zijn zuivere stoffen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Het chemisch symbool van zuurstof is ___.",
+          "antwoord": "O",
+          "uitleg": "Koolstof is C, zuurstof O, waterstof H en ijzer Fe. Zuurstofgas in de lucht schrijf je als O₂: twee zuurstofatomen aan elkaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waaruit bestaat een chemische verbinding?",
+          "opties": [
+            "Uit atomen van een of meer atoomsoorten die aan elkaar gebonden zijn",
+            "Uit losse deeltjes die niets met elkaar te maken hebben",
+            "Uit één enkel atoom"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een verbinding of molecule is een groepje atomen dat met bindingen samenhangt. Water (H₂O) bestaat uit twee waterstofatomen en één zuurstofatoom."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het symbool Fe staat voor ijzer.",
+          "antwoord": true,
+          "uitleg": "Fe komt van het Latijnse ferrum. In de eerste graad moet je zeker C, O, H en Fe kennen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom kan je een gas samenpersen en een vaste stof niet?",
+          "opties": [
+            "Omdat er tussen de deeltjes van een gas veel lege ruimte zit",
+            "Omdat gasdeeltjes kleiner zijn",
+            "Omdat een gas lichter is"
+          ],
+          "antwoord": 0,
+          "uitleg": "In een gas liggen de deeltjes ver uit elkaar, dus je kan ze dichter bij elkaar duwen. In een vaste stof raken ze elkaar al bijna: daar is geen ruimte meer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een stofeigenschap?",
+          "opties": [
+            "Een kenmerk dat typisch is voor een stof, zoals haar smelttemperatuur",
+            "De vorm van het voorwerp",
+            "Het gewicht van het voorwerp"
+          ],
+          "antwoord": 0,
+          "uitleg": "Smelt- en kooktemperatuur, kleur, geleidbaarheid en massadichtheid zijn stofeigenschappen: ze hangen niet af van hoe groot je stuk is."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij het smelten van ijs veranderen de watermoleculen zelf.",
+          "antwoord": false,
+          "uitleg": "De moleculen blijven precies dezelfde; ze gaan alleen sneller bewegen en laten hun vaste plaats los. Daarom is smelten een fysisch verschijnsel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom heeft een vloeistof geen vaste vorm, maar wel een vast volume?",
+          "opties": [
+            "De deeltjes schuiven langs elkaar, maar blijven tegen elkaar aan",
+            "De deeltjes liggen ver uit elkaar",
+            "De deeltjes staan helemaal stil"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ze raken elkaar nog, dus de hoeveelheid ruimte blijft gelijk, maar ze zitten niet vast, dus de vloeistof neemt de vorm van het vat aan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Melk waar je suiker in roert tot je die niet meer ziet: wat is dat?",
+          "opties": [
+            "Een mengsel",
+            "Een zuivere stof",
+            "Een chemisch verschijnsel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Oplossen is fysisch: de suikerdeeltjes zitten verspreid tussen de deeltjes van de melk, maar ze zijn nog altijd suiker. Je kan ze er weer uit krijgen door te verdampen."
+        }
+      ]
+    },
+    {
+      "titel": "Materie, stoffen en mengsels — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zet een metalen staaf uit als je hem opwarmt?",
+          "opties": [
+            "De deeltjes trillen heviger en nemen daardoor meer plaats in",
+            "Er komen deeltjes bij",
+            "De deeltjes worden zelf groter"
+          ],
+          "antwoord": 0,
+          "uitleg": "Thermisch uitzetten verklaar je met het deeltjesmodel: meer warmte betekent meer beweging, dus meer ruimte tussen de deeltjes. Het aantal deeltjes en hun grootte blijven gelijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom laten ze bij spoorstaven en bruggen een kleine opening?",
+          "opties": [
+            "Zodat het metaal bij warm weer kan uitzetten zonder kromtrekken",
+            "Zodat het regenwater weg kan",
+            "Zodat het metaal lichter is"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zonder ruimte duwt het uitzettende metaal tegen zichzelf en vervormt het. Bij koud weer krimpt het weer en wordt de opening groter."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij afkoelen komen de deeltjes van een stof dichter bij elkaar.",
+          "antwoord": true,
+          "uitleg": "Minder warmte betekent minder beweging, dus krimpt de stof. Water is de bekende uitzondering: bij het bevriezen zet het net uit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er met de deeltjes bij het verdampen van water?",
+          "opties": [
+            "Ze bewegen zo snel dat ze zich losmaken van de vloeistof",
+            "Ze veranderen in zuurstof en waterstof",
+            "Ze vallen uiteen in atomen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Verdampen is fysisch. De snelste moleculen ontsnappen uit de vloeistof; het blijven watermoleculen, alleen ver uit elkaar in de lucht."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom beslaat de binnenkant van een raam in de winter?",
+          "opties": [
+            "Waterdamp uit de kamerlucht condenseert tegen het koude glas",
+            "Er sijpelt water door het glas",
+            "Het glas verdampt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Koud glas koelt de lucht ernaast af. Koude lucht kan minder waterdamp bevatten, dus die damp wordt weer vloeibaar: condenseren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraken over een chemisch verschijnsel kloppen?",
+          "opties": [
+            "Er ontstaan nieuwe stoffen",
+            "De deeltjes zelf veranderen",
+            "Het is meestal niet zomaar om te keren",
+            "De aggregatietoestand verandert altijd"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Bij een chemische omzetting worden bindingen verbroken en nieuwe gevormd. Geroosterd brood krijg je niet meer wit. Een toestandsverandering hoort er niet bij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een stukje ijzerwol wordt na een week in vochtige lucht bruin en zwaarder. Wat is er gebeurd?",
+          "opties": [
+            "Een chemische reactie: het ijzer verbond zich met zuurstof tot roest",
+            "Een fysisch verschijnsel: het ijzer werd nat",
+            "Het ijzer is gesmolten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kleurverandering én meer massa wijzen op een nieuwe stof: er zijn zuurstofatomen bij gekomen. Roest is dus geen ijzer meer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je ziet een tekening met deeltjes: allemaal identieke bolletjes van twee aan elkaar. Wat stelt dat voor?",
+          "opties": [
+            "Een zuivere stof die uit moleculen bestaat",
+            "Een mengsel van twee stoffen",
+            "Een mengsel van atomen en moleculen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eén soort deeltje betekent een zuivere stof. Bestaat dat deeltje uit twee gebonden atomen, dan is het een verbinding, zoals O₂."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke deeltjesvoorstellingen horen bij een mengsel?",
+          "opties": [
+            "Bolletjes van twee verschillende soorten door elkaar",
+            "Losse atomen samen met moleculen",
+            "Allemaal dezelfde moleculen",
+            "Allemaal dezelfde atomen"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Zodra er meer dan één soort deeltje in zit, is het een mengsel. Allemaal hetzelfde deeltje betekent een zuivere stof, ook als dat deeltje zelf uit meerdere atomen bestaat."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een vaste stof die rechtstreeks een gas wordt, zoals droogijs: die overgang heet ___.",
+          "antwoord": "sublimeren",
+          "uitleg": "Droogijs is vast koolstofdioxide. Het gaat zonder vloeibare tussenstap over in gas, en daarom heet het droog ijs."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Zuiver water en zeewater bevriezen bij dezelfde temperatuur.",
+          "antwoord": false,
+          "uitleg": "Het opgeloste zout verlaagt de stoltemperatuur van water. Daarom strooien ze zout op de weg en bevriest de zee pas bij lagere temperaturen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je verwarmt een afgesloten fles met lucht. Wat gebeurt er met de deeltjes?",
+          "opties": [
+            "Ze bewegen sneller en botsen harder tegen de wand, dus de druk stijgt",
+            "Er komen deeltjes bij",
+            "Ze gaan stilstaan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het volume kan niet groter worden, dus vertaalt de extra bewegingsenergie zich in meer druk. Daarom mag je een spuitbus nooit in het vuur gooien."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke verschijnselen zijn fysisch?",
+          "opties": [
+            "Een glas dat breekt",
+            "Zout dat oplost in water",
+            "Boter die smelt",
+            "Een appel die bruin wordt"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Bij de eerste drie blijft de stof zichzelf. Een appel die bruin wordt, reageert met zuurstof uit de lucht: dat is chemisch."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Water is H₂O. Wat betekent dat?",
+          "opties": [
+            "Eén molecule bestaat uit twee waterstofatomen en één zuurstofatoom",
+            "Water is een mengsel van waterstof en zuurstof",
+            "Water bevat twee soorten moleculen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De formule geeft de bouw van één deeltje. Water is een zuivere stof, geen mengsel: alle deeltjes zijn identiek."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Tijdens het smelten van ijs stijgt de temperatuur van het mengsel ijs en water.",
+          "antwoord": false,
+          "uitleg": "Zolang er nog ijs drijft, blijft de temperatuur 0 °C. Alle toegevoerde warmte gaat naar het losmaken van de deeltjes, niet naar opwarmen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom ruikt je hele keuken naar soep terwijl de pot in de hoek staat?",
+          "opties": [
+            "Gasdeeltjes bewegen snel en verspreiden zich door de hele ruimte",
+            "De geur loopt over de vloer",
+            "De soep straalt licht uit"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gasdeeltjes vliegen alle kanten op en mengen zich vanzelf met de lucht. Hoe warmer, hoe sneller ze bewegen en hoe sneller je de geur ruikt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke stoffen zijn opgebouwd uit meer dan één atoomsoort?",
+          "opties": [
+            "Water (H₂O)",
+            "Koolstofdioxide (CO₂)",
+            "Zuurstofgas (O₂)",
+            "Glucose (C₆H₁₂O₆)"
+          ],
+          "antwoord": [
+            0,
+            1,
+            3
+          ],
+          "uitleg": "Water, koolstofdioxide en glucose bevatten verschillende atoomsoorten. Zuurstofgas bestaat uit twee atomen van dezelfde soort."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "De overgang van vloeibaar naar vast heet ___.",
+          "antwoord": "stollen",
+          "uitleg": "Stollen is het omgekeerde van smelten. Voor eenzelfde zuivere stof gebeuren ze bij dezelfde temperatuur, bijvoorbeeld 0 °C voor water."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een kaars brandt. Welke twee verschijnselen zie je tegelijk?",
+          "opties": [
+            "Smelten van de was is fysisch, het branden is chemisch",
+            "Allebei fysisch",
+            "Allebei chemisch"
+          ],
+          "antwoord": 0,
+          "uitleg": "De was smelt en verdampt eerst (fysisch) en die damp verbrandt daarna met zuurstof tot koolstofdioxide en water (chemisch)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe verklaar je met het deeltjesmodel dat een gas geen vaste vorm én geen vast volume heeft?",
+          "opties": [
+            "De deeltjes bewegen vrij en ver uit elkaar, dus ze vullen elke ruimte op",
+            "De deeltjes trekken elkaar sterk aan",
+            "De deeltjes liggen op een vaste plaats"
+          ],
+          "antwoord": 0,
+          "uitleg": "In een gas is de aantrekking tussen de deeltjes te zwak om ze bij elkaar te houden. Ze verspreiden zich tot ze tegen de wand van het vat botsen."
+        }
+      ]
+    },
+    {
+      "titel": "Massadichtheid — deel 1",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom weegt een blok ijzer zwaarder dan een even groot blok hout?",
+          "opties": [
+            "IJzer heeft een grotere massadichtheid",
+            "IJzer heeft een groter volume",
+            "Hout heeft geen massa"
+          ],
+          "antwoord": 0,
+          "uitleg": "Massadichtheid zegt hoeveel massa er in één bepaalde hoeveelheid ruimte zit. Bij ijzer zitten de deeltjes zwaarder en dichter op elkaar dan bij hout."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke formule hoort bij de massadichtheid?",
+          "opties": [
+            "ρ = m / V",
+            "ρ = m × V",
+            "ρ = V / m"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je deelt de massa door het volume. Het symbool ρ (rho) is de Griekse letter voor massadichtheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een voorwerp heeft een massa van 300 g en een volume van 100 cm³. Wat is de massadichtheid?",
+          "opties": [
+            "3 g/cm³",
+            "30 g/cm³",
+            "0,3 g/cm³"
+          ],
+          "antwoord": 0,
+          "uitleg": "ρ = m / V = 300 g / 100 cm³ = 3 g/cm³."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het volume van een kubus met een ribbe van 2 cm?",
+          "opties": [
+            "8 cm³",
+            "6 cm³",
+            "4 cm³"
+          ],
+          "antwoord": 0,
+          "uitleg": "V van een kubus = z³ = 2 × 2 × 2 = 8 cm³."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een balk van 5 cm op 4 cm op 2 cm heeft een volume van ___ cm³.",
+          "antwoord": "40",
+          "uitleg": "V van een balk = l × b × h = 5 × 4 × 2 = 40 cm³."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Met welk meetinstrument bepaal je de massa van een voorwerp?",
+          "opties": [
+            "Met een weegschaal",
+            "Met een maatcilinder",
+            "Met een dynamometer"
+          ],
+          "antwoord": 0,
+          "uitleg": "De weegschaal meet massa in gram of kilogram. Een maatcilinder meet volume en een dynamometer meet kracht."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke meetinstrumenten heb je nodig om de massadichtheid van een steen te bepalen?",
+          "opties": [
+            "Een weegschaal",
+            "Een maatcilinder met water",
+            "Een thermometer",
+            "Een chronometer"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Je weegt de steen en je meet zijn volume door onderdompeling in een maatcilinder. Temperatuur en tijd heb je daar niet voor nodig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe bepaal je het volume van een onregelmatig voorwerp, zoals een steen?",
+          "opties": [
+            "Door het onder te dompelen en te kijken hoeveel het water stijgt",
+            "Door het te wegen",
+            "Door de lengte te meten met een meetlat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het voorwerp duwt evenveel water opzij als zijn eigen volume. Het verschil tussen het waterpeil vóór en na het onderdompelen is dus het volume."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het water in een maatcilinder staat op 50 mL. Je laat er een moer in zakken en het staat op 65 mL. Wat is het volume van de moer?",
+          "opties": [
+            "15 cm³",
+            "65 cm³",
+            "50 cm³"
+          ],
+          "antwoord": 0,
+          "uitleg": "65 mL − 50 mL = 15 mL, en 1 mL is precies 1 cm³. Het volume van de moer is dus 15 cm³."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "1 liter is evenveel als ___ cm³.",
+          "antwoord": "1000",
+          "uitleg": "1 L = 1 dm³ = 1000 cm³. En 1 mL = 1 cm³."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel kubieke meter is 2 liter?",
+          "opties": [
+            "0,002 m³",
+            "0,2 m³",
+            "2000 m³"
+          ],
+          "antwoord": 0,
+          "uitleg": "1 m³ = 1000 L, dus 1 L = 0,001 m³. Twee liter is dan 0,002 m³."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel liter gaat er in 0,5 m³?",
+          "opties": [
+            "500 L",
+            "50 L",
+            "5000 L"
+          ],
+          "antwoord": 0,
+          "uitleg": "1 m³ = 1000 L, dus 0,5 m³ = 0,5 × 1000 = 500 L."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Water heeft een massadichtheid van 1 g/cm³. Hoeveel is dat in kg/m³?",
+          "opties": [
+            "1000 kg/m³",
+            "100 kg/m³",
+            "1 kg/m³"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van g/cm³ naar kg/m³ vermenigvuldig je met 1000. Eén liter water weegt dan ook precies 1 kg."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Aluminium heeft een massadichtheid van 2700 kg/m³. In g/cm³ is dat ___.",
+          "antwoord": "2,7",
+          "uitleg": "Van kg/m³ naar g/cm³ deel je door 1000: 2700 : 1000 = 2,7 g/cm³."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Massadichtheid is een stofeigenschap: ze hangt niet af van hoe groot je stuk is.",
+          "antwoord": true,
+          "uitleg": "Een spijker en een balk van hetzelfde ijzer hebben dezelfde massadichtheid. Massa en volume veranderen samen, hun verhouding blijft gelijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de SI-eenheid van massadichtheid?",
+          "opties": [
+            "kg/m³",
+            "g/cm³",
+            "kg"
+          ],
+          "antwoord": 0,
+          "uitleg": "De SI-eenheid is kilogram per kubieke meter. g/cm³ mag ook, maar dat is geen SI-eenheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een stuk kurk drijft op water. Wat weet je dan?",
+          "opties": [
+            "De massadichtheid van kurk is kleiner dan die van water",
+            "De massadichtheid van kurk is groter dan die van water",
+            "Kurk heeft geen massa"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wat minder dicht is dan de vloeistof, drijft. Wat dichter is, zinkt. Is de massadichtheid precies gelijk, dan zweeft het voorwerp."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze zinken in water (1 g/cm³)?",
+          "opties": [
+            "IJzer, 7,8 g/cm³",
+            "Aluminium, 2,7 g/cm³",
+            "Kurk, 0,24 g/cm³",
+            "Olie, 0,9 g/cm³"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Alles met een massadichtheid groter dan 1 g/cm³ zinkt in water. Kurk en olie zijn lichter per cm³ en blijven drijven."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een voorwerp zweeft in een vloeistof als het even dicht is als die vloeistof.",
+          "antwoord": true,
+          "uitleg": "Bij gelijke massadichtheid blijft het voorwerp hangen waar je het loslaat: het stijgt niet en het zinkt niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Met welk instrument kan je rechtstreeks de massadichtheid van een vloeistof meten?",
+          "opties": [
+            "Met een dichtheidsmeter",
+            "Met een thermometer",
+            "Met een weegschaal"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een dichtheidsmeter of densiteitsmeter drijft in de vloeistof en je leest de massadichtheid af op de schaal."
+        }
+      ]
+    },
+    {
+      "titel": "Massadichtheid — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Een blok heeft een massa van 72 g en is een kubus met een ribbe van 2 cm. Wat is de massadichtheid?",
+          "opties": [
+            "9 g/cm³",
+            "36 g/cm³",
+            "144 g/cm³"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst het volume: z³ = 2³ = 8 cm³. Dan ρ = 72 g / 8 cm³ = 9 g/cm³. Dat komt aardig in de buurt van koper."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel weegt 3 cm³ goud, als goud 19 g/cm³ weegt per kubieke centimeter?",
+          "opties": [
+            "57 g",
+            "22 g",
+            "6,3 g"
+          ],
+          "antwoord": 0,
+          "uitleg": "Uit ρ = m / V volgt m = ρ × V = 19 × 3 = 57 g."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "IJzer heeft een massadichtheid van 7,8 g/cm³. Een stuk van 780 g heeft een volume van ___ cm³.",
+          "antwoord": "100",
+          "uitleg": "Uit ρ = m / V volgt V = m / ρ = 780 : 7,8 = 100 cm³."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het volume van een cilinder met een straal van 2 cm en een hoogte van 10 cm? Reken met π ≈ 3,14.",
+          "opties": [
+            "125,6 cm³",
+            "62,8 cm³",
+            "40 cm³"
+          ],
+          "antwoord": 0,
+          "uitleg": "V = π × r² × h = 3,14 × 2² × 10 = 3,14 × 4 × 10 = 125,6 cm³."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het volume van een bol met een straal van 3 cm? Reken met π ≈ 3,14.",
+          "opties": [
+            "113,04 cm³",
+            "37,68 cm³",
+            "28,26 cm³"
+          ],
+          "antwoord": 0,
+          "uitleg": "V = 4/3 × π × r³ = 4/3 × 3,14 × 27 = 113,04 cm³."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je dompelt een blokje onder: het water stijgt van 40 mL naar 55 mL. Het blokje weegt 40,5 g. Wat is de massadichtheid?",
+          "opties": [
+            "2,7 g/cm³",
+            "1,35 g/cm³",
+            "0,37 g/cm³"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het volume is 55 − 40 = 15 cm³. Dan ρ = 40,5 : 15 = 2,7 g/cm³, dus dit is waarschijnlijk aluminium."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een fles bevat 2 L olie met een massadichtheid van 0,9 g/cm³. Hoeveel weegt die olie?",
+          "opties": [
+            "1,8 kg",
+            "0,45 kg",
+            "18 kg"
+          ],
+          "antwoord": 0,
+          "uitleg": "2 L = 2000 cm³. m = ρ × V = 0,9 × 2000 = 1800 g, dus 1,8 kg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je meet van drie stukken van dezelfde stof: 10 cm³ weegt 27 g, 20 cm³ weegt 54 g, 30 cm³ weegt 81 g. Wat besluit je?",
+          "opties": [
+            "De massa is recht evenredig met het volume, en ρ = 2,7 g/cm³",
+            "De massa is omgekeerd evenredig met het volume",
+            "Er is geen verband"
+          ],
+          "antwoord": 0,
+          "uitleg": "Telkens als het volume verdubbelt, verdubbelt de massa: recht evenredig. De verhouding m/V is overal 2,7, en dat is de massadichtheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je zet massa (y) uit tegenover volume (x) voor één stof. Hoe ziet de grafiek eruit?",
+          "opties": [
+            "Een rechte door de oorsprong",
+            "Een dalende kromme",
+            "Een horizontale rechte"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een recht evenredig verband krijg je een rechte door (0, 0). Hoe steiler die rechte, hoe groter de massadichtheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In één grafiek staan twee rechten: stof A loopt steiler dan stof B. Wat weet je?",
+          "opties": [
+            "Stof A heeft de grootste massadichtheid",
+            "Stof B heeft de grootste massadichtheid",
+            "Ze zijn even dicht"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij hetzelfde volume heeft de steilste rechte de grootste massa, dus de grootste massadichtheid. Zo herken je op een grafiek welke stof welke is."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als je bij dezelfde stof het volume verdubbelt, verdubbelt ook de massa.",
+          "antwoord": true,
+          "uitleg": "De massadichtheid is een stofconstante. Blijft ρ gelijk en wordt V twee keer zo groot, dan wordt m = ρ × V ook twee keer zo groot."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij een vaste massa: wat gebeurt er met de massadichtheid als het volume groter wordt?",
+          "opties": [
+            "Ze wordt kleiner, want massa en volume zijn omgekeerd evenredig in de formule",
+            "Ze wordt groter",
+            "Ze blijft gelijk"
+          ],
+          "antwoord": 0,
+          "uitleg": "ρ = m / V. Blijft m gelijk en wordt V groter, dan wordt de uitkomst kleiner. Zo drijft een schip van staal: door zijn grote volume is de gemiddelde massadichtheid klein."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom drijft een ijsblokje op water?",
+          "opties": [
+            "IJs heeft een kleinere massadichtheid dan water",
+            "IJs is kouder",
+            "IJs heeft geen massa"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij het bevriezen zet water uit: hetzelfde aantal deeltjes neemt meer plaats in. IJs weegt ongeveer 0,92 g/cm³, minder dan de 1 g/cm³ van water."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraken over drijven en zinken kloppen?",
+          "opties": [
+            "Een voorwerp drijft als zijn massadichtheid kleiner is dan die van de vloeistof",
+            "Een voorwerp zinkt als zijn massadichtheid groter is dan die van de vloeistof",
+            "Een luchtballon stijgt omdat de warme lucht erin minder dicht is dan de koude buitenlucht",
+            "Een zwaar voorwerp zinkt altijd"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Het gaat altijd om de vergelijking van de twee massadichtheden, niet om het gewicht op zich: een zware boomstam drijft en een klein muntstuk zinkt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een voorwerp met een massadichtheid van 1200 kg/m³ dat je in water legt, zal ___.",
+          "antwoord": "zinken",
+          "uitleg": "Water is 1000 kg/m³. Het voorwerp is dichter, dus het zinkt naar de bodem."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom drijft een vetlaag bovenop de soep?",
+          "opties": [
+            "Vet heeft een kleinere massadichtheid dan water",
+            "Vet is warmer",
+            "Vet lost op in water"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vet en olie zijn ongeveer 0,9 g/cm³, minder dan water. Ze mengen niet met water en blijven daarom als laag bovenop liggen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een blokje heeft een massa van 60 g en een volume van 75 cm³. Drijft of zinkt het in water?",
+          "opties": [
+            "Het drijft, want ρ = 0,8 g/cm³",
+            "Het zinkt, want ρ = 1,25 g/cm³",
+            "Het zweeft, want ρ = 1 g/cm³"
+          ],
+          "antwoord": 0,
+          "uitleg": "ρ = 60 : 75 = 0,8 g/cm³. Dat is kleiner dan de 1 g/cm³ van water, dus het blokje drijft."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Twee voorwerpen met dezelfde massa hebben altijd dezelfde massadichtheid.",
+          "antwoord": false,
+          "uitleg": "Een kilo veren en een kilo lood wegen even zwaar, maar de veren nemen veel meer plaats in. Je moet altijd massa én volume kennen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je hebt twee even grote blokjes van dezelfde stof en je legt ze samen op de weegschaal. Wat verandert er?",
+          "opties": [
+            "De massa en het volume verdubbelen, de massadichtheid blijft gelijk",
+            "De massadichtheid verdubbelt",
+            "De massadichtheid wordt de helft"
+          ],
+          "antwoord": 0,
+          "uitleg": "Massa en volume worden allebei twee keer zo groot, dus hun verhouding verandert niet. Massadichtheid hangt alleen van de stof af."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Met welke stappen bepaal je de massadichtheid van een onregelmatige steen?",
+          "opties": [
+            "Weeg de steen",
+            "Meet het volume door onderdompeling",
+            "Deel de massa door het volume",
+            "Meet de temperatuur van de steen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Massa wegen, volume bepalen en dan delen. De temperatuur heb je hier niet nodig."
+        }
+      ]
+    },
+    {
+      "titel": "Energie, kracht en snelheid — deel 1",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke energievorm heeft een fietser die snel rijdt?",
+          "opties": [
+            "Kinetische energie",
+            "Chemische energie",
+            "Kernenergie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kinetische energie of bewegingsenergie heeft alles wat beweegt. Hoe sneller en hoe zwaarder, hoe meer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke energievorm zit er in voedsel en in brandstof?",
+          "opties": [
+            "Chemische energie",
+            "Elektrische energie",
+            "Stralingsenergie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Chemische energie zit opgeslagen in de bindingen tussen de atomen. Bij verbranding of celademhaling komt ze vrij."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een steen die hoog op een muur ligt, heeft ___ energie door zijn hoogte.",
+          "antwoord": "potentiële",
+          "uitleg": "Potentiële energie is opgeslagen energie door de plaats of de vorm. Valt de steen, dan wordt ze kinetische energie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke energieomzetting gebeurt er in een lamp?",
+          "opties": [
+            "Elektrische energie wordt lichtenergie en warmte",
+            "Lichtenergie wordt elektrische energie",
+            "Chemische energie wordt kernenergie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een deel van de elektrische energie wordt licht, de rest warmte. Die warmte is hier de ongewenste vorm: ze gaat verloren."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij elke energieomzetting gaat er een deel verloren als warmte.",
+          "antwoord": true,
+          "uitleg": "Er verdwijnt geen energie, maar een deel wordt omgezet in een minder bruikbare vorm, meestal warmte. Daarom wordt een gsm warm terwijl je hem gebruikt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze zijn energievormen?",
+          "opties": [
+            "Thermische energie",
+            "Kernenergie",
+            "Stralingsenergie",
+            "Massadichtheid"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Thermische, elektrische, potentiële, kinetische, chemische, kern- en stralingsenergie zijn energievormen. Massadichtheid is een stofeigenschap."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de eenheid van kracht?",
+          "opties": [
+            "De newton (N)",
+            "De kilogram (kg)",
+            "De joule (J)"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kracht meet je in newton, met het symbool N. De grootheid zelf krijgt het symbool F."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarmee meet je een kracht?",
+          "opties": [
+            "Met een dynamometer",
+            "Met een weegschaal",
+            "Met een chronometer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een dynamometer is een veer met een schaalverdeling: hoe harder je trekt, hoe verder de veer uitrekt, en dat lees je af in newton."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke kracht trekt alles naar de aarde toe?",
+          "opties": [
+            "De zwaartekracht",
+            "De wrijvingskracht",
+            "De veerkracht"
+          ],
+          "antwoord": 0,
+          "uitleg": "De zwaartekracht werkt altijd naar het middelpunt van de aarde. Haar aangrijpingspunt ligt in het zwaartepunt van het voorwerp."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze zijn krachten?",
+          "opties": [
+            "Wrijvingskracht",
+            "Spierkracht",
+            "Veerkracht",
+            "Kinetische energie"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Zwaartekracht, wrijvingskracht, trekkracht, duwkracht, spierkracht, motorkracht en veerkracht zijn krachten. Energie is iets anders: die heeft geen richting."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vier kenmerken heeft een kracht als vectoriële grootheid?",
+          "opties": [
+            "Aangrijpingspunt, grootte, richting en zin",
+            "Massa, volume, kleur en vorm",
+            "Begin, einde, snelheid en tijd"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je tekent een kracht als een pijl: waar ze aangrijpt, hoe lang de pijl is (de grootte), langs welke lijn ze werkt (de richting) en welke kant ze op wijst (de zin)."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een kracht kan een voorwerp vervormen.",
+          "antwoord": true,
+          "uitleg": "Dat is de statische uitwerking: een spons die indeukt, een veer die uitrekt. De dynamische uitwerking is een verandering van de bewegingstoestand."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitwerkingen van een kracht zijn dynamisch?",
+          "opties": [
+            "Versnellen",
+            "Vertragen",
+            "Van richting veranderen",
+            "Uitrekken van een veer"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een dynamische uitwerking verandert de bewegingstoestand: sneller, trager of een andere kant op. Een veer die uitrekt, is een vervorming, dus statisch."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de formule voor een constante snelheid?",
+          "opties": [
+            "v = Δx / Δt",
+            "v = Δx × Δt",
+            "v = Δt / Δx"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je deelt de verplaatsing door de tijdsduur. Δx is de verplaatsing in meter en Δt de tijdsduur in seconde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand legt 100 m af in 20 s. Wat is zijn snelheid?",
+          "opties": [
+            "5 m/s",
+            "2 m/s",
+            "20 m/s"
+          ],
+          "antwoord": 0,
+          "uitleg": "v = Δx / Δt = 100 m : 20 s = 5 m/s."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een auto rijdt 90 km in 2 uur. Zijn gemiddelde snelheid is ___ km/h.",
+          "antwoord": "45",
+          "uitleg": "v = 90 km : 2 h = 45 km/h."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel km/h is 5 m/s?",
+          "opties": [
+            "18 km/h",
+            "1,4 km/h",
+            "50 km/h"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van m/s naar km/h vermenigvuldig je met 3,6: 5 × 3,6 = 18 km/h."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel m/s is 72 km/h?",
+          "opties": [
+            "20 m/s",
+            "259 m/s",
+            "7,2 m/s"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van km/h naar m/s deel je door 3,6: 72 : 3,6 = 20 m/s."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Twee uur is ___ seconden.",
+          "antwoord": "7200",
+          "uitleg": "1 h = 60 min = 3600 s, dus 2 h = 7200 s. Bij een berekening in m/s reken je tijd altijd eerst om naar seconden."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De SI-eenheid van snelheid is m/s.",
+          "antwoord": true,
+          "uitleg": "Meter per seconde is de SI-eenheid. Kilometer per uur mag ook, maar dat is een niet-SI-eenheid."
+        }
+      ]
+    },
+    {
+      "titel": "Energie, kracht en snelheid — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Een fietser rijdt 30 s aan 4 m/s. Hoe ver raakt hij?",
+          "opties": [
+            "120 m",
+            "7,5 m",
+            "34 m"
+          ],
+          "antwoord": 0,
+          "uitleg": "Uit v = Δx / Δt volgt Δx = v × Δt = 4 × 30 = 120 m."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoelang doet een wandelaar over 300 m aan 5 m/s?",
+          "opties": [
+            "60 s",
+            "1500 s",
+            "6 s"
+          ],
+          "antwoord": 0,
+          "uitleg": "Uit v = Δx / Δt volgt Δt = Δx / v = 300 : 5 = 60 s, dus één minuut."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een trein rijdt aan 36 km/h. In m/s is dat ___.",
+          "antwoord": "10",
+          "uitleg": "36 : 3,6 = 10 m/s. Handig om te onthouden: 36 km/h is precies 10 m/s."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wie gaat het snelst: A aan 15 m/s, B aan 50 km/h of C die 1 km in 2 minuten aflegt?",
+          "opties": [
+            "A",
+            "B",
+            "C"
+          ],
+          "antwoord": 0,
+          "uitleg": "Reken alles om naar km/h: A is 15 × 3,6 = 54 km/h, B is 50 km/h, en C doet 1 km in 2 min, dus 30 km/h. A is de snelste."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een grafiek staat de afgelegde weg (y) tegenover de tijd (x). Wat betekent een rechte door de oorsprong?",
+          "opties": [
+            "Het voorwerp beweegt met een constante snelheid",
+            "Het voorwerp staat stil",
+            "Het voorwerp versnelt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een constante snelheid komt er in elke seconde evenveel weg bij: recht evenredig, dus een rechte lijn. De steilheid van die rechte is de snelheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent een horizontaal stuk in een grafiek van afstand tegenover tijd?",
+          "opties": [
+            "Het voorwerp staat stil",
+            "Het voorwerp rijdt heel snel",
+            "Het voorwerp rijdt achteruit"
+          ],
+          "antwoord": 0,
+          "uitleg": "De tijd loopt door, maar de afstand verandert niet. De snelheid is dan 0 m/s."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In één grafiek lopen twee rechten: die van A is steiler dan die van B. Wat weet je?",
+          "opties": [
+            "A gaat sneller dan B",
+            "B gaat sneller dan A",
+            "Ze gaan even snel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Steiler betekent meer afstand in dezelfde tijd, dus een grotere snelheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je legt altijd dezelfde afstand af. Welk verband is er tussen snelheid en tijdsduur?",
+          "opties": [
+            "Omgekeerd evenredig: twee keer zo snel is half zo lang onderweg",
+            "Recht evenredig: twee keer zo snel is twee keer zo lang onderweg",
+            "Er is geen verband"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een vaste afstand is hun product constant, dus als de ene verdubbelt, halveert de andere. Tussen verplaatsing en tijdsduur bij vaste snelheid is het verband wél recht evenredig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraken over het verband tussen snelheid, verplaatsing en tijdsduur kloppen?",
+          "opties": [
+            "Bij een vaste snelheid is de verplaatsing recht evenredig met de tijdsduur",
+            "Bij een vaste afstand is de snelheid omgekeerd evenredig met de tijdsduur",
+            "Bij een vaste tijdsduur is de verplaatsing recht evenredig met de snelheid",
+            "Snelheid en tijdsduur zijn altijd recht evenredig"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Uit v = Δx / Δt volgen de drie eerste. De laatste klopt niet: langer onderweg zijn maakt je niet sneller."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee mensen duwen een kast, allebei 200 N in dezelfde zin. Hoe groot is de resulterende kracht?",
+          "opties": [
+            "400 N in die zin",
+            "0 N",
+            "200 N"
+          ],
+          "antwoord": 0,
+          "uitleg": "Krachten in dezelfde richting en zin tel je op: 200 + 200 = 400 N. Duwen ze tegen elkaar in, dan trek je ze af."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee kinderen trekken aan een touw, allebei 150 N, maar in tegengestelde zin. Wat gebeurt er?",
+          "opties": [
+            "De resultante is 0 N en het touw beweegt niet",
+            "De resultante is 300 N",
+            "Het touw beweegt naar links"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gelijke krachten in tegengestelde zin heffen elkaar op. Het voorwerp blijft in rust of houdt zijn constante snelheid."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Wrijvingskracht werkt altijd tegen de beweging in.",
+          "antwoord": true,
+          "uitleg": "Daarom vertraagt een bal die over het gras rolt. Zonder wrijving zou hij blijven rollen, maar zonder wrijving zou je ook niet kunnen stappen of remmen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een bal die je wegtrapt, verandert van richting én gaat sneller. Wat voor uitwerking is dat?",
+          "opties": [
+            "Een dynamische uitwerking",
+            "Een statische uitwerking",
+            "Geen van beide"
+          ],
+          "antwoord": 0,
+          "uitleg": "Alles wat de bewegingstoestand verandert, is dynamisch. Dat de bal tijdens de trap ook even indeukt, is dan weer statisch."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke energieomzettingen gebeuren er als je met een dynamo op je fiets rijdt?",
+          "opties": [
+            "Chemische energie uit je voedsel wordt spierkracht en beweging",
+            "Bewegingsenergie wordt elektrische energie in de dynamo",
+            "Elektrische energie wordt licht in de lamp",
+            "Licht wordt bewegingsenergie"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De ketting van omzettingen loopt van je voedsel tot het licht, en bij elke stap gaat er een deel verloren als warmte. De laatste optie loopt de verkeerde kant op."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een voorwerp waarop de krachten elkaar opheffen en dat niet beweegt, is in ___.",
+          "antwoord": "rust",
+          "uitleg": "Bij een resultante van 0 N blijft een voorwerp in rust, of het blijft met een constante snelheid verder bewegen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een auto rijdt het eerste uur 60 km en het tweede uur 80 km. Wat is zijn gemiddelde snelheid?",
+          "opties": [
+            "70 km/h",
+            "140 km/h",
+            "20 km/h"
+          ],
+          "antwoord": 0,
+          "uitleg": "Samen 140 km in 2 h, dus 140 : 2 = 70 km/h. De snelheid was niet constant, maar gemiddeld is ze 70 km/h."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zet je een tijdsduur van 5 minuten eerst om naar seconden voor je in m/s rekent?",
+          "opties": [
+            "Omdat m/s een verplaatsing in meter en een tijd in seconde vraagt",
+            "Omdat minuten geen tijdseenheid zijn",
+            "Omdat seconden altijd nauwkeuriger zijn"
+          ],
+          "antwoord": 0,
+          "uitleg": "De eenheden moeten bij de formule passen: 5 min = 300 s. Vergeet je dat, dan zit je antwoord er een factor 60 naast."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een kracht van 10 N naar links en een kracht van 10 N naar rechts hebben dezelfde richting maar een andere zin.",
+          "antwoord": true,
+          "uitleg": "De richting is de lijn waarlangs de kracht werkt, hier de horizontale lijn. De zin is de kant waarheen de pijl wijst, en die is tegengesteld."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een hardloper doet 400 m in 50 s. Hoeveel km/h is dat?",
+          "opties": [
+            "28,8 km/h",
+            "8 km/h",
+            "20 km/h"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst v = 400 : 50 = 8 m/s, en dan 8 × 3,6 = 28,8 km/h."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je hangt een gewicht aan een dynamometer en leest 12 N af. Wat heb je gemeten?",
+          "opties": [
+            "De zwaartekracht op dat gewicht",
+            "De massa van dat gewicht",
+            "De massadichtheid van dat gewicht"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een dynamometer meet kracht in newton, hier de zwaartekracht. Massa meet je met een weegschaal, in kilogram."
+        }
+      ]
+    },
+    {
+      "titel": "Veilig werken, meten en eenheden — deel 1",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Je morst een product op de werktafel. Wat doe je?",
+          "opties": [
+            "Je kuist het onmiddellijk op",
+            "Je laat het staan tot het les gedaan is",
+            "Je veegt het op de grond"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gemorste producten ruim je meteen op. Zo kan niemand uitglijden of ermee in contact komen, en blijft je meting zuiver."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze horen bij veilig en duurzaam werken?",
+          "opties": [
+            "Meetinstrumenten uitschakelen als je niet meet",
+            "Zuinig omspringen met chemische stoffen",
+            "Biologisch afval correct sorteren",
+            "Elektrische toestellen met natte handen bedienen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De eerste drie sparen energie, materiaal en milieu. Natte handen en elektriciteit gaan nooit samen: dat is net gevaarlijk."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Glasscherven veeg je het best met je blote handen bij elkaar.",
+          "antwoord": false,
+          "uitleg": "Glas ruim je op met een borstel en een blik, nooit met je handen. Glaswerk behandel je voorzichtig en maak je na gebruik schoon."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom lees je de handleiding van een toestel voor je het gebruikt?",
+          "opties": [
+            "Om te weten hoe je het veilig en juist bedient",
+            "Omdat dat verplicht is bij elk examen",
+            "Om te weten wat het kost"
+          ],
+          "antwoord": 0,
+          "uitleg": "Onderhoudsvoorschriften, handleidingen en werktekeningen juist interpreteren hoort bij veilig werken. Zo gaat het toestel ook langer mee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarmee meet je de massa van een stof?",
+          "opties": [
+            "Met een weegschaal",
+            "Met een maatcilinder",
+            "Met een hygrometer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Massa meet je met een weegschaal, in gram of kilogram. Een maatcilinder meet volume en een hygrometer de luchtvochtigheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarmee meet je het volume van een vloeistof?",
+          "opties": [
+            "Met een maatcilinder",
+            "Met een meetlat",
+            "Met een dynamometer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je giet de vloeistof in een maatcilinder en leest het volume af in milliliter, en 1 mL is 1 cm³."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke instrumenten meten een lengte of een afstand?",
+          "opties": [
+            "Een meetlat",
+            "Een rolmeter",
+            "Een schuifmaat",
+            "Een chronometer"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Meetlat, rolmeter, vouwmeter, schuifmaat en micrometer meten lengte. Een chronometer meet tijdsduur."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een tijdsduur meet je met een ___.",
+          "antwoord": "chronometer",
+          "uitleg": "Een chronometer of een klok meet tijd, in seconden. Het symbool van tijdsduur is Δt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarmee meet je de geluidssterkte?",
+          "opties": [
+            "Met een geluidsmeter",
+            "Met een lichtmeter",
+            "Met een anemometer"
+          ],
+          "antwoord": 0,
+          "uitleg": "De geluidssterkte krijgt het symbool L en meet je in decibel (dB) met een geluidsmeter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarmee meet je de verlichtingssterkte?",
+          "opties": [
+            "Met een lichtmeter",
+            "Met een hygrometer",
+            "Met een thermometer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Verlichtingssterkte heeft het symbool E en de eenheid lux (lx). Je meet ze met een lichtmeter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarmee bepaal je de bodemhardheid in een biotoop?",
+          "opties": [
+            "Met een valpen met plastic buis",
+            "Met een weegschaal",
+            "Met een lichtmeter"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je laat een pen door een buis op de bodem vallen en kijkt hoe diep hij gaat. Hoe minder diep, hoe harder de bodem."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "De SI-eenheid van lengte is de ___.",
+          "antwoord": "meter",
+          "uitleg": "De meter (m) is de SI-eenheid van lengte, afstand en verplaatsing."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de SI-eenheid van massa?",
+          "opties": [
+            "De kilogram",
+            "De gram",
+            "De ton"
+          ],
+          "antwoord": 0,
+          "uitleg": "De kilogram (kg) is de SI-eenheid. De ton is een niet-SI-eenheid: 1 t = 1000 kg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke eenheden horen bij volume?",
+          "opties": [
+            "m³",
+            "liter",
+            "kg",
+            "newton"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "De SI-eenheid van volume is de kubieke meter; de liter is de gebruikelijke niet-SI-eenheid. Kilogram hoort bij massa en newton bij kracht."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel meter is 2 km?",
+          "opties": [
+            "2000 m",
+            "200 m",
+            "20 000 m"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kilo betekent duizend, dus 1 km = 1000 m en 2 km = 2000 m."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "500 g is ___ kg.",
+          "antwoord": "0,5",
+          "uitleg": "1 kg = 1000 g, dus 500 g is een halve kilogram: 0,5 kg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel liter is 250 mL?",
+          "opties": [
+            "0,25 L",
+            "2,5 L",
+            "25 L"
+          ],
+          "antwoord": 0,
+          "uitleg": "Milli betekent duizendste, dus 1 mL = 0,001 L en 250 mL = 0,25 L."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het voorvoegsel milli betekent duizendste.",
+          "antwoord": true,
+          "uitleg": "Milli is 0,001, centi is 0,01, deci is 0,1 en kilo is 1000. Die vier moet je vlot kunnen gebruiken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk symbool hoort bij de grootheid snelheid?",
+          "opties": [
+            "v",
+            "V",
+            "F"
+          ],
+          "antwoord": 0,
+          "uitleg": "De kleine letter v staat voor snelheid, de hoofdletter V voor volume en F voor kracht. Hoofdletters en kleine letters betekenen dus iets anders."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk hulpmiddel gebruik je om een cel te bekijken?",
+          "opties": [
+            "Een lichtmicroscoop",
+            "Een loep",
+            "Een verrekijker"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kies je hulpmiddel naar de vergroting die je nodig hebt: een loep voor een insect, een binoculair voor wat detail, een lichtmicroscoop voor cellen."
+        }
+      ]
+    },
+    {
+      "titel": "Veilig werken, meten en eenheden — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Je moet 25 mL water afmeten. Welk instrument kies je?",
+          "opties": [
+            "Een maatcilinder van 50 mL met streepjes van 1 mL",
+            "Een emmer van 10 L",
+            "Een maatcilinder van 1 L met streepjes van 50 mL"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kies uit gelijksoortige instrumenten dat met de gepaste nauwkeurigheid: het kleinste instrument waar je hoeveelheid nog in past, geeft de fijnste verdeling."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe lees je een maatcilinder correct af?",
+          "opties": [
+            "Met je oog op de hoogte van de onderkant van de holle bolling",
+            "Van bovenaf, schuin naar beneden kijkend",
+            "Terwijl je de cilinder schuin houdt"
+          ],
+          "antwoord": 0,
+          "uitleg": "De vloeistof staat hol in het glas. Lees af aan de onderkant van die holling, met de cilinder recht en je oog op dezelfde hoogte, anders kijk je ernaast."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom geef je bij een meting altijd de eenheid mee?",
+          "opties": [
+            "Zonder eenheid betekent het getal niets en kan je metingen niet vergelijken",
+            "Omdat het netter staat",
+            "Omdat de eenheid het getal groter maakt"
+          ],
+          "antwoord": 0,
+          "uitleg": "5 kan 5 gram of 5 kilogram zijn. Pas met de eenheid erbij is een meting ondubbelzinnig, en pas dan kan iemand anders ze gebruiken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraken over grootheden en eenheden kloppen?",
+          "opties": [
+            "Kracht heeft het symbool F en de eenheid newton",
+            "Massadichtheid heeft het symbool ρ en de SI-eenheid kg/m³",
+            "Temperatuur heeft de SI-eenheid kelvin",
+            "Volume heeft de SI-eenheid liter"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De SI-eenheid van volume is de kubieke meter; de liter is de niet-SI-eenheid. De drie andere staan zo in de tabel van de vakfiche."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Het symbool van de grootheid massadichtheid is de Griekse letter ___.",
+          "antwoord": "rho",
+          "uitleg": "Massadichtheid schrijf je als ρ, uitgesproken als rho. De eenheid is kg/m³ of g/cm³."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel is 3 mm in meter?",
+          "opties": [
+            "0,003 m",
+            "0,3 m",
+            "300 m"
+          ],
+          "antwoord": 0,
+          "uitleg": "Milli is duizendste: 3 mm = 3 × 0,001 m = 0,003 m."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel gram is 1,5 kg?",
+          "opties": [
+            "1500 g",
+            "150 g",
+            "15 000 g"
+          ],
+          "antwoord": 0,
+          "uitleg": "1 kg = 1000 g, dus 1,5 kg = 1500 g."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "75 cm is ___ m.",
+          "antwoord": "0,75",
+          "uitleg": "Centi is honderdste: 75 cm = 75 : 100 = 0,75 m."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke schatting van de massa van een appel is realistisch?",
+          "opties": [
+            "Ongeveer 150 g",
+            "Ongeveer 15 g",
+            "Ongeveer 1,5 kg"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een schatting maken hoort bij wetenschappelijk werken: kom je op een antwoord van 15 g of 1,5 kg uit, dan weet je meteen dat je je ergens vergist hebt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerling meet de lengte van zijn tafel en schrijft op: 1,2. Wat ontbreekt er?",
+          "opties": [
+            "De eenheid",
+            "De grootheid mag niet vermeld worden",
+            "Het meetinstrument"
+          ],
+          "antwoord": 0,
+          "uitleg": "1,2 wat? Meter waarschijnlijk, maar dat moet er staan. Een meetresultaat is een getal én een eenheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke instrumenten zou je gebruiken bij een veldwerk over een vijver?",
+          "opties": [
+            "Een thermometer voor de watertemperatuur",
+            "Een lichtmeter voor de verlichtingssterkte",
+            "Een determineertabel voor de waterdiertjes",
+            "Een dynamometer voor de waterdiepte"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De eerste drie passen bij wat je wil weten. Een dynamometer meet kracht en zegt niets over diepte; daarvoor gebruik je een meetlat of een peilstok."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een schuifmaat meet nauwkeuriger dan een gewone meetlat.",
+          "antwoord": true,
+          "uitleg": "Met een schuifmaat lees je tienden van een millimeter af, met een meetlat alleen hele millimeters. Kies altijd het instrument dat nauwkeurig genoeg is voor je onderzoek."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom schakel je een meettoestel uit als je even niet meet?",
+          "opties": [
+            "Om energie te sparen en de batterij te sparen",
+            "Omdat het anders verkeerd meet",
+            "Omdat het dan sneller werkt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Duurzaam werken is ook zuinig werken met energie en materiaal. Het toestel gaat er bovendien langer mee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je werkt met levend materiaal uit een vijver. Wat doe je achteraf?",
+          "opties": [
+            "Je zet de diertjes terug en maakt je materiaal proper",
+            "Je giet alles in de gootsteen",
+            "Je laat het staan tot volgende week"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hygiënisch omgaan met biologisch materiaal en het correct sorteren hoort bij veilig en duurzaam werken. Levend materiaal zet je terug waar je het haalde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke grootheid meet je in decibel?",
+          "opties": [
+            "De geluidssterkte",
+            "De verlichtingssterkte",
+            "De luchtvochtigheid"
+          ],
+          "antwoord": 0,
+          "uitleg": "Decibel (dB) hoort bij geluidssterkte. Verlichtingssterkte meet je in lux en de relatieve luchtvochtigheid in procent."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "De relatieve luchtvochtigheid druk je uit in ___.",
+          "antwoord": "procent",
+          "uitleg": "De relatieve luchtvochtigheid krijgt het symbool φ en wordt in procent (%) gegeven. Je meet ze met een hygrometer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je weegt een leeg bekerglas (120 g) en daarna hetzelfde glas met water (370 g). Hoeveel water zit erin?",
+          "opties": [
+            "250 g",
+            "490 g",
+            "370 g"
+          ],
+          "antwoord": 0,
+          "uitleg": "370 − 120 = 250 g. Je weegt eerst het lege glas, want de weegschaal weegt alles wat erop staat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraken over het gebruik van een bunsenbrander kloppen?",
+          "opties": [
+            "Je bindt lang haar samen",
+            "Je laat de brander nooit onbewaakt branden",
+            "Je zet er brandbare stoffen naast om ze op te warmen",
+            "Je draait de gastoevoer dicht als je klaar bent"
+          ],
+          "antwoord": [
+            0,
+            1,
+            3
+          ],
+          "uitleg": "Haar samen, nooit onbewaakt en achteraf dichtdraaien. Brandbare stoffen horen net zo ver mogelijk van een open vlam."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Kelvin is de SI-eenheid van temperatuur.",
+          "antwoord": true,
+          "uitleg": "De SI-eenheid is de kelvin (K). In de dagelijkse praktijk gebruiken we graden Celsius (°C), een niet-SI-eenheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je meet dezelfde lengte drie keer en krijgt 12,4 cm, 12,5 cm en 12,4 cm. Wat doe je met die resultaten?",
+          "opties": [
+            "Je neemt het gemiddelde, want herhalen maakt een meting betrouwbaarder",
+            "Je neemt de grootste waarde",
+            "Je neemt de eerste meting"
+          ],
+          "antwoord": 0,
+          "uitleg": "Meerdere keren meten en het gemiddelde nemen vangt kleine afleesfouten op. Dat hoort bij nauwkeurig wetenschappelijk werken."
+        }
+      ]
+    },
+    {
+      "titel": "Wetenschappelijk onderzoek — deel 1",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarmee begint een wetenschappelijk onderzoek?",
+          "opties": [
+            "Met een probleemstelling en een onderzoeksvraag",
+            "Met de conclusie",
+            "Met het maken van een grafiek"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst baken je het probleem af en stel je een onderzoeksvraag. Pas daarna bedenk je een hypothese en een plan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een hypothese?",
+          "opties": [
+            "Een verwachting die je vooraf formuleert en die je gaat onderzoeken",
+            "Het resultaat van je metingen",
+            "De besluitende zin van je verslag"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een hypothese is een verwacht antwoord op je onderzoeksvraag, vaak in de vorm 'als ..., dan ...'. Ze mag achteraf gerust verkeerd blijken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Zet in de juiste volgorde: conclusie trekken, data verzamelen, onderzoeksvraag opstellen, onderzoeksplan maken.",
+          "opties": [
+            "onderzoeksvraag – onderzoeksplan – data verzamelen – conclusie",
+            "onderzoeksplan – onderzoeksvraag – conclusie – data verzamelen",
+            "data verzamelen – onderzoeksvraag – onderzoeksplan – conclusie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst de vraag, dan het plan, dan meten, dan analyseren en besluiten. Op het einde reflecteer je over je methode en communiceer je je resultaat."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Het overzicht van wat je gaat doen, met welk materiaal en in welke stappen, heet het ___.",
+          "antwoord": "onderzoeksplan",
+          "uitleg": "In een onderzoeksplan staat wat je meet, waarmee, hoe vaak en wat je constant houdt. Zo kan iemand anders je proef overdoen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke criteria moet een goede onderzoeksvraag halen?",
+          "opties": [
+            "Open",
+            "Enkelvoudig",
+            "Onderzoekbaar",
+            "Grappig"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De zes criteria uit de vakfiche zijn: open, enkelvoudig, objectief, haalbaar, onderzoekbaar en relevant. Die lijst krijg je ook op het examen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent het dat een onderzoeksvraag 'enkelvoudig' moet zijn?",
+          "opties": [
+            "Ze gaat over één onderwerp of één probleem",
+            "Ze is kort geschreven",
+            "Ze heeft één woord als antwoord"
+          ],
+          "antwoord": 0,
+          "uitleg": "Onderzoek je twee dingen tegelijk, dan weet je achteraf niet welke van de twee je resultaat verklaart. Splits zo'n vraag dus in twee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent 'objectief' bij een onderzoeksvraag?",
+          "opties": [
+            "Ze laat geen mening of overtuiging blijken",
+            "Ze is met een toestel te meten",
+            "Ze is door iedereen te begrijpen"
+          ],
+          "antwoord": 0,
+          "uitleg": "'Waarom is zonne-energie de beste energiebron?' is niet objectief: het antwoord zit al in de vraag. Beter: 'Welke invloed heeft de stand van een zonnepaneel op de opbrengst?'"
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een onderzoeksvraag mag geen opzoekvraag zijn.",
+          "antwoord": true,
+          "uitleg": "Onderzoekbaar betekent dat je het antwoord niet zomaar kan opzoeken of meteen weet: je moet er data voor verzamelen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een variabele in een onderzoek?",
+          "opties": [
+            "Iets dat kan veranderen en dat je meet of instelt",
+            "Het besluit van je onderzoek",
+            "Het materiaal dat je gebruikt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je verandert er één (bijvoorbeeld de hoeveelheid licht), je meet er één (de groei) en alle andere houd je constant."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom houd je in een proef alle andere omstandigheden gelijk?",
+          "opties": [
+            "Anders weet je niet waardoor het verschil komt",
+            "Omdat het sneller gaat",
+            "Omdat de leerkracht dat vraagt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Verander je twee dingen tegelijk, dan kan je het resultaat aan geen van beide toeschrijven. Één variabele veranderen maakt je besluit geldig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom herhaal je een meting verschillende keren?",
+          "opties": [
+            "Om toevallige fouten op te vangen en je resultaat betrouwbaarder te maken",
+            "Om meer bladzijden te vullen",
+            "Omdat één meting altijd fout is"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eén meting kan toevallig afwijken. Meet je meerdere keren en neem je het gemiddelde, dan weeg je die toevalligheden weg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor staat de afkorting STEM?",
+          "opties": [
+            "Science, Technology, Engineering en Mathematics",
+            "Studie, Techniek, Energie en Milieu",
+            "Systeem, Test, Experiment en Model"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een STEM-opdracht zet je wetenschap, techniek, ontwerpen en wiskunde samen in om een probleem op te lossen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze zijn modellen die je in een onderzoek kan gebruiken?",
+          "opties": [
+            "Een tabel",
+            "Een grafiek",
+            "Een schets",
+            "Een gevoel"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een schets, een tabel, een grafiek, een formule of een vergelijking zijn manieren om je gegevens overzichtelijk voor te stellen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "De metingen en gegevens die je verzamelt, noem je samen je ___.",
+          "antwoord": "data",
+          "uitleg": "Data zijn je ruwe gegevens. Je verwerkt ze in een tabel of een grafiek, en pas daarna analyseer je ze."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat zet je op de horizontale as van een grafiek?",
+          "opties": [
+            "De grootheid die je zelf instelt of laat veranderen",
+            "De grootheid die je meet",
+            "Altijd de tijd"
+          ],
+          "antwoord": 0,
+          "uitleg": "Op de x-as staat wat je zelf regelt, op de y-as wat daarvan afhangt. Bij een beweging is dat inderdaad vaak de tijd, maar niet altijd."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een conclusie moet een antwoord geven op je onderzoeksvraag.",
+          "antwoord": true,
+          "uitleg": "De conclusie is de verklaring of het antwoord op je onderzoeksvraag, en ze steunt altijd op je data. Wat je niet gemeten hebt, staat er niet in."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is reflecteren op het einde van een onderzoek?",
+          "opties": [
+            "Terugkijken op je methode en je resultaten en zeggen wat beter kon",
+            "Je resultaten opnieuw meten",
+            "Je onderzoeksvraag veranderen tot ze klopt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Reflecteren betekent eerlijk zeggen wat er misliep en wat je zou aanpassen. Daarna communiceer je je resultaat, bijvoorbeeld in een verslag of een presentatie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent 'haalbaar' bij een onderzoeksvraag?",
+          "opties": [
+            "Je kan het onderzoek uitvoeren met de tijd en middelen die er zijn",
+            "Je kent het antwoord al",
+            "Iedereen vindt de vraag interessant"
+          ],
+          "antwoord": 0,
+          "uitleg": "'Hoe evolueert de zeespiegel de komende honderd jaar?' is een mooie vraag, maar niet haalbaar voor een schoolonderzoek."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Uit een tabel lees je: bij 10 °C duurt het 40 min, bij 20 °C 20 min, bij 40 °C 10 min. Wat is het verband?",
+          "opties": [
+            "Hoe hoger de temperatuur, hoe korter de tijd",
+            "Hoe hoger de temperatuur, hoe langer de tijd",
+            "Er is geen verband"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gegevens uit een tabel halen is een vaardigheid op zich: kijk of de tweede kolom stijgt of daalt terwijl de eerste stijgt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een grafiek met een rechte door de oorsprong wijst op een recht evenredig verband.",
+          "antwoord": true,
+          "uitleg": "Recht evenredig betekent: wordt de ene twee keer zo groot, dan wordt de andere dat ook. Bij een omgekeerd evenredig verband krijg je een dalende kromme."
+        }
+      ]
+    },
+    {
+      "titel": "Wetenschappelijk onderzoek — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vraag is een goede onderzoeksvraag?",
+          "opties": [
+            "Welke invloed heeft de hoeveelheid water op de groei van tuinkers?",
+            "Is tuinkers lekker?",
+            "Hoeveel soorten tuinkers bestaan er?"
+          ],
+          "antwoord": 0,
+          "uitleg": "De eerste is open, enkelvoudig, objectief en onderzoekbaar. De tweede vraagt een mening en de derde is een opzoekvraag."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is 'Hoeveel poten heeft een spin?' geen goede onderzoeksvraag?",
+          "opties": [
+            "Ze is niet onderzoekbaar: je kan het gewoon opzoeken",
+            "Ze is niet relevant",
+            "Ze is niet haalbaar"
+          ],
+          "antwoord": 0,
+          "uitleg": "Onderzoekbaar betekent dat je er data voor moet verzamelen. Een vraag met een bekend antwoord is een opzoekvraag."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is 'Is een elektrische auto niet beter dan een benzineauto?' geen goede onderzoeksvraag?",
+          "opties": [
+            "Ze is niet open en niet objectief: het antwoord zit al in de vraag",
+            "Ze is niet haalbaar",
+            "Ze gaat over te weinig onderwerpen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je kan ze met ja of nee beantwoorden en ze verraadt een mening. Beter: 'Welke invloed heeft de buitentemperatuur op het verbruik van een elektrische auto?'"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke fouten zitten er in de vraag 'Groeien planten sneller met meer licht en meer mest?'",
+          "opties": [
+            "Ze is niet enkelvoudig: er staan twee variabelen in",
+            "Ze is gesloten: je kan met ja of nee antwoorden",
+            "Ze is niet haalbaar in een schooljaar",
+            "Ze is niet relevant"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Twee variabelen tegelijk en een ja-of-nee-vorm. Beter: 'Welke invloed heeft de hoeveelheid licht op de groei van een plant?', en mest onderzoek je apart."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je test of planten sneller groeien met meer licht. Welke dingen houd je gelijk?",
+          "opties": [
+            "De hoeveelheid water",
+            "De soort plant",
+            "De temperatuur",
+            "De hoeveelheid licht"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Alles blijft gelijk behalve de ene variabele die je onderzoekt. De hoeveelheid licht is net wat je laat verschillen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerling besluit: 'Mijn hypothese was juist, want ik vond het logisch.' Wat schort daaraan?",
+          "opties": [
+            "Een conclusie moet op data steunen, niet op een gevoel",
+            "Een hypothese mag nooit juist zijn",
+            "Hij had geen hypothese mogen opstellen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wetenschap is: meten, en je besluit halen uit wat je gemeten hebt. Ook een hypothese die niet uitkomt, is een goed resultaat."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als je hypothese niet uitkomt, is je onderzoek mislukt.",
+          "antwoord": false,
+          "uitleg": "Een weerlegde hypothese is een resultaat. Je hebt iets geleerd over hoe het níet zit, en dat hoort bij onderzoek doen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je meet de temperatuur van afkoelend water: 80 °C, 60 °C, 45 °C, 35 °C, 30 °C. Wat zie je in de grafiek?",
+          "opties": [
+            "Een dalende kromme die steeds vlakker wordt",
+            "Een rechte die stijgt",
+            "Een horizontale rechte"
+          ],
+          "antwoord": 0,
+          "uitleg": "De temperatuur daalt snel in het begin en trager naarmate ze de kamertemperatuur nadert. De daling per meting wordt dus kleiner."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Uit de formule v = Δx / Δt: hoe schrijf je Δt in functie van de andere?",
+          "opties": [
+            "Δt = Δx / v",
+            "Δt = v × Δx",
+            "Δt = v / Δx"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een formule omvormen is een wiskundige vaardigheid die je hier nodig hebt: uit v = Δx / Δt volgt Δx = v × Δt en dus Δt = Δx / v."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Uit de formule ρ = m / V: hoe bereken je de massa?",
+          "opties": [
+            "m = ρ × V",
+            "m = ρ / V",
+            "m = V / ρ"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vermenigvuldig beide kanten met V. Zo kan je uit dezelfde formule alle drie de grootheden halen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke situaties zijn recht evenredig?",
+          "opties": [
+            "Het aantal broden en de prijs die je betaalt",
+            "De tijd die je fietst en de afgelegde weg aan constante snelheid",
+            "Het aantal werkers en de tijd om één klus af te maken",
+            "De massa en het volume van eenzelfde stof"
+          ],
+          "antwoord": [
+            0,
+            1,
+            3
+          ],
+          "uitleg": "Bij recht evenredig verdubbelt de ene als de andere verdubbelt. Meer werkers betekent net minder tijd: dat is omgekeerd evenredig."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wordt de ene grootheid twee keer zo groot terwijl de andere halveert, dan is het verband ___ evenredig.",
+          "antwoord": "omgekeerd",
+          "uitleg": "Bij een omgekeerd evenredig verband blijft het product van de twee constant, bijvoorbeeld snelheid × tijdsduur bij een vaste afstand."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een onderzoeker meet maar één plant en besluit dat alle planten zo groeien. Wat is er fout?",
+          "opties": [
+            "Eén meting is te weinig om te veralgemenen",
+            "Hij had een andere plant moeten kiezen",
+            "Hij had een grafiek moeten maken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Met één plant kan een toevalligheid je hele besluit sturen. Meer herhalingen maken je conclusie betrouwbaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat hoort er in het verslag van je onderzoek?",
+          "opties": [
+            "Je onderzoeksvraag en hypothese",
+            "Je werkwijze en je resultaten",
+            "Je conclusie en je reflectie",
+            "Enkel de resultaten die je hypothese bevestigen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Communiceren betekent eerlijk en volledig rapporteren. Resultaten weglaten omdat ze niet passen, mag nooit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil weten welk isolatiemateriaal een beker koffie het langst warm houdt. Wat is je meetbare variabele?",
+          "opties": [
+            "De temperatuur van de koffie na een bepaalde tijd",
+            "De kleur van het materiaal",
+            "De prijs van het materiaal"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je meet de temperatuur, je verandert het materiaal, en je houdt de hoeveelheid koffie, de begintemperatuur en de tijd gelijk."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een onderzoek over een maatschappelijk probleem mag je ook technische en wiskundige kennis gebruiken.",
+          "antwoord": true,
+          "uitleg": "Dat is net de bedoeling van STEM: wetenschap, techniek, ontwerpen en wiskunde samen inzetten om tot een oplossing te komen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een grafiek lees je bij 4 s een afstand van 20 m af. Wat is de snelheid als de lijn een rechte door de oorsprong is?",
+          "opties": [
+            "5 m/s",
+            "80 m/s",
+            "0,2 m/s"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gegevens uit een grafiek halen: v = Δx / Δt = 20 : 4 = 5 m/s. Bij een rechte door de oorsprong geldt dat op elk punt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen een waarneming en een besluit?",
+          "opties": [
+            "Een waarneming is wat je ziet of meet, een besluit is wat je daaruit afleidt",
+            "Er is geen verschil",
+            "Een waarneming komt na het besluit"
+          ],
+          "antwoord": 0,
+          "uitleg": "'Het water is 30 °C' is een waarneming. 'Het water koelt trager af met een deksel' is een besluit dat je uit meerdere waarnemingen haalt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Een verwachting die je vooraf opschrijft en daarna toetst, heet een ___.",
+          "antwoord": "hypothese",
+          "uitleg": "Je schrijft ze op vóór je meet. Anders pas je je verwachting ongemerkt aan je resultaat aan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je onderzoekt of een plant met mest sneller groeit, maar je zet die plant ook nog eens voor het raam. Wat is het probleem?",
+          "opties": [
+            "Je verandert twee dingen tegelijk, dus je weet niet wat het verschil maakt",
+            "Mest werkt niet voor het raam",
+            "Je hebt te weinig planten nodig"
+          ],
+          "antwoord": 0,
+          "uitleg": "Licht en mest lopen nu door elkaar. Zet beide planten op dezelfde plek en laat alleen de mest verschillen."
+        }
+      ]
+    }
+  ]
+}

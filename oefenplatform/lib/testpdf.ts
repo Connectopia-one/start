@@ -2,6 +2,7 @@ import "server-only";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import fontkit from "@pdf-lib/fontkit";
+import { schrijfKeuzes } from "@/lib/antwoord";
 import { PDFDocument, rgb, type PDFFont, type PDFPage } from "pdf-lib";
 
 /*
@@ -78,10 +79,10 @@ function leesbaar(tekst: string): string {
 
 export function schrijfAntwoord(
   vraag: PdfVraag,
-  waarde: number | string | boolean | null,
+  waarde: number | string | boolean | number[] | null,
 ): string {
   if (waarde === null || waarde === undefined || waarde === "") return "—";
-  if (vraag.type === "meerkeuze") return vraag.opties?.[Number(waarde)] ?? "—";
+  if (vraag.type === "meerkeuze") return schrijfKeuzes(vraag.opties, waarde);
   if (vraag.type === "waarofniet")
     return waarde === true ? "Waar" : "Niet waar";
   return String(waarde);

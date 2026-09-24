@@ -1,0 +1,394 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Meetkunde",
+      "niveau": "start",
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel graden is een rechte hoek?",
+          "opties": [
+            "45 graden",
+            "90 graden",
+            "180 graden",
+            "360 graden"
+          ],
+          "antwoord": 1,
+          "uitleg": "Een rechte hoek is een kwart van een volledige draai, dus 90 graden."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een vierkant is ook een rechthoek.",
+          "antwoord": true,
+          "uitleg": "Een rechthoek heeft vier rechte hoeken, en dat heeft een vierkant ook."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel ribben heeft een kubus?",
+          "opties": [
+            "6",
+            "8",
+            "12",
+            "16"
+          ],
+          "antwoord": 2,
+          "uitleg": "Een kubus heeft 6 vlakken, 8 hoekpunten en 12 ribben."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe noem je een driehoek met drie gelijke zijden?",
+          "opties": [
+            "een rechthoekige driehoek",
+            "een gelijkbenige driehoek",
+            "een gelijkzijdige driehoek",
+            "een stompe driehoek"
+          ],
+          "antwoord": 2,
+          "uitleg": "Gelijkzijdig betekent: alle zijden even lang."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een hoek van 120 graden noem je:",
+          "opties": [
+            "scherp",
+            "recht",
+            "stomp",
+            "gestrekt"
+          ],
+          "antwoord": 2,
+          "uitleg": "Een hoek tussen 90 en 180 graden is stomp."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Evenwijdige lijnen snijden elkaar nooit.",
+          "antwoord": true,
+          "uitleg": "Evenwijdige lijnen lopen altijd even ver uit elkaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel vlakken heeft een balk?",
+          "opties": [
+            "4",
+            "6",
+            "8",
+            "12"
+          ],
+          "antwoord": 1,
+          "uitleg": "Een balk heeft zes vlakken: boven, onder en vier zijkanten."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel graden is de som van de hoeken van een driehoek?",
+          "antwoord": "180",
+          "uitleg": "De drie hoeken van elke driehoek zijn samen 180 graden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke figuur heeft precies één symmetrieas?",
+          "opties": [
+            "een vierkant",
+            "een gelijkbenige driehoek",
+            "een cirkel",
+            "een rechthoek"
+          ],
+          "antwoord": 1,
+          "uitleg": "Een vierkant heeft er vier, een rechthoek twee en een cirkel oneindig veel."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een cilinder heeft twee cirkelvormige grondvlakken.",
+          "antwoord": true,
+          "uitleg": "Denk aan een blikje: boven en onder zit een cirkel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel hoekpunten heeft een kubus?",
+          "opties": [
+            "4",
+            "6",
+            "8",
+            "12"
+          ],
+          "antwoord": 2,
+          "uitleg": "Een kubus heeft 8 hoekpunten, 12 ribben en 6 vlakken."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een cirkel heeft hoeken.",
+          "antwoord": false,
+          "uitleg": "De rand van een cirkel is één ronde lijn zonder hoeken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe noem je de afstand van het midden van een cirkel tot de rand?",
+          "opties": [
+            "de diameter",
+            "de straal",
+            "de omtrek",
+            "de koorde"
+          ],
+          "antwoord": 1,
+          "uitleg": "De diameter is dubbel zo lang als de straal."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel graden is een volledige draai?",
+          "antwoord": "360",
+          "uitleg": "Vier rechte hoeken van 90 graden samen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel zijden heeft een zeshoek?",
+          "opties": [
+            "4",
+            "5",
+            "6",
+            "8"
+          ],
+          "antwoord": 2,
+          "uitleg": "Zes, dat zit in de naam."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een spiegeling blijft de figuur even groot.",
+          "antwoord": true,
+          "uitleg": "Alleen de kant waarnaar ze kijkt verandert."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De diameter van een cirkel is 10 cm. Hoe lang is de straal?",
+          "opties": [
+            "2,5 cm",
+            "5 cm",
+            "10 cm",
+            "20 cm"
+          ],
+          "antwoord": 1,
+          "uitleg": "De straal is de helft van de diameter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel vlakken heeft een piramide met een vierkant grondvlak?",
+          "opties": [
+            "4",
+            "5",
+            "6",
+            "8"
+          ],
+          "antwoord": 1,
+          "uitleg": "Het vierkante grondvlak plus vier driehoeken, dus vijf."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een rechthoek heeft vier rechte hoeken.",
+          "antwoord": true,
+          "uitleg": "Daar komt de naam vandaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe noem je twee lijnen die elkaar kruisen onder een hoek van 90 graden?",
+          "opties": [
+            "evenwijdig",
+            "loodrecht",
+            "gelijkvormig",
+            "symmetrisch"
+          ],
+          "antwoord": 1,
+          "uitleg": "Loodrecht betekent: onder een rechte hoek."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel graden is een gestrekte hoek?",
+          "opties": [
+            "45",
+            "90",
+            "180",
+            "360"
+          ],
+          "antwoord": 2,
+          "uitleg": "Een gestrekte hoek is een rechte lijn: twee rechte hoeken naast elkaar, dus 180 graden."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een ruit heeft vier even lange zijden.",
+          "antwoord": true,
+          "uitleg": "Klopt. Het verschil met een vierkant is dat de hoeken van een ruit niet recht hoeven te zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel ribben heeft een balk?",
+          "opties": [
+            "6",
+            "8",
+            "12",
+            "16"
+          ],
+          "antwoord": 2,
+          "uitleg": "Een balk heeft 12 ribben, net als een kubus: vier boven, vier onder en vier staande."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe noem je een driehoek met twee even lange zijden?",
+          "opties": [
+            "gelijkzijdig",
+            "gelijkbenig",
+            "rechthoekig",
+            "stomphoekig"
+          ],
+          "antwoord": 1,
+          "uitleg": "Gelijkbenig: twee benen even lang. Zijn alle drie de zijden gelijk, dan heet hij gelijkzijdig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een hoek van 45 graden noem je:",
+          "opties": [
+            "een scherpe hoek",
+            "een rechte hoek",
+            "een stompe hoek",
+            "een gestrekte hoek"
+          ],
+          "antwoord": 0,
+          "uitleg": "Alles onder 90 graden is scherp, precies 90 is recht, en tussen 90 en 180 is stomp."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een vierkant heeft vier symmetrieassen.",
+          "antwoord": true,
+          "uitleg": "Klopt: twee door het midden van de zijden en twee langs de diagonalen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel hoekpunten heeft een balk?",
+          "opties": [
+            "4",
+            "6",
+            "8",
+            "12"
+          ],
+          "antwoord": 2,
+          "uitleg": "Vier hoekpunten boven en vier onder, samen 8."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel graden is de som van de hoeken van een vierhoek?",
+          "antwoord": "360",
+          "uitleg": "Een vierhoek bestaat uit twee driehoeken van 180 graden, samen dus 360."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke figuur heeft geen enkele rechte zijde?",
+          "opties": [
+            "een driehoek",
+            "een cirkel",
+            "een vierkant",
+            "een trapezium"
+          ],
+          "antwoord": 1,
+          "uitleg": "Een cirkel is één gebogen lijn, zonder zijden en zonder hoeken."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een bol heeft geen enkel vlak zijvlak.",
+          "antwoord": true,
+          "uitleg": "Klopt. Een bol is overal rond, daarom rolt hij alle kanten op."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel zijden heeft een achthoek?",
+          "opties": [
+            "6",
+            "7",
+            "8",
+            "10"
+          ],
+          "antwoord": 2,
+          "uitleg": "Acht zijden, zoals een stopbord in het verkeer."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Twee evenwijdige lijnen liggen overal even ver uit elkaar.",
+          "antwoord": true,
+          "uitleg": "Klopt, en net daarom raken ze elkaar nooit, hoe ver je ze ook doortrekt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe noem je de lijn die dwars door het midden van een cirkel loopt, van rand tot rand?",
+          "opties": [
+            "de straal",
+            "de diameter",
+            "de omtrek",
+            "de boog"
+          ],
+          "antwoord": 1,
+          "uitleg": "De diameter. Die is precies dubbel zo lang als de straal."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel graden is een halve draai?",
+          "antwoord": "180",
+          "uitleg": "Een volledige draai is 360 graden, dus een halve is 180."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De straal van een cirkel is 6 cm. Hoe lang is de diameter?",
+          "opties": [
+            "3 cm",
+            "6 cm",
+            "12 cm",
+            "18 cm"
+          ],
+          "antwoord": 2,
+          "uitleg": "De diameter is twee keer de straal: 6 × 2 = 12 cm."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een verschuiving verandert de vorm van de figuur.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Bij een verschuiving gaat de figuur enkel van plaats; vorm en grootte blijven gelijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel vlakken heeft een kubus?",
+          "opties": [
+            "4",
+            "6",
+            "8",
+            "12"
+          ],
+          "antwoord": 1,
+          "uitleg": "Zes vlakken, net als een dobbelsteen: boven, onder en vier zijkanten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een trapezium?",
+          "opties": [
+            "een vierhoek met minstens één paar evenwijdige zijden",
+            "een driehoek met een rechte hoek",
+            "een cirkel met een gat in het midden",
+            "een figuur met vijf zijden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een trapezium is een vierhoek waarvan minstens twee zijden evenwijdig lopen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een kegel heeft één cirkelvormig grondvlak en loopt uit op een punt.",
+          "antwoord": true,
+          "uitleg": "Klopt, zoals een ijshoorntje of een verkeerskegel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe noem je een hoek van meer dan 90 en minder dan 180 graden?",
+          "opties": [
+            "scherp",
+            "recht",
+            "stomp",
+            "gestrekt"
+          ],
+          "antwoord": 2,
+          "uitleg": "Zo'n hoek heet stomp. Onder de 90 graden is hij scherp."
+        }
+      ]
+    }
+  ]
+}

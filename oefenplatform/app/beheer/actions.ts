@@ -178,7 +178,12 @@ type BulkVraag = {
   type: "meerkeuze" | "invultekst" | "waarofniet";
   vraag: string;
   opties?: string[] | null;
-  antwoord: number | string | boolean;
+  /**
+   * Bij meerkeuze het nummer van de juiste optie, of een lijstje nummers als
+   * er meer dan één juist is (zie lib/antwoord.ts). Bij waarofniet true of
+   * false, bij invultekst de tekst.
+   */
+  antwoord: number | string | boolean | number[];
   uitleg?: string | null;
 };
 

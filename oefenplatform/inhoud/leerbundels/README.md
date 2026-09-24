@@ -24,6 +24,47 @@ bundel hoort bij allebei, dus die upload je twee keer.
 
 Klaar: `historisch-referentiekader.pdf` (4 blz) en `prehistorie.pdf` (5 blz).
 
+## ✨ Spark — natuurwetenschappen
+
+`bron/maak_natuurwetenschappen_spark.py` maakt tien bundels uit de vakfiche
+natuurwetenschappen 1ste graad A-stroom, één per thema, in de map
+`natuurwetenschappen/`:
+
+| bundel | hoort bij |
+| --- | --- |
+| `cellen-weefsels-en-organen.pdf` | Cellen, weefsels en organen — deel 1 en 2 |
+| `fotosynthese-en-de-plant.pdf` | Fotosynthese en de plant — deel 1 en 2 |
+| `het-menselijk-lichaam.pdf` | Het menselijk lichaam — deel 1 en 2 |
+| `voortplanting.pdf` | Voortplanting — deel 1 en 2 |
+| `ecologie-en-biodiversiteit.pdf` | Ecologie en biodiversiteit — deel 1 en 2 |
+| `materie-stoffen-en-mengsels.pdf` | Materie, stoffen en mengsels — deel 1 en 2 |
+| `massadichtheid.pdf` | Massadichtheid — deel 1 en 2 |
+| `energie-kracht-en-snelheid.pdf` | Energie, kracht en snelheid — deel 1 en 2 |
+| `veilig-werken-meten-en-eenheden.pdf` | Veilig werken, meten en eenheden — deel 1 en 2 |
+| `wetenschappelijk-onderzoek.pdf` | Wetenschappelijk onderzoek — deel 1 en 2 |
+
+De tekeningen die erbij kwamen staan onderaan `svg.py`: `twee_cellen`,
+`fotosynthese`, `voedselpiramide`, `bloemdoorsnede`, `menstruatiecyclus`,
+`krachtpijl`, `onderdompeling` en `faseovergangen`.
+
+## Dekt een bundel élke vraag van zijn hoofdstuk?
+
+Dat is de afspraak, en `bron/dekking.py` doet er het voorwerk voor:
+
+```
+python3 dekking.py ../../spark/natuurwetenschappen.json
+```
+
+Het haalt uit elke vraag (de vraagtekst en het juiste antwoord, niet de uitleg)
+de inhoudswoorden en meldt welke daarvan nergens in de bijbehorende bundel
+staan. Welke bundel bij welk hoofdstuk hoort, leidt het af uit de titel.
+
+Het blijft voorwerk, geen oordeel. Een woord dat het meldt, kan best met een
+synoniem in de bundel staan, en een verbogen werkwoordsvorm haalt het er niet
+altijd uit. Lees de lijst dus zelf na: wat overblijft, zijn meestal gewone
+werkwoorden, en precies daartussen vind je af en toe een begrip dat écht
+vergeten is.
+
 ## 🧱 Basis — wiskunde
 
 `bron/maak_basis.py` maakt vijf bundels voor de herhaling van de bouwstenen:

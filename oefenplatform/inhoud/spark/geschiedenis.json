@@ -95,25 +95,33 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel maatschappelijke domeinen onderscheiden historici?",
+          "vraag": "Welke van deze horen bij het politieke domein?",
           "opties": [
-            "Drie",
-            "Vier",
-            "Zes"
+            "Een koning die wetten uitvaardigt",
+            "Een oorlog tussen twee steden",
+            "Een tempel bouwen voor een god",
+            "Graan verkopen op de markt"
           ],
-          "antwoord": 1,
-          "uitleg": "Het zijn er vier: het culturele, het economische, het politieke en het sociale domein."
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Macht, bestuur, wetten en oorlog horen bij het politieke domein. De tempel is cultureel, de handel economisch."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Bij welk maatschappelijk domein hoort het verkiezen van een bestuur?",
+          "vraag": "Welke van deze horen bij het culturele domein?",
           "opties": [
-            "Het politieke domein",
-            "Het economische domein",
-            "Het culturele domein"
+            "Een beeld maken van een god",
+            "Een nieuwe sterrenkundige berekening",
+            "Belastingen innen",
+            "Een kanaal graven naar de akkers"
           ],
-          "antwoord": 0,
-          "uitleg": "Alles wat met macht, bestuur en wetten te maken heeft, hoort bij het politieke domein."
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Religie, kunst, wetenschap en taal zijn cultureel. Belastingen innen is politiek, en het kanaal is economisch."
         },
         {
           "type": "meerkeuze",
@@ -139,14 +147,18 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een samenleving die vooral leeft van de zee en de scheepvaart, noem je:",
+          "vraag": "Welke structuurbegrippen passen bij Athene?",
           "opties": [
-            "continentaal",
             "maritiem",
-            "regionaal"
+            "stedelijk",
+            "continentaal",
+            "ruraal"
           ],
-          "antwoord": 1,
-          "uitleg": "Maritiem verwijst naar de zee. Continentaal verwijst naar het binnenland van een werelddeel."
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Athene leefde van zijn vloot en van handel over zee, en het was een stad. Sparta was juist continentaal."
         },
         {
           "type": "invultekst",
@@ -210,14 +222,18 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is een scharnierpunt in de geschiedenis?",
+          "vraag": "Welke gebeurtenissen gebruiken historici als scharnierpunt?",
           "opties": [
-            "Een gebeurtenis die de overgang vormt tussen twee periodes",
-            "Het midden van een historische periode",
-            "Een jaartal dat historici niet kunnen achterhalen"
+            "De uitvinding van het schrift",
+            "De val van het West-Romeinse Rijk in 476",
+            "De bouw van de piramides",
+            "De eerste Olympische Spelen"
           ],
-          "antwoord": 0,
-          "uitleg": "Een scharnierpunt is een gebeurtenis of ontwikkeling zo ingrijpend dat historici er een nieuwe periode mee laten beginnen."
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Het schrift sluit de prehistorie af en 476 sluit de klassieke oudheid af. De piramides en de Spelen zijn belangrijk, maar laten geen nieuwe periode beginnen."
         },
         {
           "type": "meerkeuze",
@@ -287,14 +303,18 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom is het einde van het West-Romeinse Rijk een plaatsgebonden scharnierpunt?",
+          "vraag": "Waarom past de westerse indeling in zeven periodes niet op de hele wereld?",
           "opties": [
-            "Omdat het voor China of Amerika geen enkele betekenis had",
-            "Omdat niemand weet waar het rijk lag",
-            "Omdat het rijk in het oosten al eerder verdween"
+            "Ze is gemaakt vanuit de Europese geschiedenis",
+            "In 476 veranderde er voor China of Amerika niets",
+            "Omdat er buiten Europa geen bronnen bestaan",
+            "Omdat andere werelddelen geen geschiedenis hebben"
           ],
-          "antwoord": 0,
-          "uitleg": "Voor samenlevingen buiten Europa verandert er in 476 niets. De westerse indeling past dus niet op de hele wereld."
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "De eerste twee: de indeling is plaatsgebonden. De andere twee kloppen niet — overal zijn bronnen en overal is geschiedenis."
         },
         {
           "type": "meerkeuze",
@@ -309,14 +329,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Alexander de Grote veroverde een groot rijk. In welk maatschappelijk domein situeer je die verovering in de eerste plaats?",
+          "vraag": "In welke maatschappelijke domeinen situeer je de verovering van Alexander de Grote?",
           "opties": [
-            "Het culturele domein",
-            "Het politieke domein",
-            "Het sociale domein"
+            "politiek, want het gaat over macht en gezag",
+            "cultureel, want de Griekse taal en kunst verspreidden zich mee",
+            "economisch, want er kwam handel op gang",
+            "in geen enkel domein, een verovering staat daarbuiten"
           ],
-          "antwoord": 1,
-          "uitleg": "Een verovering gaat over macht en gezag, en dat is het politieke domein. De verspreiding van de Griekse cultuur erna is wel cultureel."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Alle drie. Eén gebeurtenis hoort vaak in meerdere domeinen tegelijk, en dat is juist het punt van die indeling."
         },
         {
           "type": "meerkeuze",
@@ -446,14 +471,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarvoor gebruikten prehistorische mensen vuur?",
+          "vraag": "Waarvoor gebruikten prehistorische mensen het vuur?",
           "opties": [
-            "Alleen om zich te verwarmen",
-            "Om te verwarmen, te verlichten, voedsel te bereiden en dieren op afstand te houden",
-            "Alleen om voedsel te bereiden"
+            "om warmte en licht te geven",
+            "om roofdieren op afstand te houden",
+            "om voedsel beter verteerbaar te maken",
+            "om metaal te smelten"
           ],
-          "antwoord": 1,
-          "uitleg": "Vuur gaf warmte en licht, hield roofdieren weg, maakte voedsel beter verteerbaar en hielp bij het harden van houten punten."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De eerste drie. Metaal bewerken komt pas veel later; in de prehistorie werkte men met steen en hout."
         },
         {
           "type": "meerkeuze",
@@ -501,25 +531,35 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is er vooral afgebeeld op prehistorische grotschilderingen?",
+          "vraag": "Wat vind je terug op prehistorische grotschilderingen?",
           "opties": [
-            "Steden en gebouwen",
-            "Dieren en jachttaferelen",
-            "Koningen en veldslagen"
+            "paarden, bizons en herten",
+            "handafdrukken",
+            "jachttaferelen",
+            "de namen van de schilders"
           ],
-          "antwoord": 1,
-          "uitleg": "Vooral dieren zoals paarden, bizons en herten, vaak in scènes die met de jacht te maken hebben."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Dieren, handen en jachtscènes. Namen niet: het schrift bestond nog niet, en daarom heet deze periode de prehistorie."
         },
         {
           "type": "meerkeuze",
-          "vraag": "In welke groepen leefden jagers en verzamelaars?",
+          "vraag": "Wat klopt over jagers en verzamelaars?",
           "opties": [
-            "In kleine groepen van enkele tientallen mensen",
-            "In dorpen van enkele honderden mensen",
-            "Alleen, per gezin"
+            "Ze leefden in kleine groepen van enkele tientallen mensen",
+            "Ze trokken mee met het voedsel",
+            "Er was een taakverdeling in de groep",
+            "Ze woonden in dorpen met voorraadschuren"
           ],
-          "antwoord": 0,
-          "uitleg": "Kleine groepen waren nodig: een groot gezelschap vindt in de natuur niet genoeg voedsel op één plek."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De eerste drie. Dorpen en voorraden komen er pas met de landbouw, duizenden jaren later."
         },
         {
           "type": "meerkeuze",
@@ -594,14 +634,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke twee ontwikkelingen vormen samen de agrarische revolutie?",
+          "vraag": "Wat hoort bij de agrarische revolutie?",
           "opties": [
-            "Landbouw en veeteelt",
-            "Jacht en visserij",
-            "Handel en nijverheid"
+            "zelf gewassen telen",
+            "dieren houden",
+            "op een vaste plaats wonen",
+            "in de winter naar warmere streken trekken"
           ],
-          "antwoord": 0,
-          "uitleg": "Mensen gingen zelf gewassen telen en dieren houden in plaats van voedsel te zoeken in de natuur."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Landbouw en veeteelt, en daardoor een vast woonplaats. Rondtrekken is net wat men daarvóór deed."
         },
         {
           "type": "meerkeuze",
@@ -638,14 +683,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom leidden overschotten tot nieuwe beroepen?",
+          "vraag": "Welke gevolgen had het voedseloverschot?",
           "opties": [
-            "Omdat niet iedereen meer voedsel moest produceren",
-            "Omdat de boeren minder gingen werken",
-            "Omdat er minder mensen nodig waren in het dorp"
+            "Sommigen konden een ander beroep uitoefenen",
+            "Er konden meer mensen op één plek wonen",
+            "Er ontstonden verschillen in rijkdom",
+            "Iedereen werd even rijk"
           ],
-          "antwoord": 0,
-          "uitleg": "Als een deel van de groep voldoende voedsel produceert, kunnen anderen pottenbakker, smid of priester worden. Dat heet specialisatie."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Overschot geeft specialisatie, steden én ongelijkheid. Gelijkheid juist niet: wie grond en voorraden had, stond sterker."
         },
         {
           "type": "meerkeuze",
@@ -682,14 +732,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welk nadeel bracht het sedentaire leven met zich mee?",
+          "vraag": "Welke nadelen bracht het sedentaire leven mee?",
           "opties": [
-            "Ziektes verspreidden zich sneller doordat mensen dicht op elkaar en bij dieren leefden",
-            "Er was minder voedsel dan bij de jacht",
-            "Men verleerde het vuur te gebruiken"
+            "Ziektes sprongen makkelijker over",
+            "Eén misoogst kon hongersnood betekenen",
+            "Er ontstond ongelijkheid in bezit",
+            "Men kon geen voedsel meer bewaren"
           ],
-          "antwoord": 0,
-          "uitleg": "Dichte bewoning en het samenleven met vee lieten ziektes gemakkelijker overslaan. Een misoogst kon ook meteen hongersnood betekenen."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De eerste drie. Bewaren kon juist wél, en net dat bewaarde bezit maakte het verschil tussen arm en rijk."
         },
         {
           "type": "meerkeuze",
@@ -726,14 +781,18 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welk spoor uit de prehistorie kan je vandaag nog in onze streken zien?",
+          "vraag": "Welke sporen uit het neolithicum liggen er bij ons nog in het landschap?",
           "opties": [
-            "Romeinse wegen",
-            "Hunebedden en grafheuvels",
-            "Middeleeuwse kastelen"
+            "hunebedden",
+            "grafheuvels",
+            "piramides",
+            "aquaducten"
           ],
-          "antwoord": 1,
-          "uitleg": "Grote steenzettingen en grafheuvels uit het neolithicum liggen er nog altijd."
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Grote steenzettingen en grafheuvels. Piramides horen bij Egypte en aquaducten bij de Romeinen."
         },
         {
           "type": "invultekst",
@@ -813,14 +872,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is irrigatielandbouw?",
+          "vraag": "Wat hoort bij irrigatielandbouw?",
           "opties": [
-            "Landbouw waarbij men water van de rivier naar de akkers leidt",
-            "Landbouw zonder dieren",
-            "Landbouw op de berghellingen"
+            "kanalen graven",
+            "dijken aanleggen en onderhouden",
+            "rivierwater tot bij de akkers brengen",
+            "wachten tot het regent"
           ],
-          "antwoord": 0,
-          "uitleg": "Met kanalen, dijken en bekkens bracht men rivierwater tot bij de velden. Zo kon je oogsten in een droge streek."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Irrigatie is water zelf naar je akkers brengen. Net omdat het er te weinig regende, was dat nodig."
         },
         {
           "type": "meerkeuze",
@@ -835,14 +899,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is een stadstaat?",
+          "vraag": "Welke van deze waren Mesopotamische stadstaten?",
           "opties": [
-            "Een stad die samen met het omliggende land een eigen staat vormt",
-            "De hoofdstad van een groot rijk",
-            "Een stad zonder muren"
+            "Ur",
+            "Uruk",
+            "Babylon",
+            "Athene"
           ],
-          "antwoord": 0,
-          "uitleg": "Een stadstaat bestuurt zichzelf: de stad én de akkers eromheen vormen samen één staatje. Ur en Uruk zijn voorbeelden."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Ur, Uruk en Babylon lagen tussen Tigris en Eufraat. Athene is een Griekse polis, duizenden jaren later."
         },
         {
           "type": "meerkeuze",
@@ -912,25 +981,35 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is een ziggurat?",
+          "vraag": "Wat klopt over een ziggurat?",
           "opties": [
-            "Een grafkamer",
-            "Een trapvormige tempeltoren",
-            "Een verdedigingsmuur"
+            "Het is een tempeltoren in trappen",
+            "Hij stond midden in de stad",
+            "Hij was gewijd aan de god van die stad",
+            "Het is het graf van een koning"
           ],
-          "antwoord": 1,
-          "uitleg": "In het midden van een Mesopotamische stad stond een ziggurat: een hoge tempeltoren in trappen, voor de god van die stad."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een ziggurat is een tempel, geen graf. Het graf van een heerser is in Egypte de piramide."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat betekent polytheïsme?",
+          "vraag": "Wat hadden Mesopotamië en Egypte gemeen?",
           "opties": [
-            "Het geloof in één god",
-            "Het geloof in meerdere goden",
-            "Het geloof in geen enkele god"
+            "Ze lagen allebei aan een rivier",
+            "Ze geloofden in meerdere goden",
+            "Ze waren allebei een standenmaatschappij",
+            "Ze schreven allebei met hiërogliefen"
           ],
-          "antwoord": 1,
-          "uitleg": "Poly betekent veel, theos betekent god. Zowel Mesopotamië als Egypte was polytheïstisch."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Alleen het schrift verschilde: spijkerschrift in Mesopotamië, hiërogliefen in Egypte."
         },
         {
           "type": "meerkeuze",
@@ -1015,14 +1094,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welk gevolg had het schrift voor de macht in de samenleving?",
+          "vraag": "Wat klopt over het schrift in deze rijken?",
           "opties": [
-            "Iedereen werd gelijk",
-            "Wie kon schrijven hoorde bij een kleine, invloedrijke groep",
-            "De macht van de koning verdween"
+            "Het ontstond om voorraden en bezit bij te houden",
+            "Maar weinig mensen konden lezen en schrijven",
+            "Schrijvers stonden daardoor hoog in de standenmaatschappij",
+            "Het ontstond om verhalen te bewaren"
           ],
-          "antwoord": 1,
-          "uitleg": "Schrijven was een vak dat maar weinigen beheersten. Schrijvers en ambtenaren stonden daardoor hoog in de standenmaatschappij."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De oudste kleitabletten zijn boekhouding, geen literatuur. Die kwam pas later."
         },
         {
           "type": "meerkeuze",
@@ -1048,14 +1132,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat was een ambtenaar in deze rijken?",
+          "vraag": "Wat deed een ambtenaar in deze rijken?",
           "opties": [
-            "Iemand die in naam van de heerser bestuurt, telt en belast",
-            "Een soldaat te paard",
-            "Een priester zonder tempel"
+            "belastingen innen",
+            "akkers opmeten",
+            "de voorraden bijhouden",
+            "het leger aanvoeren in de strijd"
           ],
-          "antwoord": 0,
-          "uitleg": "Een rijk besturen doe je niet alleen. Ambtenaren inden de belastingen, hielden voorraden bij en gaven bevelen door."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een ambtenaar bestuurt in naam van de heerser. Het leger leiden was de taak van de heerser zelf."
         },
         {
           "type": "meerkeuze",
@@ -1083,12 +1172,17 @@
           "type": "meerkeuze",
           "vraag": "Waarom kon Mesopotamië niet zonder handel?",
           "opties": [
-            "Er was volop hout en steen, maar te weinig graan",
-            "Er was graan en klei, maar nauwelijks hout, steen en metaal",
-            "Men wilde vooral luxeproducten"
+            "Er was nauwelijks hout",
+            "Er was nauwelijks steen",
+            "Er was nauwelijks metaal",
+            "Er was nauwelijks graan"
           ],
-          "antwoord": 1,
-          "uitleg": "De vlakte leverde voedsel en klei, maar bouwhout, steen en erts moest van ver komen. Handel was dus een noodzaak, geen keuze."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Graan en klei waren er juist in overvloed. Bouwhout, steen en erts moesten van ver komen."
         },
         {
           "type": "meerkeuze",
@@ -1127,12 +1221,17 @@
           "type": "meerkeuze",
           "vraag": "Welke taken had een farao?",
           "opties": [
-            "Alleen het leger aanvoeren",
-            "Besturen, rechtspreken, het leger leiden én de goden gunstig stemmen",
-            "Alleen de tempels bouwen"
+            "besturen en rechtspreken",
+            "het leger leiden",
+            "de goden gunstig stemmen",
+            "zelf bij elke boer de belasting ophalen"
           ],
-          "antwoord": 1,
-          "uitleg": "Zijn taak was politiek én religieus: hij moest de orde bewaren, in de staat en tegenover de goden."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Zijn taak was politiek én religieus. Het ophalen van belastingen deden de ambtenaren voor hem."
         },
         {
           "type": "meerkeuze",
@@ -1212,14 +1311,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke twee stadstaten waren het bekendst?",
+          "vraag": "Wat deelden de Griekse stadstaten met elkaar?",
           "opties": [
-            "Athene en Sparta",
-            "Rome en Carthago",
-            "Troje en Delphi"
+            "dezelfde taal",
+            "dezelfde goden en verhalen",
+            "de Olympische Spelen",
+            "hetzelfde bestuur"
           ],
-          "antwoord": 0,
-          "uitleg": "Athene en Sparta waren de twee machtigste, en ze verschilden sterk van elkaar."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Cultureel waren ze één, politiek juist niet: elke polis bestuurde zichzelf."
         },
         {
           "type": "waarofniet",
@@ -1280,14 +1384,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Geloofden de Grieken in één god of in meerdere?",
+          "vraag": "Wat klopt over de Griekse goden?",
           "opties": [
-            "In meerdere goden",
-            "In één god",
-            "In geen enkele god"
+            "Ze woonden volgens de verhalen op de Olympus",
+            "Zeus was de oppergod",
+            "Ze werden jaloers, verliefd en kwaad, net als mensen",
+            "De Grieken geloofden in één god"
           ],
-          "antwoord": 0,
-          "uitleg": "Dat heet polytheïsme. Elke god had een eigen taak en een eigen karakter."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De Grieken waren polytheïstisch: veel goden, elk met een eigen taak en karakter."
         },
         {
           "type": "invultekst",
@@ -1347,14 +1456,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat deden Griekse kolonisten?",
+          "vraag": "Waar stichtten Griekse kolonisten nieuwe steden?",
           "opties": [
-            "Ze stichtten nieuwe steden aan verre kusten",
-            "Ze bouwden de tempels in Athene",
-            "Ze schreven de wetten van Sparta"
+            "in Zuid-Italië",
+            "in Zuid-Frankrijk",
+            "rond de Zwarte Zee",
+            "in Britannië"
           ],
-          "antwoord": 0,
-          "uitleg": "Zo kwamen er Griekse steden tot in Zuid-Italië, Frankrijk en rond de Zwarte Zee."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Zo kwamen de Romeinen al vroeg met de Griekse cultuur in aanraking. Britannië is Romeins, en veel later."
         },
         {
           "type": "meerkeuze",
@@ -1404,14 +1518,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat was de grootste beperking van de Atheense democratie?",
+          "vraag": "Wie mocht er in Athene niét meestemmen?",
           "opties": [
-            "Slechts een minderheid van de bevolking was burger en mocht stemmen",
-            "Er werd maar één keer per jaar gestemd",
-            "Alleen soldaten mochten spreken"
+            "vrouwen",
+            "slaven",
+            "vreemdelingen",
+            "vrije mannen met burgerrecht"
           ],
-          "antwoord": 0,
-          "uitleg": "Vrouwen, slaven en vreemdelingen waren uitgesloten. Van de hele bevolking stemde ongeveer één op tien."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Enkel vrije mannelijke burgers stemden, ongeveer één op tien van de bevolking. Dat is meteen de grootste beperking van die democratie."
         },
         {
           "type": "waarofniet",
@@ -1432,14 +1551,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat was een gevolg van de Perzische oorlogen?",
+          "vraag": "Wat waren gevolgen van de Perzische oorlogen?",
           "opties": [
-            "Athene werd machtig en leidde een bondgenootschap",
-            "Griekenland werd Perzisch",
-            "De stadstaten verdwenen"
+            "De stadstaten werkten uitzonderlijk samen",
+            "Athene werd de leider van een bondgenootschap",
+            "Athene bouwde met dat geld onder meer het Parthenon",
+            "Sparta werd meteen de baas over heel Griekenland"
           ],
-          "antwoord": 0,
-          "uitleg": "Athene bouwde met het geld van dat bondgenootschap onder meer het Parthenon."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Sparta won pas veel later, in de Peloponnesische oorlog — en toen kwamen alle stadstaten er verzwakt uit."
         },
         {
           "type": "meerkeuze",
@@ -1498,14 +1622,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welk verschil was er tussen vrouwen in Sparta en vrouwen in Athene?",
+          "vraag": "Wat mocht een Spartaanse vrouw wél en een Atheense niet?",
           "opties": [
-            "Spartaanse vrouwen hadden meer bewegingsvrijheid en mochten sporten",
-            "Atheense vrouwen bestuurden de stad",
-            "Er was geen enkel verschil"
+            "sporten",
+            "zich vrij bewegen",
+            "bezit hebben",
+            "meestemmen over de wetten"
           ],
-          "antwoord": 0,
-          "uitleg": "In Athene bleef een vrouw grotendeels binnenshuis. Meebeslissen deed ze op geen van beide plaatsen."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Meebeslissen deed een vrouw op geen van beide plaatsen."
         },
         {
           "type": "invultekst",
@@ -1526,14 +1655,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke drie zuilstijlen kenden de Grieken?",
+          "vraag": "Welke zuilstijlen kenden de Grieken?",
           "opties": [
-            "Dorisch, Ionisch en Korintisch",
-            "Rond, vierkant en plat",
-            "Hoog, laag en breed"
+            "Dorisch",
+            "Ionisch",
+            "Korintisch",
+            "Romaans"
           ],
-          "antwoord": 0,
-          "uitleg": "Je herkent ze bovenaan de zuil: Dorisch is sober, Ionisch heeft krullen, Korintisch heeft bladeren."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Je herkent ze aan het kapiteel bovenaan: Dorisch sober, Ionisch met krullen, Korintisch met bladeren. Romaans is een bouwstijl uit de middeleeuwen."
         },
         {
           "type": "meerkeuze",
@@ -1656,14 +1790,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke twee bevolkingsgroepen stonden in Rome tegenover elkaar?",
+          "vraag": "Wat klopt over de Romeinse republiek?",
           "opties": [
-            "Patriciërs en plebejers",
-            "Grieken en Etrusken",
-            "Boeren en zeelieden"
+            "Er stonden twee consuls aan het hoofd, elk voor één jaar",
+            "De senaat was de raad van oud-bestuurders",
+            "De volksvergadering koos de bestuurders",
+            "Aan het hoofd stond een koning"
           ],
-          "antwoord": 0,
-          "uitleg": "De plebejers moesten hun rechten stap voor stap afdwingen, onder meer door te staken."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De koningen kwamen net vóór de republiek. De Romeinen joegen hun laatste koning weg en wilden nooit meer één alleenheerser."
         },
         {
           "type": "meerkeuze",
@@ -1745,14 +1884,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe heette de Griekse god Zeus bij de Romeinen?",
+          "vraag": "Wat namen de Romeinen over van de Grieken?",
           "opties": [
-            "Jupiter",
-            "Mars",
-            "Mercurius"
+            "de goden, maar met eigen namen: Zeus werd Jupiter",
+            "bouwen met zuilen",
+            "theater en filosofie",
+            "het spijkerschrift"
           ],
-          "antwoord": 0,
-          "uitleg": "Dezelfde god, een andere naam. Zo werd Ares Mars en Aphrodite Venus."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Zeus werd Jupiter, Ares werd Mars en Aphrodite werd Venus. Het spijkerschrift hoort bij Mesopotamië; de Romeinen schreven in het Latijn."
         },
         {
           "type": "meerkeuze",
@@ -1767,14 +1911,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welk spoor van de Romeinen zie je vandaag nog?",
+          "vraag": "Welke sporen van de Romeinen zie je vandaag nog?",
           "opties": [
-            "Onze maandnamen, wegen, letters en veel woorden",
-            "Onze elektriciteit",
-            "Ons internet"
+            "de maandnamen juli en augustus",
+            "onze letters",
+            "duizenden woorden in onze taal",
+            "onze cijfers 0 tot 9"
           ],
-          "antwoord": 0,
-          "uitleg": "Juli en augustus zijn zelfs rechtstreeks naar Julius Caesar en Augustus genoemd."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Onze cijfers niet: die komen uit India en kwamen via de Arabische wereld bij ons. De Romeinen schreven I, V, X."
         }
       ]
     },
@@ -1829,14 +1978,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat was het gevolg van de Punische oorlogen?",
+          "vraag": "Wat waren gevolgen van de Punische oorlogen?",
           "opties": [
             "Rome werd de baas over de westelijke Middellandse Zee",
-            "Rome verloor Italië",
-            "Carthago veroverde Rome"
+            "Carthago werd uiteindelijk volledig verwoest",
+            "Er kwamen zoveel krijgsgevangenen dat slavenarbeid spotgoedkoop werd",
+            "Rome verloor de macht over Italië"
           ],
-          "antwoord": 0,
-          "uitleg": "Carthago werd uiteindelijk volledig verwoest. Rome had geen tegenstander meer in het westen."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Italië had Rome al vóór die oorlogen in handen. Net door die goedkope slavenarbeid kon de kleine boer niet meer mee."
         },
         {
           "type": "meerkeuze",
@@ -1906,14 +2060,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welk verband is er tussen de Pax Romana en de economie?",
+          "vraag": "Wat maakte tijdens de Pax Romana handel over het hele rijk mogelijk?",
           "opties": [
-            "Veilige wegen en zeeën maakten handel over het hele rijk mogelijk",
-            "De vrede maakte iedereen arm",
-            "Er was geen verband"
+            "veilige wegen en zeeën",
+            "één munt",
+            "één rechtssysteem",
+            "een tolmuur rond elke provincie"
           ],
-          "antwoord": 0,
-          "uitleg": "Eén munt, één rechtssysteem en geen rovers of piraten: goederen konden van Britannië tot Egypte reizen."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Goederen konden van Britannië tot Egypte reizen. Tolmuren zouden dat net onmogelijk gemaakt hebben."
         },
         {
           "type": "meerkeuze",
@@ -1928,25 +2087,35 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe verging het het christendom in het Romeinse Rijk?",
+          "vraag": "Wat klopt over het christendom in het Romeinse Rijk?",
           "opties": [
-            "Het werd eerst vervolgd en werd later staatsgodsdienst",
-            "Het werd meteen verboden en verdween",
-            "Het bestond er niet"
+            "Christenen weigerden de keizer te vereren",
+            "Ze werden eerst vervolgd",
+            "Onder Constantijn werd het christendom toegelaten",
+            "Het was vanaf het begin de staatsgodsdienst"
           ],
-          "antwoord": 0,
-          "uitleg": "Christenen weigerden de keizer te vereren. Onder Constantijn werd het toegelaten, later werd het de enige toegestane godsdienst."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Staatsgodsdienst werd het pas op het einde. Daarvóór botste het net op de keizerscultus."
         },
         {
           "type": "meerkeuze",
           "vraag": "Wat voegden de Romeinen toe aan de Griekse bouwkunst?",
           "opties": [
-            "De boog, het gewelf, de koepel en het beton",
-            "De zuil",
-            "Het dak"
+            "de boog",
+            "het gewelf",
+            "de koepel en het beton",
+            "de zuil"
           ],
-          "antwoord": 0,
-          "uitleg": "Daarmee konden ze veel grotere ruimtes overspannen dan met alleen zuilen en balken."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De zuil hadden ze net van de Grieken. Met boog, gewelf, koepel en beton konden ze veel grotere ruimtes overspannen."
         },
         {
           "type": "meerkeuze",
@@ -1963,12 +2132,17 @@
           "type": "meerkeuze",
           "vraag": "Wat waren oorzaken van de crisis van de 3de eeuw?",
           "opties": [
-            "Invallen aan de grenzen, muntontwaarding en keizers die elkaar snel opvolgden",
-            "Een te goede oogst",
-            "Het vertrek van de senaat"
+            "invallen aan de grenzen",
+            "munten met steeds minder zilver",
+            "keizers die elkaar in hoog tempo afzetten",
+            "de verwoesting van Carthago"
           ],
-          "antwoord": 0,
-          "uitleg": "Er volgden tientallen keizers in enkele decennia, vaak door het leger benoemd en weer afgezet."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Carthago was al eeuwen eerder verwoest, in de Punische oorlogen."
         },
         {
           "type": "meerkeuze",
@@ -2018,14 +2192,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is een historische bron?",
+          "vraag": "Wat kan een historische bron zijn?",
           "opties": [
-            "Alles uit het verleden waaruit je iets over die tijd kan afleiden",
-            "Enkel een geschreven tekst",
-            "Een boek van een historicus van vandaag"
+            "een muntje",
+            "een afvalhoop",
+            "kinderspeelgoed",
+            "enkel een geschreven tekst"
           ],
-          "antwoord": 0,
-          "uitleg": "Ook een afvalhoop, een muntje of een kinderspeelgoed is een bron."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Alles uit het verleden waaruit je iets kan afleiden, is een bron. Juist een afvalhoop vertelt veel over het gewone leven."
         },
         {
           "type": "invultekst",
@@ -2074,14 +2253,20 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "In welke vier soorten verdeelt men historische bronnen?",
+          "vraag": "In welke soorten deelt men historische bronnen in naar hun vorm?",
           "opties": [
-            "Geschreven, mondeling, materieel en audiovisueel",
-            "Oud, nieuw, echt en vals",
-            "Groot, klein, licht en zwaar"
+            "geschreven",
+            "mondeling",
+            "materieel",
+            "audiovisueel"
           ],
-          "antwoord": 0,
-          "uitleg": "Die indeling gaat over de vorm van de bron, niet over haar waarde."
+          "antwoord": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "uitleg": "Alle vier. Die indeling gaat over de vorm van de bron, niet over haar waarde."
         },
         {
           "type": "meerkeuze",
@@ -2135,14 +2320,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wie is de opdrachtgever van een bron?",
+          "vraag": "Waarom wil een historicus weten wie een bron gemaakt heeft?",
           "opties": [
-            "Wie de bron liet maken en ervoor betaalde",
-            "Wie de bron terugvond",
-            "Wie de bron bewaart in een museum"
+            "Elke maker vertelt vanuit zijn eigen positie en belang",
+            "Wie de bron betaalde, kan bepalen wat erin komt",
+            "De winnaar beschrijft een slag anders dan de verliezer",
+            "Omdat een bron zonder naam altijd onbruikbaar is"
           ],
-          "antwoord": 0,
-          "uitleg": "Bij een standbeeld of een tempelmuur is de opdrachtgever vaak belangrijker dan de maker zelf."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een bron zonder naam kan nog altijd veel vertellen. De eerste drie zijn juist de reden waarom je altijd naar de maker kijkt."
         },
         {
           "type": "waarofniet",
@@ -2185,14 +2375,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke van deze kan een kunst- of cultuuruiting zijn?",
+          "vraag": "Wat kan een kunst- of cultuuruiting zijn?",
           "opties": [
-            "Een schilderij, een gebouw, een film, een game of graffiti",
-            "Enkel een schilderij in een museum",
-            "Enkel iets ouder dan honderd jaar"
+            "een schilderij",
+            "een gebouw",
+            "een film of een game",
+            "enkel werk dat in een museum hangt"
           ],
-          "antwoord": 0,
-          "uitleg": "Ook wat vandaag gemaakt wordt, is voor latere historici een bron over onze tijd."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Ook graffiti en wat vandaag gemaakt wordt, is voor latere historici een bron over onze tijd."
         },
         {
           "type": "waarofniet",
@@ -2248,14 +2443,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat betekent standplaatsgebondenheid?",
+          "vraag": "Wie of wat is er standplaatsgebonden?",
           "opties": [
-            "Dat wie iets vertelt, dat doet vanuit zijn eigen tijd, plaats en positie",
-            "Dat een bron niet verplaatst mag worden",
-            "Dat een historicus ter plaatse moet gaan kijken"
+            "de maker van een bron",
+            "de historicus die ze leest",
+            "jij, als je naar het verleden kijkt",
+            "niemand, als je je best doet om neutraal te zijn"
           ],
-          "antwoord": 0,
-          "uitleg": "Niemand kijkt van nergens. Waar je staat, bepaalt wat je ziet en hoe je het benoemt."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Niemand kijkt van nergens. Je kan je standplaats niet uitschakelen, maar je kan ze wel kennen — en dat is al de halve oplossing."
         },
         {
           "type": "meerkeuze",
@@ -2314,14 +2514,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke van deze is een historische redeneerwijze?",
+          "vraag": "Welke van deze zijn historische redeneerwijzen?",
           "opties": [
-            "Oorzaak en gevolg benoemen",
-            "Snel kunnen lezen",
-            "Jaartallen vanbuiten leren"
+            "oorzaak en gevolg benoemen",
+            "meerdere perspectieven hanteren",
+            "continuïteit en verandering benoemen",
+            "afgaan op je gevoel"
           ],
-          "antwoord": 0,
-          "uitleg": "De vijf zijn: oorzaak en gevolg, meerdere perspectieven, continuïteit en verandering, bewijs gebruiken, en verbanden leggen."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De vijf redeneerwijzen zijn: oorzaak en gevolg, meerdere perspectieven, continuïteit en verandering, bewijs gebruiken en verbanden leggen. Je gevoel hoort er niet bij."
         },
         {
           "type": "meerkeuze",
@@ -2375,14 +2580,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Het populaire beeld van de neanderthaler als dom en lomp …",
+          "vraag": "Wat weten we uit de vondsten over de neanderthalers?",
           "opties": [
-            "klopt niet: zij maakten werktuigen, verzorgden zieken en begroeven hun doden",
-            "klopt helemaal",
-            "gaat over een diersoort"
+            "Ze maakten samengestelde werktuigen",
+            "Ze verzorgden zieken en gewonden",
+            "Ze begroeven hun doden",
+            "Ze kenden geen vuur"
           ],
-          "antwoord": 0,
-          "uitleg": "Ze hadden vuur, kleding en samengestelde werktuigen, en onze eigen genen dragen nog sporen van hen."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Vuur en kleding kenden ze wél. Het beeld van de domme, lompe holbewoner is mythevorming."
         },
         {
           "type": "waarofniet",
@@ -2392,14 +2602,19 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Waarom kan dat beeld veranderen?",
+          "vraag": "Waardoor kan het beeld dat historici van het verleden hebben, veranderen?",
           "opties": [
-            "Door nieuwe bronnen, nieuwe onderzoekstechnieken en nieuwe vragen",
-            "Omdat het verleden zelf verandert",
-            "Omdat historici het snel vergeten"
+            "door nieuwe bronnen",
+            "door nieuwe onderzoekstechnieken zoals DNA-onderzoek",
+            "door nieuwe vragen te stellen",
+            "doordat het verleden zelf verandert"
           ],
-          "antwoord": 0,
-          "uitleg": "Koolstofdatering en DNA-onderzoek hebben in enkele decennia meer bijgesteld dan eeuwen discussie ervoor."
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Het verleden ligt vast; geschiedenis is het verhaal erover, en dat kan wél herschreven worden."
         },
         {
           "type": "meerkeuze",

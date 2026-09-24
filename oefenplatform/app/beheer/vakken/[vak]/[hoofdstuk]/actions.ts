@@ -10,7 +10,7 @@ type NieuweVraag = {
   type: "meerkeuze" | "invultekst" | "waarofniet";
   vraag: string;
   opties?: string[] | null;
-  antwoord: number | string | boolean;
+  antwoord: number | string | boolean | number[];
   uitleg?: string | null;
   /** Optioneel: een volledige externe URL naar een afbeelding (bv. na bulk-import). */
   afbeelding_url?: string | null;
@@ -43,8 +43,18 @@ export async function maakVraag(formData: FormData) {
   }
 
   const opties = type === "meerkeuze" ? optiesRaw.split("\n").map((r) => r.trim()).filter(Boolean) : null;
-  let antwoord: number | string | boolean;
-  if (type === "meerkeuze") antwoord = Number(antwoordRaw);
+  let antwoord: number | string | boolean | number[];
+  // Bij meerkeuze mag je meer dan één nummer invullen, gescheiden door een
+  // komma: "0, 2" betekent dat het eerste én het derde antwoord juist zijn en
+  // dat een kind ze allebei moet aanduiden. Zie lib/antwoord.ts.
+  if (type === "meerkeuze") {
+    const nummers = antwoordRaw
+      .split(",")
+      .map((deel) => Number(deel.trim()))
+      .filter((n) => Number.isInteger(n));
+    if (!nummers.length) throw new Error("Vul bij meerkeuze een nummer in, of meerdere met een komma ertussen.");
+    antwoord = nummers.length === 1 ? nummers[0] : nummers.sort((a, b) => a - b);
+  }
   else if (type === "waarofniet") antwoord = antwoordRaw.toLowerCase() === "waar" || antwoordRaw.toLowerCase() === "true";
   else antwoord = antwoordRaw;
 

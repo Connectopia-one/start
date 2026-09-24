@@ -28,7 +28,9 @@ export async function registreerAntwoord(
   kindId: string,
   vraagId: string,
   correct: boolean,
-  gegevenAntwoord: string | number | boolean | null
+  // Een lijstje nummers hoort bij een meerkeuzevraag met meer dan één juist
+  // antwoord; zie lib/antwoord.ts. De kolom is jsonb, dus dat past gewoon.
+  gegevenAntwoord: string | number | boolean | number[] | null
 ) {
   const admin = await kindEigenaarOfNull(kindId);
   if (!admin) return;

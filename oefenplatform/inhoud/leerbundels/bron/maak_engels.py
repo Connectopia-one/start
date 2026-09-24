@@ -15,7 +15,8 @@ BUNDELS["woorden-voor-elke-dag"] = dict(
         dict(kop="Tellen", blokken=[
             ("fig", tabel(["1–10", "11–20", "Tientallen"], [
                 ["one, two, three, four, five", "eleven, twelve, thirteen", "ten, twenty, thirty"],
-                ["six, seven, eight, nine, ten", "fourteen … nineteen, twenty", "forty, fifty, sixty"],
+                ["six, seven, eight, nine, ten", "fourteen, fifteen, sixteen", "forty, fifty, sixty"],
+                ["", "seventeen, eighteen, nineteen, twenty", "seventy, eighty, ninety"],
             ]), "Let op het paar dat het vaakst verward wordt: thirteen is 13, thirty is 30."),
             ("p", "Vanaf dertien eindigt bijna alles op <strong>-teen</strong>, en de tientallen op <strong>-ty</strong>. Hoor je het verschil niet, let dan op de klemtoon: thir<em>teen</em>, maar <em>thir</em>ty."),
         ]),
@@ -48,6 +49,7 @@ BUNDELS["woorden-voor-elke-dag"] = dict(
                 ["ear", "oor", "knee", "knie"],
                 ["mouth", "mond", "foot", "voet"],
                 ["shoulder", "schouder", "ankle", "enkel"],
+                ["elbow", "elleboog", "arm", "arm"],
             ]), "Foot wordt in het meervoud feet, niet foots."),
         ]),
         dict(kop="Seizoenen en weer", blokken=[
@@ -81,7 +83,9 @@ BUNDELS["mezelf-voorstellen"] = dict(
                 ["How old are you?", "hoe oud ben je", "I am … years old."],
                 ["Where are you from?", "waar kom je vandaan", "I am from Belgium."],
                 ["Where do you live?", "waar woon je", "I live in Hasselt."],
+                ["How are you?", "hoe gaat het", "I am fine, thanks. And you?"],
             ]), None),
+            ("p", "Op <strong>How are you?</strong> antwoordt bijna iedereen <em>I am fine, thanks</em> — ook als het die dag niet zo fijn gaat. Het is een begroeting, geen echte vraag naar je gevoel."),
             ("weetje", "In het Nederlands <em>heb</em> je elf jaar, in het Engels <strong>ben</strong> je elf. Zeg dus nooit <em>I have eleven years</em>, maar <strong>I am eleven</strong>."),
         ]),
         dict(kop="Beleefd blijven", blokken=[
@@ -108,7 +112,8 @@ BUNDELS["mezelf-voorstellen"] = dict(
                 ("een meisje|of vrouw", "her", svg.AMBER),
                 ("iets|of een dier", "its", "#3b6ea5"),
             ], 400), "This is my sister. Her name is Emma."),
-            ("p", "Praat je over jezelf, dan is het <strong>my</strong>: my name, my school, my dog."),
+            ("p", "Praat je over jezelf, dan is het <strong>my</strong>: my name, my school, my dog. Over een jongen: <em>This is my brother. <strong>His</strong> name is Tom.</em> Over een meisje: <em>This is my sister. <strong>Her</strong> name is Emma.</em>"),
+            ("p", "Wil je zeggen wat je het liefst hebt, gebruik dan <strong>favourite</strong>: <em>My favourite colour is blue</em>, <em>my favourite subject is maths</em>. In Amerika schrijven ze het zonder u: favorite."),
         ]),
     ],
     onthoud=[
@@ -129,6 +134,7 @@ BUNDELS["to-be-en-to-have"] = dict(
                 ("he|she|it", "is", svg.AMBER),
                 ("we|you|they", "are", "#3b6ea5"),
             ], 470), "Am hoort alleen bij I. Dat is de enige plek waar het staat."),
+            ("p", "Staat er een meervoud voor het werkwoord, dan is het altijd <strong>are</strong>: <em>the books are on the table</em>, <em>my parents are at work</em>. Eén ding of één persoon krijgt is."),
             ("p", "Een naam of een zelfstandig naamwoord vervang je in je hoofd door he, she, it of they. <em>My brother</em> is he, dus: my brother <strong>is</strong>. <em>My parents</em> zijn they, dus: my parents <strong>are</strong>."),
         ]),
         dict(kop="Korte vormen", blokken=[
@@ -137,7 +143,9 @@ BUNDELS["to-be-en-to-have"] = dict(
                 ["he is", "he's", "he isn't"],
                 ["we are", "we're", "we aren't"],
                 ["they are", "they're", "they aren't"],
-            ]), "De apostrof vervangt de letter die wegvalt."),
+                ["she has", "she's got", "she hasn't"],
+            ]), "De apostrof vervangt de letter die wegvalt: aren't is are not, hasn't is has not."),
+            ("p", "Je mag alles ook voluit schrijven: <em>they are not late</em> en <em>they aren't late</em> betekenen precies hetzelfde. Ook <em>she is not ready</em> en <em>she isn't ready</em> zijn hetzelfde. In een gesprek klinkt de korte vorm gewoner, in een brief schrijf je vaker voluit."),
             ("weetje", "Let op drie woorden die hetzelfde klinken: <strong>they're</strong> (zij zijn), <strong>their</strong> (hun) en <strong>there</strong> (daar). En <strong>it's</strong> is it is, terwijl <strong>its</strong> zonder apostrof zijn of haar betekent."),
         ]),
         dict(kop="Vragen en ontkennen met to be", blokken=[
@@ -237,6 +245,20 @@ BUNDELS["zinnen-bouwen"] = dict(
                 ["onregelmatig", "foot → feet, tooth → teeth, mouse → mice"],
             ]), "Die laatste twee rijen moet je gewoon vanbuiten leren; er zit geen regel achter."),
         ]),
+        dict(kop="There is en there are", blokken=[
+            ("p", "Wil je zeggen dat iets ergens is of ligt, dan begin je met <strong>there is</strong> of <strong>there are</strong>. Bij ons is dat <em>er is</em> of <em>er ligt</em>."),
+            ("kader", "<p style='margin:0 0 4px'><strong>There is a book on the table.</strong> — één boek, dus is.</p>"
+                      "<p style='margin:0'><strong>There are two cats in the garden.</strong> — meer dan één, dus are.</p>"),
+            ("p", "Het woordje <em>there</em> betekent hier niet daar; het hoort gewoon bij de uitdrukking. Verwar het niet met <strong>their</strong> (hun) of <strong>they're</strong> (zij zijn)."),
+        ]),
+        dict(kop="Some en any", blokken=[
+            ("p", "<strong>Some</strong> gebruik je in een gewone zin, <strong>any</strong> in een vraag of een ontkenning."),
+            ("fig", tabel(["Zin", "Betekenis"], [
+                ["I have some money.", "Ik heb wat geld."],
+                ["Do you have any money?", "Heb je geld?"],
+                ["I don't have any money.", "Ik heb helemaal geen geld."],
+            ]), "Don't have any is sterker dan don't have: het betekent helemaal niets."),
+        ]),
         dict(kop="a, an en the", blokken=[
             ("p", "Gebruik <strong>a</strong> voor een medeklinkerklank en <strong>an</strong> voor een klinkerklank: a book, a school, maar <strong>an</strong> apple, <strong>an</strong> hour."),
             ("weetje", "Het gaat om de <em>klank</em>, niet om de letter. Hour begint met een h die je niet hoort, dus an hour. En university begint met een joe-klank, dus a university."),
@@ -269,6 +291,8 @@ BUNDELS["zinnen-bouwen"] = dict(
         "a of an hangt af van de klank, niet van de letter.",
         "'s toont van wie iets is: Sarah's bike.",
         "Bijvoeglijke naamwoorden krijgen nooit een -s.",
+        "There is bij één ding, there are bij meer dan één.",
+        "some in een gewone zin, any in een vraag of ontkenning.",
     ])
 
 BUNDELS["op-school-en-onderweg"] = dict(
@@ -322,6 +346,10 @@ BUNDELS["op-school-en-onderweg"] = dict(
                 ("Shop", "It's four pounds fifty.", False),
                 ("You", "Here you are. Thank you.", True),
             ], 470), "How much is it? gaat over de prijs, niet over de hoeveelheid."),
+        ]),
+        dict(kop="Onderweg: het weer", blokken=[
+            ("p", "Over het weer begin je in het Engels bijna altijd met <strong>it's</strong>: <em>it's raining</em> (het regent), <em>it's snowing</em> (het sneeuwt), <em>it's cold</em> (het is koud), <em>it's sunny</em> (de zon schijnt), <em>it's windy</em> (het waait)."),
+            ("p", "Het werkwoord <strong>to rain</strong> is regenen en <strong>to snow</strong> is sneeuwen. Praat je over het weer van vandaag, dan gebruik je die -ing-vorm: not <em>it rains</em> maar <strong>it's raining</strong>."),
         ]),
         dict(kop="Vandaag, morgen, gisteren", blokken=[
             ("fig", svg.woordvolgorde([

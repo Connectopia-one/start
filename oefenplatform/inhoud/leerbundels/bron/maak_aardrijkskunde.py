@@ -33,8 +33,12 @@ BUNDELS["belgie-landschap-en-streken"] = dict(
              "De tien provincies, met achter elke naam de hoofdplaats van die provincie."),
             ("p", "Brussel is een apart geval. Het is de hoofdstad van België en ligt middenin "
                   "Vlaanderen, maar het hoort bij geen van beide andere gewesten en heeft geen "
-                  "provincie. Het bestaat uit negentien gemeenten, en er wordt zowel Nederlands "
-                  "als Frans gesproken."),
+                  "provincie. Het bestaat uit negentien gemeenten en is officieel "
+                  "<strong>tweetalig</strong>: Nederlands en Frans. Daarom staan de straatnaamborden "
+                  "er in de twee talen."),
+            ("p", "België heeft <strong>drie landstalen</strong>: Nederlands in Vlaanderen, Frans in "
+                  "Wallonië en Duits in de Oostkantons, een klein gebied in het oosten van de "
+                  "provincie Luik. Brussel is het enige gebied waar er officieel twee talen gelden."),
             ("fig", kaart("fotos/belgie-provincies-kaart.png",
                           "fotos/belgie-provincies-legende.png", BRON_MAPCHART),
              "Zoek jouw provincie eens op. Zie je Brussel liggen, het kleine paarse vlekje "
@@ -139,6 +143,9 @@ BUNDELS["belgie-landschap-en-streken"] = dict(
             ("p", "Bijna alles wat je koopt is ooit in een <strong>container</strong> vervoerd. Die "
                   "stalen kisten hebben allemaal hetzelfde formaat, en juist daardoor werkt het: elke "
                   "kraan, elk schip en elke vrachtwagen past erop."),
+            ("p", "Antwerpen is niet de enige zeehaven. Aan de kust ligt <strong>Zeebrugge</strong>, "
+                  "waar vooral auto's, gas en ferry's naar Engeland passeren, en verder zijn er nog "
+                  "Gent en Oostende. Samen heten ze de Vlaamse havens."),
             ("weetje", "Een groot containerschip kan meer dan twintigduizend containers vervoeren. Achter "
                        "elkaar gezet zou die lading een file van meer dan honderd kilometer vormen."),
         ]),
@@ -152,6 +159,8 @@ BUNDELS["belgie-landschap-en-streken"] = dict(
         "De Schelde en de Maas ontspringen allebei in Frankrijk en eindigen in de Noordzee.",
         "Weer is vandaag, klimaat is het gemiddelde over heel veel jaren.",
         "België heeft een zeeklimaat: zachte winters, koele zomers, het hele jaar neerslag.",
+        "Drie landstalen: Nederlands, Frans en Duits. Brussel is tweetalig.",
+        "Zeehavens: Antwerpen aan de Schelde, en Zeebrugge, Gent en Oostende.",
     ])
 
 
@@ -173,6 +182,42 @@ BUNDELS["europa-en-de-wereld"] = dict(
                   "liggen nog de Noordelijke IJszee en de Zuidelijke Oceaan."),
             ("weetje", "Water bedekt ongeveer zeventig procent van de aarde. Van boven gezien is onze "
                        "planeet dus vooral blauw, en dat is ook waarom ze soms de blauwe planeet heet."),
+        ]),
+        dict(kop="Landen, hoofdsteden en zeeën", blokken=[
+            ("p", "Een paar landen en hoofdsteden komen altijd terug. Deze ken je het best gewoon uit het hoofd."),
+            ("fig", tabel(["Land", "Hoofdstad", "Land", "Hoofdstad"], [
+                ["Frankrijk", "Parijs", "Spanje", "Madrid"],
+                ["Duitsland", "Berlijn", "Portugal", "Lissabon"],
+                ["Italië", "Rome", "Verenigd Koninkrijk", "Londen"],
+                ["Nederland", "Amsterdam", "Polen", "Warschau"],
+                ["Luxemburg", "Luxemburg", "Griekenland", "Athene"],
+            ]), "Nederland is onze noorderbuur, Frankrijk ligt in het zuiden en Duitsland in het oosten."),
+            ("p", "Rond Europa liggen de <strong>Atlantische Oceaan</strong> (tussen Europa en Amerika), "
+                  "de <strong>Noordzee</strong> voor onze kust en de <strong>Middellandse Zee</strong> "
+                  "tussen Europa en Afrika. Aan die laatste liggen landen als Spanje, Italië, "
+                  "Griekenland en, aan de overkant, Marokko."),
+            ("p", "Bergketens vormen vaak een grens. De <strong>Pyreneeën</strong> liggen tussen "
+                  "Frankrijk en Spanje, de <strong>Alpen</strong> tussen Frankrijk, Zwitserland, "
+                  "Italië en Oostenrijk."),
+        ]),
+        dict(kop="Records op de wereldkaart", blokken=[
+            ("fig", tabel(["Het grootste, hoogste of langste", "Waar"], [
+                ["grootste werelddeel", "Azië, in oppervlakte én in inwoners"],
+                ["grootste land", "Rusland, dat in twee werelddelen ligt: Europa en Azië"],
+                ["hoogste berg ter wereld", "de Mount Everest in de Himalaya, bijna 8 850 m"],
+                ["langste rivier van Europa", "de Wolga in Rusland, ongeveer 3 500 km"],
+                ["grootste warme woestijn", "de Sahara, in het noorden van Afrika"],
+                ["grootste land van Zuid-Amerika", "Brazilië"],
+            ]), "Australië is bijzonder: het is tegelijk een land én het grootste land van het werelddeel Oceanië."),
+            ("p", "De evenaar loopt dwars door <strong>Afrika</strong>, onder meer door Kenia, Oeganda "
+                  "en Congo, en verder door Zuid-Amerika en Indonesië."),
+        ]),
+        dict(kop="Tijdzones", blokken=[
+            ("p", "De aarde draait in vierentwintig uur één keer rond. Daarom is de wereld verdeeld in "
+                  "ongeveer <strong>vierentwintig tijdzones</strong>, elk ongeveer één uur breed. Reis je "
+                  "naar het oosten, dan zet je je horloge vooruit; naar het westen, achteruit."),
+            ("p", "Daardoor kan het bij ons middag zijn terwijl het in New York ochtend is en in Tokio "
+                  "al avond. Wie belt naar iemand ver weg, denkt daar het best even aan."),
         ]),
         dict(kop="De aardbol: evenaar, keerkringen en polen", blokken=[
             ("p", "Om plaatsen op aarde te kunnen aanduiden, zijn er denkbeeldige lijnen getrokken. De "
@@ -300,6 +345,10 @@ BUNDELS["europa-en-de-wereld"] = dict(
         "In een woestijn valt bijna geen regen; bij een oase komt grondwater naar boven.",
         "Magma zit binnenin de aarde, lava ligt buiten.",
         "De Europese Unie telt 27 lidstaten; in veel daarvan betaal je met de euro.",
+        "Parijs, Berlijn, Rome, Madrid: Frankrijk, Duitsland, Italië, Spanje.",
+        "De Middellandse Zee ligt tussen Europa en Afrika, de Atlantische Oceaan tussen Europa en Amerika.",
+        "Rusland is het grootste land, de Mount Everest de hoogste berg, de Wolga de langste rivier van Europa.",
+        "De aarde telt ongeveer 24 tijdzones, één per uur.",
     ])
 
 

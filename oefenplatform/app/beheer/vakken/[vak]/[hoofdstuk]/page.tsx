@@ -34,6 +34,13 @@ const VOORBEELD_JSON = `[
   },
   {
     "type": "meerkeuze",
+    "vraag": "Welke van deze steden liggen in Italie?",
+    "opties": ["Rome", "Madrid", "Milaan", "Lyon"],
+    "antwoord": [0, 2],
+    "uitleg": "Rome en Milaan. Er waren er dus twee juist."
+  },
+  {
+    "type": "meerkeuze",
     "vraag": "Welke hoek zie je in de afbeelding?",
     "opties": ["Scherpe hoek", "Rechte hoek", "Stompe hoek"],
     "antwoord": 1,

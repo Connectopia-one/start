@@ -8,6 +8,8 @@ categorie voor het 5de en 6de leerjaar.
 |---|---|---|---|
 | `wiskunde.json` | Wiskunde | 6 | 120 |
 | `wiskunde-extra.json` | Wiskunde, tweede reeks | 6 | 120 |
+| `wiskunde-meetkunde.json` | Wiskunde, enkel het hoofdstuk Meetkunde | 1 | 40 |
+| `wiskunde-rekenen-en-breuken.json` | Wiskunde, het gratis proefhoofdstuk | 1 | 37 |
 | `nederlands.json` | Nederlands | 5 | 100 |
 | `nederlands-spelling.json` | Nederlands, het gratis proefhoofdstuk | 1 | 47 |
 | `wetenschap-en-techniek.json` | Wetenschap en techniek | 7 | 280 |
@@ -16,7 +18,23 @@ categorie voor het 5de en 6de leerjaar.
 | `engels.json` | Engels | 6 | 120 |
 
 Elk hoofdstuk heeft 20 vragen, behalve geschiedenis en wetenschap en techniek:
-daar zijn het er 40 per hoofdstuk. Samen 967 vragen.
+daar zijn het er 40 per hoofdstuk.
+
+Twee bestanden zijn later apart gemaakt en horen niet bij die telling:
+
+- `wiskunde-meetkunde.json` — op 23 september 2026 bleek dat het hoofdstuk
+  Meetkunde niet in de databank van het platform stond, terwijl de vijf andere
+  er wel waren. Dit bestand zet enkel dat ene hoofdstuk bij, met zijn 40 vragen
+  (de 20 uit `wiskunde.json` plus de 20 uit `wiskunde-extra.json`), zodat de
+  andere vijf onaangeroerd blijven. Wie met een lege databank begint, heeft het
+  niet nodig.
+- `wiskunde-rekenen-en-breuken.json` — het gratis proefhoofdstuk van wiskunde
+  stond met drie voorbeeldvragen in `supabase/schema.sql`. Dit bestand voegt er
+  37 aan toe, samen 40, en hoort bij de leerbundel
+  `../leerbundels/wiskunde/rekenen-en-breuken.pdf`. Importeer het **zonder**
+  "Bestaande vragen vervangen", anders verdwijnen die drie. De vragen staan in
+  `bron/rekenen_en_breuken.py`; `python3 bron/bouw_rekenen_en_breuken.py` rekent
+  elk antwoord na en schrijft de JSON.
 
 **Spelling is het gratis proefhoofdstuk.** Dat hoofdstuk staat er al bij het
 opzetten van de databank (zie `supabase/schema.sql`) met drie voorbeeldvragen, en
