@@ -1,6 +1,10 @@
+"use client";
+
+import type { FormEvent } from "react";
 import { briefjeOphangen } from "@/app/prikbord/acties";
 import { verzenden } from "@/content/formulier";
 import { prikbord } from "@/content/prikbord";
+import { mailtoUitFormulier } from "@/lib/mailversturen";
 
 /*
   Het formulier waarmee iemand een briefje op het prikbord hangt.
@@ -31,15 +35,26 @@ export function Briefjeformulier({
   viaDatabank: boolean;
 }) {
   const perMail = !verzenden.webadres;
-  const mailActie = perMail
-    ? `mailto:${verzenden.mailnaar}?subject=${encodeURIComponent(`Prikbord: ${bordNaam}`)}`
-    : verzenden.webadres!;
+  /* Gaat het briefje niet naar de databank maar per mail, dan bouwen we die
+     mail zelf op; zie lib/mailversturen.ts voor waarom. */
+  const zelfMailen = !viaDatabank && perMail;
+
+  function openMailprogramma(gebeurtenis: FormEvent<HTMLFormElement>) {
+    gebeurtenis.preventDefault();
+    window.location.href = mailtoUitFormulier(
+      gebeurtenis.currentTarget,
+      verzenden.mailnaar,
+      `Prikbord: ${bordNaam}`
+    );
+  }
 
   return (
     <form
-      action={viaDatabank ? briefjeOphangen : mailActie}
-      method="post"
-      encType={!viaDatabank && perMail ? "text/plain" : undefined}
+      action={
+        viaDatabank ? briefjeOphangen : zelfMailen ? undefined : verzenden.webadres!
+      }
+      method={viaDatabank || zelfMailen ? undefined : "post"}
+      onSubmit={zelfMailen ? openMailprogramma : undefined}
       className="grid gap-4"
     >
       <input type="hidden" name="bord" value={viaDatabank ? bord : bordNaam} />
