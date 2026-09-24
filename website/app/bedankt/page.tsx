@@ -63,7 +63,7 @@ export default async function BedanktPage({
         </h1>
         <p className="mt-4 text-[17px] text-ink">
           We lezen het zo snel mogelijk en nemen contact met je op. Je hoeft
-          zelf niets meer te doen en er komt geen mailprogramma aan te pas.
+          zelf niets meer te doen.
         </p>
         <p className="mt-3 text-[17px] text-ink">
           Dringend? Bel ons gerust op{" "}
