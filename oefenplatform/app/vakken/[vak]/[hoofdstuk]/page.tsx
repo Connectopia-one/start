@@ -104,8 +104,13 @@ export default async function HoofdstukPage({
     <>
       <Header naam={session?.profile?.full_name} rol={session?.profile?.role} />
       <main className="mx-auto w-full max-w-2xl flex-1 px-6 py-10">
-        <Link href={niveau ? `/niveaus/${niveau.slug}` : "/"} className="text-sm text-ink-dim hover:text-ink">
-          &larr; {niveau ? `${niveau.emoji} ${niveau.naam}` : "Categorieën"}
+        {/* Terug naar de hoofdstukken van dit vak, niet naar het hele niveau:
+            daar kwam het kind net vandaan. */}
+        <Link
+          href={niveau ? `/niveaus/${niveau.slug}/${vak.slug}` : "/"}
+          className="text-sm text-ink-dim hover:text-ink"
+        >
+          &larr; {niveau ? `${vak.naam} in ${niveau.emoji} ${niveau.naam}` : "Categorieën"}
         </Link>
         <h1 className="mt-2 font-display text-2xl font-semibold text-ink">
           {vak.naam} — {hoofdstuk.titel}

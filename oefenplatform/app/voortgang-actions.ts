@@ -51,3 +51,62 @@ export async function registreerSticker(kindId: string, hoofdstukId: string) {
     .from("stickers")
     .upsert({ kind_id: kindId, hoofdstuk_id: hoofdstukId }, { onConflict: "kind_id,hoofdstuk_id", ignoreDuplicates: true });
 }
+
+/** Wat een kind met één hoofdstuk al gedaan heeft. */
+export type HoofdstukStatus = {
+  hoofdstukId: string;
+  /** Het kind beantwoordde hier al minstens één vraag. */
+  gemaakt: boolean;
+  /** Het hoofdstuk werd ooit volledig juist afgewerkt (er hangt een sticker aan). */
+  perfect: boolean;
+  /** Wanneer het kind hier voor het laatst aan werkte. */
+  laatst: string | null;
+};
+
+/**
+ * Haalt voor één kind op welke van deze hoofdstukken het al gemaakt heeft.
+ *
+ * Wordt vanuit de lijsten aangeroepen, niet vanuit een formulier: de keuze van
+ * het actieve kind staat in de browser (zie lib/actiefkind.ts), dus de server
+ * kan ze niet zelf weten. Een kind mag een hoofdstuk zo vaak opnieuw maken als
+ * het wil — we tonen alleen dát het gemaakt is, niet hoeveel keer, zodat
+ * herkansen nooit als iets slechts voelt.
+ */
+export async function haalHoofdstukStatus(
+  kindId: string,
+  hoofdstukIds: string[]
+): Promise<HoofdstukStatus[]> {
+  const admin = await kindEigenaarOfNull(kindId);
+  if (!admin || !hoofdstukIds.length) return [];
+  // Eén niveau telt hooguit enkele tientallen hoofdstukken; een langere lijst
+  // is nooit een echte pagina en zou alleen het webadres opblazen.
+  const ids = hoofdstukIds.slice(0, 200);
+
+  const [{ data: stickers }, { data: rijen }] = await Promise.all([
+    admin.from("stickers").select("hoofdstuk_id").eq("kind_id", kindId).in("hoofdstuk_id", ids),
+    admin
+      .from("voortgang")
+      .select("beantwoord_op, vragen!inner(hoofdstuk_id)")
+      .eq("kind_id", kindId)
+      .in("vragen.hoofdstuk_id", ids),
+  ]);
+
+  const perfect = new Set((stickers ?? []).map((s) => s.hoofdstuk_id as string));
+  const laatste = new Map<string, string>();
+  for (const rij of (rijen ?? []) as unknown as {
+    beantwoord_op: string;
+    vragen: { hoofdstuk_id: string } | null;
+  }[]) {
+    const id = rij.vragen?.hoofdstuk_id;
+    if (!id) continue;
+    const huidige = laatste.get(id);
+    if (!huidige || rij.beantwoord_op > huidige) laatste.set(id, rij.beantwoord_op);
+  }
+
+  return ids.map((id) => ({
+    hoofdstukId: id,
+    gemaakt: laatste.has(id) || perfect.has(id),
+    perfect: perfect.has(id),
+    laatst: laatste.get(id) ?? null,
+  }));
+}

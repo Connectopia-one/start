@@ -5,8 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import { registreerAntwoord, registreerSticker } from "@/app/voortgang-actions";
 import { KleurVraag, SleepVraag, VraagTekst, leesVraag } from "@/components/Figuren";
 import { gegevenKeuzes, juisteKeuzes, schrijfKeuzes, zelfdeKeuzes } from "@/lib/antwoord";
-
-const ACTIEF_KIND_KEY = "oefenplatform_actief_kind";
+import { bewaarActiefKind, leesActiefKind } from "@/lib/actiefkind";
 
 type Kind = { id: string; naam: string };
 
@@ -295,12 +294,7 @@ export function Quiz({
 
   useEffect(() => {
     if (!kinderen.length) return;
-    let opgeslagen: string | null = null;
-    try {
-      opgeslagen = localStorage.getItem(ACTIEF_KIND_KEY);
-    } catch {
-      // privénavigatie of geblokkeerde opslag: gewoon zonder onthouden verdergaan
-    }
+    const opgeslagen = leesActiefKind();
     const geldig = opgeslagen && kinderen.some((k) => k.id === opgeslagen);
     // Synchroniseert met localStorage (een externe bron) na mount — bewust hier,
     // niet in de lazy state-initializer, om een server/client-mismatch te vermijden.
@@ -310,11 +304,7 @@ export function Quiz({
 
   const kiesKind = (id: string) => {
     setActiefKindId(id);
-    try {
-      localStorage.setItem(ACTIEF_KIND_KEY, id);
-    } catch {
-      // ignore
-    }
+    bewaarActiefKind(id);
   };
 
   // Staat er in dit hoofdstuk één vraag met meer dan één juist antwoord, dan
