@@ -9,9 +9,11 @@ import {
   verwijderLeerstof,
   verwijderLeerbundelBlok,
   verplaatsLeerbundelBlok,
+  bewaarLeestekst,
 } from "./actions";
 import { NieuwLeerstofForm } from "./NieuwLeerstofForm";
 import { NieuwLeerbundelForm } from "./NieuwLeerbundelForm";
+import { schrijfWoordenlijst, type Woord } from "@/lib/woordenlijst";
 import { NieuwVraagForm } from "./NieuwVraagForm";
 
 const VOORBEELD_JSON = `[
@@ -66,7 +68,7 @@ export default async function BeheerVragenPage({
 
   const { data: hoofdstuk } = await supabase
     .from("hoofdstukken")
-    .select("id, titel, volgnummer")
+    .select("id, titel, volgnummer, leestekst, woordenlijst")
     .eq("vak_id", vak.id)
     .eq("volgnummer", volgnummer)
     .single();
@@ -196,6 +198,51 @@ export default async function BeheerVragenPage({
               className="rounded-md bg-forest px-4 py-2 text-sm font-medium text-white hover:bg-forest-dark"
             >
               Importeren
+            </button>
+          </form>
+        </section>
+
+        {/* Begrijpend lezen: de tekst hoort bij het hoofdstuk, niet bij één
+            vraag, en blijft bij het oefenen boven de vragen staan. */}
+        <section className="mt-8 rounded-xl border border-border bg-surface p-5">
+          <h2 className="font-display text-base font-semibold text-ink">
+            Leestekst (begrijpend lezen)
+          </h2>
+          <p className="mt-2 text-sm text-ink-dim">
+            Staat hier een tekst, dan leest het kind die boven de vragen, en blijft
+            ze staan zolang het oefent. Een lege regel begint een nieuwe alinea.
+            Zet een moeilijk woord tussen sterretjes, zoals{" "}
+            <code className="rounded bg-paper px-1 py-0.5 text-xs">*echolocatie*</code>:
+            het krijgt dan een stippellijntje en toont de uitleg uit de woordenlijst.
+            Laat het vak leeg om de tekst weer weg te halen.
+          </p>
+          <form action={bewaarLeestekst} className="mt-4 space-y-3">
+            <input type="hidden" name="hoofdstuk_id" value={hoofdstuk.id} />
+            <input type="hidden" name="vak_slug" value={vakSlug} />
+            <input type="hidden" name="volgnummer" value={volgnummerStr} />
+            <textarea
+              name="leestekst"
+              rows={10}
+              defaultValue={hoofdstuk.leestekst ?? ""}
+              placeholder="De tekst die het kind leest."
+              className="w-full rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest"
+            />
+            <label className="block text-sm text-ink">
+              Woordenlijst, één per regel als{" "}
+              <span className="font-mono text-xs">woord = uitleg</span>
+              <textarea
+                name="woordenlijst"
+                rows={5}
+                defaultValue={schrijfWoordenlijst(hoofdstuk.woordenlijst as Woord[] | null)}
+                placeholder="echolocatie = je weg vinden door te luisteren naar de echo van je eigen geluid"
+                className="mt-1 w-full rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest"
+              />
+            </label>
+            <button
+              type="submit"
+              className="rounded-md bg-forest px-4 py-2 text-sm font-medium text-white hover:bg-forest-dark"
+            >
+              Leestekst bewaren
             </button>
           </form>
         </section>

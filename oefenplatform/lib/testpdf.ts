@@ -48,6 +48,10 @@ export type PdfGegevens = {
   vragen: PdfVraag[];
   /* Alle pogingen van dit kind op dit hoofdstuk, nieuwste eerst. */
   pogingen: PdfPoging[];
+  /* Bij begrijpend lezen: de tekst waar de vragen over gaan, met de
+     woordenlijst. Zonder die tekst is zo'n test op papier niet te volgen. */
+  leestekst?: string | null;
+  woordenlijst?: { woord: string; uitleg: string }[] | null;
 };
 
 /*
@@ -224,6 +228,29 @@ export async function maakTestPdf(g: PdfGegevens): Promise<Uint8Array> {
     { grootte: 9, kleur: GRIJS },
   );
   y -= 10;
+
+  /* Bij begrijpend lezen eerst de tekst zelf, anders slaan de vragen nergens
+     op. De sterretjes rond moeilijke woorden zijn schermopmaak; op papier
+     staat de uitleg gewoon in de woordenlijst eronder. */
+  if (g.leestekst) {
+    schrijf("De tekst", { grootte: 12, vetjes: true, kleur: GROEN });
+    y -= 2;
+    for (const alinea of g.leestekst.split(/\n\s*\n/)) {
+      const stuk = alinea.trim().replace(/\*([^*\n]+)\*/g, "$1");
+      if (!stuk) continue;
+      schrijf(stuk, { grootte: 10 });
+      y -= 4;
+    }
+    const lijst = g.woordenlijst ?? [];
+    if (lijst.length) {
+      y -= 2;
+      schrijf("Moeilijke woorden", { grootte: 11, vetjes: true });
+      for (const w of lijst) {
+        schrijf(`${w.woord} — ${w.uitleg}`, { grootte: 9, kleur: GRIJS, inspringen: 10 });
+      }
+    }
+    y -= 12;
+  }
 
   g.vragen.forEach((vraag, i) => {
     const poging = laatste.get(vraag.id);

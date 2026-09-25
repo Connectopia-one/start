@@ -51,9 +51,15 @@ export async function GET(
 
   const { data: hoofdstuk } = await supabase
     .from("hoofdstukken")
-    .select("id, titel, vakken(naam)")
+    .select("id, titel, leestekst, woordenlijst, vakken(naam)")
     .eq("id", hoofdstukId)
-    .single<{ id: string; titel: string; vakken: { naam: string } }>();
+    .single<{
+      id: string;
+      titel: string;
+      leestekst: string | null;
+      woordenlijst: { woord: string; uitleg: string }[] | null;
+      vakken: { naam: string };
+    }>();
   if (!hoofdstuk) return new NextResponse("Niet gevonden.", { status: 404 });
 
   const { data: vragen } = await supabase
@@ -79,6 +85,8 @@ export async function GET(
     hoofdstuk: hoofdstuk.titel,
     vragen: (vragen ?? []) as unknown as PdfVraag[],
     pogingen: (pogingen ?? []) as unknown as PdfPoging[],
+    leestekst: hoofdstuk.leestekst,
+    woordenlijst: hoofdstuk.woordenlijst,
   });
 
   const naam = `${veiligeBestandsnaam(kind.naam)}-${veiligeBestandsnaam(hoofdstuk.titel)}.pdf`;

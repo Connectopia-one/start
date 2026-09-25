@@ -5,6 +5,7 @@ import { redirect } from "next/navigation";
 import { requireBeheerder } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { volgendVolgnummer, vrijeVolgnummers } from "@/lib/volgnummer";
+import { leesWoordenlijst } from "@/lib/woordenlijst";
 
 type NieuweVraag = {
   type: "meerkeuze" | "invultekst" | "waarofniet";
@@ -349,4 +350,35 @@ export async function verplaatsLeerbundelBlok(formData: FormData) {
 
   revalidatePath(terug);
   redirect(terug);
+}
+
+/* ------------------------------------------------------------------ leestekst
+   Begrijpend lezen: een tekst die boven de vragen blijft staan, met een
+   verklarende woordenlijst. De woordenlijst wordt hier ingetypt als één woord
+   per regel, "woord = uitleg", want dat leest een mens vlotter dan JSON. */
+
+export async function bewaarLeestekst(formData: FormData) {
+  await requireBeheerder();
+  const id = String(formData.get("hoofdstuk_id") || "");
+  const vakSlug = String(formData.get("vak_slug") || "");
+  const volgnummer = String(formData.get("volgnummer") || "");
+  const tekst = String(formData.get("leestekst") || "").trim();
+  const lijst = leesWoordenlijst(String(formData.get("woordenlijst") || ""));
+
+  const admin = createAdminClient();
+  const { error } = await admin
+    .from("hoofdstukken")
+    .update({
+      leestekst: tekst || null,
+      woordenlijst: lijst.length ? lijst : null,
+    })
+    .eq("id", id);
+  if (error) {
+    redirect(
+      `${terugPad(vakSlug, volgnummer)}?fout=` +
+        encodeURIComponent(`De leestekst bewaren lukte niet: ${error.message}`)
+    );
+  }
+  revalidatePath(terugPad(vakSlug, volgnummer));
+  redirect(terugPad(vakSlug, volgnummer));
 }

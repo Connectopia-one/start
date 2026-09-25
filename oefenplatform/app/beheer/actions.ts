@@ -237,6 +237,31 @@ type BulkVraag = {
   uitleg?: string | null;
 };
 
+/**
+ * De twee velden voor begrijpend lezen uit een importbestand, alleen als ze
+ * er echt in staan. Zo laat een bestand zonder leestekst een bestaande tekst
+ * met rust, en wist `"leestekst": ""` hem wel.
+ */
+function leesVelden(hfst: BulkHoofdstuk) {
+  const velden: { leestekst?: string | null; woordenlijst?: unknown } = {};
+  if (hfst.leestekst !== undefined) {
+    const tekst = String(hfst.leestekst ?? "").trim();
+    velden.leestekst = tekst || null;
+  }
+  if (hfst.woordenlijst !== undefined) {
+    const lijst = Array.isArray(hfst.woordenlijst)
+      ? hfst.woordenlijst
+          .map((w) => ({
+            woord: String(w?.woord ?? "").trim(),
+            uitleg: String(w?.uitleg ?? "").trim(),
+          }))
+          .filter((w) => w.woord && w.uitleg)
+      : [];
+    velden.woordenlijst = lijst.length ? lijst : null;
+  }
+  return velden;
+}
+
 type BulkHoofdstuk = {
   titel: string;
   /**
@@ -248,6 +273,13 @@ type BulkHoofdstuk = {
    */
   hernoemVan?: string;
   niveau?: string;
+  /**
+   * Begrijpend lezen: de tekst die boven de vragen blijft staan. Een lege
+   * regel begint een nieuwe alinea, een woord tussen sterretjes krijgt de
+   * uitleg uit de woordenlijst.
+   */
+  leestekst?: string | null;
+  woordenlijst?: { woord: string; uitleg: string }[] | null;
   gratis?: boolean;
   vragen: BulkVraag[];
 };
@@ -357,7 +389,13 @@ export async function bulkImportVakInhoud(formData: FormData) {
     if (!hoofdstukId) {
       const eersteVanNiveau = !niveausMetHoofdstuk.has(niveau);
       niveausMetHoofdstuk.add(niveau);
-      const rij = { vak_id: vakId, titel, gratis: !!hfst.gratis || eersteVanNiveau, niveau };
+      const rij = {
+        vak_id: vakId,
+        titel,
+        gratis: !!hfst.gratis || eersteVanNiveau,
+        niveau,
+        ...leesVelden(hfst),
+      };
       let { data: nieuw, error: hoofdstukFout } = await admin
         .from("hoofdstukken")
         .insert({ ...rij, volgnummer: neemVolgnummer() })
@@ -401,6 +439,25 @@ export async function bulkImportVakInhoud(formData: FormData) {
         redirect(
           "/beheer/vakken?fout=" +
             encodeURIComponent(`"${titel}" op gratis zetten mislukt: ${gratisFout.message}`)
+        );
+      }
+    }
+
+    // Draagt het bestand een leestekst mee, zet die dan ook op een hoofdstuk
+    // dat er al stond. Zo kan een tekst bijgewerkt worden met een nieuwe
+    // import, zonder het hoofdstuk weg te gooien.
+    const lees = leesVelden(hfst);
+    if (bestondAl && Object.keys(lees).length > 0) {
+      const { error: leesFout } = await admin
+        .from("hoofdstukken")
+        .update(lees)
+        .eq("id", hoofdstukId);
+      if (leesFout) {
+        redirect(
+          "/beheer/vakken?fout=" +
+            encodeURIComponent(
+              `De leestekst van "${titel}" bewaren mislukt: ${leesFout.message}`
+            )
         );
       }
     }

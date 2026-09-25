@@ -12,6 +12,7 @@ import { schikOpties } from "@/lib/optievolgorde";
 import { HoofdstukTabs } from "@/components/HoofdstukTabs";
 import { GeoGebraCalculator } from "@/components/GeoGebraCalculator";
 import { Leerbundel, type LeerbundelBlok } from "@/components/Leerbundel";
+import { Leestekst, type Woord } from "@/components/Leestekst";
 
 export default async function HoofdstukPage({
   params,
@@ -33,7 +34,7 @@ export default async function HoofdstukPage({
 
   const { data: hoofdstuk } = await supabase
     .from("hoofdstukken")
-    .select("id, titel, volgnummer, gratis, niveau")
+    .select("id, titel, volgnummer, gratis, niveau, leestekst, woordenlijst")
     .eq("vak_id", vak.id)
     .eq("volgnummer", volgnummer)
     .single();
@@ -134,7 +135,20 @@ export default async function HoofdstukPage({
         ) : (
           <HoofdstukTabs
             aantalLeerstof={leerstof.length + (bundel.length ? 1 : 0)}
-            oefeningen={<Quiz vragen={vragen} kinderen={kinderen ?? []} hoofdstukId={hoofdstuk.id} />}
+            oefeningen={
+              <>
+                {/* Begrijpend lezen: de tekst blijft boven de vragen staan. */}
+                {hoofdstuk.leestekst && (
+                  <div className="mb-6">
+                    <Leestekst
+                      tekst={hoofdstuk.leestekst}
+                      woorden={(hoofdstuk.woordenlijst as Woord[] | null) ?? []}
+                    />
+                  </div>
+                )}
+                <Quiz vragen={vragen} kinderen={kinderen ?? []} hoofdstukId={hoofdstuk.id} />
+              </>
+            }
             rekenmachine={vak.rekenmachine ? <GeoGebraCalculator /> : null}
             leerstof={
               <>

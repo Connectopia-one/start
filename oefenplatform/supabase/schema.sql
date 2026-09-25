@@ -60,6 +60,10 @@ create table if not exists public.hoofdstukken (
   volgnummer int not null default 0,
   gratis boolean not null default false,
   niveau text not null default 'start' check (niveau in ('basis', 'start', 'spark', 'boost', 'beyond')),
+  -- Begrijpend lezen: een tekst die boven de vragen blijft staan, met een
+  -- verklarende woordenlijst [{"woord": ..., "uitleg": ...}]. Zie leestekst.sql.
+  leestekst text,
+  woordenlijst jsonb,
   created_at timestamptz not null default now(),
   unique (vak_id, volgnummer)
 );
