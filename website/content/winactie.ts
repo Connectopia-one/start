@@ -63,38 +63,6 @@ export const winactie = {
   /* Tot wanneer je kan inschrijven en hoe de gezinnen gekozen worden. */
   plaatsenTekst: `Inschrijven kan tot en met zaterdag 26 september. Daarna loten we de ${plaatsen} testgezinnen uit alle inschrijvingen, en iedereen hoort per mail of ze erbij zijn. De testgezinnen krijgen meteen ook te horen hoe ze toegang krijgen.`,
 
-  /*
-    Wie via een bericht op sociale media binnenkomt, landt rechtstreeks op deze
-    pagina en ziet de rest van de site niet. Dit blokje onderaan toont wat we
-    nog doen, zodat die bezoekers niet weer weg zijn na het inschrijven.
-  */
-  verderTitel: "En wie zijn wij dan?",
-  verderTekst:
-    "Het oefenplatform is maar één stuk van wat we doen. Connectopia vzw begeleidt kinderen met een ontwikkelingsvoorsprong, ASS of ADHD, en de mensen rond hen.",
-  verder: [
-    {
-      titel: "Ons aanbod",
-      tekst:
-        "De externe plusklas, de pluswerkingen in Hasselt en Genk, Young Engineers en een kamp in elke schoolvakantie.",
-      link: "/aanbod",
-      knop: "Bekijk het aanbod",
-    },
-    {
-      titel: "Over Connectopia",
-      tekst:
-        "Waar we vandaan komen, waarom we dit doen en wie je tegenkomt als je langskomt.",
-      link: "/over-ons",
-      knop: "Leer ons kennen",
-    },
-    {
-      titel: "Waar kan je terecht?",
-      tekst:
-        "Een gids met plekken en mensen die verder helpen bij een vermoeden of een diagnose.",
-      link: "/waar-kan-je-terecht",
-      knop: "Naar de gids",
-    },
-  ],
-
   formulierTitel: "Schrijf je gezin in",
   onderwerp: "Inschrijving winactie oefenplatform via de website",
   gesloten:

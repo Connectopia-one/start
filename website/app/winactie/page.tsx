@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { Aanvraagformulier } from "@/components/Aanvraagformulier";
 import { Kaart, PaginaKop, Sectie } from "@/components/ui";
 import { site } from "@/content/site";
 import { winactie, winactieVelden } from "@/content/winactie";
+import { verder } from "@/content/verder";
+import { OntdekVerder } from "@/components/OntdekVerder";
 
 export const metadata: Metadata = {
   title: winactie.titel,
@@ -101,25 +102,7 @@ export default async function WinactiePagina() {
         </Kaart>
 
         <Kaart>
-          <h2 className="text-2xl text-green">{winactie.verderTitel}</h2>
-          <p className="mt-2 text-[16px] text-ink-dim">{winactie.verderTekst}</p>
-          <div className="mt-4 grid gap-4 md:grid-cols-3">
-            {winactie.verder.map((stuk) => (
-              <div
-                key={stuk.link}
-                className="flex flex-col rounded-[20px] border border-border bg-cream p-5"
-              >
-                <h3 className="text-xl text-green">{stuk.titel}</h3>
-                <p className="mt-2 grow text-[16px] text-ink-dim">{stuk.tekst}</p>
-                <Link
-                  href={stuk.link}
-                  className="mt-4 inline-block self-start rounded-full bg-green px-5 py-2 text-[15px] font-extrabold text-cream transition hover:-translate-y-0.5 hover:bg-green-mid"
-                >
-                  {stuk.knop} &rarr;
-                </Link>
-              </div>
-            ))}
-          </div>
+          <OntdekVerder titel={verder.titel} tekst={verder.tekst} />
         </Kaart>
 
         <Kaart>

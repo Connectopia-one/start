@@ -1,6 +1,8 @@
 import Link from "next/link";
 import type { Metadata } from "next";
 import { site } from "@/content/site";
+import { verder } from "@/content/verder";
+import { OntdekVerder } from "@/components/OntdekVerder";
 
 export const metadata: Metadata = {
   title: "Bedankt",
@@ -53,7 +55,7 @@ export default async function BedanktPage({
   }
 
   return (
-    <div className="mx-auto w-full max-w-2xl px-6 py-16">
+    <div className="mx-auto w-full max-w-3xl px-6 py-16">
       <div className="rounded-[24px] bg-surface px-7 py-8 shadow-sm">
         <p className="text-[15px] font-bold uppercase tracking-wide text-orange">
           Goed ontvangen
@@ -72,20 +74,21 @@ export default async function BedanktPage({
           </a>
           .
         </p>
-        <div className="mt-7 flex flex-wrap gap-3">
+        {/* Enkel de startpagina hier: het aanbod staat als kaart hieronder. */}
+        <div className="mt-7">
           <Link
             href="/"
-            className="rounded-full bg-green px-7 py-3 text-[16px] font-extrabold text-cream transition hover:-translate-y-0.5 hover:bg-green-mid"
+            className="inline-block rounded-full bg-green px-7 py-3 text-[16px] font-extrabold text-cream transition hover:-translate-y-0.5 hover:bg-green-mid"
           >
             Naar de startpagina →
           </Link>
-          <Link
-            href="/aanbod"
-            className="rounded-full border border-border bg-cream px-7 py-3 text-[16px] font-extrabold text-green transition hover:-translate-y-0.5"
-          >
-            Bekijk ons aanbod
-          </Link>
         </div>
+      </div>
+
+      {/* Wie net iets verstuurd heeft, is het meest geneigd om nog verder te
+          kijken. Zie content/verder.ts. */}
+      <div className="mt-6 rounded-[24px] bg-surface px-7 py-8 shadow-sm">
+        <OntdekVerder titel={verder.bedanktTitel} tekst={verder.bedanktTekst} />
       </div>
     </div>
   );
