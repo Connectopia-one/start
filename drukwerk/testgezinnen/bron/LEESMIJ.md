@@ -10,5 +10,4 @@ Dat schrijft `welkomstbrief-testgezinnen.png` en `welkomstbrief-testgezinnen.pdf
 een map hoger. De lettertypes (`nunito.woff2`, `caveat.woff2`) en het logo staan
 niet in de repo; die staan naast dit bestand in `/mnt/project-files/mail-testgezinnen/bron/`.
 
-**`[CODE]` moet nog vervangen worden** door de plusklas-code die in Beheer →
-Plusklas-codes aangemaakt is.
+De code op de brief is `TOPTESTER2026`, zoals aangemaakt in Beheer → Plusklas-codes.
