@@ -9,6 +9,7 @@ import {
   maakHoofdstuk,
   hernoemHoofdstuk,
   wisselGratis,
+  zetNiveauGratis,
   verwijderHoofdstuk,
   wisselRekenmachine,
   bulkImportVakInhoud,
@@ -170,6 +171,39 @@ export default async function BeheerVakkenPage({
                   </p>
                 </form>
               </details>
+
+              {/* Een heel niveau in één keer open of op slot. Veertien
+                  hoofdstukken los aanklikken is vragen om er één te vergeten. */}
+              {(() => {
+                const perNiveau = NIVEAUS.map((n) => {
+                  const hfsts = vak.hoofdstukken.filter((h) => h.niveau === n.slug);
+                  return { niveau: n, aantal: hfsts.length, gratis: hfsts.filter((h) => h.gratis).length };
+                }).filter((r) => r.aantal > 0);
+                if (!perNiveau.length) return null;
+                return (
+                  <div className="mt-4 flex flex-wrap items-center gap-2 rounded-lg bg-paper px-3 py-2 text-xs">
+                    <span className="text-ink-dim">Een heel niveau in één keer:</span>
+                    {perNiveau.map(({ niveau, aantal, gratis }) => {
+                      const allesGratis = gratis === aantal;
+                      return (
+                        <form action={zetNiveauGratis} key={niveau.slug}>
+                          <input type="hidden" name="vak_id" value={vak.id} />
+                          <input type="hidden" name="niveau" value={niveau.slug} />
+                          <input type="hidden" name="gratis" value={allesGratis ? "nee" : "ja"} />
+                          <button
+                            type="submit"
+                            title={`${gratis} van de ${aantal} hoofdstukken staan nu gratis`}
+                            className="rounded-full border border-border px-2.5 py-1 font-medium text-ink hover:border-forest hover:text-forest-dark"
+                          >
+                            {niveau.emoji} {niveau.naam}{" "}
+                            {allesGratis ? "weer op slot" : `gratis (${gratis}/${aantal})`}
+                          </button>
+                        </form>
+                      );
+                    })}
+                  </div>
+                );
+              })()}
 
               <ul className="mt-4 space-y-2">
                 {sorteerHoofdstukken(vak.hoofdstukken).map((h) => (

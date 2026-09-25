@@ -165,6 +165,29 @@ export async function wisselGratis(formData: FormData) {
   redirect("/beheer/vakken");
 }
 
+/*
+  Een heel niveau van een vak in één keer gratis zetten of weer op slot.
+
+  Kim vroeg op 25 september 2026 om 🧱 Basis van wiskunde helemaal open te
+  zetten. Dat zijn veertien hoofdstukken, en die één voor één aanklikken is
+  vragen om er eentje te vergeten.
+*/
+export async function zetNiveauGratis(formData: FormData) {
+  await requireBeheerder();
+  const vakId = String(formData.get("vak_id") || "");
+  const niveau = String(formData.get("niveau") || "");
+  const gratis = formData.get("gratis") === "ja";
+  if (!vakId || !niveau) redirect("/beheer/vakken");
+  const admin = createAdminClient();
+  await admin
+    .from("hoofdstukken")
+    .update({ gratis })
+    .eq("vak_id", vakId)
+    .eq("niveau", niveau);
+  revalidatePath("/beheer/vakken");
+  redirect("/beheer/vakken");
+}
+
 export async function verwijderHoofdstuk(formData: FormData) {
   await requireBeheerder();
   const id = String(formData.get("id") || "");
