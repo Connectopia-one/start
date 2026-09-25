@@ -160,7 +160,16 @@ export async function wisselGratis(formData: FormData) {
   const id = String(formData.get("id") || "");
   const gratis = formData.get("gratis") === "true";
   const admin = createAdminClient();
-  await admin.from("hoofdstukken").update({ gratis: !gratis }).eq("id", id);
+  const { error } = await admin
+    .from("hoofdstukken")
+    .update({ gratis: !gratis })
+    .eq("id", id);
+  if (error) {
+    redirect(
+      "/beheer/vakken?fout=" +
+        encodeURIComponent(`Het hoofdstuk omzetten lukte niet: ${error.message}`)
+    );
+  }
   revalidatePath("/beheer/vakken");
   redirect("/beheer/vakken");
 }
@@ -179,11 +188,17 @@ export async function zetNiveauGratis(formData: FormData) {
   const gratis = formData.get("gratis") === "ja";
   if (!vakId || !niveau) redirect("/beheer/vakken");
   const admin = createAdminClient();
-  await admin
+  const { error } = await admin
     .from("hoofdstukken")
     .update({ gratis })
     .eq("vak_id", vakId)
     .eq("niveau", niveau);
+  if (error) {
+    redirect(
+      "/beheer/vakken?fout=" +
+        encodeURIComponent(`Het niveau omzetten lukte niet: ${error.message}`)
+    );
+  }
   revalidatePath("/beheer/vakken");
   redirect("/beheer/vakken");
 }
@@ -357,15 +372,18 @@ export async function bulkImportVakInhoud(formData: FormData) {
       titelNaarId.set(titelSleutel(titel), hoofdstukId);
     }
 
-    // Zegt het bestand uitdrukkelijk of dit hoofdstuk gratis is, pas dat dan
-    // ook toe op een hoofdstuk dat er al stond. Zonder dit gold "gratis" enkel
-    // bij het aanmaken, en kon je het gratis proefhoofdstuk achteraf niet meer
-    // verleggen naar een ander hoofdstuk zonder het met de hand om te zetten.
-    // Staat er niets over gratis in het bestand, dan blijft het zoals het was.
-    if (bestondAl && hfst.gratis !== undefined && Boolean(hfst.gratis) !== bestaandGratis) {
+    // Zegt het bestand uitdrukkelijk dat dit hoofdstuk gratis is, zet het dan
+    // ook open als het er al stond. Zo kan het gratis proefhoofdstuk achteraf
+    // nog verlegd worden naar een ander hoofdstuk.
+    //
+    // Omgekeerd niet: een import zet nooit iets op slot dat met de hand open
+    // gezet is. Bijna elk bestand draagt "gratis": false mee, dus anders ging
+    // een hoofdstuk dat in Beheer gratis gezet was weer dicht bij de volgende
+    // import van datzelfde bestand. Op slot zetten gebeurt met de knop.
+    if (bestondAl && hfst.gratis === true && !bestaandGratis) {
       const { error: gratisFout } = await admin
         .from("hoofdstukken")
-        .update({ gratis: Boolean(hfst.gratis) })
+        .update({ gratis: true })
         .eq("id", hoofdstukId);
       if (gratisFout) {
         redirect(
