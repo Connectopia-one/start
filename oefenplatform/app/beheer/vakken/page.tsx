@@ -70,10 +70,10 @@ const VOORBEELD_VAK_JSON = `{
 export default async function BeheerVakkenPage({
   searchParams,
 }: {
-  searchParams: Promise<{ fout?: string }>;
+  searchParams: Promise<{ fout?: string; melding?: string }>;
 }) {
   const session = await requireBeheerder();
-  const { fout } = await searchParams;
+  const { fout, melding } = await searchParams;
   const supabase = await createClient();
 
   const { data: vakken } = await supabase
@@ -97,6 +97,12 @@ export default async function BeheerVakkenPage({
         {fout && (
           <p className="mt-4 rounded-md bg-danger/10 px-3 py-2 text-sm text-danger">
             {fout}
+          </p>
+        )}
+
+        {melding && (
+          <p className="mt-4 rounded-md bg-forest/10 px-3 py-2 text-sm text-forest-dark">
+            {melding}
           </p>
         )}
 
@@ -173,34 +179,62 @@ export default async function BeheerVakkenPage({
               </details>
 
               {/* Een heel niveau in één keer open of op slot. Veertien
-                  hoofdstukken los aanklikken is vragen om er één te vergeten. */}
+                  hoofdstukken los aanklikken is vragen om er één te vergeten.
+                  Per niveau eerst hoe het er nu voor staat, dan pas de knop:
+                  anders leest de rij als een mededeling in plaats van als
+                  iets om op te klikken. */}
               {(() => {
                 const perNiveau = NIVEAUS.map((n) => {
                   const hfsts = vak.hoofdstukken.filter((h) => h.niveau === n.slug);
-                  return { niveau: n, aantal: hfsts.length, gratis: hfsts.filter((h) => h.gratis).length };
+                  return {
+                    niveau: n,
+                    aantal: hfsts.length,
+                    gratis: hfsts.filter((h) => h.gratis).length,
+                  };
                 }).filter((r) => r.aantal > 0);
                 if (!perNiveau.length) return null;
                 return (
-                  <div className="mt-4 flex flex-wrap items-center gap-2 rounded-lg bg-paper px-3 py-2 text-xs">
-                    <span className="text-ink-dim">Een heel niveau in één keer:</span>
-                    {perNiveau.map(({ niveau, aantal, gratis }) => {
-                      const allesGratis = gratis === aantal;
-                      return (
-                        <form action={zetNiveauGratis} key={niveau.slug}>
-                          <input type="hidden" name="vak_id" value={vak.id} />
-                          <input type="hidden" name="niveau" value={niveau.slug} />
-                          <input type="hidden" name="gratis" value={allesGratis ? "nee" : "ja"} />
-                          <button
-                            type="submit"
-                            title={`${gratis} van de ${aantal} hoofdstukken staan nu gratis`}
-                            className="rounded-full border border-border px-2.5 py-1 font-medium text-ink hover:border-forest hover:text-forest-dark"
+                  <div className="mt-4 rounded-lg bg-paper px-3 py-3">
+                    <p className="text-xs font-medium text-ink-dim">
+                      Een heel niveau in één keer open of op slot zetten
+                    </p>
+                    <ul className="mt-2 space-y-1.5">
+                      {perNiveau.map(({ niveau, aantal, gratis }) => {
+                        const allesGratis = gratis === aantal;
+                        return (
+                          <li
+                            key={niveau.slug}
+                            className="flex flex-wrap items-center gap-x-3 gap-y-1 text-sm"
                           >
-                            {niveau.emoji} {niveau.naam}{" "}
-                            {allesGratis ? "weer op slot" : `gratis (${gratis}/${aantal})`}
-                          </button>
-                        </form>
-                      );
-                    })}
+                            <span className="text-ink">
+                              {niveau.emoji} {niveau.naam}
+                            </span>
+                            <span className="text-xs text-ink-dim">
+                              {gratis} van de {aantal}{" "}
+                              {aantal === 1 ? "hoofdstuk staat" : "hoofdstukken staan"}{" "}
+                              gratis
+                            </span>
+                            <form action={zetNiveauGratis} className="ml-auto">
+                              <input type="hidden" name="vak_id" value={vak.id} />
+                              <input type="hidden" name="niveau" value={niveau.slug} />
+                              <input
+                                type="hidden"
+                                name="gratis"
+                                value={allesGratis ? "nee" : "ja"}
+                              />
+                              <button
+                                type="submit"
+                                className="rounded-full border border-forest/40 bg-surface px-3 py-1 text-xs font-medium text-forest-dark hover:bg-forest hover:text-surface"
+                              >
+                                {allesGratis
+                                  ? "Alles op slot zetten"
+                                  : "Alles gratis zetten"}
+                              </button>
+                            </form>
+                          </li>
+                        );
+                      })}
+                    </ul>
                   </div>
                 );
               })()}

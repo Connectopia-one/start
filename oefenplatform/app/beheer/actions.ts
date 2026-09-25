@@ -5,7 +5,7 @@ import { redirect } from "next/navigation";
 import { requireBeheerder } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { slugify } from "@/lib/slug";
-import { NIVEAUS } from "@/lib/niveaus";
+import { NIVEAUS, vindNiveau } from "@/lib/niveaus";
 import { volgendVolgnummer, vrijeVolgnummers } from "@/lib/volgnummer";
 
 export async function maakVak(formData: FormData) {
@@ -188,19 +188,31 @@ export async function zetNiveauGratis(formData: FormData) {
   const gratis = formData.get("gratis") === "ja";
   if (!vakId || !niveau) redirect("/beheer/vakken");
   const admin = createAdminClient();
-  const { error } = await admin
+  const { data, error } = await admin
     .from("hoofdstukken")
     .update({ gratis })
     .eq("vak_id", vakId)
-    .eq("niveau", niveau);
+    .eq("niveau", niveau)
+    .select("id");
   if (error) {
     redirect(
       "/beheer/vakken?fout=" +
         encodeURIComponent(`Het niveau omzetten lukte niet: ${error.message}`)
     );
   }
+  // Zeg hoeveel hoofdstukken mee zijn. Zonder die bevestiging is het na het
+  // klikken niet te zien of er iets gebeurd is.
+  const aantal = data?.length ?? 0;
+  const naam = vindNiveau(niveau)?.naam ?? niveau;
   revalidatePath("/beheer/vakken");
-  redirect("/beheer/vakken");
+  redirect(
+    "/beheer/vakken?melding=" +
+      encodeURIComponent(
+        `${aantal} ${aantal === 1 ? "hoofdstuk" : "hoofdstukken"} van ${naam} ${
+          aantal === 1 ? "staat" : "staan"
+        } nu ${gratis ? "gratis" : "op slot"}.`
+      )
+  );
 }
 
 export async function verwijderHoofdstuk(formData: FormData) {
