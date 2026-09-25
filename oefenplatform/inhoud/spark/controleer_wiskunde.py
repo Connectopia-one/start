@@ -481,10 +481,13 @@ def main():
             print(f"  FOUT  {titel} — {vraag['vraag']}")
             print(f"        aangeduid: {gekregen!r}, maar narekenen geeft {uitkomst!r}")
 
-    # Welke vragen met een getal erin staan nog niet in de lijst?
+    # Welke vragen met een getal erin staan nog niet in de lijst? De getallen in
+    # een tekening ({{hoek 90 ?}}) tellen niet mee: daar valt niets aan na te
+    # rekenen, die horen bij de vraagtekst zoals ze getekend wordt.
     import re
+    zonder_tekening = lambda t: re.sub(r"\{\{[^}]*\}\}", "", t)
     ongedekt = [v["vraag"] for _, v in vragen
-                if v["vraag"] not in gezien and re.search(r"\d", v["vraag"])]
+                if v["vraag"] not in gezien and re.search(r"\d", zonder_tekening(v["vraag"]))]
     totaal = len(CONTROLES) + len(WOORDEN)
     print(f"\n{totaal - fout} van de {totaal} nagekeken en juist aangeduid.")
     if ongedekt:

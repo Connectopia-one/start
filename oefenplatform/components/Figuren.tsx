@@ -21,9 +21,14 @@
   Een kleur- of sleepvraag is dus gewoon een invulvraag: het platform bewaart en
   vergelijkt het antwoord zoals altijd, en de pagina waar ouders meekijken toont
   het als tekst.
+
+  Daarnaast bestaan de tekeningen voor meetkunde en metend rekenen, met dezelfde
+  soort markering ({{hoek 130}}, {{maat rechthoek 7x3}}, ...). Die staan in
+  Tekeningen.tsx, met de volledige lijst erbij.
 */
 
 import { useEffect, useMemo, useRef, useState, type PointerEvent as ReactPointerEvent } from "react";
+import { TEKENINGEN, Tekening } from "@/components/Tekeningen";
 
 export type Vorm = "cirkel" | "strook" | "raster";
 
@@ -31,9 +36,15 @@ export type Interactie =
   | { soort: "kleur"; vorm: Vorm; delen: number }
   | { soort: "sleep"; richting: "klein-groot" | "groot-klein" };
 
-type Stuk = { soort: "tekst"; tekst: string } | { soort: "figuur"; vorm: Vorm; teller: number; noemer: number };
+type Stuk =
+  | { soort: "tekst"; tekst: string }
+  | { soort: "figuur"; vorm: Vorm; teller: number; noemer: number }
+  | { soort: "tekening"; naam: string; args: string[] };
 
-const MARKERING = /\{\{\s*(figuur|kleur|sleep)\s+([^}]*?)\s*\}\}/g;
+const MARKERING = new RegExp(
+  `\\{\\{\\s*(figuur|kleur|sleep|${TEKENINGEN.join("|")})\\s+([^}]*?)\\s*\\}\\}`,
+  "g"
+);
 const VORMEN: Vorm[] = ["cirkel", "strook", "raster"];
 
 /** Haalt de markeringen uit een vraag. */
@@ -57,6 +68,9 @@ export function leesVraag(vraag: string): { stukken: Stuk[]; interactie: Interac
       }
     } else if (m[1] === "sleep") {
       interactie = { soort: "sleep", richting: vormOfRichting === "groot-klein" ? "groot-klein" : "klein-groot" };
+    } else {
+      /* Een tekening voor meetkunde of metend rekenen; zie Tekeningen.tsx. */
+      stukken.push({ soort: "tekening", naam: m[1], args: m[2].split(/\s+/) });
     }
   }
   if (vorige < vraag.length) stukken.push({ soort: "tekst", tekst: vraag.slice(vorige) });
@@ -79,9 +93,17 @@ export function VraagTekst({ tekst }: { tekst: string }) {
     .replace(/\s+/g, " ")
     .trim();
   const figuren = stukken.filter((s) => s.soort === "figuur") as Extract<Stuk, { soort: "figuur" }>[];
+  const tekeningen = stukken.filter((s) => s.soort === "tekening") as Extract<Stuk, { soort: "tekening" }>[];
   return (
     <>
       <p className="font-medium text-ink">{woorden}</p>
+      {tekeningen.length > 0 && (
+        <div className="mt-3 flex flex-wrap items-start gap-5">
+          {tekeningen.map((t, i) => (
+            <Tekening key={i} naam={t.naam} args={t.args} />
+          ))}
+        </div>
+      )}
       {figuren.length > 0 && (
         <div className="mt-3 flex flex-wrap items-center gap-4">
           {figuren.map((f, i) => (

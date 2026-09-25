@@ -1638,7 +1638,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Hoe noem je een hoek die precies past in de hoek van een blad papier?",
+          "vraag": "Hoe noem je een hoek die precies past in de hoek van een blad papier? {{hoek 90 ?}}",
           "opties": [
             "Een rechte hoek",
             "Een scherpe hoek",
@@ -1649,7 +1649,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een hoek van 130° is een …",
+          "vraag": "Een hoek van 130° is een … {{hoek 130}}",
           "opties": [
             "stompe hoek",
             "scherpe hoek",
@@ -1660,19 +1660,19 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel graden is een gestrekte hoek?",
+          "vraag": "Hoeveel graden is een gestrekte hoek? {{hoek 180 ?}}",
           "antwoord": "180",
           "uitleg": "Een gestrekte hoek is 180°: de twee benen liggen in elkaars verlengde en vormen samen een rechte lijn."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is de som van de hoeken van een driehoek, in graden?",
+          "vraag": "Hoeveel is de som van de hoeken van een driehoek, in graden? {{driehoek ongelijkbenig}}",
           "antwoord": "180",
           "uitleg": "In elke driehoek is de hoekensom 180°, of hij nu scherp, recht of stomp is."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee hoeken van een driehoek zijn 50° en 60°. Hoe groot is de derde?",
+          "vraag": "Twee hoeken van een driehoek zijn 50° en 60°. Hoe groot is de derde? {{driehoek 50-60-?}}",
           "opties": [
             "70°",
             "80°",
@@ -1683,13 +1683,13 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is de som van de hoeken van een vierhoek, in graden?",
+          "vraag": "Hoeveel is de som van de hoeken van een vierhoek, in graden? {{vierhoek trapezium}}",
           "antwoord": "360",
           "uitleg": "360°. Je kan elke vierhoek met één diagonaal in twee driehoeken verdelen: 2 × 180° = 360°."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe noem je een driehoek met drie gelijke zijden?",
+          "vraag": "Hoe noem je een driehoek met drie gelijke zijden? {{driehoek gelijkzijdig}}",
           "opties": [
             "Gelijkzijdig",
             "Gelijkbenig",
@@ -1700,13 +1700,13 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel graden is elke hoek van een gelijkzijdige driehoek?",
+          "vraag": "Hoeveel graden is elke hoek van een gelijkzijdige driehoek? {{driehoek gelijkzijdig}}",
           "antwoord": "60",
           "uitleg": "De drie hoeken zijn even groot en samen 180°, dus elk 180 : 3 = 60°."
         },
         {
           "type": "meerkeuze",
-          "vraag": "In een gelijkbenige driehoek heet de hoek tussen de twee gelijke zijden de …",
+          "vraag": "In een gelijkbenige driehoek heet de hoek tussen de twee gelijke zijden de … {{driehoek gelijkbenig}}",
           "opties": [
             "tophoek",
             "basishoek",
@@ -1717,7 +1717,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe noem je de langste zijde van een rechthoekige driehoek?",
+          "vraag": "Hoe noem je de langste zijde van een rechthoekige driehoek? {{driehoek rechthoekig}}",
           "opties": [
             "De schuine zijde",
             "De rechthoekszijde",
@@ -1728,7 +1728,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een vierhoek waarvan beide paren overstaande zijden evenwijdig zijn, heet een …",
+          "vraag": "Een vierhoek waarvan beide paren overstaande zijden evenwijdig zijn, heet een … {{vierhoek parallellogram}}",
           "opties": [
             "parallellogram",
             "trapezium",
@@ -1739,13 +1739,13 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een ruit heeft vier even lange zijden.",
+          "vraag": "Een ruit heeft vier even lange zijden. {{vierhoek ruit}}",
           "antwoord": true,
           "uitleg": "Juist. Een ruit is een parallellogram met vier gelijke zijden. De hoeken hoeven niet recht te zijn; zijn ze dat wel, dan is het een vierkant."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe noem je de lijn van het middelpunt van een cirkel naar de rand?",
+          "vraag": "Hoe noem je de lijn van het middelpunt van een cirkel naar de rand? {{cirkeldeel straal stil}}",
           "opties": [
             "De straal",
             "De diameter",
@@ -1756,7 +1756,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een cirkel heeft een straal van 6 cm. Hoe lang is de diameter?",
+          "vraag": "Een cirkel heeft een straal van 6 cm. Hoe lang is de diameter? {{maat cirkel straal 6}}",
           "opties": [
             "12 cm",
             "3 cm",
@@ -1767,7 +1767,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee rechten staan loodrecht op elkaar. Welke hoek maken ze?",
+          "vraag": "Twee rechten staan loodrecht op elkaar. Welke hoek maken ze? {{hoek 90 ?}}",
           "opties": [
             "90°",
             "45°",
@@ -1784,13 +1784,13 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel symmetrieassen heeft een vierkant?",
+          "vraag": "Hoeveel symmetrieassen heeft een vierkant? {{vierhoek vierkant}}",
           "antwoord": "4",
           "uitleg": "Vier: de twee middelloodlijnen van de zijden en de twee diagonalen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel symmetrieassen heeft een gewone rechthoek die geen vierkant is?",
+          "vraag": "Hoeveel symmetrieassen heeft een gewone rechthoek die geen vierkant is? {{vierhoek rechthoek}}",
           "opties": [
             "2",
             "4",
@@ -1801,7 +1801,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een figuur schuift een eindje opzij, zonder te draaien of te spiegelen. Welke transformatie is dat?",
+          "vraag": "Een figuur schuift een eindje opzij, zonder te draaien of te spiegelen. Welke transformatie is dat? {{beweging translatie}}",
           "opties": [
             "Een translatie",
             "Een rotatie",
@@ -1812,7 +1812,7 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Na een spiegeling is de figuur even groot als daarvoor.",
+          "vraag": "Na een spiegeling is de figuur even groot als daarvoor. {{beweging spiegeling}}",
           "antwoord": true,
           "uitleg": "Juist. Translatie, rotatie en spiegeling behouden alle drie de lengtes en de hoeken. Het beeld is dus congruent met de oorspronkelijke figuur."
         }
@@ -1825,7 +1825,7 @@
       "vragen": [
         {
           "type": "meerkeuze",
-          "vraag": "Twee rechten snijden elkaar. Eén hoek is 70°. Hoe groot is de hoek er recht tegenover?",
+          "vraag": "Twee rechten snijden elkaar. Eén hoek is 70°. Hoe groot is de hoek er recht tegenover? {{snijlijn 70}}",
           "opties": [
             "70°",
             "110°",
@@ -1836,7 +1836,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een hoek is 70°. Hoe groot is zijn nevenhoek?",
+          "vraag": "Een hoek is 70°. Hoe groot is zijn nevenhoek? {{snijlijn 70 neven}}",
           "opties": [
             "110°",
             "20°",
@@ -1847,7 +1847,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee evenwijdige rechten worden gesneden door een derde rechte. Wat weet je over de overeenkomstige hoeken?",
+          "vraag": "Twee evenwijdige rechten worden gesneden door een derde rechte. Wat weet je over de overeenkomstige hoeken? {{evenwijdig 65}}",
           "opties": [
             "Ze zijn even groot",
             "Ze zijn samen 180°",
@@ -1858,7 +1858,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Twee evenwijdige rechten, een snijlijn, en een binnenhoek van 65°. Hoe groot is de binnenhoek aan dezelfde kant van de snijlijn?",
+          "vraag": "Twee evenwijdige rechten, een snijlijn, en een binnenhoek van 65°. Hoe groot is de binnenhoek aan dezelfde kant van de snijlijn? {{evenwijdig 65 binnen}}",
           "opties": [
             "115°",
             "65°",
@@ -1869,7 +1869,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "In een gelijkbenige driehoek is de tophoek 40°. Hoe groot is elke basishoek?",
+          "vraag": "In een gelijkbenige driehoek is de tophoek 40°. Hoe groot is elke basishoek? {{driehoek gelijkbenig}}",
           "opties": [
             "70°",
             "40°",
@@ -1880,7 +1880,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "In een gelijkbenige driehoek is een basishoek 50°. Hoe groot is de tophoek?",
+          "vraag": "In een gelijkbenige driehoek is een basishoek 50°. Hoe groot is de tophoek? {{driehoek gelijkbenig}}",
           "opties": [
             "80°",
             "50°",
@@ -1891,7 +1891,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Drie hoeken van een vierhoek zijn 90°, 100° en 85°. Hoe groot is de vierde?",
+          "vraag": "Drie hoeken van een vierhoek zijn 90°, 100° en 85°. Hoe groot is de vierde? {{vierhoek trapezium}}",
           "opties": [
             "85°",
             "95°",
@@ -1902,7 +1902,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoe noem je de lijn uit een hoekpunt die de hoek in twee gelijke stukken verdeelt?",
+          "vraag": "Hoe noem je de lijn uit een hoekpunt die de hoek in twee gelijke stukken verdeelt? {{merkwaardig bissectrice stil}}",
           "opties": [
             "De bissectrice",
             "De hoogtelijn",
@@ -1913,7 +1913,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke merkwaardige lijn staat loodrecht op een zijde en gaat door het midden van die zijde?",
+          "vraag": "Welke merkwaardige lijn staat loodrecht op een zijde en gaat door het midden van die zijde? {{merkwaardig middelloodlijn stil}}",
           "opties": [
             "De middelloodlijn",
             "De hoogtelijn",
@@ -1963,7 +1963,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een figuur draait een kwartslag rond een punt. Welke transformatie is dat?",
+          "vraag": "Een figuur draait een kwartslag rond een punt. Welke transformatie is dat? {{beweging rotatie}}",
           "opties": [
             "Een rotatie over 90°",
             "Een translatie",
@@ -1974,7 +1974,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke eigenschap blijft NIET noodzakelijk behouden bij een spiegeling om een rechte?",
+          "vraag": "Welke eigenschap blijft NIET noodzakelijk behouden bij een spiegeling om een rechte? {{beweging spiegeling}}",
           "opties": [
             "De draairichting waarin je de hoekpunten leest",
             "De lengte van elk lijnstuk",
@@ -1985,7 +1985,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel symmetrieassen heeft een gelijkzijdige driehoek?",
+          "vraag": "Hoeveel symmetrieassen heeft een gelijkzijdige driehoek? {{driehoek gelijkzijdig}}",
           "antwoord": "3",
           "uitleg": "Drie, één uit elk hoekpunt naar het midden van de overstaande zijde."
         },
@@ -2002,7 +2002,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "In een parallellogram is één hoek 110°. Hoe groot is de hoek ernaast?",
+          "vraag": "In een parallellogram is één hoek 110°. Hoe groot is de hoek ernaast? {{vierhoek parallellogram}}",
           "opties": [
             "70°",
             "110°",
@@ -2013,13 +2013,13 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De diagonalen van een ruit staan loodrecht op elkaar.",
+          "vraag": "De diagonalen van een ruit staan loodrecht op elkaar. {{vierhoek ruit}}",
           "antwoord": true,
           "uitleg": "Juist, en ze delen elkaar bovendien middendoor. Bij een gewoon parallellogram delen de diagonalen elkaar wel middendoor, maar staan ze niet loodrecht."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een driehoek heeft hoeken van 90° en 45°. Wat weet je nog meer?",
+          "vraag": "Een driehoek heeft hoeken van 90° en 45°. Wat weet je nog meer? {{driehoek 90-45-?}}",
           "opties": [
             "Hij is rechthoekig én gelijkbenig",
             "Hij is gelijkzijdig",
@@ -2049,13 +2049,13 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel centimeter is 1 meter?",
+          "vraag": "Hoeveel centimeter is 1 meter? {{ladder lengte}}",
           "antwoord": "100",
           "uitleg": "1 m = 100 cm. Elke stap op de maatladder is maal of gedeeld door 10, en van meter naar centimeter zijn het twee stappen."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel meter is 3,5 km?",
+          "vraag": "Hoeveel meter is 3,5 km? {{ladder lengte}}",
           "opties": [
             "3500 m",
             "350 m",
@@ -2083,7 +2083,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel gram is 2,5 kg?",
+          "vraag": "Hoeveel gram is 2,5 kg? {{ladder massa}}",
           "opties": [
             "2500 g",
             "250 g",
@@ -2105,19 +2105,19 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is de omtrek van een rechthoek van 7 cm bij 3 cm, in centimeter?",
+          "vraag": "Hoeveel is de omtrek van een rechthoek van 7 cm bij 3 cm, in centimeter? {{maat rechthoek 7x3}}",
           "antwoord": "20",
           "uitleg": "Omtrek = 2 × (lengte + breedte) = 2 × (7 + 3) = 20 cm. Je loopt één keer rond de figuur."
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel is de oppervlakte van een rechthoek van 7 cm bij 3 cm, in cm²?",
+          "vraag": "Hoeveel is de oppervlakte van een rechthoek van 7 cm bij 3 cm, in cm²? {{maat rechthoek 7x3}}",
           "antwoord": "21",
           "uitleg": "Oppervlakte = lengte × breedte = 7 × 3 = 21 cm². Let op de eenheid: oppervlakte staat in cm², omtrek in cm."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een vierkant heeft een zijde van 6 cm. Wat is zijn omtrek?",
+          "vraag": "Een vierkant heeft een zijde van 6 cm. Wat is zijn omtrek? {{maat vierkant 6}}",
           "opties": [
             "24 cm",
             "36 cm",
@@ -2128,7 +2128,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een driehoek heeft een basis van 8 cm en een hoogte van 5 cm. Wat is zijn oppervlakte?",
+          "vraag": "Een driehoek heeft een basis van 8 cm en een hoogte van 5 cm. Wat is zijn oppervlakte? {{maat driehoek 8x5}}",
           "opties": [
             "20 cm²",
             "40 cm²",
@@ -2139,7 +2139,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een parallellogram heeft een basis van 9 cm en een hoogte van 4 cm. Wat is zijn oppervlakte?",
+          "vraag": "Een parallellogram heeft een basis van 9 cm en een hoogte van 4 cm. Wat is zijn oppervlakte? {{maat parallellogram 9x4}}",
           "opties": [
             "36 cm²",
             "18 cm²",
@@ -2150,7 +2150,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de formule voor de omtrek van een cirkel?",
+          "vraag": "Wat is de formule voor de omtrek van een cirkel? {{cirkeldeel straal}}",
           "opties": [
             "2 × π × straal",
             "π × straal × straal",
@@ -2161,7 +2161,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een cirkel heeft een straal van 5 cm. Hoe groot is de omtrek? Neem π = 3,14.",
+          "vraag": "Een cirkel heeft een straal van 5 cm. Hoe groot is de omtrek? Neem π = 3,14. {{maat cirkel straal 5}}",
           "opties": [
             "31,4 cm",
             "15,7 cm",
@@ -2172,7 +2172,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een cirkel heeft een straal van 5 cm. Hoe groot is de oppervlakte? Neem π = 3,14.",
+          "vraag": "Een cirkel heeft een straal van 5 cm. Hoe groot is de oppervlakte? Neem π = 3,14. {{maat cirkel straal 5}}",
           "opties": [
             "78,5 cm²",
             "31,4 cm²",
@@ -2183,13 +2183,13 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Wat is het volume van een kubus met een ribbe van 4 cm, in cm³?",
+          "vraag": "Wat is het volume van een kubus met een ribbe van 4 cm, in cm³? {{ruimte kubus 4}}",
           "antwoord": "64",
           "uitleg": "Volume kubus = ribbe³ = 4 × 4 × 4 = 64 cm³."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een balk is 5 cm bij 3 cm bij 2 cm. Wat is zijn volume?",
+          "vraag": "Een balk is 5 cm bij 3 cm bij 2 cm. Wat is zijn volume? {{ruimte balk 5x3x2}}",
           "opties": [
             "30 cm³",
             "60 cm³",
@@ -2206,7 +2206,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel is 2,5 m² in dm²?",
+          "vraag": "Hoeveel is 2,5 m² in dm²? {{ladder oppervlakte}}",
           "opties": [
             "250 dm²",
             "25 dm²",
@@ -2257,7 +2257,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een trapezium heeft evenwijdige zijden van 6 cm en 10 cm en een hoogte van 4 cm. Wat is zijn oppervlakte?",
+          "vraag": "Een trapezium heeft evenwijdige zijden van 6 cm en 10 cm en een hoogte van 4 cm. Wat is zijn oppervlakte? {{maat trapezium 6-10-4}}",
           "opties": [
             "32 cm²",
             "40 cm²",
@@ -2268,7 +2268,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een ruit heeft diagonalen van 8 cm en 6 cm. Wat is zijn oppervlakte?",
+          "vraag": "Een ruit heeft diagonalen van 8 cm en 6 cm. Wat is zijn oppervlakte? {{maat ruit 8x6}}",
           "opties": [
             "24 cm²",
             "48 cm²",
@@ -2279,7 +2279,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een cirkel heeft een diameter van 10 cm. Hoe groot is de omtrek? Neem π = 3,14.",
+          "vraag": "Een cirkel heeft een diameter van 10 cm. Hoe groot is de omtrek? Neem π = 3,14. {{maat cirkel diameter 10}}",
           "opties": [
             "31,4 cm",
             "62,8 cm",
@@ -2290,7 +2290,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat is de oppervlakte van een kubus met een ribbe van 3 cm?",
+          "vraag": "Wat is de oppervlakte van een kubus met een ribbe van 3 cm? {{ruimte kubus 3}}",
           "opties": [
             "54 cm²",
             "27 cm²",
@@ -2301,7 +2301,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een balk is 5 cm bij 4 cm bij 2 cm. Wat is zijn totale oppervlakte?",
+          "vraag": "Een balk is 5 cm bij 4 cm bij 2 cm. Wat is zijn totale oppervlakte? {{ruimte balk 5x4x2}}",
           "opties": [
             "76 cm²",
             "40 cm²",
@@ -2312,7 +2312,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een cilinder heeft een straal van 3 cm en een hoogte van 10 cm. Wat is zijn volume? Neem π = 3,14.",
+          "vraag": "Een cilinder heeft een straal van 3 cm en een hoogte van 10 cm. Wat is zijn volume? Neem π = 3,14. {{ruimte cilinder 3x10}}",
           "opties": [
             "282,6 cm³",
             "94,2 cm³",
@@ -2323,13 +2323,13 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel liter gaat er in een kubus van 2 dm bij 2 dm bij 2 dm?",
+          "vraag": "Hoeveel liter gaat er in een kubus van 2 dm bij 2 dm bij 2 dm? {{ruimte kubus 2}}",
           "antwoord": "8",
           "uitleg": "2 × 2 × 2 = 8 dm³, en 1 dm³ is 1 liter, dus 8 liter."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een zwembad van 10 m bij 5 m staat 1,5 m vol water. Hoeveel liter is dat?",
+          "vraag": "Een zwembad van 10 m bij 5 m staat 1,5 m vol water. Hoeveel liter is dat? {{ruimte balk 10x1,5x5}}",
           "opties": [
             "75 000 l",
             "75 l",
@@ -2340,7 +2340,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel is 3 m² in cm²?",
+          "vraag": "Hoeveel is 3 m² in cm²? {{ladder oppervlakte}}",
           "opties": [
             "30 000 cm²",
             "300 cm²",
@@ -2351,7 +2351,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel is 2 m³ in liter?",
+          "vraag": "Hoeveel is 2 m³ in liter? {{ladder volume}}",
           "opties": [
             "2000 l",
             "200 l",
@@ -2373,7 +2373,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Een figuur bestaat uit een vierkant van 6 cm met daarop een halve cirkel met diameter 6 cm. Wat is de oppervlakte? Neem π = 3,14.",
+          "vraag": "Een figuur bestaat uit een vierkant van 6 cm met daarop een halve cirkel met diameter 6 cm. Wat is de oppervlakte? Neem π = 3,14. {{samengesteld halvecirkel 6}}",
           "opties": [
             "50,13 cm²",
             "64,26 cm²",
@@ -2384,7 +2384,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Uit een vierkant van 10 cm knip je in elke hoek een vierkantje van 2 cm. Wat blijft er over aan oppervlakte?",
+          "vraag": "Uit een vierkant van 10 cm knip je in elke hoek een vierkantje van 2 cm. Wat blijft er over aan oppervlakte? {{samengesteld hoekjes 10 2}}",
           "opties": [
             "84 cm²",
             "96 cm²",

@@ -214,3 +214,39 @@ Wiskunde blijft zoals het was: daar is dit niet van toepassing.
 Houd het antwoord op één woord zonder leestekens. `components/Quiz.tsx`
 vergelijkt via `normaliseerAntwoord`: hoofdletters, een lidwoord vooraan en een
 punt achteraan tellen niet mee, maar verder moet het exact kloppen.
+
+## Tekeningen bij een vraag (sinds 25 september 2026)
+
+Meetkunde en metend rekenen stonden volledig in woorden. Nu staat bij de
+meeste vragen een tekening, als een markering achteraan de vraagtekst:
+
+    {{hoek 130}}              een hoek van 130°
+    {{driehoek gelijkbenig}}  een gelijkbenige driehoek, met de streepjes erbij
+    {{driehoek 50-60-?}}      een driehoek met die hoeken; ? blijft open
+    {{vierhoek trapezium}}    een trapezium, met pijltjes op de evenwijdige zijden
+    {{snijlijn 70}}           twee snijdende rechten; "neven" erachter zet het
+                              vraagteken op de nevenhoek
+    {{evenwijdig 65}}         twee evenwijdige rechten met een snijlijn; "binnen"
+                              erachter vraagt naar de binnenhoek aan dezelfde kant
+    {{cirkeldeel straal}}     een cirkel met de straal; "stil" laat het woord weg
+    {{merkwaardig hoogtelijn}} een driehoek met die merkwaardige lijn
+    {{assen ruit}}            een figuur met zijn symmetrieassen
+    {{beweging rotatie}}      de figuur voor en na de transformatie
+    {{maat rechthoek 7x3}}    een rechthoek met 7 cm en 3 cm erbij
+    {{maat cirkel straal 5}}  een cirkel met een straal van 5 cm
+    {{ruimte balk 5x3x2}}     een balk in schuine projectie
+    {{ladder oppervlakte}}    de maatladder, met maal 100 per stap
+    {{samengesteld halvecirkel 6}}  een vierkant met er een halve cirkel op
+
+De volledige lijst met alles wat kan, staat bovenaan
+`components/Tekeningen.tsx`. Twee regels om te onthouden:
+
+1. **De tekst moet blijven kloppen zonder de tekening.** Op de pagina waar
+   ouders meekijken staat alleen de tekst, en een schermlezer leest die ook.
+   Schrijf de vraag dus alsof er geen tekening bij staat.
+2. **Een tekening mag het antwoord niet verklappen.** Daarom bestaat
+   `{{hoek 90 ?}}` (zonder het getal en zonder het vierkantje) en
+   `{{merkwaardig bissectrice stil}}` (zonder het woord eronder).
+
+`wiskunde-meetkunde-metend.json` bevat alleen die vier hoofdstukken, zodat je
+ze kan bijwerken zonder de andere veertien opnieuw in te laden.

@@ -11,6 +11,13 @@ Zo hoeft een kind niet te gokken met hoeveel cijfers er verwacht wordt.
 
 Deel 1 gaat over eenheden en de gewone formules. Deel 2 vraagt samengestelde
 figuren, ruimtefiguren en omgekeerd rekenen (van oppervlakte naar zijde).
+
+Bij de vragen met een figuur staat achteraan een tekening tussen dubbele
+accolades, bijvoorbeeld {{maat rechthoek 7x3}} of {{ruimte balk 5x3x2}}. Bij
+het omzetten van eenheden staat de maatladder erbij, {{ladder oppervlakte}}.
+Het platform tekent die zelf; de lijst staat in components/Tekeningen.tsx.
+De maten in de markering zijn dezelfde als die in de vraag: verander je de
+vraag, verander dan ook de tekening.
 """
 
 DEEL1 = [
@@ -23,13 +30,13 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel centimeter is 1 meter?",
+        vraag="Hoeveel centimeter is 1 meter? {{ladder lengte}}",
         antwoord="100",
         uitleg="1 m = 100 cm. Elke stap op de maatladder is maal of gedeeld door 10, en van meter naar centimeter zijn het twee stappen.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel meter is 3,5 km?",
+        vraag="Hoeveel meter is 3,5 km? {{ladder lengte}}",
         opties=["3500 m", "350 m", "35 m"],
         antwoord=0,
         uitleg="1 km = 1000 m, dus 3,5 × 1000 = 3500 m.",
@@ -49,7 +56,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel gram is 2,5 kg?",
+        vraag="Hoeveel gram is 2,5 kg? {{ladder massa}}",
         opties=["2500 g", "250 g", "25 000 g"],
         antwoord=0,
         uitleg="1 kg = 1000 g, dus 2,5 × 1000 = 2500 g.",
@@ -63,67 +70,67 @@ DEEL1 = [
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel is de omtrek van een rechthoek van 7 cm bij 3 cm, in centimeter?",
+        vraag="Hoeveel is de omtrek van een rechthoek van 7 cm bij 3 cm, in centimeter? {{maat rechthoek 7x3}}",
         antwoord="20",
         uitleg="Omtrek = 2 × (lengte + breedte) = 2 × (7 + 3) = 20 cm. Je loopt één keer rond de figuur.",
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel is de oppervlakte van een rechthoek van 7 cm bij 3 cm, in cm²?",
+        vraag="Hoeveel is de oppervlakte van een rechthoek van 7 cm bij 3 cm, in cm²? {{maat rechthoek 7x3}}",
         antwoord="21",
         uitleg="Oppervlakte = lengte × breedte = 7 × 3 = 21 cm². Let op de eenheid: oppervlakte staat in cm², omtrek in cm.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een vierkant heeft een zijde van 6 cm. Wat is zijn omtrek?",
+        vraag="Een vierkant heeft een zijde van 6 cm. Wat is zijn omtrek? {{maat vierkant 6}}",
         opties=["24 cm", "36 cm", "12 cm"],
         antwoord=0,
         uitleg="Vier gelijke zijden: 4 × 6 = 24 cm. Met 6 × 6 = 36 krijg je de oppervlakte, en die staat in cm².",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een driehoek heeft een basis van 8 cm en een hoogte van 5 cm. Wat is zijn oppervlakte?",
+        vraag="Een driehoek heeft een basis van 8 cm en een hoogte van 5 cm. Wat is zijn oppervlakte? {{maat driehoek 8x5}}",
         opties=["20 cm²", "40 cm²", "13 cm²"],
         antwoord=0,
         uitleg="Oppervlakte driehoek = (basis × hoogte) : 2 = (8 × 5) : 2 = 20 cm². De helft van een rechthoek met dezelfde maten.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een parallellogram heeft een basis van 9 cm en een hoogte van 4 cm. Wat is zijn oppervlakte?",
+        vraag="Een parallellogram heeft een basis van 9 cm en een hoogte van 4 cm. Wat is zijn oppervlakte? {{maat parallellogram 9x4}}",
         opties=["36 cm²", "18 cm²", "26 cm²"],
         antwoord=0,
         uitleg="Bij een parallellogram is het basis × hoogte = 9 × 4 = 36 cm², zonder delen door 2. En de hoogte is de loodrechte afstand, niet de schuine zijde.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is de formule voor de omtrek van een cirkel?",
+        vraag="Wat is de formule voor de omtrek van een cirkel? {{cirkeldeel straal}}",
         opties=["2 × π × straal", "π × straal × straal", "π × straal"],
         antwoord=0,
         uitleg="De omtrek is 2 × π × straal, of even goed π × diameter. Met π × straal² bereken je de oppervlakte.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een cirkel heeft een straal van 5 cm. Hoe groot is de omtrek? Neem π = 3,14.",
+        vraag="Een cirkel heeft een straal van 5 cm. Hoe groot is de omtrek? Neem π = 3,14. {{maat cirkel straal 5}}",
         opties=["31,4 cm", "15,7 cm", "78,5 cm"],
         antwoord=0,
         uitleg="Omtrek = 2 × π × straal = 2 × 3,14 × 5 = 31,4 cm. Met 78,5 zou je de oppervlakte hebben.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een cirkel heeft een straal van 5 cm. Hoe groot is de oppervlakte? Neem π = 3,14.",
+        vraag="Een cirkel heeft een straal van 5 cm. Hoe groot is de oppervlakte? Neem π = 3,14. {{maat cirkel straal 5}}",
         opties=["78,5 cm²", "31,4 cm²", "15,7 cm²"],
         antwoord=0,
         uitleg="Oppervlakte = π × straal² = 3,14 × 25 = 78,5 cm². In de formule kwadrateer je de straal, je vermenigvuldigt niet met 2.",
     ),
     dict(
         type="invultekst",
-        vraag="Wat is het volume van een kubus met een ribbe van 4 cm, in cm³?",
+        vraag="Wat is het volume van een kubus met een ribbe van 4 cm, in cm³? {{ruimte kubus 4}}",
         antwoord="64",
         uitleg="Volume kubus = ribbe³ = 4 × 4 × 4 = 64 cm³.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een balk is 5 cm bij 3 cm bij 2 cm. Wat is zijn volume?",
+        vraag="Een balk is 5 cm bij 3 cm bij 2 cm. Wat is zijn volume? {{ruimte balk 5x3x2}}",
         opties=["30 cm³", "60 cm³", "10 cm³"],
         antwoord=0,
         uitleg="Volume balk = lengte × breedte × hoogte = 5 × 3 × 2 = 30 cm³.",
@@ -136,7 +143,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel is 2,5 m² in dm²?",
+        vraag="Hoeveel is 2,5 m² in dm²? {{ladder oppervlakte}}",
         opties=["250 dm²", "25 dm²", "2500 dm²"],
         antwoord=0,
         uitleg="Bij oppervlakte gaat elke stap maal 100, niet maal 10: 2,5 × 100 = 250 dm².",
@@ -167,69 +174,69 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een trapezium heeft evenwijdige zijden van 6 cm en 10 cm en een hoogte van 4 cm. Wat is zijn oppervlakte?",
+        vraag="Een trapezium heeft evenwijdige zijden van 6 cm en 10 cm en een hoogte van 4 cm. Wat is zijn oppervlakte? {{maat trapezium 6-10-4}}",
         opties=["32 cm²", "40 cm²", "64 cm²"],
         antwoord=0,
         uitleg="Oppervlakte trapezium = (som van de evenwijdige zijden) × hoogte : 2 = (6 + 10) × 4 : 2 = 32 cm².",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een ruit heeft diagonalen van 8 cm en 6 cm. Wat is zijn oppervlakte?",
+        vraag="Een ruit heeft diagonalen van 8 cm en 6 cm. Wat is zijn oppervlakte? {{maat ruit 8x6}}",
         opties=["24 cm²", "48 cm²", "14 cm²"],
         antwoord=0,
         uitleg="Oppervlakte ruit = (diagonaal × diagonaal) : 2 = (8 × 6) : 2 = 24 cm².",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een cirkel heeft een diameter van 10 cm. Hoe groot is de omtrek? Neem π = 3,14.",
+        vraag="Een cirkel heeft een diameter van 10 cm. Hoe groot is de omtrek? Neem π = 3,14. {{maat cirkel diameter 10}}",
         opties=["31,4 cm", "62,8 cm", "78,5 cm"],
         antwoord=0,
         uitleg="Omtrek = π × diameter = 3,14 × 10 = 31,4 cm. Let op of er een straal of een diameter gegeven is.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat is de oppervlakte van een kubus met een ribbe van 3 cm?",
+        vraag="Wat is de oppervlakte van een kubus met een ribbe van 3 cm? {{ruimte kubus 3}}",
         opties=["54 cm²", "27 cm²", "9 cm²"],
         antwoord=0,
         uitleg="Een kubus heeft zes gelijke vierkanten: 6 × (3 × 3) = 54 cm². Met 27 zou je het volume hebben, en dat staat in cm³.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een balk is 5 cm bij 4 cm bij 2 cm. Wat is zijn totale oppervlakte?",
+        vraag="Een balk is 5 cm bij 4 cm bij 2 cm. Wat is zijn totale oppervlakte? {{ruimte balk 5x4x2}}",
         opties=["76 cm²", "40 cm²", "38 cm²"],
         antwoord=0,
         uitleg="Drie paar vlakken: 2 × (5 × 4) + 2 × (5 × 2) + 2 × (4 × 2) = 40 + 20 + 16 = 76 cm².",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een cilinder heeft een straal van 3 cm en een hoogte van 10 cm. Wat is zijn volume? Neem π = 3,14.",
+        vraag="Een cilinder heeft een straal van 3 cm en een hoogte van 10 cm. Wat is zijn volume? Neem π = 3,14. {{ruimte cilinder 3x10}}",
         opties=["282,6 cm³", "94,2 cm³", "188,4 cm³"],
         antwoord=0,
         uitleg="Volume cilinder = π × straal² × hoogte = 3,14 × 9 × 10 = 282,6 cm³.",
     ),
     dict(
         type="invultekst",
-        vraag="Hoeveel liter gaat er in een kubus van 2 dm bij 2 dm bij 2 dm?",
+        vraag="Hoeveel liter gaat er in een kubus van 2 dm bij 2 dm bij 2 dm? {{ruimte kubus 2}}",
         antwoord="8",
         uitleg="2 × 2 × 2 = 8 dm³, en 1 dm³ is 1 liter, dus 8 liter.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Een zwembad van 10 m bij 5 m staat 1,5 m vol water. Hoeveel liter is dat?",
+        vraag="Een zwembad van 10 m bij 5 m staat 1,5 m vol water. Hoeveel liter is dat? {{ruimte balk 10x1,5x5}}",
         opties=["75 000 l", "75 l", "7500 l"],
         antwoord=0,
         uitleg="Volume = 10 × 5 × 1,5 = 75 m³. Eén m³ is 1000 liter, dus 75 000 liter.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel is 3 m² in cm²?",
+        vraag="Hoeveel is 3 m² in cm²? {{ladder oppervlakte}}",
         opties=["30 000 cm²", "300 cm²", "3000 cm²"],
         antwoord=0,
         uitleg="Van m naar cm is maal 100, dus bij oppervlakte maal 100 × 100 = 10 000. Dat geeft 3 × 10 000 = 30 000 cm².",
     ),
     dict(
         type="meerkeuze",
-        vraag="Hoeveel is 2 m³ in liter?",
+        vraag="Hoeveel is 2 m³ in liter? {{ladder volume}}",
         opties=["2000 l", "200 l", "20 l"],
         antwoord=0,
         uitleg="1 m³ = 1000 dm³ = 1000 liter, dus 2 m³ = 2000 liter.",
@@ -243,14 +250,14 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een figuur bestaat uit een vierkant van 6 cm met daarop een halve cirkel met diameter 6 cm. Wat is de oppervlakte? Neem π = 3,14.",
+        vraag="Een figuur bestaat uit een vierkant van 6 cm met daarop een halve cirkel met diameter 6 cm. Wat is de oppervlakte? Neem π = 3,14. {{samengesteld halvecirkel 6}}",
         opties=["50,13 cm²", "64,26 cm²", "42,13 cm²"],
         antwoord=0,
         uitleg="Vierkant: 6 × 6 = 36. Halve cirkel met straal 3: (3,14 × 9) : 2 = 14,13. Samen 50,13 cm². Bij samengestelde figuren splits je in stukken die je wél kent.",
     ),
     dict(
         type="meerkeuze",
-        vraag="Uit een vierkant van 10 cm knip je in elke hoek een vierkantje van 2 cm. Wat blijft er over aan oppervlakte?",
+        vraag="Uit een vierkant van 10 cm knip je in elke hoek een vierkantje van 2 cm. Wat blijft er over aan oppervlakte? {{samengesteld hoekjes 10 2}}",
         opties=["84 cm²", "96 cm²", "64 cm²"],
         antwoord=0,
         uitleg="Het grote vierkant is 100 cm². Vier vierkantjes van 2 × 2 = 4 cm² geven samen 16 cm². Blijft over: 100 − 16 = 84 cm².",
