@@ -92,6 +92,21 @@ export default async function BeheerPage() {
           </section>
 
           <section>
+            <h2 className="font-display text-lg font-semibold text-ink">Gezinnen</h2>
+            <p className="mt-3 text-sm text-ink-dim">
+              Wie heeft volledige toegang, en waar komt die vandaan? Hier zet je de
+              gratis toegang van een gezin aan of uit, bijvoorbeeld als een
+              testperiode afgelopen is.
+            </p>
+            <Link
+              href="/beheer/gezinnen"
+              className="mt-4 inline-block rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
+            >
+              Gezinnen bekijken &rarr;
+            </Link>
+          </section>
+
+          <section>
             <h2 className="font-display text-lg font-semibold text-ink">Opvolging plusklas</h2>
             <p className="mt-3 text-sm text-ink-dim">
               De fiche per plusklaskind: voortgang, jullie opmerkingen en het werk dat ze
