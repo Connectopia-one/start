@@ -16,12 +16,13 @@ type Aanvraag = {
   created_at: string;
 };
 
-function tijdstip(waarde: string) {
+function tijdstip(waarde: string, metSeconden = false) {
   return new Date(waarde).toLocaleString("nl-BE", {
     day: "numeric",
     month: "long",
     hour: "2-digit",
     minute: "2-digit",
+    ...(metSeconden ? { second: "2-digit" as const } : {}),
   });
 }
 
@@ -36,6 +37,39 @@ function vindWaarde(gegevens: Record<string, string>, woord: string) {
     k.toLowerCase().includes(woord)
   );
   return sleutel ? gegevens[sleutel] : null;
+}
+
+/*
+  Dezelfde persoon twee keer in de lijst.
+
+  Dat kan twee dingen betekenen: iemand heeft het formulier twee keer ingevuld,
+  of er is twee keer verstuurd met één invulbeurt (een tweede klik terwijl de
+  eerste nog bezig was). Het verschil zie je aan de tijd: liggen ze seconden uit
+  elkaar, dan is het dat tweede. Daarom staan bij een dubbel de seconden erbij.
+
+  We vergelijken op mailadres of telefoonnummer binnen hetzelfde onderwerp,
+  want dat is wat een gezin uniek maakt. Bij de winactie telt dit dubbel: wie
+  er twee keer in staat, zou anders twee kansen hebben bij de loting.
+*/
+function sleutelVan(a: Aanvraag) {
+  const mail = vindWaarde(a.gegevens, "mail")?.trim().toLowerCase();
+  const gsm = vindWaarde(a.gegevens, "gsm")?.replace(/\D/g, "");
+  const wie = mail || (gsm && gsm.length >= 8 ? gsm : null);
+  return wie ? `${a.onderwerp}|${wie}` : null;
+}
+
+function zoekDubbels(aanvragen: Aanvraag[]) {
+  const perSleutel = new Map<string, Aanvraag[]>();
+  for (const a of aanvragen) {
+    const sleutel = sleutelVan(a);
+    if (!sleutel) continue;
+    perSleutel.set(sleutel, [...(perSleutel.get(sleutel) ?? []), a]);
+  }
+  const dubbel = new Set<string>();
+  for (const groep of perSleutel.values()) {
+    if (groep.length > 1) groep.forEach((a) => dubbel.add(a.id));
+  }
+  return dubbel;
 }
 
 export default async function AanvragenBeheer({
@@ -57,6 +91,7 @@ export default async function AanvragenBeheer({
   const aanvragen = (data ?? []) as Aanvraag[];
   const nieuw = aanvragen.filter((a) => !a.gezien).length;
   const open = aanvragen.filter((a) => !a.afgehandeld).length;
+  const dubbels = zoekDubbels(aanvragen);
 
   return (
     <>
@@ -75,6 +110,14 @@ export default async function AanvragenBeheer({
           {nieuw > 0 ? ` · ${nieuw} nieuw` : ""}
           {open > 0 ? ` · ${open} nog open` : ""}
         </p>
+        {dubbels.size > 0 && (
+          <p className="mt-2 rounded-md bg-amber/10 px-3 py-2 text-sm text-ink">
+            {dubbels.size} aanvragen staan er meer dan één keer in, van dezelfde
+            persoon. Ze zijn gemarkeerd, met de seconden erbij: liggen ze
+            seconden uit elkaar, dan is er twee keer verstuurd met één
+            invulbeurt en mag je er één verwijderen.
+          </p>
+        )}
 
         {/* Staat de tabel er nog niet, dan zeggen we wat er moet gebeuren in
             plaats van een leeg scherm te tonen. */}
@@ -125,6 +168,7 @@ export default async function AanvragenBeheer({
           {aanvragen.map((aanvraag) => {
             const mail = vindWaarde(aanvraag.gegevens, "mail");
             const gsm = vindWaarde(aanvraag.gegevens, "gsm");
+            const isDubbel = dubbels.has(aanvraag.id);
             return (
               <li
                 key={aanvraag.id}
@@ -140,10 +184,15 @@ export default async function AanvragenBeheer({
                   <div>
                     <p className="font-medium text-ink">{aanvraag.onderwerp}</p>
                     <p className="mt-0.5 text-xs text-ink-dim">
-                      {tijdstip(aanvraag.created_at)}
+                      {tijdstip(aanvraag.created_at, isDubbel)}
                       {!aanvraag.gezien && " · nieuw"}
                       {aanvraag.afgehandeld && " · afgehandeld"}
                     </p>
+                    {isDubbel && (
+                      <p className="mt-1 inline-block rounded-full bg-amber/15 px-2 py-0.5 text-xs font-medium text-ink">
+                        staat meer dan één keer in de lijst
+                      </p>
+                    )}
                   </div>
                   <div className="flex flex-wrap gap-2">
                     {mail && (

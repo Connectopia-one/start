@@ -2,6 +2,7 @@ import type { ReactNode } from "react";
 import type { Veld } from "@/content/formulier";
 import { formulierTekst, velden } from "@/content/formulier";
 import { aanvraagVersturen } from "@/app/acties";
+import { Verstuurknop } from "@/components/Verstuurknop";
 
 /*
   Het formulier dat op twee plaatsen gebruikt wordt: bij het aanbod
@@ -192,12 +193,7 @@ export function Aanvraagformulier({
       </div>
 
       <div>
-        <button
-          type="submit"
-          className="rounded-full bg-green px-7 py-3 text-[16px] font-extrabold text-cream transition hover:-translate-y-0.5 hover:bg-green-mid"
-        >
-          {formulierTekst.verstuurKnop} →
-        </button>
+        <Verstuurknop />
       </div>
     </form>
   );
