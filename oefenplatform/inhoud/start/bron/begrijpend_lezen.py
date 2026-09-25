@@ -1,0 +1,379 @@
+# -*- coding: utf-8 -*-
+"""Begrijpend lezen — Nederlands 🌱 Start (richtpunt: einde zesde leerjaar).
+
+Twee hoofdstukken, elk met één tekst bovenaan en twintig vragen die je enkel
+kan beantwoorden door die tekst gelezen te hebben. Geen enkele vraag is op te
+lossen met algemene kennis of met gokken op het langste antwoord.
+
+Regels die hier gelden:
+  * De tekst is zelf geschreven, niet overgenomen. Wat er als feit in staat,
+    is algemeen geweten en niet verzonnen over een bestaande persoon of zaak.
+  * Elk woord tussen *sterretjes* staat in de woordenlijst, en omgekeerd.
+  * Elk invulantwoord staat letterlijk in de tekst, tenzij het gemarkeerd is
+    met vrij=True (dan moet een kind zelf samenvatten).
+  * De vragen dekken de vaardigheden uit de minimumdoelen: hoofdgedachte,
+    details, volgorde, betekenis uit de context, feit tegenover mening,
+    verwijswoorden en een besluit trekken.
+"""
+
+# ══════════════════════════════════════════════════════════ deel 1
+
+TEKST_1 = """\
+Lotte keek al de hele week uit naar deze avond. Om kwart over negen stond ze
+met haar papa aan de ingang van het park. Een gids deelde kleine grijze
+toestellen uit. “Dit is een *batdetector*”, zei hij. “Vleermuizen roepen zo
+hoog dat onze oren het niet oppikken. Dit toestel vertaalt hun geroep naar
+geluid dat wij wel horen.”
+
+Lotte draaide aan het wieltje. Eerst hoorde ze alleen geruis. Toen klonk er
+een reeks droge tikken, alsof iemand met een stokje op een lege doos sloeg.
+“Daar”, fluisterde de gids. Boven de vijver scheerde een donker vlekje heen
+en weer.
+
+Vleermuizen zijn geen vogels. Het zijn *zoogdieren*: ze krijgen levende
+jongen en die drinken melk bij hun moeder. Een vleermuis heeft ook geen
+veren. Tussen haar lange vingers zit een dunne vlieghuid, en daarmee kan ze
+niet alleen vliegen maar ook bijzonder scherp draaien.
+
+Jagen doet ze in het pikkedonker, en toch botst ze nergens tegen. Dat komt
+door *echolocatie*. De vleermuis roept, het geluid kaatst terug op alles wat
+in de weg zit, en uit die echo leidt ze af waar iets is, hoe ver het weg is
+en hoe groot het is. Hoe dichter ze bij haar prooi komt, hoe sneller ze
+roept. Die snelle reeks tikjes vlak voor de vangst noemen kenners de
+*eindroffel*.
+
+“Luister”, zei de gids. “Verandert het tikken in geratel, dan heeft ze net
+een mug te pakken.” Lotte hield haar adem in. Het geratel kwam, en daarna
+was het even stil.
+
+Zo'n klein lijfje eet meer dan je zou denken: op één nacht verdwijnen er
+honderden muggen en motten in. Een tuin waar vleermuizen jagen, is dus een
+tuin met minder muggen.
+
+In de winter valt er geen insect te vangen. Vleermuizen kruipen dan weg in
+een kelder, een oude spoorwegtunnel of een spleet in een muur, en gaan in
+*winterslaap*. Hun hart klopt trager en hun lichaam koelt af. Wie hen in die
+maanden wakker maakt, doet meer kwaad dan hij beseft. Elke keer dat een
+vleermuis wakker schrikt, verbruikt ze een stuk van haar vetvoorraad, en die
+moet tot de lente meegaan.
+
+Daarom zijn alle vleermuizen in ons land beschermd. Hun verblijfplaats mag
+je niet verstoren. Wie een zolder verbouwt waar vleermuizen zitten, moet
+daar dus rekening mee houden. Wie ze wil helpen, hangt een vleermuiskast
+tegen een muur die 's avonds nog warm is van de zon.
+
+Op de terugweg vroeg Lotte of ze volgend jaar opnieuw mocht komen. “Ik vind
+dit het leukste uitstapje van heel het jaar”, zei ze. Haar papa lachte.
+“Dan schrijven we ons gewoon opnieuw in.”
+"""
+
+WOORDEN_1 = [
+    ("batdetector", "een toestel dat het hoge geroep van vleermuizen omzet in geluid dat mensen kunnen horen"),
+    ("zoogdieren", "dieren die levende jongen krijgen en die jongen melk geven"),
+    ("echolocatie", "je weg en je prooi vinden door te luisteren naar de echo van je eigen geroep"),
+    ("eindroffel", "de snelle reeks tikjes die een vleermuis maakt vlak voor ze haar prooi vangt"),
+    ("winterslaap", "een diepe slaap van maanden waarin het lichaam afkoelt en traag werkt"),
+]
+
+VRAGEN_1 = [
+    dict(type="meerkeuze",
+         vraag="Waarover gaat deze tekst vooral?",
+         opties=["Over hoe vleermuizen leven en waarom we ze met rust laten",
+                 "Over een park waar 's avonds veel volk komt",
+                 "Over de toestellen die een gids in het park uitdeelt aan bezoekers",
+                 "Over welke insecten er in de zomer rondvliegen"],
+         antwoord=0,
+         uitleg="Alle alinea's gaan over de vleermuis zelf: hoe ze jaagt, wat ze eet, wat ze in de winter doet en waarom ze beschermd is."),
+    dict(type="meerkeuze",
+         vraag="Waarom had Lotte een toestel nodig om de vleermuizen te horen?",
+         opties=["Omdat vleermuizen zo hoog roepen dat mensenoren het niet oppikken",
+                 "Omdat het te lawaaierig was in het park",
+                 "Omdat vleermuizen alleen roepen als er ergens een toestel in de buurt staat",
+                 "Omdat ze te ver weg vlogen"],
+         antwoord=0,
+         uitleg="De gids zegt het in de eerste alinea: vleermuizen roepen zo hoog dat onze oren het niet oppikken."),
+    dict(type="invultekst",
+         vraag="Hoe heet het toestel dat de gids uitdeelde? Vul in: een ___.",
+         antwoord="batdetector",
+         uitleg="Dat staat in de eerste alinea, tussen aanhalingstekens."),
+    dict(type="waarofniet",
+         vraag="Volgens de tekst is een vleermuis een soort vogel.",
+         antwoord=False,
+         uitleg="De derde alinea begint net met het tegendeel: vleermuizen zijn geen vogels, maar zoogdieren."),
+    dict(type="invultekst",
+         vraag="Vleermuizen zijn geen vogels, maar ___.",
+         antwoord="zoogdieren",
+         uitleg="Ze krijgen levende jongen en die drinken melk bij hun moeder. Dat maakt hen zoogdieren."),
+    dict(type="meerkeuze",
+         vraag="Wat betekent echolocatie, zoals het in de tekst uitgelegd wordt?",
+         opties=["Uit de echo van je eigen geroep afleiden waar iets is",
+                 "In het donker beter zien dan overdag",
+                 "Met je vleugels voelen wat er voor je hangt",
+                 "Een geluid maken zodat insecten stilvallen"],
+         antwoord=0,
+         uitleg="De tekst legt het uit: de vleermuis roept, het geluid kaatst terug, en uit die echo leidt ze af waar iets is en hoe groot het is."),
+    dict(type="waarofniet",
+         vraag="Hoe dichter een vleermuis bij haar prooi komt, hoe sneller ze roept.",
+         antwoord=True,
+         uitleg="Precies daardoor ontstaat de eindroffel: de tikjes volgen elkaar steeds sneller op."),
+    dict(type="invultekst",
+         vraag="Hoe noemen kenners de snelle reeks tikjes vlak voor de vangst?",
+         antwoord="eindroffel",
+         uitleg="Die naam staat op het einde van de vierde alinea."),
+    dict(type="meerkeuze",
+         vraag="Wat hoorde Lotte in deze volgorde?",
+         opties=["Eerst geruis, dan droge tikken, dan geratel",
+                 "Eerst geratel, dan geruis, dan droge tikken",
+                 "Eerst droge tikken, dan geruis, dan stilte",
+                 "Eerst stilte, dan geratel, dan geruis"],
+         antwoord=0,
+         uitleg="Ze draaide aan het wieltje en hoorde eerst geruis, daarna de droge tikken, en later het geratel van de eindroffel."),
+    dict(type="waarofniet",
+         vraag="Volgens de tekst jagen vleermuizen in de winter vooral op motten.",
+         antwoord=False,
+         uitleg="In de winter valt er juist geen insect te vangen. Daarom gaan ze in winterslaap."),
+    dict(type="meerkeuze",
+         vraag="Waarom is het schadelijk om een vleermuis in de winter wakker te maken?",
+         opties=["Omdat ze dan een stuk van haar vetvoorraad verbruikt die tot de lente moet meegaan",
+                 "Omdat ze dan haar jongen niet meer terugvindt",
+                 "Omdat ze dan meteen naar buiten vliegt en in de winterkou nergens nog iets te eten vindt",
+                 "Omdat haar geroep dan niet meer werkt"],
+         antwoord=0,
+         uitleg="Dat staat in de alinea over de winterslaap: elke keer dat ze wakker schrikt, gaat er vet op dat ze niet kan aanvullen."),
+    dict(type="invultekst",
+         vraag="Waarvan teert een vleermuis tijdens haar winterslaap? Van haar ___.",
+         antwoord="vetvoorraad",
+         uitleg="De tekst noemt het zo: haar vetvoorraad moet tot de lente meegaan."),
+    dict(type="waarofniet",
+         vraag="Volgens de tekst zijn alle vleermuizen in ons land beschermd.",
+         antwoord=True,
+         uitleg="Dat staat er letterlijk, samen met het verbod om hun verblijfplaats te verstoren."),
+    dict(type="meerkeuze",
+         vraag="Welke zin uit de tekst is een mening en geen feit?",
+         opties=["“Ik vind dit het leukste uitstapje van heel het jaar.”",
+                 "“Vleermuizen zijn geen vogels.”",
+                 "“Hun hart klopt trager en hun lichaam koelt af.”",
+                 "“Een gids deelde kleine grijze toestellen uit.”"],
+         antwoord=0,
+         uitleg="Wat iemand het leukste vindt, kan je niet nameten. De drie andere zinnen kan je nakijken."),
+    dict(type="meerkeuze",
+         vraag="“... verbruikt ze een stuk van haar vetvoorraad, en die moet tot de lente meegaan.” Waar slaat het woord die op?",
+         opties=["op de vetvoorraad", "op de vleermuis", "op de winter", "op de spleet in de muur"],
+         antwoord=0,
+         uitleg="Het is de vetvoorraad die tot de lente moet meegaan, niet de vleermuis of de winter."),
+    dict(type="waarofniet",
+         vraag="De gids zei dat geratel betekent dat de vleermuis net een mug gevangen heeft.",
+         antwoord=True,
+         uitleg="“Verandert het tikken in geratel, dan heeft ze net een mug te pakken”, zei hij."),
+    dict(type="invultekst",
+         vraag="Tussen welke lichaamsdelen van de vleermuis zit haar vlieghuid gespannen? Tussen haar lange ___.",
+         antwoord="vingers",
+         uitleg="Dat staat in de derde alinea: tussen haar lange vingers zit een dunne vlieghuid."),
+    dict(type="meerkeuze",
+         vraag="Waarom heeft een tuin waar vleermuizen jagen minder muggen?",
+         opties=["Omdat één vleermuis er op een nacht honderden opeet",
+                 "Omdat muggen bang zijn van het geluid van een batdetector",
+                 "Omdat vleermuizen het water in de vijver zuiver houden",
+                 "Omdat muggen niet vliegen als het donker is"],
+         antwoord=0,
+         uitleg="De tekst zegt dat er op één nacht honderden muggen en motten in zo'n klein lijfje verdwijnen."),
+    dict(type="waarofniet",
+         vraag="Lotte ging samen met haar mama naar het park.",
+         antwoord=False,
+         uitleg="Ze stond er met haar papa. Het is een detail, maar wel eentje dat je in de tweede zin kan nalezen."),
+    dict(type="meerkeuze",
+         vraag="Welke titel past het best boven de alinea over de winter?",
+         opties=["Slapen tot er weer te eten valt",
+                 "Jagen in het donker",
+                 "Een toestel dat geluid vertaalt",
+                 "Een kast tegen een warme muur"],
+         antwoord=0,
+         uitleg="Die alinea gaat over de winterslaap, en de reden ervoor is dat er geen insect meer te vangen valt."),
+]
+
+# ══════════════════════════════════════════════════════════ deel 2
+
+TEKST_2 = """\
+Je drinkt je flesje leeg en gooit het in de blauwe zak. Daarmee is het
+verhaal van dat flesje niet gedaan. Het begint pas.
+
+Alles wat de ophaalwagen meeneemt, komt terecht in een *sorteercentrum*.
+Daar rijdt het afval over lange lopende banden. Luchtstromen blazen de
+lichte folies opzij, magneten vissen de blikjes eruit, en toestellen
+herkennen aan het teruggekaatste licht uit welke soort plastic elk stuk
+gemaakt is. Want plastic is niet één ding. Een drankfles is bijna altijd van
+*pet*, een fles wasmiddel is van een steviger soort. Smelt je die twee door
+elkaar, dan krijg je een massa waar niemand nog iets mee kan.
+
+Wat overblijft, wordt gewassen. Etiketten en lijmresten moeten eraf, want
+die zouden later vlekken geven. Daarna gaan de flessen door een molen die ze
+tot *vlokken* versnippert, kleine schilfertjes zo groot als een nagel. In die
+vorm neemt een vracht plastic veel minder plaats in dan een berg lege
+flessen.
+
+De vlokken worden verwarmd tot ze zacht worden, en door een plaat met
+piepkleine gaatjes geduwd. Wat eruit komt, is een lange draad die afkoelt en
+hard wordt: een *vezel*. Uit die vezels weeft men stof, en van die stof maakt
+men bijvoorbeeld een fleecetrui of de vulling van een slaapzak. Uit ongeveer
+twintig flessen haal je genoeg vezel voor één trui.
+
+Toch kan dit niet eindeloos doorgaan. Elke keer dat plastic gesmolten wordt,
+worden de lange ketens waaruit het bestaat een beetje korter, en wordt het
+materiaal een beetje zwakker. Van een fles kan je een trui maken, maar van
+een trui zelden opnieuw een fles. Vakmensen noemen dat *downcycling*: het
+materiaal gaat niet verloren, maar het zakt wel een trapje.
+
+Daarom staat recycleren pas op de derde plaats. Het best van al is een fles
+die nooit gemaakt moest worden, bijvoorbeeld omdat je kraantjeswater
+meeneemt in een drinkbus. Daarna komt hergebruik: dezelfde fles opnieuw
+vullen. En pas als geen van die twee kan, is recycleren het beste wat er nog
+overblijft.
+
+Wat jij kan doen, is kleiner dan je denkt en helpt toch. Duw de fles plat,
+zodat er meer in de zak past. Laat de dop erop, want een losse dop is zo
+licht dat hij in de sorteerinstallatie bij het verkeerde hoopje belandt.
+Spoel wat vet of saus eruit. En steek geen zak vol afval in een andere zak:
+wat dicht zit, kan niet gesorteerd worden en gaat naar de verbranding.
+
+Ik vind het jammer dat veel mensen dat laatste niet weten. Eén verkeerd
+gevulde zak kan een hele partij bederven, en dat terwijl het maar een paar
+seconden kost om het juist te doen.
+"""
+
+WOORDEN_2 = [
+    ("sorteercentrum", "een fabriek waar afval van elkaar gescheiden wordt per soort"),
+    ("pet", "de soort plastic waar drankflessen bijna altijd van gemaakt zijn"),
+    ("vlokken", "kleine schilfertjes plastic, gemaakt door flessen te versnipperen"),
+    ("vezel", "een lange dunne draad waarvan je stof kan weven"),
+    ("downcycling", "opnieuw gebruiken waarbij het materiaal elke keer wat zwakker wordt"),
+]
+
+VRAGEN_2 = [
+    dict(type="meerkeuze",
+         vraag="Wat is de hoofdgedachte van deze tekst?",
+         opties=["Een plastic fles krijgt een tweede leven, maar niet eindeloos",
+                 "Plastic flessen zijn slecht voor het milieu en moeten verboden worden",
+                 "Een sorteercentrum is een gevaarlijke werkplek",
+                 "Fleecetruien zijn warmer dan andere truien"],
+         antwoord=0,
+         uitleg="De tekst volgt de weg van een fles tot een trui en legt daarna uit waarom die weg niet oneindig verder loopt."),
+    dict(type="meerkeuze",
+         vraag="Wat gebeurt er als eerste met een fles nadat de ophaalwagen ze meeneemt?",
+         opties=["Ze wordt gesorteerd per soort plastic",
+                 "Ze wordt versnipperd tot vlokken",
+                 "Ze wordt verwarmd en tot een vezel getrokken",
+                 "Ze wordt gewassen"],
+         antwoord=0,
+         uitleg="Eerst het sorteercentrum, dan wassen, dan versnipperen, dan smelten en spinnen."),
+    dict(type="invultekst",
+         vraag="Hoe heet de plaats waar het opgehaalde afval per soort gescheiden wordt?",
+         antwoord="sorteercentrum",
+         uitleg="Dat staat in de tweede alinea."),
+    dict(type="waarofniet",
+         vraag="Volgens de tekst is alle plastic hetzelfde en mag je het gerust samen smelten.",
+         antwoord=False,
+         uitleg="De tekst zegt net het tegendeel: smelt je pet en de steviger soort door elkaar, dan krijg je een massa waar niemand iets mee kan."),
+    dict(type="invultekst",
+         vraag="Van welke soort plastic is een drankfles bijna altijd gemaakt?",
+         antwoord="pet",
+         uitleg="De tekst noemt het pet, tegenover de steviger soort van een wasmiddelfles."),
+    dict(type="meerkeuze",
+         vraag="Waarom worden de flessen gewassen voor ze versnipperd worden?",
+         opties=["Omdat etiketten en lijmresten later vlekken zouden geven",
+                 "Omdat ze anders te licht zijn om door de molen versnipperd te worden",
+                 "Omdat water het plastic sterker maakt",
+                 "Omdat de dop er anders niet af kan"],
+         antwoord=0,
+         uitleg="Dat staat in de derde alinea, als reden bij het wassen."),
+    dict(type="invultekst",
+         vraag="Hoe noemt de tekst de kleine schilfertjes plastic die uit de molen komen?",
+         antwoord="vlokken",
+         uitleg="Zo groot als een nagel, staat erbij."),
+    dict(type="meerkeuze",
+         vraag="Hoe ontstaat een vezel, volgens de tekst?",
+         opties=["Zachte vlokken worden door een plaat met piepkleine gaatjes geduwd",
+                 "Vlokken worden met lijm aan elkaar geplakt tot er een lange draad ontstaat",
+                 "Een fles wordt in smalle reepjes geknipt",
+                 "Stof wordt uit elkaar geplozen"],
+         antwoord=0,
+         uitleg="Wat uit die gaatjes komt, koelt af en wordt hard: dat is de vezel."),
+    dict(type="waarofniet",
+         vraag="Volgens de tekst heb je ongeveer twintig flessen nodig voor één trui.",
+         antwoord=True,
+         uitleg="Dat getal staat op het einde van de alinea over de vezels."),
+    dict(type="meerkeuze",
+         vraag="Waarom wordt plastic zwakker elke keer dat het gesmolten wordt?",
+         opties=["De lange ketens waaruit het bestaat, worden korter",
+                 "Er blijft water in achter dat het plastic van binnenuit aantast",
+                 "De kleurstof brandt weg",
+                 "Er komen luchtbellen in"],
+         antwoord=0,
+         uitleg="Dat is precies wat de tekst uitlegt bij het woord downcycling."),
+    dict(type="invultekst",
+         vraag="Hoe noemen vakmensen het als materiaal bij elke ronde een trapje zakt?",
+         antwoord="downcycling",
+         uitleg="Het materiaal gaat niet verloren, maar het wordt wel minder waard."),
+    dict(type="meerkeuze",
+         vraag="Wat is volgens de tekst het allerbeste voor het milieu?",
+         opties=["Een fles die nooit gemaakt moest worden",
+                 "Een fles die netjes gerecycleerd wordt tot nieuwe vezel",
+                 "Een fles die opnieuw gevuld wordt",
+                 "Een fles die verbrand wordt"],
+         antwoord=0,
+         uitleg="De tekst zet de drie op een rij: eerst vermijden, dan hergebruiken, en pas daarna recycleren."),
+    dict(type="waarofniet",
+         vraag="Volgens de tekst staat recycleren pas op de derde plaats.",
+         antwoord=True,
+         uitleg="Eerst komt een fles die nooit gemaakt moest worden, dan hergebruik, en pas daarna recycleren."),
+    dict(type="meerkeuze",
+         vraag="Waarom vraagt de tekst om de dop op de fles te laten?",
+         opties=["Een losse dop is zo licht dat hij bij het verkeerde hoopje belandt",
+                 "Zonder dop lekt de fles in de zak",
+                 "De dop is van hetzelfde soort plastic gemaakt als de fles zelf en hoort er dus bij",
+                 "Met dop past er meer in de zak"],
+         antwoord=0,
+         uitleg="Dat is de reden die in de voorlaatste alinea staat. Platduwen is wat er wel voor zorgt dat er meer in de zak past."),
+    dict(type="waarofniet",
+         vraag="Wat in een dichtgeknoopte zak in de blauwe zak zit, kan volgens de tekst niet gesorteerd worden.",
+         antwoord=True,
+         uitleg="Het gaat dan gewoon mee naar de verbranding. Daarom vraagt de tekst om geen zak in een zak te steken."),
+    dict(type="meerkeuze",
+         vraag="Welke zin uit de tekst is een mening?",
+         opties=["“Ik vind het jammer dat veel mensen dat laatste niet weten.”",
+                 "“Etiketten en lijmresten moeten eraf.”",
+                 "“De vlokken worden verwarmd tot ze zacht worden.”",
+                 "“Een drankfles is bijna altijd van pet.”"],
+         antwoord=0,
+         uitleg="Iets jammer vinden is wat de schrijver ervan denkt. De rest kan je nagaan."),
+    dict(type="meerkeuze",
+         vraag="“Smelt je die twee door elkaar ...” Welke twee bedoelt de tekst?",
+         opties=["Het plastic van een drankfles en dat van een fles wasmiddel",
+                 "De folies en de blikjes die er in het sorteercentrum uitgehaald worden",
+                 "De etiketten en de lijm",
+                 "De vlokken en de vezels"],
+         antwoord=0,
+         uitleg="Vlak daarvoor gaat het over pet tegenover de steviger soort van een wasmiddelfles."),
+    dict(type="invultekst",
+         vraag="Wat haalt de magneet uit het afval?",
+         antwoord="blikjes",
+         uitleg="Luchtstromen blazen de folies opzij, magneten vissen de blikjes eruit."),
+    dict(type="waarofniet",
+         vraag="Volgens de tekst kan je van een fleecetrui makkelijk opnieuw een fles maken.",
+         antwoord=False,
+         uitleg="Van een fles kan je een trui maken, maar van een trui zelden opnieuw een fles."),
+    dict(type="meerkeuze",
+         vraag="Voor wie is deze tekst vooral geschreven?",
+         opties=["Voor wie zelf afval sorteert en wil weten waarom het zo moet",
+                 "Voor machinisten die een sorteerinstallatie bedienen",
+                 "Voor wie een fleecetrui wil kopen",
+                 "Voor onderzoekers die nieuw plastic uitvinden"],
+         antwoord=0,
+         uitleg="De tekst spreekt je rechtstreeks aan (“wat jij kan doen”) en legt uit waarom de regels zijn zoals ze zijn."),
+]
+
+HOOFDSTUKKEN = [
+    dict(titel="Begrijpend lezen — de avond van de vleermuizen",
+         tekst=TEKST_1, woorden=WOORDEN_1, vragen=VRAGEN_1),
+    dict(titel="Begrijpend lezen — van fles tot trui",
+         tekst=TEKST_2, woorden=WOORDEN_2, vragen=VRAGEN_2),
+]

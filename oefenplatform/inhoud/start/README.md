@@ -124,3 +124,44 @@ Elke vraag heeft een `type`:
 
 `uitleg` is de zin die het kind te zien krijgt na het antwoorden. Laat die nooit
 weg: daar leert een kind het meest van.
+
+## Begrijpend lezen: een tekst bij een hoofdstuk
+
+Een hoofdstuk kan een **leestekst** dragen. Die staat bij het oefenen boven de
+vragen en blijft staan zolang het kind ze nodig heeft. Onderaan de tekst komt
+een verklarende woordenlijst.
+
+In het importbestand ziet dat er zo uit:
+
+```json
+{"hoofdstukken": [{
+  "titel": "Begrijpend lezen — ...",
+  "niveau": "start",
+  "leestekst": "Eerste alinea.\n\nTweede alinea met een *moeilijk woord* erin.",
+  "woordenlijst": [{"woord": "moeilijk woord", "uitleg": "wat het betekent"}],
+  "vragen": [...]
+}]}
+```
+
+* Een lege regel begint een nieuwe alinea.
+* Een woord tussen sterretjes krijgt een stippellijntje; erop tikken toont de
+  uitleg uit de woordenlijst meteen onder de tekst.
+* Staat er niets over `leestekst` in het bestand, dan blijft een bestaande
+  tekst gewoon staan.
+* Kim moet `supabase/leestekst.sql` één keer gedraaid hebben.
+* In Beheer kan de tekst ook met de hand aangepast worden, onderaan de pagina
+  van het hoofdstuk. De woordenlijst gaat daar als `woord = uitleg`, één per
+  regel.
+
+De vragen en de teksten staan in `inhoud/start/bron/begrijpend_lezen.py` en
+`inhoud/spark/bron/begrijpend_lezen_spark.py`. Bouwen en nakijken:
+
+```
+python3 inhoud/start/bron/bouw_begrijpend_lezen.py          # 🌱 Start
+python3 inhoud/start/bron/bouw_begrijpend_lezen.py spark    # ✨ Spark
+```
+
+Die bouwer schrijft pas weg als alles klopt. Hij kijkt na of elk invulantwoord
+letterlijk in de tekst staat, of elk gemarkeerd woord in de woordenlijst staat,
+of het juiste antwoord niet stelselmatig de langste optie is, en of waar en
+niet-waar in evenwicht zijn.
