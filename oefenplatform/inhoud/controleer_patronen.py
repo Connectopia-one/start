@@ -76,8 +76,11 @@ def main():
     if len(sys.argv) > 1:
         paden = sys.argv[1:]
     else:
-        paden = sorted(glob.glob(str(HIER / "start" / "*.json")) +
-                       glob.glob(str(HIER / "spark" / "*.json")))
+        paden = sorted(
+            pad
+            for map in ("basis", "start", "spark", "uitdaging", "hoekje")
+            for pad in glob.glob(str(HIER / map / "*.json"))
+        )
     mis = 0
     for pad in paden:
         (tl, tm, tw, tt), meldingen = controleer(pad)

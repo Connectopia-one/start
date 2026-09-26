@@ -2,10 +2,11 @@ import Link from "next/link";
 import { Header } from "@/components/Header";
 import { getSessionProfile } from "@/lib/auth";
 import { LEERJAARNIVEAUS, vindNiveau } from "@/lib/niveaus";
-import { startUitleg, basisUitleg } from "@/inhoud/onderwijsdoelen";
+import { startUitleg, basisUitleg, hoekjeUitleg } from "@/inhoud/onderwijsdoelen";
 
 export default async function HomePage() {
   const basis = vindNiveau("basis")!;
+  const hoekje = vindNiveau("hoekje")!;
   const session = await getSessionProfile();
 
   return (
@@ -76,6 +77,22 @@ export default async function HomePage() {
               {basis.emoji} {basis.naam}
             </span>
             <span className="mt-1 block text-sm text-ink-dim">{basisUitleg}</span>
+          </span>
+          <span aria-hidden className="shrink-0 text-forest">&rarr;</span>
+        </Link>
+
+        {/* En het andere uiterste: een hoekje dat naast de leerstof ligt in
+            plaats van erin. Het hoort bij geen leerjaar, dus staat het hier
+            apart en niet tussen de vier categorieën. */}
+        <Link
+          href={`/niveaus/${hoekje.slug}`}
+          className="mt-4 flex items-center justify-between gap-4 rounded-xl border border-border bg-surface px-6 py-5 transition hover:border-forest hover:shadow-sm"
+        >
+          <span>
+            <span className="font-display text-lg font-semibold text-ink">
+              {hoekje.emoji} {hoekje.naam}
+            </span>
+            <span className="mt-1 block text-sm text-ink-dim">{hoekjeUitleg}</span>
           </span>
           <span aria-hidden className="shrink-0 text-forest">&rarr;</span>
         </Link>

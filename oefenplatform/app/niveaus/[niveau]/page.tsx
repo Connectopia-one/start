@@ -69,7 +69,9 @@ export default async function NiveauPage({
         <p className="mt-1 text-sm text-ink-dim">{niveau.omschrijving}</p>
         <p className="mt-3 text-sm text-ink-dim">Kies een vak om aan de slag te gaan.</p>
 
-        {!volledigeToegang && (
+        {/* Het hoekje staat naast de leerstof en is helemaal gratis, dus daar
+            hoort de banner over volledige toegang niet. */}
+        {!volledigeToegang && niveau.slug !== "hoekje" && (
           <div className="mt-6 rounded-xl border border-amber/40 bg-amber/10 px-5 py-4 text-sm text-ink">
             Volledige toegang tot alle hoofdstukken kost{" "}
             <strong>€{PRIJS_NU_EUR} per schooljaar</strong>

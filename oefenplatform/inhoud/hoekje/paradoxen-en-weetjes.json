@@ -1,0 +1,432 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Paradoxen die je hoofd kraken",
+      "niveau": "hoekje",
+      "gratis": true,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "De paradox van Olbers vraagt: als het heelal oneindig vol sterren staat, waarom is de nacht dan donker?",
+          "opties": [
+            "Het heelal is niet oneindig oud, dus niet alle sterlicht is hier al",
+            "Het stof tussen de sterren houdt het meeste licht onderweg tegen",
+            "Er staan gewoon te weinig sterren om de hemel op te vullen",
+            "Onze dampkring laat 's nachts maar een deel van het licht door"
+          ],
+          "antwoord": 0,
+          "uitleg": "In elke richting zou je op een ster moeten uitkomen, dus zou de hele hemel moeten gloeien. De uitweg: het heelal is zo'n 13,8 miljard jaar oud, dus verder licht is nog onderweg, en door de uitdijing is het licht van de verste stelsels bovendien uit het zichtbare gerekt. Stof helpt niet: dat zou zelf gaan gloeien."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom bedacht Erwin Schrödinger zijn kat die tegelijk dood en levend zou zijn?",
+          "opties": [
+            "Om te tonen hoe raar het wordt als je kwantumregels op grote dingen loslaat",
+            "Om te bewijzen dat katten echt in twee toestanden tegelijk kunnen zijn",
+            "Om uit te leggen hoe je met gif een deeltje kunt opmeten",
+            "Om aan te tonen dat niemand ooit iets met zekerheid kan weten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het was spot, geen voorspelling. Een atoom kan wel degelijk in twee toestanden tegelijk zitten, en Schrödinger vroeg zich af wat dat zou betekenen als je zo'n atoom aan een kat vastkoppelt. Zijn punt: dan klopt er iets niet aan onze uitleg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je vervangt aan een schip elke plank, één voor één, tot er geen origineel stuk meer over is. Wat is de vraag van Theseus?",
+          "opties": [
+            "Of het nog steeds hetzelfde schip is",
+            "Of het schip nog wel kan blijven drijven",
+            "Wie de eigenaar van de oude planken is",
+            "Hoeveel planken je mag vervangen voor het te duur wordt"
+          ],
+          "antwoord": 0,
+          "uitleg": "En als iemand alle oude planken opraapt en er opnieuw een schip van bouwt, welk van de twee is dan het echte? Het is geen strikvraag maar een vraag over wat identiteit eigenlijk is. In je eigen lichaam worden ook voortdurend cellen vervangen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hilberts hotel heeft oneindig veel kamers en zit helemaal vol. Er komt nog een gast. Wat nu?",
+          "opties": [
+            "Iedereen schuift één kamer op, en kamer 1 komt vrij",
+            "De nieuwe gast moet wachten tot er iemand vertrekt",
+            "De gast deelt een kamer met wie er al ligt",
+            "Er wordt een extra kamer aan het einde bijgebouwd"
+          ],
+          "antwoord": 0,
+          "uitleg": "De gast uit kamer 1 gaat naar 2, die uit 2 naar 3, enzovoort. Niemand valt uit de boot, want er is geen laatste kamer. Bij oneindigheid werkt vol niet zoals bij eindige dingen, en daar was het David Hilbert net om te doen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Er zijn evenveel even getallen als er natuurlijke getallen zijn.",
+          "antwoord": true,
+          "uitleg": "Je kunt ze twee aan twee koppelen: 1 met 2, 2 met 4, 3 met 6, en zo door. Niemand blijft over aan beide kanten, dus zijn de twee verzamelingen even groot. Dat de even getallen er maar de helft van zijn, is bij oneindige verzamelingen geen tegenspraak."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een groep van 23 mensen: hoe groot is de kans dat er twee op dezelfde dag jarig zijn?",
+          "opties": [
+            "Ongeveer de helft",
+            "Ongeveer één op tien",
+            "Ongeveer één op honderd",
+            "Bijna zeker, meer dan negen op tien"
+          ],
+          "antwoord": 0,
+          "uitleg": "Veel mensen gokken veel lager, en daarom heet het de verjaardagsparadox. Het gaat niet om jouw verjaardag maar om élk paar in de groep, en bij 23 mensen zijn dat er al 253. Vanaf 70 mensen is de kans groter dan 99 procent."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een spel kies je één van drie deuren. De presentator opent een andere deur met een geit erachter en biedt je aan te wisselen. Wat doe je best?",
+          "opties": [
+            "Wisselen, want dan win je in twee van de drie gevallen",
+            "Blijven, want dan win je in twee van de drie gevallen",
+            "Het maakt niet uit: de kans is nu vijftig om vijftig",
+            "Wisselen, maar alleen als je eerst de middelste koos"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je eerste keuze was in één op drie gevallen juist, en dat verandert niet. Dus zit de prijs in twee op drie gevallen achter een van de twee andere deuren, en de presentator heeft de foute daarvan net voor je weggehaald. Duizenden mensen schreven de wiskundige die dit uitlegde aan dat ze zich vergiste."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Volgens Zeno haalt de snelle Achilles een schildpad met voorsprong nooit in. Waar wringt zijn redenering?",
+          "opties": [
+            "Oneindig veel stapjes kunnen samen toch een eindige tijd duren",
+            "Achilles loopt in werkelijkheid niet sneller dan een schildpad",
+            "De schildpad moet ook stoppen om te rusten onderweg",
+            "Een voorsprong telt niet mee als de afstand groot genoeg is"
+          ],
+          "antwoord": 0,
+          "uitleg": "Telkens Achilles het vorige punt van de schildpad bereikt, is die alweer een eindje verder. Dat zijn oneindig veel stappen, maar ze worden zó snel kleiner dat hun som eindig is: een halve plus een kwart plus een achtste blijft onder de één."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het getal 0,999... met eindeloos veel negens is precies gelijk aan 1.",
+          "antwoord": true,
+          "uitleg": "Niet bijna, maar exact. Eén derde is 0,333..., en drie keer een derde is één, dus 0,999... is één. Of anders: als ze verschillend waren, moest er een getal tussen passen, en dat bestaat niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is er zo lastig aan de zin: deze zin is vals?",
+          "opties": [
+            "Is ze waar, dan is ze vals, en is ze vals, dan is ze waar",
+            "Ze bevat een spelfout waardoor je ze niet kunt beoordelen",
+            "Ze verwijst naar een andere zin die er niet bij staat",
+            "Ze is te kort om er iets zinnigs over te kunnen zeggen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De leugenaarsparadox draait al meer dan tweeduizend jaar rond. Het probleem zit in het spreken over zichzelf. Kurt Gödel gebruikte diezelfde truc in 1931 om iets veel diepers te bewijzen over de grenzen van de wiskunde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je reist terug in de tijd en verhindert dat je grootouders elkaar ooit ontmoeten. Waarom is dat een paradox?",
+          "opties": [
+            "Dan word jij nooit geboren, en kun je dus ook niet terugreizen",
+            "Dan zou je twee keer op dezelfde plaats tegelijk bestaan",
+            "Dan zou je ouder worden dan je eigen grootouders zijn",
+            "Dan verdwijnt de tijdmachine voordat je ermee vertrekt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het argument bijt zichzelf in de staart, en daarom denken veel natuurkundigen dat reizen naar het verleden onmogelijk moet zijn. Anderen opperen dat de natuur zoiets gewoon niet zou laten gebeuren, hoe je het ook probeert."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een tweeling: eentje blijft thuis, de ander maakt een razendsnelle ruimtereis. Wat is er bij de terugkeer aan de hand?",
+          "opties": [
+            "De reiziger is minder oud geworden dan wie thuisbleef",
+            "Wie thuisbleef is minder oud geworden dan de reiziger",
+            "Ze zijn allebei precies even oud gebleven als voordien",
+            "De reiziger is juist twee keer zo snel ouder geworden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij snelheden dicht bij die van het licht loopt de tijd trager. Het lijkt onrechtvaardig, want vanuit de raket ziet de aarde er net zo goed snel uit. Het verschil zit erin dat alleen de reiziger moet afremmen en keren, en dat breekt de symmetrie."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een extra weg aanleggen kan het verkeer voor iedereen trager maken.",
+          "antwoord": true,
+          "uitleg": "Dat heet de paradox van Braess. Als iedereen apart voor de snelste route kiest, kan die nieuwe weg zo druk worden dat het geheel er slechter van wordt. In Seoel en New York werd verkeer juist vlotter nadat een weg gesloten werd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Eén zandkorrel is geen hoop. Voeg er telkens één bij en het blijft geen hoop. Toch heb je op een bepaald moment een hoop. Waar zit het probleem?",
+          "opties": [
+            "Het woord hoop heeft geen scherpe grens",
+            "Zandkorrels verschillen te veel in grootte",
+            "De redenering telt ergens één korrel dubbel",
+            "Een hoop hangt af van de vorm, niet van het aantal"
+          ],
+          "antwoord": 0,
+          "uitleg": "De sorites-paradox laat zien dat veel alledaagse woorden vage randen hebben: jong, kaal, warm, rijk. Dat is geen fout in de taal maar een eigenschap ervan, en het maakt wetten schrijven soms bijzonder lastig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De Fermi-paradox vat één vraag samen. Welke?",
+          "opties": [
+            "Zoveel sterren met planeten, en toch geen spoor van anderen",
+            "Waarom licht van verre sterren ons nooit lijkt te bereiken",
+            "Hoe leven kon ontstaan uit stoffen die zelf niet leven",
+            "Waarom wij als enige soort op aarde kunnen spreken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Alleen al onze Melkweg telt honderden miljarden sterren, veel ervan met planeten, en het heelal bestaat al lang. Waar is iedereen dan, vroeg Enrico Fermi. Misschien is leven zeldzaam, of luisteren we verkeerd, of houdt beschaving het niet lang vol."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij het roulettespel wordt rood waarschijnlijker als er tien keer na elkaar zwart viel.",
+          "antwoord": false,
+          "uitleg": "Het balletje heeft geen geheugen: elke beurt begint opnieuw. Dat heet de gokkersmisvatting. Ze is verraderlijk, want een lange reeks voelt aan alsof er iets moet rechtgezet worden, en casino's leven daarvan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom keert een spiegel links en rechts om, maar niet boven en onder?",
+          "opties": [
+            "Ze keert eigenlijk voor en achter om, wij draaien onszelf erbij",
+            "Onze ogen staan naast elkaar en niet boven elkaar",
+            "Het licht kaatst horizontaal anders dan verticaal",
+            "Ze keert wel degelijk ook boven en onder om"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je spiegelbeeld steekt zijn neus naar jou toe waar jij die van de spiegel wegsteekt: dat is de as die omkeert. Wij denken in links en rechts omdat we ons voorstellen dat we zelf omdraaien. Ga eens op je zij liggen voor een spiegel, en de verwarring is meteen opgelost."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe bewijst de wiskunde dat er oneindig veel priemgetallen zijn?",
+          "opties": [
+            "Door aan te nemen dat er eindig veel zijn en dan een nieuw te maken",
+            "Door ze allemaal op te sommen tot je niet meer verder kunt",
+            "Door te tonen dat elk even getal er twee bevat",
+            "Door te meten dat ze steeds dichter bij elkaar gaan liggen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Euclides deed dat al meer dan tweeduizend jaar geleden. Vermenigvuldig alle priemgetallen van je zogezegd volledige lijst en tel er één bij op. Dat nieuwe getal is door geen enkel getal uit je lijst deelbaar, dus je lijst was niet volledig."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Op een lijn van één kilometer liggen meer punten dan op een lijn van één centimeter.",
+          "antwoord": false,
+          "uitleg": "Leg de korte lijn schuin onder de lange en trek stralen vanuit één punt: elk punt van de ene komt precies overeen met één punt van de andere. Lengte en aantal punten zijn dus twee verschillende dingen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De kosmische kalender perst de hele geschiedenis van het heelal in één jaar. Wanneer verschijnt de mens?",
+          "opties": [
+            "Pas in de laatste minuten van 31 december",
+            "Ergens rond het midden van de maand november",
+            "Kort na de zomer, begin september",
+            "Bij het begin van het jaar, in januari"
+          ],
+          "antwoord": 0,
+          "uitleg": "De oerknal valt op 1 januari, de aarde ontstaat pas eind augustus, de dinosauriërs sterven uit op 30 december. Alles wat ooit is opgeschreven, van de eerste kleitabletten tot vandaag, past in de laatste halve minuut van oudejaarsavond."
+        }
+      ]
+    },
+    {
+      "titel": "Wonderlijke weetjes",
+      "niveau": "hoekje",
+      "gratis": true,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "IJs drijft op water. Waarom is dat voor een vaste stof zo bijzonder?",
+          "opties": [
+            "Bijna alles wordt zwaarder per liter als het hard wordt, water niet",
+            "Bijna alles blijft drijven als het hard wordt, behalve metalen",
+            "IJs bevat luchtbelletjes die het naar de oppervlakte duwen",
+            "IJs is kouder, en koude stoffen drijven altijd op warme"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij het bevriezen houden waterstofbruggen de moleculen in een open zeshoekig rooster, met meer ruimte ertussen dan in vloeibaar water. Daardoor zet water uit bij het bevriezen. Vissen overleven de winter precies daardoor: het ijs ligt bovenop in plaats van onderaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe krijgt een vliegtuigvleugel lift?",
+          "opties": [
+            "Hij duwt lucht naar beneden, en de lucht duwt even hard terug",
+            "De bovenkant is bol, dus daar moet de lucht sneller inhalen",
+            "De motoren blazen lucht onder de vleugel en tillen hem op",
+            "De vleugel is lichter dan de lucht die hij verplaatst"
+          ],
+          "antwoord": 0,
+          "uitleg": "Actie en reactie, de derde wet van Newton. De verhaaltjes over lucht die bovenlangs moet inhalen, kloppen niet: een vliegtuig kan ook op zijn rug vliegen. Wat telt, is de hoek waarmee de vleugel lucht omlaag stuurt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Honing in een goed gesloten pot kan duizenden jaren houdbaar blijven.",
+          "antwoord": true,
+          "uitleg": "In Egyptische graven is honing gevonden die nog eetbaar was. Honing bevat weinig water en is zuur, dus bacteriën en schimmels krijgen er geen voet aan de grond. Er zit bovendien een stofje in dat een beetje waterstofperoxide vormt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De bidsprinkhaankreeft heeft twaalf tot zestien soorten kleurcellen in zijn ogen; wij hebben er drie. Wat volgt daaruit?",
+          "opties": [
+            "Niet noodzakelijk dat hij kleuren beter onderscheidt dan wij",
+            "Dat hij vijf keer zoveel kleuren kan onderscheiden dan wij",
+            "Dat hij enkel in zwart-wit ziet maar heel scherp",
+            "Dat hij kleuren ziet die voor ons niet bestaan, en wij niets van de zijne"
+          ],
+          "antwoord": 0,
+          "uitleg": "Uit proeven bleek hij juist mínder goed in het onderscheiden van dicht bij elkaar liggende kleuren dan wij. Het vermoeden is dat hij niet vergelijkt zoals ons brein doet, maar meteen herkent: sneller, maar grover. Hij ziet wel ultraviolet en de draairichting van licht."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wij delen een flink deel van onze genen met een banaan. Hoe komt dat?",
+          "opties": [
+            "Alle leven stamt af van dezelfde voorouder en gebruikt dezelfde celmachinerie",
+            "Bananen hebben ooit genen van dieren overgenomen via de bodem",
+            "Het is toeval: met evenveel genen krijg je vanzelf overlappingen",
+            "Onze darmbacteriën brengen plantengenen in ons eigen erfelijk materiaal"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een cel van een banaan moet net als de jouwe energie maken, eiwitten bouwen en zich delen, en de recepten daarvoor zijn miljarden jaren oud. Het getal dat je vaak hoort, rond de helft van onze genen, hangt er wel van af hoe je precies telt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom klinkt je eigen stem anders op een opname dan in je hoofd?",
+          "opties": [
+            "Als je zelf praat, hoor je ook trillingen via je botten",
+            "Een microfoon laat altijd de lage tonen van een stem weg",
+            "Je oren staan te dicht bij je mond om goed te kunnen horen",
+            "Je hersenen maken je eigen stem expres mooier terwijl je praat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Die botgeleiding versterkt vooral de lage tonen, dus in je hoofd klink je voller. Een opname geeft je alleen wat er door de lucht gaat, en dat is precies wat iedereen ánders van jou hoort. Zij vinden je stem dus heel normaal."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De maan is aan de horizon echt groter dan hoog aan de hemel.",
+          "antwoord": false,
+          "uitleg": "Meet ze maar met een muntje op armlengte: ze is even groot, en aan de horizon zelfs een piepklein beetje verder weg. Het is een illusie van je brein, dat haar vergelijkt met huizen en bomen. Niemand heeft ze sluitend verklaard."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In elk oog zit een blinde vlek. Waarom merk je die nooit?",
+          "opties": [
+            "Je hersenen vullen het gat in met wat eromheen te zien is",
+            "De blinde vlek verschuift voortdurend, dus hij valt niet op",
+            "Het andere oog kijkt precies op diezelfde plaats mee",
+            "De blinde vlek ligt helemaal aan de rand van je gezichtsveld"
+          ],
+          "antwoord": 0,
+          "uitleg": "Daar verlaat de oogzenuw het netvlies en zitten geen lichtgevoelige cellen. Je brein vult de leegte in met de omgeving, ook als je één oog dichtdoet. Je ziet dus letterlijk iets dat je niet waarneemt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom smaakt eten zo flauw als je een verstopte neus hebt?",
+          "opties": [
+            "Het meeste van wat wij smaak noemen, is eigenlijk geur",
+            "Een verkoudheid verdooft de smaakpapillen op je tong",
+            "Koorts verandert de temperatuur waarbij je kunt proeven",
+            "Je slijmvlies legt een laagje over je tong heen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je tong onderscheidt maar een handvol basissmaken. Al de rest, van aardbei tot koffie, komt van geurstoffen die via je keel naar je neus stijgen. Knijp je neus dicht en proef een stukje appel en een stukje ui: het verschil valt grotendeels weg."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Op een hoge berg kookt water bij een lagere temperatuur dan aan zee.",
+          "antwoord": true,
+          "uitleg": "De luchtdruk is er lager, dus moleculen ontsnappen makkelijker. Op de Mont Blanc kookt water rond 85 graden. Handig? Niet echt: je eieren koken er trager gaar, want het water is minder heet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Er wordt gezegd dat glas een heel trage vloeistof is, want oude kerkramen zijn onderaan dikker. Klopt dat?",
+          "opties": [
+            "Nee, die ruiten werden vroeger al ongelijk gemaakt",
+            "Ja, glas vloeit inderdaad enkele millimeters per eeuw",
+            "Ja, maar alleen bij ruiten die in de volle zon staan",
+            "Nee, die ruiten zijn later door restaurateurs bijgeslepen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Glas is een vaste stof die bij kamertemperatuur niet merkbaar vloeit. Middeleeuwse ruiten werden met de hand gerold en waren aan één kant dikker; glazeniers zetten die dikke kant meestal onderaan, omdat dat steviger is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een beerdiertje van een halve millimeter overleeft dingen waar wij aan zouden bezwijken. Wat is zijn truc?",
+          "opties": [
+            "Het droogt zichzelf volledig uit en legt alles stil",
+            "Het maakt een harde schaal aan rond zijn lichaam",
+            "Het verlaagt zijn lichaamstemperatuur tot bijna nul",
+            "Het vervelt razendsnel telkens er iets misgaat"
+          ],
+          "antwoord": 0,
+          "uitleg": "In die toestand, een tonnetje genoemd, verliest het bijna al zijn water en stopt zijn stofwisseling nagenoeg helemaal. Zo doorstaat het het vacuüm van de ruimte, extreme kou en hitte, en heel veel straling. Voeg water toe, en het wandelt weer weg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een octopus heeft drie harten en blauw bloed. Waarom is dat bloed blauw?",
+          "opties": [
+            "Zijn zuurstof wordt door koper vervoerd in plaats van ijzer",
+            "Het bevat een blauwe kleurstof als camouflage tegen vijanden",
+            "Het koude zeewater verkleurt het bloed door de huid heen",
+            "Zijn bloed bevat helemaal geen zuurstof maar wel veel zout"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ons bloed gebruikt hemoglobine met ijzer, en dat is rood. Bij de octopus doet hemocyanine met koper het werk, en dat is blauwachtig. Het werkt beter in koud water met weinig zuurstof. Twee harten pompen naar de kieuwen, het derde naar de rest van het lichaam."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Er staan meer bomen op aarde dan er sterren in onze Melkweg zijn.",
+          "antwoord": true,
+          "uitleg": "Een grote telling schatte het aantal bomen op ongeveer drie biljoen, dus drie miljoen keer een miljoen. De Melkweg telt naar schatting honderd tot vierhonderd miljard sterren. Bomen winnen dus met ruime voorsprong."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De Eiffeltoren is in de zomer hoger dan in de winter. Hoeveel scheelt dat ongeveer?",
+          "opties": [
+            "Ongeveer vijftien centimeter",
+            "Ongeveer vijftien millimeter",
+            "Ongeveer anderhalve meter",
+            "Ongeveer vijftien meter"
+          ],
+          "antwoord": 0,
+          "uitleg": "IJzer zet uit bij warmte. Over driehonderddertig meter hoogte geeft een verschil van enkele tientallen graden een kleine vijftien centimeter. Om diezelfde reden zitten er voegen tussen spoorstaven en in bruggen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bananen zijn licht radioactief, en daarom mag je er maar enkele per dag eten.",
+          "antwoord": false,
+          "uitleg": "Licht radioactief zijn ze wel: ze zitten vol kalium, en een klein deel daarvan is kalium-40, dat van nature vervalt. Gevaarlijk is het niet, want je lichaam bevat zelf al kalium en houdt dat gewoon op peil. Er bestaat zelfs een scherts-eenheid, de bananendosis, om kleine stralingshoeveelheden aanschouwelijk te maken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zijn er wel groene vogels en kikkers, maar geen groene zoogdieren?",
+          "opties": [
+            "Haren kunnen geen groen pigment of structuurkleur maken",
+            "Zoogdieren leven bijna allemaal onder de grond",
+            "Groen bloed zou te veel warmte vasthouden",
+            "Zoogdieren zien zelf geen groen en hebben er niets aan"
+          ],
+          "antwoord": 0,
+          "uitleg": "De kleur van vogelveren komt vaak van de structuur die licht breekt, niet van pigment; haren kunnen dat niet. Luiaards lijken groen, maar dat komt van algen die in hun vacht groeien. Voor veel zoogdieren werkt bruingrijs trouwens prima als camouflage."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een dag op aarde wordt langzaam langer. Hoe komt dat?",
+          "opties": [
+            "De getijden remmen de aarde af, en de maan schuift weg",
+            "De aarde wordt zwaarder door het stof uit de ruimte",
+            "De zon trekt de aarde elk jaar iets verder van zich af",
+            "De kern van de aarde koelt af en krimpt daarbij"
+          ],
+          "antwoord": 0,
+          "uitleg": "De waterbulten van eb en vloed wrijven tegen de draaiende aarde en remmen haar af, ongeveer twee duizendsten van een seconde per eeuw. Wat de aarde aan draaiing verliest, wint de maan aan baan: ze schuift zo'n vier centimeter per jaar van ons weg."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Twee willekeurige mensen verschillen in ongeveer tien procent van hun DNA.",
+          "antwoord": false,
+          "uitleg": "Twee mensen komen voor ongeveer 99,9 procent overeen. Al het verschil tussen mensen op aarde zit in dat laatste tiende van een procent. Binnen één groep chimpansees is de erfelijke verscheidenheid groter dan onder alle mensen samen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je ziet de bliksem en telt drie seconden tot de donder. Hoe ver is het onweer ongeveer?",
+          "opties": [
+            "Ongeveer één kilometer",
+            "Ongeveer drie kilometer",
+            "Ongeveer driehonderd meter",
+            "Ongeveer tien kilometer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Geluid legt zo'n 340 meter per seconde af, dus drie seconden is ruim een kilometer. Licht is er praktisch meteen. De donder zelf is de knal van lucht die door de bliksem plots tot tienduizenden graden wordt opgewarmd en uitzet."
+        }
+      ]
+    }
+  ]
+}

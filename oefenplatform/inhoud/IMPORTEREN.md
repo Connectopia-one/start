@@ -44,3 +44,8 @@ Nummer 12 bevat ook Meetkunde en Metend rekenen, met de tekeningen erbij.
 
 Draai `supabase/meldingen.sql` één keer in de SQL-editor van het oefenplatform.
 Dat maakt de tabel voor de meldknop die nu onderaan elk hoofdstuk staat.
+
+## 🔭 De uitdagingshoek (nieuw)
+
+Die staat los van de lijst hierboven en heeft een eigen stappenplan, want er
+hoort ook één keer een SQL-bestand bij. Zie `inhoud/hoekje/README.md`.

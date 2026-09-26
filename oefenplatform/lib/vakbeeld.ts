@@ -15,6 +15,11 @@ const ICONEN: Record<string, string> = {
   techniek: "🔧",
   geschiedenis: "🏛️",
   aardrijkskunde: "🌍",
+  // De vakken van 🔭 de uitdagingshoek.
+  "de-ruimte": "🪐",
+  "coderen-en-computers": "💻",
+  "geschiedenis-van-belgie": "🇧🇪",
+  "paradoxen-en-weetjes": "🤯",
 };
 
 export function vakIcoon(slug: string): string {
@@ -36,6 +41,9 @@ const AFBREEKPUNTEN: Record<string, string> = {
   natuurwetenschappen: "Natuur\u00ADwetenschappen",
   "wetenschap-en-techniek": "Wetenschap en tech\u00ADniek",
   aardrijkskunde: "Aardrijks\u00ADkunde",
+  "coderen-en-computers": "Coderen en com\u00ADputers",
+  "geschiedenis-van-belgie": "Geschiedenis van Bel\u00ADgië",
+  "paradoxen-en-weetjes": "Paradoxen en weet\u00ADjes",
 };
 
 export function vakLabel(slug: string, naam: string): string {

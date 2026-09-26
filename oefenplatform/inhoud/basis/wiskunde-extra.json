@@ -526,9 +526,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Hoe meer gelijke stukken een geheel heeft, hoe kleiner elk stuk.",
-          "antwoord": true,
-          "uitleg": "Waar. Een taart in 8 stukken geeft kleinere stukken dan een taart in 4. Daarom is 1/8 kleiner dan 1/4."
+          "vraag": "Hoe meer gelijke stukken een geheel heeft, hoe groter elk stuk.",
+          "antwoord": false,
+          "uitleg": "Niet waar, het is net omgekeerd. Een taart in 8 stukken geeft kleinere stukken dan een taart in 4. Daarom is 1/8 kleiner dan 1/4."
         },
         {
           "type": "invultekst",

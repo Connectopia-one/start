@@ -164,3 +164,11 @@ export const startUitleg = {
 */
 export const basisUitleg =
   "Nog niet vlot met de komma, maten, breuken of ggd en kgv? Hier herhaal je de bouwstenen stap voor stap, met een leerbundel en oefeningen. Voor elk niveau.";
+
+/*
+  De zin onder 🔭 de uitdagingshoek op de startpagina. Die hoek staat naast de
+  leerstof en niet erin: hij hoort bij geen enkel leerjaar en bij geen enkele
+  vakfiche, en is daarom ook gratis.
+*/
+export const hoekjeUitleg =
+  "Vragen die naast de leerstof liggen: de ruimte, hoe een computer denkt, de geschiedenis van ons land en paradoxen die je hoofd kraken. Voor wie graag ver doordenkt. Gratis, ook zonder account.";

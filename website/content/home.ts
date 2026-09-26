@@ -94,6 +94,14 @@ export const home = {
     Hij nodigt uit, hij houdt niemand tegen: wie gewoon de site wil
     bekijken, scrolt er voorbij.
   */
+  hoekjeBand: {
+    label: "Nieuw in het oefenplatform",
+    titel: "Een uitdagingshoek voor wie meer wil",
+    tekst:
+      "Vragen die naast de leerstof liggen: de ruimte, hoe een computer denkt, de geschiedenis van ons land en paradoxen die je hoofd kraken. Gemaakt voor kinderen die de gewone oefeningen vlot afwerken. Gratis, ook zonder account.",
+    knop: "Naar de uitdagingshoek",
+    link: "https://oefenplatform.connectopia.one/niveaus/hoekje",
+  },
   professionalsBand: {
     label: "Voor professionals",
     titel: "Ben je een professional?",
