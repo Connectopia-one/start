@@ -1,0 +1,197 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "start",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het onderwerp in de zin: 'Gisteren kregen de kinderen van de buren een brief.'?",
+          "opties": [
+            "de kinderen van de buren",
+            "een brief",
+            "de buren",
+            "gisteren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vraag je af wie er iets kreeg. Dat zijn de kinderen van de buren. 'Een brief' is wat ze kregen, dus het lijdend voorwerp."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke van deze vier zinnen staat alles juist geschreven?",
+          "opties": [
+            "Word jij ook zo moe van al dat geklaag?",
+            "Wordt jij ook zo moe van al dat geklaag?",
+            "Word jij ook zo moe van al dat geklaagt?",
+            "Wordt jij ook zo moe van al dat geklaagd?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Staat 'jij' achter het werkwoord, dan valt de -t weg: word jij. En 'geklaag' is hier een zelfstandig naamwoord, geen deelwoord."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul de juiste vorm in: Hij ... gisteren het raam. (werkwoord: sluiten, verleden tijd)",
+          "antwoord": "sloot",
+          "uitleg": "Sluiten is een sterk werkwoord: sluiten - sloot - gesloten. De klinker verandert, er komt geen -de of -te bij."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In de zin 'Het boek dat ik gisteren las, was spannend' staan twee werkwoorden.",
+          "antwoord": true,
+          "uitleg": "Waar: 'las' en 'was'. Elke zin met een komma erin kan meer dan één werkwoord bevatten, want er zitten twee stukjes zin in."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'Fantastisch', zuchtte ze toen ze de regen zag. Wat doet de schrijver hier?",
+          "opties": [
+            "Ze bedoelt het omgekeerde van wat ze zegt",
+            "Ze vindt de regen echt fantastisch weer",
+            "Ze herhaalt wat iemand anders gezegd heeft",
+            "Ze stelt een vraag zonder een vraagteken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het woordje 'zuchtte' verraadt het. Iets zeggen en het omgekeerde bedoelen, heet ironie. Je herkent het aan de rest van de zin."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze zinnen is een feit?",
+          "opties": [
+            "De Schelde stroomt door Antwerpen",
+            "Antwerpen is de mooiste stad van het land",
+            "Iedereen vindt de Schelde indrukwekkend",
+            "Je zou echt eens naar Antwerpen moeten gaan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een feit kan je nakijken. 'Mooiste', 'iedereen vindt' en 'je zou moeten' zijn meningen, ook al klinken ze zeker."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel lettergrepen heeft het woord 'onafhankelijkheid'? Antwoord met een getal.",
+          "antwoord": "6",
+          "uitleg": "Klap mee: on-af-han-ke-lijk-heid. Dat zijn er zes."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent 'iemand een hart onder de riem steken'?",
+          "opties": [
+            "Die persoon moed geven",
+            "Die persoon in het geheim helpen",
+            "Die persoon streng toespreken",
+            "Die persoon iets duurs cadeau doen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het is een uitdrukking: je zegt of doet iets waardoor iemand er weer tegenaan kan. Bij een uitdrukking tellen de losse woorden niet."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In de zin 'Ik heb de fiets van mijn zus geleend' is 'de fiets van mijn zus' het lijdend voorwerp.",
+          "antwoord": true,
+          "uitleg": "Waar. Vraag: ik heb wát geleend? De fiets van mijn zus. Dat hele stuk hoort samen, niet alleen het woord 'fiets'."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk woord past: 'Hij had hard gestudeerd, ... zakte hij voor de toets.'",
+          "opties": [
+            "toch",
+            "dus",
+            "want",
+            "omdat"
+          ],
+          "antwoord": 0,
+          "uitleg": "De twee stukken spreken elkaar tegen: hard studeren en toch zakken. 'Dus' en 'want' zouden een gevolg of een reden aangeven, en die klopt hier niet."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Hij is groter als ik' is juist Nederlands.",
+          "antwoord": false,
+          "uitleg": "Niet waar. Bij een vergelijking waarbij iets verschilt, gebruik je 'dan': hij is groter dan ik. 'Als' gebruik je als iets gelijk is: even groot als ik."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je mailt de directeur om te melden dat je morgen naar de dokter moet. Welke openingszin past het best?",
+          "opties": [
+            "Beste mevrouw, ik laat u weten dat ik morgen bij de dokter moet zijn.",
+            "Hey, ik ben er morgen niet hoor, moet naar de dokter.",
+            "Aan wie het aanbelangt: ondergetekende is morgen verhinderd.",
+            "Mevrouw!! Morgen kom ik niet, want ik moet naar de dokter!!"
+          ],
+          "antwoord": 0,
+          "uitleg": "Aan iemand die je niet goed kent schrijf je beleefd maar gewoon. Te losjes klinkt onbeleefd, te stijf of met uitroeptekens klinkt raar."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe schrijf je het voltooid deelwoord van 'verhuizen'? (bijvoorbeeld: wij zijn ...)",
+          "antwoord": "verhuisd",
+          "uitleg": "Haal -en van het hele werkwoord: verhuiz-. Die z hoort niet bij 't kofschip, dus komt er -d bij. De z wordt door de spellingregel een s: verhuisd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een verhaal begint zo: 'Had ik toen geweten wat er die avond zou gebeuren, dan was ik thuisgebleven.' Wat doet die eerste zin?",
+          "opties": [
+            "Spanning opbouwen door iets aan te kondigen",
+            "De hoofdpersoon van het verhaal voorstellen",
+            "Uitleggen waar en wanneer het verhaal speelt",
+            "De les samenvatten die het verhaal wil geven"
+          ],
+          "antwoord": 0,
+          "uitleg": "De verteller weet al hoe het afliep en verklapt het net niet. Daardoor wil je verder lezen. Dat heet vooruitwijzen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een fabel wil vooral een les meegeven, een sprookje vooral een wonderlijk verhaal vertellen.",
+          "antwoord": true,
+          "uitleg": "Waar. In een fabel praten dieren en eindigt het met een les. In een sprookje draait het om toverij, een held en meestal een goede afloop."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke zin staat een fout tegen de werkwoordspelling?",
+          "opties": [
+            "Ik vindt dat een goed plan.",
+            "Ik word daar blij van.",
+            "Hij heeft het antwoord gevonden.",
+            "Zij antwoordt altijd beleefd."
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij 'ik' komt er nooit een -t bij: ik vind. Bij 'hij' of 'zij' wel: zij antwoordt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul de juiste vorm in: Zij ... altijd meteen op mijn bericht. (werkwoord: antwoorden, tegenwoordige tijd)",
+          "antwoord": "antwoordt",
+          "uitleg": "De stam is 'antwoord' en bij 'zij' komt daar een -t bij, ook al staat er dan dd achter elkaar: antwoordt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een discussie zegt iemand: 'Dat is onzin, jij weet daar toch niets van.' Wat is er mis met dat argument?",
+          "opties": [
+            "Het gaat over de persoon in plaats van over het idee",
+            "Het is te beleefd geformuleerd om indruk te maken",
+            "Het geeft te veel voorbeelden en te weinig uitleg",
+            "Het herhaalt gewoon wat de andere net gezegd had"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een argument zegt waaróm iets niet klopt. Wie de spreker aanvalt in plaats van het idee, heeft eigenlijk geen argument gegeven."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Hoe meer tekst je op je dia's zet bij een spreekbeurt, hoe makkelijker je publiek kan volgen.",
+          "antwoord": false,
+          "uitleg": "Niet waar. Een volle dia laat je publiek lezen in plaats van luisteren. Een paar woorden of een beeld werkt beter; de uitleg geef jij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op een website lees je dat snoep goed is voor je concentratie. Onderaan staat dat de site van een snoepfabrikant is. Wat doe je?",
+          "opties": [
+            "Je zoekt dit na bij een bron zonder belang bij de verkoop",
+            "Je gelooft het, want een fabrikant kent zijn product het best",
+            "Je gelooft het niet en zoekt verder niets meer op over snoep",
+            "Je kijkt enkel of de tekst netjes en foutloos geschreven is"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie iets te verkopen heeft, vertelt vooral het goede nieuws. Dat maakt het niet meteen gelogen, maar je kijkt het na bij iemand die er niets aan verdient."
+        }
+      ]
+    }
+  ]
+}

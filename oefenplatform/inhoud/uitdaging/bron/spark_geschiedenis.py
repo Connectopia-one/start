@@ -1,0 +1,200 @@
+# -*- coding: utf-8 -*-
+"""Uitdaging geschiedenis ✨ Spark: de zes thema's door elkaar.
+
+De structuurbegrippen en de redeneerwijzen toepassen op een geval dat niet
+letterlijk in de leerbundel staat, en bronnen tegen elkaar afwegen.
+"""
+NIVEAU = "spark"
+VAK = "Geschiedenis"
+BESTAND = "spark-geschiedenis-uitdaging.json"
+
+VRAGEN = [
+    {
+        "type": "meerkeuze",
+        "vraag": "Welke van deze uitspraken tonen continuïteit tussen de Romeinse tijd en vandaag? (meerdere antwoorden mogelijk)",
+        "opties": [
+            "Wij schrijven nog altijd met het Latijnse alfabet",
+            "Heel wat van onze wegen volgen nog oude Romeinse tracés",
+            "Ons land wordt nog altijd door een keizer bestuurd",
+            "Gladiatorengevechten vullen nog altijd onze stadions",
+        ],
+        "antwoord": [0, 1],
+        "uitleg": "Continuïteit is wat gebleven is. Het alfabet en de wegen zijn blijven meegaan; keizers en gladiatoren zijn juist voorbeelden van verandering.",
+    },
+    {
+        "type": "meerkeuze",
+        "vraag": "Sparta lag in het binnenland en leefde van landbouw, Athene lag aan zee en leefde van handel. Welk domein verklaart dat verschil het best?",
+        "opties": [
+            "Het economische domein",
+            "Het culturele domein",
+            "Het politieke domein",
+            "Het sociale domein",
+        ],
+        "antwoord": 0,
+        "uitleg": "Waar mensen hun inkomen halen, hoort bij het economische domein. Dat verschil werkt wel dóór in het politieke en het culturele leven van beide steden.",
+    },
+    {
+        "type": "invultekst",
+        "vraag": "Het spijkerschrift ontstond rond 3300 v.C. Hoeveel eeuwen geleden is dat ongeveer? Antwoord met een getal.",
+        "antwoord": "53",
+        "uitleg": "3300 jaar voor onze tijdrekening plus ruim 2000 jaar erna is zowat 5 300 jaar, en dat zijn ongeveer 53 eeuwen.",
+    },
+    {
+        "type": "waarofniet",
+        "vraag": "Historici noemen de overgang naar de landbouw zowel een revolutie als een evolutie.",
+        "antwoord": True,
+        "uitleg": "Waar. Een revolutie om de omvang van de gevolgen, een evolutie omdat de omslag eeuwen duurde. Welk woord je kiest, hangt af van waar je op let.",
+    },
+    {
+        "type": "meerkeuze",
+        "vraag": "Waarom ontstonden de eerste grote rijken net aan de Nijl en tussen Eufraat en Tigris?",
+        "opties": [
+            "Irrigatie gaf overschotten, en die vroegen om bestuur en schrift",
+            "Daar woonden de enige mensen die toen al konden lezen en schrijven",
+            "Het waren de enige streken waar men het wiel al had uitgevonden",
+            "Alleen daar was er genoeg steen om grote gebouwen mee te zetten",
+        ],
+        "antwoord": 0,
+        "uitleg": "Rivieren maakten irrigatielandbouw mogelijk. Wie overschotten heeft, moet ze verdelen, bewaren en optekenen, en zo ontstaan ambtenaren, schrift en macht.",
+    },
+    {
+        "type": "meerkeuze",
+        "vraag": "Welke van deze zijn primaire bronnen voor het Romeinse Rijk? (meerdere antwoorden mogelijk)",
+        "opties": [
+            "Een muntstuk geslagen in het jaar 50 n.C.",
+            "Een brief van een Romeinse soldaat aan zijn familie",
+            "Een film over Rome die in het jaar 2000 gemaakt is",
+            "Een schoolboek over Rome uit het jaar 1950",
+        ],
+        "antwoord": [0, 1],
+        "uitleg": "Een primaire bron komt uit de tijd zelf. De munt en de brief zijn dat; de film en het schoolboek zijn later gemaakt en dus secundair.",
+    },
+    {
+        "type": "waarofniet",
+        "vraag": "Een bron die duidelijk overdrijft, is voor een historicus waardeloos.",
+        "antwoord": False,
+        "uitleg": "Niet waar. Ze is misschien niet betrouwbaar over de feiten, maar wel bruikbaar: ze toont wat de maker wilde laten geloven, en waarom.",
+    },
+    {
+        "type": "meerkeuze",
+        "vraag": "Ramses liet zijn 'overwinning' bij Kadesj op tempelmuren uithouwen, terwijl de slag onbeslist eindigde. Wat leert die bron ons vooral?",
+        "opties": [
+            "Hoe de farao door zijn volk gezien wilde worden",
+            "Hoe de slag bij Kadesj precies verlopen is die dag",
+            "Dat de Egyptenaren niet konden tellen bij een telling",
+            "Dat tempelmuren nooit als bron gebruikt mogen worden",
+        ],
+        "antwoord": 0,
+        "uitleg": "Over de feiten liegt de bron. Over het wereldbeeld van een farao die zich als onoverwinnelijk moest tonen, vertelt ze net heel veel.",
+    },
+    {
+        "type": "invultekst",
+        "vraag": "Hoeveel jaar zit er tussen het ontstaan van het spijkerschrift (3300 v.C.) en de val van het West-Romeinse Rijk (476 n.C.)?",
+        "antwoord": "3776",
+        "reken": "3300 + 476",
+        "uitleg": "Je telt de jaren voor en na onze tijdrekening samen: 3300 + 476 = 3776. Er bestaat geen jaar 0, maar voor een berekening over zo'n lange periode maakt dat niets uit.",
+    },
+    {
+        "type": "meerkeuze",
+        "vraag": "Wat hebben de ziggurat in Mesopotamië, de piramides in Egypte en het Parthenon in Athene gemeen?",
+        "opties": [
+            "Ze dienden de godsdienst én toonden de macht van wie ze liet bouwen",
+            "Ze werden alle drie gebouwd door dezelfde groep rondtrekkende bouwers",
+            "Ze waren alle drie bedoeld als graf voor de heerser van dat gebied",
+            "Ze stonden alle drie midden op de markt waar de handel gebeurde",
+        ],
+        "antwoord": 0,
+        "uitleg": "Zulke bouwwerken vragen veel mensen, tijd en overschotten. Wie ze kan laten bouwen, toont daarmee meteen hoe ver zijn macht reikt.",
+    },
+    {
+        "type": "waarofniet",
+        "vraag": "De landbouw ontstond op verschillende plaatsen in de wereld, los van elkaar.",
+        "antwoord": True,
+        "uitleg": "Waar. In het Nabije Oosten, in China en in Midden-Amerika begon men los van elkaar te telen, met andere gewassen en op andere momenten.",
+    },
+    {
+        "type": "meerkeuze",
+        "vraag": "Waarom had Egypte ambtenaren, priesters en beeldhouwers, en een groep jagers-verzamelaars niet?",
+        "opties": [
+            "Omdat er pas met overschotten mensen vrijgemaakt kunnen worden",
+            "Omdat jagers en verzamelaars minder slim waren dan de Egyptenaren",
+            "Omdat jagers en verzamelaars geen behoefte hadden aan godsdienst",
+            "Omdat zulke beroepen pas na de uitvinding van het geld konden bestaan",
+        ],
+        "antwoord": 0,
+        "uitleg": "Zolang iedereen voltijds met voedsel bezig is, kan niemand iets anders doen. Een overschot maakt specialisatie mogelijk, en daarmee een hele samenleving.",
+    },
+    {
+        "type": "meerkeuze",
+        "vraag": "Welke gevolgen bracht de overgang naar het sedentaire leven mee? (meerdere antwoorden mogelijk)",
+        "opties": [
+            "Ziektes verspreidden zich sneller onder mensen en vee",
+            "Er ontstond bezit, en daarmee verschillen in rijkdom",
+            "Er ontstonden dorpen en later steden op vaste plaatsen",
+            "Mensen moesten per dag veel minder uren werken dan voordien",
+        ],
+        "antwoord": [0, 1, 2],
+        "uitleg": "Dicht op elkaar wonen met vee bracht ziektes mee, voorraden brachten bezit en ongelijkheid mee, en vaste akkers brachten dorpen mee. Makkelijker werd het leven niet: boeren werkten net langer dan jagers.",
+    },
+    {
+        "type": "waarofniet",
+        "vraag": "Het Oost-Romeinse Rijk bleef na 476 nog bijna duizend jaar bestaan.",
+        "antwoord": True,
+        "uitleg": "Waar. Constantinopel viel pas in 1453, bijna duizend jaar later. Alleen het westelijke deel ging in 476 ten onder.",
+    },
+    {
+        "type": "meerkeuze",
+        "vraag": "Augustus noemde zichzelf princeps, 'eerste burger', en geen koning. Waarom?",
+        "opties": [
+            "Omdat de Romeinen het woord koning sinds de republiek verafschuwden",
+            "Omdat hij het woord keizer toen zelf nog niet had leren uitspreken",
+            "Omdat een koning in Rome minder macht had dan een gewone burger",
+            "Omdat de senaat hem de titel van koning nadrukkelijk beloofd had",
+        ],
+        "antwoord": 0,
+        "uitleg": "Rome had zijn koningen verjaagd en was daar trots op. Augustus hield alle macht in handen, maar vermeed zorgvuldig het woord dat weerstand zou oproepen.",
+    },
+    {
+        "type": "invultekst",
+        "vraag": "Constantinopel viel in 1453, het West-Romeinse Rijk in 476. Hoeveel jaar zit daartussen?",
+        "antwoord": "977",
+        "reken": "1453 - 476",
+        "uitleg": "1453 - 476 = 977 jaar. Het oostelijke deel hield het dus bijna een millennium langer vol.",
+    },
+    {
+        "type": "waarofniet",
+        "vraag": "Standplaatsgebondenheid betekent dat een historicus moet wonen in het land waarover hij schrijft.",
+        "antwoord": False,
+        "uitleg": "Niet waar. Het betekent dat iedereen kijkt vanuit zijn eigen tijd, plaats en achtergrond, en dat dat kleurt wat je ziet en belangrijk vindt.",
+    },
+    {
+        "type": "meerkeuze",
+        "vraag": "Twee historici schrijven over dezelfde oorlog en komen tot een ander besluit. Wat is de beste verklaring?",
+        "opties": [
+            "Ze gebruikten andere bronnen en legden andere klemtonen",
+            "Eén van de twee heeft zeker bewust liggen liegen erover",
+            "Geschiedenis is een mening, dus alles is even waar of onwaar",
+            "De oudste van de twee heeft per definitie het meeste gelijk",
+        ],
+        "antwoord": 0,
+        "uitleg": "Het verleden is niet één verhaal. Wie andere bronnen leest of andere vragen stelt, komt tot een ander beeld, zonder dat iemand liegt. Wel moet elk besluit op bronnen steunen.",
+    },
+    {
+        "type": "waarofniet",
+        "vraag": "Chronologie betekent dat je gebeurtenissen ordent volgens hun belang.",
+        "antwoord": False,
+        "uitleg": "Niet waar. Chronologie is ordenen volgens tijd, van oud naar recent. Wat het belangrijkst is, is een aparte vraag.",
+    },
+    {
+        "type": "meerkeuze",
+        "vraag": "Zet van oud naar recent: de eerste Olympische Spelen (776 v.C.), het spijkerschrift (3300 v.C.), Alexander de Grote (336 v.C.), de val van het West-Romeinse Rijk (476 n.C.).",
+        "opties": [
+            "Spijkerschrift – Olympische Spelen – Alexander – val van Rome",
+            "Spijkerschrift – Alexander – Olympische Spelen – val van Rome",
+            "Olympische Spelen – spijkerschrift – Alexander – val van Rome",
+            "Spijkerschrift – Olympische Spelen – val van Rome – Alexander",
+        ],
+        "antwoord": 0,
+        "uitleg": "Voor onze tijdrekening tel je terug: 3300 is ouder dan 776, en 776 ouder dan 336. Daarna komt 476 n.C.",
+    },
+]

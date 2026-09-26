@@ -1,0 +1,197 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "start",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "In de voedselketen gras – konijn – vos: waar komt de energie oorspronkelijk vandaan?",
+          "opties": [
+            "Van de zon, die het gras laat groeien",
+            "Van de grond, waaruit het gras zijn voedsel haalt",
+            "Van het konijn, dat de vos zijn energie geeft",
+            "Van de lucht, waaruit het gras zuurstof opneemt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Planten maken met licht hun eigen voedsel. Alle dieren in de keten leven dus eigenlijk van zonne-energie die door planten is opgevangen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als alle planten zouden verdwijnen, zouden vleeseters daar geen last van hebben, want zij eten toch geen planten.",
+          "antwoord": false,
+          "uitleg": "Niet waar. Vleeseters eten dieren die wél van planten leven. Valt het begin van de keten weg, dan valt de hele keten weg."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je lost 25 gram zout op in 200 gram water. Hoeveel gram weegt het mengsel daarna?",
+          "antwoord": "225",
+          "uitleg": "Oplossen laat niets verdwijnen: het zout zit nog altijd in het water. 25 + 200 = 225 gram."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je zet een glas ijskoud water in een warme kamer. Na een tijdje staan er druppels aan de buitenkant. Waar komen die vandaan?",
+          "opties": [
+            "Uit de waterdamp in de lucht, die op het koude glas condenseert",
+            "Uit het glas zelf, want koud glas laat water door zijn wand",
+            "Uit het water in het glas, dat over de rand gekropen is",
+            "Uit het ijs, dat aan de buitenkant van het glas gesmolten is"
+          ],
+          "antwoord": 0,
+          "uitleg": "In lucht zit altijd onzichtbare waterdamp. Tegen een koud oppervlak koelt die af en wordt ze weer vloeibaar. Dat heet condenseren."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Men strooit zout op de weg omdat zout warmte afgeeft en de sneeuw zo doet smelten.",
+          "antwoord": false,
+          "uitleg": "Niet waar. Zout geeft geen warmte. Zout water bevriest pas bij een lagere temperatuur dan zuiver water, dus blijft het bij lichte vrieskou vloeibaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil met een lange ijzeren staaf een zware steen opwippen. Hoe leg je die staaf het best?",
+          "opties": [
+            "Met het steunpunt dicht bij de steen, en duwen aan het verre uiteinde",
+            "Met het steunpunt precies in het midden van de ijzeren staaf",
+            "Met het steunpunt dicht bij je hand, en duwen op de steen zelf",
+            "Met het steunpunt onder je hand, zodat je er kan op gaan staan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een hefboom geldt: hoe verder van het steunpunt je duwt, hoe minder kracht je nodig hebt. Het steunpunt hoort dus dicht bij de last."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je ziet de bliksem en telt negen seconden tot je de donder hoort. Hoe ver is het onweer ongeveer? Antwoord in kilometer, met een getal.",
+          "antwoord": "3",
+          "uitleg": "Geluid legt ongeveer 340 meter per seconde af, dus ongeveer een kilometer per drie seconden. Negen seconden is dan zowat 3 kilometer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij vuurwerk zie je de flits altijd vóór je de knal hoort. Hoe komt dat?",
+          "opties": [
+            "Licht gaat veel sneller dan geluid",
+            "De flits ontstaat vroeger dan de knal zelf",
+            "Je ogen werken nu eenmaal sneller dan je oren",
+            "Geluid moet eerst rond de gebouwen heen draaien"
+          ],
+          "antwoord": 0,
+          "uitleg": "Licht legt zowat 300 000 kilometer per seconde af, geluid maar 340 meter. Ze vertrekken samen, maar het licht is er meteen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In de ruimte zou je een ontploffing niet kunnen horen, want daar is geen lucht.",
+          "antwoord": true,
+          "uitleg": "Waar. Geluid is trilling die door een stof moet reizen: lucht, water of vast materiaal. In het luchtledige is er niets om te trillen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een astronaut weegt op de maan veel minder dan op de aarde. Wat verandert er niét?",
+          "opties": [
+            "De hoeveelheid stof waaruit hij bestaat, zijn massa",
+            "De kracht waarmee hij naar beneden getrokken wordt",
+            "Het gemak waarmee hij een sprong kan maken daar",
+            "Het aantal kilogram dat een weegschaal er aanwijst"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zijn lichaam bevat overal evenveel stof. Wat verandert, is de zwaartekracht: de maan trekt veel minder hard, dus weegt hij er minder."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een kring staan twee lampjes na elkaar. Je zet er een derde bij, ook na elkaar. Wat gebeurt er?",
+          "opties": [
+            "Alle drie de lampjes branden zwakker dan voordien",
+            "De twee eerste blijven even fel, het derde brandt zwak",
+            "Alle drie de lampjes branden even fel als eerst",
+            "Het derde lampje brandt niet, de twee andere wel"
+          ],
+          "antwoord": 0,
+          "uitleg": "In een kring na elkaar moet dezelfde stroom door alle lampjes. Meer lampjes betekent meer weerstand, dus minder stroom en zwakker licht voor iedereen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Uit hoeveel atomen bestaat één watermolecule in totaal? Antwoord met een getal.",
+          "antwoord": "3",
+          "uitleg": "Water is H₂O: twee waterstofatomen en één zuurstofatoom, samen drie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er met de zuurstof die je inademt?",
+          "opties": [
+            "Ze gaat in je longen naar je bloed, en je hart pompt ze rond",
+            "Ze gaat via je slokdarm naar je maag en dan naar je darmen",
+            "Ze blijft in je longen zitten tot je weer uitademt daarna",
+            "Ze gaat rechtstreeks van je neus naar je hersenen toe"
+          ],
+          "antwoord": 0,
+          "uitleg": "In je longen stapt de zuurstof over in je bloed. Je hart stuwt dat bloed naar elke spier en elk orgaan, want overal is zuurstof nodig."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je hart pompt het bloed eerst naar je longen en pas daarna naar de rest van je lichaam.",
+          "antwoord": true,
+          "uitleg": "Waar. Het bloed haalt eerst zuurstof in de longen, komt dan terug in het hart, en wordt vandaar door heel je lichaam gestuurd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is het slecht voor het klimaat om steenkool, aardolie en aardgas te verbranden?",
+          "opties": [
+            "Daarbij komt koolstofdioxide vrij, dat de warmte vasthoudt",
+            "Daarbij komt zuurstof vrij, waardoor het vuur sneller brandt",
+            "Daarbij verdwijnt water uit de lucht, waardoor het droger wordt",
+            "Daarbij ontstaat zout, dat met de regen in de zee terechtkomt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Fossiele brandstoffen zijn de resten van heel oude planten. Bij verbranden komt hun koolstof als CO₂ in de lucht, en dat gas houdt warmte vast."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op een bouwtekening staat schaal 1:10. Een deur is op de tekening 8 cm hoog. Hoe hoog is ze in het echt?",
+          "opties": [
+            "80 cm",
+            "8 cm",
+            "18 cm",
+            "800 cm"
+          ],
+          "antwoord": 0,
+          "uitleg": "Schaal 1:10 betekent dat het echte voorwerp tien keer zo groot is als op de tekening: 8 x 10 = 80 cm."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als de batterij van je zaklamp leeg is, is de energie die erin zat verdwenen.",
+          "antwoord": false,
+          "uitleg": "Niet waar. Energie verdwijnt nooit, ze verandert van vorm: hier is ze licht en warmte geworden. Je kan ze alleen niet meer gebruiken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een metalen leuning voelt kouder aan dan een houten leuning ernaast, terwijl ze even warm zijn. Hoe kan dat?",
+          "opties": [
+            "Metaal voert de warmte van je hand sneller weg dan hout",
+            "Metaal is in werkelijkheid toch altijd een beetje kouder",
+            "Hout geeft zelf wat warmte af aan de hand die het aanraakt",
+            "Je hand voelt gladde dingen altijd kouder aan dan ruwe"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je voelt geen temperatuur, je voelt warmte die wegstroomt. Metaal is een goede geleider en zuigt de warmte uit je hand; hout isoleert."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De maan doet ongeveer 28 dagen over een rondje rond de aarde. Hoeveel volle manen zie je dan ongeveer in één jaar?",
+          "opties": [
+            "Ongeveer 13",
+            "Ongeveer 12",
+            "Ongeveer 24",
+            "Ongeveer 6"
+          ],
+          "antwoord": 0,
+          "uitleg": "365 gedeeld door 28 is ongeveer 13. Er zijn dus iets meer volle manen dan maanden, en daarom valt er soms twee keer één in dezelfde maand."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Afbrekers zoals schimmels, bacteriën en pissebedden horen ook bij een voedselketen.",
+          "antwoord": true,
+          "uitleg": "Waar. Zij eten wat dood is en maken er weer voedingsstoffen voor planten van. Zonder hen zou de keten niet rond raken."
+        }
+      ]
+    }
+  ]
+}

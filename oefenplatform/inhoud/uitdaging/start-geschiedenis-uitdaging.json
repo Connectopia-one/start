@@ -1,0 +1,185 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Uitdaging — alles door elkaar",
+      "niveau": "start",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Zet deze vier gebeurtenissen van oud naar recent: de bouw van de piramides, de Guldensporenslag, de eerste maanlanding, de val van de Berlijnse Muur.",
+          "opties": [
+            "Piramides – Guldensporenslag – maanlanding – Berlijnse Muur",
+            "Piramides – Guldensporenslag – Berlijnse Muur – maanlanding",
+            "Guldensporenslag – piramides – maanlanding – Berlijnse Muur",
+            "Piramides – maanlanding – Guldensporenslag – Berlijnse Muur"
+          ],
+          "antwoord": 0,
+          "uitleg": "De piramides zijn zowat 4 500 jaar oud, de Guldensporenslag was in 1302, de maanlanding in 1969 en de Muur viel in 1989."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel jaar zit er tussen de Guldensporenslag (1302) en de val van de Berlijnse Muur (1989)?",
+          "antwoord": "687",
+          "uitleg": "1989 - 1302 = 687 jaar. Dat is bijna zeven eeuwen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Iemand die in 1302 leefde, kon de Guldensporenslag de dag erna in een gedrukte krant lezen.",
+          "antwoord": false,
+          "uitleg": "Niet waar. De boekdrukkunst met losse letters kwam er pas rond 1450, ruim honderd jaar later. Nieuws ging toen van mond tot mond."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je vindt twee verslagen van de Guldensporenslag: één van een Vlaamse monnik uit 1305, en één van een Belgische schrijver uit 1850. Wat klopt het best?",
+          "opties": [
+            "Het verslag uit 1305 is een primaire bron, maar kan partijdig zijn",
+            "Het verslag uit 1850 is betrouwbaarder, want het is later geschreven",
+            "Enkel het verslag uit 1305 telt mee, want die schrijver was erbij",
+            "Allebei zijn het secundaire bronnen, want geen van beiden vocht mee"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een bron uit de tijd zelf is een primaire bron, maar de monnik koos partij. Dicht bij de gebeurtenis betekent niet automatisch eerlijk."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een bron die in de tijd zelf gemaakt is, vertelt daarom altijd de waarheid.",
+          "antwoord": false,
+          "uitleg": "Niet waar. Ook wie erbij was, heeft een mening, ziet maar een stukje, of wil er beter uitkomen. Daarom leggen historici bronnen naast elkaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom konden er pas echte dorpen en steden ontstaan nadat de mens aan landbouw begon?",
+          "opties": [
+            "Omdat mensen op één plek konden blijven en er voedsel overbleef",
+            "Omdat de mensen toen pas leerden werken met steen, been en hout",
+            "Omdat het klimaat het rondtrekken in die tijd onmogelijk maakte",
+            "Omdat het schrift het mogelijk maakte om afspraken vast te leggen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Jagers en verzamelaars moesten het voedsel achterna. Wie zelf graan zaait en dieren houdt, blijft ter plaatse, en een overschot laat toe dat niet iedereen aan voedsel werkt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Julius Caesar veroverde onze streken rond 57 v.Chr. In welke eeuw voor Christus is dat? Antwoord met een getal.",
+          "antwoord": "1",
+          "uitleg": "De jaren 100 tot 1 v.Chr. vormen de 1ste eeuw v.Chr. Voor Christus tel je terug, dus een klein jaartal hoort bij een lage eeuw."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat hebben de Romeinse heirbanen en het internet met elkaar gemeen?",
+          "opties": [
+            "Allebei maakten ze het verspreiden van nieuws veel sneller dan voordien",
+            "Allebei werden ze vooral aangelegd om handel te drijven met Azië",
+            "Allebei zijn ze bedacht door één persoon die er beroemd mee werd",
+            "Allebei werden ze pas eeuwen na hun uitvinding echt gebruikt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een heirbaan bracht soldaten, goederen én berichten sneller ter plaatse. Het internet doet met berichten hetzelfde, alleen nog veel sneller."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De boekdrukkunst zorgde ervoor dat boeken goedkoper werden en dat meer mensen leerden lezen.",
+          "antwoord": true,
+          "uitleg": "Waar. Een monnik schreef een boek in maanden over; een drukpers maakte er honderden. Wie een boek kon betalen, had ook een reden om te leren lezen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom duurde het na de boekdrukkunst nog eeuwen voor bijna iedereen kon lezen?",
+          "opties": [
+            "Omdat de meeste kinderen moesten werken en er geen leerplicht was",
+            "Omdat er tot de 19de eeuw veel te weinig boeken gedrukt werden",
+            "Omdat men enkel in het Latijn boeken mocht laten drukken",
+            "Omdat de kerk het lezen van gedrukte boeken verboden had"
+          ],
+          "antwoord": 0,
+          "uitleg": "Lezen leer je niet vanzelf. Zolang kinderen op het land of in de fabriek stonden en school niet verplicht was, bleef lezen iets voor een kleine groep."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "België bestond al als land toen de Guldensporenslag uitgevochten werd.",
+          "antwoord": false,
+          "uitleg": "Niet waar. In 1302 was dit het graafschap Vlaanderen. België bestaat pas sinds 1830, meer dan vijfhonderd jaar later."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "België werd onafhankelijk in 1830. Hoeveel jaar later begon de Eerste Wereldoorlog?",
+          "antwoord": "84",
+          "uitleg": "De Eerste Wereldoorlog begon in 1914, dus 1914 - 1830 = 84 jaar later."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De steenkoolmijnen in Limburg horen bij de industriële revolutie. Hoe precies?",
+          "opties": [
+            "Steenkool was de brandstof waarop de stoommachines draaiden",
+            "Van steenkool smeedde men de munten en de wapens van die tijd",
+            "In de mijnen vond men het ijzer waarmee men treinen bouwde",
+            "De mijnen leverden de stenen waarmee men fabrieken bouwde"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een stoommachine heeft vuur nodig, en steenkool geeft veel warmte. Zonder kolen geen fabrieken, geen treinen en geen mijnstreek."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Tussen het einde van de Eerste en het begin van de Tweede Wereldoorlog zat minder dan dertig jaar.",
+          "antwoord": true,
+          "uitleg": "Waar. De Eerste eindigde in 1918 en de Tweede begon in 1939: eenentwintig jaar ertussen. Veel mensen maakten allebei de oorlogen mee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een archeoloog vindt één Romeinse munt in een Limburgs veld. Wat mag ze daaruit besluiten?",
+          "opties": [
+            "Dat er Romeinen in de buurt kwamen of dat er handel gedreven werd",
+            "Dat op die plek met zekerheid een Romeinse stad gestaan heeft",
+            "Dat de munt daar door een Romein zelf verloren is en niet later",
+            "Dat dit veld in de Romeinse tijd al bewerkt werd door boeren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eén voorwerp zegt weinig meer dan dat het daar geraakt is. Wie er een stad of een verhaal bij verzint, gaat verder dan de bron toelaat."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel jaar zit er tussen de val van het West-Romeinse Rijk in 476 en de Guldensporenslag in 1302?",
+          "antwoord": "826",
+          "uitleg": "1302 - 476 = 826 jaar. Die lange tussenperiode noemen we de middeleeuwen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De pest en de Holocaust kostten allebei heel veel mensenlevens, maar alleen de Holocaust was door mensen gepland.",
+          "antwoord": true,
+          "uitleg": "Waar. De pest was een ziekte die zich verspreidde; de Holocaust was de moord op miljoenen mensen, vooral Joden, die door het naziregime georganiseerd werd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom weten we veel minder over de prehistorie dan over de Romeinse tijd?",
+          "opties": [
+            "Omdat er uit de prehistorie geen geschreven bronnen bestaan",
+            "Omdat de prehistorie veel korter duurde dan de Romeinse tijd",
+            "Omdat archeologen liever Romeinse opgravingen doen dan oudere",
+            "Omdat er in de prehistorie nog bijna geen mensen leefden hier"
+          ],
+          "antwoord": 0,
+          "uitleg": "Prehistorie betekent letterlijk: voor de geschiedenis, dus voor het schrift. We hebben enkel voorwerpen en resten, geen verhalen van de mensen zelf."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In het oude Athene had iedereen stemrecht, dus dat was al een democratie zoals bij ons.",
+          "antwoord": false,
+          "uitleg": "Niet waar. Enkel vrije mannen uit Athene mochten meestemmen. Vrouwen, slaven en mensen van elders niet, en dat was veruit de grootste groep."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De leerplicht, het verbod op kinderarbeid en het vrouwenstemrecht kwamen er in dezelfde periode. Welke?",
+          "opties": [
+            "Tussen het einde van de 19de en het midden van de 20ste eeuw",
+            "Tijdens de middeleeuwen, toen de gilden sterk geworden waren",
+            "Meteen na de onafhankelijkheid van België, rond het jaar 1830",
+            "Pas na de val van de Berlijnse Muur, in de jaren negentig"
+          ],
+          "antwoord": 0,
+          "uitleg": "De leerplicht en het verbod op kinderarbeid kwamen er rond 1914, het vrouwenstemrecht voor de nationale verkiezingen in 1948. Rechten die vandaag gewoon lijken, zijn nog geen eeuw oud."
+        }
+      ]
+    }
+  ]
+}

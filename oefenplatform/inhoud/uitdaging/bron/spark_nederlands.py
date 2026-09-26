@@ -1,0 +1,183 @@
+# -*- coding: utf-8 -*-
+"""Uitdaging Nederlands ✨ Spark: de tien thema's door elkaar.
+
+Lezen, schrijven, taalbeschouwing en literatuur in één hoofdstuk, telkens
+toegepast op een zin of een geval dat je eerst moet uitpluizen.
+"""
+NIVEAU = "spark"
+VAK = "Nederlands"
+BESTAND = "spark-nederlands-uitdaging.json"
+
+VRAGEN = [
+    {
+        "type": "meerkeuze",
+        "vraag": "In welke zinnen staat een fout tegen de werkwoordspelling? (meerdere antwoorden mogelijk)",
+        "opties": [
+            "Ik wordt morgen opgehaald door mijn tante.",
+            "Zij antwoord altijd meteen op mijn berichten.",
+            "Hij heeft het probleem gisteren opgelost.",
+            "Wij hebben het hele verhaal al verteld.",
+        ],
+        "antwoord": [0, 1],
+        "uitleg": "Bij 'ik' komt er nooit een -t bij: ik word. Bij 'zij' komt er net wél een -t bij: zij antwoordt. De twee andere zinnen kloppen.",
+    },
+    {
+        "type": "meerkeuze",
+        "vraag": "Hoeveel persoonsvormen staan er in: 'Toen de bel ging, pakte iedereen zijn jas en liep naar buiten.'?",
+        "opties": ["Drie", "Twee", "Vier", "Eén"],
+        "antwoord": 0,
+        "uitleg": "Ging, pakte en liep. Het aantal persoonsvormen zegt je uit hoeveel deelzinnen een samengestelde zin bestaat: hier dus drie.",
+    },
+    {
+        "type": "invultekst",
+        "vraag": "Wat is de verleden tijd van 'verhuizen' in het enkelvoud? (één woord)",
+        "antwoord": "verhuisde",
+        "uitleg": "Haal -en van het hele werkwoord: verhuiz-. Die z hoort niet bij 't kofschip, dus komt er -de bij. De z wordt door de spellingregel een s: verhuisde.",
+    },
+    {
+        "type": "waarofniet",
+        "vraag": "In de zin 'Mijn zus is verpleegkundige' staat een naamwoordelijk gezegde.",
+        "antwoord": True,
+        "uitleg": "Waar. 'Is' zegt hier niets over een handeling maar koppelt twee dingen aan elkaar. Samen met 'verpleegkundige' vormt het een naamwoordelijk gezegde.",
+    },
+    {
+        "type": "meerkeuze",
+        "vraag": "'Zijn kamer is een zwijnenstal.' Wat voor taalgebruik is dat?",
+        "opties": [
+            "Beeldspraak zonder het woordje 'als' erbij",
+            "Een vergelijking, herkenbaar aan het woordje 'als'",
+            "Een letterlijke beschrijving van wat er staat",
+            "Een spreekwoord dat een les wil meegeven",
+        ],
+        "antwoord": 0,
+        "uitleg": "Er staat niet dát het lijkt op een zwijnenstal, er staat dat het er één ís. Zo'n beeld zonder 'als' noemen we een metafoor.",
+    },
+    {
+        "type": "meerkeuze",
+        "vraag": "Je schrijft een klachtenmail aan een webwinkel. Welke zin past bij het juiste register?",
+        "opties": [
+            "Ik ontving mijn bestelling beschadigd en vraag u om een oplossing.",
+            "Zeg, mijn pakje is kapot aangekomen, doe daar eens iets aan hé.",
+            "Bij dezen deel ik u mede dat ondergetekende ontevreden verkeert.",
+            "MIJN BESTELLING IS STUK!!! Ik wil onmiddellijk mijn geld terug!!!",
+        ],
+        "antwoord": 0,
+        "uitleg": "Aan een onbekende schrijf je formeel maar gewoon. Te losjes komt onbeleefd over, te plechtig klinkt aangesteld, en hoofdletters lezen als roepen.",
+    },
+    {
+        "type": "waarofniet",
+        "vraag": "Tussentaal is een ander woord voor dialect.",
+        "antwoord": False,
+        "uitleg": "Niet waar. Dialect is streekgebonden. Tussentaal zit tussen dialect en Standaardnederlands in en wordt overal in Vlaanderen gesproken.",
+    },
+    {
+        "type": "meerkeuze",
+        "vraag": "Welke aanwijzingen maken een bron betrouwbaarder? (meerdere antwoorden mogelijk)",
+        "opties": [
+            "De auteur staat er met naam en functie bij vermeld",
+            "Bij de cijfers staat waar ze vandaan gehaald zijn",
+            "De tekst staat vol uitroeptekens en hoofdletters",
+            "Het bericht circuleert enkel via sociale media",
+        ],
+        "antwoord": [0, 1],
+        "uitleg": "Wie iets beweert en waar de cijfers vandaan komen, kan je nakijken. Veel uitroeptekens wijzen eerder op overtuigen dan op informeren, en nieuws dat nergens anders opduikt, is verdacht.",
+    },
+    {
+        "type": "invultekst",
+        "vraag": "Het tegenovergestelde van een formeel register noem je een ... register. (één woord)",
+        "antwoord": "informeel",
+        "uitleg": "Informeel gebruik je bij vrienden en familie, formeel bij mensen die je niet goed kent of die boven je staan in een organisatie.",
+    },
+    {
+        "type": "meerkeuze",
+        "vraag": "Welk woord past: 'Hij had hard gestudeerd; ... slaagde hij niet.'",
+        "opties": ["toch", "daarom", "bovendien", "namelijk"],
+        "antwoord": 0,
+        "uitleg": "De twee delen botsen met elkaar, dus je hebt een tegenstellend signaalwoord nodig. 'Daarom' zou een gevolg aankondigen en dat klopt hier niet.",
+    },
+    {
+        "type": "waarofniet",
+        "vraag": "Het woord 'hoewel' kondigt een tegenstelling aan, geen reden.",
+        "antwoord": True,
+        "uitleg": "Waar. 'Hoewel het regende, gingen we door': het tweede deel gaat in tegen wat je zou verwachten. Voor een reden gebruik je 'omdat' of 'want'.",
+    },
+    {
+        "type": "meerkeuze",
+        "vraag": "In een filmpje legt iemand uit hoe je een band plakt, maar het merk van zijn gereedschap komt voortdurend in beeld. Wat besluit je?",
+        "opties": [
+            "Een tekst kan meerdere doelen tegelijk hebben",
+            "Het filmpje wil enkel informeren over banden plakken",
+            "Het filmpje is daardoor automatisch onbetrouwbaar",
+            "Een instructietekst heeft nooit een tweede bedoeling",
+        ],
+        "antwoord": 0,
+        "uitleg": "Informeren en overtuigen kunnen samengaan. De uitleg kan best kloppen; je weet nu alleen ook dat er een belang meespeelt.",
+    },
+    {
+        "type": "invultekst",
+        "vraag": "In het communicatiemodel: hoe noem je degene voor wie de boodschap bestemd is? (één woord)",
+        "antwoord": "ontvanger",
+        "uitleg": "De zender maakt de boodschap, het kanaal brengt ze over, en de ontvanger krijgt ze. Wie je ontvanger is, bepaalt je woordkeuze en je register.",
+    },
+    {
+        "type": "meerkeuze",
+        "vraag": "Welke zin is een mening, ook al klinkt ze even stellig als de andere?",
+        "opties": [
+            "Dit is het beste boek van het jaar",
+            "Dit boek verkocht vorig jaar het meest",
+            "Dit boek telt driehonderdtwaalf bladzijden",
+            "Dit boek verscheen voor het eerst in 2019",
+        ],
+        "antwoord": 0,
+        "uitleg": "De drie andere kan je nakijken in cijfers. 'Het beste' hangt af van wie het zegt, en dat maakt het een mening.",
+    },
+    {
+        "type": "waarofniet",
+        "vraag": "Een strip kan geen literaire tekst zijn, want er staan tekeningen in.",
+        "antwoord": False,
+        "uitleg": "Niet waar. Een strip vertelt een verhaal met personages, een ruimte en een tijd, en hoort dus wel degelijk bij de literaire teksten.",
+    },
+    {
+        "type": "meerkeuze",
+        "vraag": "'De leerlingen kregen hun rapport. Ze waren er blij mee.' Waar verwijst het woordje 'er' naar?",
+        "opties": [
+            "Naar het rapport",
+            "Naar de leerlingen",
+            "Naar de school",
+            "Naar het moment zelf",
+        ],
+        "antwoord": 0,
+        "uitleg": "Een verwijswoord vervangt iets uit de vorige zin. 'Ze' verwijst hier naar de leerlingen, 'er' naar het rapport.",
+    },
+    {
+        "type": "invultekst",
+        "vraag": "Vul aan: 'Hij heeft mij de brief gisteren ...' (werkwoord: toesturen, voltooid deelwoord)",
+        "antwoord": "toegestuurd",
+        "uitleg": "Bij een scheidbaar werkwoord komt ge- tussen de twee delen: toe-ge-stuurd. De stam 'stuur' eindigt op -r, dus komt er -d bij.",
+    },
+    {
+        "type": "meerkeuze",
+        "vraag": "In 'Gisteren heeft mijn broer in de tuin een oud nest gevonden' — welk stuk is de bepaling van plaats?",
+        "opties": ["in de tuin", "gisteren", "een oud nest", "mijn broer"],
+        "antwoord": 0,
+        "uitleg": "Vraag: wáár heeft hij het gevonden? In de tuin. 'Gisteren' antwoordt op wanneer, 'een oud nest' is het lijdend voorwerp.",
+    },
+    {
+        "type": "waarofniet",
+        "vraag": "In een samengestelde zin staan evenveel persoonsvormen als er deelzinnen zijn.",
+        "antwoord": True,
+        "uitleg": "Waar. Elke deelzin heeft er precies één. Tel je de persoonsvormen, dan weet je meteen uit hoeveel stukken de zin bestaat.",
+    },
+    {
+        "type": "meerkeuze",
+        "vraag": "Iemand zegt: 'wie dialect spreekt, is minder goed opgeleid'. Wat is dat?",
+        "opties": [
+            "Stereotypering: een hele groep krijgt één etiket opgeplakt",
+            "Een feit, want zo staat het beschreven in de taalkunde",
+            "Een vergelijking tussen twee verschillende taalvariëteiten",
+            "Propaganda, want de spreker wil er iets mee verkopen",
+        ],
+        "antwoord": 0,
+        "uitleg": "Een eigenschap toeschrijven aan iedereen uit een groep is stereotypering. Welke taalvariëteit iemand spreekt, zegt niets over zijn opleiding.",
+    },
+]

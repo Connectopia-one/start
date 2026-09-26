@@ -1,0 +1,177 @@
+# -*- coding: utf-8 -*-
+"""Uitdaging aardrijkskunde 🌱 Start: kaartlezen, België en de wereld samen."""
+NIVEAU = "start"
+VAK = "Aardrijkskunde"
+BESTAND = "start-aardrijkskunde-uitdaging.json"
+
+VRAGEN = [
+    {
+        "type": "meerkeuze",
+        "vraag": "Op een kaart met schaal 1 op 50 000 liggen twee dorpen 6 cm uit elkaar. Hoeveel is dat in het echt?",
+        "opties": ["3 km", "5 km", "30 km", "0,3 km"],
+        "antwoord": 0,
+        "reken": "6 * 50000 / 100000",
+        "uitleg": "1 cm op de kaart is 50 000 cm in het echt, dus 6 cm is 300 000 cm. En 300 000 cm is 3 000 m, dus 3 km.",
+    },
+    {
+        "type": "invultekst",
+        "vraag": "Op een kaart met schaal 1 op 100 000 liggen twee steden 8 cm uit elkaar. Hoeveel kilometer is dat in het echt?",
+        "antwoord": "8",
+        "reken": "8 * 100000 / 100000",
+        "uitleg": "8 cm maal 100 000 is 800 000 cm. Dat is 8 000 m, dus 8 km. Bij schaal 1 op 100 000 is elke centimeter precies één kilometer.",
+    },
+    {
+        "type": "meerkeuze",
+        "vraag": "Je rijdt van Oostende naar Hasselt. In welke richting ga je ongeveer?",
+        "opties": ["Naar het oosten", "Naar het westen", "Naar het zuiden", "Naar het noorden"],
+        "antwoord": 0,
+        "uitleg": "Oostende ligt aan de kust, helemaal links op de kaart van België, en Hasselt ligt in Limburg, rechts. Rechts op de kaart is het oosten.",
+    },
+    {
+        "type": "waarofniet",
+        "vraag": "De Schelde stroomt door Luik en de Maas door Antwerpen.",
+        "antwoord": False,
+        "uitleg": "Niet waar, het is net omgekeerd: de Maas stroomt door Luik, de Schelde door Antwerpen.",
+    },
+    {
+        "type": "meerkeuze",
+        "vraag": "Welke uitspraak over het reliëf van België klopt?",
+        "opties": [
+            "Het loopt op van vlak aan de kust naar heuvels in de Ardennen",
+            "Het is overal even vlak, behalve op één heuvel bij Brussel",
+            "De hoogste punten liggen vlak bij de grens met Nederland",
+            "Het loopt op van de Ardennen naar de kust, waar het hoogst is",
+        ],
+        "antwoord": 0,
+        "uitleg": "Aan de zee is het vlak; hoe verder naar het zuidoosten, hoe hoger. Het hoogste punt van België ligt in de Ardennen.",
+    },
+    {
+        "type": "invultekst",
+        "vraag": "In België is het 14 uur. In New York is het zes uur vroeger. Hoe laat is het daar? Antwoord met een getal.",
+        "antwoord": "8",
+        "reken": "14 - 6",
+        "uitleg": "14 - 6 = 8, dus daar is het 8 uur 's ochtends. De aarde draait, dus niet overal is het tegelijk even laat: daarom zijn er tijdzones.",
+    },
+    {
+        "type": "waarofniet",
+        "vraag": "De evenaar loopt wel door Afrika en Zuid-Amerika, maar niet door Europa.",
+        "antwoord": True,
+        "uitleg": "Waar. De evenaar ligt rond het midden van de aarde; Europa ligt daar helemaal boven, op het noordelijk halfrond.",
+    },
+    {
+        "type": "meerkeuze",
+        "vraag": "Waarom is het in Australië winter wanneer het bij ons zomer is?",
+        "opties": [
+            "Omdat het op het andere halfrond ligt en de aarde schuin staat",
+            "Omdat Australië veel verder van de zon af ligt dan Europa",
+            "Omdat het daar altijd kouder is, ook in hun eigen zomer",
+            "Omdat het er zoveel later op de dag is dan bij ons in België",
+        ],
+        "antwoord": 0,
+        "uitleg": "De aarde staat schuin. Daardoor krijgt het ene halfrond een half jaar lang meer zon dan het andere, en zijn de seizoenen er omgekeerd.",
+    },
+    {
+        "type": "meerkeuze",
+        "vraag": "Je legt je kaart op tafel en je kompasnaald wijst recht naar de bovenrand van de kaart. Wat weet je dan?",
+        "opties": [
+            "De kaart ligt juist, want het noorden staat bovenaan",
+            "De kaart ligt verkeerd en je moet ze een halve slag draaien",
+            "Je kompas werkt niet, want een naald wijst nooit naar boven",
+            "Je staat zelf naar het zuiden gekeerd te kijken op dat moment",
+        ],
+        "antwoord": 0,
+        "uitleg": "Een kompasnaald wijst naar het noorden, en op een kaart staat het noorden bovenaan. Wijst de naald naar de bovenrand, dan ligt je kaart goed.",
+    },
+    {
+        "type": "waarofniet",
+        "vraag": "Op een kaart met schaal 1 op 25 000 zie je meer details dan op een kaart met schaal 1 op 250 000.",
+        "antwoord": True,
+        "uitleg": "Waar. Hoe kleiner het tweede getal, hoe minder de werkelijkheid verkleind is, en hoe meer er dus op past: straten in plaats van enkel steden.",
+    },
+    {
+        "type": "meerkeuze",
+        "vraag": "Welke Vlaamse provincie grenst zowel aan Nederland als aan Duitsland?",
+        "opties": ["Limburg", "Antwerpen", "Vlaams-Brabant", "Oost-Vlaanderen"],
+        "antwoord": 0,
+        "uitleg": "Limburg ligt het verst in het oosten van Vlaanderen en raakt daar allebei de buurlanden.",
+    },
+    {
+        "type": "invultekst",
+        "vraag": "Vlaanderen telt vijf provincies en Wallonië ook. Hoeveel provincies heeft België dan in totaal?",
+        "antwoord": "10",
+        "reken": "5 + 5",
+        "uitleg": "5 + 5 = 10. Brussel hoort bij geen enkele provincie: dat is een apart gewest.",
+    },
+    {
+        "type": "waarofniet",
+        "vraag": "Brussel ligt in het Vlaams Gewest.",
+        "antwoord": False,
+        "uitleg": "Niet waar. Brussel is zelf een van de drie gewesten, naast Vlaanderen en Wallonië. Het ligt wel middenin Vlaams-Brabant.",
+    },
+    {
+        "type": "meerkeuze",
+        "vraag": "Welke bergketen scheidt Frankrijk en Spanje, en welke zee ligt tussen Europa en Afrika?",
+        "opties": [
+            "De Pyreneeën en de Middellandse Zee",
+            "De Alpen en de Middellandse Zee",
+            "De Pyreneeën en de Noordzee",
+            "De Alpen en de Atlantische Oceaan",
+        ],
+        "antwoord": 0,
+        "uitleg": "De Pyreneeën vormen de grens tussen Frankrijk en Spanje. De Alpen liggen verder naar het oosten, en de Noordzee ligt bij ons.",
+    },
+    {
+        "type": "meerkeuze",
+        "vraag": "Je vaart met een schip van Lissabon naar New York. Welk water steek je over?",
+        "opties": [
+            "De Atlantische Oceaan",
+            "De Middellandse Zee",
+            "De Noordzee",
+            "De Stille Oceaan",
+        ],
+        "antwoord": 0,
+        "uitleg": "De Atlantische Oceaan ligt tussen Europa en Amerika. De Stille Oceaan ligt aan de andere kant van Amerika.",
+    },
+    {
+        "type": "waarofniet",
+        "vraag": "Australië is een land én een werelddeel, en het is groter dan Europa.",
+        "antwoord": False,
+        "uitleg": "Het eerste stuk klopt, het tweede niet: Europa is met zowat 10 miljoen km² groter dan Australië met zowat 8 miljoen km². Eén foute helft maakt de hele zin fout.",
+    },
+    {
+        "type": "meerkeuze",
+        "vraag": "Op een kaart zie je een groot groen gebied, met blauwe lijnen erdoor en bruine vlekken aan de rand. Wat zie je waarschijnlijk?",
+        "opties": [
+            "Een laag gebied met rivieren, en hoger land aan de rand",
+            "Een bergketen met besneeuwde toppen en diepe dalen ertussen",
+            "Een zee met eilanden erin en een zandstrand eromheen",
+            "Een grote stad met parken erin en wegen eromheen",
+        ],
+        "antwoord": 0,
+        "uitleg": "Groen staat op een reliëfkaart voor laag gelegen land, blauw voor water en bruin voor hoger gelegen land. Je leest een kaart met de legende erbij.",
+    },
+    {
+        "type": "invultekst",
+        "vraag": "Je kijkt naar het noorden en draait een halve draai. Naar welke windstreek kijk je nu? (één woord)",
+        "antwoord": "zuiden",
+        "uitleg": "Een halve draai is 180 graden, en tegenover het noorden ligt het zuiden.",
+    },
+    {
+        "type": "waarofniet",
+        "vraag": "Om te voet de weg te vinden in een stadscentrum is een plattegrond handiger dan een wegenkaart.",
+        "antwoord": True,
+        "uitleg": "Waar. Een plattegrond toont de straten van bovenaf en van dichtbij. Een wegenkaart is gemaakt voor grote afstanden met de auto.",
+    },
+    {
+        "type": "meerkeuze",
+        "vraag": "Waarom staat op bijna elke kaart het noorden bovenaan?",
+        "opties": [
+            "Omdat kaartenmakers dat ooit zo afgesproken hebben",
+            "Omdat het noorden nu eenmaal boven op de aarde ligt",
+            "Omdat een kompasnaald anders niet zou kunnen werken",
+            "Omdat het noorden het grootste deel van de aarde is",
+        ],
+        "antwoord": 0,
+        "uitleg": "Het is een afspraak, geen natuurwet. In de ruimte bestaat er geen boven of onder; een kaart met het zuiden boven zou even juist zijn, maar niemand zou ze vlot lezen.",
+    },
+]
