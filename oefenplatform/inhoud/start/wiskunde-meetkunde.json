@@ -60,9 +60,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Evenwijdige lijnen snijden elkaar ver genoeg verderop toch.",
-          "antwoord": false,
-          "uitleg": "Niet juist. Evenwijdige lijnen blijven overal even ver uit elkaar en snijden elkaar nooit."
+          "vraag": "Evenwijdige lijnen snijden elkaar nooit.",
+          "antwoord": true,
+          "uitleg": "Evenwijdige lijnen lopen altijd even ver uit elkaar."
         },
         {
           "type": "meerkeuze",
@@ -96,9 +96,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een cilinder heeft twee cirkelvormige grondvlakken.",
-          "antwoord": true,
-          "uitleg": "Denk aan een blikje: boven en onder zit een cirkel."
+          "vraag": "Een cilinder heeft één cirkelvormig grondvlak en loopt uit op een punt.",
+          "antwoord": false,
+          "uitleg": "Niet juist, dat is een kegel. Een cilinder heeft er twee, onderaan en bovenaan."
         },
         {
           "type": "meerkeuze",
@@ -180,9 +180,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een rechthoek heeft twee rechte hoeken en twee scherpe.",
-          "antwoord": false,
-          "uitleg": "Niet juist. Alle vier de hoeken van een rechthoek zijn recht."
+          "vraag": "Een rechthoek heeft vier rechte hoeken.",
+          "antwoord": true,
+          "uitleg": "Daar komt de naam vandaan."
         },
         {
           "type": "meerkeuze",
@@ -288,9 +288,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een bol heeft geen enkel vlak zijvlak.",
-          "antwoord": true,
-          "uitleg": "Klopt. Een bol is overal rond, daarom rolt hij alle kanten op."
+          "vraag": "Een bol heeft één vlak zijvlak.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Een bol is overal rond en heeft geen enkel vlak zijvlak."
         },
         {
           "type": "meerkeuze",
