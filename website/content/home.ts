@@ -98,7 +98,7 @@ export const home = {
     label: "Nieuw in het oefenplatform",
     titel: "Een uitdagingshoek voor wie meer wil",
     tekst:
-      "Vragen die naast de leerstof liggen: de ruimte, hoe een computer denkt, de geschiedenis van ons land en paradoxen die je hoofd kraken. Gemaakt voor kinderen die de gewone oefeningen vlot afwerken. Gratis, ook zonder account.",
+      "Vragen die naast de leerstof liggen: de ruimte, hoe een computer denkt, de geschiedenis van ons land en paradoxen die je hoofd kraken. Gemaakt voor kinderen die de gewone oefeningen vlot afwerken, en inbegrepen in de toegang tot het oefenplatform.",
     knop: "Naar de uitdagingshoek",
     link: "https://oefenplatform.connectopia.one/niveaus/hoekje",
   },

@@ -6,9 +6,10 @@ de binnenkant van een computer, door de geschiedenis van ons land en langs
 paradoxen die je hoofd kraken.
 
 Bedoeld voor de kinderen die de gewone hoofdstukken vlot afwerken en dan nog
-honger hebben. Het is ook het enige deel van het oefenplatform dat helemaal
-open staat, ook zonder account: wie via de website binnenwandelt, kan meteen
-beginnen.
+honger hebben. Het zit mee in de volledige toegang, als extraatje: een account
+is dus nodig. Anders dan bij de leerjaren staat hier **geen** eerste hoofdstuk
+gratis open — zie `heeftProefhoofdstuk()` in `lib/niveaus.ts`, want dit is geen
+leerweg om eerst uit te proberen.
 
 **Niet te verwarren** met het hoofdstuk *"Uitdaging — alles door elkaar"* dat
 bij elk gewoon vak staat. Dat blijft binnen de leerstof van dat vak en hoort bij

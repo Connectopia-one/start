@@ -38,6 +38,18 @@ export function vindNiveau(slug: string): Niveau | undefined {
   return NIVEAUS.find((n) => n.slug === slug);
 }
 
+/**
+ * Krijgt het eerste hoofdstuk van deze categorie bij een import vanzelf
+ * "gratis" mee, als proefhoofdstuk?
+ *
+ * Ja voor de leerjaren en voor 🧱 Basis: daar moet een ouder iets kunnen
+ * uitproberen vóór hij betaalt. Niet voor 🔭 de uitdagingshoek: dat is geen
+ * leerweg maar een extraatje bij een account.
+ */
+export function heeftProefhoofdstuk(slug: string): boolean {
+  return slug !== "hoekje";
+}
+
 /** De vier categorieën die bij een leerjaar horen, zonder 🧱 Basis en 🔭 de hoek. */
 export const LEERJAARNIVEAUS = NIVEAUS.filter(
   (n) => n.slug !== "basis" && n.slug !== "hoekje"

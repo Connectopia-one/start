@@ -3,7 +3,7 @@
     {
       "titel": "Hoe een computer denkt",
       "niveau": "hoekje",
-      "gratis": true,
+      "gratis": false,
       "vragen": [
         {
           "type": "invultekst",
@@ -214,7 +214,7 @@
     {
       "titel": "Algoritmes, netwerken en geheimschrift",
       "niveau": "hoekje",
-      "gratis": true,
+      "gratis": false,
       "vragen": [
         {
           "type": "meerkeuze",

@@ -3,7 +3,7 @@
     {
       "titel": "Paradoxen die je hoofd kraken",
       "niveau": "hoekje",
-      "gratis": true,
+      "gratis": false,
       "vragen": [
         {
           "type": "meerkeuze",
@@ -220,7 +220,7 @@
     {
       "titel": "Wonderlijke weetjes",
       "niveau": "hoekje",
-      "gratis": true,
+      "gratis": false,
       "vragen": [
         {
           "type": "meerkeuze",

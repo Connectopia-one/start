@@ -5,7 +5,7 @@ import { redirect } from "next/navigation";
 import { requireBeheerder } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { slugify } from "@/lib/slug";
-import { NIVEAUS, vindNiveau } from "@/lib/niveaus";
+import { NIVEAUS, vindNiveau, heeftProefhoofdstuk } from "@/lib/niveaus";
 import { volgendVolgnummer, vrijeVolgnummers } from "@/lib/volgnummer";
 
 export async function maakVak(formData: FormData) {
@@ -387,7 +387,8 @@ export async function bulkImportVakInhoud(formData: FormData) {
     const bestaandGratis = bestondAl ? gratisVanId.get(hoofdstukId!) ?? false : false;
 
     if (!hoofdstukId) {
-      const eersteVanNiveau = !niveausMetHoofdstuk.has(niveau);
+      const eersteVanNiveau =
+        heeftProefhoofdstuk(niveau) && !niveausMetHoofdstuk.has(niveau);
       niveausMetHoofdstuk.add(niveau);
       const rij = {
         vak_id: vakId,

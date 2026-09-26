@@ -3,7 +3,7 @@
     {
       "titel": "Van 1830 tot de Groote Oorlog",
       "niveau": "hoekje",
-      "gratis": true,
+      "gratis": false,
       "vragen": [
         {
           "type": "meerkeuze",
@@ -214,7 +214,7 @@
     {
       "titel": "Van de Koningskwestie tot vandaag",
       "niveau": "hoekje",
-      "gratis": true,
+      "gratis": false,
       "vragen": [
         {
           "type": "meerkeuze",

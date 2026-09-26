@@ -119,8 +119,9 @@ def main():
                 {
                     "titel": m.TITEL,
                     "niveau": NIVEAU,
-                    # Het hoekje hoort niet bij het betalende aanbod.
-                    "gratis": True,
+                    # Een extraatje bij een account, geen lokkertje: het
+                    # hoekje zit mee in de volledige toegang.
+                    "gratis": False,
                     "vragen": vragen,
                 }
                 for m, vragen in delen
