@@ -108,9 +108,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Als je week op maandag begint, is \"Wednesday\" de derde dag.",
-          "antwoord": true,
-          "uitleg": "Klopt: Monday, Tuesday, Wednesday. Woensdag is de derde."
+          "vraag": "Als de week op maandag begint, is \"Wednesday\" de vierde dag.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Monday, Tuesday, Wednesday: woensdag is de derde dag."
         },
         {
           "type": "meerkeuze",
@@ -144,9 +144,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "\"Spring\" betekent lente.",
-          "antwoord": true,
-          "uitleg": "Klopt. Spring betekent ook springen of veer, maar als seizoen is het de lente."
+          "vraag": "\"Spring\" betekent zomer.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Spring is de lente. De zomer is summer."
         },
         {
           "type": "meerkeuze",
@@ -158,7 +158,7 @@
             "50"
           ],
           "antwoord": 2,
-          "uitleg": "Fifteen is 15. Vijftig is fifty, en dat klinkt er erg op."
+          "uitleg": "Fifteen is 15. Let op het verschil met fifty (50): woorden op -teen horen bij 13 tot 19."
         },
         {
           "type": "invultekst",
@@ -390,7 +390,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke zin is juist bij “he”?",
+          "vraag": "Welke zin is juist bij \"he\"?",
           "opties": [
             "He are happy.",
             "He is happy.",
@@ -402,9 +402,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij \"I\" hoort de vorm \"am\".",
-          "antwoord": true,
-          "uitleg": "Klopt: I am. Dat is de enige plek waar am staat."
+          "vraag": "Bij \"I\" hoort de vorm \"is\".",
+          "antwoord": false,
+          "uitleg": "Niet juist. Bij I hoort am. Is hoort bij he, she en it."
         },
         {
           "type": "meerkeuze",
@@ -421,12 +421,15 @@
         {
           "type": "invultekst",
           "vraag": "Vul aan: \"I ... a new bike.\" (hebben)",
-          "antwoord": "have",
-          "uitleg": "I have a new bike. Bij I hoort have, niet has."
+          "antwoord": [
+            "have",
+            "have got"
+          ],
+          "uitleg": "I have a new bike, of I have got a new bike. Bij I hoort have, niet has."
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke zin is juist met “to have”?",
+          "vraag": "Welke zin is juist met \"to have\"?",
           "opties": [
             "My brother have a dog.",
             "My brother has a dog.",
@@ -474,9 +477,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "\"It's\" is de korte vorm van \"it is\".",
-          "antwoord": true,
-          "uitleg": "Klopt. Pas op met its zonder apostrof: dat betekent zijn of haar."
+          "vraag": "\"It's\" is de korte vorm van \"its\".",
+          "antwoord": false,
+          "uitleg": "Niet juist. It's is it is. Its zonder apostrof betekent zijn of haar."
         },
         {
           "type": "meerkeuze",
@@ -576,9 +579,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij \"he\", \"she\" en \"it\" komt er in de tegenwoordige tijd een -s achter het werkwoord.",
-          "antwoord": true,
-          "uitleg": "Klopt, en dat is meteen de fout die het vaakst gemaakt wordt."
+          "vraag": "Bij \"we\" en \"they\" komt er in de tegenwoordige tijd een -s achter het werkwoord.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Die -s komt er alleen bij he, she en it: he plays, maar we play en they play."
         },
         {
           "type": "meerkeuze",
@@ -708,9 +711,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Na \"doesn't\" krijgt het werkwoord geen -s meer.",
-          "antwoord": true,
-          "uitleg": "Klopt: he doesn't play, niet he doesn't plays. De -s zit al in doesn't."
+          "vraag": "Na \"doesn't\" krijgt het werkwoord nog een -s: \"he doesn't plays\".",
+          "antwoord": false,
+          "uitleg": "Niet juist. Het is he doesn't play. De -s zit al in doesn't."
         },
         {
           "type": "meerkeuze",
@@ -846,9 +849,9 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Vul aan: \"This is ... book.\" als het boek van jou is.",
+          "vraag": "Vul aan: \"This is ... book.\" Het boek is van mij.",
           "antwoord": "my",
-          "uitleg": "This is my book. My betekent mijn."
+          "uitleg": "This is my book. My betekent mijn; your zou van jou betekenen."
         },
         {
           "type": "meerkeuze",
@@ -906,7 +909,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke zin is juist met “good”?",
+          "vraag": "Welke zin is juist met \"good\"?",
           "opties": [
             "He is a good in English.",
             "He is good in English.",
@@ -1003,7 +1006,12 @@
         {
           "type": "invultekst",
           "vraag": "Vul aan: het Engelse woord voor \"boekentas\" is ...",
-          "antwoord": "schoolbag",
+          "antwoord": [
+            "schoolbag",
+            "school bag",
+            "bag",
+            "backpack"
+          ],
           "uitleg": "Schoolbag, of gewoon bag. In Amerika zeggen ze backpack."
         },
         {
