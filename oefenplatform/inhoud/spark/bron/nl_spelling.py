@@ -156,9 +156,9 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Tussen twee woorden van een samenstelling staat meestal geen spatie.",
-        antwoord=True,
-        uitleg="Het is 'schoolreglement' en 'handdoek', niet 'school reglement'. Dat is het verschil met het Engels.",
+        vraag="Tussen de twee woorden van een samenstelling staat meestal een spatie.",
+        antwoord=False,
+        uitleg="Niet juist. In het Nederlands schrijf je een samenstelling aan elkaar: voetbalploeg, niet voetbal ploeg.",
     ),
     dict(
         type="meerkeuze",

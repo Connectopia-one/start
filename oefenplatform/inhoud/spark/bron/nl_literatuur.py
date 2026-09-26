@@ -121,9 +121,9 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="'Beeldspraak' betekent dat je met woorden een beeld oproept.",
-        antwoord=True,
-        uitleg="'Een zee van tijd', 'de avond van zijn leven': je gebruikt het ene beeld om iets anders te tonen.",
+        vraag="'Beeldspraak' betekent dat er een tekening bij de tekst staat.",
+        antwoord=False,
+        uitleg="Niet juist. Bij beeldspraak roep je met woorden een beeld op, zoals in 'een zee van tijd'.",
     ),
     dict(
         type="meerkeuze",
@@ -189,12 +189,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Waarom lees je literatuur, volgens de vakfiche?",
-        opties=[
-            "Om kennis te maken met andere mensen, ideeën en ervaringen",
-            "Om sneller te leren typen",
-            "Om je spelling te verbeteren",
-            "Om nieuwe vakwoorden te leren",
-        ],
+        opties=["Om kennis te maken met andere mensen, ideeën en ervaringen", "Om sneller te leren typen", "Om je spelling te verbeteren", "Om nieuwe vakwoorden te leren die je later op school nodig hebt"],
         antwoord=0,
         uitleg="Verhalen lezen laat je kijken door de ogen van iemand anders.",
     ),
@@ -246,24 +241,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="'Mijn broer is een beer.' Wat wil die zin zeggen?",
-        opties=[
-            "Hij is groot en sterk, of knorrig: het is beeldspraak",
-            "Hij is echt een dier",
-            "Hij heet Beer",
-            "Hij houdt van beren",
-        ],
+        opties=["Hij is groot en sterk, of knorrig: het is beeldspraak", "Hij is echt een dier, want de zin zegt letterlijk dat hij een beer is", "Hij heet Beer", "Hij houdt van beren"],
         antwoord=0,
         uitleg="Hier wordt het beeld zonder 'als' gebruikt. Dat maakt het sterker dan de vergelijking 'sterk als een beer'.",
     ),
     dict(
         type="meerkeuze",
         vraag="Wat is het verschil tussen een vergelijking en beeldspraak zonder vergelijkingswoord?",
-        opties=[
-            "Bij een vergelijking staat er 'als' of 'zoals', bij beeldspraak niet",
-            "Beeldspraak rijmt altijd",
-            "Een vergelijking is altijd langer",
-            "Er is geen verschil",
-        ],
+        opties=["Bij een vergelijking staat er 'als' of 'zoals', bij beeldspraak niet", "Beeldspraak rijmt altijd", "Een vergelijking is altijd langer dan beeldspraak, want er komt een extra woord bij", "Er is geen verschil"],
         antwoord=0,
         uitleg="'Hij is zo sterk als een beer' is een vergelijking. 'Hij is een beer' zet het beeld in de plaats van de zaak.",
     ),
@@ -299,19 +284,14 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Een lied kan je op dezelfde manier bespreken als een gedicht.",
-        antwoord=True,
-        uitleg="Een liedtekst heeft ook beelden, rijm, ritme en een boodschap. Alleen komt er muziek bij.",
+        vraag="Een lied kan je niet bespreken zoals een gedicht, want er zit muziek bij.",
+        antwoord=False,
+        uitleg="Niet juist. Een liedtekst heeft net als een gedicht beelden, klank en ritme.",
     ),
     dict(
         type="meerkeuze",
         vraag="Je vertelt op het examen over een boek. Welke uitspraak is het sterkst?",
-        opties=[
-            "Ik herkende mezelf in Sam, omdat hij ook niet durfde te zeggen wat hij dacht.",
-            "Het was wel oké.",
-            "Ik vond het niks.",
-            "Het boek telt 224 bladzijden.",
-        ],
+        opties=["Ik herkende mezelf in Sam, omdat hij ook niet durfde te zeggen wat hij dacht.", "Het was wel oké.", "Ik vond het niks.", "Het boek telt 224 bladzijden en het heeft een harde kaft met een foto erop."],
         antwoord=0,
         uitleg="Je beleving verwoorden betekent: zeggen wat je raakte en waarom, met een voorbeeld erbij.",
     ),
@@ -379,12 +359,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Wat is het verschil tussen de verhaallijn en de samenvatting van een boek?",
-        opties=[
-            "De verhaallijn is de opbouw van de gebeurtenissen, de samenvatting is jouw korte weergave ervan",
-            "Er is geen verschil",
-            "Een samenvatting bevat altijd het einde niet",
-            "De verhaallijn staat op de achterflap",
-        ],
+        opties=["De verhaallijn is de opbouw van de gebeurtenissen, de samenvatting is jouw korte weergave ervan", "Er is geen verschil", "Een samenvatting laat het einde altijd weg, want anders bederf je het verhaal voor wie het nog wil lezen", "De verhaallijn staat op de achterflap"],
         antwoord=0,
         uitleg="De verhaallijn zit in het boek; de samenvatting maak jij ervan.",
     ),

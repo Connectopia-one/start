@@ -58,12 +58,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="In een tekst lees je: 'Steeds meer kinderen gebruiken dure gezichtscrèmes. Dat is meestal niet nodig en soms zelfs ongezond.' Wat is de hoofdgedachte?",
-        opties=[
-            "Kinderen gebruiken veel huidverzorging, terwijl dat niet nodig en soms ongezond is",
-            "Gezichtscrème is duur",
-            "Huidverzorging",
-            "Influencers verdienen geld met reclame",
-        ],
+        opties=["Kinderen gebruiken veel huidverzorging, terwijl dat niet nodig en soms ongezond is", "Gezichtscrème is duur", "Huidverzorging", "Dure gezichtscrèmes werken beter dan goedkope, ook bij kinderen met een gevoelige huid"],
         antwoord=0,
         uitleg="De hoofdgedachte is de belangrijkste boodschap in één zin. 'Huidverzorging' is maar het onderwerp, en de prijs is een detail.",
     ),
@@ -88,12 +83,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Waarom neem je notities terwijl je naar een reportage luistert?",
-        opties=[
-            "Om de belangrijkste informatie vast te houden en er daarna mee te werken",
-            "Om te tonen dat je aan het opletten bent",
-            "Om alles woord voor woord te kunnen herhalen",
-            "Omdat dat sneller gaat dan luisteren",
-        ],
+        opties=["Om de belangrijkste informatie vast te houden en er daarna mee te werken", "Om te tonen dat je aan het opletten bent", "Om de reportage woord voor woord te kunnen navertellen aan iemand die niet luisterde", "Omdat dat sneller gaat dan luisteren"],
         antwoord=0,
         uitleg="Je notities moeten duidelijk genoeg zijn om er nadien een samenvatting mee te maken of een vraag mee te beantwoorden.",
     ),
@@ -136,12 +126,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Wat doe je het best vóór je een lange tekst helemaal leest?",
-        opties=[
-            "Je kijkt naar de titel, de tussentitels en de afbeeldingen",
-            "Je leest meteen de laatste zin",
-            "Je zoekt alle onbekende woorden op",
-            "Je telt het aantal alinea's",
-        ],
+        opties=["Je kijkt naar de titel, de tussentitels en de afbeeldingen", "Je leest meteen de laatste zin", "Je zoekt eerst alle woorden op die je niet kent, zodat je niets hoeft te raden", "Je telt het aantal alinea's"],
         antwoord=0,
         uitleg="Zo weet je vooraf waarover het gaat, en kan je je afvragen wat je er zelf al over weet.",
     ),
@@ -253,12 +238,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Je komt in een tekst het woord 'wateroverlast' tegen en je kent het niet. Wat doe je eerst?",
-        opties=[
-            "Je leidt de betekenis af uit de rest van de zin en uit de twee delen van het woord",
-            "Je slaat de hele alinea over",
-            "Je zoekt elk onbekend woord meteen op",
-            "Je vraagt het aan je buur",
-        ],
+        opties=["Je leidt de betekenis af uit de rest van de zin en uit de twee delen van het woord", "Je slaat de hele alinea over", "Je zoekt elk woord dat je niet kent meteen op in het woordenboek, voor je verder leest", "Je vraagt het aan je buur"],
         antwoord=0,
         uitleg="'Water' plus 'overlast': de bouw van het woord en de context geven je de betekenis. Opzoeken doe je voor woorden die je echt nodig hebt.",
     ),
@@ -283,12 +263,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Je krijgt twee teksten over hetzelfde onderwerp en moet er samen één vraag mee beantwoorden. Wat doe je?",
-        opties=[
-            "Je zoekt in allebei de teksten wat op jouw vraag antwoordt en legt dat naast elkaar",
-            "Je gebruikt alleen de langste tekst",
-            "Je neemt de eerste tekst en negeert de tweede",
-            "Je telt hoeveel keer een woord voorkomt",
-        ],
+        opties=["Je zoekt in allebei de teksten wat op jouw vraag antwoordt en legt dat naast elkaar", "Je gebruikt alleen de langste tekst", "Je neemt de tekst die je het best begrijpt en laat de andere helemaal buiten beschouwing", "Je telt hoeveel keer een woord voorkomt"],
         antwoord=0,
         uitleg="Relevante informatie selecteren mag ook uit meerdere teksten tegelijk: samen geven ze een vollediger antwoord.",
     ),
@@ -355,12 +330,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Waarom noteer je tijdens het luisteren en niet pas achteraf?",
-        opties=[
-            "Omdat je een luistertekst niet kan terugbladeren en je snel details vergeet",
-            "Omdat je dan sneller klaar bent",
-            "Omdat je anders niet mag luisteren",
-            "Omdat notities achteraf verboden zijn",
-        ],
+        opties=["Omdat je een luistertekst niet kan terugbladeren en je snel details vergeet", "Omdat je dan sneller klaar bent", "Omdat je anders niet mag luisteren", "Omdat je notities achteraf niet meer mag gebruiken bij de vragen over de luistertekst"],
         antwoord=0,
         uitleg="Een gesproken tekst gaat voorbij. Wie meteen kort noteert, houdt de hoofdpunten vast.",
     ),

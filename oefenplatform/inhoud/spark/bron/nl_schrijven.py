@@ -17,24 +17,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Je moet uitleggen hoe je een gezelschapsspel speelt. Waarmee begin je het best?",
-        opties=[
-            "Met een plan: welke stappen komen er, en in welke volgorde",
-            "Met de moeilijkste regel",
-            "Met een grapje",
-            "Met de naam van de uitgever",
-        ],
+        opties=["Met een plan: welke stappen komen er, en in welke volgorde", "Met de moeilijkste regel", "Met een grapje", "Met de uitzonderingen op de regels, want die vergeet men het snelst"],
         antwoord=0,
         uitleg="Een schrijf- of spreekplan met kernwoorden zorgt dat je niets vergeet en in de juiste volgorde blijft.",
     ),
     dict(
         type="meerkeuze",
         vraag="Wat betekent 'taakvoltooiing' bij een schrijfopdracht?",
-        opties=[
-            "Dat je doet wat gevraagd werd en je boodschap volledig overkomt",
-            "Dat je op tijd klaar bent",
-            "Dat je veel woorden gebruikt",
-            "Dat je geen fouten maakt",
-        ],
+        opties=["Dat je doet wat gevraagd werd en je boodschap volledig overkomt", "Dat je op tijd klaar bent", "Dat je zoveel mogelijk woorden gebruikt zodat je tekst lang genoeg is", "Dat je geen fouten maakt"],
         antwoord=0,
         uitleg="Taakvoltooiing kijkt of het tekstdoel bereikt is: is de inhoud helder, correct, volledig en ter zake?",
     ),
@@ -102,12 +92,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Wat is 'creatief zijn met taal'?",
-        opties=[
-            "Spelen met rijm, ritme en lay-out om je boodschap sterker te maken",
-            "Zoveel mogelijk moeilijke woorden gebruiken",
-            "In een andere taal schrijven",
-            "Zonder leestekens schrijven",
-        ],
+        opties=["Spelen met rijm, ritme en lay-out om je boodschap sterker te maken", "Zoveel mogelijk moeilijke woorden gebruiken, zodat je tekst geleerd klinkt", "In een andere taal schrijven", "Zonder leestekens schrijven"],
         antwoord=0,
         uitleg="Een slogan, een gedicht of een verhaal: met eenvoudige technieken maak je je tekst opvallend.",
     ),
@@ -120,12 +105,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Je wil informatie vragen over een product in een winkel. Welke vraag is het duidelijkst?",
-        opties=[
-            "Kan u me zeggen hoelang de garantie op dit toestel loopt?",
-            "Dat ding, is dat iets?",
-            "Hoe zit dat allemaal?",
-            "Ik weet het niet goed.",
-        ],
+        opties=["Kan u me zeggen hoelang de garantie op dit toestel loopt?", "Dat ding, is dat iets?", "Hoe zit dat allemaal?", "Ik zou graag iets weten over dat toestel daar in de rekken."],
         antwoord=0,
         uitleg="Een duidelijke vraag noemt precies wat je wil weten. Zo krijg je ook een bruikbaar antwoord.",
     ),
@@ -168,12 +148,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Je gaat in gesprek over een maatschappelijk thema, bijvoorbeeld het klimaat. Wat helpt je?",
-        opties=[
-            "Vooraf een paar bronnen lezen en er cijfers uit onthouden",
-            "Alleen zeggen wat je vrienden vinden",
-            "Zo snel mogelijk praten",
-            "Alleen luisteren",
-        ],
+        opties=["Vooraf een paar bronnen lezen en er cijfers uit onthouden", "Alleen zeggen wat je vrienden ervan vinden, zodat je niet alleen staat", "Zo snel mogelijk praten", "Alleen luisteren"],
         antwoord=0,
         uitleg="De vakfiche vraagt uitdrukkelijk dat je bronnen gebruikt als je over zulke thema's spreekt.",
     ),
@@ -262,12 +237,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Je wil je ouders overtuigen dat je later mag thuiskomen. Wat werkt het best?",
-        opties=[
-            "Argumenten geven en een voorstel doen waar zij ook iets aan hebben",
-            "Roepen dat het oneerlijk is",
-            "Zeggen dat iedereen het mag",
-            "Blijven herhalen wat je wil",
-        ],
+        opties=["Argumenten geven en een voorstel doen waar zij ook iets aan hebben", "Roepen dat het oneerlijk is", "Zeggen dat iedereen het mag", "Blijven herhalen wat je wil tot ze toegeven, want volhouden loont"],
         antwoord=0,
         uitleg="Onderhandelen betekent: argumenten geven, rekening houden met de ander en samen tot een afspraak komen.",
     ),
@@ -280,12 +250,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Je moet een korte handleiding schrijven. Welke opbouw kies je?",
-        opties=[
-            "Genummerde stappen in de volgorde waarin ze uitgevoerd worden",
-            "Een verhaal van begin tot eind",
-            "Een betoog met argumenten",
-            "Een gedicht",
-        ],
+        opties=["Genummerde stappen in de volgorde waarin ze uitgevoerd worden", "Een verhaal van begin tot eind", "Een betoog met argumenten, zodat de lezer overtuigd raakt om het te doen", "Een gedicht"],
         antwoord=0,
         uitleg="Bij instructies is de volgorde de structuur. Nummers of signaalwoorden houden ze uit elkaar.",
     ),
@@ -322,12 +287,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Wat betekent 'vlotheid' bij een spreekopdracht?",
-        opties=[
-            "Dat je voldoende vlot spreekt, zonder telkens lang te haperen",
-            "Dat je zo snel mogelijk praat",
-            "Dat je geen fouten maakt",
-            "Dat je veel gebaren maakt",
-        ],
+        opties=["Dat je voldoende vlot spreekt, zonder telkens lang te haperen", "Dat je zo snel mogelijk praat, zodat je alles binnen de tijd kwijt kan", "Dat je geen fouten maakt", "Dat je veel gebaren maakt"],
         antwoord=0,
         uitleg="Even nadenken mag. Vlotheid gaat over de vraag of je verhaal blijft lopen.",
     ),
@@ -382,12 +342,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Je moet in een gesprek spontaan reageren op een vraag die je niet verwacht had. Wat doe je?",
-        opties=[
-            "Je neemt even tijd, zegt wat je wél weet en vraagt gerust om verduidelijking",
-            "Je zwijgt",
-            "Je verandert van onderwerp",
-            "Je zegt dat de vraag slecht is",
-        ],
+        opties=["Je neemt even tijd, zegt wat je wél weet en vraagt gerust om verduidelijking", "Je zwijgt", "Je verandert van onderwerp", "Je zegt dat de vraag onduidelijk is en vraagt om een andere vraag te stellen"],
         antwoord=0,
         uitleg="Om verduidelijking vragen mag: dat hoort bij een gesprek gaande houden.",
     ),
@@ -401,12 +356,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Waarom lees je je mail nog eens na vóór je hem verstuurt?",
-        opties=[
-            "Omdat je hem niet meer kan terughalen en fouten je boodschap verzwakken",
-            "Omdat dat verplicht is",
-            "Omdat mails anders niet aankomen",
-            "Omdat je dan meer woorden hebt",
-        ],
+        opties=["Omdat je hem niet meer kan terughalen en fouten je boodschap verzwakken", "Omdat dat verplicht is", "Omdat een mail met fouten door de ontvanger vaak niet geopend wordt", "Omdat je dan meer woorden hebt"],
         antwoord=0,
         uitleg="Een verzonden mail is weg. Eén keer nalezen op spelling, toon en volledigheid scheelt veel.",
     ),

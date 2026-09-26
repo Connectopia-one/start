@@ -86,15 +86,82 @@ def hoofdstukken_van(modulenaam: str, thema: str) -> list:
     return uit
 
 
+def gokpatronen(titel: str, vragen: list) -> list:
+    """Kan je scoren zonder de leerstof te kennen?
+
+    Het juiste antwoord krijgt bij het schrijven vanzelf de meeste uitleg mee
+    en wordt daardoor de langste optie. Een verschil van een paar letters ziet
+    een kind niet, dus een vraag telt pas mee als het juiste antwoord er
+    minstens zes langer is dan elke foute optie.
+    """
+    meldingen = []
+    mk = [v for v in vragen if v["type"] == "meerkeuze"]
+    langst = 0
+    for v in mk:
+        antw = v["antwoord"] if isinstance(v["antwoord"], list) else [v["antwoord"]]
+        lengtes = [len(o) for o in v["opties"]]
+        anders = [lengtes[i] for i in range(len(lengtes)) if i not in antw]
+        if anders and min(lengtes[i] for i in antw) > max(anders) + 5:
+            langst += 1
+    if mk and langst > 0.4 * len(mk):
+        meldingen.append(
+            f"{titel}: bij {langst} van de {len(mk)} meerkeuzevragen is het juiste "
+            f"antwoord duidelijk de langste optie. Maak de andere opties langer."
+        )
+    return meldingen
+
+
+def evenwicht_waar(hoofdstukken: list) -> list:
+    """Waar en niet waar moeten elkaar in evenwicht houden.
+
+    Een juiste zin schrijft vlotter dan een foute, dus komt het antwoord
+    vanzelf te vaak op waar uit en loont het om altijd waar te antwoorden. We
+    tellen per thema, over deel 1 en deel 2 samen, en daarnaast over het hele
+    vak. Een thema met minder dan vier van die vragen slaan we over: daar zegt
+    een verhouding niets, want ze kan niet eens tussen de grenzen vallen.
+    """
+    meldingen = []
+    per_thema = {}
+    for h in hoofdstukken:
+        thema = h["titel"].split(" — ")[0]
+        for v in h["vragen"]:
+            if v["type"] == "waarofniet":
+                per_thema.setdefault(thema, []).append(v["antwoord"])
+    alles = [a for lijst in per_thema.values() for a in lijst]
+    for thema, antwoorden in per_thema.items():
+        if len(antwoorden) < 4:
+            continue
+        waar = sum(1 for a in antwoorden if a)
+        if not (0.35 <= waar / len(antwoorden) <= 0.65):
+            meldingen.append(
+                f"{thema}: {waar} van de {len(antwoorden)} waar/niet-waar-vragen is waar. "
+                f"Dat is te scheef om niet te kunnen gokken."
+            )
+    if alles:
+        waar = sum(1 for a in alles if a)
+        if not (0.35 <= waar / len(alles) <= 0.65):
+            meldingen.append(
+                f"over het hele vak: {waar} van de {len(alles)} waar/niet-waar-vragen is waar."
+            )
+    return meldingen
+
+
 def main():
     hoofdstukken = []
+    meldingen = []
     for modulenaam, thema in THEMAS:
         if not (HIER / f"{modulenaam}.py").exists():
             print(f"  {thema}: nog niet geschreven, overgeslagen")
             continue
         nieuw = hoofdstukken_van(modulenaam, thema)
+        for h in nieuw:
+            meldingen += gokpatronen(h["titel"], h["vragen"])
         hoofdstukken += nieuw
         print(f"  {thema}: {sum(len(h['vragen']) for h in nieuw)} vragen")
+
+    meldingen += evenwicht_waar(hoofdstukken)
+    if meldingen:
+        raise SystemExit("Zo valt er te raden:\n  - " + "\n  - ".join(meldingen))
 
     gezien = {}
     meerkeuze = meerdere = 0

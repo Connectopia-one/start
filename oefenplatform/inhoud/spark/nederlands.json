@@ -64,7 +64,7 @@
             "Kinderen gebruiken veel huidverzorging, terwijl dat niet nodig en soms ongezond is",
             "Gezichtscrème is duur",
             "Huidverzorging",
-            "Influencers verdienen geld met reclame"
+            "Dure gezichtscrèmes werken beter dan goedkope, ook bij kinderen met een gevoelige huid"
           ],
           "antwoord": 0,
           "uitleg": "De hoofdgedachte is de belangrijkste boodschap in één zin. 'Huidverzorging' is maar het onderwerp, en de prijs is een detail."
@@ -93,7 +93,7 @@
           "opties": [
             "Om de belangrijkste informatie vast te houden en er daarna mee te werken",
             "Om te tonen dat je aan het opletten bent",
-            "Om alles woord voor woord te kunnen herhalen",
+            "Om de reportage woord voor woord te kunnen navertellen aan iemand die niet luisterde",
             "Omdat dat sneller gaat dan luisteren"
           ],
           "antwoord": 0,
@@ -145,7 +145,7 @@
           "opties": [
             "Je kijkt naar de titel, de tussentitels en de afbeeldingen",
             "Je leest meteen de laatste zin",
-            "Je zoekt alle onbekende woorden op",
+            "Je zoekt eerst alle woorden op die je niet kent, zodat je niets hoeft te raden",
             "Je telt het aantal alinea's"
           ],
           "antwoord": 0,
@@ -274,7 +274,7 @@
           "opties": [
             "Je leidt de betekenis af uit de rest van de zin en uit de twee delen van het woord",
             "Je slaat de hele alinea over",
-            "Je zoekt elk onbekend woord meteen op",
+            "Je zoekt elk woord dat je niet kent meteen op in het woordenboek, voor je verder leest",
             "Je vraagt het aan je buur"
           ],
           "antwoord": 0,
@@ -308,7 +308,7 @@
           "opties": [
             "Je zoekt in allebei de teksten wat op jouw vraag antwoordt en legt dat naast elkaar",
             "Je gebruikt alleen de langste tekst",
-            "Je neemt de eerste tekst en negeert de tweede",
+            "Je neemt de tekst die je het best begrijpt en laat de andere helemaal buiten beschouwing",
             "Je telt hoeveel keer een woord voorkomt"
           ],
           "antwoord": 0,
@@ -385,7 +385,7 @@
             "Omdat je een luistertekst niet kan terugbladeren en je snel details vergeet",
             "Omdat je dan sneller klaar bent",
             "Omdat je anders niet mag luisteren",
-            "Omdat notities achteraf verboden zijn"
+            "Omdat je notities achteraf niet meer mag gebruiken bij de vragen over de luistertekst"
           ],
           "antwoord": 0,
           "uitleg": "Een gesproken tekst gaat voorbij. Wie meteen kort noteert, houdt de hoofdpunten vast."
@@ -503,9 +503,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een folder van een politieke partij wil je overtuigen.",
-          "antwoord": true,
-          "uitleg": "Reclame, propaganda, een campagne of een publireportage willen je overtuigen of beïnvloeden."
+          "vraag": "Een folder van een politieke partij is een informatieve tekst.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Zo'n folder wil je overtuigen: dat is een persuasieve tekst."
         },
         {
           "type": "meerkeuze",
@@ -649,9 +649,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Eén tekst kan meer dan één doel hebben.",
-          "antwoord": true,
-          "uitleg": "Een publireportage informeert én verkoopt. Daarom moet je altijd nagaan wie de zender is en wat hij wil bereiken."
+          "vraag": "Een tekst heeft altijd precies één doel.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Een tekst kan tegelijk informeren en overtuigen, of informeren en amuseren."
         },
         {
           "type": "meerkeuze",
@@ -760,9 +760,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Het kanaal kan de vorm van je boodschap veranderen.",
-          "antwoord": true,
-          "uitleg": "Een mail schrijf je anders dan een appbericht, ook al vertel je hetzelfde. Kanaal en register hangen samen."
+          "vraag": "Het kanaal waarlangs je iets verstuurt, verandert niets aan de vorm van je boodschap.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Dezelfde boodschap ziet er anders uit in een mail, in een bericht of in een gesprek."
         },
         {
           "type": "meerkeuze",
@@ -881,7 +881,7 @@
             "Aan de opbouw en de toon: stappen, argumenten, feiten of een verhaal",
             "Aan het lettertype",
             "Aan het aantal alinea's",
-            "Aan de lengte van de tekst"
+            "Aan de lengte van de tekst en aan het aantal moeilijke woorden dat erin staat"
           ],
           "antwoord": 0,
           "uitleg": "Genummerde stappen wijzen op een instructie, argumenten op overtuigen, gebeurtenissen op een verhaal."
@@ -924,7 +924,7 @@
             "Een feit kan je nagaan, een mening is wat iemand ervan vindt",
             "Een feit is langer dan een mening",
             "Een mening staat altijd in de titel",
-            "Een feit bevat altijd een cijfer"
+            "Een feit bevat altijd een cijfer of een jaartal, een mening nooit"
           ],
           "antwoord": 0,
           "uitleg": "Feiten zijn controleerbaar. Meningen kunnen goed onderbouwd zijn, maar blijven een oordeel."
@@ -980,7 +980,7 @@
             "Je moet extra voorzichtig zijn en het elders nagaan",
             "Het is zeker waar",
             "Het is zeker gelogen",
-            "Het betekent niets"
+            "Het betekent dat de nieuwsmedia het bericht niet interessant genoeg vonden"
           ],
           "antwoord": 0,
           "uitleg": "Nieuwsredacties controleren hun berichten. Circuleert iets enkel op sociale media, ga het dan zelf na bij een betrouwbare bron."
@@ -1080,16 +1080,16 @@
             "Wie nat op zijn zadel moet zitten, komt doorweekt in de les",
             "Ik vind dat gewoon",
             "Iedereen weet dat",
-            "Een dak is mooi"
+            "Een fietsenstalling met een dak staat mooier op de foto's van de school"
           ],
           "antwoord": 0,
           "uitleg": "Een argument geeft een reden die je standpunt ondersteunt. 'Ik vind dat' of 'iedereen weet dat' is geen reden."
         },
         {
           "type": "waarofniet",
-          "vraag": "Een mening mag je onderbouwen met feiten.",
-          "antwoord": true,
-          "uitleg": "Dat is net wat een mening sterk maakt: je standpunt plus argumenten die op feiten steunen."
+          "vraag": "Een mening onderbouw je het best met andere meningen.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Feiten maken een mening sterk; meningen stapelen doet dat niet."
         },
         {
           "type": "meerkeuze",
@@ -1127,7 +1127,7 @@
           "vraag": "Een bericht heeft geen auteur, staat alleen op sociale media en linkt naar een site vol advertenties. Wat besluit je?",
           "opties": [
             "Waarschijnlijk nepnieuws, bedoeld om bezoekers te lokken",
-            "Zeker betrouwbaar nieuws",
+            "Zeker betrouwbaar nieuws, want anders zou niemand het delen",
             "Een instructieve tekst",
             "Een literaire tekst"
           ],
@@ -1190,7 +1190,7 @@
           "opties": [
             "De website van een ziekenhuis of een officiële gezondheidsdienst",
             "Een reactie op een forum",
-            "Een reclamefilmpje van een merk",
+            "Een reclamefilmpje van het merk dat het product in het artikel verkoopt",
             "Een meme"
           ],
           "antwoord": 0,
@@ -1202,7 +1202,7 @@
           "opties": [
             "Hij is niet neutraal en wil je nieuwsgierig maken",
             "Hij is een feit",
-            "Hij noemt zijn bron",
+            "Hij noemt de bron van het onderzoek en geeft meteen het cijfer mee",
             "Hij is een instructie"
           ],
           "antwoord": 0,
@@ -1244,16 +1244,16 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Wie een tekst schrijft om te overtuigen, geeft daarin best ook de nadelen toe.",
-          "antwoord": true,
-          "uitleg": "Een tegenargument erkennen en weerleggen maakt je sterker: de lezer merkt dat je de zaak kent."
+          "vraag": "Wie een tekst schrijft om te overtuigen, laat de nadelen het best helemaal weg.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Wie ook de nadelen toegeeft, komt geloofwaardiger over."
         },
         {
           "type": "meerkeuze",
           "vraag": "Waaraan herken je een mening die vermomd is als feit?",
           "opties": [
             "Aan gevoelswoorden als 'schandalig', 'iedereen weet', 'veel te'",
-            "Aan de aanwezigheid van een datum",
+            "Aan de aanwezigheid van een datum en van de naam van de krant erboven",
             "Aan een cijfer met een eenheid",
             "Aan de naam van de auteur"
           ],
@@ -1301,7 +1301,7 @@
           "vraag": "Twee betrouwbare teksten spreken elkaar tegen. Wat doe je?",
           "opties": [
             "Je kijkt naar de datum, de bronnen en wat ze precies onderzocht hebben",
-            "Je kiest de kortste",
+            "Je kiest de tekst die het vlotst leest, want die is het duidelijkst",
             "Je kiest de tekst die jouw mening bevestigt",
             "Je gebruikt geen van beide"
           ],
@@ -1330,7 +1330,7 @@
           "opties": [
             "Je geeft je standpunt en drie argumenten, met een cijfer of een voorbeeld erbij",
             "Je schrijft in hoofdletters",
-            "Je noemt wie het niet met je eens is dom",
+            "Je noemt iedereen die er anders over denkt kortzichtig, zodat je standpunt sterker lijkt",
             "Je herhaalt vier keer hetzelfde"
           ],
           "antwoord": 0,
@@ -1342,7 +1342,7 @@
           "opties": [
             "Omdat je dan zelf helpt verspreiden wat misschien onjuist is",
             "Omdat doorsturen verboden is",
-            "Omdat berichten dan verdwijnen",
+            "Omdat je het bericht daarna zelf niet meer kan terugvinden",
             "Omdat je dan geen likes krijgt"
           ],
           "antwoord": 0,
@@ -1387,9 +1387,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een nieuwe alinea begin je als je over iets nieuws gaat schrijven.",
-          "antwoord": true,
-          "uitleg": "Eén alinea, één kerngedachte. Witruimte tussen de alinea's maakt je tekst ook overzichtelijk."
+          "vraag": "Een nieuwe alinea begin je om de vijf regels, zodat de tekst luchtig oogt.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Je begint een nieuwe alinea wanneer je over iets nieuws gaat schrijven."
         },
         {
           "type": "meerkeuze",
@@ -1519,9 +1519,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "'Hoewel' kondigt een tegenstelling aan.",
-          "antwoord": true,
-          "uitleg": "'Hoewel het regende, fietste hij door.' Je verwacht iets anders dan wat volgt."
+          "vraag": "'Hoewel' kondigt een reden aan.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Hoewel kondigt een tegenstelling aan. Een reden herken je aan omdat of want."
         },
         {
           "type": "meerkeuze",
@@ -1690,9 +1690,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Twee verschillende signaalwoorden kunnen hetzelfde verband aangeven.",
-          "antwoord": true,
-          "uitleg": "'Want' en 'omdat' geven allebei een reden; 'maar', 'toch' en 'hoewel' allemaal een tegenstelling."
+          "vraag": "Elk signaalwoord hoort bij precies één verband.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Want en omdat geven allebei een reden aan, maar en hoewel allebei een tegenstelling."
         },
         {
           "type": "meerkeuze",
@@ -1808,7 +1808,7 @@
             "Met een plan: welke stappen komen er, en in welke volgorde",
             "Met de moeilijkste regel",
             "Met een grapje",
-            "Met de naam van de uitgever"
+            "Met de uitzonderingen op de regels, want die vergeet men het snelst"
           ],
           "antwoord": 0,
           "uitleg": "Een schrijf- of spreekplan met kernwoorden zorgt dat je niets vergeet en in de juiste volgorde blijft."
@@ -1819,7 +1819,7 @@
           "opties": [
             "Dat je doet wat gevraagd werd en je boodschap volledig overkomt",
             "Dat je op tijd klaar bent",
-            "Dat je veel woorden gebruikt",
+            "Dat je zoveel mogelijk woorden gebruikt zodat je tekst lang genoeg is",
             "Dat je geen fouten maakt"
           ],
           "antwoord": 0,
@@ -1904,7 +1904,7 @@
           "vraag": "Wat is 'creatief zijn met taal'?",
           "opties": [
             "Spelen met rijm, ritme en lay-out om je boodschap sterker te maken",
-            "Zoveel mogelijk moeilijke woorden gebruiken",
+            "Zoveel mogelijk moeilijke woorden gebruiken, zodat je tekst geleerd klinkt",
             "In een andere taal schrijven",
             "Zonder leestekens schrijven"
           ],
@@ -1924,7 +1924,7 @@
             "Kan u me zeggen hoelang de garantie op dit toestel loopt?",
             "Dat ding, is dat iets?",
             "Hoe zit dat allemaal?",
-            "Ik weet het niet goed."
+            "Ik zou graag iets weten over dat toestel daar in de rekken."
           ],
           "antwoord": 0,
           "uitleg": "Een duidelijke vraag noemt precies wat je wil weten. Zo krijg je ook een bruikbaar antwoord."
@@ -1974,7 +1974,7 @@
           "vraag": "Je gaat in gesprek over een maatschappelijk thema, bijvoorbeeld het klimaat. Wat helpt je?",
           "opties": [
             "Vooraf een paar bronnen lezen en er cijfers uit onthouden",
-            "Alleen zeggen wat je vrienden vinden",
+            "Alleen zeggen wat je vrienden ervan vinden, zodat je niet alleen staat",
             "Zo snel mogelijk praten",
             "Alleen luisteren"
           ],
@@ -2087,7 +2087,7 @@
             "Argumenten geven en een voorstel doen waar zij ook iets aan hebben",
             "Roepen dat het oneerlijk is",
             "Zeggen dat iedereen het mag",
-            "Blijven herhalen wat je wil"
+            "Blijven herhalen wat je wil tot ze toegeven, want volhouden loont"
           ],
           "antwoord": 0,
           "uitleg": "Onderhandelen betekent: argumenten geven, rekening houden met de ander en samen tot een afspraak komen."
@@ -2104,7 +2104,7 @@
           "opties": [
             "Genummerde stappen in de volgorde waarin ze uitgevoerd worden",
             "Een verhaal van begin tot eind",
-            "Een betoog met argumenten",
+            "Een betoog met argumenten, zodat de lezer overtuigd raakt om het te doen",
             "Een gedicht"
           ],
           "antwoord": 0,
@@ -2149,7 +2149,7 @@
           "vraag": "Wat betekent 'vlotheid' bij een spreekopdracht?",
           "opties": [
             "Dat je voldoende vlot spreekt, zonder telkens lang te haperen",
-            "Dat je zo snel mogelijk praat",
+            "Dat je zo snel mogelijk praat, zodat je alles binnen de tijd kwijt kan",
             "Dat je geen fouten maakt",
             "Dat je veel gebaren maakt"
           ],
@@ -2215,7 +2215,7 @@
             "Je neemt even tijd, zegt wat je wél weet en vraagt gerust om verduidelijking",
             "Je zwijgt",
             "Je verandert van onderwerp",
-            "Je zegt dat de vraag slecht is"
+            "Je zegt dat de vraag onduidelijk is en vraagt om een andere vraag te stellen"
           ],
           "antwoord": 0,
           "uitleg": "Om verduidelijking vragen mag: dat hoort bij een gesprek gaande houden."
@@ -2242,7 +2242,7 @@
           "opties": [
             "Omdat je hem niet meer kan terughalen en fouten je boodschap verzwakken",
             "Omdat dat verplicht is",
-            "Omdat mails anders niet aankomen",
+            "Omdat een mail met fouten door de ontvanger vaak niet geopend wordt",
             "Omdat je dan meer woorden hebt"
           ],
           "antwoord": 0,
@@ -2273,7 +2273,7 @@
           "opties": [
             "De taal die overal in het taalgebied begrepen en aanvaard wordt",
             "De taal van één streek",
-            "De taal van jongeren onderling",
+            "De taal die jongeren onder elkaar spreken, met veel woorden uit het Engels",
             "Een taal zonder regels"
           ],
           "antwoord": 0,
@@ -2343,7 +2343,7 @@
           "opties": [
             "De vaktaal van een bepaalde groep of een bepaald beroep",
             "Taal met veel fouten",
-            "Een oude vorm van het Nederlands",
+            "Een oude vorm van het Nederlands die alleen in boeken nog gebruikt wordt",
             "Een geheime taal"
           ],
           "antwoord": 0,
@@ -2403,16 +2403,16 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een smiley in een formele mail is ongepast.",
-          "antwoord": true,
-          "uitleg": "In een appje met vrienden ondersteunt een smiley je boodschap. In een formele mail hoort hij niet."
+          "vraag": "Een smiley maakt ook een formele mail vriendelijker en mag daar dus gerust in.",
+          "antwoord": false,
+          "uitleg": "Niet juist. In een formele mail is een smiley ongepast. In een bericht aan een vriend kan hij wel."
         },
         {
           "type": "meerkeuze",
           "vraag": "Wat is het effect van stereotypering rond taal?",
           "opties": [
             "Wie een bepaald dialect spreekt, wordt soms onterecht minder slim gevonden",
-            "Dialect maakt je daadwerkelijk minder slim",
+            "Wie een dialect spreekt, denkt daardoor ook echt trager dan wie standaardtaal spreekt",
             "Standaardtaal is de enige juiste taal",
             "Stereotypen hebben geen gevolgen"
           ],
@@ -2437,9 +2437,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "In het nieuws op tv wordt meestal Standaardnederlands gesproken.",
-          "antwoord": true,
-          "uitleg": "Het nieuws richt zich tot iedereen, dus kiest het de variëteit die overal begrepen wordt."
+          "vraag": "In het nieuws op tv wordt meestal tussentaal gesproken.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Het tv-nieuws is net een van de plaatsen waar je bijna altijd Standaardnederlands hoort."
         },
         {
           "type": "meerkeuze",
@@ -2460,7 +2460,7 @@
             "Formeel is afstandelijk en verzorgd, informeel is vertrouwd en losser",
             "Formeel is langer",
             "Informeel is altijd fout",
-            "Formeel gebruik je alleen op papier"
+            "Formeel taalgebruik gebruik je alleen op papier, informeel alleen in een gesprek"
           ],
           "antwoord": 0,
           "uitleg": "Allebei zijn ze juist. Het hangt af van wie je ontvanger is en van de situatie."
@@ -2587,7 +2587,7 @@
             "Over afstand, een onderdeel van non-verbale communicatie",
             "Over intonatie",
             "Over register",
-            "Over articulatie"
+            "Over articulatie, want wie dichtbij staat spreekt meestal onduidelijker"
           ],
           "antwoord": 0,
           "uitleg": "Hoeveel afstand je houdt, hoort bij je lichaamstaal en verschilt zelfs van land tot land."
@@ -2604,7 +2604,7 @@
           "opties": [
             "Omdat een punt in een kort appbericht afstandelijk aanvoelt",
             "Omdat een punt daar fout is",
-            "Omdat er geen hoofdletter staat",
+            "Omdat er geen hoofdletter staat aan het begin van het bericht",
             "Omdat 'ok' geen Nederlands is"
           ],
           "antwoord": 0,
@@ -2637,7 +2637,7 @@
           "vraag": "Waarom is het nuttig om te weten dat talen op elkaar lijken?",
           "opties": [
             "Omdat je de betekenis van een onbekend woord soms kan afleiden uit een andere taal",
-            "Omdat je dan geen woordenboek meer nodig hebt",
+            "Omdat je dan geen woordenboek meer nodig hebt om een onbekende tekst helemaal te lezen",
             "Omdat alle talen dezelfde grammatica hebben",
             "Omdat je dan sneller spreekt"
           ],
@@ -2656,7 +2656,7 @@
           "opties": [
             "De toon verandert de betekenis: het kan ironisch bedoeld zijn",
             "De zin is fout gespeld",
-            "De zin is altijd een compliment",
+            "De zin is altijd een compliment, want er staat geen enkel negatief woord in",
             "Er ontbreekt een signaalwoord"
           ],
           "antwoord": 0,
@@ -2668,7 +2668,7 @@
           "opties": [
             "Je speelt erop in: je vraagt of iets niet duidelijk is",
             "Je praat gewoon sneller door",
-            "Je zegt dat hij onbeleefd is",
+            "Je zegt hem dat het onbeleefd is om zo te zitten tijdens een gesprek",
             "Je stopt meteen met praten"
           ],
           "antwoord": 0,
@@ -2695,7 +2695,7 @@
           "vraag": "Je moet een tekst herschrijven van informeel naar formeel. Wat verander je?",
           "opties": [
             "Je vervangt 'je' door 'u', schrapt emoji's en schrijft volledige zinnen",
-            "Je maakt de tekst korter",
+            "Je maakt de tekst een stuk korter en laat alle beleefdheidsformules weg",
             "Je zet alles in het vet",
             "Je voegt jongerentaal toe"
           ],
@@ -2839,9 +2839,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "'Beeldspraak' betekent dat je met woorden een beeld oproept.",
-          "antwoord": true,
-          "uitleg": "'Een zee van tijd', 'de avond van zijn leven': je gebruikt het ene beeld om iets anders te tonen."
+          "vraag": "'Beeldspraak' betekent dat er een tekening bij de tekst staat.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Bij beeldspraak roep je met woorden een beeld op, zoals in 'een zee van tijd'."
         },
         {
           "type": "meerkeuze",
@@ -2920,7 +2920,7 @@
             "Om kennis te maken met andere mensen, ideeën en ervaringen",
             "Om sneller te leren typen",
             "Om je spelling te verbeteren",
-            "Om nieuwe vakwoorden te leren"
+            "Om nieuwe vakwoorden te leren die je later op school nodig hebt"
           ],
           "antwoord": 0,
           "uitleg": "Verhalen lezen laat je kijken door de ogen van iemand anders."
@@ -2983,7 +2983,7 @@
           "vraag": "'Mijn broer is een beer.' Wat wil die zin zeggen?",
           "opties": [
             "Hij is groot en sterk, of knorrig: het is beeldspraak",
-            "Hij is echt een dier",
+            "Hij is echt een dier, want de zin zegt letterlijk dat hij een beer is",
             "Hij heet Beer",
             "Hij houdt van beren"
           ],
@@ -2996,7 +2996,7 @@
           "opties": [
             "Bij een vergelijking staat er 'als' of 'zoals', bij beeldspraak niet",
             "Beeldspraak rijmt altijd",
-            "Een vergelijking is altijd langer",
+            "Een vergelijking is altijd langer dan beeldspraak, want er komt een extra woord bij",
             "Er is geen verschil"
           ],
           "antwoord": 0,
@@ -3038,9 +3038,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een lied kan je op dezelfde manier bespreken als een gedicht.",
-          "antwoord": true,
-          "uitleg": "Een liedtekst heeft ook beelden, rijm, ritme en een boodschap. Alleen komt er muziek bij."
+          "vraag": "Een lied kan je niet bespreken zoals een gedicht, want er zit muziek bij.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Een liedtekst heeft net als een gedicht beelden, klank en ritme."
         },
         {
           "type": "meerkeuze",
@@ -3049,7 +3049,7 @@
             "Ik herkende mezelf in Sam, omdat hij ook niet durfde te zeggen wat hij dacht.",
             "Het was wel oké.",
             "Ik vond het niks.",
-            "Het boek telt 224 bladzijden."
+            "Het boek telt 224 bladzijden en het heeft een harde kaft met een foto erop."
           ],
           "antwoord": 0,
           "uitleg": "Je beleving verwoorden betekent: zeggen wat je raakte en waarom, met een voorbeeld erbij."
@@ -3134,7 +3134,7 @@
           "opties": [
             "De verhaallijn is de opbouw van de gebeurtenissen, de samenvatting is jouw korte weergave ervan",
             "Er is geen verschil",
-            "Een samenvatting bevat altijd het einde niet",
+            "Een samenvatting laat het einde altijd weg, want anders bederf je het verhaal voor wie het nog wil lezen",
             "De verhaallijn staat op de achterflap"
           ],
           "antwoord": 0,
@@ -3375,9 +3375,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Tussen twee woorden van een samenstelling staat meestal geen spatie.",
-          "antwoord": true,
-          "uitleg": "Het is 'schoolreglement' en 'handdoek', niet 'school reglement'. Dat is het verschil met het Engels."
+          "vraag": "Tussen de twee woorden van een samenstelling staat meestal een spatie.",
+          "antwoord": false,
+          "uitleg": "Niet juist. In het Nederlands schrijf je een samenstelling aan elkaar: voetbalploeg, niet voetbal ploeg."
         },
         {
           "type": "meerkeuze",
@@ -3783,9 +3783,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "'Deze' en 'die' zijn aanwijzende voornaamwoorden.",
-          "antwoord": true,
-          "uitleg": "Ze wijzen iets aan: deze en dit dichtbij, die en dat verder weg."
+          "vraag": "'Deze' en 'die' zijn bezittelijke voornaamwoorden.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Deze en die wijzen aan. Mijn en jouw zijn bezittelijk."
         },
         {
           "type": "meerkeuze",
@@ -3859,9 +3859,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een verkleinwoord is in het Nederlands altijd onzijdig: je zegt 'het'.",
-          "antwoord": true,
-          "uitleg": "Het is 'de bal', maar 'het balletje'. Elk verkleinwoord krijgt 'het'."
+          "vraag": "Een verkleinwoord houdt het lidwoord van het woord waarvan het komt: 'de stoel' wordt 'de stoeltje'.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Een verkleinwoord is altijd onzijdig: het stoeltje, het huisje."
         }
       ]
     },
@@ -4172,9 +4172,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Voor een meewerkend voorwerp kan je meestal 'aan' of 'voor' zetten.",
-          "antwoord": true,
-          "uitleg": "'Hij schrijft zijn oma een kaartje' wordt 'hij schrijft een kaartje aan zijn oma'."
+          "vraag": "Voor een lijdend voorwerp kan je meestal 'aan' of 'voor' zetten.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Dat geldt voor het meewerkend voorwerp: hij geeft (aan) zijn zus een boek."
         },
         {
           "type": "meerkeuze",
@@ -4395,9 +4395,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Niet elke zin heeft een lijdend voorwerp.",
-          "antwoord": true,
-          "uitleg": "'Hij slaapt' heeft er geen. Alleen werkwoorden die iets met een object doen, krijgen er een."
+          "vraag": "Elke zin heeft een lijdend voorwerp.",
+          "antwoord": false,
+          "uitleg": "Niet juist. 'Hij slaapt' heeft er geen."
         },
         {
           "type": "meerkeuze",
@@ -4483,9 +4483,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een bevelende zin heeft meestal geen onderwerp.",
-          "antwoord": true,
-          "uitleg": "'Kom binnen.' Het onderwerp 'jij' blijft weg, want het is duidelijk tegen wie je spreekt."
+          "vraag": "Een bevelende zin begint altijd met het onderwerp.",
+          "antwoord": false,
+          "uitleg": "Niet juist. In 'Kom hier!' staat helemaal geen onderwerp."
         },
         {
           "type": "meerkeuze",

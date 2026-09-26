@@ -107,9 +107,9 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="'Deze' en 'die' zijn aanwijzende voornaamwoorden.",
-        antwoord=True,
-        uitleg="Ze wijzen iets aan: deze en dit dichtbij, die en dat verder weg.",
+        vraag="'Deze' en 'die' zijn bezittelijke voornaamwoorden.",
+        antwoord=False,
+        uitleg="Niet juist. Deze en die wijzen aan. Mijn en jouw zijn bezittelijk.",
     ),
     dict(
         type="meerkeuze",
@@ -159,9 +159,9 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Een verkleinwoord is in het Nederlands altijd onzijdig: je zegt 'het'.",
-        antwoord=True,
-        uitleg="Het is 'de bal', maar 'het balletje'. Elk verkleinwoord krijgt 'het'.",
+        vraag="Een verkleinwoord houdt het lidwoord van het woord waarvan het komt: 'de stoel' wordt 'de stoeltje'.",
+        antwoord=False,
+        uitleg="Niet juist. Een verkleinwoord is altijd onzijdig: het stoeltje, het huisje.",
     ),
 ]
 

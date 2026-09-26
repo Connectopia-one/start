@@ -45,9 +45,9 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Een nieuwe alinea begin je als je over iets nieuws gaat schrijven.",
-        antwoord=True,
-        uitleg="Eén alinea, één kerngedachte. Witruimte tussen de alinea's maakt je tekst ook overzichtelijk.",
+        vraag="Een nieuwe alinea begin je om de vijf regels, zodat de tekst luchtig oogt.",
+        antwoord=False,
+        uitleg="Niet juist. Je begint een nieuwe alinea wanneer je over iets nieuws gaat schrijven.",
     ),
     dict(
         type="meerkeuze",
@@ -135,9 +135,9 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="'Hoewel' kondigt een tegenstelling aan.",
-        antwoord=True,
-        uitleg="'Hoewel het regende, fietste hij door.' Je verwacht iets anders dan wat volgt.",
+        vraag="'Hoewel' kondigt een reden aan.",
+        antwoord=False,
+        uitleg="Niet juist. Hoewel kondigt een tegenstelling aan. Een reden herken je aan omdat of want.",
     ),
     dict(
         type="meerkeuze",
@@ -254,9 +254,9 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Twee verschillende signaalwoorden kunnen hetzelfde verband aangeven.",
-        antwoord=True,
-        uitleg="'Want' en 'omdat' geven allebei een reden; 'maar', 'toch' en 'hoewel' allemaal een tegenstelling.",
+        vraag="Elk signaalwoord hoort bij precies één verband.",
+        antwoord=False,
+        uitleg="Niet juist. Want en omdat geven allebei een reden aan, maar en hoewel allebei een tegenstelling.",
     ),
     dict(
         type="meerkeuze",

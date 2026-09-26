@@ -54,9 +54,9 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Voor een meewerkend voorwerp kan je meestal 'aan' of 'voor' zetten.",
-        antwoord=True,
-        uitleg="'Hij schrijft zijn oma een kaartje' wordt 'hij schrijft een kaartje aan zijn oma'.",
+        vraag="Voor een lijdend voorwerp kan je meestal 'aan' of 'voor' zetten.",
+        antwoord=False,
+        uitleg="Niet juist. Dat geldt voor het meewerkend voorwerp: hij geeft (aan) zijn zus een boek.",
     ),
     dict(
         type="meerkeuze",
@@ -231,9 +231,9 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Niet elke zin heeft een lijdend voorwerp.",
-        antwoord=True,
-        uitleg="'Hij slaapt' heeft er geen. Alleen werkwoorden die iets met een object doen, krijgen er een.",
+        vraag="Elke zin heeft een lijdend voorwerp.",
+        antwoord=False,
+        uitleg="Niet juist. 'Hij slaapt' heeft er geen.",
     ),
     dict(
         type="meerkeuze",
@@ -305,9 +305,9 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Een bevelende zin heeft meestal geen onderwerp.",
-        antwoord=True,
-        uitleg="'Kom binnen.' Het onderwerp 'jij' blijft weg, want het is duidelijk tegen wie je spreekt.",
+        vraag="Een bevelende zin begint altijd met het onderwerp.",
+        antwoord=False,
+        uitleg="Niet juist. In 'Kom hier!' staat helemaal geen onderwerp.",
     ),
     dict(
         type="meerkeuze",

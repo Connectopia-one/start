@@ -56,9 +56,9 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Een folder van een politieke partij wil je overtuigen.",
-        antwoord=True,
-        uitleg="Reclame, propaganda, een campagne of een publireportage willen je overtuigen of beïnvloeden.",
+        vraag="Een folder van een politieke partij is een informatieve tekst.",
+        antwoord=False,
+        uitleg="Niet juist. Zo'n folder wil je overtuigen: dat is een persuasieve tekst.",
     ),
     dict(
         type="meerkeuze",
@@ -179,9 +179,9 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Eén tekst kan meer dan één doel hebben.",
-        antwoord=True,
-        uitleg="Een publireportage informeert én verkoopt. Daarom moet je altijd nagaan wie de zender is en wat hij wil bereiken.",
+        vraag="Een tekst heeft altijd precies één doel.",
+        antwoord=False,
+        uitleg="Niet juist. Een tekst kan tegelijk informeren en overtuigen, of informeren en amuseren.",
     ),
     dict(
         type="meerkeuze",
@@ -273,9 +273,9 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Het kanaal kan de vorm van je boodschap veranderen.",
-        antwoord=True,
-        uitleg="Een mail schrijf je anders dan een appbericht, ook al vertel je hetzelfde. Kanaal en register hangen samen.",
+        vraag="Het kanaal waarlangs je iets verstuurt, verandert niets aan de vorm van je boodschap.",
+        antwoord=False,
+        uitleg="Niet juist. Dezelfde boodschap ziet er anders uit in een mail, in een bericht of in een gesprek.",
     ),
     dict(
         type="meerkeuze",
@@ -377,12 +377,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Je krijgt een tekst zonder titel en zonder naam van de auteur. Waaraan zie je toch welke soort tekst het is?",
-        opties=[
-            "Aan de opbouw en de toon: stappen, argumenten, feiten of een verhaal",
-            "Aan het lettertype",
-            "Aan het aantal alinea's",
-            "Aan de lengte van de tekst",
-        ],
+        opties=["Aan de opbouw en de toon: stappen, argumenten, feiten of een verhaal", "Aan het lettertype", "Aan het aantal alinea's", "Aan de lengte van de tekst en aan het aantal moeilijke woorden dat erin staat"],
         antwoord=0,
         uitleg="Genummerde stappen wijzen op een instructie, argumenten op overtuigen, gebeurtenissen op een verhaal.",
     ),

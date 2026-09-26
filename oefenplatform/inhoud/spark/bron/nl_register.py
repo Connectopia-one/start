@@ -28,12 +28,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Wat is Standaardnederlands?",
-        opties=[
-            "De taal die overal in het taalgebied begrepen en aanvaard wordt",
-            "De taal van één streek",
-            "De taal van jongeren onderling",
-            "Een taal zonder regels",
-        ],
+        opties=["De taal die overal in het taalgebied begrepen en aanvaard wordt", "De taal van één streek", "De taal die jongeren onder elkaar spreken, met veel woorden uit het Engels", "Een taal zonder regels"],
         antwoord=0,
         uitleg="Standaardnederlands gebruik je op school, in het nieuws en in officiële teksten: iedereen begrijpt het.",
     ),
@@ -89,12 +84,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Wat is jargon?",
-        opties=[
-            "De vaktaal van een bepaalde groep of een bepaald beroep",
-            "Taal met veel fouten",
-            "Een oude vorm van het Nederlands",
-            "Een geheime taal",
-        ],
+        opties=["De vaktaal van een bepaalde groep of een bepaald beroep", "Taal met veel fouten", "Een oude vorm van het Nederlands die alleen in boeken nog gebruikt wordt", "Een geheime taal"],
         antwoord=0,
         uitleg="Een arts spreekt van 'een fractuur', een voetballer van 'een tegenaanval'. Onder elkaar is dat handig; tegen een leek niet.",
     ),
@@ -143,19 +133,14 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Een smiley in een formele mail is ongepast.",
-        antwoord=True,
-        uitleg="In een appje met vrienden ondersteunt een smiley je boodschap. In een formele mail hoort hij niet.",
+        vraag="Een smiley maakt ook een formele mail vriendelijker en mag daar dus gerust in.",
+        antwoord=False,
+        uitleg="Niet juist. In een formele mail is een smiley ongepast. In een bericht aan een vriend kan hij wel.",
     ),
     dict(
         type="meerkeuze",
         vraag="Wat is het effect van stereotypering rond taal?",
-        opties=[
-            "Wie een bepaald dialect spreekt, wordt soms onterecht minder slim gevonden",
-            "Dialect maakt je daadwerkelijk minder slim",
-            "Standaardtaal is de enige juiste taal",
-            "Stereotypen hebben geen gevolgen",
-        ],
+        opties=["Wie een bepaald dialect spreekt, wordt soms onterecht minder slim gevonden", "Wie een dialect spreekt, denkt daardoor ook echt trager dan wie standaardtaal spreekt", "Standaardtaal is de enige juiste taal", "Stereotypen hebben geen gevolgen"],
         antwoord=0,
         uitleg="Zo'n oordeel zegt niets over de spreker en alles over de vooroordelen van de luisteraar.",
     ),
@@ -168,9 +153,9 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="In het nieuws op tv wordt meestal Standaardnederlands gesproken.",
-        antwoord=True,
-        uitleg="Het nieuws richt zich tot iedereen, dus kiest het de variëteit die overal begrepen wordt.",
+        vraag="In het nieuws op tv wordt meestal tussentaal gesproken.",
+        antwoord=False,
+        uitleg="Niet juist. Het tv-nieuws is net een van de plaatsen waar je bijna altijd Standaardnederlands hoort.",
     ),
     dict(
         type="meerkeuze",
@@ -187,12 +172,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Wat is het verschil tussen formeel en informeel taalgebruik?",
-        opties=[
-            "Formeel is afstandelijk en verzorgd, informeel is vertrouwd en losser",
-            "Formeel is langer",
-            "Informeel is altijd fout",
-            "Formeel gebruik je alleen op papier",
-        ],
+        opties=["Formeel is afstandelijk en verzorgd, informeel is vertrouwd en losser", "Formeel is langer", "Informeel is altijd fout", "Formeel taalgebruik gebruik je alleen op papier, informeel alleen in een gesprek"],
         antwoord=0,
         uitleg="Allebei zijn ze juist. Het hangt af van wie je ontvanger is en van de situatie.",
     ),
@@ -293,12 +273,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Iemand staat tijdens een gesprek heel dicht bij je. Waarover gaat dat?",
-        opties=[
-            "Over afstand, een onderdeel van non-verbale communicatie",
-            "Over intonatie",
-            "Over register",
-            "Over articulatie",
-        ],
+        opties=["Over afstand, een onderdeel van non-verbale communicatie", "Over intonatie", "Over register", "Over articulatie, want wie dichtbij staat spreekt meestal onduidelijker"],
         antwoord=0,
         uitleg="Hoeveel afstand je houdt, hoort bij je lichaamstaal en verschilt zelfs van land tot land.",
     ),
@@ -311,12 +286,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Je leest in een appgroep: 'ok.' met een punt erachter. Waarom kan dat kil overkomen?",
-        opties=[
-            "Omdat een punt in een kort appbericht afstandelijk aanvoelt",
-            "Omdat een punt daar fout is",
-            "Omdat er geen hoofdletter staat",
-            "Omdat 'ok' geen Nederlands is",
-        ],
+        opties=["Omdat een punt in een kort appbericht afstandelijk aanvoelt", "Omdat een punt daar fout is", "Omdat er geen hoofdletter staat aan het begin van het bericht", "Omdat 'ok' geen Nederlands is"],
         antwoord=0,
         uitleg="Wat correct is, kan in een bepaald kanaal toch een andere toon krijgen. Dat is het effect van het medium.",
     ),
@@ -341,12 +311,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Waarom is het nuttig om te weten dat talen op elkaar lijken?",
-        opties=[
-            "Omdat je de betekenis van een onbekend woord soms kan afleiden uit een andere taal",
-            "Omdat je dan geen woordenboek meer nodig hebt",
-            "Omdat alle talen dezelfde grammatica hebben",
-            "Omdat je dan sneller spreekt",
-        ],
+        opties=["Omdat je de betekenis van een onbekend woord soms kan afleiden uit een andere taal", "Omdat je dan geen woordenboek meer nodig hebt om een onbekende tekst helemaal te lezen", "Omdat alle talen dezelfde grammatica hebben", "Omdat je dan sneller spreekt"],
         antwoord=0,
         uitleg="'Information', 'informatie', 'information': wie het verband ziet, raadt de betekenis.",
     ),
@@ -359,24 +324,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Een leerkracht zegt met een glimlach: 'Dat is dan weer prachtig gedaan.' Wat kan er aan de hand zijn?",
-        opties=[
-            "De toon verandert de betekenis: het kan ironisch bedoeld zijn",
-            "De zin is fout gespeld",
-            "De zin is altijd een compliment",
-            "Er ontbreekt een signaalwoord",
-        ],
+        opties=["De toon verandert de betekenis: het kan ironisch bedoeld zijn", "De zin is fout gespeld", "De zin is altijd een compliment, want er staat geen enkel negatief woord in", "Er ontbreekt een signaalwoord"],
         antwoord=0,
         uitleg="Intonatie en gezichtsuitdrukking kunnen de betekenis van dezelfde woorden omkeren.",
     ),
     dict(
         type="meerkeuze",
         vraag="Je merkt tijdens een gesprek dat je gesprekspartner zijn armen kruist en wegkijkt. Wat doe je?",
-        opties=[
-            "Je speelt erop in: je vraagt of iets niet duidelijk is",
-            "Je praat gewoon sneller door",
-            "Je zegt dat hij onbeleefd is",
-            "Je stopt meteen met praten",
-        ],
+        opties=["Je speelt erop in: je vraagt of iets niet duidelijk is", "Je praat gewoon sneller door", "Je zegt hem dat het onbeleefd is om zo te zitten tijdens een gesprek", "Je stopt meteen met praten"],
         antwoord=0,
         uitleg="De lichaamstaal van je gesprekspartner inschatten en erop reageren hoort bij mondelinge interactie.",
     ),
@@ -395,12 +350,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Je moet een tekst herschrijven van informeel naar formeel. Wat verander je?",
-        opties=[
-            "Je vervangt 'je' door 'u', schrapt emoji's en schrijft volledige zinnen",
-            "Je maakt de tekst korter",
-            "Je zet alles in het vet",
-            "Je voegt jongerentaal toe",
-        ],
+        opties=["Je vervangt 'je' door 'u', schrapt emoji's en schrijft volledige zinnen", "Je maakt de tekst een stuk korter en laat alle beleefdheidsformules weg", "Je zet alles in het vet", "Je voegt jongerentaal toe"],
         antwoord=0,
         uitleg="Formeel maken is: aanspreekvorm, woordkeuze en zinsbouw verzorgen, en alles wat te los klinkt weghalen.",
     ),

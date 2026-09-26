@@ -27,12 +27,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Wat is het verschil tussen een feit en een mening?",
-        opties=[
-            "Een feit kan je nagaan, een mening is wat iemand ervan vindt",
-            "Een feit is langer dan een mening",
-            "Een mening staat altijd in de titel",
-            "Een feit bevat altijd een cijfer",
-        ],
+        opties=["Een feit kan je nagaan, een mening is wat iemand ervan vindt", "Een feit is langer dan een mening", "Een mening staat altijd in de titel", "Een feit bevat altijd een cijfer of een jaartal, een mening nooit"],
         antwoord=0,
         uitleg="Feiten zijn controleerbaar. Meningen kunnen goed onderbouwd zijn, maar blijven een oordeel.",
     ),
@@ -75,12 +70,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Een bericht wordt alleen gedeeld via sociale media en niet door nieuwsmedia. Wat betekent dat?",
-        opties=[
-            "Je moet extra voorzichtig zijn en het elders nagaan",
-            "Het is zeker waar",
-            "Het is zeker gelogen",
-            "Het betekent niets",
-        ],
+        opties=["Je moet extra voorzichtig zijn en het elders nagaan", "Het is zeker waar", "Het is zeker gelogen", "Het betekent dat de nieuwsmedia het bericht niet interessant genoeg vonden"],
         antwoord=0,
         uitleg="Nieuwsredacties controleren hun berichten. Circuleert iets enkel op sociale media, ga het dan zelf na bij een betrouwbare bron.",
     ),
@@ -166,20 +156,15 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Wat is een goed argument bij het standpunt 'Onze school moet een fietsenstalling met dak krijgen'?",
-        opties=[
-            "Wie nat op zijn zadel moet zitten, komt doorweekt in de les",
-            "Ik vind dat gewoon",
-            "Iedereen weet dat",
-            "Een dak is mooi",
-        ],
+        opties=["Wie nat op zijn zadel moet zitten, komt doorweekt in de les", "Ik vind dat gewoon", "Iedereen weet dat", "Een fietsenstalling met een dak staat mooier op de foto's van de school"],
         antwoord=0,
         uitleg="Een argument geeft een reden die je standpunt ondersteunt. 'Ik vind dat' of 'iedereen weet dat' is geen reden.",
     ),
     dict(
         type="waarofniet",
-        vraag="Een mening mag je onderbouwen met feiten.",
-        antwoord=True,
-        uitleg="Dat is net wat een mening sterk maakt: je standpunt plus argumenten die op feiten steunen.",
+        vraag="Een mening onderbouw je het best met andere meningen.",
+        antwoord=False,
+        uitleg="Niet juist. Feiten maken een mening sterk; meningen stapelen doet dat niet.",
     ),
     dict(
         type="meerkeuze",
@@ -211,12 +196,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Een bericht heeft geen auteur, staat alleen op sociale media en linkt naar een site vol advertenties. Wat besluit je?",
-        opties=[
-            "Waarschijnlijk nepnieuws, bedoeld om bezoekers te lokken",
-            "Zeker betrouwbaar nieuws",
-            "Een instructieve tekst",
-            "Een literaire tekst",
-        ],
+        opties=["Waarschijnlijk nepnieuws, bedoeld om bezoekers te lokken", "Zeker betrouwbaar nieuws, want anders zou niemand het delen", "Een instructieve tekst", "Een literaire tekst"],
         antwoord=0,
         uitleg="Geen zender, een besloten kanaal en een doel dat geld oplevert: drie signalen samen maken het verdacht.",
     ),
@@ -265,24 +245,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Je wil weten of een gezondheidsartikel klopt. Welke bron kies je om het na te gaan?",
-        opties=[
-            "De website van een ziekenhuis of een officiële gezondheidsdienst",
-            "Een reactie op een forum",
-            "Een reclamefilmpje van een merk",
-            "Een meme",
-        ],
+        opties=["De website van een ziekenhuis of een officiële gezondheidsdienst", "Een reactie op een forum", "Een reclamefilmpje van het merk dat het product in het artikel verkoopt", "Een meme"],
         antwoord=0,
         uitleg="Kies een zender met kennis van zaken die geen belang heeft bij de verkoop.",
     ),
     dict(
         type="meerkeuze",
         vraag="Een krantenkop luidt: 'Schokkend: zoveel suiker zit er écht in je ontbijt!' Wat zie je aan die titel?",
-        opties=[
-            "Hij is niet neutraal en wil je nieuwsgierig maken",
-            "Hij is een feit",
-            "Hij noemt zijn bron",
-            "Hij is een instructie",
-        ],
+        opties=["Hij is niet neutraal en wil je nieuwsgierig maken", "Hij is een feit", "Hij noemt de bron van het onderzoek en geeft meteen het cijfer mee", "Hij is een instructie"],
         antwoord=0,
         uitleg="Woorden als 'schokkend' en 'écht' zijn gevoelswoorden. Een neutrale titel zou zijn: 'Hoeveel suiker zit er in ontbijtgranen?'",
     ),
@@ -318,19 +288,14 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Wie een tekst schrijft om te overtuigen, geeft daarin best ook de nadelen toe.",
-        antwoord=True,
-        uitleg="Een tegenargument erkennen en weerleggen maakt je sterker: de lezer merkt dat je de zaak kent.",
+        vraag="Wie een tekst schrijft om te overtuigen, laat de nadelen het best helemaal weg.",
+        antwoord=False,
+        uitleg="Niet juist. Wie ook de nadelen toegeeft, komt geloofwaardiger over.",
     ),
     dict(
         type="meerkeuze",
         vraag="Waaraan herken je een mening die vermomd is als feit?",
-        opties=[
-            "Aan gevoelswoorden als 'schandalig', 'iedereen weet', 'veel te'",
-            "Aan de aanwezigheid van een datum",
-            "Aan een cijfer met een eenheid",
-            "Aan de naam van de auteur",
-        ],
+        opties=["Aan gevoelswoorden als 'schandalig', 'iedereen weet', 'veel te'", "Aan de aanwezigheid van een datum en van de naam van de krant erboven", "Aan een cijfer met een eenheid", "Aan de naam van de auteur"],
         antwoord=0,
         uitleg="Zulke woorden dragen een oordeel. 'Veel te duur' is een mening, '24 euro' is een feit.",
     ),
@@ -373,12 +338,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Twee betrouwbare teksten spreken elkaar tegen. Wat doe je?",
-        opties=[
-            "Je kijkt naar de datum, de bronnen en wat ze precies onderzocht hebben",
-            "Je kiest de kortste",
-            "Je kiest de tekst die jouw mening bevestigt",
-            "Je gebruikt geen van beide",
-        ],
+        opties=["Je kijkt naar de datum, de bronnen en wat ze precies onderzocht hebben", "Je kiest de tekst die het vlotst leest, want die is het duidelijkst", "Je kiest de tekst die jouw mening bevestigt", "Je gebruikt geen van beide"],
         antwoord=0,
         uitleg="Vaak gaan ze over een andere periode of een andere groep. Wie kijkt naar wat er precies gemeten is, ziet het verschil.",
     ),
@@ -397,24 +357,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Je schrijft zelf een reactie op een forum over zwerfvuil. Hoe maak je ze overtuigend?",
-        opties=[
-            "Je geeft je standpunt en drie argumenten, met een cijfer of een voorbeeld erbij",
-            "Je schrijft in hoofdletters",
-            "Je noemt wie het niet met je eens is dom",
-            "Je herhaalt vier keer hetzelfde",
-        ],
+        opties=["Je geeft je standpunt en drie argumenten, met een cijfer of een voorbeeld erbij", "Je schrijft in hoofdletters", "Je noemt iedereen die er anders over denkt kortzichtig, zodat je standpunt sterker lijkt", "Je herhaalt vier keer hetzelfde"],
         antwoord=0,
         uitleg="Standpunt plus onderbouwde argumenten overtuigen. Hoofdletters lezen als schreeuwen en werken averechts.",
     ),
     dict(
         type="meerkeuze",
         vraag="Waarom zou je een bericht niet doorsturen als je niet zeker weet of het klopt?",
-        opties=[
-            "Omdat je dan zelf helpt verspreiden wat misschien onjuist is",
-            "Omdat doorsturen verboden is",
-            "Omdat berichten dan verdwijnen",
-            "Omdat je dan geen likes krijgt",
-        ],
+        opties=["Omdat je dan zelf helpt verspreiden wat misschien onjuist is", "Omdat doorsturen verboden is", "Omdat je het bericht daarna zelf niet meer kan terugvinden", "Omdat je dan geen likes krijgt"],
         antwoord=0,
         uitleg="Wie deelt, wordt zelf een zender. Eerst nakijken, dan pas doorsturen.",
     ),
