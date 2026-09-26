@@ -342,9 +342,11 @@ export async function bulkImportVakInhoud(formData: FormData) {
   const neemVolgnummer = await vrijeVolgnummers(admin, "hoofdstukken", "vak_id", vakId);
   const titelNaarId = new Map<string, string>();
   const gratisVanId = new Map<string, boolean>();
+  const niveauVanId = new Map<string, string>();
   (bestaande ?? []).forEach((h) => {
     titelNaarId.set(titelSleutel(h.titel), h.id);
     gratisVanId.set(h.id, !!h.gratis);
+    niveauVanId.set(h.id, h.niveau);
   });
   // Het eerste hoofdstuk van elke categorie (niveau) binnen dit vak is altijd
   // gratis om uit te proberen — zowel al bestaande als in deze import zelf.
@@ -353,7 +355,18 @@ export async function bulkImportVakInhoud(formData: FormData) {
   for (const hfst of payload!.hoofdstukken) {
     const titel = String(hfst.titel || "").trim();
     if (!titel) continue;
-    const niveau = NIVEAUS.some((n) => n.slug === hfst.niveau) ? hfst.niveau! : "start";
+    // Een categorie die we niet kennen is een fout in het bestand, geen reden
+    // om er stilletjes "start" van te maken. Dat laatste deed dit vroeger, en
+    // dan belandde een hoofdstuk zonder één waarschuwing onder 🌱 Start.
+    const niveau = String(hfst.niveau || "start");
+    if (!NIVEAUS.some((n) => n.slug === niveau)) {
+      redirect(
+        "/beheer/vakken?fout=" +
+          encodeURIComponent(
+            `"${titel}" draagt de onbekende categorie "${niveau}". Er is niets ingelezen.`
+          )
+      );
+    }
 
     let hoofdstukId = titelNaarId.get(titelSleutel(titel));
 
@@ -441,6 +454,29 @@ export async function bulkImportVakInhoud(formData: FormData) {
           "/beheer/vakken?fout=" +
             encodeURIComponent(`"${titel}" op gratis zetten mislukt: ${gratisFout.message}`)
         );
+      }
+    }
+
+    // Staat het hoofdstuk in een andere categorie dan het bestand zegt, zet het
+    // dan recht. Het bestand is de bron; een verschil is zo goed als altijd een
+    // hoofdstuk dat ooit in de verkeerde categorie beland is. Zonder dit kon je
+    // dat alleen met de hand in de databank herstellen, want het niveau werd
+    // enkel bij het aanmaken gezet.
+    if (bestondAl) {
+      const huidigNiveau = niveauVanId.get(hoofdstukId!);
+      if (huidigNiveau && huidigNiveau !== niveau) {
+        const { error: niveauFout } = await admin
+          .from("hoofdstukken")
+          .update({ niveau })
+          .eq("id", hoofdstukId);
+        if (niveauFout) {
+          redirect(
+            "/beheer/vakken?fout=" +
+              encodeURIComponent(
+                `"${titel}" naar de juiste categorie verplaatsen mislukt: ${niveauFout.message}`
+              )
+          );
+        }
       }
     }
 

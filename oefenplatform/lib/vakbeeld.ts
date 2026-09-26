@@ -18,7 +18,7 @@ const ICONEN: Record<string, string> = {
   // De vakken van 🔭 de uitdagingshoek.
   "de-ruimte": "🪐",
   "coderen-en-computers": "💻",
-  "geschiedenis-van-belgie": "🇧🇪",
+  "geschiedenis-van-belgie": "📜",
   "paradoxen-en-weetjes": "🤯",
 };
 

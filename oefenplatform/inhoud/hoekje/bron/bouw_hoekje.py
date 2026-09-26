@@ -97,14 +97,27 @@ def lees(naam):
 
 def main():
     sys.path.insert(0, str(UIT))
-    namen = sys.argv[1:] or sorted(
+    alle = sorted(
         p.stem for p in HIER.glob("*.py") if p.stem not in ("bouw_hoekje", "__init__")
     )
 
+    # Een bestand bevat álle hoofdstukken van zijn vak. Bouw je maar één deel,
+    # dan moeten de andere delen van datzelfde bestand mee, anders schrijf je
+    # de rest eruit. Daarom lezen we altijd alles in en gebruiken we de
+    # argumenten enkel om te kiezen welke bestanden weggeschreven worden.
+    gevraagd = sys.argv[1:]
+    onbekend = [n for n in gevraagd if n not in alle]
+    if onbekend:
+        raise SystemExit("onbekende bron: " + ", ".join(onbekend))
+
     per_bestand = {}
-    for naam in namen:
+    for naam in alle:
         module, vragen = lees(naam)
         per_bestand.setdefault(module.BESTAND, []).append((module, vragen))
+
+    if gevraagd:
+        wil = {importlib.import_module(f"bron.{n}").BESTAND for n in gevraagd}
+        per_bestand = {b: d for b, d in per_bestand.items() if b in wil}
 
     # Alle titels samen moeten uniek blijven: twee hoofdstukken met dezelfde
     # naam worden bij het importeren één hoofdstuk.

@@ -19,10 +19,14 @@ de leerbundels. Dit hoekje doet juist het tegenovergestelde: het stapt eruit.
 
 | Vak | Hoofdstukken | Vragen |
 |-----|--------------|--------|
-| De ruimte | Sterren, planeten en afstanden · Zwaartekracht, licht en het heelal | 40 |
-| Coderen en computers | Hoe een computer denkt · Algoritmes, netwerken en geheimschrift | 40 |
-| Geschiedenis van België | Van 1830 tot de Eerste Wereldoorlog · Van de Koningskwestie tot vandaag | 40 |
-| Paradoxen en weetjes | Paradoxen die je hoofd kraken · Wonderlijke weetjes | 40 |
+| De ruimte | Sterren, planeten en afstanden · Zwaartekracht, licht en het heelal · Verder dan de planeten | 60 |
+| Coderen en computers | Hoe een computer denkt · Algoritmes, netwerken en geheimschrift · Poorten, netwerken en veiligheid | 60 |
+| Geschiedenis van België | Van 1830 tot de Eerste Wereldoorlog · Van de Koningskwestie tot vandaag · Legendes, uitvinders en oude tijden | 60 |
+| Paradoxen en weetjes | Paradoxen die je hoofd kraken · Wonderlijke weetjes · Getallen, natuur en toeval | 60 |
+
+Het derde hoofdstuk van elk vak komt grotendeels van Kim zelf (26 september
+2026). Twaalf van haar veertig vragen stonden inhoudelijk al in deel 1 of 2 en
+zijn vervangen door nieuwe over hetzelfde thema, zodat er niets dubbel staat.
 
 Elk hoofdstuk telt twintig vragen. Er hoort **geen leerbundel** bij: de uitleg
 onder elke vraag doet hier het werk, en die is daarom bewust langer dan
