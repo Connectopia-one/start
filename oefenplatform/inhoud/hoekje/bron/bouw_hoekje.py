@@ -118,6 +118,10 @@ def main():
             "hoofdstukken": [
                 {
                     "titel": m.TITEL,
+                    # Stond het hoofdstuk al onder een oude naam in de databank,
+                    # dan hernoemt de import het in plaats van er een tweede bij
+                    # te maken. Zie bulkImportVakInhoud.
+                    **({"hernoemVan": m.HERNOEM_VAN} if getattr(m, "HERNOEM_VAN", None) else {}),
                     "niveau": NIVEAU,
                     # Een extraatje bij een account, geen lokkertje: het
                     # hoekje zit mee in de volledige toegang.

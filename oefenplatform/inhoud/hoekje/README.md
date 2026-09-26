@@ -21,7 +21,7 @@ de leerbundels. Dit hoekje doet juist het tegenovergestelde: het stapt eruit.
 |-----|--------------|--------|
 | De ruimte | Sterren, planeten en afstanden · Zwaartekracht, licht en het heelal | 40 |
 | Coderen en computers | Hoe een computer denkt · Algoritmes, netwerken en geheimschrift | 40 |
-| Geschiedenis van België | Van 1830 tot de Groote Oorlog · Van de Koningskwestie tot vandaag | 40 |
+| Geschiedenis van België | Van 1830 tot de Eerste Wereldoorlog · Van de Koningskwestie tot vandaag | 40 |
 | Paradoxen en weetjes | Paradoxen die je hoofd kraken · Wonderlijke weetjes | 40 |
 
 Elk hoofdstuk telt twintig vragen. Er hoort **geen leerbundel** bij: de uitleg

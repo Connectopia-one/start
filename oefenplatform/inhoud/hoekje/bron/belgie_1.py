@@ -1,9 +1,13 @@
 # -*- coding: utf-8 -*-
-"""🔭 Uitdagingshoek — Geschiedenis van België, deel 1: 1830 tot de Groote Oorlog."""
+"""🔭 Uitdagingshoek — Geschiedenis van België, deel 1: 1830 tot de Eerste Wereldoorlog."""
 
 VAK = "Geschiedenis van België"
 BESTAND = "geschiedenis-van-belgie.json"
-TITEL = "Van 1830 tot de Groote Oorlog"
+TITEL = "Van 1830 tot de Eerste Wereldoorlog"
+# "de Groote Oorlog" stond hier eerst: dat is de vaste naam voor de Eerste
+# Wereldoorlog in Vlaanderen, in de oude spelling. Correct, maar het leest als
+# een schrijffout. De term zelf staat nu in de uitleg bij de wapenstilstand.
+HERNOEM_VAN = "Van 1830 tot de Groote Oorlog"
 VOLGORDE = 1
 
 VRAGEN = [
@@ -155,7 +159,7 @@ VRAGEN = [
         "type": "invultekst",
         "vraag": "Op welke dag en maand wordt de wapenstilstand van 1918 herdacht? Schrijf bijvoorbeeld: 3 maart.",
         "antwoord": "11 november",
-        "uitleg": "Het vuren stopte op 11 november 1918 om elf uur 's ochtends: het elfde uur van de elfde dag van de elfde maand. Het is in België nog altijd een wettelijke feestdag.",
+        "uitleg": "Het vuren stopte op 11 november 1918 om elf uur 's ochtends: het elfde uur van de elfde dag van de elfde maand. Het is in België nog altijd een wettelijke feestdag. Die oorlog heet bij ons ook wel de Groote Oorlog, met de dubbele o van de oude spelling.",
     },
     {
         "type": "meerkeuze",
