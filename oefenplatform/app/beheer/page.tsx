@@ -7,10 +7,16 @@ export default async function BeheerPage() {
   const session = await requireBeheerder();
   const supabase = await createClient();
 
-  const [{ count: vakkenCount }, { count: betaaldCount }, { count: plusklasCount }] = await Promise.all([
+  const [
+    { count: vakkenCount },
+    { count: betaaldCount },
+    { count: plusklasCount },
+    { count: meldingenCount },
+  ] = await Promise.all([
     supabase.from("vakken").select("id", { count: "exact", head: true }),
     supabase.from("betalingen").select("id", { count: "exact", head: true }).eq("status", "betaald"),
     supabase.from("profiles").select("id", { count: "exact", head: true }).eq("is_plusklas", true),
+    supabase.from("meldingen").select("id", { count: "exact", head: true }).eq("afgehandeld", false),
   ]);
 
   return (
@@ -25,6 +31,22 @@ export default async function BeheerPage() {
         </p>
 
         <div className="mt-8 grid gap-8 sm:grid-cols-2">
+          <section>
+            <h2 className="font-display text-lg font-semibold text-ink">
+              Meldingen{(meldingenCount ?? 0) > 0 && <> ({meldingenCount})</>}
+            </h2>
+            <p className="mt-3 text-sm text-ink-dim">
+              Wat ouders en kinderen in een hoofdstuk zagen dat niet klopt, met het hoofdstuk en de
+              vraag erbij.
+            </p>
+            <Link
+              href="/beheer/meldingen"
+              className="mt-4 inline-block rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
+            >
+              Meldingen bekijken &rarr;
+            </Link>
+          </section>
+
           <section>
             <h2 className="font-display text-lg font-semibold text-ink">Vakken &amp; hoofdstukken</h2>
             <p className="mt-3 text-sm text-ink-dim">

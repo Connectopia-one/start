@@ -13,6 +13,7 @@ import { HoofdstukTabs } from "@/components/HoofdstukTabs";
 import { GeoGebraCalculator } from "@/components/GeoGebraCalculator";
 import { Leerbundel, type LeerbundelBlok } from "@/components/Leerbundel";
 import { Leestekst, type Woord } from "@/components/Leestekst";
+import { MeldingKnop } from "@/components/MeldingKnop";
 
 export default async function HoofdstukPage({
   params,
@@ -176,6 +177,13 @@ export default async function HoofdstukPage({
             }
           />
         )}
+
+        {/* Feedback komt binnen bij het hoofdstuk zelf, en bij de vraag als
+            ze die aanduiden. Zo weet je meteen waar je moet ingrijpen. */}
+        <MeldingKnop
+          hoofdstukId={hoofdstuk.id}
+          vragen={vragen.map((v) => ({ id: v.id, volgnummer: v.volgnummer, vraag: v.vraag }))}
+        />
       </main>
     </>
   );

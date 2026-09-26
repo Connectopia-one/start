@@ -120,9 +120,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De eerste zin van een alinea geeft vaak al het onderwerp van die alinea weer.",
-          "antwoord": true,
-          "uitleg": "Daarom kan je een tekst snel overlopen door alleen de eerste zinnen te lezen."
+          "vraag": "Het onderwerp van een alinea staat altijd in de laatste zin.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Vaak staat het al in de eerste zin van de alinea."
         },
         {
           "type": "meerkeuze",
@@ -150,9 +150,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een inhoudstafel helpt je om snel het juiste hoofdstuk te vinden.",
-          "antwoord": true,
-          "uitleg": "Ze staat vooraan of achteraan in een boek."
+          "vraag": "Een inhoudstafel staat altijd achteraan in een boek.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Een inhoudstafel staat meestal vooraan. Ze helpt je om snel het juiste hoofdstuk te vinden."
         },
         {
           "type": "meerkeuze",
@@ -246,9 +246,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Achter een vraag zet je een vraagteken.",
-          "antwoord": true,
-          "uitleg": "Het vraagteken laat de lezer horen dat het een vraag is."
+          "vraag": "Achter een vraag zet je een uitroepteken.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Achter een vraag hoort een vraagteken. Een uitroepteken gebruik je bij een uitroep of een bevel."
         },
         {
           "type": "meerkeuze",
@@ -448,7 +448,7 @@
           "opties": [
             "je telefoon bekijken",
             "vragen stellen als je iets niet begrijpt",
-            "ondertussen zelf praten",
+            "ondertussen al bedenken wat je zelf gaat antwoorden",
             "wegdromen"
           ],
           "antwoord": 1,
@@ -479,16 +479,16 @@
             "het einde",
             "wie het zijn, wat er gebeurt en waar",
             "je mening",
-            "je bronnen"
+            "waar je het verhaal gehoord of gelezen hebt"
           ],
           "antwoord": 1,
           "uitleg": "Zonder die basis kan je publiek de rest niet volgen."
         },
         {
           "type": "waarofniet",
-          "vraag": "Als je te snel praat, is het voor je publiek moeilijker om je te volgen.",
-          "antwoord": true,
-          "uitleg": "Rustig praten en pauzes laten helpt je luisteraars."
+          "vraag": "Snel praten maakt een spreekbeurt levendiger en dus makkelijker te volgen.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Wie te snel praat, is moeilijk te volgen. Rustig spreken helpt je publiek."
         },
         {
           "type": "meerkeuze",
@@ -516,9 +516,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Je stem laten dalen aan het einde van een zin helpt om duidelijk te maken dat je klaar bent.",
-          "antwoord": true,
-          "uitleg": "Zo weet je gesprekspartner dat hij aan de beurt is."
+          "vraag": "Je stem laten stijgen aan het einde van een zin maakt duidelijk dat je zin af is.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Een dalende stem zegt dat je zin af is. Een stijgende stem klinkt als een vraag."
         },
         {
           "type": "meerkeuze",
@@ -539,7 +539,7 @@
             "een reden die je mening ondersteunt",
             "een grapje",
             "een vraag",
-            "een verhaal"
+            "een vraag die je aan de ander stelt om hem te overtuigen"
           ],
           "antwoord": 0,
           "uitleg": "Met argumenten maak je je standpunt sterker."
@@ -556,7 +556,7 @@
           "opties": [
             "Dat is niet erg.",
             "Wat vervelend voor je, wil je er meer over vertellen?",
-            "Bij mij was het erger.",
+            "Dat overkomt iedereen wel eens, ik zou er niet te veel bij stilstaan.",
             "Niets."
           ],
           "antwoord": 1,
@@ -570,9 +570,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij een telefoongesprek zeg je het best eerst wie je bent.",
-          "antwoord": true,
-          "uitleg": "De andere persoon ziet je niet, dus je stelt jezelf voor."
+          "vraag": "Bij een telefoongesprek wacht je het best tot de ander vraagt wie je bent.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Je zegt het best meteen wie je bent."
         },
         {
           "type": "meerkeuze",
@@ -580,7 +580,7 @@
           "opties": [
             "niets",
             "die persoon uitnodigen om ook iets te zeggen",
-            "zelf nog meer praten",
+            "wachten tot die persoon vanzelf iets durft te zeggen",
             "het gesprek stoppen"
           ],
           "antwoord": 1,
@@ -678,9 +678,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De, het en een zijn lidwoorden.",
-          "antwoord": true,
-          "uitleg": "Lidwoorden staan voor een zelfstandig naamwoord."
+          "vraag": "De, het en een zijn voornaamwoorden.",
+          "antwoord": false,
+          "uitleg": "Niet juist. De, het en een zijn lidwoorden. Ik, jij en wij zijn voornaamwoorden."
         },
         {
           "type": "meerkeuze",
@@ -768,9 +768,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Het woord snelheid is afgeleid van het woord snel.",
-          "antwoord": true,
-          "uitleg": "Met -heid maak je van een bijvoeglijk naamwoord een zelfstandig naamwoord."
+          "vraag": "Het woord snelheid is een samenstelling van twee woorden.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Snelheid is een afleiding: snel plus de uitgang -heid. Bij een samenstelling plak je twee bestaande woorden aan elkaar, zoals voetbal."
         },
         {
           "type": "meerkeuze",
@@ -833,7 +833,7 @@
             "de schrijver",
             "de figuur over wie het verhaal vooral gaat",
             "de uitgever",
-            "de illustrator"
+            "de persoon aan wie de schrijver het boek opgedragen heeft"
           ],
           "antwoord": 1,
           "uitleg": "De hoofdpersoon staat centraal in wat er gebeurt."
@@ -855,7 +855,7 @@
           "vraag": "Wat is een fabel?",
           "opties": [
             "een verhaal met dieren die praten en een les geven",
-            "een waargebeurd verslag",
+            "een verhaal waarin dieren voorkomen die zich als echte dieren gedragen",
             "een gedicht zonder rijm",
             "een krantenartikel"
           ],
@@ -864,9 +864,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Niet alle gedichten rijmen.",
-          "antwoord": true,
-          "uitleg": "Er bestaan ook gedichten zonder rijm."
+          "vraag": "Een gedicht moet altijd rijmen.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Veel gedichten rijmen niet."
         },
         {
           "type": "meerkeuze",
@@ -894,9 +894,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een stripverhaal vertelt met tekeningen en tekstballonnen.",
-          "antwoord": true,
-          "uitleg": "De prenten en de ballonnen vertellen samen het verhaal."
+          "vraag": "In een stripverhaal staat de tekst altijd onder de tekening, nooit in een ballon.",
+          "antwoord": false,
+          "uitleg": "Niet juist. In een strip staat de tekst meestal in tekstballonnen."
         },
         {
           "type": "meerkeuze",
@@ -905,7 +905,7 @@
             "een verhaal dat al heel lang wordt doorverteld",
             "een handleiding",
             "een woordenboek",
-            "een schoolagenda"
+            "een verhaal dat een schrijver pas geleden verzonnen heeft"
           ],
           "antwoord": 0,
           "uitleg": "Sagen en legenden gaan van generatie op generatie over."
@@ -924,9 +924,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De verteller van een verhaal en de schrijver zijn niet altijd dezelfde.",
-          "antwoord": true,
-          "uitleg": "Een schrijver kan een verhaal laten vertellen door een personage."
+          "vraag": "De verteller van een verhaal is altijd de schrijver zelf.",
+          "antwoord": false,
+          "uitleg": "Niet juist. De schrijver kan een verteller verzinnen, bijvoorbeeld een kind of een dier."
         },
         {
           "type": "meerkeuze",
@@ -945,7 +945,7 @@
           "vraag": "Wat is de spanning in een verhaal?",
           "opties": [
             "het gevoel dat je wil weten hoe het afloopt",
-            "de lengte van het boek",
+            "het aantal bladzijden dat je nog moet lezen voor het uit is",
             "het aantal personages",
             "de kleur van de kaft"
           ],

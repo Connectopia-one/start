@@ -84,9 +84,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Het jaar 2000 hoorde nog bij de 20ste eeuw.",
-          "antwoord": true,
-          "uitleg": "De 20ste eeuw loopt van 1901 tot en met 2000."
+          "vraag": "Het jaar 2000 was het eerste jaar van de 21ste eeuw.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Het jaar 2000 hoorde nog bij de 20ste eeuw. De 21ste eeuw begon op 1 januari 2001."
         },
         {
           "type": "meerkeuze",
@@ -120,9 +120,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een kroniek is een verslag van gebeurtenissen in volgorde van tijd.",
-          "antwoord": true,
-          "uitleg": "Kroniekschrijvers noteerden wat er jaar na jaar gebeurde."
+          "vraag": "In een kroniek staan de gebeurtenissen geordend per onderwerp.",
+          "antwoord": false,
+          "uitleg": "Niet juist. In een kroniek staan de gebeurtenissen in volgorde van tijd."
         },
         {
           "type": "meerkeuze",
@@ -240,9 +240,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een dagboek van iemand die de oorlog zelf meemaakte, is een primaire bron.",
-          "antwoord": true,
-          "uitleg": "Klopt. Wie er zelf bij was en er toen over schreef, levert een bron uit de tijd zelf."
+          "vraag": "Een dagboek van iemand die de oorlog zelf meemaakte, is een secundaire bron.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Wie het zelf meemaakte, laat een primaire bron na. Een secundaire bron is later geschreven over die tijd."
         },
         {
           "type": "meerkeuze",
@@ -250,7 +250,7 @@
           "opties": [
             "fossielen opgraven",
             "bronnen zoeken, onderzoeken en met elkaar vergelijken",
-            "oude munten verzamelen",
+            "de mooiste verhalen over vroeger opschrijven zoals ze verteld worden",
             "verhalen verzinnen over vroeger"
           ],
           "antwoord": 1,
@@ -304,7 +304,7 @@
           "opties": [
             "een heel oud voorwerp",
             "iets dat in een verhaal opduikt maar in die tijd nog niet bestond",
-            "een tijdlijn met fouten erin",
+            "een verhaal waarin de gebeurtenissen in de verkeerde volgorde verteld worden",
             "een verhaal uit de oudheid"
           ],
           "antwoord": 1,
@@ -328,7 +328,7 @@
           "opties": [
             "in de prehistorie leefden er nog geen mensen",
             "in de prehistorie bestond het schrift nog niet, dus er zijn geen geschreven bronnen",
-            "de prehistorie duurde maar heel kort",
+            "in de prehistorie schreven de mensen al, maar op steen in plaats van op papier of perkament",
             "de prehistorie speelt zich af na de oudheid"
           ],
           "antwoord": 1,
@@ -401,7 +401,7 @@
             "ze trokken meer rond",
             "ze gingen gewassen telen en dieren houden en bleven op één plaats wonen",
             "ze stopten met eten koken",
-            "ze bouwden meteen steden van beton"
+            "ze bleven jagen en verzamelen, maar ze deden het voortaan met betere wapens"
           ],
           "antwoord": 1,
           "uitleg": "Door landbouw konden mensen zich vestigen in dorpen."
@@ -456,9 +456,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De oude Grieken hielden de eerste Olympische Spelen.",
-          "antwoord": true,
-          "uitleg": "Die vonden plaats in Olympia, ter ere van hun goden."
+          "vraag": "De eerste Olympische Spelen werden door de Romeinen gehouden.",
+          "antwoord": false,
+          "uitleg": "Niet juist. De Olympische Spelen begonnen bij de oude Grieken, in Olympia."
         },
         {
           "type": "meerkeuze",
@@ -486,9 +486,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Het schrift werd voor het eerst gebruikt in Mesopotamië en Egypte.",
-          "antwoord": true,
-          "uitleg": "Dat is meteen het begin van wat we geschiedenis noemen."
+          "vraag": "Het schrift werd voor het eerst gebruikt in Griekenland en Rome.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Het oudste schrift komt uit Mesopotamië en Egypte, lang voor de Grieken en de Romeinen."
         },
         {
           "type": "meerkeuze",
@@ -582,9 +582,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Na de bronstijd kwam de ijzertijd.",
-          "antwoord": true,
-          "uitleg": "Klopt. Steentijd, bronstijd en ijzertijd zijn genoemd naar het materiaal waarmee de mensen toen werkten."
+          "vraag": "Na de ijzertijd kwam de bronstijd.",
+          "antwoord": false,
+          "uitleg": "Niet juist, het is omgekeerd: eerst de steentijd, dan de bronstijd, dan de ijzertijd."
         },
         {
           "type": "meerkeuze",
@@ -592,7 +592,7 @@
           "opties": [
             "een berg waar mensen woonden",
             "een heuvel van aarde die boven een graf werd opgeworpen",
-            "een put om afval in te gooien",
+            "een hoge heuvel waarop een dorp gebouwd werd om droog te blijven",
             "een heuvel om vuur op te maken"
           ],
           "antwoord": 1,
@@ -610,7 +610,7 @@
           "opties": [
             "omdat kronkelwegen te duur waren",
             "om soldaten, post en handelswaar zo snel mogelijk te verplaatsen",
-            "omdat ze geen bochten konden bouwen",
+            "omdat een rechte weg minder stenen nodig heeft dan een weg met bochten",
             "om de velden mooi te verdelen"
           ],
           "antwoord": 1,
@@ -618,9 +618,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De Romeinen gebruikten munten met de kop van de keizer erop.",
-          "antwoord": true,
-          "uitleg": "Klopt. Zo wist iedereen in het hele rijk wie er aan de macht was, ook wie niet kon lezen."
+          "vraag": "De Romeinen kenden nog geen munten: ze ruilden alles.",
+          "antwoord": false,
+          "uitleg": "Niet juist. De Romeinen hadden wel degelijk munten, vaak met de kop van de keizer erop."
         },
         {
           "type": "meerkeuze",
@@ -644,7 +644,7 @@
           "type": "meerkeuze",
           "vraag": "Wat was een slaaf in de Romeinse tijd?",
           "opties": [
-            "een gewone werknemer met loon",
+            "iemand die voor een laag loon werkte en na een paar jaar mocht vertrekken",
             "iemand die geen vrij mens was en eigendom was van een ander",
             "een soldaat in het leger",
             "een leerling van een meester"
@@ -662,7 +662,7 @@
           "type": "meerkeuze",
           "vraag": "Wat was een Romeinse villa?",
           "opties": [
-            "een vakantiehuis aan zee",
+            "een groot stenen huis midden in de stad, voor de rijkste families",
             "een grote boerderij met een woonhuis op het platteland",
             "een tempel voor de goden",
             "een legerkamp"
@@ -682,7 +682,7 @@
           "opties": [
             "omdat ze graag zwommen",
             "om te drinken, te vissen en zich te verplaatsen",
-            "omdat het er warmer was",
+            "omdat het water hen beschermde tegen wilde dieren en vijanden",
             "om zich te verstoppen"
           ],
           "antwoord": 1,
@@ -700,7 +700,7 @@
           "opties": [
             "een grote vis",
             "een uitgestorven harig dier, familie van de olifant",
-            "een soort beer",
+            "een groot roofdier dat in de ijstijd op mensen joeg",
             "een reuzenvogel"
           ],
           "antwoord": 1,
@@ -724,7 +724,7 @@
           "opties": [
             "de kerk",
             "het plein in het midden, met markt, tempels en bestuur",
-            "de poort in de stadsmuur",
+            "de grote poort waarlangs de soldaten de stad binnenkwamen",
             "het huis van de rijkste inwoner"
           ],
           "antwoord": 1,
@@ -828,9 +828,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Vrouwen in België mochten pas in de 20ste eeuw stemmen bij de nationale verkiezingen.",
-          "antwoord": true,
-          "uitleg": "Algemeen stemrecht voor vrouwen kwam er in 1948."
+          "vraag": "Vrouwen in België mochten al vanaf 1830 stemmen bij de nationale verkiezingen.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Dat recht kwam er pas in de 20ste eeuw."
         },
         {
           "type": "meerkeuze",
@@ -850,7 +850,7 @@
           "opties": [
             "een vereniging van vaklui uit hetzelfde beroep",
             "een leger",
-            "een kerk",
+            "een belasting die de stad aan de ambachtslui oplegde",
             "een school"
           ],
           "antwoord": 0,
@@ -858,9 +858,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De pest trof Europa zwaar in de 14de eeuw.",
-          "antwoord": true,
-          "uitleg": "Een groot deel van de bevolking stierf eraan."
+          "vraag": "De pest trof Europa zwaar in de 18de eeuw.",
+          "antwoord": false,
+          "uitleg": "Niet juist. De grote pestgolf raasde in de 14de eeuw door Europa."
         },
         {
           "type": "meerkeuze",
@@ -885,7 +885,7 @@
           "vraag": "Wat was de Verlichting?",
           "opties": [
             "een stroming die de rede en het onderzoek centraal zette",
-            "een soort lamp",
+            "een periode waarin overal in Europa nieuwe kerken gebouwd werden",
             "een oorlog",
             "een schilderstijl"
           ],
@@ -915,7 +915,7 @@
           "vraag": "Wat is kinderarbeid, zoals die in de 19de eeuw veel voorkwam?",
           "opties": [
             "kinderen die lange dagen in fabrieken of mijnen werkten",
-            "kinderen die huiswerk maken",
+            "kinderen die na de schooluren een centje bijverdienden bij de boer",
             "kinderen die spelen",
             "kinderen die naar school gaan"
           ],
@@ -940,7 +940,7 @@
           "opties": [
             "een geldschieter",
             "een heer die grond uitleende aan iemand die hem trouw beloofde",
-            "de baas van een klooster",
+            "een boer die een stuk grond van de kerk mocht bewerken in ruil voor een deel van de oogst",
             "een boer die grond huurde"
           ],
           "antwoord": 1,
@@ -1010,7 +1010,7 @@
           "type": "meerkeuze",
           "vraag": "Wat is een ambacht?",
           "opties": [
-            "een stuk grond",
+            "een vergunning van het stadsbestuur om op de markt te mogen staan verkopen",
             "een beroep waarbij je met de hand iets maakt, zoals smid of bakker",
             "een soort belasting",
             "een feest in de stad"
@@ -1020,9 +1020,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De stoommachine was belangrijk voor de industriële revolutie.",
-          "antwoord": true,
-          "uitleg": "Klopt. Met stoom konden machines en treinen draaien zonder spierkracht van mens of dier."
+          "vraag": "De industriële revolutie kwam op gang door de uitvinding van de auto.",
+          "antwoord": false,
+          "uitleg": "Niet juist. De stoommachine gaf de industriële revolutie haar duw. De auto kwam pas veel later."
         },
         {
           "type": "meerkeuze",
@@ -1062,15 +1062,15 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De Tweede Wereldoorlog duurde langer dan de Eerste.",
-          "antwoord": true,
-          "uitleg": "Klopt. De Eerste duurde van 1914 tot 1918, dus vier jaar, de Tweede van 1939 tot 1945, dus zes jaar."
+          "vraag": "De Eerste Wereldoorlog duurde langer dan de Tweede.",
+          "antwoord": false,
+          "uitleg": "Niet juist. De Eerste duurde van 1914 tot 1918, de Tweede van 1939 tot 1945."
         },
         {
           "type": "meerkeuze",
           "vraag": "Wat was de Holocaust?",
           "opties": [
-            "een grote overstroming",
+            "een reeks zware bombardementen waarbij tijdens de oorlog hele steden werden verwoest",
             "de vervolging en moord op miljoenen mensen, vooral Joden, door het naziregime",
             "een veldslag in Frankrijk",
             "een ziekte die Europa trof"
@@ -1086,15 +1086,15 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De Europese Unie ontstond onder andere om oorlog tussen Europese landen te voorkomen.",
-          "antwoord": true,
-          "uitleg": "Klopt. Landen die samen handel drijven en overleggen, vechten minder snel met elkaar."
+          "vraag": "De Europese Unie ontstond vooral om samen oorlog te kunnen voeren tegen andere landen.",
+          "antwoord": false,
+          "uitleg": "Niet juist. De samenwerking kwam er net om oorlog tussen Europese landen te voorkomen."
         },
         {
           "type": "meerkeuze",
           "vraag": "Waarvoor dienden de steenkoolmijnen in Limburg?",
           "opties": [
-            "om goud te delven",
+            "om ijzererts te delven, het metaal waarmee de treinsporen gemaakt werden",
             "om steenkool te delven, de brandstof voor fabrieken, treinen en kachels",
             "om water op te pompen",
             "om zout te winnen"
@@ -1106,7 +1106,7 @@
           "type": "meerkeuze",
           "vraag": "Waarom is het belangrijk om over het verleden te leren?",
           "opties": [
-            "om jaartallen vanbuiten te kennen",
+            "om alle jaartallen en namen vanbuiten te kennen, want dat wordt op de test gevraagd",
             "om te begrijpen hoe onze wereld geworden is wat ze is, en om fouten niet te herhalen",
             "omdat het moet van de leerkracht",
             "om quizvragen te kunnen winnen"
