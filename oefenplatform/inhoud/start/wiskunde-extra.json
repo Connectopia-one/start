@@ -90,9 +90,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "-5 is groter dan -8.",
-          "antwoord": true,
-          "uitleg": "Klopt. Hoe verder een negatief getal van nul af ligt, hoe kleiner het is. -5 ligt dichter bij nul."
+          "vraag": "-8 is groter dan -5.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Hoe verder onder nul, hoe kleiner een getal is: -8 is kleiner dan -5."
         },
         {
           "type": "meerkeuze",
@@ -114,9 +114,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Als je een getal met 10 vermenigvuldigt, schuift de komma één plaats naar rechts.",
-          "antwoord": true,
-          "uitleg": "Klopt. 3,4 × 10 wordt 34. Bij delen door 10 schuift ze één plaats naar links."
+          "vraag": "Als je een getal met 10 vermenigvuldigt, schuift de komma één plaats naar links.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Bij × 10 schuift de komma naar rechts. Naar links is delen door 10."
         },
         {
           "type": "meerkeuze",
@@ -300,9 +300,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Vermenigvuldigen met 0 geeft altijd 0.",
-          "antwoord": true,
-          "uitleg": "Klopt. Hoe groot het andere getal ook is, nul keer iets blijft nul."
+          "vraag": "Vermenigvuldigen met 0 verandert een getal niet.",
+          "antwoord": false,
+          "uitleg": "Niet juist. × 0 geeft altijd 0. Het is × 1 dat een getal niet verandert."
         },
         {
           "type": "meerkeuze",
@@ -468,9 +468,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een hectometer is honderd meter.",
-          "antwoord": true,
-          "uitleg": "Klopt. Hecto betekent honderd. De hectometerpaaltjes langs de snelweg staan dus om de 100 meter."
+          "vraag": "Een hectometer is duizend meter.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Een hectometer is 100 meter. Duizend meter is een kilometer."
         },
         {
           "type": "meerkeuze",
@@ -600,9 +600,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een vierkant heeft vier symmetrieassen.",
-          "antwoord": true,
-          "uitleg": "Klopt: twee door het midden van de zijden en twee langs de diagonalen."
+          "vraag": "Een vierkant heeft twee symmetrieassen.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Een vierkant heeft er vier: twee door het midden van de zijden en de twee diagonalen."
         },
         {
           "type": "meerkeuze",
@@ -636,9 +636,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een bol heeft geen enkel vlak zijvlak.",
-          "antwoord": true,
-          "uitleg": "Klopt. Een bol is overal rond, daarom rolt hij alle kanten op."
+          "vraag": "Een bol heeft één vlak zijvlak.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Een bol is overal rond en heeft geen enkel vlak zijvlak."
         },
         {
           "type": "meerkeuze",
@@ -756,9 +756,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een kans van 0 betekent dat iets nooit gebeurt.",
-          "antwoord": true,
-          "uitleg": "Klopt. En een kans van 1 betekent dat het zeker gebeurt."
+          "vraag": "Een kans van 0 betekent dat iets zeker gebeurt.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Kans 0 is nooit, kans 1 is zeker."
         },
         {
           "type": "invultekst",
@@ -816,9 +816,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij het gooien met een gewone dobbelsteen heeft elk getal evenveel kans.",
-          "antwoord": true,
-          "uitleg": "Klopt. Elk van de zes zijden heeft een kans van 1 op 6."
+          "vraag": "Bij het gooien met een gewone dobbelsteen heeft 6 minder kans dan 1.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Elk van de zes getallen heeft evenveel kans: 1 op 6."
         },
         {
           "type": "invultekst",
@@ -900,9 +900,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een staafdiagram lees je af op de as waar de getallen staan.",
-          "antwoord": true,
-          "uitleg": "Klopt. Je kijkt tot waar de staaf komt en leest het getal af op die as."
+          "vraag": "Bij een staafdiagram zegt de kleur van de staaf hoe groot het getal is.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Je leest de hoogte van de staaf af op de as met de getallen."
         },
         {
           "type": "meerkeuze",
@@ -960,9 +960,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Als 3 pakken melk samen 4,50 euro kosten, kost één pak 1,50 euro.",
-          "antwoord": true,
-          "uitleg": "Klopt: 4,50 : 3 = 1,50 euro."
+          "vraag": "Als 3 pakken melk samen 4,50 euro kosten, kost één pak 2,25 euro.",
+          "antwoord": false,
+          "uitleg": "Niet juist. 4,50 gedeeld door 3 is 1,50 euro."
         },
         {
           "type": "invultekst",
@@ -1086,9 +1086,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een fietser die 20 km per uur rijdt, legt in een kwartier 5 km af.",
-          "antwoord": true,
-          "uitleg": "Klopt. Een kwartier is een vierde van een uur, en een vierde van 20 km is 5 km."
+          "vraag": "Een fietser die 20 km per uur rijdt, legt in een kwartier 10 km af.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Een kwartier is een vierde van een uur: 20 : 4 = 5 km."
         }
       ]
     }

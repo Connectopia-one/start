@@ -47,9 +47,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "In een gesloten lettergreep verdubbel je de medeklinker erachter.",
-          "antwoord": true,
-          "uitleg": "Zo blijft de klank kort: bal wordt ballen, niet balen."
+          "vraag": "In een open lettergreep verdubbel je de medeklinker erachter.",
+          "antwoord": false,
+          "uitleg": "Niet juist, het is net omgekeerd. Na een gesloten lettergreep verdubbel je: bal wordt ballen. Na een open niet: raam wordt ramen."
         },
         {
           "type": "meerkeuze",
@@ -278,9 +278,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een voltooid deelwoord begint bijna altijd met ge-.",
-          "antwoord": true,
-          "uitleg": "Gewerkt, geleerd, gehoopt. Een paar werkwoorden met be-, ver- of ont- doen dat niet."
+          "vraag": "Elk voltooid deelwoord eindigt op -en.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Veel voltooide deelwoorden eindigen op -d of -t: gewerkt, gehoord, gefietst."
         },
         {
           "type": "meerkeuze",
@@ -340,9 +340,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Je zegt 'het stoeltje', ook al is het 'de stoel'.",
-          "antwoord": true,
-          "uitleg": "Een verkleinwoord is altijd het."
+          "vraag": "Je zegt 'de stoeltje', want het is 'de stoel'.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Een verkleinwoord krijgt altijd het: het stoeltje, het huisje."
         },
         {
           "type": "meerkeuze",

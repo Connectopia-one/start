@@ -192,9 +192,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een breuk met dezelfde teller en noemer is gelijk aan 1.",
-          "antwoord": true,
-          "uitleg": "4/4 of 9/9 is telkens één geheel."
+          "vraag": "Een breuk met dezelfde teller en noemer is gelijk aan 0.",
+          "antwoord": false,
+          "uitleg": "Niet juist. 3/3, 7/7 en 12/12 zijn allemaal 1."
         }
       ]
     },
@@ -648,9 +648,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een cilinder heeft twee cirkelvormige grondvlakken.",
-          "antwoord": true,
-          "uitleg": "Denk aan een blikje: boven en onder zit een cirkel."
+          "vraag": "Een cilinder heeft één cirkelvormig grondvlak en loopt uit op een punt.",
+          "antwoord": false,
+          "uitleg": "Niet juist, dat is een kegel. Een cilinder heeft er twee, onderaan en bovenaan."
         },
         {
           "type": "meerkeuze",
@@ -702,9 +702,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij een spiegeling blijft de figuur even groot.",
-          "antwoord": true,
-          "uitleg": "Alleen de kant waarnaar ze kijkt verandert."
+          "vraag": "Bij een spiegeling wordt de figuur kleiner.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Bij een spiegeling blijft de figuur precies even groot; alleen de kant verandert."
         },
         {
           "type": "meerkeuze",
@@ -972,9 +972,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Als 4 broden 6 euro kosten, kosten 8 broden 12 euro.",
-          "antwoord": true,
-          "uitleg": "Dubbel zoveel broden kost dubbel zoveel geld."
+          "vraag": "Als 4 broden 6 euro kosten, kosten 8 broden 10 euro.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Dubbel zoveel broden kost dubbel zoveel: 12 euro."
         },
         {
           "type": "invultekst",
@@ -1098,9 +1098,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een auto die 60 km per uur rijdt, legt in een half uur 30 km af.",
-          "antwoord": true,
-          "uitleg": "In de helft van de tijd leg je de helft van de afstand af."
+          "vraag": "Een auto die 60 km per uur rijdt, legt in een half uur 60 km af.",
+          "antwoord": false,
+          "uitleg": "Niet juist. In een half uur legt hij de helft af: 30 km."
         }
       ]
     }

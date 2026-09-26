@@ -84,9 +84,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een plattegrond toont een gebied zoals je het van bovenaf ziet.",
-          "antwoord": true,
-          "uitleg": "Daarom herken je er straten en gebouwen als vlakken op."
+          "vraag": "Een plattegrond toont een gebied zoals je het vanaf de zijkant ziet.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Een plattegrond kijkt van bovenaf op het gebied neer."
         },
         {
           "type": "meerkeuze",
@@ -150,9 +150,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De nulmeridiaan loopt door Greenwich bij Londen.",
-          "antwoord": true,
-          "uitleg": "Vanaf die lijn tel je de oosterlengte en de westerlengte."
+          "vraag": "De nulmeridiaan loopt door Parijs.",
+          "antwoord": false,
+          "uitleg": "Niet juist. De nulmeridiaan loopt door Greenwich, bij Londen."
         },
         {
           "type": "meerkeuze",
@@ -270,9 +270,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Wallonië ligt in het zuiden van België.",
-          "antwoord": true,
-          "uitleg": "Vlaanderen ligt in het noorden, Wallonië in het zuiden."
+          "vraag": "Wallonië ligt in het noorden van België.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Wallonië ligt in het zuiden, Vlaanderen in het noorden."
         },
         {
           "type": "meerkeuze",
@@ -354,9 +354,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Brussel is officieel tweetalig, Nederlands en Frans.",
-          "antwoord": true,
-          "uitleg": "Straatnaamborden staan er in de twee talen."
+          "vraag": "Brussel is officieel eentalig Frans.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Brussel is officieel tweetalig: Nederlands en Frans."
         },
         {
           "type": "meerkeuze",
@@ -462,9 +462,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De evenaar loopt door Afrika.",
-          "antwoord": true,
-          "uitleg": "Onder meer door Kenia, Oeganda en Congo."
+          "vraag": "De evenaar loopt door Europa.",
+          "antwoord": false,
+          "uitleg": "Niet juist. De evenaar loopt onder meer door Afrika en Zuid-Amerika, niet door Europa."
         },
         {
           "type": "meerkeuze",
@@ -534,9 +534,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De Sahara is de grootste warme woestijn ter wereld.",
-          "antwoord": true,
-          "uitleg": "Ze ligt in het noorden van Afrika."
+          "vraag": "De Sahara ligt in Azië.",
+          "antwoord": false,
+          "uitleg": "Niet juist. De Sahara ligt in Noord-Afrika. Het is de grootste warme woestijn ter wereld."
         },
         {
           "type": "meerkeuze",

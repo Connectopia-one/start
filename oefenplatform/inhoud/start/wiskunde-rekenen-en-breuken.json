@@ -181,9 +181,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "0,6 is meer dan 1/2.",
-          "antwoord": true,
-          "uitleg": "1/2 is 0,5, en 0,6 is meer dan 0,5."
+          "vraag": "0,6 is minder dan 1/2.",
+          "antwoord": false,
+          "uitleg": "Niet juist. 1/2 is 0,5 en 0,6 is meer dan 0,5."
         },
         {
           "type": "meerkeuze",

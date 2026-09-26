@@ -60,9 +60,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Evenwijdige lijnen snijden elkaar nooit.",
-          "antwoord": true,
-          "uitleg": "Evenwijdige lijnen lopen altijd even ver uit elkaar."
+          "vraag": "Evenwijdige lijnen snijden elkaar ver genoeg verderop toch.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Evenwijdige lijnen blijven overal even ver uit elkaar en snijden elkaar nooit."
         },
         {
           "type": "meerkeuze",
@@ -150,9 +150,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij een spiegeling blijft de figuur even groot.",
-          "antwoord": true,
-          "uitleg": "Alleen de kant waarnaar ze kijkt verandert."
+          "vraag": "Bij een spiegeling wordt de figuur kleiner.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Bij een spiegeling blijft de figuur precies even groot; alleen de kant verandert."
         },
         {
           "type": "meerkeuze",
@@ -180,9 +180,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een rechthoek heeft vier rechte hoeken.",
-          "antwoord": true,
-          "uitleg": "Daar komt de naam vandaan."
+          "vraag": "Een rechthoek heeft twee rechte hoeken en twee scherpe.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Alle vier de hoeken van een rechthoek zijn recht."
         },
         {
           "type": "meerkeuze",
@@ -252,9 +252,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een vierkant heeft vier symmetrieassen.",
-          "antwoord": true,
-          "uitleg": "Klopt: twee door het midden van de zijden en twee langs de diagonalen."
+          "vraag": "Een vierkant heeft twee symmetrieassen.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Een vierkant heeft er vier: twee door het midden van de zijden en de twee diagonalen."
         },
         {
           "type": "meerkeuze",
