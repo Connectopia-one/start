@@ -18,11 +18,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Waarvoor heeft je lichaam voedsel nodig?",
-        opties=[
-            "Als brandstof, als bouwstof en als beschermstof",
-            "Alleen om je maag te vullen",
-            "Alleen om warm te blijven",
-        ],
+        opties=["Als brandstof, als bouwstof en als beschermstof", "Alleen om je maag te vullen zodat je geen honger hebt", "Alleen om warm te blijven"],
         antwoord=0,
         uitleg="Voedingsstoffen zijn brandstof (energie), bouwstof (groeien en herstellen) of beschermstof (goed blijven werken, zoals vitaminen en mineralen).",
     ),
@@ -71,24 +67,20 @@ DEEL1 = [
     dict(
         type="invultekst",
         vraag="De spier onder je longen die je helpt ademen, is het ___.",
-        antwoord="middenrif",
+        antwoord=["middenrif", "diafragma"],
         uitleg="Het middenrif is een platte spier onder de longen. Trekt hij samen, dan wordt de borstkas groter en stroomt er lucht naar binnen.",
     ),
     dict(
         type="meerkeuze",
         vraag="Uit hoeveel holtes bestaat het hart?",
-        opties=["Vier: twee boezems en twee kamers", "Twee", "Drie"],
+        opties=["Vier: twee boezems en twee kamers", "Twee: één boezem en één grote kamer", "Drie"],
         antwoord=0,
         uitleg="Het hart heeft een linker- en een rechterboezem en een linker- en een rechterkamer. De boezems vangen het bloed op, de kamers pompen het weg.",
     ),
     dict(
         type="meerkeuze",
         vraag="Wat is het verschil tussen een slagader en een ader?",
-        opties=[
-            "Een slagader voert bloed weg van het hart, een ader ernaartoe",
-            "Een slagader voert bloed naar het hart, een ader ervandaan",
-            "Er is geen verschil",
-        ],
+        opties=["Een slagader voert bloed weg van het hart, een ader ernaartoe", "Een slagader voert bloed naar het hart, een ader juist ervandaan", "Er is geen verschil"],
         antwoord=0,
         uitleg="Slagaders vertrekken bij het hart en hebben een dikke, gespierde wand. Aders brengen het bloed terug en hebben kleppen die terugstromen tegengaan.",
     ),
@@ -108,9 +100,9 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Haarvaten zijn de allerdunste bloedvaten.",
-        antwoord=True,
-        uitleg="Haarvaten hebben een wand van één cellaag dik. Juist daardoor kunnen zuurstof, voedingsstoffen en afvalstoffen erdoor naar de cellen en terug.",
+        vraag="De slagaders zijn de allerdunste bloedvaten.",
+        antwoord=False,
+        uitleg="Niet juist. De haarvaten zijn de allerdunste: hun wand is één cellaag dik. Juist daardoor kunnen zuurstof, voedingsstoffen en afvalstoffen erdoor naar de cellen en terug.",
     ),
     dict(
         type="meerkeuze",
@@ -129,25 +121,21 @@ DEEL1 = [
     dict(
         type="invultekst",
         vraag="Het buisje dat de urine van de nier naar de blaas brengt, is de ___.",
-        antwoord="urineleider",
+        antwoord=["urineleider", "urineleiders"],
         uitleg="Elke nier heeft een urineleider naar de blaas. Van de blaas naar buiten loopt daarna één urinebuis.",
     ),
     dict(
         type="meerkeuze",
         vraag="Wat gebeurt er in de dunne darm?",
-        opties=[
-            "De verteerde voedingsstoffen gaan het bloed in",
-            "Het voedsel wordt fijngekauwd",
-            "Het water wordt eruit gehaald",
-        ],
+        opties=["De verteerde voedingsstoffen gaan het bloed in", "Het water wordt eruit gehaald en het afval ingedikt", "Het voedsel wordt fijngekauwd"],
         antwoord=0,
         uitleg="In de dunne darm is de vertering klaar en worden de voedingsstoffen opgenomen in het bloed. Dat opnemen heet absorptie. De dikke darm haalt daarna vooral water eruit.",
     ),
     dict(
         type="waarofniet",
-        vraag="De maag maakt maagsap.",
-        antwoord=True,
-        uitleg="Maagsap bevat zuur en verteringssappen. Het doodt bacteriën en begint met het afbreken van eiwitten.",
+        vraag="De maag maakt gal om de vetten te verteren.",
+        antwoord=False,
+        uitleg="Niet juist. Gal wordt in de lever gemaakt en in de galblaas bewaard. De maag maakt maagsap: zuur dat eiwitten afbreekt en bacteriën doodt.",
     ),
     dict(
         type="meerkeuze",
@@ -159,11 +147,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Wat zijn voedingsvezels?",
-        opties=[
-            "Delen van voedsel die je niet verteert maar die je darmen op gang houden",
-            "De suikers uit fruit",
-            "De eiwitten uit vlees",
-        ],
+        opties=["Delen van voedsel die je niet verteert", "De suikers die in fruit en in fruitsap zitten", "De eiwitten uit vlees"],
         antwoord=0,
         uitleg="Vezels uit groenten, fruit en volkoren producten worden niet verteerd. Ze geven je darmen werk en houden je stoelgang vlot.",
     ),
@@ -190,28 +174,20 @@ DEEL2 = [
     dict(
         type="invultekst",
         vraag="Bij de vertering wordt zetmeel omgezet in ___.",
-        antwoord="glucose",
+        antwoord=["glucose", "druivensuiker"],
         uitleg="Zetmeel is een lange keten van glucosemoleculen. Speeksel en darmsap knippen die keten in losse glucosemoleculen, klein genoeg om in het bloed te gaan.",
     ),
     dict(
         type="meerkeuze",
         vraag="Waarin wordt een vet gesplitst bij de vertering?",
-        opties=[
-            "In glycerol en drie vetzuren",
-            "In twee aminozuren",
-            "In glucose en water",
-        ],
+        opties=["In glycerol en drie vetzuren", "In twee aminozuren en een suiker", "In glucose en water"],
         antwoord=0,
         uitleg="Elk vetmolecuul valt uiteen in één glycerol en drie vetzuren. Gal maakt de vetdruppels daarvoor eerst heel klein.",
     ),
     dict(
         type="meerkeuze",
         vraag="Wat doet gal?",
-        opties=[
-            "Het verdeelt vetten in kleine druppeltjes",
-            "Het verteert eiwitten",
-            "Het neemt zuurstof op",
-        ],
+        opties=["Het verdeelt vetten in kleine druppeltjes", "Het verteert de eiwitten uit je voedsel volledig", "Het neemt zuurstof op"],
         antwoord=0,
         uitleg="Gal wordt in de lever gemaakt en in de galblaas bewaard. In de twaalfvingerige darm maakt het van vet heel kleine druppeltjes, zodat de verteringssappen er beter bij kunnen.",
     ),
@@ -225,11 +201,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke omzetting gebeurt er bij de celademhaling?",
-        opties=[
-            "Glucose en zuurstofgas worden koolstofdioxide, water en energie",
-            "Koolstofdioxide en water worden glucose",
-            "Eiwitten worden aminozuren",
-        ],
+        opties=["Glucose en zuurstofgas worden koolstofdioxide, water en energie", "Koolstofdioxide en water worden glucose en zuurstofgas, met licht", "Eiwitten worden aminozuren"],
         antwoord=0,
         uitleg="Celademhaling is de verbranding van glucose in de mitochondriën. De energie die vrijkomt, gebruikt de cel om te werken; de rest gaat verloren als warmte.",
     ),
@@ -284,22 +256,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Waarom heeft je lichaam bloedplaatjes nodig?",
-        opties=[
-            "Om een wonde te laten stollen",
-            "Om zuurstof te vervoeren",
-            "Om voedsel te verteren",
-        ],
+        opties=["Om een wonde te laten stollen", "Om zuurstof door je lichaam te vervoeren", "Om voedsel te verteren"],
         antwoord=0,
         uitleg="Bloedplaatjes klitten bij een wonde samen en vormen een propje. Zonder bloedplaatjes zou een kleine snee blijven bloeden.",
     ),
     dict(
         type="meerkeuze",
         vraag="Je loopt hard. Waarom ga je sneller ademen én sneller met je hart kloppen?",
-        opties=[
-            "Je spiercellen hebben meer zuurstof en glucose nodig, en het afval moet sneller weg",
-            "Je longen worden groter",
-            "Je bloed wordt dunner",
-        ],
+        opties=["Je spiercellen hebben meer zuurstof en glucose nodig", "Je longen worden groter naarmate je langer blijft doorlopen", "Je bloed wordt dunner"],
         antwoord=0,
         uitleg="Meer celademhaling betekent meer verbruik van zuurstof en glucose en meer koolstofdioxide. De ademhaling en de bloedsomloop versnellen om dat bij te houden.",
     ),
@@ -335,18 +299,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Waarom staat lang stilzitten in de rode bol van de bewegingsdriehoek?",
-        opties=[
-            "Omdat het ongezond is en je het beter zo veel mogelijk onderbreekt",
-            "Omdat het de beste vorm van beweging is",
-            "Omdat het alleen voor sporters geldt",
-        ],
+        opties=["Omdat het ongezond is en je het beter onderbreekt", "Omdat het de beste vorm van beweging is voor je hart", "Omdat het alleen voor sporters geldt"],
         antwoord=0,
         uitleg="De rode bol is wat je best vermijdt. Lang stilzitten is ongezond, ook als je daarnaast sport; sta dus regelmatig even recht.",
     ),
     dict(
         type="invultekst",
         vraag="Het opnemen van verteerde voedingsstoffen in het bloed heet ___.",
-        antwoord="absorptie",
+        antwoord=["absorptie", "resorptie"],
         uitleg="De absorptie gebeurt in de dunne darm, door de darmvlokken heen. Die vlokken maken het oppervlak van de darm enorm groot.",
     ),
     dict(

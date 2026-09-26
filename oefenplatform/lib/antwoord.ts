@@ -37,6 +37,29 @@ export function gegevenKeuzes(waarde: unknown): number[] {
   return typeof waarde === "number" && Number.isInteger(waarde) ? [waarde] : [];
 }
 
+/**
+ * De aanvaarde antwoorden van een invulvraag, altijd als lijstje tekst.
+ *
+ * Waarom dit bestaat: op heel wat vragen past er meer dan één juist woord.
+ * "Hoe noem je dieren die alleen planten eten?" is even goed beantwoord met
+ * planteneters als met herbivoren, en een kind dat het tweede typt, hoort geen
+ * kruisje te krijgen. In de databank verandert er niets aan de tabel:
+ * `antwoord` is jsonb, dus zo'n vraag bewaart gewoon een lijstje tekst in
+ * plaats van één tekst. Het eerste antwoord van de lijst is wat we tonen.
+ */
+export function invulAntwoorden(antwoord: unknown): string[] {
+  if (Array.isArray(antwoord)) {
+    return antwoord.map((a) => String(a)).filter((a) => a.trim() !== "");
+  }
+  if (antwoord === null || antwoord === undefined) return [];
+  return [String(antwoord)];
+}
+
+/** Het antwoord van een invulvraag zoals we het aan het kind tonen. */
+export function schrijfInvul(antwoord: unknown): string {
+  return invulAntwoorden(antwoord)[0] ?? "—";
+}
+
 /** Twee lijstjes keuzes zijn gelijk als ze precies dezelfde nummers bevatten. */
 export function zelfdeKeuzes(a: number[], b: number[]): boolean {
   if (a.length !== b.length) return false;

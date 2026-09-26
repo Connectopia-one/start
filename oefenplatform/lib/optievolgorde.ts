@@ -42,7 +42,7 @@ export type SchikbareVraag = {
   id: string;
   type: string;
   opties: string[] | null;
-  antwoord: number | string | boolean | number[];
+  antwoord: number | string | boolean | number[] | string[];
 };
 
 /**
@@ -62,8 +62,11 @@ export function schikOpties<T extends SchikbareVraag>(
   // Een vraag met meerdere juiste antwoorden bewaart een lijstje nummers in
   // plaats van één nummer (zie lib/antwoord.ts). Die moeten alle mee verschoven
   // worden, anders wijst het antwoord na het schudden de verkeerde opties aan.
-  const juist = Array.isArray(vraag.antwoord)
-    ? vraag.antwoord
+  // Enkel meerkeuze wordt geschud, en daar is het antwoord altijd een nummer
+  // of een lijstje nummers. Een lijstje tekst hoort bij een invulvraag met
+  // meer dan één juist antwoord (zie lib/antwoord.ts) en blijft hier buiten.
+  const juist: number[] = Array.isArray(vraag.antwoord)
+    ? vraag.antwoord.filter((i): i is number => typeof i === "number")
     : typeof vraag.antwoord === "number"
       ? [vraag.antwoord]
       : [];

@@ -35,6 +35,12 @@ const VOORBEELD_JSON = `[
     "antwoord": "Parijs"
   },
   {
+    "type": "invultekst",
+    "vraag": "Hoe noem je dieren die alleen planten eten?",
+    "antwoord": ["planteneters", "herbivoren"],
+    "uitleg": "Allebei juist. Het eerste woord tonen we als het antwoord."
+  },
+  {
     "type": "meerkeuze",
     "vraag": "Welke van deze steden liggen in Italie?",
     "opties": ["Rome", "Madrid", "Milaan", "Lyon"],

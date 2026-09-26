@@ -103,7 +103,7 @@ DEEL1 = [
     dict(
         type="invultekst",
         vraag="De eicellen van een vrouw rijpen in de ___.",
-        antwoord="eierstokken",
+        antwoord=["eierstokken", "eierstok"],
         uitleg="In de twee eierstokken rijpt er telkens één eicel per cyclus. Bij de eisprong komt die vrij en wordt ze door de eitrechter opgevangen.",
     ),
     dict(
@@ -115,9 +115,9 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Sperma is het vocht waarin zaadcellen zitten.",
-        antwoord=True,
-        uitleg="Sperma is een mengsel van zaadcellen en vocht van de prostaat en de zaadblaasjes. Dat vocht voedt en beschermt de zaadcellen.",
+        vraag="Sperma bestaat alleen uit zaadcellen, zonder vocht.",
+        antwoord=False,
+        uitleg="Niet juist. Sperma is een mengsel van zaadcellen met vocht van de prostaat en de zaadblaasjes. Dat vocht voedt en beschermt de zaadcellen.",
     ),
     dict(
         type="meerkeuze",
@@ -164,7 +164,7 @@ DEEL1 = [
     dict(
         type="invultekst",
         vraag="Een tulp plant zich ongeslachtelijk voort met een ___ onder de grond.",
-        antwoord="bol",
+        antwoord=["bol", "bloembol"],
         uitleg="Een bol is een ondergrondse voorraadkast waaruit elk jaar een nieuwe plant groeit. Aardappelen doen hetzelfde met knollen.",
     ),
 ]
@@ -225,7 +225,7 @@ DEEL2 = [
     dict(
         type="invultekst",
         vraag="Het afstoten van het baarmoederslijmvlies heet de ___.",
-        antwoord="menstruatie",
+        antwoord=["menstruatie", "maandstonden", "regels"],
         uitleg="De menstruatie duurt meestal drie tot zeven dagen en is meteen het begin van een nieuwe cyclus.",
     ),
     dict(
@@ -237,9 +237,9 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="De vruchtbare periode is de periode rond de eisprong.",
-        antwoord=True,
-        uitleg="Zaadcellen kunnen enkele dagen overleven en de eicel ongeveer één dag. De vruchtbare periode loopt dus van een paar dagen vóór tot een dag na de eisprong.",
+        vraag="De vruchtbare periode valt tijdens de menstruatie.",
+        antwoord=False,
+        uitleg="Niet juist. De vruchtbare periode ligt rond de eisprong: van enkele dagen ervoor tot ongeveer een dag erna. Zaadcellen overleven enkele dagen, de eicel ongeveer één dag.",
     ),
     dict(
         type="meerkeuze",
@@ -313,9 +313,9 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Een plant die door stekken ontstaat, is erfelijk identiek aan de moederplant.",
-        antwoord=True,
-        uitleg="Bij aseksuele voortplanting is er geen versmelting van geslachtscellen, dus het erfelijk materiaal wordt gewoon gekopieerd. Zo houdt een kweker een ras zuiver.",
+        vraag="Een plant die door stekken ontstaat, verschilt erfelijk van de moederplant.",
+        antwoord=False,
+        uitleg="Niet juist. Bij stekken versmelten er geen geslachtscellen: het erfelijk materiaal wordt gewoon gekopieerd. De nieuwe plant is dus identiek. Zo houdt een kweker een ras zuiver.",
     ),
     dict(
         type="meerkeuze",
@@ -331,7 +331,7 @@ DEEL2 = [
     dict(
         type="invultekst",
         vraag="De buis waarlangs een zaadcel de teelbal verlaat richting de urinebuis, is de ___.",
-        antwoord="zaadleider",
+        antwoord=["zaadleider", "zaadleiders"],
         uitleg="Vanuit de bijbal gaat de zaadleider naar de urinebuis. Onderweg voegen de zaadblaasjes en de prostaat hun vocht toe.",
     ),
     dict(

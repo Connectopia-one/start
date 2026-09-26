@@ -46,7 +46,7 @@ DEEL1 = [
     dict(
         type="invultekst",
         vraag="Verschillende organen die samen één grote taak doen, vormen samen een ___.",
-        antwoord="stelsel",
+        antwoord=["stelsel", "orgaanstelsel"],
         uitleg="Mond, slokdarm, maag en darmen vormen samen het spijsverteringsstelsel. Een stelsel heet ook een orgaanstelsel.",
     ),
     dict(
@@ -82,7 +82,7 @@ DEEL1 = [
     dict(
         type="invultekst",
         vraag="In het celonderdeel ___ gebeurt de celademhaling, waarbij de cel energie vrijmaakt.",
-        antwoord="mitochondrion",
+        antwoord=["mitochondrion", "mitochondriën", "mitochondrie"],
         uitleg="In de mitochondriën wordt glucose verbrand met zuurstof. Ze worden daarom de energiecentrales van de cel genoemd.",
     ),
     dict(
@@ -143,7 +143,7 @@ DEEL1 = [
     dict(
         type="invultekst",
         vraag="Het stelsel dat je lichaam rechtop houdt en je organen beschermt, is het ___.",
-        antwoord="beenderstelsel",
+        antwoord=["beenderstelsel", "skelet"],
         uitleg="Het beenderstelsel of skelet draagt je lichaam, beschermt je hersenen, hart en longen, en geeft de spieren een aanhechtingspunt.",
     ),
     dict(
@@ -194,11 +194,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Een spiercel heeft veel meer mitochondriën dan een huidcel. Waarom?",
-        opties=[
-            "Omdat een spier veel energie nodig heeft om samen te trekken",
-            "Omdat een spiercel groter moet worden",
-            "Omdat een spiercel zonlicht moet opvangen",
-        ],
+        opties=["Omdat een spier veel energie nodig heeft om samen te trekken", "Omdat een spiercel zonlicht moet opvangen om energie te kunnen maken", "Omdat een spiercel groter moet worden"],
         antwoord=0,
         uitleg="Mitochondriën maken energie vrij uit glucose. Een cel die veel arbeid levert, zoals een spiercel of een hartcel, heeft er daarom veel nodig.",
     ),
@@ -229,22 +225,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Een plant die te weinig water krijgt, gaat slap hangen. Welk celonderdeel verklaart dat?",
-        opties=[
-            "De vacuole, die leegloopt en dus minder druk geeft",
-            "De celkern, die krimpt",
-            "Het mitochondrion, dat stopt",
-        ],
+        opties=["De vacuole, die leegloopt en dus minder druk geeft", "De celkern, die krimpt zodra er te weinig water binnenkomt", "Het mitochondrion, dat stopt"],
         antwoord=0,
         uitleg="Een volle vacuole duwt de cel van binnenuit tegen de celwand en houdt de plant stevig. Loopt ze leeg, dan verdwijnt die druk en hangt de plant slap.",
     ),
     dict(
         type="meerkeuze",
         vraag="Waarom staat een boom rechtop en zakt hij niet in elkaar, terwijl een dier een skelet nodig heeft?",
-        opties=[
-            "Omdat elke plantencel een stevige celwand heeft",
-            "Omdat planten geen gewicht hebben",
-            "Omdat planten geen cellen hebben",
-        ],
+        opties=["Omdat elke plantencel een stevige celwand heeft", "Omdat planten veel minder wegen dan dieren van dezelfde grootte", "Omdat planten geen cellen hebben"],
         antwoord=0,
         uitleg="De celwand van cellulose maakt elke plantencel stevig. Miljoenen stevige cellen samen dragen de hele boom. Dieren lossen dat op met beenderen.",
     ),
@@ -258,7 +246,7 @@ DEEL2 = [
     dict(
         type="invultekst",
         vraag="Het weefsel dat bij een plant water en suikers vervoert, heet het ___.",
-        antwoord="transportweefsel",
+        antwoord=["transportweefsel", "vaatweefsel"],
         uitleg="Het transportweefsel loopt als buisjes door wortel, stengel en blad. Het dekweefsel is de beschermlaag aan de buitenkant.",
     ),
     dict(
@@ -293,18 +281,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Wat gebeurt er met een cel als haar celkern zou verdwijnen?",
-        opties=[
-            "Ze verliest haar erfelijke informatie en kan zich niet meer delen",
-            "Ze zou meer energie maken",
-            "Ze zou een celwand krijgen",
-        ],
+        opties=["Ze kan zich niet meer delen en verliest haar aansturing", "Ze zou een stevige celwand krijgen, net als een plantencel", "Ze zou meer energie maken"],
         antwoord=0,
         uitleg="De celkern bewaart het erfelijk materiaal en stuurt de cel aan. Zonder kern valt die aansturing weg en kan de cel zich niet meer vermenigvuldigen.",
     ),
     dict(
         type="invultekst",
         vraag="Een organisme dat uit één enkele cel bestaat, noem je ___.",
-        antwoord="eencellig",
+        antwoord=["eencellig", "eencellige"],
         uitleg="Bij een eencellig organisme doet die ene cel alles: voeding opnemen, energie maken, afval kwijtraken en zich voortplanten.",
     ),
     dict(
@@ -351,11 +335,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Waarom bekijk je een stukje ui onder een microscoop en niet met een loep?",
-        opties=[
-            "Omdat een loep te weinig vergroot om cellen te zien",
-            "Omdat een loep enkel voor planten dient",
-            "Omdat een microscoop geen licht nodig heeft",
-        ],
+        opties=["Omdat een loep te weinig vergroot om cellen te zien", "Omdat een microscoop geen licht van buitenaf nodig heeft", "Omdat een loep enkel voor planten dient"],
         antwoord=0,
         uitleg="Kies je meetinstrument naar de nauwkeurigheid die je nodig hebt. Een loep vergroot enkele keren, een lichtmicroscoop honderden keren, en pas dan zie je afzonderlijke cellen.",
     ),

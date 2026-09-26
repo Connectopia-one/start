@@ -79,7 +79,7 @@ DEEL1 = [
     dict(
         type="invultekst",
         vraag="Een tijdsduur meet je met een ___.",
-        antwoord="chronometer",
+        antwoord=["chronometer", "stopwatch", "klok"],
         uitleg="Een chronometer of een klok meet tijd, in seconden. Het symbool van tijdsduur is Δt.",
     ),
     dict(
@@ -184,22 +184,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Hoe lees je een maatcilinder correct af?",
-        opties=[
-            "Met je oog op de hoogte van de onderkant van de holle bolling",
-            "Van bovenaf, schuin naar beneden kijkend",
-            "Terwijl je de cilinder schuin houdt",
-        ],
+        opties=["Met je oog op de onderkant van de holle bolling", "Van bovenaf, schuin naar beneden kijkend", "Terwijl je de cilinder schuin houdt"],
         antwoord=0,
         uitleg="De vloeistof staat hol in het glas. Lees af aan de onderkant van die holling, met de cilinder recht en je oog op dezelfde hoogte, anders kijk je ernaast.",
     ),
     dict(
         type="meerkeuze",
         vraag="Waarom geef je bij een meting altijd de eenheid mee?",
-        opties=[
-            "Zonder eenheid betekent het getal niets en kan je metingen niet vergelijken",
-            "Omdat het netter staat",
-            "Omdat de eenheid het getal groter maakt",
-        ],
+        opties=["Zonder eenheid betekent het getal niets", "Omdat de eenheid het getal groter maakt", "Omdat het netter staat"],
         antwoord=0,
         uitleg="5 kan 5 gram of 5 kilogram zijn. Pas met de eenheid erbij is een meting ondubbelzinnig, en pas dan kan iemand anders ze gebruiken.",
     ),
@@ -218,7 +210,7 @@ DEEL2 = [
     dict(
         type="invultekst",
         vraag="Het symbool van de grootheid massadichtheid is de Griekse letter ___.",
-        antwoord="rho",
+        antwoord=["rho", "ρ"],
         uitleg="Massadichtheid schrijf je als ρ, uitgesproken als rho. De eenheid is kg/m³ of g/cm³.",
     ),
     dict(
@@ -305,7 +297,7 @@ DEEL2 = [
     dict(
         type="invultekst",
         vraag="De relatieve luchtvochtigheid druk je uit in ___.",
-        antwoord="procent",
+        antwoord=["procent", "%", "percent"],
         uitleg="De relatieve luchtvochtigheid krijgt het symbool φ en wordt in procent (%) gegeven. Je meet ze met een hygrometer.",
     ),
     dict(
@@ -329,9 +321,9 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Kelvin is de SI-eenheid van temperatuur.",
-        antwoord=True,
-        uitleg="De SI-eenheid is de kelvin (K). In de dagelijkse praktijk gebruiken we graden Celsius (°C), een niet-SI-eenheid.",
+        vraag="De graad Celsius is de SI-eenheid van temperatuur.",
+        antwoord=False,
+        uitleg="Niet juist. De SI-eenheid is de kelvin (K). In de dagelijkse praktijk gebruiken we graden Celsius (°C), maar dat is een niet-SI-eenheid.",
     ),
     dict(
         type="meerkeuze",

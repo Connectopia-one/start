@@ -1,4 +1,4 @@
-import { schrijfKeuzes } from "@/lib/antwoord";
+import { schrijfInvul, schrijfKeuzes } from "@/lib/antwoord";
 import { VraagTekst } from "@/components/Figuren";
 
 /*
@@ -18,7 +18,7 @@ export type Vraag = {
   type: "meerkeuze" | "invultekst" | "waarofniet";
   vraag: string;
   opties: string[] | null;
-  antwoord: number | string | boolean;
+  antwoord: number | string | boolean | number[] | string[];
   uitleg: string | null;
 };
 
@@ -31,12 +31,14 @@ export type Poging = {
 
 export function schrijfAntwoord(
   vraag: Vraag,
-  waarde: number | string | boolean | number[] | null,
+  waarde: number | string | boolean | number[] | string[] | null,
 ): string {
   if (waarde === null || waarde === undefined || waarde === "") return "—";
   if (vraag.type === "meerkeuze") return schrijfKeuzes(vraag.opties, waarde);
   if (vraag.type === "waarofniet")
     return waarde === true ? "Waar" : "Niet waar";
+  // Een invulvraag kan meer dan één juist antwoord hebben; we tonen het eerste.
+  if (Array.isArray(waarde)) return schrijfInvul(waarde);
   return String(waarde);
 }
 

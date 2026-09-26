@@ -72,15 +72,73 @@ def controleer(titel: str, nummer: int, vraag: dict):
         if not isinstance(vraag["antwoord"], bool):
             raise SystemExit(f"{plek} is waar of niet waar en heeft geen boolean")
     elif soort == "invultekst":
+        # Een invulvraag mag meer dan één juist antwoord hebben: dan staat er
+        # een lijstje tekst in plaats van één tekst (zie lib/antwoord.ts). Het
+        # eerste is wat het kind te zien krijgt.
         antwoord = vraag["antwoord"]
-        if not isinstance(antwoord, str) or not antwoord.strip():
+        antwoorden = antwoord if isinstance(antwoord, list) else [antwoord]
+        if not antwoorden:
             raise SystemExit(f"{plek} heeft geen ingevuld antwoord")
-        if len(antwoord.split()) > 3:
-            raise SystemExit(f"{plek} heeft een te lang invulantwoord: {antwoord!r}")
+        for a in antwoorden:
+            if not isinstance(a, str) or not a.strip():
+                raise SystemExit(f"{plek} heeft geen ingevuld antwoord")
+            if len(a.split()) > 3:
+                raise SystemExit(f"{plek} heeft een te lang invulantwoord: {a!r}")
     else:
         raise SystemExit(f"{plek} heeft een onbekend type: {soort}")
     if not vraag.get("uitleg"):
         raise SystemExit(f"{plek} heeft geen uitleg")
+
+
+def gokpatronen(titel: str, vragen: list) -> list:
+    """Kan je scoren zonder de leerstof te kennen?
+
+    Twee patronen sluipen er bij het schrijven vanzelf in. Het juiste antwoord
+    krijgt uitleg en wordt daardoor de langste optie, en bij waar of niet waar
+    komt het antwoord vaker op waar uit. Allebei maken ze een hoofdstuk
+    raadbaar. Een verschil van een paar letters ziet een kind niet, dus een
+    vraag telt pas mee als het juiste antwoord er minstens zes langer is dan
+    elke foute optie.
+    """
+    meldingen = []
+    mk = [v for v in vragen if v["type"] == "meerkeuze"]
+    langst = 0
+    for v in mk:
+        antw = v["antwoord"] if isinstance(v["antwoord"], list) else [v["antwoord"]]
+        lengtes = [len(o) for o in v["opties"]]
+        anders = [lengtes[i] for i in range(len(lengtes)) if i not in antw]
+        if anders and min(lengtes[i] for i in antw) > max(anders) + 5:
+            langst += 1
+    if mk and langst > 0.4 * len(mk):
+        meldingen.append(
+            f"{titel}: bij {langst} van de {len(mk)} meerkeuzevragen is het juiste "
+            f"antwoord duidelijk de langste optie. Maak de andere opties langer."
+        )
+    return meldingen
+
+
+def evenwicht_waar(hoofdstukken: list) -> list:
+    """Waar en niet waar moeten elkaar per thema in evenwicht houden.
+
+    Per hoofdstuk staan er maar twee tot vier van die vragen, en dan zegt een
+    verhouding niets. Daarom tellen we ze per thema, over deel 1 en deel 2
+    samen.
+    """
+    meldingen = []
+    per_thema = {}
+    for h in hoofdstukken:
+        thema = h["titel"].split(" — ")[0]
+        for v in h["vragen"]:
+            if v["type"] == "waarofniet":
+                per_thema.setdefault(thema, []).append(v["antwoord"])
+    for thema, antwoorden in per_thema.items():
+        waar = sum(1 for a in antwoorden if a)
+        if not (0.35 <= waar / len(antwoorden) <= 0.65):
+            meldingen.append(
+                f"{thema}: {waar} van de {len(antwoorden)} waar/niet-waar-vragen is waar. "
+                f"Dat is te scheef om niet te kunnen gokken."
+            )
+    return meldingen
 
 
 def hoofdstukken_van(modulenaam: str, thema: str, eerste: bool) -> list:
@@ -122,6 +180,12 @@ def main():
                 meerkeuze += 1
                 if isinstance(v["antwoord"], list):
                     meerdere += 1
+
+    for h in hoofdstukken:
+        for melding in gokpatronen(h["titel"], h["vragen"]):
+            raise SystemExit(melding)
+    for melding in evenwicht_waar(hoofdstukken):
+        raise SystemExit(melding)
 
     if meerkeuze:
         deel = meerdere / meerkeuze

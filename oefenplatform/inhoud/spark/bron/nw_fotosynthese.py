@@ -31,7 +31,7 @@ DEEL1 = [
     dict(
         type="invultekst",
         vraag="Het gas dat een plant bij de fotosynthese afgeeft, is ___.",
-        antwoord="zuurstofgas",
+        antwoord=["zuurstofgas", "zuurstof"],
         uitleg="Planten geven zuurstofgas (O₂) af. Daardoor blijft er zuurstof in de lucht om in te ademen.",
     ),
     dict(
@@ -79,7 +79,7 @@ DEEL1 = [
     dict(
         type="invultekst",
         vraag="Met haar ___ neemt een plant water uit de bodem op.",
-        antwoord="wortels",
+        antwoord=["wortels", "wortel", "wortelharen"],
         uitleg="De wortels nemen water en opgeloste mineralen op. Via het transportweefsel in de stengel gaat dat water naar de bladeren.",
     ),
     dict(
@@ -109,11 +109,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Waarom is fotosynthese belangrijk voor mens en dier?",
-        opties=[
-            "Ze levert de zuurstof en het voedsel waar wij van leven",
-            "Ze maakt de lucht warmer",
-            "Ze zorgt voor regen",
-        ],
+        opties=["Ze levert de zuurstof en het voedsel waar wij van leven", "Ze maakt de lucht rondom de plant warmer en veel vochtiger", "Ze zorgt voor regen"],
         antwoord=0,
         uitleg="Alle voedsel begint bij planten, en de zuurstof die wij inademen komt ervan. Zonder fotosynthese is er op aarde geen leven zoals wij het kennen.",
     ),
@@ -146,11 +142,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Wat doet een plant met de glucose die ze maakt?",
-        opties=[
-            "Ze gebruikt die als brandstof en als bouwstof, en slaat de rest op",
-            "Ze geeft die helemaal aan de bodem af",
-            "Ze ademt die uit",
-        ],
+        opties=["Ze gebruikt die als brandstof en bouwstof en slaat de rest op", "Ze geeft die via haar wortels aan de bodem en aan de buurplanten", "Ze ademt die uit"],
         antwoord=0,
         uitleg="Een deel van de glucose verbrandt de plant zelf voor energie, een deel bouwt ze om tot cellulose voor haar celwanden, en de rest bewaart ze als zetmeel.",
     ),
@@ -184,11 +176,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke weg legt de glucose af die in het blad gemaakt wordt?",
-        opties=[
-            "Van het blad naar de rest van de plant, ook naar de wortels",
-            "Van het blad rechtstreeks de lucht in",
-            "Van de wortels naar het blad",
-        ],
+        opties=["Van het blad naar de rest van de plant, ook de wortels", "Van het blad rechtstreeks de lucht in via de huidmondjes", "Van de wortels naar het blad"],
         antwoord=0,
         uitleg="De suikers gaan via het transportweefsel naar alle plantendelen die zelf geen fotosynthese doen, zoals de wortels, de bloemen en de vruchten.",
     ),
@@ -212,22 +200,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Waarom staan huidmondjes vooral aan de onderkant van een blad?",
-        opties=[
-            "Zo verdampt er minder water dan in de volle zon aan de bovenkant",
-            "Zo vangen ze meer licht",
-            "Zo kunnen insecten er beter bij",
-        ],
+        opties=["Zo verdampt er minder water dan in de volle zon bovenaan", "Zo vangen ze meer licht op dan aan de bovenkant van het blad", "Zo kunnen insecten er beter bij"],
         antwoord=0,
         uitleg="De onderkant is koeler en schaduwrijker. De plant kan er gassen uitwisselen zonder te veel water te verliezen: een aanpassing aan haar omgeving.",
     ),
     dict(
         type="meerkeuze",
         vraag="Waarom worden de bladeren van een plant in een donkere kast na een tijd geel?",
-        opties=[
-            "Zonder licht maakt de plant geen suikers meer en breekt het bladgroen af",
-            "Zonder licht krijgt de plant te veel water",
-            "Zonder licht worden de wortels te warm",
-        ],
+        opties=["Zonder licht maakt de plant geen suikers en breekt bladgroen af", "Zonder licht krijgt de plant te veel water binnen via haar wortels", "Zonder licht worden de wortels te warm"],
         antwoord=0,
         uitleg="Bladgroen heeft licht nodig om zin te hebben. Zonder licht stopt de fotosynthese, teert de plant in op haar reserves en verdwijnt de groene kleur.",
     ),
@@ -246,7 +226,7 @@ DEEL2 = [
     dict(
         type="invultekst",
         vraag="Organismen die hun eigen energierijke stoffen maken, noem je ___.",
-        antwoord="autotroof",
+        antwoord=["autotroof", "autotrofe", "autotrofen"],
         uitleg="Planten, algen en sommige bacteriën zijn autotroof. In een voedselketen zijn zij daarom de producenten waar alles mee begint.",
     ),
     dict(
@@ -291,11 +271,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Waarom is fotosynthese belangrijk voor de plant zelf?",
-        opties=[
-            "Ze levert de energierijke stoffen om te groeien en te leven",
-            "Ze houdt de plant koel",
-            "Ze zorgt dat de plant bloemen krijgt zonder energie",
-        ],
+        opties=["Ze levert de energierijke stoffen om te groeien en te leven", "Ze zorgt dat de plant bloemen krijgt zonder energie te gebruiken", "Ze houdt de plant koel"],
         antwoord=0,
         uitleg="De plant heeft glucose nodig als brandstof voor haar celademhaling en als bouwstof voor nieuwe cellen. Zonder fotosynthese heeft ze geen van beide.",
     ),

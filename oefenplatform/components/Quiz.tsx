@@ -4,7 +4,15 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { registreerAntwoord, registreerSticker } from "@/app/voortgang-actions";
 import { KleurVraag, SleepVraag, VraagTekst, leesVraag } from "@/components/Figuren";
-import { gegevenKeuzes, juisteKeuzes, schrijfKeuzes, zelfdeKeuzes } from "@/lib/antwoord";
+import {
+  gegevenKeuzes,
+  heeftMeerdereAntwoorden,
+  invulAntwoorden,
+  juisteKeuzes,
+  schrijfInvul,
+  schrijfKeuzes,
+  zelfdeKeuzes,
+} from "@/lib/antwoord";
 import { bewaarActiefKind, leesActiefKind } from "@/lib/actiefkind";
 
 type Kind = { id: string; naam: string };
@@ -15,7 +23,7 @@ type Vraag = {
   vraag: string;
   opties: string[] | null;
   /** Een lijstje nummers betekent: er is meer dan één juist antwoord. */
-  antwoord: number | string | boolean | number[];
+  antwoord: number | string | boolean | number[] | string[];
   uitleg: string | null;
   volgnummer: number;
   afbeeldingUrl?: string | null;
@@ -85,10 +93,14 @@ function zonderAccenten(waarde: string): string {
  */
 function accentverschil(vraag: Vraag, gegeven: Gegeven): string | null {
   if (vraag.type !== "invultekst" || typeof gegeven !== "string") return null;
-  const juist = String(vraag.antwoord);
-  if (juist === zonderAccenten(juist)) return null;
-  if (gegeven.trim().toLowerCase() === juist.toLowerCase()) return null;
-  return juist;
+  const getypt = gegeven.trim().toLowerCase();
+  const antwoorden = invulAntwoorden(vraag.antwoord);
+  if (antwoorden.some((a) => getypt === a.toLowerCase())) return null;
+  return (
+    antwoorden.find(
+      (a) => a !== zonderAccenten(a) && zonderAccenten(getypt) === zonderAccenten(a.toLowerCase()),
+    ) ?? null
+  );
 }
 
 /**
@@ -110,7 +122,9 @@ function normaliseerGetal(tekst: string): string | null {
 function isCorrect(vraag: Vraag, gegeven: Gegeven): boolean {
   if (gegeven === null) return false;
   if (vraag.type === "invultekst") {
-    return normaliseerAntwoord(String(gegeven)) === normaliseerAntwoord(String(vraag.antwoord));
+    // Staat er meer dan één antwoord in, dan telt elk ervan juist. Zie lib/antwoord.ts.
+    const getypt = normaliseerAntwoord(String(gegeven));
+    return invulAntwoorden(vraag.antwoord).some((a) => normaliseerAntwoord(a) === getypt);
   }
   // Bij meerkeuze moet het aangeduide precies overeenkomen met wat juist is.
   // Wie er één aanduidt terwijl er twee juist waren, heeft de vraag fout — net
@@ -260,6 +274,11 @@ function VraagKaart({
               <strong>{accentverschil(vraag, status.gegevenAntwoord)}</strong>.
             </p>
           )}
+          {!status.correct && vraag.type === "invultekst" && (
+            <p className="mt-1 text-ink">
+              Juist was: <strong>{schrijfInvul(vraag.antwoord)}</strong>
+            </p>
+          )}
           {!status.correct && alsVakjes && vraag.opties && (
             <p className="mt-1 text-ink">
               {juisteKeuzes(vraag.antwoord).length > 1
@@ -311,7 +330,7 @@ export function Quiz({
   // krijgen álle meerkeuzevragen vakjes. Zou enkel die ene vraag vakjes hebben,
   // dan verklapt het vakje het antwoord en oefent het kind net niet waar het om
   // gaat: zelf zien hoeveel antwoorden er juist zijn.
-  const alsVakjes = vragen.some((v) => Array.isArray(v.antwoord) && v.antwoord.length > 1);
+  const alsVakjes = vragen.some((v) => heeftMeerdereAntwoorden(v));
 
   const aantalGecontroleerd = Object.values(statussen).filter((s) => s.gecontroleerd).length;
   const aantalCorrect = Object.values(statussen).filter((s) => s.correct).length;

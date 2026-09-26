@@ -2,7 +2,7 @@ import "server-only";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import fontkit from "@pdf-lib/fontkit";
-import { schrijfKeuzes } from "@/lib/antwoord";
+import { schrijfInvul, schrijfKeuzes } from "@/lib/antwoord";
 import { PDFDocument, rgb, type PDFFont, type PDFPage } from "pdf-lib";
 
 /*
@@ -29,7 +29,7 @@ export type PdfVraag = {
   type: "meerkeuze" | "invultekst" | "waarofniet";
   vraag: string;
   opties: string[] | null;
-  antwoord: number | string | boolean;
+  antwoord: number | string | boolean | number[] | string[];
   uitleg: string | null;
 };
 
@@ -83,12 +83,14 @@ function leesbaar(tekst: string): string {
 
 export function schrijfAntwoord(
   vraag: PdfVraag,
-  waarde: number | string | boolean | number[] | null,
+  waarde: number | string | boolean | number[] | string[] | null,
 ): string {
   if (waarde === null || waarde === undefined || waarde === "") return "—";
   if (vraag.type === "meerkeuze") return schrijfKeuzes(vraag.opties, waarde);
   if (vraag.type === "waarofniet")
     return waarde === true ? "Waar" : "Niet waar";
+  // Een invulvraag kan meer dan één juist antwoord hebben; we tonen het eerste.
+  if (Array.isArray(waarde)) return schrijfInvul(waarde);
   return String(waarde);
 }
 

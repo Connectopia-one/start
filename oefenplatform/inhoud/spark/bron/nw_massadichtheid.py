@@ -230,11 +230,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Je meet van drie stukken van dezelfde stof: 10 cm³ weegt 27 g, 20 cm³ weegt 54 g, 30 cm³ weegt 81 g. Wat besluit je?",
-        opties=[
-            "De massa is recht evenredig met het volume, en ρ = 2,7 g/cm³",
-            "De massa is omgekeerd evenredig met het volume",
-            "Er is geen verband",
-        ],
+        opties=["De massa is recht evenredig met het volume, en ρ = 2,7 g/cm³", "De massa is omgekeerd evenredig met het volume, en ρ = 2,7", "Er is geen verband"],
         antwoord=0,
         uitleg="Telkens als het volume verdubbelt, verdubbelt de massa: recht evenredig. De verhouding m/V is overal 2,7, en dat is de massadichtheid.",
     ),
@@ -262,29 +258,21 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Als je bij dezelfde stof het volume verdubbelt, verdubbelt ook de massa.",
-        antwoord=True,
-        uitleg="De massadichtheid is een stofconstante. Blijft ρ gelijk en wordt V twee keer zo groot, dan wordt m = ρ × V ook twee keer zo groot.",
+        vraag="Als je bij dezelfde stof het volume verdubbelt, blijft de massa gelijk.",
+        antwoord=False,
+        uitleg="Niet juist. De massadichtheid is een stofconstante. Blijft ρ gelijk en wordt V twee keer zo groot, dan wordt m = ρ × V ook twee keer zo groot.",
     ),
     dict(
         type="meerkeuze",
         vraag="Bij een vaste massa: wat gebeurt er met de massadichtheid als het volume groter wordt?",
-        opties=[
-            "Ze wordt kleiner, want massa en volume zijn omgekeerd evenredig in de formule",
-            "Ze wordt groter",
-            "Ze blijft gelijk",
-        ],
+        opties=["Ze wordt kleiner: dezelfde massa in meer volume", "Ze wordt groter, want het volume staat in de teller", "Ze blijft gelijk, want het is een stofeigenschap"],
         antwoord=0,
         uitleg="ρ = m / V. Blijft m gelijk en wordt V groter, dan wordt de uitkomst kleiner. Zo drijft een schip van staal: door zijn grote volume is de gemiddelde massadichtheid klein.",
     ),
     dict(
         type="meerkeuze",
         vraag="Waarom drijft een ijsblokje op water?",
-        opties=[
-            "IJs heeft een kleinere massadichtheid dan water",
-            "IJs is kouder",
-            "IJs heeft geen massa",
-        ],
+        opties=["IJs is minder dicht dan water", "IJs is kouder dan het water eromheen", "IJs heeft bijna geen massa meer"],
         antwoord=0,
         uitleg="Bij het bevriezen zet water uit: hetzelfde aantal deeltjes neemt meer plaats in. IJs weegt ongeveer 0,92 g/cm³, minder dan de 1 g/cm³ van water.",
     ),
@@ -309,11 +297,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Waarom drijft een vetlaag bovenop de soep?",
-        opties=[
-            "Vet heeft een kleinere massadichtheid dan water",
-            "Vet is warmer",
-            "Vet lost op in water",
-        ],
+        opties=["Vet is minder dicht dan water", "Vet is warmer dan de soep eromheen", "Vet lost niet op in water"],
         antwoord=0,
         uitleg="Vet en olie zijn ongeveer 0,9 g/cm³, minder dan water. Ze mengen niet met water en blijven daarom als laag bovenop liggen.",
     ),
@@ -337,11 +321,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Je hebt twee even grote blokjes van dezelfde stof en je legt ze samen op de weegschaal. Wat verandert er?",
-        opties=[
-            "De massa en het volume verdubbelen, de massadichtheid blijft gelijk",
-            "De massadichtheid verdubbelt",
-            "De massadichtheid wordt de helft",
-        ],
+        opties=["Massa en volume verdubbelen, de massadichtheid niet", "De massadichtheid wordt twee keer zo groot", "De massadichtheid wordt de helft"],
         antwoord=0,
         uitleg="Massa en volume worden allebei twee keer zo groot, dus hun verhouding verandert niet. Massadichtheid hangt alleen van de stof af.",
     ),

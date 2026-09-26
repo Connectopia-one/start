@@ -155,9 +155,9 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="De SI-eenheid van snelheid is m/s.",
-        antwoord=True,
-        uitleg="Meter per seconde is de SI-eenheid. Kilometer per uur mag ook, maar dat is een niet-SI-eenheid.",
+        vraag="De SI-eenheid van snelheid is km/h.",
+        antwoord=False,
+        uitleg="Niet juist. De SI-eenheid is meter per seconde (m/s). Kilometer per uur mag je gebruiken, maar dat is een niet-SI-eenheid.",
     ),
 ]
 
@@ -192,11 +192,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="In een grafiek staat de afgelegde weg (y) tegenover de tijd (x). Wat betekent een rechte door de oorsprong?",
-        opties=[
-            "Het voorwerp beweegt met een constante snelheid",
-            "Het voorwerp staat stil",
-            "Het voorwerp versnelt",
-        ],
+        opties=["Het voorwerp beweegt met een constante snelheid", "Het voorwerp versnelt gelijkmatig in de tijd", "Het voorwerp staat stil"],
         antwoord=0,
         uitleg="Bij een constante snelheid komt er in elke seconde evenveel weg bij: recht evenredig, dus een rechte lijn. De steilheid van die rechte is de snelheid.",
     ),
@@ -232,12 +228,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Welke uitspraken over het verband tussen snelheid, verplaatsing en tijdsduur kloppen?",
-        opties=[
-            "Bij een vaste snelheid is de verplaatsing recht evenredig met de tijdsduur",
-            "Bij een vaste afstand is de snelheid omgekeerd evenredig met de tijdsduur",
-            "Bij een vaste tijdsduur is de verplaatsing recht evenredig met de snelheid",
-            "Snelheid en tijdsduur zijn altijd recht evenredig",
-        ],
+        opties=["Bij een vaste snelheid is de verplaatsing recht evenredig met de tijdsduur", "Bij een vaste afstand is de snelheid omgekeerd evenredig met de tijdsduur", "Bij een vaste tijdsduur is de verplaatsing recht evenredig met de snelheid", "Bij een vaste verplaatsing zijn snelheid en tijdsduur recht evenredig"],
         antwoord=[0, 1, 2],
         uitleg="Uit v = Δx / Δt volgen de drie eerste. De laatste klopt niet: langer onderweg zijn maakt je niet sneller.",
     ),
@@ -261,9 +252,9 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Wrijvingskracht werkt altijd tegen de beweging in.",
-        antwoord=True,
-        uitleg="Daarom vertraagt een bal die over het gras rolt. Zonder wrijving zou hij blijven rollen, maar zonder wrijving zou je ook niet kunnen stappen of remmen.",
+        vraag="Wrijvingskracht werkt altijd in dezelfde zin als de beweging mee.",
+        antwoord=False,
+        uitleg="Niet juist, net omgekeerd: wrijving werkt tegen de beweging in. Daarom vertraagt een bal die over het gras rolt. Zonder wrijving zou je ook niet kunnen stappen of remmen.",
     ),
     dict(
         type="meerkeuze",
@@ -291,7 +282,7 @@ DEEL2 = [
     dict(
         type="invultekst",
         vraag="Een voorwerp waarop de krachten elkaar opheffen en dat niet beweegt, is in ___.",
-        antwoord="rust",
+        antwoord=["rust", "evenwicht"],
         uitleg="Bij een resultante van 0 N blijft een voorwerp in rust, of het blijft met een constante snelheid verder bewegen.",
     ),
     dict(
@@ -304,11 +295,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Waarom zet je een tijdsduur van 5 minuten eerst om naar seconden voor je in m/s rekent?",
-        opties=[
-            "Omdat m/s een verplaatsing in meter en een tijd in seconde vraagt",
-            "Omdat minuten geen tijdseenheid zijn",
-            "Omdat seconden altijd nauwkeuriger zijn",
-        ],
+        opties=["Omdat m/s om meter en seconde vraagt", "Omdat minuten geen tijdseenheid zijn", "Omdat seconden nauwkeuriger zijn"],
         antwoord=0,
         uitleg="De eenheden moeten bij de formule passen: 5 min = 300 s. Vergeet je dat, dan zit je antwoord er een factor 60 naast.",
     ),

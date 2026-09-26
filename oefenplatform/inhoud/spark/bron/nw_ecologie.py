@@ -18,22 +18,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Wat is een biotoop?",
-        opties=[
-            "De plaats met haar eigen omstandigheden waar bepaalde organismen leven",
-            "Een dier dat andere dieren opeet",
-            "Een tabel om planten te herkennen",
-        ],
+        opties=["De plaats met eigen omstandigheden waar soorten leven", "Een tabel waarmee je planten en dieren kan determineren", "Een dier dat andere dieren opeet"],
         antwoord=0,
         uitleg="Een bos, een weiland, een moeras, een rivier of zelfs een woonwijk is een biotoop: een leefgebied met eigen omstandigheden waar bepaalde soorten bij passen.",
     ),
     dict(
         type="meerkeuze",
         vraag="Wat is een abiotische factor?",
-        opties=[
-            "Een invloed uit de niet-levende omgeving, zoals temperatuur of licht",
-            "Een invloed van andere organismen",
-            "Een soort voedselketen",
-        ],
+        opties=["Een invloed uit de niet-levende omgeving", "Een invloed van de andere organismen in het gebied", "Een soort voedselketen"],
         antwoord=0,
         uitleg="Abiotisch betekent 'niet-levend': licht, temperatuur, vocht, wind, zoutgehalte, bodemhardheid en voedingsstoffen in de bodem. Biotische factoren zijn de levende wezens.",
     ),
@@ -94,11 +86,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Wat doen reducenten?",
-        opties=[
-            "Ze breken dode resten af tot voedingsstoffen voor de bodem",
-            "Ze eten levende planten op",
-            "Ze jagen op consumenten",
-        ],
+        opties=["Ze breken dode resten af tot voedingsstoffen", "Ze eten levende planten op en houden de begroeiing kort", "Ze jagen op consumenten"],
         antwoord=0,
         uitleg="Bacteriën en schimmels breken dood materiaal helemaal af. Detrivoren, zoals de regenworm en de pissebed, eten dat dode materiaal eerst in stukken.",
     ),
@@ -122,11 +110,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Wat is een voedselweb?",
-        opties=[
-            "Alle voedselketens van een biotoop die aan elkaar hangen",
-            "Één lange voedselketen",
-            "Een tabel met alle soorten",
-        ],
+        opties=["Alle voedselketens van een biotoop die aan elkaar hangen", "Een tabel met alle soorten die in een biotoop kunnen leven", "Één lange voedselketen"],
         antwoord=0,
         uitleg="In het echt eet een dier meestal van verschillende soorten. Al die ketens samen vormen een web, en dat toont meteen hoe alles met alles samenhangt.",
     ),
@@ -173,9 +157,9 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Een regenworm is een detrivoor.",
-        antwoord=True,
-        uitleg="Detrivoren eten dood organisch materiaal, zoals gevallen bladeren. Ze maken het fijn, waarna de reducenten het verder afbreken.",
+        vraag="Een regenworm is een producent in de voedselketen.",
+        antwoord=False,
+        uitleg="Niet juist. Een regenworm is een detrivoor: hij eet dood organisch materiaal, zoals gevallen bladeren, en maakt het fijn. Daarna breken de reducenten het verder af. Producenten zijn de planten.",
     ),
 ]
 
@@ -183,11 +167,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="In een voedselketen gras → konijn → vos verdwijnen alle vossen. Wat gebeurt er eerst?",
-        opties=[
-            "Er komen meer konijnen, en daardoor blijft er minder gras over",
-            "Er komen minder konijnen",
-            "Er verandert niets",
-        ],
+        opties=["Er komen meer konijnen, en daardoor blijft er minder gras over", "Er komen minder konijnen omdat ze zonder vijand minder jongen krijgen", "Er verandert niets"],
         antwoord=0,
         uitleg="Zonder jager groeit de prooipopulatie tot het voedsel op raakt. Daarna sterven er konijnen van de honger: een verstoring werkt door de hele keten.",
     ),
@@ -206,22 +186,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Waarom staan er in een voedselpiramide onderaan het meeste organismen?",
-        opties=[
-            "Omdat er bij elke stap veel energie verloren gaat als warmte",
-            "Omdat planten kleiner zijn",
-            "Omdat roofdieren minder eten",
-        ],
+        opties=["Omdat er bij elke stap veel energie verloren gaat als warmte", "Omdat planten veel kleiner zijn dan de dieren die erboven staan", "Omdat roofdieren minder eten"],
         antwoord=0,
         uitleg="Van de energie die een dier opeet, gaat maar een klein deel naar groei; de rest verdwijnt als warmte en beweging. Daarom kan elke laag maar een kleine laag boven zich voeden.",
     ),
     dict(
         type="meerkeuze",
         vraag="Wat stelt een voedselkringloop voor?",
-        opties=[
-            "Dat stoffen uit dode resten via reducenten weer bij de planten komen",
-            "Dat energie eindeloos rondgaat",
-            "Dat elk dier maar één prooi heeft",
-        ],
+        opties=["Dat stoffen uit dode resten weer bij de planten komen", "Dat de energie eindeloos in de kringloop blijft rondgaan", "Dat elk dier maar één prooi heeft"],
         antwoord=0,
         uitleg="Stoffen draaien rond: planten nemen voedingsstoffen op, dieren eten, alles sterft, reducenten breken het af en de voedingsstoffen komen weer in de bodem. Energie daarentegen stroomt maar één kant op.",
     ),
@@ -241,22 +213,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Wat is een exoot?",
-        opties=[
-            "Een soort die van elders komt en hier niet van nature voorkomt",
-            "Een zeldzame inheemse plant",
-            "Een dier dat uitgestorven is",
-        ],
+        opties=["Een soort die van elders komt en hier niet thuishoort", "Een zeldzame inheemse plant die hier bijna verdwenen is", "Een dier dat uitgestorven is"],
         antwoord=0,
         uitleg="Sommige exoten, zoals de Japanse duizendknoop, verdringen inheemse soorten omdat ze hier geen natuurlijke vijanden hebben. Dan spreken we van een invasieve exoot.",
     ),
     dict(
         type="meerkeuze",
         vraag="Waarom is een weiland met tien soorten bloemen steviger dan een weiland met één soort gras?",
-        opties=[
-            "Bij ziekte of droogte blijven er soorten over die het wel volhouden",
-            "Omdat er meer zonlicht op valt",
-            "Omdat er minder insecten komen",
-        ],
+        opties=["Bij ziekte of droogte blijven er soorten over", "Omdat er meer zonlicht op tien soorten valt dan op één", "Omdat er minder insecten komen"],
         antwoord=0,
         uitleg="Dat is het belang van biodiversiteit: variatie is een verzekering. Een monocultuur kan door één ziekte of één droog jaar in zijn geheel verloren gaan.",
     ),
@@ -281,22 +245,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Waarom heeft een ijsbeer een dikke vetlaag en kleine oren?",
-        opties=[
-            "Zo verliest hij minder warmte in een koude omgeving",
-            "Zo kan hij sneller zwemmen",
-            "Zo ziet hij beter in de sneeuw",
-        ],
+        opties=["Zo verliest hij minder warmte in een koude omgeving", "Zo kan hij sneller zwemmen als hij achter een prooi aan gaat", "Zo ziet hij beter in de sneeuw"],
         antwoord=0,
         uitleg="Aanpassingen verhogen de overlevingskans in een bepaalde omgeving. Een dikke isolatielaag en kleine uitsteeksels beperken het warmteverlies in de kou.",
     ),
     dict(
         type="meerkeuze",
         vraag="Een haas heeft ogen aan de zijkant van zijn kop, een vos vooraan. Wat verklaart dat?",
-        opties=[
-            "Een prooidier moet rondom kunnen kijken, een jager moet afstand kunnen schatten",
-            "Een prooidier ziet minder scherp",
-            "Een jager heeft grotere ogen nodig",
-        ],
+        opties=["Een prooidier kijkt rondom, een jager schat afstand", "Een jager heeft grotere ogen nodig om te kunnen jagen", "Een prooidier ziet minder scherp"],
         antwoord=0,
         uitleg="De stand van de ogen is een aanpassing: opzij geeft een bijna volledig overzicht om gevaar te zien, vooraan geeft dieptezicht om een prooi te grijpen.",
     ),
@@ -314,29 +270,21 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Kieuwen zijn een aanpassing om zuurstof uit water te halen.",
-        antwoord=True,
-        uitleg="Vissen halen met hun kieuwen de opgeloste zuurstof uit het water. Landdieren doen hetzelfde met longen, uit de lucht.",
+        vraag="Kieuwen zijn een aanpassing om zuurstof uit de lucht te halen.",
+        antwoord=False,
+        uitleg="Niet juist. Vissen halen met hun kieuwen de opgeloste zuurstof uit het wáter. Landdieren halen zuurstof uit de lucht, met hun longen.",
     ),
     dict(
         type="meerkeuze",
         vraag="Waarom is een wintervacht van een haas in de sneeuw wit?",
-        opties=[
-            "Schutkleur: zo wordt hij minder gezien door jagers",
-            "Wit haar is warmer dan bruin haar",
-            "Wit haar groeit sneller",
-        ],
+        opties=["Schutkleur: zo wordt hij minder snel gezien", "Wit haar is in de sneeuw warmer dan bruin haar", "Wit haar groeit sneller"],
         antwoord=0,
         uitleg="Een schutkleur vergroot de overlevingskans, en wie langer leeft, krijgt meer nakomelingen. Zo blijven zulke kenmerken in een soort bestaan.",
     ),
     dict(
         type="meerkeuze",
         vraag="In een vijver wordt mest van een akker gespoeld. Er komen enorm veel algen. Wat gebeurt er daarna?",
-        opties=[
-            "Het water wordt troebel, waterplanten sterven en er komt zuurstoftekort",
-            "De vissen krijgen meer zuurstof",
-            "De biodiversiteit neemt toe",
-        ],
+        opties=["Het water wordt troebel en er komt zuurstoftekort", "De biodiversiteit neemt toe door de vele nieuwe algen", "De vissen krijgen meer zuurstof"],
         antwoord=0,
         uitleg="Te veel voedingsstoffen zijn ook een verstoring. Algen nemen het licht weg, en als ze afsterven, verbruiken de reducenten zo veel zuurstof dat vissen stikken.",
     ),
@@ -356,11 +304,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Je meet in een bos overdag 300 lux onder de bomen en 20 000 lux op de open plek. Wat besluit je?",
-        opties=[
-            "Onder de bomen groeien planten die met weinig licht toe kunnen",
-            "De lichtmeter is stuk",
-            "Op de open plek is het kouder",
-        ],
+        opties=["Onder de bomen groeien planten die weinig licht nodig hebben", "Op de open plek is het overdag veel kouder dan onder de bomen", "De lichtmeter is stuk"],
         antwoord=0,
         uitleg="Verlichtingssterkte meet je in lux met een lichtmeter. Het grote verschil verklaart waarom op de open plek andere soorten groeien dan in de schaduw.",
     ),

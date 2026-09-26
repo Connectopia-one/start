@@ -16,11 +16,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Wat zijn de drie aggregatietoestanden van een stof?",
-        opties=[
-            "Vast, vloeibaar en gasvormig",
-            "Hard, zacht en vloeibaar",
-            "Warm, koud en lauw",
-        ],
+        opties=["Vast, vloeibaar en gasvormig", "Hard, zacht en vloeibaar tegelijk", "Warm, koud en lauw"],
         antwoord=0,
         uitleg="Dezelfde stof kan in drie toestanden voorkomen. Water is daar het bekendste voorbeeld van: ijs, water en waterdamp.",
     ),
@@ -58,17 +54,13 @@ DEEL1 = [
     dict(
         type="invultekst",
         vraag="Een gas dat rechtstreeks een vaste stof wordt, zoals rijp op een tak: dat heet ___.",
-        antwoord="rijpen",
+        antwoord=["rijpen", "desublimeren"],
         uitleg="Rijpen of desublimeren is de overgang van gas naar vast, zonder vloeibare tussenstap. Sublimeren is het omgekeerde.",
     ),
     dict(
         type="meerkeuze",
         vraag="Wat is een fysisch verschijnsel?",
-        opties=[
-            "Er ontstaat geen nieuwe stof, alleen de vorm of de toestand verandert",
-            "Er ontstaat altijd een nieuwe stof",
-            "Er komt altijd gas bij vrij",
-        ],
+        opties=["Er ontstaat geen nieuwe stof, alleen de toestand verandert", "Er ontstaat altijd een nieuwe stof met andere eigenschappen dan ervoor", "Er komt altijd gas bij vrij"],
         antwoord=0,
         uitleg="Bij een fysisch verschijnsel blijven de deeltjes dezelfde: smelten, breken, oplossen. Bij een chemisch verschijnsel veranderen de deeltjes zelf en ontstaan er nieuwe stoffen.",
     ),
@@ -82,28 +74,20 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Welk verschijnsel wijst erop dat er een chemische reactie gebeurt?",
-        opties=[
-            "Er ontstaat een gas of een neerslag",
-            "De stof wordt warmer",
-            "De stof wordt in stukken gebroken",
-        ],
+        opties=["Er ontstaat een gas of een neerslag", "De stof wordt in kleine stukken gebroken", "De stof verandert van vorm"],
         antwoord=0,
-        uitleg="Kleurverandering, geurverandering, smaakverandering, neerslagvorming en gasontwikkeling zijn aanwijzingen voor een chemische omzetting.",
+        uitleg="Kleurverandering, geurverandering, smaakverandering, neerslagvorming, gasontwikkeling en het vrijkomen van warmte of licht zijn aanwijzingen voor een chemische omzetting. Breken en van vorm veranderen zijn fysisch.",
     ),
     dict(
         type="waarofniet",
-        vraag="Water dat kookt, is een chemisch verschijnsel.",
-        antwoord=False,
-        uitleg="Koken is verdampen, dus fysisch: uit watermoleculen komen weer watermoleculen, alleen in gasvorm. Er ontstaat geen nieuwe stof.",
+        vraag="Water dat kookt, is een fysisch verschijnsel.",
+        antwoord=True,
+        uitleg="Klopt. Koken is verdampen: uit watermoleculen komen weer watermoleculen, alleen in gasvorm. Er ontstaat geen nieuwe stof.",
     ),
     dict(
         type="meerkeuze",
         vraag="Wat is een zuivere stof?",
-        opties=[
-            "Een stof die maar uit één soort deeltje bestaat",
-            "Een stof zonder kleur",
-            "Een stof die je kan drinken",
-        ],
+        opties=["Een stof die maar uit één soort deeltje bestaat", "Een stof die je zonder gevaar kan drinken of opeten", "Een stof zonder kleur"],
         antwoord=0,
         uitleg="In een zuivere stof zit maar één soort deeltjes, zoals in zuiver water of in koper. In een mengsel zitten er verschillende soorten door elkaar.",
     ),
@@ -123,11 +107,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Waaruit bestaat een chemische verbinding?",
-        opties=[
-            "Uit atomen van een of meer atoomsoorten die aan elkaar gebonden zijn",
-            "Uit losse deeltjes die niets met elkaar te maken hebben",
-            "Uit één enkel atoom",
-        ],
+        opties=["Uit atomen die aan elkaar gebonden zijn", "Uit losse deeltjes die niets met elkaar te maken hebben", "Uit één enkel atoom"],
         antwoord=0,
         uitleg="Een verbinding of molecule is een groepje atomen dat met bindingen samenhangt. Water (H₂O) bestaat uit twee waterstofatomen en één zuurstofatoom.",
     ),
@@ -140,22 +120,14 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Waarom kan je een gas samenpersen en een vaste stof niet?",
-        opties=[
-            "Omdat er tussen de deeltjes van een gas veel lege ruimte zit",
-            "Omdat gasdeeltjes kleiner zijn",
-            "Omdat een gas lichter is",
-        ],
+        opties=["Omdat er tussen de deeltjes van een gas veel lege ruimte zit", "Omdat gasdeeltjes veel kleiner zijn dan de deeltjes van een vaste stof", "Omdat een gas lichter is"],
         antwoord=0,
         uitleg="In een gas liggen de deeltjes ver uit elkaar, dus je kan ze dichter bij elkaar duwen. In een vaste stof raken ze elkaar al bijna: daar is geen ruimte meer.",
     ),
     dict(
         type="meerkeuze",
         vraag="Wat is een stofeigenschap?",
-        opties=[
-            "Een kenmerk dat typisch is voor een stof, zoals haar smelttemperatuur",
-            "De vorm van het voorwerp",
-            "Het gewicht van het voorwerp",
-        ],
+        opties=["Een kenmerk dat typisch is voor een stof", "Het gewicht van het voorwerp dat je in handen hebt", "De vorm van het voorwerp"],
         antwoord=0,
         uitleg="Smelt- en kooktemperatuur, kleur, geleidbaarheid en massadichtheid zijn stofeigenschappen: ze hangen niet af van hoe groot je stuk is.",
     ),
@@ -168,11 +140,7 @@ DEEL1 = [
     dict(
         type="meerkeuze",
         vraag="Waarom heeft een vloeistof geen vaste vorm, maar wel een vast volume?",
-        opties=[
-            "De deeltjes schuiven langs elkaar, maar blijven tegen elkaar aan",
-            "De deeltjes liggen ver uit elkaar",
-            "De deeltjes staan helemaal stil",
-        ],
+        opties=["De deeltjes schuiven langs elkaar en blijven tegen elkaar", "De deeltjes liggen ver uit elkaar en botsen tegen de wand", "De deeltjes staan helemaal stil"],
         antwoord=0,
         uitleg="Ze raken elkaar nog, dus de hoeveelheid ruimte blijft gelijk, maar ze zitten niet vast, dus de vloeistof neemt de vorm van het vat aan.",
     ),
@@ -189,22 +157,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Waarom zet een metalen staaf uit als je hem opwarmt?",
-        opties=[
-            "De deeltjes trillen heviger en nemen daardoor meer plaats in",
-            "Er komen deeltjes bij",
-            "De deeltjes worden zelf groter",
-        ],
+        opties=["De deeltjes trillen heviger en nemen meer plaats in", "De deeltjes worden zelf een beetje groter door de warmte", "Er komen deeltjes bij"],
         antwoord=0,
         uitleg="Thermisch uitzetten verklaar je met het deeltjesmodel: meer warmte betekent meer beweging, dus meer ruimte tussen de deeltjes. Het aantal deeltjes en hun grootte blijven gelijk.",
     ),
     dict(
         type="meerkeuze",
         vraag="Waarom laten ze bij spoorstaven en bruggen een kleine opening?",
-        opties=[
-            "Zodat het metaal bij warm weer kan uitzetten zonder kromtrekken",
-            "Zodat het regenwater weg kan",
-            "Zodat het metaal lichter is",
-        ],
+        opties=["Zodat het metaal bij warm weer kan uitzetten", "Zodat het regenwater tussen de staven weg kan lopen", "Zodat het metaal lichter is"],
         antwoord=0,
         uitleg="Zonder ruimte duwt het uitzettende metaal tegen zichzelf en vervormt het. Bij koud weer krimpt het weer en wordt de opening groter.",
     ),
@@ -217,22 +177,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Wat gebeurt er met de deeltjes bij het verdampen van water?",
-        opties=[
-            "Ze bewegen zo snel dat ze zich losmaken van de vloeistof",
-            "Ze veranderen in zuurstof en waterstof",
-            "Ze vallen uiteen in atomen",
-        ],
+        opties=["Ze bewegen zo snel dat ze de vloeistof verlaten", "Ze veranderen in zuurstofgas en waterstofgas samen", "Ze vallen uiteen in atomen"],
         antwoord=0,
         uitleg="Verdampen is fysisch. De snelste moleculen ontsnappen uit de vloeistof; het blijven watermoleculen, alleen ver uit elkaar in de lucht.",
     ),
     dict(
         type="meerkeuze",
         vraag="Waarom beslaat de binnenkant van een raam in de winter?",
-        opties=[
-            "Waterdamp uit de kamerlucht condenseert tegen het koude glas",
-            "Er sijpelt water door het glas",
-            "Het glas verdampt",
-        ],
+        opties=["Waterdamp uit de kamer condenseert tegen het koude glas", "Er sijpelt water van buiten door het glas naar binnen toe", "Het glas verdampt"],
         antwoord=0,
         uitleg="Koud glas koelt de lucht ernaast af. Koude lucht kan minder waterdamp bevatten, dus die damp wordt weer vloeibaar: condenseren.",
     ),
@@ -251,11 +203,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Een stukje ijzerwol wordt na een week in vochtige lucht bruin en zwaarder. Wat is er gebeurd?",
-        opties=[
-            "Een chemische reactie: het ijzer verbond zich met zuurstof tot roest",
-            "Een fysisch verschijnsel: het ijzer werd nat",
-            "Het ijzer is gesmolten",
-        ],
+        opties=["Een chemische reactie: het ijzer verbond zich met zuurstof", "Een fysisch verschijnsel: het ijzer werd nat en dus zwaarder", "Het ijzer is gesmolten"],
         antwoord=0,
         uitleg="Kleurverandering én meer massa wijzen op een nieuwe stof: er zijn zuurstofatomen bij gekomen. Roest is dus geen ijzer meer.",
     ),
@@ -297,11 +245,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Je verwarmt een afgesloten fles met lucht. Wat gebeurt er met de deeltjes?",
-        opties=[
-            "Ze bewegen sneller en botsen harder tegen de wand, dus de druk stijgt",
-            "Er komen deeltjes bij",
-            "Ze gaan stilstaan",
-        ],
+        opties=["Ze bewegen sneller en botsen harder, dus de druk stijgt", "Er komen deeltjes bij, want warmte maakt nieuwe deeltjes", "Ze gaan stilstaan"],
         antwoord=0,
         uitleg="Het volume kan niet groter worden, dus vertaalt de extra bewegingsenergie zich in meer druk. Daarom mag je een spuitbus nooit in het vuur gooien.",
     ),
@@ -320,11 +264,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Water is H₂O. Wat betekent dat?",
-        opties=[
-            "Eén molecule bestaat uit twee waterstofatomen en één zuurstofatoom",
-            "Water is een mengsel van waterstof en zuurstof",
-            "Water bevat twee soorten moleculen",
-        ],
+        opties=["Eén molecule heeft twee waterstof- en één zuurstofatoom", "Water is een mengsel van waterstofgas en zuurstofgas samen", "Water bevat twee soorten moleculen"],
         antwoord=0,
         uitleg="De formule geeft de bouw van één deeltje. Water is een zuivere stof, geen mengsel: alle deeltjes zijn identiek.",
     ),
@@ -337,11 +277,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Waarom ruikt je hele keuken naar soep terwijl de pot in de hoek staat?",
-        opties=[
-            "Gasdeeltjes bewegen snel en verspreiden zich door de hele ruimte",
-            "De geur loopt over de vloer",
-            "De soep straalt licht uit",
-        ],
+        opties=["Gasdeeltjes bewegen snel en verspreiden zich overal", "De geur loopt over de vloer tot bij jou in de kamer", "De soep straalt licht uit"],
         antwoord=0,
         uitleg="Gasdeeltjes vliegen alle kanten op en mengen zich vanzelf met de lucht. Hoe warmer, hoe sneller ze bewegen en hoe sneller je de geur ruikt.",
     ),
@@ -355,28 +291,20 @@ DEEL2 = [
     dict(
         type="invultekst",
         vraag="De overgang van vloeibaar naar vast heet ___.",
-        antwoord="stollen",
+        antwoord=["stollen", "bevriezen"],
         uitleg="Stollen is het omgekeerde van smelten. Voor eenzelfde zuivere stof gebeuren ze bij dezelfde temperatuur, bijvoorbeeld 0 °C voor water.",
     ),
     dict(
         type="meerkeuze",
         vraag="Een kaars brandt. Welke twee verschijnselen zie je tegelijk?",
-        opties=[
-            "Smelten van de was is fysisch, het branden is chemisch",
-            "Allebei fysisch",
-            "Allebei chemisch",
-        ],
+        opties=["Smelten van de was is fysisch, het branden is chemisch", "Allebei chemisch, want er ontstaan telkens nieuwe stoffen", "Allebei fysisch"],
         antwoord=0,
         uitleg="De was smelt en verdampt eerst (fysisch) en die damp verbrandt daarna met zuurstof tot koolstofdioxide en water (chemisch).",
     ),
     dict(
         type="meerkeuze",
         vraag="Hoe verklaar je met het deeltjesmodel dat een gas geen vaste vorm én geen vast volume heeft?",
-        opties=[
-            "De deeltjes bewegen vrij en ver uit elkaar, dus ze vullen elke ruimte op",
-            "De deeltjes trekken elkaar sterk aan",
-            "De deeltjes liggen op een vaste plaats",
-        ],
+        opties=["De deeltjes bewegen vrij en vullen elke ruimte op", "De deeltjes trekken elkaar sterk aan en blijven samen", "De deeltjes liggen op een vaste plaats"],
         antwoord=0,
         uitleg="In een gas is de aantrekking tussen de deeltjes te zwak om ze bij elkaar te houden. Ze verspreiden zich tot ze tegen de wand van het vat botsen.",
     ),

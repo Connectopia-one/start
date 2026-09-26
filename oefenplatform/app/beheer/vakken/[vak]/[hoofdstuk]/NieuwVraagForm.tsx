@@ -95,7 +95,7 @@ export function NieuwVraagForm({
         <input
           name="antwoord"
           required
-          placeholder='Meerkeuze: nummer (0, 1, 2...), of meerdere met een komma: 0,2 · Waar/niet: "waar" of "niet waar" · Invultekst: het juiste woord'
+          placeholder='Meerkeuze: nummer (0, 1, 2...), of meerdere met een komma: 0,2 · Waar/niet: "waar" of "niet waar" · Invultekst: het juiste woord, of meerdere met een streep ertussen: planteneters | herbivoren'
           className="w-full rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest"
         />
       </div>

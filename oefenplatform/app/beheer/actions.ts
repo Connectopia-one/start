@@ -233,7 +233,7 @@ type BulkVraag = {
    * er meer dan één juist is (zie lib/antwoord.ts). Bij waarofniet true of
    * false, bij invultekst de tekst.
    */
-  antwoord: number | string | boolean | number[];
+  antwoord: number | string | boolean | number[] | string[];
   uitleg?: string | null;
 };
 

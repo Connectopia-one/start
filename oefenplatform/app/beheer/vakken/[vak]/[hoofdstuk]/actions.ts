@@ -11,7 +11,7 @@ type NieuweVraag = {
   type: "meerkeuze" | "invultekst" | "waarofniet";
   vraag: string;
   opties?: string[] | null;
-  antwoord: number | string | boolean | number[];
+  antwoord: number | string | boolean | number[] | string[];
   uitleg?: string | null;
   /** Optioneel: een volledige externe URL naar een afbeelding (bv. na bulk-import). */
   afbeelding_url?: string | null;
@@ -44,7 +44,7 @@ export async function maakVraag(formData: FormData) {
   }
 
   const opties = type === "meerkeuze" ? optiesRaw.split("\n").map((r) => r.trim()).filter(Boolean) : null;
-  let antwoord: number | string | boolean | number[];
+  let antwoord: number | string | boolean | number[] | string[];
   // Bij meerkeuze mag je meer dan één nummer invullen, gescheiden door een
   // komma: "0, 2" betekent dat het eerste én het derde antwoord juist zijn en
   // dat een kind ze allebei moet aanduiden. Zie lib/antwoord.ts.
@@ -57,7 +57,13 @@ export async function maakVraag(formData: FormData) {
     antwoord = nummers.length === 1 ? nummers[0] : nummers.sort((a, b) => a - b);
   }
   else if (type === "waarofniet") antwoord = antwoordRaw.toLowerCase() === "waar" || antwoordRaw.toLowerCase() === "true";
-  else antwoord = antwoordRaw;
+  // Bij een invulvraag mag je meer dan één juist antwoord geven, gescheiden
+  // door een verticale streep: "planteneters | herbivoren". Het eerste is wat
+  // het kind te zien krijgt, de rest telt evengoed juist. Zie lib/antwoord.ts.
+  else if (antwoordRaw.includes("|")) {
+    const woorden = antwoordRaw.split("|").map((w) => w.trim()).filter(Boolean);
+    antwoord = woorden.length > 1 ? woorden : woorden[0] || antwoordRaw;
+  } else antwoord = antwoordRaw;
 
   const admin = createAdminClient();
 
