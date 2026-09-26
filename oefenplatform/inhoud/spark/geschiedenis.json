@@ -513,7 +513,7 @@
           "opties": [
             "Een bijl met een houten steel",
             "Een steen die zo bewerkt is dat je hem in de vuist kan vasthouden",
-            "Een wapen uit de bronstijd"
+            "Een wapen uit de bronstijd, gegoten uit een mengsel van koper en tin"
           ],
           "antwoord": 1,
           "uitleg": "De vuistbijl heeft geen steel: je houdt hem vast in je hand. Hij diende om te snijden, hakken en schrapen."
@@ -653,7 +653,7 @@
           "vraag": "Waar begon de landbouw als eerste?",
           "opties": [
             "In het gebied van de Vruchtbare Halve Maan in het nabije oosten",
-            "In Noord-Europa",
+            "In Noord-Europa, waar de bossen na de ijstijd plaats maakten voor akkers",
             "In Zuid-Amerika"
           ],
           "antwoord": 0,
@@ -703,7 +703,7 @@
           "opties": [
             "Landbouw leverde overschotten op, waardoor grotere groepen op één plaats konden leven",
             "Steden bestonden al voor de landbouw",
-            "Boeren bouwden de eerste steden om er te wonen"
+            "Boeren bouwden zelf de eerste steden om hun oogst en hun vee veilig in op te bergen"
           ],
           "antwoord": 0,
           "uitleg": "Zonder een betrouwbare voedselvoorraad kan een grote bevolking niet op één plek blijven. Steden werden daardoor pas mogelijk."
@@ -723,7 +723,7 @@
           "type": "meerkeuze",
           "vraag": "Welk gevolg had de landbouw voor het bezit?",
           "opties": [
-            "Bezit verdween, want alles werd gedeeld",
+            "Bezit verdween, want in een dorp werd voortaan alles samen gedeeld en samen bewaard",
             "Mensen konden voorraden en grond bezitten, waardoor verschillen in rijkdom ontstonden",
             "Bezit bleef precies gelijk verdeeld"
           ],
@@ -1065,7 +1065,7 @@
           "opties": [
             "Kanalen en dijken aanleggen en onderhouden kan niemand alleen",
             "Omdat er te weinig boeren waren",
-            "Omdat de rivier van iemand anders was"
+            "Omdat de rivier aan iemand anders toebehoorde en er betaald moest worden voor water"
           ],
           "antwoord": 0,
           "uitleg": "Een kanalenstelsel graven, onderhouden en het water eerlijk verdelen vraagt veel mensen en afspraken. Wie dat organiseert, krijgt macht."
@@ -1075,7 +1075,7 @@
           "vraag": "Welk verband bestaat er tussen landbouw en het ontstaan van de eerste stadstaten?",
           "opties": [
             "Overschotten voedden een bevolking die niet zelf boerde, en die ging in de stad wonen",
-            "Boeren hadden een stad nodig om hun vee te stallen",
+            "Boeren hadden een stad nodig om hun vee te stallen en om hun graan droog te kunnen bewaren",
             "De steden bestonden al vóór de landbouw"
           ],
           "antwoord": 0,
@@ -1112,7 +1112,7 @@
           "type": "meerkeuze",
           "vraag": "Wat is een standenmaatschappij?",
           "opties": [
-            "Een samenleving waarin iedereen dezelfde rechten heeft",
+            "Een samenleving waarin iedereen dezelfde rechten heeft en waarin niemand boven de ander staat",
             "Een samenleving met vaste lagen, waarin je positie meestal vastligt bij je geboorte",
             "Een samenleving zonder bestuur"
           ],
@@ -1190,7 +1190,7 @@
           "opties": [
             "Door de Steen van Rosetta, met dezelfde tekst in drie schriften",
             "Door een woordenboek uit de oudheid",
-            "Doordat het schrift nooit vergeten was"
+            "Doordat het schrift in de tempels nooit helemaal vergeten was en doorgegeven werd"
           ],
           "antwoord": 0,
           "uitleg": "Op de Steen van Rosetta staat dezelfde tekst in hiërogliefen, in demotisch en in het Grieks. Omdat men Grieks kon lezen, kreeg men greep op de rest. Champollion ontcijferde ze in 1822."
@@ -1199,7 +1199,7 @@
           "type": "meerkeuze",
           "vraag": "Wat is het Dodenboek?",
           "opties": [
-            "Een lijst van overleden farao's",
+            "Een lijst van alle overleden farao's, met de jaren waarin ze geregeerd hebben",
             "Een verzameling spreuken die de dode moest helpen in het hiernamaals",
             "Het wetboek van Egypte"
           ],
@@ -1237,7 +1237,7 @@
           "type": "meerkeuze",
           "vraag": "Hoe merk je de sociale ongelijkheid in Mesopotamië aan de bronnen?",
           "opties": [
-            "Er zijn geen bronnen over gewone mensen",
+            "Er zijn helemaal geen bronnen over gewone mensen bewaard, alleen over koningen",
             "Wetten en documenten geven verschillende groepen verschillende rechten en straffen",
             "Iedereen kreeg dezelfde straf"
           ],
@@ -1493,7 +1493,7 @@
           "vraag": "Waarom ontstonden er in Griekenland veel aparte stadstaten in plaats van één groot rijk?",
           "opties": [
             "Bergen en zee scheidden de gebieden, waardoor samen besturen moeilijk was",
-            "Omdat de Grieken een oorlog verloren hadden",
+            "Omdat de Grieken een oorlog tegen de Perzen verloren hadden en verdeeld raakten",
             "Omdat de goden het zo bevalen"
           ],
           "antwoord": 0,
@@ -1604,7 +1604,7 @@
           "opties": [
             "Griekse taal, goden en gewoonten verspreidden zich rond de Middellandse Zee",
             "De Grieken vergaten hun eigen taal",
-            "Er kwam één munt voor alle volkeren"
+            "Er kwam één munt en één taal voor alle volkeren rond de Middellandse Zee"
           ],
           "antwoord": 0,
           "uitleg": "Daardoor kwamen ook de Romeinen al vroeg met Griekse cultuur in aanraking."
@@ -1648,7 +1648,7 @@
           "opties": [
             "Zij zochten verklaringen in de natuur zelf, niet enkel bij de goden",
             "Zij vonden de computer uit",
-            "Zij schreven als eersten iets op"
+            "Zij schreven als eersten iets op, want voor hen bestond er geen schrift"
           ],
           "antwoord": 0,
           "uitleg": "Die stap, van 'de goden deden het' naar 'hoe werkt dit', is wat hun denken zo bijzonder maakt."
@@ -1686,7 +1686,7 @@
           "opties": [
             "De dichter aan wie de Ilias en de Odyssee toegeschreven worden",
             "Een Spartaanse koning",
-            "De bouwer van het Parthenon"
+            "De bouwmeester van het Parthenon op de Akropolis van Athene"
           ],
           "antwoord": 0,
           "uitleg": "De Ilias gaat over de Trojaanse oorlog, de Odyssee over de jarenlange thuisreis van Odysseus."
@@ -1696,7 +1696,7 @@
           "vraag": "Wie was Alexander de Grote?",
           "opties": [
             "Een Macedonische koning die een wereldrijk veroverde tot in India",
-            "De eerste keizer van Rome",
+            "De eerste keizer van Rome, die het hele Griekse gebied veroverde",
             "Een Atheense filosoof"
           ],
           "antwoord": 0,
@@ -1997,7 +1997,7 @@
           "vraag": "Wat is een latifundium?",
           "opties": [
             "Een groot landgoed dat met slaven bewerkt werd",
-            "Een Romeinse tempel",
+            "Een Romeinse tempel gewijd aan de huisgoden",
             "Een soort belasting"
           ],
           "antwoord": 0,
@@ -2031,7 +2031,7 @@
           "opties": [
             "Door burgeroorlogen en legers die trouw waren aan hun generaal in plaats van aan de staat",
             "Door een aardbeving",
-            "Omdat het volk om een koning vroeg"
+            "Omdat het volk om een koning vroeg en de senaat die wens zonder enig verzet inwilligde"
           ],
           "antwoord": 0,
           "uitleg": "Soldaten kregen hun land van hun generaal, niet van de staat. Daardoor volgden ze hem, ook tegen Rome in."
@@ -2052,7 +2052,7 @@
           "vraag": "Wat betekent Pax Romana?",
           "opties": [
             "Romeinse vrede: een lange periode van rust in het rijk",
-            "Romeinse wet",
+            "Romeinse wet: het wetboek dat in het hele rijk gold",
             "Romeinse weg"
           ],
           "antwoord": 0,
@@ -2150,7 +2150,7 @@
           "opties": [
             "In een West-Romeins en een Oost-Romeins Rijk",
             "In drie gelijke delen",
-            "In twintig provincies"
+            "In twintig provincies met elk een eigen bestuur"
           ],
           "antwoord": 0,
           "uitleg": "Het rijk was te groot om vanuit één punt te besturen. Het oostelijke deel bleef daarna nog duizend jaar bestaan."
@@ -2166,7 +2166,7 @@
           "vraag": "Waarom is 476 n.C. een scharnierpunt in de geschiedenis?",
           "opties": [
             "Het West-Romeinse Rijk valt, en daarmee begint volgens de indeling de middeleeuwen",
-            "Rome wordt gesticht",
+            "Rome wordt gesticht, en vanaf dat jaar telden de Romeinen hun eigen jaartelling",
             "Caesar wordt vermoord"
           ],
           "antwoord": 0,
@@ -2408,7 +2408,7 @@
           "opties": [
             "Bruikbaar = ze geeft antwoord op jouw vraag; betrouwbaar = wat erin staat klopt",
             "Het is hetzelfde",
-            "Bruikbaar = ze is oud; betrouwbaar = ze is nieuw"
+            "Bruikbaar betekent dat ze oud is, betrouwbaar dat ze pas geleden gemaakt werd"
           ],
           "antwoord": 0,
           "uitleg": "Twee aparte vragen, en je moet ze allebei stellen. Een bron kan het ene zijn zonder het andere."
@@ -2435,7 +2435,7 @@
           "vraag": "Waarom kan een bron die overduidelijk overdrijft, toch nuttig zijn?",
           "opties": [
             "Ze toont wat de maker wilde dat de mensen zouden geloven",
-            "Ze is makkelijker te lezen",
+            "Ze is makkelijker te lezen dan een bron die alles genuanceerd vertelt",
             "Ze is altijd korter"
           ],
           "antwoord": 0,
@@ -2474,7 +2474,7 @@
           "opties": [
             "Wij lezen 'barbaar' als onbeschaafd, terwijl de Grieken iets anders bedoelden",
             "Omdat Herodotos loog",
-            "Omdat het woord Perzisch is"
+            "Omdat het woord uit het Perzisch komt en dus vreemd klonk in Griekse oren"
           ],
           "antwoord": 0,
           "uitleg": "Onze eigen tijd kleurt mee hoe wij een oude tekst lezen. Daar moet je bewust tegenin denken."
@@ -2496,7 +2496,7 @@
           "opties": [
             "Dat je bronnen tegen elkaar moet afwegen in plaats van er één te geloven",
             "Dat er twee slagen waren",
-            "Dat de slag nooit plaatsvond"
+            "Dat de slag nooit plaatsgevonden heeft, want anders zou er maar één winnaar zijn"
           ],
           "antwoord": 0,
           "uitleg": "Het werd vermoedelijk onbeslist. Kort daarna sloten beide partijen het oudste vredesverdrag dat wij kennen."
@@ -2533,7 +2533,7 @@
           "vraag": "Wat bedoelt men met 'continuïteit en verandering'?",
           "opties": [
             "Kijken wat doorheen de tijd hetzelfde bleef en wat veranderde",
-            "Alles in de juiste volgorde zetten",
+            "Alles in de juiste volgorde zetten op een tijdlijn, van oud naar nieuw",
             "Enkel naar veranderingen kijken"
           ],
           "antwoord": 0,
@@ -2562,7 +2562,7 @@
           "opties": [
             "Je antwoord steunen op wat er in de bronnen staat, niet op je gevoel",
             "Altijd gelijk krijgen",
-            "Enkel primaire bronnen gebruiken"
+            "Enkel primaire bronnen gebruiken, want alleen die zijn echt bewijs"
           ],
           "antwoord": 0,
           "uitleg": "Een antwoord zonder bewijs is een mening. Met bewijs wordt het geschiedenis."
@@ -2572,7 +2572,7 @@
           "vraag": "Wat is mythevorming?",
           "opties": [
             "Een verhaal dat rond iemand of iets groeit en het beeld ervan vervormt",
-            "Een Grieks godenverhaal opschrijven",
+            "Een Grieks godenverhaal opschrijven zoals het van oudsher verteld werd",
             "Een bron vervalsen"
           ],
           "antwoord": 0,
@@ -2621,7 +2621,7 @@
           "vraag": "Hoe geeft een kunstwerk betekenis?",
           "opties": [
             "Door vorm en inhoud samen: wát er staat én hóe het getoond wordt",
-            "Enkel door het onderwerp",
+            "Enkel door het onderwerp, dus door wat er precies afgebeeld staat",
             "Enkel door de kleuren"
           ],
           "antwoord": 0,

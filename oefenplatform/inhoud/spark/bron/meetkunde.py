@@ -127,9 +127,9 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Twee evenwijdige rechten snijden elkaar nooit.",
-        antwoord=True,
-        uitleg="Juist, dat is precies wat strikt evenwijdig betekent: ze houden overal dezelfde afstand en komen elkaar nooit tegen.",
+        vraag="Twee evenwijdige rechten snijden elkaar ver genoeg verderop toch.",
+        antwoord=False,
+        uitleg="Niet juist. Evenwijdige rechten blijven overal even ver uit elkaar en snijden elkaar nooit.",
     ),
     dict(
         type="invultekst",

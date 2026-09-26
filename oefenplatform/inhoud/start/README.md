@@ -165,3 +165,23 @@ Die bouwer schrijft pas weg als alles klopt. Hij kijkt na of elk invulantwoord
 letterlijk in de tekst staat, of elk gemarkeerd woord in de woordenlijst staat,
 of het juiste antwoord niet stelselmatig de langste optie is, en of waar en
 niet-waar in evenwicht zijn.
+
+## Kan een kind scoren zonder de leerstof te kennen?
+
+```
+python3 inhoud/controleer_patronen.py            # alle vakken
+python3 inhoud/controleer_patronen.py start/engels.json
+```
+
+Twee patronen sluipen er bij het schrijven vanzelf in: het juiste antwoord
+krijgt de meeste uitleg mee en wordt daardoor de langste optie, en een juiste
+zin schrijft vlotter dan een foute, dus komen de waar-of-niet-waar-vragen
+bijna allemaal op waar uit. Wie de leerstof niet kent, klikt dan gewoon de
+langste aan en antwoordt altijd waar. Dat zie je niet door een paar vragen na
+te lezen; je moet tellen.
+
+De grenzen zijn hoogstens vier op de tien meerkeuzevragen met de langste optie
+als antwoord, en tussen 35 en 65 procent waar. De bouwscripts van de vakken
+met een bronbestand doen deze controle zelf en bouwen niet wanneer het misgaat;
+dit script dient voor de vakken die rechtstreeks als JSON bijgehouden worden,
+en om alles in één keer na te tellen.

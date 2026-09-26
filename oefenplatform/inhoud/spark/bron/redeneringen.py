@@ -99,9 +99,9 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Haakjes veranderen niets aan de uitkomst, zolang de getallen maar juist staan.",
-        antwoord=False,
-        uitleg="Nee. 2 + 3 × 4 = 14 maar (2 + 3) × 4 = 20. Haakjes horen bij de redenering en mag je niet weglaten.",
+        vraag="Haakjes kunnen de uitkomst van een berekening veranderen.",
+        antwoord=True,
+        uitleg="Juist. 2 + 3 × 4 = 14, maar (2 + 3) × 4 = 20. Haakjes horen bij de redenering en mag je niet zomaar weglaten.",
     ),
     dict(
         type="meerkeuze",
@@ -250,11 +250,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="„Als twee getallen even zijn, is hun som even.” Hoe toon je dat aan voor álle even getallen?",
-        opties=[
-            "Schrijf ze als 2a en 2b: hun som is 2(a + b), dus een veelvoud van 2",
-            "Reken het na voor 2 + 4, 6 + 8 en 10 + 12",
-            "Zeg dat het voor de hand ligt",
-        ],
+        opties=["Schrijf ze als 2a en 2b: hun som is 2(a + b), dus een veelvoud van 2", "Reken het na voor 2 + 4, 6 + 8 en 10 + 12: drie voorbeelden volstaan als bewijs", "Zeg dat het voor de hand ligt"],
         antwoord=0,
         uitleg="Met letters dek je alle gevallen in één keer. Voorbeelden illustreren wel, maar bewijzen niet.",
     ),
@@ -272,11 +268,7 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Iemand redeneert: „10 % korting en dan nog eens 10 % korting is samen 20 % korting.” Wat is er mis?",
-        opties=[
-            "De tweede korting wordt van een kleiner bedrag genomen: samen is het 19 %",
-            "Niets, het klopt",
-            "Je mag geen twee kortingen na elkaar geven",
-        ],
+        opties=["De tweede korting wordt van een kleiner bedrag genomen: samen is het 19 %", "Niets, het klopt", "Je mag geen twee kortingen na elkaar geven, want een winkel rekent altijd één korting"],
         antwoord=0,
         uitleg="Van € 100 blijft na de eerste korting € 90 over, en 10 % daarvan is € 9. Je betaalt € 81, dus de korting is 19 %. Percentages tel je niet zomaar op.",
     ),
@@ -324,22 +316,14 @@ DEEL2 = [
     dict(
         type="meerkeuze",
         vraag="Iemand schrijft: „√(9 + 16) = √9 + √16 = 3 + 4 = 7”. Klopt dat?",
-        opties=[
-            "Nee, √25 = 5. Een wortel mag je niet zo splitsen bij een som",
-            "Ja, dat is de gewone rekenregel",
-            "Ja, maar enkel bij kwadraten",
-        ],
+        opties=["Nee, √25 = 5. Een wortel mag je niet zo splitsen bij een som", "Ja, dat is de gewone rekenregel: een wortel mag je over een som verdelen", "Ja, maar enkel bij kwadraten"],
         antwoord=0,
         uitleg="Eerst het haakje: 9 + 16 = 25, en √25 = 5. Deze fout hoort bij het soort redeneerstap dat je moet kunnen betrappen.",
     ),
     dict(
         type="meerkeuze",
         vraag="Een redenering klopt in elke stap, maar de laatste zin beantwoordt een andere vraag dan er gesteld werd. Wat is je oordeel?",
-        opties=[
-            "De redenering is niet af: het antwoord past niet bij de vraag",
-            "Ze is juist, want elke stap klopt",
-            "Ze is fout vanaf de eerste stap",
-        ],
+        opties=["De redenering is niet af: het antwoord past niet bij de vraag", "Ze is juist, want elke stap klopt en dat is wat telt bij een redenering", "Ze is fout vanaf de eerste stap"],
         antwoord=0,
         uitleg="Een redenering beoordelen is meer dan de stappen nakijken. Ze moet ook uitkomen bij wat er gevraagd werd.",
     ),
