@@ -147,9 +147,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Je kennis van het Nederlands en het Engels kan je helpen om een Frans woord te raden.",
-          "antwoord": true,
-          "uitleg": "De fiche zegt het uitdrukkelijk: gebruik je moedertaal en andere vreemde talen. 'Information', 'restaurant' en 'animal' lijken op wat je al kent."
+          "vraag": "Een Frans woord dat op een Nederlands of Engels woord lijkt, betekent altijd hetzelfde.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Lijkende woorden helpen vaak, maar niet altijd. Lees de zin errond om je gok te controleren."
         },
         {
           "type": "meerkeuze",
@@ -297,9 +297,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "'Environ 30 %' betekent ongeveer 30 procent.",
-          "antwoord": true,
-          "uitleg": "Environ = ongeveer. Handig bij cijfers in een tekst: het zegt dat het getal niet exact is."
+          "vraag": "'Environ 30 %' betekent precies 30 procent.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Environ betekent ongeveer."
         },
         {
           "type": "meerkeuze",
@@ -355,9 +355,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "'Il est interdit de…' betekent dat iets verboden is.",
-          "antwoord": true,
-          "uitleg": "Interdire = verbieden. In een schoolreglement of bij een zwembad kom je dat vaak tegen."
+          "vraag": "'Il est interdit de…' betekent dat iets verplicht is.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Interdit betekent verboden."
         },
         {
           "type": "meerkeuze",
@@ -815,9 +815,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "'Y' vervangt meestal een plaats en 'en' meestal een hoeveelheid.",
-          "antwoord": true,
-          "uitleg": "J'y vais (ik ga erheen), j'en ai trois (ik heb er drie). Dat onderscheid helpt je bij het lezen én het schrijven."
+          "vraag": "'En' vervangt meestal een plaats en 'y' meestal een hoeveelheid.",
+          "antwoord": false,
+          "uitleg": "Niet juist, het is net omgekeerd: y voor een plaats, en voor een hoeveelheid."
         },
         {
           "type": "meerkeuze",
@@ -915,9 +915,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een cartoon rekent de vakfiche bij de literaire teksten.",
-          "antwoord": true,
-          "uitleg": "De fiche noemt bij literaire teksten: een lied, een gedicht, een cartoon, een strip, een kortverhaal."
+          "vraag": "Een cartoon rekent de vakfiche bij de informatieve teksten.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Een cartoon staat bij de literaire teksten."
         },
         {
           "type": "meerkeuze",
@@ -1086,9 +1086,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Tegen een klasgenoot schrijf je 'tu', tegen een onbekende volwassene 'vous'.",
-          "antwoord": true,
-          "uitleg": "Dat is het verschil tussen informeel en formeel register, en de fiche vraagt uitdrukkelijk dat je dat juist kiest."
+          "vraag": "Tegen een onbekende volwassene schrijf je in het Frans 'tu'.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Tegen een onbekende volwassene gebruik je vous. Tu hou je voor vrienden en klasgenoten."
         },
         {
           "type": "meerkeuze",
@@ -1272,16 +1272,16 @@
             "J'aime ce film parce que l'histoire est surprenante.",
             "Ce film est bien.",
             "C'est un film.",
-            "Le film dure deux heures."
+            "Ce film dure deux heures et je l'ai vu au cinéma."
           ],
           "antwoord": 0,
           "uitleg": "De fiche vraagt bij een mening een reden. 'Parce que' geeft die; de andere zinnen blijven vlak of geven alleen een feit."
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij het schrijven mag je een online woordenboek en een spellingcontrole gebruiken.",
-          "antwoord": true,
-          "uitleg": "Dat staat in de fiche. Oefen er thuis mee, want tijdens het examen is er weinig tijd om alles op te zoeken."
+          "vraag": "Bij een schrijfopdracht mag je geen woordenboek gebruiken.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Een online woordenboek en een spellingcontrole mag je gebruiken."
         },
         {
           "type": "meerkeuze",
@@ -1313,9 +1313,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "In een formele mail zijn emoji's ongepast, in een bericht aan een vriend kunnen ze wel.",
-          "antwoord": true,
-          "uitleg": "De fiche geeft precies dat voorbeeld: in een WhatsAppgesprek met vrienden kan een smiley de boodschap ondersteunen, in een formele mail niet."
+          "vraag": "Emoji's kunnen ook in een formele mail, zolang het er niet te veel zijn.",
+          "antwoord": false,
+          "uitleg": "Niet juist. In een formele mail horen er geen. In een bericht aan een vriend kunnen ze wel."
         },
         {
           "type": "meerkeuze",
@@ -1366,7 +1366,7 @@
             "Taakvoltooiing betekent ook dat je je aan de opdracht houdt.",
             "Langer is altijd beter.",
             "Korter is altijd beter.",
-            "De lengte telt niet mee."
+            "Wie meer schrijft dan gevraagd, krijgt daar altijd extra punten voor."
           ],
           "antwoord": 0,
           "uitleg": "De fiche zet 'je respecteert de opgegeven lengte' bij taakvoltooiing, naast een volledige en heldere boodschap."
@@ -1424,7 +1424,7 @@
             "neutraal of informeel, met gepaste beleefdheidsconventies",
             "altijd zo formeel mogelijk",
             "altijd informeel",
-            "het register maakt niet uit"
+            "het register maakt niet uit zolang de boodschap duidelijk is"
           ],
           "antwoord": 0,
           "uitleg": "Dat staat zo bij de vereisten: een gepast register, neutraal of informeel, met gepaste beleefdheidsconventies."
@@ -1492,9 +1492,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "'Au premier plan' betekent 'op de voorgrond'.",
-          "antwoord": true,
-          "uitleg": "Au premier plan = op de voorgrond, à l'arrière-plan = op de achtergrond."
+          "vraag": "'Au premier plan' betekent 'op de achtergrond'.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Au premier plan is op de voorgrond. Op de achtergrond is à l'arrière-plan."
         },
         {
           "type": "meerkeuze",
@@ -1642,9 +1642,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "'Elle a l'air triste' betekent 'ze ziet er verdrietig uit'.",
-          "antwoord": true,
-          "uitleg": "'Avoir l'air' + bijvoeglijk naamwoord betekent 'eruitzien als'. Handig als je niet zeker weet hoe iemand zich voelt."
+          "vraag": "'Elle a l'air triste' betekent 'ze is boos'.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Elle a l'air triste betekent: ze ziet er verdrietig uit."
         },
         {
           "type": "meerkeuze",
@@ -1814,7 +1814,7 @@
           "vraag": "Waarom zet je er beter geen dingen bij die je niet ziet?",
           "opties": [
             "Je beschrijft dan niet meer de foto, en je uitleg klopt niet.",
-            "Het is verboden om te fantaseren.",
+            "Fantaseren is op het examen van de Examencommissie verboden.",
             "Franse zinnen worden dan te lang.",
             "Je mag maar vijf zinnen schrijven."
           ],
@@ -1896,7 +1896,7 @@
           "vraag": "Waarom oefen je het beschrijven van een foto ook voor het schriftelijke deel?",
           "opties": [
             "Je moet op het examen schriftelijk iets uitleggen op basis van foto's of afbeeldingen.",
-            "Op het examen krijg je alleen foto's te zien.",
+            "Op het examen bestaat het schriftelijke deel volledig uit vragen over foto's en afbeeldingen.",
             "Foto's beschrijven telt mee voor het leesexamen.",
             "Het vervangt de woordenschat."
           ],
@@ -1994,9 +1994,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "In het Frans zeg je je leeftijd met 'avoir' en niet met 'être'.",
-          "antwoord": true,
-          "uitleg": "J'ai treize ans. 'Je suis treize ans' bestaat niet. Dat is een van de bekendste valkuilen."
+          "vraag": "In het Frans zeg je je leeftijd met 'être': 'je suis douze ans'.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Je leeftijd zeg je met avoir: j'ai douze ans."
         },
         {
           "type": "meerkeuze",
@@ -2325,9 +2325,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Nationaliteiten schrijf je in het Frans met een kleine letter: 'je suis belge'.",
-          "antwoord": true,
-          "uitleg": "Het land krijgt wel een hoofdletter (la Belgique), de nationaliteit als bijvoeglijk naamwoord niet."
+          "vraag": "Als je zegt welke nationaliteit je hebt, schrijf je in het Frans een hoofdletter: 'je suis Belge'.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Daar schrijf je een kleine letter: je suis belge."
         },
         {
           "type": "meerkeuze",
@@ -2853,9 +2853,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "'Le déjeuner' is in Frankrijk het middagmaal.",
-          "antwoord": true,
-          "uitleg": "Le petit déjeuner is het ontbijt, le déjeuner het middagmaal en le dîner het avondmaal."
+          "vraag": "'Le déjeuner' is in Frankrijk het ontbijt.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Le déjeuner is het middagmaal. Het ontbijt is le petit-déjeuner."
         },
         {
           "type": "meerkeuze",
@@ -3000,9 +3000,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "'Reliez' betekent dat je twee dingen met elkaar moet verbinden.",
-          "antwoord": true,
-          "uitleg": "Relier = verbinden. Je trekt een lijn tussen wat bij elkaar hoort."
+          "vraag": "'Reliez' betekent dat je iets moet doorstrepen.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Reliez betekent: verbind met elkaar."
         },
         {
           "type": "meerkeuze",
@@ -3058,9 +3058,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Bij een sport gebruik je 'jouer à', bij een muziekinstrument 'jouer de'.",
-          "antwoord": true,
-          "uitleg": "Je joue au foot, maar je joue du piano. Dat verschil is een klassieke valkuil."
+          "vraag": "Bij een muziekinstrument gebruik je 'jouer à': 'jouer à la guitare'.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Bij een instrument is het jouer de: jouer de la guitare. Jouer à hoort bij een sport of een spel."
         },
         {
           "type": "meerkeuze",
@@ -3544,9 +3544,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Over het weer zeg je in het Frans 'il fait' en niet 'il est'.",
-          "antwoord": true,
-          "uitleg": "Il fait beau, il fait froid. Voor het uur is het wel 'il est huit heures'."
+          "vraag": "Over het weer zeg je in het Frans 'il est': 'il est froid'.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Over het weer zeg je il fait: il fait froid."
         },
         {
           "type": "meerkeuze",
@@ -3719,9 +3719,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "'Huit heures et demie' is in het Nederlands halfnegen, niet halfacht.",
-          "antwoord": true,
-          "uitleg": "Het Frans telt door vanaf het voorbije uur, het Nederlands telt naar het volgende toe. Daar gaat het vaak mis."
+          "vraag": "'Huit heures et demie' is in het Nederlands halfacht.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Het is halfnegen: acht uur en een half."
         },
         {
           "type": "meerkeuze",
@@ -4010,9 +4010,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De -s van een Frans meervoud hoor je meestal niet.",
-          "antwoord": true,
-          "uitleg": "Livre en livres klinken hetzelfde. Je hoort het meervoud aan het lidwoord: le tegenover les."
+          "vraag": "De -s van een Frans meervoud hoor je altijd duidelijk.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Die -s hoor je meestal niet. Je ziet het meervoud aan het lidwoord: les of des."
         },
         {
           "type": "meerkeuze",
@@ -4219,9 +4219,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "'Meilleur' is de vergrotende trap van 'bon'.",
-          "antwoord": true,
-          "uitleg": "Bon → meilleur (beter), le meilleur (de beste). 'Plus bon' bestaat niet."
+          "vraag": "'Meilleur' is de vergrotende trap van 'mauvais'.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Meilleur is de vergrotende trap van bon: beter."
         },
         {
           "type": "meerkeuze",
@@ -4412,9 +4412,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "'Aller' betekent gaan en is een onregelmatig werkwoord.",
-          "antwoord": true,
-          "uitleg": "Je vais, tu vas, il va, nous allons, vous allez, ils vont. Dat is nergens uit de infinitief af te leiden."
+          "vraag": "'Aller' eindigt op -er, dus je vervoegt het net zoals 'parler'.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Aller ziet eruit als een -er-werkwoord, maar het is onregelmatig: je vais, tu vas, il va."
         },
         {
           "type": "meerkeuze",
@@ -4687,9 +4687,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "'Pourriez-vous' is beleefder dan 'Pouvez-vous'.",
-          "antwoord": true,
-          "uitleg": "Allebei kunnen, maar de conditionnel (pourriez) klinkt voorzichtiger. De fiche vraagt die vorm in een mail aan een volwassene die je niet kent."
+          "vraag": "'Pouvez-vous' is beleefder dan 'Pourriez-vous'.",
+          "antwoord": false,
+          "uitleg": "Niet juist, het is omgekeerd. Pourriez-vous is de beleefdste vorm."
         },
         {
           "type": "meerkeuze",
