@@ -97,7 +97,7 @@ VRAGEN += [
          opties=["300 000 kilometer per seconde", "300 kilometer per uur",
                  "1 000 kilometer per seconde", "even snel als geluid"],
          antwoord=0,
-         uitleg="Licht van de zon doet er ongeveer acht minuten over om bij ons te raken. Niets gaat sneller dan licht."),
+         uitleg="Ongeveer 300 000 kilometer per seconde, bijna een miljoen keer sneller dan geluid. En toch doet licht van de zon er nog acht minuten over om bij ons te raken."),
     dict(type="meerkeuze",
          vraag="Hoe ontstaat geluid?",
          opties=["doordat iets trilt", "doordat iets warm wordt",

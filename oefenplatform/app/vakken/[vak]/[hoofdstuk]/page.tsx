@@ -8,6 +8,7 @@ import { createClient } from "@/lib/supabase/server";
 import { PRIJS_NU_EUR, TIJDELIJKE_PRIJS, TIJDELIJKE_PRIJS_KORT } from "@/lib/prijs";
 import { schooljaarEindeLabel } from "@/lib/schooljaar";
 import { vindNiveau } from "@/lib/niveaus";
+import { isTaalvak } from "@/lib/taalvak";
 import { schikOpties } from "@/lib/optievolgorde";
 import { HoofdstukTabs } from "@/components/HoofdstukTabs";
 import { GeoGebraCalculator } from "@/components/GeoGebraCalculator";
@@ -147,7 +148,12 @@ export default async function HoofdstukPage({
                     />
                   </div>
                 )}
-                <Quiz vragen={vragen} kinderen={kinderen ?? []} hoofdstukId={hoofdstuk.id} />
+                <Quiz
+                  vragen={vragen}
+                  kinderen={kinderen ?? []}
+                  hoofdstukId={hoofdstuk.id}
+                  taalvak={isTaalvak(vak.slug)}
+                />
               </>
             }
             rekenmachine={vak.rekenmachine ? <GeoGebraCalculator /> : null}

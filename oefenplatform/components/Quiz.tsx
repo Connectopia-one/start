@@ -11,6 +11,7 @@ import {
   juisteKeuzes,
   schrijfInvul,
   schrijfKeuzes,
+  woordkern,
   zelfdeKeuzes,
 } from "@/lib/antwoord";
 import { bewaarActiefKind, leesActiefKind } from "@/lib/actiefkind";
@@ -104,6 +105,42 @@ function accentverschil(vraag: Vraag, gegeven: Gegeven): string | null {
 }
 
 /**
+ * Telt dit ingetypte antwoord als juist? Buiten de taalvakken tellen enkelvoud
+ * en meervoud allebei mee: "kieuw" naast "kieuwen", "herbivoor" naast
+ * "herbivoren". Zie woordkern in lib/antwoord.ts.
+ */
+function zelfdeWoord(getypt: string, antwoord: string, soepel: boolean): boolean {
+  const a = normaliseerAntwoord(getypt);
+  const b = normaliseerAntwoord(antwoord);
+  if (a === b) return true;
+  if (!soepel) return false;
+  // Getallen laten we met rust: daar is 3 niet hetzelfde als 3en.
+  if (/\d/.test(a) || /\d/.test(b)) return false;
+  return woordkern(a) === woordkern(b);
+}
+
+/**
+ * Was het antwoord juist, maar schreef het kind het anders dan het hoort? Dan
+ * zetten we de juiste schrijfwijze eronder: de accenten (tête) of de vorm die
+ * we verwachtten (kieuwen). Verzwijgen doen we het verschil niet, want de
+ * spelling hoort ook bij de leerstof.
+ */
+function schrijfwijzeNota(
+  vraag: Vraag,
+  gegeven: Gegeven,
+  soepel: boolean
+): { tekst: string; accent: boolean } | null {
+  const accent = accentverschil(vraag, gegeven);
+  if (accent) return { tekst: accent, accent: true };
+  if (vraag.type !== "invultekst" || typeof gegeven !== "string" || !soepel) return null;
+  const getypt = normaliseerAntwoord(gegeven);
+  const antwoorden = invulAntwoorden(vraag.antwoord);
+  if (antwoorden.some((a) => normaliseerAntwoord(a) === getypt)) return null;
+  const anders = antwoorden.find((a) => zelfdeWoord(gegeven, a, true));
+  return anders ? { tekst: anders, accent: false } : null;
+}
+
+/**
  * Een getal kan je op meer dan één juiste manier typen: "3,5" en "3.5",
  * "2 500" en "2500", "0,50" en "0,5". Is het antwoord een getal, dan
  * herleiden we het tot één vorm. Zo telt een kind dat het juiste getal typt
@@ -119,12 +156,11 @@ function normaliseerGetal(tekst: string): string | null {
   return getal === "0" ? "0" : treffer[1] + getal;
 }
 
-function isCorrect(vraag: Vraag, gegeven: Gegeven): boolean {
+function isCorrect(vraag: Vraag, gegeven: Gegeven, soepel = false): boolean {
   if (gegeven === null) return false;
   if (vraag.type === "invultekst") {
     // Staat er meer dan één antwoord in, dan telt elk ervan juist. Zie lib/antwoord.ts.
-    const getypt = normaliseerAntwoord(String(gegeven));
-    return invulAntwoorden(vraag.antwoord).some((a) => normaliseerAntwoord(a) === getypt);
+    return invulAntwoorden(vraag.antwoord).some((a) => zelfdeWoord(String(gegeven), a, soepel));
   }
   // Bij meerkeuze moet het aangeduide precies overeenkomen met wat juist is.
   // Wie er één aanduidt terwijl er twee juist waren, heeft de vraag fout — net
@@ -145,6 +181,7 @@ function VraagKaart({
   vraag,
   status,
   alsVakjes,
+  soepel,
   onAntwoord,
   onControleer,
 }: {
@@ -152,6 +189,8 @@ function VraagKaart({
   status: Status;
   /** Vakjes in plaats van bolletjes: er kan meer dan één antwoord juist zijn. */
   alsVakjes: boolean;
+  /** Buiten de taalvakken telt een enkelvoud ook als het meervoud gevraagd is. */
+  soepel: boolean;
   onAntwoord: (v: string | number | boolean | number[]) => void;
   onControleer: () => void;
 }) {
@@ -268,12 +307,17 @@ function VraagKaart({
           }`}
         >
           <p className="font-medium">{status.correct ? "Juist!" : "Niet helemaal juist."}</p>
-          {status.correct && accentverschil(vraag, status.gegevenAntwoord) && (
-            <p className="mt-1 text-ink">
-              Let op de accenten: je schrijft het als{" "}
-              <strong>{accentverschil(vraag, status.gegevenAntwoord)}</strong>.
-            </p>
-          )}
+          {status.correct &&
+            (() => {
+              const nota = schrijfwijzeNota(vraag, status.gegevenAntwoord, soepel);
+              if (!nota) return null;
+              return (
+                <p className="mt-1 text-ink">
+                  {nota.accent ? "Let op de accenten: je schrijft het als " : "Wij schreven het als "}
+                  <strong>{nota.tekst}</strong>.
+                </p>
+              );
+            })()}
           {!status.correct && vraag.type === "invultekst" && (
             <p className="mt-1 text-ink">
               Juist was: <strong>{schrijfInvul(vraag.antwoord)}</strong>
@@ -298,10 +342,13 @@ export function Quiz({
   vragen,
   kinderen = [],
   hoofdstukId,
+  taalvak = false,
 }: {
   vragen: Vraag[];
   kinderen?: Kind[];
   hoofdstukId?: string;
+  /** Bij een taalvak wordt een ingetypt antwoord streng vergeleken. */
+  taalvak?: boolean;
 }) {
   const [statussen, setStatussen] = useState<Record<string, Status>>(() =>
     Object.fromEntries(vragen.map((v) => [v.id, { gecontroleerd: false, correct: false, gegevenAntwoord: null }]))
@@ -402,11 +449,12 @@ export function Quiz({
           vraag={vraag}
           status={statussen[vraag.id]}
           alsVakjes={alsVakjes}
+          soepel={!taalvak}
           onAntwoord={(v) =>
             setStatussen((s) => ({ ...s, [vraag.id]: { ...s[vraag.id], gegevenAntwoord: v } }))
           }
           onControleer={() => {
-            const correct = isCorrect(vraag, statussen[vraag.id].gegevenAntwoord);
+            const correct = isCorrect(vraag, statussen[vraag.id].gegevenAntwoord, !taalvak);
             setStatussen((s) => ({
               ...s,
               [vraag.id]: { ...s[vraag.id], gecontroleerd: true, correct },

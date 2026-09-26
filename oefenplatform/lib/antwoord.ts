@@ -78,3 +78,28 @@ export function schrijfKeuzes(opties: string[] | null | undefined, waarde: unkno
   if (teksten.length === 1) return teksten[0];
   return teksten.slice(0, -1).join(", ") + " en " + teksten[teksten.length - 1];
 }
+
+/**
+ * De kern van een woord, zodat enkelvoud en meervoud op hetzelfde uitkomen.
+ *
+ * Waarom dit bestaat: op "hoe noem je het orgaan waarmee vissen ademen?" typt
+ * een kind gerust "kieuw" in plaats van "kieuwen", en op "dieren die alleen
+ * planten eten" past "herbivoor" even goed als "herbivoren". Dat kind kent de
+ * leerstof; een kruisje daarvoor leert het niets. We halen dus een meervouds-s
+ * of -en eraf, korten een dubbele klinker in (herbivoor wordt herbivor, net als
+ * herbivoren) en korten een dubbele medeklinker achteraan in (cellen wordt cel).
+ *
+ * Alleen voor de zaakvakken. Bij Frans, Engels en Nederlands is het verschil
+ * tussen "parle" en "parles" of tussen "kind" en "kinderen" net de leerstof,
+ * dus daar blijft de vergelijking streng (zie lib/taalvak.ts).
+ */
+export function woordkern(woord: string): string {
+  let kern = woord;
+  // De -s mag pas van een wat langer woord af: anders zou "zes" op "ze"
+  // uitkomen en "gas" op "ga".
+  if (/[^aeiou]en$/.test(kern) && kern.length - 2 >= 3) kern = kern.slice(0, -2);
+  else if (/[^s]s$/.test(kern) && kern.length - 1 >= 4) kern = kern.slice(0, -1);
+  return kern
+    .replace(/aa|ee|oo|uu/g, (paar) => paar[0])
+    .replace(/([bcdfgklmnprst])\1$/, "$1");
+}

@@ -537,7 +537,7 @@
             "er is geen verschil"
           ],
           "antwoord": 0,
-          "uitleg": "Slagaders hebben dikkere wanden, want daar staat meer druk op. Je voelt er je pols mee."
+          "uitleg": "Een slagader voert bloed wég van het hart, een ader voert het ernaartoe. Slagaders hebben ook dikkere wanden, want daar staat meer druk op: je voelt er je pols mee."
         },
         {
           "type": "meerkeuze",
@@ -1144,7 +1144,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Je zet een streepje viltstift op een strook filtreerpapier en hangt het puntje in water. Wat gebeurt er?",
+          "vraag": "Je zet een streepje viltstift op een strook filterpapier en hangt het puntje in water. Wat gebeurt er?",
           "opties": [
             "de kleur splitst in de kleurstoffen waaruit ze bestaat",
             "het papier wordt zwart doordat alle kleuren zich mengen",
@@ -1278,13 +1278,13 @@
           "type": "meerkeuze",
           "vraag": "Waarom drijft een boot van staal, terwijl een spijker van staal zinkt?",
           "opties": [
-            "door de vorm verplaatst de boot veel water",
-            "het staal van boten is lichter dan gewoon staal",
-            "omdat de boot vooruit beweegt",
-            "omdat een boot verf heeft"
+            "de boot is hol, dus hij weegt minder dan het water dat hij wegduwt",
+            "het staal van een boot is speciaal lichter gemaakt dan gewoon staal",
+            "een boot blijft enkel drijven zolang hij vooruit blijft varen",
+            "de verf op de romp houdt het water tegen en draagt zo de boot"
           ],
           "antwoord": 0,
-          "uitleg": "De holle vorm verplaatst genoeg water om de boot te dragen."
+          "uitleg": "Een spijker is massief staal en weegt meer dan evenveel water. Een boot is grotendeels lucht: die holle vorm samen met de lucht erin weegt minder dan het water dat hij wegduwt, en dus drijft hij."
         },
         {
           "type": "invultekst",
@@ -1297,9 +1297,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een voorwerp valt sneller naar beneden als het zwaarder is.",
+          "vraag": "Zonder luchtweerstand valt een zwaar voorwerp sneller naar beneden dan een licht voorwerp.",
           "antwoord": false,
-          "uitleg": "Zonder luchtweerstand vallen een veer en een steen even snel."
+          "uitleg": "Niet waar: zonder lucht vallen een veer en een steen even snel. Op de maan is dat ook echt uitgeprobeerd, met een hamer en een valkenveer. Bij ons lijkt het anders omdat de lucht een veer afremt."
         },
         {
           "type": "meerkeuze",
@@ -1842,7 +1842,7 @@
             "even snel als geluid"
           ],
           "antwoord": 0,
-          "uitleg": "Licht van de zon doet er ongeveer acht minuten over om bij ons te raken. Niets gaat sneller dan licht."
+          "uitleg": "Ongeveer 300 000 kilometer per seconde, bijna een miljoen keer sneller dan geluid. En toch doet licht van de zon er nog acht minuten over om bij ons te raken."
         },
         {
           "type": "meerkeuze",
