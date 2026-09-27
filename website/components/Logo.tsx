@@ -35,7 +35,9 @@ export function Logo() {
           ))}
         </g>
       </svg>
-      <span className="text-[20px] font-extrabold tracking-tight">
+      {/* Iets kleiner op een smalle gsm, anders duwt de naam de menuknop
+          naar een tweede regel. */}
+      <span className="text-[18px] font-extrabold tracking-tight sm:text-[20px]">
         {site.naam}
       </span>
       <span className="text-[12px] font-extrabold tracking-[0.08em] text-ink-dim uppercase">
