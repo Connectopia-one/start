@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Nunito, Caveat } from "next/font/google";
 import { SiteHeader } from "@/components/SiteHeader";
 import { SiteFooter } from "@/components/SiteFooter";
+import { Spreuk } from "@/components/Spreuk";
 import { Bezoekersteller } from "@/components/Bezoekersteller";
 import { site } from "@/content/site";
 import "./globals.css";
@@ -56,6 +57,7 @@ export default function RootLayout({
       <body className="flex min-h-full flex-col bg-cream text-ink antialiased">
         <SiteHeader />
         <main className="flex-1">{children}</main>
+        <Spreuk />
         <SiteFooter />
         <Bezoekersteller />
       </body>

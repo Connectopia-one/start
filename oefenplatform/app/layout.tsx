@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Fraunces, IBM_Plex_Sans } from "next/font/google";
 import { Bezoekersteller } from "@/components/Bezoekersteller";
+import { Spreuk } from "@/components/Spreuk";
 import "./globals.css";
 
 const display = Fraunces({
@@ -25,6 +26,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     <html lang="nl" className={`${display.variable} ${body.variable} h-full`}>
       <body className="min-h-full flex flex-col bg-paper text-ink antialiased">
         {children}
+        <Spreuk />
         <Bezoekersteller />
       </body>
     </html>
