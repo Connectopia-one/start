@@ -20,16 +20,16 @@
 
   .band { height: 7mm; background: var(--green); }
 
-  .kop { padding: 7mm 14mm 0; display: flex; align-items: flex-start; gap: 6mm; }
+  .kop { padding: 6mm 14mm 0; display: flex; align-items: flex-start; gap: 6mm; }
   .kop .tekst { flex: 1; }
-  .kop .hand { font-family: "Caveat"; font-size: 21pt; color: var(--purple); line-height: 1; }
-  .kop h1 { font-weight: 900; color: var(--green); font-size: 27pt; line-height: 1.05;
+  .kop .hand { font-family: "Caveat"; font-size: 19pt; color: var(--purple); line-height: 1; }
+  .kop h1 { font-weight: 900; color: var(--green); font-size: 24pt; line-height: 1.05;
             letter-spacing: -.01em; margin-top: 1.5mm; }
   .kop h1 span { color: var(--green-mid); }
   .kop p { margin-top: 2.5mm; font-size: 10.6pt; line-height: 1.42; color: var(--ink-dim); font-weight: 600; }
   .kop img { width: 26mm; height: 26mm; object-fit: contain; }
 
-  .code { margin: 5mm 14mm 0; border-radius: 20px; background: #fff; border: .4mm solid var(--border);
+  .code { margin: 4mm 14mm 0; border-radius: 20px; background: #fff; border: .4mm solid var(--border);
           padding: 4mm 6mm; display: flex; align-items: center; gap: 6mm; }
   .code .links { flex: 1; }
   .code .stap { font-weight: 900; color: var(--green); font-size: 12.5pt; }
@@ -40,7 +40,7 @@
   .code .vak .klein { font-size: 8.4pt; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; color: var(--green-mid); }
   .code .vak .groot { font-family: "Nunito", sans-serif; font-weight: 900; font-size: 15.5pt; letter-spacing: .02em; color: var(--green); line-height: 1.25; margin-top: .6mm; }
 
-  .kaarten { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 4mm; padding: 5mm 14mm 0; }
+  .kaarten { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 4mm; padding: 4mm 14mm 0; }
   .kaart { border-radius: 20px; background: #fff; border: .35mm solid var(--border); overflow: hidden; }
   .kaart .hoed { padding: 2.2mm 4.5mm; display: flex; align-items: center; gap: 2.5mm;
                  font-weight: 900; font-size: 10.6pt; }
@@ -52,18 +52,24 @@
   .kaart .inhoud { padding: 2.6mm 4.5mm 3.2mm; font-size: 9.4pt; line-height: 1.4; color: var(--ink-dim); font-weight: 600; }
   .kaart .inhoud b { color: var(--ink); font-weight: 800; }
 
-  .vraag { margin: 5mm 14mm 0; border-radius: 20px; background: var(--green); color: #fff; padding: 5mm 6mm 5.5mm; }
-  .vraag .hand { font-family: "Caveat"; font-size: 19pt; color: var(--sage-soft); line-height: 1; }
-  .vraag h2 { font-weight: 900; font-size: 17.5pt; line-height: 1.1; margin-top: .8mm; }
+  .extra { margin: 4mm 14mm 0; border-radius: 20px; background: #fff; border: .35mm solid var(--border);
+           padding: 3mm 5mm 3.2mm; }
+  .extra p { font-size: 9.4pt; line-height: 1.38; color: var(--ink-dim); font-weight: 600; }
+  .extra p b { color: var(--green); font-weight: 900; }
+  .extra .mens { margin-bottom: 1.8mm; padding-bottom: 1.8mm; border-bottom: .3mm solid var(--border); }
+
+  .vraag { margin: 4mm 14mm 0; border-radius: 20px; background: var(--green); color: #fff; padding: 4mm 6mm 4.4mm; }
+  .vraag .hand { font-family: "Caveat"; font-size: 17pt; color: var(--sage-soft); line-height: 1; }
+  .vraag h2 { font-weight: 900; font-size: 16pt; line-height: 1.1; margin-top: .8mm; }
   .vraag p { font-size: 9.8pt; line-height: 1.4; margin-top: 2mm; color: #e8efdc; font-weight: 600; }
-  .vraag ul { margin-top: 3mm; display: grid; grid-template-columns: 1fr 1fr; gap: 1.6mm 5mm; list-style: none; }
+  .vraag ul { margin-top: 2.6mm; display: grid; grid-template-columns: 1fr 1fr; gap: 1.6mm 5mm; list-style: none; }
   .vraag li { font-size: 9.6pt; line-height: 1.32; font-weight: 700; padding-left: 5.5mm; position: relative; }
   .vraag li::before { content: "→"; position: absolute; left: 0; color: var(--sage-soft); font-weight: 900; }
   .vraag .slot { margin-top: 3.4mm; font-size: 9.8pt; font-weight: 800; background: rgba(255,255,255,.12);
                  border-radius: 14px; padding: 2.6mm 4mm; line-height: 1.38; }
 
-  .tijd { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; padding: 5mm 14mm 0; }
-  .tijd div { border-radius: 20px; border: .35mm solid var(--border); background: #fff; padding: 3.2mm 4.5mm; }
+  .tijd { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; padding: 4mm 14mm 0; }
+  .tijd > div { border-radius: 20px; border: .35mm solid var(--border); background: #fff; padding: 3.4mm 5mm 4mm; }
   .tijd .wanneer { font-family: "Caveat"; font-size: 17pt; color: var(--orange); line-height: 1; }
   .tijd .wat { font-size: 9.5pt; line-height: 1.38; color: var(--ink-dim); font-weight: 600; margin-top: .8mm; }
   .tijd .wat b { color: var(--ink); font-weight: 800; }
@@ -109,22 +115,26 @@
   <div class="kaarten">
     <div class="kaart groen">
       <div class="hoed"><span class="bol">🌿</span> Rustig met opzet</div>
-      <div class="inhoud">Weinig kleur, geen drukke prenten, geen geluiden die je overvallen. <b>Veel van onze kinderen raken van zo'n scherm sneller overprikkeld dan van de leerstof zelf.</b> Wat overblijft, is de oefening.</div>
+      <div class="inhoud">Weinig kleur, geen drukke prenten, geen geluiden. <b>Veel kinderen raken van zo'n scherm sneller overprikkeld dan van de leerstof zelf.</b></div>
     </div>
     <div class="kaart paars">
       <div class="hoed"><span class="bol">💡</span> Uitleg meteen</div>
-      <div class="inhoud">Juist of fout, je kind leest <b>direct waarom</b>. Fout zijn is hier geen straf maar het moment waarop je iets leert. En juist zijn zonder te weten waarom, is ook maar half.</div>
+      <div class="inhoud">Juist of fout, je kind leest <b>direct waarom</b>. Fout zijn is hier geen straf maar het moment waarop je iets leert.</div>
     </div>
     <div class="kaart oranje">
-      <div class="hoed"><span class="bol">🔨</span> Werk in uitvoering</div>
-      <div class="inhoud">We zetten er <b>stuk voor stuk materiaal bij</b>. Sommige vakken zijn af, andere nog niet. Een aantal onderdelen staan gratis open voor iedereen, ook buiten deze testgroep.</div>
+      <div class="hoed"><span class="bol">🔨</span> Volop in de maak</div>
+      <div class="inhoud">Achter de schermen bouwen we <b>elke week bij</b>. De volgende en moeilijkere hoofdstukken komen er snel aan.</div>
     </div>
+  </div>
+
+  <div class="extra">
+    <p class="mens"><b>Geen AI in de oefeningen.</b> Elke vraag, elk antwoord en elke uitleg is door mensen geschreven en nagelezen.</p>
+    <p><b>Kijk zeker ook eens naar</b> 🔭 de uitdagingshoek, met 240 vragen naast de leerstof &middot; ☀️ de vraag van de dag &middot; ⭐ de verzamelbadges &middot; 📌 het weetjesprikbord, waar je kind zelf een weetje mag insturen.</p>
   </div>
 
   <div class="vraag">
     <div class="hand">Dit is het belangrijkste stuk</div>
     <h2>We hebben jullie eerlijke mening nodig</h2>
-    <p>“Het is leuk” helpt ons niet vooruit. Eerlijk mag ook oncomfortabel zijn. Vertel ons gerust onderweg al:</p>
     <ul>
       <li>Wat was te moeilijk, en waar haakte je kind af?</li>
       <li>Wat was te makkelijk, of gewoon saai?</li>
@@ -133,17 +143,17 @@
       <li>Werkte er iets niet op de computer of de gsm?</li>
       <li>Wat zou je zelf anders doen?</li>
     </ul>
-    <div class="slot">Mail naar info@matmgroep.com of bel 0468 35 74 96. De naam van het hoofdstuk en één zin over wat er gebeurde, is genoeg. Liever tien korte berichtjes onderweg dan één lange op het einde.</div>
+    <div class="slot">“Het is leuk” helpt ons niet vooruit, eerlijk mag ook oncomfortabel zijn. Onderaan elk hoofdstuk staat een meldknop, dat is de snelste weg. Of mail naar info@matmgroep.com of bel 0468 35 74 96. Liever tien korte berichtjes onderweg dan één lange op het einde.</div>
   </div>
 
   <div class="tijd">
     <div>
       <div class="wanneer">27 september tot 31 oktober</div>
-      <div class="wat">Alles open: <b>alle niveaus, alle vakken en alle leerbundels</b>, voor heel het gezin.</div>
+      <div class="wat">Alles open: <b>alle niveaus, vakken en leerbundels</b>, voor heel het gezin.</div>
     </div>
     <div>
       <div class="wanneer">Na 31 oktober</div>
-      <div class="wat">Een korte evaluatie invullen. Wie dat doet, <b>houdt gratis toegang tot het einde van schooljaar 2026-2027</b>.</div>
+      <div class="wat">Een korte evaluatie invullen, en je <b>houdt gratis toegang tot einde schooljaar 2026-2027</b>.</div>
     </div>
   </div>
 
