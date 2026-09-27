@@ -34,6 +34,12 @@ luisteren, taalsysteem en taalgebruik, literatuur, spelling. Samen 95
 oefeningen. Bij lezen staat er een eigen tekstje in de bundel, want een
 leesvraag hoort op een echte tekst te staan en niet op het begrip alleen.
 
+**Wetenschap en techniek 🌱 Start is volledig**, zeven bundels: de twee
+biologiehoofdstukken, chemie, de twee natuurkundehoofdstukken, techniek, en de
+aarde en de ruimte. Samen 112 oefeningen. Hier staan ook tekenopdrachten in
+(een voedselketen, een stroomkring, de maanstanden); daarom zijn die bundels
+vijf blad in plaats van vier.
+
 Het hoofdstuk spelling heet in de databank "Hoofdstuk 1 — Spelling: voorbeeld".
 Het raden op de bestandsnaam kan daar dus misgaan; kies het hoofdstuk in dat
 geval zelf in het lijstje bij het uploaden.
