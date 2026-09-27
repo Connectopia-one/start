@@ -13,44 +13,44 @@ bijvoorbeeld `inhoud/start/wiskunde-rekenen-en-breuken.json`.
 
 ## Wat er klaar is
 
-**Wiskunde 🌱 Start is volledig**, zeven bundels, één per hoofdstuk:
+**🌱 Start is volledig: 32 bundels, 545 oefeningen.** Eén bundel per hoofdstuk.
 
-| bundel | hoort bij |
-| --- | --- |
-| `wiskunde/oefenbundel-rekenen-en-breuken.pdf` | Rekenen en breuken (het gratis proefhoofdstuk) |
-| `wiskunde/oefenbundel-getallenkennis.pdf` | Getallenkennis |
-| `wiskunde/oefenbundel-bewerkingen.pdf` | Bewerkingen |
-| `wiskunde/oefenbundel-meten-en-metend-rekenen.pdf` | Meten en metend rekenen |
-| `wiskunde/oefenbundel-meetkunde.pdf` | Meetkunde |
-| `wiskunde/oefenbundel-kansrekenen-en-statistiek.pdf` | Kansrekenen en statistiek |
-| `wiskunde/oefenbundel-vraagstukken-en-problemen-oplossen.pdf` | Vraagstukken en problemen oplossen |
+| vak | bundels | oefeningen |
+| --- | --- | --- |
+| Wiskunde | 7 | 153 |
+| Wetenschap en techniek | 7 | 112 |
+| Engels | 6 | 99 |
+| Nederlands | 6 | 95 |
+| Geschiedenis | 3 | 43 |
+| Aardrijkskunde | 3 | 43 |
 
-**Engels 🌱 Start is volledig**, zes bundels, één per hoofdstuk: woorden voor
-elke dag, mezelf voorstellen, to be en to have, de tegenwoordige tijd, zinnen
-bouwen, op school en onderweg. Samen 99 oefeningen.
+✨ Spark heeft er nog geen.
 
-**Nederlands 🌱 Start is volledig**, zes bundels: lezen, schrijven, spreken en
-luisteren, taalsysteem en taalgebruik, literatuur, spelling. Samen 95
-oefeningen. Bij lezen staat er een eigen tekstje in de bundel, want een
-leesvraag hoort op een echte tekst te staan en niet op het begrip alleen.
+Per vak staat er een zip (`wiskunde.zip`, `engels.zip` …) en er is er één met
+alles erin (`alle-oefenbundels.zip`). In allebei zit per vak een map, dus je
+kan er twee naast elkaar uitpakken zonder dat de bestanden door elkaar lopen.
 
-**Wetenschap en techniek 🌱 Start is volledig**, zeven bundels: de twee
-biologiehoofdstukken, chemie, de twee natuurkundehoofdstukken, techniek, en de
-aarde en de ruimte. Samen 112 oefeningen. Hier staan ook tekenopdrachten in
-(een voedselketen, een stroomkring, de maanstanden); daarom zijn die bundels
-vijf blad in plaats van vier.
+## Wat per vak anders is
 
-Het hoofdstuk spelling heet in de databank "Hoofdstuk 1 — Spelling: voorbeeld".
-Het raden op de bestandsnaam kan daar dus misgaan; kies het hoofdstuk in dat
-geval zelf in het lijstje bij het uploaden.
+**Taalvakken.** Het invulvakje staat breder dan bij wiskunde: "Wednesday" past
+niet in een vakje dat voor een getal van twee cijfers gemaakt is. Dat zet je
+per oefening met een vierde waarde bij `rij` of `kort`, bijvoorbeeld `"120px"`.
 
-Bij een taalvak staat het invulvakje breder dan bij wiskunde: "Wednesday" past
-niet in een vakje dat voor een getal van twee cijfers gemaakt is. Dat zet je per
-oefening met een vierde waarde bij `rij` of `kort`, bijvoorbeeld `"120px"`.
+**Nederlands, lezen.** Er staat een eigen tekstje in de bundel met vragen die
+alleen over die tekst gaan. Een leesvraag hoort op een echte tekst te staan en
+niet op het begrip alleen.
 
-Er staat een zip **per vak** (`wiskunde.zip`, `engels.zip`) en één met alles
-erin (`alle-oefenbundels.zip`). In allebei zit per vak een map, dus je kan er
-twee naast elkaar uitpakken zonder dat de bestanden door elkaar lopen.
+**Nederlands, spelling.** Dat hoofdstuk heet in de databank "Hoofdstuk 1 —
+Spelling: voorbeeld". Het raden op de bestandsnaam kan daar dus misgaan; kies
+het hoofdstuk in dat geval zelf in het lijstje bij het uploaden.
+
+**Wetenschap en techniek.** Hier staan tekenopdrachten in: een voedselketen,
+een stroomkring, de maanstanden. Dat soort werk kan op papier en niet op een
+scherm. Die bundels zijn daardoor vijf blad in plaats van vier.
+
+**Aardrijkskunde.** Er staat bewust geen landkaart in om na te tekenen. Een
+kaart uit het hoofd getekend klopt niet, en een kind mag geen foute vorm
+inprenten. De tekenopdrachten gaan over een kompasroos en een legende.
 
 ## Twee afspraken van Kim, 27 september 2026
 
