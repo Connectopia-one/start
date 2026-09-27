@@ -2,7 +2,13 @@ import Link from "next/link";
 import { Header } from "@/components/Header";
 import { requireBeheerder } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
-import { pasWeetjeAan, wisWeetje, zetOpgehangen } from "./actions";
+import {
+  pasWeetjeAan,
+  wisWeetje,
+  zetNietGeplaatst,
+  zetOpgehangen,
+  zetTerugInDeWacht,
+} from "./actions";
 
 export const dynamic = "force-dynamic";
 
@@ -21,12 +27,14 @@ export default async function BeheerWeetjesPage() {
 
   const { data } = await supabase
     .from("weetjes")
-    .select("id, tekst, voornaam, leeftijd, goedgekeurd, aangemaakt_op, inzender:profiles(full_name)")
+    .select(
+      "id, tekst, voornaam, leeftijd, goedgekeurd, niet_geplaatst, bericht, aangemaakt_op, inzender:profiles(full_name)"
+    )
     .order("goedgekeurd", { ascending: true })
     .order("aangemaakt_op", { ascending: false });
 
   const rijen = data ?? [];
-  const wachtend = rijen.filter((w) => !w.goedgekeurd);
+  const wachtend = rijen.filter((w) => !w.goedgekeurd && !w.niet_geplaatst);
 
   return (
     <>
@@ -61,7 +69,11 @@ export default async function BeheerWeetjesPage() {
               <article
                 key={w.id}
                 className={`rounded-xl border px-5 py-4 text-sm ${
-                  w.goedgekeurd ? "border-border bg-paper opacity-70" : "border-amber/40 bg-surface"
+                  w.goedgekeurd
+                    ? "border-border bg-paper opacity-70"
+                    : w.niet_geplaatst
+                      ? "border-border bg-paper"
+                      : "border-amber/40 bg-surface"
                 }`}
               >
                 <form action={pasWeetjeAan} className="grid gap-2">
@@ -96,6 +108,15 @@ export default async function BeheerWeetjesPage() {
                   {inzender?.full_name ? ` · ingestuurd door ${inzender.full_name}` : ""}
                 </p>
 
+                {w.niet_geplaatst && (
+                  <p className="mt-3 rounded-md bg-info/10 px-3 py-2 text-xs text-ink">
+                    Niet geplaatst.{" "}
+                    {w.bericht
+                      ? `Het kind leest: "${w.bericht}"`
+                      : "Er staat geen boodschapje bij, dus het kind leest enkel dat het niet opgehangen is."}
+                  </p>
+                )}
+
                 <div className="mt-3 flex flex-wrap items-center gap-4">
                   <form action={zetOpgehangen}>
                     <input type="hidden" name="id" value={w.id} />
@@ -111,6 +132,16 @@ export default async function BeheerWeetjesPage() {
                       {w.goedgekeurd ? "Van het bord halen" : "Ophangen"}
                     </button>
                   </form>
+
+                  {w.niet_geplaatst ? (
+                    <form action={zetTerugInDeWacht}>
+                      <input type="hidden" name="id" value={w.id} />
+                      <button type="submit" className="text-ink-dim hover:text-ink">
+                        Toch nog eens bekijken
+                      </button>
+                    </form>
+                  ) : null}
+
                   <form action={wisWeetje}>
                     <input type="hidden" name="id" value={w.id} />
                     <button type="submit" className="text-ink-dim hover:text-danger">
@@ -118,6 +149,31 @@ export default async function BeheerWeetjesPage() {
                     </button>
                   </form>
                 </div>
+
+                {!w.goedgekeurd && !w.niet_geplaatst && (
+                  /* Niet plaatsen mag nooit zwijgend gebeuren: een kind dat
+                     niets hoort, blijft wachten. Vandaar het boodschapje in
+                     hetzelfde formulier als de knop. */
+                  <form action={zetNietGeplaatst} className="mt-3 flex flex-wrap items-end gap-2">
+                    <input type="hidden" name="id" value={w.id} />
+                    <label className="grid gap-1 text-xs text-ink-dim">
+                      <span>Boodschapje voor het kind</span>
+                      <input
+                        type="text"
+                        name="bericht"
+                        maxLength={500}
+                        placeholder="Mooi gezocht! Dit klopt net niet helemaal, want..."
+                        className="w-72 max-w-full rounded-md border border-border bg-paper px-3 py-1.5 text-sm text-ink outline-none focus:border-forest focus:ring-1 focus:ring-forest"
+                      />
+                    </label>
+                    <button
+                      type="submit"
+                      className="rounded-md border border-border px-3 py-1.5 text-ink-dim transition hover:border-danger hover:text-danger"
+                    >
+                      Niet plaatsen
+                    </button>
+                  </form>
+                )}
               </article>
             );
           })}

@@ -13,7 +13,57 @@ export async function zetOpgehangen(formData: FormData) {
 
   const { error } = await supabase
     .from("weetjes")
-    .update({ goedgekeurd: op, opgehangen_op: op ? new Date().toISOString() : null })
+    .update({
+      goedgekeurd: op,
+      opgehangen_op: op ? new Date().toISOString() : null,
+      // Ophangen maakt een eerdere weigering ongedaan, anders zou het kind
+      // tegelijk lezen dat zijn briefje niet geplaatst werd én het zien hangen.
+      niet_geplaatst: false,
+    })
+    .eq("id", id);
+  if (error) throw new Error(error.message);
+
+  revalidatePath("/beheer/weetjes");
+  revalidatePath("/weetjes");
+}
+
+/**
+ * Een weetje niet plaatsen, met een boodschapje voor het kind.
+ *
+ * Kim vroeg dit op 27 september 2026: een kind dat iets instuurt dat niet
+ * klopt, bleef anders zitten wachten of het ooit zou verschijnen. Het
+ * boodschapje verschijnt bij zijn eigen inzending op /weetjes.
+ */
+export async function zetNietGeplaatst(formData: FormData) {
+  await requireBeheerder();
+  const id = String(formData.get("id") || "");
+  const bericht = String(formData.get("bericht") || "").trim();
+  const supabase = await createClient();
+
+  const { error } = await supabase
+    .from("weetjes")
+    .update({
+      niet_geplaatst: true,
+      goedgekeurd: false,
+      opgehangen_op: null,
+      bericht: bericht.slice(0, 500) || null,
+    })
+    .eq("id", id);
+  if (error) throw new Error(error.message);
+
+  revalidatePath("/beheer/weetjes");
+  revalidatePath("/weetjes");
+}
+
+/** Zet een geweigerd weetje terug op "wacht", zodat je je kan bedenken. */
+export async function zetTerugInDeWacht(formData: FormData) {
+  await requireBeheerder();
+  const id = String(formData.get("id") || "");
+  const supabase = await createClient();
+
+  const { error } = await supabase
+    .from("weetjes")
+    .update({ niet_geplaatst: false, bericht: null })
     .eq("id", id);
   if (error) throw new Error(error.message);
 

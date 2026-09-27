@@ -21,7 +21,7 @@ export type Spreuk = {
 export const spreuken: Spreuk[] = [
   { tekst: "Ik heb het nog nooit gedaan, dus ik denk dat ik het wel kan." },
   { tekst: "Als je niet weet waar je heen gaat, brengt elke weg je er wel." },
-  { tekst: "Het is pas onmogelijk als iemand het tegendeel beweert." },
+  { tekst: "Het lijkt altijd onmogelijk, tot het gedaan is." },
   {
     tekst:
       "Onderwijs is niet het leren van feiten, maar het trainen van de geest om na te denken.",

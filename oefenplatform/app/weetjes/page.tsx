@@ -3,7 +3,7 @@ import { Header } from "@/components/Header";
 import { Weetje, type WeetjeRij } from "@/components/Weetje";
 import { getSessionProfile } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
-import { stuurWeetjeIn } from "./acties";
+import { stuurWeetjeIn, verbeterWeetje } from "./acties";
 
 /* Een prikbord toont wat er nú op hangt, dus geen opgeslagen versie. */
 export const dynamic = "force-dynamic";
@@ -33,6 +33,26 @@ export default async function WeetjesPage({
 
   const weetjes = (data ?? []) as WeetjeRij[];
 
+  /* Je eigen briefjes, ook die nog wachten of die niet opgehangen werden.
+     De leesregel in supabase/weetjes-bericht.sql laat alleen je eigen rijen
+     door, dus niemand ziet hier wat een ander instuurde. */
+  const { data: eigenData } = session
+    ? await supabase
+        .from("weetjes")
+        .select("id, tekst, goedgekeurd, niet_geplaatst, bericht, aangemaakt_op")
+        .eq("profile_id", session.userId)
+        .order("aangemaakt_op", { ascending: false })
+    : { data: [] };
+
+  const eigen = (eigenData ?? []) as {
+    id: string;
+    tekst: string;
+    goedgekeurd: boolean;
+    niet_geplaatst: boolean;
+    bericht: string | null;
+    aangemaakt_op: string;
+  }[];
+
   return (
     <>
       <Header naam={session?.profile?.full_name} rol={session?.profile?.role} />
@@ -43,10 +63,23 @@ export default async function WeetjesPage({
           het onderaan op, dan hangen wij het erbij.
         </p>
 
+        {/* Kim vroeg deze uitleg uitdrukkelijk: een kind dat instuurt en niets
+            hoort, blijft anders elke dag kijken of zijn briefje er al hangt. */}
+        <p className="mt-4 max-w-2xl rounded-md bg-info/10 px-4 py-3 text-sm text-ink">
+          Wij lezen elk briefje eerst na voor het op het bord komt. Daar zit een echte mens achter,
+          dus soms duurt dat even — maar we bekijken alles zo snel mogelijk. Log je in, dan zie je
+          hieronder altijd wat er met jouw briefje gebeurd is.
+        </p>
+
         {melding === "bedankt" && (
           <p className="mt-5 max-w-2xl rounded-md bg-forest/10 px-4 py-3 text-sm text-forest-dark">
             Bedankt! Je weetje is binnen. We lezen het na en hangen het erbij — kijk over een paar
             dagen nog eens.
+          </p>
+        )}
+        {melding === "opnieuw" && (
+          <p className="mt-5 max-w-2xl rounded-md bg-forest/10 px-4 py-3 text-sm text-forest-dark">
+            Je aangepaste weetje is binnen. We kijken er opnieuw naar.
           </p>
         )}
         {fout && (
@@ -70,6 +103,63 @@ export default async function WeetjesPage({
           </div>
         )}
 
+        {eigen.length > 0 && (
+          <section className="mt-10 rounded-xl border border-border bg-surface p-6">
+            <h2 className="font-display text-lg font-semibold text-ink">Jouw briefjes</h2>
+            <p className="mt-1 text-sm text-ink-dim">
+              Dit ziet alleen jij. Hier staat wat er met elk van je weetjes gebeurd is.
+            </p>
+
+            <ul className="mt-5 space-y-4">
+              {eigen.map((w) => (
+                <li key={w.id} className="rounded-lg border border-border bg-paper p-4">
+                  <p className="text-sm text-ink">{w.tekst}</p>
+
+                  {w.goedgekeurd ? (
+                    <p className="mt-2 text-sm text-forest-dark">
+                      ✅ Het hangt op het bord. Bedankt!
+                    </p>
+                  ) : w.niet_geplaatst ? (
+                    <>
+                      <p className="mt-2 text-sm text-ink">
+                        💬 We hebben dit briefje niet opgehangen.
+                      </p>
+                      {w.bericht && (
+                        <p className="mt-1 rounded-md bg-amber/10 px-3 py-2 text-sm text-ink">
+                          {w.bericht}
+                        </p>
+                      )}
+                      {/* Niet plaatsen is geen eindpunt: pas het aan en stuur
+                          het gerust opnieuw in. */}
+                      <form action={verbeterWeetje} className="mt-3 grid gap-2">
+                        <input type="hidden" name="id" value={w.id} />
+                        <textarea
+                          name="tekst"
+                          rows={2}
+                          required
+                          maxLength={500}
+                          defaultValue={w.tekst}
+                          className="w-full rounded-md border border-border bg-surface px-3 py-2 text-sm text-ink outline-none focus:border-forest focus:ring-1 focus:ring-forest"
+                        />
+                        <button
+                          type="submit"
+                          className="justify-self-start rounded-md bg-forest px-3 py-1.5 text-sm font-medium text-white transition hover:bg-forest-dark"
+                        >
+                          Aanpassen en opnieuw insturen
+                        </button>
+                      </form>
+                    </>
+                  ) : (
+                    <p className="mt-2 text-sm text-ink-dim">
+                      ⏳ We hebben het gekregen en kijken het na.
+                    </p>
+                  )}
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
+
         <section className="mt-10 rounded-xl border border-border bg-surface p-6">
           <h2 className="font-display text-lg font-semibold text-ink">Stuur je eigen weetje in</h2>
 
@@ -88,8 +178,8 @@ export default async function WeetjesPage({
           ) : (
             <>
               <p className="mt-2 max-w-2xl text-sm text-ink-dim">
-                Alles wordt eerst nagelezen voor het op het bord komt, dus het duurt even. Zet er
-                alleen je voornaam bij, geen achternaam en geen adres.
+                Zet er alleen je voornaam bij, geen achternaam en geen adres. Klopt er iets niet
+                helemaal, dan laten we het je hierboven weten en mag je het aanpassen.
               </p>
 
               <form action={stuurWeetjeIn} className="mt-5 grid max-w-xl gap-4">
