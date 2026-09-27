@@ -68,6 +68,39 @@ export default async function SteunPagina() {
         </div>
       </Sectie>
 
+      {/* Voor bedrijven: geen gift maar reclame, met een document erbij. */}
+      <Sectie className="py-4">
+        <div className="rounded-[20px] border border-border bg-surface px-6 py-5">
+          <span className="text-[14px] font-bold text-purple">
+            {steun.bedrijven.label}
+          </span>
+          <h2 className="mt-1 text-2xl text-green">{steun.bedrijven.titel}</h2>
+          <p className="mt-2 max-w-[68ch] text-[16px] text-ink-dim">
+            {steun.bedrijven.tekst}
+          </p>
+          <ul className="mt-4 grid gap-2 sm:grid-cols-2">
+            {steun.bedrijven.punten.map((punt) => (
+              <li
+                key={punt}
+                className="rounded-[14px] bg-purple-soft px-4 py-2.5 text-[16px] font-bold text-green"
+              >
+                {punt}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </Sectie>
+
+      {/* Wat een particulier er fiscaal aan heeft: niets, en dat zeggen we. */}
+      <Sectie className="py-4">
+        <div className="rounded-[20px] border border-border bg-surface px-6 py-5">
+          <h2 className="text-xl text-green">{steun.attesten.titel}</h2>
+          <p className="mt-2 max-w-[68ch] text-[16px] text-ink-dim">
+            {steun.attesten.tekst}
+          </p>
+        </div>
+      </Sectie>
+
       {/* Voor wie twijfelt of zijn idee wel meetelt. */}
       <Sectie className="py-4">
         <div className="rounded-[20px] bg-sage-soft px-6 py-5">

@@ -89,6 +89,37 @@ export const steun = {
     "Het oefenplatform, dat we zelf bouwen en onderhouden",
   ],
 
+  /*
+    Voor bedrijven. Een bedrijf dat ons steunt en er zichtbaarheid voor
+    terugkrijgt, doet geen gift maar koopt reclame: daar hoort een document
+    voor de boekhouding bij. Wat er precies op dat document komt te staan,
+    hangt af van de vzw; daarom noemt de tekst het "een document" en geen
+    factuur of onkostennota.
+  */
+  bedrijven: {
+    label: "Voor bedrijven",
+    titel: "Sponsoren in ruil voor zichtbaarheid",
+    tekst:
+      "Steunt je bedrijf ons met een bedrag, dan zetten we je naam en je logo op onze flyers en hier op de website. Je krijgt daar een document voor, zodat je boekhouder het bedrag als reclamekost kan inbrengen. Wat je precies terugkrijgt spreken we samen af: het hangt af van het bedrag en van wat er op dat moment gedrukt wordt.",
+    punten: [
+      "Je naam en logo op onze flyers",
+      "Je naam en logo bij de sponsors op deze website",
+      "Een document voor je boekhouding",
+      "In overleg: zichtbaarheid op een kamp of een evenement",
+    ],
+  },
+
+  /*
+    Eerlijk zijn over wat een particulier er fiscaal aan heeft: niets, en dat
+    verandert pas als de erkenning er is. Zet er geen jaartal bij zolang dat
+    niet zeker is.
+  */
+  attesten: {
+    titel: "En als particulier?",
+    tekst:
+      "Doneren mag natuurlijk altijd, en we zijn er heel blij mee. Alleen kunnen we je er voorlopig geen fiscaal attest voor geven: daar is een erkenning voor nodig die we aanvragen, maar die laat nog een hele tijd op zich wachten. Je gift is dus niet fiscaal aftrekbaar. We zeggen het liever meteen dan dat je er achteraf achterkomt.",
+  },
+
   formulierTitel: "Laat het ons weten",
   formulierTekst:
     "Vink aan wat je in gedachten hebt, meerdere dingen mogen. We nemen contact op om het verder af te spreken.",
@@ -135,6 +166,10 @@ export const steunVelden: Veld[] = [
     hulp: "Meerdere vakjes aanvinken mag.",
     keuzes: [
       { naam: "Een gift", label: "Met een gift" },
+      {
+        naam: "Sponsoring als bedrijf",
+        label: "Als bedrijf, in ruil voor zichtbaarheid",
+      },
       { naam: "Schoolmateriaal", label: "Met schoolmateriaal" },
       { naam: "Boeken", label: "Met boeken" },
       { naam: "Vrijwilliger", label: "Als vrijwilliger bij onze werkingen" },
