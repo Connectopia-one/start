@@ -26,6 +26,8 @@ export const site = {
     zoeken; het gewone adres volstaat.
   */
   instagram: "https://www.instagram.com/connectopia_samensterk",
+  /* LinkedIn, vooral voor bedrijven, scholen en professionals. */
+  linkedin: "https://www.linkedin.com/company/connectopia-one/",
   /* Het mailadres uit al onze communicatie, van de MATM groep. */
   email: "info@matmgroep.com",
   /*
@@ -50,6 +52,7 @@ export const site = {
 export const volgOns = [
   { naam: "Facebook", adres: site.facebook },
   { naam: "Instagram", adres: site.instagram },
+  { naam: "LinkedIn", adres: site.linkedin },
 ].filter((kanaal) => kanaal.adres);
 
 /*
