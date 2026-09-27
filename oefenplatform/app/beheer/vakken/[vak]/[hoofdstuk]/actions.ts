@@ -21,6 +21,46 @@ function terugPad(vakSlug: string, volgnummer: string) {
   return `/beheer/vakken/${vakSlug}/${volgnummer}`;
 }
 
+function leesOpties(type: NieuweVraag["type"], optiesRaw: string): string[] | null {
+  if (type !== "meerkeuze") return null;
+  return optiesRaw.split("\n").map((r) => r.trim()).filter(Boolean);
+}
+
+/**
+ * Leest het antwoordveld zoals een mens het intikt.
+ *
+ * Bij meerkeuze mag je meer dan één nummer invullen, gescheiden door een
+ * komma: "0, 2" betekent dat het eerste én het derde antwoord juist zijn en
+ * dat een kind ze allebei moet aanduiden. Bij een invulvraag mag je meer dan
+ * één juist antwoord geven, gescheiden door een verticale streep:
+ * "planteneters | herbivoren". Het eerste is wat het kind te zien krijgt, de
+ * rest telt evengoed juist. Zie lib/antwoord.ts.
+ *
+ * Staat hier apart omdat zowel maakVraag als bewerkVraag ze nodig heeft: twee
+ * kopieën zouden na de eerste aanpassing uit elkaar lopen.
+ */
+function leesAntwoord(
+  type: NieuweVraag["type"],
+  antwoordRaw: string
+): number | string | boolean | number[] | string[] {
+  if (type === "meerkeuze") {
+    const nummers = antwoordRaw
+      .split(",")
+      .map((deel) => Number(deel.trim()))
+      .filter((n) => Number.isInteger(n));
+    if (!nummers.length) throw new Error("Vul bij meerkeuze een nummer in, of meerdere met een komma ertussen.");
+    return nummers.length === 1 ? nummers[0] : nummers.sort((a, b) => a - b);
+  }
+  if (type === "waarofniet") {
+    return antwoordRaw.toLowerCase() === "waar" || antwoordRaw.toLowerCase() === "true";
+  }
+  if (antwoordRaw.includes("|")) {
+    const woorden = antwoordRaw.split("|").map((w) => w.trim()).filter(Boolean);
+    return woorden.length > 1 ? woorden : woorden[0] || antwoordRaw;
+  }
+  return antwoordRaw;
+}
+
 /**
  * Wordt rechtstreeks aangeroepen vanuit NieuwVraagForm (een client component),
  * niet als een `<form action>` — gooit daarom een gewone Error in plaats van
@@ -43,27 +83,8 @@ export async function maakVraag(formData: FormData) {
     throw new Error("Vul minstens de vraag en het antwoord in.");
   }
 
-  const opties = type === "meerkeuze" ? optiesRaw.split("\n").map((r) => r.trim()).filter(Boolean) : null;
-  let antwoord: number | string | boolean | number[] | string[];
-  // Bij meerkeuze mag je meer dan één nummer invullen, gescheiden door een
-  // komma: "0, 2" betekent dat het eerste én het derde antwoord juist zijn en
-  // dat een kind ze allebei moet aanduiden. Zie lib/antwoord.ts.
-  if (type === "meerkeuze") {
-    const nummers = antwoordRaw
-      .split(",")
-      .map((deel) => Number(deel.trim()))
-      .filter((n) => Number.isInteger(n));
-    if (!nummers.length) throw new Error("Vul bij meerkeuze een nummer in, of meerdere met een komma ertussen.");
-    antwoord = nummers.length === 1 ? nummers[0] : nummers.sort((a, b) => a - b);
-  }
-  else if (type === "waarofniet") antwoord = antwoordRaw.toLowerCase() === "waar" || antwoordRaw.toLowerCase() === "true";
-  // Bij een invulvraag mag je meer dan één juist antwoord geven, gescheiden
-  // door een verticale streep: "planteneters | herbivoren". Het eerste is wat
-  // het kind te zien krijgt, de rest telt evengoed juist. Zie lib/antwoord.ts.
-  else if (antwoordRaw.includes("|")) {
-    const woorden = antwoordRaw.split("|").map((w) => w.trim()).filter(Boolean);
-    antwoord = woorden.length > 1 ? woorden : woorden[0] || antwoordRaw;
-  } else antwoord = antwoordRaw;
+  const opties = leesOpties(type, optiesRaw);
+  const antwoord = leesAntwoord(type, antwoordRaw);
 
   const admin = createAdminClient();
 
@@ -79,6 +100,51 @@ export async function maakVraag(formData: FormData) {
   });
 
   if (error) throw new Error("Vraag toevoegen is niet gelukt: " + error.message);
+
+  revalidatePath(terugPad(vakSlug, volgnummer));
+}
+
+/**
+ * Past een vraag aan die er al staat.
+ *
+ * Waarom dit bestaat: als er een melding binnenkomt dat een vraag onduidelijk
+ * is, was het vroeger verwijderen en opnieuw intikken, of het hele
+ * vragenbestand opnieuw importeren. Verwijderen kost het volgnummer en het
+ * werk dat de kinderen op die vraag gemaakt hebben; een import van honderd
+ * vragen om één zin te herschrijven is niet in verhouding.
+ *
+ * De afbeelding blijft staan zoals ze is: die verandert via toevoegen of
+ * verwijderen, niet hier.
+ *
+ * Wordt net als maakVraag rechtstreeks aangeroepen vanuit een client
+ * component, dus met een gewone Error in plaats van een redirect.
+ */
+export async function bewerkVraag(formData: FormData) {
+  await requireBeheerder();
+  const id = String(formData.get("id") || "");
+  const vakSlug = String(formData.get("vak_slug") || "");
+  const volgnummer = String(formData.get("volgnummer") || "");
+  const type = String(formData.get("type") || "meerkeuze") as NieuweVraag["type"];
+  const vraag = String(formData.get("vraag") || "").trim();
+  const optiesRaw = String(formData.get("opties") || "").trim();
+  const antwoordRaw = String(formData.get("antwoord") || "").trim();
+  const uitleg = String(formData.get("uitleg") || "").trim() || null;
+
+  if (!id) throw new Error("Welke vraag het is, is onderweg verloren gegaan. Herlaad de pagina.");
+  if (!vraag || !antwoordRaw) {
+    throw new Error("Vul minstens de vraag en het antwoord in.");
+  }
+
+  const opties = leesOpties(type, optiesRaw);
+  const antwoord = leesAntwoord(type, antwoordRaw);
+
+  const admin = createAdminClient();
+  const { error } = await admin
+    .from("vragen")
+    .update({ type, vraag, opties, antwoord, uitleg })
+    .eq("id", id);
+
+  if (error) throw new Error("Aanpassen is niet gelukt: " + error.message);
 
   revalidatePath(terugPad(vakSlug, volgnummer));
 }

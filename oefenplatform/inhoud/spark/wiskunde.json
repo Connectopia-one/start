@@ -186,14 +186,14 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke schrijfwijze hoort niet bij de andere twee?",
+          "vraag": "Hieronder staat hetzelfde getal in drie schrijfwijzen — op één na. Welke hoort er niet bij?",
           "opties": [
             "0,4",
             "40 %",
             "1/4"
           ],
           "antwoord": 2,
-          "uitleg": "0,4 en 40 % zijn hetzelfde. 1/4 is 0,25, ofwel 25 %."
+          "uitleg": "0,4 en 40 % zijn hetzelfde getal: 40 van de 100. 1/4 is 0,25, dus 25 %."
         },
         {
           "type": "invultekst",

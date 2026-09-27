@@ -4,9 +4,11 @@ Twaalf bestanden, telkens via **Beheer → Vakken → het vak → vragen importe
 Het vinkje **"Bestaande vragen vervangen"** staat per bestand hieronder. Doe elk
 bestand **één keer**.
 
-Let op: importeren met "vervangen" wist de ✅ per vraag (de voortgang) van dat
-vak. De sterren per hoofdstuk blijven wel staan. Zolang de testgezinnen nog niet
-begonnen zijn, kost dat niets.
+Sinds 27 september 2026 mag dit ook als er al kinderen aan het werk zijn: wat ze
+gemaakt hebben, blijft meetellen in hun voortgang. Wel is daarna niet meer na te
+lezen wélk vraagje het precies was, en de ✅ per losse vraag verdwijnt. De
+sterren per hoofdstuk en de balkjes blijven staan. Draai daarvoor eerst
+`supabase/voortgang-blijft.sql`, als je dat nog niet gedaan hebt.
 
 ## 🌱 Start
 
@@ -39,6 +41,16 @@ databank meegekomen zijn. Spelling houdt er 47 over, Rekenen en breuken 37.
 
 Nummer 12 bevat ook Meetkunde en Metend rekenen, met de tekeningen erbij.
 `wiskunde-meetkunde-metend.json` hoef je er dus niet meer apart bij te laden.
+
+Heb je nummer 12 al gedaan en komt er later nog een verbetering aan wiskunde
+✨ Spark bij? Dan mag je dat bestand gewoon opnieuw importeren, opnieuw met
+**vervangen** aan. Twee keer hetzelfde bestand zonder dat vinkje zet alles
+dubbel; mét het vinkje kan het geen kwaad.
+
+Voor één zin die anders moet, hoef je trouwens niets meer te importeren. Bij
+elke vraag in Beheer → Vakken staat nu een knopje **Aanpassen**: daarmee pas je
+de vraag, de opties, het antwoord en de uitleg ter plekke aan. Dat is meestal
+het snelste antwoord op een melding.
 
 ## En nog één ding buiten de vragen om
 

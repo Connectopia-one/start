@@ -15,6 +15,7 @@ import { NieuwLeerstofForm } from "./NieuwLeerstofForm";
 import { NieuwLeerbundelForm } from "./NieuwLeerbundelForm";
 import { schrijfWoordenlijst, type Woord } from "@/lib/woordenlijst";
 import { NieuwVraagForm } from "./NieuwVraagForm";
+import { VraagBewerken } from "./VraagBewerken";
 
 const VOORBEELD_JSON = `[
   {
@@ -131,7 +132,28 @@ export default async function BeheerVragenPage({
         <ul className="mt-6 space-y-2">
           {vragen.map((v) => (
             <li key={v.id} className="rounded-lg border border-border bg-surface p-3 text-sm">
-              <div className="flex items-start justify-between gap-3">
+              <VraagBewerken
+                vraag={{
+                  id: v.id,
+                  type: v.type,
+                  vraag: v.vraag,
+                  opties: v.opties as string[] | null,
+                  antwoord: v.antwoord,
+                  uitleg: v.uitleg,
+                }}
+                vakSlug={vakSlug}
+                volgnummer={volgnummerStr}
+                verwijderen={
+                  <form action={verwijderVraag}>
+                    <input type="hidden" name="id" value={v.id} />
+                    <input type="hidden" name="vak_slug" value={vakSlug} />
+                    <input type="hidden" name="volgnummer" value={volgnummerStr} />
+                    <button type="submit" className="text-xs text-danger hover:underline">
+                      Verwijderen
+                    </button>
+                  </form>
+                }
+              >
                 <div>
                   <p className="font-medium text-ink">
                     {v.volgnummer}. {v.vraag}
@@ -157,15 +179,7 @@ export default async function BeheerVragenPage({
                     </a>
                   )}
                 </div>
-                <form action={verwijderVraag}>
-                  <input type="hidden" name="id" value={v.id} />
-                  <input type="hidden" name="vak_slug" value={vakSlug} />
-                  <input type="hidden" name="volgnummer" value={volgnummerStr} />
-                  <button type="submit" className="shrink-0 text-xs text-danger hover:underline">
-                    Verwijderen
-                  </button>
-                </form>
-              </div>
+              </VraagBewerken>
             </li>
           ))}
           {!vragen.length && <li className="text-sm text-ink-dim">Nog geen vragen.</li>}
