@@ -22,10 +22,12 @@ export const steun = {
     "Connectopia is een vzw en we werken met eigen middelen. Alles wat we doen, van de plusklassen tot de kampen en het oefenplatform, bouwen we zelf op. Wil je ons een duwtje geven? Dat kan op veel meer manieren dan met geld alleen.",
 
   /*
-    Het rekeningnummer van de vzw. Laat dit leeg tot het zeker is; dan zegt de
-    pagina gewoon dat we de gegevens bezorgen aan wie erom vraagt.
+    Het rekeningnummer van de vzw, bij Belfius. Doorgegeven door Kim op
+    27 september 2026 en nagerekend: zowel de IBAN-controle als de Belgische
+    controlegetallen kloppen. Maak je het ooit leeg, dan zegt de pagina vanzelf
+    weer dat we de gegevens bezorgen aan wie erom vraagt.
   */
-  rekening: "",
+  rekening: "BE61 0689 6047 3617",
 
   manierenTitel: "Zo kan je helpen",
   manieren: [
