@@ -6,7 +6,9 @@ const { chromium } = require('/opt/node22/lib/node_modules/playwright');
   await p.evaluate(() => document.fonts.ready);
   await p.waitForTimeout(400);
   const maat = await p.evaluate(() => {
-    const laatste = document.querySelector('.tijd').getBoundingClientRect();
+    // het laatste blok in de gewone stroom, wat dat ook is
+    const blokken = [...document.body.children].filter((el) => !el.classList.contains('voet') && el.tagName !== 'SVG');
+    const laatste = blokken[blokken.length - 1].getBoundingClientRect();
     const voet = document.querySelector('.voet').getBoundingClientRect();
     return { tijdOnder: Math.round(laatste.bottom), voetBoven: Math.round(voet.top), hoogte: document.body.scrollHeight };
   });

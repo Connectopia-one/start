@@ -58,21 +58,26 @@
   .extra p b { color: var(--green); font-weight: 900; }
   .extra .mens { margin-bottom: 1.8mm; padding-bottom: 1.8mm; border-bottom: .3mm solid var(--border); }
 
-  .vraag { margin: 4mm 14mm 0; border-radius: 20px; background: var(--green); color: #fff; padding: 4mm 6mm 4.4mm; }
+  .vraag { margin: 4mm 14mm 0; border-radius: 20px; background: var(--green); color: #fff; padding: 3.6mm 6mm 4mm; }
   .vraag .hand { font-family: "Caveat"; font-size: 17pt; color: var(--sage-soft); line-height: 1; }
   .vraag h2 { font-weight: 900; font-size: 16pt; line-height: 1.1; margin-top: .8mm; }
   .vraag p { font-size: 9.8pt; line-height: 1.4; margin-top: 2mm; color: #e8efdc; font-weight: 600; }
-  .vraag ul { margin-top: 2.6mm; display: grid; grid-template-columns: 1fr 1fr; gap: 1.6mm 5mm; list-style: none; }
+  .vraag ul { margin-top: 2.6mm; display: grid; grid-template-columns: 1fr 1fr; gap: 1.3mm 5mm; list-style: none; }
   .vraag li { font-size: 9.6pt; line-height: 1.32; font-weight: 700; padding-left: 5.5mm; position: relative; }
   .vraag li::before { content: "→"; position: absolute; left: 0; color: var(--sage-soft); font-weight: 900; }
-  .vraag .slot { margin-top: 3.4mm; font-size: 9.8pt; font-weight: 800; background: rgba(255,255,255,.12);
-                 border-radius: 14px; padding: 2.6mm 4mm; line-height: 1.38; }
+  .vraag .slot { margin-top: 3mm; font-size: 9.8pt; font-weight: 800; background: rgba(255,255,255,.12);
+                 border-radius: 14px; padding: 2.2mm 4mm; line-height: 1.38; }
 
-  .tijd { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; padding: 4mm 14mm 0; }
-  .tijd > div { border-radius: 20px; border: .35mm solid var(--border); background: #fff; padding: 3.4mm 5mm 4mm; }
+  .tijd { display: grid; grid-template-columns: 1fr 1fr; gap: 4mm; padding: 3.4mm 14mm 0; }
+  .tijd > div { border-radius: 20px; border: .35mm solid var(--border); background: #fff; padding: 3.2mm 5mm 3.4mm; }
   .tijd .wanneer { font-family: "Caveat"; font-size: 17pt; color: var(--orange); line-height: 1; }
   .tijd .wat { font-size: 9.5pt; line-height: 1.38; color: var(--ink-dim); font-weight: 600; margin-top: .8mm; }
   .tijd .wat b { color: var(--ink); font-weight: 800; }
+
+  .delen { margin: 3.4mm 14mm 0; border-radius: 20px; background: var(--orange-soft);
+           border: .35mm solid #f0cfae; padding: 2.8mm 5mm 3mm; }
+  .delen p { font-size: 9.5pt; line-height: 1.38; color: #6b4a2c; font-weight: 600; }
+  .delen p b { color: var(--orange); font-weight: 900; }
 
   .voet { position: absolute; left: 0; right: 0; bottom: 0; padding: 4mm 14mm 5mm;
           border-top: .35mm solid var(--border); background: var(--cream); }
@@ -104,7 +109,7 @@
   <div class="code">
     <div class="links">
       <div class="stap">Zo raak je binnen</div>
-      <div class="uitleg">Surf naar <b>oefenplatform.connectopia.one</b>, maak één account aan voor jullie gezin en vul bij het registreren de code hiernaast in. Daarna maak je <b>per kind een eigen profiel</b>, zodat elk kind zijn eigen voortgang en sterren heeft. Eén gezin is één licentie, hoeveel kinderen je ook hebt.</div>
+      <div class="uitleg">Surf naar <b>oefenplatform.connectopia.one</b>, maak één account aan voor jullie gezin en vul bij het registreren de code hiernaast in. Daarna maak je <b>per kind een eigen profiel</b>, zodat elk kind zijn eigen voortgang en sterren heeft. Eén gezin is één licentie.</div>
     </div>
     <div class="vak">
       <div class="klein">Jullie toegangscode</div>
@@ -115,7 +120,7 @@
   <div class="kaarten">
     <div class="kaart groen">
       <div class="hoed"><span class="bol">🌿</span> Rustig met opzet</div>
-      <div class="inhoud">Weinig kleur, geen drukke prenten, geen geluiden. <b>Veel kinderen raken van zo'n scherm sneller overprikkeld dan van de leerstof zelf.</b></div>
+      <div class="inhoud">Weinig kleur, geen geluiden, geen drukke prenten. <b>Veel kinderen raken van zo'n scherm sneller overprikkeld dan van de leerstof.</b></div>
     </div>
     <div class="kaart paars">
       <div class="hoed"><span class="bol">💡</span> Uitleg meteen</div>
@@ -143,7 +148,7 @@
       <li>Werkte er iets niet op de computer of de gsm?</li>
       <li>Wat zou je zelf anders doen?</li>
     </ul>
-    <div class="slot">“Het is leuk” helpt ons niet vooruit, eerlijk mag ook oncomfortabel zijn. Onderaan elk hoofdstuk staat een meldknop, dat is de snelste weg. Of mail naar info@matmgroep.com of bel 0468 35 74 96. Liever tien korte berichtjes onderweg dan één lange op het einde.</div>
+    <div class="slot">“Het is leuk” helpt ons niet vooruit, eerlijk mag ook oncomfortabel zijn. Onderaan elk hoofdstuk staat een meldknop, dat is de snelste weg. Of mail info@matmgroep.com, of bel 0468 35 74 96.</div>
   </div>
 
   <div class="tijd">
@@ -155,6 +160,12 @@
       <div class="wanneer">Na 31 oktober</div>
       <div class="wat">Een korte evaluatie invullen, en je <b>houdt gratis toegang tot einde schooljaar 2026-2027</b>.</div>
     </div>
+  </div>
+
+  <div class="delen">
+    <p><b>Deel het gerust.</b> We vinden het fijn als je het oefenplatform laat zien aan wie er iets
+    aan heeft. Zolang we volop bouwen, betaalt een gezin <b>20 euro voor heel het schooljaar</b>
+    in plaats van 50.</p>
   </div>
 
   <div class="voet">
