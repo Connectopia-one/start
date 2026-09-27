@@ -28,6 +28,19 @@
 
 module.exports = [
   {
+    bestand: "we-zijn-gestart",
+    kleur: "oranje",
+    pil: "Het is zover",
+    hand: "Na maanden bouwen",
+    titel: "Yes!<br><span>We zijn gestart</span>",
+    tekst:
+      "Onze website en ons oefenplatform staan online. Kom gerust rondkijken: wie we zijn, wat we doen, en waar je met je vragen terechtkan.",
+    nadruk:
+      "Testgezinnen: jullie mail is onderweg. Zie je hem niet staan? Kijk zeker ook even in je spam of ongewenste mail.",
+    voet: { hand: "Alles staat klaar op", url: "www.connectopia.one" },
+  },
+
+  {
     bestand: "testgezinnen-bijna-zover",
     kleur: "oranje",
     pil: "Winactie",
