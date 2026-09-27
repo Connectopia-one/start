@@ -4,8 +4,8 @@ import { notFound } from "next/navigation";
 import { Aanvraagformulier } from "@/components/Aanvraagformulier";
 import { Kaart, Label, PaginaKop, Sectie } from "@/components/ui";
 import { trajecten } from "@/content/aanbod";
-import type { SoortSleutel } from "@/content/formulier";
-import { formulierTekst, soorten } from "@/content/formulier";
+import type { SoortSleutel, Veld } from "@/content/formulier";
+import { formulierTekst, soorten, velden } from "@/content/formulier";
 import { site } from "@/content/site";
 
 const soortSleutels = Object.keys(soorten) as SoortSleutel[];
@@ -25,6 +25,18 @@ export function generateStaticParams() {
     }
   }
   return paden;
+}
+
+/*
+  De gewone vragen, met daartussen de vragen die alleen bij dit traject horen
+  (zie `extraVragen` in content/aanbod.ts). Ze komen net boven "Je vraag of
+  boodschap", want dat is het afsluitende vakje; eronder leest niemand ze nog.
+*/
+function vragenVoor(extra: Veld[] | undefined): Veld[] {
+  if (!extra?.length) return velden;
+  const plek = velden.findIndex((v) => v.soort === "lang");
+  if (plek === -1) return [...velden, ...extra];
+  return [...velden.slice(0, plek), ...extra, ...velden.slice(plek)];
 }
 
 function leesSlug(slug: string) {
@@ -83,6 +95,7 @@ export default async function AanvraagPagina({
         <Kaart>
           <Aanvraagformulier
             onderwerp={onderwerp}
+            vragen={vragenVoor(traject?.extraVragen)}
             verborgen={[
               {
                 naam: "Aanbod",

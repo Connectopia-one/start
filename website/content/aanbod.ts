@@ -3,6 +3,8 @@
   Een traject toevoegen of aanpassen doe je hier; de pagina past zich vanzelf aan.
 */
 
+import type { Veld } from "@/content/formulier";
+
 export type Traject = {
   /* Kort kenmerk voor het webadres van het aanvraagformulier. Alleen kleine letters en streepjes. */
   slug: string;
@@ -26,6 +28,13 @@ export type Traject = {
     tekst: string;
     data?: string[];
   };
+  /*
+    Vragen die alleen bij dít traject op het aanvraagformulier komen, boven
+    het vakje "Je vraag of boodschap". Bij de kampen vragen we zo meteen om
+    welke dagen het gaat; zonder die vraag moet je dat achteraf per mail
+    navragen. Dezelfde vorm als de gewone vragen in content/formulier.ts.
+  */
+  extraVragen?: Veld[];
 };
 
 /* Het blok over de gratis proefles, bovenaan de aanbodpagina. */
@@ -208,6 +217,36 @@ export const trajecten: Traject[] = [
       beschrijving:
         "Een kind drukt op een knop bij een proefopstelling met een gele onderzeeër in een waterbak.",
     },
+    extraVragen: [
+      {
+        naam: "Welke kampdagen",
+        label: "Welke dagen wil je erbij zijn?",
+        soort: "keuzes",
+        hulp: "Je mag er zoveel aankruisen als je wil. Elke dag is een volledige dag van 9u tot 15u.",
+        keuzes: [
+          {
+            naam: "Hasselt maandag 2 november",
+            label: "Hasselt, maandag 2 november — Young Engineer Held",
+          },
+          {
+            naam: "Hasselt dinsdag 3 november",
+            label: "Hasselt, dinsdag 3 november — Young Engineer Held",
+          },
+          {
+            naam: "Genk woensdag 4 november",
+            label: "Genk, woensdag 4 november — Creatieve duizendpoot",
+          },
+          {
+            naam: "Genk donderdag 5 november",
+            label: "Genk, donderdag 5 november — Creatieve duizendpoot",
+          },
+          {
+            naam: "Een latere vakantie",
+            label: "Nog niet de herfstvakantie, maar hou me op de hoogte van een volgend kamp",
+          },
+        ],
+      },
+    ],
     tekst:
       "Een vakantie vol nieuwsgierigheid, creativiteit, techniek en uitdaging. Nieuwe kampen en thema's maken we telkens bekend via de website en de sociale media.",
     punten: [
