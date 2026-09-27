@@ -387,9 +387,10 @@ export default async function BeheerVakkenPage({
                         <span className="font-medium">Bestaande vragen vervangen</span> — is een
                         hoofdstuk verouderd, vink dit dan aan: de oude vragen gaan weg en enkel die
                         uit dit bestand blijven over. Het hoofdstuk houdt zijn plek, zijn webadres
-                        en zijn leerbundel, dus je hoeft het niet te verwijderen. Let op: de
-                        antwoorden die kinderen op die oude vragen gaven, verdwijnen mee. Laat je
-                        dit uit staan, dan komen de vragen er gewoon bij.
+                        en zijn leerbundel, dus je hoeft het niet te verwijderen. Wat kinderen al
+                        maakten blijft meetellen in hun voortgang; enkel welk vraagje het precies
+                        was, is daarna niet meer na te lezen. Laat je dit uit staan, dan komen de
+                        vragen er gewoon bij.
                       </span>
                     </label>
                     <button

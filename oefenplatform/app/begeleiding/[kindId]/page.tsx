@@ -11,13 +11,11 @@ import { verwijderNotitie, verwijderWerk } from "./actions";
 type VoortgangRij = {
   correct: boolean;
   beantwoord_op: string;
-  vragen: {
-    hoofdstukken: {
-      id: string;
-      titel: string;
-      vakken: { id: string; naam: string };
-    };
-  };
+  hoofdstukken: {
+    id: string;
+    titel: string;
+    vakken: { id: string; naam: string };
+  } | null;
 };
 type StickerRij = {
   id: string;
@@ -86,7 +84,7 @@ export default async function FichePage({
     supabase
       .from("voortgang")
       .select(
-        "correct, beantwoord_op, vragen(hoofdstukken(id, titel, vakken(id, naam)))",
+        "correct, beantwoord_op, hoofdstukken(id, titel, vakken(id, naam))",
       )
       .eq("kind_id", kindId)
       .order("beantwoord_op", { ascending: false }),
@@ -113,7 +111,7 @@ export default async function FichePage({
   let totaal = 0;
   let juist = 0;
   for (const rij of (rijen ?? []) as unknown as VoortgangRij[]) {
-    const hoofdstuk = rij.vragen?.hoofdstukken;
+    const hoofdstuk = rij.hoofdstukken;
     const vak = hoofdstuk?.vakken;
     if (!hoofdstuk || !vak) continue;
     totaal += 1;

@@ -12,9 +12,7 @@ import { Antwoorden, type Poging, type Vraag } from "../Antwoorden";
 */
 
 type VoortgangRij = Poging & {
-  vragen: {
-    hoofdstukken: { id: string; titel: string; vakken: { naam: string } };
-  };
+  hoofdstukken: { id: string; titel: string; vakken: { naam: string } } | null;
 };
 
 export default async function TestenPage({
@@ -43,7 +41,7 @@ export default async function TestenPage({
   const { data: voortgang } = await supabase
     .from("voortgang")
     .select(
-      "vraag_id, correct, gegeven_antwoord, beantwoord_op, vragen(hoofdstukken(id, titel, vakken(naam)))",
+      "vraag_id, correct, gegeven_antwoord, beantwoord_op, hoofdstukken(id, titel, vakken(naam))",
     )
     .eq("kind_id", kindId)
     .order("beantwoord_op", { ascending: false });
@@ -54,7 +52,7 @@ export default async function TestenPage({
     { titel: string; vak: string; pogingen: Poging[] }
   >();
   for (const rij of (voortgang ?? []) as unknown as VoortgangRij[]) {
-    const h = rij.vragen?.hoofdstukken;
+    const h = rij.hoofdstukken;
     if (!h) continue;
     if (enkelHoofdstuk && h.id !== enkelHoofdstuk) continue;
     if (!hoofdstukken.has(h.id)) {

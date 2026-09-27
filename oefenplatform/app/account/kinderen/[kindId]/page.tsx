@@ -9,14 +9,11 @@ type Rij = {
   id: string;
   correct: boolean;
   beantwoord_op: string;
-  vragen: {
+  hoofdstukken: {
     id: string;
-    hoofdstukken: {
-      id: string;
-      titel: string;
-      vakken: { id: string; naam: string };
-    };
-  };
+    titel: string;
+    vakken: { id: string; naam: string };
+  } | null;
 };
 
 type StickerRij = {
@@ -43,7 +40,7 @@ export default async function KindVoortgangPage({
   const [{ data: rijen }, { data: stickers }] = await Promise.all([
     supabase
       .from("voortgang")
-      .select("id, correct, beantwoord_op, vragen(id, hoofdstukken(id, titel, vakken(id, naam)))")
+      .select("id, correct, beantwoord_op, hoofdstukken(id, titel, vakken(id, naam))")
       .eq("kind_id", kindId)
       .order("beantwoord_op", { ascending: false }),
     supabase
@@ -58,7 +55,7 @@ export default async function KindVoortgangPage({
   let totaalCorrect = 0;
 
   for (const rij of (rijen ?? []) as unknown as Rij[]) {
-    const hoofdstuk = rij.vragen?.hoofdstukken;
+    const hoofdstuk = rij.hoofdstukken;
     const vak = hoofdstuk?.vakken;
     if (!hoofdstuk || !vak) continue;
 

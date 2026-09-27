@@ -310,7 +310,8 @@ function titelSleutel(titel: string) {
  * Staat "vervang" aan, dan gaan de vragen die al bij zo'n hoofdstuk stonden
  * eerst weg en blijven alleen die uit dit bestand over. Zo kan je een
  * verouderd hoofdstuk bijwerken zonder het eerst te verwijderen — het houdt
- * dan ook zijn plek, zijn webadres en zijn leerbundel.
+ * dan ook zijn plek, zijn webadres, zijn leerbundel en de voortgang die de
+ * kinderen er al op hebben.
  */
 export async function bulkImportVakInhoud(formData: FormData) {
   await requireBeheerder();
@@ -504,6 +505,12 @@ export async function bulkImportVakInhoud(formData: FormData) {
 
     // Bij "vervangen" gaan de oude vragen van dit hoofdstuk eerst weg, zodat je
     // een bijgewerkt bestand kan importeren zonder alles dubbel te krijgen.
+    //
+    // De voortgang van de kinderen overleeft dat sinds 27 september 2026: in
+    // "voortgang" staat het hoofdstuk apart naast de vraag, en de band met de
+    // vraag is "on delete set null" in plaats van "cascade". Daarvoor wiste
+    // deze regel stilletjes ook elk antwoord dat aan zo'n vraag hing. Zet die
+    // band dus nooit terug op cascade; zie supabase/voortgang-blijft.sql.
     if (vervang) {
       const { error: wisFout } = await admin.from("vragen").delete().eq("hoofdstuk_id", hoofdstukId);
       if (wisFout) {

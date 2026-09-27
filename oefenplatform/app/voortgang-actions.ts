@@ -28,6 +28,11 @@ async function kindEigenaarOfNull(kindId: string): Promise<SupabaseClient | null
 export async function registreerAntwoord(
   kindId: string,
   vraagId: string,
+  // Het hoofdstuk wordt er apart bij bewaard. Vervangt Kim later de vragen van
+  // dit hoofdstuk door een nieuw bestand, dan verdwijnt de vraag maar blijft
+  // dit antwoord meetellen. Zonder die kolom stond elk kind na zo'n import
+  // weer op nul.
+  hoofdstukId: string | null,
   correct: boolean,
   // Een lijstje nummers hoort bij een meerkeuzevraag met meer dan één juist
   // antwoord; zie lib/antwoord.ts. De kolom is jsonb, dus dat past gewoon.
@@ -37,7 +42,13 @@ export async function registreerAntwoord(
   if (!admin) return;
   await admin
     .from("voortgang")
-    .insert({ kind_id: kindId, vraag_id: vraagId, correct, gegeven_antwoord: gegevenAntwoord });
+    .insert({
+      kind_id: kindId,
+      vraag_id: vraagId,
+      hoofdstuk_id: hoofdstukId,
+      correct,
+      gegeven_antwoord: gegevenAntwoord,
+    });
 }
 
 /**
@@ -87,18 +98,18 @@ export async function haalHoofdstukStatus(
     admin.from("stickers").select("hoofdstuk_id").eq("kind_id", kindId).in("hoofdstuk_id", ids),
     admin
       .from("voortgang")
-      .select("beantwoord_op, vragen!inner(hoofdstuk_id)")
+      .select("beantwoord_op, hoofdstuk_id")
       .eq("kind_id", kindId)
-      .in("vragen.hoofdstuk_id", ids),
+      .in("hoofdstuk_id", ids),
   ]);
 
   const perfect = new Set((stickers ?? []).map((s) => s.hoofdstuk_id as string));
   const laatste = new Map<string, string>();
   for (const rij of (rijen ?? []) as unknown as {
     beantwoord_op: string;
-    vragen: { hoofdstuk_id: string } | null;
+    hoofdstuk_id: string | null;
   }[]) {
-    const id = rij.vragen?.hoofdstuk_id;
+    const id = rij.hoofdstuk_id;
     if (!id) continue;
     const huidige = laatste.get(id);
     if (!huidige || rij.beantwoord_op > huidige) laatste.set(id, rij.beantwoord_op);
@@ -133,10 +144,10 @@ export async function haalTelling(kindId: string): Promise<Telling> {
       .eq("correct", true),
     admin
       .from("voortgang")
-      .select("id, vragen!inner(hoofdstukken!inner(niveau))", { count: "exact", head: true })
+      .select("id, hoofdstukken!inner(niveau)", { count: "exact", head: true })
       .eq("kind_id", kindId)
       .eq("correct", true)
-      .eq("vragen.hoofdstukken.niveau", "hoekje"),
+      .eq("hoofdstukken.niveau", "hoekje"),
     // De sterren zelf zijn er hooguit enkele tientallen, dus die halen we
     // gewoon op: daaruit volgen én het aantal, én in hoeveel vakken, én of er
     // een hoofdstuk van 🧱 Basis bij zit.

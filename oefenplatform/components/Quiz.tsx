@@ -463,6 +463,7 @@ export function Quiz({
               registreerAntwoord(
                 actiefKindId,
                 vraag.id,
+                hoofdstukId ?? null,
                 correct,
                 zoalsOpgeslagen(vraag, statussen[vraag.id].gegevenAntwoord)
               ).catch(() => {});

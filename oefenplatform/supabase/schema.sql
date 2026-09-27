@@ -139,10 +139,16 @@ create table if not exists public.kinderen (
 -- herkansing (blijft dus een geschiedenis), zodat een rapport ook evolutie kan tonen.
 -- gegeven_antwoord: wat het kind precies invulde (index bij meerkeuze, tekst bij
 -- invultekst, true/false bij waarofniet) — zodat ouders/beheerder dit kunnen naslaan.
+--
+-- Het hoofdstuk staat er apart bij, náást de vraag. Dat is met opzet dubbel:
+-- vervang je de vragen van een hoofdstuk door een nieuw bestand, dan verdwijnt
+-- de vraag maar blijft het antwoord staan, met "vraag_id" leeg. Zonder die
+-- tweede kolom viel bij zo'n import de hele voortgang van elk kind weg.
 create table if not exists public.voortgang (
   id uuid primary key default gen_random_uuid(),
   kind_id uuid not null references public.kinderen(id) on delete cascade,
-  vraag_id uuid not null references public.vragen(id) on delete cascade,
+  vraag_id uuid references public.vragen(id) on delete set null,
+  hoofdstuk_id uuid references public.hoofdstukken(id) on delete cascade,
   correct boolean not null,
   gegeven_antwoord jsonb,
   beantwoord_op timestamptz not null default now()
@@ -150,6 +156,11 @@ create table if not exists public.voortgang (
 
 -- Migratie voor databases die dit bestand al eerder draaiden vóór "gegeven_antwoord" bestond.
 alter table public.voortgang add column if not exists gegeven_antwoord jsonb;
+
+-- Voor databases van vóór 27 september 2026 doet supabase/voortgang-blijft.sql
+-- hetzelfde: het hoofdstuk erbij zetten en de band met de vraag losser maken.
+create index if not exists voortgang_kind_hoofdstuk_idx
+  on public.voortgang (kind_id, hoofdstuk_id);
 
 -- Stickers — één rij per hoofdstuk dat een kind ooit volledig correct
 -- afwerkte (100%). De unique-regel zorgt dat het slechts één keer geteld
