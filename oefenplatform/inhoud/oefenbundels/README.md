@@ -13,22 +13,35 @@ bijvoorbeeld `inhoud/start/wiskunde-rekenen-en-breuken.json`.
 
 ## Wat er klaar is
 
-**🌱 Start is volledig: 32 bundels, 545 oefeningen.** Eén bundel per hoofdstuk.
+**🌱 Start en ✨ Spark zijn allebei volledig: 79 bundels, 1 275 oefeningen.**
 
-| vak | bundels | oefeningen |
-| --- | --- | --- |
-| Wiskunde | 7 | 153 |
-| Wetenschap en techniek | 7 | 112 |
-| Engels | 6 | 99 |
-| Nederlands | 6 | 95 |
-| Geschiedenis | 3 | 43 |
-| Aardrijkskunde | 3 | 43 |
+Op 🌱 Start is er één bundel per hoofdstuk. Op ✨ Spark is er één bundel per
+**thema**: deel 1 en deel 2 behandelen dezelfde leerstof, alleen met
+moeilijkere vragen, dus dezelfde pdf gaat bij allebei. Net als bij de
+leerbundels. De twee hoofdstukken begrijpend lezen staan wél los en hebben elk
+hun eigen bundel.
 
-✨ Spark heeft er nog geen.
+| 🌱 Start | bundels | oefeningen | | ✨ Spark | bundels | oefeningen |
+| --- | --- | --- | --- | --- | --- | --- |
+| Wiskunde | 7 | 153 | | Wiskunde | 9 | 181 |
+| Wetenschap en techniek | 7 | 112 | | Natuurwetenschappen | 10 | 162 |
+| Engels | 6 | 99 | | Nederlands | 12 | 150 |
+| Nederlands | 6 | 95 | | Frans | 10 | 118 |
+| Geschiedenis | 3 | 43 | | Geschiedenis | 6 | 119 |
+| Aardrijkskunde | 3 | 43 | | | | |
+| **samen** | **32** | **545** | | **samen** | **47** | **730** |
 
-Per vak staat er een zip (`wiskunde.zip`, `engels.zip` …) en er is er één met
-alles erin (`alle-oefenbundels.zip`). In allebei zit per vak een map, dus je
-kan er twee naast elkaar uitpakken zonder dat de bestanden door elkaar lopen.
+Frans op ✨ Spark dekt **enkel de schriftelijke onderdelen**, net als de vragen
+op het scherm.
+
+Per vak en per categorie staat er een zip (`wiskunde-start.zip`,
+`wiskunde-spark.zip`, `frans-spark.zip` …) en er is er één met alles erin
+(`alle-oefenbundels.zip`). In allebei zit per vak een map, dus je kan er twee
+naast elkaar uitpakken zonder dat de bestanden door elkaar lopen.
+
+Waarom per categorie en niet enkel per vak: wie ✨ Spark aan het opladen is,
+wil de bundels van 🌱 Start er niet bij, want die staan er al. `maak_zips.py`
+haalt de categorie uit de bundel zelf, niet uit de bestandsnaam.
 
 ## Wat per vak anders is
 
@@ -51,6 +64,22 @@ scherm. Die bundels zijn daardoor vijf blad in plaats van vier.
 **Aardrijkskunde.** Er staat bewust geen landkaart in om na te tekenen. Een
 kaart uit het hoofd getekend klopt niet, en een kind mag geen foute vorm
 inprenten. De tekenopdrachten gaan over een kompasroos en een legende.
+
+**Alles van ✨ Spark.** De bestandsnaam eindigt op `-spark`. Dat is geen
+versiering: Beheer → Leerstof leest die categorie en zoekt dan enkel in de
+hoofdstukken van ✨ Spark. Zonder dat won "Meetkunde" van 🌱 Start het van
+"Meetkunde — deel 1" van Spark, want het woord "deel" staat nooit in een
+bestandsnaam en kostte de Spark-hoofdstukken punten. Geef een nieuwe
+Spark-bundel dus altijd die uitgang.
+
+**Natuurwetenschappen ✨ Spark.** Hier staan geen figuren uit `svg.py` in. Die
+tekeningen dragen hun namen mee, en dat verklapt in een oefenbundel net het
+antwoord. Wat getekend moet worden, tekent het kind zelf in een leeg kader.
+
+**Nederlands en Frans, begrijpend lezen.** Die bundels dragen hun eigen tekst
+mee, een andere dan die op het scherm, met vragen die alleen daarover gaan.
+Een leesvraag hoort op een echte tekst te staan, en bij Frans op een echte
+Franse tekst.
 
 ## Twee afspraken van Kim, 27 september 2026
 
