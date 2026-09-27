@@ -45,6 +45,10 @@ def main(filter_vak=None):
         print("  ", g)
     print(len(gemaakt), "bundels")
 
+    # De zips horen bij de pdf's ernaast, dus ze worden hier meteen opnieuw
+    # gemaakt: anders download je een zip met de vorige versie erin.
+    importlib.import_module("maak_zips").main()
+
 
 if __name__ == "__main__":
     main(sys.argv[1] if len(sys.argv) > 1 else None)

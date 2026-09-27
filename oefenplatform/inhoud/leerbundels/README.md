@@ -1,5 +1,15 @@
 # Leerbundels (pdf) bij de hoofdstukken
 
+## Alles in één keer downloaden
+
+`alle-leerbundels.zip` bevat elke pdf, met per vak een map. Downloaden, uitpakken,
+en dan op `/beheer/leerstof` per vak die map leegslepen. Dat spaart je 83 losse
+downloads.
+
+De zip wordt gemaakt door `bron/maak_zips.py` en loopt mee met
+`bron/maak_alles.py`, zodat hij nooit achterloopt op de pdf's ernaast. Draai hem
+dus opnieuw als je een bundel aanpast.
+
 Hier staat per vak een map met de leerbundels: de theorie bij een hoofdstuk, met
 tekeningen erbij, als pdf klaar om te uploaden.
 
