@@ -140,3 +140,18 @@ body.metfoto main { padding-top: 34px; }
 }
 .laden .balk span { display: block; height: 100%; border-radius: 999px; background: var(--accent); }
 .laden .onder { margin-top: 16px; font-weight: 700; font-size: 27px; color: var(--ink-dim); }
+
+/*
+  Een uitgeknipte figuur rechtsonder, bijvoorbeeld een kind met de duimen
+  omhoog. De tekst links wordt dan smaller gehouden, anders loopt ze achter
+  de figuur. De figuur staat net boven de groene balk.
+*/
+/*
+  Hij staat in de rechteronderhoek en loopt met opzet dóór achter de groene
+  balk (z-index 1, de balk staat op 2). Zou hij er net boven eindigen, dan zie
+  je de rechte onderrand van de uitsnede liggen en lijkt hij afgeknipt.
+*/
+.figuur { position: absolute; right: 0; bottom: 0; height: 660px; z-index: 1; }
+body.metfiguur .kop p,
+body.metfiguur .mid { max-width: 596px; }
+

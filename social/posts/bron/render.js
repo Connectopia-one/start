@@ -57,7 +57,8 @@ function blad(p) {
 <title>${p.bestand}</title>
 <link rel="stylesheet" href="stijl.css">
 </head>
-<body class="${[kleuren[p.kleur], p.foto ? 'metfoto' : ''].filter(Boolean).join(' ')}">
+<body class="${[kleuren[p.kleur], p.foto ? 'metfoto' : '', p.figuur ? 'metfiguur' : ''].filter(Boolean).join(' ')}">
+${p.figuur ? `  <img class="figuur" src="${p.figuur}" alt="">` : ''}
 ${p.foto ? `
   <div class="hero">
     <img src="${p.foto}" alt="" style="object-position: ${p.fotoPositie || '50% 45%'}">

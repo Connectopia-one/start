@@ -16,6 +16,8 @@
     woorden   korte woorden in bolletjes: { ic, tekst }
     titelKlein  zet de titel wat kleiner als hij lang is
     foto      een foto bovenaan, met de bestandsnaam uit deze map
+    figuur    een uitgeknipte figuur rechtsonder (een png met doorzichtige
+              achtergrond uit deze map); de tekst links wordt dan smaller
     fotoPositie  welk stuk van de foto je ziet, bv. "50% 30%"
     laden     een laadbalk: { naam, procent, onder } — voor een post over
               iets dat er bijna is
@@ -30,6 +32,7 @@ module.exports = [
   {
     bestand: "we-zijn-gestart",
     kleur: "oranje",
+    figuur: "zoon-duimen.png",
     pil: "Het is zover",
     hand: "Na maanden bouwen",
     titel: "Yes!<br><span>We zijn gestart</span>",
