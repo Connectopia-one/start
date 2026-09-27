@@ -37,6 +37,19 @@ function woorden(tekst: string): string[] {
 }
 
 /*
+  Eindigt de bestandsnaam op een categorie ("meetkunde-spark.pdf"), dan is dat
+  geen woord om op te zoeken maar een afbakening: kijk enkel naar de
+  hoofdstukken van die categorie. Zonder dat won "Meetkunde" van 🌱 Start het
+  van "Meetkunde — deel 1" van ✨ Spark, want dat woord "deel" staat nooit in
+  een bestandsnaam en kostte de Spark-hoofdstukken telkens punten.
+*/
+function niveauUitBestandsnaam(bestandsnaam: string): string | null {
+  const kaal = bestandsnaam.replace(/\.[a-z0-9]+$/i, "").toLowerCase();
+  const slug = NIVEAUS.find((n) => kaal.endsWith(`-${n.slug}`) || kaal.endsWith(`_${n.slug}`));
+  return slug ? slug.slug : null;
+}
+
+/*
   Zoekt bij een bestandsnaam de hoofdstukken die er het best bij passen.
   Elk woord dat in allebei voorkomt telt mee; staat de hele titel in de
   bestandsnaam, dan telt dat extra zwaar.
@@ -49,10 +62,12 @@ function woorden(tekst: string): string[] {
 function raadHoofdstukken(bestandsnaam: string, hoofdstukken: Hoofdstuk[]): string[] {
   const uitNaam = woorden(bestandsnaam);
   const plat = uitNaam.join(" ");
+  const niveau = niveauUitBestandsnaam(bestandsnaam);
+  const kandidaten = niveau ? hoofdstukken.filter((h) => h.niveau === niveau) : hoofdstukken;
   let besteScore = 0;
   let besten: Hoofdstuk[] = [];
 
-  for (const h of hoofdstukken) {
+  for (const h of kandidaten) {
     const uitTitel = woorden(h.titel);
     if (uitTitel.length === 0) continue;
     let score = uitTitel.filter((w) => uitNaam.includes(w)).length;
