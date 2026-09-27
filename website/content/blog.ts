@@ -409,6 +409,172 @@ export const berichten: Bericht[] = [
     ],
   },
   {
+    slug: "investeren-in-kinderen-is-investeren-in-de-toekomst",
+    titel:
+      "Investeren in kinderen met (U)HB en dubbeldiagnoses is investeren in de toekomst",
+    datum: "2026-09-22",
+    auteur: "Connectopia",
+    labels: ["onderwijs", "onderzoek"],
+    samenvatting:
+      "Wat als we vandaag talent missen dat we morgen hard nodig hebben? Over kinderen die onder de radar blijven, en waarom dat niet alleen hun verlies is.",
+    blokken: [
+      {
+        soort: "tekst",
+        tekst:
+          "De maatschappij van morgen vraagt om mensen die creatief kunnen denken, complexe problemen kunnen aanpakken, verbanden leggen en nieuwe oplossingen durven bedenken.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Tegelijkertijd zien we dat een groep kinderen met een bijzonder potentieel vandaag nog te vaak uit de boot valt: kinderen met (uitzonderlijke) hoogbegaafdheid ((U)HB) en kinderen met een dubbeldiagnose, zoals hoogbegaafdheid in combinatie met autisme, ADHD of een leerstoornis.",
+      },
+      {
+        soort: "citaat",
+        tekst: "Het potentieel is er. Maar benutten we het voldoende?",
+      },
+      {
+        soort: "kop",
+        tekst: "Wanneer talent en ondersteuningsnoden samenkomen",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Hoogbegaafdheid betekent niet automatisch dat een kind zonder problemen door het onderwijs gaat. Bij kinderen met een dubbeldiagnose kan het bovendien extra complex worden om zowel hun talenten als hun ondersteuningsnoden te herkennen.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Sterke cognitieve vaardigheden kunnen moeilijkheden soms maskeren. Omgekeerd kunnen ondersteuningsnoden ervoor zorgen dat het aanwezige potentieel onvoldoende zichtbaar wordt.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Ook KU Leuven benadrukte dit in 2024 tijdens een gezamenlijke Lerarendag met Thomas More rond hoogbegaafdheid en autisme. Beide groepen blijken nog regelmatig onder de radar te blijven of verkeerd ingeschat te worden.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Dat is geen klein probleem. Want wanneer een kind niet de juiste ondersteuning krijgt, kan het uiteindelijk vastlopen op school, onder zijn mogelijkheden presteren of zich helemaal niet meer verbonden voelen met het onderwijs.",
+      },
+      { soort: "kop", tekst: "Wat zegt het onderzoek?" },
+      {
+        soort: "tekst",
+        tekst: "Ook onderzoek vraagt om een genuanceerde blik.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "De KU Leuven TALENT-studie, een grootschalig onderzoek bij ongeveer 3.400 jongeren, toont bijvoorbeeld dat cognitief begaafde jongeren als groep niet meer gedrags- of emotionele problemen rapporteren dan andere jongeren. Dat nuanceert het stereotype beeld dat hoogbegaafdheid op zichzelf automatisch tot problemen leidt.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Voor jongeren die zowel hoge cognitieve capaciteiten als bijkomende ondersteuningsnoden hebben, ligt het verhaal complexer. Onderzoek naar zogenaamde twice-exceptional leerlingen toont dat deze leerlingen moeilijkheden kunnen ervaren om toegang te krijgen tot zowel ondersteuning voor hun beperkingen als ontwikkelingskansen voor hun talenten. Een systematische review benadrukt daarom onder meer het belang van deskundige leerkrachten, samenwerking met ouders en professionals én aandacht voor sterktes naast moeilijkheden.",
+      },
+      { soort: "tekst", tekst: "Met andere woorden:" },
+      {
+        soort: "citaat",
+        tekst:
+          "Talent en ondersteuningsnood kunnen perfect naast elkaar bestaan.",
+      },
+      {
+        soort: "kop",
+        tekst: "Van onbenut potentieel naar maatschappelijke meerwaarde",
+      },
+      { soort: "tekst", tekst: "Onze maatschappij verandert razendsnel." },
+      {
+        soort: "tekst",
+        tekst:
+          "Digitalisering, artificiële intelligentie, technologische innovatie en de uitdagingen van morgen vragen om mensen die buiten bestaande kaders kunnen denken. Creativiteit, kritisch denken, probleemoplossend vermogen en het leggen van nieuwe verbanden worden steeds belangrijker.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Juist daarom kunnen we het ons niet veroorloven om kinderen met potentieel te verliezen omdat hun onderwijsomgeving niet aansluit bij wat zij nodig hebben.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Wanneer een kind uitvalt, thuis komt te zitten of uiteindelijk niet op de arbeidsmarkt terechtkomt, verliezen we niet alleen een talentvol individu. We verliezen ook potentieel dat onze maatschappij in de toekomst hard nodig kan hebben.",
+      },
+      {
+        soort: "citaat",
+        tekst:
+          "Investeren in deze kinderen is dus geen luxe. Het is investeren in menselijk kapitaal.",
+      },
+      {
+        soort: "kop",
+        tekst: "Technologie kan helpen, maar de mens blijft centraal",
+      },
+      {
+        soort: "tekst",
+        tekst: "Ook artificiële intelligentie kan hierin een rol spelen.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "AI kan helpen om leerstof beter af te stemmen, informatie toegankelijker te maken en bepaalde onderwijs- en ondersteuningsprocessen te personaliseren. Maar technologie is geen vervanging voor menselijke nabijheid, expertise en begrip.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "De uitdaging ligt niet in de keuze tussen technologie of menselijke begeleiding.",
+      },
+      {
+        soort: "citaat",
+        tekst:
+          "De toekomst vraagt om beide: technologie waar het kan, menselijke nabijheid waar het moet.",
+      },
+      {
+        soort: "kop",
+        tekst: "Investeren in kinderen is investeren in Vlaanderen",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Bij Connectopia geloven we dat we kinderen niet alleen moeten begeleiden naar wat vandaag haalbaar is, maar ook moeten kijken naar wat morgen mogelijk wordt.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Kinderen met (U)HB en dubbeldiagnoses hebben niet allemaal dezelfde talenten, noden of toekomstplannen. Maar wanneer we hun potentieel tijdig herkennen én hen de juiste ondersteuning bieden, vergroten we hun kansen om hun talenten daadwerkelijk te ontwikkelen.",
+      },
+      { soort: "tekst", tekst: "En daar heeft niet alleen het kind baat bij." },
+      {
+        soort: "tekst",
+        tekst:
+          "Ook onze scholen, arbeidsmarkt en maatschappij hebben er belang bij dat talent niet verloren gaat.",
+      },
+      {
+        soort: "citaat",
+        tekst:
+          "Wie vandaag investeert in kinderen, investeert in de samenleving van morgen.",
+      },
+      { soort: "kop", tekst: "Bronnen" },
+      {
+        soort: "lijst",
+        punten: [
+          {
+            tekst:
+              "KU Leuven, TALENT-studie: onderzoek naar de ontwikkeling van cognitief begaafde Vlaamse jongeren.",
+          },
+          {
+            tekst:
+              "KU Leuven & Thomas More, Hoe omgaan met hoogbegaafdheid en autisme? (2024).",
+          },
+          {
+            tekst:
+              "Foley Nicpon e.a., Twice-Exceptional Students: Review of Implications for Special and Inclusive Education (2021).",
+          },
+          {
+            tekst:
+              "Gelbar e.a., A Systematic Review of the Research on Gifted Individuals With Autism Spectrum Disorder (2022).",
+          },
+        ],
+      },
+    ],
+  },
+  {
     slug: "officieel-een-vzw",
     titel: "Officieel een vzw, en dat vieren we samen met jullie",
     datum: "2026-09-04",
