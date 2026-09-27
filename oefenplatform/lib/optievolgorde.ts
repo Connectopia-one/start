@@ -18,7 +18,7 @@
  */
 
 /** Een klein, voorspelbaar willekeurig getal uit een tekst (FNV-1a). */
-function zaad(tekst: string): number {
+export function zaad(tekst: string): number {
   let h = 0x811c9dc5;
   for (let i = 0; i < tekst.length; i++) {
     h ^= tekst.charCodeAt(i);

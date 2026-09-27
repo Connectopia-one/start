@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Dagvraag } from "@/components/Dagvraag";
 import { Header } from "@/components/Header";
 import { getSessionProfile } from "@/lib/auth";
 import { LEERJAARNIVEAUS, vindNiveau } from "@/lib/niveaus";
@@ -45,6 +46,13 @@ export default async function HomePage() {
             </Link>
           </p>
         </section>
+
+        {/* Elke dag één vraag, met een doel van drie dagen per week. Staat
+            bewust vóór de categorieën: wie even tijd heeft, is met één klik
+            bezig in plaats van eerst te moeten kiezen waar te beginnen. */}
+        <div className="max-w-2xl">
+          <Dagvraag />
+        </div>
 
         <p className="mt-5 max-w-2xl rounded-md bg-info/10 px-4 py-3 text-sm text-ink">
           💡 Kies de categorie die het beste past bij wat je kind <strong>al kan</strong> — niet
@@ -96,6 +104,30 @@ export default async function HomePage() {
           </span>
           <span aria-hidden className="shrink-0 text-forest">&rarr;</span>
         </Link>
+
+        {/* Twee extraatjes naast het oefenen zelf: wat een kind al bij elkaar
+            verdiende, en het bord waar de kinderen zelf op schrijven. */}
+        <div className="mt-6 grid gap-4 sm:grid-cols-2">
+          <Link
+            href="/badges"
+            className="rounded-xl border border-border bg-surface px-6 py-5 transition hover:border-forest hover:shadow-sm"
+          >
+            <span className="font-display text-lg font-semibold text-ink">⭐ Mijn verzameling</span>
+            <span className="mt-1 block text-sm text-ink-dim">
+              De badges die je al bij elkaar oefende. Geen ranglijst, alleen je eigen kast.
+            </span>
+          </Link>
+
+          <Link
+            href="/weetjes"
+            className="rounded-xl border border-border bg-surface px-6 py-5 transition hover:border-forest hover:shadow-sm"
+          >
+            <span className="font-display text-lg font-semibold text-ink">📌 Het weetjesprikbord</span>
+            <span className="mt-1 block text-sm text-ink-dim">
+              Weetjes die kinderen zelf instuurden. Hang er gerust een van jou bij.
+            </span>
+          </Link>
+        </div>
 
         {/* Los van de vier categorieën, want het hoort niet bij het betalende
             aanbod: een gratis verzameling links naar bestaand materiaal. */}

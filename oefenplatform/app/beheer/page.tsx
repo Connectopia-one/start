@@ -12,11 +12,13 @@ export default async function BeheerPage() {
     { count: betaaldCount },
     { count: plusklasCount },
     { count: meldingenCount },
+    { count: weetjesCount },
   ] = await Promise.all([
     supabase.from("vakken").select("id", { count: "exact", head: true }),
     supabase.from("betalingen").select("id", { count: "exact", head: true }).eq("status", "betaald"),
     supabase.from("profiles").select("id", { count: "exact", head: true }).eq("is_plusklas", true),
     supabase.from("meldingen").select("id", { count: "exact", head: true }).eq("afgehandeld", false),
+    supabase.from("weetjes").select("id", { count: "exact", head: true }).eq("goedgekeurd", false),
   ]);
 
   return (
@@ -44,6 +46,22 @@ export default async function BeheerPage() {
               className="mt-4 inline-block rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
             >
               Meldingen bekijken &rarr;
+            </Link>
+          </section>
+
+          <section>
+            <h2 className="font-display text-lg font-semibold text-ink">
+              Weetjes{(weetjesCount ?? 0) > 0 && <> ({weetjesCount})</>}
+            </h2>
+            <p className="mt-3 text-sm text-ink-dim">
+              Wat kinderen instuurden voor het weetjesprikbord. Niets komt op het bord voor jij het
+              ophangt.
+            </p>
+            <Link
+              href="/beheer/weetjes"
+              className="mt-4 inline-block rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
+            >
+              Weetjes bekijken &rarr;
             </Link>
           </section>
 

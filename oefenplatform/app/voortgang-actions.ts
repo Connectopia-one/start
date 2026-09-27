@@ -3,6 +3,7 @@
 import { createClient } from "@/lib/supabase/server";
 import { createAdminClient } from "@/lib/supabase/admin";
 import type { SupabaseClient } from "@supabase/supabase-js";
+import { LEGE_TELLING, type Telling } from "@/lib/badges";
 
 /** Geeft de admin client terug enkel als de ingelogde gebruiker dit kind mag beheren, anders null. */
 async function kindEigenaarOfNull(kindId: string): Promise<SupabaseClient | null> {
@@ -109,4 +110,52 @@ export async function haalHoofdstukStatus(
     perfect: perfect.has(id),
     laatst: laatste.get(id) ?? null,
   }));
+}
+
+/**
+ * De cijfers achter de verzamelbadges van één kind.
+ *
+ * Alles wordt geteld uit `voortgang` en `stickers`, de twee tabellen die het
+ * platform toch al vult. Er wordt niets bijgehouden dat alleen voor de badges
+ * dient, dus een kind dat hier voor het eerst kijkt, ziet meteen wat het de
+ * voorbije weken al verdiend heeft. Zie lib/badges.ts.
+ */
+export async function haalTelling(kindId: string): Promise<Telling> {
+  const admin = await kindEigenaarOfNull(kindId);
+  if (!admin) return LEGE_TELLING;
+
+  const [gemaakt, juist, hoekje, sterrenRijen] = await Promise.all([
+    admin.from("voortgang").select("id", { count: "exact", head: true }).eq("kind_id", kindId),
+    admin
+      .from("voortgang")
+      .select("id", { count: "exact", head: true })
+      .eq("kind_id", kindId)
+      .eq("correct", true),
+    admin
+      .from("voortgang")
+      .select("id, vragen!inner(hoofdstukken!inner(niveau))", { count: "exact", head: true })
+      .eq("kind_id", kindId)
+      .eq("correct", true)
+      .eq("vragen.hoofdstukken.niveau", "hoekje"),
+    // De sterren zelf zijn er hooguit enkele tientallen, dus die halen we
+    // gewoon op: daaruit volgen én het aantal, én in hoeveel vakken, én of er
+    // een hoofdstuk van 🧱 Basis bij zit.
+    admin
+      .from("stickers")
+      .select("hoofdstuk_id, hoofdstukken!inner(vak_id, niveau)")
+      .eq("kind_id", kindId),
+  ]);
+
+  const sterren = (sterrenRijen.data ?? []) as unknown as {
+    hoofdstukken: { vak_id: string; niveau: string };
+  }[];
+
+  return {
+    gemaakt: gemaakt.count ?? 0,
+    juist: juist.count ?? 0,
+    sterren: sterren.length,
+    vakkenMetSter: new Set(sterren.map((s) => s.hoofdstukken.vak_id)).size,
+    basisSter: sterren.some((s) => s.hoofdstukken.niveau === "basis"),
+    hoekjeJuist: (hoekje.count ?? 0) > 0,
+  };
 }
