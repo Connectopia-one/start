@@ -30,13 +30,15 @@ export default async function BeheerLeerstofPage() {
           &larr; Beheer
         </Link>
         <h1 className="mt-2 font-display text-2xl font-semibold text-ink">
-          Leerbundels in één keer uploaden
+          Bundels in één keer uploaden
         </h1>
         <p className="mt-2 text-sm text-ink-dim">
-          Kies een vak, selecteer alle pdf&apos;s tegelijk en upload ze in één beweging. Het
-          platform zoekt zelf het juiste hoofdstuk bij elke bestandsnaam; je kan dat hieronder nog
-          aanpassen voor je op uploaden klikt. Heeft een hoofdstuk al een bundel, dan wordt de
-          oude vervangen door de nieuwe — tenzij je dat bij dat bestand uitvinkt.
+          Hier komen zowel de leerbundels als de oefenbundels binnen. Kies een vak, selecteer
+          alle pdf&apos;s tegelijk en upload ze in één beweging. Het platform zoekt zelf het juiste
+          hoofdstuk bij elke bestandsnaam; je kan dat hieronder nog aanpassen voor je op uploaden
+          klikt. Een oefenbundel komt náást de leerbundel te staan en wist die niet: het vinkje
+          <b> vervangen</b> gaat alleen vanzelf aan als er al een bundel met dezelfde titel hangt,
+          dus als je een nieuwe versie van hetzelfde document oplaadt.
         </p>
 
         {lijst.length === 0 ? (
