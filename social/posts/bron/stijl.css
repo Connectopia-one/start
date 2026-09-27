@@ -160,8 +160,12 @@ body.metfiguur .mid { max-width: 596px; }
   boven en onder, want daar zet Facebook zijn eigen knoppen overheen. De
   figuur mag mee groeien, hij blijft toch in de hoek staan.
 */
-body.verhaal { height: 1920px; padding: 150px 68px 120px; }
-body.verhaal .figuur { height: 860px; }
+/*
+  De onderrand is met opzet breed: Facebook legt in een verhaal onderaan zijn
+  eigen balk over het beeld, en daar mag de groene balk niet onder verdwijnen.
+*/
+body.verhaal { height: 1920px; padding: 140px 68px 230px; }
+body.verhaal .figuur { height: 980px; }
 /*
   Het middenstuk zweeft niet in het midden maar blijft onder de kop hangen.
   Zo valt de lege ruimte lager, waar de figuur staat, en niet als een gat
