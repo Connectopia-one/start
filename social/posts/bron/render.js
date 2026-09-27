@@ -40,6 +40,14 @@ function blad(p) {
       .join('\n      ');
     mid.push(`<div class="woorden">\n      ${woorden}\n    </div>`);
   }
+  if (p.laden) {
+    const l = p.laden;
+    mid.push(`<div class="laden">
+      <div class="regel"><span class="naam">${l.naam}</span><span class="tel">${l.procent}%</span></div>
+      <div class="balk"><span style="width: ${l.procent}%"></span></div>
+      ${l.onder ? `<div class="onder">${l.onder}</div>` : ''}
+    </div>`);
+  }
   if (p.nadruk) mid.push(`<div class="nadruk">${p.nadruk}</div>`);
 
   return `<!doctype html>

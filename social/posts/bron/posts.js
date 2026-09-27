@@ -17,6 +17,8 @@
     titelKlein  zet de titel wat kleiner als hij lang is
     foto      een foto bovenaan, met de bestandsnaam uit deze map
     fotoPositie  welk stuk van de foto je ziet, bv. "50% 30%"
+    laden     een laadbalk: { naam, procent, onder } — voor een post over
+              iets dat er bijna is
     nadruk    de zin die in het gekleurde kader komt
     citaat    een citaat met een gekleurde streep ernaast
     voet      de groene balk: { hand, url, klein }
@@ -25,6 +27,18 @@
 */
 
 module.exports = [
+  {
+    bestand: "testgezinnen-bijna-zover",
+    kleur: "oranje",
+    pil: "Winactie",
+    hand: "Nog heel even geduld",
+    titel: "De testgezinnen<br><span>horen het vandaag</span>",
+    tekst:
+      "We hebben geloot uit alle inschrijvingen. De tien gezinnen die eruit kwamen, krijgen straks een bericht van ons met hun toegang.",
+    laden: { naam: "Oefenplatform", procent: 96, onder: "we doen nu de laatste testen" },
+    voet: { hand: "Wie we zijn lees je op", url: "www.connectopia.one" },
+  },
+
   {
     bestand: "dag-05-wegwijzer",
     kleur: "blauw",
