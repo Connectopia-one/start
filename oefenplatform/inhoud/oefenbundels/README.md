@@ -25,7 +25,8 @@ bijvoorbeeld `inhoud/start/wiskunde-rekenen-en-breuken.json`.
 | `wiskunde/oefenbundel-kansrekenen-en-statistiek.pdf` | Kansrekenen en statistiek |
 | `wiskunde/oefenbundel-vraagstukken-en-problemen-oplossen.pdf` | Vraagstukken en problemen oplossen |
 
-`alle-oefenbundels.zip` bevat ze allemaal, met per vak een map.
+`wiskunde.zip` bevat dat ene vak, `alle-oefenbundels.zip` alles wat er is.
+In allebei zit per vak een map.
 
 ## Twee afspraken van Kim, 27 september 2026
 

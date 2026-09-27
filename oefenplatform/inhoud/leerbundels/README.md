@@ -2,9 +2,12 @@
 
 ## Alles in één keer downloaden
 
-`alle-leerbundels.zip` bevat elke pdf, met per vak een map. Downloaden, uitpakken,
-en dan op `/beheer/leerstof` per vak die map leegslepen. Dat spaart je 83 losse
-downloads.
+Er staat een zip **per vak** (`wiskunde.zip`, `nederlands.zip`, …) en één met
+**alles** erin (`alle-leerbundels.zip`). In allebei zit per vak een map, dus je
+kan twee zips naast elkaar uitpakken zonder dat de bestanden door elkaar lopen.
+
+Downloaden, uitpakken, en dan op `/beheer/leerstof` per vak die map leegslepen.
+Verandert er later één vak, dan haal je alleen dat ene zipje opnieuw.
 
 De zip wordt gemaakt door `bron/maak_zips.py` en loopt mee met
 `bron/maak_alles.py`, zodat hij nooit achterloopt op de pdf's ernaast. Draai hem
