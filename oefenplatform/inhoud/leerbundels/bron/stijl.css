@@ -1,7 +1,10 @@
 @page { size: A4; margin: 16mm 14mm 14mm 14mm; }
 
 :root {
-  --paper: #faf7f1;
+  /* Wit en niet crème: een gekleurde achtergrond wordt op een thuisprinter
+     over het hele blad gelegd en kost dus op elk blad inkt. Kim vroeg dit op
+     27 september 2026, omdat gezinnen deze bundels thuis afdrukken. */
+  --paper: #ffffff;
   --surface: #ffffff;
   --ink: #23291f;
   --ink-dim: #6b7260;

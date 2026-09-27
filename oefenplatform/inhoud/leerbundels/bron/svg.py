@@ -7,7 +7,7 @@ AMBER = "#c17f2b"
 INK = "#23291f"
 DIM = "#6b7260"
 BORDER = "#e4ded0"
-PAPER = "#faf7f1"
+PAPER = "#ffffff"   # dezelfde kleur als --paper in stijl.css: het blad zelf
 
 def getallenlijn(breedte, links, rechts, merken, hoogte=86, label_y=None):
     """Een horizontale getallenlijn met streepjes en labels.
