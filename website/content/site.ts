@@ -165,6 +165,7 @@ export const extraLinks: {
 }[] = [
   { slug: "/observatielijst", menuTitel: "Observatielijst" },
   { slug: "/professionals", menuTitel: "Voor professionals" },
+  { slug: "/steun-ons", menuTitel: "Steun ons" },
   { slug: "/contact", menuTitel: "Contact", inMenu: true },
 ];
 

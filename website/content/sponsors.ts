@@ -28,6 +28,9 @@ export const sponsorsTekst = {
   kopPartners: "Samenwerkingen",
   oproep: "Samenwerken met Connectopia?",
   oproepLink: "/professionals",
+  /* De tweede oproep ernaast: helpen kan ook zonder samen te werken. */
+  steunOproep: "Of steun ons met materiaal, boeken of je tijd",
+  steunLink: "/steun-ons",
 };
 
 export const sponsors: Sponsor[] = [

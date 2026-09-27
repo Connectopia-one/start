@@ -268,12 +268,18 @@ export default function Startpagina() {
             lijst={sponsorsPerSoort("partner")}
           />
 
-          <p className="mt-5 text-[16px] text-ink-dim">
+          <p className="mt-5 flex flex-wrap gap-x-6 gap-y-2 text-[16px] text-ink-dim">
             <Link
               href={sponsorsTekst.oproepLink}
               className="font-extrabold text-green underline-offset-4 hover:underline"
             >
               {sponsorsTekst.oproep}
+            </Link>
+            <Link
+              href={sponsorsTekst.steunLink}
+              className="font-extrabold text-green underline-offset-4 hover:underline"
+            >
+              {sponsorsTekst.steunOproep}
             </Link>
           </p>
         </div>
