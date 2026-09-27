@@ -144,3 +144,14 @@ def kaart(kaart_pad, legende_pad, bron=None, breedte="100%"):
     return (foto(kaart_pad, breedte=breedte)
             + '<span style="display:block;height:10px;"></span>'
             + foto(legende_pad, bron=bron))
+
+
+def breuk(teller, noemer):
+    """Een breuk met een echte streep, teller boven noemer.
+
+    Kim vroeg dit op 27 september 2026: een schuine streep leest voor een kind
+    niet als een breuk. Werkt in gewone tekst, in een tabel en in een antwoord,
+    want het is html en geen tekening. De opmaak staat in stijl.css.
+    """
+    return (f'<span class="breuk"><span class="t">{teller}</span>'
+            f'<span class="n">{noemer}</span></span>')

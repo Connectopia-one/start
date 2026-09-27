@@ -4183,3 +4183,73 @@ def breukfiguur(vorm, teller, noemer, breedte=None):
     d.append(f'<rect x="2" y="2" width="{kolommen*cel}" height="{rijen*cel}" fill="none" '
              f'stroke="{DARK}" stroke-width="1.6"/>')
     return _svg(kolommen * cel + 4, rijen * cel + 4, "".join(d))
+
+
+def hoek(graden, breedte=120):
+    """Eén hoek, zonder naam en zonder gradental erbij.
+
+    hoekenrij() schrijft de naam en het aantal graden onder elke hoek en hoort
+    dus in een leerbundel. In een oefenbundel is dat net de vraag, dus hier
+    staat er niets bij — ook geen haakje bij 90 graden, want dat verklapt het.
+    """
+    import math
+    cx, cy, arm = breedte / 2 - 20, 62, 46
+    a = math.radians(-graden)
+    r = 17
+    x2, y2 = cx + r * math.cos(a), cy + r * math.sin(a)
+    groot = 1 if graden > 180 else 0
+    d = [
+        f'<line x1="{cx}" y1="{cy}" x2="{cx+arm}" y2="{cy}" stroke="{DARK}" stroke-width="2.4" stroke-linecap="round"/>',
+        f'<line x1="{cx}" y1="{cy}" x2="{cx+arm*math.cos(a):.1f}" y2="{cy+arm*math.sin(a):.1f}" stroke="{DARK}" stroke-width="2.4" stroke-linecap="round"/>',
+        f'<path d="M{cx+r} {cy} A{r} {r} 0 {groot} 0 {x2:.1f} {y2:.1f}" fill="none" stroke="{AMBER}" stroke-width="1.8"/>',
+    ]
+    return _svg(breedte, 86, "".join(d))
+
+
+_VORMEN = {
+    "vierkant": '<rect x="{cx0}" y="14" width="46" height="46" fill="#ffffff" stroke="{k}" stroke-width="2" rx="2"/>',
+    "rechthoek": '<rect x="{cx1}" y="20" width="58" height="36" fill="#ffffff" stroke="{k}" stroke-width="2" rx="2"/>',
+    "driehoek": '<polygon points="{cx},14 {xr},60 {xl},60" fill="#ffffff" stroke="{k}" stroke-width="2"/>',
+    "cirkel": '<circle cx="{cx}" cy="37" r="24" fill="#ffffff" stroke="{k}" stroke-width="2"/>',
+    "ruit": '<polygon points="{cx},12 {xr},37 {cx},62 {xl},37" fill="#ffffff" stroke="{k}" stroke-width="2"/>',
+    "trapezium": '<polygon points="{xa},16 {xb},16 {xr},60 {xl},60" fill="#ffffff" stroke="{k}" stroke-width="2"/>',
+    "vijfhoek": '<polygon points="{cx},12 {xr},31 {p1},62 {p2},62 {xl},31" fill="#ffffff" stroke="{k}" stroke-width="2"/>',
+    "zeshoek": '<polygon points="{xa},12 {xb},12 {xr},37 {xb},62 {xa},62 {xl},37" fill="#ffffff" stroke="{k}" stroke-width="2"/>',
+}
+
+
+def vorm(naam, breedte=110):
+    """Eén vlakke figuur, zonder naam eronder. Zie vormenrij() voor de versie
+    mét naam, die in een leerbundel hoort."""
+    cx = breedte / 2
+    inhoud = _VORMEN[naam].format(
+        k=DARK, cx=cx, cx0=cx - 23, cx1=cx - 29, xl=cx - 26, xr=cx + 26,
+        xa=cx - 14, xb=cx + 14, p1=cx + 16, p2=cx - 16)
+    return _svg(breedte, 74, inhoud)
+
+
+def ruimtefiguur(naam, breedte=110):
+    """Eén ruimtefiguur, zonder naam eronder. Zie ruimtefiguren() voor de
+    versie mét naam."""
+    cx = breedte / 2
+
+    def blok(b, hh, diep):
+        x, y = cx - b / 2 - diep / 2, 62 - hh
+        return (f'<rect x="{x:.1f}" y="{y:.1f}" width="{b}" height="{hh}" fill="#ffffff" stroke="{DARK}" stroke-width="1.9"/>'
+                f'<path d="M{x:.1f} {y:.1f} l{diep} -{diep} h{b} l-{diep} {diep}" fill="#ffffff" stroke="{DARK}" stroke-width="1.9"/>'
+                f'<path d="M{x+b:.1f} {y:.1f} l{diep} -{diep} v{hh} l-{diep} {diep}" fill="#f2efe7" stroke="{DARK}" stroke-width="1.9"/>')
+
+    if naam == "kubus":
+        inhoud = blok(40, 40, 13)
+    elif naam == "balk":
+        inhoud = blok(54, 30, 12)
+    elif naam == "cilinder":
+        inhoud = (f'<path d="M{cx-22} 28 v30 a22 8 0 0 0 44 0 v-30" fill="#ffffff" stroke="{DARK}" stroke-width="1.9"/>'
+                  f'<ellipse cx="{cx}" cy="28" rx="22" ry="8" fill="#ffffff" stroke="{DARK}" stroke-width="1.9"/>')
+    elif naam == "kegel":
+        inhoud = (f'<path d="M{cx} 22 L{cx-22} 58 A22 8 0 0 0 {cx+22} 58 Z" fill="#ffffff" stroke="{DARK}" stroke-width="1.9"/>'
+                  f'<path d="M{cx-22} 58 A22 8 0 0 1 {cx+22} 58" fill="none" stroke="{DARK}" stroke-width="1.9"/>')
+    else:
+        inhoud = (f'<circle cx="{cx}" cy="44" r="23" fill="#ffffff" stroke="{DARK}" stroke-width="1.9"/>'
+                  f'<ellipse cx="{cx}" cy="44" rx="23" ry="8" fill="none" stroke="{BORDER}" stroke-width="1.5"/>')
+    return _svg(breedte, 74, inhoud)

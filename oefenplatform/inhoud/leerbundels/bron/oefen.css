@@ -14,14 +14,14 @@
 .vakje {
   display: inline-block;
   border-bottom: 1.4px solid var(--forest);
-  height: 17px;
+  height: 26px;
   vertical-align: baseline;
   margin: 0 2px;
 }
 .lijn {
   border-bottom: 1.2px solid var(--ink-dim);
-  height: 26px;
-  margin-top: 5px;
+  height: 38px;
+  margin-top: 8px;
 }
 
 .hoe {
@@ -49,7 +49,7 @@
   display: flex;
   gap: 10px;
   align-items: flex-start;
-  margin-bottom: 11px;
+  margin-bottom: 16px;
   break-inside: avoid;
 }
 .oef .nr {
@@ -63,10 +63,10 @@
 }
 .oef .nr::after { content: "."; }
 .oef .body { flex: 1; min-width: 0; }
-.oef .vraagtekst { font-size: 11pt; }
+.oef .vraagtekst { font-size: 11pt; line-height: 1.8; }
 
-.rij { display: flex; flex-wrap: wrap; gap: 7px 22px; }
-.rij .cel { min-width: 142px; font-size: 11pt; }
+.rij { display: flex; flex-wrap: wrap; gap: 14px 26px; }
+.rij .cel { min-width: 190px; font-size: 11pt; line-height: 1.8; }
 .rij .som { font-variant-numeric: tabular-nums; }
 .letter { color: var(--ink-dim); font-size: 10pt; margin-right: 3px; }
 
@@ -78,8 +78,8 @@
 .figcel svg { max-height: 96px; max-width: 165px; width: auto; height: auto; }
 .figboven { font-size: 10.5pt; margin-bottom: 8px; }
 
-.keuzes { display: flex; flex-wrap: wrap; gap: 6px 20px; margin-top: 5px; }
-.keuze { font-size: 10.5pt; display: inline-flex; align-items: center; gap: 6px; }
+.keuzes { display: flex; flex-wrap: wrap; gap: 10px 26px; margin-top: 8px; }
+.keuze { font-size: 10.5pt; display: inline-flex; align-items: center; gap: 6px; line-height: 1.8; }
 .bolletje {
   width: 13px;
   height: 13px;
@@ -97,7 +97,7 @@ table.invul th {
   text-align: left;
   padding: 5px 10px;
 }
-table.invul td { border: 1px solid var(--border); padding: 5px 10px; }
+table.invul td { border: 1px solid var(--border); padding: 9px 12px; }
 
 .tussen { font-size: 10.5pt; color: var(--ink-dim); margin: 0 0 10px 30px; }
 .tussen p { margin: 0; }
@@ -137,3 +137,11 @@ table.invul td { border: 1px solid var(--border); padding: 5px 10px; }
 }
 
 .kleuropdracht { font-size: 10pt; color: var(--ink-dim); }
+
+/* Een vak om in te tekenen. Lijnen helpen niet als een kind een figuur moet
+   maken, en een te klein vak dwingt tot klein tekenen. */
+.tekenvak {
+  border: 1.2px dashed var(--ink-dim);
+  border-radius: 10px;
+  margin-top: 8px;
+}

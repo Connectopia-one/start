@@ -13,12 +13,29 @@ bijvoorbeeld `inhoud/start/wiskunde-rekenen-en-breuken.json`.
 
 ## Wat er klaar is
 
-| bundel | hoort bij | blz. |
-| --- | --- | --- |
-| `wiskunde/oefenbundel-rekenen-en-breuken.pdf` | Wiskunde 🌱 Start — Rekenen en breuken | 4 + 1 antwoordblad |
+**Wiskunde 🌱 Start is volledig**, zeven bundels, één per hoofdstuk:
 
-Dat is het gratis proefhoofdstuk, met opzet: het is het enige stuk leerstof dat
-iemand zonder account ziet.
+| bundel | hoort bij |
+| --- | --- |
+| `wiskunde/oefenbundel-rekenen-en-breuken.pdf` | Rekenen en breuken (het gratis proefhoofdstuk) |
+| `wiskunde/oefenbundel-getallenkennis.pdf` | Getallenkennis |
+| `wiskunde/oefenbundel-bewerkingen.pdf` | Bewerkingen |
+| `wiskunde/oefenbundel-meten-en-metend-rekenen.pdf` | Meten en metend rekenen |
+| `wiskunde/oefenbundel-meetkunde.pdf` | Meetkunde |
+| `wiskunde/oefenbundel-kansrekenen-en-statistiek.pdf` | Kansrekenen en statistiek |
+| `wiskunde/oefenbundel-vraagstukken-en-problemen-oplossen.pdf` | Vraagstukken en problemen oplossen |
+
+`alle-oefenbundels.zip` bevat ze allemaal, met per vak een map.
+
+## Twee afspraken van Kim, 27 september 2026
+
+**Breuken met een echte streep**, teller boven noemer, nooit met een schuine
+streep: `bundel.breuk(3, 4)`, opgemaakt door `.breuk` in `stijl.css`. Een
+schuine streep leest voor een kind niet als een breuk.
+
+**Ruim plaats om te schrijven.** Veel van deze kinderen zijn motorisch minder
+sterk en schrijven groter, dus de invulvakjes, de schrijflijnen en de
+regelafstand zijn bewust royaal. Maak ze niet kleiner om een blad te sparen.
 
 ## Een oefenbundel maken
 

@@ -22,7 +22,7 @@ Een oefenbundel is een gewone dict:
         reeksen=[
             dict(kop="Breuken lezen", opdracht="Wat je moet doen.", oefeningen=[
                 ("kort", "348 + 156 =", "504"),
-                ("rij", [("7 x 8", "56"), ("9 x 6", "54")]),
+                ("rij", [("7 x 8", "56"), ("9 x 6", "54")], "opdracht boven de rij, mag weg"),
                 ("fig", [(svg.breukfiguur("strook", 3, 4), "3/4")], "onderschrift"),
                 ("open", "Een vraag in woorden.", "het antwoord", 2),
                 ("kies", "Welke is het grootst?", ["2/3", "3/5"], 0),
@@ -32,6 +32,10 @@ Een oefenbundel is een gewone dict:
             ]),
         ],
     )
+
+In de vraag én in het antwoord mag html staan (<b>, &nbsp;, &minus;, en
+bundel.breuk(3, 4) voor een breuk met een echte streep). Een los kleiner-dan
+teken schrijf je dus als &lt;.
 
 Daarna:  schrijf(OEFENBUNDEL, "rekenen-en-breuken-oefeningen")
 """
@@ -64,7 +68,7 @@ def _oefening(o, nr):
 
     if soort == "kort":
         body = f'<span class="vraagtekst">{o[1]}</span> {_vak()}'
-        return f'<div class="oef">{bol}<div class="body">{body}</div></div>', _html.escape(o[2])
+        return f'<div class="oef">{bol}<div class="body">{body}</div></div>', o[2]
 
     if soort == "rij":
         cellen = "".join(
@@ -72,8 +76,9 @@ def _oefening(o, nr):
             f'<span class="som">{som}</span> {_vak("58px")}</div>'
             for i, (som, _) in enumerate(o[1])
         )
-        antw = " · ".join(f"{LETTERS[i]}) {_html.escape(a)}" for i, (_, a) in enumerate(o[1]))
-        return f'<div class="oef">{bol}<div class="body"><div class="rij">{cellen}</div></div></div>', antw
+        antw = " · ".join(f"{LETTERS[i]}) {a}" for i, (_, a) in enumerate(o[1]))
+        boven = f'<div class="figboven">{o[2]}</div>' if len(o) > 2 and o[2] else ""
+        return f'<div class="oef">{bol}<div class="body">{boven}<div class="rij">{cellen}</div></div></div>', antw
 
     if soort == "fig":
         onderschrift = o[2] if len(o) > 2 and o[2] else ""
@@ -85,7 +90,7 @@ def _oefening(o, nr):
         # De opdracht staat boven de tekeningen: een kind dat eerst de figuur
         # ziet, begint te schrijven voor het gelezen heeft wat er gevraagd is.
         rand = f'<div class="figboven">{onderschrift}</div>' if onderschrift else ""
-        antw = " · ".join(f"{LETTERS[i]}) {_html.escape(a)}" for i, (_, a) in enumerate(o[1]))
+        antw = " · ".join(f"{LETTERS[i]}) {a}" for i, (_, a) in enumerate(o[1]))
         return f'<div class="oef">{bol}<div class="body">{rand}<div class="figrij">{cellen}</div></div></div>', antw
 
     if soort == "kleur":
@@ -98,20 +103,26 @@ def _oefening(o, nr):
             f'<div class="tekening">{tek}</div></div>'
             for i, (tek, opdracht, _) in enumerate(o[1])
         )
-        antw = " · ".join(f"{LETTERS[i]}) {_html.escape(a)}" for i, (_, _, a) in enumerate(o[1]))
+        antw = " · ".join(f"{LETTERS[i]}) {a}" for i, (_, _, a) in enumerate(o[1]))
         return f'<div class="oef">{bol}<div class="body"><div class="figrij">{cellen}</div></div></div>', antw
 
     if soort == "open":
         regels = o[3] if len(o) > 3 else 2
         body = f'<span class="vraagtekst">{o[1]}</span>{_lijnen(regels)}'
-        return f'<div class="oef">{bol}<div class="body">{body}</div></div>', _html.escape(o[2])
+        return f'<div class="oef">{bol}<div class="body">{body}</div></div>', o[2]
+
+    if soort == "teken":
+        hoog = o[3] if len(o) > 3 else 45
+        body = (f'<span class="vraagtekst">{o[1]}</span>'
+                f'<div class="tekenvak" style="height:{hoog}mm"></div>')
+        return f'<div class="oef">{bol}<div class="body">{body}</div></div>', o[2]
 
     if soort == "kies":
         keuzes = "".join(
-            f'<span class="keuze"><span class="bolletje"></span>{_html.escape(k)}</span>' for k in o[2]
+            f'<span class="keuze"><span class="bolletje"></span>{k}</span>' for k in o[2]
         )
         body = f'<span class="vraagtekst">{o[1]}</span><div class="keuzes">{keuzes}</div>'
-        return f'<div class="oef">{bol}<div class="body">{body}</div></div>', _html.escape(o[2][o[3]])
+        return f'<div class="oef">{bol}<div class="body">{body}</div></div>', o[2][o[3]]
 
     if soort == "waar":
         keuzes = ('<span class="keuze"><span class="bolletje"></span>waar</span>'

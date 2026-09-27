@@ -117,3 +117,21 @@ figcaption { font-size: 9.5pt; color: var(--ink-dim); margin-top: 8px; line-heig
   display: flex;
   justify-content: space-between;
 }
+
+/* Een breuk met een echte streep: teller boven noemer. Een schuine streep
+   leest voor een kind niet als een breuk. */
+.breuk {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  /* middle zet de streep ongeveer op de hoogte van een minteken; met een
+     baseline-uitlijning zakt de hele breuk onder de regel weg. */
+  vertical-align: middle;
+  line-height: 1.06;
+  font-size: .8em;
+  margin: 0 2px;
+  position: relative;
+  top: -0.06em;
+}
+.breuk .t { padding: 0 3px; }
+.breuk .n { padding: 0 3px; border-top: 1.4px solid currentColor; }
