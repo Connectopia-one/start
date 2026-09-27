@@ -29,6 +29,15 @@ bijvoorbeeld `inhoud/start/wiskunde-rekenen-en-breuken.json`.
 elke dag, mezelf voorstellen, to be en to have, de tegenwoordige tijd, zinnen
 bouwen, op school en onderweg. Samen 99 oefeningen.
 
+**Nederlands 🌱 Start is volledig**, zes bundels: lezen, schrijven, spreken en
+luisteren, taalsysteem en taalgebruik, literatuur, spelling. Samen 95
+oefeningen. Bij lezen staat er een eigen tekstje in de bundel, want een
+leesvraag hoort op een echte tekst te staan en niet op het begrip alleen.
+
+Het hoofdstuk spelling heet in de databank "Hoofdstuk 1 — Spelling: voorbeeld".
+Het raden op de bestandsnaam kan daar dus misgaan; kies het hoofdstuk in dat
+geval zelf in het lijstje bij het uploaden.
+
 Bij een taalvak staat het invulvakje breder dan bij wiskunde: "Wednesday" past
 niet in een vakje dat voor een getal van twee cijfers gemaakt is. Dat zet je per
 oefening met een vierde waarde bij `rij` of `kort`, bijvoorbeeld `"120px"`.
