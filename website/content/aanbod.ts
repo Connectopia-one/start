@@ -207,8 +207,13 @@ export const trajecten: Traject[] = [
           "Woensdag 4 en donderdag 5 november 2026 op T2 Campus, thema Creatieve duizendpoot: van techniek tot design",
       },
       {
+        label: "Kerstvakantie",
+        waarde:
+          "Maandag 21 tot en met woensdag 23 december 2026 en maandag 28 tot en met woensdag 30 december 2026, in Hasselt of in Genk. Deze kampen gaan door als er genoeg inschrijvingen zijn, dus laat gerust nu al weten waar je interesse in hebt.",
+      },
+      {
         label: "Daarna",
-        waarde: "Kerst-, krokus-, paas- en zomervakantie",
+        waarde: "Krokus-, paas- en zomervakantie",
       },
       { label: "Plaatsen", waarde: "Beperkt, reserveer tijdig je plaatsje" },
     ],
@@ -219,8 +224,8 @@ export const trajecten: Traject[] = [
     },
     extraVragen: [
       {
-        naam: "Welke kampdagen",
-        label: "Welke dagen wil je erbij zijn?",
+        naam: "Herfstvakantie welke dagen",
+        label: "Herfstvakantie — welke dagen wil je erbij zijn?",
         soort: "keuzes",
         hulp: "Je mag er zoveel aankruisen als je wil. Elke dag is een volledige dag van 9u tot 15u.",
         keuzes: [
@@ -240,9 +245,41 @@ export const trajecten: Traject[] = [
             naam: "Genk donderdag 5 november",
             label: "Genk, donderdag 5 november — Creatieve duizendpoot",
           },
+        ],
+      },
+      {
+        naam: "Kerstvakantie welke dagen",
+        label: "Kerstvakantie — welke dagen zou je willen?",
+        soort: "keuzes",
+        hulp: "Deze kampen gaan door als er genoeg inschrijvingen zijn. Kruis gerust nu al aan wat jullie zou passen, dan weten we of we ze kunnen laten doorgaan.",
+        keuzes: [
+          { naam: "Kerst maandag 21 december", label: "Maandag 21 december" },
+          { naam: "Kerst dinsdag 22 december", label: "Dinsdag 22 december" },
+          { naam: "Kerst woensdag 23 december", label: "Woensdag 23 december" },
+          { naam: "Kerst maandag 28 december", label: "Maandag 28 december" },
+          { naam: "Kerst dinsdag 29 december", label: "Dinsdag 29 december" },
+          { naam: "Kerst woensdag 30 december", label: "Woensdag 30 december" },
+        ],
+      },
+      {
+        naam: "Kerstvakantie welke locatie",
+        label: "Kerstvakantie — waar zou je het liefst komen?",
+        soort: "keuzes",
+        hulp: "In de kerstvakantie kunnen we in Hasselt of in Genk terecht. Waar we het kamp geven, hangt af van waar de meeste kinderen vandaan komen.",
+        keuzes: [
+          { naam: "Kerst liefst Hasselt", label: "Hasselt, Vilderstraat 28" },
+          { naam: "Kerst liefst Genk", label: "Genk, T2 Campus, Thor Park 8040" },
+          { naam: "Kerst maakt niet uit", label: "Allebei goed, we komen naar waar het doorgaat" },
+        ],
+      },
+      {
+        naam: "Later kamp",
+        label: "Nog geen van deze?",
+        soort: "keuzes",
+        keuzes: [
           {
             naam: "Een latere vakantie",
-            label: "Nog niet de herfstvakantie, maar hou me op de hoogte van een volgend kamp",
+            label: "Hou me op de hoogte van een volgend kamp",
           },
         ],
       },
