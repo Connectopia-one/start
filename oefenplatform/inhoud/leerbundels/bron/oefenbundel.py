@@ -21,8 +21,9 @@ Een oefenbundel is een gewone dict:
         hoe=["regel in het kadertje bovenaan", "nog een regel"],
         reeksen=[
             dict(kop="Breuken lezen", opdracht="Wat je moet doen.", oefeningen=[
-                ("kort", "348 + 156 =", "504"),
+                ("kort", "348 + 156 =", "504"),                 # 4de: breedte vakje
                 ("rij", [("7 x 8", "56"), ("9 x 6", "54")], "opdracht boven de rij, mag weg"),
+                # ("rij", [...], "opdracht", "110px")   breder vakje bij een taalvak
                 ("fig", [(svg.breukfiguur("strook", 3, 4), "3/4")], "onderschrift"),
                 ("open", "Een vraag in woorden.", "het antwoord", 2),
                 ("kies", "Welke is het grootst?", ["2/3", "3/5"], 0),
@@ -67,13 +68,17 @@ def _oefening(o, nr):
         return f'<div class="tussen">{o[1]}</div>', None
 
     if soort == "kort":
-        body = f'<span class="vraagtekst">{o[1]}</span> {_vak()}'
+        body = f'<span class="vraagtekst">{o[1]}</span> {_vak(o[3] if len(o) > 3 else "70px")}'
         return f'<div class="oef">{bol}<div class="body">{body}</div></div>', o[2]
 
     if soort == "rij":
+        # Een getal past in een smal vakje, een Engels woord niet. Daarom kan de
+        # breedte per oefening meegegeven worden; bij een taalvak zet je die
+        # ruimer. Kleiner maken om een blad te sparen doen we niet.
+        breed = o[3] if len(o) > 3 else "58px"
         cellen = "".join(
             f'<div class="cel"><span class="letter">{LETTERS[i]})</span> '
-            f'<span class="som">{som}</span> {_vak("58px")}</div>'
+            f'<span class="som">{som}</span> {_vak(breed)}</div>'
             for i, (som, _) in enumerate(o[1])
         )
         antw = " · ".join(f"{LETTERS[i]}) {a}" for i, (_, a) in enumerate(o[1]))

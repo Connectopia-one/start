@@ -25,8 +25,17 @@ bijvoorbeeld `inhoud/start/wiskunde-rekenen-en-breuken.json`.
 | `wiskunde/oefenbundel-kansrekenen-en-statistiek.pdf` | Kansrekenen en statistiek |
 | `wiskunde/oefenbundel-vraagstukken-en-problemen-oplossen.pdf` | Vraagstukken en problemen oplossen |
 
-`wiskunde.zip` bevat dat ene vak, `alle-oefenbundels.zip` alles wat er is.
-In allebei zit per vak een map.
+**Engels 🌱 Start is volledig**, zes bundels, één per hoofdstuk: woorden voor
+elke dag, mezelf voorstellen, to be en to have, de tegenwoordige tijd, zinnen
+bouwen, op school en onderweg. Samen 99 oefeningen.
+
+Bij een taalvak staat het invulvakje breder dan bij wiskunde: "Wednesday" past
+niet in een vakje dat voor een getal van twee cijfers gemaakt is. Dat zet je per
+oefening met een vierde waarde bij `rij` of `kort`, bijvoorbeeld `"120px"`.
+
+Er staat een zip **per vak** (`wiskunde.zip`, `engels.zip`) en één met alles
+erin (`alle-oefenbundels.zip`). In allebei zit per vak een map, dus je kan er
+twee naast elkaar uitpakken zonder dat de bestanden door elkaar lopen.
 
 ## Twee afspraken van Kim, 27 september 2026
 
@@ -53,7 +62,7 @@ de ondertitel en het echte aantal oefeningen komt er vanzelf in te staan.
 Bouwen en nakijken, vanuit `../leerbundels/bron`:
 
 ```
-python3 maak_oefeningen_rekenen.py
+python3 maak_oefeningen_wiskunde.py
 node controle.js oefenbundel-rekenen-en-breuken
 node pdf.js oefenbundel-rekenen-en-breuken
 ```
