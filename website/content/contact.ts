@@ -37,4 +37,12 @@ export const contactTekst = {
     titel: "Liever mailen?",
     tekst: "Dat mag ook. We antwoorden zo snel als we kunnen.",
   },
+
+  /* Verdwijnt vanzelf als site.facebook leeg is. */
+  volgen: {
+    titel: "Volg je ons al?",
+    tekst:
+      "Op onze Facebook-pagina zetten we als eerste wanneer een kamp opengaat, waar we mee bezig zijn en wat de kinderen maken.",
+    knopTekst: "Naar onze Facebook-pagina",
+  },
 };

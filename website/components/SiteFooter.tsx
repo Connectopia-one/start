@@ -40,7 +40,23 @@ export function SiteFooter() {
         </nav>
 
         <p className="mt-6 text-[15px] text-cream/75">
-          {site.naam} {site.vzw} · {site.socials} · {site.email}
+          {site.naam} {site.vzw} ·{" "}
+          {/*
+            Staat er een Facebook-adres in content/site.ts, dan is onze naam
+            hier een echte link naar de pagina. Is dat veld leeg, dan blijft
+            de naam er gewoon als tekst staan.
+          */}
+          {site.facebook ? (
+            <a
+              href={site.facebook}
+              className="font-bold text-cream underline-offset-4 hover:underline"
+            >
+              {site.socials} op Facebook
+            </a>
+          ) : (
+            site.socials
+          )}{" "}
+          · {site.email}
         </p>
       </div>
     </footer>

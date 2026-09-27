@@ -12,6 +12,14 @@ export const site = {
     "Connectopia vzw verbindt kinderen aan peers en ouders aan de juiste experts. Plusklas, pluswerkingen, Young Engineers en kampen voor nieuwsgierige kinderen.",
   afsluiter: "Samen bouwen we aan een toekomst vol mogelijkheden",
   socials: "@connectopia.one",
+  /*
+    De Facebook-pagina. Staat als link in de voettekst en op de contactpagina.
+    Maak je ooit een gebruikersnaam aan op Facebook, dan wordt dit adres
+    korter (facebook.com/connectopia.one) en mag je het hier vervangen; de
+    oude link blijft ook dan werken. Laat je dit leeg, dan verdwijnt de link
+    vanzelf van de site en blijft enkel de naam staan.
+  */
+  facebook: "https://www.facebook.com/profile.php?id=61559391660933",
   /* Het mailadres uit al onze communicatie, van de MATM groep. */
   email: "info@matmgroep.com",
   /*

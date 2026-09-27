@@ -80,7 +80,7 @@ export default async function ContactPagina() {
         </Kaart>
       </Sectie>
 
-      <Sectie className="pb-16">
+      <Sectie className="grid gap-4 pb-16 md:grid-cols-2">
         <Kaart>
           <h2 className="text-xl text-green">{contactTekst.mailen.titel}</h2>
           <p className="mt-2 text-[16px] text-ink-dim">
@@ -94,6 +94,22 @@ export default async function ContactPagina() {
             .
           </p>
         </Kaart>
+
+        {/* Enkel als er een Facebook-adres in content/site.ts staat. */}
+        {site.facebook ? (
+          <Kaart className="flex flex-col">
+            <h2 className="text-xl text-green">{contactTekst.volgen.titel}</h2>
+            <p className="mt-2 text-[16px] text-ink-dim">
+              {contactTekst.volgen.tekst}
+            </p>
+            <a
+              href={site.facebook}
+              className="mt-4 inline-block self-start rounded-full border-2 border-green px-6 py-3 text-center text-[16px] font-extrabold text-green transition hover:-translate-y-0.5 hover:bg-sage-soft"
+            >
+              {contactTekst.volgen.knopTekst}
+            </a>
+          </Kaart>
+        ) : null}
       </Sectie>
     </>
   );
