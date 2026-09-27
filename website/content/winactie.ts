@@ -20,12 +20,14 @@ import type { Veld } from "@/content/formulier";
 const plaatsen = 10;
 
 export const winactie = {
-  open: true,
+  // Gesloten sinds 27 september 2026: de inschrijvingen liepen tot en met
+  // zaterdag 26 september en de testgezinnen zijn intussen verwittigd.
+  open: false,
 
   label: "Winactie",
   titel: "Test ons oefenplatform gratis",
   handgeschreven: `${plaatsen} gezinnen gezocht!`,
-  tekst: `Help ons het oefenplatform nog beter te maken. ${plaatsen} gezinnen mogen alles gratis uittesten, en wie ons daarna vertelt wat ze ervan vinden, krijgt het volledige schooljaar gratis toegang. Inschrijven kan tot en met zaterdag 26 september.`,
+  tekst: `Help ons het oefenplatform nog beter te maken. ${plaatsen} gezinnen mogen alles gratis uittesten, en wie ons daarna vertelt wat ze ervan vinden, krijgt het volledige schooljaar gratis toegang. De inschrijvingen zijn intussen afgesloten en de testgezinnen zijn verwittigd.`,
 
   stappenTitel: "Zo werkt het",
   stappen: [
@@ -65,8 +67,7 @@ export const winactie = {
 
   formulierTitel: "Schrijf je gezin in",
   onderwerp: "Inschrijving winactie oefenplatform via de website",
-  gesloten:
-    "De inschrijvingen voor deze winactie zijn afgesloten. Bedankt aan iedereen die meedeed!",
+  gesloten: `De inschrijvingen zijn afgesloten en de ${plaatsen} testgezinnen zijn per mail verwittigd. Heel erg bedankt aan iedereen die zich opgaf, het waren er veel meer dan we hadden durven hopen. Zit je er deze keer niet bij? Hou dan zeker onze pagina's in de gaten, want we willen dit later nog eens doen.`,
 };
 
 export const winactieVelden: Veld[] = [
