@@ -1,0 +1,139 @@
+/* Wat een oefenbundel extra nodig heeft bovenop stijl.css: plaats om te
+   schrijven, doorlopende nummers en een antwoordblad op een eigen blad. */
+
+.kop .naamregel {
+  display: flex;
+  gap: 26px;
+  margin-top: 12px;
+  font-size: 10pt;
+  color: var(--ink-dim);
+}
+
+/* Het vakje waarin geschreven wordt. Een onderlijn en niet een kader: een
+   kader nodigt uit om klein te schrijven, een lijn niet. */
+.vakje {
+  display: inline-block;
+  border-bottom: 1.4px solid var(--forest);
+  height: 17px;
+  vertical-align: baseline;
+  margin: 0 2px;
+}
+.lijn {
+  border-bottom: 1.2px solid var(--ink-dim);
+  height: 26px;
+  margin-top: 5px;
+}
+
+.hoe {
+  background: rgba(47, 93, 80, .07);
+  border: 1px solid rgba(47, 93, 80, .25);
+  border-radius: 12px;
+  padding: 12px 18px 12px 20px;
+  margin-bottom: 24px;
+  break-inside: avoid;
+}
+.hoe ul { margin: 0; padding-left: 18px; }
+.hoe li { margin-bottom: 4px; font-size: 10.5pt; color: var(--ink-dim); }
+.hoe li:last-child { margin-bottom: 0; }
+
+.reeks { margin-bottom: 22px; }
+.reeks .opdracht {
+  font-size: 10.5pt;
+  color: var(--ink-dim);
+  margin: -6px 0 12px;
+}
+
+/* Een oefening: het nummer in de marge, de oefening ernaast. Zo blijft de
+   linkerkant van de tekst netjes onder elkaar, ook bij nummer 9 en 10. */
+.oef {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  margin-bottom: 11px;
+  break-inside: avoid;
+}
+.oef .nr {
+  font-size: 11pt;
+  font-weight: 600;
+  color: var(--forest);
+  min-width: 23px;
+  text-align: right;
+  flex: none;
+  font-variant-numeric: tabular-nums;
+}
+.oef .nr::after { content: "."; }
+.oef .body { flex: 1; min-width: 0; }
+.oef .vraagtekst { font-size: 11pt; }
+
+.rij { display: flex; flex-wrap: wrap; gap: 7px 22px; }
+.rij .cel { min-width: 142px; font-size: 11pt; }
+.rij .som { font-variant-numeric: tabular-nums; }
+.letter { color: var(--ink-dim); font-size: 10pt; margin-right: 3px; }
+
+.figrij { display: flex; flex-wrap: wrap; gap: 16px 28px; align-items: flex-start; }
+.figcel { display: flex; flex-direction: column; align-items: center; gap: 3px; }
+/* Alle tekeningen even hoog, anders staan de letters a) b) c) op drie
+   verschillende hoogtes en leest de rij als drie losse oefeningen. */
+.figcel .tekening { height: 96px; display: flex; align-items: center; justify-content: center; }
+.figcel svg { max-height: 96px; max-width: 165px; width: auto; height: auto; }
+.figboven { font-size: 10.5pt; margin-bottom: 8px; }
+
+.keuzes { display: flex; flex-wrap: wrap; gap: 6px 20px; margin-top: 5px; }
+.keuze { font-size: 10.5pt; display: inline-flex; align-items: center; gap: 6px; }
+.bolletje {
+  width: 13px;
+  height: 13px;
+  border: 1.4px solid var(--forest);
+  border-radius: 999px;
+  display: inline-block;
+}
+
+table.invul { border-collapse: collapse; font-size: 10.5pt; margin-top: 3px; }
+table.invul th {
+  border: 1px solid var(--border);
+  background: rgba(47, 93, 80, .09);
+  color: var(--forest-dark);
+  font-weight: 600;
+  text-align: left;
+  padding: 5px 10px;
+}
+table.invul td { border: 1px solid var(--border); padding: 5px 10px; }
+
+.tussen { font-size: 10.5pt; color: var(--ink-dim); margin: 0 0 10px 30px; }
+.tussen p { margin: 0; }
+
+/* Het antwoordblad begint aan een nieuw blad, zodat het eraf kan. */
+.antwoorden { break-before: page; padding-top: 2px; }
+.antwoorden .kop { margin-bottom: 18px; }
+/* Twee kolommen, zodat het antwoordblad één blad blijft en je het in één
+   keer kan afscheuren. */
+.antwlijst { column-count: 2; column-gap: 30px; }
+.antwreeks { break-inside: avoid; margin-bottom: 14px; }
+.antwreeks h3 {
+  font-size: 11.5pt;
+  margin: 0 0 5px;
+  color: var(--forest-dark);
+}
+.antwreeks ul { margin: 0; padding: 0; list-style: none; }
+.antwreeks li {
+  font-size: 10.5pt;
+  margin-bottom: 3px;
+  padding-left: 30px;
+  text-indent: -30px;
+}
+.anr {
+  display: inline-block;
+  min-width: 24px;
+  color: var(--forest);
+  font-weight: 600;
+  text-indent: 0;
+}
+.nakijken {
+  margin-top: 16px;
+  font-size: 10.5pt;
+  color: var(--ink-dim);
+  border-top: 1px solid var(--border);
+  padding-top: 11px;
+}
+
+.kleuropdracht { font-size: 10pt; color: var(--ink-dim); }

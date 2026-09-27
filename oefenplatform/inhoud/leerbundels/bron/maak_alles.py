@@ -24,17 +24,23 @@ def main(filter_vak=None):
         if pad.name == "maak_alles.py":
             continue
         mod = importlib.import_module(pad.stem)
-        for naam, b in getattr(mod, "BUNDELS", {}).items():
-            vak = slug(b["vak"])
-            if filter_vak and vak != filter_vak:
-                continue
-            bundel = importlib.import_module("bundel")
-            bundel.schrijf(b, naam)
-            subprocess.run(["node", str(HIER / "pdf.js"), naam], cwd=HIER, check=True)
-            doel = HIER.parent / vak
-            doel.mkdir(exist_ok=True)
-            (doel / f"{naam}.pdf").write_bytes((HIER / f"{naam}.pdf").read_bytes())
-            gemaakt.append(f"{vak}/{naam}.pdf")
+        # BUNDELS zijn leerbundels (de theorie), OEFENBUNDELS zijn oefeningen om
+        # op papier te maken. Ze worden door een ander script gerenderd en
+        # komen in een andere map terecht.
+        for soort, sleutel, maker, map_ in (
+            ("leerbundel", "BUNDELS", "bundel", HIER.parent),
+            ("oefenbundel", "OEFENBUNDELS", "oefenbundel", HIER.parent.parent / "oefenbundels"),
+        ):
+            for naam, b in getattr(mod, sleutel, {}).items():
+                vak = slug(b["vak"])
+                if filter_vak and vak != filter_vak:
+                    continue
+                importlib.import_module(maker).schrijf(b, naam)
+                subprocess.run(["node", str(HIER / "pdf.js"), naam], cwd=HIER, check=True)
+                doel = map_ / vak
+                doel.mkdir(parents=True, exist_ok=True)
+                (doel / f"{naam}.pdf").write_bytes((HIER / f"{naam}.pdf").read_bytes())
+                gemaakt.append(f"{doel.relative_to(HIER.parent.parent)}/{naam}.pdf")
     for g in gemaakt:
         print("  ", g)
     print(len(gemaakt), "bundels")

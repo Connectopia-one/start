@@ -15,9 +15,10 @@ type Rij = {
   bestand: File;
   hoofdstukId: string;
   titel: string;
-  /* Vervangt deze bundel wat er al bij het hoofdstuk stond? Staat aan zodra er
-     al iets staat: een nieuwe versie uploaden is veel vaker de bedoeling dan
-     twee bundels naast elkaar willen. */
+  /* Vervangt deze bundel wat er al bij het hoofdstuk stond? Staat aan als er al
+     iets met dezelfde titel hangt: dan laad je een nieuwe versie op. Heeft het
+     een andere titel — een oefenbundel naast een leerbundel bijvoorbeeld — dan
+     komt het erbij. */
   vervang: boolean;
   status: "wacht" | "bezig" | "klaar" | "fout";
   melding?: string;
@@ -90,6 +91,15 @@ function titelUitBestandsnaam(bestandsnaam: string): string {
   return kaal.charAt(0).toUpperCase() + kaal.slice(1);
 }
 
+/* Is dit een nieuwe versie van iets wat er al hangt, of komt het ernaast?
+   Vroeger ging dit enkel op "staat er al iets", waardoor een oefenbundel de
+   leerbundel van hetzelfde hoofdstuk zou wissen. De titel beslist nu mee. */
+function vervangtBestaande(titel: string, bestaande: Bundel[]): boolean {
+  const kaal = (t: string) => woorden(t).join(" ");
+  const nieuw = kaal(titel);
+  return bestaande.some((b) => kaal(b.titel) === nieuw);
+}
+
 function niveauLabel(niveau: string): string {
   const n = NIVEAUS.find((x) => x.slug === niveau);
   return n ? `${n.emoji} ${n.naam}` : niveau;
@@ -139,13 +149,16 @@ export function BulkLeerstofForm({ vakken, bundels }: { vakken: Vak[]; bundels: 
     // er dus twee keer, en wordt ook twee keer opgeladen.
     setRijen(
       gekozen.flatMap((bestand) =>
-        raadHoofdstukken(bestand.name, hoofdstukken).map((hoofdstukId) => ({
-          bestand,
-          hoofdstukId,
-          titel: titelUitBestandsnaam(bestand.name),
-          vervang: (bundelsPerHoofdstuk.get(hoofdstukId)?.length ?? 0) > 0,
-          status: "wacht" as const,
-        })),
+        raadHoofdstukken(bestand.name, hoofdstukken).map((hoofdstukId) => {
+          const titel = titelUitBestandsnaam(bestand.name);
+          return {
+            bestand,
+            hoofdstukId,
+            titel,
+            vervang: vervangtBestaande(titel, bundelsPerHoofdstuk.get(hoofdstukId) ?? []),
+            status: "wacht" as const,
+          };
+        }),
       ),
     );
   }

@@ -4133,3 +4133,53 @@ def voornaamwoordplaats(breedte=470):
                     "Het voorwerp staat in het Frans vóór het werkwoord, in het Nederlands erachter.",
                     10, DIM))
     return _svg(breedte, h, "".join(d))
+
+
+def breukfiguur(vorm, teller, noemer, breedte=None):
+    """Een cirkel, strook of raster in gelijke stukken, met er een aantal gekleurd.
+
+    Dezelfde drie vormen als in de vragen op het scherm (components/Figuren.tsx),
+    zodat een kind op papier niet iets anders ziet dan online. Zet teller op 0
+    voor een lege figuur: dan kleurt het kind zelf in.
+    """
+    if vorm == "cirkel":
+        r, c = 66, 76
+        import math
+        d = []
+        if noemer == 1:
+            d.append(f'<circle cx="{c}" cy="{c}" r="{r}" fill="{FOREST if teller else "#ffffff"}" '
+                     f'stroke="{DARK}" stroke-width="1.8"/>')
+        else:
+            for i in range(noemer):
+                a0 = -math.pi / 2 + i * 2 * math.pi / noemer
+                a1 = -math.pi / 2 + (i + 1) * 2 * math.pi / noemer
+                x0, y0 = c + r * math.cos(a0), c + r * math.sin(a0)
+                x1, y1 = c + r * math.cos(a1), c + r * math.sin(a1)
+                groot = 1 if (a1 - a0) > math.pi else 0
+                vul = FOREST if i < teller else "#ffffff"
+                d.append(f'<path d="M {c} {c} L {x0:.1f} {y0:.1f} A {r} {r} 0 {groot} 1 {x1:.1f} {y1:.1f} Z" '
+                         f'fill="{vul}" stroke="{DARK}" stroke-width="1.8"/>')
+        return _svg(152, 152, "".join(d))
+
+    if vorm == "strook":
+        b = breedte or min(330, noemer * 56)
+        w = b / noemer
+        d = []
+        for i in range(noemer):
+            vul = FOREST if i < teller else "#ffffff"
+            d.append(f'<rect x="{2 + i*w:.1f}" y="2" width="{w:.1f}" height="44" '
+                     f'fill="{vul}" stroke="{DARK}" stroke-width="1.6"/>')
+        return _svg(b + 4, 48, "".join(d))
+
+    # raster: honderd vakjes in tien rijen, of minder vakjes op één rij
+    kolommen = 10 if noemer == 100 else noemer
+    rijen = -(-noemer // kolommen)
+    cel = 18 if noemer == 100 else 26
+    d = []
+    for i in range(noemer):
+        vul = AMBER if i < teller else "#ffffff"
+        d.append(f'<rect x="{2 + (i % kolommen)*cel}" y="{2 + (i // kolommen)*cel}" '
+                 f'width="{cel}" height="{cel}" fill="{vul}" stroke="{BORDER}" stroke-width="1"/>')
+    d.append(f'<rect x="2" y="2" width="{kolommen*cel}" height="{rijen*cel}" fill="none" '
+             f'stroke="{DARK}" stroke-width="1.6"/>')
+    return _svg(kolommen * cel + 4, rijen * cel + 4, "".join(d))
