@@ -14,12 +14,11 @@ export const site = {
   socials: "@connectopia.one",
   /*
     De Facebook-pagina. Staat als link in de voettekst en op de contactpagina.
-    Maak je ooit een gebruikersnaam aan op Facebook, dan wordt dit adres
-    korter (facebook.com/connectopia.one) en mag je het hier vervangen; de
-    oude link blijft ook dan werken. Laat je dit leeg, dan verdwijnt de link
-    vanzelf van de site en blijft enkel de naam staan.
+    Kim maakte op 27 september 2026 de gebruikersnaam Connectopia.one aan,
+    waardoor dit korte adres werkt in plaats van het lange nummer van
+    voorheen. Laat je dit leeg, dan verdwijnt de link vanzelf van de site.
   */
-  facebook: "https://www.facebook.com/profile.php?id=61559391660933",
+  facebook: "https://www.facebook.com/Connectopia.one",
   /*
     Instagram. Let op: plak hier nooit een deellink met ?stkn= erachter. Dat
     stuk hoort bij jouw eigen deelknop en heeft op een website niets te
