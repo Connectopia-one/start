@@ -155,3 +155,17 @@ body.metfoto main { padding-top: 34px; }
 body.metfiguur .kop p,
 body.metfiguur .mid { max-width: 596px; }
 
+/*
+  Het verhaalformaat (1080 x 1920). Hetzelfde blad, maar hoger: meer lucht
+  boven en onder, want daar zet Facebook zijn eigen knoppen overheen. De
+  figuur mag mee groeien, hij blijft toch in de hoek staan.
+*/
+body.verhaal { height: 1920px; padding: 150px 68px 120px; }
+body.verhaal .figuur { height: 860px; }
+/*
+  Het middenstuk zweeft niet in het midden maar blijft onder de kop hangen.
+  Zo valt de lege ruimte lager, waar de figuur staat, en niet als een gat
+  tussen de tekst en het kader.
+*/
+body.verhaal .mid { margin-top: 44px; padding: 0; }
+

@@ -4,6 +4,14 @@
       PW=$(npm root -g)/playwright node render.js                 alles
       PW=$(npm root -g)/playwright node render.js dag-18-prikbord  één post
 
+  Met VERHAAL=1 maakt het hetzelfde blad op 1080 x 1920, het formaat van een
+  verhaal op Facebook en Instagram, en schrijft het naar <naam>-verhaal.png:
+
+      PW=$(npm root -g)/playwright VERHAAL=1 node render.js we-zijn-gestart
+
+  Waarom apart: een vierkante post in een verhaal laat balken boven en onder,
+  en die moet je dan met de hand bijkleuren. Zo staat het er meteen goed op.
+
   Het script waarschuwt zelf als de inhoud onder de groene balk schuift of
   buiten het vierkant valt. Staat er "LET OP" bij, kort dan de tekst in of
   haal er een kaartje uit.
@@ -14,6 +22,9 @@ const path = require('path');
 const posts = require('./posts.js');
 
 const kleuren = { groen: '', paars: 'paars', oranje: 'oranje', blauw: 'blauw' };
+
+const verhaal = !!process.env.VERHAAL;
+const HOOG = verhaal ? 1920 : 1080;
 
 function blad(p) {
   const stukken = [];
@@ -57,7 +68,7 @@ function blad(p) {
 <title>${p.bestand}</title>
 <link rel="stylesheet" href="stijl.css">
 </head>
-<body class="${[kleuren[p.kleur], p.foto ? 'metfoto' : '', p.figuur ? 'metfiguur' : ''].filter(Boolean).join(' ')}">
+<body class="${[kleuren[p.kleur], p.foto ? 'metfoto' : '', p.figuur ? 'metfiguur' : '', verhaal ? 'verhaal' : ''].filter(Boolean).join(' ')}">
 ${p.figuur ? `  <img class="figuur" src="${p.figuur}" alt="">` : ''}
 ${p.foto ? `
   <div class="hero">
@@ -109,9 +120,9 @@ ${p.foto ? `
   const b = await chromium.launch();
   let fout = 0;
   for (const p of doen) {
-    const html = path.join(__dirname, p.bestand + '.html');
+    const html = path.join(__dirname, p.bestand + (verhaal ? '-verhaal' : '') + '.html');
     fs.writeFileSync(html, blad(p));
-    const pg = await b.newPage({ viewport: { width: 1080, height: 1080 }, deviceScaleFactor: 1 });
+    const pg = await b.newPage({ viewport: { width: 1080, height: HOOG }, deviceScaleFactor: 1 });
     await pg.goto('file://' + html);
     await pg.evaluate(() => document.fonts.ready);
     await pg.waitForTimeout(200);
@@ -131,14 +142,14 @@ ${p.foto ? `
     const klachten = [];
     if (maat.inhoudBodem > maat.actieTop) klachten.push('de inhoud loopt onder de groene balk');
     if (maat.kopBodem > maat.actieTop) klachten.push('de kop loopt onder de groene balk');
-    if (maat.actieBodem > 1080 || maat.hoog > 1080) klachten.push('het blad is hoger dan 1080');
+    if (maat.actieBodem > HOOG || maat.hoog > HOOG) klachten.push('het blad is hoger dan ' + HOOG);
     console.log(
       p.bestand.padEnd(32),
       JSON.stringify(maat),
       klachten.length ? 'LET OP: ' + klachten.join(', ') : 'ok'
     );
     if (klachten.length) fout++;
-    await pg.screenshot({ path: path.join(__dirname, '..', p.bestand + '.png') });
+    await pg.screenshot({ path: path.join(__dirname, '..', p.bestand + (verhaal ? '-verhaal' : '') + '.png') });
     await pg.close();
   }
   await b.close();
