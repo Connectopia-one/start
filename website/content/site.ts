@@ -20,6 +20,12 @@ export const site = {
     vanzelf van de site en blijft enkel de naam staan.
   */
   facebook: "https://www.facebook.com/profile.php?id=61559391660933",
+  /*
+    Instagram. Let op: plak hier nooit een deellink met ?stkn= erachter. Dat
+    stuk hoort bij jouw eigen deelknop en heeft op een website niets te
+    zoeken; het gewone adres volstaat.
+  */
+  instagram: "https://www.instagram.com/connectopia_samensterk",
   /* Het mailadres uit al onze communicatie, van de MATM groep. */
   email: "info@matmgroep.com",
   /*
@@ -35,6 +41,16 @@ export const site = {
   */
   webadres: "https://www.connectopia.one",
 };
+
+/*
+  Waar we te volgen zijn. Wat je hier weglaat, verdwijnt vanzelf uit de
+  voettekst en van de contactpagina; een nieuw kanaal (TikTok, LinkedIn) voeg
+  je toe door er een regel bij te zetten.
+*/
+export const volgOns = [
+  { naam: "Facebook", adres: site.facebook },
+  { naam: "Instagram", adres: site.instagram },
+].filter((kanaal) => kanaal.adres);
 
 /*
   De acht onderdelen van de site.

@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Aanvraagformulier } from "@/components/Aanvraagformulier";
 import { Icoon, Kaart, PaginaKop, Sectie } from "@/components/ui";
 import { contactTekst } from "@/content/contact";
-import { site } from "@/content/site";
+import { site, volgOns } from "@/content/site";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -95,19 +95,24 @@ export default async function ContactPagina() {
           </p>
         </Kaart>
 
-        {/* Enkel als er een Facebook-adres in content/site.ts staat. */}
-        {site.facebook ? (
+        {/* Een knop per kanaal uit volgOns in content/site.ts. */}
+        {volgOns.length > 0 ? (
           <Kaart className="flex flex-col">
             <h2 className="text-xl text-green">{contactTekst.volgen.titel}</h2>
             <p className="mt-2 text-[16px] text-ink-dim">
               {contactTekst.volgen.tekst}
             </p>
-            <a
-              href={site.facebook}
-              className="mt-4 inline-block self-start rounded-full border-2 border-green px-6 py-3 text-center text-[16px] font-extrabold text-green transition hover:-translate-y-0.5 hover:bg-sage-soft"
-            >
-              {contactTekst.volgen.knopTekst}
-            </a>
+            <div className="mt-4 flex flex-wrap gap-3">
+              {volgOns.map((kanaal) => (
+                <a
+                  key={kanaal.naam}
+                  href={kanaal.adres}
+                  className="inline-block rounded-full border-2 border-green px-6 py-3 text-center text-[16px] font-extrabold text-green transition hover:-translate-y-0.5 hover:bg-sage-soft"
+                >
+                  {kanaal.naam}
+                </a>
+              ))}
+            </div>
           </Kaart>
         ) : null}
       </Sectie>

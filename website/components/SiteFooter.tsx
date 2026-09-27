@@ -1,5 +1,5 @@
 import { NaarLink } from "@/components/ui";
-import { extraLinks, onderdelen, site } from "@/content/site";
+import { extraLinks, onderdelen, site, volgOns } from "@/content/site";
 
 export function SiteFooter() {
   return (
@@ -40,24 +40,27 @@ export function SiteFooter() {
         </nav>
 
         <p className="mt-6 text-[15px] text-cream/75">
-          {site.naam} {site.vzw} ·{" "}
-          {/*
-            Staat er een Facebook-adres in content/site.ts, dan is onze naam
-            hier een echte link naar de pagina. Is dat veld leeg, dan blijft
-            de naam er gewoon als tekst staan.
-          */}
-          {site.facebook ? (
-            <a
-              href={site.facebook}
-              className="font-bold text-cream underline-offset-4 hover:underline"
-            >
-              {site.socials} op Facebook
-            </a>
-          ) : (
-            site.socials
-          )}{" "}
-          · {site.email}
+          {site.naam} {site.vzw} · {site.socials} · {site.email}
         </p>
+
+        {/*
+          Waar we te volgen zijn. De lijst komt uit volgOns in
+          content/site.ts; staat daar niets in, dan valt deze regel weg.
+        */}
+        {volgOns.length > 0 ? (
+          <p className="mt-2 flex flex-wrap gap-x-4 gap-y-1 text-[15px] text-cream/75">
+            <span>Volg ons op</span>
+            {volgOns.map((kanaal) => (
+              <a
+                key={kanaal.naam}
+                href={kanaal.adres}
+                className="font-bold text-cream underline-offset-4 hover:underline"
+              >
+                {kanaal.naam}
+              </a>
+            ))}
+          </p>
+        ) : null}
       </div>
     </footer>
   );

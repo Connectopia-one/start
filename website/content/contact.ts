@@ -38,11 +38,10 @@ export const contactTekst = {
     tekst: "Dat mag ook. We antwoorden zo snel als we kunnen.",
   },
 
-  /* Verdwijnt vanzelf als site.facebook leeg is. */
+  /* Verdwijnt vanzelf als er in volgOns (content/site.ts) niets staat. */
   volgen: {
     titel: "Volg je ons al?",
     tekst:
-      "Op onze Facebook-pagina zetten we als eerste wanneer een kamp opengaat, waar we mee bezig zijn en wat de kinderen maken.",
-    knopTekst: "Naar onze Facebook-pagina",
+      "Daar zetten we als eerste wanneer een kamp opengaat, waar we mee bezig zijn en wat de kinderen maken.",
   },
 };
