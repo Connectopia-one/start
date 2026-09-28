@@ -10,8 +10,21 @@
     {
       tekst: "De zin zoals de ouder hem schreef.",
       naam: "Voornaam",
-      wat: "mama van een kind in de plusklas",
+      wat: "mama van een kind dat meeging op kamp",
     },
+
+  Bij "wat" zet je bij welke werking die ouder ons kent. Zo ziet een lezer
+  meteen dat we meer doen dan één ding:
+
+    mama van een kind dat meeging op kamp
+    papa van een kind bij Young Engineers
+    mama van een kind in de plusklas
+    papa van een kind in de pluswerking op zaterdag
+    mama van een gezin dat het oefenplatform test
+
+  Meng ze ook echt. Staan er straks vijf quotes over de plusklas, dan lijkt
+  het alsof we enkel dat doen, terwijl er veel meer kinderen op kamp en bij
+  Young Engineers komen.
 
   Drie afspraken, en die zijn belangrijk:
 
