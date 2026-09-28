@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<title>Nieuwsbrief najaar 2026</title>
+<style>
+  @font-face { font-family: "Nunito"; src: url(nunito.woff2) format("woff2"); font-weight: 200 1000; }
+  @font-face { font-family: "Caveat"; src: url(caveat.woff2) format("woff2"); font-weight: 700; }
+  @page { size: 210mm 297mm; margin: 0; }
+  :root {
+    --cream: #fbf6ea; --ink: #2a2d26; --ink-dim: #61675a; --border: #e6e0d0;
+    --green: #2f4a22; --green-mid: #5c7a45; --sage: #8aa173; --sage-soft: #dfe7d0;
+    --purple: #5e2d91; --purple-soft: #eae0f6; --orange: #d96e25; --orange-soft: #fae5d1;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 210mm; height: 297mm; background: var(--cream); }
+  body { font-family: "Nunito", sans-serif; color: var(--ink);
+         -webkit-print-color-adjust: exact; print-color-adjust: exact;
+         position: relative; overflow: hidden; }
+
+  .band { height: 7mm; background: var(--green); }
+
+  .kop { padding: 6mm 14mm 0; display: flex; align-items: flex-start; gap: 6mm; }
+  .kop .tekst { flex: 1; }
+  .kop .hand { font-family: "Caveat"; font-size: 19pt; color: var(--orange); line-height: 1; }
+  .kop h1 { font-weight: 900; color: var(--green); font-size: 24pt; line-height: 1.05;
+            letter-spacing: -.01em; margin-top: 1.5mm; }
+  .kop h1 span { color: var(--green-mid); }
+  .kop p { margin-top: 2.5mm; font-size: 10.6pt; line-height: 1.42; color: var(--ink-dim); font-weight: 600; }
+  .kop p b { color: var(--ink); font-weight: 800; }
+  .kop img { width: 26mm; height: 26mm; object-fit: contain; }
+
+  .kaarten { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 4mm; padding: 4mm 14mm 0; }
+  .kaart { border-radius: 20px; background: #fff; border: .35mm solid var(--border); overflow: hidden; }
+  .kaart .hoed { padding: 2.2mm 4mm; display: flex; align-items: center; gap: 2.2mm;
+                 font-weight: 900; font-size: 10pt; }
+  .kaart.paars .hoed { background: var(--purple-soft); color: var(--purple); }
+  .kaart.oranje .hoed { background: var(--orange-soft); color: var(--orange); }
+  .kaart.groen .hoed { background: var(--sage-soft); color: var(--green); }
+  .kaart .hoed .bol { width: 7mm; height: 7mm; border-radius: 50%; background: #fff;
+                      display: flex; align-items: center; justify-content: center; font-size: 11pt; }
+  .kaart .inhoud { padding: 2.6mm 4.5mm 3.2mm; font-size: 9.4pt; line-height: 1.4; color: var(--ink-dim); font-weight: 600; }
+  .kaart .inhoud b { color: var(--ink); font-weight: 800; }
+
+  h2.titel { padding: 4mm 14mm 0; font-size: 14.5pt; font-weight: 900; color: var(--green); }
+
+  .aanbod { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm 4mm; padding: 2.5mm 14mm 0; }
+  .aanbod > div { border-radius: 18px; border: .35mm solid var(--border); background: #fff;
+                  padding: 2.8mm 4.5mm 3mm; }
+  .aanbod .wat { font-weight: 900; font-size: 10.6pt; color: var(--green); }
+  .aanbod .waar { font-size: 9.3pt; line-height: 1.38; color: var(--ink-dim); font-weight: 600; margin-top: .6mm; }
+  .aanbod .waar b { color: var(--ink); font-weight: 800; }
+
+  .kampen { margin: 3.5mm 14mm 0; border-radius: 20px; background: var(--green); color: #fff;
+            padding: 3.4mm 6mm 3.6mm; }
+  .kampen .hand { font-family: "Caveat"; font-size: 17pt; color: var(--sage-soft); line-height: 1; }
+  .kampen h2 { font-weight: 900; font-size: 15pt; line-height: 1.1; margin-top: .8mm; }
+  .kampen ul { margin-top: 2.6mm; display: grid; grid-template-columns: 1fr 1fr; gap: 1.4mm 5mm; list-style: none; }
+  .kampen li { font-size: 9.6pt; line-height: 1.32; font-weight: 700; padding-left: 5.5mm; position: relative; }
+  .kampen li::before { content: "→"; position: absolute; left: 0; color: var(--sage-soft); font-weight: 900; }
+  .kampen .slot { margin-top: 2.4mm; font-size: 9.6pt; font-weight: 700; background: rgba(255,255,255,.12);
+                  border-radius: 14px; padding: 2.2mm 4mm; line-height: 1.38; }
+
+  .korting { margin: 3.5mm 14mm 0; border-radius: 20px; background: var(--orange-soft);
+             border: .5mm dashed var(--orange); padding: 3.4mm 6mm 3.8mm;
+             display: flex; align-items: center; gap: 6mm; }
+  .korting .links { flex: 1; }
+  .korting .hand { font-family: "Caveat"; font-size: 17pt; color: var(--orange); line-height: 1; }
+  .korting h2 { font-weight: 900; font-size: 14pt; color: #8a4513; line-height: 1.1; margin-top: .6mm; }
+  .korting p { font-size: 9.5pt; line-height: 1.38; color: #6b4a2c; font-weight: 600; margin-top: 1.4mm; }
+  .korting p b { color: var(--orange); font-weight: 900; }
+  .korting .vak { border-radius: 16px; background: #fff; border: .4mm solid #f0cfae;
+                  padding: 3mm 6mm; text-align: center; min-width: 46mm; }
+  .korting .vak .klein { font-size: 8.2pt; font-weight: 800; letter-spacing: .08em;
+                         text-transform: uppercase; color: var(--orange); }
+  .korting .vak .groot { font-weight: 900; font-size: 16pt; letter-spacing: .02em;
+                         color: var(--green); line-height: 1.2; margin-top: .6mm; }
+
+  .slotregel { margin: 2.6mm 14mm 0; text-align: center; }
+  .slotregel .hand { font-family: "Caveat"; font-size: 18pt; color: var(--green-mid); line-height: 1.1; }
+  .slotregel .url { margin-top: .8mm; font-size: 11pt; font-weight: 900; color: var(--green); }
+
+  .voet { position: absolute; left: 0; right: 0; bottom: 0; padding: 4mm 14mm 5mm;
+          border-top: .35mm solid var(--border); background: var(--cream); }
+  .voet .rij { display: flex; align-items: center; justify-content: space-between; gap: 6mm; }
+  .voet .naam { font-weight: 900; color: var(--green); font-size: 12pt; }
+  .voet .naam small { display: block; font-weight: 700; color: var(--ink-dim); font-size: 9.2pt; }
+  .voet .contact { text-align: right; font-size: 9.6pt; font-weight: 700; color: var(--ink-dim); line-height: 1.45; }
+  .voet .contact b { color: var(--green); font-weight: 900; }
+
+  .blad { position: absolute; z-index: 0; opacity: .5; }
+</style>
+</head>
+<body>
+  <div class="band"></div>
+
+  <svg class="blad" style="right:-8mm; top:36mm; width:40mm" viewBox="0 0 100 100">
+    <path d="M10 90 C 10 40, 50 10, 90 10 C 90 50, 55 90, 10 90 Z" fill="#dfe7d0"/>
+  </svg>
+
+  <div class="kop">
+    <div class="tekst">
+      <div class="hand">Er is veel veranderd</div>
+      <h1>Nieuw aanbod, nieuwe plekken,<br><span>en een dankjewel voor jullie</span></h1>
+      <p>Jullie waren er al bij toen we nog aan het beginnen waren. Daarom horen jullie het als eersten: <b>we zijn sinds dit schooljaar officieel een vzw</b>, en daardoor konden we onze prijzen verlágen in plaats van verhogen.</p>
+    </div>
+    <img src="logo-kim-transparant.png" alt="Connectopia">
+  </div>
+
+  <div class="kaarten">
+    <div class="kaart groen">
+      <div class="hoed"><span class="bol">🌱</span> Officieel een vzw</div>
+      <div class="inhoud">Geen winst, alles gaat naar de kinderen. <b>De plusklas, de pluswerkingen en Young Engineers werden goedkoper.</b></div>
+    </div>
+    <div class="kaart paars">
+      <div class="hoed"><span class="bol">📍</span> Nieuwe plekken</div>
+      <div class="inhoud">We zijn er nu ook in <b>Genk, op T2 Campus</b>, naast onze werkingen in Hasselt.</div>
+    </div>
+    <div class="kaart oranje">
+      <div class="hoed"><span class="bol">💻</span> Oefenplatform</div>
+      <div class="inhoud">Zelf gebouwd, zonder AI in de oefeningen. <b>Eén hoofdstuk mag je vrij proberen, zonder account.</b></div>
+    </div>
+  </div>
+
+  <h2 class="titel">Wat er dit schooljaar te doen is</h2>
+
+  <div class="aanbod">
+    <div>
+      <div class="wat">🚀 Externe plusklas</div>
+      <div class="waar">Elke <b>dinsdag van 9u tot 15u</b>, Atheneum Hasselt. Een hele dag ontdekken met gelijkgestemde kinderen. Trajecten van tien dagen.</div>
+    </div>
+    <div>
+      <div class="wat">🎓 Pluswerking woensdag</div>
+      <div class="waar"><b>Woensdagvoormiddag, 9u tot 12u</b>, T2 Campus Genk. Schoolse uitdaging en voorbereiding op de examencommissie.</div>
+    </div>
+    <div>
+      <div class="wat">🌟 Pluswerking zaterdag</div>
+      <div class="waar"><b>Zaterdagvoormiddag, 9u tot 12u</b>, Vilderstraat 28 in Hasselt. Zelfde werking, ander moment.</div>
+    </div>
+    <div>
+      <div class="wat">🔧 Young Engineers</div>
+      <div class="waar">Na school op <b>dinsdag, 15u20 tot 16u35</b>, Atheneum Hasselt. Bouwen, techniek en uitvinden.</div>
+    </div>
+  </div>
+
+  <div class="kampen">
+    <div class="hand">In elke schoolvakantie</div>
+    <h2>Onze kampen, van 9u tot 15u, voor 6 tot 12 jaar</h2>
+    <ul>
+      <li><b>2 en 3 november</b> — Hasselt, Level X 28<br>thema Young Engineer Held</li>
+      <li><b>4 en 5 november</b> — Genk, T2 Campus<br>thema Creatieve duizendpoot</li>
+      <li><b>21, 22 en 23 december</b> — Hasselt of Genk</li>
+      <li><b>28, 29 en 30 december</b> — Hasselt of Genk</li>
+    </ul>
+    <div class="slot">Je kind mag één dag komen of alle dagen. De kerstkampen gaan door als er genoeg inschrijvingen zijn, dus laat gerust nu al weten waar jullie interesse in hebben. Daarna volgen krokus, Pasen en de zomer.</div>
+  </div>
+
+  <div class="korting">
+    <div class="links">
+      <div class="hand">Omdat jullie er al bij waren</div>
+      <h2>Tien euro korting op je volgende inschrijving</h2>
+      <p>Voor een kamp, een pluswerking of een reeks Young Engineers, naar keuze. Vermeld gewoon de code hiernaast bij je inschrijving, dan trekken wij het af. <b>Geldig tot en met 31 december 2026.</b> Twijfel je of iets past? Een gratis proefles kan altijd.</p>
+    </div>
+    <div class="vak">
+      <div class="klein">Jullie code</div>
+      <div class="groot">DANKJEWEL</div>
+    </div>
+  </div>
+
+  <div class="slotregel">
+    <div class="hand">Zin om er weer bij te zijn?</div>
+    <div class="url">Alles staat op www.connectopia.one, inschrijven kan daar in twee minuten</div>
+  </div>
+
+  <div class="voet">
+    <div class="rij">
+      <div class="naam">Connectopia vzw
+        <small>Ruimte voor nieuwsgierigheid, talent en uitdaging</small>
+      </div>
+      <div class="contact">
+        <b>info@matmgroep.com</b> · 0468 35 74 96<br>
+        www.connectopia.one · oefenplatform.connectopia.one
+      </div>
+    </div>
+  </div>
+</body>
+</html>
