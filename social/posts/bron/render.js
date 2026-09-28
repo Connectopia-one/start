@@ -132,6 +132,7 @@ ${p.foto ? `
       const actie = document.querySelector('.actie').getBoundingClientRect();
       const kop = document.querySelector('.kop').getBoundingClientRect();
       const breed = document.querySelector('.figuurvak');
+      const logo = document.querySelector('.actie .logo');
       const mid = document.querySelector('.mid');
       const inhoud = mid && mid.children.length ? mid.getBoundingClientRect() : kop;
       return {
@@ -141,12 +142,14 @@ ${p.foto ? `
         actieTop: Math.round(actie.top),
         actieBodem: Math.round(actie.bottom),
         figuurTop: breed ? Math.round(breed.getBoundingClientRect().top) : null,
+        logoBuiten: logo ? Math.round(logo.getBoundingClientRect().right - actie.right) : 0,
       };
     });
     const klachten = [];
     if (maat.inhoudBodem > maat.actieTop) klachten.push('de inhoud loopt onder de groene balk');
     if (maat.kopBodem > maat.actieTop) klachten.push('de kop loopt onder de groene balk');
     if (maat.figuurTop !== null && maat.inhoudBodem > maat.figuurTop) klachten.push('de tekst loopt over de figuur');
+    if (maat.logoBuiten > -10) klachten.push('de link duwt het logo uit de groene balk');
     if (maat.actieBodem > HOOG || maat.hoog > HOOG) klachten.push('het blad is hoger dan ' + HOOG);
     console.log(
       p.bestand.padEnd(32),
