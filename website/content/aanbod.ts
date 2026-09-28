@@ -55,6 +55,29 @@ export const aanbodTekst = {
   inschrijvenTekst: "Interesse of inschrijven?",
 };
 
+/*
+  Wat er bij de prijs inbegrepen zit, en wat dus níét apart aangerekend
+  wordt. Kim gaf dat door op 28 september 2026, nadat bleek dat andere
+  aanbieders die dingen als extra's verkopen terwijl het bij ons in het
+  dagtarief zit. Het stond nergens op de site, en wie het niet weet,
+  vergelijkt enkel bedragen.
+
+  Dit gaat over de plusklas en de pluswerkingen; bij een kamp of een les
+  Young Engineers hoort geen schooloverleg. Klopt dat niet, pas dan de
+  titel hieronder aan.
+*/
+export const inbegrepen = {
+  titel: "Dit zit er bij de plusklas en de pluswerkingen altijd bij",
+  tekst:
+    "Je betaalt bij ons het dagtarief, en verder niets. Wat andere organisaties apart aanrekenen, zit bij ons in de prijs.",
+  punten: [
+    "Al het materiaal waarmee de kinderen werken",
+    "Gesprekken met de school van je kind, gratis",
+    "Verschillende overlegmomenten met jou als ouder",
+    "Een gratis proefles voor je iets vastlegt",
+  ],
+};
+
 export const trajecten: Traject[] = [
   {
     slug: "externe-plusklas",
@@ -268,8 +291,14 @@ export const trajecten: Traject[] = [
         hulp: "In de kerstvakantie kunnen we in Hasselt of in Genk terecht. Waar we het kamp geven, hangt af van waar de meeste kinderen vandaan komen.",
         keuzes: [
           { naam: "Kerst liefst Hasselt", label: "Hasselt, Vilderstraat 28" },
-          { naam: "Kerst liefst Genk", label: "Genk, T2 Campus, Thor Park 8040" },
-          { naam: "Kerst maakt niet uit", label: "Allebei goed, we komen naar waar het doorgaat" },
+          {
+            naam: "Kerst liefst Genk",
+            label: "Genk, T2 Campus, Thor Park 8040",
+          },
+          {
+            naam: "Kerst maakt niet uit",
+            label: "Allebei goed, we komen naar waar het doorgaat",
+          },
         ],
       },
       {

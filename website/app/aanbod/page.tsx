@@ -9,7 +9,7 @@ import {
   Sectie,
   tekstKleur,
 } from "@/components/ui";
-import { aanbodTekst, proefles, trajecten } from "@/content/aanbod";
+import { aanbodTekst, inbegrepen, proefles, trajecten } from "@/content/aanbod";
 import { aanvraagLink, soorten } from "@/content/formulier";
 
 export const metadata: Metadata = {
@@ -40,6 +40,26 @@ export default function AanbodPagina() {
           >
             {proefles.knopTekst} →
           </Link>
+        </div>
+      </Sectie>
+
+      {/* Wat er in de prijs zit. Staat bewust vóór de tarieven. */}
+      <Sectie className="py-4">
+        <div className="rounded-[20px] bg-sage-soft px-7 py-6">
+          <h2 className="text-2xl text-green">{inbegrepen.titel}</h2>
+          <p className="mt-2 max-w-[68ch] text-[16px] text-ink">
+            {inbegrepen.tekst}
+          </p>
+          <ul className="mt-4 grid gap-2 sm:grid-cols-2">
+            {inbegrepen.punten.map((punt) => (
+              <li
+                key={punt}
+                className="rounded-[14px] bg-cream px-4 py-2.5 text-[16px] font-bold text-green"
+              >
+                {punt}
+              </li>
+            ))}
+          </ul>
         </div>
       </Sectie>
 
