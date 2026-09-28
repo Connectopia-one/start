@@ -163,8 +163,8 @@ body.metfiguur .mid { max-width: 596px; }
   buiten het blad, zodat je de rechte onderrand van de uitsnede niet ziet.
   De tekst blijft erboven; render.js waarschuwt als ze eronder schuift.
 */
-.figuurvak { position: absolute; left: 0; right: 0; top: 496px; bottom: 0; overflow: hidden; z-index: 1; }
-.figuur.breed { position: static; display: block; width: 620px; margin-left: 230px; height: auto; }
+.figuurvak { position: absolute; left: 0; right: 0; top: 458px; bottom: 0; overflow: hidden; z-index: 1; }
+.figuur.breed { position: static; display: block; width: 700px; margin-left: 190px; height: auto; }
 body.metfiguurbreed .kop p,
 body.metfiguurbreed .mid { max-width: none; }
 body.verhaal .figuurvak { top: 1130px; }
