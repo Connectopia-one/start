@@ -68,8 +68,10 @@ function blad(p) {
 <title>${p.bestand}</title>
 <link rel="stylesheet" href="stijl.css">
 </head>
-<body class="${[kleuren[p.kleur], p.foto ? 'metfoto' : '', p.figuur ? 'metfiguur' : '', verhaal ? 'verhaal' : ''].filter(Boolean).join(' ')}">
-${p.figuur ? `  <img class="figuur" src="${p.figuur}" alt="">` : ''}
+<body class="${[kleuren[p.kleur], p.foto ? 'metfoto' : '', p.figuur ? (p.figuurBreed ? 'metfiguurbreed' : 'metfiguur') : '', verhaal ? 'verhaal' : ''].filter(Boolean).join(' ')}">
+${p.figuur ? (p.figuurBreed
+    ? `  <div class="figuurvak"><img class="figuur breed" src="${p.figuur}" alt=""></div>`
+    : `  <img class="figuur" src="${p.figuur}" alt="">`) : ''}
 ${p.foto ? `
   <div class="hero">
     <img src="${p.foto}" alt="" style="object-position: ${p.fotoPositie || '50% 45%'}">
@@ -129,6 +131,7 @@ ${p.foto ? `
     const maat = await pg.evaluate(() => {
       const actie = document.querySelector('.actie').getBoundingClientRect();
       const kop = document.querySelector('.kop').getBoundingClientRect();
+      const breed = document.querySelector('.figuurvak');
       const mid = document.querySelector('.mid');
       const inhoud = mid && mid.children.length ? mid.getBoundingClientRect() : kop;
       return {
@@ -137,11 +140,13 @@ ${p.foto ? `
         inhoudBodem: Math.round(inhoud.bottom),
         actieTop: Math.round(actie.top),
         actieBodem: Math.round(actie.bottom),
+        figuurTop: breed ? Math.round(breed.getBoundingClientRect().top) : null,
       };
     });
     const klachten = [];
     if (maat.inhoudBodem > maat.actieTop) klachten.push('de inhoud loopt onder de groene balk');
     if (maat.kopBodem > maat.actieTop) klachten.push('de kop loopt onder de groene balk');
+    if (maat.figuurTop !== null && maat.inhoudBodem > maat.figuurTop) klachten.push('de tekst loopt over de figuur');
     if (maat.actieBodem > HOOG || maat.hoog > HOOG) klachten.push('het blad is hoger dan ' + HOOG);
     console.log(
       p.bestand.padEnd(32),

@@ -18,6 +18,9 @@
     foto      een foto bovenaan, met de bestandsnaam uit deze map
     figuur    een uitgeknipte figuur rechtsonder (een png met doorzichtige
               achtergrond uit deze map); de tekst links wordt dan smaller
+    figuurBreed  zet de figuur over de volle breedte onderaan in plaats van
+              in de hoek, voor een uitsnede waar links en rechts allebei
+              iets op staat; de tekst blijft er dan boven
     fotoPositie  welk stuk van de foto je ziet, bv. "50% 30%"
     laden     een laadbalk: { naam, procent, onder } — voor een post over
               iets dat er bijna is
@@ -29,6 +32,20 @@
 */
 
 module.exports = [
+  {
+    bestand: "oefenplatform-tijdelijke-prijs",
+    kleur: "paars",
+    figuur: "laptop-website.png",
+    figuurBreed: true,
+    pil: "Tijdelijke prijs",
+    hand: "Zolang we volop bouwen",
+    titel: "20 euro in plaats van 50<br><span>voor een heel schooljaar</span>",
+    titelKlein: true,
+    tekst:
+      "Voor een heel gezin. Nu al te oefenen: 5de en 6de leerjaar, 1ste en 2de middelbaar. De andere jaren komen er stap voor stap bij.",
+    voet: { hand: "Proef gratis een hoofdstuk op", url: "oefenplatform.connectopia.one" },
+  },
+
   {
     bestand: "we-zijn-gestart",
     kleur: "oranje",
