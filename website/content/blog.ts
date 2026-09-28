@@ -1359,6 +1359,233 @@ export const berichten: Bericht[] = [
       { soort: "knop", tekst: "Bekijk het volledige aanbod", link: "/aanbod" },
     ],
   },
+  {
+    slug: "ai-en-onze-kinderen",
+    titel: "AI en onze kinderen: leren fietsen op een nieuwe weg",
+    datum: "2026-09-28",
+    auteur: "Kim",
+    labels: ["AI", "onderwijs", "persoonlijk"],
+    samenvatting:
+      "AI hoeft geen reden tot paniek te zijn, wel een reden om onze kinderen goed voor te bereiden. Over wat AI goed kan, wat de zorgen zijn, en waarom leren omgaan met AI op leren fietsen lijkt.",
+    blokken: [
+      {
+        soort: "citaat",
+        tekst:
+          "Net zoals we onze kinderen leren fietsen en hen de verkeersregels leren, moeten we hen leren hoe ze verstandig, kritisch en respectvol omgaan met AI. En eigenlijk met iedereen en alles: mensen, dieren, technologie en materialen.",
+      },
+      { soort: "kop", tekst: "Waarom ik hierover schrijf" },
+      {
+        soort: "tekst",
+        tekst:
+          "Wie vandaag het nieuws volgt, leest veel over de angst rond artifici\u00eble intelligentie. Er wordt gesproken over jobs die verdwijnen, over nepnieuws en zelfs over de vraag of AI ooit gevaarlijk kan worden voor de mensheid. Ook bij mij riep dat vragen op, zeker toen ik las dat mensen die zelf AI bouwen hun zorgen uitspraken.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Tegelijk ben ik heel blij dat AI bestaat. Het is voor mij een grote hulp in mijn dagelijks leven en in mijn werk voor onze vzw. Ik merk dat veel mensen niet goed durven praten over dit onderwerp. Daarom wil ik mijn kijk delen, met de voor- en nadelen, en vooral met de vraag: hoe bereiden we onze kinderen voor?",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Dit is mijn mening. Iedereen mag daar anders over denken, en dat gesprek wil ik net graag openen.",
+      },
+      { soort: "kop", tekst: "Wat AI goed kan doen" },
+      {
+        soort: "tekst",
+        tekst:
+          "Ik geloof dat een samenwerking tussen mens en AI de wereld een mooiere en betere plek kan maken.",
+      },
+      {
+        soort: "lijst",
+        punten: [
+          {
+            titel: "Hulp in het dagelijks leven",
+            tekst:
+              "AI kan taken lichter maken, helpen plannen, teksten nakijken en idee\u00ebn helpen ordenen.",
+          },
+          {
+            titel: "Sneller onderzoek",
+            tekst:
+              "AI kan onderzoekers helpen om sneller te begrijpen hoe medicatie werkt of om proeven beter op te zetten.",
+          },
+          {
+            titel: "Een bron van informatie",
+            tekst:
+              "Je kan vragen stellen, dingen laten uitleggen en verder leren, op je eigen tempo.",
+          },
+          {
+            titel: "Nieuwe oplossingen",
+            tekst:
+              "Denk aan slimmere manieren om te recycleren of om zuiniger met energie en materiaal om te gaan.",
+          },
+        ],
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "De wereld evolueert nu eenmaal. Vroeger werd er in steen gekerfd, daarna kwamen pen en papier, later de computer. AI is voor mij de volgende stap in die evolutie.",
+      },
+      { soort: "kop", tekst: "De zorgen zijn ook echt" },
+      {
+        soort: "tekst",
+        tekst:
+          "Ik wil de nadelen niet wegwuiven. Wie AI goed wil gebruiken, moet ook de risico's kennen.",
+      },
+      {
+        soort: "lijst",
+        punten: [
+          {
+            titel: "Niet alles klopt",
+            tekst:
+              "AI kan zich vergissen en toch heel overtuigend klinken. Op het internet wordt bovendien van alles gezet. Wat is nog echt?",
+          },
+          {
+            titel: "Te afhankelijk worden",
+            tekst: "Als je AI alles laat denken, leer je zelf minder.",
+          },
+          {
+            titel: "Mensen met slechte bedoelingen",
+            tekst:
+              "De meeste mensen hebben een goede inborst, maar er zijn altijd slechte appels. Daarom zijn duidelijke regels nodig.",
+          },
+          {
+            titel: "Het milieu",
+            tekst:
+              "AI draait op grote servers die veel energie verbruiken. Dat moet zuiniger en groener.",
+          },
+          {
+            titel: "De grote vraag over de toekomst",
+            tekst:
+              "Er zijn mensen die vrezen dat AI ooit buiten controle raakt.",
+          },
+        ],
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Over dat laatste denk ik: panikeren helpt niet. Zorg voor oplossingen, voor duidelijkheid en voor controle. En de meeste mensen zijn goed. De mensheid mag niet afgerekend worden op een paar slechte appels.",
+      },
+      { soort: "kop", tekst: "AI in het onderwijs: eerst zelf leren denken" },
+      {
+        soort: "tekst",
+        tekst:
+          "Kinderen moeten AI leren gebruiken, maar op een verantwoorde en begeleide manier. Het belangrijkste blijft dat ze zelf leren nadenken.",
+      },
+      {
+        soort: "lijst",
+        punten: [
+          {
+            titel: "Eerst de echte wereld",
+            tekst:
+              "In de kleine ontwikkelingsfase leren kinderen het best zonder scherm: dit is rood, dit is groen, dit is een boom. Wie de echte wereld heeft aangeraakt en ontdekt, heeft later een anker. Dat helpt om te voelen: dat klopt niet.",
+          },
+          {
+            titel: "Daarna leren omgaan met AI",
+            tekst:
+              "Scholen kunnen kinderen leren hoe ze een goede vraag stellen, hoe ze een antwoord lezen en interpreteren, en hoe ze informatie nakijken. Ook een beleefd gesprek voeren hoort daarbij.",
+          },
+          {
+            titel: "Input geven en nakijken",
+            tekst:
+              "Zo werk ik zelf. Ik vraag niet iets om dan het eerste antwoord zomaar over te nemen. Ik geef input, kijk na, verbeter, corrigeer en vraag opnieuw. Zo blijf ik zelf degene die denkt en beslist, en is AI een hulpmiddel.",
+          },
+        ],
+      },
+      { soort: "tekst", tekst: "Zo kan dat er bijvoorbeeld uitzien:" },
+      {
+        soort: "lijst",
+        punten: [
+          { titel: "Kind", tekst: "Waarom heeft Saturnus ringen?" },
+          {
+            titel: "AI",
+            tekst:
+              "De ringen van Saturnus bestaan uit miljarden stukjes ijs en steen. Ze draaien rond de planeet, net zoals manen.",
+          },
+          { titel: "Kind", tekst: "Hebben andere planeten ook ringen?" },
+          {
+            titel: "AI",
+            tekst:
+              "Ja, ook Jupiter, Uranus en Neptunus. En zelfs Quaoar, een kleine dwergplaneet ver voorbij Neptunus, heeft een ring.",
+          },
+          { titel: "Kind", tekst: "Hoe weet je dat dat klopt?" },
+        ],
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Daarna zoeken we samen verder, in een boek of op de website van een ruimtevaartorganisatie. Zo leert een kind niet alleen iets over de ruimte, maar ook dat je een antwoord altijd mag nakijken.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Ik hoop vooral dat kinderen zelf met creatieve idee\u00ebn op de proppen blijven komen. AI kan meedenken, maar de vonk moet van hen komen.",
+      },
+      { soort: "kop", tekst: "Schrijven of typen: het gaat om het denkwerk" },
+      {
+        soort: "tekst",
+        tekst:
+          "Of een tekst met de pen of op de computer geschreven is, maakt voor mij niet uit. Wat telt, is dat een kind zelf een brief van A tot Z kan opbouwen, kan ordenen en kan samenvatten.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "In scholen wordt nog vaak gehamerd op schoonschrift. De basis van letters leren schrijven heeft zeker zijn waarde. Maar eens je van de schoolbanken bent, kijkt niemand nog naar hoe mooi je handschrift is. Iedereen gebruikt dan een computer, tablet of rekenmachine.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Voor kinderen met ergonomische moeilijkheden kan schrijven met de hand een echte belemmering zijn. Dat zie je vaak bij hoogbegaafde kinderen: hun denken loopt ver vooruit op hun motoriek. Als zo'n kind vastloopt op schoonschrift, gaan ook zijn idee\u00ebn en zijn plezier in leren verloren. Een toetsenbord is dan geen luiheid, maar een hulpmiddel, net zoals een bril.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "De tijd die de lagere school nu in schoonschrift steekt, kan misschien beter gebruikt worden om te leren blind typen. Eerst de letters leren, daarna overgaan naar goede computervaardigheden. Zo krijgt elk kind dezelfde kansen, ook het kind dat vastloopt op een pen.",
+      },
+      {
+        soort: "citaat",
+        tekst:
+          "De computer mag het typen overnemen, niet het denken. Het kind schrijft zelf de tekst.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Achteraf mag die nagekeken worden, ook met hulp van AI, met suggesties zoals \u201czou dit beter zijn?\u201d. Zo wordt het net een extra leerkans.",
+      },
+      { soort: "kop", tekst: "Leren fietsen en de verkeersregels kennen" },
+      {
+        soort: "tekst",
+        tekst:
+          "Stuur je een kind zomaar de weg op met een fiets, zonder dat het de verkeersregels kent, dan is de kans groot dat het misloopt. Leer je het eerst fietsen, leg je de regels uit en oefen je samen, dan wordt die kans veel kleiner. Nul wordt ze nooit, maar je geeft je kind wel de beste start.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Met AI is het net hetzelfde. We moeten het niet afschieten en ook niet blind loslaten. Het is aan ons, als ouders, leerkrachten, begeleiders en verantwoordelijken, om kinderen te wapenen voor de toekomst.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Alles is gezond in een bepaalde mate. Zelfs water drinken wordt ongezond als je er veel te veel van drinkt. Zo is het ook met schermen en met AI: niet te veel, niet te weinig, maar bewust en met begeleiding.",
+      },
+      { soort: "kop", tekst: "Respect als rode draad" },
+      {
+        soort: "tekst",
+        tekst:
+          "Als ik \u00e9\u00e9n ding zou mogen meegeven aan kinderen, dan is het respect. Respect voor mensen, voor de omgeving, voor materiaal, en ook voor de technologie die ze gebruiken.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Ik probeer zelf altijd het goede in mensen te zien. Ik geloof dat de wereld zoveel mooier kan worden als we elkaar met meer begrip benaderen. Voor mij is onze wereld niet alleen een planeet: het zijn de mensen die erop leven. Daar wil ik zorg voor dragen, en daar kan AI bij helpen, als we het verstandig gebruiken.",
+      },
+      {
+        soort: "tekst",
+        tekst:
+          "Hoe kijk jij hiernaar? Heb je zelf zorgen, of net goede ervaringen met AI, bij jezelf of bij je kinderen? Ik hoor het graag. Hoe meer we erover durven praten, hoe beter we onze kinderen kunnen voorbereiden.",
+      },
+      { soort: "knop", tekst: "Laat het ons weten", link: "/contact" },
+    ],
+  },
 ];
 
 export const berichtenOpDatum = [...berichten].sort((a, b) =>
