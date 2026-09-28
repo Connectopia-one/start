@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { Quotes } from "@/components/Quotes";
 import {
   Foto,
   Icoon,
@@ -63,7 +64,7 @@ export default function AanbodPagina() {
         </div>
       </Sectie>
 
-      <Sectie className="grid gap-5 pb-16">
+      <Sectie className="grid gap-5 pb-8">
         {trajecten.map((traject) => (
           <Kaart key={traject.naam} className="scroll-mt-24">
             <div className="flex flex-wrap items-start gap-4">
@@ -186,6 +187,7 @@ export default function AanbodPagina() {
           </Link>
         </div>
       </Sectie>
+      <Quotes />
     </>
   );
 }

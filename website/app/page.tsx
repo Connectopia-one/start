@@ -13,6 +13,7 @@ import {
 } from "@/components/ui";
 import { home } from "@/content/home";
 import { echteLink, onderdeelPerGroep, site } from "@/content/site";
+import { Quotes } from "@/components/Quotes";
 import type { Sponsor } from "@/content/sponsors";
 import { sponsorsPerSoort, sponsorsTekst } from "@/content/sponsors";
 import { stappen, wegwijzerTekst } from "@/content/wegwijzer";
@@ -215,7 +216,9 @@ export default function Startpagina() {
             <span className="text-[14px] font-bold text-purple">
               {home.hoekjeBand.label}
             </span>
-            <h2 className="mt-1.5 text-2xl text-green">{home.hoekjeBand.titel}</h2>
+            <h2 className="mt-1.5 text-2xl text-green">
+              {home.hoekjeBand.titel}
+            </h2>
             <p className="mt-2 max-w-[60ch] text-[16px] text-ink-dim">
               {home.hoekjeBand.tekst}
             </p>
@@ -249,6 +252,9 @@ export default function Startpagina() {
           </Link>
         </div>
       </section>
+
+      {/* Wat ouders zeggen. Tekent niets zolang er geen quotes zijn. */}
+      <Quotes />
 
       {/* Sponsors en samenwerkingen */}
       <section className="bg-sage-soft" id="sponsors">
