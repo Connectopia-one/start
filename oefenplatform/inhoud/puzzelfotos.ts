@@ -90,6 +90,30 @@ export const PUZZELFOTOS: Record<string, { url: string; verhouding: number }> =
       url: "/puzzels/engels/zinnen-bouwen.webp",
       verhouding: 1.391,
     },
+    "frans/de-tegenwoordige-tijd": {
+      url: "/puzzels/frans/de-tegenwoordige-tijd.webp",
+      verhouding: 1.5396,
+    },
+    "frans/etre-en-avoir": {
+      url: "/puzzels/frans/etre-en-avoir.webp",
+      verhouding: 1.338,
+    },
+    "frans/mezelf-voorstellen": {
+      url: "/puzzels/frans/mezelf-voorstellen.webp",
+      verhouding: 1.3718,
+    },
+    "frans/op-school-en-onderweg": {
+      url: "/puzzels/frans/op-school-en-onderweg.webp",
+      verhouding: 1.4135,
+    },
+    "frans/woorden-voor-elke-dag": {
+      url: "/puzzels/frans/woorden-voor-elke-dag.webp",
+      verhouding: 1.4789,
+    },
+    "frans/zinnen-bouwen": {
+      url: "/puzzels/frans/zinnen-bouwen.webp",
+      verhouding: 1.4076,
+    },
     "geschiedenis/tijd-en-tijdlijn-pittig": {
       url: "/puzzels/geschiedenis/tijd-en-tijdlijn-pittig.webp",
       verhouding: 1.4451,
