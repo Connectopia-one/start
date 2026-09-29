@@ -22,4 +22,9 @@ export const PRENTEN: Record<
     breedte: 1200,
     hoogte: 1200,
   },
+  "samenleving-en-economie/ik-leef-samen-met-anderen-deel-1": {
+    url: "/prenten/samenleving-en-economie/ik-leef-samen-met-anderen-deel-1.webp",
+    breedte: 1200,
+    hoogte: 1200,
+  },
 };
