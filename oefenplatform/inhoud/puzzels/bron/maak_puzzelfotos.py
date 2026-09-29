@@ -86,7 +86,20 @@ def maak_lijst() -> None:
         "*/",
         "",
         "export const PUZZELFOTOS: Record<string, { url: string; verhouding: number }> =",
-        "  " + json.dumps(rijen, indent=2, ensure_ascii=False).replace("\n", "\n  ") + ";",
+        "  {",
+    ]
+    # Met de hand opgemaakt in de stijl van prettier (sleutels van een object
+    # zonder aanhalingstekens), anders schrijft prettier het bestand elke keer
+    # opnieuw en staat er telkens een diff die niets betekent.
+    for sleutel, rij in rijen.items():
+        regels += [
+            f'    "{sleutel}": {{',
+            f'      url: "{rij["url"]}",',
+            f'      verhouding: {rij["verhouding"]},',
+            "    },",
+        ]
+    regels += [
+        "  };",
         "",
     ]
     LIJST.write_text("\n".join(regels), encoding="utf-8")
