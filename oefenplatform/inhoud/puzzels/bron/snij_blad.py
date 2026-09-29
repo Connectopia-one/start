@@ -48,7 +48,12 @@ def snij(blad: Path, uit: Path) -> None:
     # crème tussen de vakjes is net iets lichter dan die aan de rand.
     rand = punten[2, 2]
     verschil = np.abs(punten - rand).sum(axis=2)
-    isRand = verschil < 70  # True waar het achtergrond is
+    # Blijft er onderaan plaats over, dan laat ChatGPT dat gewoon wit in plaats
+    # van crème. Daarom telt elke lichte, kleurloze plek als achtergrond: anders
+    # ziet het script de scheiding tussen de laatste twee rijen niet.
+    licht = punten.min(axis=2) > 215
+    vlak = (punten.max(axis=2) - punten.min(axis=2)) < 28
+    isRand = (verschil < 70) | (licht & vlak)
 
     uit.mkdir(parents=True, exist_ok=True)
     nummer = 0

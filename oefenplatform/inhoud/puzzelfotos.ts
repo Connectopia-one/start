@@ -10,6 +10,58 @@
 
 export const PUZZELFOTOS: Record<string, { url: string; verhouding: number }> =
   {
+    "engels/de-tegenwoordige-tijd-pittig": {
+      url: "/puzzels/engels/de-tegenwoordige-tijd-pittig.webp",
+      verhouding: 1.5292,
+    },
+    "engels/de-tegenwoordige-tijd": {
+      url: "/puzzels/engels/de-tegenwoordige-tijd.webp",
+      verhouding: 1.5167,
+    },
+    "engels/mezelf-voorstellen-pittig": {
+      url: "/puzzels/engels/mezelf-voorstellen-pittig.webp",
+      verhouding: 1.3225,
+    },
+    "engels/mezelf-voorstellen": {
+      url: "/puzzels/engels/mezelf-voorstellen.webp",
+      verhouding: 1.3188,
+    },
+    "engels/op-school-en-onderweg-pittig": {
+      url: "/puzzels/engels/op-school-en-onderweg-pittig.webp",
+      verhouding: 1.3797,
+    },
+    "engels/op-school-en-onderweg": {
+      url: "/puzzels/engels/op-school-en-onderweg.webp",
+      verhouding: 1.3647,
+    },
+    "engels/to-be-en-to-have-pittig": {
+      url: "/puzzels/engels/to-be-en-to-have-pittig.webp",
+      verhouding: 1.5167,
+    },
+    "engels/to-be-en-to-have": {
+      url: "/puzzels/engels/to-be-en-to-have.webp",
+      verhouding: 1.5417,
+    },
+    "engels/uitdaging-alles-door-elkaar": {
+      url: "/puzzels/engels/uitdaging-alles-door-elkaar.webp",
+      verhouding: 5.4878,
+    },
+    "engels/woorden-voor-elke-dag-pittig": {
+      url: "/puzzels/engels/woorden-voor-elke-dag-pittig.webp",
+      verhouding: 1.3188,
+    },
+    "engels/woorden-voor-elke-dag": {
+      url: "/puzzels/engels/woorden-voor-elke-dag.webp",
+      verhouding: 1.337,
+    },
+    "engels/zinnen-bouwen-pittig": {
+      url: "/puzzels/engels/zinnen-bouwen-pittig.webp",
+      verhouding: 1.3684,
+    },
+    "engels/zinnen-bouwen": {
+      url: "/puzzels/engels/zinnen-bouwen.webp",
+      verhouding: 1.391,
+    },
     "geschiedenis/tijd-en-tijdlijn-pittig": {
       url: "/puzzels/geschiedenis/tijd-en-tijdlijn-pittig.webp",
       verhouding: 1.4451,
