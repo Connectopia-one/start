@@ -128,7 +128,7 @@ OEFENBUNDELS["oefenbundel-ik-leef-samen-met-anderen-spark"] = dict(
                  ("tekst", bundel.foto(PRENTEN / "ik-leef-samen-met-anderen-deel-1.webp", breedte="100%")),
                  ("kort", "Wat ligt er naast het meisje dat alleen op de bank zit?",
                   "haar rugzak en een drinkfles", WL),
-                 ("kort", "Welke kleur heeft de vuilnisbak in het midden van de speelplaats?", "blauw", W),
+                 ("kort", "Welke kleur heeft de bal waarmee de jongens links spelen?", "zwart-wit", W),
                  ("kort", "Wat hangt er rechtsboven aan het schoolgebouw?", "een basketbalring", WW),
                  ("kort", "Wat staat er achter de jongens die voetballen?",
                   "een overdekte fietsenstalling", WL),
@@ -191,7 +191,7 @@ OEFENBUNDELS["oefenbundel-ik-leef-samen-met-anderen-spark"] = dict(
                    ["religieuze diversiteit", None], ["seksuele diversiteit", None]],
                   "sociaal: opleiding, werk, inkomen, gezinssituatie · cultureel: taal, gewoontes, feesten, "
                   "eten · religieus: geloof of levensbeschouwing · seksueel: wie je aantrekkelijk vindt en "
-                  "hoe je jezelf beleeft"),
+                  "hoe je jezelf beleeft", "320px"),
              ]),
     ],
 )
@@ -213,7 +213,7 @@ OEFENBUNDELS["oefenbundel-eerste-hulp-bij-ongevallen-spark"] = dict(
                  ("tabel", ["stap", "wat je doet"],
                   [["1", None], ["2", None], ["3", None], ["4", None]],
                   "1: zorg voor veiligheid · 2: beoordeel de toestand van het slachtoffer · "
-                  "3: raadpleeg gespecialiseerde hulp · 4: verleen verdere hulp"),
+                  "3: raadpleeg gespecialiseerde hulp · 4: verleen verdere hulp", "300px"),
                  ("open", "Waarom staat veiligheid op de eerste plaats en niet op de tweede?",
                   "Omdat je niemand kan helpen als je zelf gewond raakt. Een tweede slachtoffer maakt de "
                   "situatie alleen erger.", 4),
@@ -289,7 +289,7 @@ OEFENBUNDELS["oefenbundel-democratie-en-dictatuur-spark"] = dict(
                  ("tabel", ["macht", "wie oefent ze uit?", "wat doet ze?"],
                   [["wetgevende", None, None], ["uitvoerende", None, None], ["rechterlijke", None, None]],
                   "wetgevende: het parlement, maakt en stemt de wetten · uitvoerende: de regering, brengt de "
-                  "wetten in de praktijk · rechterlijke: de rechters in de rechtbanken en hoven, spreken recht"),
+                  "wetten in de praktijk · rechterlijke: de rechters in de rechtbanken en hoven, spreken recht", "230px"),
                  ("rij", [("een minister", "uitvoerende macht"),
                           ("een volksvertegenwoordiger", "wetgevende macht"),
                           ("een rechter", "rechterlijke macht")],
@@ -364,7 +364,7 @@ OEFENBUNDELS["oefenbundel-hoe-belgie-bestuurd-wordt-spark"] = dict(
                    ["Vlaanderen", None, None], ["federaal", None, None]],
                   "gemeente: de gemeenteraad en het college van burgemeester en schepenen · provincie: de "
                   "provincieraad en de deputatie · Vlaanderen: het Vlaams Parlement en de Vlaamse Regering · "
-                  "federaal: het federale parlement en de federale regering"),
+                  "federaal: het federale parlement en de federale regering", "230px"),
                  ("kort", "Hoeveel provincies telt België?", "tien", W),
                  ("kort", "In hoeveel provincies ligt het Brussels Hoofdstedelijk Gewest?",
                   "in geen enkele", WW),

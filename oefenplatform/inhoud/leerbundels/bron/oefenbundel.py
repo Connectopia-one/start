@@ -29,6 +29,7 @@ Een oefenbundel is een gewone dict:
                 ("kies", "Welke is het grootst?", ["2/3", "3/5"], 0),
                 ("waar", "Een stelling.", True),
                 ("tabel", ["breuk", "procent"], [["1/2", None]], "1/2 = 50%"),
+                ("tabel", ["stap", "wat je doet"], [["1", None]], "1: veiligheid", "260px"),
                 ("tekst", "<p>Een zin die niet genummerd wordt.</p>"),
             ]),
         ],
@@ -137,7 +138,9 @@ def _oefening(o, nr):
 
     if soort == "tabel":
         koppen, rijen = o[1], o[2]
-        leeg = _vak("56px")
+        # Een vijfde element zet de breedte van de lege vakjes. Zonder dat blijven
+        # ze smal, wat klopt voor een getal maar niet voor een zin.
+        leeg = _vak(o[4] if len(o) > 4 else "56px")
         th = "".join(f"<th>{k}</th>" for k in koppen)
         tr = "".join(
             "<tr>" + "".join(f"<td>{leeg if c is None else c}</td>" for c in rij) + "</tr>"

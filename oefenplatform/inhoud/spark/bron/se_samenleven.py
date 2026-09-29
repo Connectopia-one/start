@@ -20,8 +20,8 @@ Wat er op de prent staat (nageteld op 29-09-2026):
 - linksachter: twee jongens die voetballen, één in een groene hoodie en één in
   een witte, met een zwart-witte bal; daarachter een overdekte fietsenstalling
   met leerlingen en fietsen;
-- midden: een meisje in een roze hoodie dat alleen voorbijstapt, en een blauwe
-  vuilnisbak;
+- midden: een meisje in een roze hoodie dat alleen voorbijstapt, en een grijze
+  vuilnisbak met een blauw deksel;
 - midden: een groepje van vijf jongens. Eén jongen in een donkere hoodie kijkt
   naar de grond. Een blonde jongen in een zwarte hoodie lacht en wijst met
   gestrekte arm naar hem. Twee andere jongens lachen mee. Een jongen in een
