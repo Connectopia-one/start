@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
-import { Schuifpuzzel } from "@/components/Schuifpuzzel";
+import { Legpuzzel } from "@/components/Legpuzzel";
 import { Volgordespel } from "@/components/Volgordespel";
 import {
   puzzelBeeld,
@@ -269,10 +269,10 @@ function Eindhalte({
         )}
       </article>
 
-      {/* Liefst de schuifpuzzel met een tekening uit het hoofdstuk. Heeft dit
+      {/* Liefst de legpuzzel met een tekening uit het hoofdstuk. Heeft dit
           hoofdstuk geen bruikbare tekening, dan blijft het volgordespel. */}
       {beeld ? (
-        <Schuifpuzzel beeld={beeld} />
+        <Legpuzzel beeld={beeld} />
       ) : (
         <Volgordespel
           koppen={bundel.secties.map((s) => s.kop)}

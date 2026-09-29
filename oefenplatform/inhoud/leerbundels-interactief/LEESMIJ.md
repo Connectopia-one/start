@@ -57,9 +57,12 @@ Zie `components/InteractieveLeerbundel.tsx`.
 - Op de **eindhalte** staat "onthoud dit" als afvinklijst
   (`connectopia-onthoud-<hoofdstuk>`), daarna een spelletje en een knop naar de
   oefeningen.
-- Het spelletje is bij voorkeur de **schuifpuzzel**
-  (`components/Schuifpuzzel.tsx`): een tekening uit dít hoofdstuk, in stukken,
-  met één leeg vakje. Welke tekening dat wordt en in hoeveel stukken, kiezen
+- Het spelletje is bij voorkeur de **legpuzzel**
+  (`components/Legpuzzel.tsx`): een tekening uit dít hoofdstuk, in stukken,
+  die apart in een bak liggen. Je klikt een stuk aan en dan het vakje waar
+  het hoort; weghalen kan altijd. Het was eerst een schuifpuzzel, maar daar
+  kunnen er maar twee of drie stukken tegelijk bewegen en dan lijkt het spel
+  kapot. Welke tekening het wordt en in hoeveel stukken, kiezen
   `puzzelBeeld` en `puzzelRooster` in `lib/leerbundel.ts`: de tekening die het
   dichtst bij een gewone liggende verhouding komt, in 8 tot 9 stukken. Heel
   brede stroken vallen af, want daar staat op een stukje niets herkenbaars.
