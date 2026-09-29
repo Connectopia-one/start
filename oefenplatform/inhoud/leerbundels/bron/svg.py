@@ -4253,3 +4253,89 @@ def ruimtefiguur(naam, breedte=110):
         inhoud = (f'<circle cx="{cx}" cy="44" r="23" fill="#ffffff" stroke="{DARK}" stroke-width="1.9"/>'
                   f'<ellipse cx="{cx}" cy="44" rx="23" ry="8" fill="none" stroke="{BORDER}" stroke-width="1.5"/>')
     return _svg(breedte, 74, inhoud)
+
+
+# ---------------------------------------------------------------------------
+# Tekeningen bij samenleving en economie.
+# ---------------------------------------------------------------------------
+
+def kringloop(breedte=470):
+    """De eenvoudige economische kringloop: gezinnen, bedrijven en de overheid.
+
+    Boven de vier stromen tussen gezinnen en bedrijven, met de richting in de
+    pijl zelf. Onder de overheid, die aan beide kanten belastingen ontvangt en
+    er voorzieningen voor teruggeeft.
+    """
+    h = 258
+    gb, gh = 140, 100
+    lx, rx, by = 14, breedte - 14 - gb, 24
+    d = []
+    for x, naam in ((lx, "de gezinnen"), (rx, "de bedrijven")):
+        d.append(f'<rect x="{x}" y="{by}" width="{gb}" height="{gh}" rx="11" fill="{PAPER}" '
+                 f'stroke="{FOREST}" stroke-width="1.8"/>')
+        d.append(_tekst(x + gb / 2, by + 26, naam, 12, DARK, vet=True))
+
+    # De vier stromen tussen gezinnen en bedrijven.
+    x1, x2 = lx + gb + 12, rx - 12
+    stromen = [
+        ("arbeid", True), ("loon", False),
+        ("goederen en diensten", False), ("je betaling", True),
+    ]
+    for i, (label, naar_rechts) in enumerate(stromen):
+        y = by + 16 + i * 22
+        d.append(_tekst((x1 + x2) / 2, y - 5, label, 9, DIM))
+        if naar_rechts:
+            d.append(f'<path d="M{x1} {y} H{x2} l-7 -4 m7 4 l-7 4" stroke="{FOREST}" '
+                     f'stroke-width="1.8" fill="none" stroke-linecap="round"/>')
+        else:
+            d.append(f'<path d="M{x2} {y} H{x1} l7 -4 m-7 4 l7 4" stroke="{AMBER}" '
+                     f'stroke-width="1.8" fill="none" stroke-linecap="round"/>')
+
+    # De overheid, met aan elke kant een stroom heen en een stroom terug.
+    ox, oy, ob, oh = 60, 186, breedte - 120, 56
+    d.append(f'<rect x="{ox}" y="{oy}" width="{ob}" height="{oh}" rx="11" fill="{PAPER}" '
+             f'stroke="{DARK}" stroke-width="1.8"/>')
+    d.append(_tekst(breedte / 2, oy + 24, "de overheid", 12, DARK, vet=True))
+    d.append(_tekst(breedte / 2, oy + 42, "int belastingen en geeft voorzieningen terug", 9, DIM))
+    boven, onder = by + gh + 4, oy - 4
+    for x, label, omhoog, anker in ((72, "belastingen", False, "start"),
+                                    (150, "uitkeringen", True, "start"),
+                                    (breedte - 72, "belastingen", False, "end"),
+                                    (breedte - 150, "wegen en scholen", True, "end")):
+        if omhoog:
+            d.append(f'<path d="M{x} {onder} V{boven} l-4 7 m4 -7 l4 7" stroke="{DARK}" '
+                     f'stroke-width="1.6" fill="none" stroke-linecap="round"/>')
+            ty, tx = onder - 8, x + (10 if anker == "start" else -10)
+        else:
+            d.append(f'<path d="M{x} {boven} V{onder} l-4 -7 m4 7 l4 -7" stroke="{FOREST}" '
+                     f'stroke-width="1.6" fill="none" stroke-linecap="round"/>')
+            ty, tx = boven + 14, x + (10 if anker == "start" else -10)
+        d.append(_tekst(tx, ty, label, 9, DIM, anker))
+    return _svg(breedte, h, "".join(d))
+
+
+def bestuurslagen(breedte=470):
+    """De vier bestuursniveaus van België als kaders in elkaar.
+
+    Ze zitten in elkaar omdat je gemeente in je provincie ligt en je provincie
+    in je gewest. Binnen zijn eigen bevoegdheden is elk niveau wel zelf baas:
+    dat zegt het onderschrift, want de tekening kan dat niet.
+    """
+    h = 228
+    lagen = [
+        (12, 10, 198, "de federale overheid", "justitie, defensie, pensioenen", DARK),
+        (40, 36, 172, "de gemeenschappen en de gewesten", "onderwijs, milieu, wonen", FOREST),
+        (68, 62, 146, "de provincie", "provinciale wegen en domeinen", AMBER),
+        (96, 88, 122, "de gemeente of stad", "huisvuil, identiteitskaart", "#5b7f9c"),
+    ]
+    d = []
+    for x, y, onder, naam, voorbeeld, kleur in lagen:
+        bb, hh = breedte - 2 * x, onder - y
+        d.append(f'<rect x="{x}" y="{y}" width="{bb}" height="{hh}" rx="12" fill="none" '
+                 f'stroke="{kleur}" stroke-width="1.8"/>')
+        d.append(_tekst(x + 12, y + 21, naam, 10.5, kleur, "start", True))
+        d.append(_tekst(x + bb - 12, y + 21, voorbeeld, 8.5, DIM, "end"))
+    d.append(_tekst(breedte / 2, h - 8,
+                    "Ze liggen in elkaar op de kaart, niet in macht: binnen zijn eigen lijst beslist elk niveau zelf.",
+                    9, DIM))
+    return _svg(breedte, h, "".join(d))

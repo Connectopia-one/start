@@ -460,6 +460,12 @@ CONTROLES = [
     ("data: gemiddelde uit de frequentietabel",  F(27, 8),
      F(5 * 3 + 3 * 4, 5 + 3)),
     ("data: dat gemiddelde is 3,375",            F(3375, 1000),  F(27, 8)),
+    # samenleving en economie ✨ Spark
+    ("samenleving: 40 euro zakgeld min 25 euro uitgaven", 15,      40 - 25),
+    ("samenleving: 300 euro fiets aan 25 euro per maand", 12,      300 // 25),
+    ("samenleving: 1150 terugbetaald op 1000 geleend",    150,     1150 - 1000),
+    ("samenleving: 9 miljoen uitgaven min 8 miljoen inkomsten", 1, 9 - 8),
+    ("samenleving: 30 euro van elke 100 euro is 30 %",    30,      round(30 / 100 * 100)),
     ("verzamelingen: delers van 12 en veelvouden van 12", {12},
      {d for d in range(1, 13) if 12 % d == 0} & {v for v in range(1, 200) if v % 12 == 0}),
 ]
