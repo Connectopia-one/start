@@ -45,6 +45,16 @@ van veertig. De voortgang van de andere hoofdstukken blijft dus onaangeroerd.
 | `spark-natuurwetenschappen-uitdaging.json` | Natuurwetenschappen | ✨ Spark |
 | `spark-frans-uitdaging.json` | Frans | ✨ Spark |
 
+> **Let op bij wiskunde, Nederlands en geschiedenis.** Die drie vakken hebben
+> zowel bij 🌱 Start als bij ✨ Spark een hoofdstuk met dezelfde titel. Tot
+> 29 september 2026 zocht de import een hoofdstuk alleen op zijn titel: het
+> Spark-bestand vond dan het Start-hoofdstuk terug, verhuisde dat naar Spark en
+> zette er de Spark-vragen in, zodat er van de twee maar één overbleef. Sindsdien
+> zoekt de import op de categorie én de titel (`hoofdstukSleutel` in
+> `app/beheer/actions.ts`). Een hoofdstuk verhuizen naar een andere categorie kan
+> nog steeds, maar alleen als het bestand dat uitdrukkelijk zegt met het veld
+> `stondIn`.
+
 Er is **geen SQL** voor nodig. In het oefenplatform staat het vakje achteraan in
 de rij hoofdstukken van dat vak, met een oranje randje en het label "Extra
 uitdaging" (`components/HoofdstukTegels.tsx` herkent elke titel die met
