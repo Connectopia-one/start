@@ -4,12 +4,15 @@ import { useEffect, useState, type FormEvent } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
+import { Wachtwoordveld } from "@/components/Wachtwoordveld";
 
 export default function WachtwoordResettenPage() {
   const router = useRouter();
   const [klaarOmTeControleren, setKlaarOmTeControleren] = useState(false);
   const [heeftSessie, setHeeftSessie] = useState(false);
-  const [status, setStatus] = useState<"idle" | "bezig" | "gelukt" | "fout">("idle");
+  const [status, setStatus] = useState<"idle" | "bezig" | "gelukt" | "fout">(
+    "idle",
+  );
   const [fout, setFout] = useState<string | null>(null);
 
   useEffect(() => {
@@ -60,7 +63,9 @@ export default function WachtwoordResettenPage() {
         <p className="mb-1 text-sm font-medium uppercase tracking-wide text-forest">
           Connectopia
         </p>
-        <h1 className="font-display text-2xl font-semibold text-ink">Nieuw wachtwoord instellen</h1>
+        <h1 className="font-display text-2xl font-semibold text-ink">
+          Nieuw wachtwoord instellen
+        </h1>
 
         {!klaarOmTeControleren ? (
           <p className="mt-8 text-sm text-ink-dim">Even controleren...</p>
@@ -79,36 +84,30 @@ export default function WachtwoordResettenPage() {
             Je wachtwoord is aangepast. Je wordt zo doorgestuurd...
           </p>
         ) : (
-          <form onSubmit={onSubmit} className="mt-8 space-y-4 rounded-xl border border-border bg-surface p-6">
-            {fout && <p className="rounded-md bg-danger/10 px-3 py-2 text-sm text-danger">{fout}</p>}
-            <div className="space-y-1.5">
-              <label htmlFor="wachtwoord" className="text-sm font-medium text-ink">
-                Nieuw wachtwoord
-              </label>
-              <input
-                id="wachtwoord"
-                name="wachtwoord"
-                type="password"
-                required
-                minLength={8}
-                autoComplete="new-password"
-                className="w-full rounded-md border border-border bg-paper px-3 py-2 text-sm text-ink outline-none focus:border-forest focus:ring-1 focus:ring-forest"
-              />
-            </div>
-            <div className="space-y-1.5">
-              <label htmlFor="bevestig" className="text-sm font-medium text-ink">
-                Bevestig wachtwoord
-              </label>
-              <input
-                id="bevestig"
-                name="bevestig"
-                type="password"
-                required
-                minLength={8}
-                autoComplete="new-password"
-                className="w-full rounded-md border border-border bg-paper px-3 py-2 text-sm text-ink outline-none focus:border-forest focus:ring-1 focus:ring-forest"
-              />
-            </div>
+          <form
+            onSubmit={onSubmit}
+            className="mt-8 space-y-4 rounded-xl border border-border bg-surface p-6"
+          >
+            {fout && (
+              <p className="rounded-md bg-danger/10 px-3 py-2 text-sm text-danger">
+                {fout}
+              </p>
+            )}
+            <Wachtwoordveld
+              id="wachtwoord"
+              naam="wachtwoord"
+              label="Nieuw wachtwoord"
+              autoComplete="new-password"
+              minLength={8}
+              hulp="Minstens 8 tekens."
+            />
+            <Wachtwoordveld
+              id="bevestig"
+              naam="bevestig"
+              label="Bevestig wachtwoord"
+              autoComplete="new-password"
+              minLength={8}
+            />
             <button
               type="submit"
               disabled={status === "bezig"}

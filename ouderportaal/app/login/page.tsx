@@ -1,3 +1,4 @@
+import { Wachtwoordveld } from "@/components/Wachtwoordveld";
 import { login } from "./actions";
 
 export default async function LoginPage({
@@ -13,14 +14,21 @@ export default async function LoginPage({
         <p className="mb-1 text-sm font-medium uppercase tracking-wide text-forest">
           Connectopia
         </p>
-        <h1 className="font-display text-2xl font-semibold text-ink">Ouderportaal</h1>
+        <h1 className="font-display text-2xl font-semibold text-ink">
+          Ouderportaal
+        </h1>
         <p className="mt-2 text-sm text-ink-dim">
           Log in met het e-mailadres en wachtwoord dat je van ons kreeg.
         </p>
 
-        <form action={login} className="mt-8 space-y-4 rounded-xl border border-border bg-surface p-6">
+        <form
+          action={login}
+          className="mt-8 space-y-4 rounded-xl border border-border bg-surface p-6"
+        >
           {fout && (
-            <p className="rounded-md bg-danger/10 px-3 py-2 text-sm text-danger">{fout}</p>
+            <p className="rounded-md bg-danger/10 px-3 py-2 text-sm text-danger">
+              {fout}
+            </p>
           )}
           <div className="space-y-1.5">
             <label htmlFor="email" className="text-sm font-medium text-ink">
@@ -35,19 +43,12 @@ export default async function LoginPage({
               className="w-full rounded-md border border-border bg-paper px-3 py-2 text-sm text-ink outline-none focus:border-forest focus:ring-1 focus:ring-forest"
             />
           </div>
-          <div className="space-y-1.5">
-            <label htmlFor="password" className="text-sm font-medium text-ink">
-              Wachtwoord
-            </label>
-            <input
-              id="password"
-              name="password"
-              type="password"
-              required
-              autoComplete="current-password"
-              className="w-full rounded-md border border-border bg-paper px-3 py-2 text-sm text-ink outline-none focus:border-forest focus:ring-1 focus:ring-forest"
-            />
-          </div>
+          <Wachtwoordveld
+            id="password"
+            naam="password"
+            label="Wachtwoord"
+            autoComplete="current-password"
+          />
           <button
             type="submit"
             className="w-full rounded-md bg-forest px-4 py-2 text-sm font-medium text-white transition hover:bg-forest-dark"
