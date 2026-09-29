@@ -19,12 +19,22 @@ function kort(tekst: string) {
   return schoon.length > 70 ? schoon.slice(0, 69) + "…" : schoon;
 }
 
+/*
+  Twee gedaanten. Onderaan een hoofdstuk staat de gewone knop, waar je zelf de
+  vraag kiest uit een lijst. Bij een vraag zelf staat de kleine versie:
+  `vasteVraag` is dan al ingevuld, want je stáát op die vraag.
+
+  Kim op 29 september 2026: "zo kunnen ze ook echt vraag per vraag een fout
+  melden moest er 1 zijn. nu kan dit maar met 1 per hoofdstuk."
+*/
 export function MeldingKnop({
   hoofdstukId,
   vragen,
+  vasteVraag = null,
 }: {
   hoofdstukId: string;
   vragen: VraagKeuze[];
+  vasteVraag?: { id: string; volgnummer: number } | null;
 }) {
   const [open, setOpen] = useState(false);
   const [status, setStatus] = useState<"idle" | "bezig" | "klaar">("idle");
@@ -43,6 +53,14 @@ export function MeldingKnop({
     }
   }
 
+  if (status === "klaar" && vasteVraag) {
+    return (
+      <p className="mt-3 text-xs text-forest-dark">
+        Bedankt, je melding over vraag {vasteVraag.volgnummer} is doorgestuurd.
+      </p>
+    );
+  }
+
   if (status === "klaar") {
     return (
       <div className="mt-10 rounded-xl border border-forest/30 bg-forest/5 px-5 py-4 text-sm text-ink">
@@ -51,6 +69,18 @@ export function MeldingKnop({
           We kijken ze na en passen het hoofdstuk aan als het nodig is.
         </p>
       </div>
+    );
+  }
+
+  if (!open && vasteVraag) {
+    return (
+      <button
+        type="button"
+        onClick={() => setOpen(true)}
+        className="mt-3 text-xs text-ink-dim underline underline-offset-2 hover:text-ink"
+      >
+        Klopt er iets niet aan deze vraag?
+      </button>
     );
   }
 
@@ -69,10 +99,21 @@ export function MeldingKnop({
   return (
     <form
       onSubmit={onSubmit}
-      className="mt-10 rounded-xl border border-border bg-surface px-5 py-5 text-sm"
+      className={
+        vasteVraag
+          ? "mt-3 rounded-xl border border-border bg-paper px-4 py-4 text-sm"
+          : "mt-10 rounded-xl border border-border bg-surface px-5 py-5 text-sm"
+      }
     >
       <input type="hidden" name="hoofdstuk_id" value={hoofdstukId} />
-      <p className="font-medium text-ink">Wat is er met dit hoofdstuk?</p>
+      {vasteVraag && (
+        <input type="hidden" name="vraag_id" value={vasteVraag.id} />
+      )}
+      <p className="font-medium text-ink">
+        {vasteVraag
+          ? `Wat klopt er niet aan vraag ${vasteVraag.volgnummer}?`
+          : "Wat is er met dit hoofdstuk?"}
+      </p>
 
       <label className="mt-4 block text-ink-dim" htmlFor="melding-soort">
         Waarover gaat het?
@@ -90,7 +131,7 @@ export function MeldingKnop({
         ))}
       </select>
 
-      {vragen.length > 0 && (
+      {!vasteVraag && vragen.length > 0 && (
         <>
           <label className="mt-4 block text-ink-dim" htmlFor="melding-vraag">
             Over welke vraag? (mag je leeg laten)
@@ -120,7 +161,11 @@ export function MeldingKnop({
         required
         rows={4}
         maxLength={2000}
-        placeholder="Bijvoorbeeld: het juiste antwoord bij vraag 7 lijkt me niet te kloppen."
+        placeholder={
+          vasteVraag
+            ? "Bijvoorbeeld: het juiste antwoord lijkt me niet te kloppen."
+            : "Bijvoorbeeld: het juiste antwoord bij vraag 7 lijkt me niet te kloppen."
+        }
         className="mt-1 w-full rounded-md border border-border bg-paper px-3 py-2 text-ink"
       />
 

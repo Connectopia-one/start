@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
+import { MeldingKnop } from "@/components/MeldingKnop";
 import { registreerAntwoord, registreerSticker } from "@/app/voortgang-actions";
 import {
   KleurVraag,
@@ -495,6 +496,25 @@ export function Quiz({
   // Telt mee bij "Opnieuw proberen", zodat ook wat een kind ingekleurd of
   // gesleept had weer leeg begint.
   const [ronde, setRonde] = useState(0);
+  /*
+    Eén vraag tegelijk op het scherm, niet de hele lijst onder elkaar. Kim op
+    29 september 2026: "om bij het oefen gedeelte mss de oefeningen 1 per 1 te
+    tonen ipv een scroll lijst. zo kunnen ze ook echt vraag per vraag een fout
+    melden moest er 1 zijn."
+  */
+  const [huidige, setHuidige] = useState(0);
+  const vraagKop = useRef<HTMLDivElement>(null);
+  const eersteKeer = useRef(true);
+
+  // Na "Volgende" begint de nieuwe vraag bovenaan, anders sta je midden in de
+  // vorige te kijken. Bij het openen van het hoofdstuk niet scrollen.
+  useEffect(() => {
+    if (eersteKeer.current) {
+      eersteKeer.current = false;
+      return;
+    }
+    vraagKop.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+  }, [huidige]);
 
   useEffect(() => {
     if (!kinderen.length) return;
@@ -537,6 +557,7 @@ export function Quiz({
   const opnieuw = () => {
     stickerGegeven.current = false;
     setRonde((r) => r + 1);
+    setHuidige(0);
     setStatussen(
       Object.fromEntries(
         vragen.map((v) => [
@@ -555,6 +576,7 @@ export function Quiz({
     );
   }
 
+  const vraag = vragen[Math.min(huidige, vragen.length - 1)];
   const toonBalk = Boolean(
     kinderen.find((k) => k.id === actiefKindId)?.toonVoortgang,
   );
@@ -629,7 +651,7 @@ export function Quiz({
         </p>
       )}
 
-      {vragen.map((vraag) => (
+      <div ref={vraagKop} className="scroll-mt-4">
         <VraagKaart
           key={`${vraag.id}-${ronde}`}
           vraag={vraag}
@@ -663,7 +685,51 @@ export function Quiz({
             }
           }}
         />
-      ))}
+
+        {/* Melden bij de vraag zelf: je staat erop, dus je hoeft ze niet meer
+            uit een lijst te kiezen. */}
+        {hoofdstukId && (
+          <MeldingKnop
+            key={`melding-${vraag.id}`}
+            hoofdstukId={hoofdstukId}
+            vragen={[]}
+            vasteVraag={{ id: vraag.id, volgnummer: huidige + 1 }}
+          />
+        )}
+      </div>
+
+      <div className="flex items-center justify-between gap-3">
+        <button
+          type="button"
+          onClick={() => setHuidige((i) => Math.max(0, i - 1))}
+          disabled={huidige === 0}
+          className="rounded-md border border-border px-4 py-2 text-sm text-ink-dim transition hover:border-forest hover:text-ink disabled:cursor-not-allowed disabled:opacity-40"
+        >
+          &larr; Vorige
+        </button>
+
+        {/* Het nummer staat er alleen als de ouder de voortgangsbalk aanzette.
+            Voor een kind dat blokkeert op "nog zeventien te gaan" is dat net
+            wat je niet wil tonen. */}
+        {toonBalk && (
+          <p className="text-xs text-ink-dim">
+            Vraag {huidige + 1} van {vragen.length}
+          </p>
+        )}
+
+        <button
+          type="button"
+          onClick={() => setHuidige((i) => Math.min(vragen.length - 1, i + 1))}
+          disabled={huidige >= vragen.length - 1}
+          className={`rounded-md px-4 py-2 text-sm font-medium transition disabled:cursor-not-allowed disabled:opacity-40 ${
+            statussen[vraag.id]?.gecontroleerd
+              ? "bg-forest text-white hover:bg-forest-dark"
+              : "border border-border text-ink-dim hover:border-forest hover:text-ink"
+          }`}
+        >
+          Volgende &rarr;
+        </button>
+      </div>
 
       {klaar && (
         <div
