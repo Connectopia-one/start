@@ -1,0 +1,144 @@
+{
+ "vak": "Engels",
+ "titel": "Woordenschat: getallen, tijd, weer, reizen en landen",
+ "onder": "Alles wat je nodig hebt om een dienstregeling, een weerbericht of een reisverslag te lezen.",
+ "secties": [
+  {
+   "kop": "Hoe laat is het?",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<div style=\"display:flex;gap:18px;align-items:flex-end;justify-content:center;flex-wrap:wrap;\"><div><svg viewBox=\"0 0 144 144\" width=\"144\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"72\" cy=\"72\" r=\"64\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"2.2\"/><line x1=\"72.0\" y1=\"17.0\" x2=\"72.0\" y2=\"10.0\" stroke=\"#6b7260\" stroke-width=\"2.2\"/><text x=\"72.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">12</text><line x1=\"99.5\" y1=\"24.4\" x2=\"103.0\" y2=\"18.3\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"93.5\" y=\"34.8\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">1</text><line x1=\"119.6\" y1=\"44.5\" x2=\"125.7\" y2=\"41.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"109.2\" y=\"50.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">2</text><line x1=\"127.0\" y1=\"72.0\" x2=\"134.0\" y2=\"72.0\" stroke=\"#6b7260\" stroke-width=\"2.2\"/><text x=\"115.0\" y=\"72.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">3</text><line x1=\"119.6\" y1=\"99.5\" x2=\"125.7\" y2=\"103.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"109.2\" y=\"93.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">4</text><line x1=\"99.5\" y1=\"119.6\" x2=\"103.0\" y2=\"125.7\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"93.5\" y=\"109.2\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">5</text><line x1=\"72.0\" y1=\"127.0\" x2=\"72.0\" y2=\"134.0\" stroke=\"#6b7260\" stroke-width=\"2.2\"/><text x=\"72.0\" y=\"115.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">6</text><line x1=\"44.5\" y1=\"119.6\" x2=\"41.0\" y2=\"125.7\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"50.5\" y=\"109.2\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">7</text><line x1=\"24.4\" y1=\"99.5\" x2=\"18.3\" y2=\"103.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"34.8\" y=\"93.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">8</text><line x1=\"17.0\" y1=\"72.0\" x2=\"10.0\" y2=\"72.0\" stroke=\"#6b7260\" stroke-width=\"2.2\"/><text x=\"29.0\" y=\"72.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">9</text><line x1=\"24.4\" y1=\"44.5\" x2=\"18.3\" y2=\"41.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"34.8\" y=\"50.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">10</text><line x1=\"44.5\" y1=\"24.4\" x2=\"41.0\" y2=\"18.3\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"50.5\" y=\"34.8\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">11</text><line x1=\"72\" y1=\"72\" x2=\"42.4\" y2=\"84.2\" stroke=\"#234539\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"72\" x2=\"120.0\" y2=\"72.0\" stroke=\"#c17f2b\" stroke-width=\"3\" stroke-linecap=\"round\"/><circle cx=\"72\" cy=\"72\" r=\"3.5\" fill=\"#234539\"/></svg></div><div><svg viewBox=\"0 0 144 144\" width=\"144\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"72\" cy=\"72\" r=\"64\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"2.2\"/><line x1=\"72.0\" y1=\"17.0\" x2=\"72.0\" y2=\"10.0\" stroke=\"#6b7260\" stroke-width=\"2.2\"/><text x=\"72.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">12</text><line x1=\"99.5\" y1=\"24.4\" x2=\"103.0\" y2=\"18.3\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"93.5\" y=\"34.8\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">1</text><line x1=\"119.6\" y1=\"44.5\" x2=\"125.7\" y2=\"41.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"109.2\" y=\"50.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">2</text><line x1=\"127.0\" y1=\"72.0\" x2=\"134.0\" y2=\"72.0\" stroke=\"#6b7260\" stroke-width=\"2.2\"/><text x=\"115.0\" y=\"72.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">3</text><line x1=\"119.6\" y1=\"99.5\" x2=\"125.7\" y2=\"103.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"109.2\" y=\"93.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">4</text><line x1=\"99.5\" y1=\"119.6\" x2=\"103.0\" y2=\"125.7\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"93.5\" y=\"109.2\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">5</text><line x1=\"72.0\" y1=\"127.0\" x2=\"72.0\" y2=\"134.0\" stroke=\"#6b7260\" stroke-width=\"2.2\"/><text x=\"72.0\" y=\"115.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">6</text><line x1=\"44.5\" y1=\"119.6\" x2=\"41.0\" y2=\"125.7\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"50.5\" y=\"109.2\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">7</text><line x1=\"24.4\" y1=\"99.5\" x2=\"18.3\" y2=\"103.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"34.8\" y=\"93.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">8</text><line x1=\"17.0\" y1=\"72.0\" x2=\"10.0\" y2=\"72.0\" stroke=\"#6b7260\" stroke-width=\"2.2\"/><text x=\"29.0\" y=\"72.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">9</text><line x1=\"24.4\" y1=\"44.5\" x2=\"18.3\" y2=\"41.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"34.8\" y=\"50.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">10</text><line x1=\"44.5\" y1=\"24.4\" x2=\"41.0\" y2=\"18.3\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"50.5\" y=\"34.8\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">11</text><line x1=\"72\" y1=\"72\" x2=\"74.8\" y2=\"103.9\" stroke=\"#234539\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"72\" x2=\"30.4\" y2=\"48.0\" stroke=\"#c17f2b\" stroke-width=\"3\" stroke-linecap=\"round\"/><circle cx=\"72\" cy=\"72\" r=\"3.5\" fill=\"#234539\"/></svg></div><div><svg viewBox=\"0 0 144 144\" width=\"144\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"72\" cy=\"72\" r=\"64\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"2.2\"/><line x1=\"72.0\" y1=\"17.0\" x2=\"72.0\" y2=\"10.0\" stroke=\"#6b7260\" stroke-width=\"2.2\"/><text x=\"72.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">12</text><line x1=\"99.5\" y1=\"24.4\" x2=\"103.0\" y2=\"18.3\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"93.5\" y=\"34.8\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">1</text><line x1=\"119.6\" y1=\"44.5\" x2=\"125.7\" y2=\"41.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"109.2\" y=\"50.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">2</text><line x1=\"127.0\" y1=\"72.0\" x2=\"134.0\" y2=\"72.0\" stroke=\"#6b7260\" stroke-width=\"2.2\"/><text x=\"115.0\" y=\"72.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">3</text><line x1=\"119.6\" y1=\"99.5\" x2=\"125.7\" y2=\"103.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"109.2\" y=\"93.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">4</text><line x1=\"99.5\" y1=\"119.6\" x2=\"103.0\" y2=\"125.7\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"93.5\" y=\"109.2\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">5</text><line x1=\"72.0\" y1=\"127.0\" x2=\"72.0\" y2=\"134.0\" stroke=\"#6b7260\" stroke-width=\"2.2\"/><text x=\"72.0\" y=\"115.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">6</text><line x1=\"44.5\" y1=\"119.6\" x2=\"41.0\" y2=\"125.7\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"50.5\" y=\"109.2\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">7</text><line x1=\"24.4\" y1=\"99.5\" x2=\"18.3\" y2=\"103.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"34.8\" y=\"93.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">8</text><line x1=\"17.0\" y1=\"72.0\" x2=\"10.0\" y2=\"72.0\" stroke=\"#6b7260\" stroke-width=\"2.2\"/><text x=\"29.0\" y=\"72.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">9</text><line x1=\"24.4\" y1=\"44.5\" x2=\"18.3\" y2=\"41.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"34.8\" y=\"50.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">10</text><line x1=\"44.5\" y1=\"24.4\" x2=\"41.0\" y2=\"18.3\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"50.5\" y=\"34.8\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">11</text><line x1=\"72\" y1=\"72\" x2=\"49.4\" y2=\"94.6\" stroke=\"#234539\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"72\" x2=\"72.0\" y2=\"120.0\" stroke=\"#c17f2b\" stroke-width=\"3\" stroke-linecap=\"round\"/><circle cx=\"72\" cy=\"72\" r=\"3.5\" fill=\"#234539\"/></svg></div></div>",
+     "onderschrift": "a quarter past eight — ten to six — half past seven."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Past</strong> is erover, <strong>to</strong> is ervoor. <em>A quarter past eight</em> is 8.15 uur, <em>a quarter to eight</em> is 7.45 uur, <em>ten to six</em> is 5.50 uur."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>De grootste valstrik van allemaal.</strong> <em>Half past seven</em> is <strong>half acht</strong>, niet half zeven. Het Engels telt vanaf het uur dat <em>geweest</em> is, het Nederlands naar het uur dat <em>komt</em>. Wie dat verwart, staat een uur te vroeg of te laat."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Noon</em> of <em>midday</em> is de middag, 12 uur. <em>Midnight</em> is middernacht. <em>A.m.</em> staat voor <em>ante meridiem</em> (vóór de middag), <em>p.m.</em> voor <em>post meridiem</em> (erna). <em>The film starts at 7 p.m.</em> is dus 's avonds."
+    }
+   ]
+  },
+  {
+   "kop": "Dagen, maanden en seizoenen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">dagen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">maanden</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">seizoenen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Monday, Tuesday, Wednesday</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">January, February, March</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spring (lente)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Thursday, Friday</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">April, May, June</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">summer (zomer)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Saturday, Sunday</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">July, August, September</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">autumn (Brits) / fall (Amerikaans)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">October, November, December</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">winter</td></tr></table>",
+     "onderschrift": "In Wednesday spreek je de d niet uit: 'wensdee'."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dagen en maanden krijgen in het Engels een <strong>hoofdletter</strong>. In het Nederlands schrijven we die klein; dat verschil kost punten bij het schrijven."
+    }
+   ]
+  },
+  {
+   "kop": "Getallen, maten en hoeveelheden",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeelden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoofdtelwoorden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">one, two, ten, fifteen, twenty-four, a hundred, a thousand, a million</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rangtelwoorden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">first, second, third, fourth, fifth, twelfth, twentieth</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoeveelheden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a dozen (twaalf), a few, a little, much, many, a lot of</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kilos, miles (1 mile ≈ 1,6 km), degrees (graden)</td></tr></table>",
+     "onderschrift": "Bij een datum gebruik je een rangtelwoord: the third of May, the fifth of June."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>A few of a little?</strong> <em>A few</em> gebruik je bij dingen die je kan tellen (<em>a few eggs</em>), <em>a little</em> bij ontelbare (<em>a little milk</em>, <em>a little time</em>). Zo ook: <em>many books</em>, maar <em>much water</em> en <em>a lot of water</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>To weigh</em> is wegen. <em>The box weighs three kilos.</em> In het Verenigd Koninkrijk en de Verenigde Staten meet men afstanden in <em>miles</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Het weer",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Engels</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sunny, cloudy</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zonnig, bewolkt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rainy, a shower</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">regenachtig, een bui</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">windy, foggy, snowy</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">winderig, mistig, met sneeuw</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">freezing</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ijskoud</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">it is raining</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het regent (nu)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">an umbrella</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een paraplu</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">the temperature drops / rises</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de temperatuur daalt / stijgt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a degree</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een graad</td></tr></table>",
+     "onderschrift": "Crowded (druk met mensen) zegt niets over het weer."
+    },
+    {
+     "soort": "tekst",
+     "html": "Weer dat op dit moment bezig is, zet je in de present continuous: <em>it is raining</em>. Weer dat vaak gebeurt, in de present simple: <em>it often rains here</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Reizen en vervoer",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Engels</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">by bike, by car, by bus, by train, by plane</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met de fiets, auto, bus, trein, het vliegtuig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">on foot</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">te voet — de enige met on</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a flight, delayed, cancelled</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vlucht, vertraagd, geannuleerd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a boarding pass, luggage, a gate</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een instapkaart, bagage, een gate</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a platform, to depart, to arrive</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een perron, vertrekken, aankomen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a single ticket / a one-way ticket</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een enkele reis</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a return ticket</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een ticket heen en terug</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a suitcase, a passport, a ticket</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een koffer, een paspoort, een ticket</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">to stay, a hotel, the beach</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verblijven, een hotel, het strand</td></tr></table>",
+     "onderschrift": "Een gate hoort bij de luchthaven, een platform bij het station."
+    },
+    {
+     "soort": "tekst",
+     "html": "De weg vragen: <em>Excuse me, how do I get to the museum?</em> Het antwoord bevat meestal <em>go straight on</em> (rechtdoor), <em>turn left</em> (links afslaan), <em>turn right</em> (rechts afslaan), of een herkenningspunt zoals <em>the church</em> (de kerk)."
+    }
+   ]
+  },
+  {
+   "kop": "Landen en nationaliteiten",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">land</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">nationaliteit</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Belgium</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Belgian</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Spain</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Spanish</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">France</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">French</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Scotland</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Scottish</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ireland</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Irish</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">the United Kingdom (hoofdstad: London)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">British</td></tr></table>",
+     "onderschrift": "Landen én nationaliteiten schrijf je in het Engels met een hoofdletter."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Holiday</em> (Brits) en <em>vacation</em> (Amerikaans) betekenen allebei vakantie. Een Brit gaat <em>on holiday</em>, een Amerikaan <em>on vacation</em>. In het Brits kan <em>a holiday</em> ook één feestdag zijn."
+    }
+   ]
+  },
+  {
+   "kop": "Deze woorden in hele zinnen",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<em>The train leaves at 8.15 and arrives at 9.40. It is two hours delayed.</em><br>De trein vertrekt om kwart over acht en komt om twintig voor tien aan. Twee uur vertraging, dus. <em>To leave</em> is vertrekken, <em>to arrive</em> aankomen."
+    },
+    {
+     "soort": "kader",
+     "html": "<em>The shop opens on Wednesday at nine and the film starts tomorrow at 8 p.m.</em><br>De winkel opent woensdag om negen uur, de film begint morgen om acht uur 's avonds."
+    },
+    {
+     "soort": "kader",
+     "html": "<em>The box weighs three kilos. The station is about two miles from here.</em><br>De doos weegt drie kilogram en is dus niet zo zwaar; het station ligt ongeveer twee mijl verderop, wat iets meer dan drie kilometer is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Getallen: <em>a hundred</em> is honderd, <em>a thousand</em> duizend. Een <em>dozen</em> is twaalf, geen cijfer maar een aantal. Bij een datum of een afspraak (<em>a meeting</em>) gebruik je een rangtelwoord: <em>the meeting is on the third of May</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op reis: <em>we stayed in a small hotel near the beach</em> betekent dat we in een klein hotel bij het strand verbleven en er dus ook sliepen. Wie reist, moet een geldig document bij zich hebben, en dat is een ander document dan je ticket: een <em>passport</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij vervoermiddelen hoort het <strong>voorzetsel</strong> <em>by</em>: <em>by bike</em>, <em>by bus</em>, <em>by train</em>. Alleen te voet is het <em>on foot</em>. Ga je naar school, dan zeg je <em>I go to school by bike</em>, zonder lidwoord voor <em>school</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "En het weer: <em>showers</em> zijn buien, <em>it is raining outside</em> betekent dat het nu buiten regent. Wie het weer van morgen beschrijft, gebruikt <em>tomorrow</em> en <em>will</em>: <em>Tomorrow it will be sunny.</em> Zo vraagt een persoon ook naar het weer: <em>What will the weather be like?</em>"
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "half past seven = half acht. Past is erover, to is ervoor.",
+  "noon = 12 uur 's middags, midnight = 12 uur 's nachts.",
+  "Dagen en maanden: hoofdletter.",
+  "a few bij telbare dingen, a little bij ontelbare.",
+  "by bike, by car, by train — maar on foot.",
+  "a return ticket = heen en terug; a single ticket = enkele reis."
+ ]
+}

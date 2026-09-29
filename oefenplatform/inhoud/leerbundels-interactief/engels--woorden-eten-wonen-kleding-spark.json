@@ -1,0 +1,141 @@
+{
+ "vak": "Engels",
+ "titel": "Woordenschat: eten, wonen, kleding en dagelijkse dingen",
+ "onder": "De woorden van het gewone leven, met het verschil tussen Brits en Amerikaans.",
+ "secties": [
+  {
+   "kop": "Eten en drinken",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Engels</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">breakfast, lunch, dinner</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ontbijt, middagmaal, avondmaal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bread, jam, cheese</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">brood, confituur, kaas</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tea, orange juice, milk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">thee, sinaasappelsap, melk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a carrot, an onion, a pea</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een wortel, een ui, een erwt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a pear, a grape</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een peer, een druif</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">chicken, soup, apple pie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kip, soep, appeltaart</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sugar, flour, a spoon</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">suiker, bloem, een lepel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">to add</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">toevoegen</td></tr></table>",
+     "onderschrift": "A grape is een druif, geen grapefruit: een valse vriend."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Chips</strong> is de beroemdste verwarring. Een Brit bestelt <em>fish and chips</em> en krijgt frieten; een Amerikaan zegt <em>french fries</em> voor frieten en <em>chips</em> voor wat wij chips noemen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Ontelbaar.</strong> <em>Bread</em>, <em>water</em> en <em>rice</em> kan je niet zomaar in het meervoud zetten. Je telt ze met een maat erbij: <em>two slices of bread</em>, <em>three glasses of water</em>, <em>two bowls of rice</em>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">in het restaurant</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">betekenis</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">the menu</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kaart</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a waiter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een ober</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">the bill (Brits) / the check (Amerikaans)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de rekening</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Would you like some more soup?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wil je nog wat soep? — het beleefde aanbod</td></tr></table>",
+     "onderschrift": "A timetable is geen restaurantwoord: dat is een uurrooster of dienstregeling."
+    }
+   ]
+  },
+  {
+   "kop": "Wonen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Engels</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a flat (Brits) / an apartment</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een appartement</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a bedroom, a kitchen, a bathroom</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een slaapkamer, een keuken, een badkamer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a living room / a sitting room</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een woonkamer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a hall</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gang of hal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a cellar, an attic</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kelder, een zolder</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a garden, a garage</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een tuin, een garage</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a wardrobe, an armchair, a bookcase</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kleerkast, een zetel, een boekenkast</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a curtain</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gordijn (geen meubel)</td></tr></table>",
+     "onderschrift": "Living room en sitting room betekenen ongeveer hetzelfde; sitting room klinkt Britser."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>To turn off</em> is uitzetten, <em>to turn on</em> aanzetten. Je hoort ook <em>to switch off</em> en <em>to switch on</em>. <em>Turn off the light when you leave.</em>"
+    }
+   ]
+  },
+  {
+   "kop": "Kleding en accessoires",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Engels</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a jumper (Brits) / a sweater</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een trui</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a shirt, a skirt, a coat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een hemd, een rok, een jas</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">trousers, jeans</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een broek, een jeansbroek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">trainers (Brits) / sneakers</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sportschoenen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a belt, a scarf, a watch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een riem, een sjaal, een horloge</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">glasses</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bril</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">to wear</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dragen, aanhebben</td></tr></table>",
+     "onderschrift": "Trousers, jeans en glasses staan altijd in het meervoud: my trousers are new."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Made of</em> zegt uit welk materiaal iets bestaat: <em>The shirt is made of cotton</em> (katoen). Verder: <em>wool</em> (wol), <em>leather</em> (leder), <em>wood</em> (hout), <em>glass</em> (glas), <em>metal</em>, <em>plastic</em>, <em>paper</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Kleuren en vormen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">kleuren</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vormen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">red, blue, yellow, green</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">round (rond)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">black, white, brown, grey (Brits) / gray</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">square (vierkant)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">orange, purple (paars), pink (roze)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rectangular (rechthoekig), triangular (driehoekig)</td></tr></table>",
+     "onderschrift": "Rood en wit samen geeft pink. Heavy (zwaar) is een gewicht, geen vorm."
+    }
+   ]
+  },
+  {
+   "kop": "Dagelijkse bezigheden en voorwerpen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Engels</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">to get up</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opstaan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">to wake up</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wakker worden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">to have a shower</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een douche nemen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">to brush your teeth</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je tanden poetsen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">to get dressed</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je aankleden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">to go to bed</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gaan slapen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">to do the washing-up</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de afwas doen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">to do the washing</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de was doen, met de wasmachine</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">to go shopping</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gaan winkelen</td></tr></table>",
+     "onderschrift": "Zulke gewone handelingen heten samen je daily routine."
+    },
+    {
+     "soort": "tekst",
+     "html": "De dingen die je elke dag bij je hebt: <em>keys</em> (sleutels), <em>a wallet</em> (een portefeuille), <em>a phone</em>. Een <em>wardrobe</em> steek je niet in je zak."
+    }
+   ]
+  },
+  {
+   "kop": "Winkels en diensten",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Engels</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a baker's / a bakery</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bakkerij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a butcher's</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een slagerij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a chemist's</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een apotheek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a newsagent's</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een krantenwinkel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a bank, a post office</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bank, een postkantoor</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a library</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bibliotheek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a bookshop</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een boekhandel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a supermarket</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een supermarkt</td></tr></table>",
+     "onderschrift": "Winkels krijgen in het Brits vaak een 's, van 'de winkel van de bakker'."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Twee valse vrienden op een rij.</strong> <em>A library</em> is een <strong>bibliotheek</strong>, geen boekhandel. En <em>a magazine</em> is een <strong>tijdschrift</strong>, geen magazijn; dat laatste is <em>a warehouse</em> of <em>a store</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Openingsuren lees je met a.m. en p.m.: <em>open from 9 a.m. to 8 p.m.</em> betekent van negen uur 's ochtends tot acht uur 's avonds."
+    }
+   ]
+  },
+  {
+   "kop": "Deze woorden in hele zinnen",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<em>Would you like some more soup?</em><br>Dat vraagt een gastheer aan tafel. Het is een beleefd aanbod, geen bevel. Je antwoordt met <em>Yes, please</em> of <em>No, thank you</em>."
+    },
+    {
+     "soort": "kader",
+     "html": "<em>On Saturday morning we go to the market at seven.</em><br>Zaterdagvoormiddag om zeven uur naar de markt. <em>Morning</em> is de voormiddag, en waar je naartoe gaat, zeg je met <em>to</em>."
+    },
+    {
+     "soort": "kader",
+     "html": "<em>First you mix the eggs and the flour. Then you add a little milk.</em><br>Zo staat het in een recept: je mengt eerst, dan voeg je toe. <em>To mix</em> is mengen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>maaltijd</strong> heeft vaak een voorgerecht, een hoofdgerecht en een nagerecht. Bij het hoofdgerecht horen groenten (<em>vegetables</em>) zoals wortelen, uien en erwten; dranken (<em>drinks</em>) zijn water, melk en sinaasappelsap. Wie iets koopt in de winkel, <em>buys</em> het; wie iets gaat halen, <em>gets</em> het."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Bread</em>, <em>water</em> en <em>rice</em> staan altijd in het <strong>enkelvoud</strong>, ook als er veel van is. Je telt ze met een maat erbij, en je ziet meteen waarvan er hoeveel is: <em>two slices of bread</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij kleding hoort <em>to wear</em>: <em>she is wearing a red coat</em>, ze heeft een rode jas aan. Iets uitdoen is <em>to take off</em>. En als het buiten licht regent, doe je een jas aan en sluit je de deur (<em>close</em>) achter je; <em>could you close the door, please?</em> is hoe een persoon dat beleefd vraagt."
+    },
+    {
+     "soort": "weetje",
+     "html": "Veel Engelse woorden voor eten ontlenen we gewoon: <em>pizza</em>, <em>pasta</em>, <em>sandwich</em>. Die lijken op elkaar in elke taal, dus ze zijn gratis meegenomen."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Brits chips = frieten; Amerikaans chips = chips uit een zakje.",
+  "Bread, water en rice zijn ontelbaar: two slices of bread.",
+  "Trousers, jeans en glasses staan altijd in het meervoud.",
+  "A library is een bibliotheek, a magazine een tijdschrift.",
+  "the bill (Brits) tegenover the check (Amerikaans).",
+  "to do the washing-up = de afwas; to do the washing = de was."
+ ]
+}

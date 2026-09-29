@@ -846,6 +846,3392 @@
           "uitleg": "Een schoolreglement is prescriptief: het legt uit wat je moet doen. Een recept hoort bij diezelfde soort; een krantenartikel is wél informatief."
         }
       ]
+    },
+    {
+      "titel": "Schrijven: berichten, uitnodigingen en mails — deel 1",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Je schrijft een mail aan de directeur van een school die je niet kent. Hoe begin je?",
+          "opties": [
+            "Dear Mr Jones,",
+            "Hi mate!",
+            "Hey you,",
+            "Yo!"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij iemand die je niet kent gebruik je een neutraal register: Dear + Mr, Mrs of Ms en de familienaam. 'Mate' kan alleen bij vrienden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je schrijft datzelfde mailtje aan de directeur. Hoe sluit je het af?",
+          "opties": [
+            "Kind regards,",
+            "See ya!",
+            "Bye bye!",
+            "Later!"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kind regards of Best regards zijn neutraal. 'See ya' en 'Later' zijn spreektaal en horen in een bericht aan een vriend."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitdrukkingen gebruik je in een informeel bericht aan een vriend?",
+          "opties": [
+            "Hi Tom,",
+            "See you soon!",
+            "Thanks a lot!",
+            "Yours faithfully,"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Yours faithfully is heel formeel en hoort in een brief aan iemand van wie je de naam niet kent. De rest is gewone vriendentaal."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je gebruikt dezelfde toon in een mail aan je leraar als in een bericht aan je beste vriend.",
+          "antwoord": false,
+          "uitleg": "De fiche vraagt een gepast register: neutraal of informeel, afhankelijk van wie je aanschrijft. Pas je taal aan de ontvanger aan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil iemand uitnodigen op je verjaardag. Welke zin past?",
+          "opties": [
+            "Would you like to come to my party?",
+            "You have to come to my party.",
+            "I am going to my own party.",
+            "My party was last Saturday."
+          ],
+          "antwoord": 0,
+          "uitleg": "'Would you like to...' is de beleefde manier om iets voor te stellen of uit te nodigen. 'You have to' klinkt als een bevel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand zegt: 'I'm sorry I'm late.' Wat antwoord je?",
+          "opties": [
+            "That's all right.",
+            "Congratulations!",
+            "Good luck!",
+            "Here you are."
+          ],
+          "antwoord": 0,
+          "uitleg": "Reageren op een verontschuldiging staat in de fiche bij de alledaagse sociale contacten. 'That's all right' of 'No problem' past."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe zeg je 'gefeliciteerd' in het Engels? Eén woord.",
+          "antwoord": "congratulations",
+          "uitleg": "Congratulations! Let op de spelling: er staat geen d in, en het staat altijd in het meervoud."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Please' en 'thank you' mag je gerust weglaten, want dat zegt niemand nog in het Engels.",
+          "antwoord": false,
+          "uitleg": "De fiche waarschuwt net voor het omgekeerde: vergeet niet om voldoende please en thank you te zeggen. Dat hoort bij de beleefdheidsconventies."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je schrijft een tekstje over je weekend. Welke drie delen horen er volgens de fiche in?",
+          "opties": [
+            "een inleiding",
+            "een middenstuk",
+            "een slot",
+            "een inhoudstafel"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De fiche vraagt een eenvoudige en gepaste structuur: inleiding, midden, slot, met herkenbare tekstverbanden. Een inhoudstafel hoort bij een boek."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je krijgt de opdracht: 'Write about 60 words.' Je schrijft er 25. Wat loopt er mis?",
+          "opties": [
+            "de taakvoltooiing",
+            "de spelling",
+            "de uitspraak",
+            "de lay-out"
+          ],
+          "antwoord": 0,
+          "uitleg": "Taakvoltooiing betekent dat je boodschap volledig is en dat je de opgegeven lengte respecteert. Te kort is dus onvolledig."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Kleine grammaticafouten die de boodschap niet in de weg staan, zijn op dit niveau aanvaardbaar.",
+          "antwoord": true,
+          "uitleg": "De fiche zegt: je vormt eenvoudige correcte zinnen, fouten verstoren de communicatie niet. Perfect hoeft niet, begrijpelijk wel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je schrijft: 'i went to londen last weekend with my freind.' Welke fouten staan erin?",
+          "opties": [
+            "i moet met een hoofdletter",
+            "londen moet London zijn",
+            "freind moet friend zijn",
+            "weekend is fout gespeld"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "In het Engels schrijf je 'I' altijd met een hoofdletter, net als landen en steden. Weekend is wel juist gespeld."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe schrijf je het Engelse woord voor 'vriend' correct? Vijf letters, met ie erin.",
+          "antwoord": "friend",
+          "uitleg": "Friend, met -ie-. Een ezelsbruggetje: er zit 'end' in, zoals in 'a friend until the end'."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je schrijft een mail om iets te vragen. Welke zin is het beleefdst?",
+          "opties": [
+            "Could you please send me the form?",
+            "Send me the form now.",
+            "I want the form.",
+            "Give me that form."
+          ],
+          "antwoord": 0,
+          "uitleg": "A form = een formulier. 'Could you please' is de beleefde vorm. De andere zinnen zijn bevelen en klinken onvriendelijk."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je mag in een schoolopdracht gerust woorden als sh*t gebruiken als je boos bent.",
+          "antwoord": false,
+          "uitleg": "De fiche zegt het uitdrukkelijk: vermijd scheldwoorden of uitdrukkingen die als scheldwoorden kunnen worden opgevat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je schrijft een bericht aan een winkel over een kapot toestel. Wat zet je in de inleiding?",
+          "opties": [
+            "waarom je schrijft",
+            "je volledige levensverhaal",
+            "het weer van vandaag",
+            "je lievelingskleur"
+          ],
+          "antwoord": 0,
+          "uitleg": "De inleiding zegt kort waarover het gaat: 'I am writing about the headphones I bought last week.' Dan weet de lezer meteen waarom."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke signaalwoorden maken je eigen tekst overzichtelijker?",
+          "opties": [
+            "first",
+            "after that",
+            "in the end",
+            "because of that"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "First, after that en in the end ordenen je tekst in de tijd. 'Because of that' geeft wel een gevolg, maar zegt niets over de volgorde."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je mag tijdens het examen een spellingcontrole en een online woordenboek gebruiken.",
+          "antwoord": true,
+          "uitleg": "De fiche vermeldt allebei, met de raad om er thuis mee te oefenen. Ze vervangen je kennis niet, ze helpen ze."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe begin je een informele mail aan een vriendin die Emma heet? Twee woorden.",
+          "antwoord": "hi emma",
+          "uitleg": "Hi Emma, met een komma erachter. 'Hello Emma' kan ook. 'Dear Emma' klinkt al wat plechtiger."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom lees je je tekst nog eens na voor je hem afgeeft?",
+          "opties": [
+            "om te kijken of alles helder en vlot is",
+            "om hem langer te maken",
+            "om de woorden te tellen",
+            "om de kleur aan te passen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De fiche noemt dat een strategie: lees je tekst grondig na, is de communicatie helder, gepast en vlot?"
+        }
+      ]
+    },
+    {
+      "titel": "Schrijven: berichten, uitnodigingen en mails — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Je schrijft: 'Dear Sir or Madam,' Wanneer gebruik je dat?",
+          "opties": [
+            "als je de naam van de lezer niet kent",
+            "als je met een vriend schrijft",
+            "als je aan je broer schrijft",
+            "als je aan jezelf schrijft"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dear Sir or Madam is de formele aanhef als je de naam niet kent. Ken je ze wel, dan schrijf je Dear Mrs Clarke."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je kan 'Sir' in dezelfde situatie gebruiken als 'mate'.",
+          "antwoord": false,
+          "uitleg": "De fiche gebruikt net dat voorbeeld: Sir is formeel en afstandelijk, mate is vriendentaal. Elk register heeft zijn eigen aanspreekvorm."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil bedanken voor een cadeau. Welke zin past in een kaartje?",
+          "opties": [
+            "Thank you so much for the present!",
+            "I did not like your present.",
+            "Where did you buy the present?",
+            "The present is in my room."
+          ],
+          "antwoord": 0,
+          "uitleg": "A present = een cadeau. Bedanken is een van de alledaagse sociale contacten uit de fiche."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je nodigt iemand uit. Welke gegevens horen zeker in je bericht?",
+          "opties": [
+            "wanneer het is",
+            "waar het is",
+            "waarvoor het is",
+            "wat het gekost heeft"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Wanneer, waar en waarvoor: zonder die drie kan je lezer niets met je uitnodiging. De prijs van je feest gaat niemand aan."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe vraag je in het Engels beleefd om hulp? Vul aan: 'Could you ___ me, please?' Eén woord.",
+          "antwoord": "help",
+          "uitleg": "Could you help me, please? Na 'could you' komt het werkwoord zonder to."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een mail aan een onbekende schrijf je in hetzelfde register als een berichtje in een groepschat.",
+          "antwoord": false,
+          "uitleg": "Neutraal tegenover informeel. De fiche vraagt uitdrukkelijk dat je je taal aan de ontvanger aanpast."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je schrijft over je stad voor een buitenlandse leerling. Wat doe je dan volgens de fiche?",
+          "opties": [
+            "je legt iemand iets uit",
+            "je geeft je mening",
+            "je verontschuldigt je",
+            "je feliciteert iemand"
+          ],
+          "antwoord": 0,
+          "uitleg": "De fiche gebruikt dat voorbeeld letterlijk: je legt uit hoe het leven eraan toegaat in jouw stad."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je geeft je mening over schooluniformen. Welke zinnen passen daarbij?",
+          "opties": [
+            "In my opinion, uniforms are boring.",
+            "I think uniforms are a good idea.",
+            "I don't agree with school uniforms.",
+            "Uniforms are made of cotton."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "In my opinion, I think en I don't agree kondigen alle drie een mening aan. De laatste zin geeft alleen een feit."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'In my ___, this film is too long.' Welk Engels woord betekent hier 'mening'?",
+          "antwoord": "opinion",
+          "uitleg": "In my opinion = naar mijn mening. Let op: in het Engels zeg je 'in my opinion', niet 'to my opinion'."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je schrijft een bericht van zes zinnen zonder één punt of hoofdletter. Welke vereiste haal je niet?",
+          "opties": [
+            "spelling en leestekengebruik",
+            "taakvoltooiing",
+            "woordenschat",
+            "lichaamstaal"
+          ],
+          "antwoord": 0,
+          "uitleg": "Leestekens horen bij spelling en leestekengebruik. Lichaamstaal geldt alleen voor spreken, niet voor een geschreven tekst."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een gepaste lay-out hoort bij de beoordeling van een geschreven tekst.",
+          "antwoord": true,
+          "uitleg": "De fiche heeft daar een aparte regel voor: tekstopbouw en lay-out. Een mail met een aanhef, alinea's en een groet leest nu eenmaal beter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar zet je in een mail je alinea's het best?",
+          "opties": [
+            "één gedachte per alinea",
+            "alles in één blok",
+            "elke zin op een nieuwe regel",
+            "één woord per regel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eén gedachte per alinea houdt je tekst overzichtelijk. Dat is precies wat 'een duidelijke opbouw' betekent."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je schrijft aan een hotel om een kamer te reserveren. Welke informatie geef je?",
+          "opties": [
+            "de data van je verblijf",
+            "het aantal personen",
+            "je naam",
+            "het merk van je koffer"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Data, aantal personen en je naam zijn nodig om te reserveren. Het merk van je koffer helpt het hotel niet vooruit."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als je niet weet hoe je iets moet zeggen in het Engels, stop je het best met schrijven.",
+          "antwoord": false,
+          "uitleg": "De fiche raadt het omgekeerde aan: laat je niet ontmoedigen, probeer je doel te bereiken met de woorden en structuren die je wél al kent."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil iets voorstellen aan een vriend. Welke zin past?",
+          "opties": [
+            "Shall we go to the cinema?",
+            "I went to the cinema.",
+            "The cinema was closed.",
+            "He likes the cinema."
+          ],
+          "antwoord": 0,
+          "uitleg": "'Shall we...?' of 'Why don't we...?' zijn de gewone manieren om iets voor te stellen. De andere zinnen vertellen alleen iets."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: '___ we meet at six?' Welk Engels woord vooraan maakt hier een voorstel? Vijf letters.",
+          "antwoord": "shall",
+          "uitleg": "Shall we meet at six? Shall gebruik je vooral in een voorstel of een aanbod: Shall I help you?"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je schrijft over je vorige vakantie. Welke tijd gebruik je vooral?",
+          "opties": [
+            "de past simple",
+            "de present simple",
+            "de future simple",
+            "de imperative"
+          ],
+          "antwoord": 0,
+          "uitleg": "De past simple is voor wat gebeurd en afgelopen is: 'We went to Spain. I swam every day.' Let op signaalwoorden als last year of ago."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een schrijfopdracht op het examen krijg je een schrijfkader dat je op weg helpt.",
+          "antwoord": true,
+          "uitleg": "De fiche zegt het letterlijk: bij schrijf- en spreekopdrachten krijg je een schrijf- of spreekkader om je te ondersteunen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je krijgt een mail met een vraag erin en je antwoordt erop. Hoe heet dat onderdeel van het examen?",
+          "opties": [
+            "schriftelijke interactie",
+            "mondelinge interactie",
+            "lezen",
+            "luisteren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Schriftelijke interactie is schrijven waarbij je reageert op iemand anders. Het weegt 8 %, net als schrijven."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je schrijft: 'Thanks for your mail. I hope to see you soon. Bye, Lisa' Welk deel van de tekst is dit?",
+          "opties": [
+            "het slot",
+            "de inleiding",
+            "het middenstuk",
+            "de titel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het slot rondt af en neemt afscheid. De inleiding zegt waarover het gaat, het middenstuk geeft de inhoud."
+        }
+      ]
+    },
+    {
+      "titel": "Engelstalige landen en literaire teksten — deel 1",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'Remember: in the UK, cars drive on the left.' Wat leer je hieruit over het Verenigd Koninkrijk?",
+          "opties": [
+            "ze rijden aan de linkerkant van de weg",
+            "ze rijden aan de rechterkant",
+            "er rijden geen auto's in steden",
+            "er zijn geen verkeersregels"
+          ],
+          "antwoord": 0,
+          "uitleg": "The left = links. De fiche gebruikt net dat voorbeeld: je merkt op dat men in het Verenigd Koninkrijk aan de linkerkant van de weg rijdt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In Ierland en het Verenigd Koninkrijk rijdt het verkeer links, in de Verenigde Staten rechts.",
+          "antwoord": true,
+          "uitleg": "Zo is het. Handig om te weten als je een tekst over oversteken of over een reis moet begrijpen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'On Thanksgiving we eat turkey with the whole family.' In welk land wordt Thanksgiving in november gevierd?",
+          "opties": [
+            "de Verenigde Staten",
+            "het Verenigd Koninkrijk",
+            "Australië",
+            "Ierland"
+          ],
+          "antwoord": 0,
+          "uitleg": "A turkey = een kalkoen. Thanksgiving valt in de VS op de vierde donderdag van november. Canada viert het op de tweede maandag van oktober."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk dier staat er traditioneel op tafel met Thanksgiving? Antwoord in het Engels.",
+          "antwoord": "turkey",
+          "uitleg": "A turkey = een kalkoen. Het land Turkije heet in het Engels net zo, maar dan met een hoofdletter: Turkey."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke feesten worden in Engelstalige landen gevierd?",
+          "opties": [
+            "Halloween op 31 oktober",
+            "Saint Patrick's Day op 17 maart",
+            "Bonfire Night op 5 november",
+            "Sinterklaas op 6 december"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Saint Patrick's Day is de Ierse feestdag, Bonfire Night is Brits. Sinterklaas is een gewoonte van bij ons en van Nederland."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest een Britse tekst: 'Take the lift to the first floor.' Waar kom je uit als je in een Brits gebouw naar 'the first floor' gaat?",
+          "opties": [
+            "één verdieping boven de begane grond",
+            "op de begane grond",
+            "in de kelder",
+            "op het dak"
+          ],
+          "antwoord": 0,
+          "uitleg": "A lift = een lift. In het Brits is 'the ground floor' de begane grond en is 'the first floor' de eerste verdieping. In de VS heet de begane grond wél 'the first floor'."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest '14/06/2027' in een Britse tekst. Welke datum is dat?",
+          "opties": [
+            "14 juni 2027",
+            "6 april 2027",
+            "14 april 2027",
+            "6 juni 2014"
+          ],
+          "antwoord": 0,
+          "uitleg": "In het Brits schrijf je dag/maand/jaar, net als bij ons. In de VS staat de maand eerst: 06/14/2027 is daar 14 juni."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In de Verenigde Staten meten ze de temperatuur in graden Fahrenheit en niet in graden Celsius.",
+          "antwoord": true,
+          "uitleg": "Zo staat het ook in Amerikaanse weerberichten: 70°F is ongeveer 21°C. Handig te weten bij een tekst over het weer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn Brits Engels?",
+          "opties": [
+            "lift",
+            "biscuit",
+            "autumn",
+            "elevator"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Brits tegenover Amerikaans: lift/elevator, biscuit/cookie, autumn/fall. Allebei zijn juist, maar niet in dezelfde tekst door elkaar."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemen Amerikanen de herfst? Eén woord van vier letters.",
+          "antwoord": "fall",
+          "uitleg": "Fall = herfst in Amerikaans Engels. In Brits Engels is dat autumn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest een Amerikaanse tekst met 'color', 'theater' en 'traveling'. Wat valt op?",
+          "opties": [
+            "het is Amerikaanse spelling",
+            "het zijn schrijffouten",
+            "het zijn oude woorden",
+            "het is jongerentaal"
+          ],
+          "antwoord": 0,
+          "uitleg": "De Britse spelling is colour, theatre en travelling. Allebei mag, als je maar niet wisselt binnen één tekst."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Football' betekent in de Verenigde Staten hetzelfde spel als in België.",
+          "antwoord": false,
+          "uitleg": "In de VS is football een ander spel, met een ovale bal en helmen. Wat wij voetbal noemen, heet daar soccer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'In Australia, Christmas falls in the middle of summer.' Hoe kan dat?",
+          "opties": [
+            "Australië ligt op het zuidelijk halfrond",
+            "Australië viert Kerstmis in juni",
+            "in Australië bestaat er geen winter",
+            "de tekst maakt een fout"
+          ],
+          "antwoord": 0,
+          "uitleg": "Op het zuidelijk halfrond zijn de seizoenen omgekeerd. Kerstmis valt er nog altijd op 25 december, maar dan midden in de zomer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke landen is Engels een officiële taal of de taal van het dagelijkse leven?",
+          "opties": [
+            "Ierland",
+            "Canada",
+            "Nieuw-Zeeland",
+            "Portugal"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Canada heeft Engels en Frans als officiële talen, Nieuw-Zeeland heeft er ook Maori naast. In Portugal spreekt men Portugees."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet de hoofdstad van het Verenigd Koninkrijk? Antwoord in het Engels.",
+          "antwoord": "london",
+          "uitleg": "London = Londen. In het Engels schrijf je de naam met één o in de tweede lettergreep."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'People here always queue politely at the bus stop.' Waarover gaat deze zin?",
+          "opties": [
+            "over een gewoonte in het dagelijkse leven",
+            "over de dienstregeling van de bus",
+            "over de prijs van een ticket",
+            "over het weer bij de halte"
+          ],
+          "antwoord": 0,
+          "uitleg": "To queue = in de rij staan, politely = beleefd. Gewoontes en sociale conventies zijn precies wat de fiche bedoelt met aspecten van een cultuur."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Lichaamstaal hoort ook bij wat je over een cultuur kan leren uit een tekst.",
+          "antwoord": true,
+          "uitleg": "De fiche noemt lichaamstaal met zoveel woorden, naast gewoontes, sociale verhoudingen, waarden en normen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest in een Amerikaanse reisgids: 'In restaurants, it is usual to leave a tip.' Wat betekent dat?",
+          "opties": [
+            "je geeft er meestal fooi",
+            "je betaalt er vooraf",
+            "je moet er reserveren",
+            "je krijgt er gratis water"
+          ],
+          "antwoord": 0,
+          "uitleg": "A tip = een fooi. In de Verenigde Staten is fooi geven in een restaurant gebruikelijk; bij ons is dat veel minder vanzelfsprekend."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'British pupils often wear a school uniform.' Wat leer je hieruit?",
+          "opties": [
+            "over de gewoontes op school in het VK",
+            "over de prijs van kleren in het VK",
+            "over de lessen op een Britse school",
+            "over het weer in het VK"
+          ],
+          "antwoord": 0,
+          "uitleg": "A pupil = een leerling. Wat leerlingen dragen, hoort bij het dagelijkse leven en bij de gewoontes van een land."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In het Verenigd Koninkrijk betaal je met euro's, net zoals in Ierland.",
+          "antwoord": false,
+          "uitleg": "In Ierland betaal je wel met euro, in het Verenigd Koninkrijk met pond (pounds). Dat verschil duikt op in teksten over winkelen en reizen."
+        }
+      ]
+    },
+    {
+      "titel": "Engelstalige landen en literaire teksten — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest een gedicht: 'The rain keeps falling on the empty street. / Nobody waits for me tonight.' Welk gevoel roept dit op?",
+          "opties": [
+            "eenzaamheid",
+            "blijdschap",
+            "woede",
+            "verbazing"
+          ],
+          "antwoord": 0,
+          "uitleg": "Empty = leeg, nobody = niemand. De lege straat en het wachten dat niemand doet, maken het gedicht eenzaam."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je moet schriftelijk reageren op dat gedicht over de regen. Welke reacties passen bij wat de fiche vraagt?",
+          "opties": [
+            "I feel sad when I read this poem.",
+            "This poem reminds me of a rainy holiday.",
+            "I like the way the poet repeats the rain.",
+            "This poem has exactly fourteen words."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een gevoel, een eigen herinnering en iets over de vorm: dat is beleving en interpretatie. Woorden tellen is geen reactie."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een opdracht over een literaire tekst krijg je een schrijfkader, sleutelwoorden of een voorbeeld.",
+          "antwoord": true,
+          "uitleg": "Zo staat het in de fiche. Je moet dus geen bladzijde uit het niets schrijven; er is altijd houvast."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een verhaal stopt met: 'She opened the letter and started to cry.' Je moet een geloofwaardig einde verzinnen. Welk einde past?",
+          "opties": [
+            "Het nieuws in de brief raakte haar diep.",
+            "Plots veranderde ze in een draak.",
+            "De brief was eigenlijk een auto.",
+            "Het verhaal begon opnieuw van voren af aan."
+          ],
+          "antwoord": 0,
+          "uitleg": "Geloofwaardig betekent: het past bij wat er al gebeurd is. Een draak komt uit het niets en breekt het verhaal."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je in het Engels een gedicht? Eén woord van vier letters.",
+          "antwoord": "poem",
+          "uitleg": "A poem = een gedicht. De schrijver ervan is a poet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke teksten horen bij de literaire teksten uit de vakfiche?",
+          "opties": [
+            "a song",
+            "a comic",
+            "a short story",
+            "a school report"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "A song = een lied, a comic = een strip, a short story = een kortverhaal. Een schoolrapport is informatief, geen literatuur."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je in het Engels een kortverhaal? Twee woorden.",
+          "antwoord": "short story",
+          "uitleg": "A short story = een kortverhaal. Short = kort, a story = een verhaal."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest een verhaal over een meisje dat verhuist en niemand kent. Je schrijft: 'I know this feeling, because I moved too.' Wat doe je hier?",
+          "opties": [
+            "je herkent jezelf in het personage",
+            "je vat het verhaal samen",
+            "je verbetert de schrijver",
+            "je vertaalt het verhaal"
+          ],
+          "antwoord": 0,
+          "uitleg": "De fiche noemt dat: je legt uit waarom je je identificeert met een bepaald personage, of je zoiets ook al hebt meegemaakt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een literaire tekst moet je bewijzen dat jouw mening de juiste is.",
+          "antwoord": false,
+          "uitleg": "Er is geen juiste mening over een gedicht. Je verwoordt je eigen beleving en legt uit waaróm je dat vindt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest een strip zonder woorden, alleen tekeningen. Hoe kan je die toch begrijpen?",
+          "opties": [
+            "door de gezichten en de lichaamstaal te lezen",
+            "door de kleuren te tellen",
+            "door de tekenaar op te zoeken",
+            "door de laatste tekening over te slaan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Lichaamstaal en gezichtsuitdrukking vertellen wat de personages voelen. De fiche rekent lichaamstaal uitdrukkelijk mee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'The old house was watching them with its broken windows.' Wat doet de schrijver hier?",
+          "opties": [
+            "hij geeft het huis menselijke trekken",
+            "hij geeft de afmetingen van het huis",
+            "hij legt uit hoe je ramen herstelt",
+            "hij vertelt wie er woonde"
+          ],
+          "antwoord": 0,
+          "uitleg": "Broken = kapot. Een huis dat 'kijkt' kan niet echt; die beeldspraak maakt de sfeer onheilspellend. Zoiets mag je in je reactie benoemen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een lied kan je op het examen als literaire tekst krijgen.",
+          "antwoord": true,
+          "uitleg": "De fiche noemt een lied als eerste voorbeeld van een literaire tekst, samen met een gedicht, een cartoon, een strip en een kortverhaal."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest een tekst over eetgewoontes in de Verenigde Staten. Wat vraagt de fiche dat je daaruit haalt?",
+          "opties": [
+            "wat mensen daar gewoonlijk eten",
+            "hoeveel een maaltijd daar weegt",
+            "wie het recept geschreven heeft",
+            "hoeveel restaurants er zijn"
+          ],
+          "antwoord": 0,
+          "uitleg": "De fiche gebruikt dat voorbeeld letterlijk: je haalt uit een tekst wat de eetgewoonten zijn in de Verenigde Staten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat hoort volgens de fiche bij 'aspecten van maatschappijen en culturen'?",
+          "opties": [
+            "gewoontes",
+            "waarden en normen",
+            "sociale verhoudingen",
+            "de oppervlakte van het land"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De fiche somt op: het dagelijkse leven, de leefomstandigheden, gewoontes, sociale verhoudingen, waarden en normen, lichaamstaal en sociale conventies."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een tekst over een land waar Engels gesproken wordt, gaat altijd over het Verenigd Koninkrijk.",
+          "antwoord": false,
+          "uitleg": "Engels is ook de taal van onder meer Ierland, de Verenigde Staten, Canada, Australië en Nieuw-Zeeland."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je in het Engels een strip? Eén woord van vijf letters.",
+          "antwoord": "comic",
+          "uitleg": "A comic = een strip. Een stripboek is a comic book, een losse strook in de krant a comic strip."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest een kortverhaal en schrijft: 'The end surprised me, because I expected the brother to come back.' Wat doe je?",
+          "opties": [
+            "je vertelt hoe de tekst op jou overkwam",
+            "je verbetert een spelfout",
+            "je telt de personages",
+            "je vertaalt de titel"
+          ],
+          "antwoord": 0,
+          "uitleg": "To expect = verwachten. Zeggen dat iets je verraste en waarom, is precies de beleving die de fiche vraagt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'I liked it' is op zich al een volledige reactie op een literaire tekst.",
+          "antwoord": false,
+          "uitleg": "Je moet er ook bij zeggen waaróm. De fiche vraagt je beleving én je interpretatie, en die zit in de uitleg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest een tekst over het leven op het Ierse platteland. Wat is het onderwerp?",
+          "opties": [
+            "het dagelijkse leven in Ierland",
+            "de regels van het Engels",
+            "de weerberichten van vorige week",
+            "de prijs van een vliegtuigticket"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het dagelijkse leven en de leefomstandigheden zijn de eerste twee dingen die de fiche opsomt bij cultuur."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je krijgt een verhaal en moet uitleggen waarom de stijl je aanspreekt. Wat kan je dan zeggen?",
+          "opties": [
+            "dat de zinnen kort en snel zijn",
+            "dat het boek 200 bladzijden telt",
+            "dat het boek in 2019 verscheen",
+            "dat het boek in de bib staat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Stijl gaat over hóé iets geschreven is: korte zinnen, veel beeldspraak, humor. Het jaartal en de bladzijden zeggen daar niets over."
+        }
+      ]
+    },
+    {
+      "titel": "Woordenschat: mensen, familie, gevoelens en gezondheid — deel 1",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'My aunt lives in Bristol.' Wie is 'my aunt'?",
+          "opties": [
+            "mijn tante",
+            "mijn nicht",
+            "mijn oma",
+            "mijn zus"
+          ],
+          "antwoord": 0,
+          "uitleg": "An aunt = een tante. Haar man is your uncle (je oom), hun kinderen zijn your cousins."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden horen bij de familie?",
+          "opties": [
+            "grandfather",
+            "nephew",
+            "daughter",
+            "neighbour"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "A grandfather = een grootvader, a nephew = een neefje (zoon van je broer of zus), a daughter = een dochter. A neighbour is een buur, geen familie."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'My mother's mother is my ___.' Eén Engels woord.",
+          "antwoord": "grandmother",
+          "uitleg": "A grandmother = een grootmoeder. Informeel zeg je gran of grandma."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'A cousin' kan zowel een neef als een nicht zijn.",
+          "antwoord": true,
+          "uitleg": "Het Engels maakt daar geen verschil in. Wil je toch duidelijk zijn, dan zeg je 'my cousin Sarah' of 'my male cousin'."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'He is an only child.' Wat betekent dat?",
+          "opties": [
+            "hij heeft geen broers of zussen",
+            "hij is nog heel jong",
+            "hij is het jongste kind",
+            "hij woont alleen"
+          ],
+          "antwoord": 0,
+          "uitleg": "An only child = een enig kind. Let op: 'only' betekent hier 'enige', niet 'alleen'."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'Sam felt nervous before the test.' Hoe voelde Sam zich?",
+          "opties": [
+            "zenuwachtig",
+            "verveeld",
+            "trots",
+            "boos"
+          ],
+          "antwoord": 0,
+          "uitleg": "Nervous = zenuwachtig. Let op: het lijkt op ons 'nerveus' en betekent dat ook, maar niet 'kwaad'."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden beschrijven een gevoel?",
+          "opties": [
+            "angry",
+            "proud",
+            "worried",
+            "tall"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Angry = boos, proud = trots, worried = bezorgd. Tall = groot van gestalte en zegt niets over wat je voelt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'She was very ___ when she won the race.' Welk Engels woord betekent 'blij'?",
+          "antwoord": "happy",
+          "uitleg": "Happy = blij. Het tegengestelde is unhappy of sad."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Bored' betekent dat je je verveelt en 'boring' dat iets saai is.",
+          "antwoord": true,
+          "uitleg": "I am bored = ik verveel me. The film is boring = de film is saai. Wie 'I am boring' zegt, noemt zichzelf saai."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'I have a sore throat and a headache.' Wat heeft deze persoon?",
+          "opties": [
+            "keelpijn en hoofdpijn",
+            "buikpijn en koorts",
+            "tandpijn en rugpijn",
+            "oorpijn en hoest"
+          ],
+          "antwoord": 0,
+          "uitleg": "A sore throat = keelpijn, a headache = hoofdpijn. Met -ache maak je pijnwoorden: toothache, stomach ache, backache."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn lichaamsdelen?",
+          "opties": [
+            "shoulder",
+            "knee",
+            "elbow",
+            "spoon"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "A shoulder = een schouder, a knee = een knie, an elbow = een elleboog. A spoon is een lepel."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'I write with my right ___.' Welk lichaamsdeel is dat in het Engels?",
+          "antwoord": "hand",
+          "uitleg": "A hand = een hand. Meervoud: hands. Vingers zijn fingers, een duim is a thumb."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'You should see a doctor.' Wat raadt die persoon aan?",
+          "opties": [
+            "naar de dokter gaan",
+            "meer slapen",
+            "medicijnen kopen",
+            "thuis blijven"
+          ],
+          "antwoord": 0,
+          "uitleg": "Should = zou moeten, en het geeft een raad. A doctor = een dokter, a nurse = een verpleegkundige."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'A chemist's' of 'a pharmacy' is de winkel waar je medicijnen haalt.",
+          "antwoord": true,
+          "uitleg": "In Brits Engels zeg je a chemist's, in Amerikaans Engels a drugstore of a pharmacy. Medicine = medicijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je vult een formulier in. Welke gegevens horen bij 'personal details'?",
+          "opties": [
+            "first name",
+            "date of birth",
+            "address",
+            "favourite colour"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "First name = voornaam, date of birth = geboortedatum, address = adres. Je lievelingskleur is geen persoonlijk gegeven op een formulier."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Op een Engels formulier staat 'surname'. Welk gegeven moet je daar invullen? Antwoord in het Nederlands, één woord.",
+          "antwoord": "achternaam",
+          "uitleg": "A surname = een achternaam of familienaam. Een ander woord daarvoor is a last name; je voornaam is your first name."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'She is in her early twenties.' Hoe oud is ze ongeveer?",
+          "opties": [
+            "een jaar of 20 tot 23",
+            "ongeveer 12 jaar",
+            "ongeveer 30 jaar",
+            "ouder dan 50 jaar"
+          ],
+          "antwoord": 0,
+          "uitleg": "In your twenties = in de twintig. Early is het begin, mid het midden, late het einde van dat tiental."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je beschrijft je beste vriend. Welke zinnen kan je gebruiken?",
+          "opties": [
+            "He has short brown hair.",
+            "He is quite tall.",
+            "He wears glasses.",
+            "He lives in a house."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Haar, lengte en een bril beschrijven hoe iemand eruitziet. Waar hij woont, zegt daar niets over. De fiche gebruikt net dat voorbeeld: je beschrijft hoe je beste vriend eruitziet."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Hair' staat in het Engels altijd in het meervoud: je zegt 'her hairs are long'.",
+          "antwoord": false,
+          "uitleg": "Hair als kapsel is ontelbaar en staat dus in het enkelvoud: her hair is long. Alleen losse haren tel je: 'there were two hairs on my plate'."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'My little brother is afraid of the dark.' Waar is hij bang van?",
+          "opties": [
+            "het donker",
+            "de honden",
+            "het water",
+            "de hoogte"
+          ],
+          "antwoord": 0,
+          "uitleg": "Afraid of = bang van, the dark = het donker. Let op het vaste voorzetsel: afraid OF, nooit afraid from."
+        }
+      ]
+    },
+    {
+      "titel": "Woordenschat: mensen, familie, gevoelens en gezondheid — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'My parents got married twenty years ago.' Wie zijn 'my parents'?",
+          "opties": [
+            "mijn ouders",
+            "mijn grootouders",
+            "mijn ooms",
+            "mijn buren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Parents = ouders. Grandparents zijn grootouders. To get married = trouwen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'My father's brother is my ___.' Eén Engels woord.",
+          "antwoord": "uncle",
+          "uitleg": "An uncle = een oom. Zijn vrouw is your aunt, hun kinderen zijn your cousins."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden beschrijven hoe iemand is, niet hoe iemand eruitziet?",
+          "opties": [
+            "friendly",
+            "shy",
+            "patient",
+            "blond"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Friendly = vriendelijk, shy = verlegen, patient = geduldig. Blond gaat over het uiterlijk."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Sympathetic' betekent in het Engels hetzelfde als ons woord 'sympathiek'.",
+          "antwoord": false,
+          "uitleg": "Sympathetic betekent meelevend of begripvol. Wil je zeggen dat iemand sympathiek is, dan gebruik je nice of likeable."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'He was disappointed with his result.' Hoe voelde hij zich?",
+          "opties": [
+            "teleurgesteld",
+            "verrast",
+            "opgelucht",
+            "jaloers"
+          ],
+          "antwoord": 0,
+          "uitleg": "Disappointed = teleurgesteld. Surprised = verrast, relieved = opgelucht, jealous = jaloers."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zinnen zeggen dat iemand zich niet goed voelt?",
+          "opties": [
+            "I feel sick.",
+            "I am not well.",
+            "I have a temperature.",
+            "I feel great."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "To feel sick = zich misselijk of ziek voelen, to have a temperature = koorts hebben. 'I feel great' is net het omgekeerde."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe zeg je 'koorts' in het Engels? Eén woord van vijf letters.",
+          "antwoord": "fever",
+          "uitleg": "A fever = koorts. Je kan ook zeggen: I have a temperature."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'Take this medicine twice a day.' Hoe vaak moet je het innemen?",
+          "opties": [
+            "twee keer per dag",
+            "één keer per dag",
+            "om de twee dagen",
+            "twee keer per week"
+          ],
+          "antwoord": 0,
+          "uitleg": "Twice = twee keer, once = één keer, three times = drie keer. A day = per dag."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'An ambulance' en 'a hospital' horen allebei bij het woordveld gezondheid.",
+          "antwoord": true,
+          "uitleg": "A hospital = een ziekenhuis, an ambulance = een ziekenwagen. Ook a doctor, a nurse, a dentist en a chemist's horen erbij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke lichaamsdelen zitten aan je hoofd?",
+          "opties": [
+            "chin",
+            "cheek",
+            "forehead",
+            "ankle"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "A chin = een kin, a cheek = een wang, a forehead = een voorhoofd. An ankle is een enkel."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'You hear with your ___.' Welk lichaamsdeel is dat in het Engels? Enkelvoud.",
+          "antwoord": "ear",
+          "uitleg": "An ear = een oor. Meervoud: ears. To hear = horen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'She broke her leg while skiing.' Wat gebeurde er?",
+          "opties": [
+            "ze brak haar been",
+            "ze bezeerde haar arm",
+            "ze verloor haar ski",
+            "ze viel in het water"
+          ],
+          "antwoord": 0,
+          "uitleg": "To break = breken, een been is a leg. Broke is de past simple van to break, een onregelmatig werkwoord."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Feet' is het meervoud van 'foot'.",
+          "antwoord": true,
+          "uitleg": "Foot wordt feet, net zoals tooth teeth wordt. Dat zijn onregelmatige meervouden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je vult in: 'Nationality: ___'. Wat hoort daar?",
+          "opties": [
+            "Belgian",
+            "Belgium",
+            "Brussels",
+            "Dutch speaking"
+          ],
+          "antwoord": 0,
+          "uitleg": "Belgium is het land, Belgian de nationaliteit. Let op de hoofdletter: nationaliteiten schrijf je in het Engels altijd met een hoofdletter."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Nationaliteiten en talen schrijf je in het Engels met een kleine letter, net zoals bij ons.",
+          "antwoord": false,
+          "uitleg": "In het Engels krijgen ze wél een hoofdletter: English, French, Belgian, Dutch. Dat is een verschil met het Nederlands."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest op een formulier: 'Place of birth'. Wat vul je daar in?",
+          "opties": [
+            "de plaats waar je geboren bent",
+            "je huidige adres",
+            "je geboortedatum",
+            "de naam van je school"
+          ],
+          "antwoord": 0,
+          "uitleg": "Place of birth = geboorteplaats, date of birth = geboortedatum. Birth = geboorte."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden hebben met een gezin te maken?",
+          "opties": [
+            "twins",
+            "stepmother",
+            "grandchild",
+            "classmate"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Twins = een tweeling, a stepmother = een stiefmoeder, a grandchild = een kleinkind. A classmate is een klasgenoot."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je twee kinderen die op dezelfde dag geboren zijn bij dezelfde ouders? Antwoord in het Engels, meervoud.",
+          "antwoord": "twins",
+          "uitleg": "Twins = een tweeling. Eén van de twee is a twin."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'He is really looking forward to the holiday.' Hoe voelt hij zich?",
+          "opties": [
+            "hij kijkt er hard naar uit",
+            "hij ziet ertegen op",
+            "hij is het vergeten",
+            "hij vindt het saai"
+          ],
+          "antwoord": 0,
+          "uitleg": "To look forward to = uitkijken naar. Let op: na 'to' komt hier een naamwoord of een werkwoord op -ing: looking forward to going."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je schrijft over je gevoel na een slechte toets. Welke zin past het best?",
+          "opties": [
+            "I was really disappointed with my mark.",
+            "My mark was written on paper.",
+            "The test started at nine o'clock.",
+            "There were twenty questions."
+          ],
+          "antwoord": 0,
+          "uitleg": "A mark = een punt of cijfer. Alleen de eerste zin zegt iets over hoe je je voelde; de andere geven feiten."
+        }
+      ]
+    },
+    {
+      "titel": "Woordenschat: eten, wonen, kleding en dagelijkse dingen — deel 1",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest een menu: 'Soup of the day, chicken with chips, apple pie.' Wat is het hoofdgerecht?",
+          "opties": [
+            "kip met frieten",
+            "soep van de dag",
+            "appeltaart",
+            "een broodje"
+          ],
+          "antwoord": 0,
+          "uitleg": "Chicken = kip, chips = frieten in Brits Engels. In Amerikaans Engels heten frieten french fries en zijn chips net chips."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In Brits Engels betekent 'chips' frieten en in Amerikaans Engels chips uit een zakje.",
+          "antwoord": true,
+          "uitleg": "Een Brit bestelt fish and chips en bedoelt frieten. Een Amerikaan zegt french fries voor frieten en chips voor wat wij chips noemen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn dranken?",
+          "opties": [
+            "tea",
+            "orange juice",
+            "milk",
+            "cheese"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Tea = thee, orange juice = sinaasappelsap, milk = melk. Cheese = kaas, en dat drink je niet."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'For breakfast I eat ___ with jam.' Welk Engels woord betekent 'brood'?",
+          "antwoord": "bread",
+          "uitleg": "Bread = brood, jam = confituur. Breakfast = ontbijt, lunch = middagmaal, dinner = avondmaal."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'I had dinner at seven.' Welke maaltijd was dat?",
+          "opties": [
+            "het avondmaal",
+            "het ontbijt",
+            "het middagmaal",
+            "een tussendoortje"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dinner is de warme maaltijd, meestal 's avonds. Breakfast is het ontbijt en lunch het middagmaal."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn groenten?",
+          "opties": [
+            "carrot",
+            "onion",
+            "pea",
+            "pear"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "A carrot = een wortel, an onion = een ui, a pea = een erwt. A pear is een peer en dus fruit."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'A grape' is in het Engels een grapefruit.",
+          "antwoord": false,
+          "uitleg": "A grape = een druif. Een grapefruit heet in het Engels gewoon a grapefruit. Zo'n woord dat lijkt op iets anders heet een valse vriend."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'The flat has two bedrooms and a small kitchen.' Wat is 'a flat' in Brits Engels?",
+          "opties": [
+            "een appartement",
+            "een tuin",
+            "een zolder",
+            "een huis met verdieping"
+          ],
+          "antwoord": 0,
+          "uitleg": "A flat = een appartement in Brits Engels; Amerikanen zeggen an apartment. A bedroom = een slaapkamer, a kitchen = een keuken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn meubels?",
+          "opties": [
+            "wardrobe",
+            "armchair",
+            "bookcase",
+            "curtain"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "A wardrobe = een kleerkast, an armchair = een zetel, a bookcase = een boekenkast. A curtain is een gordijn en dus geen meubel."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'We cook in the ___.' In welke kamer is dat, in het Engels?",
+          "antwoord": "kitchen",
+          "uitleg": "A kitchen = een keuken. De andere kamers: living room, bedroom, bathroom, hall."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'Put your coat in the hall.' Waar moet je jas?",
+          "opties": [
+            "in de gang",
+            "in de kelder",
+            "in de tuin",
+            "op de zolder"
+          ],
+          "antwoord": 0,
+          "uitleg": "A hall = een gang of hal. A cellar = een kelder, a garden = een tuin, an attic = een zolder."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'She was wearing a red jumper and jeans.' Wat had ze aan?",
+          "opties": [
+            "een rode trui en een jeansbroek",
+            "een rood hemd en een rok",
+            "een rode jas en laarzen",
+            "een rode sjaal en een muts"
+          ],
+          "antwoord": 0,
+          "uitleg": "A jumper = een trui in Brits Engels; Amerikanen zeggen a sweater. To wear = dragen, aanhebben."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Trousers', 'jeans' en 'glasses' staan in het Engels altijd in het meervoud.",
+          "antwoord": true,
+          "uitleg": "Het gaat om dingen met twee gelijke delen: een broek, een jeans en een bril. Je zegt: my trousers are new, niet 'my trouser is new'."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je in het Engels de schoenen waarmee je sport? Eén woord, Brits Engels, meervoud.",
+          "antwoord": "trainers",
+          "uitleg": "Trainers = sportschoenen in Brits Engels. Amerikanen zeggen sneakers."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn accessoires?",
+          "opties": [
+            "belt",
+            "scarf",
+            "watch",
+            "shirt"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "A belt = een riem, a scarf = een sjaal, a watch = een horloge. A shirt is een hemd en dus kleding."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'I brush my teeth and get dressed.' Waarover gaat deze zin?",
+          "opties": [
+            "over de dagelijkse bezigheden",
+            "over het weer",
+            "over de school",
+            "over een feest"
+          ],
+          "antwoord": 0,
+          "uitleg": "To brush your teeth = je tanden poetsen, to get dressed = je aankleden. Zulke gewone handelingen heten daily routines."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'To do the washing-up' betekent de was doen in de wasmachine.",
+          "antwoord": false,
+          "uitleg": "The washing-up = de afwas, met de hand of in de vaatwas. De was doen is 'to do the washing'. Eén woordje verschil, twee klusjes."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'The baker's is next to the butcher's.' Welke winkels staan er naast elkaar?",
+          "opties": [
+            "de bakker en de slager",
+            "de bakker en de kapper",
+            "de slager en de apotheek",
+            "de kapper en de bank"
+          ],
+          "antwoord": 0,
+          "uitleg": "A baker's = een bakkerij, a butcher's = een slagerij. Winkels krijgen in het Brits vaak een 's: the chemist's, the newsagent's."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'The shirt is made of cotton.' Waarvan is het gemaakt?",
+          "opties": [
+            "katoen",
+            "wol",
+            "leder",
+            "plastic"
+          ],
+          "antwoord": 0,
+          "uitleg": "Cotton = katoen, wool = wol, leather = leder. 'Made of' zegt uit welk materiaal iets bestaat."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke kleur krijg je als je rood en wit mengt? Antwoord in het Engels.",
+          "antwoord": "pink",
+          "uitleg": "Pink = roze. De basiskleuren: red, blue, yellow, green, black, white, brown, grey, orange, purple."
+        }
+      ]
+    },
+    {
+      "titel": "Woordenschat: eten, wonen, kleding en dagelijkse dingen — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest in een recept: 'Add two spoons of sugar.' Wat moet je toevoegen?",
+          "opties": [
+            "twee lepels suiker",
+            "twee kopjes melk",
+            "twee glazen water",
+            "twee sneden brood"
+          ],
+          "antwoord": 0,
+          "uitleg": "A spoon = een lepel, sugar = suiker. To add = toevoegen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Bread', 'water' en 'rice' kan je in het Engels niet zomaar in het meervoud zetten.",
+          "antwoord": true,
+          "uitleg": "Dat zijn ontelbare woorden. Je telt ze met een maat erbij: two slices of bread, three glasses of water, two bowls of rice."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'Would you like some more soup?' Wat vraagt de gastheer?",
+          "opties": [
+            "of je nog soep wil",
+            "of de soep te warm is",
+            "of je de soep lust",
+            "of je soep kan koken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Some more = nog wat. 'Would you like' is de beleefde manier om iets aan te bieden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden hoor je in een restaurant?",
+          "opties": [
+            "the menu",
+            "the bill",
+            "a waiter",
+            "a timetable"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "The bill = de rekening, a waiter = een ober. A timetable is een uurrooster of dienstregeling."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe vraag je in een Brits restaurant om de rekening? Vul aan: 'Could we have the ___, please?'",
+          "antwoord": "bill",
+          "uitleg": "The bill = de rekening in Brits Engels. In de Verenigde Staten vraag je the check."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'Our house has a big garden and a garage.' Wat hoort bij het huis?",
+          "opties": [
+            "een tuin en een garage",
+            "een balkon en een lift",
+            "een zolder en een kelder",
+            "een terras en een vijver"
+          ],
+          "antwoord": 0,
+          "uitleg": "A garden = een tuin, a garage = een garage. Let op de uitspraak van garage: de klemtoon ligt in het Brits vooraan."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'A living room' en 'a sitting room' betekenen ongeveer hetzelfde.",
+          "antwoord": true,
+          "uitleg": "Allebei de woonkamer. Sitting room klinkt wat ouderwetser en Britser; living room hoor je overal."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'Turn off the light when you leave.' Wat moet je doen?",
+          "opties": [
+            "het licht uitdoen",
+            "het licht aandoen",
+            "de deur sluiten",
+            "het raam openen"
+          ],
+          "antwoord": 0,
+          "uitleg": "To turn off = uitzetten, to turn on = aanzetten. Vergelijk met to switch off en to switch on."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn dingen die je elke dag bij je hebt?",
+          "opties": [
+            "keys",
+            "wallet",
+            "phone",
+            "wardrobe"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Keys = sleutels, a wallet = een portefeuille, a phone = een telefoon. Een kleerkast steek je niet in je zak."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je in het Engels het ding waarmee je een deur opent? Eén woord, enkelvoud.",
+          "antwoord": "key",
+          "uitleg": "A key = een sleutel. Meervoud: keys. Op een computer is a key ook een toets."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'I get up at seven and have a shower.' Wat doet deze persoon?",
+          "opties": [
+            "opstaan en douchen",
+            "ontbijten en vertrekken",
+            "wakker worden en lezen",
+            "aankleden en fietsen"
+          ],
+          "antwoord": 0,
+          "uitleg": "To get up = opstaan, to have a shower = een douche nemen. Let op: het Engels zegt 'have a shower', niet 'take a douche'."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'To go to bed' betekent gaan slapen, en 'to wake up' betekent wakker worden.",
+          "antwoord": true,
+          "uitleg": "Twee vaste uitdrukkingen uit de dagelijkse routine. Let op: 'to get up' is opstaan, na het wakker worden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'The supermarket is open from 9 a.m. to 8 p.m.' Wanneer sluit het?",
+          "opties": [
+            "om acht uur 's avonds",
+            "om acht uur 's ochtends",
+            "om negen uur 's avonds",
+            "om negen uur 's ochtends"
+          ],
+          "antwoord": 0,
+          "uitleg": "P.m. is na de middag, a.m. ervoor. De winkel opent dus om 9 uur 's ochtends en sluit om 8 uur 's avonds."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar ga je naartoe om geld af te halen of een rekening te openen?",
+          "opties": [
+            "to the bank",
+            "to the library",
+            "to the post office",
+            "to the market"
+          ],
+          "antwoord": 0,
+          "uitleg": "A bank = een bank, a library = een bibliotheek, a post office = een postkantoor. Allemaal 'diensten' uit de vakfiche."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Waar ga je naartoe om een boek te ontlenen? Antwoord in het Engels, één woord.",
+          "antwoord": "library",
+          "uitleg": "A library = een bibliotheek. Pas op voor de valse vriend: a bookshop is de boekhandel, waar je boeken koopt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'A magazine' is in het Engels een winkel waar je tijdschriften koopt.",
+          "antwoord": false,
+          "uitleg": "A magazine = een tijdschrift. De winkel is a newsagent's. Weer een valse vriend, want ons 'magazijn' is a warehouse of a store."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'The box is square and made of wood.' Hoe ziet de doos eruit?",
+          "opties": [
+            "vierkant en van hout",
+            "rond en van glas",
+            "vierkant en van metaal",
+            "rond en van hout"
+          ],
+          "antwoord": 0,
+          "uitleg": "Square = vierkant, wood = hout. De vormen: round, square, rectangular, triangular. De materialen: wood, glass, metal, plastic, paper."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn vormen?",
+          "opties": [
+            "round",
+            "square",
+            "triangular",
+            "heavy"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Round = rond, square = vierkant, triangular = driehoekig. Heavy = zwaar, en dat is een gewicht, geen vorm."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Purple' is in het Engels de kleur roze.",
+          "antwoord": false,
+          "uitleg": "Purple = paars; roze is pink. Let ook op grey (Brits) en gray (Amerikaans) voor grijs."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'I go shopping every Saturday morning.' Wanneer gaat deze persoon winkelen?",
+          "opties": [
+            "elke zaterdagvoormiddag",
+            "elke zaterdagavond",
+            "elke zondagvoormiddag",
+            "één keer per maand"
+          ],
+          "antwoord": 0,
+          "uitleg": "Every = elke, morning = voormiddag of ochtend. To go shopping = gaan winkelen."
+        }
+      ]
+    },
+    {
+      "titel": "Woordenschat: school, beroepen, sport en vrije tijd — deel 1",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "In een opdracht staat: 'Tick the correct answer.' Wat moet je doen?",
+          "opties": [
+            "het juiste antwoord aankruisen",
+            "het juiste antwoord schrappen",
+            "het antwoord in het Nederlands geven",
+            "het antwoord luidop zeggen"
+          ],
+          "antwoord": 0,
+          "uitleg": "To tick = aankruisen, aanvinken. Correct = juist. Dit is instructietaal: de taal van de opdracht zelf."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een opdracht staat: 'Underline the verbs in the text.' Wat moet je doen?",
+          "opties": [
+            "de werkwoorden onderstrepen",
+            "de werkwoorden vertalen",
+            "de werkwoorden overschrijven",
+            "de werkwoorden tellen"
+          ],
+          "antwoord": 0,
+          "uitleg": "To underline = onderstrepen, a verb = een werkwoord. Vergelijk: to circle (omcirkelen), to cross out (doorstrepen)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke opdrachten vragen dat je iets aan elkaar koppelt of aanvult?",
+          "opties": [
+            "Match the words with the pictures.",
+            "Complete the sentences.",
+            "Fill in the gaps.",
+            "Read the text aloud."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "To match = koppelen, to complete = aanvullen, a gap = een leeg vakje. 'Read aloud' is luidop lezen en koppelt niets."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In een opdracht staat: 'Choose the ___ answer.' Welk Engels woord betekent 'juiste'?",
+          "antwoord": "correct",
+          "uitleg": "Correct = juist. 'Right' kan ook: choose the right answer."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Put the sentences in the right order' betekent dat je de zinnen in de juiste volgorde moet zetten.",
+          "antwoord": true,
+          "uitleg": "Order = volgorde. Het is een van de vraagtypes die je op het digitale examen kan krijgen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest op je uurrooster: 'Maths, Geography, PE.' Welk vak is PE?",
+          "opties": [
+            "lichamelijke opvoeding",
+            "plastische opvoeding",
+            "praktische economie",
+            "Engelse poëzie"
+          ],
+          "antwoord": 0,
+          "uitleg": "PE staat voor physical education: lichamelijke opvoeding. Maths = wiskunde, Geography = aardrijkskunde."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het vak wiskunde in Brits Engels? Eén woord, afgekort.",
+          "antwoord": "maths",
+          "uitleg": "Maths in Brits Engels, math in Amerikaans Engels. Voluit: mathematics."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'I got a good mark for my history test.' Wat is 'a mark'?",
+          "opties": [
+            "een punt of cijfer",
+            "een merkteken op de bank",
+            "een handtekening",
+            "een opmerking"
+          ],
+          "antwoord": 0,
+          "uitleg": "A mark = een punt of cijfer in Brits Engels. Amerikanen zeggen a grade."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Homework' staat in het Engels in het enkelvoud: je zegt 'my homework is difficult'.",
+          "antwoord": true,
+          "uitleg": "Homework is ontelbaar, net als information en advice. 'Homeworks' bestaat niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'The headteacher spoke to the whole school.' Wie sprak er?",
+          "opties": [
+            "de directeur",
+            "de leraar Engels",
+            "de klastitularis",
+            "de schoolarts"
+          ],
+          "antwoord": 0,
+          "uitleg": "A headteacher = een directeur in Brits Engels. In de VS zeggen ze a principal. A teacher is een leerkracht."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'She works in a hospital and helps the doctors.' Wat is haar beroep waarschijnlijk?",
+          "opties": [
+            "verpleegkundige",
+            "bakker",
+            "boekhouder",
+            "kapster"
+          ],
+          "antwoord": 0,
+          "uitleg": "A nurse = een verpleegkundige. De zin geeft je twee aanwijzingen: het ziekenhuis en de dokters."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn beroepen?",
+          "opties": [
+            "engineer",
+            "plumber",
+            "lawyer",
+            "hobby"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "An engineer = een ingenieur, a plumber = een loodgieter, a lawyer = een advocaat. A hobby is geen beroep."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je iemand die brood bakt en verkoopt? Antwoord in het Engels, één woord.",
+          "antwoord": "baker",
+          "uitleg": "A baker = een bakker. Zijn winkel is a baker's of a bakery."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'An actress' is in het Engels een vrouw die danst.",
+          "antwoord": false,
+          "uitleg": "An actress is een actrice: ze speelt toneel of film. Een danseres is a dancer. Vandaag gebruiken veel mensen trouwens 'actor' voor iedereen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'He plays the guitar in a band.' Wat doet hij?",
+          "opties": [
+            "hij speelt gitaar in een groep",
+            "hij luistert naar muziek",
+            "hij zingt in een koor",
+            "hij danst op een feest"
+          ],
+          "antwoord": 0,
+          "uitleg": "Let op het lidwoord bij instrumenten: to play THE guitar. Bij sporten valt het weg: to play football."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je zegt in het Engels 'I play the tennis' en 'I play piano'.",
+          "antwoord": false,
+          "uitleg": "Net omgekeerd: bij sport zonder lidwoord (I play tennis) en bij een instrument met the (I play the piano)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'We go swimming twice a week.' Welke sport doen ze?",
+          "opties": [
+            "zwemmen",
+            "fietsen",
+            "lopen",
+            "schaatsen"
+          ],
+          "antwoord": 0,
+          "uitleg": "To go swimming = gaan zwemmen. Met 'to go' maak je veel sporten: go cycling, go running, go skating."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'In summer we often go ___ in the sea.' Welk Engels woord betekent 'zwemmen'?",
+          "antwoord": "swimming",
+          "uitleg": "To go swimming = gaan zwemmen. Na 'go' komt bij sporten de -ing-vorm."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'Send me a message on my mobile.' Wat is 'a mobile' in Brits Engels?",
+          "opties": [
+            "een gsm",
+            "een computer",
+            "een brief",
+            "een tablet"
+          ],
+          "antwoord": 0,
+          "uitleg": "A mobile of a mobile phone = een gsm in Brits Engels. Amerikanen zeggen a cell phone."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'Don't forget to switch off your phone in class.' Wat moet je doen?",
+          "opties": [
+            "je telefoon uitzetten",
+            "je telefoon opladen",
+            "je telefoon meebrengen",
+            "je telefoon afgeven"
+          ],
+          "antwoord": 0,
+          "uitleg": "To switch off = uitzetten. Don't forget to = vergeet niet om."
+        }
+      ]
+    },
+    {
+      "titel": "Woordenschat: school, beroepen, sport en vrije tijd — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "In een opdracht staat: 'Write about 80 words.' Wat verwacht men?",
+          "opties": [
+            "een tekst van ongeveer 80 woorden",
+            "precies 80 zinnen",
+            "een tekst over het getal 80",
+            "80 losse woorden op een rij"
+          ],
+          "antwoord": 0,
+          "uitleg": "About = ongeveer. De fiche rekent de opgegeven lengte mee bij de taakvoltooiing, dus veel korter of langer kost punten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een opdracht staat: 'Answer in full sentences.' Wat betekent dat?",
+          "opties": [
+            "antwoord met hele zinnen",
+            "antwoord met één woord",
+            "antwoord in het Nederlands",
+            "antwoord met een tekening"
+          ],
+          "antwoord": 0,
+          "uitleg": "A full sentence = een volledige zin. Dus niet 'yes' maar 'Yes, I do'."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In een opdracht staat: 'Fill in the ___.' Welk Engels woord betekent hier 'de leegtes'? Meervoud.",
+          "antwoord": "gaps",
+          "uitleg": "A gap = een gaatje of een leeg vakje. Fill in the gaps = vul de leegtes in."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Cross out the wrong word' betekent dat je het foute woord moet omcirkelen.",
+          "antwoord": false,
+          "uitleg": "To cross out = doorstrepen. Omcirkelen is to circle. Wrong = fout."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke opdrachten vragen dat je iets beslist over waar of niet waar?",
+          "opties": [
+            "True or false?",
+            "Decide if the sentence is correct.",
+            "Tick true or false.",
+            "Draw a picture."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "To decide = beslissen. Tekenen komt op een taalexamen niet voor als opdracht."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'Our class has twenty-four pupils.' Hoeveel leerlingen zijn er?",
+          "opties": [
+            "24",
+            "20",
+            "44",
+            "14"
+          ],
+          "antwoord": 0,
+          "uitleg": "Twenty-four = vierentwintig. In het Engels zet je het tiental eerst, met een streepje ertussen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'A pupil' en 'a student' kunnen allebei een leerling of student aanduiden.",
+          "antwoord": true,
+          "uitleg": "In Brits Engels is a pupil eerder een leerling op school en a student iemand aan de universiteit. Amerikanen zeggen bijna altijd student."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'The timetable changed after the holidays.' Wat veranderde er?",
+          "opties": [
+            "het uurrooster",
+            "het schoolreglement",
+            "de leraar",
+            "het klaslokaal"
+          ],
+          "antwoord": 0,
+          "uitleg": "A timetable = een uurrooster of dienstregeling. After the holidays = na de vakantie."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je in het Engels de plaats waar leerlingen tussen de lessen spelen? Eén woord.",
+          "antwoord": "playground",
+          "uitleg": "A playground = een speelplaats. Play = spelen, ground = grond, terrein."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest een vacature: 'We are looking for a shop assistant.' Welk beroep is dat?",
+          "opties": [
+            "winkelbediende",
+            "boekhouder",
+            "chauffeur",
+            "bewaker"
+          ],
+          "antwoord": 0,
+          "uitleg": "A shop assistant = een winkelbediende. To look for = zoeken."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'A firefighter' is iemand die branden blust.",
+          "antwoord": true,
+          "uitleg": "A firefighter = een brandweerman of -vrouw. Fire = vuur of brand, to fight = bestrijden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'He works from nine to five in an office.' Wat weet je over zijn werk?",
+          "opties": [
+            "hij werkt overdag op kantoor",
+            "hij werkt 's nachts thuis",
+            "hij werkt in het weekend",
+            "hij werkt in de bouw"
+          ],
+          "antwoord": 0,
+          "uitleg": "An office = een kantoor. 'From nine to five' is de gewone kantoordag."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden horen bij vrije tijd?",
+          "opties": [
+            "reading",
+            "drawing",
+            "gardening",
+            "homework"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Reading = lezen, drawing = tekenen, gardening = tuinieren. Huiswerk is geen vrije tijd."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'My favourite ___ is playing chess.' Welk Engels woord betekent 'hobby'?",
+          "antwoord": "hobby",
+          "uitleg": "A hobby = een hobby. Chess = schaken. Favourite schrijf je in Brits Engels met -our-."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'The match ended in a draw.' Hoe eindigde de wedstrijd?",
+          "opties": [
+            "gelijkspel",
+            "met een overwinning",
+            "met een verlies",
+            "zonder einde"
+          ],
+          "antwoord": 0,
+          "uitleg": "A draw = een gelijkspel. To win = winnen, to lose = verliezen, a match = een wedstrijd."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'To win' betekent verliezen en 'to lose' betekent winnen.",
+          "antwoord": false,
+          "uitleg": "Precies omgekeerd: to win = winnen, to lose = verliezen. De winnaar is the winner, de verliezer the loser."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'Follow us on social media for more news.' Wat vraagt deze zin?",
+          "opties": [
+            "hen volgen op sociale media",
+            "hen een mail sturen",
+            "hen opbellen",
+            "hun winkel bezoeken"
+          ],
+          "antwoord": 0,
+          "uitleg": "To follow = volgen. Social media, to post, to share en to like zijn allemaal woorden uit het woordveld communicatie en multimedia."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'I downloaded the app yesterday.' Wat deed deze persoon?",
+          "opties": [
+            "de app binnengehaald",
+            "de app verwijderd",
+            "de app gemaakt",
+            "de app verkocht"
+          ],
+          "antwoord": 0,
+          "uitleg": "To download = downloaden, binnenhalen. Het omgekeerde is to upload: iets naar het internet sturen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk Engels werkwoord betekent 'iets op het internet zetten'? Het tegengestelde van download.",
+          "antwoord": "upload",
+          "uitleg": "To upload = opladen naar het internet, to download = binnenhalen. Up is omhoog, down is omlaag."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'To chat' betekent in het Engels ook gewoon babbelen, niet alleen typen op een scherm.",
+          "antwoord": true,
+          "uitleg": "To chat = babbelen, kletsen. Het woord bestond al lang voor er computers waren."
+        }
+      ]
+    },
+    {
+      "titel": "Woordenschat: getallen, tijd, weer, reizen en landen — deel 1",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'The train leaves at a quarter past eight.' Hoe laat vertrekt de trein?",
+          "opties": [
+            "8.15 uur",
+            "7.45 uur",
+            "8.45 uur",
+            "8.30 uur"
+          ],
+          "antwoord": 0,
+          "uitleg": "A quarter past eight = kwart over acht. Past is erover, to is ervoor: a quarter to eight is kwart voor acht."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'It is ten to six.' Hoe laat is het?",
+          "opties": [
+            "5.50 uur",
+            "6.10 uur",
+            "10.06 uur",
+            "6.50 uur"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ten to six = tien voor zes, dus 5.50 uur. Bij 'to' tel je terug naar het volgende uur."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe zeg je in het Engels 'half acht' (7.30 uur)? Vul aan: 'half past ___'.",
+          "antwoord": "seven",
+          "uitleg": "Half past seven = half acht. Opgepast: het Engels telt vanaf het uur dat geweest is, het Nederlands naar het uur dat komt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Half past nine' is in het Nederlands half tien.",
+          "antwoord": true,
+          "uitleg": "Half past nine = negen uur en een half = half tien. Wie dat verwart, komt een uur te vroeg of te laat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn maanden?",
+          "opties": [
+            "August",
+            "January",
+            "October",
+            "Sunday"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "August = augustus, January = januari, October = oktober. Sunday is een dag. Let op: maanden en dagen krijgen in het Engels een hoofdletter."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke maand komt na June? Antwoord in het Engels.",
+          "antwoord": "july",
+          "uitleg": "July = juli, na June (juni). De zomer: June, July, August."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'See you on Wednesday.' Welke dag is dat?",
+          "opties": [
+            "woensdag",
+            "dinsdag",
+            "donderdag",
+            "zaterdag"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wednesday = woensdag. Je spreekt de d niet uit: 'wensdee'. Tuesday is dinsdag, Thursday donderdag."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In het Engels schrijf je de dagen en de maanden met een kleine letter.",
+          "antwoord": false,
+          "uitleg": "Net niet: Monday, July, Christmas krijgen allemaal een hoofdletter. In het Nederlands schrijven we die wél klein."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest een weerbericht: 'Tomorrow will be cloudy with some showers.' Wat voor weer wordt het?",
+          "opties": [
+            "bewolkt met buien",
+            "zonnig en warm",
+            "koud met sneeuw",
+            "mistig en droog"
+          ],
+          "antwoord": 0,
+          "uitleg": "Cloudy = bewolkt, a shower = een bui. Andere weerwoorden: sunny, rainy, windy, foggy, snowy."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden beschrijven het weer?",
+          "opties": [
+            "windy",
+            "foggy",
+            "freezing",
+            "crowded"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Windy = winderig, foggy = mistig, freezing = ijskoud. Crowded = druk met mensen, en dat zegt niets over het weer."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'Take an umbrella, it is ___ outside.' Welk Engels woord betekent hier 'aan het regenen'?",
+          "antwoord": "raining",
+          "uitleg": "It is raining = het regent. An umbrella = een paraplu. Bij weer dat nu bezig is, gebruik je de present continuous."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'The temperature will drop to five degrees.' Wat gebeurt er met de temperatuur?",
+          "opties": [
+            "ze daalt tot vijf graden",
+            "ze stijgt tot vijf graden",
+            "ze blijft vijf graden",
+            "ze valt weg"
+          ],
+          "antwoord": 0,
+          "uitleg": "To drop = dalen, vallen. Het tegengestelde is to rise: stijgen. A degree = een graad."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'We went to Rome by plane and came back by train.' Hoe reisden ze?",
+          "opties": [
+            "heen met het vliegtuig, terug met de trein",
+            "heen met de trein, terug met het vliegtuig",
+            "heen en terug met de bus",
+            "heen en terug met de auto"
+          ],
+          "antwoord": 0,
+          "uitleg": "By plane = met het vliegtuig, by train = met de trein. Let op de vaste uitdrukking: by bike, by car, by bus, maar on foot voor te voet."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'On foot' betekent te voet, ook al staan er andere vervoermiddelen met 'by'.",
+          "antwoord": true,
+          "uitleg": "By bike, by car, by bus, by train, by plane, maar on foot. De fiche noemt die voorzetsels bij de frequente prepositions."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'I go to school ___ bike.' Welk kort Engels voorzetsel hoort hier?",
+          "antwoord": "by",
+          "uitleg": "By bike = met de fiets. Bij vervoermiddelen gebruik je 'by' zonder lidwoord: by bus, by car, by train."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'Our flight is delayed by two hours.' Wat is er aan de hand?",
+          "opties": [
+            "de vlucht heeft twee uur vertraging",
+            "de vlucht is geannuleerd",
+            "de vlucht vertrekt twee uur vroeger",
+            "de vlucht duurt twee uur"
+          ],
+          "antwoord": 0,
+          "uitleg": "A flight = een vlucht, delayed = vertraagd. Cancelled zou geannuleerd betekenen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden hoor je op een luchthaven?",
+          "opties": [
+            "boarding pass",
+            "luggage",
+            "gate",
+            "platform"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "A boarding pass = een instapkaart, luggage = bagage, a gate = een gate. A platform is een perron, en dat hoort bij het station."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'She is from Scotland, so she is Scottish.' Wat is het verschil tussen die twee woorden?",
+          "opties": [
+            "Scotland is het land, Scottish de nationaliteit",
+            "Scotland is de taal, Scottish het land",
+            "Scotland is een stad, Scottish een streek",
+            "er is geen verschil tussen de twee"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zo werkt het bij elk land: Spain wordt Spanish, France wordt French, Belgium wordt Belgian."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Iemand komt uit Spain. Wat is zijn nationaliteit in het Engels? Eén woord.",
+          "antwoord": "spanish",
+          "uitleg": "Spanish = Spaans. In het Engels schrijf je dat met een hoofdletter: Spanish."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Vacation' is het Britse woord voor vakantie en 'holiday' het Amerikaanse.",
+          "antwoord": false,
+          "uitleg": "Omgekeerd: een Brit gaat 'on holiday', een Amerikaan 'on vacation'. In het Brits kan a holiday ook één feestdag zijn."
+        }
+      ]
+    },
+    {
+      "titel": "Woordenschat: getallen, tijd, weer, reizen en landen — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'The box weighs three kilos.' Hoe zwaar is de doos?",
+          "opties": [
+            "drie kilogram",
+            "drie gram",
+            "drie liter",
+            "drie meter"
+          ],
+          "antwoord": 0,
+          "uitleg": "To weigh = wegen. Britten gebruiken daarnaast pounds en stones, Amerikanen pounds."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'It is about five miles from here.' Wat weet je?",
+          "opties": [
+            "het is een afstand",
+            "het is een gewicht",
+            "het is een temperatuur",
+            "het is een prijs"
+          ],
+          "antwoord": 0,
+          "uitleg": "A mile = ongeveer 1,6 kilometer. In het Verenigd Koninkrijk en de Verenigde Staten meet men afstanden in miles."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel is 'a dozen'? Antwoord met een cijfer.",
+          "antwoord": "12",
+          "uitleg": "A dozen = een dozijn = twaalf. Je hoort het vooral bij eieren: a dozen eggs."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'A hundred' is honderd en 'a thousand' is duizend.",
+          "antwoord": true,
+          "uitleg": "En een miljoen is a million. Let op: in het Engels zeg je 'a hundred' of 'one hundred', nooit gewoon 'hundred' alleen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'We need a few eggs and a little milk.' Waarom staat er twee keer iets anders?",
+          "opties": [
+            "eggs kan je tellen, milk niet",
+            "milk is duurder dan eggs",
+            "few en little betekenen hetzelfde",
+            "het is een schrijffout"
+          ],
+          "antwoord": 0,
+          "uitleg": "A few gebruik je bij telbare woorden (a few eggs), a little bij ontelbare (a little milk, a little time)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn hoeveelheden die je bij ontelbare dingen gebruikt?",
+          "opties": [
+            "a little",
+            "much",
+            "a lot of",
+            "many"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "A little, much en a lot of passen bij ontelbare woorden zoals water en time. Many hoort bij telbare: many books."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'The shop opens at noon.' Hoe laat is dat?",
+          "opties": [
+            "12 uur 's middags",
+            "12 uur 's nachts",
+            "10 uur 's ochtends",
+            "6 uur 's avonds"
+          ],
+          "antwoord": 0,
+          "uitleg": "Noon = de middag, 12 uur. Midnight is middernacht, 12 uur 's nachts."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Midnight' betekent in het Engels de middag.",
+          "antwoord": false,
+          "uitleg": "Midnight = middernacht, dus 12 uur 's nachts. De middag is noon of midday."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'The film starts at 7 p.m.' Wanneer begint de film?",
+          "opties": [
+            "'s avonds om 7 uur",
+            "'s ochtends om 7 uur",
+            "'s middags om 7 uur",
+            "'s nachts om 7 uur"
+          ],
+          "antwoord": 0,
+          "uitleg": "P.m. staat voor post meridiem: na de middag. A.m. is ante meridiem: voor de middag."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn seizoenen?",
+          "opties": [
+            "spring",
+            "summer",
+            "winter",
+            "weekend"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Spring = lente, summer = zomer, winter = winter. Het vierde seizoen is autumn (Brits) of fall (Amerikaans)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk seizoen komt na winter? Antwoord in het Engels.",
+          "antwoord": "spring",
+          "uitleg": "Spring = lente. De rij: winter, spring, summer, autumn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'The meeting is on the third of May.' Welke datum is dat?",
+          "opties": [
+            "3 mei",
+            "5 maart",
+            "13 mei",
+            "30 mei"
+          ],
+          "antwoord": 0,
+          "uitleg": "The third = de derde, May = mei. Bij data gebruik je rangtelwoorden: first, second, third, fourth."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een datum gebruik je in het Engels een rangtelwoord: 'the fifth of June', niet 'the five of June'.",
+          "antwoord": true,
+          "uitleg": "De rangtelwoorden: first, second, third, fourth, fifth, en verder meestal met -th erachter, zoals twelfth en twentieth."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'We stayed in a small hotel near the beach.' Waar sliepen ze?",
+          "opties": [
+            "in een klein hotel bij het strand",
+            "in een tent in het bos",
+            "bij familie in de stad",
+            "in een huis aan een meer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Near = dichtbij, the beach = het strand. To stay = verblijven, logeren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden hebben met een reis te maken?",
+          "opties": [
+            "a suitcase",
+            "a passport",
+            "a ticket",
+            "a saucepan"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "A suitcase = een koffer, a passport = een paspoort, a ticket = een ticket. A saucepan is een kookpot."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je in het Engels het document dat je nodig hebt om naar een ander land te reizen? Eén woord.",
+          "antwoord": "passport",
+          "uitleg": "A passport = een paspoort. Op de luchthaven vraagt men: your passport, please."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest op een station: 'The train to York departs from platform 4.' Waar moet je zijn?",
+          "opties": [
+            "op perron 4",
+            "aan loket 4",
+            "in wagon 4",
+            "aan uitgang 4"
+          ],
+          "antwoord": 0,
+          "uitleg": "To depart = vertrekken, a platform = een perron. Het omgekeerde van depart is to arrive: aankomen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Return ticket' betekent in Brits Engels een ticket heen en terug.",
+          "antwoord": true,
+          "uitleg": "A return ticket = een retourtje. Een enkele reis is a single ticket in het Brits, a one-way ticket in het Amerikaans."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'Excuse me, how do I get to the museum?' Wat vraagt deze persoon?",
+          "opties": [
+            "de weg naar het museum",
+            "de prijs van een ticket",
+            "de openingsuren",
+            "de naam van de gids"
+          ],
+          "antwoord": 0,
+          "uitleg": "How do I get to...? = hoe raak ik bij...? Het antwoord bevat vaak: turn left, turn right, go straight on."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je krijgt als antwoord: 'Go straight on and then turn left at the church.' Wat moet je doen?",
+          "opties": [
+            "rechtdoor en dan links bij de kerk",
+            "rechtdoor en dan rechts bij de kerk",
+            "links en dan rechtdoor tot de kerk",
+            "rechts en dan links voor de kerk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Straight on = rechtdoor, to turn left = links afslaan, a church = een kerk. Right is rechts."
+        }
+      ]
+    },
+    {
+      "titel": "Grammatica: naamwoorden, lidwoorden en voornaamwoorden — deel 1",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het meervoud van 'box'?",
+          "opties": [
+            "boxes",
+            "boxs",
+            "boxen",
+            "boxies"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na s, x, ch, sh en soms o komt -es: boxes, watches, dishes, buses. Anders gewoon -s."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het meervoud van 'baby'?",
+          "opties": [
+            "babies",
+            "babys",
+            "babyes",
+            "babyies"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een -y na een medeklinker wordt -ies: baby wordt babies, city wordt cities. Staat er een klinker voor, dan blijft de y: boy wordt boys."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke meervouden zijn onregelmatig?",
+          "opties": [
+            "children",
+            "teeth",
+            "mice",
+            "tables"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Child wordt children, tooth wordt teeth, mouse wordt mice. Table wordt gewoon tables."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is het meervoud van 'man'? Eén Engels woord.",
+          "antwoord": "men",
+          "uitleg": "Man wordt men, woman wordt women. Let op de uitspraak van women: de eerste lettergreep klinkt als 'wi'."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het meervoud van 'knife' is 'knifes'.",
+          "antwoord": false,
+          "uitleg": "Het is knives. Bij veel woorden op -f of -fe wordt dat -ves: leaf/leaves, wife/wives, life/lives."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vul aan: 'I saw ___ elephant at the zoo.' Welk lidwoord hoort hier?",
+          "opties": [
+            "an",
+            "a",
+            "the",
+            "geen lidwoord"
+          ],
+          "antwoord": 0,
+          "uitleg": "Voor een klinkerklank komt 'an': an elephant, an hour, an apple. Voor een medeklinkerklank 'a': a book, a university."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je zegt 'an university', want het woord begint met een u.",
+          "antwoord": false,
+          "uitleg": "Het gaat om de klánk, niet om de letter. University begint met een joe-klank, dus: a university. Maar wel: an hour, want de h zwijgt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk lidwoord is het bepaalde lidwoord (definite article) in het Engels?",
+          "opties": [
+            "the",
+            "a",
+            "an",
+            "some"
+          ],
+          "antwoord": 0,
+          "uitleg": "The is bepaald: je weet over welk ding het gaat. A en an zijn onbepaald (indefinite): het maakt niet uit welke."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vul aan: 'She is ___ teacher.' Welk lidwoord hoort hier?",
+          "opties": [
+            "a",
+            "an",
+            "the",
+            "geen lidwoord"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een beroep staat in het Engels altijd een lidwoord: she is a teacher, he is an engineer. In het Nederlands laten we dat weg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wijst naar iets dat ver van je af ligt, en het zijn er meerdere. Welk aanwijzend woord gebruik je?",
+          "opties": [
+            "those",
+            "these",
+            "this",
+            "that"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dichtbij: this (enkelvoud) en these (meervoud). Veraf: that en those. Dat zijn de demonstratives."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: '___ book here is mine.' Welk aanwijzend woord past bij één boek dat vlak bij je ligt?",
+          "antwoord": "this",
+          "uitleg": "This book = dit boek, dichtbij en enkelvoud. Meerdere boeken dichtbij: these books."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn bezittelijke determiners (possessive adjectives)?",
+          "opties": [
+            "my",
+            "her",
+            "their",
+            "mine"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "My, your, his, her, its, our en their staan vóór een naamwoord: my book. Mine staat alleen: that book is mine."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vul aan: 'This bag is ___.' Welk woord past hier, als de tas van mij is?",
+          "opties": [
+            "mine",
+            "my",
+            "me",
+            "I"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na het werkwoord staat het bezittelijk vóórnaamwoord: mine, yours, his, hers, ours, theirs. 'My' heeft altijd een naamwoord nodig."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'It's' met een apostrof betekent 'it is', en 'its' zonder apostrof betekent 'van het'.",
+          "antwoord": true,
+          "uitleg": "Zo is het, en het is een klassieke valstrik. The dog wagged its tail (van hem), maar It's raining (it is)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vul aan: 'Tom helped ___ with the homework.' Welk voornaamwoord past hier, als hij mij hielp?",
+          "opties": [
+            "me",
+            "I",
+            "my",
+            "mine"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na het werkwoord staat de objectvorm: me, you, him, her, it, us, them. Vóór het werkwoord staat de subjectvorm: I, you, he, she."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In het Engels staat het persoonlijk voornaamwoord als lijdend voorwerp áchter het werkwoord: 'I saw him', niet 'I him saw'.",
+          "antwoord": true,
+          "uitleg": "De fiche noemt dat de plaats van het persoonlijk voornaamwoord. In het Nederlands kan die plaats schuiven, in het Engels veel minder."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vul aan: '___ is your favourite subject?' Welk vragend woord past hier?",
+          "opties": [
+            "What",
+            "Who",
+            "Where",
+            "When"
+          ],
+          "antwoord": 0,
+          "uitleg": "What = wat, who = wie, where = waar, when = wanneer. Dat zijn de interrogative pronouns."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: '___ bag is this?' Welk vragend woord vraagt naar de eigenaar?",
+          "antwoord": "whose",
+          "uitleg": "Whose = van wie. Verwar het niet met who's, dat 'who is' betekent."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'Which film do you prefer?' Waarnaar vraagt 'which'?",
+          "opties": [
+            "een keuze uit een beperkte groep",
+            "de reden van iets",
+            "de plaats van iets",
+            "het tijdstip van iets"
+          ],
+          "antwoord": 0,
+          "uitleg": "Which gebruik je als er een beperkte keuze is: which colour, red or blue? What is opener: what films do you like?"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'She lives in Belgium and goes to school by bus.' Welke voorzetsels staan er?",
+          "opties": [
+            "in en by",
+            "on en at",
+            "to en from",
+            "of en for"
+          ],
+          "antwoord": 0,
+          "uitleg": "In Belgium, by bus: de fiche noemt precies die vaste combinaties bij de frequente prepositions."
+        }
+      ]
+    },
+    {
+      "titel": "Grammatica: naamwoorden, lidwoorden en voornaamwoorden — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de vergrotende trap (comparative) van 'big'?",
+          "opties": [
+            "bigger",
+            "more big",
+            "biger",
+            "biggest"
+          ],
+          "antwoord": 0,
+          "uitleg": "Korte bijvoeglijke naamwoorden krijgen -er, en bij één korte klinker verdubbelt de medeklinker: big wordt bigger, hot wordt hotter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de overtreffende trap (superlative) van 'expensive'?",
+          "opties": [
+            "the most expensive",
+            "the expensivest",
+            "more expensive",
+            "the more expensive"
+          ],
+          "antwoord": 0,
+          "uitleg": "Lange bijvoeglijke naamwoorden krijgen more en most: more expensive, the most expensive. Korte krijgen -er en -est."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is de vergrotende trap van 'good'? Eén Engels woord.",
+          "antwoord": "better",
+          "uitleg": "Good wordt better wordt the best. Onregelmatig, net als bad/worse/the worst en far/further/the furthest."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke trappen van vergelijking zijn onregelmatig?",
+          "opties": [
+            "good – better – best",
+            "bad – worse – worst",
+            "far – further – furthest",
+            "small – smaller – smallest"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Small volgt gewoon de regel met -er en -est. De drie andere moet je uit het hoofd kennen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vul aan: 'This exercise is easier ___ the first one.' Welk woord hoort hier?",
+          "opties": [
+            "than",
+            "as",
+            "that",
+            "then"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een vergelijking hoort 'than': easier than, better than. 'Then' betekent dan in de tijd en is iets anders."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je zegt 'more better' om iets extra sterk te maken.",
+          "antwoord": false,
+          "uitleg": "Nee, dat is dubbel. Het is gewoon better. Ofwel -er, ofwel more, nooit allebei."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vul aan: 'She is ___ tall ___ her brother.' Welke woorden maken er een gelijkheid van?",
+          "opties": [
+            "as ... as",
+            "than ... than",
+            "so ... as",
+            "more ... than"
+          ],
+          "antwoord": 0,
+          "uitleg": "As tall as = even groot als. Bij een verschil gebruik je taller than."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar staat een bijvoeglijk naamwoord in het Engels meestal?",
+          "opties": [
+            "vóór het naamwoord",
+            "achter het naamwoord",
+            "achter het werkwoord",
+            "helemaal vooraan de zin"
+          ],
+          "antwoord": 0,
+          "uitleg": "A red car, an interesting book: het bijvoeglijk naamwoord staat vooraan en verandert nooit van vorm, ook niet in het meervoud."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een bijvoeglijk naamwoord krijgt in het Engels een -s in het meervoud: 'reds cars'.",
+          "antwoord": false,
+          "uitleg": "Nooit. Het is red cars, big houses, old friends. Alleen het naamwoord krijgt het meervoud."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'He came second in the race.' Wat voor woord is 'second' hier?",
+          "opties": [
+            "een rangtelwoord",
+            "een hoofdtelwoord",
+            "een voorzetsel",
+            "een voegwoord"
+          ],
+          "antwoord": 0,
+          "uitleg": "Rangtelwoorden (ordinal numbers) zeggen de plaats in een rij: first, second, third. Hoofdtelwoorden (cardinal numbers) tellen: one, two, three."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is het rangtelwoord bij 'twelve'? Eén Engels woord.",
+          "antwoord": "twelfth",
+          "uitleg": "Twelve wordt twelfth. Let op de f. Andere lastige: five wordt fifth, nine wordt ninth, twenty wordt twentieth."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn rangtelwoorden?",
+          "opties": [
+            "first",
+            "third",
+            "twentieth",
+            "fifteen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Fifteen is een hoofdtelwoord; het rangtelwoord daarvan is fifteenth."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vul aan: 'The meeting is ___ Monday.' Welk voorzetsel hoort bij een dag?",
+          "opties": [
+            "on",
+            "in",
+            "at",
+            "to"
+          ],
+          "antwoord": 0,
+          "uitleg": "At bij een uur (at six), on bij een dag of datum (on Monday), in bij een maand, seizoen of jaar (in May, in winter, in 2027)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'The lesson starts ___ nine o'clock.' Welk voorzetsel hoort bij een uur?",
+          "antwoord": "at",
+          "uitleg": "At nine o'clock. Het ezelsbruggetje: at voor een punt in de tijd, on voor een dag, in voor een langere periode."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je zegt 'on Monday' en 'in May'.",
+          "antwoord": true,
+          "uitleg": "Dagen krijgen on, maanden krijgen in, uren krijgen at. Drie voorzetsels die je door elkaar haalt als je niet oplet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vul aan: 'The cat is ___ the table.' Welk voorzetsel betekent dat de kat erop zit?",
+          "opties": [
+            "on",
+            "in",
+            "under",
+            "next to"
+          ],
+          "antwoord": 0,
+          "uitleg": "On = op, in = in, under = onder, next to = naast, between = tussen, behind = achter, in front of = voor."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'We walked to school on foot.' Welk voorzetsel hoort bij 'foot'?",
+          "opties": [
+            "on",
+            "by",
+            "with",
+            "at"
+          ],
+          "antwoord": 0,
+          "uitleg": "On foot is de uitzondering: alle andere vervoerswijzen krijgen by. By bike, by car, by train, maar on foot."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Information' en 'advice' krijgen in het Engels geen meervouds-s.",
+          "antwoord": true,
+          "uitleg": "Het zijn ontelbare woorden: much information, a piece of advice. 'Informations' en 'advices' bestaan niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vul aan: 'Sarah and ___ went to the cinema.' Welk voornaamwoord past hier?",
+          "opties": [
+            "I",
+            "me",
+            "my",
+            "mine"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het is het onderwerp van de zin, dus de subjectvorm: Sarah and I. Als lijdend voorwerp zou het 'Sarah and me' zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'Those books are theirs.' Wat betekent 'theirs'?",
+          "opties": [
+            "die van hen",
+            "die van haar",
+            "die van ons",
+            "die van jou"
+          ],
+          "antwoord": 0,
+          "uitleg": "Theirs = van hen. De rij: mine, yours, his, hers, ours, theirs. Ze staan alleen, zonder naamwoord erachter."
+        }
+      ]
+    },
+    {
+      "titel": "Grammatica: werkwoorden, tijden en zinsbouw — deel 1",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Vul aan: 'She ___ to school every day.' Welke vorm hoort hier?",
+          "opties": [
+            "goes",
+            "go",
+            "going",
+            "went"
+          ],
+          "antwoord": 0,
+          "uitleg": "Present simple voor een gewoonte. Bij he, she en it komt er een -s bij: she goes, he plays, it works."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In de present simple krijgt het werkwoord een -s bij he, she en it.",
+          "antwoord": true,
+          "uitleg": "I work, you work, he works. Dat heet de overeenkomst tussen onderwerp en persoonsvorm, of agreement."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vul aan: 'Look, it ___ outside!' Welke vorm hoort hier, als het nu aan het regenen is?",
+          "opties": [
+            "is raining",
+            "rains",
+            "rained",
+            "will rain"
+          ],
+          "antwoord": 0,
+          "uitleg": "Present continuous voor wat nu bezig is: to be + werkwoord op -ing. Present simple is voor gewoontes: it often rains here."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke signaalwoorden horen bij de past simple?",
+          "opties": [
+            "yesterday",
+            "last week",
+            "two years ago",
+            "every day"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De fiche noemt ago, yesterday en last week met zoveel woorden. 'Every day' wijst net op de present simple."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'We ___ football yesterday.' Wat is de past simple van 'to play'?",
+          "antwoord": "played",
+          "uitleg": "Regelmatige werkwoorden krijgen -ed: played, worked, watched. Na een -e komt alleen -d: liked."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de past simple van 'to go'?",
+          "opties": [
+            "went",
+            "goed",
+            "gone",
+            "goes"
+          ],
+          "antwoord": 0,
+          "uitleg": "To go is onregelmatig: go – went – gone. 'Gone' is het voltooid deelwoord, niet de verleden tijd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke werkwoorden zijn onregelmatig in de past simple?",
+          "opties": [
+            "to see",
+            "to take",
+            "to buy",
+            "to open"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "See wordt saw, take wordt took, buy wordt bought. Open volgt gewoon de regel: opened."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is de past simple van 'to buy'? Eén Engels woord.",
+          "antwoord": "bought",
+          "uitleg": "Buy – bought – bought. Let op de spelling met -ough-, net als in brought en thought."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'I have went to London' is een correcte Engelse zin.",
+          "antwoord": false,
+          "uitleg": "Na 'have' komt het voltooid deelwoord: I have gone to London. 'Went' is de verleden tijd en staat alleen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vul aan: 'Tomorrow I ___ help you.' Welke vorm hoort hier?",
+          "opties": [
+            "will",
+            "am",
+            "did",
+            "would"
+          ],
+          "antwoord": 0,
+          "uitleg": "De future simple maak je met will + werkwoord: I will help. Dat geldt voor elk onderwerp, ook voor he en she."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'Close the door, please.' Welke zinssoort is dat?",
+          "opties": [
+            "een bevelende zin",
+            "een vragende zin",
+            "een mededelende zin",
+            "een uitroepende zin"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een imperative sentence: het werkwoord staat vooraan en er staat geen onderwerp bij. Met 'please' erbij klinkt ze beleefd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'What a beautiful day!' Welke zinssoort is dat?",
+          "opties": [
+            "een uitroepende zin",
+            "een vragende zin",
+            "een bevelende zin",
+            "een ontkennende zin"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een exclamative sentence eindigt op een uitroepteken. Ze begint vaak met What a... of How..."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zinnen zijn ontkennend (negative)?",
+          "opties": [
+            "I don't like fish.",
+            "She has not finished.",
+            "We never go there.",
+            "They are happy."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Not en never maken de zin ontkennend. De laatste zin is bevestigend (affirmative)."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Maak deze zin ontkennend: 'He likes tea.' Vul aan: 'He ___ like tea.' Eén woord, samengetrokken.",
+          "antwoord": "doesn't",
+          "uitleg": "He doesn't like tea. Let op: de -s verhuist naar 'does', dus niet 'doesn't likes'."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In een ontkennende zin met 'doesn't' krijgt het werkwoord erna geen -s meer.",
+          "antwoord": true,
+          "uitleg": "She doesn't play, niet 'she doesn't plays'. De persoonsvorm draagt de -s, en dat is hier 'does'."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vul aan: '___ you like coffee?' Welk hulpwerkwoord hoort vooraan in deze vraag?",
+          "opties": [
+            "Do",
+            "Are",
+            "Have",
+            "Does"
+          ],
+          "antwoord": 0,
+          "uitleg": "In de present simple maak je een vraag met do of does: Do you like...? Does he like...?"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vul aan: '___ she live in Ghent?' Welk hulpwerkwoord hoort hier?",
+          "opties": [
+            "Does",
+            "Do",
+            "Is",
+            "Has"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij he, she en it gebruik je does. En dan valt de -s bij het werkwoord weg: Does she live, niet 'does she lives'."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een vragende zin heet in het Engels een imperative sentence.",
+          "antwoord": false,
+          "uitleg": "Een vragende zin is een interrogative sentence; een imperative sentence is bevelend. De rij uit de fiche: declarative (mededelend), interrogative (vragend), imperative (bevelend), exclamative (uitroepend)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'My sister lives in Antwerp.' Wat is het onderwerp (subject)?",
+          "opties": [
+            "my sister",
+            "lives",
+            "in Antwerp",
+            "Antwerp"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het onderwerp is wie of wat het werkwoord doet. Vraag: wie woont er in Antwerpen? My sister."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In de zin 'The children played outside' staat één persoonsvorm. Welk woord is dat?",
+          "antwoord": "played",
+          "uitleg": "De persoonsvorm (finite verb) is het werkwoord dat verandert met de tijd en het onderwerp. Hier: played."
+        }
+      ]
+    },
+    {
+      "titel": "Grammatica: werkwoorden, tijden en zinsbouw — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Vul aan: 'They ___ watching a film right now.' Welke vorm hoort hier?",
+          "opties": [
+            "are",
+            "is",
+            "am",
+            "be"
+          ],
+          "antwoord": 0,
+          "uitleg": "De present continuous is to be + -ing. Bij they hoort 'are': they are watching."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen 'I read every evening' en 'I am reading now'?",
+          "opties": [
+            "de eerste is een gewoonte, de tweede is nu bezig",
+            "de eerste is verleden tijd, de tweede toekomst",
+            "de eerste is een vraag, de tweede een bevel",
+            "er is geen verschil tussen die twee"
+          ],
+          "antwoord": 0,
+          "uitleg": "Present simple voor wat altijd of vaak gebeurt, present continuous voor wat op dit moment bezig is."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'She ___ (to write) a letter at the moment.' Geef de twee woorden van de present continuous.",
+          "antwoord": "is writing",
+          "uitleg": "At the moment wijst op de present continuous: is writing. Let op de spelling: de -e van write valt weg voor -ing."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Werkwoorden als 'to know' en 'to like' gebruik je normaal niet in de present continuous.",
+          "antwoord": true,
+          "uitleg": "Je zegt 'I know the answer', niet 'I am knowing'. Het gaat om werkwoorden van weten, vinden en voelen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de past simple van 'to be' bij 'they'?",
+          "opties": [
+            "were",
+            "was",
+            "been",
+            "are"
+          ],
+          "antwoord": 0,
+          "uitleg": "I was, you were, he was, we were, they were. To be is het onregelmatigste werkwoord van allemaal."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vul aan: 'Last summer we ___ to Spain.' Welke vorm hoort hier?",
+          "opties": [
+            "went",
+            "go",
+            "are going",
+            "will go"
+          ],
+          "antwoord": 0,
+          "uitleg": "'Last summer' is een signaalwoord voor de past simple: iets dat gebeurd en afgelopen is."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is de past simple van 'to see'? Eén Engels woord.",
+          "antwoord": "saw",
+          "uitleg": "See – saw – seen. Verwar 'saw' niet met 'seen', dat na have komt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zinnen staan in de toekomende tijd?",
+          "opties": [
+            "I will call you tonight.",
+            "We will see.",
+            "She will be fifteen in June.",
+            "He walked home."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De future simple maak je met will. 'He walked home' staat in de past simple."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je zegt 'he wills help' in de derde persoon.",
+          "antwoord": false,
+          "uitleg": "Will verandert nooit: I will, you will, he will. En erna komt het werkwoord zonder to: he will help."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'To swim is good for your back.' Welke vorm is 'to swim' hier?",
+          "opties": [
+            "de infinitief",
+            "de gebiedende wijs",
+            "de verleden tijd",
+            "de -ing-vorm"
+          ],
+          "antwoord": 0,
+          "uitleg": "De infinitive is de basisvorm met to ervoor: to swim, to be, to have. In een woordenboek staat het werkwoord altijd zo."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'I like reading, but my brother prefers football.' Wat voor zin is dit?",
+          "opties": [
+            "een samengestelde zin",
+            "een enkelvoudige zin",
+            "een vragende zin",
+            "een bevelende zin"
+          ],
+          "antwoord": 0,
+          "uitleg": "Er staan twee delen in met elk een eigen onderwerp en persoonsvorm, verbonden door 'but'. Dat maakt de zin samengesteld."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een samengestelde zin heeft maar één persoonsvorm, net zoals een enkelvoudige zin.",
+          "antwoord": false,
+          "uitleg": "Een samengestelde zin heeft er twee of meer: 'The dog barked because it was afraid'. Een enkelvoudige zin heeft er één: 'The dog barked'."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke voegwoorden verbinden twee delen van een samengestelde zin?",
+          "opties": [
+            "and",
+            "but",
+            "because",
+            "very"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De fiche noemt but, and, so, when en because als frequente voegwoorden. 'Very' versterkt alleen een bijvoeglijk naamwoord."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'I was tired, ___ I went to bed early.' Welk kort voegwoord geeft hier het gevolg?",
+          "antwoord": "so",
+          "uitleg": "So = dus. Wil je de reden vooraan zetten, dan gebruik je because: Because I was tired, I went to bed early."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'Don't forget your keys!' Welke twee dingen kloppen over deze zin?",
+          "opties": [
+            "ze is bevelend",
+            "ze is ontkennend",
+            "ze heeft een uitroepteken",
+            "ze heeft een onderwerp"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een bevelende zin met 'don't' is ontkennend én bevelend. Een onderwerp staat er niet bij; dat is juist het kenmerk van de imperative."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'The books on the table are mine.' Waarom staat er 'are' en niet 'is'?",
+          "opties": [
+            "het onderwerp 'the books' is meervoud",
+            "omdat er 'on the table' bij staat",
+            "omdat 'mine' meervoud is",
+            "omdat de zin lang is"
+          ],
+          "antwoord": 0,
+          "uitleg": "De persoonsvorm volgt het onderwerp, niet het woord dat er vlak voor staat. The books are, the book is."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'My sister and I are going' is correct Engels.",
+          "antwoord": true,
+          "uitleg": "Twee personen samen zijn meervoud, dus 'are'. En het onderwerp staat in de subjectvorm: my sister and I, niet 'and me'."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke spelling is juist?",
+          "opties": [
+            "because",
+            "becouse",
+            "becasue",
+            "bicause"
+          ],
+          "antwoord": 0,
+          "uitleg": "Because, met -cau-. Het hoort bij de frequente woorden waarvan de fiche vraagt dat je ze correct spelt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe schrijf je het Engelse woord voor 'omdat' correct? Eén woord.",
+          "antwoord": "because",
+          "uitleg": "Because. Een ezelsbruggetje: Big Elephants Can Always Understand Small Elephants."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je schrijft over je vakantie van vorig jaar. Welke tijd gebruik je voor wat je toen deed?",
+          "opties": [
+            "de past simple",
+            "de present continuous",
+            "de future simple",
+            "de infinitief"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wat gebeurd en afgelopen is, staat in de past simple: we travelled, I saw, we stayed. Let op de signaalwoorden last year en ago."
+        }
+      ]
     }
   ]
 }

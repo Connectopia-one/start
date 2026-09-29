@@ -1,0 +1,177 @@
+{
+ "vak": "Engels",
+ "titel": "Een Engelse tekst lezen",
+ "onder": "Het onderwerp, de hoofdgedachte en de hoofdpunten vinden, ook als je niet elk woord kent.",
+ "secties": [
+  {
+   "kop": "Waarvoor dient dit vak hier?",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<strong>Dit oefenplatform oefent alleen het schriftelijke Engels.</strong> Het examen van de Examencommissie telt zeven onderdelen: lezen (30 %), luisteren (30 %), schrijven (8 %), schriftelijke interactie (8 %), spreken (8 %) en twee mondelinge gesprekken (elk 8 %). Luisteren, spreken en de gesprekken oefen je hier niet: daar heb je geluid en een gesprekspartner voor nodig. Wat je hier wél oefent — lezen, schrijven, schriftelijke interactie, woordenschat en grammatica — is samen goed voor 46 % van je punten, en je hebt het ook nodig om te kunnen luisteren en spreken."
+    },
+    {
+     "soort": "tekst",
+     "html": "Lezen is met 30 % het zwaarste onderdeel dat je hier kan inoefenen, evenveel als luisteren. En wie vlot leest, herkent dezelfde woorden ook terug als hij ze hoort. Het niveau van de eerste graad is A2 van het Europees referentiekader, maar reken erop dat je ook iets uitdagenders krijgt."
+    }
+   ]
+  },
+  {
+   "kop": "Drie lagen in elke tekst",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>onderwerp</strong> is waarover een tekst gaat. Je zegt het in één of enkele <strong>woorden</strong>, bijvoorbeeld 'de nieuwe fietsenstalling'. Je schrijft het dus niet op in een volledige zin."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>hoofdgedachte</strong> is de belangrijkste boodschap, in één <strong>zin</strong>: 'De school heeft een nieuwe fietsenstalling voor leerlingen.' De <strong>hoofdpunten</strong> zijn de inhoudelijke elementen die die hoofdgedachte <strong>ondersteunen</strong>: leerlingen mogen er gratis parkeren, en de stalling is open van 8 tot 5."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 196\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"160\" y=\"8\" width=\"150\" height=\"38\" rx=\"9\" fill=\"#2f5d5018\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"26.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">onderwerp</text><text x=\"235.0\" y=\"39.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">één of enkele woorden</text><rect x=\"110\" y=\"54\" width=\"250\" height=\"38\" rx=\"9\" fill=\"#c17f2b18\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"72.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">hoofdgedachte</text><text x=\"235.0\" y=\"85.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">de belangrijkste boodschap, in één zin</text><rect x=\"65\" y=\"100\" width=\"340\" height=\"38\" rx=\"9\" fill=\"#2f5d5018\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"118.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">hoofdpunten</text><text x=\"235.0\" y=\"131.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">wat die boodschap ondersteunt</text><rect x=\"20\" y=\"146\" width=\"430\" height=\"38\" rx=\"9\" fill=\"#6b726018\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"164.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">details</text><text x=\"235.0\" y=\"177.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">voorbeelden, cijfers, namen</text></svg>",
+     "onderschrift": "Onderwerp in enkele woorden, hoofdgedachte in één zin, daaronder de punten die haar dragen."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Doe het eens op een echte tekst.</strong> <em>Our school has a new bike shed. Students can park their bikes there for free. The shed is open from 8 a.m. until 5 p.m.</em><br>Het <strong>onderwerp</strong> is 'de nieuwe fietsenstalling'. De <strong>hoofdgedachte</strong> is 'de school heeft een nieuwe fietsenstalling voor leerlingen'. De twee <strong>hoofdpunten</strong> zijn de zinnen die dat staande houden: gratis parkeren, en de openingsuren."
+    },
+    {
+     "soort": "tekst",
+     "html": "Pas op met wat er <strong>niet</strong> staat. In die tekst staat niets over gezondheid of over fietsen dat goed is voor het milieu. Hoe logisch het ook klinkt: als het er niet staat, is het geen hoofdpunt."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Engels</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a bike shed</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een fietsenstalling</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">for free</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gratis</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a film review</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een filmbespreking, een recensie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">an actor, actors</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een acteur, acteurs</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a costume</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kostuum</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">to pick up</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oprapen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a bag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een zak</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">inhabitants</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">inwoners</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">famous for</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beroemd om</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nobody</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niemand</td></tr></table>",
+     "onderschrift": "Woorden uit de leesteksten van dit hoofdstuk."
+    }
+   ]
+  },
+  {
+   "kop": "Informatie selecteren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Soms hoef je de tekst niet helemaal te begrijpen: je moet er één ding <strong>uit halen</strong>. Hoeveel kost de schoolreis? Hoe laat vertrekt de bus? Waar is het feest? Dan lees je <strong>gericht</strong>: je weet wat je zoekt en je zoekt het op, in plaats van elk woord te vertalen."
+    },
+    {
+     "soort": "kader",
+     "html": "<em>The school trip to London costs 180 euros. Please pay before 15 March. The bus leaves at 6 a.m.</em><br>Kost: 180 euro. Betalen: <em>before</em> (vóór) 15 maart. Vertrek: 6 <strong>a.m.</strong>, dus 's ochtends. <em>A.m.</em> is vóór de middag, <em>p.m.</em> erna. Wie dat verwart, staat twaalf uur naast de afspraak."
+    },
+    {
+     "soort": "tekst",
+     "html": "Let ook op de <strong>dagen</strong>: <em>Saturday</em> is zaterdag, <em>Sunday</em> is zondag. <em>On Sundays</em> met een -s betekent élke zondag."
+    }
+   ]
+  },
+  {
+   "kop": "Strategieën: wat doe je vóór en tijdens het lezen?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vakfiche somt strategieën op die je mag en moet gebruiken. Ze staan er niet voor de sier: ze schelen punten."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">strategie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jezelf vragen stellen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wat weet ik al over dit onderwerp? Waarover zou de tekst kunnen gaan?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het communicatiemodel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Van wie is de tekst? Waarom is hij gemaakt? Voor wie is hij bedoeld?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">visuele hulpmiddelen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de titel en de tussentitels, woorden in het vet, een foto, een tekening of een grafiek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">structuuraanduiders</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verwijswoorden (they, there) en signaalwoorden (first, next, finally)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">betekenis afleiden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uit de context, uit je voorkennis, uit de vorm van het woord, uit het Nederlands of het Frans</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beslissen wat je opzoekt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Is dit woord echt nodig om de tekst te begrijpen? Alleen dan het woordenboek.</td></tr></table>",
+     "onderschrift": "De strategieën uit de vakfiche, in de volgorde waarin je ze gebruikt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat laatste is belangrijk. Je <strong>mag</strong> tijdens het digitale examen een online woordenboek gebruiken, maar je hebt geen tijd om elk woord op te zoeken. Je moet dus niet elk Engels woord kennen: je moet kunnen beslissen wélk woord ertoe doet."
+    },
+    {
+     "soort": "kader",
+     "html": "<em>The train leaves at eight, but it is often delayed.</em> Je kent <em>delayed</em> niet. De zin gaat over een trein en draait met <em>but</em>, dus het is iets vervelends: <strong>vertraagd</strong>. Zo leid je een betekenis af uit de context, zonder op te zoeken."
+    },
+    {
+     "soort": "weetje",
+     "html": "Ook de vorm van een woord helpt. <em>Unhappy</em> is <em>happy</em> met <em>un-</em> ervoor, dus niet blij. Zo werken ook <em>impossible</em> en <em>dislike</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Verwijswoorden: wie is 'he'?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een tekst hangt aan elkaar met <strong>verwijswoorden</strong>. <em>Tom was late again. He had missed the bus.</em> — <em>he</em> is Tom. Zulke woorden sparen herhaling uit, maar je moet wel weten waarnaar ze wijzen, anders begrijp je de tekst verkeerd."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ook <strong>signaalwoorden</strong> sturen je: <em>so</em> kondigt een gevolg aan (<em>The weather was terrible, so we stayed at home</em>), <em>because</em> een oorzaak, <em>but</em> een tegenstelling."
+    }
+   ]
+  },
+  {
+   "kop": "Wat voor tekst heb je voor je?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Zodra je ziet wat voor soort tekst het is, weet je wat je mag verwachten. <em>Please do not feed the animals. Keep your dog on a lead.</em> — dat zegt wat je moet doen, dus het is een <strong>prescriptieve</strong> tekst. <em>Once upon a time, a poor boy lived near a dark forest.</em> — dat vertelt, dus <strong>narratief</strong>. <em>I think school should start later.</em> — dat is een mening, dus <strong>opiniërend</strong>. De vijf soorten staan uitgewerkt in de bundel bij het volgende hoofdstuk."
+    }
+   ]
+  },
+  {
+   "kop": "Tien korte teksten, uitgewerkt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Lezen leer je door te lezen. Hieronder staan tien tekstjes zoals je ze op het examen krijgt. Lees telkens eerst het Engels, en kijk dan wat de uitleg eronder ermee doet."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>1. Een filmreview.</strong> <em>I saw the new Spider-Man film last Saturday. The story is not very original, but the actors are great and the costumes look amazing. I loved it, and I still think about the last scene.</em><br>De schrijver vindt de film prachtig: <em>great</em>, <em>amazing</em>, <em>I loved it</em>. De acteurs spelen goed. Maar let op <em>but</em>: het verhaal (<em>the story</em>) vindt hij niet origineel. Een mening is zelden helemaal positief, en <em>still</em> betekent hier nog altijd."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>2. De speelplaats.</strong> <em>Every Friday our class cleans the schoolyard. Last week we filled three bags with paper and plastic.</em><br>Elke vrijdag ruimt de klas de speelplaats op. Vorige week vulden ze drie zakken met papier en plastic. Hoeveel zakken waren het? Drie. Dat is gericht lezen: je haalt er één ding uit."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>3. Een bericht dat zich verontschuldigt.</strong> <em>Sorry, I can't come to your party. I have to visit my grandmother.</em><br>De schrijver van dit bericht verontschuldigt zich: hij kan niet naar het feest komen, want hij moet op bezoek bij zijn grootmoeder."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>4. Een recept.</strong> <em>Put the pasta in boiling water. Cook for eight minutes, then add the sauce.</em><br>Een recipe is een recept, en dit is een prescriptieve tekst: hij zegt wat je moet doen. Hoeveel minuten koken? Acht minutes. <em>Boiling water</em> is kokend water, <em>sauce</em> is saus."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>5. Openingsuren.</strong> <em>The museum is closed on Mondays. The garden is open every day.</em><br>Het museum is op maandag gesloten (dicht), de tuin is elke dag open. <em>On Mondays</em> met een -s betekent élke maandag."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>6. Een reisverslag.</strong> <em>We arrived in Scotland on Monday. It rained every day, but the mountains were beautiful.</em><br>Ze kwamen maandag aan in Schotland. Het regende elke dag, en ondanks die regen vonden ze de bergen prachtig. Weer dat <em>but</em>: het draait de zin om."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>7. Een stukje uit een krant.</strong> <em>Teenagers who look at screens late at night sleep less well.</em><br>Wie denkt dat dit over school gaat, leest te snel. Het gaat over tieners, schermen en slaap. Wie tot laat in de nacht naar een scherm kijkt, slaapt minder goed en is de dag erna moe (<em>tired</em>)."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>8. Een affiche.</strong> <em>School party! Friday, 7 p.m. on the playground. Tickets: 5 euros.</em><br>Een schoolfeest, op vrijdag om zeven uur 's avonds, op de speelplaats. Het bedrag staat op de laatste regel: vijf euro."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>9. De weg vragen.</strong> <em>Excuse me, could you tell me the way to the station?</em><br>De spreker vraagt de weg naar het station. <em>Could you</em> is de beleefde vorm. Het antwoord noemt vaak een herkenningspunt: <em>go straight on and cross the bridge</em> (de brug)."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>10. Een bordje aan de deur.</strong> <em>The shop is closed on Sundays.</em><br>De winkel is op zondag dicht. Meer staat er niet, dus meer mag je er ook niet uit afleiden."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee laatste tips. Bekijk altijd eerst de titel en het beeld: dat gaat sneller dan lezen en het zegt je waarover de tekst gaat. En als de vraag een antwoord (<em>answer</em>) in het Engels vraagt, kijk dan of je woorden uit de tekst zelf kan hergebruiken; dat doet je leerkracht (<em>teacher</em>) ook."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Onderwerp = enkele woorden. Hoofdgedachte = één zin. Hoofdpunten = wat haar draagt.",
+  "Wat er niet staat, is geen hoofdpunt, hoe logisch het ook lijkt.",
+  "a.m. is vóór de middag, p.m. erna.",
+  "Kijk eerst naar titel, tussentitels en beeld; lees dan pas.",
+  "Leid onbekende woorden af uit de context; zoek alleen op wat je echt nodig hebt.",
+  "Verwijswoorden (he, it, they, there) wijzen terug naar iets uit de vorige zin."
+ ]
+}

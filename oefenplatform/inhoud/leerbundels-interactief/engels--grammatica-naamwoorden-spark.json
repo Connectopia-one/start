@@ -1,0 +1,136 @@
+{
+ "vak": "Engels",
+ "titel": "Grammatica: naamwoorden, lidwoorden en voornaamwoorden",
+ "onder": "Meervouden, a of an, this of these, my of mine, en de trappen van vergelijking.",
+ "secties": [
+  {
+   "kop": "Het meervoud van een naamwoord",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">regel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gewoon -s</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">book – books, table – tables</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-es na s, x, ch, sh</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">box – boxes, watch – watches, dish – dishes, bus – buses</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-y na een medeklinker wordt -ies</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">baby – babies, city – cities</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-y na een klinker blijft -y</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">boy – boys, day – days</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-f of -fe wordt vaak -ves</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">knife – knives, leaf – leaves, wife – wives</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onregelmatig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">man – men, woman – women, child – children, tooth – teeth, foot – feet, mouse – mice</td></tr></table>",
+     "onderschrift": "De onregelmatige meervouden moet je uit het hoofd kennen; er zit geen regel achter."
+    },
+    {
+     "soort": "tekst",
+     "html": "Sommige woorden hebben <strong>geen</strong> meervoud: <em>information</em>, <em>advice</em>, <em>homework</em>. Je zegt <em>much information</em> of <em>a piece of advice</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Lidwoorden: a, an en the",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<em>The</em> is het <strong>bepaalde</strong> lidwoord (definite article): je weet over welk ding het gaat. <em>A</em> en <em>an</em> zijn <strong>onbepaald</strong> (indefinite): het maakt niet uit welke."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>A of an?</strong> Het gaat om de <strong>klank</strong>, niet om de letter. <em>An elephant</em>, <em>an apple</em>, <em>an hour</em> (de h zwijgt) — maar <em>a university</em>, want dat begint met een joe-klank."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>beroep</strong> staat er in het Engels altijd een lidwoord: <em>She is a teacher</em>, <em>He is an engineer</em>. In het Nederlands laten we dat weg."
+    }
+   ]
+  },
+  {
+   "kop": "Determiners: dit, dat, mijn, welk",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vormen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aanwijzend (demonstrative)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">this, these (dichtbij) — that, those (veraf)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">This book here is mine. Those books are theirs.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bezittelijk (possessive adjective)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">my, your, his, her, its, our, their</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">my book, her bag</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vragend (interrogative adjective)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">which, what, whose</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Which film do you prefer? Whose bag is this?</td></tr></table>",
+     "onderschrift": "This en that zijn enkelvoud, these en those meervoud."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Which of what?</strong> <em>Which</em> gebruik je als er een beperkte keuze is (<em>Which colour, red or blue?</em>), <em>what</em> als de keuze open is (<em>What is your favourite subject?</em>). En <em>whose</em> vraagt naar de eigenaar — niet te verwarren met <em>who's</em>, dat <em>who is</em> betekent."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Its of it's?</strong> <em>It's</em> met apostrof betekent <em>it is</em>. <em>Its</em> zonder apostrof is het bezittelijke: <em>The dog wagged its tail.</em> Een klassieke valstrik."
+    }
+   ]
+  },
+  {
+   "kop": "Voornaamwoorden: ik, mij, de mijne",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">onderwerp (subject)</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorwerp (object)</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">bezittelijk voornaamwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">me</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mine</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">you</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">you</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">yours</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">he / she / it</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">him / her / it</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">his / hers / its</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">we</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">us</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ours</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">they</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">them</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">theirs</td></tr></table>",
+     "onderschrift": "Mine, yours, hers en theirs staan alleen, zonder naamwoord erachter."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De plaats van het persoonlijk voornaamwoord.</strong> De vorm vóór het werkwoord is het onderwerp (<em>Sarah and I went to the cinema</em>), de vorm erna is het voorwerp (<em>Tom helped me</em>). En die staat <strong>achter</strong> het werkwoord: <em>I saw him</em>, nooit 'I him saw'."
+    },
+    {
+     "soort": "tekst",
+     "html": "Vragende voornaamwoorden: <em>what</em> (wat), <em>who</em> (wie), <em>where</em> (waar), <em>when</em> (wanneer), <em>whose</em> (van wie)."
+    }
+   ]
+  },
+  {
+   "kop": "Bijvoeglijke naamwoorden en de trappen van vergelijking",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vergrotende trap</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">overtreffende trap</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kort (big, small, easy)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bigger, smaller, easier</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">the biggest, the smallest, the easiest</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lang (expensive, interesting)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">more expensive</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">the most expensive</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onregelmatig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">good – better / bad – worse / far – further</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">the best / the worst / the furthest</td></tr></table>",
+     "onderschrift": "Bij één korte klinker verdubbelt de medeklinker: big wordt bigger, hot wordt hotter."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een vergelijking hoort <strong>than</strong>: <em>This exercise is easier than the first one.</em> Bij een gelijkheid <strong>as … as</strong>: <em>She is as tall as her brother.</em> En nooit allebei tegelijk: <em>more better</em> bestaat niet, het is gewoon <em>better</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een bijvoeglijk naamwoord staat in het Engels <strong>vóór</strong> het naamwoord en verandert <strong>nooit</strong> van vorm: <em>a red car</em>, <em>red cars</em>. Geen -s dus, ook niet in het meervoud."
+    }
+   ]
+  },
+  {
+   "kop": "Telwoorden en voorzetsels",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Hoofdtelwoorden</strong> (cardinal numbers) tellen: <em>one, two, fifteen</em>. <strong>Rangtelwoorden</strong> (ordinal numbers) zeggen de plaats in een rij: <em>first, second, third, twelfth, twentieth</em>. <em>He came second in the race.</em> Let op de lastige: <em>five → fifth</em>, <em>nine → ninth</em>, <em>twelve → twelfth</em>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorzetsel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarvoor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">at</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een uur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">at nine o'clock</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">on</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een dag of datum</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">on Monday, on the third of May</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een maand, seizoen of jaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in May, in winter, in 2027</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een land of stad</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in Belgium, in London</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">by</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vervoermiddel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">by bike, by bus, by train</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">on</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">te voet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">on foot</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">plaats</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">on (op), in (in), under (onder), next to (naast), between (tussen), behind (achter), in front of (voor)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">The cat is on the table.</td></tr></table>",
+     "onderschrift": "At voor een punt in de tijd, on voor een dag, in voor een langere periode."
+    }
+   ]
+  },
+  {
+   "kop": "De Engelse namen, en nog wat voorbeelden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vergrotende trap heet in het Engels de <strong>comparative</strong>, de overtreffende trap de <strong>superlative</strong>. Je zal die namen op een examen tegenkomen, dus onthoud ze samen met de vormen."
+    },
+    {
+     "soort": "kader",
+     "html": "<em>Sarah helped me with the exercise. I thanked her.</em><br>Sarah hielp mij: <em>me</em> is het voorwerp, want het staat achter het werkwoord. <em>Her</em> is dat ook. In <em>I saw him</em> is <em>him</em> het lijdend voorwerp."
+    },
+    {
+     "soort": "kader",
+     "html": "<em>My cousins live in Wales. They have a farm there.</em><br><em>They</em> wijst naar de neven en nichten: meerdere personen, dus een meervoud. Wil je weten waarnaar een verwijswoord wijst, zoek dan het dichtstbijzijnde woord ervóór dat past — soms is dat een hele groep."
+    },
+    {
+     "soort": "tekst",
+     "html": "Nog wat zinnen om de vormen in te zien: <em>The lesson starts at nine.</em> <em>She lives near the school.</em> <em>We walked to the station.</em> <em>The meeting is on the third of May.</em> In elk van die zinnen staat een bijvoeglijk naamwoord of een lidwoord op zijn vaste plaats, en je hoeft er geen extra woord bij te zetten."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "box – boxes, baby – babies, knife – knives, child – children, foot – feet.",
+  "a of an hangt af van de klank: an hour, a university.",
+  "this/these dichtbij, that/those veraf.",
+  "my book, maar this book is mine.",
+  "it's = it is; its = van hem/haar/het.",
+  "korte woorden -er/-est, lange more/most, en nooit 'more better'.",
+  "at een uur, on een dag, in een maand."
+ ]
+}

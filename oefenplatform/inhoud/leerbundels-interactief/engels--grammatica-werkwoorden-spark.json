@@ -1,0 +1,151 @@
+{
+ "vak": "Engels",
+ "titel": "Grammatica: werkwoorden, tijden en zinsbouw",
+ "onder": "De zes tijden uit de vakfiche, de soorten zinnen, en wat bij wat hoort.",
+ "secties": [
+  {
+   "kop": "De tijden die je moet kennen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">tijd</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wanneer</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">infinitive</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">to swim, to be, to have</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de basisvorm, zoals in het woordenboek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">imperative</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Close the door. Don't forget!</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bevel of een instructie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">present simple</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I work, she works</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gewoonte: she goes to school every day</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">present continuous</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I am working, it is raining</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat nu bezig is: Look, it is raining!</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">past simple</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I worked, we went</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gebeurd en afgelopen: last summer we went to Spain</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">future simple</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I will help, he will be</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de toekomst, met will</td></tr></table>",
+     "onderschrift": "De zes vormen die de vakfiche opsomt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Present simple of continuous?</strong> <em>I read every evening</em> is een gewoonte. <em>I am reading now</em> is op dit moment bezig. Werkwoorden van weten, vinden en voelen (<em>to know</em>, <em>to like</em>) gebruik je normaal <strong>niet</strong> in de continuous: je zegt <em>I know the answer</em>, niet 'I am knowing'."
+    },
+    {
+     "soort": "tekst",
+     "html": "De continuous maak je met <em>to be</em> + <em>-ing</em>: <em>she is writing</em>, <em>they are watching</em>. De -e van <em>write</em> valt weg voor -ing."
+    }
+   ]
+  },
+  {
+   "kop": "De -s bij he, she en it",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 128\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"117.5\" y=\"16\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">I</text><text x=\"117.5\" y=\"31\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">you</text><text x=\"117.5\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">we</text><text x=\"117.5\" y=\"61\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">they</text><path d=\"M117.5 76 v12 m0 0 l-4 -5 m4 5 l4 -5\" stroke=\"#2f5d50\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"79.5\" y=\"92\" width=\"76\" height=\"30\" rx=\"8\" fill=\"#2f5d50\" /><text x=\"117.5\" y=\"112\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#ffffff\">work</text><text x=\"352.5\" y=\"16\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">he</text><text x=\"352.5\" y=\"31\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">she</text><text x=\"352.5\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">it</text><path d=\"M352.5 61 v12 m0 0 l-4 -5 m4 5 l4 -5\" stroke=\"#c06a2a\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"314.5\" y=\"77\" width=\"76\" height=\"30\" rx=\"8\" fill=\"#c06a2a\" /><text x=\"352.5\" y=\"97\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#ffffff\">works</text></svg>",
+     "onderschrift": "De overeenkomst tussen onderwerp en persoonsvorm, in de present simple."
+    },
+    {
+     "soort": "tekst",
+     "html": "Die -s heet de <strong>overeenkomst</strong> (agreement) tussen onderwerp en persoonsvorm. In een vraag of een ontkenning verhuist ze naar het hulpwerkwoord: <em>Does she live in Ghent?</em> en <em>He doesn't like tea</em> — dus niet 'does she lives' of 'doesn't likes'."
+    },
+    {
+     "soort": "tekst",
+     "html": "De persoonsvorm volgt het <strong>onderwerp</strong>, niet het woord dat er toevallig vlak voor staat: <em>The books on the table <strong>are</strong> mine.</em> En twee personen samen zijn meervoud: <em>My sister and I are going.</em>"
+    }
+   ]
+  },
+  {
+   "kop": "Verleden tijd: regelmatig en onregelmatig",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Regelmatige werkwoorden krijgen <strong>-ed</strong>: <em>played, worked, watched</em>. Staat er al een -e, dan komt er alleen een -d bij: <em>liked</em>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">infinitief</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">past simple</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voltooid deelwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">to go</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">went</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gone</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">to see</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">saw</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">seen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">to take</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">took</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">taken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">to buy</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bought</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bought</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">to bring</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">brought</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">brought</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">to think</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">thought</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">thought</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">to be</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">was / were</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">been</td></tr></table>",
+     "onderschrift": "Na have komt het voltooid deelwoord: I have gone. 'I have went' bestaat niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>To be</em> is het onregelmatigste van allemaal: <em>I was, you were, he was, we were, they were</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De vakfiche noemt de <strong>signaalwoorden</strong> bij de past simple: <em>ago</em>, <em>yesterday</em>, <em>last week</em>. Ook <em>last summer</em> en <em>last year</em> horen daarbij. Zie je die staan, dan weet je welke tijd je nodig hebt."
+    },
+    {
+     "soort": "tekst",
+     "html": "De toekomst maak je met <strong>will</strong> + het werkwoord zonder to: <em>I will call you tonight</em>, <em>She will be fifteen in June</em>. <em>Will</em> verandert nooit: ook <em>he will</em>, nooit 'he wills'."
+    }
+   ]
+  },
+  {
+   "kop": "Soorten zinnen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Engels</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mededelend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">declarative sentence</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">My sister lives in Antwerp.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vragend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">interrogative sentence</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Do you like coffee?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bevelend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">imperative sentence</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Close the door, please.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uitroepend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">exclamative sentence</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">What a beautiful day!</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ontkennend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">negative sentence</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I don't like fish. We never go there.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bevestigend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">affirmative sentence</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">They are happy.</td></tr></table>",
+     "onderschrift": "Een bevelende zin heeft geen onderwerp: het werkwoord staat vooraan."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een vraag in de present simple maak je met <strong>do</strong> of <strong>does</strong>: <em>Do you like coffee?</em>, <em>Does she live in Ghent?</em> Ontkennen doe je met <em>don't</em> en <em>doesn't</em>, of met <em>not</em> en <em>never</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Don't forget your keys!</em> is tegelijk <strong>bevelend</strong> en <strong>ontkennend</strong>, met een uitroepteken erbij — en zonder onderwerp, zoals elke imperative."
+    }
+   ]
+  },
+  {
+   "kop": "Enkelvoudige en samengestelde zinnen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>enkelvoudige</strong> zin heeft één persoonsvorm: <em>The dog barked.</em> Een <strong>samengestelde</strong> zin heeft er twee of meer, verbonden door een voegwoord: <em>I like reading, but my brother prefers football.</em>"
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 70\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"4.0\" y=\"4\" width=\"216.0\" height=\"34\" rx=\"8\" fill=\"#2f5d5022\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"112.0\" y=\"26\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#234539\">The children</text><text x=\"112.0\" y=\"55\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#2f5d50\">onderwerp (subject)</text><rect x=\"226.0\" y=\"4\" width=\"108.0\" height=\"34\" rx=\"8\" fill=\"#c06a2a22\" stroke=\"#c06a2a\" stroke-width=\"1.6\"/><text x=\"280.0\" y=\"26\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#234539\">played</text><text x=\"280.0\" y=\"55\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#c06a2a\">persoonsvorm (finite verb)</text><rect x=\"340.0\" y=\"4\" width=\"126.0\" height=\"34\" rx=\"8\" fill=\"#6b7a6322\" stroke=\"#6b7a63\" stroke-width=\"1.6\"/><text x=\"403.0\" y=\"26\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#234539\">outside</text><text x=\"403.0\" y=\"55\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7a63\">rest van de zin</text></svg>",
+     "onderschrift": "Het onderwerp is wie of wat het werkwoord doet; de persoonsvorm verandert met de tijd."
+    },
+    {
+     "soort": "tekst",
+     "html": "De frequente voegwoorden uit de vakfiche: <em>and</em>, <em>but</em>, <em>so</em>, <em>when</em> en <em>because</em>. <em>I was tired, so I went to bed early</em> — <em>so</em> geeft het gevolg, <em>because</em> de reden. <em>Very</em> is géén voegwoord: dat versterkt alleen een bijvoeglijk naamwoord."
+    }
+   ]
+  },
+  {
+   "kop": "Spelling en klank",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vakfiche vraagt dat je de <strong>spelling van frequente woorden</strong> beheerst en dat je de relatie tussen <strong>klank- en schriftbeeld</strong> kent. Enkele woorden waar het vaak misgaat: <em>because</em> (niet becouse), <em>friend</em>, <em>their</em> tegenover <em>there</em>, <em>its</em> tegenover <em>it's</em>."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een ezelsbruggetje voor <em>because</em>: <strong>B</strong>ig <strong>E</strong>lephants <strong>C</strong>an <strong>A</strong>lways <strong>U</strong>nderstand <strong>S</strong>mall <strong>E</strong>lephants."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>uitspraak</strong> zelf — klanken, woordklemtoon, articulatie en intonatie — hoort bij luisteren en spreken. Die oefen je hier niet: daar heb je geluid en een gesprekspartner voor nodig."
+    }
+   ]
+  },
+  {
+   "kop": "Nog wat zinnen om op te oefenen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<em>Doesn't</em> en <em>don't</em> zijn <strong>samengetrokken</strong> vormen van <em>does not</em> en <em>do not</em>. Op een examen mag je allebei schrijven, als je maar consequent blijft binnen één tekst."
+    },
+    {
+     "soort": "kader",
+     "html": "<em>It is raining. → Het regent nu.</em> Iets dat aan het regenen is, zet je in de present continuous.<br><em>I will write a letter tomorrow.</em> Een brief die je morgen gaat schrijven staat in de <strong>toekomende</strong> tijd, met <em>will</em>.<br><em>Last year we went to London for our holiday.</em> Vorig jaar, dus de past simple; die vakantie is voorbij."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>derde</strong> persoon enkelvoud is de enige die een -s krijgt: <em>he writes</em>, <em>she finished her homework</em>. Schrijf je een zin zelf, kijk dan altijd na of die -s er staat waar hij hoort; een correcte persoonsvorm is het eerste wat opvalt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Welke <strong>zinssoort</strong> heb je voor je? <em>Close the door.</em> is bevelend. <em>What a beautiful day!</em> is uitroepend. <em>Do you like coffee?</em> is vragend. <em>My sister lives in Antwerp.</em> is mededelend. En voegwoorden verbinden twee zinnen tot één samengestelde zin; welk voegwoord je kiest, zegt hoe de delen samenhangen. Kijk dus goed of je antwoord echt juist (<em>right</em>) is voor die ene zin."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "he, she, it krijgen een -s: she goes. In een vraag verhuist die naar does.",
+  "present simple = gewoonte, present continuous = nu bezig.",
+  "Signaalwoorden voor de past simple: ago, yesterday, last week.",
+  "go–went–gone, see–saw–seen, buy–bought–bought.",
+  "will verandert nooit, en erna komt het werkwoord zonder to.",
+  "Eén persoonsvorm = enkelvoudige zin; twee of meer = samengesteld."
+ ]
+}

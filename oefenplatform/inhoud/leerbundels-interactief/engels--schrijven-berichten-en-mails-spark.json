@@ -1,0 +1,164 @@
+{
+ "vak": "Engels",
+ "titel": "Schrijven: berichten, uitnodigingen en mails",
+ "onder": "Wat je schrijft, hoe je het opbouwt, en tegen wie je het zegt.",
+ "secties": [
+  {
+   "kop": "Wat vraagt het examen?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Schrijven weegt 8 % en <strong>schriftelijke interactie</strong> nog eens 8 %. Dat laatste is schrijven waarbij je <strong>reageert</strong> op iemand anders: je krijgt een mail met een vraag erin en je antwoordt. Bij elke opdracht krijg je een <strong>schrijfkader</strong> dat je op weg helpt."
+    },
+    {
+     "soort": "tekst",
+     "html": "De vakfiche somt op wat je moet kunnen: alledaagse sociale contacten leggen (begroeten, aanspreken, afscheid nemen, iets voorstellen, bedanken, feliciteren, uitnodigen, je verontschuldigen en reageren op verontschuldigingen), informatie geven en vragen, je mening geven, iets vertellen en iemand iets uitleggen."
+    }
+   ]
+  },
+  {
+   "kop": "Register: tegen wie schrijf je?",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 160\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30\" y1=\"46\" x2=\"440\" y2=\"46\" stroke=\"#e4ded0\" stroke-width=\"8\" stroke-linecap=\"round\"/><circle cx=\"78\" cy=\"46\" r=\"9\" fill=\"#2f5d50\"/><text x=\"78.0\" y=\"28.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">informeel</text><text x=\"78.0\" y=\"76.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">je beste vriend</text><rect x=\"6\" y=\"88\" width=\"144\" height=\"30\" rx=\"9\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"78.0\" y=\"107.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2f5d50\">Hi Tom, coming tonight?</text><circle cx=\"235\" cy=\"46\" r=\"9\" fill=\"#6b7260\"/><text x=\"235.0\" y=\"28.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">neutraal</text><text x=\"235.0\" y=\"76.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">je trainer</text><rect x=\"163\" y=\"88\" width=\"144\" height=\"30\" rx=\"9\" fill=\"#ffffff\" stroke=\"#6b7260\" stroke-width=\"1.5\"/><text x=\"235.0\" y=\"107.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">Are you coming tonight?</text><circle cx=\"392\" cy=\"46\" r=\"9\" fill=\"#c17f2b\"/><text x=\"392.0\" y=\"28.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">formeel</text><text x=\"392.0\" y=\"76.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">een onbekende</text><rect x=\"320\" y=\"88\" width=\"144\" height=\"30\" rx=\"9\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.5\"/><text x=\"392.0\" y=\"107.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#c17f2b\">Would you like to join us?</text><text x=\"235.0\" y=\"142.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">Niet één vorm is juist: de situatie en de ontvanger bepalen je keuze.</text></svg>",
+     "onderschrift": "Dezelfde vraag, drie keer anders, afhankelijk van wie ze leest."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">informeel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">neutraal of formeel</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">begin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Hi Tom, / Hello Emma,</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Dear Mr Jones, / Dear Sir or Madam,</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">einde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">See you soon! / Bye, Lisa</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Kind regards, / Yours faithfully,</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vragen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Can you send it?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Could you please send me the form?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aanspreken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mate</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Sir, Madam</td></tr></table>",
+     "onderschrift": "Dear Sir or Madam gebruik je als je de naam van de lezer niet kent."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Sir</em> en <em>mate</em> kan je dus niet in dezelfde situatie gebruiken. En vergeet niet genoeg <strong>please</strong> en <strong>thank you</strong> te zeggen: dat hoort bij de beleefdheidsconventies. Vermijd scheldwoorden, ook verpakte."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bevelen klinken onvriendelijk. <em>Send me the form now</em> wordt <em>Could you please send me the form?</em> En <em>You have to come to my party</em> wordt <em>Would you like to come to my party?</em>"
+    }
+   ]
+  },
+  {
+   "kop": "Vaste zinnen voor sociale contacten",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je schrijft</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uitnodigen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Would you like to come to my party?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets voorstellen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Shall we go to the cinema? / Why don't we meet at six?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bedanken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Thank you so much for the present!</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">feliciteren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Congratulations!</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je verontschuldigen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I'm sorry I'm late. / Sorry, I can't come.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">reageren op een excuus</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">That's all right. / No problem.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">om hulp vragen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Could you help me, please?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je mening geven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">In my opinion, … / I think … / I don't agree with …</td></tr></table>",
+     "onderschrift": "Congratulations staat altijd in het meervoud en heeft geen d."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>uitnodiging</strong> horen altijd drie dingen: <strong>wanneer</strong>, <strong>waar</strong> en <strong>waarvoor</strong>. Zonder die drie kan je lezer niets met je bericht. Bij een <strong>reservatie</strong> zijn dat de data van je verblijf, het aantal personen en je naam."
+    }
+   ]
+  },
+  {
+   "kop": "De opbouw van je tekst",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 154.0\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"4\" y=\"4\" width=\"462\" height=\"39\" rx=\"9\" fill=\"rgba(47,93,80,.07)\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"20\" y=\"20\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">inleiding</text><text x=\"20\" y=\"36\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">waarom je schrijft: I am writing about the headphones I bought last week.</text><rect x=\"4\" y=\"51\" width=\"462\" height=\"48\" rx=\"9\" fill=\"rgba(47,93,80,.07)\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"20\" y=\"72\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">midden</text><text x=\"20\" y=\"88\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">de inhoud, één gedachte per alinea</text><rect x=\"4\" y=\"107\" width=\"462\" height=\"39\" rx=\"9\" fill=\"rgba(47,93,80,.07)\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"20\" y=\"124\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">slot</text><text x=\"20\" y=\"140\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">afronden en groeten: I hope to see you soon. Bye, Lisa</text></svg>",
+     "onderschrift": "Inleiding, midden, slot — de structuur die de vakfiche vraagt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Gebruik ook in je eigen tekst <strong>signaalwoorden</strong>: <em>first</em>, <em>after that</em>, <em>in the end</em>. Ze maken je tekst overzichtelijk. En zet je alinea's zo dat er <strong>één gedachte per alinea</strong> staat; niet alles in één blok, en ook niet elke zin op een nieuwe regel."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>lay-out</strong> telt mee. Een mail met een aanhef, alinea's en een groet leest nu eenmaal beter dan een lap tekst."
+    }
+   ]
+  },
+  {
+   "kop": "Waarop word je beoordeeld?",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vereiste</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat men verwacht</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">taakvoltooiing</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het doel is bereikt, je boodschap komt over, en je respecteert de opgegeven lengte (write about 80 words)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">woordenschat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je gebruikt frequente woorden en vaste uitdrukkingen correct</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">grammatica en zinsbouw</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eenvoudige correcte zinnen; fouten verstoren de communicatie niet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tekststructuur en samenhang</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">inleiding, midden, slot, met herkenbare tekstverbanden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">register en beleefdheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gepast register en gepaste beleefdheidsconventies</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tekstopbouw en lay-out</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de opbouw is duidelijk herkenbaar, de lay-out is gepast</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spelling en leestekens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je spelt redelijk correct, met hulp van de spellingcontrole</td></tr></table>",
+     "onderschrift": "De vereisten uit de vakfiche voor een geschreven tekst."
+    },
+    {
+     "soort": "tekst",
+     "html": "Schrijf je 25 woorden waar er 60 gevraagd zijn, dan zakt je <strong>taakvoltooiing</strong>, ook al is elk woord juist. Schrijf je zes zinnen zonder punt of hoofdletter, dan zakt je <strong>spelling en leestekengebruik</strong>. Lichaamstaal geldt alleen voor spreken, niet voor een geschreven tekst."
+    },
+    {
+     "soort": "weetje",
+     "html": "Kleine grammaticafouten die de boodschap niet in de weg staan, zijn op dit niveau <strong>aanvaardbaar</strong>. Perfect hoeft niet; begrijpelijk wel."
+    }
+   ]
+  },
+  {
+   "kop": "Spelling die je vaak nodig hebt",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">fout</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">juist</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarom</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">i went to londen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I went to London</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I krijgt altijd een hoofdletter, net als landen en steden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">my freind</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">my friend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">friend met -ie-; er zit 'end' in</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">congratulation</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">congratulations</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">altijd meervoud</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">becouse</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">because</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Big Elephants Can Always Understand Small Elephants</td></tr></table>",
+     "onderschrift": "Weekend is wél juist gespeld, ook al ziet het er Nederlands uit."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je mag tijdens het examen een <strong>spellingcontrole</strong> en een online <strong>woordenboek</strong> gebruiken. Oefen daar thuis mee, zodat je er op het examen geen tijd mee verliest. Lees je tekst achteraf nog eens na: is de communicatie helder, gepast en vlot?"
+    },
+    {
+     "soort": "tekst",
+     "html": "Weet je niet hoe je iets moet zeggen? Laat je niet ontmoedigen. Probeer je doel te bereiken met de woorden en structuren die je wél al kent. Dat staat zo in de vakfiche."
+    }
+   ]
+  },
+  {
+   "kop": "Zes schrijfopdrachten, uitgewerkt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Zo ziet een schrijfopdracht eruit op het examen. Lees telkens wat er gevraagd wordt en let op het register: schrijf je aan een vriendin of aan de directeur van de school?"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>1. Een mailtje aan de directeur.</strong> Dit is formeel. Je begint met <em>Dear Mr Jones,</em> en je sluit datzelfde mailtje af met <em>Kind regards,</em> en je naam. Aan een leraar schrijf je op dezelfde manier."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>2. Een uitnodiging voor je verjaardag.</strong> <em>Hi Emma, would you like to come to my birthday party on Saturday at four, at my house?</em> Wanneer, waar en waarvoor: alle drie erin. Aan een vriendin mag dit informele register."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>3. Bedanken voor een cadeau.</strong> Je stuurt een kaartje: <em>Thank you so much for the present. I really love it!</em> Wie iets te vieren heeft, krijgt <em>Congratulations!</em> — gefeliciteerd."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>4. Een berichtje in de groepschat.</strong> Aan een buitenlandse leerling die net in je klas zit: <em>Hi! I am Sam. Do you want to sit with us at lunch?</em> Kort en vriendelijk; niemand verwacht hier een brief."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>5. Je mening over schooluniformen.</strong> <em>In my opinion, school uniforms are boring, but they are also practical.</em> Begin met je standpunt, geef dan je redenen. Dat is het middenstuk van je tekst."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>6. Een hotelkamer reserveren.</strong> <em>Dear Sir or Madam, I would like to book a room for two people from 3 to 7 July. Could you confirm the price?</em> Bij een reservering zet je de data van je verblijf, het aantal personen en je naam erbij."
+    },
+    {
+     "soort": "tekst",
+     "html": "Nog één situatie die vaak terugkomt: je koopt een toestel in een <strong>winkel</strong> en het is kapot. Dan schrijf je een klacht. Zeg eerst wat je kocht en wanneer, dan wat er scheelt, en dan wat je wil: <em>I bought these headphones last week, but the left one does not work. Could I have a new pair?</em>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een paar praktische dingen. Zet je naam <strong>vooraan</strong> in de aanhef en achteraan bij de groet. Laat gerust weg wat er niet toe doet: een tekstje van zestig woorden heeft geen plaats voor je hele vorige vakantie. Deel je tekst in alinea's, want dat leest overzichtelijker. En schrijf je zinnen in de past simple als je vertelt wat er gebeurd is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Van welke vorm mag je zeker zijn dat hij het beleefdst is? <em>Would you like…?</em> en <em>Could you please…?</em> winnen het altijd van een bevel. Wie je tekst nakijkt, geeft zijn beoordeling op de zeven punten uit de tabel hierboven, en elk onderdeel telt mee. Kijk je tekst dus nog eens na voor je hem afgeeft."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Dear Mr Jones + Kind regards is neutraal; Hi Tom + Bye is informeel.",
+  "Would you like…? en Could you please…? zijn de beleefde vormen.",
+  "Een uitnodiging zegt wanneer, waar en waarvoor.",
+  "Inleiding, midden, slot — en één gedachte per alinea.",
+  "Respecteer de opgegeven lengte: dat is taakvoltooiing.",
+  "Vergeet please en thank you niet."
+ ]
+}
