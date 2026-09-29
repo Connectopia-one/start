@@ -89,10 +89,10 @@ VRAGEN = [
     },
     {
         "type": "invultekst",
-        "vraag": "Hoeveel jaar zit er tussen het ontstaan van het spijkerschrift (3300 v.C.) en de val van het West-Romeinse Rijk (476 n.C.)?",
+        "vraag": "Het spijkerschrift ontstond rond 3300 v.C., het West-Romeinse Rijk viel in 476 n.C. Hoeveel jaar later is dat?",
         "antwoord": "3776",
         "reken": "3300 + 476",
-        "uitleg": "Je telt de jaren voor en na onze tijdrekening samen: 3300 + 476 = 3776. Er bestaat geen jaar 0, maar voor een berekening over zo'n lange periode maakt dat niets uit.",
+        "uitleg": "Je telt de jaren voor en na onze tijdrekening samen: 3300 + 476 = 3776. Streng geteld is het er één minder, want er bestaat geen jaar 0, maar 3300 v.C. is zelf al een schatting. Bij zo'n lange periode telt dat ene jaar dus niet mee.",
     },
     {
         "type": "meerkeuze",

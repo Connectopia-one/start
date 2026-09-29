@@ -26,7 +26,7 @@ TIJDLIJN = [
     },
     {
         "type": "meerkeuze",
-        "vraag": "Hoeveel jaar zit er tussen 30 v.Chr. en 20 na Chr.?",
+        "vraag": "Hoeveel jaar later is 20 na Chr. dan 30 v.Chr.?",
         "opties": ["49", "50", "10", "51"],
         "antwoord": 0,
         "reken": "30 + 20 - 1",
@@ -91,7 +91,7 @@ TIJDLIJN = [
     },
     {
         "type": "invultekst",
-        "vraag": "Hoeveel jaar zit er tussen 1789 en 1830?",
+        "vraag": "Hoeveel jaar later is 1830 dan 1789?",
         "antwoord": "41",
         "reken": "1830 - 1789",
         "uitleg": "1830 − 1789 = 41 jaar. Allebei na Christus, dus hier hoef je niets af te trekken voor het ontbrekende jaar 0.",
@@ -116,7 +116,7 @@ TIJDLIJN = [
     },
     {
         "type": "invultekst",
-        "vraag": "Hoeveel jaar zit er tussen de Guldensporenslag in 1302 en het begin van de Eerste Wereldoorlog in 1914?",
+        "vraag": "De Guldensporenslag was in 1302, de Eerste Wereldoorlog begon in 1914. Hoeveel jaar later is dat?",
         "antwoord": "612",
         "reken": "1914 - 1302",
         "uitleg": "1914 − 1302 = 612 jaar, dus ruim zes eeuwen.",

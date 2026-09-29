@@ -66,9 +66,9 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel jaar zit er tussen 1900 en 1975?",
+          "vraag": "Hoeveel jaar later is 1975 dan 1900?",
           "antwoord": "75",
-          "uitleg": "1975 min 1900 is 75 jaar."
+          "uitleg": "1975 − 1900 = 75 jaar."
         },
         {
           "type": "meerkeuze",
@@ -114,9 +114,9 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel jaar zit er tussen 50 v.Chr. en 50 na Chr.?",
-          "antwoord": "100",
-          "uitleg": "Vijftig jaar voor en vijftig jaar na het jaar nul."
+          "vraag": "Hoeveel jaar later is 50 na Chr. dan 50 v.Chr.?",
+          "antwoord": "99",
+          "uitleg": "Je zou 50 + 50 = 100 zeggen, maar er bestaat geen jaar 0: na 1 v.Chr. komt meteen 1 na Chr. Daardoor is het er één minder, dus 99."
         },
         {
           "type": "waarofniet",
@@ -258,9 +258,9 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel jaar zit er tussen 1830 en 1914?",
+          "vraag": "Hoeveel jaar later is 1914 dan 1830?",
           "antwoord": "84",
-          "uitleg": "1914 min 1830 is 84 jaar. Zo lang bestond België al toen de Eerste Wereldoorlog begon."
+          "uitleg": "1914 − 1830 = 84 jaar. Zo lang bestond België al toen de Eerste Wereldoorlog begon."
         },
         {
           "type": "waarofniet",
@@ -354,9 +354,9 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Hoeveel jaar zit er tussen 1000 v.Chr. en 500 v.Chr.?",
+          "vraag": "Hoeveel jaar later is 500 v.Chr. dan 1000 v.Chr.?",
           "antwoord": "500",
-          "uitleg": "Voor Christus tellen de jaartallen af. Van 1000 naar 500 v.Chr. is dus 500 jaar vooruit in de tijd."
+          "uitleg": "Voor Christus tellen de jaartallen af. Van 1000 v.Chr. naar 500 v.Chr. ga je dus 500 jaar vooruit in de tijd."
         },
         {
           "type": "meerkeuze",

@@ -23,7 +23,7 @@ VRAGEN = [
     },
     {
         "type": "invultekst",
-        "vraag": "Hoeveel jaar zit er tussen de Guldensporenslag (1302) en de val van de Berlijnse Muur (1989)?",
+        "vraag": "De Guldensporenslag was in 1302, de Berlijnse Muur viel in 1989. Hoeveel jaar later is dat?",
         "antwoord": "687",
         "reken": "1989 - 1302",
         "uitleg": "1989 - 1302 = 687 jaar. Dat is bijna zeven eeuwen.",
@@ -145,7 +145,7 @@ VRAGEN = [
     },
     {
         "type": "invultekst",
-        "vraag": "Hoeveel jaar zit er tussen de val van het West-Romeinse Rijk in 476 en de Guldensporenslag in 1302?",
+        "vraag": "Het West-Romeinse Rijk viel in 476, de Guldensporenslag was in 1302. Hoeveel jaar later is dat?",
         "antwoord": "826",
         "reken": "1302 - 476",
         "uitleg": "1302 - 476 = 826 jaar. Die lange tussenperiode noemen we de middeleeuwen.",

@@ -117,6 +117,35 @@ function accentverschil(vraag: Vraag, gegeven: Gegeven): string | null {
 }
 
 /**
+ * Was het antwoord juist, maar schreef het kind het met een kleine letter waar
+ * een hoofdletter hoort? Dan zeggen we dat erbij.
+ *
+ * Marjolein meldde dit op 29 september 2026: bij "de Engelse naam voor de maand
+ * december" stond in de uitleg dat een maand in het Engels een hoofdletter
+ * krijgt, maar wie "december" typte, kreeg gewoon een vinkje. Fout rekenen is
+ * te hard — een kind dat het woord kent, kent het — maar zwijgen klopt ook
+ * niet, want dan spreekt het platform zichzelf tegen.
+ *
+ * Het gaat altijd over een echte hoofdletter in het antwoord: December,
+ * Wednesday, Brussel, Mars, de O van zuurstof. Een gewoon woord staat in onze
+ * bestanden nergens met een hoofdletter, dus niemand krijgt deze zin te zien
+ * waar ze niet hoort.
+ */
+function hoofdletterverschil(vraag: Vraag, gegeven: Gegeven): string | null {
+  if (vraag.type !== "invultekst" || typeof gegeven !== "string") return null;
+  const getypt = gegeven.trim();
+  const antwoorden = invulAntwoorden(vraag.antwoord);
+  if (antwoorden.some((a) => getypt === a.trim())) return null;
+  return (
+    antwoorden.find(
+      (a) =>
+        a !== a.toLowerCase() &&
+        getypt.toLowerCase() === a.trim().toLowerCase(),
+    ) ?? null
+  );
+}
+
+/**
  * Telt dit ingetypte antwoord als juist? Buiten de taalvakken tellen enkelvoud
  * en meervoud allebei mee: "kieuw" naast "kieuwen", "herbivoor" naast
  * "herbivoren". Zie woordkern in lib/antwoord.ts.
@@ -148,9 +177,11 @@ function schrijfwijzeNota(
   vraag: Vraag,
   gegeven: Gegeven,
   soepel: boolean,
-): { tekst: string; accent: boolean } | null {
+): { tekst: string; soort: "accent" | "hoofdletter" | "vorm" } | null {
   const accent = accentverschil(vraag, gegeven);
-  if (accent) return { tekst: accent, accent: true };
+  if (accent) return { tekst: accent, soort: "accent" };
+  const hoofdletter = hoofdletterverschil(vraag, gegeven);
+  if (hoofdletter) return { tekst: hoofdletter, soort: "hoofdletter" };
   if (vraag.type !== "invultekst" || typeof gegeven !== "string" || !soepel)
     return null;
   const getypt = normaliseerAntwoord(gegeven);
@@ -160,7 +191,7 @@ function schrijfwijzeNota(
   if (antwoorden.some((a) => zelfdeGetal(getypt, normaliseerAntwoord(a))))
     return null;
   const anders = antwoorden.find((a) => zelfdeWoord(gegeven, a, true));
-  return anders ? { tekst: anders, accent: false } : null;
+  return anders ? { tekst: anders, soort: "vorm" } : null;
 }
 
 /**
@@ -400,9 +431,11 @@ function VraagKaart({
               if (!nota) return null;
               return (
                 <p className="mt-1 text-ink">
-                  {nota.accent
+                  {nota.soort === "accent"
                     ? "Let op de accenten: je schrijft het als "
-                    : "Wij schreven het als "}
+                    : nota.soort === "hoofdletter"
+                      ? "Let op de hoofdletter: je schrijft het als "
+                      : "Wij schreven het als "}
                   <strong>{nota.tekst}</strong>.
                 </p>
               );
