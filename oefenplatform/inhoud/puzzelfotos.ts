@@ -146,6 +146,66 @@ export const PUZZELFOTOS: Record<string, { url: string; verhouding: number }> =
       url: "/puzzels/nederlands/uitdaging-alles-door-elkaar.webp",
       verhouding: 4.2158,
     },
+    "wetenschap-en-techniek/biologie-het-menselijk-lichaam-pittig": {
+      url: "/puzzels/wetenschap-en-techniek/biologie-het-menselijk-lichaam-pittig.webp",
+      verhouding: 1.5504,
+    },
+    "wetenschap-en-techniek/biologie-het-menselijk-lichaam": {
+      url: "/puzzels/wetenschap-en-techniek/biologie-het-menselijk-lichaam.webp",
+      verhouding: 1.5126,
+    },
+    "wetenschap-en-techniek/biologie-leven-en-ecologie-pittig": {
+      url: "/puzzels/wetenschap-en-techniek/biologie-leven-en-ecologie-pittig.webp",
+      verhouding: 1.5248,
+    },
+    "wetenschap-en-techniek/biologie-leven-en-ecologie": {
+      url: "/puzzels/wetenschap-en-techniek/biologie-leven-en-ecologie.webp",
+      verhouding: 1.4959,
+    },
+    "wetenschap-en-techniek/chemie-stoffen-en-mengsels-pittig": {
+      url: "/puzzels/wetenschap-en-techniek/chemie-stoffen-en-mengsels-pittig.webp",
+      verhouding: 1.4959,
+    },
+    "wetenschap-en-techniek/chemie-stoffen-en-mengsels": {
+      url: "/puzzels/wetenschap-en-techniek/chemie-stoffen-en-mengsels.webp",
+      verhouding: 1.5248,
+    },
+    "wetenschap-en-techniek/de-aarde-en-de-ruimte-pittig": {
+      url: "/puzzels/wetenschap-en-techniek/de-aarde-en-de-ruimte-pittig.webp",
+      verhouding: 1.7711,
+    },
+    "wetenschap-en-techniek/de-aarde-en-de-ruimte": {
+      url: "/puzzels/wetenschap-en-techniek/de-aarde-en-de-ruimte.webp",
+      verhouding: 1.8313,
+    },
+    "wetenschap-en-techniek/natuurkunde-energie-en-krachten-pittig": {
+      url: "/puzzels/wetenschap-en-techniek/natuurkunde-energie-en-krachten-pittig.webp",
+      verhouding: 1.6927,
+    },
+    "wetenschap-en-techniek/natuurkunde-energie-en-krachten": {
+      url: "/puzzels/wetenschap-en-techniek/natuurkunde-energie-en-krachten.webp",
+      verhouding: 1.6514,
+    },
+    "wetenschap-en-techniek/natuurkunde-licht-geluid-en-elektriciteit-pittig": {
+      url: "/puzzels/wetenschap-en-techniek/natuurkunde-licht-geluid-en-elektriciteit-pittig.webp",
+      verhouding: 1.521,
+    },
+    "wetenschap-en-techniek/natuurkunde-licht-geluid-en-elektriciteit": {
+      url: "/puzzels/wetenschap-en-techniek/natuurkunde-licht-geluid-en-elektriciteit.webp",
+      verhouding: 1.5504,
+    },
+    "wetenschap-en-techniek/techniek-ontwerpen-en-maken-pittig": {
+      url: "/puzzels/wetenschap-en-techniek/techniek-ontwerpen-en-maken-pittig.webp",
+      verhouding: 1.6606,
+    },
+    "wetenschap-en-techniek/techniek-ontwerpen-en-maken": {
+      url: "/puzzels/wetenschap-en-techniek/techniek-ontwerpen-en-maken.webp",
+      verhouding: 1.6927,
+    },
+    "wetenschap-en-techniek/uitdaging-alles-door-elkaar": {
+      url: "/puzzels/wetenschap-en-techniek/uitdaging-alles-door-elkaar.webp",
+      verhouding: 2.3333,
+    },
     "wiskunde/bewerkingen-pittig": {
       url: "/puzzels/wiskunde/bewerkingen-pittig.webp",
       verhouding: 1.1136,
