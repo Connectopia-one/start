@@ -80,10 +80,13 @@ export default async function HomePage() {
           categorie om te starten.
         </p>
 
+        {/* Alles op deze pagina loopt even breed als de categorietegels
+            eronder. De kaders stonden eerst smaller, en dat viel op: de linker-
+            en rechterrand sprongen dan halverwege de pagina naar binnen. */}
         {/* Wie hier voor het eerst komt, weet nog niet wat dit is en waarop het
             steunt. Vier korte zinnen, en een link voor wie het naadje van de
             kous wil. De volledige tekst staat op /over-ons. */}
-        <section className="mt-5 max-w-2xl rounded-xl border border-border bg-surface p-5">
+        <section className="mt-5 rounded-xl border border-border bg-surface p-5">
           <h2 className="font-display text-base font-semibold text-ink">
             {startUitleg.kop}
           </h2>
@@ -110,11 +113,9 @@ export default async function HomePage() {
         {/* Elke dag één vraag, met een doel van drie dagen per week. Staat
             bewust vóór de categorieën: wie even tijd heeft, is met één klik
             bezig in plaats van eerst te moeten kiezen waar te beginnen. */}
-        <div className="max-w-2xl">
-          <Dagvraag />
-        </div>
+        <Dagvraag />
 
-        <p className="mt-5 max-w-2xl rounded-md bg-info/10 px-4 py-3 text-sm text-ink">
+        <p className="mt-5 rounded-md bg-info/10 px-4 py-3 text-sm text-ink">
           💡 Kies de categorie die het beste past bij wat je kind{" "}
           <strong>al kan</strong> — niet per se het officiële leerjaar of de
           leeftijd. Een kind mag gerust een categorie hoger of lager oefenen dan
