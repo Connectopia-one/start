@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { requireBeheerder } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
 import { Header } from "@/components/Header";
+import { vindNiveau } from "@/lib/niveaus";
 import {
   bulkImportVragen,
   verwijderVraag,
@@ -70,12 +71,16 @@ export default async function BeheerVragenPage({
   const volgnummer = Number(volgnummerStr);
 
   const supabase = await createClient();
-  const { data: vak } = await supabase.from("vakken").select("id, naam, slug").eq("slug", vakSlug).single();
+  const { data: vak } = await supabase
+    .from("vakken")
+    .select("id, naam, slug")
+    .eq("slug", vakSlug)
+    .single();
   if (!vak) notFound();
 
   const { data: hoofdstuk } = await supabase
     .from("hoofdstukken")
-    .select("id, titel, volgnummer, leestekst, woordenlijst")
+    .select("id, titel, volgnummer, niveau, leestekst, woordenlijst")
     .eq("vak_id", vak.id)
     .eq("volgnummer", volgnummer)
     .single();
@@ -83,17 +88,23 @@ export default async function BeheerVragenPage({
 
   const { data: vragenRuw } = await supabase
     .from("vragen")
-    .select("id, volgnummer, type, vraag, opties, antwoord, uitleg, afbeelding_pad")
+    .select(
+      "id, volgnummer, type, vraag, opties, antwoord, uitleg, afbeelding_pad",
+    )
     .eq("hoofdstuk_id", hoofdstuk.id)
     .order("volgnummer", { ascending: true });
 
   const vragen = await Promise.all(
     (vragenRuw ?? []).map(async (v) => {
-      if (!v.afbeelding_pad) return { ...v, afbeeldingUrl: null as string | null };
-      if (v.afbeelding_pad.startsWith("http")) return { ...v, afbeeldingUrl: v.afbeelding_pad };
-      const { data } = await supabase.storage.from("vraagafbeeldingen").createSignedUrl(v.afbeelding_pad, 3600);
+      if (!v.afbeelding_pad)
+        return { ...v, afbeeldingUrl: null as string | null };
+      if (v.afbeelding_pad.startsWith("http"))
+        return { ...v, afbeeldingUrl: v.afbeelding_pad };
+      const { data } = await supabase.storage
+        .from("vraagafbeeldingen")
+        .createSignedUrl(v.afbeelding_pad, 3600);
       return { ...v, afbeeldingUrl: data?.signedUrl ?? null };
-    })
+    }),
   );
 
   const { data: bundelRuw } = await supabase
@@ -104,10 +115,13 @@ export default async function BeheerVragenPage({
 
   const bundel = await Promise.all(
     (bundelRuw ?? []).map(async (b) => {
-      if (!b.afbeelding_pad) return { ...b, afbeeldingUrl: null as string | null };
-      const { data } = await supabase.storage.from("leerbundel").createSignedUrl(b.afbeelding_pad, 3600);
+      if (!b.afbeelding_pad)
+        return { ...b, afbeeldingUrl: null as string | null };
+      const { data } = await supabase.storage
+        .from("leerbundel")
+        .createSignedUrl(b.afbeelding_pad, 3600);
       return { ...b, afbeeldingUrl: data?.signedUrl ?? null };
-    })
+    }),
   );
 
   const { data: leerstof } = await supabase
@@ -120,18 +134,30 @@ export default async function BeheerVragenPage({
     <>
       <Header naam={session.profile?.full_name} rol="beheerder" />
       <main className="mx-auto w-full max-w-2xl flex-1 px-6 py-10">
-        <Link href="/beheer/vakken" className="text-sm text-ink-dim hover:text-ink">
-          &larr; Vakken
+        {/* Terug naar de categorie van dit vak, niet naar de kale lijst:
+            daar zou je opnieuw twee keer moeten doorklikken. */}
+        <Link
+          href={`/beheer/vakken?niveau=${hoofdstuk.niveau}&vak=${vak.slug}`}
+          className="text-sm text-ink-dim hover:text-ink"
+        >
+          &larr; {vindNiveau(hoofdstuk.niveau)?.emoji} {vak.naam}
         </Link>
         <h1 className="mt-2 font-display text-2xl font-semibold text-ink">
           {vak.naam} — {hoofdstuk.titel}
         </h1>
 
-        {fout && <p className="mt-4 rounded-md bg-danger/10 px-3 py-2 text-sm text-danger">{fout}</p>}
+        {fout && (
+          <p className="mt-4 rounded-md bg-danger/10 px-3 py-2 text-sm text-danger">
+            {fout}
+          </p>
+        )}
 
         <ul className="mt-6 space-y-2">
           {vragen.map((v) => (
-            <li key={v.id} className="rounded-lg border border-border bg-surface p-3 text-sm">
+            <li
+              key={v.id}
+              className="rounded-lg border border-border bg-surface p-3 text-sm"
+            >
               <VraagBewerken
                 vraag={{
                   id: v.id,
@@ -147,8 +173,15 @@ export default async function BeheerVragenPage({
                   <form action={verwijderVraag}>
                     <input type="hidden" name="id" value={v.id} />
                     <input type="hidden" name="vak_slug" value={vakSlug} />
-                    <input type="hidden" name="volgnummer" value={volgnummerStr} />
-                    <button type="submit" className="text-xs text-danger hover:underline">
+                    <input
+                      type="hidden"
+                      name="volgnummer"
+                      value={volgnummerStr}
+                    />
+                    <button
+                      type="submit"
+                      className="text-xs text-danger hover:underline"
+                    >
                       Verwijderen
                     </button>
                   </form>
@@ -160,8 +193,10 @@ export default async function BeheerVragenPage({
                   </p>
                   <p className="mt-1 text-xs text-ink-dim">
                     {v.type}
-                    {v.opties ? ` · opties: ${(v.opties as string[]).join(", ")}` : ""} · antwoord:{" "}
-                    {JSON.stringify(v.antwoord)}
+                    {v.opties
+                      ? ` · opties: ${(v.opties as string[]).join(", ")}`
+                      : ""}{" "}
+                    · antwoord: {JSON.stringify(v.antwoord)}
                   </p>
                   {v.afbeeldingUrl && (
                     <a
@@ -182,22 +217,36 @@ export default async function BeheerVragenPage({
               </VraagBewerken>
             </li>
           ))}
-          {!vragen.length && <li className="text-sm text-ink-dim">Nog geen vragen.</li>}
+          {!vragen.length && (
+            <li className="text-sm text-ink-dim">Nog geen vragen.</li>
+          )}
         </ul>
 
         <section className="mt-8 rounded-xl border border-border bg-surface p-5">
-          <h2 className="font-display text-base font-semibold text-ink">Vraag toevoegen</h2>
-          <NieuwVraagForm hoofdstukId={hoofdstuk.id} vakSlug={vakSlug} volgnummer={volgnummerStr} />
+          <h2 className="font-display text-base font-semibold text-ink">
+            Vraag toevoegen
+          </h2>
+          <NieuwVraagForm
+            hoofdstukId={hoofdstuk.id}
+            vakSlug={vakSlug}
+            volgnummer={volgnummerStr}
+          />
         </section>
 
         <section className="mt-8 rounded-xl border border-border bg-surface p-5">
-          <h2 className="font-display text-base font-semibold text-ink">Bulk-import via JSON</h2>
+          <h2 className="font-display text-base font-semibold text-ink">
+            Bulk-import via JSON
+          </h2>
           <p className="mt-2 text-sm text-ink-dim">
-            Plak hier een JSON-lijst met vragen — handig als je ze al met DeepSeek/Gemini
-            voorbereid hebt. Vraag je AI-tool om exact dit formaat te gebruiken. Het veld
-            <code className="mx-1 rounded bg-paper px-1 py-0.5 text-xs">afbeelding_url</code>
-            is optioneel — enkel een volledige externe link (geen upload mogelijk via bulk-import;
-            gebruik daarvoor het formulier &quot;Vraag toevoegen&quot; hieronder).
+            Plak hier een JSON-lijst met vragen — handig als je ze al met
+            DeepSeek/Gemini voorbereid hebt. Vraag je AI-tool om exact dit
+            formaat te gebruiken. Het veld
+            <code className="mx-1 rounded bg-paper px-1 py-0.5 text-xs">
+              afbeelding_url
+            </code>
+            is optioneel — enkel een volledige externe link (geen upload
+            mogelijk via bulk-import; gebruik daarvoor het formulier &quot;Vraag
+            toevoegen&quot; hieronder).
           </p>
           <pre className="mt-3 overflow-x-auto rounded-md bg-paper p-3 text-xs text-ink-dim">
             {VOORBEELD_JSON}
@@ -229,12 +278,14 @@ export default async function BeheerVragenPage({
             Leestekst (begrijpend lezen)
           </h2>
           <p className="mt-2 text-sm text-ink-dim">
-            Staat hier een tekst, dan leest het kind die boven de vragen, en blijft
-            ze staan zolang het oefent. Een lege regel begint een nieuwe alinea.
-            Zet een moeilijk woord tussen sterretjes, zoals{" "}
-            <code className="rounded bg-paper px-1 py-0.5 text-xs">*echolocatie*</code>:
-            het krijgt dan een stippellijntje en toont de uitleg uit de woordenlijst.
-            Laat het vak leeg om de tekst weer weg te halen.
+            Staat hier een tekst, dan leest het kind die boven de vragen, en
+            blijft ze staan zolang het oefent. Een lege regel begint een nieuwe
+            alinea. Zet een moeilijk woord tussen sterretjes, zoals{" "}
+            <code className="rounded bg-paper px-1 py-0.5 text-xs">
+              *echolocatie*
+            </code>
+            : het krijgt dan een stippellijntje en toont de uitleg uit de
+            woordenlijst. Laat het vak leeg om de tekst weer weg te halen.
           </p>
           <form action={bewaarLeestekst} className="mt-4 space-y-3">
             <input type="hidden" name="hoofdstuk_id" value={hoofdstuk.id} />
@@ -253,7 +304,9 @@ export default async function BeheerVragenPage({
               <textarea
                 name="woordenlijst"
                 rows={5}
-                defaultValue={schrijfWoordenlijst(hoofdstuk.woordenlijst as Woord[] | null)}
+                defaultValue={schrijfWoordenlijst(
+                  hoofdstuk.woordenlijst as Woord[] | null,
+                )}
                 placeholder="echolocatie = je weg vinden door te luisteren naar de echo van je eigen geluid"
                 className="mt-1 w-full rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest"
               />
@@ -268,19 +321,26 @@ export default async function BeheerVragenPage({
         </section>
 
         <section className="mt-8 rounded-xl border border-border bg-surface p-5">
-          <h2 className="font-display text-base font-semibold text-ink">Leerbundel (met afbeeldingen)</h2>
+          <h2 className="font-display text-base font-semibold text-ink">
+            Leerbundel (met afbeeldingen)
+          </h2>
           <p className="mt-2 text-sm text-ink-dim">
-            Bouw hier de theorie op die het kind in het platform zelf leest, blokje per blokje:
-            een tussentitel, een stuk tekst, een weetje of een afbeelding. Met de pijltjes zet je
-            een blokje hoger of lager.
+            Bouw hier de theorie op die het kind in het platform zelf leest,
+            blokje per blokje: een tussentitel, een stuk tekst, een weetje of
+            een afbeelding. Met de pijltjes zet je een blokje hoger of lager.
           </p>
 
           <ol className="mt-4 space-y-2">
             {bundel.map((b, i) => (
-              <li key={b.id} className="rounded-lg border border-border px-3 py-2 text-sm">
+              <li
+                key={b.id}
+                className="rounded-lg border border-border px-3 py-2 text-sm"
+              >
                 <div className="flex items-start justify-between gap-3">
                   <div className="min-w-0">
-                    <p className="text-xs uppercase tracking-wide text-ink-dim">{b.soort}</p>
+                    <p className="text-xs uppercase tracking-wide text-ink-dim">
+                      {b.soort}
+                    </p>
                     {b.afbeeldingUrl ? (
                       /* eslint-disable-next-line @next/next/no-img-element */
                       <img
@@ -289,15 +349,27 @@ export default async function BeheerVragenPage({
                         className="mt-1 max-h-28 rounded-md border border-border"
                       />
                     ) : null}
-                    {b.tekst ? <p className="mt-1 whitespace-pre-line text-ink">{b.tekst}</p> : null}
+                    {b.tekst ? (
+                      <p className="mt-1 whitespace-pre-line text-ink">
+                        {b.tekst}
+                      </p>
+                    ) : null}
                   </div>
                   <div className="flex shrink-0 items-center gap-2">
                     <form action={verplaatsLeerbundelBlok}>
                       <input type="hidden" name="id" value={b.id} />
                       <input type="hidden" name="richting" value="omhoog" />
                       <input type="hidden" name="vak_slug" value={vakSlug} />
-                      <input type="hidden" name="volgnummer" value={volgnummerStr} />
-                      <button type="submit" disabled={i === 0} className="text-xs text-ink-dim hover:text-ink disabled:opacity-30">
+                      <input
+                        type="hidden"
+                        name="volgnummer"
+                        value={volgnummerStr}
+                      />
+                      <button
+                        type="submit"
+                        disabled={i === 0}
+                        className="text-xs text-ink-dim hover:text-ink disabled:opacity-30"
+                      >
                         &uarr;
                       </button>
                     </form>
@@ -305,7 +377,11 @@ export default async function BeheerVragenPage({
                       <input type="hidden" name="id" value={b.id} />
                       <input type="hidden" name="richting" value="omlaag" />
                       <input type="hidden" name="vak_slug" value={vakSlug} />
-                      <input type="hidden" name="volgnummer" value={volgnummerStr} />
+                      <input
+                        type="hidden"
+                        name="volgnummer"
+                        value={volgnummerStr}
+                      />
                       <button
                         type="submit"
                         disabled={i === bundel.length - 1}
@@ -317,8 +393,15 @@ export default async function BeheerVragenPage({
                     <form action={verwijderLeerbundelBlok}>
                       <input type="hidden" name="id" value={b.id} />
                       <input type="hidden" name="vak_slug" value={vakSlug} />
-                      <input type="hidden" name="volgnummer" value={volgnummerStr} />
-                      <button type="submit" className="text-xs text-danger hover:underline">
+                      <input
+                        type="hidden"
+                        name="volgnummer"
+                        value={volgnummerStr}
+                      />
+                      <button
+                        type="submit"
+                        className="text-xs text-danger hover:underline"
+                      >
                         Verwijderen
                       </button>
                     </form>
@@ -326,17 +409,27 @@ export default async function BeheerVragenPage({
                 </div>
               </li>
             ))}
-            {!bundel.length && <li className="text-sm text-ink-dim">Nog geen leerbundel voor dit hoofdstuk.</li>}
+            {!bundel.length && (
+              <li className="text-sm text-ink-dim">
+                Nog geen leerbundel voor dit hoofdstuk.
+              </li>
+            )}
           </ol>
 
-          <NieuwLeerbundelForm hoofdstukId={hoofdstuk.id} vakSlug={vakSlug} volgnummer={volgnummerStr} />
+          <NieuwLeerbundelForm
+            hoofdstukId={hoofdstuk.id}
+            vakSlug={vakSlug}
+            volgnummer={volgnummerStr}
+          />
         </section>
 
         <section className="mt-8 rounded-xl border border-border bg-surface p-5">
-          <h2 className="font-display text-base font-semibold text-ink">Bestanden om te downloaden</h2>
+          <h2 className="font-display text-base font-semibold text-ink">
+            Bestanden om te downloaden
+          </h2>
           <p className="mt-2 text-sm text-ink-dim">
-            PDF&apos;s die kinderen naast de oefeningen kunnen lezen of afdrukken — dezelfde toegang
-            als de oefenvragen van dit hoofdstuk.
+            PDF&apos;s die kinderen naast de oefeningen kunnen lezen of
+            afdrukken — dezelfde toegang als de oefenvragen van dit hoofdstuk.
           </p>
 
           <ul className="mt-4 space-y-2">
@@ -348,19 +441,38 @@ export default async function BeheerVragenPage({
                 <span className="text-ink">{l.titel}</span>
                 <form action={verwijderLeerstof}>
                   <input type="hidden" name="id" value={l.id} />
-                  <input type="hidden" name="bestandspad" value={l.bestandspad} />
+                  <input
+                    type="hidden"
+                    name="bestandspad"
+                    value={l.bestandspad}
+                  />
                   <input type="hidden" name="vak_slug" value={vakSlug} />
-                  <input type="hidden" name="volgnummer" value={volgnummerStr} />
-                  <button type="submit" className="text-xs text-danger hover:underline">
+                  <input
+                    type="hidden"
+                    name="volgnummer"
+                    value={volgnummerStr}
+                  />
+                  <button
+                    type="submit"
+                    className="text-xs text-danger hover:underline"
+                  >
                     Verwijderen
                   </button>
                 </form>
               </li>
             ))}
-            {!leerstof?.length && <li className="text-sm text-ink-dim">Nog geen leerstof geüpload.</li>}
+            {!leerstof?.length && (
+              <li className="text-sm text-ink-dim">
+                Nog geen leerstof geüpload.
+              </li>
+            )}
           </ul>
 
-          <NieuwLeerstofForm hoofdstukId={hoofdstuk.id} vakSlug={vakSlug} volgnummer={volgnummerStr} />
+          <NieuwLeerstofForm
+            hoofdstukId={hoofdstuk.id}
+            vakSlug={vakSlug}
+            volgnummer={volgnummerStr}
+          />
         </section>
       </main>
     </>

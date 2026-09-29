@@ -8,6 +8,25 @@ import { slugify } from "@/lib/slug";
 import { NIVEAUS, vindNiveau, heeftProefhoofdstuk } from "@/lib/niveaus";
 import { volgendVolgnummer, vrijeVolgnummers } from "@/lib/volgnummer";
 
+/**
+ * Waar een knop van de vakkenpagina naar terugkeert.
+ *
+ * Die pagina toont sinds 29 september 2026 één categorie van één vak tegelijk
+ * in plaats van alles onder elkaar. "Terug naar /beheer/vakken" zou je dan
+ * telkens weer helemaal vooraan zetten, dus elk formulier stuurt in
+ * "terug_niveau" en "terug_vak" mee waar het stond.
+ */
+function vakkenPagina(formData: FormData, sleutel?: string, waarde?: string) {
+  const params = new URLSearchParams();
+  const niveau = String(formData.get("terug_niveau") || "").trim();
+  const vak = String(formData.get("terug_vak") || "").trim();
+  if (niveau) params.set("niveau", niveau);
+  if (vak) params.set("vak", vak);
+  if (sleutel && waarde !== undefined) params.set(sleutel, waarde);
+  const vraag = params.toString();
+  return "/beheer/vakken" + (vraag ? "?" + vraag : "");
+}
+
 export async function maakVak(formData: FormData) {
   await requireBeheerder();
   const naam = String(formData.get("naam") || "").trim();
@@ -31,7 +50,7 @@ export async function maakVak(formData: FormData) {
     );
 
   revalidatePath("/beheer/vakken");
-  redirect("/beheer/vakken");
+  redirect(vakkenPagina(formData));
 }
 
 /**
@@ -46,12 +65,9 @@ export async function hernoemVak(formData: FormData) {
   await requireBeheerder();
   const id = String(formData.get("id") || "");
   const naam = String(formData.get("naam") || "").trim();
-  if (!id) redirect("/beheer/vakken");
+  if (!id) redirect(vakkenPagina(formData));
   if (!naam)
-    redirect(
-      "/beheer/vakken?fout=" +
-        encodeURIComponent("Geef een naam op voor het vak."),
-    );
+    redirect(vakkenPagina(formData, "fout", "Geef een naam op voor het vak."));
 
   const admin = createAdminClient();
   const { data: vak } = await admin
@@ -60,9 +76,7 @@ export async function hernoemVak(formData: FormData) {
     .eq("id", id)
     .maybeSingle();
   if (!vak)
-    redirect(
-      "/beheer/vakken?fout=" + encodeURIComponent("Dit vak bestaat niet meer."),
-    );
+    redirect(vakkenPagina(formData, "fout", "Dit vak bestaat niet meer."));
 
   const nieuweSlug = slugify(naam);
   const slugVolgdeDeNaam = vak.slug === slugify(vak.naam);
@@ -74,16 +88,17 @@ export async function hernoemVak(formData: FormData) {
   const { error } = await admin.from("vakken").update(wijziging).eq("id", id);
   if (error) {
     redirect(
-      "/beheer/vakken?fout=" +
-        encodeURIComponent(
-          "Kon de naam niet aanpassen. Bestaat er al een vak met die naam?",
-        ),
+      vakkenPagina(
+        formData,
+        "fout",
+        "Kon de naam niet aanpassen. Bestaat er al een vak met die naam?",
+      ),
     );
   }
 
   revalidatePath("/beheer/vakken");
   revalidatePath("/");
-  redirect("/beheer/vakken");
+  redirect(vakkenPagina(formData));
 }
 
 /**
@@ -100,11 +115,10 @@ export async function hernoemHoofdstuk(formData: FormData) {
   await requireBeheerder();
   const id = String(formData.get("id") || "");
   const titel = String(formData.get("titel") || "").trim();
-  if (!id) redirect("/beheer/vakken");
+  if (!id) redirect(vakkenPagina(formData));
   if (!titel) {
     redirect(
-      "/beheer/vakken?fout=" +
-        encodeURIComponent("Geef een titel op voor het hoofdstuk."),
+      vakkenPagina(formData, "fout", "Geef een titel op voor het hoofdstuk."),
     );
   }
 
@@ -115,14 +129,17 @@ export async function hernoemHoofdstuk(formData: FormData) {
     .eq("id", id);
   if (error) {
     redirect(
-      "/beheer/vakken?fout=" +
-        encodeURIComponent("Kon de titel van het hoofdstuk niet aanpassen."),
+      vakkenPagina(
+        formData,
+        "fout",
+        "Kon de titel van het hoofdstuk niet aanpassen.",
+      ),
     );
   }
 
   revalidatePath("/beheer/vakken");
   revalidatePath("/");
-  redirect("/beheer/vakken");
+  redirect(vakkenPagina(formData));
 }
 
 export async function wisselRekenmachine(formData: FormData) {
@@ -135,7 +152,7 @@ export async function wisselRekenmachine(formData: FormData) {
     .update({ rekenmachine: !rekenmachine })
     .eq("id", id);
   revalidatePath("/beheer/vakken");
-  redirect("/beheer/vakken");
+  redirect(vakkenPagina(formData));
 }
 
 export async function verwijderVak(formData: FormData) {
@@ -144,7 +161,10 @@ export async function verwijderVak(formData: FormData) {
   const admin = createAdminClient();
   await admin.from("vakken").delete().eq("id", id);
   revalidatePath("/beheer/vakken");
-  redirect("/beheer/vakken");
+  // Niet terug naar het vak zelf: dat bestaat nu niet meer. Wel naar de
+  // categorie waar je stond, zodat je de andere vakken weer voor je hebt.
+  formData.delete("terug_vak");
+  redirect(vakkenPagina(formData));
 }
 
 export async function maakHoofdstuk(formData: FormData) {
@@ -155,13 +175,10 @@ export async function maakHoofdstuk(formData: FormData) {
   const niveau = String(formData.get("niveau") || "start");
   if (!vakId || !titel)
     redirect(
-      "/beheer/vakken?fout=" +
-        encodeURIComponent("Geef een titel op voor het hoofdstuk."),
+      vakkenPagina(formData, "fout", "Geef een titel op voor het hoofdstuk."),
     );
   if (!NIVEAUS.some((n) => n.slug === niveau))
-    redirect(
-      "/beheer/vakken?fout=" + encodeURIComponent("Ongeldige categorie."),
-    );
+    redirect(vakkenPagina(formData, "fout", "Ongeldige categorie."));
 
   const admin = createAdminClient();
 
@@ -174,15 +191,16 @@ export async function maakHoofdstuk(formData: FormData) {
   });
   if (error) {
     redirect(
-      "/beheer/vakken?fout=" +
-        encodeURIComponent(
-          `Hoofdstuk "${titel}" aanmaken mislukt: ${error.message}`,
-        ),
+      vakkenPagina(
+        formData,
+        "fout",
+        `Hoofdstuk "${titel}" aanmaken mislukt: ${error.message}`,
+      ),
     );
   }
 
   revalidatePath("/beheer/vakken");
-  redirect("/beheer/vakken");
+  redirect(vakkenPagina(formData));
 }
 
 /** Het eerste hoofdstuk van elke categorie (niveau) binnen een vak is altijd
@@ -212,14 +230,15 @@ export async function wisselGratis(formData: FormData) {
     .eq("id", id);
   if (error) {
     redirect(
-      "/beheer/vakken?fout=" +
-        encodeURIComponent(
-          `Het hoofdstuk omzetten lukte niet: ${error.message}`,
-        ),
+      vakkenPagina(
+        formData,
+        "fout",
+        `Het hoofdstuk omzetten lukte niet: ${error.message}`,
+      ),
     );
   }
   revalidatePath("/beheer/vakken");
-  redirect("/beheer/vakken");
+  redirect(vakkenPagina(formData));
 }
 
 /*
@@ -234,7 +253,7 @@ export async function zetNiveauGratis(formData: FormData) {
   const vakId = String(formData.get("vak_id") || "");
   const niveau = String(formData.get("niveau") || "");
   const gratis = formData.get("gratis") === "ja";
-  if (!vakId || !niveau) redirect("/beheer/vakken");
+  if (!vakId || !niveau) redirect(vakkenPagina(formData));
   const admin = createAdminClient();
   const { data, error } = await admin
     .from("hoofdstukken")
@@ -244,8 +263,11 @@ export async function zetNiveauGratis(formData: FormData) {
     .select("id");
   if (error) {
     redirect(
-      "/beheer/vakken?fout=" +
-        encodeURIComponent(`Het niveau omzetten lukte niet: ${error.message}`),
+      vakkenPagina(
+        formData,
+        "fout",
+        `Het niveau omzetten lukte niet: ${error.message}`,
+      ),
     );
   }
   // Zeg hoeveel hoofdstukken mee zijn. Zonder die bevestiging is het na het
@@ -254,12 +276,13 @@ export async function zetNiveauGratis(formData: FormData) {
   const naam = vindNiveau(niveau)?.naam ?? niveau;
   revalidatePath("/beheer/vakken");
   redirect(
-    "/beheer/vakken?melding=" +
-      encodeURIComponent(
-        `${aantal} ${aantal === 1 ? "hoofdstuk" : "hoofdstukken"} van ${naam} ${
-          aantal === 1 ? "staat" : "staan"
-        } nu ${gratis ? "gratis" : "op slot"}.`,
-      ),
+    vakkenPagina(
+      formData,
+      "melding",
+      `${aantal} ${aantal === 1 ? "hoofdstuk" : "hoofdstukken"} van ${naam} ${
+        aantal === 1 ? "staat" : "staan"
+      } nu ${gratis ? "gratis" : "op slot"}.`,
+    ),
   );
 }
 
@@ -269,7 +292,7 @@ export async function verwijderHoofdstuk(formData: FormData) {
   const admin = createAdminClient();
   await admin.from("hoofdstukken").delete().eq("id", id);
   revalidatePath("/beheer/vakken");
-  redirect("/beheer/vakken");
+  redirect(vakkenPagina(formData));
 }
 
 type BulkVraag = {
@@ -388,8 +411,7 @@ export async function bulkImportVakInhoud(formData: FormData) {
   const vakId = String(formData.get("vak_id") || "");
   const json = String(formData.get("json") || "").trim();
   const vervang = formData.get("vervang") === "on";
-  if (!vakId)
-    redirect("/beheer/vakken?fout=" + encodeURIComponent("Onbekend vak."));
+  if (!vakId) redirect(vakkenPagina(formData, "fout", "Onbekend vak."));
 
   let payload: { hoofdstukken: BulkHoofdstuk[] };
   try {
@@ -399,11 +421,12 @@ export async function bulkImportVakInhoud(formData: FormData) {
     }
   } catch (e) {
     redirect(
-      "/beheer/vakken?fout=" +
-        encodeURIComponent(
-          "Ongeldige JSON: " +
-            (e instanceof Error ? e.message : "onbekende fout"),
-        ),
+      vakkenPagina(
+        formData,
+        "fout",
+        "Ongeldige JSON: " +
+          (e instanceof Error ? e.message : "onbekende fout"),
+      ),
     );
   }
 
@@ -441,10 +464,11 @@ export async function bulkImportVakInhoud(formData: FormData) {
     const niveau = String(hfst.niveau || "start");
     if (!NIVEAUS.some((n) => n.slug === niveau)) {
       redirect(
-        "/beheer/vakken?fout=" +
-          encodeURIComponent(
-            `"${titel}" draagt de onbekende categorie "${niveau}". Er is niets ingelezen.`,
-          ),
+        vakkenPagina(
+          formData,
+          "fout",
+          `"${titel}" draagt de onbekende categorie "${niveau}". Er is niets ingelezen.`,
+        ),
       );
     }
 
@@ -464,10 +488,11 @@ export async function bulkImportVakInhoud(formData: FormData) {
           .eq("id", teHernoemen);
         if (hernoemFout) {
           redirect(
-            "/beheer/vakken?fout=" +
-              encodeURIComponent(
-                `"${oudeTitel}" hernoemen naar "${titel}" mislukt: ${hernoemFout.message}`,
-              ),
+            vakkenPagina(
+              formData,
+              "fout",
+              `"${oudeTitel}" hernoemen naar "${titel}" mislukt: ${hernoemFout.message}`,
+            ),
           );
         }
         hoofdstukNaarId.delete(oudeSleutel);
@@ -483,10 +508,11 @@ export async function bulkImportVakInhoud(formData: FormData) {
     const oudNiveau = String(hfst.stondIn || "").trim();
     if (oudNiveau && !NIVEAUS.some((n) => n.slug === oudNiveau)) {
       redirect(
-        "/beheer/vakken?fout=" +
-          encodeURIComponent(
-            `"${titel}" zegt te verhuizen uit de onbekende categorie "${oudNiveau}". Er is niets ingelezen.`,
-          ),
+        vakkenPagina(
+          formData,
+          "fout",
+          `"${titel}" zegt te verhuizen uit de onbekende categorie "${oudNiveau}". Er is niets ingelezen.`,
+        ),
       );
     }
     if (!hoofdstukId && oudNiveau && oudNiveau !== niveau) {
@@ -499,10 +525,11 @@ export async function bulkImportVakInhoud(formData: FormData) {
           .eq("id", teVerhuizen);
         if (verhuisFout) {
           redirect(
-            "/beheer/vakken?fout=" +
-              encodeURIComponent(
-                `"${titel}" naar de juiste categorie verplaatsen mislukt: ${verhuisFout.message}`,
-              ),
+            vakkenPagina(
+              formData,
+              "fout",
+              `"${titel}" naar de juiste categorie verplaatsen mislukt: ${verhuisFout.message}`,
+            ),
           );
         }
         hoofdstukNaarId.delete(vanSleutel);
@@ -550,10 +577,11 @@ export async function bulkImportVakInhoud(formData: FormData) {
       }
       if (hoofdstukFout || !nieuw) {
         redirect(
-          "/beheer/vakken?fout=" +
-            encodeURIComponent(
-              `Hoofdstuk "${titel}" aanmaken mislukt: ${hoofdstukFout?.message ?? "onbekende fout"}`,
-            ),
+          vakkenPagina(
+            formData,
+            "fout",
+            `Hoofdstuk "${titel}" aanmaken mislukt: ${hoofdstukFout?.message ?? "onbekende fout"}`,
+          ),
         );
       }
       hoofdstukId = nieuw!.id as string;
@@ -575,10 +603,11 @@ export async function bulkImportVakInhoud(formData: FormData) {
         .eq("id", hoofdstukId);
       if (gratisFout) {
         redirect(
-          "/beheer/vakken?fout=" +
-            encodeURIComponent(
-              `"${titel}" op gratis zetten mislukt: ${gratisFout.message}`,
-            ),
+          vakkenPagina(
+            formData,
+            "fout",
+            `"${titel}" op gratis zetten mislukt: ${gratisFout.message}`,
+          ),
         );
       }
     }
@@ -594,10 +623,11 @@ export async function bulkImportVakInhoud(formData: FormData) {
         .eq("id", hoofdstukId);
       if (leesFout) {
         redirect(
-          "/beheer/vakken?fout=" +
-            encodeURIComponent(
-              `De leestekst van "${titel}" bewaren mislukt: ${leesFout.message}`,
-            ),
+          vakkenPagina(
+            formData,
+            "fout",
+            `De leestekst van "${titel}" bewaren mislukt: ${leesFout.message}`,
+          ),
         );
       }
     }
@@ -620,10 +650,11 @@ export async function bulkImportVakInhoud(formData: FormData) {
         .eq("hoofdstuk_id", hoofdstukId);
       if (wisFout) {
         redirect(
-          "/beheer/vakken?fout=" +
-            encodeURIComponent(
-              `Oude vragen van "${titel}" verwijderen mislukt: ${wisFout.message}`,
-            ),
+          vakkenPagina(
+            formData,
+            "fout",
+            `Oude vragen van "${titel}" verwijderen mislukt: ${wisFout.message}`,
+          ),
         );
       }
     }
@@ -648,14 +679,15 @@ export async function bulkImportVakInhoud(formData: FormData) {
     const { error: vragenFout } = await admin.from("vragen").insert(rijen);
     if (vragenFout) {
       redirect(
-        "/beheer/vakken?fout=" +
-          encodeURIComponent(
-            `Vragen voor "${titel}" importeren mislukt: ${vragenFout.message}`,
-          ),
+        vakkenPagina(
+          formData,
+          "fout",
+          `Vragen voor "${titel}" importeren mislukt: ${vragenFout.message}`,
+        ),
       );
     }
   }
 
   revalidatePath("/beheer/vakken");
-  redirect("/beheer/vakken");
+  redirect(vakkenPagina(formData));
 }
