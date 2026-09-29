@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import { splitsDeel } from "@/lib/hoofdstukvolgorde";
 import { KindKeuze, useActiefKind, type Kind } from "@/components/KindKeuze";
 
 export type HoofdstukTegel = {
@@ -63,14 +64,26 @@ export function HoofdstukTegels({
   // Een pittig hoofdstuk krijgt het volgnummer van zijn gewone hoofdstuk en
   // komt daar net achter; het uitdagingshoofdstuk blijft helemaal achteraan.
   const plaats = new Map<string, number>();
+  // Bij ✨ Spark is een thema opgesplitst in een deel 1 en een deel 2, en hoort
+  // "Getallenleer — pittig" achter "Getallenleer — deel 2". Daarom onthouden we
+  // per thema ook het hóógste volgnummer, als terugval op de volle titel.
+  const plaatsVanThema = new Map<string, number>();
   for (const h of hoofdstukken) {
-    if (!isPittig(h.titel) && !isUitdaging(h.titel))
-      plaats.set(h.titel.trim(), h.volgnummer);
+    if (isPittig(h.titel) || isUitdaging(h.titel)) continue;
+    plaats.set(h.titel.trim(), h.volgnummer);
+    const { thema } = splitsDeel(h.titel);
+    plaatsVanThema.set(thema, Math.max(plaatsVanThema.get(thema) ?? 0, h.volgnummer));
   }
   const sleutel = (h: HoofdstukTegel): [number, number, number] => {
     if (isUitdaging(h.titel)) return [2, h.volgnummer, 0];
-    if (isPittig(h.titel))
-      return [1, plaats.get(basisTitel(h.titel)) ?? h.volgnummer, 1];
+    if (isPittig(h.titel)) {
+      const basis = basisTitel(h.titel);
+      const bij =
+        plaats.get(basis) ??
+        plaatsVanThema.get(splitsDeel(basis).thema) ??
+        h.volgnummer;
+      return [1, bij, 1];
+    }
     return [1, h.volgnummer, 0];
   };
   const opVolgorde = [...hoofdstukken].sort((a, b) => {

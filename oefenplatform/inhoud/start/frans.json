@@ -1,0 +1,1392 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Woorden voor elke dag",
+      "niveau": "start",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"lundi\"?",
+          "opties": [
+            "zondag",
+            "maandag",
+            "vrijdag",
+            "dinsdag"
+          ],
+          "antwoord": 1,
+          "uitleg": "Lundi is maandag. De Franse dagen eindigen bijna allemaal op -di: lundi, mardi, mercredi, jeudi, vendredi."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke dag komt na \"jeudi\"?",
+          "opties": [
+            "mardi",
+            "samedi",
+            "vendredi",
+            "mercredi"
+          ],
+          "antwoord": 2,
+          "uitleg": "De volgorde is lundi, mardi, mercredi, jeudi, vendredi, samedi, dimanche. Na jeudi (donderdag) komt dus vendredi."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe schrijf je het getal 8 in het Frans?",
+          "antwoord": "huit",
+          "uitleg": "Acht is huit. Let op de h: die schrijf je wel, maar je hoort ze niet."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe schrijf je het getal 12 in het Frans?",
+          "antwoord": "douze",
+          "uitleg": "Twaalf is douze. Tot en met seize (16) heeft elk getal een eigen woord; vanaf dix-sept plak je ze aan elkaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk getal is \"quinze\"?",
+          "opties": [
+            "vijf",
+            "veertien",
+            "vijftig",
+            "vijftien"
+          ],
+          "antwoord": 3,
+          "uitleg": "Quinze is vijftien. Verwar het niet met cinq (vijf) of cinquante (vijftig)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe zeg je \"twintig\" in het Frans?",
+          "opties": [
+            "vingt",
+            "deux",
+            "douze",
+            "dix"
+          ],
+          "antwoord": 0,
+          "uitleg": "Twintig is vingt. Daarna tel je verder met vingt et un, vingt-deux, vingt-trois."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\"Rouge\" betekent rood.",
+          "antwoord": true,
+          "uitleg": "Klopt. Rouge is rood, zoals in het Rode Kruis: la Croix-Rouge."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"vert\"?",
+          "opties": [
+            "blauw",
+            "geel",
+            "groen",
+            "zwart"
+          ],
+          "antwoord": 2,
+          "uitleg": "Vert is groen. Blauw is bleu, geel is jaune en zwart is noir."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke kleur is \"blanc\"?",
+          "opties": [
+            "bruin",
+            "wit",
+            "grijs",
+            "roze"
+          ],
+          "antwoord": 1,
+          "uitleg": "Blanc is wit. Grijs is gris, bruin is brun of marron en roze is rose."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe schrijf je de kleur zwart in het Frans?",
+          "antwoord": "noir",
+          "uitleg": "Zwart is noir. Voor een vrouwelijk woord wordt dat noire, maar het klinkt hetzelfde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welk seizoen valt \"janvier\"?",
+          "opties": [
+            "de lente",
+            "de zomer",
+            "de herfst",
+            "de winter"
+          ],
+          "antwoord": 3,
+          "uitleg": "Janvier is januari, en dat is midden in de winter (l'hiver)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke maand is \"juillet\"?",
+          "opties": [
+            "juni",
+            "juli",
+            "januari",
+            "juli of juni, dat is hetzelfde woord"
+          ],
+          "antwoord": 1,
+          "uitleg": "Juillet is juli. Juni is juin: die twee lijken op elkaar, dus lees goed."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In het Frans schrijf je de namen van de maanden met een hoofdletter, net zoals in het Engels.",
+          "antwoord": false,
+          "uitleg": "Niet waar. In het Frans schrijf je mars, avril en mai met een kleine letter, net als in het Nederlands. In het Engels wel met een hoofdletter: March, April, May."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"aujourd'hui\"?",
+          "opties": [
+            "gisteren",
+            "morgen",
+            "vandaag",
+            "straks"
+          ],
+          "antwoord": 2,
+          "uitleg": "Aujourd'hui is vandaag. Gisteren is hier en morgen is demain."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: \"Bonjour\" zeg je overdag. Na de avondmaaltijd zeg je ...",
+          "antwoord": "bonsoir",
+          "uitleg": "Bonsoir is goedenavond. Ga je slapen, dan zeg je bonne nuit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand zegt \"merci\". Wat antwoord je?",
+          "opties": [
+            "De rien",
+            "Bonjour",
+            "Au revoir",
+            "S'il vous plaît"
+          ],
+          "antwoord": 0,
+          "uitleg": "De rien betekent graag gedaan. Je kan ook je vous en prie zeggen, wat wat beleefder klinkt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\"Au revoir\" zeg je als je aankomt.",
+          "antwoord": false,
+          "uitleg": "Niet waar. Au revoir is tot ziens, dus bij het weggaan. Bij het aankomen zeg je bonjour of salut."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"s'il vous plaît\"?",
+          "opties": [
+            "dank je wel",
+            "alsjeblieft",
+            "sorry",
+            "tot ziens"
+          ],
+          "antwoord": 1,
+          "uitleg": "S'il vous plaît is alstublieft. Tegen een vriend zeg je s'il te plaît."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\"Salut\" kan zowel hallo als dag betekenen.",
+          "antwoord": true,
+          "uitleg": "Klopt. Salut gebruik je bij het komen en bij het gaan, maar alleen tegen mensen die je goed kent."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe schrijf je \"dank je wel\" in het Frans? (één woord)",
+          "antwoord": "merci",
+          "uitleg": "Merci is dank je wel. Wil je het sterker maken: merci beaucoup, hartelijk dank."
+        }
+      ]
+    },
+    {
+      "titel": "Mezelf voorstellen",
+      "niveau": "start",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand vraagt: \"Comment tu t'appelles ?\" Wat wil hij weten?",
+          "opties": [
+            "waar je woont",
+            "hoe oud je bent",
+            "hoe je heet",
+            "hoe het met je gaat"
+          ],
+          "antwoord": 2,
+          "uitleg": "Comment tu t'appelles ? betekent hoe heet je. Je antwoordt met Je m'appelle ..."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: \"Je ... appelle Lucas.\" (het ontbrekende woordje)",
+          "antwoord": "m'",
+          "uitleg": "Je m'appelle Lucas: ik heet Lucas. Het woordje me wordt m' voor een klinker."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat vraag je met \"Quel âge as-tu ?\"",
+          "opties": [
+            "Hoe heet je?",
+            "Hoe oud ben je?",
+            "Waar woon je?",
+            "Hoe gaat het?"
+          ],
+          "antwoord": 1,
+          "uitleg": "Quel âge as-tu ? is hoe oud ben je. Je antwoordt met J'ai douze ans."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je leeftijd zeg je in het Frans met \"être\": \"Je suis douze ans.\"",
+          "antwoord": false,
+          "uitleg": "Niet waar. In het Frans hében ze jaren: J'ai douze ans. Dat is precies waar veel kinderen op struikelen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe zeg je in het Frans dat je elf jaar bent?",
+          "opties": [
+            "Je suis onze",
+            "J'ai onze ans",
+            "Je suis onze ans",
+            "J'ai onze"
+          ],
+          "antwoord": 1,
+          "uitleg": "J'ai onze ans. Het woordje ans mag je niet weglaten, en je gebruikt avoir, niet être."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand zegt: \"J'habite à Hasselt.\" Wat vertelt hij?",
+          "opties": [
+            "waar hij woont",
+            "waar hij naar school gaat",
+            "waar hij geboren is",
+            "waar hij op vakantie gaat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Habiter is wonen. J'habite à Hasselt betekent ik woon in Hasselt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: \"J'... à Gand.\" (ik woon in Gent)",
+          "antwoord": "habite",
+          "uitleg": "J'habite à Gand. Habiter verliest bij je zijn e: je + habite wordt j'habite."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"Je viens de Belgique\" ?",
+          "opties": [
+            "Ik ga naar België",
+            "Ik kom uit België",
+            "Ik woon in België",
+            "Ik hou van België"
+          ],
+          "antwoord": 1,
+          "uitleg": "Venir de betekent komen uit. Je viens de Belgique: ik kom uit België."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"ma sœur\"?",
+          "opties": [
+            "mijn broer",
+            "mijn zus",
+            "mijn nicht",
+            "mijn tante"
+          ],
+          "antwoord": 1,
+          "uitleg": "Ma sœur is mijn zus. Mijn broer is mon frère."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe schrijf je het Franse woord voor broer?",
+          "antwoord": "frère",
+          "uitleg": "Broer is frère, met een accent grave op de eerste e. Zonder accent getypt telt hier ook juist."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wie zijn \"mes parents\"?",
+          "opties": [
+            "mijn ouders",
+            "mijn grootouders",
+            "mijn vrienden",
+            "mijn neven"
+          ],
+          "antwoord": 0,
+          "uitleg": "Mes parents zijn mijn ouders: le père en la mère. Grootouders zijn les grands-parents."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je schrijft \"mon\" voor een mannelijk woord en \"ma\" voor een vrouwelijk woord.",
+          "antwoord": true,
+          "uitleg": "Klopt. Mon frère, ma sœur. Bij meer dan één wordt het mes: mes frères, mes sœurs."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat zeg je: \"... mère s'appelle Julie.\"",
+          "opties": [
+            "Mon",
+            "Ma",
+            "Mes",
+            "Me"
+          ],
+          "antwoord": 1,
+          "uitleg": "Mère is vrouwelijk, dus ma mère. Ma mère s'appelle Julie: mijn moeder heet Julie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand vraagt \"Ça va ?\" Welk antwoord past?",
+          "opties": [
+            "J'ai treize ans",
+            "Ça va bien, merci",
+            "Je m'appelle Sara",
+            "J'habite à Genk"
+          ],
+          "antwoord": 1,
+          "uitleg": "Ça va ? is hoe gaat het. Je antwoordt met ça va bien of ça va mal."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\"Enchanté\" zeg je als je iemand voor het eerst ontmoet.",
+          "antwoord": true,
+          "uitleg": "Klopt. Enchanté betekent aangenaam. Een meisje schrijft enchantée, met een e erbij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"Je suis belge\" ?",
+          "opties": [
+            "Ik woon in België",
+            "Ik ben Belg",
+            "Ik spreek Belgisch",
+            "Ik ga naar België"
+          ],
+          "antwoord": 1,
+          "uitleg": "Je suis belge: ik ben Belg. Bij een nationaliteit gebruik je wél être, anders dan bij je leeftijd."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: \"Je ... française.\" (ik ben Frans, over een meisje)",
+          "antwoord": "suis",
+          "uitleg": "Je suis française. Suis is de vorm van être bij je."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat vraagt \"Tu as des frères et sœurs ?\"",
+          "opties": [
+            "Heb je broers en zussen?",
+            "Waar wonen je broers?",
+            "Hoe heten je ouders?",
+            "Ben je de oudste?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Tu as ...? is heb jij ...? De vraag gaat dus over broers en zussen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Tegen je leerkracht zeg je \"tu\", en tegen je beste vriend \"vous\".",
+          "antwoord": false,
+          "uitleg": "Net omgekeerd. Vous is beleefd, voor een volwassene die je niet goed kent. Tu is voor familie en vrienden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je stelt je voor aan de mama van een vriend. Wat past het best?",
+          "opties": [
+            "Salut, ça va ?",
+            "Bonjour madame, je m'appelle Noor",
+            "Bonjour, quel âge as-tu ?",
+            "Salut, tu t'appelles comment ?"
+          ],
+          "antwoord": 1,
+          "uitleg": "Tegen een volwassene die je niet kent, zeg je bonjour madame en stel je jezelf voor. Salut en tu zijn te familiair."
+        }
+      ]
+    },
+    {
+      "titel": "Être en avoir",
+      "niveau": "start",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent het werkwoord \"être\"?",
+          "opties": [
+            "hebben",
+            "zijn",
+            "gaan",
+            "doen"
+          ],
+          "antwoord": 1,
+          "uitleg": "Être is zijn. Avoir is hebben, aller is gaan en faire is doen of maken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vul aan: \"Tu ... mon ami.\"",
+          "opties": [
+            "es",
+            "est",
+            "suis",
+            "sommes"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij tu hoort es: tu es mon ami, jij bent mijn vriend. Est hoort bij il of elle."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: \"Elle ... gentille.\" (zij is lief)",
+          "antwoord": "est",
+          "uitleg": "Elle est gentille. Bij il en elle hoort est, met een t die je niet hoort."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vorm hoort bij \"nous\"?",
+          "opties": [
+            "sont",
+            "êtes",
+            "sommes",
+            "est"
+          ],
+          "antwoord": 2,
+          "uitleg": "Nous sommes: wij zijn. Vous êtes is jullie zijn, ils sont is zij zijn."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\"Ils sont\" en \"elles sont\" hebben allebei dezelfde werkwoordsvorm.",
+          "antwoord": true,
+          "uitleg": "Klopt. Alleen het woordje ervoor verschilt: ils voor een groep met minstens één jongen, elles voor een groep meisjes."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vul aan: \"Vous ... en retard.\" (jullie zijn te laat)",
+          "opties": [
+            "sont",
+            "êtes",
+            "sommes",
+            "es"
+          ],
+          "antwoord": 1,
+          "uitleg": "Vous êtes en retard. Vous krijgt de vorm êtes, met een dakje op de e."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"avoir\"?",
+          "opties": [
+            "hebben",
+            "zijn",
+            "weten",
+            "komen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Avoir is hebben. Je gebruikt het onder meer voor je leeftijd: j'ai douze ans."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: \"J'... un chien.\" (ik heb een hond)",
+          "antwoord": "ai",
+          "uitleg": "J'ai un chien. Je + ai wordt j'ai, want twee klinkers na elkaar spreken lastig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vorm hoort bij \"il\" of \"elle\" bij avoir?",
+          "opties": [
+            "as",
+            "ai",
+            "a",
+            "ont"
+          ],
+          "antwoord": 2,
+          "uitleg": "Il a, elle a: hij heeft, zij heeft. Zonder s en zonder accent."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vul aan: \"Nous ... une grande maison.\"",
+          "opties": [
+            "avons",
+            "avez",
+            "ont",
+            "as"
+          ],
+          "antwoord": 0,
+          "uitleg": "Nous avons une grande maison: wij hebben een groot huis."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\"Vous avez\" betekent jullie hebben.",
+          "antwoord": true,
+          "uitleg": "Klopt. En tegen één volwassene die je beleefd aanspreekt, betekent vous avez u hebt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vul aan: \"Ils ... deux chats.\"",
+          "opties": [
+            "a",
+            "avons",
+            "ont",
+            "avez"
+          ],
+          "antwoord": 2,
+          "uitleg": "Ils ont deux chats: zij hebben twee katten. Pas op: ils sont is zij zijn, ils ont is zij hebben."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin betekent \"Zij zijn moe\"?",
+          "opties": [
+            "Ils ont fatigués",
+            "Ils sont fatigués",
+            "Ils est fatigués",
+            "Ils avons fatigués"
+          ],
+          "antwoord": 1,
+          "uitleg": "Ils sont fatigués. Moe zijn is een toestand, dus être."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In het Frans zeg je \"j'ai froid\" om te zeggen dat je het koud hebt.",
+          "antwoord": true,
+          "uitleg": "Klopt. Ook j'ai chaud (ik heb het warm), j'ai faim (ik heb honger) en j'ai soif (ik heb dorst) gaan met avoir."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe zeg je \"Ik heb honger\"?",
+          "opties": [
+            "Je suis faim",
+            "J'ai faim",
+            "Je suis de faim",
+            "J'ai de faim"
+          ],
+          "antwoord": 1,
+          "uitleg": "J'ai faim. In het Nederlands ben je hongerig, in het Frans héb je honger."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: \"Tu ... raison.\" (je hebt gelijk)",
+          "antwoord": "as",
+          "uitleg": "Tu as raison. Ook gelijk hebben gaat in het Frans met avoir."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Om te zeggen dat je het koud hebt, gebruik je in het Frans het werkwoord \"être\".",
+          "antwoord": false,
+          "uitleg": "Niet waar. Dat is j'ai froid, met avoir. Je suis froid zou betekenen dat jij zelf een koude persoon bent."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin betekent \"Wij hebben drie honden\"?",
+          "opties": [
+            "Nous sommes trois chiens",
+            "Nous avons trois chiens",
+            "Nous avez trois chiens",
+            "Nous sont trois chiens"
+          ],
+          "antwoord": 1,
+          "uitleg": "Nous avons trois chiens: wij hebben drie honden. Met sommes zou er staan dat wij drie honden zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vul aan: \"Elles ... contentes.\" (zij zijn blij)",
+          "opties": [
+            "ont",
+            "sont",
+            "avez",
+            "est"
+          ],
+          "antwoord": 1,
+          "uitleg": "Elles sont contentes. Blij zijn is een toestand, dus être."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\"Il a\" en \"il est\" mag je door elkaar gebruiken, want ze betekenen allebei hetzelfde.",
+          "antwoord": false,
+          "uitleg": "Niet waar. Il a is hij heeft en il est is hij is. Il a onze ans klopt; il est onze ans niet."
+        }
+      ]
+    },
+    {
+      "titel": "De tegenwoordige tijd",
+      "niveau": "start",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "De meeste Franse werkwoorden eindigen op -er, zoals \"parler\". Wat betekent dat werkwoord?",
+          "opties": [
+            "lopen",
+            "spreken",
+            "spelen",
+            "kijken"
+          ],
+          "antwoord": 1,
+          "uitleg": "Parler is spreken. Andere werkwoorden op -er: jouer (spelen), regarder (kijken), manger (eten)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vul aan: \"Je ... français.\" (ik spreek Frans)",
+          "opties": [
+            "parle",
+            "parles",
+            "parlons",
+            "parlez"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je parle français. Bij je valt de -er weg en komt er -e voor in de plaats."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: \"Tu ... au football.\" (van jouer, spelen)",
+          "antwoord": "joues",
+          "uitleg": "Tu joues au football. Bij tu eindigt een werkwoord op -er altijd op -es."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitgang krijgt een werkwoord op -er bij \"nous\"?",
+          "opties": [
+            "-ez",
+            "-ent",
+            "-ons",
+            "-es"
+          ],
+          "antwoord": 2,
+          "uitleg": "Nous parlons, nous jouons, nous regardons: bij nous is het altijd -ons."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vul aan: \"Vous ... la télé.\"",
+          "opties": [
+            "regardez",
+            "regardons",
+            "regarde",
+            "regardent"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vous regardez la télé. Bij vous hoort de uitgang -ez."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij \"ils\" en \"elles\" eindigt een werkwoord op -er op -ent, maar die uitgang hoor je niet.",
+          "antwoord": true,
+          "uitleg": "Klopt. Ils parlent klinkt precies hetzelfde als il parle. Je ziet het verschil alleen op papier."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke zin staat de uitgang van het werkwoord juist?",
+          "opties": [
+            "Elle mangent une pomme",
+            "Elles mange une pomme",
+            "Elle mange une pomme",
+            "Elle manges une pomme"
+          ],
+          "antwoord": 2,
+          "uitleg": "Elle mange une pomme: zij eet een appel. Eén persoon, dus de uitgang -e."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: \"Nous ... à l'école.\" (van aller, gaan)",
+          "antwoord": "allons",
+          "uitleg": "Nous allons à l'école. Aller is onregelmatig, maar bij nous is het toch gewoon allons."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vul aan: \"Je ... au cinéma.\" (ik ga naar de bioscoop)",
+          "opties": [
+            "va",
+            "vais",
+            "vas",
+            "allez"
+          ],
+          "antwoord": 1,
+          "uitleg": "Je vais au cinéma. Aller gaat zo: je vais, tu vas, il va, nous allons, vous allez, ils vont."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"faire\"?",
+          "opties": [
+            "doen of maken",
+            "zeggen",
+            "nemen",
+            "zien"
+          ],
+          "antwoord": 0,
+          "uitleg": "Faire is doen of maken. Je gebruikt het ook voor het weer: il fait beau, het is mooi weer."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: \"Qu'est-ce que tu ...?\" (wat doe je, van faire)",
+          "antwoord": "fais",
+          "uitleg": "Qu'est-ce que tu fais ? Faire gaat zo: je fais, tu fais, il fait, nous faisons, vous faites, ils font."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Voor het weer gebruikt het Frans het werkwoord \"faire\": \"il fait froid\" betekent het is koud.",
+          "antwoord": true,
+          "uitleg": "Klopt. Il fait froid, il fait chaud, il fait beau. Letterlijk staat er dat het koud maakt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"Nous faisons nos devoirs\" ?",
+          "opties": [
+            "Wij vergeten ons huiswerk",
+            "Wij maken ons huiswerk",
+            "Wij geven ons huiswerk af",
+            "Wij hebben huiswerk"
+          ],
+          "antwoord": 1,
+          "uitleg": "Faire les devoirs is huiswerk maken. Nous faisons nos devoirs: wij maken ons huiswerk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke zin staat het werkwoord fout?",
+          "opties": [
+            "Ils jouent dehors",
+            "Nous chantons bien",
+            "Tu parles vite",
+            "Je parles français"
+          ],
+          "antwoord": 3,
+          "uitleg": "Je parles français klopt niet: bij je hoort parle zonder s. De s hoort bij tu."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vul aan: \"Ils ... à la maison.\" (van aller)",
+          "opties": [
+            "va",
+            "vont",
+            "allons",
+            "allez"
+          ],
+          "antwoord": 1,
+          "uitleg": "Ils vont à la maison: zij gaan naar huis."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je herkent een werkwoord op -er aan zijn vorm in het woordenboek, want die eindigt op -er.",
+          "antwoord": true,
+          "uitleg": "Klopt. In het woordenboek staat parler, jouer, manger. Die vorm noemen we de infinitief."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: \"Elle ... de la musique.\" (van écouter, luisteren)",
+          "antwoord": "écoute",
+          "uitleg": "Elle écoute de la musique. Bij elle hoort de uitgang -e."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"Je vais manger\" ?",
+          "opties": [
+            "Ik eet",
+            "Ik ga eten",
+            "Ik heb gegeten",
+            "Ik wil eten"
+          ],
+          "antwoord": 1,
+          "uitleg": "Aller plus een werkwoord in het woordenboek is de nabije toekomst: je vais manger, ik ga eten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De uitgang bij \"vous\" en de uitgang bij \"nous\" zijn hetzelfde.",
+          "antwoord": false,
+          "uitleg": "Niet waar. Nous krijgt -ons en vous krijgt -ez: nous parlons, vous parlez."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\"Ils font\" is een vorm van het werkwoord aller.",
+          "antwoord": false,
+          "uitleg": "Niet waar. Ils font hoort bij faire (zij doen). Bij aller is het ils vont (zij gaan). Die twee lijken op elkaar, dus lees goed."
+        }
+      ]
+    },
+    {
+      "titel": "Zinnen bouwen",
+      "niveau": "start",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "In het Frans heeft elk woord een geslacht. Welk lidwoord hoort bij een mannelijk woord?",
+          "opties": [
+            "la",
+            "le",
+            "les",
+            "l'"
+          ],
+          "antwoord": 1,
+          "uitleg": "Le is mannelijk (le livre), la is vrouwelijk (la table). Voor een klinker worden allebei l': l'école."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vul aan: \"... fille\" (het meisje)",
+          "opties": [
+            "Le",
+            "La",
+            "Les",
+            "Un"
+          ],
+          "antwoord": 1,
+          "uitleg": "La fille. Fille is vrouwelijk, dus la."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul het lidwoord aan: \"... garçon\" (de jongen)",
+          "antwoord": "le",
+          "uitleg": "Le garçon. Garçon is mannelijk, dus le."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Voor een woord dat met een klinker begint, schrijf je \"l'\": l'ami, l'école.",
+          "antwoord": true,
+          "uitleg": "Klopt. Zowel le als la wordt l' voor een klinker, want twee klinkers na elkaar spreken lastig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het meervoud van \"le livre\"?",
+          "opties": [
+            "la livres",
+            "les livre",
+            "les livres",
+            "le livres"
+          ],
+          "antwoord": 2,
+          "uitleg": "Les livres. In het meervoud wordt le en la allebei les, en het woord krijgt een s."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "\"Un\" en \"une\" betekenen een. Welke hoort bij \"table\"?",
+          "opties": [
+            "un",
+            "une",
+            "des",
+            "les"
+          ],
+          "antwoord": 1,
+          "uitleg": "Une table, want table is vrouwelijk. Un livre, want livre is mannelijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe maak je een zin ontkennend in het Frans?",
+          "opties": [
+            "je zet pas voor het werkwoord",
+            "je zet ne voor en pas na het werkwoord",
+            "je zet non voor de zin",
+            "je zet ne achter het werkwoord"
+          ],
+          "antwoord": 1,
+          "uitleg": "Het werkwoord komt tussen ne en pas: je ne parle pas. Twee woordjes dus, en het werkwoord ertussen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: \"Je ... parle pas anglais.\" (het ontbrekende woordje)",
+          "antwoord": "ne",
+          "uitleg": "Je ne parle pas anglais: ik spreek geen Engels. Ne staat voor en pas achter het werkwoord."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe zeg je \"Ik heb geen hond\"?",
+          "opties": [
+            "Je n'ai pas de chien",
+            "Je ne pas ai chien",
+            "Je n'ai chien pas",
+            "Je pas ai de chien"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je n'ai pas de chien. Ne wordt n' voor een klinker, en na een ontkenning wordt un of une meestal de."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In een ontkennende zin wordt \"ne\" tot \"n'\" voor een klinker.",
+          "antwoord": true,
+          "uitleg": "Klopt. Je n'aime pas, il n'est pas, elle n'habite pas ici."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de makkelijkste manier om in het Frans een vraag te stellen?",
+          "opties": [
+            "je draait de woorden om",
+            "je zet est-ce que voor de zin",
+            "je zet een vraagteken erachter en verandert niets",
+            "je zet het werkwoord achteraan"
+          ],
+          "antwoord": 1,
+          "uitleg": "Est-ce que tu aimes le chocolat ? De rest van de zin blijft gewoon staan. Omdraaien mag ook, maar is moeilijker."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"où\" in een vraag?",
+          "opties": [
+            "wanneer",
+            "waarom",
+            "waar",
+            "hoe"
+          ],
+          "antwoord": 2,
+          "uitleg": "Où is waar: Où habites-tu ? Quand is wanneer, pourquoi is waarom en comment is hoe."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk Frans vraagwoord betekent waarom?",
+          "antwoord": "pourquoi",
+          "uitleg": "Pourquoi is waarom. Het antwoord begint meestal met parce que, omdat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In het Frans staat het bijvoeglijk naamwoord meestal ...",
+          "opties": [
+            "voor het woord",
+            "achter het woord",
+            "helemaal achteraan de zin",
+            "voor het werkwoord"
+          ],
+          "antwoord": 1,
+          "uitleg": "Une voiture rouge, un chien noir: de kleur komt achter het woord. In het Nederlands staat ze ervoor."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een vrouwelijk woord krijgt het bijvoeglijk naamwoord meestal een extra e: \"une petite fille\".",
+          "antwoord": true,
+          "uitleg": "Klopt. Un petit garçon, une petite fille. In het meervoud komt er nog een s bij: de petites filles."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin betekent \"een rode auto\"?",
+          "opties": [
+            "Une rouge voiture",
+            "Un voiture rouge",
+            "Une voiture rouges",
+            "Une voiture rouge"
+          ],
+          "antwoord": 3,
+          "uitleg": "Une voiture rouge. Voiture is vrouwelijk (une), en de kleur komt erachter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"et\"?",
+          "opties": [
+            "of",
+            "maar",
+            "en",
+            "want"
+          ],
+          "antwoord": 2,
+          "uitleg": "Et is en. Ou is of, mais is maar en parce que is omdat."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk Frans woordje betekent maar?",
+          "antwoord": "mais",
+          "uitleg": "Mais is maar: J'aime le chocolat, mais je préfère les bonbons."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In het Frans schrijf je een vraagteken vast tegen het laatste woord, net zoals in het Nederlands.",
+          "antwoord": false,
+          "uitleg": "Niet waar. In het Frans staat er een spatie voor: Comment ça va ? en Bonjour ! Dat is een Franse regel die het Nederlands niet kent."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De woordvolgorde van het Frans is altijd precies dezelfde als in het Nederlands.",
+          "antwoord": false,
+          "uitleg": "Niet waar. Un chien noir wordt een zwarte hond: de kleur verhuist. En in een ontkenning staat het werkwoord tussen ne en pas."
+        }
+      ]
+    },
+    {
+      "titel": "Op school en onderweg",
+      "niveau": "start",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is \"un cartable\"?",
+          "opties": [
+            "een boekentas",
+            "een banken",
+            "een bord",
+            "een brooddoos"
+          ],
+          "antwoord": 0,
+          "uitleg": "Un cartable is een boekentas. Een brooddoos is une boîte à tartines."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"une trousse\"?",
+          "opties": [
+            "een schrift",
+            "een pennenzak",
+            "een lat",
+            "een gom"
+          ],
+          "antwoord": 1,
+          "uitleg": "Une trousse is een pennenzak. Een schrift is un cahier en een gom is une gomme."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je een boek in het Frans?",
+          "antwoord": "livre",
+          "uitleg": "Un livre is een boek. Met lidwoord: le livre."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is \"un stylo\"?",
+          "opties": [
+            "een potlood",
+            "een balpen",
+            "een schaar",
+            "een map"
+          ],
+          "antwoord": 1,
+          "uitleg": "Un stylo is een balpen. Een potlood is un crayon."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\"Une règle\" kan zowel een lat als een regel betekenen.",
+          "antwoord": true,
+          "uitleg": "Klopt. Une règle is het voorwerp waarmee je meet én een afspraak die je moet volgen, net als in het Nederlands."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"la récréation\"?",
+          "opties": [
+            "de speeltijd",
+            "de turnles",
+            "de refter",
+            "het rapport"
+          ],
+          "antwoord": 0,
+          "uitleg": "La récréation is de speeltijd. In de spreektaal korten ze het af tot la récré."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat vraag je met \"Où est la gare ?\"",
+          "opties": [
+            "Waar is het station?",
+            "Waar is de garage?",
+            "Waar is de school?",
+            "Waar is de winkel?"
+          ],
+          "antwoord": 0,
+          "uitleg": "La gare is het station. Une garage lijkt erop maar is een garage."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand zegt: \"Tournez à gauche.\" Wat moet je doen?",
+          "opties": [
+            "rechtdoor gaan",
+            "links afslaan",
+            "rechts afslaan",
+            "terugkeren"
+          ],
+          "antwoord": 1,
+          "uitleg": "À gauche is links, à droite is rechts. Tout droit betekent rechtdoor."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk Frans woord betekent rechts?",
+          "antwoord": "droite",
+          "uitleg": "À droite is naar rechts. Pas op: tout droit betekent rechtdoor, en dat is iets anders."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\"Tout droit\" betekent naar rechts.",
+          "antwoord": false,
+          "uitleg": "Niet waar. Tout droit is rechtdoor. Naar rechts is à droite, en die twee lijken op elkaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is \"une rue\"?",
+          "opties": [
+            "een plein",
+            "een straat",
+            "een brug",
+            "een park"
+          ],
+          "antwoord": 1,
+          "uitleg": "Une rue is een straat. Een plein is une place en een brug is un pont."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar koop je \"du pain\"?",
+          "opties": [
+            "à la boulangerie",
+            "à la pharmacie",
+            "à la librairie",
+            "à la piscine"
+          ],
+          "antwoord": 0,
+          "uitleg": "Le pain is brood, en dat koop je bij de bakker: la boulangerie."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet het schoolvak wiskunde in het Frans? (één woord, meervoud)",
+          "antwoord": "mathématiques",
+          "uitleg": "Les mathématiques, afgekort les maths. Andere vakken: le français, le néerlandais, l'histoire."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"Je vais à l'école à vélo\" ?",
+          "opties": [
+            "Ik ga te voet naar school",
+            "Ik ga met de fiets naar school",
+            "Ik ga met de bus naar school",
+            "Ik ga met de auto naar school"
+          ],
+          "antwoord": 1,
+          "uitleg": "À vélo is met de fiets. Te voet is à pied, met de bus is en bus."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "\"En bus\" en \"en voiture\" betekenen met de bus en met de auto.",
+          "antwoord": true,
+          "uitleg": "Klopt. Bij een vervoermiddel waar je ín zit, gebruik je en. Bij de fiets zeg je à vélo, want daar zit je op."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leerkracht zegt: \"Ouvrez votre livre.\" Wat vraagt hij?",
+          "opties": [
+            "Doe je boek dicht",
+            "Open je boek",
+            "Geef je boek af",
+            "Neem een nieuw boek"
+          ],
+          "antwoord": 1,
+          "uitleg": "Ouvrir is openen, fermer is sluiten. Ouvrez votre livre: open je boek."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent \"Je ne comprends pas\" ?",
+          "opties": [
+            "Ik weet het niet",
+            "Ik begrijp het niet",
+            "Ik hoor het niet",
+            "Ik zie het niet"
+          ],
+          "antwoord": 1,
+          "uitleg": "Comprendre is begrijpen. Dit is een van de nuttigste zinnetjes die je in een vreemde taal kan kennen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil weten wat iets kost. Wat vraag je?",
+          "opties": [
+            "Où est-ce ?",
+            "C'est combien ?",
+            "Qui est-ce ?",
+            "Comment ça va ?"
+          ],
+          "antwoord": 1,
+          "uitleg": "C'est combien ? betekent hoeveel kost het. Je kan ook vragen: Ça coûte combien ?"
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij \"Répétez, s'il vous plaît\" vraag je om iets te herhalen.",
+          "antwoord": true,
+          "uitleg": "Klopt. Répéter is herhalen. Handig als iemand te snel spreekt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een \"librairie\" is een bibliotheek waar je boeken kan lenen.",
+          "antwoord": false,
+          "uitleg": "Niet waar. Une librairie is een boekhandel, waar je boeken kóópt. De bibliotheek is la bibliothèque."
+        }
+      ]
+    },
+    {
+      "titel": "Een tekstje lezen",
+      "niveau": "start",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Op welke dag speelt dit verhaaltje zich af?",
+          "opties": [
+            "op woensdag",
+            "op vrijdag",
+            "op zaterdag",
+            "op zondag"
+          ],
+          "antwoord": 2,
+          "uitleg": "De eerste zin begint met Le samedi, en samedi is zaterdag."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Met wie gaat Camille naar de markt?",
+          "opties": [
+            "met haar grootvader",
+            "met haar mama",
+            "met haar zus",
+            "met haar vriendin"
+          ],
+          "antwoord": 0,
+          "uitleg": "Er staat: Elle va au marché avec son grand-père. Grand-père is grootvader."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Waar staat de markt, volgens de tekst? Geef het Franse woord dat in de tekst gebruikt wordt voor het gebouw ernaast.",
+          "antwoord": "église",
+          "uitleg": "Er staat: à côté de l'église. L'église is de kerk. À côté de betekent naast."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Camille moet die dag naar school.",
+          "antwoord": false,
+          "uitleg": "Niet waar. De tekst begint met Le samedi, Camille ne va pas à l'école: op zaterdag gaat ze niet naar school. Ne ... pas is de ontkenning."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke kleur hebben de appels op de markt?",
+          "opties": [
+            "groen",
+            "rood",
+            "geel",
+            "de kleur staat er niet bij"
+          ],
+          "antwoord": 1,
+          "uitleg": "Er staat des pommes rouges. Rouge is rood, en het staat achter het woord, zoals in het Frans gebruikelijk is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat koopt de grootvader bij de bakker?",
+          "opties": [
+            "brood",
+            "koeken",
+            "een taart",
+            "melk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Son grand-père achète du pain à la boulangerie. Le pain is brood en la boulangerie is de bakkerij."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel kilo aardappelen koopt de grootvader? Geef het getal in cijfers.",
+          "antwoord": "2",
+          "uitleg": "Er staat deux kilos de pommes de terre. Deux is twee, en pommes de terre zijn aardappelen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe heet de marktvrouw?",
+          "opties": [
+            "madame Camille",
+            "madame Dubois",
+            "madame Marie",
+            "haar naam staat er niet bij"
+          ],
+          "antwoord": 1,
+          "uitleg": "De grootvader groet haar met Bonjour, madame Dubois."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat krijgt Camille van de marktvrouw?",
+          "opties": [
+            "een appel",
+            "een bloem",
+            "een koek",
+            "een wortel"
+          ],
+          "antwoord": 0,
+          "uitleg": "De marktvrouw zegt: Et voilà une pomme pour la petite. Une pomme is een appel."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Camille bewaart wat ze krijgt voor later.",
+          "antwoord": false,
+          "uitleg": "Niet waar. Er staat mange la pomme tout de suite: ze eet de appel meteen op."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat voor weer is het 's middags?",
+          "opties": [
+            "het sneeuwt",
+            "het regent",
+            "de zon schijnt",
+            "het waait hard"
+          ],
+          "antwoord": 1,
+          "uitleg": "À midi, il pleut. Il pleut betekent het regent; dat woord staat in de woordenlijst."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk Frans woord in de tekst betekent de mand?",
+          "antwoord": "panier",
+          "uitleg": "Le panier est lourd: de mand is zwaar. Lourd betekent zwaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom draagt Camille alleen het brood?",
+          "opties": [
+            "omdat ze het brood zelf gekocht heeft",
+            "omdat de mand te zwaar is voor haar",
+            "omdat ze het brood wil opeten",
+            "omdat haar grootvader het vraagt"
+          ],
+          "antwoord": 1,
+          "uitleg": "Le panier est lourd, alors Camille porte le pain: de mand is zwaar, dus draagt zij het lichtste stuk. Alors betekent dus."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat maakt de mama van Camille thuis klaar?",
+          "opties": [
+            "soep",
+            "taart",
+            "friet",
+            "pannenkoeken"
+          ],
+          "antwoord": 0,
+          "uitleg": "La maman de Camille fait de la soupe avec les carottes: soep met de wortelen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De wortelen van de markt worden thuis gebruikt.",
+          "antwoord": true,
+          "uitleg": "Klopt. Op de markt liggen er carottes, en thuis maakt de mama soupe avec les carottes."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Camille zegt: \"Le marché, c'est mon jour préféré.\" Wat bedoelt ze?",
+          "opties": [
+            "De markt is ver van huis",
+            "De markt is haar lievelingsdag",
+            "De markt duurt lang",
+            "De markt is elke dag open"
+          ],
+          "antwoord": 1,
+          "uitleg": "Préféré betekent favoriet, en mon jour is mijn dag. Ze noemt het dus haar lievelingsdag."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De grootvader vindt er anders over dan Camille.",
+          "antwoord": false,
+          "uitleg": "Niet waar. Hij antwoordt Le mien aussi, en dat betekent de mijne ook."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke titel past het best bij dit verhaaltje?",
+          "opties": [
+            "Een dag op school",
+            "De zaterdag van Camille",
+            "Een reis naar Frankrijk",
+            "Het feest van grootvader"
+          ],
+          "antwoord": 1,
+          "uitleg": "De hele tekst gaat over wat Camille op zaterdag doet: naar de markt, en daarna thuis eten. Van school en van een reis is geen sprake."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Alle werkwoorden in dit verhaaltje staan in de tegenwoordige tijd.",
+          "antwoord": true,
+          "uitleg": "Klopt. Va, aime, achète, dit, rit, mange, pleut, rentrent, porte, fait: allemaal tegenwoordige tijd, zoals je die in hoofdstuk 4 geleerd hebt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Met welk woord begroet de grootvader de marktvrouw?",
+          "antwoord": "bonjour",
+          "uitleg": "Hij zegt Bonjour, madame Dubois. Bonjour gebruik je overdag; 's avonds zou hij bonsoir zeggen."
+        }
+      ],
+      "leestekst": "Le samedi, Camille ne va pas à l'école. Elle va au marché avec son grand-père. Le marché est sur la grande place, à côté de l'église.\n\nCamille aime le marché. Il y a des pommes rouges, des carottes et beaucoup de fleurs. Son grand-père achète du pain à la boulangerie et deux kilos de pommes de terre.\n\n« Bonjour, madame Dubois », dit le grand-père. La marchande rit. « Bonjour ! Et voilà une pomme pour la petite. » Camille dit merci et mange la pomme tout de suite.\n\nÀ midi, il pleut. Camille et son grand-père rentrent à la maison. Le panier est lourd, alors Camille porte le pain et son grand-père porte le reste.\n\nÀ la maison, la maman de Camille fait de la soupe avec les carottes. « Le marché, c'est mon jour préféré », dit Camille. Son grand-père rit : « Le mien aussi. »",
+      "woordenlijst": [
+        {
+          "woord": "marché",
+          "uitleg": "de markt"
+        },
+        {
+          "woord": "marchande",
+          "uitleg": "de marktvrouw, de verkoopster"
+        },
+        {
+          "woord": "pleut",
+          "uitleg": "van pleuvoir, regenen: il pleut betekent het regent"
+        },
+        {
+          "woord": "panier",
+          "uitleg": "de mand"
+        }
+      ]
+    }
+  ]
+}
