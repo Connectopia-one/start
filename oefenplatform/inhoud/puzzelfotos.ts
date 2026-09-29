@@ -94,6 +94,10 @@ export const PUZZELFOTOS: Record<string, { url: string; verhouding: number }> =
       url: "/puzzels/frans/de-tegenwoordige-tijd.webp",
       verhouding: 1.5396,
     },
+    "frans/een-tekstje-lezen": {
+      url: "/puzzels/frans/een-tekstje-lezen.webp",
+      verhouding: 1.0,
+    },
     "frans/etre-en-avoir": {
       url: "/puzzels/frans/etre-en-avoir.webp",
       verhouding: 1.338,
