@@ -3,7 +3,12 @@
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { registreerAntwoord, registreerSticker } from "@/app/voortgang-actions";
-import { KleurVraag, SleepVraag, VraagTekst, leesVraag } from "@/components/Figuren";
+import {
+  KleurVraag,
+  SleepVraag,
+  VraagTekst,
+  leesVraag,
+} from "@/components/Figuren";
 import {
   gegevenKeuzes,
   heeftMeerdereAntwoorden,
@@ -42,7 +47,8 @@ function zoalsOpgeslagen(vraag: Vraag, gegeven: Gegeven): Gegeven {
   if (vraag.type !== "meerkeuze") return gegeven;
   const volgorde = vraag.optieVolgorde;
   if (!volgorde) return gegeven;
-  const terug = (i: number) => (i >= 0 && i < volgorde.length ? volgorde[i] : i);
+  const terug = (i: number) =>
+    i >= 0 && i < volgorde.length ? volgorde[i] : i;
   if (Array.isArray(gegeven)) return gegeven.map(terug).sort((a, b) => a - b);
   if (typeof gegeven === "number") return terug(gegeven);
   return gegeven;
@@ -50,7 +56,11 @@ function zoalsOpgeslagen(vraag: Vraag, gegeven: Gegeven): Gegeven {
 
 type Gegeven = string | number | boolean | number[] | null;
 
-type Status = { gecontroleerd: boolean; correct: boolean; gegevenAntwoord: Gegeven };
+type Status = {
+  gecontroleerd: boolean;
+  correct: boolean;
+  gegevenAntwoord: Gegeven;
+};
 
 /**
  * Zet een ingetypt antwoord om naar een vorm die we kunnen vergelijken.
@@ -99,7 +109,9 @@ function accentverschil(vraag: Vraag, gegeven: Gegeven): string | null {
   if (antwoorden.some((a) => getypt === a.toLowerCase())) return null;
   return (
     antwoorden.find(
-      (a) => a !== zonderAccenten(a) && zonderAccenten(getypt) === zonderAccenten(a.toLowerCase()),
+      (a) =>
+        a !== zonderAccenten(a) &&
+        zonderAccenten(getypt) === zonderAccenten(a.toLowerCase()),
     ) ?? null
   );
 }
@@ -109,10 +121,17 @@ function accentverschil(vraag: Vraag, gegeven: Gegeven): string | null {
  * en meervoud allebei mee: "kieuw" naast "kieuwen", "herbivoor" naast
  * "herbivoren". Zie woordkern in lib/antwoord.ts.
  */
-function zelfdeWoord(getypt: string, antwoord: string, soepel: boolean): boolean {
+function zelfdeWoord(
+  getypt: string,
+  antwoord: string,
+  soepel: boolean,
+): boolean {
   const a = normaliseerAntwoord(getypt);
   const b = normaliseerAntwoord(antwoord);
   if (a === b) return true;
+  // "50%" en "50" zijn hetzelfde antwoord, ook bij een taalvak: dit gaat over
+  // schrijfwijze van een getal, niet over spelling.
+  if (zelfdeGetal(a, b)) return true;
   if (!soepel) return false;
   // Getallen laten we met rust: daar is 3 niet hetzelfde als 3en.
   if (/\d/.test(a) || /\d/.test(b)) return false;
@@ -128,14 +147,18 @@ function zelfdeWoord(getypt: string, antwoord: string, soepel: boolean): boolean
 function schrijfwijzeNota(
   vraag: Vraag,
   gegeven: Gegeven,
-  soepel: boolean
+  soepel: boolean,
 ): { tekst: string; accent: boolean } | null {
   const accent = accentverschil(vraag, gegeven);
   if (accent) return { tekst: accent, accent: true };
-  if (vraag.type !== "invultekst" || typeof gegeven !== "string" || !soepel) return null;
+  if (vraag.type !== "invultekst" || typeof gegeven !== "string" || !soepel)
+    return null;
   const getypt = normaliseerAntwoord(gegeven);
   const antwoorden = invulAntwoorden(vraag.antwoord);
   if (antwoorden.some((a) => normaliseerAntwoord(a) === getypt)) return null;
+  // Wie "50%" typte waar wij "50" schreven, hoeft geen verbetering te zien.
+  if (antwoorden.some((a) => zelfdeGetal(getypt, normaliseerAntwoord(a))))
+    return null;
   const anders = antwoorden.find((a) => zelfdeWoord(gegeven, a, true));
   return anders ? { tekst: anders, accent: false } : null;
 }
@@ -156,11 +179,59 @@ function normaliseerGetal(tekst: string): string | null {
   return getal === "0" ? "0" : treffer[1] + getal;
 }
 
+/**
+ * Een teken dat bij een getal hoort maar het antwoord niet verandert: het
+ * procentteken, het euroteken en het gradenteken. Een kind dat "50%" typt op
+ * "Hoeveel procent is de helft?" heeft het even goed als een kind dat "50"
+ * typt — het wist het antwoord. Echte maateenheden (kg, m, cm, l) staan hier
+ * bewust niet tussen: daar maakt de eenheid wél het verschil tussen juist en
+ * fout.
+ *
+ * Gemeld door een kind uit de testgroep op 28 september 2026: "ik had 50%
+ * ingetypt maar het was fout. Het goede antwoord was 50."
+ */
+const GETALTEKENS: { teken: RegExp; soort: string }[] = [
+  {
+    teken: /^\s*(%|procent|percent)\s*|\s*(%|procent|percent)\s*$/,
+    soort: "procent",
+  },
+  { teken: /^\s*(€|euro)\s*|\s*(€|euro)\s*$/, soort: "euro" },
+  { teken: /^\s*(°|graden|graad)\s*|\s*(°|graden|graad)\s*$/, soort: "graden" },
+];
+
+/**
+ * Splitst "50%" in het getal 50 en het soort teken. Staat er geen getal in,
+ * dan geeft dit niets terug en verandert er niets aan de vergelijking.
+ */
+function getalMetTeken(tekst: string): { getal: string; soort: string } | null {
+  for (const { teken, soort } of GETALTEKENS) {
+    if (!teken.test(tekst)) continue;
+    const kaal = normaliseerGetal(tekst.replace(teken, "").trim());
+    if (kaal) return { getal: kaal, soort };
+  }
+  const kaal = normaliseerGetal(tekst.trim());
+  return kaal ? { getal: kaal, soort: "" } : null;
+}
+
+/**
+ * Is dit hetzelfde getal, op een teken na dat er niet toe doet? "50" en "50%"
+ * wel, "50%" en "50 euro" niet — wie een ander teken meetypt, bedoelt iets
+ * anders.
+ */
+function zelfdeGetal(getypt: string, antwoord: string): boolean {
+  const a = getalMetTeken(getypt);
+  const b = getalMetTeken(antwoord);
+  if (!a || !b || a.getal !== b.getal) return false;
+  return a.soort === b.soort || a.soort === "" || b.soort === "";
+}
+
 function isCorrect(vraag: Vraag, gegeven: Gegeven, soepel = false): boolean {
   if (gegeven === null) return false;
   if (vraag.type === "invultekst") {
     // Staat er meer dan één antwoord in, dan telt elk ervan juist. Zie lib/antwoord.ts.
-    return invulAntwoorden(vraag.antwoord).some((a) => zelfdeWoord(String(gegeven), a, soepel));
+    return invulAntwoorden(vraag.antwoord).some((a) =>
+      zelfdeWoord(String(gegeven), a, soepel),
+    );
   }
   // Bij meerkeuze moet het aangeduide precies overeenkomen met wat juist is.
   // Wie er één aanduidt terwijl er twee juist waren, heeft de vraag fout — net
@@ -214,7 +285,9 @@ function VraagKaart({
       {vraag.type === "meerkeuze" && (
         <div className="mt-3 space-y-2">
           {vraag.opties?.map((optie, i) => {
-            const aangeduid = alsVakjes ? gegevenKeuzes(gegeven).includes(i) : gegeven === i;
+            const aangeduid = alsVakjes
+              ? gegevenKeuzes(gegeven).includes(i)
+              : gegeven === i;
             return (
               <label
                 key={i}
@@ -231,7 +304,9 @@ function VraagKaart({
                     if (!alsVakjes) return onAntwoord(i);
                     const nu = gegevenKeuzes(gegeven);
                     onAntwoord(
-                      nu.includes(i) ? nu.filter((k) => k !== i) : [...nu, i].sort((a, b) => a - b)
+                      nu.includes(i)
+                        ? nu.filter((k) => k !== i)
+                        : [...nu, i].sort((a, b) => a - b),
                     );
                   }}
                   className="accent-forest"
@@ -252,7 +327,9 @@ function VraagKaart({
               disabled={status.gecontroleerd}
               onClick={() => onAntwoord(optie)}
               className={`rounded-md border px-4 py-2 text-sm ${
-                gegeven === optie ? "border-forest bg-forest/5 text-forest-dark" : "border-border text-ink"
+                gegeven === optie
+                  ? "border-forest bg-forest/5 text-forest-dark"
+                  : "border-border text-ink"
               }`}
             >
               {optie ? "Waar" : "Niet waar"}
@@ -270,15 +347,17 @@ function VraagKaart({
         />
       )}
 
-      {vraag.type === "invultekst" && interactie?.soort === "sleep" && vraag.opties && (
-        <SleepVraag
-          id={vraag.id}
-          items={vraag.opties}
-          richting={interactie.richting}
-          uitgeschakeld={status.gecontroleerd}
-          onAntwoord={onAntwoord}
-        />
-      )}
+      {vraag.type === "invultekst" &&
+        interactie?.soort === "sleep" &&
+        vraag.opties && (
+          <SleepVraag
+            id={vraag.id}
+            items={vraag.opties}
+            richting={interactie.richting}
+            uitgeschakeld={status.gecontroleerd}
+            onAntwoord={onAntwoord}
+          />
+        )}
 
       {vraag.type === "invultekst" && !interactie && (
         <input
@@ -303,17 +382,27 @@ function VraagKaart({
       ) : (
         <div
           className={`mt-4 rounded-md px-3 py-2 text-sm ${
-            status.correct ? "bg-forest/10 text-forest-dark" : "bg-danger/10 text-danger"
+            status.correct
+              ? "bg-forest/10 text-forest-dark"
+              : "bg-danger/10 text-danger"
           }`}
         >
-          <p className="font-medium">{status.correct ? "Juist!" : "Niet helemaal juist."}</p>
+          <p className="font-medium">
+            {status.correct ? "Juist!" : "Niet helemaal juist."}
+          </p>
           {status.correct &&
             (() => {
-              const nota = schrijfwijzeNota(vraag, status.gegevenAntwoord, soepel);
+              const nota = schrijfwijzeNota(
+                vraag,
+                status.gegevenAntwoord,
+                soepel,
+              );
               if (!nota) return null;
               return (
                 <p className="mt-1 text-ink">
-                  {nota.accent ? "Let op de accenten: je schrijft het als " : "Wij schreven het als "}
+                  {nota.accent
+                    ? "Let op de accenten: je schrijft het als "
+                    : "Wij schreven het als "}
                   <strong>{nota.tekst}</strong>.
                 </p>
               );
@@ -328,7 +417,9 @@ function VraagKaart({
               {juisteKeuzes(vraag.antwoord).length > 1
                 ? `Er waren ${juisteKeuzes(vraag.antwoord).length} juiste antwoorden: `
                 : "Juist was: "}
-              <strong>{schrijfKeuzes(vraag.opties, juisteKeuzes(vraag.antwoord))}</strong>
+              <strong>
+                {schrijfKeuzes(vraag.opties, juisteKeuzes(vraag.antwoord))}
+              </strong>
             </p>
           )}
           {vraag.uitleg && <p className="mt-1 text-ink">{vraag.uitleg}</p>}
@@ -351,7 +442,12 @@ export function Quiz({
   taalvak?: boolean;
 }) {
   const [statussen, setStatussen] = useState<Record<string, Status>>(() =>
-    Object.fromEntries(vragen.map((v) => [v.id, { gecontroleerd: false, correct: false, gegevenAntwoord: null }]))
+    Object.fromEntries(
+      vragen.map((v) => [
+        v.id,
+        { gecontroleerd: false, correct: false, gegevenAntwoord: null },
+      ]),
+    ),
   );
   const [actiefKindId, setActiefKindId] = useState<string | null>(null);
   // Telt mee bij "Opnieuw proberen", zodat ook wat een kind ingekleurd of
@@ -379,8 +475,12 @@ export function Quiz({
   // gaat: zelf zien hoeveel antwoorden er juist zijn.
   const alsVakjes = vragen.some((v) => heeftMeerdereAntwoorden(v));
 
-  const aantalGecontroleerd = Object.values(statussen).filter((s) => s.gecontroleerd).length;
-  const aantalCorrect = Object.values(statussen).filter((s) => s.correct).length;
+  const aantalGecontroleerd = Object.values(statussen).filter(
+    (s) => s.gecontroleerd,
+  ).length;
+  const aantalCorrect = Object.values(statussen).filter(
+    (s) => s.correct,
+  ).length;
   const klaar = vragen.length > 0 && aantalGecontroleerd === vragen.length;
   const perfect = klaar && aantalCorrect === vragen.length;
 
@@ -396,12 +496,21 @@ export function Quiz({
     stickerGegeven.current = false;
     setRonde((r) => r + 1);
     setStatussen(
-      Object.fromEntries(vragen.map((v) => [v.id, { gecontroleerd: false, correct: false, gegevenAntwoord: null }]))
+      Object.fromEntries(
+        vragen.map((v) => [
+          v.id,
+          { gecontroleerd: false, correct: false, gegevenAntwoord: null },
+        ]),
+      ),
     );
   };
 
   if (!vragen.length) {
-    return <p className="mt-8 text-sm text-ink-dim">Er zijn nog geen vragen in dit hoofdstuk.</p>;
+    return (
+      <p className="mt-8 text-sm text-ink-dim">
+        Er zijn nog geen vragen in dit hoofdstuk.
+      </p>
+    );
   }
 
   return (
@@ -437,9 +546,9 @@ export function Quiz({
 
       {alsVakjes && (
         <p className="rounded-md bg-amber/10 px-3 py-2 text-xs text-ink">
-          Let op: bij de keuzevragen in dit hoofdstuk kan er méér dan één antwoord juist zijn. Duid
-          alles aan wat klopt — net als op het examen krijg je de vraag maar goed als je ze allemaal
-          hebt, niet de helft.
+          Let op: bij de keuzevragen in dit hoofdstuk kan er méér dan één
+          antwoord juist zijn. Duid alles aan wat klopt — net als op het examen
+          krijg je de vraag maar goed als je ze allemaal hebt, niet de helft.
         </p>
       )}
 
@@ -451,10 +560,17 @@ export function Quiz({
           alsVakjes={alsVakjes}
           soepel={!taalvak}
           onAntwoord={(v) =>
-            setStatussen((s) => ({ ...s, [vraag.id]: { ...s[vraag.id], gegevenAntwoord: v } }))
+            setStatussen((s) => ({
+              ...s,
+              [vraag.id]: { ...s[vraag.id], gegevenAntwoord: v },
+            }))
           }
           onControleer={() => {
-            const correct = isCorrect(vraag, statussen[vraag.id].gegevenAntwoord, !taalvak);
+            const correct = isCorrect(
+              vraag,
+              statussen[vraag.id].gegevenAntwoord,
+              !taalvak,
+            );
             setStatussen((s) => ({
               ...s,
               [vraag.id]: { ...s[vraag.id], gecontroleerd: true, correct },
@@ -465,7 +581,7 @@ export function Quiz({
                 vraag.id,
                 hoofdstukId ?? null,
                 correct,
-                zoalsOpgeslagen(vraag, statussen[vraag.id].gegevenAntwoord)
+                zoalsOpgeslagen(vraag, statussen[vraag.id].gegevenAntwoord),
               ).catch(() => {});
             }
           }}
@@ -475,15 +591,20 @@ export function Quiz({
       {klaar && (
         <div
           className={`rounded-xl border px-5 py-4 text-center ${
-            perfect ? "border-amber/40 bg-amber/10" : "border-forest/30 bg-forest/10"
+            perfect
+              ? "border-amber/40 bg-amber/10"
+              : "border-forest/30 bg-forest/10"
           }`}
         >
           {perfect ? (
             <>
               <p className="text-3xl">🌟</p>
-              <p className="mt-1 font-display text-lg font-semibold text-amber">Sticker verdiend!</p>
+              <p className="mt-1 font-display text-lg font-semibold text-amber">
+                Sticker verdiend!
+              </p>
               <p className="mt-1 text-sm text-ink">
-                Alle {vragen.length} vragen juist — helemaal correct, knap gedaan!
+                Alle {vragen.length} vragen juist — helemaal correct, knap
+                gedaan!
               </p>
             </>
           ) : (
