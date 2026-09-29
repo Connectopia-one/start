@@ -3,11 +3,21 @@
 import { useMemo, useState, type ChangeEvent } from "react";
 import { useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
-import { maakBulkLeerstofUploadUrl, registreerBulkLeerstof, verwijderLeerstof } from "./actions";
+import {
+  maakBulkLeerstofUploadUrl,
+  registreerBulkLeerstof,
+  verwijderLeerstof,
+  hernoemLeerstof,
+} from "./actions";
 import { NIVEAUS } from "@/lib/niveaus";
 import { splitsDeel } from "@/lib/hoofdstukvolgorde";
 
-export type Hoofdstuk = { id: string; titel: string; niveau: string; volgnummer: number };
+export type Hoofdstuk = {
+  id: string;
+  titel: string;
+  niveau: string;
+  volgnummer: number;
+};
 export type Vak = { id: string; naam: string; hoofdstukken: Hoofdstuk[] };
 export type Bundel = { id: string; hoofdstuk_id: string; titel: string };
 
@@ -45,7 +55,9 @@ function woorden(tekst: string): string[] {
 */
 function niveauUitBestandsnaam(bestandsnaam: string): string | null {
   const kaal = bestandsnaam.replace(/\.[a-z0-9]+$/i, "").toLowerCase();
-  const slug = NIVEAUS.find((n) => kaal.endsWith(`-${n.slug}`) || kaal.endsWith(`_${n.slug}`));
+  const slug = NIVEAUS.find(
+    (n) => kaal.endsWith(`-${n.slug}`) || kaal.endsWith(`_${n.slug}`),
+  );
   return slug ? slug.slug : null;
 }
 
@@ -59,11 +71,16 @@ function niveauUitBestandsnaam(bestandsnaam: string): string | null {
   delen van zo'n thema even goed, dan krijg je ze allemaal terug, zodat
   dezelfde pdf in één keer bij elk deel komt.
 */
-function raadHoofdstukken(bestandsnaam: string, hoofdstukken: Hoofdstuk[]): string[] {
+function raadHoofdstukken(
+  bestandsnaam: string,
+  hoofdstukken: Hoofdstuk[],
+): string[] {
   const uitNaam = woorden(bestandsnaam);
   const plat = uitNaam.join(" ");
   const niveau = niveauUitBestandsnaam(bestandsnaam);
-  const kandidaten = niveau ? hoofdstukken.filter((h) => h.niveau === niveau) : hoofdstukken;
+  const kandidaten = niveau
+    ? hoofdstukken.filter((h) => h.niveau === niveau)
+    : hoofdstukken;
   let besteScore = 0;
   let besten: Hoofdstuk[] = [];
 
@@ -90,9 +107,53 @@ function raadHoofdstukken(bestandsnaam: string, hoofdstukken: Hoofdstuk[]): stri
   const delen = besten.map((h) => ({ h, ...splitsDeel(h.titel) }));
   const eenThema =
     delen.length > 1 &&
-    delen.every((d) => d.deel > 0 && d.thema === delen[0].thema && d.h.niveau === delen[0].h.niveau);
-  return eenThema ? delen.sort((a, b) => a.deel - b.deel).map((d) => d.h.id) : [""];
+    delen.every(
+      (d) =>
+        d.deel > 0 &&
+        d.thema === delen[0].thema &&
+        d.h.niveau === delen[0].h.niveau,
+    );
+  return eenThema
+    ? delen.sort((a, b) => a.deel - b.deel).map((d) => d.h.id)
+    : [""];
 }
+
+/*
+  Woorden die van een land- of volksnaam komen, houden in het Nederlands hun
+  hoofdletter: een Engelse tekst, het Romeinse Rijk. Een bestandsnaam is
+  helemaal in kleine letters, dus zonder deze lijst werd dat "Een engelse tekst
+  lezen". Gemeld door Marjolein De Smedt op 29 september 2026.
+
+  Het zijn stammen, geen hele woorden: "engels" dekt ook "Engelse" en
+  "Engelstalige".
+*/
+const EIGENNAAMSTAMMEN = [
+  "engels",
+  "frans",
+  "nederlands",
+  "duits",
+  "spaans",
+  "italiaans",
+  "portugees",
+  "latijn",
+  "grieks",
+  "romeins",
+  "egyptisch",
+  "belgisch",
+  "brits",
+  "iers",
+  "schots",
+  "amerikaans",
+  "canadees",
+  "australisch",
+  "europees",
+  "europes",
+  "vlaams",
+  "waals",
+  "afrikaans",
+  "chinees",
+  "russisch",
+];
 
 /* "breuken-en-kommagetallen.pdf" wordt "Breuken en kommagetallen". Een
    categorie achteraan ("maten-omzetten-basis.pdf") dient enkel om de bestanden
@@ -102,8 +163,21 @@ function titelUitBestandsnaam(bestandsnaam: string): string {
     .replace(/\.[a-z0-9]+$/i, "")
     .replace(/[_-]+/g, " ")
     .trim()
-    .replace(new RegExp(`\\s+(${NIVEAUS.map((n) => n.slug).join("|")})$`, "i"), "");
-  return kaal.charAt(0).toUpperCase() + kaal.slice(1);
+    .replace(
+      new RegExp(`\\s+(${NIVEAUS.map((n) => n.slug).join("|")})$`, "i"),
+      "",
+    );
+  return metHoofdletters(kaal);
+}
+
+/* Eerste letter een hoofdletter, en elke land- of volksnaam ook. */
+export function metHoofdletters(tekst: string): string {
+  const woordenlijst = tekst.split(" ").map((w, i) => {
+    const klein = w.toLowerCase();
+    const eigennaam = EIGENNAAMSTAMMEN.some((stam) => klein.startsWith(stam));
+    return i === 0 || eigennaam ? w.charAt(0).toUpperCase() + w.slice(1) : w;
+  });
+  return woordenlijst.join(" ");
 }
 
 /* Is dit een nieuwe versie van iets wat er al hangt, of komt het ernaast?
@@ -120,13 +194,22 @@ function niveauLabel(niveau: string): string {
   return n ? `${n.emoji} ${n.naam}` : niveau;
 }
 
-export function BulkLeerstofForm({ vakken, bundels }: { vakken: Vak[]; bundels: Bundel[] }) {
+export function BulkLeerstofForm({
+  vakken,
+  bundels,
+}: {
+  vakken: Vak[];
+  bundels: Bundel[];
+}) {
   const router = useRouter();
   const [vakId, setVakId] = useState(vakken[0]?.id ?? "");
   const [niveau, setNiveau] = useState("");
   const [rijen, setRijen] = useState<Rij[]>([]);
   const [bezig, setBezig] = useState(false);
   const [wisBezig, setWisBezig] = useState("");
+  // Welke bundel staat er open om hernoemd te worden, en wat staat er in het veld.
+  const [hernoemId, setHernoemId] = useState("");
+  const [hernoemTekst, setHernoemTekst] = useState("");
 
   /* Wat staat er al per hoofdstuk? */
   const bundelsPerHoofdstuk = useMemo(() => {
@@ -154,7 +237,8 @@ export function BulkLeerstofForm({ vakken, bundels }: { vakken: Vak[]; bundels: 
       .slice()
       .sort(
         (a, b) =>
-          volgorde.indexOf(a.niveau) - volgorde.indexOf(b.niveau) || a.volgnummer - b.volgnummer,
+          volgorde.indexOf(a.niveau) - volgorde.indexOf(b.niveau) ||
+          a.volgnummer - b.volgnummer,
       );
   }, [vakId, niveau, vakken]);
 
@@ -170,7 +254,10 @@ export function BulkLeerstofForm({ vakken, bundels }: { vakken: Vak[]; bundels: 
             bestand,
             hoofdstukId,
             titel,
-            vervang: vervangtBestaande(titel, bundelsPerHoofdstuk.get(hoofdstukId) ?? []),
+            vervang: vervangtBestaande(
+              titel,
+              bundelsPerHoofdstuk.get(hoofdstukId) ?? [],
+            ),
             status: "wacht" as const,
           };
         }),
@@ -179,7 +266,9 @@ export function BulkLeerstofForm({ vakken, bundels }: { vakken: Vak[]; bundels: 
   }
 
   function pasAan(index: number, wijziging: Partial<Rij>) {
-    setRijen((oud) => oud.map((r, i) => (i === index ? { ...r, ...wijziging } : r)));
+    setRijen((oud) =>
+      oud.map((r, i) => (i === index ? { ...r, ...wijziging } : r)),
+    );
   }
 
   async function uploadAlles() {
@@ -201,7 +290,10 @@ export function BulkLeerstofForm({ vakken, bundels }: { vakken: Vak[]; bundels: 
 
       pasAan(i, { status: "bezig", melding: undefined });
       try {
-        const { path, token } = await maakBulkLeerstofUploadUrl(rij.hoofdstukId, rij.bestand.name);
+        const { path, token } = await maakBulkLeerstofUploadUrl(
+          rij.hoofdstukId,
+          rij.bestand.name,
+        );
         const { error } = await supabase.storage
           .from("leerstof")
           .uploadToSignedUrl(path, token, rij.bestand);
@@ -227,7 +319,7 @@ export function BulkLeerstofForm({ vakken, bundels }: { vakken: Vak[]; bundels: 
   }
 
   function alBij(hoofdstukId: string): Bundel[] {
-    return hoofdstukId ? bundelsPerHoofdstuk.get(hoofdstukId) ?? [] : [];
+    return hoofdstukId ? (bundelsPerHoofdstuk.get(hoofdstukId) ?? []) : [];
   }
 
   const nogTeDoen = rijen.filter((r) => r.status !== "klaar").length;
@@ -278,8 +370,9 @@ export function BulkLeerstofForm({ vakken, bundels }: { vakken: Vak[]; bundels: 
           ))}
         </select>
         <p className="text-xs text-ink-dim">
-          Heeft dit vak in meerdere categorieën een hoofdstuk met dezelfde titel, kies dan hier de
-          juiste. Anders kan een bundel bij het verkeerde hoofdstuk belanden.
+          Heeft dit vak in meerdere categorieën een hoofdstuk met dezelfde
+          titel, kies dan hier de juiste. Anders kan een bundel bij het
+          verkeerde hoofdstuk belanden.
         </p>
       </div>
 
@@ -299,14 +392,17 @@ export function BulkLeerstofForm({ vakken, bundels }: { vakken: Vak[]; bundels: 
           className="block w-full cursor-pointer text-sm text-ink-dim file:mr-3 file:cursor-pointer file:rounded-md file:border-0 file:bg-forest file:px-4 file:py-2 file:text-sm file:font-medium file:text-white hover:file:bg-forest-dark"
         />
         <p className="text-xs text-ink-dim">
-          Noem je bestanden naar het hoofdstuk, bijvoorbeeld <em>getallenkennis.pdf</em>, dan zet
-          het platform er zelf het juiste hoofdstuk bij.
+          Noem je bestanden naar het hoofdstuk, bijvoorbeeld{" "}
+          <em>getallenkennis.pdf</em>, dan zet het platform er zelf het juiste
+          hoofdstuk bij.
         </p>
       </div>
 
       {rijen.length > 0 && (
         <div className="space-y-3">
-          <p className="text-sm font-medium text-ink">4. Kijk de koppeling na en pas aan waar nodig</p>
+          <p className="text-sm font-medium text-ink">
+            4. Kijk de koppeling na en pas aan waar nodig
+          </p>
 
           {rijen.map((rij, i) => (
             <div
@@ -314,16 +410,23 @@ export function BulkLeerstofForm({ vakken, bundels }: { vakken: Vak[]; bundels: 
               className="rounded-lg border border-border bg-surface p-3"
             >
               <div className="flex items-start justify-between gap-3">
-                <p className="truncate text-sm font-medium text-ink">{rij.bestand.name}</p>
+                <p className="truncate text-sm font-medium text-ink">
+                  {rij.bestand.name}
+                </p>
                 <span className="shrink-0 text-xs text-ink-dim">
                   {rij.status === "klaar" && "✓ geüpload"}
                   {rij.status === "bezig" && "bezig…"}
-                  {rij.status === "fout" && <span className="text-danger">mislukt</span>}
-                  {rij.status === "wacht" && `${Math.round(rij.bestand.size / 1024)} kB`}
+                  {rij.status === "fout" && (
+                    <span className="text-danger">mislukt</span>
+                  )}
+                  {rij.status === "wacht" &&
+                    `${Math.round(rij.bestand.size / 1024)} kB`}
                 </span>
               </div>
 
-              {rij.melding && <p className="mt-1 text-xs text-danger">{rij.melding}</p>}
+              {rij.melding && (
+                <p className="mt-1 text-xs text-danger">{rij.melding}</p>
+              )}
 
               <div className="mt-2 grid gap-2 sm:grid-cols-2">
                 <select
@@ -331,7 +434,9 @@ export function BulkLeerstofForm({ vakken, bundels }: { vakken: Vak[]; bundels: 
                   onChange={(e) =>
                     pasAan(i, {
                       hoofdstukId: e.target.value,
-                      vervang: (bundelsPerHoofdstuk.get(e.target.value)?.length ?? 0) > 0,
+                      vervang:
+                        (bundelsPerHoofdstuk.get(e.target.value)?.length ?? 0) >
+                        0,
                     })
                   }
                   disabled={rij.status === "klaar"}
@@ -372,7 +477,8 @@ export function BulkLeerstofForm({ vakken, bundels }: { vakken: Vak[]; bundels: 
                       className="mt-0.5 accent-forest"
                     />
                     <span>
-                      De oude vervangen door deze. Vink uit als je ze allebei wil laten staan.
+                      De oude vervangen door deze. Vink uit als je ze allebei
+                      wil laten staan.
                     </span>
                   </label>
                 </div>
@@ -402,32 +508,87 @@ export function BulkLeerstofForm({ vakken, bundels }: { vakken: Vak[]; bundels: 
           kan weghalen zonder er een nieuwe voor in de plaats te zetten. */}
       {hoofdstukken.some((h) => alBij(h.id).length > 0) && (
         <div className="space-y-2 border-t border-border pt-5">
-          <p className="text-sm font-medium text-ink">Wat er nu al bij dit vak staat</p>
+          <p className="text-sm font-medium text-ink">
+            Wat er nu al bij dit vak staat
+          </p>
           {hoofdstukken.map((h) =>
             alBij(h.id).map((b) => (
               <div
                 key={b.id}
-                className="flex items-center justify-between gap-3 rounded-lg border border-border bg-surface px-3 py-2"
+                className="rounded-lg border border-border bg-surface px-3 py-2"
               >
-                <p className="min-w-0 text-sm text-ink">
-                  <span className="text-ink-dim">{h.titel}</span> — {b.titel}
-                </p>
-                <button
-                  type="button"
-                  disabled={wisBezig === b.id}
-                  onClick={async () => {
-                    setWisBezig(b.id);
-                    try {
-                      await verwijderLeerstof(b.id);
-                      router.refresh();
-                    } finally {
-                      setWisBezig("");
-                    }
-                  }}
-                  className="shrink-0 rounded-md border border-border px-3 py-1.5 text-xs text-danger hover:bg-danger/10 disabled:opacity-60"
-                >
-                  {wisBezig === b.id ? "bezig…" : "Weghalen"}
-                </button>
+                <div className="flex items-center justify-between gap-3">
+                  <p className="min-w-0 text-sm text-ink">
+                    <span className="text-ink-dim">{h.titel}</span> — {b.titel}
+                  </p>
+                  <button
+                    type="button"
+                    onClick={() => {
+                      setHernoemId(hernoemId === b.id ? "" : b.id);
+                      setHernoemTekst(metHoofdletters(b.titel));
+                    }}
+                    className="shrink-0 rounded-md border border-border px-3 py-1.5 text-xs text-ink-dim hover:bg-sand/60 hover:text-ink"
+                  >
+                    Naam aanpassen
+                  </button>
+                  <button
+                    type="button"
+                    disabled={wisBezig === b.id}
+                    onClick={async () => {
+                      setWisBezig(b.id);
+                      try {
+                        await verwijderLeerstof(b.id);
+                        router.refresh();
+                      } finally {
+                        setWisBezig("");
+                      }
+                    }}
+                    className="shrink-0 rounded-md border border-border px-3 py-1.5 text-xs text-danger hover:bg-danger/10 disabled:opacity-60"
+                  >
+                    {wisBezig === b.id ? "bezig…" : "Weghalen"}
+                  </button>
+                </div>
+
+                {hernoemId === b.id && (
+                  <div className="mt-2 border-t border-border pt-2">
+                    <label
+                      className="block text-xs text-ink-dim"
+                      htmlFor={`naam-${b.id}`}
+                    >
+                      Hoe heet dit document voor het kind?
+                    </label>
+                    <div className="mt-1 flex flex-wrap items-center gap-2">
+                      <input
+                        id={`naam-${b.id}`}
+                        value={hernoemTekst}
+                        onChange={(e) => setHernoemTekst(e.target.value)}
+                        className="min-w-0 flex-1 rounded-md border border-border px-2 py-1.5 text-sm text-ink"
+                      />
+                      <button
+                        type="button"
+                        onClick={async () => {
+                          await hernoemLeerstof(b.id, hernoemTekst);
+                          setHernoemId("");
+                          router.refresh();
+                        }}
+                        className="rounded-md bg-forest px-3 py-1.5 text-xs text-white hover:bg-forest-dark"
+                      >
+                        Bewaren
+                      </button>
+                      <button
+                        type="button"
+                        onClick={() => setHernoemId("")}
+                        className="rounded-md border border-border px-3 py-1.5 text-xs text-ink-dim hover:text-ink"
+                      >
+                        Annuleren
+                      </button>
+                    </div>
+                    <p className="mt-1 text-xs text-ink-dim">
+                      Talen en landen staan hier al met een hoofdletter: een
+                      Engelse tekst, het Romeinse Rijk.
+                    </p>
+                  </div>
+                )}
               </div>
             )),
           )}
