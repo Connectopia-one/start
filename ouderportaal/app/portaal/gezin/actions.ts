@@ -14,7 +14,7 @@ import { huidigMeekijken } from "@/lib/meekijken";
 async function nietTijdensMeekijken() {
   if (await huidigMeekijken()) {
     throw new Error(
-      "Je kijkt mee met een gezin. Stop daar eerst mee, of pas het gezin aan via het beheerscherm."
+      "Je kijkt mee met een gezin. Stop daar eerst mee, of pas het gezin aan via het beheerscherm.",
     );
   }
 }
@@ -26,7 +26,10 @@ export async function wijzigContactgegevens(formData: FormData) {
   const adres = String(formData.get("adres") || "").trim() || null;
 
   const admin = createAdminClient();
-  await admin.from("profiles").update({ telefoon, adres }).eq("id", session.userId);
+  await admin
+    .from("profiles")
+    .update({ telefoon, adres })
+    .eq("id", session.userId);
 
   revalidatePath("/portaal/gezin");
 }
@@ -37,15 +40,34 @@ export async function voegKindToe(formData: FormData) {
   const naam = String(formData.get("naam") || "").trim();
   if (!naam) return;
 
-  const geboortedatum = String(formData.get("geboortedatum") || "").trim() || null;
+  const geboortedatum =
+    String(formData.get("geboortedatum") || "").trim() || null;
   const allergieen = String(formData.get("allergieen") || "").trim() || null;
   const diagnoses = String(formData.get("diagnoses") || "").trim() || null;
-  const noodcontactNaam = String(formData.get("noodcontact_naam") || "").trim() || null;
-  const noodcontactTelefoon = String(formData.get("noodcontact_telefoon") || "").trim() || null;
+  const noodcontactNaam =
+    String(formData.get("noodcontact_naam") || "").trim() || null;
+  const noodcontactTelefoon =
+    String(formData.get("noodcontact_telefoon") || "").trim() || null;
   const toestemmingFotos = formData.get("toestemming_fotos") === "on";
-  const toestemmingSocialMedia = formData.get("toestemming_social_media") === "on";
+  const toestemmingSocialMedia =
+    formData.get("toestemming_social_media") === "on";
 
   const admin = createAdminClient();
+
+  // Klikt iemand twee keer op Toevoegen omdat de pagina traag laadt, dan zou
+  // hetzelfde kind er twee keer in komen. Staat die naam er al, dan doen we niets.
+  const { data: bestaande } = await admin
+    .from("kinderen")
+    .select("naam")
+    .eq("profile_id", session.userId);
+  const alGekend = (bestaande ?? []).some(
+    (k: { naam: string }) => k.naam.trim().toLowerCase() === naam.toLowerCase(),
+  );
+  if (alGekend) {
+    revalidatePath("/portaal/gezin");
+    return;
+  }
+
   await admin.from("kinderen").insert({
     profile_id: session.userId,
     naam,
@@ -68,13 +90,17 @@ export async function wijzigKind(formData: FormData) {
   const naam = String(formData.get("naam") || "").trim();
   if (!naam) return;
 
-  const geboortedatum = String(formData.get("geboortedatum") || "").trim() || null;
+  const geboortedatum =
+    String(formData.get("geboortedatum") || "").trim() || null;
   const allergieen = String(formData.get("allergieen") || "").trim() || null;
   const diagnoses = String(formData.get("diagnoses") || "").trim() || null;
-  const noodcontactNaam = String(formData.get("noodcontact_naam") || "").trim() || null;
-  const noodcontactTelefoon = String(formData.get("noodcontact_telefoon") || "").trim() || null;
+  const noodcontactNaam =
+    String(formData.get("noodcontact_naam") || "").trim() || null;
+  const noodcontactTelefoon =
+    String(formData.get("noodcontact_telefoon") || "").trim() || null;
   const toestemmingFotos = formData.get("toestemming_fotos") === "on";
-  const toestemmingSocialMedia = formData.get("toestemming_social_media") === "on";
+  const toestemmingSocialMedia =
+    formData.get("toestemming_social_media") === "on";
 
   const admin = createAdminClient();
   await admin
@@ -102,7 +128,11 @@ export async function verwijderKind(formData: FormData) {
   const kindId = String(formData.get("kind_id") || "");
 
   const admin = createAdminClient();
-  await admin.from("kinderen").delete().eq("id", kindId).eq("profile_id", session.userId);
+  await admin
+    .from("kinderen")
+    .delete()
+    .eq("id", kindId)
+    .eq("profile_id", session.userId);
 
   revalidatePath("/portaal/gezin");
 }
