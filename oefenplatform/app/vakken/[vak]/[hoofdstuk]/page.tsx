@@ -18,6 +18,8 @@ import { HoofdstukTabs } from "@/components/HoofdstukTabs";
 import { GeoGebraCalculator } from "@/components/GeoGebraCalculator";
 import { Leerbundel, type LeerbundelBlok } from "@/components/Leerbundel";
 import { Leestekst, type Woord } from "@/components/Leestekst";
+import { Prent } from "@/components/Prent";
+import { vindPrent } from "@/lib/prent";
 import { MeldingKnop } from "@/components/MeldingKnop";
 import { heeftKlikbareBundel } from "@/lib/leerbundel";
 
@@ -48,6 +50,10 @@ export default async function HoofdstukPage({
   if (!hoofdstuk) notFound();
 
   const niveau = vindNiveau(hoofdstuk.niveau);
+
+  // Een hoofdstuk waarin je beschrijft wat je ziet, hangt zijn prent aan
+  // zijn titel; zie lib/prent.ts. Staat er geen, dan is er niets te zien.
+  const prent = vindPrent(vak.slug, hoofdstuk.titel);
 
   const magVolledig = hoofdstukToegankelijk(
     hoofdstuk.gratis,
@@ -205,6 +211,13 @@ export default async function HoofdstukPage({
             aantalLeerstof={leerstof.length + (bundel.length ? 1 : 0)}
             oefeningen={
               <>
+                {/* Beschrijven wat je ziet: de prent blijft boven de vragen
+                    staan, net als de leestekst hieronder. */}
+                {prent && (
+                  <div className="mb-6">
+                    <Prent prent={prent} />
+                  </div>
+                )}
                 {/* Begrijpend lezen: de tekst blijft boven de vragen staan. */}
                 {hoofdstuk.leestekst && (
                   <div className="mb-6">
