@@ -13,8 +13,9 @@ import {
   verwijderHoofdstuk,
   wisselRekenmachine,
   bulkImportVakInhoud,
+  herstelProefhoofdstukken,
 } from "../actions";
-import { NIVEAUS, vindNiveau } from "@/lib/niveaus";
+import { NIVEAUS, vindNiveau, heeftProefhoofdstuk } from "@/lib/niveaus";
 import { sorteerHoofdstukken } from "@/lib/hoofdstukvolgorde";
 
 /*
@@ -144,6 +145,18 @@ export default async function BeheerVakkenPage({
   const allesGratis =
     hoofdstukkenHier.length > 0 && gratisHier === hoofdstukkenHier.length;
 
+  // Elk vak dat in een categorie hoofdstukken heeft maar er geen enkel van
+  // gratis, staat voor een bezoeker zonder account dicht. 🔭 De uitdagingshoek
+  // hoort dicht te staan, dus die telt niet mee.
+  const zonderProef = vakken.flatMap((v) =>
+    NIVEAUS.filter((n) => heeftProefhoofdstuk(n.slug))
+      .filter((n) => {
+        const hier = v.hoofdstukken.filter((h) => h.niveau === n.slug);
+        return hier.length > 0 && !hier.some((h) => h.gratis);
+      })
+      .map((n) => `${v.naam} in ${n.naam}`),
+  );
+
   return (
     <>
       <Header naam={session.profile?.full_name} rol="beheerder" />
@@ -240,6 +253,36 @@ export default async function BeheerVakkenPage({
               );
             })}
           </ul>
+        )}
+
+        {/* Zonder een gratis hoofdstuk ziet iemand zonder account van dat vak
+            niets. Kim merkte op 29 september 2026 dat ✨ Spark Nederlands er
+            zo bij stond. Deze lijst zegt meteen waar het misloopt; de knop zet
+            overal het eerste hoofdstuk open. */}
+        {!niveau && zonderProef.length > 0 && (
+          <div className="mt-6 rounded-xl border border-amber/40 bg-amber/5 px-4 py-4">
+            <p className="font-display text-sm font-semibold text-ink">
+              {zonderProef.length === 1
+                ? "Eén vak heeft nergens een gratis hoofdstuk"
+                : `${zonderProef.length} vakken hebben geen gratis hoofdstuk`}
+            </p>
+            <p className="mt-1 text-xs text-ink-dim">
+              Wie geen account heeft, kan daar niets uitproberen:{" "}
+              {zonderProef.join(", ")}.
+            </p>
+            <form action={herstelProefhoofdstukken} className="mt-3">
+              <button
+                type="submit"
+                className="rounded-full border border-forest bg-surface px-3 py-1.5 text-xs font-medium text-forest-dark hover:bg-forest hover:text-surface"
+              >
+                Overal het eerste hoofdstuk gratis zetten
+              </button>
+            </form>
+            <p className="mt-2 text-xs text-ink-dim">
+              Dit zet nooit iets op slot, en 🔭 de uitdagingshoek blijft achter
+              een account staan.
+            </p>
+          </div>
         )}
 
         {/* ----------------------------------------------------- stap 2: vak */}

@@ -298,6 +298,98 @@ export async function zetNiveauGratis(formData: FormData) {
   );
 }
 
+/*
+  Overal een gratis proefhoofdstuk openzetten.
+
+  Kim op 29 september 2026: "bij spark nederlands staat er geen enkel hoofdstuk
+  gratis ... want zo kunnen mensen buitenaf niet testen."
+
+  De bedoeling was altijd al dat het eerste hoofdstuk van elke categorie binnen
+  een vak gratis openstaat (zie isEersteVanNiveau hierboven), maar dat geldt
+  enkel voor een hoofdstuk op het moment dat het aangemaakt wordt. Wie daarna
+  hoofdstukken hernoemt, verhuist, verwijdert of met de hand op slot zet, kan
+  een vak zonder enkel open hoofdstuk overhouden. Dan ziet een bezoeker zonder
+  account daar niets.
+
+  Deze knop loopt alle vakken af en zet in elke categorie waar niets openstaat
+  het eerste hoofdstuk gratis. Ze raakt nooit iets aan dat al gratis is en zet
+  nooit iets op slot. 🔭 De uitdagingshoek blijft buiten schot: Kim wou die
+  uitdrukkelijk achter een account.
+*/
+export async function herstelProefhoofdstukken(formData: FormData) {
+  await requireBeheerder();
+  const admin = createAdminClient();
+  const { data, error } = await admin
+    .from("hoofdstukken")
+    .select("id, vak_id, niveau, volgnummer, gratis");
+  if (error) {
+    redirect(
+      vakkenPagina(
+        formData,
+        "fout",
+        `De hoofdstukken ophalen lukte niet: ${error.message}`,
+      ),
+    );
+  }
+
+  // Per vak en categorie: staat er al iets open, en wat is anders het eerste?
+  const eerste = new Map<string, { id: string; volgnummer: number }>();
+  const alOpen = new Set<string>();
+  for (const h of data ?? []) {
+    if (!heeftProefhoofdstuk(h.niveau)) continue;
+    const sleutel = `${h.vak_id}|${h.niveau}`;
+    if (h.gratis) {
+      alOpen.add(sleutel);
+      continue;
+    }
+    const staand = eerste.get(sleutel);
+    if (!staand || h.volgnummer < staand.volgnummer) {
+      eerste.set(sleutel, { id: h.id, volgnummer: h.volgnummer });
+    }
+  }
+
+  const openTeZetten = [...eerste.entries()]
+    .filter(([sleutel]) => !alOpen.has(sleutel))
+    .map(([, h]) => h.id);
+
+  if (openTeZetten.length === 0) {
+    redirect(
+      vakkenPagina(
+        formData,
+        "melding",
+        "Overal staat al een hoofdstuk gratis. Er was niets te doen.",
+      ),
+    );
+  }
+
+  const { error: zetFout } = await admin
+    .from("hoofdstukken")
+    .update({ gratis: true })
+    .in("id", openTeZetten);
+  if (zetFout) {
+    redirect(
+      vakkenPagina(
+        formData,
+        "fout",
+        `Het openzetten lukte niet: ${zetFout.message}`,
+      ),
+    );
+  }
+
+  revalidatePath("/beheer/vakken");
+  revalidatePath("/niveaus");
+  const n = openTeZetten.length;
+  redirect(
+    vakkenPagina(
+      formData,
+      "melding",
+      `${n} ${n === 1 ? "hoofdstuk staat" : "hoofdstukken staan"} nu gratis: ` +
+        `in elk vak en elke categorie waar niets openstond, is het eerste ` +
+        `hoofdstuk opengezet.`,
+    ),
+  );
+}
+
 export async function verwijderHoofdstuk(formData: FormData) {
   await requireBeheerder();
   const id = String(formData.get("id") || "");
