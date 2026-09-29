@@ -66,6 +66,20 @@ export default async function BeheerPage() {
           </section>
 
           <section>
+            <h2 className="font-display text-lg font-semibold text-ink">Berichten aan de ouders</h2>
+            <p className="mt-3 text-sm text-ink-dim">
+              Eén bericht dat bovenaan het platform staat bij elke ouder die inlogt,
+              bijvoorbeeld als er een nieuw onderdeel bij is. Er vertrekt geen mail.
+            </p>
+            <Link
+              href="/beheer/berichten"
+              className="mt-4 inline-block rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
+            >
+              Bericht schrijven &rarr;
+            </Link>
+          </section>
+
+          <section>
             <h2 className="font-display text-lg font-semibold text-ink">Vakken &amp; hoofdstukken</h2>
             <p className="mt-3 text-sm text-ink-dim">
               Vakken en hoofdstukken aanmaken, en instellen welk hoofdstuk gratis is.

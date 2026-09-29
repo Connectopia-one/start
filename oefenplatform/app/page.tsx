@@ -1,7 +1,9 @@
 import Link from "next/link";
+import { BerichtBalk, type Bericht } from "@/components/BerichtBalk";
 import { Dagvraag } from "@/components/Dagvraag";
 import { Header } from "@/components/Header";
 import { getSessionProfile } from "@/lib/auth";
+import { createClient } from "@/lib/supabase/server";
 import { LEERJAARNIVEAUS, vindNiveau } from "@/lib/niveaus";
 import { startUitleg, basisUitleg, hoekjeUitleg } from "@/inhoud/onderwijsdoelen";
 
@@ -10,10 +12,27 @@ export default async function HomePage() {
   const hoekje = vindNiveau("hoekje")!;
   const session = await getSessionProfile();
 
+  /* Het bericht van Kim aan de ouders. Enkel voor wie ingelogd is: dit gaat
+     over onze eigen gezinnen, niet over bezoekers. Zie supabase/berichten.sql. */
+  let bericht: Bericht | null = null;
+  if (session) {
+    const supabase = await createClient();
+    const { data } = await supabase
+      .from("berichten")
+      .select("id, titel, tekst, link, linktekst")
+      .eq("actief", true)
+      .order("aangemaakt_op", { ascending: false })
+      .limit(1)
+      .maybeSingle();
+    bericht = (data as Bericht | null) ?? null;
+  }
+
   return (
     <>
       <Header naam={session?.profile?.full_name} rol={session?.profile?.role} />
       <main className="mx-auto w-full max-w-4xl flex-1 px-6 py-10">
+        {bericht && <BerichtBalk bericht={bericht} />}
+
         <h1 className="font-display text-2xl font-semibold text-ink">
           Oefenen voor de examencommissie
         </h1>

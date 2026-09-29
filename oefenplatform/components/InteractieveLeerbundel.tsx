@@ -2,8 +2,13 @@
 
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
+import { Schuifpuzzel } from "@/components/Schuifpuzzel";
 import { Volgordespel } from "@/components/Volgordespel";
-import type { BundelBlok, KlikbareBundel } from "@/lib/leerbundel";
+import {
+  puzzelBeeld,
+  type BundelBlok,
+  type KlikbareBundel,
+} from "@/lib/leerbundel";
 
 /*
   De tocht door een hoofdstuk: de leerstof van de leerbundel, maar als haltes.
@@ -244,6 +249,8 @@ function Eindhalte({
   naarOefeningen: string;
   opnieuw: () => void;
 }) {
+  const beeld = puzzelBeeld(bundel);
+
   return (
     <div className="mt-4 space-y-4">
       <article className="rounded-2xl border border-amber/40 bg-amber/10 px-5 py-5">
@@ -262,10 +269,16 @@ function Eindhalte({
         )}
       </article>
 
-      <Volgordespel
-        koppen={bundel.secties.map((s) => s.kop)}
-        hoofdstukId={hoofdstukId}
-      />
+      {/* Liefst de schuifpuzzel met een tekening uit het hoofdstuk. Heeft dit
+          hoofdstuk geen bruikbare tekening, dan blijft het volgordespel. */}
+      {beeld ? (
+        <Schuifpuzzel beeld={beeld} />
+      ) : (
+        <Volgordespel
+          koppen={bundel.secties.map((s) => s.kop)}
+          hoofdstukId={hoofdstukId}
+        />
+      )}
 
       <div className="rounded-2xl border border-border bg-surface px-5 py-5 text-center">
         <p className="text-sm text-ink">Klaar met de tocht?</p>

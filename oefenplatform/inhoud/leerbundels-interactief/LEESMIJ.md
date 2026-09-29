@@ -55,7 +55,15 @@ Zie `components/InteractieveLeerbundel.tsx`.
   in de browser van het kind staan (`connectopia-tocht-<hoofdstuk>`), dus je
   kunt de tocht over meerdere keren doen.
 - Op de **eindhalte** staat "onthoud dit" als afvinklijst
-  (`connectopia-onthoud-<hoofdstuk>`), daarna het volgordespel
-  (`components/Volgordespel.tsx`) en een knop naar de oefeningen.
+  (`connectopia-onthoud-<hoofdstuk>`), daarna een spelletje en een knop naar de
+  oefeningen.
+- Het spelletje is bij voorkeur de **schuifpuzzel**
+  (`components/Schuifpuzzel.tsx`): een tekening uit dít hoofdstuk, in stukken,
+  met één leeg vakje. Welke tekening dat wordt en in hoeveel stukken, kiezen
+  `puzzelBeeld` en `puzzelRooster` in `lib/leerbundel.ts`: de tekening die het
+  dichtst bij een gewone liggende verhouding komt, in 8 tot 9 stukken. Heel
+  brede stroken vallen af, want daar staat op een stukje niets herkenbaars.
+- Zeven bundels hebben zo'n tekening niet. Daar blijft het **volgordespel**
+  (`components/Volgordespel.tsx`) staan: de haltes weer op een rij zetten.
 - Een weetje wordt een geel kaartje, een figuur staat groot met zijn
   onderschrift eronder.

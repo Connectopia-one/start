@@ -27,6 +27,7 @@ importeren mag je wél maar één keer doen, tenzij je "vervangen" aanvinkt.
 | 11 | `weetjes-bericht.sql` | Een antwoord van jou bij een ingestuurd weetje. Ná `weetjes.sql`. |
 | 12 | `voortgang-blijft.sql` | Zorgt dat de voortgang van de kinderen blijft staan als je vragen vervangt. |
 | 13 | `dubbele-kinderen.sql` | Voegt kinderen samen die per ongeluk meerdere keren toegevoegd zijn. Enkel nodig als dat bij jou gebeurd is. |
+| 14 | `berichten.sql` | Een bericht van jou aan alle ouders, bovenaan het platform. Beheer → Berichten. |
 
 De volgorde telt maar op twee plaatsen: `schema.sql` moet eerst, en
 `weetjes-bericht.sql` moet ná `weetjes.sql`. De rest mag door elkaar.
