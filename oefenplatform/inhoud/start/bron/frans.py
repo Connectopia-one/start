@@ -120,7 +120,7 @@ WOORDEN = [
     },
     {
         "type": "invultekst",
-        "vraag": 'Vul aan: "Bonjour" zeg je overdag. Na de avondmaaltijd zeg je ...',
+        "vraag": 'Vul aan: "Bonjour" zeg je overdag. Als het avond wordt, zeg je ...',
         "antwoord": "bonsoir",
         "uitleg": "Bonsoir is goedenavond. Ga je slapen, dan zeg je bonne nuit.",
     },
@@ -171,8 +171,10 @@ VOORSTELLEN = [
     {
         "type": "invultekst",
         "vraag": 'Vul aan: "Je ... appelle Lucas." (het ontbrekende woordje)',
-        "antwoord": "m'",
-        "uitleg": "Je m'appelle Lucas: ik heet Lucas. Het woordje me wordt m' voor een klinker.",
+        # Ook zonder de apostrof goed rekenen: die staat op een toetsenbord
+        # ver weg, en het kind dat "m" typt weet wat er moet staan.
+        "antwoord": ["m'", "m"],
+        "uitleg": "Je m'appelle Lucas: ik heet Lucas. Het woordje me wordt m' voor een klinker, met een apostrof erachter.",
     },
     {
         "type": "meerkeuze",
@@ -185,7 +187,7 @@ VOORSTELLEN = [
         "type": "waarofniet",
         "vraag": 'Je leeftijd zeg je in het Frans met "être": "Je suis douze ans."',
         "antwoord": False,
-        "uitleg": "Niet waar. In het Frans hében ze jaren: J'ai douze ans. Dat is precies waar veel kinderen op struikelen.",
+        "uitleg": "Niet waar. In het Frans hebben ze jaren: J'ai douze ans. Dat is precies waar veel kinderen op struikelen.",
     },
     {
         "type": "meerkeuze",
@@ -668,7 +670,7 @@ ZINNEN = [
         "type": "waarofniet",
         "vraag": 'Bij een vrouwelijk woord krijgt het bijvoeglijk naamwoord meestal een extra e: "une petite fille".',
         "antwoord": True,
-        "uitleg": "Klopt. Un petit garçon, une petite fille. In het meervoud komt er nog een s bij: de petites filles.",
+        "uitleg": "Klopt. Un petit garçon, une petite fille. In het meervoud komt er nog een s bij: les petites filles.",
     },
     {
         "type": "meerkeuze",
@@ -710,7 +712,7 @@ SCHOOL = [
     {
         "type": "meerkeuze",
         "vraag": 'Wat is "un cartable"?',
-        "opties": ["een boekentas", "een banken", "een bord", "een brooddoos"],
+        "opties": ["een boekentas", "een bank", "een bord", "een brooddoos"],
         "antwoord": 0,
         "uitleg": "Un cartable is een boekentas. Een brooddoos is une boîte à tartines.",
     },
@@ -752,7 +754,7 @@ SCHOOL = [
         "vraag": 'Wat vraag je met "Où est la gare ?"',
         "opties": ["Waar is het station?", "Waar is de garage?", "Waar is de school?", "Waar is de winkel?"],
         "antwoord": 0,
-        "uitleg": "La gare is het station. Une garage lijkt erop maar is een garage.",
+        "uitleg": "La gare is het station. Un garage lijkt erop maar is een garage.",
     },
     {
         "type": "meerkeuze",

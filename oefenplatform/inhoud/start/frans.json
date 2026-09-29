@@ -145,7 +145,7 @@
         },
         {
           "type": "invultekst",
-          "vraag": "Vul aan: \"Bonjour\" zeg je overdag. Na de avondmaaltijd zeg je ...",
+          "vraag": "Vul aan: \"Bonjour\" zeg je overdag. Als het avond wordt, zeg je ...",
           "antwoord": "bonsoir",
           "uitleg": "Bonsoir is goedenavond. Ga je slapen, dan zeg je bonne nuit."
         },
@@ -213,8 +213,11 @@
         {
           "type": "invultekst",
           "vraag": "Vul aan: \"Je ... appelle Lucas.\" (het ontbrekende woordje)",
-          "antwoord": "m'",
-          "uitleg": "Je m'appelle Lucas: ik heet Lucas. Het woordje me wordt m' voor een klinker."
+          "antwoord": [
+            "m'",
+            "m"
+          ],
+          "uitleg": "Je m'appelle Lucas: ik heet Lucas. Het woordje me wordt m' voor een klinker, met een apostrof erachter."
         },
         {
           "type": "meerkeuze",
@@ -232,7 +235,7 @@
           "type": "waarofniet",
           "vraag": "Je leeftijd zeg je in het Frans met \"être\": \"Je suis douze ans.\"",
           "antwoord": false,
-          "uitleg": "Niet waar. In het Frans hében ze jaren: J'ai douze ans. Dat is precies waar veel kinderen op struikelen."
+          "uitleg": "Niet waar. In het Frans hebben ze jaren: J'ai douze ans. Dat is precies waar veel kinderen op struikelen."
         },
         {
           "type": "meerkeuze",
@@ -931,7 +934,7 @@
           "type": "waarofniet",
           "vraag": "Bij een vrouwelijk woord krijgt het bijvoeglijk naamwoord meestal een extra e: \"une petite fille\".",
           "antwoord": true,
-          "uitleg": "Klopt. Un petit garçon, une petite fille. In het meervoud komt er nog een s bij: de petites filles."
+          "uitleg": "Klopt. Un petit garçon, une petite fille. In het meervoud komt er nog een s bij: les petites filles."
         },
         {
           "type": "meerkeuze",
@@ -987,7 +990,7 @@
           "vraag": "Wat is \"un cartable\"?",
           "opties": [
             "een boekentas",
-            "een banken",
+            "een bank",
             "een bord",
             "een brooddoos"
           ],
@@ -1052,7 +1055,7 @@
             "Waar is de winkel?"
           ],
           "antwoord": 0,
-          "uitleg": "La gare is het station. Une garage lijkt erop maar is een garage."
+          "uitleg": "La gare is het station. Un garage lijkt erop maar is een garage."
         },
         {
           "type": "meerkeuze",

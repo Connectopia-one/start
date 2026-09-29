@@ -55,6 +55,10 @@ def elders():
     """Elke vraag die al ergens anders in dit niveau staat, met waar ze staat."""
     gevonden = {}
     for pad in sorted(INHOUD.glob("*/*.json")):
+        # Ons eigen bestand overslaan, anders vindt een tweede keer bouwen al
+        # zijn eigen vragen terug en lijkt alles dubbel te staan.
+        if pad.resolve() == DOEL.resolve():
+            continue
         try:
             data = json.loads(pad.read_text(encoding="utf-8"))
         except (json.JSONDecodeError, OSError):
@@ -151,7 +155,14 @@ def main():
                 if v.get("opties"):
                     fouten.append(f"{kop}: waar of niet waar heeft geen opties")
             elif v["type"] == "invultekst":
-                if not isinstance(v["antwoord"], str) or not v["antwoord"].strip():
+                # Eén antwoord, of een lijstje als meerdere schrijfwijzen
+                # mogen: het platform rekent ze allemaal juist.
+                antwoorden = (
+                    v["antwoord"] if isinstance(v["antwoord"], list) else [v["antwoord"]]
+                )
+                if not antwoorden or not all(
+                    isinstance(a, str) and a.strip() for a in antwoorden
+                ):
                     fouten.append(f"{kop}: invulantwoord ontbreekt")
                 if v.get("opties"):
                     fouten.append(f"{kop}: een invulvraag heeft geen opties")
