@@ -1,0 +1,114 @@
+{
+ "vak": "Nederlands",
+ "titel": "Onderwerp, hoofdgedachte en hoofdpunten",
+ "onder": "Wat een tekst zegt in enkele woorden, in één zin, en in de punten die dat dragen.",
+ "secties": [
+  {
+   "kop": "Drie lagen in elke tekst",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>onderwerp</strong> is waarover een tekst gaat. Je zegt het in één of enkele <strong>woorden</strong>: 'huidverzorging bij kinderen', 'zwerfvuil in onze straat', 'elektrische steps'. Je schrijft het dus niet op in een volledige zin."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>hoofdgedachte</strong> is de belangrijkste boodschap, in één zin. Ze zegt wat de tekst over dat onderwerp beweert: 'Kinderen gebruiken veel huidverzorging, terwijl dat niet nodig en soms ongezond is.' Daar zit meteen het verschil: het onderwerp is waarover het gaat, de hoofdgedachte is wat de tekst daarover zegt."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 196\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"160\" y=\"8\" width=\"150\" height=\"38\" rx=\"9\" fill=\"#2f5d5018\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"26.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">onderwerp</text><text x=\"235.0\" y=\"39.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">één of enkele woorden</text><rect x=\"110\" y=\"54\" width=\"250\" height=\"38\" rx=\"9\" fill=\"#c17f2b18\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"72.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">hoofdgedachte</text><text x=\"235.0\" y=\"85.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">de belangrijkste boodschap, in één zin</text><rect x=\"65\" y=\"100\" width=\"340\" height=\"38\" rx=\"9\" fill=\"#2f5d5018\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"118.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">hoofdpunten</text><text x=\"235.0\" y=\"131.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">wat die boodschap ondersteunt</text><rect x=\"20\" y=\"146\" width=\"430\" height=\"38\" rx=\"9\" fill=\"#6b726018\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"164.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">details</text><text x=\"235.0\" y=\"177.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">voorbeelden, cijfers, namen</text></svg>",
+     "onderschrift": "De hoofdpunten dragen de hoofdgedachte; de details maken het geheel concreet."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>hoofdpunten</strong> zijn de inhoudelijke elementen die de hoofdgedachte <strong>ondersteunen</strong>: 'blauw licht houdt je wakker', 'meldingen onderbreken je slaap', 'wie te weinig slaapt, presteert slechter op school'. Een <strong>detail</strong> kan je weglaten zonder dat de boodschap wankelt — het precieze aantal ondervraagden bijvoorbeeld. Een hoofdpunt kan dat net niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee teksten over hetzelfde onderwerp kunnen een heel andere hoofdgedachte hebben: de ene raadt elektrische steps aan, de andere noemt ze gevaarlijk."
+    }
+   ]
+  },
+  {
+   "kop": "Waar je ze vindt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De hoofdgedachte staat meestal in de <strong>inleiding</strong> of in het <strong>slot</strong>. In het slot vind je vaak ook het <strong>besluit</strong>. Elke <strong>alinea</strong> heeft daarbinnen meestal één <strong>kerngedachte</strong>, en die staat vaak in de eerste of de laatste zin van die alinea. Daarom kan je een tekst samenvatten door per alinea één <strong>kernzin</strong> te noteren."
+    },
+    {
+     "soort": "tekst",
+     "html": "Vóór je een lange tekst helemaal leest, kijk je naar de <strong>titel</strong>, de <strong>tussentitels</strong> en de <strong>afbeeldingen</strong>. Ook woorden die vet gedrukt staan, een foto of een grafiek helpen je de inhoud te vatten. De lengte van de zinnen of het aantal bladzijden zegt daarover niets."
+    },
+    {
+     "soort": "kader",
+     "html": "Een titel verklapt vaak al de soort inhoud. <strong>'Waarom slapen tieners te weinig?'</strong> kondigt uitleg en oorzaken aan. Zo weet je vooraf wat je mag verwachten."
+    },
+    {
+     "soort": "tekst",
+     "html": "Stel jezelf vóór het lezen of luisteren een paar vragen: wat weet ik hier al over? Waarover zou deze tekst kunnen gaan? Van wie is hij en waarom is hij gemaakt?"
+    }
+   ]
+  },
+  {
+   "kop": "Relevante informatie selecteren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Zoek je in een lange tekst het antwoord op één bepaalde vraag, dan noteer je <em>alleen</em> de informatie die met die vraag te maken heeft. De rest laat je staan. Krijg je twee teksten over hetzelfde onderwerp, dan zoek je in allebei wat op jouw vraag antwoordt en legt dat naast elkaar: samen geven ze een vollediger beeld."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een zin als 'In ons land gooit een gezin gemiddeld 60 kilo eten per jaar weg' is een hoofdpunt met een cijfer dat het ondersteunt. Zulke zinnen zijn goud waard in je antwoord."
+    },
+    {
+     "soort": "tekst",
+     "html": "Past één alinea niet bij de hoofdgedachte die je gevonden hebt, herlees ze dan: vaak is het een <strong>tegenargument</strong> of een <strong>nuance</strong>, aangekondigd door 'maar' of 'hoewel'."
+    }
+   ]
+  },
+  {
+   "kop": "Notities nemen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Je neemt notities om de belangrijkste informatie vast te houden en er daarna mee te werken: een samenvatting maken of een vraag beantwoorden. Ze mogen kort: <strong>afkortingen</strong>, <strong>symbolen</strong> en pijlen, <strong>telegramstijl</strong>. Alles woord voor woord overschrijven lukt niet en helpt niet."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">zwakke notitie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">bruikbare notitie</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">slaap</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oorzaak: te weinig slaap → gevolg: slechtere punten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het was interessant</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sluikstort kost stad 200 000 euro/jaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de spreker praatte snel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3 oorzaken: licht, meldingen, laat sporten</td></tr></table>",
+     "onderschrift": "Noteer de inhoud, niet je indruk van de spreker."
+    },
+    {
+     "soort": "tekst",
+     "html": "Duid tijdens het lezen de <strong>sleutelwoorden</strong> en de kernzinnen aan. Ordenen doe je in een schema, een tabel of een <strong>mindmap</strong>: een tekening waarin je vanuit één centraal woord vertakkingen maakt."
+    },
+    {
+     "soort": "weetje",
+     "html": "Bij een luistertekst noteer je terwijl je luistert, niet achteraf. Je kan een gesproken tekst niet terugbladeren, en details vergeet je snel."
+    }
+   ]
+  },
+  {
+   "kop": "Samenvatten en onbekende woorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>samenvatting</strong> is de hoofdgedachte plus de belangrijkste hoofdpunten, in je eigen woorden. Wat jij ervan vindt, hoort er niet in: je mening zet je in een reactie of een recensie."
+    },
+    {
+     "soort": "tekst",
+     "html": "Kom je een woord tegen dat je niet kent, zoals 'wateroverlast', dan leid je de betekenis eerst zelf af: uit de zinnen eromheen, uit wat je al over het onderwerp weet, uit de manier waarop het woord gevormd is (water + overlast), en soms uit je kennis van het Engels of het Frans. Alleen een woord dat je écht nodig hebt en niet kan afleiden, zoek je op in een <strong>woordenboek</strong>. Op het examen mag dat digitaal, maar je hebt geen tijd om elk woord op te zoeken."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Onderwerp: enkele woorden. Hoofdgedachte: één zin. Hoofdpunten: wat die zin draagt.",
+  "Een detail mag weg in een samenvatting, een hoofdpunt niet.",
+  "De hoofdgedachte staat meestal in de inleiding of het slot; elke alinea heeft één kerngedachte.",
+  "Notities: afkortingen, symbolen, telegramstijl, een schema of een mindmap.",
+  "Leid een onbekend woord eerst af uit de context, de voorkennis en de bouw van het woord.",
+  "In een samenvatting staat de inhoud van de tekst, niet jouw mening."
+ ]
+}

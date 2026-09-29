@@ -68,3 +68,32 @@ export async function verwijderKind(
   revalidatePath("/account");
   return {};
 }
+
+/*
+  De voortgangsbalk bij de oefeningen, aan of uit per kind.
+
+  Gemeld door een ouder op 29 september 2026: hetzelfde scherm gaf bij haar
+  ene kind rust (geen balk, geen aantal in zicht) en bij het andere frustratie
+  (het wou net weten hoe ver het al was). Daarom kiest de ouder het per kind.
+
+  profile_id staat er bewust bij: zo kan niemand aan het kind van een ander.
+*/
+export async function zetVoortgangsbalk(
+  formData: FormData,
+): Promise<{ fout?: string }> {
+  const session = await requireIngelogd();
+  const kindId = String(formData.get("kind_id") || "");
+  const aan = String(formData.get("aan") || "") === "ja";
+  if (!kindId) return { fout: "Geen kind gekozen." };
+
+  const admin = createAdminClient();
+  const { error } = await admin
+    .from("kinderen")
+    .update({ toon_voortgang: aan })
+    .eq("id", kindId)
+    .eq("profile_id", session.userId);
+  if (error) return { fout: "Kon dit niet bewaren, probeer opnieuw." };
+
+  revalidatePath("/account");
+  return {};
+}

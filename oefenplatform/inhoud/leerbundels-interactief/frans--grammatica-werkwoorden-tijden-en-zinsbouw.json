@@ -1,0 +1,142 @@
+{
+ "vak": "Frans",
+ "titel": "Grammatica: werkwoorden, tijden en zinsbouw",
+ "onder": "Aller, allez of allé? En hoe je van een zin een vraag of een ontkenning maakt.",
+ "secties": [
+  {
+   "kop": "Drie vormen die hetzelfde klinken",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 74\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"4.0\" y=\"4\" width=\"148.7\" height=\"62\" rx=\"9\" fill=\"#2f5d5022\" stroke=\"#2f5d50\" stroke-width=\"1.7\"/><text x=\"78.3\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">infinitief</text><text x=\"78.3\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">aller</text><rect x=\"160.7\" y=\"4\" width=\"148.7\" height=\"62\" rx=\"9\" fill=\"#c17f2b22\" stroke=\"#c17f2b\" stroke-width=\"1.7\"/><text x=\"235.0\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">persoonsvorm</text><text x=\"235.0\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">allez</text><rect x=\"317.3\" y=\"4\" width=\"148.7\" height=\"62\" rx=\"9\" fill=\"#23453922\" stroke=\"#234539\" stroke-width=\"1.7\"/><text x=\"391.7\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">voltooid deelwoord</text><text x=\"391.7\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">allé</text></svg>",
+     "onderschrift": "Ze klinken hetzelfde en zien er anders uit. Je moet aan de zin zien welke je nodig hebt."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>infinitief</strong> (<em>infinitif</em>) is het hele werkwoord: <em>aller</em>. De <strong>persoonsvorm</strong> hoort bij een onderwerp: <em>vous allez</em>. Het <strong>voltooid deelwoord</strong> hoort bij hebben of zijn: <em>je suis allé</em>. De vakfiche noemt precies dit voorbeeld: je moet het onderscheid kennen om te weten hoe je de werkwoordsvorm correct moet interpreteren of schrijven."
+    }
+   ]
+  },
+  {
+   "kop": "De tegenwoordige tijd",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 113\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"39.2\" y=\"16\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">je</text><path d=\"M39.2 31 v12 m0 0 l-4 -5 m4 5 l4 -5\" stroke=\"#2f5d50\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"1.2\" y=\"47\" width=\"76\" height=\"30\" rx=\"8\" fill=\"#2f5d50\" /><text x=\"39.2\" y=\"67\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#ffffff\">parle</text><text x=\"117.5\" y=\"16\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">tu</text><path d=\"M117.5 31 v12 m0 0 l-4 -5 m4 5 l4 -5\" stroke=\"#2f5d50\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"79.5\" y=\"47\" width=\"76\" height=\"30\" rx=\"8\" fill=\"#2f5d50\" /><text x=\"117.5\" y=\"67\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#ffffff\">parles</text><text x=\"195.8\" y=\"16\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">il</text><text x=\"195.8\" y=\"31\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">elle</text><text x=\"195.8\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">on</text><path d=\"M195.8 61 v12 m0 0 l-4 -5 m4 5 l4 -5\" stroke=\"#2f5d50\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"157.8\" y=\"77\" width=\"76\" height=\"30\" rx=\"8\" fill=\"#2f5d50\" /><text x=\"195.8\" y=\"97\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#ffffff\">parle</text><text x=\"274.2\" y=\"16\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">nous</text><path d=\"M274.2 31 v12 m0 0 l-4 -5 m4 5 l4 -5\" stroke=\"#c17f2b\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"236.2\" y=\"47\" width=\"76\" height=\"30\" rx=\"8\" fill=\"#c17f2b\" /><text x=\"274.2\" y=\"67\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#ffffff\">parlons</text><text x=\"352.5\" y=\"16\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">vous</text><path d=\"M352.5 31 v12 m0 0 l-4 -5 m4 5 l4 -5\" stroke=\"#c17f2b\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"314.5\" y=\"47\" width=\"76\" height=\"30\" rx=\"8\" fill=\"#c17f2b\" /><text x=\"352.5\" y=\"67\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#ffffff\">parlez</text><text x=\"430.8\" y=\"16\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">ils</text><text x=\"430.8\" y=\"31\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">elles</text><path d=\"M430.8 46 v12 m0 0 l-4 -5 m4 5 l4 -5\" stroke=\"#c17f2b\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"392.8\" y=\"62\" width=\"76\" height=\"30\" rx=\"8\" fill=\"#c17f2b\" /><text x=\"430.8\" y=\"82\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#ffffff\">parlent</text></svg>",
+     "onderschrift": "Parler betekent spreken. Werkwoorden op -er krijgen -e, -es, -e, -ons, -ez, -ent; nous krijgt bijna altijd -ons."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">être (zijn)</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">avoir (hebben)</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">aller (gaan)</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je suis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">j'ai</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je vais</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tu es</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tu as</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tu vas</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il est</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il a</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il va</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nous sommes</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nous avons</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nous allons</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vous êtes</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vous avez</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vous allez</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ils sont</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ils ont</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ils vont</td></tr></table>",
+     "onderschrift": "Deze drie onregelmatige werkwoorden heb je overal nodig: leer ze uit het hoofd."
+    },
+    {
+     "soort": "tekst",
+     "html": "De fiche maakt het onderscheid tussen <strong>regelmatige</strong> en <strong>frequente onregelmatige werkwoorden</strong> (<em>verbes réguliers et irréguliers</em>). Regelmatig zijn de werkwoorden op -er, zoals <em>parler</em>: die volgen allemaal hetzelfde rijtje. Onregelmatig zijn <em>être</em>, <em>avoir</em>, <em>aller</em>, <em>venir</em> en <em>faire</em>: die leer je één voor één."
+    }
+   ]
+  },
+  {
+   "kop": "De tijden op een rij",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 204\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"18\" y1=\"104\" x2=\"452\" y2=\"104\" stroke=\"#e4ded0\" stroke-width=\"7\" stroke-linecap=\"round\"/><circle cx=\"235.0\" cy=\"104\" r=\"8\" fill=\"#c17f2b\"/><text x=\"235.0\" y=\"88.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">maintenant</text><rect x=\"10\" y=\"16\" width=\"104\" height=\"54\" rx=\"9\" fill=\"#2f5d5012\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"62.0\" y=\"32.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">imparfait</text><text x=\"62.0\" y=\"48.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2f5d50\">je mangeais</text><text x=\"62.0\" y=\"62.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">wat gewoonlijk zo was</text><line x1=\"62\" y1=\"70\" x2=\"62\" y2=\"100\" stroke=\"#2f5d50\" stroke-width=\"1.4\" stroke-dasharray=\"3 3\"/><rect x=\"120\" y=\"16\" width=\"104\" height=\"54\" rx=\"9\" fill=\"#23453912\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"172.0\" y=\"32.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">passé composé</text><text x=\"172.0\" y=\"48.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">j&#39;ai mangé</text><text x=\"172.0\" y=\"62.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">één keer, afgelopen</text><line x1=\"172\" y1=\"70\" x2=\"172\" y2=\"100\" stroke=\"#234539\" stroke-width=\"1.4\" stroke-dasharray=\"3 3\"/><rect x=\"246\" y=\"122\" width=\"104\" height=\"54\" rx=\"9\" fill=\"#23453912\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"298.0\" y=\"138.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">passé récent</text><text x=\"298.0\" y=\"154.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.4\" font-weight=\"600\" fill=\"#234539\">je viens de manger</text><text x=\"298.0\" y=\"168.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">net gebeurd</text><line x1=\"298\" y1=\"122\" x2=\"298\" y2=\"108\" stroke=\"#234539\" stroke-width=\"1.4\" stroke-dasharray=\"3 3\"/><rect x=\"356\" y=\"122\" width=\"104\" height=\"54\" rx=\"9\" fill=\"#2f5d5012\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"408.0\" y=\"138.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">futur proche</text><text x=\"408.0\" y=\"154.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2f5d50\">je vais manger</text><text x=\"408.0\" y=\"168.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">straks</text><line x1=\"408\" y1=\"122\" x2=\"408\" y2=\"108\" stroke=\"#2f5d50\" stroke-width=\"1.4\" stroke-dasharray=\"3 3\"/><text x=\"235.0\" y=\"194.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">Het présent staat in het midden: je mange.</text></svg>",
+     "onderschrift": "Vier tijden rond het nu, plus het présent in het midden."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">tijd</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">hoe je ze maakt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">indicatif présent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vervoegde vorm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je mange</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">passé composé</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het hulpwerkwoord avoir of être + voltooid deelwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">j'ai mangé, je suis allé, elle est allée au cinéma (naar de film)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">imparfait</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de stam + -ais, -ais, -ait, -ions, -iez, -aient</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je mangeais</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">futur proche</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aller + infinitief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je vais manger</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">passé récent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">venir de + infinitief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je viens de manger (ik heb net gegeten)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">impératif — de gebiedende wijs</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het werkwoord zonder onderwerp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ferme la porte ! (doe de deur dicht) Écoutez ! Viens ici ! Regardons ensemble !</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">conditionnel de politesse</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de beleefde vorm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je voudrais, pourriez-vous (beleefder dan pouvez-vous)</td></tr></table>",
+     "onderschrift": "'Je voudrais' met -s is beleefd; 'je voudrai' zonder -s is de toekomende tijd."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het verschil tussen <strong>imparfait</strong> en <strong>passé composé</strong>: de imparfait beschrijft een <em>gewoonte of een toestand</em> die een tijd duurde — <em>'Quand j'étais petit, j'habitais à Liège'</em> — en de passé composé <em>één afgeronde gebeurtenis</em>: <em>'Hier, j'ai mangé une pizza.'</em>"
+    }
+   ]
+  },
+  {
+   "kop": "Avoir of être in de verleden tijd",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "Werkwoorden van <strong>beweging en verandering</strong> — aller, venir, partir, arriver, naître — gaan met <strong>être</strong>. En dan past het voltooid deelwoord zich aan het <strong>onderwerp</strong> aan: <em>il est parti</em>, <em>elle est partie</em>, <em>ils sont partis</em>, <em>elles sont parties</em>. Met <strong>avoir</strong> gebeurt dat niet: <em>j'ai mangé</em>, <em>elle a mangé</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Wederkerende werkwoorden</strong> (<em>verbes pronominaux</em>) gaan altijd met être, en het wederkerend voornaamwoord blijft staan: <em>nous nous sommes levés tôt</em>, <em>elle s'est lavée</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Soorten zinnen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">zinssoort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mededelend (déclarative)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Tu viens.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vragend (interrogative)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Est-ce que tu viens ? / Viens-tu ?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bevelend (impérative)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Viens ici !</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uitroepend (exclamative)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Quelle belle journée ! (wat een mooie dag)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ontkennend (négative)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je ne viens pas.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bevestigend (affirmative)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Oui, je viens.</td></tr></table>",
+     "onderschrift": "Van een gewone zin maak je een vraagzin door om te draaien (de inversie): je zet de persoonsvorm voorop met een streepje. Viens-tu ? Parlez-vous français ?"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>ontkenning</strong> bestaat uit twee delen rond het werkwoord: <strong>ne … pas</strong>. Voor een klinker wordt ne → n': <em>je n'aime pas</em>. Er zijn varianten: <strong>ne … jamais</strong> (nooit) en <strong>ne … plus</strong> (niet meer). <em>Je ne mange plus de viande</em> betekent 'ik eet geen vlees meer' — en let ook daar op het lidwoord: 'de la viande' wordt 'de viande'."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>enkelvoudige zin</strong> heeft één persoonsvorm: <em>je mange une pomme</em>, <em>je bois du café</em>. Een <strong>samengestelde zin</strong> heeft er twee of meer: <em>il pleut, donc je reste ici</em>, <em>je sais que tu viens</em>, <em>elle chante et il danse</em>, <em>quand il pleut, je reste à la maison</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Variëren tussen soorten zinnen maakt je tekst <strong>levendig</strong>. Dat vraagt de vakfiche uitdrukkelijk."
+    }
+   ]
+  },
+  {
+   "kop": "Voegwoorden, voorzetsels en congruentie",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeelden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nevenschikkende voegwoorden (conjonctions)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">et, mais, ou, donc, alors, ensuite</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onderschikkende voegwoorden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">parce que, que, quand, bien que</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">frequente voorzetsels (prépositions)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">à (à Bruxelles), en (en train, il travaille en Belgique), de, sur, dans, avec</td></tr></table>",
+     "onderschrift": "Een nevenschikkend voegwoord verbindt gelijkwaardige delen; een onderschikkend maakt er een bijzin van."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het voegwoord aangeeft</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeelden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">chronologisch verloop</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">d'abord, ensuite, puis, enfin, alors</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opsomming</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">et, aussi, en plus</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oorzaak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">parce que, car, donc</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tegenstelling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mais, pourtant</td></tr></table>",
+     "onderschrift": "De fiche noemt precies die vier: chronologisch verloop, opsomming, oorzaak en tegenstelling."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>overeenkomst</strong> (accord) tussen onderwerp en persoonsvorm is vooral een <em>schrijfregel</em>: <em>il joue</em> en <em>ils jouent</em> klinken hetzelfde, maar je schrijft ze anders. <em>Les enfants <strong>jouent</strong> dans le jardin</em> — derde persoon meervoud, dus -ent."
+    },
+    {
+     "soort": "tekst",
+     "html": "Diezelfde overeenkomst geldt tussen een <strong>zelfstandig naamwoord of voornaamwoord en het bijvoeglijk naamwoord</strong> — <em>une robe verte</em>, <em>des robes vertes</em> — en bij het <strong>voltooid deelwoord met être</strong>: <em>elle est partie</em>. Ook die twee staan in de fiche."
+    }
+   ]
+  },
+  {
+   "kop": "Klank en schriftbeeld",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De fiche vraagt ook dat je de <strong>relatie tussen klank- en schriftbeeld</strong> kent en de <strong>spelling van frequente woorden</strong> beheerst. Dat merk je vooral bij het schrijven: <em>il joue</em>, <em>ils jouent</em>, <em>parler</em>, <em>parlez</em> en <em>parlé</em> klinken hetzelfde en schrijf je anders. Wie alleen op zijn oor afgaat, schrijft de verkeerde vorm."
+    },
+    {
+     "soort": "tekst",
+     "html": "Let bij het schrijven op de <strong>accenten</strong>: <em>é</em> (é fermé, zoals in <em>parlé</em>), <em>è</em> (zoals in <em>père</em>), <em>ê</em> (zoals in <em>être</em>) en de cédille in <em>ça</em> en <em>français</em>. Een accent vergeten is een spelfout, net zoals een vergeten -s."
+    },
+    {
+     "soort": "weetje",
+     "html": "De <strong>uitspraak</strong> zelf — klanken, woordklemtoon, articulatie en intonatie — hoort bij de onderdelen luisteren en spreken van het examen. Die oefen je hier niet: daar heb je geluid en een gesprekspartner voor nodig."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "aller (infinitief), allez (persoonsvorm), allé (deelwoord): dezelfde klank.",
+  "être, avoir en aller ken je uit het hoofd.",
+  "Passé composé = avoir of être + deelwoord. Met être past het deelwoord zich aan.",
+  "futur proche = aller + infinitief. passé récent = venir de + infinitief.",
+  "Imparfait = gewoonte of toestand; passé composé = één afgeronde gebeurtenis.",
+  "Ontkennen doe je met ne … pas rond het werkwoord."
+ ]
+}

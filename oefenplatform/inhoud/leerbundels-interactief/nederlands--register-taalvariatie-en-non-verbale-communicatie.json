@@ -1,0 +1,84 @@
+{
+ "vak": "Nederlands",
+ "titel": "Register, taalvariatie en non-verbale communicatie",
+ "onder": "Dezelfde boodschap klinkt anders bij een vriend dan bij een directeur. Hoe dat komt.",
+ "secties": [
+  {
+   "kop": "Register: de toon die past",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>register</strong> is de toon en de woordkeuze die bij de situatie passen. <strong>Formeel</strong> is afstandelijk en verzorgd, <strong>informeel</strong> is vertrouwd en losser. Allebei zijn ze juist; wie je ontvanger is, beslist."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 160\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30\" y1=\"46\" x2=\"440\" y2=\"46\" stroke=\"#e4ded0\" stroke-width=\"8\" stroke-linecap=\"round\"/><circle cx=\"78\" cy=\"46\" r=\"9\" fill=\"#2f5d50\"/><text x=\"78.0\" y=\"28.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">informeel</text><text x=\"78.0\" y=\"76.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">je beste vriend</text><rect x=\"6\" y=\"88\" width=\"144\" height=\"30\" rx=\"9\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"78.0\" y=\"107.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2f5d50\">Hey, kom je straks?</text><circle cx=\"235\" cy=\"46\" r=\"9\" fill=\"#6b7260\"/><text x=\"235.0\" y=\"28.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">neutraal</text><text x=\"235.0\" y=\"76.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">je trainer</text><rect x=\"163\" y=\"88\" width=\"144\" height=\"30\" rx=\"9\" fill=\"#ffffff\" stroke=\"#6b7260\" stroke-width=\"1.5\"/><text x=\"235.0\" y=\"107.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">Kom je straks ook?</text><circle cx=\"392\" cy=\"46\" r=\"9\" fill=\"#c17f2b\"/><text x=\"392.0\" y=\"28.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">formeel</text><text x=\"392.0\" y=\"76.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">een onbekende</text><rect x=\"320\" y=\"88\" width=\"144\" height=\"30\" rx=\"9\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.5\"/><text x=\"392.0\" y=\"107.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#c17f2b\">Komt u straks ook?</text><text x=\"235.0\" y=\"142.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">Niet één vorm is juist: de situatie en de ontvanger bepalen je keuze.</text></svg>",
+     "onderschrift": "In een gesprek met een volwassene met wie je geen nauwe band hebt, gebruik je 'u'."
+    },
+    {
+     "soort": "tekst",
+     "html": "Formeel kies je bij een sollicitatiemail voor een vakantiejob, een brief aan de gemeente of een gesprek met een arts die je niet kent: 'Geachte heer of mevrouw', 'u', en een slotgroet als 'Met vriendelijke groeten', 'Hoogachtend' of 'Met dank bij voorbaat'. Informeel mag het bij een klasgenoot, een verjaardagskaartje voor je neef of een babbel met je trainer die je al jaren kent."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Van informeel naar formeel herschrijven</strong> doe je zo: 'je' wordt 'u', de emoji's gaan eruit, en je schrijft volledige zinnen met een aanhef en een nette slotgroet. Alles wat te los klinkt, haal je weg."
+    }
+   ]
+  },
+  {
+   "kop": "Variëteiten van het Nederlands",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het Nederlands wordt op veel manieren gebruikt, en elke <strong>taalvariëteit</strong> heeft haar eigen plaats. Geen enkele is minderwaardig; wat past, hangt van de situatie af."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">variëteit</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Standaardnederlands</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">overal in het taalgebied begrepen en aanvaard: school, nieuws, officiële teksten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ga je mee?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tussentaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tussen dialect en standaardtaal in</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ge gaat da nie doen, hè</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dialect</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">streekgebonden, van één streek of dorp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verschilt per gemeente</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jongerentaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onder jongeren, sterk beïnvloed door het Engels, Marokkaans of Surinaams</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verandert snel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jargon of vakjargon</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vaktaal van een beroep of een hobby</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">buitenspel (voetbal), diagnose (geneeskunde), debet (boekhouding)</td></tr></table>",
+     "onderschrift": "'Ge' en 'gij' zijn de tussentalige varianten van 'je' en 'jij'."
+    },
+    {
+     "soort": "tekst",
+     "html": "Binnen de standaardtaal bestaan er ook variëteiten: <strong>Belgisch-Nederlands</strong> en <strong>Nederlands-Nederlands</strong>. 'Ik heb mijn gsm in de auto laten liggen' tegenover 'mijn mobieltje': allebei standaardtaal, andere kant van de grens. Vlamingen en Nederlanders spreken ook sommige woorden anders uit."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wie tussen variëteiten kan schakelen, communiceert net sterk: twee vrienden die onder elkaar dialect spreken en overschakelen op Standaardnederlands zodra er iemand bijkomt die het niet begrijpt, passen hun <strong>taalvariëteit</strong> aan hun gesprekspartner aan. Datzelfde doe je met jargon: tegenover iemand die het vak niet kent, is vaktaal een muur. Leg uit in gewone woorden, ook als je aan je oma schrijft over haar tablet."
+    },
+    {
+     "soort": "weetje",
+     "html": "Tussentaal spreken heeft niets met spelfouten te maken: spreken en schrijven zijn twee verschillende dingen. En wie een bepaald dialect spreekt, wordt soms onterecht minder slim gevonden. Dat heet <strong>stereotypering</strong>, en zo'n oordeel zegt alleen iets over de vooroordelen van de luisteraar."
+    },
+    {
+     "soort": "tekst",
+     "html": "Talen lijken bovendien op elkaar: water en <em>water</em>, kat en <em>cat</em>, restaurant en <em>restaurant</em>. Wie dat verband ziet, raadt de betekenis van een onbekend woord sneller."
+    }
+   ]
+  },
+  {
+   "kop": "Wat je zegt zonder woorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Non-verbale communicatie</strong> is alles wat je uitstuurt zonder woorden: <strong>lichaamstaal</strong>, mimiek, <strong>oogcontact</strong>, houding, afstand en bewegingen; <strong>intonatie</strong> (hoe je stem stijgt en daalt), articulatie, tempo en volume; en zelfs je kleding en je uiterlijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "Die signalen veranderen je boodschap. Dezelfde zin — 'Dat is dan weer prachtig gedaan' — kan met een bepaalde toon en gezichtsuitdrukking net het tegenovergestelde betekenen. Kijk je tijdens een spreekbeurt de hele tijd naar je blad, dan haakt je publiek af. Merk je dat je gesprekspartner zijn armen kruist en wegkijkt, speel daar dan op in: vraag of iets niet duidelijk is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ook in geschreven taal bestaat non-verbale communicatie. Een hele zin IN HOOFDLETTERS wordt online gelezen als schreeuwen. Een <strong>emoji</strong> kan je toon verduidelijken in een informeel bericht, maar is ongepast in een formele mail, kan verkeerd begrepen worden, en vervangt de leestekens niet. Zelfs een punt achter een kort appbericht — 'ok.' — voelt afstandelijk, hoe correct hij ook is."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Register: formeel bij onbekenden en officiële situaties, informeel bij wie je goed kent.",
+  "Standaardnederlands, tussentaal, dialect, jongerentaal en jargon: elk hun eigen plaats.",
+  "'Ge/gij' is tussentaal voor 'je/jij'; 'gsm' en 'mobieltje' zijn allebei standaardtaal.",
+  "Jargon werkt alleen bij wie het vak kent.",
+  "Non-verbaal: lichaamstaal, oogcontact, intonatie, tempo, volume, kleding, emoji's.",
+  "Hoofdletters typen leest als schreeuwen; een smiley hoort niet in een formele mail."
+ ]
+}

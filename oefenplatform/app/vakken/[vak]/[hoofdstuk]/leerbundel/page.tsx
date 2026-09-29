@@ -51,11 +51,23 @@ export default async function LeerbundelPage({
   );
   if (!magVolledig) notFound();
 
-  const bundel = await laadKlikbareBundel(vak.slug, hoofdstuk.titel);
+  const bundel = await laadKlikbareBundel(
+    vak.slug,
+    hoofdstuk.titel,
+    hoofdstuk.niveau,
+  );
   if (!bundel) notFound();
 
   const niveau = vindNiveau(hoofdstuk.niveau);
-  const prent = puzzelPrent(vak.slug, hoofdstuk.titel);
+
+  /*
+    Het spelletje op de eindhalte staat enkel bij 🌱 Start. Kim op 29 september
+    2026: "of de interactieve leerbundels ook bij spark kunnen maar zonder de
+    puzzels? dus gewoon het leerpad." Bij ✨ Spark blijft het dus bij de haltes
+    en het lijstje om te onthouden.
+  */
+  const spel = hoofdstuk.niveau === "start";
+  const prent = spel ? puzzelPrent(vak.slug, hoofdstuk.titel) : null;
   const terug = `/vakken/${vak.slug}/${hoofdstuk.volgnummer}`;
 
   return (
@@ -78,6 +90,7 @@ export default async function LeerbundelPage({
           hoofdstukId={hoofdstuk.id}
           naarOefeningen={terug}
           prent={prent}
+          spel={spel}
         />
       </main>
     </>

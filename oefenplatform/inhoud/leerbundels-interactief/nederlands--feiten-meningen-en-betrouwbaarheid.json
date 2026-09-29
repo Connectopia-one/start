@@ -1,0 +1,71 @@
+{
+ "vak": "Nederlands",
+ "titel": "Feiten, meningen en betrouwbaarheid",
+ "onder": "Hoe je nagaat of een tekst klopt, en hoe je zelf een standpunt onderbouwt.",
+ "secties": [
+  {
+   "kop": "Feit of mening?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>feit</strong> kan je nagaan: 'België telt drie officiële landstalen', 'deze gsm weegt 180 gram', 'de batterij gaat 12 uur mee', 'de levering duurde vier dagen'. Een <strong>mening</strong> is wat iemand ervan vindt: 'die film is veel te lang', 'deze gsm is zijn geld niet waard', 'het is het beste toestel van dit jaar'."
+    },
+    {
+     "soort": "tekst",
+     "html": "Meningen zijn niet fout; ze zijn alleen geen feiten. Twee mensen kunnen over dezelfde feiten een andere mening hebben, en een sterke mening steunt net op feiten. Herken een mening die vermomd is als feit aan de <strong>gevoelswoorden</strong>: 'schandalig', 'schokkend', 'iedereen weet', 'veel te'. 'Veel te duur' is een mening, '24 euro' is een feit. In een <strong>productreview</strong> zijn 'de batterij gaat 12 uur mee' en 'het toestel weegt 240 gram' dus feiten, en 'het beste toestel van dit jaar' een mening."
+    }
+   ]
+  },
+  {
+   "kop": "Is deze tekst betrouwbaar?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Je beoordeelt een tekst met een reeks vragen. Eén antwoord beslist niets; samen geven ze een beeld."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarnaar je kijkt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarom het telt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wordt de auteur vermeld?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zonder auteur weet je niet wie verantwoordelijk is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wie publiceert het artikel?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een redactie controleert, een merk verkoopt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Enkel via sociale media of ook bij nieuwsmedia?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">circuleert het alleen online, ga het dan zelf na</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Is de website professioneel?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een mooie site is zo gemaakt: geen bewijs</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wat is de bedoeling van de zender?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">informeren, verkopen of overtuigen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Is het reclame, nepnieuws of propaganda?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">propaganda brengt bewust één kant</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Is de titel neutraal of wil hij clicks?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">'Je gelooft NOOIT wat…' is clickbait</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Welke bronnen gebruikt de tekst?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met bron en jaartal kan je het controleren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Vooral feiten of meningen?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een oordeel is geen vaststelling</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Is de informatie recent of verouderd?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cijfers, prijzen en regels verouderen snel</td></tr></table>",
+     "onderschrift": "Een tekst zonder auteur is niet meteen onbetrouwbaar: het is één signaal van de tien."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Nepnieuws</strong> of fake news is verzonnen nieuws dat zich voordoet als echt nieuws, vaak om clicks of geld te verdienen. Geen auteur, nergens bij betrouwbare nieuwsmedia, en een overdreven titel die je vooral wil doen klikken: drie signalen samen maken een bericht verdacht. Een <strong>influencer</strong> die enthousiast een crème aanprijst en daarvoor betaald wordt, maakt <strong>reclame</strong>, ook al leest het als een tip. Een <strong>publireportage</strong> doet net hetzelfde: ze ziet eruit als een reportage, maar de verkoper betaalt ze."
+    },
+    {
+     "soort": "weetje",
+     "html": "Twijfel je, zoek dezelfde informatie dan bij een tweede, betrouwbare bron: de site van een ziekenhuis of een officiële dienst, niet een forumreactie of een meme. Likes zeggen niets over juistheid. En stuur niets door dat je niet nagekeken hebt: wie deelt, wordt zelf een zender."
+    },
+    {
+     "soort": "tekst",
+     "html": "Spreken twee betrouwbare teksten elkaar tegen, kijk dan naar de datum, de bronnen en wat ze precies onderzocht hebben. Vaak gaan ze over een andere periode of een andere groep. Komt een tekst van een fabrikant, gebruik hem dan gerust, maar zoek de nadelen elders. En let op: een tekst kan tegelijk correct én onbruikbaar zijn voor jouw opdracht, bijvoorbeeld als hij over een ander land gaat."
+    }
+   ]
+  },
+  {
+   "kop": "Standpunt, argumenten en stereotypen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>standpunt</strong> is het oordeel dat iemand inneemt: 'Gsm's horen niet thuis op school.' Een <strong>argument</strong> is de reden die dat standpunt ondersteunt, meestal na 'want' of 'omdat': 'want uit onderzoek blijkt dat leerlingen dan beter opletten'. 'Ik vind dat gewoon' en 'iedereen weet dat' zijn geen redenen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een goed argument telt ook voor iemand anders: 'leerlingen drinken dan meer water en minder frisdrank', 'we hoeven geen plastic flessen mee te brengen', 'water uit de kraan is goedkoper'. Wil je écht overtuigen, geef dan ook de nadelen toe en weerleg ze: de lezer merkt dat je de zaak kent. Schrijf je zelf een reactie op een forum, geef dan je standpunt en drie argumenten, met een cijfer of een voorbeeld erbij. Hoofdletters lezen als schreeuwen en werken averechts."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Stereotypering</strong> is een vast, te algemeen beeld van een hele groep mensen: 'zoals alle tieners hangt ook hij de hele dag aan zijn scherm', of 'wie een bepaald dialect spreekt, is minder slim'. Zo'n <strong>stereotype</strong> klopt niet en is oneerlijk. Wie het herkent, leest scherper."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een feit kan je nagaan; een mening is een oordeel, vaak herkenbaar aan gevoelswoorden.",
+  "Criteria: auteur, uitgever, kanaal, bedoeling, bronnen, feiten of meningen, hoe recent.",
+  "Nepnieuws: geen auteur, alleen op sociale media, een titel die vooral clicks wil.",
+  "Standpunt = je oordeel; argument = de reden erachter, meestal na 'want' of 'omdat'.",
+  "Betrouwbaar, correct en bruikbaar zijn drie verschillende dingen.",
+  "Een stereotype is een te algemeen beeld van een hele groep."
+ ]
+}

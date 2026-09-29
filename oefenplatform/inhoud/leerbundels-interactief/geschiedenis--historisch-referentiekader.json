@@ -1,0 +1,175 @@
+{
+ "vak": "Geschiedenis",
+ "titel": "Het historisch referentiekader",
+ "onder": "Hoe historici het verleden ordenen in tijd, in ruimte en in domeinen.",
+ "secties": [
+  {
+   "kop": "Wat doet een historicus?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>historicus</strong> onderzoekt het verleden. Hij was er zelf niet bij, dus hij moet het afleiden uit wat er van vroeger overblijft: geschreven teksten, voorwerpen, gebouwen, afbeeldingen. Dat noemen we <strong>bronnen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>archeoloog</strong> haalt die bronnen uit de grond. De twee werken vaak samen, maar het is niet hetzelfde beroep: de archeoloog graaft op, de historicus legt uit."
+    },
+    {
+     "soort": "kader",
+     "html": "Het verleden is alles wat gebeurd is. <strong>Geschiedenis</strong> is het verhaal dat historici daarover vertellen op basis van bronnen. Die twee zijn dus niet hetzelfde, en dat is meteen waarom er over geschiedenis gediscussieerd kan worden."
+    }
+   ]
+  },
+  {
+   "kop": "Tijd meten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Om over het verleden te kunnen praten, moet je het eerst kunnen aanduiden. Honderd jaar is een <strong>eeuw</strong>, duizend jaar is een <strong>millennium</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 72\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10.0\" y=\"20\" width=\"144.0\" height=\"44\" rx=\"8\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"82.0\" y=\"40\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">13de eeuw</text><text x=\"82.0\" y=\"56\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#234539\">1201 – 1300</text><rect x=\"160.0\" y=\"20\" width=\"144.0\" height=\"44\" rx=\"8\" fill=\"#2f5d50\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"232.0\" y=\"40\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#ffffff\">14de eeuw</text><text x=\"232.0\" y=\"56\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#ffffff\">1301 – 1400</text><rect x=\"310.0\" y=\"20\" width=\"144.0\" height=\"44\" rx=\"8\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"382.0\" y=\"40\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">15de eeuw</text><text x=\"382.0\" y=\"56\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#234539\">1401 – 1500</text></svg>",
+     "onderschrift": "Let op het lastige: het jaar 1350 hoort bij de 14de eeuw, niet bij de 13de. Een eeuw loopt van 01 tot en met 00."
+    },
+    {
+     "soort": "tekst",
+     "html": "Onze jaartelling begint bij het jaar 0. Wat daarvoor ligt, krijgt de toevoeging <strong>v.C.</strong> (voor Christus), wat daarna komt <strong>n.C.</strong> (na Christus)."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 118\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30\" y1=\"58\" x2=\"440\" y2=\"58\" stroke=\"#23291f\" stroke-width=\"2\"/><path d=\"M440 58 l-9 -5 v10 z\" fill=\"#23291f\"/><line x1=\"58.3\" y1=\"49\" x2=\"58.3\" y2=\"67\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"58.3\" y=\"86\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">3000 v.C.</text><line x1=\"129.0\" y1=\"49\" x2=\"129.0\" y2=\"67\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"129.0\" y=\"86\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">2000 v.C.</text><line x1=\"199.7\" y1=\"49\" x2=\"199.7\" y2=\"67\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"199.7\" y=\"86\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">1000 v.C.</text><line x1=\"270.3\" y1=\"44\" x2=\"270.3\" y2=\"72\" stroke=\"#234539\" stroke-width=\"3\"/><text x=\"270.3\" y=\"86\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#234539\">0</text><line x1=\"341.0\" y1=\"49\" x2=\"341.0\" y2=\"67\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"341.0\" y=\"86\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">1000 n.C.</text><line x1=\"411.7\" y1=\"49\" x2=\"411.7\" y2=\"67\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"411.7\" y=\"86\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">2000 n.C.</text><line x1=\"44.1\" y1=\"26\" x2=\"249.1\" y2=\"26\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><path d=\"M44.1 26 l7 -4.5 v9 z\" fill=\"#c17f2b\"/><text x=\"146.6\" y=\"18\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#c17f2b\">voor Christus</text><line x1=\"291.6\" y1=\"26\" x2=\"425.9\" y2=\"26\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><path d=\"M425.9 26 l-7 -4.5 v9 z\" fill=\"#2f5d50\"/><text x=\"358.7\" y=\"18\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2f5d50\">na Christus</text><text x=\"143.1\" y=\"106\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#c17f2b\">hoe groter het getal, hoe langer geleden</text></svg>",
+     "onderschrift": "Vóór Christus tel je achterwaarts. 800 v.C. ligt dus vroeger dan 300 v.C., ook al is 800 het grotere getal."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Chronologie</strong> is de volgorde van vroeger naar later. Zet je gebeurtenissen op een <strong>tijdlijn</strong>, dan zie je die volgorde in één oogopslag, én hoeveel tijd er tussen zit."
+    }
+   ]
+  },
+  {
+   "kop": "De zeven periodes",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Historici knippen het verleden in stukken, zodat ze erover kunnen praten. In het westen gebruiken ze daarvoor zeven periodes."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 155\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"26.0\" y=\"61\" width=\"35.9\" height=\"26\" fill=\"#9a948a\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><rect x=\"61.9\" y=\"61\" width=\"179.4\" height=\"26\" fill=\"#c17f2b\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"151.6\" y=\"78\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#ffffff\">oude nabije oosten</text><rect x=\"241.3\" y=\"61\" width=\"91.6\" height=\"26\" fill=\"#a2521f\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><rect x=\"332.8\" y=\"61\" width=\"73.5\" height=\"26\" fill=\"#2f5d50\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><rect x=\"406.3\" y=\"61\" width=\"20.7\" height=\"26\" fill=\"#5b7f9c\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><rect x=\"427.1\" y=\"61\" width=\"11.2\" height=\"26\" fill=\"#7a5b8f\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><rect x=\"438.3\" y=\"61\" width=\"5.7\" height=\"26\" fill=\"#3f7a46\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><line x1=\"61.9\" y1=\"61\" x2=\"61.9\" y2=\"52\" stroke=\"#234539\" stroke-width=\"1.5\"/><circle cx=\"61.9\" cy=\"52\" r=\"3.4\" fill=\"#234539\"/><text x=\"61.9\" y=\"43\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">schrift</text><line x1=\"332.8\" y1=\"87\" x2=\"332.8\" y2=\"96\" stroke=\"#234539\" stroke-width=\"1.5\"/><circle cx=\"332.8\" cy=\"96\" r=\"3.4\" fill=\"#234539\"/><text x=\"332.8\" y=\"110\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">val van Rome</text><line x1=\"427.1\" y1=\"61\" x2=\"427.1\" y2=\"52\" stroke=\"#234539\" stroke-width=\"1.5\"/><circle cx=\"427.1\" cy=\"52\" r=\"3.4\" fill=\"#234539\"/><text x=\"427.1\" y=\"43\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">Franse Revolutie</text><rect x=\"26.0\" y=\"114\" width=\"11\" height=\"11\" rx=\"2.5\" fill=\"#9a948a\"/><text x=\"42.0\" y=\"123\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">prehistorie</text><rect x=\"109.6\" y=\"114\" width=\"11\" height=\"11\" rx=\"2.5\" fill=\"#a2521f\"/><text x=\"125.6\" y=\"123\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">klassieke oudheid</text><rect x=\"226.8\" y=\"114\" width=\"11\" height=\"11\" rx=\"2.5\" fill=\"#2f5d50\"/><text x=\"242.8\" y=\"123\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">middeleeuwen</text><rect x=\"316.0\" y=\"114\" width=\"11\" height=\"11\" rx=\"2.5\" fill=\"#5b7f9c\"/><text x=\"332.0\" y=\"123\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">vroegmoderne tijd</text><rect x=\"26.0\" y=\"131\" width=\"11\" height=\"11\" rx=\"2.5\" fill=\"#7a5b8f\"/><text x=\"42.0\" y=\"140\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">moderne tijd</text><rect x=\"115.2\" y=\"131\" width=\"11\" height=\"11\" rx=\"2.5\" fill=\"#3f7a46\"/><text x=\"131.2\" y=\"140\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">hedendaagse tijd</text></svg>",
+     "onderschrift": "De prehistorie staat hier als een kort stukje links, maar duurde in werkelijkheid honderdduizenden jaren — veel langer dan alle andere periodes samen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De volgorde ken je best vanbuiten: prehistorie, oude nabije oosten, klassieke oudheid, middeleeuwen, vroegmoderne tijd, moderne tijd, hedendaagse tijd."
+    }
+   ]
+  },
+  {
+   "kop": "Scharnierpunten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Waarom ligt de grens tussen twee periodes net dáár? Omdat er iets gebeurde dat zo ingrijpend was dat historici er een nieuwe periode mee laten beginnen. Zo'n gebeurtenis heet een <strong>scharnierpunt</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"69.7\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">het schrift</text><text x=\"69.7\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">einde prehistorie</text><path d=\"M144.33333333333334 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"165.3\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">macht naar de</text><text x=\"235.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">Middellandse Zee</text><path d=\"M309.6666666666667 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"330.7\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"400.3\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">val van het West-</text><text x=\"400.3\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">Romeinse Rijk</text></svg>",
+     "onderschrift": "Drie scharnierpunten uit de periodes die jij bestudeert."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>schrift</strong> maakt een einde aan de prehistorie: vanaf dan zijn er geschreven bronnen. Als de macht verschuift van de rijken bij Tigris en Eufraat naar de steden rond de <strong>Middellandse Zee</strong>, begint de klassieke oudheid. En met de ondergang van het <strong>West-Romeinse Rijk in 476</strong> beginnen de middeleeuwen."
+    }
+   ]
+  },
+  {
+   "kop": "Situeren in de ruimte",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Naast wanneer, vraagt een historicus ook waar. Daarvoor bestaan vaste begrippen. <strong>Lokaal</strong> is één plaats, <strong>regionaal</strong> een streek, <strong>continentaal</strong> een heel werelddeel."
+    },
+    {
+     "soort": "kader",
+     "html": "Woorden als <strong>chronologie</strong>, continuïteit, ruraal, maritiem en evolutie heten <strong>structuurbegrippen</strong>: vaste begrippen waarmee historici elke samenleving kunnen beschrijven, welke periode het ook is. Vraagt een examen naar \"het structuurbegrip\", dan bedoelt het zo'n woord."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Stedelijk</strong> en <strong>ruraal</strong> zetten stad en platteland tegenover elkaar. <strong>Maritiem</strong> betekent gericht op de zee. Athene was maritiem: het leefde van zijn vloot en zijn handel overzee. Sparta lag in het binnenland en was continentaal: het leefde van zijn land."
+    }
+   ]
+  },
+  {
+   "kop": "De vier maatschappelijke domeinen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een samenleving heeft veel kanten tegelijk. Om er orde in te brengen, verdelen historici alles in vier <strong>maatschappelijke domeinen</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 92\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"110.0\" height=\"80\" rx=\"9\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><rect x=\"0.0\" y=\"6\" width=\"110.0\" height=\"22\" rx=\"9\" fill=\"#2f5d50\"/><rect x=\"0.0\" y=\"19\" width=\"110.0\" height=\"9\" fill=\"#2f5d50\"/><text x=\"55.0\" y=\"21\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#ffffff\">politiek</text><text x=\"55.0\" y=\"47\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">macht, bestuur,</text><text x=\"55.0\" y=\"61\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">wetten, oorlog</text><rect x=\"120.0\" y=\"6\" width=\"110.0\" height=\"80\" rx=\"9\" fill=\"#ffffff\" stroke=\"#5b7f9c\" stroke-width=\"1.8\"/><rect x=\"120.0\" y=\"6\" width=\"110.0\" height=\"22\" rx=\"9\" fill=\"#5b7f9c\"/><rect x=\"120.0\" y=\"19\" width=\"110.0\" height=\"9\" fill=\"#5b7f9c\"/><text x=\"175.0\" y=\"21\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#ffffff\">sociaal</text><text x=\"175.0\" y=\"47\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">bevolkingsgroepen,</text><text x=\"175.0\" y=\"61\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">rechten, ongelijkheid</text><rect x=\"240.0\" y=\"6\" width=\"110.0\" height=\"80\" rx=\"9\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><rect x=\"240.0\" y=\"6\" width=\"110.0\" height=\"22\" rx=\"9\" fill=\"#c17f2b\"/><rect x=\"240.0\" y=\"19\" width=\"110.0\" height=\"9\" fill=\"#c17f2b\"/><text x=\"295.0\" y=\"21\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#ffffff\">economisch</text><text x=\"295.0\" y=\"47\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">landbouw, ambacht,</text><text x=\"295.0\" y=\"61\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">handel, geld</text><rect x=\"360.0\" y=\"6\" width=\"110.0\" height=\"80\" rx=\"9\" fill=\"#ffffff\" stroke=\"#7a5b8f\" stroke-width=\"1.8\"/><rect x=\"360.0\" y=\"6\" width=\"110.0\" height=\"22\" rx=\"9\" fill=\"#7a5b8f\"/><rect x=\"360.0\" y=\"19\" width=\"110.0\" height=\"9\" fill=\"#7a5b8f\"/><text x=\"415.0\" y=\"21\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#ffffff\">cultureel</text><text x=\"415.0\" y=\"47\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">religie, kunst,</text><text x=\"415.0\" y=\"61\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">wetenschap, taal</text></svg>",
+     "onderschrift": "Eén gebeurtenis hoort vaak in meerdere domeinen tegelijk. Dat is geen fout, dat is juist het punt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een voorbeeld. Alexander de Grote verovert een wereldrijk: dat is <strong>politiek</strong>. Maar door die verovering verspreidt de Griekse taal en kunst zich over dat hele gebied, en dat is <strong>cultureel</strong>. De handel die op gang komt, is <strong>economisch</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Nog een voorbeeld, nu van één voorwerp. Het bronzen beeld van de Romeinse <strong>senator</strong> Aulus Metellus is een kunstwerk, dus <strong>cultureel</strong>. Maar het toont hem in functie, met opgeheven hand alsof hij het woord neemt, en dus ook zijn macht: <strong>politiek</strong>. Twee domeinen in één beeld."
+    },
+    {
+     "soort": "weetje",
+     "html": "Historici zoeken graag naar <em>verbanden</em> tussen de domeinen. Waarom leidt een betere oogst (economisch) tot grotere steden (sociaal) en tot machtigere koningen (politiek)? Dat soort vragen maakt geschiedenis interessanter dan een rij jaartallen."
+    }
+   ]
+  },
+  {
+   "kop": "Continuïteit, verandering, evolutie en revolutie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Continuïteit</strong> is wat gelijk blijft; <strong>verandering</strong> is wat anders wordt. In elke periode zitten allebei tegelijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "Verandert er iets traag en stap voor stap, dan noemen we dat een <strong>evolutie</strong>. Gaat het snel en grondig, dan spreken we van een <strong>revolutie</strong>. Het verschil zit in het tempo, niet in of iets goed of slecht is."
+    },
+    {
+     "soort": "kader",
+     "html": "De overgang naar de landbouw heet de <strong>agrarische revolutie</strong>. Toch duurde ze duizenden jaren. Naar gevolgen gemeten was het een omwenteling, naar tempo gemeten een evolutie. Allebei de antwoorden zijn juist, als je uitlegt waarom."
+    }
+   ]
+  },
+  {
+   "kop": "De grenzen van deze indeling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De zeven periodes zijn een <strong>afspraak</strong> onder historici, geen natuurwet. Dat heeft drie gevolgen, en die moet je kunnen uitleggen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ze is <strong>tijdsgebonden</strong>: de grenzen zijn gekozen en kunnen verschuiven als er nieuwe inzichten komen. Ze is <strong>plaatsgebonden</strong>: de val van het West-Romeinse Rijk betekende in China of Amerika helemaal niets. En ze is <strong>gebonden aan domeinen</strong>: politiek kan een periode aflopen terwijl mensen cultureel gewoon verderdoen zoals vroeger."
+    },
+    {
+     "soort": "weetje",
+     "html": "Het spijkerschrift ontstond in Mesopotamië rond 3300 v.C. In onze streken werd pas duizenden jaren later geschreven. De prehistorie eindigde hier dus veel later dan daar. Eén grens voor de hele wereld bestaat niet."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een historicus onderzoekt het verleden met bronnen; een archeoloog graaft ze op.",
+  "Eeuw = 100 jaar, millennium = 1000 jaar. Het jaar 1492 hoort bij de 15de eeuw.",
+  "v.C. telt achterwaarts: 800 v.C. ligt vroeger dan 300 v.C.",
+  "De zeven periodes: prehistorie, oude nabije oosten, klassieke oudheid, middeleeuwen, vroegmoderne tijd, moderne tijd, hedendaagse tijd.",
+  "Een scharnierpunt is de overgang tussen twee periodes: het schrift, de macht naar de Middellandse Zee, 476.",
+  "Ruimte: lokaal, regionaal, stedelijk, ruraal, continentaal, maritiem.",
+  "De vier domeinen: politiek, sociaal, economisch, cultureel.",
+  "Evolutie gaat traag, revolutie snel. Continuïteit blijft, verandering niet.",
+  "De westerse periodisering is tijdsgebonden, plaatsgebonden en domeingebonden."
+ ]
+}

@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Zet de leerbundels van 🌱 Start ook om naar json, voor de klikbare bundel.
+"""Zet de leerbundels van 🌱 Start en ✨ Spark om naar json, voor de klikbare bundel.
 
 De pdf blijft bestaan en verandert niet. Dit script leest dezelfde
 BUNDELS-dicts en schrijft ze weg als gegevens, zodat het oefenplatform de
@@ -12,7 +12,11 @@ dat ze hem daarom overslaat, met als gevolg dat de oefeningen niet lukken.
 Eén lange pdf vraagt dat je alles in één keer doorworstelt; klikbare onderdelen
 laten toe om er één tegelijk te nemen.
 
-Enkel 🌱 Start. Spark en Basis houden voorlopig hun pdf.
+🌱 Start en ✨ Spark. 🧱 Basis houdt voorlopig zijn pdf.
+
+Kim op 29 september 2026: "of de interactieve leerbundels ook bij spark kunnen
+maar zonder de puzzels? dus gewoon het leerpad." Het spelletje op de eindhalte
+staat daarom enkel bij Start; dat wordt in de pagina zelf beslist.
 """
 import importlib
 import json
@@ -32,9 +36,23 @@ def slug(naam):
     return re.sub(r"[^a-z0-9]+", "-", plat.lower()).strip("-")
 
 
-def is_start(b):
-    """Een bundel zonder eigen niveau is Start; bundel.py zet dat als standaard."""
-    return "niveau" not in b
+def niveau_van(b):
+    """De korte naam van het niveau, zoals in lib/niveaus.ts.
+
+    Een bundel zonder eigen niveau is Start; bundel.py zet dat als standaard.
+    De andere schrijven het voluit ("✨ Spark — 1ste en 2de middelbaar").
+    """
+    voluit = b.get("niveau")
+    if not voluit:
+        return "start"
+    if "Spark" in voluit:
+        return "spark"
+    if "Basis" in voluit:
+        return "basis"
+    raise ValueError("onbekend niveau: " + voluit)
+
+
+NIVEAUS = ("start", "spark")
 
 
 def blok_naar_data(b):
@@ -78,7 +96,8 @@ def main():
             continue
         mod = importlib.import_module(pad.stem)
         for naam, b in getattr(mod, "BUNDELS", {}).items():
-            if not is_start(b):
+            niveau = niveau_van(b)
+            if niveau not in NIVEAUS:
                 continue
             data = bundel_naar_data(b)
             bestand = f"{slug(b['vak'])}--{naam}.json"
@@ -90,14 +109,14 @@ def main():
             # "hoofdstukken".
             titels = [b["titel"], *b.get("hoofdstukken", [])]
             for titel in titels:
-                sleutel = f"{slug(b['vak'])}/{slug(titel)}"
+                sleutel = f"{niveau}/{slug(b['vak'])}/{slug(titel)}"
                 if sleutel in register:
                     raise SystemExit(f"twee bundels op dezelfde sleutel: {sleutel}")
                 register[sleutel] = bestand
 
     regels = [
         "// Gemaakt door inhoud/leerbundels/bron/maak_interactief.py — niet met de hand aanpassen.",
-        "// De sleutel is <vak-slug>/<hoofdstuk-slug>; zie lib/leerbundel.ts.",
+        "// De sleutel is <niveau>/<vak-slug>/<hoofdstuk-slug>; zie lib/leerbundel.ts.",
         "",
         "export const KLIKBARE_BUNDELS: Record<string, () => Promise<{ default: unknown }>> = {",
     ]

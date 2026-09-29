@@ -1,0 +1,155 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Het menselijk lichaam",
+ "onder": "Vier stelsels die samenwerken om elke cel van energie en materie te voorzien.",
+ "secties": [
+  {
+   "kop": "Waarom je voedsel en zuurstof nodig hebt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Mensen en andere dierlijke organismen hebben <strong>energie en materie</strong> nodig om te functioneren. Die halen ze uit hun voedsel en uit de lucht. <strong>Voedingsstoffen</strong> hebben daarbij drie functies."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">functie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarvoor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarin</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>brandstof</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">energie leveren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">suikers en vetten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>bouwstof</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">groeien en herstellen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eiwitten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>beschermstof</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je lichaam goed laten werken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vitaminen en mineralen</td></tr></table>",
+     "onderschrift": "Water is ook een voedingsstof. Het levert geen energie, maar is even onmisbaar: het vervoert stoffen, regelt je temperatuur en voert afval af."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Voedingsvezels</strong> uit groenten, fruit en volkoren producten worden niet verteerd. Ze geven je darmen werk en houden je stoelgang vlot. Een <strong>voedingsmiddel</strong> (een appel, een boterham) is trouwens iets anders dan een voedingsstof: het voedingsmiddel is wat je eet, de voedingsstoffen zijn wat erin zit."
+    }
+   ]
+  },
+  {
+   "kop": "Het spijsverteringsstelsel",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"36.6\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">mond</text><path d=\"M78.2 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"99.2\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"135.8\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">slokdarm</text><path d=\"M177.4 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"198.4\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">maag</text><path d=\"M276.6 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"297.6\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"334.2\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">dunne</text><text x=\"334.2\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">darm</text><path d=\"M375.8 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"396.8\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"433.4\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">dikke</text><text x=\"433.4\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">darm</text></svg>",
+     "onderschrift": "Tussen mond en slokdarm ligt de keel of keelholte; na de maag komt eerst de twaalfvingerige darm, en na de dikke darm volgen de endeldarm en de aars."
+    },
+    {
+     "soort": "tekst",
+     "html": "In de <strong>mond</strong> wordt het voedsel fijngekauwd en gemengd met <strong>speeksel</strong> uit de <strong>speekselklieren</strong>. Dat maakt het glad en begint zetmeel al af te breken, nog voor je geslikt hebt. De <strong>maag</strong> maakt <strong>maagsap</strong>: dat bevat zuur, doodt bacteriën en begint met het afbreken van eiwitten."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>lever</strong> maakt <strong>gal</strong>, dat in de <strong>galblaas</strong> bewaard wordt. In de twaalfvingerige darm verdeelt gal de vetten in heel kleine druppeltjes, zodat de verteringssappen er beter bij kunnen. De <strong>alvleesklier</strong> levert <strong>alvleessap</strong>, de darmwand zelf <strong>darmsap</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voedingsstof</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wordt omgezet in</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waar vooral</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eiwitten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aminozuren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maag en dunne darm</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">suikers zoals zetmeel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">glucose, fructose en/of galactose</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mond en dunne darm</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vetten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">glycerol en 3 vetzuren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dunne darm, met hulp van gal</td></tr></table>",
+     "onderschrift": "Dat zijn de stofomzettingen van de spijsvertering: grote moleculen worden klein genoeg om door de darmwand te raken."
+    },
+    {
+     "soort": "tekst",
+     "html": "In de <strong>dunne darm</strong> is de vertering klaar en gaan de verteerde voedingsstoffen het bloed in. Dat opnemen heet <strong>absorptie</strong>, en het gebeurt door de darmvlokken, die het oppervlak van de darm enorm groot maken. De <strong>dikke darm</strong> haalt daarna vooral water uit wat overblijft. Wat niet verteerd of opgenomen is, verlaat je lichaam als <strong>voedselresten</strong> via de <strong>endeldarm</strong> en de <strong>aars</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Het ademhalingsstelsel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Lucht komt binnen langs de <strong>neus</strong> of de mond, gaat door de keelholte, langs de <strong>strottenklep</strong>, door de <strong>luchtpijp</strong> en de <strong>luchtpijptakken</strong> naar de <strong>longen</strong>, tot in de <strong>longblaasjes</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De longblaasjes zijn piepkleine blaasjes met een heel dunne wand, omringd door haarvaten. Daar gebeurt de stofuitwisseling: <strong>zuurstof</strong> gaat naar het bloed en <strong>koolstofdioxide</strong> komt eruit. Koolstofdioxide en waterdamp zijn je <strong>ademhalingsproducten</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "Het <strong>middenrif</strong> is de platte spier onder de longen. Trekt die samen, dan wordt de borstkas groter en stroomt er lucht naar binnen. De <strong>strottenklep</strong> klapt bij het slikken over de luchtpijp, zodat voedsel in de slokdarm gaat. Lukt dat niet, dan schiet je in je verkeerde keelgat."
+    }
+   ]
+  },
+  {
+   "kop": "Het transportstelsel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het hart pompt het bloed rond. Het heeft <strong>vier holtes</strong>: een linker- en een rechterboezem, en een linker- en een rechterkamer. De boezems vangen het bloed op, de kamers pompen het weg."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 236\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"151.0\" y=\"26\" width=\"168\" height=\"40\" rx=\"9\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"43.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">de longen</text><text x=\"235.0\" y=\"57.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">hier komt zuurstof bij</text><rect x=\"151.0\" y=\"105\" width=\"168\" height=\"40\" rx=\"9\" fill=\"#fdeceb\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"122.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">het hart</text><text x=\"235.0\" y=\"136.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">pompt alles rond</text><rect x=\"151.0\" y=\"184\" width=\"168\" height=\"40\" rx=\"9\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"201.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">de rest van je lichaam</text><text x=\"235.0\" y=\"215.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">hier wordt zuurstof verbruikt</text><line x1=\"129.0\" y1=\"105\" x2=\"129.0\" y2=\"73\" stroke=\"#5b93b8\" stroke-width=\"4\" stroke-linecap=\"round\"/><path d=\"M123.0 73 L129.0 66 L135.0 73 Z\" fill=\"#5b93b8\"/><text x=\"118.0\" y=\"88.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#5b93b8\">zuurstofarm</text><line x1=\"129.0\" y1=\"184\" x2=\"129.0\" y2=\"152\" stroke=\"#5b93b8\" stroke-width=\"4\" stroke-linecap=\"round\"/><path d=\"M123.0 152 L129.0 145 L135.0 152 Z\" fill=\"#5b93b8\"/><text x=\"118.0\" y=\"167.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#5b93b8\">zuurstofarm</text><line x1=\"341.0\" y1=\"66\" x2=\"341.0\" y2=\"98\" stroke=\"#c0392b\" stroke-width=\"4\" stroke-linecap=\"round\"/><path d=\"M335.0 98 L341.0 105 L347.0 98 Z\" fill=\"#c0392b\"/><text x=\"352.0\" y=\"88.5\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#c0392b\">zuurstofrijk</text><line x1=\"341.0\" y1=\"145\" x2=\"341.0\" y2=\"177\" stroke=\"#c0392b\" stroke-width=\"4\" stroke-linecap=\"round\"/><path d=\"M335.0 177 L341.0 184 L347.0 177 Z\" fill=\"#c0392b\"/><text x=\"352.0\" y=\"167.5\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#c0392b\">zuurstofrijk</text></svg>",
+     "onderschrift": "De kleine bloedsomloop gaat van het hart naar de longen en terug; de grote gaat van het hart naar de rest van het lichaam en terug."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Slagaders</strong> voeren bloed wég van het hart en hebben een dikke, gespierde wand. <strong>Aders</strong> brengen het terug en hebben kleppen die terugstromen tegengaan. De <strong>haarvaten</strong> ertussen zijn de allerdunste bloedvaten, met een wand van één cellaag: juist daardoor kunnen zuurstof, voedingsstoffen en afvalstoffen erdoor naar de cellen en terug."
+    },
+    {
+     "soort": "tekst",
+     "html": "De grootste slagader is de <strong>aorta</strong>, die uit de linkerkamer vertrekt met zuurstofrijk bloed. De <strong>holle aders</strong> brengen het zuurstofarme bloed terug naar de rechterboezem. Van daar gaat het via de <strong>longslagader</strong> naar de longen en komt het als zuurstofrijk bloed via de <strong>longader</strong> terug. De <strong>kransslagaders</strong> voeden ondertussen de hartspier zelf."
+    },
+    {
+     "soort": "weetje",
+     "html": "In de longslagader stroomt <em>zuurstofarm</em> bloed. Een slagader heet zo omdat ze van het hart wegvoert, niet omdat er zuurstofrijk bloed in zit."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">bestanddeel van het bloed</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">functie</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">plasma</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vloeistof; vervoert opgeloste stoffen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rode bloedcellen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vervoeren zuurstof</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">witte bloedcellen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bestrijden ziektekiemen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bloedplaatjes</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">laten een wonde stollen</td></tr></table>",
+     "onderschrift": "Zonder bloedplaatjes zou een kleine snee blijven bloeden."
+    }
+   ]
+  },
+  {
+   "kop": "Het uitscheidingsstelsel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Afvalstoffen moeten weg. Het <strong>orgaan</strong> dat urine maakt, is de nier. De <strong>nieren</strong> filteren afvalstoffen uit het bloed en maken er <strong>urine</strong> van; dat is een <strong>uitscheidingsproduct</strong>. Elke nier heeft een <strong>urineleider</strong> naar de <strong>blaas</strong>, die de urine alleen bewaart, en van de blaas naar buiten loopt één <strong>urinebuis</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een nier bestaat van buiten naar binnen uit het <strong>kapsel</strong>, de <strong>schors</strong>, het <strong>merg</strong> met zijn <strong>piramides</strong>, en het <strong>nierbekken</strong>, waar de urine samenkomt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ook de <strong>zweetklieren</strong> (zweet), de <strong>longen</strong> (koolstofdioxide en waterdamp) en de <strong>lever</strong> horen bij de uitscheiding. Voedselresten zijn iets anders: die zijn nooit in je bloed geweest."
+    }
+   ]
+  },
+  {
+   "kop": "Celademhaling: waar het allemaal voor dient",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In élke cel, in de <strong>mitochondriën</strong>, gebeurt de <strong>celademhaling</strong> of de verbranding van glucose: <strong>glucose + zuurstofgas → koolstofdioxide + water + energie</strong>. Die energie gebruikt de cel om te werken; de rest gaat verloren als warmte."
+    },
+    {
+     "soort": "kader",
+     "html": "Celademhaling gebeurt dus niet in de longen. De longen zorgen alleen voor de aanvoer van zuurstof en de afvoer van koolstofdioxide."
+    },
+    {
+     "soort": "tekst",
+     "html": "Om één spiercel aan het werk te houden, moeten drie stelsels samenwerken: het ademhalingsstelsel levert de zuurstof, het spijsverteringsstelsel de glucose, en het transportstelsel brengt allebei tot bij de cel — en voert het afval weer af. Loop je hard, dan hebben je spiercellen meer van allebei nodig en moet het afval sneller weg: daarom ga je sneller ademen én klopt je hart sneller."
+    }
+   ]
+  },
+  {
+   "kop": "Gezond eten en bewegen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Met de <strong>actieve voedings- en bewegingsdriehoek</strong> beoordeel je een eet- en bewegingspatroon. Onderaan, in het donkergroene deel, staan <strong>water, groenten, fruit en volle granen</strong>: daar eet je het meest van. Hoe hoger je komt, hoe minder je er best van eet. In de <strong>rode bol</strong> staat wat je best vermijdt, zoals sterk bewerkte voeding en frisdrank — en bij bewegen: <strong>lang stilzitten</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een patroon gezonder maken doe je met concrete aanpassingen: meer groenten en fruit, water drinken in plaats van frisdrank, en elke dag bewegen. Lang stilzitten is ongezond, ook als je daarnaast sport, dus sta regelmatig even recht."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Voedingsstoffen zijn brandstof, bouwstof of beschermstof.",
+  "Eiwitten → aminozuren, zetmeel → glucose, vetten → glycerol en 3 vetzuren.",
+  "De dunne darm neemt de voedingsstoffen op in het bloed: dat is de absorptie.",
+  "Het hart heeft twee boezems en twee kamers; slagaders gaan weg van het hart, aders ernaartoe.",
+  "Bloed bestaat uit plasma, rode bloedcellen, witte bloedcellen en bloedplaatjes.",
+  "Celademhaling: glucose + zuurstofgas → koolstofdioxide + water + energie, in elke cel."
+ ]
+}

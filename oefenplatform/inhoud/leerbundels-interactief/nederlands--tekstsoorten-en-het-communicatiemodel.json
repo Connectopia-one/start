@@ -1,0 +1,77 @@
+{
+ "vak": "Nederlands",
+ "titel": "Tekstsoorten en het communicatiemodel",
+ "onder": "Welke soorten teksten er zijn, wat ze willen bereiken, en hoe je dat aan de zender ziet.",
+ "secties": [
+  {
+   "kop": "Zes soorten teksten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Elke tekst heeft een <strong>doel</strong>: wat de zender ermee wil bereiken. De vakfiche onderscheidt zes soorten lees- en luisterteksten."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort tekst</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeelden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">informeren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een krantenartikel, een stukje uit een leerboek, een interview, een reportage</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">overtuigen of beïnvloeden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een reclamefilmpje, een folder van een politieke partij, een campagne tegen te snel rijden, propaganda, fake news, een publireportage</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een mening geven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een recensie, een hotelbeoordeling, een reactie op een forum, een productreview, een protestlied</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">instructies geven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een handleiding, een recept, een bijsluiter, een instructiefilmpje, een schoolreglement, veiligheidsvoorschriften</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een verhaal vertellen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een videoblog, een reisverslag, een podcast, een verhalend gedicht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">literaire teksten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een jeugdboek, een kortverhaal, een strip, een gedicht, een lied, stand-upcomedy</td></tr></table>",
+     "onderschrift": "Een literaire tekst heeft een esthetische waarde en speelt vaak in op je gevoel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Let op de valkuilen. Een stukje uit een leerboek is een <strong>informatieve tekst</strong> en geen <strong>instructieve tekst</strong>: het informeert, het geeft je geen instructies. Een <strong>interview</strong> bestaat uit vragen en antwoorden, maar is óók een informatieve tekst. Een <strong>protestlied</strong> brengt een standpunt én is literair. En één tekst kan meer dan één doel hebben: een publireportage informeert en verkoopt tegelijk, en een <strong>zoekertje</strong> voor je oude gsm geeft informatie én wil iemand overtuigen om te kopen."
+    }
+   ]
+  },
+  {
+   "kop": "Het communicatiemodel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij elke lees-, luister- en schrijfopdracht pas je het <strong>communicatiemodel</strong> toe. Het heeft zes delen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 186\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"6\" y=\"6\" width=\"458\" height=\"140\" rx=\"14\" fill=\"none\" stroke=\"#e4ded0\" stroke-width=\"1.6\" stroke-dasharray=\"6 5\"/><text x=\"20.0\" y=\"26.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">context: de situatie waarin je communiceert</text><rect x=\"26\" y=\"52\" width=\"110\" height=\"46\" rx=\"10\" fill=\"#2f5d5018\" stroke=\"#2f5d50\" stroke-width=\"1.7\"/><text x=\"81.0\" y=\"74.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">zender</text><text x=\"81.0\" y=\"90.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">wie stuurt</text><rect x=\"180\" y=\"52\" width=\"110\" height=\"46\" rx=\"10\" fill=\"#c17f2b18\" stroke=\"#c17f2b\" stroke-width=\"1.7\"/><text x=\"235.0\" y=\"74.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">boodschap</text><text x=\"235.0\" y=\"90.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">wat je zegt</text><rect x=\"334\" y=\"52\" width=\"110\" height=\"46\" rx=\"10\" fill=\"#2f5d5018\" stroke=\"#2f5d50\" stroke-width=\"1.7\"/><text x=\"389.0\" y=\"74.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">ontvanger</text><text x=\"389.0\" y=\"90.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">voor wie</text><line x1=\"140\" y1=\"75\" x2=\"170\" y2=\"75\" stroke=\"#6b7260\" stroke-width=\"1.8\"/><polygon points=\"176,75 168,70.5 168,79.5\" fill=\"#6b7260\"/><text x=\"158.0\" y=\"64.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">kanaal</text><line x1=\"294\" y1=\"75\" x2=\"324\" y2=\"75\" stroke=\"#6b7260\" stroke-width=\"1.8\"/><polygon points=\"330,75 322,70.5 322,79.5\" fill=\"#6b7260\"/><text x=\"312.0\" y=\"64.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">kanaal</text><text x=\"235.0\" y=\"120.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">kanaal: mail, app, blog, telefoon, gesprek</text><rect x=\"120\" y=\"152\" width=\"230\" height=\"28\" rx=\"9\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"171.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#c17f2b\">doel: waarom stuur je die boodschap?</text></svg>",
+     "onderschrift": "Zender, boodschap, ontvanger, kanaal, context en doel."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">deel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zender</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie de boodschap verstuurt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jij, een redactie, een bedrijf</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">boodschap</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat de zender precies wil zeggen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">'ik ben tien minuten te laat'</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ontvanger</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voor wie de tekst bedoeld is</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je leerkracht, de bestuurders</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kanaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de weg waarlangs de boodschap gaat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een mail, een blog, een telefoongesprek, een app</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">context</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de situatie waarin je communiceert</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je bus is te laat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">doel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat de zender wil bereiken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">informeren, overtuigen, instrueren, vertellen</td></tr></table>",
+     "onderschrift": "Je vriendin is de ontvanger, niet het kanaal. Dat verschil wordt vaak verward."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Eén situatie, twee berichten.</strong> Je bus is te laat (context). Je belt (kanaal) je leerkracht (ontvanger) beleefd op om te laten weten dat je tien minuten te laat bent (boodschap). Je doel is informeren, niet overtuigen. Naar je beste vriendin stuur je over diezelfde bus een appje vol geïrriteerde emoji's: dezelfde boodschap, een andere ontvanger en dus een ander register."
+    }
+   ]
+  },
+  {
+   "kop": "De zender verraadt het doel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Wil je weten wat een tekst echt wil, kijk dan wie hem maakte. Is de zender een redactie, dan is het doel informeren. Is de zender de verkoper, dan is het doel verkopen, hoe informatief de tekst er ook uitziet. Een influencer die betaald wordt om een crème aan te prijzen, maakt <strong>reclame</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ook de vorm helpt. Aanhef en ondertekening verraden zender en ontvanger: 'Beste ouders' met 'Met vriendelijke groeten, de directie' eronder is een schoolbrief. En de opbouw verraadt de soort: genummerde stappen wijzen op een instructie, argumenten op overtuigen, gebeurtenissen op een verhaal."
+    },
+    {
+     "soort": "tekst",
+     "html": "Weten met welke tekstsoort je te maken hebt, is geen etiket plakken. Het zegt je waarop je moet letten: bij een overtuigende tekst op argumenten en eenzijdigheid, bij een instructie op de volgorde van de stappen."
+    },
+    {
+     "soort": "weetje",
+     "html": "Het kanaal verandert de vorm van je boodschap. Dezelfde inhoud schrijf je anders in een mail dan in een appbericht. Een mail aan de gemeente over een kapot voetpad is formeel, met 'u' en een nette slotgroet."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Zes tekstsoorten: informeren, overtuigen, een mening geven, instrueren, vertellen, literair.",
+  "Het communicatiemodel: zender, boodschap, ontvanger, kanaal, context en doel.",
+  "Het kanaal is het middel (mail, app, telefoon); de ontvanger is de persoon.",
+  "Kijk naar de zender om het doel te vinden: een verkoper wil verkopen.",
+  "Eén tekst kan meer dan één doel hebben, zoals een publireportage.",
+  "De opbouw verraadt de tekstsoort: stappen, argumenten of gebeurtenissen."
+ ]
+}

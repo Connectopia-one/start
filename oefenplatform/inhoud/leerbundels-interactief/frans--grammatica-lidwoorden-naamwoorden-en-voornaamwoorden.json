@@ -1,0 +1,133 @@
+{
+ "vak": "Frans",
+ "titel": "Grammatica: lidwoorden, naamwoorden en voornaamwoorden",
+ "onder": "Le, la, les, du, mon, ce en lui: de kleine woordjes waar alles van afhangt.",
+ "secties": [
+  {
+   "kop": "Elk naamwoord heeft een geslacht",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In het Frans is elk <strong>zelfstandig naamwoord</strong> (un <em>substantif</em>) <strong>mannelijk</strong> (<em>masculin</em>) of <strong>vrouwelijk</strong> (<em>féminin</em>), en dat moet je meeleren met het woord. Het bepaalt het <strong>lidwoord</strong> én de vorm van het <strong>bijvoeglijk naamwoord</strong>: <em>un petit livre</em> tegenover <em>une petite table</em>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort lidwoord (article)</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">mannelijk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vrouwelijk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">meervoud</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bepaald (défini) — de, het</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le livre</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la table</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">les livres</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onbepaald (indéfini) — een</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un livre</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une table</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">des livres</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">deelaanduidend (partitif) — een deel van</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">du pain</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de la soupe</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">des légumes</td></tr></table>",
+     "onderschrift": "La table is de tafel, le livre het boek. Voor een klinker wordt le of la gewoon l': l'école, l'eau."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>deelaanduidend</strong> lidwoord gebruik je voor een onbepaalde hoeveelheid: <em>je bois de l'eau</em> (ik drink water), <em>je mange du pain</em>. 'Je bois l'eau' zou over één bepaald glas water gaan."
+    },
+    {
+     "soort": "kader",
+     "html": "In het Nederlands zeg je gewoon 'boeken'; in het Frans <strong>moet</strong> daar <em>des livres</em> staan. Dat lidwoord vergeten is een van de meestgemaakte fouten."
+    },
+    {
+     "soort": "tekst",
+     "html": "Enkelvoud heet in het Frans <em>singulier</em>, meervoud <em>pluriel</em>. Het <strong>meervoud</strong> krijgt een -s, maar die hoor je meestal niet: <em>livre</em> en <em>livres</em> klinken hetzelfde. Je hoort het meervoud aan het lidwoord: <em>le</em> tegenover <em>les</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Samengetrokken lidwoorden (articles contractés)",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 74\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"4.0\" y=\"4\" width=\"109.5\" height=\"62\" rx=\"9\" fill=\"#2f5d5022\" stroke=\"#2f5d50\" stroke-width=\"1.7\"/><text x=\"58.8\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">à + le</text><text x=\"58.8\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">au</text><rect x=\"121.5\" y=\"4\" width=\"109.5\" height=\"62\" rx=\"9\" fill=\"#2f5d5022\" stroke=\"#2f5d50\" stroke-width=\"1.7\"/><text x=\"176.2\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">à + les</text><text x=\"176.2\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">aux</text><rect x=\"239.0\" y=\"4\" width=\"109.5\" height=\"62\" rx=\"9\" fill=\"#c17f2b22\" stroke=\"#c17f2b\" stroke-width=\"1.7\"/><text x=\"293.8\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">de + le</text><text x=\"293.8\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">du</text><rect x=\"356.5\" y=\"4\" width=\"109.5\" height=\"62\" rx=\"9\" fill=\"#c17f2b22\" stroke=\"#c17f2b\" stroke-width=\"1.7\"/><text x=\"411.2\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">de + les</text><text x=\"411.2\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">des</text></svg>",
+     "onderschrift": "Bij la en l' verandert er niets: à la gare, de la soupe, de l'eau."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom is het <em>j'ai mal <strong>au</strong> ventre</em> en <em>j'ai mal <strong>aux</strong> dents</em>. 'De le' en 'à le' bestaan niet."
+    }
+   ]
+  },
+  {
+   "kop": "Wanneer het lidwoord 'de' wordt",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">situatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">na een hoeveelheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beaucoup <strong>de</strong> travail, un litre <strong>de</strong> lait, un kilo <strong>de</strong> pommes</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">na een ontkenning</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je n'ai pas <strong>de</strong> frère. Je ne bois pas <strong>de</strong> lait. Je ne mange plus <strong>de</strong> viande.</td></tr></table>",
+     "onderschrift": "Je bois du lait wordt je ne bois pas de lait: un, une, du, de la en des worden allemaal 'de'."
+    }
+   ]
+  },
+  {
+   "kop": "Déterminants: mijn, deze, welke",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vormen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bezittelijk (possessif)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mon, ma, mes / ton, ta, tes / son, sa, ses</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mon livre, mes parents, ma sœur s'appelle Léa (mijn zus heet Léa)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aanwijzend (démonstratif)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ce, cet, cette, ces</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ce livre (dit boek), cette table, ces enfants</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vragend (interrogatif)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">quel, quelle, quels, quelles</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Quel livre ? Quelle heure est-il ?</td></tr></table>",
+     "onderschrift": "Sœur is vrouwelijk enkelvoud, dus ma sœur; heure is vrouwelijk, dus quelle heure."
+    },
+    {
+     "soort": "weetje",
+     "html": "Begint een vrouwelijk woord met een klinker, dan schrijf je toch <em>mon</em>: <em>mon amie</em>, <em>mon école</em>. Dat is alleen voor de klank. Staat er een bijvoeglijk naamwoord tussen dat met een medeklinker begint, dan is het weer <em>ma</em>: <em>ma meilleure amie</em>."
+    }
+   ]
+  },
+  {
+   "kop": "De bijvoeglijke naamwoorden (adjectifs)",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Ze passen zich aan in <strong>geslacht</strong> en <strong>getal</strong>: <em>une robe verte</em> (een groene jurk), <em>des robes vertes</em>, <em>un pull vert</em>, <em>des pulls verts</em>. En anders dan in het Nederlands staan ze <strong>achter</strong> het naamwoord: <em>une voiture rouge</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een kleine groep korte, veelgebruikte woorden staat wél <strong>vóór</strong> het naamwoord: <em>petit</em>, <em>grand</em>, <em>jeune</em>, <em>beau</em>, <em>bon</em> — <em>un petit garçon</em>, <em>une grande maison</em>, <em>un jeune homme</em>. Kleuren staan altijd achteraan."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">trap</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vergrotende trap (comparatif)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">plus … que / moins … que</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Il est plus grand que moi. (groter dan ik)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">overtreffende trap (superlatif)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le / la / les plus …</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C'est le plus grand de la classe.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onregelmatig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bon → meilleur → le meilleur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C'est ma meilleure amie. (mijn beste vriendin)</td></tr></table>",
+     "onderschrift": "'Plus bon' bestaat niet: dat is meilleur. Let op de vorm: les belles maisons, les beaux livres."
+    }
+   ]
+  },
+  {
+   "kop": "De telwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De fiche vraagt de frequente <strong>hoofdtelwoorden</strong> (<em>nombres cardinaux</em>: quinze, quatre-vingts, cent) en <strong>rangtelwoorden</strong> (<em>nombres ordinaux</em>): <em>premier</em> (de eerste), <em>deuxième</em> (de tweede), <em>troisième</em> (de derde), <em>dernier</em> (de laatste). <em>La deuxième fois</em> is 'de tweede keer'; <em>deux fois</em> zou 'twee keer' betekenen. De getallen zelf staan in de bundel over getallen, tijd en weer."
+    }
+   ]
+  },
+  {
+   "kop": "De voornaamwoorden (pronoms)",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>persoonlijk voornaamwoord</strong> heet in het Frans een <em>pronom personnel</em>. Het kan onderwerp zijn, lijdend voorwerp of meewerkend voorwerp, en elk van die drie heeft zijn eigen rijtje."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vormen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onderwerp (sujet)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je, tu, il, elle, nous, vous, ils, elles</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Nous regardons la télé.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lijdend voorwerp (COD)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">me, te, le, la, nous, vous, les</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je vois Marie → Je <strong>la</strong> vois.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meewerkend voorwerp (COI)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">me, te, lui, nous, vous, leur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je parle à Paul → Je <strong>lui</strong> parle.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wederkerend (réfléchi)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">me, te, se, nous, vous, se</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je <strong>me</strong> lave les mains. (ik was mijn handen)</td></tr></table>",
+     "onderschrift": "Staat er 'à' voor de persoon, dan is het een COI: lui of leur."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 168\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"24.0\" y=\"50.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#6b7260\">Nederlands</text><rect x=\"128\" y=\"26\" width=\"100\" height=\"40\" rx=\"9\" fill=\"#6b726018\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"178.0\" y=\"52.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#234539\">ik</text><rect x=\"240\" y=\"26\" width=\"100\" height=\"40\" rx=\"9\" fill=\"#23453918\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"290.0\" y=\"52.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#234539\">zie</text><rect x=\"352\" y=\"26\" width=\"100\" height=\"40\" rx=\"9\" fill=\"#c17f2b18\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"402.0\" y=\"52.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#234539\">haar</text><text x=\"24.0\" y=\"124.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#2f5d50\">Frans</text><rect x=\"128\" y=\"100\" width=\"100\" height=\"40\" rx=\"9\" fill=\"#6b726018\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"178.0\" y=\"126.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#234539\">je</text><rect x=\"240\" y=\"100\" width=\"100\" height=\"40\" rx=\"9\" fill=\"#c17f2b18\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"290.0\" y=\"126.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#234539\">la</text><rect x=\"352\" y=\"100\" width=\"100\" height=\"40\" rx=\"9\" fill=\"#23453918\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"402.0\" y=\"126.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#234539\">vois</text><text x=\"235.0\" y=\"158.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">Het voorwerp staat in het Frans vóór het werkwoord, in het Nederlands erachter.</text></svg>",
+     "onderschrift": "In het Frans staat het voorwerp vóór het werkwoord: je la vois, je te parle, il nous aide."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>wederkerend werkwoord</strong> (<em>verbe pronominal</em>) verwijst het voornaamwoord naar het onderwerp zelf: <em>je me lève</em>, <em>tu te couches</em>, <em>elle s'habille</em>. Bij <em>je te vois</em> gaat het net om iemand anders."
+    },
+    {
+     "soort": "tekst",
+     "html": "En je moet altijd <strong>weten waarnaar een voornaamwoord verwijst</strong>. Dat staat zo in de vakfiche: anders begrijp je de samenhang tussen de zinnen niet, en dus de tekst niet."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "le / la / les — un / une / des — du / de la / des.",
+  "à + le = au, à + les = aux, de + le = du, de + les = des.",
+  "Na een hoeveelheid en na een ontkenning: alleen 'de'.",
+  "mon, ma, mes / ce, cette, ces / quel, quelle.",
+  "Bijvoeglijke naamwoorden staan meestal achter het naamwoord en passen zich aan.",
+  "Het voorwerp staat vóór het werkwoord: je la vois, je lui parle."
+ ]
+}

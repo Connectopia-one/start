@@ -1,0 +1,147 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Voortplanting",
+ "onder": "Hoe planten, dieren en mensen voor nakomelingen zorgen.",
+ "secties": [
+  {
+   "kop": "Aseksueel of seksueel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>aseksuele</strong> of ongeslachtelijke voortplanting is er maar <strong>één ouder</strong>: die maakt in feite een kopie van zichzelf. Bij <strong>seksuele</strong> of geslachtelijke voortplanting versmelten er twee <strong>geslachtscellen</strong> — een <strong>eicel</strong> en een <strong>zaadcel</strong> — en komt er dus erfelijk materiaal van twee kanten."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">aseksueel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">seksueel</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ouders</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee (of twee geslachtscellen)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nakomelingen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">erfelijk identiek aan de ouder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">allemaal verschillend</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voordeel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">snel, veel, geen partner nodig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">variatie: de soort past zich makkelijker aan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nadeel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één ziekte kan ze allemaal treffen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">trager, en je hebt een partner nodig</td></tr></table>",
+     "onderschrift": "Daarom houden kwekers een ras zuiver met stekken, en overleeft een soort in de natuur net dankzij de variatie."
+    },
+    {
+     "soort": "weetje",
+     "html": "Bij <strong>maagdelijke voortplanting</strong> groeit er uit een onbevruchte eicel tóch een nieuw individu. Bladluizen en sommige hagedissen doen dat. Het is een vorm van aseksuele voortplanting: er komt geen zaadcel aan te pas."
+    }
+   ]
+  },
+  {
+   "kop": "Planten zonder zaad",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Planten hebben een hele reeks manieren om zich ongeslachtelijk voort te planten: <strong>stekken</strong>, <strong>enten</strong>, <strong>oculeren</strong>, <strong>scheuren</strong>, <strong>uitlopers</strong>, <strong>bollen</strong> en <strong>knollen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>stekken</strong> snijd je een stukje stengel of blad af en laat je het wortelen: daaruit groeit een volledige nieuwe plant, erfelijk identiek aan de moederplant. Bij <strong>enten</strong> laat je een twijg van een goede soort vergroeien met de stam van een andere; fruittelers doen dat om elk jaar dezelfde appels te oogsten. Een tulp komt elk jaar terug uit haar <strong>bol</strong>, een aardappel uit haar <strong>knol</strong>: ondergrondse voorraadkasten."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ook dieren kunnen het. Bij <strong>knopvorming</strong>, zoals bij gist, ontstaat er een uitstulping aan de cel die als nieuw individu loskomt."
+    }
+   ]
+  },
+  {
+   "kop": "De bloem: seksuele voortplanting bij planten",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 224\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M235.0 196 V96\" stroke=\"#2f5d50\" stroke-width=\"4\" stroke-linecap=\"round\"/><path d=\"M211.0 150 q-70 -26 -86 -74 q54 6 86 44 Z\" fill=\"rgba(240,195,60,.35)\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><path d=\"M259.0 150 q70 -26 86 -74 q-54 6 -86 44 Z\" fill=\"rgba(240,195,60,.35)\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><path d=\"M235.0 150 V66\" stroke=\"#7a5b8f\" stroke-width=\"3.2\"/><ellipse cx=\"235.0\" cy=\"60\" rx=\"17\" ry=\"8\" fill=\"rgba(122,91,143,.35)\" stroke=\"#7a5b8f\" stroke-width=\"1.8\"/><ellipse cx=\"235.0\" cy=\"158\" rx=\"24\" ry=\"18\" fill=\"rgba(122,91,143,.20)\" stroke=\"#7a5b8f\" stroke-width=\"1.8\"/><circle cx=\"227.0\" cy=\"158\" r=\"4.2\" fill=\"#7a5b8f\" opacity=\"0.75\"/><circle cx=\"243.0\" cy=\"158\" r=\"4.2\" fill=\"#7a5b8f\" opacity=\"0.75\"/><path d=\"M225.0 150 Q189.0 120 189.0 84\" stroke=\"#c17f2b\" stroke-width=\"2.6\" fill=\"none\"/><ellipse cx=\"189.0\" cy=\"78\" rx=\"11\" ry=\"7\" fill=\"rgba(193,127,43,.45)\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><path d=\"M245.0 150 Q281.0 120 281.0 84\" stroke=\"#c17f2b\" stroke-width=\"2.6\" fill=\"none\"/><ellipse cx=\"281.0\" cy=\"78\" rx=\"11\" ry=\"7\" fill=\"rgba(193,127,43,.45)\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><rect x=\"259.0\" y=\"46.5\" width=\"46.6\" height=\"16.5\" rx=\"4\" fill=\"#ffffff\" opacity=\"0.88\"/><text x=\"259.0\" y=\"56.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#7a5b8f\">stempel</text><rect x=\"249.0\" y=\"96.5\" width=\"36.1\" height=\"16.5\" rx=\"4\" fill=\"#ffffff\" opacity=\"0.88\"/><text x=\"249.0\" y=\"106.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#7a5b8f\">stijl</text><rect x=\"265.0\" y=\"166.5\" width=\"177.2\" height=\"16.5\" rx=\"4\" fill=\"#ffffff\" opacity=\"0.88\"/><text x=\"265.0\" y=\"176.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#7a5b8f\">vruchtbeginsel met zaadbeginsels</text><rect x=\"123.2\" y=\"60.5\" width=\"51.8\" height=\"16.5\" rx=\"4\" fill=\"#ffffff\" opacity=\"0.88\"/><text x=\"175.0\" y=\"70.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#c17f2b\">helmknop</text><rect x=\"120.0\" y=\"112.5\" width=\"57.0\" height=\"16.5\" rx=\"4\" fill=\"#ffffff\" opacity=\"0.88\"/><text x=\"177.0\" y=\"122.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#c17f2b\">helmdraad</text><rect x=\"249.0\" y=\"198.5\" width=\"46.6\" height=\"16.5\" rx=\"4\" fill=\"#ffffff\" opacity=\"0.88\"/><text x=\"249.0\" y=\"208.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#2f5d50\">stengel</text></svg>",
+     "onderschrift": "Stempel, stijl en vruchtbeginsel vormen samen de stamper (vrouwelijk). Helmdraad en helmknop vormen de meeldraad (mannelijk)."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>meeldraad</strong> bestaat uit een <strong>helmdraad</strong> met bovenaan een <strong>helmknop</strong>, waarin het stuifmeel zit. De <strong>stamper</strong> heeft bovenaan een kleverige <strong>stempel</strong>, daaronder de <strong>stijl</strong> en onderaan het <strong>vruchtbeginsel</strong> met de <strong>zaadbeginsels</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Komt er stuifmeel op de stempel terecht, dan heet dat <strong>bestuiving</strong>. Pas daarna kan de <strong>bevruchting</strong> volgen: de zaadcel raakt tot bij de eicel in het zaadbeginsel en de twee versmelten tot één bevruchte eicel. Daaruit groeit een zaadje met een <strong>kiemplant</strong>je en een voorraad voedsel erin. Bij genoeg water en warmte kiemt dat en groeit er een nieuwe plant."
+    },
+    {
+     "soort": "kader",
+     "html": "Waarom heeft gras geen opvallende bloemen? Omdat het <strong>windbestuivend</strong> is: het moet geen insecten lokken met kleur, geur en nectar, en maakt in de plaats daarvan enorm veel licht stuifmeel — waar hooikoortspatiënten last van hebben."
+    }
+   ]
+  },
+  {
+   "kop": "Het voortplantingsstelsel van de mens",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">mannelijk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vrouwelijk</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">teelballen: maken de zaadcellen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eierstokken: hierin rijpen de eicellen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bijballen: de zaadcellen rijpen er verder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eileiders met eitrechters: vangen de eicel op</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zaadleiders: brengen ze naar de urinebuis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">baarmoeder en baarmoederhals</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">prostaat en zaadblaasjes: maken het vocht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vagina</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">penis met eikel, voorhuid en zwellichamen; balzak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">clitoris en schaamlippen</td></tr></table>",
+     "onderschrift": "Sperma is het mengsel van zaadcellen en het vocht van de prostaat en de zaadblaasjes; dat vocht voedt en beschermt de zaadcellen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>primaire geslachtskenmerken</strong> zijn de geslachtsorganen zelf, waarmee je geboren wordt. De <strong>secundaire geslachtskenmerken</strong> komen er in de puberteit bij, door de <strong>geslachtshormonen</strong>: schaamhaar, een zwaardere stem, bredere heupen, borstontwikkeling. De hormonen zijn <strong>oestrogeen</strong>, <strong>progesteron</strong> en <strong>testosteron</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De menstruatiecyclus",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 168\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"30\" y=\"78\" width=\"420.0\" height=\"30\" rx=\"8\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><rect x=\"30\" y=\"78\" width=\"75.0\" height=\"30\" rx=\"8\" fill=\"rgba(192,57,43,.28)\" stroke=\"#c0392b\" stroke-width=\"1.4\"/><rect x=\"195.0\" y=\"78\" width=\"75.0\" height=\"30\" fill=\"rgba(240,195,60,.35)\" stroke=\"#c17f2b\" stroke-width=\"1.4\"/><line x1=\"240.0\" y1=\"62\" x2=\"240.0\" y2=\"116\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><line x1=\"45.0\" y1=\"108\" x2=\"45.0\" y2=\"114\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"45.0\" y=\"128.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">dag 1</text><line x1=\"135.0\" y1=\"108\" x2=\"135.0\" y2=\"114\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"135.0\" y=\"128.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">dag 7</text><line x1=\"240.0\" y1=\"108\" x2=\"240.0\" y2=\"114\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"240.0\" y=\"128.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">dag 14</text><line x1=\"345.0\" y1=\"108\" x2=\"345.0\" y2=\"114\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"345.0\" y=\"128.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">dag 21</text><line x1=\"450.0\" y1=\"108\" x2=\"450.0\" y2=\"114\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"450.0\" y=\"128.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">dag 28</text><rect x=\"33.8\" y=\"44.5\" width=\"67.5\" height=\"16.5\" rx=\"4\" fill=\"#ffffff\" opacity=\"0.88\"/><text x=\"67.5\" y=\"54.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#c0392b\">menstruatie</text><rect x=\"214.1\" y=\"42.5\" width=\"51.8\" height=\"16.5\" rx=\"4\" fill=\"#ffffff\" opacity=\"0.88\"/><text x=\"240.0\" y=\"52.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#2f5d50\">eisprong</text><rect x=\"180.5\" y=\"94.5\" width=\"104.1\" height=\"16.5\" rx=\"4\" fill=\"#ffffff\" opacity=\"0.88\"/><text x=\"232.5\" y=\"104.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#c17f2b\">vruchtbare periode</text><rect x=\"323.0\" y=\"44.5\" width=\"104.1\" height=\"16.5\" rx=\"4\" fill=\"#ffffff\" opacity=\"0.88\"/><text x=\"375.0\" y=\"54.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#7a5b8f\">slijmvlies verdikt</text><text x=\"235.0\" y=\"150.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">Gemiddeld 28 dagen, maar 21 tot 35 dagen is normaal. Dag 1 is de eerste dag van de menstruatie.</text></svg>",
+     "onderschrift": "Eén cyclus, met de vier gebeurtenissen die je moet kunnen benoemen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een cyclus duurt gemiddeld 28 dagen. De vier gebeurtenissen die je moet kunnen benoemen zijn de <strong>eicelrijping</strong>, de <strong>verdikking</strong> van het baarmoederslijmvlies, de <strong>eisprong</strong> en de <strong>menstruatie</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Tijdens een cyclus <strong>rijpt</strong> er een eicel in een eierstok en <strong>verdikt</strong> het <strong>baarmoederslijmvlies</strong>, zodat het een bevruchte eicel kan opvangen. Rond dag 14 volgt de <strong>eisprong</strong>: de rijpe eicel komt vrij en wordt door de eitrechter opgevangen. Komt er geen bevruchting, dan wordt het slijmvlies afgestoten: dat is de <strong>menstruatie</strong>, meteen dag 1 van een nieuwe cyclus."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>vruchtbare periode</strong> ligt rond de eisprong. Zaadcellen kunnen enkele dagen overleven en de eicel ongeveer één dag, dus ze loopt van een paar dagen vóór tot een dag na de eisprong."
+    }
+   ]
+  },
+  {
+   "kop": "Van eisprong tot geboorte",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"56.7\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"28.3\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">eisprong</text><path d=\"M61.666666666666664 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"82.7\" y=\"6\" width=\"56.7\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"111.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">geslachts-</text><text x=\"111.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">gemeenschap</text><path d=\"M144.33333333333331 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"165.3\" y=\"6\" width=\"56.7\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"193.7\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">bevruchting</text><path d=\"M226.99999999999997 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"248.0\" y=\"6\" width=\"56.7\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"276.3\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">innesteling</text><path d=\"M309.66666666666663 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"330.7\" y=\"6\" width=\"56.7\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"359.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">zwanger-</text><text x=\"359.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">schap</text><path d=\"M392.3333333333333 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"413.3\" y=\"6\" width=\"56.7\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"441.7\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">geboorte</text></svg>",
+     "onderschrift": "De fasen van de voortplanting in chronologische volgorde. Bij de geslachtsgemeenschap hoort de zaadlozing."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>bevruchting</strong> gebeurt meestal in de <strong>eileider</strong>: de zaadcellen zwemmen door de baarmoeder tot daar en één ervan versmelt met de eicel. De <strong>bevruchte eicel</strong> reist naar de baarmoeder en nestelt zich in het baarmoederslijmvlies: de <strong>innesteling</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daar, in de <strong>baarmoeder</strong>, groeit ze tijdens de <strong>zwangerschap</strong> verder uit tot een baby. Ze deelt zich eerst tot een <strong>embryo</strong>. Vanaf ongeveer acht weken spreken we van een <strong>foetus</strong>, en na ongeveer negen maanden volgt de geboorte van de <strong>baby</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Voorbehoedsmiddelen en soa's",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Hormonale</strong> voorbehoedsmiddelen zijn de <strong>anticonceptiepil</strong>, de <strong>anticonceptiepleister</strong>, de <strong>vaginale ring</strong>, de <strong>prikpil</strong>, het <strong>hormonenstaafje</strong> en het <strong>hormonenspiraaltje</strong>. De hormonen houden de eisprong tegen — zonder eicel is er niets te bevruchten — en maken het slijm in de baarmoederhals dikker, zodat zaadcellen moeilijker passeren."
+    },
+    {
+     "soort": "tekst",
+     "html": "Niet-hormonaal zijn het <strong>koperspiraaltje</strong>, het <strong>condoom</strong> en het <strong>vrouwencondoom</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "Alleen een condoom of een vrouwencondoom beschermt óók tegen <strong>soa's</strong>, want alleen die houden lichaamsvochten tegen. Hormonale middelen en spiraaltjes voorkomen enkel een zwangerschap. Soa's geef je door bij seksueel contact, en veel soa's geven in het begin geen enkele klacht — je ziet dus niet aan iemand of die er een heeft."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een condoom gebruik je <strong>één keer</strong> en gooi je daarna weg. Hergebruik maakt het onbetrouwbaar, zowel tegen zwangerschap als tegen soa's."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Aseksueel: één ouder, identieke nakomelingen. Seksueel: twee geslachtscellen, variatie.",
+  "Stekken, enten, uitlopers, bollen en knollen zijn aseksueel; zaad ontstaat seksueel.",
+  "Meeldraad = helmdraad + helmknop (mannelijk). Stamper = stempel + stijl + vruchtbeginsel.",
+  "Bestuiving is stuifmeel op de stempel; bevruchting is het versmelten van zaadcel en eicel.",
+  "Volgorde: eisprong, bevruchting in de eileider, innesteling, zwangerschap, geboorte.",
+  "Alleen een condoom beschermt ook tegen soa's."
+ ]
+}

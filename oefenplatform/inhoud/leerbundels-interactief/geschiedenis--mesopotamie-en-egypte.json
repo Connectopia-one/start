@@ -1,0 +1,193 @@
+{
+ "vak": "Geschiedenis",
+ "titel": "Mesopotamië en Egypte",
+ "onder": "De eerste steden, het eerste schrift en de eerste staten — allebei aan een rivier.",
+ "secties": [
+  {
+   "kop": "Twee rijken aan een rivier",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Rond 3300 v.C. ontstaan er twee samenlevingen die alles veranderen. Allebei liggen ze in een droog gebied, en allebei danken ze hun bestaan aan een rivier."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Mesopotamië</strong> betekent letterlijk <em>land tussen de rivieren</em>: het ligt tussen de <strong>Tigris</strong> en de <strong>Eufraat</strong>, in wat vandaag grotendeels Irak is. <strong>Egypte</strong> ligt in een smalle strook langs de <strong>Nijl</strong>; daarbuiten is het woestijn."
+    },
+    {
+     "soort": "kader",
+     "html": "Deze periode heet het <strong>oude nabije oosten</strong>. Ze begint bij de uitvinding van het schrift rond 3300 v.C. — precies daarom eindigt de prehistorie daar. Vanaf nu zijn er geschreven bronnen."
+    }
+   ]
+  },
+  {
+   "kop": "Water, en wat je ervoor moet organiseren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In een droog land regent het te weinig om te boeren. De oplossing is <strong>irrigatielandbouw</strong>: je leidt rivierwater via kanalen en dijken naar je akkers. In Egypte hielp de Nijl daarbij nog extra, want die overstroomde elk jaar en liet een laag vruchtbaar slib achter."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 176\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"16\" width=\"470\" height=\"26\" fill=\"#5b93b8\" opacity=\"0.75\"/><text x=\"12\" y=\"33\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#ffffff\">de rivier</text><rect x=\"40\" y=\"92\" width=\"390\" height=\"9\" fill=\"#5b93b8\" opacity=\"0.6\"/><text x=\"145.7\" y=\"86\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">hoofdkanaal</text><rect x=\"74.0\" y=\"42\" width=\"8\" height=\"50\" fill=\"#5b93b8\" opacity=\"0.6\"/><rect x=\"231.0\" y=\"42\" width=\"8\" height=\"50\" fill=\"#5b93b8\" opacity=\"0.6\"/><rect x=\"388.0\" y=\"42\" width=\"8\" height=\"50\" fill=\"#5b93b8\" opacity=\"0.6\"/><rect x=\"48.0\" y=\"114\" width=\"81.5\" height=\"34\" rx=\"3\" fill=\"#dfeada\" stroke=\"#7ba368\" stroke-width=\"1.2\"/><rect x=\"85.8\" y=\"101\" width=\"6\" height=\"13\" fill=\"#5b93b8\" opacity=\"0.6\"/><line x1=\"55.0\" y1=\"121\" x2=\"55.0\" y2=\"141\" stroke=\"#7ba368\" stroke-width=\"1.5\"/><line x1=\"77.5\" y1=\"121\" x2=\"77.5\" y2=\"141\" stroke=\"#7ba368\" stroke-width=\"1.5\"/><line x1=\"100.0\" y1=\"121\" x2=\"100.0\" y2=\"141\" stroke=\"#7ba368\" stroke-width=\"1.5\"/><line x1=\"122.5\" y1=\"121\" x2=\"122.5\" y2=\"141\" stroke=\"#7ba368\" stroke-width=\"1.5\"/><rect x=\"145.5\" y=\"114\" width=\"81.5\" height=\"34\" rx=\"3\" fill=\"#dfeada\" stroke=\"#7ba368\" stroke-width=\"1.2\"/><rect x=\"183.2\" y=\"101\" width=\"6\" height=\"13\" fill=\"#5b93b8\" opacity=\"0.6\"/><line x1=\"152.5\" y1=\"121\" x2=\"152.5\" y2=\"141\" stroke=\"#7ba368\" stroke-width=\"1.5\"/><line x1=\"175.0\" y1=\"121\" x2=\"175.0\" y2=\"141\" stroke=\"#7ba368\" stroke-width=\"1.5\"/><line x1=\"197.5\" y1=\"121\" x2=\"197.5\" y2=\"141\" stroke=\"#7ba368\" stroke-width=\"1.5\"/><line x1=\"220.0\" y1=\"121\" x2=\"220.0\" y2=\"141\" stroke=\"#7ba368\" stroke-width=\"1.5\"/><rect x=\"243.0\" y=\"114\" width=\"81.5\" height=\"34\" rx=\"3\" fill=\"#dfeada\" stroke=\"#7ba368\" stroke-width=\"1.2\"/><rect x=\"280.8\" y=\"101\" width=\"6\" height=\"13\" fill=\"#5b93b8\" opacity=\"0.6\"/><line x1=\"250.0\" y1=\"121\" x2=\"250.0\" y2=\"141\" stroke=\"#7ba368\" stroke-width=\"1.5\"/><line x1=\"272.5\" y1=\"121\" x2=\"272.5\" y2=\"141\" stroke=\"#7ba368\" stroke-width=\"1.5\"/><line x1=\"295.0\" y1=\"121\" x2=\"295.0\" y2=\"141\" stroke=\"#7ba368\" stroke-width=\"1.5\"/><line x1=\"317.5\" y1=\"121\" x2=\"317.5\" y2=\"141\" stroke=\"#7ba368\" stroke-width=\"1.5\"/><rect x=\"340.5\" y=\"114\" width=\"81.5\" height=\"34\" rx=\"3\" fill=\"#dfeada\" stroke=\"#7ba368\" stroke-width=\"1.2\"/><rect x=\"378.2\" y=\"101\" width=\"6\" height=\"13\" fill=\"#5b93b8\" opacity=\"0.6\"/><line x1=\"347.5\" y1=\"121\" x2=\"347.5\" y2=\"141\" stroke=\"#7ba368\" stroke-width=\"1.5\"/><line x1=\"370.0\" y1=\"121\" x2=\"370.0\" y2=\"141\" stroke=\"#7ba368\" stroke-width=\"1.5\"/><line x1=\"392.5\" y1=\"121\" x2=\"392.5\" y2=\"141\" stroke=\"#7ba368\" stroke-width=\"1.5\"/><line x1=\"415.0\" y1=\"121\" x2=\"415.0\" y2=\"141\" stroke=\"#7ba368\" stroke-width=\"1.5\"/><text x=\"235.0\" y=\"164\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">graven, onderhouden en het water eerlijk verdelen: dat lukt alleen samen</text></svg>",
+     "onderschrift": "Een kanalenstelsel graven en onderhouden is geen werk voor één boer. Daar heb je veel mensen voor nodig, en afspraken."
+    },
+    {
+     "soort": "tekst",
+     "html": "En daar zit de kern van dit hoofdstuk. Wie het graafwerk organiseert, wie beslist welke akker eerst water krijgt en wie de voorraad bewaart, heeft <strong>macht</strong>. Uit de nood aan samenwerking groeit dus een <strong>bestuur</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Omdat een goed bevloeide akker veel meer opbrengt dan nodig, ontstaat er een <strong>overschot</strong>. Dat voedt mensen die zelf niet boeren: ambachtslieden, priesters, soldaten, ambtenaren. Die gaan samenwonen rond het bestuur, en zo groeit een stad."
+    }
+   ]
+  },
+  {
+   "kop": "De eerste steden en staten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In Mesopotamië ontstaan zo de eerste <strong>stadstaten</strong>: een stad met het land eromheen, met een eigen bestuur en een eigen god. Ur, Uruk en Babylon zijn de bekendste. Ze lagen niet onder één koning, maar voerden ook oorlog met elkaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "Egypte gaat een andere weg. Daar smelten de gebieden langs de Nijl samen tot één rijk onder één heerser: de <strong>farao</strong>. Eén rivier, één land."
+    },
+    {
+     "soort": "kader",
+     "html": "Een <strong>ambtenaar</strong> is iemand die in dienst van de heerser bestuurt: hij meet akkers op, int belastingen, houdt de voorraad bij. Zonder ambtenaren is een staat van deze omvang onmogelijk."
+    }
+   ]
+  },
+  {
+   "kop": "Het schrift",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Wie graan van honderden boeren moet bijhouden, kan dat niet onthouden. Daarom wordt het schrift uitgevonden: niet om verhalen te bewaren, maar om <strong>te tellen en te boekhouden</strong>. De oudste kleitabletten zijn voorraadlijsten."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het begon als <strong>beeldschrift</strong>: men tekende het ding zelf, een kop graan of een runderkop. Omdat dat te traag ging, werden die tekeningen steeds schematischer, tot er tekens overbleven waarin je het voorwerp niet meer herkent."
+    },
+    {
+     "soort": "tekst",
+     "html": "In Mesopotamië schrijft men met een rietstengel in natte klei. De afdrukken hebben de vorm van wiggen of spijkers: het <strong>spijkerschrift</strong>. In Egypte gebruikt men <strong>hiërogliefen</strong>, tekens die op kleine afbeeldingen lijken, op steen en op papyrus."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 164\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"26\" y=\"16\" width=\"398\" height=\"84\" rx=\"42\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"2.6\"/><rect x=\"430\" y=\"26\" width=\"11\" height=\"64\" rx=\"5\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"2.6\"/><path d=\"M76.2 82 V54\" stroke=\"#234539\" stroke-width=\"2.4\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M76.2 54 C65.2 46 67.2 33 76.2 28 C85.2 33 87.2 46 76.2 54 Z\" stroke=\"#234539\" stroke-width=\"2.2\" fill=\"none\"/><path d=\"M150.6 30 C166.6 30 167.6 54 162.6 72 L156.6 84 L144.6 84 L138.6 72 C133.6 54 134.6 30 150.6 30 Z\" stroke=\"#234539\" stroke-width=\"2.2\" fill=\"none\"/><circle cx=\"144.6\" cy=\"41\" r=\"3.2\" fill=\"#234539\"/><circle cx=\"156.6\" cy=\"41\" r=\"3.2\" fill=\"#234539\"/><path d=\"M150.6 47 l-3.5 7 h7 z\" fill=\"#234539\"/><path d=\"M202.0 60 q5.75 -10 11.5 0 t11.5 0 t11.5 0 t11.5 0\" stroke=\"#234539\" stroke-width=\"2.6\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M277.4 58 q22 -10 44 0 q-22 10 -44 0 Z\" stroke=\"#234539\" stroke-width=\"2.2\" fill=\"none\"/><path d=\"M351.8 60 q22 -17 44 0 q-22 17 -44 0 Z\" stroke=\"#234539\" stroke-width=\"2.2\" fill=\"none\"/><circle cx=\"373.8\" cy=\"60\" r=\"5.5\" fill=\"#234539\"/><path d=\"M352.8 47 q21 -12 42 -3\" stroke=\"#234539\" stroke-width=\"2.2\" fill=\"none\" stroke-linecap=\"round\"/><text x=\"76.2\" y=\"126\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"15\" font-weight=\"600\" fill=\"#c17f2b\">i</text><text x=\"76.2\" y=\"144\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">rietblad</text><text x=\"150.6\" y=\"126\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"15\" font-weight=\"600\" fill=\"#c17f2b\">m</text><text x=\"150.6\" y=\"144\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">uil</text><text x=\"225.0\" y=\"126\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"15\" font-weight=\"600\" fill=\"#c17f2b\">n</text><text x=\"225.0\" y=\"144\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">water</text><text x=\"299.4\" y=\"126\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"15\" font-weight=\"600\" fill=\"#c17f2b\">r</text><text x=\"299.4\" y=\"144\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">mond</text><text x=\"373.8\" y=\"126\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"15\" font-weight=\"600\" fill=\"#c17f2b\">oog</text><text x=\"373.8\" y=\"144\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">oog van Horus</text></svg>",
+     "onderschrift": "Hiërogliefen zijn geen tekeningetjes van wat ze voorstellen: sommige staan voor een klank, andere voor een woord."
+    },
+    {
+     "soort": "tekst",
+     "html": "Schrijven was moeilijk en duurde jaren om te leren. Daardoor kon maar een kleine groep het: de <strong>schrijvers</strong>. Wie kan lezen en schrijven, kan wetten opstellen, afspraken vastleggen en bezit bewijzen. Het schrift maakt de machtigen dus nog machtiger."
+    },
+    {
+     "soort": "kader",
+     "html": "Hiërogliefen waren eeuwenlang onleesbaar. De <strong>Steen van Rosetta</strong> bracht de doorbraak: daarop staat dezelfde tekst in <strong>drie schriften</strong> — hiërogliefen, demotisch en Grieks. Omdat men Grieks wél kon lezen, kreeg men greep op de rest. Champollion ontcijferde ze in 1822."
+    }
+   ]
+  },
+  {
+   "kop": "Wie staat waar?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Allebei de samenlevingen zijn een <strong>standenmaatschappij</strong>: de bevolking valt uiteen in vaste lagen, en in welke laag je terechtkomt, ligt vast bij je geboorte. Opklimmen kan nauwelijks."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 256\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M72.0 8 H168.0 L186.7 45 H53.3 Z\" fill=\"#2f5d50\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"120.0\" y=\"28.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#ffffff\">farao of koning</text><line x1=\"196.7\" y1=\"28.0\" x2=\"302.0\" y2=\"28.0\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"310.0\" y=\"28.0\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">één persoon</text><path d=\"M53.3 48 H186.7 L205.3 85 H34.7 Z\" fill=\"#3f6f5f\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"120.0\" y=\"68.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#ffffff\">priesters en ambtenaren</text><line x1=\"215.3\" y1=\"68.0\" x2=\"302.0\" y2=\"68.0\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"310.0\" y=\"68.0\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">besturen en rekenen</text><path d=\"M34.7 88 H205.3 L224.0 125 H16.0 Z\" fill=\"#5b8878\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"120.0\" y=\"108.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#ffffff\">schrijvers en handelaars</text><line x1=\"234.0\" y1=\"108.0\" x2=\"302.0\" y2=\"108.0\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"310.0\" y=\"108.0\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">kunnen lezen</text><path d=\"M16.0 128 H224.0 L242.7 165 H-2.7 Z\" fill=\"#84a99b\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"120.0\" y=\"148.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">ambachtslieden</text><line x1=\"252.7\" y1=\"148.0\" x2=\"302.0\" y2=\"148.0\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"310.0\" y=\"148.0\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">pottenbakker, smid</text><path d=\"M-2.7 168 H242.7 L261.3 205 H-21.3 Z\" fill=\"#b4c9bf\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"120.0\" y=\"188.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">boeren</text><line x1=\"271.3\" y1=\"188.0\" x2=\"302.0\" y2=\"188.0\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"310.0\" y=\"188.0\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">veruit de grootste groep</text><path d=\"M-21.3 208 H261.3 L280.0 245 H-40.0 Z\" fill=\"#b4c9bf\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"120.0\" y=\"228.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">slaven</text><line x1=\"290.0\" y1=\"228.0\" x2=\"302.0\" y2=\"228.0\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"310.0\" y=\"228.0\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">geen rechten, geldt als bezit</text></svg>",
+     "onderschrift": "Hoe lager in de piramide, hoe meer mensen. De brede onderkant draagt met haar werk de smalle top."
+    },
+    {
+     "soort": "tekst",
+     "html": "Onderaan staan de <strong>slaven</strong>: krijgsgevangenen, of mensen die zich door schulden hebben moeten verkopen. Zij hebben geen rechten en gelden als bezit."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je ziet die ongelijkheid terug in de bronnen zelf. Wetten straffen dezelfde daad zwaarder naargelang wie het slachtoffer is, en graven verschillen enorm: de ene krijgt goud mee, de andere een kuil."
+    }
+   ]
+  },
+  {
+   "kop": "Goden, tempels en graven",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Beide volkeren zijn <strong>polytheïstisch</strong>: ze geloven in veel goden tegelijk, elk met een eigen taak — de zon, de rivier, de oogst, de oorlog."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 168\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"128\" width=\"470\" height=\"14\" fill=\"#e0cfa0\" opacity=\"0.55\"/><rect x=\"160.0\" y=\"98\" width=\"150\" height=\"30\" fill=\"#c9b47f\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"177.0\" y=\"72\" width=\"116\" height=\"26\" fill=\"#c9b47f\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"193.0\" y=\"48\" width=\"84\" height=\"24\" fill=\"#c9b47f\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"209.0\" y=\"22\" width=\"52\" height=\"26\" fill=\"#c17f2b\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M226.0 128 L226.0 48 h18 L244.0 128 Z\" fill=\"#e0cfa0\" stroke=\"#234539\" stroke-width=\"1.1\"/><line x1=\"226.0\" y1=\"124.0\" x2=\"244.0\" y2=\"124.0\" stroke=\"#234539\" stroke-width=\"0.7\" opacity=\"0.5\"/><line x1=\"226.0\" y1=\"113.1\" x2=\"244.0\" y2=\"113.1\" stroke=\"#234539\" stroke-width=\"0.7\" opacity=\"0.5\"/><line x1=\"226.0\" y1=\"102.3\" x2=\"244.0\" y2=\"102.3\" stroke=\"#234539\" stroke-width=\"0.7\" opacity=\"0.5\"/><line x1=\"226.0\" y1=\"91.4\" x2=\"244.0\" y2=\"91.4\" stroke=\"#234539\" stroke-width=\"0.7\" opacity=\"0.5\"/><line x1=\"226.0\" y1=\"80.6\" x2=\"244.0\" y2=\"80.6\" stroke=\"#234539\" stroke-width=\"0.7\" opacity=\"0.5\"/><line x1=\"226.0\" y1=\"69.7\" x2=\"244.0\" y2=\"69.7\" stroke=\"#234539\" stroke-width=\"0.7\" opacity=\"0.5\"/><line x1=\"226.0\" y1=\"58.9\" x2=\"244.0\" y2=\"58.9\" stroke=\"#234539\" stroke-width=\"0.7\" opacity=\"0.5\"/><text x=\"275.0\" y=\"36\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">de tempel bovenaan</text><text x=\"235.0\" y=\"160\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">gebouwd uit in de zon gedroogde kleitegels</text></svg>",
+     "onderschrift": "De ziggurat is een trapvormige tempeltoren. Hij stond midden in de stad en was van ver te zien."
+    },
+    {
+     "soort": "tekst",
+     "html": "De tempel is niet enkel een gebedshuis. Hij bezit grond, slaat graan op en betaalt werkers uit. Dat noemt men een <strong>tempeleconomie</strong>: godsdienst en economie lopen door elkaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "In Egypte is de farao zelf goddelijk: hij geldt als een god op aarde en als de schakel tussen de goden en de mensen. Hij bestuurt, spreekt recht, leidt het leger en de eredienst."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 176\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 142 H470\" stroke=\"#6b7260\" stroke-width=\"1.4\"/><path d=\"M150 26 L242 142 L58 142 Z\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.8\"/><path d=\"M150 26 L121 142\" stroke=\"#234539\" stroke-width=\"1.4\" fill=\"none\"/><path d=\"M262 52 L336 142 L188 142 Z\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.8\"/><path d=\"M262 52 L238 142\" stroke=\"#234539\" stroke-width=\"1.4\" fill=\"none\"/><path d=\"M352 84 L398 142 L306 142 Z\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.8\"/><path d=\"M352 84 L337 142\" stroke=\"#234539\" stroke-width=\"1.4\" fill=\"none\"/><path d=\"M378 142 V124 C378 119 383 116 390 116 L416 116 L418 92 L426 86 L442 86 L450 92 L448 116 L452 121 L458 133 L458 142 Z\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.8\"/><path d=\"M421 102 H447\" stroke=\"#234539\" stroke-width=\"1.2\"/><path d=\"M438 142 V133 M448 142 V134\" stroke=\"#234539\" stroke-width=\"1.2\"/><circle cx=\"58\" cy=\"120\" r=\"4\" fill=\"#234539\"/><path d=\"M58 124 V134 M58 127 L52 131 M58 127 L64 131 M58 134 L53 142 M58 134 L63 142\" stroke=\"#234539\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><text x=\"58\" y=\"158\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">een mens</text><text x=\"150\" y=\"158\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">147 m hoog</text><text x=\"428\" y=\"158\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">de sfinx</text></svg>",
+     "onderschrift": "Een piramide is een graf. De Egyptenaren geloofden in een leven na de dood, en daar hoorde een lichaam bij."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zij geloofden dat het leven verderging in het <strong>hiernamaals</strong>, en dat de dode daarvoor zijn lichaam nodig had. Daarom <strong>mummificeerden</strong> ze hun doden: het lichaam moest bewaard blijven. In het graf legden ze voorwerpen, eten en het <strong>Dodenboek</strong>, een verzameling spreuken die de dode op die tocht moest helpen."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Toetanchamon</strong> was een onbelangrijke farao die jong stierf. Zijn graf is wereldberoemd om één reden: het is als enige vrijwel ongeschonden teruggevonden. Alle andere waren al in de oudheid leeggeroofd."
+    }
+   ]
+  },
+  {
+   "kop": "Handel zonder geld",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Mesopotamië heeft klei en graan in overvloed, maar geen steen, geen hout en geen metaal. Wie dat wil, moet het halen. Daarom is <strong>handel</strong> daar geen luxe maar een noodzaak, over water en over land."
+    },
+    {
+     "soort": "tekst",
+     "html": "Munten bestaan nog niet. Men werkt met <strong>ruilhandel</strong>, en rekent daarbij af in vaste maten graan of zilver, gewogen op een weegschaal. Wat er geruild is, wordt op een kleitablet gezet — weer dat schrift."
+    }
+   ]
+  },
+  {
+   "kop": "Wat wij eraan overhielden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Uit deze twee rijken komt verrassend veel van wat wij vanzelfsprekend vinden: het <strong>wiel</strong>, de <strong>ploeg</strong>, geschreven <strong>wetten</strong>, en de <strong>sterrenkunde</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ook de manier waarop wij tijd meten komt van daar: de verdeling van het uur in zestig minuten gaat terug op het Mesopotamische rekenen met zestigtallen, en de kalender van twaalf maanden op de Egyptische zonnekalender."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"36.6\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">rivier</text><path d=\"M78.2 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"99.2\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"135.8\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">irrigatie</text><path d=\"M177.4 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"198.4\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">overschot</text><path d=\"M276.6 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"297.6\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"334.2\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">stad</text><text x=\"334.2\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">en staat</text><path d=\"M375.8 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"396.8\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"433.4\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">schrift</text></svg>",
+     "onderschrift": "De ketting van dit hoofdstuk. Elke stap maakt de volgende mogelijk — en aan het einde staat een samenleving die wij nog herkennen."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Mesopotamië = land tussen Tigris en Eufraat; Egypte = het land langs de Nijl.",
+  "Het oude nabije oosten begint bij het schrift, rond 3300 v.C.",
+  "Irrigatielandbouw vraagt samenwerking, en uit die samenwerking groeit bestuur en macht.",
+  "Overschot → specialisatie → steden. Mesopotamië kreeg stadstaten, Egypte één rijk onder de farao.",
+  "Spijkerschrift in klei, hiërogliefen op steen en papyrus; uitgevonden om te boekhouden.",
+  "De Steen van Rosetta maakte hiërogliefen leesbaar, dankzij dezelfde tekst in het Grieks.",
+  "Standenmaatschappij: je plaats ligt vast bij je geboorte; onderaan staan de slaven.",
+  "Polytheïsme, ziggurat en tempeleconomie in Mesopotamië; goddelijke farao, mummies en piramides in Egypte.",
+  "Handel ging per ruil, afgerekend in gewogen graan of zilver — munten bestonden nog niet.",
+  "Van daar komen het wiel, de ploeg, geschreven wetten, de sterrenkunde, ons uur van 60 minuten en de 12 maanden."
+ ]
+}

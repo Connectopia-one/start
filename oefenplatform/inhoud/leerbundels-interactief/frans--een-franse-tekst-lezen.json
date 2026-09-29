@@ -1,0 +1,129 @@
+{
+ "vak": "Frans",
+ "titel": "Een Franse tekst lezen",
+ "onder": "Het onderwerp, de hoofdgedachte en de hoofdpunten vinden, ook als je niet elk woord kent.",
+ "secties": [
+  {
+   "kop": "Waarvoor dient dit vak hier?",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<strong>Dit oefenplatform oefent alleen het schriftelijke Frans.</strong> Het examen van de Examencommissie telt vijf onderdelen: luisteren (30 %), lezen (30 %), schrijven (2 x 8 %), spreken (8 %) en twee gesprekken (2 x 8 %). Luisteren, spreken en de gesprekken oefen je hier niet: daar heb je geluid en een gesprekspartner voor nodig. Wat je hier wél oefent — lezen, schrijven, woordenschat en grammatica — is samen goed voor 46 % van je punten, en je hebt het ook nodig om te kunnen luisteren en spreken."
+    },
+    {
+     "soort": "tekst",
+     "html": "Lezen is met 30 % het zwaarste onderdeel dat je hier kan inoefenen, evenveel als luisteren. En wie vlot leest, herkent dezelfde woorden ook terug als hij ze hoort."
+    }
+   ]
+  },
+  {
+   "kop": "Drie lagen in elke tekst",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>onderwerp</strong> is waarover een tekst gaat. Je zegt het in één of enkele <strong>woorden</strong>, bijvoorbeeld 'dieren'. Je schrijft het dus niet op in een volledige zin."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>hoofdgedachte</strong> is de belangrijkste boodschap, in één <strong>zin</strong>: 'Dieren horen niet thuis in de zoo.' De <strong>hoofdpunten</strong> zijn de inhoudelijke elementen die die hoofdgedachte <strong>ondersteunen</strong>: dieren moeten in de vrije natuur kunnen bewegen, ze zijn gevoelig voor stress, ze gedragen zich anders."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 196\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"160\" y=\"8\" width=\"150\" height=\"38\" rx=\"9\" fill=\"#2f5d5018\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"26.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">onderwerp</text><text x=\"235.0\" y=\"39.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">één of enkele woorden</text><rect x=\"110\" y=\"54\" width=\"250\" height=\"38\" rx=\"9\" fill=\"#c17f2b18\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"72.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">hoofdgedachte</text><text x=\"235.0\" y=\"85.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">de belangrijkste boodschap, in één zin</text><rect x=\"65\" y=\"100\" width=\"340\" height=\"38\" rx=\"9\" fill=\"#2f5d5018\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"118.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">hoofdpunten</text><text x=\"235.0\" y=\"131.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">wat die boodschap ondersteunt</text><rect x=\"20\" y=\"146\" width=\"430\" height=\"38\" rx=\"9\" fill=\"#6b726018\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"164.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">details</text><text x=\"235.0\" y=\"177.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">voorbeelden, cijfers, namen</text></svg>",
+     "onderschrift": "Onderwerp in enkele woorden, hoofdgedachte in één zin, daaronder de punten die haar dragen."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Doe het eens op een echte tekst.</strong> <em>Les animaux sauvages ne sont pas heureux au zoo. Ils ont besoin de bouger dans la nature. Ils sont sensibles au stress et leur comportement change.</em><br>Het <strong>onderwerp</strong> is 'wilde dieren in de zoo'. De <strong>hoofdgedachte</strong> is 'wilde dieren zijn niet gelukkig in de zoo'. De drie <strong>hoofdpunten</strong> zijn de zinnen die dat staande houden: ze moeten kunnen bewegen, ze zijn gevoelig voor stress, en hun gedrag verandert."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">les animaux sauvages</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de wilde dieren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">heureux / malheureux</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gelukkig / ongelukkig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">avoir besoin de</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nodig hebben</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bouger, ils bougent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bewegen, ze bewegen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sensible au stress</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gevoelig voor stress</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le comportement change</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het gedrag verandert</td></tr></table>",
+     "onderschrift": "Die woorden komen terug in elke tekst over dieren of over gezondheid."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een tekst kondigt zijn onderwerp vaak zelf aan met <strong>il s'agit de…</strong> (het gaat over…). En 'Kavaan, un éléphant, a quitté le zoo pour un parc naturel au Cambodge' zegt je de kern: de olifant Kavaan verhuisde van de zoo naar een natuurpark in Cambodja (<em>quitter</em> = verlaten)."
+    }
+   ]
+  },
+  {
+   "kop": "Wat je doet vóór en tijdens het lezen: de strategieën",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vakfiche noemt ze met die naam: <strong>strategieën</strong>. Dat zijn manieren van aanpakken waarmee je een tekst toch begrijpt als er woorden in staan die je niet kent. Je hoeft ze niet uit het hoofd te kennen, je moet ze gebruiken."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"69.7\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Titel en foto&#39;s</text><text x=\"69.7\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">Waarover gaat dit?</text><path d=\"M144.33333333333334 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"165.3\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Lezen en zoeken</text><text x=\"235.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">Uur, prijs, datum</text><path d=\"M309.6666666666667 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"330.7\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"400.3\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Pas dan opzoeken</text><text x=\"400.3\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">Welk woord echt nodig is</text></svg>",
+     "onderschrift": "Drie stappen, in die volgorde. Vertalen doe je nooit als eerste."
+    },
+    {
+     "soort": "tekst",
+     "html": "Stel jezelf vooraf enkele vragen: wat weet ik al over dit onderwerp, en waarover zou de tekst kunnen gaan? Gebruik daarbij de <strong>visuele hulpmiddelen</strong> die de tekst biedt: de titel en de tussentitels, <strong>benadrukte woorden</strong>, een foto, een tekening of een grafiek. Hoeveel bladzijden de tekst telt, zegt je niets."
+    },
+    {
+     "soort": "tekst",
+     "html": "Moet je <strong>informatie selecteren</strong> — het uur van een activiteit, de prijs, de datum — dan lees je gericht: je zoekt naar cijfers en tijdsaanduidingen in plaats van de hele tekst woord voor woord te lezen. In een <strong>uitnodiging</strong> of op een affiche zoek je net die drie gegevens: de <strong>datum</strong>, het <strong>uur</strong> en de <strong>plaats</strong>. Wie de affiche gedrukt heeft, hoef je zelden te weten."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Je moet niet elk woord kennen.</strong> Leid de betekenis af uit de zin eromheen, uit wat je al weet, of uit de manier waarop het woord gevormd is. Beslis daarna of dat woord echt nodig is om de tekst te begrijpen. Alleen dan zoek je het op. Je mag op het examen een online woordenboek gebruiken, maar je hebt geen tijd om elk woord op te zoeken, dus zorg voor een basiswoordenschat."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je kennis van het Nederlands en van andere vreemde talen, zoals het <strong>Engels</strong>, helpt je zulke woorden te <strong>raden</strong>: <em>la musique</em>, <em>le téléphone</em>, <em>la télévision</em>, <em>une information</em>, <em>un restaurant</em> en <em>un animal</em> raad je zo. Maar <em>le pain</em> (het brood) en <em>la nourriture</em> (het eten) lijken nergens op; die moet je leren."
+    },
+    {
+     "soort": "tekst",
+     "html": "Drie bronnen gebruik je dus om te raden: de <strong>context</strong> (de zin eromheen), je <strong>voorkennis</strong> (wat je al over het onderwerp weet) en je <strong>moedertaal</strong> of een andere taal die je kent. Dat staat zo in de fiche."
+    }
+   ]
+  },
+  {
+   "kop": "Het communicatiemodel bij een tekst",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 186\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"6\" y=\"6\" width=\"458\" height=\"140\" rx=\"14\" fill=\"none\" stroke=\"#e4ded0\" stroke-width=\"1.6\" stroke-dasharray=\"6 5\"/><text x=\"20.0\" y=\"26.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">context: de situatie waarin je communiceert</text><rect x=\"26\" y=\"52\" width=\"110\" height=\"46\" rx=\"10\" fill=\"#2f5d5018\" stroke=\"#2f5d50\" stroke-width=\"1.7\"/><text x=\"81.0\" y=\"74.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">zender</text><text x=\"81.0\" y=\"90.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">wie stuurt</text><rect x=\"180\" y=\"52\" width=\"110\" height=\"46\" rx=\"10\" fill=\"#c17f2b18\" stroke=\"#c17f2b\" stroke-width=\"1.7\"/><text x=\"235.0\" y=\"74.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">boodschap</text><text x=\"235.0\" y=\"90.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">wat je zegt</text><rect x=\"334\" y=\"52\" width=\"110\" height=\"46\" rx=\"10\" fill=\"#2f5d5018\" stroke=\"#2f5d50\" stroke-width=\"1.7\"/><text x=\"389.0\" y=\"74.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">ontvanger</text><text x=\"389.0\" y=\"90.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">voor wie</text><line x1=\"140\" y1=\"75\" x2=\"170\" y2=\"75\" stroke=\"#6b7260\" stroke-width=\"1.8\"/><polygon points=\"176,75 168,70.5 168,79.5\" fill=\"#6b7260\"/><text x=\"158.0\" y=\"64.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">kanaal</text><line x1=\"294\" y1=\"75\" x2=\"324\" y2=\"75\" stroke=\"#6b7260\" stroke-width=\"1.8\"/><polygon points=\"330,75 322,70.5 322,79.5\" fill=\"#6b7260\"/><text x=\"312.0\" y=\"64.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">kanaal</text><text x=\"235.0\" y=\"120.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">kanaal: mail, app, blog, telefoon, gesprek</text><rect x=\"120\" y=\"152\" width=\"230\" height=\"28\" rx=\"9\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"171.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#c17f2b\">doel: waarom stuur je die boodschap?</text></svg>",
+     "onderschrift": "Van wie is de tekst, waarom is hij geschreven, en voor wie?"
+    },
+    {
+     "soort": "tekst",
+     "html": "Die drie vragen vormen samen het <strong>communicatiemodel</strong>. Ze zeggen je meer over een tekst dan om het even welk los woord."
+    },
+    {
+     "soort": "tekst",
+     "html": "Let ook op de <strong>structuuraanduiders</strong>. Dat is het woord waarmee de fiche twee soorten wegwijzers samen benoemt: <strong>verwijswoorden</strong> (voornaamwoorden zoals <em>ils</em> en <em>y</em>) en <strong>signaalwoorden</strong> (zoals <em>d'abord</em>, <em>puis</em>, <em>parce que</em>). Samen laten ze je de gedachtegang van de tekst volgen. Ze krijgen een eigen bundel: die over tekstsoorten, signaalwoorden en verwijswoorden."
+    }
+   ]
+  },
+  {
+   "kop": "Woorden die vaak in een leestekst staan",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il s'agit de</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het gaat over</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">selon / d'après l'auteur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">volgens / volgens de auteur (een mening, geen feit)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une enquête, une étude récente</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een onderzoek, een recent onderzoek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">environ, la plupart, la moitié, plus de</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer, de meeste, de helft, meer dan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">malgré, cependant, en revanche</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ondanks, nochtans, daarentegen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il est interdit de, gratuit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het is verboden te, gratis</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">à partir de, jusqu'à</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vanaf, tot</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la vie quotidienne, les habitudes alimentaires</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het dagelijkse leven, de eetgewoonten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un article de journal, le titre</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een krantenartikel, de titel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">courir, la piscine, les jeunes, un écran</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lopen, het zwembad, de jongeren, een scherm</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">passer du temps, devant, dormir, bouger</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tijd doorbrengen, voor, slapen, bewegen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ils passent, ils dorment, ils bougent, moins</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ze brengen door, ze slapen, ze bewegen, minder</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le train part, souvent, du retard</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de trein vertrekt, vaak, vertraging</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la fête de l'école, samedi, la cour</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het schoolfeest, zaterdag, de speelplaats</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un anniversaire, dimanche 5 octobre, rue des Fleurs 12</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een verjaardag, zondag 5 oktober, Bloemenstraat 12</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">les transports en commun, Bruxelles</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het openbaar vervoer, Brussel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">en France, on mange, en famille, différent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in Frankrijk, men eet, met het gezin, anders</td></tr></table>",
+     "onderschrift": "Environ, la moitié en plus de gaan over een hoeveelheid; 'la plupart des élèves' (de meeste leerlingen) is niet hetzelfde als 'tous les élèves' (alle leerlingen)."
+    },
+    {
+     "soort": "weetje",
+     "html": "Op het examen krijg je teksten over het dagelijkse leven, de samenleving en het schoolleven, én over landen en streken waar Frans gesproken wordt. Je haalt er bijvoorbeeld de eetgewoonten uit, of je merkt op dat in Franstalig België iedereen elkaar met een kus begroet, ook mannen onder elkaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "De fiche noemt dat: je <strong>identificeert aspecten van maatschappijen en culturen waarin Frans gesproken wordt</strong>. Het gaat om het dagelijkse leven, de leefomstandigheden, gewoontes, sociale verhoudingen, waarden en normen, <strong>lichaamstaal</strong> en <strong>sociale conventies</strong>. Je moet die dingen niet van buiten leren: je moet ze uit een tekst kunnen halen als ze erin staan."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Onderwerp = enkele woorden. Hoofdgedachte = één zin. Hoofdpunten = wat haar draagt.",
+  "Kijk eerst naar titel, tussentitels, benadrukte woorden en beeld.",
+  "Raad een onbekend woord uit de context; zoek het pas op als het echt nodig is.",
+  "Zoek gericht als je een uur, een prijs of een datum moet vinden.",
+  "'Selon' en 'd'après l'auteur' kondigen een mening aan, geen feit.",
+  "Lezen telt voor 30 % van het examen."
+ ]
+}

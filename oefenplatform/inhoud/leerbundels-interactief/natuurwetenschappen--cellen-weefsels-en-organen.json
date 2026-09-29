@@ -1,0 +1,132 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Cellen, weefsels en organen",
+ "onder": "Hoe een levend wezen opgebouwd is, van celonderdeel tot organisme.",
+ "secties": [
+  {
+   "kop": "De cel is de basiseenheid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Alles wat leeft, is opgebouwd uit <strong>cellen</strong>. Een mens, een eik, een regenworm, een bacterie: allemaal cellen. De cel is de kleinste eenheid die nog leeft, en daarom noemen we haar de <strong>basiseenheid</strong> van het leven."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>eencellig organisme</strong> bestaat uit één enkele cel. Die ene cel doet alles zelf: voeding opnemen, energie maken, afval kwijtraken, zich voortplanten. Een bacterie is daar het bekendste voorbeeld van. Een <strong>meercellig organisme</strong> zoals een mens of een plant bestaat uit miljarden cellen die elk een eigen taak hebben."
+    },
+    {
+     "soort": "kader",
+     "html": "Doet elke cel van een meercellig organisme hetzelfde? Nee. De cellen zijn <strong>gespecialiseerd</strong>: een zenuwcel geeft signalen door, een rode bloedcel vervoert zuurstof, een spiercel kan samentrekken. Net door die taakverdeling kan een meercellig organisme veel meer dan een eencellige."
+    }
+   ]
+  },
+  {
+   "kop": "In de cel: de celonderdelen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In elke cel zitten <strong>celonderdelen</strong>, ook wel celorganellen genoemd. Ze hebben elk hun eigen functie, en samen houden ze de cel aan het werk."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 228\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"24.0\" y=\"36\" width=\"187.0\" height=\"146\" rx=\"10\" fill=\"rgba(111,143,74,.10)\" stroke=\"#6f8f4a\" stroke-width=\"4.5\"/><rect x=\"30.0\" y=\"42\" width=\"175.0\" height=\"134\" rx=\"8\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><rect x=\"46.0\" y=\"58\" width=\"143.0\" height=\"66\" rx=\"8\" fill=\"rgba(91,147,184,.18)\" stroke=\"#5b93b8\" stroke-width=\"1.6\"/><text x=\"117.5\" y=\"96.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#3d6e8c\">vacuole</text><ellipse cx=\"70.5\" cy=\"150\" rx=\"10\" ry=\"6.5\" fill=\"rgba(47,93,80,.35)\" stroke=\"#2f5d50\" stroke-width=\"1.4\"/><ellipse cx=\"122.2\" cy=\"158\" rx=\"10\" ry=\"6.5\" fill=\"rgba(47,93,80,.35)\" stroke=\"#2f5d50\" stroke-width=\"1.4\"/><ellipse cx=\"169.2\" cy=\"146\" rx=\"10\" ry=\"6.5\" fill=\"rgba(47,93,80,.35)\" stroke=\"#2f5d50\" stroke-width=\"1.4\"/><circle cx=\"79.9\" cy=\"134\" r=\"12\" fill=\"rgba(122,91,143,.28)\" stroke=\"#7a5b8f\" stroke-width=\"1.8\"/><ellipse cx=\"155.1\" cy=\"132\" rx=\"11\" ry=\"6\" fill=\"rgba(193,127,43,.25)\" stroke=\"#c17f2b\" stroke-width=\"1.5\"/><text x=\"117.5\" y=\"24.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">plantaardige cel</text><ellipse cx=\"352.5\" cy=\"108\" rx=\"87.5\" ry=\"70\" fill=\"rgba(193,127,43,.08)\" stroke=\"#2f5d50\" stroke-width=\"2.4\"/><circle cx=\"352.5\" cy=\"108\" r=\"18\" fill=\"rgba(122,91,143,.28)\" stroke=\"#7a5b8f\" stroke-width=\"1.8\"/><ellipse cx=\"314.9\" cy=\"84\" rx=\"11\" ry=\"6\" fill=\"rgba(193,127,43,.25)\" stroke=\"#c17f2b\" stroke-width=\"1.5\"/><ellipse cx=\"390.1\" cy=\"86\" rx=\"11\" ry=\"6\" fill=\"rgba(193,127,43,.25)\" stroke=\"#c17f2b\" stroke-width=\"1.5\"/><ellipse cx=\"329.0\" cy=\"140\" rx=\"11\" ry=\"6\" fill=\"rgba(193,127,43,.25)\" stroke=\"#c17f2b\" stroke-width=\"1.5\"/><ellipse cx=\"385.4\" cy=\"138\" rx=\"11\" ry=\"6\" fill=\"rgba(193,127,43,.25)\" stroke=\"#c17f2b\" stroke-width=\"1.5\"/><text x=\"352.5\" y=\"24.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">dierlijke cel</text><rect x=\"14\" y=\"206\" width=\"13\" height=\"13\" rx=\"3\" fill=\"#6f8f4a\" opacity=\"0.55\" stroke=\"#6f8f4a\" stroke-width=\"1.4\"/><text x=\"33.0\" y=\"217.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">celwand</text><rect x=\"95.19999999999999\" y=\"206\" width=\"13\" height=\"13\" rx=\"3\" fill=\"#7a5b8f\" opacity=\"0.55\" stroke=\"#7a5b8f\" stroke-width=\"1.4\"/><text x=\"114.2\" y=\"217.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">celkern</text><rect x=\"176.39999999999998\" y=\"206\" width=\"13\" height=\"13\" rx=\"3\" fill=\"#c17f2b\" opacity=\"0.55\" stroke=\"#c17f2b\" stroke-width=\"1.4\"/><text x=\"195.4\" y=\"217.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">mitochondrion</text><rect x=\"291.2\" y=\"206\" width=\"13\" height=\"13\" rx=\"3\" fill=\"#2f5d50\" opacity=\"0.55\" stroke=\"#2f5d50\" stroke-width=\"1.4\"/><text x=\"310.2\" y=\"217.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">bladgroenkorrel</text></svg>",
+     "onderschrift": "Celmembraan, celkern, cytoplasma en mitochondriën heeft elke cel. Celwand, bladgroenkorrels en de grote vacuole enkel de plantaardige."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">celonderdeel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat doet het?</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>celkern</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bewaart de erfelijke informatie en stuurt de cel aan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>celmembraan</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het vlies rond de cel; regelt wat er in en uit gaat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>cytoplasma</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de gelei-achtige vloeistof in de cel waarin de celonderdelen liggen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>mitochondrion</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maakt energie vrij uit glucose: de celademhaling</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>celwand</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">enkel bij planten; geeft stevigheid en bescherming</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>bladgroenkorrel</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">enkel bij planten; vangt zonlicht op voor de fotosynthese</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vacuole</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">slaat water en voedingsstoffen op; houdt de cel stevig</td></tr></table>",
+     "onderschrift": "Het meervoud van mitochondrion is mitochondriën. Een bladgroenkorrel heet ook een chloroplast."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>celmembraan</strong> laat niet zomaar alles door. Het is <em>selectief</em>: sommige stoffen mogen binnen, andere blijven buiten. Zo houdt de cel haar samenstelling in de hand."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>celkern</strong> bewaart het erfelijk materiaal. Zou een cel haar kern verliezen, dan verliest ze die informatie en kan ze zich ook niet meer delen."
+    },
+    {
+     "soort": "weetje",
+     "html": "Mitochondriën worden de energiecentrales van de cel genoemd. Een spiercel heeft er veel meer dan een huidcel: een spier moet veel energie hebben om samen te trekken, en die energie komt uit de verbranding van glucose."
+    }
+   ]
+  },
+  {
+   "kop": "Plantaardig of dierlijk?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een plantaardige en een dierlijke cel lijken sterk op elkaar. Celkern, celmembraan, cytoplasma en mitochondriën vind je in allebei. Drie dingen zijn typisch plantaardig: de <strong>celwand</strong>, de <strong>bladgroenkorrels</strong> en één grote <strong>vacuole</strong>. Een dierlijke cel heeft geen celwand en is daardoor buigzamer van vorm."
+    },
+    {
+     "soort": "tekst",
+     "html": "De celwand is gemaakt van cellulose en ligt rond het celmembraan. Hij is stevig, maar laat water en opgeloste stoffen door. Dáárom staat een boom rechtop zonder skelet: miljoenen stevige cellen dragen samen de hele boom. Een dier lost dat anders op, met beenderen."
+    },
+    {
+     "soort": "kader",
+     "html": "Een plant die te weinig water krijgt, gaat <strong>slap hangen</strong>. De verklaring zit in de vacuole: een volle vacuole duwt de cel van binnenuit tegen de celwand en houdt de plant stevig. Loopt ze leeg, dan verdwijnt die druk."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bladgroenkorrels werken alleen met licht. Een cel uit de <strong>wortel</strong> heeft er dus geen: in de donkere bodem zou fotosynthese geen zin hebben. Een cel uit een <strong>blad</strong> zit er net vol mee. Zie je onder de microscoop een cel met een celwand, een grote vacuole én groene korrels, dan kijk je naar een bladcel."
+    },
+    {
+     "soort": "tekst",
+     "html": "En ja, een plantencel heeft zowel bladgroenkorrels als mitochondriën. Ze maakt suikers met haar bladgroenkorrels en verbrandt een deel van die suikers weer met haar mitochondriën. Een plant ademt dus ook."
+    }
+   ]
+  },
+  {
+   "kop": "Van cel tot organisme: de organisatieniveaus",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Cellen staan niet los van elkaar. Ze werken samen in steeds grotere gehelen. Die trapjes heten de <strong>organisatieniveaus</strong>, en je moet ze kunnen rangschikken volgens toenemende of afnemende complexiteit."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"36.6\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">cellen</text><path d=\"M78.2 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"99.2\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"135.8\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">weefsels</text><path d=\"M177.4 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"198.4\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">organen</text><path d=\"M276.6 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"297.6\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"334.2\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">stelsels</text><path d=\"M375.8 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"396.8\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"433.4\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">organisme</text></svg>",
+     "onderschrift": "Vóór de cel komen nog de celonderdelen: de volledige rij is celonderdelen, cellen, weefsels, organen, stelsels, organisme. Van groot naar klein lees je ze gewoon achterstevoren."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>weefsel</strong> is een groep cellen van dezelfde soort die samen één taak doen. Een <strong>orgaan</strong> bestaat uit verschillende weefsels samen. En verschillende organen die samen één grote taak doen, vormen een <strong>stelsel</strong> of orgaanstelsel."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">niveau</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">bij mens en dier</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">bij planten</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">weefsel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spierweefsel, zenuwweefsel, huidweefsel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dekweefsel, transportweefsel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">orgaan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maag, hart, longen, huid, nieren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wortel, stengel, blad, bloem</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stelsel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spijsverterings-, ademhalings-, transport-, uitscheidings-, voortplantings-, beender-, spier- en zenuwstelsel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">transportstelsel en voortplantingsstelsel</td></tr></table>",
+     "onderschrift": "Een plant heeft geen longen, geen zenuwen en geen skelet: zij heeft maar twee stelsels."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>hart</strong> is dus geen weefsel maar een orgaan: er zitten spierweefsel, zenuwweefsel en bloedvaten in. Hetzelfde geldt voor de maag, met haar spierweefsel om te kneden, haar slijmvlies aan de binnenkant en haar zenuwweefsel dat alles aanstuurt. Het <strong>transportweefsel</strong> van een plant loopt dan weer als buisjes door wortel, stengel en blad en vervoert water en suikers; het <strong>dekweefsel</strong> is de beschermlaag aan de buitenkant."
+    },
+    {
+     "soort": "kader",
+     "html": "De stelsels werken ook onderling samen. Om zuurstof en voedingsstoffen tot in je tenen te krijgen, heb je er drie tegelijk nodig: het <strong>ademhalingsstelsel</strong> haalt de zuurstof binnen, het <strong>spijsverteringsstelsel</strong> de voedingsstoffen, en het <strong>transportstelsel</strong> brengt allebei tot bij elke cel. Het <strong>beenderstelsel</strong> of skelet draagt ondertussen je lichaam, beschermt je hersenen, hart en longen, en geeft je spieren een aanhechtingspunt."
+    }
+   ]
+  },
+  {
+   "kop": "Cellen bekijken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Cellen zie je niet met het blote oog. Je kiest je hulpmiddel naar de vergroting die je nodig hebt: een <strong>loep</strong> vergroot een paar keer, een <strong>binoculair</strong> toont een insect in drie dimensies, en een <strong>lichtmicroscoop</strong> vergroot honderden keren. Pas met die laatste zie je afzonderlijke cellen, bijvoorbeeld in een dun velletje ui."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een loep volstaat niet om cellen te zien: ze vergroot gewoon te weinig. Dat is precies wat 'het gepaste meetinstrument kiezen' betekent — te weinig nauwkeurig is even onbruikbaar als helemaal niets."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "De cel is de basiseenheid van het leven; een bacterie is eencellig, een mens meercellig.",
+  "Van klein naar groot: celonderdelen, cellen, weefsels, organen, stelsels, organisme.",
+  "Celkern, celmembraan, cytoplasma en mitochondriën heeft elke cel.",
+  "Celwand, bladgroenkorrels en een grote vacuole heeft alleen de plantaardige cel.",
+  "Een weefsel is een groep gelijke cellen; een orgaan bestaat uit verschillende weefsels.",
+  "Cellen bekijk je met een lichtmicroscoop, niet met een loep."
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Energie, kracht en snelheid",
+ "onder": "Energievormen en hun omzettingen, krachten en hun uitwerking, en v = Δx / Δt.",
+ "secties": [
+  {
+   "kop": "Energievormen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">energievorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waar je ze tegenkomt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">thermische energie of warmte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een warme kachel, wrijving</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elektrische energie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het stopcontact, een batterij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">potentiële energie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een steen die hoog op een muur ligt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kinetische energie of bewegingsenergie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een fietser die snel rijdt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stralingsenergie, zoals lichtenergie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de zon, een lamp</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">chemische energie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voedsel, brandstof, een batterij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kernenergie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kerncentrale</td></tr></table>",
+     "onderschrift": "Potentiële energie is opgeslagen energie door plaats of vorm: valt de steen, dan wordt ze kinetische energie."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>energieomzetting</strong> verandert de ene vorm in de andere. In een lamp wordt elektrische energie omgezet in lichtenergie <em>en warmte</em>. Er verdwijnt nooit energie, maar er gaat bij elke omzetting wél een deel naar een <strong>minder bruikbare of ongewenste vorm, meestal warmte</strong>. Daarom wordt een gsm warm terwijl je hem gebruikt."
+    },
+    {
+     "soort": "kader",
+     "html": "Een ketting van omzettingen, bij een fiets met dynamo: de chemische energie uit je voedsel wordt spierkracht en beweging, de dynamo maakt van die bewegingsenergie elektrische energie, en de lamp maakt daar licht van. Bij elke stap gaat er een deel verloren als warmte."
+    }
+   ]
+  },
+  {
+   "kop": "Krachten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>kracht</strong> meet je in <strong>newton (N)</strong>, met een <strong>dynamometer</strong>: een veer met een schaalverdeling, die verder uitrekt naarmate je harder trekt. De grootheid krijgt het symbool <strong>F</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Krachten die je moet herkennen: <strong>zwaartekracht</strong> (trekt alles naar het middelpunt van de aarde), <strong>wrijvingskracht</strong>, <strong>trekkracht</strong>, <strong>duwkracht</strong>, <strong>spierkracht</strong>, <strong>motorkracht</strong> en <strong>veerkracht</strong>. Hang je een gewicht aan een dynamometer en lees je 12 N af, dan heb je de zwaartekracht op dat gewicht gemeten — geen massa, want die meet je in kilogram met een weegschaal."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 172\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"punt5\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto\"><path d=\"M0 0 L10 5 L0 10 z\" fill=\"#5b7f9c\"/></marker><marker id=\"punt6\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto\"><path d=\"M0 0 L10 5 L0 10 z\" fill=\"#5b93b8\"/></marker><marker id=\"punt7\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto\"><path d=\"M0 0 L10 5 L0 10 z\" fill=\"#2f5d50\"/></marker><marker id=\"punt8\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto\"><path d=\"M0 0 L10 5 L0 10 z\" fill=\"#c17f2b\"/></marker></defs><rect x=\"60\" y=\"70\" width=\"60\" height=\"52\" rx=\"8\" fill=\"rgba(193,127,43,.18)\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><line x1=\"40\" y1=\"96\" x2=\"440\" y2=\"96\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"5 5\"/><path d=\"M120 96 H330\" stroke=\"#2f5d50\" stroke-width=\"3.4\" marker-end=\"url(#punt7)\"/><circle cx=\"120\" cy=\"96\" r=\"5\" fill=\"#2f5d50\"/><text x=\"120.0\" y=\"122.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#2f5d50\">aangrijpingspunt</text><text x=\"225.0\" y=\"82.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#234539\">grootte</text><text x=\"436.0\" y=\"84.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#2f5d50\">zin</text><text x=\"40.0\" y=\"84.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">richting</text><path d=\"M120 154 H50\" stroke=\"#5b7f9c\" stroke-width=\"3\" marker-end=\"url(#punt5)\"/><text x=\"128.0\" y=\"158.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#5b7f9c\">zelfde richting, andere zin</text></svg>",
+     "onderschrift": "Een kracht teken je als een pijl: ze is een vectoriële grootheid met vier kenmerken."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Aangrijpingspunt</strong>: waar de kracht aangrijpt. <strong>Grootte</strong>: de lengte van de pijl. <strong>Richting</strong>: de lijn waarop ze werkt. <strong>Zin</strong>: welke kant ze op wijst. Een kracht van 10 N naar links en één van 10 N naar rechts hebben dus dezelfde richting, maar een andere zin."
+    },
+    {
+     "soort": "tekst",
+     "html": "Werken er meerdere krachten, dan tel je ze samen tot de <strong>resulterende kracht</strong> of resultante. Twee mensen die allebei 200 N in dezelfde zin duwen, geven samen 400 N. Twee kinderen die allebei 150 N in tegengestelde zin trekken, geven een resultante van 0 N: de twee krachten heffen elkaar op en het touw beweegt niet. Bij een resultante van 0 N blijft een voorwerp in <strong>rust</strong>, of het behoudt zijn <strong>constante snelheid</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">uitwerking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat er verandert</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>statisch</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vorm: vervorming</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een veer die uitrekt, een spons die indeukt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>dynamisch</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de bewegingstoestand</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">versnellen, vertragen, van bewegingsrichting veranderen</td></tr></table>",
+     "onderschrift": "Een bal die je wegtrapt, gaat sneller én verandert van richting: dynamisch. Dat hij tijdens de trap even indeukt, is statisch."
+    },
+    {
+     "soort": "weetje",
+     "html": "De <strong>wrijvingskracht</strong> werkt altijd tegen de beweging in: daarom vertraagt een bal die over het gras rolt. Maar zonder wrijving zou je ook niet kunnen stappen of remmen."
+    }
+   ]
+  },
+  {
+   "kop": "Constante snelheid",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "De formule voor een <strong>constante snelheid</strong>:<br><strong>v = Δx / Δt</strong> — de verplaatsing gedeeld door de tijdsduur.<br>Daaruit volgt <strong>Δx = v × Δt</strong> en <strong>Δt = Δx / v</strong>.<br>Δx is de verplaatsing in meter (m), Δt de tijdsduur in seconde (s), v de snelheid in meter per seconde (m/s). Kilometer per uur (km/h) mag ook, maar is geen SI-eenheid."
+    },
+    {
+     "soort": "tekst",
+     "html": "Iemand die 100 m aflegt in 20 s, haalt 100 : 20 = 5 m/s. Een auto die 90 km rijdt in 2 uur, haalt 90 : 2 = 45 km/h. Rijdt hij het eerste uur 60 km en het tweede uur 80 km, dan is zijn gemiddelde snelheid 140 : 2 = 70 km/h."
+    },
+    {
+     "soort": "tekst",
+     "html": "Omgekeerd: een fietser die 30 s aan 4 m/s rijdt, legt 4 × 30 = 120 m af. Een wandelaar doet over 300 m aan 5 m/s precies 300 : 5 = 60 s, dus één minuut."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 86\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"3.0\" y=\"10\" width=\"229.0\" height=\"34\" rx=\"8\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.4\"/><text x=\"117.5\" y=\"28.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">km/h</text><rect x=\"238.0\" y=\"10\" width=\"229.0\" height=\"34\" rx=\"8\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.4\"/><text x=\"352.5\" y=\"28.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">m/s</text><path d=\"M117.5 58 H352.5 l-7 -5 m7 5 l-7 5\" stroke=\"#c17f2b\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><text x=\"235.0\" y=\"76\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#c17f2b\">km/h → m/s: delen door 3,6 · m/s → km/h: maal 3,6</text></svg>",
+     "onderschrift": "5 m/s = 18 km/h, 72 km/h = 20 m/s, 36 km/h = 10 m/s. Handig om te onthouden: 36 km/h is precies 10 m/s."
+    },
+    {
+     "soort": "tekst",
+     "html": "Let op je eenheden. 1 km = 1000 m, 1 h = 60 min = 3600 s, dus 2 uur is 7200 s en 5 min is 300 s. Reken tijd altijd eerst om naar seconden als je in m/s werkt: vergeet je dat, dan zit je antwoord er een factor 60 naast. Wil je snelheden vergelijken, zet ze dan eerst in dezelfde eenheid: 15 m/s is 54 km/h, en dat is sneller dan 50 km/h of dan 1 km in 2 minuten (30 km/h). Een hardloper die 400 m in 50 s doet, haalt 8 m/s of 28,8 km/h."
+    }
+   ]
+  },
+  {
+   "kop": "Grafieken en verbanden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Zet je de afgelegde weg (y) uit tegenover de tijd (x), dan betekent een <strong>rechte door de oorsprong</strong> dat het voorwerp met een constante snelheid beweegt: in elke seconde komt er evenveel weg bij. De <strong>steilheid</strong> van die rechte is de snelheid, dus van twee rechten gaat de steilste het snelst. Een <strong>horizontaal stuk</strong> betekent dat het voorwerp stilstaat: de tijd loopt door, de afstand verandert niet, de snelheid is 0 m/s. Lees je bij 4 s een afstand van 20 m af, dan is v = 20 : 4 = 5 m/s."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat vastligt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">verband</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">in woorden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de snelheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verplaatsing en tijdsduur zijn <strong>recht evenredig</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee keer zo lang rijden is twee keer zo ver</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de tijdsduur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verplaatsing en snelheid zijn <strong>recht evenredig</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee keer zo snel is twee keer zo ver</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de afstand</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">snelheid en tijdsduur zijn <strong>omgekeerd evenredig</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee keer zo snel is half zo lang onderweg</td></tr></table>",
+     "onderschrift": "Snelheid en tijdsduur zijn dus niet altijd recht evenredig: langer onderweg zijn maakt je niet sneller."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Bij elke energieomzetting gaat een deel verloren als warmte.",
+  "Kracht: symbool F, eenheid newton (N), gemeten met een dynamometer.",
+  "Vier kenmerken van een kracht: aangrijpingspunt, grootte, richting en zin.",
+  "Statische uitwerking = vervorming; dynamische uitwerking = verandering van beweging.",
+  "v = Δx / Δt; m/s → km/h maal 3,6, km/h → m/s delen door 3,6.",
+  "Een rechte door de oorsprong in een x-t-grafiek betekent een constante snelheid."
+ ]
+}

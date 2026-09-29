@@ -1,0 +1,122 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Ecologie en biodiversiteit",
+ "onder": "Hoe organismen samenhangen met elkaar en met hun omgeving, en wat de mens daarin verandert.",
+ "secties": [
+  {
+   "kop": "Biotoop, abiotisch en biotisch",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>biotoop</strong> is een plaats met haar eigen omstandigheden waar bepaalde organismen leven: een bos, een weiland, een wetland, een moeras, een rivier, een estuarium, zelfs een woonwijk. Een biotoop samen met alle organismen die erin leven én hun onderlinge relaties, noemen we een <strong>ecosysteem</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wat in een biotoop op de organismen inwerkt, verdelen we in twee soorten. <strong>Abiotische factoren</strong> komen uit de niet-levende omgeving: vocht, temperatuur, licht, voedingsstoffen, zoutgehalte, bodemhardheid, geluidssterkte, luchtvochtigheid, bodemvochtigheid, windsnelheid. <strong>Biotische factoren</strong> zijn de levende wezens zelf: bacteriën, schimmels, planten en dieren."
+    },
+    {
+     "soort": "tekst",
+     "html": "Die abiotische factoren bepalen mee wie waar kan leven. Waterplanten hebben licht nodig dat tot in het water raakt, want zonder licht kunnen ze geen fotosynthese doen; in troebel water verdwijnen ze."
+    }
+   ]
+  },
+  {
+   "kop": "Meten en determineren in een biotoop",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je meet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarmee</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">eenheid</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">temperatuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">thermometer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">°C</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verlichtingssterkte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lichtmeter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lux (lx)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">luchtvochtigheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hygrometer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">%</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geluidssterkte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geluidsmeter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">decibel (dB)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">windsnelheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">anemometer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">m/s</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bodemvochtigheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vochtigheidsmeter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">%</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bodemhardheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">valpen met plastic buis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">diepte in cm</td></tr></table>",
+     "onderschrift": "Meet je onder de bomen 300 lux en op de open plek 20 000 lux, dan verklaart dat meteen waarom daar andere soorten groeien."
+    },
+    {
+     "soort": "tekst",
+     "html": "Om uit te zoeken wélke soort je voor je hebt, ga je <strong>determineren</strong>. Je volgt een <strong>determineertabel</strong> of <strong>determineerkaart</strong>: telkens kies je tussen twee kenmerken tot je bij de juiste soort uitkomt. Om goed te kijken gebruik je een <strong>loep</strong>, een <strong>binoculair</strong> of een <strong>microscoop</strong>. Een determineertabel is geen meetinstrument maar een hulpmiddel."
+    }
+   ]
+  },
+  {
+   "kop": "Wie eet wie: de voedselrelaties",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Organismen hebben allerlei <strong>onderlinge relaties</strong>: om te eten, om te schuilen (bescherming) en om zich voort te planten, denk aan een bij die een bloem bestuift. De bekendste zijn de voedselrelaties."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">rol</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze doen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">producenten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maken zelf energierijke stoffen met fotosynthese</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">planten, algen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">consumenten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eten andere organismen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">konijn, vos</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">detrivoren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eten dood organisch materiaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">regenworm, pissebed</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">reducenten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">breken dode resten helemaal af tot voedingsstoffen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bacteriën, schimmels</td></tr></table>",
+     "onderschrift": "Een jager of predator vangt en eet een prooi. Zonder reducenten zou alles onder dood materiaal bedolven raken."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>voedselketen</strong> is één rij met pijlen: gras → konijn → vos. De pijl betekent 'wordt gegeten door', dus hij wijst in de richting waarin de energie stroomt. In het echt eet een dier meestal van verschillende soorten; al die ketens samen vormen een <strong>voedselweb</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 190\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M166.6 16 H243.4 L281.8 56 H128.2 Z\" fill=\"#a2521f\" opacity=\"0.30\" stroke=\"#a2521f\" stroke-width=\"1.8\"/><text x=\"205.0\" y=\"40.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">toppredator</text><path d=\"M128.2 56 H281.8 L323.4 96 H86.6 Z\" fill=\"#c17f2b\" opacity=\"0.30\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><text x=\"205.0\" y=\"80.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">consumenten 2de orde</text><text x=\"462.0\" y=\"80.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">vleeseters</text><path d=\"M86.6 96 H323.4 L365.0 136 H45.0 Z\" fill=\"#6f8f4a\" opacity=\"0.30\" stroke=\"#6f8f4a\" stroke-width=\"1.8\"/><text x=\"205.0\" y=\"120.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">consumenten 1ste orde</text><text x=\"462.0\" y=\"120.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">planteneters</text><path d=\"M45.0 136 H365.0 L365.0 176 H45.0 Z\" fill=\"#2f5d50\" opacity=\"0.30\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"205.0\" y=\"160.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">producenten</text><text x=\"462.0\" y=\"160.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">planten</text><path d=\"M14 176 V20 m0 0 l-5 6 m5 -6 l5 6\" stroke=\"#6b7260\" stroke-width=\"1.6\" fill=\"none\"/><text x=\"24.0\" y=\"100.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">energie</text></svg>",
+     "onderschrift": "Deze voorstelling heet de voedselpiramide: elke laag wordt smaller naar boven toe. Bij elke stap gaat er energie verloren als warmte, dus kan elke laag maar een kleinere laag boven zich voeden."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>voedselkringloop</strong> toont nog iets anders: stoffen draaien rond. Planten nemen voedingsstoffen op, dieren eten, alles sterft, reducenten breken het af en de voedingsstoffen komen weer in de bodem. <strong>Energie</strong> daarentegen stroomt maar één kant op: ze komt van de zon en gaat uiteindelijk verloren als warmte. Daarom moet er telkens nieuwe zonne-energie bij."
+    }
+   ]
+  },
+  {
+   "kop": "Wat er gebeurt als je aan één draad trekt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>verstoring</strong> werkt door de hele keten. Verdwijnen alle vossen, dan komen er eerst meer konijnen, en daardoor blijft er minder gras over; daarna sterven er konijnen van de honger. Sterven de bijen uit, dan is er minder bestuiving, dus minder vruchten en zaden, dus minder voedsel voor alles wat daarvan eet, en uiteindelijk ook minder soorten bloeiende planten."
+    },
+    {
+     "soort": "kader",
+     "html": "Ook <em>te veel</em> van iets is een verstoring. Spoelt er mest van een akker in een vijver, dan komen er enorm veel algen. Het water wordt troebel, de waterplanten sterven, en als de algen afsterven, verbruiken de reducenten zo veel zuurstof dat de vissen stikken."
+    }
+   ]
+  },
+  {
+   "kop": "Biodiversiteit en de mens",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Biodiversiteit</strong> is de verscheidenheid aan soorten in een gebied, en ook de variatie binnen een soort. Ze is een soort verzekering: een weiland met tien soorten bloemen houdt bij ziekte of droogte altijd nog soorten over die het wel volhouden. Een <strong>monocultuur</strong> kan door één ziekte of één droog jaar in zijn geheel verloren gaan."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">slecht voor de biodiversiteit</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">goed voor de biodiversiteit</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ontbossing, overbevissing</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ecoducten over of onder een weg</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vervuiling, verharding</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">begrazing met schapen of runderen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">monocultuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">streekeigen aanplanting</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">invasieve exoten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dagen zonder vlees</td></tr></table>",
+     "onderschrift": "Een exoot is een soort die van elders komt en hier niet van nature voorkomt; een invasieve exoot, zoals de Japanse duizendknoop, verdringt inheemse soorten omdat ze hier geen natuurlijke vijanden heeft."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Begrazing</strong> lijkt ruw, maar grazers houden gras en struiken kort, zodat kleine bloeiende planten licht krijgen. Daarom wordt het als beheer gebruikt. Een <strong>ecoduct</strong> verbindt twee stukken natuur die door een weg doorsneden zijn, zodat dieren zich kunnen verplaatsen en populaties niet geïsoleerd raken."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je eigen invloed meet je met je <strong>ecologische voetafdruk</strong>: de oppervlakte natuur die nodig is voor jouw manier van leven. Je <strong>watervoetafdruk</strong> telt daarbij ook het verborgen water mee, het water dat nodig was om je kleren of je eten te maken."
+    }
+   ]
+  },
+  {
+   "kop": "Aangepast aan je omgeving",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Aanpassingen</strong> zijn kenmerken die de overlevingskansen en de voortplantingskansen vergroten in een bepaalde omgeving: kleur, kieuwen, stekels, de stand van de ogen, de gestalte, de grootte en de stand van de bladeren, de lengte van de stengel."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">kenmerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">omgeving</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarom het helpt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dikke vetlaag, kleine oren (ijsbeer)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">koud</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">minder warmteverlies</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kleine of naaldvormige bladeren, waslaag, diepe wortels</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">droog</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">minder waterverlies</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kieuwen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">water</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zuurstof uit het water halen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">witte wintervacht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sneeuw</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schutkleur: minder opgemerkt worden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ogen opzij (haas) of vooraan (vos)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">prooi of jager</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rondom kijken of afstand schatten</td></tr></table>",
+     "onderschrift": "Wie langer leeft, krijgt meer nakomelingen. Zo blijven zulke kenmerken in een soort bestaan."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Abiotisch is niet-levend (licht, temperatuur, vocht); biotisch zijn de organismen zelf.",
+  "Producenten, consumenten, detrivoren en reducenten: elk hun rol in de voedselrelaties.",
+  "Een keten is één rij, een web zijn alle ketens samen, een piramide toont de aantallen.",
+  "Stoffen gaan rond in een kringloop; energie stroomt maar één kant op en gaat verloren als warmte.",
+  "Biodiversiteit maakt een ecosysteem bestand tegen ziekte, droogte en verstoring.",
+  "Een aanpassing vergroot de overlevings- en voortplantingskansen in een bepaalde omgeving."
+ ]
+}

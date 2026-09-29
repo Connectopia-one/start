@@ -1,0 +1,105 @@
+{
+ "vak": "Nederlands",
+ "titel": "Zinsdelen, zinssoorten en congruentie",
+ "onder": "Een zin uit elkaar halen: wie doet wat, en hoe de delen bij elkaar passen.",
+ "secties": [
+  {
+   "kop": "De persoonsvorm en het onderwerp",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>persoonsvorm</strong> is het werkwoord dat van vorm verandert als je de zin in een andere tijd zet: 'hij loopt' wordt 'hij liep'. Een tweede trucje: maak er een ja-neevraag van. Het werkwoord dat dan vooraan springt, is de persoonsvorm. In 'De directeur heeft de brief gisteren ondertekend' is dat 'heeft'; het deelwoord 'ondertekend' verandert niet mee."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>onderwerp</strong> vind je met <em>wie of wat</em> plus de persoonsvorm. Wie wast? De buurvrouw. Het onderwerp mag gerust achter de persoonsvorm staan: in 'Op zaterdag traint de ploeg in Genk' is 'de ploeg' nog altijd het onderwerp, en in 'Er komen drie gasten' is dat 'drie gasten' — 'er' vult alleen de eerste plaats op."
+    }
+   ]
+  },
+  {
+   "kop": "De andere zinsdelen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 70\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"4.0\" y=\"4\" width=\"55.5\" height=\"34\" rx=\"8\" fill=\"#2f5d5022\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"31.8\" y=\"26\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#234539\">Tom</text><text x=\"31.8\" y=\"55\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#2f5d50\">onderwerp</text><rect x=\"65.5\" y=\"4\" width=\"92.5\" height=\"34\" rx=\"8\" fill=\"#23453922\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"111.8\" y=\"26\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#234539\">geeft</text><text x=\"111.8\" y=\"55\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#234539\">persoonsvorm</text><rect x=\"164.0\" y=\"4\" width=\"148.0\" height=\"34\" rx=\"8\" fill=\"#c17f2b22\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"238.0\" y=\"26\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#234539\">zijn zus</text><text x=\"238.0\" y=\"55\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#c17f2b\">meewerkend voorwerp</text><rect x=\"318.0\" y=\"4\" width=\"148.0\" height=\"34\" rx=\"8\" fill=\"#2f5d5022\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"392.0\" y=\"26\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#234539\">een boek</text><text x=\"392.0\" y=\"55\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#2f5d50\">lijdend voorwerp</text></svg>",
+     "onderschrift": "Wie of wat geeft Tom? Een boek. Aan wie? Aan zijn zus."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">zinsdeel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vraag die je stelt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onderwerp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie of wat + persoonsvorm?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">De buurvrouw wast haar auto.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lijdend voorwerp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie of wat + persoonsvorm + onderwerp?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Tom geeft een boek.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meewerkend voorwerp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aan wie of voor wie? (je kan er 'aan' voor zetten)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Hij schrijft zijn oma een kaartje.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bijwoordelijke bepaling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waar, wanneer, hoe, waarom?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Gisteren fietste hij rustig naar school.</td></tr></table>",
+     "onderschrift": "Niet elke zin heeft een lijdend voorwerp: 'hij slaapt' heeft er geen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Pas op met bepalingen die op een meewerkend voorwerp lijken. In 'De kinderen kregen van de directeur een diploma' is er géén meewerkend voorwerp: de kinderen zijn het onderwerp, het diploma het lijdend voorwerp, en 'van de directeur' zegt van wie ze het kregen."
+    }
+   ]
+  },
+  {
+   "kop": "Doen-relatie en zijn-relatie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>gezegde</strong> zegt wat er over het onderwerp beweerd wordt. Er zijn twee soorten."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat er gebeurt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">doen-relatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het onderwerp voert een handeling uit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Mijn zus repareert fietsen.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zijn-relatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het onderwerp wordt gelijkgesteld aan iets</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Mijn zus is verpleegkundige.</td></tr></table>",
+     "onderschrift": "Bij een zijn-relatie doet het onderwerp niets: het krijgt een naam of een eigenschap."
+    },
+    {
+     "soort": "tekst",
+     "html": "De werkwoorden van de zijn-relatie zijn <strong>zijn</strong>, <strong>worden</strong>, <strong>blijven</strong>, blijken, lijken, schijnen en heten. Wat erbij hoort, is het <strong>naamwoordelijk deel</strong>: in 'Het weer wordt beter' is dat 'beter', in 'Hij is de beste van de klas' is dat 'de beste van de klas'. In 'Mijn broer blijft rustig onder druk' vormen 'blijft' en 'rustig' samen het gezegde; 'onder druk' is een bepaling."
+    }
+   ]
+  },
+  {
+   "kop": "Zinssoorten",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">zinssoort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mededelend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Hij komt morgen mee.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vragend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Komt hij morgen mee?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bevelend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Sluit het raam.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uitroepend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wat een lawaai maakt die machine!</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bevestigend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ik heb veel tijd.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ontkennend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ik heb geen tijd.</td></tr></table>",
+     "onderschrift": "Woorden als niet, geen, nooit en niemand maken een zin ontkennend; 'altijd' bevestigt net."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>bevelende</strong> zin heeft meestal geen onderwerp: 'Kom binnen.' Soms is de vorm vragend maar de bedoeling een verzoek: 'Zou je het raam even willen sluiten?' klinkt beleefder dan een bevel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Tel de persoonsvormen om te weten hoeveel zinnen er in elkaar zitten. Eén persoonsvorm is een <strong>enkelvoudige</strong> zin. Twee of meer maken er een <strong>samengestelde</strong> zin van: 'Hij bleef thuis omdat hij ziek was' (bleef, was), 'Toen hij thuiskwam, was het al donker', 'Ze zei dat ze later zou komen'. In 'Ik wist niet dat je ziek was, dus ik belde niet' staan er drie: wist, was en belde."
+    }
+   ]
+  },
+  {
+   "kop": "Congruentie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Congruentie</strong> betekent dat het onderwerp en de persoonsvorm bij elkaar passen in enkelvoud of meervoud: 'de hond blaft', 'de honden blaffen', 'de leerlingen wachten op de bus'."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 113\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"117.5\" y=\"16\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">de hond</text><text x=\"117.5\" y=\"31\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">de leerling</text><text x=\"117.5\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">de doos met boeken</text><path d=\"M117.5 61 v12 m0 0 l-4 -5 m4 5 l4 -5\" stroke=\"#2f5d50\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"79.5\" y=\"77\" width=\"76\" height=\"30\" rx=\"8\" fill=\"#2f5d50\" /><text x=\"117.5\" y=\"97\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#ffffff\">staat, blaft</text><text x=\"352.5\" y=\"16\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">de honden</text><text x=\"352.5\" y=\"31\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">de leerlingen</text><text x=\"352.5\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">mijn ouders</text><path d=\"M352.5 61 v12 m0 0 l-4 -5 m4 5 l4 -5\" stroke=\"#c17f2b\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"314.5\" y=\"77\" width=\"76\" height=\"30\" rx=\"8\" fill=\"#c17f2b\" /><text x=\"352.5\" y=\"97\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#ffffff\">staan, blaffen</text></svg>",
+     "onderschrift": "Zoek eerst het onderwerp: de rest van de zin mag je niet in de war brengen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daar gaat het vaak mis bij lange zinnen. In 'De doos met boeken staat in de gang' is het onderwerp 'de doos', enkelvoud; 'met boeken' is maar een bepaling. Ook een groep mensen die je als één geheel noemt, is enkelvoud: de regering heeft, de groep kinderen speelt, de rij wachtenden staat. En 'een van de leerlingen heeft het gezien' blijft enkelvoud, want het onderwerp is 'een'."
+    },
+    {
+     "soort": "weetje",
+     "html": "Zinsontleding is geen doel op zich. Het helpt je bij het schrijven: wie bij een lange zin het onderwerp terugvindt, ziet meteen of de persoonsvorm klopt."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "De persoonsvorm verandert mee als je de tijd verandert of er een vraag van maakt.",
+  "Onderwerp: wie of wat + persoonsvorm. Lijdend voorwerp: daar nog eens het onderwerp bij.",
+  "Voor een meewerkend voorwerp kan je 'aan' of 'voor' zetten.",
+  "Doen-relatie: het onderwerp handelt. Zijn-relatie: zijn, worden, blijven + naamwoordelijk deel.",
+  "Eén persoonsvorm = enkelvoudige zin; twee of meer = samengestelde zin.",
+  "Congruentie: zoek het onderwerp, ook in 'de doos met boeken staat'."
+ ]
+}

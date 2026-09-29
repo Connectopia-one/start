@@ -3,9 +3,9 @@
 import { useRef, useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { maakKind, verwijderKind } from "./kinderen/actions";
+import { maakKind, verwijderKind, zetVoortgangsbalk } from "./kinderen/actions";
 
-type Kind = { id: string; naam: string };
+type Kind = { id: string; naam: string; toonVoortgang: boolean };
 
 export function KinderenLijst({ kinderen }: { kinderen: Kind[] }) {
   const router = useRouter();
@@ -13,6 +13,34 @@ export function KinderenLijst({ kinderen }: { kinderen: Kind[] }) {
   const [bezig, setBezig] = useState(false);
   const [fout, setFout] = useState<string | null>(null);
   const [zekerId, setZekerId] = useState<string | null>(null);
+
+  /*
+    De voortgangsbalk bij de oefeningen staat per kind. Gemeld door een ouder
+    op 29 september 2026: haar ene kind was blij dat er geen balk staat en
+    blokkeerde zodra het zag hoeveel vragen er waren, haar andere kind was net
+    gefrustreerd omdat het graag weet hoe ver het al is.
+
+    Het vinkje slaat meteen op. Wat je aanklikt blijft intussen staan, ook
+    voor de server antwoordt; anders springt het vinkje terug en lijkt het
+    alsof er niets gebeurd is.
+  */
+  const [balken, setBalken] = useState<Record<string, boolean>>({});
+  const balkAan = (k: Kind) => balken[k.id] ?? k.toonVoortgang;
+
+  async function zetBalk(kind: Kind, aan: boolean) {
+    setBalken((b) => ({ ...b, [kind.id]: aan }));
+    setFout(null);
+    const data = new FormData();
+    data.set("kind_id", kind.id);
+    data.set("aan", aan ? "ja" : "nee");
+    const antwoord = await zetVoortgangsbalk(data);
+    if (antwoord.fout) {
+      setFout(antwoord.fout);
+      setBalken((b) => ({ ...b, [kind.id]: !aan }));
+      return;
+    }
+    router.refresh();
+  }
 
   async function wis(kindId: string) {
     setBezig(true);
@@ -58,6 +86,23 @@ export function KinderenLijst({ kinderen }: { kinderen: Kind[] }) {
                 </button>
               </div>
             </div>
+
+            <label className="mt-2 flex items-start gap-2 text-sm text-ink-dim">
+              <input
+                type="checkbox"
+                checked={balkAan(k)}
+                onChange={(e) => zetBalk(k, e.target.checked)}
+                className="mt-0.5 h-4 w-4 shrink-0 rounded border-border text-forest focus:ring-forest"
+              />
+              <span>
+                Toon een voortgangsbalk bij de oefeningen
+                <span className="block text-xs">
+                  Dan ziet {k.naam} hoeveel vragen er zijn en hoeveel er al
+                  nagekeken zijn. Sommige kinderen hebben daar rust bij, andere
+                  net niet.
+                </span>
+              </span>
+            </label>
 
             {zekerId === k.id && (
               <div className="mt-2 rounded-md bg-danger/10 px-3 py-2 text-sm">

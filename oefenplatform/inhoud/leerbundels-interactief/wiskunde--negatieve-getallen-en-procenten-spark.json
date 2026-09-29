@@ -1,0 +1,183 @@
+{
+ "vak": "Wiskunde",
+ "titel": "Negatieve getallen en procenten",
+ "onder": "Rekenen onder nul, en rekenen per honderd — twee dingen die in het dagelijks leven overal opduiken.",
+ "secties": [
+  {
+   "kop": "Onder nul",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>negatief getal</strong> is een getal kleiner dan nul. Je kent ze van de thermometer, van een lift die naar −2 gaat, en van een rekening die in het rood staat."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 86\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"34\" y1=\"44\" x2=\"436\" y2=\"44\" stroke=\"#23291f\" stroke-width=\"2\"/><path d=\"M436 44 l-9 -5 v10 z\" fill=\"#23291f\"/><path d=\"M34 44 l9 -5 v10 z\" fill=\"#23291f\"/><line x1=\"74.2\" y1=\"31\" x2=\"74.2\" y2=\"57\" stroke=\"#a2521f\" stroke-width=\"3\"/><text x=\"74.2\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" fill=\"#a2521f\" font-weight=\"600\">−8</text><line x1=\"235.0\" y1=\"31\" x2=\"235.0\" y2=\"57\" stroke=\"#23291f\" stroke-width=\"3\"/><text x=\"235.0\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" fill=\"#23291f\" font-weight=\"600\">0</text><line x1=\"395.8\" y1=\"31\" x2=\"395.8\" y2=\"57\" stroke=\"#2f5d50\" stroke-width=\"3\"/><text x=\"395.8\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" fill=\"#2f5d50\" font-weight=\"600\">8</text><line x1=\"174.7\" y1=\"36\" x2=\"174.7\" y2=\"52\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"174.7\" y=\"67\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#6b7260\" font-weight=\"400\">−3</text><line x1=\"295.3\" y1=\"36\" x2=\"295.3\" y2=\"52\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"295.3\" y=\"67\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#6b7260\" font-weight=\"400\">3</text></svg>",
+     "onderschrift": "Hoe verder naar links, hoe kleiner. Daarom is −8 kleiner dan −3, ook al klinkt acht groter dan drie."
+    },
+    {
+     "soort": "kader",
+     "html": "Dit is de valkuil die het vaakst misgaat: bij negatieve getallen draait de volgorde om. −3 is <strong>groter</strong> dan −5, want −3 ligt rechts van −5 op de lijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "Optellen is een stap naar <strong>rechts</strong>, aftrekken een stap naar <strong>links</strong>. −5 + 8 betekent: begin op −5 en ga acht naar rechts. Je komt uit op <strong>3</strong>. En 4 − 9 betekent: begin op 4 en ga negen naar links, dus <strong>−5</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Twee mintekens naast elkaar",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Soms staat er een min vóór een negatief getal: 5 − (−6). Die tweede min hoort bij het getal, niet bij de bewerking. Iets aftrekken dat zelf onder nul zit, maakt je uitkomst juist <strong>groter</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dus 5 − (−6) = 5 + 6 = <strong>11</strong>, en −7 − (−3) = −7 + 3 = <strong>−4</strong>. Een handige manier om het te onthouden: het tegengestelde aftrekken is hetzelfde als optellen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een thermometer maakt het concreet. Het is 's ochtends −3 °C en het wordt 7 graden warmer: −3 + 7 = <strong>4 °C</strong>. En hoeveel <strong>graden</strong> stijgt het van −5 °C naar 3 °C? Eerst 5 graden tot aan nul, en dan nog 3: samen <strong>8 graden</strong>. Tel over de nul heen in twee stukjes, dan gaat het vanzelf."
+    },
+    {
+     "soort": "kader",
+     "html": "Let op het verschil tussen het <strong>teken</strong> van een getal en de <strong>bewerking</strong>. In −6 − 4 is de eerste min een teken en de tweede een bewerking: je begint op −6 en gaat nog vier naar links, dus <strong>−10</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Maal en gedeeld: kijk eerst naar de tekens",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij vermenigvuldigen en delen reken je eerst met de getallen alsof er geen minnen staan, en bepaal je daarna pas het teken."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 228\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"209.0\" y=\"34.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">tweede getal +</text><text x=\"293.0\" y=\"34.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">tweede getal −</text><text x=\"155.0\" y=\"92.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">eerste getal +</text><text x=\"155.0\" y=\"176.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">eerste getal −</text><rect x=\"167.0\" y=\"46\" width=\"84\" height=\"84\" rx=\"10\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"209.0\" y=\"76.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#6b7260\">+ × +</text><text x=\"209.0\" y=\"104.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"26\" font-weight=\"600\" fill=\"#2f5d50\">+</text><rect x=\"251.0\" y=\"46\" width=\"84\" height=\"84\" rx=\"10\" fill=\"#f6efe4\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"293.0\" y=\"76.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#6b7260\">+ × −</text><text x=\"293.0\" y=\"104.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"26\" font-weight=\"600\" fill=\"#c17f2b\">−</text><rect x=\"167.0\" y=\"130\" width=\"84\" height=\"84\" rx=\"10\" fill=\"#f6efe4\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"209.0\" y=\"160.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#6b7260\">− × +</text><text x=\"209.0\" y=\"188.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"26\" font-weight=\"600\" fill=\"#c17f2b\">−</text><rect x=\"251.0\" y=\"130\" width=\"84\" height=\"84\" rx=\"10\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"293.0\" y=\"160.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#6b7260\">− × −</text><text x=\"293.0\" y=\"188.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"26\" font-weight=\"600\" fill=\"#2f5d50\">+</text></svg>",
+     "onderschrift": "Twee dezelfde tekens geven plus, twee verschillende geven min. Voor delen geldt precies hetzelfde."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dus −3 × 4 = <strong>−12</strong>, −6 × −2 = <strong>12</strong> en −20 : 5 = <strong>−4</strong>. Twee negatieve getallen vermenigvuldigen geeft altijd een positieve uitkomst."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>machten</strong> komt dat terug. (−2)³ is −2 × −2 × −2 = <strong>−8</strong>: drie mintekens, dus min. Maar (−2)⁴ = <strong>16</strong>: vier mintekens vallen twee aan twee weg. Een <strong>even</strong> exponent geeft plus, een <strong>oneven</strong> exponent houdt de min."
+    },
+    {
+     "soort": "kader",
+     "html": "Vergeet de volgorde niet. Bij −3 × (4 − 7) reken je eerst het haakje uit: 4 − 7 = −3. Daarna −3 × −3 = <strong>9</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Procent is per honderd",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Procent</strong> betekent letterlijk 'per honderd'. 50 % is vijftig van de honderd, ofwel de helft. Elk percentage is dus ook een breuk en een kommagetal."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 230 230\" width=\"230\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"0.0\" width=\"23.0\" height=\"23.0\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"23.0\" y=\"0.0\" width=\"23.0\" height=\"23.0\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"46.0\" y=\"0.0\" width=\"23.0\" height=\"23.0\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"69.0\" y=\"0.0\" width=\"23.0\" height=\"23.0\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"92.0\" y=\"0.0\" width=\"23.0\" height=\"23.0\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"115.0\" y=\"0.0\" width=\"23.0\" height=\"23.0\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"138.0\" y=\"0.0\" width=\"23.0\" height=\"23.0\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"161.0\" y=\"0.0\" width=\"23.0\" height=\"23.0\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"184.0\" y=\"0.0\" width=\"23.0\" height=\"23.0\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"207.0\" y=\"0.0\" width=\"23.0\" height=\"23.0\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"0.0\" y=\"23.0\" width=\"23.0\" height=\"23.0\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"23.0\" y=\"23.0\" width=\"23.0\" height=\"23.0\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"46.0\" y=\"23.0\" width=\"23.0\" height=\"23.0\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"69.0\" y=\"23.0\" width=\"23.0\" height=\"23.0\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"92.0\" y=\"23.0\" width=\"23.0\" height=\"23.0\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"115.0\" y=\"23.0\" width=\"23.0\" height=\"23.0\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"138.0\" y=\"23.0\" width=\"23.0\" height=\"23.0\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"161.0\" y=\"23.0\" width=\"23.0\" height=\"23.0\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"184.0\" y=\"23.0\" width=\"23.0\" height=\"23.0\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"207.0\" y=\"23.0\" width=\"23.0\" height=\"23.0\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"0.0\" y=\"46.0\" width=\"23.0\" height=\"23.0\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"23.0\" y=\"46.0\" width=\"23.0\" height=\"23.0\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"46.0\" y=\"46.0\" width=\"23.0\" height=\"23.0\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"69.0\" y=\"46.0\" width=\"23.0\" height=\"23.0\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"92.0\" y=\"46.0\" width=\"23.0\" height=\"23.0\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"115.0\" y=\"46.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"138.0\" y=\"46.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"161.0\" y=\"46.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"184.0\" y=\"46.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"207.0\" y=\"46.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"0.0\" y=\"69.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"23.0\" y=\"69.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"46.0\" y=\"69.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"69.0\" y=\"69.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"92.0\" y=\"69.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"115.0\" y=\"69.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"138.0\" y=\"69.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"161.0\" y=\"69.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"184.0\" y=\"69.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"207.0\" y=\"69.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"0.0\" y=\"92.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"23.0\" y=\"92.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"46.0\" y=\"92.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"69.0\" y=\"92.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"92.0\" y=\"92.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"115.0\" y=\"92.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"138.0\" y=\"92.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"161.0\" y=\"92.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"184.0\" y=\"92.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"207.0\" y=\"92.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"0.0\" y=\"115.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"23.0\" y=\"115.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"46.0\" y=\"115.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"69.0\" y=\"115.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"92.0\" y=\"115.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"115.0\" y=\"115.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"138.0\" y=\"115.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"161.0\" y=\"115.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"184.0\" y=\"115.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"207.0\" y=\"115.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"0.0\" y=\"138.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"23.0\" y=\"138.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"46.0\" y=\"138.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"69.0\" y=\"138.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"92.0\" y=\"138.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"115.0\" y=\"138.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"138.0\" y=\"138.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"161.0\" y=\"138.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"184.0\" y=\"138.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"207.0\" y=\"138.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"0.0\" y=\"161.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"23.0\" y=\"161.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"46.0\" y=\"161.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"69.0\" y=\"161.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"92.0\" y=\"161.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"115.0\" y=\"161.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"138.0\" y=\"161.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"161.0\" y=\"161.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"184.0\" y=\"161.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"207.0\" y=\"161.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"0.0\" y=\"184.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"23.0\" y=\"184.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"46.0\" y=\"184.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"69.0\" y=\"184.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"92.0\" y=\"184.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"115.0\" y=\"184.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"138.0\" y=\"184.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"161.0\" y=\"184.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"184.0\" y=\"184.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"207.0\" y=\"184.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"0.0\" y=\"207.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"23.0\" y=\"207.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"46.0\" y=\"207.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"69.0\" y=\"207.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"92.0\" y=\"207.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"115.0\" y=\"207.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"138.0\" y=\"207.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"161.0\" y=\"207.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"184.0\" y=\"207.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"207.0\" y=\"207.0\" width=\"23.0\" height=\"23.0\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"0\" y=\"0\" width=\"230\" height=\"230\" fill=\"none\" stroke=\"#234539\" stroke-width=\"1.8\"/></svg>",
+     "onderschrift": "Vijfentwintig van de honderd vakjes: 25 %, ofwel 1/4, ofwel 0,25. Drie schrijfwijzen voor hetzelfde."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een paar percentages ken je best als breuk, want dan reken je ze uit het hoofd: 50 % is de <strong>helft</strong>, 25 % is een <strong>kwart</strong> (60 : 4 = 15), 10 % is een <strong>tiende</strong> (80 : 10 = 8). Het volledige geheel is <strong>100 %</strong>; meer dan 100 % kan ook, maar dan heb je meer dan waarmee je begon."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een percentage van een getal reken je uit door te vermenigvuldigen met het kommagetal. 10 % van 80 is 0,10 × 80 = <strong>8</strong>. En 15 % van 200 is 0,15 × 200 = <strong>30</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Andersom kan ook: welk deel is 5 van de 25? Deel door elkaar en maal honderd: 5 : 25 = 0,20, dus <strong>20 %</strong>. En 3/4 wordt 0,75, dus <strong>75 %</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "Omdat het gewoon een vermenigvuldiging is, mag je de getallen omwisselen: 30 % van 50 is precies evenveel als 50 % van 30. Allebei <strong>15</strong>. Dat scheelt soms veel rekenwerk."
+    }
+   ]
+  },
+  {
+   "kop": "Korting en verhoging in één stap",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij korting kan je het in twee stappen doen: een jas van € 60 met 20 % korting → de korting is 0,20 × 60 = 12 euro, dus je betaalt <strong>€ 48</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Sneller gaat het in één keer. Bij 20 % korting betaal je de overige 80 %, en 0,80 × 60 = 48. Bij een verhoging tel je erbij op: 120 % van 50 is 1,20 × 50 = <strong>60</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 124\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"100\" y=\"32\" width=\"288\" height=\"88\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"88.0\" y=\"58.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">percentage</text><text x=\"88.0\" y=\"96.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">bedrag</text><text x=\"148.0\" y=\"58.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">100 %</text><text x=\"148.0\" y=\"96.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#2f5d50\">€ 60</text><line x1=\"196\" y1=\"32\" x2=\"196\" y2=\"120\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"244.0\" y=\"58.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">80 %</text><text x=\"244.0\" y=\"96.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#2f5d50\">€ 48</text><line x1=\"292\" y1=\"32\" x2=\"292\" y2=\"120\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"340.0\" y=\"58.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">50 %</text><text x=\"340.0\" y=\"96.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#2f5d50\">€ 30</text><line x1=\"100\" y1=\"74\" x2=\"388\" y2=\"74\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/></svg>",
+     "onderschrift": "Wat je met de bovenste rij doet, doe je met de onderste ook. Zo lees je elk percentage van hetzelfde bedrag af."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ken je de nieuwe prijs en wil je de oude weten, dan moet je <strong>delen</strong>. Een spel kost € 48 ná 20 % korting: dat is 80 % van de oude prijs, dus 48 : 0,80 = <strong>€ 60</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Hoeveel procent is het gestegen?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Om een stijging of daling in procent uit te drukken, vergelijk je het <strong>verschil</strong> met waar je vandaan komt — niet met waar je uitkomt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Van 40 naar 50 is een verschil van 10, en dat moet je delen door de <strong>40</strong>: 10 : 40 = 0,25, dus <strong>25 %</strong> gestegen. Zou je door 50 delen, dan kwam je op 20 % uit, en dat is het antwoord op een andere vraag."
+    },
+    {
+     "soort": "kader",
+     "html": "Andersom werkt het ook: 60 % van een klas zijn meisjes, en dat zijn er 15. Hoeveel leerlingen zijn er dan? Deel door het percentage: 15 : 0,60 = <strong>25</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Drie valkuilen met procenten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Procenten tellen niet zomaar op, want elk percentage hoort bij een ander getal."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Eerst 10 % omhoog en dan 10 % omlaag</strong> brengt je niet terug bij de start. € 100 wordt € 110, en 10 % daarvan is 11, dus je eindigt op <strong>€ 99</strong>. De tweede tien procent wordt van een gróter bedrag genomen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Eerst 50 % duurder en dan 50 % goedkoper</strong> is nog duidelijker: € 100 wordt € 150, en de helft daarvan is <strong>€ 75</strong>. Je zit dus láger dan waar je begon."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het grootste percentage is niet altijd de grootste korting</strong>. 30 % korting op € 80 laat je 0,70 × 80 = € 56 betalen; € 25 korting op € 80 laat je € 55 betalen. De winkel met de <strong>€ 25</strong> korting is dus de goedkoopste, ook al klinkt 30 % indrukwekkender."
+    },
+    {
+     "soort": "kader",
+     "html": "Reken bij zo'n vergelijking altijd allebei de eindprijzen uit. Het percentage en het bedrag staan naast elkaar in de winkel juist om moeilijk vergelijkbaar te zijn."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Hoe verder naar links op de getallenlijn, hoe kleiner: −8 is kleiner dan −3.",
+  "Optellen gaat naar rechts, aftrekken naar links. −5 + 8 = 3 en 4 − 9 = −5.",
+  "Een tegengestelde aftrekken is optellen: 5 − (−6) = 11.",
+  "Maal en gedeeld: gelijke tekens geven plus, verschillende tekens geven min.",
+  "Macht van een negatief getal: even exponent geeft plus, oneven houdt de min. (−2)³ = −8, (−2)⁴ = 16.",
+  "Procent is per honderd. 50 % is de helft, 25 % een kwart, 10 % een tiende. Het geheel is 100 %.",
+  "10 % van 80 = 8. En 30 % van 50 = 50 % van 30.",
+  "Over de nul tellen in twee stukjes: van −5 °C naar 3 °C is 5 + 3 = 8 graden.",
+  "In één stap: 20 % korting → × 0,80. Terug naar de oude prijs → delen door 0,80.",
+  "Stijging in procent: verschil delen door waar je vandaan komt, niet door waar je uitkomt.",
+  "10 % omhoog en dan 10 % omlaag geeft 99, niet 100: het tweede percentage hoort bij een ander getal."
+ ]
+}

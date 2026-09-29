@@ -21,7 +21,16 @@ import {
 } from "@/lib/antwoord";
 import { bewaarActiefKind, leesActiefKind } from "@/lib/actiefkind";
 
-type Kind = { id: string; naam: string };
+/*
+  toonVoortgang: staat er een voortgangsbalk bij de vragen van dit kind?
+
+  Een ouder van twee kinderen meldde op 29 september 2026 dat haar ene kind
+  blij was dat die balk er níét is (het zag hoeveel vragen er waren en
+  blokkeerde), terwijl het andere er net door geholpen wordt: voorspelbaarheid.
+  De keuze hangt dus aan het kind, niet aan het platform. De ouder zet ze op
+  /account; standaard staat ze uit.
+*/
+type Kind = { id: string; naam: string; toonVoortgang?: boolean };
 
 type Vraag = {
   id: string;
@@ -546,6 +555,13 @@ export function Quiz({
     );
   }
 
+  const toonBalk = Boolean(
+    kinderen.find((k) => k.id === actiefKindId)?.toonVoortgang,
+  );
+  const perVragen = vragen.length
+    ? Math.round((aantalGecontroleerd / vragen.length) * 100)
+    : 0;
+
   return (
     <div className="mt-8 space-y-4">
       {kinderen.length > 1 && (
@@ -575,6 +591,34 @@ export function Quiz({
           </Link>{" "}
           om een rapport per kind te krijgen.
         </p>
+      )}
+
+      {toonBalk && (
+        <div className="sticky top-2 z-10 rounded-xl border border-border bg-surface/95 px-4 py-3 backdrop-blur">
+          <div className="flex flex-wrap items-baseline justify-between gap-x-3">
+            <p className="text-sm font-medium text-ink">
+              {aantalGecontroleerd} van de {vragen.length} nagekeken
+            </p>
+            <p className="text-xs text-ink-dim">
+              {klaar
+                ? "Je bent er helemaal door."
+                : `Nog ${vragen.length - aantalGecontroleerd} te gaan.`}
+            </p>
+          </div>
+          <div
+            role="progressbar"
+            aria-valuemin={0}
+            aria-valuemax={vragen.length}
+            aria-valuenow={aantalGecontroleerd}
+            aria-label="Hoeveel vragen je al nagekeken hebt"
+            className="mt-2 h-2 w-full overflow-hidden rounded-full bg-border"
+          >
+            <div
+              className="h-full rounded-full bg-forest transition-all duration-300"
+              style={{ width: `${perVragen}%` }}
+            />
+          </div>
+        </div>
       )}
 
       {alsVakjes && (

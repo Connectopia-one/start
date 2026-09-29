@@ -1,0 +1,108 @@
+{
+ "vak": "Frans",
+ "titel": "Woordenschat: getallen, tijd, weer, reizen en landen",
+ "onder": "De gegevens waar leesvragen het vaakst naar vragen: hoeveel, wanneer en waar.",
+ "secties": [
+  {
+   "kop": "De getallen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het Franse telsysteem doet boven de zestig iets bijzonders. <strong>Soixante-dix</strong> is 60 + 10 = 70. <strong>Quatre-vingts</strong> is letterlijk 'vier twintigen', dus 4 x 20 = 80. En <strong>quatre-vingt-dix-sept</strong> is 80 + 10 + 7 = 97. In België hoor je ook <em>septante</em> en <em>nonante</em>, maar op het examen staat de Franse vorm."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">getal</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">douze</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">12</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">quinze</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">15</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">soixante</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">60</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">soixante-dix</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">70</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">quatre-vingts</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">80</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">quatre-vingt-dix-sept</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">97</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">100</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mille</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1000</td></tr></table>",
+     "onderschrift": "De vakfiche noemt 15, 80 en 100 uitdrukkelijk als voorbeelden."
+    },
+    {
+     "soort": "tekst",
+     "html": "Naast die <strong>hoofdtelwoorden</strong> heb je de <strong>rangtelwoorden</strong>: <em>premier</em> (de eerste), <em>deuxième</em> (de tweede), <em>troisième</em> (de derde), <em>dernier</em> (de laatste). <em>La deuxième fois</em> is 'de tweede keer'; <em>deux fois</em> zou 'twee keer' betekenen."
+    }
+   ]
+  },
+  {
+   "kop": "Hoeveelheden en maten",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "Na een hoeveelheid staat in het Frans alleen <strong>de</strong>, zonder lidwoord: <em>un kilo de pommes</em>, <em>un litre de lait</em>, <em>beaucoup de travail</em>, <em>un peu de sucre</em>, <em>assez de temps</em>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un kilo de pommes, un litre de lait</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kilo appels, een liter melk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beaucoup de, un peu de, assez de</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">veel, een beetje, genoeg</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">environ</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la moitié, la plupart</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de helft, de meeste</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">plus de, moins de</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meer dan, minder dan</td></tr></table>",
+     "onderschrift": "'La plupart des élèves' is niet 'tous les élèves'."
+    }
+   ]
+  },
+  {
+   "kop": "Dagen, maanden, seizoenen en feesten",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dagen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lundi (maandag), mardi, mercredi, jeudi, vendredi, samedi, dimanche (zondag)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maanden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">seizoenen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le printemps (lente), l'été (zomer), l'automne (herfst), l'hiver (winter)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">feesten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Noël (Kerstmis), Pâques (Pasen), le Nouvel An (Nieuwjaar)</td></tr></table>",
+     "onderschrift": "Juin en juillet lijken sterk op elkaar: juni en juli."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hier, aujourd'hui, demain, après-demain</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gisteren, vandaag, morgen, overmorgen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la semaine prochaine</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">volgende week</td></tr></table>",
+     "onderschrift": "'Là-bas' betekent daarginds: dat is een plaats, geen tijd."
+    }
+   ]
+  },
+  {
+   "kop": "Hoe laat is het?",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 144 144\" width=\"144\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"72\" cy=\"72\" r=\"64\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"2.2\"/><line x1=\"72.0\" y1=\"17.0\" x2=\"72.0\" y2=\"10.0\" stroke=\"#6b7260\" stroke-width=\"2.2\"/><text x=\"72.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">12</text><line x1=\"99.5\" y1=\"24.4\" x2=\"103.0\" y2=\"18.3\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"93.5\" y=\"34.8\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">1</text><line x1=\"119.6\" y1=\"44.5\" x2=\"125.7\" y2=\"41.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"109.2\" y=\"50.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">2</text><line x1=\"127.0\" y1=\"72.0\" x2=\"134.0\" y2=\"72.0\" stroke=\"#6b7260\" stroke-width=\"2.2\"/><text x=\"115.0\" y=\"72.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">3</text><line x1=\"119.6\" y1=\"99.5\" x2=\"125.7\" y2=\"103.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"109.2\" y=\"93.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">4</text><line x1=\"99.5\" y1=\"119.6\" x2=\"103.0\" y2=\"125.7\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"93.5\" y=\"109.2\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">5</text><line x1=\"72.0\" y1=\"127.0\" x2=\"72.0\" y2=\"134.0\" stroke=\"#6b7260\" stroke-width=\"2.2\"/><text x=\"72.0\" y=\"115.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">6</text><line x1=\"44.5\" y1=\"119.6\" x2=\"41.0\" y2=\"125.7\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"50.5\" y=\"109.2\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">7</text><line x1=\"24.4\" y1=\"99.5\" x2=\"18.3\" y2=\"103.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"34.8\" y=\"93.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">8</text><line x1=\"17.0\" y1=\"72.0\" x2=\"10.0\" y2=\"72.0\" stroke=\"#6b7260\" stroke-width=\"2.2\"/><text x=\"29.0\" y=\"72.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">9</text><line x1=\"24.4\" y1=\"44.5\" x2=\"18.3\" y2=\"41.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"34.8\" y=\"50.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">10</text><line x1=\"44.5\" y1=\"24.4\" x2=\"41.0\" y2=\"18.3\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"50.5\" y=\"34.8\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">11</text><line x1=\"72\" y1=\"72\" x2=\"41.1\" y2=\"80.3\" stroke=\"#234539\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"72\" x2=\"72.0\" y2=\"120.0\" stroke=\"#c17f2b\" stroke-width=\"3\" stroke-linecap=\"round\"/><circle cx=\"72\" cy=\"72\" r=\"3.5\" fill=\"#234539\"/></svg>",
+     "onderschrift": "Il est huit heures et demie — en dat is in het Nederlands halfnegen."
+    },
+    {
+     "soort": "kader",
+     "html": "Hier gaat het vaak mis. Het Frans telt <strong>door vanaf het voorbije uur</strong>, het Nederlands telt <strong>naar het volgende toe</strong>. <em>Huit heures et demie</em> is dus halfnegen, niet halfacht."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Il est huit heures.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het is acht uur.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Il est huit heures et quart.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het is kwart over acht.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Il est huit heures et demie.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het is halfnegen.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Il est sept heures moins le quart.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het is kwart voor zeven.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Il est midi / minuit.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het is twaalf uur 's middags / middernacht.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">à partir de 14 h / jusqu'à 14 h</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vanaf 14 uur / tot 14 uur</td></tr></table>",
+     "onderschrift": "Voor het uur gebruik je 'il est', voor het weer 'il fait'."
+    }
+   ]
+  },
+  {
+   "kop": "Het weer",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Over het weer zeg je <strong>il fait</strong>, niet 'il est': <em>il fait beau</em>, <em>il fait chaud</em>, <em>il fait froid</em>, <em>il fait du vent</em>. Daarnaast: <em>il pleut</em> (het regent), <em>il neige</em> (het sneeuwt), <em>il y a du soleil</em> (het is zonnig), <em>il y a des nuages</em> (het is bewolkt)."
+    },
+    {
+     "soort": "weetje",
+     "html": "<em>Le temps</em> betekent zowel 'het weer' als 'de tijd'. <em>Quel temps fait-il ?</em> gaat over het weer, <em>je n'ai pas le temps</em> over tijd. De zin eromheen beslist."
+    }
+   ]
+  },
+  {
+   "kop": "Reizen en landen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">les vacances</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vakantie (altijd meervoud)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le train, l'avion, le vélo, la voiture</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de trein, het vliegtuig, de fiets, de auto</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la gare, le quai, un billet, l'horaire</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het station, het perron, een ticket, de dienstregeling</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un aller-retour / un aller simple</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een heen-en-terugticket / een enkele reis</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la plage</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het strand</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la France, la Belgique</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Frankrijk, België — le français is de taal, une Française een Française</td></tr></table>",
+     "onderschrift": "La gare is de plaats waar je op de trein stapt, niet het vervoermiddel zelf."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>En</strong> + vervoermiddel: <em>en train</em>, <em>en voiture</em>, <em>en avion</em> — maar te voet is <em>à pied</em>. <strong>À</strong> + stad: <em>à Bruxelles</em>, <em>à Paris</em>. <strong>En</strong> + vrouwelijk land: <em>en France</em>, <em>en Belgique</em>; <strong>au</strong> + mannelijk land: <em>au Canada</em>. En <em>venir de</em> betekent 'afkomstig zijn uit': <em>je viens de Belgique</em>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "quinze = 15, soixante-dix = 70, quatre-vingts = 80, cent = 100.",
+  "Na een hoeveelheid staat alleen 'de': un kilo de pommes.",
+  "Il est … heures voor het uur, il fait … voor het weer.",
+  "Huit heures et demie is halfnegen, niet halfacht.",
+  "en train, à pied, à Bruxelles, en France, au Canada.",
+  "Leesvragen gaan vaak net over een uur, een prijs of een datum."
+ ]
+}

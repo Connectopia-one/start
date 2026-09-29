@@ -59,6 +59,7 @@ export function InteractieveLeerbundel({
   hoofdstukId,
   naarOefeningen,
   prent = null,
+  spel = true,
 }: {
   bundel: KlikbareBundel;
   hoofdstukId: string;
@@ -66,6 +67,8 @@ export function InteractieveLeerbundel({
   naarOefeningen: string;
   /** De prent die Kim voor dit hoofdstuk maakte, als die er is. */
   prent?: Puzzelbeeld | null;
+  /** Staat er een spelletje op de eindhalte? Bij ✨ Spark niet. */
+  spel?: boolean;
 }) {
   const laatste = bundel.secties.length; // de eindhalte krijgt dit nummer
   const [halte, setHalte] = useState(0);
@@ -160,6 +163,7 @@ export function InteractieveLeerbundel({
           hoofdstukId={hoofdstukId}
           naarOefeningen={naarOefeningen}
           prent={prent}
+          spel={spel}
           opnieuw={() => ga(0)}
         />
       ) : (
@@ -249,16 +253,18 @@ function Eindhalte({
   naarOefeningen,
   opnieuw,
   prent,
+  spel,
 }: {
   bundel: KlikbareBundel;
   hoofdstukId: string;
   naarOefeningen: string;
   opnieuw: () => void;
   prent: Puzzelbeeld | null;
+  spel: boolean;
 }) {
   // Liefst Kims eigen prent voor dit hoofdstuk; anders een tekening uit de
   // leerbundel.
-  const beeld = prent ?? puzzelBeeld(bundel);
+  const beeld = spel ? (prent ?? puzzelBeeld(bundel)) : null;
 
   return (
     <div className="mt-4 space-y-4">
@@ -279,15 +285,17 @@ function Eindhalte({
       </article>
 
       {/* Liefst de legpuzzel met een tekening uit het hoofdstuk. Heeft dit
-          hoofdstuk geen bruikbare tekening, dan blijft het volgordespel. */}
-      {beeld ? (
-        <Legpuzzel beeld={beeld} />
-      ) : (
-        <Volgordespel
-          koppen={bundel.secties.map((s) => s.kop)}
-          hoofdstukId={hoofdstukId}
-        />
-      )}
+          hoofdstuk geen bruikbare tekening, dan blijft het volgordespel. Bij
+          ✨ Spark staat er helemaal geen spelletje. */}
+      {spel &&
+        (beeld ? (
+          <Legpuzzel beeld={beeld} />
+        ) : (
+          <Volgordespel
+            koppen={bundel.secties.map((s) => s.kop)}
+            hoofdstukId={hoofdstukId}
+          />
+        ))}
 
       <div className="rounded-2xl border border-border bg-surface px-5 py-5 text-center">
         <p className="text-sm text-ink">Klaar met de tocht?</p>

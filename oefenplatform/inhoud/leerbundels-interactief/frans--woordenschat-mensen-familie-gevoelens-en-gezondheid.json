@@ -1,0 +1,92 @@
+{
+ "vak": "Frans",
+ "titel": "Woordenschat: mensen, familie, gevoelens en gezondheid",
+ "onder": "Jezelf en anderen voorstellen, beschrijven en zeggen hoe je je voelt.",
+ "secties": [
+  {
+   "kop": "Jezelf voorstellen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vraag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">antwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Comment tu t'appelles ?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je m'appelle Lotte. (s'appeler is wederkerend: je m'appelle, tu t'appelles, il s'appelle)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Quel âge as-tu ?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">J'ai quatorze ans. (ik ben veertien jaar)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Où habites-tu ?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">J'habite à Hasselt. (habiter = wonen)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Quelle est ta nationalité ?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je suis belge. / Je suis française.</td></tr></table>",
+     "onderschrift": "Naam, leeftijd, woonplaats en nationaliteit: dat zijn je persoonlijke gegevens."
+    },
+    {
+     "soort": "kader",
+     "html": "In het Frans <strong>heb</strong> je je leeftijd: <em>j'ai quatorze ans</em>, met <strong>avoir</strong> en niet met être. 'Je suis quatorze ans' bestaat niet. Datzelfde geldt voor <em>j'ai faim</em> (honger), <em>j'ai soif</em> (dorst), <em>j'ai peur</em> (bang) en <em>j'ai mal</em> (pijn)."
+    },
+    {
+     "soort": "weetje",
+     "html": "Nationaliteiten krijgen in het Frans een <strong>kleine letter</strong>: <em>je suis belge</em>. Het land krijgt er wel een: <em>la Belgique</em>, <em>la France</em>. En let op: <em>la France</em> is het land, <em>le français</em> de taal, <em>une Française</em> een vrouw."
+    }
+   ]
+  },
+  {
+   "kop": "De familie",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le père / la mère</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vader / de moeder</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">les parents</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de ouders</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le frère / la sœur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de broer / de zus</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">les grands-parents</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de grootouders</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un oncle / une tante</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een oom / een tante</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un cousin / une cousine</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kozijn / een nicht (kind van je oom of tante)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un neveu / une nièce</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een neef / een nicht (kind van je broer of zus)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la belle-mère, le beau-père, la belle-sœur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de schoonmoeder of stiefmoeder, de schoonvader, de schoonzus</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un ami / une amie, un voisin / une voisine</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vriend / een vriendin, een buur / een buurvrouw</td></tr></table>",
+     "onderschrift": "Beau- en belle- voor een familielid betekent 'schoon-' of 'stief-'."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>La mère</em> (de moeder) en <em>la mer</em> (de zee) klinken bijna hetzelfde. Kijk naar de zin om te weten welk woord er staat."
+    }
+   ]
+  },
+  {
+   "kop": "Gevoelens",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">content / contente</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">blij, tevreden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">triste</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verdrietig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fatigué</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">moe</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">heureux</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gelukkig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">inquiet / inquiète</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongerust, bezorgd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fier / fière</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">trots</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">déçu</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ontgoocheld</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">surpris</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verrast</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sympa (sympathique)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aardig, leuk</td></tr></table>",
+     "onderschrift": "Bij een meisje krijgt het woord vaak een -e erbij: content wordt contente."
+    },
+    {
+     "soort": "tekst",
+     "html": "Over jezelf zeg je <em>je suis content</em>, of <em>je me sens mieux</em> (ik voel me beter). <em>Se sentir</em> is wederkerend: je me sens, tu te sens. En <em>j'ai peur</em> betekent 'ik ben bang' — opnieuw met avoir."
+    }
+   ]
+  },
+  {
+   "kop": "Het lichaam en de gezondheid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>lichaamsdelen</strong> heb je nodig om te zeggen waar het pijn doet, en om iemand te beschrijven: <em>elle a les yeux bleus</em> (ze heeft blauwe ogen)."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la tête, la gorge, le ventre, le dos</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het hoofd, de keel, de buik, de rug</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la main, le pied, les yeux (un œil), les dents</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de hand, de voet, de ogen (een oog), de tanden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">les cheveux</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het haar (altijd meervoud)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">malade, une maladie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ziek, een ziekte</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">enrhumé, un rhume</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verkouden, een verkoudheid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un médecin, une infirmière</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een arts of dokter, een verpleegster</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un médicament, une pharmacie, un hôpital</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een geneesmiddel, een apotheek, een ziekenhuis</td></tr></table>",
+     "onderschrift": "Les cheveux (het haar) tegenover les chevaux (de paarden): één letter verschil."
+    },
+    {
+     "soort": "tekst",
+     "html": "Pijn zeg je met <strong>avoir mal à</strong>: <em>j'ai mal à la tête</em> (hoofdpijn), <em>j'ai mal au ventre</em> (buikpijn), <em>j'ai mal à la gorge</em> (keelpijn), <em>j'ai mal aux dents</em>, <em>j'ai mal au dos</em>. Let op het lidwoord: à + le wordt <strong>au</strong>, à + les wordt <strong>aux</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Iemand beschrijven",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<em>Il est grand.</em> <em>Elle a les cheveux blonds.</em> <em>Il est sympathique.</em> Gestalte, haar en karakter: daarmee kan je iemand in een tekst volgen én iemand op een foto beschrijven. Dezelfde woorden komen dus twee keer van pas."
+    },
+    {
+     "soort": "tekst",
+     "html": "Verder duiken in teksten vaak op: <em>il est marié</em> (hij is getrouwd, van <em>se marier</em>), <em>elle est née en 2012</em> (ze is geboren in 2012, van <em>naître</em>; het deelwoord krijgt een -e omdat het met être gaat)."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Je m'appelle… j'ai … ans… j'habite à… je suis belge.",
+  "Leeftijd, honger, dorst, angst en pijn gaan met avoir, niet met être.",
+  "le frère, la sœur, les parents, les grands-parents, un oncle, une tante.",
+  "avoir mal à la tête / au ventre / à la gorge / aux dents.",
+  "Nationaliteiten met een kleine letter, landen met een hoofdletter.",
+  "Les cheveux = het haar. Les yeux = de ogen."
+ ]
+}

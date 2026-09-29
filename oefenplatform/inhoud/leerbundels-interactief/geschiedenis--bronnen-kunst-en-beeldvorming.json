@@ -1,0 +1,198 @@
+{
+ "vak": "Geschiedenis",
+ "titel": "Bronnen, kunst en beeldvorming",
+ "onder": "Hoe je weet wat je weet — en waarom een historicus altijd vraagt wie er aan het woord is.",
+ "secties": [
+  {
+   "kop": "Verleden en geschiedenis",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>verleden</strong> is alles wat gebeurd is. Dat ligt vast en verandert nooit meer. <strong>Geschiedenis</strong> is het verhaal dat historici daarover maken, op basis van wat er van dat verleden overblijft."
+    },
+    {
+     "soort": "tekst",
+     "html": "Die twee door elkaar halen, is de meest gemaakte fout. Precies omdat geschiedenis een <em>constructie</em> is, kan ze herschreven worden — en gebeurt dat ook, telkens als er nieuwe bronnen, nieuwe onderzoekstechnieken of nieuwe vragen opduiken. <strong>Koolstofdatering</strong> en <strong>DNA-onderzoek</strong> hebben in enkele decennia meer bijgesteld dan eeuwen discussie daarvoor."
+    },
+    {
+     "soort": "kader",
+     "html": "Dat is geen zwakte van het vak, maar de kern ervan. Een historicus die zegt &bdquo;zo was het, punt&rdquo;, verzwijgt op welke bronnen hij steunt en wat hij niet weet."
+    }
+   ]
+  },
+  {
+   "kop": "Wat is een bron?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>historische bron</strong> is alles uit het verleden waaruit je iets over die tijd kan afleiden: een tekst, een voorwerp, een gebouw, een lied, een foto. Ook een afvalhoop of een kinderspeeltje telt mee."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 214\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"26\" y1=\"150\" x2=\"444\" y2=\"150\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><path d=\"M440 145 L450 150 L440 155 Z\" fill=\"#6b7260\"/><text x=\"430.0\" y=\"170.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">later</text><rect x=\"49.0\" y=\"68\" width=\"118\" height=\"60\" rx=\"9\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"108.0\" y=\"92.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#c17f2b\">de gebeurtenis</text><text x=\"108.0\" y=\"108.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">het voorval zelf</text><line x1=\"108\" y1=\"128\" x2=\"108\" y2=\"145\" stroke=\"#c17f2b\" stroke-width=\"1.3\" stroke-dasharray=\"3 2.5\"/><circle cx=\"108\" cy=\"150\" r=\"4.5\" fill=\"#c17f2b\"/><rect x=\"191.0\" y=\"68\" width=\"118\" height=\"60\" rx=\"9\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"250.0\" y=\"92.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2f5d50\">primaire bron</text><text x=\"250.0\" y=\"108.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">toen gemaakt</text><line x1=\"250\" y1=\"128\" x2=\"250\" y2=\"145\" stroke=\"#2f5d50\" stroke-width=\"1.3\" stroke-dasharray=\"3 2.5\"/><circle cx=\"250\" cy=\"150\" r=\"4.5\" fill=\"#2f5d50\"/><rect x=\"337.0\" y=\"68\" width=\"118\" height=\"60\" rx=\"9\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"396.0\" y=\"92.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">secundaire bron</text><text x=\"396.0\" y=\"108.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">later gemaakt</text><text x=\"396.0\" y=\"120.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">uit die bronnen</text><line x1=\"396\" y1=\"128\" x2=\"396\" y2=\"145\" stroke=\"#234539\" stroke-width=\"1.3\" stroke-dasharray=\"3 2.5\"/><circle cx=\"396\" cy=\"150\" r=\"4.5\" fill=\"#234539\"/><path d=\"M250 68 Q323 38 396 62\" fill=\"none\" stroke=\"#6b7260\" stroke-width=\"1.3\"/><path d=\"M396 62 l-8.5 -4.5 l1.5 8 Z\" fill=\"#6b7260\" transform=\"rotate(150 396 62)\"/><text x=\"323.0\" y=\"42.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">wordt gemaakt uit</text><text x=\"235.0\" y=\"204.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">Primair of secundair gaat over wanneer de bron gemaakt is, niet over hoe goed ze is.</text></svg>",
+     "onderschrift": "Het onderscheid dat het vaakst verward wordt. Het gaat over tijd, niet over kwaliteit."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>primaire</strong> bron komt uit de tijd zelf: een brief van een Romeinse soldaat, een grafsteen, een muntje. Een <strong>secundaire</strong> bron is later gemaakt op basis van andere bronnen — je handboek bijvoorbeeld."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarnaast deel je bronnen in naar hun <strong>vorm</strong>: geschreven, mondeling, materieel of audiovisueel. Een opgegraven potscherf is materieel, een opgenomen gesprek met een oudere is mondeling."
+    }
+   ]
+  },
+  {
+   "kop": "Wie is er aan het woord?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een bron valt niet uit de lucht. Iemand maakte ze, voor iemand, met een bedoeling. Daarom kijkt een historicus altijd eerst naar de <strong>maker</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Was die een <strong>ooggetuige</strong>, iemand die het zelf zag? Of een <strong>tijdgenoot</strong>, die in dezelfde tijd leefde maar het van horen zeggen had? En wie was de <strong>opdrachtgever</strong>, degene die betaalde?"
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"49.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">de maker</text><path d=\"M103.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"124.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"173.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">het publiek</text><path d=\"M227.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"248.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"297.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">de bedoeling</text><path d=\"M351.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"372.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"421.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">de inhoud</text></svg>",
+     "onderschrift": "Wie maakte het, voor wie, waarom — en pas dan: wat staat erin? In die volgorde."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dichtbij staan maakt iemand trouwens niet vanzelf betrouwbaar. Een ooggetuige ziet maar één hoek van wat er gebeurt, kiest partij, en vergist zich net zo goed als een ander."
+    }
+   ]
+  },
+  {
+   "kop": "Bruikbaar is niet hetzelfde als betrouwbaar",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Twee aparte vragen, en je moet ze allebei stellen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bruikbaar</strong>: geeft deze bron antwoord op de vraag die ík onderzoek? Een perfect kloppende lijst van Egyptische graanvoorraden helpt je niets als je vraag over Griekse tempels gaat."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Betrouwbaar</strong>: klopt wat erin staat? Daarvoor kijk je naar de maker, zijn belang, zijn afstand tot het voorval, en of andere bronnen hetzelfde zeggen."
+    },
+    {
+     "soort": "kader",
+     "html": "Een onbetrouwbare bron is nooit waardeloos. Ze zegt misschien weinig over wat er gebeurde, maar veel over <strong>wie ze maakte</strong> en wat die wilde dat de mensen zouden geloven. Overdrijving is zelf een gegeven."
+    },
+    {
+     "soort": "tekst",
+     "html": "Neem de slag bij <strong>Kadesj</strong>, 1274 v.C. Farao Ramses liet op tempelmuren uithouwen dat hij glansrijk won. De Hettieten claimden diezelfde overwinning. Vermoedelijk werd het onbeslist — kort daarna sloten ze het oudste vredesverdrag dat wij kennen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Eén bron geloven zou je dus meteen op het verkeerde been zetten. Bronnen <em>tegenover elkaar</em> leggen en afwegen: dat is het werk."
+    }
+   ]
+  },
+  {
+   "kop": "Standplaatsgebondenheid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Niemand kijkt van nergens. Wie iets vertelt, doet dat vanuit zijn eigen tijd, zijn eigen plaats en zijn eigen positie in de samenleving. Dat heet <strong>standplaatsgebondenheid</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De Griekse schrijver <strong>Herodotos</strong> noemt de Perzen <em>barbaren</em>. Voor hem betekende dat gewoon: mensen die geen Grieks spreken. Het woord klonk naar Griekse oren als onverstaanbaar gebrabbel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wij lezen <em>barbaar</em> als onbeschaafd en wreed. Wie die tekst leest zonder dat te beseffen, denkt dat Herodotos de Perzen uitscheldt — en vormt zich een verkeerd beeld."
+    },
+    {
+     "soort": "kader",
+     "html": "Het gaat dus twee kanten op: de <strong>maker</strong> van de bron is standplaatsgebonden, en <strong>jij als lezer</strong> ook. Je kan dat niet uitschakelen, maar je kan het wel weten. Dat is al de halve oplossing."
+    }
+   ]
+  },
+  {
+   "kop": "Vijf manieren van redeneren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Om van bronnen naar een antwoord te komen, gebruik je <strong>historische redeneerwijzen</strong>. Er zijn er vijf."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Oorzaak en gevolg</strong> benoemen: wat leidde waartoe. <strong>Meerdere perspectieven</strong> hanteren: dezelfde gebeurtenis bekijken vanuit de slaaf, de soldaat én de keizer. <strong>Continuïteit en verandering</strong> benoemen: wat bleef hetzelfde, wat veranderde."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bewijs gebruiken</strong>: je antwoord steunen op wat er in de bronnen staat, niet op wat je voelt. En <strong>verbanden leggen</strong>: zien hoe stukken met elkaar samenhangen."
+    },
+    {
+     "soort": "kader",
+     "html": "Wat <em>hetzelfde blijft</em> is even veelzeggend als wat verandert, maar het valt veel minder op. Daarom staat continuïteit uitdrukkelijk in het rijtje."
+    }
+   ]
+  },
+  {
+   "kop": "Mythevorming",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Rond een persoon, een plaats of een gebeurtenis groeit vaak een verhaal dat mooier of eenvoudiger is dan de werkelijkheid. Dat heet <strong>mythevorming</strong>, en ze vervormt het beeld dat mensen van het verleden hebben."
+    },
+    {
+     "soort": "tekst",
+     "html": "Meestal gebeurt dat niet uit kwaad opzet. Een goed verhaal wordt gewoon vaker doorverteld dan een saai of ingewikkeld verhaal."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het bekendste voorbeeld is de <strong>neanderthaler</strong>: in films en strips een brute, domme, lompe holbewoner. De vondsten zeggen iets anders. Neanderthalers maakten samengestelde werktuigen, beheersten vuur, verzorgden zieken en gewonden, en begroeven hun doden. Wij dragen zelfs nog een stukje van hun erfelijk materiaal."
+    },
+    {
+     "soort": "kader",
+     "html": "Vraag bij mythevorming altijd twee dingen: <strong>wat is de bedoeling</strong> van het verhaal, en <strong>welk effect</strong> heeft het op hoe mensen naar dat verleden kijken?"
+    }
+   ]
+  },
+  {
+   "kop": "Kunst lezen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Ook een kunstwerk is een bron. Een schilderij, een beeld, een gebouw, een film, een game of graffiti vertelt hoe mensen naar zichzelf en naar de wereld keken."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je leest het in drie stappen. Eerst <strong>verzamel je info</strong>: wanneer, waar, door wie, in welke context, welke soort. Dan <strong>beschrijf je wat je ziet</strong>: materialen, figuren, kleuren, licht en schaduw, hoe alles geschikt is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Pas daarna <strong>interpreteer</strong> je: wat is het onderwerp, voor wie is het gemaakt, en met welke bedoeling — iets bevestigen, of juist bekritiseren?"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een kunstwerk geeft betekenis door <strong>vorm en inhoud samen</strong>. Een keizer te paard, groter afgebeeld dan alle anderen, met het licht op zijn gezicht: hier zegt de vorm evenveel als het onderwerp."
+    },
+    {
+     "soort": "kader",
+     "html": "Een game over de Romeinen vertelt je weinig over Rome, maar veel over <strong>onze tijd</strong>: over wat wij spannend vinden aan dat verleden. Ook dat is een bron — over ons."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Verleden = wat gebeurd is. Geschiedenis = het verhaal dat historici eruit opbouwen.",
+  "Een bron is alles uit het verleden waaruit je iets kan afleiden.",
+  "Primair = uit de tijd zelf, secundair = later gemaakt uit andere bronnen. Het gaat over tijd, niet over kwaliteit.",
+  "Vormen: geschreven, mondeling, materieel, audiovisueel.",
+  "Vraag bij elke bron: wie maakte ze, voor wie, waarom — en pas dan wat staat erin.",
+  "Bruikbaar = geeft antwoord op jouw vraag. Betrouwbaar = het klopt. Twee aparte vragen.",
+  "Een onbetrouwbare bron toont wat de maker wilde laten geloven. Kadesj: beide partijen claimden de zege.",
+  "Standplaatsgebondenheid geldt voor de maker én voor jou. Herodotos' 'barbaren' betekende: niet-Grieks.",
+  "Vijf redeneerwijzen: oorzaak-gevolg, meerdere perspectieven, continuïteit en verandering, bewijs, verbanden.",
+  "Mythevorming vervormt het beeld — zoals de neanderthaler, die in werkelijkheid werktuigen maakte en zijn doden begroef.",
+  "Kunst lees je in drie stappen, en ze betekent iets door vorm en inhoud samen."
+ ]
+}

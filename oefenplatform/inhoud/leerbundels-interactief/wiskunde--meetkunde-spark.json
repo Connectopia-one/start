@@ -1,0 +1,209 @@
+{
+ "vak": "Wiskunde",
+ "titel": "Meetkunde",
+ "onder": "Hoeken, driehoeken en vierhoeken, en de eigenschappen waarmee je de rest uitrekent.",
+ "secties": [
+  {
+   "kop": "Soorten hoeken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een hoek meet je in <strong>graden</strong>. De vier soorten herken je aan hoe ze zich verhouden tot de rechte hoek van 90°."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 104\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"58.75\" y1=\"66\" x2=\"98.75\" y2=\"66\" stroke=\"#234539\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"58.75\" y1=\"66\" x2=\"87.0\" y2=\"37.7\" stroke=\"#234539\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M73.75 66 A15 15 0 0 0 69.4 55.4\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><text x=\"78.8\" y=\"88\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">scherp</text><text x=\"78.8\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">45°</text><line x1=\"176.25\" y1=\"66\" x2=\"216.25\" y2=\"66\" stroke=\"#234539\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"176.25\" y1=\"66\" x2=\"176.2\" y2=\"26.0\" stroke=\"#234539\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M187.25 66 v-11 h-11\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><text x=\"196.2\" y=\"88\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">recht</text><text x=\"196.2\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">90°</text><line x1=\"293.75\" y1=\"66\" x2=\"333.75\" y2=\"66\" stroke=\"#234539\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"293.75\" y1=\"66\" x2=\"268.0\" y2=\"35.4\" stroke=\"#234539\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M308.75 66 A15 15 0 0 0 284.1 54.5\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><text x=\"313.8\" y=\"88\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">stomp</text><text x=\"313.8\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">130°</text><line x1=\"411.25\" y1=\"66\" x2=\"451.25\" y2=\"66\" stroke=\"#234539\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"411.25\" y1=\"66\" x2=\"371.2\" y2=\"66.0\" stroke=\"#234539\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M426.25 66 A15 15 0 0 0 396.2 66.0\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><text x=\"431.2\" y=\"88\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">gestrekt</text><text x=\"431.2\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">180°</text></svg>",
+     "onderschrift": "Scherp is minder dan 90°, recht is precies 90°, stomp ligt tussen 90° en 180°, gestrekt is 180° en dus een rechte lijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>scherpe hoek</strong> is kleiner dan 90°, een <strong>stompe hoek</strong> ligt tussen 90° en 180°. Een hoek van 130° is dus een stompe hoek, en de hoek van een blad papier is een rechte hoek van 90°."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee hoeken die samen een gestrekte hoek vormen, heten <strong>nevenhoeken</strong>: ze zijn samen 180°. Bij twee snijdende rechten zijn de <strong>overstaande</strong> hoeken even groot. Is een hoek 70°, dan is de overstaande ook 70° en de nevenhoek 110°."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Loodrecht</strong> betekent een hoek van 90°. <strong>Evenwijdig</strong> betekent dat twee rechten elkaar nooit snijden en overal dezelfde afstand houden."
+    }
+   ]
+  },
+  {
+   "kop": "De hoekensom",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Dit is de eigenschap die je het vaakst nodig hebt. In <strong>elke</strong> driehoek is de som van de hoeken <strong>180°</strong>, hoe scheef hij ook staat."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee hoeken van 50° en 60°? Dan is de derde 180 − 50 − 60 = <strong>70°</strong>. In een gelijkzijdige driehoek zijn de drie hoeken even groot, dus elk 180 : 3 = <strong>60°</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>vierhoek</strong> is de hoekensom <strong>360°</strong>. Dat hoef je niet te onthouden: trek één diagonaal en je hebt twee driehoeken, dus 2 × 180°."
+    },
+    {
+     "soort": "kader",
+     "html": "In een <strong>gelijkbenige</strong> driehoek zijn de twee basishoeken even groot. Is de tophoek 40°, dan blijft er 140° over voor twee gelijke hoeken: elk <strong>70°</strong>. En is een basishoek 50°, dan is de tophoek 180 − 100 = <strong>80°</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Soorten driehoeken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een driehoek krijgt <strong>twee</strong> namen: één naar zijn zijden en één naar zijn hoeken. Die twee staan los van elkaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "Naar de <strong>zijden</strong>: gelijkzijdig (drie gelijke), gelijkbenig (twee gelijke) of ongelijkbenig. Naar de <strong>hoeken</strong>: scherphoekig, rechthoekig of stomphoekig. Een driehoek met hoeken van 90° en 45° is dus rechthoekig én gelijkbenig."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een gelijkbenige driehoek heten de twee gelijke zijden de <strong>benen</strong>, de hoek ertussen de <strong>tophoek</strong>, en de twee andere de <strong>basishoeken</strong>. In een rechthoekige driehoek heet de zijde tegenover de rechte hoek de <strong>schuine zijde</strong>; dat is altijd de langste."
+    }
+   ]
+  },
+  {
+   "kop": "Soorten vierhoeken",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 96\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"16.166666666666664\" y=\"18\" width=\"46\" height=\"46\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"2\" rx=\"2\"/><text x=\"39.2\" y=\"88\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">vierkant</text><rect x=\"94.5\" y=\"18\" width=\"58\" height=\"36\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"2\" rx=\"2\"/><text x=\"117.5\" y=\"88\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">rechthoek</text><polygon points=\"195.83333333333331,18 169.83333333333331,64 221.83333333333331,64\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"2\"/><text x=\"195.8\" y=\"88\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">driehoek</text><circle cx=\"274.1666666666667\" cy=\"41\" r=\"24\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"2\"/><text x=\"274.2\" y=\"88\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">cirkel</text><polygon points=\"352.5,18 378.5,41 352.5,64 326.5,41\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"2\"/><text x=\"352.5\" y=\"88\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">ruit</text><polygon points=\"416.8333333333333,18 444.8333333333333,18 456.8333333333333,64 404.8333333333333,64\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"2\"/><text x=\"430.8\" y=\"88\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">trapezium</text></svg>",
+     "onderschrift": "Van links naar rechts wordt een vierhoek bijzonderder: hoe meer eigenschappen, hoe specifieker de naam."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>trapezium</strong> heeft één paar evenwijdige zijden. Een <strong>parallellogram</strong> twee paar. Een <strong>ruit</strong> is een parallellogram met vier gelijke zijden, een <strong>rechthoek</strong> een parallellogram met vier rechte hoeken, en een <strong>vierkant</strong> heeft allebei."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom is elk vierkant een ruit én een rechthoek, maar niet omgekeerd. In een parallellogram zijn overstaande hoeken gelijk en aanliggende hoeken samen 180°: is er één 110°, dan is die ernaast <strong>70°</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "De <strong>diagonalen</strong> verraden veel. In een parallellogram delen ze elkaar middendoor. In een ruit staan ze bovendien <strong>loodrecht</strong>. In een rechthoek zijn ze even lang."
+    }
+   ]
+  },
+  {
+   "kop": "De cirkel",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 300 158\" width=\"300\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"150.0\" cy=\"78\" r=\"66\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"2\"/><line x1=\"84.0\" y1=\"78\" x2=\"216.0\" y2=\"78\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><line x1=\"150.0\" y1=\"78\" x2=\"150.0\" y2=\"12\" stroke=\"#2f5d50\" stroke-width=\"2.6\"/><circle cx=\"150.0\" cy=\"78\" r=\"3.4\" fill=\"#234539\"/><text x=\"158.0\" y=\"45.0\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#2f5d50\">straal</text><text x=\"109.0\" y=\"71\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">diameter</text></svg>",
+     "onderschrift": "De straal gaat van het middelpunt naar de rand, de diameter gaat er helemaal door en is dus dubbel zo lang."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>koorde</strong> is elk lijnstuk tussen twee punten van de cirkel. De <strong>middellijn</strong> is de langste koorde, want die gaat door het middelpunt. Een straal van 6 cm geeft dus een diameter van <strong>12 cm</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Hoeken bij twee evenwijdige rechten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Snijdt één rechte twee evenwijdige rechten, dan ontstaan er acht hoeken. En die acht zijn eigenlijk maar <strong>twee</strong> verschillende groottes."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 182\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"22\" y1=\"46\" x2=\"448\" y2=\"46\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><line x1=\"22\" y1=\"130\" x2=\"448\" y2=\"130\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><line x1=\"155.0\" y1=\"14\" x2=\"325.8\" y2=\"170\" stroke=\"#234539\" stroke-width=\"2.2\"/><path d=\"M390 40 l8 6 l-8 6\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><path d=\"M390 124 l8 6 l-8 6\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"1.8\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/><circle cx=\"146.2\" cy=\"29.0\" r=\"10\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><text x=\"146.2\" y=\"33.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">1</text><circle cx=\"199.8\" cy=\"20.8\" r=\"10\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><text x=\"199.8\" y=\"24.8\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">2</text><circle cx=\"180.2\" cy=\"71.2\" r=\"10\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><text x=\"180.2\" y=\"75.2\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">3</text><circle cx=\"233.8\" cy=\"63.0\" r=\"10\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><text x=\"233.8\" y=\"67.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">4</text><circle cx=\"238.2\" cy=\"113.0\" r=\"10\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><text x=\"238.2\" y=\"117.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">5</text><circle cx=\"291.8\" cy=\"104.8\" r=\"10\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><text x=\"291.8\" y=\"108.8\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">6</text><circle cx=\"272.2\" cy=\"155.2\" r=\"10\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><text x=\"272.2\" y=\"159.2\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">7</text><circle cx=\"325.8\" cy=\"147.0\" r=\"10\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><text x=\"325.8\" y=\"151.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">8</text></svg>",
+     "onderschrift": "De hoeken 1, 4, 5 en 8 zijn even groot; 2, 3, 6 en 7 ook. Elke hoek uit de ene groep en elke hoek uit de andere zijn samen 180°."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Overeenkomstige</strong> hoeken (1 en 5, 2 en 6) zijn gelijk. <strong>Verwisselende binnenhoeken</strong> (4 en 5) zijn gelijk. <strong>Binnenhoeken aan dezelfde kant</strong> van de snijlijn (3 en 5) zijn samen 180°."
+    },
+    {
+     "soort": "kader",
+     "html": "Dus: is een binnenhoek 65°, dan is de binnenhoek aan dezelfde kant 180 − 65 = <strong>115°</strong>. Zoek in een tekening altijd eerst één hoek die je kent, en werk van daaruit verder."
+    }
+   ]
+  },
+  {
+   "kop": "De merkwaardige lijnen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Elke driehoek heeft vier soorten bijzondere lijnen. Ze lijken op elkaar, en net daarom worden ze verward."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 136\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"38.8,18.6 15.0,76.0 104.5,76.0\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.8\"/><line x1=\"38.8\" y1=\"18.6\" x2=\"52.2\" y2=\"76.0\" stroke=\"#c17f2b\" stroke-width=\"2\"/><circle cx=\"32.3\" cy=\"34.3\" r=\"1.9\" fill=\"#c17f2b\"/><circle cx=\"42.7\" cy=\"35.1\" r=\"1.9\" fill=\"#c17f2b\"/><text x=\"58.8\" y=\"124.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">bissectrice</text><polygon points=\"156.3,18.6 132.5,76.0 222.0,76.0\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.8\"/><line x1=\"156.3\" y1=\"18.6\" x2=\"156.3\" y2=\"76.0\" stroke=\"#c17f2b\" stroke-width=\"2\"/><path d=\"M164.3 75.96000000000001 v-8 h-8\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"1.4\"/><text x=\"176.2\" y=\"124.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">hoogtelijn</text><polygon points=\"273.9,18.6 250.0,76.0 339.5,76.0\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.8\"/><line x1=\"294.7\" y1=\"36.0\" x2=\"294.7\" y2=\"85.0\" stroke=\"#c17f2b\" stroke-width=\"2\"/><path d=\"M302.7 75.96000000000001 v-8 h-8\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"1.4\"/><line x1=\"280.7\" y1=\"71.96000000000001\" x2=\"280.7\" y2=\"79.96000000000001\" stroke=\"#6b7260\" stroke-width=\"1.4\"/><line x1=\"308.7\" y1=\"71.96000000000001\" x2=\"308.7\" y2=\"79.96000000000001\" stroke=\"#6b7260\" stroke-width=\"1.4\"/><text x=\"293.8\" y=\"124.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">middelloodlijn</text><polygon points=\"391.4,18.6 367.5,76.0 457.0,76.0\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.8\"/><line x1=\"391.4\" y1=\"18.6\" x2=\"412.2\" y2=\"76.0\" stroke=\"#c17f2b\" stroke-width=\"2\"/><line x1=\"398.2\" y1=\"71.96000000000001\" x2=\"398.2\" y2=\"79.96000000000001\" stroke=\"#6b7260\" stroke-width=\"1.4\"/><line x1=\"426.2\" y1=\"71.96000000000001\" x2=\"426.2\" y2=\"79.96000000000001\" stroke=\"#6b7260\" stroke-width=\"1.4\"/><text x=\"411.2\" y=\"124.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">zwaartelijn</text></svg>",
+     "onderschrift": "De bissectrice deelt een hoek in twee, de hoogtelijn staat loodrecht op de overstaande zijde, de middelloodlijn staat loodrecht op een zijde én door het midden ervan, de zwaartelijn gaat naar dat midden."
+    },
+    {
+     "soort": "tekst",
+     "html": "Let op het verschil tussen de <strong>hoogtelijn</strong> en de <strong>middelloodlijn</strong>: allebei staan ze loodrecht op een zijde, maar de hoogtelijn vertrekt uit een hoekpunt en de middelloodlijn uit het midden van de zijde. Alleen in een gelijkbenige of gelijkzijdige driehoek vallen ze samen."
+    }
+   ]
+  },
+  {
+   "kop": "Congruente driehoeken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Twee figuren zijn <strong>congruent</strong> als ze volledig gelijk zijn: zelfde vorm én zelfde grootte. Je hoeft niet alle zes de maten te vergelijken; drie goed gekozen volstaan."
+    },
+    {
+     "soort": "tekst",
+     "html": "De kenmerken: <strong>ZZZ</strong> (drie zijden), <strong>ZHZ</strong> (twee zijden en de hoek ertussen), <strong>HZH</strong> (twee hoeken en de zijde ertussen), <strong>ZHH</strong> (een zijde en twee hoeken) en <strong>ZZ90°</strong> (twee zijden en een rechte hoek)."
+    },
+    {
+     "soort": "kader",
+     "html": "Drie gelijke <strong>hoeken</strong> volstaat <strong>niet</strong>. Twee gelijkzijdige driehoeken van 2 cm en van 5 cm hebben alle drie hun hoeken van 60°, maar ze zijn niet even groot. Gelijke hoeken geven dezelfde vorm, niet dezelfde maat."
+    },
+    {
+     "soort": "tekst",
+     "html": "Toon je aan dat twee driehoeken congruent zijn, dan zijn <strong>alle</strong> overeenkomstige zijden en hoeken gelijk. Net daarom gebruik je congruentie: om te bewijzen dat twee zijden even lang of twee hoeken even groot zijn."
+    }
+   ]
+  },
+  {
+   "kop": "Transformaties en symmetrie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>translatie</strong> schuift een figuur op over een vector. Een <strong>rotatie</strong> draait hem rond een centrum over een hoek. Een <strong>spiegeling</strong> klapt hem om, rond een rechte of rond een punt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een rotatie wordt de hoek vaak in slagen genoemd: een <strong>kwartslag</strong> is een rotatie over <strong>90°</strong>, een halve draai over 180°. Die halve draai komt op hetzelfde neer als een spiegeling om het middelpunt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Alle drie behouden ze de lengtes, de hoeken en de evenwijdigheid. Het beeld is dus altijd <strong>congruent</strong> met de oorspronkelijke figuur. Eén ding verandert wél bij een spiegeling om een rechte: de draairichting keert om."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>symmetrieas</strong> is een lijn waarover je de figuur kan dubbelvouwen. Een vierkant heeft er <strong>4</strong>, een rechthoek die geen vierkant is <strong>2</strong>, een gelijkzijdige driehoek <strong>3</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "Een <strong>symmetriemiddelpunt</strong> is iets anders: de figuur valt op zichzelf na een halve draai. Een parallellogram dat geen ruit of rechthoek is, heeft wél een middelpunt maar géén as. Een gelijkbenige driehoek net omgekeerd."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een scherpe hoek is < 90°, een stompe ligt tussen 90° en 180°, gestrekt is 180°.",
+  "Nevenhoeken samen 180°, overstaande hoeken gelijk.",
+  "Een kwartslag is een rotatie over 90°, een halve draai over 180°.",
+  "Hoekensom: driehoek 180°, vierhoek 360°. Gelijkzijdig betekent drie hoeken van 60°.",
+  "Gelijkbenig: de twee basishoeken zijn gelijk. Tophoek 40° geeft basishoeken van 70°.",
+  "Een driehoek heeft twee namen: naar zijn zijden én naar zijn hoeken.",
+  "Trapezium 1 paar evenwijdig, parallellogram 2, ruit 4 gelijke zijden, rechthoek 4 rechte hoeken.",
+  "Diagonalen: parallellogram deelt middendoor, ruit ook loodrecht, rechthoek even lang.",
+  "Diameter = 2 × straal. De middellijn is de langste koorde.",
+  "Bij evenwijdige rechten: overeenkomstige en verwisselende binnenhoeken gelijk, dezelfde kant samen 180°.",
+  "Hoogtelijn vertrekt uit een hoekpunt, middelloodlijn uit het midden van een zijde.",
+  "Congruent: ZZZ, ZHZ, HZH, ZHH, ZZ90°. Drie gelijke hoeken volstaat niet.",
+  "Translatie, rotatie en spiegeling behouden lengte en hoek: het beeld is congruent.",
+  "Symmetrieassen: vierkant 4, rechthoek 2, gelijkzijdige driehoek 3."
+ ]
+}

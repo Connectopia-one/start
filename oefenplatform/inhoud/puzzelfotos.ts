@@ -10,6 +10,34 @@
 
 export const PUZZELFOTOS: Record<string, { url: string; verhouding: number }> =
   {
+    "aardrijkskunde/belgie-pittig": {
+      url: "/puzzels/aardrijkskunde/belgie-pittig.webp",
+      verhouding: 1.5387,
+    },
+    "aardrijkskunde/belgie": {
+      url: "/puzzels/aardrijkskunde/belgie.webp",
+      verhouding: 1.4428,
+    },
+    "aardrijkskunde/europa-en-de-wereld-pittig": {
+      url: "/puzzels/aardrijkskunde/europa-en-de-wereld-pittig.webp",
+      verhouding: 1.5298,
+    },
+    "aardrijkskunde/europa-en-de-wereld": {
+      url: "/puzzels/aardrijkskunde/europa-en-de-wereld.webp",
+      verhouding: 1.3542,
+    },
+    "aardrijkskunde/kaartlezen-en-orientatie-pittig": {
+      url: "/puzzels/aardrijkskunde/kaartlezen-en-orientatie-pittig.webp",
+      verhouding: 1.4663,
+    },
+    "aardrijkskunde/kaartlezen-en-orientatie": {
+      url: "/puzzels/aardrijkskunde/kaartlezen-en-orientatie.webp",
+      verhouding: 1.4399,
+    },
+    "aardrijkskunde/uitdaging-alles-door-elkaar": {
+      url: "/puzzels/aardrijkskunde/uitdaging-alles-door-elkaar.webp",
+      verhouding: 5.0847,
+    },
     "engels/de-tegenwoordige-tijd-pittig": {
       url: "/puzzels/engels/de-tegenwoordige-tijd-pittig.webp",
       verhouding: 1.5292,

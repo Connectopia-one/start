@@ -1,0 +1,149 @@
+{
+ "vak": "Wiskunde",
+ "titel": "Data en onzekerheid",
+ "onder": "Gegevens verzamelen en ordenen, gemiddelde, mediaan en modus, diagrammen lezen en doorzien.",
+ "secties": [
+  {
+   "kop": "Gegevens verzamelen en ordenen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Statistiek begint niet bij rekenen maar bij een <strong>onderzoeksvraag</strong>. Die is goed als je er met gegevens een antwoord op kan geven. „Hoeveel uur slapen de leerlingen van mijn klas gemiddeld per nacht?” kan je onderzoeken; „slaapt iedereen genoeg?” niet, want daar staat nergens wat genoeg is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wat je meet heet een <strong>variabele</strong>. Kan je ze tellen of meten, dan is ze <strong>numeriek</strong> (aantal broers en zussen, lengte in cm). Is het een naam of een categorie, dan is ze <strong>categorisch</strong> (lievelingskleur, vervoermiddel). Dat onderscheid bepaalt wat je er later mee mag doen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 152\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"110\" y=\"34\" width=\"340.0\" height=\"88\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"98.0\" y=\"60.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">broers en zussen</text><text x=\"98.0\" y=\"98.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">hoe vaak</text><text x=\"144.0\" y=\"60.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">0</text><text x=\"144.0\" y=\"98.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#2f5d50\">4</text><line x1=\"178.0\" y1=\"34\" x2=\"178.0\" y2=\"122\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"212.0\" y=\"60.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">1</text><text x=\"212.0\" y=\"98.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#2f5d50\">9</text><line x1=\"246.0\" y1=\"34\" x2=\"246.0\" y2=\"122\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"280.0\" y=\"60.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">2</text><text x=\"280.0\" y=\"98.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#2f5d50\">6</text><line x1=\"314.0\" y1=\"34\" x2=\"314.0\" y2=\"122\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"348.0\" y=\"60.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">3</text><text x=\"348.0\" y=\"98.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#2f5d50\">2</text><line x1=\"382.0\" y1=\"34\" x2=\"382.0\" y2=\"122\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"416.0\" y=\"60.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">4</text><text x=\"416.0\" y=\"98.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#2f5d50\">1</text><line x1=\"110\" y1=\"76\" x2=\"450.0\" y2=\"76\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"280.0\" y=\"140.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">samen 22 metingen</text></svg>",
+     "onderschrift": "Een frequentietabel zet elke waarde naast het aantal keer dat ze voorkomt. De som van de frequenties is altijd het aantal metingen: hier 22 leerlingen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Uit zo'n tabel haal je ook meteen het gemiddelde, maar dan moet je elke waarde <strong>maal haar frequentie</strong> doen. Komt waarde 3 vijf keer voor en waarde 4 drie keer, dan zijn er 5 + 3 = <strong>8</strong> metingen met een som van 5 × 3 + 3 × 4 = 27, dus het gemiddelde is 27 : 8 = <strong>3,375</strong>. De waarden zelf optellen zou 3 + 4 = 7 geven, en dat is iets heel anders."
+    },
+    {
+     "soort": "kader",
+     "html": "Controleer je tabel altijd door de frequenties op te tellen. Komt dat niet uit op het aantal mensen dat je bevraagd hebt, dan ben je iets kwijt of heb je iets dubbel geteld."
+    }
+   ]
+  },
+  {
+   "kop": "Gemiddelde, mediaan en modus",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Drie manieren om het midden van een reeks in één getal te vatten. Ze geven niet hetzelfde antwoord, en dat is precies waarom je ze alle drie kent."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>gemiddelde</strong> is de som gedeeld door het aantal. Van 4, 6 en 8 is dat 18 : 3 = <strong>6</strong>. De <strong>mediaan</strong> is het middelste getal als je ze op volgorde zet: van 3, 7, 9, 12, 20 is dat <strong>9</strong>. Bij een even aantal neem je het gemiddelde van de twee middelste: van 2, 4, 6, 10 is dat (4 + 6) : 2 = <strong>5</strong>. De <strong>modus</strong> is de waarde die het vaakst voorkomt: van 3, 7, 7, 9, 12 is dat <strong>7</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 150\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"42\" y1=\"86\" x2=\"428\" y2=\"86\" stroke=\"#e4ded0\" stroke-width=\"2\"/><circle cx=\"56.0\" cy=\"86\" r=\"5.5\" fill=\"#2f5d50\"/><text x=\"56.0\" y=\"108.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">3</text><circle cx=\"111.07692307692308\" cy=\"86\" r=\"5.5\" fill=\"#2f5d50\"/><text x=\"111.1\" y=\"108.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">5</text><circle cx=\"138.6153846153846\" cy=\"86\" r=\"5.5\" fill=\"#2f5d50\"/><text x=\"138.6\" y=\"108.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">6</text><circle cx=\"193.6923076923077\" cy=\"86\" r=\"5.5\" fill=\"#2f5d50\"/><text x=\"193.7\" y=\"108.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">8</text><circle cx=\"248.76923076923077\" cy=\"86\" r=\"5.5\" fill=\"#2f5d50\"/><text x=\"248.8\" y=\"108.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">10</text><circle cx=\"414.0\" cy=\"86\" r=\"5.5\" fill=\"#2f5d50\"/><text x=\"414.0\" y=\"108.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">16</text><line x1=\"166.15384615384616\" y1=\"58\" x2=\"166.15384615384616\" y2=\"80\" stroke=\"#c17f2b\" stroke-width=\"1.6\" stroke-dasharray=\"4 3\"/><text x=\"173.2\" y=\"56.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#c17f2b\">mediaan 7</text><line x1=\"193.6923076923077\" y1=\"38\" x2=\"193.6923076923077\" y2=\"80\" stroke=\"#5b7f9c\" stroke-width=\"1.6\" stroke-dasharray=\"4 3\"/><text x=\"200.7\" y=\"36.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5b7f9c\">gemiddelde 8</text><text x=\"235.0\" y=\"138.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">variatiebreedte: 16 − 3 = 13</text></svg>",
+     "onderschrift": "Bij een reeks zonder uitschieters liggen gemiddelde en mediaan dicht bij elkaar. De variatiebreedte is het grootste min het kleinste en zegt hoe ver de waarden uit elkaar liggen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De modus is de enige van de drie die ook werkt bij een <strong>categorische</strong> variabele. Van lievelingskleuren kan je geen gemiddelde nemen, maar je kan wel zeggen welke kleur het vaakst gekozen werd. Er kunnen ook <strong>twee</strong> waarden even vaak voorkomen; dan heeft de reeks gewoon twee modi."
+    },
+    {
+     "soort": "kader",
+     "html": "Het gemiddelde hoeft <strong>geen</strong> waarde uit de reeks te zijn, en zelfs geen bestaand aantal. „De gemiddelde Belg heeft 1,7 kinderen” klopt gewoon: het is een rekenresultaat, geen beschrijving van één gezin."
+    }
+   ]
+  },
+  {
+   "kop": "Wanneer welke maat?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Eén uitschieter trekt het gemiddelde helemaal mee, maar laat de mediaan bijna ongemoeid. Daar moet je op letten."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 430 200\" width=\"430\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30\" y1=\"14\" x2=\"30\" y2=\"172\" stroke=\"#6b7260\" stroke-width=\"1.4\"/><line x1=\"30\" y1=\"172\" x2=\"430\" y2=\"172\" stroke=\"#6b7260\" stroke-width=\"1.4\"/><line x1=\"26\" y1=\"172.0\" x2=\"30\" y2=\"172.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"23\" y=\"175.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">0</text><line x1=\"26\" y1=\"140.4\" x2=\"30\" y2=\"140.4\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"23\" y=\"143.9\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">100</text><line x1=\"26\" y1=\"108.8\" x2=\"30\" y2=\"108.8\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"23\" y=\"112.3\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">200</text><line x1=\"26\" y1=\"77.2\" x2=\"30\" y2=\"77.2\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"23\" y=\"80.7\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">300</text><line x1=\"26\" y1=\"45.6\" x2=\"30\" y2=\"45.6\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"23\" y=\"49.1\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">400</text><line x1=\"26\" y1=\"14.0\" x2=\"30\" y2=\"14.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"23\" y=\"17.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">500</text><rect x=\"52.0\" y=\"168.8\" width=\"56.0\" height=\"3.2\" fill=\"#2f5d50\" rx=\"3\"/><text x=\"80.0\" y=\"186\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">Aya</text><rect x=\"152.0\" y=\"168.2\" width=\"56.0\" height=\"3.8\" fill=\"#2f5d50\" rx=\"3\"/><text x=\"180.0\" y=\"186\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">Bram</text><rect x=\"252.0\" y=\"167.6\" width=\"56.0\" height=\"4.4\" fill=\"#2f5d50\" rx=\"3\"/><text x=\"280.0\" y=\"186\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">Cis</text><rect x=\"352.0\" y=\"14.0\" width=\"56.0\" height=\"158.0\" fill=\"#2f5d50\" rx=\"3\"/><text x=\"380.0\" y=\"186\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">Dina</text></svg>",
+     "onderschrift": "Vier weeklonen in euro. Het gemiddelde is € 134, terwijl drie van de vier mensen minder dan € 15 verdienen. De mediaan, € 13, beschrijft deze groep veel eerlijker."
+    },
+    {
+     "soort": "tekst",
+     "html": "Gebruik het <strong>gemiddelde</strong> als de waarden ongeveer bij elkaar liggen, en de <strong>mediaan</strong> zodra er uitschieters zijn. Twee reeksen kunnen hetzelfde gemiddelde hebben en toch heel verschillend zijn: bij gemiddelde 14 en variatiebreedte 4 zit iedereen dicht bijeen, bij gemiddelde 14 en variatiebreedte 15 liggen de resultaten ver uit elkaar. Is de variatiebreedte <strong>0</strong>, dan zijn alle waarden gelijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "Met het gemiddelde kan je ook terugrekenen. Is het gemiddelde van vier toetsen 14, dan is de som 14 × 4 = <strong>56</strong>. Heb je 12, 15 en 16, en wil je een gemiddelde van 15, dan moet de som 60 worden; je staat op 43, dus je hebt <strong>17</strong> nodig."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wat gebeurt er met een gemiddelde als er een waarde bij komt? Ligt die <strong>boven</strong> het gemiddelde, dan <strong>stijgt</strong> het; ligt ze eronder, dan daalt het; is ze er precies gelijk aan, dan verandert er niets."
+    },
+    {
+     "soort": "kader",
+     "html": "Vergelijk je twee klassen van verschillende grootte, gebruik dan <strong>percentages</strong> en geen aantallen. 8 van de 16 is meer dan 9 van de 30, ook al is 9 het grootste getal."
+    }
+   ]
+  },
+  {
+   "kop": "Diagrammen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Elk soort diagram beantwoordt een ander soort vraag. Kies het diagram bij je vraag, niet bij wat er mooi uitziet."
+    },
+    {
+     "soort": "figuur",
+     "html": "<div style=\"display:flex;gap:18px;align-items:flex-end;justify-content:center;flex-wrap:wrap;\"><div><svg viewBox=\"0 0 330 180\" width=\"330\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30\" y1=\"14\" x2=\"30\" y2=\"152\" stroke=\"#6b7260\" stroke-width=\"1.4\"/><line x1=\"30\" y1=\"152\" x2=\"330\" y2=\"152\" stroke=\"#6b7260\" stroke-width=\"1.4\"/><line x1=\"26\" y1=\"152.0\" x2=\"30\" y2=\"152.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"23\" y=\"155.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">0</text><line x1=\"26\" y1=\"124.4\" x2=\"30\" y2=\"124.4\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"23\" y=\"127.9\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">2</text><line x1=\"26\" y1=\"96.8\" x2=\"30\" y2=\"96.8\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"23\" y=\"100.3\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">4</text><line x1=\"26\" y1=\"69.2\" x2=\"30\" y2=\"69.2\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"23\" y=\"72.7\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">6</text><line x1=\"26\" y1=\"41.6\" x2=\"30\" y2=\"41.6\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"23\" y=\"45.1\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">8</text><line x1=\"26\" y1=\"14.0\" x2=\"30\" y2=\"14.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"23\" y=\"17.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">10</text><rect x=\"52.0\" y=\"14.0\" width=\"56.0\" height=\"138.0\" fill=\"#2f5d50\" rx=\"3\"/><text x=\"80.0\" y=\"166\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">fiets</text><rect x=\"152.0\" y=\"41.6\" width=\"56.0\" height=\"110.4\" fill=\"#2f5d50\" rx=\"3\"/><text x=\"180.0\" y=\"166\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">te voet</text><rect x=\"252.0\" y=\"55.4\" width=\"56.0\" height=\"96.6\" fill=\"#2f5d50\" rx=\"3\"/><text x=\"280.0\" y=\"166\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">bus</text></svg></div><div><svg viewBox=\"0 0 156 156\" width=\"156\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M78 78 L78.0 6.0 A72 72 0 0 1 120.3 136.2 Z\" fill=\"#2f5d50\" stroke=\"#ffffff\" stroke-width=\"2\"/><text x=\"120.5\" y=\"64.2\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#ffffff\">fiets 40 %</text><path d=\"M78 78 L120.3 136.2 A72 72 0 0 1 7.3 91.5 Z\" fill=\"#c17f2b\" stroke=\"#ffffff\" stroke-width=\"2\"/><text x=\"61.6\" y=\"119.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#ffffff\">te voet 32 %</text><path d=\"M78 78 L7.3 91.5 A72 72 0 0 1 78.0 6.0 Z\" fill=\"#3b6ea5\" stroke=\"#ffffff\" stroke-width=\"2\"/><text x=\"43.6\" y=\"49.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#ffffff\">bus 28 %</text></svg></div></div>",
+     "onderschrift": "Een staafdiagram vergelijkt groepen: je leest de hoogte af op de verticale as. Een cirkeldiagram toont welk deel van het geheel elke groep is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>lijndiagram</strong> gebruik je voor verandering in de tijd. Loopt de lijn tussen 14 u en 15 u steil omhoog, dan werd het in dat uur snel warmer: de <strong>steilheid</strong> vertelt hoe snel het ging, niet hoe warm het was."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>cirkeldiagram</strong> is de hele cirkel <strong>360 graden</strong> en dus 100 %. Een groep van 20 % krijgt 20 % van 360° = <strong>72°</strong>. Een sector van 90° is <strong>een vierde</strong> van het geheel. Van 40 leerlingen komen er 15 te voet; dat is 15/40 van 360° = <strong>135°</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "Een verticale as die niet bij <strong>0</strong> begint, blaast kleine verschillen op. Kijk altijd eerst naar de as voor je naar de staven kijkt: dat is de meest gebruikte manier om met een eerlijke grafiek toch te misleiden."
+    }
+   ]
+  },
+  {
+   "kop": "Een onderzoek afmaken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een statistisch onderzoek is een rondje: je stelt een vraag, verzamelt gegevens, ordent ze in een tabel, tekent een diagram, rekent een centrummaat uit — en dan komt de stap die het vaakst vergeten wordt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Die laatste stap is een <strong>antwoord formuleren op je onderzoeksvraag</strong>, in woorden. Een tabel en een grafiek zijn tussenstappen. Wie stopt bij de grafiek, heeft gegevens verzameld maar niets onderzocht."
+    },
+    {
+     "soort": "kader",
+     "html": "Zeg er ook bij <strong>waarover</strong> je iets weet. Je onderzocht jouw klas, dus je besluit gaat over jouw klas, niet over alle kinderen van het land."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een goede onderzoeksvraag kan je met gegevens beantwoorden.",
+  "Numeriek kan je tellen of meten; categorisch is een naam of een categorie.",
+  "In een frequentietabel is de som van de frequenties het aantal metingen.",
+  "Gemiddelde = som : aantal. Het hoeft geen waarde uit de reeks te zijn.",
+  "Mediaan = het middelste getal op volgorde; bij een even aantal het gemiddelde van de twee middelste.",
+  "Modus = wat het vaakst voorkomt. De enige maat die ook werkt bij kleuren of categorieën.",
+  "Variatiebreedte = grootste − kleinste. Is ze 0, dan zijn alle waarden gelijk.",
+  "Bij uitschieters is de mediaan eerlijker dan het gemiddelde.",
+  "Uit een frequentietabel: elke waarde maal haar frequentie, gedeeld door het aantal metingen.",
+  "Een waarde boven het gemiddelde doet het stijgen, eronder dalen, gelijk verandert niets.",
+  "Staafdiagram vergelijkt groepen, lijndiagram toont verandering in de tijd, cirkeldiagram toont delen van een geheel.",
+  "De hele cirkel is 360°, dus 100 %. 20 % is 72°, en 90° is een vierde.",
+  "Een as die niet bij 0 begint, maakt kleine verschillen groot. Kijk eerst naar de as.",
+  "Vergelijk klassen van verschillende grootte met percentages, niet met aantallen.",
+  "De laatste stap is een antwoord in woorden op je onderzoeksvraag."
+ ]
+}

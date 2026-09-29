@@ -1,0 +1,182 @@
+{
+ "vak": "Geschiedenis",
+ "titel": "Het Romeinse Rijk",
+ "onder": "Van één stad aan de Tiber tot een rijk rond de hele Middellandse Zee — en weer terug.",
+ "secties": [
+  {
+   "kop": "Van sage tot stad",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Rome ontstond op de heuvels langs de <strong>Tiber</strong>, in Italië: ver genoeg van zee om veilig te zijn, dicht genoeg om te handelen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De Romeinen vertelden zelf het verhaal van <strong>Romulus en Remus</strong>, twee vondelingen die door een wolvin grootgebracht werden. Romulus doodde zijn broer en noemde de stad naar zichzelf."
+    },
+    {
+     "soort": "kader",
+     "html": "Zo'n stichtingsmythe is geen geschiedenis. Ze vertelt vooral hoe de Romeinen zichzelf wilden zien: hard, door de goden gewild, en bereid alles voor de stad opzij te zetten."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het vroege Rome leerde veel van zijn buren: van de <strong>Etrusken</strong> de boog en bestuursgewoonten, van de <strong>Grieken</strong> het alfabet, de goden en de kunst."
+    }
+   ]
+  },
+  {
+   "kop": "De republiek",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Eerst hadden koningen de macht. Toen de Romeinen hun laatste koning wegjoegen, wilden ze nooit meer één alleenheerser. Zo ontstond de <strong>republiek</strong>, van <em>res publica</em>: de zaak van iedereen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Aan het hoofd stonden twee <strong>consuls</strong>, elk voor één jaar verkozen. Twee, zodat ze elkaar konden tegenhouden; één jaar, zodat niemand lang alleen de macht hield. Alleen in uiterste nood benoemde men tijdelijk één <strong>dictator</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>senaat</strong>, de raad van oud-bestuurders, gaf officieel enkel advies, maar besliste in de praktijk over bijna alles. De <strong>volksvergadering</strong> koos de bestuurders en stemde over de wetten — al stemden de rijkste groepen eerst en wogen die het zwaarst."
+    },
+    {
+     "soort": "tekst",
+     "html": "Binnen de stad stonden twee groepen tegenover elkaar: de <strong>patriciërs</strong>, de oude rijke families, en de <strong>plebejers</strong>, het gewone volk. De plebejers dwongen hun rechten stap voor stap af, onder meer door massaal het werk neer te leggen en de stad te verlaten."
+    }
+   ]
+  },
+  {
+   "kop": "Van stad tot wereldrijk",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Eerst veroverde Rome het hele Italische schiereiland. Daarna botste het op <strong>Carthago</strong>, de grote handelsmacht in Noord-Afrika. Dat werden de <strong>Punische oorlogen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Rome won, Carthago werd uiteindelijk volledig verwoest, en Rome had geen tegenstander meer in het westen. De Middellandse Zee werd <strong>mare nostrum</strong>: onze zee."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"36.6\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">stadstaat</text><path d=\"M78.2 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"99.2\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"135.8\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Italië</text><path d=\"M177.4 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"198.4\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Punische</text><text x=\"235.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">oorlogen</text><path d=\"M276.6 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"297.6\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"334.2\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">mare</text><text x=\"334.2\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">nostrum</text><path d=\"M375.8 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"396.8\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"433.4\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">imperium</text><text x=\"433.4\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">Romanum</text></svg>",
+     "onderschrift": "Elke verovering maakte de volgende mogelijk — en maakte tegelijk de republiek onbestuurbaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het succes ondermijnde het bestuur. Oorlogen leverden zoveel slaven op dat grootgrondbezit met slavenarbeid, het <strong>latifundium</strong>, spotgoedkoop werd. De kleine boer kon daar niet tegenop, verkocht zijn grond en trok verarmd naar de stad."
+    }
+   ]
+  },
+  {
+   "kop": "Van republiek naar keizerrijk",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In de stad groeide zo een grote groep arme burgers. Politici hielden die tevreden met gratis graan en spelen. Tegelijk kregen soldaten hun stuk land niet van de staat maar van hun <strong>generaal</strong> — en dus volgden ze hem, desnoods tegen Rome in."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wie de top wilde bereiken, zocht bondgenoten. Drie machtige mannen die samen de macht verdeelden, noemt men een <strong>triumviraat</strong>. Het eerste bestond uit Caesar, Pompeius en Crassus; het tweede, na de moord op Caesar, uit Augustus, Marcus Antonius en Lepidus. Allebei eindigden ze in een oorlog tussen de partners."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat leidde tot een eeuw van <strong>burgeroorlogen</strong>: Marius tegen Sulla, daarna Caesar tegen Pompeius. <strong>Julius Caesar</strong> won en liet zich dictator voor het leven benoemen. Zijn tegenstanders zagen daarin een nieuwe koning en vermoordden hem in de senaat."
+    },
+    {
+     "soort": "tekst",
+     "html": "Na nog een burgeroorlog bleef zijn aangenomen zoon over: <strong>Augustus</strong>, de eerste <strong>keizer</strong>. Hij noemde zich geen koning maar <em>princeps</em>, de eerste burger, en liet de senaat en de ambten gewoon bestaan."
+    },
+    {
+     "soort": "kader",
+     "html": "Dat was geen bescheidenheid maar berekening. De vormen van de republiek bleven staan, terwijl de macht in één paar handen zat. Zo kreeg Rome het alleenbewind dat het vier eeuwen eerder had afgezworen, zonder het zo te moeten noemen."
+    }
+   ]
+  },
+  {
+   "kop": "Pax Romana",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Onder de eerste keizers volgde een periode van ongeveer twee eeuwen rust binnen het rijk: de <strong>Pax Romana</strong>, de Romeinse vrede. Aan de grenzen werd wel nog gevochten."
+    },
+    {
+     "soort": "tekst",
+     "html": "Die rust was ook economie. Eén munt, één rechtssysteem, geen rovers en geen piraten: goederen konden van Britannië tot Egypte reizen. Daarvoor bouwden de Romeinen wegen die eeuwen meegingen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 196\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"158\" y=\"30\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">Een doorsnede, alsof je de weg middendoor zaagt.</text><path d=\"M34 59 Q158 46 282 59 V70 H34 Z\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.5\"/><path d=\"M282 64 H296\" stroke=\"#c17f2b\" stroke-width=\"1.2\" fill=\"none\"/><text x=\"301\" y=\"68\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#c17f2b\">kasseien</text><rect x=\"40\" y=\"70\" width=\"236\" height=\"24\" fill=\"#ece2cf\" stroke=\"#234539\" stroke-width=\"1.5\"/><path d=\"M276 82 H290\" stroke=\"#c17f2b\" stroke-width=\"1.2\" fill=\"none\"/><text x=\"295\" y=\"86\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#c17f2b\">zand en grind</text><rect x=\"46\" y=\"94\" width=\"224\" height=\"28\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.5\"/><path d=\"M270 108 H284\" stroke=\"#c17f2b\" stroke-width=\"1.2\" fill=\"none\"/><text x=\"289\" y=\"112\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#c17f2b\">gebroken steen met kalk</text><rect x=\"52\" y=\"122\" width=\"212\" height=\"32\" fill=\"#ece2cf\" stroke=\"#234539\" stroke-width=\"1.5\"/><path d=\"M264 138 H278\" stroke=\"#c17f2b\" stroke-width=\"1.2\" fill=\"none\"/><text x=\"283\" y=\"142\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#c17f2b\">grote platte stenen</text><rect x=\"40\" y=\"65\" width=\"18\" height=\"12\" rx=\"2.5\" fill=\"#ece2cf\" stroke=\"#234539\" stroke-width=\"1\"/><rect x=\"62\" y=\"61\" width=\"18\" height=\"12\" rx=\"2.5\" fill=\"#ece2cf\" stroke=\"#234539\" stroke-width=\"1\"/><rect x=\"83\" y=\"58\" width=\"18\" height=\"12\" rx=\"2.5\" fill=\"#ece2cf\" stroke=\"#234539\" stroke-width=\"1\"/><rect x=\"104\" y=\"55\" width=\"18\" height=\"12\" rx=\"2.5\" fill=\"#ece2cf\" stroke=\"#234539\" stroke-width=\"1\"/><rect x=\"126\" y=\"54\" width=\"18\" height=\"12\" rx=\"2.5\" fill=\"#ece2cf\" stroke=\"#234539\" stroke-width=\"1\"/><rect x=\"148\" y=\"53\" width=\"18\" height=\"12\" rx=\"2.5\" fill=\"#ece2cf\" stroke=\"#234539\" stroke-width=\"1\"/><rect x=\"169\" y=\"53\" width=\"18\" height=\"12\" rx=\"2.5\" fill=\"#ece2cf\" stroke=\"#234539\" stroke-width=\"1\"/><rect x=\"190\" y=\"54\" width=\"18\" height=\"12\" rx=\"2.5\" fill=\"#ece2cf\" stroke=\"#234539\" stroke-width=\"1\"/><rect x=\"212\" y=\"55\" width=\"18\" height=\"12\" rx=\"2.5\" fill=\"#ece2cf\" stroke=\"#234539\" stroke-width=\"1\"/><rect x=\"234\" y=\"58\" width=\"18\" height=\"12\" rx=\"2.5\" fill=\"#ece2cf\" stroke=\"#234539\" stroke-width=\"1\"/><rect x=\"255\" y=\"61\" width=\"18\" height=\"12\" rx=\"2.5\" fill=\"#ece2cf\" stroke=\"#234539\" stroke-width=\"1\"/><circle cx=\"48\" cy=\"76\" r=\"2.2\" fill=\"#6b7260\" opacity=\"0.5\"/><circle cx=\"59\" cy=\"83\" r=\"2.2\" fill=\"#6b7260\" opacity=\"0.5\"/><circle cx=\"70\" cy=\"76\" r=\"2.2\" fill=\"#6b7260\" opacity=\"0.5\"/><circle cx=\"81\" cy=\"83\" r=\"2.2\" fill=\"#6b7260\" opacity=\"0.5\"/><circle cx=\"92\" cy=\"76\" r=\"2.2\" fill=\"#6b7260\" opacity=\"0.5\"/><circle cx=\"103\" cy=\"83\" r=\"2.2\" fill=\"#6b7260\" opacity=\"0.5\"/><circle cx=\"114\" cy=\"76\" r=\"2.2\" fill=\"#6b7260\" opacity=\"0.5\"/><circle cx=\"125\" cy=\"83\" r=\"2.2\" fill=\"#6b7260\" opacity=\"0.5\"/><circle cx=\"136\" cy=\"76\" r=\"2.2\" fill=\"#6b7260\" opacity=\"0.5\"/><circle cx=\"147\" cy=\"83\" r=\"2.2\" fill=\"#6b7260\" opacity=\"0.5\"/><circle cx=\"158\" cy=\"76\" r=\"2.2\" fill=\"#6b7260\" opacity=\"0.5\"/><circle cx=\"169\" cy=\"83\" r=\"2.2\" fill=\"#6b7260\" opacity=\"0.5\"/><circle cx=\"180\" cy=\"76\" r=\"2.2\" fill=\"#6b7260\" opacity=\"0.5\"/><circle cx=\"191\" cy=\"83\" r=\"2.2\" fill=\"#6b7260\" opacity=\"0.5\"/><circle cx=\"202\" cy=\"76\" r=\"2.2\" fill=\"#6b7260\" opacity=\"0.5\"/><circle cx=\"213\" cy=\"83\" r=\"2.2\" fill=\"#6b7260\" opacity=\"0.5\"/><circle cx=\"224\" cy=\"76\" r=\"2.2\" fill=\"#6b7260\" opacity=\"0.5\"/><circle cx=\"235\" cy=\"83\" r=\"2.2\" fill=\"#6b7260\" opacity=\"0.5\"/><circle cx=\"246\" cy=\"76\" r=\"2.2\" fill=\"#6b7260\" opacity=\"0.5\"/><circle cx=\"257\" cy=\"83\" r=\"2.2\" fill=\"#6b7260\" opacity=\"0.5\"/><path d=\"M58 130 l10 -6 l11 5 l-9 8 Z\" fill=\"#6b7260\" opacity=\"0.35\"/><path d=\"M82 130 l10 -6 l11 5 l-9 8 Z\" fill=\"#6b7260\" opacity=\"0.35\"/><path d=\"M106 130 l10 -6 l11 5 l-9 8 Z\" fill=\"#6b7260\" opacity=\"0.35\"/><path d=\"M130 130 l10 -6 l11 5 l-9 8 Z\" fill=\"#6b7260\" opacity=\"0.35\"/><path d=\"M154 130 l10 -6 l11 5 l-9 8 Z\" fill=\"#6b7260\" opacity=\"0.35\"/><path d=\"M178 130 l10 -6 l11 5 l-9 8 Z\" fill=\"#6b7260\" opacity=\"0.35\"/><path d=\"M202 130 l10 -6 l11 5 l-9 8 Z\" fill=\"#6b7260\" opacity=\"0.35\"/><path d=\"M226 130 l10 -6 l11 5 l-9 8 Z\" fill=\"#6b7260\" opacity=\"0.35\"/><path d=\"M250 130 l10 -6 l11 5 l-9 8 Z\" fill=\"#6b7260\" opacity=\"0.35\"/><path d=\"M26 154 H290\" stroke=\"#6b7260\" stroke-width=\"1.4\"/><text x=\"26\" y=\"168\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">de vaste grond eronder</text></svg>",
+     "onderschrift": "Een Romeinse weg is opgebouwd uit lagen, met een bolle bovenkant zodat het regenwater afloopt."
+    },
+    {
+     "soort": "tekst",
+     "html": "En water haalden ze van ver. Een <strong>aquaduct</strong> loopt kilometers lang heel licht bergaf, zodat het water vanzelf blijft stromen tot in de stad."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 200\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 172 H470\" stroke=\"#6b7260\" stroke-width=\"1.4\"/><rect x=\"30.0\" y=\"96\" width=\"82.0\" height=\"76\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.5\"/><path d=\"M41.0 172 V126 a30.0 30.0 0 0 1 60.0 0 V172 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.5\"/><rect x=\"112.0\" y=\"96\" width=\"82.0\" height=\"76\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.5\"/><path d=\"M123.0 172 V126 a30.0 30.0 0 0 1 60.0 0 V172 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.5\"/><rect x=\"194.0\" y=\"96\" width=\"82.0\" height=\"76\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.5\"/><path d=\"M205.0 172 V126 a30.0 30.0 0 0 1 60.0 0 V172 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.5\"/><rect x=\"276.0\" y=\"96\" width=\"82.0\" height=\"76\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.5\"/><path d=\"M287.0 172 V126 a30.0 30.0 0 0 1 60.0 0 V172 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.5\"/><rect x=\"358.0\" y=\"96\" width=\"82.0\" height=\"76\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.5\"/><path d=\"M369.0 172 V126 a30.0 30.0 0 0 1 60.0 0 V172 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.5\"/><rect x=\"30.0\" y=\"44\" width=\"41.0\" height=\"52\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M36.0 96 V64 a14.5 14.5 0 0 1 29.0 0 V96 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"71.0\" y=\"44\" width=\"41.0\" height=\"52\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M77.0 96 V64 a14.5 14.5 0 0 1 29.0 0 V96 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"112.0\" y=\"44\" width=\"41.0\" height=\"52\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M118.0 96 V64 a14.5 14.5 0 0 1 29.0 0 V96 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"153.0\" y=\"44\" width=\"41.0\" height=\"52\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M159.0 96 V64 a14.5 14.5 0 0 1 29.0 0 V96 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"194.0\" y=\"44\" width=\"41.0\" height=\"52\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M200.0 96 V64 a14.5 14.5 0 0 1 29.0 0 V96 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"235.0\" y=\"44\" width=\"41.0\" height=\"52\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M241.0 96 V64 a14.5 14.5 0 0 1 29.0 0 V96 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"276.0\" y=\"44\" width=\"41.0\" height=\"52\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M282.0 96 V64 a14.5 14.5 0 0 1 29.0 0 V96 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"317.0\" y=\"44\" width=\"41.0\" height=\"52\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M323.0 96 V64 a14.5 14.5 0 0 1 29.0 0 V96 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"358.0\" y=\"44\" width=\"41.0\" height=\"52\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M364.0 96 V64 a14.5 14.5 0 0 1 29.0 0 V96 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"399.0\" y=\"44\" width=\"41.0\" height=\"52\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M405.0 96 V64 a14.5 14.5 0 0 1 29.0 0 V96 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"30\" y=\"24\" width=\"410\" height=\"20\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.5\"/><rect x=\"30\" y=\"29\" width=\"120\" height=\"15\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"32\" y=\"36\" width=\"116\" height=\"7\" fill=\"#9dc3d8\"/><text x=\"160\" y=\"18\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">hier liep het water</text><path d=\"M156 14 L120 32\" stroke=\"#c17f2b\" stroke-width=\"1.2\" fill=\"none\"/></svg>",
+     "onderschrift": "Bogen op bogen, met bovenaan de goot. De boog is precies wat de Romeinen aan de Griekse bouwkunst toevoegden."
+    }
+   ]
+  },
+  {
+   "kop": "Bouwen, geloven en kijken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De Grieken bouwden met zuilen en balken. De Romeinen voegden de <strong>boog</strong>, het <strong>gewelf</strong>, de <strong>koepel</strong> en <strong>beton</strong> toe. Daarmee konden ze veel grotere ruimtes overspannen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 190\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 158 H470\" stroke=\"#6b7260\" stroke-width=\"1.4\"/><rect x=\"30.0\" y=\"120\" width=\"37.3\" height=\"38\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M37.63636363636364 155 V135 a11 11 0 0 1 22 0 V155 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"67.3\" y=\"120\" width=\"37.3\" height=\"38\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M74.90909090909092 155 V135 a11 11 0 0 1 22 0 V155 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"104.5\" y=\"120\" width=\"37.3\" height=\"38\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M112.18181818181819 155 V135 a11 11 0 0 1 22 0 V155 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"141.8\" y=\"120\" width=\"37.3\" height=\"38\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M149.45454545454544 155 V135 a11 11 0 0 1 22 0 V155 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"179.1\" y=\"120\" width=\"37.3\" height=\"38\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M186.72727272727272 155 V135 a11 11 0 0 1 22 0 V155 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"216.4\" y=\"120\" width=\"37.3\" height=\"38\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M224.0 155 V135 a11 11 0 0 1 22 0 V155 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"253.6\" y=\"120\" width=\"37.3\" height=\"38\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M261.27272727272725 155 V135 a11 11 0 0 1 22 0 V155 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"290.9\" y=\"120\" width=\"37.3\" height=\"38\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M298.54545454545456 155 V135 a11 11 0 0 1 22 0 V155 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"328.2\" y=\"120\" width=\"37.3\" height=\"38\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M335.8181818181818 155 V135 a11 11 0 0 1 22 0 V155 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"365.5\" y=\"120\" width=\"37.3\" height=\"38\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M373.09090909090907 155 V135 a11 11 0 0 1 22 0 V155 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"402.7\" y=\"120\" width=\"37.3\" height=\"38\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M410.3636363636364 155 V135 a11 11 0 0 1 22 0 V155 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"30.0\" y=\"82\" width=\"37.3\" height=\"38\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M37.63636363636364 117 V97 a11 11 0 0 1 22 0 V117 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"67.3\" y=\"82\" width=\"37.3\" height=\"38\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M74.90909090909092 117 V97 a11 11 0 0 1 22 0 V117 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"104.5\" y=\"82\" width=\"37.3\" height=\"38\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M112.18181818181819 117 V97 a11 11 0 0 1 22 0 V117 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"141.8\" y=\"82\" width=\"37.3\" height=\"38\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M149.45454545454544 117 V97 a11 11 0 0 1 22 0 V117 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"179.1\" y=\"82\" width=\"37.3\" height=\"38\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M186.72727272727272 117 V97 a11 11 0 0 1 22 0 V117 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"216.4\" y=\"82\" width=\"37.3\" height=\"38\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M224.0 117 V97 a11 11 0 0 1 22 0 V117 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"253.6\" y=\"82\" width=\"37.3\" height=\"38\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M261.27272727272725 117 V97 a11 11 0 0 1 22 0 V117 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"290.9\" y=\"82\" width=\"37.3\" height=\"38\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M298.54545454545456 117 V97 a11 11 0 0 1 22 0 V117 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"328.2\" y=\"82\" width=\"37.3\" height=\"38\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M335.8181818181818 117 V97 a11 11 0 0 1 22 0 V117 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"365.5\" y=\"82\" width=\"37.3\" height=\"38\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M373.09090909090907 117 V97 a11 11 0 0 1 22 0 V117 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"402.7\" y=\"82\" width=\"37.3\" height=\"38\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M410.3636363636364 117 V97 a11 11 0 0 1 22 0 V117 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"30.0\" y=\"46\" width=\"37.3\" height=\"36\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M37.63636363636364 79 V61 a11 11 0 0 1 22 0 V79 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"67.3\" y=\"46\" width=\"37.3\" height=\"36\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M74.90909090909092 79 V61 a11 11 0 0 1 22 0 V79 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"104.5\" y=\"46\" width=\"37.3\" height=\"36\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M112.18181818181819 79 V61 a11 11 0 0 1 22 0 V79 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"141.8\" y=\"46\" width=\"37.3\" height=\"36\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M149.45454545454544 79 V61 a11 11 0 0 1 22 0 V79 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"179.1\" y=\"46\" width=\"37.3\" height=\"36\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M186.72727272727272 79 V61 a11 11 0 0 1 22 0 V79 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"216.4\" y=\"46\" width=\"37.3\" height=\"36\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M224.0 79 V61 a11 11 0 0 1 22 0 V79 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"253.6\" y=\"46\" width=\"37.3\" height=\"36\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M261.27272727272725 79 V61 a11 11 0 0 1 22 0 V79 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"290.9\" y=\"46\" width=\"37.3\" height=\"36\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M298.54545454545456 79 V61 a11 11 0 0 1 22 0 V79 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"328.2\" y=\"46\" width=\"37.3\" height=\"36\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M335.8181818181818 79 V61 a11 11 0 0 1 22 0 V79 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"365.5\" y=\"46\" width=\"37.3\" height=\"36\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M373.09090909090907 79 V61 a11 11 0 0 1 22 0 V79 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"402.7\" y=\"46\" width=\"37.3\" height=\"36\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M410.3636363636364 79 V61 a11 11 0 0 1 22 0 V79 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><path d=\"M30 46 H276 L282 22 L290 16 L300 27 L309 19 L319 32 L328 26 L336 38 L342 46 Z\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"30\" y=\"16\" width=\"246\" height=\"30\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"43.6\" y=\"24\" width=\"10\" height=\"13\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.1\"/><rect x=\"80.9\" y=\"24\" width=\"10\" height=\"13\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.1\"/><rect x=\"118.2\" y=\"24\" width=\"10\" height=\"13\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.1\"/><rect x=\"155.5\" y=\"24\" width=\"10\" height=\"13\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.1\"/><rect x=\"192.7\" y=\"24\" width=\"10\" height=\"13\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.1\"/><rect x=\"230.0\" y=\"24\" width=\"10\" height=\"13\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.1\"/></svg>",
+     "onderschrift": "Het Colosseum: een amfitheater is rondom gebouwd, zodat iedereen zicht heeft op het midden. Daar vochten gladiatoren."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ook hun beelden verschillen van de Griekse. Griekse beelden tonen het <strong>ideaal</strong>; Romeinse portretten tonen de <strong>persoon</strong>, met rimpels, kale kruin en al. Pas later lieten keizers zich weer jonger en goddelijker afbeelden dan ze waren."
+    },
+    {
+     "soort": "tekst",
+     "html": "De Romeinen namen de Griekse goden over en gaven ze eigen namen: Zeus werd <strong>Jupiter</strong>, Ares werd Mars, Aphrodite werd Venus. Daarbovenop kwam de <strong>keizerscultus</strong>: de keizer zelf werd vereerd. In een rijk vol volkeren en goden was dat het bindmiddel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Precies daarom botsten de <strong>christenen</strong>: zij weigerden de keizer te vereren. Ze werden vervolgd, maar het christendom groeide toch, werd onder Constantijn toegelaten en uiteindelijk zelfs staatsgodsdienst."
+    }
+   ]
+  },
+  {
+   "kop": "Het einde van het westen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In de <strong>3de eeuw</strong> liep het mis: invallen aan de grenzen, munten die steeds minder zilver bevatten, en keizers die elkaar in hoog tempo afzetten."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het rijk bleek te groot om vanuit één punt te besturen en werd gesplitst in een <strong>West-</strong> en een <strong>Oost-Romeins Rijk</strong>. Het westen viel in <strong>476</strong>; het oosten leefde als het Byzantijnse Rijk nog duizend jaar voort, met Constantinopel als hoofdstad."
+    },
+    {
+     "soort": "kader",
+     "html": "476 geldt als <strong>scharnierpunt</strong> naar de middeleeuwen. Dat is een afspraak onder historici, geen dag waarop alles plots anders was. Voor de meeste mensen veranderde er dat jaar niets."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wat bleef, zie je nog dagelijks: het <strong>Latijn</strong> in het Frans, Spaans en Italiaans en in duizenden woorden bij ons, onze letters, onze maandnamen — juli en augustus zijn naar Julius Caesar en Augustus genoemd — en het <strong>recht</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Rome ontstond aan de Tiber; de sage van Romulus en Remus is mythe, geen geschiedenis.",
+  "Koningstijd → republiek → keizerrijk. De republiek had twee consuls per jaar, een senaat en een volksvergadering.",
+  "Patriciërs tegen plebejers: het gewone volk dwong zijn rechten stap voor stap af.",
+  "Punische oorlogen tegen Carthago maakten Rome baas over het westen: mare nostrum.",
+  "Latifundia met slaven verdreven de kleine boer naar de stad; legers werden trouw aan hun generaal.",
+  "Caesar werd vermoord als dictator; Augustus werd de eerste keizer en noemde zich princeps.",
+  "Pax Romana: twee eeuwen rust, en daardoor handel over het hele rijk, over wegen en via aquaducten.",
+  "De Romeinen voegden boog, gewelf, koepel en beton toe aan de Griekse bouwkunst.",
+  "Portretbeelden tonen de mens zoals hij was; keizerscultus als bindmiddel, christendom van vervolgd tot staatsgodsdienst.",
+  "Crisis van de 3de eeuw, splitsing, val van het westen in 476 — het oosten hield nog duizend jaar stand."
+ ]
+}

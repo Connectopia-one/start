@@ -1,0 +1,106 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Wetenschappelijk onderzoek",
+ "onder": "De stappen van een onderzoek, een goede onderzoeksvraag, en hoe je verbanden onderzoekt.",
+ "secties": [
+  {
+   "kop": "De stappen van een onderzoek",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"56.7\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"28.3\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">probleem</text><text x=\"28.3\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">afbakenen</text><path d=\"M61.666666666666664 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"82.7\" y=\"6\" width=\"56.7\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"111.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">vraag en</text><text x=\"111.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">hypothese</text><path d=\"M144.33333333333331 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"165.3\" y=\"6\" width=\"56.7\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"193.7\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">onderzoeks-</text><text x=\"193.7\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">plan</text><path d=\"M226.99999999999997 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"248.0\" y=\"6\" width=\"56.7\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"276.3\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">data</text><text x=\"276.3\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">verzamelen</text><path d=\"M309.66666666666663 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"330.7\" y=\"6\" width=\"56.7\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"359.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">analyse en</text><text x=\"359.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">conclusie</text><path d=\"M392.3333333333333 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"413.3\" y=\"6\" width=\"56.7\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"441.7\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">reflectie</text></svg>",
+     "onderschrift": "Op het examen krijg je zo'n onderzoek als opgave, rond een wetenschappelijk, een STEM- of een maatschappelijk probleem."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een onderzoek begint met een <strong>probleemstelling</strong> die je definieert en afbakent, en daarna met een <strong>onderzoeksvraag</strong>. Je formuleert een <strong>hypothese</strong>: een verwachting die je vooraf opschrijft, vaak in de vorm 'als …, dan …'. Je schrijft ze op vóór je meet, anders pas je je verwachting ongemerkt aan je resultaat aan."
+    },
+    {
+     "soort": "tekst",
+     "html": "In je <strong>onderzoeksplan</strong> staat wat je meet, waarmee, hoe vaak en wat je constant houdt. Daarna verzamel je <strong>data</strong> — je metingen en gegevens — en verwerk je die in een tabel of een grafiek. Je trekt je <strong>conclusie</strong> uit die data: ze is het antwoord of de verklaring op je onderzoeksvraag. Ten slotte <strong>reflecteer</strong> je: je kijkt terug op je methode en je resultaten en zegt eerlijk wat beter kon. En je <strong>communiceert</strong>, in een verslag of een presentatie. In dat verslag horen je onderzoeksvraag en hypothese, je <strong>werkwijze</strong> en je resultaten, en je conclusie en reflectie."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>STEM</strong> staat voor Science, Technology, Engineering en Mathematics. Bij een STEM-opdracht zet je wetenschap, techniek, ontwerpen en wiskunde samen in om een probleem op te lossen — ook een maatschappelijk probleem."
+    }
+   ]
+  },
+  {
+   "kop": "Een goede onderzoeksvraag",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">criterium</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">dit wil zeggen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">open</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de onderzoeksvraag is een open vraag, niet met ja of nee te beantwoorden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">enkelvoudig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ze gaat over één onderwerp, één probleem</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">objectief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ze laat geen overtuiging of mening blijken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">haalbaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het onderzoek is uitvoerbaar met de tijd en de middelen die er zijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onderzoekbaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het is geen opzoekvraag en niet meteen oplosbaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">relevant</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het antwoord draagt bij aan wat we al weten over het onderwerp</td></tr></table>",
+     "onderschrift": "Die zes criteria staan in bijlage 1 van de vakfiche, en de linkerkolom krijg je ook op het examen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een goede vraag: <em>Welke invloed heeft de hoeveelheid water op de groei van tuinkers?</em> Fout gaat het bij <em>Is tuinkers lekker?</em> (een mening), <em>Hoeveel poten heeft een spin?</em> (een opzoekvraag, dus niet onderzoekbaar), <em>Is een elektrische auto niet beter dan een benzineauto?</em> (niet open én niet objectief: het antwoord zit al in de vraag) en <em>Groeien planten sneller met meer licht en meer mest?</em> (niet enkelvoudig, want twee variabelen tegelijk, én gesloten). Ook <em>Hoe evolueert de zeespiegel de komende honderd jaar?</em> valt af: mooi, maar niet haalbaar voor een schoolonderzoek."
+    }
+   ]
+  },
+  {
+   "kop": "Eerlijk meten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>variabele</strong> is iets dat kan veranderen en dat je meet of instelt. In een goede proef verander je er <strong>maar één</strong>, meet je er één, en houd je alle andere gelijk. Test je of planten sneller groeien met meer licht, dan houd je de hoeveelheid water, de soort plant en de temperatuur gelijk; alleen het licht verschilt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Verander je twee dingen tegelijk — mest én een plek voor het raam — dan lopen de twee door elkaar en weet je achteraf niet waardoor het verschil komt. Je conclusie is dan waardeloos."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Herhaal</strong> je metingen. Eén meting kan toevallig afwijken, en met één plant kan een toevalligheid je hele besluit sturen. Meerdere herhalingen en het gemiddelde maken je resultaat betrouwbaarder."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een <strong>waarneming</strong> is wat je ziet of meet ('het water is 30 °C'). Een <strong>besluit</strong> is wat je daaruit afleidt ('water koelt trager af met een deksel'). Een conclusie steunt op data, nooit op een gevoel — en een hypothese die niet uitkomt, is géén mislukking: je hebt geleerd hoe het níet zit. Resultaten weglaten omdat ze niet passen, mag nooit."
+    }
+   ]
+  },
+  {
+   "kop": "Data, modellen en verbanden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Om je gegevens voor te stellen gebruik je een <strong>model</strong>: een schets, een tabel, een grafiek, een formule of een vergelijking. Op de <strong>horizontale as</strong> van een grafiek zet je wat je zelf instelt of laat veranderen, op de verticale as wat daarvan afhangt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Uit een tabel haal je verbanden: duurt het bij 10 °C 40 min, bij 20 °C 20 min en bij 40 °C 10 min, dan geldt: hoe hoger de temperatuur, hoe korter de tijd. Uit een grafiek lees je hetzelfde af: meet je afkoelend water (80 °C, 60 °C, 45 °C, 35 °C, 30 °C), dan krijg je een dalende kromme die steeds vlakker wordt."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 192\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30.0\" y1=\"158\" x2=\"223.0\" y2=\"158\" stroke=\"#234539\" stroke-width=\"1.6\"/><line x1=\"30.0\" y1=\"158\" x2=\"30.0\" y2=\"24\" stroke=\"#234539\" stroke-width=\"1.6\"/><polyline points=\"30.0,158.0 33.1,156.0 36.2,154.1 39.2,152.1 42.3,150.1 45.4,148.2 48.5,146.2 51.6,144.3 54.7,142.3 57.8,140.3 60.8,138.4 63.9,136.4 67.0,134.4 70.1,132.5 73.2,130.5 76.2,128.6 79.3,126.6 82.4,124.6 85.5,122.7 88.6,120.7 91.7,118.7 94.8,116.8 97.8,114.8 100.9,112.9 104.0,110.9 107.1,108.9 110.2,107.0 113.2,105.0 116.3,103.0 119.4,101.1 122.5,99.1 125.6,97.2 128.7,95.2 131.8,93.2 134.8,91.3 137.9,89.3 141.0,87.3 144.1,85.4 147.2,83.4 150.2,81.5 153.3,79.5 156.4,77.5 159.5,75.6 162.6,73.6 165.7,71.6 168.8,69.7 171.8,67.7 174.9,65.8 178.0,63.8 181.1,61.8 184.2,59.9 187.2,57.9 190.3,55.9 193.4,54.0 196.5,52.0 199.6,50.1 202.7,48.1 205.8,46.1 208.8,44.2 211.9,42.2 215.0,40.2\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><text x=\"132.5\" y=\"170.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#2f5d50\">y = 3x</text><text x=\"132.5\" y=\"184.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">rechte door de oorsprong</text><line x1=\"265.0\" y1=\"158\" x2=\"458.0\" y2=\"158\" stroke=\"#234539\" stroke-width=\"1.6\"/><line x1=\"265.0\" y1=\"158\" x2=\"265.0\" y2=\"24\" stroke=\"#234539\" stroke-width=\"1.6\"/><polyline points=\"298.3,40.2 300.8,48.6 303.4,55.8 305.9,62.1 308.4,67.7 310.9,72.6 313.5,77.1 316.0,81.1 318.5,84.7 321.1,88.0 323.6,91.1 326.1,93.8 328.6,96.4 331.2,98.7 333.7,100.9 336.2,102.9 338.8,104.8 341.3,106.6 343.8,108.2 346.3,109.8 348.9,111.2 351.4,112.6 353.9,113.9 356.5,115.1 359.0,116.3 361.5,117.4 364.0,118.4 366.6,119.4 369.1,120.3 371.6,121.2 374.1,122.1 376.7,122.9 379.2,123.7 381.7,124.4 384.3,125.1 386.8,125.8 389.3,126.5 391.8,127.1 394.4,127.7 396.9,128.3 399.4,128.8 402.0,129.4 404.5,129.9 407.0,130.4 409.5,130.9 412.1,131.3 414.6,131.8 417.1,132.2 419.7,132.6 422.2,133.1 424.7,133.4 427.2,133.8 429.8,134.2 432.3,134.6 434.8,134.9 437.4,135.2 439.9,135.6 442.4,135.9 444.9,136.2 447.5,136.5 450.0,136.8\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><text x=\"367.5\" y=\"170.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#2f5d50\">y = 24 : x</text><text x=\"367.5\" y=\"184.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">kromme, raakt de assen niet</text></svg>",
+     "onderschrift": "Recht evenredig geeft een rechte door de oorsprong, omgekeerd evenredig een kromme."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Recht evenredig</strong>: wordt de ene twee keer zo groot, dan de andere ook. Het aantal broden en de prijs, de tijd die je fietst en de afgelegde weg aan constante snelheid, de massa en het volume van eenzelfde stof. <strong>Omgekeerd evenredig</strong>: wordt de ene twee keer zo groot, dan halveert de andere, en blijft hun product constant. Meer werkers aan dezelfde klus betekent minder tijd."
+    },
+    {
+     "soort": "tekst",
+     "html": "Uit een grafiek haal je ook getallen. Lees je op een rechte door de oorsprong bij 4 s een <strong>afstand</strong> van 20 m af, dan is de snelheid 20 : 4 = 5 m/s."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Formules omvormen</strong> hoort erbij: je drukt één variabele uit <strong>in functie van</strong> de andere. Uit v = Δx / Δt volgt Δx = v × Δt en Δt = Δx / v. Uit ρ = m / V volgt m = ρ × V en V = m / ρ. Je vermenigvuldigt of deelt gewoon beide kanten met dezelfde grootheid."
+    },
+    {
+     "soort": "tekst",
+     "html": "Kies je meetbare variabele met zorg. Wil je weten welk isolatiemateriaal een beker koffie het langst warm houdt, dan meet je de <em>temperatuur na een bepaalde tijd</em> — niet de kleur of de prijs van het materiaal."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Volgorde: probleem, onderzoeksvraag en hypothese, plan, data, analyse en conclusie, reflectie.",
+  "Een onderzoeksvraag is open, enkelvoudig, objectief, haalbaar, onderzoekbaar en relevant.",
+  "Verander één variabele tegelijk en houd de rest constant.",
+  "Herhaal je metingen; een conclusie steunt op data, niet op een gevoel.",
+  "Recht evenredig: rechte door de oorsprong. Omgekeerd evenredig: het product blijft constant.",
+  "STEM = Science, Technology, Engineering en Mathematics."
+ ]
+}

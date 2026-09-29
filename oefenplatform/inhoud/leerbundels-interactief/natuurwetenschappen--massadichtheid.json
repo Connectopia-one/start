@@ -1,0 +1,131 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Massadichtheid",
+ "onder": "ρ = m / V, en alles wat je daarmee kan uitrekenen en verklaren.",
+ "secties": [
+  {
+   "kop": "Wat massadichtheid is",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Waarom weegt een blok ijzer zwaarder dan een even groot blok hout? Omdat ijzer een grotere <strong>massadichtheid</strong> heeft: bij ijzer zitten de deeltjes zwaarder en dichter op elkaar. Massadichtheid zegt hoeveel massa er in één bepaalde hoeveelheid ruimte zit."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">grootheid</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">symbool</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">SI-eenheid</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">ook gebruikt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">massa</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">m</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kilogram (kg)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gram (g)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">volume</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">V</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kubieke meter (m³)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">liter (L), cm³</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">massadichtheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ρ (rho)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kilogram per kubieke meter (kg/m³)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">g/cm³</td></tr></table>",
+     "onderschrift": "ρ is de Griekse letter rho. Let op het verschil tussen de kleine v (snelheid) en de hoofdletter V (volume)."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>ρ = m / V</strong> — je deelt de massa door het volume.<br>Daaruit volgt <strong>m = ρ × V</strong> en <strong>V = m / ρ</strong>. Met dezelfde formule kan je dus alle drie de grootheden berekenen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Massadichtheid is een <strong>stofeigenschap</strong> en zelfs een stofconstante: ze hangt niet af van hoe groot je stuk is. Een spijker en een balk van hetzelfde ijzer hebben dezelfde massadichtheid. Leg je twee even grote blokjes van dezelfde stof samen, dan verdubbelen massa én volume, en blijft hun verhouding gelijk. Twee voorwerpen met dezelfde massa hebben daarom nog niet dezelfde massadichtheid: een kilo veren neemt veel meer plaats in dan een kilo lood."
+    }
+   ]
+  },
+  {
+   "kop": "Massa en volume meten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het juiste <strong>meetinstrument</strong> kiezen hoort erbij. De <strong>massa</strong> bepaal je door te wegen, met een <strong>weegschaal</strong>. Het <strong>volume</strong> van een vloeistof meet je met een <strong>maatcilinder</strong>. De massadichtheid van een vloeistof kan je ook rechtstreeks meten met een <strong>dichtheidsmeter</strong> of densiteitsmeter, die in de vloeistof drijft."
+    },
+    {
+     "soort": "tekst",
+     "html": "Van een <strong>regelmatig voorwerp</strong> reken je het volume uit."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">figuur</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">formule</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kubus</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">V = z³ &nbsp;(z = de ribbe of zijde)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ribbe 2 cm → V = 2 × 2 × 2 = 8 cm³</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">balk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">V = l · b · h &nbsp;(lengte, breedte, hoogte)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5 × 4 × 2 = 40 cm³</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bol</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">V = 4/3 · π · r³ &nbsp;(r = de straal)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">straal 3 cm → 4/3 × 3,14 × 27 = 113,04 cm³</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cilinder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">V = π · r² · h &nbsp;(straal en hoogte)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">straal 2 cm, hoogte 10 cm → 3,14 × 4 × 10 = 125,6 cm³</td></tr></table>",
+     "onderschrift": "Reken met π ≈ 3,14 als er niets anders bij staat. Elke lengte in dezelfde eenheid, anders klopt je volume niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Van een <strong>onregelmatig voorwerp</strong>, zoals een steen of een moer, bepaal je het volume door <strong>onderdompeling</strong>. Het voorwerp duwt evenveel water opzij als zijn eigen volume."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 220\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"punt5\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto\"><path d=\"M0 0 L10 5 L0 10 z\" fill=\"#5b7f9c\"/></marker><marker id=\"punt6\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto\"><path d=\"M0 0 L10 5 L0 10 z\" fill=\"#5b93b8\"/></marker><marker id=\"punt7\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto\"><path d=\"M0 0 L10 5 L0 10 z\" fill=\"#2f5d50\"/></marker><marker id=\"punt8\" viewBox=\"0 0 10 10\" refX=\"8\" refY=\"5\" markerWidth=\"6\" markerHeight=\"6\" orient=\"auto\"><path d=\"M0 0 L10 5 L0 10 z\" fill=\"#c17f2b\"/></marker></defs><rect x=\"70\" y=\"46\" width=\"70\" height=\"130\" rx=\"6\" fill=\"#ffffff\" stroke=\"#6b7260\" stroke-width=\"1.8\"/><rect x=\"72\" y=\"94.8\" width=\"66\" height=\"79.2\" rx=\"4\" fill=\"rgba(91,147,184,.35)\"/><line x1=\"70\" y1=\"159.8\" x2=\"82\" y2=\"159.8\" stroke=\"#6b7260\" stroke-width=\"1\"/><line x1=\"70\" y1=\"143.5\" x2=\"82\" y2=\"143.5\" stroke=\"#6b7260\" stroke-width=\"1\"/><text x=\"64.0\" y=\"147.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">20</text><line x1=\"70\" y1=\"127.2\" x2=\"82\" y2=\"127.2\" stroke=\"#6b7260\" stroke-width=\"1\"/><line x1=\"70\" y1=\"111.0\" x2=\"82\" y2=\"111.0\" stroke=\"#6b7260\" stroke-width=\"1\"/><text x=\"64.0\" y=\"114.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">40</text><line x1=\"70\" y1=\"94.8\" x2=\"82\" y2=\"94.8\" stroke=\"#6b7260\" stroke-width=\"1\"/><line x1=\"70\" y1=\"78.5\" x2=\"82\" y2=\"78.5\" stroke=\"#6b7260\" stroke-width=\"1\"/><text x=\"64.0\" y=\"82.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">60</text><line x1=\"70\" y1=\"62.2\" x2=\"82\" y2=\"62.2\" stroke=\"#6b7260\" stroke-width=\"1\"/><line x1=\"70\" y1=\"46.0\" x2=\"82\" y2=\"46.0\" stroke=\"#6b7260\" stroke-width=\"1\"/><text x=\"64.0\" y=\"49.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">80</text><text x=\"105.0\" y=\"198.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">vóór: 50 mL</text><rect x=\"270\" y=\"46\" width=\"70\" height=\"130\" rx=\"6\" fill=\"#ffffff\" stroke=\"#6b7260\" stroke-width=\"1.8\"/><rect x=\"272\" y=\"70.4\" width=\"66\" height=\"103.6\" rx=\"4\" fill=\"rgba(91,147,184,.35)\"/><line x1=\"270\" y1=\"159.8\" x2=\"282\" y2=\"159.8\" stroke=\"#6b7260\" stroke-width=\"1\"/><line x1=\"270\" y1=\"143.5\" x2=\"282\" y2=\"143.5\" stroke=\"#6b7260\" stroke-width=\"1\"/><text x=\"264.0\" y=\"147.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">20</text><line x1=\"270\" y1=\"127.2\" x2=\"282\" y2=\"127.2\" stroke=\"#6b7260\" stroke-width=\"1\"/><line x1=\"270\" y1=\"111.0\" x2=\"282\" y2=\"111.0\" stroke=\"#6b7260\" stroke-width=\"1\"/><text x=\"264.0\" y=\"114.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">40</text><line x1=\"270\" y1=\"94.8\" x2=\"282\" y2=\"94.8\" stroke=\"#6b7260\" stroke-width=\"1\"/><line x1=\"270\" y1=\"78.5\" x2=\"282\" y2=\"78.5\" stroke=\"#6b7260\" stroke-width=\"1\"/><text x=\"264.0\" y=\"82.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">60</text><line x1=\"270\" y1=\"62.2\" x2=\"282\" y2=\"62.2\" stroke=\"#6b7260\" stroke-width=\"1\"/><line x1=\"270\" y1=\"46.0\" x2=\"282\" y2=\"46.0\" stroke=\"#6b7260\" stroke-width=\"1\"/><text x=\"264.0\" y=\"49.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">80</text><path d=\"M292 158 q-10 -20 6 -26 q22 -12 30 6 q10 18 -8 22 Z\" fill=\"rgba(122,91,143,.45)\" stroke=\"#7a5b8f\" stroke-width=\"1.6\"/><text x=\"305.0\" y=\"198.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">na: 65 mL</text><path d=\"M160 110 H268\" stroke=\"#2f5d50\" stroke-width=\"2.4\" marker-end=\"url(#punt7)\"/><rect x=\"182.9\" y=\"92.5\" width=\"62.3\" height=\"16.5\" rx=\"4\" fill=\"#ffffff\" opacity=\"0.88\"/><text x=\"214.0\" y=\"102.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#2f5d50\">steen erin</text><text x=\"235.0\" y=\"214.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#234539\">65 mL − 50 mL = 15 mL, en 1 mL is 1 cm³. Het volume van de steen is dus 15 cm³.</text></svg>",
+     "onderschrift": "Het verschil tussen het waterpeil vóór en na is het volume."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 86\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"3.0\" y=\"10\" width=\"150.7\" height=\"34\" rx=\"8\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.4\"/><text x=\"78.3\" y=\"28.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">m³</text><rect x=\"159.7\" y=\"10\" width=\"150.7\" height=\"34\" rx=\"8\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.4\"/><text x=\"235.0\" y=\"28.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">dm³ = L</text><rect x=\"316.3\" y=\"10\" width=\"150.7\" height=\"34\" rx=\"8\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.4\"/><text x=\"391.7\" y=\"28.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">cm³ = mL</text><path d=\"M78.3 58 H391.7 l-7 -5 m7 5 l-7 5\" stroke=\"#c17f2b\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><text x=\"235.0\" y=\"76\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#c17f2b\">× 1000 naar beneden, : 1000 naar boven</text></svg>",
+     "onderschrift": "1 m³ = 1000 L, 1 L = 1000 cm³, en 1 mL is precies 1 cm³. Dus 2 L = 0,002 m³ en 0,5 m³ = 500 L."
+    },
+    {
+     "soort": "kader",
+     "html": "Van <strong>g/cm³ naar kg/m³</strong> vermenigvuldig je met 1000, en omgekeerd deel je door 1000. Water is 1 g/cm³ = 1000 kg/m³; aluminium is 2700 kg/m³ = 2,7 g/cm³. Eén liter water weegt dus precies 1 kg."
+    }
+   ]
+  },
+  {
+   "kop": "Rekenen met ρ = m / V",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je zoekt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">hoe</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">massadichtheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ρ = m / V</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">300 g en 100 cm³ → 3 g/cm³</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">massa</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">m = ρ × V</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">19 g/cm³ × 3 cm³ = 57 g goud</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">volume</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">V = m / ρ</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">780 g ijzer : 7,8 g/cm³ = 100 cm³</td></tr></table>",
+     "onderschrift": "Werk altijd eerst het volume uit als je een kubus, balk, bol of cilinder krijgt: 72 g in een kubus van 2 cm is 72 : 8 = 9 g/cm³."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een voorbeeld met onderdompeling: het water stijgt van 40 mL naar 55 mL, dus het volume is 15 cm³. Weegt het blokje 40,5 g, dan is ρ = 40,5 : 15 = 2,7 g/cm³ — waarschijnlijk aluminium. En 2 L olie van 0,9 g/cm³ weegt 0,9 × 2000 = 1800 g, dus 1,8 kg."
+    }
+   ]
+  },
+  {
+   "kop": "Het verband tussen massa en volume",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Meet je van dezelfde stof verschillende stukken, dan zie je een vast patroon: 10 cm³ weegt 27 g, 20 cm³ weegt 54 g, 30 cm³ weegt 81 g. Telkens als het volume verdubbelt, verdubbelt de massa. Massa en volume zijn dus <strong>recht evenredig</strong>, en de verhouding m/V is overal dezelfde: hier 2,7 g/cm³, en dat is de massadichtheid."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 192\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30.0\" y1=\"158\" x2=\"223.0\" y2=\"158\" stroke=\"#234539\" stroke-width=\"1.6\"/><line x1=\"30.0\" y1=\"158\" x2=\"30.0\" y2=\"24\" stroke=\"#234539\" stroke-width=\"1.6\"/><polyline points=\"30.0,158.0 33.1,156.0 36.2,154.1 39.2,152.1 42.3,150.1 45.4,148.2 48.5,146.2 51.6,144.3 54.7,142.3 57.8,140.3 60.8,138.4 63.9,136.4 67.0,134.4 70.1,132.5 73.2,130.5 76.2,128.6 79.3,126.6 82.4,124.6 85.5,122.7 88.6,120.7 91.7,118.7 94.8,116.8 97.8,114.8 100.9,112.9 104.0,110.9 107.1,108.9 110.2,107.0 113.2,105.0 116.3,103.0 119.4,101.1 122.5,99.1 125.6,97.2 128.7,95.2 131.8,93.2 134.8,91.3 137.9,89.3 141.0,87.3 144.1,85.4 147.2,83.4 150.2,81.5 153.3,79.5 156.4,77.5 159.5,75.6 162.6,73.6 165.7,71.6 168.8,69.7 171.8,67.7 174.9,65.8 178.0,63.8 181.1,61.8 184.2,59.9 187.2,57.9 190.3,55.9 193.4,54.0 196.5,52.0 199.6,50.1 202.7,48.1 205.8,46.1 208.8,44.2 211.9,42.2 215.0,40.2\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><text x=\"132.5\" y=\"170.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#2f5d50\">y = 3x</text><text x=\"132.5\" y=\"184.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">rechte door de oorsprong</text><line x1=\"265.0\" y1=\"158\" x2=\"458.0\" y2=\"158\" stroke=\"#234539\" stroke-width=\"1.6\"/><line x1=\"265.0\" y1=\"158\" x2=\"265.0\" y2=\"24\" stroke=\"#234539\" stroke-width=\"1.6\"/><polyline points=\"298.3,40.2 300.8,48.6 303.4,55.8 305.9,62.1 308.4,67.7 310.9,72.6 313.5,77.1 316.0,81.1 318.5,84.7 321.1,88.0 323.6,91.1 326.1,93.8 328.6,96.4 331.2,98.7 333.7,100.9 336.2,102.9 338.8,104.8 341.3,106.6 343.8,108.2 346.3,109.8 348.9,111.2 351.4,112.6 353.9,113.9 356.5,115.1 359.0,116.3 361.5,117.4 364.0,118.4 366.6,119.4 369.1,120.3 371.6,121.2 374.1,122.1 376.7,122.9 379.2,123.7 381.7,124.4 384.3,125.1 386.8,125.8 389.3,126.5 391.8,127.1 394.4,127.7 396.9,128.3 399.4,128.8 402.0,129.4 404.5,129.9 407.0,130.4 409.5,130.9 412.1,131.3 414.6,131.8 417.1,132.2 419.7,132.6 422.2,133.1 424.7,133.4 427.2,133.8 429.8,134.2 432.3,134.6 434.8,134.9 437.4,135.2 439.9,135.6 442.4,135.9 444.9,136.2 447.5,136.5 450.0,136.8\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><text x=\"367.5\" y=\"170.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#2f5d50\">y = 24 : x</text><text x=\"367.5\" y=\"184.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">kromme, raakt de assen niet</text></svg>",
+     "onderschrift": "Zet je massa (y) tegenover volume (x) voor één stof, dan krijg je de linkse grafiek: een rechte door de oorsprong."
+    },
+    {
+     "soort": "tekst",
+     "html": "Staan er twee rechten in één grafiek, dan heeft de <strong>steilste</strong> de grootste massadichtheid: bij hetzelfde volume hoort daar de grootste massa. Zo herken je op een grafiek of in een tabel welke meetresultaten bij welke stof horen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>vaste massa</strong> ligt het net omgekeerd: wordt het volume groter, dan wordt ρ = m / V kleiner. Massadichtheid en volume zijn dan <strong>omgekeerd evenredig</strong>: het volume staat in de formule onder de deelstreep. Daarom drijft een schip van staal: door zijn grote volume is zijn gemiddelde massadichtheid klein."
+    }
+   ]
+  },
+  {
+   "kop": "Zinken, zweven, stijgen of drijven",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">als …</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">dan …</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ρ van het voorwerp &lt; ρ van de vloeistof</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het <strong>drijft</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ρ van het voorwerp = ρ van de vloeistof</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het <strong>zweeft</strong>: het blijft hangen waar je het loslaat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ρ van het voorwerp &gt; ρ van de vloeistof</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het <strong>zinkt</strong></td></tr></table>",
+     "onderschrift": "Laat je een voorwerp dat drijft onder water los, dan stijgt het tot het weer aan de oppervlakte komt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het gaat dus altijd om de <strong>vergelijking van twee massadichtheden</strong>, niet om het gewicht op zich: een zware boomstam drijft en een klein muntstuk zinkt. Water is 1 g/cm³, dus ijzer (7,8) en aluminium (2,7) zinken, terwijl kurk (0,24) en olie (0,9) blijven drijven. Een voorwerp van 1200 kg/m³ zinkt in water van 1000 kg/m³."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een blokje van 60 g met een volume van 75 cm³ heeft ρ = 60 : 75 = 0,8 g/cm³: dat drijft. IJs drijft om dezelfde reden: bij het bevriezen zet water uit, dus ijs is ongeveer 0,92 g/cm³. En een vetlaag blijft bovenop de soep liggen omdat vet ongeveer 0,9 g/cm³ is en niet mengt met water."
+    },
+    {
+     "soort": "weetje",
+     "html": "Hetzelfde geldt voor gassen: een luchtballon stijgt omdat de warme lucht erin een kleinere massadichtheid heeft dan de koudere buitenlucht."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "ρ = m / V, en dus m = ρ × V en V = m / ρ.",
+  "V kubus = z³, V balk = l·b·h, V bol = 4/3·π·r³, V cilinder = π·r²·h.",
+  "Onregelmatig voorwerp: volume bepalen door onderdompeling; 1 mL = 1 cm³.",
+  "1 m³ = 1000 L; van g/cm³ naar kg/m³ maal 1000. Water is 1 g/cm³ = 1000 kg/m³.",
+  "Massa en volume van dezelfde stof zijn recht evenredig: een rechte door de oorsprong.",
+  "Kleinere massadichtheid dan de vloeistof = drijven; gelijk = zweven; groter = zinken."
+ ]
+}

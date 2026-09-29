@@ -24,7 +24,11 @@ export default async function AccountPage({
   const supabase = await createClient();
   const { data: kinderen } = await supabase
     .from("kinderen")
-    .select("id, naam")
+    // "*" en niet de kolommen apart: zolang voortgangsbalk.sql nog niet
+    // gedraaid is, bestaat toon_voortgang nog niet en zou een select op
+    // die naam een fout geven. Dan zou het platform helemaal geen kinderen
+    // meer zien, en dus ook geen voortgang meer bijhouden.
+    .select("*")
     .eq("profile_id", session.userId)
     .order("naam");
 
@@ -98,7 +102,13 @@ export default async function AccountPage({
             kunnen opvolgen.
           </p>
 
-          <KinderenLijst kinderen={kinderen ?? []} />
+          <KinderenLijst
+            kinderen={(kinderen ?? []).map((k) => ({
+              id: k.id,
+              naam: k.naam,
+              toonVoortgang: Boolean(k.toon_voortgang),
+            }))}
+          />
         </div>
 
         <Link

@@ -1,0 +1,86 @@
+{
+ "vak": "Frans",
+ "titel": "Woordenschat: eten, wonen, kleding en dagelijkse dingen",
+ "onder": "De woorden van een gewone dag: aan tafel, in huis, aan de kleerkast en in de winkel.",
+ "secties": [
+  {
+   "kop": "Eten en drinken",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le petit déjeuner / le déjeuner / le dîner</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het ontbijt / het middagmaal / het avondmaal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le pain, une baguette</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het brood, een stokbrood</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une pomme, une pomme de terre</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een appel, een aardappel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le fromage, la viande</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kaas, het vlees</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">l'eau, le lait, le jus d'orange</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het water, de melk, het sinaasappelsap</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la nourriture</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het voedsel, het eten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C'est délicieux !</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het is heerlijk!</td></tr></table>",
+     "onderschrift": "In Frankrijk is 'le déjeuner' het middagmaal, niet het ontbijt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bestellen doe je beleefd: <em>Je voudrais une baguette, s'il vous plaît.</em> En vragen wat iets kost: <em>Ça coûte combien ?</em> of <em>C'est combien ?</em> (<em>coûter</em> = kosten, <em>combien</em> = hoeveel)."
+    }
+   ]
+  },
+  {
+   "kop": "Het huis: de kamers en delen van een woning",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la maison, un appartement</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het huis, een appartement</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la cuisine</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de keuken (en ook: het koken)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la chambre</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de slaapkamer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la salle de bains</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de badkamer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la salle de séjour, le salon</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de woonkamer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la salle à manger</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de eetkamer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le jardin, un escalier, une fenêtre</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de tuin, een trap, een raam</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une table, une chaise, un lit, une armoire, un canapé</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een tafel, een stoel, een bed, een kast, een zetel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le frigo (le réfrigérateur)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de koelkast</td></tr></table>",
+     "onderschrift": "Un escalier is een trap: dat hoort bij het gebouw, niet bij de meubels."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Faire la cuisine</strong> betekent koken, <strong>faire les courses</strong> betekent boodschappen doen. Dat zijn vaste uitdrukkingen: <em>une course</em> op zich is een wedloop."
+    }
+   ]
+  },
+  {
+   "kop": "Kleding, kleuren, vormen en materialen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 108\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"6.0\" y=\"4\" width=\"30\" height=\"30\" rx=\"7\" fill=\"#c0392b\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"44.0\" y=\"17\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">rouge</text><text x=\"44.0\" y=\"31\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">rood</text><rect x=\"123.5\" y=\"4\" width=\"30\" height=\"30\" rx=\"7\" fill=\"#2f6fa8\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"161.5\" y=\"17\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">bleu</text><text x=\"161.5\" y=\"31\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">blauw</text><rect x=\"241.0\" y=\"4\" width=\"30\" height=\"30\" rx=\"7\" fill=\"#3f7d4f\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"279.0\" y=\"17\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">vert</text><text x=\"279.0\" y=\"31\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">groen</text><rect x=\"358.5\" y=\"4\" width=\"30\" height=\"30\" rx=\"7\" fill=\"#d8a92b\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"396.5\" y=\"17\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">jaune</text><text x=\"396.5\" y=\"31\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">geel</text><rect x=\"6.0\" y=\"64\" width=\"30\" height=\"30\" rx=\"7\" fill=\"#23291f\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"44.0\" y=\"77\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">noir</text><text x=\"44.0\" y=\"91\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">zwart</text><rect x=\"123.5\" y=\"64\" width=\"30\" height=\"30\" rx=\"7\" fill=\"#8a8f80\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"161.5\" y=\"77\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">gris</text><text x=\"161.5\" y=\"91\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">grijs</text></svg>",
+     "onderschrift": "De kleur staat in het Frans achter het naamwoord: une robe bleue, un pull bleu."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un pantalon, un jean, une robe, un pull</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een broek, een jeans, een jurk, een trui</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un manteau</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een jas of mantel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">des chaussures, des baskets, une chaussette</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schoenen, sportschoenen, een sok</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rond / carré</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rond / vierkant</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">en bois, en verre, en métal, en plastique</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van hout, van glas, van metaal, van plastic</td></tr></table>",
+     "onderschrift": "'Il est en bois' betekent: hij is van hout. 'En' + materiaal zegt waarvan iets gemaakt is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Let op <em>le verre</em> (het glas) tegenover <em>le vert</em> (het groen): ze klinken hetzelfde."
+    }
+   ]
+  },
+  {
+   "kop": "Dagelijkse bezigheden",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">se lever</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opstaan — Je me lève à sept heures.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">se laver, s'habiller</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zich wassen, zich aankleden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">se brosser les dents</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zijn tanden poetsen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">prendre le bus</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de bus nemen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">faire ses devoirs</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zijn huiswerk maken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ranger sa chambre</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zijn kamer opruimen</td></tr></table>",
+     "onderschrift": "Die werkwoorden met 'se' zijn wederkerend: je me lève, tu te lèves, il se lève."
+    }
+   ]
+  },
+  {
+   "kop": "Winkels en voorwerpen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la boulangerie, le boulanger</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de bakkerij, de bakker</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le marché, le supermarché</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de markt, de supermarkt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la caisse, un client, le prix</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kassa, een klant, de prijs</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un sac, un sac à dos</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een tas, een rugzak</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la clé (la clef)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de sleutel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un portefeuille, un porte-monnaie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een portefeuille, een portemonnee</td></tr></table>",
+     "onderschrift": "Le pain koop je bij le boulanger, in la boulangerie."
+    },
+    {
+     "soort": "weetje",
+     "html": "<em>Porte-monnaie</em> bestaat uit <em>porter</em> (dragen) en <em>monnaie</em> (geld): iets dat geld draagt, dus een portemonnee. Wie de delen van een samenstelling herkent, raadt de betekenis. Dat is precies de leesstrategie die de vakfiche noemt."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "le petit déjeuner = ontbijt, le déjeuner = middagmaal, le dîner = avondmaal.",
+  "la cuisine, la chambre, la salle de bains, la salle de séjour.",
+  "De kleur staat achter het naamwoord en past zich aan: une robe bleue.",
+  "faire la cuisine = koken, faire les courses = boodschappen doen.",
+  "Je me lève, je me lave, je m'habille, je me brosse les dents.",
+  "'En' + materiaal: en bois, en verre, en métal."
+ ]
+}

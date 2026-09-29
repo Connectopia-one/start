@@ -1,0 +1,200 @@
+{
+ "vak": "Wiskunde",
+ "titel": "Wiskundige redeneringen en uitspraken",
+ "onder": "Hoe je beoordeelt of iets klopt, en hoe je je oordeel opschrijft.",
+ "secties": [
+  {
+   "kop": "Klopt het, en hoe weet je dat?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Wiskunde is niet enkel rekenen. Even vaak krijg je een <strong>uitspraak</strong> voorgeschoteld en is de vraag of ze klopt. Je antwoord is dan niet een getal, maar een oordeel met een reden erbij."
+    },
+    {
+     "soort": "tekst",
+     "html": "Klopt de uitspraak, dan geef je ter illustratie een <strong>voorbeeld</strong> of verwijs je naar een eigenschap. Klopt ze niet, dan geef je een <strong>tegenvoorbeeld</strong>: één geval waarin ze onderuitgaat."
+    },
+    {
+     "soort": "kader",
+     "html": "Let op het verschil: een voorbeeld <strong>illustreert</strong>, maar bewijst niets. Tien gevallen waarin iets klopt, laten nog altijd ruimte voor een elfde waarin het misgaat. Eén tegenvoorbeeld daarentegen is meteen beslissend."
+    }
+   ]
+  },
+  {
+   "kop": "Eén tegenvoorbeeld is genoeg",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "„Alle priemgetallen zijn oneven.” Dat klinkt aannemelijk: 3, 5, 7, 11, 13 … Maar <strong>2</strong> is een priemgetal, en 2 is even. Daarmee is de uitspraak weerlegd."
+    },
+    {
+     "soort": "tekst",
+     "html": "„Als een getal deelbaar is door 2, dan is het deelbaar door 4.” Tegenvoorbeeld: <strong>6</strong>. Deelbaar door 2, niet door 4. Klaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>omgekeerde</strong> uitspraak klopt wél: is een getal deelbaar door 4, dan is het ook deelbaar door 2, want elk veelvoud van 4 is een veelvoud van 2. Bij 12: 12 : 4 = 3 en 12 : 2 = 6. Zoek je geen tegenvoorbeeld meer, zeg dan waaróm het altijd geldt — dat is je bewijs."
+    },
+    {
+     "soort": "tekst",
+     "html": "Nog zo'n paar. „Het product van twee <strong>even</strong> getallen is even” klopt altijd: 4 × 6 = 24, en twee veelvouden van 2 geven samen zeker een veelvoud van 2. „Het product van twee <strong>oneven</strong> getallen is even” klopt niet: 3 × 5 = <strong>15</strong>, en dat ene geval volstaat."
+    },
+    {
+     "soort": "kader",
+     "html": "Een tegenvoorbeeld moet wél aan de voorwaarde voldoen. Bij die laatste uitspraak is 9 géén tegenvoorbeeld: 9 is niet deelbaar door 2, dus de uitspraak zegt er niets over."
+    }
+   ]
+  },
+  {
+   "kop": "De als-dan-pijl ⇒",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>a ⇒ b</strong> lees je als: als a waar is, dan is b waar. De pijl heeft een richting, en die richting is het halve werk."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 116\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"6\" y=\"46\" width=\"168\" height=\"54\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"90.0\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">een vierkant</text><rect x=\"296\" y=\"46\" width=\"168\" height=\"54\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"380.0\" y=\"70.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">vier rechte</text><text x=\"380.0\" y=\"85.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#234539\">hoeken</text><path d=\"M188 65.0 H282 l-7 -5 m7 5 l-7 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M282 81.0 H188 l7 -5 m-7 5 l7 5\" stroke=\"#c9c2b4\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\" stroke-dasharray=\"4 4\"/><line x1=\"228.0\" y1=\"74.0\" x2=\"242.0\" y2=\"88.0\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"242.0\" y1=\"74.0\" x2=\"228.0\" y2=\"88.0\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/></svg>",
+     "onderschrift": "Heen klopt het altijd. Terug niet: een rechthoek van 3 bij 5 heeft vier rechte hoeken en is geen vierkant."
+    },
+    {
+     "soort": "tekst",
+     "html": "Denk aan: „als het regent, is de straat nat”. Het regent niet — wat weet je over de straat? <strong>Niets met zekerheid</strong>. Ze kan nat zijn van een sproeier. De pijl zegt alleen iets over het geval waarin het wél regent."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 172\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"14\" width=\"430\" height=\"144\" rx=\"14\" fill=\"none\" stroke=\"#5b7f9c\" stroke-width=\"1.8\"/><text x=\"34.0\" y=\"36.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#5b7f9c\">rechthoeken</text><text x=\"436.0\" y=\"36.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">3 bij 5</text><rect x=\"127.0\" y=\"62\" width=\"216\" height=\"76\" rx=\"12\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"84.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2f5d50\">vierkanten</text><text x=\"235.0\" y=\"124.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">4 bij 4</text></svg>",
+     "onderschrift": "Elk vierkant zit binnen de rechthoeken, maar niet elke rechthoek zit binnen de vierkanten. Zo zie je meteen welke kant de pijl op mag."
+    },
+    {
+     "soort": "tekst",
+     "html": "Let op: ook „als een vierhoek vier <strong>gelijke zijden</strong> heeft, dan is het een vierkant” klopt niet. Het tegenvoorbeeld is een <strong>ruit</strong> die scheef staat: vier gelijke zijden, maar geen rechte hoeken. Een driehoek helpt hier niet als tegenvoorbeeld, want die is geen vierhoek en voldoet dus niet aan de voorwaarde."
+    }
+   ]
+  },
+  {
+   "kop": "De dubbele pijl ⇔",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Geldt het in <strong>allebei</strong> de richtingen, dan schrijf je <strong>⇔</strong>: als en slechts als."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 116\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"6\" y=\"46\" width=\"168\" height=\"54\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"90.0\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">eindigt op 0</text><rect x=\"296\" y=\"46\" width=\"168\" height=\"54\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"380.0\" y=\"70.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">deelbaar</text><text x=\"380.0\" y=\"85.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#234539\">door 10</text><path d=\"M188 65.0 H282 l-7 -5 m7 5 l-7 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M282 81.0 H188 l7 -5 m-7 5 l7 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/></svg>",
+     "onderschrift": "Heen: wie op 0 eindigt, is 10, 20, 30 … Terug: elk veelvoud van 10 eindigt op 0. Allebei, dus mag de dubbele pijl."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zo ook: een getal is deelbaar door 3 <strong>⇔</strong> de som van zijn cijfers is deelbaar door 3. Bij 123: 1 + 2 + 3 = 6, deelbaar door 3, en inderdaad 123 : 3 = 41."
+    },
+    {
+     "soort": "kader",
+     "html": "Twijfel je tussen ⇒ en ⇔, zoek dan één getal of één figuur dat de terugweg onderuithaalt. Vind je er een, dan is het ⇒. Vind je er geen en zie je waarom, dan ⇔."
+    }
+   ]
+  },
+  {
+   "kop": "Netjes opschrijven hoort erbij",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De fiche vraagt uitdrukkelijk dat je een redenering correct noteert. Dat is geen opsmuk: wie tussenstappen weglaat, kan zijn eigen fout niet terugvinden."
+    },
+    {
+     "soort": "tekst",
+     "html": "Gebruik de juiste tekens. <strong>≤</strong> betekent kleiner dan óf gelijk aan, dus x ≤ 5 laat 5 zelf ook toe; <strong>&lt;</strong> niet. Zet <strong>haakjes</strong> waar ze nodig zijn: 2 + 3 × 4 = 14, maar (2 + 3) × 4 = 20."
+    },
+    {
+     "soort": "kader",
+     "html": "Delen en aftrekken zijn niet associatief. 12 : 4 : 2 reken je van links naar rechts: 12 : 4 = 3 en dan 3 : 2 = <strong>1,5</strong>. Wie eerst 4 : 2 doet, krijgt 6 en heeft stilzwijgend de opgave veranderd."
+    }
+   ]
+  },
+  {
+   "kop": "Redeneerfouten die je moet kunnen betrappen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De pijl omdraaien.</strong> Uit a ⇒ b volgt niet b ⇒ a. „Alle getallen die op 5 eindigen zijn deelbaar door 5” klopt; omgekeerd niet, want 10 is deelbaar door 5 en eindigt op 0."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een regel gebruiken waar hij niet geldt.</strong> √(9 + 16) is niet √9 + √16. Eerst het haakje: 9 + 16 = 25, en √25 = <strong>5</strong>, niet 7."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Percentages optellen.</strong> 10 % korting en daarna nog eens 10 % is geen 20 %. Van € 100 blijft € 90 over, daarvan gaat € 9 af, je betaalt € 81. De korting is dus <strong>19 %</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het teken vergeten bij maal min.</strong> Uit 5 &gt; 3 volgt niet −5 &gt; −3. Vermenigvuldigen met een negatief getal <strong>draait de ongelijkheid om</strong>: −5 &lt; −3. Optellen doet dat niet: uit 5 &gt; 3 volgt gewoon 7 &gt; 5."
+    }
+   ]
+  },
+  {
+   "kop": "Nog vier uitspraken om te testen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Deze vier lijken vanzelfsprekend en zijn het net niet. Elk heeft een tegenvoorbeeld dat je moet kennen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>„Als a × b = 0, dan is a = 0.”</strong> Neem a = 3 en b = 0: 3 × 0 = 0 terwijl a niet nul is. Wat wél klopt: als a × b = 0, dan is <strong>a = 0 óf b = 0</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>„Het kwadraat van een getal is groter dan het getal zelf.”</strong> Neem 0,5: 0,5 × 0,5 = <strong>0,25</strong>, en dat is kleiner. Tussen 0 en 1 wordt een kwadraat juist kleiner, en bij 0 en 1 blijft het gelijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>„Twee driehoeken met dezelfde oppervlakte hebben dezelfde vorm.”</strong> Basis 6 en hoogte 2 geeft (6 × 2) : 2 = 6; basis 3 en hoogte 4 geeft (3 × 4) : 2 = ook <strong>6</strong>. Zelfde oppervlakte, heel andere driehoek."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>„Uit a² = b² volgt a = b.”</strong> Neem a = 3 en b = −3: allebei in het kwadraat geeft 9, maar 3 is niet −3. Heen klopt het wel: uit a = b volgt zeker a² = b². Weer zo'n pijl die maar één richting op mag."
+    }
+   ]
+  },
+  {
+   "kop": "Van voorbeeld naar bewijs",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "„De som van twee even getallen is even.” Je kan 2 + 4, 6 + 8 en 10 + 12 uitrekenen, maar dan heb je drie gevallen, niet alle."
+    },
+    {
+     "soort": "tekst",
+     "html": "Met letters dek je ze in één keer. Elk even getal is 2a, dus neem 2a en 2b. Hun som is 2a + 2b = <strong>2(a + b)</strong>, en dat is een veelvoud van 2. Klaar voor alle even getallen tegelijk."
+    },
+    {
+     "soort": "kader",
+     "html": "Dat is meteen het verschil tussen een voorbeeld en een bewijs: een voorbeeld toont één geval, een bewijs dekt ze allemaal."
+    },
+    {
+     "soort": "tekst",
+     "html": "Kijk tot slot na of je antwoord de <strong>gestelde vraag</strong> beantwoordt. Een redenering waarvan elke stap klopt maar die eindigt bij iets anders dan wat gevraagd werd, is nog niet af."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Klopt een uitspraak: geef een voorbeeld of een eigenschap. Klopt ze niet: geef een tegenvoorbeeld.",
+  "Eén tegenvoorbeeld weerlegt; tien voorbeelden bewijzen niet.",
+  "Een tegenvoorbeeld moet zelf aan de voorwaarde voldoen.",
+  "a ⇒ b geldt maar één kant op. Elk vierkant is een rechthoek, niet elke rechthoek een vierkant.",
+  "⇔ gebruik je pas als je allebei de richtingen apart getest hebt.",
+  "≤ laat gelijk ook toe, < niet. Zet haakjes waar ze nodig zijn.",
+  "Delen gaat van links naar rechts: 12 : 4 : 2 = 1,5.",
+  "√(9 + 16) = 5, niet 3 + 4. Een wortel splits je niet over een som.",
+  "10 % en nog eens 10 % korting is samen 19 %, geen 20 %.",
+  "Maal een negatief getal draait de ongelijkheid om: uit 5 > 3 volgt −5 < −3.",
+  "Even + even: schrijf 2a + 2b = 2(a + b). Zo dek je alle gevallen in één keer.",
+  "Deelbaar door 4 ⇒ deelbaar door 2, maar niet omgekeerd (6).",
+  "Vier gelijke zijden maakt nog geen vierkant: een scheve ruit is het tegenvoorbeeld.",
+  "a × b = 0 betekent a = 0 óf b = 0. En uit a² = b² volgt niet a = b (3 en −3).",
+  "0,5² = 0,25: tussen 0 en 1 wordt een kwadraat kleiner.",
+  "Dezelfde oppervlakte betekent niet dezelfde vorm: (6 × 2) : 2 = (3 × 4) : 2 = 6."
+ ]
+}

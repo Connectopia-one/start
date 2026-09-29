@@ -1,0 +1,72 @@
+{
+ "vak": "Nederlands",
+ "titel": "Tekststructuur en signaalwoorden",
+ "onder": "Hoe een tekst in elkaar zit, en welke woorden je de weg wijzen.",
+ "secties": [
+  {
+   "kop": "Inleiding, midden en slot",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Elke goed opgebouwde tekst bestaat uit drie delen: een <strong>inleiding</strong>, een <strong>midden</strong> en een <strong>slot</strong>. Dat is de <strong>IMS-structuur</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 172.0\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"4\" y=\"4\" width=\"462\" height=\"39\" rx=\"9\" fill=\"rgba(47,93,80,.07)\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"20\" y=\"20\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">Inleiding</text><text x=\"20\" y=\"36\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">wekt je belangstelling en zegt waarover het gaat</text><rect x=\"4\" y=\"51\" width=\"462\" height=\"66\" rx=\"9\" fill=\"rgba(47,93,80,.07)\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"20\" y=\"81\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">Midden</text><text x=\"20\" y=\"97\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">werkt uit, één gedachte per alinea</text><rect x=\"4\" y=\"125\" width=\"462\" height=\"39\" rx=\"9\" fill=\"rgba(47,93,80,.07)\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"20\" y=\"142\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">Slot</text><text x=\"20\" y=\"158\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">vat samen en trekt het besluit</text></svg>",
+     "onderschrift": "Een nieuw argument hoort in het midden, waar je het kan uitwerken, nooit in het slot."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>alinea</strong> heeft meestal één kerngedachte. Je begint er een nieuwe bij een nieuw <strong>deelonderwerp</strong>, en je laat witruimte ertussen, wat je lezer helpt. Hoe lang een alinea is, ligt niet vast: de inhoud beslist."
+    },
+    {
+     "soort": "tekst",
+     "html": "Krijg je losse alinea's en moet je er een tekst van maken, dan herken je de inleiding daaraan dat ze het onderwerp voorstelt, en het slot aan woorden als 'kortom' of 'tot slot'. Schrijf je een <strong>betoog</strong>, een tekst waarin je iemand met argumenten wil overtuigen, zet je sterkste argument dan vooraan of helemaal achteraan: daar valt het het meest op en blijft het het best hangen."
+    }
+   ]
+  },
+  {
+   "kop": "Signaalwoorden: wat komt er?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Signaalwoorden</strong> geven het verband tussen zinnen aan. Ze zeggen vooraf wat er komt, en zo kan je de gedachtegang van een tekst volgen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">verband</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">signaalwoorden</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">reden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">want, omdat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ik was te laat omdat de trein vertraging had.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gevolg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dus, daarom, daardoor, zodat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het was koud. Daarom trok hij zijn jas aan.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tegenstelling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maar, toch, hoewel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Hij had hard gestudeerd. Toch haalde hij een onvoldoende.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opsomming</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ten eerste, ten tweede, tot slot</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ten eerste is het goedkoper.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">toevoeging</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bovendien, daarnaast, ook</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Bovendien kost het minder.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorbeeld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bijvoorbeeld, zoals, denk maar aan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Fruit, zoals een appel.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorwaarde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als, indien</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Als het morgen regent, gaat de sportdag niet door.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">samenvatting</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kortom, samengevat, tot slot</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Kortom, de fiets wint.</td></tr></table>",
+     "onderschrift": "Twee verschillende woorden kunnen hetzelfde verband aangeven."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>luistertekst</strong> zijn ze extra kostbaar: je kan niet terugbladeren, en 'ten eerste' zegt je dat er nog punten volgen, 'kortom' dat het slot begint."
+    }
+   ]
+  },
+  {
+   "kop": "Verwijswoorden en samenhang",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>verwijswoord</strong> grijpt terug naar iets dat al genoemd is: zij, hem, deze, hun, die, er. 'Mijn zus heeft een nieuwe fiets gekocht. Ze rijdt er elke dag mee naar school': 'ze' is de zus, 'er' is de fiets. Vind je niet terug naar wie of wat een verwijswoord verwijst, dan is de tekst op dat punt onduidelijk en moet de schrijver het woord herhalen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Verwijswoorden en signaalwoorden heten samen de <strong>structuuraanduiders</strong>. Zonder hen blijft een tekst een reeks losse zinnen: 'Fietsen is gezond. Mijn fiets is blauw. In de stad staan veel auto's.' Drie correcte zinnen, geen samenhang."
+    },
+    {
+     "soort": "tekst",
+     "html": "Naast de woorden helpen ook de <strong>tekstopbouwende elementen</strong>: titels en tussentitels, benadrukte woorden, witruimte, lay-out, een foto of een grafiek. Alles in hoofdletters typen hoort daar niet bij: dat maakt het net moeilijker."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "IMS: inleiding, midden en slot. In het slot staat het besluit.",
+  "Eén alinea, één kerngedachte, met witruimte ertussen.",
+  "Signaalwoorden geven het verband: reden, gevolg, tegenstelling, opsomming, voorbeeld, voorwaarde.",
+  "Verwijswoorden (zij, hem, deze, hun, er) grijpen terug naar iets dat al genoemd is.",
+  "Signaalwoorden en verwijswoorden samen zijn de structuuraanduiders.",
+  "Je sterkste argument staat vooraan of helemaal achteraan."
+ ]
+}

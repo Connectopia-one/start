@@ -1,0 +1,77 @@
+{
+ "vak": "Frans",
+ "titel": "Woordenschat: school, beroepen, sport en vrije tijd",
+ "onder": "De woorden van de schooldag, van de opdracht zelf, en van wat je daarna doet.",
+ "secties": [
+  {
+   "kop": "Op school",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">l'école, une classe, un cours</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de school, een klas, een les</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un élève, un professeur (un prof)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een leerling, een leerkracht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un cahier, un livre, un cartable</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een schrift, een boek, een boekentas</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">les devoirs, faire ses devoirs</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het huiswerk, zijn huiswerk maken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la récréation</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de speeltijd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un emploi du temps</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een lessenrooster</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une matière</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vak (ook: stof, materie)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la note, une bonne note</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het punt of cijfer, een goed punt</td></tr></table>",
+     "onderschrift": "Un livre (mannelijk) is een boek; une livre (vrouwelijk) is een pond."
+    }
+   ]
+  },
+  {
+   "kop": "Instructietaal: de taal van de opdracht",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "Dit is de woordenschat waar je het snelst punten mee verliest. Wie <em>cochez</em> of <em>reliez</em> niet begrijpt, doet de verkeerde oefening, hoe goed hij de leerstof ook kent. Daarom zet de vakfiche instructietaal bij de woordvelden die je moet kennen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">opdracht</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je moet doen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Cochez la bonne réponse.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Kruis het juiste antwoord aan. (cocher = aankruisen)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Cochez la bonne case.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Kruis het juiste vakje aan.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Complétez la phrase.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Vul de zin aan.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Soulignez…</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Onderlijn…</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Entourez…</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Omcirkel…</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Reliez…</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Verbind wat bij elkaar hoort.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Répondez aux questions.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Beantwoord de vragen.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Répondez en français.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Antwoord in het Frans.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Rédigez un court texte.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Stel een korte tekst op.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Justifiez votre réponse.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Verantwoord je antwoord (leg uit waarom).</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Vrai ou faux ?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Waar of niet waar?</td></tr></table>",
+     "onderschrift": "'Répondez en français': een antwoord in het Nederlands levert geen punten op, hoe juist het ook is."
+    }
+   ]
+  },
+  {
+   "kop": "Beroepen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un métier</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een beroep — Quel est ton métier ?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un boulanger</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bakker</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une infirmière / un infirmier</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een verpleegster / een verpleger</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un facteur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een postbode</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un vendeur / une vendeuse</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een verkoper / een verkoopster</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un médecin, un pharmacien</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een arts, een apotheker</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">travailler dans un bureau</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">op een kantoor werken</td></tr></table>",
+     "onderschrift": "Un bureau is zowel het kantoor als het meubel; de zin eromheen beslist."
+    }
+   ]
+  },
+  {
+   "kop": "Sport en vrije tijd",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<strong>Jouer à</strong> bij een sport, <strong>jouer de</strong> bij een muziekinstrument: <em>je joue au football</em>, <em>je joue au tennis</em>, maar <em>je joue du piano</em>. Dat verschil is een klassieke valkuil."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la natation, nager</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het zwemmen, zwemmen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le vélo, le basket, le football</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het fietsen, het basketbal, het voetbal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la marche, la lecture</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het wandelen, het lezen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une équipe, un match, l'entraînement, s'entraîner</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een ploeg, een wedstrijd, de training, trainen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gagner / perdre</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">winnen / verliezen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">faire partie d'un club</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lid zijn van een club</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mon temps libre, un passe-temps</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mijn vrije tijd, een hobby</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un spectacle</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een voorstelling</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">s'intéresser à</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zich interesseren voor — Je m'intéresse à la musique.</td></tr></table>",
+     "onderschrift": "'J'ai perdu mes clés' betekent dat je je sleutels kwijt bent: perdre is ook 'kwijtraken'."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Quel est ton passe-temps préféré ?</em> is 'wat is je favoriete tijdverdrijf?'. <em>Préféré</em> betekent favoriet, en dat woord komt ook terug in <em>ma matière préférée</em>, mijn lievelingsvak."
+    }
+   ]
+  },
+  {
+   "kop": "Communicatie en multimedia",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un ordinateur, un portable</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een computer, een gsm of een laptop</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un écran, une application</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een scherm, een app</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un mot de passe</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een wachtwoord</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">envoyer un message</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bericht sturen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">télécharger</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">downloaden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un réseau social</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een sociaal netwerk</td></tr></table>",
+     "onderschrift": "Op een réseau social reageer je op een discussie: dat is een van de schrijfopdrachten uit de fiche."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Cochez, complétez, soulignez, entourez, reliez, justifiez: lees de opdracht.",
+  "Répondez en français — anders krijg je geen punten.",
+  "l'école, un élève, un cahier, les devoirs, la récréation.",
+  "un métier: boulanger, infirmière, facteur, vendeur, médecin.",
+  "jouer au football, maar jouer du piano.",
+  "gagner = winnen, perdre = verliezen (en ook kwijtraken)."
+ ]
+}

@@ -1,0 +1,65 @@
+{
+ "vak": "Frans",
+ "titel": "Tekstsoorten, signaalwoorden en verwijswoorden",
+ "onder": "Vijf soorten teksten, en de kleine woordjes die de weg wijzen.",
+ "secties": [
+  {
+   "kop": "Vijf soorten teksten",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort tekst</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeelden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">informatief — een informatieve tekst</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geeft je informatie over een onderwerp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een krantenartikel, een stukje uit een leerboek, een interview</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opiniërend — een opiniërende tekst</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iemand geeft zijn mening</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gesprek over een boek, een reactie op sociale media</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">prescriptief — een prescriptieve tekst</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">legt uit wat of hoe je iets moet doen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een recept, een instructiefilmpje op YouTube, een schoolreglement</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">narratief — een narratieve tekst</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geeft feiten en gebeurtenissen verhalend weer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een videoblog, een reisverslag, een podcast</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">literair — een literaire tekst</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">heeft een esthetische waarde, speelt in op emoties</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een lied, een gedicht, een cartoon, een strip, een kortverhaal</td></tr></table>",
+     "onderschrift": "Prescriptief komt van 'voorschrijven', narratief van het Franse 'narrer' (vertellen), opiniërend van 'opinie', wat mening betekent."
+    },
+    {
+     "soort": "tekst",
+     "html": "Aan de woorden zie je vaak meteen welk soort je voor je hebt. <em>'Mélangez la farine et les œufs, puis ajoutez le lait'</em> geeft bevelen: meng en voeg toe. Ook <em>'Coupez les tomates. Ajoutez le sel et l'huile. Mélangez bien'</em> doet dat (<em>couper</em> = snijden, <em>une tomate</em>, <em>le sel</em> = het zout, <em>l'huile</em> = de olie). Dat is een recept, dus prescriptief. <em>'Ce film est vraiment ennuyeux, je ne le conseille à personne'</em> is een mening (<em>ennuyeux</em> = saai, <em>conseiller</em> = aanraden). <em>'Bonjour à tous ! Aujourd'hui je vous emmène à Marseille'</em> is een videoblog of reisverslag."
+    },
+    {
+     "soort": "tekst",
+     "html": "Eén tekst kan <strong>meer dan één doel</strong> hebben: een reisverslag dat ook informatie geeft, een videoblog waarin iemand ook zijn mening geeft, een strip die ook iets uitlegt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Weten met welk soort je te maken hebt, is geen etiket plakken. Het zegt je waarop je moet letten: bij een recept op de <strong>volgorde van de stappen</strong>, bij een opiniestuk op de <strong>argumenten</strong>, bij een verhaal op de <strong>gebeurtenissen</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Signaalwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Signaalwoorden</strong> zeggen vooraf wat er komt. Ze helpen je om de gedachtegang van een tekst te reconstrueren."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">verband</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">volgorde en opsomming</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">d'abord, ensuite, puis, enfin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eerst, daarna, vervolgens, ten slotte (enfin sluit de opsomming af)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">reden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">parce que, car</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">omdat, want</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gevolg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">donc, alors</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dus, dan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tegenstelling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mais, pourtant, cependant, en revanche</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maar, nochtans, echter, daarentegen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">toevoeging</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de plus, en plus, aussi</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bovendien, daarbij, ook</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorbeeld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">par exemple</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bijvoorbeeld</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">toegeving</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bien que, malgré</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoewel, ondanks</td></tr></table>",
+     "onderschrift": "'Je reste à la maison parce qu'il pleut': parce que geeft de reden."
+    }
+   ]
+  },
+  {
+   "kop": "Verwijswoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>verwijswoord</strong> grijpt terug naar iets dat al genoemd is. Vind je niet terug naar wie of wat het verwijst, dan is de tekst op dat punt onduidelijk — en moet de schrijver het naamwoord gewoon opnieuw schrijven. Omgekeerd gebruik je ze zelf ook, om niet steeds hetzelfde woord te moeten herhalen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">zin</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">het verwijswoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarnaar</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Les élèves sont en classe. <strong>Ils</strong> écoutent le professeur.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ils</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de leerlingen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je vais à Paris. J'<strong>y</strong> vais en train.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">y</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">naar Parijs (een plaats)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ma sœur adore les chats. Elle <strong>en</strong> a trois.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">en</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">katten (een hoeveelheid)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Marie parle à Paul. Elle <strong>lui</strong> explique le problème.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lui</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aan Paul</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Les enfants jouent dehors. Leurs parents <strong>les</strong> regardent.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">les</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kinderen</td></tr></table>",
+     "onderschrift": "'Y' vervangt meestal een plaats, 'en' meestal een hoeveelheid."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Vijf soorten: informatief, opiniërend, prescriptief, narratief, literair.",
+  "Eén tekst kan meer dan één doel hebben.",
+  "d'abord, ensuite, enfin = volgorde. parce que = reden. donc, alors = gevolg.",
+  "mais, pourtant, cependant, en revanche = tegenstelling.",
+  "y = een plaats, en = een hoeveelheid, lui = aan wie.",
+  "Signaalwoorden helpen je de gedachtegang van een tekst te volgen."
+ ]
+}

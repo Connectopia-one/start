@@ -1,0 +1,108 @@
+{
+ "vak": "Nederlands",
+ "titel": "Woordsoorten en woordvorming",
+ "onder": "Welke soort elk woord is, hoe woorden gemaakt worden en wat ze betekenen.",
+ "secties": [
+  {
+   "kop": "De woordsoorten",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">woordsoort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeelden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zelfstandig naamwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">noemt een ding, een wezen of een begrip</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hond, fiets, fietser, vriendschap</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bijvoeglijk naamwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zegt iets over een zelfstandig naamwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de oude toren, een snelle fiets</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">werkwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">noemt een handeling of een toestand</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fietsen, zijn, worden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lidwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er zijn er maar drie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de, het, een</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voornaamwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vervangt of bepaalt een naamwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik, mijn, deze, wie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voegwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verbindt woorden of zinnen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">en, of, maar, want, omdat, hoewel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorzetsel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geeft plaats, tijd of richting</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">op, onder, tussen, met</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">telwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geeft een aantal of een rangorde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie, tien, eerste</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bijwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zegt iets over een werkwoord, een bijvoeglijk naamwoord of de zin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">snel, gisteren, daar (een bijwoord van plaats)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tussenwerpsel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drukt een gevoel of een reactie uit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oei, hè, hoera</td></tr></table>",
+     "onderschrift": "Zet je 'de' of 'het' voor een woord, dan heb je meestal een zelfstandig naamwoord te pakken."
+    },
+    {
+     "soort": "tekst",
+     "html": "Let op het verschil tussen een <strong>bijvoeglijk naamwoord</strong> en een <strong>bijwoord</strong>: 'een snelle fiets' hoort bij het naamwoord, 'hij fietst snel' hoort bij het werkwoord. Hetzelfde woord kan dus in de ene zin een andere woordsoort zijn dan in de andere: 'een harde bal' tegenover 'hij loopt hard'. Kijk altijd naar de zin."
+    },
+    {
+     "soort": "tekst",
+     "html": "Soms staat een bijvoeglijk naamwoord op de plaats van het naamwoord: 'De jonge speelt beter dan de oude.' Dan is het <em>zelfstandig gebruikt</em>."
+    }
+   ]
+  },
+  {
+   "kop": "De voornaamwoorden",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeelden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">persoonlijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vervangt een persoon of zaak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik, jij, hij, zij, wij, hem, ons</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bezittelijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zegt van wie iets is</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mijn, jouw, zijn, haar, ons, hun</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aanwijzend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wijst iets aan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">deze, dit (dichtbij), die, dat (verder weg)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vragend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vraagt naar een persoon of zaak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie, wat, welke, wiens</td></tr></table>",
+     "onderschrift": "In 'Wat een lawaai!' staat een vragend voornaamwoord in een uitroep."
+    },
+    {
+     "soort": "tekst",
+     "html": "Hoort het voornaamwoord bij een zelfstandig naamwoord — 'Deze fiets is nieuw' — dan is het <strong>bijvoeglijk</strong> gebruikt. Staat het er alleen — 'Deze is nieuw' — dan is het <strong>zelfstandig</strong> gebruikt."
+    }
+   ]
+  },
+  {
+   "kop": "Samenstellingen en afleidingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>samenstelling</strong> bestaat uit twee (of meer) bestaande woorden: voetbal, tandarts, boekentas. 'Voetbalclub' bestaat zelfs uit drie: voet, bal en club."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>afleiding</strong> is een grondwoord met een <strong>voorvoegsel</strong> ervoor of een <strong>achtervoegsel</strong> erachter: on-vriendelijk, vriend-schap, en van bakken maak je met -er een <strong>bakker</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 74\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"4.0\" y=\"4\" width=\"148.7\" height=\"62\" rx=\"9\" fill=\"#2f5d5022\" stroke=\"#2f5d50\" stroke-width=\"1.7\"/><text x=\"78.3\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">voorvoegsel</text><text x=\"78.3\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">on-</text><rect x=\"160.7\" y=\"4\" width=\"148.7\" height=\"62\" rx=\"9\" fill=\"#23453922\" stroke=\"#234539\" stroke-width=\"1.7\"/><text x=\"235.0\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">grondwoord</text><text x=\"235.0\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">vriend</text><rect x=\"317.3\" y=\"4\" width=\"148.7\" height=\"62\" rx=\"9\" fill=\"#c17f2b22\" stroke=\"#c17f2b\" stroke-width=\"1.7\"/><text x=\"391.7\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">achtervoegsel</text><text x=\"391.7\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">-elijk</text></svg>",
+     "onderschrift": "Onvriendelijk: voorvoegsels als on-, ver-, be- en her-, achtervoegsels als -schap, -heid, -ing en -er."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat is handig bij het lezen: 'onbereikbaar' is on + bereik + baar, dus niet te bereiken. De betekenis van een <strong>onbekend woord</strong> kan je zo vaak raden aan de delen waaruit het bestaat."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ook de <strong>uitgang</strong> hoort hierbij: in 'werkte' is werk de stam en -te de uitgang die er de verleden tijd van maakt."
+    }
+   ]
+  },
+  {
+   "kop": "Meervoud en verkleinwoord",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Naast het gewone meervoud op -en of -s zijn er onregelmatige vormen op <strong>-eren</strong>: kind → kinderen, ei → eieren, blad → bladeren, lied → liederen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 146\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"17.0\" y=\"20\" width=\"76\" height=\"38\" rx=\"10\" fill=\"#2f5d50\" opacity=\"0.10\"/><rect x=\"17.0\" y=\"20\" width=\"76\" height=\"38\" rx=\"10\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"55.0\" y=\"46.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"15\" font-weight=\"600\" fill=\"#2f5d50\">-je</text><text x=\"55.0\" y=\"82.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#6b7260\">boek</text><text x=\"55.0\" y=\"104\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\"><tspan fill=\"#23291f\">boek</tspan><tspan fill=\"#c17f2b\">je</tspan></text><path d=\"M55.0 88 v8\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><rect x=\"107.0\" y=\"20\" width=\"76\" height=\"38\" rx=\"10\" fill=\"#2f5d50\" opacity=\"0.10\"/><rect x=\"107.0\" y=\"20\" width=\"76\" height=\"38\" rx=\"10\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"145.0\" y=\"46.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"15\" font-weight=\"600\" fill=\"#2f5d50\">-tje</text><text x=\"145.0\" y=\"82.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#6b7260\">stoel</text><text x=\"145.0\" y=\"104\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\"><tspan fill=\"#23291f\">stoel</tspan><tspan fill=\"#c17f2b\">tje</tspan></text><path d=\"M145.0 88 v8\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><rect x=\"197.0\" y=\"20\" width=\"76\" height=\"38\" rx=\"10\" fill=\"#2f5d50\" opacity=\"0.10\"/><rect x=\"197.0\" y=\"20\" width=\"76\" height=\"38\" rx=\"10\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"46.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"15\" font-weight=\"600\" fill=\"#2f5d50\">-pje</text><text x=\"235.0\" y=\"82.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#6b7260\">boom</text><text x=\"235.0\" y=\"104\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\"><tspan fill=\"#23291f\">boom</tspan><tspan fill=\"#c17f2b\">pje</tspan></text><path d=\"M235.0 88 v8\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><rect x=\"287.0\" y=\"20\" width=\"76\" height=\"38\" rx=\"10\" fill=\"#2f5d50\" opacity=\"0.10\"/><rect x=\"287.0\" y=\"20\" width=\"76\" height=\"38\" rx=\"10\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"325.0\" y=\"46.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"15\" font-weight=\"600\" fill=\"#2f5d50\">-etje</text><text x=\"325.0\" y=\"82.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#6b7260\">bal</text><text x=\"325.0\" y=\"104\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\"><tspan fill=\"#23291f\">bal</tspan><tspan fill=\"#c17f2b\">letje</tspan></text><path d=\"M325.0 88 v8\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><rect x=\"377.0\" y=\"20\" width=\"76\" height=\"38\" rx=\"10\" fill=\"#2f5d50\" opacity=\"0.10\"/><rect x=\"377.0\" y=\"20\" width=\"76\" height=\"38\" rx=\"10\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"415.0\" y=\"46.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"15\" font-weight=\"600\" fill=\"#2f5d50\">-kje</text><text x=\"415.0\" y=\"82.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#6b7260\">koning</text><text x=\"415.0\" y=\"104\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\"><tspan fill=\"#23291f\">konin</tspan><tspan fill=\"#c17f2b\">kje</tspan></text><path d=\"M415.0 88 v8\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><text x=\"235.0\" y=\"132.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">Welke uitgang het wordt, hoor je aan de klank ervoor. Bij koning verdwijnt de g.</text></svg>",
+     "onderschrift": "Vijf uitgangen: -je, -tje, -pje, -etje en -kje. Na een m volgt -pje: boompje."
+    },
+    {
+     "soort": "tekst",
+     "html": "Elk <strong>verkleinwoord</strong> is onzijdig: het is 'de bal', maar 'het balletje'."
+    }
+   ]
+  },
+  {
+   "kop": "Synoniemen en homoniemen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Synoniemen</strong> betekenen ongeveer hetzelfde: mooi, fraai, prachtig, schitterend. Je gebruikt ze om je tekst levendig te maken en herhaling te vermijden. 'Lelijk' is net het tegengestelde."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>homoniem</strong> heeft dezelfde vorm maar twee heel verschillende betekenissen: een <em>bank</em> om op te zitten of een bank waar je geld haalt, een <em>slot</em> op de deur of het slot van een tekst, een <em>kussen</em> op de zetel of iemand kussen. Welke betekenis geldt, leid je af uit de zin."
+    },
+    {
+     "soort": "weetje",
+     "html": "Woordsoorten kennen is geen doel op zich: het is ondersteunende kennis. Wie ziet dat 'wordt' een werkwoord is, weet welke spellingregel geldt; wie het onderwerp vindt, controleert zijn zinsbouw."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Tien woordsoorten, van zelfstandig naamwoord tot tussenwerpsel.",
+  "Voornaamwoorden: persoonlijk, bezittelijk, aanwijzend en vragend; bijvoeglijk of zelfstandig gebruikt.",
+  "Samenstelling = twee woorden; afleiding = grondwoord + voor- of achtervoegsel.",
+  "Kind, ei, blad en lied krijgen -eren in het meervoud.",
+  "Vijf verkleinuitgangen; elk verkleinwoord krijgt 'het'.",
+  "Synoniem = ongeveer dezelfde betekenis; homoniem = dezelfde vorm, andere betekenis."
+ ]
+}

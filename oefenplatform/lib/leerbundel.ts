@@ -36,17 +36,33 @@ export type KlikbareBundel = {
 };
 
 const PITTIG = /\s*—\s*pittig$/i;
+const DEEL = /\s*—\s*deel\s*\d+$/i;
 
-export function bundelSleutel(vakSlug: string, hoofdstukTitel: string): string {
-  const basis = hoofdstukTitel.replace(PITTIG, "");
-  return `${vakSlug}/${slugify(basis)}`;
+/*
+  De sleutel is <niveau>/<vak>/<hoofdstuk>. Het niveau moet erbij: 🌱 Start en
+  ✨ Spark zitten in hetzelfde vak, en bij wiskunde heet in allebei een
+  hoofdstuk "Meetkunde" — met een heel andere bundel erachter.
+
+  Twee achtervoegsels vallen weg. "— pittig" omdat het pittige hoofdstuk over
+  dezelfde leerstof gaat, en "— deel 1" / "— deel 2" omdat een Spark-hoofdstuk
+  in twee reeksen vragen is gesplitst maar één bundel heeft.
+*/
+export function bundelSleutel(
+  vakSlug: string,
+  hoofdstukTitel: string,
+  niveau: string,
+): string {
+  const basis = hoofdstukTitel.replace(PITTIG, "").replace(DEEL, "");
+  return `${niveau}/${vakSlug}/${slugify(basis)}`;
 }
 
 export async function laadKlikbareBundel(
   vakSlug: string,
   hoofdstukTitel: string,
+  niveau: string,
 ): Promise<KlikbareBundel | null> {
-  const laden = KLIKBARE_BUNDELS[bundelSleutel(vakSlug, hoofdstukTitel)];
+  const laden =
+    KLIKBARE_BUNDELS[bundelSleutel(vakSlug, hoofdstukTitel, niveau)];
   if (!laden) return null;
   const mod = await laden();
   return mod.default as KlikbareBundel;
@@ -56,8 +72,11 @@ export async function laadKlikbareBundel(
 export function heeftKlikbareBundel(
   vakSlug: string,
   hoofdstukTitel: string,
+  niveau: string,
 ): boolean {
-  return Boolean(KLIKBARE_BUNDELS[bundelSleutel(vakSlug, hoofdstukTitel)]);
+  return Boolean(
+    KLIKBARE_BUNDELS[bundelSleutel(vakSlug, hoofdstukTitel, niveau)],
+  );
 }
 
 /*
