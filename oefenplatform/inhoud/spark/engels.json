@@ -1,3 +1,851 @@
 {
-  "hoofdstukken": []
+  "hoofdstukken": [
+    {
+      "titel": "Een Engelse tekst lezen — deel 1",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'Our school has a new bike shed. Students can park their bikes there for free. The shed is open from 8 a.m. until 5 p.m.' Wat is het ONDERWERP van die tekst?",
+          "opties": [
+            "de nieuwe fietsenstalling",
+            "dat fietsen gezond is",
+            "de openingsuren van de school",
+            "de mening van de schrijver"
+          ],
+          "antwoord": 0,
+          "uitleg": "A bike shed = een fietsenstalling. Het onderwerp zeg je in één of enkele woorden: waarover gaat de tekst? Hier over de nieuwe stalling."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Dezelfde tekst: 'Our school has a new bike shed. Students can park their bikes there for free. The shed is open from 8 a.m. until 5 p.m.' Wat is de HOOFDGEDACHTE?",
+          "opties": [
+            "De school heeft een nieuwe fietsenstalling voor leerlingen.",
+            "de fietsenstalling",
+            "De school opent om 8 uur en sluit om 5 uur.",
+            "Fietsen is beter voor het milieu dan de auto."
+          ],
+          "antwoord": 0,
+          "uitleg": "De hoofdgedachte is de belangrijkste boodschap, in één hele zin. 'De fietsenstalling' is maar het onderwerp, en de uren zijn een hoofdpunt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Nog eens die tekst over de bike shed. Welke zinnen zijn HOOFDPUNTEN, die de hoofdgedachte ondersteunen?",
+          "opties": [
+            "Students can park their bikes there for free.",
+            "The shed is open from 8 a.m. until 5 p.m.",
+            "Our school has a new bike shed.",
+            "Cycling to school is very healthy."
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Gratis parkeren en de openingsuren zijn de twee details die de boodschap staande houden. De eerste zin ís de hoofdgedachte, en over gezondheid staat er niets."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het onderwerp van een tekst zeg je in één of enkele woorden, de hoofdgedachte in een hele zin.",
+          "antwoord": true,
+          "uitleg": "Zo staat het in de vakfiche: onderwerp 'a film review', hoofdgedachte 'the girl likes this film better than the first one'."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest een filmreview: 'I loved the new Spider-Man film. The actors are great and the costumes look amazing. The story is a bit slow, but I still had a good time.' Wat is de hoofdgedachte?",
+          "opties": [
+            "De schrijver vond de film goed.",
+            "De kostuums zijn mooi gemaakt.",
+            "Het verhaal gaat traag vooruit.",
+            "Spider-Man is de beste superheld."
+          ],
+          "antwoord": 0,
+          "uitleg": "'I loved' en 'I still had a good time' geven het oordeel. De kostuums en het trage verhaal zijn hoofdpunten die dat oordeel kleuren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Dezelfde review over Spider-Man. Welke hoofdpunten geeft de schrijver?",
+          "opties": [
+            "De acteurs spelen goed.",
+            "De kostuums zien er prachtig uit.",
+            "Het verhaal gaat wat traag.",
+            "De film duurt drie uur."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Acteurs, kostuums en het trage verhaal staan er alle drie. Over de lengte van de film zegt de tekst niets, en wat er niet staat mag je niet invullen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In de review staat: 'The actors are great.' Wat is het Nederlandse woord voor 'actors'?",
+          "antwoord": "acteurs",
+          "uitleg": "An actor = een acteur. In het meervoud komt er -s bij: actors."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'The school trip to London costs 180 euros. Please pay before 15 March. The bus leaves at 6 a.m.' Je moet weten hoeveel het kost. Hoe lees je zo'n tekst?",
+          "opties": [
+            "Je zoekt gericht naar het bedrag.",
+            "Je leest elk woord traag.",
+            "Je vertaalt de hele tekst.",
+            "Je leest alleen de laatste zin."
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat heet informatie selecteren: je weet wat je zoekt en je gaat er meteen naar op zoek. Het antwoord is 180 euros."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In die tekst over de schoolreis moet je betalen vóór 15 maart.",
+          "antwoord": true,
+          "uitleg": "'Please pay before 15 March' = gelieve te betalen voor 15 maart. Before = voor."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In die tekst over de schoolreis vertrekt de bus om zes uur 's avonds.",
+          "antwoord": false,
+          "uitleg": "Er staat 6 a.m. A.m. is 's ochtends (ante meridiem), p.m. is 's namiddags of 's avonds. De bus vertrekt dus om 6 uur 's ochtends."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'Tom was late again. He had missed the bus.' Naar wie verwijst 'he'?",
+          "opties": [
+            "Tom",
+            "de bus",
+            "de schrijver",
+            "de lezer"
+          ],
+          "antwoord": 0,
+          "uitleg": "He is een persoonlijk voornaamwoord dat terugwijst naar iemand uit de vorige zin. Hier naar Tom. Zulke verwijswoorden houden een tekst aan elkaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Boven een tekst staat 'Teenagers and screens', met een foto van een gsm erbij. Wat doe je het best vóór je begint te lezen?",
+          "opties": [
+            "Je kijkt naar de titel en de foto en denkt na waarover het gaat.",
+            "Je zoekt eerst alle onbekende woorden op in het woordenboek.",
+            "Je vertaalt de eerste zin woord voor woord.",
+            "Je leest de tekst van achter naar voor."
+          ],
+          "antwoord": 0,
+          "uitleg": "De fiche noemt dat een strategie: stel jezelf vragen vooraf. Wat weet ik al over dit onderwerp? Waarover zou de tekst kunnen gaan?"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'The train leaves at eight, but it is often delayed.' Je kent het woord 'delayed' niet. Wat doe je eerst?",
+          "opties": [
+            "Je leidt de betekenis af uit de rest van de zin.",
+            "Je stopt meteen met lezen.",
+            "Je zoekt elk onbekend woord meteen op in het woordenboek.",
+            "Je slaat de hele alinea over."
+          ],
+          "antwoord": 0,
+          "uitleg": "De zin gaat over een trein en over 'but', dus 'delayed' is iets vervelends: vertraagd. Afleiden uit de context is de eerste strategie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke hulpmiddelen in een tekst helpen je om hem sneller te begrijpen?",
+          "opties": [
+            "de titel en de tussentitels",
+            "woorden in het vet",
+            "een foto of een grafiek",
+            "het aantal bladzijden"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De fiche noemt titel, tussentitels, benadrukte woorden en beeld als visuele hulpmiddelen. Hoeveel bladzijden er zijn, zegt niets over de inhoud."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je moet elk Engels woord kennen om een tekst te kunnen begrijpen.",
+          "antwoord": false,
+          "uitleg": "Nee. Je bepaalt eerst of dat woord echt nodig is om de tekst te snappen. Vaak lukt het ook zonder."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je leest: 'The weather was terrible, so we stayed at home.' Welk Engels woord in die zin geeft een gevolg aan?",
+          "antwoord": "so",
+          "uitleg": "So = dus. Het verbindt de oorzaak (slecht weer) met het gevolg (thuisblijven). Zulke signaalwoorden tonen de gedachtegang."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op een affiche staat: 'School party — Saturday 14 June, from 2 p.m., in the playground.' Waar gaat het feest door?",
+          "opties": [
+            "op de speelplaats",
+            "in de sportzaal",
+            "in het park",
+            "in de eetzaal"
+          ],
+          "antwoord": 0,
+          "uitleg": "A playground = een speelplaats. From 2 p.m. = vanaf 2 uur 's namiddags."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Dat schoolfeest is op een zaterdag.",
+          "antwoord": true,
+          "uitleg": "Saturday = zaterdag. De dagen op een rij: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'Please do not feed the animals. Keep your dog on a lead.' Wat voor soort boodschap is dit?",
+          "opties": [
+            "een regel die zegt wat je moet doen",
+            "een mening over dieren",
+            "een verhaal over een hond",
+            "een gedicht over de natuur en de dieren"
+          ],
+          "antwoord": 0,
+          "uitleg": "A lead = een leiband. De tekst zegt wat je wel en niet mag doen; dat heet een prescriptieve tekst."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je leest: 'The shop is closed on Sundays.' Op welke dag is de winkel dicht? Antwoord in het Nederlands, in één woord.",
+          "antwoord": "zondag",
+          "uitleg": "Sunday = zondag. 'On Sundays' met een -s betekent: elke zondag."
+        }
+      ]
+    },
+    {
+      "titel": "Een Engelse tekst lezen — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'Every Friday our class cleans the schoolyard. We pick up paper and plastic. Last week we filled six bags.' Wat is het onderwerp?",
+          "opties": [
+            "opruimen op de speelplaats",
+            "dat plastic slecht is",
+            "de vrijdag op school",
+            "de klas van de schrijver"
+          ],
+          "antwoord": 0,
+          "uitleg": "To pick up = oprapen, a bag = een zak. Het onderwerp vat in enkele woorden samen waarover de tekst gaat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Dezelfde tekst over de schoolyard. Welke hoofdpunten staan erin?",
+          "opties": [
+            "Het gebeurt elke vrijdag.",
+            "Ze rapen papier en plastic op.",
+            "Vorige week vulden ze zes zakken.",
+            "De directeur helpt altijd mee."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Vrijdag, wat ze oprapen en de zes zakken staan er alle drie. Over de directeur zegt de tekst niets."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In die tekst staat 'we filled six bags'. Hoeveel zakken waren dat? Antwoord met een cijfer.",
+          "antwoord": "6",
+          "uitleg": "Six = zes. De getallen: one, two, three, four, five, six, seven, eight, nine, ten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest een bericht: 'Hi Sam, sorry, I can't come to your party. I have to visit my grandmother. Have fun! Lucy' Waarom komt Lucy niet?",
+          "opties": [
+            "Ze moet naar haar oma.",
+            "Ze is ziek.",
+            "Ze heeft geen zin.",
+            "Ze woont te ver."
+          ],
+          "antwoord": 0,
+          "uitleg": "A grandmother = een grootmoeder. 'I have to' = ik moet. De reden staat er letterlijk; de rest verzin je er zelf bij."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In dat bericht verontschuldigt Lucy zich.",
+          "antwoord": true,
+          "uitleg": "'Sorry' is een verontschuldiging. De fiche noemt dat een alledaags sociaal contact: bedanken, uitnodigen, je verontschuldigen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'First, put the pasta in boiling water. Then wait ten minutes. Finally, add the sauce.' Welke woorden tonen de volgorde?",
+          "opties": [
+            "first",
+            "then",
+            "finally",
+            "water"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "First, then en finally zijn signaalwoorden voor een chronologisch verloop. Ze helpen je de gedachtegang van de tekst te volgen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In dat recept staat 'wait ten minutes'. Hoeveel minuten moet je wachten? Antwoord met een cijfer.",
+          "antwoord": "10",
+          "uitleg": "Ten = tien. To wait = wachten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'The museum is closed on Mondays, but the garden stays open.' Wat betekent het woord 'but' hier?",
+          "opties": [
+            "een tegenstelling",
+            "een opsomming",
+            "een oorzaak",
+            "een besluit"
+          ],
+          "antwoord": 0,
+          "uitleg": "But = maar. Het zet twee dingen tegenover elkaar: het museum dicht, de tuin open."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In die tekst over het museum is de tuin op maandag ook gesloten.",
+          "antwoord": false,
+          "uitleg": "'The garden stays open' = de tuin blijft open. Alleen het museum sluit op maandag."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'I think school should start later. Teenagers need more sleep.' Wat doet de schrijver hier?",
+          "opties": [
+            "hij geeft zijn mening",
+            "hij vertelt een verhaal",
+            "hij geeft een instructie",
+            "hij beschrijft een foto"
+          ],
+          "antwoord": 0,
+          "uitleg": "'I think' verraadt een mening. Een tekst waarin iemand zijn mening geeft, heet een opiniërende tekst."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest een blog: 'We arrived in Scotland on Monday. It rained all week, but the mountains were beautiful.' Wat is de hoofdgedachte?",
+          "opties": [
+            "De reis naar Schotland was mooi ondanks de regen.",
+            "Het regent vaak in Schotland.",
+            "De schrijver kwam aan op maandag.",
+            "Bergen zijn mooier dan steden."
+          ],
+          "antwoord": 0,
+          "uitleg": "De 'but' draait de zin: de regen weegt niet op tegen de bergen. De aankomst en de regen zijn hoofdpunten, niet de boodschap."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In die blog over Schotland regende het de hele week.",
+          "antwoord": true,
+          "uitleg": "'It rained all week' = het regende de hele week. All = heel, al."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'The city has 90,000 inhabitants. It is famous for its old bridge.' Welke informatie haal je hieruit?",
+          "opties": [
+            "het aantal inwoners",
+            "waarvoor de stad bekend is",
+            "de naam van de burgemeester",
+            "hoeveel de brug kostte"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "An inhabitant = een inwoner, famous = beroemd. Wat er niet staat, mag je niet invullen, ook al lijkt het logisch."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een tekst met 'a recipe' of 'a school rule' erin is een prescriptieve tekst: hij legt uit wat of hoe je iets moet doen.",
+          "antwoord": true,
+          "uitleg": "De fiche noemt als voorbeelden een recept, een instructiefilmpje en een schoolreglement."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'Excuse me, could you tell me the way to the station?' Wat doet deze spreker?",
+          "opties": [
+            "hij vraagt informatie",
+            "hij geeft zijn mening",
+            "hij nodigt iemand uit",
+            "hij bedankt iemand"
+          ],
+          "antwoord": 0,
+          "uitleg": "'Could you tell me' = zou je me kunnen zeggen. Informatie vragen en geven staat in de fiche bij schrijven, spreken en interactie."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een tekst met een grafiek erbij hoef je die grafiek niet te bekijken, want alle informatie staat in de woorden.",
+          "antwoord": false,
+          "uitleg": "Een grafiek, foto of tekening is een visueel hulpmiddel. De fiche zegt uitdrukkelijk dat je er gebruik van maakt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'Nobody knew the answer, not even the teacher.' Wat betekent 'nobody'?",
+          "opties": [
+            "niemand",
+            "iedereen",
+            "iemand",
+            "iets"
+          ],
+          "antwoord": 0,
+          "uitleg": "Nobody = niemand. Vergelijk: somebody (iemand), everybody (iedereen), anybody (om het even wie)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je krijgt op het examen een tekst met een woord dat je niet kent. Wanneer zoek je dat woord op in het digitale woordenboek?",
+          "opties": [
+            "als je de tekst zonder dat woord niet begrijpt",
+            "bij elk woord dat je niet kent",
+            "nooit, dat mag niet",
+            "alleen bij het laatste woord"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je mag een online woordenboek gebruiken, maar je hebt geen tijd om alles op te zoeken. Zoek dus alleen wat echt nodig is."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Je leest: 'She was very tired, because she had worked all night.' Welk Engels woord in die zin geeft de oorzaak aan?",
+          "antwoord": "because",
+          "uitleg": "Because = omdat. Het geeft een oorzaak, net als 'so' een gevolg geeft."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'Once upon a time, a poor boy lived near a dark forest.' Wat voor soort tekst begint zo?",
+          "opties": [
+            "een verhaal",
+            "een recept",
+            "een nieuwsbericht",
+            "een reclame"
+          ],
+          "antwoord": 0,
+          "uitleg": "'Once upon a time' = er was eens. Dat is de opening van een narratieve tekst, een tekst die iets vertelt."
+        }
+      ]
+    },
+    {
+      "titel": "Tekstsoorten, signaalwoorden en verwijswoorden — deel 1",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest een krantenartikel over de nieuwe brug in je stad. Wat voor soort tekst is dat?",
+          "opties": [
+            "een informatieve tekst",
+            "een opiniërende tekst",
+            "een prescriptieve tekst",
+            "een literaire tekst"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een informatieve tekst geeft je informatie over een onderwerp. De fiche noemt een krantenartikel, een stukje uit een leerboek en een interview."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest een reactie op sociale media: 'This new rule is unfair.' Wat voor soort tekst is dat?",
+          "opties": [
+            "een opiniërende tekst",
+            "een informatieve tekst",
+            "een prescriptieve tekst",
+            "een narratieve tekst"
+          ],
+          "antwoord": 0,
+          "uitleg": "Unfair = oneerlijk. In een opiniërende tekst geeft iemand zijn mening. De fiche noemt een gesprek over een boek en een reactie op sociale media."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke teksten zijn prescriptief: ze leggen uit wat of hoe je iets moet doen?",
+          "opties": [
+            "a recipe",
+            "a school rule",
+            "an instruction video",
+            "a poem"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "A recipe = een recept, a school rule = een schoolregel. Een gedicht (a poem) hoort bij de literaire teksten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest een reisverslag op een blog. Wat voor soort tekst is dat?",
+          "opties": [
+            "een narratieve tekst",
+            "een prescriptieve tekst",
+            "een informatieve tekst",
+            "een opiniërende tekst"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een narratieve tekst geeft feiten en gebeurtenissen op een verhalende manier weer. De fiche noemt een videoblog, een reisverslag en een podcast."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een lied, een gedicht, een strip en een kortverhaal zijn allemaal literaire teksten.",
+          "antwoord": true,
+          "uitleg": "Zo staat het in de fiche: literaire teksten hebben een esthetische waarde en spelen vaak in op emoties. Ook een cartoon hoort erbij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Het communicatiemodel stelt drie vragen bij een tekst. Welke?",
+          "opties": [
+            "Van wie is de tekst?",
+            "Waarom is de tekst gemaakt?",
+            "Voor wie is de tekst bedoeld?",
+            "Hoeveel woorden telt de tekst?"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Zender, bedoeling en ontvanger. Het aantal woorden zegt niets over de boodschap van een tekst."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'First we bought the tickets. Then we took the train. Finally we walked to the hotel.' Wat tonen first, then en finally?",
+          "opties": [
+            "de volgorde in de tijd",
+            "een tegenstelling",
+            "een oorzaak en gevolg",
+            "een opsomming van meningen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat heet een chronologisch verloop: eerst, dan, ten slotte. De fiche noemt first, next en finally als voorbeelden van signaalwoorden."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk Engels signaalwoord gebruik je voor het láátste punt van een opsomming? Het begint met een f.",
+          "antwoord": "finally",
+          "uitleg": "Finally = ten slotte. De rij eromheen: first, then, next, after that, finally."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'My cousins live in Wales. They have a farm there.' Waarnaar verwijzen 'they' en 'there'?",
+          "opties": [
+            "they naar de neven en nichten, there naar Wales",
+            "they naar de boerderij, there naar de neven",
+            "they naar Wales, there naar de boerderij",
+            "they naar de schrijver, there naar het huis"
+          ],
+          "antwoord": 0,
+          "uitleg": "A cousin = een neef of nicht. They en there zijn verwijswoorden: ze grijpen terug naar iets uit de vorige zin. Zo hangt een tekst aan elkaar."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Verwijswoorden zoals they, it en there gebruik je om niet steeds hetzelfde woord te moeten herhalen.",
+          "antwoord": true,
+          "uitleg": "De fiche zegt het net zo: als je schrijft, gebruik je voornaamwoorden om niet te hoeven herhalen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'I wanted to go out, but it was raining.' Welke functie heeft 'but' hier?",
+          "opties": [
+            "tegenstelling",
+            "oorzaak",
+            "opsomming",
+            "chronologisch verloop"
+          ],
+          "antwoord": 0,
+          "uitleg": "But = maar. De vakfiche noemt vier functies van voegwoorden: chronologisch verloop, opsomming, oorzaak en tegenstelling."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'We stayed at home because the weather was bad.' Welke functie heeft 'because'?",
+          "opties": [
+            "oorzaak",
+            "tegenstelling",
+            "opsomming",
+            "chronologisch verloop"
+          ],
+          "antwoord": 0,
+          "uitleg": "Because = omdat, en het geeft de reden. Let op het verschil met 'so' (dus), dat het gevolg aankondigt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'It was late, ___ we went home.' Welk kort Engels woord past hier en geeft een gevolg?",
+          "antwoord": "so",
+          "uitleg": "So = dus. Because zet de reden vooraan, so zet het gevolg achteraan."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Because' is een nevenschikkend voegwoord, net zoals and en but.",
+          "antwoord": false,
+          "uitleg": "Because is onderschikkend: het maakt van het tweede deel een bijzin. And, but en so zijn wél nevenschikkend en verbinden twee gelijkwaardige delen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest op een verpakking: 'Keep in a dry place. Use before the date on the box.' Voor wie is die tekst bedoeld?",
+          "opties": [
+            "voor wie het product koopt",
+            "voor de fabrikant",
+            "voor de postbode",
+            "voor de winkelier alleen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dry = droog, a box = een doos. Het communicatiemodel vraagt naar de ontvanger: wie moet dit lezen? Hier de koper."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een tekst die je uitlegt hoe je een fiets herstelt, is een opiniërende tekst.",
+          "antwoord": false,
+          "uitleg": "Dat is een prescriptieve tekst: hij legt uit wat of hoe je iets moet doen. Een opiniërende tekst geeft een mening."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest een gedicht over de zee. De fiche vraagt dat je daar schriftelijk op reageert. Wat kan je dan doen?",
+          "opties": [
+            "uitleggen waarom het gedicht je aanspreekt",
+            "vertellen of je zelf al zoiets meemaakte",
+            "zeggen welk gevoel de tekst oproept",
+            "het aantal verzen tellen en opschrijven"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De fiche noemt precies die drie: waarom iets je aanspreekt, of je je herkent in een personage, welk gevoel de tekst oproept. Tellen is geen beleving."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'The film was boring. I nearly fell asleep.' Wat voelt de schrijver?",
+          "opties": [
+            "verveling",
+            "spanning",
+            "blijdschap",
+            "verdriet"
+          ],
+          "antwoord": 0,
+          "uitleg": "Boring = saai, to fall asleep = in slaap vallen. Dat je bijna in slaap valt, maakt de mening nog duidelijker."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je in het Engels een tekst waarin iemand een boek of film beoordeelt? Het woord begint met een r.",
+          "antwoord": "review",
+          "uitleg": "A review = een recensie of bespreking. De fiche gebruikt 'a film review' als voorbeeld van een tekst met een mening."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest een interview met een zwemster in een schoolkrant. Waarom is die tekst gemaakt?",
+          "opties": [
+            "om informatie over haar te geven",
+            "om iets te verkopen",
+            "om je iets te leren koken",
+            "om een verhaal te verzinnen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De fiche noemt een interview bij de informatieve teksten. Het communicatiemodel vraagt ook naar het waarom van een tekst."
+        }
+      ]
+    },
+    {
+      "titel": "Tekstsoorten, signaalwoorden en verwijswoorden — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'Our town needs a new swimming pool. The old one is too small and it is often closed.' Wat voor soort tekst is dit?",
+          "opties": [
+            "een opiniërende tekst",
+            "een prescriptieve tekst",
+            "een narratieve tekst",
+            "een literaire tekst"
+          ],
+          "antwoord": 0,
+          "uitleg": "'Needs' zegt wat de schrijver vindt dat er moet gebeuren. Dat is een mening, geen feit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Dezelfde tekst over het zwembad. Welke argumenten geeft de schrijver?",
+          "opties": [
+            "Het oude zwembad is te klein.",
+            "Het is vaak gesloten.",
+            "Er zijn te weinig redders.",
+            "Het water is te koud."
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Too small = te klein, often closed = vaak gesloten. Over redders of watertemperatuur staat er niets, en dat mag je er niet bij verzinnen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'Mix the eggs and the sugar. Next, add the flour.' Wat voor tekst is dit, en waaraan zie je dat?",
+          "opties": [
+            "prescriptief, want het zegt wat je moet doen",
+            "informatief, want het geeft nieuwe feiten",
+            "narratief, want er gebeurt iets na elkaar",
+            "literair, want het roept gevoelens op"
+          ],
+          "antwoord": 0,
+          "uitleg": "Flour = bloem, sugar = suiker. De bevelende vorm (mix, add) verraadt een instructie."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je in het Engels het soort tekst dat uitlegt hoe je een gerecht maakt? Het begint met een r.",
+          "antwoord": "recipe",
+          "uitleg": "A recipe = een recept. Spreek uit als 'ressipie', niet als 'riesaaip'."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een podcast waarin iemand zijn reis vertelt, is een narratieve tekst.",
+          "antwoord": true,
+          "uitleg": "De fiche noemt een videoblog, een reisverslag en een podcast als narratieve teksten: ze geven gebeurtenissen verhalend weer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'Sarah gave her brother a book. He read it in one day.' Waarnaar verwijzen 'he' en 'it'?",
+          "opties": [
+            "he naar de broer, it naar het boek",
+            "he naar Sarah, it naar de dag",
+            "he naar het boek, it naar de broer",
+            "he naar de schrijver, it naar Sarah"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zo'n verwijswoord pak je altijd samen met het dichtstbijzijnde passende woord ervoor. Een boek is 'it', een jongen is 'he'."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn signaalwoorden die een opsomming aankondigen?",
+          "opties": [
+            "first of all",
+            "secondly",
+            "in addition",
+            "however"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "In addition = bovendien. However = echter en kondigt net een tegenstelling aan, geen opsomming."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'The shop was closed. However, the bakery next door was open.' Wat doet 'however'?",
+          "opties": [
+            "het zet er iets tegenover",
+            "het geeft een reden",
+            "het telt iets op",
+            "het geeft de volgorde aan"
+          ],
+          "antwoord": 0,
+          "uitleg": "However = echter, toch. Het is de deftigere broer van 'but' en staat meestal vooraan de zin, met een komma erachter."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'When I came home, my sister was cooking' begint met een bijzin die zegt wanneer iets gebeurde.",
+          "antwoord": true,
+          "uitleg": "When = wanneer, toen. Het is een onderschikkend voegwoord dat het tijdstip aangeeft."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk Engels voegwoord gebruik je om te zeggen wanneer iets gebeurde? Het begint met een w en telt vier letters.",
+          "antwoord": "when",
+          "uitleg": "When = toen, wanneer. Het hoort bij de zeer frequente onderschikkende voegwoorden uit de vakfiche."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest een tekst met de titel 'How to survive your first week at a new school'. Voor wie is die bedoeld?",
+          "opties": [
+            "voor nieuwe leerlingen",
+            "voor leraars die les geven",
+            "voor ouders van kleuters",
+            "voor de directie alleen"
+          ],
+          "antwoord": 0,
+          "uitleg": "To survive = overleven. De titel spreekt de lezer rechtstreeks aan met 'your'. Het communicatiemodel vraagt naar die ontvanger."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De titel van een tekst mag je gerust overslaan, want de echte informatie staat toch in de alinea's.",
+          "antwoord": false,
+          "uitleg": "De titel is een visueel hulpmiddel: hij zegt vaak in één lijn waarover de tekst gaat en helpt je voorspellen wat er komt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'The teacher was unhappy with the noise.' Je kent 'unhappy' niet. Hoe vind je de betekenis?",
+          "opties": [
+            "je herkent happy met un- ervoor, dus niet blij",
+            "je kijkt naar het laatste deel -py",
+            "je vertaalt het als 'onmogelijk'",
+            "je slaat het woord gewoon over"
+          ],
+          "antwoord": 0,
+          "uitleg": "De fiche noemt dat met zoveel woorden: leid de betekenis af uit de manier waarop een woord gevormd is. Un- maakt een woord ontkennend."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke Engelse woorden betekenen het tegengestelde door hun voorvoegsel?",
+          "opties": [
+            "unfair",
+            "impossible",
+            "dislike",
+            "hopeful"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Un-, im- en dis- draaien de betekenis om: unfair (oneerlijk), impossible (onmogelijk), dislike (niet graag hebben). Hopeful is net positief."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als je een Engels woord niet kent, kan je soms helpen wat je al van het Nederlands of het Frans kent.",
+          "antwoord": true,
+          "uitleg": "De fiche noemt dat een strategie: gebruik je kennis van je moedertaal of van andere vreemde talen. Denk aan 'television' of 'restaurant'."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest een kortverhaal dat stopt met: 'And then the door slowly opened...' Wat vraagt de fiche dat je hiermee kan?",
+          "opties": [
+            "een geloofwaardig einde verzinnen",
+            "de zinnen overschrijven",
+            "de woorden alfabetisch zetten",
+            "de tekst luidop voorlezen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Slowly = langzaam. De fiche zegt het letterlijk: je verzint een geloofwaardig einde bij een verhaal, in het Engels, met een schrijfkader of sleutelwoorden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest: 'I could not stop reading. The main character felt just like me.' Waarover gaat deze reactie?",
+          "opties": [
+            "dat de lezer zich herkent in een personage",
+            "dat het boek te lang is voor de lezer",
+            "dat de schrijver een fout heeft gemaakt",
+            "dat de kaft mooi is uitgegeven"
+          ],
+          "antwoord": 0,
+          "uitleg": "The main character = het hoofdpersonage. Je met een personage identificeren is een van de reacties die de fiche noemt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je in het Engels het hoofdpersonage van een verhaal? Twee woorden, met 'character' erin.",
+          "antwoord": "main character",
+          "uitleg": "The main character = het hoofdpersonage. Main = voornaamste, belangrijkste."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest een cartoon met één tekening en één zin eronder. Bij welke soort teksten hoort dat?",
+          "opties": [
+            "de literaire teksten",
+            "de informatieve teksten",
+            "de prescriptieve teksten",
+            "de narratieve teksten"
+          ],
+          "antwoord": 0,
+          "uitleg": "De fiche noemt een lied, een gedicht, een cartoon, een strip en een kortverhaal bij de literaire teksten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een schoolreglement is een informatieve tekst, net zoals een krantenartikel.",
+          "antwoord": false,
+          "uitleg": "Een schoolreglement is prescriptief: het legt uit wat je moet doen. Een recept hoort bij diezelfde soort; een krantenartikel is wél informatief."
+        }
+      ]
+    }
+  ]
 }

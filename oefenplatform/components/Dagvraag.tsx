@@ -25,6 +25,7 @@ import {
 } from "@/lib/weekdoel";
 
 const NIVEAU_KEY = "oefenplatform_dagvraag_niveau";
+const OPEN_KEY = "oefenplatform_dagvraag_open";
 
 type Gegeven = number | number[] | boolean | null;
 
@@ -45,19 +46,31 @@ export function Dagvraag() {
   const [gegeven, setGegeven] = useState<Gegeven>(null);
   const [gecontroleerd, setGecontroleerd] = useState(false);
   const [stand, setStand] = useState<Weekstand | null>(null);
+  /*
+    Dichtgeklapt tot je erop klikt. Kim op 29 september 2026: "kan de vraag van
+    vandaag in en uitklikbaar zijn zodat je het moet open klikken om te doen?
+    nu neemt het veel plaats in beslag." De startpagina is de weg naar de
+    hoofdstukken; de vraag van de dag is een extraatje en hoort dus niet het
+    halve scherm te vullen. Wie hem openzet, vindt hem de volgende keer weer
+    open.
+  */
+  const [open, setOpen] = useState(false);
 
   // localStorage is een bron buiten React; pas na het eerste tekenen uitlezen,
   // anders verschilt wat de server maakte van wat de browser toont.
   useEffect(() => {
     let bewaard: string | null = null;
+    let stondOpen = false;
     try {
       bewaard = localStorage.getItem(NIVEAU_KEY);
+      stondOpen = localStorage.getItem(OPEN_KEY) === "ja";
     } catch {
       // privénavigatie: dan maar zonder onthouden
     }
     const huidige = leesWeekstand();
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setNiveau(bewaard);
+    setOpen(stondOpen);
     setStand(huidige);
     setGeladen(true);
   }, []);
@@ -111,16 +124,48 @@ export function Dagvraag() {
     setStand(tekenVandaagAf(stand));
   };
 
+  const klapOm = () => {
+    const nieuw = !open;
+    setOpen(nieuw);
+    try {
+      localStorage.setItem(OPEN_KEY, nieuw ? "ja" : "nee");
+    } catch {
+      // privénavigatie: dan onthoudt het gewoon niets
+    }
+  };
+
   return (
     <section className="mt-6 rounded-xl border border-amber/40 bg-amber/5 p-5">
       <div className="flex flex-wrap items-baseline justify-between gap-2">
-        <h2 className="font-display text-lg font-semibold text-ink">
-          ☀️ De vraag van vandaag
-        </h2>
+        <button
+          type="button"
+          onClick={klapOm}
+          aria-expanded={open}
+          className="flex items-baseline gap-2 text-left"
+        >
+          <span aria-hidden className="text-ink-dim">
+            {open ? "▾" : "▸"}
+          </span>
+          <span className="font-display text-lg font-semibold text-ink">
+            ☀️ De vraag van vandaag
+          </span>
+        </button>
         <Weekteller stand={stand} />
       </div>
 
-      {niveaus.length > 1 && (
+      {!open && (
+        <button
+          type="button"
+          onClick={klapOm}
+          className="mt-1 text-sm text-ink-dim underline-offset-2 hover:text-ink hover:underline"
+        >
+          {gecontroleerd
+            ? "Je deed ze al. Klik om ze nog eens te bekijken."
+            : "Klik open voor de vraag van vandaag."}
+        </button>
+      )}
+
+      {open && niveaus.length > 1 && (
         <div className="mt-3 flex flex-wrap items-center gap-1.5">
           <span className="mr-1 text-xs text-ink-dim">
             Voor welke categorie?
@@ -142,131 +187,133 @@ export function Dagvraag() {
         </div>
       )}
 
-      <div className="mt-3 rounded-xl border border-border bg-surface p-5">
-        <p className="mb-2 text-xs text-ink-dim">
-          {vindNiveau(vraag.niveau)?.emoji} {vraag.vak} &middot;{" "}
-          {vraag.hoofdstuk}
-        </p>
-
-        <VraagTekst tekst={vraag.vraag} />
-
-        {vraag.afbeeldingUrl && (
-          // eslint-disable-next-line @next/next/no-img-element
-          <img
-            src={vraag.afbeeldingUrl}
-            alt="Afbeelding bij deze vraag"
-            className="mt-3 max-h-64 rounded-md border border-border"
-          />
-        )}
-
-        {meerdere && !gecontroleerd && (
-          <p className="mt-3 rounded-md bg-amber/10 px-3 py-2 text-xs text-ink">
-            Let op: hier is meer dan één antwoord juist. Duid ze allemaal aan.
+      {open && (
+        <div className="mt-3 rounded-xl border border-border bg-surface p-5">
+          <p className="mb-2 text-xs text-ink-dim">
+            {vindNiveau(vraag.niveau)?.emoji} {vraag.vak} &middot;{" "}
+            {vraag.hoofdstuk}
           </p>
-        )}
 
-        {vraag.type === "meerkeuze" && (
-          <div className="mt-3 space-y-2">
-            {vraag.opties?.map((optie, i) => {
-              const aangeduid = meerdere
-                ? gegevenKeuzes(gegeven).includes(i)
-                : gegeven === i;
-              return (
-                <label
-                  key={i}
-                  className={`flex cursor-pointer items-center gap-2 rounded-md border px-3 py-2 text-sm ${
-                    aangeduid ? "border-forest bg-forest/5" : "border-border"
+          <VraagTekst tekst={vraag.vraag} />
+
+          {vraag.afbeeldingUrl && (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={vraag.afbeeldingUrl}
+              alt="Afbeelding bij deze vraag"
+              className="mt-3 max-h-64 rounded-md border border-border"
+            />
+          )}
+
+          {meerdere && !gecontroleerd && (
+            <p className="mt-3 rounded-md bg-amber/10 px-3 py-2 text-xs text-ink">
+              Let op: hier is meer dan één antwoord juist. Duid ze allemaal aan.
+            </p>
+          )}
+
+          {vraag.type === "meerkeuze" && (
+            <div className="mt-3 space-y-2">
+              {vraag.opties?.map((optie, i) => {
+                const aangeduid = meerdere
+                  ? gegevenKeuzes(gegeven).includes(i)
+                  : gegeven === i;
+                return (
+                  <label
+                    key={i}
+                    className={`flex cursor-pointer items-center gap-2 rounded-md border px-3 py-2 text-sm ${
+                      aangeduid ? "border-forest bg-forest/5" : "border-border"
+                    }`}
+                  >
+                    <input
+                      type={meerdere ? "checkbox" : "radio"}
+                      name={`dagvraag-${vraag.id}`}
+                      checked={aangeduid}
+                      disabled={gecontroleerd}
+                      onChange={() => {
+                        if (!meerdere) return setGegeven(i);
+                        const nu = gegevenKeuzes(gegeven);
+                        setGegeven(
+                          nu.includes(i)
+                            ? nu.filter((k) => k !== i)
+                            : [...nu, i].sort((a, b) => a - b),
+                        );
+                      }}
+                      className="accent-forest"
+                    />
+                    {optie}
+                  </label>
+                );
+              })}
+            </div>
+          )}
+
+          {vraag.type === "waarofniet" && (
+            <div className="mt-3 flex gap-2">
+              {[true, false].map((optie) => (
+                <button
+                  key={String(optie)}
+                  type="button"
+                  disabled={gecontroleerd}
+                  onClick={() => setGegeven(optie)}
+                  className={`rounded-md border px-4 py-2 text-sm ${
+                    gegeven === optie
+                      ? "border-forest bg-forest/5 text-forest-dark"
+                      : "border-border text-ink"
                   }`}
                 >
-                  <input
-                    type={meerdere ? "checkbox" : "radio"}
-                    name={`dagvraag-${vraag.id}`}
-                    checked={aangeduid}
-                    disabled={gecontroleerd}
-                    onChange={() => {
-                      if (!meerdere) return setGegeven(i);
-                      const nu = gegevenKeuzes(gegeven);
-                      setGegeven(
-                        nu.includes(i)
-                          ? nu.filter((k) => k !== i)
-                          : [...nu, i].sort((a, b) => a - b),
-                      );
-                    }}
-                    className="accent-forest"
-                  />
-                  {optie}
-                </label>
-              );
-            })}
-          </div>
-        )}
+                  {optie ? "Waar" : "Niet waar"}
+                </button>
+              ))}
+            </div>
+          )}
 
-        {vraag.type === "waarofniet" && (
-          <div className="mt-3 flex gap-2">
-            {[true, false].map((optie) => (
-              <button
-                key={String(optie)}
-                type="button"
-                disabled={gecontroleerd}
-                onClick={() => setGegeven(optie)}
-                className={`rounded-md border px-4 py-2 text-sm ${
-                  gegeven === optie
-                    ? "border-forest bg-forest/5 text-forest-dark"
-                    : "border-border text-ink"
-                }`}
-              >
-                {optie ? "Waar" : "Niet waar"}
-              </button>
-            ))}
-          </div>
-        )}
-
-        {!gecontroleerd ? (
-          <button
-            type="button"
-            onClick={controleer}
-            disabled={!ingevuld}
-            className="mt-4 rounded-md bg-forest px-4 py-2 text-sm font-medium text-white transition hover:bg-forest-dark disabled:cursor-not-allowed disabled:opacity-40"
-          >
-            Controleer
-          </button>
-        ) : (
-          <div
-            className={`mt-4 rounded-md px-3 py-2 text-sm ${
-              gegeven === null
-                ? "bg-info/10 text-ink"
-                : correct
-                  ? "bg-forest/10 text-forest-dark"
-                  : "bg-danger/10 text-danger"
-            }`}
-          >
-            <p className="font-medium">
-              {gegeven === null
-                ? "Je deed deze vraag vandaag al."
-                : correct
-                  ? "Juist!"
-                  : "Niet helemaal juist."}
-            </p>
-            {!correct && (
-              <p className="mt-1 text-ink">{juisteAntwoord(vraag)}</p>
-            )}
-            {vraag.uitleg && <p className="mt-1 text-ink">{vraag.uitleg}</p>}
-          </div>
-        )}
-
-        {gecontroleerd && (
-          <p className="mt-3 text-sm">
-            <Link
-              href={`/vakken/${vraag.vakSlug}/${vraag.hoofdstukNummer}`}
-              className="text-forest-dark underline-offset-2 hover:underline"
+          {!gecontroleerd ? (
+            <button
+              type="button"
+              onClick={controleer}
+              disabled={!ingevuld}
+              className="mt-4 rounded-md bg-forest px-4 py-2 text-sm font-medium text-white transition hover:bg-forest-dark disabled:cursor-not-allowed disabled:opacity-40"
             >
-              Verder oefenen in {vraag.hoofdstuk} &rarr;
-            </Link>
-          </p>
-        )}
-      </div>
+              Controleer
+            </button>
+          ) : (
+            <div
+              className={`mt-4 rounded-md px-3 py-2 text-sm ${
+                gegeven === null
+                  ? "bg-info/10 text-ink"
+                  : correct
+                    ? "bg-forest/10 text-forest-dark"
+                    : "bg-danger/10 text-danger"
+              }`}
+            >
+              <p className="font-medium">
+                {gegeven === null
+                  ? "Je deed deze vraag vandaag al."
+                  : correct
+                    ? "Juist!"
+                    : "Niet helemaal juist."}
+              </p>
+              {!correct && (
+                <p className="mt-1 text-ink">{juisteAntwoord(vraag)}</p>
+              )}
+              {vraag.uitleg && <p className="mt-1 text-ink">{vraag.uitleg}</p>}
+            </div>
+          )}
 
-      {gecontroleerd && (
+          {gecontroleerd && (
+            <p className="mt-3 text-sm">
+              <Link
+                href={`/vakken/${vraag.vakSlug}/${vraag.hoofdstukNummer}`}
+                className="text-forest-dark underline-offset-2 hover:underline"
+              >
+                Verder oefenen in {vraag.hoofdstuk} &rarr;
+              </Link>
+            </p>
+          )}
+        </div>
+      )}
+
+      {open && gecontroleerd && (
         <p className="mt-3 text-xs text-ink-dim">
           {niveaus.length > 1
             ? "Deze is voor vandaag. Kies hierboven een andere categorie voor nog een vraag, of kom morgen terug."
