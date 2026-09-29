@@ -50,3 +50,11 @@ export async function laadKlikbareBundel(
   const mod = await laden();
   return mod.default as KlikbareBundel;
 }
+
+/** Of dit hoofdstuk een interactieve bundel heeft, zonder ze in te laden. */
+export function heeftKlikbareBundel(
+  vakSlug: string,
+  hoofdstukTitel: string,
+): boolean {
+  return Boolean(KLIKBARE_BUNDELS[bundelSleutel(vakSlug, hoofdstukTitel)]);
+}

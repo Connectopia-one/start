@@ -3,15 +3,13 @@
 import { useMemo, useState } from "react";
 
 /*
-  De sleutel naar de oefeningen: zet de onderdelen van de leerbundel weer in
-  de juiste volgorde.
+  Het spelletje op de eindhalte: zet de haltes weer in de juiste volgorde.
 
   Gevraagd op 28 september 2026: "mss dat ze eerst een puzzel ofzo moeten
-  oplossen om het hoofdstuk te ontgrendelen (enkel bij de interactieve
-  leerbundels)". Dit is bewust geen toets. Wie de onderdelen net doorgeklikt
-  heeft, lost hem in een halve minuut op; wie meteen doorklikte naar de
-  oefeningen, moet even terug kijken. Fout kiezen kost niets: het onderdeel
-  blijft gewoon staan tot het aan de beurt is.
+  oplossen". Het zet niets op slot — Kim op 29 september 2026: de oefeningen
+  blijven gewoon open, dit is een extraatje op het einde van de tocht. Wie de
+  haltes net gehad heeft, lost het in een halve minuut op; wie meteen naar
+  beneden sprong, moet even terugkijken. Fout kiezen kost niets.
 
   De volgorde komt uit de bundel zelf, dus er valt niets extra te onderhouden.
 */
@@ -36,17 +34,16 @@ function zaadVan(tekst: string): number {
   return som;
 }
 
-export function Volgordepuzzel({
+export function Volgordespel({
   koppen,
   hoofdstukId,
-  onOpgelost,
 }: {
   koppen: string[];
   hoofdstukId: string;
-  onOpgelost: () => void;
 }) {
   const [gelegd, setGelegd] = useState<number[]>([]);
   const [mis, setMis] = useState<number | null>(null);
+  const [misgeteld, setMisgeteld] = useState(0);
 
   const volgorde = useMemo(
     () =>
@@ -62,24 +59,31 @@ export function Volgordepuzzel({
   function kies(i: number) {
     if (af) return;
     if (i === gelegd.length) {
-      const nieuw = [...gelegd, i];
       setMis(null);
-      setGelegd(nieuw);
-      if (nieuw.length === koppen.length) onOpgelost();
+      setGelegd([...gelegd, i]);
       return;
     }
     setMis(i);
+    setMisgeteld(misgeteld + 1);
   }
 
+  function opnieuw() {
+    setGelegd([]);
+    setMis(null);
+    setMisgeteld(0);
+  }
+
+  if (koppen.length < 2) return null;
+
   return (
-    <div className="rounded-xl border border-forest/40 bg-forest/5 px-5 py-5">
-      <h3 className="font-display text-base font-semibold text-ink">
-        🔑 De sleutel naar de oefeningen
-      </h3>
+    <div className="rounded-2xl border border-forest/40 bg-forest/5 px-5 py-5">
+      <h2 className="font-display text-xl font-semibold text-ink">
+        🧩 De tocht op een rij
+      </h2>
       <p className="mt-1 text-sm text-ink-dim">
-        Zet de onderdelen weer in de volgorde waarin ze in de bundel staan. Klik
-        ze aan, van het eerste tot het laatste. Fout gekozen is niet erg, je mag
-        gewoon verder proberen.
+        Zet de haltes weer in de volgorde waarin je ze deed. Klik ze aan, van de
+        eerste tot de laatste. Fout gekozen is niet erg, je mag gewoon verder
+        proberen. Dit zet niets open of dicht, het is er voor de lol.
       </p>
 
       <ol className="mt-4 space-y-2">
@@ -114,17 +118,27 @@ export function Volgordepuzzel({
             ))}
           {mis !== null && (
             <p className="text-sm text-danger">
-              Dat onderdeel komt later. Kijk nog eens welk stuk er nu aan de
-              beurt is.
+              Die halte komt later. Kijk nog eens welke er nu aan de beurt is.
             </p>
           )}
         </div>
       )}
 
       {af && (
-        <p className="mt-3 rounded-lg bg-forest/10 px-4 py-3 text-sm font-medium text-forest-dark">
-          Gelukt. De oefeningen staan open.
-        </p>
+        <div className="mt-3 rounded-lg bg-forest/10 px-4 py-3">
+          <p className="text-sm font-medium text-forest-dark">
+            {misgeteld === 0
+              ? "In één keer juist. Jij hebt goed opgelet."
+              : "Gelukt, de hele tocht staat op een rij."}
+          </p>
+          <button
+            type="button"
+            onClick={opnieuw}
+            className="mt-2 text-sm text-ink-dim underline underline-offset-2 hover:text-ink"
+          >
+            Nog eens spelen
+          </button>
+        </div>
       )}
     </div>
   );

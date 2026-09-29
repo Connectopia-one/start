@@ -1,15 +1,19 @@
-# De klikbare leerbundel
+# De interactieve leerbundel
 
 Hier staan de leerbundels van 🌱 Start nog eens, maar als gegevens in plaats van
-als pdf. Het oefenplatform toont ze op het scherm als losse onderdelen waar een
-kind op klikt.
+als pdf. Het oefenplatform maakt daar een eigen bladzijde mee: **de tocht door
+het hoofdstuk**, met de haltes één voor één.
 
-**Dit komt er bij, het vervangt niets.** De pdf om af te drukken blijft gewoon
-staan op dezelfde bladzijde, onder de kop "Om af te drukken of mee te nemen".
-Kim vroeg dat uitdrukkelijk op 29 september 2026: de bundels om te lezen en af
-te drukken blijven, en de klikbare versie is een module ernaast. Wie liever op
-papier leest, kan onder de klikbare bundel zeggen dat hij de leerstof al
-gelezen heeft; dan komt de puzzel meteen.
+**Dit is een apart ding, het vervangt niets.** Kim op 29 september 2026: *"ik
+wil niets veranderen aan wat er al was maar echt een extra knop per hoofdstuk
+met aparte interactieve lesbundels"* en *"dit gaat echt een heel apart nieuw
+ding zijn. wel met de leerstof van de lesbundels maar dan leuker gegeven voor
+hun."* Het hoofdstuk zelf, de tabbladen en de pdf's om af te drukken zijn dus
+niet aangeraakt. Er staat enkel een knop bij, boven de tabbladen, naar
+`/vakken/<vak>/<nummer>/leerbundel`.
+
+**Er zit geen slot op.** De oefeningen staan gewoon open, of het kind de tocht
+nu doet of niet.
 
 **Niet met de hand aanpassen.** De bron blijft
 `inhoud/leerbundels/bron/maak_*.py`, dezelfde bestanden waar de pdf uit komt.
@@ -38,11 +42,20 @@ in de bundel zelf, bij `hoofdstukken=[...]`. Dat staat nu bij twee bundels:
 
 De zes uitdagingshoofdstukken, want die halen alle hoofdstukken door elkaar, en
 de twee hoofdstukken begrijpend lezen, want daar staat de leestekst al boven de
-vragen. Die hoofdstukken hebben dus ook geen slot.
+vragen. Bij die hoofdstukken verschijnt de knop gewoon niet.
 
-## Het slot
+## Hoe de tocht werkt
 
-Zie `components/HoofdstukTabs.tsx`. Heeft een hoofdstuk een klikbare bundel met
-minstens drie onderdelen, dan staan de oefeningen achter een sleutel: eerst alle
-onderdelen openklikken, dan de volgordepuzzel. Eenmaal open blijft het open,
-bewaard in de browser van het kind.
+Zie `components/InteractieveLeerbundel.tsx`.
+
+- Elke sectie van de bundel is een **halte**. Er staat er één tegelijk op het
+  scherm, met bovenaan een rij bolletjes om te zien waar je zit en om vrij heen
+  en weer te springen.
+- "Gehad, volgende halte" zet een **stempel** op die halte. De stempels blijven
+  in de browser van het kind staan (`connectopia-tocht-<hoofdstuk>`), dus je
+  kunt de tocht over meerdere keren doen.
+- Op de **eindhalte** staat "onthoud dit" als afvinklijst
+  (`connectopia-onthoud-<hoofdstuk>`), daarna het volgordespel
+  (`components/Volgordespel.tsx`) en een knop naar de oefeningen.
+- Een weetje wordt een geel kaartje, een figuur staat groot met zijn
+  onderschrift eronder.
