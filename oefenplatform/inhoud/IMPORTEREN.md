@@ -30,6 +30,17 @@ hoofdstuk, ook voor Meetkunde. `wiskunde-meetkunde.json` heb je dus niet nodig.
 Bij 5 en 8 verdwijnen de drie voorbeeldvragen die bij het opzetten van de
 databank meegekomen zijn. Spelling houdt er 47 over, Rekenen en breuken 37.
 
+## 🌱 Start — de pittige hoofdstukken (28 september 2026)
+
+| # | Bestand | Vak | Vervangen |
+|---|---------|-----|-----------|
+| 13 | `start-wiskunde-pittig.json` | Wiskunde | **aan** |
+
+Zeven nieuwe hoofdstukken naast de gewone: "Getallenkennis — pittig" en zo
+verder, telkens twintig moeilijkere vragen over dezelfde leerstof. Ze raken de
+gewone hoofdstukken niet aan, dus je mag dit bestand op elk moment inladen, ook
+als de kinderen al bezig zijn. Zie `pittig/README.md`.
+
 ## ✨ Spark
 
 | # | Bestand | Vak | Vervangen |
