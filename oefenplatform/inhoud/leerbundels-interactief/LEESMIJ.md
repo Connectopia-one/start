@@ -4,6 +4,13 @@ Hier staan de leerbundels van 🌱 Start nog eens, maar als gegevens in plaats v
 als pdf. Het oefenplatform toont ze op het scherm als losse onderdelen waar een
 kind op klikt.
 
+**Dit komt er bij, het vervangt niets.** De pdf om af te drukken blijft gewoon
+staan op dezelfde bladzijde, onder de kop "Om af te drukken of mee te nemen".
+Kim vroeg dat uitdrukkelijk op 29 september 2026: de bundels om te lezen en af
+te drukken blijven, en de klikbare versie is een module ernaast. Wie liever op
+papier leest, kan onder de klikbare bundel zeggen dat hij de leerstof al
+gelezen heeft; dan komt de puzzel meteen.
+
 **Niet met de hand aanpassen.** De bron blijft
 `inhoud/leerbundels/bron/maak_*.py`, dezelfde bestanden waar de pdf uit komt.
 Verander je daar iets, draai dan:

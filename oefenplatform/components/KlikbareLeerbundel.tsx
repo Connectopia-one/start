@@ -54,6 +54,10 @@ export function KlikbareLeerbundel({
 }) {
   const [open, setOpen] = useState<number | null>(null);
   const [gelezen, setGelezen] = useState<number[]>([]);
+  // Wie de leerstof liever op papier of in de pdf las, moet niet eerst alle
+  // vakjes hier openklikken. De puzzel blijft de sleutel; alleen de weg
+  // ernaartoe is vrij.
+  const [puzzelGevraagd, setPuzzelGevraagd] = useState(false);
 
   // localStorage is een bron buiten React; pas na het eerste tekenen uitlezen,
   // anders verschilt wat de server maakte van wat de browser toont.
@@ -83,7 +87,7 @@ export function KlikbareLeerbundel({
     <div className="mt-6">
       <div className="rounded-xl border border-border bg-surface px-5 py-5">
         <p className="text-xs font-semibold uppercase tracking-wide text-ink-dim">
-          {bundel.vak}
+          📖 Lees op het scherm &middot; {bundel.vak}
         </p>
         <h2 className="mt-1 font-display text-xl font-semibold text-ink">
           {bundel.titel}
@@ -172,18 +176,33 @@ export function KlikbareLeerbundel({
       )}
 
       {puzzel && (
-        <div className="mt-4">{alles ? puzzel : <NogNietKlaar />}</div>
+        <div className="mt-4">
+          {alles || puzzelGevraagd ? (
+            puzzel
+          ) : (
+            <NogNietKlaar opVraag={() => setPuzzelGevraagd(true)} />
+          )}
+        </div>
       )}
     </div>
   );
 }
 
-function NogNietKlaar() {
+function NogNietKlaar({ opVraag }: { opVraag: () => void }) {
   return (
-    <p className="rounded-xl border border-dashed border-border-strong px-5 py-4 text-sm text-ink-dim">
-      Als je alle onderdelen bekeken hebt, krijg je hier de sleutel naar de
-      oefeningen.
-    </p>
+    <div className="rounded-xl border border-dashed border-border-strong px-5 py-4">
+      <p className="text-sm text-ink-dim">
+        Als je alle onderdelen bekeken hebt, krijg je hier de sleutel naar de
+        oefeningen.
+      </p>
+      <button
+        type="button"
+        onClick={opVraag}
+        className="mt-2 text-sm text-forest-dark underline underline-offset-2"
+      >
+        Ik heb de leerstof al gelezen, geef mij de sleutel
+      </button>
+    </div>
   );
 }
 

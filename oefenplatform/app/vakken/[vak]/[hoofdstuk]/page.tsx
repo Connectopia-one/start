@@ -209,27 +209,45 @@ export default async function HoofdstukPage({
             leerstof={
               <>
                 <Leerbundel blokken={bundel} />
-                <div className="mt-6 space-y-2">
-                  {leerstof.map((l) =>
-                    l.url ? (
-                      <a
-                        key={l.id}
-                        href={l.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="flex items-center justify-between rounded-lg border border-border bg-surface px-4 py-3 text-sm hover:border-forest"
-                      >
-                        <span className="text-ink">📄 {l.titel}</span>
-                        <span className="text-forest-dark">Openen &rarr;</span>
-                      </a>
-                    ) : null,
-                  )}
-                  {!leerstof.length && !bundel.length && !klikbareBundel && (
-                    <p className="text-sm text-ink-dim">
-                      Er is nog geen leerstof voor dit hoofdstuk.
+
+                {/* De leerbundel om af te drukken blijft gewoon staan, náást de
+                    klikbare versie. Wie liever op papier leest, of de bundel
+                    meeneemt naar school, verandert er niets aan. */}
+                {leerstof.length > 0 && (
+                  <section className="mt-8">
+                    <h3 className="font-display text-base font-semibold text-ink">
+                      🖨️ Om af te drukken of mee te nemen
+                    </h3>
+                    <p className="mt-1 text-sm text-ink-dim">
+                      Dezelfde leerstof als hierboven, als pdf. Handig om op
+                      papier te lezen of op te bergen in je map.
                     </p>
-                  )}
-                </div>
+                    <div className="mt-3 space-y-2">
+                      {leerstof.map((l) =>
+                        l.url ? (
+                          <a
+                            key={l.id}
+                            href={l.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="flex items-center justify-between rounded-lg border border-border bg-surface px-4 py-3 text-sm hover:border-forest"
+                          >
+                            <span className="text-ink">📄 {l.titel}</span>
+                            <span className="text-forest-dark">
+                              Openen &rarr;
+                            </span>
+                          </a>
+                        ) : null,
+                      )}
+                    </div>
+                  </section>
+                )}
+
+                {!leerstof.length && !bundel.length && !klikbareBundel && (
+                  <p className="mt-6 text-sm text-ink-dim">
+                    Er is nog geen leerstof voor dit hoofdstuk.
+                  </p>
+                )}
               </>
             }
           />

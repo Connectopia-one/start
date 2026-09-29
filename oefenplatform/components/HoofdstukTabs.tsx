@@ -167,6 +167,11 @@ function Slot({ naarLeerstof }: { naarLeerstof: () => void }) {
         puzzel, en daarna staan de oefeningen open. Je hoeft het maar één keer
         te doen.
       </p>
+      <p className="mt-2 text-sm text-ink-dim">
+        Lees je liever op papier? De pdf staat op dezelfde bladzijde, en
+        daaronder kan je zeggen dat je ze al gelezen hebt. Dan krijg je de
+        puzzel meteen.
+      </p>
       <button
         type="button"
         onClick={naarLeerstof}
