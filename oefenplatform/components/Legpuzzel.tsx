@@ -30,7 +30,7 @@ function husselen(lijst: number[]): number[] {
   return uit;
 }
 
-/** De tekening, verschoven zodat net dit stuk in beeld staat. */
+/** Het beeld, verschoven zodat net dit stuk in beeld staat. */
 function Stuk({
   beeld,
   stuk,
@@ -42,6 +42,24 @@ function Stuk({
   kolommen: number;
   rijen: number;
 }) {
+  if (beeld.soort === "prent") {
+    // De prent wordt zo groot als het hele bord gelegd en dan verschoven, het
+    // aloude trucje met een achtergrondafbeelding.
+    return (
+      <span
+        aria-hidden
+        className="pointer-events-none absolute inset-0"
+        style={{
+          backgroundImage: `url(${beeld.url})`,
+          backgroundSize: `${kolommen * 100}% ${rijen * 100}%`,
+          backgroundPosition: `${((stuk % kolommen) / (kolommen - 1)) * 100}% ${(
+            (Math.floor(stuk / kolommen) / (rijen - 1)) *
+            100
+          ).toFixed(2)}%`,
+        }}
+      />
+    );
+  }
   return (
     <span
       aria-hidden
@@ -52,6 +70,39 @@ function Stuk({
         left: `${-(stuk % kolommen) * 100}%`,
         top: `${-Math.floor(stuk / kolommen) * 100}%`,
       }}
+      dangerouslySetInnerHTML={{ __html: beeld.html }}
+    />
+  );
+}
+
+/** Het hele beeld, om te tonen hoe het moet worden. */
+function HeelBeeld({
+  beeld,
+  className,
+  style,
+}: {
+  beeld: Puzzelbeeld;
+  className?: string;
+  style?: React.CSSProperties;
+}) {
+  if (beeld.soort === "prent") {
+    return (
+      <div
+        role="img"
+        aria-label="De hele tekening"
+        className={className}
+        style={{
+          ...style,
+          backgroundImage: `url(${beeld.url})`,
+          backgroundSize: "100% 100%",
+        }}
+      />
+    );
+  }
+  return (
+    <div
+      className={`${className ?? ""} [&_svg]:block [&_svg]:h-full [&_svg]:w-full`}
+      style={style}
       dangerouslySetInnerHTML={{ __html: beeld.html }}
     />
   );
@@ -163,10 +214,10 @@ export function Legpuzzel({ beeld }: { beeld: Puzzelbeeld }) {
               );
             })}
         {(af || !bak) && (
-          <div
-            className="h-full w-full [&_svg]:block [&_svg]:h-full [&_svg]:w-full"
+          <HeelBeeld
+            beeld={beeld}
+            className="h-full w-full"
             style={{ gridColumn: `span ${kolommen}`, gridRow: `span ${rijen}` }}
-            dangerouslySetInnerHTML={{ __html: beeld.html }}
           />
         )}
       </div>
@@ -194,10 +245,10 @@ export function Legpuzzel({ beeld }: { beeld: Puzzelbeeld }) {
           {/* Zodra de stukken door elkaar liggen, is de tekening zelf weg. Een
               klein voorbeeld erbij, anders puzzelen ze blind. */}
           <div className="mt-4 flex items-center gap-3">
-            <div
-              className="w-28 shrink-0 overflow-hidden rounded-md border border-border bg-paper [&_svg]:block [&_svg]:h-full [&_svg]:w-full"
+            <HeelBeeld
+              beeld={beeld}
+              className="w-28 shrink-0 overflow-hidden rounded-md border border-border bg-paper"
               style={{ aspectRatio: String(beeld.verhouding) }}
-              dangerouslySetInnerHTML={{ __html: beeld.html }}
             />
             <p className="text-sm text-ink-dim">Zo moet het worden.</p>
           </div>

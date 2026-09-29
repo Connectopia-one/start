@@ -1,4 +1,5 @@
 import { KLIKBARE_BUNDELS } from "@/inhoud/leerbundels-interactief";
+import { PUZZELFOTOS } from "@/inhoud/puzzelfotos";
 import { slugify } from "@/lib/slug";
 
 /*
@@ -60,11 +61,17 @@ export function heeftKlikbareBundel(
 }
 
 /*
-  De tekening voor de schuifpuzzel op de eindhalte.
+  Het beeld voor de legpuzzel op de eindhalte.
 
   Kim op 29 september 2026: "ik denk dat een fysieke puzzel van een afbeelding
-  die ze op de juiste plaats moeten schuiven in thema leuker is." De tekening
+  die ze op de juiste plaats moeten schuiven in thema leuker is." Het beeld
   komt dus uit het hoofdstuk zelf, niet uit een plaatjesbank.
+
+  Eerste keuze is een **prent** die Kim voor dat hoofdstuk maakte; die staat in
+  public/puzzels en in inhoud/puzzelfotos.ts. Is er geen, dan nemen we een
+  **tekening** uit de leerbundel. Dat werkt, maar minder goed: het zijn schema's,
+  en een stukje van een rooster ziet er precies hetzelfde uit als het stukje
+  ernaast.
 
   Niet elke tekening leent zich ertoe: een strook van 6 keer zo breed als hoog
   levert stukjes op waar niets op staat. We nemen daarom de tekening die het
@@ -73,11 +80,32 @@ export function heeftKlikbareBundel(
   eindhalte terug op het volgordespel.
 */
 
-export type Puzzelbeeld = {
-  html: string;
-  verhouding: number;
-  onderschrift?: string;
-};
+export type Puzzelbeeld =
+  | { soort: "prent"; url: string; verhouding: number; onderschrift?: string }
+  | {
+      soort: "tekening";
+      html: string;
+      verhouding: number;
+      onderschrift?: string;
+    };
+
+/*
+  De prent die Kim voor dit hoofdstuk maakte, als die er is.
+
+  Anders dan bij de leerbundel telt " — pittig" hier wél mee: een pittig
+  hoofdstuk heeft zijn eigen prent.
+*/
+export function puzzelPrent(
+  vakSlug: string,
+  hoofdstukTitel: string,
+): Puzzelbeeld | null {
+  const rij = PUZZELFOTOS[`${vakSlug}/${slugify(hoofdstukTitel)}`];
+  if (!rij) return null;
+  // Een prent die veel breder is dan hoog geeft een bord van een paar
+  // centimeter hoog met flinterdunne stukjes. Dan liever een tekening.
+  if (rij.verhouding < 0.55 || rij.verhouding > 2.6) return null;
+  return { soort: "prent", url: rij.url, verhouding: rij.verhouding };
+}
 
 export function puzzelBeeld(bundel: KlikbareBundel): Puzzelbeeld | null {
   const kandidaten: Puzzelbeeld[] = [];
@@ -91,6 +119,7 @@ export function puzzelBeeld(bundel: KlikbareBundel): Puzzelbeeld | null {
       const verhouding = maten[2] / maten[3];
       if (verhouding < 0.6 || verhouding > 3) continue;
       kandidaten.push({
+        soort: "tekening",
         html: blok.html,
         verhouding,
         onderschrift: blok.onderschrift,

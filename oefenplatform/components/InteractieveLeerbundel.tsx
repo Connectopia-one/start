@@ -8,6 +8,7 @@ import {
   puzzelBeeld,
   type BundelBlok,
   type KlikbareBundel,
+  type Puzzelbeeld,
 } from "@/lib/leerbundel";
 
 /*
@@ -57,11 +58,14 @@ export function InteractieveLeerbundel({
   bundel,
   hoofdstukId,
   naarOefeningen,
+  prent = null,
 }: {
   bundel: KlikbareBundel;
   hoofdstukId: string;
   /** Terug naar het hoofdstuk met de gewone oefeningen. */
   naarOefeningen: string;
+  /** De prent die Kim voor dit hoofdstuk maakte, als die er is. */
+  prent?: Puzzelbeeld | null;
 }) {
   const laatste = bundel.secties.length; // de eindhalte krijgt dit nummer
   const [halte, setHalte] = useState(0);
@@ -155,6 +159,7 @@ export function InteractieveLeerbundel({
           bundel={bundel}
           hoofdstukId={hoofdstukId}
           naarOefeningen={naarOefeningen}
+          prent={prent}
           opnieuw={() => ga(0)}
         />
       ) : (
@@ -243,13 +248,17 @@ function Eindhalte({
   hoofdstukId,
   naarOefeningen,
   opnieuw,
+  prent,
 }: {
   bundel: KlikbareBundel;
   hoofdstukId: string;
   naarOefeningen: string;
   opnieuw: () => void;
+  prent: Puzzelbeeld | null;
 }) {
-  const beeld = puzzelBeeld(bundel);
+  // Liefst Kims eigen prent voor dit hoofdstuk; anders een tekening uit de
+  // leerbundel.
+  const beeld = prent ?? puzzelBeeld(bundel);
 
   return (
     <div className="mt-4 space-y-4">

@@ -5,7 +5,7 @@ import { InteractieveLeerbundel } from "@/components/InteractieveLeerbundel";
 import { getSessionProfile } from "@/lib/auth";
 import { hoofdstukToegankelijk } from "@/lib/toegang";
 import { createClient } from "@/lib/supabase/server";
-import { laadKlikbareBundel } from "@/lib/leerbundel";
+import { laadKlikbareBundel, puzzelPrent } from "@/lib/leerbundel";
 import { vindNiveau } from "@/lib/niveaus";
 
 /*
@@ -55,6 +55,7 @@ export default async function LeerbundelPage({
   if (!bundel) notFound();
 
   const niveau = vindNiveau(hoofdstuk.niveau);
+  const prent = puzzelPrent(vak.slug, hoofdstuk.titel);
   const terug = `/vakken/${vak.slug}/${hoofdstuk.volgnummer}`;
 
   return (
@@ -76,6 +77,7 @@ export default async function LeerbundelPage({
           bundel={bundel}
           hoofdstukId={hoofdstuk.id}
           naarOefeningen={terug}
+          prent={prent}
         />
       </main>
     </>

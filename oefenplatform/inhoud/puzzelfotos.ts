@@ -1,0 +1,129 @@
+/*
+  Gemaakt door inhoud/puzzels/bron/maak_puzzelfotos.py — niet met de hand
+  aanpassen.
+
+  De prenten voor de legpuzzel op de eindhalte, per hoofdstuk. De sleutel is
+  "<vak>/<hoofdstuk>", allebei vereenvoudigd zoals lib/slug.ts het doet. Staat
+  een hoofdstuk hier niet in, dan valt de puzzel terug op een tekening uit de
+  leerbundel.
+*/
+
+export const PUZZELFOTOS: Record<string, { url: string; verhouding: number }> =
+  {
+    "nederlands/begrijpend-lezen-de-avond-van-de-vleermuizen": {
+      "url": "/puzzels/nederlands/begrijpend-lezen-de-avond-van-de-vleermuizen.webp",
+      "verhouding": 1.5581
+    },
+    "nederlands/begrijpend-lezen-van-fles-tot-trui": {
+      "url": "/puzzels/nederlands/begrijpend-lezen-van-fles-tot-trui.webp",
+      "verhouding": 1.6651
+    },
+    "nederlands/hoofdstuk-1-spelling-voorbeeld": {
+      "url": "/puzzels/nederlands/hoofdstuk-1-spelling-voorbeeld.webp",
+      "verhouding": 1.1512
+    },
+    "nederlands/lezen-pittig": {
+      "url": "/puzzels/nederlands/lezen-pittig.webp",
+      "verhouding": 0.921
+    },
+    "nederlands/lezen": {
+      "url": "/puzzels/nederlands/lezen.webp",
+      "verhouding": 0.8522
+    },
+    "nederlands/literatuur-pittig": {
+      "url": "/puzzels/nederlands/literatuur-pittig.webp",
+      "verhouding": 1.5163
+    },
+    "nederlands/literatuur": {
+      "url": "/puzzels/nederlands/literatuur.webp",
+      "verhouding": 1.9488
+    },
+    "nederlands/schrijven-pittig": {
+      "url": "/puzzels/nederlands/schrijven-pittig.webp",
+      "verhouding": 0.9553
+    },
+    "nederlands/schrijven": {
+      "url": "/puzzels/nederlands/schrijven.webp",
+      "verhouding": 0.9863
+    },
+    "nederlands/spreken-en-luisteren-pittig": {
+      "url": "/puzzels/nederlands/spreken-en-luisteren-pittig.webp",
+      "verhouding": 1.4939
+    },
+    "nederlands/spreken-en-luisteren": {
+      "url": "/puzzels/nederlands/spreken-en-luisteren.webp",
+      "verhouding": 1.4858
+    },
+    "nederlands/taalsysteem-en-taalgebruik-pittig": {
+      "url": "/puzzels/nederlands/taalsysteem-en-taalgebruik-pittig.webp",
+      "verhouding": 1.4615
+    },
+    "nederlands/taalsysteem-en-taalgebruik": {
+      "url": "/puzzels/nederlands/taalsysteem-en-taalgebruik.webp",
+      "verhouding": 1.3725
+    },
+    "nederlands/uitdaging-alles-door-elkaar": {
+      "url": "/puzzels/nederlands/uitdaging-alles-door-elkaar.webp",
+      "verhouding": 4.2158
+    },
+    "wiskunde/bewerkingen-pittig": {
+      "url": "/puzzels/wiskunde/bewerkingen-pittig.webp",
+      "verhouding": 1.1136
+    },
+    "wiskunde/bewerkingen": {
+      "url": "/puzzels/wiskunde/bewerkingen.webp",
+      "verhouding": 0.7492
+    },
+    "wiskunde/getallenkennis-pittig": {
+      "url": "/puzzels/wiskunde/getallenkennis-pittig.webp",
+      "verhouding": 0.8317
+    },
+    "wiskunde/getallenkennis": {
+      "url": "/puzzels/wiskunde/getallenkennis.webp",
+      "verhouding": 0.9079
+    },
+    "wiskunde/kansrekenen-en-statistiek-pittig": {
+      "url": "/puzzels/wiskunde/kansrekenen-en-statistiek-pittig.webp",
+      "verhouding": 0.7662
+    },
+    "wiskunde/kansrekenen-en-statistiek": {
+      "url": "/puzzels/wiskunde/kansrekenen-en-statistiek.webp",
+      "verhouding": 0.8571
+    },
+    "wiskunde/meetkunde-pittig": {
+      "url": "/puzzels/wiskunde/meetkunde-pittig.webp",
+      "verhouding": 0.7814
+    },
+    "wiskunde/meetkunde": {
+      "url": "/puzzels/wiskunde/meetkunde.webp",
+      "verhouding": 0.8563
+    },
+    "wiskunde/meten-en-metend-rekenen-pittig": {
+      "url": "/puzzels/wiskunde/meten-en-metend-rekenen-pittig.webp",
+      "verhouding": 0.9253
+    },
+    "wiskunde/meten-en-metend-rekenen": {
+      "url": "/puzzels/wiskunde/meten-en-metend-rekenen.webp",
+      "verhouding": 0.9513
+    },
+    "wiskunde/rekenen-en-breuken-pittig": {
+      "url": "/puzzels/wiskunde/rekenen-en-breuken-pittig.webp",
+      "verhouding": 0.9302
+    },
+    "wiskunde/rekenen-en-breuken": {
+      "url": "/puzzels/wiskunde/rekenen-en-breuken.webp",
+      "verhouding": 1.5
+    },
+    "wiskunde/uitdaging-alles-door-elkaar": {
+      "url": "/puzzels/wiskunde/uitdaging-alles-door-elkaar.webp",
+      "verhouding": 0.7066
+    },
+    "wiskunde/vraagstukken-en-problemen-oplossen-pittig": {
+      "url": "/puzzels/wiskunde/vraagstukken-en-problemen-oplossen-pittig.webp",
+      "verhouding": 0.8772
+    },
+    "wiskunde/vraagstukken-en-problemen-oplossen": {
+      "url": "/puzzels/wiskunde/vraagstukken-en-problemen-oplossen.webp",
+      "verhouding": 1.0299
+    }
+  };
