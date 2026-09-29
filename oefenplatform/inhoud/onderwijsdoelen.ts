@@ -83,6 +83,8 @@ export const doelenBlokken: DoelenBlok[] = [
         naam: "Engels",
         doelen:
           "Woordenschat en de basis van de grammatica: jezelf voorstellen, to be en to have, de tegenwoordige tijd, en zinnen bouwen.",
+        stand:
+          "Engels staat niet in de minimumdoelen van het lager onderwijs. Wij zetten het er zelf bij, omdat kinderen vandaag veel vroeger met Engels in aanraking komen en een goede basis op jonge leeftijd geen kwaad kan.",
       },
     ],
   },
@@ -97,31 +99,36 @@ export const doelenBlokken: DoelenBlok[] = [
         naam: "Wiskunde",
         doelen:
           "De zeven onderdelen van de fiche: probleemoplossend denken, wiskundige redeneringen en uitspraken, getallenleer, meetkunde en metend rekenen, relaties en verandering, data en onzekerheid, en verzamelingen.",
-        stand: "Volledig: negen hoofdstukken, elk met een deel 1 en een deel 2, en bij elk een leerbundel.",
+        stand:
+          "Volledig: negen hoofdstukken, elk met een deel 1 en een deel 2, en bij elk een leerbundel.",
       },
       {
         naam: "Nederlands",
         doelen:
           "De onderdelen van de fiche: lezen en luisteren, schrijven, spreken en gesprekken, literatuur, en het taalsysteem met spelling, woordsoorten en zinsdelen.",
-        stand: "Volledig: tien thema's, elk met een deel 1 en een deel 2, en bij elk een leerbundel.",
+        stand:
+          "Volledig: tien thema's, elk met een deel 1 en een deel 2, en bij elk een leerbundel.",
       },
       {
         naam: "Natuurwetenschappen",
         doelen:
           "De onderdelen van de fiche: de wetenschappelijke methode, materie en stoffen, energie, het leven en de mens, en de aarde en het heelal.",
-        stand: "Volledig: tien thema's, elk met een deel 1 en een deel 2, en bij elk een leerbundel.",
+        stand:
+          "Volledig: tien thema's, elk met een deel 1 en een deel 2, en bij elk een leerbundel.",
       },
       {
         naam: "Geschiedenis",
         doelen:
           "De onderdelen van de fiche: het historisch referentiekader, bronnen, en de periodes van de prehistorie tot nu.",
-        stand: "Volledig: zes thema's, elk met een deel 1 en een deel 2, en bij elk een leerbundel.",
+        stand:
+          "Volledig: zes thema's, elk met een deel 1 en een deel 2, en bij elk een leerbundel.",
       },
       {
         naam: "Frans",
         doelen:
           "Alleen de schriftelijke onderdelen van de fiche: lezen, schrijven, woordenschat en grammatica, plus een foto of afbeelding beschrijven. Luisteren, spreken en de gesprekken oefen je hier niet: daar heb je geluid en een gesprekspartner voor nodig.",
-        stand: "Volledig voor het schriftelijke deel: tien thema's, elk met een deel 1 en een deel 2, en bij elk een leerbundel.",
+        stand:
+          "Volledig voor het schriftelijke deel: tien thema's, elk met een deel 1 en een deel 2, en bij elk een leerbundel.",
       },
     ],
   },
@@ -130,14 +137,26 @@ export const doelenBlokken: DoelenBlok[] = [
     niveau: "Boost — 3de en 4de middelbaar",
     emoji: "🚀",
     herkomst: "De vakfiches van de Examencommissie voor de 2de graad.",
-    vakken: [{ naam: "Alle vakken", doelen: "In opbouw.", stand: "Nog niet beschikbaar." }],
+    vakken: [
+      {
+        naam: "Alle vakken",
+        doelen: "In opbouw.",
+        stand: "Nog niet beschikbaar.",
+      },
+    ],
   },
   {
     slug: "beyond",
     niveau: "Beyond — 5de en 6de middelbaar",
     emoji: "🌍",
     herkomst: "De vakfiches van de Examencommissie voor de 3de graad.",
-    vakken: [{ naam: "Alle vakken", doelen: "In opbouw.", stand: "Nog niet beschikbaar." }],
+    vakken: [
+      {
+        naam: "Alle vakken",
+        doelen: "In opbouw.",
+        stand: "Nog niet beschikbaar.",
+      },
+    ],
   },
 ];
 

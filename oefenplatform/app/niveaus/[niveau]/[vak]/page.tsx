@@ -1,15 +1,23 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Header } from "@/components/Header";
-import { HoofdstukTegels, type HoofdstukTegel } from "@/components/HoofdstukTegels";
+import {
+  HoofdstukTegels,
+  type HoofdstukTegel,
+} from "@/components/HoofdstukTegels";
 import { getSessionProfile } from "@/lib/auth";
 import { heeftVolledigeToegang, hoofdstukToegankelijk } from "@/lib/toegang";
 import { createClient } from "@/lib/supabase/server";
-import { PRIJS_NU_EUR, TIJDELIJKE_PRIJS, TIJDELIJKE_PRIJS_KORT } from "@/lib/prijs";
+import {
+  PRIJS_NU_EUR,
+  TIJDELIJKE_PRIJS,
+  TIJDELIJKE_PRIJS_KORT,
+} from "@/lib/prijs";
 import { schooljaarEindeLabel } from "@/lib/schooljaar";
 import { vindNiveau } from "@/lib/niveaus";
 import { sorteerHoofdstukken } from "@/lib/hoofdstukvolgorde";
 import { vakIcoon } from "@/lib/vakbeeld";
+import { vindVaknoot } from "@/inhoud/vaknoten";
 
 /*
   De hoofdstukken van één vak binnen één niveau. Dit is de tweede laag knoppen:
@@ -31,22 +39,37 @@ export default async function NiveauVakPage({
 
   const { data: vak } = await supabase
     .from("vakken")
-    .select("id, naam, slug, hoofdstukken(id, titel, volgnummer, gratis, niveau)")
+    .select(
+      "id, naam, slug, hoofdstukken(id, titel, volgnummer, gratis, niveau)",
+    )
     .eq("slug", vakSlug)
     .single();
   if (!vak) notFound();
 
   const hoofdstukken = sorteerHoofdstukken(
-    (vak.hoofdstukken as { id: string; titel: string; volgnummer: number; gratis: boolean; niveau: string }[]).filter(
-      (h) => h.niveau === niveau.slug
-    )
+    (
+      vak.hoofdstukken as {
+        id: string;
+        titel: string;
+        volgnummer: number;
+        gratis: boolean;
+        niveau: string;
+      }[]
+    ).filter((h) => h.niveau === niveau.slug),
   );
   if (!hoofdstukken.length) notFound();
 
   const volledigeToegang = heeftVolledigeToegang(session?.profile ?? null);
+  // Een woordje bij dit vak, als er een is. De tekst staat in
+  // inhoud/vaknoten.ts, zodat aanpassen geen code vraagt.
+  const noot = vindVaknoot(niveau.slug, vak.slug);
 
   const { data: kinderen } = session
-    ? await supabase.from("kinderen").select("id, naam").eq("profile_id", session.userId).order("naam")
+    ? await supabase
+        .from("kinderen")
+        .select("id, naam")
+        .eq("profile_id", session.userId)
+        .order("naam")
     : { data: [] };
 
   const tegels: HoofdstukTegel[] = hoofdstukken.map((h) => ({
@@ -61,30 +84,48 @@ export default async function NiveauVakPage({
     <>
       <Header naam={session?.profile?.full_name} rol={session?.profile?.role} />
       <main className="mx-auto w-full max-w-4xl flex-1 px-6 py-10">
-        <Link href={`/niveaus/${niveau.slug}`} className="text-sm text-ink-dim hover:text-ink">
+        <Link
+          href={`/niveaus/${niveau.slug}`}
+          className="text-sm text-ink-dim hover:text-ink"
+        >
           &larr; {niveau.emoji} {niveau.naam}
         </Link>
         <h1 className="mt-2 font-display text-2xl font-semibold text-ink">
           <span aria-hidden>{vakIcoon(vak.slug)}</span> {vak.naam}
         </h1>
         <p className="mt-1 text-sm text-ink-dim">
-          {hoofdstukken.length} {hoofdstukken.length === 1 ? "hoofdstuk" : "hoofdstukken"} in{" "}
+          {hoofdstukken.length}{" "}
+          {hoofdstukken.length === 1 ? "hoofdstuk" : "hoofdstukken"} in{" "}
           {niveau.emoji} {niveau.naam}
         </p>
+
+        {noot && (
+          <p className="mt-5 rounded-xl border border-border bg-surface px-5 py-4 text-sm text-ink-dim">
+            {noot}
+          </p>
+        )}
 
         {!volledigeToegang && (
           <div className="mt-6 rounded-xl border border-amber/40 bg-amber/10 px-5 py-4 text-sm text-ink">
             Volledige toegang tot alle hoofdstukken kost{" "}
             <strong>€{PRIJS_NU_EUR} per schooljaar</strong>
-            {TIJDELIJKE_PRIJS && <> ({TIJDELIJKE_PRIJS_KORT})</>}, geldig tot en met{" "}
-            {schooljaarEindeLabel()} — de opbrengsten gaan volledig naar vzw Connectopia.{" "}
-            <Link href={session ? "/betalen" : "/registreren"} className="font-medium text-forest-dark underline-offset-2 hover:underline">
+            {TIJDELIJKE_PRIJS && <> ({TIJDELIJKE_PRIJS_KORT})</>}, geldig tot en
+            met {schooljaarEindeLabel()} — de opbrengsten gaan volledig naar vzw
+            Connectopia.{" "}
+            <Link
+              href={session ? "/betalen" : "/registreren"}
+              className="font-medium text-forest-dark underline-offset-2 hover:underline"
+            >
               {session ? "Nu vrijgeven" : "Account maken en starten"}
             </Link>
           </div>
         )}
 
-        <HoofdstukTegels vakSlug={vak.slug} hoofdstukken={tegels} kinderen={kinderen ?? []} />
+        <HoofdstukTegels
+          vakSlug={vak.slug}
+          hoofdstukken={tegels}
+          kinderen={kinderen ?? []}
+        />
       </main>
     </>
   );
