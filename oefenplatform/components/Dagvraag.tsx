@@ -3,11 +3,26 @@
 import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 import { VraagTekst } from "@/components/Figuren";
-import { haalDagvraag, type Dagvraag as DagvraagType } from "@/app/dagvraag-actions";
-import { gegevenKeuzes, heeftMeerdereAntwoorden, juisteKeuzes, schrijfKeuzes, zelfdeKeuzes } from "@/lib/antwoord";
+import {
+  haalDagvraag,
+  type Dagvraag as DagvraagType,
+} from "@/app/dagvraag-actions";
+import {
+  gegevenKeuzes,
+  heeftMeerdereAntwoorden,
+  juisteKeuzes,
+  schrijfKeuzes,
+  zelfdeKeuzes,
+} from "@/lib/antwoord";
 import { WEEKDOEL } from "@/lib/dagvraag";
 import { NIVEAUS, vindNiveau } from "@/lib/niveaus";
-import { alGedaanVandaag, leesWeekstand, tekenVandaagAf, type Weekstand } from "@/lib/weekdoel";
+import {
+  leesWeekstand,
+  noteerVraagGedaan,
+  tekenVandaagAf,
+  vraagAlGedaan,
+  type Weekstand,
+} from "@/lib/weekdoel";
 
 const NIVEAU_KEY = "oefenplatform_dagvraag_niveau";
 
@@ -56,9 +71,11 @@ export function Dagvraag() {
         setVraag(antwoord.vraag);
         setNiveaus(antwoord.niveaus);
         setGegeven(null);
-        // Wie de vraag van vandaag al deed, ziet ze meteen met het antwoord
-        // erbij. Verstoppen heeft geen zin: de dag is toch al afgetekend.
-        setGecontroleerd(alGedaanVandaag(leesWeekstand()));
+        // Wie déze vraag al deed, ziet ze meteen met het antwoord erbij.
+        // Verstoppen heeft geen zin. Maar het gaat om deze ene vraag, niet om
+        // de dag: er staat er één per categorie, en een vraag die het kind nog
+        // niet gezien heeft, hoort gewoon open te staan.
+        setGecontroleerd(vraagAlGedaan(antwoord.vraag?.id ?? ""));
       })
       .catch(() => {
         // Lukt het ophalen niet, dan blijft de startpagina gewoon zonder kader.
@@ -81,25 +98,33 @@ export function Dagvraag() {
   if (!geladen || !vraag || !stand) return null;
 
   const meerdere = heeftMeerdereAntwoorden(vraag);
-  const ingevuld = Array.isArray(gegeven) ? gegeven.length > 0 : gegeven !== null;
+  const ingevuld = Array.isArray(gegeven)
+    ? gegeven.length > 0
+    : gegeven !== null;
   const correct = gecontroleerd && isCorrect(vraag, gegeven);
-  const alGedaan = alGedaanVandaag(stand);
 
   const controleer = () => {
     setGecontroleerd(true);
+    noteerVraagGedaan(vraag.id);
+    // Het weekdoel telt dagen, geen vragen: een tweede categorie op dezelfde
+    // dag zet dus geen tweede bolletje bij.
     setStand(tekenVandaagAf(stand));
   };
 
   return (
     <section className="mt-6 rounded-xl border border-amber/40 bg-amber/5 p-5">
       <div className="flex flex-wrap items-baseline justify-between gap-2">
-        <h2 className="font-display text-lg font-semibold text-ink">☀️ De vraag van vandaag</h2>
+        <h2 className="font-display text-lg font-semibold text-ink">
+          ☀️ De vraag van vandaag
+        </h2>
         <Weekteller stand={stand} />
       </div>
 
       {niveaus.length > 1 && (
         <div className="mt-3 flex flex-wrap items-center gap-1.5">
-          <span className="mr-1 text-xs text-ink-dim">Voor welke categorie?</span>
+          <span className="mr-1 text-xs text-ink-dim">
+            Voor welke categorie?
+          </span>
           {NIVEAUS.filter((n) => niveaus.includes(n.slug)).map((n) => (
             <button
               key={n.slug}
@@ -119,7 +144,8 @@ export function Dagvraag() {
 
       <div className="mt-3 rounded-xl border border-border bg-surface p-5">
         <p className="mb-2 text-xs text-ink-dim">
-          {vindNiveau(vraag.niveau)?.emoji} {vraag.vak} &middot; {vraag.hoofdstuk}
+          {vindNiveau(vraag.niveau)?.emoji} {vraag.vak} &middot;{" "}
+          {vraag.hoofdstuk}
         </p>
 
         <VraagTekst tekst={vraag.vraag} />
@@ -142,7 +168,9 @@ export function Dagvraag() {
         {vraag.type === "meerkeuze" && (
           <div className="mt-3 space-y-2">
             {vraag.opties?.map((optie, i) => {
-              const aangeduid = meerdere ? gegevenKeuzes(gegeven).includes(i) : gegeven === i;
+              const aangeduid = meerdere
+                ? gegevenKeuzes(gegeven).includes(i)
+                : gegeven === i;
               return (
                 <label
                   key={i}
@@ -159,7 +187,9 @@ export function Dagvraag() {
                       if (!meerdere) return setGegeven(i);
                       const nu = gegevenKeuzes(gegeven);
                       setGegeven(
-                        nu.includes(i) ? nu.filter((k) => k !== i) : [...nu, i].sort((a, b) => a - b)
+                        nu.includes(i)
+                          ? nu.filter((k) => k !== i)
+                          : [...nu, i].sort((a, b) => a - b),
                       );
                     }}
                     className="accent-forest"
@@ -217,7 +247,9 @@ export function Dagvraag() {
                   ? "Juist!"
                   : "Niet helemaal juist."}
             </p>
-            {!correct && <p className="mt-1 text-ink">{juisteAntwoord(vraag)}</p>}
+            {!correct && (
+              <p className="mt-1 text-ink">{juisteAntwoord(vraag)}</p>
+            )}
             {vraag.uitleg && <p className="mt-1 text-ink">{vraag.uitleg}</p>}
           </div>
         )}
@@ -234,9 +266,11 @@ export function Dagvraag() {
         )}
       </div>
 
-      {alGedaan && (
+      {gecontroleerd && (
         <p className="mt-3 text-xs text-ink-dim">
-          Deze is voor vandaag. Morgen staat er een nieuwe.
+          {niveaus.length > 1
+            ? "Deze is voor vandaag. Kies hierboven een andere categorie voor nog een vraag, of kom morgen terug."
+            : "Deze is voor vandaag. Morgen staat er een nieuwe."}
         </p>
       )}
     </section>
@@ -280,6 +314,9 @@ function juisteAntwoord(vraag: DagvraagType): string {
     return `Juist was: ${vraag.antwoord === true ? "waar" : "niet waar"}.`;
   }
   const juist = juisteKeuzes(vraag.antwoord);
-  const voor = juist.length > 1 ? `Er waren ${juist.length} juiste antwoorden: ` : "Juist was: ";
+  const voor =
+    juist.length > 1
+      ? `Er waren ${juist.length} juiste antwoorden: `
+      : "Juist was: ";
   return `${voor}${schrijfKeuzes(vraag.opties, juist)}.`;
 }
