@@ -1,0 +1,867 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Lezen — pittig",
+      "niveau": "start",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: “Hoewel hij hard getraind had, verloor hij de wedstrijd.” Wat drukt het woord hoewel uit?",
+          "opties": [
+            "een tegenstelling",
+            "een reden waarom iets gebeurd is",
+            "een gevolg van wat ervoor stond",
+            "een opsomming van meerdere dingen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hoewel zet twee dingen tegenover elkaar die je niet samen verwacht: hard trainen en toch verliezen. Een reden zou want of omdat zijn."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een tekst met veel uitroeptekens en woorden als “nu meteen” is meestal een informatieve tekst.",
+          "antwoord": false,
+          "uitleg": "Niet waar, dat is de toon van reclame of van een oproep. Een informatieve tekst wil je iets laten weten, niet iets laten doen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Lees: “De brand was snel geblust, dankzij het snelle ingrijpen van de buren.” Welk woord geeft aan dat de buren de oorzaak zijn van dat goede einde? Antwoord met één woord.",
+          "antwoord": "dankzij",
+          "uitleg": "Dankzij geeft een oorzaak met een goede afloop. Bij een slechte afloop zou je door of wegens gebruiken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: “Steeds meer scholen kiezen voor een schooltuin. Kinderen leren er waar hun eten vandaan komt, en ze bewegen meer.” Wat is de hoofdgedachte?",
+          "opties": [
+            "schooltuinen zijn op meer dan één manier goed",
+            "kinderen van vandaag bewegen met z'n allen veel te weinig",
+            "alle scholen van het land hebben intussen een schooltuin",
+            "eten komt altijd rechtstreeks van een boerderij in de buurt"
+          ],
+          "antwoord": 0,
+          "uitleg": "De eerste zin zegt wat er gebeurt, de tweede waarom. Samen gaan ze over de voordelen. De andere antwoorden pikken er één detail uit of zeggen meer dan er staat."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Wie een tekst scant om één gegeven te vinden, leest elk woord.",
+          "antwoord": false,
+          "uitleg": "Niet waar. Bij scannend of zoekend lezen laat je je ogen over de tekst gaan tot je vindt wat je zoekt, bijvoorbeeld een cijfer of een naam."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Lees: “Het museum is gesloten op maandag, behalve tijdens de schoolvakanties.” Op welke dag is het museum tijdens de krokusvakantie wél open? Antwoord met de dag.",
+          "antwoord": "maandag",
+          "uitleg": "Behalve draait de regel om: de sluiting geldt niet in een schoolvakantie, dus dan kan je er ook op maandag terecht."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: “Volgens de fabrikant is dit het beste wasmiddel ter wereld.” Wat is dat?",
+          "opties": [
+            "een mening",
+            "een feit",
+            "een bewijs",
+            "een onderzoek"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het beste ter wereld kan je niet nameten, en wie het zegt heeft er belang bij. Een feit kan je nakijken, een mening niet."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als een website er verzorgd uitziet, klopt de informatie erop.",
+          "antwoord": false,
+          "uitleg": "Niet waar. Een mooie website maken is makkelijk. Je kijkt beter wie erachter zit, wanneer de tekst geschreven is en of er bronnen bij staan."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de lijst vooraan in een boek waarop staat op welke bladzijde elk hoofdstuk begint? Antwoord met één woord.",
+          "antwoord": "inhoudstafel",
+          "uitleg": "De inhoudstafel staat meestal vooraan. Achteraan vind je soms een register, waarin je op trefwoord zoekt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je moet in tien minuten weten waarover een boek van 300 bladzijden gaat. Wat doe je?",
+          "opties": [
+            "de achterflap, de inhoudstafel en de tussentitels",
+            "het eerste hoofdstuk van begin tot eind woord voor woord lezen",
+            "het boek van de laatste tot de eerste bladzijde doorbladeren",
+            "elk tiende woord lezen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat heet oriënterend lezen: je kijkt naar wat een boek zelf over zichzelf zegt. Eén hoofdstuk grondig lezen vertelt je nog niets over de rest."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een schrijver die zijn bronnen vermeldt, maakt zijn tekst betrouwbaarder.",
+          "antwoord": true,
+          "uitleg": "Klopt, want dan kan je zelf gaan kijken waar het vandaan komt. Zonder bronnen moet je hem op zijn woord geloven."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Lees: “Ze keek me aan met een blik die boekdelen sprak.” Zei ze veel of weinig met die blik? Antwoord met veel of weinig.",
+          "antwoord": "veel",
+          "uitleg": "Een boekdeel is een dik boek. Boekdelen spreken betekent dus: heel veel zeggen, hier zonder één woord."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: “De nieuwe fietsbrug kost 4 miljoen euro. Dat is veel te duur voor een brug.” Wat staat hier?",
+          "opties": [
+            "eerst een feit, dan een mening",
+            "twee controleerbare feiten na elkaar",
+            "twee persoonlijke meningen na elkaar",
+            "eerst een mening en daarna pas een feit"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het bedrag kan je nakijken, dus dat is een feit. Of iets te duur is, vindt iemand, en daar kan je het mee oneens zijn."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In een verslag van een voetbalwedstrijd kunnen naast feiten ook meningen staan.",
+          "antwoord": true,
+          "uitleg": "Klopt. De stand is een feit, maar “de scheidsrechter floot veel te streng” is een mening. In één tekst zitten ze vaak door elkaar."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Lees: “Zowel de bib als het zwembad is dicht.” Hoeveel gebouwen zijn er dicht? Antwoord met een getal.",
+          "antwoord": "2",
+          "uitleg": "Zowel ... als ... betekent: allebei. De bib én het zwembad, dus twee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: “Mooi werk hoor”, zuchtte de leerkracht terwijl ze naar de omgevallen verf keek. Wat bedoelt ze?",
+          "opties": [
+            "ze is niet tevreden",
+            "ze is trots",
+            "ze vindt de kleur mooi",
+            "ze wil helpen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De woorden zeggen het omgekeerde van wat ze bedoelt. Dat heet ironie, en je herkent het aan wat er rond gebeurt: de zucht en de gemorste verf."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Ironie herken je vooral aan het verschil tussen de woorden en de rest van de situatie.",
+          "antwoord": true,
+          "uitleg": "Klopt. Op zich is “mooi werk” een compliment. Pas met de omgevallen verf erbij wordt duidelijk dat het niet zo bedoeld is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom staat er bij een online artikel vaak een datum?",
+          "opties": [
+            "om te weten of het nog klopt",
+            "om de schrijver ervan te kunnen betalen voor zijn werk",
+            "om het artikel zelf een stuk korter te kunnen maken",
+            "om de titel die erboven staat aan te kondigen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Informatie veroudert. Een lijst met openingsuren of cijfers van vijf jaar geleden kan intussen helemaal anders zijn."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De hoofdgedachte van een alinea staat altijd in de eerste zin.",
+          "antwoord": false,
+          "uitleg": "Niet waar. Vaak wel, maar soms bouwt de schrijver op naar het einde, of staat ze er helemaal niet en moet je ze zelf samenvatten."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Lees: “Nadat hij gegeten had, ging hij fietsen.” Wat deed hij eerst? Antwoord met één woord.",
+          "antwoord": "eten",
+          "uitleg": "Nadat wijst naar wat ervóór gebeurde, ook al staat het in het begin van de zin. De volgorde van de zin is niet altijd de volgorde van de tijd."
+        }
+      ]
+    },
+    {
+      "titel": "Schrijven — pittig",
+      "niveau": "start",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is correct geschreven?",
+          "opties": [
+            "Hij wordt morgen vijftien.",
+            "Hij word morgen vijftien.",
+            "Hij wort morgen vijftien.",
+            "Hij wordt morgen vijftien"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij hij, zij of het krijgt de stam een t: word + t. En een zin eindigt op een punt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij ik krijgt een werkwoord in de tegenwoordige tijd nooit een t.",
+          "antwoord": true,
+          "uitleg": "Klopt: ik word, ik vind, ik antwoord. De t komt er pas bij jij, hij, zij of het."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: hij ... zijn jas aan. Gebruik het werkwoord doen in de tegenwoordige tijd, en antwoord met één woord.",
+          "antwoord": "doet",
+          "uitleg": "De stam van doen is doe, en bij hij komt er een t bij: doet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het voltooid deelwoord van verhuizen?",
+          "opties": [
+            "verhuisd",
+            "verhuist",
+            "verhuizd",
+            "verhuizt"
+          ],
+          "antwoord": 0,
+          "uitleg": "De stam is verhuis, en de z wordt een s. De laatste letter van de stam, de s, staat in 't kofschip niet, dus krijg je een d: verhuisd."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je schrijft “hij heeft geblaft” met een d op het einde.",
+          "antwoord": false,
+          "uitleg": "Niet waar, het is geblaft met een t. De stam blaf eindigt op een f, en die staat in 't kofschip."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Zet in het meervoud: de koe wordt de ... Antwoord met één woord.",
+          "antwoord": "koeien",
+          "uitleg": "Koe krijgt niet gewoon -en maar -ien: koeien. Net zoals vlo vlooien wordt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin heeft de komma's op de juiste plaats?",
+          "opties": [
+            "Na het eten, dat lang duurde, gingen we wandelen.",
+            "Na het eten dat lang duurde, gingen we wandelen.",
+            "Na het eten, dat lang duurde gingen we wandelen.",
+            "Na, het eten dat lang duurde, gingen we wandelen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Het stukje “dat lang duurde” is extra uitleg die je ook kan weglaten. Zo'n tussenzin zet je tussen twee komma's, niet tussen één."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In een formele brief gebruik je afkortingen als idd en aub beter niet.",
+          "antwoord": true,
+          "uitleg": "Klopt. In een brief aan iemand die je niet kent, schrijf je inderdaad en alstublieft voluit. Afkortingen horen bij een bericht aan een vriend."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: gisteren ... wij naar de zee. Gebruik het werkwoord gaan in de verleden tijd, en antwoord met één woord.",
+          "antwoord": "gingen",
+          "uitleg": "Gaan is een sterk werkwoord: de klinker verandert. Enkelvoud ging, meervoud gingen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin staat in de voltooid tegenwoordige tijd?",
+          "opties": [
+            "Ik heb mijn huiswerk gemaakt.",
+            "Ik maak mijn huiswerk.",
+            "Ik maakte mijn huiswerk.",
+            "Ik zal mijn huiswerk maken."
+          ],
+          "antwoord": 0,
+          "uitleg": "Voltooid tegenwoordig herken je aan hebben of zijn samen met een voltooid deelwoord: heb gemaakt. Het is af, en dat zie je nu."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een alinea mag over twee verschillende onderwerpen gaan, als ze maar kort blijft.",
+          "antwoord": false,
+          "uitleg": "Niet waar. Eén alinea is één onderwerp; dat is net waarvoor ze dient. Nieuw onderwerp betekent nieuwe alinea, kort of lang."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe schrijf je het voltooid deelwoord van fietsen? Antwoord met één woord.",
+          "antwoord": "gefietst",
+          "uitleg": "De stam is fiets en eindigt op een s, en die staat in 't kofschip. Dus ge + fiets + t."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je schrijft een verslag van een uitstap. Wat hoort niet in het besluit thuis?",
+          "opties": [
+            "de namen van alle deelnemers",
+            "wat je ervan vond",
+            "een korte samenvatting",
+            "wat je eruit geleerd hebt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een namenlijst is een gegeven, geen besluit. Die hoort vooraan of in een bijlage. Het besluit vat samen en zegt wat je ervan meeneemt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In “hij antwoordt” mag je nooit een d en een t na elkaar schrijven.",
+          "antwoord": false,
+          "uitleg": "Niet waar, hier moet het net. De stam is antwoord en eindigt al op een d; bij hij komt daar nog een t bij."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Zet in het enkelvoud: de muizen wordt de ... Antwoord met één woord.",
+          "antwoord": "muis",
+          "uitleg": "In het meervoud wordt de s een z en klinkt de klinker langer. Terug naar het enkelvoud: muis."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je schrijft een mail aan de directeur van je school. Welke aanhef past?",
+          "opties": [
+            "Beste mevrouw Peeters",
+            "Hey mevrouw, alles goed daar bij jullie?",
+            "Hallo, met mij hier, de leerling uit het vijfde",
+            "Dag Peeters, ik schrijf je even heel snel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Aan iemand die je niet goed kent schrijf je formeel: Beste of Geachte, plus mevrouw of meneer en de familienaam. De andere drie zijn spreektaal."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een opsomming in een lopende zin zet je voor het laatste deel en in plaats van een komma.",
+          "antwoord": true,
+          "uitleg": "Klopt: appels, peren en bananen. De komma's scheiden de eerste delen, en het laatste hangt eraan met en."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je maakt een plan voor een verhaal. Wat zet je in het midden?",
+          "opties": [
+            "het probleem en hoe het groeit",
+            "hoe alles goedkomt",
+            "wie de personages zijn",
+            "waar het verhaal speelt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het begin stelt voor, het midden laat het misgaan, het einde lost op. Zonder een probleem dat groeit, staat een verhaal stil."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul in: zij ... het antwoord al. Gebruik het werkwoord weten in de tegenwoordige tijd, enkelvoud, en antwoord met één woord.",
+          "antwoord": "weet",
+          "uitleg": "De stam van weten is weet. Bij zij in het enkelvoud blijft het weet, zonder extra t erachter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin staat in de gebiedende wijs?",
+          "opties": [
+            "Doe de deur dicht.",
+            "Hij doet de deur dicht.",
+            "Zij zal de deur dichtdoen.",
+            "De deur is dicht."
+          ],
+          "antwoord": 0,
+          "uitleg": "De gebiedende wijs is een bevel of een vraag om iets te doen. Je herkent hem aan de kale stam vooraan, zonder onderwerp ervoor."
+        }
+      ]
+    },
+    {
+      "titel": "Spreken en luisteren — pittig",
+      "niveau": "start",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Je houdt een spreekbeurt en merkt dat de klas afhaakt. Wat doe je het best?",
+          "opties": [
+            "een vraag stellen of een voorbeeld geven",
+            "sneller praten om sneller klaar te zijn",
+            "je tekst helemaal voorlezen",
+            "gewoon harder roepen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een vraag maakt van luisteraars deelnemers, en een voorbeeld maakt het tastbaar. Sneller of luider praten jaagt mensen juist verder weg."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een spreekbeurt voorlezen van je blad houdt de aandacht beter vast dan vertellen.",
+          "antwoord": false,
+          "uitleg": "Niet waar. Wie voorleest, kijkt naar beneden en klinkt vlak. Met kernwoorden op een kaartje vertel je, en dan kijk je je publiek aan."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: een vraag die je niet met ja of nee kan beantwoorden, noem je een ... vraag. Antwoord met één woord.",
+          "antwoord": "open",
+          "uitleg": "Een open vraag begint met wie, wat, waar, wanneer, waarom of hoe. Daar moet iemand iets over vertellen, en dat houdt een gesprek op gang."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een discussie zegt iemand: “Dat is onzin, want jij hebt er geen verstand van.” Wat is daar mis mee?",
+          "opties": [
+            "hij valt de persoon aan in plaats van het argument",
+            "hij praat te luid",
+            "hij gebruikt veel te moeilijke woorden voor de rest",
+            "hij stelt geen enkele vraag"
+          ],
+          "antwoord": 0,
+          "uitleg": "Of iemand er verstand van heeft, zegt niets over of zijn argument klopt. Je weerlegt wat er gezegd wordt, niet wie het zegt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als je iets niet verstaan hebt, vraag je het het best meteen na.",
+          "antwoord": true,
+          "uitleg": "Klopt. Wie wacht, mist ook alles wat erna komt. Even onderbreken met “sorry, wat bedoel je precies?” is beleefder dan doen alsof."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Zet je op een dia bij een presentatie de volledige tekst of enkele kernwoorden? Antwoord met één woord.",
+          "antwoord": "kernwoorden",
+          "uitleg": "Staat je hele tekst op de dia, dan leest je publiek mee en luistert het niet meer. Kernwoorden zijn een houvast, geen script."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand vertelt dat zijn hond gestorven is. Welke reactie past het best?",
+          "opties": [
+            "Wat erg, hoe gaat het met jou?",
+            "Mijn hond is ook eens ziek geweest.",
+            "Daar kan je toch niets aan doen.",
+            "Neem er gewoon een nieuwe."
+          ],
+          "antwoord": 0,
+          "uitleg": "Je erkent wat er gebeurd is en je vraagt naar hem. De andere drie schuiven het weg of maken er jouw verhaal van."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In een groepsgesprek is het aan de stilste persoon om zelf het woord te nemen.",
+          "antwoord": false,
+          "uitleg": "Niet waar, dat is aan de groep. Wie merkt dat iemand nog niets gezegd heeft, kan hem gewoon iets vragen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: laat je je stem aan het einde van een zin stijgen, dan klinkt die zin als een ... Antwoord met één woord.",
+          "antwoord": "vraag",
+          "uitleg": "Stijgen klinkt als vragen, dalen klinkt als afsluiten. Daarom klinkt iemand die alles laat stijgen alsof hij aan alles twijfelt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je moet in twee minuten iets uitleggen. Waarmee begin je?",
+          "opties": [
+            "met waar het over gaat en waarom het boeit",
+            "met alle details netjes op een rijtje gezet",
+            "met een verontschuldiging",
+            "met je naam en je klas"
+          ],
+          "antwoord": 0,
+          "uitleg": "In twee minuten heb je geen ruimte om op te bouwen. Zeg meteen waar het over gaat, dan weet je publiek waar het de rest moet hangen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Wie luistert, kan ondertussen al zijn eigen antwoord bedenken zonder iets te missen.",
+          "antwoord": false,
+          "uitleg": "Niet waar. Zodra je je antwoord aan het bouwen bent, hoor je de rest niet meer. Eerst helemaal luisteren, dan pas nadenken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen horen en luisteren?",
+          "opties": [
+            "luisteren doe je met aandacht, horen gebeurt vanzelf",
+            "horen doe je met aandacht, luisteren gebeurt vanzelf",
+            "er is geen enkel verschil",
+            "luisteren kan alleen in een gesprek"
+          ],
+          "antwoord": 0,
+          "uitleg": "Horen is wat je oren doen, ook als je er niet bij bent met je hoofd. Luisteren is wat je zelf kiest te doen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een goed argument bevat een reden, niet alleen een mening.",
+          "antwoord": true,
+          "uitleg": "Klopt. “Ik vind van niet” is een mening. “Ik vind van niet, want vorig jaar liep het mis” is een argument: er hangt een reden aan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je belt naar de sportclub. Wat zeg je het eerst?",
+          "opties": [
+            "je naam en waarvoor je belt",
+            "of ze nog plaats hebben",
+            "dat je het druk hebt",
+            "niets, je wacht gewoon af"
+          ],
+          "antwoord": 0,
+          "uitleg": "Aan de telefoon ziet niemand wie er belt. Met je naam en je reden weet de ander meteen met wie hij praat en waarover."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je stem laten dalen aan het einde van een zin maakt duidelijk dat je zin af is.",
+          "antwoord": true,
+          "uitleg": "Klopt. Dat dalen is het hoorbare punt achter je zin, en het geeft de ander het teken dat hij mag reageren."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je een beweging met je hand waarmee je iets benadrukt terwijl je spreekt? Antwoord met één woord.",
+          "antwoord": "gebaar",
+          "uitleg": "Een gebaar versterkt wat je zegt. Handen in je zakken of stil langs je lichaam maakt een spreekbeurt net vlakker."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een groepswerk is iemand het niet met je eens. Wat werkt het best?",
+          "opties": [
+            "vragen waarom hij er zo over denkt",
+            "hem overtuigen door luider te spreken",
+            "zwijgen en het later zelf doen",
+            "het meteen aan de leerkracht vertellen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Met die vraag kom je te weten wat hij weet en jij nog niet. Soms heeft hij gelijk, en anders weet je pas dan waar het echt over gaat."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Tijdens een spreekbeurt is het beleefd om voortdurend naar je blad te kijken.",
+          "antwoord": false,
+          "uitleg": "Niet waar, dat maakt het juist moeilijk om te volgen. Af en toe rondkijken houdt je publiek erbij."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: iemand die aandachtig luistert, knikt af en toe en houdt ... met de spreker. Antwoord met één woord.",
+          "antwoord": "oogcontact",
+          "uitleg": "Oogcontact laat zien dat je erbij bent. Blijf wel afwisselen: onafgebroken staren maakt het ongemakkelijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je geeft een spreekbeurt over je hobby. Wat maakt ze het levendigst?",
+          "opties": [
+            "een eigen voorwerp of foto meebrengen",
+            "meer tekst op je dia's zetten",
+            "sneller spreken",
+            "je tekst uit het hoofd opzeggen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Iets dat je kan tonen of doorgeven, maakt een verhaal echt. Meer tekst of sneller spreken doet net het omgekeerde."
+        }
+      ]
+    },
+    {
+      "titel": "Taalsysteem en taalgebruik — pittig",
+      "niveau": "start",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het lijdend voorwerp in “De juf geeft de kinderen een boek.”?",
+          "opties": [
+            "een boek",
+            "de kinderen",
+            "de juf",
+            "geeft"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vraag: wat geeft de juf? Een boek. De kinderen krijgen het, dat is het meewerkend voorwerp."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In “Mats en Lien spelen buiten” staat het onderwerp in het meervoud.",
+          "antwoord": true,
+          "uitleg": "Klopt, het onderwerp is Mats en Lien samen, dus twee. Daarom staat het werkwoord in het meervoud: spelen, niet speelt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel lettergrepen heeft het woord aardrijkskunde? Antwoord met een getal.",
+          "antwoord": "4",
+          "uitleg": "Aard-rijks-kun-de: vier keer klap je in je handen. Elke lettergreep heeft één klinkerklank."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk woord is géén samenstelling?",
+          "opties": [
+            "vriendelijk",
+            "voetbal",
+            "tandarts",
+            "huisdeur"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een samenstelling bestaat uit twee woorden die elk apart bestaan: voet + bal, tand + arts, huis + deur. Bij vriendelijk is -lijk een achtervoegsel, geen woord."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een afleiding maak je met een voor- of achtervoegsel, een samenstelling met twee losse woorden.",
+          "antwoord": true,
+          "uitleg": "Klopt. Onvriendelijk is een afleiding (on- en -lijk), voetbal is een samenstelling. Daarom is snelheid geen samenstelling: heid bestaat niet los."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het woordje de in “de hond”? Antwoord met één woord.",
+          "antwoord": "lidwoord",
+          "uitleg": "De, het en een zijn lidwoorden. Ze horen bij een zelfstandig naamwoord en staan ervoor."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het gezegde in “Mats heeft een boek gelezen.”?",
+          "opties": [
+            "heeft gelezen",
+            "een boek",
+            "Mats",
+            "gelezen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het gezegde is alles wat werkwoord is, ook als het uit elkaar staat: heeft ... gelezen. Mats is het onderwerp, een boek het lijdend voorwerp."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een bijvoeglijk naamwoord zegt iets over het werkwoord.",
+          "antwoord": false,
+          "uitleg": "Niet waar, dat doet een bijwoord. Een bijvoeglijk naamwoord zegt iets over een zelfstandig naamwoord: de snelle fiets, maar hij fietst snel."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk woordsoort is snel in de zin “Hij loopt snel.”? Antwoord met één woord.",
+          "antwoord": "bijwoord",
+          "uitleg": "Hier zegt snel iets over lopen, dus over het werkwoord: een bijwoord. In “de snelle loper” zegt het iets over de loper, en dan is het bijvoeglijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent “iets op de lange baan schuiven”?",
+          "opties": [
+            "het uitstellen",
+            "het weggooien",
+            "het versnellen",
+            "het herhalen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je schuift het voor je uit, steeds verder weg, zonder het echt af te zeggen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In “De kinderen spelen” staat het werkwoord in het enkelvoud.",
+          "antwoord": false,
+          "uitleg": "Niet waar. Het onderwerp is meervoud, dus het werkwoord ook: spelen. In het enkelvoud zou het speelt zijn."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel lettergrepen heeft het woord elektriciteit? Antwoord met een getal.",
+          "antwoord": "5",
+          "uitleg": "E-lek-tri-ci-teit: vijf. Let op de eerste, die bestaat uit één losse klinker."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke zin staat een verkleinwoord?",
+          "opties": [
+            "Ze gaf me een briefje.",
+            "Ze gaf me een brief.",
+            "Ze schreef een lange brief.",
+            "Ze las het briefpapier."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een verkleinwoord herken je aan -je, -tje, -pje of -kje erachter. Briefpapier is een samenstelling, geen verkleinwoord."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een voorzetsel staat altijd achter het woord waar het bij hoort.",
+          "antwoord": false,
+          "uitleg": "Niet waar, het staat er net voor: onder de tafel, na de les, in het bos. Vandaar de naam."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: het deel van de zin dat zegt wie of wat iets doet, heet het ... Antwoord met één woord.",
+          "antwoord": "onderwerp",
+          "uitleg": "Je vindt het onderwerp door te vragen: wie of wat plus het werkwoord. Wie blaft? De hond. Dus de hond is het onderwerp."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent “de puntjes op de i zetten”?",
+          "opties": [
+            "iets helemaal afwerken",
+            "iets snel afraffelen",
+            "iets opnieuw beginnen",
+            "iets doorgeven"
+          ],
+          "antwoord": 0,
+          "uitleg": "De puntjes zijn het laatste kleine detail dat er nog bij moet. Wie ze zet, maakt iets helemaal af."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het woord boekenkast bestaat uit twee zelfstandige naamwoorden.",
+          "antwoord": true,
+          "uitleg": "Klopt: boek en kast, met een tussen-n. Allebei bestaan ze ook los, dus het is een samenstelling."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk woord hoort niet in het rijtje: blij, boos, bang, blad?",
+          "opties": [
+            "blad",
+            "blij",
+            "boos",
+            "bang"
+          ],
+          "antwoord": 0,
+          "uitleg": "Blij, boos en bang zeggen hoe iemand zich voelt; het zijn bijvoeglijke naamwoorden. Blad is een zelfstandig naamwoord, een ding."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: een woord dat de plaats van een zelfstandig naamwoord inneemt, zoals hij of wij, heet een persoonlijk ... Antwoord met één woord.",
+          "antwoord": "voornaamwoord",
+          "uitleg": "Voornaamwoord betekent letterlijk: woord dat voor een naam staat. In plaats van “Mats loopt” zeg je “hij loopt”."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is een bevelzin?",
+          "opties": [
+            "Ruim je kamer op.",
+            "Ruim jij je kamer op?",
+            "Hij ruimt zijn kamer op.",
+            "Zijn kamer is opgeruimd."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een bevelzin heeft geen onderwerp en begint met het werkwoord. De tweede is een vraagzin, de laatste twee zijn mededelingen."
+        }
+      ]
+    },
+    {
+      "titel": "Literatuur — pittig",
+      "niveau": "start",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen een sage en een sprookje?",
+          "opties": [
+            "een sage speelt op een echte plek, een sprookje niet",
+            "een sprookje is altijd een stuk langer dan een sage",
+            "een sage rijmt altijd",
+            "er is geen verschil"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een sage hangt vast aan een bestaande stad, rivier of burcht en doet alsof het echt gebeurd is. Een sprookje speelt nergens en ooit, in een verzonnen wereld."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In een fabel gedragen dieren zich als mensen en zit er een les in.",
+          "antwoord": true,
+          "uitleg": "Klopt. De vos die de druiven niet kan krijgen en dan zegt dat ze zuur zijn, gaat niet over vossen maar over mensen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je een gesprek tussen twee personages in een verhaal of toneelstuk? Antwoord met één woord.",
+          "antwoord": "dialoog",
+          "uitleg": "Een dialoog is een gesprek tussen twee of meer personages. Praat er één in zichzelf, dan heet dat een monoloog."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Lees: “De maan lachte door het raam naar binnen.” Wat gebeurt hier?",
+          "opties": [
+            "de maan krijgt menselijke trekken",
+            "de zin bevat een rijm",
+            "de zin is een vergelijking",
+            "de zin is een feit"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een maan kan niet lachen. Een dichter laat iets dat niet leeft toch doen alsof het een mens is; dat maakt een beeld sterker dan “het was helder”."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een gedicht zonder rijm bestaat niet.",
+          "antwoord": false,
+          "uitleg": "Niet waar. Heel veel gedichten rijmen niet. Wat een gedicht maakt, is vooral het spel met klank, ritme en beelden, en de korte regels."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Lees: “Zo stil als een muis.” Welk woord maakt er een vergelijking van? Antwoord met één woord.",
+          "antwoord": "als",
+          "uitleg": "Bij een vergelijking staat er als of zoals. Zonder dat woordje wordt het een beeld: “hij was een muis”."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom eindigt een hoofdstuk soms midden in een spannend moment?",
+          "opties": [
+            "om je te doen doorlezen",
+            "omdat de schrijver moe was",
+            "omdat het boek anders te dik wordt",
+            "omdat dat nu eenmaal verplicht is"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat heet een cliffhanger. De schrijver laat je met een vraag achter, en die vraag houdt je bladzijde na bladzijde vast."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In een toneeltekst staat voor elke zin wie ze uitspreekt.",
+          "antwoord": true,
+          "uitleg": "Klopt, de naam van het personage staat ervoor. Daartussen staan de regieaanwijzingen, die zeggen wat de spelers doen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je een oud verhaal over goden en over het ontstaan van de wereld? Antwoord met één woord.",
+          "antwoord": "mythe",
+          "uitleg": "Een mythe legt uit hoe iets ontstaan is, met goden erin. Een sage is anders: die gaat over mensen en speelt op een echte plek."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is non-fictie?",
+          "opties": [
+            "teksten over dingen die echt zijn",
+            "verzonnen verhalen over verzonnen mensen",
+            "alleen gedichten",
+            "alleen stripverhalen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Non betekent niet. Non-fictie is dus alles wat niet verzonnen is: een atlas, een biografie, een boek over dieren."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De hoofdpersoon van een verhaal moet altijd een mens zijn.",
+          "antwoord": false,
+          "uitleg": "Niet waar. Een hond, een robot, een boom of zelfs een stad kan de hoofdpersoon zijn. Het gaat erom wie het verhaal draagt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Lees: “De regen roffelde op het dak.” Welk woord bootst het geluid na? Antwoord met één woord.",
+          "antwoord": "roffelde",
+          "uitleg": "In roffelen hoor je het geluid zelf, net als in klateren, sissen of bonken. Dat heet klanknabootsing."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom lees je de ballonnen van een strip van links naar rechts en van boven naar onder?",
+          "opties": [
+            "omdat wij zo lezen",
+            "omdat de tekenaar dat mooier vindt",
+            "omdat de ballonnen dan beter passen",
+            "omdat het zo gedrukt wordt"
+          ],
+          "antwoord": 0,
+          "uitleg": "De tekenaar plaatst ze zo omdat onze ogen die weg gewend zijn. In Japanse manga leest men van rechts naar links, en daar staan ze dus andersom."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een sprookje begint vaak met “er was eens” en loopt goed af.",
+          "antwoord": true,
+          "uitleg": "Klopt, dat zijn twee vaste kenmerken. Plus: geen echte plaats of tijd, vaak iets magisch, en een duidelijk goed en kwaad."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het stukje tekst dat in een lied of gedicht telkens terugkomt? Antwoord met één woord.",
+          "antwoord": "refrein",
+          "uitleg": "Het refrein keert na elke strofe terug. Juist door dat herhalen blijft het hangen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een schrijver toont je eerst de rommelige kamer van een personage, zonder iets over hem te zeggen. Wat doet ze daarmee?",
+          "opties": [
+            "ze laat je het personage zelf inschatten",
+            "ze vult gewoon bladzijden",
+            "ze wilde vooral de kamer nauwkeurig beschrijven",
+            "ze vergeet het personage"
+          ],
+          "antwoord": 0,
+          "uitleg": "Tonen in plaats van vertellen. Uit de kamer leid je zelf iets af over wie er woont, en dat blijft beter hangen dan “hij was slordig”."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een cliffhanger staat meestal aan het begin van een hoofdstuk.",
+          "antwoord": false,
+          "uitleg": "Niet waar, net op het einde. Daar laat hij je met een vraag achter, zodat je het volgende hoofdstuk begint."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk boek is fictie?",
+          "opties": [
+            "een roman over een verzonnen detective",
+            "een atlas met kaarten van de hele wereld",
+            "een kookboek",
+            "een woordenboek"
+          ],
+          "antwoord": 0,
+          "uitleg": "Fictie is verzonnen. De andere drie bevatten gegevens die je kan nakijken, dus dat is non-fictie."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een gedicht mag ook uit één enkele regel bestaan.",
+          "antwoord": true,
+          "uitleg": "Klopt, er staat geen minimum op. Er bestaan gedichten van één regel en zelfs van één woord."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het deel van een verhaal waarin het probleem opgelost raakt? Antwoord met één woord.",
+          "antwoord": "ontknoping",
+          "uitleg": "De ontknoping komt na het hoogtepunt: de knoop gaat los en je komt te weten hoe het afloopt."
+        }
+      ]
+    }
+  ]
+}
