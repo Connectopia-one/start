@@ -1,0 +1,80 @@
+{
+ "vak": "Engels",
+ "titel": "De tegenwoordige tijd",
+ "onder": "Praten over wat je altijd, vaak of nooit doet — en die lastige -s.",
+ "secties": [
+  {
+   "kop": "Wanneer gebruik je ze?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De tegenwoordige tijd gebruik je voor iets dat telkens opnieuw gebeurt, of dat gewoon waar is. <em>We watch television every evening. I live in Genk.</em>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Woorden die je waarschuwen dat je ze nodig hebt: <strong>always</strong> (altijd), <strong>often</strong> (vaak), <strong>sometimes</strong> (soms), <strong>never</strong> (nooit), <strong>every day</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De regel van de -s",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 380 128\" width=\"380\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"95.0\" y=\"16\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">I</text><text x=\"95.0\" y=\"31\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">we</text><text x=\"95.0\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">you</text><text x=\"95.0\" y=\"61\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">they</text><path d=\"M95.0 76 v12 m0 0 l-4 -5 m4 5 l4 -5\" stroke=\"#2f5d50\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"57.0\" y=\"92\" width=\"76\" height=\"30\" rx=\"8\" fill=\"#2f5d50\" /><text x=\"95.0\" y=\"112\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#ffffff\">play</text><text x=\"285.0\" y=\"16\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">he</text><text x=\"285.0\" y=\"31\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">she</text><text x=\"285.0\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">it</text><path d=\"M285.0 61 v12 m0 0 l-4 -5 m4 5 l4 -5\" stroke=\"#c17f2b\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"247.0\" y=\"77\" width=\"76\" height=\"30\" rx=\"8\" fill=\"#c17f2b\" /><text x=\"285.0\" y=\"97\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#ffffff\">plays</text></svg>",
+     "onderschrift": "Alleen bij he, she en it komt er een -s bij. Dat is de fout die het vaakst gemaakt wordt."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Eindigt het werkwoord op…</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Dan</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de meeste letters</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-s erbij</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">work → works</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-ch, -sh, -s, -x, -o</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-es erbij</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">watch → watches, go → goes</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">medeklinker + -y</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">y wordt ies</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">study → studies</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">klinker + -y</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gewoon -s</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">play → plays</td></tr></table>",
+     "onderschrift": ""
+    }
+   ]
+  },
+  {
+   "kop": "Vragen stellen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 380 128\" width=\"380\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"95.0\" y=\"16\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">I</text><text x=\"95.0\" y=\"31\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">we</text><text x=\"95.0\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">you</text><text x=\"95.0\" y=\"61\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">they</text><path d=\"M95.0 76 v12 m0 0 l-4 -5 m4 5 l4 -5\" stroke=\"#2f5d50\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"57.0\" y=\"92\" width=\"76\" height=\"30\" rx=\"8\" fill=\"#2f5d50\" /><text x=\"95.0\" y=\"112\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#ffffff\">Do …?</text><text x=\"285.0\" y=\"16\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">he</text><text x=\"285.0\" y=\"31\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">she</text><text x=\"285.0\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">it</text><path d=\"M285.0 61 v12 m0 0 l-4 -5 m4 5 l4 -5\" stroke=\"#c17f2b\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"247.0\" y=\"77\" width=\"76\" height=\"30\" rx=\"8\" fill=\"#c17f2b\" /><text x=\"285.0\" y=\"97\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#ffffff\">Does …?</text></svg>",
+     "onderschrift": "Do you like pizza? · Does he speak English?"
+    },
+    {
+     "soort": "weetje",
+     "html": "Na <strong>does</strong> valt de -s van het werkwoord weg. De -s zit dan al in does. Dus: <em>Does she like music?</em> en niet <em>Does she likes music?</em>"
+    }
+   ]
+  },
+  {
+   "kop": "Ontkennen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Ontkenning</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I / we / you / they</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">don't</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I don't like sport.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">he / she / it</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">doesn't</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">He doesn't know the answer.</td></tr></table>",
+     "onderschrift": "Ook hier: na doesn't geen -s meer aan het werkwoord."
+    },
+    {
+     "soort": "tekst",
+     "html": "Staat er al <strong>never</strong> in de zin, dan heb je geen don't meer nodig: <em>I never eat fish.</em>"
+    }
+   ]
+  },
+  {
+   "kop": "Alles op een rij",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Gewone zin</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vraag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Ontkenning</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">you</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">You play.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Do you play?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">You don't play.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">he</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">He plays.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Does he play?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">He doesn't play.</td></tr></table>",
+     "onderschrift": "Merk op dat de -s telkens maar op één plaats tegelijk staat."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Bij he, she en it komt er -s achter het werkwoord.",
+  "-ch, -sh, -s, -x en -o krijgen -es.",
+  "Medeklinker + y wordt -ies: study → studies.",
+  "Do bij I/we/you/they, does bij he/she/it.",
+  "Na does en doesn't valt de -s weg."
+ ]
+}

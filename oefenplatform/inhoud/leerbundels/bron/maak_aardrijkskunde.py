@@ -22,6 +22,9 @@ BUNDELS = {}
 
 BUNDELS["belgie-landschap-en-streken"] = dict(
     vak="Aardrijkskunde", titel="België: landschap en streken",
+    # Het hoofdstuk in het oefenplatform heet gewoon "België"; die naam staat
+    # hier zodat de klikbare bundel er toch bij gevonden wordt.
+    hoofdstukken=["België"],
     onder="Van de duinen aan zee tot het hoogste punt in de Ardennen.",
     secties=[
         dict(kop="Drie gewesten, tien provincies", blokken=[

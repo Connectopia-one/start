@@ -1,0 +1,119 @@
+{
+ "vak": "Nederlands",
+ "titel": "Spreken en luisteren",
+ "onder": "Iets vertellen zodat anderen het volgen, en luisteren zodat je het onthoudt.",
+ "secties": [
+  {
+   "kop": "Een spreekbeurt opbouwen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 166.0\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"4\" y=\"4\" width=\"462\" height=\"42\" rx=\"9\" fill=\"rgba(47,93,80,.07)\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"20\" y=\"22\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">Begin</text><text x=\"20\" y=\"38\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">zeg waarover je het gaat hebben, en waarom het boeiend is</text><rect x=\"4\" y=\"54\" width=\"462\" height=\"54\" rx=\"9\" fill=\"rgba(47,93,80,.07)\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"20\" y=\"78\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">Midden</text><text x=\"20\" y=\"94\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">drie punten, niet meer</text><rect x=\"4\" y=\"116\" width=\"462\" height=\"42\" rx=\"9\" fill=\"rgba(47,93,80,.07)\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"20\" y=\"134\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">Einde</text><text x=\"20\" y=\"150\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">herhaal je belangrijkste punt en bedank je publiek</text></svg>",
+     "onderschrift": "Drie punten onthoudt je publiek. Zeven punten onthoudt niemand, jezelf inbegrepen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Schrijf je spreekbeurt niet woord voor woord uit. Maak een kaartje met steekwoorden: dan kijk je naar je publiek in plaats van naar je blad."
+    }
+   ]
+  },
+  {
+   "kop": "Hoe je klinkt",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Doe dit</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarom</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spreek trager dan je denkt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van de zenuwen ga je vanzelf te snel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">las stiltes in</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een pauze geeft je publiek tijd om te volgen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kijk rond, maak oogcontact</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dan luistert iedereen mee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sta stil</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">heen en weer lopen leidt af</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spreek luid genoeg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vraag vooraf of ze je achteraan horen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">laat je stem dalen op het einde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zo hoort men dat je zin af is</td></tr></table>",
+     "onderschrift": ""
+    },
+    {
+     "soort": "tekst",
+     "html": "Werk je met een scherm erbij, zet dan <strong>steekwoorden en beelden</strong> op je dia's, geen volledige zinnen. Staat er een hele tekst op, dan leest je publiek mee in plaats van naar jou te luisteren, en jij staat voor te lezen wat zij al gelezen hebben."
+    },
+    {
+     "soort": "weetje",
+     "html": "Zenuwachtig zijn gaat niet weg door te oefenen, maar je wordt er wel beter in ondanks de zenuwen. Ook ervaren sprekers hebben hartkloppingen."
+    }
+   ]
+  },
+  {
+   "kop": "Goed luisteren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Luisteren is niet hetzelfde als stil zijn. Wie goed luistert, is actief bezig."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"69.7\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Kijk</text><text x=\"69.7\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">naar wie spreekt</text><path d=\"M144.33333333333334 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"165.3\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Vang</text><text x=\"235.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">de kern, niet elk woord</text><path d=\"M309.6666666666667 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"330.7\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"400.3\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Vraag</text><text x=\"400.3\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">als je iets mist</text></svg>",
+     "onderschrift": "Noteer enkel steekwoorden. Alles opschrijven betekent dat je niet meer luistert."
+    }
+   ]
+  },
+  {
+   "kop": "Een gesprek voeren",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">In een gesprek</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe dat klinkt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">laat uitspreken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wacht tot de ander klaar is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vraag door</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Hoe bedoel je dat precies?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vat samen in je eigen woorden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Dus als ik het goed begrijp…</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geef je mening beleefd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ik zie dat anders, want…</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geef toe als je iets niet weet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Dat weet ik niet, ik zoek het op.</td></tr></table>",
+     "onderschrift": "Doorvragen is het verschil tussen praten en een gesprek voeren."
+    }
+   ]
+  },
+  {
+   "kop": "Een discussie of een debat",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In een <strong>debat</strong> verdedigen twee kanten een verschillende mening. Je wint daar niet door harder te praten, maar met <strong>argumenten</strong>: redenen waarom jouw standpunt klopt."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je zegt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe dat klinkt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je standpunt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ik vind dat we…</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je argument</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">…want daardoor…</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een voorbeeld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Vorige week zag je dat: …</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oneens zijn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ik zie dat anders, want…</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">toegeven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Daar heb je gelijk in, maar…</td></tr></table>",
+     "onderschrift": "Van mening verschillen mag altijd. Iemand uitlachen of onderbreken niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een mening zonder argument is maar een uitroep. Zeg dus nooit alleen <em>dat vind ik stom</em>, maar altijd waaróm."
+    }
+   ]
+  },
+  {
+   "kop": "Gesprekken in het echt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>open vraag</strong> houdt een gesprek op gang, een gesloten vraag stopt het. <em>Hoe was het op kamp?</em> vraagt om een verhaal; <em>Was het leuk op kamp?</em> kan met ja beantwoord worden en dan is het stil."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Situatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat helpt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een telefoongesprek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zeg eerst wie je bent, de ander ziet je niet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je hebt iets niet verstaan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vraag het gerust opnieuw, dat helpt iedereen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iemand vertelt iets verdrietigs</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zeg dat je het erg vindt en laat de ander vertellen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iemand zei nog niets in de groep</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vraag wat hij ervan denkt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je wil weten of je het goed begrepen hebt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vat samen: dus als ik het goed begrijp…</td></tr></table>",
+     "onderschrift": "Bij iemand die verdriet heeft, helpt meeleven meer dan meteen een oplossing aanreiken."
+    }
+   ]
+  },
+  {
+   "kop": "Formeel en informeel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Tegen een vriend praat je anders dan tegen een directeur. Dat is geen onbeleefdheid, dat is aanvoelen waar je bent."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij iemand die je niet kent: <strong>u</strong>, volledige zinnen, geen afkortingen. Bij vrienden mag alles losser. Twijfel je, begin dan formeel; naar beneden bijstellen is makkelijker dan omgekeerd."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Drie punten in een spreekbeurt, niet meer.",
+  "Werk met steekwoorden, niet met een uitgeschreven tekst.",
+  "Spreek trager dan je denkt en las stiltes in.",
+  "Luisteren is actief: vang de kern en vraag door.",
+  "Laat de ander uitspreken.",
+  "Twijfel je over u of je? Begin formeel.",
+  "Een mening zonder argument is maar een uitroep.",
+  "Open vragen houden een gesprek op gang.",
+  "Op een dia horen steekwoorden, geen zinnen."
+ ]
+}

@@ -1,0 +1,123 @@
+{
+ "vak": "Nederlands",
+ "titel": "Schrijven",
+ "onder": "Van een leeg blad naar een tekst die iemand anders begrijpt.",
+ "secties": [
+  {
+   "kop": "Schrijven in vier stappen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"49.0\" y=\"21.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Denk</text><text x=\"49.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">voor wie schrijf je?</text><text x=\"49.0\" y=\"53.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">wat wil je zeggen?</text><path d=\"M103.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"124.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"173.0\" y=\"21.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Orden</text><text x=\"173.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">zet je ideeën</text><text x=\"173.0\" y=\"53.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">in een volgorde</text><path d=\"M227.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"248.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"297.0\" y=\"21.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Schrijf</text><text x=\"297.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">in één ruk,</text><text x=\"297.0\" y=\"53.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">zonder te schaven</text><path d=\"M351.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"372.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"421.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Herlees</text><text x=\"421.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">nu pas verbeter je</text></svg>",
+     "onderschrift": "Schrijven en verbeteren tegelijk doen is het moeilijkste wat er is. Doe het apart."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wie vastloopt, is meestal aan het schrijven en verbeteren tegelijk. Schrijf eerst alles op, hoe lelijk ook. Verbeteren komt daarna."
+    }
+   ]
+  },
+  {
+   "kop": "De opbouw van je tekst",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 166.0\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"4\" y=\"4\" width=\"462\" height=\"36\" rx=\"9\" fill=\"rgba(47,93,80,.07)\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"20\" y=\"19\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">Inleiding</text><text x=\"20\" y=\"35\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">waarover gaat het, en waarom</text><rect x=\"4\" y=\"48\" width=\"462\" height=\"66\" rx=\"9\" fill=\"rgba(47,93,80,.07)\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"20\" y=\"78\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">Midden</text><text x=\"20\" y=\"94\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">je punten, één per alinea</text><rect x=\"4\" y=\"122\" width=\"462\" height=\"36\" rx=\"9\" fill=\"rgba(47,93,80,.07)\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"20\" y=\"137\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">Slot</text><text x=\"20\" y=\"153\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">wat je onthouden wil zien</text></svg>",
+     "onderschrift": "Nieuwe gedachte? Nieuwe alinea. Dat is de hele regel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Gebruik verbindingswoorden om je lezer mee te nemen: <em>eerst, daarna, bovendien, toch, ten slotte</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Leestekens",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Teken</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wanneer</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">punt .</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">einde van een zin</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">komma ,</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een korte pauze, of bij een opsomming</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vraagteken ?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">einde van een vraag</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uitroepteken !</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij een uitroep — spaarzaam gebruiken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dubbelpunt :</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er komt een opsomming of een uitleg</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aanhalingstekens „ ”</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iemand zegt iets letterlijk</td></tr></table>",
+     "onderschrift": "Een hoofdletter na een punt, en ook bij namen, landen en talen."
+    }
+   ]
+  },
+  {
+   "kop": "Werkwoorden schrijven",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De meeste schrijffouten zitten in de werkwoorden. Twee regels lossen er al heel veel op."
+    },
+    {
+     "soort": "kader",
+     "html": "<p style='margin:0 0 5px'><strong>Tegenwoordige tijd.</strong> Ik: de stam. Jij, hij, zij, het: stam + t. Vraag je iets met <em>jij</em> erachter, dan valt die t weg: <em>Loop jij mee?</em></p><p style='margin:0'><strong>Verleden tijd.</strong> Eindigt de stam op een letter uit <strong>'t kofschip</strong> (t, k, f, s, ch, p — en x), dan wordt het <strong>-te</strong>. Anders <strong>-de</strong>. Werken → werkte. Horen → hoorde.</p>"
+    },
+    {
+     "soort": "kader",
+     "html": "<p style='margin:0 0 5px'><strong>Toekomende tijd.</strong> Die maak je met <em>zullen</em> of <em>gaan</em> plus een werkwoord: <em>ik zal komen</em>, <em>wij gaan zwemmen</em>.</p><p style='margin:0'><strong>Voltooid deelwoord.</strong> Meestal <em>ge-</em> vooraan: gewerkt, gehoord, gezien. Eindigt de stam al op een d, dan komt er géén t meer bij: antwoorden → <strong>geantwoord</strong>, niet geantwoordt.</p>"
+    },
+    {
+     "soort": "weetje",
+     "html": "Twijfel je tussen -d of -t op het einde? Zet het woord in het meervoud. <em>Hij wordt</em> → <em>zij worden</em>, dus met een d."
+    }
+   ]
+  },
+  {
+   "kop": "Meervoud maken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De meeste woorden krijgen <strong>-en</strong> of <strong>-s</strong>. Welke van de twee, dat hoor je meestal: zeg het luidop en neem wat vlot klinkt."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meestal -en</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">boek → boeken, stoel → stoelen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">soms -s</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tafel → tafels, meisje → meisjes</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-eren, bij een handvol woorden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kind → kinderen, ei → eieren, blad → bladeren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de klinker verandert</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stad → steden, schip → schepen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">open lettergreep: één medeklinker</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">raam → ramen, vuur → vuren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gesloten lettergreep: verdubbelen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pot → potten, bal → ballen</td></tr></table>",
+     "onderschrift": "De woorden op -eren zijn er maar een paar; die leer je uit het hoofd."
+    }
+   ]
+  },
+  {
+   "kop": "Een brief of een e-mail",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Wie de lezer is, bepaalt hoe je schrijft. Aan een vriend schrijf je los; aan iemand die je niet kent, of aan je leerkracht, schrijf je verzorgd. Dat is geen stijfheid, dat is rekening houden met wie het leest."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Onderdeel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Aan iemand die je niet kent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aanspreking</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Geachte mevrouw, Geachte heer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als je de naam kent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Beste mevrouw Jansen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de eerste zin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zeg meteen waarover het gaat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de aanspreekvorm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">u, en volledige zinnen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">afsluiting</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Met vriendelijke groeten, plus je naam</td></tr></table>",
+     "onderschrift": "Bij een e-mail hoort ook een onderwerpregel die in drie woorden zegt waarover het gaat."
+    },
+    {
+     "soort": "tekst",
+     "html": "Afkortingen als <em>idd</em> of <em>mss</em>, emoji en zinnen zonder hoofdletter horen thuis in een bericht aan een vriend. Twijfel je? Schrijf dan verzorgd: te beleefd valt niemand tegen."
+    }
+   ]
+  },
+  {
+   "kop": "Herlezen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Lees je tekst hardop. Struikel je over een zin, dan struikelt je lezer er ook over. Dat is de snelste test die er is."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kijk na</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vraag jezelf af</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de opbouw</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">staat alles in een logische volgorde?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de zinnen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zijn er zinnen die te lang zijn?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de werkwoorden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">klopt elke d en t?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de hoofdletters</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">begint elke zin ermee?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de lezer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">begrijpt iemand die er niets van weet dit?</td></tr></table>",
+     "onderschrift": ""
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Schrijven en verbeteren zijn twee aparte stappen.",
+  "Nieuwe gedachte, nieuwe alinea.",
+  "Tegenwoordige tijd: ik = stam, jij/hij/zij = stam + t.",
+  "'t kofschip beslist tussen -te en -de.",
+  "Twijfel over d of t? Zet het in het meervoud.",
+  "Lees je tekst hardop na.",
+  "Voltooid deelwoord: na een d komt er geen t meer bij.",
+  "Toekomende tijd maak je met zullen of gaan.",
+  "Schrijf je aan iemand die je niet kent, gebruik dan u."
+ ]
+}

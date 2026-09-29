@@ -5,7 +5,11 @@ import { Quiz } from "@/components/Quiz";
 import { getSessionProfile } from "@/lib/auth";
 import { hoofdstukToegankelijk } from "@/lib/toegang";
 import { createClient } from "@/lib/supabase/server";
-import { PRIJS_NU_EUR, TIJDELIJKE_PRIJS, TIJDELIJKE_PRIJS_KORT } from "@/lib/prijs";
+import {
+  PRIJS_NU_EUR,
+  TIJDELIJKE_PRIJS,
+  TIJDELIJKE_PRIJS_KORT,
+} from "@/lib/prijs";
 import { schooljaarEindeLabel } from "@/lib/schooljaar";
 import { vindNiveau } from "@/lib/niveaus";
 import { isTaalvak } from "@/lib/taalvak";
@@ -13,6 +17,7 @@ import { schikOpties } from "@/lib/optievolgorde";
 import { HoofdstukTabs } from "@/components/HoofdstukTabs";
 import { GeoGebraCalculator } from "@/components/GeoGebraCalculator";
 import { Leerbundel, type LeerbundelBlok } from "@/components/Leerbundel";
+import { laadKlikbareBundel } from "@/lib/leerbundel";
 import { Leestekst, type Woord } from "@/components/Leestekst";
 import { MeldingKnop } from "@/components/MeldingKnop";
 
@@ -44,12 +49,17 @@ export default async function HoofdstukPage({
 
   const niveau = vindNiveau(hoofdstuk.niveau);
 
-  const magVolledig = hoofdstukToegankelijk(hoofdstuk.gratis, session?.profile ?? null);
+  const magVolledig = hoofdstukToegankelijk(
+    hoofdstuk.gratis,
+    session?.profile ?? null,
+  );
 
   const { data: vragenRuw } = magVolledig
     ? await supabase
         .from("vragen")
-        .select("id, type, vraag, opties, antwoord, uitleg, volgnummer, afbeelding_pad")
+        .select(
+          "id, type, vraag, opties, antwoord, uitleg, volgnummer, afbeelding_pad",
+        )
         .eq("hoofdstuk_id", hoofdstuk.id)
         .order("volgnummer", { ascending: true })
     : { data: [] };
@@ -59,15 +69,23 @@ export default async function HoofdstukPage({
       // De opties krijgen hier hun volgorde, zodat het juiste antwoord niet
       // altijd bovenaan staat. Zie lib/optievolgorde.ts.
       const { afbeelding_pad, ...rest } = schikOpties(v);
-      if (!afbeelding_pad) return { ...rest, afbeeldingUrl: null as string | null };
-      if (afbeelding_pad.startsWith("http")) return { ...rest, afbeeldingUrl: afbeelding_pad };
-      const { data } = await supabase.storage.from("vraagafbeeldingen").createSignedUrl(afbeelding_pad, 3600);
+      if (!afbeelding_pad)
+        return { ...rest, afbeeldingUrl: null as string | null };
+      if (afbeelding_pad.startsWith("http"))
+        return { ...rest, afbeeldingUrl: afbeelding_pad };
+      const { data } = await supabase.storage
+        .from("vraagafbeeldingen")
+        .createSignedUrl(afbeelding_pad, 3600);
       return { ...rest, afbeeldingUrl: data?.signedUrl ?? null };
-    })
+    }),
   );
 
   const { data: kinderen } = session
-    ? await supabase.from("kinderen").select("id, naam").eq("profile_id", session.userId).order("naam")
+    ? await supabase
+        .from("kinderen")
+        .select("id, naam")
+        .eq("profile_id", session.userId)
+        .order("naam")
     : { data: [] };
 
   const { data: leerstofRijen } = magVolledig
@@ -89,18 +107,38 @@ export default async function HoofdstukPage({
   const bundel: LeerbundelBlok[] = await Promise.all(
     (bundelRijen ?? []).map(async (b) => {
       if (!b.afbeelding_pad) {
-        return { id: b.id, soort: b.soort, tekst: b.tekst, afbeeldingUrl: null };
+        return {
+          id: b.id,
+          soort: b.soort,
+          tekst: b.tekst,
+          afbeeldingUrl: null,
+        };
       }
-      const { data } = await supabase.storage.from("leerbundel").createSignedUrl(b.afbeelding_pad, 3600);
-      return { id: b.id, soort: b.soort, tekst: b.tekst, afbeeldingUrl: data?.signedUrl ?? null };
-    })
+      const { data } = await supabase.storage
+        .from("leerbundel")
+        .createSignedUrl(b.afbeelding_pad, 3600);
+      return {
+        id: b.id,
+        soort: b.soort,
+        tekst: b.tekst,
+        afbeeldingUrl: data?.signedUrl ?? null,
+      };
+    }),
   );
+
+  // De klikbare leerbundel staat in de code, niet in de databank: een hoofdstuk
+  // vindt ze aan zijn eigen titel. Voorlopig enkel 🌱 Start.
+  const klikbareBundel = magVolledig
+    ? await laadKlikbareBundel(vak.slug, hoofdstuk.titel)
+    : null;
 
   const leerstof = await Promise.all(
     (leerstofRijen ?? []).map(async (l) => {
-      const { data } = await supabase.storage.from("leerstof").createSignedUrl(l.bestandspad, 3600);
+      const { data } = await supabase.storage
+        .from("leerstof")
+        .createSignedUrl(l.bestandspad, 3600);
       return { id: l.id, titel: l.titel, url: data?.signedUrl ?? null };
-    })
+    }),
   );
 
   return (
@@ -113,7 +151,10 @@ export default async function HoofdstukPage({
           href={niveau ? `/niveaus/${niveau.slug}/${vak.slug}` : "/"}
           className="text-sm text-ink-dim hover:text-ink"
         >
-          &larr; {niveau ? `${vak.naam} in ${niveau.emoji} ${niveau.naam}` : "Categorieën"}
+          &larr;{" "}
+          {niveau
+            ? `${vak.naam} in ${niveau.emoji} ${niveau.naam}`
+            : "Categorieën"}
         </Link>
         <h1 className="mt-2 font-display text-2xl font-semibold text-ink">
           {vak.naam} — {hoofdstuk.titel}
@@ -123,9 +164,11 @@ export default async function HoofdstukPage({
           <div className="mt-8 rounded-xl border border-amber/40 bg-amber/10 px-5 py-6 text-sm text-ink">
             <p className="font-medium">Dit hoofdstuk is nog op slot.</p>
             <p className="mt-2 text-ink-dim">
-              Geef volledige toegang tot alle hoofdstukken vrij voor €{PRIJS_NU_EUR} per
-              schooljaar{TIJDELIJKE_PRIJS && <> ({TIJDELIJKE_PRIJS_KORT})</>} (geldig tot en met{" "}
-              {schooljaarEindeLabel()}), of vraag als plusklas-gezin de gratis toegangscode aan.
+              Geef volledige toegang tot alle hoofdstukken vrij voor €
+              {PRIJS_NU_EUR} per schooljaar
+              {TIJDELIJKE_PRIJS && <> ({TIJDELIJKE_PRIJS_KORT})</>} (geldig tot
+              en met {schooljaarEindeLabel()}), of vraag als plusklas-gezin de
+              gratis toegangscode aan.
             </p>
             <Link
               href={session ? "/betalen" : "/registreren"}
@@ -136,7 +179,13 @@ export default async function HoofdstukPage({
           </div>
         ) : (
           <HoofdstukTabs
-            aantalLeerstof={leerstof.length + (bundel.length ? 1 : 0)}
+            bundel={klikbareBundel}
+            hoofdstukId={hoofdstuk.id}
+            aantalLeerstof={
+              leerstof.length +
+              (bundel.length ? 1 : 0) +
+              (klikbareBundel ? 1 : 0)
+            }
             oefeningen={
               <>
                 {/* Begrijpend lezen: de tekst blijft boven de vragen staan. */}
@@ -159,26 +208,28 @@ export default async function HoofdstukPage({
             rekenmachine={vak.rekenmachine ? <GeoGebraCalculator /> : null}
             leerstof={
               <>
-              <Leerbundel blokken={bundel} />
-              <div className="mt-6 space-y-2">
-                {leerstof.map((l) =>
-                  l.url ? (
-                    <a
-                      key={l.id}
-                      href={l.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="flex items-center justify-between rounded-lg border border-border bg-surface px-4 py-3 text-sm hover:border-forest"
-                    >
-                      <span className="text-ink">📄 {l.titel}</span>
-                      <span className="text-forest-dark">Openen &rarr;</span>
-                    </a>
-                  ) : null
-                )}
-                {!leerstof.length && !bundel.length && (
-                  <p className="text-sm text-ink-dim">Er is nog geen leerstof voor dit hoofdstuk.</p>
-                )}
-              </div>
+                <Leerbundel blokken={bundel} />
+                <div className="mt-6 space-y-2">
+                  {leerstof.map((l) =>
+                    l.url ? (
+                      <a
+                        key={l.id}
+                        href={l.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center justify-between rounded-lg border border-border bg-surface px-4 py-3 text-sm hover:border-forest"
+                      >
+                        <span className="text-ink">📄 {l.titel}</span>
+                        <span className="text-forest-dark">Openen &rarr;</span>
+                      </a>
+                    ) : null,
+                  )}
+                  {!leerstof.length && !bundel.length && !klikbareBundel && (
+                    <p className="text-sm text-ink-dim">
+                      Er is nog geen leerstof voor dit hoofdstuk.
+                    </p>
+                  )}
+                </div>
               </>
             }
           />
@@ -188,7 +239,11 @@ export default async function HoofdstukPage({
             ze die aanduiden. Zo weet je meteen waar je moet ingrijpen. */}
         <MeldingKnop
           hoofdstukId={hoofdstuk.id}
-          vragen={vragen.map((v) => ({ id: v.id, volgnummer: v.volgnummer, vraag: v.vraag }))}
+          vragen={vragen.map((v) => ({
+            id: v.id,
+            volgnummer: v.volgnummer,
+            vraag: v.vraag,
+          }))}
         />
       </main>
     </>

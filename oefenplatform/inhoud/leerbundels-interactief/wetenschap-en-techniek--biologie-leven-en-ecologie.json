@@ -1,0 +1,182 @@
+{
+ "vak": "Wetenschap en techniek",
+ "titel": "Biologie: leven en ecologie",
+ "onder": "Planten, dieren, en hoe alles in de natuur met elkaar samenhangt.",
+ "secties": [
+  {
+   "kop": "Wat leeft, en wat niet",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Iets leeft als het aan alle vijf de kenmerken voldoet: het <strong>groeit</strong>, het <strong>voedt zich</strong>, het <strong>ademt</strong>, het <strong>plant zich voort</strong> en het <strong>reageert op zijn omgeving</strong>."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een vlam groeit, verbruikt zuurstof en beweegt, maar plant zich niet voort. Daarom leeft vuur niet, hoe levend het er ook uitziet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Planten leven dus ook. Een boom is een plant, net zoals gras en een paardenbloem. <strong>Schimmels</strong> zijn geen planten: ze hebben geen bladgroen en maken geen eigen voedsel. Ze vormen een eigen groep."
+    }
+   ]
+  },
+  {
+   "kop": "Een plant van dichtbij",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 340 210\" width=\"340\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M136.0 176 V62\" stroke=\"#2f5d50\" stroke-width=\"4\" stroke-linecap=\"round\"/><path d=\"M136.0 118 q-38 -22 -52 4 q34 20 52 -4\" fill=\"rgba(47,93,80,.18)\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><path d=\"M136.0 142 q38 -22 52 4 q-34 20 -52 -4\" fill=\"rgba(47,93,80,.18)\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><ellipse cx=\"152.0\" cy=\"48.0\" rx=\"11\" ry=\"8\" transform=\"rotate(0 152.0 48.0)\" fill=\"#e8b820\" stroke=\"#c17f2b\" stroke-width=\"1.4\"/><ellipse cx=\"144.0\" cy=\"61.9\" rx=\"11\" ry=\"8\" transform=\"rotate(60 144.0 61.9)\" fill=\"#e8b820\" stroke=\"#c17f2b\" stroke-width=\"1.4\"/><ellipse cx=\"128.0\" cy=\"61.9\" rx=\"11\" ry=\"8\" transform=\"rotate(120 128.0 61.9)\" fill=\"#e8b820\" stroke=\"#c17f2b\" stroke-width=\"1.4\"/><ellipse cx=\"120.0\" cy=\"48.0\" rx=\"11\" ry=\"8\" transform=\"rotate(180 120.0 48.0)\" fill=\"#e8b820\" stroke=\"#c17f2b\" stroke-width=\"1.4\"/><ellipse cx=\"128.0\" cy=\"34.1\" rx=\"11\" ry=\"8\" transform=\"rotate(240 128.0 34.1)\" fill=\"#e8b820\" stroke=\"#c17f2b\" stroke-width=\"1.4\"/><ellipse cx=\"144.0\" cy=\"34.1\" rx=\"11\" ry=\"8\" transform=\"rotate(300 144.0 34.1)\" fill=\"#e8b820\" stroke=\"#c17f2b\" stroke-width=\"1.4\"/><circle cx=\"136.0\" cy=\"48\" r=\"9\" fill=\"#c17f2b\"/><path d=\"M136.0 176 q-26 12 -34 28 M136.0 176 q26 12 34 28 M136.0 176 v26\" stroke=\"#7a5230\" stroke-width=\"2.4\" fill=\"none\" stroke-linecap=\"round\"/><text x=\"170\" y=\"48\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">bloem</text><text x=\"196\" y=\"146\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">blad</text><text x=\"158\" y=\"100\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">stengel</text><text x=\"184\" y=\"200\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">wortel</text></svg>",
+     "onderschrift": "Elk deel van de plant heeft zijn eigen taak."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Deel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarvoor het dient</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wortel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">water en voedingsstoffen opnemen, en de plant vasthouden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stengel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alles rechthouden en het water naar boven brengen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">blad</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zonlicht opvangen en voedsel maken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bloem</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zaadjes maken, met hulp van insecten of de wind</td></tr></table>",
+     "onderschrift": ""
+    },
+    {
+     "soort": "tekst",
+     "html": "In het blad maakt de plant zelf haar voedsel. Dat heet <strong>fotosynthese</strong>: uit <strong>licht</strong>, <strong>water</strong> en <strong>koolstofdioxide</strong> maakt ze suiker, en daarbij komt <strong>zuurstof</strong> vrij. Foto betekent licht, synthese betekent samenstellen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat is precies omgekeerd aan wat wij doen bij het ademen. Zonder planten zou er geen zuurstof in de lucht zitten."
+    }
+   ]
+  },
+  {
+   "kop": "Bloemen, bestuiving en zaden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij de <strong>bestuiving</strong> komt stuifmeel van de meeldraden op de stamper terecht. Pas daarna kunnen er zaadjes en vruchten groeien. Insecten doen dat werk, vooral <strong>bijen</strong>, en bij sommige planten de wind."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarna moet het zaad weg van de moederplant, anders staan ze elkaar in de weg. Planten laten hun zaden meereizen met de <strong>wind</strong> (een paardenbloem), met <strong>water</strong>, of met <strong>dieren</strong>: een klit haakt vast in een vacht, en een vogel eet een bes en poept de pit verderop weer uit."
+    },
+    {
+     "soort": "weetje",
+     "html": "Verdwijnen de bijen, dan worden veel planten niet meer bestoven, en komen er dus ook minder vruchten. Een derde van ons voedsel hangt aan bestuivers vast."
+    }
+   ]
+  },
+  {
+   "kop": "Dieren indelen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De eerste vraag die een bioloog stelt is: heeft het dier een <strong>ruggengraat</strong>? Dieren mét ruggengraat heten <strong>gewervelde</strong> dieren, dieren zonder heten ongewerveld. Insecten, spinnen, wormen en slakken zijn ongewerveld."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Groep</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waaraan je ze herkent</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zoogdieren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">haren, jongen drinken melk bij de moeder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hond, vleermuis, walvis</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vogels</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">veren, snavel, leggen eieren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mus, struisvogel, pinguïn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vissen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schubben, kieuwen, leven in water</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">karper, haai</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">reptielen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">droge huid met schubben, koudbloedig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hagedis, slang, schildpad</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">amfibieën</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eerst in het water, later ook op het land</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kikker, salamander</td></tr></table>",
+     "onderschrift": "Alleen vogels hebben veren. Vleugels heeft een vleermuis ook, en eieren legt bijna iedereen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Niet alle vogels vliegen: een struisvogel loopt en een pinguïn zwemt met zijn vleugels. En een <strong>spin is geen insect</strong>: een insect heeft zes poten en drie lichaamsdelen, een spin acht poten en twee."
+    }
+   ]
+  },
+  {
+   "kop": "Groeien en veranderen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Sommige dieren veranderen volledig van vorm tijdens hun leven. Dat heet een <strong>gedaanteverwisseling</strong> of metamorfose."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><text x=\"49.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Eitje</text><path d=\"M103.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#c17f2b\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"124.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><text x=\"173.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Rups</text><path d=\"M227.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#c17f2b\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"248.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><text x=\"297.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Pop</text><path d=\"M351.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#c17f2b\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"372.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><text x=\"421.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Vlinder</text></svg>",
+     "onderschrift": "Bij een kikker gaat het net zo: eitje, dikkopje, kikker."
+    }
+   ]
+  },
+  {
+   "kop": "Aangepast aan de seizoenen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In de winter is er weinig licht en weinig voedsel. Elk dier en elke plant heeft daar zijn eigen oplossing voor."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Oplossing</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wie het doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarom het werkt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bladeren laten vallen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">loofbomen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen verdamping als er weinig water opneembaar is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">winterslaap</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">egel, vleermuis, marmot</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lichaam koelt af, hart klopt trager, bijna geen voedsel nodig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wegtrekken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zwaluw, ooievaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in het zuiden zijn er in de winter nog insecten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">blijven en zaden eten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mees, merel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zaden en bessen zijn er ook in de winter</td></tr></table>",
+     "onderschrift": ""
+    },
+    {
+     "soort": "tekst",
+     "html": "Er is nog een aanpassing die het hele jaar meespeelt: <strong>camouflage</strong>. Een kleur of vorm waardoor een dier opgaat in zijn omgeving. Een rups die op een takje lijkt, wordt niet opgegeten; een sneeuwhaas die wit wordt, wordt niet gezien."
+    }
+   ]
+  },
+  {
+   "kop": "Voedselketens en voedselwebben",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In de natuur eet alles van iets anders. Zo'n rij noem je een <strong>voedselketen</strong>, en ze begint altijd bij een plant, want alleen planten maken hun eigen voedsel. Zij heten de <strong>producenten</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"69.7\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Gras</text><text x=\"69.7\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">maakt zelf voedsel</text><path d=\"M144.33333333333334 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"165.3\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Konijn</text><text x=\"235.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">eet planten</text><path d=\"M309.6666666666667 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"330.7\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"400.3\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Vos</text><text x=\"400.3\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">eet dieren</text></svg>",
+     "onderschrift": "De pijl wijst naar wie eet. Gras → konijn → vos."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het dier eet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">herbivoor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alleen planten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">konijn, koe, rups</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">carnivoor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alleen vlees</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vos, leeuw, havik</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">omnivoor of alleseter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">planten én vlees</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mens, beer, varken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">afbreker</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dode resten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schimmel, bacterie, pissebed, regenworm</td></tr></table>",
+     "onderschrift": "Zonder afbrekers zou een bos onder zijn eigen bladeren bedolven raken."
+    },
+    {
+     "soort": "tekst",
+     "html": "In het echt eet bijna geen enkel dier maar één ding. Alle ketens haken dus in elkaar, en samen vormen ze een <strong>voedselweb</strong>. Verdwijnt één schakel, dan voelt de rest dat ook."
+    }
+   ]
+  },
+  {
+   "kop": "Ecosysteem en biodiversiteit",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De plaats waar een dier leeft met alles wat het nodig heeft, heet zijn <strong>habitat</strong> of leefgebied. Een <strong>ecosysteem</strong> is ruimer: alles wat in één gebied samenleeft, samen met de bodem, het water en het weer. Een vijver, een bos en een duin zijn ecosystemen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Biodiversiteit</strong> is hoeveel verschillende soorten er in zo'n gebied leven. Het gaat om de verscheidenheid, niet om het aantal: honderd konijnen zijn minder divers dan tien verschillende soorten."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat is meer dan een mooi cijfer. Leven er veel soorten, dan kan de natuur een tegenslag beter opvangen: valt er één weg, dan zijn er andere die haar taak overnemen. Bij weinig soorten stort de boel veel sneller in."
+    },
+    {
+     "soort": "weetje",
+     "html": "Uitgestorven is voorgoed. Van een soort waarvan het laatste dier dood is, komt er nooit meer één bij. Daarom proberen mensen soorten te beschermen vóór het zover komt."
+    }
+   ]
+  },
+  {
+   "kop": "Zorg dragen voor de natuur",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Regenwormen</strong> maken gangen in de grond, zodat er lucht en water bij de wortels raakt, en ze trekken bladeren de grond in. Een boswachter laat <strong>dood hout</strong> liggen om dezelfde reden: er leven insecten en schimmels in die het afbreken tot voeding voor de bodem."
+    },
+    {
+     "soort": "tekst",
+     "html": "In je eigen tuin werkt hetzelfde. Bloemen laten bloeien, een hoekje laten verwilderen, een takkenhoop laten liggen en wat water zetten is voor insecten en vogels meer waard dan een perfect kortgemaaid gazon."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Leven betekent: groeien, voeden, ademen, voortplanten en reageren.",
+  "Bij de fotosynthese maakt het blad suiker uit licht, water en koolstofdioxide, en komt zuurstof vrij.",
+  "Bij de bestuiving komt stuifmeel van de meeldraden op de stamper.",
+  "Gewervelde dieren hebben een ruggengraat. Insecten hebben 6 poten, spinnen 8.",
+  "Alleen vogels hebben veren, en niet alle vogels vliegen.",
+  "Een voedselketen begint altijd bij een plant; de pijl wijst naar wie eet.",
+  "Herbivoor eet planten, carnivoor vlees, omnivoor allebei; afbrekers eten dode resten.",
+  "Biodiversiteit is hoeveel verschillende soorten er leven — en dat maakt de natuur sterker.",
+  "In een ecosysteem hangt alles aan elkaar vast."
+ ]
+}

@@ -1,0 +1,207 @@
+{
+ "vak": "Wetenschap en techniek",
+ "titel": "Natuurkunde: licht, geluid en elektriciteit",
+ "onder": "Drie dingen die je niet kan vastpakken, en die toch overal zijn.",
+ "secties": [
+  {
+   "kop": "Licht gaat rechtdoor",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Licht verplaatst zich in <strong>rechte lijnen</strong>. Precies daarom krijg je een schaduw: het licht kan niet om een voorwerp heen buigen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 226\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"404\" y=\"24\" width=\"14\" height=\"168\" rx=\"3\" fill=\"#d9cfb8\" stroke=\"#234539\" stroke-width=\"1.4\"/><line x1=\"56\" y1=\"112\" x2=\"404\" y2=\"72.2\" stroke=\"#c17f2b\" stroke-width=\"1.4\"/><line x1=\"56\" y1=\"112\" x2=\"404\" y2=\"151.8\" stroke=\"#c17f2b\" stroke-width=\"1.4\"/><line x1=\"56\" y1=\"112\" x2=\"404\" y2=\"47.4\" stroke=\"#c17f2b\" stroke-width=\"1.2\" opacity=\"0.45\"/><line x1=\"56\" y1=\"112\" x2=\"404\" y2=\"176.6\" stroke=\"#c17f2b\" stroke-width=\"1.2\" opacity=\"0.45\"/><rect x=\"404\" y=\"72.2\" width=\"14\" height=\"79.5\" fill=\"#234539\"/><rect x=\"178\" y=\"96\" width=\"18\" height=\"32\" rx=\"3\" fill=\"#2f5d50\" stroke=\"#234539\" stroke-width=\"1.4\"/><circle cx=\"56\" cy=\"112\" r=\"13\" fill=\"#c17f2b\"/><line x1=\"72.0\" y1=\"112.0\" x2=\"78.0\" y2=\"112.0\" stroke=\"#c17f2b\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"67.3\" y1=\"123.3\" x2=\"71.6\" y2=\"127.6\" stroke=\"#c17f2b\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"56.0\" y1=\"128.0\" x2=\"56.0\" y2=\"134.0\" stroke=\"#c17f2b\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"44.7\" y1=\"123.3\" x2=\"40.4\" y2=\"127.6\" stroke=\"#c17f2b\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"40.0\" y1=\"112.0\" x2=\"34.0\" y2=\"112.0\" stroke=\"#c17f2b\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"44.7\" y1=\"100.7\" x2=\"40.4\" y2=\"96.4\" stroke=\"#c17f2b\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"56.0\" y1=\"96.0\" x2=\"56.0\" y2=\"90.0\" stroke=\"#c17f2b\" stroke-width=\"2\" stroke-linecap=\"round\"/><line x1=\"67.3\" y1=\"100.7\" x2=\"71.6\" y2=\"96.4\" stroke=\"#c17f2b\" stroke-width=\"2\" stroke-linecap=\"round\"/><text x=\"56.0\" y=\"202.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">lichtbron</text><text x=\"187.0\" y=\"202.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">voorwerp</text><text x=\"411.0\" y=\"202.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">scherm</text><rect x=\"345.4\" y=\"105.5\" width=\"46.6\" height=\"16.5\" rx=\"4\" fill=\"#ffffff\" opacity=\"0.88\"/><text x=\"392.0\" y=\"115.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#234539\">schaduw</text></svg>",
+     "onderschrift": "Staat het voorwerp dichter bij de lamp, dan houdt het een breder deel van de bundel tegen en wordt de schaduw groter."
+    },
+    {
+     "soort": "tekst",
+     "html": "Niet alles wat licht geeft, is een <strong>lichtbron</strong>. De zon en een lamp maken zelf licht. De maan, een spiegel en een witte muur niet: die kaatsen het licht van iets anders terug."
+    },
+    {
+     "soort": "weetje",
+     "html": "Licht gaat ongeveer 300 000 kilometer per seconde. Het licht van de zon doet er zo'n acht minuten over om bij ons te raken. Niets gaat sneller dan licht."
+    }
+   ]
+  },
+  {
+   "kop": "Weerkaatsing",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 192\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"86\" y1=\"150\" x2=\"384\" y2=\"150\" stroke=\"#234539\" stroke-width=\"3\"/><line x1=\"90\" y1=\"150\" x2=\"82\" y2=\"162\" stroke=\"#6b7260\" stroke-width=\"1.1\"/><line x1=\"104\" y1=\"150\" x2=\"96\" y2=\"162\" stroke=\"#6b7260\" stroke-width=\"1.1\"/><line x1=\"118\" y1=\"150\" x2=\"110\" y2=\"162\" stroke=\"#6b7260\" stroke-width=\"1.1\"/><line x1=\"132\" y1=\"150\" x2=\"124\" y2=\"162\" stroke=\"#6b7260\" stroke-width=\"1.1\"/><line x1=\"146\" y1=\"150\" x2=\"138\" y2=\"162\" stroke=\"#6b7260\" stroke-width=\"1.1\"/><line x1=\"160\" y1=\"150\" x2=\"152\" y2=\"162\" stroke=\"#6b7260\" stroke-width=\"1.1\"/><line x1=\"174\" y1=\"150\" x2=\"166\" y2=\"162\" stroke=\"#6b7260\" stroke-width=\"1.1\"/><line x1=\"188\" y1=\"150\" x2=\"180\" y2=\"162\" stroke=\"#6b7260\" stroke-width=\"1.1\"/><line x1=\"202\" y1=\"150\" x2=\"194\" y2=\"162\" stroke=\"#6b7260\" stroke-width=\"1.1\"/><line x1=\"216\" y1=\"150\" x2=\"208\" y2=\"162\" stroke=\"#6b7260\" stroke-width=\"1.1\"/><line x1=\"230\" y1=\"150\" x2=\"222\" y2=\"162\" stroke=\"#6b7260\" stroke-width=\"1.1\"/><line x1=\"244\" y1=\"150\" x2=\"236\" y2=\"162\" stroke=\"#6b7260\" stroke-width=\"1.1\"/><line x1=\"258\" y1=\"150\" x2=\"250\" y2=\"162\" stroke=\"#6b7260\" stroke-width=\"1.1\"/><line x1=\"272\" y1=\"150\" x2=\"264\" y2=\"162\" stroke=\"#6b7260\" stroke-width=\"1.1\"/><line x1=\"286\" y1=\"150\" x2=\"278\" y2=\"162\" stroke=\"#6b7260\" stroke-width=\"1.1\"/><line x1=\"300\" y1=\"150\" x2=\"292\" y2=\"162\" stroke=\"#6b7260\" stroke-width=\"1.1\"/><line x1=\"314\" y1=\"150\" x2=\"306\" y2=\"162\" stroke=\"#6b7260\" stroke-width=\"1.1\"/><line x1=\"328\" y1=\"150\" x2=\"320\" y2=\"162\" stroke=\"#6b7260\" stroke-width=\"1.1\"/><line x1=\"342\" y1=\"150\" x2=\"334\" y2=\"162\" stroke=\"#6b7260\" stroke-width=\"1.1\"/><line x1=\"356\" y1=\"150\" x2=\"348\" y2=\"162\" stroke=\"#6b7260\" stroke-width=\"1.1\"/><line x1=\"370\" y1=\"150\" x2=\"362\" y2=\"162\" stroke=\"#6b7260\" stroke-width=\"1.1\"/><text x=\"384.0\" y=\"176.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">de spiegel</text><line x1=\"235\" y1=\"150\" x2=\"235\" y2=\"46\" stroke=\"#6b7260\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><text x=\"241.0\" y=\"52.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">loodlijn</text><line x1=\"115\" y1=\"60\" x2=\"235\" y2=\"150\" stroke=\"#c17f2b\" stroke-width=\"2.6\"/><line x1=\"235\" y1=\"150\" x2=\"355\" y2=\"60\" stroke=\"#c17f2b\" stroke-width=\"2.6\"/><polygon points=\"0,-5 11,0 0,5\" fill=\"#c17f2b\" transform=\"translate(178,106) rotate(36.9)\"/><polygon points=\"0,-5 11,0 0,5\" fill=\"#c17f2b\" transform=\"translate(296,104) rotate(-36.9)\"/><text x=\"112.0\" y=\"48.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#234539\">invallende straal</text><text x=\"358.0\" y=\"48.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#234539\">teruggekaatste straal</text><path d=\"M207.8 129.5 A 34 34 0 0 1 235 116\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"214.5\" y=\"111.8\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#2f5d50\">hoek</text><path d=\"M262.2 129.5 A 34 34 0 0 0 235 116\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"255.5\" y=\"111.8\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#2f5d50\">hoek</text></svg>",
+     "onderschrift": "De hoek waaronder het licht aankomt, is precies de hoek waaronder het weer vertrekt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Waarom zie je jezelf wel in een spiegel en niet in een witte muur? Een spiegel is zo glad dat alle stralen netjes in dezelfde richting terugkaatsen. Een ruwe muur strooit het licht alle kanten op: je ziet hem wel, maar er staat geen beeld in."
+    }
+   ]
+  },
+  {
+   "kop": "Breking en lenzen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 212\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"156\" y=\"46\" width=\"160\" height=\"154\" rx=\"6\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.8\"/><rect x=\"158\" y=\"100\" width=\"156\" height=\"98\" rx=\"4\" fill=\"#5b93b8\" opacity=\"0.32\"/><line x1=\"158\" y1=\"100\" x2=\"314\" y2=\"100\" stroke=\"#5b93b8\" stroke-width=\"2\"/><text x=\"326.0\" y=\"104.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">wateroppervlak</text><line x1=\"306\" y1=\"26\" x2=\"252\" y2=\"100\" stroke=\"#c17f2b\" stroke-width=\"9\" stroke-linecap=\"round\"/><line x1=\"252\" y1=\"100\" x2=\"230\" y2=\"192\" stroke=\"#c17f2b\" stroke-width=\"9\" stroke-linecap=\"round\"/><circle cx=\"252\" cy=\"100\" r=\"4\" fill=\"#234539\"/><line x1=\"150\" y1=\"74\" x2=\"242\" y2=\"96\" stroke=\"#6b7260\" stroke-width=\"1.1\"/><text x=\"146.0\" y=\"76.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#234539\">hier lijkt het geknikt</text></svg>",
+     "onderschrift": "Het rietje is kaarsrecht. Het licht verandert van richting waar het het water verlaat, en dus zie je een knik."
+    },
+    {
+     "soort": "tekst",
+     "html": "Datzelfde verschijnsel maakt een zwembad ondieper dan het is. En het is ook wat een <strong>lens</strong> doet: die buigt lichtstralen zodat je iets groter of scherper ziet. In je oog zit er ook een; werkt die niet helemaal goed, dan helpt een bril de stralen op de juiste plek samen te brengen."
+    },
+    {
+     "soort": "weetje",
+     "html": "Kijk <strong>nooit</strong> met een verrekijker of telescoop naar de zon. Die bundelt het zonlicht en kan je ogen in één seconde blijvend beschadigen."
+    }
+   ]
+  },
+  {
+   "kop": "Kleuren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Wit licht is een <strong>mengsel van alle kleuren</strong>. Laat je het door een prisma vallen, dan splitst het in de kleuren van de regenboog. Regendruppels doen precies hetzelfde, en dan zie je een regenboog aan de hemel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Gras ziet er groen uit omdat het het groene licht <strong>terugkaatst</strong> en de andere kleuren opslikt. De kleur die je ziet, is dus net de kleur die een voorwerp niet houdt. Iets zwarts slikt bijna alles op, en wordt daarom warm in de zon."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort materiaal</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het met licht doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">doorzichtig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">licht gaat erdoor, je ziet het beeld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">helder glas, water</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">doorschijnend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">licht gaat erdoor, maar het beeld niet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">melkglas, vetvrij papier</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ondoorzichtig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">licht wordt tegengehouden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een muur, hout, je hand</td></tr></table>",
+     "onderschrift": ""
+    }
+   ]
+  },
+  {
+   "kop": "Geluid is trilling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Geluid ontstaat doordat iets <strong>trilt</strong>. Leg je hand op je keel terwijl je praat, dan voel je het. Bij een trommel trilt het strakke vel, bij een gitaar de snaar, bij een fluit de lucht in de buis."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 238\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"227.0\" height=\"220\" rx=\"10\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><text x=\"113.5\" y=\"26.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2f5d50\">hoog of laag</text><rect x=\"243.0\" y=\"6\" width=\"227.0\" height=\"220\" rx=\"10\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><text x=\"356.5\" y=\"26.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2f5d50\">luid of zacht</text><line x1=\"18\" y1=\"76\" x2=\"209.0\" y2=\"76\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><polyline points=\"18.0,76.0 19.2,74.7 20.4,73.3 21.6,72.0 22.8,70.7 24.0,69.5 25.2,68.3 26.4,67.1 27.6,66.0 28.7,65.0 29.9,64.0 31.1,63.1 32.3,62.2 33.5,61.5 34.7,60.9 35.9,60.3 37.1,59.8 38.3,59.5 39.5,59.2 40.7,59.1 41.9,59.0 43.1,59.1 44.3,59.2 45.5,59.5 46.6,59.8 47.8,60.3 49.0,60.9 50.2,61.5 51.4,62.2 52.6,63.1 53.8,64.0 55.0,65.0 56.2,66.0 57.4,67.1 58.6,68.3 59.8,69.5 61.0,70.7 62.2,72.0 63.4,73.3 64.6,74.7 65.8,76.0 66.9,77.3 68.1,78.7 69.3,80.0 70.5,81.3 71.7,82.5 72.9,83.7 74.1,84.9 75.3,86.0 76.5,87.0 77.7,88.0 78.9,88.9 80.1,89.8 81.3,90.5 82.5,91.1 83.7,91.7 84.8,92.2 86.0,92.5 87.2,92.8 88.4,92.9 89.6,93.0 90.8,92.9 92.0,92.8 93.2,92.5 94.4,92.2 95.6,91.7 96.8,91.1 98.0,90.5 99.2,89.8 100.4,88.9 101.6,88.0 102.8,87.0 104.0,86.0 105.1,84.9 106.3,83.7 107.5,82.5 108.7,81.3 109.9,80.0 111.1,78.7 112.3,77.3 113.5,76.0 114.7,74.7 115.9,73.3 117.1,72.0 118.3,70.7 119.5,69.5 120.7,68.3 121.9,67.1 123.0,66.0 124.2,65.0 125.4,64.0 126.6,63.1 127.8,62.2 129.0,61.5 130.2,60.9 131.4,60.3 132.6,59.8 133.8,59.5 135.0,59.2 136.2,59.1 137.4,59.0 138.6,59.1 139.8,59.2 141.0,59.5 142.2,59.8 143.3,60.3 144.5,60.9 145.7,61.5 146.9,62.2 148.1,63.1 149.3,64.0 150.5,65.0 151.7,66.0 152.9,67.1 154.1,68.3 155.3,69.5 156.5,70.7 157.7,72.0 158.9,73.3 160.1,74.7 161.2,76.0 162.4,77.3 163.6,78.7 164.8,80.0 166.0,81.3 167.2,82.5 168.4,83.7 169.6,84.9 170.8,86.0 172.0,87.0 173.2,88.0 174.4,88.9 175.6,89.8 176.8,90.5 178.0,91.1 179.2,91.7 180.3,92.2 181.5,92.5 182.7,92.8 183.9,92.9 185.1,93.0 186.3,92.9 187.5,92.8 188.7,92.5 189.9,92.2 191.1,91.7 192.3,91.1 193.5,90.5 194.7,89.8 195.9,88.9 197.1,88.0 198.3,87.0 199.4,86.0 200.6,84.9 201.8,83.7 203.0,82.5 204.2,81.3 205.4,80.0 206.6,78.7 207.8,77.3 209.0,76.0\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><text x=\"113.5\" y=\"118.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#234539\">lage toon</text><line x1=\"18\" y1=\"158\" x2=\"209.0\" y2=\"158\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><polyline points=\"18.0,158.0 19.2,154.0 20.4,150.3 21.6,147.0 22.8,144.2 24.0,142.3 25.2,141.2 26.4,141.1 27.6,141.8 28.7,143.5 29.9,146.0 31.1,149.1 32.3,152.7 33.5,156.7 34.7,160.7 35.9,164.5 37.1,168.0 38.3,170.9 39.5,173.1 40.7,174.5 41.9,175.0 43.1,174.5 44.3,173.1 45.5,170.9 46.6,168.0 47.8,164.5 49.0,160.7 50.2,156.7 51.4,152.7 52.6,149.1 53.8,146.0 55.0,143.5 56.2,141.8 57.4,141.1 58.6,141.2 59.8,142.3 61.0,144.2 62.2,147.0 63.4,150.3 64.6,154.0 65.8,158.0 66.9,162.0 68.1,165.7 69.3,169.0 70.5,171.8 71.7,173.7 72.9,174.8 74.1,174.9 75.3,174.2 76.5,172.5 77.7,170.0 78.9,166.9 80.1,163.3 81.3,159.3 82.5,155.3 83.7,151.5 84.8,148.0 86.0,145.1 87.2,142.9 88.4,141.5 89.6,141.0 90.8,141.5 92.0,142.9 93.2,145.1 94.4,148.0 95.6,151.5 96.8,155.3 98.0,159.3 99.2,163.3 100.4,166.9 101.6,170.0 102.8,172.5 104.0,174.2 105.1,174.9 106.3,174.8 107.5,173.7 108.7,171.8 109.9,169.0 111.1,165.7 112.3,162.0 113.5,158.0 114.7,154.0 115.9,150.3 117.1,147.0 118.3,144.2 119.5,142.3 120.7,141.2 121.9,141.1 123.0,141.8 124.2,143.5 125.4,146.0 126.6,149.1 127.8,152.7 129.0,156.7 130.2,160.7 131.4,164.5 132.6,168.0 133.8,170.9 135.0,173.1 136.2,174.5 137.4,175.0 138.6,174.5 139.8,173.1 141.0,170.9 142.2,168.0 143.3,164.5 144.5,160.7 145.7,156.7 146.9,152.7 148.1,149.1 149.3,146.0 150.5,143.5 151.7,141.8 152.9,141.1 154.1,141.2 155.3,142.3 156.5,144.2 157.7,147.0 158.9,150.3 160.1,154.0 161.2,158.0 162.4,162.0 163.6,165.7 164.8,169.0 166.0,171.8 167.2,173.7 168.4,174.8 169.6,174.9 170.8,174.2 172.0,172.5 173.2,170.0 174.4,166.9 175.6,163.3 176.8,159.3 178.0,155.3 179.2,151.5 180.3,148.0 181.5,145.1 182.7,142.9 183.9,141.5 185.1,141.0 186.3,141.5 187.5,142.9 188.7,145.1 189.9,148.0 191.1,151.5 192.3,155.3 193.5,159.3 194.7,163.3 195.9,166.9 197.1,170.0 198.3,172.5 199.4,174.2 200.6,174.9 201.8,174.8 203.0,173.7 204.2,171.8 205.4,169.0 206.6,165.7 207.8,162.0 209.0,158.0\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><text x=\"113.5\" y=\"200.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#234539\">hoge toon</text><line x1=\"261.0\" y1=\"76\" x2=\"452.0\" y2=\"76\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><polyline points=\"261.0,76.0 262.2,74.7 263.4,73.5 264.6,72.4 265.8,71.3 267.0,70.3 268.2,69.5 269.4,68.9 270.6,68.4 271.7,68.1 272.9,68.0 274.1,68.1 275.3,68.4 276.5,68.9 277.7,69.5 278.9,70.3 280.1,71.3 281.3,72.4 282.5,73.5 283.7,74.7 284.9,76.0 286.1,77.3 287.3,78.5 288.5,79.6 289.6,80.7 290.8,81.7 292.0,82.5 293.2,83.1 294.4,83.6 295.6,83.9 296.8,84.0 298.0,83.9 299.2,83.6 300.4,83.1 301.6,82.5 302.8,81.7 304.0,80.7 305.2,79.6 306.4,78.5 307.6,77.3 308.8,76.0 309.9,74.7 311.1,73.5 312.3,72.4 313.5,71.3 314.7,70.3 315.9,69.5 317.1,68.9 318.3,68.4 319.5,68.1 320.7,68.0 321.9,68.1 323.1,68.4 324.3,68.9 325.5,69.5 326.7,70.3 327.9,71.3 329.0,72.4 330.2,73.5 331.4,74.7 332.6,76.0 333.8,77.3 335.0,78.5 336.2,79.6 337.4,80.7 338.6,81.7 339.8,82.5 341.0,83.1 342.2,83.6 343.4,83.9 344.6,84.0 345.8,83.9 346.9,83.6 348.1,83.1 349.3,82.5 350.5,81.7 351.7,80.7 352.9,79.6 354.1,78.5 355.3,77.3 356.5,76.0 357.7,74.7 358.9,73.5 360.1,72.4 361.3,71.3 362.5,70.3 363.7,69.5 364.9,68.9 366.1,68.4 367.2,68.1 368.4,68.0 369.6,68.1 370.8,68.4 372.0,68.9 373.2,69.5 374.4,70.3 375.6,71.3 376.8,72.4 378.0,73.5 379.2,74.7 380.4,76.0 381.6,77.3 382.8,78.5 384.0,79.6 385.1,80.7 386.3,81.7 387.5,82.5 388.7,83.1 389.9,83.6 391.1,83.9 392.3,84.0 393.5,83.9 394.7,83.6 395.9,83.1 397.1,82.5 398.3,81.7 399.5,80.7 400.7,79.6 401.9,78.5 403.1,77.3 404.2,76.0 405.4,74.7 406.6,73.5 407.8,72.4 409.0,71.3 410.2,70.3 411.4,69.5 412.6,68.9 413.8,68.4 415.0,68.1 416.2,68.0 417.4,68.1 418.6,68.4 419.8,68.9 421.0,69.5 422.2,70.3 423.4,71.3 424.5,72.4 425.7,73.5 426.9,74.7 428.1,76.0 429.3,77.3 430.5,78.5 431.7,79.6 432.9,80.7 434.1,81.7 435.3,82.5 436.5,83.1 437.7,83.6 438.9,83.9 440.1,84.0 441.3,83.9 442.4,83.6 443.6,83.1 444.8,82.5 446.0,81.7 447.2,80.7 448.4,79.6 449.6,78.5 450.8,77.3 452.0,76.0\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><text x=\"356.5\" y=\"118.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#234539\">zacht geluid</text><line x1=\"261.0\" y1=\"158\" x2=\"452.0\" y2=\"158\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><polyline points=\"261.0,158.0 262.2,154.2 263.4,150.6 264.6,147.1 265.8,143.9 267.0,141.0 268.2,138.6 269.4,136.6 270.6,135.2 271.7,134.3 272.9,134.0 274.1,134.3 275.3,135.2 276.5,136.6 277.7,138.6 278.9,141.0 280.1,143.9 281.3,147.1 282.5,150.6 283.7,154.2 284.9,158.0 286.1,161.8 287.3,165.4 288.5,168.9 289.6,172.1 290.8,175.0 292.0,177.4 293.2,179.4 294.4,180.8 295.6,181.7 296.8,182.0 298.0,181.7 299.2,180.8 300.4,179.4 301.6,177.4 302.8,175.0 304.0,172.1 305.2,168.9 306.4,165.4 307.6,161.8 308.8,158.0 309.9,154.2 311.1,150.6 312.3,147.1 313.5,143.9 314.7,141.0 315.9,138.6 317.1,136.6 318.3,135.2 319.5,134.3 320.7,134.0 321.9,134.3 323.1,135.2 324.3,136.6 325.5,138.6 326.7,141.0 327.9,143.9 329.0,147.1 330.2,150.6 331.4,154.2 332.6,158.0 333.8,161.8 335.0,165.4 336.2,168.9 337.4,172.1 338.6,175.0 339.8,177.4 341.0,179.4 342.2,180.8 343.4,181.7 344.6,182.0 345.8,181.7 346.9,180.8 348.1,179.4 349.3,177.4 350.5,175.0 351.7,172.1 352.9,168.9 354.1,165.4 355.3,161.8 356.5,158.0 357.7,154.2 358.9,150.6 360.1,147.1 361.3,143.9 362.5,141.0 363.7,138.6 364.9,136.6 366.1,135.2 367.2,134.3 368.4,134.0 369.6,134.3 370.8,135.2 372.0,136.6 373.2,138.6 374.4,141.0 375.6,143.9 376.8,147.1 378.0,150.6 379.2,154.2 380.4,158.0 381.6,161.8 382.8,165.4 384.0,168.9 385.1,172.1 386.3,175.0 387.5,177.4 388.7,179.4 389.9,180.8 391.1,181.7 392.3,182.0 393.5,181.7 394.7,180.8 395.9,179.4 397.1,177.4 398.3,175.0 399.5,172.1 400.7,168.9 401.9,165.4 403.1,161.8 404.2,158.0 405.4,154.2 406.6,150.6 407.8,147.1 409.0,143.9 410.2,141.0 411.4,138.6 412.6,136.6 413.8,135.2 415.0,134.3 416.2,134.0 417.4,134.3 418.6,135.2 419.8,136.6 421.0,138.6 422.2,141.0 423.4,143.9 424.5,147.1 425.7,150.6 426.9,154.2 428.1,158.0 429.3,161.8 430.5,165.4 431.7,168.9 432.9,172.1 434.1,175.0 435.3,177.4 436.5,179.4 437.7,180.8 438.9,181.7 440.1,182.0 441.3,181.7 442.4,180.8 443.6,179.4 444.8,177.4 446.0,175.0 447.2,172.1 448.4,168.9 449.6,165.4 450.8,161.8 452.0,158.0\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"2.2\" stroke-linejoin=\"round\"/><text x=\"356.5\" y=\"200.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#234539\">luid geluid</text><text x=\"113.5\" y=\"212.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">sneller trillen klinkt hoger</text><text x=\"356.5\" y=\"212.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">groter trillen klinkt luider</text></svg>",
+     "onderschrift": "Een geluid is altijd een trilling. Deze twee dingen kan je er los van elkaar aan veranderen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Hoe luid een geluid is, druk je uit in <strong>decibel</strong>. Een gesprek zit rond 60 decibel, een drukke straat rond 80. Vanaf ongeveer 85 decibel wordt lang luisteren schadelijk."
+    },
+    {
+     "soort": "weetje",
+     "html": "Gehoorschade herstelt niet: de haarcelletjes in je oor die kapot gaan, groeien nooit meer terug. Zet je koptelefoon dus niet voluit, en draag oordopjes op een festival."
+    }
+   ]
+  },
+  {
+   "kop": "Hoe geluid reist",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Geluid heeft altijd een <strong>stof</strong> nodig om zich voort te planten: lucht, water of iets vasts. In de ruimte, waar geen lucht is, hoor je niets. Door water gaat geluid sneller dan door lucht, en door een vaste stof nog sneller — vroeger legde men zijn oor op de rails."
+    },
+    {
+     "soort": "tekst",
+     "html": "Hoe verder je van de bron staat, hoe zachter je het hoort. En geluid <strong>kaatst terug</strong>: tegen een muur of een rots krijg je een <strong>echo</strong>. In een lege kamer galmt het, want kale muren kaatsen terug terwijl zachte spullen het geluid opslorpen."
+    },
+    {
+     "soort": "weetje",
+     "html": "Licht gaat veel sneller dan geluid. Daarom zie je de bliksem eerst en hoor je de donder pas daarna. Geluid legt ongeveer een kilometer per drie seconden af: tel de seconden, deel door drie, en je weet hoe ver het onweer is."
+    }
+   ]
+  },
+  {
+   "kop": "De stroomkring",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Stroom loopt alleen door een <strong>gesloten kring</strong>. Zit er ergens een onderbreking, dan gebeurt er niets. Een <strong>schakelaar</strong> is niets anders dan een onderbreking die je zelf kan maken en opheffen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 380 160\" width=\"380\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"40\" y=\"34\" width=\"300\" height=\"90\" rx=\"14\" fill=\"none\" stroke=\"#234539\" stroke-width=\"2.4\"/><rect x=\"162.0\" y=\"115\" width=\"56\" height=\"18\" fill=\"#ffffff\" stroke=\"none\"/><line x1=\"178.0\" y1=\"114.0\" x2=\"178.0\" y2=\"134.0\" stroke=\"#234539\" stroke-width=\"2.6\"/><line x1=\"188.0\" y1=\"118.5\" x2=\"188.0\" y2=\"129.5\" stroke=\"#234539\" stroke-width=\"4.5\"/><line x1=\"198.0\" y1=\"114.0\" x2=\"198.0\" y2=\"134.0\" stroke=\"#234539\" stroke-width=\"2.6\"/><line x1=\"208.0\" y1=\"118.5\" x2=\"208.0\" y2=\"129.5\" stroke=\"#234539\" stroke-width=\"4.5\"/><text x=\"190.0\" y=\"154\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">batterij</text><rect x=\"172.0\" y=\"18\" width=\"36\" height=\"32\" fill=\"#ffffff\" stroke=\"none\"/><circle cx=\"190.0\" cy=\"34.0\" r=\"14\" fill=\"#eeece7\" stroke=\"#6b7260\" stroke-width=\"2.2\"/><path d=\"M183.0 27.0 l14.0 14.0 M197.0 27.0 l-14.0 14.0\" stroke=\"#6b7260\" stroke-width=\"1.8\"/><text x=\"190.0\" y=\"10\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">lampje</text><rect x=\"331\" y=\"61.0\" width=\"18\" height=\"36\" fill=\"#ffffff\" stroke=\"none\"/><circle cx=\"340\" cy=\"63.0\" r=\"3\" fill=\"#234539\"/><circle cx=\"340\" cy=\"95.0\" r=\"3\" fill=\"#234539\"/><line x1=\"340\" y1=\"95.0\" x2=\"353\" y2=\"67.0\" stroke=\"#234539\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><text x=\"324\" y=\"83.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">schakelaar</text></svg>",
+     "onderschrift": "Open kring, geen licht."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een batterij heeft altijd een <strong>pluspool</strong> en een <strong>minpool</strong>. Zet je haar omgekeerd in een zaklamp, dan werkt ze meestal niet. Spanning druk je uit in <strong>volt</strong>: een gewone batterij geeft 1,5 volt."
+    }
+   ]
+  },
+  {
+   "kop": "In serie of parallel",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 248\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"227.0\" height=\"230\" rx=\"10\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><text x=\"113.5\" y=\"28.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2f5d50\">in serie</text><rect x=\"34\" y=\"58\" width=\"159.0\" height=\"92\" rx=\"12\" fill=\"none\" stroke=\"#234539\" stroke-width=\"2.4\"/><rect x=\"85.5\" y=\"141\" width=\"56\" height=\"18\" fill=\"#ffffff\" stroke=\"none\"/><line x1=\"101.5\" y1=\"140.0\" x2=\"101.5\" y2=\"160.0\" stroke=\"#234539\" stroke-width=\"2.6\"/><line x1=\"111.5\" y1=\"144.5\" x2=\"111.5\" y2=\"155.5\" stroke=\"#234539\" stroke-width=\"4.5\"/><line x1=\"121.5\" y1=\"140.0\" x2=\"121.5\" y2=\"160.0\" stroke=\"#234539\" stroke-width=\"2.6\"/><line x1=\"131.5\" y1=\"144.5\" x2=\"131.5\" y2=\"155.5\" stroke=\"#234539\" stroke-width=\"4.5\"/><text x=\"113.5\" y=\"174.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">batterij</text><rect x=\"72.0\" y=\"42\" width=\"30\" height=\"32\" fill=\"#ffffff\" stroke=\"none\"/><circle cx=\"87.0\" cy=\"58.0\" r=\"13\" fill=\"#fff8e6\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><path d=\"M80.5 51.5 l13.0 13.0 M93.5 51.5 l-13.0 13.0\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><rect x=\"125.0\" y=\"42\" width=\"30\" height=\"32\" fill=\"#ffffff\" stroke=\"none\"/><circle cx=\"140.0\" cy=\"58.0\" r=\"13\" fill=\"#fff8e6\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><path d=\"M133.5 51.5 l13.0 13.0 M146.5 51.5 l-13.0 13.0\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><text x=\"113.5\" y=\"198.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#234539\">één lampje stuk</text><text x=\"113.5\" y=\"214.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#c0392b\">= allebei uit</text><rect x=\"243.0\" y=\"6\" width=\"227.0\" height=\"230\" rx=\"10\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><text x=\"356.5\" y=\"28.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2f5d50\">parallel</text><rect x=\"277.0\" y=\"58\" width=\"159.0\" height=\"92\" rx=\"12\" fill=\"none\" stroke=\"#234539\" stroke-width=\"2.4\"/><rect x=\"328.5\" y=\"141\" width=\"56\" height=\"18\" fill=\"#ffffff\" stroke=\"none\"/><line x1=\"344.5\" y1=\"140.0\" x2=\"344.5\" y2=\"160.0\" stroke=\"#234539\" stroke-width=\"2.6\"/><line x1=\"354.5\" y1=\"144.5\" x2=\"354.5\" y2=\"155.5\" stroke=\"#234539\" stroke-width=\"4.5\"/><line x1=\"364.5\" y1=\"140.0\" x2=\"364.5\" y2=\"160.0\" stroke=\"#234539\" stroke-width=\"2.6\"/><line x1=\"374.5\" y1=\"144.5\" x2=\"374.5\" y2=\"155.5\" stroke=\"#234539\" stroke-width=\"4.5\"/><text x=\"356.5\" y=\"174.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">batterij</text><line x1=\"356.5\" y1=\"58\" x2=\"356.5\" y2=\"136\" stroke=\"#234539\" stroke-width=\"2.4\"/><rect x=\"301.8\" y=\"42\" width=\"30\" height=\"32\" fill=\"#ffffff\" stroke=\"none\"/><circle cx=\"316.8\" cy=\"58.0\" r=\"13\" fill=\"#fff8e6\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><path d=\"M310.2 51.5 l13.0 13.0 M323.2 51.5 l-13.0 13.0\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><rect x=\"381.2\" y=\"42\" width=\"30\" height=\"32\" fill=\"#ffffff\" stroke=\"none\"/><circle cx=\"396.2\" cy=\"58.0\" r=\"13\" fill=\"#fff8e6\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><path d=\"M389.8 51.5 l13.0 13.0 M402.8 51.5 l-13.0 13.0\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><text x=\"356.5\" y=\"198.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#234539\">één lampje stuk</text><text x=\"356.5\" y=\"214.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#2f5d50\">= het andere brandt door</text></svg>",
+     "onderschrift": "Hetzelfde aantal lampjes, een heel ander gevolg als er één stuk gaat."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom staat in een huis alles parallel geschakeld. Anders viel bij één kapotte lamp het hele huis in het donker."
+    }
+   ]
+  },
+  {
+   "kop": "Geleiders, isolatoren en veiligheid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Metalen geleiden</strong> stroom, en daarom zijn de draden van metaal. Plastic, rubber, glas en hout geleiden niet: dat zijn <strong>isolatoren</strong>, en die zitten er net rond als bescherming."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>kortsluiting</strong> neemt de stroom een veel te korte weg en wordt hij veel te groot. De draden worden dan gloeiend heet. Daarom zit er een <strong>zekering</strong> of automaat in je huis: die onderbreekt de stroom als hij te groot wordt. Beter dat een zekering doorslaat dan dat de draden gaan smeulen."
+    },
+    {
+     "soort": "weetje",
+     "html": "Uit het stopcontact komt 230 volt, en dat is levensgevaarlijk. Proeven doe je <strong>uitsluitend</strong> met een batterij."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>ledlamp</strong> geeft evenveel licht met veel minder stroom dan een gloeilamp. Een gloeilamp maakt van bijna alle stroom warmte en maar een beetje licht; bij een led is dat net omgekeerd."
+    }
+   ]
+  },
+  {
+   "kop": "Magneten en elektriciteit",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 212\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"227.0\" height=\"196\" rx=\"10\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><text x=\"113.5\" y=\"28.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2f5d50\">N tegenover N</text><rect x=\"34.0\" y=\"78\" width=\"32.0\" height=\"26\" fill=\"#3b6ea5\" stroke=\"#234539\" stroke-width=\"1.3\"/><text x=\"50.0\" y=\"95.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#ffffff\">Z</text><rect x=\"66.0\" y=\"78\" width=\"32.0\" height=\"26\" fill=\"#c0392b\" stroke=\"#234539\" stroke-width=\"1.3\"/><text x=\"82.0\" y=\"95.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#ffffff\">N</text><rect x=\"129.0\" y=\"78\" width=\"32.0\" height=\"26\" fill=\"#c0392b\" stroke=\"#234539\" stroke-width=\"1.3\"/><text x=\"145.0\" y=\"95.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#ffffff\">N</text><rect x=\"161.0\" y=\"78\" width=\"32.0\" height=\"26\" fill=\"#3b6ea5\" stroke=\"#234539\" stroke-width=\"1.3\"/><text x=\"177.0\" y=\"95.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#ffffff\">Z</text><line x1=\"28\" y1=\"91.0\" x2=\"6\" y2=\"91.0\" stroke=\"#c0392b\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><path d=\"M-1 91.0 l8 -5.5 l0 11 Z\" fill=\"#c0392b\"/><line x1=\"199\" y1=\"91.0\" x2=\"221\" y2=\"91.0\" stroke=\"#c0392b\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><path d=\"M228 91.0 l-8 -5.5 l0 11 Z\" fill=\"#c0392b\"/><text x=\"113.5\" y=\"144.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#c0392b\">ze duwen elkaar weg</text><rect x=\"243.0\" y=\"6\" width=\"227.0\" height=\"196\" rx=\"10\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><text x=\"356.5\" y=\"28.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2f5d50\">N tegenover Z</text><rect x=\"277.0\" y=\"78\" width=\"32.0\" height=\"26\" fill=\"#3b6ea5\" stroke=\"#234539\" stroke-width=\"1.3\"/><text x=\"293.0\" y=\"95.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#ffffff\">Z</text><rect x=\"309.0\" y=\"78\" width=\"32.0\" height=\"26\" fill=\"#c0392b\" stroke=\"#234539\" stroke-width=\"1.3\"/><text x=\"325.0\" y=\"95.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#ffffff\">N</text><rect x=\"372.0\" y=\"78\" width=\"32.0\" height=\"26\" fill=\"#3b6ea5\" stroke=\"#234539\" stroke-width=\"1.3\"/><text x=\"388.0\" y=\"95.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#ffffff\">Z</text><rect x=\"404.0\" y=\"78\" width=\"32.0\" height=\"26\" fill=\"#c0392b\" stroke=\"#234539\" stroke-width=\"1.3\"/><text x=\"420.0\" y=\"95.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#ffffff\">N</text><line x1=\"249.0\" y1=\"91.0\" x2=\"271.0\" y2=\"91.0\" stroke=\"#2f5d50\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><path d=\"M278.0 91.0 l-8 -5.5 l0 11 Z\" fill=\"#2f5d50\"/><line x1=\"464.0\" y1=\"91.0\" x2=\"442.0\" y2=\"91.0\" stroke=\"#2f5d50\" stroke-width=\"3.2\" stroke-linecap=\"round\"/><path d=\"M435.0 91.0 l8 -5.5 l0 11 Z\" fill=\"#2f5d50\"/><text x=\"356.5\" y=\"144.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2f5d50\">ze trekken elkaar aan</text><text x=\"235.0\" y=\"204.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">N is de noordpool, Z de zuidpool. Gelijke polen stoten af, verschillende trekken aan.</text></svg>",
+     "onderschrift": ""
+    },
+    {
+     "soort": "tekst",
+     "html": "Een magneet trekt <strong>ijzer</strong> aan, en ook nikkel en kobalt. Hout, glas, plastic en de meeste andere metalen niet. Een kompasnaald wijst naar het noorden omdat de <strong>aarde zelf als een grote magneet werkt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Magnetisme en elektriciteit horen bij elkaar. Wikkel je een draad rond een ijzeren staaf en laat je er stroom door lopen, dan heb je een <strong>elektromagneet</strong>. Het handige eraan: zet je de stroom af, dan is de magneet weg. Zo tilt een kraan op een schroothoop auto's op en laat ze weer los."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het werkt ook omgekeerd: beweeg je een magneet langs een spoel, dan ontstaat er stroom. Dat is wat de <strong>dynamo</strong> op je fiets doet, en wat in een windmolen en een waterkrachtcentrale gebeurt. Beweging erin, stroom eruit."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Licht gaat in rechte lijnen; daarom krijg je een schaduw.",
+  "Op een spiegel kaatst licht terug onder dezelfde hoek als het aankwam.",
+  "Licht breekt als het van water naar lucht gaat — vandaar het 'geknikte' rietje.",
+  "Wit licht bestaat uit alle kleuren. Je ziet de kleur die een voorwerp terugkaatst.",
+  "Geluid is trilling: sneller trillen klinkt hoger, groter trillen klinkt luider.",
+  "Geluid heeft lucht, water of een vaste stof nodig. In de ruimte hoor je niets.",
+  "Licht gaat veel sneller dan geluid: eerst de bliksem, dan de donder.",
+  "Stroom loopt alleen door een gesloten kring.",
+  "In serie: één lampje stuk en alles gaat uit. Parallel: de rest brandt door.",
+  "Metalen geleiden, plastic en rubber isoleren. Een zekering breekt de kring bij te veel stroom.",
+  "Gelijke polen van een magneet stoten af, verschillende trekken aan.",
+  "Beweging kan stroom maken: dat doet een dynamo."
+ ]
+}

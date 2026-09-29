@@ -1,0 +1,139 @@
+{
+ "vak": "Geschiedenis",
+ "titel": "Tijd en tijdlijn",
+ "onder": "Hoe we de tijd indelen, hoe je een tijdlijn leest en hoe je een bron beoordeelt.",
+ "secties": [
+  {
+   "kop": "De grote lijn",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Historici delen het verleden op in periodes. Die grenzen zijn door mensen gekozen, dus ze liggen niet overal precies gelijk — maar de volgorde staat vast."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 138\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"26.0\" y=\"61\" width=\"182.8\" height=\"26\" fill=\"#8d8d8d\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"117.4\" y=\"78\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#ffffff\">prehistorie</text><rect x=\"208.8\" y=\"61\" width=\"108.0\" height=\"26\" fill=\"#2f5d50\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><text x=\"262.8\" y=\"78\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#ffffff\">oudheid</text><rect x=\"316.9\" y=\"61\" width=\"83.1\" height=\"26\" fill=\"#c17f2b\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><rect x=\"400.0\" y=\"61\" width=\"24.9\" height=\"26\" fill=\"#3b6ea5\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><rect x=\"424.9\" y=\"61\" width=\"19.1\" height=\"26\" fill=\"#7a5230\" stroke=\"#ffffff\" stroke-width=\"1.5\"/><line x1=\"275.3\" y1=\"61\" x2=\"275.3\" y2=\"52\" stroke=\"#234539\" stroke-width=\"1.5\"/><circle cx=\"275.3\" cy=\"52\" r=\"3.4\" fill=\"#234539\"/><text x=\"275.3\" y=\"43\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">jaar 1</text><line x1=\"314.9\" y1=\"87\" x2=\"314.9\" y2=\"96\" stroke=\"#234539\" stroke-width=\"1.5\"/><circle cx=\"314.9\" cy=\"96\" r=\"3.4\" fill=\"#234539\"/><text x=\"314.9\" y=\"110\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">val van Rome</text><line x1=\"399.3\" y1=\"61\" x2=\"399.3\" y2=\"52\" stroke=\"#234539\" stroke-width=\"1.5\"/><circle cx=\"399.3\" cy=\"52\" r=\"3.4\" fill=\"#234539\"/><text x=\"399.3\" y=\"43\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">Columbus</text><line x1=\"427.4\" y1=\"87\" x2=\"427.4\" y2=\"96\" stroke=\"#234539\" stroke-width=\"1.5\"/><circle cx=\"427.4\" cy=\"96\" r=\"3.4\" fill=\"#234539\"/><text x=\"427.4\" y=\"110\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">België</text><rect x=\"26.0\" y=\"114\" width=\"11\" height=\"11\" rx=\"2.5\" fill=\"#c17f2b\"/><text x=\"42.0\" y=\"123\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">middeleeuwen</text><rect x=\"115.2\" y=\"114\" width=\"11\" height=\"11\" rx=\"2.5\" fill=\"#3b6ea5\"/><text x=\"131.2\" y=\"123\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">nieuwe tijd</text><rect x=\"198.8\" y=\"114\" width=\"11\" height=\"11\" rx=\"2.5\" fill=\"#7a5230\"/><text x=\"214.8\" y=\"123\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">nieuwste tijd</text></svg>",
+     "onderschrift": "De prehistorie duurde vele duizenden jaren langer dan hier past; alles links van de oudheid is dus sterk ingekort."
+    },
+    {
+     "soort": "tekst",
+     "html": "De grens tussen prehistorie en geschiedenis is het <strong>schrift</strong>. Vanaf het moment dat mensen dingen opschreven, hebben we geschreven bronnen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zo'n periode heet ook een <strong>tijdvak</strong>: een stuk tijd met eigen kenmerken, niet een vast aantal jaren. Het ene tijdvak duurt duizenden jaren, het andere een paar eeuwen. De <strong>oudheid</strong> bijvoorbeeld is het tijdvak van beschavingen zoals Egypte, Griekenland en Rome."
+    }
+   ]
+  },
+  {
+   "kop": "Eeuwen tellen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een eeuw is 100 jaar, een millennium 1 000 jaar en een decennium 10 jaar. Het lastige zit in het tellen van de eeuwen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 72\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10.0\" y=\"20\" width=\"144.0\" height=\"44\" rx=\"8\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"82.0\" y=\"40\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">13de eeuw</text><text x=\"82.0\" y=\"56\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#234539\">1201 – 1300</text><rect x=\"160.0\" y=\"20\" width=\"144.0\" height=\"44\" rx=\"8\" fill=\"#2f5d50\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"232.0\" y=\"40\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#ffffff\">14de eeuw</text><text x=\"232.0\" y=\"56\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#ffffff\">1301 – 1400</text><rect x=\"310.0\" y=\"20\" width=\"144.0\" height=\"44\" rx=\"8\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"382.0\" y=\"40\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">15de eeuw</text><text x=\"382.0\" y=\"56\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#234539\">1401 – 1500</text></svg>",
+     "onderschrift": "Je telt de eeuw altijd één hoger dan de eerste twee cijfers: 1302 ligt in de 14de eeuw, niet in de 13de."
+    },
+    {
+     "soort": "weetje",
+     "html": "Er bestaat geen jaar 0: na 1 v.Chr. komt meteen 1 na Chr. Daarom moet je bij een berekening over het begin van de jaartelling altijd één jaar aftrekken."
+    }
+   ]
+  },
+  {
+   "kop": "Woorden voor een stuk tijd",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Voor een stuk tijd bestaan er vaste woorden. Ze zeggen alle vijf iets anders, dus het loont om ze uit elkaar te houden."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Woord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe lang</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Handig om te weten</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">decennium</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10 jaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tien decennia maken een eeuw</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">generatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 25 tot 30 jaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de tijd tussen ouders en hun kinderen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">halve eeuw</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">50 jaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de helft van honderd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eeuw</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">100 jaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tien eeuwen maken een millennium</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">millennium</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 000 jaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">duizend jaar, dus tien eeuwen</td></tr></table>",
+     "onderschrift": "Een kwart eeuw is 25 jaar, een kwart van honderd."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>generatie</strong> is geen afgesproken getal maar een schatting: de tijd die er gemiddeld tussen ouders en hun kinderen zit. Reken met 25 tot 30 jaar. In één eeuw passen er dus ongeveer drie à vier."
+    }
+   ]
+  },
+  {
+   "kop": "Voor en na Christus",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Onze jaartelling begint bij het jaar 1. Alles daarvoor krijgt <strong>v.Chr.</strong>, en die jaartallen tellen <em>af</em>: 500 v.Chr. ligt later dan 1000 v.Chr."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 86\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"34\" y1=\"44\" x2=\"436\" y2=\"44\" stroke=\"#23291f\" stroke-width=\"2\"/><path d=\"M436 44 l-9 -5 v10 z\" fill=\"#23291f\"/><path d=\"M34 44 l9 -5 v10 z\" fill=\"#23291f\"/><line x1=\"34.0\" y1=\"36\" x2=\"34.0\" y2=\"52\" stroke=\"#23291f\" stroke-width=\"1.6\"/><text x=\"34.0\" y=\"67\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#23291f\" font-weight=\"400\">1000 v.Chr.</text><line x1=\"134.5\" y1=\"36\" x2=\"134.5\" y2=\"52\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"134.5\" y=\"67\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#6b7260\" font-weight=\"400\">500 v.Chr.</text><line x1=\"235.0\" y1=\"31\" x2=\"235.0\" y2=\"57\" stroke=\"#c17f2b\" stroke-width=\"3\"/><text x=\"235.0\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" fill=\"#c17f2b\" font-weight=\"600\">begin</text><line x1=\"335.5\" y1=\"36\" x2=\"335.5\" y2=\"52\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"335.5\" y=\"67\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#6b7260\" font-weight=\"400\">500</text><line x1=\"436.0\" y1=\"36\" x2=\"436.0\" y2=\"52\" stroke=\"#23291f\" stroke-width=\"1.6\"/><text x=\"436.0\" y=\"67\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#23291f\" font-weight=\"400\">1000</text></svg>",
+     "onderschrift": "Hoe verder naar links, hoe langer geleden."
+    }
+   ]
+  },
+  {
+   "kop": "Bronnen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Alles wat we over vroeger weten, komt uit bronnen. Niet elke bron is even betrouwbaar."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort bron</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">primair</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gemaakt in de tijd zelf</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een dagboek, een munt, een gebouw</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">secundair</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">later gemaakt, over die tijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een geschiedenisboek, een documentaire</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geschreven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met woorden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een brief, een kroniek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeschreven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zonder woorden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een pot, een wapen, een schilderij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mondeling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">doorverteld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een verhaal van je overgrootmoeder</td></tr></table>",
+     "onderschrift": "Een primaire bron staat het dichtst bij wat er gebeurde, maar is daarom nog niet eerlijk."
+    }
+   ]
+  },
+  {
+   "kop": "Een bron beoordelen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Historici stellen bij elke bron dezelfde vragen. Doe dat ook zelf, ook bij wat je vandaag online leest."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"49.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Wie</text><text x=\"49.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">maakte deze bron?</text><path d=\"M103.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"124.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"173.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Wanneer</text><text x=\"173.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">was dat?</text><path d=\"M227.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"248.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"297.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Waarom</text><text x=\"297.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">maakte die het?</text><path d=\"M351.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"372.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"421.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Klopt het</text><text x=\"421.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">met andere bronnen?</text></svg>",
+     "onderschrift": "Wie er belang bij had, vertelt het verhaal zelden helemaal neutraal."
+    },
+    {
+     "soort": "tekst",
+     "html": "Spreken twee bronnen elkaar tegen, dan is de vraag niet welke je het liefst gelooft, maar wie er wat bij te winnen had."
+    },
+    {
+     "soort": "weetje",
+     "html": "Let ook op <strong>anachronismen</strong>: iets dat in een verhaal of een film opduikt terwijl het in die tijd nog niet bestond. Een ridder die op zijn horloge kijkt, of een Romein die een aardappel eet. Het is meteen een teken dat de maker het niet zo nauw nam."
+    }
+   ]
+  },
+  {
+   "kop": "Wat historici en archeologen doen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>historicus</strong> onderzoekt bronnen, vooral geschreven. Een <strong>archeoloog</strong> graaft op en onderzoekt wat er in de grond zit: potten, botten, muren, gereedschap."
+    },
+    {
+     "soort": "tekst",
+     "html": "Voor de prehistorie is de archeoloog de enige getuige die we hebben, want geschreven bronnen zijn er niet."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Prehistorie, oudheid, middeleeuwen, nieuwe tijd, nieuwste tijd.",
+  "De grens tussen prehistorie en geschiedenis is het schrift.",
+  "Tel de eeuw één hoger dan de eerste twee cijfers: 1302 is de 14de eeuw.",
+  "Er bestaat geen jaar 0.",
+  "Voor Christus tellen de jaartallen af.",
+  "Decennium 10 jaar, generatie ongeveer 25 tot 30 jaar, eeuw 100 jaar, millennium 1 000 jaar.",
+  "Een tijdvak is een periode met eigen kenmerken, geen vast aantal jaren.",
+  "Vraag bij elke bron: wie, wanneer en waarom?",
+  "Een anachronisme is iets dat in die tijd nog niet bestond."
+ ]
+}

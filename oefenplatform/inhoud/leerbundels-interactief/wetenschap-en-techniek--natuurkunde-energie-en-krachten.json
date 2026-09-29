@@ -1,0 +1,175 @@
+{
+ "vak": "Wetenschap en techniek",
+ "titel": "Natuurkunde: energie en krachten",
+ "onder": "Wat dingen doet bewegen, hoe je slim kracht wint, en waar energie vandaan komt.",
+ "secties": [
+  {
+   "kop": "Krachten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een kracht is een <strong>duw of een trek</strong>. Je ziet een kracht nooit zelf, wel wat ze doet: iets gaat bewegen, stoppen, sneller gaan, van richting veranderen of van vorm veranderen — denk aan een spons die je indrukt."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kracht</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je ervan merkt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zwaartekracht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alles valt naar beneden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wrijving</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bal rolt uit en stopt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spierkracht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jij duwt of trekt zelf</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">magnetische kracht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een magneet trekt ijzer aan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">veerkracht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een elastiek springt terug</td></tr></table>",
+     "onderschrift": "Een kracht druk je uit in newton, afgekort N, genoemd naar Isaac Newton."
+    },
+    {
+     "soort": "tekst",
+     "html": "Trekken twee ploegen even hard aan hetzelfde touw, maar in tegengestelde richting, dan beweegt er niets: de krachten houden elkaar in <strong>evenwicht</strong>. Pas als één ploeg harder trekt, komt er beweging."
+    }
+   ]
+  },
+  {
+   "kop": "Zwaartekracht, massa en gewicht",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>zwaartekracht</strong> trekt alles naar de aarde toe. Op de maan is die kracht ongeveer zes keer kleiner. Je <strong>massa</strong> — hoeveel materie er in je zit — blijft daar gelijk, maar je <strong>gewicht</strong> wordt kleiner: de weegschaal wijst minder aan."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een zwaar voorwerp valt <em>niet</em> sneller dan een licht voorwerp. Laat een steen en een propje papier samen vallen en het lijkt wel zo, maar dat komt door de luchtweerstand. Zonder lucht komen ze samen aan."
+    }
+   ]
+  },
+  {
+   "kop": "Slim kracht winnen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Met een <strong>hefboom</strong> til je iets zwaars met minder kracht. Het punt waarrond de hefboom draait, heet het <strong>steunpunt</strong>. Hoe verder van het steunpunt je duwt, hoe makkelijker het gaat."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 400 120\" width=\"400\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30\" y1=\"62\" x2=\"370\" y2=\"62\" stroke=\"#234539\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"136.0,66 112.00000000000001,96 160.0,96\" fill=\"#6b7260\"/><text x=\"136.0\" y=\"110\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">steunpunt</text><rect x=\"42\" y=\"28\" width=\"34\" height=\"30\" rx=\"5\" fill=\"#2f5d50\"/><text x=\"59\" y=\"22\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#2f5d50\">last</text><path d=\"M340 28 v26 m0 0 l-5 -6 m5 6 l5 -6\" stroke=\"#c17f2b\" stroke-width=\"2.6\" fill=\"none\" stroke-linecap=\"round\"/><text x=\"340\" y=\"22\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#c17f2b\">kracht</text></svg>",
+     "onderschrift": "Een wip, een kruiwagen, een schaar en een flesopener zijn allemaal hefbomen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hulpmiddel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je wint</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je inlevert</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hefboom</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kracht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je moet je kant veel verder duwen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">katrol aan een balk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een handigere richting: trekken in plaats van tillen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niets, de kracht blijft even groot</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meerdere katrollen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kracht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je moet veel meer touw binnenhalen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hellend vlak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kracht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je legt een veel langere weg af</td></tr></table>",
+     "onderschrift": "Daarom slingert een bergweg heen en weer in plaats van recht omhoog te gaan."
+    }
+   ]
+  },
+  {
+   "kop": "Wrijving en luchtweerstand",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Wrijving</strong> ontstaat waar twee dingen langs elkaar schuiven. Soms is ze lastig, soms onmisbaar: zonder wrijving kan je niet stappen en niet remmen. Op glad ijs merk je meteen wat er gebeurt als ze wegvalt. De remmen van je fiets werken er net op."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wil je wrijving <strong>kleiner</strong> maken, dan smeer je met olie of zet je er wieltjes onder — rollen gaat veel makkelijker dan schuiven."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ook lucht remt af. Dat heet <strong>luchtweerstand</strong>. Een parachute vangt met zijn grote doek veel lucht en remt de val af; een raceauto heeft juist een gladde, <strong>gestroomlijnde</strong> vorm zodat de lucht netjes langs hem glijdt."
+    }
+   ]
+  },
+  {
+   "kop": "Drijven, zinken en druk",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Water duwt van onderaf terug: dat is de <strong>opwaartse kracht</strong>. Daarom voelt een steen onder water lichter aan. Een boot van staal drijft omdat hij vanbinnen hol is: schip én lucht samen zijn lichter dan het water dat ze verplaatsen. Een massieve spijker van datzelfde staal zinkt wel."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Druk</strong> is kracht verdeeld over een oppervlak. Dezelfde kracht op een groter oppervlak geeft minder druk — daarom zak je met sneeuwschoenen minder diep weg. Een naald doet net het omgekeerde: alle kracht op één piepklein puntje."
+    }
+   ]
+  },
+  {
+   "kop": "Beweging",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Snelheid</strong> is altijd afstand gedeeld door tijd. Fiets je 12 kilometer in 1 uur, dan is dat 12 km per uur; doe je er 2 uur over, dan 6 km per uur."
+    },
+    {
+     "soort": "tekst",
+     "html": "Alles wat beweegt, wil vanzelf verder bewegen. Dat heet <strong>traagheid</strong>. Remt de auto waarin je zit plots, dan vliegt jouw lichaam door aan dezelfde snelheid. Daarvoor dient de veiligheidsgordel."
+    },
+    {
+     "soort": "weetje",
+     "html": "Duw je iets weg, dan duwt het even hard terug. Laat een opgeblazen ballon los: de lucht spuit er achteraan uit en de ballon schiet de andere kant op. Een raket werkt precies zo, ook in de lege ruimte."
+    }
+   ]
+  },
+  {
+   "kop": "Energie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Energie is wat nodig is om iets te laten gebeuren. Ze gaat <strong>nooit verloren</strong>, ze verandert alleen van vorm."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vorm van energie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar je ze tegenkomt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bewegingsenergie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alles wat beweegt: een fietser, een bal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoogte-energie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bal bovenaan een helling, water in een stuwmeer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">chemische energie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in je boterham, in benzine, in een batterij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">warmte-energie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kachel, een warme motor</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elektrische energie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alles wat aan het stopcontact hangt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">licht- en geluidsenergie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een lamp, een luidspreker</td></tr></table>",
+     "onderschrift": ""
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><text x=\"69.7\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Zon</text><text x=\"69.7\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">licht</text><path d=\"M144.33333333333334 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#c17f2b\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"165.3\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Zonnepaneel</text><text x=\"235.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">elektriciteit</text><path d=\"M309.6666666666667 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#c17f2b\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"330.7\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><text x=\"400.3\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Lamp</text><text x=\"400.3\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">licht en warmte</text></svg>",
+     "onderschrift": "Bij elke omzetting gaat een deel als warmte weg. Daarom wordt een lamp warm, en je gsm ook."
+    }
+   ]
+  },
+  {
+   "kop": "Waar onze energie vandaan komt",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hernieuwbaar</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Niet hernieuwbaar</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zon, wind, water</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">steenkool, aardolie, aardgas</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">raakt niet op</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">raakt op, en geeft CO₂ bij het verbranden</td></tr></table>",
+     "onderschrift": "Steenkool, aardolie en aardgas heten fossiele brandstoffen: ze ontstonden miljoenen jaren geleden uit resten van planten en dieren."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>zonnepaneel</strong> zet licht om in elektriciteit. Een <strong>waterkrachtcentrale</strong> vangt de energie van stromend water op met een turbine, en een windmolen doet hetzelfde met wind."
+    },
+    {
+     "soort": "tekst",
+     "html": "Energie besparen doe je thuis het meest bij de <strong>verwarming</strong>: een graadje lager en een goed geïsoleerd dak sparen meer dan al je lampjes samen."
+    }
+   ]
+  },
+  {
+   "kop": "Warmte",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Warmte gaat <strong>altijd van warm naar koud</strong>. Je hand wordt niet koud door de ijsblok: de warmte van je hand gaat naar het ijs. Het voelt alleen andersom."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Manier</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe het gaat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geleiding</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">door een materiaal heen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een metalen lepel in de soep</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stroming</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">warme lucht of vloeistof verplaatst zich</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">warme lucht stijgt op boven een radiator</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">straling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dwars door de lege ruimte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de warmte van de zon</td></tr></table>",
+     "onderschrift": ""
+    },
+    {
+     "soort": "tekst",
+     "html": "Een dikke winterjas houdt je warm omdat er veel <strong>stilstaande lucht</strong> in zit, en die laat warmte slecht door. Dubbel glas en de vacht van een dier werken op datzelfde idee."
+    },
+    {
+     "soort": "weetje",
+     "html": "Bijna alles <strong>zet uit</strong> als het warmer wordt en krimpt als het afkoelt. Een metalen staaf wordt langer, en in een thermometer kruipt de vloeistof daardoor omhoog."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een kracht is een duw of een trek, en je drukt ze uit in newton.",
+  "Massa blijft overal gelijk; gewicht hangt af van de zwaartekracht ter plaatse.",
+  "Bij een hefboom en een hellend vlak win je kracht en verlies je afstand.",
+  "Zonder wrijving kan je niet stappen en niet remmen.",
+  "De opwaartse kracht laat een holle boot van staal drijven.",
+  "Druk is kracht per oppervlak: sneeuwschoenen spreiden, een naald concentreert.",
+  "Snelheid = afstand gedeeld door tijd. Traagheid is waarom je een gordel draagt.",
+  "Energie gaat niet verloren, ze verandert van vorm — en een deel wordt altijd warmte.",
+  "Zon, wind en water zijn hernieuwbaar; steenkool, aardolie en aardgas niet.",
+  "Warmte gaat altijd van warm naar koud, door geleiding, stroming of straling."
+ ]
+}

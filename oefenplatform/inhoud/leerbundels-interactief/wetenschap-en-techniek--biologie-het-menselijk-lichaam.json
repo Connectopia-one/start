@@ -1,0 +1,211 @@
+{
+ "vak": "Wetenschap en techniek",
+ "titel": "Biologie: het menselijk lichaam",
+ "onder": "Wat er binnenin gebeurt terwijl je er niet aan denkt — en hoe je er goed voor zorgt.",
+ "secties": [
+  {
+   "kop": "Je lichaam als één geheel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Je lichaam is opgebouwd uit <strong>stelsels</strong>: groepen organen die samen één taak uitvoeren. Ze werken allemaal tegelijk, en ze hebben elkaar nodig."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stelsel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Belangrijkste organen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ademhaling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zuurstof binnen, koolstofdioxide buiten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">neus, luchtpijp, longen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bloedsomloop</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zuurstof en voedsel rondbrengen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hart, slagaders, aders</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spijsvertering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voedsel afbreken tot bruikbare stoffen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maag, darmen, lever</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">skelet en spieren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechthouden en bewegen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">botten, spieren, gewrichten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zenuwstelsel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alles aansturen en waarnemen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hersenen, ruggenmerg, zenuwen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uitscheiding</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">afvalstoffen kwijtraken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nieren, blaas, huid</td></tr></table>",
+     "onderschrift": "Je hart klopt ongeveer 100 000 keer per dag, zonder dat je eraan denkt."
+    }
+   ]
+  },
+  {
+   "kop": "De spijsvertering",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Verteren is: je eten zo klein maken dat het door de darmwand naar je bloed kan. Dat begint al in je <strong>mond</strong>, bij het kauwen en het speeksel. Goed kauwen loont dus echt."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"36.6\" y=\"21.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Mond</text><text x=\"36.6\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">kauwen en</text><text x=\"36.6\" y=\"53.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">speeksel</text><path d=\"M78.2 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"99.2\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"135.8\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Slokdarm</text><text x=\"135.8\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">duwen</text><path d=\"M177.4 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"198.4\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"21.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Maag</text><text x=\"235.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">kneden en</text><text x=\"235.0\" y=\"53.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">maagsap</text><path d=\"M276.6 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"297.6\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"334.2\" y=\"21.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Dunne darm</text><text x=\"334.2\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">opname in</text><text x=\"334.2\" y=\"53.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">het bloed</text><path d=\"M375.8 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"396.8\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"433.4\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Dikke darm</text><text x=\"433.4\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">water eruit</text></svg>",
+     "onderschrift": "De slokdarm duwt met spierbewegingen. Daarom kan je ook drinken terwijl je op je kop hangt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Maagsap</strong> is zuur. Het breekt het voedsel verder af en doodt meteen veel ziektekiemen. In de <strong>dunne darm</strong>, bij een volwassene wel vijf meter lang en vanbinnen geplooid, gaan de voedingsstoffen naar het bloed. Wat overblijft, gaat naar de <strong>dikke darm</strong>, waar vooral water uit gehaald wordt."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>lever</strong> is het grootste orgaan binnenin je lichaam. Hij haalt schadelijke stoffen uit je bloed en maakt gal, die helpt om vetten af te breken."
+    }
+   ]
+  },
+  {
+   "kop": "Het bloed en het hart",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>hart</strong> is een spier met <strong>vier holten</strong>: twee boezems bovenaan en twee kamers onderaan. De rechterkant stuurt het bloed naar de longen, de linkerkant naar de rest van je lichaam."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 236\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"151.0\" y=\"26\" width=\"168\" height=\"40\" rx=\"9\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"43.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">de longen</text><text x=\"235.0\" y=\"57.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">hier komt zuurstof bij</text><rect x=\"151.0\" y=\"105\" width=\"168\" height=\"40\" rx=\"9\" fill=\"#fdeceb\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"122.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">het hart</text><text x=\"235.0\" y=\"136.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">pompt alles rond</text><rect x=\"151.0\" y=\"184\" width=\"168\" height=\"40\" rx=\"9\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"201.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">de rest van je lichaam</text><text x=\"235.0\" y=\"215.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">hier wordt zuurstof verbruikt</text><line x1=\"129.0\" y1=\"105\" x2=\"129.0\" y2=\"73\" stroke=\"#5b93b8\" stroke-width=\"4\" stroke-linecap=\"round\"/><path d=\"M123.0 73 L129.0 66 L135.0 73 Z\" fill=\"#5b93b8\"/><text x=\"118.0\" y=\"88.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#5b93b8\">zuurstofarm</text><line x1=\"129.0\" y1=\"184\" x2=\"129.0\" y2=\"152\" stroke=\"#5b93b8\" stroke-width=\"4\" stroke-linecap=\"round\"/><path d=\"M123.0 152 L129.0 145 L135.0 152 Z\" fill=\"#5b93b8\"/><text x=\"118.0\" y=\"167.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#5b93b8\">zuurstofarm</text><line x1=\"341.0\" y1=\"66\" x2=\"341.0\" y2=\"98\" stroke=\"#c0392b\" stroke-width=\"4\" stroke-linecap=\"round\"/><path d=\"M335.0 98 L341.0 105 L347.0 98 Z\" fill=\"#c0392b\"/><text x=\"352.0\" y=\"88.5\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#c0392b\">zuurstofrijk</text><line x1=\"341.0\" y1=\"145\" x2=\"341.0\" y2=\"177\" stroke=\"#c0392b\" stroke-width=\"4\" stroke-linecap=\"round\"/><path d=\"M335.0 177 L341.0 184 L347.0 177 Z\" fill=\"#c0392b\"/><text x=\"352.0\" y=\"167.5\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#c0392b\">zuurstofrijk</text></svg>",
+     "onderschrift": "Het bloed passeert twee keer langs het hart voor het één volledig rondje gemaakt heeft."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Slagaders</strong> voeren bloed wég van het hart en hebben dikke wanden, want daar staat druk op — je voelt er je pols mee. <strong>Aders</strong> voeren het bloed ernaartoe."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">In je bloed</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rode bloedcellen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zuurstof vervoeren, en ze geven het bloed zijn kleur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">witte bloedcellen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ziektekiemen opruimen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bloedplaatjes</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wondjes dichten, zodat een schaafwonde stopt met bloeden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bloedplasma</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vloeistof waarin alles meereist</td></tr></table>",
+     "onderschrift": "Sport je, dan vragen je spieren meer zuurstof. Daarom klopt je hart dan sneller."
+    }
+   ]
+  },
+  {
+   "kop": "De ademhaling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Adem je door je <strong>neus</strong>, dan wordt de lucht verwarmd, bevochtigd en gefilterd: de haartjes en het slijm houden stof en ziektekiemen tegen. Via de <strong>luchtpijp</strong> komt de lucht in je <strong>longen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daar zitten honderden miljoenen <strong>longblaasjes</strong>. Daar gaat zuurstof naar je bloed en komt koolstofdioxide eruit. Allemaal samen hebben die blaasjes een oppervlakte zo groot als een tennisveld."
+    },
+    {
+     "soort": "weetje",
+     "html": "Onder je longen ligt het <strong>middenrif</strong>, een grote platte spier. Die trekt naar beneden en zuigt zo lucht binnen. De hik is niets anders dan een plotse samentrekking van die spier."
+    }
+   ]
+  },
+  {
+   "kop": "Botten en gewrichten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een volwassene heeft ongeveer <strong>206 botten</strong>. Een baby heeft er meer, ongeveer 300; tijdens het opgroeien groeien sommige aan elkaar vast."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Bot</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het beschermt of doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schedel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de hersenen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ribben</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het hart en de longen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wervelkolom</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het ruggenmerg, en ze houdt je recht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bekken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de organen onderaan de buik</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">arm- en beenbotten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dragen je gewicht en laten je bewegen</td></tr></table>",
+     "onderschrift": ""
+    },
+    {
+     "soort": "tekst",
+     "html": "Waar twee botten ten opzichte van elkaar kunnen bewegen, zit een <strong>gewricht</strong>: je knie, je elleboog, je schouder. Een laagje <strong>kraakbeen</strong> zorgt ervoor dat de botten er niet op elkaar schuren."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een bot is geen dood stuk steen. Binnenin zit <strong>beenmerg</strong>, en daar worden je bloedcellen aangemaakt."
+    }
+   ]
+  },
+  {
+   "kop": "Spieren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een spier kan maar één ding: <strong>samentrekken</strong>. Duwen kan ze niet. Daarom zitten spieren in paren."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 208\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"227.0\" height=\"192\" rx=\"10\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><text x=\"113.5\" y=\"26.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2f5d50\">arm geplooid</text><line x1=\"76\" y1=\"64\" x2=\"96\" y2=\"58\" stroke=\"#c0705f\" stroke-width=\"2.4\" opacity=\"0.8\"/><line x1=\"76\" y1=\"122\" x2=\"92\" y2=\"140\" stroke=\"#c0705f\" stroke-width=\"2.4\" opacity=\"0.8\"/><ellipse cx=\"76\" cy=\"93\" rx=\"11\" ry=\"29\" fill=\"#c0705f\" opacity=\"0.95\" stroke=\"#234539\" stroke-width=\"1.1\"/><text x=\"58.0\" y=\"91.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#234539\">buigspier</text><text x=\"58.0\" y=\"104.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#234539\">trekt samen</text><line x1=\"116\" y1=\"58\" x2=\"96\" y2=\"58\" stroke=\"#c0705f\" stroke-width=\"2.4\" opacity=\"0.8\"/><line x1=\"116\" y1=\"136\" x2=\"100\" y2=\"140\" stroke=\"#c0705f\" stroke-width=\"2.4\" opacity=\"0.8\"/><ellipse cx=\"116\" cy=\"97\" rx=\"6\" ry=\"39\" fill=\"#c0705f\" opacity=\"0.38\" stroke=\"#234539\" stroke-width=\"1.1\"/><text x=\"129.0\" y=\"95.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">strekspier</text><text x=\"129.0\" y=\"108.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">ontspant</text><line x1=\"96.0\" y1=\"58.0\" x2=\"96.0\" y2=\"136.0\" stroke=\"#234539\" stroke-width=\"13\" stroke-linecap=\"round\"/><line x1=\"96.0\" y1=\"58.0\" x2=\"96.0\" y2=\"136.0\" stroke=\"#efe7d6\" stroke-width=\"11\" stroke-linecap=\"round\"/><line x1=\"96.0\" y1=\"136.0\" x2=\"144.0\" y2=\"182.0\" stroke=\"#234539\" stroke-width=\"13\" stroke-linecap=\"round\"/><line x1=\"96.0\" y1=\"136.0\" x2=\"144.0\" y2=\"182.0\" stroke=\"#efe7d6\" stroke-width=\"11\" stroke-linecap=\"round\"/><circle cx=\"96\" cy=\"136\" r=\"6\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.5\"/><text x=\"82.0\" y=\"140.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">elleboog</text><rect x=\"243.0\" y=\"6\" width=\"227.0\" height=\"192\" rx=\"10\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><text x=\"356.5\" y=\"26.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2f5d50\">arm gestrekt</text><line x1=\"319.0\" y1=\"58\" x2=\"339.0\" y2=\"58\" stroke=\"#c0705f\" stroke-width=\"2.4\" opacity=\"0.8\"/><line x1=\"319.0\" y1=\"136\" x2=\"335.0\" y2=\"140\" stroke=\"#c0705f\" stroke-width=\"2.4\" opacity=\"0.8\"/><ellipse cx=\"319.0\" cy=\"97\" rx=\"6\" ry=\"39\" fill=\"#c0705f\" opacity=\"0.38\" stroke=\"#234539\" stroke-width=\"1.1\"/><text x=\"306.0\" y=\"95.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">buigspier</text><text x=\"306.0\" y=\"108.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">ontspant</text><line x1=\"359.0\" y1=\"64\" x2=\"339.0\" y2=\"58\" stroke=\"#c0705f\" stroke-width=\"2.4\" opacity=\"0.8\"/><line x1=\"359.0\" y1=\"122\" x2=\"343.0\" y2=\"140\" stroke=\"#c0705f\" stroke-width=\"2.4\" opacity=\"0.8\"/><ellipse cx=\"359.0\" cy=\"93\" rx=\"11\" ry=\"29\" fill=\"#c0705f\" opacity=\"0.95\" stroke=\"#234539\" stroke-width=\"1.1\"/><text x=\"377.0\" y=\"91.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#234539\">strekspier</text><text x=\"377.0\" y=\"104.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#234539\">trekt samen</text><line x1=\"339.0\" y1=\"58.0\" x2=\"339.0\" y2=\"136.0\" stroke=\"#234539\" stroke-width=\"13\" stroke-linecap=\"round\"/><line x1=\"339.0\" y1=\"58.0\" x2=\"339.0\" y2=\"136.0\" stroke=\"#efe7d6\" stroke-width=\"11\" stroke-linecap=\"round\"/><line x1=\"339.0\" y1=\"136.0\" x2=\"339.0\" y2=\"196.0\" stroke=\"#234539\" stroke-width=\"13\" stroke-linecap=\"round\"/><line x1=\"339.0\" y1=\"136.0\" x2=\"339.0\" y2=\"196.0\" stroke=\"#efe7d6\" stroke-width=\"11\" stroke-linecap=\"round\"/><circle cx=\"339.0\" cy=\"136\" r=\"6\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.5\"/><text x=\"325.0\" y=\"140.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">elleboog</text></svg>",
+     "onderschrift": "De buigspier plooit je arm, de strekspier strekt hem weer. Terwijl de ene trekt, ontspant de andere."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>pees</strong> is het stevige koordje dat een spier aan een bot vastmaakt. De achillespees, boven je hiel, is de dikste van je lichaam."
+    },
+    {
+     "soort": "tekst",
+     "html": "Sommige spieren stuur je zelf aan, zoals die in je armen en benen. Andere werken vanzelf, zonder dat je eraan denkt: je hartspier, je darmen en je middenrif."
+    }
+   ]
+  },
+  {
+   "kop": "Het zenuwstelsel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het zenuwstelsel bestaat uit de <strong>hersenen</strong>, het <strong>ruggenmerg</strong> en de <strong>zenuwen</strong>. De zenuwen zijn de draden die berichten heen en weer sturen, aan meer dan honderd meter per seconde."
+    },
+    {
+     "soort": "tekst",
+     "html": "Raak je iets heets aan, dan trek je je hand weg nog vóór je het beseft. Dat is een <strong>reflex</strong>: dat bericht gaat via het ruggenmerg en niet eerst langs de hersenen. Zo win je een fractie van een seconde, en dat scheelt bij een brandwonde. Pas daarna voel je de pijn."
+    }
+   ]
+  },
+  {
+   "kop": "De zintuigen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Zintuig</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe het werkt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zien</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de ogen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de pupil laat licht binnen, het netvlies vangt het beeld op</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">horen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de oren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het trommelvlies trilt mee met het geluid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ruiken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de neus</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geurdeeltjes uit de lucht komen op het slijmvlies</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">proeven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de tong</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">smaakpapillen herkennen zoet, zout, zuur en bitter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voelen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de huid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voelt aanraking, warmte, koude en pijn</td></tr></table>",
+     "onderschrift": "Vijf zintuigen. Je hebt daarnaast ook nog een gevoel voor evenwicht."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>pupil</strong> is het gaatje waar het licht binnenkomt. Bij fel licht knijpt hij dicht, in het donker gaat hij wijd open. Zo komt er nooit te veel of te weinig licht binnen."
+    },
+    {
+     "soort": "weetje",
+     "html": "Diep in je oor zitten kanaaltjes met vocht die voelen hoe je hoofd beweegt. Daarom helpt je oor je ook bij het evenwicht, en word je duizelig van rondtollen."
+    }
+   ]
+  },
+  {
+   "kop": "Nieren, blaas en huid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Je <strong>nieren</strong> filteren afvalstoffen uit je bloed en maken er <strong>urine</strong> van. Die wordt opgeslagen in de <strong>blaas</strong> tot je naar het toilet gaat."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>huid</strong> is het grootste orgaan van je hele lichaam. Ze houdt ziektekiemen buiten, regelt je temperatuur en voelt. <strong>Zweten</strong> koelt je af, want het zweet verdampt op je huid, en verdampen kost warmte."
+    }
+   ]
+  },
+  {
+   "kop": "Gezond leven",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarom</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gevarieerd eten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen enkel voedingsmiddel bevat alle stoffen die je nodig hebt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">genoeg drinken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je lichaam bestaat voor meer dan de helft uit water</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">9 tot 11 uur slaap</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je groeit in je slaap en je hersenen ruimen op wat je leerde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elke dag bewegen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">houdt je hart, je spieren en je botten sterk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee keer per dag tanden poetsen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tandbederf komt niet meer goed</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">handen wassen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de eenvoudigste manier om ziektekiemen tegen te houden</td></tr></table>",
+     "onderschrift": "Eiwitten om te bouwen, koolhydraten en vetten voor energie, vitaminen en mineralen om alles te laten werken."
+    }
+   ]
+  },
+  {
+   "kop": "Ziek worden en beter worden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>bacterie</strong> is een levend wezentje van één cel. Een <strong>virus</strong> is veel kleiner en kan zich alleen vermenigvuldigen binnenin een cel. Daarom werken antibiotica wel tegen bacteriën en niet tegen een virus, zoals een verkoudheid."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Koorts</strong> is geen pech maar een wapen: bij een hogere temperatuur werkt je afweer beter en hebben veel ziektekiemen het moeilijker."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>vaccin</strong> leert je afweersysteem een ziektekiem herkennen nog vóór je ziek wordt. Kom je de echte kiem later tegen, dan is je lichaam al voorbereid."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "De weg van je eten: mond, slokdarm, maag, dunne darm, dikke darm.",
+  "In de dunne darm gaan de voedingsstoffen naar je bloed; de dikke darm haalt er water uit.",
+  "Het hart heeft vier holten. Slagaders gaan wég van het hart, aders ernaartoe.",
+  "Rode bloedcellen vervoeren zuurstof, witte ruimen ziektekiemen op, bloedplaatjes dichten wondjes.",
+  "In de longblaasjes gaat zuurstof naar je bloed en komt koolstofdioxide eruit.",
+  "Een volwassene heeft ongeveer 206 botten; in het beenmerg wordt bloed aangemaakt.",
+  "Een spier kan alleen trekken. Daarom werken spieren in paren.",
+  "Een reflex loopt via het ruggenmerg, niet via de hersenen.",
+  "Vijf zintuigen: zien, horen, ruiken, proeven en voelen. De huid is je grootste orgaan.",
+  "De nieren filteren je bloed en maken urine.",
+  "Antibiotica werken op bacteriën, niet op een virus. Een vaccin leert je afweer een kiem herkennen."
+ ]
+}

@@ -1,0 +1,210 @@
+{
+ "vak": "Nederlands",
+ "titel": "Spelling",
+ "onder": "De regels die je het vaakst nodig hebt, met bij elke regel een voorbeeld.",
+ "secties": [
+  {
+   "kop": "Spelling is luisteren én kijken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Veel woorden schrijf je gewoon zoals je ze hoort. Bij een aantal woorden lukt dat niet: je hoort <i>hij wordt</i> en <i>hij word</i> precies hetzelfde. Voor die woorden bestaan er regels, en die regels zijn er niet om je te pesten: ze zorgen ervoor dat iedereen hetzelfde woord op dezelfde manier schrijft."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een woord bestaat uit <strong>lettergrepen</strong>: stukjes die je in één keer uitspreekt. Klap maar eens mee: <i>va-kan-tie</i> is drie klappen, <i>school</i> is er één. Bijna alle spellingregels beginnen bij die lettergrepen, dus het loont om eerst te leren klappen."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Klinkers</strong> zijn a, e, i, o, u (en y). Alle andere letters zijn <strong>medeklinkers</strong>. Elke lettergreep heeft minstens één klinker — daarom kan je <i>str</i> niet uitspreken en <i>stra</i> wel."
+    }
+   ]
+  },
+  {
+   "kop": "Open en gesloten lettergrepen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Verdeel een woord in lettergrepen en kijk naar de <strong>eerste</strong>. Eindigt die op een klinker, dan is ze <strong>open</strong>. Eindigt ze op een medeklinker, dan is ze <strong>gesloten</strong>. Dat verschil bepaalt of je een letter verdubbelt."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 214\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"222\" height=\"190\" rx=\"12\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><path d=\"M10 19 a9 9 0 0 1 9 -9 h204 a9 9 0 0 1 9 9 v19 h-222 Z\" fill=\"#2f5d50\"/><text x=\"121.0\" y=\"33.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#ffffff\">open lettergreep</text><text x=\"121.0\" y=\"56.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">eindigt op een klinker</text><rect x=\"24\" y=\"68\" width=\"50\" height=\"30\" rx=\"8\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"49.0\" y=\"87.5\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#2f5d50\">ra</text><rect x=\"78\" y=\"68\" width=\"50\" height=\"30\" rx=\"8\" fill=\"#ffffff\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"103.0\" y=\"87.5\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" fill=\"#6b7260\">men</text><line x1=\"134\" y1=\"83\" x2=\"144\" y2=\"83\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><polygon points=\"150,83 142,78.5 142,87.5\" fill=\"#2f5d50\"/><text x=\"220.0\" y=\"88.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">ramen</text><rect x=\"24\" y=\"128\" width=\"50\" height=\"30\" rx=\"8\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"49.0\" y=\"147.5\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#2f5d50\">bo</text><rect x=\"78\" y=\"128\" width=\"50\" height=\"30\" rx=\"8\" fill=\"#ffffff\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"103.0\" y=\"147.5\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" fill=\"#6b7260\">men</text><line x1=\"134\" y1=\"143\" x2=\"144\" y2=\"143\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><polygon points=\"150,143 142,138.5 142,147.5\" fill=\"#2f5d50\"/><text x=\"220.0\" y=\"148.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">bomen</text><text x=\"121.0\" y=\"190.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#2f5d50\">één medeklinker, lange klank</text><rect x=\"238\" y=\"10\" width=\"222\" height=\"190\" rx=\"12\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><path d=\"M238 19 a9 9 0 0 1 9 -9 h204 a9 9 0 0 1 9 9 v19 h-222 Z\" fill=\"#c17f2b\"/><text x=\"349.0\" y=\"33.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#ffffff\">gesloten lettergreep</text><text x=\"349.0\" y=\"56.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">eindigt op een medeklinker</text><rect x=\"252\" y=\"68\" width=\"50\" height=\"30\" rx=\"8\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"277.0\" y=\"87.5\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#c17f2b\">ram</text><rect x=\"306\" y=\"68\" width=\"50\" height=\"30\" rx=\"8\" fill=\"#ffffff\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"331.0\" y=\"87.5\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" fill=\"#6b7260\">men</text><line x1=\"362\" y1=\"83\" x2=\"372\" y2=\"83\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><polygon points=\"378,83 370,78.5 370,87.5\" fill=\"#c17f2b\"/><text x=\"448.0\" y=\"88.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">rammen</text><rect x=\"252\" y=\"128\" width=\"50\" height=\"30\" rx=\"8\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"277.0\" y=\"147.5\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#c17f2b\">bom</text><rect x=\"306\" y=\"128\" width=\"50\" height=\"30\" rx=\"8\" fill=\"#ffffff\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"331.0\" y=\"147.5\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" fill=\"#6b7260\">men</text><line x1=\"362\" y1=\"143\" x2=\"372\" y2=\"143\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><polygon points=\"378,143 370,138.5 370,147.5\" fill=\"#c17f2b\"/><text x=\"448.0\" y=\"148.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">bommen</text><text x=\"349.0\" y=\"190.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#c17f2b\">twee medeklinkers, korte klank</text></svg>",
+     "onderschrift": "Dezelfde letters, één medeklinker verschil, en een heel ander woord."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>open</strong> lettergreep klinkt de klinker lang, en schrijf je hem toch maar één keer: <i>ra-men</i>, <i>bo-men</i>, <i>de-len</i>. In een <strong>gesloten</strong> lettergreep klinkt hij kort, en verdubbel je de medeklinker erachter: <i>ram-men</i>, <i>bom-men</i>, <i>bel-len</i>."
+    },
+    {
+     "soort": "weetje",
+     "html": "Twijfel je? Zeg het meervoud hardop. Hoor je <i>raa-men</i> met een lange aa, dan is het één m. Hoor je <i>ram-men</i> kort, dan zijn het er twee."
+    }
+   ]
+  },
+  {
+   "kop": "De stam van een werkwoord",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Om een werkwoord goed te schrijven, heb je de <strong>stam</strong> nodig. Die vind je zo: neem het hele werkwoord en haal <i>-en</i> weg. <i>Werken</i> wordt <i>werk</i>, <i>lopen</i> wordt <i>loop</i>, <i>bouwen</i> wordt <i>bouw</i>."
+    },
+    {
+     "soort": "kader",
+     "html": "Let op bij <i>lopen</i>. Haal je <i>-en</i> weg, dan blijft <i>lop</i> over, en dat is een gesloten lettergreep met een korte o. Je hoort een lange oo, dus schrijf je de klinker dubbel: <strong>loop</strong>. Zo ook <i>eten → eet</i> en <i>nemen → neem</i>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Nog een vuistregel: de stam is wat je zegt na <strong>ik</strong>. Ik werk, ik loop, ik bouw, ik eet. Dat werkt bijna altijd, en het is sneller dan tellen."
+    }
+   ]
+  },
+  {
+   "kop": "Werkwoorden in de tegenwoordige tijd",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Gebeurt het nu, dan hangt het van de persoon af of er een <strong>-t</strong> achter de stam komt."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 228\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"14.0\" y=\"22.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">wie doet het?</text><text x=\"190.0\" y=\"22.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">wat schrijf je?</text><text x=\"348.0\" y=\"22.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">voorbeeld</text><rect x=\"14\" y=\"34\" width=\"160\" height=\"34\" rx=\"8\" fill=\"#ffffff\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"94.0\" y=\"54.8\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">ik</text><line x1=\"178\" y1=\"51\" x2=\"186\" y2=\"51\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><polygon points=\"192,51 184,46.5 184,55.5\" fill=\"#2f5d50\"/><rect x=\"196\" y=\"34\" width=\"142\" height=\"34\" rx=\"8\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"267.0\" y=\"55.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#2f5d50\">stam</text><line x1=\"342\" y1=\"51\" x2=\"350\" y2=\"51\" stroke=\"#6b7260\" stroke-width=\"1.8\"/><polygon points=\"356,51 348,46.5 348,55.5\" fill=\"#6b7260\"/><text x=\"362.0\" y=\"56.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">ik word</text><rect x=\"14\" y=\"80\" width=\"160\" height=\"34\" rx=\"8\" fill=\"#ffffff\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"94.0\" y=\"100.8\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">jij, hij, zij, u</text><line x1=\"178\" y1=\"97\" x2=\"186\" y2=\"97\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><polygon points=\"192,97 184,92.5 184,101.5\" fill=\"#c17f2b\"/><rect x=\"196\" y=\"80\" width=\"142\" height=\"34\" rx=\"8\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"267.0\" y=\"101.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">stam + t</text><line x1=\"342\" y1=\"97\" x2=\"350\" y2=\"97\" stroke=\"#6b7260\" stroke-width=\"1.8\"/><polygon points=\"356,97 348,92.5 348,101.5\" fill=\"#6b7260\"/><text x=\"362.0\" y=\"102.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">jij wordt</text><rect x=\"14\" y=\"126\" width=\"160\" height=\"34\" rx=\"8\" fill=\"#ffffff\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"94.0\" y=\"146.8\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">jij ná het werkwoord</text><line x1=\"178\" y1=\"143\" x2=\"186\" y2=\"143\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><polygon points=\"192,143 184,138.5 184,147.5\" fill=\"#2f5d50\"/><rect x=\"196\" y=\"126\" width=\"142\" height=\"34\" rx=\"8\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"267.0\" y=\"147.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#2f5d50\">stam</text><line x1=\"342\" y1=\"143\" x2=\"350\" y2=\"143\" stroke=\"#6b7260\" stroke-width=\"1.8\"/><polygon points=\"356,143 348,138.5 348,147.5\" fill=\"#6b7260\"/><text x=\"362.0\" y=\"148.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">word jij?</text><rect x=\"14\" y=\"172\" width=\"160\" height=\"34\" rx=\"8\" fill=\"#ffffff\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"94.0\" y=\"192.8\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">wij, jullie, zij</text><line x1=\"178\" y1=\"189\" x2=\"186\" y2=\"189\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><polygon points=\"192,189 184,184.5 184,193.5\" fill=\"#2f5d50\"/><rect x=\"196\" y=\"172\" width=\"142\" height=\"34\" rx=\"8\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"267.0\" y=\"193.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#2f5d50\">hele werkwoord</text><line x1=\"342\" y1=\"189\" x2=\"350\" y2=\"189\" stroke=\"#6b7260\" stroke-width=\"1.8\"/><polygon points=\"356,189 348,184.5 348,193.5\" fill=\"#6b7260\"/><text x=\"362.0\" y=\"194.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">wij worden</text></svg>",
+     "onderschrift": "De derde regel is de lastigste: staat <i>jij</i> achter het werkwoord, dan valt de t weg."
+    },
+    {
+     "soort": "tekst",
+     "html": "Die derde regel zie je vooral in vragen. <i>Jij wordt boos</i>, maar <i>word jij boos?</i> En ook in een zin als <i>Wat word jij later?</i> — <i>jij</i> staat achter het werkwoord, dus geen t."
+    },
+    {
+     "soort": "weetje",
+     "html": "De fout die het vaakst gemaakt wordt is <i>hij vind</i> in plaats van <i>hij vindt</i>. De stam is <i>vind</i>, en <i>hij</i> krijgt er een t bij. Dat de d en de t naast elkaar staan, verandert daar niets aan."
+    }
+   ]
+  },
+  {
+   "kop": "Werkwoorden in de verleden tijd",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Gebeurde het vroeger, dan komt er <strong>-te(n)</strong> of <strong>-de(n)</strong> achter de stam. Welke van de twee, dat verklapt een oud ezelsbruggetje: <strong>'t kofschip</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 276\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M0 122 q39 -7 78 0 q39 7 78 0 q39 -7 78 0 q39 7 78 0 q39 -7 78 0 q39 7 78 0\" fill=\"none\" stroke=\"#9dc3d8\" stroke-width=\"3.4\"/><path d=\"M168 122 L302 122 L286 146 L184 146 Z\" fill=\"#234539\"/><line x1=\"212\" y1=\"30\" x2=\"212\" y2=\"122\" stroke=\"#6b4f2a\" stroke-width=\"4\"/><path d=\"M217 34 L217 116 L297 116 Z\" fill=\"#c17f2b\" opacity=\"0.85\"/><path d=\"M207 40 L207 116 L158 116 Z\" fill=\"#c17f2b\" opacity=\"0.45\"/><circle cx=\"212\" cy=\"26\" r=\"4\" fill=\"#234539\"/><text x=\"235.0\" y=\"168.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#23291f\">Eindigt de stam op een van deze letters?</text><rect x=\"53.0\" y=\"180\" width=\"54\" height=\"32\" rx=\"8\" fill=\"#c17f2b\" opacity=\"0.16\"/><rect x=\"53.0\" y=\"180\" width=\"54\" height=\"32\" rx=\"8\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"80.0\" y=\"202.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"15\" font-weight=\"600\" fill=\"#c17f2b\">t</text><rect x=\"115.0\" y=\"180\" width=\"54\" height=\"32\" rx=\"8\" fill=\"#c17f2b\" opacity=\"0.16\"/><rect x=\"115.0\" y=\"180\" width=\"54\" height=\"32\" rx=\"8\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"142.0\" y=\"202.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"15\" font-weight=\"600\" fill=\"#c17f2b\">k</text><rect x=\"177.0\" y=\"180\" width=\"54\" height=\"32\" rx=\"8\" fill=\"#c17f2b\" opacity=\"0.16\"/><rect x=\"177.0\" y=\"180\" width=\"54\" height=\"32\" rx=\"8\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"204.0\" y=\"202.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"15\" font-weight=\"600\" fill=\"#c17f2b\">f</text><rect x=\"239.0\" y=\"180\" width=\"54\" height=\"32\" rx=\"8\" fill=\"#c17f2b\" opacity=\"0.16\"/><rect x=\"239.0\" y=\"180\" width=\"54\" height=\"32\" rx=\"8\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"266.0\" y=\"202.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"15\" font-weight=\"600\" fill=\"#c17f2b\">s</text><rect x=\"301.0\" y=\"180\" width=\"54\" height=\"32\" rx=\"8\" fill=\"#c17f2b\" opacity=\"0.16\"/><rect x=\"301.0\" y=\"180\" width=\"54\" height=\"32\" rx=\"8\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"328.0\" y=\"202.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"15\" font-weight=\"600\" fill=\"#c17f2b\">ch</text><rect x=\"363.0\" y=\"180\" width=\"54\" height=\"32\" rx=\"8\" fill=\"#c17f2b\" opacity=\"0.16\"/><rect x=\"363.0\" y=\"180\" width=\"54\" height=\"32\" rx=\"8\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"390.0\" y=\"202.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"15\" font-weight=\"600\" fill=\"#c17f2b\">p</text><rect x=\"16\" y=\"228\" width=\"210\" height=\"42\" rx=\"10\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"32.0\" y=\"247.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#c17f2b\">ja: -te en -t</text><text x=\"32.0\" y=\"262.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">werken → werkte, gewerkt</text><rect x=\"244\" y=\"228\" width=\"210\" height=\"42\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"260.0\" y=\"247.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2f5d50\">nee: -de en -d</text><text x=\"260.0\" y=\"262.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">leren → leerde, geleerd</text></svg>",
+     "onderschrift": "Eindigt de stam op t, k, f, s, ch of p, dan is het -te. In alle andere gevallen -de."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zo: <i>werken → ik werkte</i> (k zit in 't kofschip), <i>leren → ik leerde</i> (r zit er niet in). Met meer dan één persoon wordt het <i>-ten</i> of <i>-den</i>: <i>wij werkten</i>, <i>wij leerden</i>."
+    },
+    {
+     "soort": "kader",
+     "html": "Luister naar de <strong>klank</strong> van de stam, niet naar de letter. <i>Verhuizen</i> heeft als stam <i>verhuis</i>, maar de laatste klank is een z, en die zit niet in 't kofschip: <i>ik verhuisde</i>. Zo ook <i>geloven → ik geloofde</i>."
+    }
+   ]
+  },
+  {
+   "kop": "Het voltooid deelwoord",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het voltooid deelwoord is de vorm na <i>heb</i>, <i>heeft</i>, <i>ben</i> of <i>is</i>: <i>ik heb gewerkt</i>. Je maakt hem met <strong>ge-</strong> vooraan en <strong>-d</strong> of <strong>-t</strong> achteraan, en welke van die twee zegt opnieuw 't kofschip."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Werkwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Laatste klank</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voltooid deelwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">werken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">werk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">k — in 't kofschip</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gewerk<b>t</b></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">leren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">leer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">r — niet erin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geleer<b>d</b></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hopen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoop</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">p — in 't kofschip</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gehoop<b>t</b></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">reizen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">reis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">z-klank — niet erin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gereis<b>d</b></td></tr></table>"
+    },
+    {
+     "soort": "weetje",
+     "html": "Twijfel je tussen <i>-d</i> en <i>-t</i>? Zet er een woord achter dat met een klinker begint: <i>de geleerde man</i>, <i>het gewerkte uur</i>. Nu hoor je het verschil wel."
+    }
+   ]
+  },
+  {
+   "kop": "Meervoud",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De meeste woorden krijgen <strong>-en</strong>: <i>boek → boeken</i>. Daarbij gelden gewoon de regels van de lettergrepen, dus <i>bal → ballen</i> maar <i>raam → ramen</i>."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitgang</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wanneer</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-en</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de gewone manier</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">boek → boeken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-s</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">na -el, -em, -en, -er, -je</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tafel → tafels</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">'s</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">na een losse a, i, o, u of y</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oma → oma's</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-eren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij een handvol oude woorden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kind → kinderen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat apostrofje bij <i>oma's</i> staat er om de klank te redden. Zonder streepje zou je <i>omas</i> lezen met een korte a. Bij <i>auto's</i>, <i>menu's</i> en <i>taxi's</i> is het net zo."
+    }
+   ]
+  },
+  {
+   "kop": "Verkleinwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een verkleinwoord maak je met <strong>-je</strong>, maar afhankelijk van de klank ervoor verandert die uitgang een beetje. Je hoort het meestal vanzelf."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 146\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"17.0\" y=\"20\" width=\"76\" height=\"38\" rx=\"10\" fill=\"#2f5d50\" opacity=\"0.10\"/><rect x=\"17.0\" y=\"20\" width=\"76\" height=\"38\" rx=\"10\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"55.0\" y=\"46.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"15\" font-weight=\"600\" fill=\"#2f5d50\">-je</text><text x=\"55.0\" y=\"82.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#6b7260\">boek</text><text x=\"55.0\" y=\"104\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\"><tspan fill=\"#23291f\">boek</tspan><tspan fill=\"#c17f2b\">je</tspan></text><path d=\"M55.0 88 v8\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><rect x=\"107.0\" y=\"20\" width=\"76\" height=\"38\" rx=\"10\" fill=\"#2f5d50\" opacity=\"0.10\"/><rect x=\"107.0\" y=\"20\" width=\"76\" height=\"38\" rx=\"10\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"145.0\" y=\"46.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"15\" font-weight=\"600\" fill=\"#2f5d50\">-tje</text><text x=\"145.0\" y=\"82.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#6b7260\">stoel</text><text x=\"145.0\" y=\"104\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\"><tspan fill=\"#23291f\">stoel</tspan><tspan fill=\"#c17f2b\">tje</tspan></text><path d=\"M145.0 88 v8\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><rect x=\"197.0\" y=\"20\" width=\"76\" height=\"38\" rx=\"10\" fill=\"#2f5d50\" opacity=\"0.10\"/><rect x=\"197.0\" y=\"20\" width=\"76\" height=\"38\" rx=\"10\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"46.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"15\" font-weight=\"600\" fill=\"#2f5d50\">-pje</text><text x=\"235.0\" y=\"82.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#6b7260\">boom</text><text x=\"235.0\" y=\"104\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\"><tspan fill=\"#23291f\">boom</tspan><tspan fill=\"#c17f2b\">pje</tspan></text><path d=\"M235.0 88 v8\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><rect x=\"287.0\" y=\"20\" width=\"76\" height=\"38\" rx=\"10\" fill=\"#2f5d50\" opacity=\"0.10\"/><rect x=\"287.0\" y=\"20\" width=\"76\" height=\"38\" rx=\"10\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"325.0\" y=\"46.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"15\" font-weight=\"600\" fill=\"#2f5d50\">-etje</text><text x=\"325.0\" y=\"82.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#6b7260\">bal</text><text x=\"325.0\" y=\"104\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\"><tspan fill=\"#23291f\">bal</tspan><tspan fill=\"#c17f2b\">letje</tspan></text><path d=\"M325.0 88 v8\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><rect x=\"377.0\" y=\"20\" width=\"76\" height=\"38\" rx=\"10\" fill=\"#2f5d50\" opacity=\"0.10\"/><rect x=\"377.0\" y=\"20\" width=\"76\" height=\"38\" rx=\"10\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"415.0\" y=\"46.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"15\" font-weight=\"600\" fill=\"#2f5d50\">-kje</text><text x=\"415.0\" y=\"82.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#6b7260\">koning</text><text x=\"415.0\" y=\"104\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\"><tspan fill=\"#23291f\">konin</tspan><tspan fill=\"#c17f2b\">kje</tspan></text><path d=\"M415.0 88 v8\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><text x=\"235.0\" y=\"132.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">Welke uitgang het wordt, hoor je aan de klank ervoor. Bij koning verdwijnt de g.</text></svg>",
+     "onderschrift": "Zeg het woord hardop; bijna altijd kies je vanzelf de juiste uitgang."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een verkleinwoord is altijd <strong>het</strong>: het boekje, het stoeltje, het meisje. Ook als het grondwoord <i>de</i> had — <i>de stoel</i>, maar <i>het stoeltje</i>."
+    }
+   ]
+  },
+  {
+   "kop": "Woorden die op elkaar lijken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Sommige klanken kan je op twee manieren schrijven. Daar helpt geen regel bij: die woorden moet je leren kennen. Deze zie je het vaakst."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Klank</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">De ene manier</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">De andere manier</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ei / ij</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ei: trein, klein, eind</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ij: tijd, wijs, blij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">au / ou</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">au: pauw, saus, blauw</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ou: koud, hout, vrouw</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ch / g</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ch: lachen, nacht, echt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">g: dragen, vogel, groot</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">c / k</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">c: cirkel, citroen, cent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">k: kat, kist, kost</td></tr></table>"
+    },
+    {
+     "soort": "weetje",
+     "html": "De c spreek je uit als een s voor een e, i of y (<i>cent</i>, <i>cirkel</i>) en als een k voor een a, o of u (<i>cacao</i>, <i>computer</i>). Dat is geen toeval: die woorden komen uit het Latijn en het Frans."
+    }
+   ]
+  },
+  {
+   "kop": "Hoofdletters en samenstellingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>hoofdletter</strong> zet je vooraan in een zin, bij namen van mensen, plaatsen, landen en talen, en bij feestdagen. Dus: <i>Lien woont in Hasselt en spreekt Nederlands.</i> Namen van dagen en maanden krijgen er in het Nederlands géén: <i>maandag</i>, <i>april</i>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee woorden die samen één woord worden, schrijf je <strong>aan elkaar</strong>: <i>voetbal</i>, <i>tandarts</i>, <i>schoolbus</i>. Soms komt er een letter tussen."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Tussen-n:</strong> denk aan het meervoud van het eerste woord. Eén pan, veel pannen → <i>pannenkoek</i>. Eén zon maar, dus <i>zonneschijn</i> — toch met n, want die uitzondering is afgesproken.<br><strong>Tussen-s:</strong> hoor je een s, dan schrijf je er een: <i>stationschef</i>, <i>dorpsstraat</i>, <i>verkeersbord</i>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"49.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">hoor je</text><text x=\"49.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">één woord?</text><path d=\"M103.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"124.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"173.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">schrijf het</text><text x=\"173.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">aan elkaar</text><path d=\"M227.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"248.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"297.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">hoor je een</text><text x=\"297.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">tussenklank?</text><path d=\"M351.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"372.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"421.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">schrijf die</text><text x=\"421.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">erbij</text></svg>",
+     "onderschrift": "Bij twijfel: spreek de samenstelling uit en luister naar wat er in het midden gebeurt."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Open lettergreep = eindigt op een klinker = één medeklinker: ra-men.",
+  "Gesloten lettergreep = eindigt op een medeklinker = verdubbelen: ram-men.",
+  "De stam is het hele werkwoord min -en, of gewoon: wat je zegt na ik.",
+  "Nu: ik = stam, jij/hij/zij/u = stam + t, wij/jullie/zij = hele werkwoord.",
+  "Staat jij ná het werkwoord, dan valt de t weg: word jij?",
+  "Vroeger: 't kofschip. Stam eindigt op t, k, f, s, ch of p → -te, anders -de.",
+  "Voltooid deelwoord: ge- vooraan, en -t of -d volgens 't kofschip.",
+  "Meervoud: meestal -en, na -el/-em/-en/-er/-je een -s, na een losse klinker 's.",
+  "Een verkleinwoord is altijd het: het stoeltje, ook al is het de stoel.",
+  "Hoofdletters bij namen, landen en talen; niet bij dagen en maanden."
+ ]
+}

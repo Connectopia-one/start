@@ -1,0 +1,136 @@
+{
+ "vak": "Nederlands",
+ "titel": "Taalsysteem en taalgebruik",
+ "onder": "Woordsoorten, zinsdelen en de spellingregels die je het vaakst nodig hebt.",
+ "secties": [
+  {
+   "kop": "Woordsoorten",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zelfstandig naamwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">noemt een ding, dier of persoon</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hond, school, Lien</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">werkwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zegt wat er gebeurt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lopen, zijn, denken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bijvoeglijk naamwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zegt hoe iets is</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">groot, rood, stil</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lidwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">staat voor een naamwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de, het, een</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voornaamwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vervangt een naamwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik, jij, hem, dit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorzetsel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zegt waar of wanneer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">op, in, onder, na</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bijwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zegt iets over het werkwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">snel, gisteren, graag</td></tr></table>",
+     "onderschrift": "Een goede test voor een werkwoord: kan je er ik, jij of wij voor zetten?"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het verschil tussen een bijvoeglijk naamwoord en een bijwoord zit in waar het iets over zegt. In <em>een snelle auto</em> zegt <em>snelle</em> iets over de auto: bijvoeglijk naamwoord. In <em>hij loopt snel</em> zegt <em>snel</em> iets over het lopen: bijwoord."
+    }
+   ]
+  },
+  {
+   "kop": "De zin uit elkaar halen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 70\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"4.0\" y=\"4\" width=\"208.9\" height=\"34\" rx=\"8\" fill=\"#2f5d5022\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"108.5\" y=\"26\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#234539\">De grote hond</text><text x=\"108.5\" y=\"55\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#2f5d50\">onderwerp</text><rect x=\"218.9\" y=\"4\" width=\"80.4\" height=\"34\" rx=\"8\" fill=\"#c17f2b22\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"259.1\" y=\"26\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#234539\">blaft</text><text x=\"259.1\" y=\"55\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#c17f2b\">persoonsvorm</text><rect x=\"305.3\" y=\"4\" width=\"160.7\" height=\"34\" rx=\"8\" fill=\"#3b6ea522\" stroke=\"#3b6ea5\" stroke-width=\"1.6\"/><text x=\"385.6\" y=\"26\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#234539\">in de tuin</text><text x=\"385.6\" y=\"55\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#3b6ea5\">bepaling</text></svg>",
+     "onderschrift": "Wie of wat blaft? De grote hond. Dat is het onderwerp."
+    },
+    {
+     "soort": "kader",
+     "html": "<p style='margin:0 0 4px'><strong>De persoonsvorm vinden:</strong> maak van de zin een vraag. Het werkwoord dat dan vooraan springt, is de persoonsvorm. <em>Blaft de grote hond in de tuin?</em></p><p style='margin:0'><strong>Het onderwerp vinden:</strong> vraag <em>wie of wat</em> + de persoonsvorm.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>gezegde</strong> is wat er over het onderwerp gezegd wordt: het werkwoordelijke deel van de zin. In <em>Mats leest een boek</em> is <em>Mats</em> het onderwerp en <em>leest</em> het gezegde."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>lijdend voorwerp</strong> vind je met de vraag <em>wie of wat</em> + gezegde + onderwerp. Wat leest Mats? Een boek. Dat is dus het lijdend voorwerp."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort zin</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waaraan je hem herkent</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mededelend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eindigt op een punt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">De kat slaapt.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vragend (een vraagzin)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">werkwoord vooraan, vraagteken achteraan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Slaapt de kat?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bevelend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">begint met het werkwoord, geen onderwerp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Kom hier.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uitroepend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eindigt op een uitroepteken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wat een mooie kat!</td></tr></table>",
+     "onderschrift": "Het werkwoord past zich aan het onderwerp aan: in het enkelvoud slaapt één kat, in het meervoud slapen twee katten."
+    }
+   ]
+  },
+  {
+   "kop": "Werkwoordspelling",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><text x=\"69.7\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Zoek de stam</text><text x=\"69.7\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">hele werkwoord min -en</text><path d=\"M144.33333333333334 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#c17f2b\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"165.3\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Welke tijd?</text><text x=\"235.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">nu of vroeger</text><path d=\"M309.6666666666667 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#c17f2b\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"330.7\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><text x=\"400.3\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Pas de regel toe</text><text x=\"400.3\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">stam + t, of -te/-de</text></svg>",
+     "onderschrift": "Werken → stam werk. Nu: ik werk, jij werkt. Vroeger: ik werkte."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>'t kofschip</strong>: eindigt de stam op t, k, f, s, ch of p (en ook x), dan wordt de verleden tijd <strong>-te</strong>. In alle andere gevallen <strong>-de</strong>."
+    },
+    {
+     "soort": "weetje",
+     "html": "De t van <em>jij werkt</em> valt weg als jij <em>achter</em> het werkwoord staat: <em>Werk jij vandaag?</em> Dat is de fout die het vaakst gemaakt wordt."
+    }
+   ]
+  },
+  {
+   "kop": "Meervoud en verkleinwoord",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Regel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meestal -en</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">boek → boeken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">soms -s</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tafel → tafels, meisje → meisjes</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">klinker verdubbelt niet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">raam → ramen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">medeklinker verdubbelt wel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pot → potten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verkleinwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">boek → boekje, raam → raampje</td></tr></table>",
+     "onderschrift": "Of het -en of -s wordt, hoor je meestal: zeg het luidop."
+    }
+   ]
+  },
+  {
+   "kop": "Lettergrepen en woordvorming",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>lettergreep</strong> is een stukje woord dat je in één keer uitspreekt. Klap mee met je handen terwijl je het woord zegt, dan tel je ze vanzelf: <em>va-kan-tie</em> is drie, <em>com-pu-ter</em> ook drie."
+    },
+    {
+     "soort": "tekst",
+     "html": "Nieuwe woorden maak je op twee manieren:"
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Manier</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe het werkt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">samenstelling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee bestaande woorden aan elkaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">boek + kast = boekenkast</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">afleiding</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een stukje ervoor of erachter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">snel + -heid = snelheid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">on- + bereikbaar = onbereikbaar</td></tr></table>",
+     "onderschrift": "Bij een samenstelling kan je allebei de stukken los gebruiken, bij een afleiding niet: -heid bestaat niet op zichzelf."
+    },
+    {
+     "soort": "weetje",
+     "html": "Woorden die bij elkaar horen noem je een woordveld. Fiets, auto en trein horen samen: het zijn vervoermiddelen. Boom hoort er niet bij."
+    }
+   ]
+  },
+  {
+   "kop": "Uitdrukkingen en gezegden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Sommige zinnetjes betekenen iets heel anders dan wat er letterlijk staat. Je kan ze niet uitrekenen, je moet ze kennen — en ze maken je taal levendig."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitdrukking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kat uit de boom kijken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eerst afwachten hoe de zaken staan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een appeltje voor de dorst</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets opzijzetten voor later, meestal geld</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de draad kwijt zijn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet meer weten waar je was</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met de deur in huis vallen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meteen zeggen waarvoor je komt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ergens geen kaas van gegeten hebben</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er niets van kennen</td></tr></table>",
+     "onderschrift": "Kom je er een tegen die je niet kent, vraag er dan naar. Raden loopt vaak mis."
+    }
+   ]
+  },
+  {
+   "kop": "Hoofdletters",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een hoofdletter krijg je aan het begin van een zin, bij namen van mensen, bij landen, steden en talen, en bij feestdagen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Géén hoofdletter bij dagen en maanden — dat is net het verschil met het Engels. Bij ons: maandag, december. In het Engels: Monday, December."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Werkwoord? Zet er ik, jij of wij voor.",
+  "Persoonsvorm vinden: maak van de zin een vraag.",
+  "Onderwerp vinden: wie of wat + de persoonsvorm.",
+  "'t kofschip beslist tussen -te en -de.",
+  "Staat jij achter het werkwoord, dan valt de t weg.",
+  "Dagen en maanden krijgen in het Nederlands géén hoofdletter.",
+  "Lijdend voorwerp: wie of wat + gezegde + onderwerp.",
+  "Lettergrepen tel je door mee te klappen.",
+  "Samenstelling: twee losse woorden. Afleiding: een stukje ervoor of erachter."
+ ]
+}

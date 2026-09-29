@@ -1,0 +1,138 @@
+{
+ "vak": "Wiskunde",
+ "titel": "Bewerkingen",
+ "onder": "Optellen, aftrekken, vermenigvuldigen en delen — en in welke volgorde.",
+ "secties": [
+  {
+   "kop": "De volgorde van de bewerkingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Staan er in één som verschillende bewerkingen, dan mag je niet zomaar van links naar rechts werken. Er is een vaste volgorde."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"69.7\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Haakjes</text><text x=\"69.7\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">eerst ( ) uitrekenen</text><path d=\"M144.33333333333334 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"165.3\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Maal en delen</text><text x=\"235.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">× en :</text><path d=\"M309.6666666666667 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"330.7\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"400.3\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Plus en min</text><text x=\"400.3\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">+ en −</text></svg>",
+     "onderschrift": "Bij 20 − 5 × 2 reken je dus eerst 5 × 2 = 10, en pas daarna 20 − 10 = 10."
+    },
+    {
+     "soort": "tekst",
+     "html": "Haakjes zijn daarbij de baas: <strong>(12 − 4) × 5 = 40</strong>, maar zonder haakjes wordt 12 − 4 × 5 iets helemaal anders."
+    }
+   ]
+  },
+  {
+   "kop": "Optellen en aftrekken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij het cijferen zet je de getallen onder elkaar, met de eenheden onder de eenheden. Kom je boven de 10, dan schuift er 1 door naar de kolom links."
+    },
+    {
+     "soort": "kader",
+     "html": "<p style='margin:0 0 5px'><strong>476 + 358</strong> → 6+8 = 14, schrijf 4 en onthoud 1 · 7+5+1 = 13, schrijf 3 en onthoud 1 · 4+3+1 = 8. Samen <strong>834</strong>.</p><p style='margin:0'><strong>900 − 237</strong> → makkelijker in stappen: 900 − 200 = 700, dan − 37 = <strong>663</strong>.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij optellen mag je de getallen van plaats wisselen, bij aftrekken niet. 7 + 3 en 3 + 7 zijn gelijk, maar 9 − 4 en 4 − 9 zeker niet."
+    }
+   ]
+  },
+  {
+   "kop": "Vermenigvuldigen met een omweg",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Grote maaltafels worden makkelijk als je ze in stukken hakt of een slimme omweg neemt."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Som</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Handige omweg</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitkomst</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">37 × 4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">30 × 4 = 120 en 7 × 4 = 28</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">148</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">16 × 50</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">16 × 100 = 1 600, dan : 2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">800</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 250 : 5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">× 2 = 2 500, dan : 10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">250</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">24 × 25</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">24 : 4 = 6, dan × 100</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">600</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,25 × 80</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vierde van 80</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20</td></tr></table>",
+     "onderschrift": "Niet elke som vraagt om cijferen; vaak is omdenken sneller."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ook handig: maal 0 geeft altijd 0, en delen door 1 verandert niets."
+    }
+   ]
+  },
+  {
+   "kop": "Delen, stap voor stap",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een grote deling hoef je niet in één keer te zien. Hak het getal in stukken die je wél kent, deel die apart, en tel de uitkomsten op."
+    },
+    {
+     "soort": "kader",
+     "html": "<p style='margin:0 0 5px'><strong>756 : 7</strong> → 700 : 7 = 100 en 56 : 7 = 8. Samen <strong>108</strong>.</p><p style='margin:0'><strong>924 : 4</strong> → 800 : 4 = 200, 120 : 4 = 30 en 4 : 4 = 1. Samen <strong>231</strong>.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Pas op voor de nul in het midden. Bij <strong>832 : 8</strong> gaat 8 één keer in de 8, nul keer in de 3, en vier keer in de 32. Dat geeft <strong>104</strong>, niet 14. Wie de nul vergeet te schrijven, komt tien keer te laag uit."
+    }
+   ]
+  },
+  {
+   "kop": "Rekenen met breuken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Hebben twee breuken dezelfde noemer, dan tel je gewoon de tellers op of trek je ze af. De noemer blijft staan."
+    },
+    {
+     "soort": "kader",
+     "html": "<p style='margin:0 0 4px'><strong>3/4 − 1/4 = 2/4</strong>, en dat kan je vereenvoudigen tot <strong>1/2</strong>.</p><p style='margin:0'><strong>2/3 van 90</strong> → deel eerst door 3 (= 30), neem er dan 2 (= 60).</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Zijn de noemers verschillend, dan maak je ze eerst gelijk. 1/2 wordt 2/4, en dan kan je 2/4 + 1/4 = 3/4 rekenen."
+    }
+   ]
+  },
+  {
+   "kop": "Rekenen met procent",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bijna elke procentvraag los je op via 10% of via 1%."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><text x=\"69.7\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">10% zoeken</text><text x=\"69.7\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">deel door 10</text><path d=\"M144.33333333333334 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#c17f2b\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"165.3\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Vermenigvuldigen</text><text x=\"235.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">× hoeveel tienden</text><path d=\"M309.6666666666667 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#c17f2b\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"330.7\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><text x=\"400.3\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Klaar</text><text x=\"400.3\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">lees je antwoord</text></svg>",
+     "onderschrift": "20% van 250: 10% is 25, dus 20% is 50."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zoek je 15%, dan neem je 10% plus de helft daarvan. Zoek je 25%, dan is delen door 4 het snelst."
+    }
+   ]
+  },
+  {
+   "kop": "Kommagetallen in een som",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij optellen en aftrekken zet je de komma's netjes onder elkaar. 4,50 + 2,75 = 7,25."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij delen reken je eerst zonder komma en zet je ze achteraf terug: 48 : 4 = 12, dus <strong>4,8 : 4 = 1,2</strong>."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een rekenmachine schrijft 1.2 met een punt. Op je blad schrijf je 1,2 met een komma. Hetzelfde getal."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Eerst haakjes, dan maal en delen, dan plus en min.",
+  "Bij optellen mag je wisselen, bij aftrekken en delen niet.",
+  "Hak een grote maalsom in stukken: 37 × 4 = 30 × 4 + 7 × 4.",
+  "Gelijke noemers? Dan tel je gewoon de tellers op.",
+  "Procent: zoek eerst 10% en reken van daaruit verder.",
+  "Zet bij kommagetallen de komma's onder elkaar.",
+  "Hak een grote deling in stukken die je kent."
+ ]
+}

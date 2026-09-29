@@ -15,6 +15,8 @@ BUNDELS = {}
 
 BUNDELS["spelling"] = dict(
     vak="Nederlands", titel="Spelling",
+    # Het hoofdstuk draagt in de databank nog zijn naam van bij het opzetten.
+    hoofdstukken=["Hoofdstuk 1 — Spelling: voorbeeld"],
     onder="De regels die je het vaakst nodig hebt, met bij elke regel een voorbeeld.",
     secties=[
         dict(kop="Spelling is luisteren én kijken", blokken=[

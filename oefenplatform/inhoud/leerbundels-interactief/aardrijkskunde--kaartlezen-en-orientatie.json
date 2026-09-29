@@ -1,0 +1,125 @@
+{
+ "vak": "Aardrijkskunde",
+ "titel": "Kaartlezen en oriëntatie",
+ "onder": "Een kaart lezen: richting, legende, schaal en coördinaten.",
+ "secties": [
+  {
+   "kop": "De windroos",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op bijna elke kaart wijst het noorden naar boven. Met de vier hoofdrichtingen en de vier tussenrichtingen kan je elke plaats beschrijven."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 208 208\" width=\"208\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"113.0,104.0 104.0,26.0 95.0,104.0\" fill=\"#2f5d50\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"104.0\" y=\"15.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#234539\">N</text><polygon points=\"104.0,113.0 182.0,104.0 104.0,95.0\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"197.0\" y=\"108.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#234539\">O</text><polygon points=\"95.0,104.0 104.0,182.0 113.0,104.0\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"104.0\" y=\"201.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#234539\">Z</text><polygon points=\"104.0,95.0 26.0,104.0 104.0,113.0\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"11.0\" y=\"108.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#234539\">W</text><line x1=\"104\" y1=\"104\" x2=\"143.7\" y2=\"64.3\" stroke=\"#e4ded0\" stroke-width=\"1.6\"/><text x=\"161.3\" y=\"50.7\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">NO</text><line x1=\"104\" y1=\"104\" x2=\"143.7\" y2=\"143.7\" stroke=\"#e4ded0\" stroke-width=\"1.6\"/><text x=\"161.3\" y=\"165.3\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">ZO</text><line x1=\"104\" y1=\"104\" x2=\"64.3\" y2=\"143.7\" stroke=\"#e4ded0\" stroke-width=\"1.6\"/><text x=\"46.7\" y=\"165.3\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">ZW</text><line x1=\"104\" y1=\"104\" x2=\"64.3\" y2=\"64.3\" stroke=\"#e4ded0\" stroke-width=\"1.6\"/><text x=\"46.7\" y=\"50.7\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">NW</text><circle cx=\"104\" cy=\"104\" r=\"5\" fill=\"#234539\"/></svg>",
+     "onderschrift": "Met de klok mee: noord, noordoost, oost, zuidoost, zuid, zuidwest, west, noordwest."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een geheugensteuntje om ze in de juiste volgorde te houden: <strong>N</strong>ooit <strong>O</strong>oit <strong>Z</strong>al ik <strong>W</strong>eggaan."
+    },
+    {
+     "soort": "weetje",
+     "html": "De zon komt op in het oosten en gaat onder in het westen. Weet je hoe laat het is, dan weet je dus ook ongeveer waar het noorden ligt, zonder kompas."
+    }
+   ]
+  },
+  {
+   "kop": "De legende",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een kaart kan niet alles tekenen zoals het er echt uitziet. Daarom gebruikt ze <strong>symbolen</strong>, en in de legende staat wat elk symbool betekent."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vaak gebruikte kleur</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het meestal betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">blauw</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">water: rivieren, meren, de zee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">groen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">laag land, bossen, weiden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geel en bruin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoger land, heuvels en bergen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rood of grijs</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wegen en bebouwing</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zwarte lijnen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">grenzen</td></tr></table>",
+     "onderschrift": "Wie zonder legende leest, raadt maar wat. Kijk er dus altijd eerst naar."
+    }
+   ]
+  },
+  {
+   "kop": "De schaal",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een kaart is altijd kleiner dan de werkelijkheid. De schaal zegt hoeveel kleiner."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 340 74\" width=\"340\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"30.0\" y=\"18\" width=\"70.0\" height=\"15\" fill=\"#234539\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"100.0\" y=\"18\" width=\"70.0\" height=\"15\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"170.0\" y=\"18\" width=\"70.0\" height=\"15\" fill=\"#234539\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"240.0\" y=\"18\" width=\"70.0\" height=\"15\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><text x=\"30.0\" y=\"48\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">0</text><text x=\"100.0\" y=\"48\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">1</text><text x=\"170.0\" y=\"48\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">2</text><text x=\"240.0\" y=\"48\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">3</text><text x=\"310.0\" y=\"48\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">4</text><text x=\"170.0\" y=\"66\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#234539\">kilometer</text><text x=\"170.0\" y=\"12\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2f5d50\">1 cm op de kaart = 1 km in het echt</text></svg>",
+     "onderschrift": "Meet je 3 cm op deze kaart, dan is dat 3 km in het echt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Staat er <strong>1 op 100 000</strong> bij, dan is 1 cm op de kaart in het echt 100 000 cm. Zet dat om: 100 000 cm is 1 000 meter, dus <strong>1 kilometer</strong>. Zo reken je elke schaal om: deel door 100 voor meter, en nog eens door 1 000 voor kilometer."
+    },
+    {
+     "soort": "tekst",
+     "html": "Hoe <em>kleiner</em> het gebied dat je toont, hoe <em>meer</em> detail er op past. Op een kaart van je gemeente zie je de straten; op een kaart van Europa alleen nog de grote steden."
+    }
+   ]
+  },
+  {
+   "kop": "Coördinaten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een raster met letters en cijfers helpt je iets snel terugvinden. Je zegt eerst de letter, dan het cijfer."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 400 400.0\" width=\"400\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"22\" y=\"22\" width=\"370.0\" height=\"370.0\" fill=\"#f4f7f2\" stroke=\"#234539\" stroke-width=\"1.6\"/><line x1=\"114.5\" y1=\"22\" x2=\"114.5\" y2=\"392.0\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><line x1=\"22\" y1=\"114.5\" x2=\"392.0\" y2=\"114.5\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><line x1=\"207.0\" y1=\"22\" x2=\"207.0\" y2=\"392.0\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><line x1=\"22\" y1=\"207.0\" x2=\"392.0\" y2=\"207.0\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><line x1=\"299.5\" y1=\"22\" x2=\"299.5\" y2=\"392.0\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><line x1=\"22\" y1=\"299.5\" x2=\"392.0\" y2=\"299.5\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><text x=\"68.2\" y=\"15\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#6b7260\">A</text><text x=\"14\" y=\"72.2\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#6b7260\">1</text><text x=\"160.8\" y=\"15\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#6b7260\">B</text><text x=\"14\" y=\"164.8\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#6b7260\">2</text><text x=\"253.2\" y=\"15\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#6b7260\">C</text><text x=\"14\" y=\"257.2\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#6b7260\">3</text><text x=\"345.8\" y=\"15\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#6b7260\">D</text><text x=\"14\" y=\"349.8\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#6b7260\">4</text><path d=\"M22 133.0 q92.5 55.5 185.0 0 q92.5 -55.5 185.0 46.25\" fill=\"none\" stroke=\"#3b6ea5\" stroke-width=\"3.4\"/><polygon points=\"54.4,233.0 45.4,249.0 63.4,249.0\" fill=\"#2f7d4f\"/><polygon points=\"82.1,260.8 73.1,276.8 91.1,276.8\" fill=\"#2f7d4f\"/><polygon points=\"63.6,288.5 54.6,304.5 72.6,304.5\" fill=\"#2f7d4f\"/><rect x=\"246.2\" y=\"249.2\" width=\"14\" height=\"16\" fill=\"#234539\"/><path d=\"M253.25 231.2 v11 M248.2 236.2 h10\" stroke=\"#234539\" stroke-width=\"2.4\"/><rect x=\"331.8\" y=\"329.5\" width=\"28\" height=\"14\" rx=\"4\" fill=\"#c17f2b\"/><circle cx=\"338.8\" cy=\"344.5\" r=\"3.4\" fill=\"#234539\"/><circle cx=\"352.8\" cy=\"344.5\" r=\"3.4\" fill=\"#234539\"/></svg>",
+     "onderschrift": "De kerk staat in vak C3, het station in D4 en de rivier loopt door A2 en B2."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op een wereldkaart doen <strong>lengte- en breedtegraden</strong> hetzelfde werk, maar dan voor de hele aarde."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Lijn</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe ze loopt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">De lijn nul</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meridiaan (lengtecirkel)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van de noordpool naar de zuidpool</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de nulmeridiaan, door Greenwich bij Londen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">breedtecirkel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">evenwijdig met de evenaar, rond de aarde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de evenaar</td></tr></table>",
+     "onderschrift": "De evenaar verdeelt de aarde in het noordelijk en het zuidelijk halfrond; de nulmeridiaan in oosterlengte en westerlengte."
+    },
+    {
+     "soort": "tekst",
+     "html": "Met een <strong>gps</strong> gebeurt precies hetzelfde, maar dan automatisch: het toestel luistert naar satellieten en berekent daaruit je lengte- en breedtegraad. Gps staat voor global positioning system."
+    }
+   ]
+  },
+  {
+   "kop": "Soorten kaarten",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort kaart</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarvoor je ze gebruikt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wegenkaart</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van A naar B geraken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">reliëfkaart</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zien waar het hoog en laag ligt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">politieke kaart</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">landen, provincies en grenzen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">weerkaart</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zien wat voor weer er komt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">plattegrond</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één gebouw of één stad van heel dichtbij</td></tr></table>",
+     "onderschrift": ""
+    },
+    {
+     "soort": "tekst",
+     "html": "Welke kaart je nodig hebt, hangt dus af van je vraag. Met een weerkaart vind je de weg niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op een reliëfkaart of een topografische kaart staan <strong>hoogtelijnen</strong>: lijnen die alle punten op dezelfde hoogte verbinden. Liggen ze dicht bij elkaar, dan loopt het steil omhoog; liggen ze ver uiteen, dan is het vlak. Op een gewone wegenkaart staan ze niet."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een <strong>satellietbeeld</strong> is een foto van de echte aarde, een kaart is een vereenvoudigde tekening ervan. Op een kaart laat men weg wat je niet nodig hebt, en net daardoor vind je er sneller iets op terug."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Het noorden staat op een kaart bijna altijd bovenaan.",
+  "Nooit Ooit Zal ik Weggaan: N, O, Z, W.",
+  "Lees altijd eerst de legende.",
+  "De schaal zegt hoeveel kleiner de kaart is dan het echt.",
+  "Coördinaten: eerst de letter, dan het cijfer.",
+  "Blauw is water, groen is laag land, bruin is hoog land.",
+  "Schaal 1 op 100 000: 1 cm op de kaart is 1 km in het echt.",
+  "Meridianen lopen van pool tot pool, breedtecirkels evenwijdig met de evenaar.",
+  "Hoogtelijnen dicht bij elkaar betekent steil."
+ ]
+}

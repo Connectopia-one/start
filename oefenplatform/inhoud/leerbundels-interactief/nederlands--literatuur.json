@@ -1,0 +1,129 @@
+{
+ "vak": "Nederlands",
+ "titel": "Literatuur",
+ "onder": "Verhalen en gedichten: hoe ze gebouwd zijn en waarom dat werkt.",
+ "secties": [
+  {
+   "kop": "De spanningsboog",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bijna elk verhaal volgt dezelfde lijn. Herken je die, dan zie je meteen waar je in een boek zit."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 192\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M30 142 C 150 132, 210 54, 300 48 C 360 44, 400 84, 440 142\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"2.6\"/><circle cx=\"30\" cy=\"142\" r=\"5\" fill=\"#c17f2b\"/><text x=\"30\" y=\"162\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">begin</text><text x=\"30\" y=\"176\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">wie, waar, wanneer</text><circle cx=\"170\" cy=\"96\" r=\"5\" fill=\"#c17f2b\"/><text x=\"170\" y=\"60\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">probleem</text><text x=\"170\" y=\"74\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">er loopt iets mis</text><circle cx=\"300\" cy=\"48\" r=\"5\" fill=\"#c17f2b\"/><text x=\"300\" y=\"12\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">hoogtepunt</text><text x=\"300\" y=\"26\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">het spannendst</text><circle cx=\"440\" cy=\"142\" r=\"5\" fill=\"#c17f2b\"/><text x=\"440\" y=\"162\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">einde</text><text x=\"440\" y=\"176\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">het loopt af</text></svg>",
+     "onderschrift": "De spanning loopt op tot het hoogtepunt en zakt daarna snel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het hoogtepunt komt meestal laat in het verhaal, niet in het midden. Daarna wil je als lezer nog maar één ding weten: hoe loopt het af?"
+    }
+   ]
+  },
+  {
+   "kop": "De bouwstenen van een verhaal",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Wie over een boek praat, heeft het altijd over dezelfde vijf dingen. Kan je die vijf benoemen, dan kan je over elk boek iets zinnigs zeggen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Bouwsteen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">De vraag die erbij hoort</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de personages</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">over wie gaat het? wie is de hoofdpersoon?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de plaats</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waar speelt het zich af?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de tijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wanneer speelt het? hoeveel tijd gaat er voorbij?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de gebeurtenissen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat gebeurt er, en in welke volgorde?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de hoofdgedachte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waar gaat het eigenlijk over?</td></tr></table>",
+     "onderschrift": "De hoofdgedachte is niet hetzelfde als het verhaal: een boek kan over een schoolreis gaan en eigenlijk over vriendschap."
+    },
+    {
+     "soort": "tekst",
+     "html": "Eindigt een hoofdstuk precies op het spannendste moment, dan heet dat een <strong>cliffhanger</strong>. De schrijver laat je in de lucht hangen zodat je wil doorlezen. Series op televisie doen net hetzelfde."
+    }
+   ]
+  },
+  {
+   "kop": "Wie vertelt het verhaal?",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verteller</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe je het merkt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat dat doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik-verteller</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het verhaal zegt ik</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je kruipt in het hoofd van één personage</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hij- of zij-verteller</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het verhaal zegt hij of zij</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je ziet meer dan één personage</td></tr></table>",
+     "onderschrift": "Een ik-verteller weet niet alles — en vertelt soms iets anders dan wat er echt gebeurde."
+    }
+   ]
+  },
+  {
+   "kop": "Soorten verhalen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Genre</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waaraan je het herkent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">avontuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een reis, gevaar, een doel dat bereikt moet worden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fantasy</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een wereld met eigen regels, magie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sciencefiction</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">toekomst, techniek die nog niet bestaat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">detective</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een raadsel dat opgelost moet worden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">historisch verhaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">speelt in een echt verleden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">realistisch verhaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zou echt kunnen gebeuren</td></tr></table>",
+     "onderschrift": ""
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>sprookje</strong> (met magie, heksen en toverspreuken), een <strong>fabel</strong> (met dieren die voor mensen staan, en een les op het einde), een <strong>mythe</strong> (over goden, zoals de Griekse verhalen over Zeus) en een <strong>sage of legende</strong> (een oud verhaal over een plek of een persoon, van generatie op generatie doorverteld) zijn oude verhaalvormen. Ze werden eerst verteld en pas later opgeschreven."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een verhaal hoeft niet uit lopende tekst te bestaan. In een <strong>stripverhaal</strong> vertellen de prenten en de tekstballonnen samen; in een <strong>toneelstuk</strong> lees je vooral dialoog, met de naam van het personage ervoor en daartussen regieaanwijzingen over wat de spelers doen."
+    },
+    {
+     "soort": "kader",
+     "html": "<p style='margin:0 0 4px'><strong>Fictie</strong> — verzonnen: een roman, een sprookje, een stripverhaal.</p><p style='margin:0'><strong>Non-fictie</strong> — over dingen die echt zijn: een biografie, een boek over dinosaurussen, een reisgids.</p>"
+    }
+   ]
+  },
+  {
+   "kop": "Gedichten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een gedicht zegt met weinig woorden veel. De vorm doet mee: waar de regel eindigt, waar een wit staat, hoe het klinkt."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Woord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">strofe</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een groepje regels, met wit ertussen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rijm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">regels die op dezelfde klank eindigen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beeldspraak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets zeggen door het met iets anders te vergelijken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vergelijking</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de zon brandt <em>als</em> een oven</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">metafoor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de zon is een oven — zonder als</td></tr></table>",
+     "onderschrift": "Niet elk gedicht rijmt. Rijm is een keuze, geen voorwaarde."
+    }
+   ]
+  },
+  {
+   "kop": "Wie maakt een boek",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat die doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de auteur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schrijft de tekst — een ander woord voor schrijver</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de illustrator</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maakt de tekeningen bij de tekst</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vertaler</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zet het boek om in een andere taal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de uitgeverij</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drukt het boek en brengt het in de winkel</td></tr></table>",
+     "onderschrift": "Op het omslag staan meestal de auteur en de uitgeverij; de illustrator staat vaak binnenin."
+    },
+    {
+     "soort": "tekst",
+     "html": "Achteraan staat de <strong>flaptekst</strong>: een kort stukje dat vertelt waarover het boek gaat, zonder het einde te verklappen. Die is er om je nieuwsgierig te maken, dus ze vertelt nooit het hele verhaal."
+    }
+   ]
+  },
+  {
+   "kop": "Praten over een boek",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Zeggen dat een boek leuk was, zegt nog niets. Zeg <em>waarom</em>: over het verhaal, over een personage, of over hoe het geschreven is."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">In plaats van</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Zeg liever</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het was spannend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik wist tot de laatste bladzijde niet hoe het zou aflopen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">saai</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er gebeurde te weinig in de eerste honderd bladzijden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het hoofdpersonage was leuk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik herkende mezelf in hoe zij twijfelde</td></tr></table>",
+     "onderschrift": "Zo wordt je mening iets waar iemand anders ook wat aan heeft."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Elk verhaal heeft een begin, een probleem, een hoogtepunt en een einde.",
+  "Het hoogtepunt komt laat, niet in het midden.",
+  "Een ik-verteller weet niet alles.",
+  "Een fabel heeft dieren die praten, een mythe komt uit een oude cultuur.",
+  "Een vergelijking gebruikt als, een metafoor niet.",
+  "Zeg altijd waarom je iets goed of slecht vond.",
+  "Personages, plaats, tijd, gebeurtenissen en hoofdgedachte: dat zijn de vijf.",
+  "Fictie is verzonnen, non-fictie gaat over wat echt is.",
+  "Een cliffhanger stopt op het spannendste moment.",
+  "De auteur schrijft, de illustrator tekent."
+ ]
+}

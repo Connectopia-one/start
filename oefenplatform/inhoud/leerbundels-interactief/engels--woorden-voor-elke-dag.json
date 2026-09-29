@@ -1,0 +1,93 @@
+{
+ "vak": "Engels",
+ "titel": "Woorden voor elke dag",
+ "onder": "De woorden die je het vaakst nodig hebt: getallen, kleuren, dagen, maanden, familie en je lichaam.",
+ "secties": [
+  {
+   "kop": "Tellen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">1–10</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">11–20</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Tientallen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">one, two, three, four, five</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eleven, twelve, thirteen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ten, twenty, thirty</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">six, seven, eight, nine, ten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fourteen, fifteen, sixteen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">forty, fifty, sixty</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">seventeen, eighteen, nineteen, twenty</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">seventy, eighty, ninety</td></tr></table>",
+     "onderschrift": "Let op het paar dat het vaakst verward wordt: thirteen is 13, thirty is 30."
+    },
+    {
+     "soort": "tekst",
+     "html": "Vanaf dertien eindigt bijna alles op <strong>-teen</strong>, en de tientallen op <strong>-ty</strong>. Hoor je het verschil niet, let dan op de klemtoon: thir<em>teen</em>, maar <em>thir</em>ty."
+    }
+   ]
+  },
+  {
+   "kop": "Kleuren",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 108\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"6.0\" y=\"4\" width=\"30\" height=\"30\" rx=\"7\" fill=\"#c0392b\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"44.0\" y=\"17\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">red</text><text x=\"44.0\" y=\"31\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">rood</text><rect x=\"123.5\" y=\"4\" width=\"30\" height=\"30\" rx=\"7\" fill=\"#2f6fb0\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"161.5\" y=\"17\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">blue</text><text x=\"161.5\" y=\"31\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">blauw</text><rect x=\"241.0\" y=\"4\" width=\"30\" height=\"30\" rx=\"7\" fill=\"#e8b820\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"279.0\" y=\"17\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">yellow</text><text x=\"279.0\" y=\"31\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">geel</text><rect x=\"358.5\" y=\"4\" width=\"30\" height=\"30\" rx=\"7\" fill=\"#2f7d4f\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"396.5\" y=\"17\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">green</text><text x=\"396.5\" y=\"31\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">groen</text><rect x=\"6.0\" y=\"64\" width=\"30\" height=\"30\" rx=\"7\" fill=\"#6c3f97\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"44.0\" y=\"77\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">purple</text><text x=\"44.0\" y=\"91\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">paars</text><rect x=\"123.5\" y=\"64\" width=\"30\" height=\"30\" rx=\"7\" fill=\"#7a5230\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"161.5\" y=\"77\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">brown</text><text x=\"161.5\" y=\"91\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">bruin</text><rect x=\"241.0\" y=\"64\" width=\"30\" height=\"30\" rx=\"7\" fill=\"#8d8d8d\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"279.0\" y=\"77\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">grey</text><text x=\"279.0\" y=\"91\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">grijs</text><rect x=\"358.5\" y=\"64\" width=\"30\" height=\"30\" rx=\"7\" fill=\"#e08aa8\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"396.5\" y=\"77\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">pink</text><text x=\"396.5\" y=\"91\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">roze</text></svg>",
+     "onderschrift": "Grey schrijf je in Groot-Brittannië met een e, in Amerika met een a: gray."
+    }
+   ]
+  },
+  {
+   "kop": "Dagen en maanden",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:70%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Dag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Monday</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maandag</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Tuesday</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dinsdag</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wednesday</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">woensdag</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Thursday</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">donderdag</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Friday</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vrijdag</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Saturday</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zaterdag</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Sunday</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zondag</td></tr></table>",
+     "onderschrift": "Wednesday heeft een d die je niet uitspreekt: je zegt ongeveer wensday."
+    },
+    {
+     "soort": "tekst",
+     "html": "De maanden: January, February, March, April, May, June, July, August, September, October, November, December."
+    },
+    {
+     "soort": "weetje",
+     "html": "In het Engels krijgen dagen en maanden <strong>altijd een hoofdletter</strong>. In het Nederlands net niet. Dat is een van de makkelijkste punten om te verdienen op een toets."
+    }
+   ]
+  },
+  {
+   "kop": "Familie",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 184\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"67.0\" y=\"4\" width=\"104\" height=\"38\" rx=\"9\" fill=\"#ffffff\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"119.0\" y=\"20\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">grandfather</text><text x=\"119.0\" y=\"34\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">grootvader</text><rect x=\"299.0\" y=\"4\" width=\"104\" height=\"38\" rx=\"9\" fill=\"#ffffff\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"351.0\" y=\"20\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">grandmother</text><text x=\"351.0\" y=\"34\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">grootmoeder</text><rect x=\"67.0\" y=\"70\" width=\"104\" height=\"38\" rx=\"9\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"119.0\" y=\"86\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">father</text><text x=\"119.0\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">vader</text><rect x=\"299.0\" y=\"70\" width=\"104\" height=\"38\" rx=\"9\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"351.0\" y=\"86\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">mother</text><text x=\"351.0\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">moeder</text><rect x=\"67.0\" y=\"136\" width=\"104\" height=\"38\" rx=\"9\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"119.0\" y=\"152\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">brother</text><text x=\"119.0\" y=\"166\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">broer</text><rect x=\"183.0\" y=\"136\" width=\"104\" height=\"38\" rx=\"9\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"152\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">me</text><text x=\"235.0\" y=\"166\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">ik</text><rect x=\"299.0\" y=\"136\" width=\"104\" height=\"38\" rx=\"9\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"351.0\" y=\"152\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">sister</text><text x=\"351.0\" y=\"166\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">zus</text><line x1=\"119.0\" y1=\"42\" x2=\"119.0\" y2=\"70\" stroke=\"#e4ded0\" stroke-width=\"1.6\"/><line x1=\"351.0\" y1=\"42\" x2=\"351.0\" y2=\"70\" stroke=\"#e4ded0\" stroke-width=\"1.6\"/><line x1=\"119.0\" y1=\"108\" x2=\"351.0\" y2=\"108\" stroke=\"#e4ded0\" stroke-width=\"1.6\"/><line x1=\"119.0\" y1=\"108\" x2=\"119.0\" y2=\"136\" stroke=\"#e4ded0\" stroke-width=\"1.6\"/><line x1=\"235.0\" y1=\"108\" x2=\"235.0\" y2=\"136\" stroke=\"#e4ded0\" stroke-width=\"1.6\"/><line x1=\"351.0\" y1=\"108\" x2=\"351.0\" y2=\"136\" stroke=\"#e4ded0\" stroke-width=\"1.6\"/></svg>",
+     "onderschrift": "Eén Engels woord, cousin, staat voor neef én nicht."
+    },
+    {
+     "soort": "tekst",
+     "html": "Verder: <strong>aunt</strong> is tante, <strong>uncle</strong> is oom, <strong>parents</strong> zijn je ouders en <strong>grandparents</strong> je grootouders."
+    }
+   ]
+  },
+  {
+   "kop": "Je lichaam",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Engels</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Engels</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">head</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoofd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hand</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hand</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hair</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">haar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">finger</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vinger</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eye</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oog</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">leg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">been</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ear</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">knee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">knie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mouth</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mond</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">foot</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">shoulder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schouder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ankle</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">enkel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elbow</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elleboog</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">arm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">arm</td></tr></table>",
+     "onderschrift": "Foot wordt in het meervoud feet, niet foots."
+    }
+   ]
+  },
+  {
+   "kop": "Seizoenen en weer",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vier seizoenen: <strong>spring</strong> (lente), <strong>summer</strong> (zomer), <strong>autumn</strong> (herfst) en <strong>winter</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Over het weer zeg je: it's raining (het regent), it's snowing (het sneeuwt), it's cold, it's warm, it's windy."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "thirteen is 13, thirty is 30.",
+  "Dagen en maanden krijgen een hoofdletter.",
+  "Cousin betekent zowel neef als nicht.",
+  "foot wordt feet in het meervoud.",
+  "De vier seizoenen: spring, summer, autumn, winter."
+ ]
+}

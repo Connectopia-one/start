@@ -1,0 +1,126 @@
+{
+ "vak": "Wiskunde",
+ "titel": "Vraagstukken en problemen oplossen",
+ "onder": "Een stappenplan om van een verhaaltje naar het juiste antwoord te gaan.",
+ "secties": [
+  {
+   "kop": "Het stappenplan",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een vraagstuk is geen rekenoefening maar een verhaaltje. Het moeilijkste is niet het rekenen, wel uitzoeken <em>wat</em> je moet rekenen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"49.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Lees</text><text x=\"49.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">wat wordt gevraagd?</text><path d=\"M103.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"124.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"173.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Zoek</text><text x=\"173.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">welke getallen tellen mee?</text><path d=\"M227.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"248.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"297.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Reken</text><text x=\"297.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">kies de bewerking</text><path d=\"M351.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"372.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"421.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Kijk na</text><text x=\"421.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">kan dit kloppen?</text></svg>",
+     "onderschrift": "Begin bij de vraag, niet bij de getallen. Dan weet je meteen wat je nodig hebt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Schrijf je antwoord altijd met de eenheid erbij: 16 euro, 45 vierkante meter, 9 dagen. Een kaal getal is maar een half antwoord."
+    }
+   ]
+  },
+  {
+   "kop": "Welke bewerking hoort erbij?",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat er in het verhaaltje staat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">samen, erbij, in totaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">optellen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoeveel blijft er over, verschil, hoeveel meer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aftrekken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">evenveel keer, rijen van, per stuk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vermenigvuldigen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eerlijk verdelen, hoeveel passen erin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">delen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">korting, deel van een geheel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">procent of breuk</td></tr></table>",
+     "onderschrift": "Die woorden zijn een goede gids, maar lees altijd het hele verhaaltje na."
+    }
+   ]
+  },
+  {
+   "kop": "Verhoudingen en prijs per stuk",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Staat er <em>1 op 3</em> of <em>3 van elke 5</em>, dan gaat het over een verhouding. Je verdeelt het geheel eerst in even grote groepjes, en daarna neem je er zoveel als gevraagd wordt."
+    },
+    {
+     "soort": "kader",
+     "html": "<p style='margin:0 0 4px'><strong>1 op 3 van 30 kinderen</strong> → 30 : 3 = <strong>10 kinderen</strong>.</p><p style='margin:0'><strong>3 van elke 5, in een klas van 25</strong> → 25 : 5 = 5 groepjes, en 3 × 5 = <strong>15 kinderen</strong>.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een prijs werkt het net zo. Kosten 3 pakken melk samen 4,50 euro, dan kost één pak 4,50 : 3 = 1,50 euro. En dubbel zoveel kost dubbel zoveel: zijn 4 broden 6 euro, dan zijn 8 broden 12 euro."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wordt er iets opgegeten of weggenomen, dan is wat overblijft ook een breuk. Van een pizza in 8 stukken waarvan je er 3 opeet, blijft <strong>5/8</strong> over. Van een taart in 12 stukken waarvan er 9 op zijn, blijft 3/12 over, en dat vereenvoudig je tot <strong>1/4</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Vraagstukken met geld",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<p style='margin:0 0 5px'><strong>Je hebt 100 euro. Schoenen kosten 55 euro, een broek 29 euro. Hoeveel hou je over?</strong></p><p style='margin:0'>Eerst samen: 55 + 29 = 84. Dan aftrekken: 100 − 84 = <strong>16 euro</strong>.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij korting reken je eerst hoeveel de korting waard is, en trek je die af. Op een jas van 80 euro met 20% korting: 20% van 80 is 16, dus je betaalt 64 euro."
+    }
+   ]
+  },
+  {
+   "kop": "Vraagstukken met meten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Hier is de vraag altijd: gaat het om de lijn rond iets (omtrek), om het vlak erbinnen (oppervlakte), of om de ruimte erin (inhoud)?"
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><text x=\"69.7\" y=\"21.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Omheining</text><text x=\"69.7\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">rond de tuin</text><text x=\"69.7\" y=\"53.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">→ omtrek</text><path d=\"M144.33333333333334 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#c17f2b\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"165.3\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"21.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Tegels of verf</text><text x=\"235.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">op het vlak</text><text x=\"235.0\" y=\"53.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">→ oppervlakte</text><path d=\"M309.6666666666667 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#c17f2b\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"330.7\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><text x=\"400.3\" y=\"21.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Water of zand</text><text x=\"400.3\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">erin</text><text x=\"400.3\" y=\"53.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">→ inhoud</text></svg>",
+     "onderschrift": "Een terras van 9 m op 5 m betegelen vraagt de oppervlakte: 45 m²."
+    },
+    {
+     "soort": "tekst",
+     "html": "Let op de eenheden: staan er liters en milliliters door elkaar, zet ze dan eerst allemaal in dezelfde eenheid."
+    }
+   ]
+  },
+  {
+   "kop": "Vraagstukken met tijd en snelheid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Reken bij tijd altijd via het volgende hele uur. Een trein vertrekt om 9.35 u en rijdt 1 uur en 40 minuten: eerst een uur later is 10.35 u, dan nog 40 minuten geeft 11.15 u."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij snelheid geldt: 20 km per uur betekent 10 km in een half uur en 5 km in een kwartier. Je deelt de afstand net zoals je de tijd deelt."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een tijd van 11.75 u bestaat niet. Na 59 minuten komt een nieuw uur, want de klok telt tot 60 en niet tot 100."
+    }
+   ]
+  },
+  {
+   "kop": "Nakijken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Lees je antwoord nog eens samen met de vraag. Kan dit kloppen? Als drie vrienden 84 knikkers verdelen en je krijgt er 240 per persoon uit, dan weet je meteen dat er iets mis is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een goede test is omgekeerd rekenen: 84 : 3 = 28, en 28 × 3 = 84. Klopt."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Lees eerst wat er gevraagd wordt, pas daarna de getallen.",
+  "Niet elk getal in het verhaaltje heb je nodig.",
+  "Schrijf de eenheid bij je antwoord.",
+  "Omheining is omtrek, tegels zijn oppervlakte, water is inhoud.",
+  "Zet alles eerst in dezelfde eenheid.",
+  "Kijk na met omgekeerd rekenen.",
+  "1 op 3 betekent: eerst delen door 3."
+ ]
+}

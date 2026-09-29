@@ -1,0 +1,163 @@
+{
+ "vak": "Wiskunde",
+ "titel": "Meten en metend rekenen",
+ "onder": "Lengte, inhoud, massa, tijd en temperatuur — en hoe je ze omrekent.",
+ "secties": [
+  {
+   "kop": "De maatladder",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Eenheden van lengte volgen elkaar op met telkens een stap van tien. Ga je naar rechts op de ladder, dan vermenigvuldig je met 10; ga je naar links, dan deel je door 10."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 86\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"3.0\" y=\"10\" width=\"61.1\" height=\"34\" rx=\"8\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.4\"/><text x=\"33.6\" y=\"28.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">km</text><rect x=\"70.1\" y=\"10\" width=\"61.1\" height=\"34\" rx=\"8\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.4\"/><text x=\"100.7\" y=\"28.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">hm</text><rect x=\"137.3\" y=\"10\" width=\"61.1\" height=\"34\" rx=\"8\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.4\"/><text x=\"167.9\" y=\"28.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">dam</text><rect x=\"204.4\" y=\"10\" width=\"61.1\" height=\"34\" rx=\"8\" fill=\"#2f5d50\" stroke=\"#234539\" stroke-width=\"1.4\"/><text x=\"235.0\" y=\"28.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#ffffff\">m</text><rect x=\"271.6\" y=\"10\" width=\"61.1\" height=\"34\" rx=\"8\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.4\"/><text x=\"302.1\" y=\"28.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">dm</text><rect x=\"338.7\" y=\"10\" width=\"61.1\" height=\"34\" rx=\"8\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.4\"/><text x=\"369.3\" y=\"28.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">cm</text><rect x=\"405.9\" y=\"10\" width=\"61.1\" height=\"34\" rx=\"8\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.4\"/><text x=\"436.4\" y=\"28.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">mm</text><path d=\"M33.6 58 H436.4 l-7 -5 m7 5 l-7 5\" stroke=\"#c17f2b\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><text x=\"235.0\" y=\"76\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#c17f2b\">elke stap naar rechts: × 10</text></svg>",
+     "onderschrift": "3,5 m is drie stappen naar rechts tot cm: 350 cm."
+    },
+    {
+     "soort": "tekst",
+     "html": "Voor inhoud (kl, hl, dal, l, dl, cl, ml) en voor massa (kg, hg, dag, g, dg, cg, mg) werkt precies dezelfde ladder."
+    },
+    {
+     "soort": "tekst",
+     "html": "De voorvoegsels zeggen precies hoeveel. <strong>Kilo</strong> is duizend, <strong>hecto</strong> honderd, <strong>deca</strong> tien, <strong>deci</strong> een tiende, <strong>centi</strong> een honderdste en <strong>milli</strong> een duizendste. Een hectometer is dus honderd meter — de hectometerpaaltjes langs de snelweg staan om de 100 meter — en in één liter gaan 100 centiliter."
+    },
+    {
+     "soort": "weetje",
+     "html": "1 liter is 1 000 milliliter, 1 kilogram is 1 000 gram, en 1 ton is 1 000 kilogram. Telkens drie stappen, dus drie keer tien."
+    }
+   ]
+  },
+  {
+   "kop": "Omtrek en oppervlakte",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>omtrek</strong> is de lengte van de lijn rond een figuur: wat je nodig hebt voor een omheining. De <strong>oppervlakte</strong> is het aantal vierkantjes dat erin past: wat je nodig hebt voor tegels of verf."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 340 176.0\" width=\"340\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"74.0\" y=\"26\" width=\"192.0\" height=\"120.0\" fill=\"rgba(47,93,80,.08)\" stroke=\"#234539\" stroke-width=\"2\"/><line x1=\"98.0\" y1=\"26\" x2=\"98.0\" y2=\"146.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/><line x1=\"122.0\" y1=\"26\" x2=\"122.0\" y2=\"146.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/><line x1=\"146.0\" y1=\"26\" x2=\"146.0\" y2=\"146.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/><line x1=\"170.0\" y1=\"26\" x2=\"170.0\" y2=\"146.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/><line x1=\"194.0\" y1=\"26\" x2=\"194.0\" y2=\"146.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/><line x1=\"218.0\" y1=\"26\" x2=\"218.0\" y2=\"146.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/><line x1=\"242.0\" y1=\"26\" x2=\"242.0\" y2=\"146.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/><line x1=\"74.0\" y1=\"50.0\" x2=\"266.0\" y2=\"50.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/><line x1=\"74.0\" y1=\"74.0\" x2=\"266.0\" y2=\"74.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/><line x1=\"74.0\" y1=\"98.0\" x2=\"266.0\" y2=\"98.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/><line x1=\"74.0\" y1=\"122.0\" x2=\"266.0\" y2=\"122.0\" stroke=\"#e4ded0\" stroke-width=\"1\"/><text x=\"170.0\" y=\"17\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">8 cm</text><text x=\"65.0\" y=\"86.0\" text-anchor=\"end\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">5 cm</text><text x=\"170.0\" y=\"166.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#6b7260\">omtrek 26 cm · oppervlakte 40 cm²</text></svg>",
+     "onderschrift": "Omtrek: 8 + 5 + 8 + 5. Oppervlakte: 8 × 5, dus 40 vierkantjes van 1 cm²."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een vierkant zijn alle zijden gelijk: omtrek is zijde × 4, oppervlakte is zijde × zijde. Een vierkant van 9 cm heeft dus een oppervlakte van 81 cm²."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je kan de som ook omdraaien. Ken je de oppervlakte en één zijde, dan vind je de andere door te delen: een rechthoek van 48 cm² die 6 cm breed is, is 48 : 6 = <strong>8 cm</strong> lang. En een vierkant van 36 cm² heeft een zijde van <strong>6 cm</strong>, want 6 × 6 = 36."
+    }
+   ]
+  },
+  {
+   "kop": "Vierkante en kubieke eenheden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij gewone lengte is elke stap maal of gedeeld door 10. Bij oppervlakte tellen twee richtingen mee, dus is elke stap maal of gedeeld door <strong>100</strong>. Bij inhoud zijn het er drie, dus maal of gedeeld door <strong>1 000</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:70%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">1 van deze</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">is zoveel van die</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 m²</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">100 dm²</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 dm²</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">100 cm²</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 cm²</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">100 mm²</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 dm³</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 000 cm³</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 dm³</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 liter</td></tr></table>",
+     "onderschrift": "Een vierkante meter is dus honderd vierkante decimeter, niet tien."
+    },
+    {
+     "soort": "tekst",
+     "html": "Teken het gerust eens na: in een vierkant van 1 m op 1 m passen tien rijen van tien vierkantjes van 1 dm. Tien keer tien is honderd. Daarom springt de maatladder bij oppervlakte twee plaatsen tegelijk."
+    }
+   ]
+  },
+  {
+   "kop": "Inhoud van een balk",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een ruimtefiguur komt er een derde maat bij: de hoogte. De inhoud is lengte × breedte × hoogte."
+    },
+    {
+     "soort": "kader",
+     "html": "<p style='margin:0'>Een balk van 4 cm bij 3 cm bij 2 cm heeft een inhoud van 4 × 3 × 2 = <strong>24 cm³</strong>. Dat zijn 24 blokjes van één kubieke centimeter.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>kubus</strong> zijn alle ribben even lang, dus wordt het ribbe × ribbe × ribbe. Een kubus met een ribbe van 3 cm heeft een inhoud van 3 × 3 × 3 = <strong>27 cm³</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Let op de eenheid: cm voor lengte, cm² voor oppervlakte en cm³ voor inhoud. Het kleine cijfer zegt hoeveel richtingen je vermenigvuldigd hebt."
+    }
+   ]
+  },
+  {
+   "kop": "De klok en de kalender",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Tijd rekent niet met tien maar met zestig. Een uur heeft 60 minuten, een minuut 60 seconden."
+    },
+    {
+     "soort": "figuur",
+     "html": "<div style=\"display:flex;gap:18px;align-items:flex-end;justify-content:center;flex-wrap:wrap;\"><div><svg viewBox=\"0 0 144 144\" width=\"144\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"72\" cy=\"72\" r=\"64\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"2.2\"/><line x1=\"72.0\" y1=\"17.0\" x2=\"72.0\" y2=\"10.0\" stroke=\"#6b7260\" stroke-width=\"2.2\"/><text x=\"72.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">12</text><line x1=\"99.5\" y1=\"24.4\" x2=\"103.0\" y2=\"18.3\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"93.5\" y=\"34.8\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">1</text><line x1=\"119.6\" y1=\"44.5\" x2=\"125.7\" y2=\"41.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"109.2\" y=\"50.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">2</text><line x1=\"127.0\" y1=\"72.0\" x2=\"134.0\" y2=\"72.0\" stroke=\"#6b7260\" stroke-width=\"2.2\"/><text x=\"115.0\" y=\"72.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">3</text><line x1=\"119.6\" y1=\"99.5\" x2=\"125.7\" y2=\"103.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"109.2\" y=\"93.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">4</text><line x1=\"99.5\" y1=\"119.6\" x2=\"103.0\" y2=\"125.7\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"93.5\" y=\"109.2\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">5</text><line x1=\"72.0\" y1=\"127.0\" x2=\"72.0\" y2=\"134.0\" stroke=\"#6b7260\" stroke-width=\"2.2\"/><text x=\"72.0\" y=\"115.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">6</text><line x1=\"44.5\" y1=\"119.6\" x2=\"41.0\" y2=\"125.7\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"50.5\" y=\"109.2\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">7</text><line x1=\"24.4\" y1=\"99.5\" x2=\"18.3\" y2=\"103.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"34.8\" y=\"93.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">8</text><line x1=\"17.0\" y1=\"72.0\" x2=\"10.0\" y2=\"72.0\" stroke=\"#6b7260\" stroke-width=\"2.2\"/><text x=\"29.0\" y=\"72.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">9</text><line x1=\"24.4\" y1=\"44.5\" x2=\"18.3\" y2=\"41.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"34.8\" y=\"50.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">10</text><line x1=\"44.5\" y1=\"24.4\" x2=\"41.0\" y2=\"18.3\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"50.5\" y=\"34.8\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">11</text><line x1=\"72\" y1=\"72\" x2=\"101.0\" y2=\"58.5\" stroke=\"#234539\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"72\" x2=\"113.6\" y2=\"48.0\" stroke=\"#c17f2b\" stroke-width=\"3\" stroke-linecap=\"round\"/><circle cx=\"72\" cy=\"72\" r=\"3.5\" fill=\"#234539\"/></svg></div><div><svg viewBox=\"0 0 144 144\" width=\"144\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"72\" cy=\"72\" r=\"64\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"2.2\"/><line x1=\"72.0\" y1=\"17.0\" x2=\"72.0\" y2=\"10.0\" stroke=\"#6b7260\" stroke-width=\"2.2\"/><text x=\"72.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">12</text><line x1=\"99.5\" y1=\"24.4\" x2=\"103.0\" y2=\"18.3\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"93.5\" y=\"34.8\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">1</text><line x1=\"119.6\" y1=\"44.5\" x2=\"125.7\" y2=\"41.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"109.2\" y=\"50.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">2</text><line x1=\"127.0\" y1=\"72.0\" x2=\"134.0\" y2=\"72.0\" stroke=\"#6b7260\" stroke-width=\"2.2\"/><text x=\"115.0\" y=\"72.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">3</text><line x1=\"119.6\" y1=\"99.5\" x2=\"125.7\" y2=\"103.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"109.2\" y=\"93.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">4</text><line x1=\"99.5\" y1=\"119.6\" x2=\"103.0\" y2=\"125.7\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"93.5\" y=\"109.2\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">5</text><line x1=\"72.0\" y1=\"127.0\" x2=\"72.0\" y2=\"134.0\" stroke=\"#6b7260\" stroke-width=\"2.2\"/><text x=\"72.0\" y=\"115.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">6</text><line x1=\"44.5\" y1=\"119.6\" x2=\"41.0\" y2=\"125.7\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"50.5\" y=\"109.2\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">7</text><line x1=\"24.4\" y1=\"99.5\" x2=\"18.3\" y2=\"103.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"34.8\" y=\"93.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">8</text><line x1=\"17.0\" y1=\"72.0\" x2=\"10.0\" y2=\"72.0\" stroke=\"#6b7260\" stroke-width=\"2.2\"/><text x=\"29.0\" y=\"72.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">9</text><line x1=\"24.4\" y1=\"44.5\" x2=\"18.3\" y2=\"41.0\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"34.8\" y=\"50.5\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">10</text><line x1=\"44.5\" y1=\"24.4\" x2=\"41.0\" y2=\"18.3\" stroke=\"#6b7260\" stroke-width=\"1.2\"/><text x=\"50.5\" y=\"34.8\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">11</text><line x1=\"72\" y1=\"72\" x2=\"46.6\" y2=\"91.5\" stroke=\"#234539\" stroke-width=\"4.5\" stroke-linecap=\"round\"/><line x1=\"72\" y1=\"72\" x2=\"24.0\" y2=\"72.0\" stroke=\"#c17f2b\" stroke-width=\"3\" stroke-linecap=\"round\"/><circle cx=\"72\" cy=\"72\" r=\"3.5\" fill=\"#234539\"/></svg></div></div>",
+     "onderschrift": "Links 14.10 u, rechts 7.45 u — of kwart voor acht."
+    },
+    {
+     "soort": "tekst",
+     "html": "Duurt iets 50 minuten vanaf 13.20 u, reken dan eerst tot het volgende hele uur (40 minuten tot 14.00 u) en tel de rest erbij: 14.10 u."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:80%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Eenheid</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoeveel</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 kwartier</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">15 minuten = 900 seconden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 uur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">60 minuten = 3 600 seconden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 dag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">24 uur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 jaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">12 maanden ≈ 52 weken = 365 dagen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 schrikkeljaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">366 dagen (om de 4 jaar)</td></tr></table>",
+     "onderschrift": "Handig om uit het hoofd te kennen."
+    }
+   ]
+  },
+  {
+   "kop": "Welke eenheid kies je?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een goede eenheid geeft een getal dat je vlot kan uitspreken. De afstand tussen Hasselt en Genk in millimeter uitdrukken kan perfect, maar niemand doet het."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:80%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je meet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Handigste eenheid</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de afstand tussen twee steden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kilometer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de lengte van je tafel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meter of centimeter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de dikte van een blad</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">millimeter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het water in een badkuip</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">liter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een lepel siroop</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">milliliter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een zak aardappelen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kilogram</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een brief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gram</td></tr></table>",
+     "onderschrift": "Kies de eenheid waarin het getal noch heel groot noch heel klein wordt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Moet je twee maten vergelijken, zet ze dan eerst allemaal in dezelfde eenheid. 500 g, 0,75 kg, 1,2 g en 200 g worden zo 500 g, <strong>750 g</strong>, 1,2 g en 200 g. Pas dan zie je dat 0,75 kg het zwaarst is."
+    }
+   ]
+  },
+  {
+   "kop": "Temperatuur",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "We meten temperatuur in graden Celsius. Water bevriest bij 0 °C en kookt bij 100 °C."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 86\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"34\" y1=\"44\" x2=\"436\" y2=\"44\" stroke=\"#23291f\" stroke-width=\"2\"/><path d=\"M436 44 l-9 -5 v10 z\" fill=\"#23291f\"/><path d=\"M34 44 l9 -5 v10 z\" fill=\"#23291f\"/><line x1=\"34.0\" y1=\"36\" x2=\"34.0\" y2=\"52\" stroke=\"#23291f\" stroke-width=\"1.6\"/><text x=\"34.0\" y=\"67\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#23291f\" font-weight=\"400\">-20°</text><line x1=\"168.0\" y1=\"31\" x2=\"168.0\" y2=\"57\" stroke=\"#3b6ea5\" stroke-width=\"3\"/><text x=\"168.0\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" fill=\"#3b6ea5\" font-weight=\"600\">vriespunt</text><line x1=\"302.0\" y1=\"36\" x2=\"302.0\" y2=\"52\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"302.0\" y=\"67\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#2f5d50\" font-weight=\"400\">kamer</text><line x1=\"415.9\" y1=\"31\" x2=\"415.9\" y2=\"57\" stroke=\"#c17f2b\" stroke-width=\"3\"/><text x=\"415.9\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" fill=\"#c17f2b\" font-weight=\"600\">lichaam</text><line x1=\"436.0\" y1=\"36\" x2=\"436.0\" y2=\"52\" stroke=\"#23291f\" stroke-width=\"1.6\"/><text x=\"436.0\" y=\"67\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#23291f\" font-weight=\"400\">40°</text></svg>",
+     "onderschrift": "Onder nul gaan de graden verder met een minteken."
+    },
+    {
+     "soort": "tekst",
+     "html": "Hoe lager het getal onder nul, hoe kouder het is: -12 °C is kouder dan -3 °C."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Elke stap op de maatladder is maal of gedeeld door 10.",
+  "1 liter = 1 000 ml, 1 kg = 1 000 g, 1 ton = 1 000 kg.",
+  "Omtrek is rond de figuur, oppervlakte is erin.",
+  "Oppervlakte in cm², inhoud in cm³.",
+  "Tijd rekent met 60, niet met 10.",
+  "Reken bij tijd eerst tot het volgende hele uur.",
+  "Bij oppervlakte is elke stap maal of gedeeld door 100, bij inhoud door 1 000.",
+  "Vergelijken? Zet eerst alles in dezelfde eenheid."
+ ]
+}

@@ -1,0 +1,177 @@
+{
+ "vak": "Wetenschap en techniek",
+ "titel": "Chemie: stoffen en mengsels",
+ "onder": "Waaruit dingen bestaan, hoe ze van vorm veranderen en hoe je een mengsel weer uit elkaar haalt.",
+ "secties": [
+  {
+   "kop": "Drie toestanden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Alles om je heen bestaat uit piepkleine deeltjes. Hoe die deeltjes liggen, bepaalt of een stof vast, vloeibaar of gasvormig is."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 138\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"15.0\" y=\"6\" width=\"126.7\" height=\"84\" rx=\"8\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.7\"/><circle cx=\"29.0\" cy=\"18.0\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"53.7\" cy=\"18.0\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"78.3\" cy=\"18.0\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"103.0\" cy=\"18.0\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"127.7\" cy=\"18.0\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"29.0\" cy=\"37.0\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"53.7\" cy=\"37.0\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"78.3\" cy=\"37.0\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"103.0\" cy=\"37.0\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"127.7\" cy=\"37.0\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"29.0\" cy=\"56.0\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"53.7\" cy=\"56.0\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"78.3\" cy=\"56.0\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"103.0\" cy=\"56.0\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"127.7\" cy=\"56.0\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"29.0\" cy=\"75.0\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"53.7\" cy=\"75.0\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"78.3\" cy=\"75.0\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"103.0\" cy=\"75.0\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"127.7\" cy=\"75.0\" r=\"5\" fill=\"#2f5d50\"/><text x=\"78.3\" y=\"110\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">vast</text><text x=\"78.3\" y=\"124\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">netjes op hun plaats</text><rect x=\"171.7\" y=\"6\" width=\"126.7\" height=\"84\" rx=\"8\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.7\"/><circle cx=\"184.6\" cy=\"41.9\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"211.2\" cy=\"41.4\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"235.2\" cy=\"43.2\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"257.0\" cy=\"44.0\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"281.6\" cy=\"43.6\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"183.1\" cy=\"58.5\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"209.9\" cy=\"63.0\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"232.7\" cy=\"59.3\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"260.4\" cy=\"63.7\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"284.8\" cy=\"60.4\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"188.5\" cy=\"75.3\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"212.5\" cy=\"76.7\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"232.9\" cy=\"75.7\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"258.5\" cy=\"79.9\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"282.4\" cy=\"78.5\" r=\"5\" fill=\"#2f5d50\"/><text x=\"235.0\" y=\"110\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">vloeibaar</text><text x=\"235.0\" y=\"124\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">tegen elkaar, maar ze schuiven</text><rect x=\"328.3\" y=\"6\" width=\"126.7\" height=\"84\" rx=\"8\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.7\"/><circle cx=\"405.9\" cy=\"39.3\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"396.6\" cy=\"18.3\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"346.5\" cy=\"28.0\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"410.2\" cy=\"43.1\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"372.6\" cy=\"53.8\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"386.9\" cy=\"34.4\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"421.9\" cy=\"61.5\" r=\"5\" fill=\"#2f5d50\"/><circle cx=\"365.4\" cy=\"53.1\" r=\"5\" fill=\"#2f5d50\"/><text x=\"391.7\" y=\"110\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">gas</text><text x=\"391.7\" y=\"124\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">ver uit elkaar, ze vliegen rond</text></svg>",
+     "onderschrift": "Dezelfde deeltjes, alleen anders geordend."
+    },
+    {
+     "soort": "tekst",
+     "html": "Water is daar het mooiste voorbeeld van: als ijs is het vast, als water vloeibaar en als waterdamp een gas. Het blijft telkens water."
+    }
+   ]
+  },
+  {
+   "kop": "Van de ene toestand naar de andere",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verandering</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe het heet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wanneer</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vast → vloeibaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">smelten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ijs in je hand</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vloeibaar → vast</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stollen of bevriezen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">water in de diepvries</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vloeibaar → gas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verdampen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een plas die opdroogt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gas → vloeibaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">condenseren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">damp op een koude ruit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vast → gas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sublimeren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">droogijs, dat is bevroren koolstofdioxide</td></tr></table>",
+     "onderschrift": "Water bevriest bij 0 °C en kookt bij 100 °C."
+    },
+    {
+     "soort": "weetje",
+     "html": "Bij al die veranderingen blijft de stof zelf dezelfde. Er komt of gaat alleen warmte bij. Verbranden is iets heel anders: daar ontstaan nieuwe stoffen, en dat kan je niet terugdraaien."
+    }
+   ]
+  },
+  {
+   "kop": "Atomen en moleculen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Atomen</strong> zijn de allerkleinste bouwstenen. Zitten er een paar aan elkaar vast, dan heet dat een <strong>molecule</strong>. Eén watermolecule bestaat uit twee waterstofatomen en één zuurstofatoom. Daarom schrijven we water als H₂O."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ook lucht bestaat uit deeltjes, en lucht is een <strong>mengsel</strong>: ongeveer 78 % stikstof, 21 % zuurstof, en een heel klein beetje koolstofdioxide en andere gassen."
+    }
+   ]
+  },
+  {
+   "kop": "Mengsels",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Meng je twee stoffen, dan blijven het twee stoffen. Soms zie je dat nog (zand in water), soms niet (suiker in water)."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort mengsel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Zie je de delen nog?</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oplossing</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">suiker in water</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">troebel mengsel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zand in water</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja, het zakt naar beneden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mengsel van vaste stoffen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">muesli</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mengsel van gassen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lucht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">emulsie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mayonaise: olie en water</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee, maar ze zitten er allebei in</td></tr></table>",
+     "onderschrift": "In mayonaise houdt het eigeel de olie en het water aan elkaar. Zonder dat scheidt het meteen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Olie drijft op water omdat evenveel olie lichter is dan water. Wat lichter is voor hetzelfde volume, komt bovenaan."
+    }
+   ]
+  },
+  {
+   "kop": "Oplossen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Los je suiker op in water, dan is de suiker niet verdwenen; ze is alleen te klein geworden om te zien. Weeg je 100 gram water en 10 gram suiker, dan weegt het geheel achteraf nog altijd 110 gram."
+    },
+    {
+     "soort": "tekst",
+     "html": "In <strong>warm</strong> water bewegen de deeltjes sneller, en lost suiker dus sneller én in grotere hoeveelheid op. Blijft er toch suiker op de bodem liggen, dan is de oplossing <strong>verzadigd</strong>: er kan niets meer bij."
+    }
+   ]
+  },
+  {
+   "kop": "Een mengsel scheiden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Omdat de stoffen in een mengsel zichzelf blijven, kan je ze er weer uit halen. Welke manier werkt, hangt af van wat erin zit."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Manier</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarvoor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zeven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">grote en kleine stukken scheiden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pasta uit kookwater</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">filteren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vaste stof uit een vloeistof</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">koffiefilter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">indampen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een opgeloste stof terugwinnen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zout uit zeewater</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bezinken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zwaardere deeltjes laten zakken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">modder in een emmer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">magneet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ijzer uit een mengsel halen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ijzervijlsel uit zand</td></tr></table>",
+     "onderschrift": ""
+    },
+    {
+     "soort": "tekst",
+     "html": "Een mooi proefje: zet een streepje viltstift op een strook filtreerpapier en hang het puntje in water. De kleur kruipt mee omhoog en splitst zich in de kleurstoffen waaruit ze gemaakt is. Zwarte stift blijkt vaak uit blauw, rood en geel te bestaan."
+    },
+    {
+     "soort": "weetje",
+     "html": "Die witte laag in je waterkoker is <strong>kalk</strong>: die zat opgelost in het water en blijft achter als het water verdampt. Precies hetzelfde als zout uit zeewater halen."
+    }
+   ]
+  },
+  {
+   "kop": "Zuur en basisch",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Sommige stoffen zijn <strong>zuur</strong>, zoals azijn en citroensap. Andere zijn <strong>basisch</strong>, zoals zeep en soda. En sommige zijn neutraal, zoals zuiver water en keukenzout."
+    },
+    {
+     "soort": "tekst",
+     "html": "Hoe zuur of hoe basisch iets is, druk je uit met de <strong>pH</strong>. Onder 7 is zuur, precies 7 is neutraal, boven 7 is basisch."
+    },
+    {
+     "soort": "weetje",
+     "html": "Sap van rode kool verandert van kleur: rood of roze in een zuur, groen of geel in een base. Zo'n stof heet een <strong>indicator</strong>, en daarmee kan je thuis alles in de keuken testen."
+    }
+   ]
+  },
+  {
+   "kop": "Verbranden en blussen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Om iets te laten branden heb je altijd drie dingen tegelijk nodig: <strong>brandstof</strong>, <strong>zuurstof</strong> en <strong>warmte</strong>. Dat heet de <strong>branddriehoek</strong>. Neem er één van weg, en het vuur dooft."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom dooft een kaars onder een omgekeerd glas: de zuurstof raakt op. En daarom leg je een deksel op een brandende pan. <strong>Water op brandend frituurvet is levensgevaarlijk</strong>: het water wordt in een flits stoom en slingert het brandende vet in het rond."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Roesten</strong> is eigenlijk een heel trage verbranding: ijzer dat langzaam met zuurstof en water reageert. Ook dat kan je niet terugdraaien."
+    }
+   ]
+  },
+  {
+   "kop": "Water op reis",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Water uit de zee <strong>verdampt</strong> door de warmte van de zon, <strong>condenseert</strong> hoog in de lucht tot wolken en valt weer naar beneden als <strong>neerslag</strong>. Via beken en rivieren komt het terug in zee."
+    },
+    {
+     "soort": "weetje",
+     "html": "Dat is de waterkringloop, en ze draait al miljarden jaren. Het water dat je vandaag drinkt, is hetzelfde water dat de dinosaurussen dronken."
+    }
+   ]
+  },
+  {
+   "kop": "Veilig werken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op de verpakking van een gevaarlijk product staan waarschuwingstekens: een vlam voor brandbaar, een doodshoofd voor giftig, een druppel die inbijt voor bijtend."
+    },
+    {
+     "soort": "tekst",
+     "html": "Vind je thuis een fles die je niet kent: <strong>afblijven en het aan een volwassene vragen</strong>. Niet eraan ruiken, niet uitgieten, en zeker niet verdunnen met water — dat maakt het niet veilig. Ook doodgewone producten uit de badkamer kunnen samen een schadelijk gas vormen."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Vast, vloeibaar en gas: dezelfde deeltjes, anders geordend.",
+  "Smelten, stollen, verdampen, condenseren en sublimeren.",
+  "Water bevriest bij 0 °C en kookt bij 100 °C. Eén watermolecule is H₂O.",
+  "Lucht is een mengsel: ongeveer 78 % stikstof en 21 % zuurstof.",
+  "In een mengsel blijft elke stof zichzelf, en niets gaat verloren bij het oplossen.",
+  "Zeven, filteren, indampen, bezinken en de magneet scheiden een mengsel.",
+  "pH onder 7 is zuur, 7 is neutraal, boven 7 is basisch.",
+  "Branden vraagt brandstof, zuurstof én warmte. Nooit water op brandend vet.",
+  "Smelten kan je terugdraaien, verbranden niet.",
+  "Meng nooit iets waarvan je het etiket niet gelezen hebt."
+ ]
+}

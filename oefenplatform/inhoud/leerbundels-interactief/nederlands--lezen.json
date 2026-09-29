@@ -1,0 +1,149 @@
+{
+ "vak": "Nederlands",
+ "titel": "Lezen",
+ "onder": "Een tekst begrijpen, de hoofdgedachte vinden en niet verdrinken in de details.",
+ "secties": [
+  {
+   "kop": "Lees in drie rondes",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een tekst één keer van begin tot eind lezen werkt zelden. Wie goed leest, gaat er meerdere keren doorheen, telkens met een andere bedoeling."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"69.7\" y=\"21.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Kijk rond</text><text x=\"69.7\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">titel, tussentitels,</text><text x=\"69.7\" y=\"53.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">afbeeldingen</text><path d=\"M144.33333333333334 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"165.3\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"21.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Lees door</text><text x=\"235.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">van begin tot eind,</text><text x=\"235.0\" y=\"53.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">zonder te stoppen</text><path d=\"M309.6666666666667 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"330.7\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"400.3\" y=\"21.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Lees gericht</text><text x=\"400.3\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">zoek het antwoord</text><text x=\"400.3\" y=\"53.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">op je vraag</text></svg>",
+     "onderschrift": "De eerste ronde duurt tien seconden en scheelt achteraf het meeste tijd."
+    },
+    {
+     "soort": "tekst",
+     "html": "Weet je vooraf wat je zoekt, dan hoef je de tekst niet helemaal te onthouden. Lees dus eerst de vragen, en pas daarna de tekst."
+    }
+   ]
+  },
+  {
+   "kop": "Hoe een tekst in elkaar zit",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 207.0\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"4\" y=\"4\" width=\"462\" height=\"30\" rx=\"9\" fill=\"rgba(47,93,80,.07)\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"20\" y=\"16\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">Titel</text><text x=\"20\" y=\"32\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">waarover gaat het</text><rect x=\"4\" y=\"42\" width=\"462\" height=\"39\" rx=\"9\" fill=\"rgba(47,93,80,.07)\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"20\" y=\"58\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">Inleiding</text><text x=\"20\" y=\"74\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">het onderwerp, en waarom het je aanbelangt</text><rect x=\"4\" y=\"89\" width=\"462\" height=\"66\" rx=\"9\" fill=\"rgba(47,93,80,.07)\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"20\" y=\"119\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">Middenstuk</text><text x=\"20\" y=\"135\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">één gedachte per alinea</text><rect x=\"4\" y=\"163\" width=\"462\" height=\"36\" rx=\"9\" fill=\"rgba(47,93,80,.07)\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"20\" y=\"178\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">Slot</text><text x=\"20\" y=\"194\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">de conclusie of de samenvatting</text></svg>",
+     "onderschrift": "Elke alinea heeft één kerngedachte, en die staat meestal in de eerste of de laatste zin."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zoek je de <strong>hoofdgedachte</strong> van een hele tekst, kijk dan naar de titel, de inleiding en het slot samen. Die drie zeggen het bijna altijd."
+    }
+   ]
+  },
+  {
+   "kop": "Signaalwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Sommige woorden verklappen wat er komt. Herken je ze, dan lees je sneller en juister."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Signaalwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat er komt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">want, omdat, daardoor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een reden of een gevolg</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maar, toch, hoewel, ondanks</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een tegenstelling</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eerst, daarna, ten slotte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een volgorde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bijvoorbeeld, zoals</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een voorbeeld</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kortom, dus, samengevat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een conclusie</td></tr></table>",
+     "onderschrift": "Zie je kortom staan, dan komt de kern van de tekst eraan."
+    }
+   ]
+  },
+  {
+   "kop": "Soorten teksten",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarvoor dient hij</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">informatief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets uitleggen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een lesbladzijde, een artikel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verhalend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets vertellen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een boek, een kortverhaal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">instructief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets laten doen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een recept, een handleiding</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">overtuigend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je van iets overtuigen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">reclame, een opiniestuk</td></tr></table>",
+     "onderschrift": "Weet je de soort, dan weet je ook wat je moet zoeken."
+    },
+    {
+     "soort": "weetje",
+     "html": "Bij een overtuigende tekst is de vraag altijd: <em>wie</em> zegt dit, en wat heeft die eraan? Reclame vertelt zelden het volledige verhaal."
+    }
+   ]
+  },
+  {
+   "kop": "Zoekend lezen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Soms moet je een tekst niet begrijpen maar doorzoeken: je wil één gegeven, bijvoorbeeld het telefoonnummer van de school in een brief. Dan lees je niet, dan <strong>scan</strong> je: je laat je ogen over de tekst gaan tot je de vorm ziet die je zoekt, hier een rij cijfers."
+    },
+    {
+     "soort": "tekst",
+     "html": "Weet je op voorhand wat je zoekt, dan gaat dat razendsnel. Zoek je een datum, kijk dan naar getallen en maandnamen. Zoek je een naam, kijk dan naar de hoofdletters."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar je het zoekt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de inhoudstafel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vooraan of achteraan: welk hoofdstuk staat waar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het register</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">achteraan: op welke bladzijde staat dit woord</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een woordenboek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de betekenis en de spelling van een woord</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een atlas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kaarten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een encyclopedie of een betrouwbare website</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uitleg over een onderwerp</td></tr></table>",
+     "onderschrift": "Weten wáár je iets zoekt, scheelt meer tijd dan snel lezen."
+    }
+   ]
+  },
+  {
+   "kop": "Feit, mening en betrouwbaarheid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>feit</strong> kan je nagaan: het klopt of het klopt niet. Een <strong>mening</strong> is wat iemand ervan vindt, en daar kan je het mee oneens zijn."
+    },
+    {
+     "soort": "kader",
+     "html": "<p style='margin:0 0 4px'><strong>Feit</strong> — België heeft drie landstalen. Dat kan je opzoeken.</p><p style='margin:0'><strong>Mening</strong> — Frans is de mooiste taal. Daar kan je niets aan nameten.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij alles wat je leest, zeker op het internet, horen drie vragen: <em>wie</em> schrijft dit, <em>wanneer</em> is het geschreven, en <em>waarom</em>? Een tekst van een ziekenhuis over gezondheid is betrouwbaarder dan een folder van iemand die je iets wil verkopen. Een tekst van tien jaar geleden kan achterhaald zijn."
+    },
+    {
+     "soort": "weetje",
+     "html": "In een reclametekst is alles wat er staat misschien waar, en toch krijg je niet het hele verhaal. Wat ontbreekt, is even belangrijk als wat er staat."
+    }
+   ]
+  },
+  {
+   "kop": "Als woorden iets anders betekenen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Niet alles wat je leest, is letterlijk bedoeld. <strong>Het regende dat het goot</strong> betekent dat het heel hard regende, niet dat er een goot in de lucht hing. Zulke vaste beeldende zinnetjes heten uitdrukkingen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitdrukking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat er bedoeld wordt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het regende dat het goot</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het regende heel hard</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">door het dolle heen zijn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uitgelaten blij zijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kat uit de boom kijken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eerst afwachten hoe de zaken staan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een appeltje voor de dorst</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets opzijzetten voor later</td></tr></table>",
+     "onderschrift": "Ken je de uitdrukking niet, lees dan verder: de rest van de tekst legt ze meestal uit."
+    },
+    {
+     "soort": "tekst",
+     "html": "Soms bedoelt iemand zelfs het omgekeerde van wat hij zegt. <em>\"Wat een schitterend idee\", zei hij, terwijl hij met zijn ogen rolde.</em> Zijn woorden zeggen ja, zijn gebaar zegt nee. Dat heet <strong>ironie</strong>. Let dus altijd op wat er rond de woorden staat."
+    }
+   ]
+  },
+  {
+   "kop": "Een woord dat je niet kent",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Sla niet meteen iets op. Lees eerst de zin ervoor en erna: vaak staat de betekenis er gewoon bij, of kan je ze raden uit de rest."
+    },
+    {
+     "soort": "tekst",
+     "html": "Helpt dat niet, kijk dan of je stukken van het woord herkent. In <em>onbereikbaar</em> zitten <em>on</em> (niet), <em>bereiken</em> en <em>baar</em> (kan): iets dat je niet kan bereiken."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Kijk eerst rond in de tekst voor je begint te lezen.",
+  "Lees de vragen voor je de tekst leest.",
+  "Elke alinea heeft één kerngedachte.",
+  "Titel, inleiding en slot geven samen de hoofdgedachte.",
+  "Signaalwoorden verklappen wat er komt.",
+  "Raad een onbekend woord eerst uit de zin eromheen.",
+  "Zoek je één gegeven? Dan scan je, je leest niet.",
+  "Een feit kan je nagaan, een mening niet.",
+  "Vraag bij elke tekst: wie, wanneer en waarom.",
+  "Een uitdrukking bedoelt iets anders dan wat er staat."
+ ]
+}

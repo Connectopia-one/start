@@ -1,0 +1,92 @@
+{
+ "vak": "Engels",
+ "titel": "To be en to have",
+ "onder": "De twee werkwoorden die je in bijna elke Engelse zin nodig hebt.",
+ "secties": [
+  {
+   "kop": "To be — zijn",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 113\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"78.3\" y=\"16\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">I</text><path d=\"M78.3 31 v12 m0 0 l-4 -5 m4 5 l4 -5\" stroke=\"#2f5d50\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"40.3\" y=\"47\" width=\"76\" height=\"30\" rx=\"8\" fill=\"#2f5d50\" /><text x=\"78.3\" y=\"67\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#ffffff\">am</text><text x=\"235.0\" y=\"16\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">he</text><text x=\"235.0\" y=\"31\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">she</text><text x=\"235.0\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">it</text><path d=\"M235.0 61 v12 m0 0 l-4 -5 m4 5 l4 -5\" stroke=\"#c17f2b\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"197.0\" y=\"77\" width=\"76\" height=\"30\" rx=\"8\" fill=\"#c17f2b\" /><text x=\"235.0\" y=\"97\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#ffffff\">is</text><text x=\"391.7\" y=\"16\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">we</text><text x=\"391.7\" y=\"31\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">you</text><text x=\"391.7\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">they</text><path d=\"M391.7 61 v12 m0 0 l-4 -5 m4 5 l4 -5\" stroke=\"#3b6ea5\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"353.7\" y=\"77\" width=\"76\" height=\"30\" rx=\"8\" fill=\"#3b6ea5\" /><text x=\"391.7\" y=\"97\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#ffffff\">are</text></svg>",
+     "onderschrift": "Am hoort alleen bij I. Dat is de enige plek waar het staat."
+    },
+    {
+     "soort": "tekst",
+     "html": "Staat er een meervoud voor het werkwoord, dan is het altijd <strong>are</strong>: <em>the books are on the table</em>, <em>my parents are at work</em>. Eén ding of één persoon krijgt is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een naam of een zelfstandig naamwoord vervang je in je hoofd door he, she, it of they. <em>My brother</em> is he, dus: my brother <strong>is</strong>. <em>My parents</em> zijn they, dus: my parents <strong>are</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Korte vormen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Volledig</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Ontkennend</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I am</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I'm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I'm not</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">he is</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">he's</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">he isn't</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">we are</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">we're</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">we aren't</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">they are</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">they're</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">they aren't</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">she has</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">she's got</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">she hasn't</td></tr></table>",
+     "onderschrift": "De apostrof vervangt de letter die wegvalt: aren't is are not, hasn't is has not."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je mag alles ook voluit schrijven: <em>they are not late</em> en <em>they aren't late</em> betekenen precies hetzelfde. Ook <em>she is not ready</em> en <em>she isn't ready</em> zijn hetzelfde. In een gesprek klinkt de korte vorm gewoner, in een brief schrijf je vaker voluit."
+    },
+    {
+     "soort": "weetje",
+     "html": "Let op drie woorden die hetzelfde klinken: <strong>they're</strong> (zij zijn), <strong>their</strong> (hun) en <strong>there</strong> (daar). En <strong>it's</strong> is it is, terwijl <strong>its</strong> zonder apostrof zijn of haar betekent."
+    }
+   ]
+  },
+  {
+   "kop": "Vragen en ontkennen met to be",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij to be is het makkelijk: voor een vraag draai je gewoon om, voor een ontkenning zet je <strong>not</strong> erachter."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"69.7\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">You are ready.</text><text x=\"69.7\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">gewone zin</text><path d=\"M144.33333333333334 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"165.3\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Are you ready?</text><text x=\"235.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">omdraaien</text><path d=\"M309.6666666666667 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"330.7\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"400.3\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">You aren't ready.</text><text x=\"400.3\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">not erachter</text></svg>",
+     "onderschrift": "Je hebt hier geen do of does voor nodig."
+    }
+   ]
+  },
+  {
+   "kop": "To have — hebben",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 380 128\" width=\"380\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"95.0\" y=\"16\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">I</text><text x=\"95.0\" y=\"31\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">we</text><text x=\"95.0\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">you</text><text x=\"95.0\" y=\"61\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">they</text><path d=\"M95.0 76 v12 m0 0 l-4 -5 m4 5 l4 -5\" stroke=\"#2f5d50\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"57.0\" y=\"92\" width=\"76\" height=\"30\" rx=\"8\" fill=\"#2f5d50\" /><text x=\"95.0\" y=\"112\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#ffffff\">have</text><text x=\"285.0\" y=\"16\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">he</text><text x=\"285.0\" y=\"31\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">she</text><text x=\"285.0\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">it</text><path d=\"M285.0 61 v12 m0 0 l-4 -5 m4 5 l4 -5\" stroke=\"#c17f2b\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"247.0\" y=\"77\" width=\"76\" height=\"30\" rx=\"8\" fill=\"#c17f2b\" /><text x=\"285.0\" y=\"97\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#ffffff\">has</text></svg>",
+     "onderschrift": "Alleen bij he, she en it wordt have een has."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je hoort ook vaak <strong>have got</strong>: I have got a new bike betekent gewoon hetzelfde als I have a new bike."
+    }
+   ]
+  },
+  {
+   "kop": "Vragen en ontkennen met to have",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Hier heb je wél do of does nodig, want to have is een gewoon werkwoord."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vraag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Ontkenning</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I / we / you / they</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Do you have a pen?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I don't have a pen.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">he / she / it</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Does she have a pen?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">She doesn't have a pen.</td></tr></table>",
+     "onderschrift": "Na does of doesn't wordt has weer gewoon have."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "I am, he/she/it is, we/you/they are.",
+  "I/we/you/they have, he/she/it has.",
+  "Bij to be draai je om voor een vraag en zet je not erachter.",
+  "Bij to have gebruik je do of does.",
+  "it's = it is, its = zijn of haar."
+ ]
+}

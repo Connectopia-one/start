@@ -1,0 +1,189 @@
+{
+ "vak": "Wiskunde",
+ "titel": "Getallenkennis",
+ "onder": "Wat getallen betekenen, hoe je ze leest en hoe je ze met elkaar vergelijkt.",
+ "secties": [
+  {
+   "kop": "Grote getallen lezen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Elk cijfer in een getal heeft een eigen plaats, en die plaats bepaalt hoeveel het cijfer waard is. Een 6 vooraan is veel meer waard dan een 6 achteraan."
+    },
+    {
+     "soort": "figuur",
+     "html": "\n<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;\">\n  <tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 4px;color:#234539;font-weight:600;\">miljoen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 4px;color:#234539;font-weight:600;\">honderd&shy;duizend</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 4px;color:#234539;font-weight:600;\">tien&shy;duizend</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 4px;color:#234539;font-weight:600;\">duizend</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 4px;color:#234539;font-weight:600;\">honderd</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 4px;color:#234539;font-weight:600;\">tien</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 4px;color:#234539;font-weight:600;\">een</th></tr>\n  <tr><td style=\"border:1px solid #e4ded0;padding:9px 4px;text-align:center;font-size:15pt;font-weight:600;color:#23291f;\">2</td><td style=\"border:1px solid #e4ded0;padding:9px 4px;text-align:center;font-size:15pt;font-weight:600;color:#c17f2b;\">6</td><td style=\"border:1px solid #e4ded0;padding:9px 4px;text-align:center;font-size:15pt;font-weight:600;color:#23291f;\">4</td><td style=\"border:1px solid #e4ded0;padding:9px 4px;text-align:center;font-size:15pt;font-weight:600;color:#23291f;\">5</td><td style=\"border:1px solid #e4ded0;padding:9px 4px;text-align:center;font-size:15pt;font-weight:600;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:9px 4px;text-align:center;font-size:15pt;font-weight:600;color:#23291f;\">3</td><td style=\"border:1px solid #e4ded0;padding:9px 4px;text-align:center;font-size:15pt;font-weight:600;color:#23291f;\">0</td></tr>\n</table>\n",
+     "onderschrift": "In 2 645 130 staat de 6 op de plaats van de honderdduizendtallen. Die 6 is dus 600 000 waard."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je leest zo'n getal van links naar rechts, in groepjes van drie: <strong>twee miljoen — zeshonderdvijfenveertigduizend — honderddertig</strong>. Daarom laten we telkens een spatie tussen de groepjes."
+    },
+    {
+     "soort": "tekst",
+     "html": "Omgekeerd werkt het net zo. <strong>Twee miljoen driehonderdduizend</strong> schrijf je door elk groepje op zijn plaats te zetten: 2 300 000. En wil je weten hoeveel duizendtallen er in 45 000 zitten, dan deel je door 1 000: dat zijn er 45. Hoeveel honderdtallen in 7 400? Delen door 100 geeft 74."
+    },
+    {
+     "soort": "weetje",
+     "html": "Die spatie is geen punt en geen komma. In het Engels schrijven ze wel een komma (2,645,130). Hetzelfde getal, een andere gewoonte."
+    }
+   ]
+  },
+  {
+   "kop": "Afronden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Afronden is een getal vervangen door een rond getal dat er dicht bij ligt. Je kijkt naar het cijfer <em>rechts</em> van de plaats waarop je afrondt: is dat 5 of meer, dan ga je naar boven; is het minder dan 5, dan blijf je beneden."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 86\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"34\" y1=\"44\" x2=\"436\" y2=\"44\" stroke=\"#23291f\" stroke-width=\"2\"/><path d=\"M436 44 l-9 -5 v10 z\" fill=\"#23291f\"/><path d=\"M34 44 l9 -5 v10 z\" fill=\"#23291f\"/><line x1=\"34.0\" y1=\"36\" x2=\"34.0\" y2=\"52\" stroke=\"#23291f\" stroke-width=\"1.6\"/><text x=\"34.0\" y=\"67\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#23291f\" font-weight=\"400\">3 700</text><line x1=\"235.0\" y1=\"36\" x2=\"235.0\" y2=\"52\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"67\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#6b7260\" font-weight=\"400\">helft</text><line x1=\"436.0\" y1=\"36\" x2=\"436.0\" y2=\"52\" stroke=\"#23291f\" stroke-width=\"1.6\"/><text x=\"436.0\" y=\"67\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#23291f\" font-weight=\"400\">3 800</text><line x1=\"227.0\" y1=\"31\" x2=\"227.0\" y2=\"57\" stroke=\"#c17f2b\" stroke-width=\"3\"/><text x=\"227.0\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" fill=\"#c17f2b\" font-weight=\"600\">3 748</text></svg>",
+     "onderschrift": "3 748 afgerond op honderdtallen wordt 3 700: het ligt links van de helft."
+    },
+    {
+     "soort": "tekst",
+     "html": "Afronden op duizendtallen geeft 4 000, want dan kijk je naar de 7."
+    }
+   ]
+  },
+  {
+   "kop": "Kommagetallen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Achter de komma gaat het tellen gewoon verder, maar in stukjes: tienden, honderdsten, duizendsten. <strong>0,7 is groter dan 0,65</strong>, want 0,7 is hetzelfde als 0,70."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 86\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"34\" y1=\"44\" x2=\"436\" y2=\"44\" stroke=\"#23291f\" stroke-width=\"2\"/><path d=\"M436 44 l-9 -5 v10 z\" fill=\"#23291f\"/><path d=\"M34 44 l9 -5 v10 z\" fill=\"#23291f\"/><line x1=\"34.0\" y1=\"36\" x2=\"34.0\" y2=\"52\" stroke=\"#23291f\" stroke-width=\"1.6\"/><text x=\"34.0\" y=\"67\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#23291f\" font-weight=\"400\">4</text><line x1=\"114.4\" y1=\"36\" x2=\"114.4\" y2=\"52\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"114.4\" y=\"67\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#6b7260\" font-weight=\"400\">4,2</text><line x1=\"154.6\" y1=\"31\" x2=\"154.6\" y2=\"57\" stroke=\"#c17f2b\" stroke-width=\"3\"/><text x=\"154.6\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" fill=\"#c17f2b\" font-weight=\"600\">4,3</text><line x1=\"194.8\" y1=\"36\" x2=\"194.8\" y2=\"52\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"194.8\" y=\"67\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#6b7260\" font-weight=\"400\">4,4</text><line x1=\"436.0\" y1=\"36\" x2=\"436.0\" y2=\"52\" stroke=\"#23291f\" stroke-width=\"1.6\"/><text x=\"436.0\" y=\"67\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#23291f\" font-weight=\"400\">5</text></svg>",
+     "onderschrift": "Tussen 4,2 en 4,4 ligt 4,3 precies in het midden."
+    },
+    {
+     "soort": "tekst",
+     "html": "Vergelijk je twee kommagetallen, vul dan eerst aan met nullen tot ze evenveel cijfers achter de komma hebben. Dan lees je ze even makkelijk als gewone getallen."
+    },
+    {
+     "soort": "weetje",
+     "html": "Maal 10 schuift de komma één plaats naar rechts, delen door 10 één plaats naar links. 7,5 × 100 wordt dus 750."
+    }
+   ]
+  },
+  {
+   "kop": "Breuken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een breuk is een geheel dat in gelijke stukken verdeeld is. Het onderste getal (de <strong>noemer</strong>) zegt in hoeveel stukken, het bovenste (de <strong>teller</strong>) hoeveel stukken je neemt."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 175\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"0\" y=\"17\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#6b7260\">1 geheel</text><rect x=\"62.0\" y=\"0\" width=\"400.0\" height=\"26\" fill=\"#2f5d50\" stroke=\"#234539\" stroke-width=\"1.3\" rx=\"3\"/><text x=\"262.0\" y=\"17\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#ffffff\">1 geheel</text><text x=\"0\" y=\"52\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#6b7260\">1/2</text><rect x=\"62.0\" y=\"35\" width=\"200.0\" height=\"26\" fill=\"#2f5d50\" stroke=\"#234539\" stroke-width=\"1.3\" rx=\"3\"/><text x=\"162.0\" y=\"52\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#ffffff\">1/2</text><rect x=\"262.0\" y=\"35\" width=\"200.0\" height=\"26\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\" rx=\"3\"/><text x=\"362.0\" y=\"52\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">1/2</text><text x=\"0\" y=\"87\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#6b7260\">1/3</text><rect x=\"62.0\" y=\"70\" width=\"133.3\" height=\"26\" fill=\"#2f5d50\" stroke=\"#234539\" stroke-width=\"1.3\" rx=\"3\"/><text x=\"128.7\" y=\"87\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#ffffff\">1/3</text><rect x=\"195.3\" y=\"70\" width=\"133.3\" height=\"26\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\" rx=\"3\"/><text x=\"262.0\" y=\"87\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">1/3</text><rect x=\"328.7\" y=\"70\" width=\"133.3\" height=\"26\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\" rx=\"3\"/><text x=\"395.3\" y=\"87\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">1/3</text><text x=\"0\" y=\"122\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#6b7260\">1/4</text><rect x=\"62.0\" y=\"105\" width=\"100.0\" height=\"26\" fill=\"#2f5d50\" stroke=\"#234539\" stroke-width=\"1.3\" rx=\"3\"/><text x=\"112.0\" y=\"122\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#ffffff\">1/4</text><rect x=\"162.0\" y=\"105\" width=\"100.0\" height=\"26\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\" rx=\"3\"/><text x=\"212.0\" y=\"122\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">1/4</text><rect x=\"262.0\" y=\"105\" width=\"100.0\" height=\"26\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\" rx=\"3\"/><text x=\"312.0\" y=\"122\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">1/4</text><rect x=\"362.0\" y=\"105\" width=\"100.0\" height=\"26\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\" rx=\"3\"/><text x=\"412.0\" y=\"122\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">1/4</text><text x=\"0\" y=\"157\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#6b7260\">1/5</text><rect x=\"62.0\" y=\"140\" width=\"80.0\" height=\"26\" fill=\"#2f5d50\" stroke=\"#234539\" stroke-width=\"1.3\" rx=\"3\"/><text x=\"102.0\" y=\"157\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#ffffff\">1/5</text><rect x=\"142.0\" y=\"140\" width=\"80.0\" height=\"26\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\" rx=\"3\"/><text x=\"182.0\" y=\"157\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">1/5</text><rect x=\"222.0\" y=\"140\" width=\"80.0\" height=\"26\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\" rx=\"3\"/><text x=\"262.0\" y=\"157\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">1/5</text><rect x=\"302.0\" y=\"140\" width=\"80.0\" height=\"26\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\" rx=\"3\"/><text x=\"342.0\" y=\"157\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">1/5</text><rect x=\"382.0\" y=\"140\" width=\"80.0\" height=\"26\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\" rx=\"3\"/><text x=\"422.0\" y=\"157\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">1/5</text></svg>",
+     "onderschrift": "Hoe groter de noemer, hoe kleiner elk stukje. 1/5 is dus kleiner dan 1/3."
+    },
+    {
+     "soort": "tekst",
+     "html": "Staat boven en onder hetzelfde getal, dan heb je het hele ding: 4/4 is 1. En breuken die er anders uitzien kunnen evenveel waard zijn: 2/4 is hetzelfde als 1/2."
+    }
+   ]
+  },
+  {
+   "kop": "Procent",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Procent betekent <em>per honderd</em>. 25% is dus 25 van de 100, of één vierde van het geheel."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 215 215\" width=\"215\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"0.0\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"21.5\" y=\"0.0\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"43.0\" y=\"0.0\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"64.5\" y=\"0.0\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"86.0\" y=\"0.0\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"107.5\" y=\"0.0\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"129.0\" y=\"0.0\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"150.5\" y=\"0.0\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"172.0\" y=\"0.0\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"193.5\" y=\"0.0\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"0.0\" y=\"21.5\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"21.5\" y=\"21.5\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"43.0\" y=\"21.5\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"64.5\" y=\"21.5\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"86.0\" y=\"21.5\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"107.5\" y=\"21.5\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"129.0\" y=\"21.5\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"150.5\" y=\"21.5\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"172.0\" y=\"21.5\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"193.5\" y=\"21.5\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"0.0\" y=\"43.0\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"21.5\" y=\"43.0\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"43.0\" y=\"43.0\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"64.5\" y=\"43.0\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"86.0\" y=\"43.0\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"107.5\" y=\"43.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"129.0\" y=\"43.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"150.5\" y=\"43.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"172.0\" y=\"43.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"193.5\" y=\"43.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"0.0\" y=\"64.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"21.5\" y=\"64.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"43.0\" y=\"64.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"64.5\" y=\"64.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"86.0\" y=\"64.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"107.5\" y=\"64.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"129.0\" y=\"64.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"150.5\" y=\"64.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"172.0\" y=\"64.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"193.5\" y=\"64.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"0.0\" y=\"86.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"21.5\" y=\"86.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"43.0\" y=\"86.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"64.5\" y=\"86.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"86.0\" y=\"86.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"107.5\" y=\"86.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"129.0\" y=\"86.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"150.5\" y=\"86.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"172.0\" y=\"86.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"193.5\" y=\"86.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"0.0\" y=\"107.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"21.5\" y=\"107.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"43.0\" y=\"107.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"64.5\" y=\"107.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"86.0\" y=\"107.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"107.5\" y=\"107.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"129.0\" y=\"107.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"150.5\" y=\"107.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"172.0\" y=\"107.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"193.5\" y=\"107.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"0.0\" y=\"129.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"21.5\" y=\"129.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"43.0\" y=\"129.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"64.5\" y=\"129.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"86.0\" y=\"129.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"107.5\" y=\"129.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"129.0\" y=\"129.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"150.5\" y=\"129.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"172.0\" y=\"129.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"193.5\" y=\"129.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"0.0\" y=\"150.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"21.5\" y=\"150.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"43.0\" y=\"150.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"64.5\" y=\"150.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"86.0\" y=\"150.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"107.5\" y=\"150.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"129.0\" y=\"150.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"150.5\" y=\"150.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"172.0\" y=\"150.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"193.5\" y=\"150.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"0.0\" y=\"172.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"21.5\" y=\"172.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"43.0\" y=\"172.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"64.5\" y=\"172.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"86.0\" y=\"172.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"107.5\" y=\"172.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"129.0\" y=\"172.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"150.5\" y=\"172.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"172.0\" y=\"172.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"193.5\" y=\"172.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"0.0\" y=\"193.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"21.5\" y=\"193.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"43.0\" y=\"193.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"64.5\" y=\"193.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"86.0\" y=\"193.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"107.5\" y=\"193.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"129.0\" y=\"193.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"150.5\" y=\"193.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"172.0\" y=\"193.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"193.5\" y=\"193.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"0\" y=\"0\" width=\"215\" height=\"215\" fill=\"none\" stroke=\"#234539\" stroke-width=\"1.8\"/></svg>",
+     "onderschrift": "25 van de 100 vakjes gekleurd: dat is 25%, of 1/4."
+    },
+    {
+     "soort": "tekst",
+     "html": "Handige ankerpunten: 10% is delen door 10, 50% is de helft, 25% is een vierde. Wil je 20% van 250 weten, neem dan 10% (= 25) en verdubbel dat: 50."
+    }
+   ]
+  },
+  {
+   "kop": "Breuk, kommagetal en procent",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Dezelfde hoeveelheid kan er op drie manieren uitzien. Drie vierde, 0,75 en 75% zijn precies hetzelfde. Van een breuk naar een kommagetal deel je de teller door de noemer: 3 : 4 = 0,75. Van een kommagetal naar procent vermenigvuldig je met 100."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:80%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Breuk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kommagetal</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Procent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1/10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10%</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1/5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20%</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1/4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,25</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25%</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1/2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">50%</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3/5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,6</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">60%</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3/4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,75</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">75%</td></tr></table>",
+     "onderschrift": "Deze zes ken je het best uit het hoofd. De rest reken je daarvan af: 2/5 is twee keer 1/5, dus 40%."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een breuk <strong>vereenvoudigen</strong> doe je door de teller en de noemer allebei door hetzelfde getal te delen. 2/4 wordt 1/2, en 8/20 wordt 2/5. De waarde blijft gelijk, de breuk wordt alleen korter."
+    }
+   ]
+  },
+  {
+   "kop": "Getallenrijen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In een rij getallen zit altijd een regel. Zoek die eerst, dan weet je vanzelf welk getal erna komt. Kijk om te beginnen naar het verschil tussen twee buren; klopt dat niet, kijk dan waarmee je moet vermenigvuldigen."
+    },
+    {
+     "soort": "kader",
+     "html": "<p style='margin:0 0 4px'><strong>12, 24, 36, 48, …</strong> — er komt telkens 12 bij, dus daarna 60.</p><p style='margin:0'><strong>3, 6, 12, 24, …</strong> — elk getal is het dubbel van het vorige, dus daarna 48.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Twijfel je tussen twee regels? Pas ze dan toe op de hele rij, niet alleen op de laatste twee getallen. Een regel die maar één keer klopt, is de juiste niet."
+    }
+   ]
+  },
+  {
+   "kop": "Negatieve getallen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Links van de nul gaan de getallen verder met een minteken. Denk aan de temperatuur in de winter, of aan verdiepingen onder de grond."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 86\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"34\" y1=\"44\" x2=\"436\" y2=\"44\" stroke=\"#23291f\" stroke-width=\"2\"/><path d=\"M436 44 l-9 -5 v10 z\" fill=\"#23291f\"/><path d=\"M34 44 l9 -5 v10 z\" fill=\"#23291f\"/><line x1=\"34.0\" y1=\"36\" x2=\"34.0\" y2=\"52\" stroke=\"#23291f\" stroke-width=\"1.6\"/><text x=\"34.0\" y=\"67\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#23291f\" font-weight=\"400\">-10</text><line x1=\"74.2\" y1=\"31\" x2=\"74.2\" y2=\"57\" stroke=\"#a6432f\" stroke-width=\"3\"/><text x=\"74.2\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" fill=\"#a6432f\" font-weight=\"600\">-8</text><line x1=\"134.5\" y1=\"31\" x2=\"134.5\" y2=\"57\" stroke=\"#a6432f\" stroke-width=\"3\"/><text x=\"134.5\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" fill=\"#a6432f\" font-weight=\"600\">-5</text><line x1=\"235.0\" y1=\"36\" x2=\"235.0\" y2=\"52\" stroke=\"#23291f\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"67\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#23291f\" font-weight=\"400\">0</text><line x1=\"335.5\" y1=\"36\" x2=\"335.5\" y2=\"52\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"335.5\" y=\"67\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#2f5d50\" font-weight=\"400\">5</text><line x1=\"436.0\" y1=\"36\" x2=\"436.0\" y2=\"52\" stroke=\"#23291f\" stroke-width=\"1.6\"/><text x=\"436.0\" y=\"67\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#23291f\" font-weight=\"400\">10</text></svg>",
+     "onderschrift": "-5 ligt dichter bij nul dan -8, en is dus groter."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat is het stukje dat vaak verwart: bij negatieve getallen is het getal dat er het <em>grootst</em> uitziet, net het kleinste. -10 is kouder dan -3."
+    }
+   ]
+  },
+  {
+   "kop": "Deelbaarheid en priemgetallen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Je kan aan een getal zien of het deelbaar is, zonder te rekenen:"
+    },
+    {
+     "soort": "kader",
+     "html": "<p style='margin:0 0 4px'><strong>Door 2</strong> — als het eindigt op 0, 2, 4, 6 of 8.</p><p style='margin:0 0 4px'><strong>Door 5</strong> — als het eindigt op 0 of 5.</p><p style='margin:0 0 4px'><strong>Door 3</strong> — tel de cijfers op; is die som deelbaar door 3, dan het hele getal ook. (471 → 4+7+1 = 12 → ja)</p><p style='margin:0'><strong>Door 9</strong> — net hetzelfde, maar de som moet deelbaar zijn door 9.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>priemgetal</strong> heeft precies twee delers: 1 en zichzelf. 2, 3, 5, 7, 11 en 13 zijn priemgetallen. Het getal 1 niet, want dat heeft er maar één."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "De plaats van een cijfer bepaalt zijn waarde.",
+  "Afronden: kijk naar het cijfer rechts ervan. 5 of meer gaat naar boven.",
+  "0,7 is hetzelfde als 0,70 — vul aan met nullen voor je vergelijkt.",
+  "Hoe groter de noemer, hoe kleiner het stukje.",
+  "Procent is per honderd. 10% is delen door 10.",
+  "Bij negatieve getallen is het grootst uitziende getal het kleinste.",
+  "3/4, 0,75 en 75% zijn drie namen voor hetzelfde.",
+  "Bij een getallenrij zoek je eerst de regel."
+ ]
+}

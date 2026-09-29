@@ -1,0 +1,125 @@
+{
+ "vak": "Engels",
+ "titel": "Zinnen bouwen",
+ "onder": "De volgorde van de woorden, meervouden, lidwoorden en vraagwoorden.",
+ "secties": [
+  {
+   "kop": "De volgorde van een zin",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 74\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"4.0\" y=\"4\" width=\"109.5\" height=\"62\" rx=\"9\" fill=\"#2f5d5022\" stroke=\"#2f5d50\" stroke-width=\"1.7\"/><text x=\"58.8\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">wie</text><text x=\"58.8\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">I</text><rect x=\"121.5\" y=\"4\" width=\"109.5\" height=\"62\" rx=\"9\" fill=\"#c17f2b22\" stroke=\"#c17f2b\" stroke-width=\"1.7\"/><text x=\"176.2\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">doet</text><text x=\"176.2\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">go</text><rect x=\"239.0\" y=\"4\" width=\"109.5\" height=\"62\" rx=\"9\" fill=\"#3b6ea522\" stroke=\"#3b6ea5\" stroke-width=\"1.7\"/><text x=\"293.8\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">wat/waar</text><text x=\"293.8\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">to school</text><rect x=\"356.5\" y=\"4\" width=\"109.5\" height=\"62\" rx=\"9\" fill=\"#6b726022\" stroke=\"#6b7260\" stroke-width=\"1.7\"/><text x=\"411.2\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">wanneer</text><text x=\"411.2\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">every day</text></svg>",
+     "onderschrift": "I go to school every day — de tijd komt achteraan, niet in het midden."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat is meteen het verschil met het Nederlands. Wij zeggen <em>Ik ga elke dag naar school</em>, maar in het Engels komt <strong>every day</strong> op het einde."
+    }
+   ]
+  },
+  {
+   "kop": "Meervouden",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Regel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meestal -s erbij</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">book → books</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">na -s, -x, -ch, -sh: -es</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">box → boxes, watch → watches</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">medeklinker + y wordt ies</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">city → cities</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onregelmatig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">child → children, man → men, woman → women</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onregelmatig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">foot → feet, tooth → teeth, mouse → mice</td></tr></table>",
+     "onderschrift": "Die laatste twee rijen moet je gewoon vanbuiten leren; er zit geen regel achter."
+    }
+   ]
+  },
+  {
+   "kop": "There is en there are",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Wil je zeggen dat iets ergens is of ligt, dan begin je met <strong>there is</strong> of <strong>there are</strong>. Bij ons is dat <em>er is</em> of <em>er ligt</em>."
+    },
+    {
+     "soort": "kader",
+     "html": "<p style='margin:0 0 4px'><strong>There is a book on the table.</strong> — één boek, dus is.</p><p style='margin:0'><strong>There are two cats in the garden.</strong> — meer dan één, dus are.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het woordje <em>there</em> betekent hier niet daar; het hoort gewoon bij de uitdrukking. Verwar het niet met <strong>their</strong> (hun) of <strong>they're</strong> (zij zijn)."
+    }
+   ]
+  },
+  {
+   "kop": "Some en any",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Some</strong> gebruik je in een gewone zin, <strong>any</strong> in een vraag of een ontkenning."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Zin</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Betekenis</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I have some money.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ik heb wat geld.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Do you have any money?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Heb je geld?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I don't have any money.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ik heb helemaal geen geld.</td></tr></table>",
+     "onderschrift": "Don't have any is sterker dan don't have: het betekent helemaal niets."
+    }
+   ]
+  },
+  {
+   "kop": "a, an en the",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Gebruik <strong>a</strong> voor een medeklinkerklank en <strong>an</strong> voor een klinkerklank: a book, a school, maar <strong>an</strong> apple, <strong>an</strong> hour."
+    },
+    {
+     "soort": "weetje",
+     "html": "Het gaat om de <em>klank</em>, niet om de letter. Hour begint met een h die je niet hoort, dus an hour. En university begint met een joe-klank, dus a university."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>The</strong> gebruik je als het duidelijk is over welk ding het gaat: <em>the book on the table</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Van wie is het?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In het Engels hang je een <strong>'s</strong> aan de naam: <em>Sarah's bike</em> is de fiets van Sarah, <em>my mother's car</em> is de auto van mijn moeder."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat is korter dan bij ons, en het staat vooraan in plaats van achteraan."
+    }
+   ]
+  },
+  {
+   "kop": "Vraagwoorden",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vraagwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vraagt naar</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">What</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een ding</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">What is your name?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Who</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een persoon</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Who is that?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Where</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een plaats</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Where do you live?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">When</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een tijdstip</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">When does it start?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Why</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een reden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Why are you late?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">How</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een manier</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">How do you say that?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Whose</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van wie iets is</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Whose bag is this?</td></tr></table>",
+     "onderschrift": "Zes van de zeven beginnen met wh. Handig geheugensteuntje."
+    }
+   ]
+  },
+  {
+   "kop": "Bijvoeglijke naamwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Die staan voor het zelfstandig naamwoord, net als bij ons: <em>a red car</em>, <em>an old house</em>. En ze krijgen nooit een meervoud-s: <em>two red cars</em>, niet <em>two reds cars</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Let ook op vaste combinaties: het is <strong>good at</strong> English, niet good in English."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Wie — doet — wat/waar — wanneer. De tijd komt achteraan.",
+  "Na -s, -x, -ch en -sh krijgt het meervoud -es.",
+  "children, men, women, feet en teeth zijn onregelmatig.",
+  "a of an hangt af van de klank, niet van de letter.",
+  "'s toont van wie iets is: Sarah's bike.",
+  "Bijvoeglijke naamwoorden krijgen nooit een -s.",
+  "There is bij één ding, there are bij meer dan één.",
+  "some in een gewone zin, any in een vraag of ontkenning."
+ ]
+}

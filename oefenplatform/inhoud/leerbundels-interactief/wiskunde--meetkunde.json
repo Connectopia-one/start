@@ -1,0 +1,120 @@
+{
+ "vak": "Wiskunde",
+ "titel": "Meetkunde",
+ "onder": "Hoeken, vlakke figuren, ruimtefiguren en de cirkel.",
+ "secties": [
+  {
+   "kop": "Hoeken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een hoek meet je in graden. De rechte hoek van 90° is het ijkpunt: daarmee vergelijk je alle andere."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 104\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"58.75\" y1=\"66\" x2=\"98.75\" y2=\"66\" stroke=\"#234539\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"58.75\" y1=\"66\" x2=\"87.0\" y2=\"37.7\" stroke=\"#234539\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M73.75 66 A15 15 0 0 0 69.4 55.4\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><text x=\"78.8\" y=\"88\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">scherp</text><text x=\"78.8\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">45°</text><line x1=\"176.25\" y1=\"66\" x2=\"216.25\" y2=\"66\" stroke=\"#234539\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"176.25\" y1=\"66\" x2=\"176.2\" y2=\"26.0\" stroke=\"#234539\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M187.25 66 v-11 h-11\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><text x=\"196.2\" y=\"88\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">recht</text><text x=\"196.2\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">90°</text><line x1=\"293.75\" y1=\"66\" x2=\"333.75\" y2=\"66\" stroke=\"#234539\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"293.75\" y1=\"66\" x2=\"268.0\" y2=\"35.4\" stroke=\"#234539\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M308.75 66 A15 15 0 0 0 284.1 54.5\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><text x=\"313.8\" y=\"88\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">stomp</text><text x=\"313.8\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">130°</text><line x1=\"411.25\" y1=\"66\" x2=\"451.25\" y2=\"66\" stroke=\"#234539\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"411.25\" y1=\"66\" x2=\"371.2\" y2=\"66.0\" stroke=\"#234539\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M426.25 66 A15 15 0 0 0 396.2 66.0\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><text x=\"431.2\" y=\"88\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">gestrekt</text><text x=\"431.2\" y=\"101\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">180°</text></svg>",
+     "onderschrift": "Scherp is kleiner dan 90°, stomp ligt tussen 90° en 180°, gestrekt is precies 180°."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een volledige draai is 360°, een halve draai 180°, een kwartdraai 90°. Twee lijnen die elkaar onder 90° kruisen, noem je <strong>loodrecht</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Vlakke figuren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Vlakke figuren liggen plat op het blad. Je herkent ze aan het aantal zijden en aan de hoeken."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 96\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"16.166666666666664\" y=\"18\" width=\"46\" height=\"46\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"2\" rx=\"2\"/><text x=\"39.2\" y=\"88\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">vierkant</text><rect x=\"94.5\" y=\"18\" width=\"58\" height=\"36\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"2\" rx=\"2\"/><text x=\"117.5\" y=\"88\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">rechthoek</text><polygon points=\"195.83333333333331,18 169.83333333333331,64 221.83333333333331,64\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"2\"/><text x=\"195.8\" y=\"88\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">driehoek</text><circle cx=\"274.1666666666667\" cy=\"41\" r=\"24\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"2\"/><text x=\"274.2\" y=\"88\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">cirkel</text><polygon points=\"352.5,18 378.5,41 352.5,64 326.5,41\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"2\"/><text x=\"352.5\" y=\"88\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">ruit</text><polygon points=\"416.8333333333333,18 444.8333333333333,18 456.8333333333333,64 404.8333333333333,64\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"2\"/><text x=\"430.8\" y=\"88\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">trapezium</text></svg>",
+     "onderschrift": "Een vierkant is ook een rechthoek: alle vier de hoeken zijn recht."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Figuur</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waaraan je hem herkent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vierkant</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vier gelijke zijden én vier rechte hoeken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechthoek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vier rechte hoeken, overstaande zijden gelijk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ruit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vier gelijke zijden, maar de hoeken hoeven niet recht te zijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">trapezium</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vierhoek met minstens één paar evenwijdige zijden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gelijkzijdige driehoek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie gelijke zijden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gelijkbenige driehoek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee gelijke zijden</td></tr></table>",
+     "onderschrift": "De hoeken van elke driehoek zijn samen 180°, die van elke vierhoek 360°."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een figuur met rechte zijden noemen we naar het aantal zijden: drie is een driehoek, vier een vierhoek, vijf een vijfhoek, zes een <strong>zeshoek</strong> en acht een <strong>achthoek</strong> — zoals een stopbord in het verkeer."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee lijnen die overal even ver uit elkaar liggen, noem je <strong>evenwijdig</strong>. Hoe ver je ze ook doortrekt, ze raken elkaar nooit. De twee lange zijden van een rechthoek zijn evenwijdig; een trapezium heeft er minstens één paar."
+    }
+   ]
+  },
+  {
+   "kop": "Symmetrie en verschuiven",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Kan je een figuur langs een lijn dubbelvouwen zodat de twee helften precies op elkaar passen, dan is die lijn een <strong>symmetrieas</strong>. Een vierkant heeft er vier, een rechthoek twee, een cirkel oneindig veel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Niet elke figuur heeft er vier. Een gelijkbenige driehoek heeft er precies <strong>één</strong>: de lijn door de top, tussen de twee even lange zijden in. Een gelijkzijdige driehoek heeft er drie, en een figuur zonder gelijke zijden vaak geen enkele."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een spiegeling of een verschuiving blijft de figuur even groot en houdt ze dezelfde vorm. Alleen haar plaats verandert."
+    }
+   ]
+  },
+  {
+   "kop": "De cirkel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een cirkel heeft geen zijden en geen hoeken: het is één gebogen lijn waarvan elk punt even ver van het midden ligt."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 300 158\" width=\"300\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"150.0\" cy=\"78\" r=\"66\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"2\"/><line x1=\"84.0\" y1=\"78\" x2=\"216.0\" y2=\"78\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><line x1=\"150.0\" y1=\"78\" x2=\"150.0\" y2=\"12\" stroke=\"#2f5d50\" stroke-width=\"2.6\"/><circle cx=\"150.0\" cy=\"78\" r=\"3.4\" fill=\"#234539\"/><text x=\"158.0\" y=\"45.0\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#2f5d50\">straal</text><text x=\"109.0\" y=\"71\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">diameter</text></svg>",
+     "onderschrift": "De diameter is precies twee keer de straal."
+    },
+    {
+     "soort": "tekst",
+     "html": "Is de straal 6 cm, dan is de diameter 12 cm. En omgekeerd: is de diameter 10 cm, dan is de straal 5 cm."
+    }
+   ]
+  },
+  {
+   "kop": "Ruimtefiguren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Ruimtefiguren nemen plaats in: je kan ze vastnemen. Je telt er vlakken, ribben en hoekpunten aan."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 110\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"27.0\" y=\"22.0\" width=\"40\" height=\"40\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.9\"/><path d=\"M27.0 22.0 l13 -13 h40 l-13 13\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.9\"/><path d=\"M67.0 22.0 l13 -13 v40 l-13 13\" fill=\"#f2efe7\" stroke=\"#234539\" stroke-width=\"1.9\"/><text x=\"47.0\" y=\"98\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">kubus</text><rect x=\"114.0\" y=\"32.0\" width=\"54\" height=\"30\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.9\"/><path d=\"M114.0 32.0 l12 -12 h54 l-12 12\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.9\"/><path d=\"M168.0 32.0 l12 -12 v30 l-12 12\" fill=\"#f2efe7\" stroke=\"#234539\" stroke-width=\"1.9\"/><text x=\"141.0\" y=\"98\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">balk</text><path d=\"M213.0 28 v30 a22 8 0 0 0 44 0 v-30\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.9\"/><ellipse cx=\"235.0\" cy=\"28\" rx=\"22\" ry=\"8\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.9\"/><text x=\"235.0\" y=\"98\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">cilinder</text><path d=\"M329.0 22 L307.0 58 A22 8 0 0 0 351.0 58 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.9\"/><path d=\"M307.0 58 A22 8 0 0 1 351.0 58\" fill=\"none\" stroke=\"#234539\" stroke-width=\"1.9\"/><text x=\"329.0\" y=\"98\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">kegel</text><circle cx=\"423.0\" cy=\"44\" r=\"23\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.9\"/><ellipse cx=\"423.0\" cy=\"44\" rx=\"23\" ry=\"8\" fill=\"none\" stroke=\"#e4ded0\" stroke-width=\"1.5\"/><text x=\"423.0\" y=\"98\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">bol</text></svg>",
+     "onderschrift": "Een kubus en een balk hebben allebei 6 vlakken, 12 ribben en 8 hoekpunten."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Figuur</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vlakken</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Bijzonder</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kubus</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6 gelijke vierkanten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle ribben even lang</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">balk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6 rechthoeken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zoals een schoendoos</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cilinder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2 cirkels + een gebogen vlak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zoals een blikje</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kegel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 cirkel + een punt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zoals een ijshoorntje</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">piramide</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 grondvlak + driehoeken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de driehoeken komen samen in één top</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bol</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen enkel vlak vlak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rolt alle kanten op</td></tr></table>",
+     "onderschrift": ""
+    },
+    {
+     "soort": "tekst",
+     "html": "Tel je de vlakken van een <strong>piramide met een vierkant grondvlak</strong>, dan kom je aan vijf: het vierkant onderaan plus de vier driehoeken errond. Vergeet het grondvlak niet mee te tellen, dat is de fout die iedereen maakt."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een rechte hoek is 90°, een volledige draai 360°.",
+  "De hoeken van een driehoek zijn samen 180°, van een vierhoek 360°.",
+  "Een vierkant is ook een rechthoek, maar niet omgekeerd.",
+  "De diameter is twee keer de straal.",
+  "Een kubus en een balk: 6 vlakken, 12 ribben, 8 hoekpunten.",
+  "Spiegelen en verschuiven verandert niets aan de grootte.",
+  "Evenwijdige lijnen raken elkaar nooit.",
+  "Een piramide met een vierkant grondvlak heeft 5 vlakken."
+ ]
+}

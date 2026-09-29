@@ -1,0 +1,179 @@
+{
+ "vak": "Wetenschap en techniek",
+ "titel": "Techniek: ontwerpen en maken",
+ "onder": "Van een probleem naar iets dat werkt — en waarom het zelden in één keer lukt.",
+ "secties": [
+  {
+   "kop": "De ontwerpcyclus",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Techniek begint nooit bij een idee, maar bij een <strong>probleem</strong>. Daarna doorloop je telkens dezelfde stappen — en na de laatste begin je vaak opnieuw."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 380 250\" width=\"380\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M203.1 39.0 A84 84 0 0 1 264.8 83.9\" fill=\"none\" stroke=\"#e4ded0\" stroke-width=\"2.4\"/><path d=\"M264.8 83.9 l-4.5 5.4 M264.8 83.9 l-7.0 0.5\" stroke=\"#e4ded0\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M273.0 108.9 A84 84 0 0 1 249.4 181.4\" fill=\"none\" stroke=\"#e4ded0\" stroke-width=\"2.4\"/><path d=\"M249.4 181.4 l-6.5 -2.6 M249.4 181.4 l-2.6 -6.5\" stroke=\"#e4ded0\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M228.1 196.8 A84 84 0 0 1 151.9 196.8\" fill=\"none\" stroke=\"#e4ded0\" stroke-width=\"2.4\"/><path d=\"M151.9 196.8 l0.5 -7.0 M151.9 196.8 l5.4 -4.5\" stroke=\"#e4ded0\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M130.6 181.4 A84 84 0 0 1 107.0 108.9\" fill=\"none\" stroke=\"#e4ded0\" stroke-width=\"2.4\"/><path d=\"M107.0 108.9 l6.8 -1.7 M107.0 108.9 l5.9 3.7\" stroke=\"#e4ded0\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><path d=\"M115.2 83.9 A84 84 0 0 1 176.9 39.0\" fill=\"none\" stroke=\"#e4ded0\" stroke-width=\"2.4\"/><path d=\"M176.9 39.0 l3.7 5.9 M176.9 39.0 l-1.7 6.8\" stroke=\"#e4ded0\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><circle cx=\"190.0\" cy=\"38.0\" r=\"30\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.9\"/><text x=\"190.0\" y=\"35.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">1</text><text x=\"190.0\" y=\"49.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">probleem</text><circle cx=\"269.9\" cy=\"96.0\" r=\"30\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.9\"/><text x=\"269.9\" y=\"93.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">2</text><text x=\"269.9\" y=\"107.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">idee</text><circle cx=\"239.4\" cy=\"190.0\" r=\"30\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.9\"/><text x=\"239.4\" y=\"187.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">3</text><text x=\"239.4\" y=\"201.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">maken</text><circle cx=\"140.6\" cy=\"190.0\" r=\"30\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.9\"/><text x=\"140.6\" y=\"187.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">4</text><text x=\"140.6\" y=\"201.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">testen</text><circle cx=\"110.1\" cy=\"96.0\" r=\"30\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.9\"/><text x=\"110.1\" y=\"93.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">5</text><text x=\"110.1\" y=\"107.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">verbeteren</text></svg>",
+     "onderschrift": "Dat het na het testen terugkeert naar het begin, is geen mislukking. Zo hoort het."
+    },
+    {
+     "soort": "tekst",
+     "html": "Vóór je begint te tekenen, maak je een <strong>programma van eisen</strong>: de lijst met wat je ontwerp moet kunnen. Bijvoorbeeld: het moet 20 kg dragen, in een rugzak passen en niet meer dan 10 euro kosten. Achteraf kan je eraan aftoetsen of het gelukt is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een eerste versie om mee te testen heet een <strong>prototype</strong>. Dat maak je vaak uit karton of piepschuim: een fout ontdekken in karton kost tien minuten, diezelfde fout in metaal kost je het hele werkstuk. Werkt je test niet, dan ga je na wat er misloopt, past dat aan en test je opnieuw."
+    }
+   ]
+  },
+  {
+   "kop": "Tekenen en meten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>schets</strong> maak je snel uit de hand, om ideeën te vergelijken. Kies je er één, dan maak je een <strong>technische tekening</strong>: met juiste maten en op schaal. Staat er schaal 1:10 bij, dan is alles in het echt tien keer groter dan op het blad."
+    },
+    {
+     "soort": "tekst",
+     "html": "Maten zet je meestal in <strong>millimeter</strong>. Zo hoef je geen kommagetallen te gebruiken, en dat scheelt fouten: 1 250 mm leest duidelijker dan 1,25 m."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Gereedschap</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarvoor</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meetlat of rolmeter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">afstanden meten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">winkelhaak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nagaan of een hoek precies recht is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waterpas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nagaan of iets horizontaal staat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">potlood en priem</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aftekenen waar je moet zagen of boren</td></tr></table>",
+     "onderschrift": "Meet twee keer, zaag één keer: je kan er achteraf niets weer aanplakken."
+    }
+   ]
+  },
+  {
+   "kop": "Materiaal kiezen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Elk materiaal heeft eigenschappen die het geschikt of ongeschikt maken. Je kiest op basis van wat je voorwerp moet kunnen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Materiaal</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Sterk punt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Zwak punt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hout</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sterk, makkelijk te bewerken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rot in water</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">metaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">heel sterk, geleidt stroom</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zwaar, kan roesten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kunststof</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">licht, goedkoop, roest niet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">slecht voor het milieu</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">glas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">doorzichtig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">breekt makkelijk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">textiel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">soepel, licht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">scheurt, houdt niet tegen</td></tr></table>",
+     "onderschrift": "Een fietsframe uit glas zou doorzichtig zijn, maar één keer bruikbaar."
+    }
+   ]
+  },
+  {
+   "kop": "Verbinden",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verbinding</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Los te maken?</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarvoor</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schroef of bout</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alles wat je ooit wil herstellen of demonteren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">scharnier</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beweegt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een deur, een bril, een laptop</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nagel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">moeilijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">snel timmerwerk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lijm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">grote vlakken, of materiaal dat je niet wil doorboren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lassen of klinken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">metaal dat veel kracht moet dragen</td></tr></table>",
+     "onderschrift": "Een schroef houdt in hout veel beter vast dan een gladde nagel: de schroefdraad bijt zich in het hout."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wil je iets ooit herstellen of recycleren, kies dan een <strong>losneembare</strong> verbinding. Gelijmd en gelast krijg je er niet meer netjes uit."
+    }
+   ]
+  },
+  {
+   "kop": "Constructies stevig maken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>driehoek</strong> is de stevigste vorm die er is: hij kan niet vervormen zonder dat er een zijde breekt. Een vierkant kan wel scheeftrekken. Zet een schuine balk in een vierkant en je hebt twee driehoeken, en dus iets dat stevig staat."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom zie je driehoeken in bruggen, kraanarmen, daken en steigers."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een tweede truc: een <strong>holle buis</strong> is vaak steviger dan een even zware volle staaf. Het materiaal zit verder van het midden, en net daar telt het mee tegen doorbuigen. Daarom zijn fietsframes en steigers uit buizen gemaakt."
+    }
+   ]
+  },
+  {
+   "kop": "Beweging doorgeven",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Overbrenging</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar je het ziet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tandwielen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een klok, een boormachine</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">draaien in elkaar, tegengestelde richting</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ketting</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een fiets</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">draaien in dezelfde richting, over afstand</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">riem</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een wasmachine</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zachter en stiller dan een ketting</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">katrol</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een takel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tillen met minder kracht</td></tr></table>",
+     "onderschrift": ""
+    },
+    {
+     "soort": "tekst",
+     "html": "Drijft een <strong>klein</strong> tandwiel een <strong>groot</strong> aan, dan draait dat grote trager maar met meer kracht. Omgekeerd draait een klein wiel sneller en met minder kracht. Dat is precies wat de versnellingen van je fiets doen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een ketting kan meer kracht doorgeven en slipt niet, maar maakt lawaai en heeft olie nodig. Een riem loopt stiller en soepeler. Op een fiets kies je dus een ketting, in een wasmachine een riem."
+    }
+   ]
+  },
+  {
+   "kop": "Elektriciteit en sturing",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>schakelaar</strong> opent of sluit een stroomkring, en een <strong>zekering</strong> onderbreekt hem als de stroom te groot wordt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>sensor</strong> meet iets — licht, warmte, beweging, afstand — zodat een toestel erop kan reageren. Een straatlantaarn met een lichtsensor gaat vanzelf aan als het donker wordt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>robot</strong> doet precies wat er in zijn programma staat, en niets anders. Werkt een robot verkeerd, dan zit de fout bijna altijd in het programma of in wat de sensoren meten."
+    }
+   ]
+  },
+  {
+   "kop": "Veilig en netjes werken",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Regel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarom</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meet twee keer, zaag één keer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je kan er niets weer aanplakken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">klem je werkstuk vast</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bewegend stuk hout is gevaarlijk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bril op bij zagen of boren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">splinters komen recht op je af</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lees eerst de gebruiksaanwijzing</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">daar staan de veiligheidsregels die je vooraf moet kennen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ruim op terwijl je bezig bent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">op een volle tafel gebeuren de ongelukken</td></tr></table>",
+     "onderschrift": ""
+    }
+   ]
+  },
+  {
+   "kop": "Nieuwe manieren van maken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>3D-printer</strong> bouwt een voorwerp laagje na laagje op, in plaats van het uit een blok te snijden. Daardoor kan hij vormen maken die je met zagen of frezen nooit uit één stuk krijgt."
+    }
+   ]
+  },
+  {
+   "kop": "Techniek, mens en milieu",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een ontwerp is <strong>ergonomisch</strong> als het gemaakt is naar de mens die het gebruikt: een schaar voor linkshandigen, een schroevendraaier met een dikke greep. Wie het gebruikt, bepaalt dus mee hoe het eruitziet."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>levensduur</strong> is hoe lang iets meegaat voor het stuk of onbruikbaar is. Een product dat twee keer zo lang meegaat, is voor het milieu bijna twee keer zo goed. <strong>Herstellen</strong> gaat dus vóór vervangen — in een repair café helpen ze je daarbij."
+    },
+    {
+     "soort": "tekst",
+     "html": "De grondstoffen voor een gsm komen uit mijnen, vaak ver weg en soms onder slechte werkomstandigheden. <strong>Recycleren</strong> betekent dat een materiaal opnieuw als grondstof gebruikt wordt. Daarom is een oude gsm inleveren zoveel waard."
+    },
+    {
+     "soort": "tekst",
+     "html": "Elke uitvinding lost iets op en brengt iets nieuws mee. De auto maakte afstanden klein, maar bracht files en uitstoot. Wie iets ontwerpt, denkt dus verder dan of het werkt: wat kost het aan grondstoffen, hoe lang gaat het mee, en wat gebeurt ermee als het kapot is?"
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Techniek begint bij een probleem, niet bij een idee.",
+  "Eerst een programma van eisen, dan schetsen, dan een technische tekening op schaal.",
+  "Testen en verbeteren horen bij het ontwerpen; een prototype maak je van goedkoop materiaal.",
+  "Kies je materiaal op basis van wat het moet kunnen.",
+  "Een schroef is losneembaar, lijm en las niet.",
+  "De driehoek is de stevigste vorm; een holle buis is steviger dan een even zware volle staaf.",
+  "Een klein tandwiel dat een groot aandrijft: trager, maar met meer kracht.",
+  "Een sensor meet, een robot voert alleen zijn programma uit.",
+  "Meet twee keer, zaag één keer. Bril op bij zagen of boren.",
+  "Herstellen gaat vóór vervangen; recycleren maakt van afval weer grondstof."
+ ]
+}

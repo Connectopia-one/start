@@ -1,0 +1,180 @@
+{
+ "vak": "Wiskunde",
+ "titel": "Rekenen en breuken",
+ "onder": "Breuken, procenten en handig hoofdrekenen — met bij elke regel een voorbeeld.",
+ "secties": [
+  {
+   "kop": "Wat een breuk is",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een breuk is een geheel dat in gelijke stukken verdeeld is. Het onderste getal, de <strong>noemer</strong>, zegt in hoeveel stukken. Het bovenste getal, de <strong>teller</strong>, zegt hoeveel van die stukken je neemt."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 175\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"0\" y=\"17\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#6b7260\">1 geheel</text><rect x=\"62.0\" y=\"0\" width=\"400.0\" height=\"26\" fill=\"#2f5d50\" stroke=\"#234539\" stroke-width=\"1.3\" rx=\"3\"/><text x=\"262.0\" y=\"17\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#ffffff\">1 geheel</text><text x=\"0\" y=\"52\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#6b7260\">1/2</text><rect x=\"62.0\" y=\"35\" width=\"200.0\" height=\"26\" fill=\"#2f5d50\" stroke=\"#234539\" stroke-width=\"1.3\" rx=\"3\"/><text x=\"162.0\" y=\"52\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#ffffff\">1/2</text><rect x=\"262.0\" y=\"35\" width=\"200.0\" height=\"26\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\" rx=\"3\"/><text x=\"362.0\" y=\"52\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">1/2</text><text x=\"0\" y=\"87\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#6b7260\">1/3</text><rect x=\"62.0\" y=\"70\" width=\"133.3\" height=\"26\" fill=\"#2f5d50\" stroke=\"#234539\" stroke-width=\"1.3\" rx=\"3\"/><text x=\"128.7\" y=\"87\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#ffffff\">1/3</text><rect x=\"195.3\" y=\"70\" width=\"133.3\" height=\"26\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\" rx=\"3\"/><text x=\"262.0\" y=\"87\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">1/3</text><rect x=\"328.7\" y=\"70\" width=\"133.3\" height=\"26\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\" rx=\"3\"/><text x=\"395.3\" y=\"87\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">1/3</text><text x=\"0\" y=\"122\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#6b7260\">1/4</text><rect x=\"62.0\" y=\"105\" width=\"100.0\" height=\"26\" fill=\"#2f5d50\" stroke=\"#234539\" stroke-width=\"1.3\" rx=\"3\"/><text x=\"112.0\" y=\"122\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#ffffff\">1/4</text><rect x=\"162.0\" y=\"105\" width=\"100.0\" height=\"26\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\" rx=\"3\"/><text x=\"212.0\" y=\"122\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">1/4</text><rect x=\"262.0\" y=\"105\" width=\"100.0\" height=\"26\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\" rx=\"3\"/><text x=\"312.0\" y=\"122\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">1/4</text><rect x=\"362.0\" y=\"105\" width=\"100.0\" height=\"26\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\" rx=\"3\"/><text x=\"412.0\" y=\"122\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">1/4</text><text x=\"0\" y=\"157\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#6b7260\">1/5</text><rect x=\"62.0\" y=\"140\" width=\"80.0\" height=\"26\" fill=\"#2f5d50\" stroke=\"#234539\" stroke-width=\"1.3\" rx=\"3\"/><text x=\"102.0\" y=\"157\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#ffffff\">1/5</text><rect x=\"142.0\" y=\"140\" width=\"80.0\" height=\"26\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\" rx=\"3\"/><text x=\"182.0\" y=\"157\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">1/5</text><rect x=\"222.0\" y=\"140\" width=\"80.0\" height=\"26\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\" rx=\"3\"/><text x=\"262.0\" y=\"157\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">1/5</text><rect x=\"302.0\" y=\"140\" width=\"80.0\" height=\"26\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\" rx=\"3\"/><text x=\"342.0\" y=\"157\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">1/5</text><rect x=\"382.0\" y=\"140\" width=\"80.0\" height=\"26\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\" rx=\"3\"/><text x=\"422.0\" y=\"157\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">1/5</text></svg>",
+     "onderschrift": "Hoe groter de noemer, hoe kleiner elk stukje. 1/5 is dus kleiner dan 1/3."
+    },
+    {
+     "soort": "tekst",
+     "html": "Staat boven en onder hetzelfde getal, dan heb je alle stukken samen: 4/4 is 1 geheel. En wordt er iets weggenomen, dan is wat overblijft ook een breuk: eet je 3 van de 8 stukken van een pizza, dan blijft er <strong>5/8</strong> over."
+    }
+   ]
+  },
+  {
+   "kop": "Breuken die evenveel waard zijn",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Twee breuken die er anders uitzien, kunnen precies evenveel waard zijn. 2/4 is hetzelfde als 1/2: je hebt het geheel alleen in kleinere stukjes gesneden."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:60%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Deze breuk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">is evenveel als</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2/4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1/2</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4/8</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1/2</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2/6</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1/3</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10/15</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2/3</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6/8</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3/4</td></tr></table>",
+     "onderschrift": "Teller en noemer allebei door hetzelfde getal delen: dat heet vereenvoudigen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Vereenvoudigen</strong> doe je door de teller en de noemer allebei door hetzelfde getal te delen. 6/8 : 2 geeft 3/4. Lukt dat niet meer, dan is de breuk zo eenvoudig als ze kan zijn."
+    },
+    {
+     "soort": "weetje",
+     "html": "Om te vergelijken welke breuk het grootst is, zet je ze om in kommagetallen. 2/3 is ongeveer 0,67 en 3/8 is 0,375, dus 2/3 is groter."
+    }
+   ]
+  },
+  {
+   "kop": "Rekenen met breuken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Hebben twee breuken dezelfde noemer, dan tel je gewoon de tellers op of trek je ze af. De noemer blijft staan."
+    },
+    {
+     "soort": "kader",
+     "html": "<p style='margin:0 0 4px'><strong>1/4 + 2/4 = 3/4</strong> — de stukken zijn even groot, dus je telt ze gewoon.</p><p style='margin:0'><strong>5/8 − 2/8 = 3/8</strong> — hetzelfde, maar dan aftrekken.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een breuk <em>van</em> een getal nemen doe je in twee stappen: eerst delen door de noemer, dan vermenigvuldigen met de teller."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"69.7\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Deel</text><text x=\"69.7\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">door de noemer</text><path d=\"M144.33333333333334 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"165.3\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Maal</text><text x=\"235.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">met de teller</text><path d=\"M309.6666666666667 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"330.7\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"400.3\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Klaar</text><text x=\"400.3\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">lees je antwoord</text></svg>",
+     "onderschrift": "3/8 van 64: eerst 64 : 8 = 8, dan 3 × 8 = 24."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zo gaat het altijd: 1/5 van 45 is 45 : 5 = 9, en 2/3 van 27 is 27 : 3 = 9, dan 2 × 9 = 18."
+    }
+   ]
+  },
+  {
+   "kop": "Breuk, kommagetal en procent",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Dezelfde hoeveelheid kan er op drie manieren uitzien. Van een breuk naar een kommagetal deel je de teller door de noemer: 3 : 4 = 0,75. Van een kommagetal naar procent vermenigvuldig je met 100."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:80%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Breuk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kommagetal</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Procent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1/10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10%</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1/5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20%</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1/4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,25</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25%</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1/2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">50%</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3/4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,75</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">75%</td></tr></table>",
+     "onderschrift": "Deze vijf ken je het best uit het hoofd."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarmee vergelijk je ook vlot: is 0,6 meer of minder dan 1/2? 1/2 is 0,5, dus 0,6 is meer."
+    }
+   ]
+  },
+  {
+   "kop": "Procent rekenen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Procent betekent <em>per honderd</em>. 25% is dus 25 van de 100, of een vierde van het geheel."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 215 215\" width=\"215\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"0.0\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"21.5\" y=\"0.0\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"43.0\" y=\"0.0\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"64.5\" y=\"0.0\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"86.0\" y=\"0.0\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"107.5\" y=\"0.0\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"129.0\" y=\"0.0\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"150.5\" y=\"0.0\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"172.0\" y=\"0.0\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"193.5\" y=\"0.0\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"0.0\" y=\"21.5\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"21.5\" y=\"21.5\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"43.0\" y=\"21.5\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"64.5\" y=\"21.5\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"86.0\" y=\"21.5\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"107.5\" y=\"21.5\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"129.0\" y=\"21.5\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"150.5\" y=\"21.5\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"172.0\" y=\"21.5\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"193.5\" y=\"21.5\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"0.0\" y=\"43.0\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"21.5\" y=\"43.0\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"43.0\" y=\"43.0\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"64.5\" y=\"43.0\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"86.0\" y=\"43.0\" width=\"21.5\" height=\"21.5\" fill=\"#c17f2b\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"107.5\" y=\"43.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"129.0\" y=\"43.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"150.5\" y=\"43.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"172.0\" y=\"43.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"193.5\" y=\"43.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"0.0\" y=\"64.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"21.5\" y=\"64.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"43.0\" y=\"64.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"64.5\" y=\"64.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"86.0\" y=\"64.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"107.5\" y=\"64.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"129.0\" y=\"64.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"150.5\" y=\"64.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"172.0\" y=\"64.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"193.5\" y=\"64.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"0.0\" y=\"86.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"21.5\" y=\"86.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"43.0\" y=\"86.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"64.5\" y=\"86.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"86.0\" y=\"86.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"107.5\" y=\"86.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"129.0\" y=\"86.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"150.5\" y=\"86.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"172.0\" y=\"86.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"193.5\" y=\"86.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"0.0\" y=\"107.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"21.5\" y=\"107.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"43.0\" y=\"107.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"64.5\" y=\"107.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"86.0\" y=\"107.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"107.5\" y=\"107.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"129.0\" y=\"107.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"150.5\" y=\"107.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"172.0\" y=\"107.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"193.5\" y=\"107.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"0.0\" y=\"129.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"21.5\" y=\"129.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"43.0\" y=\"129.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"64.5\" y=\"129.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"86.0\" y=\"129.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"107.5\" y=\"129.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"129.0\" y=\"129.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"150.5\" y=\"129.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"172.0\" y=\"129.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"193.5\" y=\"129.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"0.0\" y=\"150.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"21.5\" y=\"150.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"43.0\" y=\"150.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"64.5\" y=\"150.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"86.0\" y=\"150.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"107.5\" y=\"150.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"129.0\" y=\"150.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"150.5\" y=\"150.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"172.0\" y=\"150.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"193.5\" y=\"150.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"0.0\" y=\"172.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"21.5\" y=\"172.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"43.0\" y=\"172.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"64.5\" y=\"172.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"86.0\" y=\"172.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"107.5\" y=\"172.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"129.0\" y=\"172.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"150.5\" y=\"172.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"172.0\" y=\"172.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"193.5\" y=\"172.0\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"0.0\" y=\"193.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"21.5\" y=\"193.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"43.0\" y=\"193.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"64.5\" y=\"193.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"86.0\" y=\"193.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"107.5\" y=\"193.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"129.0\" y=\"193.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"150.5\" y=\"193.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"172.0\" y=\"193.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"193.5\" y=\"193.5\" width=\"21.5\" height=\"21.5\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><rect x=\"0\" y=\"0\" width=\"215\" height=\"215\" fill=\"none\" stroke=\"#234539\" stroke-width=\"1.8\"/></svg>",
+     "onderschrift": "25 van de 100 vakjes gekleurd: dat is 25%, of 1/4."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Zoek je</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Dan doe je</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10%</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">delen door 10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10% van 240 = 24</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25%</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">delen door 4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25% van 60 = 15</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">50%</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de helft nemen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">50% van 86 = 43</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20%</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10% nemen en verdubbelen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20% van 250 = 50</td></tr></table>",
+     "onderschrift": "Bijna elke procentvraag los je op via 10%."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>korting</strong> reken je eerst hoeveel de korting waard is en trek je die af. Een trui van 40 euro met 25% korting: 25% van 40 is 10 euro, dus je betaalt 30 euro."
+    }
+   ]
+  },
+  {
+   "kop": "Handig hoofdrekenen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een grote som wordt klein als je ze in stukken hakt of een omweg neemt."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Som</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Handige omweg</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitkomst</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">348 + 156</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">300 + 100 = 400, 48 + 56 = 104</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">504</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 000 − 365</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 000 − 300 = 700, dan − 65</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">635</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 × 4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vier kwartjes maken een euro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">100</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">144 : 12</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">12 × 12 = 144</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">12</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,5 × 24</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de helft van 24</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">12</td></tr></table>",
+     "onderschrift": "Niet elke som vraagt om cijferen; vaak is omdenken sneller."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Afronden</strong> is een getal vervangen door een rond getal dat er dicht bij ligt. Je kijkt naar het cijfer rechts van de plaats waarop je afrondt: 5 of meer gaat naar boven. 2 468 afgerond op honderdtallen wordt dus 2 500."
+    }
+   ]
+  },
+  {
+   "kop": "De volgorde van de bewerkingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Staan er in één som verschillende bewerkingen, dan mag je niet zomaar van links naar rechts werken. Er is een vaste volgorde."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"69.7\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Haakjes</text><text x=\"69.7\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">eerst ( ) uitrekenen</text><path d=\"M144.33333333333334 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"165.3\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Maal en delen</text><text x=\"235.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">× en :</text><path d=\"M309.6666666666667 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"330.7\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"400.3\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">Plus en min</text><text x=\"400.3\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">+ en −</text></svg>",
+     "onderschrift": "Bij 12 + 3 × 4 reken je dus eerst 3 × 4 = 12, en pas daarna 12 + 12 = 24."
+    },
+    {
+     "soort": "tekst",
+     "html": "Haakjes zijn de baas: <strong>(7 + 3) × 5 = 50</strong>. Zonder haakjes zou 7 + 3 × 5 iets helemaal anders geven, namelijk 22."
+    }
+   ]
+  },
+  {
+   "kop": "Kommagetallen en verdelen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij optellen en aftrekken zet je de komma's netjes onder elkaar, en vul je aan met nullen tot er evenveel cijfers achter de komma staan: 2,50 + 3,75 = 6,25."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij delen reken je eerst zonder komma en zet je ze achteraf terug: 42 : 2 = 21, dus <strong>4,2 : 2 = 2,1</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Gaat het over verdelen met maten, zet dan eerst alles in dezelfde eenheid. Een fles van 2 liter over glazen van 250 ml: 2 liter is 2 000 ml, en 2 000 : 250 = 8 glazen."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een rekenmachine schrijft 1.2 met een punt. Op je blad schrijf je 1,2 met een komma. Hetzelfde getal."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "De noemer zegt in hoeveel stukken, de teller hoeveel je er neemt.",
+  "Hoe groter de noemer, hoe kleiner het stukje.",
+  "Gelijke noemers? Dan tel je gewoon de tellers op.",
+  "Een breuk van een getal: eerst delen door de noemer, dan maal de teller.",
+  "3/4, 0,75 en 75% zijn drie namen voor hetzelfde.",
+  "Procent: zoek eerst 10% en reken van daaruit verder.",
+  "Eerst haakjes, dan maal en delen, dan plus en min."
+ ]
+}
