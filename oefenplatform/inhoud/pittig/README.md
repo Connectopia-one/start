@@ -12,7 +12,20 @@ dat een leerjaar gesprongen was:
 > in rekenen zijn voorgekomen. En als een beetje goed geheugen hebt onthoud je
 > de antwoorden.
 
-Klaar: **wiskunde 🌱 Start**, zeven hoofdstukken, 140 vragen.
+Klaar: **heel 🌱 Start**, alle zes de vakken, 31 hoofdstukken en 620 vragen.
+
+| Vak | Hoofdstukken | Vragen |
+|-----|--------------|--------|
+| Wiskunde | 7 | 140 |
+| Wetenschap en techniek | 7 | 140 |
+| Engels | 6 | 120 |
+| Nederlands | 5 | 100 |
+| Geschiedenis | 3 | 60 |
+| Aardrijkskunde | 3 | 60 |
+
+Nederlands laat twee hoofdstukken bewust liggen: spelling, dat al een eigen
+bestand heeft, en begrijpend lezen, waar een pittige versie eerst een eigen
+leestekst nodig heeft.
 
 ## Wat maakt een vraag hier moeilijker?
 
@@ -57,9 +70,14 @@ met het label **Moeilijker**. Geen kolom in de databank, dus **geen SQL**.
 | Bestand | Vak | Niveau | Vervangen |
 |---------|-----|--------|-----------|
 | `start-wiskunde-pittig.json` | Wiskunde | 🌱 Start | **aan** |
+| `start-nederlands-pittig.json` | Nederlands | 🌱 Start | **aan** |
+| `start-geschiedenis-pittig.json` | Geschiedenis | 🌱 Start | **aan** |
+| `start-aardrijkskunde-pittig.json` | Aardrijkskunde | 🌱 Start | **aan** |
+| `start-engels-pittig.json` | Engels | 🌱 Start | **aan** |
+| `start-wetenschap-en-techniek-pittig.json` | Wetenschap en techniek | 🌱 Start | **aan** |
 
-Via **Beheer → Vakken → Wiskunde → vragen importeren**, met het vinkje
-**"Bestaande vragen vervangen" aan**. Het bestand raakt alleen de zeven nieuwe
+Telkens via **Beheer → Vakken → het vak → vragen importeren**, met het vinkje
+**"Bestaande vragen vervangen" aan**. Een bestand raakt alleen zijn eigen nieuwe
 hoofdstukken aan; de gewone hoofdstukken en de voortgang erop blijven zoals ze
-zijn. Importeer je per ongeluk een tweede keer, dan staat er nog altijd twintig
+zijn. Importeer je per ongeluk een tweede keer, dan staan er nog altijd twintig
 vragen per hoofdstuk in plaats van veertig.

@@ -35,11 +35,17 @@ databank meegekomen zijn. Spelling houdt er 47 over, Rekenen en breuken 37.
 | # | Bestand | Vak | Vervangen |
 |---|---------|-----|-----------|
 | 13 | `start-wiskunde-pittig.json` | Wiskunde | **aan** |
+| 14 | `start-nederlands-pittig.json` | Nederlands | **aan** |
+| 15 | `start-geschiedenis-pittig.json` | Geschiedenis | **aan** |
+| 16 | `start-aardrijkskunde-pittig.json` | Aardrijkskunde | **aan** |
+| 17 | `start-engels-pittig.json` | Engels | **aan** |
+| 18 | `start-wetenschap-en-techniek-pittig.json` | Wetenschap en techniek | **aan** |
 
-Zeven nieuwe hoofdstukken naast de gewone: "Getallenkennis — pittig" en zo
-verder, telkens twintig moeilijkere vragen over dezelfde leerstof. Ze raken de
-gewone hoofdstukken niet aan, dus je mag dit bestand op elk moment inladen, ook
-als de kinderen al bezig zijn. Zie `pittig/README.md`.
+Naast elk gewoon hoofdstuk komt er één pittig hoofdstuk: "Getallenkennis —
+pittig" en zo verder, telkens twintig moeilijkere vragen over dezelfde leerstof.
+Samen zijn dat 31 hoofdstukken en 620 vragen. Ze raken de gewone hoofdstukken
+niet aan, dus je mag deze bestanden op elk moment inladen, ook als de kinderen
+al bezig zijn. Zie `pittig/README.md`.
 
 ## ✨ Spark
 
