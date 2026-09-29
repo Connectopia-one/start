@@ -27,30 +27,42 @@ function vakkenPagina(formData: FormData, sleutel?: string, waarde?: string) {
   return "/beheer/vakken" + (vraag ? "?" + vraag : "");
 }
 
+/**
+ * Een nieuw vak aanmaken.
+ *
+ * Het formulier staat bij de vakken van een categorie, dus zetten we je daarna
+ * meteen in dat nieuwe vak: anders valt het terug in het klapje "vakken zonder
+ * hoofdstukken in deze categorie" en moet je het gaan zoeken.
+ */
 export async function maakVak(formData: FormData) {
   await requireBeheerder();
   const naam = String(formData.get("naam") || "").trim();
   const rekenmachine = formData.get("rekenmachine") === "on";
   if (!naam)
-    redirect(
-      "/beheer?fout=" + encodeURIComponent("Geef een naam op voor het vak."),
-    );
+    redirect(vakkenPagina(formData, "fout", "Geef een naam op voor het vak."));
 
   const admin = createAdminClient();
   const { count } = await admin
     .from("vakken")
     .select("id", { count: "exact", head: true });
-  const { error } = await admin
+  const { data: nieuw, error } = await admin
     .from("vakken")
-    .insert({ naam, slug: slugify(naam), volgorde: count ?? 0, rekenmachine });
-  if (error)
+    .insert({ naam, slug: slugify(naam), volgorde: count ?? 0, rekenmachine })
+    .select("slug")
+    .maybeSingle();
+  if (error || !nieuw)
     redirect(
-      "/beheer?fout=" +
-        encodeURIComponent("Kon vak niet aanmaken (bestaat de naam al?)."),
+      vakkenPagina(
+        formData,
+        "fout",
+        "Kon het vak niet aanmaken. Bestaat er al een vak met die naam?",
+      ),
     );
 
+  formData.set("terug_vak", nieuw.slug);
   revalidatePath("/beheer/vakken");
-  redirect(vakkenPagina(formData));
+  revalidatePath("/");
+  redirect(vakkenPagina(formData, "melding", `${naam} staat er.`));
 }
 
 /**

@@ -203,76 +203,43 @@ export default async function BeheerVakkenPage({
 
         {/* ------------------------------------------------ stap 1: categorie */}
         {!niveau && (
-          <>
-            <ul className="mt-6 grid gap-3 sm:grid-cols-2">
-              {NIVEAUS.map((n) => {
-                const vakkenHier = vakken.filter((v) =>
-                  v.hoofdstukken.some((h) => h.niveau === n.slug),
-                );
-                const aantalHoofdstukken = vakken.reduce(
-                  (som, v) =>
-                    som +
-                    v.hoofdstukken.filter((h) => h.niveau === n.slug).length,
-                  0,
-                );
-                return (
-                  <li key={n.slug}>
-                    <Link
-                      href={`/beheer/vakken?niveau=${n.slug}`}
-                      className="block h-full rounded-xl border border-border bg-surface px-4 py-4 hover:border-forest hover:bg-forest/5"
-                    >
-                      <p className="font-display text-base font-semibold text-ink">
-                        {n.emoji} {n.naam}
-                      </p>
-                      <p className="mt-0.5 text-xs text-ink-dim">
-                        {n.omschrijving}
-                      </p>
-                      <p className="mt-2 text-xs text-ink-dim">
-                        {aantalHoofdstukken === 0
-                          ? "Nog geen hoofdstukken"
-                          : `${telWoord(vakkenHier.length, "vak", "vakken")} · ${telWoord(
-                              aantalHoofdstukken,
-                              "hoofdstuk",
-                              "hoofdstukken",
-                            )}`}
-                      </p>
-                    </Link>
-                  </li>
-                );
-              })}
-            </ul>
-
-            <details className="mt-8 rounded-lg border border-border">
-              <summary className="cursor-pointer px-3 py-2 text-sm font-medium text-ink">
-                Een vak toevoegen
-              </summary>
-              <form
-                action={maakVak}
-                className="flex flex-wrap items-center gap-2 border-t border-border p-3"
-              >
-                <input
-                  name="naam"
-                  required
-                  placeholder="Naam nieuw vak (bv. Wiskunde)"
-                  className={veldKlasse}
-                />
-                <label className="flex items-center gap-1.5 text-xs text-ink-dim">
-                  <input
-                    type="checkbox"
-                    name="rekenmachine"
-                    className="accent-forest"
-                  />
-                  Rekenmachine (GeoGebra)
-                </label>
-                <button
-                  type="submit"
-                  className="shrink-0 rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
-                >
-                  Vak toevoegen
-                </button>
-              </form>
-            </details>
-          </>
+          <ul className="mt-6 grid gap-3 sm:grid-cols-2">
+            {NIVEAUS.map((n) => {
+              const vakkenHier = vakken.filter((v) =>
+                v.hoofdstukken.some((h) => h.niveau === n.slug),
+              );
+              const aantalHoofdstukken = vakken.reduce(
+                (som, v) =>
+                  som +
+                  v.hoofdstukken.filter((h) => h.niveau === n.slug).length,
+                0,
+              );
+              return (
+                <li key={n.slug}>
+                  <Link
+                    href={`/beheer/vakken?niveau=${n.slug}`}
+                    className="block h-full rounded-xl border border-border bg-surface px-4 py-4 hover:border-forest hover:bg-forest/5"
+                  >
+                    <p className="font-display text-base font-semibold text-ink">
+                      {n.emoji} {n.naam}
+                    </p>
+                    <p className="mt-0.5 text-xs text-ink-dim">
+                      {n.omschrijving}
+                    </p>
+                    <p className="mt-2 text-xs text-ink-dim">
+                      {aantalHoofdstukken === 0
+                        ? "Nog geen hoofdstukken"
+                        : `${telWoord(vakkenHier.length, "vak", "vakken")} · ${telWoord(
+                            aantalHoofdstukken,
+                            "hoofdstuk",
+                            "hoofdstukken",
+                          )}`}
+                    </p>
+                  </Link>
+                </li>
+              );
+            })}
+          </ul>
         )}
 
         {/* ----------------------------------------------------- stap 2: vak */}
@@ -349,6 +316,50 @@ export default async function BeheerVakkenPage({
                 </>
               );
             })()}
+
+            {/* Een nieuw vak maak je hier, bij de vakken zelf. Het stond eerst
+                een stap hoger, bij de categorieën, en daar zocht Kim het
+                tevergeefs. Een vak hoort trouwens niet bij één categorie: je
+                geeft het daarna in elke categorie zijn eigen hoofdstukken. */}
+            <details className="mt-6 rounded-lg border border-border">
+              <summary className="cursor-pointer px-3 py-2 text-sm font-medium text-ink">
+                Een vak toevoegen
+              </summary>
+              <div className="border-t border-border p-3">
+                <form
+                  action={maakVak}
+                  className="flex flex-wrap items-center gap-2"
+                >
+                  {terug}
+                  <input
+                    name="naam"
+                    required
+                    placeholder="Naam nieuw vak (bv. Duits)"
+                    className={veldKlasse}
+                  />
+                  <label className="flex items-center gap-1.5 text-xs text-ink-dim">
+                    <input
+                      type="checkbox"
+                      name="rekenmachine"
+                      className="accent-forest"
+                    />
+                    Rekenmachine (GeoGebra)
+                  </label>
+                  <button
+                    type="submit"
+                    className="shrink-0 rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
+                  >
+                    Vak toevoegen
+                  </button>
+                </form>
+                <p className="mt-2 text-xs text-ink-dim">
+                  Een vak staat los van de categorie&euml;n: hetzelfde vak kan
+                  hoofdstukken hebben in {niveau.emoji} {niveau.naam} én in de
+                  andere. Na het toevoegen sta je meteen bij de hoofdstukken van
+                  je nieuwe vak in {niveau.naam}.
+                </p>
+              </div>
+            </details>
           </>
         )}
 
