@@ -1,0 +1,129 @@
+{
+ "vak": "Engels",
+ "titel": "Tekstsoorten, tekstverbanden en verwijswoorden",
+ "onder": "Zes soorten teksten herkennen, de signaalwoorden lezen die de gedachtegang sturen, en weten waar een voornaamwoord naar verwijst.",
+ "secties": [
+  {
+   "kop": "Zes soorten teksten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het is <strong>nuttig</strong> om bij het begin te weten met welke <strong>tekstsoort</strong> je te maken hebt, want dan weet je ook <strong>waar je de belangrijkste informatie mag verwachten</strong>. De naam van elke soort is een <strong>vakwoord</strong> dat je zelf moet kunnen opschrijven. In een handleiding staat ze in de stappen, in een opiniestuk in de eerste en de laatste alinea, in een flyer in de kleine lettertjes onderaan."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Tekstsoort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wil vooral</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeelden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">informatief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">informatie geven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a newspaper article, an interview, a news item on television, a leaflet with opening hours</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">persuasief (een persuasieve tekst)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">overtuigen of beïnvloeden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een campagne tegen zwerfvuil, een flyer voor een sportevenement, reclame</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opiniërend (een opiniërende tekst)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een mening geven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een hotelbeoordeling, een filmrecensie, een reactie op een forum</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">prescriptief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zeggen wat of hoe je iets moet doen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">the rules of a board game, a school regulations booklet, an instruction video on YouTube, een recept, een bijsluiter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">narratief (een narratieve tekst)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">feiten en gebeurtenissen verhalend weergeeft</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een reisverslag, een getuigenis van iemand die een ongeval meemaakte</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">literair</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">raken, met een eigen stijl</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een lied, een gedicht, een kortverhaal, een cartoon, een strip</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Zes zinnetjes en zes soorten:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Zin</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">The library will be closed from 3 to 10 August for building work.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">informatief</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Don't let your rubbish end up in the sea. Bring your plastic to the recycling point today.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">persuasief</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">In my view, the new bus timetable makes life harder for everyone who works early shifts.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opiniërend</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Turn the device off, wait ten seconds and press the red button twice.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">prescriptief</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">That morning I missed my train, lost my umbrella and arrived soaking wet.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">narratief</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">The city slept, and the river carried the moon away on its back.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">literair</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Eén tekst kan kenmerken van <strong>meer dan één tekstsoort</strong> hebben. <em>Best film I have seen all year. Go and watch it.</em> doet twee dingen: <strong>een mening geven</strong> en <strong>de lezer overtuigen</strong>. Je kijkt dan naar het hoofddoel."
+    }
+   ]
+  },
+  {
+   "kop": "Waaraan je een soort herkent",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Zie je een <strong>titel, een ondertitel, tussenkopjes en een foto met bijschrift</strong>, dan heb je waarschijnlijk een <strong>krantenartikel</strong> voor je. Een <strong>literaire</strong> tekst herken je aan <strong>beeldspraak, ritme of een bijzondere stijl</strong>: een rivier die de maan op haar rug meedraagt, komt in geen enkel nieuwsbericht voor."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>persuasieve</strong> tekst geeft <strong>niet altijd eerlijk alle informatie</strong>. Dat is geen fout van die tekst, het hoort bij zijn doel. Krijg je een <strong>flyer voor een sportevenement</strong>, let dan vooral op <strong>wat de flyer van je wil en welke gegevens hij geeft</strong>: datum, plaats, prijs, en wat er niet bij staat."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee valstrikken. Een <strong>bijsluiter</strong> bij een geneesmiddel is géén informatieve tekst maar een <strong>prescriptieve</strong>: hij zegt wat je moet doen en laten. En een <strong>cartoon</strong> en een <strong>strip</strong> horen wél bij de <strong>literaire</strong> teksten, samen met een lied, een gedicht en een kortverhaal. Literatuur zit niet alleen in romans."
+    }
+   ]
+  },
+  {
+   "kop": "Tekstverbanden en hun signaalwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Zinnen staan niet los van elkaar. Kleine woordjes, de <strong>signaalwoorden</strong>, zeggen welk <strong>verband</strong> er tussen twee zinnen ligt. Ze staan er niet om een tekst mooier te laten klinken: wie ze leest, leest de gedachtegang."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verband</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Signaalwoorden</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een oorzaak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">because, as, since</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">The match was cancelled <strong>because</strong> the pitch was under water.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gevolg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">so, therefore, as a result</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">The pitch was under water, <strong>so</strong> the match was cancelled.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een tegenstelling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">however, although, on the other hand, despite, yet, in fact</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Tickets are expensive. <strong>However</strong>, the concert is worth every penny.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een voorbeeld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">for instance, for example</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Many animals are losing their homes. <strong>For instance</strong>, hedgehogs can no longer cross our gardens.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er komt nog iets bij</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in addition, moreover, besides</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">The film was long. <strong>In addition</strong>, the sound was terrible.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vergelijken en het verschil aanduiden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">unlike, compared with</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Unlike</strong> Spain, Ireland has cool summers.</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Although</strong> en <strong>but</strong> leggen allebei een tegenstelling, maar ze staan <strong>niet op dezelfde plaats in de zin</strong>. <em>Although</em> opent een bijzin en kan vooraan: <em>Although it rained, we went out.</em> <em>But</em> staat tussen twee hoofdzinnen: <em>It rained, but we went out.</em> Samen in één zin zet je ze niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Despite</strong> doet hetzelfde werk, maar er volgt geen zin op, wel een naamwoord of een -ing-vorm: <em>Despite the rain, the festival went ahead.</em> Dat is dus ook een tegenstelling."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Therefore</strong> en <strong>however</strong> kan je niet zomaar verwisselen. Er is wel degelijk een <strong>betekenisverschil</strong>: therefore kondigt een <strong>gevolg</strong> aan, however een <strong>tegenstelling</strong>. Eén woord verwisselen draait de hele redenering om."
+    },
+    {
+     "soort": "tekst",
+     "html": "Weerlegt alinea 2 wat alinea 1 beweert, dan zie je dat meestal aan de <strong>eerste woorden van die alinea</strong>: <em>however</em>, <em>in fact</em> of <em>yet</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Verwijswoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>voornaamwoord</strong> verwijst naar iets dat eerder genoemd is. Weet je niet waarnaar, dan <strong>mis je de samenhang tussen de zinnen</strong>, ook al begrijp je elk woord apart."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Zin</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar het verwijswoord naar verwijst</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">My brother works in Dublin. <strong>He</strong> comes home twice a year.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de broer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">The council closed two swimming pools last year. <strong>This</strong> made a lot of people angry.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">naar het sluiten van de twee zwembaden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Sara gave Nora her keys.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">volgens de gewone lezing: die van Sara</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Terugverwijzen kan met meer dan alleen <em>he</em> en <em>she</em>. Ook <strong>they</strong>, <strong>these</strong> en een groepje als <strong>such a problem</strong> pakken iets op dat eerder in de tekst stond. En <strong>it</strong> kan verwijzen naar een voorwerp, maar net zo goed naar een <strong>hele zin</strong>: <em>The train was late again. It happens every week.</em>"
+    },
+    {
+     "soort": "weetje",
+     "html": "<em>Sara gave Nora her keys</em> is strikt genomen dubbelzinnig, maar de gewone lezing is op de vraag wiens sleutels het zijn, dat het Sara's sleutels zijn: het voornaamwoord pakt meestal het onderwerp van de zin op. Wil je het zeker maken, dan herhaal je de naam."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op dit platform oefen je lezen, woordenschat en grammatica. Maar <strong>luisteren</strong> is de helft van het examen Engels 1, en <strong>mondelinge interactie</strong> (30 %) en <strong>spreken</strong> (8 %) zijn samen <strong>38 %</strong> van Engels 2. Die drie leer je niet achter een scherm. Je leert ze door te luisteren naar mensen die echt Engels spreken, en door zelf je mond open te doen, ook als het hakkelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> luister naar een Engelstalige podcast van tien minuten over iets wat je toch al interesseert, en let op de signaalwoorden: hoor je however, so of for instance? Doe het één keer, en let daarna op wat je miste of niet gezegd kreeg. Dat is precies je volgende oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Zes tekstsoorten: informatief, persuasief, opiniërend, prescriptief, narratief en literair.",
+  "Eén tekst kan kenmerken van meer dan één tekstsoort hebben. Kijk naar het hoofddoel.",
+  "Weet je de tekstsoort, dan weet je waar de belangrijkste informatie staat.",
+  "Een krantenartikel, een interview en een nieuwsitem op tv zijn informatief.",
+  "De spelregels van een gezelschapsspel, een schoolreglement, een instructievideo, een recept en een bijsluiter zijn prescriptief.",
+  "Een cartoon en een strip horen bij de literaire teksten.",
+  "Een getuigenis van iemand die een ongeval meemaakte, is narratief.",
+  "Een persuasieve tekst geeft niet altijd eerlijk alle informatie.",
+  "Because geeft een oorzaak, so een gevolg, however een tegenstelling.",
+  "Tegenstelling: however, although, on the other hand, despite, yet, in fact. Gevolg: therefore, as a result, so.",
+  "For instance geeft een voorbeeld, in addition voegt iets toe, unlike vergelijkt en wijst op het verschil.",
+  "Although en but leggen allebei een tegenstelling, maar staan niet op dezelfde plaats in de zin.",
+  "Therefore en however kan je niet verwisselen: het ene is een gevolg, het andere een tegenstelling.",
+  "Een voornaamwoord verwijst terug. Weet je niet waarnaar, dan mis je de samenhang tussen de zinnen.",
+  "It kan verwijzen naar een voorwerp, maar ook naar een hele zin."
+ ]
+}

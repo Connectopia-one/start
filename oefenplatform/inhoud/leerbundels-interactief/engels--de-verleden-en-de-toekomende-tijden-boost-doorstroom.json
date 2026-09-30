@@ -1,0 +1,133 @@
+{
+ "vak": "Engels",
+ "titel": "De verleden en de toekomende tijden",
+ "onder": "De past simple met haar onregelmatige werkwoorden, de past continuous, de past perfect, en het verschil tussen will en going to.",
+ "secties": [
+  {
+   "kop": "De past simple",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>regelmatig</strong> werkwoord zet je er <strong>-ed</strong> achter: work → worked, play → played."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Spelling</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er stond al een e</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">like → <strong>liked</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">y na een medeklinker wordt i</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>study → studied</strong>, try → tried, carry → carried</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">korte klinker + medeklinker verdubbelt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>stop → stopped</strong>, travel → <strong>travelled</strong> (Brits)</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>onregelmatig</strong> werkwoord leer je <strong>drie vormen</strong>: de basisvorm, de verleden tijd en het voltooid deelwoord. Die derde heb je nodig na have en had."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Basisvorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verleden tijd</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voltooid deelwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">go</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>went</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>gone</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">see</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>saw</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>seen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">take</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>took</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>taken</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">write</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wrote</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>written</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>buy</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>bought</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bought</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bring / think</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">brought / thought</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">brought / thought</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drink</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>drank</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>drunk</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">read</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">read (klinkt als red)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">read</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "In een <strong>vraag</strong> of een <strong>ontkenning</strong> gebruik je <strong>did</strong>, en blijft het werkwoord in de <strong>basisvorm</strong>: <em>Did you <strong>go</strong> to the party?</em>, <em>She <strong>didn't come</strong> yesterday.</em> De verleden tijd zit al in did. Behalve bij <strong>to be</strong>: daar heb je geen did nodig, <em><strong>were</strong> you there?</em> I, he, she en it nemen <strong>was</strong>; you, we en <strong>they</strong> nemen <strong>were</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Used to</strong> zegt dat iets <strong>vroeger gewoonte</strong> was en nu niet meer: <em>I used to play the piano.</em> De ontkenning is <em>I didn't <strong>use</strong> to</em>, zonder d."
+    }
+   ]
+  },
+  {
+   "kop": "De past continuous",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vorm is <strong>was of were</strong> plus <strong>-ing</strong>. Hij beschrijft iets dat <strong>aan de gang</strong> was."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Zin</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat er gebeurt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>I was reading when the phone rang.</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de lange handeling in de past continuous, de korte die erdoorheen komt in de past simple</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>While we were waiting, it started to rain.</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">na <strong>while</strong> staat de langst durende handeling, na <strong>when</strong> de korte</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>She was cooking while he was setting the table.</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee keer continuous: allebei tegelijk bezig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>The sun was shining and the birds were singing.</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het decor van een verhaal</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "In een vraag wisselen <em>were</em> en het onderwerp van plaats: <em><strong>What were you doing</strong> at eight o'clock?</em> En ook hier geldt de regel van de toestandswerkwoorden: <em>I was knowing the answer</em> is fout, het moet <em>I <strong>knew</strong> the answer</em> zijn."
+    },
+    {
+     "soort": "weetje",
+     "html": "Woorden als <strong>yesterday</strong>, <em>last week</em> en <em>ago</em> verraden meteen dat je de past simple nodig hebt. Since, already en yet horen bij de present perfect."
+    }
+   ]
+  },
+  {
+   "kop": "De past perfect",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vorm is <strong>had</strong> plus het <strong>voltooid deelwoord</strong>, voor elke persoon hetzelfde. Hij zegt wat er <strong>nog vroeger</strong> gebeurde dan de rest van het verhaal: <em>The train <strong>had already left</strong> when we arrived.</em>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee momenten in het verleden: het <strong>oudste</strong> krijgt de past perfect. <em>By the time she called, I <strong>had</strong> already gone to bed.</em> En <em>When I got home, my brother had cooked dinner</em> betekent dat <strong>hij eerst kookte en ik daarna thuiskwam</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Terecht past perfect</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarom</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">She had never seen the sea before that trip.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voor dat latere moment</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">They had finished the test before the bell rang.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voor de bel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I had left my key at home, so I could not get in.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de oorzaak lag eerder</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Yesterday I walked to school.</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen tweede moment om mee te vergelijken: gewoon past simple</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Na <strong>after</strong> en <strong>before</strong> is de past perfect vaak <strong>overbodig</strong>, want die woorden zeggen zelf al wat eerst kwam. <em>After she finished, she went home</em> leest even helder als <em>after she had finished</em>."
+    }
+   ]
+  },
+  {
+   "kop": "De toekomst: will en going to",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wanneer</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>will</strong> + basisvorm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een beslissing op het moment zelf, een belofte, een aanbod, een gok</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>That bag looks heavy. <strong>I'll help you.</strong></em> / <em>I promise I <strong>won't</strong> tell anyone.</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>going to</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een plan dat je al had, of een voorspelling met bewijs</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>I'm going to study medicine.</em> / <em>Look at those clouds, <strong>it is going to rain</strong>.</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">present continuous</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een afspraak die vastligt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>We are meeting at six.</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">present simple</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een dienstregeling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>The train leaves at six tomorrow.</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>will be</strong> + -ing</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets dat op een bepaald moment bezig zal zijn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>This time tomorrow I will be flying to Dublin.</em></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Na <strong>will</strong> komt de <strong>kale basisvorm</strong>, zonder to, en will krijgt zelf nooit een s: <em>she will come</em>. De korte vorm van will not is <strong>won't</strong>. In een vraag wisselen will en het onderwerp van plaats: <em>Where <strong>will you be</strong> next week?</em>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee modale werkwoorden na elkaar kan niet. Voor de toekomst van can gebruik je <strong>will be able to</strong>: <em>She <strong>won't be able to</strong> come tomorrow.</em>"
+    },
+    {
+     "soort": "kader",
+     "html": "Na <strong>if</strong> en <strong>when</strong> zet je <strong>geen will</strong>: <em>I will call you when I <strong>arrive</strong></em>, <em><strong>If it rains</strong>, we <strong>will</strong> stay at home.</em> De will hoort in de hoofdzin, niet in de bijzin."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Shall</strong> komt in het moderne Engels vooral voor in vragen: <em>Shall I open the window?</em>, <em>Shall we go?</em> Die bieden iets aan of stellen iets voor. Voor de gewone toekomst gebruikt men will."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op dit platform oefen je lezen, woordenschat en grammatica. Maar <strong>luisteren</strong> is de helft van het examen Engels 1, en <strong>mondelinge interactie</strong> (30 %) en <strong>spreken</strong> (8 %) zijn samen <strong>38 %</strong> van Engels 2. Die drie leer je niet achter een scherm. Je leert ze door te luisteren naar mensen die echt Engels spreken, en door zelf je mond open te doen, ook als het hakkelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> kijk naar de trailer van een Engelstalige film en let op de tijden: hoor je will, going to of een verleden tijd? Vertel daarna in drie zinnen waar de film over gaat. Doe het één keer, en let daarna op wat je miste of niet gezegd kreeg. Dat is precies je volgende oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Regelmatig: worked, liked, studied, stopped, travelled.",
+  "Onregelmatig: go went gone, see saw seen, take took taken, write wrote written, buy bought bought, drink drank drunk.",
+  "In een vraag of ontkenning gebruik je did plus de basisvorm: didn't come, did you go.",
+  "To be heeft geen did nodig: were you there? Was bij I, he, she en it; were bij you, we en they.",
+  "Used to zegt dat iets vroeger gewoonte was. Ontkenning: I didn't use to.",
+  "Past continuous: was of were plus -ing. De lange handeling continuous, de korte simple.",
+  "Na while de lange handeling, na when de korte. Twee keer continuous is tegelijk bezig.",
+  "Yesterday, last week en ago vragen de past simple.",
+  "Past perfect: had plus het deelwoord, voor wat nog vroeger gebeurde.",
+  "Na after en before is de past perfect vaak overbodig.",
+  "Will voor een beslissing op het moment zelf, een belofte of een aanbod. Going to voor een plan of een voorspelling met bewijs.",
+  "Na will komt de kale basisvorm en will krijgt nooit een s. Won't is will not.",
+  "Twee modale werkwoorden na elkaar kan niet: will be able to.",
+  "Na if en when geen will: if it rains, we will stay at home.",
+  "Shall komt vooral voor in vragen: shall I open the window?"
+ ]
+}

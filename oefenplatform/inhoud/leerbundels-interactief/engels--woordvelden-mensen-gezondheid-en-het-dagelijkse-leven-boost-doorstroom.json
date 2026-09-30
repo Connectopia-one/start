@@ -1,0 +1,190 @@
+{
+ "vak": "Engels",
+ "titel": "Woordvelden: mensen, gezondheid en het dagelijkse leven",
+ "onder": "Familie, persoonlijke gegevens, gevoelens, het lichaam, eten, kleren, wonen en de dagelijkse bezigheden.",
+ "secties": [
+  {
+   "kop": "Familie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het Nederlands heeft één woord <em>neef</em> en één woord <em>nicht</em>, het Engels heeft er twee. Daar gaat het bijna altijd mis."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Engels</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>nephew</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de zoon van je broer of je zus</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>niece</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de dochter van je broer of je zus</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>cousin</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het kind van je oom of je tante</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>uncle</strong> / <strong>aunt</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de broer van je vader of je moeder / de zus</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>grandson</strong> / granddaughter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kleinzoon / de kleindochter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mother-in-law, brother-in-law</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">familie die je door je huwelijk krijgt: schoonmoeder, schoonbroer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stepmother, stepfather</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een stiefouder, die je krijgt door het huwelijk van een ouder</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">great-aunt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de tante van je vader of moeder</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Nephew</strong> gebruik je <strong>niet</strong> voor de zoon van je oom of je tante: dat is je <strong>cousin</strong>. En cousin dekt in het Engels zowel een neef als een nicht."
+    }
+   ]
+  },
+  {
+   "kop": "Persoonlijke gegevens",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op een Engels formulier staan altijd dezelfde velden. In het Engels staat de <strong>voornaam eerst</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Veld</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je invult</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">first name</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je voornaam</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>surname</strong> (of last name)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je achternaam of familienaam</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>date of birth</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je geboortedatum</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">place of birth</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je geboorteplaats</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>marital status</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je burgerlijke staat: single, married, divorced</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">occupation</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je beroep</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nationality</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je nationaliteit</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Nationaliteiten</strong> en talen schrijf je in het Engels <strong>met een hoofdletter</strong>: <em>he is Belgian</em>, <em>I speak English</em>. Het Nederlands doet dat niet, en die gewoonte sleept iedereen mee."
+    }
+   ]
+  },
+  {
+   "kop": "Gevoelens",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Blij</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verdrietig of somber</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Bang of zenuwachtig</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Boos</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cheerful, joyful, merry, lively, <strong>delighted</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sad, <strong>gloomy</strong>, miserable, <strong>disappointed</strong> (teleurgesteld)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>nervous</strong>, <strong>anxious</strong>, <strong>scared</strong>, worried</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">angry, annoyed, furious</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Cheerful</strong> is opgewekt; het tegenovergestelde is <strong>gloomy</strong>. <strong>Delighted</strong> betekent heel blij, en hoort dus niet bij de angst. En let op de spelling van <strong>disappointed</strong>: twee keer een p, één keer een s."
+    },
+    {
+     "soort": "tekst",
+     "html": "De zin <em>I feel sick</em> zegt dat je je <strong>misselijk of ziek</strong> voelt. Wil je zeggen dat je iemand beu bent, dan heb je <em>I'm sick <strong>of</strong> him</em> nodig: het voorzetsel maakt het verschil."
+    }
+   ]
+  },
+  {
+   "kop": "Gezondheid en lichaamsdelen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Arm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Been</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoofd en romp</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>elbow</strong> (elleboog), <strong>wrist</strong> (pols), <strong>shoulder</strong> (schouder), hand, finger</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>knee</strong> (knie), <strong>ankle</strong> (enkel), <strong>hip</strong> (heup), foot, toe</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>neck</strong> (hals, nek), throat (keel), chest, back, stomach</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het Engelse woord <strong>arm</strong> betekent alleen het lichaamsdeel. Voor arm in de zin van weinig geld hebben, zeg je <strong>poor</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Klacht</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Engels</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">keelpijn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I have a <strong>sore throat</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoofdpijn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I have a headache</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">buikpijn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I have a stomach ache</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tandpijn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I have a toothache</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je niet lekker voelen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I'm feeling a bit <strong>under the weather</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Under the weather</strong> is een vaste uitdrukking voor lichtjes ziek zijn. Ze heeft niets met het weer buiten te maken."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de dokter is <em>What seems to be the problem?</em> de gewone openingsvraag: ze wil weten <strong>waar je last van hebt</strong>. Medicijnen haal je in het Verenigd Koninkrijk bij de <strong>chemist's</strong>, de <strong>apotheek</strong>; in de Verenigde Staten heet dat een pharmacy of een drugstore."
+    }
+   ]
+  },
+  {
+   "kop": "Eten en drinken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op een Engelse menukaart is <strong>a starter</strong> het <strong>voorgerecht</strong>, daarna komt the main course en tot slot dessert. In de Verenigde Staten heet het voorgerecht an appetizer."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een klassiek Brits ontbijt bestaat onder meer uit <strong>porridge</strong> (havermout), <strong>toast</strong> en <strong>bacon</strong>, met eggs, sausages en beans erbij. <em>Sushi</em> hoort daar niet bij."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bestek heet samen <em>cutlery</em>: a knife, a fork en een <strong>spoon</strong>, en met die laatste eet je soep."
+    },
+    {
+     "soort": "weetje",
+     "html": "<strong>Bread</strong> is ontelbaar en krijgt dus geen meervouds-s. Je telt het met een maatwoord: <em>a slice of bread</em>, <em>two loaves of bread</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Kleding en accessoires",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Aan je voeten</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Aan je lijf</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Erbij</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>trainers</strong> (sportschoenen), <strong>boots</strong> (laarzen), <strong>socks</strong> (kousen)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>jumper</strong> / <strong>sweater</strong> / <strong>pullover</strong> (trui), shirt, jacket, <strong>trousers</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>scarf</strong> (sjaal), <strong>gloves</strong> (handschoenen), belt, hat</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Trousers</strong> staat altijd in het <strong>meervoud</strong>: <em>these trousers are new</em>. Zo werkt het ook bij jeans, shorts, glasses en scissors. Bedoel je er één, dan zeg je <em>a pair of trousers</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Jumper</strong> is de Britse variant voor een trui, <strong>sweater</strong> de Amerikaanse; pullover kan in allebei."
+    }
+   ]
+  },
+  {
+   "kop": "De woning",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Engels</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>cooker</strong> (Amerikaans: stove)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het fornuis, in the <strong>kitchen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wardrobe</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kleerkast</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">washing machine</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de wasmachine</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">loft, attic</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de zolder</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">desk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het bureau</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>curtain</strong>, <strong>cushion</strong>, <strong>carpet</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gordijn, sierkussen, tapijt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ground floor</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het gelijkvloers</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">first floor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in het VK de eerste verdieping, in de VS het gelijkvloers</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "De <strong>first floor</strong> van een Brits gebouw is <strong>niet</strong> ons gelijkvloers. Dat heet <strong>ground floor</strong>, en in een lift staat daar een G bij."
+    }
+   ]
+  },
+  {
+   "kop": "Dagelijkse bezigheden, kleuren, vormen en materialen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In het Engels kies je bij elke klus het juiste werkwoord. Je <strong>doet</strong> de afwas, je <strong>maakt</strong> je bed op."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Engels</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>do</strong> the washing-up / <strong>do</strong> the dishes</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">afwassen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>make</strong> the bed</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je bed opmaken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>hang out</strong> the washing</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de was buiten hangen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>do</strong> your homework</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je huiswerk maken (nooit make)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sit an exam</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een examen afleggen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>washing-up liquid</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">afwasmiddel (waspoeder is washing powder)</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Make</strong> gebruik je als er iets nieuws ontstaat: make a cake, make a mistake, make a plan. <strong>Do</strong> gebruik je bij werk en klusjes."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kleuren</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vormen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Materialen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>purple</strong> (paars), red, blue, green, grey</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">round, <strong>oval</strong>, square, <strong>narrow</strong> (smal), wide</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wooden</strong> (houten), <strong>leather</strong> (leer), <strong>cotton</strong> (katoen), <strong>plastic</strong>, metal</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een kleur zet je <strong>vóór</strong> het zelfstandig naamwoord: <em>a blue jacket</em>. En een bijvoeglijk naamwoord krijgt nooit een meervouds-s: <em>two blue jackets</em>. <strong>Striped</strong> betekent gestreept, en dat is geen materiaal maar een uiterlijk."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op dit platform oefen je lezen, woordenschat en grammatica. Maar <strong>luisteren</strong> is de helft van het examen Engels 1, en <strong>mondelinge interactie</strong> (30 %) en <strong>spreken</strong> (8 %) zijn samen <strong>38 %</strong> van Engels 2. Die drie leer je niet achter een scherm. Je leert ze door te luisteren naar mensen die echt Engels spreken, en door zelf je mond open te doen, ook als het hakkelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> kijk een kookfilmpje in het Engels en probeer het gerecht daarna na te vertellen met de woorden die je gehoord hebt. Doe het één keer, en let daarna op wat je miste of niet gezegd kreeg. Dat is precies je volgende oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Nephew en niece zijn de kinderen van je broer of zus, cousin is het kind van je oom of tante.",
+  "Met -in-law bedoel je de schoonfamilie; een stiefouder is een stepmother of stepfather.",
+  "Surname is je achternaam, date of birth je geboortedatum, marital status je burgerlijke staat.",
+  "Nationaliteiten en talen krijgen in het Engels een hoofdletter.",
+  "Cheerful tegenover gloomy. Nervous, anxious en scared horen bij angst, delighted bij blijdschap.",
+  "Disappointed: twee keer p, één keer s.",
+  "Elbow, wrist en shoulder horen bij de arm; knee, ankle en hip bij het been; neck is de hals.",
+  "Arm betekent enkel het lichaamsdeel; weinig geld hebben is poor.",
+  "I have a sore throat is keelpijn. Under the weather betekent je niet lekker voelen.",
+  "Een chemist's is in het VK de apotheek.",
+  "A starter is het voorgerecht. Bread is ontelbaar: two loaves of bread.",
+  "Trousers, jeans en glasses staan altijd in het meervoud.",
+  "Trainers, boots en socks draag je aan je voeten; een jumper of sweater is een trui.",
+  "Een cooker staat in the kitchen, een wardrobe is een kleerkast, en de ground floor is het gelijkvloers.",
+  "Do the washing-up en do your homework, maar make the bed. Washing-up liquid is afwasmiddel.",
+  "Purple is paars; wooden, leather, cotton en plastic zijn materialen, narrow is een vorm."
+ ]
+}

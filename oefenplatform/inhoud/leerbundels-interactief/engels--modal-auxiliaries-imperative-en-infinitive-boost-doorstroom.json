@@ -1,0 +1,152 @@
+{
+ "vak": "Engels",
+ "titel": "Modal auxiliaries, imperative en infinitive",
+ "onder": "Can, may, must en should, de gebiedende wijs, de infinitief met en zonder to, de nadrukkelijke do en de onpersoonlijke zinnen.",
+ "secties": [
+  {
+   "kop": "De modale hulpwerkwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Modale hulpwerkwoorden hebben een <strong>grote invloed op de interpretatie</strong> van een zin. Eén woord verandert een vraag in een bevel, of een verbod in een vrije keuze."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee vormregels gelden voor allemaal. Ze krijgen <strong>nooit een s</strong> in de derde persoon (<em>she can</em>, niet she cans), en er komt <strong>geen to</strong> achter (<em>she can swim</em>, niet she can to swim). <strong>Ought to</strong> is de enige uitzondering, dat heeft zijn to al vast."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Werkwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>can</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kunnen, en in spreektaal ook toestemming vragen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>she can swim</em>, <em>can I go now?</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>could</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beleefder dan can</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em><strong>Could you help me, please?</strong></em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>may</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">toestemming, formeel, en mogelijkheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em><strong>May I leave early today?</strong></em>, <em>she may be at home</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>might</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mogelijkheid, iets onzekerder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>it <strong>might</strong> rain tomorrow</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>must</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verplichting, of een sterke conclusie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>you must wear a helmet</em>, <em>he <strong>must</strong> be exhausted</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>have to</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verplichting die van een regel komt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>you have to wear a helmet here</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>should</strong> / <strong>ought to</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">advies</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em><strong>You should see a doctor.</strong></em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>would rather</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">liever</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em><strong>I would rather stay home.</strong></em></td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Mustn't</strong> en <strong>don't have to</strong> zijn bijna elkaars tegendeel. <em>You <strong>mustn't</strong> park here</em> betekent dat <strong>hier parkeren verboden is</strong>. <em>You <strong>don't have to</strong> come</em> betekent dat je <strong>niet hoeft te komen</strong>, maar mag."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Must</strong> heeft <strong>geen eigen verleden tijd</strong>. <em>I must go</em> wordt in het verleden <strong>I had to go</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Mogelijkheid en conclusie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Dezelfde woorden zeggen soms iets over hoe <strong>zeker</strong> je bent. <em>She <strong>may</strong> be at home</em>, <em>she <strong>might</strong> call later</em> en <em>it <strong>could</strong> be true</em> drukken een <strong>mogelijkheid</strong> uit."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>She <strong>must</strong> be at home</em> is geen verplichting maar een sterke <strong>conclusie</strong>: het zal wel zo zijn. <em>He's been running for an hour, he <strong>must</strong> be exhausted.</em> De ontkenning daarvan is <strong>can't</strong>: <em>That <strong>can't</strong> be true</em> betekent dat het <strong>onmogelijk waar kan zijn</strong>. <em>Mustn't</em> zou daar fout zijn, want dat is een verbod."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wil je zeggen wat je <strong>achteraf bekeken beter had gedaan</strong>, dan gebruik je <strong>should have</strong> plus het deelwoord: <em><strong>You should have done your homework.</strong></em>"
+    }
+   ]
+  },
+  {
+   "kop": "De gebiedende wijs",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>imperatief</strong> is de <strong>kale basisvorm</strong>, zonder onderwerp en zonder to: <em>close the door</em>. Ontkennend wordt het <strong>don't</strong> plus de basisvorm: <em>don't open the window</em>, ook als je iemand met u aanspreekt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Stel je iets voor aan jezelf en je vrienden, dan gebruik je <strong>let's</strong>, de korte vorm van let us: <em><strong>Let's</strong> go to the cinema tonight.</em>"
+    },
+    {
+     "soort": "kader",
+     "html": "De imperatief is <strong>niet altijd onbeleefd</strong>. Hij staat gewoon in instructies en recepten: <em>mix the eggs</em>, <em>turn left</em>. Met <strong>please</strong> erbij klinkt hij vriendelijk: <em>please sit down</em>, nooit <em>please to sit down</em>."
+    }
+   ]
+  },
+  {
+   "kop": "De infinitief",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>infinitief</strong> is de <strong>basisvorm</strong>, vaak met <strong>to</strong> ervoor: to go, to be, to write. Zonder to heet hij de <strong>kale infinitief</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Na wat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Welke vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>want</strong>, <strong>decide</strong>, <strong>hope</strong>, need, would like</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">infinitief <strong>met to</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>I want to go</em>, <em>I need to go</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>let</strong>, <strong>make</strong>, en de modale werkwoorden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>kale</strong> infinitief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em><strong>She made me laugh.</strong></em>, <em>let him go</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>enjoy</strong>, finish, avoid, mind</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>-ing</strong>-vorm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>I enjoy <strong>reading</strong> books</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>voorzetsel</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>-ing</strong>-vorm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>he left without saying goodbye</em>, <em>she is good at drawing</em></td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<em>I look forward <strong>to hearing</strong> from you</em> is juist, en <em>I look forward to hear from you</em> is fout. De <strong>to</strong> in <em>look forward to</em> is een <strong>voorzetsel</strong> en geen infinitief, dus komt er een -ing-vorm achter. Het is een van de gewoonste afsluiters van een formele mail, dus die wil je juist hebben."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Need</strong> is een gewoon werkwoord en neemt to, maar als hulpwerkwoord in een ontkenning kan het kaal: <em>you <strong>needn't</strong> worry</em>."
+    }
+   ]
+  },
+  {
+   "kop": "De nadrukkelijke do",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In een <strong>bevestigende</strong> zin kunnen <strong>do</strong>, <strong>does</strong> en <strong>did</strong> <strong>nadruk</strong> leggen. De zin kan ook zonder, en precies daarom hoor je de klemtoon."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Zin</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je ermee zegt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>I do like your new coat.</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik vind je nieuwe jas echt mooi</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Do sit down.</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ga toch zitten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>She does look tired.</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ze ziet er wel degelijk moe uit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>I did tell you, honestly.</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik heb het je wél gezegd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Do you want tea?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gewone vraag, geen nadruk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>I do believe you, really.</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik geloof je echt</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Wederkerende en onpersoonlijke werkwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een paar Engelse werkwoorden zijn <strong>wederkerend</strong> terwijl wij ze gewoon gebruiken: <strong>enjoy yourself</strong> (<em>Enjoy yourself at the party!</em>), <strong>help yourself</strong> en <strong>behave yourself</strong>. Omgekeerd is <strong>wash</strong> in het Engels juist <strong>niet</strong> wederkerend: wij zeggen zich wassen, het Engels zegt <em>she washed</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een Engelse zin heeft <strong>altijd een onderwerp</strong> nodig, behalve de imperatief. Is er niets te noemen, dan zet je <strong>it</strong> of <strong>there</strong>. Dat heet een <strong>onpersoonlijk</strong> onderwerp: het verwijst nergens naar."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Zin</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarom onpersoonlijk</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>It is raining.</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de it verwijst nergens naar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>It was snowing all night.</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">idem</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>It seems that he is right.</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">idem</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>It takes an hour to get there.</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">idem, en take krijgt hier wel een s</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>There is no milk left.</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">there vult de plaats van het onderwerp</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">He is right about that.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hier verwijst he wél naar een echte persoon</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Zo ook in <em>it is cold</em> en <em>it is five o'clock</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op dit platform oefen je lezen, woordenschat en grammatica. Maar <strong>luisteren</strong> is de helft van het examen Engels 1, en <strong>mondelinge interactie</strong> (30 %) en <strong>spreken</strong> (8 %) zijn samen <strong>38 %</strong> van Engels 2. Die drie leer je niet achter een scherm. Je leert ze door te luisteren naar mensen die echt Engels spreken, en door zelf je mond open te doen, ook als het hakkelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> vraag iemand in het Engels om iets te doen, op drie manieren: met can, met could en met would you mind. Luister naar het verschil in toon. Doe het één keer, en let daarna op wat je miste of niet gezegd kreeg. Dat is precies je volgende oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een modaal hulpwerkwoord krijgt nooit een s en er volgt geen to: she can swim. Ought to is de uitzondering.",
+  "Could klinkt beleefder dan can; may is formeler dan can bij toestemming.",
+  "Mustn't is een verbod, don't have to betekent dat het niet hoeft.",
+  "Must heeft geen verleden tijd: I had to go.",
+  "Should en ought to geven advies; should have plus deelwoord zegt wat je beter had gedaan.",
+  "May, might en could drukken een mogelijkheid uit; must be is een conclusie en can't be het tegendeel.",
+  "Would rather betekent liever, met de kale basisvorm erachter.",
+  "Twee modale werkwoorden na elkaar kan niet: won't be able to.",
+  "De imperatief is de kale basisvorm zonder onderwerp; ontkennend met don't. Let's is let us.",
+  "De imperatief is niet onbeleefd: please sit down, nooit please to sit down.",
+  "Want, decide en hope nemen to; let, make en de modale werkwoorden nemen de kale infinitief.",
+  "Na enjoy, finish, avoid en mind komt -ing, en na elk voorzetsel ook.",
+  "I look forward to hearing from you, want die to is een voorzetsel.",
+  "Do, does en did kunnen in een bevestigende zin nadruk leggen: I do like your new coat.",
+  "Enjoy yourself, help yourself en behave yourself zijn wederkerend; wash is dat niet.",
+  "Een Engelse zin heeft altijd een onderwerp: it is raining, it takes an hour, there is no milk left."
+ ]
+}

@@ -1,0 +1,154 @@
+{
+ "vak": "Engels",
+ "titel": "Een Engelse tekst analyseren",
+ "onder": "Onderwerp en hoofdgedachte vinden, gericht zoeken, tussen de regels lezen en het oordeel van de schrijver horen.",
+ "secties": [
+  {
+   "kop": "Onderwerp, hoofdgedachte en hoofdpunten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Drie woorden die op elkaar lijken en die je uit elkaar moet houden. Het <strong>onderwerp</strong> van een tekst zeg je in <strong>enkele woorden</strong>: waar gaat hij over? De <strong>hoofdgedachte</strong> zeg je in <strong>een hele zin</strong>: wat zegt de tekst daarover? En de <strong>hoofdpunten</strong> zijn de elementen die de hoofdgedachte <strong>ondersteunen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe lang</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onderwerp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">enkele woorden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de nestplaatsen van gierzwaluwen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoofdgedachte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een hele zin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Gierzwaluwen verliezen hun nestplaatsen, en steden doen daar iets aan.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoofdpunten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de zinnen eronder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">They nest under roof tiles and in wall cavities.</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Krijg je een vraag over de <strong>hoofdgedachte</strong>, antwoord dan nooit met een <strong>los woord</strong>. Een los woord is het onderwerp. De hoofdgedachte is een zin."
+    },
+    {
+     "soort": "tekst",
+     "html": "Snap je de hoofdgedachte van een tekst niet, lees dan eerst de <strong>titel en de eerste en laatste zin</strong> opnieuw. Daar staat ze in negen van de tien teksten, in andere woorden."
+    }
+   ]
+  },
+  {
+   "kop": "Wat er staat, en wat je eruit afleidt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Niet elk antwoord staat letterlijk in de tekst. Een deel van de vragen vraagt je om iets <strong>af te leiden</strong>: je legt twee zinnen naast elkaar en trekt zelf de conclusie. Alles wat je afleidt moet <strong>volgen uit</strong> de tekst, maar het hoeft er niet letterlijk in te staan."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat er staat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je eruit afleidt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Because many old buildings are being renovated, those nesting places are disappearing fast.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Steden vragen neststenen in nieuwe muren omdat de oude nestplaatsen bij renovatie verdwijnen.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Unlike her sister, Maya has never been abroad.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">De zus is wel al in het buitenland geweest.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">The tickets sold out within an hour.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">De tickets waren heel snel uitverkocht.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">The museum is closed on Mondays and on public holidays.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Op maandag 1 mei is het museum zeker gesloten: het is allebei.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Students who have not returned the form by Friday will not be able to join the trip.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Heb je het formulier niet terugbezorgd, dan mag je niet mee op de reis.</td></tr></table>"
+    },
+    {
+     "soort": "weetje",
+     "html": "<em>Unlike</em> is het handigste woordje van de hele leestoets. Het vergelijkt twee dingen en zegt meteen dat ze verschillen. Over het ene ding staat er iets, over het andere weet je dan automatisch het tegendeel."
+    }
+   ]
+  },
+  {
+   "kop": "Zoeken, en een woord dat je niet kent",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Krijg je een <strong>lange tekst en één gerichte vraag</strong>, bijvoorbeeld op welke dag de bus vertrekt, dan lees je die tekst niet van voor naar achter. Je <strong>zoekt in de tekst naar een dag of een datum</strong> en je leest alleen die zin volledig. Hetzelfde geldt voor een prijs, een naam of een uur: je weet welke vorm je zoekt, dus je scant erop."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je mag op het examen een <strong>online woordenboek</strong> gebruiken. Dat klinkt geruststellender dan het is: je hebt <strong>niet de tijd om elk woord op te zoeken</strong>. Je hebt dus een <strong>basiswoordenschat</strong> nodig, en je spaart het woordenboek voor de twee of drie woorden waar de vraag echt op staat of valt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ontgaat je één woord terwijl je de zin verder wel begrijpt, dan zoek je niets op: je <strong>leidt de betekenis af uit de rest van de zin</strong>. Wie in <em>they nest under roof tiles</em> het woord <em>tiles</em> niet kent, weet door <em>roof</em> en <em>nest</em> al genoeg om verder te lezen."
+    },
+    {
+     "soort": "kader",
+     "html": "Een tekst <strong>analyseren</strong> is niet hetzelfde als een tekst <strong>letterlijk vertalen</strong>. Je moet de boodschap eruit halen, niet elke zin omzetten. Wie vertaalt, is na twee alinea's door zijn tijd."
+    }
+   ]
+  },
+  {
+   "kop": "Het oordeel in een tekst horen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>opiniërende</strong> tekst, zoals een <strong>hotelbeoordeling</strong> of een filmrecensie, is de vraag zelden of de schrijver tevreden was, maar <strong>hoe</strong> tevreden, en <strong>waarover</strong>. Een oordeel is vaak <strong>gemengd</strong>: goede kamers en vriendelijk personeel, maar een slecht ontbijt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het oordeel zit in een handvol woorden. In een hotelbeoordeling dragen <em>disappointing</em>, <em>cold coffee</em> en <em>very little choice</em> het negatieve deel. De rest van de zinnen is vriendelijk, maar die drie woorden bepalen de toon."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Zin</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat er gezegd wordt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">the staff could not have been friendlier</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het personeel was heel vriendelijk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">two hours I will never get back</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de film was verloren tijd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a masterpiece</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een lovend oordeel over diezelfde film</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Lees je twee teksten over dezelfde film waarvan de ene hem <em>a masterpiece</em> noemt en de andere <em>two hours I will never get back</em>, dan is het antwoord niet dat er één gelijk heeft: de twee schrijvers geven een <strong>tegengesteld oordeel</strong>."
+    },
+    {
+     "soort": "weetje",
+     "html": "<em>Could not have been friendlier</em> is een lofbetuiging in de vorm van een ontkenning. Letterlijk: vriendelijker had niet gekund. Het Engels doet dat vaker, en wie alleen op <em>not</em> let, leest het oordeel precies omgekeerd."
+    }
+   ]
+  },
+  {
+   "kop": "Alinea's, verbanden en soorten teksten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een tekst is in <strong>alinea's</strong> verdeeld, en die <strong>alinea-indeling</strong> is geen opmaak maar inhoud. Daarom is ze <strong>nuttig</strong> zodra je een tekst <strong>analyseert</strong>: elke alinea heeft meestal <strong>één eigen punt</strong>. Weet je per alinea wat er staat, dan zie je ook welke <strong>functie</strong> alinea 3 heeft ten opzichte van de <strong>vorige</strong>. Een alinea kan een <strong>oorzaak geven</strong>, een <strong>tegenstelling maken</strong> of een <strong>voorbeeld geven</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Binnen een zin doen kleine woordjes hetzelfde werk. In <em>By the evening my legs hurt, but I would do it again tomorrow</em> legt <strong>but</strong> een <strong>tekstverband</strong>, en wel een <strong>tegenstelling</strong>: de benen deden pijn, en toch zou de schrijver het overdoen. De hoofdgedachte van zo'n reisverslag is dan ook dat de schrijver de lange wandeling de moeite vond, ondanks de vermoeidheid."
+    },
+    {
+     "soort": "tekst",
+     "html": "Welke <strong>tekstsoort</strong> je voor je hebt, bepaalt waar je moet kijken. Een <strong>hotelbeoordeling</strong> op een online platform is <strong>opiniërend</strong>. Een <strong>recept</strong> en een <strong>bijsluiter</strong> zijn allebei <strong>prescriptief</strong>: ze zeggen wat je moet doen. Een <strong>lied</strong>, een <strong>gedicht</strong> en een <strong>kortverhaal</strong> zijn <strong>literair</strong>. Een tekst die je probeert te overtuigen of te beïnvloeden, heet <strong>persuasief</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "Een <strong>krantenartikel</strong> en een <strong>interview</strong> zijn géén opiniërende teksten: ze geven informatie. Dat er in een interview meningen van anderen staan, verandert daar niets aan."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>prescriptieve</strong> tekst let je op de volgorde. Staat er <em>Before you start, read all the steps</em>, dan is dat de eerste stap: <strong>alle stappen doorlezen</strong>. En <em>Do not add the butter until the mixture is smooth</em> betekent dat je de boter pas toevoegt <strong>als het mengsel glad is</strong>, niet ervoor. Zo'n tekst staat vol <strong>aanwijzingen</strong> in de gebiedende wijs, de <strong>imperatieven</strong>: <em>Preheat the oven</em>, <em>Mix the flour</em>, <em>Bake for 25 minutes</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Al die namen van tekstsoorten zijn <strong>vakwoorden</strong>: persuasief, opiniërend, prescriptief, narratief, informatief en literair. Je moet ze niet alleen herkennen maar ook zelf kunnen opschrijven, want een vraag kan er uitdrukkelijk naar vragen. En wat je uit een zin <strong>besluit</strong>, zeg je in je eigen woorden: dat is de kern van analyseren."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>persuasieve</strong> campagnetekst zoek je de <strong>oproep</strong> en de <strong>onderbouwing</strong>. <em>Slow down</em> wil dat je trager rijdt in de bebouwde kom; de zin <em>A child hit at 50 km/h is five times more likely to die than a child hit at 30 km/h</em> dient om die oproep <strong>te onderbouwen met een cijfer</strong>: het <strong>risico</strong> is vijf keer groter. En <em>Every second you save could cost a life</em> betekent dat elke seconde die je wint een leven kan kosten."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op dit platform oefen je lezen, woordenschat en grammatica. Maar <strong>luisteren</strong> is de helft van het examen Engels 1, en <strong>mondelinge interactie</strong> (30 %) en <strong>spreken</strong> (8 %) zijn samen <strong>38 %</strong> van Engels 2. Die drie leer je niet achter een scherm. Je leert ze door te luisteren naar mensen die echt Engels spreken, en door zelf je mond open te doen, ook als het hakkelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> kijk een aflevering van een Engelstalige reeks met Engelse ondertitels in plaats van Nederlandse, en schrijf achteraf in drie zinnen op waar ze over ging. Doe het één keer, en let daarna op wat je miste of niet gezegd kreeg. Dat is precies je volgende oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Het onderwerp zeg je in enkele woorden, de hoofdgedachte in een hele zin. Antwoord op een vraag naar de hoofdgedachte dus nooit met een los woord.",
+  "De hoofdpunten zijn de elementen die de hoofdgedachte ondersteunen.",
+  "Vind je de hoofdgedachte niet, lees dan de titel en de eerste en laatste zin opnieuw.",
+  "Wat je afleidt, moet volgen uit de tekst maar hoeft er niet letterlijk in te staan.",
+  "Unlike her sister betekent dat het voor de zus juist wél geldt.",
+  "Eén gerichte vraag bij een lange tekst: zoek naar de vorm die je nodig hebt, een dag, een datum, een prijs.",
+  "Je mag een online woordenboek gebruiken, maar je hebt niet de tijd om elk woord op te zoeken.",
+  "Ken je één woord niet en begrijp je de zin verder wel, dan leid je de betekenis af uit de rest van de zin.",
+  "Een tekst analyseren is niet hetzelfde als een tekst letterlijk vertalen.",
+  "Een oordeel is vaak gemengd. Zoek de woorden die het dragen: disappointing, cold coffee, very little choice.",
+  "Could not have been friendlier betekent heel vriendelijk, geen kritiek.",
+  "Elke alinea heeft meestal één eigen punt: een oorzaak geven, een tegenstelling maken, een voorbeeld geven.",
+  "But legt een tegenstelling binnen de zin.",
+  "Een hotelbeoordeling is opiniërend, een recept en een bijsluiter prescriptief, een lied, een gedicht en een kortverhaal literair, en een krantenartikel en een interview informatief.",
+  "Een tekst die wil overtuigen of beïnvloeden, heet persuasief."
+ ]
+}
