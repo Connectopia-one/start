@@ -8,7 +8,7 @@ import { Dagvraag } from "@/components/Dagvraag";
 import { Header } from "@/components/Header";
 import { getSessionProfile } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
-import { LEERJAARNIVEAUS, vindNiveau } from "@/lib/niveaus";
+import { LEERJAARNIVEAUS, NIVEAUS, vindNiveau } from "@/lib/niveaus";
 import {
   startUitleg,
   basisUitleg,
@@ -19,6 +19,15 @@ export default async function HomePage() {
   const basis = vindNiveau("basis")!;
   const hoekje = vindNiveau("hoekje")!;
   const session = await getSessionProfile();
+
+  /* Een categorie waar nog geen enkel hoofdstuk in staat, tonen we niet.
+     Boost en Beyond stonden hier als knop terwijl ze naar een lege pagina
+     leidden, en dat leest als een stukgelopen link. Zodra het eerste
+     hoofdstuk erin staat, komt de knop vanzelf terug; er is niets aan te
+     zetten. Hoofdstukken zijn publiek leesbaar, dus dit werkt ook voor een
+     bezoeker zonder account. Gaat de vraag mis, dan tonen we ze liever
+     allemaal dan geen enkele. */
+  const gevuld = await gevuldeNiveaus();
 
   /* Het bericht van Kim aan de ouders. Enkel voor wie ingelogd is: dit gaat
      over onze eigen gezinnen, niet over bezoekers. Zie supabase/berichten.sql. */
@@ -123,7 +132,7 @@ export default async function HomePage() {
         </p>
 
         <div className="mt-8 grid gap-4 sm:grid-cols-2">
-          {LEERJAARNIVEAUS.map((n) => (
+          {LEERJAARNIVEAUS.filter((n) => gevuld.has(n.slug)).map((n) => (
             <Link
               key={n.slug}
               href={`/niveaus/${n.slug}`}
@@ -229,4 +238,24 @@ export default async function HomePage() {
       </main>
     </>
   );
+}
+
+/**
+ * De categorieslugs waar minstens één hoofdstuk in staat.
+ *
+ * Bij een fout of een leeg antwoord geven we alle categorieën terug: een
+ * startpagina zonder enkele knop is erger dan een knop te veel.
+ */
+async function gevuldeNiveaus(): Promise<Set<string>> {
+  const alles = new Set(NIVEAUS.map((n) => n.slug));
+  try {
+    const supabase = await createClient();
+    const { data, error } = await supabase
+      .from("hoofdstukken")
+      .select("niveau");
+    if (error || !data || data.length === 0) return alles;
+    return new Set((data as { niveau: string }[]).map((h) => h.niveau));
+  } catch {
+    return alles;
+  }
 }
