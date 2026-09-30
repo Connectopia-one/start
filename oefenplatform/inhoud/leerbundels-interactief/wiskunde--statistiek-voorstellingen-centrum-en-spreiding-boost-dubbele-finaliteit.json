@@ -1,0 +1,118 @@
+{
+ "vak": "Wiskunde",
+ "titel": "Statistiek: voorstellingen, centrum en spreiding",
+ "onder": "Soorten gegevens, frequentietabellen en diagrammen, en de maten voor centrum en spreiding.",
+ "secties": [
+  {
+   "kop": "Soorten gegevens",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">numeriek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">getallen waarmee je kan rekenen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de lengte in centimeter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">categorisch, niet-geordend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">categorieën zonder volgorde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">haarkleur, gemeente, merk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">categorisch, geordend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">categorieën met een natuurlijke volgorde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zeer goed, goed, zwak</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Gegevens staan <strong>niet-gegroepeerd</strong> (elke losse waarde apart) of <strong>gegroepeerd</strong> in <strong>klassen</strong>. Bij veel verschillende waarden is groeperen overzichtelijker. Het <strong>klassenmidden</strong> is het gemiddelde van de twee grenzen: bij de klasse van 10 tot 20 is dat 15, bij 20 tot 30 is dat 25. Daarmee reken je verder als je de losse waarden niet meer hebt."
+    }
+   ]
+  },
+  {
+   "kop": "De frequentietabel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>absolute frequentie</strong> is hoeveel keer een waarde voorkomt. De <strong>relatieve frequentie</strong> is welk deel van het geheel dat is, meestal in procent: 10 fietsers op 25 leerlingen is 10/25 = <strong>40 %</strong>; 20 op 50 is ook 40 %. Alle relatieve frequenties samen geven <strong>100 %</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De voorstellingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Diagram</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarvoor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kenmerk</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">staafdiagram</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">categorieën vergelijken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de staven staan LOS van elkaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">histogram</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gegevens in klassen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de staven RAKEN elkaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cirkeldiagram</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het aandeel in één geheel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alles samen is 100 %</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lijndiagram</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een verloop in de tijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de lijn toont stijging of daling</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">boxplot</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spreiding in vijf getallen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kleinste, drie kwartielen, grootste</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dotplot</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elke meting apart</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één punt per meting boven haar waarde</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het verschil tussen een staafdiagram en een histogram zit in de ruimte tussen de staven: bij <strong>klassen</strong> sluiten de intervallen op elkaar aan, dus raken de staven elkaar. Bij losse categorieën niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>cirkeldiagram</strong> is niet geschikt voor een verloop in de tijd; daarvoor neem je een lijndiagram. En bij veel categorieën wordt een cirkeldiagram onleesbaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>dotplot</strong> zet elke meting als een punt boven haar waarde. Zo zie je meteen waar de waarden zich opstapelen en welke er ver vanaf liggen."
+    }
+   ]
+  },
+  {
+   "kop": "De vorm van een verdeling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een verdeling is <strong>symmetrisch</strong> als links en rechts van het midden ongeveer evenveel ligt, en <strong>scheef</strong> als dat niet zo is. Bij een <strong>rechtsscheve</strong> verdeling ligt het grootste deel links en loopt er een lange staart naar rechts. Zo zien lonen eruit: veel mensen rond een gewoon loon, enkelen met heel veel meer."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>uitschieter</strong> is een waarde die ver van de rest ligt. Ga altijd na of het een meetfout is of een echte waarneming. Toont een dotplot twee <strong>clusters</strong>, twee opstapelingen ver uit elkaar, dan zit er vaak een verborgen verschil achter: twee klassen samen, twee toestellen, twee meetdagen."
+    }
+   ]
+  },
+  {
+   "kop": "De centrummaten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Maat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe je ze vindt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rekenkundig gemiddelde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de som gedeeld door het aantal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4, 8, 10, 14 geeft 36 : 4 = 9</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mediaan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de middelste van de gerangschikte reeks</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3, 7, 8, 12, 20 geeft 8</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">modus</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de waarde die het vaakst voorkomt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2, 3, 3, 5, 9 geeft 3</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>even</strong> aantal waarden is de mediaan het gemiddelde van de twee middelste: bij 4, 6, 9 en 11 is dat 7,5."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een reeks kan <strong>twee modi</strong> hebben, als twee waarden even vaak én het vaakst voorkomen. En de modus is de enige centrummaat die ook bij <strong>categorische</strong> gegevens werkt: met haarkleuren kan je niet rekenen, maar je kan wel tellen welke het vaakst voorkomt."
+    },
+    {
+     "soort": "kader",
+     "html": "Het <strong>gemiddelde is gevoelig voor uitschieters</strong>, de mediaan niet. Bij lonen trekken een paar heel hoge bedragen het gemiddelde omhoog, terwijl de mediaan enkel kijkt wie in het midden staat. Alleen bij een symmetrische verdeling vallen de twee ongeveer samen."
+    }
+   ]
+  },
+  {
+   "kop": "De spreidingsmaten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het centrum alleen zegt te weinig. Twee klassen kunnen hetzelfde gemiddelde hebben terwijl de punten in de ene klas veel verder uit elkaar liggen. Daarvoor heb je een <strong>spreidingsmaat</strong> nodig."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Maat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Gevoelig voor uitschieters?</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">variatiebreedte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de grootste min de kleinste waarde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja, heel erg</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kwartielen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de waarden die een kwart, de helft en drie kwart onder zich laten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">interkwartielafstand</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het derde kwartiel min het eerste</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">standaardafwijking</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoe ver de waarden gemiddeld van het gemiddelde liggen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>eerste kwartiel</strong> laat een kwart van de gegevens onder zich, het <strong>tweede</strong> is de mediaan, het <strong>derde</strong> laat driekwart onder zich. De <strong>interkwartielafstand</strong> is de breedte van de <strong>doos van de boxplot</strong>, en die doos bevat precies de <strong>middelste helft</strong> van de gegevens. Omdat de uiterste waarden erbuiten vallen, is die maat ongevoelig voor één uitschieter, terwijl de variatiebreedte er meteen door opblaast."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>kleine standaardafwijking</strong> betekent dat de waarden dicht bij elkaar liggen. Heeft klas A bij hetzelfde gemiddelde een grotere standaardafwijking dan klas B, dan liggen in klas A de punten verder uit elkaar."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Numeriek is rekenbaar; categorisch is geordend (zeer goed, goed, zwak) of niet.",
+  "Klassenmidden is het gemiddelde van de twee klassengrenzen.",
+  "Absolute frequentie is het aantal, relatieve het aandeel; samen 100 %.",
+  "Staafdiagram: staven los. Histogram: staven raken elkaar.",
+  "Cirkeldiagram voor aandelen, lijndiagram voor verloop in de tijd.",
+  "Boxplot: kleinste, drie kwartielen, grootste. De doos is de middelste helft.",
+  "Gemiddelde is de som gedeeld door het aantal; mediaan is de middelste; modus komt het vaakst voor.",
+  "Bij een even aantal is de mediaan het gemiddelde van de twee middelste.",
+  "Het gemiddelde is gevoelig voor uitschieters, de mediaan niet.",
+  "Interkwartielafstand is Q3 min Q1 en is ongevoelig voor uitschieters.",
+  "De standaardafwijking meet hoe ver de waarden gemiddeld van het gemiddelde liggen."
+ ]
+}

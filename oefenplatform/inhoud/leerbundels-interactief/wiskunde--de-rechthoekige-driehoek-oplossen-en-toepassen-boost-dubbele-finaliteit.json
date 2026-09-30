@@ -1,0 +1,166 @@
+{
+ "vak": "Wiskunde",
+ "titel": "De rechthoekige driehoek oplossen en toepassen",
+ "onder": "Zijden en hoeken berekenen met sinus, cosinus en tangens, en die toepassen op kijkhoeken en hellingen.",
+ "secties": [
+  {
+   "kop": "Welke zijde is welke?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>schuine zijde</strong> (de hypotenusa) ligt tegenover de rechte hoek en is altijd de langste zijde. De twee andere heten <strong>rechthoekszijden</strong>. Welke van die twee de overstaande en welke de aanliggende is, hangt af van de hoek waar je naar kijkt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Zijde</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe je ze herkent bij hoek A</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schuine zijde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ligt tegenover de rechte hoek, en dus nooit tegenover A</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">overstaande zijde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de rechthoekszijde die tegenover A ligt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aanliggende zijde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de rechthoekszijde die tegen A aan ligt</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Twee zijden raken hoek A: de schuine zijde en een rechthoekszijde. Met <strong>aanliggende zijde</strong> bedoelen we altijd die rechthoekszijde. Kijk je naar de andere scherpe hoek, dan wisselen overstaande en aanliggende van plaats."
+    },
+    {
+     "soort": "tekst",
+     "html": "De drie verhoudingen hangen enkel van de <strong>hoek</strong> af, niet van hoe groot je de driehoek tekent. Twee driehoeken met dezelfde hoeken zijn immers <strong>gelijkvormig</strong>: alle zijden worden met dezelfde factor vermenigvuldigd, en die factor valt in de breuk weg."
+    }
+   ]
+  },
+  {
+   "kop": "De drie verhoudingen in cijfers",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Neem de driehoek met zijden 3, 4 en 5, en kijk naar de hoek tegenover de zijde 3. Dan is de overstaande zijde 3, de aanliggende 4 en de schuine 5."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verhouding</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Breuk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitkomst</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sinus</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">overstaande op schuine, dus 3 op 5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,6</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cosinus</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aanliggende op schuine, dus 4 op 5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,8</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tangens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">overstaande op aanliggende, dus 3 op 4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,75</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de sinus en de cosinus deel je door de schuine zijde, en die is altijd de langste. Een <strong>sinus van een scherpe hoek is dus altijd kleiner dan 1</strong>. Bij de tangens komt de schuine zijde niet voor, en daarom <strong>kan een tangens wél groter zijn dan 1</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een hoek van <strong>45 graden</strong> zijn de twee rechthoekszijden even lang, dus zijn de sinus en de cosinus daar aan elkaar gelijk en is de tangens precies 1."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een goniometrisch getal van een scherpe hoek is nooit negatief: je deelt twee lengtes door elkaar, en een lengte is altijd positief."
+    }
+   ]
+  },
+  {
+   "kop": "Een zijde zoeken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Kies de verhouding waarin de zijde die je kent én de zijde die je zoekt allebei voorkomen. Dan blijft er één onbekende over."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Je kent</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Je zoekt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Je rekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoek en schuine zijde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">overstaande zijde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sinus maal schuine zijde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoek en schuine zijde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aanliggende zijde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cosinus maal schuine zijde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoek en aanliggende zijde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">overstaande zijde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tangens maal aanliggende zijde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoek en aanliggende zijde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schuine zijde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aanliggende zijde gedeeld door de cosinus</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Voorbeeld.</strong> Een ladder van 6 meter staat onder 60 graden met de grond. De hoogte die hij bereikt is de overstaande zijde: 6 maal de sinus van 60 graden, ongeveer <strong>5,20 meter</strong>. De afstand van zijn voet tot de muur is de aanliggende zijde: 6 maal de cosinus van 60 graden, en dat is 6 maal 0,5, dus precies <strong>3 meter</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Nog een.</strong> De sinus van een hoek is 0,5 en de schuine zijde is 10. De overstaande zijde is dan 0,5 maal 10, dus 5."
+    }
+   ]
+  },
+  {
+   "kop": "Een hoek zoeken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Ken je twee zijden, dan reken je eerst hun verhouding uit en gebruik je daarna de <strong>inverse</strong> van het bijbehorende goniometrische getal op je rekentoestel."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Je kent</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Je deelt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Je gebruikt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">overstaande en schuine zijde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">overstaande op schuine</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de inverse sinus</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aanliggende en schuine zijde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aanliggende op schuine</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de inverse cosinus</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de twee rechthoekszijden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">overstaande op aanliggende</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de inverse tangens</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Ken je één goniometrisch getal, dan haal je het andere uit de <strong>grondformule</strong>: sinus in het kwadraat plus cosinus in het kwadraat is 1. Is de cosinus 0,96, dan is de sinus in het kwadraat gelijk aan 1 min 0,9216, dus 0,0784, en de sinus zelf <strong>0,28</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De derde hoek vind je zonder te rekenen met verhoudingen: alle hoeken samen zijn 180 graden en de rechte hoek neemt er al 90 in. De twee scherpe hoeken zijn dus <strong>samen 90 graden</strong>. Bij een scherpe hoek van 30 graden is de andere dus 60 graden."
+    },
+    {
+     "soort": "kader",
+     "html": "Krijg je voor een scherpe hoek een uitkomst van 91 graden, dan zit er een fout in je berekening. In een rechthoekige driehoek blijft elke scherpe hoek onder 90 graden."
+    }
+   ]
+  },
+  {
+   "kop": "De driehoek oplossen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een rechthoekige driehoek <strong>oplossen</strong> betekent: alle zijden en alle hoeken ervan berekenen. Daarvoor heb je twee gegevens nodig naast de rechte hoek: twee zijden, of één zijde en één scherpe hoek. Met <strong>één zijde alleen lukt het niet</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Drie gewoontes die veel fouten voorkomen:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Gewoonte</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarom</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eerst een schets maken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dan zie je welke zijde overstaand en welke aanliggend is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je rekentoestel op graden zetten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">anders klopt je uitkomst niet terwijl je redenering wel juist is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pas op het einde afronden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elke afronding onderweg stapelt zich op in je eindantwoord</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Toont je toestel 5,1962 en moet je antwoord in centimeters nauwkeurig, rond dan dáár af, niet bij elke tussenstap."
+    }
+   ]
+  },
+  {
+   "kop": "Kijkhoek, hoogte en helling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Hier komt de leerstof in de echte wereld terecht. Twee situaties komen steeds terug."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De hoogte uit een kijkhoek.</strong> Je staat op een afstand van iets hoogs en kijkt onder een hoek naar de top. Je afstand is de aanliggende zijde en de hoogte is de overstaande, dus je gebruikt de <strong>tangens</strong>. Sta je 20 meter van een gebouw en kijk je onder 35 graden, dan is 20 maal de tangens van 35 graden ongeveer 14,0 meter. Zit je oog op 1,6 meter hoogte, dan is het gebouw <strong>15,6 meter</strong> hoog: je ooghoogte komt erbij."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het hoogteverschil uit een hellingshoek.</strong> De lengte van het pad is de schuine zijde en de gewonnen hoogte is de overstaande, dus je gebruikt de <strong>sinus</strong>. Een bergpad van 500 meter onder 12 graden geeft 500 maal de sinus van 12 graden, ongeveer <strong>104 meter</strong> hoogte. Hoe steiler de helling, hoe groter die sinus."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Situatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je kent</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je gebruikt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoogte van een boom of gebouw</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">afstand en kijkhoek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tangens</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoogte van een vlieger</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">touwlengte en hoek met de grond</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sinus</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoogte uit een schaduw</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schaduwlengte en zonnehoogte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tangens</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoogteverschil van een pad</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">padlengte en hellingshoek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sinus</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een vlieger aan 40 meter touw onder 55 graden hangt 40 maal de sinus van 55 graden hoog, ongeveer 32,8 meter. Een mast met een schaduw van 12 meter bij een zonnehoogte van 40 graden is 12 maal de tangens van 40 graden hoog, ongeveer 10,1 meter."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>hellingspercentage</strong> is de tangens van de hellingshoek, uitgedrukt in procent. Acht procent betekent dat je <strong>8 meter stijgt over 100 meter horizontaal</strong>. Dat is niet hetzelfde als acht graden: acht procent komt overeen met ongeveer 4,6 graden. Honderd procent is wél precies 45 graden, want daar is de tangens 1. Een helling van 25 procent komt overeen met ongeveer 14 graden."
+    },
+    {
+     "soort": "kader",
+     "html": "Een oprit die hoogstens 5 procent mag hellen, stijgt 5 centimeter per meter. Om 30 centimeter te overbruggen heb je dus minstens <strong>6 meter</strong> nodig."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Overstaande en aanliggende hangen af van de hoek waar je naar kijkt; de schuine zijde niet.",
+  "De verhoudingen hangen enkel van de hoek af, want driehoeken met dezelfde hoeken zijn gelijkvormig.",
+  "Een sinus van een scherpe hoek blijft onder 1; een tangens kan erboven.",
+  "Overstaande = sinus × schuine; overstaande = tangens × aanliggende; schuine = aanliggende ÷ cosinus.",
+  "Twee zijden gekend? Deel ze en neem de inverse sinus, cosinus of tangens.",
+  "Grondformule: sin²α + cos²α = 1. Uit cosinus 0,96 volgt sinus 0,28.",
+  "De twee scherpe hoeken van een rechthoekige driehoek zijn samen 90 graden.",
+  "Oplossen betekent alle zijden en hoeken berekenen; met één zijde alleen kan dat niet.",
+  "Hoogte uit afstand en kijkhoek: tangens. Hoogte uit padlengte en hellingshoek: sinus.",
+  "Een hellingspercentage is de tangens in procent: 8 % is 8 meter op 100 meter horizontaal, niet 8 graden.",
+  "Schets eerst, zet je toestel op graden, en rond pas op het einde af."
+ ]
+}

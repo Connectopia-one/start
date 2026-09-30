@@ -1,0 +1,153 @@
+{
+ "vak": "Wiskunde",
+ "titel": "Reële getallen, wortels en machten",
+ "onder": "De getallenverzamelingen, rationaal tegenover irrationaal, rekenen met wortels en de rekenregels voor machten.",
+ "secties": [
+  {
+   "kop": "De getallenverzamelingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De getallen zitten in elkaar als een reeks dozen. Elke doos bevat de vorige helemaal."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verzameling</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Teken</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat er nieuw bij komt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">natuurlijke getallen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ℕ</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tellen vanaf 0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0, 1, 2, 3</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gehele getallen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ℤ</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de negatieve getallen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">min 7, min 1</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rationale getallen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ℚ</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alles wat je als breuk kan schrijven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3/4, 0,125, min 2/5</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">reële getallen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ℝ</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de getallen die géén breuk zijn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√2, π</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Elk natuurlijk getal is dus ook een geheel getal, elk geheel getal ook rationaal, en elk rationaal getal ook reëel. Omgekeerd geldt dat niet. Het getal <strong>min 7</strong> hoort bij de gehele getallen maar niet bij de natuurlijke: dat is de eerste doos waarin het past."
+    }
+   ]
+  },
+  {
+   "kop": "Rationaal of irrationaal",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>rationaal</strong> getal kan je schrijven als een breuk van twee gehele getallen. In decimale vorm is ze <strong>eindig</strong> (0,125) of <strong>repeterend</strong>, dus met een stukje dat zich eindeloos herhaalt (0,333… of 0,142857142857…). Allebei die vormen betekenen: het is een breuk."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>irrationaal</strong> getal heeft een decimale vorm die <strong>oneindig én niet-repeterend</strong> is: ze stopt nooit en herhaalt nooit een patroon. Je kan het dus niet als breuk van twee gehele getallen schrijven. √2, √3, √5 en π zijn zo. En dáárom volstaan de rationale getallen niet om de getallenas te vullen: er blijven gaten open, en juist daar liggen de irrationale getallen."
+    },
+    {
+     "soort": "weetje",
+     "html": "√9 is géén irrationaal getal: dat is gewoon 3. Enkel een wortel die niet mooi uitkomt, is irrationaal."
+    },
+    {
+     "soort": "tekst",
+     "html": "Over <strong>π</strong>: het is irrationaal, dus 22/7 en 3,14 zijn benaderingen en niet de echte waarde. De decimalen van π zijn tot vandaag nooit in herhaling gevallen."
+    }
+   ]
+  },
+  {
+   "kop": "Breuk, kommagetal en procent",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Dezelfde waarde in drie kleren. Van breuk naar kommagetal deel je de teller door de noemer; van kommagetal naar procent vermenigvuldig je met 100."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Breuk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kommagetal</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Procent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1/2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">50 %</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2/5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">40 %</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3/5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,6</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">60 %</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3/4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,75</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">75 %</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3/8</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,375</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">37,5 %</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1/8</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,125</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">12,5 %</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Omgekeerd: 0,75 is 75/100, en dat vereenvoudig je door teller en noemer door 25 te delen tot 3/4. 0,4 is 4/10, gedeeld door 2 wordt dat 2/5."
+    }
+   ]
+  },
+  {
+   "kop": "Wortels",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>vierkantswortel</strong> van a is het positieve getal dat in het kwadraat a geeft. De <strong>derdemachtswortel</strong> van a is het getal dat tot de derde macht a geeft: de derdemachtswortel van 27 is 3, van 64 is 4, van 125 is 5."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Vereenvoudigen</strong> doe je door het grootste volkomen kwadraat uit de wortel te halen:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wortel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Splitsen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vereenvoudigd</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√18</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√(9 · 2)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3√2</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√50</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√(25 · 2)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5√2</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√72</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√(36 · 2)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6√2</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De regel erachter: <strong>de wortel van een product is het product van de wortels</strong>. Daarom is √3 · √12 gelijk aan √36, dus 6, en √5 · √20 gelijk aan √100, dus 10."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>De wortel van een som is níét de som van de wortels.</strong> √(9 + 16) is √25 en dus 5, niet 3 + 4 = 7. Reken de som eerst uit en trek daarna pas de wortel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je kan wortels wel <strong>optellen</strong> als ze precies dezelfde wortel zijn, net als gelijksoortige termen: √3 + √3 is 2√3."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een noemer <strong>wortelvrij maken</strong> doe je door teller en noemer met diezelfde wortel te vermenigvuldigen. 1/√5 wordt zo √5/5."
+    },
+    {
+     "soort": "tekst",
+     "html": "Let op met √(a²) als a negatief is: dat is niet a maar <strong>min a</strong>, want een wortel is nooit negatief. In het algemeen is √(a²) gelijk aan de absolute waarde van a."
+    }
+   ]
+  },
+  {
+   "kop": "Machten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Regel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">In symbolen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zelfde grondtal, vermenigvuldigen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aᵐ · aⁿ = aᵐ⁺ⁿ</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a⁴ · a³ = a⁷</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zelfde grondtal, delen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aᵐ : aⁿ = aᵐ⁻ⁿ</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a⁶ : a² = a⁴</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">macht van een macht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(aᵐ)ⁿ = aᵐ·ⁿ</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(a³)² = a⁶</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">macht van een product</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(ab)ⁿ = aⁿbⁿ</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(2a)³ = 8a³</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">exponent nul</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a⁰ = 1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5⁰ = 1</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">negatieve exponent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a⁻ⁿ = 1/aⁿ</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2⁻³ = 1/8, 3⁻² = 1/9</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij vermenigvuldigen <strong>tel je de exponenten op</strong>, je vermenigvuldigt ze niet. Dat is de fout die het vaakst gemaakt wordt. Bij een <strong>macht van een macht</strong> vermenigvuldig je ze wél."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij (2a)³ krijgt élke factor de exponent: 2³ · a³, dus 8a³. Vergeet het getal vooraan niet."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een <strong>negatieve exponent</strong> maakt van de macht een breuk met 1 in de teller. Het getal zelf wordt daar niet negatief van: 2⁻³ is 1/8, een positief getal."
+    }
+   ]
+  },
+  {
+   "kop": "Rekeneigenschappen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Drie namen die je moet kunnen herkennen:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze zegt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">commutativiteit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de volgorde mag wisselen (commutatief)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3 + 5 = 5 + 3</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">associativiteit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de haakjes mogen verschuiven (associatief)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(2 + 8) + 5 = 2 + (8 + 5)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">distributiviteit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de factor wordt over de som verdeeld (distributief)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3 · (20 + 7) = 3 · 20 + 3 · 7</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De distributieve eigenschap is degene die je later bij het uitwerken van haakjes en bij het ontbinden in factoren voortdurend gebruikt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Sommige berekeningen kunnen <strong>enkel in de reële getallen</strong>: de wortel van 2 bestaat niet als breuk en dus niet in ℚ. De wortel van een negatief getal bestaat zelfs in ℝ niet."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "ℕ zit in ℤ, ℤ in ℚ, ℚ in ℝ; omgekeerd geldt het niet.",
+  "Rationaal: de decimale vorm stopt of herhaalt zich. Irrationaal: geen van beide.",
+  "√9 is 3, dus rationaal. √2, √3 en π zijn irrationaal.",
+  "√a · √b = √(ab), maar √(a + b) is NIET √a + √b.",
+  "√3 + √3 = 2√3: gelijke wortels mag je optellen.",
+  "1/√5 wortelvrij maken: teller en noemer maal √5, dus √5/5.",
+  "aᵐ · aⁿ = aᵐ⁺ⁿ (optellen), (aᵐ)ⁿ = aᵐⁿ (vermenigvuldigen).",
+  "a⁰ = 1 en a⁻ⁿ = 1/aⁿ.",
+  "(2a)³ = 8a³: elke factor krijgt de exponent.",
+  "Commutatief is volgorde, associatief is haakjes verschuiven, distributief is uitdelen."
+ ]
+}

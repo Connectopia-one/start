@@ -1,0 +1,155 @@
+{
+ "vak": "Wiskunde",
+ "titel": "Misleiding met cijfers en grafieken",
+ "onder": "Assen, schaal en vorm, wat er weggelaten wordt, percentages en procentpunt, en welk middelpunt iemand kiest.",
+ "secties": [
+  {
+   "kop": "Kijk eerst naar de assen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De meeste misleiding met grafieken zit in de <strong>assen</strong>. Daar kijk je dus als eerste, nog voor je naar de staven of de lijn kijkt. Zeker bij een grafiek die je op sociale media tegenkomt, zonder de cijfers erbij."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>verticale as</strong> van een staafdiagram hoort in principe <strong>bij nul te beginnen</strong>. De hoogte van een staaf stelt de grootte voor, dus knip je het onderste stuk weg, dan klopt de verhouding tussen de staven niet meer. Begint de as bij 90, dan lijken kleine verschillen veel groter dan ze zijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een as kan ook <strong>foutief geijkt</strong> zijn. Loopt ze van 0 naar 10 naar 100 naar 1000 met gelijke tussenafstanden, dan staan gelijke afstanden niet voor gelijke verschillen. Of er worden stukken <strong>overgeslagen</strong>: slaat een tijdas de jaren 2019 en 2020 over, dan loopt de lijn vlakker of steiler dan het verloop echt was. Ontbrekende stukken hoor je te tonen, bijvoorbeeld met een breukteken."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ten slotte kan een grafiek <strong>ongepast geschaald</strong> zijn. Dat merk je goed bij een <strong>lijndiagram</strong>: dezelfde cijfers in een smalle grafiek geven een veel dramatischer beeld dan in een brede: de lijn lijkt steiler en de verandering heftiger. Twee grafieken naast elkaar met een verschillende schaal mag je daarom niet zomaar met elkaar vergelijken; kijk eerst naar hun assen."
+    },
+    {
+     "soort": "kader",
+     "html": "Een as die niet bij nul begint, is niet altijd bedrog. Bij lichaamstemperatuur of bij beurskoersen is inzoomen zinvol. Het moet dan wel <strong>duidelijk aangegeven</strong> staan."
+    }
+   ]
+  },
+  {
+   "kop": "De vorm van het beeld",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Ook zonder aan de assen te raken kan een beeld je oog sturen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Ingreep</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat er gebeurt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een cirkeldiagram in drie dimensies</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de sectoren vooraan krijgen meer oppervlakte en lijken groter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een plaatje twee keer zo breed én zo hoog</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de oppervlakte wordt vier keer zo groot bij een verdubbeling</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">staven die niet even breed zijn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de bredere staven trekken meer aandacht dan hun waarde verdient</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een verdubbeling tonen met een plaatje dat vier keer zo veel plaats inneemt, heet <strong>uitvergroten</strong>; die ingreep heet een <strong>uitvergroting</strong>. In een staafdiagram hoort enkel de <strong>hoogte</strong> iets te betekenen; verschil in breedte voegt een tweede signaal toe dat er niet is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een cirkeldiagram toont delen van <strong>één</strong> geheel: alle sectoren horen bij dezelfde groep en dezelfde periode. Zet iemand er een stuk bij dat van elders komt, dan stelt de cirkel niets meer voor."
+    },
+    {
+     "soort": "tekst",
+     "html": "Verder hoort een grafiek een <strong>titel</strong>, <strong>namen bij de assen</strong>, een <strong>legende</strong> bij meerdere reeksen en een <strong>bron</strong> te hebben. Een legende legt uit waar elke kleur of elk symbool voor staat. Zonder namen weet je niet wat er gemeten is of in welke eenheid; zonder legende niet welke lijn bij welke groep hoort; zonder bron kan je niet nagaan of de cijfers kloppen. Let er ook op of de onderdelen <strong>correct benoemd</strong> zijn: zet iemand 'omzet' naast 'winst' in hetzelfde diagram, dan vergelijkt hij twee verschillende grootheden, en omzet is altijd groter dan winst."
+    }
+   ]
+  },
+  {
+   "kop": "Wat er níét staat",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een van de sterkste manieren om te misleiden is <strong>informatie of data weglaten</strong>. Wat je niet toont, kan de lezer ook niet wegen. Toont een grafiek enkel de vier beste maanden van het jaar, dan klopt elk getal en klopt het verhaal toch niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Hetzelfde geldt voor een aantal zonder het <strong>totaal</strong> erbij. Een stijging van 2 naar 4 zegt iets heel anders bij een groep van 10 mensen dan bij een groep van 10 000. Vraag dus altijd welke periode, welke groep of welk totaal ontbreekt."
+    }
+   ]
+  },
+  {
+   "kop": "Percentages, en het verschil met procentpunt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Hier worden de meeste fouten gemaakt, en niet altijd met opzet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Woord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het meet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Van 4 % naar 6 %</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">procentpunt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het gewone verschil tussen twee percentages</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2 procentpunt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">procent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de verandering ten opzichte van het startgetal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">50 procent</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Van 4 naar 6 procent is er 2 procentpunt bij gekomen. Maar ten opzichte van de 4 waar je van vertrok, is dat de helft meer, dus een <strong>relatieve</strong> stijging van 50 procent. Wie de twee woorden verwisselt, maakt een cijfer veel groter of kleiner dan het is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee kortingen na elkaar mag je <strong>niet</strong> optellen. Een jas van 100 euro met eerst 20 procent en dan nog eens 10 procent korting kost 80 euro en daarna 72 euro: dat is samen <strong>28</strong> procent korting, niet 30. Om dezelfde reden brengt een prijs die eerst 10 procent stijgt en daarna 10 procent daalt je niet terug bij het begin: 100 wordt 110, en 10 procent van 110 is 11, dus je eindigt op 99."
+    },
+    {
+     "soort": "tekst",
+     "html": "Let ook op de woorden rond het getal. <strong>'Tot 70 procent korting'</strong> zet enkel een bovengrens: misschien haalt één artikel die korting en de rest veel minder. Een winst die <strong>'met 200 procent groeide'</strong> is verdrievoudigd, want er kwam twee keer het oorspronkelijke bedrag bij. En bij <strong>'het risico verdubbelt'</strong> wil je vooral weten hoe groot dat risico eerst was: van 1 op een miljoen naar 2 op een miljoen is ook een verdubbeling."
+    },
+    {
+     "soort": "kader",
+     "html": "Een percentage zonder het aantal waarop het slaat, zegt weinig. Honderd procent van twee mensen klinkt indrukwekkend en stelt niets voor."
+    }
+   ]
+  },
+  {
+   "kop": "Welk middelpunt toont iemand?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>rekenkundig gemiddelde</strong> telt elk getal mee met zijn volle grootte, dus één uitschieter trekt het ver weg. De <strong>mediaan</strong> is gewoon het middelste getal van de reeks op volgorde, en die verschuift daar nauwelijks door. Bij een even aantal getallen neem je het gemiddelde van de twee middelste."
+    },
+    {
+     "soort": "tekst",
+     "html": "Neem een bedrijf waar vier mensen 2000 euro verdienen en één persoon 12 000 euro."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Maat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Berekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitkomst</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rekenkundig gemiddelde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20 000 euro gedeeld door 5 mensen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4000 euro</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mediaan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het derde getal van 2000, 2000, 2000, 2000, 12 000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2000 euro</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Adverteert dat bedrijf met <em>bij ons verdien je gemiddeld 4000 euro</em>, dan klopt het getal en beschrijft het niemand: vier van de vijf werknemers verdienen veel minder. Allebei de getallen zijn juist. Wie de lonen hoog wil laten lijken, toont het gemiddelde; wie ze laag wil laten lijken, de mediaan. <strong>Wie kiest welk getal hij toont, stuurt daarmee het verhaal.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "Wie zegt het, en aan wie is het gevraagd?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij elk cijfer horen twee vragen die niets met rekenen te maken hebben."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Aan wie is het gevraagd?</strong> Wie je bevraagt, bepaalt je antwoord. Een enquête over sportgewoontes die enkel aan de ingang van een fitnesszaal wordt afgenomen, levert een groep op die per definitie meer sport dan gemiddeld; die groep is niet <strong>representatief</strong>. Bij <em>negen op de tien tandartsen raden dit aan</em> wil je weten hoeveel tandartsen er gevraagd zijn, en wie de vraag gesteld heeft."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Wie brengt het naar buiten?</strong> Wie belang heeft bij een uitkomst, kan de voorstelling kleuren. De cijfers zelf kunnen perfect kloppen terwijl de keuze van de grafiek, van de periode of van het middelpunt het verhaal stuurt."
+    },
+    {
+     "soort": "kader",
+     "html": "Bijna alle misleiding met cijfers gebeurt met <strong>kloppende getallen</strong>. Een cijfer dat helemaal juist is, kan dus best een verkeerde indruk geven."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Kijk bij elke grafiek eerst naar de assen: waar begint de schaal en is ze gelijkmatig geijkt?",
+  "Een staafdiagram hoort bij nul te beginnen; anders lijken kleine verschillen groot.",
+  "Een smalle grafiek maakt dezelfde verandering dramatischer: dat is ongepast schalen.",
+  "Twee keer zo breed én zo hoog is vier keer zo veel oppervlakte: uitvergroten.",
+  "In drie dimensies lijken de sectoren vooraan groter dan ze zijn.",
+  "Titel, namen bij de assen, legende en bron horen erbij.",
+  "Wat weggelaten is, kan je niet wegen: vraag welke periode of welke groep ontbreekt.",
+  "Procentpunt is het verschil tussen twee percentages, procent de verandering ten opzichte van het begin.",
+  "Twee kortingen na elkaar tel je niet op: 20 % en dan 10 % is samen 28 %.",
+  "Met 200 procent groeien is verdrievoudigen, niet verdubbelen.",
+  "Eén uitschieter trekt het gemiddelde weg; de mediaan blijft het middelste getal.",
+  "Een cijfer dat klopt, kan toch een verkeerde indruk geven."
+ ]
+}

@@ -1,0 +1,163 @@
+{
+ "vak": "Wiskunde",
+ "titel": "Stelsels van twee eerstegraadsvergelijkingen",
+ "onder": "Substitutie, gelijkstelling en combinatie, de koppelvoorstelling, het strijdige stelsel, en wat je op de grafiek ziet.",
+ "secties": [
+  {
+   "kop": "Wat is een stelsel?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>stelsel</strong> van twee eerstegraadsvergelijkingen met twee onbekenden zijn twee vergelijkingen die <strong>tegelijk</strong> moeten kloppen. Je zoekt dus niet eerst de ene op en dan de andere, maar de waarden van x en y waarvoor allebei kloppen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>algemene vorm</strong> van één zo'n vergelijking is <em>ax + by = c</em>. De onbekenden staan in de eerste graad, elk met hun eigen <strong>coëfficiënt</strong> ervoor, en rechts staat een getal."
+    },
+    {
+     "soort": "kader",
+     "html": "Eén vergelijking met twee onbekenden kan je niet oplossen. Aan x + y = 5 voldoen oneindig veel koppels: (0, 5), (1, 4), (2, 3) … Pas een tweede voorwaarde kiest er één uit."
+    }
+   ]
+  },
+  {
+   "kop": "De oplossing is een koppel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De oplossingenverzameling schrijf je met een <strong>koppelvoorstelling</strong>: één koppel getallen tussen haakjes, met de <strong>x altijd eerst</strong> en de y tweede. Het koppel (2, 3) betekent dus dat x gelijk is aan 2 en y aan 3. Daarom zijn (1, 2) en (2, 1) niet dezelfde oplossing: de volgorde ligt vast."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Controleer altijd in allebei de vergelijkingen.</strong> Neem het stelsel x + y = 5 en x − y = 3, en het koppel (4, 1). Dan is 4 plus 1 gelijk aan 5, en 4 min 1 gelijk aan 3. Allebei kloppen, dus (4, 1) is de oplossing."
+    },
+    {
+     "soort": "tekst",
+     "html": "Invullen kost weinig tijd en vangt de meeste rekenfouten. Klopt je koppel maar in één van de twee vergelijkingen, dan is het geen oplossing van het stelsel."
+    }
+   ]
+  },
+  {
+   "kop": "Substitutie: invullen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij de <strong>substitutiemethode</strong> schrijf je uit één vergelijking één onbekende alleen, en die uitdrukking vul je in de andere vergelijking in. Substitueren betekent letterlijk vervangen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Neem y = 2x en x + y = 9. Vul y is 2x in de tweede vergelijking in: x plus 2x is 3x, en 3x is 9, dus <strong>x is 3</strong>. Dan is y gelijk aan 6, en de oplossing is het koppel (3, 6)."
+    },
+    {
+     "soort": "tekst",
+     "html": "Staat er nergens een onbekende alleen, dan maak je er zelf een vrij. Uit 2x + y = 7 haal je y = 7 − 2x: je brengt 2x naar de andere kant, en wat je links aftrekt, trek je ook rechts af. Je kiest zelf welke onbekende je uitschrijft; neem er bij voorkeur een met coëfficiënt 1."
+    },
+    {
+     "soort": "tekst",
+     "html": "Staat er al een onbekende vast, dan is het nog korter. Bij x = 5 en 2x + y = 13 vul je 5 in: 2 maal 5 is 10, en 10 plus y is 13, dus y is 3."
+    }
+   ]
+  },
+  {
+   "kop": "Gelijkstelling: twee keer hetzelfde",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij de <strong>gelijkstellingsmethode</strong> schrijf je in allebei de vergelijkingen dezelfde onbekende uit, en dan stel je die twee uitdrukkingen aan elkaar gelijk. Staat er twee keer <em>y is iets</em>, dan moeten die twee uitdrukkingen wel even groot zijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "Neem y = x + 1 en y = 3x − 5. Dan is x plus 1 gelijk aan 3x min 5, dus 6 is 2x en <strong>x is 3</strong>. Vul in: y is 4. De oplossing is het koppel (3, 4)."
+    }
+   ]
+  },
+  {
+   "kop": "Combinatie: iets laten wegvallen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij de <strong>combinatiemethode</strong> tel je de twee vergelijkingen op of trek je ze van elkaar af, zo dat één onbekende wegvalt. Daarvoor moet die onbekende in beide vergelijkingen dezelfde coëfficiënt hebben. Is dat niet zo, dan mag je een vergelijking langs beide kanten met hetzelfde getal vermenigvuldigen; ze blijft dan gelijkwaardig."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stelsel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je vindt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x + y = 10 en x − y = 4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">optellen, de y valt weg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2x is 14, dus x is 7 en y is 3</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2x + y = 8 en 2x − y = 4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aftrekken, de x valt weg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2y is 4, dus y is 2 en x is 3</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Welke methode je kiest, hangt af van hoe het stelsel eruitziet. Staat er ergens al een onbekende alleen, dan is <strong>substitutie</strong> het snelst. Heeft een onbekende in allebei de vergelijkingen dezelfde coëfficiënt, dan valt ze met <strong>combinatie</strong> in één stap weg."
+    }
+   ]
+  },
+  {
+   "kop": "Drie soorten stelsels",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Niet elk stelsel heeft precies één oplossing. Er zijn er drie soorten, en je herkent ze aan wat er overblijft als je alles hebt weggewerkt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je uitkomt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Oplossingenverzameling</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bepaald</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één waarde voor x en één voor y</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één koppel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">strijdig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets als 0 = 7, wat nooit klopt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de lege verzameling</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onbepaald</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0 = 0, een ware uitspraak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oneindig veel koppels</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>strijdig</strong> stelsel heeft geen enkele oplossing: de twee vergelijkingen spreken elkaar tegen. Bij x + y = 5 en x + y = 8 kan dezelfde som niet tegelijk 5 en 8 zijn. Werk je het uit, dan krijg je 0 is 3, en dat klopt nooit."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>onbepaald</strong> stelsel heeft er oneindig veel. Bij x + y = 5 en 2x + 2y = 10 is de tweede vergelijking gewoon de eerste maal twee. Ze zeggen hetzelfde, dus elk koppel dat aan de eerste voldoet, voldoet ook aan de tweede."
+    }
+   ]
+  },
+  {
+   "kop": "Wat je op de grafiek ziet",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Elke vergelijking van het stelsel is de vergelijking van een <strong>rechte</strong>. De oplossing van het stelsel zijn de punten die de twee rechten gemeen hebben. Daarom kan je een stelsel ook grafisch oplossen: teken de twee rechten en lees het <strong>snijpunt</strong> af."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Op de grafiek</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Het stelsel</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee snijdende rechten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bepaald: precies één oplossing</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee evenwijdige rechten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">strijdig: geen enkele oplossing</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee samenvallende rechten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onbepaald: oneindig veel oplossingen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee rechten met dezelfde richtingscoëfficiënt maar een ander snijpunt met de y-as zijn <strong>evenwijdig</strong>. Ze blijven even ver van elkaar en snijden elkaar nergens, dus dat stelsel is strijdig."
+    },
+    {
+     "soort": "kader",
+     "html": "Tekenen geeft een goede schatting van het snijpunt, maar niet altijd een exact antwoord. Reken je grafisch gevonden koppel dus na, of laat de grafiek tekenen wanneer de getallen lastig zijn."
+    }
+   ]
+  },
+  {
+   "kop": "Vraagstukken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Schrijf altijd eerst op <strong>wat x en wat y voorstelt</strong>. Zonder die afspraak weet je achteraf niet wat je uitkomst betekent, en kan niemand je oplossing volgen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het aantal stuks komt vóór de onbekende. Kosten twee kaarten en drie broodjes samen 13 euro, met k de prijs van een kaart en b die van een broodje, dan is dat <strong>2k + 3b = 13</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vraagstuk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Het stelsel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">De oplossing</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee broodjes en een soep kosten 9 euro, een broodje en een soep 6 euro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2b + s = 9 en b + s = 6</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aftrekken geeft b is 3 euro, dus s is 3 euro</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een klas van 25 telt 7 jongens meer dan meisjes</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">j + m = 25 en j − m = 7</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">optellen geeft 2j is 32, dus 16 jongens en 9 meisjes</td></tr></table>"
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een stelsel is twee vergelijkingen die tegelijk moeten kloppen; de algemene vorm is ax + by = c.",
+  "De oplossing is een koppel (x, y): x eerst, y tweede, dus (1, 2) is niet (2, 1).",
+  "Controleer je koppel altijd in allebei de vergelijkingen.",
+  "Substitutie: schrijf één onbekende uit en vul ze in de andere vergelijking in.",
+  "Gelijkstelling: schrijf in allebei dezelfde onbekende uit en stel de uitdrukkingen gelijk.",
+  "Combinatie: tel op of trek af zodat een onbekende wegvalt; vermenigvuldigen mag, langs beide kanten.",
+  "0 = 7 betekent strijdig, en de oplossingenverzameling is de lege verzameling.",
+  "0 = 0 betekent onbepaald: oneindig veel oplossingen.",
+  "Snijdende rechten: één oplossing. Evenwijdig: strijdig. Samenvallend: oneindig veel.",
+  "Schrijf bij een vraagstuk eerst op wat x en wat y voorstelt."
+ ]
+}

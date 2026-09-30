@@ -1,0 +1,158 @@
+{
+ "vak": "Wiskunde",
+ "titel": "Een opgave aanpakken: van context naar wiskunde",
+ "onder": "Mathematiseren en demathematiseren, de vier stappen, de heuristieken en de vier vaardigheden van de vakfiche.",
+ "secties": [
+  {
+   "kop": "Van de wereld naar de wiskunde en terug",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een opgave met een verhaal erbij los je op in twee vertalingen. <strong>Mathematiseren</strong> is de heenweg: een situatie uit de wereld omzetten in <strong>wiskundetaal</strong> en symbolen. <strong>Demathematiseren</strong> is de terugweg: je wiskundige uitkomst terugvertalen naar de situatie."
+    },
+    {
+     "soort": "tekst",
+     "html": "Reken je uit dat een ladder 4,7 meter lang moet zijn en antwoord je dat een ladder van 5 meter volstaat, dan ben je aan het demathematiseren: zo'n ladder bestaat in de winkel, 4,7 meter niet. Je uitkomst betekent pas iets als je ze terugvertaalt."
+    },
+    {
+     "soort": "kader",
+     "html": "Demathematiseren is <strong>niet</strong> hetzelfde als een opgave vereenvoudigen tot je ze aankan. Het is de uitkomst terugvertalen naar het verhaal waar ze vandaan komt."
+    }
+   ]
+  },
+  {
+   "kop": "Vraagstuk, probleem, met of zonder context",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De fiche maakt twee onderscheiden die je moet kennen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Woord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat de fiche ermee bedoelt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vraagstuk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je lost het op met de leerstof van één hoofdstuk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">probleem</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je kan het niet aan één hoofdstuk koppelen en combineert leerinhouden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met context</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de opgave vertrekt van een situatie uit de wereld</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zonder context</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de opgave is abstract en zuiver wiskundig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meetkundig probleem</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de verzamelnaam voor vraagstukken en problemen waarvoor je meetkundige vaardigheden nodig hebt</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Op het examen komen <strong>allebei</strong> de soorten voor: opgaven met context én zuiver wiskundige. Bij een probleem mag en moet je gegevens uit <strong>meerdere hoofdstukken</strong> van de fiche combineren; dat is precies wat een probleem van een vraagstuk onderscheidt. Bij een meetkundig probleem gaat het om de vaardigheden die je nodig hebt, niet om de vorm van de opgave."
+    }
+   ]
+  },
+  {
+   "kop": "De vier stappen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Om een opgave <strong>procedureel</strong> op te lossen noemt de fiche vier stappen, in deze volgorde:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stap</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar je op let</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1. begrijp het probleem</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ga na wat gegeven is en wat gevraagd wordt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onderstreep de getallen én hun eenheid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2. maak een plan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kies een onbekende, een tekening, een formule of een schema</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schrijf op waar je letter voor staat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3. voer het plan uit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">reken stap voor stap en verantwoord je tussenstappen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">werk netjes, één stap per regel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4. reflecteer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kijk of de uitkomst kan kloppen en of je aanpak elders bruikbaar is</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">past het bij de vraag, klopt de eenheid, is het realistisch</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Krijg je een tekening met een ladder tegen een muur, dan is je eerste stap dus <strong>niet</strong> rekenen maar nagaan wat gegeven is en wat gevraagd wordt. Wie te snel rekent, rekent vaak het verkeerde uit."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een goed plan verwijst vaak naar een ander hoofdstuk. Vraagt een opgave de hoogte van een <strong>toren</strong> uit de <strong>kijkhoek</strong> en je afstand ertoe, dan is het plan: een rechthoekige driehoek tekenen en met de <strong>tangens</strong> werken."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Reflecteren hoort bij het oplossen, niet erna.</strong> Een fietser aan 340 kilometer per uur, een oppervlakte die <strong>negatief</strong> uitvalt of een vijver van 0,004 kubieke meter — dat zijn maar vier liter — wijzen alle drie op een rekenfout of op eenheden die je door elkaar haalde. Zo'n uitkomst stuurt je terug naar je berekening. Een fietser die 24 kilometer in anderhalf uur aflegt, rijdt 24 : 1,5 = <strong>16</strong> kilometer per uur; komt daar 36 uit, dan heb je vermenigvuldigd in plaats van gedeeld."
+    },
+    {
+     "soort": "tekst",
+     "html": "De fiche vraagt ook dat je je <strong>tussenstappen verantwoordt</strong>: een lezer moet kunnen volgen welke eigenschap je toepast en waar het misloopt. Een antwoord zonder redenering is niet na te kijken, en jijzelf vindt er je eigen fout niet in terug."
+    }
+   ]
+  },
+  {
+   "kop": "De heuristieken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>heuristiek</strong> is een manier om zélf verder te geraken als je vastzit. De fiche geeft er een lijst van, en je mag zelf kiezen welke <strong>oplossingsstrategie</strong> je gebruikt, aan de hand van je eigen kennis en vaardigheden."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Heuristiek</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wanneer ze helpt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een schets, tekening of tabel maken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bijna altijd, ook buiten de meetkunde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de ladder tegen de muur tekenen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle mogelijkheden opschrijven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij kleine aantallen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoeveel broodjes je kan samenstellen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">variabelen invoeren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als je iets niet weet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de leeftijd van de jongste zus x noemen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gebruik maken van symmetrie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als een helft op de andere lijkt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vierkant patroon halveren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">terugrekenen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als het eindpunt gegeven is</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">48 euro is 80 % van de oude prijs, dus 60 euro</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opsplitsen in deelproblemen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij een grote, vage vraag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een weekje kamperen: reis, kampeerplaats, eten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schatten, slim gissen, testen en controleren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als geen formule voor de hand ligt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een getal proberen en bijsturen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">patronen en regelmaat ontdekken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij een rij getallen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2, 6, 12, 20, 30: de verschillen zijn 4, 6, 8, 10</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>schets maken telt als een volwaardige oplossingsstrategie</strong>: het is de eerste heuristiek in de lijst, en niet iets wat je erbij doet."
+    },
+    {
+     "soort": "tekst",
+     "html": "In die rij 2, 6, 12, 20, 30 lopen de verschillen op met telkens 2, dus het volgende verschil is 12 en het volgende getal <strong>42</strong>. Slim gissen is trouwens geen gokken: elke poging vertelt je in welke richting de volgende moet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wat <strong>geen</strong> heuristiek is: het antwoord opzoeken in de oplossingen achteraan. Dat brengt je geen stap vooruit."
+    }
+   ]
+  },
+  {
+   "kop": "Schatten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Schatten</strong> met ronde getallen zegt je in welke <strong>grootteorde</strong> het antwoord moet liggen. Wie 19 · 21 schat op ongeveer 400, ziet meteen dat 3999 niet kan kloppen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Maar een schatting is een <strong>controle</strong>, geen antwoord: wie goed schat, moet de exacte berekening nog altijd uitvoeren."
+    },
+    {
+     "soort": "tekst",
+     "html": "Verf is een mooi voorbeeld van een plan dat werk spaart. Voor een muur van 4,2 m op 2,6 m bereken je eerst de <strong>oppervlakte</strong> en kijk je pas daarna naar het verbruik per liter: dan blijft er maar één deling over."
+    }
+   ]
+  },
+  {
+   "kop": "De vier vaardigheden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De fiche noemt vier vaardigheden die je bij elke opgave gebruikt:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vaardigheid</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze inhoudt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">taalvaardigheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wiskundige uitdrukkingen, tekeningen, grafieken en diagrammen begrijpen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rekenvaardigheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vlot en juist rekenen, met en zonder rekenmachine</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meet- en tekenvaardigheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoeken meten met een geodriehoek, tekenen met passer en geodriehoek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ICT-vaardigheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het online rekentoestel en de rekenapps gebruiken</td></tr></table>"
+    },
+    {
+     "soort": "weetje",
+     "html": "Veel fouten zijn <strong>leesfouten</strong>: de opgave vroeg iets anders dan wat er uitgerekend werd. Taalvaardigheid is bij wiskunde dus geen bijzaak. En ICT is hulp bij het rekenen en het tekenen, nooit een vervanging van de redenering."
+    },
+    {
+     "soort": "kader",
+     "html": "Op het examen krijg je een <strong>online wetenschappelijk rekentoestel</strong> en een webpagina met <strong>rekenapps</strong>. Andere hulpmiddelen mag je niet gebruiken. Een geodriehoek, een passer of een meetlat mag je wel altijd vragen."
+    }
+   ]
+  },
+  {
+   "kop": "Bewijzen en tegenvoorbeelden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Eén <strong>tegenvoorbeeld</strong> volstaat om aan te tonen dat een wiskundige uitspraak <strong>vals</strong> is: één geval waarin het niet opgaat, breekt de uitspraak."
+    },
+    {
+     "soort": "tekst",
+     "html": "Omgekeerd werkt het niet. Een paar voorbeelden die kloppen, bewijzen <strong>niet</strong> dat een eigenschap altijd geldt. Voorbeelden illustreren; voor een bewijs heb je een redenering nodig."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Mathematiseren is de situatie omzetten in wiskundetaal, demathematiseren is de uitkomst terugvertalen.",
+  "Een vraagstuk past in één hoofdstuk, een probleem combineert hoofdstukken.",
+  "Vier stappen: begrijp het probleem, maak een plan, voer het plan uit, reflecteer.",
+  "Reflecteren hoort bij het oplossen: past het bij de vraag, klopt de eenheid, is het realistisch.",
+  "Heuristieken: schets, alles opschrijven, variabelen invoeren, symmetrie, terugrekenen, opsplitsen, slim gissen, patronen zoeken.",
+  "Je kiest zelf je oplossingsstrategie; een schets is een volwaardige strategie.",
+  "Schatten geeft de grootteorde, maar vervangt de exacte berekening niet.",
+  "Vier vaardigheden: taal, rekenen, meten en tekenen, ICT.",
+  "Eén tegenvoorbeeld weerlegt; voorbeelden bewijzen nooit.",
+  "Verantwoord je tussenstappen, anders is je antwoord niet na te kijken."
+ ]
+}

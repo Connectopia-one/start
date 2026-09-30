@@ -1,0 +1,145 @@
+{
+ "vak": "Wiskunde",
+ "titel": "Rechten, vlakken en gelijkvormigheid",
+ "onder": "Hoe rechten en vlakken in de ruimte liggen, hoe je een ruimtefiguur tekent, en wat schaal doet met lengte, oppervlakte en volume.",
+ "secties": [
+  {
+   "kop": "Rechten en vlakken in de ruimte",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In het <strong>vlak</strong> kunnen twee rechten maar drie dingen doen: samenvallen, elkaar snijden, of evenwijdig lopen. In de <strong>ruimte</strong> komt er een vierde mogelijkheid bij die in het vlak niet bestaat: <strong>kruisende rechten</strong>. Die snijden elkaar niet én liggen niet in hetzelfde vlak. Denk aan een weg en een brug die er schuin boven loopt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Ligging</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee rechten snijden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ze hebben één punt gemeen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee rechten evenwijdig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ze liggen in één vlak en snijden elkaar niet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee rechten kruisend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ze liggen niet in één vlak en snijden elkaar niet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechte in een vlak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elk punt van de rechte ligt in het vlak</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechte evenwijdig met een vlak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ze hebben geen enkel punt gemeen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechte snijdt een vlak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ze hebben precies één punt gemeen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee vlakken evenwijdig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ze snijden elkaar niet en vallen niet samen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee vlakken snijden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hun doorsnede is een rechte</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Twee vlakken snijden elkaar nooit in één punt.</strong> Raken ze elkaar, dan is hun doorsnede meteen een hele <strong>rechte</strong>. Dat zie je aan twee muren van een kamer: ze ontmoeten elkaar in een lijn, niet in een punt."
+    }
+   ]
+  },
+  {
+   "kop": "Ruimtefiguren tekenen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>ruimtefiguur</strong> heeft drie afmetingen: een kubus, een balk, een cilinder, een kegel, een piramide, een bol. Een vierkant, een cirkel of een driehoek is een <strong>vlakke</strong> figuur."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>balk</strong> heeft 6 zijvlakken, 12 ribben en 8 hoekpunten. De <strong>ontwikkeling</strong> van een ruimtefiguur is het platte patroon dat je krijgt door hem open te vouwen; bij een kubus zijn dat zes vierkanten aan elkaar. Daarmee reken je de totale oppervlakte uit, en daarmee knip je hem ook uit karton."
+    },
+    {
+     "soort": "tekst",
+     "html": "Om een ruimtefiguur op papier te zetten zijn er twee manieren die de fiche noemt:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Projecties op drie vlakken</strong>: het <strong>vooraanzicht</strong>, het <strong>bovenaanzicht</strong> en het <strong>zijaanzicht</strong>. Elk aanzicht is een vlakke tekening, en samen leggen ze de figuur volledig vast. Zo werkt een bouwplan."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Cavalièreperspectief</strong>: het voorvlak teken je op ware grootte, en de ribben naar achteren teken je schuin en vaak ingekort. Wat in het echt evenwijdig is, blijft in deze tekening evenwijdig. Dat maakt het handig om te tekenen, maar het ziet er niet uit zoals je oog het ziet: een echt perspectief laat evenwijdige lijnen naar een verdwijnpunt lopen."
+    }
+   ]
+  },
+  {
+   "kop": "Verzamelingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Drie bewerkingen op verzamelingen, die je ook bij het tellen nodig hebt:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Bewerking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Teken</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat erin zit</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">doorsnede</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">A ∩ B</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de elementen die in A én in B zitten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">unie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">A ∪ B</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de elementen die in A of in B zitten, of in allebei</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verschil</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">A \\ B</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de elementen van A die niet in B zitten</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>A is een deelverzameling van B</strong> betekent: elk element van A zit ook in B. De unie is dus níét wat ze gemeen hebben, dat is de doorsnede; de unie is alles samen."
+    }
+   ]
+  },
+  {
+   "kop": "Gelijkvormigheid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Twee figuren zijn <strong>gelijkvormig</strong> als ze dezelfde vorm hebben maar niet noodzakelijk dezelfde grootte: alle hoeken zijn gelijk en alle zijden staan in dezelfde verhouding. Die verhouding heet de <strong>gelijkvormigheidsfactor</strong> k."
+    },
+    {
+     "soort": "tekst",
+     "html": "Drie <strong>kenmerken</strong> om gelijkvormigheid vast te stellen:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kenmerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je nagaat</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">HH</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee hoeken zijn gelijk; de derde is dat dan automatisch ook</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ZZZ</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de drie zijdeverhoudingen zijn gelijk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ZHZ</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee zijden staan in dezelfde verhouding en de hoek ertussen is gelijk</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Hebben twee driehoeken twee gelijke hoeken, dan zijn ze dus <strong>gelijkvormig</strong>, en dan liggen alle verhoudingen vast. Maar gelijkvormig betekent niet gelijk: de hoeken leggen de <em>vorm</em> vast, niet de <em>grootte</em>. Ken je alleen de drie hoeken, dan liggen de zijden dus níét vast."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een driehoek met zijden 3, 4 en 5 en een gelijkvormige driehoek met kleinste zijde 9: de factor is 3, dus de langste zijde is 15."
+    }
+   ]
+  },
+  {
+   "kop": "Wat schaal doet met lengte, oppervlakte en volume",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Dit is de kern van het hoofdstuk, en het gaat bijna altijd fout:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Bij factor k</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wordt vermenigvuldigd met</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elke lengte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">k</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elke oppervlakte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">k²</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elk volume</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">k³</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij factor 3 worden de lengtes 3 keer zo groot, de oppervlakte 9 keer, het volume 27 keer. Bij factor 4 wordt de oppervlakte 16 keer zo groot. Bij factor 5: 25 keer. Bij factor 2 wordt het volume 8 keer zo groot, dus wie alle ribben van een kubus verdubbelt, krijgt <strong>acht</strong> keer zoveel inhoud en niet het dubbele."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een foto van 10 op 15 die 20 op 30 wordt, heeft factor 2 en dus <strong>vier</strong> keer zoveel oppervlakte. Een bol met een dubbel zo grote straal heeft vier keer zoveel buitenkant, dus vier keer zoveel verf."
+    },
+    {
+     "soort": "weetje",
+     "html": "Daarom zou een reus van drie keer een mens niet kunnen bestaan: zijn gewicht (volume) wordt 27 keer zo groot, maar de doorsnede van zijn botten (oppervlakte) maar 9 keer. De botten zouden de last niet dragen. Dat heet het vierkant-kubuswet-probleem."
+    }
+   ]
+  },
+  {
+   "kop": "Schaal",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>schaal van 1 op 50</strong> betekent: wat op de tekening 1 is, is in het echt 50. De tekening is dus <strong>kleiner</strong> dan het voorwerp, niet groter."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Schaal</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Op de tekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">In het echt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 : 50 (een maquette)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een muur van 12 cm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">600 cm, dus 6 m</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 : 200 (een bouwplan)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gevel van 7 cm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1400 cm, dus 14 m</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 : 25 000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">8 cm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">200 000 cm, dus 2 km</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Reken altijd eerst in dezelfde eenheid, en zet pas op het einde om naar meter of kilometer."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Kruisende rechten bestaan alleen in de ruimte: geen snijpunt en niet in één vlak.",
+  "Twee snijdende vlakken hebben een rechte als doorsnede, nooit één punt.",
+  "Een balk heeft 6 zijvlakken, 12 ribben en 8 hoekpunten.",
+  "De ontwikkeling is het platte patroon van een opengevouwen ruimtefiguur.",
+  "Drie aanzichten: vooraanzicht, bovenaanzicht, zijaanzicht.",
+  "Bij cavalièreperspectief blijven evenwijdige ribben evenwijdig.",
+  "Doorsnede is wat ze gemeen hebben, unie is alles samen.",
+  "Gelijkvormigheidskenmerken: HH, ZZZ en ZHZ.",
+  "Factor k: lengte maal k, oppervlakte maal k², volume maal k³.",
+  "Schaal 1 op 100: de tekening is honderd keer kleiner dan het voorwerp."
+ ]
+}

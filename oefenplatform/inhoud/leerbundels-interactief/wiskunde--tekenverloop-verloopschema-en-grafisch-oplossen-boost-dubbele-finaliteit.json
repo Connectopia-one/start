@@ -1,0 +1,150 @@
+{
+ "vak": "Wiskunde",
+ "titel": "Tekenverloop, verloopschema en grafisch oplossen",
+ "onder": "Nulwaarden, het teken en het verloop van een functie, intervallen op een getallenas, en twee grafieken naast elkaar.",
+ "secties": [
+  {
+   "kop": "De nulwaarde",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>nulwaarde</strong> van een functie is de x-waarde waarvoor de functiewaarde nul is. Op de grafiek is dat de x van het punt waar ze de <strong>x-as snijdt</strong>. f(x) = 0 oplossen is dus hetzelfde als die snijpunten zoeken."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Functie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vergelijking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nulwaarde</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">f(x) = 2x − 6</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2x − 6 = 0, dus 2x = 6</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x = 3</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">f(x) = 3x + 12</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3x + 12 = 0, dus 3x = −12</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x = −4</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Verwar de nulwaarde niet met het <strong>snijpunt met de y-as</strong>. Daar vul je nul in voor x en bereken je f(0). Bij de nulwaarde stel je de functiewaarde gelijk aan nul en zoek je de x. Dat zijn twee verschillende vragen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een eerstegraadsfunctie waarvan de richtingscoëfficiënt niet nul is, is een schuine rechte, en die snijdt de x-as in <strong>precies één punt</strong>. Een constante functie zoals f(x) = 5 is een horizontale rechte op hoogte 5 en heeft dus <strong>geen</strong> nulwaarde."
+    }
+   ]
+  },
+  {
+   "kop": "Het tekenverloop",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>tekenverloop</strong> is een schema dat toont waar de functiewaarde positief is en waar ze negatief is. Het gaat enkel over het teken: een <strong>plusteken</strong> of een <strong>minteken</strong>. Hoe groot de waarde daar is, staat er niet in."
+    },
+    {
+     "soort": "tekst",
+     "html": "De nulwaarden zijn de <strong>grenzen</strong> van het schema. Onder een nulwaarde zet je een <strong>nul</strong>, want daar is de functiewaarde precies nul, en dus niet positief en niet negatief. Tussen twee grenzen blijft het teken hetzelfde."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Functie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Negatief</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nul</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Positief</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">f(x) = 2x − 6 (stijgt)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">links van 3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in 3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechts van 3</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">f(x) = −x + 4 (daalt)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechts van 4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in 4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">links van 4</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">f(x) = 5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nergens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nergens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">overal</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een stijgende rechte ligt het positieve stuk dus <strong>rechts</strong> van de nulwaarde, bij een dalende rechte <strong>links</strong>. Dat is precies waarom het antwoord op een ongelijkheid ervan afhangt of de rechte stijgt of daalt. Teken haar even, dan zie je het meteen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Om een tekenverloop van een grafiek af te lezen, kijk je naar twee dingen: waar de nulwaarden liggen, en aan welke kant daarvan de grafiek boven of onder de x-as loopt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Stijgen is niet hetzelfde als positief zijn.</strong> Stijgen gaat over de richting van de grafiek, positief zijn over haar ligging ten opzichte van de x-as. Een stijgende rechte begint links van haar nulwaarde onder de x-as en is daar dus negatief, terwijl ze al aan het stijgen is."
+    }
+   ]
+  },
+  {
+   "kop": "Het verloopschema",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>verloopschema</strong> toont iets anders: waar de functie <strong>stijgt</strong> en waar ze <strong>daalt</strong>. Je tekent het met pijltjes omhoog en omlaag."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een rechte is dat schema kort. Een rechte verandert nergens van richting: heeft ze een positieve richtingscoëfficiënt, dan is het één pijl die over de hele getallenas omhoog wijst. Is de richtingscoëfficiënt negatief, dan wijst één pijl overal omlaag."
+    }
+   ]
+  },
+  {
+   "kop": "Intervallen en de getallenas",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De oplossing van een ongelijkheid is meestal geen enkel getal maar een <strong>heel stuk</strong> van de getallenas. Daarom schrijf je ze als een <strong>interval</strong>, of arceer je ze op een getallenas."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">In woorden</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Als interval</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Op de getallenas</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle x groter dan 3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">]3, +∞[</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">open bolletje op 3, alles rechts gearceerd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle x groter dan of gelijk aan 3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">[3, +∞[</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vol bolletje op 3, alles rechts gearceerd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle x tussen 1 en 4, grenzen niet mee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">]1, 4[</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee open bolletjes, het stuk ertussen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een haakje naar buiten betekent dat die grens er <strong>niet</strong> bij hoort, en dan zet je op de getallenas een open bolletje. Een haakje naar binnen neemt de grens wél mee, en dan wordt het bolletje vol. Bij f(x) ≥ 0 staat het gelijkheidsteken erbij, dus telt de nulwaarde zelf mee en sluit het haakje. Bij oneindig, het <strong>oneindigteken</strong> ∞, staat het haakje <strong>altijd</strong> open: oneindig is geen getal dat je kan bereiken."
+    }
+   ]
+  },
+  {
+   "kop": "Twee functies naast elkaar",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Heb je twee functies f en g, dan gaat het om hun <strong>gemeenschappelijke punten</strong> en hun <strong>onderlinge ligging</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Je lost op</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Op de grafiek</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">f(x) = g(x)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je zoekt de gemeenschappelijke punten van de twee grafieken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">f(x) > g(x)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je zoekt waar de grafiek van f boven die van g ligt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">f(x) < g(x)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je zoekt waar de grafiek van f onder die van g ligt</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Neem f(x) = x + 1 en g(x) = 3x − 5. Dan is x plus 1 gelijk aan 3x min 5, dus 6 is 2x en <strong>x is 3</strong>; de functiewaarde daar is 4. Het snijpunt is de <strong>grens</strong>: aan de ene kant ervan loopt f hoger, aan de andere kant g. Snijden ze in x = 2 en ligt f er links van lager, dan is de oplossingenverzameling van f(x) ≤ g(x) gelijk aan ]−∞, 2], want in 2 zelf zijn ze gelijk en dat gelijkheidsteken sluit het haakje."
+    },
+    {
+     "soort": "tekst",
+     "html": "Niet elke opgave van de vorm f(x) = g(x) heeft precies één oplossing. Bij evenwijdige rechten is er geen enkele, en bij samenvallende rechten zijn er oneindig veel. Ligt de grafiek van f overal boven die van g, dan hebben ze geen enkel punt gemeen en is er dus geen oplossing. Twee <strong>verschillende</strong> rechten kunnen elkaar nooit in twee punten snijden, want door twee punten gaat maar één rechte."
+    },
+    {
+     "soort": "weetje",
+     "html": "Twee grafieken kunnen elkaar snijden zonder dat een van beide de x-as snijdt: twee schuine rechten die in het getoonde stuk allebei boven de x-as blijven, kruisen elkaar toch."
+    }
+   ]
+  },
+  {
+   "kop": "Een vraagstuk grafisch oplossen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Je mag een vraagstuk grafisch oplossen <strong>zonder de vergelijking of de ongelijkheid zelf op te schrijven</strong>. Je maakt van elke situatie een grafiek en leest af welke boven de andere ligt. Bij eenvoudige opgaven teken je zelf; bij moeilijkere vraagstukken met lastige getallen laat je de grafieken met een <strong>hulpmiddel</strong> tekenen en lees je daar af."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Voorbeeld.</strong> Een fietsenwinkel heeft kosten K(x) = 300 + 20x en opbrengst O(x) = 50x. De twee rechten snijden elkaar bij 10 fietsen: daar is alles 500 euro. Dat is het <strong>break-evenpunt</strong> of <strong>omslagpunt</strong>, waar de winst nul is. Pas vanaf de <strong>elfde</strong> fiets ligt de opbrengst erboven en is er winst."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een woordprobleem betekent een snijpunt dus altijd hetzelfde: de situatie waarin de twee grootheden <strong>even groot</strong> zijn. Twee abonnementen die evenveel kosten, kosten en opbrengst die gelijk zijn, twee tanks met evenveel water erin."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ligt een grafiek tussen x = 1 en x = 4 onder de x-as en daarbuiten erboven, dan is f(x) kleiner dan nul op ]1, 4[: enkel tussen de twee nulwaarden, en in 1 en 4 zelf is de functiewaarde precies nul."
+    },
+    {
+     "soort": "kader",
+     "html": "Een grafiek helpt omdat je meteen ziet aan welke kant van de grens de oplossing ligt. Wie enkel rekent, vergeet makkelijk het ongelijkheidsteken om te draaien. Maar aflezen is schatten: je zit makkelijk een half hokje verkeerd, dus reken een snijpunt na."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "De nulwaarde is de x waarvoor f(x) nul is: het snijpunt met de x-as.",
+  "f(0) is het snijpunt met de y-as; dat is iets anders dan de nulwaarde.",
+  "Een tekenverloop toont waar de functie positief en waar ze negatief is, met een nul onder elke nulwaarde.",
+  "Een verloopschema toont waar ze stijgt en waar ze daalt; bij een rechte is dat één pijl.",
+  "Stijgen gaat over de richting, positief zijn over de ligging ten opzichte van de x-as.",
+  "Een stijgende rechte is positief rechts van haar nulwaarde, een dalende links.",
+  "Open haakje en open bolletje: de grens telt niet mee. Vol bolletje: ze telt wel mee.",
+  "Bij ∞ staat het haakje altijd open.",
+  "f(x) = g(x) zoekt de gemeenschappelijke punten; f(x) > g(x) zoekt waar f boven g ligt.",
+  "Twee verschillende rechten snijden elkaar in hoogstens één punt.",
+  "Het break-evenpunt is waar kosten en opbrengst gelijk zijn; de winst begint erna."
+ ]
+}

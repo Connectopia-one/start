@@ -1,0 +1,129 @@
+{
+ "vak": "Wiskunde",
+ "titel": "Pythagoras en de rechthoekige driehoek",
+ "onder": "De stelling van Pythagoras, de afstand tussen twee punten, en sinus, cosinus en tangens.",
+ "secties": [
+  {
+   "kop": "De stelling van Pythagoras",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In een <strong>rechthoekige</strong> driehoek is het kwadraat van de schuine zijde gelijk aan de som van de kwadraten van de twee rechthoekszijden: <strong>a² + b² = c²</strong>, met c de schuine zijde."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>schuine zijde</strong> (hypotenusa) ligt tegenover de rechte hoek en is altijd de langste zijde van de driehoek. De stelling geldt <strong>alleen</strong> in een rechthoekige driehoek; in andere driehoeken werkt ze niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Gegeven</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Berekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Resultaat</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechthoekszijden 6 en 8</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√(36 + 64) = √100</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechthoekszijden 9 en 12</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√(81 + 144) = √225</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">15</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schuine zijde 13, één zijde 5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√(169 − 25) = √144</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">12</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vierkant met zijde 1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√(1 + 1) = √2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√2</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Omgekeerd</strong> kan je met de stelling nagaan óf een driehoek rechthoekig is. Zijden 9, 12 en 15: 81 + 144 is 225 en dat is 15², dus ja. Zijden 5, 12 en 13: 25 + 144 is 169 en dat is 13², dus ook. Zijden 4, 5 en 7: 16 + 25 is 41, maar 7² is 49, dus nee."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een televisie van 40 inch: dat is de <strong>diagonaal</strong> van het scherm, niet de breedte. Met Pythagoras en de beeldverhouding reken je breedte en hoogte eruit."
+    }
+   ]
+  },
+  {
+   "kop": "Toepassingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De ladder tegen de muur.</strong> Een ladder van 5 meter met de voet 3 meter van de muur reikt √(25 − 9) = 4 meter hoog. De ladder is de schuine zijde, de muur en de grond zijn de rechthoekszijden."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De afstand tussen twee punten</strong> in het vlak is niets anders dan Pythagoras op het verschil in x en het verschil in y:"
+    },
+    {
+     "soort": "tekst",
+     "html": "afstand AB = √((x₂ − x₁)² + (y₂ − y₁)²)"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Punten</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verschillen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Afstand</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">A(1, 2) en B(4, 6)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3 en 4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√25 = 5</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">A(−2, 1) en B(1, 5)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3 en 4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√25 = 5</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">A(0, 0) en B(6, 8)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6 en 8</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√100 = 10</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een afstand is <strong>nooit negatief</strong>, ook niet als het ene punt links van het andere ligt: de verschillen worden gekwadrateerd, en een kwadraat is positief."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De ruimtediagonaal van een balk.</strong> Daar pas je Pythagoras <strong>twee keer</strong> toe: eerst op de diagonaal van het grondvlak, en dan op die diagonaal samen met de hoogte. Bij een balk 3 bij 4 bij 12: de grondvlakdiagonaal is √(9 + 16) = 5, en de ruimtediagonaal √(25 + 144) = 13."
+    }
+   ]
+  },
+  {
+   "kop": "Sinus, cosinus en tangens",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In een rechthoekige driehoek horen bij elke scherpe hoek drie verhoudingen:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verhouding</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Ezelsbruggetje</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sinus</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">overstaande zijde op schuine zijde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">SOS</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cosinus</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aanliggende zijde op schuine zijde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">CAS</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tangens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">overstaande zijde op aanliggende zijde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">TOA</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Samen vormen ze <strong>SOSCASTOA</strong>. Welke je kiest, hangt af van wat je kent en wat je zoekt. Ken je de <strong>kijkhoek</strong> naar de top van een boom en je <strong>afstand</strong> tot de boom, dan ken je de aanliggende zijde en zoek je de overstaande: dat is de <strong>tangens</strong>. Ken je de <strong>lengte van een helling</strong> (de schuine zijde) en de hellingshoek, en zoek je het hoogteverschil (de overstaande), dan is het de <strong>sinus</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>tangens uitgedrukt in de andere twee</strong>: tan α = sin α / cos α."
+    }
+   ]
+  },
+  {
+   "kop": "Waarden en eigenschappen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoek</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">sinus</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">cosinus</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">tangens</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0°</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">30°</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√3/2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√3/3</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">45°</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√2/2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√2/2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">60°</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√3/2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√3</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">90°</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bestaat niet</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De sinus en de cosinus van een scherpe hoek zijn <strong>altijd kleiner dan 1</strong>: ze zijn een verhouding waarbij de schuine zijde de grootste is, dus de breuk is kleiner dan één. De cosinus kan nooit groter dan 1 worden. De tangens kan dat wél, want daar staat de schuine zijde niet in."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>goniometrische cirkel</strong> is de cirkel met straal <strong>1</strong> rond de oorsprong. Daarop lees je de cosinus af op de x-as en de sinus op de y-as, en daar zie je ook meteen waarom geen van beide buiten het gebied van min 1 tot 1 kan komen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>grondformule van de goniometrie</strong>: sin²α + cos²α = 1. Het is Pythagoras op de goniometrische cirkel. Daarmee bereken je de ene uit de andere: is de sinus 0,6, dan is cos²α = 1 − 0,36 = 0,64 en dus de cosinus 0,8. Is de sinus 0,8, dan is de cosinus 0,6."
+    }
+   ]
+  },
+  {
+   "kop": "Namen voor hoekenparen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Samen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">complementaire hoeken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">90°</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">30° en 60°</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">supplementaire hoeken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">180°</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">50° en 130°</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee <strong>complementaire</strong> hoeken hebben níét dezelfde sinus: de sinus van de ene is de cosinus van de andere. sin 30° is 0,5 en sin 60° is √3/2."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "a² + b² = c², enkel in een rechthoekige driehoek.",
+  "De schuine zijde ligt tegenover de rechte hoek en is de langste zijde.",
+  "Omgekeerd: klopt a² + b² = c², dan is de driehoek rechthoekig.",
+  "Afstand AB = √((x₂ − x₁)² + (y₂ − y₁)²), en die is nooit negatief.",
+  "Ruimtediagonaal: Pythagoras twee keer, eerst in het grondvlak.",
+  "SOSCASTOA: sinus overstaande op schuine, cosinus aanliggende op schuine, tangens overstaande op aanliggende.",
+  "tan α = sin α / cos α.",
+  "sin²α + cos²α = 1, de grondformule.",
+  "sin 30° = 0,5, cos 0° = 1, tan 45° = 1.",
+  "De goniometrische cirkel heeft straal 1.",
+  "Complementair is samen 90°, supplementair is samen 180°."
+ ]
+}
