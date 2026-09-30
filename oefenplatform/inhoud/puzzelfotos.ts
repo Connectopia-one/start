@@ -110,6 +110,14 @@ export const PUZZELFOTOS: Record<string, { url: string; verhouding: number }> =
       url: "/puzzels/frans/op-school-en-onderweg.webp",
       verhouding: 1.4135,
     },
+    "frans/wat-zie-je-aan-zee": {
+      url: "/puzzels/frans/wat-zie-je-aan-zee.webp",
+      verhouding: 1.0,
+    },
+    "frans/wat-zie-je-op-de-prent": {
+      url: "/puzzels/frans/wat-zie-je-op-de-prent.webp",
+      verhouding: 1.0,
+    },
     "frans/woorden-voor-elke-dag": {
       url: "/puzzels/frans/woorden-voor-elke-dag.webp",
       verhouding: 1.4789,
