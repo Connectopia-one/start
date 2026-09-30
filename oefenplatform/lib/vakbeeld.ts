@@ -15,6 +15,7 @@ const ICONEN: Record<string, string> = {
   techniek: "🔧",
   geschiedenis: "🏛️",
   aardrijkskunde: "🌍",
+  "samenleving-en-economie": "🤝",
   // De vakken van 🔭 de uitdagingshoek.
   "de-ruimte": "🪐",
   "coderen-en-computers": "💻",
@@ -41,6 +42,7 @@ const AFBREEKPUNTEN: Record<string, string> = {
   natuurwetenschappen: "Natuur\u00ADwetenschappen",
   "wetenschap-en-techniek": "Wetenschap en tech\u00ADniek",
   aardrijkskunde: "Aardrijks\u00ADkunde",
+  "samenleving-en-economie": "Samenleving en econo\u00ADmie",
   "coderen-en-computers": "Coderen en com\u00ADputers",
   "geschiedenis-van-belgie": "Geschiedenis van Bel\u00ADgië",
   "paradoxen-en-weetjes": "Paradoxen en weet\u00ADjes",
