@@ -1,0 +1,100 @@
+{
+ "vak": "Aardrijkskunde",
+ "titel": "Waar wonen de mensen?",
+ "onder": "Bevolkingsdichtheid, de factoren die ze sturen, en de ontwikkelingsgraad met de Human Development Index.",
+ "secties": [
+  {
+   "kop": "Bevolkingsdichtheid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>bevolkingsdichtheid</strong> is het aantal <strong>inwoners per vierkante kilometer</strong>. Je berekent ze door het aantal inwoners te delen door de oppervlakte. Een land met 12 miljoen inwoners op 30 000 km² heeft dus een dichtheid van 400 inwoners per km², ruwweg de orde van grootte van België."
+    },
+    {
+     "soort": "tekst",
+     "html": "Omdat het een verhouding is, zegt een groot inwonersaantal op zich niets: Canada telt tientallen miljoenen inwoners maar is enorm groot, dus de dichtheid blijft er laag. En een hoge dichtheid zegt niets over rijkdom: Monaco en Bangladesh zijn allebei dichtbevolkt en verschillen enorm in inkomen."
+    },
+    {
+     "soort": "kader",
+     "html": "Een dichtheid is een <strong>gemiddelde</strong> over de hele oppervlakte. Twee gebieden met dezelfde dichtheid kunnen er heel anders uitzien: in het ene wonen alle mensen in drie steden, in het andere wonen ze overal verspreid. Het gemiddelde verbergt dus het patroon binnen dat gebied."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op een <strong>thematische kaart</strong> van de bevolkingsdichtheid staan donkere en lichte kleuren. Lees altijd eerst de <strong>legende</strong>: zonder legende weet je niet of donker veel of weinig betekent, en al helemaal niet welke aantallen bij welke klasse horen. Kaartmakers kiezen die klassen zelf."
+    }
+   ]
+  },
+  {
+   "kop": "Wat de dichtheid stuurt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Drie natuurlijke factoren verklaren een groot deel van het wereldwijde patroon: het <strong>klimaat</strong>, de <strong>bodemkwaliteit</strong> en het <strong>reliëf</strong>. Droogte, een arme bodem en steile hellingen maken landbouw en bouwen moeilijk, dus blijven er weinig mensen wonen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De Sahara is dunbevolkt omdat er te weinig neerslag valt. Het noorden van Canada is dunbevolkt omdat het er lang koud is en de bodem een groot deel van het jaar bevroren blijft; water is er genoeg en het reliëf is er zelfs vlak. Reliëf blijft ook vandaag meespelen: technisch kan er veel, maar bouwen en wegen aanleggen in de bergen kost veel meer, dus liggen de meeste steden in vlakke gebieden en in dalen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bodemkwaliteit telt mee omdat ze bepaalt hoeveel voedsel er lokaal geteeld kan worden. Dat verband is losser geworden sinds voedsel over de hele wereld verhandeld wordt, maar het is niet verdwenen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Waar water, grond en reliëf wél meezitten, wonen veel mensen dicht op elkaar: in rivierdalen, in <strong>delta</strong>'s en langs kusten. In een delta zet de rivier haar slib af, en die grond is heel vruchtbaar. Dat zie je aan de Ganges, de Nijl, de Rijn en langs de Chinese oostkust. In de Nijlvallei drukt de bevolking zich samen op een smalle strook, want daarbuiten ligt woestijn."
+    },
+    {
+     "soort": "weetje",
+     "html": "Klimaat, bodemkwaliteit en reliëf verklaren veel van het wereldwijde bevolkingspatroon, maar nooit alles. Geschiedenis, economie en politiek bepalen evengoed waar mensen wonen. Wie enkel naar de natuur kijkt, mist de helft van het verhaal."
+    }
+   ]
+  },
+  {
+   "kop": "Ontwikkelingsgraad en de HDI",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>ontwikkelingsgraad</strong> vat samen hoe goed het met de mensen in een land gaat. De <strong>Human Development Index</strong> of HDI is de index waarmee de <strong>Verenigde Naties</strong> dat in één getal vangen. Hij combineert drie dingen: hoe lang mensen er gemiddeld leven, hoeveel jaar ze naar school gaan, en hoeveel een inwoner gemiddeld verdient."
+    },
+    {
+     "soort": "tekst",
+     "html": "De HDI is een getal tussen 0 en 1. Hoe dichter bij 1, hoe hoger de ontwikkelingsgraad. Omdat het een verhoudingsgetal is, kan je er landen van heel verschillende grootte mee vergelijken. Land A met 0,92 en land B met 0,48 verschillen dus in gezondheid, onderwijs en inkomen samen; over hun inwonersaantal, hun dichtheid of hun bevolkingsgroei zegt dat niets."
+    },
+    {
+     "soort": "kader",
+     "html": "De HDI is beter dan het inkomen alleen, want een land kan rijk zijn aan olie en toch weinig scholen en ziekenhuizen hebben. Maar hij is een <strong>samengesteld</strong> getal: twee landen met dezelfde HDI kunnen een andere levensverwachting hebben, want het ene scoort hoger op onderwijs en lager op gezondheid dan het andere."
+    },
+    {
+     "soort": "tekst",
+     "html": "Waarom hij tussen landen verschilt, heeft nooit één oorzaak. Kolonisatie, oorlog, bestuur, schulden, grondstoffen en onderwijsbeleid grijpen in elkaar. Een langdurige oorlog, scholen die jarenlang gesloten blijven of een epidemie die de levensverwachting verlaagt, doen de HDI dalen. Meer inwoners of een nieuw spoorwegnet doen dat niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Grondstoffen maken een land niet vanzelf welvarend: wat het met zijn inkomsten doet, telt evenveel als wat het in de grond heeft. Japan en Zuid-Korea hebben weinig grondstoffen en toch een hoge HDI."
+    }
+   ]
+  },
+  {
+   "kop": "De HDI lezen en nuanceren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op een wereldkaart van de HDI zie je een duidelijk <strong>patroon</strong>: de hoogste waarden liggen samen in bepaalde wereldregio's, vooral West-Europa, Noord-Amerika, Oost-Azië en Oceanië, de laagste vooral in Centraal- en West-Afrika. Een kaart maakt van een lijst getallen een ruimtelijk beeld, en dan springen die patronen in het oog. Nauwkeuriger worden de cijfers er niet van."
+    },
+    {
+     "soort": "tekst",
+     "html": "Krijg je een tabel met de levensverwachting, de scholingsduur en het inkomen, dan heb je precies de drie bouwstenen van de HDI en kan je de landen op ontwikkelingsgraad rangschikken. Krijg je een tabel met inwoners en oppervlakte, dan kan je enkel de dichtheid berekenen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee beperkingen om altijd bij te vermelden. De gewone HDI werkt met <strong>gemiddelden</strong> en ziet <strong>ongelijkheid</strong> niet; daarvoor bestaat een aparte versie die voor ongelijkheid corrigeert, en die ligt bijna altijd lager. En een nationale HDI verbergt de verschillen binnen een land: in veel landen scoort de hoofdstad veel hoger dan het platteland. Een lage HDI betekent dus niet dat niemand er rijk is; de ongelijkheid is er vaak juist groot."
+    },
+    {
+     "soort": "tekst",
+     "html": "De HDI wordt jaarlijks herberekend, dus hij kan stijgen en dalen. Tussen dichtheid en HDI bestaat géén vast verband: Nederland is dichtbevolkt met een hoge HDI, Niger is dunbevolkt met een lage, en omgekeerd bestaat evengoed. Bij een bron let je op het jaar van de cijfers, op wie ze verzameld heeft en op de klassen in de legende: door die anders te kiezen, ziet dezelfde kaart er heel anders uit."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

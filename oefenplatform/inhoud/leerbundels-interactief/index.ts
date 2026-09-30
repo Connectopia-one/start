@@ -2,6 +2,16 @@
 // De sleutel is <niveau>/<vak-slug>/<hoofdstuk-slug>; zie lib/leerbundel.ts.
 
 export const KLIKBARE_BUNDELS: Record<string, () => Promise<{ default: unknown }>> = {
+  "boost-doorstroom/aardrijkskunde/duurzaam-omgaan-met-de-ruimte": () => import("./aardrijkskunde--duurzaam-omgaan-met-de-ruimte.json"),
+  "boost-doorstroom/aardrijkskunde/een-geografisch-onderzoek-voeren": () => import("./aardrijkskunde--een-geografisch-onderzoek-voeren.json"),
+  "boost-doorstroom/aardrijkskunde/grondstoffen-energie-en-industrie": () => import("./aardrijkskunde--grondstoffen-energie-en-industrie.json"),
+  "boost-doorstroom/aardrijkskunde/het-versterkte-broeikaseffect": () => import("./aardrijkskunde--het-versterkte-broeikaseffect.json"),
+  "boost-doorstroom/aardrijkskunde/hoe-een-bevolking-verandert": () => import("./aardrijkskunde--hoe-een-bevolking-verandert.json"),
+  "boost-doorstroom/aardrijkskunde/landbouw-handel-en-toerisme": () => import("./aardrijkskunde--landbouw-handel-en-toerisme.json"),
+  "boost-doorstroom/aardrijkskunde/mondialisering": () => import("./aardrijkskunde--mondialisering.json"),
+  "boost-doorstroom/aardrijkskunde/stad-en-platteland": () => import("./aardrijkskunde--stad-en-platteland.json"),
+  "boost-doorstroom/aardrijkskunde/waar-ligt-het-en-hoe-weet-je-dat": () => import("./aardrijkskunde--waar-ligt-het-en-hoe-weet-je-dat.json"),
+  "boost-doorstroom/aardrijkskunde/waar-wonen-de-mensen": () => import("./aardrijkskunde--waar-wonen-de-mensen.json"),
   "spark/aardrijkskunde/de-aarde-beweegt-en-slijt": () => import("./aardrijkskunde--de-aarde-beweegt-en-slijt.json"),
   "spark/aardrijkskunde/de-lagen-van-een-landschap": () => import("./aardrijkskunde--de-lagen-van-een-landschap.json"),
   "spark/aardrijkskunde/de-mens-verandert-het-landschap": () => import("./aardrijkskunde--de-mens-verandert-het-landschap.json"),

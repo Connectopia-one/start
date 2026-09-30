@@ -1,0 +1,126 @@
+{
+ "vak": "Aardrijkskunde",
+ "titel": "Waar ligt het, en hoe weet je dat?",
+ "onder": "Het wereldgradennet, absoluut en relatief situeren, en waarom twee mensen anders over dezelfde plaats denken.",
+ "secties": [
+  {
+   "kop": "Het wereldgradennet",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Om een plaats op aarde aan te wijzen, is er een net van lijnen over de aardbol gelegd. De <strong>meridianen</strong> lopen van de noordpool naar de zuidpool. Ze komen in beide polen samen, dus ze lopen niet evenwijdig. Ze geven de <strong>lengte</strong> aan."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>breedtecirkels</strong> lopen wél evenwijdig, rond de aardbol, en worden korter naarmate je dichter bij een pool komt. De langste is de <strong>evenaar</strong>, de breedtecirkel van 0°. Die verdeelt de aarde in een noordelijk en een zuidelijk <strong>halfrond</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 276\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><defs><clipPath id=\"net5\"><circle cx=\"148\" cy=\"142\" r=\"108\"/></clipPath></defs><circle cx=\"148\" cy=\"142\" r=\"108\" fill=\"#eaf1f6\" stroke=\"#234539\" stroke-width=\"1.8\"/><g clip-path=\"url(#net5)\"><ellipse cx=\"148\" cy=\"142.0\" rx=\"108.0\" ry=\"21.6\" fill=\"none\" stroke=\"#234539\" stroke-width=\"2.0\"/><ellipse cx=\"148\" cy=\"98.9\" rx=\"99.0\" ry=\"19.8\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"1.3\"/><ellipse cx=\"148\" cy=\"185.1\" rx=\"99.0\" ry=\"19.8\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"1.3\"/><ellipse cx=\"148\" cy=\"43.0\" rx=\"43.1\" ry=\"8.6\" fill=\"none\" stroke=\"#5b7f9c\" stroke-width=\"1.3\"/><ellipse cx=\"148\" cy=\"241.0\" rx=\"43.1\" ry=\"8.6\" fill=\"none\" stroke=\"#5b7f9c\" stroke-width=\"1.3\"/><path d=\"M 148 34 A 108.0 108 0 0 0 148 250\" fill=\"none\" stroke=\"#6b7260\" stroke-width=\"1\"/><path d=\"M 148 34 A 64.8 108 0 0 0 148 250\" fill=\"none\" stroke=\"#6b7260\" stroke-width=\"1\"/><path d=\"M 148 34 A 21.6 108 0 0 0 148 250\" fill=\"none\" stroke=\"#6b7260\" stroke-width=\"1\"/><path d=\"M 148 34 A 21.6 108 0 0 1 148 250\" fill=\"none\" stroke=\"#6b7260\" stroke-width=\"1\"/><path d=\"M 148 34 A 64.8 108 0 0 1 148 250\" fill=\"none\" stroke=\"#6b7260\" stroke-width=\"1\"/><path d=\"M 148 34 A 108.0 108 0 0 1 148 250\" fill=\"none\" stroke=\"#6b7260\" stroke-width=\"1\"/><line x1=\"148\" y1=\"34\" x2=\"148\" y2=\"250\" stroke=\"#2f5d50\" stroke-width=\"2\"/></g><circle cx=\"148\" cy=\"34\" r=\"3\" fill=\"#234539\"/><circle cx=\"148\" cy=\"250\" r=\"3\" fill=\"#234539\"/><text x=\"106.0\" y=\"30.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#234539\">noordpool</text><text x=\"148.0\" y=\"267.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#234539\">zuidpool</text><line x1=\"191.1\" y1=\"43.0\" x2=\"272\" y2=\"43.0\" stroke=\"#5b7f9c\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><text x=\"278.0\" y=\"46.5\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#5b7f9c\">poolcirkel 66,5° N</text><line x1=\"247.0\" y1=\"98.9\" x2=\"272\" y2=\"98.9\" stroke=\"#c17f2b\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><text x=\"278.0\" y=\"102.4\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#c17f2b\">keerkring 23,5° N</text><line x1=\"256.0\" y1=\"142.0\" x2=\"272\" y2=\"142.0\" stroke=\"#234539\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><text x=\"278.0\" y=\"145.5\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#234539\">evenaar 0°</text><line x1=\"247.0\" y1=\"185.1\" x2=\"272\" y2=\"185.1\" stroke=\"#c17f2b\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><text x=\"278.0\" y=\"188.6\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#c17f2b\">keerkring 23,5° Z</text><line x1=\"191.1\" y1=\"241.0\" x2=\"272\" y2=\"241.0\" stroke=\"#5b7f9c\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><text x=\"278.0\" y=\"244.5\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#5b7f9c\">poolcirkel 66,5° Z</text><line x1=\"148\" y1=\"30\" x2=\"148\" y2=\"18\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"154.0\" y=\"14.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#2f5d50\">nulmeridiaan, 0° lengte</text></svg>",
+     "onderschrift": "De evenaar op 0°, de keerkringen op 23,5° en de poolcirkels op 66,5°, elk zowel op het noordelijk als op het zuidelijk halfrond."
+    },
+    {
+     "soort": "tekst",
+     "html": "Vier breedtecirkels hebben een eigen naam. De <strong>Kreeftskeerkring</strong> ligt op 23,5° noorderbreedte, de <strong>Steenbokskeerkring</strong> op 23,5° zuiderbreedte. De twee <strong>poolcirkels</strong> liggen op 66,5° noorder- en zuiderbreedte. Op 90° lig je op de <strong>pool</strong> zelf."
+    },
+    {
+     "soort": "tekst",
+     "html": "De meridiaan van 0° heet de <strong>nulmeridiaan</strong>. Die loopt door Greenwich, bij Londen. Alles ten oosten ervan krijgt <strong>oosterlengte</strong>, alles ten westen ervan <strong>westerlengte</strong>. Tegenover de nulmeridiaan, ruwweg op de 180ste meridiaan door de Stille Oceaan, ligt de <strong>datumlijn</strong>. Die maakt bochten om eilandengroepen en landen niet in twee data te splitsen."
+    },
+    {
+     "soort": "weetje",
+     "html": "Alle plaatsen op dezelfde meridiaan hebben tegelijk dezelfde <strong>zonnetijd</strong>: daar staat de zon op hetzelfde moment het hoogst. Daarom is de lengte de basis van de tijdzones, ook al volgen de officiële zones landsgrenzen in plaats van rechte lijnen."
+    }
+   ]
+  },
+  {
+   "kop": "Absoluut en relatief situeren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Absoluut situeren</strong> is een plaats aanduiden met <strong>geografische coördinaten</strong>: een paar getallen dat maar naar één punt op aarde wijst. Je leest altijd eerst de breedte en dan de lengte. Dat is een internationale afspraak; zonder die afspraak zou 50° 4° zowel België als de Indische Oceaan kunnen aanwijzen."
+    },
+    {
+     "soort": "kader",
+     "html": "Op het examen volstaat het om te situeren op <strong>1° nauwkeurig</strong>. Eén graad breedte is ongeveer 111 kilometer, dus het blijft een ruwe aanduiding, maar met de graden in de kaartrand haal je die nauwkeurigheid vlot met een gewone atlas."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Relatief situeren</strong> is een plaats aanduiden ten opzichte van iets anders. Dat kan ten opzichte van <strong>fysischgeografische elementen</strong>: oceanen, continenten, rivieren, reliëfeenheden, klimaatzones. \"Kinshasa ligt aan de Kongostroom, in Centraal-Afrika, net ten zuiden van de evenaar\" is zo'n zin."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het kan ook ten opzichte van <strong>sociaaleconomische elementen</strong>: steden, landen, werelddelen, <strong>wereldblokken</strong>, godsdiensten, talen, armoede, analfabetisme. \"De grootste haven van de Europese Unie\" situeert met een wereldblok, en dat is iets wat mensen gemaakt hebben, niet de natuur."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">fysischgeografisch</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">sociaaleconomisch</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oceanen, rivieren, continenten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">steden, landen, wereldblokken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">reliëfeenheden en klimaatzones</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">godsdiensten en talen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vegetatiezones</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">armoede en analfabetisme</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Klimaatzone, vegetatiezone, reliëfeenheid, continent",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Van elke plaats moet je kunnen bepalen in welke <strong>klimaatzone</strong>, welke <strong>vegetatiezone</strong>, welke <strong>reliëfeenheid</strong> en welk <strong>continent</strong> ze ligt. Daarvoor gebruik je telkens een thematische kaart in de atlas, geen politieke kaart en geen luchtfoto van één akker."
+    },
+    {
+     "soort": "tekst",
+     "html": "De klimaatzone hangt vooral samen met de <strong>breedte</strong>, en daarnaast met hoogte, afstand tot de zee en zeestromen. De geografische lengte zegt er niets over: Ierland en Labrador liggen ongeveer even ver van de evenaar en hebben toch een heel ander klimaat. Voor een klimaatzone kan je ook een <strong>klimatogram</strong> van een weerstation of een tabel met maandtemperaturen en neerslag gebruiken."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>vegetatiezones</strong>, de zones van de plantengroei, volgen elkaar op van de evenaar naar de pool: tropisch <strong>regenwoud</strong>, <strong>savanne</strong>, de <strong>woestijn</strong>gordel rond de keerkring, dan de gematigde bossen, het <strong>naaldwoud</strong> en ten slotte de <strong>toendra</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>reliëfeenheid</strong> is een gebied dat je aan zijn hoogte en vorm als één geheel herkent: een laagvlakte, een plateau, een heuvelland, een gebergte. Je herkent ze aan het hoogteverloop, niet aan een landsgrens. \"De fabriek ligt op de Kempense laagvlakte\" situeert dus met een reliëfeenheid."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een <strong>patroon</strong> toont de verspreiding van iets in de ruimte, zoals de bevolking van Egypte in een smalle lijn langs de Nijl. Een <strong>proces</strong> gaat over verandering, zoals klimaatverandering of bevolkingsevolutie. Die twee woorden komen in de hele vakfiche terug."
+    }
+   ]
+  },
+  {
+   "kop": "Het kaartbeeld",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Je kan een bol niet plat maken zonder iets te vervormen. Elke wereldkaart kiest wat ze juist houdt en wat ze laat vervormen. Veel kaarten houden de hoeken kloppend en rekken daarvoor de gebieden bij de polen uit. Zo'n kaart <strong>vertekent</strong> de oppervlakten dus sterker naar de polen toe. Daardoor lijkt Groenland op een gewone schoolwereldkaart ongeveer even groot als Afrika, terwijl Afrika in werkelijkheid ongeveer veertien keer zo groot is. Er bestaat dus géén kaart die tegelijk vormen, oppervlakten en afstanden helemaal juist weergeeft."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ook het midden van de kaart is een keuze. Een bol heeft geen midden: de maker kiest waar hij hem opensnijdt. Bij ons staat Europa centraal, in China en Australië hangen andere kaarten aan de muur, en die zijn niet minder juist. Staat Amerika centraal, dan lijkt dat werelddeel groter en belangrijker, ook al verandert er niets aan zijn oppervlakte of zijn coördinaten. Dat het noorden boven staat, is net zo'n gewoonte: een kaart met het zuiden boven klopt even goed, ze voelt alleen vreemd."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>digitale kaarten</strong> stuurt de keuze van de kaartlaag wat je ziet. Op een toeristische kaart staat andere informatie dan op een reliëfkaart, en met een wegenkaart vind je geen overstromingsgevoelig gebied. Daarom lees je altijd eerst de titel, de <strong>legende</strong> en het jaartal, en kijk je wie de kaart gemaakt heeft: die kiest het thema, de kleuren en de klassen, en die keuzes sturen mee wat een lezer eruit haalt."
+    }
+   ]
+  },
+  {
+   "kop": "De mentale kaart en de mentale afstand",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>mentale kaart</strong> is het beeld dat iemand in zijn hoofd heeft van een gebied. Ze staat niet op papier, ze is nooit volledig, en ze verschilt van persoon tot persoon. Wat je goed kent staat er scherp op, een streek die je alleen van het nieuws kent blijft een vage vlek. Het kaartbeeld dat je vaak ziet, stuurt je mentale kaart mee."
+    },
+    {
+     "soort": "tekst",
+     "html": "Mensen denken ook verschillend over een plaats omdat hun context verschilt. Hun <strong>persoonlijke context</strong>: voor oudere mensen kan een stadspark vooral een plek zijn om tot rust te komen, voor jongeren een plek om te sporten of te skaten. Hun <strong>culturele context</strong>: de stad Mekka betekent voor moslims iets heel anders dan voor christenen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Er zijn drie soorten afstand. De <strong>werkelijke afstand</strong> is meetbaar: Gent en Torhout liggen over de weg 55 kilometer uit elkaar. De <strong>ervaren afstand</strong> gaat over hoe lang de weg lijkt terwijl je hem aflegt: dezelfde 55 kilometer voelt korter in een koele auto over de snelweg dan in een warme auto over kleine wegen. De <strong>mentale afstand</strong> gaat over hoe ver je dénkt dat iets ligt, ook als je er nooit geweest bent."
+    },
+    {
+     "soort": "kader",
+     "html": "Veel Belgen schatten dat Algiers verder van Brussel ligt dan Kreta, terwijl Kreta in vogelvlucht bijna 1000 kilometer verder ligt. Wat je beter kent, voelt dichterbij. Ervaren en mentale afstand zijn dus niet hetzelfde: de ene gaat over de reis zelf, de andere over je inschatting vooraf."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

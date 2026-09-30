@@ -1,0 +1,131 @@
+{
+ "vak": "Aardrijkskunde",
+ "titel": "Het versterkte broeikaseffect",
+ "onder": "De vier sferen en de koolstofcyclus, de stralingsbalans en het albedo, en de oorzaken en gevolgen van de opwarming.",
+ "secties": [
+  {
+   "kop": "De vier sferen en de koolstofcyclus",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op aarde onderscheidt men vier <strong>sferen</strong>. De <strong>geosfeer</strong> is het gesteente, de <strong>biosfeer</strong> al wat leeft, de <strong>atmosfeer</strong> de lucht, en de <strong>hydrosfeer</strong> al het water: oceanen, rivieren en ijs."
+    },
+    {
+     "soort": "tekst",
+     "html": "Koolstof blijft niet in één sfeer zitten maar beweegt er voortdurend tussen. Dat is de <strong>koolstofcyclus</strong>. Bij <strong>fotosynthese</strong> neemt een plant CO₂ op uit de lucht en bouwt daar met zonlicht suikers mee: koolstof gaat dan van de atmosfeer naar de biosfeer. Een dier eet de plant, het dier sterft, en de koolstof gaat de bodem in. Via verbranding of verwering komt ze weer in de lucht."
+    },
+    {
+     "soort": "tekst",
+     "html": "Uit de <strong>geosfeer</strong> komt koolstof langs drie wegen terug in de atmosfeer: het verbranden van steenkool, olie en aardgas, vulkaanuitbarstingen die gas uitstoten, en het maken van cement uit kalksteen. Een bos aanplanten werkt precies de andere kant op."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Fossiele brandstoffen</strong> zijn koolstof die miljoenen jaren geleden uit de lucht werd gehaald door planten en plankton. Door ze te verbranden zetten wij die oude koolstof in enkele eeuwen terug in de lucht. Dát is de kern van het probleem."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>oceanen</strong> spelen een grote rol: CO₂ lost op in zeewater, dus zijn ze na het gesteente de grootste opslagplaats van koolstof. Ze nemen ook een groot deel van de extra warmte op, en dat vertraagt de opwarming van de lucht. Daar staat tegenover dat het water uitzet, dat het verzuurt, en dat het die warmte later weer afgeeft. Die <strong>oceaanverzuring</strong> maakt het voor koralen en schelpdieren moeilijker om hun kalkskelet op te bouwen, en dat raakt de hele voedselketen in zee."
+    }
+   ]
+  },
+  {
+   "kop": "Broeikasgassen en de stralingsbalans",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>broeikasgassen</strong> uit de fiche zijn waterdamp (H₂O), koolstofdioxide (CO₂), methaan (CH₄) en lachgas (N₂O). Zuurstof en stikstofgas vormen samen het grootste deel van de lucht maar werken niet als broeikasgas."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>stralingsbalans</strong> is de verhouding tussen de straling die binnenkomt en de warmte die weer weggaat. Blijft er meer binnen dan er weggaat, dan warmt de aarde op tot de balans weer klopt. Broeikasgassen laten zonlicht vlot binnen maar houden een deel van de warmtestraling die de aarde teruggeeft in de atmosfeer vast en sturen die opnieuw naar beneden."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het tweede sleutelbegrip is het <strong>albedo</strong>, het <strong>weerkaatsingsvermogen</strong> van een oppervlak: hoeveel straling het terugkaatst, uitgedrukt als een getal tussen nul en één. Verse sneeuw op een gletsjer kaatst het grootste deel van het zonlicht terug en heeft dus een hoog albedo; open water, een donker naaldbos of asfalt slorpen juist veel op."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 232\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"16\" width=\"218\" height=\"134\" fill=\"#eaf1f6\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><rect x=\"10\" y=\"150\" width=\"218\" height=\"30\" fill=\"#e8eef3\" stroke=\"#234539\" stroke-width=\"1.2\"/><circle cx=\"36\" cy=\"34\" r=\"11\" fill=\"#c17f2b\"/><path d=\"M 46 42 L 106 146\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><path d=\"M 100 132 l 8 14 l -13 -3\" fill=\"#c17f2b\"/><path d=\"M 114 146 L 128 30\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><path d=\"M 124 42 l 5 -13 l -11 4\" fill=\"#c17f2b\"/><path d=\"M 130 146 L 144 30\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><path d=\"M 140 42 l 5 -13 l -11 4\" fill=\"#c17f2b\"/><path d=\"M 146 146 L 160 30\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><path d=\"M 156 42 l 5 -13 l -11 4\" fill=\"#c17f2b\"/><path d=\"M 162 146 L 176 30\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><path d=\"M 172 42 l 5 -13 l -11 4\" fill=\"#c17f2b\"/><path d=\"M 50 156 v 18\" stroke=\"#b9472e\" stroke-width=\"1.8\"/><path d=\"M 46 170 l 4 8 l 4 -8\" fill=\"#b9472e\"/><text x=\"119.0\" y=\"190.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">sneeuw en ijs</text><text x=\"119.0\" y=\"204.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#c17f2b\">hoog albedo</text><text x=\"119.0\" y=\"220.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">kaatst veel terug</text><rect x=\"242\" y=\"16\" width=\"218\" height=\"134\" fill=\"#eaf1f6\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><rect x=\"242\" y=\"150\" width=\"218\" height=\"30\" fill=\"#3d5a6c\" stroke=\"#234539\" stroke-width=\"1.2\"/><circle cx=\"268\" cy=\"34\" r=\"11\" fill=\"#c17f2b\"/><path d=\"M 278 42 L 338 146\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><path d=\"M 332 132 l 8 14 l -13 -3\" fill=\"#c17f2b\"/><path d=\"M 346 146 L 360 30\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><path d=\"M 356 42 l 5 -13 l -11 4\" fill=\"#c17f2b\"/><path d=\"M 282 156 v 18\" stroke=\"#b9472e\" stroke-width=\"1.8\"/><path d=\"M 278 170 l 4 8 l 4 -8\" fill=\"#b9472e\"/><path d=\"M 297 156 v 18\" stroke=\"#b9472e\" stroke-width=\"1.8\"/><path d=\"M 293 170 l 4 8 l 4 -8\" fill=\"#b9472e\"/><path d=\"M 312 156 v 18\" stroke=\"#b9472e\" stroke-width=\"1.8\"/><path d=\"M 308 170 l 4 8 l 4 -8\" fill=\"#b9472e\"/><path d=\"M 327 156 v 18\" stroke=\"#b9472e\" stroke-width=\"1.8\"/><path d=\"M 323 170 l 4 8 l 4 -8\" fill=\"#b9472e\"/><text x=\"351.0\" y=\"190.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">water en donker bos</text><text x=\"351.0\" y=\"204.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#c17f2b\">laag albedo</text><text x=\"351.0\" y=\"220.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">neemt veel warmte op</text></svg>",
+     "onderschrift": "Wit kaatst terug, donker neemt op. Daarom versterkt smeltend ijs de opwarming: wat eronder tevoorschijn komt, is donkerder."
+    },
+    {
+     "soort": "tekst",
+     "html": "Smelt zee-ijs, dan komt er donkerder water bloot dat meer warmte opneemt. Minder ijs betekent een lager albedo, dus meer opwarming, dus nog minder ijs. Zo'n zichzelf versterkende lus heet een <strong>terugkoppeling</strong> in het <strong>klimaatsysteem</strong>: een gevolg dat zijn eigen oorzaak versterkt of verzwakt. Daardoor is dat systeem zo moeilijk voorspelbaar. Dooiende <strong>permafrost</strong> is er nog zo een: in de bevroren bodem van Siberië en Canada zit enorm veel organisch materiaal, en ontdooit die, dan begint het te rotten en komen er methaan en CO₂ vrij die er duizenden jaren in opgesloten zaten."
+    }
+   ]
+  },
+  {
+   "kop": "Natuurlijk en versterkt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Zonder het <strong>natuurlijke broeikaseffect</strong> zou het op aarde gemiddeld ongeveer <strong>achttien graden onder nul</strong> zijn in plaats van ongeveer vijftien graden erboven. Het natuurlijke broeikaseffect is dus geen probleem maar juist de reden dat er leven mogelijk is. Het helemaal wegwerken zou de aarde te koud maken."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 240\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"16\" width=\"218\" height=\"136\" fill=\"#eaf1f6\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><rect x=\"10\" y=\"152\" width=\"218\" height=\"26\" fill=\"#7ba368\" stroke=\"#234539\" stroke-width=\"1.2\"/><rect x=\"10\" y=\"47\" width=\"218\" height=\"10\" fill=\"#6b7260\" opacity=\"0.35\"/><text x=\"222.0\" y=\"50.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#6b7260\">broeikasgassen</text><circle cx=\"38\" cy=\"34\" r=\"11\" fill=\"#c17f2b\"/><path d=\"M 48 42 L 106 146\" stroke=\"#c17f2b\" stroke-width=\"2\"/><path d=\"M 100 132 l 8 16 l -14 -4\" fill=\"#c17f2b\"/><path d=\"M 128 146 L 128 62\" stroke=\"#a2521f\" stroke-width=\"1.6\"/><path d=\"M 124 68 L 128 58 L 132 68 Z\" fill=\"#a2521f\"/><path d=\"M 154 146 L 154 62\" stroke=\"#a2521f\" stroke-width=\"1.6\"/><path d=\"M 150 68 L 154 58 L 158 68 Z\" fill=\"#a2521f\"/><path d=\"M 180 146 L 180 62\" stroke=\"#a2521f\" stroke-width=\"1.6\"/><path d=\"M 176 68 L 180 58 L 184 68 Z\" fill=\"#a2521f\"/><path d=\"M 206 146 L 206 62\" stroke=\"#a2521f\" stroke-width=\"1.6\" opacity=\"0.5\"/><path d=\"M 206 56 L 206 138\" stroke=\"#a2521f\" stroke-width=\"1.6\"/><path d=\"M 202 132 L 206 142 L 210 132 Z\" fill=\"#a2521f\"/><text x=\"119.0\" y=\"10.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">gewoon broeikaseffect</text><text x=\"119.0\" y=\"196.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">een deel van de warmte gaat weg, de rest</text><text x=\"119.0\" y=\"208.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">houdt de aarde leefbaar</text><rect x=\"242\" y=\"16\" width=\"218\" height=\"136\" fill=\"#eaf1f6\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><rect x=\"242\" y=\"152\" width=\"218\" height=\"26\" fill=\"#7ba368\" stroke=\"#234539\" stroke-width=\"1.2\"/><rect x=\"242\" y=\"41\" width=\"218\" height=\"22\" fill=\"#6b7260\" opacity=\"0.35\"/><text x=\"454.0\" y=\"50.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#6b7260\">broeikasgassen</text><circle cx=\"270\" cy=\"34\" r=\"11\" fill=\"#c17f2b\"/><path d=\"M 280 42 L 338 146\" stroke=\"#c17f2b\" stroke-width=\"2\"/><path d=\"M 332 132 l 8 16 l -14 -4\" fill=\"#c17f2b\"/><path d=\"M 360 146 L 360 62\" stroke=\"#a2521f\" stroke-width=\"1.6\"/><path d=\"M 356 68 L 360 58 L 364 68 Z\" fill=\"#a2521f\"/><path d=\"M 386 146 L 386 62\" stroke=\"#a2521f\" stroke-width=\"1.6\" opacity=\"0.5\"/><path d=\"M 386 56 L 386 138\" stroke=\"#a2521f\" stroke-width=\"1.6\"/><path d=\"M 382 132 L 386 142 L 390 132 Z\" fill=\"#a2521f\"/><path d=\"M 412 146 L 412 62\" stroke=\"#a2521f\" stroke-width=\"1.6\" opacity=\"0.5\"/><path d=\"M 412 56 L 412 138\" stroke=\"#a2521f\" stroke-width=\"1.6\"/><path d=\"M 408 132 L 412 142 L 416 132 Z\" fill=\"#a2521f\"/><path d=\"M 438 146 L 438 62\" stroke=\"#a2521f\" stroke-width=\"1.6\" opacity=\"0.5\"/><path d=\"M 438 56 L 438 138\" stroke=\"#a2521f\" stroke-width=\"1.6\"/><path d=\"M 434 132 L 438 142 L 442 132 Z\" fill=\"#a2521f\"/><text x=\"351.0\" y=\"10.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">versterkt broeikaseffect</text><text x=\"351.0\" y=\"196.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">er zitten meer broeikasgassen in de lucht,</text><text x=\"351.0\" y=\"208.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">dus er ontsnapt minder</text><text x=\"235.0\" y=\"232.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">Een rode pijl omhoog is warmte die weggaat; een pijl die terugbuigt is warmte die blijft hangen.</text></svg>",
+     "onderschrift": "Hetzelfde mechanisme, twee keer. Rechts zitten er meer broeikasgassen in de lucht, dus ontsnapt er minder warmte."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>versterkte broeikaseffect</strong> komt van de extra gassen die de mens uitstoot. Het mechanisme is precies hetzelfde; het verschil zit in de hoeveelheid."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Waterdamp</strong> is een belangrijk broeikasgas, maar de mens brengt het niet rechtstreeks in de lucht. De hoeveelheid ervan volgt de temperatuur: warmere lucht houdt meer damp vast, en dat versterkt de opwarming die er al was. Waterdamp werkt dus als een terugkoppeling, niet als een oorzaak."
+    }
+   ]
+  },
+  {
+   "kop": "De oorzaken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het grootste deel van de door de mens uitgestoten CO₂ komt uit het verbranden van <strong>steenkool, olie en aardgas</strong>: energie, transport, verwarming en industrie draaien er grotendeels op. Ontbossing en cementproductie komen daarbij."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Methaan</strong> ontstaat overal waar organisch materiaal zonder zuurstof afbreekt: bij herkauwers zoals runderen, op rijstvelden onder water, op stortplaatsen met rottend afval. Daarbij komen nog de lekken bij de winning en het transport van aardgas. <strong>Lachgas</strong> komt in de landbouw vooral van het bemesten van de grond: bacteriën in de bodem zetten stikstof uit mest en kunstmest deels om in lachgas. Daarom telt de manier van bemesten mee in de klimaatbalans van een bedrijf."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat de hoeveelheid CO₂ in de lucht al decennia stijgt, meet men op drie manieren die dezelfde kant op wijzen: met meetstations verspreid over de wereld, aan luchtbelletjes in oude <strong>ijskernen</strong> uit het poolijs, en met langlopende reeksen die jaar na jaar worden aangevuld. IJskernen laten toe om ver terug te kijken, tot lang voor er gemeten werd."
+    },
+    {
+     "soort": "weetje",
+     "html": "Krijg je een grafiek van de CO₂-hoeveelheid sinds 1960, kijk dan eerst naar de eenheid, de schaal van de assen en de gemeten periode. Een afgeknipte as of een te korte periode kan elke trend laten verdwijnen of overdrijven."
+    }
+   ]
+  },
+  {
+   "kop": "De gevolgen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De fiche somt vijf gevolgen op. Het eerste is de <strong>zeespiegelstijging</strong>, met twee oorzaken tegelijk: water zet uit als het warmer wordt, en het <strong>landijs</strong> van Groenland, Antarctica en de gletsjers voegt water toe dat eerst op land lag. Drijvend <strong>zee-ijs</strong> telt daarin níét mee: dat verplaatst al evenveel water als het weegt, dus het smelten ervan verandert het peil niet. Het telt wel mee via het albedo. Laaggelegen kustgebieden, delta's zoals die van de Ganges en de Nijl, en eilandstaten in de Stille Oceaan lopen het grootste risico, en net daar wonen heel veel mensen dicht op elkaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het tweede is de <strong>verschuiving van de klimaatzones</strong>, naar de polen toe en op bergen naar boven toe. Het derde volgt daaruit: de <strong>leefgebieden van planten en dieren</strong> schuiven mee. Wie traag is, of vastzit tussen steden en akkers, geraakt niet mee, en wie al op de top of aan de pool zit, kan nergens meer heen. Dat zet de <strong>biodiversiteit</strong>, de verscheidenheid aan soorten die een ecosysteem veerkrachtig maakt, zwaar onder druk."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het vierde zijn de <strong>extreme weerfenomenen</strong>: langere en zwaardere hittegolven, hevigere buien met veel neerslag in korte tijd, en langere droogteperiodes in bepaalde streken. Warmere lucht houdt meer vocht vast, dus valt er meer in één keer terwijl het elders langer droog blijft. Het weer wordt grilliger, niet gelijkmatiger. Voor Vlaanderen is dat meteen een waterprobleem: bij een hevige bui loopt het water over verharde grond weg, en bij droogte staat de grondwatertafel te laag."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het vijfde is de <strong>verspreiding van tropische ziektes</strong>. De muggen die ze overbrengen hebben warmte nodig om zich voort te planten; warmt een streek op, dan schuift het gebied waarin zo'n mug kan leven mee, en de ziekte schuift mee."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Weer</strong> is wat er vandaag gebeurt, <strong>klimaat</strong> is het gemiddelde over dertig jaar. Eén hittegolf bewijst dus niets op zichzelf. Dat hete zomers stééds vaker voorkomen, zegt wel iets."
+    },
+    {
+     "soort": "tekst",
+     "html": "De opwarming treft niet elk land even hard: ligging, reliëf en welvaart bepalen mee hoe kwetsbaar een land is. Een laaggelegen deltastaat met weinig middelen loopt veel meer risico dan een bergland met een hoge HDI. En het zijn niet de landen met de hoogste uitstoot per inwoner die het hardst getroffen worden: meestal is het omgekeerd. Landen met een lagere ontwikkelingsgraad stoten per inwoner veel minder uit en hebben tegelijk het minste geld om zich te beschermen. Dat is de kern van wat men klimaatrechtvaardigheid noemt."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

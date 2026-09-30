@@ -5171,3 +5171,130 @@ def aanzichten(breedte=470):
         d.append(_tekst(x + 112, y + hhh / 2 + 10, wat, 8, DIM, "start"))
     d.append(_tekst(breedte / 2, h - 6, "Een aanzicht is altijd plat: je tekent geen diepte, alleen wat je vanuit die ene kant ziet.", 9, DIM))
     return _svg(breedte, h, "".join(d))
+
+
+def leeftijdshistogram(breedte=470):
+    """Drie leeftijdshistogrammen naast elkaar: piramide, klok en urn.
+
+    De cijfers zijn geen echte landencijfers maar de drie schoolvormen van het
+    model, zodat een kind aan de vórm leert aflezen en niet aan een landnaam.
+    Links de mannen, rechts de vrouwen, van jong onderaan naar oud bovenaan,
+    zoals op elk leeftijdshistogram.
+    """
+    h = 230
+    vormen = [
+        ("piramide", "veel kinderen, weinig ouderen",
+         [1.00, 0.88, 0.76, 0.64, 0.53, 0.42, 0.32, 0.22, 0.13, 0.06]),
+        ("klok", "de groepen liggen dicht bij elkaar",
+         [0.72, 0.78, 0.84, 0.88, 0.86, 0.78, 0.64, 0.46, 0.27, 0.11]),
+        ("urn", "weinig kinderen, veel ouderen",
+         [0.46, 0.52, 0.60, 0.70, 0.82, 0.90, 0.86, 0.72, 0.48, 0.20]),
+    ]
+    kolom = breedte / 3
+    balk_h = 13
+    onder = 186
+    d = []
+    for i, (naam, onderschrift, waarden) in enumerate(vormen):
+        mid = kolom * i + kolom / 2
+        half = kolom / 2 - 16
+        for j, w in enumerate(waarden):
+            y = onder - (j + 1) * balk_h
+            b = w * half
+            d.append(f'<rect x="{mid-b:.1f}" y="{y}" width="{b:.1f}" height="{balk_h-2}" '
+                     f'fill="#9fb7c8" stroke="{DARK}" stroke-width="0.7"/>')
+            d.append(f'<rect x="{mid:.1f}" y="{y}" width="{b:.1f}" height="{balk_h-2}" '
+                     f'fill="#d8bfa6" stroke="{DARK}" stroke-width="0.7"/>')
+        d.append(f'<line x1="{mid:.1f}" y1="{onder-len(waarden)*balk_h}" x2="{mid:.1f}" '
+                 f'y2="{onder}" stroke="{DARK}" stroke-width="1.2"/>')
+        d.append(f'<line x1="{mid-half:.1f}" y1="{onder}" x2="{mid+half:.1f}" y2="{onder}" '
+                 f'stroke="{INK}" stroke-width="1.6"/>')
+        d.append(_tekst(mid, onder + 16, naam, 11, AMBER, vet=True))
+        for regel_i, regel in enumerate(_regels(onderschrift, 22)):
+            d.append(_tekst(mid, onder + 30 + regel_i * 12, regel, 9, DIM))
+    d.append(_tekst(kolom / 2 - 34, 20, "mannen", 9, DIM, "end"))
+    d.append(_tekst(kolom / 2 + 34, 20, "vrouwen", 9, DIM, "start"))
+    d.append(_tekst(breedte - 8, 20, "onderaan de jongste groep, bovenaan de oudste",
+                    9, DIM, "end"))
+    return _svg(breedte, h, "".join(d))
+
+
+def demografische_transitie(breedte=470):
+    """De vier fasen van de demografische transitie, met beide cijfers.
+
+    De bruine lijn is het geboortecijfer, de blauwe het sterftecijfer. Het
+    gekleurde vlak ertussen is de natuurlijke aangroei: hoe wijder het gat,
+    hoe sneller de bevolking groeit.
+    """
+    links, rechts = 42, breedte - 10
+    boven, onder = 24, 156
+    h = 212
+    span = rechts - links
+
+    def x(f):
+        return links + f * span
+
+    def y(waarde):                      # waarde in ‰, van 0 tot 45
+        return onder - waarde / 45 * (onder - boven)
+
+    fracties = [0.00, 0.12, 0.25, 0.38, 0.50, 0.62, 0.75, 0.88, 1.00]
+    geboorte = [40, 40, 39, 37, 32, 24, 17, 13, 11]
+    sterfte = [38, 34, 26, 18, 13, 11, 10, 10, 11]
+    gb = " ".join(f"{x(f):.1f},{y(v):.1f}" for f, v in zip(fracties, geboorte))
+    st = " ".join(f"{x(f):.1f},{y(v):.1f}" for f, v in zip(fracties, sterfte))
+    vlak = gb + " " + " ".join(
+        f"{x(f):.1f},{y(v):.1f}" for f, v in zip(reversed(fracties), reversed(sterfte)))
+    d = [f'<polygon points="{vlak}" fill="#cfe0d4" opacity="0.75"/>']
+    d.append(f'<line x1="{links}" y1="{boven}" x2="{links}" y2="{onder}" stroke="{DIM}" stroke-width="1.4"/>')
+    d.append(f'<line x1="{links}" y1="{onder}" x2="{rechts}" y2="{onder}" stroke="{DIM}" stroke-width="1.4"/>')
+    for waarde in (0, 20, 40):
+        d.append(f'<line x1="{links-4}" y1="{y(waarde):.1f}" x2="{links}" y2="{y(waarde):.1f}" '
+                 f'stroke="{DIM}" stroke-width="1.2"/>')
+        d.append(_tekst(links - 7, y(waarde) + 3.5, f"{waarde}", 9, DIM, "end"))
+    d.append(_tekst(links - 7, 14, "per 1000", 9, DIM, "end"))
+    for i in (1, 2, 3):
+        gx = x(i / 4)
+        d.append(f'<line x1="{gx:.1f}" y1="{boven}" x2="{gx:.1f}" y2="{onder}" stroke="{DIM}" '
+                 f'stroke-width="1.1" stroke-dasharray="4 4" opacity="0.6"/>')
+    d.append(f'<polyline points="{gb}" fill="none" stroke="{AMBER}" stroke-width="2.4"/>')
+    d.append(f'<polyline points="{st}" fill="none" stroke="#5b7f9c" stroke-width="2.4"/>')
+    for i, (naam, bij) in enumerate([
+            ("fase 1", "beide hoog"),
+            ("fase 2", "sterfte daalt"),
+            ("fase 3", "geboorte daalt"),
+            ("fase 4", "beide laag")]):
+        mx = x((i + 0.5) / 4)
+        d.append(_tekst(mx, onder + 16, naam, 10, DARK, vet=True))
+        d.append(_tekst(mx, onder + 29, bij, 9, DIM))
+    d.append(_tekst(x(0.5), 14, "geboortecijfer", 9.5, AMBER, "end"))
+    d.append(_tekst(x(0.54), 14, "sterftecijfer", 9.5, "#5b7f9c", "start"))
+    return _svg(breedte, h + 16, "".join(d))
+
+
+def stralingsbalans(breedte=470):
+    """Wat er met het zonlicht gebeurt: terugkaatsen of opnemen, en albedo."""
+    h = 232
+    d = []
+    for i, (x0, kop, albedo, kleur, terug, op) in enumerate([
+            (10, "sneeuw en ijs", "hoog albedo", "#e8eef3", 4, 1),
+            (242, "water en donker bos", "laag albedo", "#3d5a6c", 1, 4)]):
+        b, grond = 218, 150
+        d.append(f'<rect x="{x0}" y="16" width="{b}" height="{grond-16}" fill="#eaf1f6" '
+                 f'stroke="{BORDER}" stroke-width="1.2"/>')
+        d.append(f'<rect x="{x0}" y="{grond}" width="{b}" height="30" fill="{kleur}" '
+                 f'stroke="{DARK}" stroke-width="1.2"/>')
+        d.append(f'<circle cx="{x0+26}" cy="34" r="11" fill="{AMBER}"/>')
+        d.append(f'<path d="M {x0+36} 42 L {x0+96} {grond-4}" stroke="{AMBER}" stroke-width="2.2"/>')
+        d.append(f'<path d="M {x0+90} {grond-18} l 8 14 l -13 -3" fill="{AMBER}"/>')
+        for j in range(terug):                      # teruggekaatst zonlicht
+            sx = x0 + 104 + j * 16
+            d.append(f'<path d="M {sx} {grond-4} L {sx+14} 30" stroke="{AMBER}" stroke-width="1.8"/>')
+            d.append(f'<path d="M {sx+10} 42 l 5 -13 l -11 4" fill="{AMBER}"/>')
+        for j in range(op):                         # opgenomen als warmte
+            sx = x0 + 40 + j * 15
+            d.append(f'<path d="M {sx} {grond+6} v 18" stroke="#b9472e" stroke-width="1.8"/>')
+            d.append(f'<path d="M {sx-4} {grond+20} l 4 8 l 4 -8" fill="#b9472e"/>')
+        d.append(_tekst(x0 + b / 2, 190, kop, 11, DARK, vet=True))
+        d.append(_tekst(x0 + b / 2, 204, albedo, 10, AMBER))
+        d.append(_tekst(x0 + b / 2, 220,
+                        "kaatst veel terug" if terug > op else "neemt veel warmte op", 9, DIM))
+    return _svg(breedte, h, "".join(d))
