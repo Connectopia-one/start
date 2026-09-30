@@ -1,0 +1,657 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Taalsysteem en taalgebruik",
+      "niveau": "start",
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk woord is een werkwoord?",
+          "opties": [
+            "snel",
+            "lopen",
+            "tafel",
+            "mooi"
+          ],
+          "antwoord": 1,
+          "uitleg": "Een werkwoord zegt wat iemand doet of wat er gebeurt.",
+          "varianten": [
+            {
+              "opties": [
+                "schrift",
+                "rekenen",
+                "stil",
+                "groot"
+              ],
+              "antwoord": 1,
+              "uitleg": "Rekenen zegt wat iemand doet. Stil en groot zeggen hoe iets is, een schrift is een ding."
+            },
+            {
+              "opties": [
+                "vogel",
+                "fluiten",
+                "klein",
+                "nat"
+              ],
+              "antwoord": 1,
+              "uitleg": "Fluiten zegt wat iemand doet. Klein en nat zeggen hoe iets is, een vogel is een dier."
+            },
+            {
+              "opties": [
+                "deur",
+                "poetsen",
+                "warm",
+                "zacht"
+              ],
+              "antwoord": 1,
+              "uitleg": "Poetsen zegt wat iemand doet. Warm en zacht zeggen hoe iets is, een deur is een ding."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het onderwerp in de zin 'De hond blaft luid.'?",
+          "opties": [
+            "De hond",
+            "blaft",
+            "luid",
+            "blaft luid"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het onderwerp is wie of wat het werkwoord doet: wie blaft er? De hond.",
+          "varianten": [
+            {
+              "vraag": "Wat is het onderwerp in de zin 'De juf schrijft op het bord.'?",
+              "opties": [
+                "De juf",
+                "schrijft",
+                "op het bord",
+                "schrijft op"
+              ],
+              "antwoord": 0,
+              "uitleg": "Het onderwerp is wie of wat het werkwoord doet: wie schrijft er? De juf."
+            },
+            {
+              "vraag": "Wat is het onderwerp in de zin 'Een merel bouwt een nest.'?",
+              "opties": [
+                "Een merel",
+                "bouwt",
+                "een nest",
+                "bouwt een"
+              ],
+              "antwoord": 0,
+              "uitleg": "Wie bouwt er? Een merel. Dat is het onderwerp."
+            },
+            {
+              "vraag": "Wat is het onderwerp in de zin 'Mijn zus kookt soep.'?",
+              "opties": [
+                "Mijn zus",
+                "kookt",
+                "soep",
+                "kookt soep"
+              ],
+              "antwoord": 0,
+              "uitleg": "Wie kookt er? Mijn zus. Dat is het onderwerp."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk woord is een bijvoeglijk naamwoord?",
+          "opties": [
+            "huis",
+            "snel",
+            "zingen",
+            "zij"
+          ],
+          "antwoord": 1,
+          "uitleg": "Een bijvoeglijk naamwoord zegt iets over een zelfstandig naamwoord: een snelle auto.",
+          "varianten": [
+            {
+              "opties": [
+                "boek",
+                "moeilijk",
+                "leren",
+                "ik"
+              ],
+              "antwoord": 1,
+              "uitleg": "Moeilijk zegt iets over een zelfstandig naamwoord: een moeilijk boek."
+            },
+            {
+              "opties": [
+                "rivier",
+                "diep",
+                "zwemmen",
+                "het"
+              ],
+              "antwoord": 1,
+              "uitleg": "Diep zegt iets over een zelfstandig naamwoord: een diepe rivier."
+            },
+            {
+              "opties": [
+                "kast",
+                "wiebelig",
+                "zitten",
+                "jullie"
+              ],
+              "antwoord": 1,
+              "uitleg": "Wiebelig zegt iets over een zelfstandig naamwoord: een wiebelige kast."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Wij' is een persoonlijk voornaamwoord.",
+          "antwoord": true,
+          "uitleg": "Ik, jij, hij, zij, wij, jullie en zij zijn persoonlijke voornaamwoorden.",
+          "varianten": [
+            {
+              "vraag": "'Jullie' is een persoonlijk voornaamwoord.",
+              "antwoord": true,
+              "uitleg": "Ik, jij, hij, zij, wij, jullie en zij zijn persoonlijke voornaamwoorden."
+            },
+            {
+              "vraag": "'Groen' is een persoonlijk voornaamwoord.",
+              "antwoord": false,
+              "uitleg": "Niet juist. Groen is een bijvoeglijk naamwoord. Ik, jij, hij, zij, wij en jullie zijn persoonlijke voornaamwoorden."
+            },
+            {
+              "vraag": "'Zij' is een persoonlijk voornaamwoord.",
+              "antwoord": true,
+              "uitleg": "Zij hoort in het rijtje ik, jij, hij, zij, wij, jullie, zij."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het gezegde in de zin 'Mats leest een boek.'?",
+          "opties": [
+            "Mats",
+            "leest",
+            "een boek",
+            "boek"
+          ],
+          "antwoord": 1,
+          "uitleg": "Het gezegde is het werkwoord: leest.",
+          "varianten": [
+            {
+              "vraag": "Wat is het gezegde in de zin 'Lore tekent een huis.'?",
+              "opties": [
+                "Lore",
+                "tekent",
+                "een huis",
+                "huis"
+              ],
+              "antwoord": 1,
+              "uitleg": "Het gezegde is het werkwoord: tekent."
+            },
+            {
+              "vraag": "Wat is het gezegde in de zin 'De koe eet gras.'?",
+              "opties": [
+                "De koe",
+                "eet",
+                "gras",
+                "de"
+              ],
+              "antwoord": 1,
+              "uitleg": "Het gezegde is het werkwoord: eet."
+            },
+            {
+              "vraag": "Wat is het gezegde in de zin 'Papa wast de auto.'?",
+              "opties": [
+                "Papa",
+                "wast",
+                "de auto",
+                "auto"
+              ],
+              "antwoord": 1,
+              "uitleg": "Het gezegde is het werkwoord: wast."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel lettergrepen heeft het woord vakantie?",
+          "antwoord": "3",
+          "uitleg": "Va-kan-tie, dus drie lettergrepen.",
+          "varianten": [
+            {
+              "vraag": "Hoeveel lettergrepen heeft het woord banaan?",
+              "antwoord": "2",
+              "uitleg": "Ba-naan, dus twee lettergrepen."
+            },
+            {
+              "vraag": "Hoeveel lettergrepen heeft het woord olifant?",
+              "antwoord": "3",
+              "uitleg": "O-li-fant, dus drie lettergrepen."
+            },
+            {
+              "vraag": "Hoeveel lettergrepen heeft het woord tomaat?",
+              "antwoord": "2",
+              "uitleg": "To-maat, dus twee lettergrepen."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk woord is een samenstelling?",
+          "opties": [
+            "tafel",
+            "boekenkast",
+            "lopen",
+            "groen"
+          ],
+          "antwoord": 1,
+          "uitleg": "Een samenstelling bestaat uit twee woorden die samen een nieuw woord vormen: boeken en kast.",
+          "varianten": [
+            {
+              "opties": [
+                "kast",
+                "voetbal",
+                "zwemmen",
+                "blauw"
+              ],
+              "antwoord": 1,
+              "uitleg": "Voet en bal zijn allebei bestaande woorden. Samen vormen ze voetbal."
+            },
+            {
+              "opties": [
+                "appel",
+                "zonnebril",
+                "rennen",
+                "koud"
+              ],
+              "antwoord": 1,
+              "uitleg": "Zon en bril zijn allebei bestaande woorden. Samen vormen ze zonnebril."
+            },
+            {
+              "opties": [
+                "raam",
+                "tandenborstel",
+                "kijken",
+                "zwaar"
+              ],
+              "antwoord": 1,
+              "uitleg": "Tanden en borstel zijn allebei bestaande woorden. Samen vormen ze tandenborstel."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De, het en een zijn voornaamwoorden.",
+          "antwoord": false,
+          "uitleg": "Niet juist. De, het en een zijn lidwoorden. Ik, jij en wij zijn voornaamwoorden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is een vraagzin?",
+          "opties": [
+            "Ik ga naar huis.",
+            "Ga je mee?",
+            "Kom hier.",
+            "Wat een mooi huis!"
+          ],
+          "antwoord": 1,
+          "uitleg": "In een vraagzin staat het werkwoord vooraan en eindigt de zin op een vraagteken.",
+          "varianten": [
+            {
+              "opties": [
+                "De zon schijnt.",
+                "Wil je een koekje?",
+                "Doe de deur dicht.",
+                "Wat een lawaai!"
+              ],
+              "antwoord": 1,
+              "uitleg": "In een vraagzin staat het werkwoord vooraan en eindigt de zin op een vraagteken."
+            },
+            {
+              "opties": [
+                "Ik lees een boek.",
+                "Waar woon jij?",
+                "Kom binnen.",
+                "Wat mooi!"
+              ],
+              "antwoord": 1,
+              "uitleg": "Waar woon jij? begint met een vraagwoord en eindigt op een vraagteken."
+            },
+            {
+              "opties": [
+                "We gaan zwemmen.",
+                "Heb je mijn jas gezien?",
+                "Zet dat weg.",
+                "Wat een geluk!"
+              ],
+              "antwoord": 1,
+              "uitleg": "Heb staat vooraan en de zin eindigt op een vraagteken, dus is het een vraagzin."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent het gezegde 'de kat uit de boom kijken'?",
+          "opties": [
+            "eerst afwachten hoe iets loopt",
+            "snel beslissen",
+            "iemand plagen",
+            "heel hard werken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je wacht af tot je weet hoe de zaken staan voor je zelf iets doet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk woord is een zelfstandig naamwoord?",
+          "opties": [
+            "snel",
+            "lopen",
+            "boom",
+            "erg"
+          ],
+          "antwoord": 2,
+          "uitleg": "Een zelfstandig naamwoord is een naam voor een ding, dier, mens of idee.",
+          "varianten": [
+            {
+              "opties": [
+                "blij",
+                "fietsen",
+                "stoel",
+                "erg"
+              ],
+              "antwoord": 2,
+              "uitleg": "Een stoel is een ding, dus een zelfstandig naamwoord."
+            },
+            {
+              "opties": [
+                "hoog",
+                "springen",
+                "brug",
+                "vaak"
+              ],
+              "antwoord": 2,
+              "uitleg": "Een brug is een ding, dus een zelfstandig naamwoord."
+            },
+            {
+              "opties": [
+                "stil",
+                "werken",
+                "brood",
+                "nooit"
+              ],
+              "antwoord": 2,
+              "uitleg": "Brood is een ding, dus een zelfstandig naamwoord."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het lijdend voorwerp in 'Ik eet een appel.'?",
+          "opties": [
+            "Ik",
+            "eet",
+            "een appel",
+            "een"
+          ],
+          "antwoord": 2,
+          "uitleg": "Vraag: wat eet ik? Een appel.",
+          "varianten": [
+            {
+              "vraag": "Wat is het lijdend voorwerp in 'Zij drinkt melk.'?",
+              "opties": [
+                "Zij",
+                "drinkt",
+                "melk",
+                "drinkt melk"
+              ],
+              "antwoord": 2,
+              "uitleg": "Vraag: wat drinkt zij? Melk."
+            },
+            {
+              "vraag": "Wat is het lijdend voorwerp in 'Wij kopen bloemen.'?",
+              "opties": [
+                "Wij",
+                "kopen",
+                "bloemen",
+                "kopen bloemen"
+              ],
+              "antwoord": 2,
+              "uitleg": "Vraag: wat kopen wij? Bloemen."
+            },
+            {
+              "vraag": "Wat is het lijdend voorwerp in 'Hij schrijft een brief.'?",
+              "opties": [
+                "Hij",
+                "schrijft",
+                "een brief",
+                "schrijft een"
+              ],
+              "antwoord": 2,
+              "uitleg": "Vraag: wat schrijft hij? Een brief."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een bijwoord zegt iets over het werkwoord, bijvoorbeeld hoe iets gebeurt.",
+          "antwoord": true,
+          "uitleg": "In hij loopt snel zegt snel iets over lopen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk woord is een voorzetsel?",
+          "opties": [
+            "onder",
+            "lopen",
+            "huis",
+            "groen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Onder, op, in, naast en achter geven een plaats of richting aan.",
+          "varianten": [
+            {
+              "opties": [
+                "naast",
+                "zingen",
+                "muur",
+                "klein"
+              ],
+              "antwoord": 0,
+              "uitleg": "Naast, op, in, onder en achter geven een plaats of richting aan."
+            },
+            {
+              "opties": [
+                "achter",
+                "tekenen",
+                "bos",
+                "snel"
+              ],
+              "antwoord": 0,
+              "uitleg": "Achter, op, in, naast en onder geven een plaats of richting aan."
+            },
+            {
+              "opties": [
+                "tussen",
+                "dromen",
+                "trap",
+                "dik"
+              ],
+              "antwoord": 0,
+              "uitleg": "Tussen, op, in, naast en achter geven een plaats of richting aan."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel lettergrepen heeft het woord computer?",
+          "antwoord": "3",
+          "uitleg": "Com-pu-ter.",
+          "varianten": [
+            {
+              "vraag": "Hoeveel lettergrepen heeft het woord bibliotheek?",
+              "antwoord": "4",
+              "uitleg": "Bi-bli-o-theek, dus vier lettergrepen."
+            },
+            {
+              "vraag": "Hoeveel lettergrepen heeft het woord regen?",
+              "antwoord": "2",
+              "uitleg": "Re-gen, dus twee lettergrepen."
+            },
+            {
+              "vraag": "Hoeveel lettergrepen heeft het woord winkelkar?",
+              "antwoord": "3",
+              "uitleg": "Win-kel-kar, dus drie lettergrepen."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin bevat een verkleinwoord?",
+          "opties": [
+            "De hond blaft.",
+            "Het hondje blaft.",
+            "De honden blaffen.",
+            "Hond, kom hier."
+          ],
+          "antwoord": 1,
+          "uitleg": "Een verkleinwoord eindigt op -je, -tje, -pje of -kje.",
+          "varianten": [
+            {
+              "opties": [
+                "De kat slaapt.",
+                "Het katje slaapt.",
+                "De katten slapen.",
+                "Kat, kom hier."
+              ],
+              "antwoord": 1,
+              "uitleg": "Katje eindigt op -je, en dat is een verkleinwoord."
+            },
+            {
+              "opties": [
+                "De boom valt.",
+                "Het boompje valt.",
+                "De bomen vallen.",
+                "Boom, pas op."
+              ],
+              "antwoord": 1,
+              "uitleg": "Boompje eindigt op -pje, en dat is een verkleinwoord."
+            },
+            {
+              "opties": [
+                "De man lacht.",
+                "Het mannetje lacht.",
+                "De mannen lachen.",
+                "Man, kijk uit."
+              ],
+              "antwoord": 1,
+              "uitleg": "Mannetje eindigt op -tje, en dat is een verkleinwoord."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het woord snelheid is een samenstelling van twee woorden.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Snelheid is een afleiding: snel plus de uitgang -heid. Bij een samenstelling plak je twee bestaande woorden aan elkaar, zoals voetbal.",
+          "varianten": [
+            {
+              "vraag": "Het woord vriendschap is een samenstelling van twee woorden.",
+              "antwoord": false,
+              "uitleg": "Niet juist. Vriendschap is een afleiding: vriend plus de uitgang -schap. Bij een samenstelling plak je twee bestaande woorden aan elkaar, zoals tandpasta."
+            },
+            {
+              "vraag": "Het woord tafelpoot is een samenstelling van twee woorden.",
+              "antwoord": true,
+              "uitleg": "Klopt. Tafel en poot bestaan allebei op zichzelf."
+            },
+            {
+              "vraag": "Het woord blijheid is een samenstelling van twee woorden.",
+              "antwoord": false,
+              "uitleg": "Niet juist. Blijheid is een afleiding: blij plus de uitgang -heid."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent de uitdrukking 'een appeltje voor de dorst'?",
+          "opties": [
+            "iets opzij zetten voor later",
+            "honger hebben",
+            "ziek worden",
+            "snel eten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Meestal gaat het over geld dat je spaart voor moeilijke tijden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk woord hoort niet in het rijtje: fiets, auto, trein, boom?",
+          "opties": [
+            "fiets",
+            "auto",
+            "trein",
+            "boom"
+          ],
+          "antwoord": 3,
+          "uitleg": "De eerste drie zijn vervoermiddelen, een boom niet.",
+          "varianten": [
+            {
+              "vraag": "Welk woord hoort niet in het rijtje: appel, peer, banaan, kruk?",
+              "opties": [
+                "appel",
+                "peer",
+                "banaan",
+                "kruk"
+              ],
+              "antwoord": 3,
+              "uitleg": "De eerste drie zijn fruit, een kruk niet."
+            },
+            {
+              "vraag": "Welk woord hoort niet in het rijtje: hond, kat, konijn, tafel?",
+              "opties": [
+                "hond",
+                "kat",
+                "konijn",
+                "tafel"
+              ],
+              "antwoord": 3,
+              "uitleg": "De eerste drie zijn dieren, een tafel niet."
+            },
+            {
+              "vraag": "Welk woord hoort niet in het rijtje: rood, blauw, groen, potlood?",
+              "opties": [
+                "rood",
+                "blauw",
+                "groen",
+                "potlood"
+              ],
+              "antwoord": 3,
+              "uitleg": "De eerste drie zijn kleuren, een potlood niet."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In de zin 'De kat slaapt' staat het werkwoord in het enkelvoud.",
+          "antwoord": true,
+          "uitleg": "Er is één kat, dus slaapt en niet slapen.",
+          "varianten": [
+            {
+              "vraag": "In de zin 'De honden blaffen' staat het werkwoord in het enkelvoud.",
+              "antwoord": false,
+              "uitleg": "Niet juist. Er zijn meer honden, dus blaffen en niet blaft. Dat is meervoud."
+            },
+            {
+              "vraag": "In de zin 'Het kind speelt' staat het werkwoord in het enkelvoud.",
+              "antwoord": true,
+              "uitleg": "Er is één kind, dus speelt en niet spelen."
+            },
+            {
+              "vraag": "In de zin 'De kinderen spelen' staat het werkwoord in het enkelvoud.",
+              "antwoord": false,
+              "uitleg": "Niet juist. Er zijn meer kinderen, dus spelen en niet speelt. Dat is meervoud."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

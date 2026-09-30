@@ -56,8 +56,10 @@ def elders():
     gevonden = {}
     for pad in sorted(INHOUD.glob("*/*.json")):
         # Ons eigen bestand overslaan, anders vindt een tweede keer bouwen al
-        # zijn eigen vragen terug en lijkt alles dubbel te staan.
-        if pad.resolve() == DOEL.resolve():
+        # zijn eigen vragen terug en lijkt alles dubbel te staan. Hetzelfde
+        # geldt voor de "-varianten"-bestanden: dat zijn uittreksels van een
+        # bestand dat hier al langskomt, dus staat elke vraag daarin ook elders.
+        if pad.resolve() == DOEL.resolve() or pad.name.endswith("-varianten.json"):
             continue
         try:
             data = json.loads(pad.read_text(encoding="utf-8"))
@@ -189,6 +191,13 @@ def main():
     )
     totaal = sum(len(h["vragen"]) for h in hoofdstukken)
     print(f"geschreven: {DOEL.name} — {len(hoofdstukken)} hoofdstukken, {totaal} vragen")
+
+    # De wisselende woorden staan niet in frans.py maar in varianten_start.py,
+    # want ze horen bij de drie taalvakken samen. Ze worden er hier meteen
+    # terug in gezet, anders veegt een volgende bouw ze weg.
+    import varianten_start
+
+    varianten_start.zet_varianten(DOEL.name)
     return 0
 
 

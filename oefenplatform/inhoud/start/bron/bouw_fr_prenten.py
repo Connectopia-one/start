@@ -51,7 +51,9 @@ def elders():
     """Elke vraag die al ergens anders in dit niveau staat, met waar ze staat."""
     gevonden = {}
     for pad in sorted(INHOUD.glob("*/*.json")):
-        if pad.resolve() == DOEL.resolve():
+        # De "-varianten"-bestanden zijn uittreksels van een bestand dat hier
+        # al langskomt, dus staat elke vraag daarin ook elders.
+        if pad.resolve() == DOEL.resolve() or pad.name.endswith("-varianten.json"):
             continue
         try:
             data = json.loads(pad.read_text(encoding="utf-8"))

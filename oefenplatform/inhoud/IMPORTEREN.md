@@ -101,3 +101,7 @@ blijven ongemoeid.
 
 Ouders en jij zien in het meekijkscherm en op de afdruk het woord dat het kind
 écht kreeg, niet de vraag zoals ze in de databank staat.
+
+Sinds 30 september 2026 staat dit ook bij de andere taalvakken. De uittreksels
+daarvan staan in `inhoud/varianten/`, één bestand per niveau en per vak, telkens
+te importeren met **vervangen aan**. Zie `inhoud/varianten/README.md`.

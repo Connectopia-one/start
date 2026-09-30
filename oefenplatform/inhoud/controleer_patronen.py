@@ -35,8 +35,25 @@ GRENS_LANGSTE = 0.4
 WAAR_ONDER, WAAR_BOVEN = 0.35, 0.65
 
 
+def beurten(hoofdstuk):
+    """Elke vraag, en daarnaast elke beurt van een vraag met wisselende woorden.
+
+    Een kind dat een hoofdstuk een tweede keer maakt, krijgt die beurten op
+    het scherm. Ze horen er dus bij als je telt of er te raden valt.
+    """
+    alle = []
+    for v in hoofdstuk.get("vragen", []):
+        alle.append(v)
+        for variant in v.get("varianten") or []:
+            heel = {k: w for k, w in v.items() if k != "varianten"}
+            heel.update(variant)
+            alle.append(heel)
+    return alle
+
+
 def tel(hoofdstuk):
-    mk = [v for v in hoofdstuk.get("vragen", []) if v["type"] == "meerkeuze"]
+    vragen = beurten(hoofdstuk)
+    mk = [v for v in vragen if v["type"] == "meerkeuze"]
     langst = 0
     for v in mk:
         antw = v["antwoord"] if isinstance(v["antwoord"], list) else [v["antwoord"]]
@@ -44,7 +61,7 @@ def tel(hoofdstuk):
         anders = [lengtes[i] for i in range(len(lengtes)) if i not in antw]
         if anders and min(lengtes[i] for i in antw) > max(anders) + SPELING:
             langst += 1
-    wn = [v["antwoord"] for v in hoofdstuk.get("vragen", []) if v["type"] == "waarofniet"]
+    wn = [v["antwoord"] for v in vragen if v["type"] == "waarofniet"]
     return langst, len(mk), sum(1 for a in wn if a), len(wn)
 
 
