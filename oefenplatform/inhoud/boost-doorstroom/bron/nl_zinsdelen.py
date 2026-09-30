@@ -53,7 +53,7 @@ DEEL1 = [
             "rijmend voorwerp",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De fiche noemt ook het handelend voorwerp en de bijwoordelijke bepaling. Een rijmend voorwerp bestaat niet.",
+        uitleg="Daarnaast bestaan ook het handelend voorwerp en de bijwoordelijke bepaling. Een rijmend voorwerp bestaat niet.",
     ),
     dict(
         type="meerkeuze",
@@ -239,7 +239,7 @@ DEEL2 = [
         vraag="Welke van deze zinssoorten bestaan?",
         opties=["mededelende", "bevelende", "uitroepende", "rijmende"],
         antwoord=[0, 1, 2],
-        uitleg="De fiche noemt ook vragende zinnen, en daarnaast het onderscheid bevestigend of ontkennend. Rijmende zinnen zijn geen zinssoort.",
+        uitleg="Daarnaast bestaan ook vragende zinnen, en het onderscheid bevestigend of ontkennend. Rijmende zinnen zijn geen zinssoort.",
     ),
     dict(
         type="meerkeuze",

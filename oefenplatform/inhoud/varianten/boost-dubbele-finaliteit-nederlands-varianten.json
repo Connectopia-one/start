@@ -1,0 +1,4099 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "De woordsoorten op een rij — deel 1",
+      "niveau": "boost-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "In 'De oude molen draaide traag', welke woordsoort is 'oude'?",
+          "opties": [
+            "een bijvoeglijk naamwoord",
+            "een zelfstandig naamwoord",
+            "een bijwoord",
+            "een telwoord"
+          ],
+          "antwoord": 0,
+          "uitleg": "'Oude' zegt iets over het zelfstandig naamwoord 'molen'. Dat is precies wat een bijvoeglijk naamwoord doet.",
+          "varianten": [
+            {
+              "vraag": "In 'De nieuwe brug ging gisteren open', welke woordsoort is 'nieuwe'?",
+              "uitleg": "'Nieuwe' zegt iets over het zelfstandig naamwoord 'brug'. Dat is precies wat een bijvoeglijk naamwoord doet."
+            },
+            {
+              "vraag": "In 'Het koude water deed hem schrikken', welke woordsoort is 'koude'?",
+              "uitleg": "'Koude' zegt iets over het zelfstandig naamwoord 'water'. Dat is precies wat een bijvoeglijk naamwoord doet."
+            },
+            {
+              "vraag": "In 'Zij droeg een rode jas', welke woordsoort is 'rode'?",
+              "uitleg": "'Rode' zegt iets over het zelfstandig naamwoord 'jas'. Dat is precies wat een bijvoeglijk naamwoord doet."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn lidwoorden?",
+          "opties": [
+            "de",
+            "een",
+            "geen",
+            "die"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Het Nederlands heeft er drie soorten: bepaald (de, het), onbepaald (een) en ontkennend (geen). 'Die' is een aanwijzend voornaamwoord.",
+          "varianten": [
+            {
+              "opties": [
+                "het",
+                "een",
+                "geen",
+                "deze"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Het Nederlands heeft er drie soorten: bepaald (de, het), onbepaald (een) en ontkennend (geen). 'Deze' is een aanwijzend voornaamwoord."
+            },
+            {
+              "opties": [
+                "de",
+                "het",
+                "geen",
+                "dat"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "De en het zijn bepaald, geen is ontkennend. 'Dat' wijst iets aan en is dus een aanwijzend voornaamwoord."
+            },
+            {
+              "opties": [
+                "een",
+                "het",
+                "geen",
+                "zulke"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Een is onbepaald, het is bepaald, geen is ontkennend. 'Zulke' wijst een soort aan en is een aanwijzend voornaamwoord."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk soort lidwoord is 'geen'?",
+          "antwoord": [
+            "ontkennend",
+            "een ontkennend lidwoord"
+          ],
+          "uitleg": "'Geen boek' is de ontkenning van 'een boek'. Daarom krijgt het een eigen naam."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'De' en 'het' zijn bepaalde lidwoorden.",
+          "antwoord": true,
+          "uitleg": "Ze wijzen naar iets dat de lezer al kent. 'Een' laat het juist open.",
+          "varianten": [
+            {
+              "vraag": "'Een' is een onbepaald lidwoord.",
+              "uitleg": "'Een' laat open om welke het gaat. 'De' en 'het' wijzen naar iets dat de lezer al kent."
+            },
+            {
+              "vraag": "'Geen' is een ontkennend lidwoord.",
+              "uitleg": "Het Nederlands heeft drie soorten lidwoorden: bepaald, onbepaald en ontkennend. 'Geen' is de derde."
+            },
+            {
+              "vraag": "'Het' wijst naar iets dat de lezer al kent.",
+              "uitleg": "Daarom heet het een bepaald lidwoord, net als 'de'. 'Een' laat het juist open."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In 'Oei, dat deed pijn!' is 'oei' een:",
+          "opties": [
+            "tussenwerpsel",
+            "bijwoord",
+            "voegwoord",
+            "voorzetsel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een tussenwerpsel drukt een gevoel of een geluid uit en staat los van de zinsbouw.",
+          "varianten": [
+            {
+              "vraag": "In 'Hè, wat jammer nu!' is 'hè' een:"
+            },
+            {
+              "vraag": "In 'Bah, wat ruikt dat vies!' is 'bah' een:"
+            },
+            {
+              "vraag": "In 'Hoera, we hebben gewonnen!' is 'hoera' een:"
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In 'De sleutel lag onder de mat', welk woord is het voorzetsel?",
+          "opties": [
+            "onder",
+            "de",
+            "sleutel",
+            "lag"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een voorzetsel geeft een verhouding aan in plaats, tijd of richting: onder, na, door, tegen.",
+          "varianten": [
+            {
+              "vraag": "In 'De kat sprong over het hek', welk woord is het voorzetsel?",
+              "opties": [
+                "over",
+                "het",
+                "kat",
+                "sprong"
+              ],
+              "uitleg": "Een voorzetsel geeft een verhouding aan in plaats, tijd of richting: over, na, door, tegen."
+            },
+            {
+              "vraag": "In 'Hij zat tussen zijn twee zussen', welk woord is het voorzetsel?",
+              "opties": [
+                "tussen",
+                "zijn",
+                "zussen",
+                "zat"
+              ],
+              "uitleg": "Een voorzetsel geeft een verhouding aan in plaats, tijd of richting: tussen, na, door, tegen."
+            },
+            {
+              "vraag": "In 'Het pakje lag achter de deur', welk woord is het voorzetsel?",
+              "opties": [
+                "achter",
+                "de",
+                "pakje",
+                "lag"
+              ],
+              "uitleg": "Een voorzetsel geeft een verhouding aan in plaats, tijd of richting: achter, na, door, tegen."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je een woord dat zinnen of zinsdelen verbindt, zoals 'en', 'maar' en 'omdat'?",
+          "antwoord": [
+            "voegwoord",
+            "een voegwoord"
+          ],
+          "uitleg": "Nevenschikkende voegwoorden zijn en, maar, of, want, dus. Onderschikkende zijn omdat, hoewel, als, dat."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Drie' is een telwoord en 'veel' een bijvoeglijk naamwoord.",
+          "antwoord": false,
+          "uitleg": "'Veel' is ook een telwoord, een onbepaald telwoord. Bepaalde telwoorden noemen een exact aantal, onbepaalde niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn voorzetsels?",
+          "opties": [
+            "op",
+            "onder",
+            "tussen",
+            "snel"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "'Snel' is een bijwoord: het zegt hoe iets gebeurt, niet waar iets zich bevindt.",
+          "varianten": [
+            {
+              "opties": [
+                "in",
+                "naast",
+                "achter",
+                "graag"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "'Graag' is een bijwoord: het zegt hoe iets gebeurt, niet waar iets zich bevindt."
+            },
+            {
+              "opties": [
+                "door",
+                "tegen",
+                "boven",
+                "vaak"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "'Vaak' is een bijwoord van tijd. Een voorzetsel geeft een verhouding aan in plaats, tijd of richting."
+            },
+            {
+              "opties": [
+                "voor",
+                "achter",
+                "naast",
+                "traag"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "'Traag' zegt hoe iets gebeurt en is dus een bijwoord, geen voorzetsel."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In 'Hij loopt snel', welke woordsoort is 'snel'?",
+          "opties": [
+            "een bijwoord",
+            "een bijvoeglijk naamwoord",
+            "een voorzetsel",
+            "een tussenwerpsel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het zegt iets over het werkwoord 'loopt'. In 'de snelle loper' zegt hetzelfde woord iets over een naamwoord en is het bijvoeglijk.",
+          "varianten": [
+            {
+              "vraag": "In 'Zij zingt mooi', welke woordsoort is 'mooi'?",
+              "uitleg": "Het zegt iets over het werkwoord 'zingt'. In 'een mooi lied' zegt hetzelfde woord iets over een naamwoord en is het bijvoeglijk."
+            },
+            {
+              "vraag": "In 'De motor draait stil', welke woordsoort is 'stil'?",
+              "uitleg": "Het zegt iets over het werkwoord 'draait'. In 'een stille motor' is hetzelfde woord bijvoeglijk."
+            },
+            {
+              "vraag": "In 'Hij schrijft netjes', welke woordsoort is 'netjes'?",
+              "uitleg": "Het zegt iets over het werkwoord 'schrijft', niet over een naamwoord."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een bijvoeglijk naamwoord zegt altijd iets over een werkwoord.",
+          "antwoord": false,
+          "uitleg": "Het zegt iets over een zelfstandig naamwoord. Een woord dat iets over een werkwoord zegt, is een bijwoord.",
+          "varianten": [
+            {
+              "vraag": "Een bijwoord zegt altijd iets over een zelfstandig naamwoord.",
+              "uitleg": "Een bijwoord zegt iets over een werkwoord, een bijvoeglijk naamwoord over een zelfstandig naamwoord."
+            },
+            {
+              "vraag": "In 'de snelle loper' is 'snelle' een bijwoord.",
+              "uitleg": "Het zegt iets over 'loper', een zelfstandig naamwoord. Dus is het bijvoeglijk."
+            },
+            {
+              "vraag": "Een bijvoeglijk naamwoord en een bijwoord zijn hetzelfde.",
+              "uitleg": "Het ene zegt iets over een zelfstandig naamwoord, het andere over een werkwoord of over de hele zin."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen een bepaald en een onbepaald lidwoord?",
+          "opties": [
+            "een bepaald lidwoord wijst naar iets bekends, een onbepaald niet",
+            "een bepaald lidwoord staat voor een meervoud, een onbepaald voor een enkelvoud",
+            "een bepaald lidwoord wordt altijd beklemtoond",
+            "een bepaald lidwoord komt alleen in bijzinnen voor"
+          ],
+          "antwoord": 0,
+          "uitleg": "'Ik zag de hond' veronderstelt dat je weet welke hond. 'Ik zag een hond' niet."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het woord dat een persoon, dier, ding of begrip benoemt?",
+          "antwoord": [
+            "zelfstandig naamwoord",
+            "een zelfstandig naamwoord",
+            "substantief"
+          ],
+          "uitleg": "Je herkent het aan het lidwoord dat je ervoor kan zetten: de vrijheid, het paard, een idee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In 'Gelukkig regende het niet', welke woordsoort is 'gelukkig'?",
+          "opties": [
+            "een bijwoord",
+            "een bijvoeglijk naamwoord",
+            "een tussenwerpsel",
+            "een voegwoord"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het zegt iets over de hele zin, niet over een naamwoord. In 'een gelukkig kind' is hetzelfde woord wel bijvoeglijk.",
+          "varianten": [
+            {
+              "vraag": "In 'Waarschijnlijk komt hij later', welke woordsoort is 'waarschijnlijk'?",
+              "uitleg": "Het zegt iets over de hele zin, niet over een naamwoord. Zo'n woord is een bijwoord."
+            },
+            {
+              "vraag": "In 'Misschien regent het morgen', welke woordsoort is 'misschien'?",
+              "uitleg": "Het zegt iets over de hele zin, niet over één naamwoord. Dat maakt het een bijwoord."
+            },
+            {
+              "vraag": "In 'Hopelijk lukt het deze keer', welke woordsoort is 'hopelijk'?",
+              "uitleg": "Het zegt iets over de hele zin. Een woord dat dat doet, is een bijwoord."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een tussenwerpsel staat los van de rest van de zinsbouw.",
+          "antwoord": true,
+          "uitleg": "Haal 'och' of 'hé' weg en de zin blijft gewoon staan. Bij de andere woordsoorten gaat dat niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk woord in 'Er stonden veertien fietsen in het rek' is een telwoord?",
+          "opties": [
+            "veertien",
+            "fietsen",
+            "rek",
+            "stonden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een bepaald telwoord noemt een precies aantal. Onbepaalde telwoorden zijn woorden als veel, weinig, enkele.",
+          "varianten": [
+            {
+              "vraag": "Welk woord in 'Er lagen zeventien brieven op de tafel' is een telwoord?",
+              "opties": [
+                "zeventien",
+                "brieven",
+                "tafel",
+                "lagen"
+              ]
+            },
+            {
+              "vraag": "Welk woord in 'Hij bestelde drie broodjes aan de kassa' is een telwoord?",
+              "opties": [
+                "drie",
+                "broodjes",
+                "kassa",
+                "bestelde"
+              ]
+            },
+            {
+              "vraag": "Welk woord in 'De zaal telde tachtig stoelen' is een telwoord?",
+              "opties": [
+                "tachtig",
+                "stoelen",
+                "zaal",
+                "telde"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze woorden zijn bijwoorden?",
+          "opties": [
+            "gisteren",
+            "daar",
+            "nauwelijks",
+            "groen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Bijwoorden zeggen iets over tijd, plaats, mate of manier. 'Groen' hoort bij een naamwoord en is bijvoeglijk.",
+          "varianten": [
+            {
+              "opties": [
+                "straks",
+                "hier",
+                "nauwelijks",
+                "rood"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Bijwoorden zeggen iets over tijd, plaats, mate of manier. 'Rood' hoort bij een naamwoord en is bijvoeglijk."
+            },
+            {
+              "opties": [
+                "morgen",
+                "ginder",
+                "amper",
+                "blauw"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Bijwoorden zeggen iets over tijd, plaats, mate of manier. 'Blauw' hoort bij een naamwoord en is bijvoeglijk."
+            },
+            {
+              "opties": [
+                "vaak",
+                "overal",
+                "erg",
+                "geel"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Bijwoorden zeggen iets over tijd, plaats, mate of manier. 'Geel' hoort bij een naamwoord en is bijvoeglijk."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is het nuttig om woordsoorten te kunnen benoemen?",
+          "opties": [
+            "omdat spellingregels vaak van de woordsoort afhangen",
+            "omdat elke zin evenveel woordsoorten moet bevatten",
+            "omdat woordsoorten de lengte van een tekst bepalen",
+            "omdat een tekst zonder bijwoorden onleesbaar is"
+          ],
+          "antwoord": 0,
+          "uitleg": "Of je 'de gekleurde muur' of 'de muur is gekleurd' schrijft, hangt af van hoe het woord gebruikt wordt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In 'Ik wacht al een half uur op de bus', welk woord is een voorzetsel?",
+          "opties": [
+            "op",
+            "al",
+            "half",
+            "wacht"
+          ],
+          "antwoord": 0,
+          "uitleg": "'Op de bus' is een voorzetselgroep. 'Al' en 'half' zijn hier bijwoord en bijvoeglijk naamwoord.",
+          "varianten": [
+            {
+              "vraag": "In 'Zij kijkt al een uur naar het scherm', welk woord is een voorzetsel?",
+              "opties": [
+                "naar",
+                "al",
+                "uur",
+                "kijkt"
+              ],
+              "uitleg": "'Naar het scherm' is een voorzetselgroep. 'Al' is hier een bijwoord."
+            },
+            {
+              "vraag": "In 'Hij denkt de hele week aan die wedstrijd', welk woord is een voorzetsel?",
+              "opties": [
+                "aan",
+                "hele",
+                "week",
+                "denkt"
+              ],
+              "uitleg": "'Aan die wedstrijd' is een voorzetselgroep. 'Hele' is hier een bijvoeglijk naamwoord."
+            },
+            {
+              "vraag": "In 'We praatten gisteren lang over die film', welk woord is een voorzetsel?",
+              "opties": [
+                "over",
+                "lang",
+                "gisteren",
+                "praatten"
+              ],
+              "uitleg": "'Over die film' is een voorzetselgroep. 'Lang' en 'gisteren' zijn hier bijwoorden."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woordsoort ontbreekt in 'kat sliep op mat'?",
+          "opties": [
+            "de lidwoorden",
+            "de voorzetsels",
+            "de werkwoorden",
+            "de zelfstandige naamwoorden"
+          ],
+          "antwoord": 0,
+          "uitleg": "'De kat sliep op de mat' is de gewone Nederlandse zin. Zonder lidwoorden klinkt hij als telegramstijl.",
+          "varianten": [
+            {
+              "vraag": "Welke woordsoort ontbreekt in 'hond blafte naar postbode'?",
+              "uitleg": "'De hond blafte naar de postbode' is de gewone Nederlandse zin. Zonder lidwoorden klinkt hij als telegramstijl."
+            },
+            {
+              "vraag": "Welke woordsoort ontbreekt in 'jongen fietste door straat'?",
+              "uitleg": "'De jongen fietste door de straat' is de gewone Nederlandse zin. Zonder lidwoorden klinkt hij als telegramstijl."
+            },
+            {
+              "vraag": "Welke woordsoort ontbreekt in 'trein stopte in station'?",
+              "uitleg": "'De trein stopte in het station' is de gewone Nederlandse zin. Zonder lidwoorden klinkt hij als telegramstijl."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titel": "De woordsoorten op een rij — deel 2",
+      "niveau": "boost-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "In 'Hij wast zich elke ochtend', wat is 'zich'?",
+          "opties": [
+            "een wederkerend voornaamwoord",
+            "een wederkerig voornaamwoord",
+            "een bezittelijk voornaamwoord",
+            "een aanwijzend voornaamwoord"
+          ],
+          "antwoord": 0,
+          "uitleg": "De handeling keert terug naar het onderwerp zelf: hij wast zichzelf.",
+          "varianten": [
+            {
+              "vraag": "In 'Zij vergist zich vaak', wat is 'zich'?",
+              "uitleg": "De handeling keert terug naar het onderwerp zelf: zij vergist zichzelf."
+            },
+            {
+              "vraag": "In 'De kat likt zich schoon', wat is 'zich'?",
+              "uitleg": "De handeling keert terug naar het onderwerp zelf: de kat likt zichzelf."
+            },
+            {
+              "vraag": "In 'Hij scheert zich elke dag', wat is 'zich'?",
+              "uitleg": "De handeling keert terug naar het onderwerp zelf: hij scheert zichzelf."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In 'De twee broers groetten elkaar', wat is 'elkaar'?",
+          "opties": [
+            "een wederkerig voornaamwoord",
+            "een wederkerend voornaamwoord",
+            "een onbepaald voornaamwoord",
+            "een betrekkelijk voornaamwoord"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wederkerig betekent over en weer: de ene groet de andere én omgekeerd. Daarvoor heb je minstens twee personen nodig.",
+          "varianten": [
+            {
+              "vraag": "In 'De twee ploegen feliciteerden elkaar', wat is 'elkaar'?",
+              "uitleg": "Wederkerig betekent over en weer: de ene feliciteert de andere én omgekeerd."
+            },
+            {
+              "vraag": "In 'Mijn zussen helpen elkaar altijd', wat is 'elkaar'?",
+              "uitleg": "Wederkerig betekent over en weer: de ene helpt de andere én omgekeerd."
+            },
+            {
+              "vraag": "In 'De buren zwaaien naar elkaar', wat is 'elkaar'?",
+              "uitleg": "Wederkerig betekent over en weer: de ene zwaait naar de andere én omgekeerd."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je woorden als 'mijn', 'jouw' en 'hun'?",
+          "antwoord": [
+            "bezittelijk voornaamwoord",
+            "bezittelijke voornaamwoorden"
+          ],
+          "uitleg": "Ze zeggen bij wie iets hoort. Let op: 'hun' als bezittelijk voornaamwoord is correct, 'hun' als onderwerp niet.",
+          "varianten": [
+            {
+              "vraag": "Hoe noem je woorden als 'ons', 'jullie' en 'haar'?",
+              "uitleg": "Ze zeggen bij wie iets hoort: ons huis, jullie boeken, haar fiets."
+            },
+            {
+              "vraag": "Hoe noem je woorden als 'mijn', 'zijn' en 'onze'?",
+              "uitleg": "Ze zeggen bij wie iets hoort: mijn jas, zijn tas, onze klas."
+            },
+            {
+              "vraag": "Hoe noem je woorden als 'uw', 'zijn' en 'hun'?",
+              "uitleg": "Ze zeggen bij wie iets hoort. Let op: 'hun' als bezittelijk voornaamwoord is correct, 'hun' als onderwerp niet."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Deze' en 'die' zijn aanwijzende voornaamwoorden.",
+          "antwoord": true,
+          "uitleg": "Ze wijzen iets aan: deze en dit voor wat dichtbij is, die en dat voor wat verder weg staat.",
+          "varianten": [
+            {
+              "vraag": "'Dit' en 'dat' zijn aanwijzende voornaamwoorden.",
+              "uitleg": "Ze wijzen iets aan: dit voor wat dichtbij is, dat voor wat verder weg staat."
+            },
+            {
+              "vraag": "'Zulke' is een aanwijzend voornaamwoord.",
+              "uitleg": "Het wijst een soort aan: zulke schoenen, zulke verhalen."
+            },
+            {
+              "vraag": "'Deze' wijst naar iets wat dichtbij is.",
+              "uitleg": "Deze en dit staan voor wat dichtbij is, die en dat voor wat verder weg staat."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn persoonlijke voornaamwoorden?",
+          "opties": [
+            "ik",
+            "hem",
+            "wij",
+            "mijn"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "'Mijn' zegt van wie iets is en is dus bezittelijk. De drie andere vervangen een persoon.",
+          "varianten": [
+            {
+              "opties": [
+                "jij",
+                "hem",
+                "zij",
+                "jouw"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "'Jouw' zegt van wie iets is en is dus bezittelijk. De drie andere vervangen een persoon."
+            },
+            {
+              "opties": [
+                "wij",
+                "hen",
+                "u",
+                "onze"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "'Onze' zegt van wie iets is en is dus bezittelijk. De drie andere vervangen een persoon."
+            },
+            {
+              "opties": [
+                "ik",
+                "mij",
+                "hij",
+                "mijn"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "'Mijn' zegt van wie iets is en is dus bezittelijk. De drie andere vervangen een persoon."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In 'Het boek dat ik gisteren las, was spannend', wat is 'dat'?",
+          "opties": [
+            "een betrekkelijk voornaamwoord",
+            "een aanwijzend voornaamwoord",
+            "een onderschikkend voegwoord",
+            "een vragend voornaamwoord"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het verwijst terug naar 'het boek' én begint tegelijk een bijzin. Dat dubbele werk doet alleen een betrekkelijk voornaamwoord.",
+          "varianten": [
+            {
+              "vraag": "In 'De film die we zagen, duurde drie uur', wat is 'die'?",
+              "uitleg": "Het verwijst terug naar 'de film' én begint tegelijk een bijzin. Dat dubbele werk doet alleen een betrekkelijk voornaamwoord."
+            },
+            {
+              "vraag": "In 'De man die daar woont, is leraar', wat is 'die'?",
+              "uitleg": "Het verwijst terug naar 'de man' én begint tegelijk een bijzin. Dat dubbele werk doet alleen een betrekkelijk voornaamwoord."
+            },
+            {
+              "vraag": "In 'Het huis dat leegstaat, wordt verkocht', wat is 'dat'?",
+              "uitleg": "Het verwijst terug naar 'het huis' én begint tegelijk een bijzin. Dat dubbele werk doet alleen een betrekkelijk voornaamwoord."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je 'wie', 'wat' en 'welke' als je er een vraag mee stelt?",
+          "antwoord": [
+            "vragend voornaamwoord",
+            "vragende voornaamwoorden"
+          ],
+          "uitleg": "Ze staan vooraan in een vraagzin en vervangen datgene waarnaar je vraagt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Men' is een persoonlijk voornaamwoord.",
+          "antwoord": false,
+          "uitleg": "'Men' is onbepaald, net als iemand, niemand, iedereen en alles. Het noemt geen bepaalde persoon.",
+          "varianten": [
+            {
+              "vraag": "'Iemand' is een persoonlijk voornaamwoord.",
+              "uitleg": "'Iemand' is onbepaald, net als niemand, iedereen, alles en men. Het noemt geen bepaalde persoon."
+            },
+            {
+              "vraag": "'Niemand' is een persoonlijk voornaamwoord.",
+              "uitleg": "'Niemand' is onbepaald, net als iemand, iedereen, alles en men. Het noemt geen bepaalde persoon."
+            },
+            {
+              "vraag": "'Alles' is een persoonlijk voornaamwoord.",
+              "uitleg": "'Alles' is onbepaald, net als iemand, niemand, iedereen en men. Het noemt geen bepaalde persoon."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vergelijk 'Mijn fiets staat buiten' met 'De mijne staat buiten'. Wat is het verschil?",
+          "opties": [
+            "in de eerste zin is het voornaamwoord bijvoeglijk gebruikt, in de tweede zelfstandig",
+            "in de eerste zin is het voornaamwoord bezittelijk, in de tweede persoonlijk",
+            "in de tweede zin ontbreekt het voornaamwoord helemaal",
+            "in de tweede zin staat een aanwijzend voornaamwoord"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bijvoeglijk gebruikt staat het voornaamwoord bij een naamwoord. Zelfstandig gebruikt vervangt het dat naamwoord."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze namen bestaan echt als soort voornaamwoord?",
+          "opties": [
+            "wederkerend",
+            "wederkerig",
+            "betrekkelijk",
+            "bijwoordelijk"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Er zijn er acht: wederkerend, wederkerig, onbepaald, persoonlijk, bezittelijk, betrekkelijk, aanwijzend en vragend. Bijwoordelijk hoort er niet bij."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een betrekkelijk voornaamwoord begint een bijzin.",
+          "antwoord": true,
+          "uitleg": "'De man die belde' en 'het huis dat leegstaat': na het betrekkelijk voornaamwoord volgt telkens een bijzin."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In 'Wie heeft dat raam opengezet?', wat is 'wie'?",
+          "opties": [
+            "een vragend voornaamwoord",
+            "een betrekkelijk voornaamwoord",
+            "een onbepaald voornaamwoord",
+            "een persoonlijk voornaamwoord"
+          ],
+          "antwoord": 0,
+          "uitleg": "In 'de man wie ik zag' zou 'wie' betrekkelijk zijn. Hier begint het een vraag, dus is het vragend.",
+          "varianten": [
+            {
+              "vraag": "In 'Wat staat daar in de gang?', wat is 'wat'?",
+              "uitleg": "Het begint een vraag en vervangt datgene waarnaar je vraagt. Dus is het vragend."
+            },
+            {
+              "vraag": "In 'Welke trein moeten we hebben?', wat is 'welke'?",
+              "uitleg": "Het begint een vraag en vervangt datgene waarnaar je vraagt. Dus is het vragend."
+            },
+            {
+              "vraag": "In 'Wie belde er daarnet aan?', wat is 'wie'?",
+              "uitleg": "In 'de man wie ik zag' zou 'wie' betrekkelijk zijn. Hier begint het een vraag, dus is het vragend."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je 'me' in de zin 'Ik was me elke ochtend'?",
+          "antwoord": [
+            "wederkerend voornaamwoord",
+            "wederkerend",
+            "een wederkerend voornaamwoord"
+          ],
+          "uitleg": "In de eerste en tweede persoon zien wederkerende voornaamwoorden eruit als persoonlijke: me, je, ons. Kijk naar wat ze doen, niet naar hun vorm.",
+          "varianten": [
+            {
+              "vraag": "Hoe noem je 'je' in de zin 'Jij vergist je'?",
+              "uitleg": "In de eerste en tweede persoon zien wederkerende voornaamwoorden eruit als persoonlijke: me, je, ons. Kijk naar wat ze doen, niet naar hun vorm."
+            },
+            {
+              "vraag": "Hoe noem je 'ons' in de zin 'Wij haasten ons'?",
+              "uitleg": "In de eerste en tweede persoon zien wederkerende voornaamwoorden eruit als persoonlijke: me, je, ons. Kijk naar wat ze doen, niet naar hun vorm."
+            },
+            {
+              "vraag": "Hoe noem je 'me' in de zin 'Ik schaam me een beetje'?",
+              "uitleg": "De handeling keert terug naar het onderwerp: ik schaam mezelf. Dat maakt het wederkerend."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen een wederkerend en een wederkerig voornaamwoord?",
+          "opties": [
+            "wederkerend keert terug naar één onderwerp, wederkerig gaat over en weer",
+            "wederkerend gebruik je in de verleden tijd, wederkerig in de tegenwoordige",
+            "wederkerend hoort bij een bijzin, wederkerig bij een hoofdzin",
+            "wederkerend is enkelvoud, wederkerig is altijd meervoud"
+          ],
+          "antwoord": 0,
+          "uitleg": "'Ze wasten zich' betekent: elk zichzelf. 'Ze wasten elkaar' betekent: de een de ander."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Elkaar' kan je zonder betekenisverschil vervangen door 'zich'.",
+          "antwoord": false,
+          "uitleg": "'Ze sloegen elkaar' en 'ze sloegen zich' zeggen iets heel anders. Wederkerig en wederkerend zijn niet uitwisselbaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In 'Die van mij is groter', hoe is 'die' gebruikt?",
+          "opties": [
+            "zelfstandig, want het vervangt een naamwoord",
+            "bijvoeglijk, want het staat bij een naamwoord",
+            "als voegwoord, want het verbindt twee zinnen",
+            "als bijwoord, want het zegt iets over 'groter'"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het aanwijzend voornaamwoord staat hier alleen en vervangt bijvoorbeeld 'fiets'. Dat heet zelfstandig gebruikt.",
+          "varianten": [
+            {
+              "vraag": "In 'Deze van mij is nieuwer', hoe is 'deze' gebruikt?",
+              "opties": [
+                "zelfstandig, want het vervangt een naamwoord",
+                "bijvoeglijk, want het staat bij een naamwoord",
+                "als voegwoord, want het verbindt twee zinnen",
+                "als bijwoord, want het zegt iets over 'nieuwer'"
+              ]
+            },
+            {
+              "vraag": "In 'Dat van jou is ouder', hoe is 'dat' gebruikt?",
+              "opties": [
+                "zelfstandig, want het vervangt een naamwoord",
+                "bijvoeglijk, want het staat bij een naamwoord",
+                "als voegwoord, want het verbindt twee zinnen",
+                "als bijwoord, want het zegt iets over 'ouder'"
+              ]
+            },
+            {
+              "vraag": "In 'Die van ons is sneller', hoe is 'die' gebruikt?",
+              "opties": [
+                "zelfstandig, want het vervangt een naamwoord",
+                "bijvoeglijk, want het staat bij een naamwoord",
+                "als voegwoord, want het verbindt twee zinnen",
+                "als bijwoord, want het zegt iets over 'sneller'"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke zinnen staat een aanwijzend voornaamwoord?",
+          "opties": [
+            "Dat huis staat al jaren te koop.",
+            "Deze wil ik graag hebben.",
+            "Zulke schoenen zijn veel te duur.",
+            "Wie belt er zo laat nog aan?"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Dat, deze en zulke wijzen aan. 'Wie' stelt een vraag en is dus vragend.",
+          "varianten": [
+            {
+              "opties": [
+                "Dit boek lees ik al een week.",
+                "Die daar wil ik graag hebben.",
+                "Zulke verhalen geloof ik niet.",
+                "Wat doe jij hier zo laat?"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Dit, die en zulke wijzen aan. 'Wat' stelt een vraag en is dus vragend."
+            },
+            {
+              "opties": [
+                "Dat gebouw staat er al eeuwen.",
+                "Deze neem ik mee naar huis.",
+                "Zulke dagen vergeet je niet.",
+                "Welke wil jij hebben?"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Dat, deze en zulke wijzen aan. 'Welke' stelt een vraag en is dus vragend."
+            },
+            {
+              "opties": [
+                "Die fiets is van mijn zus.",
+                "Dit vind ik veel mooier.",
+                "Zulke schoenen draagt niemand nog.",
+                "Wie heeft dat gezegd?"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Die, dit en zulke wijzen aan. 'Wie' stelt een vraag en is dus vragend."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom staat er 'Ik zag hem gisteren' en niet 'Ik zag hij gisteren'?",
+          "opties": [
+            "omdat het voornaamwoord hier geen onderwerp is",
+            "omdat 'hij' geen bestaand voornaamwoord is",
+            "omdat de zin in de verleden tijd staat",
+            "omdat er een voorzetsel in de zin staat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Persoonlijke voornaamwoorden hebben twee vormen: een onderwerpsvorm (hij, zij, wij) en een andere vorm (hem, haar, ons)."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zijn verwijswoorden in een tekst meestal voornaamwoorden?",
+          "opties": [
+            "omdat een voornaamwoord een naamwoord vervangt dat eerder stond",
+            "omdat voornaamwoorden altijd vooraan de zin staan",
+            "omdat voornaamwoorden de spelling vereenvoudigen",
+            "omdat voornaamwoorden nooit van vorm veranderen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Net daarom hoef je 'de burgemeester van onze gemeente' niet in elke zin te herhalen: 'hij' volstaat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In 'Er staat iemand aan de deur', wat is 'iemand'?",
+          "opties": [
+            "een onbepaald voornaamwoord",
+            "een persoonlijk voornaamwoord",
+            "een aanwijzend voornaamwoord",
+            "een wederkerend voornaamwoord"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het gaat om een persoon die niet nader bepaald wordt. Net als niemand, iedereen, alles en men.",
+          "varianten": [
+            {
+              "vraag": "In 'Er is niemand thuis', wat is 'niemand'?",
+              "uitleg": "Het gaat om een persoon die niet nader bepaald wordt. Net als iemand, iedereen, alles en men."
+            },
+            {
+              "vraag": "In 'Iedereen was op tijd', wat is 'iedereen'?",
+              "uitleg": "Het gaat om personen die niet nader bepaald worden. Net als iemand, niemand, alles en men."
+            },
+            {
+              "vraag": "In 'Er ligt iets op de trap', wat is 'iets'?",
+              "uitleg": "Het gaat om een ding dat niet nader bepaald wordt. Net als iemand, niemand, iedereen en alles."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titel": "Werkwoorden, tijden en woordvorming — deel 1",
+      "niveau": "boost-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke tijd staat 'Ik had de hele dag gelopen'?",
+          "opties": [
+            "voltooid verleden tijd",
+            "voltooid tegenwoordige tijd",
+            "onvoltooid verleden tijd",
+            "onvoltooid toekomende tijd"
+          ],
+          "antwoord": 0,
+          "uitleg": "Voltooid omdat er een deelwoord staat, verleden omdat het hulpwerkwoord 'had' in de verleden tijd staat.",
+          "varianten": [
+            {
+              "vraag": "In welke tijd staat 'Zij had haar huiswerk al gemaakt'?",
+              "uitleg": "Voltooid omdat er een deelwoord staat, verleden omdat het hulpwerkwoord 'had' in de verleden tijd staat."
+            },
+            {
+              "vraag": "In welke tijd staat 'Wij hadden de trein net gemist'?",
+              "uitleg": "Voltooid omdat er een deelwoord staat, verleden omdat het hulpwerkwoord 'hadden' in de verleden tijd staat."
+            },
+            {
+              "vraag": "In welke tijd staat 'Hij was al vertrokken toen ik aankwam'?",
+              "uitleg": "Voltooid omdat er een deelwoord staat, verleden omdat het hulpwerkwoord 'was' in de verleden tijd staat."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze werkwoordstijden bestaan?",
+          "opties": [
+            "onvoltooid tegenwoordige tijd",
+            "voltooid verleden tijd",
+            "onvoltooid toekomende tijd",
+            "gebiedende toekomende tijd"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Er zijn zes tijden, plus de imperatief. Een gebiedende toekomende tijd bestaat niet."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de vorm 'lopen', zonder persoon en zonder tijd?",
+          "antwoord": [
+            "infinitief",
+            "de infinitief",
+            "het hele werkwoord"
+          ],
+          "uitleg": "De infinitief is de vorm die in het woordenboek staat. Alle andere vormen leid je ervan af."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De imperatief is de aanvoegende wijs.",
+          "antwoord": false,
+          "uitleg": "De imperatief is de gebiedende wijs: 'Kom hier', 'Let op'. Hij heeft geen onderwerp bij zich.",
+          "varianten": [
+            {
+              "vraag": "De imperatief is de aantonende wijs.",
+              "uitleg": "De imperatief is de gebiedende wijs: 'Kom hier', 'Let op'. Hij heeft geen onderwerp bij zich."
+            },
+            {
+              "vraag": "De gebiedende wijs heeft altijd een onderwerp bij zich.",
+              "uitleg": "'Kom hier' en 'Let op' hebben er geen. Dat is net wat de gebiedende wijs kenmerkt."
+            },
+            {
+              "vraag": "De infinitief is hetzelfde als de gebiedende wijs.",
+              "uitleg": "De infinitief is 'lopen', de gebiedende wijs is 'loop'. Dat zijn twee verschillende vormen."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In 'Zij wordt verpleegkundige', welk soort werkwoord is 'wordt'?",
+          "opties": [
+            "een koppelwerkwoord",
+            "een zelfstandig werkwoord",
+            "een hulpwerkwoord van de lijdende vorm",
+            "een wederkerend werkwoord"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het koppelt het onderwerp aan een naamwoord dat iets over dat onderwerp zegt. Samen heet dat een naamwoordelijk gezegde.",
+          "varianten": [
+            {
+              "vraag": "In 'Hij blijft altijd rustig', welk soort werkwoord is 'blijft'?",
+              "uitleg": "Het koppelt het onderwerp aan een woord dat iets over dat onderwerp zegt. Samen heet dat een naamwoordelijk gezegde."
+            },
+            {
+              "vraag": "In 'Die soep lijkt koud', welk soort werkwoord is 'lijkt'?",
+              "uitleg": "Het koppelt het onderwerp aan een woord dat iets over dat onderwerp zegt. Samen heet dat een naamwoordelijk gezegde."
+            },
+            {
+              "vraag": "In 'Mijn zus is dierenarts', welk soort werkwoord is 'is'?",
+              "uitleg": "Het koppelt het onderwerp aan een naamwoord dat iets over dat onderwerp zegt. Samen heet dat een naamwoordelijk gezegde."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In 'Hij heeft zijn boterhammen opgegeten', wat is 'heeft'?",
+          "opties": [
+            "een hulpwerkwoord",
+            "een koppelwerkwoord",
+            "een zelfstandig werkwoord",
+            "een voltooid deelwoord"
+          ],
+          "antwoord": 0,
+          "uitleg": "'Heeft' helpt hier de voltooide tijd vormen. In 'Hij heeft een fiets' is hetzelfde woord wel zelfstandig werkwoord.",
+          "varianten": [
+            {
+              "vraag": "In 'Zij heeft de brief geschreven', wat is 'heeft'?",
+              "uitleg": "'Heeft' helpt hier de voltooide tijd vormen. In 'Zij heeft een fiets' is hetzelfde woord wel zelfstandig werkwoord."
+            },
+            {
+              "vraag": "In 'Wij hebben de film al gezien', wat is 'hebben'?",
+              "uitleg": "'Hebben' helpt hier de voltooide tijd vormen. In 'Wij hebben een hond' is hetzelfde woord wel zelfstandig werkwoord."
+            },
+            {
+              "vraag": "In 'Hij is naar huis gefietst', wat is 'is'?",
+              "uitleg": "'Is' helpt hier de voltooide tijd vormen. In 'Hij is ziek' is hetzelfde woord koppelwerkwoord."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het werkwoord dat in persoon en getal met het onderwerp meegaat?",
+          "antwoord": [
+            "persoonsvorm",
+            "de persoonsvorm"
+          ],
+          "uitleg": "De persoonsvorm verandert als je de zin in een andere tijd zet. Zo vind je hem terug."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In elke deelzin staat precies één persoonsvorm.",
+          "antwoord": true,
+          "uitleg": "Een samengestelde zin heeft er dus meerdere: één per hoofdzin en één per bijzin."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze werkwoorden kunnen koppelwerkwoord zijn?",
+          "opties": [
+            "zijn",
+            "worden",
+            "blijven",
+            "lopen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De koppelwerkwoorden zijn zijn, worden, blijven, blijken, lijken, schijnen, heten, dunken en voorkomen. 'Lopen' hoort er niet bij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe vind je de persoonsvorm in een zin terug?",
+          "opties": [
+            "je zet de zin in een andere tijd en kijkt welk werkwoord verandert",
+            "je neemt altijd het eerste werkwoord van de zin",
+            "je neemt altijd het langste werkwoord van de zin",
+            "je neemt het werkwoord dat achteraan staat"
+          ],
+          "antwoord": 0,
+          "uitleg": "'Hij heeft gelopen' wordt 'Hij had gelopen'. Alleen 'heeft' verandert, dus dat is de persoonsvorm."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De stam van een werkwoord is hetzelfde als de infinitief.",
+          "antwoord": false,
+          "uitleg": "De stam krijg je door -en van de infinitief te halen: wandelen wordt wandel. Daarop bouw je de vervoeging.",
+          "varianten": [
+            {
+              "vraag": "De stam van 'wandelen' is 'wandelen'.",
+              "uitleg": "De stam krijg je door -en van de infinitief te halen: wandelen wordt wandel. Daarop bouw je de vervoeging."
+            },
+            {
+              "vraag": "De stam van 'werken' is 'werkt'.",
+              "uitleg": "De stam is 'werk'. 'Werkt' is de stam plus de uitgang -t."
+            },
+            {
+              "vraag": "De stam van 'lopen' is 'lopen'.",
+              "uitleg": "De stam is 'loop'. Je krijgt hem door -en van de infinitief te halen."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke tijd staat 'Wij werkten de hele zomer'?",
+          "opties": [
+            "onvoltooid verleden tijd",
+            "voltooid verleden tijd",
+            "onvoltooid tegenwoordige tijd",
+            "voltooid tegenwoordige tijd"
+          ],
+          "antwoord": 0,
+          "uitleg": "Er staat geen deelwoord bij, dus onvoltooid. De vorm 'werkten' is verleden tijd.",
+          "varianten": [
+            {
+              "vraag": "In welke tijd staat 'Zij fietste elke dag naar school'?",
+              "uitleg": "Er staat geen deelwoord bij, dus onvoltooid. De vorm 'fietste' is verleden tijd."
+            },
+            {
+              "vraag": "In welke tijd staat 'Hij las het hele boek uit'?",
+              "uitleg": "Er staat geen deelwoord bij, dus onvoltooid. De vorm 'las' is verleden tijd."
+            },
+            {
+              "vraag": "In welke tijd staat 'Wij zongen het hele lied mee'?",
+              "uitleg": "Er staat geen deelwoord bij, dus onvoltooid. De vorm 'zongen' is verleden tijd."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het stukje dat achter de stam komt, zoals de -t in 'hij werkt'?",
+          "antwoord": [
+            "de uitgang",
+            "uitgang"
+          ],
+          "uitleg": "Stam plus uitgang samen vormen de vervoegde vorm. De uitgang draagt de persoon en het getal."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is 'De doos met oude boeken staan in de gang' fout?",
+          "opties": [
+            "het onderwerp is enkelvoud, dus de persoonsvorm ook",
+            "'met' mag niet voor een meervoud staan",
+            "'oude' moet 'oud' zijn zonder e",
+            "de zin heeft geen lijdend voorwerp"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het onderwerp is 'de doos', niet 'boeken'. Dat heet congruentie tussen onderwerp en persoonsvorm."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het voltooid deelwoord van een zwak werkwoord eindigt op -d of -t.",
+          "antwoord": true,
+          "uitleg": "Gewerkt, gehoord, gebeld. Sterke werkwoorden veranderen van klinker: gelopen, gezongen, gevonden.",
+          "varianten": [
+            {
+              "vraag": "Het voltooid deelwoord van 'werken' is 'gewerkt'.",
+              "uitleg": "Werken is zwak, dus komt er -t bij: gewerkt, net als gehoord en gebeld."
+            },
+            {
+              "vraag": "Sterke werkwoorden veranderen van klinker in het voltooid deelwoord.",
+              "uitleg": "Gelopen, gezongen, gevonden. Zwakke werkwoorden krijgen gewoon -d of -t."
+            },
+            {
+              "vraag": "Het voltooid deelwoord van 'horen' is 'gehoord'.",
+              "uitleg": "Horen is zwak, dus komt er -d bij: gehoord, net als gewerkt en gebeld."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke tijd staat 'Zij zal morgen komen'?",
+          "opties": [
+            "onvoltooid toekomende tijd",
+            "voltooid toekomende tijd",
+            "onvoltooid tegenwoordige tijd",
+            "voltooid tegenwoordige tijd"
+          ],
+          "antwoord": 0,
+          "uitleg": "'Zullen' plus infinitief maakt de toekomende tijd. Er staat geen deelwoord bij, dus onvoltooid.",
+          "varianten": [
+            {
+              "vraag": "In welke tijd staat 'Wij zullen volgende week verhuizen'?",
+              "uitleg": "'Zullen' plus infinitief maakt de toekomende tijd. Er staat geen deelwoord bij, dus onvoltooid."
+            },
+            {
+              "vraag": "In welke tijd staat 'Hij zal het straks uitleggen'?",
+              "uitleg": "'Zullen' plus infinitief maakt de toekomende tijd. Er staat geen deelwoord bij, dus onvoltooid."
+            },
+            {
+              "vraag": "In welke tijd staat 'Ik zal je morgen bellen'?",
+              "uitleg": "'Zullen' plus infinitief maakt de toekomende tijd. Er staat geen deelwoord bij, dus onvoltooid."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vormen zijn voltooide deelwoorden?",
+          "opties": [
+            "gewerkt",
+            "gelopen",
+            "gezien",
+            "werken"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "'Werken' is de infinitief. De drie andere beginnen met ge- en horen bij een voltooide tijd.",
+          "varianten": [
+            {
+              "opties": [
+                "gehoord",
+                "gezongen",
+                "gevonden",
+                "horen"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "'Horen' is de infinitief. De drie andere beginnen met ge- en horen bij een voltooide tijd."
+            },
+            {
+              "opties": [
+                "gebeld",
+                "geschreven",
+                "gedronken",
+                "bellen"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "'Bellen' is de infinitief. De drie andere beginnen met ge- en horen bij een voltooide tijd."
+            },
+            {
+              "opties": [
+                "gemaakt",
+                "gekregen",
+                "geweest",
+                "maken"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "'Maken' is de infinitief. De drie andere beginnen met ge- en horen bij een voltooide tijd."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is correct gespeld?",
+          "opties": [
+            "Hij wordt morgen zestien jaar.",
+            "Hij word morgen zestien jaar.",
+            "Hij wordt morgen zestien jaar geworden.",
+            "Hij worden morgen zestien jaar."
+          ],
+          "antwoord": 0,
+          "uitleg": "Derde persoon enkelvoud krijgt stam plus t: word plus t wordt 'wordt'.",
+          "varianten": [
+            {
+              "opties": [
+                "Zij vindt dat geen probleem.",
+                "Zij vind dat geen probleem.",
+                "Zij vindt dat geen probleem gevonden.",
+                "Zij vinden dat geen probleem."
+              ],
+              "uitleg": "Derde persoon enkelvoud krijgt stam plus t: vind plus t wordt 'vindt'."
+            },
+            {
+              "opties": [
+                "Hij houdt van aardappelen.",
+                "Hij houd van aardappelen.",
+                "Hij houdt van aardappelen gehouden.",
+                "Hij houden van aardappelen."
+              ],
+              "uitleg": "Derde persoon enkelvoud krijgt stam plus t: houd plus t wordt 'houdt'."
+            },
+            {
+              "opties": [
+                "Zij rijdt elke dag naar het werk.",
+                "Zij rijd elke dag naar het werk.",
+                "Zij rijdt elke dag naar het werk gereden.",
+                "Zij rijden elke dag naar het werk."
+              ],
+              "uitleg": "Derde persoon enkelvoud krijgt stam plus t: rijd plus t wordt 'rijdt'."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vraagzin is correct gespeld?",
+          "opties": [
+            "Word jij daar niet moe van?",
+            "Wordt jij daar niet moe van?",
+            "Wordt jou daar niet moe van?",
+            "Word jou daar niet moe van?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij 'je' of 'jij' achter de persoonsvorm valt de -t weg. Dat heet inversie.",
+          "varianten": [
+            {
+              "opties": [
+                "Vind je dat niet vervelend?",
+                "Vindt je dat niet vervelend?",
+                "Vindt jou dat niet vervelend?",
+                "Vind jou dat niet vervelend?"
+              ],
+              "uitleg": "Bij 'je' of 'jij' achter de persoonsvorm valt de -t weg. Dat heet inversie."
+            },
+            {
+              "opties": [
+                "Houd jij van pannenkoeken?",
+                "Houdt jij van pannenkoeken?",
+                "Houdt jou van pannenkoeken?",
+                "Houd jou van pannenkoeken?"
+              ],
+              "uitleg": "Bij 'je' of 'jij' achter de persoonsvorm valt de -t weg. Dat heet inversie."
+            },
+            {
+              "opties": [
+                "Rijd je zelf naar huis?",
+                "Rijdt je zelf naar huis?",
+                "Rijdt jou zelf naar huis?",
+                "Rijd jou zelf naar huis?"
+              ],
+              "uitleg": "Bij 'je' of 'jij' achter de persoonsvorm valt de -t weg. Dat heet inversie."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In 'Ik heb het boek helemaal uitgelezen', welk werkwoord is het zelfstandig werkwoord?",
+          "opties": [
+            "uitgelezen",
+            "heb",
+            "het",
+            "helemaal"
+          ],
+          "antwoord": 0,
+          "uitleg": "'Heb' is hier alleen hulpwerkwoord. De betekenis van de zin zit in 'uitgelezen'.",
+          "varianten": [
+            {
+              "vraag": "In 'Zij heeft de brief zorgvuldig geschreven', welk werkwoord is het zelfstandig werkwoord?",
+              "opties": [
+                "geschreven",
+                "heeft",
+                "de",
+                "zorgvuldig"
+              ],
+              "uitleg": "'Heeft' is hier alleen hulpwerkwoord. De betekenis van de zin zit in 'geschreven'."
+            },
+            {
+              "vraag": "In 'Wij hebben de hele avond gewerkt', welk werkwoord is het zelfstandig werkwoord?",
+              "opties": [
+                "gewerkt",
+                "hebben",
+                "de",
+                "avond"
+              ],
+              "uitleg": "'Hebben' is hier alleen hulpwerkwoord. De betekenis van de zin zit in 'gewerkt'."
+            },
+            {
+              "vraag": "In 'Hij is naar de winkel gefietst', welk werkwoord is het zelfstandig werkwoord?",
+              "opties": [
+                "gefietst",
+                "is",
+                "naar",
+                "winkel"
+              ],
+              "uitleg": "'Is' is hier alleen hulpwerkwoord. De betekenis van de zin zit in 'gefietst'."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titel": "Werkwoorden, tijden en woordvorming — deel 2",
+      "niveau": "boost-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat voor woord is 'boekenkast'?",
+          "opties": [
+            "een samenstelling",
+            "een afleiding",
+            "een verkleinwoord",
+            "een leenwoord"
+          ],
+          "antwoord": 0,
+          "uitleg": "Twee bestaande woorden, boek en kast, worden aan elkaar geschreven. Dat is een samenstelling.",
+          "varianten": [
+            {
+              "vraag": "Wat voor woord is 'tafelpoot'?",
+              "uitleg": "Twee bestaande woorden, tafel en poot, worden aan elkaar geschreven. Dat is een samenstelling."
+            },
+            {
+              "vraag": "Wat voor woord is 'regenjas'?",
+              "uitleg": "Twee bestaande woorden, regen en jas, worden aan elkaar geschreven. Dat is een samenstelling."
+            },
+            {
+              "vraag": "Wat voor woord is 'schoolbord'?",
+              "uitleg": "Twee bestaande woorden, school en bord, worden aan elkaar geschreven. Dat is een samenstelling."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat voor woord is 'onvriendelijk'?",
+          "opties": [
+            "een afleiding",
+            "een samenstelling",
+            "een verkleinwoord",
+            "een tussenwerpsel"
+          ],
+          "antwoord": 0,
+          "uitleg": "'On-' is geen zelfstandig woord maar een voorvoegsel. Een woord dat met een voor- of achtervoegsel gevormd is, heet een afleiding.",
+          "varianten": [
+            {
+              "vraag": "Wat voor woord is 'onduidelijk'?",
+              "uitleg": "'On-' is geen zelfstandig woord maar een voorvoegsel. Een woord dat met een voor- of achtervoegsel gevormd is, heet een afleiding."
+            },
+            {
+              "vraag": "Wat voor woord is 'leesbaar'?",
+              "uitleg": "'-baar' is geen zelfstandig woord maar een achtervoegsel. Een woord dat met een voor- of achtervoegsel gevormd is, heet een afleiding."
+            },
+            {
+              "vraag": "Wat voor woord is 'schoonheid'?",
+              "uitleg": "'-heid' is geen zelfstandig woord maar een achtervoegsel. Een woord dat met een voor- of achtervoegsel gevormd is, heet een afleiding."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de -en- in het midden van 'pannenkoek'?",
+          "antwoord": [
+            "tussenklank",
+            "de tussenklank",
+            "tussenletters"
+          ],
+          "uitleg": "De tussenklank lijmt de twee delen van een samenstelling aan elkaar. Hij hoort bij geen van beide woorden apart."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een samenstelling zet je twee bestaande woorden aan elkaar.",
+          "antwoord": true,
+          "uitleg": "Allebei de delen kunnen los bestaan: tafel en poot, voetbal en veld.",
+          "varianten": [
+            {
+              "vraag": "'Voetbalveld' is een samenstelling.",
+              "uitleg": "Voetbal en veld kunnen allebei los bestaan. Dat maakt het een samenstelling."
+            },
+            {
+              "vraag": "Allebei de delen van een samenstelling kunnen los bestaan.",
+              "uitleg": "Tafel en poot, voetbal en veld. Bij een afleiding kan één deel dat net niet."
+            },
+            {
+              "vraag": "'Regenjas' is een samenstelling.",
+              "uitleg": "Regen en jas kunnen allebei los bestaan. Dat maakt het een samenstelling."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn samenstellingen?",
+          "opties": [
+            "tafelpoot",
+            "voetbalveld",
+            "regenjas",
+            "vriendelijk"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "'Vriendelijk' is gevormd met het achtervoegsel -lijk en is dus een afleiding.",
+          "varianten": [
+            {
+              "opties": [
+                "schoolbord",
+                "deurklink",
+                "raamkozijn",
+                "leesbaar"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "'Leesbaar' is gevormd met het achtervoegsel -baar en is dus een afleiding."
+            },
+            {
+              "opties": [
+                "boekenkast",
+                "pannenkoek",
+                "fietspad",
+                "schoonheid"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "'Schoonheid' is gevormd met het achtervoegsel -heid en is dus een afleiding."
+            },
+            {
+              "opties": [
+                "tandarts",
+                "keukentafel",
+                "krantenwinkel",
+                "onmogelijk"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "'Onmogelijk' is gevormd met het voorvoegsel on- en is dus een afleiding."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het voorvoegsel in 'herlezen'?",
+          "opties": [
+            "her-",
+            "-lezen",
+            "-en",
+            "le-"
+          ],
+          "antwoord": 0,
+          "uitleg": "'Her-' betekent opnieuw. Het kan niet alleen staan, dus het is een voorvoegsel en geen woord.",
+          "varianten": [
+            {
+              "vraag": "Wat is het voorvoegsel in 'verdwalen'?",
+              "opties": [
+                "ver-",
+                "-dwalen",
+                "-en",
+                "dw-"
+              ],
+              "uitleg": "'Ver-' kan niet alleen staan, dus het is een voorvoegsel en geen woord."
+            },
+            {
+              "vraag": "Wat is het voorvoegsel in 'ontdekken'?",
+              "opties": [
+                "ont-",
+                "-dekken",
+                "-en",
+                "de-"
+              ],
+              "uitleg": "'Ont-' kan niet alleen staan, dus het is een voorvoegsel en geen woord."
+            },
+            {
+              "vraag": "Wat is het voorvoegsel in 'bespreken'?",
+              "opties": [
+                "be-",
+                "-spreken",
+                "-en",
+                "sp-"
+              ],
+              "uitleg": "'Be-' kan niet alleen staan, dus het is een voorvoegsel en geen woord."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het stukje achteraan een woord dat er een nieuw woord van maakt, zoals -heid en -baar?",
+          "antwoord": [
+            "achtervoegsel",
+            "een achtervoegsel",
+            "suffix"
+          ],
+          "uitleg": "Schoon wordt schoonheid, lees wordt leesbaar. Het woord verandert van woordsoort of van betekenis."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Onmogelijk' is een samenstelling.",
+          "antwoord": false,
+          "uitleg": "Het is een afleiding: er komt een voorvoegsel bij een bestaand woord. Bij een samenstelling zijn allebei de delen zelfstandige woorden.",
+          "varianten": [
+            {
+              "vraag": "'Onduidelijk' is een samenstelling.",
+              "uitleg": "Het is een afleiding: er komt een voorvoegsel bij een bestaand woord. Bij een samenstelling zijn allebei de delen zelfstandige woorden."
+            },
+            {
+              "vraag": "'Schoonheid' is een samenstelling.",
+              "uitleg": "Het is een afleiding: er komt een achtervoegsel bij een bestaand woord. Bij een samenstelling zijn allebei de delen zelfstandige woorden."
+            },
+            {
+              "vraag": "'Leesbaar' is een samenstelling.",
+              "uitleg": "Het is een afleiding: '-baar' is geen zelfstandig woord. Bij een samenstelling zijn allebei de delen dat wel."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke meervouden zijn correct?",
+          "opties": [
+            "kinderen",
+            "paden",
+            "leden",
+            "stoelens"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Het meervoud van stoel is stoelen. Een meervoud op -s krijgt nooit nog eens -en erbij.",
+          "varianten": [
+            {
+              "opties": [
+                "schepen",
+                "steden",
+                "eieren",
+                "tafelens"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Het meervoud van tafel is tafels. Een meervoud krijgt nooit twee uitgangen tegelijk."
+            },
+            {
+              "opties": [
+                "musea",
+                "koeien",
+                "bladeren",
+                "ramens"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Het meervoud van raam is ramen. Een meervoud krijgt nooit twee uitgangen tegelijk."
+            },
+            {
+              "opties": [
+                "runderen",
+                "kalveren",
+                "liederen",
+                "deurens"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Het meervoud van deur is deuren. Een meervoud krijgt nooit twee uitgangen tegelijk."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verkleinwoord van 'koning'?",
+          "opties": [
+            "koninkje",
+            "koningje",
+            "koningtje",
+            "koningetje"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na -ing wordt de g een k en volgt -je. Dezelfde regel geldt bij woning en leerling.",
+          "varianten": [
+            {
+              "vraag": "Wat is het verkleinwoord van 'woning'?",
+              "opties": [
+                "woninkje",
+                "woningje",
+                "woningtje",
+                "woningetje"
+              ],
+              "uitleg": "Na -ing wordt de g een k en volgt -je. Dezelfde regel geldt bij koning en leerling."
+            },
+            {
+              "vraag": "Wat is het verkleinwoord van 'leerling'?",
+              "opties": [
+                "leerlinkje",
+                "leerlingje",
+                "leerlingtje",
+                "leerlingetje"
+              ],
+              "uitleg": "Na -ing wordt de g een k en volgt -je. Dezelfde regel geldt bij koning en woning."
+            },
+            {
+              "vraag": "Wat is het verkleinwoord van 'ketting'?",
+              "opties": [
+                "kettinkje",
+                "kettingje",
+                "kettingtje",
+                "kettingetje"
+              ],
+              "uitleg": "Na -ing wordt de g een k en volgt -je. Dezelfde regel geldt bij koning en woning."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Alle Nederlandse meervouden eindigen op -en of -s.",
+          "antwoord": false,
+          "uitleg": "Er zijn uitzonderingen zoals musea, kinderen met een tussenvoeging, en eieren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom schrijf je 'een mooi huis' maar 'het mooie huis'?",
+          "opties": [
+            "omdat het bijvoeglijk naamwoord verbogen wordt",
+            "omdat het bijvoeglijk naamwoord vervoegd wordt",
+            "omdat 'huis' in het tweede geval meervoud is",
+            "omdat de tweede zin in de verleden tijd staat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Verbuiging is de vormverandering van naamwoorden en bijvoeglijke naamwoorden. Vervoeging is hetzelfde, maar dan bij werkwoorden."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het aanpassen van een werkwoord aan persoon, getal en tijd?",
+          "antwoord": [
+            "vervoeging",
+            "de vervoeging",
+            "vervoegen"
+          ],
+          "uitleg": "Ik werk, jij werkt, wij werkten: telkens dezelfde stam, telkens een andere vervoeging."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen een samenstelling en een afleiding?",
+          "opties": [
+            "bij een samenstelling kunnen beide delen los bestaan, bij een afleiding niet",
+            "een samenstelling is altijd langer dan een afleiding",
+            "een samenstelling komt alleen bij naamwoorden voor",
+            "een afleiding wordt altijd met een koppelteken geschreven"
+          ],
+          "antwoord": 0,
+          "uitleg": "Deurklink bestaat uit deur en klink, allebei echte woorden. Leesbaar bestaat uit lees plus -baar, en -baar is geen woord."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een afleiding komt er een voor- of achtervoegsel bij een bestaand woord.",
+          "antwoord": true,
+          "uitleg": "Ver- plus dwalen wordt verdwalen, schoon plus -heid wordt schoonheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welk woord zit een tussenklank?",
+          "opties": [
+            "pannenkoek",
+            "tafelpoot",
+            "schoolbord",
+            "raamkozijn"
+          ],
+          "antwoord": 0,
+          "uitleg": "Tussen pan en koek staat -en-. De drie andere samenstellingen plakken de twee delen rechtstreeks aan elkaar.",
+          "varianten": [
+            {
+              "opties": [
+                "zonnebloem",
+                "deurklink",
+                "fietspad",
+                "tandarts"
+              ],
+              "uitleg": "Tussen zon en bloem staat -ne-. De drie andere samenstellingen plakken de twee delen rechtstreeks aan elkaar."
+            },
+            {
+              "opties": [
+                "krantenwinkel",
+                "schoolbord",
+                "regenjas",
+                "keukentafel"
+              ],
+              "uitleg": "Tussen krant en winkel staat -en-. De drie andere samenstellingen plakken de twee delen rechtstreeks aan elkaar."
+            },
+            {
+              "opties": [
+                "paardenstal",
+                "raamkozijn",
+                "fietspad",
+                "tandarts"
+              ],
+              "uitleg": "Tussen paard en stal staat -en-. De drie andere samenstellingen plakken de twee delen rechtstreeks aan elkaar."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn afleidingen?",
+          "opties": [
+            "schoonheid",
+            "leesbaar",
+            "ontdekken",
+            "deurklink"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Deurklink is een samenstelling van twee echte woorden. De drie andere gebruiken een voor- of achtervoegsel.",
+          "varianten": [
+            {
+              "opties": [
+                "vriendelijk",
+                "onmogelijk",
+                "verdwalen",
+                "tafelpoot"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Tafelpoot is een samenstelling van twee echte woorden. De drie andere gebruiken een voor- of achtervoegsel."
+            },
+            {
+              "opties": [
+                "bruikbaar",
+                "onduidelijk",
+                "herlezen",
+                "schoolbord"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Schoolbord is een samenstelling van twee echte woorden. De drie andere gebruiken een voor- of achtervoegsel."
+            },
+            {
+              "opties": [
+                "duidelijkheid",
+                "bespreken",
+                "ongeduldig",
+                "fietspad"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Fietspad is een samenstelling van twee echte woorden. De drie andere gebruiken een voor- of achtervoegsel."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Uit hoeveel woorden is 'schoonmaakbedrijf' samengesteld?",
+          "opties": [
+            "drie",
+            "twee",
+            "vier",
+            "één"
+          ],
+          "antwoord": 0,
+          "uitleg": "Schoon, maak en bedrijf. Samenstellingen kunnen uit meer dan twee delen bestaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het meervoud van 'lid'?",
+          "opties": [
+            "leden",
+            "lidden",
+            "lids",
+            "lidderen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een handvol woorden verandert van klinker in het meervoud: lid wordt leden, schip wordt schepen, stad wordt steden.",
+          "varianten": [
+            {
+              "vraag": "Wat is het meervoud van 'schip'?",
+              "opties": [
+                "schepen",
+                "schippen",
+                "schips",
+                "schipperen"
+              ],
+              "uitleg": "Een handvol woorden verandert van klinker in het meervoud: schip wordt schepen, lid wordt leden, stad wordt steden."
+            },
+            {
+              "vraag": "Wat is het meervoud van 'stad'?",
+              "opties": [
+                "steden",
+                "stadden",
+                "stads",
+                "stadderen"
+              ],
+              "uitleg": "Een handvol woorden verandert van klinker in het meervoud: stad wordt steden, lid wordt leden, schip wordt schepen."
+            },
+            {
+              "vraag": "Wat is het meervoud van 'smid'?",
+              "opties": [
+                "smeden",
+                "smidden",
+                "smids",
+                "smidderen"
+              ],
+              "uitleg": "Een handvol woorden verandert van klinker in het meervoud: smid wordt smeden, lid wordt leden, schip wordt schepen."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk woord is géén samenstelling?",
+          "opties": [
+            "vriendelijkheid",
+            "boekenkast",
+            "voetbalveld",
+            "regenjas"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vriendelijkheid is twee keer afgeleid: vriend wordt vriendelijk, vriendelijk wordt vriendelijkheid. Er komt geen tweede woord bij.",
+          "varianten": [
+            {
+              "opties": [
+                "onmogelijk",
+                "schoolbord",
+                "tafelpoot",
+                "fietspad"
+              ],
+              "uitleg": "Onmogelijk is een afleiding: on- plus mogelijk. Er komt geen tweede woord bij."
+            },
+            {
+              "opties": [
+                "leesbaar",
+                "deurklink",
+                "raamkozijn",
+                "tandarts"
+              ],
+              "uitleg": "Leesbaar is een afleiding: lees plus -baar. '-baar' is geen zelfstandig woord."
+            },
+            {
+              "opties": [
+                "schoonheid",
+                "keukentafel",
+                "zonnebril",
+                "krantenwinkel"
+              ],
+              "uitleg": "Schoonheid is een afleiding: schoon plus -heid. Er komt geen tweede woord bij."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titel": "Zinsdelen en samengestelde zinnen — deel 1",
+      "niveau": "boost-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "In 'De postbode bracht mijn oma een pakje', wat is het lijdend voorwerp?",
+          "opties": [
+            "een pakje",
+            "mijn oma",
+            "de postbode",
+            "bracht"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vraag: wie of wat bracht de postbode? Een pakje. 'Mijn oma' is de ontvanger en dus meewerkend voorwerp.",
+          "varianten": [
+            {
+              "vraag": "In 'De juf gaf de leerlingen een opdracht', wat is het lijdend voorwerp?",
+              "opties": [
+                "een opdracht",
+                "de leerlingen",
+                "de juf",
+                "gaf"
+              ],
+              "uitleg": "Vraag: wie of wat gaf de juf? Een opdracht. 'De leerlingen' zijn de ontvangers en dus meewerkend voorwerp."
+            },
+            {
+              "vraag": "In 'Mijn buurman leende mij zijn ladder', wat is het lijdend voorwerp?",
+              "opties": [
+                "zijn ladder",
+                "mijn buurman",
+                "mij",
+                "leende"
+              ],
+              "uitleg": "Vraag: wie of wat leende mijn buurman? Zijn ladder. 'Mij' is de ontvanger en dus meewerkend voorwerp."
+            },
+            {
+              "vraag": "In 'De trainer beloofde de ploeg een beker', wat is het lijdend voorwerp?",
+              "opties": [
+                "een beker",
+                "de ploeg",
+                "de trainer",
+                "beloofde"
+              ],
+              "uitleg": "Vraag: wie of wat beloofde de trainer? Een beker. 'De ploeg' is de ontvanger en dus meewerkend voorwerp."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het gezegde in 'De kinderen zijn moe'?",
+          "opties": [
+            "zijn moe, een naamwoordelijk gezegde",
+            "zijn, een werkwoordelijk gezegde",
+            "moe, een bijwoordelijke bepaling",
+            "de kinderen zijn, een onderwerp met persoonsvorm"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een koppelwerkwoord hoort het naamwoordelijk deel bij het gezegde. Samen zeggen ze wat het onderwerp is of wordt.",
+          "varianten": [
+            {
+              "vraag": "Wat is het gezegde in 'De soep is koud'?",
+              "opties": [
+                "is koud, een naamwoordelijk gezegde",
+                "is, een werkwoordelijk gezegde",
+                "koud, een bijwoordelijke bepaling",
+                "de soep is, een onderwerp met persoonsvorm"
+              ]
+            },
+            {
+              "vraag": "Wat is het gezegde in 'Mijn broer wordt leraar'?",
+              "opties": [
+                "wordt leraar, een naamwoordelijk gezegde",
+                "wordt, een werkwoordelijk gezegde",
+                "leraar, een bijwoordelijke bepaling",
+                "mijn broer wordt, een onderwerp met persoonsvorm"
+              ]
+            },
+            {
+              "vraag": "Wat is het gezegde in 'Het weer blijft slecht'?",
+              "opties": [
+                "blijft slecht, een naamwoordelijk gezegde",
+                "blijft, een werkwoordelijk gezegde",
+                "slecht, een bijwoordelijke bepaling",
+                "het weer blijft, een onderwerp met persoonsvorm"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het zinsdeel dat antwoord geeft op 'wie of wat plus de persoonsvorm'?",
+          "antwoord": [
+            "het onderwerp",
+            "onderwerp",
+            "subject"
+          ],
+          "uitleg": "Het onderwerp bepaalt ook de vorm van de persoonsvorm. Dat heet congruentie."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het gezegde van 'Zij is verpleegkundige' is naamwoordelijk.",
+          "antwoord": true,
+          "uitleg": "'Is' is een koppelwerkwoord en 'verpleegkundige' zegt iets over het onderwerp. Samen vormen ze een naamwoordelijk gezegde.",
+          "varianten": [
+            {
+              "vraag": "Het gezegde van 'Mijn broer wordt leraar' is naamwoordelijk.",
+              "uitleg": "'Wordt' is een koppelwerkwoord en 'leraar' zegt iets over het onderwerp. Samen vormen ze een naamwoordelijk gezegde."
+            },
+            {
+              "vraag": "Het gezegde van 'De soep blijft warm' is naamwoordelijk.",
+              "uitleg": "'Blijft' is een koppelwerkwoord en 'warm' zegt iets over het onderwerp. Samen vormen ze een naamwoordelijk gezegde."
+            },
+            {
+              "vraag": "Bij een koppelwerkwoord is het gezegde naamwoordelijk.",
+              "uitleg": "Zijn, worden en blijven koppelen het onderwerp aan een woord dat er iets over zegt."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze zinsdelen bestaan in de Nederlandse zinsontleding?",
+          "opties": [
+            "lijdend voorwerp",
+            "meewerkend voorwerp",
+            "voorzetselvoorwerp",
+            "rijmend voorwerp"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Daarnaast bestaan ook het handelend voorwerp en de bijwoordelijke bepaling. Een rijmend voorwerp bestaat niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In 'Hij wacht al een uur op de trein', wat is 'op de trein'?",
+          "opties": [
+            "een voorzetselvoorwerp",
+            "een bijwoordelijke bepaling van plaats",
+            "een lijdend voorwerp",
+            "een handelend voorwerp"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het voorzetsel ligt vast bij het werkwoord: je wacht óp iets. Je kan het niet vervangen door 'onder' of 'naast'.",
+          "varianten": [
+            {
+              "vraag": "In 'Zij rekent op haar vrienden', wat is 'op haar vrienden'?",
+              "uitleg": "Het voorzetsel ligt vast bij het werkwoord: je rekent óp iemand. Je kan het niet vervangen door 'onder' of 'naast'."
+            },
+            {
+              "vraag": "In 'Wij twijfelen aan zijn verhaal', wat is 'aan zijn verhaal'?",
+              "uitleg": "Het voorzetsel ligt vast bij het werkwoord: je twijfelt áán iets. Je kan het niet zomaar vervangen."
+            },
+            {
+              "vraag": "In 'Hij denkt vaak aan die zomer', wat is 'aan die zomer'?",
+              "uitleg": "Het voorzetsel ligt vast bij het werkwoord: je denkt áán iets. Je kan het niet zomaar vervangen."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het zinsdeel dat in een lijdende zin met 'door' aangeeft wie de handeling uitvoert?",
+          "antwoord": [
+            "het handelend voorwerp",
+            "handelend voorwerp"
+          ],
+          "uitleg": "In 'De brief werd door de directeur ondertekend' is dat 'door de directeur'."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een bijwoordelijke bepaling is altijd verplicht in de zin.",
+          "antwoord": false,
+          "uitleg": "Ze is juist meestal weglaatbaar. 'Gisteren fietste ze naar school' blijft een zin zonder 'gisteren'.",
+          "varianten": [
+            {
+              "vraag": "Een bijwoordelijke bepaling kan je nooit weglaten.",
+              "uitleg": "'Gisteren fietste ze naar school' blijft een zin zonder 'gisteren'. Ze is juist meestal weglaatbaar."
+            },
+            {
+              "vraag": "Elke zin moet een bijwoordelijke bepaling bevatten.",
+              "uitleg": "'De hond blaft' is een volledige zin zonder bepaling."
+            },
+            {
+              "vraag": "Zonder bijwoordelijke bepaling is een zin onvolledig.",
+              "uitleg": "Ze is juist meestal weglaatbaar. De persoonsvorm is het zinsdeel dat nooit mag ontbreken."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel bijwoordelijke bepalingen staan er in 'Gisteren fietste ze door de regen naar school'?",
+          "opties": [
+            "drie",
+            "twee",
+            "één",
+            "vier"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gisteren (tijd), door de regen (omstandigheid) en naar school (richting). Alle drie kan je weglaten.",
+          "varianten": [
+            {
+              "vraag": "Hoeveel bijwoordelijke bepalingen staan er in 'Vanmorgen liep hij door het park naar het station'?",
+              "uitleg": "Vanmorgen (tijd), door het park (omstandigheid) en naar het station (richting). Alle drie kan je weglaten."
+            },
+            {
+              "vraag": "Hoeveel bijwoordelijke bepalingen staan er in 'Straks rijdt zij met de bus naar de markt'?",
+              "uitleg": "Straks (tijd), met de bus (middel) en naar de markt (richting). Alle drie kan je weglaten."
+            },
+            {
+              "vraag": "Hoeveel bijwoordelijke bepalingen staan er in 'Gisteravond wandelden we in de regen naar huis'?",
+              "uitleg": "Gisteravond (tijd), in de regen (omstandigheid) en naar huis (richting). Alle drie kan je weglaten."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen een werkwoordelijk en een naamwoordelijk gezegde?",
+          "opties": [
+            "een naamwoordelijk gezegde bevat een koppelwerkwoord en zegt iets over het onderwerp",
+            "een naamwoordelijk gezegde bestaat alleen uit naamwoorden zonder werkwoord",
+            "een werkwoordelijk gezegde staat altijd achteraan in de zin",
+            "een werkwoordelijk gezegde komt alleen in bijzinnen voor"
+          ],
+          "antwoord": 0,
+          "uitleg": "'Hij loopt' is werkwoordelijk: er gebeurt iets. 'Hij is moe' is naamwoordelijk: er wordt iets over hem gezegd."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je vindt het onderwerp door te vragen: wie of wat plus de persoonsvorm.",
+          "antwoord": true,
+          "uitleg": "Wie of wat blaft? De hond van de buren. Dat hele stuk is het onderwerp, niet alleen 'de hond'.",
+          "varianten": [
+            {
+              "vraag": "In 'De hond blaft' vind je het onderwerp met de vraag: wie of wat blaft?",
+              "uitleg": "Het antwoord is 'de hond'. Dat is het onderwerp."
+            },
+            {
+              "vraag": "Het onderwerp bepaalt de vorm van de persoonsvorm.",
+              "uitleg": "Dat heet congruentie: 'de doos staat', 'de dozen staan'."
+            },
+            {
+              "vraag": "In 'De trein vertrekt' is 'de trein' het onderwerp.",
+              "uitleg": "Wie of wat vertrekt? De trein. Diezelfde vraag met het onderwerp erachter geeft het lijdend voorwerp."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In 'De brief werd door de directeur ondertekend', wat is 'door de directeur'?",
+          "opties": [
+            "het handelend voorwerp",
+            "het onderwerp",
+            "het lijdend voorwerp",
+            "een bijwoordelijke bepaling van plaats"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het onderwerp is 'de brief'. Wie de handeling écht uitvoert, staat in de door-groep.",
+          "varianten": [
+            {
+              "vraag": "In 'Het raam werd door de wind opengeblazen', wat is 'door de wind'?",
+              "uitleg": "Het onderwerp is 'het raam'. Wie of wat de handeling écht uitvoert, staat in de door-groep."
+            },
+            {
+              "vraag": "In 'De taart werd door mijn oma gebakken', wat is 'door mijn oma'?",
+              "uitleg": "Het onderwerp is 'de taart'. Wie de handeling écht uitvoert, staat in de door-groep."
+            },
+            {
+              "vraag": "In 'Het plein werd door de gemeente heraangelegd', wat is 'door de gemeente'?",
+              "uitleg": "Het onderwerp is 'het plein'. Wie de handeling écht uitvoert, staat in de door-groep."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het zinsdeel waarop de handeling van het werkwoord overgaat?",
+          "antwoord": [
+            "het lijdend voorwerp",
+            "lijdend voorwerp"
+          ],
+          "uitleg": "Vandaar de naam: het lijdt de handeling. In de lijdende vorm wordt het het onderwerp."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe vind je het lijdend voorwerp in een zin?",
+          "opties": [
+            "je vraagt: wie of wat plus persoonsvorm plus onderwerp",
+            "je neemt het zinsdeel dat achteraan staat",
+            "je neemt het zinsdeel met een voorzetsel ervoor",
+            "je vraagt: waar of wanneer plus persoonsvorm"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie of wat bracht de postbode? Een pakje. Die vraag onderscheidt het lijdend voorwerp van het onderwerp."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Elk zinsdeel bestaat uit precies één woord.",
+          "antwoord": false,
+          "uitleg": "'De hond van de buren' is één zinsdeel van vijf woorden. Je verplaatst een zinsdeel altijd in zijn geheel.",
+          "varianten": [
+            {
+              "vraag": "Een zinsdeel bestaat altijd uit één woord.",
+              "uitleg": "'De hond van de buren' is één zinsdeel van vijf woorden."
+            },
+            {
+              "vraag": "Een zinsdeel verplaats je woord per woord.",
+              "uitleg": "Je verplaatst een zinsdeel altijd in zijn geheel. Daarmee toon je net aan dat het één zinsdeel is."
+            },
+            {
+              "vraag": "'De hond van de buren' zijn twee zinsdelen.",
+              "uitleg": "Het is één zinsdeel van vijf woorden. Je verplaatst het altijd in zijn geheel."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In 'Mijn broer geeft zijn beste vriend een boek', wat is 'zijn beste vriend'?",
+          "opties": [
+            "het meewerkend voorwerp",
+            "het lijdend voorwerp",
+            "het onderwerp",
+            "het handelend voorwerp"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je kan er 'aan' voor zetten: hij geeft een boek aan zijn beste vriend. Dat is de proef voor het meewerkend voorwerp.",
+          "varianten": [
+            {
+              "vraag": "In 'De juf geeft de nieuwe leerling een schrift', wat is 'de nieuwe leerling'?",
+              "uitleg": "Je kan er 'aan' voor zetten: de juf geeft een schrift aan de nieuwe leerling. Dat is de proef voor het meewerkend voorwerp."
+            },
+            {
+              "vraag": "In 'Ik stuur mijn oma een kaartje', wat is 'mijn oma'?",
+              "uitleg": "Je kan er 'aan' voor zetten: ik stuur een kaartje aan mijn oma. Dat is de proef voor het meewerkend voorwerp."
+            },
+            {
+              "vraag": "In 'Hij leent zijn buurman de ladder', wat is 'zijn buurman'?",
+              "uitleg": "Je kan er 'aan' voor zetten: hij leent de ladder aan zijn buurman. Dat is de proef voor het meewerkend voorwerp."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woordgroepen zijn bijwoordelijke bepalingen in 'Morgen ga ik met de fiets naar de markt'?",
+          "opties": [
+            "morgen",
+            "met de fiets",
+            "naar de markt",
+            "ik"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "'Ik' is het onderwerp. De drie andere zeggen wanneer, hoe en waarheen.",
+          "varianten": [
+            {
+              "vraag": "Welke woordgroepen zijn bijwoordelijke bepalingen in 'Straks rijdt hij met de auto naar het station'?",
+              "opties": [
+                "straks",
+                "met de auto",
+                "naar het station",
+                "hij"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "'Hij' is het onderwerp. De drie andere zeggen wanneer, hoe en waarheen."
+            },
+            {
+              "vraag": "Welke woordgroepen zijn bijwoordelijke bepalingen in 'Vanavond loop ik met mijn hond door het park'?",
+              "opties": [
+                "vanavond",
+                "met mijn hond",
+                "door het park",
+                "ik"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "'Ik' is het onderwerp. De drie andere zeggen wanneer, hoe en waarheen."
+            },
+            {
+              "vraag": "Welke woordgroepen zijn bijwoordelijke bepalingen in 'Morgen vertrekken wij met de trein naar zee'?",
+              "opties": [
+                "morgen",
+                "met de trein",
+                "naar zee",
+                "wij"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "'Wij' is het onderwerp. De drie andere zeggen wanneer, hoe en waarheen."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat onderscheidt een voorzetselvoorwerp van een bijwoordelijke bepaling met een voorzetsel?",
+          "opties": [
+            "bij een voorzetselvoorwerp ligt het voorzetsel vast bij het werkwoord",
+            "een voorzetselvoorwerp staat altijd vooraan in de zin",
+            "een bijwoordelijke bepaling bevat nooit een voorzetsel",
+            "een voorzetselvoorwerp bestaat uit precies twee woorden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je rekent óp iemand, je twijfelt áán iets. In 'hij zit op de bank' kan het voorzetsel wel wisselen, dus daar is het een bepaling."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk zinsdeel ontbreekt nooit in een Nederlandse mededelende zin?",
+          "opties": [
+            "de persoonsvorm",
+            "het lijdend voorwerp",
+            "het meewerkend voorwerp",
+            "de bijwoordelijke bepaling"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zonder persoonsvorm heb je geen zin maar een woordgroep. De drie andere zinsdelen kunnen allemaal ontbreken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In 'De hond van de buren blaft de hele nacht', wat is het onderwerp?",
+          "opties": [
+            "de hond van de buren",
+            "de hond",
+            "de buren",
+            "de hele nacht"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het hele stuk hoort bij elkaar. Dat merk je als je de zin omdraait: 'De hele nacht blaft de hond van de buren.'",
+          "varianten": [
+            {
+              "vraag": "In 'De fiets van mijn zus staat buiten', wat is het onderwerp?",
+              "opties": [
+                "de fiets van mijn zus",
+                "de fiets",
+                "mijn zus",
+                "buiten"
+              ],
+              "uitleg": "Wie of wat staat buiten? De fiets van mijn zus. Dat hele stuk is het onderwerp."
+            },
+            {
+              "vraag": "In 'De buren van hiernaast verhuizen morgen', wat is het onderwerp?",
+              "opties": [
+                "de buren van hiernaast",
+                "de buren",
+                "hiernaast",
+                "morgen"
+              ],
+              "uitleg": "Wie of wat verhuist morgen? De buren van hiernaast. Dat hele stuk is het onderwerp."
+            },
+            {
+              "vraag": "In 'Het boek van de bibliotheek ligt op tafel', wat is het onderwerp?",
+              "opties": [
+                "het boek van de bibliotheek",
+                "het boek",
+                "de bibliotheek",
+                "op tafel"
+              ],
+              "uitleg": "Wie of wat ligt op tafel? Het boek van de bibliotheek. Dat hele stuk is het onderwerp."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titel": "Zinsdelen en samengestelde zinnen — deel 2",
+      "niveau": "boost-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke vorm staat 'De brief wordt door de secretaresse getypt'?",
+          "opties": [
+            "de lijdende vorm",
+            "de bedrijvende vorm",
+            "de gebiedende wijs",
+            "de voltooid verleden tijd"
+          ],
+          "antwoord": 0,
+          "uitleg": "In de lijdende vorm wordt het lijdend voorwerp het onderwerp, en verschijnt de echte uitvoerder in een door-groep.",
+          "varianten": [
+            {
+              "vraag": "In welke vorm staat 'Het plein wordt door de gemeente heraangelegd'?"
+            },
+            {
+              "vraag": "In welke vorm staat 'De ramen werden door de glazenwasser gelapt'?"
+            },
+            {
+              "vraag": "In welke vorm staat 'Het pakje werd door de postbode bezorgd'?"
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de lijdende vorm van 'De hond bijt de postbode'?",
+          "opties": [
+            "De postbode wordt door de hond gebeten.",
+            "De hond wordt door de postbode gebeten.",
+            "De postbode bijt de hond niet.",
+            "Door de hond bijt de postbode."
+          ],
+          "antwoord": 0,
+          "uitleg": "Het lijdend voorwerp 'de postbode' wordt onderwerp, en het oude onderwerp komt in een door-groep te staan.",
+          "varianten": [
+            {
+              "vraag": "Wat is de lijdende vorm van 'De kat vangt de muis'?",
+              "opties": [
+                "De muis wordt door de kat gevangen.",
+                "De kat wordt door de muis gevangen.",
+                "De muis vangt de kat niet.",
+                "Door de kat vangt de muis."
+              ],
+              "uitleg": "Het lijdend voorwerp 'de muis' wordt onderwerp, en het oude onderwerp komt in een door-groep te staan."
+            },
+            {
+              "vraag": "Wat is de lijdende vorm van 'De juf verbetert de toets'?",
+              "opties": [
+                "De toets wordt door de juf verbeterd.",
+                "De juf wordt door de toets verbeterd.",
+                "De toets verbetert de juf niet.",
+                "Door de juf verbetert de toets."
+              ],
+              "uitleg": "Het lijdend voorwerp 'de toets' wordt onderwerp, en het oude onderwerp komt in een door-groep te staan."
+            },
+            {
+              "vraag": "Wat is de lijdende vorm van 'De bakker bakt het brood'?",
+              "opties": [
+                "Het brood wordt door de bakker gebakken.",
+                "De bakker wordt door het brood gebakken.",
+                "Het brood bakt de bakker niet.",
+                "Door de bakker bakt het brood."
+              ],
+              "uitleg": "Het lijdend voorwerp 'het brood' wordt onderwerp, en het oude onderwerp komt in een door-groep te staan."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je een zin met maar één persoonsvorm?",
+          "antwoord": [
+            "een enkelvoudige zin",
+            "enkelvoudige zin",
+            "enkelvoudig"
+          ],
+          "uitleg": "Tel de persoonsvormen: één betekent enkelvoudig, meer dan één betekent samengesteld."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In een bijzin staat de persoonsvorm altijd op de tweede plaats.",
+          "antwoord": false,
+          "uitleg": "Dat geldt voor de hoofdzin. In een bijzin schuift de persoonsvorm juist naar achteren: 'omdat het de hele dag regende'.",
+          "varianten": [
+            {
+              "vraag": "In een bijzin staat de persoonsvorm op dezelfde plaats als in een hoofdzin.",
+              "uitleg": "In een bijzin schuift de persoonsvorm juist naar achteren: 'omdat het de hele dag regende'."
+            },
+            {
+              "vraag": "In 'omdat het de hele dag regende' staat de persoonsvorm op plaats twee.",
+              "uitleg": "Ze staat helemaal achteraan. Dat is net het kenmerk van een bijzin."
+            },
+            {
+              "vraag": "De persoonsvorm staat in elke zin op de tweede plaats.",
+              "uitleg": "Dat geldt voor de hoofdzin. In een bijzin schuift ze naar achteren."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze zinssoorten bestaan?",
+          "opties": [
+            "mededelende",
+            "bevelende",
+            "uitroepende",
+            "rijmende"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Daarnaast bestaan ook vragende zinnen, en het onderscheid bevestigend of ontkennend. Rijmende zinnen zijn geen zinssoort."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'Kom onmiddellijk hier!' Wat voor zin is dat?",
+          "opties": [
+            "een bevelende zin",
+            "een uitroepende zin",
+            "een vragende zin",
+            "een mededelende zin"
+          ],
+          "antwoord": 0,
+          "uitleg": "De persoonsvorm staat in de gebiedende wijs en er is geen onderwerp. Het uitroepteken maakt er nog geen uitroepende zin van.",
+          "varianten": [
+            {
+              "vraag": "'Let nu eens goed op!' Wat voor zin is dat?"
+            },
+            {
+              "vraag": "'Doe die deur alsjeblieft dicht!' Wat voor zin is dat?"
+            },
+            {
+              "vraag": "'Ga onmiddellijk naar boven!' Wat voor zin is dat?"
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het koppelen van twee gelijkwaardige hoofdzinnen?",
+          "antwoord": [
+            "nevenschikking",
+            "de nevenschikking",
+            "nevenschikkend"
+          ],
+          "uitleg": "En, maar, of, want en dus verbinden twee zinnen die allebei op eigen benen kunnen staan."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij onderschikking hangt de ene zin van de andere af.",
+          "antwoord": true,
+          "uitleg": "'Omdat het regende' kan niet alleen staan. Zo'n zin heeft een hoofdzin nodig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In 'Ik blijf thuis omdat het regent', wat voor verband is er tussen de twee delen?",
+          "opties": [
+            "onderschikking",
+            "nevenschikking",
+            "inversie",
+            "congruentie"
+          ],
+          "antwoord": 0,
+          "uitleg": "'Omdat' is een onderschikkend voegwoord: het maakt van het tweede deel een bijzin.",
+          "varianten": [
+            {
+              "vraag": "In 'Hij kwam te laat omdat de trein vertraging had', wat voor verband is er tussen de twee delen?",
+              "uitleg": "'Omdat' is een onderschikkend voegwoord: het maakt van het tweede deel een bijzin."
+            },
+            {
+              "vraag": "In 'Wij wachten tot iedereen er is', wat voor verband is er tussen de twee delen?",
+              "uitleg": "'Tot' is een onderschikkend voegwoord: het maakt van het tweede deel een bijzin."
+            },
+            {
+              "vraag": "In 'Zij zwijgt hoewel ze het beter weet', wat voor verband is er tussen de twee delen?",
+              "uitleg": "'Hoewel' is een onderschikkend voegwoord: het maakt van het tweede deel een bijzin."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn nevenschikkende voegwoorden?",
+          "opties": [
+            "en",
+            "maar",
+            "want",
+            "omdat"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "'Omdat' is onderschikkend. Een geheugensteun voor de nevenschikkende: en, maar, of, want, dus.",
+          "varianten": [
+            {
+              "opties": [
+                "en",
+                "of",
+                "dus",
+                "hoewel"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "'Hoewel' is onderschikkend. Een geheugensteun voor de nevenschikkende: en, maar, of, want, dus."
+            },
+            {
+              "opties": [
+                "maar",
+                "of",
+                "want",
+                "als"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "'Als' is onderschikkend. Een geheugensteun voor de nevenschikkende: en, maar, of, want, dus."
+            },
+            {
+              "opties": [
+                "en",
+                "want",
+                "dus",
+                "dat"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "'Dat' is onderschikkend. Een geheugensteun voor de nevenschikkende: en, maar, of, want, dus."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Inversie betekent dat het onderwerp achter de persoonsvorm komt te staan.",
+          "antwoord": true,
+          "uitleg": "Zodra er iets anders dan het onderwerp vooraan staat, draait de volgorde om: 'Morgen ga ik'.",
+          "varianten": [
+            {
+              "vraag": "In 'Morgen ga ik naar de markt' staat er inversie.",
+              "uitleg": "Zodra er iets anders dan het onderwerp vooraan staat, draait de volgorde om."
+            },
+            {
+              "vraag": "Bij inversie draait de volgorde van onderwerp en persoonsvorm om.",
+              "uitleg": "'Ik ga morgen' wordt 'Morgen ga ik'."
+            },
+            {
+              "vraag": "In 'Straks komt hij langs' staat er inversie.",
+              "uitleg": "'Straks' staat vooraan, dus schuift het onderwerp achter de persoonsvorm."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zeg je 'Morgen ga ik naar de markt' en niet 'Morgen ik ga naar de markt'?",
+          "opties": [
+            "omdat de persoonsvorm in een hoofdzin op de tweede plaats blijft",
+            "omdat 'morgen' een bijzin inleidt",
+            "omdat het onderwerp nooit vooraan mag staan",
+            "omdat de zin anders in de verleden tijd zou staan"
+          ],
+          "antwoord": 0,
+          "uitleg": "In een Nederlandse hoofdzin staat de persoonsvorm altijd op plaats twee. Staat er iets anders op één, dan schuift het onderwerp erachter.",
+          "varianten": [
+            {
+              "vraag": "Waarom zeg je 'Straks komt hij langs' en niet 'Straks hij komt langs'?",
+              "opties": [
+                "omdat de persoonsvorm in een hoofdzin op de tweede plaats blijft",
+                "omdat 'straks' een bijzin inleidt",
+                "omdat het onderwerp nooit vooraan mag staan",
+                "omdat de zin anders in de verleden tijd zou staan"
+              ]
+            },
+            {
+              "vraag": "Waarom zeg je 'Gisteren las ik dat boek' en niet 'Gisteren ik las dat boek'?",
+              "opties": [
+                "omdat de persoonsvorm in een hoofdzin op de tweede plaats blijft",
+                "omdat 'gisteren' een bijzin inleidt",
+                "omdat het onderwerp nooit vooraan mag staan",
+                "omdat de zin anders in de toekomende tijd zou staan"
+              ]
+            },
+            {
+              "vraag": "Waarom zeg je 'Daarna gingen we naar huis' en niet 'Daarna we gingen naar huis'?",
+              "opties": [
+                "omdat de persoonsvorm in een hoofdzin op de tweede plaats blijft",
+                "omdat 'daarna' een bijzin inleidt",
+                "omdat het onderwerp nooit vooraan mag staan",
+                "omdat de zin anders vragend zou worden"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je een zin met meer dan één persoonsvorm?",
+          "antwoord": [
+            "een samengestelde zin",
+            "samengestelde zin",
+            "samengesteld"
+          ],
+          "uitleg": "Zo'n zin bestaat uit meerdere deelzinnen, neven- of ondergeschikt aan elkaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom kan een lijdende zin het handelend voorwerp weglaten?",
+          "opties": [
+            "omdat het onderwerp al bezet is door het lijdend voorwerp",
+            "omdat een lijdende zin geen werkwoord nodig heeft",
+            "omdat het handelend voorwerp nooit belangrijk is",
+            "omdat een lijdende zin altijd in de verleden tijd staat"
+          ],
+          "antwoord": 0,
+          "uitleg": "'De ramen werden gelapt' is een volledige zin. Wie het deed, hoef je niet te zeggen, en dat is precies waarom de vorm zo populair is."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Elke vragende zin begint met een vragend voornaamwoord.",
+          "antwoord": false,
+          "uitleg": "'Ga jij mee?' begint met de persoonsvorm. Vragen met een vraagwoord en vragen zonder vraagwoord bestaan allebei.",
+          "varianten": [
+            {
+              "vraag": "Een vraag begint altijd met een vraagwoord.",
+              "uitleg": "'Ga jij mee?' begint met de persoonsvorm. Vragen met en zonder vraagwoord bestaan allebei."
+            },
+            {
+              "vraag": "'Ga jij mee?' is geen vragende zin, want er staat geen vraagwoord.",
+              "uitleg": "Het is wel degelijk een vraag. Ze begint alleen met de persoonsvorm in plaats van met een vraagwoord."
+            },
+            {
+              "vraag": "Zonder vraagwoord kan een zin geen vraag zijn.",
+              "uitleg": "'Kom je mee?' en 'Heb je dat gezien?' zijn vragen zonder vraagwoord."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat verandert er als je 'De gemeente heeft het plein heraangelegd' in de lijdende vorm zet?",
+          "opties": [
+            "'het plein' wordt het onderwerp en 'de gemeente' komt in een door-groep",
+            "de zin wordt vragend in plaats van mededelend",
+            "de zin verandert van verleden naar tegenwoordige tijd",
+            "het werkwoord verdwijnt uit de zin"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het resultaat is: 'Het plein is door de gemeente heraangelegd.' De inhoud blijft, de nadruk verschuift."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze zinnen zijn samengesteld?",
+          "opties": [
+            "Ik blijf thuis omdat het regent.",
+            "Hij belde aan en zij deed open.",
+            "Toen ik binnenkwam, was iedereen al weg.",
+            "De hond van de buren blaft de hele nacht."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De eerste drie hebben twee persoonsvormen. De laatste heeft er maar één en is dus enkelvoudig.",
+          "varianten": [
+            {
+              "opties": [
+                "Hij kwam te laat omdat de trein vertraging had.",
+                "Zij belde aan en ik deed open.",
+                "Toen de film begon, was de zaal vol.",
+                "De fiets van mijn zus staat buiten."
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "De eerste drie hebben twee persoonsvormen. De laatste heeft er maar één en is dus enkelvoudig."
+            },
+            {
+              "opties": [
+                "Wij wachten tot iedereen er is.",
+                "Hij zwijgt maar zij praat door.",
+                "Hoewel het goot, gingen we buiten spelen.",
+                "Het boek van de bibliotheek ligt op tafel."
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "De eerste drie hebben twee persoonsvormen. De laatste heeft er maar één en is dus enkelvoudig."
+            },
+            {
+              "opties": [
+                "Zij zwijgt hoewel ze het beter weet.",
+                "Ik kook en hij dekt de tafel.",
+                "Als het morgen regent, blijven we thuis.",
+                "De buren van hiernaast verhuizen morgen."
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "De eerste drie hebben twee persoonsvormen. De laatste heeft er maar één en is dus enkelvoudig."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom gebruiken ambtelijke teksten vaak de lijdende vorm?",
+          "opties": [
+            "omdat je dan niet hoeft te zeggen wie iets gedaan heeft",
+            "omdat lijdende zinnen altijd korter zijn",
+            "omdat de lijdende vorm minder spelfouten oplevert",
+            "omdat een lijdende zin geen onderwerp nodig heeft"
+          ],
+          "antwoord": 0,
+          "uitleg": "'Uw aanvraag werd afgewezen' verzwijgt wie besliste. Dat maakt zulke teksten ook moeilijker leesbaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In 'Hoewel hij doodmoe was, ging hij toch trainen', welk deel is de bijzin?",
+          "opties": [
+            "Hoewel hij doodmoe was",
+            "ging hij toch trainen",
+            "hij toch trainen",
+            "doodmoe was"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je herkent de bijzin aan het onderschikkend voegwoord vooraan en aan de persoonsvorm achteraan.",
+          "varianten": [
+            {
+              "vraag": "In 'Omdat het regende, bleven we binnen', welk deel is de bijzin?",
+              "opties": [
+                "Omdat het regende",
+                "bleven we binnen",
+                "we binnen",
+                "het regende"
+              ]
+            },
+            {
+              "vraag": "In 'Toen de bel ging, stond iedereen op', welk deel is de bijzin?",
+              "opties": [
+                "Toen de bel ging",
+                "stond iedereen op",
+                "iedereen op",
+                "de bel ging"
+              ]
+            },
+            {
+              "vraag": "In 'Als je klaar bent, mag je gaan', welk deel is de bijzin?",
+              "opties": [
+                "Als je klaar bent",
+                "mag je gaan",
+                "je gaan",
+                "klaar bent"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat voor zin is 'Wat is dat mooi!'?",
+          "opties": [
+            "een uitroepende zin",
+            "een vragende zin",
+            "een bevelende zin",
+            "een ontkennende zin"
+          ],
+          "antwoord": 0,
+          "uitleg": "De zin begint met een vraagwoord maar vraagt niets. Hij drukt verwondering uit, en dat is uitroepend.",
+          "varianten": [
+            {
+              "vraag": "Wat voor zin is 'Wat loopt die hond hard!'?"
+            },
+            {
+              "vraag": "Wat voor zin is 'Hoe mooi is dat toch!'?"
+            },
+            {
+              "vraag": "Wat voor zin is 'Wat zie jij er goed uit!'?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titel": "Spelling, leestekens en klanken — deel 1",
+      "niveau": "boost-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bedoelen we met een woord met een veranderlijk woordbeeld?",
+          "opties": [
+            "een woord waarvan de letters veranderen in een andere vorm, zoals huis en huizen",
+            "een woord dat je op twee manieren mag spellen",
+            "een woord dat in de loop der eeuwen van betekenis veranderd is",
+            "een woord dat zowel enkelvoud als meervoud kan zijn"
+          ],
+          "antwoord": 0,
+          "uitleg": "De s wordt een z, de f wordt een v. Je hoort het verschil, en je schrijft het ook."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke woorden verandert het woordbeeld als je er een meervoud van maakt?",
+          "opties": [
+            "huis",
+            "brief",
+            "graf",
+            "boek"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Huizen, brieven, graven. Bij boeken blijft de k gewoon staan.",
+          "varianten": [
+            {
+              "opties": [
+                "muis",
+                "duif",
+                "wolf",
+                "stoel"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Muizen, duiven, wolven. Bij stoelen blijft de l gewoon staan."
+            },
+            {
+              "opties": [
+                "hoes",
+                "neef",
+                "druif",
+                "fiets"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Hoezen, neven, druiven. Bij fietsen blijft de s gewoon staan."
+            },
+            {
+              "opties": [
+                "gans",
+                "wolf",
+                "graf",
+                "deur"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Ganzen, wolven, graven. Bij deuren blijft de r gewoon staan."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de twee puntjes op de i in 'ruïne'?",
+          "antwoord": [
+            "trema",
+            "een trema",
+            "het trema"
+          ],
+          "uitleg": "Een trema zegt: begin hier een nieuwe klank. Zonder trema zou je 'rui' lezen als één klank.",
+          "varianten": [
+            {
+              "vraag": "Hoe noem je de twee puntjes op de u in 'reünie'?",
+              "uitleg": "Een trema zegt: begin hier een nieuwe klank. Zonder trema zou je 'reu' lezen als één klank."
+            },
+            {
+              "vraag": "Hoe noem je de twee puntjes op de e in 'zeeën'?",
+              "uitleg": "Een trema zegt: begin hier een nieuwe klank. Zonder trema zou je drie e's na elkaar lezen."
+            },
+            {
+              "vraag": "Hoe noem je de twee puntjes op de e in 'knieën'?",
+              "uitleg": "Een trema zegt: begin hier een nieuwe klank. Zonder trema zou je 'ie' en 'e' aan elkaar plakken."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Namen van talen krijgen in het Nederlands een hoofdletter.",
+          "antwoord": true,
+          "uitleg": "Hij spreekt Frans, zij studeert Nederlands. De taalnaam is afgeleid van een aardrijkskundige naam en houdt de hoofdletter.",
+          "varianten": [
+            {
+              "vraag": "'Frans' en 'Nederlands' krijgen een hoofdletter.",
+              "uitleg": "De taalnaam is afgeleid van een aardrijkskundige naam en houdt de hoofdletter."
+            },
+            {
+              "vraag": "Namen van landen krijgen in het Nederlands een hoofdletter.",
+              "uitleg": "België, Frankrijk, Spanje. Talen en plaatsnamen krijgen er ook een."
+            },
+            {
+              "vraag": "Feestdagen zoals Kerstmis en Pasen krijgen een hoofdletter.",
+              "uitleg": "Feestdagen wel, dagen van de week en maanden niet."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin gebruikt de hoofdletters correct?",
+          "opties": [
+            "In januari leert hij Spaans in Madrid.",
+            "In Januari leert hij spaans in Madrid.",
+            "In januari leert hij spaans in madrid.",
+            "In Januari leert hij Spaans in madrid."
+          ],
+          "antwoord": 0,
+          "uitleg": "Maanden krijgen geen hoofdletter, taalnamen en plaatsnamen wel.",
+          "varianten": [
+            {
+              "opties": [
+                "In maart leert zij Italiaans in Rome.",
+                "In Maart leert zij italiaans in Rome.",
+                "In maart leert zij italiaans in rome.",
+                "In Maart leert zij Italiaans in rome."
+              ]
+            },
+            {
+              "opties": [
+                "In juli studeert hij Duits in Berlijn.",
+                "In Juli studeert hij duits in Berlijn.",
+                "In juli studeert hij duits in berlijn.",
+                "In Juli studeert hij Duits in berlijn."
+              ]
+            },
+            {
+              "opties": [
+                "In oktober spreekt zij Engels in Londen.",
+                "In Oktober spreekt zij engels in Londen.",
+                "In oktober spreekt zij engels in londen.",
+                "In Oktober spreekt zij Engels in londen."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom schrijf je 'zee-eend' met een koppelteken?",
+          "opties": [
+            "om te vermijden dat je drie e's achter elkaar leest",
+            "omdat samenstellingen altijd een koppelteken krijgen",
+            "omdat het een leenwoord uit het Duits is",
+            "omdat het woord uit drie delen bestaat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij klinkerbotsing zet je een koppelteken: na-apen, auto-ongeval, zee-eend.",
+          "varianten": [
+            {
+              "vraag": "Waarom schrijf je 'na-apen' met een koppelteken?",
+              "opties": [
+                "om te vermijden dat je de twee a's als één klank leest",
+                "omdat samenstellingen altijd een koppelteken krijgen",
+                "omdat het een leenwoord uit het Duits is",
+                "omdat het woord uit drie delen bestaat"
+              ]
+            },
+            {
+              "vraag": "Waarom schrijf je 'auto-ongeval' met een koppelteken?",
+              "opties": [
+                "om te vermijden dat je de o en de o als één klank leest",
+                "omdat samenstellingen altijd een koppelteken krijgen",
+                "omdat het een leenwoord uit het Duits is",
+                "omdat het woord uit drie delen bestaat"
+              ]
+            },
+            {
+              "vraag": "Waarom schrijf je 'zo-even' met een koppelteken?",
+              "opties": [
+                "om te vermijden dat je de o en de e als één klank leest",
+                "omdat samenstellingen altijd een koppelteken krijgen",
+                "omdat het een leenwoord uit het Duits is",
+                "omdat het woord uit drie delen bestaat"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het teken in 'Anna's fiets'?",
+          "antwoord": [
+            "apostrof",
+            "een apostrof",
+            "weglatingsteken"
+          ],
+          "uitleg": "De apostrof houdt de klank van de a open. Zonder apostrof zou je 'Annas' lezen met een korte a.",
+          "varianten": [
+            {
+              "vraag": "Hoe noem je het teken in 'oma's koekjes'?",
+              "uitleg": "De apostrof houdt de klank van de a open. Zonder apostrof zou je 'omas' lezen met een korte a."
+            },
+            {
+              "vraag": "Hoe noem je het teken in 'Lisa's jas'?",
+              "uitleg": "De apostrof houdt de klank van de a open. Zonder apostrof zou je 'Lisas' lezen met een korte a."
+            },
+            {
+              "vraag": "Hoe noem je het teken in 'auto's'?",
+              "uitleg": "De apostrof houdt de klank van de o open. Zonder apostrof zou je 'autos' lezen met een korte o."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het accentteken in 'één' dient om nadruk te leggen.",
+          "antwoord": true,
+          "uitleg": "'Ik heb één boek' betekent iets anders dan 'ik heb een boek'. Accenttekens zijn uitspraaktekens."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke woorden staat terecht een trema?",
+          "opties": [
+            "ruïne",
+            "reünie",
+            "zeeën",
+            "zee-eend"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Binnen één woorddeel gebruik je een trema. Tussen twee delen van een samenstelling een koppelteken.",
+          "varianten": [
+            {
+              "opties": [
+                "knieën",
+                "geëerd",
+                "coördinatie",
+                "na-apen"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Binnen één woorddeel gebruik je een trema. Tussen twee delen van een samenstelling een koppelteken."
+            },
+            {
+              "opties": [
+                "ideeën",
+                "beëindigen",
+                "ruïne",
+                "auto-ongeval"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Binnen één woorddeel gebruik je een trema. Tussen twee delen van een samenstelling een koppelteken."
+            },
+            {
+              "opties": [
+                "zeeën",
+                "reünie",
+                "geïnteresseerd",
+                "zo-even"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Binnen één woorddeel gebruik je een trema. Tussen twee delen van een samenstelling een koppelteken."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom schrijf je 'Er is iets gebeurd' maar 'Er gebeurt iets'?",
+          "opties": [
+            "het eerste is een voltooid deelwoord, het tweede een persoonsvorm",
+            "het eerste staat in de verleden tijd, het tweede in de toekomende",
+            "het eerste hoort bij een meervoud, het tweede bij een enkelvoud",
+            "het eerste is een bijvoeglijk naamwoord geworden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het voltooid deelwoord volgt de regel van het hele werkwoord (gebeuren, dus -d). De persoonsvorm krijgt stam plus t."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De namen van de dagen en de maanden krijgen in het Nederlands een hoofdletter.",
+          "antwoord": false,
+          "uitleg": "Maandag en januari schrijf je klein. Feestdagen zoals Kerstmis en Pasen krijgen wel een hoofdletter.",
+          "varianten": [
+            {
+              "vraag": "'Maandag' en 'januari' krijgen een hoofdletter.",
+              "uitleg": "Maandag en januari schrijf je klein. Feestdagen zoals Kerstmis en Pasen krijgen er wel een."
+            },
+            {
+              "vraag": "De maanden van het jaar krijgen een hoofdletter.",
+              "uitleg": "Januari, februari en maart schrijf je klein. Talen en landen krijgen wel een hoofdletter."
+            },
+            {
+              "vraag": "'Woensdag' schrijf je met een hoofdletter.",
+              "uitleg": "Dagen van de week schrijf je klein. Feestdagen zoals Kerstmis krijgen wel een hoofdletter."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de juiste verleden tijd van 'bereiden'?",
+          "opties": [
+            "ik bereidde",
+            "ik bereide",
+            "ik bereidte",
+            "ik bereid"
+          ],
+          "antwoord": 0,
+          "uitleg": "De stam is 'bereid' en eindigt op d. Daar komt -de bij, dus krijg je twee keer d.",
+          "varianten": [
+            {
+              "vraag": "Wat is de juiste verleden tijd van 'antwoorden'?",
+              "opties": [
+                "ik antwoordde",
+                "ik antwoorde",
+                "ik antwoordte",
+                "ik antwoord"
+              ],
+              "uitleg": "De stam is 'antwoord' en eindigt op d. Daar komt -de bij, dus krijg je twee keer d."
+            },
+            {
+              "vraag": "Wat is de juiste verleden tijd van 'redden'?",
+              "opties": [
+                "ik redde",
+                "ik rede",
+                "ik redte",
+                "ik red"
+              ],
+              "uitleg": "De stam is 'red' en eindigt op d. Daar komt -de bij, dus krijg je twee keer d."
+            },
+            {
+              "vraag": "Wat is de juiste verleden tijd van 'branden'?",
+              "opties": [
+                "ik brandde",
+                "ik brande",
+                "ik brandte",
+                "ik brand"
+              ],
+              "uitleg": "De stam is 'brand' en eindigt op d. Daar komt -de bij, dus krijg je twee keer d."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je tekens als het trema, het koppelteken en de apostrof samen?",
+          "antwoord": [
+            "diakritische tekens",
+            "diakritisch",
+            "diakritische"
+          ],
+          "uitleg": "Ze veranderen niet de letter zelf maar zeggen hoe je hem moet lezen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke zin staan de hoofdletters juist?",
+          "opties": [
+            "Met Pasen gaan we naar de Ardennen.",
+            "Met pasen gaan we naar de ardennen.",
+            "Met Pasen gaan we naar de ardennen.",
+            "Met pasen gaan we naar de Ardennen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Feestdagen en aardrijkskundige namen krijgen allebei een hoofdletter.",
+          "varianten": [
+            {
+              "opties": [
+                "Met Kerstmis gaan we naar de Alpen.",
+                "Met kerstmis gaan we naar de alpen.",
+                "Met Kerstmis gaan we naar de alpen.",
+                "Met kerstmis gaan we naar de Alpen."
+              ]
+            },
+            {
+              "opties": [
+                "Met Nieuwjaar rijden we naar de Kempen.",
+                "Met nieuwjaar rijden we naar de kempen.",
+                "Met Nieuwjaar rijden we naar de kempen.",
+                "Met nieuwjaar rijden we naar de Kempen."
+              ]
+            },
+            {
+              "opties": [
+                "Met Pinksteren gaan we naar de Vogezen.",
+                "Met pinksteren gaan we naar de vogezen.",
+                "Met Pinksteren gaan we naar de vogezen.",
+                "Met pinksteren gaan we naar de Vogezen."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Ik heb me verheugd' en 'ik heb me verheugt' zijn allebei mogelijke schrijfwijzen.",
+          "antwoord": false,
+          "uitleg": "Na 'heb' staat een voltooid deelwoord, en dat volgt het hele werkwoord verheugen. Dus met een d."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke schrijfwijze is correct?",
+          "opties": [
+            "'s morgens",
+            "s' morgens",
+            "smorgens",
+            "'smorgens"
+          ],
+          "antwoord": 0,
+          "uitleg": "De apostrof vervangt de weggelaten letters van het oude 'des'. Er hoort een spatie na."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden krijgen een hoofdletter?",
+          "opties": [
+            "Nederlands",
+            "België",
+            "Kerstmis",
+            "woensdag"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Talen, landen en feestdagen wel; dagen van de week niet.",
+          "varianten": [
+            {
+              "opties": [
+                "Frans",
+                "Frankrijk",
+                "Pasen",
+                "januari"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Talen, landen en feestdagen wel; maanden niet."
+            },
+            {
+              "opties": [
+                "Duits",
+                "Italië",
+                "Nieuwjaar",
+                "maandag"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Talen, landen en feestdagen wel; dagen van de week niet."
+            },
+            {
+              "opties": [
+                "Engels",
+                "Spanje",
+                "Pinksteren",
+                "augustus"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Talen, landen en feestdagen wel; maanden niet."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom schrijf je 'geëerd' met een trema?",
+          "opties": [
+            "omdat je anders 'gee' als één klank zou lezen",
+            "omdat elk voltooid deelwoord een trema krijgt",
+            "omdat het woord uit twee delen bestaat",
+            "omdat de klemtoon op de tweede e valt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het trema splitst de klank: ge-eerd. Dezelfde reden als bij zeeën en knieën."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke verleden tijd van 'verhuizen' is correct?",
+          "opties": [
+            "verhuisde",
+            "verhuiste",
+            "verhuizde",
+            "verhuizte"
+          ],
+          "antwoord": 0,
+          "uitleg": "De stam eindigt op een z, en die hoort niet bij 't kofschip, dus komt er -de bij. Aan het eind van een lettergreep schrijf je die z als s.",
+          "varianten": [
+            {
+              "vraag": "Welke verleden tijd van 'blozen' is correct?",
+              "opties": [
+                "bloosde",
+                "blooste",
+                "blozde",
+                "blozte"
+              ],
+              "uitleg": "De stam eindigt op een z, en die hoort niet bij 't kofschip, dus komt er -de bij. Aan het eind van een lettergreep schrijf je die z als s."
+            },
+            {
+              "vraag": "Welke verleden tijd van 'reizen' is correct?",
+              "opties": [
+                "reisde",
+                "reiste",
+                "reizde",
+                "reizte"
+              ],
+              "uitleg": "De stam eindigt op een z, en die hoort niet bij 't kofschip, dus komt er -de bij. Aan het eind van een lettergreep schrijf je die z als s."
+            },
+            {
+              "vraag": "Welke verleden tijd van 'verven' is correct?",
+              "opties": [
+                "verfde",
+                "verfte",
+                "vervde",
+                "vervte"
+              ],
+              "uitleg": "De stam eindigt op een v, en die hoort niet bij 't kofschip, dus komt er -de bij. Aan het eind van een lettergreep schrijf je die v als f."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wanneer schrijf je een werkwoordsvorm met -dt?",
+          "opties": [
+            "bij de derde persoon enkelvoud van een stam die op d eindigt",
+            "bij elke verleden tijd van een sterk werkwoord",
+            "bij elk voltooid deelwoord met ge- ervoor",
+            "bij de gebiedende wijs van een zwak werkwoord"
+          ],
+          "antwoord": 0,
+          "uitleg": "Stam word plus uitgang t geeft 'wordt'. Bij 'ik word' komt er geen t bij, en na 'word jij' valt hij weg."
+        }
+      ]
+    },
+    {
+      "titel": "Spelling, leestekens en klanken — deel 2",
+      "niveau": "boost-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor gebruik je een dubbele punt?",
+          "opties": [
+            "om een opsomming, een verklaring of een citaat aan te kondigen",
+            "om een zin definitief af te sluiten",
+            "om een tussenzin aan beide kanten af te bakenen",
+            "om aan te geven dat een zin onafgemaakt blijft"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na de dubbele punt komt wat je zonet aangekondigd hebt. Daarom mag er nooit niets op volgen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze tekens zijn interpunctietekens?",
+          "opties": [
+            "het beletselteken",
+            "het gedachtestreepje",
+            "het aanhalingsteken",
+            "het accentteken"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een accentteken is een uitspraakteken, geen leesteken. Die twee horen in aparte lijstjes.",
+          "varianten": [
+            {
+              "opties": [
+                "de komma",
+                "de dubbele punt",
+                "het vraagteken",
+                "het trema"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Een trema is een uitspraakteken, geen leesteken. Die twee horen in aparte lijstjes."
+            },
+            {
+              "opties": [
+                "de punt",
+                "de puntkomma",
+                "het uitroepteken",
+                "het accentteken"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Een accentteken is een uitspraakteken, geen leesteken. Die twee horen in aparte lijstjes."
+            },
+            {
+              "opties": [
+                "het aanhalingsteken",
+                "de komma",
+                "het gedachtestreepje",
+                "het trema"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Een trema is een uitspraakteken, geen leesteken. Die twee horen in aparte lijstjes."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de drie puntjes waarmee je een zin onafgemaakt laat?",
+          "antwoord": [
+            "beletselteken",
+            "het beletselteken"
+          ],
+          "uitleg": "Het laat de lezer zelf aanvullen, of geeft aarzeling weer."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een komma kan de betekenis van een zin veranderen.",
+          "antwoord": true,
+          "uitleg": "Vergelijk 'We eten, oma' met 'We eten oma'. Hetzelfde geldt voor 'Hij kwam niet, omdat het regende'.",
+          "varianten": [
+            {
+              "vraag": "'We eten, oma' betekent iets anders dan 'We eten oma'.",
+              "uitleg": "Eén komma maakt van oma de aangesprokene in plaats van het lijdend voorwerp."
+            },
+            {
+              "vraag": "Een komma voor een bijzin kan de betekenis van de zin veranderen.",
+              "uitleg": "Vergelijk 'Hij kwam niet omdat het regende' met 'Hij kwam niet, omdat het regende'."
+            },
+            {
+              "vraag": "Leestekens kunnen de betekenis van een zin veranderen.",
+              "uitleg": "Vergelijk 'We eten, oma' met 'We eten oma'. Eén komma volstaat."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke zin staat de komma correct?",
+          "opties": [
+            "Toen de bel ging, stond iedereen op.",
+            "Toen de bel ging stond iedereen, op.",
+            "Toen, de bel ging stond iedereen op.",
+            "Toen de bel, ging stond iedereen op."
+          ],
+          "antwoord": 0,
+          "uitleg": "De komma scheidt de bijzin van de hoofdzin. Binnen een zinsdeel hoort er geen komma.",
+          "varianten": [
+            {
+              "opties": [
+                "Toen de film begon, was de zaal vol.",
+                "Toen de film begon was de zaal, vol.",
+                "Toen, de film begon was de zaal vol.",
+                "Toen de film, begon was de zaal vol."
+              ]
+            },
+            {
+              "opties": [
+                "Omdat het regende, bleven we binnen.",
+                "Omdat het regende bleven we, binnen.",
+                "Omdat, het regende bleven we binnen.",
+                "Omdat het, regende bleven we binnen."
+              ]
+            },
+            {
+              "opties": [
+                "Als je klaar bent, mag je gaan.",
+                "Als je klaar bent mag je, gaan.",
+                "Als, je klaar bent mag je gaan.",
+                "Als je, klaar bent mag je gaan."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor dient een gedachtestreepje?",
+          "opties": [
+            "om een tussenzin of een onderbreking aan te geven",
+            "om twee woorden tot één samenstelling te maken",
+            "om aan te geven dat een woord afgebroken wordt",
+            "om een letterlijk citaat aan te kondigen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het gedachtestreepje is langer dan een koppelteken en zet iets tussen haakjes zonder haakjes te gebruiken."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke leestekens zet je rond de letterlijke woorden van iemand anders?",
+          "antwoord": [
+            "aanhalingstekens",
+            "aanhalingsteken",
+            "dubbele aanhalingstekens"
+          ],
+          "uitleg": "Wat erbinnen staat, is precies wat er gezegd of geschreven werd. Verander je er iets aan, dan mogen ze er niet meer staan."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De spatie telt in het Nederlands ook als een interpunctieteken.",
+          "antwoord": true,
+          "uitleg": "Ze hoort uitdrukkelijk in het rijtje thuis. Een spatie te veel of te weinig verandert 'een bejaarden tehuis' in iets anders dan 'een bejaardentehuis'."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze letters zijn klinkers?",
+          "opties": [
+            "a",
+            "e",
+            "u",
+            "r"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Het Nederlands heeft zes klinkerletters: a, e, i, o, u en y. Alle andere zijn medeklinkers.",
+          "varianten": [
+            {
+              "opties": [
+                "a",
+                "i",
+                "o",
+                "m"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Het Nederlands heeft zes klinkerletters: a, e, i, o, u en y. Alle andere zijn medeklinkers."
+            },
+            {
+              "opties": [
+                "e",
+                "o",
+                "y",
+                "k"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Het Nederlands heeft zes klinkerletters: a, e, i, o, u en y. Alle andere zijn medeklinkers."
+            },
+            {
+              "opties": [
+                "i",
+                "u",
+                "y",
+                "t"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Het Nederlands heeft zes klinkerletters: a, e, i, o, u en y. Alle andere zijn medeklinkers."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een doffe klank?",
+          "opties": [
+            "de onbeklemtoonde e, zoals in 'de' en in de laatste lettergreep van 'lopen'",
+            "een klinker die je extra lang aanhoudt",
+            "een medeklinker die je nauwelijks hoort",
+            "de klank van twee klinkers na elkaar"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je hoort hem in bijna elk Nederlands woord van meer dan één lettergreep, en hij draagt nooit de klemtoon."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In 'boot' staat een korte klinker.",
+          "antwoord": false,
+          "uitleg": "De oo is lang. In 'bot' staat de korte o. Daarom schrijf je de lange klank in een gesloten lettergreep met twee letters.",
+          "varianten": [
+            {
+              "vraag": "In 'maan' staat een korte klinker.",
+              "uitleg": "De aa is lang. In 'man' staat de korte a."
+            },
+            {
+              "vraag": "In 'deur' staat een korte klinker.",
+              "uitleg": "De eu is lang. Korte klinkers hoor je in woorden als man, bot en pit."
+            },
+            {
+              "vraag": "In 'buur' staat een korte klinker.",
+              "uitleg": "De uu is lang. In 'bus' staat de korte u."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bedoelen we met het verschil tussen klankbeeld en schriftbeeld?",
+          "opties": [
+            "hoe een woord klinkt tegenover hoe je het schrijft",
+            "hoe luid je een woord uitspreekt",
+            "of een woord uit één of uit meer lettergrepen bestaat",
+            "of een woord een klinker of een medeklinker vooraan heeft"
+          ],
+          "antwoord": 0,
+          "uitleg": "In 'maan' hoor je drie klanken maar zie je vier letters. In 'hij' hoor je er twee en zie je er drie."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de e-klank in 'de' en in de laatste lettergreep van 'lopen'?",
+          "antwoord": [
+            "doffe klank",
+            "de doffe e",
+            "doffe e"
+          ],
+          "uitleg": "Hij is nooit beklemtoond, en daarom hoor je hem amper terwijl hij overal zit.",
+          "varianten": [
+            {
+              "vraag": "Hoe noem je de e-klank in 'het' en in de laatste lettergreep van 'werken'?",
+              "uitleg": "Hij is nooit beklemtoond, en daarom hoor je hem amper terwijl hij overal zit."
+            },
+            {
+              "vraag": "Hoe noem je de onbeklemtoonde e in 'kamer' en in 'vader'?",
+              "uitleg": "Hij is nooit beklemtoond, en daarom hoor je hem amper terwijl hij overal zit."
+            },
+            {
+              "vraag": "Hoe noem je de e-klank in 'de' en in de laatste lettergreep van 'wandelen'?",
+              "uitleg": "Hij is nooit beklemtoond, en daarom hoor je hem amper terwijl hij overal zit."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor dient intonatie?",
+          "opties": [
+            "om betekenis en gevoel mee te geven aan dezelfde woorden",
+            "om de spelling van een woord vast te leggen",
+            "om het aantal lettergrepen te bepalen",
+            "om klinkers van medeklinkers te onderscheiden"
+          ],
+          "antwoord": 0,
+          "uitleg": "'Je komt mee' kan een mededeling, een vraag of een bevel zijn. Alleen de toon maakt het verschil."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Achter een indirecte vraag zoals 'Hij vroeg of ik meekwam' hoort een vraagteken.",
+          "antwoord": false,
+          "uitleg": "Er wordt niets gevraagd, er wordt verteld dát er iets gevraagd werd. Dus komt er een punt.",
+          "varianten": [
+            {
+              "vraag": "Achter 'Zij vroeg wanneer de trein vertrok' hoort een vraagteken.",
+              "uitleg": "Er wordt niets gevraagd, er wordt verteld dát er iets gevraagd werd. Dus komt er een punt."
+            },
+            {
+              "vraag": "Elke zin met het woord 'vroeg' erin eindigt op een vraagteken.",
+              "uitleg": "'Hij vroeg of ik meekwam' vertelt alleen dát er gevraagd werd. Dus komt er een punt."
+            },
+            {
+              "vraag": "Achter 'Ik weet niet of hij komt' hoort een vraagteken.",
+              "uitleg": "Er wordt niets gevraagd, er wordt iets meegedeeld. Dus komt er een punt."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke zin staan de aanhalingstekens correct?",
+          "opties": [
+            "Hij zei: “Ik kom morgen.”",
+            "Hij zei dat: “hij morgen zou komen.”",
+            "Hij zei “dat hij morgen kwam” volgens mij.",
+            "Hij zei: ik kom “morgen”."
+          ],
+          "antwoord": 0,
+          "uitleg": "Aanhalingstekens staan rond de letterlijke woorden, aangekondigd door een dubbele punt.",
+          "varianten": [
+            {
+              "opties": [
+                "Zij zei: “Ik bel je straks.”",
+                "Zij zei dat: “ze me straks zou bellen.”",
+                "Zij zei “dat ze belde” volgens mij.",
+                "Zij zei: ik bel je “straks”."
+              ]
+            },
+            {
+              "opties": [
+                "De juf zei: “Neem je boek.”",
+                "De juf zei dat: “we ons boek moesten nemen.”",
+                "De juf zei “dat we moesten beginnen” denk ik.",
+                "De juf zei: neem je “boek”."
+              ]
+            },
+            {
+              "opties": [
+                "Hij riep: “Wacht op mij!”",
+                "Hij riep dat: “we moesten wachten.”",
+                "Hij riep “dat we wachtten” meen ik.",
+                "Hij riep: wacht op “mij”."
+              ]
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor kan je een dubbele punt gebruiken?",
+          "opties": [
+            "een opsomming aankondigen",
+            "een verklaring inleiden",
+            "een citaat aankondigen",
+            "een zin afsluiten"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Afsluiten doet een punt, een vraagteken of een uitroepteken.",
+          "varianten": [
+            {
+              "opties": [
+                "een lijstje aankondigen",
+                "een uitleg inleiden",
+                "de woorden van iemand aankondigen",
+                "een vraag stellen"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Vragen doet een vraagteken. De dubbele punt kondigt aan wat er volgt."
+            },
+            {
+              "opties": [
+                "een opsomming aankondigen",
+                "een reden inleiden",
+                "een letterlijk citaat aankondigen",
+                "een tussenzin afbakenen"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Een tussenzin baken je af met komma's, haakjes of gedachtestreepjes."
+            },
+            {
+              "opties": [
+                "een reeks voorbeelden aankondigen",
+                "een verklaring inleiden",
+                "een uitspraak aankondigen",
+                "een woord afbreken"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Een woord breek je af met een koppelteken aan het einde van de regel."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen de klinker in 'maan' en die in 'man'?",
+          "opties": [
+            "de eerste is lang, de tweede kort",
+            "de eerste is dof, de tweede beklemtoond",
+            "de eerste is een medeklinker, de tweede een klinker",
+            "de eerste staat in een open lettergreep, de tweede in een gesloten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Allebei de lettergrepen zijn gesloten. Daarom moet de lange klank met twee letters geschreven worden.",
+          "varianten": [
+            {
+              "vraag": "Wat is het verschil tussen de klinker in 'boot' en die in 'bot'?"
+            },
+            {
+              "vraag": "Wat is het verschil tussen de klinker in 'buur' en die in 'bus'?"
+            },
+            {
+              "vraag": "Wat is het verschil tussen de klinker in 'peer' en die in 'pet'?"
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom staat er een komma in 'Hoewel het goot, gingen we toch buiten spelen'?",
+          "opties": [
+            "om de bijzin van de hoofdzin te scheiden",
+            "om een opsomming aan te kondigen",
+            "om een citaat in te leiden",
+            "om aan te geven dat de zin onaf is"
+          ],
+          "antwoord": 0,
+          "uitleg": "Staat de bijzin vooraan, dan komt er een komma voor de hoofdzin begint. Dat maakt de zin in één keer leesbaar.",
+          "varianten": [
+            {
+              "vraag": "Waarom staat er een komma in 'Toen de bel ging, stond iedereen op'?"
+            },
+            {
+              "vraag": "Waarom staat er een komma in 'Omdat het regende, bleven we binnen'?"
+            },
+            {
+              "vraag": "Waarom staat er een komma in 'Als je klaar bent, mag je gaan'?"
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe maak je van 'Je komt mee' hoorbaar een vraag, zonder de woorden te veranderen?",
+          "opties": [
+            "door de toon aan het einde omhoog te laten gaan",
+            "door trager te spreken",
+            "door de klemtoon op het eerste woord te leggen",
+            "door een pauze in het midden te laten vallen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat is intonatie. In geschreven taal moet een vraagteken dat werk overnemen.",
+          "varianten": [
+            {
+              "vraag": "Hoe maak je van 'Hij is thuis' hoorbaar een vraag, zonder de woorden te veranderen?"
+            },
+            {
+              "vraag": "Hoe maak je van 'Dat is jouw fiets' hoorbaar een vraag, zonder de woorden te veranderen?"
+            },
+            {
+              "vraag": "Hoe maak je van 'Zij komt morgen' hoorbaar een vraag, zonder de woorden te veranderen?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

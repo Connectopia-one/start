@@ -262,7 +262,7 @@ DEEL2 = [
         vraag="Welke van deze namen bestaan echt als soort voornaamwoord?",
         opties=["wederkerend", "wederkerig", "betrekkelijk", "bijwoordelijk"],
         antwoord=[0, 1, 2],
-        uitleg="De fiche noemt er acht: wederkerend, wederkerig, onbepaald, persoonlijk, bezittelijk, betrekkelijk, aanwijzend en vragend. Bijwoordelijk staat er niet bij.",
+        uitleg="Er zijn er acht: wederkerend, wederkerig, onbepaald, persoonlijk, bezittelijk, betrekkelijk, aanwijzend en vragend. Bijwoordelijk hoort er niet bij.",
     ),
     dict(
         type="waarofniet",

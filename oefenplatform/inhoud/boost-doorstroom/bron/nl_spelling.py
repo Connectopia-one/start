@@ -204,7 +204,7 @@ DEEL2 = [
         vraag="Welke van deze tekens zijn interpunctietekens?",
         opties=["het beletselteken", "het gedachtestreepje", "het aanhalingsteken", "het accentteken"],
         antwoord=[0, 1, 2],
-        uitleg="Een accentteken is een uitspraakteken, geen leesteken. De fiche zet die twee bewust in aparte lijstjes.",
+        uitleg="Een accentteken is een uitspraakteken, geen leesteken. Die twee horen in aparte lijstjes.",
     ),
     dict(
         type="invultekst",
@@ -250,9 +250,9 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="De spatie is volgens de vakfiche ook een interpunctieteken.",
+        vraag="De spatie telt in het Nederlands ook als een interpunctieteken.",
         antwoord=True,
-        uitleg="Ze staat uitdrukkelijk in de lijst. Een spatie te veel of te weinig verandert 'een bejaarden tehuis' in iets anders dan 'een bejaardentehuis'.",
+        uitleg="Ze hoort uitdrukkelijk in het rijtje thuis. Een spatie te veel of te weinig verandert 'een bejaarden tehuis' in iets anders dan 'een bejaardentehuis'.",
     ),
     dict(
         type="meerkeuze",

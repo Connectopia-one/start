@@ -33,7 +33,7 @@ DEEL1 = [
             "gebiedende toekomende tijd",
         ],
         antwoord=[0, 1, 2],
-        uitleg="De fiche noemt zes tijden plus de imperatief. Een gebiedende toekomende tijd bestaat niet.",
+        uitleg="Er zijn zes tijden, plus de imperatief. Een gebiedende toekomende tijd bestaat niet.",
     ),
     dict(
         type="invultekst",

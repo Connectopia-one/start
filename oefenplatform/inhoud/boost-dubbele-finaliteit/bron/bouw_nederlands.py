@@ -222,6 +222,12 @@ def main():
     totaal = sum(len(h["vragen"]) for h in hoofdstukken)
     print(f"{len(hoofdstukken)} hoofdstukken, {totaal} vragen in {DOEL.name}")
 
+    # De wisselende woorden staan bij doorstroom, in varianten_nl_boost.py:
+    # het zijn dezelfde vragen. Ze gaan er hier meteen terug in, anders veegt
+    # een volgende bouw ze weg.
+    import varianten_boost_df
+
+    varianten_boost_df.zet_varianten(DOEL.name)
 
 if __name__ == "__main__":
     main()

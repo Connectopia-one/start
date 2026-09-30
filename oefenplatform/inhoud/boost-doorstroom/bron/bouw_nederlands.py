@@ -187,6 +187,12 @@ def main():
     totaal = sum(len(h["vragen"]) for h in hoofdstukken)
     print(f"{len(hoofdstukken)} hoofdstukken, {totaal} vragen in {DOEL.name}")
 
+    # De wisselende woorden staan in varianten_boost_doorstroom.py, want ze
+    # horen bij de taalvakken samen. Ze gaan er hier meteen terug in, anders
+    # veegt een volgende bouw ze weg.
+    import varianten_boost_doorstroom
+
+    varianten_boost_doorstroom.zet_varianten(DOEL.name)
 
 if __name__ == "__main__":
     main()
