@@ -1,0 +1,126 @@
+{
+ "vak": "Wiskunde gevorderd",
+ "titel": "Ordenen, afronden, intervallen en wetenschappelijke notatie",
+ "onder": "Getallen vergelijken en schatten, netjes afronden, intervallen lezen en schrijven, en werken met machten van tien.",
+ "secties": [
+  {
+   "kop": "Ordenen op de getallenas",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op de <strong>getallenas</strong> staat het kleinste getal links. Staat min 3 links van 1, dan betekent dat gewoon: min 3 is kleiner dan 1. Bij negatieve getallen draait je gevoel je in de luren: <strong>min 8 is kleiner dan min 3</strong>, ook al is 8 groter dan 3. Hoe verder van nul naar links, hoe kleiner."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Teken</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Lees als</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">is kleiner dan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">is groter dan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">≤</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">is kleiner dan of gelijk aan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">≥</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">is groter dan of gelijk aan</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Om getallen in verschillende kleren te ordenen, zet je ze eerst allemaal in dezelfde vorm. 0,5 tegenover 3/5 tegenover 45 %: maak er 0,5 — 0,6 — 0,45 van, en dan is de volgorde van klein naar groot meteen duidelijk: 45 %, 0,5, 3/5."
+    },
+    {
+     "soort": "weetje",
+     "html": "Tussen twee verschillende reële getallen ligt altijd nog een ander reëel getal. Tussen 2,4 en 2,5 ligt 2,45, en daartussen weer 2,445. Dat houdt nooit op."
+    }
+   ]
+  },
+  {
+   "kop": "Afronden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>afrondingsregel</strong> van de vakfiche: kijk naar het <strong>eerste cijfer dat wegvalt</strong>. Is dat <strong>5 of meer</strong>, dan rond je naar boven af; is het <strong>4 of minder</strong>, naar beneden. Alle cijfers dáárachter doen niet mee."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Getal</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Afronden op</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Eerste cijfer dat wegvalt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Resultaat</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3,4567</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee cijfers na de komma</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3,46</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2,3449</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee cijfers na de komma</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2,34</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">7,3851</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee cijfers na de komma</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">7,39</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,449</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één cijfer na de komma</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,4</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Bij 2,3449 is het verleidelijk om eerst 2,345 te maken en dán af te ronden naar 2,35. Dat is fout: je rondt <strong>één keer</strong> af, en enkel het eerste wegvallende cijfer telt. Om dezelfde reden rond je pas <strong>op het einde</strong> van een berekening af: rond je tussendoor af, dan stapelen de afrondingsfouten zich op."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een afgerond getal is een <strong>bereik</strong>, geen punt. Een weegschaal die 2,5 kg aangeeft en op honderd gram afrondt, kan alles tussen <strong>2,45 en 2,55 kg</strong> wegen."
+    }
+   ]
+  },
+  {
+   "kop": "Schatten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Schatten</strong> is vooraf ruw uitrekenen wat er ongeveer moet uitkomen, met ronde getallen. 48 · 21 schat je als 50 · 20, dus ongeveer 1000. 19 · 31 schat je op honderdtallen als 20 · 30, dus 600."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een schatting is een <strong>hulpmiddel vooraf</strong>, en vervangt de controle achteraf niet. Ze vangt wel de grove fouten: wie 48 · 21 als 100,8 noteert, ziet meteen dat er een komma verkeerd staat."
+    },
+    {
+     "soort": "tekst",
+     "html": "Schatten helpt ook bij wortels. √2 ligt tussen 1 en 2 want 1² is 1 en 2² is 4, en dichter bij 1,4 dan bij 1,5: 1,4² is 1,96, net onder 2."
+    }
+   ]
+  },
+  {
+   "kop": "Intervallen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>interval</strong> is een stuk van de getallenas. Het haakje zegt of de grens meedoet: een haakje dat <strong>naar binnen</strong> wijst, [ of ], neemt de grens mee; een haakje dat <strong>naar buiten</strong> wijst, ] of [, laat ze erbuiten."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Interval</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Betekenis</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">[0, 1]</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gesloten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle getallen van 0 tot 1, de grenzen inbegrepen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">]2, 5[</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">open</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle getallen tussen 2 en 5, de grenzen niet inbegrepen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">[0, 4[</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">halfopen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0 hoort erbij, 4 niet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">[3, →[</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onbegrensd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle getallen groter dan of gelijk aan 3</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">]→, 7[</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onbegrensd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle getallen kleiner dan 7</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">]5, →[</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onbegrensd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle getallen groter dan 5</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">[−2, 3]</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gesloten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x ligt tussen −2 en 3, grenzen inbegrepen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>oneindig</strong> staat het haakje altijd naar buiten. Oneindig is geen getal, dus het kan ook niet tot het interval behoren."
+    },
+    {
+     "soort": "weetje",
+     "html": "Het interval [3, 3] is niet leeg: het bevat precies één getal, namelijk 3. Het interval ]3, 3[ is wél leeg."
+    }
+   ]
+  },
+  {
+   "kop": "Wetenschappelijke notatie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In de <strong>wetenschappelijke notatie</strong> schrijf je een getal als een getal tussen 1 en 10, maal een macht van tien. Er staat dus <strong>precies één cijfer voor de komma, van 1 tot en met 9</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Gewoon getal</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wetenschappelijke notatie</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">45 000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4,5 · 10⁴</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6 200 000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6,2 · 10⁶</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,00072</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">7,2 · 10⁻⁴</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">300 000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3 · 10⁵</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,0025</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2,5 · 10⁻³</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Zo is 12,5 · 10³ géén correcte wetenschappelijke notatie: er staan twee cijfers voor de komma. Je schrijft het als 1,25 · 10⁴."
+    },
+    {
+     "soort": "kader",
+     "html": "Een <strong>negatieve exponent</strong> betekent dat het getal <em>klein</em> is, niet dat het negatief is. 2,5 · 10⁻³ is 0,0025, een positief getal."
+    },
+    {
+     "soort": "tekst",
+     "html": "Terugrekenen naar een gewoon getal: 3 · 10⁵ is 300 000. En let op bij eenheden: 1,5 · 10¹¹ meter is 1,5 · 10⁸ kilometer, want een kilometer is duizend meter, dus de exponent zakt met 3."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wetenschappers gebruiken deze notatie omdat je met machten van tien even makkelijk over een atoom als over een sterrenstelsel schrijft, zonder rijen nullen te tellen."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Op de getallenas staat het kleinste getal links; min 8 is kleiner dan min 3.",
+  "≤ is kleiner dan of gelijk aan, ≥ is groter dan of gelijk aan.",
+  "Afronden: eerste wegvallende cijfer 5 of meer naar boven, 4 of minder naar beneden.",
+  "Rond één keer af, en pas op het einde van een berekening.",
+  "Een haakje naar binnen neemt de grens mee, een haakje naar buiten niet.",
+  "Bij oneindig wijst het haakje altijd naar buiten.",
+  "Wetenschappelijke notatie: één cijfer van 1 tot 9 voor de komma, maal een macht van tien.",
+  "Een negatieve exponent maakt het getal klein, niet negatief."
+ ]
+}

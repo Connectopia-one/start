@@ -1,0 +1,149 @@
+{
+ "vak": "Wiskunde gevorderd",
+ "titel": "De parabool, transformaties en functiekenmerken",
+ "onder": "Nulwaarden, top en symmetrieas, het opbouwen van a(x − p)² + q, en de kenmerken van een functie aflezen.",
+ "secties": [
+  {
+   "kop": "De parabool",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De grafiek van een <strong>tweedegraadsfunctie</strong> heet een <strong>parabool</strong>. (De grafiek van f(x) = c/x heet een hyperbool; verwar die twee niet.)"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het teken van <strong>a</strong> bepaalt de opening: is a groter dan nul, dan opent de parabool <strong>naar boven</strong>; is a kleiner dan nul, naar beneden. Daarom spiegelt y = −x² de parabool y = x² om de horizontale as."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>top</strong> is het hoogste of laagste punt. Opent de parabool naar beneden, dan is de top het hoogste punt en dus het <strong>maximum</strong>; opent ze naar boven, dan is de top het minimum en is er <strong>geen maximum</strong>, want ze loopt aan beide kanten onbeperkt omhoog."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>symmetrieas</strong> is de <strong>verticale</strong> rechte door de top. Bij een top (4, −1) is dat de rechte x = 4. Een parabool is dus symmetrisch: twee punten met dezelfde y-waarde liggen even ver van die as."
+    }
+   ]
+  },
+  {
+   "kop": "Nulwaarden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>nulwaarde</strong> is een x-waarde waarvoor f(x) = 0: op de grafiek is dat een snijpunt met de x-as. Een parabool kan er <strong>twee, één of geen</strong> hebben."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Functie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nulwaarden</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarom</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">f(x) = x² − 9</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee: 3 en −3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x² = 9</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">f(x) = x² + 4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x² + 4 is altijd groter dan nul</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">f(x) = (x − 2)²</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één (dubbel): 2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de parabool raakt de as</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>symmetrieas ligt precies in het midden tussen de twee nulwaarden</strong>. Bij nulwaarden −2 en 6 is dat x = 2; bij nulwaarden 1 en 9 is dat x = 5."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>snijpunt met de verticale as</strong> vind je door x = 0 in te vullen. Bij f(x) = x² − 2x − 8 is dat het punt (0, −8): gewoon de c."
+    }
+   ]
+  },
+  {
+   "kop": "De vorm a(x − p)² + q",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In deze vorm lees je de <strong>top meteen af</strong>: ze ligt in het punt <strong>(p, q)</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorschrift</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Top</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Let op</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(x − 3)² + 5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(3, 5)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">min in de haakjes, dus p is positief</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(x + 2)² − 7</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(−2, −7)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x + 2 is x − (−2)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(x − 6)² + 2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(6, 2)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kleinste functiewaarde is 2</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Je bouwt deze grafiek stap voor stap op vanuit y = x²:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat er verandert</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat de grafiek doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">p</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schuift horizontaal; (x − 5)² gaat vijf naar RECHTS</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">q</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schuift verticaal, omhoog bij positieve q</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a groter dan 1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rekt verticaal uit: de parabool wordt smaller</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a tussen 0 en 1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drukt samen: de parabool wordt breder</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a negatief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spiegelt om de horizontale as</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Het minteken in de haakjes is contra-intuïtief: <strong>(x − 5)² ligt vijf eenheden rechts</strong> van x², niet links. Vul maar in: bij x = 5 is de waarde nul, en daar ligt dus de top."
+    }
+   ]
+  },
+  {
+   "kop": "De functiekenmerken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Van elke functie moet je een rij kenmerken kunnen aflezen uit haar grafiek of voorschrift:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kenmerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">domein</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de x-waarden waarvoor ze bestaat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bereik</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de y-waarden die ze aanneemt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nulwaarden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waar de grafiek de x-as snijdt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tekenverloop</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waar de functiewaarde positief, nul of negatief is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verloopschema</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waar de functie stijgt en waar ze daalt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">extrema</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de grootste of kleinste functiewaarde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">symmetrie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de as waarom de grafiek zichzelf spiegelt</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>domein van elke veeltermfunctie</strong>, en dus ook van een parabool, is <strong>alle reële getallen</strong>: je mag elk getal invullen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>bereik</strong> wordt door de top begrensd. Bij f(x) = x² is dat alle getallen groter dan of gelijk aan nul; bij g(x) = (x − 1)² + 4 alle getallen groter dan of gelijk aan 4. Het bereik van een tweedegraadsfunctie is dus <strong>nooit</strong> de hele verzameling van de reële getallen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Stijgen en dalen.</strong> Bij f(x) = x² − 4x ligt de top bij x = 2 en opent de parabool naar boven, dus daalt ze <strong>links van x = 2</strong> en stijgt ze daarna. Dat lees je af in het verloopschema, niet in het tekenverloop."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>extremum</strong> is een grootste of kleinste functiewaarde. Een parabool heeft er precies één, namelijk in de top."
+    }
+   ]
+  },
+  {
+   "kop": "De vormen op een rij",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorschrift</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Grafiek</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je er direct uit leest</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">f(x) = ax + b</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rico a, snijpunt met de y-as b</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">f(x) = ax²</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">parabool met top in de oorsprong</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de opening</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">f(x) = ax² + bx + c</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">parabool</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het snijpunt met de y-as (de c)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">f(x) = a(x − p)² + q</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">parabool</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de top (p, q)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">f(x) = a(x − x₁)(x − x₂)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">parabool</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de nulwaarden x₁ en x₂</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">f(x) = c/x</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hyperbool met twee takken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het omgekeerd evenredige verband</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Welke vorm het handigst is, hangt af van wat je zoekt: de <strong>productvorm</strong> geeft de nulwaarden cadeau (een product is nul zodra één factor nul is, dus bij nulwaarden 2 en 5 hoort f(x) = (x − 2)(x − 5)), de <strong>topvorm</strong> geeft de top."
+    },
+    {
+     "soort": "tekst",
+     "html": "Omgekeerd kan je uit een <strong>grafiek het voorschrift afleiden</strong>: lees de top af voor p en q, en gebruik één ander punt om a te berekenen."
+    }
+   ]
+  },
+  {
+   "kop": "De omgekeerd evenredige functie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>f(x) = 6/x</strong> blijft het <strong>product</strong> van x en y telkens 6: verdubbelt x, dan halveert y. Dat is een <strong>omgekeerd evenredig</strong> verband."
+    },
+    {
+     "soort": "tekst",
+     "html": "De grafiek is een <strong>hyperbool met twee takken</strong>: één bij de positieve, één bij de negatieve x-waarden. Het getal <strong>nul hoort niet bij het domein</strong>, want je mag niet door nul delen; de grafiek nadert de verticale as wel maar raakt hem nooit."
+    },
+    {
+     "soort": "tekst",
+     "html": "Deze functie heeft <strong>geen nulwaarde</strong>: een breuk met een teller die niet nul is, wordt zelf nooit nul."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "De grafiek van een tweedegraadsfunctie is een parabool; die van c/x een hyperbool.",
+  "a > 0 opent naar boven, a < 0 naar beneden.",
+  "Bij a(x − p)² + q is de top (p, q); (x + 2)² geeft p = −2.",
+  "(x − 5)² ligt vijf eenheden naar RECHTS.",
+  "Een parabool heeft twee, één of geen nulwaarden.",
+  "De symmetrieas is de verticale rechte door de top, in het midden tussen de nulwaarden.",
+  "Domein van elke veeltermfunctie: alle reële getallen. Het bereik wordt door de top begrensd.",
+  "Tekenverloop is positief of negatief; verloopschema is stijgen of dalen.",
+  "Productvorm geeft de nulwaarden, topvorm geeft de top.",
+  "Bij f(x) = c/x hoort x = 0 niet bij het domein en is er geen nulwaarde."
+ ]
+}

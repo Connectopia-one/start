@@ -1,0 +1,141 @@
+{
+ "vak": "Wiskunde gevorderd",
+ "titel": "Misleiding met cijfers, en verbanden in een puntenwolk",
+ "onder": "Hoe een grafiek kan kloppen en toch liegen, en wat een correlatie wel en niet bewijst.",
+ "secties": [
+  {
+   "kop": "Procent en procentpunt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een partij gaat van 20 naar 25 procent van de stemmen. Twee manieren om dat te zeggen, allebei waar, en ze klinken heel verschillend:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitdrukking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Berekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Resultaat</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gegroeid met</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 − 20</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5 procentpunt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gegroeid met</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5 gedeeld door 20</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 procent</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Procentpunt</strong> is het gewone verschil tussen twee percentages. <strong>Procent</strong> is de groei ten opzichte van de beginwaarde. Van 12 naar 18 procent is <strong>6 procentpunt</strong> — en 50 procent groei."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een krant schrijft liever <em>25 procent groei</em>: het getal klinkt indrukwekkender terwijl de groei dezelfde is. Lees dus altijd welk van de twee woorden er staat."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Procenten van verschillende bedragen tel je niet op.</strong> Een prijs van 100 euro die 20 procent stijgt en daarna 20 procent korting krijgt, kost geen 100 euro maar <strong>96</strong>: de korting van 24 euro geldt op de hogere prijs van 120."
+    }
+   ]
+  },
+  {
+   "kop": "Wat een grafiek kan verbergen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Truc</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je ziet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je moet nakijken</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de as begint niet bij nul</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een minuscuul verschil lijkt enorm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waar de verticale as begint</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de as is foutief geijkt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gelijke afstanden, ongelijke sprongen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">of de stappen even groot zijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tekening in drie dimensies</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het oog vergelijkt volumes</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">of de hoogtes wel kloppen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gegevens weggelaten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een mooie rechte lijn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">of er jaren of groepen ontbreken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de verkeerde centrummaat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een te rooskleurig midden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">of er uitschieters zijn, en of het gemiddelde of de mediaan past</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>staafdiagram</strong> met een as die vlak onder de laagste waarde begint, lijkt een staafje van 98 twee keer zo hoog als een staafje van 97. Bij stappen als 0, 10, 20, 50 en 100 op gelijke afstanden lijkt een kromme plots recht. En bij blokken in perspectief lijkt een dubbel zo hoge staaf veel meer dan dubbel zo groot, want het oog kijkt naar het volume."
+    },
+    {
+     "soort": "tekst",
+     "html": "Toont een grafiek de verkoop van 2022 tot 2024 maar ontbreekt 2023, vraag je dan af waarom. Net dat jaar kan de stijging tegenspreken."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>cirkeldiagram waarvan de delen samen 118 procent geven</strong> klopt niet, of de delen overlappen elkaar. Eén geheel is honderd procent."
+    }
+   ]
+  },
+  {
+   "kop": "Getallen zonder context",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een percentage zonder het aantal vertelt het halve verhaal.</strong> Vijftig procent kan twee mensen op vier zijn of duizend op tweeduizend. Bij kleine aantallen schommelt een percentage enorm."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Negen op de tien tandartsen raden dit aan.</em> De eerste vraag is: <strong>hoeveel</strong> tandartsen zijn er bevraagd, en <strong>door wie</strong>? Tien tandartsen die de fabrikant zelf koos, zeggen iets heel anders dan duizend willekeurige."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom hoort bij elke grafiek de <strong>bron</strong>: zo kan de lezer de cijfers nagaan en zien wie ze verzamelde. Wie de cijfers verzamelt, heeft vaak ook belang bij de uitkomst."
+    }
+   ]
+  },
+  {
+   "kop": "De puntenwolk",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In een <strong>spreidingsdiagram</strong> (ook <strong>puntenwolk</strong> genoemd) zet je <strong>twee variabelen tegen elkaar uit, met één punt per waarneming</strong>. Zo zie je of er een verband is."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>trendlijn</strong> is de rechte die de vorm van de wolk het best samenvat. Ze gaat meestal <strong>door geen enkel punt precies</strong>, maar ligt er zo dicht mogelijk bij."
+    },
+    {
+     "soort": "tekst",
+     "html": "Eén <strong>uitschieter</strong> ver van de wolk kan die lijn flink naar zich toe trekken. Ga dus ook hier na of dat punt een meetfout is of een echte waarneming."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Ver buiten het gemeten gebied voorspellen</strong> is riskant: daar kan het verband er heel anders uitzien. Een groei die tien jaar rechtlijnig was, hoeft dat de volgende tien jaar niet te blijven."
+    }
+   ]
+  },
+  {
+   "kop": "De correlatiecoëfficiënt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>correlatiecoëfficiënt</strong> ligt altijd <strong>tussen min 1 en 1</strong>. Het <strong>teken</strong> geeft de richting, het <strong>getal</strong> de sterkte."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarde</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze betekent</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">De wolk</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">perfect positief verband</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle punten op één stijgende rechte</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 0,9</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sterk positief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">allebei stijgen mee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nauwelijks rechtlijnig verband</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">punten zonder duidelijke richting</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer −0,9</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sterk negatief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de ene daalt als de andere stijgt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">−1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">perfect negatief verband</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle punten op één dalende rechte</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>positieve</strong> correlatie loopt de wolk van linksonder naar rechtsboven, bij een <strong>negatieve</strong> van linksboven naar rechtsonder."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een coëfficiënt dicht bij nul betekent dat er nauwelijks een <em>rechtlijnig</em> verband is. Er kan nog altijd een ander soort verband zijn, bijvoorbeeld een gebogen."
+    }
+   ]
+  },
+  {
+   "kop": "Correlatie is geen oorzaak",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Twee zaken kunnen samen bewegen zonder dat de ene de andere veroorzaakt. Er kan een <strong>derde factor</strong> achter zitten, of het verband kan omgekeerd lopen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarneming</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">De echte verklaring</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meer ooievaars, meer geboortes</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">grotere landelijke gemeenten hebben meer van allebei</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meer ijsverkoop, meer verdrinkingen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">warm weer, want dan eet en zwemt iedereen meer</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Hoe je het dan wél zegt: <em>wie meer studeert, haalt in deze groep meestal hogere punten</em>. Je beschrijft wat je ziet, in de groep die je gemeten hebt, zonder een oorzaak te beweren. Een sterke correlatie bewijst geen oorzakelijk verband."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Procentpunt is het verschil tussen twee percentages, procent is de groei ten opzichte van het begin.",
+  "20 procent erbij en dan 20 procent korting brengt je op 96 procent, niet op 100.",
+  "Kijk bij elke grafiek waar de verticale as begint en of de ijking gelijkmatig is.",
+  "Een tekening in drie dimensies laat het oog volumes vergelijken in plaats van hoogtes.",
+  "Een percentage zonder het aantal erachter vertelt maar het halve verhaal.",
+  "Een spreidingsdiagram zet twee variabelen tegen elkaar, één punt per waarneming.",
+  "De trendlijn vat de wolk samen en gaat vaak door geen enkel punt.",
+  "De correlatiecoëfficiënt ligt tussen min 1 en 1; teken is richting, getal is sterkte.",
+  "Correlatie is geen oorzakelijk verband: denk aan een derde factor.",
+  "Ver buiten de gemeten waarden voorspellen is riskant."
+ ]
+}

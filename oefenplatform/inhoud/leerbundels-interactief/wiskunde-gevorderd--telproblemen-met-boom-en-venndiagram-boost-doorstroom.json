@@ -1,0 +1,123 @@
+{
+ "vak": "Wiskunde gevorderd",
+ "titel": "Telproblemen met boom- en venndiagram",
+ "onder": "Tellen met een boomdiagram en de productregel, en met een venndiagram, de somregel en de complementregel.",
+ "secties": [
+  {
+   "kop": "Het boomdiagram",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>boomdiagram</strong> toont alle mogelijke uitkomsten van keuzes die je na elkaar maakt. Uit het beginpunt vertrekken <strong>evenveel takken als er keuzes zijn in de eerste stap</strong>; elke tak splitst daarna opnieuw voor de tweede stap, en zo verder."
+    },
+    {
+     "soort": "tekst",
+     "html": "Eén <strong>pad</strong> van boven naar onder is één volledige uitkomst. Daarom tel je de paden en niet de takken: een tak is maar één keuze, een pad is de hele reeks. Een boomdiagram toont elke uitkomst precies één keer, dus je hoeft niet op dubbels te letten."
+    }
+   ]
+  },
+  {
+   "kop": "De productregel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Wat het boomdiagram je laat <em>zien</em>, zegt de <strong>productregel</strong> in één zin: <strong>vermenigvuldig het aantal keuzes van elke stap met elkaar</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Situatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Berekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Aantal</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4 broeken en 6 truien</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4 · 6</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">24</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5 truien en 3 broeken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5 · 3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">15</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3 voorgerechten, 4 hoofdgerechten, 2 desserts</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3 · 4 · 2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">24</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie cijferschijven met 0 tot 9</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10 · 10 · 10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1000</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vier schijven met zes tekens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6⁴</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1296</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee dobbelstenen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6 · 6</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">36</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie muntworpen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2 · 2 · 2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">8</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij tien muntworpen zouden er 1024 paden zijn. Dat tekent niemand nog uit, en dan gebruik je <strong>alleen</strong> nog de productregel: 2¹⁰. Een boomdiagram is dus niet voor elk <strong>telprobleem</strong> de beste aanpak."
+    }
+   ]
+  },
+  {
+   "kop": "Met of zonder terugleggen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>terugleggen</strong> blijft het aantal keuzes elke stap gelijk: elke tak splitst telkens in evenveel takken. Bij <strong>trekken zonder terugleggen</strong> <strong>daalt</strong> het aantal keuzes bij elke stap, want wat je getrokken hebt, ligt eruit."
+    },
+    {
+     "soort": "tekst",
+     "html": "Vijf lopers en drie plaatsen op het podium: wie goud haalt, kan geen zilver meer halen. Dus 5 · 4 · 3 = <strong>60</strong> mogelijke volgordes."
+    },
+    {
+     "soort": "weetje",
+     "html": "Bij twee dobbelstenen zijn er 36 uitkomsten, en in <strong>zes</strong> daarvan is de som 7: 1-6, 2-5, 3-4 en die drie ook omgekeerd. Zeven is daarmee de som die het vaakst valt, en daar draaien heel wat gezelschapsspelen op."
+    }
+   ]
+  },
+  {
+   "kop": "Het venndiagram",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>venndiagram</strong> toont twee (of meer) groepen als kringen die elkaar overlappen. De overlapping is de <strong>doorsnede</strong>: de elementen die in <strong>allebei</strong> zitten. Alles samen heet de <strong>vereniging</strong>. Wat <strong>buiten</strong> de kringen staat, voldoet aan geen van de twee voorwaarden."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zijn de groepen <strong>disjunct</strong>, dan hebben ze <strong>geen enkel element gemeen</strong> en raken de kringen elkaar niet; hun doorsnede is leeg."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het werkt het vlotst als je <strong>eerst de doorsnede</strong> invult: de rest van elke kring is dan het aantal van die groep min de doorsnede, en zo tel je niets dubbel."
+    }
+   ]
+  },
+  {
+   "kop": "De somregel en de complementregel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>somregel</strong>: tel de twee groepen op en trek de doorsnede <strong>één keer</strong> af. Wie in allebei zit, heb je anders twee keer geteld. Alleen bij <strong>disjuncte</strong> groepen mag je gewoon optellen, want dan is er niets dubbel."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>complementregel</strong>: het aantal dat <em>niet</em> aan de voorwaarde voldoet is het <strong>geheel min</strong> het aantal dat er wel aan voldoet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Situatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Somregel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Complement</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 leerlingen, 14 voetbal, 11 zwemmen, 5 allebei</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">14 + 11 − 5 = 20</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 − 20 = 5 doen niets</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">40 leerlingen, 22 Frans, 18 Duits, 6 allebei</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">22 + 18 − 6 = 34</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">40 − 34 = 6 doen geen van beide</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">30 leerlingen, 12 piano, 9 gitaar, 4 allebei</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">12 + 9 − 4 = 17</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">30 − 17 = 13 spelen niets</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Wil je weten hoeveel er <strong>enkel</strong> tot één groep horen, dan trek je de doorsnede van die groep af. Bij 30 mensen, 18 vlees, 14 vis en 7 allebei eten er 14 − 7 = <strong>7</strong> enkel vis."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ook bij getallen werkt dit. Van 1 tot en met 20 zijn er 10 deelbaar door 2, 6 door 3 en 3 door allebei (6, 12 en 18). Deelbaar door 2 <em>of</em> door 3 zijn er dus 10 + 6 − 3 = <strong>13</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "Soms is het <strong>veel sneller te tellen wat er niet aan de voorwaarde voldoet</strong> en dat van het geheel af te trekken. Bij <em>minstens één keer zes in vier worpen</em> tel je liever de worpenreeksen zónder zes; dat is één berekening in plaats van vier."
+    }
+   ]
+  },
+  {
+   "kop": "Welk diagram wanneer",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vraag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Gereedschap</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">keuzes na elkaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">boomdiagram en productregel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">overlappende groepen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">venndiagram en somregel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoeveel vallen erbuiten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">complementregel</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een venndiagram is dus <strong>niet</strong> het gereedschap voor opeenvolgende keuzes, en een boomdiagram is <strong>niet</strong> altijd de beste aanpak: bij veel stappen wordt de tekening onhandelbaar en gebruik je enkel nog de regels."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Boomdiagram: elke tak is één keuze, elk pad is één volledige uitkomst.",
+  "Productregel: vermenigvuldig het aantal keuzes van elke stap.",
+  "Met terugleggen blijft het aantal keuzes gelijk, zonder terugleggen daalt het.",
+  "Venndiagram: de overlapping is de doorsnede, alles samen is de vereniging.",
+  "Disjunct betekent geen enkel element gemeen.",
+  "Somregel: A + B min de doorsnede, één keer afgetrokken.",
+  "Complementregel: het geheel min wie wel voldoet.",
+  "Bij 'minstens één' is het vaak sneller het tegendeel te tellen."
+ ]
+}

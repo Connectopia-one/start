@@ -1,0 +1,171 @@
+{
+ "vak": "Wiskunde gevorderd",
+ "titel": "Sinusregel, cosinusregel en vectoren",
+ "onder": "Een willekeurige driehoek oplossen, en rekenen met grootheden die ook een richting hebben.",
+ "secties": [
+  {
+   "kop": "Wat je altijd weet over een driehoek",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De som van de hoeken van <strong>elke</strong> driehoek is <strong>180 graden</strong>. Ken je er twee, dan ken je de derde: bij 40 en 65 graden is de derde 75 graden, bij 55 en 72 graden is ze 53 graden."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>langste zijde</strong> ligt altijd tegenover de <strong>grootste hoek</strong>. En de <strong>driehoeksongelijkheid</strong> zegt dat elke zijde kleiner moet zijn dan de twee andere samen: zijden 3, 4 en 9 kunnen dus geen driehoek vormen, want 3 + 4 is kleiner dan 9."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een driehoek oplossen</strong> betekent: alle zijden en alle hoeken berekenen uit wat je gegeven krijgt."
+    }
+   ]
+  },
+  {
+   "kop": "De cosinusregel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>a² = b² + c² − 2bc · cos α</strong>, met α de hoek tegenover zijde a."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je gebruikt hem in twee gevallen: als je <strong>twee zijden en de ingesloten hoek</strong> kent en de derde zijde zoekt, of als je <strong>alle drie de zijden</strong> kent en een hoek zoekt. In dat tweede geval vorm je de formule om naar cos α en gebruik je daarna de inverse cosinus."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ken je de zijden 7 en 9 en de hoek van 40 graden ertussen, dan bereken je met de cosinusregel <strong>eerst de derde zijde</strong>. Pas daarna kan je met de sinusregel de overige hoeken zoeken."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>De cosinusregel is een uitbreiding van de stelling van Pythagoras naar elke driehoek.</strong> Is de ingesloten hoek recht, dan is cos 90° gelijk aan 0, valt de hele laatste term weg, en blijft a² = b² + c² over. Pythagoras is dus het bijzondere geval."
+    }
+   ]
+  },
+  {
+   "kop": "De sinusregel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>a / sin α = b / sin β = c / sin γ</strong>: in elke driehoek staat elke zijde in dezelfde verhouding tot de sinus van de hoek ertegenover."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je gebruikt hem als je een <strong>zijde met de hoek ertegenover</strong> kent, plus nog één zijde of één hoek. De regel werkt in <strong>elke</strong> driehoek, niet alleen in rechthoekige."
+    },
+    {
+     "soort": "tekst",
+     "html": "Eén valkuil: in een <strong>stomphoekige</strong> driehoek heeft de vergelijking sin α = 0,6 twee oplossingen onder de 180 graden, een scherpe en een stompe. Kijk altijd welke van de twee bij de tekening past; de langste zijde verraadt welke hoek de grootste is."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Twee landmeters</strong> die 200 meter uit elkaar staan en elk de hoek naar dezelfde boom meten, kennen één zijde en twee hoeken. Met de sinusregel berekenen ze de afstand tot de boom, zonder er ooit naartoe te stappen."
+    }
+   ]
+  },
+  {
+   "kop": "Welke regel wanneer",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Je kent</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Je gebruikt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee zijden en de hoek ertussen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de cosinusregel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie zijden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de cosinusregel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een zijde en de hoek ertegenover, plus nog iets</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de sinusregel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee hoeken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">180° min de twee, voor de derde</td></tr></table>"
+    },
+    {
+     "soort": "weetje",
+     "html": "cos 90° is 0, sin 90° is 1. Die twee waarden verklaren waarom de cosinusregel in een rechthoekige driehoek in Pythagoras verandert."
+    }
+   ]
+  },
+  {
+   "kop": "Wat is een vector?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Sommige grootheden hebben genoeg aan een getal: een massa van 3 kilogram, een temperatuur van 18 graden. Andere niet: een kracht van 5 newton zegt niets zolang je niet weet waarheen. Zo'n grootheid is een <strong>vector</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een vector heeft drie kenmerken: <strong>richting</strong>, <strong>zin</strong> en <strong>grootte</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kenmerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">richting</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de rechte waarop hij ligt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de noord-zuidlijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">welke van de twee kanten op die rechte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">naar het noorden of naar het zuiden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">grootte (norm)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoe lang de pijl is</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5 newton</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Richting en zin zijn dus niet hetzelfde: twee vectoren op dezelfde rechte maar tegengesteld gericht hebben <em>dezelfde richting</em> en een <em>tegengestelde zin</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee vectoren zijn <strong>gelijk</strong> als ze dezelfde richting, zin en grootte hebben, ook al liggen ze ergens anders in het vlak. Een vector heeft geen vast aangrijpingspunt."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>nulvector</strong> is de vector met grootte nul; hij heeft geen richting en geen zin. Een <strong>eenheidsvector</strong> is een vector met grootte precies 1."
+    }
+   ]
+  },
+  {
+   "kop": "Rekenen met vectoren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Met <strong>coördinaten</strong> wordt rekenen eenvoudig. De <strong>norm</strong> (de grootte) van een vector (x, y) is √(x² + y²): dat is Pythagoras."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vector</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Berekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Norm</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(3, 4)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√(9 + 16)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(−6, 8)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√(36 + 64)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(5, 12)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">√(25 + 144)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">13</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een norm is een lengte en kan dus <strong>nooit negatief</strong> zijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Optellen</strong> doe je componentsgewijs: je telt de x'en bij elkaar en de y's bij elkaar op. Grafisch teken je de som met de <strong>kop-staartmethode</strong>: zet de staart van de tweede vector aan de kop van de eerste, en de som loopt van de eerste staart naar de tweede kop. (Met de parallellogrammethode kom je op hetzelfde uit.)"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>vector van A naar B</strong> vind je door de coördinaten van A van die van B af te trekken. Van A(1, 2) naar B(4, 7) is dat (3, 5). Van A(2, 3) naar B(7, 3) is dat (5, 0), met norm 5."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>formule van Chasles-Möbius</strong> zegt dat je een vector van A naar B mag opsplitsen via elk tussenpunt: de vector van A naar B is de vector van A naar C plus die van C naar B. Handig om een omweg in stukken te knippen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een vector <strong>met een getal vermenigvuldigen</strong> maakt hem langer of korter maar verandert de richting niet. Bij een <strong>negatief</strong> getal draait wel de <em>zin</em> om: maal min 2 wordt de vector dubbel zo lang en wijst hij de andere kant op."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>De som van twee vectoren is niet altijd langer dan elk van de twee.</strong> Wijzen ze tegen elkaar in, dan heffen ze elkaar gedeeltelijk of helemaal op. Twee gelijke vectoren met tegengestelde zin geven samen de nulvector."
+    }
+   ]
+  },
+  {
+   "kop": "Vectoren in de natuurkunde",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Werken twee krachten van 3 en 4 newton <strong>loodrecht</strong> op elkaar, dan is de <strong>resulterende kracht</strong> √(9 + 16) = 5 newton. De kop-staartmethode maakt er een rechthoekige driehoek van, en dan is het gewoon Pythagoras."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een vector <strong>ontbinden in zijn componenten</strong> is het omgekeerde: je splitst één vector op in een horizontaal en een verticaal stuk. Zo reken je bij een helling uit welk deel van de zwaartekracht langs de helling trekt en welk deel erin drukt."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "De hoeken van elke driehoek zijn samen 180 graden.",
+  "Elke zijde is kleiner dan de twee andere samen; 3, 4 en 9 kan dus niet.",
+  "Cosinusregel a² = b² + c² − 2bc·cos α: bij twee zijden met de hoek ertussen, of bij drie zijden.",
+  "Bij een rechte hoek valt de laatste term weg en blijft Pythagoras over.",
+  "Sinusregel a/sin α = b/sin β = c/sin γ, geldig in elke driehoek.",
+  "In een stomphoekige driehoek heeft sin α = k twee mogelijke hoeken: kijk welke past.",
+  "Een vector heeft richting, zin en grootte; richting is de rechte, zin is de kant.",
+  "De norm van (x, y) is √(x² + y²) en is nooit negatief.",
+  "Vector van A naar B: coördinaten van B min die van A.",
+  "Chasles-Möbius: AB is AC plus CB, via elk tussenpunt.",
+  "Maal een negatief getal draait de zin om, niet de richting."
+ ]
+}

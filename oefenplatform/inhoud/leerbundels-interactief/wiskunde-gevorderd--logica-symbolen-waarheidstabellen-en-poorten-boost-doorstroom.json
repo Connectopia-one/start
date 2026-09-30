@@ -1,0 +1,213 @@
+{
+ "vak": "Wiskunde gevorderd",
+ "titel": "Logica: symbolen, waarheidstabellen en poorten",
+ "onder": "Uitspraken, de bewerkingen met hun symbolen, waarheidstabellen, kwantoren, bewijzen en logische poorten.",
+ "secties": [
+  {
+   "kop": "Wat is een logische uitspraak?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>logische uitspraak</strong> is een zin waarvan je kan zeggen of hij <strong>waar of vals</strong> is. <em>Zeven is een priemgetal</em> is er een. <em>Hoe laat is het?</em> niet: bij een vraag past geen waarheidswaarde. Bij een bevel evenmin. Ook <em>x is groter dan 3</em> is pas een uitspraak als je weet wat x is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Uitspraken krijgen een letter: p, q, r. De <strong>waarheidswaarde</strong> is waar (1) of vals (0)."
+    }
+   ]
+  },
+  {
+   "kop": "De bewerkingen en hun symbolen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Symbool</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Lees als</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar wanneer</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">negatie (ontkenning)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">¬p</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet p</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als p vals is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">conjunctie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">p ∧ q</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">p en q</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als p en q allebei waar zijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">disjunctie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">p ∨ q</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">p of q</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als minstens één van de twee waar is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">implicatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">p ⇒ q</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als p dan q</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">altijd, behalve als p waar is en q vals</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">equivalentie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">p ⇔ q</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">p als en slechts als q</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als p en q dezelfde waarheidswaarde hebben</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>negatie</strong>, ook <em>ontkenning</em> genoemd, keert de waarheidswaarde om en doet niets anders: is p waar, dan is ¬p vals, en omgekeerd."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het dakje ∧ is <em>en</em>, het omgekeerde dakje ∨ is <em>of</em>. Een ezelsbruggetje: ∧ lijkt op de A van <em>and</em>. Je mag ze dus nooit door elkaar gebruiken: p ∧ q vraagt allebei, p ∨ q neemt genoegen met één."
+    },
+    {
+     "soort": "kader",
+     "html": "De <strong>logische 'of' verschilt van de 'of' in de omgangstaal</strong>. <em>Koffie of thee?</em> betekent in het dagelijks leven meestal één van beide. In de logica is p ∨ q ook waar als p en q <strong>allebei</strong> waar zijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de <strong>equivalentie</strong> geldt: allebei waar of allebei vals maakt ze waar; verschillen ze, dan is ze vals."
+    }
+   ]
+  },
+  {
+   "kop": "Waarheidstabellen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>waarheidstabel</strong> zet alle mogelijke combinaties onder elkaar. Elke variabele <strong>verdubbelt</strong> het aantal rijen: twee variabelen geven <strong>vier</strong> rijen, drie variabelen <strong>acht</strong>, vier variabelen <strong>zestien</strong>, en n variabelen 2 tot de macht n."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">p</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">q</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">¬p</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">p ∧ q</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">p ∨ q</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">p ⇒ q</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">p ⇔ q</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Is p waar en q vals, dan is p ∧ q dus <strong>vals</strong> (de conjunctie vraagt allebei) en p ∨ q <strong>waar</strong> (de disjunctie neemt genoegen met één)."
+    },
+    {
+     "soort": "weetje",
+     "html": "De implicatie is de lastigste rij. <em>Als het regent, neem ik mijn paraplu mee</em> is pas gelogen op de dag dat het regent én je je paraplu thuis laat. Is p vals, dan is de implicatie net <strong>waar</strong>: je hebt niets beloofd voor die dag."
+    }
+   ]
+  },
+  {
+   "kop": "Tautologie en contradictie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>tautologie</strong> is een uitspraak die <strong>bij elke mogelijke invulling waar</strong> is. p ∨ ¬p is er een: het regent of het regent niet, wat er ook gebeurt. In de waarheidstabel staat dan in de hele kolom een 1."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>contradictie</strong> is het omgekeerde: <strong>bij elke invulling vals</strong>. p ∧ ¬p is er een: het regent én het regent niet, dat kan nooit samen."
+    }
+   ]
+  },
+  {
+   "kop": "Kwantoren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>kwantor</strong> zegt over hoeveel gevallen een uitspraak gaat."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kwantor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Lees als</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">∀</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">universele kwantor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voor alle, voor elke waarde geldt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">∃</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">existentiële kwantor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er bestaat minstens één</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Eén tegenvoorbeeld volstaat om een uitspraak met ∀ te weerleggen.</strong> <em>Alle priemgetallen zijn oneven</em> sneuvelt op het getal 2."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>negatie van ∀ is ∃ met een negatie erachter</strong>. De ontkenning van <em>alle leerlingen slaagden</em> is dus niet <em>geen enkele leerling slaagde</em>, maar <strong>minstens één leerling slaagde niet</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Nodige en voldoende voorwaarden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een implicatie p ⇒ q hoort een manier van spreken die je moet kunnen lezen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een voorwaarde is <strong>nodig</strong> als ze niet gemist kan worden, en <strong>voldoende</strong> als ze op zichzelf al genoeg is: is ze waar, dan is de uitspraak zeker waar."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Als een vierhoek een vierkant is, dan heeft hij vier rechte hoeken.</em> Vier rechte hoeken hebben is <strong>nodig</strong> om een vierkant te zijn: zonder die hoeken geen vierkant. Maar het is niet <em>voldoende</em>, want een rechthoek heeft ze ook. Omgekeerd is <em>een vierkant zijn</em> wél <strong>voldoende</strong> om vier rechte hoeken te hebben, maar niet nodig."
+    }
+   ]
+  },
+  {
+   "kop": "Rond de implicatie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Zelfde waarde als p ⇒ q?</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de implicatie zelf</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">p ⇒ q</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het omgekeerde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">q ⇒ p</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het tegengestelde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">¬p ⇒ ¬q</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de contrapositie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">¬q ⇒ ¬p</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja, altijd</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Als het een hond is, dan is het een dier</em> is waar. Het omgekeerde is dat duidelijk niet. Maar de contrapositie, <em>als het geen dier is, dan is het geen hond</em>, is even waar als de oorspronkelijke uitspraak."
+    }
+   ]
+  },
+  {
+   "kop": "De wetten van De Morgan",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "¬(p ∧ q) is hetzelfde als ¬p ∨ ¬q, en ¬(p ∨ q) is hetzelfde als ¬p ∧ ¬q. Let op hoe <em>en</em> en <em>of</em> daarbij van plaats wisselen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Het is niet zo dat het regent en waait</em> vertaal je dus als <strong>¬(p ∧ q)</strong>: de negatie staat voor het hele stuk."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>¬(p ∧ q) is niet hetzelfde als ¬p ∧ ¬q.</strong> Het eerste zegt: <em>niet allebei</em>. Het tweede zegt: <em>geen van beide</em>. Dat is iets anders."
+    }
+   ]
+  },
+  {
+   "kop": "Tegenvoorbeelden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<em>Elk getal dat deelbaar is door 3, is ook deelbaar door 6.</em> Dat is vals, en je weerlegt het met één getal: <strong>9</strong> is deelbaar door 3 maar niet door 6. Elk oneven veelvoud van 3 doet het: 3, 9, 15, 21. Het getal <strong>12</strong> weerlegt niets, want dat is door allebei deelbaar en past juist bij de uitspraak."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Als je de zijden van een vierkant verdubbelt, verdubbelt de oppervlakte.</em> Ook vals: een zijde van 2 wordt 4, en de oppervlakte gaat van 4 naar <strong>16</strong>, dus vier keer zo groot. Bij een kubus zou het volume zelfs acht keer zo groot worden."
+    }
+   ]
+  },
+  {
+   "kop": "Wat je moet kunnen bewijzen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vakfiche geeft een lijst met bewijzen die je moet kunnen aanvullen en verklaren:"
+    },
+    {
+     "soort": "tekst",
+     "html": "de stelling van <strong>Pythagoras</strong>, de <strong>irrationaliteit van √2</strong>, de eigenschappen van de <strong>tweedegraadsfuncties</strong>, de <strong>grondformule</strong> van de goniometrie, en de <strong>sinus- en cosinusregel</strong>. De som van de hoeken in een vierhoek staat er dus níét bij."
+    },
+    {
+     "soort": "tekst",
+     "html": "Tijdens het examen mag je het <strong>formularium uit bijlage 1</strong> gebruiken, maar <strong>niet</strong> de lijst met bewijzen. Die moet je zelf kunnen aanvullen en verklaren."
+    }
+   ]
+  },
+  {
+   "kop": "Logische poorten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een computer rekent met stroom die er is (1) of niet is (0), en met <strong>logische poorten</strong> die precies de bewerkingen hierboven uitvoeren."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Poort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoort bij</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">EN-poort</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geeft alleen een signaal door als beide ingangen een signaal krijgen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de conjunctie ∧</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">OF-poort</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geeft een signaal door zodra minstens één ingang een signaal krijgt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de disjunctie ∨</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">NIET-poort</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">keert het signaal om dat op haar ingang binnenkomt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de negatie ¬</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">NEN-poort</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een EN-poort met een NIET erachter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">¬(p ∧ q)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">NOF-poort</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een OF-poort met een NIET erachter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">¬(p ∨ q)</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>schakeling</strong> zet je die poorten achter elkaar, en met een waarheidstabel reken je na wat er uitkomt. Een lamp die alleen brandt als de <strong>hoofdschakelaar én de wandschakelaar</strong> aan staan, vraagt een <strong>EN-poort</strong>. Een alarm dat afgaat als de deur <strong>of</strong> het raam opengaat, vraagt een <strong>OF-poort</strong>: één van beide volstaat."
+    },
+    {
+     "soort": "weetje",
+     "html": "In het Engels heet de NIET-poort NOT of <em>inverter</em>. Alles wat een computer doet, komt uiteindelijk neer op miljarden van deze poorten."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een logische uitspraak is waar of vals; een vraag of een bevel is er geen.",
+  "¬ is niet, ∧ is en, ∨ is of, ⇒ is als … dan, ⇔ is als en slechts als.",
+  "De logische 'of' is ook waar als allebei waar zijn.",
+  "Elke variabele verdubbelt de tabel: 2 geeft 4 rijen, 3 geeft 8, 4 geeft 16.",
+  "p ⇒ q is enkel vals als p waar is en q vals.",
+  "Een tautologie is altijd waar (p ∨ ¬p), een contradictie altijd vals (p ∧ ¬p).",
+  "∀ is 'voor alle', ∃ is 'er bestaat'; de negatie van 'alle slaagden' is 'minstens één slaagde niet'.",
+  "Nodig kan niet gemist worden, voldoende is op zichzelf genoeg.",
+  "De contrapositie ¬q ⇒ ¬p heeft altijd dezelfde waarde; het omgekeerde q ⇒ p niet.",
+  "De Morgan: ¬(p ∧ q) is ¬p ∨ ¬q, en dat is iets anders dan ¬p ∧ ¬q.",
+  "Bewijzen op de fiche: Pythagoras, irrationaliteit van √2, tweedegraadsfuncties, grondformule, sinus- en cosinusregel.",
+  "Het formularium uit bijlage 1 mag mee op het examen, de bewijzenlijst niet.",
+  "EN-, OF- en NIET-poort; NEN en NOF zijn hun omgekeerden."
+ ]
+}
