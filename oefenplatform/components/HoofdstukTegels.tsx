@@ -72,7 +72,10 @@ export function HoofdstukTegels({
     if (isPittig(h.titel) || isUitdaging(h.titel)) continue;
     plaats.set(h.titel.trim(), h.volgnummer);
     const { thema } = splitsDeel(h.titel);
-    plaatsVanThema.set(thema, Math.max(plaatsVanThema.get(thema) ?? 0, h.volgnummer));
+    plaatsVanThema.set(
+      thema,
+      Math.max(plaatsVanThema.get(thema) ?? 0, h.volgnummer),
+    );
   }
   const sleutel = (h: HoofdstukTegel): [number, number, number] => {
     if (isUitdaging(h.titel)) return [2, h.volgnummer, 0];
@@ -139,7 +142,7 @@ export function HoofdstukTegels({
               ) : s?.gemaakt ? (
                 <span
                   aria-hidden
-                  title="Al gemaakt"
+                  title="Hier al aan gewerkt"
                   className="absolute right-3 top-3 text-lg"
                 >
                   ✅
@@ -175,10 +178,14 @@ export function HoofdstukTegels({
                     Op slot
                   </span>
                 )}
+                {/* Het vinkje in de hoek zegt al genoeg dat een kind hier
+                    geweest is. Kim op 30 september 2026: "kan de zin al gemaakt
+                    weg? want ookal heb je 2 oefeningen gemaakt zegt die al
+                    gemaakt. enkel het groen vinkje is voldoende." Het woord
+                    beloofde meer dan het vinkje bedoelt. Bij de ster blijft er
+                    wél een woord staan: die is verdiend en overdrijft niets. */}
                 {s?.perfect ? (
                   <span className="text-xs text-forest-dark">Foutloos</span>
-                ) : s?.gemaakt ? (
-                  <span className="text-xs text-ink-dim">Al gemaakt</span>
                 ) : null}
               </span>
             </Link>
