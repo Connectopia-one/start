@@ -1,0 +1,95 @@
+{
+ "vak": "Techniek",
+ "titel": "Transport en overbrengingen",
+ "onder": "Drijver en volger, de zes overbrengingen van de fiche, en wat een overbrenging met snelheid en kracht doet.",
+ "secties": [
+  {
+   "kop": "Drijver en volger",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>transportsysteem</strong> is een systeem dat iets of iemand <strong>verplaatst</strong>. Binnenin zit meestal een <strong>overbrenging</strong>: een manier om een beweging door te geven."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het wiel dat de beweging <strong>geeft</strong>, heet de <strong>drijver</strong>. Het wiel dat de beweging <strong>ontvangt</strong>, heet de <strong>volger</strong>. Verwissel ze niet: de volger geeft niet, hij krijgt."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort aandrijving</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het betekent</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>rechtstreeks</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de wielen raken elkaar zelf</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee tandwielen die in elkaar grijpen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>onrechtstreeks</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er zit een <strong>riem of een ketting</strong> tussen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de ketting van een fiets</td></tr></table>",
+     "onderschrift": "Een riemoverbrenging werkt dus juist tussen twee wielen die elkaar <em>niet</em> raken."
+    }
+   ]
+  },
+  {
+   "kop": "De overbrengingen van de fiche",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 220\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"66\" cy=\"54\" r=\"24\" fill=\"#cfd6c6\" stroke=\"#234539\" stroke-width=\"1.4\"/><line x1=\"90.0\" y1=\"54.0\" x2=\"94.0\" y2=\"54.0\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"86.8\" y1=\"66.0\" x2=\"90.2\" y2=\"68.0\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"78.0\" y1=\"74.8\" x2=\"80.0\" y2=\"78.2\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"66.0\" y1=\"78.0\" x2=\"66.0\" y2=\"82.0\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"54.0\" y1=\"74.8\" x2=\"52.0\" y2=\"78.2\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"45.2\" y1=\"66.0\" x2=\"41.8\" y2=\"68.0\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"42.0\" y1=\"54.0\" x2=\"38.0\" y2=\"54.0\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"45.2\" y1=\"42.0\" x2=\"41.8\" y2=\"40.0\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"54.0\" y1=\"33.2\" x2=\"52.0\" y2=\"29.8\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"66.0\" y1=\"30.0\" x2=\"66.0\" y2=\"26.0\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"78.0\" y1=\"33.2\" x2=\"80.0\" y2=\"29.8\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"86.8\" y1=\"42.0\" x2=\"90.2\" y2=\"40.0\" stroke=\"#234539\" stroke-width=\"2.4\"/><circle cx=\"66\" cy=\"54\" r=\"3\" fill=\"#234539\"/><circle cx=\"122\" cy=\"54\" r=\"24\" fill=\"#cfd6c6\" stroke=\"#234539\" stroke-width=\"1.4\"/><line x1=\"146.0\" y1=\"54.0\" x2=\"150.0\" y2=\"54.0\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"142.8\" y1=\"66.0\" x2=\"146.2\" y2=\"68.0\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"134.0\" y1=\"74.8\" x2=\"136.0\" y2=\"78.2\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"122.0\" y1=\"78.0\" x2=\"122.0\" y2=\"82.0\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"110.0\" y1=\"74.8\" x2=\"108.0\" y2=\"78.2\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"101.2\" y1=\"66.0\" x2=\"97.8\" y2=\"68.0\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"98.0\" y1=\"54.0\" x2=\"94.0\" y2=\"54.0\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"101.2\" y1=\"42.0\" x2=\"97.8\" y2=\"40.0\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"110.0\" y1=\"33.2\" x2=\"108.0\" y2=\"29.8\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"122.0\" y1=\"30.0\" x2=\"122.0\" y2=\"26.0\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"134.0\" y1=\"33.2\" x2=\"136.0\" y2=\"29.8\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"142.8\" y1=\"42.0\" x2=\"146.2\" y2=\"40.0\" stroke=\"#234539\" stroke-width=\"2.4\"/><circle cx=\"122\" cy=\"54\" r=\"3\" fill=\"#234539\"/><text x=\"94.0\" y=\"96.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">tandwielen</text><text x=\"94.0\" y=\"108.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#6b7260\">rechtstreeks, tegengestelde zin</text><path d=\"M 50 34 a 22 22 0 0 1 20 -8\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><path d=\"M 70 26 l -7 -1 l 4 6 Z\" fill=\"#c17f2b\"/><path d=\"M 138 34 a 22 22 0 0 0 -20 -8\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><path d=\"M 118 26 l 7 -1 l -4 6 Z\" fill=\"#c17f2b\"/><circle cx=\"300\" cy=\"54\" r=\"22\" fill=\"#cfd6c6\" stroke=\"#234539\" stroke-width=\"1.4\"/><line x1=\"322.0\" y1=\"54.0\" x2=\"326.0\" y2=\"54.0\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"318.5\" y1=\"65.9\" x2=\"321.9\" y2=\"68.1\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"309.1\" y1=\"74.0\" x2=\"310.8\" y2=\"77.7\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"296.9\" y1=\"75.8\" x2=\"296.3\" y2=\"79.7\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"285.6\" y1=\"70.6\" x2=\"283.0\" y2=\"73.6\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"278.9\" y1=\"60.2\" x2=\"275.1\" y2=\"61.3\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"278.9\" y1=\"47.8\" x2=\"275.1\" y2=\"46.7\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"285.6\" y1=\"37.4\" x2=\"283.0\" y2=\"34.4\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"296.9\" y1=\"32.2\" x2=\"296.3\" y2=\"28.3\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"309.1\" y1=\"34.0\" x2=\"310.8\" y2=\"30.3\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"318.5\" y1=\"42.1\" x2=\"321.9\" y2=\"39.9\" stroke=\"#234539\" stroke-width=\"2.4\"/><circle cx=\"300\" cy=\"54\" r=\"3\" fill=\"#234539\"/><circle cx=\"392\" cy=\"54\" r=\"14\" fill=\"#cfd6c6\" stroke=\"#234539\" stroke-width=\"1.4\"/><line x1=\"406.0\" y1=\"54.0\" x2=\"410.0\" y2=\"54.0\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"401.9\" y1=\"63.9\" x2=\"404.7\" y2=\"66.7\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"392.0\" y1=\"68.0\" x2=\"392.0\" y2=\"72.0\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"382.1\" y1=\"63.9\" x2=\"379.3\" y2=\"66.7\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"378.0\" y1=\"54.0\" x2=\"374.0\" y2=\"54.0\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"382.1\" y1=\"44.1\" x2=\"379.3\" y2=\"41.3\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"392.0\" y1=\"40.0\" x2=\"392.0\" y2=\"36.0\" stroke=\"#234539\" stroke-width=\"2.4\"/><line x1=\"401.9\" y1=\"44.1\" x2=\"404.7\" y2=\"41.3\" stroke=\"#234539\" stroke-width=\"2.4\"/><circle cx=\"392\" cy=\"54\" r=\"3\" fill=\"#234539\"/><path d=\"M 300 32 L 392 40 M 300 76 L 392 68\" stroke=\"#234539\" stroke-width=\"2.6\"/><text x=\"346.0\" y=\"96.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">ketting over twee tandwielen</text><text x=\"346.0\" y=\"108.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#6b7260\">onrechtstreeks, zelfde zin, slipt niet</text><circle cx=\"66\" cy=\"158\" r=\"22\" fill=\"#dfe7d5\" stroke=\"#234539\" stroke-width=\"1.4\"/><circle cx=\"66\" cy=\"158\" r=\"3\" fill=\"#234539\"/><circle cx=\"150\" cy=\"158\" r=\"14\" fill=\"#dfe7d5\" stroke=\"#234539\" stroke-width=\"1.4\"/><circle cx=\"150\" cy=\"158\" r=\"3\" fill=\"#234539\"/><path d=\"M 66 136 L 150 144 M 66 180 L 150 172\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><text x=\"108.0\" y=\"198.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">riemoverbrenging</text><text x=\"108.0\" y=\"210.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#6b7260\">riem, niet gekruist: zelfde zin</text><circle cx=\"318\" cy=\"158\" r=\"21\" fill=\"#e4dccd\" stroke=\"#234539\" stroke-width=\"1.4\"/><circle cx=\"366\" cy=\"158\" r=\"27\" fill=\"#e4dccd\" stroke=\"#234539\" stroke-width=\"1.4\"/><circle cx=\"318\" cy=\"158\" r=\"3\" fill=\"#234539\"/><circle cx=\"366\" cy=\"158\" r=\"3\" fill=\"#234539\"/><text x=\"346.0\" y=\"198.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">wrijvingswielen</text><text x=\"346.0\" y=\"210.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#6b7260\">raken elkaar, kunnen slippen</text></svg>",
+     "onderschrift": "Vier ervan naast elkaar. <strong>Wrijvingswielen</strong> geven de beweging door doordat ze elkaar <strong>raken</strong>, en juist daarom kunnen ze <strong>slippen</strong>: ze houden elkaar alleen met wrijving vast."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">overbrenging</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>tandwielen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wielen met tanden die in elkaar grijpen; zo'n <strong>tandwieloverbrenging</strong> zit in een <strong>handmixer</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>kettingen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">over twee tandwielen, zoals tussen de trappers en het achterwiel van een fiets</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>riemen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een band over twee wielen die elkaar niet raken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wrijvingswielen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wielen die elkaar raken; kunnen slippen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>katrollen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>wiel met een groef waar een touw over loopt</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>hefbomen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>staaf die om een steunpunt draait</strong></td></tr></table>",
+     "onderschrift": "De fiche noemt hefbomen, tandwielen, kettingen en wrijvingswielen uitdrukkelijk als overbrengingen, en katrollen en riemen horen er ook bij."
+    },
+    {
+     "soort": "tekst",
+     "html": "Over een <strong>katrol</strong> loopt een touw of een kabel. Ze kan de <strong>richting van een kracht veranderen</strong>, en met <strong>meerdere</strong> katrollen hef je <strong>met minder kracht</strong>. Ze doet dus meer dan alleen de richting van het touw veranderen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 400 120\" width=\"400\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"30\" y1=\"62\" x2=\"370\" y2=\"62\" stroke=\"#234539\" stroke-width=\"5\" stroke-linecap=\"round\"/><polygon points=\"136.0,66 112.00000000000001,96 160.0,96\" fill=\"#6b7260\"/><text x=\"136.0\" y=\"110\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">steunpunt</text><rect x=\"42\" y=\"28\" width=\"34\" height=\"30\" rx=\"5\" fill=\"#2f5d50\"/><text x=\"59\" y=\"22\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#2f5d50\">last</text><path d=\"M340 28 v26 m0 0 l-5 -6 m5 6 l5 -6\" stroke=\"#c17f2b\" stroke-width=\"2.6\" fill=\"none\" stroke-linecap=\"round\"/><text x=\"340\" y=\"22\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#c17f2b\">kracht</text></svg>",
+     "onderschrift": "Een <strong>hefboom</strong> is een staaf die om een <strong>steunpunt</strong> draait. Een <strong>kruiwagen</strong> werkt zo. Gebruik je een <strong>langere arm</strong>, dan heb je <strong>minder kracht</strong> nodig, en til je een last op die je met je blote handen niet aankunt."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een <strong>ketting</strong> heeft één duidelijk voordeel boven een riem: hij <strong>kan niet slippen</strong>. De schakels haken in de tanden."
+    }
+   ]
+  },
+  {
+   "kop": "Snelheid, kracht en draaizin",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat er gebeurt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">gevolg</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>klein</strong> tandwiel drijft een <strong>groot</strong> aan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het grote wiel draait <strong>trager</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>groot</strong> tandwiel drijft een <strong>klein</strong> aan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het kleine wiel draait <strong>sneller</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee <strong>even grote</strong> wielen met een riem</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ze draaien allebei <strong>even snel</strong></td></tr></table>",
+     "onderschrift": "Hoe <strong>méér</strong> tanden een tandwiel heeft, hoe <strong>trager</strong> het draait bij dezelfde aandrijving. Niet sneller."
+    },
+    {
+     "soort": "tekst",
+     "html": "Reken maar mee. Een tandwiel met <strong>10</strong> tanden drijft er een met <strong>30</strong> aan. Gaat het kleine <strong>drie</strong> keer rond, dan zijn er 30 tanden gepasseerd, en dat is precies één omwenteling van het grote: het grote draait <strong>één keer</strong> rond. Andersom: een tandwiel met <strong>40</strong> tanden drijft er een met <strong>10</strong> aan. Eén omwenteling van het grote laat 40 tanden passeren, dus het kleine draait <strong>vier keer</strong> rond."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een overbrenging kan de beweging <strong>versnellen</strong>, <strong>vertragen</strong> en de <strong>richting</strong> ervan veranderen. Een overbrenging die de beweging trager maakt, heet een <strong>vertraging</strong>. En meer snelheid gaat meestal <strong>ten koste van kracht</strong>: je krijgt het een niet zonder het ander in te leveren."
+    },
+    {
+     "soort": "kader",
+     "html": "De <strong>draaizin</strong>. Twee tandwielen die in elkaar grijpen, draaien in <strong>tegengestelde</strong> zin. Twee wielen met een gewone, niet gekruiste riem draaien in <strong>dezelfde</strong> zin. Laat je die riem <strong>kruisen</strong>, dan draait de volger in de <strong>andere</strong> zin — en dat doen machines soms met opzet, juist omdat de volger de andere kant op moet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op een <strong>fiets</strong> zet je een <strong>licht verzet</strong> als je een helling opfietst: je <strong>trapt lichter maar moet sneller trappen</strong>. Een <strong>versnellingsbak</strong> doet hetzelfde in een auto: je kiest ermee tussen kracht en snelheid, ze bevat tandwielen van verschillende grootte, en in een lage versnelling trek je vlotter op."
+    },
+    {
+     "soort": "tekst",
+     "html": "In de <strong>functiedriehoek</strong> van een transportsysteem staan de <strong>functie</strong>, het <strong>materiaal</strong>, de <strong>bewerking</strong> en de <strong>vorm</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "De drijver geeft de beweging, de volger ontvangt ze.",
+  "Rechtstreeks = de wielen raken elkaar. Onrechtstreeks = er zit een riem of ketting tussen.",
+  "Overbrengingen: tandwielen, kettingen, riemen, wrijvingswielen, katrollen, hefbomen.",
+  "Wrijvingswielen kunnen slippen; een ketting niet, want de schakels haken in de tanden.",
+  "Een katrol verandert de richting van een kracht; met meerdere hef je met minder kracht.",
+  "Een hefboom draait om een steunpunt; een langere arm vraagt minder kracht.",
+  "Klein drijft groot = trager. Groot drijft klein = sneller. Meer tanden = trager.",
+  "10 tanden drijft 30 aan: drie omwentelingen van het kleine = één van het grote.",
+  "Tandwielen draaien tegengesteld; een gewone riem in dezelfde zin, een gekruiste riem omgekeerd.",
+  "Meer snelheid gaat ten koste van kracht. Licht verzet: lichter trappen, sneller trappen."
+ ]
+}

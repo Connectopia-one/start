@@ -1,0 +1,98 @@
+{
+ "vak": "Techniek",
+ "titel": "Het technisch proces",
+ "onder": "De vijf fasen van probleem tot evaluatie, probleemoplossend ontwerpen, en waarom STEM meer is dan techniek.",
+ "secties": [
+  {
+   "kop": "De vijf fasen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het technisch proces heeft <strong>vijf</strong> fasen. Het begint altijd bij een <strong>behoefte of een probleem</strong>, en het kan voor élk technisch systeem gebruikt worden, niet alleen voor een constructiesysteem."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 200\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"7.0\" y=\"14\" width=\"86.4\" height=\"104\" rx=\"6\" fill=\"#f2f5f0\" stroke=\"#2f5d50\" stroke-width=\"1.4\"/><circle cx=\"50.2\" cy=\"32\" r=\"11\" fill=\"#2f5d50\"/><text x=\"50.2\" y=\"36.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#ffffff\">1</text><text x=\"50.2\" y=\"58.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" font-weight=\"600\" fill=\"#23291f\"></text><text x=\"50.2\" y=\"69.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" font-weight=\"600\" fill=\"#23291f\">probleemstelling</text><text x=\"50.2\" y=\"82.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"7.5\" fill=\"#6b7260\">wat heeft de</text><text x=\"50.2\" y=\"92.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"7.5\" fill=\"#6b7260\">gebruiker nodig?</text><text x=\"50.2\" y=\"102.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"7.5\" fill=\"#6b7260\">criteria</text><text x=\"50.2\" y=\"112.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"7.5\" fill=\"#6b7260\">vastleggen</text><path d=\"M91.4 58 l9 8 l-9 8 Z\" fill=\"#c17f2b\"/><rect x=\"99.4\" y=\"14\" width=\"86.4\" height=\"104\" rx=\"6\" fill=\"#f2f5f0\" stroke=\"#2f5d50\" stroke-width=\"1.4\"/><circle cx=\"142.6\" cy=\"32\" r=\"11\" fill=\"#2f5d50\"/><text x=\"142.6\" y=\"36.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#ffffff\">2</text><text x=\"142.6\" y=\"58.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" font-weight=\"600\" fill=\"#23291f\">ontwerpen</text><text x=\"142.6\" y=\"82.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"7.5\" fill=\"#6b7260\">schets,</text><text x=\"142.6\" y=\"92.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"7.5\" fill=\"#6b7260\">materiaal,</text><text x=\"142.6\" y=\"102.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"7.5\" fill=\"#6b7260\">gereedschap,</text><text x=\"142.6\" y=\"112.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"7.5\" fill=\"#6b7260\">verbindingen</text><path d=\"M183.8 58 l9 8 l-9 8 Z\" fill=\"#c17f2b\"/><rect x=\"191.8\" y=\"14\" width=\"86.4\" height=\"104\" rx=\"6\" fill=\"#f2f5f0\" stroke=\"#2f5d50\" stroke-width=\"1.4\"/><circle cx=\"235.0\" cy=\"32\" r=\"11\" fill=\"#2f5d50\"/><text x=\"235.0\" y=\"36.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#ffffff\">3</text><text x=\"235.0\" y=\"58.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" font-weight=\"600\" fill=\"#23291f\">maken</text><text x=\"235.0\" y=\"82.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"7.5\" fill=\"#6b7260\">volgens het</text><text x=\"235.0\" y=\"92.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"7.5\" fill=\"#6b7260\">stappenplan, en</text><text x=\"235.0\" y=\"102.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"7.5\" fill=\"#6b7260\">veilig</text><path d=\"M276.20000000000005 58 l9 8 l-9 8 Z\" fill=\"#c17f2b\"/><rect x=\"284.2\" y=\"14\" width=\"86.4\" height=\"104\" rx=\"6\" fill=\"#f2f5f0\" stroke=\"#2f5d50\" stroke-width=\"1.4\"/><circle cx=\"327.4\" cy=\"32\" r=\"11\" fill=\"#2f5d50\"/><text x=\"327.4\" y=\"36.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#ffffff\">4</text><text x=\"327.4\" y=\"58.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" font-weight=\"600\" fill=\"#23291f\">in gebruik</text><text x=\"327.4\" y=\"69.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" font-weight=\"600\" fill=\"#23291f\">nemen</text><text x=\"327.4\" y=\"82.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"7.5\" fill=\"#6b7260\">gebruiken en</text><text x=\"327.4\" y=\"92.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"7.5\" fill=\"#6b7260\">testen</text><path d=\"M368.6 58 l9 8 l-9 8 Z\" fill=\"#c17f2b\"/><rect x=\"376.6\" y=\"14\" width=\"86.4\" height=\"104\" rx=\"6\" fill=\"#f2f5f0\" stroke=\"#2f5d50\" stroke-width=\"1.4\"/><circle cx=\"419.8\" cy=\"32\" r=\"11\" fill=\"#2f5d50\"/><text x=\"419.8\" y=\"36.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#ffffff\">5</text><text x=\"419.8\" y=\"58.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" font-weight=\"600\" fill=\"#23291f\">evalueren</text><text x=\"419.8\" y=\"82.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"7.5\" fill=\"#6b7260\">voldoet het aan</text><text x=\"419.8\" y=\"92.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"7.5\" fill=\"#6b7260\">de criteria?</text><path d=\"M419.8 122 L419.8 150 L142.6 150 L142.6 126\" fill=\"none\" stroke=\"#a2521f\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><path d=\"M137.6 132 L142.6 120 L147.6 132 Z\" fill=\"#a2521f\"/><path d=\"M235.0 150 L235.0 126\" fill=\"none\" stroke=\"#a2521f\" stroke-width=\"1.6\" stroke-dasharray=\"5 4\"/><path d=\"M230.0 132 L235.0 120 L240.0 132 Z\" fill=\"#a2521f\"/><text x=\"235.0\" y=\"166.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#a2521f\">Voldoet het niet aan de criteria, dan keer je terug naar fase 2 of fase 3.</text><text x=\"235.0\" y=\"182.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">Niet naar fase 1: het probleem en de criteria staan al vast.</text></svg>",
+     "onderschrift": "De vijf fasen, en wat er gebeurt als het systeem niet voldoet."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">fase</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat er gebeurt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>1</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je <strong>onderzoekt het probleem en de behoefte</strong>, en je legt de <strong>criteria</strong> vast</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>2</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je <strong>ontwerpt en tekent</strong> het systeem</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>3</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je <strong>maakt</strong> het technisch systeem</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>4</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je <strong>neemt het in gebruik en test</strong> het</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>5</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je <strong>evalueert</strong> en stuurt bij waar nodig</td></tr></table>",
+     "onderschrift": "In fase 5 ga je na of het systeem voldoet aan de opgestelde <strong>criteria</strong>. Een criterium is een <strong>eis waaraan je technisch systeem moet voldoen</strong>, en die stel je op in fase 1 — dus vóór het gemaakt is, nooit erna."
+    },
+    {
+     "soort": "kader",
+     "html": "Voldoet je systeem niet, dan begin je <strong>niet</strong> helemaal opnieuw bij fase 1. Je keert terug naar <strong>fase 2 of fase 3</strong>: het probleem en de criteria staan immers al vast, alleen je ontwerp of je uitvoering klopt niet."
+    }
+   ]
+  },
+  {
+   "kop": "Wat er in welke fase gebeurt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij de <strong>eerste fase</strong> horen: het <strong>probleem onderzoeken</strong>, een <strong>behoefteonderzoek</strong> doen en de <strong>criteria vastleggen</strong>. Een behoefteonderzoek is <strong>nagaan wat de gebruiker echt nodig heeft</strong> — niet wat jij leuk vindt om te maken."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de <strong>ontwerpfase</strong> horen: een <strong>schets of een model</strong> maken, het <strong>materiaal</strong> kiezen en het <strong>gereedschap</strong> kiezen. Je bepaalt er ook welke <strong>verbindingstechnieken</strong> je gebruikt, welke <strong>sensoren of actuatoren</strong> nodig zijn en welke <strong>overbrengingen</strong> erin moeten komen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>stappenplan</strong> om het systeem te maken, stel je <strong>vóór</strong> je begint op en niet nadat het af is: zo weet je in welke <strong>volgorde</strong> je moet werken. In de <strong>maakfase</strong> licht je toe hoe je <strong>veilig</strong> met het gereedschap werkt. In de <strong>vierde</strong> fase neem je het systeem in gebruik of test je het."
+    }
+   ]
+  },
+  {
+   "kop": "Probleemoplossend ontwerpen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>probleemoplossend ontwerpen</strong> horen drie stappen: het probleem <strong>duidelijk bepalen</strong>, <strong>criteria opstellen</strong> voor de oplossing, en het probleem <strong>opsplitsen in deelproblemen</strong>. De allereerste stap is dus het probleem <strong>duidelijk omschrijven</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Opsplitsen in deelproblemen betekent dat je <strong>elk stuk apart aanpakt</strong>. Achteraf voeg je de oplossingen weer samen, <strong>omdat ze samen het hele probleem moeten oplossen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Soms hoef je helemaal niets nieuws te ontwerpen: het volstaat een <strong>bestaand systeem aan te passen</strong>. En voldoet je oplossing niet aan de criteria, dan <strong>stuur je ze bij</strong>: er wordt iets aan veranderd zodat ze beter voldoet. De <strong>laatste</strong> stap is altijd <strong>testen en bijsturen</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "STEM",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">letter</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarvoor het staat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">in het Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>S</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">science</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wetenschappen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>T</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">technology</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">technologie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>E</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>engineering</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ingenieurswerk, ontwerpen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>M</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>mathematics</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wiskunde</td></tr></table>",
+     "onderschrift": "STEM gaat dus over vier disciplines samen en niet alleen over techniek."
+    },
+    {
+     "soort": "tekst",
+     "html": "Waarom gebruik je bij een ontwerp kennis uit wetenschappen <em>én</em> wiskunde? Omdat een goed ontwerp <strong>meer dan één invalshoek</strong> vraagt. Een ontwerp is niet goed als je het probleem maar vanuit één vakgebied bekijkt."
+    },
+    {
+     "soort": "weetje",
+     "html": "De <strong>coronacrisis</strong> is daar een schoolvoorbeeld van. Er was <strong>wetenschappelijke</strong> kennis nodig om een vaccin te ontwikkelen, <strong>wiskundige</strong> kennis om de verspreiding van het virus in kaart te brengen, en <strong>technologische</strong> kennis om het vaccin koel te houden en te vervoeren."
+    },
+    {
+     "soort": "tekst",
+     "html": "Er ontstaan steeds nieuwe technieken en materialen <strong>omdat de maatschappij voor nieuwe uitdagingen staat</strong>: de <strong>klimaatverandering</strong>, een <strong>tekort aan grondstoffen</strong> en de <strong>zorg voor een ouder wordende bevolking</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Vijf fasen: probleem onderzoeken, ontwerpen, maken, in gebruik nemen en testen, evalueren.",
+  "Een criterium is een eis waaraan het systeem moet voldoen; je legt ze vast in fase 1.",
+  "Voldoet het niet, dan keer je terug naar fase 2 of 3, niet naar fase 1.",
+  "Een behoefteonderzoek gaat na wat de gebruiker echt nodig heeft.",
+  "In de ontwerpfase: schets of model, materiaal, gereedschap, verbindingen, sensoren, overbrengingen.",
+  "Het stappenplan maak je vóór je begint, zodat je de volgorde kent.",
+  "Probleemoplossend ontwerpen: probleem bepalen, criteria opstellen, opsplitsen in deelproblemen.",
+  "Soms volstaat het een bestaand systeem aan te passen. De laatste stap is testen en bijsturen.",
+  "STEM = science, technology, engineering, mathematics. Vier disciplines, niet alleen techniek.",
+  "Nieuwe uitdagingen: klimaatverandering, tekort aan grondstoffen, een ouder wordende bevolking."
+ ]
+}

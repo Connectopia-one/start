@@ -1,0 +1,100 @@
+{
+ "vak": "Techniek",
+ "titel": "Materialen en grondstoffen",
+ "onder": "Van grondstof tot product, de soorten materialen, hun eigenschappen en de veiligheidspictogrammen.",
+ "secties": [
+  {
+   "kop": "Grondstof, materiaal, product",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "IJzererts, klei, zand, wol en aardolie horen allemaal bij dezelfde groep: het zijn <strong>grondstoffen</strong>. Een grondstof haal je uit de natuur. Bewerk je haar, dan wordt het een <strong>materiaal</strong>, en maak je daar iets van, dan heb je een <strong>product</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"69.7\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">grondstof</text><text x=\"69.7\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">klei</text><path d=\"M144.33333333333334 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"165.3\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">materiaal</text><text x=\"235.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">baksteen</text><path d=\"M309.6666666666667 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"330.7\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"400.3\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">product</text><text x=\"400.3\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">muur</text></svg>",
+     "onderschrift": "Klei komt uit de grond, een baksteen wordt eruit gebakken, en met bakstenen metsel je een muur. Zand is dus de grondstof en glas het materiaal, en niet omgekeerd."
+    },
+    {
+     "soort": "kader",
+     "html": "Let op: <strong>staal is geen grondstof</strong>. Staal wordt gemaakt uit ijzererts, en dat erts is de grondstof."
+    }
+   ]
+  },
+  {
+   "kop": "Metaal of niet, ferro of non-ferro",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>enkelvoudig metaal</strong> bestaat uit één metaal: koper, aluminium, lood. Een <strong>legering</strong> is een <strong>mengsel van metalen</strong>, ontstaan door ze samen te smelten. <strong>Brons</strong>, <strong>messing</strong>, <strong>inox</strong> en <strong>soldeertin</strong> zijn legeringen. Inox is de korte naam voor <strong>roestvrij staal</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je wil weten</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">welke proef</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je ziet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">metaal of niet-metaal?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de geleidingsproef</strong>: neem de stof op in een stroomkring</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geleidt ze stroom, dan is het een metaal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ferro of non-ferro?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de magneetproef</strong>: houd er een magneet bij</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">trekt de magneet aan, dan is het een ferrometaal</td></tr></table>",
+     "onderschrift": "Twee proeven die twee <em>verschillende</em> vragen beantwoorden. Haal ze niet door elkaar: een magneet zegt niets over metaal of niet-metaal, en een lampje zegt niets over ferro of non-ferro."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Ferrometalen</strong> bevatten ijzer. Ze worden door een magneet aangetrokken en ze kunnen roesten. <strong>Non-ferrometalen</strong> bevatten geen ijzer: aluminium, koper en lood bijvoorbeeld. Een magneet trekt aluminium dus <strong>niet</strong> aan."
+    },
+    {
+     "soort": "tekst",
+     "html": "Naast de metalen staan de <strong>niet-metalen</strong>: hout, steen, glas, kunststof, leder, textiel. En je kan materialen ook indelen naar hun herkomst. <strong>Natuurlijk</strong> is wat de natuur maakt: hout, leder, wol, steen. <strong>Kunstmatig</strong> is wat de mens maakt: kunststof en <strong>composiet</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De eigenschappen van een materiaal",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De fiche deelt de eigenschappen in <strong>groepen</strong> in. Je moet van een gegeven eigenschap kunnen zeggen in welke groep ze thuishoort."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">groep</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">eigenschappen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>mechanische</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hardheid, treksterkte, broosheid, taaiheid, elasticiteit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>fysische</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">smeltpunt, warmtegeleiding, massadichtheid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>elektrische</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">of het materiaal stroom geleidt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>magnetische</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">of een magneet het aantrekt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>technologische</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vervormbaarheid, watervastheid, bewerkbaarheid, verwerkingstijd van een lijm</td></tr></table>",
+     "onderschrift": "Het <strong>smeltpunt</strong> is dus een fysische en géén mechanische eigenschap, en de <strong>verwerkingstijd van een lijm</strong> is technologisch en niet mechanisch."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">eigenschap</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">hoe je ze onderzoekt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>elasticiteit</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je rekt het materiaal uit en kijkt of het terugveert</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>massadichtheid</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met de <strong>onderdompelingsmethode</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>elektrische geleiding</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je neemt het materiaal op in een <strong>stroomkring</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ferromagnetisme</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je houdt er een magneet bij</td></tr></table>",
+     "onderschrift": "De massadichtheid zegt hoeveel massa er in een bepaald volume van een stof zit."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Broos</strong> betekent dat een materiaal makkelijk breekt; glas is broos. Het tegenovergestelde is <strong>taai</strong>: een taai materiaal kan veel verdragen voor het breekt."
+    },
+    {
+     "soort": "kader",
+     "html": "Moet een onderdeel <strong>onbrandbaar</strong> zijn én tegen vocht kunnen, dan kies je <strong>kunststof</strong> en geen hout: hout brandt en het neemt vocht op."
+    }
+   ]
+  },
+  {
+   "kop": "De veiligheidspictogrammen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op een verpakking met een gevaarlijke stof staan <strong>pictogrammen</strong>: een ruit met een rode rand en een zwart teken erin. Elk gevaar heeft er een eigen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">pictogram</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ontvlambaar</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de stof kan vlam vatten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>bijtend of corrosief</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de stof veroorzaakt <strong>brandwonden</strong> aan huid of ogen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>giftig</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de stof is giftig, ook in kleine hoeveelheid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>oxiderend</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de stof kan brand <strong>veroorzaken of erger maken</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>gassen onder druk</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het pictogram met de <strong>gasfles</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>gevaarlijk voor het aquatisch milieu</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schadelijk voor het water, de vissen en de planten erin</td></tr></table>",
+     "onderschrift": "Ze staan hier beschreven en niet getekend: een nagetekend pictogram lijkt nooit precies op dat van de verpakking, en dan leer je het verkeerde beeld. Kijk ze na op een echte fles."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Grondstof komt uit de natuur, materiaal is bewerkt, product is wat je ermee maakt. Klei → baksteen → muur.",
+  "Staal is geen grondstof; ijzererts wel.",
+  "Een legering is een mengsel van metalen: brons, messing, inox, soldeertin. Inox = roestvrij staal.",
+  "De geleidingsproef zegt metaal of niet-metaal; de magneetproef zegt ferro of non-ferro.",
+  "Ferro bevat ijzer, wordt aangetrokken en kan roesten. Aluminium, koper en lood zijn non-ferro.",
+  "Natuurlijk: hout, leder, wol, steen. Kunstmatig: kunststof en composiet.",
+  "Mechanisch: hardheid, treksterkte, broosheid, taaiheid. Fysisch: smeltpunt, warmtegeleiding, massadichtheid.",
+  "Technologisch: vervormbaarheid, watervastheid, bewerkbaarheid, verwerkingstijd van een lijm.",
+  "Broos breekt makkelijk, taai verdraagt veel. De onderdompelingsmethode meet de massadichtheid.",
+  "Pictogrammen: ontvlambaar, bijtend, giftig, oxiderend, gassen onder druk, gevaarlijk voor het water."
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "vak": "Techniek",
+ "titel": "Algoritmen en computationeel denken",
+ "onder": "Wat een algoritme is, hoe je er een ontwerpt en test, en de vier principes van computationeel denken.",
+ "secties": [
+  {
+   "kop": "Wat is een algoritme?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>algoritme</strong> is een <strong>stappenplan met instructies in een vaste volgorde</strong>. Die volgorde ligt vast: je mag de stappen niet zomaar wisselen, en ontbreekt er één stap, dan <strong>klopt het resultaat meestal niet meer</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een algoritme hoeft <strong>niet</strong> op een computer te draaien. Een <strong>niet-digitaal</strong> algoritme voer je zonder computer uit: een <strong>recept</strong> om een cake te bakken, een stappenplan om een boterham met choco te smeren. Een <strong>digitaal</strong> algoritme wel: de code van een computerspel, of een programma dat een lampje laat flikkeren."
+    },
+    {
+     "soort": "tekst",
+     "html": "Met een algoritme kan je van alles laten doen: controleren of een getal een <strong>priemgetal</strong> is, <strong>getallen sorteren</strong> van klein naar groot, een <strong>rechthoek laten tekenen</strong> op het scherm. Het werkt voor <strong>eenvoudige én ingewikkelde</strong> problemen."
+    }
+   ]
+  },
+  {
+   "kop": "Een algoritme ontwerpen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"49.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">probleemstelling</text><text x=\"49.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">formuleren</text><path d=\"M103.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"124.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"173.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">analyseren</text><text x=\"173.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">met IPO</text><path d=\"M227.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"248.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"297.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">algoritme</text><text x=\"297.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">schrijven</text><path d=\"M351.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"372.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"421.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">testen en</text><text x=\"421.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">bijsturen</text></svg>",
+     "onderschrift": "De stappen die de fiche noemt. <strong>IPO</strong> staat hier voor <strong>input, process en output</strong>: voor je een algoritme schrijft, bekijk je <strong>wat erin gaat en wat eruit moet komen</strong>. De <strong>programmeertaal</strong> waarin je het daarna vertaalt, is volgens de fiche <strong>Scratch</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je <strong>test</strong> een algoritme uit <strong>om te zien of het echt doet wat je wilde</strong>. Geeft het niet het juiste resultaat, dan <strong>stuur je het bij</strong>. Testen is dus geen formaliteit achteraf maar een echte stap."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>flowchart</strong> is een schema met pijlen dat de stappen van een algoritme toont. Het heet ook een <strong>stroomdiagram</strong>, en het dient om de oplossing <strong>visueel voor te stellen</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vorm in een flowchart</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>afgeronde rechthoek</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het begin of het einde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>parallellogram</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">invoer of uitvoer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>rechthoek</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bewerking of een instructie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>ruit</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een keuze: ja of nee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>pijl</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de volgorde waarin je gaat</td></tr></table>",
+     "onderschrift": "Volgens de vakfiche vertaal je je algoritme daarna in <strong>Scratch</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Computationeel denken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vakfiche noemt <strong>vier</strong> principes van computationeel denken: <strong>abstractie</strong>, <strong>decompositie</strong>, <strong>patroonherkenning</strong> en <strong>het algoritme</strong> zelf. De eerste drie helpen je een <strong>efficiënt</strong> algoritme te schrijven."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">principe</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>abstractie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>details weglaten</strong> die er niet toe doen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">leg je de weg naar school uit, dan laat je de <strong>kleur van de huizen</strong> weg</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>decompositie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een probleem in <strong>kleinere delen opsplitsen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij een spel apart werken aan de beweging, de punten en het geluid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>patroonherkenning</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>gelijkenissen</strong> tussen problemen zien</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een spel met tien niveaus die sterk op elkaar lijken</td></tr></table>",
+     "onderschrift": "Abstractie betekent dus juist <strong>minder</strong> details, niet meer. Decompositie maakt een groot probleem overzichtelijker, en patroonherkenning laat je een oplossing <strong>hergebruiken</strong> die je al kent."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je gebruikt <strong>decompositie</strong> als een probleem <strong>te groot is voor één keer</strong>, als verschillende delen <strong>los van elkaar</strong> werken, en als je <strong>met meerdere mensen samen</strong> werkt."
+    }
+   ]
+  },
+  {
+   "kop": "Fouten zoeken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>bug</strong> is een <strong>fout in een programma</strong>. Het opsporen en oplossen van zo'n fout heet <strong>debuggen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Moet een programma een vierkant tekenen maar maakt het er maar drie zijden van, dan <strong>debug</strong> je het algoritme: je zoekt de stap die ontbreekt of fout staat."
+    },
+    {
+     "soort": "kader",
+     "html": "Een fout vind je <strong>niet</strong> alleen door naar de code te kijken. Vaak zie je ze pas door het algoritme <strong>uit te voeren</strong> en te vergelijken met wat je verwachtte. Daarom is testen een eigen stap."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Efficiënt</strong> betekent <strong>niet</strong> dat een algoritme zoveel mogelijk stappen heeft, maar net zo weinig mogelijk. Een <strong>korter</strong> algoritme met dezelfde uitkomst is meestal beter, omdat er <strong>minder fouten in kunnen sluipen</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een algoritme is een stappenplan met instructies in een vaste volgorde.",
+  "Niet-digitaal: een recept, een stappenplan. Digitaal: de code van een spel, een programma.",
+  "Een flowchart of stroomdiagram stelt de oplossing visueel voor, met pijlen tussen de stappen.",
+  "Ontwerpen: probleemstelling formuleren, analyseren met IPO, schrijven, testen en bijsturen.",
+  "IPO = input, process, output: wat gaat erin en wat moet eruit komen?",
+  "Je vertaalt je algoritme volgens de fiche in Scratch.",
+  "Vier principes: abstractie, decompositie, patroonherkenning en het algoritme.",
+  "Abstractie = details weglaten. Decompositie = opsplitsen. Patroonherkenning = gelijkenissen zien.",
+  "Een bug is een fout in een programma; die opsporen en oplossen heet debuggen.",
+  "Efficiënt is zo weinig mogelijk stappen: in een korter algoritme sluipen minder fouten."
+ ]
+}

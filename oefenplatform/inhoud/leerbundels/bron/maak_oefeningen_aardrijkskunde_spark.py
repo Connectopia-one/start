@@ -473,10 +473,10 @@ OEFENBUNDELS["oefenbundel-het-weer-en-zijn-uitschieters-spark"] = dict(
              opdracht="Vul het toestel en de eenheid in.",
              oefeningen=[
                  ("tabel", ["wat je meet", "waarmee", "in welke eenheid"],
-                  [["de temperatuur", "", ""],
-                   ["de luchtdruk", "", ""],
-                   ["de neerslag", "", ""],
-                   ["de windsnelheid", "", ""]],
+                  [["de temperatuur", None, None],
+                   ["de luchtdruk", None, None],
+                   ["de neerslag", None, None],
+                   ["de windsnelheid", None, None]],
                   "temperatuur: een thermometer, in graden Celsius. Luchtdruk: een barometer, in hectopascal. "
                   "Neerslag: een regenmeter, in millimeter. Windsnelheid: een anemometer, in kilometer per uur "
                   "of in Beaufort."),
@@ -779,8 +779,8 @@ OEFENBUNDELS["oefenbundel-onderzoeken-met-kaartlagen-spark"] = dict(
              opdracht="Zet de vier stappen van een geografisch onderzoek in de juiste volgorde.",
              oefeningen=[
                  ("tabel", ["volgorde", "de stap"],
-                  [["1", ""], ["2", ""], ["3", ""], ["4", ""]],
-                  "1. de vraag stellen, 2. lagen kiezen, 3. analyseren, 4. besluiten."),
+                  [["1", None], ["2", None], ["3", None], ["4", None]],
+                  "1. de vraag stellen, 2. lagen kiezen, 3. analyseren, 4. besluiten.", "250px"),
                  ("kort", "Hoe heet een verwacht antwoord dat je vooraf opschrijft en daarna nakijkt?",
                   "een hypothese", WW),
                  ("kort", "Hoe heet het gebied dat je in je onderzoek bekijkt?", "het onderzoeksgebied", WL),

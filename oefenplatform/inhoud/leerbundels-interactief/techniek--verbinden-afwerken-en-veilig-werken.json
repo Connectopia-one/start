@@ -1,0 +1,100 @@
+{
+ "vak": "Techniek",
+ "titel": "Verbinden, afwerken en veilig werken",
+ "onder": "Losse en vaste verbindingen, de afwerkingstechnieken, het gereedschap en de regels die je in de werkplaats volgt.",
+ "secties": [
+  {
+   "kop": "Verbindingen die los kunnen en verbindingen die dat niet kunnen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">verbinding</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">los te maken?</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>boutverbinding</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>bout</strong> door de stukken, met een <strong>moer</strong> erop</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja, zonder iets kapot te maken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>schroef</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee planken aan elkaar zonder lijm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja, je draait ze er weer uit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>klittenband</strong> of velcro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee haakjesbanden die aan elkaar blijven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja, telkens opnieuw</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>ritssluiting</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee tandenrijen die in elkaar haken; ook dat is een verbinding</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja, telkens opnieuw</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>magneet</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee delen die elkaar aantrekken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>lasverbinding</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee metalen delen samengesmolten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>lijmverbinding</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee delen aan elkaar geplakt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee, niet zonder schade</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>soldeerverbinding</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee draden verbonden met gesmolten <strong>tin</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td></tr></table>",
+     "onderschrift": "Een <strong>nagel</strong> gebruik je als het voorgoed vast mag; een <strong>schroef</strong> als je het later nog uit elkaar wil halen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij hout kent de fiche nog twee eigen verbindingen. Een <strong>verstekverbinding</strong>: twee stukken die <strong>schuin afgezaagd</strong> tegen elkaar komen, zoals in de hoek van een kader. En een <strong>deuvelverbinding</strong>: twee stukken hout die met <strong>houten pinnetjes</strong> vastzitten."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>scharnier</strong> dient om een deel te laten <strong>draaien</strong>, en een <strong>profiel</strong> verbindt delen en maakt het geheel <strong>stijver</strong>. Een schroef, een bout, een nagel en een deuvel heten samen <strong>verbindingsproducten</strong>: het aparte stukje dat de verbinding maakt."
+    },
+    {
+     "soort": "kader",
+     "html": "Welke <strong>lijm</strong> je kiest, hangt af van drie dingen: welke materialen je aan elkaar lijmt, of de verbinding <strong>nat</strong> kan worden, en hoeveel tijd je nog hebt om te schikken. Dat laatste is de <strong>verwerkingstijd</strong>: hoe lang je de stukken nog kunt verschuiven voor de lijm pakt."
+    }
+   ]
+  },
+  {
+   "kop": "Afwerken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Schuren</strong> maakt hout <strong>glad</strong> voor je het schildert. Daarna komt de afwerking: <strong>lakken</strong>, <strong>vernissen</strong>, <strong>oliën</strong>, schilderen of <strong>beitsen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Hout wordt gevernist of gelakt <strong>om het te beschermen tegen vocht en slijtage</strong>. <strong>Beitsen</strong> doet iets anders: het <strong>kleurt het hout</strong> en trekt erin, zodat je de <strong>nerf nog ziet</strong>. Het legt dus géén dekkende laag over het hout — dat doet verf."
+    }
+   ]
+  },
+  {
+   "kop": "Gereedschap en machines",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Handgereedschap</strong> bedien je met je eigen kracht: een hamer, een schroevendraaier, een verfborstel. Een <strong>machine</strong> werkt met een <strong>motor of een aandrijving</strong>. Een gat in hout maak je met een <strong>boormachine</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Gereedschap moet <strong>onderhouden</strong> worden, want dan blijft het <strong>veilig en nauwkeurig</strong> werken. Een botte zaag glijdt weg, een losse steel vliegt eraf."
+    }
+   ]
+  },
+  {
+   "kop": "Persoonlijke beschermingsmiddelen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>PBM</strong> staat voor <strong>persoonlijke beschermingsmiddelen</strong>: gehoorbescherming, veiligheidsschoenen, een mondmasker, een veiligheidsbril, handschoenen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">pictogram</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het verplicht</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wanneer</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>oorbeschermer</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gehoorbescherming verplicht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in een lawaaierige werkplaats</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>bril</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">veiligheidsbril verplicht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij het boren in steen, bij het zagen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>schoen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">veiligheidsschoenen verplicht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waar iets zwaars kan vallen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>masker</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mondmasker verplicht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij stof of damp</td></tr></table>",
+     "onderschrift": "Een blauw rond pictogram betekent altijd: dit is <strong>verplicht</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Veilig werken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op een <strong>veiligheidsinstructiekaart</strong> staan de <strong>risico's van een machine en hoe je ze voorkomt</strong>. Voor je een machine voor het eerst gebruikt, lees je de <strong>handleiding</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">op de veiligheidsinstructiekaart van een figuurzaag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">draag <strong>oogbescherming</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er springen spaanders weg</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gebruik de <strong>stofafzuiging</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het zaagstof is schadelijk om in te ademen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">draag aangepaste <strong>gehoorbescherming</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de machine maakt aanhoudend lawaai</td></tr></table>",
+     "onderschrift": "Drie maatregelen die op die kaart staan."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarom</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gemorste producten <strong>meteen</strong> opkuisen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">anders glijdt er iemand uit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>stekker uittrekken</strong> voor je iets aan de machine doet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ze kan niet meer aanslaan terwijl je eraan zit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>lang haar samenbinden</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het kan <strong>meegetrokken</strong> worden door draaiende delen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>geen ringen of juwelen</strong> aan een zaagmachine</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ze kunnen blijven haken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>nooit</strong> met natte handen aan een elektrisch toestel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">water geleidt; het duurt geen seconde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een meetinstrument <strong>uitschakelen</strong> als je klaar bent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de batterij loopt anders leeg</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het <strong>meetbereik</strong> nooit overschrijden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ook niet even: je maakt het instrument stuk</td></tr></table>",
+     "onderschrift": "Het eerste wat je doet voor je aan een machine gaat sleutelen, is de <strong>stekker uittrekken</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Los te maken: bout en moer, schroef, klittenband, rits, magneet. Niet los: lassen, lijmen, solderen.",
+  "Verstek = schuin afgezaagd tegen elkaar. Deuvel = met houten pinnetjes.",
+  "Een scharnier laat draaien; een profiel verbindt en maakt stijver.",
+  "Lijm kiezen: welke materialen, of het nat kan worden, en de verwerkingstijd.",
+  "Schuren maakt glad. Lakken, vernissen en oliën beschermen tegen vocht en slijtage.",
+  "Beitsen kleurt het hout en laat de nerf zien; het legt geen dekkende laag.",
+  "Handgereedschap werkt op je eigen kracht, een machine op een motor of aandrijving.",
+  "PBM = persoonlijke beschermingsmiddelen: bril, gehoorbescherming, schoenen, mondmasker.",
+  "Op een veiligheidsinstructiekaart staan de risico's van een machine en hoe je ze voorkomt.",
+  "Eerst de stekker uit. Lang haar samenbinden, geen juwelen, nooit natte handen."
+ ]
+}

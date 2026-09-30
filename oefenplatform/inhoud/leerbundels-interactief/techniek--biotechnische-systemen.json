@@ -1,0 +1,87 @@
+{
+ "vak": "Techniek",
+ "titel": "Biotechnische systemen",
+ "onder": "Micro-organismen die voor ons werken, de bewaartechnieken, het etiket en de verpakking.",
+ "secties": [
+  {
+   "kop": "Micro-organismen aan het werk",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vakfiche noemt drie <strong>micro-organismen</strong>: <strong>bacteriën</strong>, <strong>schimmels</strong> en <strong>gisten</strong>. In een biotechnisch systeem laten we ze <strong>voor ons werken</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat er gebeurt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wie het doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">brooddeeg <strong>rijst</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>gist</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">melk wordt <strong>yoghurt</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>bacteriën</strong> zetten de melksuiker om</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">melk wordt <strong>kaas</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ook daar komen micro-organismen aan te pas</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kool wordt <strong>zuurkool</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>bacteriën fermenteren</strong> de kool</td></tr></table>",
+     "onderschrift": "<strong>Fermenteren</strong> is meteen ook een bewaartechniek: de micro-organismen doen het werk en maken het product tegelijk langer houdbaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "Over onze voeding waakt het <strong>FAVV</strong>, het <strong>Federaal Agentschap voor de veiligheid van de voedselketen</strong>. Zijn taak is <strong>waken over de veiligheid van ons voedsel</strong>, en het controleert daarvoor winkels, restaurants en voedingsbedrijven."
+    }
+   ]
+  },
+  {
+   "kop": "Bewaartechnieken",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">techniek</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">hoe het werkt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>koelen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de groei van bacteriën <strong>vertraagt</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>invriezen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de groei ligt zo goed als <strong>stil</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>drogen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zonder water kunnen bacteriën niet groeien</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>pekelen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bewaren in een <strong>zoute oplossing</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>roken</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vlees</strong> of vis boven rook hangen: de rook <strong>remt bacteriën</strong> en geeft smaak</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vacuüm verpakken</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de lucht wordt er juist <strong>uit</strong> gehaald</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wecken</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voedsel wordt in een <strong>gesloten pot verhit</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>fermenteren</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">micro-organismen doen het werk</td></tr></table>",
+     "onderschrift": "<strong>Koelen en invriezen zijn niet hetzelfde</strong>: koelen remt, invriezen legt stil. Geen van beide <em>doodt</em> de bacteriën, dus ontdooid voedsel bederft weer gewoon."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">bewaren met warmte</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>pasteuriseren</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kort verhitten tot onder het kookpunt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>steriliseren</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">langer en heter verhitten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>UHT</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de melk is <strong>heel kort heel sterk verhit</strong></td></tr></table>",
+     "onderschrift": "Drie technieken met warmte. UHT-melk blijft daardoor maanden goed zonder koelkast, tot je ze opent."
+    }
+   ]
+  },
+  {
+   "kop": "Het etiket",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op het etiket van een voedingsmiddel moeten staan: de <strong>ingrediëntenlijst</strong> (de lijst die alle bestanddelen opsomt), de <strong>allergenen</strong> en de <strong>houdbaarheidsdatum</strong>. De <strong>voedingswaarde</strong> staat erop zodat je weet <strong>hoeveel energie en stoffen erin zitten</strong>. Een <strong>allergeen</strong> is een stof waar sommige mensen op reageren."
+    },
+    {
+     "soort": "kader",
+     "html": "Twee datums die niet hetzelfde betekenen. <strong>Ten minste houdbaar tot</strong>: daarna kan de <strong>kwaliteit</strong> minder worden — het mag nog gegeten worden. <strong>Te gebruiken tot</strong>: na die datum kan het product <strong>onveilig</strong> zijn. Het eerste gaat over smaak, het tweede over gezondheid."
+    }
+   ]
+  },
+  {
+   "kop": "De verpakking",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een verpakking doet drie dingen: het product <strong>beschermen bij het vervoer</strong>, het <strong>langer houdbaar</strong> maken, en <strong>informatie doorgeven aan de klant</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Rode wijn zit in een <strong>donkere fles</strong> om een <strong>reactie met licht</strong> tegen te gaan. Een <strong>plastic</strong> fles <strong>weegt minder</strong> dan een glazen, dus het vervoer kost minder; het nadeel is dat ze <strong>meer afval in het milieu</strong> geeft."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">pictogram</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>pijlen die een driehoek vormen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de verpakking is <strong>recycleerbaar</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>cijfer van 1 tot 7</strong> in het midden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">om welke <strong>soort kunststof</strong> het gaat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>glas en een vork</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het materiaal is <strong>veilig voor voedsel</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het <strong>Groenpuntlogo</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het bedrijf betaalt mee voor de inzameling en verwerking — <em>niet</em> dat de verpakking van gerecycleerd materiaal is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>doorstreepte vuilnisbak</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">juist <strong>niet</strong> bij het huisvuil: apart inleveren</td></tr></table>",
+     "onderschrift": "Twee van deze vijf worden vaak verkeerd begrepen: het Groenpuntlogo en de doorstreepte vuilnisbak."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Composteerbaar</strong> betekent dat de verpakking kan <strong>vergaan tot compost</strong>. Een verpakking met <strong>statiegeld</strong> breng je terug naar de winkel. En duurzaam omgaan met voedsel en verpakkingen doe je door <strong>te kopen wat je echt nodig hebt</strong>, <strong>herbruikbare verpakkingen</strong> te gebruiken en je <strong>afval goed te sorteren</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Micro-organismen: bacteriën, schimmels en gisten. Gist doet deeg rijzen, bacteriën maken yoghurt.",
+  "Fermenteren laat micro-organismen het werk doen: zuurkool, yoghurt, kaas.",
+  "Het FAVV waakt over de veiligheid van ons voedsel en controleert winkels, restaurants en bedrijven.",
+  "Koelen remt, invriezen legt stil. Geen van beide doodt de bacteriën.",
+  "Met warmte: pasteuriseren, steriliseren en UHT (heel kort heel sterk verhit).",
+  "Drogen, pekelen, roken, vacuüm verpakken en wecken zijn de andere technieken.",
+  "Op het etiket: ingrediëntenlijst, allergenen, houdbaarheidsdatum en voedingswaarde.",
+  "Ten minste houdbaar tot = kwaliteit. Te gebruiken tot = veiligheid.",
+  "Een verpakking beschermt, verlengt de houdbaarheid en geeft informatie.",
+  "Driehoek van pijlen = recycleerbaar. Glas en vork = veilig voor voedsel. Doorstreepte bak = niet bij het huisvuil."
+ ]
+}

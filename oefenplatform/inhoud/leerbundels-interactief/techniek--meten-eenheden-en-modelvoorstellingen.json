@@ -1,0 +1,95 @@
+{
+ "vak": "Techniek",
+ "titel": "Meten, eenheden en modelvoorstellingen",
+ "onder": "De meetinstrumenten, de grootheden en hun eenheden, de formules, en de tekeningen die een technicus maakt.",
+ "secties": [
+  {
+   "kop": "Meetinstrumenten",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je meet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarmee</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een hoeveelheid vloeistof</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>maatbeker</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de dikte van een plaatje, nauwkeurig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>schuifmaat</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de massa</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>weegschaal</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de temperatuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>thermometer</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spanning, stroom en weerstand</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>multimeter</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een lengte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>meetlat</strong> of een <strong>rolmeter</strong></td></tr></table>",
+     "onderschrift": "Een <strong>stappenplan</strong> is geen meetinstrument: het zegt in welke volgorde je werkt."
+    }
+   ]
+  },
+  {
+   "kop": "Grootheden, symbolen en eenheden",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">grootheid</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">symbool</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">SI-eenheid</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lengte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">l</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>meter</strong> (m)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">massa</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>m</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>kilogram</strong> (kg)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oppervlakte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>A</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vierkante meter (m²)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">omtrek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>P</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de meter (m)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">volume</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>V</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kubieke meter (m³)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kracht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">F</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>newton</strong> (N)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">t</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de seconde (s)</td></tr></table>",
+     "onderschrift": "Dit is bijlage 1 van de vakfiche. Het symbool van de massa is m, en dat van de oppervlakte A."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorvoegsel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">betekent</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>kilo</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">duizend keer groter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 kilometer = <strong>1000</strong> meter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>hecto</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>honderd</strong> keer groter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 hectometer = 100 meter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>deca</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tien keer groter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 decameter = 10 meter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>deci</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tien keer <strong>kleiner</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 decimeter = 0,1 meter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>centi</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">honderd keer <strong>kleiner</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 centimeter = <strong>10</strong> millimeter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>milli</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">duizend keer <strong>kleiner</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 millimeter = 0,001 meter</td></tr></table>",
+     "onderschrift": "Hecto betekent dus <strong>honderd</strong> en niet duizend. Kleiner maken doen deci, centi en milli."
+    },
+    {
+     "soort": "weetje",
+     "html": "Eén <strong>kubieke decimeter</strong> is precies <strong>1 liter</strong>. Een kubus van 10 op 10 op 10 centimeter houdt dus een literfles vol water."
+    }
+   ]
+  },
+  {
+   "kop": "Formules",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je berekent</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">formule</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>oppervlakte van een rechthoek</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>b · h</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>omtrek van een vierkant</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>4 · z</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de oppervlakte van een vierkant</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">z · z</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de omtrek van een cirkel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2 · π · r</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het <strong>volume van een balk</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>lengte · breedte · hoogte</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het volume van een bol</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4/3 · π · r³</td></tr></table>",
+     "onderschrift": "Dit is bijlage 2 van de vakfiche: de formules die je op het examen mag gebruiken. Je hoeft ze dus niet uit het hoofd te kennen, wel te kunnen kiezen."
+    }
+   ]
+  },
+  {
+   "kop": "De functiedriehoek",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>functiedriehoek</strong> is een schema met vier dingen erin: de <strong>functie</strong> (waarvoor dient het?), het <strong>materiaal</strong> (waarvan is het gemaakt?), de <strong>bewerking</strong> (hoe is het gemaakt?) en de <strong>vorm</strong> (hoe ziet het eruit?)."
+    },
+    {
+     "soort": "kader",
+     "html": "Een functiedriehoek is dus <strong>geen</strong> tekening van een voorwerp in drie aanzichten. Het is een schema waarmee je een voorwerp <em>beschrijft</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Tekeningen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort tekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>conceptschets</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een eerste <strong>ruwe</strong> tekening van een idee — nog niet het definitieve ontwerp</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>detailontwerp</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een tekening van <strong>één onderdeel</strong>, groter getekend</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>werktekening</strong> of technische tekening</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de tekening waarmee gewerkt wordt; twee namen voor hetzelfde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>ontvouwing</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het <strong>platte patroon</strong> dat je dichtvouwt tot het voorwerp</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>isometrisch perspectief</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een tekening waarin je het voorwerp <strong>ruimtelijk</strong> ziet</td></tr></table>",
+     "onderschrift": "Een technicus maakt eerst een schets, om te zien of het idee klopt voor er materiaal verloren gaat."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 218\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"40,70 136,70 136,116 40,116\" fill=\"#dfe7d5\" stroke=\"#234539\" stroke-width=\"1.5\"/><polygon points=\"40,70 66,44 162,44 136,70\" fill=\"#cfd6c6\" stroke=\"#234539\" stroke-width=\"1.5\"/><polygon points=\"136,70 162,44 162,90 136,116\" fill=\"#b9c8a8\" stroke=\"#234539\" stroke-width=\"1.5\"/><text x=\"88.0\" y=\"138.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">het voorwerp</text><text x=\"88.0\" y=\"150.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">isometrisch getekend</text><rect x=\"232\" y=\"16\" width=\"96\" height=\"46\" fill=\"#f2f5f0\" stroke=\"#234539\" stroke-width=\"1.5\"/><text x=\"344.0\" y=\"37.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#23291f\">vooraanzicht</text><text x=\"344.0\" y=\"49.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#6b7260\">wat je ziet als je er recht voor staat</text><rect x=\"232\" y=\"82\" width=\"96\" height=\"26\" fill=\"#f2f5f0\" stroke=\"#234539\" stroke-width=\"1.5\"/><text x=\"344.0\" y=\"93.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#23291f\">bovenaanzicht</text><text x=\"344.0\" y=\"105.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#6b7260\">wat je ziet als je erop neerkijkt</text><rect x=\"232\" y=\"148\" width=\"26\" height=\"46\" fill=\"#f2f5f0\" stroke=\"#234539\" stroke-width=\"1.5\"/><text x=\"344.0\" y=\"169.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" font-weight=\"600\" fill=\"#23291f\">zijaanzicht</text><text x=\"344.0\" y=\"181.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#6b7260\">wat je ziet als je opzij gaat staan</text><text x=\"235.0\" y=\"212.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">Een aanzicht is altijd plat: je tekent geen diepte, alleen wat je vanuit die ene kant ziet.</text></svg>",
+     "onderschrift": "Hier staan er drie getekend. De vakfiche noemt er <strong>vier</strong>: het <strong>vooraanzicht</strong>, het <strong>bovenaanzicht</strong>, het <strong>zijaanzicht</strong> en het <strong>onderaanzicht</strong>. Dat laatste is wat je zou zien als je er van onderen naar kijkt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op een <strong>werktekening</strong> vind je de <strong>maten van elk deel</strong>, de <strong>aanzichten</strong> van het voorwerp en de <strong>schaal</strong> waarop getekend is. Die maten staan meestal in <strong>millimeter</strong>. Toont een tekening het voorwerp van voren, van boven en van opzij, dan is dat een werktekening met drie aanzichten."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">schaal</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>1:1</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de tekening is <strong>even groot</strong> als het voorwerp</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>1:2</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de tekening is <strong>half zo groot</strong> als het voorwerp</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>2:1</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de tekening is <strong>twee keer zo groot</strong> als het voorwerp</td></tr></table>",
+     "onderschrift": "De verhouding tussen de tekening en het echte voorwerp heet de <strong>schaal</strong>. Het eerste getal is de tekening, het tweede het voorwerp."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Maatbeker voor vloeistof, schuifmaat voor een kleine dikte, weegschaal, thermometer, multimeter.",
+  "Symbolen: m voor massa, A voor oppervlakte, P voor omtrek, V voor volume, F voor kracht.",
+  "SI-eenheden: meter, kilogram, newton. 1 km = 1000 m; 1 cm = 10 mm; 1 dm³ = 1 liter.",
+  "Kilo duizend, hecto honderd, deca tien. Deci, centi en milli maken kleiner.",
+  "Oppervlakte rechthoek = b · h. Omtrek vierkant = 4 · z. Volume balk = l · b · h.",
+  "De functiedriehoek bevat functie, materiaal, bewerking en vorm; het is geen tekening.",
+  "Conceptschets = eerste ruwe idee. Detailontwerp = één onderdeel, groter. Werktekening = technische tekening.",
+  "Een ontvouwing is het platte patroon; isometrisch perspectief toont het voorwerp ruimtelijk.",
+  "Vier aanzichten: voor, boven, zij en onder. Op een werktekening staan maten, aanzichten en schaal.",
+  "1:1 even groot, 1:2 half zo groot, 2:1 dubbel zo groot."
+ ]
+}

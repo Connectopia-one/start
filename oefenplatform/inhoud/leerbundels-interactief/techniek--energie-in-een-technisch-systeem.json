@@ -1,0 +1,75 @@
+{
+ "vak": "Techniek",
+ "titel": "Energie in een technisch systeem",
+ "onder": "De energievormen, wat een omzetting met energie doet, en het verschil tussen fossiel en hernieuwbaar.",
+ "secties": [
+  {
+   "kop": "De energievormen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">energievorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waar je ze vindt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>bewegingsenergie</strong> of kinetische energie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een fietser die snel rijdt, een draaiend wiel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>potentiële energie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een steen boven op een kast, water achter een stuwdam</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>chemische energie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een batterij, steenkool, aardgas, voedsel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>stralingsenergie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het licht van de zon op een zonnepaneel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>warmte</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een waterkoker, een verwarming</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>elektrische energie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de stroom uit het stopcontact</td></tr></table>",
+     "onderschrift": "Bewegingsenergie en kinetische energie zijn twee namen voor hetzelfde."
+    }
+   ]
+  },
+  {
+   "kop": "Energieomzettingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een technisch systeem <strong>zet energie om</strong> van de ene vorm in de andere. Het kan energie nooit <strong>uit het niets maken</strong>: wat eruit komt, moet er eerst in."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">systeem</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">van</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">naar</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>gloeilamp</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elektrische energie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">licht <em>en</em> warmte</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>windmolen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bewegingsenergie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elektrische energie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>zonnepaneel</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stralingsenergie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elektrische energie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>waterkrachtcentrale</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de beweging van water</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elektrische energie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>verbrandingsmotor</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">chemische energie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beweging <em>en</em> warmte</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>elektrische motor</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elektrische energie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beweging</td></tr></table>",
+     "onderschrift": "Let op de laatste rij: een elektrische motor zet elektrische energie om in beweging, en niet omgekeerd. Wat beweging in elektriciteit omzet, is een generator."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij elke omzetting komt er ook energie vrij die je <strong>niet kunt gebruiken</strong>. Dat is de <strong>niet-nuttige energie</strong>. Bij een gloeilamp is de <strong>warmte</strong> de niet-nuttige energie en het licht de nuttige; bij een leeslamp is het licht dus wél de nuttige. Bij een boormachine is de <strong>bewegingsenergie van de boor</strong> de nuttige energie, bij een waterkoker de warmte. Er komt bij die waterkoker ook wat geluid vrij, en dat is niet-nuttig."
+    },
+    {
+     "soort": "weetje",
+     "html": "Daarom wordt je gsm warm terwijl hij oplaadt: een deel van de energie wordt <strong>warmte</strong> in plaats van lading. Geen enkel toestel zet alles nuttig om."
+    }
+   ]
+  },
+  {
+   "kop": "Fossiel of hernieuwbaar",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Fossiele brandstoffen</strong> zijn <strong>steenkool</strong>, <strong>aardolie</strong> en <strong>aardgas</strong>. Ze zijn miljoenen jaren oud en komen uit de grond. Ze ontstaan dus <strong>niet</strong> op een paar jaar tijd, en daarom raken ze op."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Hernieuwbare energie</strong> betekent dat de <strong>bron niet opraakt</strong>. De fiche noemt <strong>de zon</strong>, <strong>de wind</strong>, <strong>het water</strong> en <strong>aardwarmte</strong>, de warmte uit de diepe ondergrond. Je noemt ze ook <strong>duurzame</strong> energie, omdat de bron ook voor de volgende generaties blijft bestaan. Wind raakt dus niet op, hoeveel stroom je er ook mee maakt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Verbrand je fossiele brandstoffen, dan komt er <strong>CO2</strong> vrij, en dat is een <strong>broeikasgas</strong>. Dat is de reden waarom het verbranden ervan voor klimaatverandering zorgt. Bij het opwekken van stroom met een windmolen komt er geen CO2 vrij, want er wordt niets verbrand."
+    },
+    {
+     "soort": "kader",
+     "html": "Het <strong>broeikaseffect</strong> bestond al lang voor de mens fossiele brandstoffen begon te gebruiken. Zonder dat effect zou het hier veel te koud zijn. Het probleem is dat wij er gassen bij doen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wind en zon hebben één duidelijk nadeel: ze <strong>leveren niet altijd evenveel</strong>. Op een windstille avond draait geen molen. Wat je zelf kan doen om minder fossiele brandstof te gebruiken: met de fiets gaan in plaats van met de auto, de verwarming een graad lager zetten, en het licht uitdoen als je een kamer verlaat."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Energievormen: beweging (kinetisch), potentieel, chemisch, straling, warmte, elektrisch.",
+  "Een technisch systeem zet energie om; het kan er nooit uit het niets bij maken.",
+  "Gloeilamp: elektrisch → licht en warmte. Windmolen: beweging → elektrisch. Zonnepaneel: straling → elektrisch.",
+  "Een elektrische motor zet elektriciteit om in beweging; een generator doet het omgekeerde.",
+  "Niet-nuttige energie is wat vrijkomt maar je niet kan gebruiken, zoals de warmte van een gloeilamp.",
+  "Fossiel: steenkool, aardolie, aardgas. Ze raken op en geven CO2 bij verbranding.",
+  "Hernieuwbaar: zon, wind, water en aardwarmte. De bron raakt niet op.",
+  "CO2 is een broeikasgas. Het broeikaseffect bestond al voor de mens.",
+  "Nadeel van wind en zon: ze leveren niet altijd evenveel."
+ ]
+}

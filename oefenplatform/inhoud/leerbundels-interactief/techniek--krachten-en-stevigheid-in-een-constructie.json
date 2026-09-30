@@ -1,0 +1,99 @@
+{
+ "vak": "Techniek",
+ "titel": "Krachten en stevigheid in een constructie",
+ "onder": "De vier krachten, de materiaalkeuze die erbij hoort, en wat een constructie stabiel, sterk en stijf maakt.",
+ "secties": [
+  {
+   "kop": "De vier krachten",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 168\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"28.75\" y=\"46\" width=\"60\" height=\"20\" fill=\"#cfd6c6\" stroke=\"#234539\" stroke-width=\"1.4\"/><path d=\"M 6.75 56 L 24.75 56\" stroke=\"#a2521f\" stroke-width=\"2.2\"/><path d=\"M 24.75 51 l 8 5 l -8 5 Z\" fill=\"#a2521f\"/><path d=\"M 110.75 56 L 92.75 56\" stroke=\"#a2521f\" stroke-width=\"2.2\"/><path d=\"M 92.75 51 l -8 5 l 8 5 Z\" fill=\"#a2521f\"/><text x=\"58.8\" y=\"112.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">druk</text><text x=\"58.8\" y=\"128.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">van twee kanten</text><text x=\"58.8\" y=\"139.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">samengeduwd</text><rect x=\"146.25\" y=\"46\" width=\"60\" height=\"20\" fill=\"#cfd6c6\" stroke=\"#234539\" stroke-width=\"1.4\"/><path d=\"M 142.25 56 L 124.25 56\" stroke=\"#a2521f\" stroke-width=\"2.2\"/><path d=\"M 124.25 51 l -8 5 l 8 5 Z\" fill=\"#a2521f\"/><path d=\"M 210.25 56 L 228.25 56\" stroke=\"#a2521f\" stroke-width=\"2.2\"/><path d=\"M 228.25 51 l 8 5 l -8 5 Z\" fill=\"#a2521f\"/><text x=\"176.2\" y=\"112.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">trek</text><text x=\"176.2\" y=\"128.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">van twee kanten</text><text x=\"176.2\" y=\"139.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">uit elkaar</text><text x=\"176.2\" y=\"150.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">getrokken</text><rect x=\"253.75\" y=\"47\" width=\"80\" height=\"18\" fill=\"#cfd6c6\" stroke=\"#234539\" stroke-width=\"1.4\"/><path d=\"M 247.75 40 a 16 16 0 0 1 0 32\" fill=\"none\" stroke=\"#a2521f\" stroke-width=\"2\"/><path d=\"M 247.75 66 l -4 8 l 9 -2 Z\" fill=\"#a2521f\"/><path d=\"M 339.75 72 a 16 16 0 0 1 0 -32\" fill=\"none\" stroke=\"#a2521f\" stroke-width=\"2\"/><path d=\"M 339.75 46 l 4 -8 l -9 2 Z\" fill=\"#a2521f\"/><text x=\"293.8\" y=\"112.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">torsie</text><text x=\"293.8\" y=\"128.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">gewrongen om zijn</text><text x=\"293.8\" y=\"139.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">as</text><path d=\"M 371.25 48 Q 411.25 78 451.25 48 L 451.25 60 Q 411.25 90 371.25 60 Z\" fill=\"#cfd6c6\" stroke=\"#234539\" stroke-width=\"1.4\"/><path d=\"M 411.25 26 L 411.25 54\" stroke=\"#a2521f\" stroke-width=\"2\"/><path d=\"M 406.25 48 L 411.25 58 L 416.25 48 Z\" fill=\"#a2521f\"/><text x=\"411.2\" y=\"112.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">buiging</text><text x=\"411.2\" y=\"128.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">doorgebogen in het</text><text x=\"411.2\" y=\"139.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">midden</text></svg>",
+     "onderschrift": "De vier krachten die de fiche noemt. Van elke constructie moet je kunnen zeggen welke kracht er werkt."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">situatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">welke kracht</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de ophangkabels van een brug</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>trekkracht</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de pilaren van een brug</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>drukkracht</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">boeken op een tafelblad</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>drukkracht</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een touw waaraan je trekt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>trekkracht</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een schroef vastdraaien met een schroevendraaier</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>torsiekracht</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een plank op twee steunen met iets zwaars in het midden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>buigkracht</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kraanarm die een last optilt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>buigkracht</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de twee kettingen van een schommel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>trekkracht</strong></td></tr></table>",
+     "onderschrift": "Torsie is <strong>verdraaien</strong>, niet samendrukken. Samendrukken is druk."
+    },
+    {
+     "soort": "tekst",
+     "html": "Krijgt een materiaal <strong>meer trekkracht dan het aankan</strong>, dan <strong>scheurt of breekt</strong> het."
+    }
+   ]
+  },
+  {
+   "kop": "Het juiste materiaal kiezen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Beton</strong> kan veel <strong>drukkracht</strong> verdragen maar weinig <strong>trekkracht</strong>. Dat is meteen de reden waarom er staal in gewapend beton zit."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarvoor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">welk materiaal</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kabel die veel trekkracht moet verdragen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>staal</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een zuil die veel gewicht moet dragen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>beton</strong>, <strong>staal</strong> of <strong>steen</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een onderdeel dat veel trekkracht moet opvangen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">géén <strong>glas</strong>: glas is broos</td></tr></table>",
+     "onderschrift": "Waar je op let bij het kiezen: de trekkracht die het materiaal moet opvangen, de drukkracht die het moet opvangen, en hoe zwaar het materiaal zélf is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat laatste verklaart waarom een <strong>fietsframe</strong> uit <strong>buizen</strong> gemaakt is en niet uit massieve staven: buizen zijn <strong>licht en toch sterk genoeg</strong>. Het materiaal in het midden van een staaf draagt toch bijna niets mee."
+    }
+   ]
+  },
+  {
+   "kop": "Stabiliteit, sterkte en stijfheid",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">woord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>stabiliteit</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de constructie blijft staan en valt niet om</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>sterkte</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ze kan veel kracht verdragen zonder te breken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>stijfheid</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ze vervormt bijna niet onder belasting</td></tr></table>",
+     "onderschrift": "Drie verschillende dingen. Een constructie kan <strong>sterk</strong> zijn en toch <strong>omvallen</strong>, en stijfheid en sterkte betekenen dus niet hetzelfde."
+    },
+    {
+     "soort": "tekst",
+     "html": "Stabieler maak je een constructie met een <strong>brede voet</strong>, een <strong>laag zwaartepunt</strong> en <strong>schuine balken tussen de hoeken</strong>. Een <strong>hoog</strong> zwaartepunt maakt haar juist minder stabiel. Daarom hebben hoge gebouwen een brede en zware voet."
+    }
+   ]
+  },
+  {
+   "kop": "Vormen die stevig maken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>driehoek</strong> is de vorm die in een constructie het best zijn vorm houdt. Als de verbindingen vastzitten, <strong>vervormt hij niet</strong>. Je vindt hem in de <strong>gebinten van een dak</strong> en in de <strong>armen van een kraan</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>rechthoek</strong> van vier losse balken kan juist makkelijk <strong>scheeftrekken</strong>. Daarom zetten bouwers er <strong>schuine balken</strong> in: zo ontstaan er driehoeken en vervormt het frame niet. Wiebelt een boekenrek heen en weer, dan helpt een <strong>schuine lat achteraan tussen twee hoeken</strong> het best."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>boog</strong> <strong>leidt het gewicht naar de zijkanten weg</strong>. Ze zit in oude bruggen en in poorten, en ze kan een grote opening overspannen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Gewapend beton</strong> is beton met <strong>staven staal</strong> erin. Het staal vangt de <strong>trekkracht</strong> op die beton niet aankan, dus gewapend beton verdraagt meer trekkracht dan gewoon beton."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een <strong>golfplaat</strong> is steviger dan een vlakke plaat van dezelfde dikte, omdat de <strong>plooien de plaat stijver maken</strong>. Vouw een blad papier tot een harmonica en leg het over twee boeken: het draagt ineens wel iets."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>zuil</strong> vangt vooral een <strong>drukkracht</strong> op, en geen trekkracht: het gewicht duwt er van boven op."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Vier krachten: druk (samenduwen), trek (uit elkaar trekken), torsie (verdraaien), buiging (doorbuigen).",
+  "Ophangkabels: trek. Pilaren en zuilen: druk. Schroevendraaier: torsie. Kraanarm en plank: buiging.",
+  "Beton verdraagt veel druk maar weinig trek. Staal is goed voor trek. Glas is broos.",
+  "Een fietsframe is van buizen: licht en toch sterk genoeg.",
+  "Stabiliteit = niet omvallen, sterkte = niet breken, stijfheid = niet vervormen. Drie verschillende dingen.",
+  "Stabieler: brede voet, laag zwaartepunt, schuine balken. Een hoog zwaartepunt maakt onstabiel.",
+  "De driehoek vervormt niet; de rechthoek trekt scheef tot je er een schuine balk in zet.",
+  "De boog leidt het gewicht naar de zijkanten weg en overspant een grote opening.",
+  "Gewapend beton = beton met staal erin; het staal vangt de trekkracht op.",
+  "Een golfplaat is stijver dan een vlakke plaat: de plooien doen het werk."
+ ]
+}

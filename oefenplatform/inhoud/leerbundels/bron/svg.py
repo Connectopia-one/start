@@ -4869,3 +4869,305 @@ def transect(breedte=470):
     d.append(_tekst(458, basis + 44, "hoog, droog", 9, DIM, "end"))
     d.append(_tekst(breedte / 2, basis + 44, "je tekent wat je ziet, van links naar rechts", 9, DIM))
     return _svg(breedte, h, "".join(d))
+
+
+def schemasymbolen(breedte=470):
+    """De symbolen van een elektrisch schema, met hun naam eronder."""
+    h = 200
+    namen = [
+        ("spanningsbron", "batterij"),
+        ("lamp", "lampje"),
+        ("schakelaar", "open of dicht"),
+        ("weerstand", "remt de stroom"),
+        ("zoemer", "maakt geluid"),
+        ("LED", "één richting"),
+        ("motor", "draait"),
+        ("meter", "meet"),
+    ]
+    kol, rij = 4, 2
+    bv, bh = breedte / kol, 92
+    d = []
+    for i, (naam, onder) in enumerate(namen):
+        cx = (i % kol) * bv + bv / 2
+        cy = (i // kol) * bh + 34
+        d.append(f'<line x1="{cx-30}" y1="{cy}" x2="{cx-16}" y2="{cy}" stroke="{DARK}" stroke-width="1.6"/>')
+        d.append(f'<line x1="{cx+16}" y1="{cy}" x2="{cx+30}" y2="{cy}" stroke="{DARK}" stroke-width="1.6"/>')
+        if naam == "spanningsbron":
+            for dx, hh, dik in [(-7, 18, 2.2), (1, 9, 4.2), (9, 18, 2.2)]:
+                d.append(f'<line x1="{cx+dx}" y1="{cy-hh/2}" x2="{cx+dx}" y2="{cy+hh/2}" stroke="{DARK}" stroke-width="{dik}"/>')
+            d.append(f'<line x1="{cx-16}" y1="{cy}" x2="{cx-9}" y2="{cy}" stroke="{DARK}" stroke-width="1.6"/>')
+            d.append(f'<line x1="{cx+11}" y1="{cy}" x2="{cx+16}" y2="{cy}" stroke="{DARK}" stroke-width="1.6"/>')
+        elif naam == "lamp":
+            d.append(f'<circle cx="{cx}" cy="{cy}" r="12" fill="none" stroke="{DARK}" stroke-width="1.6"/>')
+            d.append(f'<path d="M{cx-8.5} {cy-8.5} l17 17 M{cx+8.5} {cy-8.5} l-17 17" stroke="{DARK}" stroke-width="1.5"/>')
+        elif naam == "schakelaar":
+            d.append(f'<circle cx="{cx-14}" cy="{cy}" r="2.4" fill="{DARK}"/>')
+            d.append(f'<circle cx="{cx+14}" cy="{cy}" r="2.4" fill="{DARK}"/>')
+            d.append(f'<line x1="{cx-14}" y1="{cy}" x2="{cx+11}" y2="{cy-13}" stroke="{DARK}" stroke-width="1.8"/>')
+        elif naam == "weerstand":
+            d.append(f'<rect x="{cx-16}" y="{cy-7}" width="32" height="14" fill="none" stroke="{DARK}" stroke-width="1.6"/>')
+        elif naam == "zoemer":
+            d.append(f'<path d="M{cx-14} {cy+8} L{cx-14} {cy-8} A 14 14 0 0 1 {cx+14} {cy-8} L{cx+14} {cy+8} Z" '
+                     f'fill="none" stroke="{DARK}" stroke-width="1.6"/>')
+        elif naam == "LED":
+            d.append(f'<polygon points="{cx-10},{cy-10} {cx-10},{cy+10} {cx+8},{cy}" fill="none" stroke="{DARK}" stroke-width="1.6"/>')
+            d.append(f'<line x1="{cx+8}" y1="{cy-10}" x2="{cx+8}" y2="{cy+10}" stroke="{DARK}" stroke-width="1.8"/>')
+            for dx, dy in ((2, -14), (9, -12)):
+                d.append(f'<path d="M{cx+dx} {cy+dy} l7 -7 l-2.5 0 m2.5 0 l0 2.5" fill="none" stroke="{AMBER}" stroke-width="1.3"/>')
+        elif naam == "motor":
+            d.append(f'<circle cx="{cx}" cy="{cy}" r="12" fill="none" stroke="{DARK}" stroke-width="1.6"/>')
+            d.append(_tekst(cx, cy + 4, "M", 12, DARK, vet=True))
+        else:
+            d.append(f'<circle cx="{cx}" cy="{cy}" r="12" fill="none" stroke="{DARK}" stroke-width="1.6"/>')
+            d.append(_tekst(cx, cy + 4, "A", 11, DARK, vet=True))
+        d.append(_tekst(cx, cy + 32, naam, 9.5, INK, vet=True))
+        d.append(_tekst(cx, cy + 44, onder, 8.5, DIM))
+    d.append(_tekst(breedte / 2, h - 6, "In een schema teken je het symbool, nooit een afbeelding van het onderdeel zelf.", 9, DIM))
+    return _svg(breedte, h, "".join(d))
+
+
+def poorten(breedte=470):
+    """De EN-, OF- en NIET-poort, elk met haar waarheidstabel eronder."""
+    h = 236
+    vak = breedte / 3
+    soorten = [
+        ("EN", "alleen 1 als ALLE ingangen 1 zijn", [(0, 0, 0), (0, 1, 0), (1, 0, 0), (1, 1, 1)], 2),
+        ("OF", "al 1 zodra ÉÉN ingang 1 is", [(0, 0, 0), (0, 1, 1), (1, 0, 1), (1, 1, 1)], 2),
+        ("NIET", "draait de ingang om", [(0, 1), (1, 0)], 1),
+    ]
+    d = []
+    for i, (naam, uitleg, tabel_, ingangen) in enumerate(soorten):
+        x = i * vak + vak / 2
+        cy = 46
+        # De poort zelf, als eenvoudige doos met haar naam erin.
+        d.append(f'<rect x="{x-30}" y="{cy-22}" width="60" height="44" rx="5" fill="#f2f5f0" stroke="{DARK}" stroke-width="1.6"/>')
+        d.append(_tekst(x, cy + 5, naam, 14, FOREST, vet=True))
+        if ingangen == 2:
+            d.append(f'<line x1="{x-52}" y1="{cy-10}" x2="{x-30}" y2="{cy-10}" stroke="{DARK}" stroke-width="1.5"/>')
+            d.append(f'<line x1="{x-52}" y1="{cy+10}" x2="{x-30}" y2="{cy+10}" stroke="{DARK}" stroke-width="1.5"/>')
+            d.append(_tekst(x - 56, cy - 6, "A", 9, DIM, "end"))
+            d.append(_tekst(x - 56, cy + 14, "B", 9, DIM, "end"))
+        else:
+            d.append(f'<line x1="{x-52}" y1="{cy}" x2="{x-30}" y2="{cy}" stroke="{DARK}" stroke-width="1.5"/>')
+            d.append(_tekst(x - 56, cy + 4, "A", 9, DIM, "end"))
+        d.append(f'<line x1="{x+30}" y1="{cy}" x2="{x+50}" y2="{cy}" stroke="{DARK}" stroke-width="1.5"/>')
+        d.append(_tekst(x + 54, cy + 4, "U", 9, DIM, "start"))
+        d.append(_tekst(x, 96, uitleg, 8.5, DIM))
+        # De waarheidstabel eronder.
+        kop = ["A", "B", "U"] if ingangen == 2 else ["A", "U"]
+        cel = 30
+        bb = cel * len(kop)
+        tx = x - bb / 2
+        ty = 110
+        for j, k in enumerate(kop):
+            d.append(f'<rect x="{tx+j*cel}" y="{ty}" width="{cel}" height="20" fill="{FOREST}"/>')
+            d.append(_tekst(tx + j * cel + cel / 2, ty + 14, k, 9.5, "#ffffff", vet=True))
+        for r, regel in enumerate(tabel_):
+            for j, w in enumerate(regel):
+                vy = ty + 20 + r * 20
+                vul = "#ffffff" if r % 2 == 0 else "#f6f8f5"
+                d.append(f'<rect x="{tx+j*cel}" y="{vy}" width="{cel}" height="20" fill="{vul}" stroke="{BORDER}" stroke-width="0.8"/>')
+                laatste = j == len(regel) - 1
+                d.append(_tekst(tx + j * cel + cel / 2, vy + 14, str(w), 9.5,
+                                AMBER if laatste and w == 1 else INK, vet=laatste))
+    d.append(_tekst(breedte / 2, h - 6, "1 is aan of waar, 0 is uit of niet waar. De kolom U is de uitgang.", 9, DIM))
+    return _svg(breedte, h, "".join(d))
+
+
+def ipo(breedte=470):
+    """Het IPO-model: invoer, verwerking, uitvoer, met een voorbeeld eronder."""
+    h = 176
+    vakb, tussen = 124, 42
+    start = (breedte - 3 * vakb - 2 * tussen) / 2
+    stukken = [
+        ("invoer", "de sensor meet iets", "een temperatuursensor", "#e8eef4"),
+        ("verwerking", "de sturing beslist", "de regelaar vergelijkt met 20 °C", "#eef1e9"),
+        ("uitvoer", "de actuator doet iets", "de ketel slaat aan", "#f6ecdc"),
+    ]
+    d = []
+    for i, (naam, wat, vb, kleur) in enumerate(stukken):
+        x = start + i * (vakb + tussen)
+        d.append(f'<rect x="{x:.1f}" y="18" width="{vakb}" height="76" rx="6" fill="{kleur}" stroke="{DARK}" stroke-width="1.4"/>')
+        mid = x + vakb / 2
+        d.append(_tekst(mid, 44, naam, 12, INK, vet=True))
+        d.append(_tekst(mid, 62, wat, 8.5, DIM))
+        for j, regel in enumerate(_regels(vb, 22)):
+            d.append(_tekst(mid, 112 + j * 12, regel, 8.5, INK))
+        if i < 2:
+            px = x + vakb + 6
+            d.append(f'<line x1="{px}" y1="56" x2="{px+tussen-12}" y2="56" stroke="{AMBER}" stroke-width="2.2"/>')
+            d.append(f'<path d="M{px+tussen-18} 50 l8 6 l-8 6 Z" fill="{AMBER}"/>')
+    d.append(_tekst(breedte / 2, h - 6, "Een sensor meet, een actuator doet. Daartussen zit de verwerking.", 9, DIM))
+    return _svg(breedte, h, "".join(d))
+
+
+def _regels(tekst, breed):
+    """Breek een zin af in regels van hoogstens `breed` tekens."""
+    uit, regel = [], ""
+    for woord in tekst.split():
+        if len(regel) + len(woord) + 1 > breed:
+            uit.append(regel)
+            regel = woord
+        else:
+            regel = (regel + " " + woord).strip()
+    uit.append(regel)
+    return uit
+
+
+def technischproces(breedte=470):
+    """De vijf fasen van het technisch proces, met de terugkeer naar fase 2 of 3."""
+    h = 200
+    fasen = [
+        ("1", "probleemstelling", "wat heeft de gebruiker nodig? criteria vastleggen"),
+        ("2", "ontwerpen", "schets, materiaal, gereedschap, verbindingen"),
+        ("3", "maken", "volgens het stappenplan, en veilig"),
+        ("4", "in gebruik nemen", "gebruiken en testen"),
+        ("5", "evalueren", "voldoet het aan de criteria?"),
+    ]
+    vak = (breedte - 8) / 5
+    d = []
+    for i, (nr, naam, wat) in enumerate(fasen):
+        x = 4 + i * vak
+        d.append(f'<rect x="{x+3:.1f}" y="14" width="{vak-6:.1f}" height="104" rx="6" fill="#f2f5f0" '
+                 f'stroke="{FOREST}" stroke-width="1.4"/>')
+        mid = x + vak / 2
+        d.append(f'<circle cx="{mid:.1f}" cy="32" r="11" fill="{FOREST}"/>')
+        d.append(_tekst(mid, 36, nr, 11, "#ffffff", vet=True))
+        for j, r in enumerate(_regels(naam, 12)):
+            d.append(_tekst(mid, 58 + j * 11, r, 8.5, INK, vet=True))
+        for j, r in enumerate(_regels(wat, 17)):
+            d.append(_tekst(mid, 82 + j * 10, r, 7.5, DIM))
+        if i < 4:
+            px = x + vak - 2
+            d.append(f'<path d="M{px-3} 58 l9 8 l-9 8 Z" fill="{AMBER}"/>')
+    # De terugkeerpijl: bij een fout ga je naar fase 2 of 3, niet naar fase 1.
+    x2 = 4 + 1.5 * vak
+    x3 = 4 + 2.5 * vak
+    x5 = 4 + 4.5 * vak
+    d.append(f'<path d="M{x5:.1f} 122 L{x5:.1f} 150 L{x2:.1f} 150 L{x2:.1f} 126" fill="none" '
+             f'stroke="{ROOD}" stroke-width="1.6" stroke-dasharray="5 4"/>')
+    d.append(f'<path d="M{x2-5:.1f} 132 L{x2:.1f} 120 L{x2+5:.1f} 132 Z" fill="{ROOD}"/>')
+    d.append(f'<path d="M{x3:.1f} 150 L{x3:.1f} 126" fill="none" stroke="{ROOD}" stroke-width="1.6" stroke-dasharray="5 4"/>')
+    d.append(f'<path d="M{x3-5:.1f} 132 L{x3:.1f} 120 L{x3+5:.1f} 132 Z" fill="{ROOD}"/>')
+    d.append(_tekst(breedte / 2, 166, "Voldoet het niet aan de criteria, dan keer je terug naar fase 2 of fase 3.", 9.5, ROOD))
+    d.append(_tekst(breedte / 2, 182, "Niet naar fase 1: het probleem en de criteria staan al vast.", 9.5, DIM))
+    return _svg(breedte, h, "".join(d))
+
+
+def overbrengingen(breedte=470):
+    """Vier overbrengingen naast elkaar: tandwielen, ketting, riem en wrijvingswielen."""
+    import math
+    h = 220
+    vak = breedte / 2
+    d = []
+
+    def tandwiel(cx, cy, r, tanden, kleur="#cfd6c6"):
+        uit = [f'<circle cx="{cx}" cy="{cy}" r="{r}" fill="{kleur}" stroke="{DARK}" stroke-width="1.4"/>']
+        for k in range(tanden):
+            a = 2 * math.pi * k / tanden
+            uit.append(f'<line x1="{cx+math.cos(a)*r:.1f}" y1="{cy+math.sin(a)*r:.1f}" '
+                       f'x2="{cx+math.cos(a)*(r+4):.1f}" y2="{cy+math.sin(a)*(r+4):.1f}" '
+                       f'stroke="{DARK}" stroke-width="2.4"/>')
+        uit.append(f'<circle cx="{cx}" cy="{cy}" r="3" fill="{DARK}"/>')
+        return "".join(uit)
+
+    # 1. Twee tandwielen die in elkaar grijpen: rechtstreeks, en ze draaien tegengesteld.
+    d.append(tandwiel(66, 54, 24, 12))
+    d.append(tandwiel(122, 54, 24, 12))
+    d.append(_tekst(94, 96, "tandwielen", 10, INK, vet=True))
+    d.append(_tekst(94, 108, "rechtstreeks, tegengestelde zin", 8, DIM))
+    d.append(f'<path d="M 50 34 a 22 22 0 0 1 20 -8" fill="none" stroke="{AMBER}" stroke-width="1.6"/>')
+    d.append(f'<path d="M 70 26 l -7 -1 l 4 6 Z" fill="{AMBER}"/>')
+    d.append(f'<path d="M 138 34 a 22 22 0 0 0 -20 -8" fill="none" stroke="{AMBER}" stroke-width="1.6"/>')
+    d.append(f'<path d="M 118 26 l 7 -1 l -4 6 Z" fill="{AMBER}"/>')
+    # 2. Ketting over twee tandwielen: onrechtstreeks, zelfde zin.
+    d.append(tandwiel(300, 54, 22, 11))
+    d.append(tandwiel(392, 54, 14, 8))
+    d.append(f'<path d="M 300 32 L 392 40 M 300 76 L 392 68" stroke="{DARK}" stroke-width="2.6"/>')
+    d.append(_tekst(346, 96, "ketting over twee tandwielen", 10, INK, vet=True))
+    d.append(_tekst(346, 108, "onrechtstreeks, zelfde zin, slipt niet", 8, DIM))
+    # 3. Riem: onrechtstreeks, en gekruist draait de volger om.
+    for cx, r in ((66, 22), (150, 14)):
+        d.append(f'<circle cx="{cx}" cy="158" r="{r}" fill="#dfe7d5" stroke="{DARK}" stroke-width="1.4"/>')
+        d.append(f'<circle cx="{cx}" cy="158" r="3" fill="{DARK}"/>')
+    d.append(f'<path d="M 66 136 L 150 144 M 66 180 L 150 172" stroke="{AMBER}" stroke-width="2.2"/>')
+    d.append(_tekst(108, 198, "riemoverbrenging", 10, INK, vet=True))
+    d.append(_tekst(108, 210, "riem, niet gekruist: zelfde zin", 8, DIM))
+    # 4. Wrijvingswielen: ze raken elkaar en kunnen slippen.
+    d.append(f'<circle cx="318" cy="158" r="21" fill="#e4dccd" stroke="{DARK}" stroke-width="1.4"/>')
+    d.append(f'<circle cx="366" cy="158" r="27" fill="#e4dccd" stroke="{DARK}" stroke-width="1.4"/>')
+    d.append(f'<circle cx="318" cy="158" r="3" fill="{DARK}"/>')
+    d.append(f'<circle cx="366" cy="158" r="3" fill="{DARK}"/>')
+    d.append(_tekst(346, 198, "wrijvingswielen", 10, INK, vet=True))
+    d.append(_tekst(346, 210, "raken elkaar, kunnen slippen", 8, DIM))
+    return _svg(breedte, h, "".join(d))
+
+
+def krachtsoorten(breedte=470):
+    """De vier krachten op een constructie: druk, trek, torsie en buiging."""
+    h = 168
+    vak = breedte / 4
+    soorten = [
+        ("druk", "van twee kanten samengeduwd"),
+        ("trek", "van twee kanten uit elkaar getrokken"),
+        ("torsie", "gewrongen om zijn as"),
+        ("buiging", "doorgebogen in het midden"),
+    ]
+    d = []
+    for i, (naam, wat) in enumerate(soorten):
+        x0 = i * vak
+        mid = x0 + vak / 2
+        cy = 56
+        if naam == "buiging":
+            d.append(f'<path d="M {mid-40} {cy-8} Q {mid} {cy+22} {mid+40} {cy-8} L {mid+40} {cy+4} '
+                     f'Q {mid} {cy+34} {mid-40} {cy+4} Z" fill="#cfd6c6" stroke="{DARK}" stroke-width="1.4"/>')
+            d.append(f'<path d="M {mid} {cy-30} L {mid} {cy-2}" stroke="{ROOD}" stroke-width="2"/>')
+            d.append(f'<path d="M {mid-5} {cy-8} L {mid} {cy+2} L {mid+5} {cy-8} Z" fill="{ROOD}"/>')
+        elif naam == "torsie":
+            d.append(f'<rect x="{mid-40}" y="{cy-9}" width="80" height="18" fill="#cfd6c6" stroke="{DARK}" stroke-width="1.4"/>')
+            d.append(f'<path d="M {mid-46} {cy-16} a 16 16 0 0 1 0 32" fill="none" stroke="{ROOD}" stroke-width="2"/>')
+            d.append(f'<path d="M {mid-46} {cy+10} l -4 8 l 9 -2 Z" fill="{ROOD}"/>')
+            d.append(f'<path d="M {mid+46} {cy+16} a 16 16 0 0 1 0 -32" fill="none" stroke="{ROOD}" stroke-width="2"/>')
+            d.append(f'<path d="M {mid+46} {cy-10} l 4 -8 l -9 2 Z" fill="{ROOD}"/>')
+        else:
+            d.append(f'<rect x="{mid-30}" y="{cy-10}" width="60" height="20" fill="#cfd6c6" stroke="{DARK}" stroke-width="1.4"/>')
+            if naam == "druk":
+                d.append(f'<path d="M {mid-52} {cy} L {mid-34} {cy}" stroke="{ROOD}" stroke-width="2.2"/>')
+                d.append(f'<path d="M {mid-34} {cy-5} l 8 5 l -8 5 Z" fill="{ROOD}"/>')
+                d.append(f'<path d="M {mid+52} {cy} L {mid+34} {cy}" stroke="{ROOD}" stroke-width="2.2"/>')
+                d.append(f'<path d="M {mid+34} {cy-5} l -8 5 l 8 5 Z" fill="{ROOD}"/>')
+            else:
+                d.append(f'<path d="M {mid-34} {cy} L {mid-52} {cy}" stroke="{ROOD}" stroke-width="2.2"/>')
+                d.append(f'<path d="M {mid-52} {cy-5} l -8 5 l 8 5 Z" fill="{ROOD}"/>')
+                d.append(f'<path d="M {mid+34} {cy} L {mid+52} {cy}" stroke="{ROOD}" stroke-width="2.2"/>')
+                d.append(f'<path d="M {mid+52} {cy-5} l 8 5 l -8 5 Z" fill="{ROOD}"/>')
+        d.append(_tekst(mid, 112, naam, 11, INK, vet=True))
+        for j, r in enumerate(_regels(wat, 18)):
+            d.append(_tekst(mid, 128 + j * 11, r, 8.5, DIM))
+    return _svg(breedte, h, "".join(d))
+
+
+def aanzichten(breedte=470):
+    """Een blokje in perspectief, met zijn drie aanzichten ernaast."""
+    h = 218
+    d = []
+    # Links het voorwerp schuin getekend: een liggend blok met een uitsparing.
+    ox, oy = 40, 70
+    b, hh, dp = 96, 46, 26
+    d.append(f'<polygon points="{ox},{oy} {ox+b},{oy} {ox+b},{oy+hh} {ox},{oy+hh}" fill="#dfe7d5" stroke="{DARK}" stroke-width="1.5"/>')
+    d.append(f'<polygon points="{ox},{oy} {ox+dp},{oy-dp} {ox+b+dp},{oy-dp} {ox+b},{oy}" fill="#cfd6c6" stroke="{DARK}" stroke-width="1.5"/>')
+    d.append(f'<polygon points="{ox+b},{oy} {ox+b+dp},{oy-dp} {ox+b+dp},{oy+hh-dp} {ox+b},{oy+hh}" fill="#b9c8a8" stroke="{DARK}" stroke-width="1.5"/>')
+    d.append(_tekst(ox + b / 2, oy + hh + 22, "het voorwerp", 10, INK, vet=True))
+    d.append(_tekst(ox + b / 2, oy + hh + 34, "isometrisch getekend", 8.5, DIM))
+    # Rechts de drie aanzichten, elk in zijn eigen kadertje.
+    vakken = [("vooraanzicht", "wat je ziet als je er recht voor staat", 96, 46),
+              ("bovenaanzicht", "wat je ziet als je erop neerkijkt", 96, 26),
+              ("zijaanzicht", "wat je ziet als je opzij gaat staan", 26, 46)]
+    x = 232
+    for i, (naam, wat, bb, hhh) in enumerate(vakken):
+        y = 16 + i * 66
+        d.append(f'<rect x="{x}" y="{y}" width="{bb}" height="{hhh}" fill="#f2f5f0" stroke="{DARK}" stroke-width="1.5"/>')
+        d.append(_tekst(x + 112, y + hhh / 2 - 2, naam, 9.5, INK, "start", vet=True))
+        d.append(_tekst(x + 112, y + hhh / 2 + 10, wat, 8, DIM, "start"))
+    d.append(_tekst(breedte / 2, h - 6, "Een aanzicht is altijd plat: je tekent geen diepte, alleen wat je vanuit die ene kant ziet.", 9, DIM))
+    return _svg(breedte, h, "".join(d))
