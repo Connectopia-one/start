@@ -3,7 +3,10 @@
 import { useState, type FormEvent } from "react";
 import { useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
-import { LEERJAARNIVEAUS as NIVEAUS } from "@/lib/niveaus";
+/* De onderwijsdoelen staan per knop van de startpagina (start, spark, boost,
+   beyond), niet per categorie: bij Boost horen de doelen van doorstroom en
+   dubbele finaliteit onder hetzelfde kopje. */
+import { STARTKNOPPEN as NIVEAUS } from "@/lib/niveaus";
 import { doelenBlokken } from "@/inhoud/onderwijsdoelen";
 import { maakDoelUploadUrl, registreerDoelbestand } from "./actions";
 
@@ -48,19 +51,34 @@ export function NieuwDoelbestandForm() {
         const { error: uploadError } = await supabase.storage
           .from("materiaal")
           .uploadToSignedUrl(path, token, bestand);
-        if (uploadError) throw new Error("Uploaden mislukt: " + uploadError.message);
+        if (uploadError)
+          throw new Error("Uploaden mislukt: " + uploadError.message);
 
         await registreerDoelbestand({
-          niveau, vak, titel, type: "pdf", bestandspad: path, geldigSinds, omschrijving,
+          niveau,
+          vak,
+          titel,
+          type: "pdf",
+          bestandspad: path,
+          geldigSinds,
+          omschrijving,
         });
       } else {
         const link = String(data.get("link") || "").trim();
         if (!link) throw new Error("Vul een link in.");
         if (!/^https?:\/\//i.test(link)) {
-          throw new Error("Een link begint met https:// — plak het volledige adres uit je browser.");
+          throw new Error(
+            "Een link begint met https:// — plak het volledige adres uit je browser.",
+          );
         }
         await registreerDoelbestand({
-          niveau, vak, titel, type: "link", link, geldigSinds, omschrijving,
+          niveau,
+          vak,
+          titel,
+          type: "link",
+          link,
+          geldigSinds,
+          omschrijving,
         });
       }
 
@@ -76,7 +94,11 @@ export function NieuwDoelbestandForm() {
 
   return (
     <form onSubmit={onSubmit} className="mt-4 space-y-4">
-      {fout && <p className="rounded-md bg-danger/10 px-3 py-2 text-sm text-danger">{fout}</p>}
+      {fout && (
+        <p className="rounded-md bg-danger/10 px-3 py-2 text-sm text-danger">
+          {fout}
+        </p>
+      )}
 
       <div className="space-y-1.5">
         <label htmlFor="niveau" className="text-sm font-medium text-ink">
@@ -98,7 +120,8 @@ export function NieuwDoelbestandForm() {
 
       <div className="space-y-1.5">
         <label htmlFor="vak" className="text-sm font-medium text-ink">
-          Bij welk vak? <span className="font-normal text-ink-dim">(mag je leeg laten)</span>
+          Bij welk vak?{" "}
+          <span className="font-normal text-ink-dim">(mag je leeg laten)</span>
         </label>
         <input id="vak" name="vak" list="doelen-vakken" className={veld} />
         <datalist id="doelen-vakken">
@@ -107,8 +130,8 @@ export function NieuwDoelbestandForm() {
           ))}
         </datalist>
         <p className="text-xs text-ink-dim">
-          Laat je dit leeg, dan staat het document bovenaan bij het niveau zelf, en niet bij één
-          bepaald vak.
+          Laat je dit leeg, dan staat het document bovenaan bij het niveau zelf,
+          en niet bij één bepaald vak.
         </p>
       </div>
 
@@ -169,13 +192,20 @@ export function NieuwDoelbestandForm() {
           <label htmlFor="link" className="text-sm font-medium text-ink">
             Link
           </label>
-          <input id="link" name="link" type="url" placeholder="https://..." className={veld} />
+          <input
+            id="link"
+            name="link"
+            type="url"
+            placeholder="https://..."
+            className={veld}
+          />
         </div>
       )}
 
       <div className="space-y-1.5">
         <label htmlFor="geldigSinds" className="text-sm font-medium text-ink">
-          Geldig sinds <span className="font-normal text-ink-dim">(mag je leeg laten)</span>
+          Geldig sinds{" "}
+          <span className="font-normal text-ink-dim">(mag je leeg laten)</span>
         </label>
         <input
           id="geldigSinds"
@@ -184,16 +214,22 @@ export function NieuwDoelbestandForm() {
           className={veld}
         />
         <p className="text-xs text-ink-dim">
-          Komt op de pagina bij het document te staan, zodat een ouder ziet van wanneer deze
-          versie is.
+          Komt op de pagina bij het document te staan, zodat een ouder ziet van
+          wanneer deze versie is.
         </p>
       </div>
 
       <div className="space-y-1.5">
         <label htmlFor="omschrijving" className="text-sm font-medium text-ink">
-          Omschrijving <span className="font-normal text-ink-dim">(mag je leeg laten)</span>
+          Omschrijving{" "}
+          <span className="font-normal text-ink-dim">(mag je leeg laten)</span>
         </label>
-        <textarea id="omschrijving" name="omschrijving" rows={2} className={veld} />
+        <textarea
+          id="omschrijving"
+          name="omschrijving"
+          rows={2}
+          className={veld}
+        />
       </div>
 
       <button

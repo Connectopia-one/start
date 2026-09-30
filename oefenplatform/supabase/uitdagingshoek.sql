@@ -18,7 +18,8 @@
 
 alter table public.hoofdstukken drop constraint if exists hoofdstukken_niveau_check;
 alter table public.hoofdstukken add constraint hoofdstukken_niveau_check
-  check (niveau in ('basis', 'start', 'spark', 'boost', 'beyond', 'hoekje'));
+  check (niveau in ('basis', 'start', 'spark', 'boost-doorstroom',
+                    'boost-dubbele-finaliteit', 'beyond', 'hoekje'));
 
 -- De vier vakken van het hoekje. Ze staan achteraan in de lijst (volgorde 90+),
 -- zodat ze de gewone vakken niet voor de voeten lopen. Alleen bij "De ruimte"

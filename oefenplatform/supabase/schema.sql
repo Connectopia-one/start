@@ -51,7 +51,8 @@ alter table public.vakken add column if not exists rekenmachine boolean not null
 -- niveau: gebaseerd op de vakfiches van het Belgisch onderwijs, maar bedoeld
 -- als KUNNEN-categorie, niet als vaste leeftijds-/leerjaarindeling:
 --   start = 5de/6de leerjaar, spark = 1ste/2de middelbaar,
---   boost = 3de/4de middelbaar, beyond = 5de/6de middelbaar,
+--   boost-doorstroom en boost-dubbele-finaliteit = 3de/4de middelbaar,
+--   beyond = 5de/6de middelbaar,
 --   basis = herhaling van de bouwstenen, voor elk niveau (zie basis.sql).
 create table if not exists public.hoofdstukken (
   id uuid primary key default gen_random_uuid(),
@@ -59,7 +60,9 @@ create table if not exists public.hoofdstukken (
   titel text not null,
   volgnummer int not null default 0,
   gratis boolean not null default false,
-  niveau text not null default 'start' check (niveau in ('basis', 'start', 'spark', 'boost', 'beyond')),
+  niveau text not null default 'start'
+    check (niveau in ('basis', 'start', 'spark', 'boost-doorstroom',
+                      'boost-dubbele-finaliteit', 'beyond', 'hoekje')),
   -- Begrijpend lezen: een tekst die boven de vragen blijft staan, met een
   -- verklarende woordenlijst [{"woord": ..., "uitleg": ...}]. Zie leestekst.sql.
   leestekst text,
@@ -76,7 +79,8 @@ begin
     select 1 from pg_constraint where conname = 'hoofdstukken_niveau_check'
   ) then
     alter table public.hoofdstukken add constraint hoofdstukken_niveau_check
-      check (niveau in ('basis', 'start', 'spark', 'boost', 'beyond'));
+      check (niveau in ('basis', 'start', 'spark', 'boost-doorstroom',
+                        'boost-dubbele-finaliteit', 'beyond', 'hoekje'));
   end if;
 end $$;
 
@@ -483,7 +487,7 @@ where v.slug = 'nederlands' and h.volgnummer = 1
 on conflict (hoofdstuk_id, volgnummer) do nothing;
 
 -- Wiskunde en Natuurwetenschappen — telkens één hoofdstuk per categorie
--- (start/spark/boost/beyond), zodat er een volledige testpagina is over alle
+-- (start/spark/boost-doorstroom/beyond), zodat er een volledige testpagina is over alle
 -- niveaus heen. Enkel het "start"-hoofdstuk is gratis, zoals bij Nederlands.
 
 insert into public.vakken (naam, slug, volgorde, rekenmachine)
@@ -514,7 +518,7 @@ insert into public.hoofdstukken (vak_id, titel, volgnummer, gratis, niveau)
 select id, 'Negatieve getallen en procenten', 2, false, 'spark' from public.vakken where slug = 'wiskunde'
 on conflict (vak_id, volgnummer) do nothing;
 insert into public.hoofdstukken (vak_id, titel, volgnummer, gratis, niveau)
-select id, 'Vergelijkingen en de stelling van Pythagoras', 3, false, 'boost' from public.vakken where slug = 'wiskunde'
+select id, 'Vergelijkingen en de stelling van Pythagoras', 3, false, 'boost-doorstroom' from public.vakken where slug = 'wiskunde'
 on conflict (vak_id, volgnummer) do nothing;
 insert into public.hoofdstukken (vak_id, titel, volgnummer, gratis, niveau)
 select id, 'Afgeleiden en goniometrie', 4, false, 'beyond' from public.vakken where slug = 'wiskunde'
@@ -527,7 +531,7 @@ insert into public.hoofdstukken (vak_id, titel, volgnummer, gratis, niveau)
 select id, 'Cellen en toestanden van materie', 2, false, 'spark' from public.vakken where slug = 'natuurwetenschappen'
 on conflict (vak_id, volgnummer) do nothing;
 insert into public.hoofdstukken (vak_id, titel, volgnummer, gratis, niveau)
-select id, 'Fotosynthese en atomen', 3, false, 'boost' from public.vakken where slug = 'natuurwetenschappen'
+select id, 'Fotosynthese en atomen', 3, false, 'boost-doorstroom' from public.vakken where slug = 'natuurwetenschappen'
 on conflict (vak_id, volgnummer) do nothing;
 insert into public.hoofdstukken (vak_id, titel, volgnummer, gratis, niveau)
 select id, 'Erfelijkheid en natuurkunde', 4, false, 'beyond' from public.vakken where slug = 'natuurwetenschappen'

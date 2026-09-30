@@ -8,7 +8,7 @@ import { Dagvraag } from "@/components/Dagvraag";
 import { Header } from "@/components/Header";
 import { getSessionProfile } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
-import { LEERJAARNIVEAUS, NIVEAUS, vindNiveau } from "@/lib/niveaus";
+import { NIVEAUS, STARTKNOPPEN, vindNiveau } from "@/lib/niveaus";
 import {
   startUitleg,
   basisUitleg,
@@ -132,7 +132,9 @@ export default async function HomePage() {
         </p>
 
         <div className="mt-8 grid gap-4 sm:grid-cols-2">
-          {LEERJAARNIVEAUS.filter((n) => gevuld.has(n.slug)).map((n) => (
+          {STARTKNOPPEN.filter((n) =>
+            n.categorieen.some((c) => gevuld.has(c)),
+          ).map((n) => (
             <Link
               key={n.slug}
               href={`/niveaus/${n.slug}`}

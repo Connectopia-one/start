@@ -16,4 +16,5 @@
 -- dan rijen die de nieuwe regel overtreden. Houd de twee lijsten dus gelijk.
 alter table public.hoofdstukken drop constraint if exists hoofdstukken_niveau_check;
 alter table public.hoofdstukken add constraint hoofdstukken_niveau_check
-  check (niveau in ('basis', 'start', 'spark', 'boost', 'beyond', 'hoekje'));
+  check (niveau in ('basis', 'start', 'spark', 'boost-doorstroom',
+                    'boost-dubbele-finaliteit', 'beyond', 'hoekje'));

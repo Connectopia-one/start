@@ -49,10 +49,16 @@ def niveau_van(b):
         return "spark"
     if "Basis" in voluit:
         return "basis"
+    # Boost splitst in twee categorieën; kijk dus naar de finaliteit en niet
+    # enkel naar het woord "Boost".
+    if "Boost" in voluit and "doorstroom" in voluit:
+        return "boost-doorstroom"
+    if "Boost" in voluit and "dubbele finaliteit" in voluit:
+        return "boost-dubbele-finaliteit"
     raise ValueError("onbekend niveau: " + voluit)
 
 
-NIVEAUS = ("start", "spark")
+NIVEAUS = ("start", "spark", "boost-doorstroom", "boost-dubbele-finaliteit")
 
 
 def blok_naar_data(b):

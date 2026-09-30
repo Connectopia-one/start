@@ -38,7 +38,17 @@ SOORTEN = [
 
 # De sleutel `niveau` is een hele zin ("✨ Spark — 1ste en 2de middelbaar").
 # Hieruit halen we het korte woord dat in de bestandsnaam van de zip komt.
-NIVEAUWOORDEN = ["basis", "start", "spark", "boost", "beyond"]
+# Het langste woord eerst: "boost doorstroom" mag niet als "boost" gelezen
+# worden. In de zipnaam komt het met koppeltekens, zoals de categorie heet in
+# lib/niveaus.ts.
+NIVEAUWOORDEN = [
+    ("boost doorstroom", "boost-doorstroom"),
+    ("boost dubbele finaliteit", "boost-dubbele-finaliteit"),
+    ("basis", "basis"),
+    ("start", "start"),
+    ("spark", "spark"),
+    ("beyond", "beyond"),
+]
 
 
 def slug(naam):
@@ -50,9 +60,9 @@ def niveau_van(bundeldict):
     """Het korte woord van de categorie. Staat er niets, dan is het 🌱 Start:
     dat is de standaard in bundel.py en oefenbundel.py."""
     tekst = bundeldict.get("niveau", "").lower()
-    for woord in NIVEAUWOORDEN:
+    for woord, kort in NIVEAUWOORDEN:
         if woord in tekst:
-            return woord
+            return kort
     return "start"
 
 
