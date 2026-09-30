@@ -10,26 +10,35 @@
 -- Op de startpagina blijft Boost wél één knop. De keuze tussen de twee komt
 -- een stap later, op /niveaus/boost.
 --
--- Dit bestand doet twee dingen:
---   1. hoofdstukken die nu nog op 'boost' staan verhuizen naar
---      'boost-doorstroom' (de vier voorbeeldhoofdstukken uit schema.sql
---      stonden daar; als je die al weggehaald hebt, verhuist er gewoon niets);
---   2. de databank de twee nieuwe categorieën laten toe, en 'boost' niet meer.
+-- Dit bestand doet drie dingen, in deze volgorde:
+--   1. de oude controle weghalen;
+--   2. hoofdstukken die nu nog op 'boost' staan verhuizen naar
+--      'boost-doorstroom' (de voorbeeldhoofdstukken uit schema.sql stonden
+--      daar; als je die al weggehaald hebt, verhuist er gewoon niets);
+--   3. de nieuwe controle zetten, die de twee nieuwe categorieën toelaat en
+--      'boost' niet meer.
+--
+-- Die volgorde is belangrijk. Verhuizen vóór het weghalen lukt niet: de oude
+-- controle kent 'boost-doorstroom' nog niet en weigert dan elke rij.
 --
 -- Voer het één keer uit in de SQL Editor van je Supabase-project van het
 -- oefenplatform. Een tweede keer draaien is ongevaarlijk.
 
--- 1. Eerst verhuizen, anders zou de nieuwe controle hieronder afketsen op een
---    hoofdstuk dat nog 'boost' draagt. Zo mislukt dit bestand liever luid dan
---    dat een hoofdstuk stil onvindbaar wordt.
+-- 1. De oude controle weg.
+alter table public.hoofdstukken drop constraint if exists hoofdstukken_niveau_check;
+
+-- 2. Nu pas verhuizen.
 update public.hoofdstukken set niveau = 'boost-doorstroom' where niveau = 'boost';
 
--- 2. De toegelaten categorieën. Deze lijst moet gelijk blijven met die in
+-- 3. De nieuwe controle. Deze lijst moet gelijk blijven met die in
 --    schema.sql, basis.sql en uitdagingshoek.sql.
-alter table public.hoofdstukken drop constraint if exists hoofdstukken_niveau_check;
 alter table public.hoofdstukken add constraint hoofdstukken_niveau_check
   check (niveau in ('basis', 'start', 'spark', 'boost-doorstroom',
                     'boost-dubbele-finaliteit', 'beyond', 'hoekje'));
+
+-- Blijft stap 3 haken, dan staat er nog een hoofdstuk met een categorie die
+-- niet in de lijst staat. Deze regel toont welke:
+--   select distinct niveau from public.hoofdstukken;
 
 -- De onderwijsdoelen op /onderwijsdoelen blijven wél per knop van de
 -- startpagina staan ('start', 'spark', 'boost', 'beyond'): bij Boost horen de

@@ -1,0 +1,3558 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Waar ligt het, en hoe weet je dat? — deel 1",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Een klasgenoot stuurt je vanuit een reis het bericht: 'Ik zit op 41° NB en 2° OL.' Wat heeft die daarmee gedaan?",
+          "opties": [
+            "De plaats absoluut gesitueerd, met geografische coördinaten",
+            "De plaats relatief gesitueerd, ten opzichte van een ander punt",
+            "De reisafstand beschreven vanaf het vertrekpunt van de reis",
+            "De ligging beschreven met een topografisch referentiepunt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Absoluut situeren is een plaats aanduiden met geografische coördinaten: één paar getallen dat maar naar één punt op aarde wijst. Relatief situeren doe je met woorden als 'ten noorden van' of 'aan de kust'."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom lees je bij coördinaten altijd eerst de breedte en dan pas de lengte?",
+          "opties": [
+            "Het is een internationale afspraak die iedereen volgt",
+            "De breedtecirkels zijn langer dan de meridianen",
+            "De breedte verandert sneller dan de lengte doet",
+            "De evenaar werd vroeger gemeten dan de nulmeridiaan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Breedte eerst, lengte daarna, is gewoon een afspraak. Zonder die afspraak zou 50° 4° zowel België als de Indische Oceaan kunnen aanwijzen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je zoekt op een wereldkaart de lijn waar de datum verspringt. Waar loopt die ongeveer?",
+          "opties": [
+            "Langs de 180ste meridiaan, door de Stille Oceaan",
+            "Langs de nulmeridiaan, door het westen van Europa",
+            "Langs de evenaar, dwars door de Atlantische Oceaan",
+            "Langs de Kreeftskeerkring, over Noord-Afrika heen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De datumlijn volgt ruwweg de meridiaan van 180°, precies tegenover de nulmeridiaan. Hij maakt bochten om eilandengroepen en landen niet in twee data te splitsen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraken over de meridianen kloppen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Ze lopen van de ene pool naar de andere pool",
+            "Ze geven de geografische lengte van een plaats aan",
+            "Ze komen samen in de noordpool en de zuidpool",
+            "Ze lopen evenwijdig met elkaar rond de aardbol",
+            "Ze zijn allemaal even lang als de evenaar zelf"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Meridianen zijn halve cirkels van pool tot pool en geven de lengte aan. Ze lopen dus niet evenwijdig maar komen in de polen samen. De breedtecirkels lopen wél evenwijdig, en alleen de evenaar is een volledige grote cirkel."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Twee plaatsen die op dezelfde meridiaan liggen, hebben op hetzelfde moment dezelfde zonnetijd.",
+          "antwoord": true,
+          "uitleg": "Op één meridiaan staat de zon overal tegelijk op haar hoogste punt. Daarom is de lengte de basis van de tijdzones, ook al volgen de officiële zones landsgrenzen in plaats van rechte lijnen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op welke breedte liggen de poolcirkels?",
+          "opties": [
+            "Op 66,5° noorder- en zuiderbreedte",
+            "Op 23,5° noorder- en zuiderbreedte",
+            "Op 45° noorder- en zuiderbreedte",
+            "Op 90° noorder- en zuiderbreedte"
+          ],
+          "antwoord": 0,
+          "uitleg": "De poolcirkels liggen op 66,5°, de keerkringen op 23,5°, en op 90° lig je op de pool zelf. Vanaf de poolcirkel komt de zon minstens één dag per jaar niet op of niet onder."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet de meridiaan van 0°, die door Greenwich bij Londen loopt?",
+          "antwoord": [
+            "nulmeridiaan",
+            "de nulmeridiaan",
+            "greenwichmeridiaan"
+          ],
+          "uitleg": "De nulmeridiaan is het vertrekpunt voor de lengte. Alles ten oosten ervan krijgt oosterlengte, alles ten westen ervan westerlengte."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand situeert Kinshasa zo: 'aan de Kongostroom, in Centraal-Afrika, net ten zuiden van de evenaar.' Wat is dat?",
+          "opties": [
+            "Relatief situeren ten opzichte van fysischgeografische elementen",
+            "Absoluut situeren met behulp van geografische coördinaten",
+            "Relatief situeren ten opzichte van sociaaleconomische elementen",
+            "Een mentale kaart beschrijven zoals die persoon hem ziet"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een rivier, een continent en de evenaar zijn fysischgeografische elementen. Had die persoon 'de hoofdstad van Congo, dicht bij Brazzaville' gezegd, dan was het relatief situeren ten opzichte van sociaaleconomische elementen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze elementen zijn sociaaleconomisch en niet fysischgeografisch? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "De taal die in een gebied gesproken wordt",
+            "Het aandeel mensen dat niet kan lezen",
+            "De reliëfeenheid waarin een plaats ligt",
+            "De oceaan waaraan een land grenst",
+            "De klimaatzone waarin een stad ligt"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Talen en analfabetisme gaan over mensen en samenleving, en zijn dus sociaaleconomisch. Reliëf, oceanen en klimaatzones horen bij de natuur en zijn fysischgeografisch."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Om de klimaatzone van een plaats te bepalen, heb je genoeg aan haar geografische lengte.",
+          "antwoord": false,
+          "uitleg": "De klimaatzone hangt vooral samen met de breedte, en daarnaast met hoogte, afstand tot de zee en zeestromen. De lengte zegt daar op zich niets over: Ierland en Labrador liggen ongeveer even ver van de evenaar en hebben toch een heel ander klimaat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je moet bepalen in welke vegetatiezone een plaats ligt. Welke bron gebruik je het best?",
+          "opties": [
+            "Een thematische kaart van de plantengroei in de atlas",
+            "Een politieke kaart met de landsgrenzen erop aangeduid",
+            "Een toeristische stadsplattegrond van de streek zelf",
+            "Een luchtfoto van één akker in dat gebied genomen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een vegetatiezone is een patroon dat over grote gebieden loopt, dus je hebt een thematische kaart nodig die dat patroon toont. Eén luchtfoto toont te weinig, een politieke kaart toont iets anders."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke rij zet de vegetatiezones goed op volgorde, van de evenaar naar de noordpool?",
+          "opties": [
+            "Tropisch regenwoud, savanne, woestijn, naaldwoud, toendra",
+            "Savanne, tropisch regenwoud, toendra, woestijn, naaldwoud",
+            "Woestijn, toendra, tropisch regenwoud, savanne, naaldwoud",
+            "Toendra, naaldwoud, woestijn, savanne, tropisch regenwoud"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vanaf de evenaar volgen het regenwoud, de savanne en dan de woestijngordel rond de keerkring. Verder noordelijk komen de gematigde bossen, de naaldwouden en ten slotte de toendra."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een reliëfeenheid is een gebied dat je aan zijn hoogte en vorm als één geheel kan herkennen.",
+          "antwoord": true,
+          "uitleg": "Een laagvlakte, een plateau, een heuvelland of een gebergte zijn reliëfeenheden. Je herkent ze aan het hoogteverloop, niet aan een landsgrens."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest in een verslag: 'De fabriek ligt op de Kempense laagvlakte.' Wat werd hier gebruikt om te situeren?",
+          "opties": [
+            "Een reliëfeenheid",
+            "Een klimaatzone",
+            "Een vegetatiezone",
+            "Een wereldblok"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een laagvlakte is een reliëfeenheid: ze is afgebakend door haar hoogte en vorm. Een klimaatzone gaat over weer, een vegetatiezone over plantengroei."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom vraagt de examencommissie om absoluut te situeren op 1° nauwkeurig en niet nauwkeuriger?",
+          "opties": [
+            "Eén graad is met een gewone atlas nog goed af te lezen",
+            "Nauwkeuriger meten lukt alleen met satellietbeelden",
+            "Eén graad komt op elke plaats neer op één kilometer",
+            "Onder één graad worden de coördinaten onbetrouwbaar"
+          ],
+          "antwoord": 0,
+          "uitleg": "Met de graden in de kaartrand haal je vlot één graad nauwkeurigheid. Eén graad breedte is trouwens ongeveer 111 kilometer, dus het blijft een ruwe aanduiding, maar wel genoeg om een plaats terug te vinden."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Alle plaatsen op de Kreeftskeerkring liggen op het zuidelijk halfrond.",
+          "antwoord": false,
+          "uitleg": "De Kreeftskeerkring ligt op 23,5° noorderbreedte, dus op het noordelijk halfrond. De Steenbokskeerkring is de zuidelijke."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraken over de breedtecirkels kloppen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Ze worden korter naarmate je dichter bij een pool komt",
+            "De evenaar is de langste breedtecirkel van allemaal",
+            "Ze lopen evenwijdig met de evenaar rond de aardbol",
+            "Ze komen samen in de noordpool en de zuidpool",
+            "Ze geven de geografische lengte van een plaats aan"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Breedtecirkels lopen evenwijdig, worden naar de polen toe steeds kleiner en de evenaar is de langste. Samenkomen in de polen doen de meridianen, en die geven ook de lengte aan."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemen we de graden die aangeven hoe ver een plaats ten oosten van de nulmeridiaan ligt?",
+          "antwoord": [
+            "oosterlengte",
+            "de oosterlengte"
+          ],
+          "uitleg": "Ten oosten van de nulmeridiaan spreek je van oosterlengte, ten westen ervan van westerlengte. België ligt tussen ongeveer 2 en 6 graden oosterlengte."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een tekst situeert een haven als 'de grootste van de Europese Unie'. Waarmee wordt hier gewerkt?",
+          "opties": [
+            "Met een sociaaleconomisch element, namelijk een wereldblok",
+            "Met een fysischgeografisch element, namelijk een zeearm",
+            "Met een absolute plaatsbepaling op basis van coördinaten",
+            "Met een reliëfeenheid waarin de haven gelegen is"
+          ],
+          "antwoord": 0,
+          "uitleg": "De Europese Unie is een samenwerkingsverband tussen landen, dus een wereldblok. Dat is een sociaaleconomisch element: mensen hebben het gemaakt, de natuur niet."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een plaats met coördinaten 15° ZB en 47° WL ligt op het zuidelijk halfrond, ten westen van de nulmeridiaan.",
+          "antwoord": true,
+          "uitleg": "ZB staat voor zuiderbreedte en WL voor westerlengte, dus dat klopt. Deze coördinaten wijzen ergens in het binnenland van Brazilië aan."
+        }
+      ]
+    },
+    {
+      "titel": "Waar ligt het, en hoe weet je dat? — deel 2",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Op een gewone schoolwereldkaart lijkt Groenland ongeveer even groot als Afrika. Hoe komt dat?",
+          "opties": [
+            "De kaart vertekent oppervlakten sterker naar de polen toe",
+            "Groenland en Afrika zijn in werkelijkheid ook ongeveer even groot",
+            "De kaart toont Afrika kleiner omdat het verder van Europa ligt",
+            "Er is op die kaart een andere schaal gebruikt voor Groenland"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je kan een bol niet plat maken zonder iets te vervormen. Veel wereldkaarten houden de hoeken kloppend en rekken daarvoor de gebieden bij de polen uit. Afrika is in werkelijkheid ongeveer veertien keer zo groot als Groenland."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Er bestaat een wereldkaart die tegelijk de vormen, de oppervlakten en de afstanden helemaal juist weergeeft.",
+          "antwoord": false,
+          "uitleg": "Een bol op een plat blad brengen kan niet zonder verlies. Elke kaart kiest wat ze juist houdt en wat ze laat vervormen, en die keuze bepaalt waarvoor de kaart bruikbaar is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom staat Europa op de meeste wereldkaarten die wij gebruiken in het midden?",
+          "opties": [
+            "Dat is een keuze van wie de kaart maakt, geen natuurwet",
+            "Europa ligt echt in het midden van het wereldgradennet",
+            "De nulmeridiaan verplicht kaartmakers om zo te tekenen",
+            "Anders zou de datumlijn dwars door een werelddeel snijden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een bol heeft geen midden op een kaart: de maker kiest waar hij hem opensnijdt. In China en in Australië hangen andere wereldkaarten aan de muur, en die zijn niet minder juist."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat kan een kaart met Amerika centraal met je blik doen?",
+          "opties": [
+            "Dat werelddeel groter en belangrijker doen lijken",
+            "De echte oppervlakte van dat werelddeel vergroten",
+            "De coördinaten van de steden daar doen verschuiven",
+            "De afstand tot Europa in kilometer doen toenemen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wat in het midden staat, lees je als het belangrijkste: je oog begint daar. De werkelijke oppervlakte en de coördinaten veranderen natuurlijk niet, alleen je beeld ervan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een mentale kaart?",
+          "opties": [
+            "Het beeld dat iemand in zijn hoofd heeft van een gebied",
+            "Een kaart die alleen op een scherm te bekijken is",
+            "Een kaart waarop enkel het reliëf ingetekend staat",
+            "Een kaart die je uit je hoofd moet kunnen natekenen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een mentale kaart zit in je hoofd, niet op papier. Ze is nooit volledig: wat je goed kent staat er groot op, wat je nooit ziet ontbreekt of staat scheef."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraken over mentale kaarten kloppen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Ze verschillen van persoon tot persoon",
+            "Het kaartbeeld dat je vaak ziet, stuurt ze mee",
+            "Ze zijn meestal onvolledig en vertekend",
+            "Ze zijn bij iedereen uit hetzelfde land gelijk",
+            "Ze worden opgemeten met satellietbeelden"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een mentale kaart groeit uit wat je zelf meemaakt en uit de kaarten die je vaak ziet. Daarom verschilt ze per persoon en zit ze vol gaten, ook bij mensen uit hetzelfde land."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Twee mensen kunnen over dezelfde plaats heel anders denken doordat hun persoonlijke context verschilt.",
+          "antwoord": true,
+          "uitleg": "Voor oudere mensen kan een stadspark vooral een plek zijn om tot rust te komen, voor jongeren een plek om te sporten of te skaten. Dezelfde plaats, een andere betekenis."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De stad Mekka betekent voor moslims iets heel anders dan voor christenen. Waarvan is dat een voorbeeld?",
+          "opties": [
+            "Van de invloed van de culturele context op betekenis",
+            "Van de invloed van het kaartbeeld op de mentale kaart",
+            "Van het verschil tussen ervaren en werkelijke afstand",
+            "Van relatief situeren met sociaaleconomische elementen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wat een plaats voor je betekent, hangt af van waar je vandaan komt en wat je gelooft. Dat is culturele context, naast de persoonlijke context van je eigen leven."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemen we de afstand in kilometer die je echt aflegt tussen twee plaatsen?",
+          "antwoord": [
+            "werkelijke afstand",
+            "de werkelijke afstand"
+          ],
+          "uitleg": "De werkelijke afstand is meetbaar: Gent en Torhout liggen over de weg 55 kilometer uit elkaar. Hoe lang die rit lijkt en hoe ver je denkt dat het is, zijn twee andere dingen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Dezelfde 55 kilometer voelt korter in een koele auto over de snelweg dan in een warme auto over kleine wegen. Over welke afstand gaat dat?",
+          "opties": [
+            "De ervaren afstand",
+            "De werkelijke afstand",
+            "De mentale afstand",
+            "De hemelsbrede afstand"
+          ],
+          "antwoord": 0,
+          "uitleg": "De ervaren afstand gaat over hoe lang de weg lijkt terwijl je hem aflegt. Comfort, drukte en het weer spelen daarin mee, de kilometers blijven dezelfde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Veel Belgen schatten dat Algiers verder van Brussel ligt dan Kreta, terwijl Kreta in vogelvlucht bijna 1000 kilometer verder ligt. Wat toont dat?",
+          "opties": [
+            "Dat de mentale afstand van de werkelijke afstand afwijkt",
+            "Dat de ervaren afstand altijd langer is dan de werkelijke",
+            "Dat de kaart van de Middellandse Zee sterk vertekend is",
+            "Dat Algiers en Kreta op dezelfde breedtecirkel liggen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De mentale afstand is hoe ver je dénkt dat iets ligt. Kreta kennen veel mensen van vakantie, Algiers niet, en wat je beter kent voelt dichterbij."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De ervaren afstand en de mentale afstand zijn twee woorden voor hetzelfde.",
+          "antwoord": false,
+          "uitleg": "De ervaren afstand gaat over de reis zelf terwijl je ze maakt. De mentale afstand gaat over je inschatting vooraf, ook als je er nooit geweest bent."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je moet uitzoeken welke gemeenten last hebben van overstromingsgevaar. Welke kaartlaag kies je?",
+          "opties": [
+            "Een thematische kaart met de overstromingsgevoelige gebieden",
+            "Een toeristische kaart met de bezienswaardigheden erop",
+            "Een politieke kaart met de provinciegrenzen aangeduid",
+            "Een wegenkaart met alle genummerde wegen van het land"
+          ],
+          "antwoord": 0,
+          "uitleg": "Op een digitale kaart kies je je lagen, en die keuze bepaalt wat je ziet en dus wat je besluit. Met een wegenkaart vind je geen overstromingsgebied, hoe goed die kaart ook is."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De informatie op een toeristische kaart verschilt van die op een reliëfkaart van hetzelfde gebied.",
+          "antwoord": true,
+          "uitleg": "Elke kaart kiest een thema en laat de rest weg. Daarom kijk je bij een bron altijd eerst naar de titel en de legende voor je er iets uit besluit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is het belangrijk om te weten wie een digitale kaart gemaakt heeft?",
+          "opties": [
+            "De maker kiest wat op de kaart komt en wat niet",
+            "Alleen de overheid mag kaartlagen publiceren",
+            "De maker bepaalt de geografische coördinaten mee",
+            "Zonder die naam werkt de legende van de kaart niet"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie de kaart maakt, kiest het thema, de kleuren en de klassen in de legende. Die keuzes sturen mee wat een lezer eruit haalt, ook zonder dat er iets fout op staat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke bronnen kan je gebruiken om te bepalen in welke klimaatzone een plaats ligt? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Een klimatogram van een weerstation daar",
+            "Een thematische kaart van de klimaatzones",
+            "Een tabel met de maandtemperaturen en neerslag",
+            "Een leeftijdshistogram van de bevolking daar",
+            "Een plattegrond van het centrum van de stad"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een klimatogram, een klimaatkaart en een tabel met temperatuur en neerslag gaan alle drie over het weer op lange termijn. Een leeftijdshistogram gaat over de bevolking en een plattegrond over de straten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een kaart met het zuiden bovenaan is fout getekend.",
+          "antwoord": false,
+          "uitleg": "Dat het noorden boven staat, is een gewoonte en geen regel. Oude kaarten zetten soms het oosten boven, en een kaart met het zuiden boven klopt even goed, ze voelt alleen vreemd omdat ze tegen onze mentale kaart ingaat."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de afstand die je denkt dat er tussen twee plaatsen ligt, ook al klopt ze niet?",
+          "antwoord": [
+            "mentale afstand",
+            "de mentale afstand"
+          ],
+          "uitleg": "De mentale afstand zit in je hoofd, net als de mentale kaart. Ze wordt korter naarmate je een plaats beter kent."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je onderzoekt hoeveel open ruimte er in je gemeente overblijft. Wat doe je eerst met je bron?",
+          "opties": [
+            "De titel, de legende en het jaartal nakijken",
+            "De kaart meteen afdrukken op groot formaat",
+            "De coördinaten van het gemeentehuis opzoeken",
+            "De schaal van de kaart groter instellen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zonder legende weet je niet wat de kleuren betekenen, en zonder jaartal weet je niet of het nog klopt. Een kaart lezen begint bij de rand, niet bij het midden."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Wie een gebied goed kent, tekent daar meestal een gedetailleerdere mentale kaart van dan wie er nooit komt.",
+          "antwoord": true,
+          "uitleg": "Je mentale kaart groeit met wat je meemaakt. De straten rond je school staan er scherp op, een streek die je alleen van het nieuws kent blijft een vage vlek."
+        }
+      ]
+    },
+    {
+      "titel": "Waar wonen de mensen? — deel 1",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bedoelen we precies met de bevolkingsdichtheid van een gebied?",
+          "opties": [
+            "Het aantal inwoners per vierkante kilometer",
+            "Het totale aantal inwoners van dat gebied",
+            "Het aantal geboorten per duizend inwoners",
+            "Het aandeel inwoners dat in een stad woont"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dichtheid zet het aantal mensen af tegen de oppervlakte. Daardoor kan een klein land met weinig inwoners toch dichter bevolkt zijn dan een groot land met veel inwoners."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een land telt 12 miljoen inwoners op 30 000 km². Hoe groot is de bevolkingsdichtheid ongeveer?",
+          "opties": [
+            "400 inwoners per km²",
+            "40 inwoners per km²",
+            "4 000 inwoners per km²",
+            "2 500 inwoners per km²"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je deelt het aantal inwoners door de oppervlakte: 12 000 000 gedeeld door 30 000 is 400. Dat is ruwweg de orde van grootte van België."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een land met veel inwoners heeft daarom nog geen hoge bevolkingsdichtheid.",
+          "antwoord": true,
+          "uitleg": "Canada telt tientallen miljoenen inwoners maar is enorm groot, dus de dichtheid blijft er laag. Het gaat om de verhouding, niet om het totaal."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op een thematische kaart van de bevolkingsdichtheid staan donkere en lichte kleuren. Wat doe je eerst?",
+          "opties": [
+            "De legende lezen om te weten welke klasse welke kleur is",
+            "De donkerste gebieden meteen als steden aanduiden",
+            "De kleuren vergelijken met een andere kaart in de atlas",
+            "De schaal van de kaart omrekenen naar kilometers"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zonder legende weet je niet of donker veel of weinig betekent, en al helemaal niet welke aantallen bij welke klasse horen. Kaartmakers kiezen die klassen zelf."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke fysische factoren maken dat een gebied dunbevolkt blijft? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Een klimaat dat het grootste deel van het jaar te droog is",
+            "Een bodem waarin bijna niets wil groeien",
+            "Een reliëf met steile hellingen en grote hoogte",
+            "Een ligging vlak bij een grote bevaarbare rivier",
+            "Een vlakke kuststrook met een gematigd klimaat"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Droogte, een arme bodem en ruw reliëf maken landbouw en bouwen moeilijk, dus blijven er weinig mensen wonen. Een rivier en een vlakke kust trekken mensen juist aan."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De Sahara is dunbevolkt vooral omdat er te weinig neerslag valt.",
+          "antwoord": true,
+          "uitleg": "Zonder water lukt landbouw niet en is drinkwater een probleem. Waar in de woestijn wél water is, in een oase of langs de Nijl, wonen wél veel mensen dicht op elkaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom wonen er in de Nijlvallei zoveel mensen op een smalle strook?",
+          "opties": [
+            "Alleen daar is er water en vruchtbare grond",
+            "Alleen daar is het reliëf er bergachtig genoeg",
+            "Alleen daar valt er in dat land voldoende regen",
+            "Alleen daar loopt er een grens met een buurland"
+          ],
+          "antwoord": 0,
+          "uitleg": "De rivier brengt water en vroeger ook slib, waardoor je er kan telen. Daarbuiten ligt woestijn, dus de bevolking drukt zich samen langs het water."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In Nederland en in Vlaanderen is de dichtheid hoog. Welke factoren spelen daarin mee? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Een vlak reliëf waarop makkelijk gebouwd kan worden",
+            "Een gematigd klimaat zonder extreme droogte of kou",
+            "Een vruchtbare bodem en goede verbindingen over water",
+            "Een ligging ver van elke haven of bevaarbare rivier",
+            "Een bodem die grotendeels uit kaal rotsgesteente bestaat"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Vlak land, een zacht klimaat, goede grond en water om over te varen: dat zijn samen sterke redenen om er te gaan wonen. De twee laatste opties beschrijven juist het omgekeerde."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Met welke eenheid drukken we de bevolkingsdichtheid uit? Vul aan: inwoners per ...",
+          "antwoord": [
+            "vierkante kilometer",
+            "km²",
+            "km2"
+          ],
+          "uitleg": "Bevolkingsdichtheid is altijd inwoners per vierkante kilometer. Bij steden zie je soms inwoners per hectare, maar op kaarten van landen is het de vierkante kilometer."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Reliëf speelt geen rol meer bij waar mensen wonen, omdat we tegenwoordig overal kunnen bouwen.",
+          "antwoord": false,
+          "uitleg": "Technisch kan er veel, maar bouwen en aanleggen in de bergen kost veel meer. Daarom liggen ook vandaag de meeste steden in vlakke gebieden en in dalen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee gebieden hebben dezelfde bevolkingsdichtheid, maar in het ene wonen alle mensen in drie steden en in het andere overal verspreid. Wat besluit je?",
+          "opties": [
+            "Een gemiddelde dichtheid verbergt hoe mensen echt verspreid zitten",
+            "De dichtheid van een van de twee gebieden is verkeerd berekend",
+            "Het gebied met de drie steden heeft een hogere dichtheid",
+            "Beide gebieden hebben evenveel inwoners in totaal wonen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dichtheid is een gemiddelde over de hele oppervlakte. Dat is handig om landen te vergelijken, maar het zegt niets over het patroon binnen dat land."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je krijgt een tabel met per land het aantal inwoners en de oppervlakte. Wat kan je daaruit zelf berekenen?",
+          "opties": [
+            "De bevolkingsdichtheid van elk land",
+            "Het geboortecijfer van elk van die landen",
+            "De Human Development Index van elk land",
+            "Het migratiesaldo van elk van die landen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Inwoners gedeeld door oppervlakte geeft de dichtheid. Voor een geboortecijfer, een HDI of een migratiesaldo heb je heel andere gegevens nodig."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Klimaat, bodemkwaliteit en reliëf verklaren samen een groot deel van het wereldwijde bevolkingspatroon.",
+          "antwoord": true,
+          "uitleg": "De dichtbevolkte gebieden liggen bijna allemaal waar water, grond en reliëf meezitten. Toch is het nooit de hele verklaring: geschiedenis, economie en politiek spelen ook mee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is het noorden van Canada zo dunbevolkt?",
+          "opties": [
+            "Het is er lang koud en de grond is er weinig bruikbaar",
+            "Het land is er te bergachtig om iets te kunnen bouwen",
+            "Er is er te weinig zoet water om mensen te laten wonen",
+            "De regering laat er niemand toe om er te gaan wonen"
+          ],
+          "antwoord": 0,
+          "uitleg": "In de toendra is de bodem een groot deel van het jaar bevroren en groeit er nauwelijks iets. Water is er genoeg, en het reliëf is er op veel plaatsen zelfs vlak."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraak over dichtbevolkte gebieden in de wereld klopt?",
+          "opties": [
+            "Ze liggen vaak in rivierdalen, delta's en langs kusten",
+            "Ze liggen vaak in hooggebergte boven de boomgrens",
+            "Ze liggen vaak midden in de grote woestijngordels",
+            "Ze liggen vaak in de poolstreken rond de poolcirkel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Water, vruchtbaar slib en transport over zee of rivier trekken mensen aan. Dat zie je aan de Ganges, de Nijl, de Rijn en langs de Chinese oostkust."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de vruchtbare vlakte die een rivier afzet waar ze in zee uitmondt?",
+          "antwoord": [
+            "delta",
+            "een delta",
+            "de delta"
+          ],
+          "uitleg": "In een delta zet de rivier haar slib af. Die grond is heel vruchtbaar, en daarom zijn delta's zoals die van de Ganges en de Nijl vaak dichtbevolkt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een gebied met een hoge bevolkingsdichtheid is daarom ook een rijk gebied.",
+          "antwoord": false,
+          "uitleg": "Dichtheid zegt hoeveel mensen er per vierkante kilometer wonen, niets over hun welvaart. Monaco en Bangladesh zijn allebei dichtbevolkt en verschillen enorm in inkomen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op een kaart valt op dat de bevolking van Egypte in een smalle lijn ligt. Hoe noem je zo'n verspreiding?",
+          "opties": [
+            "Een patroon",
+            "Een proces",
+            "Een schaal",
+            "Een legende"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een patroon toont de verspreiding van iets in de ruimte. Een proces gaat over verandering, zoals de bevolkingsevolutie of de klimaatverandering."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke gegevens heb je nodig om de dichtheid van twee provincies eerlijk te vergelijken? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Het aantal inwoners van elke provincie",
+            "De oppervlakte van elke provincie",
+            "De hoofdstad van elke provincie apart",
+            "Het aantal gemeenten in elke provincie",
+            "De kleur die elke provincie op de kaart heeft"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Dichtheid heeft precies twee gegevens nodig: inwoners en oppervlakte. Het aantal gemeenten of de hoofdstad verandert daar niets aan."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bodemkwaliteit heeft invloed op de bevolkingsdichtheid omdat ze bepaalt hoeveel voedsel er lokaal geteeld kan worden.",
+          "antwoord": true,
+          "uitleg": "Waar de grond goed is, kan een streek meer mensen voeden. Dat verband is minder strak geworden sinds voedsel over de hele wereld verhandeld wordt, maar het is niet verdwenen."
+        }
+      ]
+    },
+    {
+      "titel": "Waar wonen de mensen? — deel 2",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor staat de afkorting HDI?",
+          "opties": [
+            "Human Development Index",
+            "Human Density Indicator",
+            "Household Development Income",
+            "Human Data Information"
+          ],
+          "antwoord": 0,
+          "uitleg": "De Human Development Index of index van de menselijke ontwikkeling wordt door de Verenigde Naties berekend om landen te vergelijken op meer dan alleen geld."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zaken zitten samen in de HDI verwerkt? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Hoe lang mensen er gemiddeld leven",
+            "Hoeveel jaar mensen er naar school gaan",
+            "Hoeveel een inwoner er gemiddeld verdient",
+            "Hoeveel inwoners er per vierkante kilometer wonen",
+            "Hoeveel toeristen het land jaarlijks ontvangt"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De HDI combineert gezondheid, onderwijs en inkomen tot één getal. Bevolkingsdichtheid en toerisme zitten er niet in."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De HDI van een land is een getal tussen 0 en 1.",
+          "antwoord": true,
+          "uitleg": "Hoe dichter bij 1, hoe hoger de ontwikkelingsgraad. Omdat het een verhoudingsgetal is, kan je er landen van heel verschillende grootte mee vergelijken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is de HDI een betere maat voor ontwikkeling dan alleen het inkomen per inwoner?",
+          "opties": [
+            "Hij kijkt ook naar gezondheid en naar onderwijs",
+            "Hij wordt elk jaar opnieuw berekend door de VN",
+            "Hij houdt rekening met de oppervlakte van het land",
+            "Hij wordt in dollars en niet in euro's uitgedrukt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een land kan rijk zijn aan olie en toch weinig scholen en ziekenhuizen hebben. Door levensverwachting en onderwijs mee te tellen, komt dat verschil boven water."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Land A heeft een HDI van 0,92, land B een HDI van 0,48. Wat mag je daaruit besluiten?",
+          "opties": [
+            "In land A leven mensen gemiddeld langer en gaan ze langer naar school",
+            "In land A wonen meer mensen dan in land B in totaal",
+            "In land A is de bevolkingsdichtheid hoger dan in land B",
+            "In land A groeit de bevolking sneller dan in land B"
+          ],
+          "antwoord": 0,
+          "uitleg": "De HDI zegt iets over gezondheid, onderwijs en inkomen samen. Over het aantal inwoners of de groei van de bevolking zegt hij op zich niets."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Twee landen met dezelfde HDI hebben daarom ook precies dezelfde levensverwachting.",
+          "antwoord": false,
+          "uitleg": "De HDI is een samengesteld getal. Het ene land kan hoger scoren op onderwijs en lager op gezondheid dan het andere, en toch op hetzelfde eindcijfer uitkomen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom verschilt de ontwikkelingsgraad zo sterk tussen landen?",
+          "opties": [
+            "Er spelen samen historische, politieke en economische oorzaken",
+            "Het hangt bijna volledig af van het klimaat van het land",
+            "Het hangt bijna volledig af van de oppervlakte van het land",
+            "Het verschil komt haast alleen door het aantal inwoners"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kolonisatie, oorlog, bestuur, schulden, grondstoffen en onderwijsbeleid grijpen in elkaar. Eén enkele oorzaak aanwijzen klopt zelden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke omstandigheden kunnen de HDI van een land doen dalen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Een langdurige oorlog op het grondgebied",
+            "Scholen die jarenlang gesloten blijven",
+            "Een epidemie die de levensverwachting verlaagt",
+            "Een groei van het aantal inwoners van het land",
+            "Een uitbreiding van het spoorwegnet van het land"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Oorlog, gesloten scholen en een epidemie raken rechtstreeks gezondheid, onderwijs en inkomen. Meer inwoners of meer sporen doen de HDI op zich niet dalen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke organisatie berekent en publiceert elk jaar de Human Development Index?",
+          "antwoord": [
+            "de verenigde naties",
+            "verenigde naties",
+            "vn"
+          ],
+          "uitleg": "De Verenigde Naties publiceren de HDI in hun ontwikkelingsrapport. Daardoor worden alle landen op dezelfde manier gemeten en zijn ze onderling vergelijkbaar."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Binnen één land kan de ontwikkelingsgraad sterk verschillen tussen streken.",
+          "antwoord": true,
+          "uitleg": "Een nationale HDI is een gemiddelde. In veel landen scoort de hoofdstad veel hoger dan het platteland, en dat verschil verdwijnt in dat ene cijfer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op een wereldkaart van de HDI valt een duidelijk patroon op. Welk?",
+          "opties": [
+            "De hoogste waarden liggen samen in bepaalde wereldregio's",
+            "De hoogste waarden liggen verspreid volgens de meridianen",
+            "De hoogste waarden liggen altijd vlak bij de evenaar",
+            "De hoogste waarden wisselen willekeurig van land tot land"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hoge waarden liggen vooral in West-Europa, Noord-Amerika, Oost-Azië en Oceanië, de laagste vooral in Centraal- en West-Afrika. Zo'n verspreiding is een patroon."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een tabel geeft per land de levensverwachting, de scholingsduur en het inkomen. Wat kan je daarmee?",
+          "opties": [
+            "De landen rangschikken op ontwikkelingsgraad",
+            "De bevolkingsdichtheid van de landen berekenen",
+            "Het migratiesaldo van de landen bepalen",
+            "De klimaatzone van de landen afleiden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat zijn precies de drie bouwstenen van de HDI. Voor dichtheid, migratie of klimaat heb je heel andere gegevens nodig."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De HDI meet ook hoe gelijk de welvaart binnen een land verdeeld is.",
+          "antwoord": false,
+          "uitleg": "De gewone HDI werkt met gemiddelden en ziet ongelijkheid niet. Daarvoor bestaat een aparte versie die voor ongelijkheid corrigeert, en die ligt bijna altijd lager."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zet men de HDI op een kaart in plaats van alleen in een tabel?",
+          "opties": [
+            "Op een kaart zie je meteen waar de verschillen liggen",
+            "Op een kaart zijn de cijfers nauwkeuriger dan in een tabel",
+            "Op een kaart staan er meer landen dan in een tabel",
+            "Op een kaart hoef je de legende niet meer te lezen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een kaart maakt van een lijst getallen een ruimtelijk beeld, en dan springen de patronen in het oog. Nauwkeuriger worden de cijfers er niet van."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraak over rijkdom en ontwikkeling klopt?",
+          "opties": [
+            "Een land met veel grondstoffen is daarom nog niet hoog ontwikkeld",
+            "Een land met veel grondstoffen heeft altijd een hoge HDI",
+            "Een land zonder grondstoffen kan nooit een hoge HDI halen",
+            "Grondstoffen en ontwikkelingsgraad hebben niets met elkaar te maken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wat een land met zijn inkomsten doet, telt evenveel als wat het in de grond heeft. Japan en Zuid-Korea hebben weinig grondstoffen en toch een hoge HDI."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je met één woord het niveau van welvaart, gezondheid en onderwijs in een land, dat de HDI probeert te meten?",
+          "antwoord": [
+            "ontwikkelingsgraad",
+            "de ontwikkelingsgraad"
+          ],
+          "uitleg": "De ontwikkelingsgraad vat samen hoe goed het met de mensen in een land gaat. De HDI is de index waarmee de VN dat in één getal vangt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De HDI van een land kan door de jaren heen stijgen en dalen.",
+          "antwoord": true,
+          "uitleg": "Hij wordt jaarlijks herberekend. Door oorlog of een epidemie kan hij dalen, door beter onderwijs en gezondheidszorg stijgt hij over langere tijd meestal."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verband tussen ontwikkelingsgraad en bevolkingsdichtheid?",
+          "opties": [
+            "Er is geen vast verband tussen die twee",
+            "Een hogere dichtheid geeft altijd een hogere HDI",
+            "Een hogere dichtheid geeft altijd een lagere HDI",
+            "De dichtheid wordt in de HDI meegerekend"
+          ],
+          "antwoord": 0,
+          "uitleg": "Nederland is dichtbevolkt met een hoge HDI, Niger is dunbevolkt met een lage. Omgekeerd bestaat evengoed. De twee meten verschillende dingen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je moet bij een bron over de HDI kritisch nakijken. Waarop let je? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Van welk jaar de cijfers zijn",
+            "Wie de cijfers verzameld heeft",
+            "Welke klassen de legende gebruikt",
+            "Welke kleur het mooist staat op de kaart",
+            "Hoe groot de kaart is afgedrukt"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Jaartal, bron en klassenindeling bepalen samen wat je uit de kaart mag besluiten. Door de klassen anders te kiezen ziet dezelfde kaart er heel anders uit."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een land met een lage HDI is een land waar niemand rijk is.",
+          "antwoord": false,
+          "uitleg": "Een lage HDI is een gemiddelde over de hele bevolking. In landen met een lage HDI is de ongelijkheid vaak juist groot, met een kleine zeer welvarende groep."
+        }
+      ]
+    },
+    {
+      "titel": "Hoe een bevolking verandert — deel 1",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarop slaat het geboortecijfer van een land?",
+          "opties": [
+            "Het aantal geboorten per duizend inwoners per jaar",
+            "Het aantal kinderen dat een vrouw gemiddeld krijgt",
+            "Het aantal geboorten in dat land in één jaar tijd",
+            "Het aandeel kinderen in de bevolking van dat land"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het geboortecijfer is een verhoudingsgetal per duizend inwoners, zodat je grote en kleine landen kan vergelijken. Het gemiddeld aantal kinderen per vrouw is het vruchtbaarheidscijfer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een land heeft een geboortecijfer van 14 ‰ en een sterftecijfer van 9 ‰. Hoe groot is de natuurlijke aangroei?",
+          "opties": [
+            "5 ‰",
+            "23 ‰",
+            "1,5 ‰",
+            "0,64 ‰"
+          ],
+          "antwoord": 0,
+          "uitleg": "Natuurlijke aangroei is het geboortecijfer min het sterftecijfer: 14 min 9 is 5 per duizend inwoners. Migratie zit daar niet in."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De natuurlijke aangroei van een land kan negatief zijn.",
+          "antwoord": true,
+          "uitleg": "Als er meer mensen sterven dan er geboren worden, is de aangroei negatief. Dat gebeurt in verschillende Europese landen; hun bevolking krimpt dan, tenzij migratie dat opvangt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het migratiesaldo van een land?",
+          "opties": [
+            "De immigratie min de emigratie",
+            "De immigratie plus de emigratie",
+            "De emigratie min de natuurlijke aangroei",
+            "De immigratie gedeeld door de bevolking"
+          ],
+          "antwoord": 0,
+          "uitleg": "Komen er meer mensen binnen dan er vertrekken, dan is het saldo positief. Vertrekken er meer dan er komen, dan is het negatief."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke kengetallen heb je nodig om de totale bevolkingsgroei van een land te kennen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Het geboortecijfer van dat land",
+            "Het sterftecijfer van dat land",
+            "Het migratiesaldo van dat land",
+            "De oppervlakte van dat land",
+            "De Human Development Index van dat land"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Totale groei is de natuurlijke aangroei plus het migratiesaldo. Oppervlakte en HDI zeggen daar niets over, al hangt de HDI er wel mee samen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een land waar de natuurlijke aangroei negatief is, kan toch in bevolking groeien.",
+          "antwoord": true,
+          "uitleg": "Dat kan als het migratiesaldo positief genoeg is. In verschillende West-Europese landen komt de groei vandaag bijna helemaal van migratie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent een vruchtbaarheidscijfer van 1,4?",
+          "opties": [
+            "Vrouwen krijgen er gemiddeld 1,4 kinderen",
+            "Er worden er 1,4 kinderen per duizend inwoners geboren",
+            "1,4 procent van de bevolking is kind",
+            "De bevolking groeit er met 1,4 procent per jaar"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het vruchtbaarheidscijfer is het gemiddeld aantal kinderen per vrouw. Onder ongeveer 2,1 krimpt een bevolking op termijn vanzelf, zonder migratie."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemen we het vertrekken van inwoners uit hun eigen land?",
+          "antwoord": [
+            "emigratie",
+            "de emigratie"
+          ],
+          "uitleg": "Emigratie is vertrekken, immigratie is aankomen. Dezelfde persoon is emigrant in het land dat hij verlaat en immigrant in het land waar hij aankomt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leeftijdshistogram heeft een heel brede basis en loopt snel smal toe. Wat zegt dat?",
+          "opties": [
+            "Er zijn veel kinderen en weinig ouderen",
+            "Er zijn veel ouderen en weinig kinderen",
+            "De bevolking is gelijk over de leeftijden verdeeld",
+            "Er wonen meer mannen dan vrouwen in dat land"
+          ],
+          "antwoord": 0,
+          "uitleg": "De balken onderaan zijn de jongste leeftijdsgroepen. Een brede basis wijst op een hoog geboortecijfer, en het snel toelopen op een levensverwachting die nog laag ligt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een leeftijdshistogram is bovenaan even breed als in het midden, en smaller onderaan. Wat lees je daaruit?",
+          "opties": [
+            "De bevolking vergrijst",
+            "De bevolking verjongt sterk",
+            "Er is veel immigratie van kinderen",
+            "Het sterftecijfer is er zeer hoog"
+          ],
+          "antwoord": 0,
+          "uitleg": "Weinig jonge kinderen en veel ouderen: het aandeel ouderen in de bevolking stijgt. Dat is vergrijzing, en je ziet het aan de vorm van het histogram."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een inkeping halverwege een leeftijdshistogram kan wijzen op een oorlog of een crisis van vroeger.",
+          "antwoord": true,
+          "uitleg": "Wie in zo'n periode geboren had moeten worden, ontbreekt. Die groep blijft zijn hele leven als een deuk in het histogram meeschuiven."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zet men een leeftijdshistogram in balken per leeftijdsgroep in plaats van per jaar?",
+          "opties": [
+            "Zo blijft de vorm van de bevolking overzichtelijk",
+            "Zo worden de cijfers per leeftijd nauwkeuriger",
+            "Zo hoeft men de mannen en vrouwen niet te scheiden",
+            "Zo wordt de bevolking automatisch kleiner voorgesteld"
+          ],
+          "antwoord": 0,
+          "uitleg": "Meestal gaat het per vijf jaar. Met honderd smalle balken zie je alleen ruis, met twintig bredere zie je de vorm en dus de structuur."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke gegevens staan er op een gewoon leeftijdshistogram? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "De leeftijdsgroepen van de bevolking",
+            "De verdeling tussen mannen en vrouwen",
+            "Het aandeel of aantal per groep",
+            "Het inkomen per leeftijdsgroep",
+            "De woonplaats van elke groep"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Links de mannen, rechts de vrouwen, van jong onderaan naar oud bovenaan, met per balk een aantal of een percentage. Inkomen en woonplaats staan er niet op."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het sterftecijfer van een land is laag als de gezondheidszorg goed is, en dat geldt altijd.",
+          "antwoord": false,
+          "uitleg": "Een land met heel veel ouderen kan een hoger sterftecijfer hebben dan een land met een jonge bevolking en slechtere zorg. Het ruwe sterftecijfer hangt dus ook van de leeftijdsstructuur af."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je vergelijkt twee landen met een tabel van kengetallen. Wat maakt die vergelijking eerlijk?",
+          "opties": [
+            "Dat het cijfers per duizend inwoners zijn",
+            "Dat beide landen even groot zijn in oppervlakte",
+            "Dat beide landen in dezelfde klimaatzone liggen",
+            "Dat beide landen evenveel inwoners tellen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Juist doordat het verhoudingsgetallen zijn, kan je India met België vergelijken. Absolute aantallen zouden altijd naar het grootste land wijzen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het geboortecijfer min het sterftecijfer van een land?",
+          "antwoord": [
+            "natuurlijke aangroei",
+            "de natuurlijke aangroei"
+          ],
+          "uitleg": "De natuurlijke aangroei telt alleen geboorten en sterften mee. Wil je de totale groei, dan tel je het migratiesaldo erbij."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Immigratie verandert niets aan de vorm van een leeftijdshistogram.",
+          "antwoord": false,
+          "uitleg": "Wie migreert is vaak jongvolwassen. Een land met veel immigratie krijgt daardoor bredere balken rond de twintig tot veertig jaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een land daalt het geboortecijfer al twintig jaar en stijgt de levensverwachting. Wat verwacht je over twintig jaar?",
+          "opties": [
+            "Een groter aandeel ouderen in de bevolking",
+            "Een groter aandeel kinderen in de bevolking",
+            "Een gelijkblijvende leeftijdsstructuur",
+            "Een snel stijgend sterftecijfer bij jongeren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Minder geboorten onderaan en mensen die langer leven bovenaan: samen tilt dat het aandeel ouderen omhoog. Dat is precies wat vergrijzing is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke beïnvloedende factoren kunnen het geboortecijfer van een land laag houden? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Vrouwen die lang naar school gaan en werken",
+            "Een geboortebeleid dat grote gezinnen ontmoedigt",
+            "Hoge kosten voor huisvesting en kinderopvang",
+            "Een hoge kindersterfte in dat land",
+            "Een groot aandeel landbouw in de economie"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Onderwijs, beleid en kosten drukken het geboortecijfer. Hoge kindersterfte en een landbouweconomie duwen het juist omhoog, want dan zijn kinderen handen op het veld en een zekerheid voor later."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het migratiesaldo van de hele wereld samen is nul.",
+          "antwoord": true,
+          "uitleg": "Wie ergens vertrekt, komt elders aan. Wereldwijd heffen immigratie en emigratie elkaar dus op; alleen per land is er een saldo."
+        }
+      ]
+    },
+    {
+      "titel": "Hoe een bevolking verandert — deel 2",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat beschrijft het model van de demografische transitie?",
+          "opties": [
+            "Hoe geboorte- en sterftecijfer van een land in fasen veranderen",
+            "Hoe mensen zich binnen een land van dorp naar stad verplaatsen",
+            "Hoe de bevolkingsdichtheid over de wereld verdeeld is",
+            "Hoe de ontwikkelingsgraad van landen gemeten wordt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het model zet het verloop van beide cijfers naast elkaar in een aantal fasen. Het is een model: echte landen volgen het niet perfect, maar het maakt vergelijken mogelijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke fase van de demografische transitie zijn zowel het geboortecijfer als het sterftecijfer hoog en groeit de bevolking nauwelijks?",
+          "opties": [
+            "De eerste fase",
+            "De tweede fase",
+            "De derde fase",
+            "De vierde fase"
+          ],
+          "antwoord": 0,
+          "uitleg": "In de eerste fase worden er veel kinderen geboren, maar sterven er ook veel mensen. De twee cijfers liggen dicht bij elkaar, dus blijft de bevolking ongeveer gelijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom groeit de bevolking het snelst in de tweede fase van de transitie?",
+          "opties": [
+            "Het sterftecijfer daalt terwijl het geboortecijfer hoog blijft",
+            "Het geboortecijfer stijgt terwijl het sterftecijfer gelijk blijft",
+            "Beide cijfers dalen, maar het sterftecijfer daalt trager",
+            "Beide cijfers stijgen, maar het geboortecijfer stijgt sneller"
+          ],
+          "antwoord": 0,
+          "uitleg": "Betere voeding, drinkwater en gezondheidszorg doen de sterfte snel zakken. Gewoonten rond kinderen krijgen veranderen veel trager, dus loopt het gat tussen beide cijfers wijd open."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In de vierde fase van de demografische transitie liggen geboorte- en sterftecijfer allebei laag.",
+          "antwoord": true,
+          "uitleg": "De bevolking groeit dan weer traag, maar met een heel andere structuur dan in de eerste fase: veel meer ouderen en veel minder kinderen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een land heeft een geboortecijfer van 34 ‰ en een sterftecijfer van 9 ‰. In welke fase zit het waarschijnlijk?",
+          "opties": [
+            "De tweede fase",
+            "De eerste fase",
+            "De vierde fase",
+            "Na de vierde fase"
+          ],
+          "antwoord": 0,
+          "uitleg": "De sterfte is al sterk gedaald maar de geboorten nog niet: dat is precies het beeld van de tweede fase, met een natuurlijke aangroei van 25 per duizend."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent vergrijzing?",
+          "opties": [
+            "Het aandeel ouderen in de bevolking neemt toe",
+            "Het aantal inwoners van een land neemt af",
+            "Het aantal geboorten per vrouw neemt toe",
+            "Het aandeel mensen in de stad neemt toe"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vergrijzing gaat over de verhouding, niet over het totaal. Ze komt van een dalend geboortecijfer en een stijgende levensverwachting samen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke gevolgen heeft sterke vergrijzing voor een land? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Meer uitgaven aan pensioenen",
+            "Meer vraag naar zorg voor ouderen",
+            "Minder mensen op de arbeidsmarkt",
+            "Een sterk stijgend geboortecijfer",
+            "Een groeiend tekort aan scholen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Meer ouderen en minder werkenden zetten pensioenen, zorg en arbeidsmarkt onder druk. Scholen komen juist leeg te staan, en het geboortecijfer stijgt er niet vanzelf van."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het vertrek van hoogopgeleide mensen uit een land naar het buitenland?",
+          "antwoord": [
+            "braindrain",
+            "brain drain"
+          ],
+          "uitleg": "Braindrain betekent letterlijk het wegvloeien van hersenen. Het land dat die mensen ontvangt, spreekt van braingain."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Braindrain is voor het land van vertrek vooral een voordeel, want er zijn minder monden te voeden.",
+          "antwoord": false,
+          "uitleg": "Het land verliest net de artsen, ingenieurs en leerkrachten die het zelf heeft opgeleid en die het hard nodig heeft. Wat er soms tegenover staat, is het geld dat die mensen naar huis sturen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat zijn pushfactoren bij migratie?",
+          "opties": [
+            "Redenen om te vertrekken uit het eigen gebied",
+            "Redenen om ergens anders naartoe te trekken",
+            "De kosten van de reis naar het nieuwe land",
+            "De regels die een land aan nieuwkomers stelt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Push duwt je weg: oorlog, armoede, droogte, werkloosheid, vervolging. Pull trekt je aan: werk, veiligheid, onderwijs, familie die er al woont."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze zijn pullfactoren? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Kans op werk in het land van aankomst",
+            "Familie die daar al enkele jaren woont",
+            "Goed onderwijs voor de kinderen daar",
+            "Aanhoudende droogte in het eigen gebied",
+            "Een gewapend conflict in de eigen streek"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Werk, familie en onderwijs trekken mensen naar een plaats toe. Droogte en oorlog duwen mensen weg en zijn dus pushfactoren."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De meeste mensen die migreren, blijven binnen hun eigen wereldregio.",
+          "antwoord": true,
+          "uitleg": "Wie vlucht, komt meestal in een buurland terecht: de reis is korter, de taal vaak dichterbij en er wonen al bekenden. Migratie over grote afstand is de uitzondering, niet de regel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke factoren verklaren waarom demografische processen tussen landen verschillen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "De welvaart en het welzijn in het land",
+            "De politieke en de oorlogssituatie",
+            "Het geboortebeleid van de overheid",
+            "De geografische lengte van het land",
+            "De kleur op de kaart in de atlas"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Welvaart, politiek en beleid grijpen rechtstreeks in op geboorten, sterfte en migratie. Daarnaast spelen ook klimaat, reliëf, bodemkwaliteit en armoede mee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een land voerde jarenlang een beleid dat gezinnen tot één kind beperkte. Wat verwacht je nu in het leeftijdshistogram?",
+          "opties": [
+            "Smalle balken bij de leeftijdsgroepen uit die periode",
+            "Brede balken bij de leeftijdsgroepen uit die periode",
+            "Een histogram dat bovenaan smaller is geworden",
+            "Een histogram dat over alle leeftijden gelijk is"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie toen niet geboren werd, ontbreekt nu in die leeftijdsgroepen. Dat gat schuift jaar na jaar mee omhoog en zorgt later voor snelle vergrijzing."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Wie door droogte of overstroming wegtrekt, steekt meestal meteen een oceaan over.",
+          "antwoord": false,
+          "uitleg": "Klimaat is wel degelijk een pushfactor, maar de meeste mensen verhuizen eerst binnen hun eigen land, vaak van het platteland naar de stad. Een verre reis kost geld dat ze net niet hebben."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de aankomst van hoogopgeleide mensen in een land, het omgekeerde van braindrain?",
+          "antwoord": [
+            "braingain",
+            "brain gain"
+          ],
+          "uitleg": "Braingain is de winst van het ontvangende land: het krijgt kennis binnen waarvoor het de opleiding niet betaald heeft."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom volgt niet elk land de demografische transitie op dezelfde manier?",
+          "opties": [
+            "Beleid, oorlog, welvaart en cultuur verlopen overal anders",
+            "Het model geldt alleen voor landen op het noordelijk halfrond",
+            "Het model geldt alleen voor landen met een hoge HDI",
+            "Het model werd opgesteld voordat er cijfers bestonden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het model is een samenvatting van wat in West-Europa gebeurde. Elders ging de daling van de sterfte veel sneller, of hield beleid of oorlog het verloop tegen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom daalt het sterftecijfer meestal vóór het geboortecijfer?",
+          "opties": [
+            "Betere zorg werkt sneller dan gewoonten veranderen",
+            "Het geboortecijfer kan pas dalen als de bevolking krimpt",
+            "Artsen meten eerst de sterfte en pas later de geboorten",
+            "Het geboortecijfer daalt alleen door een overheidsbeleid"
+          ],
+          "antwoord": 0,
+          "uitleg": "Schoon drinkwater, inentingen en betere voeding redden meteen levens. Hoeveel kinderen mensen willen, hangt vast aan onderwijs, werk en zekerheid, en dat verandert over generaties."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een land in de vierde fase van de transitie heeft dezelfde leeftijdsstructuur als een land in de eerste fase.",
+          "antwoord": false,
+          "uitleg": "In beide fasen groeit de bevolking traag, maar de vorm verschilt volledig: in de eerste fase veel kinderen en weinig ouderen, in de vierde fase net omgekeerd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een land heeft een negatief migratiesaldo en veel vertrek van jonge, opgeleide mensen. Welke gevolgen verwacht je?",
+          "opties": [
+            "De bevolking veroudert en er verdwijnt kennis uit het land",
+            "De bevolking verjongt en de arbeidsmarkt wordt krapper",
+            "De bevolkingsdichtheid stijgt en de HDI stijgt mee",
+            "Het geboortecijfer stijgt en de vergrijzing neemt af"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie vertrekt is meestal jong en opgeleid. De achterblijvende bevolking wordt dus gemiddeld ouder, en het land verliest mensen die het net nodig heeft."
+        }
+      ]
+    },
+    {
+      "titel": "Stad en platteland — deel 1",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom trekken steden mensen aan?",
+          "opties": [
+            "Er is meer werk, onderwijs en voorzieningen bij elkaar",
+            "Er is meer open ruimte en groen per inwoner",
+            "De woningen zijn er bijna altijd goedkoper",
+            "Er is er minder verkeer en minder lawaai"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een stad bundelt werk, scholen, ziekenhuizen, winkels en cultuur op korte afstand. Ruimte, rust en groen zijn juist de troeven van het platteland."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke redenen brengen mensen ertoe om net op het platteland te gaan wonen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Meer ruimte voor hetzelfde geld",
+            "Meer rust en minder lawaai",
+            "Meer groen in de directe omgeving",
+            "Meer universiteiten in de buurt",
+            "Meer hoofdkantoren van bedrijven"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Ruimte, rust en groen zijn de klassieke pullfactoren van het platteland. Universiteiten en hoofdkantoren liggen juist in de stad, dat is een reden om er net wel te wonen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Wie op het platteland woont en in de stad werkt, legt meestal meer kilometers af dan wie in de stad zelf woont.",
+          "antwoord": true,
+          "uitleg": "Ruimte en rust koop je met reistijd. Dat pendelen is een van de redenen waarom verstedelijking van het platteland de files doet groeien."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een gezin verhuist van de stad naar een dorp twintig kilometer verderop, voor een tuin en een rustiger straat. Hoe noem je dat?",
+          "opties": [
+            "Stadsvlucht",
+            "Verstedelijking",
+            "Inbreiding",
+            "Segregatie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Stadsvlucht is het vertrek van stadsbewoners naar de rand en het platteland. Het is een van de motoren achter de verstedelijking van dorpen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke beïnvloedende factoren noemt de vakfiche bij de keuze tussen stad en platteland? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Het klimaat en de klimaatverandering",
+            "De politieke en de oorlogssituatie",
+            "De welvaart, het welzijn en armoede",
+            "Het aantal meridianen over het land",
+            "De kleurkeuze van de kaartmaker"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De fiche somt klimaat en klimaatverandering, reliëf, bodemkwaliteit, de politieke situatie, de oorlogssituatie, welvaart en welzijn, en armoede op."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In veel landen met een lagere ontwikkelingsgraad trekken mensen vooral van het platteland naar de stad.",
+          "antwoord": true,
+          "uitleg": "Werk, onderwijs en zorg zitten daar in de stad. Groeit die stad sneller dan haar woningen en riolering, dan ontstaan er sloppenwijken aan de rand."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op welke gronden bepaalt men de hiërarchie tussen steden?",
+          "opties": [
+            "Hun economisch, cultureel en politiek belang",
+            "Hun oppervlakte in vierkante kilometer",
+            "Hun ouderdom en het jaar van hun stichting",
+            "Hun ligging ten opzichte van de nulmeridiaan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Niet grootte maar belang telt. Een kleinere stad met een regeringszetel of een wereldhaven kan hoger in de hiërarchie staan dan een grotere stad zonder die functies."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke kenmerken wijzen op het economische belang van een stad? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Hoofdkwartieren van grote ondernemingen",
+            "Internationale banken in de stad",
+            "Belangrijke handelszaken en beurzen",
+            "Grote musea en onderzoeksinstellingen",
+            "De zetel van de regering van het land"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Bedrijven, banken en handel zijn economische criteria. Musea en onderzoek horen bij het culturele belang, een regeringszetel bij het politieke."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je met één woord de rangorde tussen steden op basis van hun belang?",
+          "antwoord": [
+            "hiërarchie",
+            "de hiërarchie",
+            "stedenhiërarchie"
+          ],
+          "uitleg": "Bovenaan de hiërarchie staan de wereldsteden, onderaan de kleine stadjes die vooral hun eigen streek bedienen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke kenmerken wijzen op het culturele belang van een stad? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Universiteiten en hogescholen",
+            "Grote musea en theaters",
+            "Ruime recreatiemogelijkheden",
+            "Internationale banken en beurzen",
+            "Hoofdkwartieren van de regering"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Onderwijs, musea en ontspanning zijn culturele criteria. Banken zijn economisch, regeringszetels politiek."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een stad kan tegelijk hoog scoren op economisch, cultureel én politiek belang.",
+          "antwoord": true,
+          "uitleg": "Parijs, Londen en Tokio combineren de drie. Die stapeling is juist wat een wereldstad tot een wereldstad maakt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom staat Brussel hoog in de Europese stedenhiërarchie, ook al is het niet de grootste stad van Europa?",
+          "opties": [
+            "Er zetelen belangrijke Europese instellingen",
+            "Het ligt precies in het midden van het continent",
+            "Het heeft de grootste haven van het continent",
+            "Het heeft het oudste stadscentrum van Europa"
+          ],
+          "antwoord": 0,
+          "uitleg": "Politiek belang weegt zwaar in de hiërarchie. Door de Europese instellingen en de NAVO trekt Brussel diplomaten, lobbyisten en internationale bedrijven aan."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De grootste stad van een land is altijd ook de hoofdstad van dat land.",
+          "antwoord": false,
+          "uitleg": "In de Verenigde Staten is New York veel groter dan Washington, en in Australië is Sydney groter dan Canberra. Politiek belang en inwonersaantal vallen niet samen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een dorp krijgt er in twintig jaar drie verkavelingen bij, maar geen enkele nieuwe winkel. Wat gebeurt er?",
+          "opties": [
+            "Het wordt een woondorp waar men voor alles wegrijdt",
+            "Het klimt daardoor in de hiërarchie van de steden",
+            "Het wordt daardoor een stad met een eigen centrum",
+            "De bevolkingsdichtheid van het dorp daalt erdoor"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wonen komt erbij, voorzieningen niet. De inwoners werken, winkelen en gaan naar school elders, en de autoafhankelijkheid van het dorp neemt toe."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom blijft het reliëf ook vandaag meespelen bij waar steden groeien?",
+          "opties": [
+            "Bouwen en wegen aanleggen is in vlak gebied goedkoper",
+            "In de bergen is het klimaat altijd te koud om te wonen",
+            "Op hoogte is er wettelijk geen bebouwing toegestaan",
+            "Steile hellingen hebben altijd een onvruchtbare bodem"
+          ],
+          "antwoord": 0,
+          "uitleg": "Technisch kan er veel, maar kosten sturen. In dalen en vlaktes liggen de wegen, de sporen en het water, en daar groeien de steden dus het snelst."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de dagelijkse verplaatsing van mensen tussen hun woonplaats en hun werkplaats?",
+          "antwoord": [
+            "pendelen",
+            "het pendelen",
+            "pendelverkeer"
+          ],
+          "uitleg": "Pendelen verbindt het platteland met de stad. Hoe meer mensen buiten de stad wonen en erin werken, hoe zwaarder dat verkeer weegt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Armoede kan zowel een reden zijn om naar de stad te trekken als om er juist weg te blijven.",
+          "antwoord": true,
+          "uitleg": "In de stad is er meer kans op werk, maar het wonen is er duurder. Dat is precies waarom armere gezinnen vaak in de goedkoopste, oudste wijken terechtkomen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je onderzoekt of een gemeente verstedelijkt. Welke bronnen helpen je daarbij? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Luchtfoto's van vroeger en nu naast elkaar",
+            "Cijfers over het aantal inwoners per jaar",
+            "Kaarten van het bodemgebruik door de jaren heen",
+            "Een klimatogram van het dichtstbijzijnde weerstation",
+            "Een leeftijdshistogram van een buurland"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Verstedelijking zie je aan bebouwing, inwoners en bodemgebruik over de tijd. Een klimatogram gaat over het weer, een histogram van een buurland over iets heel anders."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Verstedelijking betekent alleen dat steden meer inwoners krijgen.",
+          "antwoord": false,
+          "uitleg": "Verstedelijking is even goed het opschuiven van stedelijke kenmerken naar het platteland: verkavelingen, winkelcentra langs de invalsweg, bedrijventerreinen bij de afrit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een bedrijf kiest voor een terrein vlak bij een snelwegafrit buiten de stad. Waarom?",
+          "opties": [
+            "Grond is er goedkoper en bereikbaar voor vrachtwagens",
+            "De bevolkingsdichtheid is er hoger dan in de stad",
+            "De werknemers wonen er allemaal op wandelafstand",
+            "Er gelden daar geen regels over bodemgebruik meer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ruimte en bereikbaarheid wegen zwaarder dan nabijheid van klanten. Het gevolg is dat werk uit de stad wegtrekt en dat de open ruimte verder versnippert."
+        }
+      ]
+    },
+    {
+      "titel": "Stad en platteland — deel 2",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bedoelt men met sociale segregatie in een stad?",
+          "opties": [
+            "Bevolkingsgroepen wonen in gescheiden wijken",
+            "De stad groeit sneller dan haar omliggende dorpen",
+            "Oude gebouwen krijgen er een nieuwe functie",
+            "Het aantal inwoners van de stad neemt af"
+          ],
+          "antwoord": 0,
+          "uitleg": "Segregatie is ruimtelijke scheiding: arm en rijk, of groepen van verschillende afkomst, komen in verschillende wijken terecht. Dat gebeurt zelden bewust, maar via woningprijzen en kansen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de belangrijkste motor achter sociale segregatie in West-Europese steden?",
+          "opties": [
+            "De verschillen in woningprijs tussen wijken",
+            "De ligging van de wijken ten opzichte van het noorden",
+            "De keuze van de gemeente om wijken toe te wijzen",
+            "Het reliëf van de bodem waarop de stad gebouwd is"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie weinig kan betalen, belandt in de goedkoopste woningen, en die liggen bij elkaar. Zo ontstaat scheiding zonder dat iemand ze oplegt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Multiculturaliteit en sociale segregatie zijn twee woorden voor hetzelfde.",
+          "antwoord": false,
+          "uitleg": "Multiculturaliteit gaat over wie er samen in een stad woont, segregatie over de vraag of die groepen ook door elkaar wonen. Een stad kan heel divers zijn en tegelijk sterk gescheiden, of net niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een oude textielfabriek in het centrum wordt omgebouwd tot appartementen. Hoe noem je dat?",
+          "opties": [
+            "Een functiewijziging",
+            "Een ontvolking",
+            "Een segregatie",
+            "Een schaalvergroting"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het gebouw blijft, het gebruik verandert: van industrie naar wonen. Zulke functiewijzigingen zijn een van de duidelijkste sporen van de de-industrialisatie in stadscentra."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke veranderingen horen bij de verstedelijking van het platteland? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Nieuwe verkavelingen rond de dorpskern",
+            "Winkelcentra en bedrijven langs de invalswegen",
+            "Meer bebouwing op wat vroeger akkerland was",
+            "Meer weilanden en hagen dan dertig jaar geleden",
+            "Minder autoverkeer dan dertig jaar geleden"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Verstedelijking van het platteland is stedelijke bebouwing en stedelijke functies die opschuiven naar het dorp. Meer open ruimte en minder verkeer zijn precies het omgekeerde."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Ontvolking van het platteland gebeurt vooral in afgelegen streken zonder werk of voorzieningen.",
+          "antwoord": true,
+          "uitleg": "Jongeren trekken weg voor studie en werk, de school en de bakker sluiten, en dat maakt blijven nog moeilijker. In delen van Spanje en Zuid-Italië staan zo hele dorpen leeg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is inbreiding?",
+          "opties": [
+            "Bouwen op open plekken binnen de bestaande stad",
+            "Bouwen op akkerland aan de rand van de stad",
+            "Een oud gebouw slopen zonder er iets voor terug te bouwen",
+            "Woningen omvormen tot kantoren in het centrum"
+          ],
+          "antwoord": 0,
+          "uitleg": "Inbreiding vult lege plekken en oude bedrijfsterreinen binnen de stad op. Het alternatief is uitbreiding, en dat kost telkens open ruimte buiten de stad."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom kiezen veel steden vandaag voor inbreiding in plaats van uitbreiding?",
+          "opties": [
+            "Zo blijft de open ruimte buiten de stad gespaard",
+            "Zo wordt bouwen binnen de stad altijd goedkoper",
+            "Zo daalt het aantal inwoners van de stad sneller",
+            "Zo verdwijnt de sociale segregatie uit de wijken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Open ruimte is in Vlaanderen schaars geworden. Inbreiding houdt bovendien de voorzieningen dicht bij de mensen, waardoor er minder autokilometers nodig zijn."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het opdelen van de open ruimte in kleine, van elkaar gescheiden stukken door wegen en bebouwing?",
+          "antwoord": [
+            "versnippering",
+            "de versnippering"
+          ],
+          "uitleg": "Versnippering is een van de grootste problemen van de Vlaamse ruimte. Kleine losse stukken natuur werken veel minder goed dan één groot aaneengesloten gebied."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is stadslandbouw?",
+          "opties": [
+            "Voedsel telen in of vlak bij de stad zelf",
+            "Landbouwgrond verkavelen voor nieuwe woningen",
+            "Landbouwbedrijven samenvoegen tot grotere bedrijven",
+            "Voedsel invoeren uit andere werelddelen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Volkstuinen, daktuinen, serres op oude bedrijventerreinen: voedsel wordt geteeld waar het ook gegeten wordt. Dat scheelt transport en maakt de stad groener."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke voordelen worden aan stadslandbouw toegeschreven? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Kortere afstand tussen teelt en bord",
+            "Meer groen en minder verharding in de stad",
+            "Meer contact tussen buurtbewoners onderling",
+            "Genoeg opbrengst om de hele stad te voeden",
+            "Lagere grondprijzen in het stadscentrum"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Stadslandbouw wint op transport, groen en sociaal contact. Een stad helemaal voeden lukt er niet mee, en op de grondprijs heeft ze geen invloed."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Veranderende mobiliteit verandert ook het landschap.",
+          "antwoord": true,
+          "uitleg": "Een nieuwe ring, een fietssnelweg of een gesloten spoorlijn herschikt waar mensen wonen en werken. Wat goed bereikbaar wordt, wordt bebouwd; wat afgesneden raakt, loopt leeg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een winkelstraat in het centrum staat een derde van de panden leeg. Welke verklaringen zijn geloofwaardig? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Winkelcentra aan de rand trekken de klanten weg",
+            "Meer mensen kopen online in plaats van in de winkel",
+            "De straat is moeilijk bereikbaar geworden met de auto",
+            "De bevolking van het land is gehalveerd",
+            "De winkelstraat ligt op een te hoge breedtegraad"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Concurrentie aan de rand, online kopen en bereikbaarheid zijn de klassieke oorzaken van leegstand. De twee laatste opties slaan nergens op."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een stad die inwoners verliest, verliest daarom ook haar economische functie.",
+          "antwoord": false,
+          "uitleg": "Er zijn steden die leeglopen maar hun kantoren, haven en universiteit houden. Woonfunctie en economische functie kunnen apart van elkaar bewegen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een gevolg van verharding in de stad?",
+          "opties": [
+            "Regenwater loopt sneller weg en dringt niet in de bodem",
+            "De grondwatervoorraad onder de stad wordt aangevuld",
+            "De temperatuur in de stad daalt tijdens een hittegolf",
+            "Er groeien meer bomen tussen de straten en pleinen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Beton en asfalt laten geen water door. Het water stroomt naar de riool, het grondwater vult niet aan, en bij hevige regen loopt het riool over."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet het verschijnsel waarbij het in een stad meetbaar warmer is dan op het platteland eromheen?",
+          "antwoord": [
+            "hitte-eilandeffect",
+            "het hitte-eilandeffect",
+            "hitte-eiland"
+          ],
+          "uitleg": "Steen en asfalt slaan warmte op en geven ze 's nachts weer af, en er is weinig groen dat verkoelt. Het verschil loopt tijdens een hittegolf op tot enkele graden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een gemeente breekt een betonnen plein open en plant er bomen. Welk probleem pakt ze daarmee aan?",
+          "opties": [
+            "De hitte en het wegstromen van regenwater",
+            "De sociale segregatie tussen de wijken",
+            "De hiërarchie van de stad in de regio",
+            "De ontvolking van het platteland eromheen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Minder verharding betekent meer schaduw, meer verdamping en water dat in de bodem trekt. Aan segregatie of hiërarchie verandert een plein niets."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Functiewijziging in een stad gebeurt alleen bij oude fabrieksgebouwen.",
+          "antwoord": false,
+          "uitleg": "Kerken worden bibliotheken, kantoren worden appartementen, scholen worden woningen. Elk gebouw kan een nieuwe functie krijgen als de vraag verandert."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je vergelijkt twee luchtfoto's van dezelfde gemeente uit 1970 en nu. Waaraan zie je verstedelijking het snelst?",
+          "opties": [
+            "Aan de oppervlakte die bebouwd en verhard is",
+            "Aan de kleur van de daken op de foto's",
+            "Aan de hoogte waarop de foto genomen is",
+            "Aan het aantal wolken boven de gemeente"
+          ],
+          "antwoord": 0,
+          "uitleg": "Verstedelijking lees je af aan bebouwing en verharding die toenemen ten koste van akkers en weiden. Let er wel op dat beide foto's in hetzelfde seizoen en op dezelfde schaal genomen zijn."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In een multiculturele wijk kan het straatbeeld zelf een bron zijn voor geografisch onderzoek.",
+          "antwoord": true,
+          "uitleg": "Winkels, opschriften, gebedshuizen en marktkramen vertellen wie er woont en hoe dat veranderd is. Dat aflezen op het terrein heet terreinkartering."
+        }
+      ]
+    },
+    {
+      "titel": "Grondstoffen, energie en industrie — deel 1",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen een groeve en een mijn?",
+          "opties": [
+            "Een groeve ligt in open lucht, een mijn ondergronds",
+            "Een groeve is groter dan een mijn in oppervlakte",
+            "In een groeve wint men enkel steen, in een mijn enkel erts",
+            "Een groeve is modern, een mijn is altijd traditioneel"
+          ],
+          "antwoord": 0,
+          "uitleg": "In een groeve of dagbouw graaft men van bovenaf. Zit de laag te diep, dan moet men schachten en gangen maken, en dan spreekt men van een mijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom kiest een bedrijf voor dagbouw als dat kan?",
+          "opties": [
+            "Het is goedkoper en veiliger dan ondergronds werken",
+            "Het levert altijd zuiverder erts op dan een mijn",
+            "Het is beter voor het landschap dan een mijn",
+            "Het mag alleen zo in landen met een hoge HDI"
+          ],
+          "antwoord": 0,
+          "uitleg": "Geen schachten, geen instortingsgevaar, grote machines die veel tegelijk verzetten: dat drukt de kosten. Voor het landschap is dagbouw juist ingrijpender, want er verdwijnt een hele laag grond."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Waar een grondstof ontgonnen wordt, hangt in de eerste plaats af van waar die in de bodem zit.",
+          "antwoord": true,
+          "uitleg": "Zonder voorraad geen ontginning. Maar of die voorraad ook echt gewonnen wordt, hangt daarnaast af van de prijs, de politieke stabiliteit en de bereikbaarheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welk land wordt veruit het meeste kobalt ontgonnen?",
+          "opties": [
+            "De Democratische Republiek Congo",
+            "Noorwegen",
+            "Japan",
+            "Nieuw-Zeeland"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het grootste deel van het kobalt in de wereld komt uit Congo. Dat metaal zit in de batterijen van gsm's en elektrische auto's, wat de ontginningsomstandigheden daar een politieke kwestie maakt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze zijn niet-hernieuwbare energiebronnen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Aardolie",
+            "Steenkool",
+            "Uranium voor kernenergie",
+            "Wind op de Noordzee",
+            "Zonlicht op een dak"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Olie, steenkool en uranium zitten in eindige voorraden in de bodem. Wind en zon komen elke dag terug, en die noemen we daarom hernieuwbaar."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Kernenergie is een hernieuwbare energiebron omdat een centrale nauwelijks CO₂ uitstoot.",
+          "antwoord": false,
+          "uitleg": "Weinig CO₂ betekent niet hernieuwbaar. Uranium moet ontgonnen worden en raakt op, en er blijft radioactief afval over. Hernieuwbaar gaat over de bron, niet over de uitstoot."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom staan windmolenparken in België vooral op de Noordzee en in open landschap?",
+          "opties": [
+            "Daar waait het harder en constanter",
+            "Daar is de bodem stevig genoeg om te bouwen",
+            "Daar is de bevolkingsdichtheid het hoogst",
+            "Daar is de luchtdruk het hele jaar gelijk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een windmolen heeft wind nodig zonder gebouwen of bossen die hem afremmen. Boven zee is dat het best, en daar staan bovendien geen buren die er last van hebben."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je met één woord energiebronnen zoals wind, zon en waterkracht, die niet opraken?",
+          "antwoord": [
+            "hernieuwbare",
+            "hernieuwbaar",
+            "hernieuwbare energie"
+          ],
+          "uitleg": "Hernieuwbare bronnen worden voortdurend aangevuld door de natuur. Fossiele brandstoffen en uranium zijn eindig en dus niet-hernieuwbaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom liggen zonneparken vooral in gebieden met veel zonuren?",
+          "opties": [
+            "De opbrengst per paneel is er een stuk hoger",
+            "Panelen gaan er langer mee dan elders",
+            "De grond is er altijd goedkoper dan elders",
+            "Er is er minder onderhoud aan nodig"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dezelfde investering levert er meer stroom op. Daarom liggen de grote parken in Spanje, Noord-Afrika of het zuidwesten van de Verenigde Staten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Recyclage kan een bron van grondstoffen zijn, naast ontginning uit de bodem.",
+          "antwoord": true,
+          "uitleg": "Uit oud schroot, gebruikte batterijen en elektronica komen metalen terug. Dat heet soms stedelijke mijnbouw, en het spaart zowel energie als bodem."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke redenen maken recyclage van metalen aantrekkelijk? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Er is veel minder energie voor nodig dan voor nieuw erts",
+            "Er hoeft geen nieuwe mijn of groeve voor open",
+            "Het maakt een land minder afhankelijk van invoer",
+            "Het gerecycleerde metaal is altijd zuiverder dan nieuw",
+            "Er komen geen transportkosten meer bij kijken"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Energie, landschap en onafhankelijkheid zijn de echte winsten. Gerecycleerd metaal is meestal net minder zuiver, en vervoerd moet het nog altijd worden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen traditionele en moderne ontginning?",
+          "opties": [
+            "Traditioneel gebeurt met handkracht, modern met machines",
+            "Traditioneel levert altijd meer op dan modern",
+            "Traditioneel gebeurt boven de grond, modern eronder",
+            "Traditioneel is altijd duurzamer dan modern"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij traditionele ontginning graven mensen met eenvoudig gereedschap, soms in gevaarlijke omstandigheden. Moderne ontginning draait op zware machines en levert veel meer per werkende op."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een land met grote grondstofvoorraden is daarom nog geen welvarend land.",
+          "antwoord": true,
+          "uitleg": "Als de winst naar buitenlandse bedrijven of een kleine elite gaat, merkt de bevolking er weinig van. Men spreekt dan zelfs van de grondstoffenvloek."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een land met grote olievoorraden raakt in oorlog. Wat verwacht je met de productie?",
+          "opties": [
+            "Ze valt terug, want investeerders en werknemers vertrekken",
+            "Ze stijgt, want oorlog vraagt meer brandstof",
+            "Ze blijft gelijk, want de olie zit gewoon in de grond",
+            "Ze stijgt, want de prijzen gaan bij oorlog omhoog"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ontginning heeft rust, personeel en werkende havens en pijpleidingen nodig. Politieke stabiliteit is daarom een echte geopolitieke factor, geen bijzaak."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke fysische factoren beïnvloeden waar energie geproduceerd wordt? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Het klimaat en de klimaatverandering",
+            "Het reliëf van het gebied",
+            "De grondstoffen in de bodem",
+            "De staatsvorm van het land",
+            "Het loon van de werknemers"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Klimaat, reliëf en grondstoffen zijn fysische factoren. Staatsvorm is geopolitiek en verloning sociaaleconomisch; de fiche zet die drie groepen bewust naast elkaar."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je energiecentrales die stroom maken uit stromend water in een stuwdam?",
+          "antwoord": [
+            "waterkrachtcentrales",
+            "waterkrachtcentrale",
+            "waterkracht"
+          ],
+          "uitleg": "Waterkracht heeft hoogteverschil en een constante watertoevoer nodig. Daarom liggen die centrales in bergachtige streken met veel neerslag of smeltwater."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Klimaatverandering kan bepalen hoeveel een waterkrachtcentrale opbrengt.",
+          "antwoord": true,
+          "uitleg": "Krimpen de gletsjers en valt er in de zomer minder neerslag, dan staat er minder water in het stuwmeer. Verschillende Alpenlanden merken dat al in hun jaarcijfers."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom lagen de oude steenkoolmijnen van de Kempen precies daar?",
+          "opties": [
+            "Daar zat de steenkoollaag in de ondergrond",
+            "Daar was de bevolkingsdichtheid het hoogst",
+            "Daar liep de grens met Nederland vlakbij",
+            "Daar was het klimaat het meest geschikt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ontginning volgt de voorraad. De mijnen van onder andere Genk, Beringen en Houthalen kwamen er nadat men de steenkoollaag in de Kempense ondergrond gevonden had."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een grondstof wordt altijd ontgonnen zodra men weet dat ze ergens zit.",
+          "antwoord": false,
+          "uitleg": "Pas als de opbrengst hoger is dan de kosten van winnen en vervoeren, begint men eraan. Stijgt de wereldprijs, dan wordt een voorraad die jaren bleef liggen plots wel interessant."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom worden zeldzame metalen voor batterijen steeds meer gezocht?",
+          "opties": [
+            "De vraag naar elektrische toestellen en auto's stijgt",
+            "De voorraden in de bodem groeien elk jaar aan",
+            "Ze zijn goedkoper geworden om te ontginnen",
+            "Ze zijn overal ter wereld even gemakkelijk te vinden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vraag en aanbod sturen de ontginning. Doordat de wereld op elektriciteit overschakelt, stijgt de vraag naar lithium, kobalt en nikkel, en dus ook de druk op de gebieden waar ze zitten."
+        }
+      ]
+    },
+    {
+      "titel": "Grondstoffen, energie en industrie — deel 2",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom lag de zware industrie vroeger vlak bij de steenkoolmijnen?",
+          "opties": [
+            "Steenkool was zwaar en duur om te vervoeren",
+            "De grond was daar goedkoper dan elders",
+            "De arbeiders wilden dicht bij de mijn wonen",
+            "De overheid verplichtte bedrijven daartoe"
+          ],
+          "antwoord": 0,
+          "uitleg": "Voor één ton staal had men veel kolen nodig. Die naast de fabriek hebben scheelde enorm, en zo groeiden staal en glas langs de Samber en de Maas."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat kenmerkt moderne industrie tegenover traditionele industrie?",
+          "opties": [
+            "Ze kiest haar plaats vrijer, want grondstoffen wegen minder",
+            "Ze gebruikt altijd meer arbeiders per product dan vroeger",
+            "Ze ligt altijd verder van een haven of luchthaven",
+            "Ze verbruikt altijd meer steenkool dan vroeger"
+          ],
+          "antwoord": 0,
+          "uitleg": "Chips, medicijnen en software hangen niet aan een kolenlaag vast. Ze zoeken kennis, goede verbindingen en personeel, en kunnen dus bijna overal terecht."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De afzetmarkt van een product is de plaats waar het verkocht wordt.",
+          "antwoord": true,
+          "uitleg": "Waar iets gemaakt wordt en waar het verkocht wordt, kan ver uit elkaar liggen. Juist dat verschil maakt de wereldhandel en de rol van havens zo groot."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom liggen de grote chemische bedrijven van ons land in en rond de haven van Antwerpen?",
+          "opties": [
+            "Grondstoffen komen er per schip binnen en producten weer buiten",
+            "De bodem is er het meest vruchtbaar van het land",
+            "Het klimaat is er milder dan in de rest van het land",
+            "De bevolkingsdichtheid is er het laagst van het land"
+          ],
+          "antwoord": 0,
+          "uitleg": "Aardolie en chemische grondstoffen reizen over zee. Een fabriek aan de kade bespaart een dure rit over land, en dat weegt in de chemie zwaar door."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke geopolitieke factoren beïnvloeden waar industrie zich vestigt? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "De staatsvorm van het land",
+            "De politieke stabiliteit van het land",
+            "De samenwerkingsverbanden met andere landen",
+            "Het reliëf van de streek",
+            "De klimaatzone van de streek"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Staatsvorm, stabiliteit en verdragen bepalen of een bedrijf er durft te investeren en of het vlot kan uitvoeren. Reliëf en klimaat zijn fysische factoren."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Lagere lonen zijn de enige reden waarom bedrijven productie naar het buitenland verplaatsen.",
+          "antwoord": false,
+          "uitleg": "Lonen wegen mee, maar ook belastingen, milieuregels, de nabijheid van de afzetmarkt en de beschikbaarheid van geschoold personeel. Vaak is het een combinatie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat wordt bedoeld met de-industrialisatie?",
+          "opties": [
+            "Industrie verdwijnt uit een streek die er sterk op draaide",
+            "Industrie breidt zich uit naar het platteland toe",
+            "Industrie schakelt over op hernieuwbare energie",
+            "Industrie wordt door de overheid overgenomen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Fabrieken sluiten of verhuizen, en de streek verliest werk en inkomen. Wallonië en Noord-Frankrijk maakten dat na de sluiting van de mijnen en de staalbedrijven mee."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het omvormen van een oud industrieterrein tot iets nieuws, zoals de mijnsite van Genk die een bedrijven- en onderzoekspark werd?",
+          "antwoord": [
+            "reconversie",
+            "de reconversie"
+          ],
+          "uitleg": "Reconversie geeft een gebied een nieuwe functie: wetenschapspark, woonwijk, museum of natuurgebied. Het gebouw blijft vaak staan, het gebruik verandert."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke gevolgen heeft de sluiting van een grote fabriek voor een streek? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Werkloosheid stijgt in de omliggende gemeenten",
+            "Jongeren trekken weg op zoek naar werk",
+            "Er komt een groot terrein leeg te staan",
+            "De bevolkingsdichtheid stijgt er meteen",
+            "Het klimaat van de streek verandert erdoor"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Werk, bevolking en ruimte veranderen alle drie. De dichtheid daalt juist als jongeren wegtrekken, en op het klimaat van de streek heeft een fabriek geen meetbare invloed."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De nabijheid van de klanten weegt voor elk bedrijf even zwaar, welk product het ook maakt.",
+          "antwoord": false,
+          "uitleg": "Bij zware of bederfelijke producten weegt ze zwaar: een betoncentrale of een bakkerij levert dicht bij huis. Bij lichte, dure producten zoals medicijnen of chips weegt ze bijna niet, want vervoeren kost daar weinig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke sociaaleconomische factoren noemt de vakfiche bij het industriële proces? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "De Human Development Index",
+            "De verloning van de werknemers",
+            "Vraag en aanbod en de afzetmarkt",
+            "De klimaatzone van het gebied",
+            "De reliëfeenheid van het gebied"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "HDI, verloning, vraag en aanbod en de afzetmarkt zijn de sociaaleconomische factoren. Klimaatzone en reliëfeenheid staan bij de fysische."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een fabrikant van kleding laat naaien in een land met lage lonen en verkoopt in Europa. Wat zegt dat over productie en afzetmarkt?",
+          "opties": [
+            "Ze liggen op verschillende continenten",
+            "Ze vallen altijd in hetzelfde land samen",
+            "De afzetmarkt bepaalt waar genaaid wordt",
+            "De productie bepaalt waar verkocht wordt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het product legt duizenden kilometers af voor het in de winkel hangt. Dat uit elkaar halen van productie en verkoop is typisch voor een gemondialiseerde economie."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Moderne industrie heeft geen goede transportverbindingen meer nodig.",
+          "antwoord": false,
+          "uitleg": "Ze is minder aan grondstoffen gebonden, maar niet aan transport. Luchthavens, autosnelwegen en snelle datakabels zijn voor moderne bedrijven juist doorslaggevend."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waaraan herken je op een kaart een gebied met zware industrie?",
+          "opties": [
+            "Grote bedrijventerreinen bij een haven, spoor of kanaal",
+            "Kleine winkels verspreid over de dorpskernen",
+            "Grote aaneengesloten bossen zonder bebouwing",
+            "Veel kleine akkers met hagen ertussen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zware industrie vraagt ruimte en vervoer over water of spoor. Op een kaart zie je dus grote blokken langs een kanaal, een dok of een spoorbundel."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het verplaatsen van werk of productie naar een bedrijf in een ander land?",
+          "antwoord": [
+            "outsourcing",
+            "uitbesteding",
+            "delokalisatie"
+          ],
+          "uitleg": "Outsourcing of uitbesteding brengt werk naar waar het goedkoper of beter kan. Het is een van de motoren van de mondialisering."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een land dat lid is van een groot handelsblok, voert makkelijker uit naar de andere leden.",
+          "antwoord": true,
+          "uitleg": "Binnen de Europese Unie vallen invoerrechten en veel controles weg. Dat is precies waarom samenwerkingsverbanden bij de geopolitieke factoren staan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een streek verliest haar mijnen, maar krijgt later een wetenschapspark en een campus. Wat is hier gebeurd?",
+          "opties": [
+            "De-industrialisatie gevolgd door reconversie",
+            "Industrialisatie gevolgd door schaalvergroting",
+            "Verstedelijking gevolgd door ontvolking",
+            "Segregatie gevolgd door multiculturaliteit"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst verdween de oude industrie, daarna kreeg het terrein een nieuwe functie. Thor Park in Genk, op de oude mijnsite van Waterschei, is daar een voorbeeld van."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke ruimtelijke gevolgen heeft grondstofontginning? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Het landschap verandert blijvend van vorm",
+            "Er komen wegen en spoorlijnen naartoe",
+            "Er ontstaan nederzettingen voor de werkers",
+            "De klimaatzone van het gebied verschuift",
+            "De geografische coördinaten verschuiven"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een mijn of groeve trekt infrastructuur en mensen aan en laat een put of een terril na. Coördinaten en klimaatzones veranderen daar natuurlijk niet van."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Industrie zoekt tegenwoordig vooral plaatsen met goedkope grond en een goede aansluiting op het wegennet.",
+          "antwoord": true,
+          "uitleg": "Daarom liggen nieuwe bedrijventerreinen bij snelwegafritten buiten de stad. Het gevolg is dat werk uit de kernen wegtrekt en de open ruimte verder versnippert."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is een haven zo belangrijk voor de industrie van een land?",
+          "opties": [
+            "Ze verbindt de fabrieken met afzetmarkten overzee",
+            "Ze levert de fabrieken rechtstreeks elektriciteit",
+            "Ze zorgt voor goedkopere lonen in de streek",
+            "Ze verlaagt de belastingen voor bedrijven daar"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het grootste deel van de wereldhandel gaat over zee. Een haven is de poort waardoor grondstoffen binnenkomen en afgewerkte producten vertrekken."
+        }
+      ]
+    },
+    {
+      "titel": "Landbouw, handel en toerisme — deel 1",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen akkerbouw en veeteelt?",
+          "opties": [
+            "Akkerbouw teelt gewassen, veeteelt houdt dieren",
+            "Akkerbouw gebeurt buiten, veeteelt altijd binnen",
+            "Akkerbouw is modern, veeteelt is traditioneel",
+            "Akkerbouw is duurzaam, veeteelt is dat nooit"
+          ],
+          "antwoord": 0,
+          "uitleg": "Akkerbouw, veeteelt en tuinbouw zijn de grote landbouwsystemen. Veel bedrijven combineren ze trouwens: het graan van de akker voedt het vee in de stal."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent extensieve landbouw?",
+          "opties": [
+            "Weinig arbeid en middelen per hectare, op veel grond",
+            "Veel arbeid en middelen per hectare, op weinig grond",
+            "Landbouw die enkel voor de eigen familie produceert",
+            "Landbouw die altijd zonder machines werkt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Extensief spreidt de inspanning over een grote oppervlakte, zoals schapenteelt in de Australische binnenlanden. Intensief concentreert alles op weinig grond, zoals de serres van het Westland."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Intensieve landbouw haalt per hectare meer op dan extensieve landbouw.",
+          "antwoord": true,
+          "uitleg": "Dat is net de bedoeling: meer arbeid, bemesting, water en technologie per hectare geven een hogere opbrengst per hectare. Of het per werkende ook meer opbrengt, is een andere vraag."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom wordt rijst vooral in Zuid- en Oost-Azië geteeld?",
+          "opties": [
+            "Het is er warm en er valt veel neerslag in het groeiseizoen",
+            "De bodem bestaat er vooral uit droog woestijnzand",
+            "Het reliëf is er overal hooggebergte boven de boomgrens",
+            "Er is er nauwelijks arbeidskracht beschikbaar"
+          ],
+          "antwoord": 0,
+          "uitleg": "Rijst heeft warmte en veel water nodig; de moesson levert precies dat. Op terrassen in de heuvels en in de vlaktes van de grote rivieren voedt die teelt honderden miljoenen mensen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke teelten horen bij een mediterraan klimaat? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Olijven",
+            "Wijndruiven",
+            "Citrusvruchten",
+            "Rijst op ondergelopen velden",
+            "Cacao in het regenwoud"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Olijven, wijnstokken en citrus verdragen de droge, warme zomer en de zachte, natte winter rond de Middellandse Zee. Rijst en cacao vragen een heel ander klimaat."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Koffie groeit het best in het warme laagland van de tropen, vlak bij de kust.",
+          "antwoord": false,
+          "uitleg": "Koffie komt uit de tropen, maar juist van de hooglanden: daar is het koeler en groeit de boon trager, wat de smaak ten goede komt. Cacao groeit wél in het warme laagland."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is de zwarte aarde van Oekraïne zo geschikt voor graanteelt?",
+          "opties": [
+            "Ze is heel vruchtbaar en houdt water goed vast",
+            "Ze ligt op grote hoogte in een bergketen",
+            "Ze bestaat bijna volledig uit los zand",
+            "Ze is het hele jaar door bevroren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zwarte aarde is dik en rijk aan humus. Samen met het vlakke reliëf maakt dat van die streek een van de graanschuren van de wereld, wat meteen ook een geopolitieke inzet is."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de landbouwtak die zich met groenten, fruit en sierteelt bezighoudt, vaak in serres?",
+          "antwoord": [
+            "tuinbouw",
+            "de tuinbouw"
+          ],
+          "uitleg": "Tuinbouw werkt intensief op een kleine oppervlakte. In Vlaanderen en Nederland gebeurt veel ervan onder glas, met verwarming en belichting."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke fysische factoren beïnvloeden volgens de vakfiche het landbouwproces? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Het klimaat en de klimaatverandering",
+            "Het reliëf van het gebied",
+            "De bodemkwaliteit en de ondergrond",
+            "De staatsvorm van het land",
+            "De Human Development Index"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Bij de landbouw komen bodemkwaliteit en ondergrond er uitdrukkelijk bij, naast klimaat en reliëf. Staatsvorm is geopolitiek, de HDI sociaaleconomisch."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een landbouwbedrijf dat veel kunstmest en bestrijdingsmiddelen gebruikt, werkt daarmee automatisch duurzaam.",
+          "antwoord": false,
+          "uitleg": "Hoge opbrengsten en duurzaamheid zijn niet hetzelfde. Te veel mest belandt in het grond- en oppervlaktewater, en bestrijdingsmiddelen raken ook insecten die je net nodig hebt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is schaalvergroting in de landbouw?",
+          "opties": [
+            "Minder bedrijven die elk meer grond bewerken",
+            "Meer bedrijven die elk minder grond bewerken",
+            "Meer landbouwgrond die wordt volgebouwd",
+            "Meer soorten gewassen per bedrijf telen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie stopt, wordt overgenomen door een buur die groter wordt. Grote machines en grote percelen verlagen de kostprijs, maar hagen, bomen en slootjes verdwijnen erbij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke gevolgen heeft schaalvergroting voor het landschap? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Percelen worden groter en rechter",
+            "Hagen en houtkanten verdwijnen",
+            "Wegen en sloten worden rechtgetrokken",
+            "Er komen meer kleine boerderijen bij",
+            "De bodem wordt vanzelf vruchtbaarder"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Voor grote machines moet het perceel groot en recht zijn. Dat kost landschapselementen, en zonder hagen en houtkanten krijgt de wind meer vat op de grond."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bodemerosie treedt sneller op wanneer een helling na de oogst kaal blijft liggen.",
+          "antwoord": true,
+          "uitleg": "Zonder begroeiing spoelt de regen de vruchtbare bovenlaag weg. Daarom zaait men een groenbedekker in of ploegt men dwars op de helling."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is bodemdegradatie?",
+          "opties": [
+            "De kwaliteit van de bodem gaat achteruit",
+            "De bodem wordt met vrachtwagens afgevoerd",
+            "De bodem wordt bedekt met beton en asfalt",
+            "De bodem wordt door een rivier aangevoerd"
+          ],
+          "antwoord": 0,
+          "uitleg": "Verzilting, uitputting, verdichting en verlies van organische stof maken de grond minder productief. Herstel duurt tientallen jaren, verlies gaat in enkele seizoenen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het kappen van bos om er landbouwgrond of weiland van te maken?",
+          "antwoord": [
+            "ontbossing",
+            "de ontbossing"
+          ],
+          "uitleg": "Ontbossing voor soja, palmolie en vee is een van de grootste oorzaken van bosverlies wereldwijd. Ze kost biodiversiteit en laat koolstof vrij die in het bos opgeslagen zat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een boer teelt gewassen om ze op de wereldmarkt te verkopen in plaats van voor eigen gebruik. Waarover gaat dat?",
+          "opties": [
+            "Over de afzetmarkt van zijn producten",
+            "Over de bodemkwaliteit van zijn grond",
+            "Over het reliëf van zijn percelen",
+            "Over de klimaatzone van zijn streek"
+          ],
+          "antwoord": 0,
+          "uitleg": "De afzetmarkt is waar het product verkocht raakt. Die keuze bepaalt mee wat er geteeld wordt: wat de wereldmarkt vraagt, is niet altijd wat de streek zelf eet."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Traditionele landbouw haalt per hectare altijd minder op dan moderne landbouw.",
+          "antwoord": false,
+          "uitleg": "Per werkende wel: met de hand bewerkt één boer veel minder grond dan met een maaidorser. Per hectare niet: rijstterrassen die met de hand bewerkt worden, halen een heel hoge opbrengst uit weinig grond."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom beïnvloedt de politieke stabiliteit van een land ook zijn landbouw?",
+          "opties": [
+            "Zonder rust is zaaien, oogsten en verkopen onmogelijk",
+            "Zonder rust verandert de bodemkwaliteit van de grond",
+            "Zonder rust verandert de klimaatzone van het land",
+            "Zonder rust groeien gewassen trager dan gewoonlijk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Oorlog legt velden braak, vernielt opslag en verstoort de handel. Daarom leidt een conflict in een graanland tot hogere voedselprijzen ver daarbuiten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke kenmerken wijzen op een duurzamer landbouwbedrijf? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Het houdt hagen en houtkanten op zijn percelen",
+            "Het wisselt zijn gewassen af over de jaren",
+            "Het beperkt de mest tot wat de grond opneemt",
+            "Het ploegt elke helling recht van boven naar beneden",
+            "Het teelt jaar na jaar hetzelfde gewas op hetzelfde perceel"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Landschapselementen, vruchtwisseling en doordacht bemesten houden de bodem gezond. Recht van de helling ploegen en steeds hetzelfde telen putten hem juist uit."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Klimaatverandering kan ervoor zorgen dat een gewas op een plaats niet meer rendeert.",
+          "antwoord": true,
+          "uitleg": "Langere droogtes, andere neerslagpatronen en nieuwe ziekten verschuiven de gebieden waar een teelt lukt. Koffieboeren trekken daarom op sommige plaatsen hoger de berg op."
+        }
+      ]
+    },
+    {
+      "titel": "Landbouw, handel en toerisme — deel 2",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat wordt bedoeld met de dienstensector?",
+          "opties": [
+            "Werk waarbij men geen goederen maakt maar diensten levert",
+            "Werk in de landbouw en de visserij samen",
+            "Werk in de fabrieken en op bouwwerven",
+            "Werk waarbij men grondstoffen ontgint"
+          ],
+          "antwoord": 0,
+          "uitleg": "Onderwijs, zorg, handel, transport, bankwezen en toerisme horen erbij. In landen met een hoge ontwikkelingsgraad werkt het grootste deel van de mensen in die sector."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom komt toerisme op sommige plaatsen sterk voor en elders nauwelijks?",
+          "opties": [
+            "Klimaat, landschap, erfgoed en veiligheid spelen samen mee",
+            "Het hangt bijna volledig af van de oppervlakte van het land",
+            "Het hangt bijna volledig af van het aantal inwoners",
+            "Het hangt bijna volledig af van de geografische lengte"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zon, sneeuw, bergen, kust, steden met geschiedenis en een veilige situatie trekken bezoekers. Ontbreekt er één van die voorwaarden, dan blijven ze weg."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Politieke onrust in een land doet het aantal toeristen er meestal snel dalen.",
+          "antwoord": true,
+          "uitleg": "Toerisme is een van de eerste sectoren die een conflict voelt. Reisadviezen en annuleringen komen er binnen de week, en het herstel duurt jaren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke fysische factoren maken een streek aantrekkelijk voor toerisme? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Een klimaat met veel zonuren",
+            "Een kust met stranden",
+            "Een reliëf met bergen voor wintersport",
+            "Een hoge Human Development Index",
+            "Het lidmaatschap van een handelsblok"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Klimaat, kust en reliëf zijn fysische troeven. De HDI is sociaaleconomisch en een handelsblok geopolitiek; die spelen ook mee, maar via een andere weg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom ligt wintersporttoerisme vooral in hooggebergte?",
+          "opties": [
+            "Daar ligt lang genoeg sneeuw om een seizoen te draaien",
+            "Daar is de bevolkingsdichtheid het hoogst",
+            "Daar is de bodem het meest vruchtbaar",
+            "Daar liggen de meeste luchthavens van Europa"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hoogte betekent kou, en kou betekent sneeuw die blijft liggen. Door de klimaatverandering schuift de betrouwbare sneeuwgrens jaar na jaar hoger."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Klimaatverandering vormt een bedreiging voor het wintersporttoerisme in de Alpen.",
+          "antwoord": true,
+          "uitleg": "Lager gelegen skigebieden halen steeds moeilijker een volledig seizoen. Sneeuwkanonnen helpen tijdelijk, maar die vragen water en energie en werken enkel bij vorst."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke gevolgen kan massatoerisme voor een kuststreek hebben? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Bebouwing die de duinen en de open ruimte opslorpt",
+            "Druk op het drinkwater in het hoogseizoen",
+            "Woningen die voor de eigen bewoners onbetaalbaar worden",
+            "Een daling van de bevolkingsdichtheid in de zomer",
+            "Een verschuiving van de klimaatzone van de streek"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Appartementen, waterverbruik en woningprijzen zijn de klassieke ruimtelijke gevolgen. De dichtheid stijgt in de zomer juist sterk, en de klimaatzone verschuift er niet van."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de sector die onderwijs, zorg, handel en toerisme omvat, en waarin geen goederen gemaakt worden?",
+          "antwoord": [
+            "dienstensector",
+            "de dienstensector",
+            "diensten"
+          ],
+          "uitleg": "De dienstensector is in welvarende landen veruit de grootste werkgever. Landbouw is de eerste sector, industrie de tweede, diensten de derde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is een luchthaven belangrijk voor het toerisme van een land?",
+          "opties": [
+            "Ze brengt bezoekers van ver in enkele uren binnen",
+            "Ze verbetert het klimaat van de omliggende streek",
+            "Ze verhoogt de bodemkwaliteit van de streek",
+            "Ze verlaagt het geboortecijfer van de streek"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bereikbaarheid beslist mee of een bestemming aanslaat. Eilanden zoals de Canarische Eilanden en de Malediven draaien bijna volledig op hun luchtverbinding."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een stad met veel erfgoed trekt alleen bezoekers als er ook een strand in de buurt ligt.",
+          "antwoord": false,
+          "uitleg": "Brugge, Praag en Rome draaien op hun geschiedenis en hun stadsbeeld. Stadstoerisme is een eigen vorm van toerisme met eigen troeven."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke soorten handel onderscheidt men meestal?",
+          "opties": [
+            "Groothandel en kleinhandel",
+            "Zware handel en lichte handel",
+            "Vaste handel en losse handel",
+            "Binnenlandse en buitenlandse industrie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Groothandel levert in grote hoeveelheden aan bedrijven en winkels, kleinhandel verkoopt rechtstreeks aan de consument. Allebei horen ze bij de dienstensector."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een streek draait bijna volledig op toerisme. Welk risico houdt dat in?",
+          "opties": [
+            "Bij een crisis valt de hele economie stil",
+            "De bevolkingsdichtheid daalt er onvermijdelijk",
+            "De bodem van de streek wordt er vruchtbaarder",
+            "Het klimaat van de streek wordt er droger"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie op één sector steunt, is kwetsbaar. Een epidemie, een aanslag of een economische crisis in de herkomstlanden doet het inkomen van een hele streek ineens wegvallen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Online winkelen verandert waar de logistieke gebouwen in een land staan.",
+          "antwoord": true,
+          "uitleg": "Grote magazijnen zoeken een plaats bij een snelwegknooppunt of een haven, van waaruit ze snel kunnen leveren. Zo verschuift werk van de winkelstraat naar de rand van het land."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke geopolitieke factoren beïnvloeden het toerisme? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "De stabiliteit van het land",
+            "De staatsvorm van het land",
+            "De samenwerkingsverbanden met andere landen",
+            "De hoogte van de bergen in het land",
+            "Het aantal zonuren per jaar"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Stabiliteit, staatsvorm en verdragen bepalen of mensen er veilig en zonder visum geraken. Bergen en zonuren zijn fysische troeven."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de handel die rechtstreeks aan de consument verkoopt?",
+          "antwoord": [
+            "kleinhandel",
+            "de kleinhandel",
+            "detailhandel"
+          ],
+          "uitleg": "De kleinhandel is de winkel waar jij binnenstapt. De groothandel daarachter bevoorraadt die winkels in grote hoeveelheden."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De Human Development Index van een land speelt mee in hoeveel toerisme het aantrekt.",
+          "antwoord": true,
+          "uitleg": "Zorg, veiligheid, water, wegen en opgeleid personeel maken een bestemming bruikbaar voor bezoekers. Een hoge HDI helpt daarbij, ook al bezoeken toeristen evengoed landen met een lagere HDI."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom liggen veel grote distributiecentra langs autosnelwegen in plaats van in de stad?",
+          "opties": [
+            "Grond is er goedkoper en vrachtwagens geraken er vlot weg",
+            "Klanten komen er hun bestelling liever zelf ophalen",
+            "De bevolkingsdichtheid is er hoger dan in de stad",
+            "De grond is er vruchtbaarder dan in de stad"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zo'n gebouw heeft veel oppervlakte en veel vrachtverkeer nodig. In een stadscentrum is beide onbetaalbaar en onmogelijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een bron toont dat een land vooral grondstoffen uitvoert en afgewerkte producten invoert. Wat besluit je?",
+          "opties": [
+            "De bewerking en de winst gebeuren grotendeels elders",
+            "Het land heeft een hoge Human Development Index",
+            "Het land heeft een groot overschot op zijn handel",
+            "Het land ligt noodzakelijk in de gematigde zone"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie ruwe grondstoffen verkoopt en afgewerkte producten terugkoopt, laat de meerwaarde over aan de landen die verwerken. Dat patroon speelt in veel discussies over ontwikkeling een rol."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Handel en diensten hebben geen invloed op het landschap, want ze maken niets.",
+          "antwoord": false,
+          "uitleg": "Winkelcentra, kantoorparken, magazijnen, hotels en wegen nemen ruimte in. Op een luchtfoto van de rand van een stad zie je dat meteen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vraag hoort bij het onderzoeken van de afzetmarkt van een product?",
+          "opties": [
+            "Waar wordt het gekocht en door wie?",
+            "Welke grondstof zit erin verwerkt?",
+            "In welke klimaatzone ligt de fabriek?",
+            "Hoeveel werknemers heeft de fabriek?"
+          ],
+          "antwoord": 0,
+          "uitleg": "De afzetmarkt gaat over de kant van de verkoop: wie koopt het, waar, en in welke hoeveelheid. De andere vragen gaan over de productiekant."
+        }
+      ]
+    },
+    {
+      "titel": "Mondialisering — deel 1",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent mondialisering?",
+          "opties": [
+            "Landen en mensen raken wereldwijd steeds meer met elkaar verweven",
+            "Landen sluiten zich steeds meer van elkaar af",
+            "De wereldbevolking verhuist naar de grote steden",
+            "Elk land maakt steeds meer zijn eigen producten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Handel, geld, mensen, ideeën en informatie bewegen sneller en verder dan ooit. Wat aan de ene kant van de wereld gebeurt, wordt daardoor aan de andere kant voelbaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke ontwikkelingen hebben de mondialisering versneld? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Goedkoper en sneller transport over zee en door de lucht",
+            "Het internet en goedkope wereldwijde communicatie",
+            "Handelsakkoorden die invoerrechten verlagen",
+            "Strengere grenscontroles tussen alle landen",
+            "Hogere invoerrechten op alle buitenlandse producten"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Containers, vliegtuigen, datakabels en handelsverdragen brachten de wereld dichter bij elkaar. Strengere grenzen en hogere invoerrechten werken juist de andere kant op."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De container heeft het zeetransport veel goedkoper gemaakt.",
+          "antwoord": true,
+          "uitleg": "Voordien werd elk stuk vracht apart geladen. Met gestandaardiseerde containers duurt het laden van een schip uren in plaats van dagen, en dat drukte de vrachtprijs enorm."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een gsm bevat metalen uit Congo, wordt ontworpen in de Verenigde Staten en gemonteerd in Azië. Van welke vorm van mondialisering is dat een voorbeeld?",
+          "opties": [
+            "Economische mondialisering",
+            "Culturele mondialisering",
+            "Politieke mondialisering",
+            "Sociale mondialisering"
+          ],
+          "antwoord": 0,
+          "uitleg": "De productieketen ligt over verschillende continenten verspreid. Dat uit elkaar halen van ontwerp, grondstoffen en montage is typisch economische mondialisering."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Jongeren over de hele wereld volgen dezelfde muziek, series en mode. Waarvan is dat een voorbeeld?",
+          "opties": [
+            "Culturele mondialisering",
+            "Economische mondialisering",
+            "Politieke mondialisering",
+            "Demografische transitie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gewoonten, smaak en taal reizen mee met de media. Het gevolg is dat het aanbod overal op elkaar begint te lijken, wat lokale tradities onder druk zet."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Politieke mondialisering betekent dat landen samen afspraken maken over grensoverschrijdende problemen.",
+          "antwoord": true,
+          "uitleg": "Klimaat, handel, gezondheid en veiligheid stoppen niet aan een grens. Daarom bestaan er verdragen en organisaties waarin landen samen beslissen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Mensen houden wereldwijd contact met familie in andere landen, via sociale media en goedkope vluchten. Wat noemt men dat?",
+          "opties": [
+            "Sociale mondialisering",
+            "Culturele mondialisering",
+            "Economische mondialisering",
+            "Politieke mondialisering"
+          ],
+          "antwoord": 0,
+          "uitleg": "Netwerken van mensen strekken zich over landsgrenzen uit. Die banden sturen mee waar migranten naartoe trekken en waar ze geld naartoe sturen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de metalen bak waarin vracht over zee, spoor en weg vervoerd wordt zonder overladen?",
+          "antwoord": [
+            "container",
+            "een container",
+            "de container"
+          ],
+          "uitleg": "Altijd dezelfde afmetingen, overal dezelfde kranen: dat is de hele truc. De container is een van de stilste maar krachtigste motoren van de mondialisering."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een gevolg van mondialisering voor wat wij consumeren?",
+          "opties": [
+            "We kopen producten uit de hele wereld, het hele jaar door",
+            "We kopen bijna alleen nog producten uit eigen streek",
+            "We kopen jaarlijks minder producten dan vroeger",
+            "We kopen enkel nog producten uit onze eigen klimaatzone"
+          ],
+          "antwoord": 0,
+          "uitleg": "Aardbeien in december en avocado's uit Peru zijn gewoon geworden. De keerzijde is het transport dat daarvoor nodig is en de druk op het land waar die teelt gebeurt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Mondialisering heeft voor elk land en elke groep dezelfde gevolgen.",
+          "antwoord": false,
+          "uitleg": "Wie kan uitvoeren en investeren, wint. Wie concurreert met goedkopere invoer of grondstoffen levert zonder ze te verwerken, verliest. Juist die ongelijke uitkomst maakt het thema politiek."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom laten bedrijven hun productie vaak in andere landen uitvoeren?",
+          "opties": [
+            "Lonen, belastingen en regels liggen daar vaak lager",
+            "De klanten wonen daar bijna allemaal",
+            "Het klimaat is daar altijd gunstiger",
+            "De grondstoffen liggen daar altijd in de bodem"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kosten sturen de keuze. Soms telt ook de nabijheid van grondstoffen of van een groeiende afzetmarkt mee, maar loonkosten zijn meestal de eerste reden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke nadelen brengt een lange internationale productieketen mee? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Ze is kwetsbaar als er ergens een schakel wegvalt",
+            "Ze veroorzaakt veel transport en dus uitstoot",
+            "Ze maakt het moeilijk te controleren hoe er gewerkt wordt",
+            "Ze maakt producten in de winkel altijd duurder",
+            "Ze zorgt ervoor dat er minder soorten producten zijn"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Kwetsbaarheid, transport en gebrek aan zicht op de arbeidsomstandigheden zijn de echte nadelen. Goedkoper en gevarieerder worden de producten er juist van."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Wanneer in één land de fabrieken stilvallen, kunnen winkels aan de andere kant van de wereld leeg komen te staan.",
+          "antwoord": true,
+          "uitleg": "Dat is precies het risico van een wereldwijde keten. Tijdens de coronacrisis en na de blokkade van het Suezkanaal in 2021 zag je dat effect wereldwijd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat wordt bedoeld met outsourcing?",
+          "opties": [
+            "Werk uitbesteden aan een bedrijf in een ander land",
+            "Een eigen fabriek bouwen in het eigen land",
+            "Producten invoeren uit een buurland",
+            "Een bedrijf helemaal sluiten zonder vervanging"
+          ],
+          "antwoord": 0,
+          "uitleg": "Callcenters, boekhouding, softwarewerk en productie worden zo verplaatst. Voor het ontvangende land betekent dat werk, voor het vertrekkende land verlies van werk."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het beschermen van de eigen markt met invoerrechten en quota?",
+          "antwoord": [
+            "protectionisme",
+            "het protectionisme"
+          ],
+          "uitleg": "Protectionisme is het tegendeel van vrijhandel. Het beschermt eigen bedrijven op korte termijn, maar maakt ingevoerde goederen duurder voor de eigen inwoners."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een land legt hoge invoerrechten op buitenlands staal. Wat is een verwacht gevolg?",
+          "opties": [
+            "Buitenlands staal wordt er duurder en minder gekocht",
+            "Buitenlands staal wordt er goedkoper en meer gekocht",
+            "De eigen staalfabrieken sluiten er onmiddellijk",
+            "De wereldprijs van staal daalt er meteen door"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een invoerrecht is een belasting aan de grens. Eigen producenten krijgen ademruimte, maar bedrijven die staal verwerken betalen meer, en het andere land neemt vaak tegenmaatregelen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Mondialisering maakt landen minder afhankelijk van elkaar.",
+          "antwoord": false,
+          "uitleg": "Ze maakt hen juist veel afhankelijker. Energie, chips, medicijnen en voedsel komen voor een groot deel van elders, en dat wordt pas zichtbaar wanneer een aanvoerlijn stilvalt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke rol speelt een zeehaven in de mondialisering?",
+          "opties": [
+            "Ze is een knooppunt waar wereldstromen samenkomen",
+            "Ze bepaalt de wereldprijs van de goederen",
+            "Ze vervangt het wegtransport volledig",
+            "Ze beperkt de handel met andere werelddelen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het grootste deel van de wereldhandel gaat over zee. Een haven als Rotterdam of Antwerpen is daardoor een plaats waar de wereldeconomie letterlijk aanlandt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Mondialisering speelt zich alleen af tussen bedrijven en overheden, niet tussen gewone mensen.",
+          "antwoord": false,
+          "uitleg": "Wie vrienden heeft in een ander land, online kleren bestelt of naar een buitenlandse serie kijkt, doet eraan mee. Juist die alledaagse kant noemt men sociale en culturele mondialisering."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom noemt men de wereld soms een dorp geworden?",
+          "opties": [
+            "Afstanden zijn in tijd en kost enorm gekrompen",
+            "De aarde is in werkelijkheid kleiner geworden",
+            "Er wonen wereldwijd minder mensen dan vroeger",
+            "Alle landen hebben nu dezelfde regering"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een vlucht naar de andere kant van de wereld duurt een dag, een bericht een seconde. De werkelijke afstand bleef gelijk, de ervaren afstand werd veel kleiner."
+        }
+      ]
+    },
+    {
+      "titel": "Mondialisering — deel 2",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor staat de afkorting EU?",
+          "opties": [
+            "Europese Unie",
+            "Europees Uitvoerverbond",
+            "Economische Unie",
+            "Europese Ondernemingen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De Europese Unie is een samenwerkingsverband van Europese landen met een gemeenschappelijke markt, gezamenlijke regels en voor een deel een gezamenlijke munt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het belangrijkste doel van de Verenigde Naties?",
+          "opties": [
+            "Vrede en samenwerking tussen bijna alle landen ter wereld",
+            "Een gemeenschappelijke munt voor alle lidstaten",
+            "Een gezamenlijk leger voor Europa en Noord-Amerika",
+            "Vrijhandel tussen de landen van Zuid-Amerika"
+          ],
+          "antwoord": 0,
+          "uitleg": "De VN werd na de Tweede Wereldoorlog opgericht om oorlog te voorkomen. Daarnaast werkt ze rond ontwikkeling, gezondheid, vluchtelingen en klimaat."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De NAVO is in de eerste plaats een militair bondgenootschap.",
+          "antwoord": true,
+          "uitleg": "Landen in Europa en Noord-Amerika beloven elkaar te verdedigen bij een aanval. Dat onderscheidt de NAVO van de EU, die vooral economisch en politiek werkt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is Mercosur?",
+          "opties": [
+            "Een handelsblok van landen in Zuid-Amerika",
+            "Een militair bondgenootschap in Azië",
+            "Een organisatie van olieproducerende landen",
+            "Een orgaan van de Verenigde Naties"
+          ],
+          "antwoord": 0,
+          "uitleg": "Mercosur laat goederen tussen de aangesloten Zuid-Amerikaanse landen vlotter circuleren. Het is voor dat continent wat de interne markt voor Europa is, alleen minder ver doorgedreven."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke voordelen haalt een land uit het lidmaatschap van een handelsblok? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Lagere of geen invoerrechten bij de andere leden",
+            "Een grotere afzetmarkt voor de eigen bedrijven",
+            "Meer gewicht in onderhandelingen met andere blokken",
+            "Volledige vrijheid om eigen invoerrechten te heffen",
+            "Een eigen munt die enkel binnen dat land geldt"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Toegang, schaal en onderhandelingsmacht zijn de winst. De prijs is dat een land een stuk van zijn eigen handelsbeleid uit handen geeft, en dat is meteen de kern van de discussie erover."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Wat de landen van de G20 afspreken, is voor hen daarna wettelijk verplicht.",
+          "antwoord": false,
+          "uitleg": "De G20 brengt de belangrijkste economieën samen, rijke zowel als opkomende, maar maakt geen wetten. De afspraken zijn politieke beloftes; ze wegen zwaar, maar niemand kan ze afdwingen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is landgrabbing?",
+          "opties": [
+            "Buitenlandse bedrijven of staten kopen grote stukken landbouwgrond op",
+            "Boeren voegen hun percelen samen tot grotere velden",
+            "Een overheid onteigent grond voor een nieuwe autoweg",
+            "Landbouwgrond wordt verkaveld voor nieuwe woningen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het gebeurt vooral in landen met een lagere ontwikkelingsgraad en zwakke eigendomsregels. Lokale boeren verliezen er soms grond die hun familie al generaties bewerkt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het leeglopen van een streek doordat de inwoners wegtrekken?",
+          "antwoord": [
+            "ontvolking",
+            "de ontvolking"
+          ],
+          "uitleg": "Ontvolking treft vooral afgelegen plattelandsstreken. Wie vertrekt is meestal jong, en daardoor vergrijst wie achterblijft nog sneller."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een Afrikaans land leidt verpleegkundigen op, en velen vertrekken naar Europa. Wat gebeurt er?",
+          "opties": [
+            "Braindrain in Afrika en braingain in Europa",
+            "Braingain in Afrika en braindrain in Europa",
+            "Landgrabbing in Afrika en outsourcing in Europa",
+            "Protectionisme in Afrika en vrijhandel in Europa"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het land dat de opleiding betaalde, verliest de kennis; het land dat hen ontvangt, wint ze gratis. Daar staat tegenover dat die verpleegkundigen vaak geld naar huis sturen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Mondialisering kan spanningen tussen landen vergroten.",
+          "antwoord": true,
+          "uitleg": "Wie de grondstoffen, de chips of de scheepvaartroutes in handen heeft, heeft macht. Juist de onderlinge afhankelijkheid maakt handel tot een drukmiddel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom gebruiken landen handel soms als politiek drukmiddel?",
+          "opties": [
+            "Omdat de tegenpartij afhankelijk is van die goederen",
+            "Omdat handel geen invloed heeft op de economie",
+            "Omdat invoerrechten door de VN verplicht zijn",
+            "Omdat elk land al zijn eigen goederen kan maken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Sancties, uitvoerverboden en het dichtdraaien van een gaskraan werken alleen als de andere kant die goederen nodig heeft. Dat is de schaduwzijde van verwevenheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke gevolgen van mondialisering somt de vakfiche op? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Migratiebewegingen en ontvolking",
+            "Landgrabbing en protectionisme",
+            "Braindrain, braingain en outsourcing",
+            "Bodemerosie en verzilting van de grond",
+            "Verschuiving van de klimaatzones"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De fiche noemt samenwerkingsverbanden, spanningen, migratie en ontvolking, braindrain en braingain, landgrabbing, protectionisme en outsourcing. Erosie en klimaatzones horen bij andere rubrieken."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Vrijhandel en protectionisme zijn twee tegengestelde keuzes in het handelsbeleid.",
+          "antwoord": true,
+          "uitleg": "Vrijhandel haalt drempels weg, protectionisme zet ze op. Veel landen schuiven tussen die twee heen en weer, afhankelijk van welke sector ze willen beschermen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een streek in Zuid-Europa loopt leeg omdat jongeren naar de steden en naar het buitenland trekken. Welke gevolgen verwacht je? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Scholen en winkels sluiten bij gebrek aan klanten",
+            "De achterblijvende bevolking vergrijst sterk",
+            "Huizen komen leeg te staan en vervallen",
+            "De bevolkingsdichtheid van de streek stijgt",
+            "Het geboortecijfer van de streek stijgt scherp"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Ontvolking versterkt zichzelf: minder mensen betekent minder voorzieningen, en dat maakt blijven nog minder aantrekkelijk. Dichtheid en geboortecijfer dalen juist."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je met één woord de handel zonder invoerrechten en drempels tussen landen?",
+          "antwoord": [
+            "vrijhandel",
+            "de vrijhandel"
+          ],
+          "uitleg": "Vrijhandel maakt goederen goedkoper en de keuze groter, maar zet bedrijven die niet kunnen concurreren onder druk. Protectionisme doet precies het omgekeerde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom staat landgrabbing zo vaak ter discussie?",
+          "opties": [
+            "De lokale bevolking verliest grond die ze zelf bewerkte",
+            "De grond wordt er daarna nooit meer bewerkt",
+            "Het gebeurt uitsluitend in landen met een hoge HDI",
+            "Het is bij internationaal verdrag volledig verboden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Op papier is de verkoop vaak wettelijk, maar wie het land al generaties bewerkte zonder eigendomsbewijs, staat plots buiten. De opbrengst gaat bovendien meestal naar de uitvoer."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Wie migreert, stuurt vaak geld naar familie in het land van herkomst.",
+          "antwoord": true,
+          "uitleg": "Dat geld heet remittances. Voor sommige landen is het een grotere inkomstenbron dan alle ontwikkelingshulp samen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je onderzoekt de ruimtelijke gevolgen van mondialisering in je eigen streek. Waar let je op?",
+          "opties": [
+            "Distributiecentra, winkelketens en leegstaande fabrieken",
+            "De geografische coördinaten van het gemeentehuis",
+            "De hoogte van de hoogste heuvel van de streek",
+            "De stand van de zon op de middag van de meting"
+          ],
+          "antwoord": 0,
+          "uitleg": "Mondialisering laat sporen na in het landschap: magazijnen bij de afrit, dezelfde ketens in elke winkelstraat, fabrieken die hun werk naar elders zagen vertrekken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom heeft mondialisering ook een keerzijde voor de plaatselijke cultuur?",
+          "opties": [
+            "Het wereldwijde aanbod verdringt eigen gewoonten en talen",
+            "Landen mogen hun eigen taal niet meer gebruiken",
+            "Elk land moet dezelfde feestdagen gaan vieren",
+            "Musea worden verplicht buitenlandse kunst te tonen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wat overal te koop en te zien is, wint het makkelijk van wat maar op één plaats bestaat. Daarom beschermen landen hun taal, hun film en hun erfgoed vaak bewust."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een land kan zich volledig aan de mondialisering onttrekken zonder gevolgen voor zijn economie.",
+          "antwoord": false,
+          "uitleg": "Wie zich afsluit, verliest afzetmarkten, invoer van technologie en investeringen. Landen die het probeerden, betaalden dat met een veel trager groeiende welvaart."
+        }
+      ]
+    },
+    {
+      "titel": "Duurzaam omgaan met de ruimte — deel 1",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent duurzame ontwikkeling?",
+          "opties": [
+            "Voorzien in de noden van nu zonder die van later onmogelijk te maken",
+            "Zo weinig mogelijk grondstoffen gebruiken, wat het ook kost aan welvaart",
+            "De economie van een land zo snel mogelijk laten groeien",
+            "Alle natuurgebieden van een land volledig afsluiten voor mensen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De klassieke omschrijving zet de huidige generatie en de volgende naast elkaar. Daarom gaat duurzaamheid over de planeet én over mensen én over welvaart tegelijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar staan de vijf P's van duurzame ontwikkeling voor?",
+          "opties": [
+            "Planet, People, Prosperity, Peace en Partnership",
+            "Planet, Power, Progress, Peace en Production",
+            "People, Plants, Property, Peace en Policy",
+            "Planet, People, Politics, Power en Production"
+          ],
+          "antwoord": 0,
+          "uitleg": "De planeet, de mensen, de welvaart, de vrede en de samenwerking. Samen tonen ze dat duurzaamheid meer is dan milieu alleen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Vrede is een van de vijf P's van duurzame ontwikkeling.",
+          "antwoord": true,
+          "uitleg": "Zonder veiligheid werkt niets anders: in oorlogsgebied is er geen onderwijs, geen zorg, geen investering en geen bosbeheer. Peace staat daarom naast Planet en People."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke P hoort bij de zorg voor het milieu, het klimaat en de natuur?",
+          "opties": [
+            "Planet",
+            "People",
+            "Prosperity",
+            "Partnership"
+          ],
+          "antwoord": 0,
+          "uitleg": "Planet gaat over de aarde zelf: klimaat, water, bodem, lucht en biodiversiteit. People gaat over gezondheid, onderwijs en gelijkheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke thema's horen bij de P van People? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Onderwijs voor iedereen",
+            "Goede gezondheidszorg",
+            "Het uitbannen van honger",
+            "Het beschermen van de oceanen",
+            "Samenwerking tussen landen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "People gaat over de basisvoorwaarden van een menswaardig leven. Oceanen horen bij Planet, samenwerking tussen landen bij Partnership."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De duurzame ontwikkelingsdoelen werden door de Verenigde Naties afgesproken.",
+          "antwoord": true,
+          "uitleg": "De landen van de VN keurden ze in 2015 goed, met 2030 als streefdatum. Ze gelden voor alle landen, ook voor de rijke, niet alleen voor de armere."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom gelden de duurzame ontwikkelingsdoelen ook voor welvarende landen?",
+          "opties": [
+            "Ook daar zijn er armoede, ongelijkheid en milieudruk",
+            "Zij zijn de enige landen die er het geld voor hebben",
+            "Zij hebben de doelen in hun eentje opgesteld en ondertekend",
+            "Zij moeten er de armere landen mee controleren en beoordelen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat is net het verschil met de oudere millenniumdoelen, die vooral op arme landen mikten. Uitstoot, afval en ongelijkheid zijn in rijke landen vaak juist het grootst."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Voor welk jaar willen de Verenigde Naties de duurzame ontwikkelingsdoelen bereikt hebben?",
+          "antwoord": [
+            "2030"
+          ],
+          "uitleg": "De doelen werden in 2015 goedgekeurd met 2030 als horizon. Dat maakt ze concreet: er valt op af te rekenen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe kan een hogere ontwikkelingsgraad bijdragen aan een duurzamere wereld?",
+          "opties": [
+            "Beter onderwijs en zorg geven mensen ruimte om verder te kijken",
+            "Rijkere landen verbruiken altijd minder grondstoffen dan armere",
+            "Een hogere index verlaagt vanzelf de uitstoot van een heel land",
+            "Ontwikkeling maakt landbouw in een land na verloop van tijd onnodig"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie zeker is van eten, gezondheid en school, kan investeren in de lange termijn. Tegelijk stijgt met welvaart ook het verbruik, en juist dat spanningsveld is de kern van het debat."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een land met een hoge Human Development Index heeft daarom automatisch een kleine ecologische voetafdruk.",
+          "antwoord": false,
+          "uitleg": "Vaak is het omgekeerde waar: hoge welvaart gaat samen met veel verbruik, veel vlees, veel vliegen en veel afval. Ontwikkeling en duurzaamheid lopen niet vanzelf gelijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom staat Partnership als een aparte P tussen de vijf?",
+          "opties": [
+            "Geen enkel land lost deze problemen alleen op",
+            "Alleen bedrijven kunnen de doelen bereiken",
+            "Partnership vervangt de rol van regeringen",
+            "Samenwerken is enkel nodig binnen Europa"
+          ],
+          "antwoord": 0,
+          "uitleg": "Klimaat, oceanen, ziektes en handel stoppen niet aan een grens. Wie het alleen probeert, wordt ingehaald door wat elders gebeurt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraken over de duurzame ontwikkelingsdoelen kloppen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Ze gaan over milieu, mensen en economie samen",
+            "Ze gelden voor alle landen ter wereld",
+            "Ze hebben een afgesproken einddatum",
+            "Ze zijn wettelijk afdwingbaar bij een rechtbank",
+            "Ze gaan uitsluitend over de uitstoot van CO₂"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De doelen zijn breed, wereldwijd en tijdgebonden. Afdwingbaar zijn ze niet: landen rapporteren vrijwillig, en dat is meteen hun zwakke plek."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Duurzaamheid gaat alleen over het milieu.",
+          "antwoord": false,
+          "uitleg": "Armoede, onderwijs, ongelijkheid, werk en vrede staan er evengoed in. De vijf P's zijn er juist om te tonen dat die dingen aan elkaar vastzitten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een gemeente legt een nieuw bedrijventerrein aan op akkerland. Vanuit welke P is dat het moeilijkst te verdedigen?",
+          "opties": [
+            "Planet",
+            "Prosperity",
+            "Peace",
+            "Partnership"
+          ],
+          "antwoord": 0,
+          "uitleg": "Er verdwijnt open ruimte en er komt verharding bij, dus de planeet betaalt. Vanuit Prosperity valt er wel iets voor te zeggen: werk en inkomen voor de streek."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom botsen de vijf P's soms met elkaar?",
+          "opties": [
+            "Wat goed is voor de welvaart, is niet altijd goed voor de planeet",
+            "Ze werden van bij het begin in tegenspraak met elkaar opgesteld",
+            "Alleen Planet en People zijn echte doelen, de rest is versiering",
+            "Elke P geldt in een ander werelddeel dan de vier andere"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een nieuwe fabriek brengt werk maar kost ruimte en uitstoot. Duurzaam beslissen betekent die afweging bewust maken in plaats van één kant te vergeten."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de oppervlakte aarde die nodig is om iemands verbruik te dekken en zijn afval te verwerken?",
+          "antwoord": [
+            "ecologische voetafdruk",
+            "de ecologische voetafdruk",
+            "voetafdruk"
+          ],
+          "uitleg": "De ecologische voetafdruk maakt verbruik meetbaar in hectare. Leefden alle mensen zoals de gemiddelde West-Europeaan, dan was er meer dan één aarde nodig."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Duurzaam ruimtegebruik betekent dat je met dezelfde oppervlakte meer doet, in plaats van telkens nieuwe ruimte aan te snijden.",
+          "antwoord": true,
+          "uitleg": "Hergebruik van een leegstaand gebouw, inbreiding, een terrein met meerdere functies: dat spaart open ruimte. Nieuwe grond aansnijden is altijd de duurste keuze voor de planeet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vraag stel je het eerst als je wil weten of een plan duurzaam is?",
+          "opties": [
+            "Wat betekent dit op lange termijn voor mens én omgeving?",
+            "Hoeveel winst levert dit plan het eerste jaar al op?",
+            "Hoeveel vierkante meter grond beslaat dit plan in totaal?",
+            "Wie heeft dit plan als eerste voorgesteld, en wanneer?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Duurzaam beoordelen is altijd in de tijd vooruitkijken en naar meerdere P's tegelijk. Winst en oppervlakte zijn onderdelen van die afweging, niet het antwoord."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke maatregelen passen bij de P van Planet? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Een braakliggend terrein omvormen tot natuur",
+            "Regenwater laten insijpelen in plaats van afvoeren",
+            "Gescheiden afval en hergebruik van materialen",
+            "De lonen in de bouwsector stelselmatig verhogen",
+            "Meer scholen bouwen in het centrum van de stad"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Natuur, water en materialen horen bij Planet. Lonen horen bij Prosperity en scholen bij People; die zijn niet minder belangrijk, maar ze horen onder een andere P."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een duurzame keuze is altijd de goedkoopste keuze op korte termijn.",
+          "antwoord": false,
+          "uitleg": "Vaak kost ze eerst meer: isoleren, hergebruiken, zuiveren. Ze verdient zich later terug, en juist daarom is de tijdshorizon zo belangrijk in de beoordeling."
+        }
+      ]
+    },
+    {
+      "titel": "Duurzaam omgaan met de ruimte — deel 2",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is versnippering van de open ruimte een probleem voor de natuur?",
+          "opties": [
+            "Kleine losse stukken werken minder goed dan één groot gebied",
+            "Kleine stukken natuur zijn altijd een stuk minder vruchtbaar",
+            "Versnippering verandert de klimaatzone van het hele gebied",
+            "Versnippering verlaagt de bevolkingsdichtheid van de streek"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dieren kunnen zich niet verplaatsen tussen de stukken, en de randen drogen uit en verstoren. Daarom bouwt men ecoducten en verbindingsstroken tussen gebieden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke gevolgen van verstedelijking op het leefmilieu somt de vakfiche op? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Versnippering van de open ruimte en verharding",
+            "Het hitte-eilandeffect in de stad",
+            "Luchtvervuiling en verkeersdrukte",
+            "Verzilting van de landbouwgrond",
+            "Het afsmelten van de gletsjers"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De fiche noemt versnippering, verharding, het hitte-eilandeffect, luchtvervuiling en verkeersdrukte. Verzilting hoort bij de landbouw, gletsjers bij het broeikaseffect."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Meer groen en water in een stad verzachten het hitte-eilandeffect.",
+          "antwoord": true,
+          "uitleg": "Bomen geven schaduw en verdampen water, en dat koelt. Een straat met bomen kan op een hete dag merkbaar koeler zijn dan dezelfde straat zonder."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een gemeente kiest tussen een nieuwe verkaveling op akkerland en het opknappen van een leegstaande fabriekssite. Welke keuze is duurzamer, en waarom?",
+          "opties": [
+            "De fabriekssite, want er wordt geen nieuwe open ruimte aangesneden",
+            "De verkaveling, want nieuwbouw is altijd veel beter geïsoleerd",
+            "De verkaveling, want er wonen dan meer mensen op één hectare",
+            "De fabriekssite, want oude gebouwen zijn altijd goedkoper te kopen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hergebruik van een bestaand terrein spaart akkerland en houdt de voorzieningen dicht bij elkaar. Of de oude site goedkoper is, hangt af van de vervuiling in de bodem."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er bij industrialisatie van een streek?",
+          "opties": [
+            "Er komt fabrieksactiviteit bij, met werk en met ruimtebeslag",
+            "De fabrieken verdwijnen uit de streek, met werk en al",
+            "Oude fabrieksterreinen krijgen er een heel nieuwe functie",
+            "De landbouwbedrijven in de streek worden groter en moderner"
+          ],
+          "antwoord": 0,
+          "uitleg": "Industrialisatie brengt werk, inwoners en infrastructuur, maar ook uitstoot en ruimtebeslag. Het omgekeerde is de-industrialisatie, en wat daarna met het terrein gebeurt, is reconversie."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een oude fabriekssite kan vervuilde grond bevatten die eerst gesaneerd moet worden.",
+          "antwoord": true,
+          "uitleg": "Zware metalen, olie en oplosmiddelen blijven decennia in de bodem. Die saneringskost is een van de redenen waarom zo'n site soms jaren leeg blijft liggen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het duurzame voordeel van reconversie tegenover een nieuw terrein aansnijden?",
+          "opties": [
+            "De grond werd al gebruikt, dus er gaat geen open ruimte verloren",
+            "De grond is altijd goedkoper dan een stuk onbebouwde grond",
+            "Er zijn voor zo'n terrein nooit vergunningen voor nodig",
+            "De bouwwerken duren er altijd korter dan bij nieuwbouw"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ruimte die al aangesneden was, blijft aangesneden. Dat is de grootste winst, ook als de sanering en de verbouwing zelf een stuk duurder uitvallen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het schoonmaken van een vervuilde bodem voor er opnieuw gebouwd kan worden?",
+          "antwoord": [
+            "sanering",
+            "saneren",
+            "bodemsanering"
+          ],
+          "uitleg": "Bij sanering wordt de vervuiling weggenomen of onschadelijk gemaakt. Zonder sanering mag een vervuild terrein geen woonfunctie krijgen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een landbouwbedrijf teelt jaar na jaar maïs op dezelfde hellende percelen, zonder groenbedekker. Hoe beoordeel je dat?",
+          "opties": [
+            "Niet duurzaam: de bodem raakt uitgeput en spoelt weg",
+            "Duurzaam: één gewas telen is efficiënter",
+            "Duurzaam: maïs beschermt de bodem het hele jaar",
+            "Niet te beoordelen zonder de winst van het bedrijf te kennen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Geen vruchtwisseling put de bodem uit, en een kale helling na de oogst laat de regen de bovenlaag meenemen. Allebei zijn het schoolvoorbeelden van niet-duurzaam ruimtegebruik."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke kenmerken zou je opsommen om een landbouwbedrijf als duurzaam te beoordelen? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Het wisselt zijn gewassen af en dekt de bodem in de winter",
+            "Het houdt hagen, bomen en bufferstroken op zijn land",
+            "Het bemest en beregent niet meer dan de teelt opneemt",
+            "Het vergroot zijn percelen zo veel als het maar kan",
+            "Het verkoopt zijn oogst zo ver mogelijk van huis weg"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Vruchtwisseling, landschapselementen en doordacht bemesten houden bodem en water gezond. Grotere percelen en verre afzet werken de andere kant op."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Ontbossing voor landbouwgrond laat koolstof vrij die in het bos opgeslagen zat.",
+          "antwoord": true,
+          "uitleg": "Bomen en bosbodem houden enorme hoeveelheden koolstof vast. Wordt het bos gekapt of verbrand, dan komt die koolstof als CO₂ in de lucht, bovenop het verlies aan biodiversiteit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is bodemdegradatie een probleem voor de lange termijn?",
+          "opties": [
+            "Herstel duurt tientallen jaren, verlies gaat in enkele seizoenen",
+            "De bodem verandert erdoor stilaan van klimaatzone",
+            "De bodem wordt er na enkele jaren sneller vruchtbaar van",
+            "Ze treft enkel de bodems die in de poolstreken liggen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een centimeter vruchtbare bovengrond opbouwen vraagt honderden jaren. Daarom telt bodem in de duurzaamheidsdiscussie als een voorraad, niet als iets hernieuwbaars."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een stad legt een fietssnelweg aan en verlaagt de parkeerplaatsen in het centrum. Welke problemen pakt ze daarmee aan? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Luchtvervuiling in het centrum",
+            "Verkeersdrukte in de straten",
+            "Verharding door parkeerplaatsen",
+            "Bodemerosie op de akkers errond",
+            "Versnippering door de ringweg"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Minder auto's betekent minder uitstoot, minder drukte en minder asfalt. Aan erosie op akkers of aan een bestaande ringweg verandert een fietspad niets."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Duurzaam ruimtegebruik en economische groei sluiten elkaar altijd uit.",
+          "antwoord": false,
+          "uitleg": "Hergebruik, isolatie, hernieuwbare energie en kringloop leveren ook werk en omzet op. De spanning is echt, maar ze is geen wet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is verharding een probleem bij hevige regen?",
+          "opties": [
+            "Het water kan niet in de grond en loopt naar de riool",
+            "Het water verdampt sneller dan het naar beneden valt",
+            "Het water wordt onderweg vervuild door de bodem zelf",
+            "Het water vult de grondwaterlagen veel te snel aan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Alles stroomt tegelijk naar dezelfde riool, die overloopt. Daardoor stijgt het overstromingsrisico stroomafwaarts, terwijl het grondwater onder de stad juist niet wordt aangevuld."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het opnieuw inrichten van een oude industriesite voor een nieuw gebruik, zoals wonen of onderzoek?",
+          "antwoord": [
+            "reconversie",
+            "de reconversie"
+          ],
+          "uitleg": "Reconversie is de derde stap na industrialisatie en de-industrialisatie. Ze bepaalt of een streek na het verdwijnen van haar industrie weer op gang komt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een plan kan goed scoren op Prosperity en tegelijk slecht op Planet.",
+          "antwoord": true,
+          "uitleg": "Dat is bijna altijd zo bij grote infrastructuurwerken. Duurzaam beoordelen betekent die twee naast elkaar leggen en de afweging uitschrijven, niet één kant weglaten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je krijgt op het examen de beschrijving van een landbouwbedrijf en de lijst met duurzame ontwikkelingsdoelen. Wat wordt van je verwacht?",
+          "opties": [
+            "Beoordelen of het bedrijf duurzaam werkt, met argumenten uit die lijst",
+            "De doelen in de juiste volgorde uit het hoofd opsommen en nummeren",
+            "De winst van het bedrijf voor het volgende jaar berekenen en vergelijken",
+            "De geografische coördinaten van het bedrijf op de kaart aanduiden"
+          ],
+          "antwoord": 0,
+          "uitleg": "De lijst krijg je erbij; het gaat om de redenering. Je koppelt wat je in de beschrijving leest aan een doel of aan een van de vijf P's, en je zegt waarom."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk argument hoort bij het beoordelen van een windmolenpark vanuit de vijf P's?",
+          "opties": [
+            "Het levert energie zonder uitstoot, maar neemt wel ruimte in",
+            "Het is duurzaam, want windmolens zijn altijd hernieuwbaar",
+            "Het is niet duurzaam, want er staan machines in het landschap",
+            "Het valt niet te beoordelen zonder de coördinaten te kennen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een goed oordeel weegt af in plaats van te kiezen. Planet wint bij de uitstoot, maar landschap, geluid en vogels staan aan de andere kant van de weegschaal."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Elk land kan de duurzame ontwikkelingsdoelen in zijn eentje halen, los van de andere landen.",
+          "antwoord": false,
+          "uitleg": "Daarom staat Partnership als aparte P in het rijtje. Kennis, geld en regels moeten over grenzen heen bewegen, anders verschuift een probleem gewoon naar het volgende land."
+        }
+      ]
+    }
+  ]
+}
