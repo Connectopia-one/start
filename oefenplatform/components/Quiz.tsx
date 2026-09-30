@@ -534,7 +534,22 @@ export function Quiz({
   /* Hoe vaak dit kind elke vraag al maakte, voor de wisselende woorden bij
      spelling. null betekent: nog niet opgehaald. */
   const [beurten, setBeurten] = useState<Record<string, number> | null>(null);
-  const [enkelNieuwe, setEnkelNieuwe] = useState(false);
+  /*
+    Welke vragen het kind nu voor zich krijgt.
+
+      "alles"     — het hele hoofdstuk opnieuw
+      "verder"    — enkel de vragen die het nog nooit maakte
+      "nietJuist" — enkel de vragen die het nog niet juist had
+
+    Kim, 30 september 2026: "nu kan je enkel kiezen tussen of het heel
+    hoofdstuk of die je fout had. niet waar je gebleven was." Wie halverwege
+    stopte, wil gewoon verder. Dat is iets anders dan de fouten overdoen: bij
+    "verder" vallen ook de vragen weg die het kind fóút had, want die maakte
+    het al.
+  */
+  const [lijstKeuze, setLijstKeuze] = useState<
+    "alles" | "verder" | "nietJuist"
+  >("alles");
   // Telt mee bij "Opnieuw proberen", zodat ook wat een kind ingekleurd of
   // gesleept had weer leeg begint.
   const [ronde, setRonde] = useState(0);
@@ -575,7 +590,7 @@ export function Quiz({
     // naar alle vragen tot we weten wat dít kind al juist had.
     setAlJuist(null);
     setBeurten(null);
-    setEnkelNieuwe(false);
+    setLijstKeuze("alles");
   };
 
   /* Wat had dit kind in dit hoofdstuk al juist? Mislukt de vraag, dan blijft
@@ -604,12 +619,13 @@ export function Quiz({
      kind hoort. Bij een vraag zonder wisselende woorden is dat altijd de vraag
      zelf, en dat zijn ze bijna allemaal. */
   const vragen = useMemo(() => {
-    const lijst =
-      enkelNieuwe && alJuist
-        ? alleVragen.filter((v) => !alJuist.has(v.id))
-        : alleVragen;
+    let lijst = alleVragen;
+    if (lijstKeuze === "nietJuist" && alJuist)
+      lijst = alleVragen.filter((v) => !alJuist.has(v.id));
+    if (lijstKeuze === "verder" && beurten)
+      lijst = alleVragen.filter((v) => !(beurten[v.id] ?? 0));
     return lijst.map((v) => metBeurt(v, beurten?.[v.id] ?? 0));
-  }, [enkelNieuwe, alJuist, alleVragen, beurten]);
+  }, [lijstKeuze, alJuist, alleVragen, beurten]);
 
   /* Heeft dit hoofdstuk wisselende woorden, dan wachten we met tonen tot we
      weten welke beurt dit kind krijgt. Anders staat er even het ene woord en
@@ -624,6 +640,10 @@ export function Quiz({
   const nogOpen = alJuist
     ? alleVragen.filter((v) => !alJuist.has(v.id)).length
     : alleVragen.length;
+  // En hoeveel heeft het nog nooit gemaakt? Dat is waar het gebleven was.
+  const nooitGemaakt = beurten
+    ? alleVragen.filter((v) => !(beurten[v.id] ?? 0)).length
+    : 0;
   const toonKeuze = Boolean(
     alJuist && nogOpen > 0 && nogOpen < alleVragen.length,
   );
@@ -653,13 +673,28 @@ export function Quiz({
      op enkel de overige vragen, dan waren de andere al juist — dat is net
      waarom ze wegvielen — dus is het hoofdstuk op dat moment volledig juist en
      is de sticker verdiend. */
+  /* Bij "verder waar je gebleven was" vallen ook de fout beantwoorde vragen
+     weg. Die zijn dan nóg niet juist, dus is het hoofdstuk niet volledig juist
+     en is de ster niet verdiend. Vandaar deze controle: samen met wat al juist
+     stond, moet de lijst op het scherm het hele hoofdstuk dekken. */
+  const getoond = new Set(vragen.map((v) => v.vraag.id));
+  const lijstDektAlles = alleVragen.every(
+    (v) => getoond.has(v.id) || alJuist?.has(v.id),
+  );
+
   const stickerGegeven = useRef(false);
   useEffect(() => {
-    if (perfect && actiefKindId && hoofdstukId && !stickerGegeven.current) {
+    if (
+      perfect &&
+      lijstDektAlles &&
+      actiefKindId &&
+      hoofdstukId &&
+      !stickerGegeven.current
+    ) {
       stickerGegeven.current = true;
       registreerSticker(actiefKindId, hoofdstukId).catch(() => {});
     }
-  }, [perfect, actiefKindId, hoofdstukId]);
+  }, [perfect, lijstDektAlles, actiefKindId, hoofdstukId]);
 
   const opnieuw = () => {
     stickerGegeven.current = false;
@@ -675,10 +710,10 @@ export function Quiz({
     );
   };
 
-  /* Van alle vragen naar enkel de overige, of omgekeerd. In allebei de
-     richtingen begint het kind met een schone lei. */
-  const kiesLijst = (enkel: boolean) => {
-    setEnkelNieuwe(enkel);
+  /* Van de ene lijst naar de andere. In elke richting begint het kind met een
+     schone lei. */
+  const kiesLijst = (keuze: "alles" | "verder" | "nietJuist") => {
+    setLijstKeuze(keuze);
     opnieuw();
   };
 
@@ -732,32 +767,53 @@ export function Quiz({
       {toonKeuze && (
         <div className="rounded-xl border border-border bg-surface px-4 py-3">
           <p className="text-sm text-ink">
-            Je deed dit hoofdstuk al eens.{" "}
+            Je was hier al eens bezig.{" "}
+            {nooitGemaakt > 0
+              ? nooitGemaakt === 1
+                ? "Er is nog één vraag die je nog niet maakte."
+                : `Er zijn nog ${nooitGemaakt} vragen die je nog niet maakte.`
+              : "Je maakte alle vragen al een keer."}{" "}
             {nogOpen === 1
-              ? "Er is nog één vraag die je niet juist had."
-              : `Er zijn nog ${nogOpen} vragen die je niet juist had.`}
+              ? "Eén vraag had je nog niet juist."
+              : `${nogOpen} vragen had je nog niet juist.`}
           </p>
           <div className="mt-2 flex flex-wrap gap-2">
+            {nooitGemaakt > 0 && (
+              <button
+                type="button"
+                onClick={() => kiesLijst("verder")}
+                aria-pressed={lijstKeuze === "verder"}
+                className={`rounded-md px-3 py-1.5 text-sm transition ${
+                  lijstKeuze === "verder"
+                    ? "bg-forest text-paper"
+                    : "border border-border text-ink hover:border-forest"
+                }`}
+              >
+                Verder waar je gebleven was
+              </button>
+            )}
             <button
               type="button"
-              onClick={() => kiesLijst(true)}
-              aria-pressed={enkelNieuwe}
+              onClick={() => kiesLijst("nietJuist")}
+              aria-pressed={lijstKeuze === "nietJuist"}
               className={`rounded-md px-3 py-1.5 text-sm transition ${
-                enkelNieuwe
+                lijstKeuze === "nietJuist"
                   ? "bg-forest text-paper"
                   : "border border-border text-ink hover:border-forest"
               }`}
             >
-              {nogOpen === 1 ? "Enkel die ene vraag" : `Enkel die ${nogOpen}`}
+              {nogOpen === 1
+                ? "Enkel die ene vraag"
+                : `Enkel die ${nogOpen} die je nog niet juist had`}
             </button>
             <button
               type="button"
-              onClick={() => kiesLijst(false)}
-              aria-pressed={!enkelNieuwe}
+              onClick={() => kiesLijst("alles")}
+              aria-pressed={lijstKeuze === "alles"}
               className={`rounded-md px-3 py-1.5 text-sm transition ${
-                enkelNieuwe
-                  ? "border border-border text-ink hover:border-forest"
-                  : "bg-forest text-paper"
+                lijstKeuze === "alles"
+                  ? "bg-forest text-paper"
+                  : "border border-border text-ink hover:border-forest"
               }`}
             >
               Alle {alleVragen.length} opnieuw
