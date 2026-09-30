@@ -283,7 +283,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Wat rekent de fiche tot de non-verbale communicatie?",
+        vraag="Wat hoort bij de non-verbale communicatie?",
         opties=["lichaamstaal", "oogcontact", "intonatie en tempo", "spelling"],
         antwoord=[0, 1, 2],
         uitleg="Spelling is verbaal, en dan nog schriftelijk. De drie andere zijn alles wat je overbrengt zonder woorden.",
@@ -339,7 +339,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke elementen van non-verbale communicatie noemt de vakfiche?",
+        vraag="Welke van deze zijn elementen van non-verbale communicatie?",
         opties=[
             "mimiek en gebaren",
             "houding en afstand",

@@ -1,0 +1,392 @@
+# -*- coding: utf-8 -*-
+"""De vragen voor "Verhalen ontleden: verteller, tijd en ruimte" (🚀 Boost doorstroom, Nederlands).
+
+Uit de literatuurlijst van allebei de vakfiches, het algemene deel en het deel
+proza: fictie en non-fictie, verhaallijn, personages, spanningsopbouw, tijd,
+ruimte, humor, genre, de fictiegenres en het vertelperspectief.
+
+Deel 1 gaat over personages en spanning. Deel 2 over tijd, ruimte en de
+verteller.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het verschil tussen fictie en non-fictie?",
+        opties=[
+            "fictie is verzonnen, non-fictie doet uitspraken over de werkelijkheid",
+            "fictie is altijd langer dan een non-fictietekst over hetzelfde",
+            "fictie verschijnt in boeken, non-fictie in kranten en tijdschriften",
+            "fictie gebruikt beeldspraak, non-fictie houdt het bij nuchtere feiten",
+        ],
+        antwoord=0,
+        uitleg="Een historische roman gaat over echte gebeurtenissen en blijft fictie, want de personages en gesprekken zijn bedacht.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een antiheld?",
+        opties=[
+            "een hoofdpersoon zonder de klassieke heldeneigenschappen",
+            "het personage dat de hoofdpersoon voortdurend in de weg loopt",
+            "een personage dat pas op het einde van het verhaal opduikt",
+            "een personage dat in het hele verhaal geen woord zegt",
+        ],
+        antwoord=0,
+        uitleg="Hij is bang, twijfelt of maakt verkeerde keuzes, en draagt toch het verhaal. De tegenstander heet de antagonist.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de tegenstander van de hoofdpersoon?",
+        antwoord=["antagonist", "de antagonist"],
+        uitleg="Protagonist en antagonist horen bij elkaar: zonder tegenkracht geen verhaal.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De protagonist is de hoofdpersoon van een verhaal.",
+        antwoord=True,
+        uitleg="Het woord komt uit het Griekse theater en betekent: de eerste speler.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke van deze horen bij de spanningsopbouw van een verhaal?",
+        opties=["cliffhanger", "spanningsboog", "climax", "enjambement"],
+        antwoord=[0, 1, 2],
+        uitleg="Een enjambement hoort bij poëzie: een zin die over de versregel heen doorloopt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is kennisvoorsprong?",
+        opties=[
+            "de lezer weet meer dan het personage",
+            "het personage weet meer dan de lezer",
+            "de verteller weet niets van de afloop",
+            "twee personages weten evenveel",
+        ],
+        antwoord=0,
+        uitleg="Jij ziet de moordenaar achter de deur staan en zij niet. Dat maakt elke gewone handeling plots spannend.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je het hoogtepunt van de spanning in een verhaal?",
+        antwoord=["climax", "de climax", "het hoogtepunt"],
+        uitleg="Na de climax volgt de ontknoping. De spanning loopt daar weer af.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een vlak personage verandert in de loop van het verhaal.",
+        antwoord=False,
+        uitleg="Net niet: een vlak personage blijft zichzelf van begin tot eind. Een rond personage groeit of wijzigt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke kenmerken horen bij een rond personage?",
+        opties=[
+            "het heeft meerdere, soms tegenstrijdige eigenschappen",
+            "het verandert in de loop van het verhaal",
+            "je leert ook zijn binnenkant kennen",
+            "het is altijd de hoofdpersoon van het verhaal",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Ook een bijfiguur kan rond zijn, en een hoofdpersoon kan vlak blijven. Rond gaat over diepte, niet over belang.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een cliffhanger?",
+        opties=[
+            "een hoofdstuk dat afbreekt op het spannendste moment",
+            "het hoogtepunt van de spanning, vlak voor de ontknoping",
+            "een verwijzing naar iets wat vroeger gebeurd is",
+            "een personage dat plots van kant wisselt in het verhaal",
+        ],
+        antwoord=0,
+        uitleg="Series leven ervan: je moet wel verder kijken of lezen om te weten hoe het afloopt.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Kennisachterstand betekent dat de lezer minder weet dan een personage.",
+        antwoord=True,
+        uitleg="Ook dat maakt spanning: je leest verder om te weten te komen wat dat personage allang weet.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom verhoogt kennisvoorsprong de spanning?",
+        opties=[
+            "omdat je ziet aankomen wat het personage nog niet doorheeft",
+            "omdat het verhaal daardoor korter wordt",
+            "omdat je dan de afloop niet meer kent",
+            "omdat het personage daardoor zelf de verteller van het verhaal wordt",
+        ],
+        antwoord=0,
+        uitleg="Je wil bijna roepen: draai je om. Precies dat gevoel is het doel van die opbouw.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je het geheel van gebeurtenissen dat het verhaal draagt?",
+        antwoord=["de verhaallijn", "verhaallijn"],
+        uitleg="Een verhaal kan meerdere verhaallijnen hebben die elkaar afwisselen en op het einde samenkomen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat bedoelen we met het genre van een tekst?",
+        opties=[
+            "de soort waartoe hij hoort, met de verwachtingen die daarbij horen",
+            "de lengte van de tekst, gemeten in het aantal bladzijden",
+            "de tijd en de plaats waarin het verhaal zich afspeelt, van begin tot eind",
+            "de taal waarin de tekst oorspronkelijk geschreven is",
+        ],
+        antwoord=0,
+        uitleg="Bij een detective verwacht je een misdaad en een oplossing. Wie die verwachting breekt, doet dat met opzet.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Non-fictie kan nooit spannend zijn.",
+        antwoord=False,
+        uitleg="Een true crime podcast of een reportage over een ramp gebruikt dezelfde middelen: opbouw, cliffhangers, kennisvoorsprong.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="In een verhaal zoekt een rechercheur een seriemoordenaar. Wie is de antagonist?",
+        opties=[
+            "de seriemoordenaar",
+            "de rechercheur",
+            "de verteller",
+            "de lezer",
+        ],
+        antwoord=0,
+        uitleg="De antagonist werkt de protagonist tegen. Dat hoeft trouwens geen persoon te zijn: ook de natuur of een ziekte kan die rol spelen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke teksten zijn non-fictie?",
+        opties=[
+            "een biografie",
+            "een reportage over de zorg",
+            "een handleiding bij een boormachine",
+            "een sprookje over een prinses",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Non-fictie doet uitspraken over de werkelijkheid en kan dus juist of fout zijn. Een sprookje niet.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is de spanningsboog van een verhaal?",
+        opties=[
+            "het verloop van de spanning van begin tot ontknoping",
+            "het moment waarop de spanning het allerhoogst komt te staan",
+            "de plaats waar het verhaal zich afspeelt",
+            "de volgorde waarin de personages opduiken",
+        ],
+        antwoord=0,
+        uitleg="Ze loopt op naar de climax en zakt daarna weer. De cliffhanger is een trucje om ze tussendoor omhoog te houden.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom vinden lezers een antiheld vaak geloofwaardiger dan een klassieke held?",
+        opties=[
+            "omdat hij twijfels en gebreken heeft zoals zij",
+            "omdat hij altijd wint op het einde",
+            "omdat hij nooit iets verkeerds doet",
+            "omdat hij veel minder in het verhaal voorkomt dan de andere",
+        ],
+        antwoord=0,
+        uitleg="Een held zonder zwaktes is makkelijk te bewonderen en moeilijk te herkennen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een knecht blijft van het begin tot het einde de grappige sukkel. Wat voor personage is dat?",
+        opties=[
+            "een vlak personage",
+            "een rond personage",
+            "de antagonist",
+            "de protagonist",
+        ],
+        antwoord=0,
+        uitleg="Eén eigenschap, geen groei. Dat is geen fout van de schrijver: vlakke personages houden het verhaal overzichtelijk.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een flashback?",
+        opties=[
+            "een terugblik naar iets wat vóór het verhaalheden gebeurde",
+            "een sprong vooruit naar wat nog komen moet",
+            "een hoofdstuk dat op een spannend moment afbreekt",
+            "een verteller die alles weet van alle personages",
+        ],
+        antwoord=0,
+        uitleg="Flashbacks doorbreken de chronologie en geven je achtergrond op het moment dat je die nodig hebt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het verschil tussen verteltijd en vertelde tijd?",
+        opties=[
+            "verteltijd is hoe lang je leest, vertelde tijd hoeveel tijd er in het verhaal voorbijgaat",
+            "verteltijd is de tijd van de schrijver, vertelde tijd die van de lezer",
+            "verteltijd staat in de verleden tijd, vertelde tijd in de tegenwoordige",
+            "verteltijd hoort bij proza, vertelde tijd bij poëzie",
+        ],
+        antwoord=0,
+        uitleg="Twintig bladzijden over één nacht: veel verteltijd, weinig vertelde tijd. Eén zin over twintig jaar: net omgekeerd.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je het vooruitwijzen naar iets wat later in het verhaal gebeurt?",
+        antwoord=["flashforward", "een flashforward", "vooruitwijzing"],
+        uitleg="Het maakt nieuwsgierig: je weet dát er iets komt, maar nog niet hoe het zover komt.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Chronologisch vertellen betekent: in de volgorde waarin de gebeurtenissen plaatsvonden.",
+        antwoord=True,
+        uitleg="Flashbacks, flashforwards en tijdsprongen doorbreken die volgorde allemaal op hun eigen manier.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke vertelperspectieven bestaan er?",
+        opties=[
+            "de belevende ik-verteller",
+            "de personele hij- of zij-verteller",
+            "de alwetende verteller",
+            "de sprekende verteller",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="De fiche noemt ook de vertellende ik-verteller. Een 'sprekende verteller' bestaat niet als term.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="'Ik zag de klink bewegen en mijn hart bonsde in mijn keel.' Welk vertelperspectief?",
+        opties=[
+            "een belevende ik-verteller",
+            "een vertellende ik-verteller",
+            "een personele hij-verteller",
+            "een alwetende verteller",
+        ],
+        antwoord=0,
+        uitleg="De ik beleeft het op dit moment en weet nog niet hoe het afloopt. De vertellende ik kijkt juist achteraf terug.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je een verteller die in het hoofd van alle personages kan kijken?",
+        antwoord=["alwetende verteller", "een alwetende verteller", "alwetend"],
+        uitleg="Hij staat buiten het verhaal en kent ook wat geen enkel personage kan weten.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Bij een personele hij- of zij-verteller kijk je mee over de schouder van één personage.",
+        antwoord=True,
+        uitleg="Je leest 'hij' en 'zij', maar je ziet en weet alleen wat dat ene personage ziet en weet.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een tijdsprong?",
+        opties=[
+            "een stuk tijd dat overgeslagen wordt",
+            "een terugblik naar het verleden",
+            "een verhaal dat in twee tijden tegelijk speelt",
+            "het verschil tussen verteltijd en vertelde tijd",
+        ],
+        antwoord=0,
+        uitleg="'Drie jaar later' en het verhaal gaat verder. Wat ertussen gebeurde, hoef je niet te weten.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke soorten ruimte onderscheid je in een verhaal?",
+        opties=["geografisch", "symbolisch", "sociaal", "chronologisch"],
+        antwoord=[0, 1, 2],
+        uitleg="De fiche noemt ook de sfeerscheppende ruimte. Chronologisch hoort bij tijd, niet bij ruimte.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Verteltijd en vertelde tijd zijn altijd even lang.",
+        antwoord=False,
+        uitleg="Bijna nooit zelfs. Waar een schrijver vertraagt of versnelt, zie je waar hij de nadruk legt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="'Twintig jaar gingen voorbij.' Wat zegt zo'n zin over verteltijd en vertelde tijd?",
+        opties=[
+            "veel vertelde tijd in heel weinig verteltijd",
+            "veel verteltijd in heel weinig vertelde tijd",
+            "allebei zijn ze even lang",
+            "er is geen vertelde tijd in die zin",
+        ],
+        antwoord=0,
+        uitleg="Die twintig jaar zijn blijkbaar niet belangrijk voor het verhaal. Anders had de schrijver er bladzijden aan besteed.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de ruimte die vooral een stemming oproept, zoals een donker bos in een griezelverhaal?",
+        antwoord=["sfeerscheppend", "sfeerscheppende ruimte", "de sfeerscheppende ruimte"],
+        uitleg="De plaats doet er dan minder toe dan het gevoel dat ze meegeeft.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het verschil tussen een vertellende en een belevende ik-verteller?",
+        opties=[
+            "de vertellende kijkt achteraf terug, de belevende staat er middenin",
+            "de vertellende is een volwassene, de belevende een kind",
+            "de vertellende gebruikt 'hij', de belevende 'ik'",
+            "de vertellende kent de gedachten van alle personages",
+        ],
+        antwoord=0,
+        uitleg="'Toen wist ik nog niet dat het mijn laatste zomer was' verraadt een vertellende ik: hij kent de afloop al.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een ik-verteller weet altijd wat de andere personages denken.",
+        antwoord=False,
+        uitleg="Juist niet. Hij kan alleen gissen, en dat maakt hem onbetrouwbaar op een manier die schrijvers graag uitbuiten.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een verhaal speelt in een verpauperde achterbuurt, en dat zegt vooral iets over de stand van de personages. Om welke ruimte gaat het?",
+        opties=[
+            "de sociale ruimte",
+            "de geografische ruimte",
+            "de symbolische ruimte",
+            "de sfeerscheppende ruimte",
+        ],
+        antwoord=0,
+        uitleg="Dezelfde plaats kan tegelijk geografisch (een stad), sociaal (arm) en sfeerscheppend (somber) zijn.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke van deze zijn fictiegenres?",
+        opties=["gothic novel", "dierenepiek", "graphic novel", "bijsluiter"],
+        antwoord=[0, 1, 2],
+        uitleg="Een bijsluiter is prescriptieve non-fictie. De fiche noemt daarnaast onder meer de sage, de legende en de oorlogsroman.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk genre vertelt over dieren die zich als mensen gedragen en eindigt met een les?",
+        opties=["de fabel", "de sage", "de legende", "de mythe"],
+        antwoord=0,
+        uitleg="De vos en de raaf, de haas en de schildpad. De les op het einde heet de moraal.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom kan een symbolische ruimte meer betekenen dan gewoon een plaats?",
+        opties=[
+            "omdat ze staat voor iets anders, zoals een muur voor een scheiding",
+            "omdat ze altijd in het buitenland ligt",
+            "omdat ze nooit beschreven wordt",
+            "omdat ze bepaalt wie de verteller is",
+        ],
+        antwoord=0,
+        uitleg="Een brug, een eiland, een kelder: de lezer voelt de betekenis vaak eerder dan hij ze kan benoemen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom kiest een schrijver soms voor een alwetende verteller?",
+        opties=[
+            "om de lezer meer te laten weten dan de personages zelf",
+            "om het verhaal korter te maken",
+            "om te vermijden dat er dialoog nodig is",
+            "om de chronologie te kunnen behouden",
+        ],
+        antwoord=0,
+        uitleg="Zo kan hij kennisvoorsprong opbouwen, of twee verhaallijnen naast elkaar leggen die de personages niet van elkaar kennen.",
+    ),
+]

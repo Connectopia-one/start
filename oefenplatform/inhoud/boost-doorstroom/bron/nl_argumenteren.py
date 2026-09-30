@@ -239,7 +239,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke soorten argumentatie noemt de vakfiche?",
+        vraag="Op welke soorten argumentatie kan een betoog steunen?",
         opties=[
             "argumentatie op basis van vergelijking",
             "argumentatie op basis van oorzaak en gevolg",

@@ -259,7 +259,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke soorten voornaamwoorden noemt de vakfiche?",
+        vraag="Welke van deze namen bestaan echt als soort voornaamwoord?",
         opties=["wederkerend", "wederkerig", "betrekkelijk", "bijwoordelijk"],
         antwoord=[0, 1, 2],
         uitleg="De fiche noemt er acht: wederkerend, wederkerig, onbepaald, persoonlijk, bezittelijk, betrekkelijk, aanwijzend en vragend. Bijwoordelijk staat er niet bij.",

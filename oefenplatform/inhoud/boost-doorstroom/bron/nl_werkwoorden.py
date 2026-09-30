@@ -25,7 +25,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke werkwoordstijden noemt de vakfiche?",
+        vraag="Welke van deze werkwoordstijden bestaan?",
         opties=[
             "onvoltooid tegenwoordige tijd",
             "voltooid verleden tijd",

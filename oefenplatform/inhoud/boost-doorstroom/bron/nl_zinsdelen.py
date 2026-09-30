@@ -45,7 +45,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke zinsdelen noemt de vakfiche?",
+        vraag="Welke van deze zinsdelen bestaan in de Nederlandse zinsontleding?",
         opties=[
             "lijdend voorwerp",
             "meewerkend voorwerp",
@@ -236,7 +236,7 @@ DEEL2 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke soorten zinnen noemt de vakfiche?",
+        vraag="Welke van deze zinssoorten bestaan?",
         opties=["mededelende", "bevelende", "uitroepende", "rijmende"],
         antwoord=[0, 1, 2],
         uitleg="De fiche noemt ook vragende zinnen, en daarnaast het onderscheid bevestigend of ontkennend. Rijmende zinnen zijn geen zinssoort.",

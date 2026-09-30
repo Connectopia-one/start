@@ -1161,7 +1161,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke soorten argumentatie noemt de vakfiche?",
+          "vraag": "Op welke soorten argumentatie kan een betoog steunen?",
           "opties": [
             "argumentatie op basis van vergelijking",
             "argumentatie op basis van oorzaak en gevolg",
@@ -2118,7 +2118,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Wat rekent de fiche tot de non-verbale communicatie?",
+          "vraag": "Wat hoort bij de non-verbale communicatie?",
           "opties": [
             "lichaamstaal",
             "oogcontact",
@@ -2191,7 +2191,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke elementen van non-verbale communicatie noemt de vakfiche?",
+          "vraag": "Welke van deze zijn elementen van non-verbale communicatie?",
           "opties": [
             "mimiek en gebaren",
             "houding en afstand",
@@ -2571,7 +2571,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke soorten voornaamwoorden noemt de vakfiche?",
+          "vraag": "Welke van deze namen bestaan echt als soort voornaamwoord?",
           "opties": [
             "wederkerend",
             "wederkerig",
@@ -2716,7 +2716,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke werkwoordstijden noemt de vakfiche?",
+          "vraag": "Welke van deze werkwoordstijden bestaan?",
           "opties": [
             "onvoltooid tegenwoordige tijd",
             "voltooid verleden tijd",
@@ -3200,7 +3200,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke zinsdelen noemt de vakfiche?",
+          "vraag": "Welke van deze zinsdelen bestaan in de Nederlandse zinsontleding?",
           "opties": [
             "lijdend voorwerp",
             "meewerkend voorwerp",
@@ -3423,7 +3423,7 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Welke soorten zinnen noemt de vakfiche?",
+          "vraag": "Welke van deze zinssoorten bestaan?",
           "opties": [
             "mededelende",
             "bevelende",
@@ -3602,6 +3602,1827 @@
           ],
           "antwoord": 0,
           "uitleg": "De zin begint met een vraagwoord maar vraagt niets. Hij drukt verwondering uit, en dat is uitroepend."
+        }
+      ]
+    },
+    {
+      "titel": "Spelling, leestekens en klanken — deel 1",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bedoelen we met een woord met een veranderlijk woordbeeld?",
+          "opties": [
+            "een woord waarvan de letters veranderen in een andere vorm, zoals huis en huizen",
+            "een woord dat je op twee manieren mag spellen",
+            "een woord dat in de loop der eeuwen van betekenis veranderd is",
+            "een woord dat zowel enkelvoud als meervoud kan zijn"
+          ],
+          "antwoord": 0,
+          "uitleg": "De s wordt een z, de f wordt een v. Je hoort het verschil, en je schrijft het ook."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke woorden verandert het woordbeeld als je er een meervoud van maakt?",
+          "opties": [
+            "huis",
+            "brief",
+            "graf",
+            "boek"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Huizen, brieven, graven. Bij boeken blijft de k gewoon staan."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de twee puntjes op de i in 'ruïne'?",
+          "antwoord": [
+            "trema",
+            "een trema",
+            "het trema"
+          ],
+          "uitleg": "Een trema zegt: begin hier een nieuwe klank. Zonder trema zou je 'rui' lezen als één klank."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Namen van talen krijgen in het Nederlands een hoofdletter.",
+          "antwoord": true,
+          "uitleg": "Hij spreekt Frans, zij studeert Nederlands. De taalnaam is afgeleid van een aardrijkskundige naam en houdt de hoofdletter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin gebruikt de hoofdletters correct?",
+          "opties": [
+            "In januari leert hij Spaans in Madrid.",
+            "In Januari leert hij spaans in Madrid.",
+            "In januari leert hij spaans in madrid.",
+            "In Januari leert hij Spaans in madrid."
+          ],
+          "antwoord": 0,
+          "uitleg": "Maanden krijgen geen hoofdletter, taalnamen en plaatsnamen wel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom schrijf je 'zee-eend' met een koppelteken?",
+          "opties": [
+            "om te vermijden dat je drie e's achter elkaar leest",
+            "omdat samenstellingen altijd een koppelteken krijgen",
+            "omdat het een leenwoord uit het Duits is",
+            "omdat het woord uit drie delen bestaat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij klinkerbotsing zet je een koppelteken: na-apen, auto-ongeval, zee-eend."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het teken in 'Anna's fiets'?",
+          "antwoord": [
+            "apostrof",
+            "een apostrof",
+            "weglatingsteken"
+          ],
+          "uitleg": "De apostrof houdt de klank van de a open. Zonder apostrof zou je 'Annas' lezen met een korte a."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het accentteken in 'één' dient om nadruk te leggen.",
+          "antwoord": true,
+          "uitleg": "'Ik heb één boek' betekent iets anders dan 'ik heb een boek'. Accenttekens zijn uitspraaktekens."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke woorden staat terecht een trema?",
+          "opties": [
+            "ruïne",
+            "reünie",
+            "zeeën",
+            "zee-eend"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Binnen één woorddeel gebruik je een trema. Tussen twee delen van een samenstelling een koppelteken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom schrijf je 'Er is iets gebeurd' maar 'Er gebeurt iets'?",
+          "opties": [
+            "het eerste is een voltooid deelwoord, het tweede een persoonsvorm",
+            "het eerste staat in de verleden tijd, het tweede in de toekomende",
+            "het eerste hoort bij een meervoud, het tweede bij een enkelvoud",
+            "het eerste is een bijvoeglijk naamwoord geworden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het voltooid deelwoord volgt de regel van het hele werkwoord (gebeuren, dus -d). De persoonsvorm krijgt stam plus t."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De namen van de dagen en de maanden krijgen in het Nederlands een hoofdletter.",
+          "antwoord": false,
+          "uitleg": "Maandag en januari schrijf je klein. Feestdagen zoals Kerstmis en Pasen krijgen wel een hoofdletter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de juiste verleden tijd van 'bereiden'?",
+          "opties": [
+            "ik bereidde",
+            "ik bereide",
+            "ik bereidte",
+            "ik bereid"
+          ],
+          "antwoord": 0,
+          "uitleg": "De stam is 'bereid' en eindigt op d. Daar komt -de bij, dus krijg je twee keer d."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je tekens als het trema, het koppelteken en de apostrof samen?",
+          "antwoord": [
+            "diakritische tekens",
+            "diakritisch",
+            "diakritische"
+          ],
+          "uitleg": "Ze veranderen niet de letter zelf maar zeggen hoe je hem moet lezen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke zin staan de hoofdletters juist?",
+          "opties": [
+            "Met Pasen gaan we naar de Ardennen.",
+            "Met pasen gaan we naar de ardennen.",
+            "Met Pasen gaan we naar de ardennen.",
+            "Met pasen gaan we naar de Ardennen."
+          ],
+          "antwoord": 0,
+          "uitleg": "Feestdagen en aardrijkskundige namen krijgen allebei een hoofdletter."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Ik heb me verheugd' en 'ik heb me verheugt' zijn allebei mogelijke schrijfwijzen.",
+          "antwoord": false,
+          "uitleg": "Na 'heb' staat een voltooid deelwoord, en dat volgt het hele werkwoord verheugen. Dus met een d."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke schrijfwijze is correct?",
+          "opties": [
+            "'s morgens",
+            "s' morgens",
+            "smorgens",
+            "'smorgens"
+          ],
+          "antwoord": 0,
+          "uitleg": "De apostrof vervangt de weggelaten letters van het oude 'des'. Er hoort een spatie na."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden krijgen een hoofdletter?",
+          "opties": [
+            "Nederlands",
+            "België",
+            "Kerstmis",
+            "woensdag"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Talen, landen en feestdagen wel; dagen van de week niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom schrijf je 'geëerd' met een trema?",
+          "opties": [
+            "omdat je anders 'gee' als één klank zou lezen",
+            "omdat elk voltooid deelwoord een trema krijgt",
+            "omdat het woord uit twee delen bestaat",
+            "omdat de klemtoon op de tweede e valt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het trema splitst de klank: ge-eerd. Dezelfde reden als bij zeeën en knieën."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke verleden tijd van 'verhuizen' is correct?",
+          "opties": [
+            "verhuisde",
+            "verhuiste",
+            "verhuizde",
+            "verhuizte"
+          ],
+          "antwoord": 0,
+          "uitleg": "De stam eindigt op een z, en die hoort niet bij 't kofschip, dus komt er -de bij. Aan het eind van een lettergreep schrijf je die z als s."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wanneer schrijf je een werkwoordsvorm met -dt?",
+          "opties": [
+            "bij de derde persoon enkelvoud van een stam die op d eindigt",
+            "bij elke verleden tijd van een sterk werkwoord",
+            "bij elk voltooid deelwoord met ge- ervoor",
+            "bij de gebiedende wijs van een zwak werkwoord"
+          ],
+          "antwoord": 0,
+          "uitleg": "Stam word plus uitgang t geeft 'wordt'. Bij 'ik word' komt er geen t bij, en na 'word jij' valt hij weg."
+        }
+      ]
+    },
+    {
+      "titel": "Spelling, leestekens en klanken — deel 2",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor gebruik je een dubbele punt?",
+          "opties": [
+            "om een opsomming, een verklaring of een citaat aan te kondigen",
+            "om een zin definitief af te sluiten",
+            "om een tussenzin aan beide kanten af te bakenen",
+            "om aan te geven dat een zin onafgemaakt blijft"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na de dubbele punt komt wat je zonet aangekondigd hebt. Daarom mag er nooit niets op volgen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze tekens zijn interpunctietekens?",
+          "opties": [
+            "het beletselteken",
+            "het gedachtestreepje",
+            "het aanhalingsteken",
+            "het accentteken"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een accentteken is een uitspraakteken, geen leesteken. De fiche zet die twee bewust in aparte lijstjes."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de drie puntjes waarmee je een zin onafgemaakt laat?",
+          "antwoord": [
+            "beletselteken",
+            "het beletselteken"
+          ],
+          "uitleg": "Het laat de lezer zelf aanvullen, of geeft aarzeling weer."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een komma kan de betekenis van een zin veranderen.",
+          "antwoord": true,
+          "uitleg": "Vergelijk 'We eten, oma' met 'We eten oma'. Hetzelfde geldt voor 'Hij kwam niet, omdat het regende'."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke zin staat de komma correct?",
+          "opties": [
+            "Toen de bel ging, stond iedereen op.",
+            "Toen de bel ging stond iedereen, op.",
+            "Toen, de bel ging stond iedereen op.",
+            "Toen de bel, ging stond iedereen op."
+          ],
+          "antwoord": 0,
+          "uitleg": "De komma scheidt de bijzin van de hoofdzin. Binnen een zinsdeel hoort er geen komma."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor dient een gedachtestreepje?",
+          "opties": [
+            "om een tussenzin of een onderbreking aan te geven",
+            "om twee woorden tot één samenstelling te maken",
+            "om aan te geven dat een woord afgebroken wordt",
+            "om een letterlijk citaat aan te kondigen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het gedachtestreepje is langer dan een koppelteken en zet iets tussen haakjes zonder haakjes te gebruiken."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke leestekens zet je rond de letterlijke woorden van iemand anders?",
+          "antwoord": [
+            "aanhalingstekens",
+            "aanhalingsteken",
+            "dubbele aanhalingstekens"
+          ],
+          "uitleg": "Wat erbinnen staat, is precies wat er gezegd of geschreven werd. Verander je er iets aan, dan mogen ze er niet meer staan."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De spatie is volgens de vakfiche ook een interpunctieteken.",
+          "antwoord": true,
+          "uitleg": "Ze staat uitdrukkelijk in de lijst. Een spatie te veel of te weinig verandert 'een bejaarden tehuis' in iets anders dan 'een bejaardentehuis'."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze letters zijn klinkers?",
+          "opties": [
+            "a",
+            "e",
+            "u",
+            "r"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Het Nederlands heeft zes klinkerletters: a, e, i, o, u en y. Alle andere zijn medeklinkers."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een doffe klank?",
+          "opties": [
+            "de onbeklemtoonde e, zoals in 'de' en in de laatste lettergreep van 'lopen'",
+            "een klinker die je extra lang aanhoudt",
+            "een medeklinker die je nauwelijks hoort",
+            "de klank van twee klinkers na elkaar"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je hoort hem in bijna elk Nederlands woord van meer dan één lettergreep, en hij draagt nooit de klemtoon."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In 'boot' staat een korte klinker.",
+          "antwoord": false,
+          "uitleg": "De oo is lang. In 'bot' staat de korte o. Daarom schrijf je de lange klank in een gesloten lettergreep met twee letters."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bedoelen we met het verschil tussen klankbeeld en schriftbeeld?",
+          "opties": [
+            "hoe een woord klinkt tegenover hoe je het schrijft",
+            "hoe luid je een woord uitspreekt",
+            "of een woord uit één of uit meer lettergrepen bestaat",
+            "of een woord een klinker of een medeklinker vooraan heeft"
+          ],
+          "antwoord": 0,
+          "uitleg": "In 'maan' hoor je drie klanken maar zie je vier letters. In 'hij' hoor je er twee en zie je er drie."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de e-klank in 'de' en in de laatste lettergreep van 'lopen'?",
+          "antwoord": [
+            "doffe klank",
+            "de doffe e",
+            "doffe e"
+          ],
+          "uitleg": "Hij is nooit beklemtoond, en daarom hoor je hem amper terwijl hij overal zit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor dient intonatie?",
+          "opties": [
+            "om betekenis en gevoel mee te geven aan dezelfde woorden",
+            "om de spelling van een woord vast te leggen",
+            "om het aantal lettergrepen te bepalen",
+            "om klinkers van medeklinkers te onderscheiden"
+          ],
+          "antwoord": 0,
+          "uitleg": "'Je komt mee' kan een mededeling, een vraag of een bevel zijn. Alleen de toon maakt het verschil."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Achter een indirecte vraag zoals 'Hij vroeg of ik meekwam' hoort een vraagteken.",
+          "antwoord": false,
+          "uitleg": "Er wordt niets gevraagd, er wordt verteld dát er iets gevraagd werd. Dus komt er een punt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke zin staan de aanhalingstekens correct?",
+          "opties": [
+            "Hij zei: “Ik kom morgen.”",
+            "Hij zei dat: “hij morgen zou komen.”",
+            "Hij zei “dat hij morgen kwam” volgens mij.",
+            "Hij zei: ik kom “morgen”."
+          ],
+          "antwoord": 0,
+          "uitleg": "Aanhalingstekens staan rond de letterlijke woorden, aangekondigd door een dubbele punt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor kan je een dubbele punt gebruiken?",
+          "opties": [
+            "een opsomming aankondigen",
+            "een verklaring inleiden",
+            "een citaat aankondigen",
+            "een zin afsluiten"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Afsluiten doet een punt, een vraagteken of een uitroepteken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen de klinker in 'maan' en die in 'man'?",
+          "opties": [
+            "de eerste is lang, de tweede kort",
+            "de eerste is dof, de tweede beklemtoond",
+            "de eerste is een medeklinker, de tweede een klinker",
+            "de eerste staat in een open lettergreep, de tweede in een gesloten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Allebei de lettergrepen zijn gesloten. Daarom moet de lange klank met twee letters geschreven worden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom staat er een komma in 'Hoewel het goot, gingen we toch buiten spelen'?",
+          "opties": [
+            "om de bijzin van de hoofdzin te scheiden",
+            "om een opsomming aan te kondigen",
+            "om een citaat in te leiden",
+            "om aan te geven dat de zin onaf is"
+          ],
+          "antwoord": 0,
+          "uitleg": "Staat de bijzin vooraan, dan komt er een komma voor de hoofdzin begint. Dat maakt de zin in één keer leesbaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe maak je van 'Je komt mee' hoorbaar een vraag, zonder de woorden te veranderen?",
+          "opties": [
+            "door de toon aan het einde omhoog te laten gaan",
+            "door trager te spreken",
+            "door de klemtoon op het eerste woord te leggen",
+            "door een pauze in het midden te laten vallen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat is intonatie. In geschreven taal moet een vraagteken dat werk overnemen."
+        }
+      ]
+    },
+    {
+      "titel": "Betekenis, beeldspraak en gevoelswaarde — deel 1",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk woord is een synoniem van 'aanvangen'?",
+          "opties": [
+            "beginnen",
+            "beëindigen",
+            "vermijden",
+            "herhalen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Synoniemen betekenen ongeveer hetzelfde. Ongeveer, want vaak verschillen ze in register of gevoelswaarde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk woord is een antoniem van 'zuinig'?",
+          "opties": [
+            "verkwistend",
+            "spaarzaam",
+            "voorzichtig",
+            "bescheiden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een antoniem is het tegengestelde. 'Spaarzaam' is juist een synoniem van zuinig."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je twee woorden die er hetzelfde uitzien maar iets anders betekenen, zoals de bank om op te zitten en de bank met geld?",
+          "antwoord": [
+            "homoniem",
+            "homoniemen",
+            "een homoniem"
+          ],
+          "uitleg": "Alleen de context maakt duidelijk welke betekenis bedoeld is."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Het regent pijpenstelen' gebruik je letterlijk.",
+          "antwoord": false,
+          "uitleg": "Er vallen geen pijpenstelen uit de lucht. Het is een vaste uitdrukking, dus figuurlijk taalgebruik."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke zinnen staat beeldspraak?",
+          "opties": [
+            "Hij is een leeuw in de strijd.",
+            "Ze huilde tranen met tuiten.",
+            "De wind fluisterde door de bomen.",
+            "De hond blafte luid naar de postbode."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De laatste zin bedoelt precies wat er staat. De drie andere gebruiken een beeld."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen een metafoor en een vergelijking?",
+          "opties": [
+            "bij een vergelijking staat er een woord als 'als' of 'zoals'",
+            "een metafoor is altijd langer dan een vergelijking",
+            "een vergelijking gebruik je alleen in poëzie",
+            "een metafoor gebruikt altijd een dier als beeld"
+          ],
+          "antwoord": 0,
+          "uitleg": "'Hij is zo sterk als een beer' is een vergelijking. 'Hij is een beer' is een metafoor: het beeld wordt de zaak zelf."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je beeldspraak waarbij een ding of een dier menselijke eigenschappen krijgt?",
+          "antwoord": [
+            "personificatie",
+            "een personificatie"
+          ],
+          "uitleg": "De wind fluistert, de zon lacht, de stad slaapt. Alleen mensen doen dat echt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In 'Hij is zo sterk als een beer' staat een metafoor.",
+          "antwoord": false,
+          "uitleg": "Er staat 'zo ... als', dus het is een vergelijking. Bij een metafoor valt dat woordje weg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn synoniemen van 'starten'?",
+          "opties": [
+            "beginnen",
+            "aanvangen",
+            "van wal steken",
+            "afronden"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Ze betekenen hetzelfde maar horen in een ander register: 'aanvangen' klinkt formeel, 'van wal steken' beeldend."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke zin wordt 'sleutel' figuurlijk gebruikt?",
+          "opties": [
+            "Geduld is de sleutel tot succes.",
+            "De sleutel past niet op dit slot.",
+            "Ik ben mijn sleutel kwijtgeraakt.",
+            "Hang je sleutel aan het haakje."
+          ],
+          "antwoord": 0,
+          "uitleg": "In de eerste zin staat geen echte sleutel. Het woord staat er als beeld voor wat een deur opent."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een homoniem bepaalt de context welke betekenis geldt.",
+          "antwoord": true,
+          "uitleg": "'Ik ging naar de bank' is zonder omgeving niet te begrijpen. Dat maakt homoniemen ook bruikbaar voor woordspelingen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent 'de kat uit de boom kijken'?",
+          "opties": [
+            "eerst afwachten hoe iets loopt voor je handelt",
+            "iemand betrappen op een leugen",
+            "een probleem uit de weg gaan",
+            "iets doen zonder erbij na te denken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een uitdrukking betekent iets anders dan de som van haar woorden. Daarom moet je ze als geheel leren."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je een vaste zin met een levensles erin, zoals 'Wie het kleine niet eert, is het grote niet weerd'?",
+          "antwoord": [
+            "spreekwoord",
+            "een spreekwoord"
+          ],
+          "uitleg": "Een spreekwoord is een volledige zin die je niet verandert. Een uitdrukking pas je wél aan de zin aan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'Zij is een engel.' Welke vorm van beeldspraak is dat?",
+          "opties": [
+            "een metafoor",
+            "een vergelijking",
+            "een personificatie",
+            "een homoniem"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het beeld vervangt de zaak zonder waarschuwing. Was er 'als een engel' gestaan, dan was het een vergelijking."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Antoniemen zijn woorden met een tegengestelde betekenis.",
+          "antwoord": true,
+          "uitleg": "Licht en donker, aanwezig en afwezig, stijgen en dalen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk woord betekent het tegenovergestelde van 'tijdelijk'?",
+          "opties": [
+            "blijvend",
+            "kortstondig",
+            "voorlopig",
+            "vluchtig"
+          ],
+          "antwoord": 0,
+          "uitleg": "De drie andere betekenen ongeveer hetzelfde als tijdelijk en zijn dus synoniemen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn homoniemen?",
+          "opties": [
+            "bank",
+            "slot",
+            "kussen",
+            "stoel"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Bank: meubel of geldinstelling. Slot: van een deur, van een kasteel, of het einde. Kussen: een ding of een werkwoord. 'Stoel' heeft maar één betekenis."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet de metafoor in 'een zee van tijd'?",
+          "opties": [
+            "ze laat de hoeveelheid tijd aanvoelen als iets eindeloos",
+            "ze zegt precies hoeveel uren er over zijn",
+            "ze maakt de zin objectiever dan zonder beeld",
+            "ze vergelijkt twee zaken met het woordje 'als'"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een beeld doet iets met je gevoel wat een cijfer niet doet. Daarom is beeldspraak ook een middel om subjectief te worden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is 'hij gaf de pijp aan Maarten' lastig voor wie Nederlands leert?",
+          "opties": [
+            "omdat de betekenis niet uit de losse woorden af te leiden is",
+            "omdat er een naam in staat die niet bestaat",
+            "omdat de zin grammaticaal fout is",
+            "omdat er twee werkwoorden in staan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Uitdrukkingen leer je als geheel. Woord voor woord vertalen levert onzin op."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen een uitdrukking en een spreekwoord?",
+          "opties": [
+            "een spreekwoord is een volledige zin met een wijsheid, een uitdrukking een vaste woordgroep",
+            "een spreekwoord is altijd ouder dan een uitdrukking",
+            "een uitdrukking is figuurlijk, een spreekwoord letterlijk",
+            "een uitdrukking komt alleen in spreektaal voor"
+          ],
+          "antwoord": 0,
+          "uitleg": "'Hoge bomen vangen veel wind' is een spreekwoord. 'In het oog springen' is een uitdrukking die je in je eigen zin inpast."
+        }
+      ]
+    },
+    {
+      "titel": "Betekenis, beeldspraak en gevoelswaarde — deel 2",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand kijkt naar buiten waar het giet en zegt: 'Wat een prachtig weertje.' Welke vorm van humor is dat?",
+          "opties": [
+            "ironie",
+            "een woordspeling",
+            "een parodie",
+            "taalhumor"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij ironie zeg je het omgekeerde van wat je bedoelt, en reken je erop dat de ander dat doorheeft."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'Ik heb je dat al duizend keer gezegd.' Welke stijlvorm gebruikt die spreker?",
+          "opties": [
+            "een overdrijving",
+            "een eufemisme",
+            "een personificatie",
+            "een homoniem"
+          ],
+          "antwoord": 0,
+          "uitleg": "Niemand telt echt tot duizend. Een overdrijving versterkt het gevoel, niet het feit."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je humor die speelt met de dubbele betekenis van een woord?",
+          "antwoord": [
+            "woordspeling",
+            "een woordspeling",
+            "woordspelingen"
+          ],
+          "uitleg": "Ze leunt vaak op homoniemen, en daarom werkt ze zelden in een andere taal."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij ironie zeg je het omgekeerde van wat je bedoelt.",
+          "antwoord": true,
+          "uitleg": "Dat maakt ze ook riskant: wie de toon of de context mist, leest precies het tegendeel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze horen bij de vormen van humor?",
+          "opties": [
+            "ironie",
+            "taalhumor",
+            "parodie",
+            "personificatie"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Personificatie is beeldspraak, geen humor. De fiche zet die twee in aparte lijstjes."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een bedrijf spreekt van 'een herstructurering' waar mensen ontslagen worden. Wat is dat?",
+          "opties": [
+            "een eufemisme",
+            "een dysfemisme",
+            "een homoniem",
+            "een personificatie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een eufemisme verzacht. Het feit blijft hetzelfde, het gevoel bij het woord niet."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het omgekeerde van een eufemisme, een woord dat iets net erger doet klinken?",
+          "antwoord": [
+            "dysfemisme",
+            "een dysfemisme"
+          ],
+          "uitleg": "Van 'een graaicultuur' spreken in plaats van 'hoge lonen' is een dysfemisme. Het oordeel zit al in het woord."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Goedkoop' en 'voordelig' betekenen hetzelfde en klinken even neutraal.",
+          "antwoord": false,
+          "uitleg": "Ze betekenen ongeveer hetzelfde, maar 'goedkoop' suggereert ook slechte kwaliteit. Dat verschil is de gevoelswaarde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een leenwoord?",
+          "opties": [
+            "een woord dat uit een andere taal is overgenomen",
+            "een woord dat maar tijdelijk in gebruik is",
+            "een woord dat twee betekenissen heeft",
+            "een woord dat je alleen in gesproken taal gebruikt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het Nederlands zit er vol mee: uit het Frans, het Latijn, het Duits en tegenwoordig vooral het Engels."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn leenwoorden in het Nederlands?",
+          "opties": [
+            "computer",
+            "paraplu",
+            "sowieso",
+            "boom"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Computer komt uit het Engels, paraplu uit het Frans, sowieso uit het Duits. 'Boom' is een inheems woord."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een inheems woord hoort van oudsher bij de taal en komt niet uit een andere taal.",
+          "antwoord": true,
+          "uitleg": "Huis, water, moeder, geven. Ze zijn zo oud dat ze in verwante talen nog herkenbaar zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je leest een woord dat je niet kent. Hoe leid je de betekenis af?",
+          "opties": [
+            "uit de context, je voorkennis en de bouw van het woord",
+            "door het aantal lettergrepen te tellen",
+            "door te kijken of het met een hoofdletter geschreven is",
+            "door het woord hardop uit te spreken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zie je bijvoorbeeld 'on-' vooraan of '-baar' achteraan, dan weet je al iets. En soms helpt je kennis van het Frans of het Engels."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je een grappige nabootsing van een bekende stijl of een bekend werk?",
+          "antwoord": [
+            "parodie",
+            "een parodie"
+          ],
+          "uitleg": "Een parodie leunt op herkenning: je moet het origineel kennen om ze grappig te vinden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is taalhumor?",
+          "opties": [
+            "humor die uit de taal zelf komt, niet uit de situatie",
+            "humor die alleen kinderen begrijpen",
+            "humor waarbij iemand belachelijk gemaakt wordt",
+            "humor die in elke taal hetzelfde werkt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Denk aan een woordspeling of een rijm dat onverwacht uitkomt. Wat er gebeurt is niet grappig; hoe het gezegd wordt wel."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een woordspeling werkt in elke taal even goed.",
+          "antwoord": false,
+          "uitleg": "Ze hangt vast aan de klank en de betekenissen van precies dat woord. Vertaal je ze, dan blijft er meestal niets van over."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een columnist noemt een nieuwe wet 'een gedrocht'. Wat doet hij?",
+          "opties": [
+            "hij kiest een woord met een sterk negatieve gevoelswaarde",
+            "hij gebruikt een woord in zijn letterlijke betekenis",
+            "hij maakt een woordspeling met een homoniem",
+            "hij verzacht zijn oordeel met een eufemisme"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het feit, een nieuwe wet, blijft staan. Het oordeel zit volledig in de woordkeuze."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden klinken negatiever dan hun neutrale tegenhanger?",
+          "opties": [
+            "bemoeial, naast betrokken burger",
+            "koppig, naast volhardend",
+            "spilzuchtig, naast gul",
+            "vriendelijk, naast beleefd"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Vriendelijk en beleefd zijn allebei positief. De drie andere paren beschrijven hetzelfde gedrag met een ander oordeel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe herken je ironie in een geschreven tekst, waar je de toon niet hoort?",
+          "opties": [
+            "aan het verschil tussen wat er staat en wat je uit de context weet",
+            "aan het aantal uitroeptekens in de zin",
+            "aan de lengte van de zinnen",
+            "aan het gebruik van hoofdletters"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie de situatie niet kent, mist de ironie. Daarom loopt ze op sociale media zo vaak verkeerd af."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom kan je een uitdrukking meestal niet letterlijk vertalen?",
+          "opties": [
+            "omdat haar betekenis niet uit de losse woorden volgt",
+            "omdat uitdrukkingen altijd te lang zijn",
+            "omdat elke taal dezelfde uitdrukkingen heeft",
+            "omdat uitdrukkingen geen werkwoord bevatten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het Engels zegt 'it's raining cats and dogs' waar wij pijpenstelen zien. Elk beeld is in zijn eigen taal gegroeid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het effect van een overdrijving in een tekst?",
+          "opties": [
+            "ze versterkt het gevoel, maar maakt de tekst subjectiever",
+            "ze maakt de tekst objectiever en controleerbaarder",
+            "ze vervangt een ontbrekend argument door een feit",
+            "ze verandert de woordsoort van het woord"
+          ],
+          "antwoord": 0,
+          "uitleg": "Daarom zie je overdrijvingen vaak in reclame en columns, en zelden in een informatieve tekst."
+        }
+      ]
+    },
+    {
+      "titel": "Verhalen ontleden: verteller, tijd en ruimte — deel 1",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen fictie en non-fictie?",
+          "opties": [
+            "fictie is verzonnen, non-fictie doet uitspraken over de werkelijkheid",
+            "fictie is altijd langer dan een non-fictietekst over hetzelfde",
+            "fictie verschijnt in boeken, non-fictie in kranten en tijdschriften",
+            "fictie gebruikt beeldspraak, non-fictie houdt het bij nuchtere feiten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een historische roman gaat over echte gebeurtenissen en blijft fictie, want de personages en gesprekken zijn bedacht."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een antiheld?",
+          "opties": [
+            "een hoofdpersoon zonder de klassieke heldeneigenschappen",
+            "het personage dat de hoofdpersoon voortdurend in de weg loopt",
+            "een personage dat pas op het einde van het verhaal opduikt",
+            "een personage dat in het hele verhaal geen woord zegt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hij is bang, twijfelt of maakt verkeerde keuzes, en draagt toch het verhaal. De tegenstander heet de antagonist."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de tegenstander van de hoofdpersoon?",
+          "antwoord": [
+            "antagonist",
+            "de antagonist"
+          ],
+          "uitleg": "Protagonist en antagonist horen bij elkaar: zonder tegenkracht geen verhaal."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De protagonist is de hoofdpersoon van een verhaal.",
+          "antwoord": true,
+          "uitleg": "Het woord komt uit het Griekse theater en betekent: de eerste speler."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze horen bij de spanningsopbouw van een verhaal?",
+          "opties": [
+            "cliffhanger",
+            "spanningsboog",
+            "climax",
+            "enjambement"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een enjambement hoort bij poëzie: een zin die over de versregel heen doorloopt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is kennisvoorsprong?",
+          "opties": [
+            "de lezer weet meer dan het personage",
+            "het personage weet meer dan de lezer",
+            "de verteller weet niets van de afloop",
+            "twee personages weten evenveel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Jij ziet de moordenaar achter de deur staan en zij niet. Dat maakt elke gewone handeling plots spannend."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het hoogtepunt van de spanning in een verhaal?",
+          "antwoord": [
+            "climax",
+            "de climax",
+            "het hoogtepunt"
+          ],
+          "uitleg": "Na de climax volgt de ontknoping. De spanning loopt daar weer af."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een vlak personage verandert in de loop van het verhaal.",
+          "antwoord": false,
+          "uitleg": "Net niet: een vlak personage blijft zichzelf van begin tot eind. Een rond personage groeit of wijzigt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke kenmerken horen bij een rond personage?",
+          "opties": [
+            "het heeft meerdere, soms tegenstrijdige eigenschappen",
+            "het verandert in de loop van het verhaal",
+            "je leert ook zijn binnenkant kennen",
+            "het is altijd de hoofdpersoon van het verhaal"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Ook een bijfiguur kan rond zijn, en een hoofdpersoon kan vlak blijven. Rond gaat over diepte, niet over belang."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een cliffhanger?",
+          "opties": [
+            "een hoofdstuk dat afbreekt op het spannendste moment",
+            "het hoogtepunt van de spanning, vlak voor de ontknoping",
+            "een verwijzing naar iets wat vroeger gebeurd is",
+            "een personage dat plots van kant wisselt in het verhaal"
+          ],
+          "antwoord": 0,
+          "uitleg": "Series leven ervan: je moet wel verder kijken of lezen om te weten hoe het afloopt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Kennisachterstand betekent dat de lezer minder weet dan een personage.",
+          "antwoord": true,
+          "uitleg": "Ook dat maakt spanning: je leest verder om te weten te komen wat dat personage allang weet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom verhoogt kennisvoorsprong de spanning?",
+          "opties": [
+            "omdat je ziet aankomen wat het personage nog niet doorheeft",
+            "omdat het verhaal daardoor korter wordt",
+            "omdat je dan de afloop niet meer kent",
+            "omdat het personage daardoor zelf de verteller van het verhaal wordt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je wil bijna roepen: draai je om. Precies dat gevoel is het doel van die opbouw."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het geheel van gebeurtenissen dat het verhaal draagt?",
+          "antwoord": [
+            "de verhaallijn",
+            "verhaallijn"
+          ],
+          "uitleg": "Een verhaal kan meerdere verhaallijnen hebben die elkaar afwisselen en op het einde samenkomen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bedoelen we met het genre van een tekst?",
+          "opties": [
+            "de soort waartoe hij hoort, met de verwachtingen die daarbij horen",
+            "de lengte van de tekst, gemeten in het aantal bladzijden",
+            "de tijd en de plaats waarin het verhaal zich afspeelt, van begin tot eind",
+            "de taal waarin de tekst oorspronkelijk geschreven is"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een detective verwacht je een misdaad en een oplossing. Wie die verwachting breekt, doet dat met opzet."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Non-fictie kan nooit spannend zijn.",
+          "antwoord": false,
+          "uitleg": "Een true crime podcast of een reportage over een ramp gebruikt dezelfde middelen: opbouw, cliffhangers, kennisvoorsprong."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In een verhaal zoekt een rechercheur een seriemoordenaar. Wie is de antagonist?",
+          "opties": [
+            "de seriemoordenaar",
+            "de rechercheur",
+            "de verteller",
+            "de lezer"
+          ],
+          "antwoord": 0,
+          "uitleg": "De antagonist werkt de protagonist tegen. Dat hoeft trouwens geen persoon te zijn: ook de natuur of een ziekte kan die rol spelen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke teksten zijn non-fictie?",
+          "opties": [
+            "een biografie",
+            "een reportage over de zorg",
+            "een handleiding bij een boormachine",
+            "een sprookje over een prinses"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Non-fictie doet uitspraken over de werkelijkheid en kan dus juist of fout zijn. Een sprookje niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de spanningsboog van een verhaal?",
+          "opties": [
+            "het verloop van de spanning van begin tot ontknoping",
+            "het moment waarop de spanning het allerhoogst komt te staan",
+            "de plaats waar het verhaal zich afspeelt",
+            "de volgorde waarin de personages opduiken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ze loopt op naar de climax en zakt daarna weer. De cliffhanger is een trucje om ze tussendoor omhoog te houden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom vinden lezers een antiheld vaak geloofwaardiger dan een klassieke held?",
+          "opties": [
+            "omdat hij twijfels en gebreken heeft zoals zij",
+            "omdat hij altijd wint op het einde",
+            "omdat hij nooit iets verkeerds doet",
+            "omdat hij veel minder in het verhaal voorkomt dan de andere"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een held zonder zwaktes is makkelijk te bewonderen en moeilijk te herkennen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een knecht blijft van het begin tot het einde de grappige sukkel. Wat voor personage is dat?",
+          "opties": [
+            "een vlak personage",
+            "een rond personage",
+            "de antagonist",
+            "de protagonist"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eén eigenschap, geen groei. Dat is geen fout van de schrijver: vlakke personages houden het verhaal overzichtelijk."
+        }
+      ]
+    },
+    {
+      "titel": "Verhalen ontleden: verteller, tijd en ruimte — deel 2",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een flashback?",
+          "opties": [
+            "een terugblik naar iets wat vóór het verhaalheden gebeurde",
+            "een sprong vooruit naar wat nog komen moet",
+            "een hoofdstuk dat op een spannend moment afbreekt",
+            "een verteller die alles weet van alle personages"
+          ],
+          "antwoord": 0,
+          "uitleg": "Flashbacks doorbreken de chronologie en geven je achtergrond op het moment dat je die nodig hebt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen verteltijd en vertelde tijd?",
+          "opties": [
+            "verteltijd is hoe lang je leest, vertelde tijd hoeveel tijd er in het verhaal voorbijgaat",
+            "verteltijd is de tijd van de schrijver, vertelde tijd die van de lezer",
+            "verteltijd staat in de verleden tijd, vertelde tijd in de tegenwoordige",
+            "verteltijd hoort bij proza, vertelde tijd bij poëzie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Twintig bladzijden over één nacht: veel verteltijd, weinig vertelde tijd. Eén zin over twintig jaar: net omgekeerd."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het vooruitwijzen naar iets wat later in het verhaal gebeurt?",
+          "antwoord": [
+            "flashforward",
+            "een flashforward",
+            "vooruitwijzing"
+          ],
+          "uitleg": "Het maakt nieuwsgierig: je weet dát er iets komt, maar nog niet hoe het zover komt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Chronologisch vertellen betekent: in de volgorde waarin de gebeurtenissen plaatsvonden.",
+          "antwoord": true,
+          "uitleg": "Flashbacks, flashforwards en tijdsprongen doorbreken die volgorde allemaal op hun eigen manier."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vertelperspectieven bestaan er?",
+          "opties": [
+            "de belevende ik-verteller",
+            "de personele hij- of zij-verteller",
+            "de alwetende verteller",
+            "de sprekende verteller"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De fiche noemt ook de vertellende ik-verteller. Een 'sprekende verteller' bestaat niet als term."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'Ik zag de klink bewegen en mijn hart bonsde in mijn keel.' Welk vertelperspectief?",
+          "opties": [
+            "een belevende ik-verteller",
+            "een vertellende ik-verteller",
+            "een personele hij-verteller",
+            "een alwetende verteller"
+          ],
+          "antwoord": 0,
+          "uitleg": "De ik beleeft het op dit moment en weet nog niet hoe het afloopt. De vertellende ik kijkt juist achteraf terug."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je een verteller die in het hoofd van alle personages kan kijken?",
+          "antwoord": [
+            "alwetende verteller",
+            "een alwetende verteller",
+            "alwetend"
+          ],
+          "uitleg": "Hij staat buiten het verhaal en kent ook wat geen enkel personage kan weten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een personele hij- of zij-verteller kijk je mee over de schouder van één personage.",
+          "antwoord": true,
+          "uitleg": "Je leest 'hij' en 'zij', maar je ziet en weet alleen wat dat ene personage ziet en weet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een tijdsprong?",
+          "opties": [
+            "een stuk tijd dat overgeslagen wordt",
+            "een terugblik naar het verleden",
+            "een verhaal dat in twee tijden tegelijk speelt",
+            "het verschil tussen verteltijd en vertelde tijd"
+          ],
+          "antwoord": 0,
+          "uitleg": "'Drie jaar later' en het verhaal gaat verder. Wat ertussen gebeurde, hoef je niet te weten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke soorten ruimte onderscheid je in een verhaal?",
+          "opties": [
+            "geografisch",
+            "symbolisch",
+            "sociaal",
+            "chronologisch"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De fiche noemt ook de sfeerscheppende ruimte. Chronologisch hoort bij tijd, niet bij ruimte."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Verteltijd en vertelde tijd zijn altijd even lang.",
+          "antwoord": false,
+          "uitleg": "Bijna nooit zelfs. Waar een schrijver vertraagt of versnelt, zie je waar hij de nadruk legt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'Twintig jaar gingen voorbij.' Wat zegt zo'n zin over verteltijd en vertelde tijd?",
+          "opties": [
+            "veel vertelde tijd in heel weinig verteltijd",
+            "veel verteltijd in heel weinig vertelde tijd",
+            "allebei zijn ze even lang",
+            "er is geen vertelde tijd in die zin"
+          ],
+          "antwoord": 0,
+          "uitleg": "Die twintig jaar zijn blijkbaar niet belangrijk voor het verhaal. Anders had de schrijver er bladzijden aan besteed."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de ruimte die vooral een stemming oproept, zoals een donker bos in een griezelverhaal?",
+          "antwoord": [
+            "sfeerscheppend",
+            "sfeerscheppende ruimte",
+            "de sfeerscheppende ruimte"
+          ],
+          "uitleg": "De plaats doet er dan minder toe dan het gevoel dat ze meegeeft."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen een vertellende en een belevende ik-verteller?",
+          "opties": [
+            "de vertellende kijkt achteraf terug, de belevende staat er middenin",
+            "de vertellende is een volwassene, de belevende een kind",
+            "de vertellende gebruikt 'hij', de belevende 'ik'",
+            "de vertellende kent de gedachten van alle personages"
+          ],
+          "antwoord": 0,
+          "uitleg": "'Toen wist ik nog niet dat het mijn laatste zomer was' verraadt een vertellende ik: hij kent de afloop al."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een ik-verteller weet altijd wat de andere personages denken.",
+          "antwoord": false,
+          "uitleg": "Juist niet. Hij kan alleen gissen, en dat maakt hem onbetrouwbaar op een manier die schrijvers graag uitbuiten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een verhaal speelt in een verpauperde achterbuurt, en dat zegt vooral iets over de stand van de personages. Om welke ruimte gaat het?",
+          "opties": [
+            "de sociale ruimte",
+            "de geografische ruimte",
+            "de symbolische ruimte",
+            "de sfeerscheppende ruimte"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dezelfde plaats kan tegelijk geografisch (een stad), sociaal (arm) en sfeerscheppend (somber) zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze zijn fictiegenres?",
+          "opties": [
+            "gothic novel",
+            "dierenepiek",
+            "graphic novel",
+            "bijsluiter"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een bijsluiter is prescriptieve non-fictie. De fiche noemt daarnaast onder meer de sage, de legende en de oorlogsroman."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk genre vertelt over dieren die zich als mensen gedragen en eindigt met een les?",
+          "opties": [
+            "de fabel",
+            "de sage",
+            "de legende",
+            "de mythe"
+          ],
+          "antwoord": 0,
+          "uitleg": "De vos en de raaf, de haas en de schildpad. De les op het einde heet de moraal."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom kan een symbolische ruimte meer betekenen dan gewoon een plaats?",
+          "opties": [
+            "omdat ze staat voor iets anders, zoals een muur voor een scheiding",
+            "omdat ze altijd in het buitenland ligt",
+            "omdat ze nooit beschreven wordt",
+            "omdat ze bepaalt wie de verteller is"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een brug, een eiland, een kelder: de lezer voelt de betekenis vaak eerder dan hij ze kan benoemen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom kiest een schrijver soms voor een alwetende verteller?",
+          "opties": [
+            "om de lezer meer te laten weten dan de personages zelf",
+            "om het verhaal korter te maken",
+            "om te vermijden dat er dialoog nodig is",
+            "om de chronologie te kunnen behouden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zo kan hij kennisvoorsprong opbouwen, of twee verhaallijnen naast elkaar leggen die de personages niet van elkaar kennen."
+        }
+      ]
+    },
+    {
+      "titel": "Poëzie, drama en literaire stromingen — deel 1",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel versregels telt een sonnet?",
+          "opties": [
+            "veertien",
+            "twaalf",
+            "acht",
+            "zestien"
+          ],
+          "antwoord": 0,
+          "uitleg": "Meestal verdeeld in een octaaf van acht regels en een sextet van zes."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een acrostichon of naamdicht?",
+          "opties": [
+            "een gedicht waarvan de beginletters samen een woord vormen",
+            "een gedicht waarin elke regel evenveel lettergrepen telt",
+            "een gedicht zonder enige vorm van rijm of maat",
+            "een gedicht dat verteld wordt door een ik-figuur"
+          ],
+          "antwoord": 0,
+          "uitleg": "Lees de eerste letters van boven naar beneden en je krijgt een naam of een boodschap."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de Japanse dichtvorm van drie regels met vijf, zeven en vijf lettergrepen?",
+          "antwoord": [
+            "haiku",
+            "een haiku",
+            "de haiku"
+          ],
+          "uitleg": "Kort, zonder rijm, en meestal met een beeld uit de natuur."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een limerick is een grappig gedicht van vijf regels.",
+          "antwoord": true,
+          "uitleg": "Het rijmschema is aabba, en de clou zit altijd in de laatste regel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze zijn dichtvormen?",
+          "opties": [
+            "de ballade",
+            "het sonnet",
+            "het vrije vers",
+            "de klucht"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een klucht is een toneelvorm, geen dichtvorm. De fiche noemt daarnaast de haiku, de limerick, het naamdicht en de minneliederen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is alliteratie?",
+          "opties": [
+            "dezelfde beginmedeklinker in woorden vlak na elkaar",
+            "dezelfde klinkerklank in woorden vlak na elkaar",
+            "dezelfde eindklank aan het einde van twee versregels",
+            "dezelfde regel die na elke strofe terugkeert"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zoals in 'ruisend riet' of 'tussen twee torens'. Het maakt een regel hoorbaar, ook zonder eindrijm."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het herhalen van dezelfde klinkerklank in woorden vlak na elkaar?",
+          "antwoord": [
+            "assonantie",
+            "de assonantie"
+          ],
+          "uitleg": "Het is de tegenhanger van alliteratie, die de beginmedeklinker herhaalt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij gekruist rijm is het rijmschema abab.",
+          "antwoord": true,
+          "uitleg": "Gepaard rijm is aabb, omarmend rijm is abba. Bij gekruist rijm springt het rijm telkens een regel over."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze zijn stijlfiguren?",
+          "opties": [
+            "herhaling",
+            "personificatie",
+            "overdrijving",
+            "enjambement"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een enjambement staat bij de fiche onder ritme, niet onder de stijlfiguren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een enjambement?",
+          "opties": [
+            "een zin die doorloopt over het einde van de versregel heen",
+            "een regel die na elke strofe letterlijk terugkeert",
+            "een gedicht zonder vaste maat en zonder rijm",
+            "een strofe die uit precies drie regels bestaat"
+          ],
+          "antwoord": 0,
+          "uitleg": "De regel breekt af waar de zin nog niet af is. Dat legt nadruk op het laatste en het eerste woord."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een kwatrijn is een strofe van zes regels.",
+          "antwoord": false,
+          "uitleg": "Een kwatrijn telt er vier. Zes is een sextet, drie is een terzine en acht is een octaaf."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk rijmschema hoort bij omarmend rijm?",
+          "opties": [
+            "abba",
+            "abab",
+            "aabb",
+            "aaaa"
+          ],
+          "antwoord": 0,
+          "uitleg": "De buitenste twee regels rijmen op elkaar en sluiten de binnenste twee in, als armen eromheen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je een strofe van vier versregels?",
+          "antwoord": [
+            "kwatrijn",
+            "een kwatrijn",
+            "het kwatrijn"
+          ],
+          "uitleg": "Twee kwatrijnen samen vormen het octaaf van een sonnet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een refrein?",
+          "opties": [
+            "een regel of strofe die telkens terugkeert in het gedicht",
+            "de laatste regel van een gedicht met de clou erin",
+            "een strofe van zes regels na een octaaf",
+            "een zin die over de versregel heen doorloopt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je kent het van liedjes. In een ballade doet het refrein hetzelfde werk: het bindt het verhaal samen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een vrij vers heeft een vast rijmschema en een vaste maat.",
+          "antwoord": false,
+          "uitleg": "Precies omgekeerd: een vrij vers laat allebei los. Wat overblijft is de regelval en de beeldspraak."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel regels telt een terzine?",
+          "opties": [
+            "drie",
+            "vier",
+            "zes",
+            "acht"
+          ],
+          "antwoord": 0,
+          "uitleg": "In een sonnet volgen na het octaaf vaak twee terzinen, die samen het sextet vormen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze rijmsoorten bestaan?",
+          "opties": [
+            "gepaard rijm",
+            "gekruist rijm",
+            "omarmend rijm",
+            "blank rijm"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De fiche noemt daarnaast volrijm, eindrijm, alliteratie en assonantie. Blank rijm staat er niet bij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat zijn minneliederen?",
+          "opties": [
+            "middeleeuwse liederen over de liefde",
+            "moderne liederen zonder vaste maat",
+            "liederen die bij een begrafenis gezongen worden",
+            "liederen met een vast refrein na elke strofe"
+          ],
+          "antwoord": 0,
+          "uitleg": "Minne is het middeleeuwse woord voor liefde. Ze horen bij de hoofse cultuur."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen een vers en een strofe?",
+          "opties": [
+            "een vers is één regel, een strofe een groepje regels",
+            "een vers is een heel gedicht, een strofe een deel ervan",
+            "een vers rijmt, een strofe niet",
+            "een vers hoort bij een lied, een strofe bij een gedicht"
+          ],
+          "antwoord": 0,
+          "uitleg": "In de poëzie betekent 'vers' dus niet hetzelfde als in het dagelijks taalgebruik, waar het vaak het hele gedicht aanduidt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom gebruikt een dichter een enjambement?",
+          "opties": [
+            "om nadruk te leggen op het woord vlak voor en na de breuk",
+            "om het gedicht korter te maken",
+            "om een vast rijmschema te kunnen aanhouden",
+            "om aan te geven dat een strofe eindigt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je oog valt van de regel af terwijl de zin nog doorloopt. Die kleine aarzeling is het effect."
+        }
+      ]
+    },
+    {
+      "titel": "Poëzie, drama en literaire stromingen — deel 2",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een tragedie?",
+          "opties": [
+            "een toneelstuk dat slecht afloopt voor de hoofdpersoon",
+            "een toneelstuk waarin voortdurend gezongen wordt",
+            "een kort toneelstuk met grove grappen erin",
+            "een toneelstuk zonder decor en zonder rekwisieten"
+          ],
+          "antwoord": 0,
+          "uitleg": "De hoofdpersoon gaat ten onder, vaak door een eigenschap die hem eerst juist groot maakte."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een klucht?",
+          "opties": [
+            "een kort toneelstuk met grove, volkse humor",
+            "een toneelstuk dat treurig afloopt",
+            "een toneelstuk waarin uitsluitend gedanst wordt",
+            "een toneelstuk zonder enige vorm van dialoog"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kluchten drijven op misverstanden, verkleedpartijen en herkenbare types."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je toneel waarin gezongen wordt, zoals een musical of een opera?",
+          "antwoord": [
+            "muziektheater",
+            "het muziektheater"
+          ],
+          "uitleg": "De fiche noemt het als een van de vier subgenres van drama."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een komedie loopt goed af.",
+          "antwoord": true,
+          "uitleg": "Dat is het klassieke onderscheid met de tragedie. Onderweg mag er van alles misgaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke elementen horen bij een opvoeringsanalyse?",
+          "opties": [
+            "het decor",
+            "de belichting",
+            "de rekwisieten",
+            "het rijmschema"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een rijmschema hoort bij poëzie. De fiche noemt verder ruimte, mimiek, gebaren, kostumering, grime, muziek en geluid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat zijn rekwisieten?",
+          "opties": [
+            "de voorwerpen die de spelers op het toneel gebruiken",
+            "de kleren die de spelers op het toneel dragen",
+            "de lampen waarmee het toneel verlicht wordt",
+            "de gebaren waarmee een speler iets duidelijk maakt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een brief, een glas, een wapen. De kleren heten kostumering, en die staat apart in de lijst."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de schmink waarmee een acteur er ouder of heel anders uit gaat zien?",
+          "antwoord": [
+            "grime",
+            "de grime"
+          ],
+          "uitleg": "Grime en kostumering samen bepalen hoe een personage er van ver uitziet."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Kostumering is volgens de vakfiche een element van de opvoeringsanalyse.",
+          "antwoord": true,
+          "uitleg": "Wat iemand draagt, zegt iets over zijn stand, zijn tijd en zijn karakter, nog voor hij iets gezegd heeft."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is kenmerkend voor middeleeuwse literatuur?",
+          "opties": [
+            "getallensymboliek en een dubbele gelaagdheid",
+            "een nuchtere beschrijving van sociale wantoestanden",
+            "de nadruk op het gevoel van het eenzame individu",
+            "het volledig loslaten van rijm en maat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het tweede past bij het realisme, het derde bij de romantiek, het vierde bij het moderne vrije vers."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke literaire stromingen moet je volgens de vakfiche op een tekst kunnen toepassen?",
+          "opties": [
+            "de middeleeuwen",
+            "de romantiek",
+            "het realisme",
+            "de barok"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De fiche noemt uitdrukkelijk die drie, met hun kenmerken, hun situering en hun stijl."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De hoofse liefde is een thema uit de romantiek.",
+          "antwoord": false,
+          "uitleg": "Ze hoort bij de middeleeuwen: de ridder die zijn dame van op afstand vereert en haar met daden probeert te verdienen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bedoelen we met de dubbele gelaagdheid van middeleeuwse literatuur?",
+          "opties": [
+            "een tekst over een belegerd kasteel kan ook over het hof maken gaan",
+            "een tekst wordt altijd in twee talen tegelijk geschreven",
+            "een tekst heeft altijd twee vertellers naast elkaar",
+            "een tekst speelt zich in twee verschillende tijden af"
+          ],
+          "antwoord": 0,
+          "uitleg": "Onder het verhaal ligt een tweede betekenis. Wie alleen de bovenlaag leest, mist de helft."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de betekenis die middeleeuwse teksten aan bepaalde getallen geven?",
+          "antwoord": [
+            "getallensymboliek",
+            "de getallensymboliek"
+          ],
+          "uitleg": "Drie, zeven en twaalf duiken niet toevallig zo vaak op."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarmee confronteerde de realistische literatuur haar lezers?",
+          "opties": [
+            "met de wantoestanden in de maatschappij, zoals kinderarbeid",
+            "met de idealen van de ridder en zijn dame",
+            "met het gevoel van het eenzame, dromende individu",
+            "met de verborgen betekenis van heilige getallen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat is precies waarom de fiche vraagt of een tekst relevant was voor de samenleving waarin hij ontstond."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een opvoeringsanalyse kijk je alleen naar de tekst van het stuk.",
+          "antwoord": false,
+          "uitleg": "Je kijkt juist naar alles wat de tekst níét is: decor, licht, geluid, kleren, grime, gebaren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is mimiek belangrijk op het toneel?",
+          "opties": [
+            "omdat een gezicht iets anders kan zeggen dan de woorden",
+            "omdat de zaal de woorden meestal niet verstaat",
+            "omdat elke acteur dezelfde gebaren moet maken",
+            "omdat mimiek de belichting vervangt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een personage dat 'het gaat prima' zegt met angst op zijn gezicht, vertelt je twee dingen tegelijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze zijn subgenres van het drama?",
+          "opties": [
+            "de tragedie",
+            "de komedie",
+            "de klucht",
+            "de ballade"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De ballade is een dichtvorm. Het vierde subgenre van drama is het muziektheater."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor dient belichting in een voorstelling?",
+          "opties": [
+            "om de aandacht te sturen en de sfeer te bepalen",
+            "om de acteurs hun tekst te laten aflezen",
+            "om het decor tussen de bedrijven te verplaatsen",
+            "om de zaal te laten weten wanneer het pauze is"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eén lichtbundel op één speler zegt: kijk hier. Koud blauw licht zegt iets heel anders dan warm geel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom vraagt de vakfiche of je kan uitleggen in welke mate een tekst relevant is voor onze samenleving?",
+          "opties": [
+            "omdat literatuur iets zegt over de wereld van toen en die van nu",
+            "omdat een oude tekst anders niet gelezen mag worden",
+            "omdat elke tekst evenveel over vandaag moet zeggen",
+            "omdat je anders het rijmschema niet kan bepalen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een verhaal over kinderarbeid uit 1880 leest anders als je weet dat het toen echt gebeurde, en anders als je aan vandaag denkt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is het nuttig te weten in welke tijd een literaire tekst ontstond?",
+          "opties": [
+            "omdat de stroming verklaart waarom hij er zo uitziet",
+            "omdat oudere teksten altijd korter zijn",
+            "omdat alleen recente teksten beeldspraak gebruiken",
+            "omdat de tijd bepaalt hoeveel strofen er zijn"
+          ],
+          "antwoord": 0,
+          "uitleg": "Getallensymboliek verwacht je in de middeleeuwen, sociale wantoestanden in het realisme, dromerig verlangen in de romantiek."
         }
       ]
     }
