@@ -340,9 +340,9 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Vrijhandel en protectionisme zijn twee tegengestelde keuzes in het handelsbeleid.",
-        antwoord=True,
-        uitleg="Vrijhandel haalt drempels weg, protectionisme zet ze op. Veel landen schuiven tussen die twee heen en weer, afhankelijk van welke sector ze willen beschermen.",
+        vraag="Een land kiest één keer tussen vrijhandel en protectionisme en blijft daar dan bij.",
+        antwoord=False,
+        uitleg="Vrijhandel haalt drempels weg, protectionisme zet ze op, en veel landen schuiven tussen die twee heen en weer. Ze beschermen de ene sector en laten de andere vrij, en dat verandert met de regering mee.",
     ),
     dict(
         type="meerkeuze",

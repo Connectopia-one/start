@@ -276,9 +276,9 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Een oude fabriekssite kan vervuilde grond bevatten die eerst gesaneerd moet worden.",
-        antwoord=True,
-        uitleg="Zware metalen, olie en oplosmiddelen blijven decennia in de bodem. Die saneringskost is een van de redenen waarom zo'n site soms jaren leeg blijft liggen.",
+        vraag="Een oude fabriekssite kan meteen herbouwd worden, want vervuiling verdwijnt vanzelf uit de bodem.",
+        antwoord=False,
+        uitleg="Zware metalen, olie en oplosmiddelen blijven decennia in de bodem zitten. De grond moet eerst gesaneerd worden, en die kost is een van de redenen waarom zo'n site soms jaren leeg blijft liggen.",
     ),
     dict(
         type="meerkeuze",

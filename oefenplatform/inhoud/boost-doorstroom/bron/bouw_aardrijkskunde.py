@@ -101,14 +101,19 @@ def gokpatronen(titel: str, vragen: list) -> list:
 
 
 def evenwicht_waar(hoofdstukken: list) -> list:
-    """Waar en niet waar moeten elkaar per thema in evenwicht houden."""
+    """Waar en niet waar moeten elkaar per hoofdstuk in evenwicht houden.
+
+    Per hóófdstuk, niet per thema. Een kind maakt één hoofdstuk in één keer,
+    dus daar moet het gokken niet lonen. `inhoud/controleer_patronen.py` kijkt
+    op diezelfde manier; stonden die twee niet gelijk, dan kwam een scheef
+    hoofdstuk hier door en pas veel later daar boven water.
+    """
     meldingen = []
     per_thema = {}
     for h in hoofdstukken:
-        thema = h["titel"].split(" — ")[0]
         for v in h["vragen"]:
             if v["type"] == "waarofniet":
-                per_thema.setdefault(thema, []).append(v["antwoord"])
+                per_thema.setdefault(h["titel"], []).append(v["antwoord"])
     for thema, antwoorden in per_thema.items():
         waar = sum(1 for a in antwoorden if a)
         if not (0.35 <= waar / len(antwoorden) <= 0.65):

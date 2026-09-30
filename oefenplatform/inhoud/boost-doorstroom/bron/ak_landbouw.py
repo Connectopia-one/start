@@ -346,9 +346,9 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Online winkelen verandert waar de logistieke gebouwen in een land staan.",
-        antwoord=True,
-        uitleg="Grote magazijnen zoeken een plaats bij een snelwegknooppunt of een haven, van waaruit ze snel kunnen leveren. Zo verschuift werk van de winkelstraat naar de rand van het land.",
+        vraag="Online winkelen verandert niets aan waar de gebouwen van een handelsbedrijf staan.",
+        antwoord=False,
+        uitleg="Het verandert er net veel aan. Grote magazijnen zoeken een plaats bij een snelwegknooppunt of een haven, van waaruit ze snel kunnen leveren, en zo verschuift werk van de winkelstraat naar de rand van het land.",
     ),
     dict(
         type="meerkeuze",

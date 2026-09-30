@@ -127,9 +127,9 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Een inkeping halverwege een leeftijdshistogram kan wijzen op een oorlog of een crisis van vroeger.",
-        antwoord=True,
-        uitleg="Wie in zo'n periode geboren had moeten worden, ontbreekt. Die groep blijft zijn hele leven als een deuk in het histogram meeschuiven.",
+        vraag="Een inkeping halverwege een leeftijdshistogram schuift na een paar jaar vanzelf weer dicht.",
+        antwoord=False,
+        uitleg="Wie in een oorlog of een crisis niet geboren werd, komt er later niet meer bij. Die deuk schuift zijn hele leven met die leeftijdsgroep mee omhoog door het histogram.",
     ),
     dict(
         type="meerkeuze",

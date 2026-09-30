@@ -582,9 +582,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Klimaat, bodemkwaliteit en reliëf verklaren samen een groot deel van het wereldwijde bevolkingspatroon.",
-          "antwoord": true,
-          "uitleg": "De dichtbevolkte gebieden liggen bijna allemaal waar water, grond en reliëf meezitten. Toch is het nooit de hele verklaring: geschiedenis, economie en politiek spelen ook mee."
+          "vraag": "Klimaat, bodemkwaliteit en reliëf verklaren het wereldwijde bevolkingspatroon volledig.",
+          "antwoord": false,
+          "uitleg": "Ze verklaren er wel een groot deel van: de dichtbevolkte gebieden liggen bijna allemaal waar water, grond en reliëf meezitten. Maar geschiedenis, economie en politiek spelen evengoed mee."
         },
         {
           "type": "meerkeuze",
@@ -1000,9 +1000,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een inkeping halverwege een leeftijdshistogram kan wijzen op een oorlog of een crisis van vroeger.",
-          "antwoord": true,
-          "uitleg": "Wie in zo'n periode geboren had moeten worden, ontbreekt. Die groep blijft zijn hele leven als een deuk in het histogram meeschuiven."
+          "vraag": "Een inkeping halverwege een leeftijdshistogram schuift na een paar jaar vanzelf weer dicht.",
+          "antwoord": false,
+          "uitleg": "Wie in een oorlog of een crisis niet geboren werd, komt er later niet meer bij. Die deuk schuift zijn hele leven met die leeftijdsgroep mee omhoog door het histogram."
         },
         {
           "type": "meerkeuze",
@@ -1520,9 +1520,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Armoede kan zowel een reden zijn om naar de stad te trekken als om er juist weg te blijven.",
-          "antwoord": true,
-          "uitleg": "In de stad is er meer kans op werk, maar het wonen is er duurder. Dat is precies waarom armere gezinnen vaak in de goedkoopste, oudste wijken terechtkomen."
+          "vraag": "Armoede duwt mensen altijd in dezelfde richting, namelijk weg uit de stad.",
+          "antwoord": false,
+          "uitleg": "In de stad is er juist meer kans op werk, maar het wonen is er duurder. Armoede trekt dus én duwt, en daarom komen armere gezinnen vaak in de goedkoopste, oudste wijken van de stad terecht."
         },
         {
           "type": "meerkeuze",
@@ -1923,9 +1923,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een land met grote grondstofvoorraden is daarom nog geen welvarend land.",
-          "antwoord": true,
-          "uitleg": "Als de winst naar buitenlandse bedrijven of een kleine elite gaat, merkt de bevolking er weinig van. Men spreekt dan zelfs van de grondstoffenvloek."
+          "vraag": "Een land met grote grondstofvoorraden is daardoor vanzelf een welvarend land.",
+          "antwoord": false,
+          "uitleg": "Als de winst naar buitenlandse bedrijven of naar een kleine elite gaat, merkt de bevolking er weinig van. Men spreekt dan zelfs van de grondstoffenvloek."
         },
         {
           "type": "meerkeuze",
@@ -2596,9 +2596,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Online winkelen verandert waar de logistieke gebouwen in een land staan.",
-          "antwoord": true,
-          "uitleg": "Grote magazijnen zoeken een plaats bij een snelwegknooppunt of een haven, van waaruit ze snel kunnen leveren. Zo verschuift werk van de winkelstraat naar de rand van het land."
+          "vraag": "Online winkelen verandert niets aan waar de gebouwen van een handelsbedrijf staan.",
+          "antwoord": false,
+          "uitleg": "Het verandert er net veel aan. Grote magazijnen zoeken een plaats bij een snelwegknooppunt of een haven, van waaruit ze snel kunnen leveren, en zo verschuift werk van de winkelstraat naar de rand van het land."
         },
         {
           "type": "meerkeuze",
@@ -3033,9 +3033,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Vrijhandel en protectionisme zijn twee tegengestelde keuzes in het handelsbeleid.",
-          "antwoord": true,
-          "uitleg": "Vrijhandel haalt drempels weg, protectionisme zet ze op. Veel landen schuiven tussen die twee heen en weer, afhankelijk van welke sector ze willen beschermen."
+          "vraag": "Een land kiest één keer tussen vrijhandel en protectionisme en blijft daar dan bij.",
+          "antwoord": false,
+          "uitleg": "Vrijhandel haalt drempels weg, protectionisme zet ze op, en veel landen schuiven tussen die twee heen en weer. Ze beschermen de ene sector en laten de andere vrij, en dat verandert met de regering mee."
         },
         {
           "type": "meerkeuze",
@@ -3399,9 +3399,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Een oude fabriekssite kan vervuilde grond bevatten die eerst gesaneerd moet worden.",
-          "antwoord": true,
-          "uitleg": "Zware metalen, olie en oplosmiddelen blijven decennia in de bodem. Die saneringskost is een van de redenen waarom zo'n site soms jaren leeg blijft liggen."
+          "vraag": "Een oude fabriekssite kan meteen herbouwd worden, want vervuiling verdwijnt vanzelf uit de bodem.",
+          "antwoord": false,
+          "uitleg": "Zware metalen, olie en oplosmiddelen blijven decennia in de bodem zitten. De grond moet eerst gesaneerd worden, en die kost is een van de redenen waarom zo'n site soms jaren leeg blijft liggen."
         },
         {
           "type": "meerkeuze",
@@ -3551,6 +3551,891 @@
           "vraag": "Elk land kan de duurzame ontwikkelingsdoelen in zijn eentje halen, los van de andere landen.",
           "antwoord": false,
           "uitleg": "Daarom staat Partnership als aparte P in het rijtje. Kennis, geld en regels moeten over grenzen heen bewegen, anders verschuift een probleem gewoon naar het volgende land."
+        }
+      ]
+    },
+    {
+      "titel": "Het versterkte broeikaseffect — deel 1",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vier sferen onderscheidt men op aarde?",
+          "opties": [
+            "Geosfeer, biosfeer, atmosfeer en hydrosfeer",
+            "Geosfeer, atmosfeer, stratosfeer en hydrosfeer",
+            "Biosfeer, atmosfeer, troposfeer en klimaatsfeer",
+            "Geosfeer, biosfeer, ozonsfeer en waterkringloop"
+          ],
+          "antwoord": 0,
+          "uitleg": "De geosfeer is het gesteente, de biosfeer al wat leeft, de atmosfeer de lucht en de hydrosfeer al het water. Koolstof beweegt voortdurend tussen die vier."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke sfeer zit het water van de oceanen, de rivieren en het ijs?",
+          "opties": [
+            "De hydrosfeer",
+            "De geosfeer",
+            "De biosfeer",
+            "De atmosfeer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hydro betekent water. De oceanen zijn meteen ook de grootste opslagplaats van koolstof buiten het gesteente, want CO₂ lost op in zeewater."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Koolstof die eenmaal in een sfeer zit, blijft daar voorgoed.",
+          "antwoord": false,
+          "uitleg": "Ze beweegt voortdurend. Een boom haalt koolstof uit de lucht, een dier eet de boom, het dier sterft en de koolstof gaat de bodem in, en via verbranding of verwering komt ze weer in de lucht. Dat is de koolstofcyclus."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er met koolstof bij fotosynthese?",
+          "opties": [
+            "Ze gaat uit de atmosfeer naar de biosfeer",
+            "Ze gaat uit de biosfeer naar de atmosfeer",
+            "Ze gaat uit de geosfeer naar de hydrosfeer",
+            "Ze gaat uit de hydrosfeer naar de geosfeer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een plant neemt CO₂ op uit de lucht en bouwt daar met zonlicht suikers mee. Zo verhuist koolstof van de atmosfeer naar wat leeft."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Langs welke wegen komt koolstof uit de geosfeer weer in de atmosfeer terecht? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Het verbranden van steenkool, olie en aardgas",
+            "Vulkaanuitbarstingen die gas uitstoten",
+            "Het maken van cement uit kalksteen",
+            "Het aanplanten van een nieuw bos",
+            "Het laten insijpelen van regenwater"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Fossiele brandstoffen, vulkanen en cementproductie halen koolstof uit het gesteente en zetten ze in de lucht. Een bos aanplanten werkt precies de andere kant op."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Fossiele brandstoffen zijn koolstof die miljoenen jaren geleden uit de lucht werd gehaald.",
+          "antwoord": true,
+          "uitleg": "Planten en plankton legden die koolstof vast, en na miljoenen jaren onder druk werd dat steenkool, olie en gas. Door ze te verbranden zetten wij die oude koolstof in enkele eeuwen terug in de lucht."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze zijn broeikasgassen volgens de vakfiche? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Koolstofdioxide",
+            "Methaan",
+            "Lachgas",
+            "Zuurstof",
+            "Stikstofgas"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De fiche noemt waterdamp, koolstofdioxide, methaan en lachgas. Zuurstof en stikstofgas vormen samen het grootste deel van de lucht maar werken niet als broeikasgas."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Wat is de scheikundige formule van methaan?",
+          "antwoord": [
+            "CH4",
+            "ch4"
+          ],
+          "uitleg": "Methaan is CH₄. Het komt onder meer van herkauwers, van rijstvelden, van stortplaatsen en van lekken bij de winning van gas en olie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de stralingsbalans van de aarde?",
+          "opties": [
+            "De verhouding tussen binnenkomende en uitgaande straling",
+            "De hoeveelheid zonlicht die de evenaar per dag krijgt",
+            "Het verschil in temperatuur tussen dag en nacht",
+            "De dikte van de atmosfeer boven een bepaalde plaats"
+          ],
+          "antwoord": 0,
+          "uitleg": "De aarde ontvangt straling van de zon en geeft warmte terug aan de ruimte. Blijft er meer binnen dan er weggaat, dan warmt de aarde op tot de balans weer klopt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent albedo?",
+          "opties": [
+            "Hoeveel straling een oppervlak terugkaatst",
+            "Hoeveel warmte een oppervlak vasthoudt",
+            "Hoeveel water een bodem kan opnemen",
+            "Hoeveel CO₂ er in de lucht aanwezig is"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een hoog albedo betekent veel terugkaatsen. Verse sneeuw kaatst het grootste deel van het zonlicht terug, een donkere oceaan of een dicht bos bijna niets."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk oppervlak heeft het hoogste albedo?",
+          "opties": [
+            "Verse sneeuw op een gletsjer",
+            "Open water van een oceaan",
+            "Een donker naaldbos in de zomer",
+            "Asfalt van een parkeerterrein"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wit kaatst terug, donker slorpt op. Daarom versterkt het smelten van sneeuw en ijs de opwarming: wat eronder tevoorschijn komt, is bijna altijd donkerder."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als zee-ijs smelt, komt er donkerder water bloot dat meer warmte opneemt.",
+          "antwoord": true,
+          "uitleg": "Minder ijs betekent een lager albedo, dus meer opwarming, dus nog minder ijs. Zo'n zichzelf versterkende lus noemt men een terugkoppeling."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doen broeikasgassen met de warmte die de aarde uitstraalt?",
+          "opties": [
+            "Ze houden een deel ervan in de atmosfeer vast",
+            "Ze kaatsen het zonlicht meteen terug de ruimte in",
+            "Ze zetten warmte om in zichtbaar licht",
+            "Ze koelen de onderste luchtlagen af"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zonlicht komt vlot binnen, maar de warmtestraling die de aarde teruggeeft, wordt deels opgevangen en opnieuw naar beneden gestuurd. Dat maakt het aan het oppervlak warmer."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Zonder het natuurlijke broeikaseffect zou het op aarde gemiddeld ongeveer achttien graden onder nul zijn.",
+          "antwoord": true,
+          "uitleg": "Nu is het gemiddeld ongeveer vijftien graden boven nul. Het natuurlijke broeikaseffect is dus geen probleem maar juist de reden dat er leven mogelijk is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen het natuurlijke en het versterkte broeikaseffect?",
+          "opties": [
+            "Het versterkte komt van de extra gassen die de mens uitstoot",
+            "Het natuurlijke werkt enkel overdag en het versterkte 's nachts",
+            "Het natuurlijke bestaat enkel boven de oceanen",
+            "Het versterkte werkt enkel boven de poolstreken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het mechanisme is hetzelfde. Het verschil is de hoeveelheid: door extra CO₂, methaan en lachgas blijft er meer warmte hangen dan vroeger."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het weerkaatsingsvermogen van een oppervlak, dat bij sneeuw hoog en bij een oceaan laag is?",
+          "antwoord": [
+            "albedo",
+            "het albedo",
+            "de albedo"
+          ],
+          "uitleg": "Albedo is een verhoudingsgetal tussen nul en één. Het is een van de twee sleutelbegrippen waarmee je de stralingsbalans aan het broeikaseffect koppelt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Waterdamp is een broeikasgas dat de mens rechtstreeks in de lucht brengt.",
+          "antwoord": false,
+          "uitleg": "Waterdamp is wel degelijk een broeikasgas, en zelfs een belangrijk, maar de hoeveelheid ervan volgt de temperatuur. Warmere lucht houdt meer damp vast, en dat versterkt de opwarming die er al was."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom houden de oceanen de opwarming voorlopig af?",
+          "opties": [
+            "Ze nemen een groot deel van de extra warmte en CO₂ op",
+            "Ze kaatsen het zonlicht bijna volledig terug",
+            "Ze geven zelf geen enkele warmte af aan de lucht",
+            "Ze bevatten geen koolstof in opgeloste vorm"
+          ],
+          "antwoord": 0,
+          "uitleg": "De oceaan slorpt warmte en koolstof op, en dat vertraagt de opwarming van de lucht. Daar staat tegenover dat het water uitzet en verzuurt, en dat het die warmte later weer afgeeft."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waaraan meet men dat de hoeveelheid CO₂ in de lucht al decennia stijgt? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Aan metingen van meetstations verspreid over de wereld",
+            "Aan luchtbelletjes in oude ijskernen uit het poolijs",
+            "Aan langlopende reeksen die jaar na jaar worden aangevuld",
+            "Aan het aantal zonuren van de voorbije zomer",
+            "Aan de bevolkingsdichtheid van de meetplaats"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Meetstations, ijskernen en lange meetreeksen wijzen alle drie dezelfde kant op. IJskernen laten toe om ver terug te kijken, tot lang voor er gemeten werd."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het broeikaseffect zelf is iets slechts dat we volledig zouden moeten wegwerken.",
+          "antwoord": false,
+          "uitleg": "Zonder broeikaseffect zou de aarde te koud zijn om op te leven. Het probleem is niet het effect maar de versterking ervan door onze extra uitstoot."
+        }
+      ]
+    },
+    {
+      "titel": "Het versterkte broeikaseffect — deel 2",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar komt het grootste deel van de door de mens uitgestoten CO₂ vandaan?",
+          "opties": [
+            "Uit het verbranden van steenkool, olie en aardgas",
+            "Uit de ademhaling van mensen en dieren",
+            "Uit het smelten van de gletsjers en het poolijs",
+            "Uit de waterdamp boven de grote oceanen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Energie, transport, verwarming en industrie draaien grotendeels op fossiele brandstoffen. Ontbossing en cementproductie komen daar nog bij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Uit welke bronnen komt methaan vooral? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Herkauwers zoals runderen",
+            "Rijstvelden onder water",
+            "Stortplaatsen met rottend afval",
+            "Zonnepanelen op daken",
+            "Windmolens op de Noordzee"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Overal waar organisch materiaal zonder zuurstof afbreekt, ontstaat methaan. Daarbij komen nog de lekken bij de winning en het transport van aardgas."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Lachgas komt in de landbouw vooral van het bemesten van de grond.",
+          "antwoord": true,
+          "uitleg": "Bacteriën in de bodem zetten stikstof uit mest en kunstmest deels om in lachgas. Daarom telt de manier van bemesten mee in de klimaatbalans van een bedrijf."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom stijgt de zeespiegel door de opwarming?",
+          "opties": [
+            "Water zet uit als het warmer wordt, en landijs smelt erbij",
+            "Er valt wereldwijd meer regen dan er verdampt",
+            "De oceaanbodem komt door de warmte omhoog",
+            "Rivieren voeren meer water aan dan vroeger"
+          ],
+          "antwoord": 0,
+          "uitleg": "Twee oorzaken tegelijk: warm water neemt meer plaats in, en het ijs van Groenland, Antarctica en de gletsjers voegt water toe dat eerst op land lag."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Als drijvend zee-ijs smelt, stijgt daardoor de zeespiegel.",
+          "antwoord": false,
+          "uitleg": "Drijvend ijs verplaatst al evenveel water als het weegt, dus het smelten ervan verandert het peil niet. Alleen ijs dat op land ligt, doet de zeespiegel stijgen. Zee-ijs telt wel mee via het albedo."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke richting verschuiven de klimaatzones door de opwarming?",
+          "opties": [
+            "Naar de polen toe, en op bergen naar boven toe",
+            "Naar de evenaar toe, en op bergen naar beneden toe",
+            "Naar het oosten toe, met de draaiing van de aarde mee",
+            "Naar het westen toe, tegen de draaiing van de aarde in"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wat warmer wordt, schuift naar koelere plaatsen op: hoger op de breedtegraad en hoger op de helling. Wie al op de top of aan de pool zit, kan nergens meer heen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er met de leefgebieden van planten en dieren?",
+          "opties": [
+            "Ze schuiven mee met de klimaatzones",
+            "Ze blijven precies waar ze altijd lagen",
+            "Ze verdwijnen allemaal binnen enkele jaren",
+            "Ze verplaatsen zich enkel naar de evenaar"
+          ],
+          "antwoord": 0,
+          "uitleg": "Soorten trekken mee naar koelere streken en hogere hoogtes. Wie traag is, of vastzit tussen steden en akkers, geraakt niet mee en komt in de problemen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je met één woord de grote verscheidenheid aan soorten planten en dieren in een gebied?",
+          "antwoord": [
+            "biodiversiteit",
+            "de biodiversiteit"
+          ],
+          "uitleg": "Biodiversiteit maakt een ecosysteem veerkrachtig. Verschuivende klimaatzones en versnipperde leefgebieden zetten die verscheidenheid onder zware druk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke extreme weerfenomenen worden met de opwarming in verband gebracht? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Langere en zwaardere hittegolven",
+            "Hevigere buien met veel neerslag in korte tijd",
+            "Langere droogteperiodes in bepaalde streken",
+            "Een gelijkmatiger weer over het hele jaar",
+            "Kortere en mildere zomers dan vroeger"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Warmere lucht houdt meer vocht vast, dus valt er meer in één keer, terwijl het er elders langer droog blijft. Het weer wordt grilliger, niet gelijkmatiger."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Eén hittegolf bewijst op zich dat het klimaat verandert.",
+          "antwoord": false,
+          "uitleg": "Weer is wat er vandaag gebeurt, klimaat is het gemiddelde over dertig jaar. Eén hete zomer zegt weinig; dat hete zomers steeds vaker voorkomen, zegt wel iets."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom kunnen tropische ziektes zich uitbreiden naar onze streken?",
+          "opties": [
+            "De muggen die ze overbrengen overleven hier steeds beter",
+            "De ziekteverwekkers ontstaan hier spontaan door de warmte",
+            "Mensen worden door de warmte vatbaarder voor elke ziekte",
+            "De ziektes verplaatsen zich met de wind mee naar het noorden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een mug heeft warmte nodig om zich voort te planten. Warmt een streek op, dan schuift het gebied waarin die mug kan leven mee, en de ziekte die hij draagt, schuift mee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke gevolgen van het versterkte broeikaseffect noemt de vakfiche? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Zeespiegelstijging en verschuiving van klimaatzones",
+            "Verschuiving van leefgebieden van planten en dieren",
+            "Extreme weerfenomenen en tropische ziektes",
+            "Versnippering van de open ruimte door wegen",
+            "Braindrain uit landen met een lagere HDI"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Die vijf staan letterlijk in de fiche. Versnippering hoort bij de rubriek duurzaamheid en braindrain bij mondialisering."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Laaggelegen kustgebieden en eilanden lopen het grootste risico bij zeespiegelstijging.",
+          "antwoord": true,
+          "uitleg": "Delta's zoals die van de Ganges en de Nijl en eilandstaten in de Stille Oceaan liggen nauwelijks boven het peil. Net daar wonen bovendien heel veel mensen dicht op elkaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is de opwarming voor Vlaanderen ook een waterprobleem?",
+          "opties": [
+            "Meer hevige buien en langere droogtes tegelijk",
+            "De Noordzee bevriest er vaker in de winter",
+            "Er valt over het hele jaar veel minder regen",
+            "Het grondwater warmt te snel op om te drinken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een hevige bui loopt het water over verharde grond meteen weg, en bij droogte staat de grondwatertafel te laag. Beide uitersten komen vaker voor."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het proces waarbij opgenomen CO₂ het zeewater zuurder maakt?",
+          "antwoord": [
+            "oceaanverzuring",
+            "verzuring",
+            "de oceaanverzuring"
+          ],
+          "uitleg": "Opgeloste CO₂ vormt een zuur in het zeewater. Daardoor bouwen koralen en schelpdieren moeilijker hun kalkskelet op, en dat raakt de hele voedselketen in zee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent een terugkoppeling in het klimaatsysteem?",
+          "opties": [
+            "Een gevolg dat zijn eigen oorzaak versterkt of verzwakt",
+            "Een meting die achteraf wordt bijgesteld",
+            "Een klimaatmodel dat naar het verleden kijkt",
+            "Een afspraak tussen landen over de uitstoot"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het smelten van ijs verlaagt het albedo, wat de opwarming versterkt, wat nog meer ijs doet smelten. Zulke lussen maken het systeem moeilijk voorspelbaar."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Dooiende permafrost kan methaan en CO₂ vrijmaken die er duizenden jaren in opgesloten zaten.",
+          "antwoord": true,
+          "uitleg": "In de bevroren bodem van Siberië en Canada zit enorm veel organisch materiaal. Ontdooit die, dan begint het te rotten en komen er broeikasgassen vrij: opnieuw een terugkoppeling."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je krijgt een grafiek van de CO₂-hoeveelheid in de lucht sinds 1960. Waarop let je bij het lezen?",
+          "opties": [
+            "De eenheid, de schaal van de assen en de gemeten periode",
+            "De kleur van de lijn en de breedte van de grafiek",
+            "De naam van de persoon die de grafiek tekende",
+            "Het lettertype waarin de titel geschreven staat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een afgeknipte as of een te korte periode kan elke trend laten verdwijnen of overdrijven. Bronkritiek begint altijd bij de assen en de periode."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom treft de opwarming niet elk land even hard?",
+          "opties": [
+            "Ligging, reliëf en welvaart bepalen mee hoe kwetsbaar een land is",
+            "Alleen landen op het noordelijk halfrond warmen op",
+            "Alleen landen langs de evenaar merken er iets van",
+            "De opwarming volgt precies de landsgrenzen op de kaart"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een laaggelegen deltastaat met weinig middelen loopt veel meer risico dan een bergland met een hoge HDI. Wie het minst uitstootte, draagt vaak de zwaarste gevolgen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De landen met de hoogste uitstoot per inwoner zijn altijd ook de landen die er het hardst door getroffen worden.",
+          "antwoord": false,
+          "uitleg": "Meestal is het omgekeerd. Landen met een lagere ontwikkelingsgraad stoten per inwoner veel minder uit en hebben tegelijk het minste geld om zich te beschermen. Dat is de kern van de klimaatrechtvaardigheid."
+        }
+      ]
+    },
+    {
+      "titel": "Een geografisch onderzoek voeren — deel 1",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarmee begint een geografisch onderzoek?",
+          "opties": [
+            "Met een onderzoeksvraag of een hypothese",
+            "Met het verzamelen van zo veel mogelijk kaarten",
+            "Met het schrijven van het besluit van het onderzoek",
+            "Met het meten van alle afstanden in het gebied"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zonder vraag weet je niet welke bron je nodig hebt. De vraag stuurt de keuze van de kaartlagen, de metingen en het terreinwerk, niet omgekeerd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Over welke thema's kan je onderzoek volgens de vakfiche gaan? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Mobiliteit, met files, lawaai en luchtvervuiling",
+            "Waterproblemen, met tekort en overstromingen",
+            "Veranderend landgebruik en klimaatverandering",
+            "De geschiedenis van de Belgische staatshervorming",
+            "De bouw van een fabriek in een ander werelddeel"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De fiche noemt er vier: mobiliteit, waterproblematieken, veranderend landgebruik en klimaatverandering. Telkens onderzoek je de oorzaken én de gevolgen in het landschap."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een hypothese schrijf je pas op nadat je je gegevens verzameld hebt.",
+          "antwoord": false,
+          "uitleg": "Je schrijft ze net op vóór je meet, zodat je achteraf eerlijk kan zeggen of ze klopte. Wie ze achteraf opschrijft, heeft altijd gelijk, en dat is geen onderzoek meer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze is een goede onderzoeksvraag?",
+          "opties": [
+            "Waarom staat het in onze gemeente elke ochtend stil?",
+            "Is verkeer nu eigenlijk goed of slecht voor mensen?",
+            "Hoeveel auto's bestaan er op de hele wereld samen?",
+            "Wat vind jij zelf van de files in onze gemeente?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een goede vraag is afgebakend in ruimte en tijd en je kan ze met bronnen beantwoorden. Een meningsvraag of een veel te brede vraag kan dat niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze horen bij de geografische hulpbronnen uit de fiche? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Kaarten, luchtfoto's en satellietbeelden",
+            "Grafieken, tabellen en cijfergegevens",
+            "Klimatogrammen en leeftijdshistogrammen",
+            "De mening van je buren over het onderwerp",
+            "Je eigen herinnering aan hoe het vroeger was"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De fiche somt onder meer atlas, kaarten, satellietbeelden, foto's, tekeningen, teksten, cijfers, grafieken, klimatogrammen en diagrammen op. Meningen en herinneringen zijn interessant maar geen hulpbron in die zin."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een atlas is op het examen aardrijkskunde een toegelaten hulpmiddel.",
+          "antwoord": true,
+          "uitleg": "De examencommissie geeft zelf een algemene wereldatlas mee. Daarom loont het om thuis met een atlas te werken, zodat je er tijdens het examen vlot in zoekt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is terreinkartering?",
+          "opties": [
+            "Op het terrein zelf noteren wat je waar ziet, op een kaart",
+            "Een bestaande kaart van de gemeente natekenen op schaal",
+            "Een luchtfoto van boven het terrein laten maken",
+            "De coördinaten van het terrein online opzoeken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je loopt het gebied af en tekent in wat er staat: bebouwing, groen, water, wegen, functies van gebouwen. Zo maak je van je waarneming een bron."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de verwachting die je vooraf opschrijft en met je onderzoek wil toetsen?",
+          "antwoord": [
+            "hypothese",
+            "een hypothese",
+            "de hypothese"
+          ],
+          "uitleg": "Een hypothese maakt je onderzoek toetsbaar. Zonder hypothese blijft een onderzoek een verzameling losse waarnemingen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op het examen krijg je een filmpje van een terreinoefening in plaats van echt terreinwerk. Wat moet je daarmee doen?",
+          "opties": [
+            "De informatie eruit halen die je onderzoek nodig heeft",
+            "Het filmpje zo letterlijk mogelijk navertellen",
+            "De duur van het filmpje in minuten noteren",
+            "De naam van de maker van het filmpje opzoeken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zo'n simulatie vervangt het terrein. Je herkent er landschapskenmerken in, je brengt ze aan op een kaart, en je gebruikt ze om je vraag te beantwoorden."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Terreinwerk verandert niets aan de mentale kaart die je van een gebied hebt.",
+          "antwoord": false,
+          "uitleg": "Wie een wijk heeft afgelopen, draagt daarna een veel scherper beeld van die wijk mee. Terreinwerk maakt je mentale kaart juist rijker en juister."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat toont een systeemdenkschema in een onderzoek?",
+          "opties": [
+            "Hoe de elementen van je onderzoek met elkaar samenhangen",
+            "In welke volgorde je de bronnen hebt geraadpleegd",
+            "Hoeveel tijd elk onderdeel van je onderzoek kostte",
+            "Welke kaartlagen het mooist naast elkaar staan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Pijlen tussen de elementen tonen oorzaak en gevolg. Zo zie je meteen dat verharding, hevige regen en overstromingsrisico niet los van elkaar staan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je onderzoekt overstromingsgevaar in je gemeente. Welke elementen zet je in je schema? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "De hoeveelheid verharde oppervlakte",
+            "De ligging ten opzichte van de rivier",
+            "Het hoogteverschil in het gebied",
+            "Het aantal scholen in de gemeente",
+            "De leeftijd van de burgemeester"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Verharding, ligging en reliëf sturen alle drie waar het water naartoe gaat. Scholen tellen pas mee als je naar de gevolgen kijkt, niet naar de oorzaken."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een onderzoek is pas geslaagd als je hypothese juist blijkt te zijn.",
+          "antwoord": false,
+          "uitleg": "Een hypothese die onderuit gaat, leert je even veel. Wat een onderzoek doet slagen, is dat je vraag scherp is en je besluit steunt op wat je echt gemeten hebt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom vergelijk je bij veranderend landgebruik kaarten of luchtfoto's uit verschillende jaren?",
+          "opties": [
+            "Alleen zo zie je wat er in de tijd veranderd is",
+            "Oude kaarten zijn altijd nauwkeuriger dan nieuwe",
+            "Nieuwe kaarten tonen altijd meer detail dan oude",
+            "Zo kan je de schaal van beide kaarten controleren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eén beeld toont een toestand, twee beelden tonen een proces. Let er wel op dat je beelden uit hetzelfde seizoen en op dezelfde schaal naast elkaar legt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je meet de geluidshinder langs een drukke weg. Wat hoort bij goed bronnengebruik?",
+          "opties": [
+            "Noteren wanneer en waar je gemeten hebt",
+            "Enkel meten op het drukste moment van de dag",
+            "De metingen afronden tot een mooi rond getal",
+            "Enkel de metingen bewaren die je verwachtte"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zonder tijdstip en plaats is een meting waardeloos: op zondagochtend meet je iets heel anders dan op een schooldag om acht uur. Metingen wegselecteren is bovendien vervalsen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het in kaart brengen van wat je op het terrein zelf waarneemt?",
+          "antwoord": [
+            "terreinkartering",
+            "de terreinkartering",
+            "karteren"
+          ],
+          "uitleg": "Terreinkartering maakt van je waarneming een kaart. Daarna kan je ze naast een bestaande kaartlaag leggen en zien waar beide verschillen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een besluit mag ook zeggen dat er te weinig gegevens waren om de vraag te beantwoorden.",
+          "antwoord": true,
+          "uitleg": "Eerlijk zijn over wat je niet weet, hoort bij onderzoek. De fiche vraagt trouwens uitdrukkelijk om ook de beperkingen van je bronnen te benoemen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je onderzoekt waterschaarste in je streek. Welke bron gebruik je voor de neerslag van de voorbije dertig jaar?",
+          "opties": [
+            "Een lange meetreeks van een weerstation in de buurt",
+            "De weersvoorspelling voor de komende zeven dagen",
+            "Een luchtfoto van de streek uit het voorbije jaar",
+            "Een politieke kaart met de gemeentegrenzen erop"
+          ],
+          "antwoord": 0,
+          "uitleg": "Klimaat is het gemiddelde over dertig jaar, dus heb je een lange reeks nodig. Een voorspelling voor volgende week zegt daar niets over."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is het belangrijk om bij elke bron het jaartal te noteren?",
+          "opties": [
+            "Een verouderde kaart kan de toestand van nu verkeerd tonen",
+            "Zonder jaartal werkt de legende van de kaart niet",
+            "Oude bronnen mogen nooit gebruikt worden",
+            "Het jaartal bepaalt de schaal van de kaart"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een bedrijventerrein uit 2015 kan intussen verdubbeld zijn. Oude bronnen zijn wel degelijk bruikbaar, juist om verandering te tonen, maar dan moet je weten van wanneer ze zijn."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een onderzoek naar mobiliteit kunnen lawaai en luchtkwaliteit ook een rol spelen.",
+          "antwoord": true,
+          "uitleg": "De fiche noemt ze zelf: files, geluidsoverlast en luchtvervuiling horen bij hetzelfde thema. Ze zijn gevolgen van dezelfde verkeersstromen."
+        }
+      ]
+    },
+    {
+      "titel": "Een geografisch onderzoek voeren — deel 2",
+      "niveau": "boost-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is Geopunt?",
+          "opties": [
+            "De digitale kaart van de Vlaamse overheid",
+            "Een navigatie-app voor in de auto",
+            "Een wereldatlas op papier van een uitgeverij",
+            "Een weerstation dat de neerslag meet"
+          ],
+          "antwoord": 0,
+          "uitleg": "Geopunt bundelt honderden kaartlagen over Vlaanderen: bodem, water, wegen, bebouwing, erfgoed en nog veel meer. Je mag het tijdens het examen gebruiken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor gebruik je de zoekbalk in Geopunt?",
+          "opties": [
+            "Om een adres of coördinaten op de kaart te vinden",
+            "Om de legende van de kaartlaag te openen",
+            "Om een afstand op de kaart op te meten",
+            "Om een kaartlaag transparant te maken"
+          ],
+          "antwoord": 0,
+          "uitleg": "De zoekbalk brengt je naar de plaats. Wat je daar vervolgens te zien krijgt, kies je met het lagenpaneel."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In Geopunt kan je maar één kaartlaag tegelijk zichtbaar maken.",
+          "antwoord": false,
+          "uitleg": "Je kan er verschillende over elkaar leggen, en dat is net de bedoeling: een thematische laag boven een luchtfoto toont je meteen wat er op die plek staat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil weten hoeveel hectare een bedrijventerrein beslaat. Wat gebruik je?",
+          "opties": [
+            "Het meetgereedschap van Geopunt",
+            "De zoekbalk bovenaan de kaart",
+            "De legende in het linkerpaneel",
+            "De knop om een laag transparant te maken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Met het meetgereedschap teken je een lijn of een vlak en lees je de lengte of de oppervlakte af. Dat is precies wat de fiche van je vraagt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat kan je allemaal met het meetgereedschap van Geopunt? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "De afstand tussen twee punten meten",
+            "De oppervlakte van een gebied meten",
+            "De lengte van een weg of rivier volgen",
+            "De hoogte van een gebouw rechtstreeks aflezen",
+            "De bevolkingsdichtheid van de gemeente berekenen"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Afstanden en oppervlakten meet je rechtstreeks. Hoogte lees je af via een hoogtelaag en haar legende, en dichtheid moet je zelf berekenen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In Geopunt lees je de hoogte van een plaats af met het meetgereedschap.",
+          "antwoord": false,
+          "uitleg": "Het meetgereedschap is voor afstanden en oppervlakten. Voor de hoogte zet je de hoogtelaag aan en lees je in de legende of in het linkerpaneel welke kleur bij welke hoogte hoort."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zou je een kaartlaag transparant maken?",
+          "opties": [
+            "Om twee lagen tegelijk te kunnen vergelijken",
+            "Om de kaart sneller te laten openen",
+            "Om de legende van de laag te verbergen",
+            "Om de schaal van de kaart te vergroten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Leg een thematische laag half doorzichtig over een luchtfoto en je ziet meteen wat er in werkelijkheid op die plek staat. Dat is een van de sterkste trucs van een digitale kaart."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het overzicht dat uitlegt welke kleur of welk symbool op een kaart wat betekent?",
+          "antwoord": [
+            "legende",
+            "de legende"
+          ],
+          "uitleg": "Zonder legende is een gekleurde kaart een gekleurd vlak. Elke kaartlaag in Geopunt heeft er een, en die openen is altijd je eerste stap."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je legt de laag met overstromingsgevoelige gebieden over een luchtfoto van je wijk. Wat onderzoek je?",
+          "opties": [
+            "Welke gebouwen in een risicogebied staan",
+            "Hoeveel mensen er in je wijk wonen",
+            "Hoe oud de gebouwen in je wijk zijn",
+            "Welke talen er in je wijk gesproken worden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Twee lagen over elkaar leggen koppelt een risico aan wat er echt staat. Voor het aantal inwoners of de ouderdom van de gebouwen heb je andere lagen of bronnen nodig."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Wat je op een digitale kaart ziet, hangt volledig af van welke lagen je hebt aangezet.",
+          "antwoord": true,
+          "uitleg": "Dat is meteen de belangrijkste beperking. Een laag die je niet kent of niet aanzet, bestaat voor jouw onderzoek niet, ook al is ze beschikbaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke beperkingen heeft een digitale kaart zoals Geopunt? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Sommige lagen zijn ouder dan de toestand van vandaag",
+            "Je ziet enkel wat er als laag beschikbaar is",
+            "De klassen in de legende zijn door iemand gekozen",
+            "Ze toont de coördinaten van een plaats verkeerd",
+            "Ze verandert de werkelijke afstanden op het terrein"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Ouderdom, beschikbaarheid en de keuze van de klassen zijn echte beperkingen. De coördinaten en de afstanden kloppen wel degelijk; daar is zo'n kaart net voor gemaakt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom vraagt de fiche om uit te leggen hoe de digitale kaart je geholpen heeft én wat haar beperkingen waren?",
+          "opties": [
+            "Een bron kritisch bekijken hoort bij het onderzoek zelf",
+            "De kaart moet daarna gecorrigeerd worden door de overheid",
+            "Zo weet de verbetering hoelang je gewerkt hebt",
+            "Zonder die uitleg werkt de kaartlaag niet meer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wie zegt wat zijn bron niet kan tonen, laat zien dat hij ze begrijpt. Dat is het verschil tussen een kaart aflezen en met een kaart onderzoeken."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een luchtfoto in Geopunt toont altijd de toestand van vandaag.",
+          "antwoord": false,
+          "uitleg": "Luchtfoto's worden om de zoveel jaar genomen. Je kan er meestal oudere reeksen naast leggen, en juist dat maakt ze bruikbaar om verandering te tonen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je onderzoekt of de open ruimte in je gemeente is afgenomen. Welke aanpak past het best?",
+          "opties": [
+            "Twee luchtfotolagen van verschillende jaren vergelijken",
+            "De zoekbalk gebruiken om het gemeentehuis te vinden",
+            "De afstand tot de dichtstbijzijnde stad opmeten",
+            "De hoogte van het hoogste punt van de gemeente aflezen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Verandering meet je door twee momenten naast elkaar te leggen. Daarna kan je met het meetgereedschap ook uitrekenen hoeveel hectare er precies bij kwam."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het gereedschap in Geopunt waarmee je afstanden en oppervlakten bepaalt?",
+          "antwoord": [
+            "meetgereedschap",
+            "het meetgereedschap",
+            "meetinstrument"
+          ],
+          "uitleg": "Met het meetgereedschap teken je een lijn of een veelhoek op de kaart en lees je de lengte of de oppervlakte af. Het staat uitdrukkelijk in de vakfiche."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je mag Geopunt tijdens het examen aardrijkskunde gebruiken.",
+          "antwoord": true,
+          "uitleg": "De links naar Geopunt, een rekenmachine, een woordenboek en de spellingcontrole zitten in het examen zelf. Daarom raadt de examencommissie aan er thuis mee te oefenen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je besluit dat de files in je gemeente toenemen. Waarop moet dat besluit steunen?",
+          "opties": [
+            "Op de gegevens en metingen die je verzameld hebt",
+            "Op wat de meeste mensen in je gemeente denken",
+            "Op je verwachting die je vooraf had opgeschreven",
+            "Op het aantal kaartlagen dat je hebt aangezet"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je besluit hoort bij je gegevens, niet bij je hypothese. Komt het daarmee in botsing, dan schrijf je dat op in plaats van je gegevens bij te sturen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke stappen horen bij een geografisch onderzoek? (meerdere antwoorden mogelijk)",
+          "opties": [
+            "Een vraag of hypothese opstellen",
+            "Bronnen kiezen en gegevens verzamelen",
+            "Besluiten en de beperkingen benoemen",
+            "Het besluit als eerste stap opschrijven",
+            "De bronnen kiezen die je gelijk geven"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Vraag, bronnen, analyse, besluit en bronkritiek: in die volgorde. Beginnen bij het besluit of enkel de passende bronnen kiezen, is geen onderzoek meer."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Elk onderdeel van de vakfiche kan in het onderzoeksdeel van het examen terugkomen.",
+          "antwoord": true,
+          "uitleg": "Dat staat er letterlijk: alle te kennen inhoud kan in dit deel verwerkt zijn. Onderzoek is dus geen apart stukje leerstof maar de manier waarop de rest getoetst wordt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom noteer je bij je onderzoek ook welke laag je niet gevonden hebt?",
+          "opties": [
+            "Zo weet de lezer wat je besluit niet kan dekken",
+            "Zo krijg je meer punten voor de lengte van je werk",
+            "Zo hoef je geen besluit meer te schrijven",
+            "Zo wordt de kaartlaag alsnog voor je gemaakt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een gat in je gegevens is zelf een resultaat. Door het te benoemen, geef je aan hoe ver je besluit reikt en waar het ophoudt."
         }
       ]
     }

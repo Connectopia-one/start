@@ -78,7 +78,16 @@ def main():
     else:
         paden = sorted(
             pad
-            for map in ("basis", "start", "spark", "uitdaging", "pittig", "hoekje")
+            for map in (
+                "basis",
+                "start",
+                "spark",
+                "boost-doorstroom",
+                "boost-dubbele-finaliteit",
+                "uitdaging",
+                "pittig",
+                "hoekje",
+            )
             for pad in glob.glob(str(HIER / map / "*.json"))
         )
     mis = 0

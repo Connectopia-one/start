@@ -183,9 +183,9 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Armoede kan zowel een reden zijn om naar de stad te trekken als om er juist weg te blijven.",
-        antwoord=True,
-        uitleg="In de stad is er meer kans op werk, maar het wonen is er duurder. Dat is precies waarom armere gezinnen vaak in de goedkoopste, oudste wijken terechtkomen.",
+        vraag="Armoede duwt mensen altijd in dezelfde richting, namelijk weg uit de stad.",
+        antwoord=False,
+        uitleg="In de stad is er juist meer kans op werk, maar het wonen is er duurder. Armoede trekt dus én duwt, en daarom komen armere gezinnen vaak in de goedkoopste, oudste wijken van de stad terecht.",
     ),
     dict(
         type="meerkeuze",

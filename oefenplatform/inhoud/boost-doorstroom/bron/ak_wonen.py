@@ -142,9 +142,9 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Klimaat, bodemkwaliteit en reliëf verklaren samen een groot deel van het wereldwijde bevolkingspatroon.",
-        antwoord=True,
-        uitleg="De dichtbevolkte gebieden liggen bijna allemaal waar water, grond en reliëf meezitten. Toch is het nooit de hele verklaring: geschiedenis, economie en politiek spelen ook mee.",
+        vraag="Klimaat, bodemkwaliteit en reliëf verklaren het wereldwijde bevolkingspatroon volledig.",
+        antwoord=False,
+        uitleg="Ze verklaren er wel een groot deel van: de dichtbevolkte gebieden liggen bijna allemaal waar water, grond en reliëf meezitten. Maar geschiedenis, economie en politiek spelen evengoed mee.",
     ),
     dict(
         type="meerkeuze",

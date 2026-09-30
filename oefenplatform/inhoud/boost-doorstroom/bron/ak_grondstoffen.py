@@ -146,9 +146,9 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Een land met grote grondstofvoorraden is daarom nog geen welvarend land.",
-        antwoord=True,
-        uitleg="Als de winst naar buitenlandse bedrijven of een kleine elite gaat, merkt de bevolking er weinig van. Men spreekt dan zelfs van de grondstoffenvloek.",
+        vraag="Een land met grote grondstofvoorraden is daardoor vanzelf een welvarend land.",
+        antwoord=False,
+        uitleg="Als de winst naar buitenlandse bedrijven of naar een kleine elite gaat, merkt de bevolking er weinig van. Men spreekt dan zelfs van de grondstoffenvloek.",
     ),
     dict(
         type="meerkeuze",
