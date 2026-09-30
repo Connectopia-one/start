@@ -410,6 +410,18 @@ type BulkVraag = {
    */
   antwoord: number | string | boolean | number[] | string[];
   uitleg?: string | null;
+  /**
+   * Wisselende woorden, enkel bij spelling: een lijstje met per beurt de velden
+   * die anders zijn dan hierboven. Zie lib/spellingvariant.ts.
+   */
+  varianten?:
+    | {
+        vraag?: string;
+        opties?: string[] | null;
+        antwoord?: number | string | boolean | number[] | string[];
+        uitleg?: string | null;
+      }[]
+    | null;
 };
 
 /**
@@ -778,9 +790,21 @@ export async function bulkImportVakInhoud(formData: FormData) {
       opties: v.opties ?? null,
       antwoord: v.antwoord,
       uitleg: v.uitleg ?? null,
+      varianten:
+        Array.isArray(v.varianten) && v.varianten.length ? v.varianten : null,
     }));
 
-    const { error: vragenFout } = await admin.from("vragen").insert(rijen);
+    let { error: vragenFout } = await admin.from("vragen").insert(rijen);
+    // Zolang supabase/spellingvarianten.sql nog niet gedraaid is, bestaat de
+    // kolom "varianten" niet. Dan gaat de import er zonder in, zodat een
+    // bestand met wisselende woorden nooit een heel hoofdstuk tegenhoudt.
+    if (vragenFout && rijen.some((r) => r.varianten)) {
+      const zonder = rijen.map(({ varianten: _weg, ...rest }) => {
+        void _weg;
+        return rest;
+      });
+      ({ error: vragenFout } = await admin.from("vragen").insert(zonder));
+    }
     if (vragenFout) {
       redirect(
         vakkenPagina(

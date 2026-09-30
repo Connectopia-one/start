@@ -38,6 +38,14 @@ THEMAS = [
 ]
 
 
+def samen(vraag: dict, variant: dict) -> dict:
+    """Een variant aangevuld met wat ze niet zelf zegt, net als in het platform."""
+    uit = dict(vraag)
+    uit.pop("varianten", None)
+    uit.update(variant)
+    return uit
+
+
 def controleer(titel: str, nummer: int, vraag: dict):
     plek = f"{titel}: vraag {nummer}"
     soort = vraag["type"]
@@ -69,6 +77,22 @@ def controleer(titel: str, nummer: int, vraag: dict):
     if not vraag.get("uitleg"):
         raise SystemExit(f"{plek} heeft geen uitleg")
 
+    # Wisselende woorden bij spelling (zie lib/spellingvariant.ts). Elke beurt
+    # moet op zichzelf een geldige vraag zijn, van hetzelfde type, en met
+    # dezelfde soort antwoord: had de vraag aankruisvakjes en een variant niet,
+    # dan verklapt het scherm plots hoeveel antwoorden juist zijn.
+    for n, variant in enumerate(vraag.get("varianten") or [], start=2):
+        if not isinstance(variant, dict):
+            raise SystemExit(f"{plek}, beurt {n}: geen woordenlijstje")
+        if "type" in variant:
+            raise SystemExit(f"{plek}, beurt {n}: een variant mag het type niet veranderen")
+        heel = samen(vraag, variant)
+        controleer(f"{titel}, beurt {n}", nummer, heel)
+        if isinstance(heel["antwoord"], list) != isinstance(vraag["antwoord"], list):
+            raise SystemExit(
+                f"{plek}, beurt {n}: de ene vorm heeft meerdere juiste antwoorden en de andere niet"
+            )
+
 
 def hoofdstukken_van(modulenaam: str, thema: str) -> list:
     mod = importlib.import_module(modulenaam)
@@ -95,7 +119,12 @@ def gokpatronen(titel: str, vragen: list) -> list:
     minstens zes langer is dan elke foute optie.
     """
     meldingen = []
-    mk = [v for v in vragen if v["type"] == "meerkeuze"]
+    # De varianten tellen mee: een kind krijgt ze even goed op het scherm.
+    alle = []
+    for v in vragen:
+        alle.append(v)
+        alle += [samen(v, x) for x in (v.get("varianten") or [])]
+    mk = [v for v in alle if v["type"] == "meerkeuze"]
     langst = 0
     for v in mk:
         antw = v["antwoord"] if isinstance(v["antwoord"], list) else [v["antwoord"]]
@@ -167,6 +196,9 @@ def main():
     meerkeuze = meerdere = 0
     for h in hoofdstukken:
         for v in h["vragen"]:
+            # De tekst van een variant mag wél terugkomen: vijf beurten van
+            # dezelfde spellingvraag beginnen vaak met dezelfde zin. Wat niet
+            # mag, is twee losse vragen met dezelfde tekst.
             tekst = " ".join(v["vraag"].lower().split())
             if tekst in gezien:
                 raise SystemExit(f"Deze vraag staat twee keer, in {gezien[tekst]} en in {h['titel']}:\n  {v['vraag']}")

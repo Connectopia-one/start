@@ -64,7 +64,9 @@ export async function GET(
 
   const { data: vragen } = await supabase
     .from("vragen")
-    .select("id, type, vraag, opties, antwoord, uitleg")
+    // "*": zolang spellingvarianten.sql nog niet gedraaid is, bestaat
+    // "varianten" nog niet, en een select op die naam zou deze pdf leeg maken.
+    .select("*")
     .eq("hoofdstuk_id", hoofdstukId)
     .order("volgnummer", { ascending: true });
 
@@ -72,7 +74,7 @@ export async function GET(
   const { data: pogingen } = ids.length
     ? await supabase
         .from("voortgang")
-        .select("vraag_id, correct, gegeven_antwoord, beantwoord_op")
+        .select("*")
         .eq("kind_id", kindId)
         .in("vraag_id", ids)
         .order("beantwoord_op", { ascending: false })

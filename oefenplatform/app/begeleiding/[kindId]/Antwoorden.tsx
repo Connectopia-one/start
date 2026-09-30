@@ -1,5 +1,6 @@
 import { schrijfInvul, schrijfKeuzes } from "@/lib/antwoord";
 import { VraagTekst } from "@/components/Figuren";
+import { variantVoorBeurt } from "@/lib/spellingvariant";
 
 /*
   De vragen van één hoofdstuk met het antwoord dat het kind gaf. Bij een fout
@@ -20,6 +21,8 @@ export type Vraag = {
   opties: string[] | null;
   antwoord: number | string | boolean | number[] | string[];
   uitleg: string | null;
+  /** Wisselende woorden bij spelling; zie lib/spellingvariant.ts. */
+  varianten?: unknown;
 };
 
 export type Poging = {
@@ -27,6 +30,8 @@ export type Poging = {
   correct: boolean;
   gegeven_antwoord: number | string | boolean | number[] | null;
   beantwoord_op: string;
+  /** Welke beurt het kind kreeg. 0 of niets: de vraag zelf. */
+  variant?: number | null;
 };
 
 export function schrijfAntwoord(
@@ -69,9 +74,12 @@ export function Antwoorden({
 
   return (
     <ol className="space-y-3">
-      {vragen.map((vraag, i) => {
-        const poging = laatste.get(vraag.id);
-        const keer = aantalPogingen.get(vraag.id) ?? 0;
+      {vragen.map((rij, i) => {
+        const poging = laatste.get(rij.id);
+        const keer = aantalPogingen.get(rij.id) ?? 0;
+        // Kreeg het kind bij een spellingvraag een ander woord, dan staat dát
+        // woord hier, en niet de vraag zoals ze in de databank staat.
+        const vraag = variantVoorBeurt(rij, rij.varianten, poging?.variant);
         return (
           <li
             key={vraag.id}

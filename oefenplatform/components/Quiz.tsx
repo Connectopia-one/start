@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useEffect, useMemo, useRef, useState } from "react";
 import { MeldingKnop } from "@/components/MeldingKnop";
 import {
-  haalJuistBeantwoord,
+  haalOefenstand,
   registreerAntwoord,
   registreerSticker,
 } from "@/app/voortgang-actions";
@@ -25,6 +25,7 @@ import {
   zelfdeKeuzes,
 } from "@/lib/antwoord";
 import { bewaarActiefKind, leesActiefKind } from "@/lib/actiefkind";
+import { beurtnummer, type GetoondeVariant } from "@/lib/spellingvariant";
 
 /*
   toonVoortgang: staat er een voortgangsbalk bij de vragen van dit kind?
@@ -54,7 +55,25 @@ type Vraag = {
    * de pagina waar ouders meekijken blijft kloppen.
    */
   optieVolgorde?: number[] | null;
+  /**
+   * Wisselende woorden, enkel bij spelling. Beurt 1 is de vraag hierboven, de
+   * lijst is beurt 2 en verder. Welke beurt dit kind krijgt, hangt af van hoe
+   * vaak het deze vraag al maakte. Zie lib/spellingvariant.ts.
+   */
+  varianten?: GetoondeVariant[] | null;
 };
+
+/** De vraag zoals dit kind ze nu voor zich krijgt, met het nummer van de beurt. */
+function metBeurt(
+  vraag: Vraag,
+  beurten: number,
+): { vraag: Vraag; beurt: number } {
+  const lijst = vraag.varianten ?? [];
+  const beurt = beurtnummer(beurten, lijst.length);
+  if (beurt === 0) return { vraag, beurt };
+  const v = lijst[beurt - 1];
+  return { vraag: { ...vraag, ...v }, beurt };
+}
 
 /** Het aangeklikte antwoord omgerekend naar hoe het opgeslagen moet worden. */
 function zoalsOpgeslagen(vraag: Vraag, gegeven: Gegeven): Gegeven {
@@ -512,6 +531,9 @@ export function Quiz({
     null betekent: nog niet opgehaald, of er valt niets op te halen.
   */
   const [alJuist, setAlJuist] = useState<Set<string> | null>(null);
+  /* Hoe vaak dit kind elke vraag al maakte, voor de wisselende woorden bij
+     spelling. null betekent: nog niet opgehaald. */
+  const [beurten, setBeurten] = useState<Record<string, number> | null>(null);
   const [enkelNieuwe, setEnkelNieuwe] = useState(false);
   // Telt mee bij "Opnieuw proberen", zodat ook wat een kind ingekleurd of
   // gesleept had weer leeg begint.
@@ -552,6 +574,7 @@ export function Quiz({
     // Een ander kind heeft een andere voorgeschiedenis, dus de lijst gaat terug
     // naar alle vragen tot we weten wat dít kind al juist had.
     setAlJuist(null);
+    setBeurten(null);
     setEnkelNieuwe(false);
   };
 
@@ -561,24 +584,39 @@ export function Quiz({
   useEffect(() => {
     if (!actiefKindId || !hoofdstukId) return;
     let geannuleerd = false;
-    haalJuistBeantwoord(actiefKindId, hoofdstukId)
-      .then((ids) => {
-        if (!geannuleerd) setAlJuist(new Set(ids));
+    haalOefenstand(actiefKindId, hoofdstukId)
+      .then((stand) => {
+        if (geannuleerd) return;
+        setAlJuist(new Set(stand.juist));
+        setBeurten(stand.beurten);
       })
-      .catch(() => {});
+      .catch(() => {
+        // Lukt het ophalen niet, dan krijgt het kind alle vragen en de vraag
+        // zoals ze in de databank staat. Nooit minder oefenen door een fout.
+        if (!geannuleerd) setBeurten({});
+      });
     return () => {
       geannuleerd = true;
     };
   }, [actiefKindId, hoofdstukId]);
 
-  /* De vragen die het kind nu voor zich krijgt. */
-  const vragen = useMemo(
-    () =>
+  /* De vragen die het kind nu voor zich krijgt, elk in de beurt die bij dit
+     kind hoort. Bij een vraag zonder wisselende woorden is dat altijd de vraag
+     zelf, en dat zijn ze bijna allemaal. */
+  const vragen = useMemo(() => {
+    const lijst =
       enkelNieuwe && alJuist
         ? alleVragen.filter((v) => !alJuist.has(v.id))
-        : alleVragen,
-    [enkelNieuwe, alJuist, alleVragen],
-  );
+        : alleVragen;
+    return lijst.map((v) => metBeurt(v, beurten?.[v.id] ?? 0));
+  }, [enkelNieuwe, alJuist, alleVragen, beurten]);
+
+  /* Heeft dit hoofdstuk wisselende woorden, dan wachten we met tonen tot we
+     weten welke beurt dit kind krijgt. Anders staat er even het ene woord en
+     een tel later het andere. Een hoofdstuk zonder varianten wacht nergens op
+     en verandert dus niet. */
+  const heeftVarianten = alleVragen.some((v) => (v.varianten ?? []).length > 0);
+  const wachtOpBeurt = heeftVarianten && Boolean(actiefKindId) && !beurten;
 
   // Hoeveel vragen van dit hoofdstuk staan er nog open? Is dat er geen enkele,
   // of zijn het er evenveel als het hoofdstuk telt, dan valt er niets te
@@ -603,9 +641,11 @@ export function Quiz({
      alle statussen: staat de lijst op "enkel wat ik nog niet juist had", dan
      zou de balk anders vragen meetellen die niet op het scherm komen. */
   const aantalGecontroleerd = vragen.filter(
-    (v) => statussen[v.id]?.gecontroleerd,
+    (v) => statussen[v.vraag.id]?.gecontroleerd,
   ).length;
-  const aantalCorrect = vragen.filter((v) => statussen[v.id]?.correct).length;
+  const aantalCorrect = vragen.filter(
+    (v) => statussen[v.vraag.id]?.correct,
+  ).length;
   const klaar = vragen.length > 0 && aantalGecontroleerd === vragen.length;
   const perfect = klaar && aantalCorrect === vragen.length;
 
@@ -650,7 +690,7 @@ export function Quiz({
     );
   }
 
-  const vraag = vragen[Math.min(huidige, vragen.length - 1)];
+  const { vraag, beurt } = vragen[Math.min(huidige, vragen.length - 1)];
   const toonBalk = Boolean(
     kinderen.find((k) => k.id === actiefKindId)?.toonVoortgang,
   );
@@ -763,39 +803,46 @@ export function Quiz({
       )}
 
       <div ref={vraagKop} className="scroll-mt-4">
-        <VraagKaart
-          key={`${vraag.id}-${ronde}`}
-          vraag={vraag}
-          status={statussen[vraag.id]}
-          alsVakjes={alsVakjes}
-          soepel={!taalvak}
-          onAntwoord={(v) =>
-            setStatussen((s) => ({
-              ...s,
-              [vraag.id]: { ...s[vraag.id], gegevenAntwoord: v },
-            }))
-          }
-          onControleer={() => {
-            const correct = isCorrect(
-              vraag,
-              statussen[vraag.id].gegevenAntwoord,
-              !taalvak,
-            );
-            setStatussen((s) => ({
-              ...s,
-              [vraag.id]: { ...s[vraag.id], gecontroleerd: true, correct },
-            }));
-            if (actiefKindId) {
-              registreerAntwoord(
-                actiefKindId,
-                vraag.id,
-                hoofdstukId ?? null,
-                correct,
-                zoalsOpgeslagen(vraag, statussen[vraag.id].gegevenAntwoord),
-              ).catch(() => {});
+        {wachtOpBeurt ? (
+          <p className="rounded-xl border border-border bg-surface px-5 py-8 text-center text-sm text-ink-dim">
+            Even kijken welke woorden er deze keer aan de beurt zijn...
+          </p>
+        ) : (
+          <VraagKaart
+            key={`${vraag.id}-${beurt}-${ronde}`}
+            vraag={vraag}
+            status={statussen[vraag.id]}
+            alsVakjes={alsVakjes}
+            soepel={!taalvak}
+            onAntwoord={(v) =>
+              setStatussen((s) => ({
+                ...s,
+                [vraag.id]: { ...s[vraag.id], gegevenAntwoord: v },
+              }))
             }
-          }}
-        />
+            onControleer={() => {
+              const correct = isCorrect(
+                vraag,
+                statussen[vraag.id].gegevenAntwoord,
+                !taalvak,
+              );
+              setStatussen((s) => ({
+                ...s,
+                [vraag.id]: { ...s[vraag.id], gecontroleerd: true, correct },
+              }));
+              if (actiefKindId) {
+                registreerAntwoord(
+                  actiefKindId,
+                  vraag.id,
+                  hoofdstukId ?? null,
+                  correct,
+                  zoalsOpgeslagen(vraag, statussen[vraag.id].gegevenAntwoord),
+                  beurt,
+                ).catch(() => {});
+              }
+            }}
+          />
+        )}
 
         {/* Melden bij de vraag zelf: je staat erop, dus je hoeft ze niet meer
             uit een lijst te kiezen. */}

@@ -4,6 +4,7 @@ import path from "node:path";
 import fontkit from "@pdf-lib/fontkit";
 import { schrijfInvul, schrijfKeuzes } from "@/lib/antwoord";
 import { PDFDocument, rgb, type PDFFont, type PDFPage } from "pdf-lib";
+import { variantVoorBeurt } from "@/lib/spellingvariant";
 
 /*
   Maakt van één opgeloste test een pdf, zodat een begeleider die kan
@@ -31,6 +32,8 @@ export type PdfVraag = {
   opties: string[] | null;
   antwoord: number | string | boolean | number[] | string[];
   uitleg: string | null;
+  /** Wisselende woorden bij spelling; zie lib/spellingvariant.ts. */
+  varianten?: unknown;
 };
 
 export type PdfPoging = {
@@ -38,6 +41,8 @@ export type PdfPoging = {
   correct: boolean;
   gegeven_antwoord: number | string | boolean | null;
   beantwoord_op: string;
+  /** Welke beurt het kind kreeg. 0 of niets: de vraag zelf. */
+  variant?: number | null;
 };
 
 export type PdfGegevens = {
@@ -248,14 +253,21 @@ export async function maakTestPdf(g: PdfGegevens): Promise<Uint8Array> {
       y -= 2;
       schrijf("Moeilijke woorden", { grootte: 11, vetjes: true });
       for (const w of lijst) {
-        schrijf(`${w.woord} — ${w.uitleg}`, { grootte: 9, kleur: GRIJS, inspringen: 10 });
+        schrijf(`${w.woord} — ${w.uitleg}`, {
+          grootte: 9,
+          kleur: GRIJS,
+          inspringen: 10,
+        });
       }
     }
     y -= 12;
   }
 
-  g.vragen.forEach((vraag, i) => {
-    const poging = laatste.get(vraag.id);
+  g.vragen.forEach((rij, i) => {
+    const poging = laatste.get(rij.id);
+    // Kreeg het kind bij een spellingvraag een ander woord, dan staat dát woord
+    // in de afdruk, en niet de vraag zoals ze in de databank staat.
+    const vraag = variantVoorBeurt(rij, rij.varianten, poging?.variant);
     ruimte(70);
     y -= 6;
 

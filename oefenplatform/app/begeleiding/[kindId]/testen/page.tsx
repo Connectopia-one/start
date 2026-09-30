@@ -40,9 +40,10 @@ export default async function TestenPage({
 
   const { data: voortgang } = await supabase
     .from("voortgang")
-    .select(
-      "vraag_id, correct, gegeven_antwoord, beantwoord_op, hoofdstukken(id, titel, vakken(naam))",
-    )
+    // "*" bij de kolommen van voortgang zelf: zolang spellingvarianten.sql nog
+    // niet gedraaid is, bestaat "variant" nog niet, en een select op die naam
+    // zou dit scherm dan helemaal leeg laten.
+    .select("*, hoofdstukken(id, titel, vakken(naam))")
     .eq("kind_id", kindId)
     .order("beantwoord_op", { ascending: false });
 
@@ -67,6 +68,7 @@ export default async function TestenPage({
       correct: rij.correct,
       gegeven_antwoord: rij.gegeven_antwoord,
       beantwoord_op: rij.beantwoord_op,
+      variant: rij.variant ?? null,
     });
   }
 
@@ -74,9 +76,7 @@ export default async function TestenPage({
   const { data: alleVragen } = ids.length
     ? await supabase
         .from("vragen")
-        .select(
-          "id, hoofdstuk_id, volgnummer, type, vraag, opties, antwoord, uitleg",
-        )
+        .select("*")
         .in("hoofdstuk_id", ids)
         .order("volgnummer", { ascending: true })
     : { data: [] };

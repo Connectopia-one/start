@@ -6,7 +6,9 @@ import type { SupabaseClient } from "@supabase/supabase-js";
 import { LEGE_TELLING, type Telling } from "@/lib/badges";
 
 /** Geeft de admin client terug enkel als de ingelogde gebruiker dit kind mag beheren, anders null. */
-async function kindEigenaarOfNull(kindId: string): Promise<SupabaseClient | null> {
+async function kindEigenaarOfNull(
+  kindId: string,
+): Promise<SupabaseClient | null> {
   const supabase = await createClient();
   const {
     data: { user },
@@ -14,7 +16,11 @@ async function kindEigenaarOfNull(kindId: string): Promise<SupabaseClient | null
   if (!user) return null;
 
   const admin = createAdminClient();
-  const { data: kind } = await admin.from("kinderen").select("id, profile_id").eq("id", kindId).maybeSingle();
+  const { data: kind } = await admin
+    .from("kinderen")
+    .select("id, profile_id")
+    .eq("id", kindId)
+    .maybeSingle();
   if (!kind || kind.profile_id !== user.id) return null;
 
   return admin;
@@ -36,19 +42,29 @@ export async function registreerAntwoord(
   correct: boolean,
   // Een lijstje nummers hoort bij een meerkeuzevraag met meer dan één juist
   // antwoord; zie lib/antwoord.ts. De kolom is jsonb, dus dat past gewoon.
-  gegevenAntwoord: string | number | boolean | number[] | null
+  gegevenAntwoord: string | number | boolean | number[] | null,
+  // Welke beurt van een spellingvraag met wisselende woorden dit was: 0 is de
+  // vraag zelf. Zonder dat nummer zou een ouder die meekijkt de vraag over
+  // 'man' zien staan met het antwoord 'kinderen' eronder. Zie
+  // lib/spellingvariant.ts.
+  variant: number = 0,
 ) {
   const admin = await kindEigenaarOfNull(kindId);
   if (!admin) return;
-  await admin
+  const rij = {
+    kind_id: kindId,
+    vraag_id: vraagId,
+    hoofdstuk_id: hoofdstukId,
+    correct,
+    gegeven_antwoord: gegevenAntwoord,
+  };
+  const { error } = await admin
     .from("voortgang")
-    .insert({
-      kind_id: kindId,
-      vraag_id: vraagId,
-      hoofdstuk_id: hoofdstukId,
-      correct,
-      gegeven_antwoord: gegevenAntwoord,
-    });
+    .insert(variant > 0 ? ({ ...rij, variant } as typeof rij) : rij);
+  // Zolang supabase/spellingvarianten.sql nog niet gedraaid is, bestaat de
+  // kolom "variant" niet. Dan gaat het antwoord er zonder in: liever de
+  // wisselende woorden kwijt dan de voortgang van het kind.
+  if (error && variant > 0) await admin.from("voortgang").insert(rij);
 }
 
 /**
@@ -61,7 +77,10 @@ export async function registreerSticker(kindId: string, hoofdstukId: string) {
   if (!admin) return;
   await admin
     .from("stickers")
-    .upsert({ kind_id: kindId, hoofdstuk_id: hoofdstukId }, { onConflict: "kind_id,hoofdstuk_id", ignoreDuplicates: true });
+    .upsert(
+      { kind_id: kindId, hoofdstuk_id: hoofdstukId },
+      { onConflict: "kind_id,hoofdstuk_id", ignoreDuplicates: true },
+    );
 }
 
 /** Wat een kind met één hoofdstuk al gedaan heeft. */
@@ -86,7 +105,7 @@ export type HoofdstukStatus = {
  */
 export async function haalHoofdstukStatus(
   kindId: string,
-  hoofdstukIds: string[]
+  hoofdstukIds: string[],
 ): Promise<HoofdstukStatus[]> {
   const admin = await kindEigenaarOfNull(kindId);
   if (!admin || !hoofdstukIds.length) return [];
@@ -95,7 +114,11 @@ export async function haalHoofdstukStatus(
   const ids = hoofdstukIds.slice(0, 200);
 
   const [{ data: stickers }, { data: rijen }] = await Promise.all([
-    admin.from("stickers").select("hoofdstuk_id").eq("kind_id", kindId).in("hoofdstuk_id", ids),
+    admin
+      .from("stickers")
+      .select("hoofdstuk_id")
+      .eq("kind_id", kindId)
+      .in("hoofdstuk_id", ids),
     admin
       .from("voortgang")
       .select("beantwoord_op, hoofdstuk_id")
@@ -103,7 +126,9 @@ export async function haalHoofdstukStatus(
       .in("hoofdstuk_id", ids),
   ]);
 
-  const perfect = new Set((stickers ?? []).map((s) => s.hoofdstuk_id as string));
+  const perfect = new Set(
+    (stickers ?? []).map((s) => s.hoofdstuk_id as string),
+  );
   const laatste = new Map<string, string>();
   for (const rij of (rijen ?? []) as unknown as {
     beantwoord_op: string;
@@ -112,7 +137,8 @@ export async function haalHoofdstukStatus(
     const id = rij.hoofdstuk_id;
     if (!id) continue;
     const huidige = laatste.get(id);
-    if (!huidige || rij.beantwoord_op > huidige) laatste.set(id, rij.beantwoord_op);
+    if (!huidige || rij.beantwoord_op > huidige)
+      laatste.set(id, rij.beantwoord_op);
   }
 
   return ids.map((id) => ({
@@ -136,7 +162,10 @@ export async function haalTelling(kindId: string): Promise<Telling> {
   if (!admin) return LEGE_TELLING;
 
   const [gemaakt, juist, hoekje, sterrenRijen] = await Promise.all([
-    admin.from("voortgang").select("id", { count: "exact", head: true }).eq("kind_id", kindId),
+    admin
+      .from("voortgang")
+      .select("id", { count: "exact", head: true })
+      .eq("kind_id", kindId),
     admin
       .from("voortgang")
       .select("id", { count: "exact", head: true })
@@ -171,8 +200,20 @@ export async function haalTelling(kindId: string): Promise<Telling> {
   };
 }
 
+/** Wat een kind met de vragen van één hoofdstuk al deed. */
+export type Oefenstand = {
+  /** De vragen die het al eens juist had. */
+  juist: string[];
+  /** Hoe vaak het elke vraag al beantwoordde, juist of fout. */
+  beurten: Record<string, number>;
+};
+
 /**
- * De vragen van één hoofdstuk die dit kind al eens juist beantwoordde.
+ * De vragen van één hoofdstuk die dit kind al eens juist beantwoordde, en hoe
+ * vaak het elke vraag al maakte.
+ *
+ * Het tellen dient voor de wisselende woorden bij spelling: wie een vraag voor
+ * de tweede keer krijgt, krijgt het tweede woord. Zie lib/spellingvariant.ts.
  *
  * Gevraagd door een testgezin op 30 september 2026: "Telkens als je teruggaat
  * naar een hoofdstuk die je al eerder hebt gedaan, start je volledig opnieuw.
@@ -187,23 +228,28 @@ export async function haalTelling(kindId: string): Promise<Telling> {
  * iets mis, dan komt er een lege lijst terug en krijgt het kind gewoon alle
  * vragen: nooit minder oefenen door een fout.
  */
-export async function haalJuistBeantwoord(
+export async function haalOefenstand(
   kindId: string,
   hoofdstukId: string,
-): Promise<string[]> {
+): Promise<Oefenstand> {
   const admin = await kindEigenaarOfNull(kindId);
-  if (!admin) return [];
+  if (!admin) return { juist: [], beurten: {} };
 
   const { data } = await admin
     .from("voortgang")
-    .select("vraag_id")
+    .select("vraag_id, correct")
     .eq("kind_id", kindId)
-    .eq("hoofdstuk_id", hoofdstukId)
-    .eq("correct", true);
+    .eq("hoofdstuk_id", hoofdstukId);
 
-  const ids = new Set<string>();
-  for (const rij of (data ?? []) as unknown as { vraag_id: string | null }[]) {
-    if (rij.vraag_id) ids.add(rij.vraag_id);
+  const juist = new Set<string>();
+  const beurten: Record<string, number> = {};
+  for (const rij of (data ?? []) as unknown as {
+    vraag_id: string | null;
+    correct: boolean;
+  }[]) {
+    if (!rij.vraag_id) continue;
+    if (rij.correct) juist.add(rij.vraag_id);
+    beurten[rij.vraag_id] = (beurten[rij.vraag_id] ?? 0) + 1;
   }
-  return [...ids];
+  return { juist: [...juist], beurten };
 }

@@ -78,3 +78,26 @@ Dat maakt de tabel voor de meldknop die nu onderaan elk hoofdstuk staat.
 
 Die staat los van de lijst hierboven en heeft een eigen stappenplan, want er
 hoort ook één keer een SQL-bestand bij. Zie `inhoud/hoekje/README.md`.
+
+## ✍️ Wisselende woorden bij spelling (30 september 2026)
+
+Bij een spellingvraag zit de leerstof in de regel, niet in het woord. Daarom
+krijgt een kind dat een spellinghoofdstuk opnieuw maakt, andere woorden onder
+dezelfde regel: de eerste keer het meervoud van 'man', de keer daarna dat van
+'kat', 'bus' of 'vis'. Bij alle andere vakken verandert er niets, want daar is
+de leerstof de leerstof.
+
+Draai eerst `supabase/spellingvarianten.sql` één keer, en importeer dan deze
+twee bestanden:
+
+| Bestand | Vak | Vervangen |
+|---------|-----|-----------|
+| `start-nederlands-spelling.json` | Nederlands | **aan** |
+| `spark-nederlands-spelling-varianten.json` | Nederlands | **aan** |
+
+Het tweede bestand bevat enkel de twee hoofdstukken "Spelling, leestekens en
+werkwoordsvormen" van ✨ Spark. De andere achttien hoofdstukken van Nederlands
+blijven ongemoeid.
+
+Ouders en jij zien in het meekijkscherm en op de afdruk het woord dat het kind
+écht kreeg, niet de vraag zoals ze in de databank staat.

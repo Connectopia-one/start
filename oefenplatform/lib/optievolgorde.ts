@@ -56,7 +56,15 @@ export type SchikbareVraag = {
  * ongewijzigd terug met `optieVolgorde: null`.
  */
 export function schikOpties<T extends SchikbareVraag>(
-  vraag: T
+  vraag: T,
+  /*
+    Waarmee de volgorde berekend wordt. Standaard het id van de vraag, zodat ze
+    vastligt. Een spellingvraag met wisselende woorden (zie lib/spellingvariant.ts)
+    geeft hier per beurt een andere tekst mee: stond het juiste antwoord in elk
+    van de vijf woordenlijsten vooraan, dan zou één vaste volgorde het bij alle
+    vijf op dezelfde plaats zetten, en dat is precies wat we niet willen.
+  */
+  zaadTekst?: string,
 ): T & { optieVolgorde: number[] | null } {
   const opties = vraag.opties;
   // Een vraag met meerdere juiste antwoorden bewaart een lijstje nummers in
@@ -80,7 +88,7 @@ export function schikOpties<T extends SchikbareVraag>(
     return { ...vraag, optieVolgorde: null };
   }
 
-  const volgend = teller(zaad(vraag.id));
+  const volgend = teller(zaad(zaadTekst ?? vraag.id));
   const volgorde = opties.map((_, i) => i);
   for (let i = volgorde.length - 1; i > 0; i--) {
     const j = Math.floor(volgend() * (i + 1));
