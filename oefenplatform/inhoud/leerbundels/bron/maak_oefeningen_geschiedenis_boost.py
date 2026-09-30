@@ -37,7 +37,7 @@ HOE = [
 ]
 
 # ============================================================
-OEFENBUNDELS["oefenbundel-het-historisch-referentiekader-boost"] = dict(
+OEFENBUNDELS["oefenbundel-het-historisch-referentiekader-boost-doorstroom"] = dict(
     vak=VAK, niveau=BOOST, titel="Het historisch referentiekader",
     onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
     hoe=HOE,
@@ -140,7 +140,7 @@ OEFENBUNDELS["oefenbundel-het-historisch-referentiekader-boost"] = dict(
 )
 
 # ============================================================
-OEFENBUNDELS["oefenbundel-van-rome-naar-de-franken-boost"] = dict(
+OEFENBUNDELS["oefenbundel-van-rome-naar-de-franken-boost-doorstroom"] = dict(
     vak=VAK, niveau=BOOST, titel="Van Rome naar de Franken",
     onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
     hoe=HOE,
@@ -239,7 +239,7 @@ OEFENBUNDELS["oefenbundel-van-rome-naar-de-franken-boost"] = dict(
 )
 
 # ============================================================
-OEFENBUNDELS["oefenbundel-standen-domein-en-stad-boost"] = dict(
+OEFENBUNDELS["oefenbundel-standen-domein-en-stad-boost-doorstroom"] = dict(
     vak=VAK, niveau=BOOST, titel="Standen, domein en stad",
     onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
     hoe=HOE,
@@ -342,7 +342,7 @@ OEFENBUNDELS["oefenbundel-standen-domein-en-stad-boost"] = dict(
 )
 
 # ============================================================
-OEFENBUNDELS["oefenbundel-geloof-kunst-en-macht-in-de-middeleeuwen-boost"] = dict(
+OEFENBUNDELS["oefenbundel-geloof-kunst-en-macht-in-de-middeleeuwen-boost-doorstroom"] = dict(
     vak=VAK, niveau=BOOST, titel="Geloof, kunst en macht in de middeleeuwen",
     onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
     hoe=HOE,
@@ -434,7 +434,7 @@ OEFENBUNDELS["oefenbundel-geloof-kunst-en-macht-in-de-middeleeuwen-boost"] = dic
 )
 
 # ============================================================
-OEFENBUNDELS["oefenbundel-de-nieuwe-wereld-en-de-driehoekshandel-boost"] = dict(
+OEFENBUNDELS["oefenbundel-de-nieuwe-wereld-en-de-driehoekshandel-boost-doorstroom"] = dict(
     vak=VAK, niveau=BOOST, titel="De 'Nieuwe' Wereld en de driehoekshandel",
     onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
     hoe=HOE,
@@ -545,7 +545,7 @@ OEFENBUNDELS["oefenbundel-de-nieuwe-wereld-en-de-driehoekshandel-boost"] = dict(
 )
 
 # ============================================================
-OEFENBUNDELS["oefenbundel-humanisme-reformatie-renaissance-en-barok-boost"] = dict(
+OEFENBUNDELS["oefenbundel-humanisme-reformatie-renaissance-en-barok-boost-doorstroom"] = dict(
     vak=VAK, niveau=BOOST, titel="Humanisme, Reformatie, renaissance en barok",
     onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
     hoe=HOE,
@@ -655,7 +655,7 @@ OEFENBUNDELS["oefenbundel-humanisme-reformatie-renaissance-en-barok-boost"] = di
 )
 
 # ============================================================
-OEFENBUNDELS["oefenbundel-vorsten-opstand-en-de-verlichting-boost"] = dict(
+OEFENBUNDELS["oefenbundel-vorsten-opstand-en-de-verlichting-boost-doorstroom"] = dict(
     vak=VAK, niveau=BOOST, titel="Vorsten, opstand en de Verlichting",
     onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
     hoe=HOE,
@@ -784,7 +784,7 @@ OEFENBUNDELS["oefenbundel-vorsten-opstand-en-de-verlichting-boost"] = dict(
 )
 
 # ============================================================
-OEFENBUNDELS["oefenbundel-amerika-frankrijk-en-de-industriele-omwenteling-boost"] = dict(
+OEFENBUNDELS["oefenbundel-amerika-frankrijk-en-de-industriele-omwenteling-boost-doorstroom"] = dict(
     vak=VAK, niveau=BOOST, titel="Amerika, Frankrijk en de industriële omwenteling",
     onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
     hoe=HOE,
@@ -917,7 +917,7 @@ OEFENBUNDELS["oefenbundel-amerika-frankrijk-en-de-industriele-omwenteling-boost"
 )
 
 # ============================================================
-OEFENBUNDELS["oefenbundel-het-ottomaanse-rijk-en-samenlevingen-vergelijken-boost"] = dict(
+OEFENBUNDELS["oefenbundel-het-ottomaanse-rijk-en-samenlevingen-vergelijken-boost-doorstroom"] = dict(
     vak=VAK, niveau=BOOST, titel="Het Ottomaanse Rijk en samenlevingen vergelijken",
     onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
     hoe=HOE,
@@ -1041,7 +1041,7 @@ OEFENBUNDELS["oefenbundel-het-ottomaanse-rijk-en-samenlevingen-vergelijken-boost
 )
 
 # ============================================================
-OEFENBUNDELS["oefenbundel-redeneren-met-historische-bronnen-boost"] = dict(
+OEFENBUNDELS["oefenbundel-redeneren-met-historische-bronnen-boost-doorstroom"] = dict(
     vak=VAK, niveau=BOOST, titel="Redeneren met historische bronnen",
     onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
     hoe=HOE,
@@ -1166,7 +1166,7 @@ OEFENBUNDELS["oefenbundel-redeneren-met-historische-bronnen-boost"] = dict(
 )
 
 # ============================================================
-OEFENBUNDELS["oefenbundel-beeldvorming-en-het-verleden-vandaag-boost"] = dict(
+OEFENBUNDELS["oefenbundel-beeldvorming-en-het-verleden-vandaag-boost-doorstroom"] = dict(
     vak=VAK, niveau=BOOST, titel="Beeldvorming en het verleden vandaag",
     onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
     hoe=HOE,

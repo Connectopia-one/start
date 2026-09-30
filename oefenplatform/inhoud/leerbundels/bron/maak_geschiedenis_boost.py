@@ -12,9 +12,15 @@ De afspraak: een bundel dekt élke vraag van zijn hoofdstuk, met dezelfde
 woorden als de vraag. `python3 dekking.py ../../boost-doorstroom/geschiedenis.json`
 doet daar het voorwerk voor.
 
-De bundelsleutels dragen géén "-boost": de elf thematitels van Boost verschillen
-van die van ✨ Spark, dus botsen de bestandsnamen niet. De oefenbundels dragen
-wél een voorvoegsel, want die zouden anders met de leerbundel zelf botsen.
+De bundelsleutels eindigen op "-boost-doorstroom", de volledige naam van de
+categorie. Dat is nodig en niet alleen netjes: ✨ Spark heeft een hoofdstuk dat
+precies "Het historisch referentiekader" heet, net als dit. Zonder de categorie
+in de bestandsnaam weet noch dekking.py noch het uploadscherm welke van de twee
+bedoeld is, en kiest het uploadscherm liever niets dan verkeerd. "-boost" alleen
+volstaat niet, want dat past even goed op Boost dubbele finaliteit.
+
+De oefenbundels dragen daarbovenop het voorvoegsel "oefenbundel-", want die
+zouden anders met de leerbundel zelf botsen.
 """
 import sys, pathlib
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
@@ -27,7 +33,7 @@ tabel = bundel.tabel
 BUNDELS = {}
 
 # ───────────────────────── 1. Het historisch referentiekader
-BUNDELS["het-historisch-referentiekader"] = dict(
+BUNDELS["het-historisch-referentiekader-boost-doorstroom"] = dict(
     vak=VAK, niveau=BOOST, titel="Het historisch referentiekader",
     onder="Tijd, ruimte en de maatschappelijke domeinen: het rooster waarmee je elke samenleving kan plaatsen.",
     secties=[
@@ -200,7 +206,7 @@ BUNDELS["het-historisch-referentiekader"] = dict(
 )
 
 # ───────────────────────── 2. Van Rome naar de Franken
-BUNDELS["van-rome-naar-de-franken"] = dict(
+BUNDELS["van-rome-naar-de-franken-boost-doorstroom"] = dict(
     vak=VAK, niveau=BOOST, titel="Van Rome naar de Franken",
     onder="Het einde van het West-Romeinse Rijk, de Germaanse migraties, en het rijk van de Merovingers en de Karolingers.",
     secties=[
@@ -346,7 +352,7 @@ BUNDELS["van-rome-naar-de-franken"] = dict(
 )
 
 # ───────────────────────── 3. Standen, domein en stad
-BUNDELS["standen-domein-en-stad"] = dict(
+BUNDELS["standen-domein-en-stad-boost-doorstroom"] = dict(
     vak=VAK, niveau=BOOST, titel="Standen, domein en stad",
     onder="De gelaagde samenleving, het domein als zelfvoorzienend systeem, en de heropbloei van de steden.",
     secties=[
@@ -469,7 +475,7 @@ BUNDELS["standen-domein-en-stad"] = dict(
 )
 
 # ───────────────────────── 4. Geloof, kunst en macht in de middeleeuwen
-BUNDELS["geloof-kunst-en-macht-in-de-middeleeuwen"] = dict(
+BUNDELS["geloof-kunst-en-macht-in-de-middeleeuwen-boost-doorstroom"] = dict(
     vak=VAK, niveau=BOOST, titel="Geloof, kunst en macht in de middeleeuwen",
     onder="De christelijke samenleving, romaans en gotisch, de strijd om de macht, en het contact met de islamitische wereld.",
     secties=[
@@ -615,7 +621,7 @@ BUNDELS["geloof-kunst-en-macht-in-de-middeleeuwen"] = dict(
 )
 
 # ───────────────────────── 5. De 'Nieuwe' Wereld en de driehoekshandel
-BUNDELS["de-nieuwe-wereld-en-de-driehoekshandel"] = dict(
+BUNDELS["de-nieuwe-wereld-en-de-driehoekshandel-boost-doorstroom"] = dict(
     vak=VAK, niveau=BOOST, titel="De 'Nieuwe' Wereld en de driehoekshandel",
     onder="Ontdekkingsreizen, kolonisatie en slavenhandel, en de commerciële revolutie in Europa zelf.",
     secties=[
@@ -756,7 +762,7 @@ BUNDELS["de-nieuwe-wereld-en-de-driehoekshandel"] = dict(
 )
 
 # ───────────────────────── 6. Humanisme, Reformatie, renaissance en barok
-BUNDELS["humanisme-reformatie-renaissance-en-barok"] = dict(
+BUNDELS["humanisme-reformatie-renaissance-en-barok-boost-doorstroom"] = dict(
     vak=VAK, niveau=BOOST, titel="Humanisme, Reformatie, renaissance en barok",
     onder="Een nieuwe visie op mens, wereld, geloof en kunst, van Erasmus tot Rubens.",
     secties=[
@@ -894,7 +900,7 @@ BUNDELS["humanisme-reformatie-renaissance-en-barok"] = dict(
 )
 
 # ───────────────────────── 7. Vorsten, opstand en de Verlichting
-BUNDELS["vorsten-opstand-en-de-verlichting"] = dict(
+BUNDELS["vorsten-opstand-en-de-verlichting-boost-doorstroom"] = dict(
     vak=VAK, niveau=BOOST, titel="Vorsten, opstand en de Verlichting",
     onder="Tussen absolute en parlementaire monarchie, de Opstand in de Nederlanden, en de ideeën die de grondwet dragen.",
     secties=[
@@ -1026,7 +1032,7 @@ BUNDELS["vorsten-opstand-en-de-verlichting"] = dict(
 )
 
 # ───────────────────────── 8. Amerika, Frankrijk en de industriële omwenteling
-BUNDELS["amerika-frankrijk-en-de-industriele-omwenteling"] = dict(
+BUNDELS["amerika-frankrijk-en-de-industriele-omwenteling-boost-doorstroom"] = dict(
     vak=VAK, niveau=BOOST, titel="Amerika, Frankrijk en de industriële omwenteling",
     onder="Twee politieke revoluties en één economische, en wat ze bij ons hebben nagelaten.",
     secties=[
@@ -1166,7 +1172,7 @@ BUNDELS["amerika-frankrijk-en-de-industriele-omwenteling"] = dict(
 )
 
 # ───────────────────────── 9. Het Ottomaanse Rijk en samenlevingen vergelijken
-BUNDELS["het-ottomaanse-rijk-en-samenlevingen-vergelijken"] = dict(
+BUNDELS["het-ottomaanse-rijk-en-samenlevingen-vergelijken-boost-doorstroom"] = dict(
     vak=VAK, niveau=BOOST, titel="Het Ottomaanse Rijk en samenlevingen vergelijken",
     onder="Een niet-westers wereldrijk in dezelfde eeuw als Karel V, en de vaste punten waarop je samenlevingen naast elkaar legt.",
     secties=[
@@ -1293,7 +1299,7 @@ BUNDELS["het-ottomaanse-rijk-en-samenlevingen-vergelijken"] = dict(
 )
 
 # ───────────────────────── 10. Redeneren met historische bronnen
-BUNDELS["redeneren-met-historische-bronnen"] = dict(
+BUNDELS["redeneren-met-historische-bronnen-boost-doorstroom"] = dict(
     vak=VAK, niveau=BOOST, titel="Redeneren met historische bronnen",
     onder="Van een goede historische vraag naar een beargumenteerd antwoord, in vier stappen.",
     secties=[
@@ -1426,7 +1432,7 @@ BUNDELS["redeneren-met-historische-bronnen"] = dict(
 )
 
 # ───────────────────────── 11. Beeldvorming en het verleden vandaag
-BUNDELS["beeldvorming-en-het-verleden-vandaag"] = dict(
+BUNDELS["beeldvorming-en-het-verleden-vandaag-boost-doorstroom"] = dict(
     vak=VAK, niveau=BOOST, titel="Beeldvorming en het verleden vandaag",
     onder="Hoe een beeld van het verleden gemaakt wordt, en hoe het meespeelt in wie wij vandaag zijn.",
     secties=[

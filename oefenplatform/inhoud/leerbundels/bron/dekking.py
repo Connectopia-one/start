@@ -11,8 +11,12 @@ het juiste antwoord, niet de uitleg) de inhoudswoorden, en meldt welke daarvan
 nergens in de bundel staan.
 
 Welke bundel bij welk hoofdstuk hoort, leest het uit de map van het vak: een
-hoofdstuk "Voortplanting — deel 2" hoort bij `voortplanting.html`. Staat de
-bundel er niet met die naam, dan geeft `--bundel` uitkomst.
+hoofdstuk "Voortplanting — deel 2" hoort bij `voortplanting.html`. Bestaat die
+niet, dan probeert het `voortplanting-<categorie>.html`. Dat tweede spoor is er
+omdat twee categorieën een hoofdstuk met precies dezelfde titel kunnen hebben —
+"Het historisch referentiekader" staat zowel in ✨ Spark als in 🚀 Boost
+doorstroom — en dan las dit script stilletjes de bundel van de verkeerde.
+Staat de bundel er onder geen van beide namen, dan geeft `--bundel` uitkomst.
 
 Het is voorwerk, geen oordeel: een woord dat hier ontbreekt, kan best met een
 synoniem in de bundel staan, en een woord dat hier niet gemeld wordt, kan er
@@ -128,6 +132,13 @@ def main() -> int:
         titel = h["titel"]
         naam = handmatig.get(titel) or slug(re.split(r"\s+—\s+deel", titel)[0])
         pad = HIER / f"{naam}.html"
+        # Draagt de bundel de categorie in zijn naam, neem dan die: bij twee
+        # hoofdstukken met dezelfde titel is dat de enige manier om ze uit
+        # elkaar te houden.
+        if titel not in handmatig:
+            metNiveau = HIER / f"{naam}-{h.get('niveau', 'start')}.html"
+            if metNiveau.exists():
+                naam, pad = metNiveau.stem, metNiveau
         if not pad.exists():
             print(f"!! {titel}: geen bundel {naam}.html")
             gaten += 1
