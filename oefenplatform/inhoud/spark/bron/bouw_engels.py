@@ -197,6 +197,14 @@ def main():
     totaal = sum(len(h["vragen"]) for h in hoofdstukken)
     print(f"{len(hoofdstukken)} hoofdstukken, {totaal} vragen in {DOEL.name}")
 
+    # De wisselende woorden van de grammaticahoofdstukken staan in
+    # varianten_spark.py, want ze horen bij de drie taalvakken samen. Ze gaan
+    # er hier meteen terug in, anders veegt een volgende bouw ze weg. (Die van
+    # de spellinghoofdstukken staan wél in nl_spelling.py zelf.)
+    import varianten_spark
+
+    varianten_spark.zet_varianten(DOEL.name)
+
 
 if __name__ == "__main__":
     main()

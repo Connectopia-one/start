@@ -1,0 +1,2626 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "Grammatica: lidwoorden, naamwoorden en voornaamwoorden — deel 1",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk woordje zet je voor 'table', een vrouwelijk woord, als je 'de tafel' bedoelt?",
+          "opties": [
+            "la",
+            "le",
+            "les",
+            "un"
+          ],
+          "antwoord": 0,
+          "uitleg": "Le staat voor een mannelijk woord, la voor een vrouwelijk woord, les voor het meervoud.",
+          "varianten": [
+            {
+              "vraag": "Welk woordje zet je voor 'porte', een vrouwelijk woord, als je 'de deur' bedoelt?",
+              "opties": [
+                "la",
+                "le",
+                "les",
+                "un"
+              ],
+              "antwoord": 0,
+              "uitleg": "La porte. Bij een vrouwelijk woord hoort la."
+            },
+            {
+              "vraag": "Welk woordje zet je voor 'voiture', een vrouwelijk woord, als je 'de auto' bedoelt?",
+              "opties": [
+                "la",
+                "le",
+                "les",
+                "un"
+              ],
+              "antwoord": 0,
+              "uitleg": "La voiture. Bij een vrouwelijk woord hoort la."
+            },
+            {
+              "vraag": "Welk woordje zet je voor 'maison', een vrouwelijk woord, als je 'het huis' bedoelt?",
+              "opties": [
+                "la",
+                "le",
+                "les",
+                "un"
+              ],
+              "antwoord": 0,
+              "uitleg": "La maison. Het Frans kijkt naar het geslacht van het woord, niet naar het Nederlandse lidwoord."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk lidwoord hoort bij 'livre' (mannelijk) als je 'het boek' bedoelt?",
+          "opties": [
+            "le",
+            "la",
+            "les",
+            "une"
+          ],
+          "antwoord": 0,
+          "uitleg": "Le livre. In het Frans heeft elk naamwoord een geslacht dat je mee moet leren.",
+          "varianten": [
+            {
+              "vraag": "Welk lidwoord hoort bij 'chien' (mannelijk) als je 'de hond' bedoelt?",
+              "opties": [
+                "le",
+                "la",
+                "les",
+                "une"
+              ],
+              "antwoord": 0,
+              "uitleg": "Le chien. Bij een mannelijk woord hoort le."
+            },
+            {
+              "vraag": "Welk lidwoord hoort bij 'stylo' (mannelijk) als je 'de pen' bedoelt?",
+              "opties": [
+                "le",
+                "la",
+                "les",
+                "une"
+              ],
+              "antwoord": 0,
+              "uitleg": "Le stylo. Bij een mannelijk woord hoort le."
+            },
+            {
+              "vraag": "Welk lidwoord hoort bij 'jardin' (mannelijk) als je 'de tuin' bedoelt?",
+              "opties": [
+                "le",
+                "la",
+                "les",
+                "une"
+              ],
+              "antwoord": 0,
+              "uitleg": "Le jardin. Bij een mannelijk woord hoort le."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke lidwoorden zijn bepaald (défini)?",
+          "opties": [
+            "le",
+            "la",
+            "les",
+            "un"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Le, la en les wijzen iets bepaalds aan: de of het. Un en une zijn onbepaald: een."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk lidwoord betekent 'een' bij een vrouwelijk woord?",
+          "opties": [
+            "une",
+            "un",
+            "la",
+            "des"
+          ],
+          "antwoord": 0,
+          "uitleg": "Un voor mannelijk, une voor vrouwelijk, des voor het meervoud: des livres.",
+          "varianten": [
+            {
+              "vraag": "Welk lidwoord betekent 'een' bij een mannelijk woord?",
+              "opties": [
+                "un",
+                "une",
+                "le",
+                "des"
+              ],
+              "antwoord": 0,
+              "uitleg": "Un livre, un chien. Une hoort bij een vrouwelijk woord."
+            },
+            {
+              "vraag": "Welk lidwoord betekent 'enkele' of 'een paar' in het meervoud?",
+              "opties": [
+                "des",
+                "un",
+                "une",
+                "le"
+              ],
+              "antwoord": 0,
+              "uitleg": "Des livres: enkele boeken. Het Frans laat dat woordje nooit weg."
+            },
+            {
+              "vraag": "Welk lidwoord betekent 'de' in het meervoud?",
+              "opties": [
+                "les",
+                "le",
+                "la",
+                "des"
+              ],
+              "antwoord": 0,
+              "uitleg": "Les livres, les tables. In het meervoud worden le en la allebei les."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In het Frans krijgt ook het meervoud een onbepaald lidwoord: 'des livres'.",
+          "antwoord": true,
+          "uitleg": "In het Nederlands zeg je gewoon 'boeken', in het Frans 'des livres'. Dat vergeten is een veelgemaakte fout."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat wordt 'à + le'?",
+          "opties": [
+            "au",
+            "al",
+            "à le",
+            "aux"
+          ],
+          "antwoord": 0,
+          "uitleg": "À + le = au, à + les = aux. Dat heet een samengetrokken lidwoord.",
+          "varianten": [
+            {
+              "vraag": "Wat wordt 'à + les'?",
+              "opties": [
+                "aux",
+                "als",
+                "à les",
+                "au"
+              ],
+              "antwoord": 0,
+              "uitleg": "À + les wordt aux: je vais aux toilettes."
+            },
+            {
+              "vraag": "Wat wordt 'de + le'?",
+              "opties": [
+                "du",
+                "del",
+                "de le",
+                "des"
+              ],
+              "antwoord": 0,
+              "uitleg": "De + le wordt du: la porte du jardin."
+            },
+            {
+              "vraag": "Wat wordt 'à + la'?",
+              "opties": [
+                "à la",
+                "al",
+                "au",
+                "aux"
+              ],
+              "antwoord": 0,
+              "uitleg": "Niets. À + la blijft à la: je vais à la piscine. Alleen le en les trekken samen."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat wordt 'de + les'?",
+          "opties": [
+            "des",
+            "de les",
+            "du",
+            "de la"
+          ],
+          "antwoord": 0,
+          "uitleg": "De + le = du, de + les = des. Bij la en l' verandert er niets: de la, de l'.",
+          "varianten": [
+            {
+              "vraag": "Wat wordt 'de + la'?",
+              "opties": [
+                "de la",
+                "del",
+                "du",
+                "des"
+              ],
+              "antwoord": 0,
+              "uitleg": "Niets. De + la blijft de la: la couleur de la porte. Alleen le en les trekken samen."
+            },
+            {
+              "vraag": "Wat wordt 'de + les enfants'?",
+              "opties": [
+                "des enfants",
+                "de les enfants",
+                "du enfants",
+                "de la enfants"
+              ],
+              "antwoord": 0,
+              "uitleg": "De + les wordt des: les jouets des enfants."
+            },
+            {
+              "vraag": "Wat wordt 'à + le cinéma'?",
+              "opties": [
+                "au cinéma",
+                "à le cinéma",
+                "aux cinéma",
+                "à la cinéma"
+              ],
+              "antwoord": 0,
+              "uitleg": "À + le wordt au: je vais au cinéma."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vormen zijn samengetrokken lidwoorden?",
+          "opties": [
+            "au",
+            "du",
+            "aux",
+            "la"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Au (à+le), du (de+le) en aux (à+les) zijn samengetrokken. 'La' is een gewoon bepaald lidwoord."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe zeg je 'ik drink water' in het Frans?",
+          "opties": [
+            "Je bois de l'eau.",
+            "Je bois l'eau.",
+            "Je bois eau.",
+            "Je bois une eau."
+          ],
+          "antwoord": 0,
+          "uitleg": "Voor een onbepaalde hoeveelheid gebruik je het deelaanduidend lidwoord: du pain, de la soupe, de l'eau.",
+          "varianten": [
+            {
+              "vraag": "Hoe zeg je 'ik eet brood' in het Frans?",
+              "opties": [
+                "Je mange du pain.",
+                "Je mange le pain.",
+                "Je mange pain.",
+                "Je mange un pain."
+              ],
+              "antwoord": 0,
+              "uitleg": "Du pain: een onbepaalde hoeveelheid brood. Le pain zou hét brood zijn."
+            },
+            {
+              "vraag": "Hoe zeg je 'ik drink melk' in het Frans?",
+              "opties": [
+                "Je bois du lait.",
+                "Je bois le lait.",
+                "Je bois lait.",
+                "Je bois un lait."
+              ],
+              "antwoord": 0,
+              "uitleg": "Du lait: een onbepaalde hoeveelheid melk."
+            },
+            {
+              "vraag": "Hoe zeg je 'ik eet soep' in het Frans?",
+              "opties": [
+                "Je mange de la soupe.",
+                "Je mange la soupe.",
+                "Je mange soupe.",
+                "Je mange une soupe."
+              ],
+              "antwoord": 0,
+              "uitleg": "Soupe is vrouwelijk, dus de la soupe: een onbepaalde hoeveelheid soep."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vormen zijn deelaanduidend (partitif)?",
+          "opties": [
+            "du",
+            "de la",
+            "de l'",
+            "les"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Du pain, de la viande, de l'eau: een onbepaalde hoeveelheid. 'Les' is bepaald meervoud."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe maak je van 'un livre' een meervoud?",
+          "opties": [
+            "des livres",
+            "des livre",
+            "les livre",
+            "un livres"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het naamwoord krijgt een -s en het lidwoord wordt des (of les).",
+          "varianten": [
+            {
+              "vraag": "Hoe maak je van 'une table' een meervoud?",
+              "opties": [
+                "des tables",
+                "des table",
+                "les table",
+                "une tables"
+              ],
+              "antwoord": 0,
+              "uitleg": "Un en une worden des in het meervoud, en het woord krijgt een s."
+            },
+            {
+              "vraag": "Hoe maak je van 'un chien' een meervoud?",
+              "opties": [
+                "des chiens",
+                "des chien",
+                "les chien",
+                "un chiens"
+              ],
+              "antwoord": 0,
+              "uitleg": "Un wordt des in het meervoud, en het woord krijgt een s."
+            },
+            {
+              "vraag": "Hoe maak je van 'une fleur' een meervoud?",
+              "opties": [
+                "des fleurs",
+                "des fleur",
+                "les fleur",
+                "une fleurs"
+              ],
+              "antwoord": 0,
+              "uitleg": "Une wordt des in het meervoud, en het woord krijgt een s."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De -s van een Frans meervoud hoor je altijd duidelijk.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Die -s hoor je meestal niet. Je ziet het meervoud aan het lidwoord: les of des."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent 'mon livre'?",
+          "opties": [
+            "mijn boek",
+            "dit boek",
+            "welk boek",
+            "zijn boek"
+          ],
+          "antwoord": 0,
+          "uitleg": "Mon, ma en mes zijn bezittelijk: mijn. Son, sa en ses betekenen zijn of haar.",
+          "varianten": [
+            {
+              "vraag": "Wat betekent 'ton stylo'?",
+              "opties": [
+                "jouw pen",
+                "deze pen",
+                "welke pen",
+                "mijn pen"
+              ],
+              "antwoord": 0,
+              "uitleg": "Ton is jouw bij een mannelijk woord: ton stylo, ta table."
+            },
+            {
+              "vraag": "Wat betekent 'notre maison'?",
+              "opties": [
+                "ons huis",
+                "dit huis",
+                "welk huis",
+                "hun huis"
+              ],
+              "antwoord": 0,
+              "uitleg": "Notre is ons of onze, zowel bij een mannelijk als bij een vrouwelijk woord."
+            },
+            {
+              "vraag": "Wat betekent 'leur voiture'?",
+              "opties": [
+                "hun auto",
+                "deze auto",
+                "welke auto",
+                "onze auto"
+              ],
+              "antwoord": 0,
+              "uitleg": "Leur is hun. In het meervoud wordt het leurs: leurs voitures."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk woord past: '___ sœur s'appelle Léa' (mijn zus)?",
+          "opties": [
+            "Ma",
+            "Mon",
+            "Mes",
+            "Me"
+          ],
+          "antwoord": 0,
+          "uitleg": "Sœur is vrouwelijk enkelvoud, dus ma sœur. Mon staat bij mannelijke woorden, mes bij het meervoud.",
+          "varianten": [
+            {
+              "vraag": "Welk woord past: '___ frère s'appelle Louis' (mijn broer)?",
+              "opties": [
+                "Mon",
+                "Ma",
+                "Mes",
+                "Me"
+              ],
+              "antwoord": 0,
+              "uitleg": "Frère is mannelijk, dus mon frère."
+            },
+            {
+              "vraag": "Welk woord past: '___ parents habitent ici' (mijn ouders)?",
+              "opties": [
+                "Mes",
+                "Mon",
+                "Ma",
+                "Me"
+              ],
+              "antwoord": 0,
+              "uitleg": "Parents is meervoud, dus mes parents."
+            },
+            {
+              "vraag": "Welk woord past: '___ école est grande' (mijn school)?",
+              "opties": [
+                "Mon",
+                "Ma",
+                "Mes",
+                "Me"
+              ],
+              "antwoord": 0,
+              "uitleg": "École is vrouwelijk, maar begint met een klinker. Dan schrijf je toch mon, want ma école spreekt lastig."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent 'ce livre'?",
+          "opties": [
+            "dit boek",
+            "mijn boek",
+            "een boek",
+            "het boek"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ce, cet, cette en ces zijn aanwijzend: dit, deze, die, dat.",
+          "varianten": [
+            {
+              "vraag": "Wat betekent 'cette table'?",
+              "opties": [
+                "deze tafel",
+                "mijn tafel",
+                "een tafel",
+                "de tafel"
+              ],
+              "antwoord": 0,
+              "uitleg": "Cette is deze of die bij een vrouwelijk woord."
+            },
+            {
+              "vraag": "Wat betekent 'ces livres'?",
+              "opties": [
+                "deze boeken",
+                "mijn boeken",
+                "enkele boeken",
+                "de boeken"
+              ],
+              "antwoord": 0,
+              "uitleg": "Ces is deze of die in het meervoud, mannelijk en vrouwelijk."
+            },
+            {
+              "vraag": "Wat betekent 'cet arbre'?",
+              "opties": [
+                "deze boom",
+                "mijn boom",
+                "een boom",
+                "de boom"
+              ],
+              "antwoord": 0,
+              "uitleg": "Voor een mannelijk woord dat met een klinker begint wordt ce tot cet: cet arbre."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn aanwijzend (démonstratif)?",
+          "opties": [
+            "ce",
+            "cette",
+            "ces",
+            "mes"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Ce, cette en ces wijzen aan. 'Mes' is bezittelijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent 'Quel livre ?'",
+          "opties": [
+            "Welk boek?",
+            "Dat boek.",
+            "Dit boek?",
+            "Mijn boek?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Quel, quelle, quels en quelles zijn vragend: welk of welke.",
+          "varianten": [
+            {
+              "vraag": "Wat betekent 'Quelle couleur ?'",
+              "opties": [
+                "Welke kleur?",
+                "Die kleur.",
+                "Deze kleur?",
+                "Mijn kleur?"
+              ],
+              "antwoord": 0,
+              "uitleg": "Quelle is welke bij een vrouwelijk woord."
+            },
+            {
+              "vraag": "Wat betekent 'Quels livres ?'",
+              "opties": [
+                "Welke boeken?",
+                "Die boeken.",
+                "Deze boeken?",
+                "Mijn boeken?"
+              ],
+              "antwoord": 0,
+              "uitleg": "Quels is welke bij een mannelijk meervoud."
+            },
+            {
+              "vraag": "Wat betekent 'Quelle rue ?'",
+              "opties": [
+                "Welke straat?",
+                "Die straat.",
+                "Deze straat?",
+                "Mijn straat?"
+              ],
+              "antwoord": 0,
+              "uitleg": "Quelle is welke bij een vrouwelijk woord: quelle rue, quelle heure."
+            }
+          ]
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: '___ heure est-il ?' (Hoe laat is het?)",
+          "antwoord": "quelle",
+          "uitleg": "Heure is vrouwelijk, dus quelle heure. Quel bij een mannelijk woord.",
+          "varianten": [
+            {
+              "vraag": "Vul aan: '___ âge as-tu ?' (Hoe oud ben je?)",
+              "antwoord": "quel",
+              "uitleg": "Âge is mannelijk, dus quel âge as-tu ?"
+            },
+            {
+              "vraag": "Vul aan: '___ est ton nom ?' (Wat is jouw naam?)",
+              "antwoord": "quel",
+              "uitleg": "Nom is mannelijk, dus quel est ton nom ?"
+            },
+            {
+              "vraag": "Vul aan: '___ couleur préfères-tu ?' (Welke kleur verkies je?)",
+              "antwoord": "quelle",
+              "uitleg": "Couleur is vrouwelijk, dus quelle couleur préfères-tu ?"
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn persoonlijke voornaamwoorden als onderwerp?",
+          "opties": [
+            "je",
+            "tu",
+            "nous",
+            "me"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Je, tu, il, elle, nous, vous, ils en elles staan voor het werkwoord als onderwerp. 'Me' is lijdend of meewerkend voorwerp."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom moet je weten of een Frans woord mannelijk of vrouwelijk is?",
+          "opties": [
+            "Het lidwoord én het bijvoeglijk naamwoord passen zich eraan aan.",
+            "Alleen voor de uitspraak.",
+            "Alleen bij het meervoud.",
+            "Het maakt niet uit."
+          ],
+          "antwoord": 0,
+          "uitleg": "Un petit livre tegenover une petite table. Het geslacht bepaalt het lidwoord en de vorm van het bijvoeglijk naamwoord."
+        }
+      ]
+    },
+    {
+      "titel": "Grammatica: lidwoorden, naamwoorden en voornaamwoorden — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin klopt: 'Je n'ai pas ___ frère.'",
+          "opties": [
+            "de",
+            "un",
+            "du",
+            "le"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na een ontkenning wordt un, une, du, de la en des allemaal 'de': je n'ai pas de frère.",
+          "varianten": [
+            {
+              "vraag": "Welke zin klopt: 'Je n'ai pas ___ sœur.'",
+              "opties": [
+                "de",
+                "une",
+                "de la",
+                "la"
+              ],
+              "antwoord": 0,
+              "uitleg": "Na een ontkenning wordt une gewoon de: je n'ai pas de sœur."
+            },
+            {
+              "vraag": "Welke zin klopt: 'Il ne boit pas ___ café.'",
+              "opties": [
+                "de",
+                "du",
+                "le",
+                "un"
+              ],
+              "antwoord": 0,
+              "uitleg": "Na een ontkenning wordt du gewoon de: il ne boit pas de café."
+            },
+            {
+              "vraag": "Welke zin klopt: 'Nous n'avons pas ___ voiture.'",
+              "opties": [
+                "de",
+                "une",
+                "de la",
+                "la"
+              ],
+              "antwoord": 0,
+              "uitleg": "Na een ontkenning wordt une gewoon de: nous n'avons pas de voiture."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Na een ontkenning wordt het lidwoord in het Frans 'de': 'Je ne bois pas de lait.'",
+          "antwoord": true,
+          "uitleg": "Je bois du lait wordt je ne bois pas de lait. Dat is de 'vervanging door de na een ontkenning' uit de vakfiche."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zinnen gebruiken 'de' correct?",
+          "opties": [
+            "Je n'ai pas de voiture.",
+            "Beaucoup de travail.",
+            "Un litre de lait.",
+            "Je bois de le café."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Na een ontkenning en na een hoeveelheid staat 'de'. 'De le' bestaat niet: dat wordt du.",
+          "varianten": [
+            {
+              "opties": [
+                "Je n'ai pas de chien.",
+                "Trop de bruit.",
+                "Une tasse de thé.",
+                "Je mange de le pain."
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "De + le bestaat niet, dat wordt du: je mange du pain."
+            },
+            {
+              "opties": [
+                "Elle n'a pas de temps.",
+                "Peu de gens.",
+                "Un kilo de pommes.",
+                "Il parle de le film."
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "De + le bestaat niet, dat wordt du: il parle du film."
+            },
+            {
+              "opties": [
+                "Il n'y a pas de place.",
+                "Assez de travail.",
+                "Une bouteille d'eau.",
+                "Je viens de le magasin."
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "De + le bestaat niet, dat wordt du: je viens du magasin."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar staat het bijvoeglijk naamwoord in 'une voiture rouge'?",
+          "opties": [
+            "achter het naamwoord",
+            "voor het naamwoord",
+            "achter het werkwoord",
+            "vooraan de zin"
+          ],
+          "antwoord": 0,
+          "uitleg": "De meeste Franse bijvoeglijke naamwoorden staan achter het naamwoord, anders dan in het Nederlands."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke bijvoeglijke naamwoorden staan wél vóór het naamwoord?",
+          "opties": [
+            "petit",
+            "grand",
+            "jeune",
+            "bleu"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Een kleine groep korte, veelgebruikte woorden staat vooraan: un petit garçon, une grande maison, un jeune homme. Kleuren staan altijd achteraan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vorm past: 'une robe ___' (groen)?",
+          "opties": [
+            "verte",
+            "vert",
+            "verts",
+            "vertes"
+          ],
+          "antwoord": 0,
+          "uitleg": "Robe is vrouwelijk enkelvoud, dus verte. Bij meervoud: des robes vertes.",
+          "varianten": [
+            {
+              "vraag": "Welke vorm past: 'une voiture ___' (blauw)?",
+              "opties": [
+                "bleue",
+                "bleu",
+                "bleus",
+                "bleues"
+              ],
+              "antwoord": 0,
+              "uitleg": "Voiture is vrouwelijk en enkelvoud, dus komt er een e bij: bleue."
+            },
+            {
+              "vraag": "Welke vorm past: 'des fleurs ___' (wit)?",
+              "opties": [
+                "blanches",
+                "blanche",
+                "blanc",
+                "blancs"
+              ],
+              "antwoord": 0,
+              "uitleg": "Fleurs is vrouwelijk en meervoud, dus blanches: een e en een s."
+            },
+            {
+              "vraag": "Welke vorm past: 'un pull ___' (zwart)?",
+              "opties": [
+                "noir",
+                "noire",
+                "noirs",
+                "noires"
+              ],
+              "antwoord": 0,
+              "uitleg": "Pull is mannelijk en enkelvoud, dus blijft noir zoals het is."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe zeg je 'groter dan'?",
+          "opties": [
+            "plus grand que",
+            "plus grand de",
+            "le plus grand",
+            "très grand"
+          ],
+          "antwoord": 0,
+          "uitleg": "De vergrotende trap is plus + bijvoeglijk naamwoord + que. Minder is 'moins … que'.",
+          "varianten": [
+            {
+              "vraag": "Hoe zeg je 'kleiner dan'?",
+              "opties": [
+                "plus petit que",
+                "plus petit de",
+                "le plus petit",
+                "très petit"
+              ],
+              "antwoord": 0,
+              "uitleg": "Plus … que is de vergelijking: plus petit que mon frère."
+            },
+            {
+              "vraag": "Hoe zeg je 'even groot als'?",
+              "opties": [
+                "aussi grand que",
+                "plus grand que",
+                "le plus grand",
+                "très grand"
+              ],
+              "antwoord": 0,
+              "uitleg": "Aussi … que betekent even … als."
+            },
+            {
+              "vraag": "Hoe zeg je 'minder duur dan'?",
+              "opties": [
+                "moins cher que",
+                "moins cher de",
+                "le moins cher",
+                "très cher"
+              ],
+              "antwoord": 0,
+              "uitleg": "Moins … que betekent minder … dan."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe zeg je 'de grootste'?",
+          "opties": [
+            "le plus grand",
+            "plus grand",
+            "très grand",
+            "aussi grand"
+          ],
+          "antwoord": 0,
+          "uitleg": "De overtreffende trap krijgt het lidwoord erbij: le plus grand, la plus grande, les plus grands.",
+          "varianten": [
+            {
+              "vraag": "Hoe zeg je 'de kleinste'?",
+              "opties": [
+                "le plus petit",
+                "plus petit",
+                "très petit",
+                "aussi petit"
+              ],
+              "antwoord": 0,
+              "uitleg": "Met het lidwoord ervoor wordt het de overtreffende trap: le plus petit."
+            },
+            {
+              "vraag": "Hoe zeg je 'de mooiste' bij een vrouwelijk woord?",
+              "opties": [
+                "la plus belle",
+                "plus belle",
+                "très belle",
+                "aussi belle"
+              ],
+              "antwoord": 0,
+              "uitleg": "Het lidwoord past zich aan: la plus belle."
+            },
+            {
+              "vraag": "Hoe zeg je 'de snelste'?",
+              "opties": [
+                "le plus rapide",
+                "plus rapide",
+                "très rapide",
+                "aussi rapide"
+              ],
+              "antwoord": 0,
+              "uitleg": "Met het lidwoord ervoor wordt het de overtreffende trap: le plus rapide."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Meilleur' is de vergrotende trap van 'mauvais'.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Meilleur is de vergrotende trap van bon: beter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'Je vois Marie.' Hoe vervang je Marie door een voornaamwoord?",
+          "opties": [
+            "Je la vois.",
+            "Je vois la.",
+            "Je lui vois.",
+            "Je le vois."
+          ],
+          "antwoord": 0,
+          "uitleg": "Marie is het lijdend voorwerp (COD) en vrouwelijk: la. In het Frans staat dat voornaamwoord vóór het werkwoord.",
+          "varianten": [
+            {
+              "vraag": "'Je vois Paul.' Hoe vervang je Paul door een voornaamwoord?",
+              "opties": [
+                "Je le vois.",
+                "Je vois le.",
+                "Je lui vois.",
+                "Je la vois."
+              ],
+              "antwoord": 0,
+              "uitleg": "Paul is mannelijk en lijdend voorwerp, dus le. En het staat vóór het werkwoord."
+            },
+            {
+              "vraag": "'Elle achète les livres.' Hoe vervang je 'les livres'?",
+              "opties": [
+                "Elle les achète.",
+                "Elle achète les.",
+                "Elle leur achète.",
+                "Elle le achète."
+              ],
+              "antwoord": 0,
+              "uitleg": "In het meervoud wordt het les, en het staat vóór het werkwoord."
+            },
+            {
+              "vraag": "'Nous regardons la télé.' Hoe vervang je 'la télé'?",
+              "opties": [
+                "Nous la regardons.",
+                "Nous regardons la.",
+                "Nous lui regardons.",
+                "Nous le regardons."
+              ],
+              "antwoord": 0,
+              "uitleg": "Télé is vrouwelijk en lijdend voorwerp, dus la, vóór het werkwoord."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een persoonlijk voornaamwoord als voorwerp staat in het Frans vóór het werkwoord.",
+          "antwoord": true,
+          "uitleg": "Je le vois, je te parle, il nous aide. Dat is de 'plaats van het persoonlijk voornaamwoord' uit de fiche."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "'Je parle à Paul.' Hoe vervang je 'à Paul'?",
+          "opties": [
+            "Je lui parle.",
+            "Je le parle.",
+            "Je parle lui.",
+            "Je la parle."
+          ],
+          "antwoord": 0,
+          "uitleg": "'À Paul' is het meewerkend voorwerp (COI), dus lui. Zonder 'à' zou het le zijn.",
+          "varianten": [
+            {
+              "vraag": "'Elle écrit à ses parents.' Hoe vervang je 'à ses parents'?",
+              "opties": [
+                "Elle leur écrit.",
+                "Elle les écrit.",
+                "Elle écrit leur.",
+                "Elle lui écrit."
+              ],
+              "antwoord": 0,
+              "uitleg": "Met à erbij is het een meewerkend voorwerp. In het meervoud wordt dat leur."
+            },
+            {
+              "vraag": "'Il téléphone à Marie.' Hoe vervang je 'à Marie'?",
+              "opties": [
+                "Il lui téléphone.",
+                "Il la téléphone.",
+                "Il téléphone lui.",
+                "Il leur téléphone."
+              ],
+              "antwoord": 0,
+              "uitleg": "Met à erbij is het een meewerkend voorwerp, dus lui, ook bij een vrouw."
+            },
+            {
+              "vraag": "'Je donne un cadeau à mes amis.' Hoe vervang je 'à mes amis'?",
+              "opties": [
+                "Je leur donne un cadeau.",
+                "Je les donne un cadeau.",
+                "Je lui donne un cadeau.",
+                "Je donne leur un cadeau."
+              ],
+              "antwoord": 0,
+              "uitleg": "Meewerkend voorwerp in het meervoud wordt leur, vóór het werkwoord."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke voornaamwoorden zijn meewerkend voorwerp (COI)?",
+          "opties": [
+            "lui",
+            "leur",
+            "nous",
+            "la"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Lui (hem/haar), leur (hun) en nous (ons) kunnen COI zijn. 'La' is altijd lijdend voorwerp."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin bevat een wederkerend voornaamwoord?",
+          "opties": [
+            "Je me lave.",
+            "Je te vois.",
+            "Il nous aide.",
+            "Elle lui parle."
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij 'se laver' verwijst het voornaamwoord naar het onderwerp zelf: ik was mezelf. Bij de andere zinnen gaat het om iemand anders.",
+          "varianten": [
+            {
+              "opties": [
+                "Tu te couches tôt.",
+                "Tu me vois.",
+                "Il vous aide.",
+                "Elle leur parle."
+              ],
+              "antwoord": 0,
+              "uitleg": "Tu te couches: het voornaamwoord wijst terug naar het onderwerp zelf."
+            },
+            {
+              "opties": [
+                "Elle s'habille vite.",
+                "Elle te voit.",
+                "Il me cherche.",
+                "Nous lui écrivons."
+              ],
+              "antwoord": 0,
+              "uitleg": "Elle s'habille: zij kleedt zichzelf aan. Het wijst terug naar het onderwerp."
+            },
+            {
+              "opties": [
+                "Nous nous levons tôt.",
+                "Nous te voyons.",
+                "Ils me croient.",
+                "Vous lui répondez."
+              ],
+              "antwoord": 0,
+              "uitleg": "Nous nous levons: wij staan zelf op. Het wijst terug naar het onderwerp."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zinnen bevatten een wederkerend werkwoord?",
+          "opties": [
+            "Je me lève.",
+            "Tu te couches.",
+            "Elle s'habille.",
+            "Nous regardons la télé."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Opstaan, gaan slapen en zich aankleden doe je aan jezelf. Televisiekijken niet."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'Je ___ lave les mains.' (ik was mijn handen)",
+          "antwoord": "me",
+          "uitleg": "Se laver is wederkerend: je me lave, tu te laves, il se lave.",
+          "varianten": [
+            {
+              "vraag": "Vul aan: 'Tu ___ laves les mains.' (jij wast je handen)",
+              "antwoord": "te",
+              "uitleg": "Tu te laves les mains. Bij tu hoort te."
+            },
+            {
+              "vraag": "Vul aan: 'Il ___ lave les mains.' (hij wast zijn handen)",
+              "antwoord": "se",
+              "uitleg": "Il se lave les mains. Bij il, elle, ils en elles hoort se."
+            },
+            {
+              "vraag": "Vul aan: 'Nous ___ lavons les mains.' (wij wassen onze handen)",
+              "antwoord": "nous",
+              "uitleg": "Nous nous lavons les mains. Bij nous hoort nog eens nous."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vorm past: 'les ___ maisons' (mooi)?",
+          "opties": [
+            "belles",
+            "beau",
+            "belle",
+            "beaux"
+          ],
+          "antwoord": 0,
+          "uitleg": "Maisons is vrouwelijk meervoud, dus belles. Beaux is mannelijk meervoud.",
+          "varianten": [
+            {
+              "vraag": "Welke vorm past: 'un ___ jardin' (mooi)?",
+              "opties": [
+                "beau",
+                "belle",
+                "beaux",
+                "belles"
+              ],
+              "antwoord": 0,
+              "uitleg": "Jardin is mannelijk en enkelvoud: un beau jardin."
+            },
+            {
+              "vraag": "Welke vorm past: 'une ___ journée' (mooi)?",
+              "opties": [
+                "belle",
+                "beau",
+                "belles",
+                "beaux"
+              ],
+              "antwoord": 0,
+              "uitleg": "Journée is vrouwelijk en enkelvoud: une belle journée."
+            },
+            {
+              "vraag": "Welke vorm past: 'les ___ jours' (mooi)?",
+              "opties": [
+                "beaux",
+                "beau",
+                "belle",
+                "belles"
+              ],
+              "antwoord": 0,
+              "uitleg": "Jours is mannelijk en meervoud: les beaux jours."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent 'la deuxième fois'?",
+          "opties": [
+            "de tweede keer",
+            "twee keer",
+            "de laatste keer",
+            "de vorige keer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Deuxième is een rangtelwoord. 'Deux fois' zou 'twee keer' betekenen.",
+          "varianten": [
+            {
+              "vraag": "Wat betekent 'la troisième fois'?",
+              "opties": [
+                "de derde keer",
+                "drie keer",
+                "de laatste keer",
+                "de vorige keer"
+              ],
+              "antwoord": 0,
+              "uitleg": "Troisième is een rangtelwoord: de derde. Trois fois zou drie keer zijn."
+            },
+            {
+              "vraag": "Wat betekent 'le premier jour'?",
+              "opties": [
+                "de eerste dag",
+                "één dag",
+                "de laatste dag",
+                "de vorige dag"
+              ],
+              "antwoord": 0,
+              "uitleg": "Premier is een rangtelwoord: de eerste."
+            },
+            {
+              "vraag": "Wat betekent 'la dernière semaine'?",
+              "opties": [
+                "de laatste week",
+                "één week",
+                "de eerste week",
+                "de volgende week"
+              ],
+              "antwoord": 0,
+              "uitleg": "Dernier of dernière is de laatste."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin over je beste vriendin is juist?",
+          "opties": [
+            "C'est ma meilleure amie.",
+            "C'est ma plus bonne amie.",
+            "C'est ma meilleur amie.",
+            "C'est mon meilleure amie."
+          ],
+          "antwoord": 0,
+          "uitleg": "Amie is vrouwelijk, dus ma meilleure amie. 'Plus bonne' bestaat niet, en 'mon' hoort hier niet: dat gebruik je alleen als het vrouwelijke woord zelf met een klinker begint, zoals in 'mon amie'. Hier staat 'meilleure' ertussen, en dat begint met een medeklinker.",
+          "varianten": [
+            {
+              "vraag": "Welke zin over je beste vriend is juist?",
+              "opties": [
+                "C'est mon meilleur ami.",
+                "C'est mon plus bon ami.",
+                "C'est mon meilleure ami.",
+                "C'est ma meilleur ami."
+              ],
+              "antwoord": 0,
+              "uitleg": "Bon wordt meilleur, niet plus bon. Ami is mannelijk, dus mon meilleur ami."
+            },
+            {
+              "vraag": "Welke zin over de beste leerling van de klas is juist?",
+              "opties": [
+                "C'est le meilleur élève de la classe.",
+                "C'est le plus bon élève de la classe.",
+                "C'est le meilleure élève de la classe.",
+                "C'est la meilleur élève de la classe."
+              ],
+              "antwoord": 0,
+              "uitleg": "Bon wordt meilleur, niet plus bon."
+            },
+            {
+              "vraag": "Welke zin over het beste idee is juist?",
+              "opties": [
+                "C'est la meilleure idée.",
+                "C'est la plus bonne idée.",
+                "C'est la meilleur idée.",
+                "C'est le meilleure idée."
+              ],
+              "antwoord": 0,
+              "uitleg": "Idée is vrouwelijk, dus la meilleure idée, met een e erbij."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom vraagt de vakfiche dat je weet waarnaar een voornaamwoord verwijst?",
+          "opties": [
+            "Anders begrijp je de samenhang tussen de zinnen niet.",
+            "Anders kan je geen woordenboek gebruiken.",
+            "Voornaamwoorden staan altijd in de titel.",
+            "Anders klopt je uitspraak niet."
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat staat zo in de fiche: om inzicht te hebben in de samenhang tussen de zinnen moet je weten waarnaar het voornaamwoord verwijst."
+        }
+      ]
+    },
+    {
+      "titel": "Grammatica: werkwoorden, tijden en zinsbouw — deel 1",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vorm hoort bij 'je' van het werkwoord 'parler' (spreken) in de tegenwoordige tijd?",
+          "opties": [
+            "je parle",
+            "je parles",
+            "je parler",
+            "je parlé"
+          ],
+          "antwoord": 0,
+          "uitleg": "Werkwoorden op -er krijgen in de tegenwoordige tijd: -e, -es, -e, -ons, -ez, -ent.",
+          "varianten": [
+            {
+              "vraag": "Welke vorm hoort bij 'tu' van het werkwoord 'parler' (spreken) in de tegenwoordige tijd?",
+              "opties": [
+                "tu parles",
+                "tu parle",
+                "tu parler",
+                "tu parlé"
+              ],
+              "antwoord": 0,
+              "uitleg": "Bij tu hoort de uitgang -es: tu parles."
+            },
+            {
+              "vraag": "Welke vorm hoort bij 'il' van het werkwoord 'chanter' (zingen) in de tegenwoordige tijd?",
+              "opties": [
+                "il chante",
+                "il chantes",
+                "il chanter",
+                "il chanté"
+              ],
+              "antwoord": 0,
+              "uitleg": "Bij il hoort de uitgang -e: il chante."
+            },
+            {
+              "vraag": "Welke vorm hoort bij 'elles' van het werkwoord 'danser' (dansen) in de tegenwoordige tijd?",
+              "opties": [
+                "elles dansent",
+                "elles danse",
+                "elles danser",
+                "elles dansé"
+              ],
+              "antwoord": 0,
+              "uitleg": "Bij elles hoort de uitgang -ent, die je niet hoort: elles dansent."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vorm hoort bij 'nous' van 'parler'?",
+          "opties": [
+            "nous parlons",
+            "nous parlez",
+            "nous parlent",
+            "nous parle"
+          ],
+          "antwoord": 0,
+          "uitleg": "Nous krijgt bijna altijd -ons: nous parlons, nous mangeons, nous finissons.",
+          "varianten": [
+            {
+              "vraag": "Welke vorm hoort bij 'vous' van 'parler'?",
+              "opties": [
+                "vous parlez",
+                "vous parlons",
+                "vous parlent",
+                "vous parle"
+              ],
+              "antwoord": 0,
+              "uitleg": "Bij vous hoort de uitgang -ez."
+            },
+            {
+              "vraag": "Welke vorm hoort bij 'nous' van 'manger' (eten)?",
+              "opties": [
+                "nous mangeons",
+                "nous mangez",
+                "nous mangent",
+                "nous mange"
+              ],
+              "antwoord": 0,
+              "uitleg": "Bij nous hoort -ons, en manger houdt zijn e om de g zacht te laten klinken."
+            },
+            {
+              "vraag": "Welke vorm hoort bij 'vous' van 'écouter' (luisteren)?",
+              "opties": [
+                "vous écoutez",
+                "vous écoutons",
+                "vous écoutent",
+                "vous écoute"
+              ],
+              "antwoord": 0,
+              "uitleg": "Bij vous hoort de uitgang -ez: vous écoutez."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vormen van 'être' (zijn) kloppen?",
+          "opties": [
+            "je suis",
+            "tu es",
+            "nous sommes",
+            "il sont"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Je suis, tu es, il est, nous sommes, vous êtes, ils sont. 'Il sont' bestaat niet: dat is ils sont.",
+          "varianten": [
+            {
+              "opties": [
+                "il est",
+                "vous êtes",
+                "elles sont",
+                "nous êtes"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Bij nous hoort sommes, niet êtes."
+            },
+            {
+              "opties": [
+                "je suis",
+                "elle est",
+                "ils sont",
+                "tu est"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Bij tu hoort es, zonder t."
+            },
+            {
+              "opties": [
+                "tu es",
+                "nous sommes",
+                "vous êtes",
+                "je es"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Bij je hoort suis."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vorm hoort bij 'ils' van 'avoir' (hebben)?",
+          "opties": [
+            "ils ont",
+            "ils sont",
+            "ils a",
+            "ils avons"
+          ],
+          "antwoord": 0,
+          "uitleg": "J'ai, tu as, il a, nous avons, vous avez, ils ont. 'Ils sont' hoort bij être.",
+          "varianten": [
+            {
+              "vraag": "Welke vorm hoort bij 'nous' van 'avoir' (hebben)?",
+              "opties": [
+                "nous avons",
+                "nous sommes",
+                "nous ont",
+                "nous avez"
+              ],
+              "antwoord": 0,
+              "uitleg": "Nous avons: wij hebben. Nous sommes is wij zijn."
+            },
+            {
+              "vraag": "Welke vorm hoort bij 'tu' van 'avoir' (hebben)?",
+              "opties": [
+                "tu as",
+                "tu es",
+                "tu ai",
+                "tu avons"
+              ],
+              "antwoord": 0,
+              "uitleg": "Tu as: jij hebt. Tu es is jij bent."
+            },
+            {
+              "vraag": "Welke vorm hoort bij 'vous' van 'avoir' (hebben)?",
+              "opties": [
+                "vous avez",
+                "vous êtes",
+                "vous ont",
+                "vous avons"
+              ],
+              "antwoord": 0,
+              "uitleg": "Vous avez: jullie hebben. Vous êtes is jullie zijn."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Aller' eindigt op -er, dus je vervoegt het net zoals 'parler'.",
+          "antwoord": false,
+          "uitleg": "Niet juist. Aller ziet eruit als een -er-werkwoord, maar het is onregelmatig: je vais, tu vas, il va."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is 'aller' voor een vorm?",
+          "opties": [
+            "een infinitief",
+            "een persoonsvorm",
+            "een voltooid deelwoord",
+            "een gebiedende wijs"
+          ],
+          "antwoord": 0,
+          "uitleg": "De infinitief is het hele werkwoord: aller. 'Allez' is een persoonsvorm en 'allé' een voltooid deelwoord."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vorm is het voltooid deelwoord van 'aller'?",
+          "opties": [
+            "allé",
+            "aller",
+            "allez",
+            "allons"
+          ],
+          "antwoord": 0,
+          "uitleg": "De fiche noemt precies dit trio: aller (infinitief), allez (persoonsvorm), allé (voltooid deelwoord). Ze klinken hetzelfde en zien er anders uit.",
+          "varianten": [
+            {
+              "vraag": "Welke vorm is het voltooid deelwoord van 'manger'?",
+              "opties": [
+                "mangé",
+                "manger",
+                "mangez",
+                "mangeons"
+              ],
+              "antwoord": 0,
+              "uitleg": "Bij een werkwoord op -er wordt het deelwoord -é: mangé."
+            },
+            {
+              "vraag": "Welke vorm is het voltooid deelwoord van 'parler'?",
+              "opties": [
+                "parlé",
+                "parler",
+                "parlez",
+                "parlons"
+              ],
+              "antwoord": 0,
+              "uitleg": "Bij een werkwoord op -er wordt het deelwoord -é: parlé."
+            },
+            {
+              "vraag": "Welke vorm is het voltooid deelwoord van 'finir'?",
+              "opties": [
+                "fini",
+                "finir",
+                "finissez",
+                "finissons"
+              ],
+              "antwoord": 0,
+              "uitleg": "Bij een werkwoord op -ir wordt het deelwoord -i: fini."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Aller', 'allez' en 'allé' klinken hetzelfde maar zijn drie verschillende vormen.",
+          "antwoord": true,
+          "uitleg": "Daarom staat dit voorbeeld in de vakfiche: je moet aan de zin zien welke vorm je nodig hebt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe zeg je 'ik ga eten' (straks)?",
+          "opties": [
+            "Je vais manger.",
+            "Je mange.",
+            "J'ai mangé.",
+            "Je mangeais."
+          ],
+          "antwoord": 0,
+          "uitleg": "Aller + infinitief is de futur proche: de nabije toekomst.",
+          "varianten": [
+            {
+              "vraag": "Hoe zeg je 'ik ga vertrekken' (straks)?",
+              "opties": [
+                "Je vais partir.",
+                "Je pars.",
+                "Je suis parti.",
+                "Je partais."
+              ],
+              "antwoord": 0,
+              "uitleg": "Aller plus het werkwoord uit het woordenboek is de nabije toekomst."
+            },
+            {
+              "vraag": "Hoe zeg je 'wij gaan kijken' (straks)?",
+              "opties": [
+                "Nous allons regarder.",
+                "Nous regardons.",
+                "Nous avons regardé.",
+                "Nous regardions."
+              ],
+              "antwoord": 0,
+              "uitleg": "Aller plus het werkwoord uit het woordenboek is de nabije toekomst."
+            },
+            {
+              "vraag": "Hoe zeg je 'hij gaat slapen' (straks)?",
+              "opties": [
+                "Il va dormir.",
+                "Il dort.",
+                "Il a dormi.",
+                "Il dormait."
+              ],
+              "antwoord": 0,
+              "uitleg": "Aller plus het werkwoord uit het woordenboek is de nabije toekomst."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe zeg je 'ik heb net gegeten'?",
+          "opties": [
+            "Je viens de manger.",
+            "Je vais manger.",
+            "Je mange.",
+            "J'ai mangé."
+          ],
+          "antwoord": 0,
+          "uitleg": "Venir de + infinitief is de passé récent: iets wat net gebeurd is.",
+          "varianten": [
+            {
+              "vraag": "Hoe zeg je 'ik ben net aangekomen'?",
+              "opties": [
+                "Je viens d'arriver.",
+                "Je vais arriver.",
+                "J'arrive.",
+                "Je suis arrivé hier."
+              ],
+              "antwoord": 0,
+              "uitleg": "Venir de plus het werkwoord uit het woordenboek betekent: net gedaan hebben."
+            },
+            {
+              "vraag": "Hoe zeg je 'zij heeft net gebeld'?",
+              "opties": [
+                "Elle vient d'appeler.",
+                "Elle va appeler.",
+                "Elle appelle.",
+                "Elle appelait."
+              ],
+              "antwoord": 0,
+              "uitleg": "Venir de plus het werkwoord uit het woordenboek betekent: net gedaan hebben."
+            },
+            {
+              "vraag": "Hoe zeg je 'wij zijn net vertrokken'?",
+              "opties": [
+                "Nous venons de partir.",
+                "Nous allons partir.",
+                "Nous partons.",
+                "Nous partions."
+              ],
+              "antwoord": 0,
+              "uitleg": "Venir de plus het werkwoord uit het woordenboek betekent: net gedaan hebben."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zinnen staan in de verleden tijd?",
+          "opties": [
+            "J'ai mangé.",
+            "Je suis allé.",
+            "Il a fini.",
+            "Je vais partir."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De passé composé is hebben of zijn + voltooid deelwoord. 'Je vais partir' gaat over de toekomst.",
+          "varianten": [
+            {
+              "opties": [
+                "Tu as parlé.",
+                "Elle est partie.",
+                "Nous avons fini.",
+                "Je vais manger."
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "De laatste is de nabije toekomst: ik ga eten."
+            },
+            {
+              "opties": [
+                "Il a chanté.",
+                "Ils sont venus.",
+                "Vous avez compris.",
+                "Nous allons sortir."
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "De laatste is de nabije toekomst: wij gaan uitgaan."
+            },
+            {
+              "opties": [
+                "J'ai vu le film.",
+                "Elle est restée.",
+                "Tu as dormi.",
+                "Il va pleuvoir."
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "De laatste is de nabije toekomst: het gaat regenen."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk hulpwerkwoord hoort bij 'aller' in de passé composé?",
+          "opties": [
+            "être",
+            "avoir",
+            "faire",
+            "aucun"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je suis allé. Werkwoorden van beweging en verandering gaan met être."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent 'Ferme la porte !'",
+          "opties": [
+            "Doe de deur dicht!",
+            "De deur is dicht.",
+            "Ik doe de deur dicht.",
+            "Wie sluit de deur?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat is de impératif, de gebiedende wijs: het werkwoord zonder onderwerp.",
+          "varianten": [
+            {
+              "vraag": "Wat betekent 'Ouvre la fenêtre !'",
+              "opties": [
+                "Doe het raam open!",
+                "Het raam is open.",
+                "Ik open het raam.",
+                "Wie opent het raam?"
+              ],
+              "antwoord": 0,
+              "uitleg": "Een gebiedende wijs: je zegt tegen iemand wat hij moet doen."
+            },
+            {
+              "vraag": "Wat betekent 'Écoute bien !'",
+              "opties": [
+                "Luister goed!",
+                "Hij luistert goed.",
+                "Ik luister goed.",
+                "Wie luistert er?"
+              ],
+              "antwoord": 0,
+              "uitleg": "Een gebiedende wijs: je zegt tegen iemand wat hij moet doen."
+            },
+            {
+              "vraag": "Wat betekent 'Viens ici !'",
+              "opties": [
+                "Kom hier!",
+                "Hij komt hier.",
+                "Ik kom hier.",
+                "Wie komt hier?"
+              ],
+              "antwoord": 0,
+              "uitleg": "Een gebiedende wijs: je zegt tegen iemand wat hij moet doen."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zinnen staan in de gebiedende wijs?",
+          "opties": [
+            "Écoutez !",
+            "Viens ici !",
+            "Regardons ensemble !",
+            "Il regarde."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Bij de impératif laat je het onderwerp weg. 'Il regarde' heeft wel een onderwerp.",
+          "varianten": [
+            {
+              "opties": [
+                "Ferme la porte !",
+                "Mangeons !",
+                "Parlez plus fort !",
+                "Elle parle fort."
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "De laatste zin vertelt gewoon iets; er wordt niets gevraagd."
+            },
+            {
+              "opties": [
+                "Attends !",
+                "Sortons !",
+                "Répétez !",
+                "Nous répétons."
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "De laatste zin vertelt gewoon iets; er wordt niets gevraagd."
+            },
+            {
+              "opties": [
+                "Regarde !",
+                "Partons !",
+                "Asseyez-vous !",
+                "Ils partent."
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "De laatste zin vertelt gewoon iets; er wordt niets gevraagd."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe maak je een zin ontkennend?",
+          "opties": [
+            "Je zet 'ne' voor en 'pas' achter het werkwoord.",
+            "Je zet 'non' vooraan.",
+            "Je zet 'pas' vooraan.",
+            "Je laat het onderwerp weg."
+          ],
+          "antwoord": 0,
+          "uitleg": "Je ne mange pas. Voor een klinker wordt ne → n' : je n'aime pas."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'Je ___ mange pas.' (ik eet niet)",
+          "antwoord": "ne",
+          "uitleg": "De ontkenning bestaat uit twee delen: ne … pas, rond het werkwoord.",
+          "varianten": [
+            {
+              "vraag": "Vul aan: 'Il ___ parle pas.' (hij spreekt niet)",
+              "antwoord": "ne",
+              "uitleg": "Il ne parle pas. Ne staat voor het werkwoord en pas erachter."
+            },
+            {
+              "vraag": "Vul aan: 'Nous ne partons ___.' (wij vertrekken niet)",
+              "antwoord": "pas",
+              "uitleg": "Nous ne partons pas. Pas staat achter het werkwoord."
+            },
+            {
+              "vraag": "Vul aan: 'Tu ___ viens pas.' (jij komt niet)",
+              "antwoord": "ne",
+              "uitleg": "Tu ne viens pas. Ne staat voor het werkwoord en pas erachter."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is een vraag?",
+          "opties": [
+            "Est-ce que tu viens ?",
+            "Tu viens.",
+            "Viens !",
+            "Quelle chance !"
+          ],
+          "antwoord": 0,
+          "uitleg": "'Est-ce que' vooraan maakt er een vraagzin van. Je kan ook omdraaien: Viens-tu ?",
+          "varianten": [
+            {
+              "opties": [
+                "Est-ce qu'il pleut ?",
+                "Il pleut.",
+                "Regarde dehors !",
+                "Quel temps !"
+              ],
+              "antwoord": 0,
+              "uitleg": "Est-ce que vooraan maakt er een vraag van."
+            },
+            {
+              "opties": [
+                "Est-ce que vous avez faim ?",
+                "Vous avez faim.",
+                "Mangez !",
+                "Quelle faim !"
+              ],
+              "antwoord": 0,
+              "uitleg": "Est-ce que vooraan maakt er een vraag van."
+            },
+            {
+              "opties": [
+                "Est-ce qu'elle arrive ?",
+                "Elle arrive.",
+                "Attends-la !",
+                "Quelle surprise !"
+              ],
+              "antwoord": 0,
+              "uitleg": "Est-ce que vooraan maakt er een vraag van."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke soorten zinnen noemt de vakfiche?",
+          "opties": [
+            "mededelend",
+            "vragend",
+            "bevelend",
+            "verhalend"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Mededelend, vragend, bevelend, uitroepend, ontkennend en bevestigend. 'Verhalend' is een tekstsoort, geen zinssoort."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent 'Quelle belle journée !'",
+          "opties": [
+            "Wat een mooie dag!",
+            "Welke dag is het?",
+            "Het is een mooie dag.",
+            "De dag is mooi geweest."
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat is een uitroepende zin (phrase exclamative), te herkennen aan het uitroepteken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom staat het onderscheid tussen infinitief, persoonsvorm en deelwoord in de vakfiche?",
+          "opties": [
+            "Je moet weten hoe je de werkwoordsvorm in de zin moet lezen of schrijven.",
+            "Alleen om ze te kunnen benoemen.",
+            "Omdat ze anders klinken.",
+            "Omdat ze altijd samen voorkomen."
+          ],
+          "antwoord": 0,
+          "uitleg": "De fiche zegt het zo: het onderscheid is belangrijk om te weten hoe je de werkwoordsvorm correct moet interpreteren of schrijven."
+        }
+      ]
+    },
+    {
+      "titel": "Grammatica: werkwoorden, tijden en zinsbouw — deel 2",
+      "niveau": "spark",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin over een meisje dat naar de film ging, is juist?",
+          "opties": [
+            "Elle est allée au cinéma.",
+            "Elle est allé au cinéma.",
+            "Elle a allée au cinéma.",
+            "Elle a allé au cinéma."
+          ],
+          "antwoord": 0,
+          "uitleg": "Aller gaat met être, en dan past het deelwoord zich aan het onderwerp aan: elle est allée.",
+          "varianten": [
+            {
+              "vraag": "Welke zin over een meisje dat vertrokken is, is juist?",
+              "opties": [
+                "Elle est partie.",
+                "Elle est parti.",
+                "Elle a partie.",
+                "Elle a parti."
+              ],
+              "antwoord": 0,
+              "uitleg": "Partir gaat met être, en dan past het deelwoord zich aan: elle est partie."
+            },
+            {
+              "vraag": "Welke zin over twee meisjes die aangekomen zijn, is juist?",
+              "opties": [
+                "Elles sont arrivées.",
+                "Elles sont arrivé.",
+                "Elles ont arrivées.",
+                "Elles ont arrivé."
+              ],
+              "antwoord": 0,
+              "uitleg": "Arriver gaat met être, en bij elles komt er -es bij: arrivées."
+            },
+            {
+              "vraag": "Welke zin over een jongen die thuisgekomen is, is juist?",
+              "opties": [
+                "Il est rentré.",
+                "Il est rentrée.",
+                "Il a rentré.",
+                "Il a rentrée."
+              ],
+              "antwoord": 0,
+              "uitleg": "Rentrer gaat met être, en bij il blijft het deelwoord rentré."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een passé composé met 'être' past het voltooid deelwoord zich aan het onderwerp aan.",
+          "antwoord": true,
+          "uitleg": "Il est parti, elle est partie, ils sont partis, elles sont parties. Met 'avoir' gebeurt dat niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke werkwoorden gaan in de passé composé met 'être'?",
+          "opties": [
+            "aller",
+            "venir",
+            "partir",
+            "manger"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Werkwoorden van beweging en verandering gaan met être. Manger gaat met avoir: j'ai mangé.",
+          "varianten": [
+            {
+              "opties": [
+                "arriver",
+                "rester",
+                "tomber",
+                "regarder"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Regarder gaat met avoir: j'ai regardé."
+            },
+            {
+              "opties": [
+                "entrer",
+                "sortir",
+                "monter",
+                "chanter"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Chanter gaat met avoir: j'ai chanté."
+            },
+            {
+              "opties": [
+                "naître",
+                "mourir",
+                "rentrer",
+                "parler"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Parler gaat met avoir: j'ai parlé."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin met een wederkerend werkwoord in de verleden tijd is juist?",
+          "opties": [
+            "Nous nous sommes levés tôt.",
+            "Nous avons nous levés tôt.",
+            "Nous sommes levés tôt.",
+            "Nous nous avons levé tôt."
+          ],
+          "antwoord": 0,
+          "uitleg": "Wederkerende werkwoorden gaan altijd met être, en het wederkerend voornaamwoord blijft staan: nous nous sommes levés.",
+          "varianten": [
+            {
+              "opties": [
+                "Je me suis levé tôt.",
+                "J'ai me levé tôt.",
+                "Je suis levé tôt.",
+                "Je me ai levé tôt."
+              ],
+              "antwoord": 0,
+              "uitleg": "Een wederkerend werkwoord gaat altijd met être, en het voornaamwoord blijft vooraan."
+            },
+            {
+              "opties": [
+                "Elle s'est habillée vite.",
+                "Elle a s'habillée vite.",
+                "Elle est habillée vite.",
+                "Elle s'a habillée vite."
+              ],
+              "antwoord": 0,
+              "uitleg": "Een wederkerend werkwoord gaat altijd met être, en het deelwoord past zich aan."
+            },
+            {
+              "opties": [
+                "Ils se sont couchés tard.",
+                "Ils ont se couchés tard.",
+                "Ils sont couchés tard.",
+                "Ils se ont couchés tard."
+              ],
+              "antwoord": 0,
+              "uitleg": "Een wederkerend werkwoord gaat altijd met être, en se blijft vóór het hulpwerkwoord."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen 'je mangeais' en 'j'ai mangé'?",
+          "opties": [
+            "'Je mangeais' beschrijft een gewoonte of een toestand, 'j'ai mangé' één afgeronde gebeurtenis.",
+            "Er is geen verschil.",
+            "'Je mangeais' is de toekomst.",
+            "'J'ai mangé' is de tegenwoordige tijd."
+          ],
+          "antwoord": 0,
+          "uitleg": "De imparfait gebruik je voor wat vroeger gewoonlijk zo was; de passé composé voor wat één keer gebeurd en afgelopen is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin hoort in de imparfait?",
+          "opties": [
+            "Quand j'étais petit, j'habitais à Liège.",
+            "Hier, j'ai mangé une pizza.",
+            "Demain, je vais partir.",
+            "Je viens d'arriver."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een toestand die een tijd duurde: toen ik klein was, woonde ik in Luik. Dat is de imparfait.",
+          "varianten": [
+            {
+              "opties": [
+                "Quand j'étais jeune, je jouais au foot.",
+                "Hier, j'ai joué au foot.",
+                "Demain, je vais jouer.",
+                "Je viens de jouer."
+              ],
+              "antwoord": 0,
+              "uitleg": "De imparfait beschrijft een gewoonte van vroeger: toen ik jong was, speelde ik voetbal."
+            },
+            {
+              "opties": [
+                "Chaque été, nous allions à la mer.",
+                "L'été dernier, nous sommes allés à la mer.",
+                "Cet été, nous allons partir.",
+                "Nous venons de rentrer."
+              ],
+              "antwoord": 0,
+              "uitleg": "Chaque été wijst op een gewoonte, en daar past de imparfait bij."
+            },
+            {
+              "opties": [
+                "Il faisait froid ce jour-là.",
+                "Il a fait froid hier.",
+                "Il va faire froid demain.",
+                "Il vient de neiger."
+              ],
+              "antwoord": 0,
+              "uitleg": "De imparfait beschrijft hoe het toen was, niet één afgeronde gebeurtenis."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vorm is de conditionnel de politesse?",
+          "opties": [
+            "je voudrais",
+            "je veux",
+            "j'ai voulu",
+            "je voudrai"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je voudrais is de beleefde vorm. 'Je voudrai' zonder s is de toekomende tijd en betekent iets anders.",
+          "varianten": [
+            {
+              "opties": [
+                "j'aimerais",
+                "j'aime",
+                "j'ai aimé",
+                "j'aimerai"
+              ],
+              "antwoord": 0,
+              "uitleg": "J'aimerais is beleefd: ik zou graag. J'aimerai zonder s is de toekomst."
+            },
+            {
+              "opties": [
+                "pourriez-vous",
+                "pouvez-vous",
+                "avez-vous pu",
+                "pourrez-vous"
+              ],
+              "antwoord": 0,
+              "uitleg": "Pourriez-vous is beleefder dan pouvez-vous: zou u kunnen."
+            },
+            {
+              "opties": [
+                "nous voudrions",
+                "nous voulons",
+                "nous avons voulu",
+                "nous voudrons"
+              ],
+              "antwoord": 0,
+              "uitleg": "Nous voudrions is beleefd: wij zouden graag."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Pouvez-vous' is beleefder dan 'Pourriez-vous'.",
+          "antwoord": false,
+          "uitleg": "Niet juist, het is omgekeerd. Pourriez-vous is de beleefdste vorm."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is een enkelvoudige zin?",
+          "opties": [
+            "Je mange une pomme.",
+            "Je mange une pomme parce que j'ai faim.",
+            "Quand il pleut, je reste à la maison.",
+            "Il lit et elle écrit."
+          ],
+          "antwoord": 0,
+          "uitleg": "Een enkelvoudige zin heeft één persoonsvorm. De andere drie hebben er twee en zijn dus samengesteld.",
+          "varianten": [
+            {
+              "opties": [
+                "Il lit un livre.",
+                "Il lit un livre quand il a le temps.",
+                "Quand il pleut, il lit.",
+                "Il lit et elle dort."
+              ],
+              "antwoord": 0,
+              "uitleg": "Er staat maar één persoonsvorm in: lit."
+            },
+            {
+              "opties": [
+                "Nous mangeons à midi.",
+                "Nous mangeons quand papa rentre.",
+                "Comme il est tard, nous mangeons.",
+                "Je mange et tu bois."
+              ],
+              "antwoord": 0,
+              "uitleg": "Er staat maar één persoonsvorm in: mangeons."
+            },
+            {
+              "opties": [
+                "Elle chante bien.",
+                "Elle chante parce que ça la calme.",
+                "Quand elle chante, tout le monde écoute.",
+                "Elle chante et il joue."
+              ],
+              "antwoord": 0,
+              "uitleg": "Er staat maar één persoonsvorm in: chante."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zinnen zijn samengesteld?",
+          "opties": [
+            "Il pleut, donc je reste ici.",
+            "Je sais que tu viens.",
+            "Elle chante et il danse.",
+            "Je bois du café."
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Twee persoonsvormen, dus samengesteld. 'Je bois du café' heeft er maar één.",
+          "varianten": [
+            {
+              "opties": [
+                "Il pleut, mais je sors quand même.",
+                "Je pense que tu as raison.",
+                "Elle lit et il écrit.",
+                "Je bois du thé."
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "In de laatste zin staat maar één persoonsvorm."
+            },
+            {
+              "opties": [
+                "Je reste ici, car il fait froid.",
+                "Elle dit qu'elle vient.",
+                "Il mange et elle cuisine.",
+                "Nous partons demain."
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "In de laatste zin staat maar één persoonsvorm."
+            },
+            {
+              "opties": [
+                "Tu viens, ou tu restes ?",
+                "Je sais où il habite.",
+                "Il court et elle marche.",
+                "Ils jouent au jardin."
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "In de laatste zin staat maar één persoonsvorm."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn nevenschikkende voegwoorden?",
+          "opties": [
+            "et",
+            "mais",
+            "ou",
+            "parce que"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "En, maar en of verbinden twee gelijkwaardige delen. 'Parce que' is onderschikkend: het maakt er een bijzin van.",
+          "varianten": [
+            {
+              "opties": [
+                "et",
+                "donc",
+                "car",
+                "quand"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Quand maakt een bijzin; de andere drie verbinden twee gelijkwaardige zinnen."
+            },
+            {
+              "opties": [
+                "ou",
+                "mais",
+                "donc",
+                "que"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Que maakt een bijzin; de andere drie verbinden twee gelijkwaardige zinnen."
+            },
+            {
+              "opties": [
+                "car",
+                "et",
+                "ou",
+                "si"
+              ],
+              "antwoord": [
+                0,
+                1,
+                2
+              ],
+              "uitleg": "Si maakt een bijzin; de andere drie verbinden twee gelijkwaardige zinnen."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent 'Il travaille en Belgique'?",
+          "opties": [
+            "Hij werkt in België.",
+            "Hij werkt voor België.",
+            "Hij gaat naar België werken.",
+            "Hij werkte in België."
+          ],
+          "antwoord": 0,
+          "uitleg": "'En' + vrouwelijk land betekent 'in' of 'naar'. De tegenwoordige tijd zegt dat het nu zo is.",
+          "varianten": [
+            {
+              "vraag": "Wat betekent 'Elle habite en France'?",
+              "opties": [
+                "Zij woont in Frankrijk.",
+                "Zij woont voor Frankrijk.",
+                "Zij gaat in Frankrijk wonen.",
+                "Zij woonde in Frankrijk."
+              ],
+              "antwoord": 0,
+              "uitleg": "En plus een vrouwelijke landnaam betekent in dat land."
+            },
+            {
+              "vraag": "Wat betekent 'Nous étudions à Bruxelles'?",
+              "opties": [
+                "Wij studeren in Brussel.",
+                "Wij studeren voor Brussel.",
+                "Wij gaan in Brussel studeren.",
+                "Wij studeerden in Brussel."
+              ],
+              "antwoord": 0,
+              "uitleg": "Bij een stad gebruikt het Frans à: à Bruxelles, à Paris."
+            },
+            {
+              "vraag": "Wat betekent 'Ils vivent au Portugal'?",
+              "opties": [
+                "Zij wonen in Portugal.",
+                "Zij wonen voor Portugal.",
+                "Zij gaan in Portugal wonen.",
+                "Zij woonden in Portugal."
+              ],
+              "antwoord": 0,
+              "uitleg": "Bij een mannelijke landnaam wordt het au: au Portugal, au Canada."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke woorden zijn voorzetsels?",
+          "opties": [
+            "à",
+            "en",
+            "sur",
+            "et"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "À Bruxelles, en train, sur la table. 'Et' is een voegwoord."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Vul aan: 'Je vais ___ Bruxelles.' (naar Brussel)",
+          "antwoord": "à",
+          "uitleg": "Bij een stad gebruik je 'à': à Bruxelles, à Paris. Bij een land gebruik je en of au.",
+          "varianten": [
+            {
+              "vraag": "Vul aan: 'Je vais ___ France.' (naar Frankrijk)",
+              "antwoord": "en",
+              "uitleg": "Bij een vrouwelijke landnaam hoort en: en France, en Belgique."
+            },
+            {
+              "vraag": "Vul aan: 'Je vais ___ Portugal.' (naar Portugal)",
+              "antwoord": "au",
+              "uitleg": "Bij een mannelijke landnaam hoort au: au Portugal, au Canada."
+            },
+            {
+              "vraag": "Vul aan: 'Je vais ___ Paris.' (naar Parijs)",
+              "antwoord": "à",
+              "uitleg": "Bij een stad hoort à: à Paris, à Hasselt."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin klopt qua overeenkomst tussen onderwerp en persoonsvorm?",
+          "opties": [
+            "Les enfants jouent dans le jardin.",
+            "Les enfants joue dans le jardin.",
+            "L'enfant jouent dans le jardin.",
+            "Les enfants jouons dans le jardin."
+          ],
+          "antwoord": 0,
+          "uitleg": "Les enfants is derde persoon meervoud, dus jouent. Die overeenkomst heet de accord sujet-verbe.",
+          "varianten": [
+            {
+              "opties": [
+                "Les élèves écoutent le professeur.",
+                "Les élèves écoute le professeur.",
+                "L'élève écoutent le professeur.",
+                "Les élèves écoutons le professeur."
+              ],
+              "antwoord": 0,
+              "uitleg": "Les élèves is meervoud, dus écoutent."
+            },
+            {
+              "opties": [
+                "Mes parents travaillent à Genk.",
+                "Mes parents travaille à Genk.",
+                "Mon parent travaillent à Genk.",
+                "Mes parents travaillons à Genk."
+              ],
+              "antwoord": 0,
+              "uitleg": "Mes parents is meervoud, dus travaillent."
+            },
+            {
+              "opties": [
+                "Les chiens dorment dehors.",
+                "Les chiens dort dehors.",
+                "Le chien dorment dehors.",
+                "Les chiens dormons dehors."
+              ],
+              "antwoord": 0,
+              "uitleg": "Les chiens is meervoud, dus dorment."
+            }
+          ]
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "'Ils jouent' en 'il joue' klinken hetzelfde, maar je schrijft ze anders.",
+          "antwoord": true,
+          "uitleg": "De -ent van het meervoud hoor je niet. Daarom is de overeenkomst vooral een schrijfregel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe maak je van 'Tu viens' een vraagzin door om te draaien?",
+          "opties": [
+            "Viens-tu ?",
+            "Tu viens-?",
+            "Viens tu.",
+            "Est-ce viens tu ?"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij de inversie zet je de persoonsvorm voorop met een streepje: Viens-tu ? Parlez-vous français ?"
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke zin is bevestigend?",
+          "opties": [
+            "Oui, je viens.",
+            "Non, je ne viens pas.",
+            "Je ne viens jamais.",
+            "Je ne viens plus."
+          ],
+          "antwoord": 0,
+          "uitleg": "Bevestigend zegt ja; ontkennend heeft ne … pas, ne … jamais of ne … plus."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent 'Je ne mange plus de viande'?",
+          "opties": [
+            "Ik eet geen vlees meer.",
+            "Ik eet nooit vlees.",
+            "Ik eet weinig vlees.",
+            "Ik eet graag vlees."
+          ],
+          "antwoord": 0,
+          "uitleg": "Ne … plus betekent 'niet meer'. Let ook op het lidwoord: na de ontkenning wordt 'de la viande' gewoon 'de viande'.",
+          "varianten": [
+            {
+              "vraag": "Wat betekent 'Je ne bois jamais de café'?",
+              "opties": [
+                "Ik drink nooit koffie.",
+                "Ik drink geen koffie meer.",
+                "Ik drink weinig koffie.",
+                "Ik drink graag koffie."
+              ],
+              "antwoord": 0,
+              "uitleg": "Ne … jamais betekent nooit. Ne … plus zou niet meer zijn."
+            },
+            {
+              "vraag": "Wat betekent 'Il n'y a personne'?",
+              "opties": [
+                "Er is niemand.",
+                "Er is iemand.",
+                "Er is niets.",
+                "Er is er nog een."
+              ],
+              "antwoord": 0,
+              "uitleg": "Ne … personne betekent niemand. Ne … rien zou niets zijn."
+            },
+            {
+              "vraag": "Wat betekent 'Elle ne dit rien'?",
+              "opties": [
+                "Zij zegt niets.",
+                "Zij zegt iets.",
+                "Zij zegt niets meer.",
+                "Zij zegt nooit iets."
+              ],
+              "antwoord": 0,
+              "uitleg": "Ne … rien betekent niets. Ne … plus zou niets meer zijn."
+            }
+          ]
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom vraagt de fiche dat je varieert tussen soorten zinnen?",
+          "opties": [
+            "Daarmee maak je je tekst levendig.",
+            "Anders zijn je zinnen fout.",
+            "Omdat het aantal zinnen telt.",
+            "Omdat vragen makkelijker zijn."
+          ],
+          "antwoord": 0,
+          "uitleg": "'Je maakt je tekst levendig door te variëren tussen verschillende soorten zinnen.' Dat staat zo bij het inzicht in het taalsysteem."
+        }
+      ]
+    }
+  ]
+}

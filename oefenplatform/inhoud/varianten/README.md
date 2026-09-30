@@ -20,6 +20,13 @@ bestanden. Dat is al gebeurd op 30 september 2026.
 | `start-nederlands-varianten.json` | Nederlands | Taalsysteem en taalgebruik |
 | `start-frans-varianten.json` | Frans | Être en avoir, De tegenwoordige tijd, Zinnen bouwen |
 | `start-engels-varianten.json` | Engels | To be en to have, De tegenwoordige tijd, Zinnen bouwen |
+| `spark-nederlands-varianten.json` | Nederlands | Woordsoorten en woordvorming, Zinsdelen zinssoorten en congruentie (elk deel 1 en 2) |
+| `spark-frans-varianten.json` | Frans | De twee grammaticathema's (elk deel 1 en 2) |
+| `spark-engels-varianten.json` | Engels | De twee grammaticathema's (elk deel 1 en 2) |
+
+De spellinghoofdstukken van Nederlands ✨ Spark zitten hier niet bij: hun
+wisselende woorden staan in `spark/bron/nl_spelling.py` zelf en zijn al
+geïmporteerd met `spark-nederlands-spelling-varianten.json`.
 
 **Let op bij het schrijven.** Geen enkele ronde mag twee keer dezelfde vraag
 tonen binnen één hoofdstuk; `varianten_start.py` rekent dat na over álle
