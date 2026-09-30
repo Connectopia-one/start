@@ -4,6 +4,7 @@ import { requireBeheerder } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
 import { huidigSchooljaar } from "@/lib/schooljaar";
 import { zetVolledigeToegang } from "./actions";
+import { Mailadressen, type MailRij } from "./Mailadressen";
 
 type Rij = {
   id: string;
@@ -37,15 +38,38 @@ export default async function GezinnenPage({
   const admin = createAdminClient();
   const { data } = await admin
     .from("profiles")
-    .select("id, full_name, role, is_plusklas, toegang_schooljaar, created_at, kinderen(id, naam)")
+    .select(
+      "id, full_name, role, is_plusklas, toegang_schooljaar, created_at, kinderen(id, naam)",
+    )
     .order("created_at", { ascending: false });
 
   const rijen = (data ?? []) as Rij[];
   const gezinnen = rijen.filter((r) => r.role !== "beheerder");
   const schooljaar = huidigSchooljaar();
-  const metToegang = gezinnen.filter(
-    (r) => r.is_plusklas || r.toegang_schooljaar === schooljaar
-  ).length;
+  const heeftToegang = (r: Rij) =>
+    r.is_plusklas || r.toegang_schooljaar === schooljaar;
+  const metToegang = gezinnen.filter(heeftToegang).length;
+
+  /* Het mailadres staat niet in "profiles" maar in auth.users, en dat is enkel
+     met de service-sleutel te lezen. Eén oproep, en daarna zoeken we per id. */
+  const mailPerId = new Map<string, string>();
+  for (let bladzijde = 1; bladzijde <= 10; bladzijde++) {
+    const { data: lijst, error } = await admin.auth.admin.listUsers({
+      page: bladzijde,
+      perPage: 200,
+    });
+    const gebruikers = lijst?.users ?? [];
+    for (const u of gebruikers) if (u.email) mailPerId.set(u.id, u.email);
+    if (error || gebruikers.length < 200) break;
+  }
+
+  const mailrijen: MailRij[] = gezinnen
+    .map((r) => ({
+      naam: r.full_name,
+      email: mailPerId.get(r.id) ?? "",
+      toegang: heeftToegang(r),
+    }))
+    .filter((r) => r.email);
 
   return (
     <>
@@ -54,22 +78,26 @@ export default async function GezinnenPage({
         <Link href="/beheer" className="text-sm text-ink-dim hover:text-ink">
           &larr; Beheer
         </Link>
-        <h1 className="mt-2 font-display text-2xl font-semibold text-ink">Gezinnen</h1>
+        <h1 className="mt-2 font-display text-2xl font-semibold text-ink">
+          Gezinnen
+        </h1>
         <p className="mt-2 text-sm text-ink-dim">
-          Wie heeft volledige toegang, en waar komt die vandaan? Toegang uitzetten
-          raakt niets van wat een gezin opgebouwd heeft: de kinderen, hun voortgang
-          en hun stickers blijven staan, ze zien daarna enkel nog de gratis
-          hoofdstukken. Zet je de toegang later weer aan, dan pikken ze op waar ze
-          gestopt waren.
+          Wie heeft volledige toegang, en waar komt die vandaan? Toegang
+          uitzetten raakt niets van wat een gezin opgebouwd heeft: de kinderen,
+          hun voortgang en hun stickers blijven staan, ze zien daarna enkel nog
+          de gratis hoofdstukken. Zet je de toegang later weer aan, dan pikken
+          ze op waar ze gestopt waren.
         </p>
         <p className="mt-2 text-sm text-ink-dim">
-          Een gezin dat betaald heeft voor dit schooljaar ({schooljaar}) houdt zijn
-          toegang, ook als de knop hier op uit staat. Die knop gaat enkel over de
-          gratis toegang die je zelf geeft, bijvoorbeeld met een code.
+          Een gezin dat betaald heeft voor dit schooljaar ({schooljaar}) houdt
+          zijn toegang, ook als de knop hier op uit staat. Die knop gaat enkel
+          over de gratis toegang die je zelf geeft, bijvoorbeeld met een code.
         </p>
 
         {fout && (
-          <p className="mt-4 rounded-md bg-danger/10 px-3 py-2 text-sm text-danger">{fout}</p>
+          <p className="mt-4 rounded-md bg-danger/10 px-3 py-2 text-sm text-danger">
+            {fout}
+          </p>
         )}
         {melding && (
           <p className="mt-4 rounded-md bg-forest/10 px-3 py-2 text-sm text-forest-dark">
@@ -77,9 +105,12 @@ export default async function GezinnenPage({
           </p>
         )}
 
+        <Mailadressen rijen={mailrijen} />
+
         <p className="mt-6 text-sm text-ink-dim">
-          {gezinnen.length} {gezinnen.length === 1 ? "account" : "accounts"}, waarvan{" "}
-          <span className="font-medium text-ink">{metToegang}</span> met volledige toegang.
+          {gezinnen.length} {gezinnen.length === 1 ? "account" : "accounts"},
+          waarvan <span className="font-medium text-ink">{metToegang}</span> met
+          volledige toegang.
         </p>
 
         <ul className="mt-3 space-y-2">
@@ -93,7 +124,9 @@ export default async function GezinnenPage({
               >
                 <div className="flex flex-wrap items-center justify-between gap-3">
                   <div>
-                    <p className="text-sm font-medium text-ink">{r.full_name}</p>
+                    <p className="text-sm font-medium text-ink">
+                      {r.full_name}
+                    </p>
                     <p className="mt-0.5 text-xs text-ink-dim">
                       {kinderen.length === 0
                         ? "nog geen kind toegevoegd"
@@ -104,6 +137,11 @@ export default async function GezinnenPage({
                       {datum(r.created_at)}
                       {r.role === "begeleider" && " · begeleider"}
                     </p>
+                    {mailPerId.get(r.id) && (
+                      <p className="mt-0.5 break-all font-mono text-xs text-ink-dim">
+                        {mailPerId.get(r.id)}
+                      </p>
+                    )}
                   </div>
                   <div className="flex items-center gap-3">
                     <span
@@ -123,12 +161,18 @@ export default async function GezinnenPage({
                     </span>
                     <form action={zetVolledigeToegang}>
                       <input type="hidden" name="id" value={r.id} />
-                      <input type="hidden" name="aan" value={r.is_plusklas ? "nee" : "ja"} />
+                      <input
+                        type="hidden"
+                        name="aan"
+                        value={r.is_plusklas ? "nee" : "ja"}
+                      />
                       <button
                         type="submit"
                         className="rounded-full border border-border px-3 py-1 text-xs font-medium text-ink hover:border-forest hover:text-forest-dark"
                       >
-                        {r.is_plusklas ? "Toegang uitzetten" : "Toegang aanzetten"}
+                        {r.is_plusklas
+                          ? "Toegang uitzetten"
+                          : "Toegang aanzetten"}
                       </button>
                     </form>
                   </div>
@@ -137,7 +181,9 @@ export default async function GezinnenPage({
             );
           })}
           {!gezinnen.length && (
-            <li className="text-sm text-ink-dim">Er heeft zich nog niemand geregistreerd.</li>
+            <li className="text-sm text-ink-dim">
+              Er heeft zich nog niemand geregistreerd.
+            </li>
           )}
         </ul>
       </main>
