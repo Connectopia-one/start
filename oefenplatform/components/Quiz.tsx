@@ -1,9 +1,13 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { MeldingKnop } from "@/components/MeldingKnop";
-import { registreerAntwoord, registreerSticker } from "@/app/voortgang-actions";
+import {
+  haalJuistBeantwoord,
+  registreerAntwoord,
+  registreerSticker,
+} from "@/app/voortgang-actions";
 import {
   KleurVraag,
   SleepVraag,
@@ -473,7 +477,7 @@ function VraagKaart({
 }
 
 export function Quiz({
-  vragen,
+  vragen: alleVragen,
   kinderen = [],
   hoofdstukId,
   taalvak = false,
@@ -486,13 +490,29 @@ export function Quiz({
 }) {
   const [statussen, setStatussen] = useState<Record<string, Status>>(() =>
     Object.fromEntries(
-      vragen.map((v) => [
+      alleVragen.map((v) => [
         v.id,
         { gecontroleerd: false, correct: false, gegevenAntwoord: null },
       ]),
     ),
   );
   const [actiefKindId, setActiefKindId] = useState<string | null>(null);
+
+  /*
+    Gevraagd door een testgezin op 30 september 2026: "Telkens als je
+    teruggaat naar een hoofdstuk die je al eerder hebt gedaan, start je
+    volledig opnieuw. Zou het mogelijk zijn om enkel de vragen te krijgen die
+    nog niet eerder werden opgelost?"
+
+    Het is bewust een keuze en geen automatische filter. Een kind dat iets
+    weken geleden juist had, mag dat gerust nog eens oefenen, en veel
+    kinderen doen een hoofdstuk net graag een tweede keer helemaal. Daarom
+    start het hoofdstuk altijd met álle vragen; wie wil, klikt de andere knop.
+
+    null betekent: nog niet opgehaald, of er valt niets op te halen.
+  */
+  const [alJuist, setAlJuist] = useState<Set<string> | null>(null);
+  const [enkelNieuwe, setEnkelNieuwe] = useState(false);
   // Telt mee bij "Opnieuw proberen", zodat ook wat een kind ingekleurd of
   // gesleept had weer leeg begint.
   const [ronde, setRonde] = useState(0);
@@ -529,23 +549,70 @@ export function Quiz({
   const kiesKind = (id: string) => {
     setActiefKindId(id);
     bewaarActiefKind(id);
+    // Een ander kind heeft een andere voorgeschiedenis, dus de lijst gaat terug
+    // naar alle vragen tot we weten wat dít kind al juist had.
+    setAlJuist(null);
+    setEnkelNieuwe(false);
   };
+
+  /* Wat had dit kind in dit hoofdstuk al juist? Mislukt de vraag, dan blijft
+     alJuist leeg en krijgt het kind gewoon alle vragen: nooit minder oefenen
+     door een fout. */
+  useEffect(() => {
+    if (!actiefKindId || !hoofdstukId) return;
+    let geannuleerd = false;
+    haalJuistBeantwoord(actiefKindId, hoofdstukId)
+      .then((ids) => {
+        if (!geannuleerd) setAlJuist(new Set(ids));
+      })
+      .catch(() => {});
+    return () => {
+      geannuleerd = true;
+    };
+  }, [actiefKindId, hoofdstukId]);
+
+  /* De vragen die het kind nu voor zich krijgt. */
+  const vragen = useMemo(
+    () =>
+      enkelNieuwe && alJuist
+        ? alleVragen.filter((v) => !alJuist.has(v.id))
+        : alleVragen,
+    [enkelNieuwe, alJuist, alleVragen],
+  );
+
+  // Hoeveel vragen van dit hoofdstuk staan er nog open? Is dat er geen enkele,
+  // of zijn het er evenveel als het hoofdstuk telt, dan valt er niets te
+  // kiezen en tonen we de balk niet.
+  const nogOpen = alJuist
+    ? alleVragen.filter((v) => !alJuist.has(v.id)).length
+    : alleVragen.length;
+  const toonKeuze = Boolean(
+    alJuist && nogOpen > 0 && nogOpen < alleVragen.length,
+  );
 
   // Staat er in dit hoofdstuk één vraag met meer dan één juist antwoord, dan
   // krijgen álle meerkeuzevragen vakjes. Zou enkel die ene vraag vakjes hebben,
   // dan verklapt het vakje het antwoord en oefent het kind net niet waar het om
   // gaat: zelf zien hoeveel antwoorden er juist zijn.
-  const alsVakjes = vragen.some((v) => heeftMeerdereAntwoorden(v));
+  // Bewust over het hele hoofdstuk en niet over de lijst van dit moment: of
+  // er vakjes staan mag niet veranderen naargelang een kind alles opnieuw
+  // doet of enkel de overige vragen.
+  const alsVakjes = alleVragen.some((v) => heeftMeerdereAntwoorden(v));
 
-  const aantalGecontroleerd = Object.values(statussen).filter(
-    (s) => s.gecontroleerd,
+  /* Tellen doen we over de vragen die het kind nú voor zich heeft, niet over
+     alle statussen: staat de lijst op "enkel wat ik nog niet juist had", dan
+     zou de balk anders vragen meetellen die niet op het scherm komen. */
+  const aantalGecontroleerd = vragen.filter(
+    (v) => statussen[v.id]?.gecontroleerd,
   ).length;
-  const aantalCorrect = Object.values(statussen).filter(
-    (s) => s.correct,
-  ).length;
+  const aantalCorrect = vragen.filter((v) => statussen[v.id]?.correct).length;
   const klaar = vragen.length > 0 && aantalGecontroleerd === vragen.length;
   const perfect = klaar && aantalCorrect === vragen.length;
 
+  /* De sticker hangt aan "alle vragen van dit hoofdstuk juist". Staat de lijst
+     op enkel de overige vragen, dan waren de andere al juist — dat is net
+     waarom ze wegvielen — dus is het hoofdstuk op dat moment volledig juist en
+     is de sticker verdiend. */
   const stickerGegeven = useRef(false);
   useEffect(() => {
     if (perfect && actiefKindId && hoofdstukId && !stickerGegeven.current) {
@@ -560,12 +627,19 @@ export function Quiz({
     setHuidige(0);
     setStatussen(
       Object.fromEntries(
-        vragen.map((v) => [
+        alleVragen.map((v) => [
           v.id,
           { gecontroleerd: false, correct: false, gegevenAntwoord: null },
         ]),
       ),
     );
+  };
+
+  /* Van alle vragen naar enkel de overige, of omgekeerd. In allebei de
+     richtingen begint het kind met een schone lei. */
+  const kiesLijst = (enkel: boolean) => {
+    setEnkelNieuwe(enkel);
+    opnieuw();
   };
 
   if (!vragen.length) {
@@ -613,6 +687,43 @@ export function Quiz({
           </Link>{" "}
           om een rapport per kind te krijgen.
         </p>
+      )}
+
+      {toonKeuze && (
+        <div className="rounded-xl border border-border bg-surface px-4 py-3">
+          <p className="text-sm text-ink">
+            Je deed dit hoofdstuk al eens.{" "}
+            {nogOpen === 1
+              ? "Er is nog één vraag die je niet juist had."
+              : `Er zijn nog ${nogOpen} vragen die je niet juist had.`}
+          </p>
+          <div className="mt-2 flex flex-wrap gap-2">
+            <button
+              type="button"
+              onClick={() => kiesLijst(true)}
+              aria-pressed={enkelNieuwe}
+              className={`rounded-md px-3 py-1.5 text-sm transition ${
+                enkelNieuwe
+                  ? "bg-forest text-paper"
+                  : "border border-border text-ink hover:border-forest"
+              }`}
+            >
+              {nogOpen === 1 ? "Enkel die ene vraag" : `Enkel die ${nogOpen}`}
+            </button>
+            <button
+              type="button"
+              onClick={() => kiesLijst(false)}
+              aria-pressed={!enkelNieuwe}
+              className={`rounded-md px-3 py-1.5 text-sm transition ${
+                enkelNieuwe
+                  ? "border border-border text-ink hover:border-forest"
+                  : "bg-forest text-paper"
+              }`}
+            >
+              Alle {alleVragen.length} opnieuw
+            </button>
+          </div>
+        </div>
       )}
 
       {toonBalk && (
@@ -693,7 +804,13 @@ export function Quiz({
             key={`melding-${vraag.id}`}
             hoofdstukId={hoofdstukId}
             vragen={[]}
-            vasteVraag={{ id: vraag.id, volgnummer: huidige + 1 }}
+            /* Het nummer dat de vraag in het hélé hoofdstuk heeft, niet in
+               de lijst die dit kind nu voor zich heeft. Anders meldt een
+               kind "vraag 2" terwijl het in Beheer vraag 7 is. */
+            vasteVraag={{
+              id: vraag.id,
+              volgnummer: alleVragen.findIndex((v) => v.id === vraag.id) + 1,
+            }}
           />
         )}
       </div>

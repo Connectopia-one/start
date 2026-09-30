@@ -170,3 +170,40 @@ export async function haalTelling(kindId: string): Promise<Telling> {
     hoekjeJuist: (hoekje.count ?? 0) > 0,
   };
 }
+
+/**
+ * De vragen van één hoofdstuk die dit kind al eens juist beantwoordde.
+ *
+ * Gevraagd door een testgezin op 30 september 2026: "Telkens als je teruggaat
+ * naar een hoofdstuk die je al eerder hebt gedaan, start je volledig opnieuw.
+ * Zou het mogelijk zijn om enkel de vragen te krijgen die nog niet eerder
+ * werden opgelost?"
+ *
+ * Enkel de júiste antwoorden tellen. Een vraag die een kind fout had, hoort
+ * er de volgende keer weer bij; dat is net de vraag die het nog moet oefenen.
+ *
+ * Net als haalHoofdstukStatus wordt dit vanuit de browser aangeroepen, want
+ * daar staat welk kind aan het oefenen is (zie lib/actiefkind.ts). Gaat er
+ * iets mis, dan komt er een lege lijst terug en krijgt het kind gewoon alle
+ * vragen: nooit minder oefenen door een fout.
+ */
+export async function haalJuistBeantwoord(
+  kindId: string,
+  hoofdstukId: string,
+): Promise<string[]> {
+  const admin = await kindEigenaarOfNull(kindId);
+  if (!admin) return [];
+
+  const { data } = await admin
+    .from("voortgang")
+    .select("vraag_id")
+    .eq("kind_id", kindId)
+    .eq("hoofdstuk_id", hoofdstukId)
+    .eq("correct", true);
+
+  const ids = new Set<string>();
+  for (const rij of (data ?? []) as unknown as { vraag_id: string | null }[]) {
+    if (rij.vraag_id) ids.add(rij.vraag_id);
+  }
+  return [...ids];
+}
