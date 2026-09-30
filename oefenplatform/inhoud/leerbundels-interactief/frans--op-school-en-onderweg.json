@@ -1,0 +1,92 @@
+{
+ "vak": "Frans",
+ "titel": "Op school en onderweg",
+ "onder": "Je schoolgerief, de vakken, de weg vragen en de zinnetjes die je in de klas nodig hebt.",
+ "secties": [
+  {
+   "kop": "In je boekentas",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:70%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un cartable</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een boekentas</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une trousse</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een pennenzak</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un livre</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een boek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un cahier</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een schrift</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un stylo</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een balpen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un crayon</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een potlood</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une gomme</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gom</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une règle</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een lat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une boîte à tartines</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een brooddoos</td></tr></table>",
+     "onderschrift": "Un stylo is een balpen, un crayon een potlood."
+    },
+    {
+     "soort": "weetje",
+     "html": "<strong>Une règle</strong> betekent zowel het voorwerp waarmee je meet als een afspraak, een regel die je moet volgen. Net als in het Nederlands, waar een lat en een regel ook twee dingen zijn."
+    }
+   ]
+  },
+  {
+   "kop": "Op school",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>La récréation</strong> is de speeltijd; in de spreektaal korten ze dat af tot <strong>la récré</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De vakken: <strong>les mathématiques</strong>, le français, le néerlandais, l'histoire. Het schoolvak wiskunde heet in het Frans altijd in het <strong>meervoud</strong>: les mathématiques, in de spreektaal afgekort tot les maths."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 156\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"6.0\" y=\"6\" width=\"319.6\" height=\"42\" rx=\"12\" fill=\"#2f5d5018\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"19.0\" y=\"23\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#2f5d50\" font-weight=\"600\">de leerkracht</text><text x=\"19.0\" y=\"39\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" fill=\"#234539\">Ouvrez votre livre.</text><rect x=\"144.4\" y=\"56\" width=\"319.6\" height=\"42\" rx=\"12\" fill=\"#c17f2b18\" stroke=\"#c17f2b\" stroke-width=\"1.5\"/><text x=\"157.4\" y=\"73\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#c17f2b\" font-weight=\"600\">jij</text><text x=\"157.4\" y=\"89\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" fill=\"#234539\">Je ne comprends pas.</text><rect x=\"144.4\" y=\"106\" width=\"319.6\" height=\"42\" rx=\"12\" fill=\"#c17f2b18\" stroke=\"#c17f2b\" stroke-width=\"1.5\"/><text x=\"157.4\" y=\"123\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#c17f2b\" font-weight=\"600\">jij</text><text x=\"157.4\" y=\"139\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" fill=\"#234539\">Répétez, s'il vous plaît.</text></svg>",
+     "onderschrift": "De drie zinnetjes die je in de klas het meest nodig hebt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Ouvrir</strong> is openen en <strong>fermer</strong> is sluiten, dus <em>Ouvrez votre livre</em> betekent open je boek. <strong>Comprendre</strong> is begrijpen: <em>Je ne comprends pas</em> is ik begrijp het niet. En <strong>répéter</strong> is herhalen, handig als iemand te snel spreekt."
+    }
+   ]
+  },
+  {
+   "kop": "De weg vragen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:70%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">à gauche</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">links</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">à droite</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechts</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tout droit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechtdoor</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une rue</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een straat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une place</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een plein</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un pont</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een brug</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la gare</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het station</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un garage</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een garage</td></tr></table>",
+     "onderschrift": "Tournez à gauche betekent sla links af."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>À droite</strong> is naar rechts, <strong>tout droit</strong> is rechtdoor. Die twee lijken op elkaar en worden voortdurend verward. En <strong>la gare</strong> (het station) lijkt op un garage, maar dat is iets anders."
+    }
+   ]
+  },
+  {
+   "kop": "In de winkel",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:80%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Je koopt er</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la boulangerie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">brood, le pain</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la pharmacie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">medicijnen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la librairie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">boeken — je koopt ze</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la bibliothèque</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">boeken — je leent ze</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la piscine</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niets, dat is het zwembad</td></tr></table>",
+     "onderschrift": "Une librairie is een boekhandel, geen bibliotheek."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wil je weten wat iets kost, dan vraag je <strong>C'est combien ?</strong> of <em>Ça coûte combien ?</em>"
+    }
+   ]
+  },
+  {
+   "kop": "Onderweg",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>À vélo</strong> is met de fiets en <strong>à pied</strong> te voet. Zit je ín het voertuig, dan gebruik je <strong>en</strong>: <strong>en bus</strong> (met de bus), <strong>en voiture</strong> (met de auto). Op de fiets zit je erop, vandaar à vélo."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Je vais à l'école à vélo</em> betekent dus ik ga met de fiets naar school."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "un stylo is een balpen, un crayon een potlood.",
+  "Wiskunde heet altijd in het meervoud: les mathématiques.",
+  "à droite is naar rechts, tout droit is rechtdoor.",
+  "la librairie is een boekhandel, la bibliothèque de bibliotheek.",
+  "C'est combien ? vraag je om te weten wat iets kost.",
+  "à vélo en à pied, maar en bus en en voiture."
+ ]
+}

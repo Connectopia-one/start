@@ -1,0 +1,130 @@
+{
+ "vak": "Samenleving en economie",
+ "titel": "Hoe België bestuurd wordt",
+ "onder": "De vier bestuursniveaus met hun organen en hun bevoegdheden, van het gemeentehuis tot de federale regering.",
+ "secties": [
+  {
+   "kop": "Vier niveaus",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 228\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"12\" y=\"10\" width=\"446\" height=\"188\" rx=\"12\" fill=\"none\" stroke=\"#234539\" stroke-width=\"1.8\"/><text x=\"24.0\" y=\"31.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">de federale overheid</text><text x=\"446.0\" y=\"31.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">justitie, defensie, pensioenen</text><rect x=\"40\" y=\"36\" width=\"390\" height=\"136\" rx=\"12\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"52.0\" y=\"57.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2f5d50\">de gemeenschappen en de gewesten</text><text x=\"418.0\" y=\"57.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">onderwijs, milieu, wonen</text><rect x=\"68\" y=\"62\" width=\"334\" height=\"84\" rx=\"12\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"1.8\"/><text x=\"80.0\" y=\"83.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#c17f2b\">de provincie</text><text x=\"390.0\" y=\"83.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">provinciale wegen en domeinen</text><rect x=\"96\" y=\"88\" width=\"278\" height=\"34\" rx=\"12\" fill=\"none\" stroke=\"#5b7f9c\" stroke-width=\"1.8\"/><text x=\"108.0\" y=\"109.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5b7f9c\">de gemeente of stad</text><text x=\"362.0\" y=\"109.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">huisvuil, identiteitskaart</text><text x=\"235.0\" y=\"220.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">Ze liggen in elkaar op de kaart, niet in macht: binnen zijn eigen lijst beslist elk niveau zelf.</text></svg>",
+     "onderschrift": "De vier bestuursniveaus van België, met bij elk een paar van zijn bevoegdheden."
+    },
+    {
+     "soort": "tekst",
+     "html": "België wordt op <strong>vier niveaus</strong> bestuurd: de <strong>gemeente of stad</strong>, de <strong>provincie</strong>, de <strong>gemeenschappen en de gewesten</strong>, en de <strong>federale overheid</strong>. Elk niveau heeft zijn eigen lijst bevoegdheden, en buiten die lijst mag het niets beslissen. Geen enkel niveau mag dus over alles beslissen wat het wil."
+    },
+    {
+     "soort": "kader",
+     "html": "Op <strong>elk</strong> niveau vind je dezelfde twee soorten organen terug: een <strong>verkozen raad die beslist</strong> en een <strong>bestuur dat uitvoert</strong>. Alleen de namen verschillen. Ken je dat patroon, dan ken je meteen de helft van dit hoofdstuk."
+    }
+   ]
+  },
+  {
+   "kop": "De gemeente of stad",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De gemeente is het bestuursniveau dat <strong>het dichtst bij de inwoners</strong> staat."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">orgaan</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de gemeenteraad</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">neemt de beslissingen en keurt de regels van de gemeente goed</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het college van burgemeester en schepenen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">of schepencollege; het dagelijks bestuur, dat uitvoert</td></tr></table>",
+     "onderschrift": "De leden van de gemeenteraad worden verkozen door de inwoners. Uit die raad komt daarna het college."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je stemt dus <strong>niet rechtstreeks op een burgemeester</strong>. Je stemt op kandidaten voor de gemeenteraad, en wie daarna burgemeester wordt, hangt af van de meerderheid die gevormd wordt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Naar het <strong>gemeentehuis</strong> ga je voor een nieuwe identiteitskaart, voor een bouwvergunning, en om je te laten inschrijven als je verhuist. De gemeente regelt verder het ophalen van het <strong>huisvuil</strong>, het onderhoud van de <strong>straten</strong> in de gemeente en de <strong>gemeentelijke basisschool</strong>. Wil je een carport bouwen naast je huis, dan vraag je bij je gemeente een <strong>omgevingsvergunning</strong> aan."
+    }
+   ]
+  },
+  {
+   "kop": "De provincie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "België telt <strong>tien provincies</strong>: vijf in Vlaanderen en vijf in Wallonië. Het <strong>Brussels Hoofdstedelijk Gewest</strong> hoort bij géén enkele provincie."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 178\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"10\" width=\"168\" height=\"158\" rx=\"9\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><path d=\"M10 19 a9 9 0 0 1 9 -9 h150 a9 9 0 0 1 9 9 v17 h-168 Z\" fill=\"#2f5d50\"/><text x=\"94.0\" y=\"31.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#ffffff\">Vlaanderen</text><text x=\"20.0\" y=\"56.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#23291f\">Antwerpen</text><text x=\"168.0\" y=\"56.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">Antwerpen</text><line x1=\"20\" y1=\"63\" x2=\"168\" y2=\"63\" stroke=\"#e4ded0\" stroke-width=\"1\"/><text x=\"20.0\" y=\"78.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#23291f\">Limburg</text><text x=\"168.0\" y=\"78.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">Hasselt</text><line x1=\"20\" y1=\"85\" x2=\"168\" y2=\"85\" stroke=\"#e4ded0\" stroke-width=\"1\"/><text x=\"20.0\" y=\"100.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#23291f\">Oost-Vlaanderen</text><text x=\"168.0\" y=\"100.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">Gent</text><line x1=\"20\" y1=\"107\" x2=\"168\" y2=\"107\" stroke=\"#e4ded0\" stroke-width=\"1\"/><text x=\"20.0\" y=\"122.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#23291f\">Vlaams-Brabant</text><text x=\"168.0\" y=\"122.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">Leuven</text><line x1=\"20\" y1=\"129\" x2=\"168\" y2=\"129\" stroke=\"#e4ded0\" stroke-width=\"1\"/><text x=\"20.0\" y=\"144.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#23291f\">West-Vlaanderen</text><text x=\"168.0\" y=\"144.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">Brugge</text><rect x=\"186\" y=\"10\" width=\"168\" height=\"158\" rx=\"9\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><path d=\"M186 19 a9 9 0 0 1 9 -9 h150 a9 9 0 0 1 9 9 v17 h-168 Z\" fill=\"#c17f2b\"/><text x=\"270.0\" y=\"31.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#ffffff\">Wallonië</text><text x=\"196.0\" y=\"56.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#23291f\">Henegouwen</text><text x=\"344.0\" y=\"56.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">Bergen</text><line x1=\"196\" y1=\"63\" x2=\"344\" y2=\"63\" stroke=\"#e4ded0\" stroke-width=\"1\"/><text x=\"196.0\" y=\"78.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#23291f\">Luik</text><text x=\"344.0\" y=\"78.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">Luik</text><line x1=\"196\" y1=\"85\" x2=\"344\" y2=\"85\" stroke=\"#e4ded0\" stroke-width=\"1\"/><text x=\"196.0\" y=\"100.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#23291f\">Luxemburg</text><text x=\"344.0\" y=\"100.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">Aarlen</text><line x1=\"196\" y1=\"107\" x2=\"344\" y2=\"107\" stroke=\"#e4ded0\" stroke-width=\"1\"/><text x=\"196.0\" y=\"122.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#23291f\">Namen</text><text x=\"344.0\" y=\"122.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">Namen</text><line x1=\"196\" y1=\"129\" x2=\"344\" y2=\"129\" stroke=\"#e4ded0\" stroke-width=\"1\"/><text x=\"196.0\" y=\"144.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#23291f\">Waals-Brabant</text><text x=\"344.0\" y=\"144.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">Waver</text><rect x=\"362\" y=\"10\" width=\"98\" height=\"158\" rx=\"9\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1.4\"/><path d=\"M362 19 a9 9 0 0 1 9 -9 h80 a9 9 0 0 1 9 9 v17 h-98 Z\" fill=\"#6b7260\"/><text x=\"411.0\" y=\"31.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#ffffff\">Brussel</text><text x=\"411.0\" y=\"58.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#23291f\">Hoofdstad van</text><text x=\"411.0\" y=\"74.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#23291f\">België en van</text><text x=\"411.0\" y=\"90.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#23291f\">Europa.</text><text x=\"411.0\" y=\"106.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\"></text><text x=\"411.0\" y=\"122.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">19 gemeenten,</text><text x=\"411.0\" y=\"138.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">geen provincie.</text><text x=\"411.0\" y=\"31.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#ffffff\">Brussel</text></svg>",
+     "onderschrift": "De tien provincies met hun hoofdplaats, en Brussel dat er los van staat."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">orgaan</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de provincieraad</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de verkozen vergadering; neemt op provinciaal niveau de beslissingen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de deputatie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het dagelijks bestuur, met de gouverneur als voorzitter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de gouverneur</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wordt benoemd, niet verkozen</td></tr></table>",
+     "onderschrift": "De provincieraad wordt op dezelfde dag verkozen als de gemeenteraad. Je krijgt die dag dus meer dan één stembiljet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een provincie zorgt onder meer voor <strong>provinciale wegen en fietspaden</strong>, <strong>provinciale domeinen en natuurgebieden</strong> en <strong>provinciale scholen</strong>. Je identiteitskaart krijg je er niet: die komt van de gemeente."
+    },
+    {
+     "soort": "weetje",
+     "html": "Zowel de gemeente als de provincie mag <strong>eigen belastingen</strong> heffen, bovenop de federale. Daarom verschilt de belasting die je betaalt een beetje van gemeente tot gemeente."
+    }
+   ]
+  },
+  {
+   "kop": "De gemeenschappen en de gewesten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "België telt <strong>drie gemeenschappen</strong> (de Vlaamse, de Franse en de Duitstalige) en <strong>drie gewesten</strong> (het Vlaamse, het Waalse en het Brussels Hoofdstedelijk Gewest). Het verschil is de moeite om vast te houden."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarover het gaat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeelden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>gemeenschap</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zaken die met <strong>personen en hun taal</strong> te maken hebben</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onderwijs, cultuur, media, welzijn en gezondheidszorg</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>gewest</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zaken die met het <strong>grondgebied</strong> te maken hebben</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">milieu en natuur, ruimtelijke ordening en wonen, economie, openbaar vervoer binnen het gewest</td></tr></table>",
+     "onderschrift": "Gaat het over grond, dan is het het gewest. Gaat het over mensen en taal, dan is het de gemeenschap."
+    },
+    {
+     "soort": "tekst",
+     "html": "In <strong>Vlaanderen</strong> zijn de gemeenschap en het gewest samengevoegd tot één <strong>Vlaams Parlement</strong> en één <strong>Vlaamse Regering</strong>. Het parlement maakt de <strong>decreten</strong>; de regering met haar ministers voert uit wat het parlement beslist."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>decreet</strong> is de wet van een gemeenschap of een gewest. Binnen zijn eigen bevoegdheden heeft het <strong>evenveel kracht als een federale wet</strong>. Wie beslist over jouw schooldoelen en je diploma? De <strong>Vlaamse Gemeenschap</strong>, want onderwijs is gemeenschapsmaterie. De federale overheid mag daar niets over beslissen."
+    },
+    {
+     "soort": "kader",
+     "html": "Er wordt beslist dat er een nieuw natuurgebied komt langs de Maas. Welk niveau? Het <strong>gewest</strong>, want natuur is grondgebonden. Zo'n vraag los je altijd op met diezelfde toets: gaat het over de grond, of over de mensen?"
+    }
+   ]
+  },
+  {
+   "kop": "De federale overheid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>federale overheid</strong> regelt wat voor het hele land samen geldt: <strong>justitie en de rechtbanken</strong>, <strong>defensie en het leger</strong>, <strong>asiel en migratie</strong>, de <strong>pensioenen</strong>, de sociale zekerheid, de buitenlandse handel en de volksgezondheid."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ook hier zijn er twee organen: het <strong>federale parlement</strong> met de <strong>volksvertegenwoordigers</strong> (de wetgevende macht) en de <strong>federale regering</strong> met haar <strong>ministers</strong> (de uitvoerende macht). Een volksvertegenwoordiger is verkozen om in het parlement mee wetten te stemmen; een minister hoort bij de uitvoerende macht en niet bij de wetgevende."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>koning</strong> is het <strong>staatshoofd</strong>, maar hij bestuurt het land niet zelf. Zijn rol is vooral symbolisch; de echte beslissingen liggen bij het parlement en de regering."
+    },
+    {
+     "soort": "weetje",
+     "html": "Verhuist je gezin naar een andere gemeente, dan schrijf je je in bij je nieuwe <strong>gemeente</strong>, in het <strong>bevolkingsregister</strong>. Die inschrijving past meteen je <strong>identiteitsgegevens</strong> aan, en die worden <strong>federaal</strong> beheerd. Eén verhuis raakt dus twee niveaus tegelijk."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Vier niveaus: gemeente of stad, provincie, gemeenschappen en gewesten, federale overheid.",
+  "Overal hetzelfde patroon: een verkozen raad die beslist en een bestuur dat uitvoert.",
+  "Gemeente: gemeenteraad en het college van burgemeester en schepenen.",
+  "Provincie: provincieraad en deputatie; de gouverneur wordt benoemd. Tien provincies, Brussel hoort bij geen enkele.",
+  "Gemeenschap = personen en taal (onderwijs, cultuur, welzijn). Gewest = grondgebied (milieu, wonen, mobiliteit).",
+  "Het Vlaams Parlement maakt decreten; die zijn even sterk als een federale wet.",
+  "Federaal: justitie, defensie, asiel en migratie, pensioenen. De koning is staatshoofd maar bestuurt niet."
+ ]
+}

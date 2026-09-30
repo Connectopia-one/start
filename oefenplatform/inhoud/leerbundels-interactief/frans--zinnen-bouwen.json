@@ -1,0 +1,105 @@
+{
+ "vak": "Frans",
+ "titel": "Zinnen bouwen",
+ "onder": "Le en la, meervoud, ontkennen, vragen stellen en waar het bijvoeglijk naamwoord staat.",
+ "secties": [
+  {
+   "kop": "Elk woord heeft een geslacht",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In het Frans is elk woord mannelijk of vrouwelijk, ook een tafel of een boek. Dat bepaalt welk lidwoord je gebruikt."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de / het</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">een</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mannelijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le livre</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un livre</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vrouwelijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la fille, la table</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une table</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voor een klinker</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">l'ami, l'école</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un ami, une école</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meervoud</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">les livres, les filles</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">des livres</td></tr></table>",
+     "onderschrift": "Le garçon is de jongen, la fille het meisje."
+    },
+    {
+     "soort": "tekst",
+     "html": "Voor een woord dat met een klinker begint, worden <strong>le</strong> en <strong>la</strong> allebei <strong>l'</strong>: l'ami, l'école. Twee klinkers na elkaar spreken lastig, dus valt er een weg."
+    },
+    {
+     "soort": "tekst",
+     "html": "In het <strong>meervoud</strong> worden le en la allebei <strong>les</strong>, en het woord krijgt een <strong>s</strong>: le livre wordt <strong>les livres</strong>. <strong>Un</strong> en <strong>une</strong> betekenen allebei een: un livre (mannelijk), une table (vrouwelijk)."
+    }
+   ]
+  },
+  {
+   "kop": "Een zin ontkennen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 74\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"4.0\" y=\"4\" width=\"86.0\" height=\"62\" rx=\"9\" fill=\"#6b726022\" stroke=\"#6b7260\" stroke-width=\"1.7\"/><text x=\"47.0\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\"></text><text x=\"47.0\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">Je</text><rect x=\"98.0\" y=\"4\" width=\"86.0\" height=\"62\" rx=\"9\" fill=\"#c17f2b22\" stroke=\"#c17f2b\" stroke-width=\"1.7\"/><text x=\"141.0\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">ontkenning</text><text x=\"141.0\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">ne</text><rect x=\"192.0\" y=\"4\" width=\"86.0\" height=\"62\" rx=\"9\" fill=\"#2f5d5022\" stroke=\"#2f5d50\" stroke-width=\"1.7\"/><text x=\"235.0\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">werkwoord</text><text x=\"235.0\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">parle</text><rect x=\"286.0\" y=\"4\" width=\"86.0\" height=\"62\" rx=\"9\" fill=\"#c17f2b22\" stroke=\"#c17f2b\" stroke-width=\"1.7\"/><text x=\"329.0\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">ontkenning</text><text x=\"329.0\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">pas</text><rect x=\"380.0\" y=\"4\" width=\"86.0\" height=\"62\" rx=\"9\" fill=\"#6b726022\" stroke=\"#6b7260\" stroke-width=\"1.7\"/><text x=\"423.0\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\"></text><text x=\"423.0\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">anglais</text></svg>",
+     "onderschrift": "Het werkwoord komt tussen ne en pas in."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je zet <strong>ne</strong> vóór en <strong>pas</strong> ná het werkwoord. <em>Je ne parle pas anglais</em> betekent ik spreek geen Engels. Twee woordjes dus, met het werkwoord ertussen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Voor een klinker wordt <strong>ne</strong> tot <strong>n'</strong>: <em>je n'aime pas</em>, <em>il n'est pas</em>, <em>elle n'habite pas ici</em>. En na een ontkenning wordt un of une meestal <strong>de</strong>: <em>Je n'ai pas de chien</em> is ik heb geen hond."
+    }
+   ]
+  },
+  {
+   "kop": "Een vraag stellen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De makkelijkste manier is <strong>est-ce que</strong> vooraan de zin te zetten. De rest blijft gewoon staan: <em>Est-ce que tu aimes le chocolat ?</em> De woorden omdraaien mag ook, maar dat is moeilijker."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vraagwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Betekenis</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">où</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Où habites-tu ?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">quand</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wanneer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Quand est-ce que tu viens ?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pourquoi</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waarom</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Pourquoi es-tu triste ?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">comment</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoe</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Comment ça va ?</td></tr></table>",
+     "onderschrift": "Op pourquoi antwoord je meestal met parce que, omdat."
+    },
+    {
+     "soort": "weetje",
+     "html": "In het Frans staat er een <strong>spatie vóór</strong> een vraagteken en een uitroepteken: <em>Comment ça va ?</em> en <em>Bonjour !</em> Die regel kent het Nederlands niet."
+    }
+   ]
+  },
+  {
+   "kop": "Waar staat het bijvoeglijk naamwoord?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In het Nederlands zeg je een <em>zwarte</em> hond, met de kleur ervóór. In het Frans staat het bijvoeglijk naamwoord meestal <strong>achter</strong> het woord: <em>un chien noir</em>, <em>une voiture rouge</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>vrouwelijk</strong> woord krijgt het er meestal een <strong>e</strong> bij: <em>un petit garçon</em>, <em>une petite fille</em>. In het meervoud komt er nog een <strong>s</strong> bij: les petites filles."
+    },
+    {
+     "soort": "kader",
+     "html": "Een rode auto is dus <strong>une voiture rouge</strong>: voiture is vrouwelijk (une), en de kleur komt erachter. <em>Une rouge voiture</em> en <em>un voiture rouge</em> kloppen allebei niet."
+    }
+   ]
+  },
+  {
+   "kop": "Woordjes die zinnen aan elkaar knopen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:60%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">et</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">en</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ou</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">of</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mais</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">parce que</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">omdat</td></tr></table>",
+     "onderschrift": "J'aime le chocolat, mais je préfère les bonbons."
+    },
+    {
+     "soort": "tekst",
+     "html": "De woordvolgorde van het Frans is dus <strong>niet</strong> altijd dezelfde als in het Nederlands: de kleur verhuist naar achter, en in een ontkenning staat het werkwoord tussen ne en pas."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "le bij een mannelijk woord, la bij een vrouwelijk, l' voor een klinker, les in het meervoud.",
+  "un en une betekenen allebei een: un livre, une table.",
+  "Ontkennen doe je met ne … pas, met het werkwoord ertussen.",
+  "Voor een klinker wordt ne tot n'; na een ontkenning wordt un of une meestal de.",
+  "Est-ce que vooraan maakt van elke zin een vraag.",
+  "Het bijvoeglijk naamwoord staat meestal achter het woord: un chien noir.",
+  "In het Frans staat er een spatie vóór een vraagteken en een uitroepteken."
+ ]
+}

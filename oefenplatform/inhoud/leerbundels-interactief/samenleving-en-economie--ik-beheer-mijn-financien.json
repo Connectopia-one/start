@@ -1,0 +1,140 @@
+{
+ "vak": "Samenleving en economie",
+ "titel": "Ik beheer mijn financiën",
+ "onder": "Waarom je koopt wat je koopt, hoe je een budget maakt, wat lenen kost, en hoe je veilig betaalt.",
+ "secties": [
+  {
+   "kop": "Reële en gecreëerde behoeften",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort behoefte</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeelden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>reële behoefte</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets dat je echt nodig hebt om te leven of te functioneren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eten en drinken, een warme jas in de winter, een plek om te wonen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>gecreëerde behoefte</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een behoefte die pas ontstaat door reclame of door je omgeving</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de nieuwste kleur van een sneaker die je al hebt</td></tr></table>",
+     "onderschrift": "Het verschil zit niet in het voorwerp maar in de reden: heb je het nodig, of wil je het sinds je het zag?"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een gecreëerde behoefte is <strong>niet altijd iets slechts</strong> waar je nooit aan mag toegeven. Je mag gerust eens iets kopen dat je niet strikt nodig hebt. Het punt is dat je weet <em>waarom</em> je het koopt en dat het in je budget past."
+    }
+   ]
+  },
+  {
+   "kop": "Wat je koopgedrag beïnvloedt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Er duwen voortdurend dingen aan je beslissing: <strong>reclame en influencers</strong>, <strong>wat je vrienden hebben of vinden</strong>, een <strong>korting of een aanbod dat bijna stopt</strong>, een merk, de verpakking, je gewoonte, of gewoon je humeur van dat moment."
+    },
+    {
+     "soort": "kader",
+     "html": "Staat er in een webshop \"nog 2 op voorraad, aanbod verloopt in 5 minuten\"? Dan word je <strong>onder tijdsdruk gezet om snel te beslissen</strong>. Schaarste en haast zijn verkooptrucs: ze halen het nadenken eruit. Neem juist dan even afstand."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wie <strong>vooraf nadenkt of hij iets echt nodig heeft</strong>, koopt doorgaans doordachter. Dat is geen preek: het is gewoon zo dat een beslissing die je een dag laat liggen er de volgende dag vaak anders uitziet."
+    }
+   ]
+  },
+  {
+   "kop": "Een budgetplan en sparen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>budgetplan</strong> is een overzicht van je inkomsten en je uitgaven. Zet ze naast elkaar en je ziet meteen wat er overblijft."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">rekenen met je budget</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">hoe je het doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoeveel kan ik sparen?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">inkomsten min uitgaven. 40 euro zakgeld min 25 euro uitgaven is <strong>15 euro</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoelang duurt mijn spaardoel?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bedrag gedeeld door wat je per maand spaart. 300 euro fiets gedeeld door 25 euro is <strong>twaalf maanden</strong></td></tr></table>",
+     "onderschrift": "Twee sommen die het hele onderdeel dragen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wie elke maand een klein bedrag opzij zet, heeft een <strong>buffer voor onvoorziene uitgaven</strong>. Precies dat spaarpotje maakt dat je niet moet lenen als de wasmachine stukgaat."
+    }
+   ]
+  },
+  {
+   "kop": "Lenen, rente en schuld",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>lening</strong> is geld dat je van iemand krijgt en later moet terugbetalen. <strong>Rente</strong> is de prijs die je betaalt om dat geld te mogen lenen. Een <strong>schuld</strong> is wat je nog moet terugbetalen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">onderdeel van een lening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het geleende bedrag</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat je ontvangt bij de start</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de looptijd</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoelang je erover doet om alles terug te betalen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de rentevoet</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het percentage per jaar dat het lenen kost</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de totale rente</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle rente samen, bovenop het geleende bedrag</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de totale terugbetaling</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het geleende bedrag plus de totale rente</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het maandelijks afbetalingsbedrag</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat je elke maand overmaakt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de nog openstaande schuld</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het deel van de lening dat je nog moet terugbetalen</td></tr></table>",
+     "onderschrift": "Leen je 1000 euro en betaal je in totaal 1150 euro terug, dan is de totale rente 150 euro."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een lening met een <strong>langere looptijd</strong> kost in totaal meestal meer, ook al is het maandbedrag lager. Je betaalt namelijk langer rente. Een lager maandbedrag is dus niet automatisch goedkoper: kijk naar de <em>totale terugbetaling</em>."
+    },
+    {
+     "soort": "kader",
+     "html": "De <strong>risico's van te veel lenen</strong>: je kan je afbetalingen niet meer volgen, je moet steeds meer rente betalen, en je kan in een <strong>schuldenspiraal</strong> terechtkomen, waarbij je leent om af te betalen. Lenen voor iets dat je eigenlijk niet nodig hebt, is daarom geen verstandige keuze: dan betaal je rente voor een gecreëerde behoefte."
+    },
+    {
+     "soort": "tekst",
+     "html": "Maak je een <strong>aankoopkeuze</strong>, hou dan rekening met drie dingen: je <strong>budget</strong>, je <strong>spaardoel</strong>, en de eventuele <strong>kost van een lening</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Waar je koopt: de verkoopkanalen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">verkoopkanaal</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waar je op let</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>fysieke winkel</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je ziet en voelt het product voor je betaalt; wettelijke garantie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>webshop</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je ziet het product niet; wel veertien dagen bedenktijd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>markt</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vaak cash en zonder bewijs; vraag een ticket</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>evenementen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">idem: haast en cash maken terugkomen moeilijk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>sociale media</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een particuliere verkoper geeft je geen garantie van een winkel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>teleshopping</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er wordt druk gezet om meteen te bestellen</td></tr></table>",
+     "onderschrift": "De zes verkoopkanalen uit de vakfiche."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>online aankoop</strong> heb je in principe <strong>veertien dagen bedenktijd</strong> om ze terug te sturen. Dat heet het herroepingsrecht en het geldt bij verkoop op afstand. Voor sommige zaken, zoals iets dat op maat gemaakt is, geldt het niet."
+    },
+    {
+     "soort": "kader",
+     "html": "Ken je een <strong>webshop</strong> niet? Kijk dan of er een <strong>adres en een telefoonnummer</strong> op de site staan, of de <strong>prijs niet verdacht veel lager</strong> is dan elders, en of het <strong>webadres met https begint en juist gespeld</strong> is. Mooie foto's zeggen niets: die kan iedereen kopiëren."
+    }
+   ]
+  },
+  {
+   "kop": "Waarmee je betaalt: de betaalmiddelen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">betaalmiddel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">veiligheid, risico's en kosten</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>cash geld</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">veilig tegen online fraude, maar kwijt of gestolen is definitief weg</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>contactloos betalen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">snel; een klein bedrag kan doorgaans zonder je pincode, dus blokkeer een verloren kaart meteen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>debetkaart</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het geld gaat meteen van je rekening</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>kredietkaart</strong> zoals Visa of Mastercard</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je betaalt later, dus je geeft makkelijker te veel uit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>overschrijving</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je stuurt het geld zelf weg; het is heel moeilijk terug te halen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>mobiele betaalapp</strong> zoals Bancontact Pay</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beveiligd met een code, je vingerafdruk of je gezicht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>prepaidkaart</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je zet er eerst geld op; je kan nooit meer verliezen dan wat erop staat</td></tr></table>",
+     "onderschrift": "De zeven betaalmiddelen uit de vakfiche."
+    },
+    {
+     "soort": "tekst",
+     "html": "Koop je bij een <strong>onbekende verkoper</strong>, let dan op drie dingen: of je de betaling kan laten <strong>terugdraaien</strong> als er iets misloopt, of er <strong>kosten</strong> aan het betaalmiddel verbonden zijn, en of je <strong>niet meer kan verliezen dan het bedrag van de aankoop</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Fraude en bedrog herkennen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Signalen van bedrog</strong> bij een betaling: je moet betalen <strong>buiten het systeem van de website om</strong>, er wordt <strong>haast</strong> op gezet en je krijgt geen tijd, of er wordt naar je <strong>pincode of je codes</strong> gevraagd. Een factuur met een btw-nummer is juist een teken van een echte verkoper."
+    },
+    {
+     "soort": "tekst",
+     "html": "Krijg je een bericht dat je bankkaart geblokkeerd is en dat je via een link je gegevens moet bevestigen? Dan is dat <strong>phishing</strong>: een vals bericht of een valse mail die je gegevens of je codes wil bemachtigen. <strong>Klik niet op de link</strong> en contacteer zelf je bank, via de app of het nummer dat je al kende. Je <strong>pincode</strong> geef je nooit door aan de telefoon, ook niet aan iemand die zegt dat hij van je bank is."
+    },
+    {
+     "soort": "kader",
+     "html": "Merk je dat er <strong>geld van je rekening verdwenen</strong> is? Laat eerst je kaart <strong>blokkeren</strong> en verwittig je bank, zodat het niet erger wordt. Doe daarna <strong>aangifte bij de politie</strong>. Dat is niet zinloos: zonder aangifte kan je bank je meestal niet vergoeden en kan de fraude niet opgespoord worden."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Reële behoefte: je hebt het nodig. Gecreëerde behoefte: reclame of je omgeving maakte ze.",
+  "Tijdsdruk en schaarste in een webshop zijn verkooptrucs.",
+  "Budgetplan = inkomsten naast uitgaven; wat overblijft, kan je sparen.",
+  "Zeven onderdelen van een lening; een langere looptijd kost in totaal meestal meer.",
+  "Zes verkoopkanalen; online heb je veertien dagen bedenktijd, in de winkel niet.",
+  "Zeven betaalmiddelen; een overschrijving naar een onbekende is het moeilijkst terug te halen.",
+  "Bij fraude: eerst blokkeren en je bank verwittigen, daarna aangifte doen."
+ ]
+}

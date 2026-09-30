@@ -1,0 +1,86 @@
+{
+ "vak": "Frans",
+ "titel": "Een tekstje lezen",
+ "onder": "Een echt Frans verhaaltje lezen, ook als je niet elk woord kent.",
+ "secties": [
+  {
+   "kop": "Je hoeft niet elk woord te kennen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een tekst lezen in een taal die je aan het leren bent, gaat niet woord voor woord. Lees eerst de hele tekst door en kijk wat je <strong>wél</strong> herkent: namen, getallen, dagen, woorden die op het Nederlands of het Engels lijken. Daarna pas de moeilijke stukken."
+    },
+    {
+     "soort": "kader",
+     "html": "De meeste vragen bij een tekst zijn te beantwoorden met de woorden die je al kent. Zoek in de tekst de <strong>zin</strong> waar de vraag over gaat, en lees die zin dan traag."
+    }
+   ]
+  },
+  {
+   "kop": "De woorden van dit verhaaltje",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:70%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le marché</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de markt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la marchande</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de marktvrouw</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le grand-père</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de grootvader</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">l'église</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kerk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">à côté de</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">naast</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la place</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het plein</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le panier</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de mand</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lourd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zwaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la soupe</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de soep</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">préféré</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">favoriet</td></tr></table>",
+     "onderschrift": "Deze woorden komen allemaal in het verhaaltje voor."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:70%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une pomme</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een appel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">les pommes de terre</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de aardappelen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">les carottes</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de wortelen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">les fleurs</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de bloemen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le pain</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het brood</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la boulangerie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de bakkerij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il pleut</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het regent</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">à midi</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">'s middags</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tout de suite</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meteen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alors</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dus</td></tr></table>",
+     "onderschrift": "Une pomme is een appel; les pommes de terre zijn aardappelen."
+    },
+    {
+     "soort": "weetje",
+     "html": "<strong>Il pleut</strong> komt van pleuvoir, regenen. Over het weer zegt het Frans bijna altijd <em>il</em>: il pleut, il fait froid, il fait beau."
+    }
+   ]
+  },
+  {
+   "kop": "Werkwoorden die je in een verhaaltje tegenkomt",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">acheter → il achète</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kopen → hij koopt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dire → il dit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zeggen → hij zegt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rire → il rit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lachen → hij lacht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">manger → elle mange</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eten → zij eet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rentrer → ils rentrent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">naar huis gaan → zij gaan naar huis</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">porter → elle porte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dragen → zij draagt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">faire → elle fait</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maken → zij maakt</td></tr></table>",
+     "onderschrift": "Allemaal in de tegenwoordige tijd, zoals je in hoofdstuk 4 geleerd hebt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Staat een verhaaltje helemaal in de <strong>tegenwoordige tijd</strong>, dan lees je het alsof het nu gebeurt. Dat maakt het makkelijker: je hoeft geen andere tijden te herkennen."
+    }
+   ]
+  },
+  {
+   "kop": "Let op de kleine woordjes",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Le samedi</strong> betekent op zaterdag, en dus niet op woensdag, vrijdag of zondag. <strong>Ne … pas</strong> keert de zin om: <em>Camille ne va pas à l'école</em> betekent dat ze juist <em>niet</em> naar school gaat. Lees die twee woordjes dus altijd mee."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Le mien aussi</strong> betekent de mijne ook: iemand die dat zegt, is het met je eens. Zegt iemand dat, dan vindt hij er dus niet anders over."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Mon jour préféré</strong> is mijn lievelingsdag: <em>le jour</em> is de dag en <em>préféré</em> favoriet. Zo'n uitdrukking van twee bekende woorden komt in bijna elk tekstje voor."
+    },
+    {
+     "soort": "tekst",
+     "html": "En de beleefde woorden uit hoofdstuk 1 komen terug in het verhaal: wie een winkel of een kraam binnenstapt, begroet met <strong>bonjour</strong>, bedankt met <strong>merci</strong> en vraagt iets met <strong>s'il vous plaît</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een vraag naar de <strong>titel</strong> van een tekst kies je wat over de hele tekst gaat, niet wat maar in één zin voorkomt."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Lees eerst de hele tekst door en kijk wat je wél herkent.",
+  "Zoek de zin waar de vraag over gaat, en lees die dan traag.",
+  "le samedi betekent op zaterdag, en dus niet op een andere dag.",
+  "ne … pas keert de zin om: lees die twee woordjes altijd mee.",
+  "il pleut is het regent; over het weer zegt het Frans il.",
+  "Een titel gaat over de hele tekst, niet over één zin."
+ ]
+}

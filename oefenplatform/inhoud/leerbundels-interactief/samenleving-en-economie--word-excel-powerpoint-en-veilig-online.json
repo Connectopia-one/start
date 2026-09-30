@@ -1,0 +1,125 @@
+{
+ "vak": "Samenleving en economie",
+ "titel": "Word, Excel, PowerPoint en veilig online",
+ "onder": "De drie kantoorprogramma's van het examen, en de regels in de digitale wereld.",
+ "secties": [
+  {
+   "kop": "Word: structuur en opmaak",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>structuurelementen van een tekst</strong> zijn: een <strong>teken</strong>, een <strong>woord</strong>, een <strong>regel</strong>, een <strong>zin</strong>, een <strong>alinea</strong> en een <strong>pagina</strong>. Een <strong>alinea</strong> is een stuk tekst dat eindigt waar je op Enter duwt: alles daartussen krijgt dezelfde alineaopmaak."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort opmaak</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat erbij hoort</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>tekenopmaak</strong> (werkt op letters)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lettertype, tekengrootte, vet, cursief, onderstrepen, tekstkleur, markeren, superscript en subscript, doorhalen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>alineaopmaak</strong> (werkt op een hele alinea)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">regelafstand, uitlijning, inspringen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>paginaopmaak</strong> (werkt op de pagina van je document)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">marges, afdrukstand (staand of liggend)</td></tr></table>",
+     "onderschrift": "De marges en de afdrukstand horen dus bij de paginaopmaak, niet bij de alineaopmaak."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Subscript</strong> zet een teken kleiner en lager (H<sub>2</sub>O), <strong>superscript</strong> kleiner en hoger (m<sup>2</sup>). Een alinea die <strong>uitgevuld</strong> is, sluit links én rechts recht aan op de marge; bij links uitlijnen blijft de rechterkant rafelig."
+    },
+    {
+     "soort": "tekst",
+     "html": "Verder kan je in Word een <strong>opsomming</strong> invoegen of wijzigen, een <strong>koptekst en voettekst</strong> zetten, en een <strong>tabel</strong> ontwerpen met randen en arcering. Een <strong>voettekst</strong> is tekst die onderaan elke pagina herhaald wordt, bijvoorbeeld het paginanummer; een koptekst staat bovenaan."
+    },
+    {
+     "soort": "weetje",
+     "html": "Bij het <strong>afdrukken</strong> kies je zelf de instellingen: de sortering, enkelzijdig of dubbelzijdig, en in kleur of niet. Ben je klaar, sla je document dan op als <strong>pdf</strong>: dan blijft de opmaak bij iedereen hetzelfde en kan niemand er zomaar iets in veranderen."
+    }
+   ]
+  },
+  {
+   "kop": "Excel: het rekenblad",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">structuurelement</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>cel</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één vakje in het rekenblad</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>celadres</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kolomletter met het rijnummer, zoals B4</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>bereik</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een groep cellen die bij elkaar horen, zoals A1 tot A10</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>rij</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een horizontale lijn cellen, met een nummer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>kolom</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een verticale lijn cellen, met een letter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>werkblad</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één tabblad onderaan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>werkmap</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het bestand zelf, met al zijn werkbladen erin</td></tr></table>",
+     "onderschrift": "Een werkmap is dus het bestand; een werkblad is één tabblad daarin."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je kan die elementen <strong>opmaken</strong>: lettertype, randen en opvulling, de celinhoud uitlijnen, de rijhoogte en de kolombreedte aanpassen, cellen samenvoegen en centreren, en de tekststand draaien. Je kiest ook de juiste <strong>getalnotatie</strong>: <strong>valuta</strong>, <strong>percentage</strong>, een aantal <strong>decimalen</strong>, of <strong>datum en tijd</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">formule</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>=SOM(A1:A10)</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">telt alle getallen van A1 tot en met A10 op</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>=A1+B1</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">optellen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>=A1-B1</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aftrekken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>=A1*B1</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vermenigvuldigen, met het sterretje</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>=A1/B1</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">delen, met het schuine streepje</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>=(A1+B1)*2</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met haakjes bepaal je wat eerst gerekend wordt</td></tr></table>",
+     "onderschrift": "Een formule in Excel begint altijd met een gelijkheidsteken. Zonder dat teken ziet Excel je formule als gewone tekst."
+    }
+   ]
+  },
+  {
+   "kop": "PowerPoint: een presentatie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een presentatie hou je rekening met het <strong>KISS-principe</strong>: <em>keep it short and simple</em>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">KISS</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de regel</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">per dia</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maximaal <strong>zeven regels</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">per regel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maximaal <strong>zeven woorden</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het lettertype</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">duidelijk leesbaar, meestal <strong>14 punt</strong></td></tr></table>",
+     "onderschrift": "Op de dia staan steekwoorden; de uitleg komt van jou."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je <strong>volledige tekst op de dia zetten</strong> is dus geen goed idee, ook al vergeet je dan niets: je publiek begint te lezen in plaats van te luisteren."
+    },
+    {
+     "soort": "tekst",
+     "html": "De basisbewerkingen die je moet kennen: een <strong>nieuwe dia invoegen</strong>, dia's <strong>verwijderen of dupliceren</strong>, <strong>diaovergangen en animaties</strong> toevoegen, <strong>tekstvakken en vormen</strong> invoegen, en de <strong>diavoorstelling starten</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Ongepast gedrag op het internet",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarover het gaat</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>haatberichten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">berichten die aanzetten tot haat tegen een persoon of een groep</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>doxing</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iemands privégegevens online zetten zonder toestemming</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>shaming</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iemand publiek vernederen of belachelijk maken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>exposing</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets privé van iemand openbaar maken om die persoon te schaden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>sexting</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">intieme foto's of berichten sturen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>fake news</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nieuws dat vals is maar als echt verspreid wordt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>canceling</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iemand collectief uitsluiten of boycotten na een uitspraak of daad</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>grooming</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een volwassene die online het vertrouwen van een kind zoekt om misbruik te maken</td></tr></table>",
+     "onderschrift": "De acht vormen uit de vakfiche."
+    },
+    {
+     "soort": "kader",
+     "html": "Vraagt iemand die je online leerde kennen om een <strong>intieme foto</strong> en zegt hij dat het tussen jullie blijft? <strong>Niet sturen, het gesprek stoppen, en het aan een vertrouwenspersoon zeggen.</strong> Zo'n belofte kan niemand houden. En een intieme foto van iemand anders <strong>doorsturen is strafbaar</strong>, ook als je die zelf gekregen hebt: verwijder ze en zeg het aan een volwassene die je vertrouwt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Word je online lastiggevallen, maak dan een <strong>schermafdruk</strong> en <strong>meld</strong> het. De schermafdruk is je bewijs, ook als het bericht later verdwijnt. Meld het bij het platform zelf én vertel het aan iemand die je vertrouwt."
+    }
+   ]
+  },
+  {
+   "kop": "Internetfraude en je gegevens beschermen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vorm van internetfraude</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">hoe ze binnenkomt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>phishing</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">via een e-mail</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>smishing</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">via een sms</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>quishing</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">via een QR-code die naar een valse website leidt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vishing</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">via een telefoongesprek; <em>voice</em></td></tr></table>",
+     "onderschrift": "Alle vier probeert een bedrieger je er hetzelfde mee te vangen: je gegevens of je codes."
+    },
+    {
+     "soort": "tekst",
+     "html": "Krijg je een mail met een link en de melding dat je pakje vastzit tot je een klein bedrag betaalt? <strong>Negeer de mail en kijk zelf je zending na bij de vervoerder.</strong> Ga altijd zelf naar de app of de site die je al kende; klik nooit op de link in zo'n bericht. Bij een telefoontje leg je op en bel je zelf terug naar een nummer dat je al had."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je <strong>persoonlijke gegevens bescherm je</strong> met een <strong>sterk wachtwoord</strong>, met <strong>authenticatie of verificatie</strong>, en met <strong>tweestapsverificatie</strong>. Bij tweestapsverificatie geef je naast je wachtwoord nog een tweede bewijs, zoals een code op je gsm. Zelfs wie je wachtwoord kent, geraakt er dan niet in."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de regels van een sterk wachtwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">minstens <strong>8</strong> karakters lang</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maximaal <strong>24</strong> karakters lang</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">minstens één <strong>hoofdletter</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">minstens één <strong>kleine letter</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">minstens één <strong>cijfer</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">minstens één <strong>teken</strong>, zoals ! # $ % &amp; * + - ? @</td></tr></table>",
+     "onderschrift": "Een wachtwoord als wachtwoord123 voldoet niet: er zit geen hoofdletter en geen teken in, en het staat in elke lijst van meest gebruikte wachtwoorden."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Tekenopmaak werkt op letters, alineaopmaak op een alinea, paginaopmaak op de pagina.",
+  "Subscript is lager (H2O), superscript is hoger (m2). Uitgevuld sluit links en rechts recht aan.",
+  "Excel: cel, celadres, bereik, rij, kolom, werkblad, werkmap. Een werkmap is het bestand.",
+  "Elke formule begint met een gelijkheidsteken; =SOM(A1:A10) telt een bereik op.",
+  "KISS: zeven regels per dia, zeven woorden per regel, meestal 14 punt.",
+  "Acht vormen van ongepast gedrag, van haatberichten tot grooming.",
+  "Phishing via mail, smishing via sms, quishing via QR-code, vishing via telefoon.",
+  "Sterk wachtwoord: 8 tot 24 karakters, met hoofdletter, kleine letter, cijfer en teken."
+ ]
+}

@@ -1,0 +1,136 @@
+{
+ "vak": "Samenleving en economie",
+ "titel": "Ik leef samen met anderen",
+ "onder": "Diversiteit, pesten en plagen, groepsdruk en grenzen, en wat een samenwerking doet lukken.",
+ "secties": [
+  {
+   "kop": "Diversiteit",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Diversiteit</strong> betekent dat mensen in een samenleving van elkaar verschillen. Dat is geen uitzondering maar de regel: er bestaat geen klas, geen straat en geen land waarin iedereen hetzelfde is."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vorm van diversiteit</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarover ze gaat</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>sociale diversiteit</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verschillen in opleiding, werk, inkomen, gezinssituatie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>culturele diversiteit</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verschillen in taal, gewoontes, feesten, eten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>religieuze of levensbeschouwelijke diversiteit</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verschillen in geloof of overtuiging</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>seksuele diversiteit</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verschillen in wie je aantrekkelijk vindt en hoe je jezelf beleeft</td></tr></table>",
+     "onderschrift": "De vier vormen die de vakfiche noemt. Ze staan naast elkaar, niet boven elkaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "Samenleven in diversiteit is soms <strong>moeilijk</strong>, omdat verschillen kunnen leiden tot misverstanden en vooroordelen. Het is tegelijk <strong>waardevol</strong>: je leert manieren van doen kennen die je zelf niet had bedacht. Allebei is waar, en het een heft het ander niet op."
+    }
+   ]
+  },
+  {
+   "kop": "Plagen, pesten en een meningsverschil",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Deze drie worden vaak door elkaar gehaald, en toch zijn ze niet hetzelfde."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 116\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"6\" y=\"46\" width=\"168\" height=\"54\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"90.0\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">plagen</text><rect x=\"296\" y=\"46\" width=\"168\" height=\"54\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"380.0\" y=\"70.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">het gaat over</text><text x=\"380.0\" y=\"85.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#234539\">en weer</text><path d=\"M188 65.0 H282 l-7 -5 m7 5 l-7 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M282 81.0 H188 l7 -5 m-7 5 l7 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/></svg>",
+     "onderschrift": "Plagen gaat over en weer. Vandaag jij, morgen ik, en allebei vinden jullie het nog leuk."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 116\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"6\" y=\"46\" width=\"168\" height=\"54\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"90.0\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">pesten</text><rect x=\"296\" y=\"46\" width=\"168\" height=\"54\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"380.0\" y=\"70.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">één kant raakt</text><text x=\"380.0\" y=\"85.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#234539\">de andere</text><path d=\"M188 65.0 H282 l-7 -5 m7 5 l-7 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M282 81.0 H188 l7 -5 m-7 5 l7 5\" stroke=\"#c9c2b4\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\" stroke-dasharray=\"4 4\"/><line x1=\"228.0\" y1=\"74.0\" x2=\"242.0\" y2=\"88.0\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"242.0\" y1=\"74.0\" x2=\"228.0\" y2=\"88.0\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/></svg>",
+     "onderschrift": "Pesten gaat maar één kant op, het herhaalt zich, en er is een machtsverschil: één tegen een groep, of sterk tegen minder sterk."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>meningsverschil</strong> is iets anders dan allebei: twee mensen denken anders over iets en zeggen dat tegen elkaar. Daar is niets mis mee. Het wordt pas pesten als het niet meer over de zaak gaat maar over de persoon, en als het blijft terugkomen."
+    },
+    {
+     "soort": "kader",
+     "html": "\"Op een speelplaats hoort dat erbij, daar moet je niets van zeggen.\" Dat klopt niet: <strong>dat iets vaak gebeurt, maakt het nog niet aanvaardbaar</strong>. Hoe gewoon iets geworden is, zegt niets over of het mag."
+    }
+   ]
+  },
+  {
+   "kop": "Meedoen, toekijken of ingrijpen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij pesten zijn er zelden maar twee mensen betrokken. Er is de gepeste, er is wie pest, en er zijn <strong>omstaanders</strong>: wie het ziet gebeuren en niets doet. Wie meelacht of meedoet, zorgt ervoor dat het pesten doorgaat, ook zonder zelf iets te zeggen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Gepaste reacties</strong> zijn er wel, en ze zijn kleiner dan je denkt. Duidelijk zeggen dat je het niet oké vindt. Er een volwassene bij halen die kan helpen. Achteraf naar de gepeste toe gaan en vragen hoe het gaat. Aan de gepeste laten weten dat je achter hem staat. Een hand op een schouder van wie het moeilijk heeft is ook al contact zoeken."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">woord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>groepsdruk</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de druk om iets te doen omdat de groep het doet of verwacht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>machtsmisbruik</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je positie gebruiken om iemand iets op te leggen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>uitsluiten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iemand bewust niet uitnodigen om die persoon buiten de groep te houden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>racisme</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mensen minder behandelen om hun afkomst of huidskleur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>discriminatie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mensen anders en slechter behandelen om wie ze zijn</td></tr></table>",
+     "onderschrift": "Iemand die een stage niet krijgt omdat zijn naam buitenlands klinkt, is gediscrimineerd."
+    }
+   ]
+  },
+  {
+   "kop": "Emoties en grenzen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Er zijn vier <strong>basisemoties</strong>: <strong>blijdschap</strong>, <strong>verdriet</strong>, <strong>angst</strong> en <strong>woede</strong>. Alle andere gevoelens zijn mengsels of nuances daarvan. Je herkent ze bij anderen aan hun gezicht, hun houding en hun stem."
+    },
+    {
+     "soort": "tekst",
+     "html": "Naast een lichamelijke grens heb je ook een <strong>mentale grens</strong>: de grens van wat je van binnen nog aankan. Die ligt bij iedereen ergens anders. Wat voor de ene een grap is, is voor de andere te veel, en dan is het te veel. <strong>Zelfrespect</strong> betekent dat je ook je eigen grenzen bewaakt, en niet alleen die van anderen respecteert."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">respectvol omgaan met elkaars lichaam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat dat vraagt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>toestemming</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">allebei akkoord en allebei goed erbij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vrijwillig</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niemand zet de ander onder druk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>gelijkwaardigheid</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er is geen machtsverschil tussen de twee</td></tr></table>",
+     "onderschrift": "Alle drie tegelijk, of het telt niet."
+    },
+    {
+     "soort": "kader",
+     "html": "Toestemming die onder druk gegeven wordt, telt <strong>niet</strong> als een echte toestemming. Een ja die je alleen zegt omdat je niet durft te weigeren, is geen ja. Twijfel je, dan is het antwoord nee, en dat is genoeg."
+    }
+   ]
+  },
+  {
+   "kop": "Goed samenwerken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vakfiche noemt een paar <strong>kenmerken van een goede samenwerking</strong>. Ze klinken vanzelfsprekend, tot je ze ziet ontbreken."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">kenmerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">hoe je het ziet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>luisteren naar elkaar</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iedereen krijgt zijn zin af</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>om de beurt spreken</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niemand praat door de ander heen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>gepaste lichaamstaal</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je draait je naar wie spreekt, je kijkt niet weg</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>afspraken nakomen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat je beloofde, breng je mee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>hulp vragen wanneer iets niet duidelijk is</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">liever een vraag te veel dan werk voor niets</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>rekening houden met de inbreng van anderen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een idee van iemand anders wordt ook echt gebruikt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>duidelijk en rustig communiceren</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je zegt wat je bedoelt, zonder te roepen</td></tr></table>",
+     "onderschrift": "Deze zeven zijn ook wat je op een prent kan herkennen aan een groepje dat goed samenwerkt."
+    }
+   ]
+  },
+  {
+   "kop": "Kijken naar een prent",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij het eerste deel van dit hoofdstuk hoort een <strong>prent van een speelplaats</strong>. Er wordt gevraagd wat je ziet, en dat is iets anders dan wat je vermoedt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Kijk <strong>verder dan het midden</strong>. In het midden gebeurt meestal het meest opvallende, maar wie erbuiten valt zie je pas als je ook naar de randen kijkt: de bank opzij, iemand die alleen voorbijloopt, iemand die van een afstand toekijkt."
+    },
+    {
+     "soort": "kader",
+     "html": "Zeg alleen wat je <strong>zeker</strong> weet. Zie je iemand alleen op een bank zitten met een bedrukt gezicht, dan weet je dat die persoon op dit moment alleen zit. Niet dat ze geen vrienden heeft, niet dat ze gepest wordt, niet dat ze verdrietig is om iets bepaalds. Wil je dat weten, dan is de beste eerste vraag heel gewoon: is er iets, wil je erover praten?"
+    },
+    {
+     "soort": "tekst",
+     "html": "Tel wat er te tellen valt en benoem wat er te benoemen valt: hoeveel mensen, welke activiteiten, wie kijkt naar wie. Een prent waarop iedereen met dezelfde activiteit bezig is, bestaat zelden; op een speelplaats lopen meestal verschillende spelen door elkaar."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Vier vormen van diversiteit: sociale, culturele, religieuze of levensbeschouwelijke, en seksuele.",
+  "Plagen gaat over en weer; pesten gaat één kant op, herhaalt zich en heeft een machtsverschil.",
+  "Een omstaander die meelacht, zorgt mee dat het pesten doorgaat.",
+  "Vier basisemoties: blijdschap, verdriet, angst, woede.",
+  "Toestemming telt alleen als ze vrijwillig en gelijkwaardig is; onder druk telt ze niet.",
+  "Zelfrespect is ook je eigen grenzen bewaken.",
+  "Bij een prent: zeg alleen wat je zeker ziet, en kijk ook naar de randen."
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "vak": "Samenleving en economie",
+ "titel": "De economische kringloop",
+ "onder": "Hoe gezinnen, bedrijven en de overheid met elkaar verbonden zijn, en wat er binnen een bedrijf en een gezin gebeurt.",
+ "secties": [
+  {
+   "kop": "Drie spelers, twee soorten stromen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 258\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"14\" y=\"24\" width=\"140\" height=\"100\" rx=\"11\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"84.0\" y=\"50.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">de gezinnen</text><rect x=\"316\" y=\"24\" width=\"140\" height=\"100\" rx=\"11\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"386.0\" y=\"50.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">de bedrijven</text><text x=\"235.0\" y=\"35.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">arbeid</text><path d=\"M166 40 H304 l-7 -4 m7 4 l-7 4\" stroke=\"#2f5d50\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><text x=\"235.0\" y=\"57.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">loon</text><path d=\"M304 62 H166 l7 -4 m-7 4 l7 4\" stroke=\"#c17f2b\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><text x=\"235.0\" y=\"79.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">goederen en diensten</text><path d=\"M304 84 H166 l7 -4 m-7 4 l7 4\" stroke=\"#c17f2b\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><text x=\"235.0\" y=\"101.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">je betaling</text><path d=\"M166 106 H304 l-7 -4 m7 4 l-7 4\" stroke=\"#2f5d50\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"60\" y=\"186\" width=\"350\" height=\"56\" rx=\"11\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"210.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">de overheid</text><text x=\"235.0\" y=\"228.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">int belastingen en geeft voorzieningen terug</text><path d=\"M72 128 V182 l-4 -7 m4 7 l4 -7\" stroke=\"#2f5d50\" stroke-width=\"1.6\" fill=\"none\" stroke-linecap=\"round\"/><text x=\"82.0\" y=\"142.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">belastingen</text><path d=\"M150 182 V128 l-4 7 m4 -7 l4 7\" stroke=\"#234539\" stroke-width=\"1.6\" fill=\"none\" stroke-linecap=\"round\"/><text x=\"160.0\" y=\"174.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">uitkeringen</text><path d=\"M398 128 V182 l-4 -7 m4 7 l4 -7\" stroke=\"#2f5d50\" stroke-width=\"1.6\" fill=\"none\" stroke-linecap=\"round\"/><text x=\"388.0\" y=\"142.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">belastingen</text><path d=\"M320 182 V128 l-4 7 m4 -7 l4 7\" stroke=\"#234539\" stroke-width=\"1.6\" fill=\"none\" stroke-linecap=\"round\"/><text x=\"310.0\" y=\"174.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">wegen en scholen</text></svg>",
+     "onderschrift": "De eenvoudige economische kringloop. Volg één pijl tegelijk en vraag je telkens af: bij wie begint hij, en bij wie eindigt hij?"
+    },
+    {
+     "soort": "tekst",
+     "html": "De eenvoudige economische kringloop bestaat uit drie spelers: de <strong>gezinnen</strong>, de <strong>bedrijven</strong> en de <strong>overheid</strong>. Tussen hen bewegen goederen, diensten en geld: drie soorten stromen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">stroom</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat er beweegt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>goederenstroom</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het verplaatsen van een product van de ene speler naar de andere</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>dienstenstroom</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een prestatie die geleverd wordt, zoals knippen of vervoeren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>geldstroom</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geld dat van de ene speler naar de andere gaat</td></tr></table>",
+     "onderschrift": "Bij elke goederenstroom loopt er in de omgekeerde richting meestal een geldstroom."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op het examen moet je van een gegeven stroom kunnen aanwijzen <strong>bij welke speler die begint en bij welke speler die eindigt</strong>. Koop je brood bij de bakker, dan begint de geldstroom bij het <strong>gezin</strong> en eindigt ze bij het <strong>bedrijf</strong>. Krijgt je vader zijn loon van zijn werkgever, dan begint die geldstroom bij het <strong>bedrijf</strong> en eindigt ze bij het <strong>gezin</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Tussen een gezin en een bedrijf lopen er drie stromen tegelijk: <strong>arbeid</strong> van het gezin naar het bedrijf, <strong>loon</strong> van het bedrijf naar het gezin, en <strong>goederen en diensten</strong> van het bedrijf naar het gezin (met jouw betaling terug). Zonder de gezinnen zouden de bedrijven dus geen arbeidskrachten én geen klanten hebben."
+    },
+    {
+     "soort": "kader",
+     "html": "De <strong>overheid</strong> hoort er wel degelijk bij, ook al verkoopt ze niets. Ze int belastingen bij de gezinnen (belasting op het inkomen) én bij de bedrijven (belasting op de winst), en ze geeft dat terug in uitkeringen, wegen en scholen. Ze koopt ook zelf goederen en diensten en betaalt lonen aan haar personeel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>consument</strong> is wie goederen en diensten koopt om zelf te gebruiken. Dat zijn de gezinnen. De bedrijven zijn de <strong>producenten</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Wat er in een bedrijf gebeurt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Elk bedrijf heeft dezelfde <strong>kernactiviteiten</strong>, of het nu twintig werknemers heeft of twee. In een groot bedrijf is elke kernactiviteit een eigen <strong>afdeling</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">kernactiviteit</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat er gebeurt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de aankoop</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zorgt ervoor dat de grondstoffen en het materiaal binnenkomen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de algemene directie of zaakvoerder</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">neemt de grote beslissingen en stuurt het geheel aan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de boekhouding</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">houdt bij wat er binnenkomt en buitengaat aan geld</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het magazijn</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bewaart de producten en grondstoffen tot ze nodig zijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de marketing</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zorgt dat klanten het product leren kennen en willen kopen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het onthaal</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ontvangt de bezoekers en de telefoon</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de productie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maakt het product</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de verkoop</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">brengt het product bij de klant</td></tr></table>",
+     "onderschrift": "Het opslaan van de voorraad is dus het magazijn, niet de directie."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>klein bedrijf</strong> mag één persoon gerust meerdere kernactiviteiten tegelijk doen. In een eenmanszaak doet de zaakvoerder vaak de aankoop, de verkoop en de boekhouding zelf. De taken bestaan allemaal, alleen zijn de mensen dezelfde."
+    }
+   ]
+  },
+  {
+   "kop": "De vier sectoren",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"49.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">primaire sector</text><path d=\"M103.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"124.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"173.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">secundaire sector</text><path d=\"M227.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"248.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"297.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">tertiaire sector</text><path d=\"M351.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"372.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"421.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">quartaire sector</text></svg>",
+     "onderschrift": "Van grondstof naar product naar dienst. De quartaire sector staat er los van: dat zijn de diensten zonder winstoogmerk."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">sector</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat er gebeurt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeelden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>primaire</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">grondstoffen worden uit de natuur gehaald</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">landbouw, visserij, bosbouw, mijnbouw</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>secundaire</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">grondstoffen worden verwerkt tot producten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een fabriek die meubels maakt uit hout, de bouw</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>tertiaire</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">diensten waarvoor betaald wordt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kapsalon, een supermarkt, een transportbedrijf, een bank</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>quartaire</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">diensten zonder winstoogmerk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een ziekenhuis, een school, het openbaar bestuur</td></tr></table>",
+     "onderschrift": "Een landbouwer die melk levert aan een zuivelfabriek zit in de primaire sector; de zuivelfabriek die er yoghurt van maakt, in de secundaire."
+    }
+   ]
+  },
+  {
+   "kop": "Soorten goederen en soorten bedrijven",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>consumentengoed</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een goed dat een gezin koopt om zelf te gebruiken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een paar schoenen, een brood, een gsm</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>consumentendienst</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een dienst die je koopt voor jezelf</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een knipbeurt, een treinrit, een verzekering</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>investeringsgoed</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een goed dat een bedrijf gebruikt om iets mee te maken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een oven in een bakkerij, een vrachtwagen</td></tr></table>",
+     "onderschrift": "Hetzelfde voorwerp kan allebei zijn: een auto van een gezin is een consumentengoed, een auto van een koeriersdienst een investeringsgoed."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort bedrijf</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>productiebedrijf</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maakt zelf producten uit grondstoffen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>handelsbedrijf</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">koopt producten in en verkoopt ze zonder ze te bewerken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>dienstenbedrijf</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">levert diensten in plaats van producten</td></tr></table>",
+     "onderschrift": "Een supermarkt is een handelsbedrijf: ze maakt de yoghurt niet zelf."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>profitbedrijf</strong> heeft winst maken als doel; een <strong>non-profitorganisatie</strong> niet. Een vzw of een ziekenfonds mag wel geld overhouden, maar dat gaat terug naar de werking. Het verschil zit in het <strong>doel</strong>, niet in wie er werkt: ook een non-profitorganisatie neemt personeel in dienst, en ook een profitbedrijf mag dat natuurlijk."
+    }
+   ]
+  },
+  {
+   "kop": "De inkomsten en uitgaven van een gezin",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort inkomsten</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>terugkerende</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">komen regelmatig binnen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een loon, een pensioen, een uitkering, het groeipakket</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>toevallige</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">komen onverwacht en niet elke maand</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een erfenis, de opbrengst van iets dat je tweedehands verkoopt, een prijs die je wint</td></tr></table>",
+     "onderschrift": "Op terugkerende inkomsten kan een gezin rekenen, op toevallige niet."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort uitgaven</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vaste</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kosten telkens hetzelfde bedrag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de huur, een abonnement, een verzekering</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>variabele</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het bedrag verschilt elke keer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de boodschappen van de week, de brandstof voor de auto</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>onvoorziene</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je zag ze niet aankomen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de wasmachine die stukgaat en vervangen moet worden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>uitzonderlijke</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">groot en zeldzaam, maar je ziet ze aankomen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een nieuwe keuken, een auto</td></tr></table>",
+     "onderschrift": "Let op het verschil tussen de laatste twee: een nieuwe keuken is uitzonderlijk, niet onvoorzien."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Drie spelers: de gezinnen, de bedrijven en de overheid.",
+  "Bij elke goederenstroom loopt er meestal een geldstroom in de omgekeerde richting.",
+  "Gezinnen leveren arbeid en krijgen loon; bedrijven leveren goederen en diensten en krijgen je betaling.",
+  "Acht kernactiviteiten, van de aankoop tot de verkoop; het magazijn bewaart, de boekhouding telt.",
+  "Vier sectoren: primair (grondstoffen), secundair (verwerken), tertiair (diensten met winst), quartair (diensten zonder winstoogmerk).",
+  "Consumentengoed voor het gezin, investeringsgoed voor het bedrijf.",
+  "Inkomsten: terugkerend of toevallig. Uitgaven: vast, variabel, onvoorzien of uitzonderlijk."
+ ]
+}

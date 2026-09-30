@@ -1,0 +1,91 @@
+{
+ "vak": "Frans",
+ "titel": "De tegenwoordige tijd",
+ "onder": "De werkwoorden op -er, en de twee onregelmatige die je overal tegenkomt: aller en faire.",
+ "secties": [
+  {
+   "kop": "De werkwoorden op -er",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De meeste Franse werkwoorden eindigen in het woordenboek op <strong>-er</strong>. Die vorm heet de <strong>infinitief</strong>: parler (spreken), jouer (spelen), regarder (kijken), manger (eten), chanter (zingen), écouter (luisteren). Herken je die -er, dan weet je meteen hoe je het werkwoord vervoegt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je haalt de <strong>-er</strong> eraf en plakt er de uitgang van de persoon aan:"
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Persoon</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitgang</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">parler</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">jouer</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-e</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je parle</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je joue</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tu</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-es</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tu parles</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tu joues</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il / elle</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-e</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il parle</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elle joue</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nous</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-ons</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nous parlons</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nous jouons</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vous</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-ez</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vous parlez</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vous jouez</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ils / elles</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-ent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ils parlent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elles jouent</td></tr></table>",
+     "onderschrift": "Bij nous is het altijd -ons, bij vous altijd -ez."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>De uitgang -ent hoor je niet.</strong> <em>Ils parlent</em> klinkt precies hetzelfde als <em>il parle</em>. Je ziet het verschil alleen op papier, dus lees goed wie er vooraan staat."
+    },
+    {
+     "soort": "tekst",
+     "html": "De s van <strong>tu</strong> is de tweede valstrik: <em>tu parles</em>, <em>tu joues</em>, met s. Bij <strong>je</strong> is het zonder: <em>je parle</em>. <em>Je parles français</em> is dus fout. En bij één persoon hoort -e: <em>Elle mange une pomme</em>, niet elle mangent of elle manges."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Tu joues au football</em> betekent jij speelt voetbal, <em>Vous regardez la télé</em> jullie kijken tv, <em>Elle écoute de la musique</em> zij luistert naar muziek, <em>Nous chantons bien</em> wij zingen goed en <em>Ils jouent dehors</em> zij spelen buiten."
+    }
+   ]
+  },
+  {
+   "kop": "Aller: gaan",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:70%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je vais</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik ga</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tu vas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jij gaat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il va / elle va</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hij gaat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nous allons</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wij gaan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vous allez</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jullie gaan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ils vont / elles vont</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zij gaan</td></tr></table>",
+     "onderschrift": "Aller is onregelmatig, maar bij nous is het toch gewoon allons."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Je vais au cinéma</em> is ik ga naar de bioscoop, <em>Nous allons à l'école</em> wij gaan naar school en <em>Ils vont à la maison</em> zij gaan naar huis."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zet je <strong>aller</strong> voor een werkwoord uit het woordenboek, dan krijg je de <strong>nabije toekomst</strong>: <em>Je vais manger</em> betekent ik ga eten. Dus niet ik eet, en ook niet ik heb gegeten."
+    }
+   ]
+  },
+  {
+   "kop": "Faire: doen of maken",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:70%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je fais</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik doe</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tu fais</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jij doet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il fait / elle fait</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hij doet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nous faisons</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wij doen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vous faites</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jullie doen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ils font / elles font</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zij doen</td></tr></table>",
+     "onderschrift": "Vous faites en ils font zijn de twee die je moet onthouden."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Qu'est-ce que tu fais ?</strong> betekent wat doe je. <em>Nous faisons nos devoirs</em> is wij maken ons huiswerk: <strong>faire les devoirs</strong> is huiswerk maken."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Ils font</strong> hoort bij faire (zij doen), <strong>ils vont</strong> bij aller (zij gaan). Die twee lijken op elkaar, dus lees goed."
+    }
+   ]
+  },
+  {
+   "kop": "Het weer gaat met faire",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Over het weer zegt het Frans <strong>il fait</strong>: <em>il fait froid</em> (het is koud), <em>il fait chaud</em> (het is warm), <em>il fait beau</em> (het is mooi weer). Letterlijk staat er dat het koud <em>maakt</em>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Haal de -er weg en plak de uitgang eraan: -e, -es, -e, -ons, -ez, -ent.",
+  "De uitgang -ent hoor je niet: ils parlent klinkt als il parle.",
+  "tu krijgt een s (tu parles), je niet (je parle).",
+  "aller: je vais, tu vas, il va, nous allons, vous allez, ils vont.",
+  "aller plus een werkwoord is de nabije toekomst: je vais manger is ik ga eten.",
+  "faire: vous faites en ils font zijn de twee die je moet onthouden.",
+  "Over het weer zegt het Frans il fait: il fait froid, il fait beau."
+ ]
+}

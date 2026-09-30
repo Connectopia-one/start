@@ -1,0 +1,112 @@
+{
+ "vak": "Frans",
+ "titel": "Mezelf voorstellen",
+ "onder": "Je naam, je leeftijd, waar je woont en wie er bij je thuis wonen.",
+ "secties": [
+  {
+   "kop": "Hoe heet je?",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 206\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"6.0\" y=\"6\" width=\"319.6\" height=\"42\" rx=\"12\" fill=\"#2f5d5018\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"19.0\" y=\"23\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#2f5d50\" font-weight=\"600\">vraag</text><text x=\"19.0\" y=\"39\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" fill=\"#234539\">Comment tu t'appelles ?</text><rect x=\"144.4\" y=\"56\" width=\"319.6\" height=\"42\" rx=\"12\" fill=\"#c17f2b18\" stroke=\"#c17f2b\" stroke-width=\"1.5\"/><text x=\"157.4\" y=\"73\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#c17f2b\" font-weight=\"600\">antwoord</text><text x=\"157.4\" y=\"89\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" fill=\"#234539\">Je m'appelle Lucas.</text><rect x=\"6.0\" y=\"106\" width=\"319.6\" height=\"42\" rx=\"12\" fill=\"#2f5d5018\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"19.0\" y=\"123\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#2f5d50\" font-weight=\"600\">vraag</text><text x=\"19.0\" y=\"139\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" fill=\"#234539\">Quel âge as-tu ?</text><rect x=\"144.4\" y=\"156\" width=\"319.6\" height=\"42\" rx=\"12\" fill=\"#c17f2b18\" stroke=\"#c17f2b\" stroke-width=\"1.5\"/><text x=\"157.4\" y=\"173\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#c17f2b\" font-weight=\"600\">antwoord</text><text x=\"157.4\" y=\"189\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" fill=\"#234539\">J'ai douze ans.</text></svg>",
+     "onderschrift": "De twee vragen die altijd komen, met hun antwoord."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Comment tu t'appelles ?</strong> betekent hoe heet je. Je antwoordt met <strong>Je m'appelle …</strong> Het woordje <em>me</em> wordt <strong>m'</strong> voor een klinker, met een apostrof erachter: je m'appelle, niet je me appelle."
+    }
+   ]
+  },
+  {
+   "kop": "Hoe oud ben je?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Quel âge as-tu ?</strong> is hoe oud ben je. En hier zit de valstrik waar bijna iedereen op struikelt: in het Nederlands <em>ben</em> je elf jaar, in het Frans <strong>heb</strong> je jaren."
+    },
+    {
+     "soort": "kader",
+     "html": "Je zegt <strong>J'ai onze ans</strong>: ik heb elf jaar. Dus met <strong>avoir</strong> (hebben), niet met être (zijn). <em>Je suis onze ans</em> is fout, en het woordje <strong>ans</strong> mag je niet weglaten: J'ai onze klopt ook niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>nationaliteit</strong> gebruik je wél être: <strong>Je suis belge</strong> (ik ben Belg), <strong>Je suis française</strong> (ik ben Frans, over een meisje). Suis is de vorm van être die bij je hoort."
+    }
+   ]
+  },
+  {
+   "kop": "Waar woon je?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Habiter</strong> is wonen. Bij je wordt dat <strong>j'habite</strong>: je + habite worden aan elkaar geplakt, want habite begint met een h die je niet hoort. <em>J'habite à Hasselt</em> betekent ik woon in Hasselt, <em>J'habite à Gand</em> ik woon in Gent."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Venir de</strong> is komen uit: <em>Je viens de Belgique</em> betekent ik kom uit België. Dat is iets anders dan er wonen of ernaartoe gaan."
+    }
+   ]
+  },
+  {
+   "kop": "Je gezin",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:70%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le père</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vader</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la mère</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de moeder</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">les parents</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de ouders</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le frère</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de broer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la sœur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de zus</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">les grands-parents</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de grootouders</td></tr></table>",
+     "onderschrift": "Frère schrijf je met een accent grave op de eerste e; sœur met de letter œ."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Mon</strong> zet je voor een mannelijk woord en <strong>ma</strong> voor een vrouwelijk woord: <em>mon frère</em>, <em>ma sœur</em>, <em>ma mère</em>. Bij meer dan één wordt het <strong>mes</strong>: mes frères, mes sœurs, <strong>mes parents</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Tu as des frères et sœurs ?</strong> betekent heb jij broers en zussen. <em>Tu as …?</em> is heb jij …?"
+    },
+    {
+     "soort": "weetje",
+     "html": "Typ je een antwoord in zonder de accenten, dan telt het hier toch juist. Het platform zet de juiste schrijfwijze er wel bij, zodat je ze leert."
+    }
+   ]
+  },
+  {
+   "kop": "Hoe gaat het?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Ça va ?</strong> is hoe gaat het. Je antwoordt met <strong>ça va bien, merci</strong> of met ça va mal als het niet goed gaat."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Enchanté</strong> zeg je als je iemand voor het eerst ontmoet: het betekent aangenaam. Een meisje schrijft <strong>enchantée</strong>, met een e erbij."
+    }
+   ]
+  },
+  {
+   "kop": "Tu of vous?",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 113\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"117.5\" y=\"16\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">je familie</text><text x=\"117.5\" y=\"31\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">je vrienden</text><text x=\"117.5\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">kinderen</text><path d=\"M117.5 61 v12 m0 0 l-4 -5 m4 5 l4 -5\" stroke=\"#2f5d50\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"79.5\" y=\"77\" width=\"76\" height=\"30\" rx=\"8\" fill=\"#2f5d50\" /><text x=\"117.5\" y=\"97\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#ffffff\">tu</text><text x=\"352.5\" y=\"16\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">je leerkracht</text><text x=\"352.5\" y=\"31\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">een onbekende</text><text x=\"352.5\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">een volwassene</text><path d=\"M352.5 61 v12 m0 0 l-4 -5 m4 5 l4 -5\" stroke=\"#c17f2b\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"314.5\" y=\"77\" width=\"76\" height=\"30\" rx=\"8\" fill=\"#c17f2b\" /><text x=\"352.5\" y=\"97\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#ffffff\">vous</text></svg>",
+     "onderschrift": "Tu is vertrouwd, vous is beleefd. Niet omgekeerd."
+    },
+    {
+     "soort": "tekst",
+     "html": "Tegen je <strong>leerkracht</strong> en tegen een volwassene die je niet goed kent, zeg je dus <strong>vous</strong>. Tegen je beste vriend zeg je <strong>tu</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "Stel je je voor aan de mama van een vriend, dan zeg je <strong>Bonjour madame, je m'appelle …</strong> Salut en tu zijn daar te familiair voor."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Je m'appelle … voor je naam, J'ai … ans voor je leeftijd.",
+  "In het Frans heb je jaren: J'ai onze ans, nooit je suis onze ans.",
+  "Bij een nationaliteit gebruik je wél être: je suis belge.",
+  "J'habite à … is ik woon in …, je viens de … is ik kom uit …",
+  "mon bij een mannelijk woord, ma bij een vrouwelijk, mes bij meer dan één.",
+  "tu tegen familie en vrienden, vous tegen je leerkracht en onbekenden."
+ ]
+}

@@ -1,0 +1,118 @@
+{
+ "vak": "Samenleving en economie",
+ "titel": "Digitaal communiceren en bestanden beheren",
+ "onder": "De vormen van digitaal communiceren, de onderdelen van een e-mail, en hoe je mappen en bestanden ordent.",
+ "secties": [
+  {
+   "kop": "Vormen van digitaal communiceren",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>e-mail</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bericht dat blijft staan, met bijlagen; geschikt voor iets formeel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>sociale media</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">berichten en beelden delen met een groep of met iedereen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>fora</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een plek online waar mensen per onderwerp vragen en antwoorden posten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>blogwebsites</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een site waarop iemand regelmatig eigen stukken publiceert</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>online meeting</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gesprek met beeld en geluid tussen meerdere mensen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>chatten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">korte berichten, met een snel antwoord verwacht</td></tr></table>",
+     "onderschrift": "De zes vormen uit de vakfiche. Op een forum zijn alle deelnemers gelijk; op een blog schrijft er één en lezen de anderen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wanneer kies je een <strong>e-mail</strong> boven een chatbericht? Als je iets <strong>formeel</strong> wil vragen en het <strong>bijgehouden</strong> moet worden. Een mail blijft staan, kan bijlagen meenemen en mag wat langer op een antwoord wachten. Chatten is voor het snelle en het losse."
+    }
+   ]
+  },
+  {
+   "kop": "De onderdelen van een e-mail",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">onderdeel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je erin zet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>aan</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie de mail moet krijgen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>CC</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie zichtbaar in kopie staat; iedereen ziet elkaars adres</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>BCC</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie onzichtbaar in kopie staat; de ontvangers zien elkaars adres niet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de onderwerpregel</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kort waar de mail over gaat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de aanhef</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Geachte mevrouw, Beste meneer, Hallo …</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de inhoud</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je boodschap zelf</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de slotgroet</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Met vriendelijke groeten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de ondertekening</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je naam eronder</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de bijlage</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bestand dat je met je e-mail meestuurt</td></tr></table>",
+     "onderschrift": "Stuur je een mail naar twintig mensen die elkaar niet kennen, gebruik dan BCC."
+    },
+    {
+     "soort": "tekst",
+     "html": "Schrijf je aan iemand die je <strong>niet kent</strong>, begin dan met een nette aanhef zoals <em>Geachte mevrouw</em>. Naar een vriend mag <em>Hallo</em>, maar niet naar een school of een bedrijf. Sluit af met een <strong>slotgroet en je naam eronder</strong>, zodat de ontvanger zeker weet van wie de mail komt. En vergeet de bijlage niet echt toe te voegen als je ze vermeldt."
+    }
+   ]
+  },
+  {
+   "kop": "Netjes en respectvol digitaal communiceren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Dezelfde regels gelden bij chatten, berichten sturen, sociale media, e-mail en videogesprekken."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">regel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarom</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je bericht nalezen voor je het verstuurt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een typfout of een verkeerd woord haal je er niet meer uit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet reageren in het heetst van je kwaadheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bericht uit kwaadheid blijft staan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen kwetsende taal of scheldwoorden gebruiken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">online komt alles harder aan dan bedoeld</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet alles in hoofdletters typen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dat wordt online als roepen gelezen</td></tr></table>",
+     "onderschrift": "Ben je kwaad over een bericht van een klasgenoot? Wacht even en antwoord er pas later kalm op."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>online meeting</strong> test je vooraf je camera en je microfoon, kies je een rustige plek en een neutrale achtergrond, en log je enkele minuten vroeger in. Je <strong>microfoon zet je uit als je niet spreekt</strong>, zodat niemand jouw achtergrondgeluid hoort."
+    },
+    {
+     "soort": "kader",
+     "html": "Een bericht dat je in een <strong>groepschat</strong> zet, blijft daar niet vanzelf: iedereen in de groep kan het doorsturen of er een schermafdruk van maken. En een <strong>foto van een klasgenoot</strong> zet je niet online zonder het te vragen. Dat is niet alleen hoffelijk, het is ook de wet."
+    }
+   ]
+  },
+  {
+   "kop": "De Verkenner: mappen en bestanden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>Verkenner</strong> is het programma van Windows waarmee je mappen en bestanden bekijkt en beheert."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">begrip</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>de verkenner</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het programma waarin je je mappen en bestanden beheert</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het navigatievenster</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">links: de boomstructuur van je schijven en mappen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het detailvenster</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">extra informatie over het bestand dat je geselecteerd hebt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>het bestand</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een verzameling gegevens met een naam en een extensie</td></tr></table>",
+     "onderschrift": "Aan de extensie zie je met welk soort bestand je te maken hebt: .docx is Word, .xlsx is Excel, .pdf is een pdf, .jpg een foto."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je kan mappen en bestanden <strong>maken, selecteren, verplaatsen, kopiëren, herbenoemen en verwijderen</strong>. Bij <strong>kopiëren</strong> blijft het origineel staan, bij <strong>verplaatsen</strong> niet. <strong>Herbenoemen</strong> verandert alleen de naam, niet de inhoud. En een bestand dat je <strong>verwijdert</strong>, is niet meteen voorgoed weg: het gaat eerst naar de prullenbak."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wil je meerdere bestanden in één keer naar een andere map verplaatsen, dan <strong>selecteer je ze eerst allemaal samen</strong>: met de Ctrl-toets kies je losse bestanden, met de Shift-toets een hele reeks. Daarna versleep je ze in één beweging. Twee bestanden in <strong>dezelfde map</strong> mogen trouwens niet exact dezelfde naam hebben; in twee verschillende mappen mag dat wel."
+    }
+   ]
+  },
+  {
+   "kop": "Ordenen: structuur, namen en back-ups",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>logische mappenstructuur</strong> zet je mappen in duidelijke lagen, van algemeen naar specifiek: School, dan het vak, dan het schooljaar. Zo weet je altijd waar iets hoort, ook als je het een jaar later terugzoekt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een goede <strong>bestandsnaam</strong> zegt waar het bestand over gaat, is kort en zonder rare tekens, en gebruikt de <strong>datum in dezelfde vorm</strong> als de andere bestanden. Schrijf je de datum als <strong>2027-03-08</strong>, dus jaar-maand-dag, dan sorteren je bestanden vanzelf netjes op chronologische volgorde. Met 8-3-2027 loopt die volgorde door elkaar."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 116\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"6\" y=\"46\" width=\"168\" height=\"54\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"90.0\" y=\"77.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">uploaden</text><rect x=\"296\" y=\"46\" width=\"168\" height=\"54\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"380.0\" y=\"70.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">van jouw toestel</text><text x=\"380.0\" y=\"85.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#234539\">naar het internet</text><path d=\"M188 65.0 H282 l-7 -5 m7 5 l-7 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><path d=\"M282 81.0 H188 l7 -5 m-7 5 l7 5\" stroke=\"#c9c2b4\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\" stroke-dasharray=\"4 4\"/><line x1=\"228.0\" y1=\"74.0\" x2=\"242.0\" y2=\"88.0\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/><line x1=\"242.0\" y1=\"74.0\" x2=\"228.0\" y2=\"88.0\" stroke=\"#c17f2b\" stroke-width=\"2.4\" stroke-linecap=\"round\"/></svg>",
+     "onderschrift": "Uploaden gaat omhoog, van jou naar een server. Downloaden is precies het omgekeerde: van het internet naar je eigen toestel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Haal je een werkblad van de website van je school naar je laptop, dan ben je aan het <strong>downloaden</strong>. Zet je een taak op het leerplatform, dan ben je aan het <strong>uploaden</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>back-up</strong> of <strong>reservekopie</strong> is een kopie op een <strong>andere plaats</strong>, voor als het origineel verloren gaat. Een reservekopie op dezelfde computer als het origineel beschermt je dus <strong>niet</strong>: gaat die computer stuk of wordt hij gestolen, dan ben je allebei kwijt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Cloudopslag</strong> zoals OneDrive of Google Drive bewaart je bestanden op een server die je via het internet bereikt. De voordelen: je geraakt aan je bestanden van op elk toestel, ze blijven bestaan als je laptop stukgaat, en je kan een map delen met iemand anders. Het nadeel: zonder internetverbinding geraak je er niet aan."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Zes vormen: e-mail, sociale media, fora, blogwebsites, online meeting, chatten.",
+  "E-mail: aan, CC, BCC, onderwerpregel, aanhef, inhoud, slotgroet, ondertekening, bijlage.",
+  "CC is zichtbaar, BCC niet. Naar een grote groep onbekenden gebruik je BCC.",
+  "Nalezen, afkoelen, geen scheldwoorden, geen hoofdletters: dat is netjes communiceren.",
+  "Verkenner: links het navigatievenster, en het detailvenster met de gegevens van je bestand.",
+  "Kopiëren laat het origineel staan, verplaatsen niet; herbenoemen verandert alleen de naam.",
+  "Uploaden gaat naar het internet, downloaden komt ervandaan. Een back-up staat elders."
+ ]
+}

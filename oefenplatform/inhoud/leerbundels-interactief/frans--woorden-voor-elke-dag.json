@@ -1,0 +1,121 @@
+{
+ "vak": "Frans",
+ "titel": "Woorden voor elke dag",
+ "onder": "De woorden die je het vaakst nodig hebt: getallen, kleuren, dagen, maanden en groeten.",
+ "secties": [
+  {
+   "kop": "Waarom Frans?",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<strong>Frans hoort niet bij de minimumdoelen van het lager onderwijs.</strong> Wij bieden het toch aan, omdat kinderen in België vroeg met Frans in aanraking komen en een goede basis geen kwaad kan. Oefen dus gerust mee, maar weet dat je hier op school nog niet op beoordeeld wordt."
+    }
+   ]
+  },
+  {
+   "kop": "Tellen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">1 tot 10</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">11 tot 20</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Tientallen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un, deux, trois</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onze, douze, treize</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dix, vingt, trente</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">quatre, cinq, six</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">quatorze, quinze, seize</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">quarante, cinquante</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sept, huit, neuf, dix</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dix-sept, dix-huit, dix-neuf, vingt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">soixante, cent</td></tr></table>",
+     "onderschrift": "Acht is huit: de h schrijf je wel, maar je hoort ze niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Tot en met <strong>seize</strong> (16) heeft elk getal een eigen woord. Vanaf <strong>dix-sept</strong> plak je ze aan elkaar: dix-sept is tien-zeven, dix-huit is tien-acht."
+    },
+    {
+     "soort": "tekst",
+     "html": "Na <strong>vingt</strong> (20) tel je verder met vingt et un, vingt-deux, vingt-trois. Let op de valstrikken: <strong>quinze</strong> is vijftien, <strong>cinq</strong> is vijf en <strong>cinquante</strong> is vijftig. <strong>Douze</strong> is twaalf, <strong>deux</strong> is twee."
+    }
+   ]
+  },
+  {
+   "kop": "Kleuren",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 108\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"6.0\" y=\"4\" width=\"30\" height=\"30\" rx=\"7\" fill=\"#c0392b\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"44.0\" y=\"17\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">rouge</text><text x=\"44.0\" y=\"31\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">rood</text><rect x=\"123.5\" y=\"4\" width=\"30\" height=\"30\" rx=\"7\" fill=\"#2f6fb0\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"161.5\" y=\"17\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">bleu</text><text x=\"161.5\" y=\"31\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">blauw</text><rect x=\"241.0\" y=\"4\" width=\"30\" height=\"30\" rx=\"7\" fill=\"#e8b820\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"279.0\" y=\"17\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">jaune</text><text x=\"279.0\" y=\"31\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">geel</text><rect x=\"358.5\" y=\"4\" width=\"30\" height=\"30\" rx=\"7\" fill=\"#2f7d4f\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"396.5\" y=\"17\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">vert</text><text x=\"396.5\" y=\"31\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">groen</text><rect x=\"6.0\" y=\"64\" width=\"30\" height=\"30\" rx=\"7\" fill=\"#23291f\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"44.0\" y=\"77\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">noir</text><text x=\"44.0\" y=\"91\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">zwart</text><rect x=\"123.5\" y=\"64\" width=\"30\" height=\"30\" rx=\"7\" fill=\"#f4f1e6\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"161.5\" y=\"77\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">blanc</text><text x=\"161.5\" y=\"91\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">wit</text><rect x=\"241.0\" y=\"64\" width=\"30\" height=\"30\" rx=\"7\" fill=\"#8d8d8d\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"279.0\" y=\"77\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">gris</text><text x=\"279.0\" y=\"91\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">grijs</text><rect x=\"358.5\" y=\"64\" width=\"30\" height=\"30\" rx=\"7\" fill=\"#e08aa8\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"396.5\" y=\"77\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">rose</text><text x=\"396.5\" y=\"91\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">roze</text></svg>",
+     "onderschrift": "Bruin is brun of marron; allebei mag."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een vrouwelijk woord krijgt een kleur er meestal een <strong>e</strong> bij: un chien <strong>noir</strong>, une voiture <strong>noire</strong>. Je hoort het verschil bij noir niet, bij vert wel: vert klinkt als 'ver', verte als 'vert'."
+    }
+   ]
+  },
+  {
+   "kop": "De dagen van de week",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:70%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lundi</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maandag</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mardi</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dinsdag</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mercredi</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">woensdag</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jeudi</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">donderdag</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vendredi</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vrijdag</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">samedi</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zaterdag</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dimanche</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zondag</td></tr></table>",
+     "onderschrift": "Bijna elke dag eindigt op -di. Alleen dimanche begint ermee."
+    },
+    {
+     "soort": "tekst",
+     "html": "De volgorde ken je best uit je hoofd, want daar wordt naar gevraagd: na <strong>jeudi</strong> komt <strong>vendredi</strong>, na vendredi komt samedi."
+    }
+   ]
+  },
+  {
+   "kop": "De maanden en de seizoenen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "janvier, février, mars, avril, mai, juin, juillet, août, septembre, octobre, novembre, décembre."
+    },
+    {
+     "soort": "weetje",
+     "html": "In het Frans schrijf je een maand met een <strong>kleine letter</strong>, net als in het Nederlands. In het Engels krijgt hij wél een hoofdletter: March, April, May. Dat verschil is een makkelijk punt om te verdienen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Juin</strong> is juni en <strong>juillet</strong> is juli. Die twee lijken op elkaar, dus lees goed."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Seizoen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Maanden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de winter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">l'hiver</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">décembre, janvier, février</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de lente</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le printemps</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mars, avril, mai</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de zomer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">l'été</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">juin, juillet, août</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de herfst</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">l'automne</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">septembre, octobre, novembre</td></tr></table>",
+     "onderschrift": "Janvier valt midden in de winter, l'hiver."
+    }
+   ]
+  },
+  {
+   "kop": "Vandaag, gisteren, morgen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>aujourd'hui</strong> is vandaag, <strong>hier</strong> is gisteren en <strong>demain</strong> is morgen. Aujourd'hui schrijf je met een apostrof in het midden."
+    }
+   ]
+  },
+  {
+   "kop": "Groeten en beleefd zijn",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 206\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"6.0\" y=\"6\" width=\"319.6\" height=\"42\" rx=\"12\" fill=\"#2f5d5018\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"19.0\" y=\"23\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#2f5d50\" font-weight=\"600\">overdag</text><text x=\"19.0\" y=\"39\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" fill=\"#234539\">Bonjour !</text><rect x=\"144.4\" y=\"56\" width=\"319.6\" height=\"42\" rx=\"12\" fill=\"#c17f2b18\" stroke=\"#c17f2b\" stroke-width=\"1.5\"/><text x=\"157.4\" y=\"73\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#c17f2b\" font-weight=\"600\">'s avonds</text><text x=\"157.4\" y=\"89\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" fill=\"#234539\">Bonsoir !</text><rect x=\"6.0\" y=\"106\" width=\"319.6\" height=\"42\" rx=\"12\" fill=\"#2f5d5018\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"19.0\" y=\"123\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#2f5d50\" font-weight=\"600\">voor het slapen</text><text x=\"19.0\" y=\"139\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" fill=\"#234539\">Bonne nuit !</text><rect x=\"144.4\" y=\"156\" width=\"319.6\" height=\"42\" rx=\"12\" fill=\"#c17f2b18\" stroke=\"#c17f2b\" stroke-width=\"1.5\"/><text x=\"157.4\" y=\"173\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#c17f2b\" font-weight=\"600\">bij het weggaan</text><text x=\"157.4\" y=\"189\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" fill=\"#234539\">Au revoir !</text></svg>",
+     "onderschrift": "Bonjour zeg je overdag, bonsoir als het avond wordt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Salut</strong> kan zowel hallo als dag betekenen: je gebruikt het bij het komen én bij het gaan, maar alleen tegen mensen die je goed kent. <strong>Au revoir</strong> is tot ziens, dus alleen bij het weggaan."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:80%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Je zegt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Betekenis</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">merci</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dank je wel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">merci beaucoup</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hartelijk dank</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de rien</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">graag gedaan (antwoord op merci)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je vous en prie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">graag gedaan, wat beleefder</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">s'il vous plaît</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alstublieft</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">s'il te plaît</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alsjeblieft, tegen een vriend</td></tr></table>",
+     "onderschrift": "Zegt iemand merci, dan antwoord je met de rien."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Tot en met seize heeft elk getal een eigen woord; vanaf dix-sept plak je ze aan elkaar.",
+  "quinze is 15, cinq is 5, cinquante is 50. Douze is 12, deux is 2.",
+  "Bijna elke dag eindigt op -di; alleen dimanche begint ermee.",
+  "Een maand schrijf je met een kleine letter, net als in het Nederlands.",
+  "juin is juni, juillet is juli.",
+  "Bonjour overdag, bonsoir 's avonds, au revoir bij het weggaan.",
+  "Zegt iemand merci, dan antwoord je met de rien."
+ ]
+}

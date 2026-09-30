@@ -1,0 +1,142 @@
+{
+ "vak": "Frans",
+ "titel": "Wat zie je aan zee?",
+ "onder": "Nog een beeld beschrijven, met de woorden van het strand, de boten en het kamperen.",
+ "secties": [
+  {
+   "kop": "Waarvoor dient dit?",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "Op het examen van de Examencommissie krijg je bij een taal een <strong>foto of prent</strong>, en moet je in die taal vertellen wat je ziet. Hier oefen je de woorden en de zinnetjes die je daarvoor nodig hebt. Wie die kent, kan straks ook zelf een beschrijving schrijven."
+    }
+   ]
+  },
+  {
+   "kop": "Er is en er zijn",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Elke beschrijving begint met <strong>il y a</strong>: er is, of er zijn. Het verandert nooit van vorm, hoeveel dingen er ook staan."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 156\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"6.0\" y=\"6\" width=\"319.6\" height=\"42\" rx=\"12\" fill=\"#2f5d5018\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"19.0\" y=\"23\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#2f5d50\" font-weight=\"600\">één ding</text><text x=\"19.0\" y=\"39\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" fill=\"#234539\">Sur l'image, il y a un garçon.</text><rect x=\"144.4\" y=\"56\" width=\"319.6\" height=\"42\" rx=\"12\" fill=\"#c17f2b18\" stroke=\"#c17f2b\" stroke-width=\"1.5\"/><text x=\"157.4\" y=\"73\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#c17f2b\" font-weight=\"600\">meer dingen</text><text x=\"157.4\" y=\"89\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" fill=\"#234539\">Il y a trois oiseaux.</text><rect x=\"6.0\" y=\"106\" width=\"319.6\" height=\"42\" rx=\"12\" fill=\"#2f5d5018\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"19.0\" y=\"123\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#2f5d50\" font-weight=\"600\">iets dat er niet is</text><text x=\"19.0\" y=\"139\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" fill=\"#234539\">Il n'y a pas de chien.</text></svg>",
+     "onderschrift": "Il y a wordt il n'y a pas de als iets er juist niet is."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Sur l'image</strong> betekent op de prent. Begin je zin daarmee, dan weet de lezer meteen waar je het over hebt. <em>Sur l'image, je suis …</em> of <em>Sur l'image, j'ai …</em> klopt niet: dat gaat over jou, niet over de prent."
+    }
+   ]
+  },
+  {
+   "kop": "Waar staat het?",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 214\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"34\" y=\"14\" width=\"402\" height=\"148\" rx=\"10\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"2\"/><rect x=\"34\" y=\"14\" width=\"402\" height=\"52\" fill=\"#2f5d5012\"/><line x1=\"34\" y1=\"66\" x2=\"436\" y2=\"66\" stroke=\"#2f5d50\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><text x=\"235.0\" y=\"44.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#2f5d50\">à l&#39;arrière-plan — op de achtergrond</text><text x=\"101.0\" y=\"110.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">à gauche</text><line x1=\"168.0\" y1=\"66\" x2=\"168.0\" y2=\"162\" stroke=\"#e4ded0\" stroke-width=\"1.3\" stroke-dasharray=\"4 4\"/><text x=\"235.0\" y=\"110.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">au milieu</text><line x1=\"302.0\" y1=\"66\" x2=\"302.0\" y2=\"162\" stroke=\"#e4ded0\" stroke-width=\"1.3\" stroke-dasharray=\"4 4\"/><text x=\"369.0\" y=\"110.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">à droite</text><rect x=\"34\" y=\"128\" width=\"402\" height=\"34\" fill=\"#c17f2b14\"/><line x1=\"34\" y1=\"128\" x2=\"436\" y2=\"128\" stroke=\"#c17f2b\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><text x=\"235.0\" y=\"149.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">au premier plan — op de voorgrond</text><text x=\"235.0\" y=\"202.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">Sur la photo, il y a… — begin met wat je ziet, en zeg er meteen bij wáár.</text></svg>",
+     "onderschrift": "Met deze woorden deel je elke prent in."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>À gauche</strong> is links, <strong>à droite</strong> is rechts en <strong>au milieu</strong> in het midden. En van boven naar onder: <strong>en haut</strong> is bovenaan, <strong>en bas</strong> is onderaan. Samen kan je zo elk plekje aanwijzen: <em>en haut à droite</em> is rechtsboven, <em>en bas à droite</em> rechtsonder en <em>en bas à gauche</em> linksonder."
+    }
+   ]
+  },
+  {
+   "kop": "Waar speelt het zich af?",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:70%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">à la mer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aan zee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">à la montagne</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in de bergen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dans la ville</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in de stad</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dans la forêt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in het bos</td></tr></table>",
+     "onderschrift": "Zie je water, boten en zand, dan is het à la mer."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>La mer</strong> is de zee en <strong>la plage</strong> is het strand. <strong>Le sable</strong> is zand, dus een <strong>château de sable</strong> is een zandkasteel: château betekent kasteel."
+    }
+   ]
+  },
+  {
+   "kop": "Aan het water",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:70%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un bateau</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een boot</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un phare</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vuurtoren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un seau</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een emmer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un coquillage</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een schelp</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un canard</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een eend</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un arbre</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een boom</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une cabane</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een hut</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une tente</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een tent</td></tr></table>",
+     "onderschrift": "Un phare, de vuurtoren, staat meestal op de rotsen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Pas op met woorden die op elkaar lijken: <strong>un bateau</strong> is een boot, maar un bain is een bad, une balle een bal en un lit een bed. En <strong>une tente</strong> is een tent, geen tafel (une table), toren (une tour) of trap (un escalier)."
+    }
+   ]
+  },
+  {
+   "kop": "De mensen op de prent",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:70%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un garçon</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een jongen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une fille</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een meisje</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un homme</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een man</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une femme</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vrouw</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un enfant</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kind</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">les enfants</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kinderen</td></tr></table>",
+     "onderschrift": "La fille is het meisje, le garçon de jongen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wil je er iets bij vertellen, dan zet je het werkwoord erachter: <em>La fille porte une robe</em> (het meisje draagt een jurk), <em>Le garçon sur le ponton pêche</em> (de jongen op de steiger vist). <strong>Un ponton</strong> is een steiger: de houten loopplank die het water in steekt."
+    }
+   ]
+  },
+  {
+   "kop": "Dieren aan zee",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Un chien</strong> is een hond en <strong>un chat</strong> een kat. In het water zwemmen <strong>des canards</strong> (eenden); in een ander water zou je <em>des poissons</em> (vissen), <em>des tortues</em> (schildpadden) of <em>des grenouilles</em> (kikkers) kunnen zien."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Caresser</strong> is aaien: <em>Le garçon caresse un chien</em> betekent de jongen aait een hond."
+    }
+   ]
+  },
+  {
+   "kop": "Wat de mensen doen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:60%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Il pêche.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Hij vist.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Il nage.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Hij zwemt.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Il dort.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Hij slaapt.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Il chante.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Hij zingt.</td></tr></table>",
+     "onderschrift": "Pêcher is vissen; een hengel is une canne à pêche."
+    },
+    {
+     "soort": "tekst",
+     "html": "En over de zon: <strong>le soleil se couche</strong> betekent dat de zon ondergaat. Hangt de zon laag boven het water en is de lucht oranje, dan is het avond."
+    }
+   ]
+  },
+  {
+   "kop": "Kleren en kleuren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Porter</strong> is dragen. <strong>Un chapeau</strong> is een hoed, met een rand rondom; <strong>une casquette</strong> is een pet, met een klep vooraan. Dat verschil is precies het soort ding waar zo'n vraag naar peilt. <strong>Une robe</strong> is een jurk, <strong>un casque</strong> een helm, <strong>un manteau</strong> een jas en <strong>un parapluie</strong> een paraplu. Die laatste drie draag je niet op je hoofd, dus ze passen niet als er naar een hoed gevraagd wordt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een vrouwelijk woord krijgt de kleur er een <strong>e</strong> bij: <em>la tente est verte</em> (de tent is groen), maar <em>le seau est rouge</em> (de emmer is rood), want rouge eindigt al op een e."
+    },
+    {
+     "soort": "kader",
+     "html": "Tel de mensen en de dieren <strong>op de prent zelf</strong>, niet uit je hoofd. Un, deux, trois, quatre: het verschil tussen twee en drie kinderen is vaak precies waar de vraag om draait."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Elke beschrijving begint met il y a; is iets er niet, dan il n'y a pas de.",
+  "à gauche, à droite, au milieu, en haut, en bas.",
+  "la mer is de zee, la plage het strand, le sable het zand.",
+  "un chapeau heeft een rand rondom, une casquette een klep vooraan.",
+  "Bij een vrouwelijk woord krijgt de kleur er een e bij: la tente est verte.",
+  "Tel de mensen en de dieren op de prent zelf, niet uit je hoofd."
+ ]
+}

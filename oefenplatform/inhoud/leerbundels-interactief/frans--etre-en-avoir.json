@@ -1,0 +1,91 @@
+{
+ "vak": "Frans",
+ "titel": "Être en avoir",
+ "onder": "Zijn en hebben: de twee werkwoorden die je het vaakst nodig hebt, en wanneer je welk gebruikt.",
+ "secties": [
+  {
+   "kop": "De twee belangrijkste werkwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Être</strong> betekent zijn. <strong>Avoir</strong> betekent hebben. Ze zijn allebei onregelmatig, dus je leert ze uit het hoofd. Daarna kan je er heel veel mee. Ter vergelijking: <em>aller</em> is gaan en <em>faire</em> is doen of maken."
+    }
+   ]
+  },
+  {
+   "kop": "Être: zijn",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:70%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je suis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik ben</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tu es</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jij bent</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il est / elle est</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hij is / zij is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nous sommes</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wij zijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vous êtes</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jullie zijn of u bent</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ils sont / elles sont</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zij zijn</td></tr></table>",
+     "onderschrift": "Vous êtes krijgt een dakje op de e."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Tu es</strong> mon ami betekent jij bent mijn vriend. Pas op: <em>est</em> met een t hoort bij il of elle, <em>es</em> zonder t bij tu. Je hoort dat verschil niet, je ziet het alleen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Ils sont</strong> en <strong>elles sont</strong> hebben dezelfde vorm. Alleen het woordje ervoor verschilt: ils voor een groep met minstens één jongen, elles voor een groep meisjes. <em>Elles sont contentes</em> betekent zij zijn blij, <em>Ils sont fatigués</em> zij zijn moe."
+    }
+   ]
+  },
+  {
+   "kop": "Avoir: hebben",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:70%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">j'ai</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik heb</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tu as</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jij hebt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il a / elle a</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hij heeft / zij heeft</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nous avons</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wij hebben</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vous avez</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jullie hebben of u hebt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ils ont / elles ont</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zij hebben</td></tr></table>",
+     "onderschrift": "Il a schrijf je zonder s en zonder accent."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>J'ai un chien</strong>: je + ai worden j'ai, want twee klinkers na elkaar spreken lastig. <em>Nous avons trois chiens</em> betekent wij hebben drie honden, <em>Ils ont deux chats</em> zij hebben twee katten."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Ils sont</strong> is zij <em>zijn</em>, <strong>ils ont</strong> is zij <em>hebben</em>. Eén letter verschil, en een heel andere betekenis. Hetzelfde geldt voor <strong>il a</strong> (hij heeft) en <strong>il est</strong> (hij is): il a onze ans klopt, il est onze ans niet."
+    }
+   ]
+  },
+  {
+   "kop": "Wat je in het Frans hebt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een hele reeks dingen waar wij <em>zijn</em> of <em>het hebben</em> zeggen, gaan in het Frans met <strong>avoir</strong>:"
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:70%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">j'ai faim</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik heb honger</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">j'ai soif</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik heb dorst</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">j'ai froid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik heb het koud</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">j'ai chaud</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik heb het warm</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tu as raison</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je hebt gelijk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">j'ai douze ans</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik ben twaalf jaar</td></tr></table>",
+     "onderschrift": "Allemaal met avoir, nooit met être."
+    },
+    {
+     "soort": "weetje",
+     "html": "<em>Je suis froid</em> zou betekenen dat jij zélf een koude persoon bent. Wil je zeggen dat je het koud hebt, dan is het <strong>j'ai froid</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Wanneer dan wél être?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Voor een <strong>toestand</strong> of een eigenschap: moe, blij, lief, te laat. <em>Elle est gentille</em> (zij is lief), <em>Vous êtes en retard</em> (jullie zijn te laat), <em>Ils sont fatigués</em> (zij zijn moe)."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 143\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"117.5\" y=\"16\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">moe</text><text x=\"117.5\" y=\"31\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">blij</text><text x=\"117.5\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">lief</text><text x=\"117.5\" y=\"61\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">Belg</text><text x=\"117.5\" y=\"76\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">te laat</text><path d=\"M117.5 91 v12 m0 0 l-4 -5 m4 5 l4 -5\" stroke=\"#2f5d50\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"79.5\" y=\"107\" width=\"76\" height=\"30\" rx=\"8\" fill=\"#2f5d50\" /><text x=\"117.5\" y=\"127\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#ffffff\">être</text><text x=\"352.5\" y=\"16\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">honger</text><text x=\"352.5\" y=\"31\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">dorst</text><text x=\"352.5\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">koud</text><text x=\"352.5\" y=\"61\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">gelijk</text><text x=\"352.5\" y=\"76\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">… jaar</text><path d=\"M352.5 91 v12 m0 0 l-4 -5 m4 5 l4 -5\" stroke=\"#c17f2b\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"314.5\" y=\"107\" width=\"76\" height=\"30\" rx=\"8\" fill=\"#c17f2b\" /><text x=\"352.5\" y=\"127\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#ffffff\">avoir</text></svg>",
+     "onderschrift": "Twijfel je? Vraag je af of het een toestand is (être) of iets dat je hebt (avoir)."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Être is zijn, avoir is hebben. Allebei onregelmatig, dus uit het hoofd.",
+  "es zonder t hoort bij tu, est met t bij il en elle.",
+  "ils sont is zij zijn, ils ont is zij hebben. Eén letter verschil.",
+  "Honger, dorst, koud, warm, gelijk en je leeftijd gaan met avoir.",
+  "Een toestand of een eigenschap gaat met être: moe, blij, lief, te laat."
+ ]
+}

@@ -82,16 +82,24 @@ def maak(map_, sleutel, zipnaam):
     vakken = sorted(m for m in map_.iterdir() if m.is_dir() and m.name != "bron")
     regels = []
     alles = []
+    wezen = []
     gemaakt = set()
 
     for vak in vakken:
         pdfs = sorted(vak.glob("*.pdf"))
         if not pdfs:
             continue
-        alles += pdfs
         per_niveau = {}
         for p in pdfs:
-            per_niveau.setdefault(niveaus.get(p.stem, "start"), []).append(p)
+            # Een pdf die in geen enkele maak_*.py voorkomt, is blijven liggen na
+            # een hernoeming. Vroeger belandde die stil in de zip van 🌱 Start,
+            # en kreeg een ouder dus een verouderde bundel mee zonder het te
+            # zien. Nu laten we hem eruit en zeggen we het.
+            if p.stem not in niveaus:
+                wezen.append(f"{map_.name}/{vak.name}/{p.name}")
+                continue
+            alles.append(p)
+            per_niveau.setdefault(niveaus[p.stem], []).append(p)
         for niveau, lijst in sorted(per_niveau.items()):
             doel = map_ / f"{vak.name}-{niveau}.zip"
             mb = _schrijf(doel, lijst)
@@ -109,6 +117,9 @@ def maak(map_, sleutel, zipnaam):
         if oud.name not in gemaakt:
             oud.unlink()
             regels.append(f"{map_.name}/{oud.name}: weggehaald, oude indeling")
+
+    for w in wezen:
+        regels.append(f"LET OP {w}: hoort bij geen enkele bundel, niet mee ingepakt")
     return regels
 
 

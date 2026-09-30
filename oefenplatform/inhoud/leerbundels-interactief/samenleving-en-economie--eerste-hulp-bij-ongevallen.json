@@ -1,0 +1,138 @@
+{
+ "vak": "Samenleving en economie",
+ "titel": "Eerste hulp bij ongevallen",
+ "onder": "De vier stappen, het nummer 112, en wat je doet bij bewusteloosheid, verslikking, bloeding, brandwonde en verstuiking.",
+ "secties": [
+  {
+   "kop": "De vier stappen, altijd in deze volgorde",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"49.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">veiligheid</text><path d=\"M103.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"124.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"173.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">toestand beoordelen</text><path d=\"M227.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"248.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"297.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">hulp raadplegen</text><path d=\"M351.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"372.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"421.0\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">verdere hulp</text></svg>",
+     "onderschrift": "Je doorloopt ze in die volgorde, elke keer opnieuw. Ook als het klein lijkt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Zorgen voor veiligheid</strong> komt vóór alle andere stappen, omdat je niemand kan helpen als jij zelf gewond raakt. Ligt er rondslingerend glas, dan maak je het eerst veilig of je zorgt dat je zelf veilig staat. Ligt iemand op de rijweg terwijl het verkeer gewoon doorrijdt, dan is de plaats veilig maken de eerste zorg, bijvoorbeeld met een <strong>gevarendriehoek</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij stap twee, de <strong>toestand van het slachtoffer beoordelen</strong>, ga je drie dingen na: reageert de persoon als je hem aanspreekt, ademt hij normaal, en is er ergens zwaar bloedverlies. Pas daarna bel je, en daarna verleen je verdere hulp tot de hulpdiensten er zijn. <strong>Eerste hulp verlenen betekent niet dat je het slachtoffer geneest</strong>: je overbrugt de tijd en zorgt dat het niet erger wordt."
+    }
+   ]
+  },
+  {
+   "kop": "112 bellen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In België bel je <strong>112</strong> voor een ambulance of de brandweer. Dat nummer werkt in heel Europa en is gratis."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je zeker vertelt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarom</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waar het gebeurd is, zo precies mogelijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zonder plaats komt er niemand</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat er gebeurd is en hoeveel slachtoffers er zijn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dan weten ze wat ze moeten meebrengen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in welke toestand het slachtoffer is</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dan weten ze hoe dringend het is</td></tr></table>",
+     "onderschrift": "En je blijft aan de lijn: de operator legt eerst neer, jij niet."
+    },
+    {
+     "soort": "kader",
+     "html": "Staan er meerdere mensen bij een ongeval, ga er dan <strong>niet</strong> van uit dat iemand anders al gebeld heeft. Dat denkt iedereen tegelijk, en dan belt er niemand. Wijs één persoon aan en zeg: bel jij 112. Bij twijfel over hoe ernstig iets is, bel je beter toch."
+    }
+   ]
+  },
+  {
+   "kop": "Bewustzijn en de stabiele zijligging",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Of iemand <strong>bij bewustzijn</strong> is, controleer je door de persoon luid aan te spreken en aan de schouders te schudden. Reageert hij niet, maar ademt hij wel normaal, dan leg je hem in de <strong>stabiele zijligging</strong>. Dat is de houding waarin een bewusteloos maar ademend slachtoffer veilig ligt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat doe je zodat de <strong>luchtweg vrij blijft</strong> en braaksel kan weglopen. Het slachtoffer ligt op zijn zij, met het hoofd lichtjes achterover en de mond naar beneden gericht. Daarna <strong>blijf je bij hem</strong> en controleer je of hij blijft ademen: alleen achterlaten doe je nooit."
+    },
+    {
+     "soort": "weetje",
+     "html": "Iemand die niet reageert, geef je <strong>nooit iets te drinken</strong>. De drank kan in de luchtweg komen in plaats van in de slokdarm, en dan maak je het erger."
+    },
+    {
+     "soort": "tekst",
+     "html": "Valt een klasgenoot flauw en reageert hij niet als je hem aanspreekt, maar ademt hij wel rustig? Dan leg je hem in stabiele zijligging en bel je 112. Heeft iemand zijn arm gebroken maar is hij helder en praat hij gewoon, dan hoef je hem niet te verplaatsen, maar de stap <strong>gespecialiseerde hulp raadplegen</strong> sla je ook dan niet over."
+    }
+   ]
+  },
+  {
+   "kop": "Verslikking: rugslagen en buikstoten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Verslikt iemand zich en <strong>hoest hij luid en krachtig</strong>, dan moedig je hem aan om te blijven hoesten. Hoesten is de sterkste manier om iets weg te krijgen; jij doet dan niets anders."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>ernstige verslikking</strong>, als iemand niet meer kan hoesten of spreken, grijp je wel in. <strong>Rugslagen</strong> zijn stevige slagen met de hiel van je hand tussen de schouderbladen. Een <strong>buikstoot</strong> is een stevige ruk naar binnen en naar boven onder de ribben. Je <strong>wisselt rugslagen en buikstoten met elkaar af</strong> tot het voorwerp eruit is of tot de hulpdiensten er zijn."
+    },
+    {
+     "soort": "kader",
+     "html": "Bij een <strong>baby jonger dan één jaar</strong> geef je <strong>geen buikstoten</strong>. Het buikje is daar te kwetsbaar voor. Daar wissel je rugslagen af met borstcompressies, en je belt altijd 112."
+    }
+   ]
+  },
+  {
+   "kop": "Bloeding, brandwonde en huidwonde",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een wonde die <strong>hevig bloedt</strong> druk je stevig op de wonde met een verband of een propere doek. Dat is meteen de eerste handeling, ook als iemand zich in de keuken gesneden heeft en er veel bloed uit zijn hand stroomt: eerst drukken, dan pas de rest."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">symptomen van een ernstige bloeding</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bloed dat blijft doorstromen ondanks druk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de druk volstaat niet, bel 112</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bleke, klamme huid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het lichaam verliest te veel bloed</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een slachtoffer dat duizelig wordt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">idem; laat hem liggen, niet rechtstaan</td></tr></table>",
+     "onderschrift": "Drie tekens die samen zeggen: dit is meer dan een snee."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>brandwonde</strong> koel je <strong>tien tot twintig minuten met lauw zacht stromend water</strong>. Niet met ijs, niet met boter, niet met tandpasta. Kleding die aan de brandwonde <strong>vastgekleefd</strong> zit, laat je zitten: eraf trekken scheurt de huid mee."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een gewone <strong>huidwonde</strong>, zoals een schaafwonde, spoel je met water, ontsmet je en dek je af. In die volgorde."
+    }
+   ]
+  },
+  {
+   "kop": "Verstuiking en breuk",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>verstuiking</strong> zijn de banden rond een gewricht gerekt. Bij een <strong>breuk</strong> is het bot zelf gebroken. Van buitenaf lijken ze soms op elkaar."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">symptomen van een verstuiking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pijn bij het bewegen van het gewricht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vooral bij steunen of draaien</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een zwelling rond het gewricht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die komt vaak snel op</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een blauwe verkleuring rond het gewricht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die komt meestal pas later</td></tr></table>",
+     "onderschrift": "Een verstuikte enkel is het bekendste voorbeeld."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een verstuikte enkel geef je <strong>rust</strong>, je <strong>koelt</strong>, je legt een <strong>drukverband</strong> aan en je legt de enkel <strong>hoog</strong>. Een <strong>koelzak leg je nooit rechtstreeks op de blote huid</strong>: doe er altijd een doek tussen, anders vries je de huid kapot."
+    },
+    {
+     "soort": "kader",
+     "html": "Twijfel je tussen een verstuiking en een breuk? Dan laat je het gewricht met rust en laat je het nakijken. Je hoeft het verschil niet zelf te kunnen vaststellen; je hoeft alleen niet te doen alsof het niets is."
+    },
+    {
+     "soort": "tekst",
+     "html": "De vakfiche vraagt dat je de symptomen kan herkennen bij drie soorten ongevallen: een <strong>bloeding</strong>, een <strong>verslikking</strong> en een <strong>verstuiking</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "De vier stappen: veiligheid, toestand beoordelen, hulp raadplegen, verdere hulp verlenen.",
+  "112 is het nummer; zeg waar, wat, hoeveel slachtoffers en in welke toestand, en leg niet als eerste neer.",
+  "Bewusteloos maar normaal ademend: stabiele zijligging, 112 bellen, en blijven.",
+  "Hoest iemand nog krachtig, laat hem hoesten; kan hij niet meer hoesten of spreken, wissel rugslagen en buikstoten af.",
+  "Hevige bloeding: stevig drukken met een propere doek.",
+  "Brandwonde: tien tot twintig minuten lauw stromend water, vastgekleefde kleding laten zitten.",
+  "Verstuiking: rust, koelen (nooit op de blote huid), drukverband, hoog leggen."
+ ]
+}

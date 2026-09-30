@@ -1,0 +1,108 @@
+{
+ "vak": "Samenleving en economie",
+ "titel": "De overheid in de economie",
+ "onder": "Waar de overheid haar geld haalt en waaraan ze het besteedt, en hoe de sociale zekerheid ongelijkheid kleiner maakt.",
+ "secties": [
+  {
+   "kop": "Waar de overheid haar geld haalt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De overheid haalt haar geld uit <strong>belastingen</strong> die gezinnen en bedrijven betalen. De vakfiche noemt er zes."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">inkomst</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wie betaalt ze, en wanneer</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>belasting op het gezinsinkomen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elk gezin, op wat het verdient</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>belasting op de bedrijfswinst</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elk bedrijf, op wat het overhoudt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>btw op een aankoop</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iedereen, bij bijna elke aankoop</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>milieubelasting</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie vervuilt; ze maakt vervuilend gedrag duurder</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>belasting op een huis of gebouw</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie een huis of gebouw in eigendom heeft</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wegenbelasting</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie een auto heeft, elk jaar opnieuw</td></tr></table>",
+     "onderschrift": "Btw staat voor belasting over de toegevoegde waarde."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>btw</strong> zit al in de prijs die op het prijskaartje staat: je betaalt ze mee zonder het te merken. Het tarief is <strong>niet op alle producten hetzelfde</strong>. Het gewone tarief is 21 procent, maar op onder meer voeding en boeken geldt een lager tarief, zodat wat iedereen nodig heeft minder zwaar belast wordt."
+    },
+    {
+     "soort": "weetje",
+     "html": "Het verschil tussen <strong>btw</strong> en <strong>wegenbelasting</strong> op een auto: de btw betaal je één keer, bij de aankoop. De wegenbelasting betaal je elk jaar opnieuw, zolang je de auto hebt."
+    }
+   ]
+  },
+  {
+   "kop": "Waaraan de overheid haar geld besteedt",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">uitgave</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waar je ze ziet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>huisvesting en infrastructuur</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een nieuwe brug, een vernieuwde sociale woonwijk, wegen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>milieubescherming</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">natuurbeheer, waterzuivering, afvalverwerking</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>onderwijs</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de scholen en de leerkrachten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>recreatie, sport en cultuur</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de subsidie voor een gemeentelijk zwembad, een bibliotheek, een sporthal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>sociale bescherming</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uitkeringen en pensioenen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>veiligheid</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de politie, de brandweer, justitie</td></tr></table>",
+     "onderschrift": "De zes uitgavenposten uit de vakfiche. Onderwijs en sociale bescherming zijn de grootste."
+    },
+    {
+     "soort": "tekst",
+     "html": "Geeft de overheid <strong>meer uit dan ze ontvangt</strong>, dan heeft dat gevolgen: ze moet lenen, haar schuld groeit, en op die schuld betaalt ze rente. Dat geld kan ze nadien niet meer aan iets anders besteden. Een gemeente met 8 miljoen euro inkomsten en 9 miljoen euro uitgaven heeft dus een tekort van <strong>1 miljoen euro</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "Op het examen krijg je cijfers en grafieken over de inkomsten en uitgaven. Onthoud één rekenregel: <strong>procent betekent per honderd</strong>. Gaat er van elke 100 euro 30 euro naar onderwijs, dan is dat <strong>30 procent</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De keuzes van de overheid <strong>werken door in de samenleving</strong>. Je ziet het aan hoeveel je moet betalen voor school en openbaar vervoer, aan hoeveel fietspaden en groen er in je gemeente zijn, en aan hoe lang je moet wachten op een sociale woning. Wordt er minder aan openbaar vervoer besteed, dan merken de inwoners dat meteen: minder bussen, langer wachten, of geen verbinding meer."
+    },
+    {
+     "soort": "tekst",
+     "html": "Waarom is het belangrijk dat iedereen belastingen betaalt? Omdat we er samen de <strong>voorzieningen</strong> mee betalen die we allemaal gebruiken: wegen, scholen, ziekenhuizen, de brandweer. Vergeet daarbij niet dat de overheid <strong>naast een speler die geld int ook zelf goederen en diensten koopt</strong>: ze bestelt bussen, computers en bouwwerken en betaalt lonen aan haar personeel."
+    }
+   ]
+  },
+  {
+   "kop": "Sociale ongelijkheid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Sociale ongelijkheid</strong> betekent dat mensen niet dezelfde kansen en middelen hebben in een samenleving. De vakfiche noemt zes zaken die ze kunnen <strong>veroorzaken</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">oorzaak</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">hoe je het ziet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>discriminatie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iemand wordt niet aangenomen voor een job omwille van zijn afkomst</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>gewoontes in een cultuur</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat in een groep als normaal geldt, sluit anderen uit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>gezondheid</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een langdurige ziekte brengt iemand in een moeilijkere positie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>inkomen en rijkdom</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie meer heeft, kan meer opvangen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>onderwijs en de kansen om te leren</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een rustige plek en hulp bij het huiswerk thuis, of niet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>wetten en regels van de overheid</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een regel die voor iedereen gelijk lijkt, valt toch ongelijk uit</td></tr></table>",
+     "onderschrift": "De zes oorzaken uit de vakfiche."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee kinderen met dezelfde punten op dezelfde school hebben daarom nog niet dezelfde kansen. Heeft het ene thuis een rustige plek en hulp bij het huiswerk en het andere niet, dan is dat <strong>sociale ongelijkheid door een verschil in kansen om te leren</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De sociale zekerheid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>sociale zekerheid</strong> vangt op wat mensen niet zelf kunnen dragen. Ze werkt op het <strong>solidariteitsprincipe</strong>: wie kan draagt bij, wie het nodig heeft wordt geholpen. Je krijgt dus niet per se terug wat je zelf betaalde."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ze wordt <strong>niet</strong> volledig door de overheid alleen betaald. Van elk loon gaat er een deel naartoe, de werkgever legt bij, en de overheid vult aan met belastinggeld. Ze bestaat omdat <strong>iedereen ooit ziek, werkloos of oud kan worden</strong>. Wie dat nooit overkomt, heeft niet voor niets bijgedragen: hij droeg mee voor anderen, en had zelf de zekerheid dat hij opgevangen zou worden."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort uitkering</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeelden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vervangingsuitkering</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">komt in de plaats van een inkomen dat weggevallen is</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de werkloosheidsuitkering en het leefloon, het rust- en overlevingspensioen, de ziekte- en invaliditeitsuitkering, de arbeidsongevallenuitkering</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>aanvullende uitkering</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">komt bovenop het inkomen om bepaalde kosten te helpen dragen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het groeipakket, de ondersteuning voor mensen met een beperking, een sociaal tarief op basis van het inkomen, de tegemoetkoming voor medische kosten</td></tr></table>",
+     "onderschrift": "Het groeipakket is dus aanvullend en geen vervangingsuitkering."
+    },
+    {
+     "soort": "tekst",
+     "html": "Verliest iemand zijn werk en krijgt hij maandelijks geld van de overheid tot hij nieuw werk vindt, dan is dat een <strong>werkloosheidsuitkering</strong> en dus een vervangingsuitkering. Betaalt een gezin met een laag inkomen minder voor elektriciteit dan een gezin met een hoog inkomen, dan is dat een <strong>sociaal tarief op basis van het inkomen</strong>, en dus aanvullend."
+    },
+    {
+     "soort": "kader",
+     "html": "Zo <strong>vermindert de overheid sociale ongelijkheid</strong>: met uitkeringen voor wie zijn inkomen verliest, met onderwijs dat voor iedereen toegankelijk is, en met een sociaal tarief voor wie weinig verdient. Ze maakt de verschillen niet weg, ze maakt ze kleiner."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Zes inkomsten: belasting op gezinsinkomen, op bedrijfswinst, btw, milieubelasting, belasting op een huis of gebouw, wegenbelasting.",
+  "Zes uitgaven: huisvesting en infrastructuur, milieubescherming, onderwijs, recreatie sport en cultuur, sociale bescherming, veiligheid.",
+  "Btw zit in de prijs; het tarief is niet overal hetzelfde.",
+  "Meer uitgeven dan ontvangen betekent lenen, en lenen kost rente.",
+  "Zes oorzaken van sociale ongelijkheid, van discriminatie tot de regels van de overheid zelf.",
+  "Solidariteitsprincipe: wie kan draagt bij, wie het nodig heeft wordt geholpen.",
+  "Vervangingsuitkering komt in de plaats van een loon; een aanvullende uitkering komt erbovenop."
+ ]
+}

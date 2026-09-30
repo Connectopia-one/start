@@ -111,7 +111,17 @@ BUNDELS["woorden-voor-elke-dag"] = dict(
                 ["s'il te plaît", "alsjeblieft, tegen een vriend"],
             ], "80%"), "Zegt iemand merci, dan antwoord je met de rien."),
         ]),
-    ])
+    ],
+    onthoud=[
+        "Tot en met seize heeft elk getal een eigen woord; vanaf dix-sept plak je ze aan elkaar.",
+        "quinze is 15, cinq is 5, cinquante is 50. Douze is 12, deux is 2.",
+        "Bijna elke dag eindigt op -di; alleen dimanche begint ermee.",
+        "Een maand schrijf je met een kleine letter, net als in het Nederlands.",
+        "juin is juni, juillet is juli.",
+        "Bonjour overdag, bonsoir 's avonds, au revoir bij het weggaan.",
+        "Zegt iemand merci, dan antwoord je met de rien.",
+    ],
+)
 
 # ===========================================================================
 BUNDELS["mezelf-voorstellen"] = dict(
@@ -182,7 +192,16 @@ BUNDELS["mezelf-voorstellen"] = dict(
                       "<strong>Bonjour madame, je m'appelle …</strong> Salut en tu zijn daar te "
                       "familiair voor."),
         ]),
-    ])
+    ],
+    onthoud=[
+        "Je m'appelle … voor je naam, J'ai … ans voor je leeftijd.",
+        "In het Frans heb je jaren: J'ai onze ans, nooit je suis onze ans.",
+        "Bij een nationaliteit gebruik je wél être: je suis belge.",
+        "J'habite à … is ik woon in …, je viens de … is ik kom uit …",
+        "mon bij een mannelijk woord, ma bij een vrouwelijk, mes bij meer dan één.",
+        "tu tegen familie en vrienden, vous tegen je leerkracht en onbekenden.",
+    ],
+)
 
 # ===========================================================================
 BUNDELS["etre-en-avoir"] = dict(
@@ -248,7 +267,15 @@ BUNDELS["etre-en-avoir"] = dict(
                 ("honger|dorst|koud|gelijk|… jaar", "avoir", svg.AMBER),
             ]), "Twijfel je? Vraag je af of het een toestand is (être) of iets dat je hebt (avoir)."),
         ]),
-    ])
+    ],
+    onthoud=[
+        "Être is zijn, avoir is hebben. Allebei onregelmatig, dus uit het hoofd.",
+        "es zonder t hoort bij tu, est met t bij il en elle.",
+        "ils sont is zij zijn, ils ont is zij hebben. Eén letter verschil.",
+        "Honger, dorst, koud, warm, gelijk en je leeftijd gaan met avoir.",
+        "Een toestand of een eigenschap gaat met être: moe, blij, lief, te laat.",
+    ],
+)
 
 # ===========================================================================
 BUNDELS["de-tegenwoordige-tijd"] = dict(
@@ -312,7 +339,17 @@ BUNDELS["de-tegenwoordige-tijd"] = dict(
                   "(het is koud), <em>il fait chaud</em> (het is warm), <em>il fait beau</em> "
                   "(het is mooi weer). Letterlijk staat er dat het koud <em>maakt</em>."),
         ]),
-    ])
+    ],
+    onthoud=[
+        "Haal de -er weg en plak de uitgang eraan: -e, -es, -e, -ons, -ez, -ent.",
+        "De uitgang -ent hoor je niet: ils parlent klinkt als il parle.",
+        "tu krijgt een s (tu parles), je niet (je parle).",
+        "aller: je vais, tu vas, il va, nous allons, vous allez, ils vont.",
+        "aller plus een werkwoord is de nabije toekomst: je vais manger is ik ga eten.",
+        "faire: vous faites en ils font zijn de twee die je moet onthouden.",
+        "Over het weer zegt het Frans il fait: il fait froid, il fait beau.",
+    ],
+)
 
 # ===========================================================================
 BUNDELS["zinnen-bouwen"] = dict(
@@ -383,7 +420,17 @@ BUNDELS["zinnen-bouwen"] = dict(
                   "in het Nederlands: de kleur verhuist naar achter, en in een ontkenning staat het "
                   "werkwoord tussen ne en pas."),
         ]),
-    ])
+    ],
+    onthoud=[
+        "le bij een mannelijk woord, la bij een vrouwelijk, l' voor een klinker, les in het meervoud.",
+        "un en une betekenen allebei een: un livre, une table.",
+        "Ontkennen doe je met ne … pas, met het werkwoord ertussen.",
+        "Voor een klinker wordt ne tot n'; na een ontkenning wordt un of une meestal de.",
+        "Est-ce que vooraan maakt van elke zin een vraag.",
+        "Het bijvoeglijk naamwoord staat meestal achter het woord: un chien noir.",
+        "In het Frans staat er een spatie vóór een vraagteken en een uitroepteken.",
+    ],
+)
 
 # ===========================================================================
 BUNDELS["op-school-en-onderweg"] = dict(
@@ -450,7 +497,16 @@ BUNDELS["op-school-en-onderweg"] = dict(
                   "Op de fiets zit je erop, vandaar à vélo."),
             ("p", "<em>Je vais à l'école à vélo</em> betekent dus ik ga met de fiets naar school."),
         ]),
-    ])
+    ],
+    onthoud=[
+        "un stylo is een balpen, un crayon een potlood.",
+        "Wiskunde heet altijd in het meervoud: les mathématiques.",
+        "à droite is naar rechts, tout droit is rechtdoor.",
+        "la librairie is een boekhandel, la bibliothèque de bibliotheek.",
+        "C'est combien ? vraag je om te weten wat iets kost.",
+        "à vélo en à pied, maar en bus en en voiture.",
+    ],
+)
 
 # ===========================================================================
 BUNDELS["een-tekstje-lezen"] = dict(
@@ -514,7 +570,16 @@ BUNDELS["een-tekstje-lezen"] = dict(
             ("p", "Bij een vraag naar de <strong>titel</strong> van een tekst kies je wat over de "
                   "hele tekst gaat, niet wat maar in één zin voorkomt."),
         ]),
-    ])
+    ],
+    onthoud=[
+        "Lees eerst de hele tekst door en kijk wat je wél herkent.",
+        "Zoek de zin waar de vraag over gaat, en lees die dan traag.",
+        "le samedi betekent op zaterdag, en dus niet op een andere dag.",
+        "ne … pas keert de zin om: lees die twee woordjes altijd mee.",
+        "il pleut is het regent; over het weer zegt het Frans il.",
+        "Een titel gaat over de hele tekst, niet over één zin.",
+    ],
+)
 
 # ===========================================================================
 BESCHRIJVEN_INLEIDING = (
@@ -599,7 +664,17 @@ BUNDELS["wat-zie-je-op-de-prent"] = dict(
                       "<strong>Kijk eerst naar de prent, en pas daarna naar de antwoorden.</strong> "
                       "Twijfel je tussen bleu en rouge, of tussen deux en trois, tel dan nog eens."),
         ]),
-    ])
+    ],
+    onthoud=[
+        "Elke beschrijving begint met il y a; dat verandert nooit van vorm.",
+        "Is iets er juist niet, dan wordt het il n'y a pas de.",
+        "Sur l'image betekent op de prent.",
+        "à gauche, à droite, au milieu, en haut, en bas.",
+        "Met qui hang je een werkwoord aan een dier: un chat qui dort.",
+        "porter is dragen: le garçon porte un casque.",
+        "Kijk eerst naar de prent, en pas daarna naar de antwoorden.",
+    ],
+)
 
 # ===========================================================================
 BUNDELS["wat-zie-je-aan-zee"] = dict(
@@ -674,4 +749,13 @@ BUNDELS["wat-zie-je-aan-zee"] = dict(
                       "hoofd. Un, deux, trois, quatre: het verschil tussen twee en drie kinderen is "
                       "vaak precies waar de vraag om draait."),
         ]),
-    ])
+    ],
+    onthoud=[
+        "Elke beschrijving begint met il y a; is iets er niet, dan il n'y a pas de.",
+        "à gauche, à droite, au milieu, en haut, en bas.",
+        "la mer is de zee, la plage het strand, le sable het zand.",
+        "un chapeau heeft een rand rondom, une casquette een klep vooraan.",
+        "Bij een vrouwelijk woord krijgt de kleur er een e bij: la tente est verte.",
+        "Tel de mensen en de dieren op de prent zelf, niet uit je hoofd.",
+    ],
+)

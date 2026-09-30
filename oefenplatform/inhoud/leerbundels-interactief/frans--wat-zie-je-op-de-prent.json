@@ -1,0 +1,115 @@
+{
+ "vak": "Frans",
+ "titel": "Wat zie je op de prent?",
+ "onder": "Vertellen wat er op een beeld te zien is: er is en er zijn, links en rechts, kleuren en aantallen.",
+ "secties": [
+  {
+   "kop": "Waarvoor dient dit?",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "Op het examen van de Examencommissie krijg je bij een taal een <strong>foto of prent</strong>, en moet je in die taal vertellen wat je ziet. Hier oefen je de woorden en de zinnetjes die je daarvoor nodig hebt. Wie die kent, kan straks ook zelf een beschrijving schrijven."
+    }
+   ]
+  },
+  {
+   "kop": "Er is en er zijn",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Elke beschrijving begint met <strong>il y a</strong>: er is, of er zijn. Het verandert nooit van vorm, hoeveel dingen er ook staan."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 156\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"6.0\" y=\"6\" width=\"319.6\" height=\"42\" rx=\"12\" fill=\"#2f5d5018\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"19.0\" y=\"23\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#2f5d50\" font-weight=\"600\">één ding</text><text x=\"19.0\" y=\"39\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" fill=\"#234539\">Sur l'image, il y a un garçon.</text><rect x=\"144.4\" y=\"56\" width=\"319.6\" height=\"42\" rx=\"12\" fill=\"#c17f2b18\" stroke=\"#c17f2b\" stroke-width=\"1.5\"/><text x=\"157.4\" y=\"73\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#c17f2b\" font-weight=\"600\">meer dingen</text><text x=\"157.4\" y=\"89\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" fill=\"#234539\">Il y a trois oiseaux.</text><rect x=\"6.0\" y=\"106\" width=\"319.6\" height=\"42\" rx=\"12\" fill=\"#2f5d5018\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"19.0\" y=\"123\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#2f5d50\" font-weight=\"600\">iets dat er niet is</text><text x=\"19.0\" y=\"139\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" fill=\"#234539\">Il n'y a pas de chien.</text></svg>",
+     "onderschrift": "Il y a wordt il n'y a pas de als iets er juist niet is."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Sur l'image</strong> betekent op de prent. Begin je zin daarmee, dan weet de lezer meteen waar je het over hebt. <em>Sur l'image, je suis …</em> of <em>Sur l'image, j'ai …</em> klopt niet: dat gaat over jou, niet over de prent."
+    }
+   ]
+  },
+  {
+   "kop": "Waar staat het?",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 214\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"34\" y=\"14\" width=\"402\" height=\"148\" rx=\"10\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"2\"/><rect x=\"34\" y=\"14\" width=\"402\" height=\"52\" fill=\"#2f5d5012\"/><line x1=\"34\" y1=\"66\" x2=\"436\" y2=\"66\" stroke=\"#2f5d50\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><text x=\"235.0\" y=\"44.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#2f5d50\">à l&#39;arrière-plan — op de achtergrond</text><text x=\"101.0\" y=\"110.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">à gauche</text><line x1=\"168.0\" y1=\"66\" x2=\"168.0\" y2=\"162\" stroke=\"#e4ded0\" stroke-width=\"1.3\" stroke-dasharray=\"4 4\"/><text x=\"235.0\" y=\"110.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">au milieu</text><line x1=\"302.0\" y1=\"66\" x2=\"302.0\" y2=\"162\" stroke=\"#e4ded0\" stroke-width=\"1.3\" stroke-dasharray=\"4 4\"/><text x=\"369.0\" y=\"110.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">à droite</text><rect x=\"34\" y=\"128\" width=\"402\" height=\"34\" fill=\"#c17f2b14\"/><line x1=\"34\" y1=\"128\" x2=\"436\" y2=\"128\" stroke=\"#c17f2b\" stroke-width=\"1.3\" stroke-dasharray=\"5 4\"/><text x=\"235.0\" y=\"149.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">au premier plan — op de voorgrond</text><text x=\"235.0\" y=\"202.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">Sur la photo, il y a… — begin met wat je ziet, en zeg er meteen bij wáár.</text></svg>",
+     "onderschrift": "Met deze woorden deel je elke prent in."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>À gauche</strong> is links, <strong>à droite</strong> is rechts en <strong>au milieu</strong> in het midden. En van boven naar onder: <strong>en haut</strong> is bovenaan, <strong>en bas</strong> is onderaan. Samen kan je zo elk plekje aanwijzen: <em>en haut à droite</em> is rechtsboven, <em>en bas à droite</em> rechtsonder en <em>en bas à gauche</em> linksonder."
+    }
+   ]
+  },
+  {
+   "kop": "De dieren op deze prent",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:70%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une vache</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een koe</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un écureuil</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een eekhoorn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un oiseau</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vogel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un lapin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een konijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un canard</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een eend</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un chien</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een hond</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un chat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un cheval</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een paard</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un poisson</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vis</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une grenouille</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kikker</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une tortue</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een schildpad</td></tr></table>",
+     "onderschrift": "Niet alles uit deze lijst staat op de prent: kijk goed."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wil je zeggen wat een dier <strong>doet</strong>, dan hang je er een werkwoord aan met <strong>qui</strong>: <em>un lapin qui court</em> (een konijn dat loopt), <em>un chat qui dort</em> (een kat die slaapt), <em>un chien qui joue</em> (een hond die speelt), <em>un cheval qui mange</em> (een paard dat eet)."
+    }
+   ]
+  },
+  {
+   "kop": "Het landschap",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:70%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une montagne</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een berg</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un pont</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een brug</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une rivière</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een rivier</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le soleil</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de zon</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le ciel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de lucht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un arbre</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een boom</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une barrière</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een hek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">l'herbe</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het gras</td></tr></table>",
+     "onderschrift": "Le soleil is de zon; il fait du soleil betekent het is zonnig."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wat er in de lucht gebeurt, zeg je met <strong>voler</strong> (vliegen): <em>Trois oiseaux volent dans le ciel</em> betekent er vliegen drie vogels in de lucht."
+    }
+   ]
+  },
+  {
+   "kop": "Mensen en wat ze dragen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Porter</strong> is dragen: <em>Le garçon porte un casque</em> betekent de jongen draagt een helm. <strong>Un casque</strong> is een helm en <strong>une veste</strong> is een jas."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Faire du vélo</strong> is fietsen, net zoals faire du sport sporten is. Andere dingen die iemand kan doen: <em>jouer au football</em> (voetballen), <em>marcher à l'école</em> (naar school stappen), <em>nager</em> (zwemmen)."
+    }
+   ]
+  },
+  {
+   "kop": "Tellen en kleuren op een prent",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Tel altijd na op de prent zelf, en zet het getal vooraan: un, deux, trois, quatre, cinq. Bij één ding hangt het af van het woord: <strong>un</strong> oiseau (mannelijk), <strong>une</strong> vache (vrouwelijk). Vanaf twee maakt dat niet meer uit, en krijgt het woord een <strong>s</strong>: deux arbres, trois oiseaux."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee kleuren samen zeg je met <strong>et</strong>: <em>brun et blanc</em> (bruin en wit), <em>noir et blanc</em> (zwart en wit). Is iets helemaal in één kleur, dan zeg je <strong>tout</strong>: tout brun, tout blanc."
+    },
+    {
+     "soort": "kader",
+     "html": "Bij dit soort vragen lijken de antwoorden bewust op elkaar. <strong>Kijk eerst naar de prent, en pas daarna naar de antwoorden.</strong> Twijfel je tussen bleu en rouge, of tussen deux en trois, tel dan nog eens."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Elke beschrijving begint met il y a; dat verandert nooit van vorm.",
+  "Is iets er juist niet, dan wordt het il n'y a pas de.",
+  "Sur l'image betekent op de prent.",
+  "à gauche, à droite, au milieu, en haut, en bas.",
+  "Met qui hang je een werkwoord aan een dier: un chat qui dort.",
+  "porter is dragen: le garçon porte un casque.",
+  "Kijk eerst naar de prent, en pas daarna naar de antwoorden."
+ ]
+}
