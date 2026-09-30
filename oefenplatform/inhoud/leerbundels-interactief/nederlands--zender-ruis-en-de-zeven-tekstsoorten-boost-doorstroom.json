@@ -1,0 +1,112 @@
+{
+ "vak": "Nederlands",
+ "titel": "Zender, ruis en de zeven tekstsoorten",
+ "onder": "Het communicatiemodel met zijn acht elementen, en de zeven soorten teksten die je moet kunnen herkennen.",
+ "secties": [
+  {
+   "kop": "Het communicatiemodel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Elke tekst, elk filmpje en elk gesprek is een <strong>boodschap</strong> die iemand naar iemand stuurt. Het <strong>communicatiemodel</strong> zet daar acht woorden op, en met die acht kan je bijna elke tekst uit elkaar halen: <strong>zender</strong>, <strong>boodschap</strong>, <strong>ontvanger</strong>, <strong>kanaal</strong>, <strong>context</strong>, <strong>doel</strong>, <strong>effect</strong> en <strong>ruis</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Element</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vraag die je stelt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zender</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wie stuurt dit?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het bedrijf achter een reclamefilmpje</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">boodschap</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wat wordt er gezegd?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dat je tien minuten later zal zijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ontvanger</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Voor wie is het bedoeld?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je leerkracht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kanaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Langs welke weg?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een telefoongesprek, een mail, een blog</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">context</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">In welke situatie?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je bus heeft vertraging</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">doel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wat wil de zender bereiken?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je laten stoppen met roken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">effect</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wat gebeurt er echt?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jij vindt het filmpje vooral grappig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ruis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wat stoort onderweg?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lawaai, een slechte verbinding, vermoeidheid</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Let op het verschil tussen <strong>doel</strong> en <strong>effect</strong>. Het doel is wat de zender <em>wil</em>, het effect is wat er <em>werkelijk</em> gebeurt bij de ontvanger. Die twee zijn zelden precies hetzelfde, en daarom staan ze apart in het model. Een antirookfilmpje dat jou vooral doet lachen, heeft zijn doel gemist: het effect wijkt af van het doel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ook <strong>context</strong> staat er niet zomaar bij. Dezelfde zin betekent iets anders in een andere situatie. 'Doe de deur dicht' klinkt anders van een vriend dan van een directeur, en anders in de klas dan thuis. De context is de omringende situatie: de plaats, het moment en de relatie tussen zender en ontvanger. Verwar hem niet met het kanaal, dat de <em>drager</em> is."
+    },
+    {
+     "soort": "kader",
+     "html": "Stuur je dezelfde boodschap eerst als spraakbericht en daarna als mail, dan verandert er maar één ding: het <strong>kanaal</strong>. Zender, boodschap en ontvanger blijven gelijk."
+    }
+   ]
+  },
+  {
+   "kop": "Ruis: intern en extern",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Ruis</strong> is alles wat maakt dat de boodschap niet of verkeerd aankomt. Ze zit niet altijd buiten de mensen. Bij <strong>miscommunicatie</strong> kan de storing zowel bij de zender als bij de ontvanger liggen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Externe ruis</strong> komt van buitenaf: lawaai op straat tijdens een gesprek, een slechte verbinding bij een videogesprek, een vlek over de tekst van een brief, vreemde tekens in een bericht. <strong>Interne ruis</strong> zit in de zender of de ontvanger zelf: je bent moe en hoort maar de helft, je gedachten dwalen af, of je weet te weinig over het onderwerp om te volgen. Het is dus <em>niet</em> waar dat ruis altijd buiten de zender en de ontvanger zit."
+    },
+    {
+     "soort": "weetje",
+     "html": "Ook op een scherm bestaat non-verbale communicatie. Wie een heel bericht in <strong>hoofdletters</strong> typt, komt over als schreeuwerig en storend, ook al bedoelde hij het niet zo. Dat is ruis die de zender zelf veroorzaakt."
+    }
+   ]
+  },
+  {
+   "kop": "Wie is de zender, en wat wil hij?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>zender</strong> is wie de boodschap de wereld in stuurt, niet wie je op het scherm ziet. Bij een reclamefilmpje is de zender het bedrijf dat het product wil verkopen, ook al zie je alleen acteurs."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wat de zender wil, bepaalt wat hij weglaat. Een <strong>publireportage</strong> over een sportdrank ziet eruit als een gewoon artikel, maar het echte doel is je het drankje laten kopen. Een filmpje dat uitlegt hoe je brood bakt, wil je stap voor stap iets leren doen. Dat er nergens een <strong>auteur</strong> vermeld staat, is altijd een reden om aan de betrouwbaarheid te twijfelen: zonder zender kan je niet nagaan of die deskundig is of wat hij met het bericht wil."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wil je het communicatiemodel op een tekst toepassen, stel dan deze vragen: <em>Wie is de zender? Voor wie is de tekst bedoeld? Via welk kanaal is hij verspreid? Wat is het doel?</em> Hoeveel strofen of alinea's de tekst telt, hoort daar níét bij: dat gaat over vorm, niet over communicatie."
+    }
+   ]
+  },
+  {
+   "kop": "De zeven tekstsoorten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op het examen moet je zeven soorten lees- en luisterteksten kunnen herkennen. Je kijkt daarvoor naar het <strong>hoofddoel</strong> van de zender, niet naar de vorm."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Tekstsoort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wil vooral</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeelden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">informatief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">informatie geven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">krantenartikel, stukje uit een leerboek, interview, reportage</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">persuasief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">overtuigen of beïnvloeden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">reclamefilmpje, folder van een politieke partij, campagne tegen te snel rijden, propaganda, nepnieuws, publireportage</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opiniërend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een mening geven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">recensie, hotelbeoordeling, reactie op een forum, productreview, protestlied</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">prescriptief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">instructies geven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">handleiding, recept, bijsluiter, instructiefilmpje, schoolreglement, veiligheidsvoorschriften</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">narratief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een verhaal vertellen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">videoblog, reisverslag, true crime podcast, verhalend gedicht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">argumentatief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een standpunt opbouwen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pleidooi, betoog, debat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">literair</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">raken, met esthetische waarde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kortverhaal, strip, gedicht, lied, stand-upcomedy</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Drie ervan lijken sterk op elkaar. Een <strong>opiniërende</strong> tekst geeft vooral een oordeel. Een <strong>argumentatieve</strong> tekst bouwt dat oordeel op met argumenten, tegenargumenten en een conclusie: daar is de opbouw de kern. Een <strong>persuasieve</strong> tekst wil je vooral beïnvloeden, desnoods zonder sterke argumenten, met beelden, muziek en gevoel."
+    },
+    {
+     "soort": "kader",
+     "html": "Eén tekst kan tot meer dan één soort behoren. Een reclamespot kan een verhaal vertellen én willen verkopen. Je kijkt dan naar het hoofddoel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee valstrikken. Een <strong>publireportage</strong> reken je niet bij de informatieve teksten: de vorm is informatief, het doel is verkopen, dus is hij persuasief. En een <strong>satirische nieuwssite</strong> is evenmin informatief: het doel is je laten lachen en iets aan de kaak stellen, niet je informeren. Omgekeerd kan een <strong>strip</strong> wel degelijk een literaire tekst zijn: literatuur zit niet alleen in romans."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op dit platform oefen je wat je moet <em>kennen</em>. Maar op het examen Nederlands 1 wegen <strong>spreken</strong> (10 %) en <strong>gesprekken</strong> (30 %) samen <strong>40 %</strong>, en dat leer je niet achter een scherm. Je leert het door het te doen, met echte mensen, die terugpraten, je onderbreken en niet altijd begrijpen wat je bedoelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> bel zelf naar een winkel, een club of een gemeentedienst om iets te vragen, in plaats van het op te zoeken of te mailen. Doe het één keer, en vraag daarna aan de andere of je boodschap aankwam. Dat laatste is de helft van de oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Het communicatiemodel telt acht elementen: zender, boodschap, ontvanger, kanaal, context, doel, effect en ruis.",
+  "Doel is wat de zender wil, effect is wat er werkelijk gebeurt. Die twee lopen vaak uit elkaar.",
+  "Interne ruis zit in de mensen zelf (moe, verstrooid), externe ruis komt van buitenaf (lawaai, slechte verbinding).",
+  "De zeven tekstsoorten: informatief, persuasief, opiniërend, prescriptief, narratief, argumentatief en literair.",
+  "Opiniërend geeft een oordeel, argumentatief bouwt het op, persuasief wil beïnvloeden. Kijk naar het hoofddoel.",
+  "Een publireportage en een satirisch nieuwsbericht lenen de vorm van informatie, maar hebben een ander doel."
+ ]
+}

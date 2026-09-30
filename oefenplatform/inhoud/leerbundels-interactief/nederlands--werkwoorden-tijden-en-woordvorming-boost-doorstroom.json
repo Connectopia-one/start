@@ -1,0 +1,127 @@
+{
+ "vak": "Nederlands",
+ "titel": "Werkwoorden, tijden en woordvorming",
+ "onder": "De soorten werkwoorden, de zes tijden, en hoe het Nederlands nieuwe woorden maakt.",
+ "secties": [
+  {
+   "kop": "De persoonsvorm vinden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>persoonsvorm</strong> is het werkwoord dat in persoon en getal met het onderwerp meegaat. Je vindt hem door de zin <strong>in een andere tijd te zetten</strong>: het werkwoord dat verandert, is de persoonsvorm. <em>'Hij heeft gelopen'</em> wordt <em>'Hij had gelopen'</em>: alleen 'heeft' verandert."
+    },
+    {
+     "soort": "tekst",
+     "html": "In <strong>elke deelzin</strong> staat precies één persoonsvorm. Een samengestelde zin heeft er dus meerdere: één per hoofdzin en één per bijzin."
+    }
+   ]
+  },
+  {
+   "kop": "Drie soorten werkwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>zelfstandig werkwoord</strong> draagt de betekenis van de zin. In <em>'Ik heb het boek helemaal uitgelezen'</em> is dat 'uitgelezen'; 'heb' is daar alleen <strong>hulpwerkwoord</strong>, het helpt de voltooide tijd vormen. In <em>'Hij heeft een fiets'</em> is datzelfde 'heeft' wél zelfstandig werkwoord."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>koppelwerkwoord</strong> koppelt het onderwerp aan een woord dat iets over dat onderwerp zegt: <em>'Zij wordt verpleegkundige'</em>. De koppelwerkwoorden zijn <em>zijn, worden, blijven, blijken, lijken, schijnen, heten, dunken</em> en <em>voorkomen</em>. <em>Lopen</em> hoort er niet bij."
+    }
+   ]
+  },
+  {
+   "kop": "De zes werkwoordstijden en de imperatief",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Tijd</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Herken je aan</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onvoltooid tegenwoordige tijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wij werken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen deelwoord, nu</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voltooid tegenwoordige tijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wij hebben gewerkt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">deelwoord + hulpwerkwoord in de tegenwoordige tijd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onvoltooid verleden tijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wij werkten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen deelwoord, verleden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voltooid verleden tijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ik had gelopen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">deelwoord + hulpwerkwoord in de verleden tijd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onvoltooid toekomende tijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Zij zal morgen komen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zullen + infinitief, geen deelwoord</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voltooid toekomende tijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Zij zal gekomen zijn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zullen + deelwoord</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarnaast is er de <strong>imperatief</strong>, de <strong>gebiedende wijs</strong>: <em>'Kom hier'</em>, <em>'Let op'</em>. Hij heeft geen onderwerp bij zich. De imperatief is dus <em>niet</em> de aanvoegende wijs, en een 'gebiedende toekomende tijd' bestaat niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>infinitief</strong> is de vorm zonder persoon en zonder tijd: <em>lopen</em>, <em>werken</em>. Dat is de vorm die in het woordenboek staat. De <strong>stam</strong> krijg je door <em>-en</em> van de infinitief te halen: <em>wandelen</em> wordt <em>wandel</em>. De stam is dus <strong>niet</strong> hetzelfde als de infinitief. Wat achter de stam komt, is de <strong>uitgang</strong>; die draagt de persoon en het getal."
+    }
+   ]
+  },
+  {
+   "kop": "Congruentie en de dt-regel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Congruentie</strong> is de overeenkomst tussen onderwerp en persoonsvorm. <em>'De doos met oude boeken staan in de gang'</em> is fout: het onderwerp is 'de doos', enkelvoud, niet 'boeken'."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de <strong>derde persoon enkelvoud</strong> komt er een <strong>-t</strong> bij de stam. Eindigt de stam al op een d, dan zie je er twee: <em>word</em> + <em>t</em> wordt <em>wordt</em>. Bij <em>ik word</em> komt er niets bij. En bij <strong>inversie</strong>, als <em>je</em> of <em>jij</em> achter de persoonsvorm staat, valt de -t weg: <em>'Word jij daar niet moe van?'</em>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>voltooid deelwoord</strong> van een <strong>zwak</strong> werkwoord eindigt op -d of -t: <em>gewerkt</em>, <em>gehoord</em>, <em>gebeld</em>. <strong>Sterke</strong> werkwoorden veranderen van klinker: <em>gelopen</em>, <em>gezongen</em>, <em>gevonden</em>. Let op het verschil tussen <em>'Er is iets gebeurd'</em> (deelwoord) en <em>'Er gebeurt iets'</em> (persoonsvorm): allebei van hetzelfde werkwoord, maar niet dezelfde regel."
+    }
+   ]
+  },
+  {
+   "kop": "Samenstellen en afleiden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>samenstelling</strong> zet twee (of meer) bestaande woorden aan elkaar: <em>boekenkast</em>, <em>tafelpoot</em>, <em>voetbalveld</em>, <em>regenjas</em>, <em>deurklink</em>. Allebei de delen kunnen los bestaan. <em>Schoonmaakbedrijf</em> bestaat zelfs uit <strong>drie</strong> woorden."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>afleiding</strong> gebruikt een <strong>voorvoegsel</strong> of een <strong>achtervoegsel</strong> bij een bestaand woord: <em>on-</em> plus <em>vriendelijk</em>, <em>her-</em> plus <em>lezen</em>, <em>schoon</em> plus <em>-heid</em>, <em>lees</em> plus <em>-baar</em>, <em>ont-</em> plus <em>dekken</em>. Zo'n voor- of achtervoegsel kan <strong>niet alleen staan</strong>, en dat is precies het verschil met een samenstelling. <em>Onmogelijk</em> is dus een afleiding, geen samenstelling. En <em>vriendelijkheid</em> is twee keer afgeleid: vriend wordt vriendelijk, vriendelijk wordt vriendelijkheid. Er komt geen tweede woord bij."
+    },
+    {
+     "soort": "tekst",
+     "html": "Soms staat er een <strong>tussenklank</strong> tussen de twee delen van een samenstelling, zoals de <em>-en-</em> in <em>pannenkoek</em>. Hij hoort bij geen van beide woorden apart en lijmt ze aan elkaar. In <em>tafelpoot</em>, <em>schoolbord</em> en <em>raamkozijn</em> zit geen tussenklank: daar plakken de delen rechtstreeks aan elkaar."
+    }
+   ]
+  },
+  {
+   "kop": "Meervoud, verkleinwoord, verbuiging en vervoeging",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De meeste <strong>meervouden</strong> eindigen op -en of -s, maar niet alle: <em>musea</em>, <em>kinderen</em>, <em>eieren</em>. Een handvol woorden verandert van klinker: <em>lid</em> wordt <em>leden</em>, <em>schip</em> wordt <em>schepen</em>, <em>stad</em> wordt <em>steden</em>. En <em>pad</em> wordt <em>paden</em>. Een meervoud op -s krijgt nooit nog eens -en erbij."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>verkleinwoord</strong> op <em>-ing</em> wordt de g een k: <em>koning</em> wordt <em>koninkje</em>, en zo ook <em>woninkje</em> en <em>leerlingetje</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Verbuiging</strong> is de vormverandering van naamwoorden en bijvoeglijke naamwoorden: <em>'een mooi huis'</em> maar <em>'het mooie huis'</em>. <strong>Vervoeging</strong> is hetzelfde, maar dan bij werkwoorden: ik werk, jij werkt, wij werkten. Telkens dezelfde stam, telkens een andere vorm."
+    },
+    {
+     "soort": "weetje",
+     "html": "Woorden met een <strong>veranderlijk woordbeeld</strong> wisselen van letter in een andere vorm: <em>huis</em> wordt <em>huizen</em>, <em>brief</em> wordt <em>brieven</em>, <em>graf</em> wordt <em>graven</em>. Bij <em>boek</em> blijft de k gewoon staan."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op dit platform oefen je wat je moet <em>kennen</em>. Maar op het examen Nederlands 1 wegen <strong>spreken</strong> (10 %) en <strong>gesprekken</strong> (30 %) samen <strong>40 %</strong>, en dat leer je niet achter een scherm. Je leert het door het te doen, met echte mensen, die terugpraten, je onderbreken en niet altijd begrijpen wat je bedoelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> vertel iemand iets wat gisteren gebeurd is, en let erop dat je consequent in de verleden tijd blijft. Vraag achteraf of je ergens omsloeg. Doe het één keer, en vraag daarna aan de andere of je boodschap aankwam. Dat laatste is de helft van de oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "De persoonsvorm vind je door de zin in een andere tijd te zetten. Eén per deelzin.",
+  "Zelfstandig werkwoord draagt de betekenis, hulpwerkwoord helpt een tijd vormen, koppelwerkwoord koppelt.",
+  "Zes tijden plus de imperatief. Zullen + infinitief = onvoltooid toekomende tijd.",
+  "Stam = infinitief min -en. Derde persoon enkelvoud krijgt stam + t, ook als de stam al op d eindigt.",
+  "Bij inversie met je of jij valt de -t weg: word jij.",
+  "Samenstelling: twee echte woorden. Afleiding: een voor- of achtervoegsel dat niet alleen kan staan.",
+  "Verbuiging hoort bij naamwoorden, vervoeging bij werkwoorden."
+ ]
+}

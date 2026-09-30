@@ -1,0 +1,104 @@
+{
+ "vak": "Nederlands",
+ "titel": "De woordsoorten op een rij",
+ "onder": "Elf woordsoorten, en de acht soorten voornaamwoorden die op elkaar lijken.",
+ "secties": [
+  {
+   "kop": "Waarom woordsoorten?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Woordsoorten zijn geen doel op zich. Je hebt ze nodig omdat <strong>spellingregels vaak van de woordsoort afhangen</strong>: of je 'de gekleurde muur' of 'de muur is gekleurd' schrijft, hangt af van hoe het woord gebruikt wordt. En je hebt ze nodig om over taal te kunnen praten."
+    },
+    {
+     "soort": "kader",
+     "html": "Eén woord kan tot meerdere woordsoorten behoren, afhankelijk van zijn plaats in de zin. Kijk dus altijd naar wat een woord <em>doet</em>, niet naar hoe het eruitziet."
+    }
+   ]
+  },
+  {
+   "kop": "De woordsoorten buiten het voornaamwoord",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Woordsoort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zelfstandig naamwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">benoemt een persoon, dier, ding of begrip</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vrijheid, het paard, een idee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bijvoeglijk naamwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zegt iets over een zelfstandig naamwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <b>oude</b> molen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">werkwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zegt wat er gebeurt of is</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">draaien, zijn, worden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lidwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">staat voor een zelfstandig naamwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de, het, een, geen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">telwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">noemt een aantal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">veertien (bepaald), veel (onbepaald)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorzetsel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geeft een verhouding aan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">op, onder, tussen, na, door</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voegwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verbindt zinnen of zinsdelen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">en, maar, of, want, omdat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bijwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zegt iets over een werkwoord, een zin of een ander woord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">snel, gisteren, daar, nauwelijks</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tussenwerpsel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drukt een gevoel of geluid uit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oei, och, hé</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voornaamwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vervangt of bepaalt een naamwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik, deze, die, zich</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>zelfstandig naamwoord</strong> herken je aan het lidwoord dat je ervoor kan zetten. Er zijn drie soorten <strong>lidwoorden</strong>: <strong>bepaald</strong> (de, het), <strong>onbepaald</strong> (een) en <strong>ontkennend</strong> (geen). Een bepaald lidwoord wijst naar iets bekends: <em>'Ik zag de hond'</em> veronderstelt dat je weet welke. <em>'Ik zag een hond'</em> laat het open. Dat <em>geen</em> een lidwoord is, verbaast veel mensen: het is gewoon de ontkenning van <em>een</em>. Zonder lidwoorden klinkt een zin als telegramstijl: <em>'kat sliep op mat'</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het lastigste onderscheid is dat tussen <strong>bijvoeglijk naamwoord</strong> en <strong>bijwoord</strong>. Een bijvoeglijk naamwoord zegt iets over een zelfstandig naamwoord, <em>nooit</em> over een werkwoord. In <em>'Hij loopt snel'</em> zegt 'snel' iets over het werkwoord, dus is het een bijwoord; in <em>'de snelle loper'</em> is hetzelfde woord bijvoeglijk. Hetzelfde geldt voor <em>'Gelukkig regende het niet'</em>: daar zegt 'gelukkig' iets over de hele zin, dus bijwoord. In <em>'een gelukkig kind'</em> is het bijvoeglijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Telwoorden</strong> zijn er ook in twee soorten. <em>Veertien</em> is bepaald: het noemt een precies aantal. <em>Veel</em>, <em>weinig</em> en <em>enkele</em> zijn onbepaald. Het is dus niet zo dat 'drie' een telwoord is en 'veel' een bijvoeglijk naamwoord: allebei zijn het telwoorden."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>voorzetsel</strong> geeft een verhouding aan in plaats, tijd of richting: <em>'De sleutel lag onder de mat'</em>, <em>'Ik wacht op de bus'</em>. Een <strong>voegwoord</strong> verbindt: nevenschikkend zijn <em>en, maar, of, want, dus</em>, onderschikkend <em>omdat, hoewel, als, dat</em>. Een <strong>tussenwerpsel</strong> staat los van de zinsbouw: haal <em>oei</em> of <em>hé</em> weg en de zin blijft gewoon staan."
+    }
+   ]
+  },
+  {
+   "kop": "De acht soorten voornaamwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vakfiche noemt er acht: <strong>persoonlijk</strong>, <strong>bezittelijk</strong>, <strong>aanwijzend</strong>, <strong>vragend</strong>, <strong>betrekkelijk</strong>, <strong>onbepaald</strong>, <strong>wederkerend</strong> en <strong>wederkerig</strong>. 'Bijwoordelijk' staat er niet bij."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeelden</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Herken je aan</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">persoonlijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik, jij, hij, hem, wij, ons</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het vervangt een persoon</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bezittelijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mijn, jouw, zijn, hun</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het zegt bij wie iets hoort</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aanwijzend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">deze, dit, die, dat, zulke</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het wijst iets aan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vragend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie, wat, welke</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het begint een vraag</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">betrekkelijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die, dat, wie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het verwijst terug én begint een bijzin</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onbepaald</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iemand, niemand, iedereen, alles, men</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen bepaalde persoon of zaak</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wederkerend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zich, me, je, ons</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de handeling keert terug naar het onderwerp</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wederkerig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elkaar, mekaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">over en weer, tussen minstens twee</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Wederkerend of wederkerig?</strong> <em>'Ze wasten zich'</em> betekent: elk zichzelf. <em>'Ze wasten elkaar'</em> betekent: de een de ander. Die twee zijn dus <strong>niet</strong> uitwisselbaar; <em>'Ze sloegen elkaar'</em> zegt iets heel anders dan <em>'Ze sloegen zich'</em>. In de eerste en tweede persoon zien wederkerende voornaamwoorden eruit als persoonlijke (<em>me</em>, <em>je</em>, <em>ons</em>), dus kijk naar wat ze doen, niet naar hun vorm."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Betrekkelijk of aanwijzend?</strong> In <em>'Het boek dat ik gisteren las, was spannend'</em> verwijst 'dat' terug naar 'het boek' én begint het een bijzin. Dat dubbele werk doet alleen een betrekkelijk voornaamwoord. En <strong>vragend of betrekkelijk?</strong> In <em>'Wie heeft dat raam opengezet?'</em> begint 'wie' een vraag, dus is het vragend."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Onbepaald.</strong> <em>Men</em> is <strong>geen</strong> persoonlijk maar een onbepaald voornaamwoord, net als <em>iemand</em>, <em>niemand</em>, <em>iedereen</em> en <em>alles</em>. In <em>'Er staat iemand aan de deur'</em> gaat het om een persoon die niet nader bepaald wordt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Zelfstandig of bijvoeglijk gebruikt?</strong> In <em>'Mijn fiets staat buiten'</em> staat het voornaamwoord bij een naamwoord: bijvoeglijk gebruikt. In <em>'De mijne staat buiten'</em> vervangt het dat naamwoord: zelfstandig gebruikt. Hetzelfde bij <em>'Die van mij is groter'</em>: 'die' staat daar alleen en vervangt bijvoorbeeld 'fiets'."
+    },
+    {
+     "soort": "tekst",
+     "html": "Persoonlijke voornaamwoorden hebben <strong>twee vormen</strong>: een onderwerpsvorm (hij, zij, wij) en een andere vorm (hem, haar, ons). Daarom schrijf je <em>'Ik zag hem gisteren'</em> en niet <em>'Ik zag hij'</em>: het voornaamwoord is daar geen onderwerp."
+    },
+    {
+     "soort": "kader",
+     "html": "Verwijswoorden in een tekst zijn meestal voornaamwoorden, precies omdat een voornaamwoord een naamwoord vervangt dat eerder stond. Zo hoef je 'de burgemeester van onze gemeente' niet in elke zin te herhalen."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op dit platform oefen je wat je moet <em>kennen</em>. Maar op het examen Nederlands 1 wegen <strong>spreken</strong> (10 %) en <strong>gesprekken</strong> (30 %) samen <strong>40 %</strong>, en dat leer je niet achter een scherm. Je leert het door het te doen, met echte mensen, die terugpraten, je onderbreken en niet altijd begrijpen wat je bedoelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> leg aan iemand die jonger is dan jij uit wat een bijwoord is, met twee eigen voorbeelden en zonder dit blad erbij. Doe het één keer, en vraag daarna aan de andere of je boodschap aankwam. Dat laatste is de helft van de oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Kijk naar wat een woord doet in de zin, niet naar hoe het eruitziet: hetzelfde woord kan bijwoord of bijvoeglijk naamwoord zijn.",
+  "Drie lidwoorden: bepaald (de, het), onbepaald (een) en ontkennend (geen).",
+  "Veel en weinig zijn onbepaalde telwoorden, geen bijvoeglijke naamwoorden.",
+  "Een tussenwerpsel staat los van de zinsbouw.",
+  "Acht soorten voornaamwoorden: persoonlijk, bezittelijk, aanwijzend, vragend, betrekkelijk, onbepaald, wederkerend en wederkerig.",
+  "Wederkerend (zich) keert terug naar het onderwerp; wederkerig (elkaar) gaat over en weer.",
+  "Men is onbepaald, niet persoonlijk. En een betrekkelijk voornaamwoord begint altijd een bijzin."
+ ]
+}

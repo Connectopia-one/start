@@ -1,0 +1,147 @@
+{
+ "vak": "Nederlands",
+ "titel": "Spelling, leestekens en klanken",
+ "onder": "Hoofdletters, werkwoordspelling, de tekens boven en naast de letters, en wat je hoort tegenover wat je ziet.",
+ "secties": [
+  {
+   "kop": "Veranderlijk woordbeeld",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een woord met een <strong>veranderlijk woordbeeld</strong> krijgt andere letters in een andere vorm. De s wordt een z, de f wordt een v: <em>huis</em> wordt <em>huizen</em>, <em>brief</em> wordt <em>brieven</em>, <em>graf</em> wordt <em>graven</em>. Bij <em>boek</em> blijft de k gewoon staan. Je hoort het verschil, en je schrijft het ook."
+    }
+   ]
+  },
+  {
+   "kop": "Hoofdletters",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wel een hoofdletter</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Geen hoofdletter</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">talen: Nederlands, Frans, Spaans</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dagen: maandag, woensdag</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">landen en streken: België, de Ardennen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maanden: januari, juni</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">plaatsnamen: Madrid, Hasselt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">seizoenen: lente, winter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">feestdagen: Kerstmis, Pasen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beroepen: dokter, leerkracht</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Namen van <strong>talen</strong> krijgen dus wél een hoofdletter, want ze zijn afgeleid van een aardrijkskundige naam. Namen van <strong>dagen en maanden</strong> krijgen er géén. <em>'In januari leert hij Spaans in Madrid'</em> en <em>'Met Pasen gaan we naar de Ardennen'</em> zijn dus allebei juist geschreven."
+    }
+   ]
+  },
+  {
+   "kop": "Diakritische tekens en uitspraaktekens",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Diakritische tekens</strong> veranderen de letter zelf niet; ze zeggen hoe je hem moet lezen. De drie belangrijkste zijn het <strong>trema</strong>, het <strong>koppelteken</strong> en de <strong>apostrof</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>trema</strong> zegt: begin hier een nieuwe klank. Zonder trema zou je <em>ruïne</em> lezen als 'rui'. Zo ook <em>reünie</em>, <em>zeeën</em> en <em>geëerd</em> (ge-eerd). Maar dat geldt alleen <strong>binnen één woorddeel</strong>. Tussen twee delen van een <strong>samenstelling</strong> gebruik je een <strong>koppelteken</strong>, om klinkerbotsing te vermijden: <em>zee-eend</em>, <em>na-apen</em>, <em>auto-ongeval</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>apostrof</strong> houdt de klank van een klinker open (<em>Anna's fiets</em>: zonder apostrof zou je 'Annas' lezen met een korte a) of vervangt weggelaten letters. <em>'s morgens</em> is de juiste schrijfwijze, met de apostrof vooraan en een spatie erna: hij vervangt de weggelaten letters van het oude <em>des</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>accentteken</strong> is een <strong>uitspraakteken</strong>: het legt nadruk. <em>'Ik heb één boek'</em> betekent iets anders dan <em>'Ik heb een boek'</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Werkwoordspelling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij de <strong>derde persoon enkelvoud</strong> komt er een -t bij de stam, ook als die al op een d eindigt: <em>'Hij wordt morgen zestien jaar'</em>. Staat <em>je</em> of <em>jij</em> achter de persoonsvorm, dan valt die -t weg: <em>'Word jij daar niet moe van?'</em>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>voltooid deelwoord</strong> volgt het hele werkwoord, niet de klank. <em>'Er is iets gebeurd'</em> (van gebeuren, dus -d) tegenover <em>'Er gebeurt iets'</em> (persoonsvorm, stam + t). En na <em>heb</em> staat altijd een deelwoord: <em>'Ik heb me verheugd'</em>, nooit 'verheugt'."
+    },
+    {
+     "soort": "tekst",
+     "html": "In de <strong>verleden tijd</strong> komt er -de of -te bij de stam. Eindigt de stam op een medeklinker uit 't kofschip, dan wordt het -te; anders -de. Eindigt de stam al op een d, dan krijg je er twee: <em>bereid</em> + <em>de</em> wordt <em>'ik bereidde'</em>. En let op <em>verhuizen</em>: de stam eindigt op een z, die niet in 't kofschip zit, dus komt er -de bij. Aan het einde van een lettergreep schrijf je die z als s: <em>verhuisde</em>."
+    }
+   ]
+  },
+  {
+   "kop": "De leestekens",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vakfiche noemt deze <strong>interpunctietekens</strong>: de <strong>punt</strong>, de <strong>komma</strong>, het <strong>vraagteken</strong>, het <strong>uitroepteken</strong>, de <strong>dubbele punt</strong>, de <strong>spatie</strong>, het <strong>aanhalingsteken</strong>, het <strong>beletselteken</strong> en het <strong>gedachtestreepje</strong>. Een accentteken staat er niet bij: dat is een uitspraakteken."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ja, ook de <strong>spatie</strong> staat in die lijst. Een spatie te veel of te weinig verandert 'een bejaardentehuis' in iets anders."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>komma</strong> kan de betekenis van een zin veranderen: vergelijk <em>'We eten, oma'</em> met <em>'We eten oma'</em>. Ze scheidt ook de bijzin van de hoofdzin: <em>'Toen de bel ging, stond iedereen op'</em> en <em>'Hoewel het goot, gingen we toch buiten spelen'</em>. Staat de bijzin vooraan, dan komt er een komma voor de hoofdzin begint."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>dubbele punt</strong> kondigt aan: een opsomming, een verklaring of een citaat. Er mag dus nooit niets op volgen. <strong>Aanhalingstekens</strong> zet je rond de <em>letterlijke</em> woorden van iemand anders: <em>Hij zei: “Ik kom morgen.”</em> Verander je er iets aan, dan mogen ze er niet meer staan."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>beletselteken</strong> (drie puntjes) laat een zin onafgemaakt of geeft aarzeling weer. Het <strong>gedachtestreepje</strong> is langer dan een koppelteken en zet een tussenzin of een onderbreking apart, zonder haakjes."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>vraagteken</strong> hoort alleen achter een echte vraag. Achter een <strong>indirecte</strong> vraag komt een punt: <em>'Hij vroeg of ik meekwam.'</em> Er wordt daar niets gevraagd; er wordt verteld dát er iets gevraagd werd."
+    }
+   ]
+  },
+  {
+   "kop": "Klanken: wat je hoort tegenover wat je ziet",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het Nederlands heeft zes <strong>klinkerletters</strong>: a, e, i, o, u en y. Alle andere letters zijn <strong>medeklinkers</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Klinkers zijn <strong>lang</strong> of <strong>kort</strong>. In <em>maan</em> staat een lange aa, in <em>man</em> een korte a; in <em>boot</em> een lange oo, in <em>bot</em> een korte o. Allebei die lettergrepen zijn gesloten, en daarom moet de lange klank met twee letters geschreven worden."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een lettergreep is <strong>open</strong> als ze op een klinker eindigt (<em>lo-pen</em>, <em>ta-fel</em>) en <strong>gesloten</strong> als ze op een medeklinker eindigt (<em>stop-pen</em>, <em>man</em>). Daarop staan twee regels. In een open lettergreep schrijf je een lange klank met één letter: <em>lo-pen</em>, niet 'loopen'. En na een korte klank <strong>verdubbelt</strong> de medeklinker, zodat de lettergreep gesloten blijft en de klank kort: <em>stop-pen</em>, <em>man-nen</em>, <em>bak-ker</em>. Schrijf je 'stopen', dan lees je vanzelf een lange o."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarnaast is er de <strong>doffe klank</strong>: de onbeklemtoonde e, zoals in <em>de</em> en in de laatste lettergreep van <em>lopen</em>. Hij draagt nooit de klemtoon, en daarom hoor je hem amper terwijl hij bijna overal zit."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het onderscheid tussen <strong>klankbeeld</strong> en <strong>schriftbeeld</strong> is: hoe een woord <em>klinkt</em> tegenover hoe je het <em>schrijft</em>. In <em>maan</em> hoor je drie klanken maar zie je vier letters; in <em>hij</em> hoor je er twee en zie je er drie."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Intonatie</strong> ten slotte geeft betekenis en gevoel mee aan dezelfde woorden. <em>'Je komt mee'</em> kan een mededeling, een vraag of een bevel zijn; alleen de toon maakt het verschil. Je maakt er hoorbaar een vraag van door de toon aan het einde omhoog te laten gaan. In geschreven taal moet een vraagteken dat werk overnemen."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op dit platform oefen je wat je moet <em>kennen</em>. Maar op het examen Nederlands 1 wegen <strong>spreken</strong> (10 %) en <strong>gesprekken</strong> (30 %) samen <strong>40 %</strong>, en dat leer je niet achter een scherm. Je leert het door het te doen, met echte mensen, die terugpraten, je onderbreken en niet altijd begrijpen wat je bedoelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> dicteer iemand een kort stukje tekst en laat het daarna omgekeerd doen. Bespreek samen waar jullie twijfelden. Doe het één keer, en vraag daarna aan de andere of je boodschap aankwam. Dat laatste is de helft van de oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Veranderlijk woordbeeld: huis-huizen, brief-brieven, graf-graven.",
+  "Talen, landen en feestdagen krijgen een hoofdletter; dagen en maanden niet.",
+  "Trema binnen één woorddeel (zeeën), koppelteken tussen twee delen van een samenstelling (zee-eend).",
+  "Derde persoon enkelvoud: stam + t, ook bij een stam op d. Bij inversie met je of jij valt de t weg.",
+  "De spatie staat óók in de lijst van interpunctietekens.",
+  "Aanhalingstekens alleen rond letterlijke woorden. Achter een indirecte vraag komt een punt.",
+  "Zes klinkerletters. Lang, kort en dof. Klankbeeld is niet hetzelfde als schriftbeeld."
+ ]
+}

@@ -1,0 +1,117 @@
+{
+ "vak": "Nederlands",
+ "titel": "Argumenteren: stelling, argumentsoort en drogreden",
+ "onder": "Feiten en meningen scheiden, een betoog opbouwen, en redeneringen herkennen die alleen maar goed klinken.",
+ "secties": [
+  {
+   "kop": "Feit of mening",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>feit</strong> kan je nagaan: er bestaat een bron die uitsluitsel geeft. <em>'De film duurt honderdtweeënveertig minuten'</em> en <em>'De temperatuur lag gisteren zes graden boven het gemiddelde'</em> zijn feiten. Een <strong>mening</strong> geeft een oordeel: <em>'De film duurt veel te lang'</em>, <em>'Het is schandalig dat dit mag'</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Naast een feit en een mening staat de <strong>aanname</strong>: iets wat de schrijver als vanzelfsprekend veronderstelt zonder het te zeggen. <em>'Iedereen wil toch gewoon op tijd op het werk zijn'</em> is geen feit en niet echt een mening, maar een aanname waarop de rest van de redenering steunt. Wie kritisch leest, haalt die aannames naar boven, want daar zit vaak het zwakke punt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een mening wordt <strong>geen</strong> feit doordat veel mensen het ermee eens zijn. Hoeveel mensen iets vinden, verandert niets aan de vraag of het nagegaan kan worden. Dát veel mensen iets vinden, is trouwens zelf wél een feit."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je herkent een mening aan <strong>waardewoorden</strong> (schitterend, belachelijk, lelijk, schandalig), aan uitroeptekens middenin de tekst, en aan formuleringen als <em>volgens mij</em>, <em>ik vind</em> of <em>zou moeten</em>. Een jaartal of een meting is daarentegen gewoon een gegeven. Waarom dat onderscheid telt als je wil overtuigen? Omdat je lezer anders niet weet wat hij kan nagaan, en een mening die als feit gepresenteerd wordt oneerlijk aanvoelt."
+    }
+   ]
+  },
+  {
+   "kop": "De bouwstenen van een betoog",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>stelling</strong> is de bewering waarover de discussie gaat. Een goede stelling is <strong>discutabel</strong>: je kan er redelijkerwijs voor of tegen zijn. <em>'Huiswerk moet worden afgeschaft'</em> kan dienen als stelling voor een debat; <em>'Onze school telt achthonderd leerlingen'</em> niet, want dat is een feit."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>standpunt</strong> is de kant die jij kiest tegenover die stelling: <em>'Ik ben daartegen.'</em> Stelling en standpunt zijn dus niet hetzelfde: de stelling staat ter discussie, het standpunt is jouw positie."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>argument</strong> is de reden die je geeft om je standpunt te steunen. Een <strong>tegenargument</strong> is een reden die tégen de stelling pleit. De <strong>conclusie</strong> is wat je op het einde uit je argumenten afleidt; ze mag niet meer beweren dan de argumenten dragen."
+    },
+    {
+     "soort": "kader",
+     "html": "Een sterk betoog <strong>noemt</strong> de tegenargumenten en <strong>weerlegt</strong> ze. Weerleggen is het tegenargument eerst eerlijk noemen en er dan een reden tegenover zetten. Wie de tegenargumenten verzwijgt, komt zwakker over, niet sterker."
+    },
+    {
+     "soort": "tekst",
+     "html": "De opbouw van een argumentatieve tekst is dus: een duidelijke stelling, argumenten die haar steunen, een weerlegging van de tegenargumenten, en een conclusie. Een rijmschema hoort daar niet bij."
+    }
+   ]
+  },
+  {
+   "kop": "Soorten argumentatie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een argument kan op verschillende manieren steunen. De vakfiche noemt er vijf, en je moet ze kunnen herkennen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeldzin</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar let je op</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vergelijking</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">In Finland werkt dit al vijftien jaar, dus het kan hier ook.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Zijn de twee gevallen echt vergelijkbaar?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oorzaak en gevolg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Door de nieuwe maatregel daalde het aantal ongevallen.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Is het verband aangetoond, of alleen verondersteld?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wetenschappelijk onderzoek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Uit een studie van de universiteit blijkt dat ...</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wie deed het onderzoek, bij hoeveel mensen?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cijfers en statistieken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Acht op de tien leerlingen zegt te weinig te slapen.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Hoeveel mensen zijn bevraagd, en door wie?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">autoriteit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Een arts zegt dat dit ongezond is.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Spreekt de deskundige binnen zijn eigen vakgebied?</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een beroep op een autoriteit is dus <strong>niet</strong> altijd een drogreden. Een arts over gezondheid is een geldig argument; dezelfde arts over belastingtarieven niet. En een argument op basis van <strong>oorzaak en gevolg</strong> is evenmin per definitie fout: het wordt pas een drogreden als je een verband verzint dat er niet is. Een argument moet trouwens niet altijd met cijfers onderbouwd zijn; cijfers zijn maar één van de vijf soorten."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je maakt een argument sterker door te noemen waar je gegeven vandaan komt, je cijfers controleerbaar te maken en het sterkste tegenargument te weerleggen. Een groter lettertype verandert niets aan de redenering."
+    }
+   ]
+  },
+  {
+   "kop": "Drogredenen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>drogreden</strong> is een redenering die overtuigend klinkt maar niet deugt. Je moet ze in je eigen tekst vermijden en in die van anderen herkennen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Drogreden</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Klinkt als</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat er mis is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">persoonlijke aanval</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Jij hebt nooit gewerkt, dus over lonen moet jij zwijgen.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de persoon wordt aangevallen in plaats van zijn argument</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beroep op de massa</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Iedereen in onze klas doet het, dus het kan geen kwaad.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dat velen iets doen, bewijst niet dat het goed is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cirkelredenering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Dit boek is goed, want het is een goed boek.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de stelling wordt als argument voor zichzelf gebruikt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vals dilemma</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Of we verbieden alle auto's, of we laten het klimaat stikken.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee uitersten, alsof er niets tussenin ligt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stroman</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Jij wil dus dat niemand nog iets mag.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de mening van de tegenstander wordt verdraaid tot iets wat makkelijk te weerleggen is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">overhaaste veralgemening</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Mijn overgrootvader rookte tot zijn 95ste, dus roken is niet ongezond.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uit één geval wordt een algemene regel gemaakt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">glijdende schaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Als we dit ene uitzonderingetje toestaan, eindigt het met totale chaos.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één kleine stap zou onvermijdelijk tot een ramp leiden, zonder bewijs</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">autoriteit buiten zijn vak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Een bekende voetballer zegt dat dit gezond is.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de deskundige spreekt over iets anders dan zijn vakgebied</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Eén valstrik komt zo vaak voor dat ze een eigen zin verdient: <em>'Sinds de nieuwe burgemeester er is, regent het meer. Hij is dus de oorzaak.'</em> Dat twee dingen na elkaar gebeuren, bewijst niet dat het ene het andere veroorzaakt. Volgorde in de tijd is geen oorzaak."
+    },
+    {
+     "soort": "tekst",
+     "html": "Als je een argumentatieve tekst <strong>beoordeelt</strong>, weeg je dus de redenering zelf: dragen de argumenten de conclusie, en zijn de gegevens betrouwbaar? Niet of de tekst mooi opgemaakt is, of de schrijver bekend is, of hoeveel alinea's er staan."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op dit platform oefen je wat je moet <em>kennen</em>. Maar op het examen Nederlands 1 wegen <strong>spreken</strong> (10 %) en <strong>gesprekken</strong> (30 %) samen <strong>40 %</strong>, en dat leer je niet achter een scherm. Je leert het door het te doen, met echte mensen, die terugpraten, je onderbreken en niet altijd begrijpen wat je bedoelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> verdedig aan tafel een standpunt waar je het zelf niet helemaal mee eens bent, met twee argumenten en een weerlegging. Doe het één keer, en vraag daarna aan de andere of je boodschap aankwam. Dat laatste is de helft van de oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een feit kan je nagaan, een mening niet. Veel bijval maakt van een mening nog geen feit.",
+  "Stelling = de bewering die ter discussie staat. Standpunt = de kant die jij kiest.",
+  "Een betoog: stelling, argumenten, weerlegging van tegenargumenten, conclusie.",
+  "Vijf soorten argumentatie: vergelijking, oorzaak en gevolg, onderzoek, cijfers, autoriteit.",
+  "Een autoriteitsargument is geldig binnen het vakgebied van de deskundige, daarbuiten niet.",
+  "Ken de drogredenen: persoonlijke aanval, beroep op de massa, cirkelredenering, vals dilemma, stroman, overhaaste veralgemening, glijdende schaal.",
+  "Na elkaar gebeuren is niet hetzelfde als door elkaar veroorzaakt worden."
+ ]
+}

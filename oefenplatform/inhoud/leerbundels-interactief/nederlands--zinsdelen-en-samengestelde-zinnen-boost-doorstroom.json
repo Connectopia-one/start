@@ -1,0 +1,109 @@
+{
+ "vak": "Nederlands",
+ "titel": "Zinsdelen en samengestelde zinnen",
+ "onder": "De zin uit elkaar halen, en het verschil tussen actief en passief, enkelvoudig en samengesteld.",
+ "secties": [
+  {
+   "kop": "De zinsdelen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>zinsdeel</strong> bestaat lang niet altijd uit één woord: <em>'de hond van de buren'</em> is één zinsdeel van vijf woorden. Je verplaatst een zinsdeel altijd in zijn geheel, en daaraan merk je waar het begint en eindigt: <em>'De hele nacht blaft de hond van de buren.'</em>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Zinsdeel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vraag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onderwerp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie of wat + persoonsvorm?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><b>De postbode</b> bracht mijn oma een pakje.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">persoonsvorm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">welk werkwoord verandert van tijd?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">De postbode <b>bracht</b> ...</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">werkwoordelijk gezegde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat gebeurt er?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Hij <b>loopt</b>.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">naamwoordelijk gezegde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">koppelwerkwoord + naamwoordelijk deel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Zij <b>is verpleegkundige</b>.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lijdend voorwerp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie of wat + persoonsvorm + onderwerp?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">De postbode bracht mijn oma <b>een pakje</b>.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meewerkend voorwerp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kan je er 'aan' of 'voor' voor zetten?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Hij geeft <b>zijn beste vriend</b> een boek.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorzetselvoorwerp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ligt het voorzetsel vast bij het werkwoord?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Hij wacht <b>op de trein</b>.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">handelend voorwerp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie doet het echt, in een lijdende zin?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">De brief werd <b>door de directeur</b> ondertekend.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bijwoordelijke bepaling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waar, wanneer, hoe, waarom?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><b>Gisteren</b> fietste ze <b>door de regen</b> <b>naar school</b>.</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>onderwerp</strong> vind je met <em>wie of wat + persoonsvorm</em>. Let op dat je het hele zinsdeel neemt, niet alleen het kernwoord. Het <strong>lijdend voorwerp</strong> vind je met <em>wie of wat + persoonsvorm + onderwerp</em>: wie of wat bracht de postbode? Een pakje. Het heet zo omdat het de handeling <em>lijdt</em>; in de lijdende vorm wordt het het onderwerp."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>meewerkend voorwerp</strong> herken je aan de proef met <em>aan</em> of <em>voor</em>: hij geeft een boek <em>aan</em> zijn beste vriend. Het <strong>voorzetselvoorwerp</strong> herken je eraan dat het voorzetsel <strong>vastligt bij het werkwoord</strong>: je wacht <em>óp</em> iets, je rekent <em>óp</em> iemand, je twijfelt <em>áán</em> iets. In <em>'hij zit op de bank'</em> kan het voorzetsel wél wisselen (naast, onder), en dan is het een bijwoordelijke bepaling."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>bijwoordelijke bepaling</strong> is meestal <strong>weglaatbaar</strong>. Ze is dus niet verplicht: <em>'Gisteren fietste ze naar school'</em> blijft een zin zonder 'gisteren'. Het enige zinsdeel dat nooit ontbreekt in een Nederlandse mededelende zin is de <strong>persoonsvorm</strong>: zonder persoonsvorm heb je geen zin maar een woordgroep."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>koppelwerkwoord</strong> hoort het naamwoordelijke deel bij het gezegde. In <em>'De kinderen zijn moe'</em> is 'zijn moe' samen het <strong>naamwoordelijk gezegde</strong>. Het verschil met een werkwoordelijk gezegde: bij een werkwoordelijk gezegde <em>gebeurt</em> er iets, bij een naamwoordelijk gezegde wordt er iets <em>over het onderwerp gezegd</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Actief en passief",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In de <strong>bedrijvende vorm</strong> doet het onderwerp de handeling: <em>'De hond bijt de postbode.'</em> In de <strong>lijdende vorm</strong> wordt het lijdend voorwerp het onderwerp, en verschijnt de echte uitvoerder in een <strong>door-groep</strong>, het handelend voorwerp: <em>'De postbode wordt door de hond gebeten.'</em>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Zet je <em>'De gemeente heeft het plein heraangelegd'</em> in de lijdende vorm, dan krijg je <em>'Het plein is door de gemeente heraangelegd.'</em> De inhoud blijft, de nadruk verschuift."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een lijdende zin kan het <strong>handelend voorwerp weglaten</strong>, want het onderwerp is al bezet. <em>'De ramen werden gelapt'</em> is een volledige zin. Precies daarom gebruiken ambtelijke teksten de lijdende vorm zo graag: <em>'Uw aanvraag werd afgewezen'</em> verzwijgt wie besliste. Het maakt zulke teksten ook moeilijker leesbaar, en dat is wat de fiche bedoelt met <em>passiefconstructies die een tekst moeilijker maken</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Soorten zinnen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Naar <strong>bedoeling</strong> onderscheid je: <strong>mededelende</strong>, <strong>vragende</strong>, <strong>bevelende</strong> en <strong>uitroepende</strong> zinnen. Daarnaast is een zin <strong>bevestigend</strong> of <strong>ontkennend</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>'Kom onmiddellijk hier!'</em> is een <strong>bevelende</strong> zin: de persoonsvorm staat in de gebiedende wijs en er is geen onderwerp. Het uitroepteken maakt er nog geen uitroepende zin van. <em>'Wat is dat mooi!'</em> is wél uitroepend: de zin begint met een vraagwoord maar vraagt niets, hij drukt verwondering uit. En niet elke vraagzin begint met een vraagwoord: <em>'Ga jij mee?'</em> begint met de persoonsvorm."
+    }
+   ]
+  },
+  {
+   "kop": "Enkelvoudig, samengesteld, neven- en onderschikkend",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Tel de <strong>persoonsvormen</strong>. Eén betekent <strong>enkelvoudig</strong>, meer dan één betekent <strong>samengesteld</strong>. <em>'De hond van de buren blaft de hele nacht'</em> is enkelvoudig. <em>'Ik blijf thuis omdat het regent'</em>, <em>'Hij belde aan en zij deed open'</em> en <em>'Toen ik binnenkwam, was iedereen al weg'</em> zijn samengesteld."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>nevenschikking</strong> koppel je twee gelijkwaardige hoofdzinnen, met <em>en, maar, of, want, dus</em>. Bij <strong>onderschikking</strong> hangt de ene zin van de andere af: <em>omdat, hoewel, als, dat, toen</em>. <em>'Omdat het regende'</em> kan niet alleen staan; zo'n zin heeft een hoofdzin nodig."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je herkent een <strong>bijzin</strong> aan het onderschikkend voegwoord vooraan en aan de persoonsvorm achteraan: <em>'Hoewel hij doodmoe was, ging hij toch trainen.'</em> In een <strong>hoofdzin</strong> staat de persoonsvorm op de <strong>tweede plaats</strong>; in een bijzin schuift hij juist naar achteren."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Inversie</strong> betekent dat het onderwerp achter de persoonsvorm komt te staan. Dat gebeurt zodra er iets anders dan het onderwerp vooraan staat: <em>'Morgen ga ik naar de markt'</em>, niet <em>'Morgen ik ga'</em>. De persoonsvorm blijft immers op plaats twee."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op dit platform oefen je wat je moet <em>kennen</em>. Maar op het examen Nederlands 1 wegen <strong>spreken</strong> (10 %) en <strong>gesprekken</strong> (30 %) samen <strong>40 %</strong>, en dat leer je niet achter een scherm. Je leert het door het te doen, met echte mensen, die terugpraten, je onderbreken en niet altijd begrijpen wat je bedoelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> vraag iemand een lange zin uit te spreken en probeer hem samen te ontleden: onderwerp, persoonsvorm, en wat er verder in zit. Doe het één keer, en vraag daarna aan de andere of je boodschap aankwam. Dat laatste is de helft van de oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een zinsdeel verplaats je in zijn geheel. Zo weet je waar het begint en eindigt.",
+  "Onderwerp: wie of wat + persoonsvorm. Lijdend voorwerp: dezelfde vraag, maar met het onderwerp erbij.",
+  "Meewerkend voorwerp: er kan 'aan' of 'voor' voor. Voorzetselvoorwerp: het voorzetsel ligt vast bij het werkwoord.",
+  "De bijwoordelijke bepaling is meestal weglaatbaar. Alleen de persoonsvorm ontbreekt nooit.",
+  "In de lijdende vorm wordt het lijdend voorwerp onderwerp en komt de uitvoerder in een door-groep.",
+  "Tel de persoonsvormen: één = enkelvoudig, meer = samengesteld.",
+  "Hoofdzin: persoonsvorm op plaats twee. Bijzin: persoonsvorm achteraan. Inversie: onderwerp achter de persoonsvorm."
+ ]
+}

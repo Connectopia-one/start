@@ -1,0 +1,110 @@
+{
+ "vak": "Nederlands",
+ "titel": "Poëzie, drama en literaire stromingen",
+ "onder": "Dichtvormen en rijm, het toneel op de planken, en de drie stromingen die je moet kunnen toepassen.",
+ "secties": [
+  {
+   "kop": "Dichtvormen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kenmerk</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">haiku</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie regels, vijf-zeven-vijf lettergrepen, geen rijm, meestal een natuurbeeld</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">limerick</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vijf regels, rijmschema aabba, grappig, met de clou op het einde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ballade</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een verhalend gedicht, vaak met een refrein</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">naamdicht of acrostichon</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de beginletters van de regels vormen samen een woord</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vrij vers</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen vast rijm en geen vaste maat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sonnet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">veertien versregels, meestal een octaaf van acht en een sextet van zes</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">minneliederen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">middeleeuwse liederen over de liefde</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Let op de valstrik: een <strong>klucht</strong> is geen dichtvorm maar een toneelvorm."
+    }
+   ]
+  },
+  {
+   "kop": "Rijm, ritme en strofen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Eindrijm</strong> is rijm aan het einde van de versregels; <strong>volrijm</strong> is rijm waarbij de hele klank vanaf de beklemtoonde klinker gelijk is. Daarnaast zijn er drie <strong>rijmschema's</strong>: <strong>gepaard</strong> rijm is aabb, <strong>gekruist</strong> rijm is abab (het rijm springt telkens een regel over), en <strong>omarmend</strong> rijm is abba (de buitenste twee regels sluiten de binnenste in, als armen eromheen). 'Blank rijm' staat niet in de lijst van de fiche."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Alliteratie</strong> is dezelfde <em>beginmedeklinker</em> in woorden vlak na elkaar: <em>ruisend riet</em>, <em>tussen twee torens</em>. <strong>Assonantie</strong> is de tegenhanger: dezelfde <em>klinkerklank</em> in woorden vlak na elkaar. Allebei maken ze een regel hoorbaar, ook zonder eindrijm."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij het <strong>ritme</strong> hoort het <strong>enjambement</strong>: een zin die doorloopt over het einde van de versregel heen. De regel breekt af waar de zin nog niet af is, en die <strong>breuk</strong> legt nadruk op het woord er vlak voor en er vlak na. Je oog valt van de regel af terwijl de zin doorloopt; die kleine aarzeling is het effect."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>vers</strong> is één regel, een <strong>strofe</strong> een groepje regels. In de poëzie betekent 'vers' dus niet hetzelfde als in het dagelijks taalgebruik, waar het vaak het hele gedicht aanduidt. De strofevormen: een <strong>terzine</strong> telt drie regels, een <strong>kwatrijn</strong> vier, een <strong>sextet</strong> zes en een <strong>octaaf</strong> acht. Twee kwatrijnen vormen samen het octaaf van een sonnet; twee terzinen samen het sextet. Een <strong>refrein</strong> is een regel of strofe die telkens terugkeert."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>stijlfiguren</strong> die de fiche noemt zijn: <strong>beeldspraak</strong>, <strong>vergelijking</strong>, <strong>metafoor</strong>, <strong>woordspeling</strong>, <strong>herhaling</strong>, <strong>personificatie</strong> en <strong>overdrijving</strong>. Het enjambement staat er niet bij: dat hoort onder ritme."
+    }
+   ]
+  },
+  {
+   "kop": "Drama",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Vier subgenres. Een <strong>tragedie</strong> loopt slecht af voor de hoofdpersoon, die ten onder gaat, vaak door een eigenschap die hem eerst juist groot maakte. Een <strong>komedie</strong> loopt goed af, hoe veel er onderweg ook misgaat. Een <strong>klucht</strong> is een kort toneelstuk met grove, volkse humor, vol misverstanden, verkleedpartijen en herkenbare types. <strong>Muziektheater</strong> is toneel waarin gezongen wordt, zoals een musical of een opera."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>opvoeringsanalyse</strong> kijk je juist naar alles wat de tekst <em>niet</em> is: <strong>decor</strong>, <strong>belichting</strong>, <strong>ruimte</strong>, <strong>rekwisieten</strong>, <strong>mimiek</strong>, <strong>gebaren</strong>, <strong>kostumering</strong>, <strong>grime</strong>, <strong>muziek en geluid</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Rekwisieten</strong> zijn de voorwerpen die de spelers gebruiken: een brief, een glas, een wapen. De kleren heten <strong>kostumering</strong>, en de schmink waarmee een acteur er ouder of anders uitziet is de <strong>grime</strong>. Samen bepalen die twee hoe een personage er van ver uitziet, en ze zeggen iets over zijn stand, zijn tijd en zijn karakter nog voor hij iets gezegd heeft."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Belichting</strong> stuurt de aandacht en bepaalt de sfeer: één lichtbundel op één speler zegt 'kijk hier', en koud blauw licht zegt iets anders dan warm geel. <strong>Mimiek</strong> is belangrijk omdat een gezicht iets anders kan zeggen dan de woorden: een personage dat <em>'het gaat prima'</em> zegt met angst op zijn gezicht, vertelt je twee dingen tegelijk."
+    }
+   ]
+  },
+  {
+   "kop": "Drie literaire stromingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De fiche vraagt dat je de kenmerken van drie stromingen op een tekst kan toepassen: de <strong>middeleeuwen</strong>, de <strong>romantiek</strong> en het <strong>realisme</strong>. De barok staat er niet bij."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stroming</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kenmerken</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Herken je aan</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">middeleeuwen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">getallensymboliek, dubbele gelaagdheid, hoofse liefde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie, zeven en twaalf duiken niet toevallig op</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">romantiek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gevoel, verbeelding, het verlangende individu</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dromerig verlangen, natuur, het verre en het verleden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">realisme</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de werkelijkheid zoals ze is</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sociale wantoestanden, zoals kinderarbeid</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Getallensymboliek</strong> is de betekenis die middeleeuwse teksten aan bepaalde getallen geven. <strong>Dubbele gelaagdheid</strong> betekent dat er onder het verhaal een tweede betekenis ligt: een tekst over de belegering en verovering van een kasteel kan een metafoor zijn voor de manier waarop een meisje het hof wordt gemaakt. Wie alleen de bovenlaag leest, mist de helft. De <strong>hoofse liefde</strong> hoort ook bij de middeleeuwen, niet bij de romantiek: de ridder vereert zijn dame van op afstand en probeert haar met daden te verdienen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>realistische</strong> literatuur confronteerde haar lezers met de <strong>wantoestanden in de maatschappij</strong>, zoals kinderarbeid. Dat is precies waarom de fiche vraagt of je kan uitleggen in welke mate een tekst relevant is voor jouw leefwereld, voor onze samenleving, of voor de samenleving waarin hij ontstond: een verhaal over kinderarbeid uit 1880 leest anders als je weet dat het toen echt gebeurde. En daarom is het nuttig te weten in welke tijd een tekst ontstond: de stroming verklaart waarom hij eruitziet zoals hij eruitziet."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op dit platform oefen je wat je moet <em>kennen</em>. Maar op het examen Nederlands 1 wegen <strong>spreken</strong> (10 %) en <strong>gesprekken</strong> (30 %) samen <strong>40 %</strong>, en dat leer je niet achter een scherm. Je leert het door het te doen, met echte mensen, die terugpraten, je onderbreken en niet altijd begrijpen wat je bedoelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> lees een gedicht hardop voor aan iemand en vraag daarna wat hij eruit haalde. Vergelijk dat met wat jij eruit haalde. Doe het één keer, en vraag daarna aan de andere of je boodschap aankwam. Dat laatste is de helft van de oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een sonnet telt veertien regels: een octaaf van acht en een sextet van zes.",
+  "Gepaard rijm aabb, gekruist abab, omarmend abba.",
+  "Alliteratie herhaalt de beginmedeklinker, assonantie de klinkerklank.",
+  "Terzine 3, kwatrijn 4, sextet 6, octaaf 8. Een vers is één regel, een strofe een groepje.",
+  "Enjambement hoort bij ritme, niet bij de stijlfiguren.",
+  "Vier subgenres van drama: tragedie, komedie, klucht en muziektheater.",
+  "Opvoeringsanalyse gaat over alles buiten de tekst: decor, licht, geluid, rekwisieten, kostumering, grime, mimiek.",
+  "Drie stromingen: middeleeuwen (getallensymboliek, hoofse liefde), romantiek (gevoel), realisme (wantoestanden)."
+ ]
+}
