@@ -1,0 +1,383 @@
+# -*- coding: utf-8 -*-
+"""De vragen voor "Standaardtaal, tussentaal en register" (🚀 Boost doorstroom, Nederlands).
+
+Uit het onderdeel taalbeschouwing van allebei de vakfiches. Nederlands 1 legt
+de nadruk op het kiezen van een gepast register en op de beleefdheidsconventies,
+Nederlands 2 op het herkennen van taalvariëteiten en van cultuurgebonden
+verbale en non-verbale communicatie.
+
+Deel 1 gaat over register en beleefdheid. Deel 2 over standaardtaal, tussentaal,
+dialect, jargon, jongerentaal en non-verbale communicatie.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Je schrijft een mail om te solliciteren voor een vakantiejob. Welk register past?",
+        opties=["formeel", "informeel", "jongerentaal", "dialect"],
+        antwoord=0,
+        uitleg="Je kent de ontvanger niet en er staat iets op het spel. Dan kies je de formele kant van het register.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat hoort bij een formele mail?",
+        opties=[
+            "de ontvanger aanspreken met u",
+            "volledige zinnen zonder afkortingen",
+            "een afsluiting als 'Met vriendelijke groeten'",
+            "een rij smileys onder je naam",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Smileys horen bij informele communicatie. De drie andere horen bij het formele register.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de toon en de woordkeuze die je aan de situatie aanpast?",
+        antwoord=["register", "het register"],
+        uitleg="Je hebt drie registers: formeel, neutraal en informeel. Ze zijn geen van drie beter dan de andere; ze passen elk bij een andere situatie.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een formele brief sluit je af met 'groetjes'.",
+        antwoord=False,
+        uitleg="'Groetjes' hoort bij het informele register. In een formele brief schrijf je bijvoorbeeld 'Met vriendelijke groeten'.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wanneer spreek je iemand in het Nederlands met 'u' aan?",
+        opties=[
+            "bij een volwassene met wie je geen nauwe band hebt",
+            "bij iedereen die ouder is dan achttien jaar",
+            "alleen bij mensen die je nog nooit gezien hebt",
+            "alleen in geschreven taal, nooit in een gesprek",
+        ],
+        antwoord=0,
+        uitleg="Het gaat om de afstand in de relatie, niet louter om leeftijd. Een oom van veertig spreek je met je aan, een onbekende arts van dertig met u.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke zin staat in het neutrale register?",
+        opties=[
+            "Kan je me laten weten wanneer de les begint?",
+            "Zou u mij vriendelijk willen meedelen wanneer de les aanvangt?",
+            "Hey, wanneer start die les eigenlijk?",
+            "Wanneer begint da ding nu weer?",
+        ],
+        antwoord=0,
+        uitleg="De tweede is uitgesproken formeel, de derde en vierde informeel. De eerste kan overal.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de ongeschreven omgangsregels die bepalen wat beleefd is in een gesprek?",
+        antwoord=["beleefdheidsconventies", "de beleefdheidsconventies"],
+        uitleg="Iemand laten uitspreken, groeten voor je iets vraagt, bedanken: dat zijn conventies, en ze verschillen per cultuur.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Het register dat je kiest, hangt af van je ontvanger en van de situatie.",
+        antwoord=True,
+        uitleg="Dezelfde boodschap schrijf je anders aan je beste vriendin dan aan de directeur van je school.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke keuzes horen bij informeel taalgebruik?",
+        opties=[
+            "de ontvanger aanspreken met je",
+            "afkortingen zoals 'ff' gebruiken",
+            "emoji's in je bericht zetten",
+            "beginnen met 'Geachte mevrouw'",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="'Geachte mevrouw' is de formele aanspreking bij uitstek.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is er mis met: 'Beste directeur, ik kom morgen ni naar school want ik ben ziek. Ciao!'?",
+        opties=[
+            "de aanspreking is formeel, de rest van het bericht niet",
+            "de boodschap is onduidelijk en te weinig uitgewerkt",
+            "er staat geen enkel signaalwoord in het bericht",
+            "de zender en de ontvanger zijn niet te achterhalen",
+        ],
+        antwoord=0,
+        uitleg="Een bericht moet in één register blijven. 'Ni' en 'Ciao' vallen uit de toon na 'Beste directeur'.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Informeel taalgebruik is altijd fout.",
+        antwoord=False,
+        uitleg="In een gesprek met vrienden ondersteunt informele taal de boodschap net. Ze is pas ongepast in een formele situatie.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom vermijd je jongerentaal in een sollicitatiegesprek?",
+        opties=[
+            "omdat ze in die situatie ongepast overkomt",
+            "omdat ze grammaticaal altijd fout is",
+            "omdat volwassenen ze nooit begrijpen",
+            "omdat ze uit andere talen geleend is",
+        ],
+        antwoord=0,
+        uitleg="Jongerentaal is niet slecht Nederlands, ze hoort alleen in een andere context thuis.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="De drie registers zijn: formeel, ___ en informeel.",
+        antwoord=["neutraal", "het neutrale"],
+        uitleg="Het neutrale register is het veilige midden: niet stijf, niet familiair.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom zet je in een klachtenmail beter geen rij uitroeptekens?",
+        opties=[
+            "omdat ze boos overkomen en de ontvanger in het defensief duwen",
+            "omdat uitroeptekens in het Nederlands niet bestaan",
+            "omdat een mail geen leestekens mag bevatten",
+            "omdat je klacht dan geen feiten meer bevat",
+        ],
+        antwoord=0,
+        uitleg="Leestekens zijn ook toon. Wie zakelijk en concreet blijft, krijgt meestal sneller een oplossing.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Wie het verkeerde register kiest, kan onbeleefd overkomen zonder dat te willen.",
+        antwoord=True,
+        uitleg="Het gaat vaak niet om wat je zegt maar om hoe. Tutoyeren waar iemand 'u' verwacht, komt aan als gebrek aan respect.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je mailt een school waarvan je de naam van de contactpersoon niet kent. Welke aanspreking kies je?",
+        opties=[
+            "Geachte heer of mevrouw",
+            "Hallo allemaal",
+            "Beste iedereen daar",
+            "Hey, met mij hier",
+        ],
+        antwoord=0,
+        uitleg="Als je de naam niet kent, gebruik je de neutrale formele aanspreking. De andere drie zijn te familiair.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat helpt je om je taal aan je ontvanger aan te passen?",
+        opties=[
+            "weten wie die ontvanger is",
+            "weten welke relatie je met hem hebt",
+            "weten via welk kanaal je schrijft",
+            "weten hoeveel alinea's je zal nodig hebben",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Het aantal alinea's volgt uit je inhoud. De drie andere bepalen je toon.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="De vakfiche vraagt dat je communicatie 'gepast' is. Wat betekent dat?",
+        opties=[
+            "dat ze past bij de ontvanger en de situatie",
+            "dat ze zo kort mogelijk gehouden is",
+            "dat ze geen enkele spelfout bevat",
+            "dat ze altijd in de standaardtaal staat",
+        ],
+        antwoord=0,
+        uitleg="Helder, gepast, correct en vlot zijn vier aparte eisen. Correct gaat over spelling, gepast over register.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke afsluiting past bij een formele mail?",
+        opties=[
+            "Met vriendelijke groeten",
+            "Dikke kus",
+            "Later nog",
+            "Ciao",
+        ],
+        antwoord=0,
+        uitleg="De drie andere horen thuis in een bericht aan iemand die je goed kent.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom let je in een sollicitatiemail zoveel meer op je spelling dan in een appje aan je vriend?",
+        opties=[
+            "omdat de ontvanger er een beeld van jou uit opmaakt",
+            "omdat een mail technisch strengere regels heeft",
+            "omdat een appje geen echte tekst is",
+            "omdat spelling alleen op papier telt",
+        ],
+        antwoord=0,
+        uitleg="Je taalgebruik maakt deel uit van de indruk die je nalaat, zeker bij iemand die je verder niet kent.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat is standaardtaal?",
+        opties=[
+            "de variëteit die in het hele taalgebied als gepast geldt in formele situaties",
+            "de taal die de meeste mensen thuis met elkaar spreken",
+            "de oudste vorm van het Nederlands, uit de middeleeuwen",
+            "de taal die alleen in Nederland en niet in Vlaanderen geldt",
+        ],
+        antwoord=0,
+        uitleg="Standaardtaal is een afspraak, geen natuurwet. Ze is bruikbaar over heel het taalgebied heen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Veel Vlamingen zeggen 'ge' en 'gij' waar de standaardtaal 'je' en 'jij' heeft. Wat is dat?",
+        opties=[
+            "een tussentalige variant",
+            "een spelfout",
+            "een leenwoord uit het Engels",
+            "een vorm van vakjargon",
+        ],
+        antwoord=0,
+        uitleg="Tussentaal zit tussen dialect en standaardtaal in. Ze is niet fout, ze hoort alleen niet in een formele tekst.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de taalvorm tussen dialect en standaardtaal in, die veel Vlamingen dagelijks spreken?",
+        antwoord=["tussentaal", "de tussentaal"],
+        uitleg="Je hoort ze op televisie, op de speelplaats en aan de keukentafel. Op het examen wordt standaardtaal verwacht.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Dialect is een regionale taalvariëteit.",
+        antwoord=True,
+        uitleg="Een dialect hoort bij een streek. Hoe verder twee streken uit elkaar liggen, hoe groter het verschil.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke soorten taalvariëteiten noemt de vakfiche naast de standaardtaal?",
+        opties=["nationale", "regionale", "sociale", "alfabetische"],
+        antwoord=[0, 1, 2],
+        uitleg="De fiche noemt nationale, regionale, sociale en situationele variëteiten. Alfabetisch bestaat niet als variëteit.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="'De patiënt vertoont dyspneu bij inspanning.' Welke taalvariëteit is dat?",
+        opties=["vakjargon", "dialect", "jongerentaal", "tussentaal"],
+        antwoord=0,
+        uitleg="Jargon is de vaktaal van een beroepsgroep. Binnen de groep is ze efficiënt, erbuiten sluit ze mensen uit.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waardoor wordt jongerentaal sterk beïnvloed?",
+        opties=[
+            "door andere talen, zoals het Engels",
+            "door de spellingregels van de Taalunie",
+            "door de literatuur uit de middeleeuwen",
+            "door de vaktaal van artsen en juristen",
+        ],
+        antwoord=0,
+        uitleg="De fiche noemt onder meer het Engels, het Marokkaans en het Surinaams als bronnen van jongerentaal.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Tussentaal en dialect zijn twee woorden voor hetzelfde.",
+        antwoord=False,
+        uitleg="Een dialect hoort bij één streek en kan elders onverstaanbaar zijn. Tussentaal wordt over heel Vlaanderen begrepen.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de vaktaal van een beroepsgroep?",
+        antwoord=["jargon", "vakjargon", "het jargon"],
+        uitleg="Artsen, juristen en informatici hebben elk hun jargon. Voor een buitenstaander werkt het als een drempel.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat rekent de fiche tot de non-verbale communicatie?",
+        opties=["lichaamstaal", "oogcontact", "intonatie en tempo", "spelling"],
+        antwoord=[0, 1, 2],
+        uitleg="Spelling is verbaal, en dan nog schriftelijk. De drie andere zijn alles wat je overbrengt zonder woorden.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="In sommige culturen is je ogen neerslaan een teken van respect.",
+        antwoord=True,
+        uitleg="In de Vlaamse cultuur leren kinderen net dat ze hun gesprekspartner moeten aankijken. Zulke verschillen leiden makkelijk tot misverstanden.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom is oogcontact een cultuurgebonden gewoonte?",
+        opties=[
+            "omdat dezelfde blik in de ene cultuur respect en in de andere brutaliteit betekent",
+            "omdat niet iedereen even goed ziet",
+            "omdat oogcontact enkel in gesprekken van dichtbij mogelijk is",
+            "omdat oogcontact geen deel uitmaakt van communicatie",
+        ],
+        antwoord=0,
+        uitleg="Non-verbale signalen hebben geen vaste betekenis. Ze krijgen hun betekenis van de cultuur waarin je ze gebruikt.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de taalvorm die in heel het taalgebied gepast is in formele situaties?",
+        antwoord=["standaardtaal", "de standaardtaal"],
+        uitleg="Op je examen, in een sollicitatiebrief en in een krantenartikel wordt standaardtaal verwacht.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een West-Vlaming en een Limburger spreken elk hun dialect en verstaan elkaar nauwelijks. Wat toont dat?",
+        opties=[
+            "hoe ver regionale variëteiten uit elkaar kunnen liggen",
+            "dat een van de twee geen Nederlands spreekt",
+            "dat dialect geen taalvariëteit is",
+            "dat standaardtaal in Vlaanderen niet bestaat",
+        ],
+        antwoord=0,
+        uitleg="Net daarvoor dient de standaardtaal: ze maakt communicatie mogelijk over de streken heen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Standaardtaal is de enige correcte vorm van het Nederlands; al de rest is fout.",
+        antwoord=False,
+        uitleg="Variëteiten zijn niet fout, ze zijn gebonden aan een situatie. Op een examen of in een sollicitatie wordt wel standaardtaal verwacht.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Dezelfde persoon praat anders op café dan op een begrafenis. Welke variëteit is dat?",
+        opties=["een situationele", "een nationale", "een regionale", "een sociale"],
+        antwoord=0,
+        uitleg="Situationele variatie hangt af van het moment en de gelegenheid, niet van waar je vandaan komt of tot welke groep je hoort.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke elementen van non-verbale communicatie noemt de vakfiche?",
+        opties=[
+            "mimiek en gebaren",
+            "houding en afstand",
+            "tempo en volume van het spreken",
+            "het rijmschema van de zinnen",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="De fiche noemt ook kleding en uiterlijk, en voor schriftelijke communicatie zelfs emoji's.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom zegt de fiche dat je taalgebruik een deel van je identiteit is?",
+        opties=[
+            "omdat anderen er een beeld van jou uit afleiden",
+            "omdat je taalgebruik vastligt bij je geboorte",
+            "omdat je maar één variëteit tegelijk kan gebruiken",
+            "omdat taal niets met cultuur te maken heeft",
+        ],
+        antwoord=0,
+        uitleg="En omgekeerd: jij oordeelt ook over anderen op basis van hoe ze praten. Inzicht daarin maakt je milder.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="In Nederland zegt men 'pinpas' waar men in Vlaanderen 'bankkaart' zegt. Welke variëteit is dat?",
+        opties=["een nationale", "een regionale", "een sociale", "een situationele"],
+        antwoord=0,
+        uitleg="Nationale variatie loopt langs de landsgrens: twee varianten van dezelfde taal, allebei standaardtaal in hun eigen land.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom is het nuttig taalvariatie te herkennen als je een tekst leest?",
+        opties=[
+            "omdat de gekozen variëteit iets verraadt over zender en publiek",
+            "omdat je dan weet hoeveel de tekst gekost heeft",
+            "omdat variëteiten de spelling van een tekst bepalen",
+            "omdat je dan het aantal alinea's kan voorspellen",
+        ],
+        antwoord=0,
+        uitleg="Een tekst vol jongerentaal mikt op een ander publiek dan een tekst in strak formele standaardtaal. Dat hoort bij je analyse.",
+    ),
+]

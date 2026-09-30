@@ -1,5 +1,8 @@
 import Link from "next/link";
+import { redirect } from "next/navigation";
 import { Wachtwoordveld } from "@/components/Wachtwoordveld";
+import { Verzendknop } from "@/components/Verzendknop";
+import { getSessionProfile } from "@/lib/auth";
 import { registreren } from "./actions";
 
 export default async function RegistrerenPage({
@@ -8,6 +11,12 @@ export default async function RegistrerenPage({
   searchParams: Promise<{ fout?: string }>;
 }) {
   const { fout } = await searchParams;
+
+  // Wie al ingelogd is, heeft hier niets te zoeken. Zonder dit kwam iemand
+  // die na een geslaagde registratie op de terugknop drukte, opnieuw op dit
+  // formulier uit, en kreeg hij te horen dat zijn adres al bestond.
+  const sessie = await getSessionProfile();
+  if (sessie) redirect("/account");
 
   return (
     <main className="flex flex-1 items-center justify-center bg-paper px-6 py-16">
@@ -83,12 +92,11 @@ export default async function RegistrerenPage({
               className="w-full rounded-md border border-border bg-paper px-3 py-2 text-sm text-ink outline-none focus:border-forest focus:ring-1 focus:ring-forest"
             />
           </div>
-          <button
-            type="submit"
+          <Verzendknop
+            label="Account aanmaken"
+            bezigLabel="Bezig met aanmaken…"
             className="w-full rounded-md bg-forest px-4 py-2 text-sm font-medium text-white transition hover:bg-forest-dark"
-          >
-            Account aanmaken
-          </button>
+          />
         </form>
 
         <p className="mt-6 text-center text-xs text-ink-dim">
