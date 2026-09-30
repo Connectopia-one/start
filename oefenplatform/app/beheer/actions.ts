@@ -509,6 +509,24 @@ function hoofdstukSleutel(niveau: string, titel: string) {
 }
 
 /**
+ * Klaagt deze fout over een kolom die nog niet bestaat?
+ *
+ * Supabase geeft daarvoor PGRST204 terug, met een melding in de vorm "Could
+ * not find the 'varianten' column of 'vragen' in the schema cache". Dat gebeurt
+ * telkens wanneer een sql-bestand nog niet gedraaid is terwijl de code de
+ * nieuwe kolom al meestuurt. De import valt dan terug op de kolommen die er wél
+ * zijn, zodat een bestand nooit blijft steken op iets dat er los van staat.
+ */
+function kolomOntbreekt(
+  fout: { code?: string; message?: string },
+  kolom: string,
+) {
+  if (fout.code === "PGRST204") return true;
+  const melding = (fout.message ?? "").toLowerCase();
+  return melding.includes(kolom.toLowerCase()) && melding.includes("column");
+}
+
+/**
  * Importeert in één keer meerdere hoofdstukken (met hun vragen) voor een vak.
  * Een hoofdstuk met een titel die al bestaat binnen dit vak krijgt de nieuwe
  * vragen erbij toegevoegd; een onbekende titel wordt als nieuw hoofdstuk
@@ -570,6 +588,11 @@ export async function bulkImportVakInhoud(formData: FormData) {
   const niveausMetHoofdstuk = new Set<string>(
     (bestaande ?? []).map((h) => h.niveau),
   );
+  /* Welke categorieën dit bestand aanspreekt. Het bestand beslist waar een
+     hoofdstuk landt, niet de bladzijde waar je toevallig staat. Sta je in een
+     andere categorie, dan zie je na de import een leeg vak en denk je dat er
+     niets gebeurd is; daarom zeggen we achteraf waar ze terechtgekomen zijn. */
+  const niveausInBestand = new Set<string>();
 
   for (const hfst of payload!.hoofdstukken) {
     const titel = String(hfst.titel || "").trim();
@@ -578,6 +601,7 @@ export async function bulkImportVakInhoud(formData: FormData) {
     // om er stilletjes "start" van te maken. Dat laatste deed dit vroeger, en
     // dan belandde een hoofdstuk zonder één waarschuwing onder 🌱 Start.
     const niveau = String(hfst.niveau || "start");
+    niveausInBestand.add(niveau);
     if (!NIVEAUS.some((n) => n.slug === niveau)) {
       redirect(
         vakkenPagina(
@@ -797,8 +821,15 @@ export async function bulkImportVakInhoud(formData: FormData) {
     let { error: vragenFout } = await admin.from("vragen").insert(rijen);
     // Zolang supabase/spellingvarianten.sql nog niet gedraaid is, bestaat de
     // kolom "varianten" niet. Dan gaat de import er zonder in, zodat een
-    // bestand met wisselende woorden nooit een heel hoofdstuk tegenhoudt.
-    if (vragenFout && rijen.some((r) => r.varianten)) {
+    // bestand nooit een heel hoofdstuk tegenhoudt.
+    //
+    // Deze terugval keek eerst of er in dít bestand wisselende woorden zaten.
+    // Dat was verkeerd gedacht: elke rij draagt de sleutel "varianten" mee, ook
+    // met de waarde null, en een onbekende kolom wordt door PostgREST altijd
+    // geweigerd. Bestanden zónder varianten liepen dus even hard vast, en dat
+    // is precies wat er op 30 september 2026 met geschiedenis Boost gebeurde.
+    // Kijk dus naar de fout zelf, niet naar de inhoud van het bestand.
+    if (vragenFout && kolomOntbreekt(vragenFout, "varianten")) {
       const zonder = rijen.map(({ varianten: _weg, ...rest }) => {
         void _weg;
         return rest;
@@ -817,5 +848,22 @@ export async function bulkImportVakInhoud(formData: FormData) {
   }
 
   revalidatePath("/beheer/vakken");
+
+  const hier = String(formData.get("terug_niveau") || "").trim();
+  const elders = [...niveausInBestand].filter((n) => n !== hier);
+  const namen = elders
+    .map((slug) => NIVEAUS.find((n) => n.slug === slug))
+    .filter((n) => n !== undefined)
+    .map((n) => `${n.emoji} ${n.naam}`)
+    .join(" en ");
+  if (hier && namen) {
+    redirect(
+      vakkenPagina(
+        formData,
+        "melding",
+        `Het bestand zei zelf in welke categorie de hoofdstukken horen, dus ze staan bij ${namen} en niet hier.`,
+      ),
+    );
+  }
   redirect(vakkenPagina(formData));
 }
