@@ -1,0 +1,114 @@
+{
+ "vak": "Aardrijkskunde",
+ "titel": "De lagen van een landschap",
+ "onder": "De natuurlijke lagen — reliëf, klimaat, water, bodem, ondergrond en vegetatie — en de lagen die de mens erbovenop legt.",
+ "secties": [
+  {
+   "kop": "Een landschap bestaat uit lagen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Twee streken kunnen er totaal anders uitzien. De aardrijkskunde verklaart dat door naar de <strong>lagen</strong> te kijken waaruit een landschap is opgebouwd. Elke laag is iets anders, en samen maken ze het landschap."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 262\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"24.0\" y=\"16.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2f5d50\">natuurlijke lagen</text><rect x=\"24\" y=\"26\" width=\"210\" height=\"25\" rx=\"4\" fill=\"#7ba368\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"34.0\" y=\"39.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">vegetatie</text><text x=\"34.0\" y=\"49.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#23291f\">loofbos, naaldbos, gras, mos</text><rect x=\"24\" y=\"56\" width=\"210\" height=\"25\" rx=\"4\" fill=\"#cfe0ea\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"34.0\" y=\"69.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">klimaat</text><text x=\"34.0\" y=\"79.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#23291f\">warm, gematigd of koud</text><rect x=\"24\" y=\"86\" width=\"210\" height=\"25\" rx=\"4\" fill=\"#9fb08c\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"34.0\" y=\"99.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">reliëf</text><text x=\"34.0\" y=\"109.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#23291f\">de hoogteverschillen</text><rect x=\"24\" y=\"116\" width=\"210\" height=\"25\" rx=\"4\" fill=\"#8fb4cc\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"34.0\" y=\"129.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">water</text><text x=\"34.0\" y=\"139.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#23291f\">beken, grondwater, de zee</text><rect x=\"24\" y=\"146\" width=\"210\" height=\"25\" rx=\"4\" fill=\"#8d7a5a\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"34.0\" y=\"159.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">bodem</text><text x=\"34.0\" y=\"169.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#23291f\">de losse laag waarin wortels zitten</text><rect x=\"24\" y=\"176\" width=\"210\" height=\"25\" rx=\"4\" fill=\"#b9a98c\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"34.0\" y=\"189.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">ondergrond</text><text x=\"34.0\" y=\"199.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#23291f\">zand, leem, klei of vast gesteente</text><text x=\"260.0\" y=\"16.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#c17f2b\">wat de mens erbovenop legt</text><rect x=\"260\" y=\"26\" width=\"186\" height=\"25\" rx=\"4\" fill=\"#f6ecdc\" stroke=\"#c17f2b\" stroke-width=\"1.2\"/><text x=\"270.0\" y=\"39.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">landgebruik</text><text x=\"270.0\" y=\"49.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#23291f\">landbouw, wonen, industrie, recreatie</text><rect x=\"260\" y=\"56\" width=\"186\" height=\"25\" rx=\"4\" fill=\"#f6ecdc\" stroke=\"#c17f2b\" stroke-width=\"1.2\"/><text x=\"270.0\" y=\"69.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">bebouwing</text><text x=\"270.0\" y=\"79.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#23291f\">waar en hoe dicht de huizen staan</text><rect x=\"260\" y=\"86\" width=\"186\" height=\"25\" rx=\"4\" fill=\"#f6ecdc\" stroke=\"#c17f2b\" stroke-width=\"1.2\"/><text x=\"270.0\" y=\"99.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">infrastructuur</text><text x=\"270.0\" y=\"109.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#23291f\">wegen, spoor, kanalen, leidingen</text><rect x=\"260\" y=\"116\" width=\"186\" height=\"25\" rx=\"4\" fill=\"#f6ecdc\" stroke=\"#c17f2b\" stroke-width=\"1.2\"/><text x=\"270.0\" y=\"129.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">ontginning</text><text x=\"270.0\" y=\"139.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#23291f\">groeves, mijnen, grondstoffen</text><text x=\"260.0\" y=\"162.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">Deze lagen kunnen op enkele</text><text x=\"260.0\" y=\"174.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">jaren tijd sterk veranderen.</text><text x=\"24.0\" y=\"254.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">Onderaan de ondergrond, bovenaan wat groeit. Elke laag werkt op de andere in.</text></svg>",
+     "onderschrift": "De natuurlijke of <strong>fysischgeografische</strong> lagen links, de menselijke lagen rechts. De natuurlijke liggen er het langst; de menselijke kunnen op enkele jaren tijd sterk veranderen."
+    },
+    {
+     "soort": "kader",
+     "html": "Natuurlijk zijn: het reliëf, het klimaat, het water, de bodem, de ondergrond en de vegetatie. Van de mens zijn: het landgebruik, de bebouwing, de transportwegen en de ontginning."
+    }
+   ]
+  },
+  {
+   "kop": "Reliëf, klimaat en vegetatie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>reliëf</strong> van een gebied zijn de <strong>hoogteverschillen</strong> erin. Daar horen de <strong>reliëfelementen</strong> bij: de helling, het hoogteverschil en de horizonlijn. Let op het onderscheid tussen een <strong>vlakte</strong> en een <strong>plateau</strong>: allebei zijn ze vlak bovenaan, maar een plateau ligt <strong>hoog</strong> en een vlakte laag. Een plateau is dus een <strong>hooggelegen</strong> gebied dat bovenaan vlak is, en niet sterk golvend; een vlakte ligt laag. Ze liggen niet even hoog boven de zeespiegel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>klimaat</strong> beschrijft de fiche met drie woorden: <strong>warm</strong>, <strong>gematigd</strong> en <strong>koud</strong>. Verwar het niet met het weer: het <strong>weer</strong> is van nu, het <strong>klimaat</strong> is het gemiddelde over jaren."
+    },
+    {
+     "soort": "tekst",
+     "html": "De natuurlijke <strong>vegetatie</strong> is wat er vanzelf zou groeien. De fiche onderscheidt <strong>naaldbomen</strong>, <strong>loofbomen</strong> en <strong>grassen en mossen</strong>. Loofbomen verliezen hun blad in de winter, naaldbomen meestal niet. In koude streken, waar de zomer kort is, groeien er van nature vooral mossen en heel lage planten: voor een boom is het groeiseizoen er te kort."
+    }
+   ]
+  },
+  {
+   "kop": "Bodem, ondergrond en water",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>bodem</strong> is de bovenste losse laag, die waarin planten hun wortels zetten. De <strong>textuur</strong> van een bodem zegt uit hoe grove of fijne korrels hij bestaat."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">bodemsoort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">korrels</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het water doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>zand</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">grof, je voelt ze knerpen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zakt er snel doorheen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>leem</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fijn, melig als bloem</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">blijft een tijd hangen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>klei</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de fijnste van de drie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wordt <strong>moeilijk doorgelaten</strong>, blijft het langst staan</td></tr></table>",
+     "onderschrift": "Klei houdt het water dus het langst vast. In de Kempen ligt een zandbodem: het regenwater zakt er snel weg, en dat merk je aan wat er groeit."
+    },
+    {
+     "soort": "tekst",
+     "html": "Onder de bodem ligt de <strong>ondergrond</strong>. Die bestaat uit zand, leem, klei of uit <strong>vast gesteente</strong> — <strong>kalksteen</strong> bijvoorbeeld, of zandsteen of leisteen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>water</strong> is een aparte laag, want het vormt en verandert de andere lagen mee: het slijt het reliëf uit, het voert bodemdeeltjes aan en af, en het bepaalt wat er kan groeien. Een natte bodem en een droge bodem laten dus niet dezelfde planten groeien."
+    }
+   ]
+  },
+  {
+   "kop": "Wat de mens met de grond doet",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Kijk je van een heuvel over een streek uit en zie je akkers, een dorp, een spoorlijn en een fabriek, dan zie je <strong>hoe de mensen de grond gebruiken</strong>. Het geheel daarvan heet het <strong>landgebruik</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "In de landbouw onderscheidt de fiche drie takken. <strong>Akkerbouw</strong> is gewassen telen op het veld. <strong>Veeteelt</strong> is dieren houden voor vlees, melk of eieren. <strong>Tuinbouw</strong> is teelt op kleinere percelen: groenten, fruitteelt, serreteelt. Houdt een boer melkkoeien én teelt hij maïs, dan heet dat <strong>gemengde landbouw</strong>."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een <strong>serre</strong> maakt de teler minder afhankelijk van het weer buiten: hij kiest er zelf de temperatuur en het licht, en kan dus vroeger of langer oogsten."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">menselijke laag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je ziet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>bebouwing</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de huizen en gebouwen zelf, en hoe dicht ze bij elkaar staan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>lijninfrastructuur</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een autosnelweg, een spoorlijn, een hoogspanningsleiding</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>nutsvoorzieningen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">leidingen en kabels voor water, gas en stroom</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ontginning</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">grondstoffen uit de bodem of ondergrond halen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>recreatie en toerisme</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een camping, een skipiste, een provinciaal domein met wandelpaden</td></tr></table>",
+     "onderschrift": "Een woongebied en de bebouwing erin zijn niet precies hetzelfde: het woongebied is het gebied, de bebouwing is wat erin staat."
+    },
+    {
+     "soort": "tekst",
+     "html": "Met de <strong>verspreiding</strong> van de bebouwing bedoelen we of de huizen dicht bijeen of verspreid staan. Staan er langs een gewestweg huizen in één rij aan beide kanten, kilometers ver, dan heet dat <strong>lintbebouwing</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een put waaruit steen of zand gehaald wordt, heet een <strong>groeve</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "Waarom staat een fabriek langs een kanaal en vlak bij een autosnelweg? Omdat grondstoffen en producten er vlot aankomen en weggaan. En waarom staan er in een havengebied zo weinig woningen? Omdat het er lawaaierig is en de grond voor de bedrijven dient. Ligging is zelden toeval."
+    },
+    {
+     "soort": "tekst",
+     "html": "Toerisme verandert het landschap wél, ook al blijven toeristen maar even: er komen campings, hotels, parkings en liften voor terug, en die blijven staan."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Natuurlijke lagen: reliëf, klimaat, water, bodem, ondergrond, vegetatie.",
+  "Menselijke lagen: landgebruik, bebouwing, transportwegen en nutsvoorzieningen, ontginning.",
+  "Reliëf = de hoogteverschillen. Reliëfelementen: helling, hoogteverschil, horizonlijn.",
+  "Een vlakte ligt laag en vlak, een plateau hoog en vlak.",
+  "Weer is van nu, klimaat is het gemiddelde over jaren. Klimaat: warm, gematigd, koud.",
+  "Vegetatie: naaldbomen, loofbomen, grassen en mossen. Loofbomen verliezen hun blad.",
+  "Textuur = hoe grof of fijn de korrels zijn. Klei houdt water het langst vast, zand het kortst.",
+  "Landbouw: akkerbouw, veeteelt, tuinbouw. Allebei samen is gemengde landbouw.",
+  "Lijninfrastructuur: snelweg, spoorlijn, hoogspanningsleiding. Nutsvoorzieningen: water, gas, stroom.",
+  "Lintbebouwing is een rij huizen langs een weg. Een groeve is een put waaruit steen of zand komt."
+ ]
+}

@@ -1,0 +1,128 @@
+{
+ "vak": "Aardrijkskunde",
+ "titel": "Het weer en zijn uitschieters",
+ "onder": "De weerelementen en hun meettoestellen, het klimatogram, en wat extreem weer met een landschap doet.",
+ "secties": [
+  {
+   "kop": "De weerelementen en hun toestellen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Zeg je dat het vandaag 9 graden is, dat het stevig waait en dat het regent, dan beschrijf je <strong>het weer van vandaag</strong>. De fiche noemt drie <strong>weerelementen</strong>: de <strong>temperatuur</strong>, de <strong>luchtdruk</strong> en de <strong>neerslag</strong>, en daarbij hoort ook de wind."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je meet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarmee</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">in welke eenheid</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">temperatuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>thermometer</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">graden Celsius</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">luchtdruk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>barometer</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>hectopascal</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">neerslag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>regenmeter</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>millimeter</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">windsnelheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>anemometer</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kilometer per uur, of Beaufort</td></tr></table>",
+     "onderschrift": "In België meten we de temperatuur in graden Celsius, niet in Fahrenheit."
+    },
+    {
+     "soort": "tekst",
+     "html": "Eén millimeter neerslag is één liter water per vierkante meter. Viel er 12 millimeter regen, dan kwam er dus <strong>12 liter</strong> op elke vierkante meter terecht."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>westenwind</strong> is een wind die <strong>uit</strong> het westen komt. Een wind wordt altijd genoemd naar waar hij vandaan komt, niet naar waar hij heen gaat. De schaal waarmee de windkracht in stappen van 0 tot 12 wordt aangegeven, is de schaal van <strong>Beaufort</strong>."
+    },
+    {
+     "soort": "weetje",
+     "html": "De thermometer van een weerstation staat in een wit kastje met spleetjes, een weerhut. Het wit en de spleetjes houden de zon weg maar laten de lucht door, zodat je de temperatuur van de lucht meet en niet die van de zon op het glas."
+    }
+   ]
+  },
+  {
+   "kop": "Hoge en lage druk",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 208\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"16\" y=\"10\" width=\"198\" height=\"118\" rx=\"6\" fill=\"#f7f9fb\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><circle cx=\"62\" cy=\"64\" r=\"26\" fill=\"#5b93b8\" opacity=\"0.16\"/><text x=\"62.0\" y=\"74.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"30\" font-weight=\"600\" fill=\"#5b93b8\">H</text><path d=\"M 116 28 L 116 96\" stroke=\"#5b93b8\" stroke-width=\"2.4\"/><path d=\"M 110 88 L 116 102 L 122 88 Z\" fill=\"#5b93b8\"/><ellipse cx=\"168\" cy=\"44\" rx=\"20\" ry=\"9\" fill=\"#ffffff\" stroke=\"#e4ded0\" stroke-width=\"1\"/><text x=\"115.0\" y=\"146.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">hogedrukgebied</text><text x=\"115.0\" y=\"162.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">lucht zakt naar beneden</text><text x=\"115.0\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">weinig wolken</text><text x=\"115.0\" y=\"188.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">rustig en meestal droog</text><rect x=\"256\" y=\"10\" width=\"198\" height=\"118\" rx=\"6\" fill=\"#f7f9fb\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><circle cx=\"302\" cy=\"64\" r=\"26\" fill=\"#a2521f\" opacity=\"0.16\"/><text x=\"302.0\" y=\"74.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"30\" font-weight=\"600\" fill=\"#a2521f\">L</text><path d=\"M 356 102 L 356 34\" stroke=\"#a2521f\" stroke-width=\"2.4\"/><path d=\"M 350 42 L 356 28 L 362 42 Z\" fill=\"#a2521f\"/><circle cx=\"392\" cy=\"40\" r=\"12\" fill=\"#c8cfd6\"/><circle cx=\"408\" cy=\"36\" r=\"15\" fill=\"#c8cfd6\"/><circle cx=\"424\" cy=\"42\" r=\"11\" fill=\"#c8cfd6\"/><line x1=\"390\" y1=\"56\" x2=\"386\" y2=\"72\" stroke=\"#9dc3d8\" stroke-width=\"1.6\"/><line x1=\"402\" y1=\"56\" x2=\"398\" y2=\"72\" stroke=\"#9dc3d8\" stroke-width=\"1.6\"/><line x1=\"414\" y1=\"56\" x2=\"410\" y2=\"72\" stroke=\"#9dc3d8\" stroke-width=\"1.6\"/><line x1=\"426\" y1=\"56\" x2=\"422\" y2=\"72\" stroke=\"#9dc3d8\" stroke-width=\"1.6\"/><text x=\"355.0\" y=\"146.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">lagedrukgebied of depressie</text><text x=\"355.0\" y=\"162.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">lucht stijgt op</text><text x=\"355.0\" y=\"175.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">wolken vormen zich</text><text x=\"355.0\" y=\"188.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">wind en kans op regen</text></svg>",
+     "onderschrift": "Bij <strong>hoge druk</strong> zakt de lucht en lossen de wolken op. Bij <strong>lage druk</strong> stijgt de lucht, koelt af, en vormen zich wolken."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>hogedrukgebied</strong> brengt dus rustig en meestal droog weer. Een gebied met lage luchtdruk heet een <strong>depressie</strong>: die voert wolken en regen aan. Daalt de barometer sterk, dan mag je <strong>wolken, wind en kans op regen</strong> verwachten."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op een bergtop is het meestal kouder dan in het dal eronder, omdat de lucht hoger <strong>dunner</strong> is en minder warmte vasthoudt."
+    }
+   ]
+  },
+  {
+   "kop": "Het klimatogram",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>klimatogram</strong> is een grafiek met de temperatuur en de neerslag per maand. De staafjes zijn de neerslag, de lijn is de temperatuur."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 212\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"47.1\" y=\"58.5\" width=\"18.1\" height=\"115.5\" fill=\"#5b93b8\" opacity=\"0.55\" rx=\"2\"/><rect x=\"79.4\" y=\"78.2\" width=\"18.1\" height=\"95.8\" fill=\"#5b93b8\" opacity=\"0.55\" rx=\"2\"/><rect x=\"111.8\" y=\"67.6\" width=\"18.1\" height=\"106.4\" fill=\"#5b93b8\" opacity=\"0.55\" rx=\"2\"/><rect x=\"144.1\" y=\"96.5\" width=\"18.1\" height=\"77.5\" fill=\"#5b93b8\" opacity=\"0.55\" rx=\"2\"/><rect x=\"176.4\" y=\"79.8\" width=\"18.1\" height=\"94.2\" fill=\"#5b93b8\" opacity=\"0.55\" rx=\"2\"/><rect x=\"208.8\" y=\"64.6\" width=\"18.1\" height=\"109.4\" fill=\"#5b93b8\" opacity=\"0.55\" rx=\"2\"/><rect x=\"241.1\" y=\"61.5\" width=\"18.1\" height=\"112.5\" fill=\"#5b93b8\" opacity=\"0.55\" rx=\"2\"/><rect x=\"273.4\" y=\"76.7\" width=\"18.1\" height=\"97.3\" fill=\"#5b93b8\" opacity=\"0.55\" rx=\"2\"/><rect x=\"305.8\" y=\"84.3\" width=\"18.1\" height=\"89.7\" fill=\"#5b93b8\" opacity=\"0.55\" rx=\"2\"/><rect x=\"338.1\" y=\"67.6\" width=\"18.1\" height=\"106.4\" fill=\"#5b93b8\" opacity=\"0.55\" rx=\"2\"/><rect x=\"370.4\" y=\"58.5\" width=\"18.1\" height=\"115.5\" fill=\"#5b93b8\" opacity=\"0.55\" rx=\"2\"/><rect x=\"402.8\" y=\"50.9\" width=\"18.1\" height=\"123.1\" fill=\"#5b93b8\" opacity=\"0.55\" rx=\"2\"/><polyline points=\"56.2,151.2 88.5,143.6 120.8,120.8 153.2,98.0 185.5,67.6 217.8,44.8 250.2,29.6 282.5,29.6 314.8,52.4 347.2,82.8 379.5,120.8 411.8,143.6\" fill=\"none\" stroke=\"#a2521f\" stroke-width=\"2.4\"/><circle cx=\"56.2\" cy=\"151.2\" r=\"2.8\" fill=\"#a2521f\"/><circle cx=\"88.5\" cy=\"143.6\" r=\"2.8\" fill=\"#a2521f\"/><circle cx=\"120.8\" cy=\"120.8\" r=\"2.8\" fill=\"#a2521f\"/><circle cx=\"153.2\" cy=\"98.0\" r=\"2.8\" fill=\"#a2521f\"/><circle cx=\"185.5\" cy=\"67.6\" r=\"2.8\" fill=\"#a2521f\"/><circle cx=\"217.8\" cy=\"44.8\" r=\"2.8\" fill=\"#a2521f\"/><circle cx=\"250.2\" cy=\"29.6\" r=\"2.8\" fill=\"#a2521f\"/><circle cx=\"282.5\" cy=\"29.6\" r=\"2.8\" fill=\"#a2521f\"/><circle cx=\"314.8\" cy=\"52.4\" r=\"2.8\" fill=\"#a2521f\"/><circle cx=\"347.2\" cy=\"82.8\" r=\"2.8\" fill=\"#a2521f\"/><circle cx=\"379.5\" cy=\"120.8\" r=\"2.8\" fill=\"#a2521f\"/><circle cx=\"411.8\" cy=\"143.6\" r=\"2.8\" fill=\"#a2521f\"/><line x1=\"40\" y1=\"22\" x2=\"40\" y2=\"174\" stroke=\"#6b7260\" stroke-width=\"1.4\"/><line x1=\"428\" y1=\"22\" x2=\"428\" y2=\"174\" stroke=\"#6b7260\" stroke-width=\"1.4\"/><line x1=\"40\" y1=\"174\" x2=\"428\" y2=\"174\" stroke=\"#6b7260\" stroke-width=\"1.4\"/><text x=\"34.0\" y=\"177.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#5b93b8\">0</text><text x=\"34.0\" y=\"139.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#5b93b8\">25</text><text x=\"34.0\" y=\"101.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#5b93b8\">50</text><text x=\"34.0\" y=\"63.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#5b93b8\">75</text><text x=\"34.0\" y=\"25.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#5b93b8\">100</text><text x=\"434.0\" y=\"177.5\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#a2521f\">0</text><text x=\"434.0\" y=\"139.5\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#a2521f\">5</text><text x=\"434.0\" y=\"101.5\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#a2521f\">10</text><text x=\"434.0\" y=\"63.5\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#a2521f\">15</text><text x=\"434.0\" y=\"25.5\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#a2521f\">20</text><text x=\"34.0\" y=\"14.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#5b93b8\">mm</text><text x=\"434.0\" y=\"14.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#a2521f\">°C</text><text x=\"56.2\" y=\"188.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">J</text><text x=\"88.5\" y=\"188.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">F</text><text x=\"120.8\" y=\"188.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">M</text><text x=\"153.2\" y=\"188.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">A</text><text x=\"185.5\" y=\"188.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">M</text><text x=\"217.8\" y=\"188.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">J</text><text x=\"250.2\" y=\"188.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">J</text><text x=\"282.5\" y=\"188.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">A</text><text x=\"314.8\" y=\"188.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">S</text><text x=\"347.2\" y=\"188.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">O</text><text x=\"379.5\" y=\"188.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">N</text><text x=\"411.8\" y=\"188.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">D</text><text x=\"234.0\" y=\"204.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#23291f\">Ukkel, België</text></svg>",
+     "onderschrift": "Het klimatogram van België: gespreide neerslag het hele jaar door, en een duidelijk warme zomer."
+    },
+    {
+     "soort": "tekst",
+     "html": "Lopen de staafjes in juli en augustus heel hoog en zijn ze in januari bijna leeg, dan valt daar <strong>de meeste neerslag in de zomer</strong>. En je kan uit één klimatogram ook afleiden op welk <strong>halfrond</strong> de plaats ligt: is het warmst in juli, dan is het het noordelijk halfrond; is het warmst in januari, dan het zuidelijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Neerslag</strong> is niet alleen regen. Ook <strong>sneeuw</strong> en <strong>hagel</strong> zijn vormen van neerslag."
+    },
+    {
+     "soort": "kader",
+     "html": "Het weer van morgen kan niet tot op het uur nauwkeurig voorspeld worden. Een weerbericht geeft kansen, geen zekerheden, en hoe verder vooruit, hoe minder zeker."
+    }
+   ]
+  },
+  {
+   "kop": "Extreem weer",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Extreem weer</strong> is weer dat <strong>sterk afwijkt van het gewone</strong>. Na een nacht met heel veel regen staat een straat blank en is een stuk van een akker weggespoeld: dan heeft extreem weer het landschap veranderd."
+    },
+    {
+     "soort": "tekst",
+     "html": "Valt er in korte tijd heel veel regen op een droge, harde bodem, dan zakt het water niet weg maar <strong>stroomt het over de grond weg</strong>. <strong>Verharde</strong> oppervlakken zoals wegen en parkings doen hetzelfde, en vergroten dus de kans op wateroverlast. Een overstroming laat sporen na: een laag <strong>slib</strong> op de velden, weggespoelde wegen en bruggen, en uitgesleten <strong>geulen</strong> in de akkers."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">maatregel tegen wateroverlast</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een <strong>overstromingsgebied</strong> naast de rivier</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geeft het teveel aan water een plaats om te staan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>regenwater laten insijpelen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het zakt in de grond in plaats van meteen af te vloeien</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>beken meer ruimte geven</strong> om te kronkelen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het water stroomt trager en piekt minder</td></tr></table>",
+     "onderschrift": "Alle drie komen ze op hetzelfde neer: water plaats en tijd geven in plaats van het weg te jagen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een dorp aan de <strong>voet</strong> van een helling loopt onder en een dorp bovenop niet, want het water stroomt van de helling naar beneden."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">storm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>storm</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vanaf windkracht <strong>9</strong> op de schaal van Beaufort</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>orkaan</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een tropische wervelstorm boven warm zeewater</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>tornado</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een smalle, draaiende luchtslurf onder een onweerswolk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>stormvloed</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">water dat bij storm tegen de kust wordt opgestuwd</td></tr></table>",
+     "onderschrift": "Een orkaan bestrijkt een veel breder gebied dan een tornado; een tornado is smal maar hevig."
+    },
+    {
+     "soort": "tekst",
+     "html": "Orkanen ontstaan enkel boven <strong>warm zeewater</strong>, omdat warm water veel damp en energie levert. Het rustige midden van de storm heet het <strong>oog</strong>. Een <strong>tornado</strong> ontstaat meestal uit een zware <strong>onweersbui</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>stormvloed</strong> is aan onze kust gevaarlijker als hij samenvalt met <strong>springtij</strong>, omdat het water dan toch al hoger staat. Extreem weer komt ook in België voor: een <strong>hagelbui</strong> kan in enkele minuten een hele oogst vernielen, en een zware storm breekt bomen doormidden, doet er andere met wortel en al omwaaien en laat open plekken in een bos achter."
+    },
+    {
+     "soort": "kader",
+     "html": "Kondigt een weerbericht <strong>code oranje</strong> aan, dan wordt er gevaarlijk weer verwacht. Geel is opletten, oranje is gevaarlijk, rood is zeer gevaarlijk."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Weerelementen: temperatuur, luchtdruk, neerslag (en wind). Weer is van nu, klimaat is het gemiddelde.",
+  "Thermometer = temperatuur, barometer = luchtdruk in hectopascal, regenmeter = neerslag in millimeter, anemometer = wind.",
+  "1 millimeter neerslag is 1 liter per vierkante meter.",
+  "Een westenwind komt uit het westen. Windkracht 0 tot 12 op de schaal van Beaufort.",
+  "Hoge druk: lucht zakt, rustig en droog. Lage druk of depressie: lucht stijgt, wolken en regen.",
+  "Een klimatogram toont temperatuur (lijn) en neerslag (staafjes) per maand.",
+  "Extreem weer wijkt sterk af van het gewone. Verharding vergroot de kans op wateroverlast.",
+  "Storm vanaf windkracht 9. Een orkaan ontstaat boven warm zeewater en heeft een oog.",
+  "Een tornado is smal en komt uit een onweersbui; een stormvloed stuwt zeewater tegen de kust.",
+  "Code oranje betekent: er wordt gevaarlijk weer verwacht."
+ ]
+}

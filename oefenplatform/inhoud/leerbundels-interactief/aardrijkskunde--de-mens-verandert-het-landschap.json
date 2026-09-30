@@ -1,0 +1,122 @@
+{
+ "vak": "Aardrijkskunde",
+ "titel": "De mens verandert het landschap",
+ "onder": "Infrastructuur, bebouwing, ontginning en landbouw, en wat verharding en ontharding met een gebied doen.",
+ "secties": [
+  {
+   "kop": "Infrastructuur",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Staan er op een luchtfoto van vijftig jaar geleden velden en op de foto van vandaag huizen en een rondweg, dan heeft <strong>de mens het landschap veranderd</strong>. Het aanleggen van wegen, spoorlijnen, kanalen en leidingen heet samen het uitbouwen van <strong>infrastructuur</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort infrastructuur</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeelden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>transportinfrastructuur</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een autosnelweg aanleggen, een kanaal graven, een spoorlijn verdubbelen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>energie-infrastructuur</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een windmolenpark, een hoogspanningslijn, een elektriciteitscentrale</td></tr></table>",
+     "onderschrift": "De masten en kabels die stroom over lange afstanden vervoeren, vormen samen het <strong>hoogspanningsnet</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Windmolens</strong> staan vaak aan de kust of op open vlakten, omdat het daar harder en gelijkmatiger waait. Een <strong>autosnelweg</strong> door een natuurgebied snijdt het leefgebied van dieren in stukken: wat vroeger één gebied was, zijn dan twee gebieden met een barrière ertussen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een nieuwe <strong>luchthaven</strong> krijgen de omwonenden <strong>geluidshinder</strong> van opstijgende vliegtuigen. En <strong>industriegebieden</strong> liggen vaak langs een kanaal omdat zware goederen over water goedkoop vervoerd worden."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 208\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"118\" width=\"240\" height=\"50\" fill=\"#5b93b8\" opacity=\"0.55\"/><rect x=\"240\" y=\"118\" width=\"230\" height=\"50\" fill=\"#d9d4c8\"/><line x1=\"240\" y1=\"118\" x2=\"470\" y2=\"118\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><path d=\"M26 112 L216 112 L204 144 L44 144 Z\" fill=\"#234539\"/><rect x=\"30\" y=\"76\" width=\"30\" height=\"34\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"36\" y=\"82\" width=\"18\" height=\"8\" fill=\"#5b93b8\" opacity=\"0.6\"/><rect x=\"70\" y=\"94\" width=\"21\" height=\"16\" fill=\"#c17f2b\" opacity=\"0.85\"/><rect x=\"70\" y=\"78\" width=\"21\" height=\"15\" fill=\"#c17f2b\" opacity=\"0.55\"/><rect x=\"94\" y=\"94\" width=\"21\" height=\"16\" fill=\"#2f5d50\" opacity=\"0.85\"/><rect x=\"94\" y=\"78\" width=\"21\" height=\"15\" fill=\"#2f5d50\" opacity=\"0.55\"/><rect x=\"118\" y=\"94\" width=\"21\" height=\"16\" fill=\"#a2521f\" opacity=\"0.85\"/><rect x=\"118\" y=\"78\" width=\"21\" height=\"15\" fill=\"#a2521f\" opacity=\"0.55\"/><rect x=\"142\" y=\"94\" width=\"21\" height=\"16\" fill=\"#c17f2b\" opacity=\"0.85\"/><rect x=\"142\" y=\"78\" width=\"21\" height=\"15\" fill=\"#c17f2b\" opacity=\"0.55\"/><rect x=\"166\" y=\"94\" width=\"21\" height=\"16\" fill=\"#2f5d50\" opacity=\"0.85\"/><rect x=\"190\" y=\"94\" width=\"21\" height=\"16\" fill=\"#a2521f\" opacity=\"0.85\"/><path d=\"M262 118 V46 M344 118 V46\" stroke=\"#234539\" stroke-width=\"5\" fill=\"none\"/><path d=\"M262 60 H344\" stroke=\"#234539\" stroke-width=\"3\"/><path d=\"M146 42 H414\" stroke=\"#234539\" stroke-width=\"6\" stroke-linecap=\"round\"/><path d=\"M303 42 V10\" stroke=\"#234539\" stroke-width=\"4\"/><path d=\"M303 12 L160 40 M303 12 L410 38\" fill=\"none\" stroke=\"#234539\" stroke-width=\"1.6\"/><path d=\"M172 42 V66\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><rect x=\"158\" y=\"66\" width=\"28\" height=\"6\" fill=\"#234539\"/><rect x=\"160\" y=\"48\" width=\"24\" height=\"17\" fill=\"#c17f2b\" opacity=\"0.9\"/><rect x=\"352\" y=\"102\" width=\"17\" height=\"13\" fill=\"#c17f2b\" opacity=\"0.85\"/><rect x=\"371\" y=\"102\" width=\"17\" height=\"13\" fill=\"#2f5d50\" opacity=\"0.85\"/><rect x=\"390\" y=\"102\" width=\"17\" height=\"13\" fill=\"#a2521f\" opacity=\"0.85\"/><rect x=\"409\" y=\"102\" width=\"17\" height=\"13\" fill=\"#c17f2b\" opacity=\"0.85\"/><rect x=\"428\" y=\"102\" width=\"17\" height=\"13\" fill=\"#2f5d50\" opacity=\"0.85\"/><rect x=\"447\" y=\"102\" width=\"17\" height=\"13\" fill=\"#a2521f\" opacity=\"0.85\"/><rect x=\"352\" y=\"87\" width=\"17\" height=\"13\" fill=\"#2f5d50\" opacity=\"0.73\"/><rect x=\"371\" y=\"87\" width=\"17\" height=\"13\" fill=\"#a2521f\" opacity=\"0.73\"/><rect x=\"390\" y=\"87\" width=\"17\" height=\"13\" fill=\"#c17f2b\" opacity=\"0.73\"/><rect x=\"409\" y=\"87\" width=\"17\" height=\"13\" fill=\"#2f5d50\" opacity=\"0.73\"/><rect x=\"428\" y=\"87\" width=\"17\" height=\"13\" fill=\"#a2521f\" opacity=\"0.73\"/><rect x=\"447\" y=\"87\" width=\"17\" height=\"13\" fill=\"#c17f2b\" opacity=\"0.73\"/><rect x=\"352\" y=\"72\" width=\"17\" height=\"13\" fill=\"#a2521f\" opacity=\"0.61\"/><rect x=\"371\" y=\"72\" width=\"17\" height=\"13\" fill=\"#c17f2b\" opacity=\"0.61\"/><rect x=\"390\" y=\"72\" width=\"17\" height=\"13\" fill=\"#2f5d50\" opacity=\"0.61\"/><rect x=\"409\" y=\"72\" width=\"17\" height=\"13\" fill=\"#a2521f\" opacity=\"0.61\"/><rect x=\"428\" y=\"72\" width=\"17\" height=\"13\" fill=\"#c17f2b\" opacity=\"0.61\"/><rect x=\"447\" y=\"72\" width=\"17\" height=\"13\" fill=\"#2f5d50\" opacity=\"0.61\"/><rect x=\"276\" y=\"96\" width=\"24\" height=\"16\" rx=\"3\" fill=\"#2f5d50\"/><rect x=\"300\" y=\"102\" width=\"20\" height=\"10\" rx=\"2\" fill=\"#2f5d50\" opacity=\"0.7\"/><circle cx=\"284\" cy=\"114\" r=\"4.4\" fill=\"#234539\"/><circle cx=\"312\" cy=\"114\" r=\"4.4\" fill=\"#234539\"/><text x=\"110.0\" y=\"190.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">zeeschip</text><text x=\"300.0\" y=\"190.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">containerkraan</text><text x=\"410.0\" y=\"190.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">containers</text><text x=\"462.0\" y=\"136.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">kaai</text></svg>",
+     "onderschrift": "Een zeehaven: schepen, kranen, kaaien en opslag. Alles ligt er om goederen vlot van het water naar het land te krijgen, en omgekeerd."
+    }
+   ]
+  },
+  {
+   "kop": "Bebouwing en ontginning",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>verkaveling</strong> is een stuk grond dat in bouwpercelen verdeeld wordt. De oppervlakte bebouwing in België neemt toe terwijl de bevolking maar traag groeit, omdat er <strong>steeds meer en kleinere gezinnen</strong> zijn: meer gezinnen betekent meer woningen, ook bij evenveel mensen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 226\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"168\" cy=\"110\" r=\"104\" fill=\"#dfeada\"/><circle cx=\"168\" cy=\"110\" r=\"72\" fill=\"#efe7d6\"/><circle cx=\"168\" cy=\"110\" r=\"72\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"7\" opacity=\"0.8\"/><circle cx=\"168\" cy=\"110\" r=\"40\" fill=\"#e0d6c0\" stroke=\"#234539\" stroke-width=\"1.4\"/><line x1=\"178.0\" y1=\"110.0\" x2=\"206.0\" y2=\"110.0\" stroke=\"#ffffff\" stroke-width=\"2.2\"/><line x1=\"175.1\" y1=\"117.1\" x2=\"194.9\" y2=\"136.9\" stroke=\"#ffffff\" stroke-width=\"2.2\"/><line x1=\"168.0\" y1=\"120.0\" x2=\"168.0\" y2=\"148.0\" stroke=\"#ffffff\" stroke-width=\"2.2\"/><line x1=\"160.9\" y1=\"117.1\" x2=\"141.1\" y2=\"136.9\" stroke=\"#ffffff\" stroke-width=\"2.2\"/><line x1=\"158.0\" y1=\"110.0\" x2=\"130.0\" y2=\"110.0\" stroke=\"#ffffff\" stroke-width=\"2.2\"/><line x1=\"160.9\" y1=\"102.9\" x2=\"141.1\" y2=\"83.1\" stroke=\"#ffffff\" stroke-width=\"2.2\"/><line x1=\"168.0\" y1=\"100.0\" x2=\"168.0\" y2=\"72.0\" stroke=\"#ffffff\" stroke-width=\"2.2\"/><line x1=\"175.1\" y1=\"102.9\" x2=\"194.9\" y2=\"83.1\" stroke=\"#ffffff\" stroke-width=\"2.2\"/><rect x=\"161\" y=\"101\" width=\"14\" height=\"18\" fill=\"#234539\"/><line x1=\"205.6\" y1=\"123.7\" x2=\"273.2\" y2=\"148.3\" stroke=\"#ffffff\" stroke-width=\"3.4\"/><line x1=\"154.3\" y1=\"147.6\" x2=\"129.7\" y2=\"215.2\" stroke=\"#ffffff\" stroke-width=\"3.4\"/><line x1=\"130.4\" y1=\"96.3\" x2=\"62.8\" y2=\"71.7\" stroke=\"#ffffff\" stroke-width=\"3.4\"/><line x1=\"181.7\" y1=\"72.4\" x2=\"206.3\" y2=\"4.8\" stroke=\"#ffffff\" stroke-width=\"3.4\"/><path d=\"M34 24 q62 56 74 96 q12 42 58 76\" fill=\"none\" stroke=\"#5b93b8\" stroke-width=\"7\" opacity=\"0.7\" stroke-linecap=\"round\"/><rect x=\"332\" y=\"60\" width=\"126\" height=\"86\" rx=\"8\" fill=\"#e6e1d4\" stroke=\"#6b7260\" stroke-width=\"1.4\"/><rect x=\"344\" y=\"74\" width=\"30\" height=\"26\" fill=\"#6b7260\" opacity=\"0.45\"/><rect x=\"344\" y=\"112\" width=\"30\" height=\"26\" fill=\"#6b7260\" opacity=\"0.45\"/><rect x=\"384\" y=\"74\" width=\"30\" height=\"26\" fill=\"#6b7260\" opacity=\"0.45\"/><rect x=\"384\" y=\"112\" width=\"30\" height=\"26\" fill=\"#6b7260\" opacity=\"0.45\"/><rect x=\"424\" y=\"74\" width=\"30\" height=\"26\" fill=\"#6b7260\" opacity=\"0.45\"/><rect x=\"424\" y=\"112\" width=\"30\" height=\"26\" fill=\"#6b7260\" opacity=\"0.45\"/><line x1=\"272\" y1=\"103\" x2=\"332\" y2=\"103\" stroke=\"#c17f2b\" stroke-width=\"5\"/><text x=\"168.0\" y=\"202.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">oude kern</text><text x=\"70.0\" y=\"206.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">woonwijken</text><text x=\"395.0\" y=\"162.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#234539\">bedrijven</text><text x=\"48.0\" y=\"26.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#5b93b8\">rivier</text><line x1=\"168\" y1=\"152\" x2=\"168\" y2=\"192\" stroke=\"#6b7260\" stroke-width=\"1.1\"/><line x1=\"70\" y1=\"196\" x2=\"96\" y2=\"164\" stroke=\"#6b7260\" stroke-width=\"1.1\"/><text x=\"262.0\" y=\"78.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#c17f2b\">ring</text></svg>",
+     "onderschrift": "Een stad van bovenaf: een oude kern, een ring eromheen, woonwijken, en bedrijven aan de rand bij de grote wegen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De oudste dorpskernen van Vlaanderen liggen vaak op een <strong>lichte hoogte</strong>, omdat het daar <strong>droger</strong> was dan in de vallei. Wie kon kiezen, bouwde niet met zijn voeten in het water."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Mijnbouw</strong> is delfstoffen uit de <strong>diepere</strong> ondergrond halen. De kunstmatige heuvel van afvalgesteente naast een oude steenkoolmijn heet een <strong>terril</strong>. Een <strong>groeve</strong> verandert het landschap doordat er een <strong>diepe put</strong> ontstaat waar eerst grond lag. <strong>Ontginning van hulpbronnen</strong> betekent: grondstoffen uit de aarde halen om te gebruiken."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ook <strong>toerisme</strong> tekent een landschap: appartementsgebouwen op de zeedijk, skiliften op een berghelling, een pretpark met parkings errond. Aan de Belgische kust staat bijna de hele zeedijk vol met <strong>hoogbouw</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "Legt een gemeente een bedrijventerrein aan op oud landbouwgebied, dan veranderen twee lagen tegelijk: het <strong>landgebruik</strong> en de <strong>bebouwing</strong>. Dat is de handigste manier om zo'n ingreep te beschrijven: welke lagen gaan eraan?"
+    }
+   ]
+  },
+  {
+   "kop": "Landbouw, bos en water",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Verdwijnt er in een streek jaar na jaar een stuk bos voor akkers en wegen, dan heet dat <strong>ontbossing</strong>. Op een helling heeft dat drie gevolgen tegelijk: de bodem <strong>spoelt sneller weg</strong>, er wordt <strong>minder koolstofdioxide</strong> opgenomen, en <strong>dieren verliezen hun leefgebied</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Landbouwpercelen worden steeds <strong>groter</strong> gemaakt omdat grote machines er efficiënter kunnen werken. Door percelen samen te voegen verdwijnen ook de <strong>hagen en houtkanten</strong> ertussen, en net die waren schuilplaats voor vogels en insecten."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Irrigatie</strong> is land kunstmatig van water voorzien. Dat kan nadelen hebben: de rivier of het <strong>grondwater</strong> raakt uitgeput, de bodem kan <strong>verzilten</strong>, en verderop blijft er minder water over voor wie daar woont."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Stadslandbouw</strong> is voedsel telen in of vlak bij de stad. Dat scheelt transport, en het kan een stad <strong>koeler</strong> maken tijdens een hittegolf, want groen verdampt water en beton niet."
+    }
+   ]
+  },
+  {
+   "kop": "Verharding en ontharding",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het bedekken van grond met beton, asfalt of tegels heet <strong>verharding</strong>. Landbouwgebied omzetten in bebouwing is daar een vorm van. <strong>Ontharding</strong> is het omgekeerde: beton of tegels weghalen zodat de grond weer open ligt. Verharding <strong>sluit</strong> de bodem af, ontharding <strong>opent</strong> hem weer."
+    },
+    {
+     "soort": "tekst",
+     "html": "Breekt een gemeente een betonnen schoolplein op en legt ze er gras en bomen aan, dan levert dat drie dingen op: regenwater kan weer in de grond zakken, het is er op warme dagen koeler, en er is meer plaats voor planten en dieren."
+    },
+    {
+     "soort": "tekst",
+     "html": "Legt een bedrijf een <strong>wadi</strong> aan, een ondiepe kom waar regenwater in kan zakken, dan valt dat vooral onder <strong>Planet</strong> van het 5P-model. En geeft een nieuwe fabriek werk aan driehonderd mensen maar vervuilt ze de beek ernaast, dan doet ze <strong>Prosperity vooruitgaan en Planet achteruit</strong>. Dat mag je gerust zo zeggen: het model is er net om zo'n afweging zichtbaar te maken."
+    },
+    {
+     "soort": "kader",
+     "html": "Twee dingen die vaak fout gezegd worden. Ten eerste: een menselijke ingreep heeft niet <strong>enkel</strong> nadelen — een spoorlijn brengt ook werk en verplaatsing. Ten tweede: een veranderd landschap kan wél hersteld worden, denk aan een oude groeve die een natuurgebied wordt of een rechtgetrokken beek die weer mag kronkelen. Het duurt alleen langer dan het afbreken."
+    },
+    {
+     "soort": "tekst",
+     "html": "En de gevolgen stoppen niet aan de grens. Ontbossing in het <strong>Amazonegebied</strong> raakt de hele wereld omdat dat bos veel koolstofdioxide opneemt, en wat wij hier invoeren, wordt elders geteeld of gedolven."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Infrastructuur = wegen, spoorlijnen, kanalen en leidingen aanleggen.",
+  "Energie-infrastructuur: windmolenpark, hoogspanningslijn, elektriciteitscentrale. Samen het hoogspanningsnet.",
+  "Een verkaveling is grond die in bouwpercelen verdeeld wordt.",
+  "Mijnbouw haalt delfstoffen uit de diepere ondergrond; de afvalheuvel ernaast is een terril.",
+  "Oude dorpskernen liggen op een lichte hoogte, want daar was het droger.",
+  "Ontbossing: de bodem spoelt weg, er wordt minder CO2 opgenomen, dieren verliezen hun leefgebied.",
+  "Grotere percelen betekenen minder hagen en houtkanten.",
+  "Irrigatie put grondwater uit, kan de bodem doen verzilten en laat verderop minder water over.",
+  "Verharding sluit de bodem af, ontharding opent hem weer. Een wadi laat regenwater insijpelen.",
+  "Een ingreep heeft zelden alleen nadelen, en een veranderd landschap kan hersteld worden."
+ ]
+}

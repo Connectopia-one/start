@@ -1,0 +1,125 @@
+{
+ "vak": "Aardrijkskunde",
+ "titel": "Het klimaat verandert",
+ "onder": "Fossiele brandstoffen en het broeikaseffect, wat er in ons landschap verandert, en wat eraan te doen is.",
+ "secties": [
+  {
+   "kop": "Fossiele brandstoffen en broeikasgassen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Steenkool, aardolie en aardgas krijgen samen één naam: <strong>fossiele brandstoffen</strong>. Ze zijn ontstaan uit resten van planten en dieren van miljoenen jaren geleden. Daarom raken ze op: er wordt er veel sneller van verbruikt dan er bij komt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Verbrand je fossiele brandstoffen, dan komt er <strong>koolstofdioxide</strong> vrij. Dat is een <strong>broeikasgas</strong>, en het draagt het meest bij aan het versterkt broeikaseffect. Andere broeikasgassen zijn <strong>methaan</strong> en <strong>waterdamp</strong>. Het methaan komt vooral uit <strong>veeteelt, rijstvelden en stortplaatsen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De laag gassen rond de aarde waarin het weer zich afspeelt, heet de <strong>atmosfeer</strong> of dampkring."
+    }
+   ]
+  },
+  {
+   "kop": "Het broeikaseffect",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 240\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"10\" y=\"16\" width=\"218\" height=\"136\" fill=\"#eaf1f6\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><rect x=\"10\" y=\"152\" width=\"218\" height=\"26\" fill=\"#7ba368\" stroke=\"#234539\" stroke-width=\"1.2\"/><rect x=\"10\" y=\"47\" width=\"218\" height=\"10\" fill=\"#6b7260\" opacity=\"0.35\"/><text x=\"222.0\" y=\"50.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#6b7260\">broeikasgassen</text><circle cx=\"38\" cy=\"34\" r=\"11\" fill=\"#c17f2b\"/><path d=\"M 48 42 L 106 146\" stroke=\"#c17f2b\" stroke-width=\"2\"/><path d=\"M 100 132 l 8 16 l -14 -4\" fill=\"#c17f2b\"/><path d=\"M 128 146 L 128 62\" stroke=\"#a2521f\" stroke-width=\"1.6\"/><path d=\"M 124 68 L 128 58 L 132 68 Z\" fill=\"#a2521f\"/><path d=\"M 154 146 L 154 62\" stroke=\"#a2521f\" stroke-width=\"1.6\"/><path d=\"M 150 68 L 154 58 L 158 68 Z\" fill=\"#a2521f\"/><path d=\"M 180 146 L 180 62\" stroke=\"#a2521f\" stroke-width=\"1.6\"/><path d=\"M 176 68 L 180 58 L 184 68 Z\" fill=\"#a2521f\"/><path d=\"M 206 146 L 206 62\" stroke=\"#a2521f\" stroke-width=\"1.6\" opacity=\"0.5\"/><path d=\"M 206 56 L 206 138\" stroke=\"#a2521f\" stroke-width=\"1.6\"/><path d=\"M 202 132 L 206 142 L 210 132 Z\" fill=\"#a2521f\"/><text x=\"119.0\" y=\"10.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">gewoon broeikaseffect</text><text x=\"119.0\" y=\"196.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">een deel van de warmte gaat weg, de rest</text><text x=\"119.0\" y=\"208.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">houdt de aarde leefbaar</text><rect x=\"242\" y=\"16\" width=\"218\" height=\"136\" fill=\"#eaf1f6\" stroke=\"#e4ded0\" stroke-width=\"1.2\"/><rect x=\"242\" y=\"152\" width=\"218\" height=\"26\" fill=\"#7ba368\" stroke=\"#234539\" stroke-width=\"1.2\"/><rect x=\"242\" y=\"41\" width=\"218\" height=\"22\" fill=\"#6b7260\" opacity=\"0.35\"/><text x=\"454.0\" y=\"50.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#6b7260\">broeikasgassen</text><circle cx=\"270\" cy=\"34\" r=\"11\" fill=\"#c17f2b\"/><path d=\"M 280 42 L 338 146\" stroke=\"#c17f2b\" stroke-width=\"2\"/><path d=\"M 332 132 l 8 16 l -14 -4\" fill=\"#c17f2b\"/><path d=\"M 360 146 L 360 62\" stroke=\"#a2521f\" stroke-width=\"1.6\"/><path d=\"M 356 68 L 360 58 L 364 68 Z\" fill=\"#a2521f\"/><path d=\"M 386 146 L 386 62\" stroke=\"#a2521f\" stroke-width=\"1.6\" opacity=\"0.5\"/><path d=\"M 386 56 L 386 138\" stroke=\"#a2521f\" stroke-width=\"1.6\"/><path d=\"M 382 132 L 386 142 L 390 132 Z\" fill=\"#a2521f\"/><path d=\"M 412 146 L 412 62\" stroke=\"#a2521f\" stroke-width=\"1.6\" opacity=\"0.5\"/><path d=\"M 412 56 L 412 138\" stroke=\"#a2521f\" stroke-width=\"1.6\"/><path d=\"M 408 132 L 412 142 L 416 132 Z\" fill=\"#a2521f\"/><path d=\"M 438 146 L 438 62\" stroke=\"#a2521f\" stroke-width=\"1.6\" opacity=\"0.5\"/><path d=\"M 438 56 L 438 138\" stroke=\"#a2521f\" stroke-width=\"1.6\"/><path d=\"M 434 132 L 438 142 L 442 132 Z\" fill=\"#a2521f\"/><text x=\"351.0\" y=\"10.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">versterkt broeikaseffect</text><text x=\"351.0\" y=\"196.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">er zitten meer broeikasgassen in de lucht,</text><text x=\"351.0\" y=\"208.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">dus er ontsnapt minder</text><text x=\"235.0\" y=\"232.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">Een rode pijl omhoog is warmte die weggaat; een pijl die terugbuigt is warmte die blijft hangen.</text></svg>",
+     "onderschrift": "De zon warmt de aarde op. De aarde straalt die warmte terug. De broeikasgassen houden een deel ervan vast."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>broeikaseffect</strong> is dus niet iets slechts: zonder broeikaseffect zou het op aarde gemiddeld <strong>ver onder nul</strong> zijn, en zou er hier niets leven. Het bestond ook al lang voor er mensen waren."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het probleem is het <strong>versterkt</strong> broeikaseffect: er zitten <strong>meer</strong> broeikasgassen in de lucht dan vroeger, dus ontsnapt er minder warmte en wordt het warmer. Dat komt door wat wij doen: rijden met een benzine- of dieselwagen, verwarmen met aardgas of stookolie, en bossen kappen en verbranden."
+    },
+    {
+     "soort": "kader",
+     "html": "Bossen en oceanen heten <strong>koolstofputten</strong> omdat ze koolstofdioxide <strong>uit</strong> de lucht opnemen. Kap je een bos, dan verlies je dus twee keer: de koolstof die erin zat komt vrij, en de put die hem opnam verdwijnt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Hernieuwbare</strong> energiebronnen raken niet op: <strong>wind</strong>, <strong>zon</strong> en <strong>waterkracht</strong>. Een windmolen stoot tijdens het draaien geen koolstofdioxide uit, want er wordt <strong>niets verbrand</strong> om stroom te maken. En een goed <strong>geïsoleerd</strong> huis helpt omdat er minder gestookt moet worden."
+    },
+    {
+     "soort": "weetje",
+     "html": "Het klimaat van de aarde is in het verleden wél al veranderd, ook zonder mensen. Wetenschappers weten hoe warm het duizenden jaren geleden was uit <strong>luchtbelletjes in diepe ijslagen</strong>: die belletjes zijn stukjes lucht van toen. Wat nu anders is, is de snelheid."
+    },
+    {
+     "soort": "tekst",
+     "html": "Verwar klimaatverandering niet met het weer van vandaag. Eén koude week zegt niets over het klimaat, net zoals één warme dag niets bewijst. Klimaat gaat over gemiddelden over jaren."
+    }
+   ]
+  },
+  {
+   "kop": "Wat er verandert",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De gletsjers in de Alpen worden elk jaar korter: een gevolg van de <strong>opwarming</strong> van het klimaat. De <strong>zeespiegel</strong> stijgt om drie redenen tegelijk: water <strong>zet uit</strong> als het warmer wordt, <strong>ijs op het land</strong> smelt en loopt naar zee, en de gletsjers in de bergen worden kleiner."
+    },
+    {
+     "soort": "kader",
+     "html": "Smelt het <strong>drijvende</strong> zee-ijs rond de noordpool, dan stijgt de zeespiegel daardoor <strong>niet</strong> sterk. Drijvend ijs verplaatst al evenveel water als het zelf weegt. Alleen ijs dat op <strong>land</strong> ligt, voegt water toe."
+    },
+    {
+     "soort": "tekst",
+     "html": "Voor België is zeespiegelstijging een probleem omdat de <strong>polders</strong> achter de kust heel <strong>laag</strong> liggen. Een muur of dam die het land tegen het water beschermt, heet een <strong>dijk</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 205\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"470\" height=\"172\" fill=\"#ffffff\"/><path d=\"M0 160 L70 150 L150 108 L195 100 L225 60 Q252 46 282 92 L315 122 L462 122 L462 172 L0 172 Z\" fill=\"#e0cfa0\" stroke=\"#234539\" stroke-width=\"1.6\" stroke-linejoin=\"round\"/><clipPath id=\"polder7\"><path d=\"M0 160 L70 150 L150 108 L195 100 L225 60 Q252 46 282 92 L315 122 L462 122 L462 172 L0 172 Z\"/></clipPath><rect x=\"300\" y=\"122\" width=\"170\" height=\"52\" fill=\"#7ba368\" clip-path=\"url(#polder7)\"/><polygon points=\"0,108 150,108 70,150 0,160\" fill=\"#5b93b8\"/><path d=\"M12 118 q10 -4 20 0 q10 4 20 0\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"1.6\" opacity=\"0.7\"/><path d=\"M30 130 q10 -4 20 0 q10 4 20 0\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"1.6\" opacity=\"0.7\"/><path d=\"M74 124 q10 -4 20 0 q10 4 20 0\" fill=\"none\" stroke=\"#ffffff\" stroke-width=\"1.6\" opacity=\"0.7\"/><line x1=\"150\" y1=\"108\" x2=\"458\" y2=\"108\" stroke=\"#5b93b8\" stroke-width=\"1.4\" stroke-dasharray=\"6 5\"/><text x=\"458.0\" y=\"103.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#5b93b8\">zeeniveau</text><path d=\"M232 62 l-4 -11 M232 62 l0 -13 M232 62 l4 -11\" fill=\"none\" stroke=\"#7ba368\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><path d=\"M245 54 l-4 -11 M245 54 l0 -13 M245 54 l4 -11\" fill=\"none\" stroke=\"#7ba368\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><path d=\"M258 52 l-4 -11 M258 52 l0 -13 M258 52 l4 -11\" fill=\"none\" stroke=\"#7ba368\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><path d=\"M270 62 l-4 -11 M270 62 l0 -13 M270 62 l4 -11\" fill=\"none\" stroke=\"#7ba368\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><path d=\"M222 76 l-4 -11 M222 76 l0 -13 M222 76 l4 -11\" fill=\"none\" stroke=\"#7ba368\" stroke-width=\"1.5\" stroke-linecap=\"round\"/><path d=\"M340 122 h26 v-13 l-13 -9 l-13 9 Z\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.4\"/><path d=\"M395 136 h56\" stroke=\"#5b93b8\" stroke-width=\"3\" stroke-linecap=\"round\"/><line x1=\"410\" y1=\"108\" x2=\"410\" y2=\"122\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"392.0\" y=\"158.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#ffffff\">de polder ligt lager dan de zee</text><text x=\"72.0\" y=\"192.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#c17f2b\">zee</text><text x=\"172.0\" y=\"192.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#c17f2b\">strand</text><text x=\"252.0\" y=\"192.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#c17f2b\">duin</text><text x=\"392.0\" y=\"192.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#c17f2b\">polder</text></svg>",
+     "onderschrift": "De polder ligt lager dan de zee. Het duin en de dijk houden het water tegen; stijgt de zee, dan moet die bescherming mee omhoog."
+    },
+    {
+     "soort": "tekst",
+     "html": "In België merkt men <strong>drogere zomers</strong> met lage waterstanden, <strong>hevigere buien</strong> die wateroverlast geven, en <strong>meer hittegolven</strong> dan vroeger. Plant- en diersoorten schuiven op naar het noorden, omdat hun leefgebied meeschuift met de warmte."
+    },
+    {
+     "soort": "tekst",
+     "html": "Neemt de droogte toe, dan vallen beken droog en verandert de vegetatie. Wordt vruchtbaar land stilaan woestijn, dan heet dat <strong>verwoestijning</strong>. Mensen die hun streek moeten verlaten door aanhoudende droogte of door overstroming, noemt men <strong>klimaatvluchtelingen</strong>. Een <strong>koraalrif</strong> is gevoelig voor opwarming omdat warm water het koraal doet <strong>verbleken</strong> en afsterven."
+    },
+    {
+     "soort": "tekst",
+     "html": "Klimaatverandering treft niet alle landen even hard. Landen met veel laagliggende kust of met een al droog klimaat krijgen de zwaarste klappen, en dat zijn vaak niet de landen die het meest uitstoten."
+    }
+   ]
+  },
+  {
+   "kop": "Wat eraan te doen is",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>uitstoot</strong> verminderen betekent: <strong>minder broeikasgassen in de lucht brengen</strong>. Dat kan door woningen beter te <strong>isoleren</strong>, door stroom op te wekken met <strong>wind en zon</strong>, en door vaker de <strong>trein of de fiets</strong> te nemen. Meer <strong>bomen planten</strong> helpt ook, want bomen nemen koolstofdioxide op."
+    },
+    {
+     "soort": "tekst",
+     "html": "Naast minder uitstoten is er ook <strong>adaptatie</strong>: je aanpassen aan een klimaat dat al veranderd is. <strong>Ontharding</strong> is daar een voorbeeld van: verharding wegnemen zodat water in de grond kan. Dat is meteen nuttig tegen hitte, want in een stad is het op een zomerse dag warmer dan op het platteland eromheen: <strong>steen en asfalt houden de warmte langer vast</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "Klimaatverandering wordt een probleem genoemd dat geen land alleen oplost, omdat de <strong>dampkring van de hele wereld gedeeld is</strong>. Wat in het ene land de lucht in gaat, waait niet netjes binnen die grenzen. En wat je zelf doet telt wel degelijk mee: de uitstoot van de hele wereld is niets anders dan de optelsom van alle gezinnen, bedrijven en landen samen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Waarom helpt ontbossing in het Amazonegebied ons hier? Omdat dat bos veel koolstofdioxide opneemt. Verdwijnt het, dan blijft er hier ook meer in de lucht hangen."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Fossiele brandstoffen: steenkool, aardolie, aardgas. Ze raken op en geven bij verbranding CO2.",
+  "Broeikasgassen: koolstofdioxide, methaan, waterdamp. Methaan komt uit veeteelt, rijst en stortplaatsen.",
+  "Het broeikaseffect houdt warmte vast; zonder dat effect zou het hier ver onder nul zijn.",
+  "Versterkt broeikaseffect = meer broeikasgassen dan vroeger, dus minder warmte die ontsnapt.",
+  "Bossen en oceanen zijn koolstofputten: ze nemen CO2 op.",
+  "Hernieuwbaar: wind, zon, waterkracht. Er wordt niets verbrand, dus geen CO2 tijdens het opwekken.",
+  "De zeespiegel stijgt doordat water uitzet én doordat ijs op het LAND smelt; drijvend zee-ijs telt niet.",
+  "In België: drogere zomers, hevigere buien, meer hittegolven. Soorten schuiven op naar het noorden.",
+  "Verwoestijning, klimaatvluchtelingen en koraalverbleking zijn gevolgen elders.",
+  "Minder uitstoten (isoleren, wind en zon, trein en fiets) én adaptatie, zoals ontharding."
+ ]
+}

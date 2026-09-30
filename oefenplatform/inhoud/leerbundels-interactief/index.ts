@@ -2,6 +2,16 @@
 // De sleutel is <niveau>/<vak-slug>/<hoofdstuk-slug>; zie lib/leerbundel.ts.
 
 export const KLIKBARE_BUNDELS: Record<string, () => Promise<{ default: unknown }>> = {
+  "spark/aardrijkskunde/de-aarde-beweegt-en-slijt": () => import("./aardrijkskunde--de-aarde-beweegt-en-slijt.json"),
+  "spark/aardrijkskunde/de-lagen-van-een-landschap": () => import("./aardrijkskunde--de-lagen-van-een-landschap.json"),
+  "spark/aardrijkskunde/de-mens-verandert-het-landschap": () => import("./aardrijkskunde--de-mens-verandert-het-landschap.json"),
+  "spark/aardrijkskunde/een-kaart-lezen": () => import("./aardrijkskunde--een-kaart-lezen.json"),
+  "spark/aardrijkskunde/het-klimaat-verandert": () => import("./aardrijkskunde--het-klimaat-verandert.json"),
+  "spark/aardrijkskunde/het-landschap-op-het-terrein": () => import("./aardrijkskunde--het-landschap-op-het-terrein.json"),
+  "spark/aardrijkskunde/het-weer-en-zijn-uitschieters": () => import("./aardrijkskunde--het-weer-en-zijn-uitschieters.json"),
+  "spark/aardrijkskunde/onderzoeken-met-kaartlagen": () => import("./aardrijkskunde--onderzoeken-met-kaartlagen.json"),
+  "spark/aardrijkskunde/waar-op-aarde-ben-je": () => import("./aardrijkskunde--waar-op-aarde-ben-je.json"),
+  "spark/aardrijkskunde/waarom-landschappen-verschillen": () => import("./aardrijkskunde--waarom-landschappen-verschillen.json"),
   "spark/engels/een-engelse-tekst-lezen": () => import("./engels--een-engelse-tekst-lezen-spark.json"),
   "spark/engels/engelstalige-landen-en-literaire-teksten": () => import("./engels--engelstalige-landen-spark.json"),
   "spark/engels/grammatica-naamwoorden-lidwoorden-en-voornaamwoorden": () => import("./engels--grammatica-naamwoorden-spark.json"),

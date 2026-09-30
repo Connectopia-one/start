@@ -1,0 +1,106 @@
+{
+ "vak": "Aardrijkskunde",
+ "titel": "Onderzoeken met kaartlagen",
+ "onder": "Werken in een kaartviewer, en hoe een geografisch onderzoek van vraag tot besluit verloopt.",
+ "secties": [
+  {
+   "kop": "Kaartlagen en de viewer",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Wil je weten of er vroeger een beek liep waar nu een straat ligt, dan helpt het meest: <strong>kaarten van dat gebied naast elkaar leggen</strong>. Een oude kaart, een nieuwe, een luchtfoto van vroeger en een van vandaag."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>kaartlaag</strong> is <strong>één soort gegevens</strong> die je over de kaart legt: de waterlopen, de bebouwing, de bodem, de hoogte. Een programma waarin je die lagen kan bekijken, stapelen en meten, heet een <strong>GIS-viewer</strong>. <strong>Geopunt</strong> is er zo een, met geografische informatie over Vlaanderen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 276\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"52,68 96,16 284,16 240,68\" fill=\"#cfd6c6\" stroke=\"#234539\" stroke-width=\"1.2\" opacity=\"0.93\"/><text x=\"296.0\" y=\"40.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">luchtfoto</text><text x=\"296.0\" y=\"52.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">hoe het gebied er echt uitziet</text><polygon points=\"46,112 90,60 278,60 234,112\" fill=\"#d9c8a6\" stroke=\"#234539\" stroke-width=\"1.2\" opacity=\"0.93\"/><text x=\"290.0\" y=\"84.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">bodemkaart</text><text x=\"290.0\" y=\"96.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">zand, leem of klei</text><polygon points=\"40,156 84,104 272,104 228,156\" fill=\"#c2d2df\" stroke=\"#234539\" stroke-width=\"1.2\" opacity=\"0.93\"/><text x=\"284.0\" y=\"128.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">hoogtelaag</text><text x=\"284.0\" y=\"140.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">hoe hoog het ligt</text><polygon points=\"34,200 78,148 266,148 222,200\" fill=\"#a8cfe0\" stroke=\"#234539\" stroke-width=\"1.2\" opacity=\"0.93\"/><text x=\"278.0\" y=\"172.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">waterlopen</text><text x=\"278.0\" y=\"184.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">beken, grachten, rivieren</text><polygon points=\"28,244 72,192 260,192 216,244\" fill=\"#e8d7c4\" stroke=\"#234539\" stroke-width=\"1.2\" opacity=\"0.93\"/><text x=\"272.0\" y=\"216.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">bebouwing</text><text x=\"272.0\" y=\"228.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">waar de huizen staan</text><text x=\"24.0\" y=\"268.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">In een viewer zet je elke laag apart aan of uit. Wat samenvalt, valt meteen op.</text></svg>",
+     "onderschrift": "Elke laag toont iets anders. Je zet ze aan of uit in het <strong>lagenpaneel</strong>, en wat op twee lagen samenvalt, valt meteen op."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">gereedschap in de viewer</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarvoor</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>zoekbalk</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een adres vinden, coördinaten ingeven, naar een gemeente springen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het <strong>lagenpaneel</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lagen aan- en uitzetten en op elkaar stapelen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>transparantie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een laag doorzichtig maken om te zien wat eronder ligt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het <strong>meetgereedschap</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een afstand, een oppervlakte of de lengte van een weg meten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>legende</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">weten wat de kleuren van een laag betekenen</td></tr></table>",
+     "onderschrift": "Met het meetgereedschap heb je geen meetlat meer nodig: de viewer kent de schaal zelf."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zoeken met <strong>coördinaten</strong> in plaats van met een adres is handig als het gebied <strong>geen adres heeft</strong>, bijvoorbeeld midden in een bos of op een akker."
+    }
+   ]
+  },
+  {
+   "kop": "Lagen combineren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De kracht zit in het <strong>combineren</strong>. Zet je de laag met de waterlopen aan én de laag met de bebouwing, dan kan je onderzoeken <strong>of er gebouwd is vlak bij het water</strong>. Van een <strong>hoogtelaag</strong> lees je af hoe hoog een plaats boven de zeespiegel ligt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een kaartportaal zoals Geopunt bevat <strong>kaarten</strong>, <strong>luchtfoto's</strong> en <strong>satellietbeelden</strong>. Een satellietbeeld toont je iets wat op een gewone kaart niet staat: <strong>hoe het gebied er in werkelijkheid uitziet</strong>. Twee luchtfoto's van verschillende jaren naast elkaar leggen, heet beelden <strong>vergelijken</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "Kijk bij elke laag <strong>van wanneer ze dateert</strong>. Een luchtfoto in een viewer is niet automatisch van vandaag, en het landschap kan intussen veranderd zijn. Twee lagen over elkaar leggen mág wel als ze niet even oud zijn — dat is net hoe je verandering ziet — maar je moet het wéten."
+    }
+   ]
+  },
+  {
+   "kop": "Een geografisch onderzoek in vier stappen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Wil je met kaarten uitzoeken waarom een bepaalde straat elk jaar onder water loopt, dan begin je met een duidelijke <strong>onderzoeksvraag</strong>. Daarna pas kies je je lagen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">stap</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1. <strong>de vraag stellen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één duidelijke onderzoeksvraag, en eventueel een hypothese</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2. <strong>lagen kiezen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">welke bronnen kunnen die vraag beantwoorden?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3. <strong>analyseren</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bekijken wat de kaartlagen samen tonen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4. <strong>besluiten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het antwoord opschrijven, met waarop je je baseert</td></tr></table>",
+     "onderschrift": "Vraag, lagen, analyse, besluit. In die volgorde, want anders zoek je naar iets wat je nog niet gevraagd hebt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een goede <strong>onderzoeksvraag</strong> is zo nauwkeurig mogelijk geformuleerd, gaat over een <strong>afgebakend gebied</strong>, en is met de gekozen bronnen te beantwoorden. Het gebied dat je bekijkt heet het <strong>onderzoeksgebied</strong>. Goede vragen zijn bijvoorbeeld: ligt de wijk die onderloopt lager dan de rest? Is er sinds 1990 meer verhard in deze gemeente? Liggen de boomgaarden op de leembodem?"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>hypothese</strong> is een <strong>verwacht antwoord dat je nog moet nakijken</strong>: een vermoeden dat je vooraf opschrijft en daarna toetst. Wordt je hypothese weerlegd, dan is je onderzoek daarom <strong>niet</strong> waardeloos — integendeel, je weet nu iets wat je daarvoor niet wist. Je schrijft gewoon op wat je wél ziet en trekt daaruit je besluit."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">als je hypothese is …</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">zet je deze laag of lagen aan</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de overstroomde straat ligt lager dan de omgeving</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>hoogtelaag</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">boomgaarden liggen vooral op leemgrond</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>bodemkaart</strong> én het <strong>landgebruik</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er is sinds 1990 meer verhard</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee <strong>luchtfoto's</strong> van verschillende jaren</td></tr></table>",
+     "onderschrift": "Twee luchtfoto's van verschillende jaren zijn nodig omdat je dan de <strong>verandering</strong> ziet en niet alleen de toestand van vandaag."
+    },
+    {
+     "soort": "kader",
+     "html": "Twee patronen die op de kaart samenvallen, <strong>bewijzen niet</strong> dat het ene het andere veroorzaakt. Ze kunnen allebei door iets derds komen, of toevallig samenvallen. Samenvallen is een aanwijzing, geen bewijs."
+    },
+    {
+     "soort": "tekst",
+     "html": "In het <strong>besluit</strong> staan drie dingen: een antwoord op de onderzoeksvraag, waarop je dat antwoord baseert, en of je hypothese klopte of niet. Vermeld altijd welke <strong>bronnen</strong> je gebruikt hebt. Zie je dat een wijk die onderloopt in een oude <strong>beekvallei</strong> ligt, dan is het beste besluit: de wijk ligt op een plek waar het water van nature samenkomt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Meer lagen tegelijk aanzetten maakt je onderzoek <strong>niet</strong> beter: het maakt de kaart onleesbaar. Kies de lagen die bij je vraag horen. En soms volstaat een kaartonderzoek niet en moet je toch <strong>ter plaatse</strong> gaan kijken, want niet alles komt op een kaart terecht."
+    },
+    {
+     "soort": "weetje",
+     "html": "Meet je met het meetgereedschap dat een perceel <strong>0,8 hectare</strong> groot is, dan is dat <strong>8000 vierkante meter</strong>: één hectare is 10 000 vierkante meter."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een kaartlaag is één soort gegevens die je over de kaart legt; je zet ze aan in het lagenpaneel.",
+  "Geopunt is een GIS-viewer met geografische informatie over Vlaanderen.",
+  "Zoekbalk, lagenpaneel, transparantie, meetgereedschap en legende zijn je gereedschap.",
+  "Een viewer meet zelf afstanden en oppervlaktes; een meetlat heb je niet nodig.",
+  "Kijk altijd van wanneer een laag of luchtfoto dateert.",
+  "Een onderzoek verloopt in vier stappen: vraag stellen, lagen kiezen, analyseren, besluiten.",
+  "Een hypothese is een verwacht antwoord dat je nog moet nakijken. Weerlegd is niet waardeloos.",
+  "Samenvallen op de kaart is een aanwijzing, geen bewijs van oorzaak en gevolg.",
+  "In het besluit: het antwoord, waarop je het baseert, en of je hypothese klopte. Noem je bronnen.",
+  "Eén hectare is 10 000 vierkante meter, dus 0,8 hectare is 8000 vierkante meter."
+ ]
+}

@@ -1,0 +1,144 @@
+{
+ "vak": "Aardrijkskunde",
+ "titel": "Een kaart lezen",
+ "onder": "Wat er op een kaart hoort te staan, hoe je je oriënteert, en hoe je met de schaal en de hoogtelijnen rekent.",
+ "secties": [
+  {
+   "kop": "Wat er op een kaart hoort te staan",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Krijg je een kaart in handen en wil je eerst weten waarover ze gaat, dan kijk je naar de <strong>titel</strong>. Die zegt welk gebied je ziet en waarover de kaart gaat."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een goede kaart heeft er nog drie dingen bij. De <strong>legende</strong> legt uit wat de tekens en de kleuren betekenen. De <strong>schaal</strong> zegt hoeveel keer het gebied verkleind is. De <strong>noordpijl</strong> is het pijltje dat aanwijst waar het noorden ligt."
+    },
+    {
+     "soort": "kader",
+     "html": "Titel, legende, schaal en noordpijl. Ontbreekt er een van de vier, dan kan je de kaart wel bekijken maar er niet goed mee werken: je weet dan niet wat een kleur betekent, hoe ver iets is, of welke kant je uit moet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een kaart is niet hetzelfde als een <strong>luchtfoto</strong>. Op een luchtfoto zie je het gebied zoals het er echt uitziet. Op een kaart zie je tékens die iets voorstellen: een blauwe lijn is een rivier, een rood lijntje een weg. Daarom heeft een luchtfoto ook geen legende: er valt niets uit te leggen, je ziet het gewoon. Een <strong>satellietbeeld</strong> is zoals een luchtfoto, maar van veel hoger genomen. Kaart, luchtfoto en satellietbeeld tonen alle drie een gebied van bovenaf gezien."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>plan</strong> is een kaart van een klein gebied, met veel details: een schoolplan, een stadsplan. Hoe kleiner het gebied, hoe meer er op past."
+    },
+    {
+     "soort": "weetje",
+     "html": "Kaart, luchtfoto en satellietbeeld tonen alle drie hetzelfde gebied, maar met andere ogen. Wat je van de ene niet kan aflezen, staat soms wel op de andere."
+    }
+   ]
+  },
+  {
+   "kop": "Je oriënteren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Jezelf <strong>oriënteren</strong> is weten welke kant je uit kijkt. De vier <strong>hoofdwindstreken</strong> zijn noord, oost, zuid en west. Daartussen liggen de vier tussenrichtingen: noordoost, zuidoost, zuidwest en noordwest. Het zuidwesten ligt dus tussen het zuiden en het westen in."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 208 208\" width=\"208\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"113.0,104.0 104.0,26.0 95.0,104.0\" fill=\"#2f5d50\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"104.0\" y=\"15.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#234539\">N</text><polygon points=\"104.0,113.0 182.0,104.0 104.0,95.0\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"197.0\" y=\"108.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#234539\">O</text><polygon points=\"95.0,104.0 104.0,182.0 113.0,104.0\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"104.0\" y=\"201.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#234539\">Z</text><polygon points=\"104.0,95.0 26.0,104.0 104.0,113.0\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"11.0\" y=\"108.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#234539\">W</text><line x1=\"104\" y1=\"104\" x2=\"143.7\" y2=\"64.3\" stroke=\"#e4ded0\" stroke-width=\"1.6\"/><text x=\"161.3\" y=\"50.7\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">NO</text><line x1=\"104\" y1=\"104\" x2=\"143.7\" y2=\"143.7\" stroke=\"#e4ded0\" stroke-width=\"1.6\"/><text x=\"161.3\" y=\"165.3\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">ZO</text><line x1=\"104\" y1=\"104\" x2=\"64.3\" y2=\"143.7\" stroke=\"#e4ded0\" stroke-width=\"1.6\"/><text x=\"46.7\" y=\"165.3\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">ZW</text><line x1=\"104\" y1=\"104\" x2=\"64.3\" y2=\"64.3\" stroke=\"#e4ded0\" stroke-width=\"1.6\"/><text x=\"46.7\" y=\"50.7\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">NW</text><circle cx=\"104\" cy=\"104\" r=\"5\" fill=\"#234539\"/></svg>",
+     "onderschrift": "De letter O staat bij het oosten. Sta je met je gezicht naar het noorden, dan ligt het zuiden achter je, het oosten rechts en het westen links."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>kompas</strong> gebruik je om te weten welke kant het noorden op ligt. De naald wijst altijd naar het noorden, en met die ene richting kan je alle andere afleiden."
+    },
+    {
+     "soort": "kader",
+     "html": "Op de meeste kaarten ligt het noorden bovenaan, maar niet op élke kaart. Daarom staat er een noordpijl op: die vertelt je hoe deze kaart georiënteerd is. Kijk er altijd naar voordat je zegt wat waar ligt."
+    }
+   ]
+  },
+  {
+   "kop": "De schaal, en rekenen met afstanden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>schaal</strong> zegt hoeveel keer het gebied verkleind is. Bij een <strong>breukschaal</strong> zoals 1 : 25 000 betekent dat: één centimeter op de kaart is 25 000 centimeter in het echt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Centimeter is een onhandige eenheid voor afstanden buiten, dus reken je die om. 25 000 centimeter is 250 meter. Eén centimeter op een kaart 1 : 25 000 is dus <strong>250 meter</strong>. En op een kaart 1 : 100 000 is één centimeter 100 000 centimeter, dus 1000 meter, dus <strong>1 kilometer</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">schaal</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">1 cm op de kaart is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 : 10 000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">100 meter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 : 25 000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">250 meter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 : 50 000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">500 meter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 : 100 000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 kilometer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 : 250 000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2,5 kilometer</td></tr></table>",
+     "onderschrift": "Streep achter de 1 : … twee nullen weg en je hebt meters. Schrap er vijf en je hebt kilometers."
+    },
+    {
+     "soort": "tekst",
+     "html": "Reken maar mee. Je meet 3 centimeter op een kaart 1 : 50 000. Eén centimeter is daar 500 meter, dus 3 centimeter is 1500 meter, en dat is <strong>1,5 kilometer</strong>. En meet je 4 centimeter op een kaart 1 : 25 000, dan is dat 4 × 250 = 1000 meter, dus <strong>1 kilometer</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Om een afstand op een kaart uit te rekenen heb je dus twee dingen nodig: een <strong>meetlat</strong> om te meten, en de <strong>schaal</strong> om om te rekenen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 330 74\" width=\"330\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"30.0\" y=\"18\" width=\"67.5\" height=\"15\" fill=\"#234539\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"97.5\" y=\"18\" width=\"67.5\" height=\"15\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"165.0\" y=\"18\" width=\"67.5\" height=\"15\" fill=\"#234539\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"232.5\" y=\"18\" width=\"67.5\" height=\"15\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.3\"/><text x=\"30.0\" y=\"48\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">0</text><text x=\"97.5\" y=\"48\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">1</text><text x=\"165.0\" y=\"48\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">2</text><text x=\"232.5\" y=\"48\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">3</text><text x=\"300.0\" y=\"48\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">4</text><text x=\"165.0\" y=\"66\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" fill=\"#234539\">kilometer</text><text x=\"165.0\" y=\"12\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2f5d50\">1 cm op de kaart = 1 km in het echt</text></svg>",
+     "onderschrift": "Een <strong>lijnschaal</strong> is een balkje met de echte afstand erbij geschreven. Handig als je de kaart vergroot of verkleint kopieert: het balkje schaalt mee, een breuk niet. Maar rekenen kan met allebei."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een weg die bochten maakt is langer dan hij op het eerste gezicht lijkt. Meet zo'n weg met een <strong>touwtje</strong>: je legt het touwtje over alle bochten en meet het daarna in één rechte lijn. De afstand <strong>in vogelvlucht</strong>, dus recht door de lucht, is altijd korter dan de afstand langs de weg."
+    },
+    {
+     "soort": "kader",
+     "html": "Hoe kleiner het getal achter de dubbele punt, hoe minder de kaart verkleint en hoe meer details je ziet. Op 1 : 10 000 zie je van een dorp veel meer dan op 1 : 100 000. En 1 : 100 000 en 1 : 250 000 verkleinen allebei sterker dan 1 : 50 000."
+    }
+   ]
+  },
+  {
+   "kop": "Hoogtelijnen en reliëf",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>hoogtelijn</strong> is een lijn door alle punten die even hoog liggen. De hoogte wordt geteld vanaf de <strong>zeespiegel</strong>: die is het nulpunt, overal ter wereld hetzelfde."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 232\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><ellipse cx=\"116\" cy=\"118\" rx=\"96\" ry=\"58\" fill=\"#eef3ea\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"23.4\" y=\"165.0\" width=\"23.2\" height=\"15.0\" rx=\"4\" fill=\"#ffffff\" opacity=\"0.88\"/><text x=\"35.0\" y=\"173.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#6b7260\">100</text><ellipse cx=\"125\" cy=\"118\" rx=\"76\" ry=\"46\" fill=\"#dfe7d5\" stroke=\"#234539\" stroke-width=\"1.3\"/><ellipse cx=\"134\" cy=\"118\" rx=\"58\" ry=\"34\" fill=\"#c9d6ba\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"79.4\" y=\"141.0\" width=\"23.2\" height=\"15.0\" rx=\"4\" fill=\"#ffffff\" opacity=\"0.88\"/><text x=\"91.0\" y=\"149.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#6b7260\">140</text><ellipse cx=\"143\" cy=\"118\" rx=\"42\" ry=\"23\" fill=\"#b2c4a0\" stroke=\"#234539\" stroke-width=\"1.3\"/><ellipse cx=\"152\" cy=\"118\" rx=\"26\" ry=\"13\" fill=\"#9fb08c\" stroke=\"#234539\" stroke-width=\"1.3\"/><rect x=\"129.4\" y=\"120.0\" width=\"23.2\" height=\"15.0\" rx=\"4\" fill=\"#ffffff\" opacity=\"0.88\"/><text x=\"141.0\" y=\"128.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#6b7260\">180</text><text x=\"116.0\" y=\"24.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">van bovenaf</text><text x=\"24.0\" y=\"208.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">flauw</text><text x=\"214.0\" y=\"208.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" font-weight=\"600\" fill=\"#c17f2b\">steil</text><polygon points=\"252,190 292,170 338,128 380,78 402,74 428,146 444,190\" fill=\"#c9d6ba\" stroke=\"#234539\" stroke-width=\"1.6\"/><line x1=\"238\" y1=\"166\" x2=\"452\" y2=\"166\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"4 4\"/><text x=\"234.0\" y=\"169.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">100</text><line x1=\"238\" y1=\"132\" x2=\"452\" y2=\"132\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"4 4\"/><text x=\"234.0\" y=\"135.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">140</text><line x1=\"238\" y1=\"98\" x2=\"452\" y2=\"98\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"4 4\"/><text x=\"234.0\" y=\"101.5\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">180</text><text x=\"348.0\" y=\"24.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#23291f\">van opzij</text><text x=\"292.0\" y=\"208.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">flauw</text><text x=\"430.0\" y=\"208.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" font-weight=\"600\" fill=\"#c17f2b\">steil</text></svg>",
+     "onderschrift": "Liggen de hoogtelijnen dicht bij elkaar, dan is de helling daar steil. Liggen ze ver uit elkaar, dan loopt het er flauw op."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee hoogtelijnen op dezelfde kaart kunnen elkaar <strong>nooit</strong> kruisen. Als ze dat wel deden, zou één punt tegelijk twee verschillende hoogtes hebben, en dat kan niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Van een kaart met hoogtelijnen kan je dus drie dingen aflezen: hoe hoog een plaats boven de zeespiegel ligt, hoe steil een helling is, en het <strong>hoogteverschil</strong> tussen twee punten. Dat laatste is gewoon het verschil tussen hun hoogtes: van de lijn van 100 meter naar die van 160 meter stijg je 60 meter."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het hoogst gelegen punt van een gebied heet het <strong>hoogtepunt</strong> van dat gebied."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 176\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"-2.25,130 3.8,116.0 11.8,116.0 27.8,116.0 97.8,116.0 113.8,116.0 119.75,130\" fill=\"#c9d6ba\" stroke=\"#234539\" stroke-width=\"1.5\"/><text x=\"58.8\" y=\"152.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">vlakte</text><text x=\"58.8\" y=\"166.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">laag en vlak</text><polygon points=\"115.25,130 121.2,116.0 141.2,68.0 155.2,64.0 201.2,64.0 215.2,68.0 231.2,116.0 237.25,130\" fill=\"#c9d6ba\" stroke=\"#234539\" stroke-width=\"1.5\"/><text x=\"176.2\" y=\"152.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">plateau</text><text x=\"176.2\" y=\"166.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">hoog en vlak</text><polygon points=\"232.75,130 238.8,116.0 262.8,100.0 288.8,72.0 314.8,100.0 348.8,116.0 354.75,130\" fill=\"#c9d6ba\" stroke=\"#234539\" stroke-width=\"1.5\"/><text x=\"293.8\" y=\"152.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">heuvel</text><text x=\"293.8\" y=\"166.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">rond en niet zo hoog</text><polygon points=\"350.25,130 356.2,116.0 386.2,90.0 408.2,26.0 430.2,90.0 466.2,116.0 472.25,130\" fill=\"#c9d6ba\" stroke=\"#234539\" stroke-width=\"1.5\"/><polygon points=\"398.25,52 408.25,26 418.25,52\" fill=\"#f4f8fa\" stroke=\"#234539\" stroke-width=\"1.1\"/><text x=\"411.2\" y=\"152.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">berg</text><text x=\"411.2\" y=\"166.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8.5\" fill=\"#6b7260\">hoog en steil</text><line x1=\"0\" y1=\"130\" x2=\"470\" y2=\"130\" stroke=\"#234539\" stroke-width=\"1.6\"/></svg>",
+     "onderschrift": "De reliëfvormen die de vakfiche noemt. Een vlakte ligt laag én vlak, een plateau is een <strong>hooggelegen</strong> gebied dat bovenaan vlak is, niet sterk golvend. Een berg is veel hoger en meestal ook steiler dan een heuvel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ver weg lijken de lucht en de aarde elkaar te raken. Die denkbeeldige lijn heet de <strong>horizonlijn</strong>. Ze is geen echte lijn: ze verschuift mee als je zelf verschuift."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Op een goede kaart staan een titel, een legende, een schaal en een noordpijl.",
+  "Een luchtfoto toont het gebied zoals het echt is en heeft geen legende; een kaart toont tekens.",
+  "Een plan is een kaart van een klein gebied met veel details.",
+  "Hoofdwindstreken: noord, oost, zuid, west. Daartussen noordoost, zuidoost, zuidwest, noordwest.",
+  "1 : 25 000 betekent 1 cm op de kaart = 250 m in het echt; 1 : 100 000 = 1 km.",
+  "Afstand meten: een meetlat plus de schaal. Bochtige wegen meet je met een touwtje.",
+  "Een hoogtelijn verbindt punten die even hoog liggen, geteld vanaf de zeespiegel.",
+  "Lijnen dicht bijeen = steil; lijnen ver uiteen = flauw. Hoogtelijnen kruisen elkaar nooit.",
+  "Reliëfvormen: vlakte (laag en vlak), plateau (hoog en vlak), heuvel, berg.",
+  "De horizonlijn is de lijn in de verte waar lucht en aarde elkaar lijken te raken."
+ ]
+}
