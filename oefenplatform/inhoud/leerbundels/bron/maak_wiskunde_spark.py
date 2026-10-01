@@ -942,13 +942,23 @@ BUNDELS["data-en-onzekerheid-spark"] = dict(
             ("p", "Eén uitschieter trekt het gemiddelde helemaal mee, maar laat de mediaan bijna ongemoeid. "
                   "Daar moet je op letten."),
             ("fig", svg.staafdiagram([("Aya", 10), ("Bram", 12), ("Cis", 14), ("Dina", 500)],
-                                     breedte=430, hoogte=200, stap=100),
-             "Vier weeklonen in euro. Het gemiddelde is € 134, terwijl drie van de vier mensen minder dan € 15 verdienen. De mediaan, € 13, beschrijft deze groep veel eerlijker."),
+                                     breedte=430, hoogte=200, stap=100, waarden=True),
+             "Vier weeklonen in euro, met de waarde boven elke staaf. Naast die van € 500 worden de drie andere "
+             "staven zo klein dat je ze op de as niet meer kan aflezen, en dan valt er niets na te rekenen. "
+             "Het gemiddelde is € 134, terwijl drie van de vier mensen minder dan € 15 verdienen. De mediaan, "
+             "€ 13, beschrijft deze groep veel eerlijker."),
             ("p", "Gebruik het <strong>gemiddelde</strong> als de waarden ongeveer bij elkaar liggen, en de "
                   "<strong>mediaan</strong> zodra er uitschieters zijn. Twee reeksen kunnen hetzelfde "
                   "gemiddelde hebben en toch heel verschillend zijn: bij gemiddelde 14 en variatiebreedte 4 "
                   "zit iedereen dicht bijeen, bij gemiddelde 14 en variatiebreedte 15 liggen de resultaten "
                   "ver uit elkaar. Is de variatiebreedte <strong>0</strong>, dan zijn alle waarden gelijk."),
+            ("fig", svg.naast_elkaar([svg.middelmaten([12, 13, 14, 15, 16], breedte=380),
+                                      svg.middelmaten([10, 11, 12, 12, 25], breedte=380)]),
+             "Twee groepen met precies hetzelfde gemiddelde, 14. Links liggen de punten bij elkaar "
+             "(variatiebreedte 4) en vallen gemiddelde en mediaan samen: daar is het gemiddelde een eerlijk "
+             "midden. Rechts trekt dat ene resultaat van 25 het gemiddelde naar 14, terwijl vier van de vijf "
+             "12 of minder haalden (variatiebreedte 15): daar vertelt de mediaan, 12, wat er echt aan de hand "
+             "is. Hoe groter de variatiebreedte, hoe meer je naar de mediaan kijkt."),
             ("p", "Met het gemiddelde kan je ook terugrekenen. Is het gemiddelde van vier toetsen 14, dan is "
                   "de som 14 × 4 = <strong>56</strong>. Heb je 12, 15 en 16, en wil je een gemiddelde van 15, "
                   "dan moet de som 60 worden; je staat op 43, dus je hebt <strong>17</strong> nodig."),
@@ -966,10 +976,21 @@ BUNDELS["data-en-onzekerheid-spark"] = dict(
                                       svg.taartdiagram([("fiets 40 %", .40, svg.FOREST),
                                                         ("te voet 32 %", .32, svg.AMBER),
                                                         ("bus 28 %", .28, "#3b6ea5")])]),
-             "Een staafdiagram vergelijkt groepen: je leest de hoogte af op de verticale as. Een cirkeldiagram toont welk deel van het geheel elke groep is."),
+             "Dezelfde gegevens, twee keer getekend: hoe 25 leerlingen naar school komen."),
+            ("p", "Een <strong>staafdiagram</strong> vergelijkt groepen met elkaar: je leest de hoogte van "
+                  "elke staaf af op de verticale as. Een <strong>cirkeldiagram</strong> toont welk "
+                  "<strong>deel van het geheel</strong> elke groep is. Daarom staat er bij een sector een "
+                  "percentage en geen aantal: samen moeten ze 100 % zijn."),
             ("p", "Een <strong>lijndiagram</strong> gebruik je voor verandering in de tijd. Loopt de lijn "
                   "tussen 14 u en 15 u steil omhoog, dan werd het in dat uur snel warmer: de "
                   "<strong>steilheid</strong> vertelt hoe snel het ging, niet hoe warm het was."),
+            ("fig", svg.lijngrafiek([13, 14, 15, 21, 22, 20], breedte=430, hoogte=200,
+                                    labels=["12 u", "13 u", "14 u", "15 u", "16 u", "17 u"], stap=5),
+             "De temperatuur van één namiddag, in graden. Tussen 14 u en 15 u loopt de lijn het steilst "
+             "omhoog: in dat ene uur werd het 6 graden warmer. Het warmst is het om 16 u, en net daar is de "
+             "lijn bijna vlak. Hoog liggen en snel stijgen zijn dus twee verschillende dingen. In een "
+             "staafdiagram zou je deze gegevens ook kunnen zetten, maar dan zie je de zes uren als zes losse "
+             "groepen in plaats van als één verloop."),
             ("p", "In een <strong>cirkeldiagram</strong> is de hele cirkel <strong>360 graden</strong> en dus "
                   "100 %. Een groep van 20 % krijgt 20 % van 360° = <strong>72°</strong>. Een sector van "
                   "90° is <strong>een vierde</strong> van het geheel. Van 40 leerlingen komen er 15 te voet; "

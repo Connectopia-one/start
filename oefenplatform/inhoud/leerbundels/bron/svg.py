@@ -154,12 +154,18 @@ def klok(uur, minuut, straal=64):
     return _svg(br, br, "".join(d))
 
 
-def staafdiagram(paren, breedte=330, hoogte=180, kleur=None, stap=None):
+def staafdiagram(paren, breedte=330, hoogte=180, kleur=None, stap=None,
+                 waarden=False):
     """paren = [(label, waarde), ...]
 
     stap bepaalt om de hoeveel de streepjes op de zij-as staan. Laat je hem
     weg, dan kiest de tekening er zelf vier, wat niet altijd ronde getallen
     geeft — bij grote waarden zet je hem dus beter zelf.
+
+    waarden=True zet de waarde boven elke staaf. Doe dat zodra er één grote
+    uitschieter tussen staat: de kleine staven worden dan zo laag dat je ze
+    van de as niet meer kan aflezen, en dan valt de tekst eronder niet meer
+    na te rekenen.
     """
     kleur = kleur or FOREST
     links, onder, boven = 30, 28, 14
@@ -179,6 +185,10 @@ def staafdiagram(paren, breedte=330, hoogte=180, kleur=None, stap=None):
         x = links + i * vak + (vak - bb) / 2
         d.append(f'<rect x="{x:.1f}" y="{hoogte-onder-h:.1f}" width="{bb:.1f}" height="{h:.1f}" fill="{kleur}" rx="3"/>')
         d.append(f'<text x="{x+bb/2:.1f}" y="{hoogte-onder+14}" text-anchor="middle" font-family="IBM Plex Sans,sans-serif" font-size="10" fill="{INK}">{label}</text>')
+        if waarden:
+            d.append(f'<text x="{x+bb/2:.1f}" y="{hoogte-onder-h-4:.1f}" text-anchor="middle" '
+                     f'font-family="IBM Plex Sans,sans-serif" font-size="10" font-weight="600" '
+                     f'fill="{INK}">{w}</text>')
     return _svg(breedte, hoogte, "".join(d))
 
 
@@ -333,17 +343,29 @@ def rechthoek_maten(lengte_cm, breedte_cm, breedte=330):
     return _svg(breedte, y + h + 30, "".join(d))
 
 
-def lijngrafiek(punten, breedte=330, hoogte=180, labels=None):
+def lijngrafiek(punten, breedte=330, hoogte=180, labels=None, stap=None):
+    """punten = [waarde, ...], labels = wat er onder elk punt staat.
+
+    stap bepaalt om de hoeveel de streepjes met getallen op de zij-as staan.
+    Laat je hem weg, dan staat er geen enkel getal op die as, en dan valt er
+    uit de lijn niets af te lezen. Zet hem dus zodra de hoogte zelf iets
+    betekent.
+    """
     links, onder, boven = 30, 28, 14
     top = max(punten)
     n = len(punten)
     vlak = hoogte - onder - boven
-    stap = (breedte - links - 10) / (n - 1)
+    breed = (breedte - links - 10) / (n - 1)
     d = [f'<line x1="{links}" y1="{boven}" x2="{links}" y2="{hoogte-onder}" stroke="{DIM}" stroke-width="1.4"/>',
          f'<line x1="{links}" y1="{hoogte-onder}" x2="{breedte}" y2="{hoogte-onder}" stroke="{DIM}" stroke-width="1.4"/>']
+    if stap:
+        for s in range(0, int(top) + 1, stap):
+            y = hoogte - onder - s / top * vlak
+            d.append(f'<line x1="{links-4}" y1="{y:.1f}" x2="{links}" y2="{y:.1f}" stroke="{DIM}" stroke-width="1.2"/>')
+            d.append(f'<text x="{links-7}" y="{y+3.5:.1f}" text-anchor="end" font-family="IBM Plex Sans,sans-serif" font-size="9.5" fill="{DIM}">{s}</text>')
     pts = []
     for i, w in enumerate(punten):
-        x = links + i * stap
+        x = links + i * breed
         y = hoogte - onder - w / top * vlak
         pts.append(f"{x:.1f},{y:.1f}")
         d.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="3.4" fill="{FOREST}"/>')
@@ -3440,9 +3462,16 @@ def middelmaten(getallen, breedte=470):
 
     d = [f'<line x1="{marge-14}" y1="86" x2="{breedte-marge+14}" y2="86" '
          f'stroke="{BORDER}" stroke-width="2"/>']
+    # Komt een waarde twee keer voor, dan stapelen we de bolletjes op elkaar.
+    # Anders liggen ze precies over elkaar en lijkt de reeks korter dan ze is,
+    # terwijl net dát zichtbaar moet zijn: hoeveel keer een waarde voorkomt.
+    hoevaak = {}
     for g in gesorteerd:
-        d.append(f'<circle cx="{px(g)}" cy="86" r="5.5" fill="{FOREST}"/>')
-        d.append(_tekst(px(g), 108, str(g), 10.5, DIM))
+        keer = hoevaak.get(g, 0)
+        hoevaak[g] = keer + 1
+        d.append(f'<circle cx="{px(g)}" cy="{86 - keer * 12}" r="5.5" fill="{FOREST}"/>')
+        if keer == 0:
+            d.append(_tekst(px(g), 108, str(g), 10.5, DIM))
     for waarde, naam, kleur, y in ((med, "mediaan", AMBER, 52), (gem, "gemiddelde", "#5b7f9c", 32)):
         d.append(f'<line x1="{px(waarde)}" y1="{y+6}" x2="{px(waarde)}" y2="80" '
                  f'stroke="{kleur}" stroke-width="1.6" stroke-dasharray="4 3"/>')
