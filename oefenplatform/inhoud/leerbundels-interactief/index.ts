@@ -2,6 +2,19 @@
 // De sleutel is <niveau>/<vak-slug>/<hoofdstuk-slug>; zie lib/leerbundel.ts.
 
 export const KLIKBARE_BUNDELS: Record<string, () => Promise<{ default: unknown }>> = {
+  "beyond/geschiedenis/beeldvorming-vergelijken-en-verleden-heden-toekomst": () => import("./geschiedenis--beeldvorming-vergelijken-en-verleden-heden-toekomst-beyond.json"),
+  "beyond/geschiedenis/belgie-na-1945": () => import("./geschiedenis--belgie-na-1945-beyond.json"),
+  "beyond/geschiedenis/de-eerste-wereldoorlog-en-de-russische-revoluties": () => import("./geschiedenis--de-eerste-wereldoorlog-en-de-russische-revoluties-beyond.json"),
+  "beyond/geschiedenis/de-tweede-wereldoorlog-en-de-holocaust": () => import("./geschiedenis--de-tweede-wereldoorlog-en-de-holocaust-beyond.json"),
+  "beyond/geschiedenis/dekolonisatie-en-de-wereld-van-vandaag": () => import("./geschiedenis--dekolonisatie-en-de-wereld-van-vandaag-beyond.json"),
+  "beyond/geschiedenis/denken-kunst-en-emancipatie": () => import("./geschiedenis--denken-kunst-en-emancipatie-beyond.json"),
+  "beyond/geschiedenis/een-nieuwe-wereldorde-vn-koude-oorlog-en-europa": () => import("./geschiedenis--een-nieuwe-wereldorde-vn-koude-oorlog-en-europa-beyond.json"),
+  "beyond/geschiedenis/het-historisch-referentiekader": () => import("./geschiedenis--het-historisch-referentiekader-beyond.json"),
+  "beyond/geschiedenis/industrialisatie-en-de-sociale-kwestie": () => import("./geschiedenis--industrialisatie-en-de-sociale-kwestie-beyond.json"),
+  "beyond/geschiedenis/interbellum-totalitarisme-en-crisis": () => import("./geschiedenis--interbellum-totalitarisme-en-crisis-beyond.json"),
+  "beyond/geschiedenis/modern-imperialisme-congo-en-china": () => import("./geschiedenis--modern-imperialisme-congo-en-china-beyond.json"),
+  "beyond/geschiedenis/redeneren-met-historische-bronnen": () => import("./geschiedenis--redeneren-met-historische-bronnen-beyond.json"),
+  "beyond/geschiedenis/restauratie-revolutie-en-het-ontstaan-van-belgie": () => import("./geschiedenis--restauratie-revolutie-en-het-ontstaan-van-belgie-beyond.json"),
   "boost-doorstroom/aardrijkskunde/duurzaam-omgaan-met-de-ruimte": () => import("./aardrijkskunde--duurzaam-omgaan-met-de-ruimte.json"),
   "boost-doorstroom/aardrijkskunde/een-geografisch-onderzoek-voeren": () => import("./aardrijkskunde--een-geografisch-onderzoek-voeren.json"),
   "boost-doorstroom/aardrijkskunde/grondstoffen-energie-en-industrie": () => import("./aardrijkskunde--grondstoffen-energie-en-industrie.json"),

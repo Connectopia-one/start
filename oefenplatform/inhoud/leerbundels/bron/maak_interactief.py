@@ -55,10 +55,12 @@ def niveau_van(b):
         return "boost-doorstroom"
     if "Boost" in voluit and "dubbele finaliteit" in voluit:
         return "boost-dubbele-finaliteit"
+    if "Beyond" in voluit:
+        return "beyond"
     raise ValueError("onbekend niveau: " + voluit)
 
 
-NIVEAUS = ("start", "spark", "boost-doorstroom", "boost-dubbele-finaliteit")
+NIVEAUS = ("start", "spark", "boost-doorstroom", "boost-dubbele-finaliteit", "beyond")
 
 
 def blok_naar_data(b):
