@@ -186,7 +186,7 @@ DEEL1 = [
             "enkel voor grondtallen die kleiner zijn dan nul",
         ],
         antwoord=0,
-        uitleg="Bij een negatief grondtal zou dezelfde exponent, anders geschreven, twee verschillende uitkomsten geven. Daarom beperkt de fiche de rationale exponent tot niet-negatieve grondtallen.",
+        uitleg="Bij een negatief grondtal zou dezelfde exponent, anders geschreven, twee verschillende uitkomsten geven. Daarom blijft een rationale exponent beperkt tot niet-negatieve grondtallen.",
     ),
 ]
 

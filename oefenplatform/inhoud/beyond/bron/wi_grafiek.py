@@ -183,7 +183,7 @@ DEEL1 = [
             "tabel, grafiek, afgeleide en primitieve",
         ],
         antwoord=0,
-        uitleg="De fiche vraagt dat je van elke voorstellingswijze naar elke andere kan overstappen.",
+        uitleg="Op het examen moet je van elke voorstellingswijze naar elke andere kunnen overstappen.",
     ),
     dict(
         type="meerkeuze",

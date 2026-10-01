@@ -280,9 +280,9 @@ DEEL2 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Een ongelijkheid van de vijfde graad moet je volgens de fiche algebraïsch kunnen oplossen.",
+        vraag="Een ongelijkheid van de vijfde graad moet je op het examen algebraïsch kunnen oplossen.",
         antwoord=False,
-        uitleg="De fiche vraagt ongelijkheden grafisch op te lossen. Alleen de tweedegraadsongelijkheid moet je ook algebraïsch aankunnen.",
+        uitleg="Ongelijkheden los je grafisch op. Alleen de tweedegraadsongelijkheid moet je ook algebraïsch aankunnen.",
     ),
     dict(
         type="meerkeuze",
