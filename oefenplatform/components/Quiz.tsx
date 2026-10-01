@@ -424,11 +424,29 @@ function VraagKaart({
         )}
 
       {vraag.type === "invultekst" && !interactie && (
+        /*
+          Geen hulp van de browser of de telefoon in dit vakje.
+
+          Een ouder meldde op 1 oktober 2026 dat een verkeerd gespeld antwoord
+          meteen een rode kronkellijn kreeg: het kind wist dus al dat het fout
+          was voor het op Controleer klikte, en dat nodigt uit tot gokken in
+          plaats van tot nadenken. Erger nog op een telefoon, waar de
+          autocorrectie een spelfout stilletjes zou rechtzetten en het kind
+          niets meer leert.
+
+          spellCheck zet de kronkellijn uit, autoCorrect de stille verbetering,
+          autoCapitalize de hoofdletter die een telefoon er vanzelf van maakt,
+          en autoComplete het lijstje met wat hier eerder getypt werd.
+        */
         <input
           type="text"
           disabled={status.gecontroleerd}
           value={typeof gegeven === "string" ? gegeven : ""}
           onChange={(e) => onAntwoord(e.target.value)}
+          spellCheck={false}
+          autoCorrect="off"
+          autoCapitalize="off"
+          autoComplete="off"
           className="mt-3 w-full rounded-md border border-border bg-paper px-3 py-2 text-sm text-ink outline-none focus:border-forest focus:ring-1 focus:ring-forest"
           placeholder="Typ je antwoord..."
         />

@@ -365,9 +365,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "Je vindt de stam door -en van het hele werkwoord te halen.",
+          "vraag": "De stam van een werkwoord is de ik-vorm: wat je zegt na 'ik'.",
           "antwoord": true,
-          "uitleg": "En let dan nog op de klank: lopen wordt loop, niet lop."
+          "uitleg": "Bij veel werkwoorden kan je gewoon -en weghalen, maar dat loopt mis bij verhuizen (ik verhuis, niet verhuiz) en bij leven (ik leef). De ik-vorm klopt altijd."
         },
         {
           "type": "invultekst",
@@ -836,9 +836,9 @@
         },
         {
           "type": "waarofniet",
-          "vraag": "De letters van 't kofschip zijn t, k, f, s, ch en p.",
+          "vraag": "Het ezelsbruggetje 't kofschip staat voor de medeklinkers t, k, f, s, ch en p.",
           "antwoord": true,
-          "uitleg": "Eindigt de stam op een van die letters, dan wordt het -te en -t."
+          "uitleg": "De o telt niet mee, want dat is een klinker. Eindigt de stam op een van die medeklinkers, dan schrijf je in de verleden tijd -te: ik werkte. Anders wordt het -de: ik speelde."
         },
         {
           "type": "meerkeuze",
