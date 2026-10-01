@@ -25,6 +25,7 @@ export default async function BeheerPage({
     { count: gezinnenCount },
     { count: nieuweBriefjes },
     { count: nieuweAanvragen },
+    { count: nieuweKijkerposts },
   ] = await Promise.all([
     supabase.from("klasjes").select("id, naam, slug").order("naam"),
     supabase
@@ -38,6 +39,10 @@ export default async function BeheerPage({
     /* Staat de tabel er nog niet, dan geeft dit gewoon niets terug. */
     beheerDb
       .from("aanvragen")
+      .select("id", { count: "exact", head: true })
+      .eq("gezien", false),
+    beheerDb
+      .from("kijker_posts")
       .select("id", { count: "exact", head: true })
       .eq("gezien", false),
   ]);
@@ -218,6 +223,25 @@ export default async function BeheerPage({
               className="mt-4 inline-block rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
             >
               Prikbord nakijken &rarr;
+            </Link>
+
+            <h2 className="mt-8 font-display text-lg font-semibold text-ink">
+              In de kijker
+              {(nieuweKijkerposts ?? 0) > 0 && (
+                <span className="ml-2 rounded-full bg-forest px-2 py-0.5 align-middle text-xs font-semibold text-white">
+                  {nieuweKijkerposts} nieuw
+                </span>
+              )}
+            </h2>
+            <p className="mt-3 text-sm text-ink-dim">
+              De berichten van sociale media op de website: die van onszelf, en
+              die iemand anders instuurde en op jouw goedkeuring wachten.
+            </p>
+            <Link
+              href="/beheer/in-de-kijker"
+              className="mt-4 inline-block rounded-md bg-forest px-3 py-2 text-sm font-medium text-white hover:bg-forest-dark"
+            >
+              In de kijker beheren &rarr;
             </Link>
           </section>
         </div>

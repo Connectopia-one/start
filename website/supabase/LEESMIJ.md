@@ -1,6 +1,6 @@
 # De databank van de website
 
-Deze twee bestanden horen **niet** in de Supabase van het oefenplatform maar
+Deze bestanden horen **niet** in de Supabase van het oefenplatform maar
 in die van het **ouderportaal**: de website deelt die databank, zodat jij de
 aanvragen daar in één scherm ziet staan.
 
@@ -11,6 +11,7 @@ gaat niets verloren en er komt niets dubbel bij.
 | --- | --- | --- |
 | `aanvragen.sql` | De tabel achter élk formulier op de site: een infovraag, een inschrijving, een terugbelverzoek, de winactie, een professional die zich meldt. Je leest ze in het ouderportaal bij Aanvragen. | Elk formulier op de website geeft een foutmelding. |
 | `prikbord.sql` | Het prikbord waar ouders zelf een briefje ophangen, en de meldknop daarbij. | Het prikbord blijft leeg en een nieuw briefje raakt niet weg. |
+| `social.sql` | De pagina In de kijker: de berichten van sociale media die op de site komen, en het bakje waar hun beelden in gaan. | De pagina toont enkel de berichten die in `content/inkijker.ts` staan, en insturen kan niet. |
 
 ## Waarom dat zo gescheiden is
 

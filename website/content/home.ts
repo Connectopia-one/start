@@ -102,6 +102,19 @@ export const home = {
     knop: "Naar de uitdagingshoek",
     link: "https://oefenplatform.connectopia.one/niveaus/hoekje",
   },
+  /*
+    In de kijker: de berichten van sociale media die op de site staan. De band
+    staat er vooral om mensen te laten weten dat ze hun eigen bericht mogen
+    insturen; de pagina zelf vult zich daarmee.
+  */
+  kijkerBand: {
+    label: "In de kijker",
+    titel: "Schreef jij iets over ons?",
+    tekst:
+      "Berichten van onze eigen pagina's en van mensen die over ons schreven, staan samen op één pagina. Deed jij er een, op Facebook, Instagram of LinkedIn? Stuur hem in, dan zetten we hem erbij.",
+    knop: "Naar In de kijker",
+    link: "/in-de-kijker",
+  },
   professionalsBand: {
     label: "Voor professionals",
     titel: "Ben je een professional?",

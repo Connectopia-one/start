@@ -110,12 +110,18 @@ export function PaginaKop({
 export function Sectie({
   children,
   className = "",
+  id,
 }: {
   children: ReactNode;
   className?: string;
+  /* Een eigen anker, zodat een link als /in-de-kijker#insturen hier landt. */
+  id?: string;
 }) {
   return (
-    <section className={`mx-auto w-full max-w-5xl px-5 py-10 ${className}`}>
+    <section
+      id={id}
+      className={`mx-auto w-full max-w-5xl px-5 py-10 ${className}`}
+    >
       {children}
     </section>
   );

@@ -190,6 +190,7 @@ export const extraLinks: {
   inMenu?: boolean;
 }[] = [
   { slug: "/observatielijst", menuTitel: "Observatielijst" },
+  { slug: "/in-de-kijker", menuTitel: "In de kijker" },
   { slug: "/professionals", menuTitel: "Voor professionals" },
   { slug: "/steun-ons", menuTitel: "Steun ons" },
   { slug: "/contact", menuTitel: "Contact", inMenu: true },
