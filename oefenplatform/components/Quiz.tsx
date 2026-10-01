@@ -744,6 +744,14 @@ export function Quiz({
   }
 
   const { vraag, beurt } = vragen[Math.min(huidige, vragen.length - 1)];
+  /* Staat het kind op de laatste vraag van zijn reeks, dan is "Volgende" geen
+     stap vooruit meer. Is er elders nog een vraag open, dan brengt de knop het
+     daarnaartoe; is er niets meer open, dan staat ze grijs en zegt de regel
+     eronder waarom. Zonder dat liep een kind vast op een reeks van één vraag. */
+  const laatsteVanDeReeks = huidige >= vragen.length - 1;
+  const nogOpenElders = vragen.findIndex(
+    (v, i) => i !== huidige && !statussen[v.vraag.id]?.gecontroleerd,
+  );
   const toonBalk = Boolean(
     kinderen.find((k) => k.id === actiefKindId)?.toonVoortgang,
   );
@@ -957,17 +965,35 @@ export function Quiz({
 
         <button
           type="button"
-          onClick={() => setHuidige((i) => Math.min(vragen.length - 1, i + 1))}
-          disabled={huidige >= vragen.length - 1}
+          onClick={() =>
+            laatsteVanDeReeks
+              ? setHuidige(nogOpenElders)
+              : setHuidige((i) => Math.min(vragen.length - 1, i + 1))
+          }
+          disabled={laatsteVanDeReeks && nogOpenElders < 0}
           className={`rounded-md px-4 py-2 text-sm font-medium transition disabled:cursor-not-allowed disabled:opacity-40 ${
             statussen[vraag.id]?.gecontroleerd
               ? "bg-forest text-white hover:bg-forest-dark"
               : "border border-border text-ink-dim hover:border-forest hover:text-ink"
           }`}
         >
-          Volgende &rarr;
+          {laatsteVanDeReeks && nogOpenElders >= 0
+            ? "Nog te doen "
+            : "Volgende "}
+          &rarr;
         </button>
       </div>
+
+      {/* Waarom die knop grijs staat. Een testgezin liep hier vast: het kind
+          stond op de laatste vraag van haar reeks, had ze nog niet nagekeken,
+          en kon dus niet verder. Er stond niets bij, dus leek het platform
+          kapot. Nu zegt het zelf wat er nog moet gebeuren. */}
+      {laatsteVanDeReeks && nogOpenElders < 0 && !klaar && (
+        <p className="text-center text-xs text-ink-dim">
+          Dit is de laatste vraag van deze reeks. Klik hierboven op Controleer,
+          dan is ze klaar.
+        </p>
+      )}
 
       {klaar && (
         <div

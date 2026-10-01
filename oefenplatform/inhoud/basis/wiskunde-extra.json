@@ -515,14 +515,14 @@
         },
         {
           "type": "meerkeuze",
-          "vraag": "Hoeveel stukken van deze cirkel moet je kleuren om de helft te hebben? {{figuur cirkel 0/8}}",
+          "vraag": "Een cirkel is verdeeld in 8 gelijke stukken. Hoeveel van die stukken samen zijn de helft? {{figuur cirkel 0/8}}",
           "opties": [
             "4",
             "2",
             "8"
           ],
           "antwoord": 0,
-          "uitleg": "De cirkel heeft 8 stukken. De helft van 8 is 4."
+          "uitleg": "De cirkel heeft 8 gelijke stukken. De helft van 8 is 4, dus 4 stukken samen zijn de helft."
         },
         {
           "type": "waarofniet",

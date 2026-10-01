@@ -284,6 +284,14 @@ export function KleurVraag({
 
   return (
     <div className="mt-3">
+      {/* Zeg erbij dat je mag klikken. Een kind dat "Kleur de helft" leest,
+          weet niet vanzelf dat de tekening zelf de oefening is, en een
+          tekening die er alleen maar staat ziet er precies hetzelfde uit. */}
+      {!uitgeschakeld && (
+        <p className="mb-2 text-xs text-ink-dim">
+          Klik op de stukken die je wil kleuren, of veeg erover.
+        </p>
+      )}
       <div onPointerMove={beweeg} className={uitgeschakeld ? "pointer-events-none" : ""}>
         <Figuur
           vorm={vorm}
