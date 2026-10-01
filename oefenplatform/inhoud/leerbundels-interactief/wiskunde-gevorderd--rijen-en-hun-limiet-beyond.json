@@ -1,0 +1,105 @@
+{
+ "vak": "Wiskunde gevorderd",
+ "titel": "Rijen en hun limiet",
+ "onder": "Rekenkundige en meetkundige rijen, hun sommen, en wat convergeren betekent.",
+ "secties": [
+  {
+   "kop": "Twee soorten rijen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort rij</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je telkens doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe het vaste getal heet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rekenkundige rij</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">telkens hetzelfde getal optellen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het verschil</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meetkundige rij</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">telkens met hetzelfde getal vermenigvuldigen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de reden</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "In de rij <strong>drie, zeven, elf, vijftien</strong> is het <strong>verschil vier</strong>. In de rij <strong>twee, zes, achttien, vierenvijftig</strong> is de <strong>reden drie</strong>; dat is dus <strong>geen rekenkundige rij</strong>, want het verschil groeit telkens terwijl de factor gelijk blijft. In de rij <strong>één, een derde, een negende</strong> is de reden <strong>een derde</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een recursief voorschrift berekent elke term uit de vorige term</strong>, en daarom heb je er altijd een beginterm bij nodig. Een <strong>expliciet voorschrift</strong> geeft de n-de term rechtstreeks: bij <strong>vier n min één</strong> is de <strong>eerste term drie</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Termen en sommen berekenen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Het expliciete voorschrift van een rekenkundige rij is: de eerste term plus n min één, maal het verschil.</strong> Om bij de n-de term te komen tel je het verschil n min één keer op. Zo is de <strong>tiende term van drie, zeven, elf gelijk aan negenendertig</strong>: drie plus negen maal vier, dus negen stappen en niet tien. Bij een meetkundige rij vermenigvuldig je: de <strong>vijfde term van twee, zes, achttien is honderdtweeënzestig</strong>, namelijk twee maal drie tot de vierde."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De som van de eerste n termen van een rekenkundige rij is n maal het gemiddelde van de eerste en de laatste term.</strong> Je legt de rij twee keer naast elkaar, een keer vooruit en een keer achteruit, en elk paar geeft dan dezelfde som. Zo is de <strong>som van de getallen één tot en met tien gelijk aan vijfenvijftig</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Voor de <strong>som van de eerste n termen van een meetkundige rij</strong> heb je <strong>de eerste term, de reden en het aantal termen</strong> nodig, want in de formule staat de reden tot de macht n. Die formule werkt niet als de reden één is."
+    }
+   ]
+  },
+  {
+   "kop": "Hoe een rij verloopt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een rekenkundige rij daalt als het verschil negatief is.</strong> Alleen het teken van het verschil beslist: een rij die begint bij min honderd met verschil drie stijgt gewoon. <strong>De punten van een rekenkundige rij liggen op een rechte</strong>, met het verschil als richtingscoëfficiënt; daarom hoort ze bij <strong>lineaire groei</strong>. Bij een <strong>meetkundige rij hoort exponentiële groei</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>meetkundige rij met een reden groter dan één en een positieve eerste term stijgt, met een toenemende stijging</strong>: elke stap wordt groter dan de vorige. <strong>Bij reden één blijft elke term gelijk</strong> en is de rij constant, dus zo'n rij stijgt zeker niet steeds sneller. <strong>Bij een negatieve reden wisselen de termen van teken</strong>; zo'n rij heet <strong>alternerend</strong>, en je herkent haar aan een factor min één tot de macht n in het voorschrift."
+    },
+    {
+     "soort": "weetje",
+     "html": "Zet je geld op een rekening met <strong>samengestelde intrest</strong>, dan vormen de jaarlijkse saldo's een <strong>meetkundige rij</strong>: elk jaar dezelfde groeifactor. Bij enkelvoudige intrest zou je elk jaar hetzelfde bedrag optellen, en dan is de rij rekenkundig."
+    }
+   ]
+  },
+  {
+   "kop": "Convergeren en divergeren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een rij convergeert als haar termen een vast eindig getal naderen</strong>; dat getal is haar limiet. Gaat ze naar oneindig of blijft ze springen, dan <strong>divergeert</strong> ze. <strong>Een divergente rij kan dus naar plus oneindig gaan</strong>: divergent betekent alleen dat er geen eindige limiet is."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rij</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Limiet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarom</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één gedeeld door n</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nul</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoe groter n, hoe kleiner de breuk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee n plus één, gedeeld door n</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">splits op in twee plus één op n</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee tot de macht n</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">plus oneindig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij een reden groter dan één groeien de termen onbeperkt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">min één tot de macht n</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bestaat niet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de rij blijft springen tussen min één en één</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een meetkundige rij met reden tussen min één en één</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nul</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">telkens met een kleiner getal vermenigvuldigen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een rekenkundige rij met verschil twee convergeert niet</strong>: ze blijft met twee per stap toenemen. Alleen een rekenkundige rij met verschil nul convergeert. Voor <strong>twee convergente rijen is de limiet van de som de som van de limieten</strong>, net als bij functies."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Bij een rij spreek je alleen over de limiet op oneindig, omdat een rij enkel in de natuurlijke getallen gedefinieerd is.</strong> Er zijn geen tussenwaarden om naartoe te kruipen: tussen de derde en de vierde term ligt niets."
+    }
+   ]
+  },
+  {
+   "kop": "De oneindige meetkundige som",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De somrij van een rij is de rij van de som van de eerste n termen.</strong> Haar n-de term is dus de som tot en met de n-de term van de oorspronkelijke rij. <strong>De somrij van een meetkundige rij met reden een half convergeert.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De som van een oneindige meetkundige rij bereken je als de eerste term gedeeld door één min de reden.</strong> De reden tot de macht n kruipt immers naar nul, dus uit de gewone somformule blijft dat over. Zo is <strong>één plus een half plus een vierde plus een achtste, en zo verder, gelijk aan twee</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Niet elke oneindige meetkundige rij heeft een eindige som.</strong> De voorwaarde is dat <strong>de absolute waarde van de reden kleiner is dan één</strong>; bij reden twee groeit de som onbeperkt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een voorbeeld uit de praktijk: een <strong>bal die telkens tot zeventig procent van de vorige hoogte stuitert</strong>. Omdat nul komma zeven onder één ligt, kan je <strong>de totale afgelegde hoogte berekenen</strong>: oneindig veel sprongen geven samen een eindige hoogte."
+    },
+    {
+     "soort": "weetje",
+     "html": "<strong>Nul komma negen negen negen, met oneindig veel negens, is gelijk aan één.</strong> Het is de som van een meetkundige rij met eerste term negen tienden en reden een tiende, en die som is precies één."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

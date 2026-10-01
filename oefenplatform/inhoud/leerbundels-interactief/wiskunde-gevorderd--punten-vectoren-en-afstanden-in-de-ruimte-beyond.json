@@ -1,0 +1,88 @@
+{
+ "vak": "Wiskunde gevorderd",
+ "titel": "Punten, vectoren en afstanden in de ruimte",
+ "onder": "Vectoren met hun coördinaten en hun norm, het scalair product, en afstanden, hoeken en zwaartepunten.",
+ "secties": [
+  {
+   "kop": "Vrije vector en puntvector",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een vrije vector is een richting, een zin en een lengte, zonder vast beginpunt.</strong> Je mag hem overal in de ruimte neerleggen; het blijft dezelfde vector. <strong>Twee pijlen met dezelfde coördinaten maar met een ander beginpunt zijn dus dezelfde vrije vector.</strong> Een <strong>puntvector</strong> is <strong>de vector van de oorsprong naar een punt</strong>, en zijn coördinaten zijn precies die van het punt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een vector in de ruimte heeft drie coördinaten</strong>, één per as; in het vlak zijn het er twee. Je werkt in een <strong>orthonormaal assenstelsel</strong>: <strong>de assen staan loodrecht op elkaar en de eenheden zijn even lang</strong>. Alleen dan kloppen de formules voor de norm, de afstand en de hoek."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De coördinaten van de vector van A naar B zijn die van B min die van A</strong>: eindpunt min beginpunt. Draai je het om, dan krijg je de tegengestelde vector. Een <strong>richtingsvector van een rechte is een vector die evenwijdig is met die rechte</strong>, en <strong>elke rechte heeft er oneindig veel</strong>, want elk veelvoud is er ook een."
+    }
+   ]
+  },
+  {
+   "kop": "Rekenen met vectoren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Optellen doe je coördinaat per coördinaat</strong>: de eerste bij de eerste, en zo verder. <strong>Grafisch leg je de staart van de tweede aan de kop van de eerste</strong>, en de somvector loopt van de eerste staart naar de laatste kop; met de parallellogramregel krijg je hetzelfde. <strong>De optelling van vectoren is commutatief</strong>, <strong>de nulvector is het neutraal element</strong> en <strong>het symmetrisch element is de tegengestelde vector</strong>, met alle coördinaten van teken veranderd."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een vermenigvuldiging met een getal vermenigvuldig je elke coördinaat afzonderlijk</strong>: de vector twee, min één, drie maal twee heeft als eerste coördinaat <strong>vier</strong>. <strong>Met een negatief getal keert de zin om</strong>; de richting blijft dezelfde en de lengte verandert met de grootte van dat getal."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De norm van een vector is zijn lengte</strong>, berekend als de wortel uit de som van de kwadraten van de coördinaten. <strong>Een norm kan nooit negatief zijn</strong>; alleen de nulvector heeft norm nul. De norm van de vector <strong>drie, nul, vier is vijf</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een vector ontbinden in zijn componenten betekent hem schrijven als een som van vectoren langs de assen.</strong> Elke coördinaat is de lengte van één component, en dat kan grafisch en door te rekenen."
+    },
+    {
+     "soort": "weetje",
+     "html": "Werken er <strong>twee krachten tegelijk op een voorwerp</strong>, dan vind je de <strong>resulterende kracht door de twee krachtvectoren op te tellen</strong>. Een kracht heeft immers een grootte én een richting. Enkel de getallen optellen klopt alleen als ze dezelfde kant op wijzen."
+    }
+   ]
+  },
+  {
+   "kop": "Het scalair product",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Het scalair product van twee vectoren levert een getal op</strong>, geen vector; daar komt de naam vandaan. <strong>In coördinaten tel je de producten van de overeenkomstige coördinaten op</strong>: voor één, twee, drie en twee, nul, één geeft dat <strong>vijf</strong>. <strong>Het scalair product is commutatief.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het scalair product van twee loodrechte vectoren is nul</strong>, en dat werkt ook omgekeerd: dat is het <strong>criterium voor loodrechte stand</strong>. <strong>Om na te gaan of twee rechten loodrecht staan, bereken je dus het scalair product van hun richtingsvectoren</strong>, tenminste in een orthonormaal assenstelsel. <strong>Het werkt omdat de cosinus van negentig graden nul is</strong>: het scalair product is het product van de normen maal die cosinus."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De hoek tussen twee vectoren bereken je uit het scalair product gedeeld door het product van de normen</strong>; die breuk is de cosinus van de hoek. <strong>Is het scalair product negatief, dan is de hoek stomp</strong>, niet scherp: bij een scherpe hoek is het positief, bij een rechte hoek nul."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het scalair product van een vector met zichzelf is het kwadraat van zijn norm</strong>, niet de norm zelf. En <strong>twee vectoren zijn evenwijdig als de ene een veelvoud van de andere is</strong>: alle coördinaten verschillen dan met dezelfde factor. Een <strong>normaalvector van een vlak</strong> is <strong>een vector die loodrecht op dat vlak staat</strong>; zijn coördinaten lees je af uit de cartesische vergelijking."
+    }
+   ]
+  },
+  {
+   "kop": "Afstanden, middens en zwaartepunten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De afstand tussen twee punten is de norm van de vector tussen die twee punten</strong>: eerst de vector, dan zijn lengte. De punten <strong>één, twee, drie en één, twee, acht liggen vijf uit elkaar</strong>, en het punt <strong>twee, drie, zes ligt zeven van de oorsprong</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je zoekt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe je het berekent</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het midden van een lijnstuk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het gemiddelde van de coördinaten van de twee uiteinden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tussen twee, vier, zes en vier, acht, tien is de eerste coördinaat drie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het zwaartepunt van een driehoek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de som van de drie hoekpunten gedeeld door drie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij eerste coördinaten nul, drie en zes wordt dat drie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het zwaartepunt van een viervlak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de som van de vier hoekpunten gedeeld door vier</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hetzelfde recept, met vier punten</td></tr></table>"
+    },
+    {
+     "soort": "weetje",
+     "html": "Vliegt een drone <strong>eerst drie meter naar het oosten en dan vier meter naar het noorden</strong>, dan vind je zijn verplaatsing <strong>als de som van de twee verplaatsingsvectoren</strong>: vijf meter, niet zeven. De afgelegde weg is wel zeven meter."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

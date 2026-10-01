@@ -1,0 +1,113 @@
+{
+ "vak": "Wiskunde gevorderd",
+ "titel": "Statistiek: normale verdeling en hypothesetoets",
+ "onder": "De Gausskromme en de z-score, steekproeven en vertekening, samenhang en causaliteit, en toetsen met een p-waarde.",
+ "secties": [
+  {
+   "kop": "De normale verdeling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De grafiek van een normale verdeling is klokvormig en symmetrisch rond het gemiddelde</strong>; die kromme heet de <strong>Gausskromme</strong>. <strong>Het gemiddelde bepaalt waar de top ligt</strong> en <strong>de standaardafwijking bepaalt hoe breed de kromme is</strong>: klein geeft een smalle, hoge klok, groot een brede, platte. Hebben <strong>twee Gausskrommen hetzelfde gemiddelde en is de ene smaller</strong>, dan <strong>liggen bij die smalle de metingen dichter bij het gemiddelde</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De totale oppervlakte onder een Gausskromme is één</strong>, want alle kans samen is één. <strong>Een kans komt dus overeen met de oppervlakte onder de kromme</strong>; de hoogte alleen zegt niets. Daaruit volgt ook dat <strong>bij een continue verdeling de kans op precies één welbepaalde waarde nul is</strong>: een enkele waarde heeft geen breedte. En <strong>vijftig procent van de metingen ligt links van het gemiddelde</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De Gausskromme raakt de horizontale as niet.</strong> Ze nadert die wel, maar bereikt haar nooit, dus elke waarde blijft in principe mogelijk. <strong>Of de normale verdeling een geschikt model is, beoordeel je door te kijken of het histogram ongeveer klokvormig is</strong>; je kan er ook de dichtheidsfunctie met de geschatte parameters over tekenen. Is een histogram duidelijk scheef, dan past het model niet."
+    }
+   ]
+  },
+  {
+   "kop": "De z-score",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De z-score bereken je als het verschil met het gemiddelde, gedeeld door de standaardafwijking.</strong> Ze meet dus <strong>hoeveel standaardafwijkingen je van het gemiddelde af zit</strong>, en daardoor kan je metingen uit verschillende groepen vergelijken. <strong>Een meting die precies gelijk is aan het gemiddelde heeft z-score nul</strong>, en bij een <strong>gemiddelde van zeventig met standaardafwijking vijf heeft een meting van tachtig z-score twee</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een z-score kan negatief zijn</strong>: dan ligt de meting onder het gemiddelde. <strong>Een z-score van min anderhalf betekent dat de meting anderhalve standaardafwijking onder het gemiddelde ligt</strong>; de z-score telt in standaardafwijkingen, niet in de eenheid van de meting zelf."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De standaardnormale verdeling heeft gemiddelde nul en standaardafwijking één.</strong> Ze is de normale verdeling na omzetting naar z-scores, zodat één eenheid op de as precies één standaardafwijking is."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Binnen hoeveel standaardafwijkingen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Ongeveer welk deel van de metingen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">achtenzestig procent</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vijfennegentig procent</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">negenennegentig komma zeven procent</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Let op de eerste rij: <strong>binnen één standaardafwijking ligt ongeveer achtenzestig procent, niet vijfennegentig.</strong> Vijfennegentig procent hoort bij twee standaardafwijkingen."
+    }
+   ]
+  },
+  {
+   "kop": "Steekproeven",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Het gemiddelde van een populatie is de echte waarde, dat van een steekproef een schatting ervan.</strong> Daarom krijgen ze een ander symbool: je kent het populatiegemiddelde meestal niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een steekproef is representatief als ze op de belangrijke kenmerken op de populatie lijkt.</strong> Grootte alleen helpt niet: een heel grote maar scheve steekproef blijft scheef. <strong>Randomisatie betekent iedereen uit de populatie evenveel kans geven om gekozen te worden</strong>, en dat is de beste bescherming tegen vertekening."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een steekproeffout komt door het toeval van de trekking, een niet-steekproeffout door de opzet.</strong> Toeval kan je inschatten en kleiner maken: <strong>een grotere aselecte steekproef geeft doorgaans een betrouwbaarder resultaat</strong>. Een fout in de opzet blijft ook bij duizend deelnemers bestaan."
+    },
+    {
+     "soort": "tekst",
+     "html": "Laat een krant haar lezers online stemmen over een stelling, dan heb je <strong>vrijwillige respons</strong>: wie zich sterk betrokken voelt, stemt vaker. De groep die antwoordt is dan niet toevallig samengesteld, en meer stemmen lost dat niet op."
+    }
+   ]
+  },
+  {
+   "kop": "Samenhang is geen oorzaak",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>In een spreidingsdiagram lees je af of er een verband is tussen twee numerieke grootheden.</strong> Elk punt is één waarneming met twee kenmerken. Een <strong>trendlijn is een rechte of kromme die het patroon in de puntenwolk samenvat</strong>; ze gaat meestal niet door de punten zelf."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De correlatiecoëfficiënt ligt tussen min één en plus één.</strong> Het teken geeft de richting, de grootte de sterkte van het lineaire verband. <strong>Dicht bij nul betekent dus net dat er nauwelijks lineair verband is</strong>; sterk is ze dicht bij min één of plus één."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Sterke samenhang betekent niet dat de ene de oorzaak van de andere is.</strong> Het kan ook komen van een <strong>derde verborgen variabele</strong>, van omgekeerde oorzaak en gevolg, of gewoon van toeval. In de zomer worden er meer ijsjes verkocht en gebeuren er meer verdrinkingen: de verborgen variabele is <strong>het warme weer</strong>, dat allebei de aantallen verhoogt."
+    }
+   ]
+  },
+  {
+   "kop": "De hypothesetoets",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De nulhypothese is niet wat je wil aantonen, maar wat je probeert te verwerpen.</strong> Wat je wil aantonen, staat in de alternatieve hypothese."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De p-waarde is de kans op zo'n resultaat of extremer, als de nulhypothese waar is.</strong> Ze zegt niets over de kans dat de hypothese klopt, alleen hoe verrassend je resultaat zou zijn mocht ze kloppen. Je vergelijkt ze met het <strong>significantieniveau</strong> alfa, <strong>de kans die je vooraf aanvaardt om de nulhypothese onterecht te verwerpen</strong>. Alfa gelijk aan nul komma nul vijf is <strong>vijf procent</strong>; soms kiest men één procent als een vals alarm duur uitvalt. <strong>Ligt de p-waarde onder alfa, dan verwerp je</strong>: bij een p-waarde van nul komma nul twee en alfa nul komma nul vijf is het antwoord <strong>ja</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort fout</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat er gebeurt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe je het noemt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">type I</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de nulhypothese verwerpen terwijl ze waar is</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vals alarm; de kans erop is alfa</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">type II</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de nulhypothese onterecht niet verwerpen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er was wel een effect, maar je vond het niet</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een type II-fout gebeurt vaker bij een kleine steekproef. <strong>Een eenzijdige toets gebruik je als je vooraf een richting verwacht</strong>, bijvoorbeeld een stijging; vermoed je alleen dat er íéts verandert, dan toets je tweezijdig."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Verwerp je de nulhypothese niet, dan besluit je dat er onvoldoende bewijs tegen gevonden is.</strong> Geen bewijs vinden is niet hetzelfde als bewijzen dat er niets is: misschien was je steekproef gewoon te klein."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

@@ -1,0 +1,110 @@
+{
+ "vak": "Wiskunde gevorderd",
+ "titel": "De bepaalde integraal en haar toepassingen",
+ "onder": "Van Riemannsommen naar de hoofdstelling, en wat je met een integraal allemaal berekent.",
+ "secties": [
+  {
+   "kop": "Riemannsommen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een Riemannsom is de som van de oppervlakten van rechthoekjes onder een grafiek.</strong> Je verdeelt het interval in smalle stukjes en benadert elk stukje door een rechthoekje. <strong>De dx in een integraal komt overeen met de breedte van die rechthoekjes</strong>; de functiewaarde is de hoogte."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De ondersom is het kleinst en de bovensom het grootst</strong>: de ondersom gebruikt in elk stukje de laagste functiewaarde, de bovensom de hoogste, en de echte oppervlakte ligt ertussen. <strong>Een ondersom is dus nooit groter dan de werkelijke oppervlakte.</strong> <strong>Hoe meer deelintervallen je gebruikt, hoe beter de benadering</strong>, want de rechthoekjes volgen de kromme dan nauwer."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De limiet van Riemannsommen levert een exacte oppervlakte op omdat onder- en bovensom naar hetzelfde getal kruipen.</strong> De werkelijke oppervlakte ligt er altijd tussen, dus als de twee samenvallen is er maar één getal mogelijk. Dat getal is de integraal."
+    }
+   ]
+  },
+  {
+   "kop": "De georiënteerde oppervlakte",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De georiënteerde oppervlakte is een oppervlakte die onder de x-as negatief meetelt.</strong> Dat is wat de bepaalde integraal rechtstreeks berekent. Ligt een functie op het hele interval onder de x-as, dan is <strong>haar bepaalde integraal daar negatief</strong>. <strong>Een bepaalde integraal is dus niet altijd positief</strong>, en ze kan zelfs nul worden als de stukken elkaar opheffen. <strong>Een werkelijke oppervlakte kan nooit negatief zijn</strong>; alleen de georiënteerde."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Snijdt de grafiek de x-as midden in het interval, dan splits je in de nulwaarde en tel je de stukken positief op.</strong> Anders heffen een positief en een negatief stuk elkaar op en krijg je een te kleine of zelfs een nul-uitkomst."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee eigenschappen die je vaak gebruikt: <strong>de integraal van twee tot twee is nul</strong>, want onder- en bovengrens vallen samen, en <strong>verwissel je de twee grenzen, dan wisselt het resultaat van teken</strong>. <strong>De bovengrens is de rechterkant van het interval waarover je integreert</strong>; de grenzen staan op de x-as, niet op de y-as."
+    }
+   ]
+  },
+  {
+   "kop": "De hoofdstelling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Het gevolg van de hoofdstelling van de integraalrekening zegt: de integraal van a tot b is de primitieve in b min de primitieve in a.</strong> Daarmee hoef je geen rechthoekjes meer te tellen; een primitieve zoeken volstaat. <strong>Dat invullen en aftrekken noteer je kort met een rechte streep achter de primitieve en de grenzen erbij</strong>, zodat je eerst de primitieve opschrijft en pas daarna invult."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De hoofdstelling geldt voor continue functies</strong>, niet voor elke functie: bij een sprong moet je het interval eerst opsplitsen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De middelwaardestelling van de integraalrekening</strong> zegt dat er <strong>een punt is waar de functiewaarde gelijk is aan de gemiddelde waarde</strong>. Er bestaat dus een rechthoek met dezelfde breedte en dezelfde oppervlakte als het gebied onder de kromme."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Integraal</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitkomst</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van nul tot drie van het getal twee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zes</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een rechthoek van drie breed en twee hoog</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van nul tot twee van drie x kwadraat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">acht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de primitieve is x tot de derde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van één tot twee van één gedeeld door x kwadraat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een half</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de primitieve is min één gedeeld door x</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van nul tot één van x min x kwadraat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een zesde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een half min een derde</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Oppervlakte tussen twee krommen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De oppervlakte tussen twee krommen is de integraal van de bovenste functie min de onderste.</strong> Het hoogteverschil is de hoogte van elk reepje. Als <strong>grenzen neem je meestal de x-waarden van hun snijpunten</strong>; die vind je door de twee voorschriften aan elkaar gelijk te stellen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Kruisen twee krommen elkaar midden in het interval, dan splits je in het snijpunt</strong>, want daar wisselen boven en onder van rol. <strong>Maak eerst een schets om te zien welke kromme boven ligt en waar ze elkaar snijden</strong>; zonder schets zet je de twee functies gemakkelijk in de verkeerde volgorde."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee voorbeelden: de <strong>oppervlakte tussen y is x en y is x kwadraat, tussen hun twee snijpunten, is een zesde</strong> (de snijpunten liggen in nul en één, en daar ligt de rechte boven de parabool), en de <strong>oppervlakte onder de rechte y is twee tussen nul en vijf is tien</strong>. Lopen twee grafieken evenwijdig met de ene overal drie hoger, dan is de oppervlakte over een interval van lengte vier gelijk aan <strong>twaalf</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Omwentelingslichaam en booglengte",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een omwentelingslichaam om de x-as neem je pi maal de integraal van f tot de tweede macht.</strong> <strong>Je kwadrateert de functie dus onder het integraalteken</strong>: elke dunne schijf is een cirkel met straal f van x, en in de oppervlakte van een cirkel staat de straal in het kwadraat. <strong>De inhoud hangt af van de as waarrond je de kromme laat draaien</strong>: rond de x-as of rond de y-as geeft een heel ander lichaam."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In de formule voor de booglengte staat onder de wortel: één plus de afgeleide in het kwadraat.</strong> Ze volgt uit Pythagoras op een heel klein stukje kromme, met een horizontale dx en een verticale dy."
+    }
+   ]
+  },
+  {
+   "kop": "Integralen met een betekenis",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je integreert</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je krijgt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Let op</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de snelheid over de tijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de verplaatsing</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet de afgelegde weg, want achteruit telt negatief</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de versnelling over de tijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de verandering van de snelheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één stap terug in dezelfde ketting</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het debiet van een kraan over de tijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de totale hoeveelheid water</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">liter per seconde maal seconden geeft liter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de marginale kost over een aantal stuks</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de toename van de totale kost</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de marginale kost is de afgeleide van de totale</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De eenheden rekenen mee</strong>: integreer je een snelheid in meter per seconde over seconden, dan is het resultaat in <strong>meter</strong>. Die controle vangt veel fouten."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>ICT gebruik je bij een integraal als de opgave dat met het icoon aangeeft, en ook dan toon je je werkwijze.</strong> Functioneel gebruik betekent dat ICT het rekenwerk ondersteunt, terwijl je redenering en je tussenstappen op papier staan."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

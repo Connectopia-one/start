@@ -1,0 +1,113 @@
+{
+ "vak": "Wiskunde gevorderd",
+ "titel": "Een functie aflezen van haar grafiek",
+ "onder": "Domein, bereik, symmetrie, verloop en asymptoten, en wat een inverse functie is.",
+ "secties": [
+  {
+   "kop": "Domein, bereik en voorstellingswijzen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Het domein van een functie zijn alle x-waarden waarvoor ze bestaat.</strong> Het ligt op de horizontale as. <strong>Het bereik is de verzameling van alle functiewaarden die ze aanneemt</strong>, en dat lees je af op de verticale as. Bij <strong>één gedeeld door x min vijf</strong> hoort <strong>vijf</strong> niet bij het domein, want dan wordt de noemer nul."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>praktisch domein</strong> is <strong>het stuk van het domein dat zinvol is in de context</strong>. Bij een model voor de hoogte van een plant is een negatieve tijd betekenisloos, ook al staat die in het wiskundige domein."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een functie kan je op <strong>vier manieren voorstellen</strong>: met een <strong>verwoording</strong>, met een <strong>tabel</strong>, met een <strong>grafiek</strong> en met een <strong>voorschrift</strong>. Je moet van elke voorstellingswijze naar elke andere kunnen overstappen."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Een verticale rechte mag de grafiek van een functie hoogstens één keer snijden.</strong> Bij twee snijpunten zouden er voor dezelfde x twee functiewaarden zijn, en dan is het geen functie meer."
+    }
+   ]
+  },
+  {
+   "kop": "Nulwaarden, tekenverloop en symmetrie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>nulwaarde is een getal</strong>, een <strong>nulpunt is een punt op de grafiek</strong>. De nulwaarde is de x waarvoor de functie nul wordt; het nulpunt is het punt met die x en met y gelijk aan nul. <strong>Snijdt een grafiek de x-as in drie punten, dan heeft de functie drie nulwaarden.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>tekenverloop</strong> lees je af <strong>waar de functiewaarden positief of negatief zijn</strong>, dus boven of onder de x-as. Stijgen en dalen is iets anders: dat is het waardeverloop, en dat lees je af uit de afgeleide."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort symmetrie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat geldt voor de waarden</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe de grafiek ligt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">even functie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de waarde in min x is dezelfde als in x</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">symmetrisch om de verticale as</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oneven functie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de waarde in min x is het tegengestelde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">symmetrisch om de oorsprong</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Verwissel die twee niet. <strong>Een grafiek die symmetrisch is om de oorsprong hoort bij een oneven functie</strong>, niet bij een even functie. Bij een oneven functie legt een halve draai om de oorsprong de grafiek op zichzelf."
+    }
+   ]
+  },
+  {
+   "kop": "Het verloop lezen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een toenemende stijging betekent dat de grafiek stijgt en daarbij almaar steiler wordt.</strong> Bij een afnemende stijging gaat ze wel nog omhoog, maar met een kleinere helling. Blijft de helling gelijk, dan spreek je van lineaire groei."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een buigpunt is het punt waar hol in bol overgaat.</strong> Het gaat dus over de kromming, niet over de richting. Waar stijgen in dalen overgaat, ligt een maximum."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In een maximum bereikt de functie niet altijd haar grootste waarde op het hele domein.</strong> Dat geldt alleen voor een <strong>absoluut maximum</strong>. Een <strong>plaatselijk maximum</strong> is enkel de hoogste waarde in zijn eigen omgeving; verderop kan de grafiek nog hoger gaan."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een golvende grafiek horen nog twee woorden. De <strong>amplitude</strong> is de afstand van de evenwichtslijn tot de top: schommelt een sinusgrafiek tussen min drie en drie rond de x-as, dan is de amplitude <strong>drie</strong>. De <strong>periode</strong> is de kleinste verschuiving waarna het beeld weer hetzelfde is: herhaalt een grafiek zich om de vier eenheden, dan is de periode <strong>vier</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Gedrag op oneindig en asymptoten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Het gedrag van een functie op oneindig is wat er met de functiewaarden gebeurt als x heel groot of heel klein wordt.</strong> Oneindig is geen getal, dus de functie heeft daar geen waarde; je kijkt naar waar de waarden naartoe kruipen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een horizontale asymptoot betekent dat de grafiek op oneindig een vaste hoogte nadert.</strong> <strong>Niet elke functie heeft een asymptoot</strong>: een gewone parabool of een rechte heeft er geen enkele. Asymptoten horen vooral bij rationale, exponentiële en logaritmische functies."
+    }
+   ]
+  },
+  {
+   "kop": "De inverse functie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>inverse functie</strong> maakt ongedaan wat de functie doet. Je vindt haar voorschrift door <strong>x en y te verwisselen en dan naar y op te lossen</strong>. Let op: <strong>één gedeeld door de functie is iets anders dan de inverse functie</strong>, ook al lijkt de notatie erop."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De grafieken van een functie en haar inverse zijn elkaars spiegelbeeld om de eerste bissectrice</strong>, de rechte met vergelijking <strong>y is gelijk aan x</strong>. Die deelt het eerste en het derde kwadrant doormidden; min x is de tweede bissectrice. Spiegelen werkt alleen netjes in een orthonormaal assenstelsel. Bij dat spiegelen <strong>wisselen de twee coördinaten van plaats</strong>: het punt nul en twee op de y-as wordt <strong>het punt twee en nul op de x-as</strong>. Daarom is ook <strong>het domein van de inverse het bereik van de oorspronkelijke functie</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een functie is niet inverteerbaar als een horizontale rechte haar grafiek meer dan één keer snijdt</strong>; bij een inverteerbare functie mag dat dus <strong>hoogstens één keer</strong>. Anders hoort dezelfde functiewaarde bij meerdere x-waarden en weet de inverse niet welke ze moet teruggeven. Daarom is <strong>de kwadraatfunctie niet inverteerbaar op heel haar domein</strong>: twee en min twee hebben hetzelfde kwadraat. Beperk je ze <strong>tot de getallen groter dan of gelijk aan nul</strong>, dan is ze strikt stijgend en is <strong>de vierkantswortel haar inverse</strong>. <strong>Ook niet elke rechte is inverteerbaar</strong>: een horizontale rechte wordt na spiegeling een verticale rechte, en dat is geen functie."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Functie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Haar inverse</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarom</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de exponentiële functie met grondtal a</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de logaritmische functie met grondtal a</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de logaritme geeft net de exponent terug</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kwadraatfunctie op de niet-negatieve getallen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vierkantswortel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kwadrateren en worteltrekken heffen elkaar daar op</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x plus drie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x min drie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat de functie erbij doet, haalt de inverse er weer af</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee maal x</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de helft, dus voor tien geeft ze vijf</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de functie verdubbelt, de inverse halveert</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>boogsinus is de inverse van de sinus op een beperkt domein</strong>. <strong>Men beperkt het domein omdat de sinus anders dezelfde waarde oneindig vaak aanneemt</strong>: zonder beperking zou de boogsinus bij één getal oneindig veel hoeken moeten teruggeven. Boogsinus, boogcosinus en boogtangens heten samen de <strong>cyclometrische functies</strong>."
+    },
+    {
+     "soort": "weetje",
+     "html": "Twee gevolgen die je meteen mag gebruiken. <strong>De inverse van een strikt stijgende functie is zelf ook strikt stijgend</strong>, want spiegelen draait de volgorde van de punten niet om. En ligt een grafiek <strong>symmetrisch om de eerste bissectrice, dan is de functie haar eigen inverse</strong>: één gedeeld door x is zo een functie."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

@@ -1,0 +1,105 @@
+{
+ "vak": "Wiskunde gevorderd",
+ "titel": "Machtswortels, machten en logaritmen",
+ "onder": "Rekenen met rationale exponenten, en de logaritme als de exponent die je zoekt.",
+ "secties": [
+  {
+   "kop": "Machten met een gehele exponent",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Je kent de machten met een natuurlijke exponent al. Daar komen twee afspraken bij. <strong>Elk getal behalve nul tot de macht nul is gelijk aan één.</strong> Dat is geen willekeurige afspraak: a tot de macht n gedeeld door a tot de macht n is enerzijds één, en anderzijds a tot de macht nul. En <strong>a tot de macht min n is gelijk aan één gedeeld door a tot de macht n</strong>. Een negatieve exponent betekent dus <strong>omkeren, niet van teken veranderen</strong>: twee tot de macht min drie is één achtste, niet min acht."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenregel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je met de exponenten doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">machten met hetzelfde grondtal vermenigvuldigen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je telt ze bij elkaar op</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a tot de macht m maal a tot de macht n is a tot de macht m plus n</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">machten met hetzelfde grondtal delen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je trekt ze van elkaar af</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a tot de macht m gedeeld door a tot de macht n is a tot de macht m min n</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een macht van een macht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je vermenigvuldigt ze</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a kwadraat tot de derde macht is a tot de zesde macht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een product tot een macht verheffen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elke factor krijgt die macht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a maal b, samen tot de macht n, is a tot de macht n maal b tot de macht n</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Een macht verdeelt zich over een <strong>product</strong> en over een <strong>quotiënt</strong>, maar <strong>nooit over een som</strong>. Dat geldt ook voor wortels en straks voor logaritmen. Het is de fout die het vaakst gemaakt wordt."
+    }
+   ]
+  },
+  {
+   "kop": "Machtswortels en rationale exponenten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>n-de machtswortel uit a</strong> is het getal waarvan de n-de macht a is. De <strong>vijfdemachtswortel uit tweeëndertig is twee</strong>, want twee tot de vijfde is tweeëndertig. De <strong>derdemachtswortel uit min acht is min twee</strong>, want min twee tot de derde is min acht."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De n-de machtswortel uit een negatief getal bestaat in de reële getallen alleen als n oneven is.</strong> Een even macht van een reëel getal is immers nooit negatief, dus de vierkantswortel of de vierdemachtswortel uit een negatief getal bestaat niet in R."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een macht met een <strong>rationale exponent</strong> is niets anders dan een wortel. <strong>a tot de macht één op n is de n-de machtswortel uit a</strong>: a tot de macht één derde is de derdemachtswortel uit a, en zestien tot de macht een half is de vierkantswortel uit zestien, dus vier. Algemeen is <strong>a tot de macht m op n gelijk aan de n-de machtswortel uit a tot de macht m</strong>: de noemer van de exponent wordt de wortelexponent, de teller blijft de macht."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitdrukking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe je ze leest</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitkomst</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">acht tot de macht twee derde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de derdemachtswortel uit acht, dan kwadrateren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vier</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zevenentwintig tot de macht twee derde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de derdemachtswortel uit zevenentwintig, dan kwadrateren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">negen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vierenzestig tot de macht één zesde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de zesdemachtswortel uit vierenzestig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vier tot de macht drie halven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de wortel uit vier, dan tot de derde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">acht, en dus niet zes</td></tr></table>"
+    },
+    {
+     "soort": "weetje",
+     "html": "Een <strong>rationale exponent is zonder voorbehoud gedefinieerd voor grondtallen groter dan of gelijk aan nul</strong>. Bij een negatief grondtal zou dezelfde exponent, anders geschreven, twee verschillende uitkomsten geven. Daarom blijft die schrijfwijze beperkt tot niet-negatieve grondtallen, ook al bestaat de derdemachtswortel uit min acht gewoon."
+    }
+   ]
+  },
+  {
+   "kop": "Wortels vereenvoudigen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een wortel schrijf je <strong>zo eenvoudig mogelijk</strong> door er de volkomen machten uit te halen. De <strong>vierkantswortel uit vijftig</strong> is de wortel uit vijfentwintig maal twee, en dus <strong>vijf keer de vierkantswortel uit twee</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De vierkantswortel uit a plus b is niet gelijk aan de wortel uit a plus de wortel uit b.</strong> Probeer het met negen en zestien: de wortel uit vijfentwintig is vijf, maar drie plus vier is zeven."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een breuk met een wortel in de noemer maak je netter door de <strong>noemer rationaal te maken</strong>: je vermenigvuldigt teller en noemer met diezelfde wortel. Zo wordt <strong>één gedeeld door de wortel uit drie</strong> gelijk aan <strong>de wortel uit drie gedeeld door drie</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De logaritme is een exponent",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>logaritme van x met grondtal a</strong> is <strong>de exponent waartoe je a verheft om x te krijgen</strong>. Meer is het niet. De logaritme van acht met grondtal twee is drie, want twee tot de derde is acht. De logaritme van eenentachtig met grondtal drie is vier, want drie tot de vierde is eenentachtig. De logaritme van zestien met grondtal twee is <strong>vier</strong>, niet acht."
+    },
+    {
+     "soort": "tekst",
+     "html": "Staat er geen grondtal bij, dan bedoelt men <strong>grondtal tien</strong>: de logaritme van honderd is twee, en <strong>tien tot de macht min drie is nul komma nul nul één</strong>. Schrijft men <strong>ln</strong>, dan is het grondtal <strong>het getal e</strong>, ongeveer <strong>2,718</strong>. De natuurlijke logaritme van e is dus één. Eén kan nooit een grondtal zijn, en <strong>de logaritme van een negatief getal bestaat niet in de reële getallen</strong>, want een macht van een positief grondtal is altijd positief."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenregel voor logaritmen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarom</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">In woorden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de logaritme van een product</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">machten tellen hun exponenten op</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de som van de twee logaritmen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de logaritme van een quotiënt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">machten trekken hun exponenten af</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de logaritme van x min die van y</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de logaritme van x tot de macht n</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een macht van een macht vermenigvuldigt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">n maal de logaritme van x</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de logaritme van één</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elk grondtal tot de macht nul is één</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">altijd nul, welk toegelaten grondtal ook</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>De logaritme van a plus b is niet de logaritme van a plus de logaritme van b.</strong> Die regel geldt voor een <strong>product</strong>. De logaritme van een <strong>som</strong> kan je niet splitsen."
+    }
+   ]
+  },
+  {
+   "kop": "Waar je de logaritme voor gebruikt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een logaritme haalt de onbekende <strong>uit de exponent</strong>. Bij <strong>drie tot de macht x is gelijk aan twintig</strong> heb je ze nodig; bij een gewone tweedegraadsvergelijking niet. Soms zie je het antwoord meteen: <strong>twee tot de macht x is tweeëndertig</strong> geeft <strong>x is vijf</strong>, want tweeëndertig is twee tot de vijfde."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een logaritme en een macht met hetzelfde grondtal <strong>heffen elkaar op</strong>: <strong>tien tot de macht de logaritme van zeven met grondtal tien is gewoon zeven</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je rekenapp kent meestal alleen log en ln. Een andere logaritme bereken je met het <strong>veranderen van grondtal</strong>: <strong>de logaritme van x gedeeld door de logaritme van a</strong>, allebei met hetzelfde nieuwe grondtal. Let op de volgorde: het getal waarvan je de logaritme zoekt staat boven, het oude grondtal onder."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

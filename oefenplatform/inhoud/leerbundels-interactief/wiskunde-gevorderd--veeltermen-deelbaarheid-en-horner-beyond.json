@@ -1,0 +1,113 @@
+{
+ "vak": "Wiskunde gevorderd",
+ "titel": "Veeltermen, deelbaarheid en Horner",
+ "onder": "De euclidische deling, de reststelling, het schema van Horner en het ontbinden in factoren.",
+ "secties": [
+  {
+   "kop": "De euclidische deling van veeltermen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Delen van veeltermen werkt zoals delen van getallen. Je krijgt een <strong>quotiënt</strong> en een <strong>rest</strong>, en er geldt altijd: <strong>deeltal is deler maal quotiënt plus rest</strong>. Dat is meteen de controle op elke deling; klopt ze niet, dan zit er een rekenfout in je schema."
+    },
+    {
+     "soort": "tekst",
+     "html": "Over de rest weet je één ding zeker: <strong>haar graad is kleiner dan die van de deler</strong>. Zolang de rest nog even hoog in graad is als de deler, kan je verder delen. Deel je door een <strong>tweedegraadsveelterm</strong>, dan heeft de rest dus <strong>hoogstens graad één</strong>. <strong>Gaat een deling op, dan is de rest nul</strong>; een rest is een veelterm en nooit een graad."
+    },
+    {
+     "soort": "tekst",
+     "html": "De graad van het quotiënt vind je door af te trekken: een <strong>vijfdegraadsveelterm gedeeld door een tweedegraadsveelterm</strong> geeft een quotiënt van <strong>graad drie</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De reststelling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De rest bij de deling van een veelterm P door x min a is gelijk aan P van a.</strong> Je hoeft dus niet te delen om de rest te kennen: <strong>invullen volstaat</strong>. Is de waarde van P in a bijvoorbeeld zeven, dan is de rest zeven."
+    },
+    {
+     "soort": "tekst",
+     "html": "Voorbeeld: deel <strong>x tot de derde min twee x kwadraat plus drie x min vier door x min één</strong>. Vul één in: één min twee plus drie min vier is <strong>min twee</strong>. Dat is de rest."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De reststelling werkt ook bij een deler van de vorm x plus a</strong>: je schrijft x plus a als x min min a en vult dan min a in."
+    },
+    {
+     "soort": "kader",
+     "html": "Het gevolg dat je het vaakst gebruikt: <strong>is de waarde van P in a gelijk aan nul, dan is x min a een deler van P</strong>. De rest is dan immers nul en de deling gaat op. Neem <strong>x tot de derde min acht</strong>: de waarde voor x gelijk aan twee is <strong>nul</strong>, dus x min twee is een deler. Hetzelfde bij <strong>twee x kwadraat min drie x plus één</strong> voor x gelijk aan één: twee min drie plus één is <strong>nul</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Het rekenschema van Horner",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>rekenschema van Horner</strong> is een snelle schrijfwijze om <strong>te delen door een tweeterm x min a</strong>. Voor een deler van hogere graad, zoals x kwadraat plus één, werkt het <strong>niet</strong>; daar val je terug op de gewone euclidische deling."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bovenaan zet je alle coëfficiënten</strong>, van de hoogste graad tot en met de constante term. Voor een <strong>derdegraadsveelterm</strong> zijn dat er dus <strong>vier</strong>. Een ontbrekende graad schrijf je als een nul; die mag je niet overslaan."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Links zet je a</strong>, en niet het getal uit de deler. Deel je door <strong>x plus drie</strong>, dan is dat <strong>x min min drie</strong>, dus zet je <strong>min drie</strong> links. Dat tekenfoutje is de klassieker van dit hoofdstuk."
+    },
+    {
+     "soort": "tekst",
+     "html": "Onderaan verschijnen de <strong>coëfficiënten van het quotiënt</strong>, en het <strong>laatste getal is de rest</strong> van de deling, en dus ook de functiewaarde in a."
+    }
+   ]
+  },
+  {
+   "kop": "Nulwaarden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>nulwaarde van een veeltermfunctie</strong> is <strong>een x waarvoor de functiewaarde nul is</strong>. Op de grafiek zijn dat de snijpunten met de x-as. De waarde in nul is iets anders: dat is het snijpunt met de y-as."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een veelterm van graad n heeft hoogstens n reële nulwaarden</strong>, want elke nulwaarde levert een factor van graad één op. <strong>Elke veelterm van oneven graad heeft er minstens één</strong>: haar grafiek gaat van min oneindig naar plus oneindig en moet de x-as dus kruisen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Om te testen of een veelterm <strong>deelbaar is door x min één</strong>, vul je één in. Bij <strong>x kwadraat plus twee x min drie</strong> geeft dat één plus twee min drie, dus nul: ze is deelbaar. Zoek je een gehele nulwaarde van een derdegraadsveelterm met gehele coëfficiënten, probeer dan eerst <strong>de delers van de constante term</strong>. Een gehele nulwaarde moet die term immers delen, en dat zijn er meestal maar een handvol."
+    }
+   ]
+  },
+  {
+   "kop": "Ontbinden in factoren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Je ontbindt een veelterm in factoren om haar nulwaarden en haar delers te zien.</strong> Een product is nul zodra één factor nul is, dus elke factor levert meteen een nulwaarde op. <strong>Ontbinden is dus een manier om nulwaarden te vinden.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Merkwaardig product</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Ontbinding of uitwerking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Let op</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a kwadraat min b kwadraat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a min b, maal a plus b</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het verschil van twee kwadraten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a plus b, in het kwadraat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a kwadraat plus twee ab plus b kwadraat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de dubbele term twee ab vergeten is de vaakst gemaakte fout</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a min b, in het kwadraat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a kwadraat min twee ab plus b kwadraat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alleen de middelste term wisselt van teken</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De vier manieren die je nodig hebt, naast elkaar. <strong>De gemeenschappelijke factor afzonderen</strong>: drie x tot de derde min zes x kwadraat wordt <strong>drie x kwadraat, maal x min twee</strong>. <strong>Termen samennemen</strong>: ax plus ay plus bx plus by wordt <strong>a plus b, maal x plus y</strong>. <strong>Een merkwaardig product herkennen</strong>: x kwadraat min negen wordt <strong>x min drie, maal x plus drie</strong>, en vier x kwadraat min twaalf x plus negen is <strong>twee x min drie, in het kwadraat</strong>. En <strong>een nulwaarde zoeken en met Horner delen</strong>: x tot de derde min acht wordt <strong>x min twee, maal x kwadraat plus twee x plus vier</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een tweedegraadsveelterm zoek je twee getallen met de juiste som en het juiste product. Zo wordt <strong>x kwadraat min vijf x plus zes</strong> gelijk aan <strong>x min twee, maal x min drie</strong>. De <strong>discriminant</strong> van die veelterm is <strong>één</strong>: vijfentwintig min vierentwintig. Positief, dus er zijn twee reële nulwaarden. <strong>Bij een negatieve discriminant zijn er geen reële nulwaarden</strong>, en daarom valt <strong>x kwadraat plus vier</strong> in R <strong>niet</strong> uiteen in twee factoren van graad één. In de complexe getallen lukt dat wel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Nog drie uitkomsten om bij de hand te hebben. <strong>x kwadraat min vier heeft twee reële nulwaarden</strong>, twee en min twee. De <strong>nulwaarde van twee x min zes is drie</strong>. De <strong>som van de nulwaarden van x kwadraat min zeven x plus twaalf</strong> is <strong>zeven</strong>, want de nulwaarden zijn drie en vier, en de som is min b op a. <strong>x tot de derde min x heeft drie reële nulwaarden</strong>: zonder x af te zonderen krijg je x maal x min één maal x plus één, dus nul, één en min één."
+    },
+    {
+     "soort": "weetje",
+     "html": "<strong>x tot de vierde min zestien</strong> ontbind je zo ver mogelijk in R tot <strong>x min twee, maal x plus twee, maal x kwadraat plus vier</strong>. Eerst het verschil van kwadraten, dan nog eens op x kwadraat min vier. De laatste factor blijft staan, want die heeft geen reële nulwaarden."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

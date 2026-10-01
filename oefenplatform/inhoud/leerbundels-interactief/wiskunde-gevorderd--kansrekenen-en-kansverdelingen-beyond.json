@@ -1,0 +1,104 @@
+{
+ "vak": "Wiskunde gevorderd",
+ "titel": "Kansrekenen en kansverdelingen",
+ "onder": "Laplace, kansbomen en kruistabellen, voorwaardelijke kans, en de binomiale verdeling.",
+ "secties": [
+  {
+   "kop": "Wat een kans is",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De wet van Laplace zegt: de kans is het aantal gunstige gedeeld door het aantal mogelijke uitkomsten.</strong> Ze geldt alleen als alle uitkomsten even waarschijnlijk zijn, dus bij een eerlijke dobbelsteen of munt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vraag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een even getal met een dobbelsteen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een half</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie gunstige van de zes</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een zes met een dobbelsteen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een zesde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één gunstige van de zes</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een getal kleiner dan drie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een derde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één en twee, dus twee van de zes</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">harten uit een spel van tweeënvijftig kaarten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vierde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dertien harten op tweeënvijftig</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een kans kan nooit groter zijn dan één</strong>: ze ligt altijd tussen nul en één. Krijg je meer dan één, dan zit er een fout in je redenering. <strong>De som van de kansen op alle mogelijke uitkomsten samen is één</strong>, want er gebeurt altijd iets. <strong>Een kans gelijk aan nul betekent dat de gebeurtenis bij dit experiment niet kan voorkomen</strong>, zoals een zeven gooien met een gewone dobbelsteen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>uitkomstenverzameling is de verzameling van alle mogelijke uitkomsten</strong>: bij één worp met een dobbelsteen de getallen één tot en met zes. Het verschil met een gebeurtenis: <strong>een gebeurtenis kan uit meerdere uitkomsten bestaan</strong>, zoals een even getal gooien."
+    },
+    {
+     "soort": "weetje",
+     "html": "<strong>Bij heel veel herhalingen komt de relatieve frequentie dicht bij de kans te liggen.</strong> Dat is net wat een kans in de praktijk betekent. Bij tien worpen kan het nog ver uit elkaar liggen."
+    }
+   ]
+  },
+  {
+   "kop": "Kansbomen, kruistabellen en voorwaardelijke kans",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>In een kansboom vermenigvuldig je de kansen op de takken van één pad.</strong> <strong>Verschillende paden die allemaal voldoen, tel je daarna op.</strong> Na elkaar betekent dus vermenigvuldigen, of-of betekent optellen, op voorwaarde dat de gevallen elkaar uitsluiten. Zo is de <strong>kans op twee keer kop bij twee worpen met een munt een vierde</strong>: een half maal een half."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In een kruistabel zet je de aantallen voor elke combinatie van twee kenmerken.</strong> De randtotalen geven je de gewone kansen, de cellen de kansen op beide kenmerken samen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een voorwaardelijke kans is de kans op A als je al weet dat B gebeurd is.</strong> Je kijkt dan alleen nog naar de gevallen waarin B optreedt, dus naar één rij of één kolom van de kruistabel."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Twee gebeurtenissen zijn onafhankelijk als de ene de kans op de andere niet verandert</strong>; dan is de kans op allebei samen gewoon het product. <strong>Twee keer een kaart trekken zonder terugleggen is niet onafhankelijk</strong>, want de eerste kaart verandert wat er nog in het spel zit. Mét terugleggen wel."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De complementregel voor kansen zegt: de kans dat iets niet gebeurt is één min de kans dat het wel gebeurt.</strong> Is de kans op een gebeurtenis nul komma drie, dan is de kans dat ze niet gebeurt <strong>nul komma zeven</strong>. Daarom bereken je <strong>de kans op minstens één succes als één min de kans op nul successen</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Kansvariabelen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een kansvariabele is een grootheid die aan elke uitkomst een getal toekent.</strong> Bij tien worpen met een munt kan dat het aantal keer kop zijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een discrete kansvariabele neemt losse waarden aan, een continue elke waarde in een interval.</strong> Het aantal defecte stukken is discreet; <strong>de tijd die een trein te laat is, is continu</strong>, want tijd kan elke waarde in een interval aannemen. <strong>De som van alle kansen in een kansverdeling is één.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De verwachtingswaarde is het gemiddelde dat je op lange termijn zou meten.</strong> Bij één enkel experiment zegt ze niets met zekerheid. <strong>Ze hoeft zelf geen mogelijke uitkomst te zijn</strong>: het gemiddelde aantal kinderen per gezin is één komma zeven, en zoveel kinderen heeft geen enkel gezin."
+    }
+   ]
+  },
+  {
+   "kop": "De binomiale verdeling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een Bernoulli-experiment heeft precies twee mogelijke uitkomsten</strong>, succes of mislukking, en bestaat uit <strong>één</strong> poging. Herhaal je het, dan krijg je een binomiale verdeling."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een kansvariabele is binomiaal verdeeld bij een vast aantal onafhankelijke pogingen met telkens dezelfde slaagkans.</strong> Drie voorwaarden dus; valt er één weg, dan is de verdeling niet binomiaal. <strong>De slaagkans mag dus niet van poging tot poging verschillen</strong>, en daarom voldoet een trekking zonder terugleggen uit een kleine groep vaak niet. <strong>Het aantal zessen in vijftig worpen met een dobbelsteen is wel binomiaal verdeeld.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In de formule voor de kans op precies k successen uit n pogingen staat een binomiaalcoëfficiënt maal p tot de k maal één min p tot de n min k.</strong> Die coëfficiënt telt op hoeveel verschillende volgordes die k successen kunnen hebben."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Grootheid</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Formule</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verwachtingswaarde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het aantal pogingen maal de kans per poging</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tien worpen met een munt: vijf keer kop</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verwachtingswaarde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zelfde formule</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twintig stukken met kans nul komma één: twee foute stukken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">standaardafwijking</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de wortel uit n maal p maal één min p</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onder de wortel staat de variantie</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een grotere standaardafwijking betekent dat de uitkomsten verder uit elkaar liggen</strong>; ze meet hoe sterk de waarden rond de verwachtingswaarde schommelen. Hebben <strong>twee binomiale verdelingen dezelfde verwachtingswaarde maar een verschillende standaardafwijking</strong>, dan <strong>liggen de uitkomsten bij de ene meer verspreid dan bij de andere</strong>: gemiddeld hetzelfde resultaat, maar bij de ene schommelt het sterker."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Aan de rekenapp laat je de kansen, de verwachtingswaarde en de standaardafwijking berekenen.</strong> Beoordelen of het model past en wat het antwoord betekent, blijft jouw werk."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

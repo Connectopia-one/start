@@ -1,0 +1,88 @@
+{
+ "vak": "Wiskunde gevorderd",
+ "titel": "Rechten en vlakken in de ruimte",
+ "onder": "Vectoriële, parametrische en cartesische vergelijkingen, onderlinge ligging, afstanden en hoeken.",
+ "secties": [
+  {
+   "kop": "De vergelijking van een rechte",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Om de vergelijking van een rechte op te stellen heb je een punt en een richtingsvector nodig</strong>: het punt zegt waar ze ligt, de richtingsvector welke kant ze op loopt. Twee punten volstaan ook, want daar haal je de richtingsvector uit."
+    },
+    {
+     "soort": "tekst",
+     "html": "In de <strong>parametrische vergelijkingen</strong> geeft <strong>elke waarde van de parameter een ander punt van de rechte</strong>; laat je de parameter alle reële waarden doorlopen, dan krijg je de hele rechte. In de ruimte zijn dat <strong>drie</strong> vergelijkingen, één per coördinaat, allemaal met dezelfde parameter."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een rechte in de ruimte heeft twee cartesische vergelijkingen, geen één</strong>: ze is de doorsnede van twee vlakken. <strong>In het vlak heeft een rechte er wel precies één</strong>. <strong>Van parametrisch naar cartesisch werk je de parameter weg</strong>: je drukt hem uit in één vergelijking en vult die in de twee andere in."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Of een punt op een rechte ligt, controleer je door zijn coördinaten in de vergelijkingen in te vullen.</strong> Bij de parametrische vorm moet er voor alle drie dezelfde parameterwaarde uitkomen."
+    }
+   ]
+  },
+  {
+   "kop": "De vergelijking van een vlak",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een vlak ligt vast door één punt en twee richtingsvectoren die niet evenwijdig zijn</strong>, of door <strong>drie punten die niet op eenzelfde rechte liggen</strong>. <strong>Drie punten op één rechte bepalen geen vlak</strong>, want daar gaan oneindig veel vlakken door. Daarom staat een tafel met drie poten nooit te wiebelen. In de <strong>parametrische vergelijkingen van een vlak staan twee parameters</strong>, één per richtingsvector."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De cartesische vergelijking van een vlak heeft de vorm: a maal x plus b maal y plus c maal z plus d is nul.</strong> Eén vergelijking van de eerste graad in drie onbekenden. <strong>De coëfficiënten van x, y en z vormen samen een normaalvector</strong> van dat vlak: voor <strong>twee x min drie y plus z min vijf is nul</strong> is de eerste coördinaat daarvan <strong>twee</strong>. Ken je <strong>een punt en een normaalvector, dan kan je die cartesische vergelijking opstellen</strong>. Het vlak door de x-as en de y-as heeft als vergelijking <strong>z is gelijk aan nul</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Met een drie bij drie determinant stel je de cartesische vergelijking op door die determinant gelijk te stellen aan nul.</strong> In de determinant staan de verbindingsvector naar een onbekend punt en de twee richtingsvectoren. Nul betekent <strong>dat de drie vectoren in eenzelfde vlak liggen</strong>; was de determinant niet nul, dan zouden ze de hele ruimte opspannen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Omgekeerd, <strong>van cartesisch naar parametrisch zoek je een punt en twee richtingsvectoren van het vlak</strong>. Twee van de drie onbekenden mag je vrij kiezen, en die twee vrijheidsgraden worden je twee parameters."
+    }
+   ]
+  },
+  {
+   "kop": "Onderlinge ligging",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je vergelijkt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Mogelijke liggingen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee rechten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">samenvallend, evenwijdig, snijdend of kruisend</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een rechte en een vlak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in het vlak, evenwijdig ernaast, of snijdend</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee vlakken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">samenvallend, evenwijdig, of snijdend volgens een rechte</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Kruisende rechten zijn rechten die niet evenwijdig zijn en toch geen snijpunt hebben.</strong> Ze liggen niet in eenzelfde vlak; denk aan twee wegen boven elkaar met een brug ertussen. Dat bestaat alleen in de ruimte, en daarom zijn <strong>twee rechten die elkaar niet snijden niet noodzakelijk evenwijdig</strong>. <strong>Twee evenwijdige rechten liggen wél altijd in eenzelfde vlak</strong>, en door twee kruisende rechten gaat net geen enkel vlak."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Twee vlakken zijn evenwijdig als hun normaalvectoren veelvouden van elkaar zijn.</strong> Ze <strong>vallen samen als je de ene vergelijking uit de andere kan vermenigvuldigen</strong>; anders liggen ze er netjes naast. <strong>Twee vlakken die niet evenwijdig zijn, snijden elkaar volgens een rechte</strong>, nooit in één punt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een rechte is evenwijdig met een vlak als haar richtingsvector loodrecht op de normaalvector staat</strong>, dus als hun scalair product nul is. Ligt er dan ook nog een punt van de rechte in het vlak, dan ligt ze er helemaal in; in de praktijk <strong>volstaat het dat twee van haar punten in het vlak liggen</strong>. <strong>Loodrecht op het vlak staat ze als haar richtingsvector evenwijdig is met de normaalvector.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "Afstanden en hoeken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De afstand van een punt tot een vlak meet je langs de loodlijn uit dat punt op het vlak</strong>, want de afstand is altijd de kortste. <strong>De afstand tussen twee evenwijdige vlakken bereken je als de afstand van een punt van het ene tot het andere</strong>; welk punt je kiest maakt niet uit. <strong>Tussen twee samenvallende vlakken is de afstand nul</strong>, en ook <strong>tussen twee snijdende rechten is ze nul</strong>, want ze hebben een punt gemeen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De hoek tussen twee vlakken is de hoek tussen hun normaalvectoren</strong>, waarvan je de scherpe neemt. <strong>Tussen twee evenwijdige vlakken is die hoek nul</strong> graden. <strong>De hoek tussen twee rechten vind je uit het scalair product van hun richtingsvectoren</strong>, ook bij kruisende rechten, want de hoek hangt enkel van de richtingen af."
+    },
+    {
+     "soort": "weetje",
+     "html": "Bij een <strong>hellend dakvlak en de verticale gevel eronder</strong> is de hoek tussen de twee vlakken <strong>de hoek tussen hun normaalvectoren, als scherpe hoek genomen</strong>. De hellingshoek van het dak met de grond is een andere hoek."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

@@ -1,0 +1,88 @@
+{
+ "vak": "Wiskunde gevorderd",
+ "titel": "Stelsels oplossen en matrixmodellen",
+ "onder": "Gauss-Jordan, de rang en de vrijheidsgraden, en matrices die een toestand laten evolueren.",
+ "secties": [
+  {
+   "kop": "Een stelsel als matrix",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>In de uitgebreide coëfficiëntenmatrix staan de coëfficiënten én de constanten uit het rechterlid.</strong> Die constanten komen in een extra kolom, meestal met een streep ervoor."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Twee stelsels heten gelijkwaardig als ze dezelfde oplossingenverzameling hebben.</strong> Elke <strong>elementaire rijoperatie maakt een gelijkwaardig stelsel</strong> en <strong>verandert de oplossingenverzameling dus niet</strong>; daarom mag je ze blijven toepassen tot de oplossing eruit af te lezen is. <strong>Rijen optellen en verwisselen mag omdat die bewerkingen een gelijkwaardig stelsel opleveren</strong> — de determinant verandert er wél door, maar die telt hier niet. <strong>Een rij met nul vermenigvuldigen mag niet</strong>: dan gooi je een hele vergelijking weg. Vermenigvuldigen mag alleen met een getal dat niet nul is."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De methode van Gauss-Jordan vormt de matrix met rijoperaties om naar de rijcanonieke vorm.</strong> In die vorm lees je de oplossing meteen af, of zie je dat er geen of oneindig veel zijn."
+    }
+   ]
+  },
+  {
+   "kop": "Bepaald, onbepaald of strijdig",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort stelsel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat geldt voor de rangen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoeveel oplossingen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bepaald</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beide rangen gelijk aan het aantal onbekenden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onbepaald</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beide rangen gelijk, maar kleiner dan het aantal onbekenden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oneindig veel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">strijdig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de rang van de coëfficiëntenmatrix is de kleinste</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nul</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een bepaald stelsel heeft precies één oplossing</strong>, en daarvoor moeten <strong>beide rangen gelijk zijn aan het aantal onbekenden</strong>: bij vier onbekenden dus rang <strong>vier</strong>. Evenveel vergelijkingen als onbekenden volstaat niet, want twee keer dezelfde vergelijking telt maar één keer mee. Je kan zo'n stelsel ook <strong>met de inverse matrix oplossen, als de coëfficiëntenmatrix vierkant en inverteerbaar is</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een onbepaald stelsel heeft oneindig veel oplossingen</strong>, die je schrijft met parameters. <strong>Een vrijheidsgraad is een onbekende die je vrij mag kiezen, waarna de rest vastligt</strong>, en het aantal vrijheidsgraden is het aantal onbekenden min de rang: bij <strong>drie onbekenden en rang twee is dat één</strong>. Je <strong>noteert de oplossingenverzameling als een verzameling van koppels of drietallen met een parameter erin</strong>, zodat je ziet hoe de oplossingen van elkaar afhangen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een strijdig stelsel heeft nul oplossingen</strong>: de oplossingenverzameling is leeg. Je <strong>herkent het in de rijcanonieke vorm aan een rij met overal nullen links en een getal dat niet nul is rechts</strong>. Die rij zegt letterlijk dat nul gelijk is aan dat getal; een rij met overal nullen, ook rechts, is net onschuldig. Meetkundig: <strong>twee evenwijdige rechten die niet samenvallen geven een strijdig stelsel</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Een stelsel met meer onbekenden dan vergelijkingen heeft niet altijd oplossingen.</strong> Het kan nog strijdig zijn. Heeft het er wel, dan zijn het meteen oneindig veel."
+    }
+   ]
+  },
+  {
+   "kop": "Matrixmodellen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een overgangsmatrix beschrijft hoe een toestand overgaat in de volgende toestand.</strong> Je vermenigvuldigt de huidige toestand ermee en krijgt de volgende. <strong>Een overgangsmatrix is altijd vierkant</strong>, want ze zet een toestand om in een toestand van dezelfde soort. <strong>Een nul erin betekent dat die overgang niet voorkomt.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De toestand na twee overgangen bereken je met het kwadraat van de overgangsmatrix</strong>, en na vijf stappen verhef je haar tot de <strong>vijfde</strong> macht: één macht per stap. Voor tien jaar klantenverloop neem je dus <strong>de beginverdeling maal de overgangsmatrix tot de tiende macht</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort matrix</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze beschrijft</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kenmerk</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Markov-matrix</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">overgangskansen tussen toestanden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elke kolom telt op tot één</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Lesliematrix</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoe een populatie per leeftijdsgroep evolueert</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met overlevingskansen en nakomelingen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">migratiematrix</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoeveel inwoners van de ene streek naar de andere verhuizen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de toestanden zijn de streken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verbindingsmatrix</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">welke knopen van een graaf verbonden zijn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een één bij een verbinding, anders een nul</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een graaf is een tekening met punten en verbindingen ertussen</strong>; die punten heten knopen. Elke graaf kan je als matrix schrijven en elke zo'n matrix als graaf tekenen: <strong>een graaf met vier knopen geeft een verbindingsmatrix van orde vier</strong>. Een <strong>directe wegen matrix laat zien welke knopen rechtstreeks verbonden zijn</strong>; omwegen vind je pas in haar machten terug, want <strong>het kwadraat van een verbindingsmatrix telt de wegen van lengte twee</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een evenwichtstoestand is een toestand die na de overgang gelijk blijft.</strong> Je <strong>ziet dat een model stabiliseert doordat de opeenvolgende toestanden bijna niet meer van elkaar verschillen</strong>. <strong>Niet elk matrixmodel komt in evenwicht</strong>: sommige blijven schommelen of groeien onbeperkt, dus dat moet je nagaan."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Een matrixmodel voorspelt niet met zekerheid wat er zal gebeuren.</strong> Het rekent uit wat er gebeurt als de overgangen gelijk blijven. Verandert er iets in de werkelijkheid, dan klopt het model niet meer. <strong>De rekenapp gebruik je omdat je vaak hoge machten nodig hebt</strong>: het model opstellen en de uitkomst duiden blijft jouw werk."
+    }
+   ]
+  },
+  {
+   "kop": "Een stelsel uit een context",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Ken je het <strong>totaalbedrag van drie bestellingen met telkens dezelfde drie artikelen</strong>, dan kan je <strong>de prijs per artikel berekenen als het stelsel bepaald is</strong>. Drie vergelijkingen met drie onbekenden, maar enkel als de drie bestellingen echt nieuwe informatie geven; anders is het stelsel onbepaald of strijdig."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

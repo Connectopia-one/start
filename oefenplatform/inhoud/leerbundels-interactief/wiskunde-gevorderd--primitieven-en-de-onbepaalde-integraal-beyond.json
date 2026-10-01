@@ -1,0 +1,96 @@
+{
+ "vak": "Wiskunde gevorderd",
+ "titel": "Primitieven en de onbepaalde integraal",
+ "onder": "Afleiden in omgekeerde richting, de basisprimitieven en de vier integratiemethoden.",
+ "secties": [
+  {
+   "kop": "Wat een primitieve is",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een primitieve functie van f is een functie waarvan de afgeleide f is.</strong> <strong>Primitiveren is dus de omgekeerde bewerking van afleiden</strong>, en dat is meteen de beste controle op je werk: <strong>leid je antwoord af en je moet de integrand terugkrijgen</strong>. Leid je een primitieve van f af, dan krijg je <strong>f</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een onbepaalde integraal schrijf je altijd plus C, omdat elke constante bij het afleiden verdwijnt.</strong> Een functie met één primitieve heeft er dus <strong>oneindig veel</strong>. <strong>Twee primitieven van dezelfde functie hebben altijd dezelfde afgeleide</strong>; ze verschillen alleen een constante. Daarom heet de integraal zonder grenzen de <strong>onbepaalde</strong> integraal: <strong>de uitkomst blijft op een constante na onbepaald</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het verschil met een bepaalde integraal: die heeft grenzen en levert een getal op.</strong> De onbepaalde integraal is een familie van functies. <strong>Bij een bepaalde integraal schrijf je geen plus C, want die valt bij het aftrekken van de twee grenzen weg.</strong> De functie die je integreert heet de <strong>integrand</strong>, en die staat tussen het integraalteken en de dx."
+    },
+    {
+     "soort": "weetje",
+     "html": "<strong>Elke continue functie heeft een primitieve.</strong> Dat volgt uit de hoofdstelling van de integraalrekening. Of je die primitieve ook in een formule kan schrijven, is een andere vraag."
+    }
+   ]
+  },
+  {
+   "kop": "De basisprimitieven",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Functie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Haar primitieve</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Let op</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x tot de macht n</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x tot de macht n plus één, gedeeld door n plus één</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de exponent gaat omhoog, en je deelt door die nieuwe exponent</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één gedeeld door x</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de natuurlijke logaritme van de absolute waarde van x</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de regel hierboven werkt niet voor n gelijk aan min één</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een constante k</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">k maal x</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de grafiek van de primitieve is een rechte met helling k</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de cosinus van x</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de sinus van x</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">afleiden gaat de andere kant op</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de sinus van x</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">min de cosinus van x</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het minteken hoort erbij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">e tot de macht x</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">e tot de macht x</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die functie is haar eigen afgeleide én haar eigen primitieve</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij elk van die primitieven hoort nog <strong>plus een constante</strong>. De regel voor x tot de macht n <strong>werkt niet voor n gelijk aan min één</strong>, want dan zou je door nul delen; die ene integraal geeft net de logaritme. De <strong>absolute waarde</strong> in die logaritme zorgt dat de formule ook werkt voor negatieve x."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De lineariteit van de integraal</strong> zegt dat je <strong>termsgewijs mag integreren en constanten buiten mag halen</strong>. <strong>Een constante factor mag dus voor het integraalteken</strong>; een factor met een x erin niet. Voor een product of een quotiënt werkt het evenmin, en daar bestaan net de andere methodes voor."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee bepaalde integralen om mee te oefenen: de <strong>integraal van nul tot twee van x</strong> is <strong>twee</strong> (de primitieve is x kwadraat gedeeld door twee, en het is ook de oppervlakte van een driehoek met basis twee en hoogte twee), en de <strong>integraal van nul tot één van x kwadraat</strong> is <strong>een derde</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De vier integratiemethoden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Methode</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wanneer</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onmiddellijke integratie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de integrand staat meteen in de tabel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">soms moet je eerst herschrijven, een wortel als een macht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">integratie door splitsing</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de integrand is een som</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elke term apart integreren, dankzij de lineariteit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">integratie door substitutie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een binnenste functie staat er met haar afgeleide naast</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kettingregel in omgekeerde richting</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">partiële integratie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een product van twee heel verschillende functies</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">u maal v, min de integraal van v maal de afgeleide van u</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Splits je de integraal van twee x plus drie, dan valt ze uiteen in twee aparte integralen</strong>, en de twee mag je buiten de eerste halen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een substitutie kies je als nieuwe veranderlijke een binnenste functie waarvan de afgeleide ook in de integrand staat.</strong> Zonder die afgeleide erbij kan je de dx niet omzetten en loopt de substitutie vast. Een vast patroon: <strong>de primitieve van de afgeleide van f, gedeeld door f, is de natuurlijke logaritme van de absolute waarde van f</strong>; je herkent het aan de afgeleide van de noemer die in de teller staat. <strong>Een integraal met een wortel erin kan je wel degelijk met substitutie oplossen</strong>; dat is er zelfs een van de vaste methodes voor."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Partiële integratie volgt uit de productregel voor afgeleiden</strong>: je integreert die regel langs beide kanten en brengt één term naar de andere kant. Het typische geval is <strong>x maal e tot de macht x</strong>. <strong>Het minteken in de formule vergeten</strong> is de meest gemaakte fout bij deze methode."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Bij een bepaalde integraal mag je na een substitutie de oude grenzen niet laten staan.</strong> Ze horen bij de oude veranderlijke: zet ze mee om, of ga na de integratie eerst terug naar x."
+    }
+   ]
+  },
+  {
+   "kop": "Handigheden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een breuk waarvan de teller een hogere graad heeft dan de noemer, voer je eerst een euclidische deling uit.</strong> Na de deling houd je een veelterm over plus een eenvoudige rest, en die twee stukken integreer je apart."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Soms heb je goniometrische formules nodig</strong>, en dan vooral <strong>de grondformule en de formule voor de dubbele hoek</strong>. Daarmee herschrijf je bijvoorbeeld de sinus in het kwadraat tot iets wat je wel kan integreren. Zo is de <strong>integraal van nul tot pi van de sinus van x gelijk aan twee</strong>, en de <strong>integraal van één tot drie van twee x gelijk aan acht</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Volstaat één methode niet, dan combineer je methodes</strong>, bijvoorbeeld eerst splitsen en dan substitueren. Bij een moeilijkere integraal heb je er vaak meerdere na elkaar nodig."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Controleer het resultaat van een onbepaalde integraal door je antwoord af te leiden en met de integrand te vergelijken.</strong> Dat is een echte controle, want afleiden is eenduidig; opnieuw rekenen herhaalt vaak dezelfde fout. En vergeet de <strong>constante</strong> niet: de integraal van vijf dx is vijf x plus een constante."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

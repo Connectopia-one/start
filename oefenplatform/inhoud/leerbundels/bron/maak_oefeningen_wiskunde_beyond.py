@@ -1,0 +1,1184 @@
+# -*- coding: utf-8 -*-
+"""De afdrukbare oefenbundels bij wiskunde gevorderd 🌍 Beyond.
+
+Eén bundel per thema, niet per deel: deel 1 en deel 2 behandelen dezelfde
+leerstof met andere vragen. Dezelfde pdf gaat dus bij allebei.
+
+De oefeningen zijn met opzet ándere opgaven dan die van het hoofdstuk op het
+scherm: andere getallen, andere situaties, en opdrachten die je enkel op papier
+kan maken (een tabel aanvullen, een redenering uitschrijven, een schets maken).
+Wie hier iets bijschrijft, legt het eerst naast
+`../../beyond/wiskunde-gevorderd.json` én naast de leerbundel, want de
+oefenbundel is de tweede dekkingscontrole op de theorie.
+
+De sleutels dragen het voorvoegsel "oefenbundel-" en het achtervoegsel
+"-beyond". Het voorvoegsel is nodig omdat leerbundels en oefenbundels in
+dezelfde bronmap gerenderd worden en anders dezelfde bestandsnaam zouden
+krijgen. Het achtervoegsel houdt ze uit elkaar van wiskunde gevorderd van
+🚀 Boost doorstroom, dat precies dezelfde vaknaam draagt.
+
+Wiskunde staat hier in woorden en niet in symbolen, net als in de vragen en in
+de leerbundels.
+"""
+import sys, pathlib
+sys.path.insert(0, str(pathlib.Path(__file__).parent))
+import bundel, oefenbundel
+
+VAK = "Wiskunde gevorderd"
+BEYOND = "🌍 Beyond — 5de en 6de middelbaar"
+
+W = "120px"
+WW = "185px"
+WL = "250px"
+
+OEFENBUNDELS = {}
+
+HOE = [
+    "Schrijf met potlood, dan kan je gerust iets uitgommen en opnieuw proberen.",
+    "Schrijf je tussenstappen op. Een antwoord zonder berekening is niet na te kijken, ook niet door jezelf.",
+    "Zet bij elk antwoord de eenheid, als er een is. Een getal zonder eenheid is in een vraagstuk zelden een antwoord.",
+    "Het antwoordblad zit achteraan. Scheur het eraf voor je begint.",
+]
+
+
+# ============================================================
+OEFENBUNDELS["oefenbundel-machtswortels-machten-en-logaritmen-beyond"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Machtswortels, machten en logaritmen",
+    onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
+    hoe=HOE,
+    reeksen=[
+        dict(kop="Machten met een gehele exponent",
+             opdracht="Reken uit. Schrijf een negatieve exponent eerst om naar een breuk.",
+             oefeningen=[
+                 ("rij", [("drie tot de macht nul", "1"), ("vijf tot de macht min twee", "een vijfentwintigste"),
+                          ("twee tot de macht min vier", "een zestiende"), ("tien tot de macht min één", "een tiende")],
+                  "Reken uit.", WW),
+                 ("rij", [("a tot de derde maal a tot de vijfde", "a tot de achtste"),
+                          ("a tot de zevende gedeeld door a tot de derde", "a tot de vierde"),
+                          ("a tot de derde, tot de vierde macht", "a tot de twaalfde"),
+                          ("twee a, in het kwadraat", "vier a kwadraat")],
+                  "Vereenvoudig.", WL),
+             ]),
+        dict(kop="Rationale exponenten",
+             opdracht="Schrijf eerst wat de exponent betekent en reken dan pas uit.",
+             oefeningen=[
+                 ("rij", [("negen tot de macht een half", "3"), ("vierenzestig tot de macht een derde", "4"),
+                          ("zestien tot de macht drie vierden", "8"), ("honderdvijfentwintig tot de macht twee derde", "25")],
+                  "Reken uit.", W),
+                 ("open", "Leg uit waarom acht tot de macht twee derde gelijk is aan vier. Noem beide stappen bij naam.",
+                  "Eerst de derdemachtswortel uit acht, dat is twee; daarna kwadrateren, dat geeft vier. De noemer van de exponent is de wortelexponent, de teller de macht.", 3),
+                 ("waar", "De vierdemachtswortel uit min zestien bestaat in de reële getallen.", False),
+                 ("waar", "De derdemachtswortel uit min zevenentwintig is min drie.", True),
+             ]),
+        dict(kop="Wortels vereenvoudigen",
+             opdracht="Haal de volkomen machten uit de wortel, of maak de noemer rationaal.",
+             oefeningen=[
+                 ("rij", [("de wortel uit twaalf", "twee keer de wortel uit drie"),
+                          ("de wortel uit zevenenveertig", "blijft staan, geen volkomen factor"),
+                          ("de wortel uit tweeënzeventig", "zes keer de wortel uit twee"),
+                          ("één gedeeld door de wortel uit vijf", "de wortel uit vijf gedeeld door vijf")],
+                  "Schrijf zo eenvoudig mogelijk.", WL),
+                 ("open", "Toon met de getallen vier en negen aan dat de wortel uit een som niet de som van de wortels is.",
+                  "De wortel uit dertien is ongeveer 3,6, maar twee plus drie is vijf. Een wortel verdeelt zich niet over een som.", 2),
+             ]),
+        dict(kop="Logaritmen",
+             opdracht="Denk telkens: tot welke macht moet ik het grondtal verheffen?",
+             oefeningen=[
+                 ("rij", [("de logaritme van zevenentwintig met grondtal drie", "3"),
+                          ("de logaritme van duizend met grondtal tien", "3"),
+                          ("de logaritme van één met grondtal zeven", "0"),
+                          ("de logaritme van een half met grondtal twee", "min 1")],
+                  "Reken uit.", W),
+                 ("tabel", ["Uitdrukking", "Herschreven met één logaritme"],
+                  [["de logaritme van drie plus de logaritme van vier", None],
+                   ["de logaritme van twintig min de logaritme van vijf", None],
+                   ["drie maal de logaritme van twee", None]],
+                  "de logaritme van twaalf; de logaritme van vier; de logaritme van acht", "260px"),
+                 ("kies", "Welke vergelijking heb je een logaritme voor nodig?",
+                  ["x kwadraat is gelijk aan negen", "twee x min zes is nul", "vijf tot de macht x is gelijk aan dertig", "de wortel uit x is vier"], 2),
+                 ("open", "Leg in je eigen woorden uit waarom het getal één geen grondtal van een logaritme kan zijn.",
+                  "Eén tot eender welke macht blijft één. Je zou dus van geen enkel ander getal de logaritme kunnen nemen.", 3),
+             ]),
+    ],
+)
+
+# ============================================================
+OEFENBUNDELS["oefenbundel-veeltermen-deelbaarheid-en-horner-beyond"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Veeltermen, deelbaarheid en Horner",
+    onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
+    hoe=HOE,
+    reeksen=[
+        dict(kop="De reststelling",
+             opdracht="Gebruik de reststelling: vul in, en je kent de rest zonder te delen.",
+             oefeningen=[
+                 ("rij", [("x tot de derde plus x min twee, gedeeld door x min één", "0"),
+                          ("x kwadraat plus drie x plus vijf, gedeeld door x min twee", "15"),
+                          ("x tot de derde min één, gedeeld door x plus één", "min 2"),
+                          ("twee x kwadraat min x plus vier, gedeeld door x min drie", "19")],
+                  "Wat is de rest?", W),
+                 ("open", "Schrijf op hoe je in één regel kan nagaan of x plus twee een deler is van een veelterm P.",
+                  "Vul min twee in. Is de waarde nul, dan is x plus twee een deler.", 2),
+             ]),
+        dict(kop="Horner",
+             opdracht="Vul in. Let goed op het teken van het getal dat je links in het schema zet.",
+             oefeningen=[
+                 ("tabel", ["Deler", "Getal links in het schema"],
+                  [["x min vier", None], ["x plus vijf", None], ["x min één", None], ["x plus twee", None]],
+                  "4; min 5; 1; min 2", "200px"),
+                 ("kort", "Hoeveel getallen zet je bovenaan het schema van Horner voor een vierdegraadsveelterm?", "5", W),
+                 ("open", "Een derdegraadsveelterm mist de term met x kwadraat. Wat schrijf je op die plaats in het schema van Horner, en waarom?",
+                  "Een nul. Elke graad moet een plaats krijgen, anders schuiven de coëfficiënten op en klopt het schema niet meer.", 3),
+                 ("waar", "Het laatste getal onderaan het schema van Horner is de rest van de deling.", True),
+                 ("waar", "Met Horner kan je ook delen door x kwadraat min één.", False),
+             ]),
+        dict(kop="Graden tellen",
+             opdracht="Vul de tabel aan. Je hoeft niet te delen om het antwoord te kennen.",
+             oefeningen=[
+                 ("tabel", ["Graad deeltal", "Graad deler", "Graad quotiënt", "Graad rest hoogstens"],
+                  [["zes", "twee", None, None], ["vier", "één", None, None], ["vijf", "drie", None, None]],
+                  "vier en één; drie en nul; twee en twee", "140px"),
+             ]),
+        dict(kop="Ontbinden in factoren",
+             opdracht="Kies zelf de methode: afzonderen, samennemen, een merkwaardig product, of een nulwaarde zoeken.",
+             oefeningen=[
+                 ("rij", [("x kwadraat min vijfentwintig", "x min vijf, maal x plus vijf"),
+                          ("x kwadraat plus zes x plus negen", "x plus drie, in het kwadraat"),
+                          ("vier x tot de derde min acht x kwadraat", "vier x kwadraat, maal x min twee"),
+                          ("x kwadraat min zeven x plus tien", "x min twee, maal x min vijf")],
+                  "Ontbind in factoren.", WL),
+                 ("open", "Ontbind x tot de derde min één volledig in de reële getallen. Schrijf je stappen op.",
+                  "Eén is een nulwaarde, dus x min één is een deler. Horner geeft x kwadraat plus x plus één, en die heeft een negatieve discriminant, dus daar stopt het.", 4),
+                 ("kies", "Hoeveel reële nulwaarden heeft x tot de vierde plus vier?",
+                  ["nul", "twee", "drie", "vier"], 0),
+                 ("waar", "Elke veelterm van oneven graad heeft minstens één reële nulwaarde.", True),
+             ]),
+    ],
+)
+
+# ============================================================
+OEFENBUNDELS["oefenbundel-vergelijkingen-en-ongelijkheden-oplossen-beyond"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Vergelijkingen en ongelijkheden oplossen",
+    onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
+    hoe=HOE,
+    reeksen=[
+        dict(kop="Bestaansvoorwaarden",
+             opdracht="Schrijf voor elke uitdrukking op wat x mág zijn.",
+             oefeningen=[
+                 ("tabel", ["Uitdrukking", "Bestaansvoorwaarde"],
+                  [["de wortel uit x plus vier", None], ["de logaritme van x min één", None],
+                   ["één gedeeld door x min drie", None], ["de derdemachtswortel uit x", None]],
+                  "x groter dan of gelijk aan min vier; x strikt groter dan één; x verschillend van drie; geen voorwaarde", "280px"),
+             ]),
+        dict(kop="Vergelijkingen",
+             opdracht="Los op. Controleer bij een wortelvergelijking elke oplossing in de oorspronkelijke vergelijking.",
+             oefeningen=[
+                 ("rij", [("drie x min twaalf is nul", "x is vier"), ("x kwadraat is zestien", "x is vier of min vier"),
+                          ("twee tot de macht x is zestien", "x is vier"), ("vijf tot de macht twee x is vijf tot de macht x plus drie", "x is drie")],
+                  "Los op.", WW),
+                 ("open", "Los op: de wortel uit x plus zes is gelijk aan x. Schrijf ook op welke oplossing wegvalt en waarom.",
+                  "Kwadrateren geeft x kwadraat min x min zes is nul, dus drie of min twee. Min twee valt weg: de wortel kan niet negatief zijn. De oplossing is x is drie.", 5),
+                 ("waar", "Kwadrateren kan oplossingen bijmaken die in de oorspronkelijke vergelijking niet kloppen.", True),
+                 ("waar", "Beide leden delen door een uitdrukking met x in, is altijd veilig.", False),
+             ]),
+        dict(kop="De discriminant",
+             opdracht="Bereken de discriminant en zeg hoeveel reële oplossingen er zijn.",
+             oefeningen=[
+                 ("tabel", ["Vergelijking", "Discriminant", "Aantal reële oplossingen"],
+                  [["x kwadraat min vier x plus vier is nul", None, None],
+                   ["x kwadraat plus x plus drie is nul", None, None],
+                   ["twee x kwadraat min vijf x plus twee is nul", None, None]],
+                  "nul en één; min elf en nul; negen en twee", "160px"),
+             ]),
+        dict(kop="Ongelijkheden",
+             opdracht="Breng alles naar één lid, zoek de nulwaarden en maak een tekenschema.",
+             oefeningen=[
+                 ("rij", [("vier x min acht groter dan nul", "x groter dan twee"),
+                          ("min twee x plus zes groter dan nul", "x kleiner dan drie"),
+                          ("x kwadraat min één kleiner dan nul", "x tussen min één en één"),
+                          ("x kwadraat min zes x plus acht groter dan nul", "x kleiner dan twee of x groter dan vier")],
+                  "Los op.", WL),
+                 ("open", "Leg uit waarom je bij min twee x plus zes groter dan nul het ongelijkheidsteken moet omdraaien.",
+                  "Je deelt beide leden door min twee, en delen door een negatief getal draait het teken om.", 3),
+                 ("kies", "Wat is de oplossing van x kwadraat plus vier groter dan nul?",
+                  ["geen enkele x", "alleen x groter dan nul", "elke reële x", "alleen x tussen min twee en twee"], 2),
+                 ("waar", "Een ongelijkheid heeft hoogstens twee oplossingen.", False),
+             ]),
+    ],
+)
+
+# ============================================================
+OEFENBUNDELS["oefenbundel-een-functie-aflezen-van-haar-grafiek-beyond"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Een functie aflezen van haar grafiek",
+    onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
+    hoe=HOE,
+    reeksen=[
+        dict(kop="Domein en bereik",
+             opdracht="Schrijf het domein op. Denk aan noemers die nul worden en aan wortels.",
+             oefeningen=[
+                 ("tabel", ["Functie", "Domein"],
+                  [["één gedeeld door x plus twee", None], ["de wortel uit x min één", None],
+                   ["x kwadraat min drie x", None], ["de logaritme van x", None]],
+                  "elke x behalve min twee; x groter dan of gelijk aan één; heel R; x strikt groter dan nul", "280px"),
+                 ("open", "Een model geeft de hoogte van een zonnebloem in functie van het aantal dagen na het zaaien. Wat is het praktisch domein, en waarom is dat kleiner dan het wiskundige?",
+                  "Vanaf nul dagen tot het moment dat de plant uitgegroeid is. Een negatieve tijd bestaat niet in de context, ook al vult het voorschrift ze gewoon in.", 3),
+             ]),
+        dict(kop="Even, oneven of geen van beide",
+             opdracht="Kruis aan welke symmetrie de functie heeft.",
+             oefeningen=[
+                 ("tabel", ["Functie", "Even, oneven of geen van beide"],
+                  [["x kwadraat", None], ["x tot de derde", None], ["x kwadraat plus x", None], ["de cosinus van x", None]],
+                  "even; oneven; geen van beide; even", "240px"),
+                 ("waar", "Een grafiek die symmetrisch ligt om de oorsprong hoort bij een even functie.", False),
+             ]),
+        dict(kop="Het verloop in woorden",
+             opdracht="Vul het juiste woord in: toenemende stijging, afnemende stijging, buigpunt, plaatselijk maximum.",
+             oefeningen=[
+                 ("rij", [("de grafiek stijgt en wordt almaar steiler", "toenemende stijging"),
+                          ("de grafiek stijgt, maar minder en minder steil", "afnemende stijging"),
+                          ("hol gaat over in bol", "buigpunt"),
+                          ("de hoogste waarde in een stukje van de grafiek", "plaatselijk maximum")],
+                  "Welk woord hoort erbij?", WL),
+                 ("open", "Leg het verschil uit tussen een plaatselijk en een absoluut maximum.",
+                  "Een plaatselijk maximum is de hoogste waarde in zijn eigen omgeving; verderop kan de grafiek nog hoger gaan. Een absoluut maximum is de hoogste waarde op het hele domein.", 3),
+             ]),
+        dict(kop="De inverse functie",
+             opdracht="Zoek het voorschrift van de inverse: verwissel x en y, en los op naar y.",
+             oefeningen=[
+                 ("rij", [("x plus zeven", "x min zeven"), ("drie maal x", "x gedeeld door drie"),
+                          ("twee x min vier", "x plus vier, gedeeld door twee"), ("één gedeeld door x", "één gedeeld door x")],
+                  "Wat is de inverse?", WL),
+                 ("kies", "Welke functie is niet inverteerbaar op heel haar domein?",
+                  ["drie x plus één", "x kwadraat", "de natuurlijke logaritme van x", "twee tot de macht x"], 1),
+                 ("open", "Een punt van een grafiek is vijf en nul. Welk punt hoort daarbij op de grafiek van de inverse, en waarom?",
+                  "Het punt nul en vijf. Bij spiegelen om de eerste bissectrice wisselen de twee coördinaten van plaats.", 2),
+                 ("waar", "Het domein van de inverse functie is het bereik van de oorspronkelijke functie.", True),
+             ]),
+    ],
+)
+
+# ============================================================
+OEFENBUNDELS["oefenbundel-tweedegraadsfuncties-en-transformaties-beyond"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Tweedegraadsfuncties en transformaties",
+    onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
+    hoe=HOE,
+    reeksen=[
+        dict(kop="De parabool onderzoeken",
+             opdracht="Vul de tabel aan voor elke tweedegraadsfunctie.",
+             oefeningen=[
+                 ("tabel", ["Functie", "Top", "Nulwaarden", "Dal of berg"],
+                  [["x kwadraat min vier x plus drie", None, None, None],
+                   ["min x kwadraat plus zes x min acht", None, None, None],
+                   ["x kwadraat plus twee x plus vijf", None, None, None]],
+                  "top twee en min één, nulwaarden één en drie, dal; top drie en één, nulwaarden twee en vier, berg; top min één en vier, geen reële nulwaarden, dal",
+                  "150px"),
+                 ("kort", "Welke vergelijking heeft de symmetrieas van een parabool met top in min drie en zeven?", "x is gelijk aan min drie", WL),
+             ]),
+        dict(kop="De topvorm",
+             opdracht="Lees de top af, of schrijf het voorschrift in topvorm.",
+             oefeningen=[
+                 ("rij", [("x min vijf, in het kwadraat, plus twee", "top vijf en twee"),
+                          ("drie maal x plus één, in het kwadraat, min vier", "top min één en min vier"),
+                          ("min twee maal x min drie, in het kwadraat", "top drie en nul"),
+                          ("x plus vier, in het kwadraat, min één", "top min vier en min één")],
+                  "Wat is de top?", WW),
+                 ("open", "Een parabool heeft haar top in twee en één en gaat door het punt drie en vier. Zoek haar voorschrift.",
+                  "Vertrek van a maal x min twee, in het kwadraat, plus één. Vul het punt in: a plus één is vier, dus a is drie. Het voorschrift is drie maal x min twee, in het kwadraat, plus één.", 4),
+             ]),
+        dict(kop="Transformaties benoemen",
+             opdracht="Schrijf op welke transformatie je van x kwadraat naar de gegeven functie brengt.",
+             oefeningen=[
+                 ("rij", [("x kwadraat plus zes", "zes omhoog"), ("x min zeven, in het kwadraat", "zeven naar rechts"),
+                          ("x plus twee, in het kwadraat", "twee naar links"), ("min x kwadraat", "spiegeling om de horizontale as")],
+                  "Welke transformatie?", WL),
+                 ("kies", "Welke transformatie laat de nulwaarden van een functie op hun plaats?",
+                  ["een verschuiving naar rechts", "een verticale uitrekking", "een verschuiving omhoog", "een verschuiving naar links"], 1),
+                 ("waar", "De grafiek van drie maal x kwadraat is breder dan die van x kwadraat.", False),
+                 ("waar", "Een verticale verschuiving laat de symmetrieas van een parabool op haar plaats.", True),
+             ]),
+        dict(kop="Een parabool in een context",
+             opdracht="Werk uit en schrijf je redenering op.",
+             oefeningen=[
+                 ("open", "Een bal wordt opgegooid. Zijn hoogte in meter na t seconden is min vijf t kwadraat plus twintig t. Op welk ogenblik is hij het hoogst, en hoe hoog komt hij?",
+                  "De top ligt bij t is min b op twee a, dus twintig gedeeld door tien, dat is twee seconden. Invullen geeft min twintig plus veertig, dus twintig meter.", 5),
+                 ("open", "Wanneer komt die bal weer op de grond? Schrijf op hoe je dat vindt.",
+                  "Stel de hoogte gelijk aan nul: min vijf t maal t min vier is nul, dus t is nul of vier. Na vier seconden is hij terug op de grond.", 4),
+             ]),
+    ],
+)
+
+# ============================================================
+OEFENBUNDELS["oefenbundel-exponentiele-en-logaritmische-functies-beyond"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Exponentiële en logaritmische functies",
+    onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
+    hoe=HOE,
+    reeksen=[
+        dict(kop="De grafieken",
+             opdracht="Vul in. Kijk eerst naar het grondtal.",
+             oefeningen=[
+                 ("tabel", ["Functie", "Stijgend of dalend", "Horizontale asymptoot"],
+                  [["drie tot de macht x", None, None], ["nul komma vier tot de macht x", None, None],
+                   ["twee tot de macht x, plus drie", None, None]],
+                  "stijgend en y is nul; dalend en y is nul; stijgend en y is drie", "180px"),
+                 ("kort", "Door welk punt op de verticale as gaat elke grafiek van a tot de macht x?", "nul en één", WW),
+                 ("waar", "De grafiek van een exponentiële functie snijdt haar horizontale asymptoot.", False),
+             ]),
+        dict(kop="Groeifactoren",
+             opdracht="Vul de tabel aan. Een groeifactor is nooit negatief.",
+             oefeningen=[
+                 ("tabel", ["Situatie", "Groeifactor"],
+                  [["zes procent groei per jaar", None], ["vijftien procent daling per jaar", None],
+                   ["van tachtig naar honderd", None], ["het aantal verdubbelt", None]],
+                  "1,06; 0,85; 1,25; 2", "160px"),
+                 ("rij", [("groeifactor 1,08", "acht procent erbij"), ("groeifactor 0,95", "vijf procent eraf"),
+                          ("groeifactor 1,5", "vijftig procent erbij"), ("groeifactor 1", "er verandert niets")],
+                  "Hoeveel procent?", WW),
+             ]),
+        dict(kop="Lineair of exponentieel",
+             opdracht="Kijk naar het verschil én naar de factor tussen twee opeenvolgende getallen.",
+             oefeningen=[
+                 ("rij", [("5, 10, 20, 40", "exponentieel"), ("5, 10, 15, 20", "lineair"),
+                          ("100, 90, 81, 72,9", "exponentieel"), ("100, 90, 80, 70", "lineair")],
+                  "Lineair of exponentieel?", WW),
+                 ("open", "Je spaart elke maand vijftig euro op een spaarpot zonder intrest. Welk model past, en waarom?",
+                  "Een lineair model: er komt elke maand hetzelfde bedrag bij, dus een vast verschil en geen vaste factor.", 3),
+             ]),
+        dict(kop="Rekenen met groei",
+             opdracht="Schrijf eerst het model op, dan pas de berekening.",
+             oefeningen=[
+                 ("open", "Een bedrag van duizend euro staat op een rekening met vier procent samengestelde intrest. Schrijf het model op en bereken het saldo na drie jaar.",
+                  "Het model is duizend maal 1,04 tot de macht t. Na drie jaar is dat duizend maal 1,124864, dus ongeveer 1124,86 euro.", 4),
+                 ("open", "Een stof heeft een halveringstijd van acht jaar. Hoeveel blijft er over na vierentwintig jaar? Leg uit.",
+                  "Vierentwintig jaar zijn drie halveringstijden, dus een half maal een half maal een half. Er blijft een achtste over.", 3),
+                 ("open", "Een aantal groeit met tien procent en daalt daarna met tien procent. Zit je terug op het begin? Reken na.",
+                  "Nee. Je vermenigvuldigt met 1,1 en daarna met 0,9, samen met 0,99. Je houdt negenennegentig procent over, dus je verliest één procent.", 3),
+                 ("kies", "Hoe bereken je na hoeveel jaar een bedrag met groeifactor 1,03 verdubbeld is?",
+                  ["honderd delen door drie", "met een logaritme, want de onbekende staat in de exponent", "twee delen door 1,03", "1,03 maal twee"], 1),
+             ]),
+    ],
+)
+
+# ============================================================
+OEFENBUNDELS["oefenbundel-goniometrische-functies-en-goniometrie-beyond"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Goniometrische functies en goniometrie",
+    onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
+    hoe=HOE,
+    reeksen=[
+        dict(kop="Graden en radialen",
+             opdracht="Zet om. Vertrek telkens van: pi radialen is honderdtachtig graden.",
+             oefeningen=[
+                 ("rij", [("vijfenveertig graden", "pi gedeeld door vier"), ("honderdtwintig graden", "twee pi gedeeld door drie"),
+                          ("pi gedeeld door zes radialen", "dertig graden"), ("drie pi gedeeld door twee radialen", "tweehonderdzeventig graden")],
+                  "Zet om.", WW),
+             ]),
+        dict(kop="Driehoeken oplossen",
+             opdracht="Schrijf eerst welke regel je gebruikt, en pas daarna de berekening.",
+             oefeningen=[
+                 ("tabel", ["Wat je kent van de driehoek", "Welke regel"],
+                  [["zijde a en de hoek A, plus hoek B", None], ["de zijden b en c en de hoek ertussen", None],
+                   ["de drie zijden", None], ["twee hoeken", None]],
+                  "sinusregel; cosinusregel; cosinusregel; de hoekensom, en dan de sinusregel", "260px"),
+                 ("open", "Een driehoek heeft zijden van vier en zeven centimeter met een hoek van zestig graden ertussen. Schrijf de cosinusregel uit die je nodig hebt voor de derde zijde.",
+                  "a kwadraat is zestien plus negenenveertig min twee maal vier maal zeven maal de cosinus van zestig graden, dus vijfenzestig min achtentwintig, dat is zevenendertig. De zijde is de wortel uit zevenendertig, ongeveer 6,1 centimeter.", 5),
+                 ("waar", "De cosinusregel wordt de stelling van Pythagoras als de hoek recht is.", True),
+             ]),
+        dict(kop="De goniometrische cirkel",
+             opdracht="Vul in. De cosinus is de x-coördinaat, de sinus de y-coördinaat.",
+             oefeningen=[
+                 ("tabel", ["Hoek", "Sinus", "Cosinus"],
+                  [["nul graden", None, None], ["dertig graden", None, None],
+                   ["negentig graden", None, None], ["honderdtachtig graden", None, None]],
+                  "0 en 1; een half en de wortel uit drie gedeeld door twee; 1 en 0; 0 en min 1", "140px"),
+                 ("kies", "Twee hoeken zijn supplementair. Wat geldt dan?",
+                  ["dezelfde sinus, tegengestelde cosinus", "dezelfde cosinus, tegengestelde sinus",
+                   "allebei dezelfde", "de sinus van de ene is de cosinus van de andere"], 0),
+                 ("waar", "De sinus van een hoek kan groter zijn dan één.", False),
+             ]),
+        dict(kop="De algemene sinusfunctie",
+             opdracht="Lees af uit het voorschrift. Let op: de periode is twee pi gedeeld door de factor voor x.",
+             oefeningen=[
+                 ("tabel", ["Functie", "Amplitude", "Periode", "Evenwichtslijn"],
+                  [["vier maal de sinus van x", None, None, None],
+                   ["de sinus van vier x", None, None, None],
+                   ["twee maal de sinus van x, plus drie", None, None, None]],
+                  "4, twee pi, y is nul; 1, pi gedeeld door twee, y is nul; 2, twee pi, y is drie", "130px"),
+                 ("open", "Het water aan de kust staat tussen één en vijf meter diep en herhaalt zich om de twaalf uur. Schrijf een sinusmodel op en zeg wat elk getal betekent.",
+                  "Twee maal de sinus van twee pi t gedeeld door twaalf, plus drie. De amplitude twee is het halve verschil, de drie is het gemiddelde peil, en twaalf is de periode in uren.", 5),
+                 ("open", "Leg uit waarom de cosinus van twee x niet gelijk is aan twee maal de cosinus van x.",
+                  "Een goniometrisch getal is geen factor die je buiten haalt. De juiste formule is de cosinus in het kwadraat min de sinus in het kwadraat. Vul nul in: links staat één, rechts twee.", 4),
+             ]),
+    ],
+)
+
+# ============================================================
+OEFENBUNDELS["oefenbundel-limieten-continuiteit-en-asymptoten-beyond"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Limieten, continuïteit en asymptoten",
+    onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
+    hoe=HOE,
+    reeksen=[
+        dict(kop="Limieten berekenen",
+             opdracht="Vul eerst in. Krijg je een onbepaaldheid, schrijf dan eerst om.",
+             oefeningen=[
+                 ("rij", [("voor x naar vier van twee x min drie", "5"),
+                          ("voor x naar drie van x kwadraat min negen, gedeeld door x min drie", "6"),
+                          ("voor x naar plus oneindig van vijf x kwadraat, gedeeld door x kwadraat plus één", "5"),
+                          ("voor x naar plus oneindig van drie x plus twee, gedeeld door x tot de derde", "0")],
+                  "Bereken de limiet.", W),
+                 ("open", "Leg uit waarom de limiet voor x naar nul van één gedeeld door x niet bestaat, en die van één gedeeld door x kwadraat wel.",
+                  "Bij één gedeeld door x gaat de linkerlimiet naar min oneindig en de rechter naar plus oneindig; ze verschillen. Bij het kwadraat is de noemer langs beide kanten positief, dus allebei naar plus oneindig.", 4),
+             ]),
+        dict(kop="Onbepaaldheden herkennen",
+             opdracht="Kruis aan of het een onbepaaldheid is, en zo ja welke aanpak past.",
+             oefeningen=[
+                 ("tabel", ["Vorm", "Onbepaaldheid?", "Wat je doet"],
+                  [["nul op nul", None, None], ["twee op nul", None, None],
+                   ["oneindig op oneindig", None, None], ["nul maal oneindig", None, None]],
+                  "ja, ontbinden of l'Hôpital; nee, dat is een pool; ja, hoogste graden afwegen of l'Hôpital; ja, eerst omvormen tot een breuk",
+                  "210px"),
+                 ("waar", "De regel van de l'Hôpital mag je toepassen op twee gedeeld door nul.", False),
+             ]),
+        dict(kop="Continuïteit",
+             opdracht="Zeg of de functie continu is in het gegeven punt, en waarom.",
+             oefeningen=[
+                 ("rij", [("x kwadraat plus één, in nul", "ja, een veeltermfunctie is overal continu"),
+                          ("één gedeeld door x, in nul", "nee, ze bestaat daar niet"),
+                          ("de absolute waarde van x, in nul", "ja, continu, al is er een knik"),
+                          ("de wortel uit x, in vier", "ja")],
+                  "Continu?", WL),
+                 ("open", "Noem de drie voorwaarden waaraan een functie moet voldoen om continu te zijn in een punt a.",
+                  "De limiet in a bestaat, de functiewaarde in a bestaat, en ze zijn aan elkaar gelijk.", 3),
+             ]),
+        dict(kop="Asymptoten zoeken",
+             opdracht="Vul de tabel aan. Een rechte die er niet is, laat je leeg.",
+             oefeningen=[
+                 ("tabel", ["Functie", "Verticale asymptoot", "Horizontale of schuine asymptoot"],
+                  [["één gedeeld door x min vier", None, None],
+                   ["twee x plus één, gedeeld door x min drie", None, None],
+                   ["x kwadraat plus één, gedeeld door x", None, None]],
+                  "x is vier en y is nul; x is drie en y is twee; x is nul en de schuine asymptoot y is x", "200px"),
+                 ("open", "Wanneer heeft een rationale functie een schuine asymptoot? Leg ook uit hoe je ze vindt met een euclidische deling.",
+                  "Als de graad van de teller precies één hoger is dan die van de noemer. Je deelt uit; het quotiënt is de vergelijking van de asymptoot, want de rest gedeeld door de noemer kruipt naar nul.", 4),
+                 ("waar", "Een grafiek mag haar horizontale asymptoot snijden.", True),
+                 ("waar", "Een gewone parabool heeft een horizontale asymptoot.", False),
+             ]),
+    ],
+)
+
+# ============================================================
+OEFENBUNDELS["oefenbundel-afgeleiden-en-het-verloop-van-een-functie-beyond"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Afgeleiden en het verloop van een functie",
+    onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
+    hoe=HOE,
+    reeksen=[
+        dict(kop="Afleiden",
+             opdracht="Leid af. Noteer bij een product, een quotiënt of een samenstelling welke regel je gebruikt.",
+             oefeningen=[
+                 ("rij", [("x tot de vijfde", "vijf x tot de vierde"), ("zeven x min drie", "7"),
+                          ("de sinus van x", "de cosinus van x"), ("de cosinus van x", "min de sinus van x")],
+                  "Leid af.", WW),
+                 ("rij", [("e tot de macht x", "e tot de macht x"), ("de natuurlijke logaritme van x", "één gedeeld door x"),
+                          ("x kwadraat maal de sinus van x", "twee x maal de sinus van x plus x kwadraat maal de cosinus van x"),
+                          ("twee x plus één, tot de derde macht", "zes maal twee x plus één, in het kwadraat")],
+                  "Leid af.", WL),
+                 ("open", "Toon met de functie x maal x aan dat de afgeleide van een product niet het product van de afgeleiden is.",
+                  "x maal x is x kwadraat, met afgeleide twee x. Het product van de afgeleiden zou één maal één zijn, dus één. Daarom bestaat de productregel.", 3),
+             ]),
+        dict(kop="De raaklijn",
+             opdracht="Stel de vergelijking van de raaklijn op. Schrijf eerst de helling, dan het raakpunt.",
+             oefeningen=[
+                 ("open", "Stel de raaklijn op aan de grafiek van x kwadraat in het punt met x gelijk aan min twee.",
+                  "De afgeleide is twee x, dus de helling is min vier. Het raakpunt is min twee en vier. Invullen: vier is acht plus q, dus q is min vier. De raaklijn is y is min vier x min vier.", 5),
+                 ("kort", "Wat stelt de afgeleide van de afgelegde weg naar de tijd voor?", "de snelheid op dat ogenblik", WL),
+                 ("kort", "Hoeveel is de gemiddelde verandering van x kwadraat tussen twee en vier?", "6", W),
+             ]),
+        dict(kop="Het verloop onderzoeken",
+             opdracht="Bereken de afgeleide, zoek haar nulwaarden en maak een tekenschema.",
+             oefeningen=[
+                 ("open", "Onderzoek het verloop van x tot de derde min twaalf x: zoek de extrema en zeg bij elk of het een maximum of een minimum is.",
+                  "De afgeleide is drie x kwadraat min twaalf, nul in min twee en twee. De tweede afgeleide zes x is negatief in min twee, dus daar ligt een maximum, en positief in twee, dus daar een minimum.", 6),
+                 ("tabel", ["Wat geldt in a", "Wat besluit je"],
+                  [["de afgeleide is positief op een interval", None],
+                   ["de afgeleide is nul en wisselt van min naar plus", None],
+                   ["de tweede afgeleide is positief op een interval", None],
+                   ["de tweede afgeleide is nul en wisselt van teken", None]],
+                  "de functie stijgt; een minimum; de grafiek is hol; een buigpunt", "240px"),
+                 ("waar", "Elk punt waar de afgeleide nul is, is een extremum.", False),
+                 ("waar", "Een functie kan een maximum bereiken in een punt waar ze niet afleidbaar is.", True),
+             ]),
+        dict(kop="Een extremumprobleem",
+             opdracht="Kies zelf een veranderlijke, stel het voorschrift op, en vergeet het praktisch domein niet.",
+             oefeningen=[
+                 ("open", "Je hebt veertig meter omheining voor een rechthoekige moestuin. Welke afmetingen geven de grootste oppervlakte?",
+                  "Noem de breedte x. De lengte is twintig min x, dus de oppervlakte is twintig x min x kwadraat. De afgeleide twintig min twee x is nul in tien. Een vierkant van tien op tien meter, met honderd vierkante meter.", 6),
+                 ("open", "Waarom moet je bij zo'n opgave nagaan of je oplossing in het praktisch domein ligt?",
+                  "Een negatieve of te grote lengte is wiskundig misschien een oplossing, maar past niet in de opgave. Hier moet x tussen nul en twintig liggen.", 3),
+             ]),
+    ],
+)
+
+# ============================================================
+OEFENBUNDELS["oefenbundel-rijen-en-hun-limiet-beyond"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Rijen en hun limiet",
+    onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
+    hoe=HOE,
+    reeksen=[
+        dict(kop="Rekenkundig of meetkundig",
+             opdracht="Kijk naar het verschil én naar de factor tussen twee opeenvolgende termen.",
+             oefeningen=[
+                 ("tabel", ["Rij", "Soort", "Verschil of reden"],
+                  [["2, 9, 16, 23", None, None], ["3, 12, 48, 192", None, None],
+                   ["100, 50, 25, 12,5", None, None], ["20, 17, 14, 11", None, None]],
+                  "rekenkundig met verschil 7; meetkundig met reden 4; meetkundig met reden een half; rekenkundig met verschil min 3",
+                  "170px"),
+             ]),
+        dict(kop="Termen en sommen",
+             opdracht="Schrijf de formule op die je gebruikt, en vul dan pas in.",
+             oefeningen=[
+                 ("kort", "Een rekenkundige rij begint bij vijf met verschil drie. Wat is de twintigste term?", "62", W),
+                 ("kort", "Een meetkundige rij begint bij drie met reden twee. Wat is de zesde term?", "96", W),
+                 ("kort", "Hoeveel is de som van de getallen één tot en met honderd?", "5050", W),
+                 ("open", "Leg uit waarom je bij de tiende term van een rekenkundige rij negen keer het verschil optelt en niet tien keer.",
+                  "De eerste term staat er al. Van de eerste naar de tiende zet je negen stappen.", 2),
+             ]),
+        dict(kop="Convergeren of divergeren",
+             opdracht="Schrijf de limiet op, of noteer dat ze niet bestaat.",
+             oefeningen=[
+                 ("rij", [("twee gedeeld door n", "0"), ("drie n min één, gedeeld door n", "3"),
+                          ("drie tot de macht n", "plus oneindig"), ("min één tot de macht n", "bestaat niet")],
+                  "Wat is de limiet?", WW),
+                 ("waar", "Een divergente rij kan naar plus oneindig gaan.", True),
+                 ("waar", "Een rekenkundige rij met verschil drie convergeert.", False),
+             ]),
+        dict(kop="De oneindige meetkundige som",
+             opdracht="Ga eerst na of de som bestaat. Bereken ze dan met de eerste term gedeeld door één min de reden.",
+             oefeningen=[
+                 ("tabel", ["Rij", "Bestaat de som?", "Zo ja, hoeveel"],
+                  [["1, een derde, een negende, ...", None, None],
+                   ["2, 1, een half, ...", None, None],
+                   ["1, 2, 4, 8, ...", None, None]],
+                  "ja, anderhalf; ja, vier; nee, de reden is groter dan één", "170px"),
+                 ("open", "Een bal valt van twee meter en stuitert telkens tot zestig procent van de vorige hoogte. Kan je de totale hoogte van alle sprongen berekenen? Leg uit.",
+                  "Ja, want de reden nul komma zes ligt tussen nul en één. De oneindige som bestaat dus, ook al zijn er oneindig veel sprongen.", 4),
+                 ("open", "Leg uit waarom je bij een rij alleen over de limiet op oneindig spreekt.",
+                  "Een rij is alleen in de natuurlijke getallen gedefinieerd. Tussen de derde en de vierde term ligt niets, dus er is geen tussenwaarde om naartoe te kruipen.", 3),
+             ]),
+    ],
+)
+
+# ============================================================
+OEFENBUNDELS["oefenbundel-primitieven-en-de-onbepaalde-integraal-beyond"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Primitieven en de onbepaalde integraal",
+    onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
+    hoe=HOE,
+    reeksen=[
+        dict(kop="Basisprimitieven",
+             opdracht="Zoek een primitieve. Vergeet de constante niet, en controleer door af te leiden.",
+             oefeningen=[
+                 ("rij", [("x tot de vierde", "x tot de vijfde gedeeld door vijf"), ("zes", "zes x"),
+                          ("de sinus van x", "min de cosinus van x"), ("één gedeeld door x", "de natuurlijke logaritme van de absolute waarde van x")],
+                  "Geef een primitieve.", WL),
+                 ("open", "Leg uit waarom de regel voor x tot de macht n niet werkt als n gelijk is aan min één.",
+                  "Je zou door n plus één delen, en dat is nul. Net die ene integraal geeft de natuurlijke logaritme.", 3),
+                 ("waar", "Twee primitieven van dezelfde functie hebben dezelfde afgeleide.", True),
+             ]),
+        dict(kop="Lineariteit",
+             opdracht="Splits en haal constanten buiten het integraalteken.",
+             oefeningen=[
+                 ("rij", [("vier x plus drie", "twee x kwadraat plus drie x"), ("zes x kwadraat", "twee x tot de derde"),
+                          ("x min de cosinus van x", "x kwadraat gedeeld door twee min de sinus van x"),
+                          ("vijf e tot de macht x", "vijf e tot de macht x")],
+                  "Geef een primitieve.", WL),
+                 ("waar", "Een factor met een x erin mag je voor het integraalteken zetten.", False),
+             ]),
+        dict(kop="Welke methode",
+             opdracht="Kruis aan welke integratiemethode het eerst past: onmiddellijk, splitsen, substitutie of partiële integratie.",
+             oefeningen=[
+                 ("tabel", ["Integrand", "Methode"],
+                  [["drie x kwadraat min vier x", None], ["x maal de sinus van x", None],
+                   ["twee x maal e tot de macht x kwadraat", None], ["de cosinus van x", None]],
+                  "splitsen; partiële integratie; substitutie; onmiddellijk", "230px"),
+                 ("open", "Wat moet er in de integrand staan voor je een substitutie kan uitvoeren?",
+                  "Een binnenste functie waarvan ook de afgeleide in de integrand voorkomt. Zonder die afgeleide kan je de dx niet omzetten.", 3),
+                 ("open", "Schrijf de formule voor partiële integratie op en zeg welk teken het vaakst vergeten wordt.",
+                  "u maal v, min de integraal van v maal de afgeleide van u. Het minteken voor de tweede integraal.", 2),
+             ]),
+        dict(kop="Bepaalde integralen",
+             opdracht="Zoek een primitieve, vul de twee grenzen in en trek af.",
+             oefeningen=[
+                 ("rij", [("van nul tot drie van twee x", "9"), ("van één tot twee van x kwadraat", "zeven derden"),
+                          ("van nul tot pi gedeeld door twee van de cosinus van x", "1"), ("van vijf tot vijf van om het even wat", "0")],
+                  "Reken uit.", WW),
+                 ("open", "Leg uit waarom je bij een bepaalde integraal geen plus C schrijft.",
+                  "Je telt dezelfde constante er in de bovengrens bij en in de ondergrens weer af, dus ze valt weg.", 2),
+                 ("waar", "Na een substitutie in een bepaalde integraal mag je de oude grenzen laten staan.", False),
+             ]),
+    ],
+)
+
+# ============================================================
+OEFENBUNDELS["oefenbundel-de-bepaalde-integraal-en-haar-toepassingen-beyond"] = dict(
+    vak=VAK, niveau=BEYOND, titel="De bepaalde integraal en haar toepassingen",
+    onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
+    hoe=HOE,
+    reeksen=[
+        dict(kop="Riemannsommen",
+             opdracht="Vul in. Denk aan de laagste en de hoogste functiewaarde per stukje.",
+             oefeningen=[
+                 ("tabel", ["Som", "Welke functiewaarde per stukje", "Groter of kleiner dan de oppervlakte"],
+                  [["ondersom", None, None], ["bovensom", None, None]],
+                  "de laagste, dus kleiner; de hoogste, dus groter", "200px"),
+                 ("open", "Leg uit waarom de limiet van Riemannsommen een exacte oppervlakte geeft.",
+                  "De werkelijke oppervlakte ligt altijd tussen de onder- en de bovensom. Kruipen die twee naar hetzelfde getal, dan blijft er maar één mogelijkheid over.", 4),
+                 ("waar", "Hoe meer deelintervallen je neemt, hoe beter de benadering.", True),
+             ]),
+        dict(kop="Georiënteerde oppervlakte",
+             opdracht="Bereken de integraal en zeg daarna wat de werkelijke oppervlakte is.",
+             oefeningen=[
+                 ("open", "Bereken de integraal van min één tot één van x tot de derde. Is dat ook de werkelijke oppervlakte? Leg uit.",
+                  "De integraal is nul: het stuk links van de as is negatief en heft het stuk rechts op. De werkelijke oppervlakte is niet nul; daarvoor splits je in nul en telt je de twee stukken positief op.", 5),
+                 ("waar", "Een werkelijke oppervlakte kan negatief zijn.", False),
+                 ("kort", "Wat gebeurt er met de uitkomst als je de twee grenzen van een bepaalde integraal verwisselt?", "ze wisselt van teken", WL),
+             ]),
+        dict(kop="Oppervlakte tussen twee krommen",
+             opdracht="Maak eerst een schets, zoek de snijpunten, en integreer de bovenste min de onderste.",
+             oefeningen=[
+                 ("open", "Bereken de oppervlakte tussen y is twee x en y is x kwadraat, tussen hun twee snijpunten.",
+                  "De snijpunten liggen in nul en twee. Daar ligt de rechte boven. De integraal van twee x min x kwadraat van nul tot twee geeft vier min acht derden, dus vier derden.", 6),
+                 ("open", "Waarom splits je de integraal als twee krommen elkaar midden in het interval kruisen?",
+                  "Na het snijpunt wordt de andere kromme de bovenste, dus het verschil wisselt van teken. Zonder splitsen heffen de stukken elkaar gedeeltelijk op.", 3),
+             ]),
+        dict(kop="Toepassingen",
+             opdracht="Schrijf telkens op wat je integreert, en controleer de eenheid van je antwoord.",
+             oefeningen=[
+                 ("tabel", ["Wat je integreert", "Wat je krijgt"],
+                  [["de snelheid over de tijd", None], ["de versnelling over de tijd", None],
+                   ["het debiet van een kraan over de tijd", None], ["de marginale kost over een aantal stuks", None]],
+                  "de verplaatsing; de verandering van de snelheid; de totale hoeveelheid water; de toename van de totale kost",
+                  "280px"),
+                 ("kort", "Welke formule gebruik je voor de inhoud van een omwentelingslichaam om de x-as?", "pi maal de integraal van f in het kwadraat", WL),
+                 ("open", "Een wagen rijdt eerst vooruit en daarna een stuk achteruit. Geeft de integraal van zijn snelheid de afgelegde weg? Leg uit.",
+                  "Nee, de verplaatsing. Achteruit is de snelheid negatief, en die trekt de integraal af. Voor de afgelegde weg neem je de stukken positief.", 4),
+             ]),
+    ],
+)
+
+# ============================================================
+OEFENBUNDELS["oefenbundel-complexe-getallen-beyond"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Complexe getallen",
+    onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
+    hoe=HOE,
+    reeksen=[
+        dict(kop="Machten van i",
+             opdracht="Reken uit. De machten van i herhalen zich om de vier.",
+             oefeningen=[
+                 ("rij", [("i in het kwadraat", "min 1"), ("i tot de derde", "min i"),
+                          ("i tot de vierde", "1"), ("i tot de zesde", "min 1")],
+                  "Reken uit.", W),
+             ]),
+        dict(kop="Rekenen in cartesische vorm",
+             opdracht="Werk uit en schrijf het antwoord als een reëel deel plus een imaginair deel maal i.",
+             oefeningen=[
+                 ("rij", [("vier plus i, plus twee min drie i", "zes min twee i"),
+                          ("twee min i, min één plus twee i", "één min drie i"),
+                          ("de toegevoegde van vijf min twee i", "vijf plus twee i"),
+                          ("twee min i, in het kwadraat", "drie min vier i")],
+                  "Reken uit.", WL),
+                 ("open", "Deel één door twee plus i. Schrijf elke stap op.",
+                  "Vermenigvuldig teller en noemer met twee min i. De noemer wordt vier plus één, dus vijf. Het resultaat is twee vijfden min een vijfde i.", 4),
+                 ("open", "Leg uit waarom een complex getal maal zijn toegevoegde altijd een reëel getal is.",
+                  "De gemengde termen vallen tegen elkaar weg en wat overblijft is het kwadraat van het reëel deel plus dat van het imaginair deel, dus het kwadraat van de modulus.", 3),
+             ]),
+        dict(kop="Het vlak van Gauss",
+             opdracht="Vul de tabel aan. De modulus is een afstand en dus nooit negatief.",
+             oefeningen=[
+                 ("tabel", ["Getal", "Modulus", "Argument in graden"],
+                  [["drie", None, None], ["min twee", None, None],
+                   ["vier i", None, None], ["één plus i", None, None]],
+                  "3 en 0; 2 en 180; 4 en 90; de wortel uit twee en 45", "150px"),
+                 ("kort", "Wat doet een vermenigvuldiging met i met een punt in het vlak van Gauss?", "het draait een kwart slag", WL),
+                 ("waar", "Je kan twee complexe getallen van klein naar groot ordenen.", False),
+             ]),
+        dict(kop="Goniometrische vorm en vergelijkingen",
+             opdracht="Werk met de modulus en het argument. Bij machten gebruik je de formule van de Moivre.",
+             oefeningen=[
+                 ("tabel", ["Bewerking", "Met de moduli", "Met de argumenten"],
+                  [["vermenigvuldigen", None, None], ["delen", None, None], ["tot de macht n", None, None]],
+                  "vermenigvuldigen en optellen; delen en aftrekken; tot de macht n en met n vermenigvuldigen", "180px"),
+                 ("open", "Los op in de complexe getallen: x kwadraat min vier x plus dertien is nul.",
+                  "De discriminant is zestien min tweeënvijftig, dus min zesendertig. De wortel is zes i. De oplossingen zijn twee plus drie i en twee min drie i, elkaars toegevoegde.", 5),
+                 ("kort", "Hoeveel oplossingen heeft z tot de vijfde is gelijk aan één in de complexe getallen?", "5", W),
+                 ("open", "Waar liggen de n oplossingen van z tot de macht n is a in het vlak van Gauss? Beschrijf het in woorden.",
+                  "Op één cirkel rond de oorsprong, gelijkmatig over de omtrek verdeeld. Ze vormen de hoekpunten van een regelmatige veelhoek.", 3),
+             ]),
+    ],
+)
+
+# ============================================================
+OEFENBUNDELS["oefenbundel-telproblemen-en-het-binomium-beyond"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Telproblemen en het binomium",
+    onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
+    hoe=HOE,
+    reeksen=[
+        dict(kop="Welk telprobleem",
+             opdracht="Schrijf bij elke situatie op of het een permutatie, een variatie of een combinatie is.",
+             oefeningen=[
+                 ("rij", [("zes atleten over goud, zilver en brons", "variatie, de volgorde telt"),
+                          ("vier leden kiezen uit een club van twintig", "combinatie"),
+                          ("zeven boeken op een rij zetten", "permutatie"),
+                          ("een pincode van vier cijfers", "herhalingsvariatie")],
+                  "Welk telprobleem?", WL),
+                 ("open", "Leg uit waarom er bij dezelfde n en p altijd minder combinaties dan variaties zijn.",
+                  "Bij een combinatie vallen alle volgordes van dezelfde keuze samen. Elke combinatie staat dus voor meerdere variaties.", 3),
+             ]),
+        dict(kop="Tellen",
+             opdracht="Reken uit. Schrijf eerst op of je optelt of vermenigvuldigt.",
+             oefeningen=[
+                 ("rij", [("vier faculteit", "24"), ("zes faculteit gedeeld door vier faculteit", "30"),
+                          ("twee kiezen uit zes zonder volgorde", "15"), ("drie kiezen uit vijf zonder volgorde", "10")],
+                  "Reken uit.", W),
+                 ("open", "Een menu heeft vier voorgerechten, zes hoofdgerechten en drie desserts. Hoeveel menu's kan je samenstellen? Welke regel gebruik je?",
+                  "De productregel: keuzes die na elkaar komen vermenigvuldig je. Vier maal zes maal drie is tweeënzeventig.", 3),
+                 ("open", "Acht mensen geven elkaar allemaal één keer een hand. Hoeveel handdrukken zijn dat?",
+                  "Je kiest telkens twee uit acht zonder volgorde: acht maal zeven gedeeld door twee, dus achtentwintig.", 3),
+                 ("open", "Hoeveel verschillende woorden maak je met de letters van het woord KOKOS? Schrijf je redenering.",
+                  "Vijf faculteit gedeeld door twee faculteit maal twee faculteit, want er zijn twee K's en twee O's. Dat is honderdtwintig gedeeld door vier, dus dertig.", 4),
+             ]),
+        dict(kop="De driehoek van Pascal",
+             opdracht="Vul de rijen aan. Elk getal is de som van de twee schuin erboven.",
+             oefeningen=[
+                 ("tabel", ["Rijnummer", "De rij", "Som van de rij"],
+                  [["drie", None, None], ["vier", None, None], ["vijf", None, None]],
+                  "1 3 3 1 en 8; 1 4 6 4 1 en 16; 1 5 10 10 5 1 en 32", "200px"),
+                 ("open", "Leg uit waarom elke rij van de driehoek van Pascal symmetrisch is.",
+                  "p elementen kiezen is hetzelfde als n min p elementen weglaten. Elke keuze hoort bij precies één groep die je niet kiest.", 3),
+             ]),
+        dict(kop="Het binomium van Newton",
+             opdracht="Werk uit of lees één term af. Gebruik de juiste rij van de driehoek.",
+             oefeningen=[
+                 ("open", "Werk a plus b, tot de vierde macht, volledig uit.",
+                  "a tot de vierde, plus vier a tot de derde b, plus zes a kwadraat b kwadraat, plus vier a b tot de derde, plus b tot de vierde.", 4),
+                 ("kort", "Welke coëfficiënt hoort bij x tot de derde in de uitwerking van één plus x, tot de vijfde macht?", "10", W),
+                 ("kort", "Hoeveel termen heeft a plus b, tot de zevende macht, volledig uitgewerkt?", "8", W),
+                 ("waar", "Bij a min b tot de macht n wisselen de tekens van term tot term.", True),
+             ]),
+    ],
+)
+
+# ============================================================
+OEFENBUNDELS["oefenbundel-kansrekenen-en-kansverdelingen-beyond"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Kansrekenen en kansverdelingen",
+    onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
+    hoe=HOE,
+    reeksen=[
+        dict(kop="Eenvoudige kansen",
+             opdracht="Gebruik de wet van Laplace: gunstig gedeeld door mogelijk.",
+             oefeningen=[
+                 ("rij", [("een getal groter dan vier met een dobbelsteen", "een derde"),
+                          ("een aas uit een spel van tweeënvijftig kaarten", "een dertiende"),
+                          ("kop bij één worp met een munt", "een half"),
+                          ("een zwarte kaart uit een spel van tweeënvijftig", "een half")],
+                  "Hoe groot is de kans?", WW),
+                 ("waar", "De som van de kansen op alle mogelijke uitkomsten is één.", True),
+                 ("waar", "Een kans kan groter zijn dan één.", False),
+             ]),
+        dict(kop="Optellen of vermenigvuldigen",
+             opdracht="Schrijf eerst op of de gebeurtenissen na elkaar komen of elkaar uitsluiten.",
+             oefeningen=[
+                 ("open", "Je gooit drie keer met een munt. Hoe groot is de kans op drie keer kop? Schrijf je redenering.",
+                  "De drie worpen zijn onafhankelijk, dus je vermenigvuldigt: een half maal een half maal een half is een achtste.", 3),
+                 ("open", "Hoe groot is de kans op minstens één keer kop bij die drie worpen? Gebruik de complementregel.",
+                  "Het tegengestelde van minstens één keer kop is nul keer kop, met kans een achtste. De gevraagde kans is dus zeven achtsten.", 4),
+                 ("open", "Je trekt twee kaarten zonder terugleggen. Zijn die twee trekkingen onafhankelijk? Leg uit.",
+                  "Nee. De eerste kaart verandert wat er nog in het spel zit, dus de tweede kans hangt van de eerste af. Mét terugleggen wel.", 3),
+             ]),
+        dict(kop="Binomiaal of niet",
+             opdracht="Kruis aan of de situatie binomiaal verdeeld is, en zo niet welke voorwaarde ontbreekt.",
+             oefeningen=[
+                 ("tabel", ["Situatie", "Binomiaal?"],
+                  [["het aantal zessen in dertig worpen met een dobbelsteen", None],
+                   ["het aantal rode ballen bij vijf trekkingen zonder terugleggen uit een zak van tien", None],
+                   ["het aantal keer kop bij honderd worpen met een munt", None],
+                   ["de lengte van een willekeurige volwassene", None]],
+                  "ja; nee, de kans verandert per trekking; ja; nee, dat is een continue grootheid", "230px"),
+             ]),
+        dict(kop="Rekenen met een binomiale verdeling",
+             opdracht="Gebruik de verwachtingswaarde en de standaardafwijking. Schrijf eerst n en p op.",
+             oefeningen=[
+                 ("rij", [("zestig worpen met een dobbelsteen, aantal zessen", "verwacht 10"),
+                          ("tweehonderd stukken met foutkans nul komma nul vijf", "verwacht 10"),
+                          ("veertig worpen met een munt, aantal keer kop", "verwacht 20"),
+                          ("vijftig pogingen met slaagkans nul komma twee", "verwacht 10")],
+                  "Hoeveel successen verwacht je?", WW),
+                 ("open", "Twee binomiale verdelingen hebben dezelfde verwachtingswaarde, maar een verschillende standaardafwijking. Wat betekent dat voor de uitkomsten?",
+                  "Gemiddeld hetzelfde resultaat, maar bij de ene liggen de uitkomsten meer verspreid: ze schommelen sterker van keer tot keer.", 3),
+                 ("waar", "De verwachtingswaarde moet zelf een mogelijke uitkomst zijn.", False),
+             ]),
+    ],
+)
+
+# ============================================================
+OEFENBUNDELS["oefenbundel-statistiek-normale-verdeling-en-hypothesetoets-beyond"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Statistiek: normale verdeling en hypothesetoets",
+    onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
+    hoe=HOE,
+    reeksen=[
+        dict(kop="De z-score",
+             opdracht="Bereken de z-score: het verschil met het gemiddelde, gedeeld door de standaardafwijking.",
+             oefeningen=[
+                 ("tabel", ["Gemiddelde", "Standaardafwijking", "Meting", "z-score"],
+                  [["100", "15", "130", None], ["50", "4", "46", None],
+                   ["20", "5", "20", None], ["70", "10", "85", None]],
+                  "2; min 1; 0; 1,5", "120px"),
+                 ("open", "Twee leerlingen halen zeventig procent, de ene in een klas met gemiddelde zestig en standaardafwijking vijf, de andere in een klas met gemiddelde vijfenzestig en standaardafwijking tien. Wie scoorde relatief beter?",
+                  "De eerste: haar z-score is twee, die van de tweede een half. De z-score maakt scores uit verschillende groepen vergelijkbaar.", 4),
+             ]),
+        dict(kop="De vuistregel",
+             opdracht="Vul in. Ken de drie percentages uit het hoofd.",
+             oefeningen=[
+                 ("tabel", ["Binnen hoeveel standaardafwijkingen", "Ongeveer welk deel"],
+                  [["één", None], ["twee", None], ["drie", None]],
+                  "achtenzestig procent; vijfennegentig procent; negenennegentig komma zeven procent", "230px"),
+                 ("kort", "Hoeveel procent van de metingen ligt links van het gemiddelde?", "50", W),
+                 ("waar", "De Gausskromme raakt links en rechts de horizontale as.", False),
+             ]),
+        dict(kop="Steekproeven beoordelen",
+             opdracht="Schrijf bij elke opzet op welk probleem er is, of dat er geen is.",
+             oefeningen=[
+                 ("open", "Een sportblad vraagt zijn lezers online of de gemeente meer geld aan sport moet besteden. Wat is hier mis?",
+                  "Vrijwillige respons én een vertekende groep: lezers van een sportblad zijn geen doorsnede. Meer stemmen lost dat niet op; het is een niet-steekproeffout.", 4),
+                 ("open", "Leg het verschil uit tussen een steekproeffout en een niet-steekproeffout, met bij elk hoe je ze kleiner maakt.",
+                  "Een steekproeffout komt door het toeval van de trekking en wordt kleiner met meer deelnemers. Een niet-steekproeffout zit in de opzet en blijft ook bij duizend deelnemers bestaan; die los je alleen op door de opzet te verbeteren.", 5),
+                 ("waar", "Een grotere steekproef maakt een scheve opzet weer recht.", False),
+             ]),
+        dict(kop="Samenhang en toetsen",
+             opdracht="Lees de situatie en schrijf je besluit op.",
+             oefeningen=[
+                 ("open", "In gemeenten met meer ooievaars worden meer kinderen geboren. Verklaar die samenhang zonder oorzakelijk verband.",
+                  "Een derde verborgen variabele: landelijke gemeenten hebben zowel meer ooievaarsnesten als meer jonge gezinnen. Samenhang is geen oorzaak.", 4),
+                 ("tabel", ["Begrip", "Wat het betekent"],
+                  [["nulhypothese", None], ["p-waarde", None], ["type I-fout", None], ["type II-fout", None]],
+                  "wat je probeert te verwerpen; de kans op zo'n resultaat of extremer als de nulhypothese waar is; verwerpen terwijl ze waar is; onterecht niet verwerpen",
+                  "300px"),
+                 ("kies", "De p-waarde is nul komma nul acht en het significantieniveau nul komma nul vijf. Wat besluit je?",
+                  ["je verwerpt de nulhypothese", "je houdt de nulhypothese aan, er is onvoldoende bewijs",
+                   "je bewijst dat de nulhypothese waar is", "je kiest een ander significantieniveau"], 1),
+                 ("open", "Waarom is geen bewijs vinden niet hetzelfde als bewijzen dat er niets is?",
+                  "Een toets die niets vindt, kan ook te weinig deelnemers hebben gehad. Je besluit dan enkel dat er onvoldoende bewijs tegen de nulhypothese is.", 3),
+             ]),
+    ],
+)
+
+# ============================================================
+OEFENBUNDELS["oefenbundel-matrices-en-hun-bewerkingen-beyond"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Matrices en hun bewerkingen",
+    onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
+    hoe=HOE,
+    reeksen=[
+        dict(kop="Dimensies",
+             opdracht="Vul in. Eerst het aantal rijen, dan het aantal kolommen.",
+             oefeningen=[
+                 ("tabel", ["Bewerking", "Kan het?", "Dimensie van het resultaat"],
+                  [["drie bij twee, plus drie bij twee", None, None],
+                   ["twee bij drie, maal drie bij vijf", None, None],
+                   ["twee bij drie, maal twee bij drie", None, None],
+                   ["vier bij één, getransponeerd", None, None]],
+                  "ja en drie bij twee; ja en twee bij vijf; nee; ja en één bij vier", "190px"),
+                 ("kort", "Hoeveel elementen heeft een matrix van drie bij zeven?", "21", W),
+             ]),
+        dict(kop="Bijzondere matrices",
+             opdracht="Schrijf bij elke omschrijving de naam.",
+             oefeningen=[
+                 ("rij", [("elk element is nul", "de nulmatrix"),
+                          ("enen op de hoofddiagonaal, elders nullen", "de eenheidsmatrix"),
+                          ("evenveel rijen als kolommen", "een vierkante matrix"),
+                          ("gelijk aan haar getransponeerde", "een symmetrische matrix")],
+                  "Welke matrix?", WL),
+                 ("waar", "Vermenigvuldigen van matrices is commutatief.", False),
+                 ("waar", "Twee matrices die geen van beide nul zijn, kunnen samen toch de nulmatrix geven.", True),
+             ]),
+        dict(kop="Determinant en rang",
+             opdracht="Reken uit, of leid het antwoord af uit een eigenschap.",
+             oefeningen=[
+                 ("rij", [("eerste rij twee en drie, tweede rij één en vier", "5"),
+                          ("eerste rij één en twee, tweede rij twee en vier", "0"),
+                          ("de eenheidsmatrix van orde twee", "1"),
+                          ("een matrix met twee gelijke rijen", "0")],
+                  "Wat is de determinant?", WW),
+                 ("open", "Leg uit waarom een matrix met determinant nul geen inverse heeft.",
+                  "Determinant nul betekent dat de rijen van elkaar afhangen; de matrix verliest informatie en de bewerking is niet ongedaan te maken.", 3),
+                 ("kort", "Wat is de rang van de nulmatrix?", "0", W),
+                 ("kort", "Wat is de rang van de eenheidsmatrix van orde vier?", "4", W),
+             ]),
+        dict(kop="Een matrixproduct met betekenis",
+             opdracht="Schrijf je redenering op.",
+             oefeningen=[
+                 ("open", "Een bakker zet in één matrix hoeveel broden en koffiekoeken elke klant bestelt, en in een andere de eenheidsprijzen. Wat levert hun product op, en waarom?",
+                  "De totale prijs per bestelling. Elk element van het product is een rij aantallen tegen een kolom prijzen, dus precies een totaalbedrag.", 4),
+                 ("open", "Noem de drie elementaire rijoperaties en zeg welke bewerking niet mag.",
+                  "Rijen verwisselen, een rij met een getal vermenigvuldigen, en een veelvoud van een rij bij een andere tellen. Vermenigvuldigen met nul mag niet.", 3),
+             ]),
+    ],
+)
+
+# ============================================================
+OEFENBUNDELS["oefenbundel-stelsels-oplossen-en-matrixmodellen-beyond"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Stelsels oplossen en matrixmodellen",
+    onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
+    hoe=HOE,
+    reeksen=[
+        dict(kop="Bepaald, onbepaald of strijdig",
+             opdracht="Vul de tabel aan met het aantal oplossingen.",
+             oefeningen=[
+                 ("tabel", ["Aantal onbekenden", "Rang coëfficiëntenmatrix", "Rang uitgebreide matrix", "Soort stelsel"],
+                  [["drie", "drie", "drie", None], ["drie", "twee", "twee", None],
+                   ["drie", "twee", "drie", None], ["vier", "vier", "vier", None]],
+                  "bepaald; onbepaald met één vrijheidsgraad; strijdig; bepaald", "150px"),
+                 ("kort", "Hoeveel oplossingen heeft een strijdig stelsel?", "0", W),
+                 ("open", "Hoe herken je in de rijcanonieke vorm dat een stelsel strijdig is?",
+                  "Aan een rij met overal nullen links en een getal dat niet nul is rechts. Die rij zegt dat nul gelijk is aan dat getal.", 3),
+             ]),
+        dict(kop="Een stelsel oplossen",
+             opdracht="Schrijf de uitgebreide matrix op en werk met rijoperaties.",
+             oefeningen=[
+                 ("open", "Los op: x plus y is zeven, en twee x min y is twee. Schrijf je stappen op.",
+                  "Tel de twee vergelijkingen op: drie x is negen, dus x is drie. Dan is y gelijk aan vier. Het stelsel is bepaald.", 4),
+                 ("open", "Drie vrienden kopen dezelfde drie soorten drank in andere aantallen en kennen elk hun totaalbedrag. Wanneer kan je de prijs per drankje berekenen?",
+                  "Alleen als het stelsel bepaald is, dus als de drie bestellingen echt nieuwe informatie geven. Zijn twee bestellingen veelvouden van elkaar, dan is het onbepaald of strijdig.", 4),
+                 ("waar", "Een rij met nul vermenigvuldigen is een toegelaten rijoperatie.", False),
+             ]),
+        dict(kop="Matrixmodellen",
+             opdracht="Schrijf bij elke matrix op wat ze beschrijft.",
+             oefeningen=[
+                 ("rij", [("een Markov-matrix", "overgangskansen, elke kolom telt op tot één"),
+                          ("een Lesliematrix", "een populatie per leeftijdsgroep"),
+                          ("een migratiematrix", "verhuizingen tussen streken"),
+                          ("een verbindingsmatrix", "welke knopen van een graaf verbonden zijn")],
+                  "Wat beschrijft ze?", WL),
+                 ("kort", "Tot welke macht verhef je de overgangsmatrix voor de toestand na zeven stappen?", "7", W),
+                 ("open", "Wat telt het kwadraat van een verbindingsmatrix, en waarom?",
+                  "Het aantal wegen van lengte twee tussen twee knopen. Elk element is een rij tegen een kolom, en dat telt precies de mogelijke tussenstops.", 4),
+             ]),
+        dict(kop="Evenwicht",
+             opdracht="Lees de situatie en schrijf je besluit op.",
+             oefeningen=[
+                 ("open", "Wat is een evenwichtstoestand, en waaraan zie je dat een model stabiliseert?",
+                  "Een toestand die na de overgang gelijk blijft. Je ziet het doordat de opeenvolgende toestanden bijna niet meer van elkaar verschillen.", 3),
+                 ("waar", "Elk matrixmodel komt na verloop van tijd in evenwicht.", False),
+                 ("open", "Waarom zegt een matrixmodel niet met zekerheid wat er zal gebeuren?",
+                  "Het rekent uit wat er gebeurt als de overgangen gelijk blijven. Verandert er iets in de werkelijkheid, dan klopt het model niet meer.", 3),
+             ]),
+    ],
+)
+
+# ============================================================
+OEFENBUNDELS["oefenbundel-algebraische-structuren-en-groepen-beyond"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Algebraïsche structuren en groepen",
+    onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
+    hoe=HOE,
+    reeksen=[
+        dict(kop="De vier eigenschappen",
+             opdracht="Schrijf bij elke omschrijving de naam van de eigenschap.",
+             oefeningen=[
+                 ("rij", [("het resultaat ligt altijd weer in de verzameling", "intern"),
+                          ("de haakjes mogen verschuiven", "associatief"),
+                          ("er is een element dat niets verandert", "het neutraal element"),
+                          ("elk element heeft een partner die het neutraal element geeft", "het invers element")],
+                  "Welke eigenschap?", WL),
+                 ("kort", "Welke eigenschap komt er bij een commutatieve groep nog bij?", "de commutativiteit", WL),
+             ]),
+        dict(kop="Groep of geen groep",
+             opdracht="Kruis aan. Is het geen groep, schrijf dan welke eigenschap ontbreekt.",
+             oefeningen=[
+                 ("tabel", ["Verzameling met bewerking", "Groep?", "Zo nee, wat ontbreekt"],
+                  [["de gehele getallen met de optelling", None, None],
+                   ["de natuurlijke getallen met de optelling", None, None],
+                   ["de gehele getallen met de vermenigvuldiging", None, None],
+                   ["de reële getallen zonder nul met de vermenigvuldiging", None, None]],
+                  "ja; nee, het invers element; nee, het invers element; ja", "200px"),
+                 ("open", "Leg uit waarom nul uit de verzameling moet bij de vermenigvuldiging van reële getallen.",
+                  "Nul heeft geen invers element: er bestaat geen getal dat maal nul één geeft, want nul maal om het even wat blijft nul.", 3),
+             ]),
+        dict(kop="De Cayley-tabel",
+             opdracht="Vul in. De tabel is een rooster met één rij en één kolom per element.",
+             oefeningen=[
+                 ("tabel", ["Groep met zoveel elementen", "Aantal vakjes in de tabel"],
+                  [["drie", None], ["vier", None], ["zeven", None]],
+                  "9; 16; 49", "200px"),
+                 ("rij", [("de tabel is symmetrisch om de hoofddiagonaal", "de groep is commutatief"),
+                          ("de rij van een element herhaalt de kopregel", "dat is het neutraal element"),
+                          ("op de hoofddiagonaal staat overal het neutraal element", "elk element is zijn eigen invers"),
+                          ("een element komt twee keer voor in één rij", "dan is het geen groep")],
+                  "Wat besluit je?", WL),
+                 ("waar", "Van een oneindige groep kan je de volledige Cayley-tabel opstellen.", False),
+             ]),
+        dict(kop="Rekenen in een groep",
+             opdracht="Schrijf je redenering uit. Let bij een niet-commutatieve groep op de kant.",
+             oefeningen=[
+                 ("open", "Los op in een groep: a bewerkt met x is gelijk aan b. Zeg ook aan welke kant je bewerkt en waarom.",
+                  "Je bewerkt links met het invers van a, want a staat links. In een groep die niet commutatief is, is die kant belangrijk.", 3),
+                 ("open", "Wat is het invers element van a bewerkt met b? Leg uit waarom de volgorde omkeert.",
+                  "Eerst het invers van b, dan dat van a. Zet je ze zo naast elkaar, dan valt eerst b weg en pas daarna a.", 4),
+                 ("open", "Hoe begint het bewijs dat het neutraal element uniek is?",
+                  "Je veronderstelt dat er twee neutrale elementen zijn, bewerkt ze met elkaar, en toont met elk van de twee aan dat het resultaat de andere is.", 3),
+                 ("waar", "Een groep kan twee verschillende neutrale elementen hebben.", False),
+             ]),
+    ],
+)
+
+# ============================================================
+OEFENBUNDELS["oefenbundel-punten-vectoren-en-afstanden-in-de-ruimte-beyond"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Punten, vectoren en afstanden in de ruimte",
+    onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
+    hoe=HOE,
+    reeksen=[
+        dict(kop="Coördinaten en norm",
+             opdracht="Reken uit. De coördinaten van de vector van A naar B zijn die van B min die van A.",
+             oefeningen=[
+                 ("tabel", ["Punt A", "Punt B", "Vector van A naar B", "Norm"],
+                  [["1, 2, 2", "4, 6, 14", None, None], ["0, 0, 0", "6, 8, 0", None, None],
+                   ["2, 1, 3", "2, 1, 8", None, None]],
+                  "3, 4, 12 en 13; 6, 8, 0 en 10; 0, 0, 5 en 5", "150px"),
+                 ("waar", "De norm van een vector kan negatief zijn.", False),
+             ]),
+        dict(kop="Rekenen met vectoren",
+             opdracht="Reken coördinaat per coördinaat.",
+             oefeningen=[
+                 ("rij", [("1, 2, 3 plus 4, 0, min 1", "5, 2, 2"), ("drie maal 2, min 1, 0", "6, min 3, 0"),
+                          ("de tegengestelde van 1, min 2, 5", "min 1, 2, min 5"), ("1, 1, 1 min 1, 1, 1", "0, 0, 0")],
+                  "Reken uit.", WL),
+                 ("open", "Een voorwerp wordt met twee krachten getrokken: vier newton naar het oosten en drie newton naar het noorden. Hoe groot is de resulterende kracht, en waarom tel je de getallen niet gewoon op?",
+                  "Vijf newton, want je telt de vectoren op en gebruikt Pythagoras. Zeven zou alleen kloppen als de krachten dezelfde kant op wezen.", 4),
+             ]),
+        dict(kop="Het scalair product",
+             opdracht="Reken uit en zeg wat je eruit besluit.",
+             oefeningen=[
+                 ("tabel", ["Twee vectoren", "Scalair product", "Hoek scherp, recht of stomp"],
+                  [["1, 2, 2 en 2, 1, 0", None, None], ["1, 0, 0 en 0, 1, 0", None, None],
+                   ["1, 1, 0 en min 2, 0, 0", None, None]],
+                  "4 en scherp; 0 en recht; min 2 en stomp", "170px"),
+                 ("open", "Hoe ga je na of twee rechten loodrecht op elkaar staan? Waarom werkt dat?",
+                  "Je berekent het scalair product van hun richtingsvectoren; is dat nul, dan staan ze loodrecht. Het werkt omdat het scalair product het product van de normen maal de cosinus van de hoek is, en de cosinus van negentig graden nul is.", 4),
+                 ("waar", "Het scalair product van een vector met zichzelf is zijn norm.", False),
+             ]),
+        dict(kop="Middens en zwaartepunten",
+             opdracht="Neem het gemiddelde van de coördinaten.",
+             oefeningen=[
+                 ("rij", [("het midden van 2, 4, 6 en 6, 8, 10", "4, 6, 8"),
+                          ("het zwaartepunt van 0, 0, 0 en 3, 0, 0 en 0, 3, 0", "1, 1, 0"),
+                          ("het midden van 0, 0, 0 en 4, 4, 4", "2, 2, 2"),
+                          ("het zwaartepunt van een viervlak met hoekpunten 0, 0, 0 en 4, 0, 0 en 0, 4, 0 en 0, 0, 4", "1, 1, 1")],
+                  "Bereken.", WL),
+             ]),
+    ],
+)
+
+# ============================================================
+OEFENBUNDELS["oefenbundel-rechten-en-vlakken-in-de-ruimte-beyond"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Rechten en vlakken in de ruimte",
+    onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
+    hoe=HOE,
+    reeksen=[
+        dict(kop="Wat heb je nodig",
+             opdracht="Vul in wat je minstens moet kennen om de vergelijking op te stellen.",
+             oefeningen=[
+                 ("tabel", ["Wat je wil opstellen", "Wat je nodig hebt"],
+                  [["de vergelijking van een rechte", None],
+                   ["de parametrische vergelijkingen van een vlak", None],
+                   ["de cartesische vergelijking van een vlak", None]],
+                  "een punt en een richtingsvector; een punt en twee niet-evenwijdige richtingsvectoren; een punt en een normaalvector",
+                  "320px"),
+                 ("kort", "Hoeveel cartesische vergelijkingen heeft een rechte in de ruimte?", "2", W),
+                 ("kort", "Hoeveel parameters staan er in de parametrische vergelijkingen van een vlak?", "2", W),
+             ]),
+        dict(kop="Normaalvectoren aflezen",
+             opdracht="Lees de normaalvector af uit de cartesische vergelijking.",
+             oefeningen=[
+                 ("rij", [("x plus twee y min drie z plus één is nul", "1, 2, min 3"),
+                          ("z is nul", "0, 0, 1"),
+                          ("twee x min y is vier", "2, min 1, 0"),
+                          ("x plus y plus z is nul", "1, 1, 1")],
+                  "Welke normaalvector?", WL),
+                 ("open", "Waarom stel je de drie bij drie determinant gelijk aan nul als je de cartesische vergelijking van een vlak opstelt?",
+                  "Een determinant die niet nul is, betekent dat de drie vectoren de hele ruimte opspannen. Nul betekent net dat ze in eenzelfde vlak liggen, en dat is wat je wil.", 4),
+             ]),
+        dict(kop="Onderlinge ligging",
+             opdracht="Vul in welke liggingen mogelijk zijn, en hoe je ze herkent.",
+             oefeningen=[
+                 ("tabel", ["Wat je vergelijkt", "Mogelijke liggingen"],
+                  [["twee rechten in de ruimte", None], ["een rechte en een vlak", None], ["twee vlakken", None]],
+                  "samenvallend, evenwijdig, snijdend of kruisend; in het vlak, evenwijdig ernaast, of snijdend; samenvallend, evenwijdig, of snijdend volgens een rechte",
+                  "330px"),
+                 ("open", "Leg in je eigen woorden uit wat kruisende rechten zijn en waarom dat alleen in de ruimte bestaat.",
+                  "Ze zijn niet evenwijdig en hebben toch geen snijpunt, want ze liggen niet in eenzelfde vlak. In het vlak snijden twee niet-evenwijdige rechten elkaar altijd.", 4),
+                 ("waar", "Twee evenwijdige rechten liggen altijd in eenzelfde vlak.", True),
+                 ("waar", "Twee vlakken die niet evenwijdig zijn, kunnen elkaar in één punt snijden.", False),
+             ]),
+        dict(kop="Afstanden en hoeken",
+             opdracht="Schrijf telkens op hoe je het berekent.",
+             oefeningen=[
+                 ("rij", [("twee samenvallende vlakken", "afstand nul"),
+                          ("twee snijdende rechten", "afstand nul"),
+                          ("twee evenwijdige vlakken", "hoek nul graden"),
+                          ("een punt en een vlak", "langs de loodlijn uit dat punt")],
+                  "Wat is de afstand of de hoek?", WL),
+                 ("open", "Hoe bereken je de hoek tussen twee vlakken, en welke van de twee hoeken neem je?",
+                  "Als de hoek tussen hun normaalvectoren, met het scalair product gedeeld door het product van de normen. Je neemt de scherpe van de twee.", 4),
+                 ("open", "Wanneer staat een rechte loodrecht op een vlak, en wanneer is ze er evenwijdig mee?",
+                  "Loodrecht als haar richtingsvector evenwijdig is met de normaalvector; evenwijdig als haar richtingsvector er juist loodrecht op staat, dus als hun scalair product nul is.", 4),
+             ]),
+    ],
+)
+
+# ============================================================
+OEFENBUNDELS["oefenbundel-programmeren-algoritmen-en-structuren-beyond"] = dict(
+    vak=VAK, niveau=BEYOND, titel="Programmeren: algoritmen en structuren",
+    onder="{aantal} oefeningen op papier, met een antwoordblad achteraan.",
+    hoe=HOE,
+    reeksen=[
+        dict(kop="De bouwstenen",
+             opdracht="Schrijf bij elke omschrijving de naam van de bouwsteen.",
+             oefeningen=[
+                 ("rij", [("een naam waarachter een waarde zit die kan veranderen", "een variabele"),
+                          ("een waarde die tijdens het programma niet verandert", "een constante"),
+                          ("code die alleen loopt als iets waar is", "een conditie"),
+                          ("hetzelfde stuk code herhalen", "een iteratie")],
+                  "Welke bouwsteen?", WL),
+                 ("kort", "Hoe heet een stuk code dat je een naam geeft en hergebruikt?", "een functie", WW),
+             ]),
+        dict(kop="De juiste datastructuur",
+             opdracht="Kies de datastructuur die het best past, en schrijf er in één zin bij waarom.",
+             oefeningen=[
+                 ("tabel", ["Wat je wil bewaren", "Datastructuur"],
+                  [["de namen van de leerlingen, op volgorde, nog aan te passen", None],
+                   ["bij elke leerling zijn punt", None],
+                   ["alle verschillende voornamen, zonder dubbels", None],
+                   ["de coördinaten van een punt, die vastliggen", None]],
+                  "een list; een dictionary; een set; een tuple", "230px"),
+                 ("kort", "Hoeveel elementen houdt een set over uit de getallen 2, 5, 5, 7, 7, 7?", "3", W),
+             ]),
+        dict(kop="Algoritmische technieken",
+             opdracht="Schrijf bij elke omschrijving de techniek, en wat ze kost of opbrengt.",
+             oefeningen=[
+                 ("rij", [("een functie die zichzelf oproept", "recursie"),
+                          ("opsplitsen en de deeloplossingen samenvoegen", "verdeel-en-heers"),
+                          ("tussenresultaten bewaren om ze niet twee keer te berekenen", "dynamisch programmeren"),
+                          ("in een gesorteerde lijst telkens de helft wegnemen", "verdeel-en-heers")],
+                  "Welke techniek?", WL),
+                 ("open", "Wat heeft elke recursieve functie nodig, en wat gebeurt er zonder?",
+                  "Een stopgeval waarin ze zichzelf niet meer oproept. Zonder dat blijft ze zichzelf oproepen tot het programma vastloopt met een foutmelding.", 3),
+                 ("open", "Dynamisch programmeren kost meer geheugen. Wat levert het op, en wanneer is dat de moeite?",
+                  "Het wint tijd, want je berekent niets twee keer. Bij een probleem waar dezelfde deelberekening vaak terugkomt, zoals de rij van Fibonacci, scheelt dat enorm.", 4),
+             ]),
+        dict(kop="Correctheid, eindigheid en bibliotheken",
+             opdracht="Schrijf je antwoord in volle zinnen.",
+             oefeningen=[
+                 ("open", "Leg het verschil uit tussen de correctheid en de eindigheid van een algoritme.",
+                  "Correct betekent dat het voor elke toegelaten invoer het juiste antwoord geeft. Eindig betekent dat het na een eindig aantal stappen stopt. Een programma kan correct geredeneerd zijn en toch eeuwig blijven lopen.", 4),
+                 ("tabel", ["Bibliotheek", "Waarvoor je ze gebruikt"],
+                  [["matplotlib", None], ["numpy", None], ["random", None]],
+                  "grafieken tekenen; vlot met grote rijen getallen rekenen; toevalsgetallen genereren", "280px"),
+                 ("open", "Waarom test je je programma ook met randgevallen? Noem er drie.",
+                  "Omdat fouten zich daar verstoppen. Bijvoorbeeld een lege lijst, een lijst met één element, en een nul of een negatief getal.", 3),
+                 ("waar", "Commentaar in je code wordt mee uitgevoerd.", False),
+             ]),
+    ],
+)

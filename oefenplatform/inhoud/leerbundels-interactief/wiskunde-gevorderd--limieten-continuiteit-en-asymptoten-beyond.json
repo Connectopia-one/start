@@ -1,0 +1,104 @@
+{
+ "vak": "Wiskunde gevorderd",
+ "titel": "Limieten, continuïteit en asymptoten",
+ "onder": "Wat een limiet is, hoe je onbepaaldheden wegwerkt, en hoe je alle soorten asymptoten vindt.",
+ "secties": [
+  {
+   "kop": "Wat een limiet zegt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De limiet van f voor x naar a is b</strong> betekent: <strong>de functiewaarden naderen b als x dicht genoeg bij a komt</strong>. Een limiet zegt dus iets over de <strong>buurt</strong> van a, niet over a zelf. <strong>Een functie hoeft in a niet gedefinieerd te zijn om daar een limiet te hebben.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "In de <strong>epsilon-deltadefinitie</strong> is <strong>epsilon eerst gegeven</strong>: de gewenste nauwkeurigheid op de y-as. Iemand daagt je uit met een epsilon, en jij moet er een delta bij vinden. Die volgorde omdraaien maakt de definitie betekenisloos."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De limiet in een punt bestaat als de linkerlimiet en de rechterlimiet gelijk zijn.</strong> Verschillen ze, dan maakt de grafiek daar een sprong. Daarom <strong>bestaat de limiet voor x naar nul van één gedeeld door x niet</strong>: van links kruipt ze naar min oneindig, van rechts naar plus oneindig. Bij <strong>één gedeeld door x kwadraat is de limiet in nul wel plus oneindig</strong>, want een kwadraat is langs beide kanten positief."
+    },
+    {
+     "soort": "tekst",
+     "html": "Is de functie <strong>continu</strong>, dan mag je gewoon invullen: de <strong>limiet voor x naar drie van x plus vijf is acht</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Onbepaaldheden wegwerken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een onbepaaldheid is een vorm waaruit je de uitkomst nog niet kan afleiden.</strong> Nul op nul kan alles opleveren: een getal, oneindig of niets. Je moet eerst herschrijven."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je krijgt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">teller en noemer allebei nul</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ontbinden en de gemeenschappelijke factor schrappen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x kwadraat min vier op x min twee geeft in twee de limiet vier</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">teller niet nul, noemer wel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er ligt een pool, dus plus of min oneindig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met een tekenonderzoek links en rechts bepaal je het teken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oneindig min oneindig met twee wortels</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vermenigvuldigen met de toegevoegde tweeterm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het verschil maal de som laat de wortels verdwijnen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een breuk op oneindig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de hoogstegraadstermen tegen elkaar afwegen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie x kwadraat plus één op x kwadraat min vijf geeft drie</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De limiet voor x naar plus oneindig van twee x plus één, gedeeld door x kwadraat, is nul</strong>: de noemer groeit sneller dan de teller. In het algemeen <strong>bepaalt enkel de term met de hoogste graad het gedrag van een veeltermfunctie op oneindig</strong>. Bij een <strong>irrationale functie</strong> is de eerste stap <strong>de hoogstegraadsterm buiten de wortel afzonderen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De regel van de l'Hôpital mag je rechtstreeks toepassen op nul op nul en op oneindig op oneindig.</strong> De andere onbepaaldheden, zoals nul maal oneindig of oneindig min oneindig, moet je eerst omvormen tot een van die twee breuken. <strong>Op twee gedeeld door nul mag je l'Hôpital niet toepassen</strong>: dat is geen onbepaaldheid maar een pool."
+    },
+    {
+     "soort": "tekst",
+     "html": "De gewone <strong>rekenregels</strong> helpen zolang de limieten bestaan en eindig zijn: <strong>de limiet van een som is de som van de limieten</strong>. Bij oneindig moet je opletten voor onbepaaldheden."
+    },
+    {
+     "soort": "weetje",
+     "html": "<strong>Een perforatie is een punt dat op de grafiek ontbreekt terwijl de limiet er wel bestaat.</strong> Je tekent er een open bolletje. De functie is er niet gedefinieerd, maar de grafiek loopt er verder gewoon door."
+    }
+   ]
+  },
+  {
+   "kop": "Continuïteit",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een functie is continu in a als de functiewaarde in a bestaat en gelijk is aan de limiet daar.</strong> Drie dingen moeten dus kloppen: de limiet bestaat, de functiewaarde bestaat, en ze zijn gelijk. <strong>Op een grafiek betekent continuïteit dat je ze kan tekenen zonder je pen op te heffen.</strong> Een knik mag wel."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Elke veeltermfunctie is continu op heel haar domein</strong>: er zit geen noemer en geen wortel in, dus nergens een pool of een sprong. <strong>Eén gedeeld door x is niet continu in nul</strong>, want die functie bestaat daar niet. <strong>Verschillen de linker- en de rechterlimiet in een punt, dan zie je een sprong in de grafiek</strong>; bij een gat zijn de twee limieten net wel gelijk, maar ontbreekt de functiewaarde."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Continuïteit is belangrijk omdat je de limiet dan mag berekenen door gewoon in te vullen.</strong> En <strong>een functie die in een punt afleidbaar is, is daar zeker ook continu</strong>; omgekeerd geldt het niet, want de absolute waarde is continu in nul maar heeft er een knik en dus geen afgeleide."
+    }
+   ]
+  },
+  {
+   "kop": "Asymptoten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort asymptoot</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe je ze vindt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wanneer ze er is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verticaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de noemer nulstellen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij een pool van de functie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">horizontaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de limiet op plus en min oneindig berekenen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als die limiet een getal is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schuin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de euclidische deling, of de formules van Cauchy</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als de graad van de teller precies één hoger is</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Eén gedeeld door x min drie heeft één verticale asymptoot</strong>, met vergelijking <strong>x is drie</strong>. <strong>Een verticale asymptoot hoort bij een pool</strong>: daar gaat de functiewaarde naar plus of min oneindig."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Drie x plus één, gedeeld door x min twee, heeft de rechte y is drie als horizontale asymptoot</strong>: teller en noemer hebben dezelfde graad, dus je deelt de hoogste coëfficiënten. <strong>Een grafiek mag haar horizontale asymptoot snijden</strong>, zelfs meermaals; alleen op oneindig moet ze er onbeperkt dicht bij komen. Een verticale asymptoot snijden kan niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>schuine asymptoot</strong> werk je met de <strong>euclidische deling</strong>: <strong>het quotiënt van de deling is de vergelijking van de asymptoot</strong>, want de rest gedeeld door de noemer kruipt naar nul. Zo heeft <strong>x kwadraat plus één, gedeeld door x, als schuine asymptoot y is x</strong>. Met de <strong>formules van Cauchy</strong> gaat het ook: de <strong>richtingscoëfficiënt is de limiet op oneindig van f van x gedeeld door x</strong>, en daarna vind je het snijpunt met de y-as als de limiet van f van x min die richtingscoëfficiënt maal x."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een functie kan aan dezelfde kant niet tegelijk een horizontale en een schuine asymptoot hebben</strong>: allebei beschrijven ze het gedrag op oneindig, en dat kan maar één ding tegelijk zijn. Aan de andere kant kan het wel anders lopen. <strong>Een gewone parabool heeft nul asymptoten</strong>: ze groeit wel naar oneindig, maar nadert daarbij geen enkele rechte."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Teken asymptoten als stippellijnen</strong>, want ze horen niet bij de grafiek. Een asymptoot is een hulplijn die het gedrag beschrijft."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

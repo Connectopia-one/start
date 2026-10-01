@@ -1,0 +1,88 @@
+{
+ "vak": "Wiskunde gevorderd",
+ "titel": "Algebraïsche structuren en groepen",
+ "onder": "De vier eigenschappen van een groep, de Cayley-tabel, en de uniciteit van het neutraal en het invers element.",
+ "secties": [
+  {
+   "kop": "Wat een groep is",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een verzameling met een bewerking is een groep als ze aan vier eigenschappen voldoet</strong>: de bewerking is <strong>intern</strong> en <strong>associatief</strong>, er is een <strong>neutraal element</strong>, en elk element heeft een <strong>invers element</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Eigenschap</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze zegt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">intern</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het resultaat ligt altijd weer in de verzameling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de optelling in de gehele getallen wel, de deling niet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">associatief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de haakjes mogen verschuiven zonder gevolg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a met (b met c) geeft hetzelfde als (a met b) met c</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">neutraal element</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het laat elk ander element ongewijzigd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nul bij de optelling, één bij de vermenigvuldiging</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">invers element</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">samen met a geeft het het neutraal element</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het tegengestelde, of het omgekeerde</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een groep heet commutatief als de volgorde van de twee elementen niets uitmaakt.</strong> Dat is een vijfde eigenschap die erbij komt, dus <strong>niet elke groep is commutatief</strong>: de vermenigvuldiging van matrices bijvoorbeeld niet. <strong>Een eindige groep is een groep met een eindig aantal elementen</strong>, maar <strong>een groep hoeft niet eindig te zijn</strong>: de gehele getallen met de optelling vormen een oneindige groep."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Om aan te tonen dat iets een groep is, ga je de vier eigenschappen één voor één na.</strong> Eén tegenvoorbeeld bij één eigenschap volstaat om te besluiten dat het geen groep is."
+    }
+   ]
+  },
+  {
+   "kop": "Voorbeelden en tegenvoorbeelden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De gehele getallen vormen met de optelling een groep</strong>: de optelling is intern en associatief, <strong>nul is het neutraal element</strong> en elk geheel getal heeft zijn tegengestelde. Het <strong>invers element van zeven is min zeven</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De natuurlijke getallen vormen met de optelling geen groep</strong>: er zijn geen negatieve getallen, dus drie heeft geen tegengestelde binnen de verzameling. <strong>De gehele getallen vormen met de vermenigvuldiging evenmin een groep</strong>: het invers van drie zou een derde zijn, en dat is geen geheel getal. Alleen één en min één hebben er een."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De reële getallen zonder nul vormen met de vermenigvuldiging wél een groep</strong>, met <strong>één</strong> als neutraal element. Nul moet eruit, want <strong>nul heeft geen invers element voor de vermenigvuldiging</strong>: er bestaat geen getal dat maal nul één geeft."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De matrices van orde twee vormen onder de optelling een groep, en ze is bovendien commutatief</strong>: de nulmatrix is het neutraal element en elke matrix heeft haar tegengestelde. Bij de vermenigvuldiging lukt het niet."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een voorbeeld uit de meetkunde: de <strong>vier draaiingen die een vierkant op zichzelf afbeelden</strong>, met na elkaar uitvoeren als bewerking, vormen een <strong>eindige commutatieve groep</strong>. De draaiing over nul graden is het neutraal element en elke draaiing heeft haar tegendraaiing."
+    }
+   ]
+  },
+  {
+   "kop": "De Cayley-tabel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>In een Cayley-tabel staat het resultaat van de bewerking voor elk paar elementen</strong>: rij voor het eerste element, kolom voor het tweede, en in het vakje het resultaat. Een groep met <strong>vijf elementen</strong> geeft dus een tabel met <strong>vijfentwintig</strong> vakjes, en een groep met zes elementen heeft <strong>zes</strong> rijen. <strong>Van een oneindige groep kan je de volledige tabel niet opstellen</strong>, want ze zou oneindig veel rijen hebben."
+    },
+    {
+     "soort": "tekst",
+     "html": "Uit de tabel lees je de eigenschappen af. <strong>Is de tabel symmetrisch om de hoofddiagonaal, dan is de groep commutatief.</strong> <strong>Het neutraal element herken je doordat zijn rij en zijn kolom gewoon de kopregel herhalen.</strong> <strong>Het invers element van a vind je door in de rij van a te zoeken waar het neutraal element staat</strong>; de kolom waarin dat vakje staat, wijst het aan. En <strong>is elk element zijn eigen invers, dan staat op de hoofddiagonaal overal het neutraal element</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In de Cayley-tabel van een groep komt elk element precies één keer voor in elke rij.</strong> Zou een element twee keer voorkomen, dan had je twee oplossingen voor dezelfde vergelijking, en dat kan niet in een groep."
+    }
+   ]
+  },
+  {
+   "kop": "Uniciteit en rekenen in een groep",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een groep heeft juist één neutraal element</strong> en <strong>elk element heeft juist één invers element</strong>. Dat heet de <strong>uniciteit</strong>: allebei zijn ze <strong>uniek</strong>, en dat is te bewijzen. Let op wat je precies bewijst: <strong>dat er één bestaat, is een van de vier eigenschappen; dat het er maar één is, moet je aantonen.</strong> <strong>Het bewijs begint door te veronderstellen dat er twee neutrale elementen zijn</strong>; daarna bewerk je ze met elkaar en toont elk van de twee aan dat het resultaat de andere is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee rekenregels voor inversen. <strong>Het invers van het invers van a is a</strong>: twee keer omkeren brengt je terug bij het begin. En bij een product <strong>keert de volgorde om</strong>: het invers van a bewerkt met b is eerst het invers van b en dan dat van a, <strong>niet andersom</strong>. <strong>Dat komt omdat je het binnenste paar eerst moet kunnen wegwerken</strong>: zet je ze omgekeerd naast elkaar, dan valt eerst b weg en pas daarna a. Bij een commutatieve groep maakt dat verschil natuurlijk niets uit."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In een groep mag je links en rechts van het gelijkheidsteken hetzelfde element wegwerken</strong> door beide leden met zijn invers te bewerken. Dat is het hele idee achter het oplossen van vergelijkingen in een groep, en <strong>de kant volgt a</strong>: bij <strong>a bewerkt met x is b</strong> bewerk je <strong>links</strong> met het invers van a, bij <strong>x bewerkt met a is b</strong> bewerk je <strong>rechts</strong>. In een groep die niet commutatief is, is die kant belangrijk."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}
