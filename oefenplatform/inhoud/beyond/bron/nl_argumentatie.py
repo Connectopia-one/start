@@ -1,0 +1,398 @@
+# -*- coding: utf-8 -*-
+"""Argumentatie en drogredenen — 🌍 Beyond, Nederlands.
+
+Naast de twee vakfiches geschreven. Allebei noemen ze dezelfde elementen:
+feit en mening, stelling, standpunt, argument, tegenargument, conclusie, de
+soorten argumentatie en het vermijden van drogredenen. Deel 1 is de opbouw
+van een redenering, deel 2 zijn de soorten argumentatie en de drogredenen.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het verschil tussen een feit en een mening?",
+        opties=[
+            "een feit kan je nagaan, een mening niet",
+            "een feit staat vooraan, een mening achteraan",
+            "een feit bevat cijfers, een mening woorden",
+            "een feit is kort, een mening is lang",
+        ],
+        antwoord=0,
+        uitleg="Een feit is controleerbaar waar of onwaar. Over een mening kan je van mening verschillen zonder dat iemand liegt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke zinnen zijn meningen?",
+        opties=[
+            "de schooldag zou later moeten beginnen",
+            "dit boek is veel te langdradig",
+            "jongeren slapen te weinig voor hun eigen bestwil",
+            "de school begint om kwart over acht",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="De laatste zin kan je nakijken op het uurrooster en is dus een feit. De drie andere bevatten een oordeel.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de bewering waarover een discussie gaat en die je wil verdedigen? Antwoord met één woord.",
+        antwoord=["stelling"],
+        uitleg="De stelling is het punt dat op tafel ligt. Al je argumenten moeten die stelling steunen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een argument is een reden die je aanvoert om je standpunt te onderbouwen.",
+        antwoord=True,
+        uitleg="Zonder argumenten blijft een standpunt een losse bewering.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een tegenargument?",
+        opties=[
+            "een reden die tegen jouw standpunt pleit",
+            "een extra reden die jouw standpunt steunt",
+            "een vraag die je aan je tegenstander stelt",
+            "een samenvatting van het hele betoog",
+        ],
+        antwoord=0,
+        uitleg="Een sterk betoog noemt de tegenargumenten zelf en weerlegt ze, in plaats van ze te verzwijgen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom is het sterk om zelf tegenargumenten te noemen in je betoog?",
+        opties=[
+            "je toont dat je de andere kant kent en weerlegt",
+            "je maakt je tekst daardoor een stuk langer",
+            "je hoeft dan geen eigen argumenten meer te geven",
+            "je ontloopt daarmee elke discussie achteraf",
+        ],
+        antwoord=0,
+        uitleg="Wie de tegenwerping zelf opwerpt en pareert, laat weinig ruimte over voor de ander.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De conclusie van een betoog hoort te volgen uit de argumenten die eraan voorafgaan.",
+        antwoord=True,
+        uitleg="Een conclusie die nergens uit volgt, is geen conclusie maar een nieuwe bewering.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Iemand zegt: 'Antwerpen heeft meer inwoners dan Gent.' Wat is dat?",
+        opties=[
+            "een feit",
+            "een mening",
+            "een stelling waarover je kan discussiëren",
+            "een drogreden",
+        ],
+        antwoord=0,
+        uitleg="Het is na te gaan in de bevolkingscijfers, dus het is waar of onwaar en geen kwestie van vinden.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke onderdelen horen in een goed opgebouwde argumentatieve tekst?",
+        opties=[
+            "een duidelijke stelling",
+            "argumenten die de stelling dragen",
+            "een conclusie die eruit volgt",
+            "zoveel mogelijk uitroeptekens",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Uitroeptekens maken een betoog luider, niet sterker. De drie andere zijn het geraamte.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je het standpunt dat je inneemt tegenover een stelling, voor of tegen? Antwoord met één woord.",
+        antwoord=["standpunt"],
+        uitleg="Het standpunt is waar jij staat; de stelling is waarover het gaat.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een mening is minder waard dan een feit en hoort niet in een tekst thuis.",
+        antwoord=False,
+        uitleg="Een opiniestuk bestaat net uit meningen. Het punt is dat je weet welke van de twee je voor je hebt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Iemand verdedigt dat de bibliotheek langer open moet omdat veel studenten er 's avonds werken. Wat is dat laatste?",
+        opties=[
+            "een argument",
+            "een stelling",
+            "een conclusie",
+            "een tegenargument",
+        ],
+        antwoord=0,
+        uitleg="De stelling is dat de bibliotheek langer open moet; de reden daarvoor is het argument.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat maakt een argument sterk?",
+        opties=[
+            "het is waar, ter zake en belangrijk genoeg",
+            "het is lang en bevat moeilijke woorden",
+            "het staat helemaal vooraan in de tekst",
+            "het wordt met stemverheffing gebracht",
+        ],
+        antwoord=0,
+        uitleg="Een argument moet kloppen, echt over de stelling gaan en genoeg gewicht hebben om iets te veranderen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een zin met het woord 'moeten' erin is vaak een mening.",
+        antwoord=True,
+        uitleg="Moeten, zouden, horen te: zulke woorden drukken uit wat iemand wenselijk vindt, en dat is geen vaststelling.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Iemand beweert: 'Deze maatregel is onrechtvaardig.' Hoe kan je die uitspraak best beoordelen?",
+        opties=[
+            "je vraagt op welke argumenten ze steunt",
+            "je gaat ze na in een naslagwerk",
+            "je telt hoe vaak ze herhaald wordt",
+            "je kijkt of ze netjes gespeld is",
+        ],
+        antwoord=0,
+        uitleg="Het is een mening, dus niet na te gaan als feit. Wat je wel kan bekijken, is of er goede redenen bij staan.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het verschil tussen een stelling en een conclusie?",
+        opties=[
+            "de stelling opent, de conclusie sluit af",
+            "de stelling is waar, de conclusie is een mening",
+            "de stelling bevat cijfers, de conclusie niet",
+            "er is geen verschil tussen die twee",
+        ],
+        antwoord=0,
+        uitleg="Vaak zeggen ze hetzelfde, maar de stelling staat er nog onbewezen en de conclusie staat er na het bewijs.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="In een debat hoef je enkel naar je eigen argumenten te luisteren.",
+        antwoord=False,
+        uitleg="Je moet op je gesprekspartner inspelen. Wie enkel zijn eigen lijstje afwerkt, voert geen gesprek.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je een reden die tegen het verdedigde standpunt ingaat? Antwoord met één woord.",
+        antwoord=["tegenargument"],
+        uitleg="Een goed betoog brengt die zelf aan en weerlegt ze.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een tekst bevat deze zinnen: 'Scholen moeten later beginnen.' en 'Uit onderzoek blijkt dat tieners pas later in slaap vallen.' Wat is wat?",
+        opties=[
+            "de eerste is de stelling, de tweede een argument",
+            "de eerste is een argument, de tweede de stelling",
+            "allebei zijn het stellingen",
+            "allebei zijn het conclusies",
+        ],
+        antwoord=0,
+        uitleg="De eerste zin zegt wat er moet gebeuren, de tweede geeft de reden waarom.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom is het nuttig om feiten en meningen uit elkaar te houden in een argumentatieve tekst?",
+        opties=[
+            "je ziet dan waarop de redenering echt steunt",
+            "je kan de tekst dan sneller uitlezen",
+            "je hoeft de conclusie dan niet meer te lezen",
+            "je weet dan hoeveel alinea's er zijn",
+        ],
+        antwoord=0,
+        uitleg="Een betoog dat enkel op meningen steunt, lijkt soms sterk maar heeft geen grond onder zich.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="'In Finland werkt dit al jaren, dus bij ons zal het ook werken.' Welke soort argumentatie is dat?",
+        opties=[
+            "argumentatie op basis van vergelijking",
+            "argumentatie op basis van een autoriteit",
+            "argumentatie op basis van cijfers en statistieken",
+            "argumentatie op basis van oorzaak en gevolg",
+        ],
+        antwoord=0,
+        uitleg="Er wordt een geval naast het onze gelegd. Of de vergelijking opgaat, is de vraag die je dan stelt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke soorten argumentatie bestaan er?",
+        opties=[
+            "op basis van wetenschappelijk onderzoek",
+            "op basis van cijfers en statistieken",
+            "op basis van een autoriteit",
+            "op basis van het aantal woorden",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Het aantal woorden is geen argument. Vergelijking en oorzaak-gevolg horen ook in de rij thuis.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je een redenering die op het eerste gezicht klopt maar bij nader inzien niet deugt? Antwoord met één woord.",
+        antwoord=["drogreden"],
+        uitleg="Een drogreden lijkt een argument maar bewijst niets.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="'Jij hebt daar geen verstand van, dus je hebt ongelijk' is een drogreden.",
+        antwoord=True,
+        uitleg="De persoon wordt aangevallen in plaats van het argument. Dat heet een persoonlijke aanval.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="'Iedereen vindt dit, dus het klopt.' Wat is er mis met die redenering?",
+        opties=[
+            "dat velen iets vinden maakt het nog niet waar",
+            "er staan geen cijfers bij om het te staven",
+            "de zin is te kort om een argument te zijn",
+            "de zin bevat geen enkel signaalwoord",
+        ],
+        antwoord=0,
+        uitleg="Dit is de drogreden van de meerderheid. Vroeger vond iedereen dat de zon om de aarde draaide.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="'Als we dit toelaten, staan we morgen voor de afgrond.' Welke drogreden is dat?",
+        opties=[
+            "het hellend vlak",
+            "de persoonlijke aanval",
+            "de valse autoriteit",
+            "de cirkelredenering",
+        ],
+        antwoord=0,
+        uitleg="Er wordt een reeks rampen voorspeld zonder dat er één schakel bewezen wordt.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Argumenteren met cijfers is altijd betrouwbaar, want cijfers liegen niet.",
+        antwoord=False,
+        uitleg="Cijfers kunnen correct zijn en toch misleiden, door de selectie, de vergelijkingsbasis of de manier van voorstellen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een bekende acteur beweert in een spot dat een middel tegen verkoudheid helpt. Welke argumentatie wordt hier ingezet?",
+        opties=[
+            "op basis van een autoriteit",
+            "op basis van wetenschappelijk onderzoek",
+            "op basis van oorzaak en gevolg",
+            "op basis van een vergelijking",
+        ],
+        antwoord=0,
+        uitleg="Bekendheid is hier geen deskundigheid. Dat maakt het een valse autoriteit.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke uitspraken zijn drogredenen?",
+        opties=[
+            "dat zegt iemand die zelf nooit op tijd komt",
+            "dit is altijd zo geweest, dus het moet zo blijven",
+            "ofwel ben je voor, ofwel ben je tegen ons",
+            "uit drie onderzoeken blijkt hetzelfde beeld",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="De laatste is een gewoon argument op basis van onderzoek. De drie andere zijn respectievelijk een persoonlijke aanval, een beroep op traditie en een vals dilemma.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de drogreden waarbij iemand doet alsof er maar twee mogelijkheden zijn? Vul aan: een vals ...",
+        antwoord=["dilemma"],
+        uitleg="Bij een vals dilemma worden alle tussenposities weggemoffeld.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Argumentatie op basis van oorzaak en gevolg vraagt dat het verband ook echt bestaat.",
+        antwoord=True,
+        uitleg="Twee zaken die samen voorkomen, hoeven elkaar niet te veroorzaken. Dat verschil moet je kunnen maken.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="In een gemeente steeg het aantal ooievaars én het aantal geboorten. Wat besluit je?",
+        opties=[
+            "er is samenhang, maar geen bewezen oorzaak",
+            "de ooievaars veroorzaken de geboorten",
+            "de geboorten trekken ooievaars aan",
+            "de cijfers moeten dan wel verkeerd zijn",
+        ],
+        antwoord=0,
+        uitleg="Twee lijnen die samen stijgen, bewijzen geen oorzakelijk verband. Vaak zit er een derde factor achter.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe weerleg je een tegenargument het best?",
+        opties=[
+            "je toont waarom het niet opgaat",
+            "je herhaalt je eigen standpunt luider",
+            "je noemt de tegenstander onwetend",
+            "je laat het onvermeld in je tekst",
+        ],
+        antwoord=0,
+        uitleg="Weerleggen is laten zien waar de redenering fout loopt of waarom ze niet zwaar genoeg weegt.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een cirkelredenering gebruikt de stelling zelf als argument voor die stelling.",
+        antwoord=True,
+        uitleg="'Dit is verboden omdat het niet mag' draait rond zonder ergens uit te komen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="'Uit een studie bij drieduizend leerlingen blijkt dat later beginnen de resultaten verbetert.' Welke soort argumentatie?",
+        opties=[
+            "op basis van wetenschappelijk onderzoek",
+            "op basis van een vergelijking met het buitenland",
+            "op basis van een autoriteit in het vakgebied",
+            "op basis van traditie en gewoonte",
+        ],
+        antwoord=0,
+        uitleg="Er wordt naar onderzoek verwezen. De vervolgvraag is dan: wie deed het, bij wie, en wie betaalde het.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke vragen stel je bij een argument dat naar onderzoek verwijst?",
+        opties=[
+            "wie voerde het onderzoek uit",
+            "hoeveel mensen namen eraan deel",
+            "wie heeft het onderzoek betaald",
+            "hoe lang was het verslag",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="De lengte van het verslag zegt niets. Uitvoerder, omvang en financiering zeggen alles over het gewicht van het argument.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de drogreden waarbij je de persoon aanvalt in plaats van zijn argument? Vul aan: een persoonlijke ...",
+        antwoord=["aanval"],
+        uitleg="Wie de man speelt in plaats van de bal, heeft meestal geen argument meer.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een argument dat waar is, is daarom ook relevant voor de stelling.",
+        antwoord=False,
+        uitleg="Een ware bewering die niets met de stelling te maken heeft, draagt niets bij. Waar en ter zake zijn twee eisen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je schrijft een betoog en wil drogredenen vermijden. Wat controleer je?",
+        opties=[
+            "of elk argument echt over de stelling gaat",
+            "of elke alinea even lang is geworden",
+            "of je genoeg uitroeptekens gebruikt hebt",
+            "of je de tegenstander genoeg bekritiseerd hebt",
+        ],
+        antwoord=0,
+        uitleg="De meeste drogredenen ontstaan doordat je iets aanvoert dat eigenlijk naast de kwestie ligt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een politicus antwoordt op een lastige vraag met een verhaal over een heel ander onderwerp. Wat gebeurt er?",
+        opties=[
+            "de vraag wordt ontweken in plaats van beantwoord",
+            "er wordt een argument op basis van cijfers gegeven",
+            "er wordt een correcte conclusie getrokken",
+            "er wordt een tegenargument weerlegd",
+        ],
+        antwoord=0,
+        uitleg="Het gesprek wordt verlegd naar veiliger terrein. Dat is geen antwoord, maar een afleidingsmanoeuvre.",
+    ),
+]

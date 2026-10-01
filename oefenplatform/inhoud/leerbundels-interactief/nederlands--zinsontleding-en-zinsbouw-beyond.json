@@ -1,0 +1,85 @@
+{
+ "vak": "Nederlands",
+ "titel": "Zinsontleding en zinsbouw",
+ "onder": "Zinssoorten, hoofdzin en bijzin, woordvolgorde, en alle zinsdelen met hun vraag.",
+ "secties": [
+  {
+   "kop": "Zinssoorten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Naar hun bedoeling onderscheidt men de <strong>mededelende zin</strong>, de <strong>vragende zin</strong>, de <strong>bevelende zin</strong> en de <strong>uitroepende zin</strong>. <em>Hij komt niet</em> is daarnaast een <strong>ontkennende</strong> zin. <strong>Een uitroepende zin eindigt niet met een vraagteken</strong> maar met een uitroepteken."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het verschil tussen een <strong>actieve</strong> en een <strong>passieve</strong> zin: <strong>in een passieve zin ondergaat het onderwerp de handeling</strong>. <em>De brief werd door de postbode bezorgd</em> is dus <strong>passief</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Enkelvoudig en samengesteld",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>enkelvoudige zin</strong> is een zin met <strong>maar één persoonsvorm</strong>. Zinnen met twee persoonsvormen zijn <strong>samengesteld</strong>: <em>Hij komt en zij blijft.</em>, <em>Ik blijf thuis omdat het regent.</em>, <em>Toen hij kwam, zweeg iedereen.</em>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>nevenschikking</strong> zijn de twee delen <strong>gelijkwaardig</strong> (<em>en</em>, <em>maar</em>, <em>want</em>). Bij <strong>onderschikking</strong> hangt <strong>een bijzin af van een hoofdzin</strong>. Woorden die een bijzin inleiden: <strong>omdat</strong>, <strong>hoewel</strong>, <strong>die</strong>. Het <strong>antecedent</strong> is het woord waarnaar een betrekkelijke bijzin terugverwijst."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>In een Nederlandse bijzin staat de persoonsvorm meestal achteraan.</strong> In een gewone mededelende hoofdzin staat ze <strong>op de tweede plaats</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Woordvolgorde",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Inversie</strong> is de omkering waarbij <strong>het onderwerp achter de persoonsvorm</strong> belandt. Dat gebeurt zodra er iets anders vooraan staat: in <em>Gisteren las ik een boek</em> <strong>treedt inversie op</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>tangconstructie</strong> is een zin waarin <strong>twee bij elkaar horende delen ver uit elkaar staan</strong>. <strong>Een lange tangconstructie maakt een zin juist moeilijker te volgen</strong>, want de lezer moet het eerste deel onthouden tot het tweede eindelijk komt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Variatie in zinsbouw</strong> is een criterium bij schrijven omdat <strong>afwisseling een tekst levendig houdt</strong>: korte en lange zinnen, actief en passief, af en toe een vooropgeplaatste bepaling."
+    }
+   ]
+  },
+  {
+   "kop": "De zinsdelen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>zinsdeel</strong> is <strong>een groep woorden die samen één rol speelt</strong>. <strong>Een zinsdeel kan ook uit één woord bestaan.</strong> Je test of een groep woorden één zinsdeel vormt door <strong>ze samen naar voren in de zin te verplaatsen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Zinsdeel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vraag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Persoonsvorm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">welk werkwoord is vervoegd?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gaf in de leraar gaf een toets</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Onderwerp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie of wat + persoonsvorm?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de leraar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Lijdend voorwerp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie of wat + gezegde + onderwerp?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een boek in hij geeft zijn zus een boek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Meewerkend voorwerp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aan wie of voor wie?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aan mijn zus in aan mijn zus heb ik een brief geschreven</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Voorzetselvoorwerp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een voorwerp met een vast voorzetsel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">denken aan, rekenen op</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Handelend voorwerp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">door wie, in een passieve zin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">door de postbode</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Bijwoordelijke bepaling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wanneer, waar, hoe?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gisteren</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Niet elke zin heeft een lijdend voorwerp.</strong> In <em>De leraar gaf de leerlingen gisteren een toets</em> vind je een <strong>onderwerp</strong>, een <strong>meewerkend voorwerp</strong>, een <strong>bijwoordelijke bepaling</strong> en een lijdend voorwerp. Een <strong>bijwoordelijke bepaling</strong> zegt iets over <strong>de omstandigheden van de handeling</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Het gezegde",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>naamwoordelijk gezegde</strong> is <strong>een koppelwerkwoord met een naamwoordelijk deel</strong>: <em>hij is leraar</em>. Het <strong>werkwoordelijk gezegde</strong> bestaat <strong>niet enkel uit de persoonsvorm</strong>: ook de deelwoorden en infinitieven horen erbij, zoals in <em>hij heeft gelopen</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zinsontleding helpt bij het spellen van werkwoorden, want <strong>je vindt zo het onderwerp bij de persoonsvorm</strong>, en daarmee weet je of er een t bij moet."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

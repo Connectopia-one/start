@@ -1,0 +1,398 @@
+# -*- coding: utf-8 -*-
+"""Woordsoorten — 🌍 Beyond, Nederlands.
+
+Naast de twee vakfiches geschreven, die onder morfologie alle woordsoorten
+opsommen. Deel 1: het zelfstandig naamwoord, het bijvoeglijk naamwoord, het
+lidwoord, het telwoord, het bijwoord, het voorzetsel, het voegwoord en het
+tussenwerpsel. Deel 2: de voornaamwoorden en de werkwoorden.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Welke woordsoort is 'tafel' in de zin 'De tafel staat scheef'?",
+        opties=[
+            "een zelfstandig naamwoord",
+            "een bijvoeglijk naamwoord",
+            "een bijwoord",
+            "een voorzetsel",
+        ],
+        antwoord=0,
+        uitleg="Een zelfstandig naamwoord noemt een ding, een persoon of een begrip. Je kan er een lidwoord voor zetten.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke lidwoorden kent het Nederlands?",
+        opties=[
+            "de",
+            "het",
+            "een",
+            "die",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Die is een aanwijzend of betrekkelijk voornaamwoord. De drie andere zijn de lidwoorden.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Welke woordsoort is 'snel' in 'de snelle trein'? Vul aan: een ... naamwoord.",
+        antwoord=["bijvoeglijk"],
+        uitleg="Een bijvoeglijk naamwoord zegt iets over een zelfstandig naamwoord.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een bijwoord zegt iets over een werkwoord, een bijvoeglijk naamwoord of een hele zin.",
+        antwoord=True,
+        uitleg="In 'hij loopt snel' hoort snel bij het werkwoord en is het dus een bijwoord.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke woordsoort is 'onder' in 'de kat zit onder de tafel'?",
+        opties=[
+            "een voorzetsel",
+            "een voegwoord",
+            "een bijwoord",
+            "een tussenwerpsel",
+        ],
+        antwoord=0,
+        uitleg="Een voorzetsel staat voor een zelfstandig naamwoord en legt een verband van plaats, tijd of richting.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke woorden zijn voegwoorden?",
+        opties=[
+            "want",
+            "omdat",
+            "hoewel",
+            "zeer",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Zeer is een bijwoord dat de graad aangeeft. De drie andere verbinden zinnen of zinsdelen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een tussenwerpsel staat los in de zin en drukt vooral een gevoel uit.",
+        antwoord=True,
+        uitleg="Au, hé, oei: zulke woordjes staan buiten de zinsbouw en hoeven geen functie te hebben.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het verschil tussen een hoofdtelwoord en een rangtelwoord?",
+        opties=[
+            "een hoofdtelwoord telt, een rangtelwoord ordent",
+            "een hoofdtelwoord is groter dan een rangtelwoord",
+            "een hoofdtelwoord staat achteraan in de zin",
+            "er bestaat geen verschil tussen die twee",
+        ],
+        antwoord=0,
+        uitleg="Drie is een hoofdtelwoord, derde is een rangtelwoord.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke woordsoort is 'morgen' in 'We vertrekken morgen'?",
+        opties=[
+            "een bijwoord",
+            "een zelfstandig naamwoord",
+            "een voorzetsel",
+            "een voegwoord",
+        ],
+        antwoord=0,
+        uitleg="Het zegt wanneer het werkwoord plaatsvindt, en dus is het hier een bijwoord van tijd.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Welke woordsoort is 'en' in 'brood en kaas'? Antwoord met één woord.",
+        antwoord=["voegwoord"],
+        uitleg="En verbindt twee gelijkwaardige delen en is dus een nevenschikkend voegwoord.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een lidwoord kan voor een werkwoord staan.",
+        antwoord=False,
+        uitleg="Een lidwoord hoort bij een zelfstandig naamwoord. Staat er toch een lidwoord voor, dan is dat woord zelfstandig gebruikt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="In 'het is erg koud' is 'erg':",
+        opties=[
+            "een bijwoord",
+            "een bijvoeglijk naamwoord",
+            "een telwoord",
+            "een voorzetsel",
+        ],
+        antwoord=0,
+        uitleg="Erg zegt iets over het bijvoeglijk naamwoord koud, en een woord dat dat doet is een bijwoord.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke woorden zijn voorzetsels?",
+        opties=[
+            "tussen",
+            "achter",
+            "tijdens",
+            "echter",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Echter is een bijwoord dat een tegenstelling aangeeft. De drie andere leiden een voorzetselgroep in.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een bijvoeglijk naamwoord kan ook achter het zelfstandig naamwoord staan.",
+        antwoord=True,
+        uitleg="In 'de soep is koud' staat koud achteraan en hoort het toch bij soep. Het is dan een naamwoordelijk deel van het gezegde.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe bepaal je van welke woordsoort een woord is?",
+        opties=[
+            "je kijkt naar de rol die het in die zin speelt",
+            "je kijkt in welk hoofdstuk het woord staat",
+            "je kijkt naar de lengte van het woord",
+            "je kijkt of het met een hoofdletter begint",
+        ],
+        antwoord=0,
+        uitleg="Hetzelfde woord kan in de ene zin een bijwoord zijn en in de andere een bijvoeglijk naamwoord. De zin beslist.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke woordsoort is 'drie' in 'drie boeken'?",
+        opties=[
+            "een telwoord",
+            "een lidwoord",
+            "een bijwoord",
+            "een voornaamwoord",
+        ],
+        antwoord=0,
+        uitleg="Het geeft een aantal aan, dus het is een hoofdtelwoord.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Welke woordsoort is 'au' in 'Au, dat doet pijn'? Antwoord met één woord.",
+        antwoord=["tussenwerpsel"],
+        uitleg="Het staat los van de zinsbouw en drukt een gevoel uit.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Het woord 'het' is altijd een lidwoord.",
+        antwoord=False,
+        uitleg="In 'het regent' is het een persoonlijk voornaamwoord zonder echte inhoud. De zin bepaalt de woordsoort.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="In 'de deur van het huis' is 'van':",
+        opties=[
+            "een voorzetsel",
+            "een voegwoord",
+            "een bijwoord",
+            "een lidwoord",
+        ],
+        antwoord=0,
+        uitleg="Van legt het verband tussen deur en huis en staat voor een zelfstandig naamwoord.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom is het nuttig om woordsoorten te kunnen benoemen?",
+        opties=[
+            "je begrijpt daardoor de bouw van een zin",
+            "je schrijft daardoor langere zinnen",
+            "je leert daardoor nieuwe woorden kennen",
+            "je spreekt daardoor beter Standaardnederlands",
+        ],
+        antwoord=0,
+        uitleg="Wie ziet welke rol elk woord speelt, ontleedt makkelijker en spelt werkwoorden correcter.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="Welke soorten voornaamwoorden onderscheidt men?",
+        opties=[
+            "het persoonlijk voornaamwoord",
+            "het bezittelijk voornaamwoord",
+            "het betrekkelijk voornaamwoord",
+            "het beschrijvend voornaamwoord",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Een beschrijvend voornaamwoord bestaat niet. Naast de drie genoemde zijn er nog het wederkerig, het aanwijzend en het vragend voornaamwoord.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk voornaamwoord staat in 'Dat is mijn jas'?",
+        opties=[
+            "een bezittelijk voornaamwoord",
+            "een wederkerig voornaamwoord",
+            "een vragend voornaamwoord",
+            "een betrekkelijk voornaamwoord",
+        ],
+        antwoord=0,
+        uitleg="Mijn geeft aan van wie de jas is, en dat is een bezittelijk voornaamwoord.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Welk soort voornaamwoord is 'zich' in 'hij wast zich'? Antwoord met één woord.",
+        antwoord=["wederkerig"],
+        uitleg="De handeling keert terug op het onderwerp zelf.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="In 'de man die daar staat' is 'die' een betrekkelijk voornaamwoord.",
+        antwoord=True,
+        uitleg="Het verwijst terug naar het antecedent 'de man' en leidt tegelijk de bijzin in.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het verschil tussen een zelfstandig en een bijvoeglijk gebruikt voornaamwoord?",
+        opties=[
+            "het zelfstandige staat alleen, het bijvoeglijke bij een naamwoord erbij",
+            "het zelfstandige is doorgaans langer dan het bijvoeglijke gebruikte",
+            "het zelfstandige komt enkel in bijzinnen van een zin voor",
+            "er bestaat geen verschil tussen die twee",
+        ],
+        antwoord=0,
+        uitleg="In 'deze is van mij' staat deze alleen; in 'deze jas' hoort deze bij het naamwoord.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke woorden zijn vragende voornaamwoorden?",
+        opties=[
+            "wie",
+            "wat",
+            "welke",
+            "omdat",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Omdat is een voegwoord. De drie andere leiden een vraag in.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een hulpwerkwoord kan alleen in een zin staan, zonder zelfstandig werkwoord.",
+        antwoord=False,
+        uitleg="Een hulpwerkwoord helpt een ander werkwoord. Zonder dat andere werkwoord staat het er niet als hulpwerkwoord.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk soort werkwoord is 'zijn' in 'Hij is leraar'?",
+        opties=[
+            "een koppelwerkwoord",
+            "een hulpwerkwoord",
+            "een zelfstandig werkwoord",
+            "een wederkerig werkwoord",
+        ],
+        antwoord=0,
+        uitleg="Een koppelwerkwoord verbindt het onderwerp met een eigenschap of een hoedanigheid. Zijn, worden, blijven en lijken doen dat.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk soort werkwoord is 'hebben' in 'Hij heeft gelopen'?",
+        opties=[
+            "een hulpwerkwoord",
+            "een koppelwerkwoord",
+            "een zelfstandig werkwoord",
+            "een onpersoonlijk werkwoord",
+        ],
+        antwoord=0,
+        uitleg="Het helpt om de voltooide tijd te vormen van lopen. In 'Hij heeft een fiets' is hebben wel zelfstandig.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de onvervoegde grondvorm van een werkwoord, zoals 'lopen'? Antwoord met één woord.",
+        antwoord=["infinitief"],
+        uitleg="De infinitief is de vorm die in het woordenboek staat.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een voltooid deelwoord begint in het Nederlands vaak met ge.",
+        antwoord=True,
+        uitleg="Gelopen, gewerkt, gezien. Werkwoorden met een onbeklemtoond voorvoegsel, zoals verwachten, krijgen die ge niet.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke werkwoorden zijn koppelwerkwoorden?",
+        opties=[
+            "worden",
+            "blijven",
+            "lijken",
+            "lopen",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Lopen is een zelfstandig werkwoord met een eigen betekenis. De drie andere koppelen een eigenschap aan het onderwerp.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Deze, die en dat zijn bezittelijke voornaamwoorden.",
+        antwoord=False,
+        uitleg="Het zijn aanwijzende voornaamwoorden: ze wijzen iets of iemand aan. Bezittelijk zijn mijn, jouw, zijn en haar.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="In 'Hij ziet mij' is 'mij':",
+        opties=[
+            "een persoonlijk voornaamwoord",
+            "een bezittelijk voornaamwoord",
+            "een wederkerig voornaamwoord",
+            "een aanwijzend voornaamwoord",
+        ],
+        antwoord=0,
+        uitleg="Mij verwijst naar een persoon en vervangt een naam. Dat is een persoonlijk voornaamwoord.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een antecedent?",
+        opties=[
+            "het woord waarnaar een betrekkelijk voornaamwoord terugwijst",
+            "het eerste vervoegde werkwoord van de hoofdzin in een zin",
+            "het onderwerp van een ingebedde bijzin",
+            "het laatste woord van een zin",
+        ],
+        antwoord=0,
+        uitleg="In 'de fiets die ik kocht' is fiets het antecedent van die.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Hetzelfde woord kan in de ene zin een voornaamwoord zijn en in de andere een lidwoord.",
+        antwoord=True,
+        uitleg="Het woord 'het' is daar het bekendste voorbeeld van.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je het werkwoord dat de eigenlijke betekenis draagt, naast de hulpwerkwoorden? Vul aan: het ... werkwoord.",
+        antwoord=["zelfstandig"],
+        uitleg="In 'hij heeft gewerkt' is gewerkt het zelfstandig werkwoord en heeft het hulpwerkwoord.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="In 'Welk boek lees je?' is 'welk':",
+        opties=[
+            "een vragend voornaamwoord",
+            "een aanwijzend voornaamwoord",
+            "een betrekkelijk voornaamwoord",
+            "een bezittelijk voornaamwoord",
+        ],
+        antwoord=0,
+        uitleg="Het leidt een vraag in en hoort bij het zelfstandig naamwoord boek.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom is het belangrijk te weten of een werkwoord koppelwerkwoord of zelfstandig werkwoord is?",
+        opties=[
+            "het bepaalt of er een naamwoordelijk gezegde is",
+            "het bepaalt de spelling van het onderwerp",
+            "het bepaalt de lengte van de hele zin",
+            "het bepaalt de woordvolgorde van de bijzin",
+        ],
+        antwoord=0,
+        uitleg="Bij een koppelwerkwoord hoort een naamwoordelijk gezegde, en dat ontleed je anders dan een werkwoordelijk gezegde.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="In 'Dat is de jongen wiens fiets gestolen werd' is 'wiens':",
+        opties=[
+            "een betrekkelijk voornaamwoord",
+            "een vragend voornaamwoord",
+            "een bezittelijk voornaamwoord",
+            "een aanwijzend voornaamwoord",
+        ],
+        antwoord=0,
+        uitleg="Het verwijst terug naar jongen en leidt de bijzin in, en drukt daarbij ook bezit uit.",
+    ),
+]

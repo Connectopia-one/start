@@ -1,0 +1,67 @@
+{
+ "vak": "Nederlands",
+ "titel": "Stijlfiguren en beeldspraak",
+ "onder": "Beelden, overdrijvingen, verzwakkingen en zinsbouwfiguren, en wat ze met een tekst doen.",
+ "secties": [
+  {
+   "kop": "Beeldspraak",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>beeldspraak</strong> zeg je het ene en bedoel je het andere. Het verschil tussen een <strong>vergelijking</strong> en een <strong>metafoor</strong>: <strong>in een vergelijking staat een woordje als <em>zoals</em></strong>. <em>Zij is zo stil als een steen</em> is een vergelijking; <em>zijn woorden waren messen</em> is een metafoor."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stijlfiguur</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Metafoor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het beeld vervangt de zaak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de voet van de berg, het hart van de stad, de arm van de wet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Vergelijking</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het beeld staat naast de zaak, met zoals of als</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zo stil als een steen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Personificatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets levenloos krijgt menselijke eigenschappen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de wind fluisterde door de bomen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Synesthesie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee zintuigen door elkaar in één beeld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het schreeuwende geel van de muren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Allegorie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een hele vertelling staat voor iets anders</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elk element verwijst naar iets buiten het verhaal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Analogie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een overeenkomst die iets uitlegt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een netwerk werkt als een wegenkaart</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Klanknabootsing</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het woord bootst de klank na</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">klets, sis, knars</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Antropomorfisme</strong> betekent <strong>niet</strong> dat een mens de eigenschappen van een dier krijgt, maar omgekeerd: iets niet-menselijks krijgt menselijke trekken. Een <strong>associatie</strong> is een woord dat een ander beeld oproept. Een <strong>onomatopee</strong> is het andere woord voor klanknabootsing."
+    },
+    {
+     "soort": "tekst",
+     "html": "In <em>de zon lachte boven het dorp</em> wijs je twee dingen tegelijk aan: <strong>personificatie</strong> en, ruimer, <strong>beeldspraak</strong>. Een reclame die een auto <em>een roofdier op vier wielen</em> noemt, gebruikt een <strong>metafoor</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Beeldspraak komt niet enkel in poëzie voor</strong>, en <strong>een metafoor kan ook in gewone spreektaal</strong> opduiken: <em>de poot van de tafel</em> merkt niemand nog op. Een schrijver gebruikt beeldspraak omdat <strong>een beeld iets abstracts voelbaar maakt</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Vergroten en verkleinen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>hyperbool</strong> is een <strong>overdrijving</strong>: <em>ik sterf van de honger</em>. Het omgekeerde bestaat ook. Een <strong>litotes</strong> zegt iets door de ontkenning van het tegendeel: <em>dat is niet slecht</em> voor <em>dat is uitstekend</em>, of <em>hij is niet van gisteren</em> voor <em>hij is slim</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>understatement</strong> <strong>verkleint</strong> bewust wat eigenlijk groot is; het vergroot dus niets uit. Een <strong>eufemisme</strong> verzacht iets onaangenaams. <strong>Litotes, understatement en eufemisme</strong> verzwakken samen wat er bedoeld wordt."
+    }
+   ]
+  },
+  {
+   "kop": "Zinsbouw en herhaling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stijlfiguur</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Anafoor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hetzelfde woord aan het begin van opeenvolgende zinnen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Parallellisme</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee zinnen volgen hetzelfde bouwpatroon</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Chiasme</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de volgorde van de zinsdelen wordt gespiegeld</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Antithese</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee tegengestelde zaken naast elkaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ellips</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het weglaten van een woord dat de lezer zelf aanvult</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Retorische vraag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vraag zonder dat er een antwoord verwacht wordt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Paradox</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een uitspraak die zichzelf lijkt tegen te spreken maar toch een waarheid bevat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Woordspeling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spel met de dubbele betekenis of de klank van een woord</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een toespraak die drie zinnen na elkaar met <em>wij geloven dat</em> begint, gebruikt een <strong>anafoor</strong>. Een krantenkop als <em>veel lawaai, weinig muziek</em> is een <strong>antithese</strong>. Een spreker zet een <strong>retorische vraag</strong> in omdat <strong>de luisteraar dan zelf het antwoord invult</strong> en zich zo bij de redenering betrokken voelt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>cliché</strong> is een beeld dat door veelvuldig gebruik zijn kracht verloren heeft. Het effect ervan in een tekst: <strong>de zin leest vlot maar raakt niemand</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Stijlfiguren komen niet enkel in literaire teksten voor.</strong> Reclame, politieke toespraken en krantenkoppen zitten er vol mee; vaak werken ze daar zelfs het hardst."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

@@ -1,0 +1,105 @@
+{
+ "vak": "Nederlands",
+ "titel": "Bronnen beoordelen: betrouwbaarheid, nepnieuws en framing",
+ "onder": "De dertien criteria, en hoe nepnieuws, propaganda, framing en de filterbubbel werken.",
+ "secties": [
+  {
+   "kop": "De dertien criteria",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een bron beoordeel je niet op gevoel. Je loopt een vaste reeks <strong>beoordelingscriteria</strong> af. Ze gaan over de zender, over de inhoud en over jouw kant van de zaak. <strong>Geen enkel criterium beslist op zichzelf</strong>: je <strong>weegt ze samen af</strong>, en <strong>ze gelden ook voor beeld en geluid</strong>, niet enkel voor tekst."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vraag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar het over gaat</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wordt de auteur vermeld?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een naam maakt iemand aanspreekbaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wie publiceert het?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een redactie, een bedrijf, een partij, een privépersoon</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wat is de bedoeling van de zender?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">informeren, verkopen, overtuigen, werven</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Heeft de zender belang bij het antwoord?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie wint erbij als jij dit gelooft?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wanneer is het gepubliceerd?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">is het nog actueel voor dit onderwerp?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Is de informatie correct?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kloppen de feiten die erin staan?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Welke bronnen gebruikt de tekst zelf?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waarop steunen de beweringen?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Is het elders terug te vinden?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bevestigen onafhankelijke bronnen het?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Feiten of meningen?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een tekst vol meningen levert weinig feitelijke informatie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Is de tekst volledig?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ontbreekt er een kant van het verhaal?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Hoe is de toon?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">neutraal, lokkend, oordelend, dreigend</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Welk kanaal?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een redactie kijkt na, een sociaal netwerk niet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Is het relevant voor mijn doel?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dit criterium gaat over jou, niet over de tekst</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Let op de richting van elk criterium. Dat een artikel <strong>geen auteur vermeldt</strong>, is een <strong>reden tot wantrouwen, geen bewijs</strong> van onwaarheid. Dat een site er <strong>professioneel uitziet</strong>, bewijst <strong>niets</strong>; een vormgeving is zo gekocht. Ook een artikel op de site van een universiteit is <strong>niet automatisch betrouwbaar</strong>: kijk wie het schreef en waarvoor."
+    }
+   ]
+  },
+  {
+   "kop": "Actualiteit en bevestiging",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Informatie die ouder is dan een paar jaar, is daarom niet onbruikbaar.</strong> Voor een historisch onderwerp is een oude tekst vaak juist waardevol. Voor <strong>regels die veranderen</strong>, zoals de voorwaarden van een studiebeurs, ga je wél na of er sindsdien iets gewijzigd is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat dezelfde informatie in verschillende <strong>betrouwbare</strong> bronnen opduikt, <strong>versterkt haar geloofwaardigheid</strong>. Maar let op: vind je op vijf sites <strong>exact dezelfde zinnen</strong>, dan heb je waarschijnlijk <strong>vijf keer dezelfde bron</strong> gevonden en geen vijf bevestigingen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Kan je de betrouwbaarheid van een bron niet inschatten, dan zoek je een <strong>tweede bron</strong> over hetzelfde onderwerp. Bij een anoniem bericht dat bijvoorbeeld beweert dat een bekende winkelketen sluit, is je eerste stap <strong>kijken of een nieuwsredactie het ook bericht</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Nepnieuws, propaganda en reclame",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Nepnieuws</strong> is een bericht dat eruitziet als nieuws maar <strong>bewust onwaar</strong> is. Signalen die samen sterk in die richting wijzen: <strong>er wordt geen auteur vermeld</strong>, <strong>het bericht circuleert enkel op sociale media</strong>, en <strong>de titel is sterk lokkend opgesteld</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Propaganda</strong> wil een <strong>politieke of ideologische overtuiging</strong> opdringen en <strong>je denken sturen</strong>. <strong>Reclame</strong> wil <strong>je koopgedrag</strong> sturen: ze is er enkel om je iets te doen kopen. Een <strong>publireportage</strong> ziet eruit als een artikel maar is betaald, en <strong>moet herkenbaar zijn als betaalde inhoud</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een tekst van een <strong>belanghebbende zender</strong>, bijvoorbeeld een minister die op de site van zijn partij over het beleid schrijft, lees je als <strong>partijcommunicatie</strong>. Dat betekent <strong>niet</strong> dat zo'n tekst <strong>per definitie onjuistheden bevat</strong>; het betekent dat je de selectie en de toon met een korrel zout neemt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>anonieme account</strong> die een bericht verspreidt dat je naar een onbekende site met veel advertenties lokt, heeft meestal maar één doel: <strong>bezoekers naar die site halen</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Framing",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Framing</strong> is een onderwerp zo voorstellen dat je het op een bepaalde manier ziet. Het gebeurt met <strong>woordkeuze</strong>, met <strong>wat je weglaat</strong> en met <strong>beeld</strong>. Voorbeelden: spreken over een <em>belastingverlaging</em> of over een <em>besparing</em>, over <em>klimaatverandering</em> of over <em>klimaatontwrichting</em>, over een <em>vluchteling</em> of over een <em>gelukzoeker</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ook hetzelfde cijfer kan in twee frames: <em>een stijging van 3 procent</em> en <em>de derde stijging op rij</em> zijn allebei waar, maar roepen iets anders op. Daarom kan <strong>een tekst die vol feiten staat, toch een vertekend beeld geven</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>lokkende</strong> of <strong>sensationele titel</strong> is zo opgesteld dat je wel móet doorklikken. Het probleem: <strong>de titel dient het aantal clicks, niet de inhoud</strong>. Dat betekent niet dat de titel <strong>altijd een regelrechte onwaarheid</strong> bevat."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Multimediale elementen</strong> kunnen de boodschap niet enkel versterken maar ook <strong>veranderen</strong>: <strong>een grafiek met een afgesneden as</strong> (begint de zij-as bij 95 in plaats van bij 0, dan lijkt een klein verschil enorm), <strong>een foto die een extreem geval toont</strong>, en <strong>muziek die een dreigende sfeer schept</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Echokamer, filterbubbel en polarisatie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>echokamer</strong> is een omgeving waarin je vooral <strong>je eigen mening terughoort</strong>. Een <strong>filterbubbel</strong> is het verschijnsel dat een <strong>algoritme</strong> je vooral toont wat bij je past, waardoor je de rest niet meer ziet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daar komt een menselijke neiging bij: <strong>een bericht dat jouw mening bevestigt, kijk je minder streng na dan een bericht dat haar tegenspreekt</strong>. Wie dat van zichzelf weet, leest scherper."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Anonimiteit</strong> op sociale media voedt de <strong>polarisatie</strong>: <strong>wie niet herkend wordt, schrijft harder</strong> dan hij tegenover iemand zou spreken."
+    },
+    {
+     "soort": "kader",
+     "html": "Bij het beoordelen van een <strong>luistertekst</strong> gelden <strong>dezelfde criteria</strong> als bij een leestekst. Zender, doel, kanaal en volledigheid veranderen niet omdat de boodschap klinkt in plaats van staat."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

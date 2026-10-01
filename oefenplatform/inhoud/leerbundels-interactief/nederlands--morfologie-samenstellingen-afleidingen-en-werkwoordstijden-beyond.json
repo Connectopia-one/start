@@ -1,0 +1,84 @@
+{
+ "vak": "Nederlands",
+ "titel": "Morfologie: samenstellingen, afleidingen en werkwoordstijden",
+ "onder": "Hoe woorden gebouwd zijn, en hoe werkwoorden door de tijden gaan.",
+ "secties": [
+  {
+   "kop": "Samenstelling en afleiding",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>samenstelling</strong> is een woord dat uit <strong>twee of meer woorden</strong> bestaat: <em>boekenkast</em>, <em>pannenkoek</em>. <strong>In een samenstelling kunnen ook drie woorden samengaan</strong>: <em>fietsenstallingbeheer</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>afleiding</strong> ontstaat door een voor- of achtervoegsel bij een woord te zetten: <em>vriendelijk</em>, <em>onmogelijk</em>, <em>werker</em>. Het verschil met een samenstelling: <strong>een samenstelling bestaat uit zelfstandige woorden</strong>, een afleiding niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>voorvoegsel</strong> wordt vooraan geplakt (<em>on-</em>, <em>ver-</em>); een <strong>achtervoegsel</strong> achteraan (<em>-heid</em>, <em>-baar</em>). Het voorvoegsel <strong>on-</strong> in <em>onvriendelijk</em> <strong>keert de betekenis om</strong>. Het achtervoegsel <strong>-heid</strong> maakt van een bijvoeglijk naamwoord een <strong>zelfstandig naamwoord</strong>; <strong>-baar</strong>, zoals in <em>leesbaar</em>, levert een <strong>bijvoeglijk naamwoord</strong> op. Het woord <em>onvriendelijkheid</em> bevat <strong>zowel een voorvoegsel als een achtervoegsel</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>tussenklank</strong> verbindt twee delen van een samenstelling. In <em>boekenkast</em> is dat <strong>de en tussen boek en kast</strong>. Ook <em>pannenkoek</em>, <em>zonnebloem</em> en <em>koninginnendag</em> bevatten een <strong>tussenletter</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "De bouw van een woord herkennen loont: <strong>je kan de betekenis vaak zelf afleiden</strong>. Zie je <em>onbereikbaarheid</em> voor het eerst, dan <strong>ontleed je het in zijn delen</strong>: on + bereik + baar + heid."
+    }
+   ]
+  },
+  {
+   "kop": "Meervoud en verkleinwoord",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Niet elk Nederlands meervoud wordt met -en of -s gevormd.</strong> Het meervoud van <em>kind</em> is <strong>kinderen</strong>, met een extra -er-. Ook <em>ei</em> en <em>blad</em> horen bij die groep."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Verkleinwoorden</strong>: <em>huisje</em>, <em>bloempje</em>, <em>koninkje</em>. Het verkleinwoord van <em>koning</em> is dus <strong>koninkje</strong>. <strong>Een verkleinwoord houdt het lidwoord van het grondwoord niet</strong>: het is altijd <em>het</em>, ook bij <em>de stoel</em> en <em>het stoeltje</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Werkwoordstijden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Tijd</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Onvoltooid tegenwoordige tijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hij werkt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Onvoltooid verleden tijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hij liep, zij werkte, wij dachten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Voltooid tegenwoordige tijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hij heeft gewerkt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Voltooid verleden tijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hij had gewerkt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Onvoltooid toekomende tijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hij zal morgen komen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Voltooid toekomende tijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hij zal gewerkt hebben</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>onvoltooid tegenwoordige tijd</strong> gebruik je om iets te vertellen wat nu bezig is. Goede schrijvers variëren met de tijden omdat <strong>de tijd stuurt hoe de lezer de gebeurtenis plaatst</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>imperatief</strong> of <strong>gebiedende wijs</strong> is de bevelvorm: <em>loop!</em>, <em>werk!</em>"
+    }
+   ]
+  },
+  {
+   "kop": "Stam, uitgang en vervoeging",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>uitgang</strong> is <strong>het deel dat na de stam komt bij het vervoegen</strong>. Het onderscheid tussen stam en uitgang is belangrijk omdat <strong>de spelling van werkwoorden ervan afhangt</strong>. De stam van <em>antwoorden</em> is <strong>antwoord</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Vervoeging</strong> slaat op <strong>werkwoorden</strong> en <strong>verbuiging</strong> op <strong>naamwoorden</strong>, niet omgekeerd. Een <strong>bijvoeglijk naamwoord krijgt soms een extra e</strong>: <em>een snelle trein</em> naast <em>een snel antwoord</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>sterk werkwoord</strong> is een werkwoord dat <strong>in de verleden tijd van klinker verandert</strong>: <em>lopen – liep</em>. Bij een <strong>zwak werkwoord</strong> weet je of het <strong>-te</strong> of <strong>-de</strong> krijgt door <strong>naar de laatste klank van de stam</strong> te kijken."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Voltooide deelwoorden</strong>: <em>gewerkt</em>, <em>gelopen</em>, <em>verwacht</em>. <strong>Het werkwoord <em>zijn</em> wordt niet volgens de gewone regels vervoegd</strong>: het is onregelmatig. Een <strong>scheidbaar werkwoord</strong> <strong>valt in sommige zinnen uiteen in twee delen</strong>: <em>opbellen</em> wordt <em>ik bel je op</em>."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

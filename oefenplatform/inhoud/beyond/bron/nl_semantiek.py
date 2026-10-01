@@ -1,0 +1,398 @@
+# -*- coding: utf-8 -*-
+"""Semantiek: betekenisrelaties, gevoelswaarde en herkomst — 🌍 Beyond.
+
+Naast de twee vakfiches geschreven. Deel 1: de betekenisrelaties, met
+synoniem, antoniem, homoniem, hyponiem en hyperoniem, en de fouten
+pleonasme, tautologie en contaminatie. Deel 2: de gevoelswaarde van woorden
+en hun herkomst.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat zijn synoniemen?",
+        opties=[
+            "woorden met ongeveer dezelfde betekenis",
+            "woorden met een tegengestelde betekenis",
+            "woorden die hetzelfde klinken maar iets anders betekenen",
+            "woorden die onder een algemener woord vallen",
+        ],
+        antwoord=0,
+        uitleg="Fiets en rijwiel zijn synoniemen. Volledig gelijk zijn ze zelden: er zit meestal een verschil in toon of gebruik.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke woordparen zijn antoniemen?",
+        opties=[
+            "warm en koud",
+            "groot en klein",
+            "vroeg en laat",
+            "fiets en rijwiel",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Fiets en rijwiel zijn synoniemen. De drie andere paren zijn elkaars tegengestelde.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je twee woorden met een tegengestelde betekenis? Antwoord met één woord.",
+        antwoord=["antoniemen", "antoniem"],
+        uitleg="Anti betekent tegen: antoniemen staan tegenover elkaar.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Het woord 'bank' is een homoniem.",
+        antwoord=True,
+        uitleg="Je kan erop zitten en je kan er geld halen. Dezelfde vorm, twee onverwante betekenissen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het verschil tussen een hyperoniem en een hyponiem?",
+        opties=[
+            "een hyperoniem is het ruimere, een hyponiem het engere",
+            "een hyperoniem is doorgaans langer dan een hyponiem",
+            "een hyperoniem komt enkel in de vaktaal voor",
+            "er bestaat geen verschil tussen die twee",
+        ],
+        antwoord=0,
+        uitleg="Bloem is het hyperoniem, roos en tulp zijn hyponiemen ervan.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke woorden zijn hyponiemen van 'meubel'?",
+        opties=[
+            "stoel",
+            "tafel",
+            "kast",
+            "huisraad",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Huisraad is net ruimer dan meubel. De drie andere vallen eronder.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="'Hij heeft zijn handen vol' is een figuurlijke uitdrukking.",
+        antwoord=True,
+        uitleg="Letterlijk gaat het over handen; figuurlijk betekent het dat hij het druk heeft.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een pleonasme?",
+        opties=[
+            "een overbodige toevoeging die al in het woord zit",
+            "twee synoniemen die naast elkaar gebruikt worden",
+            "twee uitdrukkingen die door elkaar lopen",
+            "een woord dat zijn eigen klank nabootst",
+        ],
+        antwoord=0,
+        uitleg="Een witte schimmel: een schimmel is al wit. De toevoeging voegt niets toe.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een tautologie?",
+        opties=[
+            "hetzelfde twee keer zeggen met andere woorden",
+            "een eigenschap toevoegen die er al in zit",
+            "twee uitdrukkingen die door elkaar lopen",
+            "een woord uit een vreemde taal overnemen",
+        ],
+        antwoord=0,
+        uitleg="Nooit en te nimmer, altijd en eeuwig: twee woorden die precies hetzelfde zeggen.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="'Duur kosten' in plaats van 'duur zijn' of 'veel kosten'. Welke taalfout is dat? Antwoord met één woord.",
+        antwoord=["contaminatie"],
+        uitleg="Twee correcte uitdrukkingen lopen door elkaar en leveren samen een foute vorm op.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een pleonasme is altijd een fout.",
+        antwoord=False,
+        uitleg="In de literatuur of de reclame kan een pleonasme bewust gebruikt worden om nadruk te leggen, zoals in 'de witte sneeuw'.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke uitdrukkingen zijn contaminaties?",
+        opties=[
+            "optelefoneren",
+            "uitprinten",
+            "duur kosten",
+            "opbellen",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Opbellen is gewoon correct. De drie andere zijn kruisingen van twee uitdrukkingen die elk apart wel kloppen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een synoniem kan je altijd zomaar in de plaats van een ander woord zetten.",
+        antwoord=False,
+        uitleg="Overlijden, sterven en creperen betekenen hetzelfde, maar je gebruikt ze in heel andere situaties.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="In 'de poot van de tafel' is 'poot' gebruikt:",
+        opties=[
+            "figuurlijk",
+            "letterlijk",
+            "als antoniem",
+            "als homoniem",
+        ],
+        antwoord=0,
+        uitleg="Een tafel heeft geen poten zoals een dier. Het beeld is zo ingeburgerd dat niemand er nog bij stilstaat.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het hyperoniem van hond, kat en konijn?",
+        opties=[
+            "dier",
+            "huisdier",
+            "zoogdier",
+            "poes",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Poes is juist een hyponiem van kat. De drie andere zijn ruimere begrippen waar alle drie onder vallen.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je twee woorden die dezelfde vorm hebben maar iets heel anders betekenen? Antwoord met één woord.",
+        antwoord=["homoniemen", "homoniem"],
+        uitleg="Bank, bal en slot zijn bekende voorbeelden.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een hyponiem van 'fruit' is 'appel'.",
+        antwoord=True,
+        uitleg="Appel valt onder fruit, dus fruit is het hyperoniem en appel het hyponiem.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom is het nuttig om betekenisrelaties te kennen bij het schrijven?",
+        opties=[
+            "je kan daardoor variëren zonder onduidelijk te worden",
+            "je schrijft daardoor automatisch kortere zinnen",
+            "je hoeft daardoor geen structuur meer aan te brengen",
+            "je maakt daardoor minder fouten tegen de werkwoorden",
+        ],
+        antwoord=0,
+        uitleg="Wie synoniemen en hyperoniemen kent, herhaalt zich minder en blijft toch precies.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="'Ik ga me omkleden' tegenover 'Ik ga me verkleden': waar zit het verschil?",
+        opties=[
+            "in de betekenis van het voorvoegsel",
+            "in de woordsoort van het werkwoord",
+            "in de tijd waarin het werkwoord staat",
+            "er is helemaal geen verschil",
+        ],
+        antwoord=0,
+        uitleg="Omkleden is andere kleren aantrekken, verkleden is een kostuum aandoen. Eén voorvoegsel maakt het verschil.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je leest 'de voorzitter nam de benen'. Hoe lees je dat?",
+        opties=[
+            "figuurlijk: hij ging er snel vandoor",
+            "letterlijk: hij pakte iemands benen vast",
+            "als een contaminatie van twee uitdrukkingen",
+            "als een pleonasme met een overbodig woord",
+        ],
+        antwoord=0,
+        uitleg="Het is een vaste uitdrukking. Wie haar letterlijk leest, krijgt een onzinnig beeld.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het verschil tussen denotatie en connotatie?",
+        opties=[
+            "denotatie is de kale betekenis, connotatie de bijklank",
+            "denotatie is de uitspraak, connotatie de spelling",
+            "denotatie is de oude betekenis, connotatie de nieuwe",
+            "er bestaat geen verschil tussen die twee",
+        ],
+        antwoord=0,
+        uitleg="Woning en krot verwijzen allebei naar een huis, maar ze roepen een heel ander gevoel op.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke woorden hebben een negatieve connotatie?",
+        opties=[
+            "krot",
+            "bende",
+            "geklungel",
+            "woning",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Woning is neutraal. De drie andere dragen een afkeurende bijklank mee.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je een verzachtend woord voor iets onaangenaams, zoals 'heengaan' voor sterven? Antwoord met één woord.",
+        antwoord=["eufemisme"],
+        uitleg="Een eufemisme maakt de harde werkelijkheid draaglijker in woorden.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een dysfemisme maakt iets ruwer of harder dan nodig.",
+        antwoord=True,
+        uitleg="Creperen in plaats van sterven, of een hok in plaats van een kamer. Het is het tegendeel van een eufemisme.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een bedrijf spreekt over 'herstructurering' in plaats van ontslagen. Welke stijlkeuze is dat?",
+        opties=[
+            "een eufemisme",
+            "een dysfemisme",
+            "een pleonasme",
+            "een homoniem",
+        ],
+        antwoord=0,
+        uitleg="Het harde woord wordt vervangen door een vager en zachter woord. Dat is wat een eufemisme doet.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een leenwoord?",
+        opties=[
+            "een woord dat uit een andere taal is overgenomen",
+            "een woord dat je maar tijdelijk mag gebruiken",
+            "een woord dat in geen enkel woordenboek staat",
+            "een woord dat zijn eigen klank nabootst",
+        ],
+        antwoord=0,
+        uitleg="Computer, paraplu en sowieso zijn leenwoorden. Veel ervan zijn zo ingeburgerd dat niemand er nog aan denkt.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een anglicisme is een woord of een wending die uit het Engels is overgenomen.",
+        antwoord=True,
+        uitleg="Een gallicisme komt uit het Frans en een germanisme uit het Duits.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een belgicisme?",
+        opties=[
+            "een woord of wending die alleen in België gebruikt wordt",
+            "een woord dat uit het Duits is overgenomen",
+            "een woord dat ouderwets geworden is",
+            "een woord of wending die alleen in Nederland bestaat",
+        ],
+        antwoord=0,
+        uitleg="Droogkuis, confituur en schepen zijn in België gangbaar en in Nederland niet.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke woorden zijn neologismen van de laatste decennia?",
+        opties=[
+            "appen",
+            "googelen",
+            "streamen",
+            "schrijven",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Schrijven is eeuwenoud. De drie andere ontstonden met de technologie waarnaar ze verwijzen.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je een nieuw gevormd woord? Antwoord met één woord.",
+        antwoord=["neologisme"],
+        uitleg="Neo betekent nieuw, logos betekent woord.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een archaïsme is een woord dat pas is ontstaan.",
+        antwoord=False,
+        uitleg="Een archaïsme is net een verouderd woord dat nauwelijks nog gebruikt wordt, zoals 'gij' of 'immer'.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een purisme?",
+        opties=[
+            "een zelf gevormd woord dat een leenwoord moet vervangen",
+            "een woord dat uit een dialect in de standaardtaal komt",
+            "een woord dat uit het Latijn is overgenomen",
+            "een woord dat in twee betekenissen gebruikt wordt",
+        ],
+        antwoord=0,
+        uitleg="Zo werd voor computer ooit rekentuig voorgesteld. Purismen slaan lang niet altijd aan.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke begrippen gaan over de herkomst van woorden?",
+        opties=[
+            "het leenwoord",
+            "het bastaardwoord",
+            "het dialectisme",
+            "het hyperoniem",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Een hyperoniem gaat over betekenis, niet over afkomst. De drie andere zeggen waar een woord vandaan komt.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een bastaardwoord is een woord dat van oudsher in het Nederlands bestaat.",
+        antwoord=False,
+        uitleg="Dat is net een inheems woord. Een bastaardwoord is een leenwoord dat zich gedeeltelijk aan onze spelling heeft aangepast.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom kiest een journalist bewust tussen 'betoger' en 'relschopper'?",
+        opties=[
+            "de connotatie stuurt het oordeel van de lezer",
+            "de twee woorden betekenen precies hetzelfde",
+            "het ene woord is korter dan het andere",
+            "het ene woord is ouder dan het andere",
+        ],
+        antwoord=0,
+        uitleg="Allebei kunnen ze naar dezelfde persoon verwijzen, maar het beeld dat ze oproepen is tegengesteld.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke woorden zijn eufemismen?",
+        opties=[
+            "heengaan",
+            "senioren",
+            "sociale woning",
+            "creperen",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Creperen is net een dysfemisme. De drie andere verzachten.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je een verouderd woord dat nauwelijks nog gebruikt wordt? Antwoord met één woord.",
+        antwoord=["archaïsme"],
+        uitleg="Archaïsmen duiken nog op in oudere teksten of in een plechtige stijl.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een woord met een neutrale denotatie kan toch een negatieve connotatie krijgen.",
+        antwoord=True,
+        uitleg="Dat gebeurt doordat een woord vaak in een bepaalde context opduikt. Na een tijd kleeft die bijklank eraan vast.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een tekst spreekt consequent over 'het probleem' in plaats van over 'de uitdaging'. Wat doet die keuze?",
+        opties=[
+            "ze kleurt hoe de lezer de zaak inschat",
+            "ze maakt de tekst korter en helderder",
+            "ze verandert de feiten in de tekst",
+            "ze verbetert de spelling van de tekst",
+        ],
+        antwoord=0,
+        uitleg="Hetzelfde gegeven, een andere bijklank. Juist daarom is woordkeuze nooit onschuldig.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je schrijft een zakelijke tekst en twijfelt tussen twee synoniemen. Waar let je op?",
+        opties=[
+            "op de gevoelswaarde en op het register",
+            "op welk woord het langst is",
+            "op welk woord het vaakst voorkomt",
+            "op welk woord het oudst is",
+        ],
+        antwoord=0,
+        uitleg="Twee woorden kunnen hetzelfde betekenen en toch niet allebei passen bij de toon van je tekst.",
+    ),
+]

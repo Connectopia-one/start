@@ -1,0 +1,81 @@
+{
+ "vak": "Nederlands",
+ "titel": "Semantiek: betekenisrelaties, gevoelswaarde en herkomst",
+ "onder": "Hoe woorden zich tot elkaar verhouden, welke bijklank ze dragen en waar ze vandaan komen.",
+ "secties": [
+  {
+   "kop": "Betekenisrelaties",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Begrip</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Synoniemen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">woorden met ongeveer dezelfde betekenis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beginnen en starten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Antoniemen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">woorden met een tegengestelde betekenis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">warm en koud, groot en klein, vroeg en laat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Homoniemen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dezelfde vorm, een heel andere betekenis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bank om op te zitten of om geld te halen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Hyperoniem</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het ruimere woord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meubel, dier</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Hyponiem</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het engere woord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stoel, tafel, kast; appel onder fruit</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het hyperoniem van <em>hond</em>, <em>kat</em> en <em>konijn</em> kan <strong>dier</strong>, <strong>huisdier</strong> of <strong>zoogdier</strong> zijn: een woord kan tegelijk hyperoniem van het ene en hyponiem van het andere zijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een synoniem kan je niet altijd zomaar in de plaats van een ander woord zetten.</strong> Twee synoniemen verschillen vaak in register of in gevoelswaarde. Betekenisrelaties kennen is nuttig bij het schrijven omdat <strong>je daardoor kan variëren zonder onduidelijk te worden</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Letterlijk en figuurlijk",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In <em>de poot van de tafel</em> is <em>poot</em> <strong>figuurlijk</strong> gebruikt. <em>Hij heeft zijn handen vol</em> is een <strong>figuurlijke uitdrukking</strong>, en <em>de voorzitter nam de benen</em> lees je <strong>figuurlijk: hij ging er snel vandoor</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Soms zit het verschil in een voorvoegsel: <em>ik ga me omkleden</em> tegenover <em>ik ga me verkleden</em> verschilt <strong>in de betekenis van het voorvoegsel</strong>, niet in het grondwoord."
+    }
+   ]
+  },
+  {
+   "kop": "Taalfouten rond betekenis",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>pleonasme</strong> is <strong>een overbodige toevoeging die al in het woord zit</strong>: <em>een witte schimmel</em>. Een <strong>tautologie</strong> zegt <strong>hetzelfde twee keer met andere woorden</strong>: <em>nooit ofte nimmer</em>. <strong>Een pleonasme is niet altijd een fout</strong>; als nadruk kan het bewust ingezet worden."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>contaminatie</strong> is het versmelten van twee uitdrukkingen tot één foute: <strong>optelefoneren</strong>, <strong>uitprinten</strong>, <strong>duur kosten</strong> (uit <em>duur zijn</em> en <em>veel kosten</em>)."
+    }
+   ]
+  },
+  {
+   "kop": "Gevoelswaarde",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>denotatie</strong> is de <strong>kale betekenis</strong> van een woord; de <strong>connotatie</strong> is <strong>de bijklank</strong>. <strong>Een woord met een neutrale denotatie kan toch een negatieve connotatie krijgen.</strong> Negatief klinken bijvoorbeeld <em>krot</em>, <em>bende</em> en <em>geklungel</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>eufemisme</strong> is een verzachtend woord voor iets onaangenaams: <em>heengaan</em> voor sterven, <em>senioren</em>, <em>sociale woning</em>, of <em>herstructurering</em> in plaats van ontslagen. Een <strong>dysfemisme</strong> doet het omgekeerde: het <strong>maakt iets ruwer of harder dan nodig</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom kiest een journalist bewust tussen <em>betoger</em> en <em>relschopper</em>: <strong>de connotatie stuurt het oordeel van de lezer</strong>. Een tekst die consequent over <em>het probleem</em> spreekt in plaats van over <em>de uitdaging</em>, <strong>kleurt hoe de lezer de zaak inschat</strong>. Twijfel je in een zakelijke tekst tussen twee synoniemen, let dan <strong>op de gevoelswaarde en op het register</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Herkomst van woorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Begrip</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Leenwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een woord dat uit een andere taal is overgenomen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Bastaardwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een leenwoord dat aan het Nederlands is aangepast</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Anglicisme</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een woord of wending overgenomen uit het Engels</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Belgicisme</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een woord of wending die alleen in België gebruikt wordt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Dialectisme</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een woord uit een dialect in de standaardtaal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Purisme</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een zelf gevormd woord dat een leenwoord moet vervangen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Neologisme</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een nieuw gevormd woord: appen, googelen, streamen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Archaïsme</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een verouderd woord dat nauwelijks nog gebruikt wordt</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een bastaardwoord is dus geen woord dat van oudsher in het Nederlands bestaat</strong>, maar een ingeburgerd leenwoord. En <strong>een archaïsme is geen woord dat pas ontstaan is</strong>: dat is juist een neologisme."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

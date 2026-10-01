@@ -1,0 +1,92 @@
+{
+ "vak": "Nederlands",
+ "titel": "Tekstsoorten en teksttypes",
+ "onder": "De zeven tekstsoorten, hun doel, en hoe je ze aan een tekst of een luistertekst herkent.",
+ "secties": [
+  {
+   "kop": "Het doel bepaalt de soort",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een tekst wordt ingedeeld naar zijn <strong>doel</strong>: wat wil de maker bij jou bereiken? <strong>De soort hangt dus af van het doel van de zender</strong>, niet van het onderwerp. Over hetzelfde onderwerp kan je informeren, overtuigen, voorschrijven of vertellen. <strong>De voorbeelden kunnen zowel geschreven als gesproken zijn</strong>: op het examen kan je een interview, een gedicht of een reclameboodschap <strong>zowel lezen als beluisteren</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Tekstsoort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Doel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Informatief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je iets laten weten over een onderwerp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een krantenartikel, een interview, een reportage</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Persuasief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je overtuigen of beïnvloeden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een reclamefilmpje, een folder van een politieke partij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Argumentatief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">argumenten dragen er een standpunt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een betoog, een pleidooi, een debat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Opiniërend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een mening geven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een column, een recensie, een productreview</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Prescriptief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">instructies geven over hoe je iets doet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een handleiding, een recept uit een kookboek, een schoolreglement</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Narratief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een verhaal vertellen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een verslag, een reisverslag, een anekdote</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Literair</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">raken door de esthetische waarde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een roman, een gedicht, een strip</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Let op het verschil tussen <strong>persuasief</strong> en <strong>argumentatief</strong>. Allebei willen ze je overtuigen, maar een persuasieve tekst werkt met gevoel, beeld en herhaling, en een argumentatieve met <strong>argumenten die een standpunt dragen</strong>. Een <strong>pleidooi</strong>, een <strong>betoog</strong> en een <strong>debat</strong> zijn alle drie argumentatief."
+    }
+   ]
+  },
+  {
+   "kop": "De soorten één voor één",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>informatieve</strong> tekst wil je <strong>iets laten weten over een onderwerp</strong>. Een <strong>interview</strong> is doorgaans informatief. Let op: <strong>een tekst met feiten erin is daarom nog geen informatieve tekst</strong>; ook een reclamefilmpje en een betoog staan vol feiten."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>prescriptieve</strong> tekst geeft <strong>instructies</strong>. Een <strong>recept in een kookboek</strong>, een <strong>instructiefilmpje op YouTube over hoe je een fietsband plakt</strong>, een <strong>handleiding bij je telefoon</strong> en een <strong>schoolreglement</strong> horen er allemaal bij: <strong>ze zeggen allebei wat je moet doen</strong>. Een <strong>folder van de gemeente</strong> die uitlegt hoe je je <strong>afval sorteert</strong>, met een <strong>schema per fractie</strong>, is ook prescriptief."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Narratieve</strong> teksten zijn teksten waarin een verhaal verteld wordt: een <strong>reisverslag</strong>, een anekdote, een <strong>true crime podcast</strong>. Een <strong>reisverslag en een handleiding horen dus niet bij dezelfde tekstsoort</strong>, en een <strong>stukje uit een leerboek is geen narratieve tekst</strong> maar een informatieve."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Opiniërende</strong> teksten geven een mening: een column, een recensie, een <strong>hotelbeoordeling op een online platform</strong>, een <strong>productreview</strong>, een <strong>protestlied</strong>, of een <strong>reactie op een discussieforum</strong> waarin iemand zegt wat hij ervan <strong>vindt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Persuasieve</strong> teksten <strong>proberen je te overtuigen of te beïnvloeden</strong>: een <strong>folder van een politieke partij</strong>, een reclamefilmpje, en ook een <strong>publireportage</strong> die <strong>eruitziet als een artikel maar betaald</strong> is door een merk. <strong>Propaganda en nepnieuws staan bij dezelfde tekstsoort als een reclamefilmpje</strong>: ook zij willen je denken sturen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>literaire</strong> tekst <strong>kenmerkt</strong> zich door de <strong>esthetische waarde, die vaak inspeelt op emoties</strong>. Een <strong>gedicht over de dood van een grootvader</strong> dat je <strong>raakt</strong>, is literair. Ook <strong>een strip kan een literaire tekst zijn</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Meer dan één doel tegelijk",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Eén tekst kan meer dan één doel tegelijk hebben.</strong> Een <strong>recensie kan tegelijk informatief en opiniërend</strong> zijn. Een <strong>opiniestuk</strong> dat betoogt dat de <strong>schooluren later moeten beginnen</strong>, met cijfers uit <strong>slaaponderzoek</strong>, is <strong>argumentatief, opiniërend én informatief</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>stand-upcomedian</strong> die vijf <strong>minuten</strong> over zijn jeugd vertelt met veel <strong>woordspelingen</strong>, brengt iets dat tegelijk <strong>literair</strong> en <strong>narratief</strong> is. Een <strong>essay van een filosoof over vriendschap</strong> is <strong>argumentatief, literair én opiniërend</strong>: je wijst <strong>daarin</strong> meerdere soorten aan. Lees je een <strong>column</strong> die grappig <strong>begint</strong>, een <strong>standpunt inneemt</strong> en <strong>eindigt</strong> met een oproep, dan <strong>noem je de doelen die je erin terugvindt</strong> in plaats van één etiket te kiezen."
+    }
+   ]
+  },
+  {
+   "kop": "De tekstsoort gebruiken bij het lezen en luisteren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De tekstsoort <strong>bepalen</strong> bij het <strong>lezen</strong> is <strong>nuttig</strong>, want <strong>je weet dan wat de schrijver van je wil</strong>. De vraag die een persuasieve tekst het best verraadt: <strong>wat wil de zender dat ik doe of denk?</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een luistertekst gebruik je dezelfde vragen over zender, doel en publiek als bij een leestekst.</strong> Bekijk je een <strong>reportage over de haven van Antwerpen</strong> voor een <strong>spreekbeurt</strong>, dan is je eerste vraag <strong>wie de reportage maakte en waarom</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Pas op met wie er <strong>spreekt</strong>: laat een <strong>fabrikant van sportdrank</strong> een <strong>dokter</strong> in een filmpje <strong>uitleggen</strong> waarom je moet <strong>bijtanken</strong>, dan <strong>spreekt de dokter, maar is de fabrikant de echte zender</strong>. Publiceert een <strong>politieke partij</strong> op haar <strong>eigen</strong> site een artikel over hoe andere <strong>partijen</strong> de <strong>polarisatie aanwakkeren</strong>, dan lees je dat <strong>als propaganda, want de zender heeft er belang bij</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wat zegt de tekstsoort over de <strong>betrouwbaarheid</strong>? <strong>Op zich niets, maar ze zet je wel op je hoede.</strong> En <strong>de lees- en luisterteksten op het examen zijn niet uitsluitend in het Standaardnederlands</strong>: je kan ook tussentaal of dialect te horen krijgen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Men raadt aan om vóór het <strong>examen</strong> veel verschillende tekstsoorten te <strong>lezen</strong> en te <strong>beluisteren</strong>, want <strong>je leert de vorm en de bedoeling sneller herkennen</strong>. Die vraag <strong>helpt</strong> ook onderweg: wie de <strong>zender</strong> en zijn bedoeling kent, <strong>herkent</strong> de soort meteen."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

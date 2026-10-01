@@ -1,0 +1,398 @@
+# -*- coding: utf-8 -*-
+"""Schrijven en schriftelijke interactie — 🌍 Beyond, Nederlands.
+
+Naast de tweede vakfiche geschreven. Deel 1: de tekstdoelen en de
+beoordelingscriteria waaraan een geschreven tekst minimaal moet voldoen.
+Deel 2: de schrijfstrategieën, de bronvermelding en de schriftelijke
+interactie.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Welke tekstdoelen kan een schrijfopdracht hebben?",
+        opties=[
+            "informatie geven en vragen",
+            "iemand iets uitleggen",
+            "iemand overtuigen",
+            "een tekst zo lang mogelijk maken",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Lengte is geen doel. Naast de drie genoemde kan je ook je mening geven, iets vertellen of creatief zijn met taal.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat betekent het criterium taakvoltooiing?",
+        opties=[
+            "het tekstdoel is bereikt en de inhoud is volledig",
+            "de tekst is op tijd ingediend bij de examinator",
+            "de tekst telt het gevraagde aantal woorden",
+            "de tekst bevat geen enkele spelfout",
+        ],
+        antwoord=0,
+        uitleg="Is je boodschap overgekomen, is ze helder, correct en ter zake, en heb je genoeg uitgewerkt? Dat is taakvoltooiing.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoeveel delen telt een goed gestructureerde tekst volgens de IMS-structuur? Schrijf het cijfer.",
+        antwoord=["3"],
+        uitleg="Inleiding, midden en slot.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Spelling en leestekengebruik zijn een apart beoordelingscriterium bij schrijven.",
+        antwoord=True,
+        uitleg="Ze staan los van de inhoud. Een inhoudelijk sterke tekst vol fouten verliest punten op dat criterium.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke criteria gelden specifiek voor schrijven en schriftelijke interactie?",
+        opties=[
+            "spelling en leestekengebruik",
+            "tekstopbouw en lay-out",
+            "het gebruik van alinea's",
+            "uitspraak en intonatie",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Uitspraak en intonatie horen bij spreken. De drie andere gaan over de geschreven vorm.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat verwacht men onder het criterium grammatica en zinsbouw?",
+        opties=[
+            "correcte en gevarieerde zinnen",
+            "zo kort mogelijke zinnen",
+            "uitsluitend enkelvoudige zinnen",
+            "zinnen zonder voegwoorden",
+        ],
+        antwoord=0,
+        uitleg="Enkelvoudig en samengesteld, actief en passief: afwisseling hoort erbij, en de zinnen moeten kloppen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een tekst met een gepaste lay-out gebruikt titels en tussentitels waar dat nodig is.",
+        antwoord=True,
+        uitleg="Lay-out hoort bij de beoordeling. Een blok tekst zonder enige geleding leest moeilijk, hoe goed de inhoud ook is.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je schrijft een recensie van een film. Welk tekstdoel is dat vooral?",
+        opties=[
+            "je mening geven",
+            "iemand iets uitleggen",
+            "informatie vragen",
+            "iets vertellen",
+        ],
+        antwoord=0,
+        uitleg="Een recensie beoordeelt. Dat ze onderweg ook informeert, verandert het hoofddoel niet.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je schrijft een stappenplan voor een spel. Welk tekstdoel is dat?",
+        opties=[
+            "iemand iets uitleggen",
+            "iemand overtuigen",
+            "je mening geven",
+            "creatief zijn met taal",
+        ],
+        antwoord=0,
+        uitleg="Een stappenplan, een handleiding of een recept legt uit hoe iets moet.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Welk criterium gaat over de vraag of je een formele of informele toon kiest? Antwoord met één woord.",
+        antwoord=["register"],
+        uitleg="Register en beleefdheidsconventies vormen samen één beoordelingscriterium.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Bij woordenschat verwacht men enkel frequente, eenvoudige woorden.",
+        antwoord=False,
+        uitleg="Men verwacht frequente én minder frequente woorden uit het Standaardnederlands, en ook figuurlijke taal.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat betekent 'creatief zijn met taal' als tekstdoel?",
+        opties=[
+            "technieken inzetten zoals rijm, ritme en humor",
+            "zoveel mogelijk moeilijke woorden gebruiken",
+            "de regels van de spelling naast je neerleggen",
+            "een tekst schrijven zonder enige structuur",
+        ],
+        antwoord=0,
+        uitleg="Spelen met lay-out, met beeld en taal, met tijd en ruimte, met verteltechnieken of met stijlfiguren hoort daar allemaal bij.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke keuzes maken je tekst samenhangend?",
+        opties=[
+            "signaalwoorden gebruiken",
+            "een herkenbare opbouw aanhouden",
+            "per alinea één deelonderwerp behandelen",
+            "elke zin even lang maken",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Even lange zinnen maken een tekst juist eentonig. De drie andere maken de verbanden zichtbaar.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een tekst die zijn doel bereikt maar vol spelfouten staat, scoort op alle criteria goed.",
+        antwoord=False,
+        uitleg="Taakvoltooiing en spelling zijn twee aparte criteria. Het ene goed doen compenseert het andere niet.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je schrijft een brochure over een jeugdhuis. Welk tekstdoel staat voorop?",
+        opties=[
+            "informatie geven",
+            "iemand overtuigen",
+            "je mening geven",
+            "iets vertellen",
+        ],
+        antwoord=0,
+        uitleg="Een brochure informeert in de eerste plaats over wat er is en hoe het werkt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het verschil tussen schrijven en schriftelijke interactie?",
+        opties=[
+            "bij interactie reageer je op wat een ander schreef",
+            "bij interactie mag je spellingfouten maken",
+            "bij interactie hoef je geen structuur aan te brengen",
+            "er bestaat geen verschil tussen die twee",
+        ],
+        antwoord=0,
+        uitleg="Bij een schrijfopdracht breng jij alleen een boodschap over. Bij interactie is er een ander aan wie je antwoordt.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Welk criterium gaat over de vraag of je boodschap volledig en ter zake is? Antwoord met één woord.",
+        antwoord=["taakvoltooiing"],
+        uitleg="Taakvoltooiing meet of je echt gedaan hebt wat er gevraagd werd.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een antirookpamflet schrijven hoort bij het tekstdoel overtuigen.",
+        antwoord=True,
+        uitleg="Een pamflet, een betoog of een sollicitatie wil de ontvanger tot iets bewegen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je schrijft een mail om te vertellen over je vakantiejob. Welk tekstdoel is dat?",
+        opties=[
+            "iets vertellen",
+            "iemand overtuigen",
+            "iemand iets uitleggen",
+            "informatie vragen",
+        ],
+        antwoord=0,
+        uitleg="Je brengt verslag uit van wat je meemaakte, zonder iets te willen bereiken bij de lezer.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom staat register als apart criterium naast grammatica?",
+        opties=[
+            "een foutloze tekst kan toch ongepast klinken",
+            "register en grammatica betekenen hetzelfde",
+            "register telt enkel bij mondelinge opdrachten",
+            "register gaat enkel over de spelling",
+        ],
+        antwoord=0,
+        uitleg="Je kan een perfect gespelde mail schrijven die door haar toon volledig naast de situatie zit.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat doe je het best vóór je begint te schrijven?",
+        opties=[
+            "je bepaalt je doel, je ontvanger en je kanaal",
+            "je telt hoeveel woorden je in totaal nodig hebt",
+            "je kiest een mooi lettertype voor je tekst",
+            "je schrijft de slotzin al uit",
+        ],
+        antwoord=0,
+        uitleg="Het communicatiemodel is ook een schrijfstrategie: waarom schrijf je, voor wie, en langs welk kanaal.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke schrijfstrategieën helpen je op weg?",
+        opties=[
+            "een schrijfplan met kernwoorden maken",
+            "een vaste tekststructuur kiezen",
+            "jezelf vragen stellen over het onderwerp",
+            "beginnen zonder enig plan vooraf",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Zomaar beginnen leidt meestal tot een tekst zonder lijn. De drie andere geven je vooraf richting.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je een plan met kernwoorden dat je vóór het schrijven maakt? Vul aan: een ...plan.",
+        antwoord=["schrijf"],
+        uitleg="Een schrijfplan houdt de lijn vast terwijl je schrijft. Voor een spreekopdracht heet hetzelfde een spreekplan.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Je tekst grondig nalezen hoort bij de schrijfstrategieën.",
+        antwoord=True,
+        uitleg="Nalezen op helder, gepast, correct en vlot is de laatste stap, en hij levert bijna altijd nog verbeteringen op.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je verwerkt informatie uit vier bronnen in je tekst. Wat doe je met die bronnen?",
+        opties=[
+            "je verwijst er correct naar",
+            "je weegt af hoe betrouwbaar ze zijn",
+            "je verwerkt ze in je eigen woorden",
+            "je neemt elke bron volledig en ongewijzigd over",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Informatie uit bronnen verwerk je kritisch en met een correcte bronvermelding. Letterlijk overnemen is geen verwerken.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je zit vast en vindt de juiste formulering niet. Wat doe je?",
+        opties=[
+            "je omschrijft het of zoekt het woord op",
+            "je laat de zin onafgewerkt staan",
+            "je stopt met de hele opdracht",
+            "je schrijft het woord in een andere taal",
+        ],
+        antwoord=0,
+        uitleg="Je doel bereiken langs een andere weg is zelf een strategie: omschrijven, herlezen, een woordenboek raadplegen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Op het digitale examen mag je een spellingcontrole en een eenvoudig woordenboek gebruiken.",
+        antwoord=True,
+        uitleg="Daarom is het nuttig er thuis mee te oefenen, zodat je ze op het examen vlot gebruikt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je reageert op een discussie op een online forum. Welke eisen gelden dan extra?",
+        opties=[
+            "je speelt in op wat de ander geschreven heeft",
+            "je herhaalt je eigen standpunt zo vaak mogelijk",
+            "je negeert de vorige berichten volledig",
+            "je gebruikt zoveel mogelijk hoofdletters",
+        ],
+        antwoord=0,
+        uitleg="Bij schriftelijke interactie draait het om reageren. Wie enkel zijn eigen tekst plaatst, voert geen gesprek.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke conventies horen bij een formele mail aan een instantie?",
+        opties=[
+            "een gepaste aanspreking",
+            "een duidelijke onderwerpregel",
+            "een verzorgde slotgroet",
+            "een reeks emoji's ter verduidelijking",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Emoji's horen bij informele communicatie. De drie andere maken de mail herkenbaar formeel.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je het correct aangeven waar je informatie vandaan komt? Antwoord met één woord.",
+        antwoord=["bronvermelding"],
+        uitleg="Zonder bronvermelding lijkt het alsof je andermans werk voor het jouwe laat doorgaan.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een tekst voor een onderzoeksopdracht mag in losse spreektaal geschreven zijn.",
+        antwoord=False,
+        uitleg="Bij een verslag van een onderzoeksopdracht verwacht men academische en objectieve taal.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je schrijft een flyer voor een evenement. Welke technieken passen daarbij?",
+        opties=[
+            "spelen met lay-out en met korte, pakkende zinnen",
+            "lange alinea's met zoveel mogelijk details",
+            "een academische, afstandelijke schrijfstijl",
+            "een volledige opsomming van alle bronnen",
+        ],
+        antwoord=0,
+        uitleg="Een flyer is creatief taalgebruik: hij moet in één oogopslag werken.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom pas je je taal aan je ontvanger aan?",
+        opties=[
+            "de boodschap komt dan beter aan",
+            "de tekst wordt dan automatisch korter",
+            "de spelling wordt dan eenvoudiger",
+            "je hoeft dan geen structuur te maken",
+        ],
+        antwoord=0,
+        uitleg="Wie zijn lezer voor ogen houdt, kiest woorden die die lezer kent en een toon die bij de verhouding past.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een onderwerpregel in een mail hoort kort en duidelijk te zijn.",
+        antwoord=True,
+        uitleg="De ontvanger beslist er vaak op of hij de mail opent en hoe snel hij antwoordt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het risico van een smiley in een zakelijke mail?",
+        opties=[
+            "hij botst met het register van de mail",
+            "hij maakt de mail onleesbaar",
+            "hij verandert de betekenis van de woorden",
+            "hij telt mee als een spelfout",
+        ],
+        antwoord=0,
+        uitleg="Non-verbale signalen werken ook in geschreven taal. In een formele context klinkt een smiley losjes tot onverschillig.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke vaste tekststructuur kies je voor een tekst die een probleem en een oplossing behandelt?",
+        opties=[
+            "de probleemstructuur",
+            "de vergelijkingsstructuur",
+            "de ontwikkelingsstructuur",
+            "de evaluatiestructuur",
+        ],
+        antwoord=0,
+        uitleg="Probleem, oorzaken, oplossing: dat is precies de opbouw van de probleemstructuur.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je het laatste deel van een goed gestructureerde tekst? Antwoord met één woord.",
+        antwoord=["slot"],
+        uitleg="In het slot staat meestal het besluit van de tekst.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Je tekst nalezen op spelling is overbodig als je een spellingcontrole gebruikt.",
+        antwoord=False,
+        uitleg="Een spellingcontrole vindt geen fouten die toevallig bestaande woorden opleveren, zoals word in plaats van wordt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je schrijft een klacht aan een bedrijf. Wat zet je in de inleiding?",
+        opties=[
+            "waarover je schrijft en wat er gebeurd is",
+            "de oplossing die je voorstelt",
+            "een opsomming van alle wetten die gelden",
+            "een persoonlijke anekdote over je weekend",
+        ],
+        antwoord=0,
+        uitleg="De inleiding maakt meteen duidelijk waarover de brief gaat. Wat je vraagt, komt daarna.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom lees je je tekst nog eens hardop voor je hem indient?",
+        opties=[
+            "je hoort dan waar de zinnen stroef lopen",
+            "je vindt dan alle spelfouten",
+            "je tekst wordt daardoor een stuk korter",
+            "je lay-out verbetert daardoor",
+        ],
+        antwoord=0,
+        uitleg="Wat je struikelend voorleest, leest je lezer ook struikelend.",
+    ),
+]

@@ -1,0 +1,93 @@
+{
+ "vak": "Nederlands",
+ "titel": "Klanken, spelling, diakritische tekens en interpunctie",
+ "onder": "Van klankbeeld tot leesteken: de regels die je op papier nodig hebt.",
+ "secties": [
+  {
+   "kop": "Klank en schrift",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>klankbeeld</strong> van een woord <strong>hoor</strong> je, het <strong>schriftbeeld</strong> <strong>zie</strong> je. <strong>De spelling volgt niet altijd precies de uitspraak</strong>, en daarom is dat verschil belangrijk: <strong>op het gehoor afgaan leidt tot fouten</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Men onderscheidt <strong>lange klanken</strong> (maan, boom, deur), <strong>korte klanken</strong> en <strong>doffe klanken</strong>. De <strong>doffe klank</strong> is de onbeklemtoonde e, bijvoorbeeld in <em>gemeente</em>. De <strong>a, e, i, o en u zijn klinkers</strong>; de overige letters zijn medeklinkers."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een woord heeft een <strong>vast woordbeeld</strong>: <strong>het wordt altijd op dezelfde manier geschreven</strong>, ook als de uitspraak in een zin verandert."
+    }
+   ]
+  },
+  {
+   "kop": "Werkwoordspelling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>stam</strong> van een werkwoord is <strong>de infinitief zonder de uitgang -en</strong>. De stam van <em>reizen</em> is dus <em>reis</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Regel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik + stam</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen t erbij</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik verwacht (de stam is verwacht)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hij + stam</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stam + t</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hij wordt, hij antwoordt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verleden tijd zwak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stam + te of de</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hij werkte</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voltooid deelwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ge + stam + d of t</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geantwoord, gebeurd</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Hij antwoordt</em> krijgt dt omdat <strong>de stam op d eindigt en er bij <em>hij</em> een t bij komt</strong>. In <em>ik verwacht</em> komt er <strong>geen</strong> t bij de stam: die eindigt al op t. Het voltooid deelwoord van <em>verbranden</em> is <em>verbrand</em>, dat van <em>gebeuren</em> is <em>gebeurd</em>, en dat van <em>antwoorden</em> is <em>geantwoord</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Hoofdletters",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een hoofdletter krijgen onder meer <strong>namen van personen</strong>, <strong>namen van landen</strong> en <strong>namen van talen</strong>. De taal die in Frankrijk gesproken wordt, schrijf je dus als <strong>Frans</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Namen van maanden krijgen in het Nederlands géén hoofdletter</strong>: <em>december</em>, niet <em>December</em>. Dat is anders dan in het Engels."
+    }
+   ]
+  },
+  {
+   "kop": "Diakritische tekens",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Teken</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarvoor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Trema</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">laat zien dat een klinker apart gelezen wordt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ruïne</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Apostrof</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">duidt een weggelaten letter aan, of maakt een meervoud leesbaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zo'n, 's morgens, auto's</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Koppelteken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in samenstellingen met een eigennaam, bij botsende klinkers</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Noord-Frankrijk, twee-eiig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Accent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geeft de uitspraak aan, of legt nadruk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">café, dát wil ik</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een trema en een accent zijn niet hetzelfde teken.</strong> Een <strong>uitspraakteken</strong> is een accent dat aangeeft hoe je iets uitspreekt; daarnaast kan een accent dienen <strong>om nadruk te leggen op een woord</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>koppelteken</strong> gebruik je <strong>in samenstellingen met een eigennaam</strong>, <strong>als er anders drie dezelfde klinkers botsen</strong> en <strong>in woordgroepen als <em>twee-eiig</em></strong>. Het meervoud van <em>auto</em> is <strong>auto's</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Interpunctie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Tot de leestekens die je moet kennen horen onder meer <strong>de komma</strong>, <strong>de dubbele punt</strong>, <strong>het aanhalingsteken</strong>, de punt, het vraagteken, het uitroepteken en het puntkomma. <strong>Ook de spatie telt mee als interpunctieteken.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>punt</strong> sluit een mededelende zin af. Een <strong>dubbele punt</strong> kondigt <strong>een opsomming of een citaat</strong> aan. <strong>Aanhalingstekens</strong> zet je rond de letterlijke woorden van iemand anders. Een <strong>komma</strong> scheidt onder meer een bijzin van de hoofdzin: <em>Toen hij binnenkwam, zweeg iedereen.</em>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een uitroepteken hoort niet in elke alinea van een zakelijke tekst.</strong> Gebruik het spaarzaam, anders verliest het zijn kracht. In een formele brief <strong>pas je de interpunctie zorgvuldig en volgens de regels toe</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Leestekens zijn meer dan opsmuk: ze bepalen mee de betekenis van een zin.</strong> Eén komma verschil kan van een uitnodiging een bevel maken."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

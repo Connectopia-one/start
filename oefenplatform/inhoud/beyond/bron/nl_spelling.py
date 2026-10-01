@@ -1,0 +1,398 @@
+# -*- coding: utf-8 -*-
+"""Klanken, spelling, diakritische tekens en interpunctie — 🌍 Beyond.
+
+Naast de twee vakfiches geschreven, die onder ondersteunende kennis de
+fonologie en de spelling opsommen. Deel 1: klanken en letters, en de
+spellingregels, met de werkwoordspelling en de hoofdletters. Deel 2: de
+diakritische tekens, de zeven interpunctietekens en de uitspraaktekens.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het verschil tussen het klankbeeld en het schriftbeeld van een woord?",
+        opties=[
+            "het klankbeeld hoor je, het schriftbeeld zie je",
+            "het klankbeeld is korter dan het schriftbeeld",
+            "het klankbeeld bestaat enkel bij korte woorden",
+            "er bestaat geen verschil tussen die twee",
+        ],
+        antwoord=0,
+        uitleg="Het woord 'hond' klinkt met een t op het einde en wordt met een d geschreven. Daar lopen klank en schrift uiteen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke soorten klanken onderscheidt men?",
+        opties=[
+            "lange klanken",
+            "korte klanken",
+            "doffe klanken",
+            "ronde klanken",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Ronde klanken staan niet in de rij. De doffe klank is de onbeklemtoonde e, zoals in 'de' of in de laatste lettergreep van 'lopen'.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de onbeklemtoonde e in een woord als 'gemeente'? Vul aan: de ... klank.",
+        antwoord=["doffe"],
+        uitleg="De doffe e klinkt nauwelijks en draagt nooit de klemtoon.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De a, e, i, o en u zijn klinkers.",
+        antwoord=True,
+        uitleg="Alle andere letters zijn medeklinkers. De y neemt een tussenpositie in.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat betekent het dat een woord een vast woordbeeld heeft?",
+        opties=[
+            "het wordt altijd op dezelfde manier geschreven",
+            "het blijft onveranderd in elke taal",
+            "het mag nooit in een samenstelling gebruikt worden",
+            "het heeft maar één betekenis",
+        ],
+        antwoord=0,
+        uitleg="Bij een veranderlijk woordbeeld past de schrijfwijze zich aan, zoals bij de vervoeging van een werkwoord.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe schrijf je de tegenwoordige tijd 'hij word' of 'hij wordt' correct?",
+        opties=[
+            "hij wordt",
+            "hij word",
+            "hij wort",
+            "hij wordd",
+        ],
+        antwoord=0,
+        uitleg="De stam is 'word' en bij hij komt er een t bij, ook als de stam al op een d eindigt.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="In 'ik verwacht' komt er een t bij de stam.",
+        antwoord=False,
+        uitleg="Bij ik schrijf je de kale stam. De stam van verwachten is verwacht, dus de t hoort al bij de stam zelf.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke woorden krijgen in het Nederlands een hoofdletter?",
+        opties=[
+            "namen van personen",
+            "namen van landen",
+            "namen van talen",
+            "namen van weekdagen",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Weekdagen en maanden schrijf je in het Nederlands klein, anders dan in het Engels.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe schrijf je de naam van de taal die in Frankrijk gesproken wordt?",
+        opties=[
+            "Frans",
+            "frans",
+            "FRANS",
+            "fransch",
+        ],
+        antwoord=0,
+        uitleg="Taal- en landnamen krijgen een hoofdletter, ook als ze als bijvoeglijk naamwoord gebruikt worden.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe schrijf je het voltooid deelwoord van 'gebeuren'? Antwoord met één woord.",
+        antwoord=["gebeurd"],
+        uitleg="De stam is gebeur, het voltooid deelwoord krijgt een d omdat de stam niet op een scherpe medeklinker eindigt.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Het voltooid deelwoord van 'antwoorden' is 'geantwoord'.",
+        antwoord=True,
+        uitleg="De stam antwoord eindigt al op een d, dus er komt er geen tweede bij.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe schrijf je de verleden tijd van 'werken' in het enkelvoud?",
+        opties=[
+            "werkte",
+            "werkde",
+            "werktte",
+            "werkt",
+        ],
+        antwoord=0,
+        uitleg="De stam werk eindigt op een k, een scherpe medeklinker, dus komt er te bij en geen de.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke woorden bevatten een lange klinker?",
+        opties=[
+            "maan",
+            "boom",
+            "deur",
+            "pit",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="In pit klinkt de i kort. De drie andere hebben een lang klinkend geluid.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De spelling van een woord volgt altijd precies de uitspraak.",
+        antwoord=False,
+        uitleg="Veel woorden klinken anders dan ze geschreven worden, zoals hond, paard of huwelijk.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom schrijven we 'hij antwoordt' met dt?",
+        opties=[
+            "de stam eindigt op d en bij hij komt er t bij",
+            "elk werkwoord op hij krijgt twee medeklinkers",
+            "de uitspraak vraagt om twee letters",
+            "het is een uitzondering zonder regel",
+        ],
+        antwoord=0,
+        uitleg="De regel is eenvoudig: stam plus t. Dat je de tweede letter niet hoort, verandert daar niets aan.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is de stam van een werkwoord?",
+        opties=[
+            "de infinitief zonder de uitgang en",
+            "het voltooid deelwoord zonder ge",
+            "de eerste lettergreep van het werkwoord",
+            "de vorm die bij wij hoort",
+        ],
+        antwoord=0,
+        uitleg="Werken min en wordt werk. Op die stam bouw je alle andere vormen.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Wat is de stam van het werkwoord 'reizen'? Antwoord met één woord.",
+        antwoord=["reis"],
+        uitleg="Reizen min en geeft reiz, maar aan het eind van een woord wordt de z een s. Vandaar reis.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Namen van maanden krijgen in het Nederlands een hoofdletter.",
+        antwoord=False,
+        uitleg="Januari, februari en december schrijf je met een kleine letter. In het Engels is dat anders.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe schrijf je 'hij heeft het boek ...' van het werkwoord verbranden?",
+        opties=[
+            "verbrand",
+            "verbrandt",
+            "verbrandd",
+            "verbrant",
+        ],
+        antwoord=0,
+        uitleg="Het voltooid deelwoord van verbranden is verbrand. De vorm verbrandt is de tegenwoordige tijd bij hij.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom is het verschil tussen klank en schrift belangrijk voor de spelling?",
+        opties=[
+            "op het gehoor afgaan leidt tot fouten",
+            "de klank bepaalt altijd de juiste letter",
+            "de spelling is een kwestie van smaak",
+            "de klank verandert van streek tot streek",
+        ],
+        antwoord=0,
+        uitleg="Wie schrijft wat hij hoort, schrijft hond met een t. De regel moet het gehoor overrulen.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="Welke diakritische tekens kent het Nederlands?",
+        opties=[
+            "het trema",
+            "het koppelteken",
+            "de apostrof",
+            "de dubbele punt",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="De dubbele punt is een leesteken, geen diakritisch teken. De drie andere veranderen de lezing van een woord.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarvoor dient een trema?",
+        opties=[
+            "het laat zien dat een klinker apart gelezen wordt",
+            "het geeft aan dat een woord samengesteld werd",
+            "het vervangt een weggelaten letter",
+            "het markeert de klemtoon binnen een woord",
+        ],
+        antwoord=0,
+        uitleg="In ruïne en in geïnteresseerd begint er bij de klinker met het trema een nieuwe lettergreep.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Welk teken gebruik je in 'zo'n' om een weggelaten letter aan te duiden? Antwoord met één woord.",
+        antwoord=["apostrof"],
+        uitleg="Zo'n is een samentrekking van zo een. De apostrof vervangt de weggelaten letters.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een koppelteken wordt onder meer gebruikt in samenstellingen met een eigennaam, zoals Noord-Frankrijk.",
+        antwoord=True,
+        uitleg="Het koppelteken houdt de delen leesbaar en behoudt de hoofdletter van de eigennaam.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe schrijf je het meervoud van 'auto' correct?",
+        opties=[
+            "auto's",
+            "autos",
+            "auto`s",
+            "autoos",
+        ],
+        antwoord=0,
+        uitleg="Na een enkele klinker die lang klinkt, komt er een apostrof voor de meervouds-s, anders zou je de klank verkeerd lezen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke interpunctietekens behoren tot de zeven die je moet kennen?",
+        opties=[
+            "de komma",
+            "de dubbele punt",
+            "het aanhalingsteken",
+            "de gedachtestreep",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="De zeven zijn punt, komma, vraagteken, uitroepteken, dubbele punt, spatie en aanhalingsteken.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De spatie telt mee als interpunctieteken.",
+        antwoord=True,
+        uitleg="Zonder spaties valt een zin uiteen. Daarom staat ze in de rij, naast de punt en de komma.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarvoor gebruik je een dubbele punt?",
+        opties=[
+            "om een opsomming of een citaat aan te kondigen",
+            "om twee hoofdzinnen van elkaar te scheiden",
+            "om een vraag aan te duiden",
+            "om een woord te benadrukken",
+        ],
+        antwoord=0,
+        uitleg="Wat na de dubbele punt komt, licht toe of somt op wat ervoor werd aangekondigd.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="In welke zin staat de komma op zijn plaats?",
+        opties=[
+            "Toen hij binnenkwam, zweeg iedereen.",
+            "Hij kwam binnen, iedereen zweeg.",
+            "Hij, kwam binnen en iedereen zweeg.",
+            "Hij kwam, binnen en iedereen zweeg.",
+        ],
+        antwoord=0,
+        uitleg="Na een bijzin die vooraan staat, komt een komma. De tweede zin koppelt twee hoofdzinnen zonder voegwoord en dat hoort niet met een komma alleen.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Welk leesteken zet je rond de letterlijke woorden van iemand anders? Antwoord met één woord.",
+        antwoord=["aanhalingsteken", "aanhalingstekens"],
+        uitleg="Aanhalingstekens maken zichtbaar waar het citaat begint en eindigt.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een uitroepteken hoort in een zakelijke tekst in elke alinea thuis.",
+        antwoord=False,
+        uitleg="In een zakelijke tekst gebruik je het spaarzaam. Te veel uitroeptekens maken een tekst schreeuwerig in plaats van overtuigend.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een uitspraakteken?",
+        opties=[
+            "een accent dat aangeeft hoe je iets uitspreekt",
+            "een teken dat het einde van een zin markeert",
+            "een teken dat een citaat afbakent",
+            "een teken dat twee woorden verbindt",
+        ],
+        antwoord=0,
+        uitleg="In woorden als café of scène geeft het accent de uitspraak van de klinker aan.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarvoor kan een accent nog dienen, naast de uitspraak?",
+        opties=[
+            "om nadruk te leggen op een woord",
+            "om het meervoud te vormen",
+            "om een werkwoord te vervoegen",
+            "om een zin af te sluiten",
+        ],
+        antwoord=0,
+        uitleg="In 'dat is één keer te veel' legt het accent de klemtoon op het getal, zodat je het niet als lidwoord leest.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een trema en een accent zijn hetzelfde teken met een andere naam.",
+        antwoord=False,
+        uitleg="Een trema zijn twee puntjes en splitst klinkers; een accent is een streepje en gaat over uitspraak of nadruk.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe schrijf je 's morgens correct?",
+        opties=[
+            "'s morgens",
+            "s morgens",
+            "`s morgens",
+            "smorgens",
+        ],
+        antwoord=0,
+        uitleg="De apostrof vervangt de weggelaten letters van 'des'. Daarna volgt een spatie en dan het woord.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="In welke gevallen gebruik je een koppelteken?",
+        opties=[
+            "in samenstellingen met een eigennaam",
+            "als er anders drie dezelfde klinkers botsen",
+            "in woordgroepen als twee-eiig",
+            "tussen een lidwoord en zijn zelfstandig naamwoord",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Tussen lidwoord en zelfstandig naamwoord staat gewoon een spatie. De drie andere zijn echte gevallen.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Welk teken zet je in 'ruïne' boven de i? Antwoord met één woord.",
+        antwoord=["trema"],
+        uitleg="Het trema laat zien dat de i apart gelezen wordt en niet samen met de u.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een punt sluit een mededelende zin af.",
+        antwoord=True,
+        uitleg="Bij een vragende zin hoort een vraagteken, bij een uitroepende zin een uitroepteken.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom zijn leestekens meer dan opsmuk?",
+        opties=[
+            "ze bepalen mee de betekenis van een zin",
+            "ze maken een tekst visueel aantrekkelijker",
+            "ze zijn een regel zonder praktisch nut",
+            "ze geven het aantal woorden aan",
+        ],
+        antwoord=0,
+        uitleg="Vergelijk 'We eten, opa' met 'We eten opa'. Eén komma scheelt een mensenleven.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je schrijft een formele brief. Wat doe je met de interpunctie?",
+        opties=[
+            "je past ze zorgvuldig en volgens de regels toe",
+            "je laat ze weg om de tekst vlotter te maken",
+            "je gebruikt vooral uitroeptekens voor nadruk",
+            "je zet overal een komma waar je adem haalt",
+        ],
+        antwoord=0,
+        uitleg="Spelling en leestekengebruik zijn een apart beoordelingscriterium bij schrijven. Op het gehoor komma's plaatsen werkt niet.",
+    ),
+]

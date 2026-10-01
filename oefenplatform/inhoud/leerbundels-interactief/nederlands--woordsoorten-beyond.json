@@ -1,0 +1,63 @@
+{
+ "vak": "Nederlands",
+ "titel": "Woordsoorten",
+ "onder": "De tien woordsoorten, de voornaamwoorden en de drie soorten werkwoorden.",
+ "secties": [
+  {
+   "kop": "De woordsoorten op een rij",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Je bepaalt de woordsoort van een woord niet uit het woordenboek maar uit de zin: <strong>je kijkt naar de rol die het in díe zin speelt</strong>. Daarom is <strong>het woord <em>het</em> niet altijd een lidwoord</strong>, en kan <strong>hetzelfde woord in de ene zin een voornaamwoord zijn en in de andere een lidwoord</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Woordsoort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Zelfstandig naamwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">noemt een ding, een persoon of een begrip</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tafel in de tafel staat scheef</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Lidwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">staat bij een zelfstandig naamwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de, het, een</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Bijvoeglijk naamwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zegt iets over een zelfstandig naamwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">snel in de snelle trein</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Werkwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">noemt wat er gebeurt of is</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">staan, lopen, zijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Bijwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zegt iets over een werkwoord, een bijvoeglijk naamwoord of een hele zin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">morgen, erg</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Voorzetsel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">legt een verhouding</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onder, tussen, achter, tijdens, van</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Voegwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verbindt woorden of zinnen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">en, want, omdat, hoewel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Telwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">telt of ordent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie, derde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Voornaamwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vervangt of begeleidt een naamwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hij, mijn, die</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Tussenwerpsel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">staat los in de zin en drukt een gevoel uit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">au</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>lidwoord kan niet voor een werkwoord staan</strong>. Een <strong>bijvoeglijk naamwoord kan wél achter het zelfstandig naamwoord staan</strong>: <em>de trein, snel en stil</em>. Het verschil tussen een <strong>hoofdtelwoord</strong> en een <strong>rangtelwoord</strong>: <strong>een hoofdtelwoord telt, een rangtelwoord ordent</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Woordsoorten benoemen is nuttig omdat <strong>je daardoor de bouw van een zin begrijpt</strong>, en dat heb je nodig bij de zinsontleding en bij de werkwoordspelling."
+    }
+   ]
+  },
+  {
+   "kop": "Voornaamwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Persoonlijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hij ziet mij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Bezittelijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dat is mijn jas</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wederkerig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hij wast zich</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Aanwijzend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">deze, die, dat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Vragend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie, wat, welke</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Betrekkelijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de man die daar staat, de jongen wiens fiets gestolen werd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Onbepaald</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iemand, niemand, alles</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Deze, die en dat zijn aanwijzende voornaamwoorden</strong>, geen bezittelijke. Het <strong>antecedent</strong> is <strong>het woord waarnaar een betrekkelijk voornaamwoord terugwijst</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het verschil tussen een <strong>zelfstandig</strong> en een <strong>bijvoeglijk gebruikt</strong> voornaamwoord: <strong>het zelfstandige staat alleen, het bijvoeglijke staat bij een naamwoord</strong>. Vergelijk <em>dat is van mij</em> met <em>mijn jas</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Soorten werkwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>zelfstandig werkwoord</strong> draagt de eigenlijke betekenis. Een <strong>hulpwerkwoord</strong> helpt bij de vervoeging: <em>hebben</em> in <em>hij heeft gelopen</em>. <strong>Een hulpwerkwoord kan niet alleen in een zin staan</strong>, zonder zelfstandig werkwoord."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>koppelwerkwoord</strong> verbindt het onderwerp met wat erover gezegd wordt: <em>zijn</em> in <em>hij is leraar</em>, en verder onder meer <strong>worden</strong>, <strong>blijven</strong> en <strong>lijken</strong>. Weten of een werkwoord koppelwerkwoord of zelfstandig werkwoord is, is belangrijk omdat <strong>het bepaalt of er een naamwoordelijk gezegde is</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>infinitief</strong> is de onvervoegde grondvorm, zoals <em>lopen</em>. Een <strong>voltooid deelwoord</strong> begint in het Nederlands <strong>vaak met ge</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

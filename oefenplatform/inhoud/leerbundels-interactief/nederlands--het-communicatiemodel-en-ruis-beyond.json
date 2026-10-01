@@ -1,0 +1,92 @@
+{
+ "vak": "Nederlands",
+ "titel": "Het communicatiemodel en ruis",
+ "onder": "Zender, boodschap, ontvanger, kanaal, context, doel en effect, en alles wat ertussen kan komen.",
+ "secties": [
+  {
+   "kop": "De onderdelen van het model",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>communicatiemodel</strong> ontleedt elke boodschap in vaste onderdelen. Je gebruikt het bij <strong>lezen, luisteren, schrijven en spreken</strong>: elke boodschap heeft een zender en een ontvanger, en daarom staat het model op <strong>beide delen van het vak</strong>. Het geldt dus <strong>niet enkel bij geschreven teksten</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Onderdeel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Zender</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie de boodschap maakt en verstuurt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Boodschap</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat er precies overgebracht wordt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ontvanger</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">degene voor wie de boodschap bedoeld is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Kanaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het middel waarlangs ze verspreid wordt: een mail, een blog, een affiche</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Context</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de omstandigheden waarin de boodschap gegeven wordt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Doel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat de zender wil bereiken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Effect</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat de boodschap bij de ontvanger teweegbrengt</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>zender kan ook een organisatie zijn</strong> en niet enkel een persoon: een bedrijf, een partij, een redactie. En een <strong>zender kan tegelijk ontvanger zijn</strong>, zodra het een gesprek wordt. Zegt een leerkracht tegen een klas <em>mooi werk</em>, dan is <strong>de klas</strong> de ontvanger."
+    }
+   ]
+  },
+  {
+   "kop": "Doel is niet hetzelfde als effect",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Het doel en het effect van een boodschap zijn niet hetzelfde.</strong> Het doel zit bij de zender, het effect bij de ontvanger. Ze vallen vaak maar niet altijd samen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Gevallen waarin het effect afwijkt van het doel: <strong>een waarschuwing die mensen doet lachen</strong>, <strong>een grap die iemand kwetst</strong>, <strong>een uitleg die de ontvanger niet begrijpt</strong>. Ook een reclamespot die wil dat je iets koopt terwijl jij enkel het liedje onthoudt, is zo'n geval."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Dezelfde boodschap kan bij twee ontvangers een verschillend effect hebben.</strong> Daarom vraag je je bij elke lees- en luisteropdracht af <strong>wie de ontvanger is</strong>: de doelgroep verklaart de toon en de woordkeuze."
+    }
+   ]
+  },
+  {
+   "kop": "Kanaal en context",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vraag <strong>via welk kanaal?</strong> hoort bij het beoordelen van een bericht, want <strong>het kanaal zegt iets over de bedoeling van de zender</strong>. Verschijnt een nieuwsbericht <strong>enkel via sociale media en nergens anders</strong>, dan heeft <strong>geen enkele redactie het nagekeken</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een slecht gekozen kanaal maakt een goede boodschap waardeloos: stuurt een school een belangrijke mededeling enkel via een app die de helft van de ouders niet gebruikt, dan ligt de fout bij <strong>het kanaal</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>context</strong> zijn de omstandigheden: de relatie tussen zender en ontvanger, het moment, de plaats, wat eraan voorafging. Een mail van een bedrijf aan al zijn klanten over een prijsstijging heeft als context <strong>de zakelijke relatie en het moment van versturen</strong>. Staat een filmpje over een ernstig onderwerp tussen grappige filmpjes op een platform, dan speelt <strong>de context waarin de boodschap landt</strong> mee."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>affiche zonder afzender</strong> die je oproept om op iets te stemmen, valt meteen op: <strong>de zender blijft verborgen</strong>. Ook <strong>emoji's horen bij de boodschap</strong>: ze dragen betekenis, net als de woorden."
+    }
+   ]
+  },
+  {
+   "kop": "Ruis",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Ruis</strong> is alles wat de overdracht van een boodschap verstoort. Ze <strong>zit niet altijd bij de ontvanger</strong>: ook de zender kan ze veroorzaken."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Externe ruis</strong> is een storing <strong>van buitenaf</strong> die de boodschap hindert: <strong>een haperende videoverbinding</strong>, <strong>een drilboor voor het raam van het lokaal</strong>, <strong>een slecht leesbaar lettertype op een affiche</strong>, lawaai in een café."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Interne ruis</strong> zit <strong>in de persoon zelf</strong>: piekeren over een ruzie, vermoeidheid, verstrooidheid, of te weinig voorkennis. <strong>Onbekend vakjargon in een tekst kan voor de lezer als ruis werken</strong>. In één situatie kunnen beide soorten tegelijk spelen: een luidruchtig café <em>en</em> een hoofd vol zorgen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een zender beperkt <strong>externe ruis</strong> door <strong>een rustiger moment of kanaal te kiezen</strong>. Interne ruis beperkt hij door rekening te houden met zijn ontvanger. Legt een verpleegkundige in vaktaal uit wat een uitslag betekent en knikt de patiënt zonder iets te begrijpen, dan <strong>hield de zender geen rekening met de ontvanger</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Komt de boodschap niet aan, dan ligt dat niet altijd aan de ontvanger.</strong> Zender, kanaal, context en boodschap zijn even goed kandidaat. Het model is er net om die vraag open te houden."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het model is ook een <strong>schrijfstrategie</strong>: voor je een mail aan een onbekende instantie schrijft, vraag je jezelf af <strong>wat wil ik bereiken en wie leest dit</strong>. En wanneer je een bericht als nepnieuws herkent omdat er geen auteur bij staat en het enkel op sociale media rondgaat, gebruik je drie onderdelen van het model tegelijk: <strong>de zender, het kanaal en het doel</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

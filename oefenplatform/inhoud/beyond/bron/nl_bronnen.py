@@ -1,0 +1,398 @@
+# -*- coding: utf-8 -*-
+"""Bronnen beoordelen — 🌍 Beyond, Nederlands.
+
+Naast de vakfiche geschreven: de dertien criteria om te beoordelen of een
+tekst betrouwbaar, correct en bruikbaar is staan er één voor één op. Deel 1
+behandelt die criteria, deel 2 legt ze op gevallen en gaat dieper in op
+nepnieuws, propaganda, clickbait en framing.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Welke vragen helpen je om de betrouwbaarheid van een tekst in te schatten?",
+        opties=[
+            "wordt de auteur vermeld",
+            "wie publiceert het artikel",
+            "is de informatie ook elders terug te vinden",
+            "hoeveel woorden telt het artikel",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="De lengte zegt niets. Auteur, uitgever en bevestiging in andere bronnen zijn wel drie van de criteria.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een artikel vermeldt geen enkele auteur. Wat besluit je daaruit?",
+        opties=[
+            "het is een reden tot wantrouwen, geen bewijs",
+            "het artikel is zeker nepnieuws",
+            "het artikel is zeker betrouwbaar",
+            "het maakt niets uit voor de beoordeling",
+        ],
+        antwoord=0,
+        uitleg="Eén criterium beslist niets. Een ontbrekende auteur zet je op je hoede en doet je de andere criteria nakijken.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je een bericht dat eruitziet als nieuws maar bewust onwaar is? Antwoord met één woord.",
+        antwoord=["nepnieuws"],
+        uitleg="Nepnieuws leent de vorm van een nieuwsbericht om iets te verspreiden wat niet klopt.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Informatie die ouder is dan een paar jaar, is daarom onbruikbaar.",
+        antwoord=False,
+        uitleg="Of informatie verouderd is, hangt van het onderwerp af. Voor een beursbericht telt een week, voor de bouw van de piramides niet.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is framing?",
+        opties=[
+            "een onderwerp zo voorstellen dat je het op een bepaalde manier ziet",
+            "een tekst voorzien van een kader met de belangrijkste cijfers",
+            "een bron letterlijk overnemen zonder er iets aan te veranderen",
+            "een artikel verspreiden op meer dan één sociaal netwerk tegelijk",
+        ],
+        antwoord=0,
+        uitleg="Wie over 'belastingdruk' schrijft, kadert anders dan wie over 'bijdrage aan de samenleving' schrijft. Dezelfde zaak, een ander frame.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een titel is zo opgesteld dat je wel móet doorklikken. Wat is daar het probleem mee?",
+        opties=[
+            "de titel dient het aantal clicks, niet de inhoud",
+            "de titel bevat dan altijd een regelrechte onwaarheid",
+            "de tekst eronder is dan altijd veel te kort uitgevallen",
+            "de auteur blijft dan verplicht anoniem",
+        ],
+        antwoord=0,
+        uitleg="Een neutrale titel dekt de lading. Een lokkende titel is gemaakt voor het bezoekcijfer, en dat zegt iets over het doel van de zender.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een professioneel ogende website is op zich al een voldoende bewijs van betrouwbaarheid.",
+        antwoord=False,
+        uitleg="Het is één van de criteria, maar een verzorgde vormgeving is tegenwoordig makkelijk te maken. Kijk altijd naar de zender en de bronnen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk criterium gaat over jouw kant van de zaak en niet over de tekst zelf?",
+        opties=[
+            "is de informatie relevant voor mijn doel",
+            "wordt de auteur vermeld",
+            "welke bronnen worden in de tekst gebruikt",
+            "is de titel neutraal of lokkend",
+        ],
+        antwoord=0,
+        uitleg="Een tekst kan betrouwbaar en correct zijn en toch onbruikbaar voor wat jij zoekt. Bruikbaarheid hangt van je eigen vraag af.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het verschil tussen propaganda en reclame?",
+        opties=[
+            "propaganda wil je denken sturen, reclame je koopgedrag",
+            "propaganda is altijd onwaar, reclame altijd waar",
+            "propaganda staat in kranten, reclame op televisie",
+            "propaganda noemt nooit een auteur, reclame wel",
+        ],
+        antwoord=0,
+        uitleg="Allebei zijn ze persuasief. Het verschil zit in wat ze van je willen: een overtuiging of een aankoop.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je een bericht dat een politieke of ideologische overtuiging wil opdringen? Antwoord met één woord.",
+        antwoord=["propaganda"],
+        uitleg="Propaganda komt meestal van een partij, een beweging of een staat die er zelf belang bij heeft.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Dat dezelfde informatie in verschillende betrouwbare bronnen opduikt, versterkt haar geloofwaardigheid.",
+        antwoord=True,
+        uitleg="Onafhankelijke bevestiging is een van de sterkste criteria. Let wel op: tien sites die elkaar overschrijven zijn geen tien bronnen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom is het nuttig om te kijken welke bronnen een tekst zelf gebruikt?",
+        opties=[
+            "je kan nagaan waarop de beweringen steunen",
+            "je weet dan hoe oud de schrijver is",
+            "je hoeft de tekst dan niet meer te lezen",
+            "je ziet dan meteen het aantal lezers",
+        ],
+        antwoord=0,
+        uitleg="Een tekst zonder bronnen vraagt dat je de schrijver op zijn woord gelooft. Met bronnen kan je zelf gaan kijken.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een tekst bestaat bijna volledig uit meningen. Wat betekent dat?",
+        opties=[
+            "je kan er weinig feitelijke informatie uit halen",
+            "de tekst is daarom per definitie onbetrouwbaar",
+            "de tekst is daarom nepnieuws",
+            "de auteur van zo'n tekst moet dan wel anoniem blijven",
+        ],
+        antwoord=0,
+        uitleg="Een opiniestuk hoort vol meningen te zitten en dat is geen fout. Maar wie feiten zoekt, is er niet mee geholpen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De vraag 'wat is de bedoeling van de zender' hoort bij het beoordelen van een bron.",
+        antwoord=True,
+        uitleg="Wie iets te winnen heeft bij jouw mening, schrijft anders dan wie enkel wil informeren.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke signalen wijzen samen sterk in de richting van nepnieuws?",
+        opties=[
+            "er wordt geen auteur vermeld",
+            "het bericht circuleert enkel op sociale media",
+            "de titel is sterk lokkend opgesteld",
+            "het bericht is langer dan duizend woorden",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="De lengte zegt niets. De drie andere samen zijn een klassiek patroon: geen zender, geen tegenstem, maximaal lokken.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een echokamer, wat is dat?",
+        opties=[
+            "een omgeving waarin je vooral je eigen mening terughoort",
+            "een studio waarin podcasts worden opgenomen",
+            "een tekst waarin de schrijver zichzelf voortdurend herhaalt",
+            "een lijst van bronnen onderaan een artikel",
+        ],
+        antwoord=0,
+        uitleg="In een echokamer krijg je vooral bevestiging te zien. Tegenspraak bereikt je er nauwelijks nog.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je het verschijnsel dat een algoritme je vooral toont wat bij je past, waardoor je de rest niet meer ziet? Vul aan: een ...",
+        antwoord=["filterbubbel"],
+        uitleg="De filter zit tussen jou en het aanbod. Wat er niet door geraakt, bestaat voor jou niet.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een bericht dat jouw mening bevestigt, heb je minder streng nagekeken dan een bericht dat haar tegenspreekt.",
+        antwoord=True,
+        uitleg="Dat is een bekend menselijk patroon. Juist daarom is het nuttig om de criteria ook toe te passen op wat je graag gelooft.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat betekent het dat een bron 'correct' is?",
+        opties=[
+            "de feiten die erin staan, kloppen",
+            "de tekst is foutloos gespeld",
+            "de tekst is op tijd gepubliceerd",
+            "de tekst is kort en helder opgebouwd",
+        ],
+        antwoord=0,
+        uitleg="Betrouwbaar gaat over de zender, correct over de inhoud en bruikbaar over jouw doel. Drie verschillende vragen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een anonieme account verspreidt een bericht dat je naar een onbekende site lokt met veel advertenties. Wat is het doel?",
+        opties=[
+            "bezoekers naar die site halen",
+            "de lezer correct informeren",
+            "een tegenstem aan het woord laten",
+            "een wetenschappelijk debat voeren",
+        ],
+        antwoord=0,
+        uitleg="Meer bezoekers betekent meer bekeken advertenties. Het bericht is het lokaas, niet de boodschap.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="Een minister schrijft op de site van zijn partij over hoe goed het beleid werkt. Hoe beoordeel je die tekst?",
+        opties=[
+            "als partijcommunicatie, met belang bij het antwoord",
+            "als neutrale informatie, want een minister weet het",
+            "als nepnieuws, want politici liegen in zulke teksten",
+            "als een literaire tekst, want ze is mooi geschreven",
+        ],
+        antwoord=0,
+        uitleg="De zender heeft er belang bij. Dat maakt de tekst niet onwaar, maar wel partijdig, en dus zoek je een tweede bron.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een tekst van een belanghebbende zender bevat per definitie onjuistheden.",
+        antwoord=False,
+        uitleg="Een fabrikant kan correcte cijfers geven. Belang betekent dat je de selectie en de nadruk kritisch bekijkt, niet dat alles fout is.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Twee kranten brengen hetzelfde cijfer: 'een stijging van 3 procent' en 'de derde stijging op rij'. Wat zie je hier?",
+        opties=[
+            "twee verschillende frames rond hetzelfde feit",
+            "twee verschillende feiten over hetzelfde onderwerp",
+            "een feit en een mening",
+            "een rekenfout in een van de twee kranten",
+        ],
+        antwoord=0,
+        uitleg="Het cijfer is hetzelfde; de kadering verschilt. De ene legt de nadruk op de omvang, de andere op de herhaling.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke woordkeuzes zijn voorbeelden van framing?",
+        opties=[
+            "spreken over een belastingverlaging of over een besparing",
+            "spreken over klimaatverandering of over klimaatontwrichting",
+            "spreken over een vluchteling of over een gelukzoeker",
+            "spreken over een auto of over een wagen in dezelfde zin",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Auto en wagen zijn gewoon synoniemen. De drie andere paren zetten dezelfde zaak in een ander licht.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je een titel die vooral bedoeld is om je te laten doorklikken? Vul aan in het Nederlands: een ... titel.",
+        antwoord=["lokkende", "sensationele"],
+        uitleg="Een lokkende of sensationele titel belooft meer dan het artikel waarmaakt.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een artikel op een website van een universiteit is daardoor automatisch betrouwbaar.",
+        antwoord=False,
+        uitleg="Een universiteit is een sterk teken, maar ook daar staan opiniestukken en persberichten. Kijk nog altijd naar auteur en bronnen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je zoekt informatie voor een spreekbeurt over slaap bij jongeren. Welke bron is het bruikbaarst?",
+        opties=[
+            "een artikel dat onderzoek bij jongeren samenvat",
+            "een blog van iemand die slecht slaapt",
+            "een reclame voor een matras",
+            "een roman waarin het hoofdpersonage nooit kan slapen",
+        ],
+        antwoord=0,
+        uitleg="Bruikbaarheid hangt van je doel af. Voor een spreekbeurt over slaap bij jongeren zoek je onderzoek over precies die groep.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een bericht uit 2014 over de regels voor een studiebeurs. Wat doe je ermee?",
+        opties=[
+            "je gaat na of de regels sindsdien veranderd zijn",
+            "je gebruikt het zonder meer, want het stond ooit op een officiële site",
+            "je gooit het weg, want alles van voor vorig jaar is waardeloos",
+            "je neemt het over en vermeldt er geen jaartal bij",
+        ],
+        antwoord=0,
+        uitleg="Regelgeving verandert. Bij zulke onderwerpen is de datum zelf een criterium.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Bij het beoordelen van een luistertekst gelden dezelfde criteria als bij een leestekst.",
+        antwoord=True,
+        uitleg="Zender, doel, bronnen en actualiteit zijn even belangrijk bij een podcast of een reportage als bij een artikel.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een filmpje toont een grafiek waarvan de zij-as bij 95 begint in plaats van bij 0. Wat gebeurt er?",
+        opties=[
+            "een klein verschil lijkt enorm",
+            "de cijfers zijn vervalst",
+            "de grafiek wordt onleesbaar",
+            "de grafiek klopt niet met de tekst",
+        ],
+        antwoord=0,
+        uitleg="De cijfers kunnen kloppen en het beeld toch misleiden. Een afgesneden as is de bekendste manier om dat te doen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke multimediale elementen kunnen de boodschap van een tekst veranderen in plaats van enkel versterken?",
+        opties=[
+            "een grafiek met een afgesneden as",
+            "een foto die een extreem geval toont",
+            "muziek die een dreigende sfeer schept",
+            "een inhoudstafel bovenaan het artikel",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Een inhoudstafel ordent alleen. De drie andere sturen hoe je de inhoud voelt en dus hoe je hem leest.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Een bericht dat enkel bedoeld is om jou iets te doen kopen: hoe noem je dat? Antwoord met één woord.",
+        antwoord=["reclame"],
+        uitleg="Reclame is een persuasieve tekst met een commercieel doel.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een tekst die vol feiten staat, kan toch een vertekend beeld geven.",
+        antwoord=True,
+        uitleg="Door te kiezen welke feiten je toont en welke je weglaat, stuur je het beeld zonder één onwaarheid te schrijven.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je vindt hetzelfde bericht op vijf sites, allemaal met exact dezelfde zinnen. Wat besluit je?",
+        opties=[
+            "het is waarschijnlijk vijf keer dezelfde bron",
+            "het bericht is vijf keer bevestigd",
+            "het bericht is daarom betrouwbaar",
+            "het bericht is daarom met zekerheid nepnieuws te noemen",
+        ],
+        antwoord=0,
+        uitleg="Overgeschreven kopieën zijn geen onafhankelijke bevestiging. Zoek wie het als eerste publiceerde.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat doe je het best met een bron waarvan je de betrouwbaarheid niet kan inschatten?",
+        opties=[
+            "je zoekt een tweede bron over hetzelfde",
+            "je gebruikt ze en zet er een vraagteken bij",
+            "je neemt ze over zonder bronvermelding",
+            "je gebruikt enkel de cijfers eruit",
+        ],
+        antwoord=0,
+        uitleg="Een tweede, onafhankelijke bron is de snelste test. Komt die er niet, dan weet je dat je voorzichtig moet zijn.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een publireportage moet herkenbaar zijn als betaalde inhoud.",
+        antwoord=True,
+        uitleg="Ze ziet eruit als een artikel maar is betaald door een adverteerder. Daarom hoort er een aanduiding bij te staan.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een anoniem bericht beweert dat een bekende winkelketen sluit. Wat is je eerste stap?",
+        opties=[
+            "kijken of een nieuwsredactie het ook bericht",
+            "het bericht doorsturen naar je vrienden",
+            "de winkel een slechte beoordeling geven",
+            "ervan uitgaan dat het klopt tot het tegendeel blijkt",
+        ],
+        antwoord=0,
+        uitleg="Als zoiets waar is, staat het binnen het uur bij elke redactie. Staat het nergens anders, dan is dat zelf een antwoord.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke uitspraken over de dertien beoordelingscriteria kloppen?",
+        opties=[
+            "ze gelden ook voor beeld en geluid",
+            "geen enkel criterium beslist op zichzelf",
+            "je weegt ze samen af",
+            "ze moeten alle dertien positief uitvallen",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Zelden valt alles positief uit. Je maakt een afweging, en hoe meer rode vlaggen, hoe voorzichtiger je bent.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Een omgeving waarin je vooral je eigen mening weerkaatst krijgt: hoe heet dat? Antwoord met één woord.",
+        antwoord=["echokamer"],
+        uitleg="Alles wat je hoort, klinkt als wat je zelf al dacht.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom is anonimiteit op sociale media een factor in de polarisatie?",
+        opties=[
+            "wie niet herkend wordt, schrijft harder",
+            "anonieme berichten worden niet gelezen",
+            "anonimiteit maakt algoritmes trager",
+            "anonieme gebruikers kunnen niet reageren",
+        ],
+        antwoord=0,
+        uitleg="Zonder naam en gezicht valt een rem weg, en haatdragende taal krijgt dan makkelijker ruimte.",
+    ),
+]

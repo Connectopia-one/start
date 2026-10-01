@@ -1,0 +1,80 @@
+{
+ "vak": "Nederlands",
+ "titel": "Poëzie: dichtvormen, strofen en rijm",
+ "onder": "De vaste vormen, de strofen, de rijmsoorten en wat klank en wit met een gedicht doen.",
+ "secties": [
+  {
+   "kop": "Dichtvormen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Sonnet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gedicht van veertien verzen, met een wending</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Haiku</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gedicht van drie verzen, van vijf, zeven en vijf lettergrepen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Limerick</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kort, grappig gedicht van vijf verzen met een vast rijmschema en een onverwachte afloop</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ode</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een lofzang</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Elegie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een klaagzang om een verlies</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ballade</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een verhalend gedicht, vaak met een refrein</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Rondeel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vorm waarin bepaalde verzen letterlijk terugkeren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Acrostichon</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gedicht waarvan de eerste letters van de verzen samen een woord vormen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Minnelied</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een lied waarin een ridder zijn liefde bezingt voor een onbereikbare vrouw</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Dierendicht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gedicht waarin dieren optreden of toegesproken worden</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Visuele poëzie</strong> is poëzie waarin <strong>de vorm op de bladzijde meespeelt</strong>: de woorden tekenen mee wat ze zeggen. <strong>Parlandopoëzie</strong> klinkt alsof iemand gewoon aan het praten is. Een <strong>envoi</strong> is de korte slotstrofe met een opdracht."
+    },
+    {
+     "soort": "tekst",
+     "html": "Mondeling of op een podium gebracht worden vooral <strong>slampoetry</strong>, het <strong>minnelied</strong> en de <strong>ballade</strong>. De <strong>stok</strong> of <strong>stokregel</strong> is het vers dat in een refrein telkens terugkeert."
+    }
+   ]
+  },
+  {
+   "kop": "Strofen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Aantal verzen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Distichon</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Terzine</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Kwatrijn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vier</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Kwintet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vijf</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Sextet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zes</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Septet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zeven</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Octaaf</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">acht</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>distichon</strong> telt dus <strong>twee</strong> verzen en geen drie. Een sonnet van veertien verzen valt vaak uiteen in een <strong>octaaf</strong> van acht en een <strong>sextet</strong> van zes."
+    }
+   ]
+  },
+  {
+   "kop": "Rijm en klank",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Eindrijm</strong> zijn de laatste klanken van verzen die overeenkomen. <strong>Volrijm</strong> is rijm waarbij klinker én medeklinkers overeenkomen, zoals in <em>boom</em> en <em>stroom</em>. <strong>Assonantie</strong> is rijm waarbij <strong>enkel de klinkers</strong> overeenkomen. <strong>Alliteratie</strong> is dezelfde beginklank bij opeenvolgende woorden; een ander woord daarvoor is <strong>stafrijm</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>mannelijk of staand rijm</strong> ligt de klemtoon op de <strong>laatste</strong> lettergreep; bij vrouwelijk of slepend rijm op de voorlaatste."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>rijmschema</strong> noteer je met <strong>letters</strong>, waarbij dezelfde letter dezelfde rijmklank aangeeft: <strong>aabb is gepaard rijm</strong>, <strong>abba is omarmend rijm</strong>, <strong>abab is gekruist rijm</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Begrippen die over <strong>klank</strong> gaan, zijn dus <strong>assonantie</strong>, <strong>alliteratie</strong> en <strong>volrijm</strong>. Een gedicht <strong>hardop</strong> lezen loont, want <strong>klank en ritme komen pas dan tot hun recht</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Vorm, ritme en wit",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>enjambement</strong> is een zin die over de versregel heen doorloopt. In een fragment als <em>de wind / draagt wat de bomen / niet meer houden</em> valt op dat <strong>de zin over de versgrenzen heen loopt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>volta</strong> is de <strong>wending</strong> in de gedachtegang, bekend uit het sonnet maar ook elders mogelijk. Het <strong>ritme</strong> van een gedicht is de afwisseling van <strong>sterke en zwakke lettergrepen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zet een dichter <strong>één woord alleen op een regel met veel wit eromheen</strong>, dan <strong>krijgt dat woord alle aandacht</strong>. <strong>Een gedicht zonder rijm en zonder vaste maat bestaat wel degelijk</strong>: vrije verzen zijn al meer dan een eeuw gewoon."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>lyrisch subject</strong> is de ik-figuur in een gedicht. Dat is <strong>niet automatisch de dichter zelf</strong>, net zomin als een ik-verteller de romanschrijver is. Een <strong>semantisch veld</strong> is een groep woorden rond hetzelfde betekenisgebied; samen kleuren ze de sfeer van een gedicht."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

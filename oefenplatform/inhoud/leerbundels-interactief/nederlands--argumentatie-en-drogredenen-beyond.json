@@ -1,0 +1,84 @@
+{
+ "vak": "Nederlands",
+ "titel": "Argumentatie en drogredenen",
+ "onder": "Feit tegenover mening, stelling, argument en conclusie, de soorten argumentatie en de bekendste drogredenen.",
+ "secties": [
+  {
+   "kop": "Feit en mening",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>feit</strong> kan je nagaan; een <strong>mening</strong> niet. <em>Antwerpen heeft meer inwoners dan Gent</em> is een feit: het staat vast of het klopt. <em>Dit boek is veel te langdradig</em> is een mening."
+    },
+    {
+     "soort": "tekst",
+     "html": "Herken een mening aan oordelende woorden en aan werkwoorden als <em>moeten</em>: een zin met <strong>moeten</strong> erin is <strong>vaak</strong> een mening. <em>De schooldag zou later moeten beginnen</em> en <em>jongeren slapen te weinig voor hun eigen bestwil</em> zijn allebei meningen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een mening is niet minder waard dan een feit</strong> en hoort wel degelijk in een tekst thuis. Een opiniestuk bestaat er zelfs uit. Feiten en meningen uit elkaar houden is nuttig omdat <strong>je dan ziet waarop de redenering echt steunt</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Stelling, standpunt, argument, conclusie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>stelling</strong> is de bewering waarover de discussie gaat en die je wil verdedigen. Je <strong>standpunt</strong> is de positie die je tegenover die stelling inneemt, voor of tegen. Een <strong>argument</strong> is een reden die je aanvoert om je standpunt te onderbouwen. Een <strong>tegenargument</strong> is een reden die tegen jouw standpunt pleit."
+    },
+    {
+     "soort": "tekst",
+     "html": "Voorbeeld: <em>Scholen moeten later beginnen</em> is de <strong>stelling</strong>; <em>uit onderzoek blijkt dat tieners pas later in slaap vallen</em> is een <strong>argument</strong>. En <em>de bibliotheek moet langer open omdat veel studenten er 's avonds werken</em>: dat laatste stuk is het argument."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een goed opgebouwde argumentatieve tekst bevat <strong>een duidelijke stelling</strong>, <strong>argumenten die de stelling dragen</strong> en <strong>een conclusie die eruit volgt</strong>. Het <strong>verschil tussen stelling en conclusie</strong>: de stelling opent, de conclusie sluit af. <strong>De conclusie hoort te volgen uit de argumenten die eraan voorafgaan.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Wat maakt een argument sterk? Het is <strong>waar, ter zake en belangrijk genoeg</strong>. Die drie samen: <strong>een argument dat waar is, is daarom nog niet relevant</strong> voor de stelling. Zelf <strong>tegenargumenten noemen</strong> in je betoog is sterk, want <strong>je toont dat je de andere kant kent en weerlegt</strong>. Je weerlegt een tegenargument door <strong>te tonen waarom het niet opgaat</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "In een debat luister je <strong>niet enkel naar je eigen argumenten</strong>. Wie niet luistert, kan niet weerleggen. Hoor je een uitspraak als <em>deze maatregel is onrechtvaardig</em>, dan is de beste reactie <strong>vragen op welke argumenten ze steunt</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Soorten argumentatie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Op basis van wetenschappelijk onderzoek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uit een studie bij drieduizend leerlingen blijkt dat later beginnen de resultaten verbetert</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Op basis van cijfers en statistieken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in zeven op de tien gemeenten daalde het cijfer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Op basis van een autoriteit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bekende acteur beweert in een spot dat een middel helpt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Op basis van vergelijking</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in Finland werkt dit al jaren, dus bij ons zal het ook werken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Op basis van oorzaak en gevolg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">door de maatregel daalde het aantal ongevallen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Op basis van een voorbeeld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in onze school zagen we precies hetzelfde gebeuren</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Argumenteren met cijfers is niet altijd betrouwbaar.</strong> Cijfers kunnen onvolledig zijn, uit hun verband gehaald of op een vertekende manier getoond. Bij een argument dat naar <strong>onderzoek</strong> verwijst, vraag je: <strong>wie voerde het onderzoek uit</strong>, <strong>hoeveel mensen namen eraan deel</strong> en <strong>wie heeft het onderzoek betaald</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Argumentatie op basis van oorzaak en gevolg vraagt dat het verband ook echt bestaat.</strong> Steeg in een gemeente zowel het aantal ooievaars als het aantal geboorten, dan is er <strong>samenhang, maar geen bewezen oorzaak</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Drogredenen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>drogreden</strong> is een redenering die op het eerste gezicht klopt maar bij nader inzien niet deugt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Drogreden</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe ze klinkt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat eraan schort</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Persoonlijke aanval</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jij hebt daar geen verstand van, dus je hebt ongelijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de persoon wordt aangevallen in plaats van zijn argument</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Beroep op de massa</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iedereen vindt dit, dus het klopt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dat velen iets vinden maakt het nog niet waar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Hellend vlak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als we dit toelaten, staan we morgen voor de afgrond</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een reeks gevolgen wordt verondersteld zonder bewijs</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Beroep op traditie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dit is altijd zo geweest, dus het moet zo blijven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ouderdom is geen reden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Vals dilemma</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ofwel ben je voor, ofwel ben je tegen ons</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er wordt gedaan alsof er maar twee mogelijkheden zijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Cirkelredenering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het is waar, want het staat er</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de stelling zelf dient als argument voor die stelling</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ontwijken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">antwoorden met een verhaal over iets anders</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vraag wordt ontweken in plaats van beantwoord</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Ook <em>dat zegt iemand die zelf nooit op tijd komt</em> is een drogreden: opnieuw een persoonlijke aanval. Wil je in je eigen betoog drogredenen vermijden, controleer dan <strong>of elk argument echt over de stelling gaat</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

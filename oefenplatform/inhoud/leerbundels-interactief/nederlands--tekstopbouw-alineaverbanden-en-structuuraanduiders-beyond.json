@@ -1,0 +1,105 @@
+{
+ "vak": "Nederlands",
+ "titel": "Tekstopbouw, alineaverbanden en structuuraanduiders",
+ "onder": "De IMS-structuur, de verbanden tussen alinea's, de signaal- en verwijswoorden en de negen vaste tekststructuren.",
+ "secties": [
+  {
+   "kop": "De IMS-structuur",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De drie letters van de <strong>IMS-structuur</strong> staan voor <strong>inleiding, midden en slot</strong>. Elke goed gestructureerde tekst heeft die drie delen, hoe kort of hoe lang hij ook is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een goede <strong>inleiding</strong> <strong>zet het onderwerp neer en wekt interesse</strong>. Het <strong>midden</strong> is het deel waarin de <strong>deelonderwerpen uitgewerkt</strong> worden. In het <strong>slot</strong> vind je doorgaans <strong>het besluit</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Eén <strong>alinea</strong> behandelt <strong>één</strong> deelonderwerp. Een nieuwe gedachte betekent een nieuwe alinea. Een <strong>tekst zonder enige alinea-indeling leest niet even vlot</strong> als een tekst met alinea's."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wat een tekst mee opbouwt: <strong>tussentitels</strong> (ze maken een tekst toegankelijker), <strong>paragrafen</strong> en <strong>witregels tussen de delen</strong>. Een <strong>goede lay-out</strong> zegt op zichzelf echter <strong>niets over de inhoud</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Verbanden tussen alinea's",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Tussen twee alinea's ligt altijd een <strong>verband</strong>. Je herkent het aan de eerste woorden van de nieuwe alinea."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verband</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Herkenbaar aan</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Tegenstellend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">daar staat tegenover, maar, toch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eerst de kosten, dan de baten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Oorzakelijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">daardoor, als gevolg daarvan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de oorzaak en wat eruit volgde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Redengevend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">want, omdat, immers</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de reden achter een bewering</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Concluderend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">daarom besloot, dus, kortom</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat men uit het vorige afleidde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Voorwaardelijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als, indien, op voorwaarde dat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat er geldt in welk geval</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Chronologisch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in 1950, daarna, vervolgens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1950, dan 1970, dan 2000</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Doel-middel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">om dat te bereiken, daartoe</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat men deed om iets te halen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Opsommend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ten eerste, ten tweede, tot slot</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">punten na elkaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Vergelijkend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">net als, in tegenstelling tot</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee zaken naast elkaar</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een tekst die eerst de <strong>voordelen</strong> en daarna de <strong>nadelen</strong> behandelt, gebruikt dus een herkenbaar alineaverband: een tegenstellend."
+    }
+   ]
+  },
+  {
+   "kop": "Structuuraanduiders",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Structuuraanduiders</strong> zijn <strong>verwijswoorden en signaalwoorden samen</strong>. Ze maken de draad van een tekst zichtbaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Verwijswoorden</strong> zijn woorden als <em>zij</em>, <em>hem</em>, <em>deze</em> en <em>hun</em>: ze slaan terug op iets wat eerder genoemd werd. <strong>Signaalwoorden</strong> zijn woorden als <em>maar</em>, <em>dus</em>, <em>hoewel</em> en <em>bovendien</em>: ze geven het verband aan. <em>Want</em> wijst op een <strong>redengevend</strong> verband."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Ten eerste, ten tweede en tot slot</strong> wijzen <strong>niet</strong> op een tegenstellend verband maar op een <strong>opsommend</strong> verband. In een instructie staan ze zo vaak omdat <strong>de volgorde van de stappen duidelijk moet zijn</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Hetzelfde signaalwoord kan in twee teksten een ander verband aangeven.</strong> <em>Dus</em> kan concluderend zijn, maar ook gewoon de draad oppakken. Lees het verband dus af van de inhoud, niet alleen van het woord."
+    },
+    {
+     "soort": "tekst",
+     "html": "Waarom je bij het lezen op structuuraanduiders let: <strong>je reconstrueert zo de gedachtegang</strong> van de schrijver, ook als de inhoud zelf moeilijk is."
+    }
+   ]
+  },
+  {
+   "kop": "De negen vaste tekststructuren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Structuur</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waaraan je ze herkent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Probleemstructuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een probleem, de oorzaken en mogelijke oplossingen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Maatregelstructuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een probleem, en daarna wat de overheid of een instantie moet doen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Vergelijkingsstructuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee zaken naast elkaar op dezelfde punten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Evaluatiestructuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een oordeel, afgewogen op meerdere criteria</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Argumentatiestructuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">argumenten voor een standpunt, tegenargumenten weerlegd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Verklaringsstructuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uitleg over hoe iets in elkaar zit of waarom iets gebeurt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Handelingsstructuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een stappenplan, in de volgorde van de handeling</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ontwikkelingsstructuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoe iets over een langere periode veranderde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Onderzoeksstructuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vraag, een methode, resultaten en een besluit</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Voorbeelden: een recensie van een restaurant die het eten, de bediening en de prijs afweegt, volgt de <strong>evaluatiestructuur</strong>. Een artikel over hoe het openbaar vervoer in vijftig jaar veranderde, de <strong>ontwikkelingsstructuur</strong>. Een tekst die elektrische en benzinewagens naast elkaar zet op prijs, verbruik en onderhoud, de <strong>vergelijkingsstructuur</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Eén tekst kan meerdere vaste tekststructuren bevatten.</strong> Een vaste structuur gebruiken <strong>helpt je lezer de tekst sneller te volgen</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Conventies en beeldmateriaal",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>verslag van een onderzoeksopdracht</strong> hoort <strong>academische en objectieve taal</strong>. Bij een <strong>formele e-mail</strong> horen <strong>een gepaste aanspreking</strong>, <strong>een verzorgde slotgroet</strong> en <strong>correcte spelling en interpunctie</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>grafiek</strong> bij een tekst <strong>maakt cijfers in één oogopslag vergelijkbaar</strong>. Maar <strong>multimediale elementen kunnen de boodschap ook veranderen</strong> in plaats van haar enkel te versterken; lees ze dus even kritisch als de tekst."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wil je snel weten of een tekst nuttig voor je is, bekijk dan eerst <strong>de titel</strong>, <strong>de tussentitels</strong> en <strong>het slot</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

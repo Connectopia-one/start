@@ -1,0 +1,398 @@
+# -*- coding: utf-8 -*-
+"""Zinsontleding en zinsbouw — 🌍 Beyond, Nederlands.
+
+Naast de twee vakfiches geschreven, die onder syntaxis het zinsdeel, de
+zinssoorten, de woordvolgorde en de zinsdelen opsommen. Deel 1: de
+zinssoorten en de woordvolgorde. Deel 2: de redekundige ontleding, met
+onderwerp, gezegde, voorwerpen en bepaling.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een zinsdeel?",
+        opties=[
+            "een groep woorden die samen één rol speelt",
+            "elk afzonderlijk woord van de zin",
+            "de eerste helft van een samengestelde zin",
+            "een zin die uit één woord bestaat",
+        ],
+        antwoord=0,
+        uitleg="In 'de oude man' horen drie woorden bij elkaar. Je kan ze alleen samen verplaatsen, en dat verraadt dat ze één zinsdeel vormen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke zinssoorten onderscheidt men naar hun bedoeling?",
+        opties=[
+            "de mededelende zin",
+            "de vragende zin",
+            "de bevelende zin",
+            "de beschrijvende zin",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Een beschrijvende zin staat niet in de rij. Naast de drie genoemde is er nog de uitroepende zin.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je een zin die een bevel geeft? Vul aan: een ... zin.",
+        antwoord=["bevelende"],
+        uitleg="Een bevelende zin staat in de gebiedende wijs en eindigt vaak op een uitroepteken.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="'Hij komt niet' is een ontkennende zin.",
+        antwoord=True,
+        uitleg="Het woordje niet maakt de mededeling ontkennend. Zonder dat woordje zou de zin bevestigend zijn.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het verschil tussen een actieve en een passieve zin?",
+        opties=[
+            "in een passieve zin ondergaat het onderwerp de handeling",
+            "een passieve zin is altijd langer dan een actieve",
+            "een passieve zin heeft nooit een onderwerp",
+            "een actieve zin staat altijd in de tegenwoordige tijd",
+        ],
+        antwoord=0,
+        uitleg="'De hond bijt de man' is actief; 'De man wordt gebeten' is passief. In het tweede geval overkomt het de man.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een enkelvoudige zin?",
+        opties=[
+            "een zin met maar één persoonsvorm",
+            "een zin met maar één woord",
+            "een zin zonder lijdend voorwerp",
+            "een zin in het enkelvoud",
+        ],
+        antwoord=0,
+        uitleg="Het aantal vervoegde werkwoorden bepaalt het aantal zinnen. Twee persoonsvormen betekent een samengestelde zin.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Bij nevenschikking zijn de twee delen van de zin gelijkwaardig.",
+        antwoord=True,
+        uitleg="En, maar, of, want: die verbinden twee hoofdzinnen die allebei op eigen benen kunnen staan.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is onderschikking?",
+        opties=[
+            "een bijzin die afhangt van een hoofdzin",
+            "twee hoofdzinnen naast elkaar",
+            "een zin zonder persoonsvorm",
+            "een zin met een omgekeerde volgorde",
+        ],
+        antwoord=0,
+        uitleg="'Ik blijf thuis omdat het regent': de bijzin kan niet alleen staan en hangt af van de hoofdzin.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke woorden leiden een bijzin in?",
+        opties=[
+            "omdat",
+            "hoewel",
+            "die",
+            "en",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="En is nevenschikkend en verbindt twee gelijkwaardige delen. De drie andere maken van wat volgt een bijzin.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je het woord waarnaar een betrekkelijke bijzin terugverwijst? Antwoord met één woord.",
+        antwoord=["antecedent"],
+        uitleg="In 'de fiets die ik kocht' is fiets het antecedent.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="In een Nederlandse bijzin staat de persoonsvorm meestal achteraan.",
+        antwoord=True,
+        uitleg="'...omdat hij elke dag naar school fietst.' In de hoofdzin zou de persoonsvorm op de tweede plaats staan.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is inversie?",
+        opties=[
+            "het onderwerp staat achter de persoonsvorm",
+            "de bijzin staat achter de hoofdzin",
+            "het werkwoord staat helemaal achteraan",
+            "de zin begint met een voegwoord",
+        ],
+        antwoord=0,
+        uitleg="'Morgen vertrekken wij' in plaats van 'Wij vertrekken morgen'. Omdat er iets anders vooraan staat, keert de volgorde om.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een tangconstructie?",
+        opties=[
+            "twee bij elkaar horende delen staan ver uit elkaar",
+            "twee zinnen worden met een voegwoord verbonden",
+            "twee werkwoorden staan vlak na elkaar",
+            "twee onderwerpen delen één persoonsvorm",
+        ],
+        antwoord=0,
+        uitleg="'Hij heeft het boek dat hij vorige week kocht gelezen': heeft en gelezen omsluiten de hele rest als de twee benen van een tang.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een lange tangconstructie maakt een zin makkelijker te volgen.",
+        antwoord=False,
+        uitleg="Hoe verder de twee delen uit elkaar staan, hoe langer de lezer moet onthouden waar de zin naartoe gaat.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Op welke plaats staat de persoonsvorm in een gewone mededelende hoofdzin?",
+        opties=[
+            "op de tweede plaats",
+            "op de eerste plaats",
+            "op de laatste plaats",
+            "dat ligt niet vast",
+        ],
+        antwoord=0,
+        uitleg="Het Nederlands is een tweedepositietaal: wat er ook vooraan staat, de persoonsvorm volgt er meteen op.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke zinnen zijn samengesteld?",
+        opties=[
+            "Hij komt en zij blijft.",
+            "Ik blijf thuis omdat het regent.",
+            "Toen hij kwam, zweeg iedereen.",
+            "De oude man loopt traag.",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="De laatste heeft maar één persoonsvorm. De drie andere hebben er twee en bestaan dus uit twee zinnen.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de omkering waarbij het onderwerp achter de persoonsvorm belandt? Antwoord met één woord.",
+        antwoord=["inversie"],
+        uitleg="Inversie treedt op zodra er iets anders dan het onderwerp vooraan de zin staat.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een uitroepende zin eindigt altijd met een vraagteken.",
+        antwoord=False,
+        uitleg="Een uitroepende zin eindigt met een uitroepteken. Een vraagteken hoort bij een vragende zin.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom is variatie in zinsbouw een criterium bij schrijven?",
+        opties=[
+            "afwisseling houdt een tekst levendig",
+            "lange zinnen tellen zwaarder mee",
+            "korte zinnen zijn altijd beter",
+            "de regels van de spelling eisen dat",
+        ],
+        antwoord=0,
+        uitleg="Enkel korte zinnen gaat hakkelen, enkel lange zinnen vermoeit. Afwisselen tussen enkelvoudig en samengesteld houdt het lezen gaande.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="In 'Gisteren las ik een boek' staat 'gisteren' vooraan. Wat gebeurt er met de volgorde?",
+        opties=[
+            "er treedt inversie op",
+            "de zin wordt een bijzin",
+            "de persoonsvorm verdwijnt",
+            "er ontstaat een tangconstructie",
+        ],
+        antwoord=0,
+        uitleg="Doordat gisteren de eerste plaats inneemt, schuift het onderwerp ik achter de persoonsvorm las.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="Hoe vind je het onderwerp van een zin?",
+        opties=[
+            "je vraagt wie of wat plus de persoonsvorm",
+            "je neemt het eerste woord van de zin",
+            "je neemt het woord na het werkwoord",
+            "je neemt het langste zinsdeel",
+        ],
+        antwoord=0,
+        uitleg="Wie of wat loopt? De man. Dat is het onderwerp, waar het ook in de zin staat.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke soorten voorwerpen onderscheidt men?",
+        opties=[
+            "het lijdend voorwerp",
+            "het meewerkend voorwerp",
+            "het voorzetselvoorwerp",
+            "het bijvoeglijk voorwerp",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Een bijvoeglijk voorwerp bestaat niet. Naast de drie genoemde is er nog het handelend voorwerp in een passieve zin.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je het zinsdeel dat antwoordt op 'wie of wat plus de persoonsvorm'? Antwoord met één woord.",
+        antwoord=["onderwerp"],
+        uitleg="Het onderwerp bepaalt ook de vorm van de persoonsvorm: enkelvoud of meervoud.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="In 'Hij geeft zijn zus een boek' is 'een boek' het lijdend voorwerp.",
+        antwoord=True,
+        uitleg="Wie of wat geeft hij? Een boek. Zijn zus is het meewerkend voorwerp: aan wie geeft hij het.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een naamwoordelijk gezegde?",
+        opties=[
+            "een koppelwerkwoord met een naamwoordelijk deel",
+            "een gezegde zonder enig werkwoord erin",
+            "een gezegde met twee zelfstandige werkwoorden",
+            "een gezegde dat uit een bijzin bestaat",
+        ],
+        antwoord=0,
+        uitleg="In 'Hij is leraar' vormen is en leraar samen het naamwoordelijk gezegde.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke zinsdelen staan in 'De leraar gaf de leerlingen gisteren een toets'?",
+        opties=[
+            "een onderwerp",
+            "een meewerkend voorwerp",
+            "een bijwoordelijke bepaling",
+            "een handelend voorwerp",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="De leraar is het onderwerp, de leerlingen het meewerkend voorwerp, gisteren de bepaling. Een handelend voorwerp hoort bij een passieve zin.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een bijwoordelijke bepaling zegt iets over de omstandigheden van de handeling.",
+        antwoord=True,
+        uitleg="Wanneer, waar, hoe, waarom: dat zijn de vragen waar een bijwoordelijke bepaling op antwoordt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het handelend voorwerp?",
+        opties=[
+            "de uitvoerder in een passieve zin, met door",
+            "het voorwerp dat de handeling ondergaat",
+            "de persoon aan wie iets gegeven wordt",
+            "het eerste zinsdeel van elke zin",
+        ],
+        antwoord=0,
+        uitleg="In 'De man wordt door de hond gebeten' is 'door de hond' het handelend voorwerp.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe vind je het lijdend voorwerp?",
+        opties=[
+            "je vraagt wie of wat plus het gezegde en het onderwerp",
+            "je neemt gewoon het laatste zinsdeel van de zin",
+            "je zoekt het zinsdeel dat met een voorzetsel begint",
+            "je zoekt het kortste zinsdeel van de zin",
+        ],
+        antwoord=0,
+        uitleg="Wie of wat leest hij? Een boek. Dat is het lijdend voorwerp.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je het vervoegde werkwoord van een zin? Antwoord met één woord.",
+        antwoord=["persoonsvorm"],
+        uitleg="De persoonsvorm verandert mee met het onderwerp en met de tijd.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Elke zin heeft verplicht een lijdend voorwerp.",
+        antwoord=False,
+        uitleg="'Hij slaapt' heeft er geen. Alleen een onderwerp en een gezegde zijn echt onmisbaar.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een voorzetselvoorwerp?",
+        opties=[
+            "een voorwerp dat met een vast voorzetsel komt",
+            "een bepaling van plaats met een voorzetsel",
+            "elk zinsdeel dat met een voorzetsel begint",
+            "het onderwerp van een passieve zin",
+        ],
+        antwoord=0,
+        uitleg="Denken aan, rekenen op, wachten op: het voorzetsel hoort vast bij het werkwoord en is niet vrij te vervangen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke vragen helpen je een bijwoordelijke bepaling te vinden?",
+        opties=[
+            "wanneer",
+            "waar",
+            "hoe",
+            "wie of wat",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Wie of wat leidt naar het onderwerp of het lijdend voorwerp. De drie andere leiden naar de omstandigheden.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Het werkwoordelijk gezegde bestaat enkel uit de persoonsvorm.",
+        antwoord=False,
+        uitleg="Alle werkwoorden samen vormen het gezegde. In 'Hij zou gisteren gekomen zijn' horen zou, gekomen en zijn er alle drie bij.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="In 'Aan mijn zus heb ik een brief geschreven' is 'aan mijn zus':",
+        opties=[
+            "het meewerkend voorwerp",
+            "het lijdend voorwerp",
+            "een bijwoordelijke bepaling",
+            "het handelend voorwerp",
+        ],
+        antwoord=0,
+        uitleg="Aan wie schreef ik de brief? Aan mijn zus. Dat is het meewerkend voorwerp, hier met het voorzetsel aan erbij.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom helpt zinsontleding bij het spellen van werkwoorden?",
+        opties=[
+            "je vindt zo het onderwerp bij de persoonsvorm",
+            "je vindt zo de spelling in het woordenboek",
+            "je ziet zo hoeveel woorden er in de zin staan",
+            "je ziet zo of de zin een vraag is",
+        ],
+        antwoord=0,
+        uitleg="Wie het onderwerp niet vindt, weet niet of er een t bij de stam moet. Daarom hangt de werkwoordspelling aan de ontleding vast.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je het zinsdeel dat antwoordt op 'aan wie' of 'voor wie'? Vul aan: het ... voorwerp.",
+        antwoord=["meewerkend"],
+        uitleg="Het meewerkend voorwerp is degene voor wie of aan wie de handeling gebeurt.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een zinsdeel kan uit één woord bestaan.",
+        antwoord=True,
+        uitleg="In 'Hij loopt' is hij een zinsdeel van één woord. Zinsdelen kunnen ook heel lang zijn.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe test je of een groep woorden één zinsdeel vormt?",
+        opties=[
+            "je verplaatst ze samen naar voren in de zin",
+            "je telt het aantal woorden in de groep",
+            "je kijkt of er een voorzetsel bij staat",
+            "je kijkt of de groep met een lidwoord begint",
+        ],
+        antwoord=0,
+        uitleg="Wat je alleen samen kan verplaatsen, hoort samen. Dat is de verplaatsingsproef.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="In 'De brief werd door de postbode bezorgd' is de zin:",
+        opties=[
+            "passief",
+            "actief",
+            "bevelend",
+            "vragend",
+        ],
+        antwoord=0,
+        uitleg="Het onderwerp, de brief, ondergaat de handeling. De uitvoerder staat met door erbij.",
+    ),
+]
