@@ -304,4 +304,115 @@ module.exports = [
     ],
     voet: { hand: "Ruimte voor nieuwsgierigheid, talent en uitdaging", url: "www.connectopia.one" },
   },
+
+  {
+    bestand: "oefenplatform-prikkelarm",
+    kleur: "groen",
+    pil: "Oefenplatform",
+    hand: "Rustig gebouwd, met opzet",
+    titel: "Prikkelarm,<br><span>omdat het helpt</span>",
+    tekst:
+      "Wij werken in de eerste plaats met hoogbegaafde kinderen, vaak met ASS of ADHD erbij. Die leren op een andere manier en hebben nood aan duidelijkheid, structuur en rust.",
+    woorden: [
+      { ic: "🍃", tekst: "Geen animaties" },
+      { ic: "🎨", tekst: "Rustige kleuren" },
+      { ic: "📋", tekst: "Duidelijke instructies" },
+    ],
+    nadruk:
+      "<b>Maar het is er voor iedereen.</b> Of je kind nu hoogbegaafd is, extra ondersteuning nodig heeft of gewoon wat wil bijoefenen.",
+    voet: { hand: "Kijk gerust rond op", url: "oefenplatform.connectopia.one" },
+  },
+
+  {
+    bestand: "oefenplatform-voor-wie",
+    kleur: "blauw",
+    pil: "Voor wie",
+    hand: "Van 5de leerjaar tot 6de middelbaar",
+    titel: "Voor wie is dit<br><span>platform bedoeld?</span>",
+    titelKlein: true,
+    tekst:
+      "Je hoeft bij ons niet aangesloten te zijn om mee te oefenen. Het platform staat open voor elk kind dat er iets aan heeft.",
+    woorden: [
+      { ic: "🎓", tekst: "Examencommissie" },
+      { ic: "💡", tekst: "Hoogbegaafd" },
+      { ic: "♾️", tekst: "ASS of ADHD" },
+      { ic: "🚀", tekst: "Alvast vooruit" },
+    ],
+    nadruk:
+      "<b>Ook wie thuis leert.</b> De hoofdstukken volgen de leerstof van het leerjaar, dus je kan er de examens van de Examencommissie mee voorbereiden.",
+    voet: { hand: "Proef een gratis hoofdstuk op", url: "oefenplatform.connectopia.one" },
+  },
+
+  {
+    bestand: "oefenplatform-gratis-voor-leden",
+    kleur: "oranje",
+    pil: "Gratis voor leden",
+    hand: "Zit je kind bij ons in een werking?",
+    titel: "Dan oefent het<br><span>gratis mee</span>",
+    tekst:
+      "Kinderen die bij ons aangesloten zijn via de plusklas, een pluswerking of een ander traject krijgen gratis toegang tot alle materiaal op het platform.",
+    woorden: [
+      { ic: "🚀", tekst: "Externe plusklas, dinsdag" },
+      { ic: "🎓", tekst: "Pluswerking woensdag" },
+      { ic: "🎨", tekst: "Pluswerking zaterdag" },
+    ],
+    nadruk:
+      "<b>En er hoort begeleiding bij.</b> Wij kijken mee wat een kind al maakte, zodat het op de dag zelf verder kan waar het vastliep.",
+    voet: { hand: "Ons aanbod staat op", url: "connectopia.one/aanbod" },
+  },
+
+  {
+    bestand: "oefenplatform-weetjesprikbord",
+    kleur: "oranje",
+    pil: "Weetjesprikbord",
+    hand: "Weet jij er een waar iedereen van opkijkt?",
+    titel: "Wist je dat<br><span>een koe vier magen heeft?</span>",
+    titelKlein: true,
+    tekst:
+      "Op het weetjesprikbord hangen de kinderen zelf hun weetje op. Wij lezen elk briefje eerst na, en dan hangt het erbij.",
+    woorden: [
+      { ic: "🐭", tekst: "De tanden van een muis blijven groeien" },
+      { ic: "🧊", tekst: "Een tesseract is een 4D-kubus" },
+      { ic: "🍌", tekst: "In een banaan zit een beetje radioactieve stof" },
+    ],
+    nadruk:
+      "<b>Nieuwsgierigheid mag.</b> Een weetje is geen oefening: geen punten, geen juist antwoord. Het mag gewoon straf zijn.",
+    voet: { hand: "Hang jouw weetje op via", url: "oefenplatform.connectopia.one" },
+  },
+
+  {
+    bestand: "oefenplatform-vier-niveaus",
+    kleur: "groen",
+    pil: "Oefenplatform",
+    hand: "Je kiest zelf waar je begint",
+    titel: "Vier niveaus,<br><span>één platform</span>",
+    woorden: [
+      { ic: "🌱", tekst: "Start · 5de en 6de leerjaar" },
+      { ic: "✨", tekst: "Spark · 1ste en 2de middelbaar" },
+      { ic: "🚀", tekst: "Boost · 3de en 4de middelbaar" },
+      { ic: "🌍", tekst: "Beyond · 5de en 6de middelbaar" },
+    ],
+    nadruk:
+      "<b>En er is meer:</b> 🧱 Basis om bouwstenen te herhalen, 🔭 de uitdagingshoek, badges en het weetjesprikbord.",
+    voet: { hand: "Kies je niveau op", url: "oefenplatform.connectopia.one" },
+  },
+
+  {
+    bestand: "oefenplatform-uitdagingshoek",
+    kleur: "paars",
+    pil: "Uitdagingshoek",
+    hand: "Verder dan de leerstof",
+    titel: "Voor wie graag<br><span>ver doordenkt</span>",
+    tekst:
+      "Vragen die naast de leerstof liggen, voor als een kind al lang klaar is en nog honger heeft. Geen leerjaar, geen punten die ergens meetellen.",
+    woorden: [
+      { ic: "🪐", tekst: "De ruimte" },
+      { ic: "💻", tekst: "Coderen en computers" },
+      { ic: "📜", tekst: "Geschiedenis van België" },
+      { ic: "🤯", tekst: "Paradoxen" },
+    ],
+    nadruk:
+      "<b>Zo een vraag bijvoorbeeld:</b> als het heelal oneindig vol sterren staat, waarom is de nacht dan donker?",
+    voet: { hand: "De uitdagingshoek vind je op", url: "oefenplatform.connectopia.one" },
+  },
 ];
