@@ -1,0 +1,400 @@
+# -*- coding: utf-8 -*-
+"""🌍 Beyond dubbele finaliteit — Overerving van kenmerken.
+
+Biologie, de onderkop "Overerving" van de kop "Genetica" uit de vakfiche
+natuurwetenschappen 3DU. Deel 1 gaat over de bouw van een chromosoom, het
+karyogram, haploïd en diploïd, mitose en meiose, en mutaties. Deel 2 gaat over
+kruisingen: dominant en recessief, homozygoot en heterozygoot, de wetten van
+Mendel, intermediaire en codominante overerving, de ABO-bloedgroepen,
+stambomen en geslachtsgebonden aandoeningen.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Waaruit bestaat een chromosoom?",
+        opties=[
+            "uit sterk opgerold DNA met eiwitten",
+            "uit een lange keten aminozuren",
+            "uit een dubbele laag fosfolipiden",
+            "uit korrels zetmeel in de celkern",
+        ],
+        antwoord=0,
+        uitleg="Vlak voor een celdeling rolt het DNA zich met behulp van eiwitten strak op. Pas dan zie je de chromosomen als aparte streepjes door de microscoop.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe heet het punt waar de twee chromatiden van een chromosoom aan elkaar vastzitten?",
+        antwoord=["centromeer", "het centromeer"],
+        uitleg="Na de DNA-verdubbeling bestaat een chromosoom uit twee identieke zusterchromatiden. Het centromeer is de insnoering waar ze samenhangen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoeveel chromosomen zitten er in een menselijke lichaamscel?",
+        opties=[
+            "46",
+            "23",
+            "44",
+            "92",
+        ],
+        antwoord=0,
+        uitleg="Zesenveertig, dat zijn drieëntwintig paren. Een geslachtscel heeft er maar drieëntwintig, één uit elk paar.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat betekent het dat een cel diploïd of 2n is?",
+        opties=[
+            "ze heeft van elk chromosoom twee exemplaren",
+            "ze heeft dubbel zoveel DNA als normaal",
+            "ze staat op het punt zich te delen",
+            "ze heeft twee celkernen naast elkaar",
+        ],
+        antwoord=0,
+        uitleg="Diploïd betekent dat de chromosomen in paren voorkomen, één van elke ouder. Haploïd of n betekent één exemplaar per chromosoom, zoals in een eicel of zaadcel.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je cellen met maar één exemplaar van elk chromosoom?",
+        antwoord=["haploïd", "haploide cellen", "haploïde cellen"],
+        uitleg="Haploïd of n. De geslachtscellen zijn haploïd, zodat de bevruchting weer een diploïde cel oplevert en het aantal chromosomen niet verdubbelt bij elke generatie.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat zijn homologe chromosomen?",
+        opties=[
+            "twee chromosomen van hetzelfde paar",
+            "twee chromatiden van hetzelfde chromosoom",
+            "twee chromosomen van verschillende lengte",
+            "de twee geslachtschromosomen samen",
+        ],
+        antwoord=0,
+        uitleg="Homologe chromosomen zijn even lang en dragen dezelfde genen op dezelfde plaats. De allelen op die plaatsen kunnen wel verschillen, want de ene komt van de vader en de andere van de moeder.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke geslachtschromosomen heeft een man?",
+        opties=[
+            "een X en een Y",
+            "twee X-chromosomen",
+            "twee Y-chromosomen",
+            "een X en twee Y's",
+        ],
+        antwoord=0,
+        uitleg="XY bij de man, XX bij de vrouw. De zaadcel bepaalt dus het geslacht, want zij draagt ofwel een X ofwel een Y.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Het geslacht van een kind wordt bepaald door de zaadcel.",
+        antwoord=True,
+        uitleg="Elke eicel draagt een X. De zaadcel draagt een X of een Y, en die keuze beslist dus of er XX of XY uitkomt.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe heet de foto waarop alle chromosomen van een cel per paar geordend staan?",
+        antwoord=["karyogram", "een karyogram", "karyotype"],
+        uitleg="Op een karyogram staan de paren gerangschikt van groot naar klein, met de geslachtschromosomen apart. Zo zie je in één oogopslag of er een chromosoom te veel of te weinig is.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het resultaat van een mitose of gewone celdeling?",
+        opties=[
+            "twee cellen met hetzelfde erfelijk materiaal",
+            "vier cellen met half zoveel chromosomen",
+            "twee cellen met elk een andere code",
+            "één cel met dubbel zoveel chromosomen",
+        ],
+        antwoord=0,
+        uitleg="Mitose maakt twee identieke dochtercellen, allebei diploïd. Daarmee groeit het lichaam en worden versleten cellen vervangen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het resultaat van een meiose of reductiedeling?",
+        opties=[
+            "vier haploïde cellen die onderling verschillen",
+            "twee identieke diploïde cellen",
+            "twee haploïde cellen die identiek zijn",
+            "vier diploïde cellen met nieuw DNA",
+        ],
+        antwoord=0,
+        uitleg="De meiose halveert het aantal chromosomen en schudt ze door elkaar. Zo ontstaan vier geslachtscellen die allemaal van elkaar verschillen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarvoor dient de meiose in ons lichaam? Er zijn er twee.",
+        opties=[
+            "geslachtscellen maken",
+            "variatie tussen de nakomelingen brengen",
+            "een wonde in de huid dichtmaken",
+            "het lichaam laten groeien",
+        ],
+        antwoord=[0, 1],
+        uitleg="Meiose gebeurt alleen in de eierstok en de teelbal. Groeien en wonden helen doet het lichaam met mitose.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Meiose komt in het menselijk lichaam alleen voor in de eierstokken en de teelballen.",
+        antwoord=True,
+        uitleg="Alleen daar worden geslachtscellen gemaakt. In alle andere weefsels deelt een cel mitotisch.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom moet het DNA verdubbelen vóór een cel deelt?",
+        opties=[
+            "anders krijgt niet elke dochtercel een volledige set",
+            "anders kan de cel niet door het celmembraan",
+            "anders blijft het chromosoom te lang opgerold",
+            "anders wordt de celkern te zwaar",
+        ],
+        antwoord=0,
+        uitleg="Wat verdeeld wordt, moet eerst in tweevoud bestaan. Zonder verdubbeling zouden de dochtercellen elk maar de helft van de informatie krijgen.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je een blijvende verandering in de volgorde van de basen in het DNA?",
+        antwoord=["mutatie", "een mutatie"],
+        uitleg="Een mutatie is een fout of verandering in de code. Ze kan zonder gevolg blijven, schadelijk zijn, of heel soms een voordeel opleveren.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wanneer is een mutatie erfelijk?",
+        opties=[
+            "als ze in een geslachtscel zit",
+            "als ze in een huidcel zit",
+            "als ze pas na de geboorte ontstaat",
+            "als ze meerdere genen tegelijk raakt",
+        ],
+        antwoord=0,
+        uitleg="Alleen wat in de eicel of de zaadcel zit, gaat mee naar het kind. Een mutatie in een lichaamscel blijft bij die ene persoon.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een mutatie in een lichaamscel kan doorgegeven worden aan je kinderen.",
+        antwoord=False,
+        uitleg="Zo'n mutatie blijft in dat weefsel en verdwijnt met de persoon. Ze kan daar wel schade aanrichten, bijvoorbeeld bij het ontstaan van kanker.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat kan een mutatie veroorzaken? Er zijn er drie.",
+        opties=[
+            "uv-straling van de zon",
+            "bepaalde chemische stoffen",
+            "een fout bij het kopiëren van DNA",
+            "het eten van te veel suiker",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Straling en bepaalde stoffen beschadigen het DNA, en ook het kopiëren zelf gaat soms mis. Suiker verandert de basenvolgorde niet.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Elke mutatie is schadelijk voor het organisme.",
+        antwoord=False,
+        uitleg="Veel mutaties veranderen niets, omdat ze in een stuk DNA vallen dat niet gebruikt wordt of omdat het eiwit hetzelfde blijft. Een enkele keer levert een mutatie zelfs een voordeel op.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoeveel chromosomen zitten er in een menselijke eicel?",
+        opties=[
+            "23",
+            "46",
+            "22",
+            "24",
+        ],
+        antwoord=0,
+        uitleg="Drieëntwintig, dus haploïd. Samen met de drieëntwintig van de zaadcel maakt dat weer zesenveertig in de bevruchte eicel.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat betekent het dat iemand homozygoot is voor een kenmerk?",
+        opties=[
+            "de twee allelen voor dat kenmerk zijn gelijk",
+            "de twee allelen voor dat kenmerk verschillen",
+            "het kenmerk komt niet tot uiting",
+            "het kenmerk ligt op een geslachtschromosoom",
+        ],
+        antwoord=0,
+        uitleg="Homozygoot betekent twee dezelfde allelen, bijvoorbeeld AA of aa. Bij twee verschillende allelen, Aa, ben je heterozygoot.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je iemand met twee verschillende allelen voor hetzelfde kenmerk?",
+        antwoord=["heterozygoot", "heterozygoot persoon", "hybride"],
+        uitleg="Heterozygoot, bijvoorbeeld Aa. Bij dominant-recessieve overerving zie je dan alleen het dominante kenmerk, maar draag je het recessieve wel mee.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een recessief allel?",
+        opties=[
+            "het komt alleen tot uiting in dubbele vorm",
+            "het komt altijd tot uiting, ook in enkele vorm",
+            "het komt alleen bij mannen tot uiting",
+            "het verdwijnt na één generatie",
+        ],
+        antwoord=0,
+        uitleg="Een recessief allel wordt overstemd door een dominant. Je ziet het pas als beide allelen recessief zijn, dus bij aa.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Twee heterozygote ouders, Aa en Aa, krijgen kinderen. Hoeveel procent vertoont statistisch gezien het recessieve kenmerk?",
+        opties=[
+            "25 %",
+            "50 %",
+            "75 %",
+            "100 %",
+        ],
+        antwoord=0,
+        uitleg="De combinaties zijn AA, Aa, aA en aa. Alleen aa toont het recessieve kenmerk, en dat is één op vier.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoeveel procent van de kinderen van Aa en Aa draagt het recessieve allel, maar toont het niet?",
+        antwoord=["50 %", "50", "50%"],
+        uitleg="Aa en aA zijn samen de helft. Zij dragen het recessieve allel mee zonder het te tonen, en heten daarom dragers.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat zegt de uniformiteitswet van Mendel?",
+        opties=[
+            "kruis je twee raszuivere ouders, dan lijkt de F1 op elkaar",
+            "de F2 splitst zich altijd in drie tegen één",
+            "elk allel wordt apart doorgegeven",
+            "dominante allelen verdwijnen na twee generaties",
+        ],
+        antwoord=0,
+        uitleg="Twee raszuivere ouders die voor een kenmerk verschillen, geven een eerste generatie die er allemaal hetzelfde uitziet. Uniform betekent gelijkvormig.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat zegt de splitsingswet van Mendel?",
+        opties=[
+            "in de F2 duikt het verborgen kenmerk weer op",
+            "in de F1 lijken alle nakomelingen op elkaar",
+            "elk kenmerk wordt door twee genen bepaald",
+            "dominante kenmerken zijn altijd in de meerderheid",
+        ],
+        antwoord=0,
+        uitleg="Kruis je twee planten uit de F1 met elkaar, dan splitst het recessieve kenmerk zich weer af, meestal in de verhouding drie tegen één.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="In welke verhouding splitsen de fenotypes zich in de F2 bij dominant-recessieve overerving?",
+        antwoord=["3 op 1", "3:1", "drie op een"],
+        uitleg="Drie nakomelingen met het dominante kenmerk tegenover één met het recessieve. Die drie bestaan uit één AA en twee Aa.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is intermediaire overerving?",
+        opties=[
+            "de heterozygoot zit tussen de twee ouders in",
+            "de heterozygoot toont beide kenmerken naast elkaar",
+            "het ene allel verdwijnt helemaal",
+            "het kenmerk slaat één generatie over",
+        ],
+        antwoord=0,
+        uitleg="Een rode en een witte bloem geven dan roze nakomelingen. Geen van beide allelen is sterker, dus het resultaat ligt ertussenin.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is codominante overerving?",
+        opties=[
+            "beide kenmerken zijn naast elkaar zichtbaar",
+            "beide kenmerken vloeien samen tot iets nieuws",
+            "het recessieve kenmerk wint het",
+            "het kenmerk komt enkel bij vrouwen voor",
+        ],
+        antwoord=0,
+        uitleg="Bij codominantie laat de heterozygoot allebei de allelen zien. Bloedgroep AB is het bekendste voorbeeld: A en B naast elkaar, niet vermengd.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Bloedgroep AB is een voorbeeld van intermediaire overerving.",
+        antwoord=False,
+        uitleg="Het is codominantie. De allelen voor A en voor B zijn even sterk en worden allebei getoond, naast elkaar. Bij intermediaire overerving zou er iets tussenin ontstaan, en dat gebeurt hier niet.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke allelen bepalen de ABO-bloedgroepen? Er zijn er drie.",
+        opties=[
+            "het allel voor A",
+            "het allel voor B",
+            "het allel voor O",
+            "het allel voor de resusfactor",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Drie allelen, waarvan iedereen er twee heeft. De resusfactor, de plus of de min achter je bloedgroep, wordt door een ander gen bepaald.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk genotype hoort bij bloedgroep O?",
+        opties=[
+            "twee keer het allel O",
+            "één keer A en één keer O",
+            "één keer B en één keer O",
+            "één keer A en één keer B",
+        ],
+        antwoord=0,
+        uitleg="O is recessief tegenover A en tegenover B. Daarom heeft wie bloedgroep O heeft, twee O-allelen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Twee ouders met bloedgroep A kunnen een kind met bloedgroep O krijgen.",
+        antwoord=True,
+        uitleg="Als allebei de ouders AO zijn, kan elk van hen het O-allel doorgeven. Het kind is dan OO en heeft bloedgroep O.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat betekent het dat een aandoening X-gebonden overerft?",
+        opties=[
+            "het gen ligt op het X-chromosoom",
+            "het gen ligt op het Y-chromosoom",
+            "het gen ligt op een lichaamschromosoom",
+            "het gen ligt buiten de celkern",
+        ],
+        antwoord=0,
+        uitleg="Het betrokken gen ligt op het X-chromosoom. Daardoor verschilt de kans tussen jongens en meisjes, want een jongen heeft maar één X.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom komt rood-groenkleurenblindheid veel vaker voor bij jongens?",
+        opties=[
+            "een jongen heeft maar één X-chromosoom",
+            "het gen ligt op het Y-chromosoom",
+            "jongens erven het gen alleen van hun vader",
+            "het gen is bij jongens altijd dominant",
+        ],
+        antwoord=0,
+        uitleg="Bij een jongen volstaat één afwijkend allel, want hij heeft geen tweede X om het op te vangen. Een meisje moet het op allebei haar X-chromosomen hebben.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke aandoeningen erven X-gebonden over? Er zijn er twee.",
+        opties=[
+            "hemofilie",
+            "rood-groenkleurenblindheid",
+            "mucoviscidose",
+            "de ziekte van Huntington",
+        ],
+        antwoord=[0, 1],
+        uitleg="Hemofilie en rood-groenkleurenblindheid liggen op het X-chromosoom. Mucoviscidose erft autosomaal recessief over en Huntington autosomaal dominant.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De ziekte van Huntington erft dominant over, dus één afwijkend allel volstaat.",
+        antwoord=True,
+        uitleg="Wie het allel erft, krijgt de ziekte, meestal pas op volwassen leeftijd. Daardoor is ze vaak al doorgegeven voor ze zich toont.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je iemand die een recessief allel voor een aandoening draagt zonder zelf ziek te zijn?",
+        antwoord=["drager", "een drager", "draagster"],
+        uitleg="Een drager is heterozygoot: één gezond en één afwijkend allel. Twee dragers samen hebben één kans op vier op een kind met de aandoening.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="In een stamboom staat een vierkantje voor een vrouw en een cirkel voor een man.",
+        antwoord=False,
+        uitleg="Het is net omgekeerd: een vierkantje is een man en een cirkel een vrouw. Een ingekleurd symbool betekent dat de persoon het kenmerk vertoont.",
+    ),
+]

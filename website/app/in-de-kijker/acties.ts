@@ -2,7 +2,7 @@
 
 import { redirect } from "next/navigation";
 import { kanalen } from "@/content/inkijker";
-import { bewaarPost } from "@/lib/inkijker-db";
+import { bewaarPost, schoonLink } from "@/lib/inkijker-db";
 
 /*
   Wat er gebeurt als iemand zijn bericht instuurt.
@@ -47,7 +47,8 @@ export async function postInsturen(formulier: FormData) {
     tekst,
     van,
     kanaal: kanaal in kanalen ? kanaal : "anders",
-    link,
+    /* Zonder de volgcode en zonder de deelsleutel van wie de link kopieerde. */
+    link: schoonLink(link),
     volledigeNaam,
     contact,
   });

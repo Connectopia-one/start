@@ -77,6 +77,54 @@ async function haalOp(adres: string, type: "html" | "json") {
   return tekst.slice(0, MAX_HTML);
 }
 
+/*
+  De rommel achter het vraagteken weghalen.
+
+  Wie op "kopieer link" klikt bij Instagram of TikTok, krijgt er een stuk
+  volgcode bij: utm_source, igsh, en bij Instagram ook stkn. Dat laatste is
+  een deelsleutel die aan het account van wie kopieerde hangt. Zulke sleutels
+  horen niet op onze website, en de volgcodes laten de bezoeker onnodig volgen.
+
+  We halen alleen bekende volgparameters weg, nooit iets anders: ?v= van een
+  YouTube-filmpje moet uiteraard blijven staan.
+*/
+const WEG = new Set([
+  "stkn",
+  "igsh",
+  "igshid",
+  "fbclid",
+  "gclid",
+  "mibextid",
+  "si",
+  "feature",
+  "share_id",
+  "share_app_id",
+  "_t",
+  "_r",
+  "utm_source",
+  "utm_medium",
+  "utm_campaign",
+  "utm_content",
+  "utm_term",
+  "utm_name",
+]);
+
+export function schoonLink(link: string): string {
+  const adres = link.trim();
+  try {
+    const url = new URL(adres);
+    if (url.protocol !== "https:") return adres;
+    for (const sleutel of [...url.searchParams.keys()]) {
+      if (WEG.has(sleutel.toLowerCase())) url.searchParams.delete(sleutel);
+    }
+    /* Een leeg vraagteken achterlaten is lelijk. */
+    url.search = url.searchParams.toString();
+    return url.toString();
+  } catch {
+    return adres;
+  }
+}
+
 export function kanaalVanLink(link: string): Kanaal {
   let gastheer = "";
   try {

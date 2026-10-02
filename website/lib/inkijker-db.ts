@@ -50,6 +50,54 @@ export function beeldAdres(pad: string): string | null {
   return db.storage.from(BAK).getPublicUrl(pad).data.publicUrl;
 }
 
+/*
+  De rommel achter het vraagteken weghalen.
+
+  Wie op "kopieer link" klikt bij Instagram of TikTok, krijgt er volgcode bij:
+  utm_source, igsh, en bij Instagram ook stkn. Dat laatste is een deelsleutel
+  die aan het account van wie kopieerde hangt, en zoiets zetten we niet op de
+  website. We halen alleen bekende volgparameters weg, nooit iets anders: de
+  ?v= van een YouTube-filmpje moet blijven staan.
+
+  Dezelfde lijst staat in ouderportaal/lib/linkuitlezen.ts; die twee moeten
+  gelijk blijven.
+*/
+const WEG = new Set([
+  "stkn",
+  "igsh",
+  "igshid",
+  "fbclid",
+  "gclid",
+  "mibextid",
+  "si",
+  "feature",
+  "share_id",
+  "share_app_id",
+  "_t",
+  "_r",
+  "utm_source",
+  "utm_medium",
+  "utm_campaign",
+  "utm_content",
+  "utm_term",
+  "utm_name",
+]);
+
+export function schoonLink(link: string): string {
+  const adres = link.trim();
+  try {
+    const url = new URL(adres);
+    if (url.protocol !== "https:") return adres;
+    for (const sleutel of [...url.searchParams.keys()]) {
+      if (WEG.has(sleutel.toLowerCase())) url.searchParams.delete(sleutel);
+    }
+    url.search = url.searchParams.toString();
+    return url.toString();
+  } catch {
+    return adres;
+  }
+}
+
 export async function haalPosts(): Promise<DbPost[]> {
   const db = verbinding();
   if (!db) return [];
@@ -62,7 +110,11 @@ export async function haalPosts(): Promise<DbPost[]> {
     console.error("In de kijker lezen mislukt:", error.message);
     return [];
   }
-  return (data ?? []) as DbPost[];
+  /* Ook de links die er al in staan, gaan schoon de pagina op. */
+  return ((data ?? []) as DbPost[]).map((post) => ({
+    ...post,
+    link: schoonLink(post.link),
+  }));
 }
 
 export async function bewaarPost(post: {

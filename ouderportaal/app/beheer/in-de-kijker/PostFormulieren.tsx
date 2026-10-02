@@ -133,7 +133,7 @@ export function NieuwePostForm() {
       const bestand = eersteBestand(data, "beeld");
       const beeld = bestand ? await laadBeeldOp(bestand) : null;
 
-      await bewaarNieuwePost({
+      const antwoord = await bewaarNieuwePost({
         titel: titel || null,
         tekst,
         van,
@@ -144,6 +144,12 @@ export function NieuwePostForm() {
         /* Zelf opgeladen gaat voor; anders nemen we het beeld van de link. */
         beeldVanLink: beeld ? null : beeldVanLink,
       });
+
+      if (!antwoord.gelukt) {
+        setBezig(false);
+        setFout(antwoord.bericht);
+        return;
+      }
 
       form.reset();
       leeg();

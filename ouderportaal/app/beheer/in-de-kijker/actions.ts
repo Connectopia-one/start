@@ -4,7 +4,7 @@ import { redirect } from "next/navigation";
 import { revalidatePath } from "next/cache";
 import { requireBeheerder } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
-import { leesLink, haalBeeldBinnen } from "@/lib/linkuitlezen";
+import { leesLink, haalBeeldBinnen, schoonLink } from "@/lib/linkuitlezen";
 import type { Gevonden } from "@/lib/linkuitlezen";
 
 /*
@@ -50,6 +50,33 @@ export async function maakBeeldUploadUrl(bestandsnaam: string) {
 }
 
 /*
+  Waarom bewaren een antwoord teruggeeft in plaats van een fout te gooien.
+
+  Gooit een server action in productie een fout, dan vervangt Next de melding
+  door "Minified React error #441". Dat is de gemaskeerde serverfout, en dan
+  staat er op het scherm niets meer over wat er echt misliep. Daarom geven we
+  de melding gewoon terug als tekst.
+*/
+type Antwoord = { gelukt: true } | { gelukt: false; bericht: string };
+
+function mislukt(bericht: string): Antwoord {
+  return { gelukt: false, bericht };
+}
+
+/* De melding van de databank omzetten naar iets waar je iets aan hebt. */
+function uitleg(fout: { message: string; code?: string }): string {
+  const tekst = fout.message || "Er ging iets mis.";
+  const ontbreekt =
+    fout.code === "42P01" ||
+    fout.code === "PGRST205" ||
+    /does not exist|could not find the table/i.test(tekst);
+  if (ontbreekt) {
+    return "De tabel voor In de kijker bestaat nog niet. Draai eerst website/supabase/social.sql in Supabase.";
+  }
+  return tekst;
+}
+
+/*
   De link uitlezen, zodat de velden eronder al ingevuld staan. Het beeld
   halen we hier nog niet binnen: wie de link intypt en zich dan bedenkt, mag
   geen beeld achterlaten in onze bak. We geven het adres terug om te laten
@@ -57,7 +84,7 @@ export async function maakBeeldUploadUrl(bestandsnaam: string) {
 */
 export async function haalLinkGegevens(link: string): Promise<Gevonden> {
   await requireBeheerder();
-  return leesLink(link);
+  return leesLink(schoonLink(link));
 }
 
 /*
@@ -95,19 +122,19 @@ export async function bewaarNieuwePost(invoer: {
   beeld: string | null;
   /* Het beeld dat we bij de link vonden, als er zelf niets opgeladen werd. */
   beeldVanLink?: string | null;
-}) {
+}): Promise<Antwoord> {
   const db = await admin();
 
-  const link = invoer.link.trim();
+  const link = schoonLink(invoer.link);
   const tekst = invoer.tekst.trim();
   const van = invoer.van.trim();
 
   if (!link.startsWith("https://")) {
-    throw new Error("De link moet met https:// beginnen.");
+    return mislukt("De link moet met https:// beginnen.");
   }
   if (tekst.length < 2)
-    throw new Error("Schrijf er even bij waar het over gaat.");
-  if (van.length < 2) throw new Error("Vul in van wie het bericht is.");
+    return mislukt("Schrijf er even bij waar het over gaat.");
+  if (van.length < 2) return mislukt("Vul in van wie het bericht is.");
 
   const kanaal = (KANALEN as readonly string[]).includes(invoer.kanaal)
     ? invoer.kanaal
@@ -133,8 +160,9 @@ export async function bewaarNieuwePost(invoer: {
     gezien: true,
   });
 
-  if (error) throw new Error(error.message);
+  if (error) return mislukt(uitleg(error));
   revalidatePath("/beheer/in-de-kijker");
+  return { gelukt: true as const };
 }
 
 /* Een beeld bij een bericht dat er al staat, of een beeld vervangen. */
