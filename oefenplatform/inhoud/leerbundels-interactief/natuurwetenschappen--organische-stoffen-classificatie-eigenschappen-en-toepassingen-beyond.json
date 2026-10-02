@@ -1,0 +1,100 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Organische stoffen: classificatie, eigenschappen en toepassingen",
+ "onder": "De elf stofklassen aan hun kenmerkende groep herkennen, en uit de bouw van een molecule haar eigenschappen voorspellen.",
+ "secties": [
+  {
+   "kop": "De stofklassen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Elke organische stofklasse heeft een <strong>kenmerkende groep</strong>. Vind je die groep in een formule terug, dan weet je tot welke klasse de stof hoort."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stofklasse</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kenmerkende groep</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Alkanen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">enkel koolstof en waterstof, met enkelvoudige bindingen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">CH4, C3H8, C4H10</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Alkenen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een dubbele binding tussen twee koolstofatomen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">etheen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Alkynen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een drievoudige binding tussen twee koolstofatomen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ethyn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Alcoholen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een OH-groep aan een koolstofketen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">CH3CH2OH</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ethers</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een zuurstofatoom tussen twee koolstofketens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">di-ethylether</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Aldehyden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een carbonylgroep aan het uiteinde van de keten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">methanal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ketonen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een carbonylgroep middenin de keten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">CH3COCH3</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Carbonzuren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een COOH-groep</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">HCOOH, CH3COOH</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Esters</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de groep COO tussen twee koolstofketens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ethylethanoaat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Aminen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een stikstofgroep aan de keten, dus geen OH-groep</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">methaanamine</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Amiden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zowel stikstof als zuurstof in de kenmerkende groep</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ethaanamide</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>alkaan herken je doordat het enkel koolstof en waterstof bevat, met enkelvoudige bindingen</strong>. We noemen alkanen <strong>verzadigde koolwaterstoffen, omdat er geen waterstofatomen meer bij kunnen</strong>: elke plaats is al bezet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee verwarringen om te vermijden. <strong>Een amine heeft niet, zoals een alcohol, een OH-groep als kenmerkende groep</strong>, maar een stikstofgroep. En <strong>CHCl3 hoort niet bij de alcoholen</strong>: er staat geen OH in, enkel chloor, dus is het een gehalogeneerde koolwaterstof."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>verschil tussen een aldehyde en een keton</strong> is alleen de plaats: <strong>bij een aldehyde staat de carbonylgroep aan het uiteinde van de keten</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De naam verraadt de klasse mee: <strong>de uitgang -aan hoort bij de alkanen</strong>, <strong>de uitgang -een hoort bij de alkenen</strong> en <strong>de uitgang -ol hoort bij de alcoholen</strong>. Krijg je de naam <strong>propaanzuur</strong>, dan zegt het woord zuur het al: het is een <strong>carbonzuur</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Twee stoffen met dezelfde brutoformule kunnen tot een andere stofklasse horen</strong>: C2H6O is zowel ethanol als di-methylether. Daarom volstaat een brutoformule niet en tekent men structuurformules."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>verschil tussen een uitgebreide en een beknopte structuurformule</strong>: <strong>in de uitgebreide staat elke binding getekend, in de beknopte niet</strong>. Een <strong>skeletnotatie</strong> gaat nog verder: <strong>een tekening met lijnen, waarbij elke hoek een koolstofatoom is</strong>, en waar de waterstofatomen zelfs niet meer opstaan."
+    }
+   ]
+  },
+  {
+   "kop": "De intermoleculaire krachten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Of een stof vast, vloeibaar of gas is, en waarin ze oplost, hangt niet af van de bindingen binnen een molecule maar van de krachten tussen de moleculen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kracht</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wanneer ze werkt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Sterkte</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Londondispersiekracht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tussen alle moleculen, ook de apolaire</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de zwakste, maar ze telt op met de grootte van de molecule</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Dipoolkracht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tussen polaire moleculen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sterker dan de londondispersiekracht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Waterstofbrug</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">als waterstof aan zuurstof of stikstof hangt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de sterkste intermoleculaire kracht</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarmee kan je kookpunten vergelijken. <strong>Het kookpunt van de alkanen stijgt als de keten langer wordt</strong>, want <strong>de londondispersiekracht tussen de moleculen wordt sterker</strong>: er is meer oppervlak dat raakt. Om dezelfde reden heeft <strong>een sterk vertakt alkaan geen hoger kookpunt dan een rechte keten met dezelfde formule</strong>, maar een lager: een bolvormige molecule raakt haar buren op minder plaatsen aan."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Ethanol heeft een veel hoger kookpunt dan ethaan</strong>, en dat komt doordat <strong>ethanol waterstofbruggen vormt en ethaan niet</strong>. Eén OH-groep tilt het kookpunt met meer dan honderd graden op."
+    }
+   ]
+  },
+  {
+   "kop": "Polair en apolair",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Apolaire stoffen</strong> zijn onder meer <strong>wasbenzine</strong>, <strong>CCl4</strong> en <strong>een lang alkaan</strong>. <strong>Een apolaire stof lost niet goed op in water</strong>, want water is polair, en gelijk lost op in gelijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom <strong>mengt methanol wel met water en een lang alkaan niet</strong>: <strong>methanol kan waterstofbruggen met water leggen</strong>. Maar het hangt van de verhouding af: <strong>een alcohol met een heel lange keten lost bijna niet meer op in water, omdat de lange apolaire staart zwaarder doorweegt dan de OH-groep</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Moet je een <strong>vlek van een apolaire stof oplossen</strong>, kies dan een apolair oplosmiddel, dus <strong>wasbenzine</strong> en geen water."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zeep lost dat probleem op door beide kanten te hebben. Over een <strong>zeepmolecule</strong>: <strong>ze heeft een lange apolaire staart</strong>, <strong>ze heeft een polaire kop</strong> en <strong>ze kan vet en water met elkaar verbinden</strong>. Het bolletje dat zeepmoleculen rond een vetdruppel vormen, heet een <strong>micel</strong>: de staarten in het vet, de koppen naar het water. <strong>Een fosfolipide heeft net als zeep een polaire kop en apolaire staarten</strong>, en dat is precies waarom een celmembraan zich van zelf vormt."
+    }
+   ]
+  },
+  {
+   "kop": "Stoffen met een gebruiksnaam",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Gebruiksnaam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stof</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Hoofdbestanddeel van aardgas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">methaan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Brandspiritus</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">methanol</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Mierenzuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">HCOOH</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Azijnzuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">CH3COOH</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Aceton</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">propanon is de wetenschappelijke naam van aceton</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Formol, om biologisch materiaal te bewaren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">methanal</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Over <strong>etheen</strong> geldt: <strong>het is een alkeen</strong>, <strong>het heeft een dubbele binding</strong> en <strong>het is de bouwsteen van polyetheen</strong>. Die dubbele binding is precies wat duizenden etheenmoleculen aan elkaar laat haken tot een kunststof."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

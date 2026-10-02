@@ -1,0 +1,125 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Ontstaan en evolutie van soorten",
+ "onder": "Waar het bewijsmateriaal uit komt, hoe de natuurlijke selectie werkt, en wanneer een nieuwe soort ontstaat.",
+ "secties": [
+  {
+   "kop": "Wat evolutie is",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Biologische evolutie</strong> is <strong>de verandering van de erfelijke eigenschappen van een populatie over generaties</strong>. Een individu evolueert dus niet; een <strong>populatie</strong>, <strong>alle individuen van één soort in een bepaald gebied</strong>, doet dat wel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Volgens de moderne evolutietheorie <strong>gaan alle soorten terug op een gemeenschappelijke voorouder</strong>. Men noemt die eerste cel de <strong>oercel</strong>: <strong>de eerste cel waaruit alle latere leven voortkomt</strong>. De boom die <strong>de verwantschap tussen alle soorten uittekent</strong>, heet de <strong>tree of life</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De evolutietheorie is in de wetenschap geen losse gok zonder bewijsmateriaal</strong>. Een theorie betekent in de wetenschap juist het omgekeerde van wat het in het dagelijks taalgebruik betekent: een verklaring die honderdvijftig jaar lang door duizenden onafhankelijke vondsten bevestigd is."
+    }
+   ]
+  },
+  {
+   "kop": "Waar de argumenten vandaan komen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De argumenten voor evolutie komen uit verschillende vakgebieden samen: <strong>de paleontologie</strong>, <strong>de embryologie</strong> en <strong>de moleculaire biologie</strong>, en daarnaast ook uit de vergelijkende anatomie en de biogeografie. Dat ze elkaar onafhankelijk bevestigen, is precies de kracht ervan."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vakgebied</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het aanbrengt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Paleontologie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fossielen, overgangsvormen en continue reeksen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Vergelijkende anatomie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">homologe, analoge en rudimentaire organen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Embryologie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de embryo's van verschillende gewervelden lijken in een vroeg stadium sterk op elkaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Biochemie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verwante soorten hebben sterk gelijkende aminozuursequenties</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Biogeografie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de verspreiding van soorten past bij het uiteendrijven van de continenten</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Over <strong>homologe organen</strong> geldt: <strong>ze hebben dezelfde bouw</strong>, <strong>ze gaan terug op dezelfde oorsprong</strong> en <strong>ze kunnen een heel andere functie vervullen</strong>. De voorpoot van een mol, de vleugel van een vleermuis en de arm van een mens zijn homoloog. Bij <strong>analogie</strong> is het net omgekeerd: dezelfde functie, een andere oorsprong, zoals <strong>de vleugel van een insect en de vleugel van een vogel</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een orgaan dat bij een soort <strong>nog aanwezig is maar zijn functie verloren heeft</strong>, zoals de blinde darm bij de mens, noemt men <strong>rudimentair</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>overgangsfossiel vertoont kenmerken van twee groepen tegelijk</strong>. <strong>Archaeopteryx is zo'n bekend voorbeeld, omdat hij kenmerken van reptielen en vogels combineert</strong>: tanden en een lange staart naast veren. <strong>Continue reeksen fossielen, zoals bij de paardachtigen</strong>, tonen <strong>dat soorten geleidelijk veranderen</strong>, <strong>dat tussenvormen echt bestaan hebben</strong> en <strong>dat bouwkenmerken stap voor stap wijzigen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee voorzichtigheden bij fossielen. <strong>Fossielen in diepere aardlagen zijn in het algemeen niet jonger dan die in de lagen erboven</strong>, maar juist ouder: wat later bezinkt, ligt bovenop. En we vinden <strong>maar van een klein deel van de uitgestorven soorten fossielen terug, omdat fossilisatie zeldzame omstandigheden vraagt</strong>: snel bedekt worden, zonder zuurstof, in de juiste bodem."
+    },
+    {
+     "soort": "tekst",
+     "html": "Hoe <strong>de biochemie de evolutietheorie ondersteunt</strong>, laat zich meten: <strong>verwante soorten hebben sterk gelijkende aminozuursequenties</strong>. Vergelijkt een onderzoeker het <strong>hemoglobine van mens, chimpansee en paard</strong>, dan verwacht hij <strong>het minste verschil tussen mens en chimpansee</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>continentendrift</strong> is <strong>de langzame beweging van de werelddelen die de verspreiding van soorten mee verklaart</strong>: waarom buideldieren vooral in Australië zitten, en waarom Zuid-Amerika en Afrika verwante groepen delen."
+    }
+   ]
+  },
+  {
+   "kop": "Van Lamarck naar Darwin",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Lamarck beweerde dat verworven eigenschappen aan de nakomelingen doorgegeven worden</strong>: een giraf die rekt, zou langernekkige jongen krijgen. Dat bleek niet te kloppen, want wat je in je leven met je lichaam doet, verandert je geslachtscellen niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "De kern van de theorie van Darwin bestaat uit drie gedachten samen: <strong>variatie</strong>, <strong>selectie</strong> en <strong>erfelijkheid</strong>. Er zijn verschillen tussen individuen, de omgeving laat sommige daarvan beter overleven, en die verschillen worden doorgegeven."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De moderne evolutietheorie heeft de ideeën van Darwin niet volledig verworpen</strong>. Ze heeft ze aangevuld met wat Darwin niet kon weten: genen, mutaties en de meiose."
+    }
+   ]
+  },
+  {
+   "kop": "Waar variatie en verschuiving vandaan komen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>variatie in een populatie</strong> komt van <strong>mutaties</strong>, <strong>crossing-over bij de meiose</strong> en <strong>de willekeurige combinatie bij de bevruchting</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>selectiedruk</strong> is de <strong>druk van de omgeving waardoor sommige varianten meer kans maken dan andere</strong>. De <strong>fitness van een fenotype</strong> is daarbij niet hoe sterk of hoe snel het is, maar <strong>hoeveel vruchtbare nakomelingen het gemiddeld oplevert</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee klassieke voorbeelden. <strong>Bacteriën worden resistent tegen een antibioticum, omdat de toevallig ongevoelige bacteriën overleven en zich voortplanten</strong>; het antibioticum maakt ze niet resistent, het ruimt alleen de gevoelige op. En bij de <strong>peper-en-zoutvlinder tijdens de industriële revolutie werd de donkere vorm talrijker omdat ze op beroete bomen minder opviel</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Naast de natuurlijke selectie spelen nog drie krachten mee. <strong>Seksuele selectie</strong> is <strong>selectie door de voorkeur van partners bij de voortplanting</strong>. <strong>Genetische drift</strong> is <strong>het toeval dat vooral in kleine populaties allelfrequenties verschuift</strong>; <strong>genetische drift werkt sterker in een kleine populatie dan in een grote</strong>, want daar weegt één toevallige dode zwaar door. En <strong>gene flow</strong> is <strong>het uitwisselen van allelen tussen twee populaties doordat er individuen heen en weer trekken</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een hoge genetische diversiteit maakt een populatie niet kwetsbaarder voor een nieuwe ziekte</strong>, maar juist sterker: hoe meer verschillende varianten er zijn, hoe groter de kans dat er enkele bij zijn die de ziekte doorstaan."
+    }
+   ]
+  },
+  {
+   "kop": "Soortvorming",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Men spreekt van <strong>twee aparte soorten als ze onder natuurlijke omstandigheden geen vruchtbaar nageslacht meer geven</strong>. Een muilezel bestaat, maar hij is onvruchtbaar, dus zijn een paard en een ezel twee soorten."
+    },
+    {
+     "soort": "tekst",
+     "html": "Voor <strong>soortvorming</strong> is drie dingen samen nodig: <strong>variatie in de populatie</strong>, <strong>isolatie tussen de groepen</strong> en <strong>selectie die de groepen uit elkaar duwt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Isolatievorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Geografische isolatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee populaties raken gescheiden door een nieuw gebergte</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Temporele isolatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee kikkersoorten in dezelfde vijver paren in verschillende maanden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Gedragsisolatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee vogelsoorten hebben een heel andere baltsdans en reageren daardoor niet op elkaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Gametische isolatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de zaadcel van de ene soort kan de eicel van de andere niet bevruchten</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Tot slot het woord dat alles samenbindt: een <strong>adaptatie</strong> is <strong>een erfelijk kenmerk dat een organisme beter doet passen bij zijn omgeving</strong>. Een aangeleerde vaardigheid is dus geen adaptatie, hoe nuttig ze ook is."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

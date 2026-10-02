@@ -1,0 +1,382 @@
+# -*- coding: utf-8 -*-
+"""🌍 Beyond — Veilig en duurzaam werken, grootheden en eenheden.
+
+Wetenschappelijk onderzoek en STEM, de koppen "Veilig en duurzaam werken",
+"Meetinstrumenten en hulpmiddelen" en "Grootheden, eenheden en verbanden" uit
+de vakfiche natuurwetenschappen 3DO. Deel 1 gaat over veilig werken in het
+labo, de gevarenpictogrammen met hun H- en P-zinnen en het kiezen en aflezen
+van een meetinstrument. Deel 2 gaat over grootheden en SI-eenheden, de
+voorvoegsels van mega tot nano, beduidende cijfers en de soorten verbanden.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat vertelt een gevarenpictogram op een fles met een chemische stof?",
+        opties=[
+            "waarom de stof gevaarlijk is",
+            "hoeveel de stof gekost heeft",
+            "wie de stof gemaakt heeft",
+            "hoe lang de stof nog bruikbaar is",
+        ],
+        antwoord=0,
+        uitleg="Het pictogram geeft het soort gevaar in één beeld. De H-zinnen op het etiket schrijven dat gevaar daarna in woorden uit.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat staat er in een H-zin op een etiket?",
+        opties=[
+            "welk gevaar de stof oplevert",
+            "hoe je je tegen het gevaar beschermt",
+            "hoeveel de stof weegt",
+            "waar de stof gemaakt is",
+        ],
+        antwoord=0,
+        uitleg="De H staat voor hazard, dus gevaar. De P-zinnen vertellen wat je moet doen, van voorzorg tot eerste hulp.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Welke zinnen op een etiket zeggen hoe je veilig met een stof omgaat?",
+        antwoord=["P-zinnen", "de P-zinnen", "P zinnen"],
+        uitleg="De P staat voor precaution, dus voorzorg. Ze zeggen hoe je de stof bewaart, gebruikt en wat je doet bij een ongeval.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een gemorst chemisch product ruim je beter onmiddellijk op.",
+        antwoord=True,
+        uitleg="Zo kan niemand erin stappen of het aanraken, en kunnen de dampen zich niet verspreiden. Wachten maakt het alleen gevaarlijker.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke werkwijzen horen bij veilig en duurzaam werken in een labo? Kruis alles aan wat juist is.",
+        opties=[
+            "zuinig omgaan met chemische stoffen",
+            "meetinstrumenten uitzetten als je niet meet",
+            "glaswerk na gebruik schoonmaken",
+            "elektrische toestellen met natte handen bedienen",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Die eerste drie sparen materiaal, energie en moeite uit. Natte handen bij een elektrisch toestel is juist een van de gevaarlijkste fouten.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe ruim je glasscherven in een labo veilig op?",
+        opties=[
+            "met een borstel en een blik, in het vat voor glas",
+            "met je handen, om geen enkel stukje te missen",
+            "met een vochtige doek waar je stevig op duwt",
+            "door ze gewoon bij het restafval te vegen",
+        ],
+        antwoord=0,
+        uitleg="Zo raak je de scherven niet aan en blijft er niets achter waar iemand zich aan kan snijden. In veel labo's is er een apart vat voor glasafval.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Je mag afval van een chemisch product gewoon in de gootsteen gieten.",
+        antwoord=False,
+        uitleg="Veel stoffen horen in een apart vat voor chemisch afval. Het etiket en de P-zinnen zeggen hoe je het afval moet behandelen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het meetbereik van een meetinstrument?",
+        opties=[
+            "de kleinste en de grootste waarde die het kan meten",
+            "de kleinste verandering die het nog kan tonen",
+            "de tijd die het instrument nodig heeft om te meten",
+            "de hoeveelheid stroom die het instrument gebruikt",
+        ],
+        antwoord=0,
+        uitleg="Meet je buiten dat bereik, dan krijg je geen betrouwbare waarde of beschadig je het toestel. De kleinste verandering die het toont, is de nauwkeurigheid.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je moet een massa van ongeveer 2 gram op een tienden van een gram nauwkeurig wegen. Welke balans kies je?",
+        opties=[
+            "een balans die tot op 0,01 gram nauwkeurig weegt",
+            "een balans die tot op 1 gram nauwkeurig weegt",
+            "een balans die tot op 10 gram nauwkeurig weegt",
+            "een balans die tot op 100 gram nauwkeurig weegt",
+        ],
+        antwoord=0,
+        uitleg="Je hebt minstens de nauwkeurigheid nodig die je antwoord vraagt, en liever nog een cijfer beter. Een balans op 1 gram zou je tienden niet eens tonen.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Met welk meetinstrument meet je een kracht?",
+        antwoord=["dynamometer", "een dynamometer"],
+        uitleg="Een dynamometer is in feite een veer met een schaal ernaast. Een multimeter meet spanning en stroom, een balans een massa.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Met welk instrument meet je een elektrische spanning?",
+        opties=["een voltmeter", "een ampèremeter", "een dynamometer", "een decibelmeter"],
+        antwoord=0,
+        uitleg="Een multimeter kan als voltmeter én als ampèremeter werken. Een ampèremeter meet in de plaats daarvan de stroomsterkte.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een meting met een meetinstrument is nooit helemaal exact.",
+        antwoord=True,
+        uitleg="Elk instrument heeft een beperkte nauwkeurigheid. Daarom schrijf je een meetresultaat met het juiste aantal beduidende cijfers op.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom lees je een vloeistofniveau in een maatcilinder op ooghoogte af?",
+        opties=[
+            "om een fout door de kijkhoek te vermijden",
+            "om de vloeistof niet op te warmen",
+            "om de cilinder niet te laten vallen",
+            "om de vloeistof beter te kunnen ruiken",
+        ],
+        antwoord=0,
+        uitleg="Kijk je van boven of van onder, dan lijkt het niveau hoger of lager dan het is. Je leest het onderste punt van de holle vloeistofrand af.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke meetinstrumenten horen bij welke meting? Kruis alles aan wat juist is.",
+        opties=[
+            "een chronometer meet een tijd",
+            "een decibelmeter meet een geluidsniveau",
+            "een balans meet een massa",
+            "een dynamometer meet een temperatuur",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Een dynamometer meet een kracht, niet een temperatuur; daarvoor heb je een thermometer nodig. Kies altijd het instrument dat bij de grootheid past.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom lees je de handleiding van een toestel voor je het gebruikt?",
+        opties=[
+            "om te weten hoe je het veilig gebruikt",
+            "om te weten hoeveel het toestel gekost heeft",
+            "om te weten wie het toestel gemaakt heeft",
+            "om te weten hoe oud het toestel al is",
+        ],
+        antwoord=0,
+        uitleg="In de handleiding staan ook het meetbereik en de onderhoudsvoorschriften. Verkeerd gebruik geeft foute metingen of beschadigt het toestel.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een duurder meetinstrument is altijd het beste voor elk onderzoek.",
+        antwoord=False,
+        uitleg="Je kiest het instrument dat bij je meting past, in bereik én in nauwkeurigheid. Een heel fijne balans is onbruikbaar voor een massa van vijf kilo.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom zet je een meetinstrument uit als je niet meet?",
+        opties=[
+            "om energie te sparen en de batterij te ontzien",
+            "om het instrument nauwkeuriger te maken",
+            "om het bereik van het instrument te vergroten",
+            "om de gemeten waarde vast te zetten",
+        ],
+        antwoord=0,
+        uitleg="Dat hoort bij duurzaam werken. Een lege batterij midden in een proef kost je ook nog je metingen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Het etiket van een stof waarschuwt voor gevaar voor de huid. Wat doe je? Kruis alles aan wat juist is.",
+        opties=[
+            "handschoenen dragen",
+            "een veiligheidsbril dragen",
+            "de P-zinnen van het etiket volgen",
+            "de stof in je hand met water verdunnen",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="De P-zinnen zeggen precies welke bescherming nodig is. Voorzichtig zijn vervangt een handschoen niet, en iets in je hand verdunnen is nooit een goed idee.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de kleinste verandering die een meetinstrument nog kan weergeven?",
+        antwoord=["nauwkeurigheid", "de nauwkeurigheid"],
+        uitleg="Ze bepaalt met hoeveel cijfers je je resultaat mag opschrijven. Het meetbereik zegt in de plaats daarvan tussen welke twee waarden je mag meten.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je meet met een lintmeter in centimeters en schrijft 12,3456 cm op. Wat is daar fout aan?",
+        opties=[
+            "je schrijft meer cijfers op dan je kan meten",
+            "je gebruikt de verkeerde eenheid voor een lengte",
+            "je hebt het resultaat niet in millimeter omgezet",
+            "je mag bij een meting geen komma gebruiken",
+        ],
+        antwoord=0,
+        uitleg="Een lintmeter toont millimeters, dus hoogstens één cijfer na de komma in centimeter. Extra cijfers doen het resultaat nauwkeuriger lijken dan het is.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het verschil tussen een grootheid en een eenheid?",
+        opties=[
+            "een grootheid is wat je meet, een eenheid is waarin je het uitdrukt",
+            "een eenheid is wat je meet, een grootheid is waarin je het uitdrukt",
+            "de twee betekenen precies hetzelfde",
+            "een grootheid hoort bij fysica en een eenheid bij chemie",
+        ],
+        antwoord=0,
+        uitleg="Lengte is een grootheid en de meter is haar eenheid. Massa is een grootheid en de kilogram haar eenheid.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Wat is de SI-eenheid van massa?",
+        antwoord=["kilogram", "kg"],
+        uitleg="Opvallend: de SI-eenheid van massa heeft al een voorvoegsel in zich. De gram is dus geen SI-eenheid, de kilogram wel.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke van deze eenheden zijn SI-eenheden? Kruis alles aan wat juist is.",
+        opties=["de meter", "de seconde", "de ampère", "de liter"],
+        antwoord=[0, 1, 2],
+        uitleg="Daarnaast horen ook de kilogram, de kelvin, de mol en de candela erbij. De liter is wel toegelaten maar geen SI-eenheid; dat is de kubieke meter.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Met welke factor vermenigvuldigt het voorvoegsel mega?",
+        opties=["een miljoen", "duizend", "een miljard", "honderd"],
+        antwoord=0,
+        uitleg="Mega staat voor tien tot de zesde. Kilo is duizend en giga is een miljard.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Met welke factor vermenigvuldigt het voorvoegsel nano?",
+        opties=[
+            "een miljardste",
+            "een miljoenste",
+            "een duizendste",
+            "een honderdste",
+        ],
+        antwoord=0,
+        uitleg="Nano is tien tot de min negende. Micro is een miljoenste en milli een duizendste.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Micro staat voor een miljoenste.",
+        antwoord=True,
+        uitleg="Micro is tien tot de min zesde. Een micrometer is dus duizend keer groter dan een nanometer.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoeveel meter is 2,5 kilometer?",
+        opties=["2500 meter", "250 meter", "25 000 meter", "0,0025 meter"],
+        antwoord=0,
+        uitleg="Kilo betekent duizend, dus vermenigvuldig je met duizend. Van meter naar kilometer deel je juist door duizend.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoeveel seconden is 0,25 milliseconde?",
+        opties=[
+            "0,00025 seconde",
+            "0,025 seconde",
+            "250 seconden",
+            "25 seconden",
+        ],
+        antwoord=0,
+        uitleg="Milli is een duizendste, dus deel je door duizend. Omgekeerd vermenigvuldig je met duizend om van seconden naar milliseconden te gaan.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Welk voorvoegsel betekent duizend?",
+        antwoord=["kilo", "kilo-"],
+        uitleg="Een kilometer is dus duizend meter. Mega is een miljoen en giga een miljard.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe schrijf je 0,00042 meter in de wetenschappelijke notatie?",
+        opties=[
+            "4,2 maal tien tot de min vier",
+            "42 maal tien tot de min vijf",
+            "0,42 maal tien tot de min drie",
+            "4,2 maal tien tot de vier",
+        ],
+        antwoord=0,
+        uitleg="In de wetenschappelijke notatie staat er één cijfer voor de komma, en dat cijfer is niet nul. De andere vormen zijn wel gelijk in waarde maar niet correct genoteerd.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="In de wetenschappelijke notatie staat er precies één cijfer voor de komma.",
+        antwoord=True,
+        uitleg="Dat cijfer mag geen nul zijn. Zo kan je getallen van heel verschillende grootte meteen met elkaar vergelijken.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je meet 3,0 cm en 4,00 cm en telt die op. Met hoeveel cijfers na de komma schrijf je het resultaat?",
+        opties=["met één cijfer na de komma", "met twee cijfers na de komma", "met drie cijfers na de komma", "zonder cijfers na de komma"],
+        antwoord=0,
+        uitleg="Je resultaat kan nooit nauwkeuriger zijn dan je slechtste meting. Die had maar één cijfer na de komma, dus wordt het 7,0 cm.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een rekenmachine die acht cijfers na de komma toont, maakt je meting nauwkeuriger.",
+        antwoord=False,
+        uitleg="De nauwkeurigheid komt van je meetinstrument, niet van je rekentoestel. Je rondt je antwoord af op het aantal beduidende cijfers van je metingen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Twee grootheden zijn recht evenredig. Hoe ziet hun grafiek uit?",
+        opties=[
+            "een rechte door de oorsprong",
+            "een rechte die de verticale as boven de oorsprong snijdt",
+            "een hyperbool die naar de assen toe buigt",
+            "een parabool door de oorsprong",
+        ],
+        antwoord=0,
+        uitleg="Verdubbel je de ene, dan verdubbelt de andere ook. Snijdt de rechte de as niet in de oorsprong, dan is het verband lineair maar niet recht evenredig.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Twee grootheden zijn omgekeerd evenredig. Wat blijft dan gelijk?",
+        opties=[
+            "hun product",
+            "hun som",
+            "hun verschil",
+            "hun quotiënt",
+        ],
+        antwoord=0,
+        uitleg="Wordt de ene twee keer groter, dan wordt de andere twee keer kleiner. De grafiek is een hyperbool die naar de twee assen toe buigt.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Welk verband hoort bij een grafiek die een parabool is?",
+        antwoord=["kwadratisch", "een kwadratisch verband"],
+        uitleg="Bij een kwadratisch verband staat de ene grootheid in het kwadraat. Verdubbel je die, dan wordt de andere vier keer groter.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke uitspraken over een lineair verband zijn juist? Kruis alles aan wat juist is.",
+        opties=[
+            "de grafiek is een rechte",
+            "de rechte hoeft niet door de oorsprong te gaan",
+            "elke stap in x geeft dezelfde stap in y",
+            "de grafiek is altijd een parabool",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Een recht evenredig verband is een bijzonder geval van een lineair verband, namelijk met de rechte door de oorsprong. Een parabool hoort bij een kwadratisch verband.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="In de formule F is m maal a wil je m uitdrukken. Wat wordt het?",
+        opties=[
+            "m is F gedeeld door a",
+            "m is a gedeeld door F",
+            "m is F maal a",
+            "m is F min a",
+        ],
+        antwoord=0,
+        uitleg="Je deelt beide kanten door a. Zo kan je elke formule omvormen naar de grootheid die je zoekt.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een schatting vooraf is overbodig zodra je met een rekenmachine werkt.",
+        antwoord=False,
+        uitleg="Juist dan is ze nuttig: een verkeerd ingetikt getal of een foute omzetting valt op doordat het antwoord onmogelijk groot of klein wordt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke modellen kan je gebruiken om een verband weer te geven? Kruis alles aan wat juist is.",
+        opties=["een grafiek", "een tabel", "een formule", "een foto van het labo"],
+        antwoord=[0, 1, 2],
+        uitleg="Ook een schets of een vergelijking hoort erbij. Een foto laat zien hoe je opstelling eruitzag, maar geeft het verband tussen twee grootheden niet.",
+    ),
+]

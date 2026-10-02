@@ -1,0 +1,117 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "DNA, replicatie en celdelingen",
+ "onder": "Hoe het DNA gebouwd is, hoe het zich verdubbelt, en waarin mitose en meiose verschillen.",
+ "secties": [
+  {
+   "kop": "De bouwsteen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>nucleotide</strong> bestaat uit drie delen: <strong>een suiker</strong>, <strong>een fosfaatgroep</strong> en <strong>een stikstofbase</strong>. In een <strong>DNA-nucleotide</strong> is die suiker <strong>desoxyribose</strong>; in RNA is het ribose. De stikstofbase die <strong>wel in RNA voorkomt en niet in DNA</strong>, is <strong>uracil</strong>; in DNA staat op die plaats thymine."
+    },
+    {
+     "soort": "tekst",
+     "html": "De basen passen twee aan twee op elkaar. <strong>Adenine vormt in DNA een paar met thymine</strong>, met twee waterstofbruggen ertussen. <strong>Tussen guanine en cytosine liggen drie waterstofbruggen</strong>, en net daarom is een stuk DNA met veel G en C steviger."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daaruit volgt de complementaire streng van elke reeks. Leest een DNA-streng <strong>ATGC</strong>, dan luidt de andere streng <strong>TACG</strong>: elke A krijgt een T, elke G een C."
+    },
+    {
+     "soort": "tekst",
+     "html": "De regel van de basenparen laat ook een rekensom toe. Is <strong>30 procent van de basen adenine</strong>, dan is er evenveel thymine, dus samen 60 procent. Voor guanine en cytosine blijft 40 procent over, gelijk verdeeld: <strong>20 procent cytosine</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De twee strengen liggen <strong>antiparallel</strong>: <strong>de ene loopt van 5 naar 3 en de andere in de omgekeerde richting</strong>. Ze worden <strong>door waterstofbruggen bij elkaar gehouden</strong> tot een dubbele helix. Die bruggen zijn elk zwak, maar met miljoenen samen stevig genoeg, en toch los te wikkelen."
+    }
+   ]
+  },
+  {
+   "kop": "Van DNA tot chromosoom",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In de celkern zit het DNA opgerold rond eiwitten, de <strong>histonen</strong>. Het losse mengsel van DNA en eiwitten in een kern <strong>die niet aan het delen is</strong>, heet <strong>chromatine</strong>. Pas bij een deling rolt het strak op tot een zichtbaar chromosoom, dus <strong>zijn chromosomen niet in elke fase van de celcyclus even goed zichtbaar onder de microscoop</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een cel <strong>kan haar DNA niet voortdurend sterk opgerold houden, omdat de genen dan niet afgelezen kunnen worden</strong>: een strak opgerolde streng laat de leesmachine niet toe."
+    },
+    {
+     "soort": "tekst",
+     "html": "Over het <strong>centromeer</strong>: <strong>het is de insnoering van een chromosoom</strong>, <strong>het houdt de zusterchromatiden samen</strong> en <strong>er zit een kinetochoor op waaraan de trekdraden aangrijpen</strong>. De <strong>zusterchromatiden</strong> zijn de <strong>twee identieke helften van een gedupliceerd chromosoom die aan het centromeer vastzitten</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>menselijke lichaamscel is diploïd en bevat 46 chromosomen</strong>, dus 23 paren. <strong>Homologe chromosomen</strong> zijn <strong>twee chromosomen van hetzelfde paar, één van elke ouder</strong>. Het <strong>verschil tussen een autosoom en een heterosoom</strong>: <strong>een autosoom is een lichaamschromosoom, een heterosoom bepaalt het geslacht</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op een <strong>karyogram</strong>, een foto van alle chromosomen op een rij gelegd, lees je <strong>het aantal chromosomen van een cel</strong>, <strong>het geslacht van de persoon</strong> en <strong>een afwijkend aantal chromosomen</strong> af. Welk gen aan of uit staat, zie je er niet op."
+    },
+    {
+     "soort": "weetje",
+     "html": "Elk gen heeft een vaste plaats, een locus. Daarom <strong>kan een gen niet bij de ene mens op het ene en bij de andere mens op een heel ander chromosoom liggen</strong>: zonder die vaste plaats zou een genetische test nergens iets kunnen terugvinden."
+    }
+   ]
+  },
+  {
+   "kop": "De celcyclus en de replicatie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>interfase omvat de G1-, de S- en de G2-fase</strong>. Het <strong>DNA wordt in de S-fase verdubbeld</strong>. De <strong>G0-fase</strong> staat daarbuiten: dat is <strong>een rusttoestand waarin een cel niet meer deelt</strong>, zoals een zenuwcel."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Speler</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Taak bij de replicatie</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Helicase</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wikkelt de dubbele helix open bij het begin van de replicatie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Primer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dient als startpunt waarop het polymerase verder kan bouwen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">DNA-polymerase</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zet nieuwe nucleotiden tegen de oude streng aan, leest die oude streng als sjabloon en werkt altijd in de richting van 5 naar 3</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ligase</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">plakt losse stukjes aan elkaar tot één doorlopende streng</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Omdat het polymerase maar in één richting kan werken en de strengen antiparallel liggen, verloopt de ene streng vlot en de andere met horten en stoten. Voor die <strong>lagging strand</strong> geldt: ze <strong>wordt in stukjes opgebouwd</strong>, die <strong>stukjes heten Okazaki-fragmenten</strong> en <strong>ligase plakt de stukjes aan elkaar</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Na de replicatie bestaat elke dubbele helix uit één oude en één nieuwe streng</strong>. Dat heet semi-conservatief, en het is de reden dat een fout bij het kopiëren meteen in alle volgende generaties zit."
+    }
+   ]
+  },
+  {
+   "kop": "De mitose",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>belang van de mitose</strong> is <strong>groei en herstel met cellen die genetisch identiek zijn</strong>. De fasen volgen op elkaar als <strong>profase, metafase, anafase, telofase</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "In de metafase gaan de chromosomen in het <strong>evenaarsvlak</strong> staan, het <strong>vlak in het midden van de cel</strong>. Tijdens de <strong>anafase worden de zusterchromatiden naar de polen getrokken</strong>. <strong>De cytokinese is niet de deling van de kern</strong>, maar juist het splitsen van het cytoplasma, na de kerndeling."
+    }
+   ]
+  },
+  {
+   "kop": "De meiose",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij de meiose wordt het aantal chromosomen per cel gehalveerd</strong>. Het <strong>resultaat van een volledige meiose uit één diploïde cel</strong> zijn <strong>vier haploïde cellen die genetisch van elkaar verschillen</strong>. <strong>Mitose en meiose leveren dus niet allebei cellen op met hetzelfde aantal chromosomen als de moedercel</strong>: alleen de mitose doet dat."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>crossing-over wisselen homologe chromosomen stukken met elkaar uit</strong>. Het <strong>chiasma</strong> is het <strong>punt waar twee homologe chromosomen elkaar raken en stukken uitwisselen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Drie dingen <strong>zorgen samen voor genetische variatie</strong>: <strong>de crossing-over tussen homologe chromosomen</strong>, <strong>de toevallige verdeling van de chromosomenparen</strong> over de dochtercellen en <strong>de willekeurige combinatie bij de bevruchting</strong>. Daarom lijkt geen broer of zus precies op de andere."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>tweede meiotische deling gaat niet gepaard met een nieuwe verdubbeling van het DNA, omdat de chromosomen dan nog uit twee chromatiden bestaan</strong>: die tweede deling trekt ze gewoon los van elkaar."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

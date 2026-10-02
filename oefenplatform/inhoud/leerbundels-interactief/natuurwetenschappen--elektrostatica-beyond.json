@@ -1,0 +1,110 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Elektrostatica",
+ "onder": "Hoe een voorwerp geladen raakt, hoe sterk de kracht tussen ladingen is, en waarom je in een auto veilig zit bij onweer.",
+ "secties": [
+  {
+   "kop": "Lading, geleiders en isolatoren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Over lading gelden drie basisregels: <strong>gelijksoortige ladingen stoten elkaar af</strong>, <strong>ongelijksoortige ladingen trekken elkaar aan</strong>, en <strong>evenveel protonen als elektronen betekent neutraal</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>verschil tussen een geleider en een isolator op atomaire schaal</strong> is dat <strong>een geleider vrije elektronen heeft en een isolator niet</strong>. <strong>Breng je lading op een geleider aan, dan verspreidt die zich over het hele voorwerp</strong>; op een isolator blijft ze liggen waar je ze zette."
+    }
+   ]
+  },
+  {
+   "kop": "Drie manieren om te laden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Laden door wrijving.</strong> De deeltjes die daarbij verhuizen, zijn de <strong>elektronen</strong>; protonen blijven zitten. Wrijf je twee voorwerpen tegen elkaar, dan geldt: <strong>het ene voorwerp wordt positief en het andere negatief</strong>, <strong>de twee ladingen zijn even groot</strong> en <strong>er zijn elektronen van het ene naar het andere voorwerp gegaan</strong>. De <strong>tribo-elektrische reeks</strong> dient <strong>om te bepalen welk voorwerp na wrijving positief en welk negatief wordt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Laden door contact.</strong> Raak je <strong>een neutrale metalen bol aan met een negatief geladen pvc-staaf</strong>, dan wordt de bol <strong>negatief</strong>: er stromen elektronen over. <strong>Na laden door contact hebben de twee voorwerpen een lading met hetzelfde teken</strong>, en samen houden ze de lading die er was. Raken <strong>twee identieke metalen bollen, de ene met een lading van 8 eenheden en de andere neutraal, elkaar even aan</strong>, dan verdeelt de lading zich gelijk: <strong>elk 4 eenheden</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Laden door influentie.</strong> <strong>Elektrostatische influentie</strong>, ook elektrostatische inductie, is <strong>het verschuiven van ladingen in een voorwerp door een geladen voorwerp in de buurt</strong>. In een <strong>geleider schuiven de vrije elektronen naar één kant van het voorwerp</strong>; in een <strong>isolator worden de moleculen dipolen: de lading schuift binnenin op</strong>. Dat laatste heet polarisatie."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een neutraal voorwerp wordt door influentie zonder aarding niet echt geladen</strong>: de lading schuift alleen op, en zodra de staaf weg is, is alles weer zoals het was. Met aarding wordt het anders. Houd je een <strong>negatief geladen staaf bij een geaarde metalen bol en verbreek je daarna eerst de aarding</strong>, dan houdt de bol een <strong>positieve</strong> lading: de weggeduwde elektronen zijn via de aarding vertrokken en kunnen niet terug."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een geladen voorwerp houdt zijn lading niet als je het aardt</strong>: de overtollige lading loopt dan weg naar de aarde en het voorwerp wordt neutraal."
+    },
+    {
+     "soort": "tekst",
+     "html": "Met welk toestel je <strong>in het labo aantoont dat een voorwerp geladen is</strong>: een <strong>elektroscoop</strong>, waarvan de blaadjes uit elkaar wijken."
+    }
+   ]
+  },
+  {
+   "kop": "Waarom een neutraal voorwerp toch aangetrokken wordt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>geladen staaf trekt een neutraal snippertje papier aan, omdat door influentie de tegengestelde lading dichterbij komt</strong>. Die dichtste kant trekt harder aan dan de verste kant afstoot, en dus blijft er aantrekking over."
+    },
+    {
+     "soort": "tekst",
+     "html": "Hetzelfde verklaart twee alledaagse dingen. Een <strong>reinigingsdoekje trekt stof aan</strong> doordat <strong>het doekje geladen is en het stof door influentie aantrekt</strong>. En wrijf je <strong>een ballon in je haar</strong> waarna hij <strong>aan de muur blijft hangen</strong>, dan komt dat doordat <strong>de geladen ballon de muur polariseert</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De wet van Coulomb",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De elektrische kracht is een <strong>veldkracht</strong>: ze <strong>werkt op afstand, zonder enig contact</strong>. De <strong>wet van Coulomb</strong> geeft <strong>de grootte van de kracht tussen twee ladingen</strong>. Daarover geldt: <strong>de kracht is groter bij grotere ladingen</strong>, <strong>de kracht is kleiner bij een grotere afstand</strong>, en <strong>de afstand staat in het kwadraat in de formule</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat kwadraat maakt het rekenwerk. Verdubbel je de afstand, dan <strong>wordt de kracht vier keer kleiner</strong>. Breng je ze <strong>twee keer dichter bij elkaar, dan wordt de kracht vier keer groter</strong>. Op <strong>afstand 3r is de kracht negen keer kleiner dan F</strong>. Bij de ladingen zelf is er geen kwadraat: <strong>verdrievoudig je één van de twee ladingen en laat je de afstand gelijk, dan wordt de kracht drie keer groter</strong>. En omgekeerd geldt de regel ook: <strong>hoe verder twee ladingen van elkaar liggen, hoe zwakker de kracht tussen hen</strong>, niet sterker."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij het <strong>voorstellen van een elektrische kracht</strong> hoort: <strong>ze heeft een grootte, een richting en een zin</strong>, <strong>je tekent ze als een pijl die in de lading begint</strong>, en <strong>bij meerdere ladingen tel je de vectoren samen</strong>. <strong>Twee positieve ladingen naast elkaar stoten elkaar af</strong>, en tussen twee gelijksoortige ladingen werkt dus <strong>afstoting</strong>. De <strong>kracht die lading A op lading B uitoefent, is even groot als de kracht die B op A uitoefent</strong>, ook als de ene lading veel groter is dan de andere."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zo lees je een tekening. Zie je <strong>een vector die van lading A weg wijst, naar lading B toe</strong>, dan weet je dat <strong>A en B ongelijksoortig zijn, want ze trekken elkaar aan</strong>. Liggen <strong>drie ladingen op een rij</strong>, dan bepaal je de kracht op de middelste <strong>door de twee krachtvectoren samen te tellen</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Schermwerking",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Binnen een geladen holle geleider is er geen elektrisch veld</strong>, <strong>omdat de lading op de buitenkant zit en de velden elkaar opheffen</strong>. Zo'n holle geleider die <strong>het binnenste beschermt tegen een elektrisch veld</strong>, heet een <strong>kooi van Faraday</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat merk je ook: <strong>een gsm heeft binnen een volledig gesloten metalen kast geen goed bereik</strong>, want de golven raken er niet in of uit. <strong>Situaties die als een kooi van Faraday werken</strong>: <strong>een auto met een metalen dak tijdens een onweer</strong>, <strong>een metalen kast rond gevoelige elektronica</strong> en <strong>het metalen rooster in de deur van een magnetron</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Toepassingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Toepassingen die op elektrostatica werken</strong>: <strong>een fotokopietoestel</strong>, <strong>poedercoating van metaal</strong> en <strong>een stoffilter in een luchtzuiveraar</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Poedercoating werkt met geladen poeder, omdat het poeder naar het tegengesteld geladen metaal getrokken wordt</strong>, ook rond de hoeken, zodat er bijna niets verloren gaat. In een <strong>elektrostatische luchtzuiveraar worden de stofdeeltjes eerst geladen</strong>, want <strong>zo haalt een tegengesteld geladen plaat ze uit de lucht</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

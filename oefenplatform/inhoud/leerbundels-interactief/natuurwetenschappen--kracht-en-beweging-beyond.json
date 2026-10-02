@@ -1,0 +1,123 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Kracht en beweging",
+ "onder": "De drie soorten bewegingen aan hun grafiek herkennen, en de drie wetten van Newton gebruiken.",
+ "secties": [
+  {
+   "kop": "Drie soorten bewegingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Beweging</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Afkorting</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kenmerk</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Eenparig rechtlijnige beweging</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ERB</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de snelheid blijft gelijk en de baan is recht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Eenparig veranderlijke rechtlijnige beweging</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">EVRB</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een rechte baan en een constante versnelling die niet nul is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Eenparig cirkelvormige beweging</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ECB</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de grootte van de snelheid blijft gelijk, de richting van de snelheid verandert voortdurend</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>eenparig cirkelvormige beweging is er wel een versnelling</strong>, ook al verandert de snelheid niet van grootte: de richting verandert, en dat is ook een verandering van de snelheidsvector. Die <strong>versnelling wijst naar het middelpunt van de cirkel</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Van een <strong>vertraagde beweging</strong> spreek je <strong>als de versnelling tegen de bewegingszin in wijst</strong>. Over de versnelling bij een <strong>EVRB</strong> geldt: <strong>ze blijft tijdens de beweging gelijk</strong>, <strong>ze wijst mee met de beweging bij versnellen</strong> en <strong>ze wijst tegen de beweging in bij vertragen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Over de <strong>snelheidsvector</strong> geldt: <strong>ze ligt altijd langs de baan</strong>, <strong>ze wijst in de zin van de beweging</strong>, en <strong>bij een cirkel raakt ze de cirkel in dat punt</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Elke beweging in een voorbeeld",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Welke beweging</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een auto rijdt met een constante snelheid van 50 km per uur op een rechte weg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een ERB</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een steen valt van een toren, met de luchtweerstand verwaarloosd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een eenparig versnelde rechtlijnige beweging</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een trein remt gelijkmatig af tot stilstand op een recht spoor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een eenparig vertraagde rechtlijnige beweging</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kind op een draaimolen die rond draait aan een vaste snelheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een eenparig cirkelvormige beweging</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "De grafieken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een x(t)-grafiek zet de plaats tegen de tijd, een v(t)-grafiek de snelheid tegen de tijd. Uit <strong>de steilheid van een x(t)-grafiek</strong> lees je <strong>de snelheid</strong> af."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Beweging</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">x(t)-grafiek</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">v(t)-grafiek</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ERB</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een rechte schuine lijn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">op een v(t)-grafiek van een ERB is de lijn horizontaal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Eenparig versneld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een parabool, dus een x(t)-grafiek die een parabool vormt is een EVRB</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een rechte schuine lijn die stijgt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Eenparig vertraagd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een parabool die afbuigt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een rechte lijn die daalt; op een v(t)-grafiek van een vertraagde beweging stijgt de lijn dus niet</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Over een <strong>ERB</strong> geldt daarmee: <strong>de versnelling is nul</strong>, <strong>de resulterende kracht is nul</strong> en <strong>de x(t)-grafiek is een rechte schuine lijn</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De eerste wet van Newton",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De eerste wet, ook de <strong>traagheidswet</strong>, zegt: <strong>zonder resulterende kracht blijft de snelheid van een lichaam gelijk</strong>. Stilstaan hoort daarbij: <strong>is de resulterende kracht op een lichaam nul, dan verandert zijn bewegingstoestand niet</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Remt <strong>een bus plots en vallen de passagiers naar voren</strong>, dan verklaart <strong>de eerste wet van Newton</strong> dat: op hen werkt geen kracht die hen meteen mee doet vertragen, dus houden ze hun snelheid nog even aan."
+    }
+   ]
+  },
+  {
+   "kop": "De tweede wet van Newton",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De tweede wet zegt: <strong>de resulterende kracht is de massa maal de versnelling</strong>, dus F = m·a. Dat is de wet die je nodig hebt <strong>als je uit een kracht en een massa de versnelling wil berekenen</strong>: <strong>de tweede</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Rekenen gaat dan rechtstreeks. Werkt op een <strong>voorwerp van 4 kg een resulterende kracht van 12 N</strong>, dan is de versnelling 12 gedeeld door 4, dus <strong>3 meter per seconde kwadraat</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De twee verbanden in die formule: <strong>verdubbel je de resulterende kracht op een voorwerp, dan verdubbelt de versnelling</strong>, en krijgen <strong>een vrachtwagen en een auto dezelfde kracht, dan versnelt de vrachtwagen minder, want zijn massa is groter, en massa en versnelling zijn omgekeerd verbonden</strong>. Ken je de versnelling van een lichaam, dan weet je over de resulterende kracht dat <strong>ze in dezelfde zin als de versnelling wijst</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De derde wet van Newton",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De derde wet is de <strong>actie-reactiewet</strong>. Daarover geldt: <strong>de twee krachten zijn even groot</strong>, <strong>de twee krachten hebben een tegengestelde zin</strong>, en <strong>de twee krachten werken op verschillende lichamen</strong>. Dat laatste is waarom ze elkaar niet opheffen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Duw je tegen een muur</strong>, dan is de reactiekracht <strong>de kracht waarmee de muur even hard tegen jou duwt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een raket komt niet vooruit doordat de uitgestoten gassen tegen de lucht achter de raket duwen</strong>: dan zou hij in het luchtledige niet werken, en hij werkt er juist beter. Het is de actie-reactiewet: de raket duwt de gassen naar achteren, de gassen duwen de raket naar voren."
+    }
+   ]
+  },
+  {
+   "kop": "Soorten krachten en ze samentellen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Krachten</strong> zijn onder meer <strong>de zwaartekracht</strong>, <strong>de spankracht</strong> en <strong>de veerkracht</strong>, en daarnaast de normaalkracht en de wrijvingskracht. De <strong>normaalkracht</strong> is <strong>de kracht waarmee een oppervlak loodrecht op een voorwerp duwt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Over de <strong>wrijvingskracht</strong>: <strong>ze wijst tegen de beweging in</strong>, <strong>ze ontstaat tussen oppervlakken die over elkaar schuiven</strong>, en <strong>een auto moet ze overwinnen om zijn snelheid te houden</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een boek dat stil op een tafel ligt, ondervindt wel krachten</strong>: de zwaartekracht naar beneden en de normaalkracht naar boven. Ze zijn even groot en heffen elkaar op, en daarom blijft het boek liggen; nul resulterende kracht is niet nul kracht."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>resulterende kracht op een lichaam bepaal je door alle krachtvectoren samen te tellen</strong>. Werkt <strong>een kracht schuin op een voorwerp</strong>, dan <strong>ontbind je ze in een x-component en een y-component</strong> en reken je elke richting apart."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

@@ -1,0 +1,129 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Kunststoffen, nanomaterialen en duurzame chemie",
+ "onder": "Hoe een kunststof gemaakt wordt, wat een nanomateriaal anders maakt, en hoe je duurzaamheid eerlijk beoordeelt.",
+ "secties": [
+  {
+   "kop": "Van monomeer tot polymeer",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>monomeer</strong> is <strong>de kleine molecule waaruit een kunststof opgebouwd wordt</strong>. Twee ervan samen vormen een dimeer, duizenden een polymeer."
+    },
+    {
+     "soort": "tekst",
+     "html": "Er zijn twee manieren om monomeren aan elkaar te rijgen. <strong>Polyadditie gebruikt een dubbele binding om de monomeren aan elkaar te rijgen, zonder dat er iets vrijkomt</strong>. Bij een <strong>polycondensatie komt er telkens een kleine molecule vrij, meestal water</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Afkorting</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kunststof</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarvoor</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">PE</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">polyetheen, opgebouwd uit etheen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">folie, flessen, zakken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">PP</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">polypropeen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">potjes, autodelen, touw</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">PVC</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">polyvinylchloride</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">buizen, vloeren, raamprofielen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">PS</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">polystyreen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">isolatie en verpakking</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">PTFE</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">teflon</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de antiaanbaklaag van een pan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">PET</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">polyethyleentereftalaat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drankflessen en vezels voor kleding</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">PA</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">polyamide of nylon; PA is dus niet de afkorting van polyester</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kledingvezels, tandwielen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">PUR</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">polyurethaan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schuim, isolatie, matrassen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Door polyadditie uit een monomeer met een dubbele binding</strong> worden onder meer <strong>PE</strong>, <strong>PP</strong> en <strong>PVC</strong> gemaakt. PET en PA ontstaan daarentegen door polycondensatie."
+    }
+   ]
+  },
+  {
+   "kop": "Drie soorten gedrag",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Dezelfde ketens kunnen heel anders aanvoelen, en dat komt door de dwarsverbindingen ertussen, de <strong>crosslinks</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kenmerk</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Thermoplast</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hij wordt bij opwarmen week en kan opnieuw gevormd worden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Thermoharder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je kan hem niet opnieuw smelten, want de ketens zitten met veel crosslinks aan elkaar vast</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Elastomeer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hij vervormt onder een kracht en komt daarna terug</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Heb je een <strong>soepele dichting nodig die na samenpersen terugkomt</strong>, dan kies je <strong>een elastomeer</strong>. En voor de recyclage: <strong>thermoplasten zijn makkelijker te recycleren dan thermoharders</strong>, precies omdat je ze opnieuw kan smelten en vormen."
+    }
+   ]
+  },
+  {
+   "kop": "Nanomaterialen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>nanomateriaal</strong> is <strong>tussen 1 en 100 nanometer</strong> groot, in minstens één richting. Men deelt ze in naar hoeveel richtingen die nanomaat aanhoudt: <strong>een buckyball is een 0D-structuur</strong>, <strong>een koolstofnanobuis is een 1D-structuur</strong> en <strong>een laagje grafeen is een 2D-structuur</strong>. <strong>Grafeen</strong> is dan ook het nanomateriaal dat <strong>uit één laag koolstofatomen bestaat</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Maken kan op twee manieren: top-down, door een groot stuk steeds fijner te verdelen, of bottom-up. <strong>Bij een bottom-upproductie bouw je een nanomateriaal op uit atomen of moleculen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Nanodeeltjes hebben geen kleinere verhouding van oppervlak tot volume dan grote stukken van dezelfde stof</strong>, maar juist een veel grotere. Daaruit volgt bijna alles: <strong>ze hebben een heel groot oppervlak per volume-eenheid</strong>, <strong>ze zijn daardoor vaak veel reactiever</strong> en <strong>hun smeltpunt kan lager liggen dan dat van een groot stuk</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Eigenschappen van een nanomateriaal die anders kunnen zijn dan die van het grote stuk</strong>: <strong>optische eigenschappen zoals een specifieke kleur</strong>, <strong>elektrische eigenschappen</strong> en <strong>mechanische eigenschappen zoals sterkte en hardheid</strong>. Dezelfde stof, een andere maat, ander gedrag."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee toepassingen uit het dagelijks leven. Er zit <strong>nanotitaandioxide of nanozinkoxide in zonnecrème, omdat het UV-licht tegenhoudt en toch doorzichtig blijft</strong>, terwijl de grove vorm een witte laag geeft. En <strong>zilver</strong> wordt als nanodeeltje gebruikt <strong>voor zijn antibacteriële werking</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "Een <strong>nadeel van nanodeeltjes is dat ze diep in een lichaam of in het milieu kunnen terechtkomen</strong>. Precies hun kleine maat en hun reactiviteit, die ze nuttig maken, maken ze ook moeilijk tegen te houden en moeilijk te volgen."
+    }
+   ]
+  },
+  {
+   "kop": "Van lineair naar circulair",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>lineaire economie</strong> is de economie die <strong>grondstoffen neemt, er iets van maakt en het daarna weggooit</strong>. Daartegenover staat het circulaire denken, en daarbinnen is er een rangorde."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bovenaan de <strong>Ladder van Lansink</strong> staat <strong>preventie, dus het afval vermijden</strong>. <strong>Op de Ladder van Lansink staat hergebruiken hoger dan recycleren</strong>, en recycleren weer hoger dan verbranden of storten."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Downcycling</strong> is <strong>afval verwerken tot iets van lagere kwaliteit</strong>, zoals een plastic fles die tot vulmateriaal wordt. <strong>Upcycling</strong> is het omgekeerde: recyclage waarbij <strong>het nieuwe product méér waard is dan het oude</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het kernidee van <strong>cradle to cradle</strong> is dat <strong>afval van het ene product grondstof is voor het volgende</strong>. De <strong>categorieën</strong> die daarbij horen, gaan verder dan materiaal alleen: <strong>materiaalgezondheid</strong>, <strong>productcirculariteit</strong> en <strong>sociale rechtvaardigheid</strong>, naast hernieuwbare energie en waterbeheer."
+    }
+   ]
+  },
+  {
+   "kop": "De woorden van de duurzame chemie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Biogebaseerd</strong> betekent <strong>gemaakt uit plantaardige of dierlijke grondstoffen</strong>. Dat zegt alleen waar de grondstof vandaan komt, dus <strong>is een biogebaseerde kunststof niet altijd ook biodegradeerbaar</strong>: bio-PE uit rietsuiker blijft even lang liggen als gewone PE. <strong>Composteerbaar</strong> is nog strenger: een materiaal dat <strong>onder composteeromstandigheden volledig afbreekt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waterstof</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe ze gemaakt wordt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Grijs</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uit aardgas, met uitstoot van CO2</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Blauw</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zoals grijs, maar met afvang en opslag van de CO2</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Groen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met hernieuwbare stroom, en daarin verschilt groene waterstof van grijze</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij water onderscheidt men ook kleuren. <strong>Grijs water</strong> is <strong>licht vervuild water van bad, lavabo of wasmachine</strong>; wit water is drinkbaar en zwart water komt uit het toilet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een CO2-neutraal proces neemt niet meer CO2 op dan het uitstoot</strong>: het neemt er precies even veel op, in balans. Alleen een CO2-negatief proces neemt er meer op dan het uitstoot."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Greenwashing</strong> is <strong>een product duurzamer voorstellen dan het is</strong>: een groen blaadje op de verpakking, zonder dat er in het proces iets veranderd is."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Microplastics zijn een probleem omdat ze heel lang in het milieu blijven en in de voedselketen komen</strong>. Ze ontstaan niet alleen uit weggegooid afval, maar ook uit autobanden, wasbeurten van synthetische kleding en afbrokkelende verf."
+    },
+    {
+     "soort": "tekst",
+     "html": "Beoordeel je de duurzaamheid van een proces, dan bekijk je alle energievormen die erin zitten: <strong>fossiele energie</strong>, <strong>kernenergie</strong> en <strong>hernieuwbare energie</strong>. Pas dan weet je of een proces echt minder weegt."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

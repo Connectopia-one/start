@@ -1,0 +1,131 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Chemisch evenwicht",
+ "onder": "Aflopend, in evenwicht of geen reactie, en hoe je een evenwicht de kant op duwt die je wil.",
+ "secties": [
+  {
+   "kop": "Drie mogelijke uitkomsten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Meng je twee stoffen, dan zijn er drie uitkomsten mogelijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitkomst</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waaraan je het merkt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Op een concentratie-tijdgrafiek</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Aflopende reactie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">minstens één reagens raakt volledig op</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de lijn van een reagens zakt tot op de horizontale as</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Chemisch evenwicht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de reagentia en de producten zijn allebei nog aanwezig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee concentratielijnen veranderen eerst en lopen daarna vlak naast elkaar door</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Geen reactie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de concentraties veranderen helemaal niet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle lijnen blijven van het begin af vlak</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>chemisch evenwicht</strong> geldt dus: <strong>de reagentia en de producten zijn allebei nog aanwezig</strong>, <strong>de concentraties veranderen niet meer</strong> en <strong>de heenreactie en de terugreactie gaan even snel</strong>. Opgelet: <strong>in een chemisch evenwicht zijn de concentraties van reagentia en producten niet altijd aan elkaar gelijk</strong>. Ze veranderen niet meer, maar ze mogen heel verschillend zijn; een evenwicht kan ver naar links of ver naar rechts liggen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom spreekt men van een <strong>dynamisch evenwicht</strong>: een evenwicht <strong>waarbij de heen- en terugreactie blijven doorgaan</strong>. <strong>Zodra een evenwicht bereikt is, worden er wel nog nieuwe productmoleculen gevormd</strong>, alleen worden er op datzelfde ogenblik even veel weer afgebroken. Van buiten lijkt er niets te gebeuren, van binnen gebeurt er voortdurend iets."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je kan in het labo nagaan of je <strong>met een evenwicht te doen hebt</strong> door <strong>na te kijken of er op het einde nog van beide reagentia is</strong> en door <strong>iets toe te voegen en te kijken of er nog iets verandert</strong>. Een <strong>evenwicht kan je ook van rechts naar links bereiken, dus vertrekkend van de producten</strong>: je komt bij dezelfde eindtoestand uit, van welke kant je ook start."
+    }
+   ]
+  },
+  {
+   "kop": "Limiterend reagens en overmaat",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>limiterend reagens</strong> is <strong>het reagens dat als eerste opgebruikt is en zo de reactie stopt</strong>. Het reagens waarvan er na de reactie nog overblijft, is de <strong>overmaat</strong>: <strong>bij een aflopende reactie blijft er van het reagens in overmaat nog over</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Meng je <strong>2 mol van stof A met 5 mol van stof B, terwijl de reactie één op één verloopt</strong>, dan kan er maar 2 mol reageren, dus is <strong>stof B</strong> in overmaat. Het is bij een proef <strong>soms handig om één reagens in overmaat te gebruiken, om zeker te zijn dat het andere reagens volledig reageert</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De snelheden onderweg",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op weg naar het evenwicht veranderen beide snelheden tegelijk. <strong>De heenreactie vertraagt onderweg naar het evenwicht</strong>, de <strong>terugreactie versnelt onderweg naar het evenwicht</strong>, en <strong>in het evenwicht zijn beide snelheden gelijk</strong>. De <strong>snelheid van de heenreactie daalt, want de reagentia raken op</strong>, terwijl er juist steeds meer product is om terug te reageren."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op een <strong>snelheid-tijdgrafiek van een evenwicht</strong> zie je dat aan de twee lijnen: <strong>ze komen naar elkaar toe en lopen daarna samen verder</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Kleur als venster op het evenwicht",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Is de <strong>oplossing van het evenwicht van ijzerthiocyanaat bloedrood</strong>, dan zegt die kleur <strong>dat er een duidelijke hoeveelheid gekleurd product aanwezig is</strong>. Meer dan dat zegt ze niet: de kleur verraadt geen snelheid en geen temperatuur."
+    },
+    {
+     "soort": "tekst",
+     "html": "Juist daarom is <strong>een kleurverandering een handige manier om een verschuiving van een evenwicht te volgen</strong>: je ziet met je ogen welke kant het op gaat, zonder te meten."
+    }
+   ]
+  },
+  {
+   "kop": "De wet van Le Chatelier en Van 't Hoff",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De wet die <strong>voorspelt in welke richting een evenwicht verschuift</strong>, is de <strong>wet van Le Chatelier en Van 't Hoff</strong>: <strong>een evenwicht schuift zo op dat het de verstoring tegenwerkt</strong>. Duw je ergens, dan duwt het evenwicht terug."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Verstoringen die een evenwicht kunnen doen verschuiven</strong>: <strong>de concentratie van één stof veranderen</strong>, <strong>het volume van het vat veranderen bij een gasevenwicht</strong> en <strong>de temperatuur veranderen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een verschuiving <strong>naar de kant van de reagentia</strong> noemt men een verschuiving <strong>naar links</strong>; naar de producten is naar rechts. Een <strong>verschuiving naar rechts betekent dat de concentratie van alle producten stijgt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het evenwicht doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">extra reagens toevoegen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het kiest de kant van de producten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een reagens verwijderen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het schuift naar links en er verdwijnt product</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">product uit het evenwichtsmengsel weghalen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het maakt nieuw product aan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een katalysator toevoegen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het evenwicht wordt sneller bereikt, maar het ligt niet anders</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Voeg je <strong>extra reagens toe aan een evenwicht waarvan het product gekleurd is</strong>, dan wordt <strong>de kleur sterker</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Kijk ook naar de snelheid vlak na een ingreep. Voeg je <strong>reagens toe</strong>, dan <strong>stijgt de snelheid van de heenreactie eerst en zakt ze daarna naar de nieuwe evenwichtswaarde</strong>. En <strong>na een verstoring komen de twee snelheden niet opnieuw op dezelfde waarde als voor de verstoring uit</strong>: ze worden weer aan elkaar gelijk, maar op een ander niveau."
+    }
+   ]
+  },
+  {
+   "kop": "Temperatuur en druk",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij temperatuur moet je weten welke kant warmte afgeeft. <strong>Bij een exo-energetisch evenwicht verschuift opwarmen het evenwicht naar links</strong>, want zo wordt de toegevoegde warmte weer opgenomen. <strong>Koel je een evenwicht af waarvan de heenreactie exo-energetisch is</strong>, dan <strong>schuift het naar rechts, want zo komt er warmte vrij</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Die regel laat zich omdraaien tot een besluit. Wordt een <strong>evenwicht met een bruin gas en een kleurloos gas bleker als je het afkoelt</strong>, dan schuift het bij afkoelen naar het kleurloze gas, en dus: <strong>de reactie naar het kleurloze gas geeft warmte af</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij druk en volume tel je de gasdeeltjes links en rechts. Een gasevenwicht schuift bij een hogere druk naar de kant met <strong>het kleinste</strong> aantal gasdeeltjes, want zo neemt het mengsel minder plaats in. Heeft een <strong>gasevenwicht links 3 mol gas en rechts 2 mol gas</strong> en pers je het <strong>in een kleiner vat</strong>, dan <strong>schuift het naar rechts, naar de kant met minder gasdeeltjes</strong>. Maar <strong>een volumeverandering verschuift niet elk gasevenwicht</strong>: staan er links en rechts even veel gasdeeltjes, dan is er geen kant die het drukverschil kan opvangen en blijft het evenwicht liggen waar het lag."
+    }
+   ]
+  },
+  {
+   "kop": "Een grafiek ontleden en een fabriek sturen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Om <strong>uit een grafiek af te leiden welke factor een evenwicht verstoord heeft</strong>, zet je drie stappen: <strong>kijken welke lijn als eerste plots verspringt</strong>, <strong>kijken in welke richting de lijnen daarna evolueren</strong>, en <strong>kijken of alle lijnen op hetzelfde moment van richting veranderen</strong>. Springt er één lijn alleen, dan is er aan die stof geraakt; bewegen alle lijnen samen, dan is het de temperatuur of het volume."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een fabriek gebruikt dezelfde wet om de opbrengst te verhogen: <strong>het product onderweg uit het vat afvoeren</strong>, <strong>extra reagens blijven toevoegen</strong> en <strong>de temperatuur in de gunstige richting zetten</strong>. Zo haalt ze uit een evenwicht toch bijna alles wat erin zit."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

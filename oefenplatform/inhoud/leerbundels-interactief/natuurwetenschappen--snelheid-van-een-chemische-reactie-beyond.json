@@ -1,0 +1,146 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Snelheid van een chemische reactie",
+ "onder": "Wat reactiesnelheid is, hoe je ze aan een grafiek afleest, en de vier factoren die haar bepalen.",
+ "secties": [
+  {
+   "kop": "Wat is reactiesnelheid?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>snelheid van een chemische reactie</strong> druk je uit als de <strong>verandering van een concentratie per tijdseenheid</strong>: de <strong>afname</strong> van de concentratie van een <strong>reagens</strong> of de <strong>toename</strong> van die van een <strong>reactieproduct</strong> in een bepaalde tijd. Een massa of een volume alleen is géén snelheid, want daar zit geen tijd in."
+    },
+    {
+     "soort": "tekst",
+     "html": "Er is ook een tweede manier om hetzelfde te zeggen, vanuit de deeltjes: de snelheid is het <strong>aantal effectieve botsingen per tijdseenheid</strong>. Het aantal deeltjes in het vat alleen zegt niets over snelheid, want er staat geen tijd bij."
+    },
+    {
+     "soort": "kader",
+     "html": "Snelheid en opbrengst zijn twee verschillende dingen. <strong>Hoeveel product er uiteindelijk ontstaat, hangt af van hoeveel reagens er was</strong>, niet van hoe snel het ging. Een trage en een snelle reactie kunnen op het einde precies hetzelfde opleveren."
+    }
+   ]
+  },
+  {
+   "kop": "Het botsingsmodel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Deeltjes reageren enkel als ze botsen, maar niet elke botsing helpt. Een <strong>effectieve botsing</strong> is een botsing die wél tot een reactie leidt. Daarvoor moet er twee dingen samen kloppen: de deeltjes moeten <strong>genoeg energie</strong> hebben én <strong>met de juiste kant tegen elkaar botsen</strong>. Ontbreekt er één van de twee, dan gebeurt er niets."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een botsing waarbij de deeltjes gewoon <strong>van elkaar wegstuiteren</strong> heet een <strong>elastische botsing</strong> of een <strong>niet-effectieve botsing</strong>. Daarbij <strong>ontstaat er geen nieuwe stof</strong>: aan de stoffen verandert niets."
+    },
+    {
+     "soort": "weetje",
+     "html": "In een gewoon bekerglas botsen er per seconde onvoorstelbaar veel deeltjes tegen elkaar. Dat er toch reacties zijn die dagen duren, komt doordat maar een heel klein deel van al die botsingen effectief is."
+    }
+   ]
+  },
+  {
+   "kop": "Grafieken lezen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op een <strong>concentratie-tijdgrafiek</strong> staat de concentratie op de verticale as en de tijd op de horizontale. Een <strong>steile daling</strong> van de lijn van een reagens betekent dat de reactie op dat moment <strong>snel</strong> gaat; hoe steiler de lijn, hoe meer de concentratie per tijdseenheid verandert. Loopt de lijn <strong>vlak</strong>, dan verandert er niets meer: de reactie is <strong>afgelopen of in evenwicht</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De meeste reacties <strong>beginnen snel en worden daarna trager</strong>. In het begin zijn er het meeste reagensdeeltjes en dus het meeste botsingen; hoe meer reagens opgebruikt is, hoe minder botsingen en hoe trager de reactie."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op een <strong>snelheid-tijdgrafiek</strong> staat de snelheid zélf op de verticale as. Daar lees je dus <strong>rechtstreeks af hoe snel de reactie op elk moment verloopt</strong>, terwijl je op een concentratie-tijdgrafiek eerst naar de steilheid van de lijn moet kijken."
+    }
+   ]
+  },
+  {
+   "kop": "De vier factoren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Vier dingen bepalen de snelheid van een reactie: de <strong>verdelingsgraad</strong>, de <strong>temperatuur</strong> (of <strong>licht</strong>), de <strong>concentratie</strong> en een <strong>katalysator</strong>. Het reactievat zelf doet niet mee aan de reactie en speelt dus geen rol."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Factor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarom het sneller gaat</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Verdelingsgraad</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vaste stof fijner verdelen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">veel meer contactoppervlak, dus meer deeltjes die kunnen botsen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Temperatuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opwarmen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de deeltjes bewegen sneller, botsen vaker en harder</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Concentratie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meer deeltjes in hetzelfde volume</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meer botsingen per seconde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Katalysator</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een stof toevoegen die zelf niet opgebruikt wordt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de activeringsenergie zakt, dus halen meer botsingen de drempel</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>verdelingsgraad</strong> is de mate waarin een vaste stof fijn verdeeld is. Poeder heeft een hoge verdelingsgraad, één groot stuk een lage. Daarom <strong>brandt zaagmeel sneller dan een dik blok van hetzelfde hout</strong>: er is veel meer contactoppervlak met de lucht. Laat je <strong>eenzelfde hoeveelheid kalk</strong> reageren met zuur, één keer als <strong>brokjes</strong> en één keer als <strong>poeder</strong>, dan <strong>reageert het poeder sneller maar geeft het evenveel gas</strong>: de verdelingsgraad verandert alleen de snelheid, niet de opbrengst."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>hogere temperatuur</strong> gaat een reactie sneller omdat de <strong>deeltjes sneller bewegen, dus vaker en harder botsen</strong>. Twee dingen tellen daar samen: er zijn meer botsingen per seconde én een groter deel daarvan heeft genoeg energie. De <strong>activeringsenergie zelf blijft gelijk</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>hogere concentratie zorgt voor meer botsingen per seconde</strong>: zitten er meer deeltjes in hetzelfde volume, dan komen ze elkaar vaker tegen. Daarom <strong>stijgt de snelheid als je een gasmengsel in een kleiner vat perst</strong>: evenveel deeltjes in een kleiner volume is een hogere concentratie. Een <strong>groter vat</strong> verlaagt de concentratie juist en vertraagt dus."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>lichtgevoelige reacties</strong> <strong>levert licht de energie om de reactie te doen starten</strong>: een deeltje neemt energie uit het licht op. Daarom bewaar je waterstofperoxide in een bruine fles."
+    },
+    {
+     "soort": "kader",
+     "html": "Dezelfde stoffen geven altijd <strong>dezelfde reactievergelijking</strong>. Gaat van twee proeven met dezelfde stoffen de ene sneller, dan ligt dat dus aan de temperatuur, de concentratie, de verdelingsgraad of een katalysator, en nooit aan een andere reactievergelijking."
+    }
+   ]
+  },
+  {
+   "kop": "Het energiediagram",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op een <strong>energiediagram</strong> staat de <strong>inwendige energie</strong> op de verticale as: links de reagentia, rechts de reactieproducten, en daartussen een berg. De <strong>activeringsenergie</strong> is de <strong>energie die de deeltjes nodig hebben om te kunnen reageren</strong>, dus de hoogte van die berg boven de reagentia. Hoe hoger de berg, hoe minder botsingen genoeg energie hebben."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bovenaan de berg zit het <strong>geactiveerd complex</strong>: een onstabiele toestand waarin de oude bindingen half los en de nieuwe half gelegd zijn. Het geactiveerd complex heeft de <strong>hoogste inwendige energie</strong> van het hele verloop."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>reactie-energie</strong> bepaal je als het <strong>verschil tussen de energie van de producten en die van de reagentia</strong>, dus als het hoogteverschil tussen begin en einde. Verwar dat niet met de hoogte van de top boven de reagentia: dat is de activeringsenergie."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>exo-energetische</strong> reactie (ook <strong>exotherm</strong>) <strong>liggen de producten lager dan de reagentia</strong>: het teveel aan energie gaat naar de omgeving en het mengsel voelt <strong>warm</strong> aan. Bij een <strong>endo-energetische</strong> reactie (<strong>endotherm</strong>) <strong>neemt de reactie energie uit de omgeving op</strong>, hebben de <strong>producten meer inwendige energie dan de reagentia</strong> en <strong>koelt de omgeving af</strong>. Ook een endo-energetische reactie <strong>heeft een activeringsenergie nodig</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een reactie met een <strong>hoge activeringsenergie</strong> verloopt bij <strong>kamertemperatuur meestal traag</strong>, want weinig deeltjes raken over de berg. Daarom moet je zo'n reactie vaak opwarmen om ze te zien gebeuren. Op een energiediagram lees je trouwens enkel de <strong>activeringsenergie</strong> en de <strong>reactie-energie</strong> af: tijd en concentratie staan er niet op."
+    }
+   ]
+  },
+  {
+   "kop": "Katalysatoren en de Boltzmannverdeling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>katalysator verlaagt de activeringsenergie</strong> van de reactie. Door de lagere berg hebben meer botsingen genoeg energie, dus gaat de reactie sneller. Hoeveel product er komt, verandert niet: <strong>een katalysator wordt tijdens de reactie niet opgebruikt</strong>, want hij doet mee aan tussenstappen maar komt er achteraf onveranderd uit. Daarom kan een kleine hoeveelheid heel lang blijven werken."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op het energiediagram <strong>ligt de top met een katalysator lager</strong>, terwijl de <strong>energie van de reagentia</strong> en de <strong>energie van de producten dezelfde blijven</strong>. Dus <strong>verandert een katalysator de reactie-energie niet</strong>; enkel de activeringsenergie wordt kleiner."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>biokatalysator</strong> is een katalysator die in een levend organisme werkt. Dat zijn de <strong>enzymen</strong>: proteïnen die een reactie in het lichaam versnellen. Ze zijn belangrijk omdat ze <strong>reacties bij lichaamstemperatuur snel genoeg laten verlopen</strong>; opwarmen is in een cel geen optie, dus moet de berg lager. Daarom heeft bijna elke reactie in het lichaam haar eigen enzym."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>Boltzmannverdeling</strong> zet de <strong>kinetische energie van de deeltjes</strong> op de horizontale as en het aantal deeltjes met die energie op de verticale. De activeringsenergie zet je als een streep op die as: alles rechts daarvan kan reageren. Een reactie gaat dus sneller als <strong>er een groter deel van de deeltjes rechts van de activeringsenergie ligt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>hogere temperatuur schuift de top naar rechts en wordt ze lager en breder</strong>: de energie is over een breder gebied verspreid, en daardoor ligt er een veel groter deel van de oppervlakte rechts van de activeringsenergie. Een <strong>katalysator zet de streep van de activeringsenergie naar links</strong>, zodat <strong>meer deeltjes genoeg energie hebben om te reageren</strong>; de verdeling van de deeltjes zelf blijft daarbij gelijk."
+    },
+    {
+     "soort": "kader",
+     "html": "Verloopt een proef te traag en mag je <strong>niet opwarmen</strong>, dan blijven er drie factoren over: <strong>een katalysator toevoegen of de stof fijner verdelen</strong>, of de concentratie verhogen."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

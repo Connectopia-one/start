@@ -1,0 +1,122 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Fotosynthese en celademhaling",
+ "onder": "Hoe een cel energie vastlegt en weer vrijmaakt, van ATP over de chloroplast tot de gisting.",
+ "secties": [
+  {
+   "kop": "Autotroof en heterotroof",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>autotroof organisme bouwt zijn eigen organische stoffen uit anorganische stoffen op</strong>: een plant maakt glucose uit koolstofdioxide en water. Een <strong>heterotroof organisme</strong> moet die organische stoffen opeten. Een <strong>schimmel is een heterotroof organisme</strong>, ook al groeit hij als een plant op één plek."
+    }
+   ]
+  },
+  {
+   "kop": "ATP, de energiemunt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Energie uit voedsel kan een cel niet rechtstreeks gebruiken. Daarom werkt ze met <strong>ATP</strong>, de <strong>energiemunt van de cel</strong>: ze <strong>geeft haar energie er in kleine, bruikbare porties mee rond</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "In het <strong>ATP-ADP-systeem geeft ATP een fosfaatgroep af en wordt het ADP, en omgekeerd</strong>. Bij het afsplitsen komt energie vrij, bij het aanhechten wordt energie vastgelegd. Zo gaat hetzelfde molecule honderden keren per dag heen en weer: een <strong>cel kan ATP niet in grote voorraad opslaan voor later gebruik</strong>, ze maakt het aan op het moment dat ze het nodig heeft."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>ATP levert de energie</strong> voor onder meer de <strong>spiercontractie</strong>, de <strong>zenuwimpulsgeleiding</strong> en de <strong>synthese van biomoleculen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een reactie waarbij er <strong>energie vrijkomt</strong>, zoals de celademhaling, heet <strong>exo-energetisch</strong>. Een reactie die energie opneemt, heet endo-energetisch."
+    }
+   ]
+  },
+  {
+   "kop": "De fotosynthese",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De fotosynthese legt lichtenergie vast in glucose. De reactievergelijking is <strong>6 CO2 + 6 H2O geeft C6H12O6 + 6 O2</strong>. Omdat er energie in opgeslagen wordt, is de <strong>fotosynthese een endo-energetische reactie</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ze loopt in twee stappen in de chloroplast. De <strong>lichtreacties</strong> lopen <strong>in het thylakoïdmembraan</strong>, de donkerreacties in het <strong>stroma</strong>, de <strong>kleurloze vloeistof in de chloroplast</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>lichtreactie levert voor de donkerreactie</strong> drie dingen op: <strong>ATP</strong>, <strong>energierijke waterstofdragers</strong> en <strong>zuurstofgas als nevenproduct</strong>. Die zuurstof komt vrij doordat <strong>water tijdens de lichtreactie gesplitst wordt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De naam donkerreactie is misleidend: de <strong>donkerreactie kan niet alleen in volledige duisternis plaatsvinden</strong>. Ze heeft geen licht nodig, maar ze loopt juist het best terwijl de lichtreactie ernaast ATP aanlevert."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het groene pigment dat het licht opvangt, is het <strong>chlorofyl</strong>. Een plant kan <strong>met uitsluitend groen licht nauwelijks aan fotosynthese doen, omdat chlorofyl groen licht grotendeels weerkaatst in plaats van opneemt</strong>; net daarom zien we het blad groen. <strong>Naast chlorofyl bevat een blad nog andere pigmenten die licht opvangen</strong>, zoals de carotenoïden die in de herfst zichtbaar worden."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een blad is helemaal op fotosynthese gebouwd: een <strong>plat, breed oppervlak dat veel licht opvangt</strong>, <strong>palissadecellen vol chloroplasten onder de bovenzijde</strong> en <strong>huidmondjes die koolstofdioxide binnenlaten</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Blijft de lichtsterkte stijgen</strong>, dan <strong>stijgt de snelheid van de fotosynthese eerst mee en loopt ze daarna tegen een grens aan</strong>: een andere factor, zoals de hoeveelheid koolstofdioxide, wordt dan de rem. De suikers die de plant overhoudt, <strong>bewaart ze als zetmeel</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De celademhaling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>plant doet niet alleen aan fotosynthese</strong>: ze doet ook aan celademhaling, dag en nacht. <strong>Fotosynthese en celademhaling hangen samen doordat de producten van de ene de grondstoffen van de andere zijn</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De reactievergelijking van de <strong>aerobe celademhaling</strong> is <strong>C6H12O6 + 6 O2 geeft 6 CO2 + 6 H2O en energie</strong>. Er komt dus <strong>koolstofdioxide vrij bij de aerobe celademhaling</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ze verloopt in twee plaatsen. De <strong>glycolyse</strong> is de <strong>reeks van reacties die glucose in het cytoplasma afbreekt tot twee moleculen pyrodruivenzuur</strong>. Het <strong>pyrodruivenzuur</strong> gaat bij voldoende zuurstof het <strong>mitochondrion</strong> in. De <strong>glycolyse levert veel minder ATP op dan de reacties in het mitochondrion</strong>, en niet omgekeerd: het grote werk gebeurt in het mitochondrion."
+    }
+   ]
+  },
+  {
+   "kop": "Gisting",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Is er te weinig zuurstof, dan blijft de glycolyse lopen en moet het pyrodruivenzuur elders naartoe. In een <strong>spiercel bij intense inspanning wordt het pyrodruivenzuur tot melkzuur omgezet</strong>. Het ophopen van dat melkzuur tijdens zware inspanning heet de <strong>verzuring</strong> van de spieren."
+    },
+    {
+     "soort": "tekst",
+     "html": "Voor de <strong>melkzuurgisting</strong> geldt: ze <strong>loopt zonder zuurstof</strong>, ze <strong>gebeurt in het cytoplasma</strong> en ze <strong>levert veel minder energie op dan de aerobe ademhaling</strong>. <strong>Melkzuurbacteriën worden gebruikt om yoghurt van melk te maken</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>alcoholische gisting van glucose</strong> levert <strong>ethanol</strong>, <strong>koolstofdioxide</strong> en <strong>een kleine hoeveelheid energie</strong> op. Laat een <strong>gistcultuur in suikerwater belletjes opborrelen</strong>, dan is dat gas <strong>koolstofdioxide</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Gisting levert veel minder energie op dan de aerobe celademhaling, omdat de glucose maar gedeeltelijk afgebroken wordt</strong>: in melkzuur en in ethanol zit nog een hoop energie die de cel laat liggen."
+    }
+   ]
+  },
+  {
+   "kop": "Transport in de plant en twee proeven",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het transport van stoffen in een plant gebeurt door <strong>het xyleem voor water en mineralen</strong>, <strong>het floëem voor opgeloste suikers</strong> en <strong>de vaatbundel waarin beide samen liggen</strong>. Met <strong>opwaarts transport</strong> bedoelt men het <strong>vervoer van water en mineralen van de wortel naar het blad</strong>. De <strong>verdamping in de bladeren helpt het water in de houtvaten omhoog te trekken</strong>, als een zuigende draad."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee klassieke proeven. Bij een experiment over fotosynthese zet men <strong>een plant eerst een nacht in het donker om het aanwezige zetmeel uit de bladeren te laten verdwijnen</strong>; anders weet je niet of het zetmeel van de proef komt. Daarna toont men <strong>zetmeel in een blad aan met joodoplossing</strong>, die blauwzwart kleurt."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

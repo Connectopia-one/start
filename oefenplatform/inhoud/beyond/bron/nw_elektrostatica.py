@@ -1,0 +1,396 @@
+# -*- coding: utf-8 -*-
+"""🌍 Beyond — Elektrostatica.
+
+Fysica, de kop "Elektrostatica" uit de vakfiche natuurwetenschappen 3DO.
+Deel 1 gaat over elektrische lading: het verschil tussen een geleider en een
+isolator, en de drie manieren om iets te laden, namelijk door wrijving, door
+contact en door influentie met aarding. Deel 2 gaat over de elektrische kracht
+zelf, de wet van Coulomb, de schermwerking en de toepassingen.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het verschil tussen een geleider en een isolator op atomaire schaal?",
+        opties=[
+            "een geleider heeft vrije elektronen, een isolator niet",
+            "een geleider heeft meer protonen dan elektronen",
+            "een isolator heeft geen elektronen in zijn atomen",
+            "een isolator bestaat enkel uit neutronen",
+        ],
+        antwoord=0,
+        uitleg="In een metaal kunnen de buitenste elektronen zich vrij door het rooster bewegen. In een isolator blijven alle elektronen bij hun eigen atoom.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Breng je lading op een geleider aan, dan verspreidt die zich over het hele voorwerp.",
+        antwoord=True,
+        uitleg="De vrije elektronen kunnen bewegen, dus schuiven de gelijke ladingen zo ver mogelijk van elkaar. Op een isolator blijft de lading juist zitten waar je ze aanbrengt.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Welke deeltjes verhuizen er als twee voorwerpen door wrijving geladen worden?",
+        antwoord=["elektronen", "elektron"],
+        uitleg="Protonen zitten vast in de kern en kunnen niet verhuizen. Het voorwerp dat elektronen afgeeft, wordt positief; het andere wordt negatief.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je wrijft twee voorwerpen tegen elkaar. Welke uitspraken zijn dan juist? Kruis alles aan wat juist is.",
+        opties=[
+            "het ene voorwerp wordt positief en het andere negatief",
+            "de twee ladingen zijn even groot",
+            "er zijn elektronen van het ene naar het andere voorwerp gegaan",
+            "er zijn protonen van het ene naar het andere voorwerp gegaan",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Wat de ene verliest, krijgt de andere, dus zijn de ladingen even groot en tegengesteld. Protonen blijven in de kern zitten.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarvoor dient de tribo-elektrische reeks?",
+        opties=[
+            "om te bepalen welk voorwerp na wrijving positief en welk negatief wordt",
+            "om de grootte van de elektrische kracht tussen twee ladingen te berekenen",
+            "om te bepalen welke stoffen de elektrische stroom goed geleiden",
+            "om de afstand tussen twee geladen voorwerpen nauwkeurig te meten",
+        ],
+        antwoord=0,
+        uitleg="Die reeks zet stoffen op een rij naar hun neiging om elektronen af te geven. De stof die hoger staat, geeft elektronen aan de stof die lager staat.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je raakt een neutrale metalen bol aan met een negatief geladen pvc-staaf. Wat wordt de lading van de bol?",
+        opties=["negatief", "positief", "de bol blijft neutraal", "eerst positief en dan negatief"],
+        antwoord=0,
+        uitleg="Bij contact lopen er elektronen van de staaf naar de bol. Na het contact hebben beide voorwerpen dus hetzelfde teken.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Na laden door contact hebben de twee voorwerpen een lading met hetzelfde teken.",
+        antwoord=True,
+        uitleg="De lading verdeelt zich gewoon over de twee voorwerpen. Daarom stoten ze elkaar na het contact ook af.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Twee identieke metalen bollen, de ene met een lading van 8 eenheden en de andere neutraal, raken elkaar even aan. Wat is de lading van elke bol daarna?",
+        opties=[
+            "elk 4 eenheden",
+            "elk 8 eenheden",
+            "de eerste 8 en de tweede 0",
+            "elk 16 eenheden",
+        ],
+        antwoord=0,
+        uitleg="Bij twee even grote bollen verdeelt de lading zich gelijk. De totale lading blijft 8, dus krijgt elke bol de helft.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je het verschuiven van ladingen in een voorwerp door een geladen voorwerp in de buurt?",
+        antwoord=["elektrostatische influentie", "influentie", "elektrostatische inductie"],
+        uitleg="Er komt daarbij geen lading bij of af, ze schuift alleen op. Daarom blijft het voorwerp in totaal neutraal.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat gebeurt er in een geleider bij elektrostatische influentie?",
+        opties=[
+            "de vrije elektronen schuiven naar één kant van het voorwerp",
+            "de atomen worden elk een klein dipooltje op zich",
+            "er lopen protonen naar de kant van de lading toe",
+            "de geleider verliest al zijn elektronen aan de lucht",
+        ],
+        antwoord=0,
+        uitleg="De vrije elektronen kunnen door het hele voorwerp bewegen, dus hopen ze aan één kant op. In een isolator blijft dat beperkt tot binnen elk molecule.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat gebeurt er in een isolator bij elektrostatische influentie?",
+        opties=[
+            "de moleculen worden dipolen: de lading schuift binnenin op",
+            "de elektronen lopen door het hele voorwerp naar één kant",
+            "de moleculen geven hun elektronen helemaal af aan de staaf",
+            "er verandert helemaal niets aan de ladingen in het voorwerp",
+        ],
+        antwoord=0,
+        uitleg="Dat heet polarisatie. De elektronen blijven bij hun eigen molecule, maar schuiven er wel een klein stukje in op.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een neutraal voorwerp wordt door influentie zonder aarding echt geladen.",
+        antwoord=False,
+        uitleg="De lading schuift enkel op, er komt er geen bij of af. Haal je het geladen voorwerp weg, dan is alles weer zoals voordien.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je houdt een negatief geladen staaf bij een geaarde metalen bol en verbreekt daarna eerst de aarding. Welke lading houdt de bol?",
+        opties=["positief", "negatief", "de bol blijft neutraal", "dat is niet te voorspellen"],
+        antwoord=0,
+        uitleg="De staaf duwt de vrije elektronen weg, en via de aarding lopen die uit de bol weg. Er blijven dus protonen in overschot achter.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom trekt een geladen staaf een neutraal snippertje papier aan?",
+        opties=[
+            "door influentie komt de tegengestelde lading dichterbij",
+            "het papier geeft al zijn elektronen aan de staaf af",
+            "papier is een geleider en wordt daardoor zelf opgeladen",
+            "de staaf maakt van het snippertje papier een magneetje",
+        ],
+        antwoord=0,
+        uitleg="De aantrekking van de nabije kant is sterker dan de afstoting van de verre kant, want in de wet van Coulomb staat de afstand in het kwadraat.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Met welk toestel toon je in het labo aan dat een voorwerp geladen is?",
+        antwoord=["elektroscoop", "een elektroscoop"],
+        uitleg="De twee blaadjes of de naald krijgen dezelfde lading en stoten elkaar af. Hoe groter de lading, hoe verder ze uit elkaar gaan.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een geladen voorwerp houdt zijn lading als je het aardt.",
+        antwoord=False,
+        uitleg="Door de aarding loopt de lading weg in de aarde, die zo groot is dat ze er helemaal in verdwijnt. Daarom aard je gevoelige toestellen voor je ze aanraakt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke uitspraken over lading zijn juist? Kruis alles aan wat juist is.",
+        opties=[
+            "gelijksoortige ladingen stoten elkaar af",
+            "ongelijksoortige ladingen trekken elkaar aan",
+            "evenveel protonen als elektronen betekent neutraal",
+            "lading kan zomaar uit het niets ontstaan",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Die eerste drie zijn de basisregels van de elektrostatica. Lading ontstaat nooit uit het niets: ze verhuist enkel van de ene plaats naar de andere.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom trekt een reinigingsdoekje stof aan?",
+        opties=[
+            "het doekje is geladen en trekt het stof door influentie aan",
+            "het doekje is vochtig en kleeft daardoor aan het stof vast",
+            "het doekje is magnetisch en het stof bevat genoeg ijzer",
+            "het doekje duwt de lucht weg en zuigt het stof zo mee",
+        ],
+        antwoord=0,
+        uitleg="Door de wrijving bij het poetsen raakt het doekje geladen. Dat is een van de toepassingen van elektrostatica in technische systemen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke toepassingen werken op elektrostatica? Kruis alles aan wat juist is.",
+        opties=[
+            "een fotokopietoestel",
+            "poedercoating van metaal",
+            "een stoffilter in een luchtzuiveraar",
+            "een gewone gloeilamp",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="In alle drie gaan geladen deeltjes naar een plaats met de tegengestelde lading. Een gloeilamp werkt door een draad op te warmen en heeft daar niets mee te maken.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je wrijft een ballon in je haar en hij blijft daarna aan de muur hangen. Hoe komt dat?",
+        opties=[
+            "de geladen ballon polariseert de muur",
+            "de muur geeft al zijn elektronen aan de ballon af",
+            "de ballon wordt door de wrijving lichter dan lucht",
+            "de muur en de ballon worden allebei negatief geladen",
+        ],
+        antwoord=0,
+        uitleg="De muur is een isolator, dus worden de moleculen dipolen. De tegengestelde kant komt naar de ballon toe en houdt hem vast.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat bedoelen we als we zeggen dat de elektrische kracht een veldkracht is?",
+        opties=[
+            "ze werkt op afstand, zonder enig contact",
+            "ze werkt enkel als de voorwerpen elkaar raken",
+            "ze werkt enkel in een leeg vat zonder lucht erin",
+            "ze werkt alleen tussen voorwerpen van metaal",
+        ],
+        antwoord=0,
+        uitleg="Rond een lading hangt een veld dat op andere ladingen duwt of trekt. Ook de zwaartekracht en de magnetische kracht zijn veldkrachten.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe heet de wet die de grootte van de kracht tussen twee ladingen geeft?",
+        antwoord=["wet van Coulomb", "Coulomb"],
+        uitleg="Daarin staat de kracht gelijk aan k maal de twee ladingen gedeeld door het kwadraat van de afstand. De kracht zelf heet ook de coulombkracht.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je verdubbelt de afstand tussen twee ladingen. Wat gebeurt er met de kracht?",
+        opties=[
+            "ze wordt vier keer kleiner",
+            "ze wordt twee keer kleiner",
+            "ze wordt twee keer groter",
+            "ze blijft precies dezelfde",
+        ],
+        antwoord=0,
+        uitleg="De afstand staat in het kwadraat in de noemer. Twee keer verder betekent dus vier keer minder kracht.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je verdrievoudigt één van de twee ladingen en laat de afstand gelijk. Wat gebeurt er met de kracht?",
+        opties=[
+            "ze wordt drie keer groter",
+            "ze wordt negen keer groter",
+            "ze wordt drie keer kleiner",
+            "ze blijft precies dezelfde",
+        ],
+        antwoord=0,
+        uitleg="De ladingen staan in de teller, elk in de eerste macht. Drie keer meer lading geeft dus drie keer meer kracht.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De kracht tussen twee ladingen wordt vier keer groter als je ze twee keer dichter bij elkaar brengt.",
+        antwoord=True,
+        uitleg="De afstand staat in het kwadraat, dus halveren betekent vier keer meer kracht. Dat is dezelfde regel als bij verder weg, maar dan de andere kant op.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Twee positieve ladingen liggen naast elkaar. Wat doet de kracht tussen hen?",
+        opties=[
+            "ze stoten elkaar af",
+            "ze trekken elkaar aan",
+            "er werkt geen kracht tussen hen",
+            "de ene trekt aan en de andere stoot af",
+        ],
+        antwoord=0,
+        uitleg="Gelijksoortige ladingen stoten elkaar af. Volgens de derde wet van Newton duwen ze elkaar even hard weg.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De kracht die lading A op lading B uitoefent, is even groot als de kracht die B op A uitoefent.",
+        antwoord=True,
+        uitleg="Dat is de actie-reactiewet van Newton. De twee krachten zijn even groot en tegengesteld van zin, ook als de ene lading veel groter is dan de andere.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat hoort er bij het voorstellen van een elektrische kracht? Kruis alles aan wat juist is.",
+        opties=[
+            "ze heeft een grootte, een richting en een zin",
+            "je tekent ze als een pijl die in de lading begint",
+            "bij meerdere ladingen tel je de vectoren samen",
+            "je tekent de pijl altijd naar beneden gericht",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Een kracht is een vector, dus tel je ze samen tot de resulterende kracht. Naar beneden wijst enkel de zwaartekracht.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke uitspraken over de wet van Coulomb zijn juist? Kruis alles aan wat juist is.",
+        opties=[
+            "de kracht is groter bij grotere ladingen",
+            "de kracht is kleiner bij een grotere afstand",
+            "de afstand staat in het kwadraat in de formule",
+            "de kracht hangt af van de massa van de voorwerpen",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Massa speelt in de wet van Coulomb geen rol; dat is de zwaartekracht. Alleen de ladingen en hun afstand bepalen de elektrische kracht.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de holle geleider die het binnenste beschermt tegen een elektrisch veld?",
+        antwoord=["kooi van Faraday", "Faradaykooi"],
+        uitleg="De ladingen gaan op de buitenkant zitten en heffen het veld binnenin op. Daarom ben je in een auto met een metalen dak veilig bij bliksem.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom is er binnen een geladen holle geleider geen elektrisch veld?",
+        opties=[
+            "de lading zit op de buitenkant en de velden heffen elkaar op",
+            "de lading verdwijnt zodra de geleider hol gemaakt wordt",
+            "de lucht binnenin houdt het elektrisch veld helemaal tegen",
+            "het veld kan niet door metaal naar buiten geraken",
+        ],
+        antwoord=0,
+        uitleg="Dat verschijnsel heet elektrische schermwerking. Omdat de lading zich volledig op de buitenkant verdeelt, blijft het binnen veldvrij.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een gsm heeft binnen een volledig gesloten metalen kast nog altijd goed bereik.",
+        antwoord=False,
+        uitleg="De metalen wand werkt als een kooi van Faraday en houdt de golven buiten. Daarom zijn er in een lift of een parkeergarage vaak problemen met bereik.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke situaties werken als een kooi van Faraday? Kruis alles aan wat juist is.",
+        opties=[
+            "een auto met een metalen dak tijdens een onweer",
+            "een metalen kast rond gevoelige elektronica",
+            "het metalen rooster in de deur van een magnetron",
+            "een plastic doos rond een schakeling",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="In alle drie zit er een gesloten geleider rond de ruimte die je wil beschermen. Plastic is een isolator en schermt een elektrisch veld niet af.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Drie ladingen liggen op een rij. Hoe bepaal je de kracht op de middelste?",
+        opties=[
+            "door de twee krachtvectoren samen te tellen",
+            "door de grootste van de twee krachten te nemen",
+            "door de twee krachten van elkaar af te trekken",
+            "door de krachten te vermenigvuldigen",
+        ],
+        antwoord=0,
+        uitleg="Je telt vectoren samen, dus met hun richting en zin erbij. Wijzen ze in dezelfde zin, dan tel je op; wijzen ze tegen elkaar in, dan trek je af.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een positieve en een negatieve lading liggen op afstand r van elkaar met kracht F. Je brengt ze op afstand 3r. Wat is de nieuwe kracht?",
+        opties=["negen keer kleiner dan F", "drie keer kleiner dan F", "drie keer groter dan F", "gelijk aan F"],
+        antwoord=0,
+        uitleg="Drie in het kwadraat is negen, en de afstand staat in de noemer. De kracht blijft wel aantrekkend, want de ladingen zijn ongelijksoortig.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Hoe verder twee ladingen van elkaar liggen, hoe sterker de kracht tussen hen.",
+        antwoord=False,
+        uitleg="Het is net omgekeerd. De afstand staat in de noemer en nog in het kwadraat, dus zakt de kracht snel bij een grotere afstand.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je ziet een vector getekend die van lading A weg wijst, naar lading B toe. Wat weet je?",
+        opties=[
+            "A en B zijn ongelijksoortig, want ze trekken elkaar aan",
+            "A en B zijn gelijksoortig, want ze stoten elkaar af",
+            "A en B zijn allebei neutraal",
+            "A is een isolator en B een geleider",
+        ],
+        antwoord=0,
+        uitleg="Wijst de kracht op A naar B toe, dan wordt A naar B getrokken. Aantrekking betekent een plus- en een minlading.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Welk soort kracht werkt tussen twee gelijksoortige ladingen: aantrekking of afstoting?",
+        antwoord=["afstoting", "afstotend", "afstotingskracht"],
+        uitleg="Twee plusladingen of twee minladingen duwen elkaar weg. Enkel een plus en een min trekken elkaar aan.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom werkt poedercoating met geladen poeder?",
+        opties=[
+            "het poeder wordt naar het tegengesteld geladen metaal getrokken",
+            "het geladen poeder wordt door de warmte vastgehouden",
+            "het geladen poeder is veel zwaarder dan gewoon poeder",
+            "het geladen poeder lost in het metaal van het werkstuk op",
+        ],
+        antwoord=0,
+        uitleg="Zo blijft er bijna niets naast het werkstuk vallen en komt het poeder gelijkmatig op het hele oppervlak. Daarna wordt het in een oven vastgebakken.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="In een elektrostatische luchtzuiveraar worden de stofdeeltjes eerst geladen. Waarom?",
+        opties=[
+            "zo haalt een tegengesteld geladen plaat ze uit de lucht",
+            "zo worden ze lichter en blijven ze beter zweven",
+            "zo worden ze door de ventilator veel beter gemengd",
+            "zo vallen ze vanzelf naar de bodem van het toestel",
+        ],
+        antwoord=0,
+        uitleg="De coulombkracht trekt de geladen deeltjes naar de collectorplaat. Daar blijven ze plakken, en de zuivere lucht gaat verder.",
+    ),
+]

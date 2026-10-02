@@ -1,0 +1,122 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Kernfysica en radioactiviteit",
+ "onder": "Wat er in een kern gebeurt, hoe je met halveringstijd rekent, en hoe je je tegen straling beschermt.",
+ "secties": [
+  {
+   "kop": "De bouw van een kern",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>nucleonen</strong>, of kerndeeltjes, zijn <strong>de protonen en de neutronen van een kern samen</strong>. Over een <strong>nuclide</strong> geldt: <strong>het atoomnummer Z is het aantal protonen</strong>, <strong>het massagetal A is het aantal nucleonen</strong>, en <strong>het aantal neutronen is A min Z</strong>. Het <strong>massagetal A is dus het aantal protonen plus het aantal neutronen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarmee reken je meteen. Heeft een <strong>nuclide massagetal 23 en atoomnummer 11</strong>, dan zitten er 23 min 11, dus <strong>12</strong> neutronen in de kern. Een nuclide <strong>schrijf je met het massagetal en het atoomnummer bij het symbool</strong> van het element."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Isotopen</strong> van hetzelfde element hebben <strong>het aantal protonen</strong> gemeen en <strong>een verschillend aantal neutronen</strong>. Ze zijn chemisch bijna identiek, maar niet even stabiel."
+    }
+   ]
+  },
+  {
+   "kop": "Stabiel of niet",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In een atoomkern strijden <strong>twee krachten</strong> met elkaar: <strong>de sterke kernkracht en de afstoting van de protonen</strong>. De kernkracht trekt alle nucleonen samen maar werkt enkel over heel korte afstand; de coulombkracht tussen de protonen stoot af en werkt verder."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom hangt stabiliteit af van de verhouding. Een <strong>lichte kern met Z kleiner dan 20 is doorgaans stabiel als er ongeveer evenveel neutronen als protonen zijn</strong>. Bij zware kernen schuift dat op: <strong>een zware stabiele kern heeft niet meer protonen dan neutronen</strong>, maar juist meer neutronen, want die verdunnen de afstoting zonder eraan bij te dragen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>nuclidenkaart</strong> is <strong>de kaart waarop je stabiele en onstabiele nucliden terugvindt</strong>. De stabiele kernen vormen daarop een band. Ligt een <strong>kern onder de stabiliteitsband en heeft ze te veel neutronen</strong>, dan vervalt ze <strong>via bètaverval, want zo wordt een neutron een proton</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een stabiele kern vervalt niet na verloop van tijd</strong>: ze blijft zoals ze is. Alleen onstabiele kernen vervallen."
+    }
+   ]
+  },
+  {
+   "kop": "Halveringstijd en activiteit",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>halveringstijd</strong> van een radionuclide is <strong>de tijd waarin de helft van de kernen vervalt</strong>. De <strong>activiteit</strong> is <strong>het aantal kernen dat per seconde vervalt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Rekenen met halveringstijden gaat met halveringen. Begin je met <strong>800 onstabiele kernen</strong> en is de <strong>halveringstijd 5 jaar</strong>, dan zijn er na 15 jaar drie halveringen gebeurd: 800, 400, 200, dus <strong>100</strong> blijven er over."
+    },
+    {
+     "soort": "tekst",
+     "html": "Over <strong>halveringstijd en activiteit</strong> geldt: <strong>de activiteit zakt met de tijd</strong>, <strong>een korte halveringstijd hoort bij een onstabiele kern</strong>, en <strong>na twee halveringstijden blijft een kwart over</strong>. Bijgevolg heeft <strong>een radionuclide met een korte halveringstijd bij dezelfde hoeveelheid een hogere activiteit</strong>: dezelfde kernen in minder tijd."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>grafiek van het aantal onstabiele kernen in functie van de tijd</strong> is <strong>een kromme die steeds trager naar nul zakt</strong>, nooit een rechte. Om de <strong>halveringstijd uit een N(t)-grafiek</strong> te halen: <strong>je zoekt wanneer het aantal tot de helft gezakt is</strong>, <strong>je mag van elk punt van de kromme vertrekken</strong> en <strong>je leest het resultaat op de tijdas af</strong>. Dat je van elk punt mag vertrekken, is juist het bijzondere aan een halveringstijd."
+    }
+   ]
+  },
+  {
+   "kop": "Fusie, splijting en de kerncentrale",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Kernfusie</strong> is <strong>twee lichte kernen die tot één zwaardere kern samensmelten</strong>, zoals in de zon. <strong>Kernsplijting</strong> is het omgekeerde, en dat is het proces dat <strong>een kerncentrale gebruikt om energie op te wekken</strong>. <strong>Bij de fusie van lichte kernen en bij de splijting van zware kernen komt er energie vrij</strong>, en dat lijkt tegenstrijdig tot je naar de specifieke rustenergie per nucleon kijkt: beide bewegingen gaan naar het stabielere midden toe, en het massaverschil komt als energie vrij volgens E = mc²."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een gewone kerncentrale gebruikt <strong>uraan</strong> als splijtstof. <strong>Onderdelen van een kerncentrale</strong>: <strong>het reactorvat</strong>, <strong>de stoomgenerator</strong> en <strong>de turbine</strong>. De <strong>regelstaven in een kernreactor vangen neutronen weg en regelen zo de kettingreactie</strong>: schuif ze verder in, en de reactie zakt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Radioactief afval wordt ingedeeld volgens de intensiteit en de duur van de straling</strong>. <strong>Categorie A</strong> is <strong>kortlevend laag- en middelactief afval</strong>; categorie B en C zijn langlevend of hoogactief. <strong>Hoogactief afval mag niet met dezelfde bescherming behandeld worden als laagactief afval</strong>: het vraagt veel zwaardere afscherming en koeling."
+    }
+   ]
+  },
+  {
+   "kop": "Drie soorten straling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Straling</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Ioniserend vermogen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Doordringend vermogen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Alfa</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een heliumkern met twee protonen en twee neutronen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">groot</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">klein: een blad papier houdt ze al tegen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Bèta</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een elektron dat de kern verlaat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">middelmatig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">middelmatig: een plaatje aluminium stopt ze</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Gamma</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een elektromagnetische golf</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">klein</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het grootste van de drie: lood of dik beton is nodig</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Alfastraling heeft een groot ioniserend vermogen maar een klein doordringend vermogen</strong>. Daarom geldt: <strong>een blad papier houdt ze al tegen</strong>, <strong>ze raakt niet door de buitenste laag van je huid</strong>, maar <strong>ze is vooral gevaarlijk na inslikken of inademen</strong>, want binnen in je lichaam staat er geen huid meer tussen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij verval veranderen massagetal en atoomnummer volgens vaste regels. Bij <strong>alfaverval zakt het massagetal met 4 en het atoomnummer met 2</strong>. Bij <strong>bètaverval wordt een neutron een proton en vertrekt er een elektron</strong>, dus blijft het massagetal gelijk en stijgt het atoomnummer met 1."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een magnetisch veld verraden ze zich. Alfa en bèta zijn geladen en buigen af, in tegengestelde richting, en bèta het sterkst omdat ze zo licht is. <strong>Gammastraling buigt in een magnetisch veld niet even sterk af als bètastraling</strong>: ze buigt helemaal niet af, want ze heeft geen lading."
+    }
+   ]
+  },
+  {
+   "kop": "Dosis en bescherming",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>verschil tussen bestraling en besmetting</strong>: bij <strong>besmetting</strong> komt de radioactieve stof op of in je lichaam, bij bestraling sta je enkel in de straling en blijft er niets achter. Een besmetting kan uitwendig of inwendig zijn, en blijft doorstralen tot de stof weg of vervallen is."
+    },
+    {
+     "soort": "tekst",
+     "html": "De geabsorbeerde dosis meet je in gray. De <strong>equivalente dosis en de effectieve dosis</strong> druk je uit in <strong>sievert</strong>: daar zit de stralingsweegfactor in, die zegt hoe schadelijk een soort straling per gray is. <strong>Alfastraling heeft een veel hogere stralingsweegfactor dan bèta- of gammastraling, omdat ze al haar energie in een heel klein stukje weefsel afgeeft</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Toepassingen van ioniserende straling</strong>: <strong>radiotherapie tegen kanker</strong>, <strong>de koolstof-14-methode om ouderdom te bepalen</strong> en <strong>een PET-scan met een radioactieve tracer</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

@@ -1,0 +1,366 @@
+# -*- coding: utf-8 -*-
+"""🌍 Beyond — Trillingen, golven en geluid.
+
+Fysica, de kop "Trillingen en golven" uit de vakfiche natuurwetenschappen 3DO,
+zonder het elektromagnetisch spectrum: dat is een thema op zich.
+Deel 1 gaat over de harmonische trilling, resonantie en de golven, met het
+verschil tussen mechanisch en elektromagnetisch en tussen transversaal en
+longitudinaal. Deel 2 gaat helemaal over geluid, van toonhoogte en klankkleur
+tot de decibelschaal en gehoorschade.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat is de amplitude van een harmonische trilling?",
+        opties=[
+            "de grootste uitwijking vanuit de evenwichtsstand",
+            "het aantal volledige trillingen per seconde",
+            "de tijd die één volledige trilling duurt",
+            "de afstand tussen twee toppen van de golf",
+        ],
+        antwoord=0,
+        uitleg="Op een y(t)-grafiek lees je ze af als de hoogte van een top boven de evenwichtslijn. Ze zegt niets over hoe snel de trilling gaat.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de tijd die één volledige trilling duurt?",
+        antwoord=["periode", "de periode"],
+        uitleg="De periode krijgt het symbool T en wordt in seconden uitgedrukt. De frequentie is precies haar omgekeerde: f is gelijk aan 1 gedeeld door T.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een trilling heeft een periode van 0,5 seconde. Wat is de frequentie?",
+        opties=["2 hertz", "0,5 hertz", "5 hertz", "50 hertz"],
+        antwoord=0,
+        uitleg="De frequentie is 1 gedeeld door de periode, dus 1 gedeeld door 0,5. Er passen dus twee volledige trillingen in één seconde.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een grotere amplitude betekent altijd ook een grotere frequentie.",
+        antwoord=False,
+        uitleg="Amplitude en frequentie zijn twee losse eigenschappen. Je kan een snaar harder aanslaan zonder de toonhoogte te veranderen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke grootheden lees je van de y(t)-grafiek van een trilling af? Kruis alles aan wat juist is.",
+        opties=[
+            "de amplitude",
+            "de periode",
+            "de evenwichtslijn",
+            "de massa van het trillende voorwerp",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Op die grafiek staat de uitwijking in functie van de tijd. De massa van het voorwerp kan je er niet aan zien.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de frequentie waarmee een voorwerp vanzelf het liefst trilt?",
+        antwoord=["eigenfrequentie", "de eigenfrequentie"],
+        uitleg="Duw je het voorwerp net op die frequentie aan, dan wordt de trilling steeds groter. Dat verschijnsel heet resonantie.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wanneer treedt resonantie op?",
+        opties=[
+            "als de uitwendige kracht de eigenfrequentie treft",
+            "als de uitwendige kracht veel sterker is dan het voorwerp",
+            "als het voorwerp zelf helemaal niet meer kan bewegen",
+            "als de amplitude van de trilling nul geworden is",
+        ],
+        antwoord=0,
+        uitleg="Elke duw komt dan precies op het goede moment. Daardoor groeit de amplitude steeds verder aan.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke voorbeelden zijn resonantie? Kruis alles aan wat juist is.",
+        opties=[
+            "een schommel die hoger komt door op het juiste ritme te duwen",
+            "een glas dat barst bij één bepaalde zangtoon",
+            "een brug die schudt door marcherende voeten erop",
+            "een steen die van een toren recht naar beneden valt",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="In alle drie komt een duw of een golf precies op de eigenfrequentie. Een vallende steen trilt niet en heeft daar niets mee te maken.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat transporteert een golf?",
+        opties=[
+            "energie, maar geen materie",
+            "materie, maar geen energie",
+            "zowel energie als materie",
+            "noch energie, noch materie",
+        ],
+        antwoord=0,
+        uitleg="De deeltjes trillen rond hun eigen plaats en verhuizen niet mee. Een kurk op het water gaat op en neer, niet met de golf mee naar de kust.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een mechanische golf kan zich niet door het luchtloze heelal voortplanten.",
+        antwoord=True,
+        uitleg="Een mechanische golf heeft deeltjes nodig om door te geven. Een elektromagnetische golf, zoals licht, kan wel door een vacuüm reizen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke golven zijn mechanische golven? Kruis alles aan wat juist is.",
+        opties=["geluid", "golven op het water", "een golf in een gespannen touw", "zichtbaar licht"],
+        antwoord=[0, 1, 2],
+        uitleg="Die drie hebben een middenstof nodig om zich voort te planten. Licht is een elektromagnetische golf en heeft die niet nodig.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is kenmerkend voor een transversale golf?",
+        opties=[
+            "de deeltjes trillen loodrecht op de golfrichting",
+            "de deeltjes trillen langs de voortplantingsrichting",
+            "de deeltjes trillen in cirkels rond hun eigen plaats",
+            "de deeltjes trillen tijdens de golf helemaal niet",
+        ],
+        antwoord=0,
+        uitleg="Een golf in een touw dat je op en neer beweegt, is transversaal. Geluid in lucht is juist longitudinaal.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Welk soort golf is geluid in lucht, transversaal of longitudinaal?",
+        antwoord=["longitudinaal", "longitudinale"],
+        uitleg="De luchtdeeltjes trillen heen en weer langs de richting waarin het geluid gaat. Daardoor ontstaan er verdichtingen en verdunningen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is de golflengte van een golf?",
+        opties=[
+            "de afstand tussen twee punten in dezelfde fase",
+            "de tijd tussen twee opeenvolgende toppen van de golf",
+            "de hoogte van een top boven de evenwichtslijn",
+            "het aantal volledige golven per seconde",
+        ],
+        antwoord=0,
+        uitleg="In de praktijk meet je ze van top tot top of van dal tot dal. Op een y(x)-grafiek lees je ze rechtstreeks af.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een golf heeft een golflengte van 2 meter en een frequentie van 5 hertz. Hoe snel gaat de golf?",
+        opties=[
+            "10 meter per seconde",
+            "2,5 meter per seconde",
+            "0,4 meter per seconde",
+            "7 meter per seconde",
+        ],
+        antwoord=0,
+        uitleg="De golfsnelheid is de golflengte maal de frequentie, dus 2 maal 5. Je kan ook de golflengte door de periode delen; dat geeft hetzelfde.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Bij een vaste golfsnelheid hoort een grotere frequentie bij een kleinere golflengte.",
+        antwoord=True,
+        uitleg="In v is gelijk aan lambda maal f staat de snelheid vast, dus moet het ene zakken als het andere stijgt. Frequentie en golflengte zijn dan omgekeerd verbonden.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat lees je van een y(x)-grafiek van een golf af, en niet van een y(t)-grafiek?",
+        opties=[
+            "de golflengte",
+            "de periode",
+            "de frequentie",
+            "de amplitude",
+        ],
+        antwoord=0,
+        uitleg="Op de y(x)-grafiek staat de plaats op de horizontale as, dus lees je afstanden af. Op de y(t)-grafiek staat de tijd, en daar lees je de periode af.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het verschil tussen de trilrichting en de voortplantingsrichting?",
+        opties=[
+            "de deeltjes bewegen in de trilrichting, de golf reist in de andere",
+            "de golf reist in de trilrichting, de deeltjes in de andere",
+            "de twee richtingen zijn altijd precies dezelfde",
+            "de twee richtingen staan altijd loodrecht op elkaar",
+        ],
+        antwoord=0,
+        uitleg="Bij een transversale golf staan ze loodrecht op elkaar, bij een longitudinale golf liggen ze in dezelfde richting. Daarom is dat verschil belangrijk.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De deeltjes van een golf verhuizen met de golf mee naar het einde.",
+        antwoord=False,
+        uitleg="Elk deeltje trilt rond zijn eigen plaats en blijft daar. Alleen de energie reist door de middenstof.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de stand waarrond een trillend voorwerp heen en weer beweegt?",
+        antwoord=["evenwichtsstand", "evenwichtspositie", "evenwichtslijn"],
+        uitleg="Op een y(t)-grafiek is dat de horizontale lijn in het midden. De uitwijking meet je altijd vanaf die lijn.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="In welke middenstof gaat geluid het snelst?",
+        opties=["in een vaste stof", "in een vloeistof", "in een gas", "in een vacuüm"],
+        antwoord=0,
+        uitleg="Hoe dichter de deeltjes bij elkaar zitten, hoe sneller ze de trilling doorgeven. In een vacuüm gaat geluid helemaal niet.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Geluid gaat sneller in warme lucht dan in koude lucht.",
+        antwoord=True,
+        uitleg="De luchtdeeltjes bewegen bij een hogere temperatuur sneller en geven de trilling dus vlugger door. Daarom hangt de geluidssnelheid ook van de temperatuur af.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarvan hangt de toonhoogte van een geluid af?",
+        opties=[
+            "van de frequentie van de geluidsgolf",
+            "van de amplitude van de geluidsgolf",
+            "van de vorm van het patroon op de grafiek",
+            "van de temperatuur van de lucht",
+        ],
+        antwoord=0,
+        uitleg="Een hogere frequentie geeft een hogere toon. De amplitude bepaalt juist hoe luid het geluid klinkt.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Waarvan hangt de luidheid of toonsterkte van een geluid af?",
+        antwoord=["de amplitude", "amplitude"],
+        uitleg="Een grotere amplitude betekent een luider geluid. De frequentie bepaalt in de plaats daarvan de toonhoogte.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waaraan zie je op een y(t)-grafiek het verschil tussen een viool en een fluit die dezelfde toon spelen?",
+        opties=[
+            "aan de vorm van het patroon, dus aan de klankkleur",
+            "aan de hoogte van de toppen",
+            "aan de afstand tussen de toppen",
+            "aan de hoogte van de evenwichtslijn",
+        ],
+        antwoord=0,
+        uitleg="Dezelfde toon betekent dezelfde frequentie, dus dezelfde afstand tussen de toppen. Het verschil zit in de vorm, en die vorm heet de klankkleur of het timbre.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke frequenties kan een mens normaal horen?",
+        opties=[
+            "van ongeveer 20 tot 20 000 hertz",
+            "van ongeveer 2 tot 200 hertz",
+            "van ongeveer 200 tot 2 000 hertz",
+            "van ongeveer 20 000 tot 200 000 hertz",
+        ],
+        antwoord=0,
+        uitleg="Onder die grens spreek je van infrasoon geluid, erboven van ultrasoon. Met de leeftijd verlies je vooral de hoogste tonen.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je geluid met een frequentie boven de 20 000 hertz?",
+        antwoord=["ultrasoon", "ultrasoon geluid", "ultrageluid"],
+        uitleg="Wij horen het niet, maar vleermuizen en dolfijnen gebruiken het wel. Onder de 20 hertz spreek je van infrasoon geluid.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Infrasoon geluid heeft een hogere frequentie dan geluid dat wij kunnen horen.",
+        antwoord=False,
+        uitleg="Infrasoon zit juist onder onze ondergrens van ongeveer 20 hertz. Boven onze bovengrens spreek je van ultrasoon geluid.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is de gehoordrempel op de decibelschaal?",
+        opties=["0 decibel", "20 decibel", "80 decibel", "120 decibel"],
+        antwoord=0,
+        uitleg="Dat is het zwakste geluid dat een gezond oor nog kan horen. De pijndrempel ligt rond 120 decibel.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Vanaf welk geluidsniveau is gehoorbescherming nodig?",
+        opties=["vanaf ongeveer 80 decibel", "vanaf ongeveer 20 decibel", "vanaf ongeveer 40 decibel", "vanaf ongeveer 120 decibel"],
+        antwoord=0,
+        uitleg="Dat is de gevaargrens: boven die waarde kan langdurige blootstelling je gehoor beschadigen. Bij 120 decibel zit je al aan de pijndrempel.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Hoe langer je aan luid geluid blootgesteld bent, hoe groter de kans op gehoorschade.",
+        antwoord=True,
+        uitleg="Het niveau én de duur tellen samen mee. Een heel kort luid geluid en een lang iets zachter geluid kunnen allebei schade geven.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waar in het oor ontstaat blijvende gehoorschade?",
+        opties=[
+            "in het binnenoor, bij de haarcellen",
+            "in de oorschelp aan de buitenkant",
+            "in het trommelvel van het middenoor",
+            "in de gehoorbeentjes van het middenoor",
+        ],
+        antwoord=0,
+        uitleg="De trilhaartjes van die cellen kunnen afbreken, en ze groeien niet terug. Daarom is die schade blijvend.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke maatregelen beschermen je gehoor? Kruis alles aan wat juist is.",
+        opties=[
+            "oordopjes of een gehoorkap dragen",
+            "verder van de geluidsbron gaan staan",
+            "de blootstelling in tijd beperken",
+            "het volume geleidelijk verder opdrijven",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Die drie werken allemaal: minder geluid, minder lang of meer afstand. Het volume opdrijven maakt het probleem juist groter.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je gaat twee keer zo ver van een geluidsbron staan. Hoeveel zakt het geluidsniveau?",
+        opties=["met ongeveer 6 decibel", "met ongeveer 3 decibel", "met ongeveer 20 decibel", "het blijft gelijk"],
+        antwoord=0,
+        uitleg="Twee keer verder betekent vier keer minder intensiteit, en dat is ongeveer 6 decibel minder. Afstand houden is dus een heel efficiënte bescherming.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="De geluidsintensiteit wordt twee keer groter. Hoeveel stijgt het geluidsniveau?",
+        opties=["met ongeveer 3 decibel", "met ongeveer 6 decibel", "met ongeveer 2 decibel", "het verdubbelt"],
+        antwoord=0,
+        uitleg="De decibelschaal is logaritmisch, dus verdubbelen van de intensiteit geeft maar 3 decibel meer. Vier keer meer intensiteit geeft 6 decibel meer.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Twee keer zoveel geluidsintensiteit betekent twee keer zoveel decibel.",
+        antwoord=False,
+        uitleg="De decibelschaal is logaritmisch, dus zo werkt ze niet. Een verdubbeling van de intensiteit geeft ongeveer 3 decibel meer.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je het terugkaatsen van geluid tegen een wand, waardoor je het een tweede keer hoort?",
+        antwoord=["echo", "een echo"],
+        uitleg="Dieren zoals vleermuizen gebruiken dat om hun weg te vinden; dat heet echolocatie. In de techniek werken sonar en echografie op hetzelfde principe.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke toepassingen werken met geluidsgolven? Kruis alles aan wat juist is.",
+        opties=["echografie", "sonar op een schip", "echolocatie bij een vleermuis", "een röntgenfoto"],
+        antwoord=[0, 1, 2],
+        uitleg="Die drie sturen geluid uit en meten wat er terugkomt. Een röntgenfoto werkt met elektromagnetische straling, niet met geluid.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke uitspraken over een echografie zijn juist? Kruis alles aan wat juist is.",
+        opties=[
+            "ze werkt met ultrasoon geluid",
+            "ze meet wat er tegen de grens tussen weefsels terugkaatst",
+            "uit de tijd berekent het toestel de diepte",
+            "ze werkt met röntgenstraling",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Een echografie stuurt geluid in en luistert naar de echo. Röntgenstraling is een elektromagnetische golf en hoort bij een radiografie.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je hoort een lage, zachte toon. Wat weet je over de golf?",
+        opties=[
+            "ze heeft een lage frequentie en een kleine amplitude",
+            "ze heeft een hoge frequentie en een kleine amplitude",
+            "ze heeft een lage frequentie en een grote amplitude",
+            "ze heeft een hoge frequentie en een grote amplitude",
+        ],
+        antwoord=0,
+        uitleg="Laag gaat over de toonhoogte, dus over de frequentie. Zacht gaat over de luidheid, dus over de amplitude.",
+    ),
+]

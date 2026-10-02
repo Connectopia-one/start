@@ -1,0 +1,135 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Overerving van genetisch materiaal",
+ "onder": "De wetten van Mendel, het punnettvierkant, geslachtsgebonden overerving en stambomen.",
+ "secties": [
+  {
+   "kop": "De woorden eerst",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Woord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Gen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de eenheid die Mendel een erffactor noemde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Locus</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vaste plaats op een chromosoom waar een bepaald gen ligt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Allel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een van de versies van hetzelfde gen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Homozygoot</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een organisme dat voor een bepaald gen twee gelijke allelen draagt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Heterozygoot</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee verschillende allelen, bijvoorbeeld Aa</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Genotype</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de erfelijke aanleg</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Fenotype</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het zichtbare kenmerk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">P-generatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de generatie van de oorspronkelijke ouders in een kruisingsschema</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Hybride</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een nakomeling uit twee ouders die verschillen; dus niet uit ouders die voor elk kenmerk precies hetzelfde zijn</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>verschil tussen genotype en fenotype</strong> is dus: <strong>het genotype is de erfelijke aanleg, het fenotype het zichtbare kenmerk</strong>. Een plant <strong>Aa</strong> ziet eruit als een plant AA, maar hij <strong>kan het allel a aan zijn nakomelingen doorgeven</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De drie wetten van Mendel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Mendel koos de erwtenplant voor zijn kruisingsproeven, omdat die zich makkelijk zelf bestuift en duidelijke kenmerken heeft</strong>: groen of geel, rond of gerimpeld, zonder tussenvormen die het tellen moeilijk maken."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>uniformiteitswet</strong> zegt dat <strong>de F1 uit twee raszuivere ouders onderling gelijk is</strong>. De <strong>splitsingswet beschrijft de verhouding die in de F2-generatie opduikt</strong>: daar komt het weggedoken kenmerk weer boven. De <strong>onafhankelijkheidswet</strong> zegt dat <strong>twee kenmerken los van elkaar doorgegeven worden</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Rekenen met een punnettvierkant",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>punnettvierkant</strong> is het <strong>schema met vakjes waarmee je de mogelijke combinaties van een kruising uittekent</strong>: de gameten van de ene ouder bovenaan, die van de andere links."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Aa × Aa</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">A</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">a</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">A</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">AA</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Aa</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Aa</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aa</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Twee heterozygote planten Aa</strong> geven dus een <strong>genotypische verhouding 1 op 2 op 1</strong> (AA, Aa, aa) en een <strong>fenotypische verhouding 3 op 1</strong>, want AA en Aa zien er gelijk uit."
+    },
+    {
+     "soort": "tekst",
+     "html": "Kruis je een <strong>plant Aa met een plant aa</strong>, dan krijg je Aa, Aa, aa, aa: <strong>50 procent van het nageslacht toont het recessieve kenmerk</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zo'n kruising met een homozygoot recessief organisme heet een <strong>terugkruising</strong>. Daarover geldt: ze <strong>toont of de onderzochte ouder homozygoot of heterozygoot is</strong>, <strong>alle nakomelingen tonen het dominante kenmerk als de ouder AA is</strong>, en <strong>de helft toont het recessieve kenmerk als de ouder Aa is</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Krijgen <strong>twee planten met het dominante kenmerk een nakomeling met het recessieve kenmerk</strong>, dan weet je drie dingen zeker: <strong>beide ouders zijn heterozygoot</strong>, <strong>beide ouders dragen het recessieve allel</strong> en <strong>de nakomeling is homozygoot recessief</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "Een <strong>kenmerk dat in een generatie overslaat, is niet zeker dominant</strong>; het is juist typisch voor een recessief kenmerk, dat verborgen door de dragers meereist. Omgekeerd <strong>kan een dominante aandoening geen generatie overslaan en dan weer opduiken</strong>: wie het allel heeft, toont het."
+    }
+   ]
+  },
+  {
+   "kop": "Als dominantie niet volledig is",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Over <strong>intermediaire overerving</strong>: <strong>de heterozygoot vertoont een tussenvorm</strong>, <strong>geen van beide allelen is dominant</strong> en <strong>een rode en een witte leeuwenbek geven roze</strong>. Daardoor <strong>vallen de genotypische en de fenotypische verhouding in de F2 samen</strong>: 1 rood, 2 roze, 1 wit. Kruis je dus <strong>twee roze leeuwenbekken</strong>, dan is <strong>25 procent van het nageslacht wit</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>codominantie komen beide allelen in de heterozygoot volledig tot uiting</strong>, niet half zoals bij een tussenvorm. De bloedgroep AB is het voorbeeld: zowel A als B staat volop op de rode bloedcel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarmee kan je bloedgroepen voorspellen. <strong>Twee ouders met bloedgroep AB</strong> geven alleen de allelen A en B door, dus zijn <strong>A, B of AB</strong> mogelijk en O niet. Bij een <strong>man met bloedgroep O en een vrouw met bloedgroep AB</strong> krijgt elk kind een O van de vader en een A of een B van de moeder, dus is het <strong>A of B</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Twee kenmerken samen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>organisme met genotype AaBb maakt vier verschillende soorten gameten</strong>: AB, Ab, aB en ab. Kruis je <strong>twee planten AaBb</strong>, dan geeft het vierkant van zestien vakjes de <strong>fenotypische verhouding 9 op 3 op 3 op 1</strong>. <strong>Bij de kruising AaBb met AaBb is één op de zestien nakomelingen homozygoot recessief voor beide kenmerken</strong>, namelijk aabb."
+    },
+    {
+     "soort": "tekst",
+     "html": "Kruis je een <strong>plant AaBb met een plant aabb</strong>, dan levert de tweede ouder enkel ab, en krijg je de <strong>fenotypische verhouding 1 op 1 op 1 op 1</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De onafhankelijkheidswet geldt alleen als de genen op verschillende chromosomen liggen. <strong>Twee genen op hetzelfde chromosoom liggen vaak niet los van elkaar, omdat ze samen in dezelfde gameet terechtkomen</strong>; alleen een crossing-over kan ze nog scheiden."
+    }
+   ]
+  },
+  {
+   "kop": "Geslachtsgebonden overerving",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij de mens duidt men de geslachtschromosomen van een vrouw met <strong>XX</strong> aan en die van een man met XY. <strong>De vader bepaalt het geslacht van het kind, want zijn zaadcel draagt een X of een Y</strong>, en de helft van zijn zaadcellen draagt elk. Daarom is <strong>de kans op een jongen bij elke zwangerschap ongeveer vijftig procent</strong>, los van wat er al geboren is."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Geslachtsgebonden recessieve aandoeningen komen vaker bij mannen voor</strong>, en wel om drie redenen samen: <strong>een man heeft maar één X-chromosoom</strong>, <strong>bij een man volstaat één aangedaan allel</strong>, en <strong>een vrouw kan het gezonde allel op haar tweede X hebben</strong>. Een <strong>drager</strong> is dan ook <strong>een persoon die een recessief allel draagt zonder de aandoening zelf te hebben</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Geslachtsgebonden recessief</strong> erven onder meer <strong>rood-groen kleurenblindheid</strong>, <strong>hemofilie A</strong> en <strong>de ziekte van Duchenne</strong> over."
+    },
+    {
+     "soort": "tekst",
+     "html": "Krijgt een <strong>draagster van kleurenblindheid kinderen met een man die niet kleurenblind is</strong>, dan geeft zij haar aangedane X aan de helft van haar kinderen. Een zoon met die X heeft geen tweede X om het op te vangen, een dochter krijgt van haar vader een gezonde X. Dus: <strong>de helft van de zonen is kleurenblind en geen enkele dochter</strong>. En <strong>een vader kan zijn X-gebonden allel niet aan zijn zoon doorgeven</strong>, want aan zijn zoon geeft hij juist de Y."
+    }
+   ]
+  },
+  {
+   "kop": "Een stamboom lezen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Uit een <strong>stamboom</strong> kan je afleiden <strong>of een kenmerk dominant of recessief is</strong>, <strong>of een kenmerk geslachtsgebonden is</strong> en <strong>welke personen zeker drager zijn</strong>. Wat je er niet uit leest, is de plaats van het gen op een chromosoom."
+    },
+    {
+     "soort": "tekst",
+     "html": "Hebben <strong>twee ouders zonder het kenmerk een dochter met dat kenmerk</strong>, dan besluit je: <strong>het kenmerk is recessief en niet geslachtsgebonden</strong>. Recessief, want de ouders waren allebei drager; niet geslachtsgebonden, want een dochter zou dan ook van haar vader een aangedane X moeten krijgen, en die toont het kenmerk niet."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

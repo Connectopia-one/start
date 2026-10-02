@@ -1,0 +1,125 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Genexpressie en DNA-technologie",
+ "onder": "Van gen tot eiwit, wat er bij een mutatie misloopt, en wat je met DNA in een laboratorium kan doen.",
+ "secties": [
+  {
+   "kop": "Van gen tot eiwit",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>gen</strong> is <strong>een stuk DNA met de code voor één product, meestal een eiwit</strong>. De code wordt per drie basen gelezen: <strong>één codon bestaat uit drie basen</strong>. De <strong>genetische code is bij nagenoeg alle organismen dezelfde</strong>, en net daarom kan een bacterie een menselijk gen aflezen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>RNA verschilt van DNA</strong> op drie punten: <strong>RNA heeft ribose in plaats van desoxyribose</strong>, <strong>RNA heeft uracil in plaats van thymine</strong> en <strong>RNA is meestal enkelstrengig</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>transcriptie gebeurt in een eukaryote cel in de celkern</strong>. Het enzym dat <strong>tijdens de transcriptie het mRNA aanmaakt</strong>, is het <strong>RNA-polymerase</strong>. Het bindt op de <strong>promotor</strong>, de <strong>plaats op het DNA waar het de transcriptie start</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de <strong>splicing van pre-mRNA worden de introns eruit geknipt en de exons aan elkaar geplakt</strong>: alleen de stukken die voor het eiwit nodig zijn, blijven over."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarna volgt de translatie: <strong>het mRNA wordt op het ribosoom afgelezen tijdens de translatie</strong>. Een <strong>tRNA-molecule brengt met zijn anticodon het juiste aminozuur aan</strong>. Het codon dat <strong>bijna altijd de translatie start</strong>, is <strong>AUG</strong>. Bij de <strong>terminatie bezet een releasefactor het stopcodon en komt het eiwit vrij</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Overschrijven gaat per base, met uracil op de plaats van thymine en telkens de complementaire base. Van de <strong>DNA-matrijsstreng TAC</strong> wordt dus <strong>AUG</strong> afgelezen: T geeft A, A geeft U en C geeft G."
+    },
+    {
+     "soort": "tekst",
+     "html": "Er zijn 64 codons voor 20 aminozuren, dus <strong>wordt niet elk aminozuur door precies één codon aangeduid</strong>. Meerdere codons wijzen hetzelfde aminozuur aan, en dat maakt de code wat robuuster tegen fouten."
+    }
+   ]
+  },
+  {
+   "kop": "Mutaties",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>puntmutatie waarbij één base vervangen wordt door een andere</strong>, heet een <strong>substitutie</strong>. Door de dubbele code loopt dat soms met een sisser af."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>deletie van één base heeft vaak zware gevolgen, omdat alle codons erna verschoven worden afgelezen</strong>: vanaf dat punt staat er een heel ander eiwit."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de <strong>genoommutaties</strong>, waar het aantal chromosomen afwijkt, horen <strong>trisomie 21</strong>, <strong>het syndroom van Turner</strong> en <strong>het syndroom van Klinefelter</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>mutatie is erfelijk als ze in een geslachtscel zit</strong>; een mutatie in een lichaamscel gaat met die cellijn mee en verdwijnt met de persoon."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Mutagenen</strong> zijn stoffen of stralen die mutaties uitlokken: <strong>uv-straling</strong>, <strong>röntgenstraling</strong> en <strong>benzopyreen uit tabaksrook</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Epigenetische wijzigingen veranderen de volgorde van de basen in het DNA niet</strong>. Ze zetten er merktekens bij die bepalen of een gen afgelezen wordt, en zo kan de omgeving meespelen zonder dat er één letter verandert."
+    }
+   ]
+  },
+  {
+   "kop": "Bacteriën en hun genen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het genetisch materiaal van een bacterie bestaat uit <strong>één ringvormig chromosoom, vaak met plasmiden ernaast</strong>. Een <strong>plasmide</strong> is dat <strong>kleine, ringvormige stukje DNA naast het bacterieel chromosoom</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bacteriën kunnen genen uitwisselen. Bij <strong>conjugatie gaat er via een pilus een plasmide van de ene naar de andere</strong>. <strong>Transductie</strong> is <strong>genoverdracht tussen bacteriën door een bacteriofaag</strong>. Zo'n <strong>bacteriofaag is een obligate parasiet en kan zich enkel in een gastheercel vermenigvuldigen</strong>. Daardoor kan resistentie tegen een antibioticum van de ene soort naar de andere overspringen."
+    }
+   ]
+  },
+  {
+   "kop": "Knippen en plakken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>restrictie-enzym zoals EcoRI</strong> <strong>knipt de dubbele streng DNA door</strong>, <strong>herkent daarvoor een vaste basenvolgorde</strong> en <strong>laat vaak sticky ends achter</strong>. Die <strong>sticky ends zijn handig bij gentechnologie, omdat twee stukken met dezelfde overhang op elkaar passen</strong>. Het enzym dat het <strong>donor-DNA definitief in het opengeknipte plasmide vastplakt</strong>, is <strong>ligase</strong>. Een <strong>plasmide dat een vreemd gen draagt, noemt men een recombinant plasmide</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij het maken van <strong>insulineproducerende bacteriën</strong> horen deze stappen: <strong>het menselijke insulinegen wordt uitgeknipt</strong>, <strong>een plasmide wordt met hetzelfde enzym opengeknipt</strong> en <strong>het recombinante plasmide gaat een bacterie binnen</strong>. Daarna doet de bacterie de rest van het werk."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij planten gebruikt men vaak <strong>het Ti-plasmide van een bodembacterie, omdat die bacterie van nature DNA in plantencellen inbouwt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>verschil tussen een cisgeen en een transgeen organisme</strong>: <strong>bij cisgeen komt het gen uit dezelfde of een kruisbare soort</strong>, bij transgeen uit een soort die je nooit zou kunnen kruisen. <strong>Insectresistente maïs en katoen zijn voorbeelden van transgene gewassen</strong>. Daaruit volgt dat <strong>een genetisch gemodificeerd organisme niet altijd transgeen is</strong>: een cisgeen gewas is ook gemodificeerd."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>CRISPR-Cas</strong> is de techniek <strong>waarmee men met een geleidend RNA en een knipeiwit heel gericht in het DNA kan ingrijpen</strong>. Daarin verschilt <strong>gene editing van het klassieke inbrengen van een gen</strong>: <strong>er wordt heel gericht op één plaats in het genoom gewerkt</strong>, in plaats van een gen ergens te laten invallen."
+    }
+   ]
+  },
+  {
+   "kop": "DNA onderzoeken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>PCR</strong> dient om <strong>een klein stukje DNA miljoenen keren te kopiëren</strong>, zodat je er genoeg van hebt om mee te werken. Eén haar op een plaats van een misdrijf is dan al voldoende."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>gelelektroforese worden DNA-fragmenten door een elektrisch veld op lengte gescheiden</strong>. Daarbij <strong>leggen de langste DNA-fragmenten niet de grootste afstand af</strong>: ze blijven juist het snelst in de gel steken, dus de kortste komen het verst."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>DNA-fingerprint</strong> gebruikt men om <strong>sporen aan een verdachte te koppelen</strong>, <strong>een vaderschap aan te tonen</strong> en <strong>familieleden van elkaar te onderscheiden</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

@@ -1,0 +1,135 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "De cel: organellen, membranen en weefsels",
+ "onder": "Van organisatieniveau tot organel, van membraan tot weefsel: hoe de bouw van een cel haar taak verklaart.",
+ "secties": [
+  {
+   "kop": "De biologische organisatieniveaus",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een organisme is opgebouwd in <strong>organisatieniveaus</strong> die van klein naar groot lopen: molecule, organel, cel, weefsel, orgaan, <strong>orgaanstelsel</strong>, organisme. Het niveau dat <strong>meteen boven het orgaan</strong> komt, is dus het <strong>orgaanstelsel</strong>: verschillende organen die samen één grote taak uitvoeren, zoals het spijsverteringsstelsel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij elk niveau geldt dezelfde rode draad van dit thema: de <strong>bouw past bij de functie</strong>. Wie weet hoe iets gebouwd is, kan raden wat het doet, en omgekeerd."
+    }
+   ]
+  },
+  {
+   "kop": "Prokaryoot en eukaryoot",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>prokaryote cel</strong>, zoals een <strong>bacterie</strong>, heeft geen kernmembraan: haar <strong>DNA ligt vrij in het cytoplasma</strong>. Ze heeft wel <strong>ribosomen</strong> waarmee ze <strong>eiwitten aanmaakt</strong>, en ze is <strong>omgeven door een celmembraan</strong>. Wat ze niet heeft, zijn de organellen met een eigen membraan: geen kern, geen mitochondriën, geen Golgi-apparaat."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>eukaryote cel</strong> heeft die membraanorganellen wel. Plantaardige en dierlijke cellen zijn beide eukaryoot, maar ze zijn niet gelijk. <strong>Wel in een plantaardige cel en niet in een dierlijke</strong>: een <strong>celwand van cellulose</strong>, <strong>chloroplasten</strong> en een <strong>grote centrale vacuole</strong>. Het centrosoom vind je omgekeerd bij dieren wel en bij de meeste planten niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>celwand van een plantencel</strong> is <strong>hoofdzakelijk uit cellulose</strong> opgebouwd. <strong>Ook bacteriën hebben een celwand, maar die is niet uit cellulose opgebouwd</strong>: bij hen bestaat ze uit andere ketens, en net daarop grijpen sommige antibiotica in."
+    }
+   ]
+  },
+  {
+   "kop": "De organellen en hun taak",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Organel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Taak</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Celkern</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bewaart het DNA achter een kernmembraan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Kernlichaampje</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maakt de ribosomen aan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ribosoom</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zet aminozuren aan elkaar tot een eiwit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ruw endoplasmatisch reticulum</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dankt zijn naam aan de ribosomen die erop vastzitten; eiwitten gaan er binnen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Glad endoplasmatisch reticulum</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">speelt een rol bij de aanmaak van vetten en het ontgiften van stoffen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Golgi-apparaat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rijpt, sorteert en verpakt eiwitten voor de uitvoer naar buiten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Lysosoom</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ruimt versleten organellen op en verteert ze</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Mitochondrion</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de energiecentrale: hier gebeurt de aerobe celademhaling grotendeels</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Chloroplast</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vangt licht op voor de fotosynthese</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Vacuole</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een blaasje-achtige structuur die bij een rijpe plantencel het grootste deel van het volume inneemt en vocht en stoffen opslaat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Centrosoom met centriolen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">legt de trekdraden voor de celdeling aan</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>eiwit voor de uitvoer naar buiten</strong> volgt dus een vaste weg: ribosoom op het ruw ER, daarna het <strong>Golgi-apparaat</strong>, en van daar in een blaasje naar het celmembraan."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Plastiden</strong> zijn de familie waartoe de chloroplast hoort. <strong>Chromoplasten</strong> (met gele, oranje en rode pigmenten) en <strong>amyloplasten</strong> (met zetmeel) horen er ook bij, en ze <strong>komen enkel bij planten voor, niet bij dieren</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>cytoskelet</strong> is het geheel van <strong>microtubuli, microfilamenten en intermediaire filamenten</strong> dat de cel haar <strong>vorm en stevigheid</strong> geeft en waarlangs organellen zich verplaatsen."
+    }
+   ]
+  },
+  {
+   "kop": "Het celmembraan",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De grondlaag van <strong>elk biologisch membraan</strong> is een <strong>dubbellaag van fosfolipiden</strong>: de waterminnende koppen naar buiten, de waterafstotende staarten naar binnen. Daarin zitten nog andere stoffen <strong>ingebouwd</strong>: <strong>cholesterol</strong>, dat het membraan soepel maar stevig houdt, <strong>transmembraaneiwitten</strong> die als poort of pomp dienen, en <strong>perifere herkenningseiwitten</strong> aan de buitenkant."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een membraan is <strong>semi-permeabel</strong> of halfdoorlatend. Dat betekent niet dat het alles doorlaat: een <strong>semi-permeabel membraan laat niet alle stoffen even vlot door</strong>. Kleine, apolaire moleculen glippen er zo door, grote en geladen deeltjes hebben een eiwitpoort nodig."
+    },
+    {
+     "soort": "tekst",
+     "html": "Legt men een <strong>plantencel in zuiver water</strong>, dan trekt het water naar binnen, waar de concentratie aan opgeloste stoffen hoger is: de <strong>cel neemt water op en wordt stevig of turgescent</strong>. De celwand houdt haar daarbij tegen, zodat ze niet openbarst zoals een dierlijke cel zou doen."
+    },
+    {
+     "soort": "weetje",
+     "html": "De <strong>verhouding tussen oppervlakte en volume</strong> zet een grens op de grootte van een cel: <strong>een grote cel heeft per eenheid volume te weinig membraan om stoffen uit te wisselen</strong>. Verdubbel je de straal, dan wordt het oppervlak vier keer groter maar het volume acht keer. Daarom blijven cellen klein en worden organismen groot door méér cellen te maken."
+    }
+   ]
+  },
+  {
+   "kop": "Plantaardige weefsels",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Cellen van hetzelfde type vormen samen een <strong>weefsel</strong>, en elk weefsel heeft zijn eigen celtypes. Bij een plant deelt men ze in vier groepen in: huidweefsel, grondweefsel, steunweefsel en vaatweefsel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij het <strong>huidweefsel</strong> horen de <strong>epidermis</strong>, de <strong>waslaag of cuticula</strong> en de <strong>rhizodermis met wortelharen</strong>. De <strong>cuticula</strong> is het <strong>buitenste waslaagje op een blad dat het waterverlies beperkt</strong>. <strong>Wortelharen vergroten het oppervlak waarmee de wortel water en mineralen opneemt</strong>, precies dezelfde truc als de darmvlokken bij een dier."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij het <strong>grondweefsel</strong> van een blad horen het <strong>palissadeparenchym</strong>, het <strong>sponsparenchym</strong> en het <strong>steunweefsel</strong>. De cellen van het <strong>palissadeparenchym</strong> staan <strong>dicht tegen elkaar onder de bovenkant van het blad, omdat daar het meeste licht binnenvalt voor de fotosynthese</strong>. Het sponsparenchym eronder zit juist vol luchtholtes voor de gassen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>vaatweefsel</strong> bestaat uit twee delen. Het <strong>xyleem of houtvatenweefsel vervoert water en opgeloste mineralen van de wortel naar het blad</strong>. Het <strong>floëem vervoert de suikers niet uitsluitend van boven naar beneden</strong>: het transport gaat naar waar de plant de suiker nodig heeft, dus in het voorjaar ook van een wortelknol naar de ontluikende knoppen."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een wortel vervult de <strong>schors of cortex</strong> de taak van <strong>opslag en transport van stoffen tussen de huid en de vaatbundel</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Huidmondjes",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>huidmondjes</strong> op een blad <strong>regelen de gasuitwisseling en de waterafgifte</strong>. Ze liggen <strong>bij een gewoon blad vooral aan de onderkant van het blad</strong>, in de schaduw, waar het water minder snel verdampt. De twee cellen die samen een huidmondje vormen en het <strong>openen en sluiten</strong>, zijn de <strong>sluitcellen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Blijven de huidmondjes <strong>bij droogte lang gesloten</strong>, dan zijn er drie gevolgen samen: <strong>er komt te weinig koolstofdioxide binnen</strong>, <strong>de fotosynthese valt grotendeels stil</strong> en <strong>de plant verliest veel minder waterdamp</strong>. Dat laatste is precies de bedoeling; de plant kiest dorst boven uitdroging."
+    }
+   ]
+  },
+  {
+   "kop": "Dierlijke weefsels",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij dieren onderscheidt men vier grote weefselgroepen: <strong>epitheel-, spier-, zenuw- en transportweefsel</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Weefsel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Bouw</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Functie</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Epitheelweefsel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cellen dicht naast elkaar in één of meer lagen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bedekt en beschermt; het komt niet enkel in de huid voor, maar ook in de darm, de luchtwegen en de klieren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Spierweefsel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lange cellen met samentrekbare draden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spiercellen zijn zo gebouwd dat ze zich kunnen samentrekken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Zenuwweefsel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een zenuwcel met een lange uitloper</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die uitloper doorgeeft prikkels over grote afstand</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Transportweefsel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vloeistof met cellen erin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vervoert bij dieren stoffen door het lichaam, met bloed als bekendste voorbeeld</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee cellen laten de regel bouw-past-bij-functie goed zien. Een <strong>rijpe rode bloedcel van de mens heeft geen kern meer</strong>, waardoor er meer plaats is voor hemoglobine. En bij een <strong>zaadcel maakt de staart ze beweeglijk terwijl de kleine kop het erfelijk materiaal draagt</strong>. Een <strong>eicel is veel groter dan een zaadcel omdat ze reservestoffen voor de eerste delingen bevat</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

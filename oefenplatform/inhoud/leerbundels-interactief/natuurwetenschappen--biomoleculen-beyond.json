@@ -1,0 +1,92 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Biomoleculen",
+ "onder": "Suikers, lipiden en proteïnen: hun bouwstenen, hun vorm en hun taken, en de twee reacties die ze aan en af bouwen.",
+ "secties": [
+  {
+   "kop": "Suikers",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Monosachariden</strong> zijn de kleinste suikers: <strong>glucose</strong>, <strong>fructose</strong> en <strong>galactose</strong>. <strong>Glucose en fructose hebben dezelfde brutoformule maar een andere structuur</strong>, en net daarom smaken en werken ze anders."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee monosachariden samen vormen een disacharide, verbonden door een <strong>glycosidische binding</strong>. <strong>Sacharose bestaat uit glucose en fructose</strong>; lactose uit glucose en galactose. Dat laatste verklaart waarom <strong>sommige mensen buikklachten van melk krijgen: ze missen het enzym dat lactose splitst</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Veel monosachariden aan elkaar geven een polysacharide. <strong>Zetmeel en cellulose zijn allebei polysachariden van glucose</strong>, en toch is het ene voedsel en het andere hout. Het verschil zit in de binding: <strong>de mens kan cellulose niet verteren, omdat hij het enzym mist dat die bindingen verbreekt</strong>. <strong>Zetmeel bestaat niet uit één enkele soort keten zonder vertakkingen</strong>: er zit zowel een rechte als een vertakte vorm in. Een <strong>dier slaat zijn reservesuiker als glycogeen op</strong>, een nog sterker vertakte keten."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Polysachariden</strong> kunnen heel verschillende taken hebben: <strong>energie opslaan in lever en spieren</strong>, <strong>stevigheid geven aan een plantencel</strong> en <strong>het pantser van een insect vormen</strong>."
+    },
+    {
+     "soort": "weetje",
+     "html": "Men noemt een stuk brood met veel vezels een <strong>trage suiker</strong>, <strong>omdat de glucose er traag uit vrijkomt en de bloedsuiker minder piekt</strong>. Hetzelfde aantal gram koolhydraten geeft dus niet hetzelfde verloop in je bloed."
+    }
+   ]
+  },
+  {
+   "kop": "Lipiden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Triglyceriden</strong> zijn de lipiden die <strong>uit glycerol en drie vetzuren opgebouwd</strong> zijn. Een <strong>onverzadigd vetzuur bevat een of meer dubbele bindingen in zijn koolstofketen</strong>, en daardoor een knik die de ketens minder goed op elkaar laat stapelen. Zo komt het dat <strong>oliën over het algemeen meer onverzadigde vetzuren bevatten dan harde vetten</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>fosfolipide is geschikt om een membraan te vormen, omdat het een waterminnende kop en waterafstotende staarten heeft</strong>. Zo'n deel van een molecule dat water afstoot, heet <strong>hydrofoob</strong>. Dat een <strong>vogel zijn veren invet</strong>, gebruikt dezelfde eigenschap: <strong>dat ze water afstoten</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Cholesterol</strong> hoort tot de <strong>steroïden</strong>, een derde groep lipiden naast de triglyceriden en de fosfolipiden."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Lipiden leveren per gram meer energie dan suikers</strong>, ongeveer het dubbele. In het lichaam <strong>slaan ze energie op lange termijn op</strong>, <strong>isoleren ze het lichaam tegen koude</strong> en <strong>slaan ze in vet oplosbare vitaminen op</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Proteïnen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Elk aminozuur</strong> heeft altijd <strong>een carboxylgroep</strong>, <strong>een aminogroep</strong> en <strong>een restgroep</strong>. Alleen die restgroep verschilt van aminozuur tot aminozuur. Wat bepaalt <strong>of een restgroep polair, apolair of ioniserend is</strong>, zijn <strong>de atomen waaruit die restgroep bestaat</strong>. <strong>Apolaire restgroepen gaan bij een opgevouwen eiwit meestal naar de binnenkant</strong>, weg van het water."
+    },
+    {
+     "soort": "tekst",
+     "html": "De binding tussen twee aminozuren in een eiwit heet de <strong>peptidebinding</strong>. Een eiwit vouwt zich daarna in lagen op."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Structuur</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze samenhoudt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Primaire structuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de volgorde van de aminozuren in de keten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">peptidebindingen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Secundaire structuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de alfahelix en de bètaplaat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waterstofbruggen tussen de hoofdketen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Tertiaire structuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de ruimtelijke vorm van de hele keten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">disulfidebindingen, ionbindingen en waterstofbruggen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Quaternaire structuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meerdere ketens die samen één eiwit vormen; dus niet één enkele keten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dezelfde soorten bindingen tussen de ketens</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Die vorm is alles. <strong>Eén verkeerd aminozuur in een eiwit kan de hele werking ervan verstoren</strong>, en een <strong>eiwit dat te sterk verhit wordt, verliest zijn vorm en daarmee zijn werking</strong>. Zo wordt een eiwit ook ongeschikt als enzym: <strong>een enzym werkt maar op één bepaalde stof, omdat de vorm van zijn actieve plaats op die stof past</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Proteïnen doen heel verschillende dingen: <strong>reacties versnellen als enzym</strong>, <strong>indringers herkennen als antilichaam</strong> en <strong>de genexpressie regelen als transcriptiefactor</strong>. Daarnaast is er transport en beweging: <strong>hemoglobine vervoert zuurstof in het bloed</strong>, <strong>actine en myosine zorgen voor het samentrekken van een spier</strong>, en de <strong>aquaporines</strong> zijn de <strong>eiwitten in het celmembraan waardoor water vlot de cel in en uit kan</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Opbouw en afbraak",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Alle biomoleculen worden met dezelfde twee reacties aan en af gebouwd. Bij een <strong>condensatiereactie worden twee bouwstenen verbonden en komt er water vrij</strong>. Bij een <strong>hydrolysereactie wordt een binding met behulp van water verbroken</strong>. Daarom <strong>verlopen de opbouw- en afbraakreacties van suikers, eiwitten en vetten niet volgens heel verschillende principes</strong>, maar juist volgens hetzelfde: één patroon dat je drie keer terugvindt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dus kan je bij elke vertering voorspellen wat vrijkomt. Bij de <strong>vertering van een triglyceride ontstaan glycerol en vetzuren</strong>. Wordt een <strong>eiwit in de darm verteerd</strong>, dan komen er <strong>aminozuren</strong> vrij. En een polysacharide valt uiteen in monosachariden."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

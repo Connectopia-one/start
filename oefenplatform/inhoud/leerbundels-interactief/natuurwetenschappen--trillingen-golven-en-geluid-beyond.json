@@ -1,0 +1,126 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Trillingen, golven en geluid",
+ "onder": "Van amplitude en periode naar resonantie, en van golflengte naar de decibelschaal.",
+ "secties": [
+  {
+   "kop": "De harmonische trilling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een trilling beweegt heen en weer rond de <strong>evenwichtsstand</strong>, <strong>de stand waarrond een trillend voorwerp heen en weer beweegt</strong>. De <strong>amplitude</strong> is <strong>de grootste uitwijking vanuit de evenwichtsstand</strong>. De <strong>periode</strong> is <strong>de tijd die één volledige trilling duurt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De frequentie is het aantal trillingen per seconde, dus één gedeeld door de periode. Heeft een <strong>trilling een periode van 0,5 seconde</strong>, dan is de frequentie <strong>2 hertz</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Amplitude en frequentie staan los van elkaar: <strong>een grotere amplitude betekent niet altijd ook een grotere frequentie</strong>. Je kan harder duwen zonder sneller te duwen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Van de <strong>y(t)-grafiek van een trilling</strong> lees je <strong>de amplitude</strong>, <strong>de periode</strong> en <strong>de evenwichtslijn</strong> af."
+    }
+   ]
+  },
+  {
+   "kop": "Resonantie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>eigenfrequentie</strong> is <strong>de frequentie waarmee een voorwerp vanzelf het liefst trilt</strong>. <strong>Resonantie treedt op als de uitwendige kracht de eigenfrequentie treft</strong>: dan wordt elke duw op het juiste moment gegeven en lopen de uitwijkingen op."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Voorbeelden van resonantie</strong>: <strong>een schommel die hoger komt door op het juiste ritme te duwen</strong>, <strong>een glas dat barst bij één bepaalde zangtoon</strong> en <strong>een brug die schudt door marcherende voeten erop</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Golven",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een golf <strong>transporteert energie, maar geen materie</strong>. <strong>De deeltjes van een golf verhuizen niet met de golf mee naar het einde</strong>: ze trillen op hun plaats en geven de beweging door, zoals het publiek in een stadion."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat is ook het <strong>verschil tussen de trilrichting en de voortplantingsrichting</strong>: <strong>de deeltjes bewegen in de trilrichting, de golf reist in de andere</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Mechanische golven</strong> hebben een middenstof nodig: <strong>geluid</strong>, <strong>golven op het water</strong> en <strong>een golf in een gespannen touw</strong>. Daarom <strong>kan een mechanische golf zich niet door het luchtloze heelal voortplanten</strong>, en is het heelal stil; elektromagnetische golven raken er wel door."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een golf is transversaal of longitudinaal. Bij een <strong>transversale golf trillen de deeltjes loodrecht op de golfrichting</strong>; bij een longitudinale golf trillen ze in de golfrichting zelf. <strong>Geluid in lucht is longitudinaal</strong>: opeenvolgende verdichtingen en verdunningen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>golflengte</strong> is <strong>de afstand tussen twee punten in dezelfde fase</strong>, bijvoorbeeld van top tot top. De golfsnelheid is de golflengte maal de frequentie. Heeft een <strong>golf een golflengte van 2 meter en een frequentie van 5 hertz</strong>, dan gaat ze <strong>10 meter per seconde</strong>. <strong>Bij een vaste golfsnelheid hoort een grotere frequentie bij een kleinere golflengte</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Let op welke grafiek je bekijkt: van een <strong>y(x)-grafiek van een golf</strong> lees je <strong>de golflengte</strong> af, en dat lukt niet met een y(t)-grafiek, want daar staat de tijd op de horizontale as."
+    }
+   ]
+  },
+  {
+   "kop": "Geluid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Geluid gaat het snelst <strong>in een vaste stof</strong>, omdat de deeltjes daar dicht bij elkaar zitten en de beweging snel doorgeven; in een gas gaat het traagst. Ook de temperatuur telt: <strong>geluid gaat sneller in warme lucht dan in koude lucht</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je hoort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarvan het afhangt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Toonhoogte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van de frequentie van de geluidsgolf</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Luidheid of toonsterkte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van de amplitude</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Klankkleur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van de vorm van het patroon op een y(t)-grafiek; zo zie je het verschil tussen een viool en een fluit die dezelfde toon spelen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Hoor je <strong>een lage, zachte toon</strong>, dan weet je over de golf dat <strong>ze een lage frequentie en een kleine amplitude heeft</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een mens hoort normaal <strong>van ongeveer 20 tot 20 000 hertz</strong>. Daarboven heet geluid <strong>ultrasoon</strong>; daaronder infrasoon. <strong>Infrasoon geluid heeft geen hogere frequentie dan geluid dat wij kunnen horen</strong>, maar een lagere, zoals het gerommel van een aardbeving."
+    }
+   ]
+  },
+  {
+   "kop": "De decibelschaal en je gehoor",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>gehoordrempel</strong> ligt op <strong>0 decibel</strong>: het zachtste geluid dat een mens nog kan horen. Vanaf ongeveer <strong>80 decibel</strong> is <strong>gehoorbescherming nodig</strong>, en rond 120 decibel ligt de pijndrempel. <strong>Hoe langer je aan luid geluid blootgesteld bent, hoe groter de kans op gehoorschade</strong>, want niveau en tijd tellen samen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De schaal is niet recht. <strong>Twee keer zoveel geluidsintensiteit betekent niet twee keer zoveel decibel</strong>: wordt <strong>de geluidsintensiteit twee keer groter</strong>, dan <strong>stijgt het geluidsniveau met ongeveer 3 decibel</strong>. Ga je <strong>twee keer zo ver van een geluidsbron staan</strong>, dan zakt het niveau <strong>met ongeveer 6 decibel</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Blijvende gehoorschade ontstaat in het binnenoor, bij de haarcellen</strong>. Die groeien niet terug, en daarom is schade daar definitief. <strong>Maatregelen die je gehoor beschermen</strong>: <strong>oordopjes of een gehoorkap dragen</strong>, <strong>verder van de geluidsbron gaan staan</strong> en <strong>de blootstelling in tijd beperken</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Toepassingen met geluid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>echo</strong> is <strong>het terugkaatsen van geluid tegen een wand, waardoor je het een tweede keer hoort</strong>. Uit de tijd tussen zenden en terugkomen kan je afstand berekenen, en daarop berust het meeste."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Toepassingen die met geluidsgolven werken</strong>: <strong>echografie</strong>, <strong>sonar op een schip</strong> en <strong>echolocatie bij een vleermuis</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Over een <strong>echografie</strong> geldt: <strong>ze werkt met ultrasoon geluid</strong>, <strong>ze meet wat er tegen de grens tussen weefsels terugkaatst</strong>, en <strong>uit de tijd berekent het toestel de diepte</strong>. Er komt dus geen straling aan te pas, en net daarom mag ze bij een zwangerschap."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

@@ -1,0 +1,100 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Veilig en duurzaam werken, grootheden en eenheden",
+ "onder": "Etiketten lezen, netjes meten, en met eenheden, voorvoegsels en verbanden werken.",
+ "secties": [
+  {
+   "kop": "Etiketten en veilig werken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>gevarenpictogram op een fles met een chemische stof</strong> vertelt <strong>waarom de stof gevaarlijk is</strong>. Daarnaast staan er twee soorten zinnen op een etiket: in een <strong>H-zin</strong> staat <strong>welk gevaar de stof oplevert</strong>, en de <strong>P-zinnen</strong> zeggen <strong>hoe je veilig met een stof omgaat</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Waarschuwt het etiket voor gevaar voor de huid, dan doe je drie dingen samen: <strong>handschoenen dragen</strong>, <strong>een veiligheidsbril dragen</strong> en <strong>de P-zinnen van het etiket volgen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Werkwijzen die bij veilig en duurzaam werken in een labo horen</strong>: <strong>zuinig omgaan met chemische stoffen</strong>, <strong>meetinstrumenten uitzetten als je niet meet</strong> en <strong>glaswerk na gebruik schoonmaken</strong>. Je <strong>zet een meetinstrument uit als je niet meet om energie te sparen en de batterij te ontzien</strong>, en je <strong>leest de handleiding van een toestel voor je het gebruikt om te weten hoe je het veilig gebruikt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Drie regels over opruimen. <strong>Een gemorst chemisch product ruim je beter onmiddellijk op</strong>, voor iemand erin stapt of het indroogt. <strong>Glasscherven</strong> ruim je op <strong>met een borstel en een blik, in het vat voor glas</strong>, nooit met je handen. En <strong>afval van een chemisch product mag je niet gewoon in de gootsteen gieten</strong>: dat hoort in het vat voor chemisch afval."
+    }
+   ]
+  },
+  {
+   "kop": "Meten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>meetbereik</strong> van een meetinstrument is <strong>de kleinste en de grootste waarde die het kan meten</strong>. De <strong>nauwkeurigheid</strong> is iets anders: <strong>de kleinste verandering die een meetinstrument nog kan weergeven</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarmee kies je je toestel. Moet je een <strong>massa van ongeveer 2 gram op een tienden van een gram nauwkeurig wegen</strong>, dan neem je <strong>een balans die tot op 0,01 gram nauwkeurig weegt</strong>: één stap fijner dan wat je nodig hebt. Maar <strong>een duurder meetinstrument is niet altijd het beste voor elk onderzoek</strong>; het moet passen bij wat je meet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Meetinstrument</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het meet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Dynamometer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kracht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Voltmeter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een elektrische spanning</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Chronometer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een tijd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Decibelmeter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een geluidsniveau</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Balans</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een massa</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een meting met een meetinstrument is nooit helemaal exact.</strong> Daarom let je op twee dingen. Je leest <strong>een vloeistofniveau in een maatcilinder op ooghoogte af om een fout door de kijkhoek te vermijden</strong>. En je schrijft niet meer cijfers op dan je kan meten: <strong>meet je met een lintmeter in centimeters en schrijf je 12,3456 cm op, dan schrijf je meer cijfers op dan je kan meten</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Grootheden en eenheden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>verschil tussen een grootheid en een eenheid</strong>: <strong>een grootheid is wat je meet, een eenheid is waarin je het uitdrukt</strong>. Lengte is een grootheid, de meter is haar eenheid."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>SI-eenheden</strong> zijn onder meer <strong>de meter</strong>, <strong>de seconde</strong> en <strong>de ampère</strong>. De <strong>SI-eenheid van massa</strong> is de <strong>kilogram</strong>, en niet de gram: dat is de enige SI-eenheid met een voorvoegsel erin."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorvoegsel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Factor</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mega</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een miljoen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kilo</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">duizend</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">milli</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een duizendste</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">micro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een miljoenste</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nano</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een miljardste</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Omzetten doe je met die factoren. <strong>2,5 kilometer</strong> is <strong>2500 meter</strong>, en <strong>0,25 milliseconde</strong> is <strong>0,00025 seconde</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Voor heel grote en heel kleine getallen gebruik je de <strong>wetenschappelijke notatie</strong>, waarin <strong>precies één cijfer voor de komma staat</strong>. Zo wordt <strong>0,00042 meter</strong> geschreven als <strong>4,2 maal tien tot de min vier</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij het rekenen houd je je aan de beduidende cijfers. Meet je <strong>3,0 cm en 4,00 cm en telt je die op</strong>, dan schrijf je het resultaat <strong>met één cijfer na de komma</strong>, want de minst nauwkeurige meting bepaalt het antwoord. <strong>Een rekenmachine die acht cijfers na de komma toont, maakt je meting niet nauwkeuriger</strong>, en <strong>een schatting vooraf is niet overbodig zodra je met een rekenmachine werkt</strong>: ze is juist je enige bescherming tegen een tikfout."
+    }
+   ]
+  },
+  {
+   "kop": "Verbanden en formules",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verband</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe je het herkent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Recht evenredig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de grafiek is een rechte door de oorsprong</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Lineair</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de grafiek is een rechte, die niet door de oorsprong hoeft te gaan; elke stap in x geeft dezelfde stap in y</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Omgekeerd evenredig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hun product blijft gelijk; de grafiek is een hyperbool</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Kwadratisch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de grafiek is een parabool</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Zijn <strong>twee grootheden recht evenredig</strong>, dan is hun grafiek <strong>een rechte door de oorsprong</strong>. Zijn ze <strong>omgekeerd evenredig</strong>, dan blijft <strong>hun product</strong> gelijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Modellen om een verband weer te geven</strong> zijn <strong>een grafiek</strong>, <strong>een tabel</strong> en <strong>een formule</strong>. Dezelfde werkelijkheid, drie talen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een formule mag je omvormen. Wil je in de formule <strong>F is m maal a</strong> de <strong>m</strong> uitdrukken, dan wordt het <strong>m is F gedeeld door a</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

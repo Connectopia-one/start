@@ -1,0 +1,134 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Elektromagnetisme en inductie",
+ "onder": "Van weissgebied tot veldlijn, van Laplacekracht tot wervelstroom: hoe magnetisme en stroom elkaar maken.",
+ "secties": [
+  {
+   "kop": "Waar magnetisme vandaan komt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Ferromagnetisch</strong> zijn maar enkele stoffen: <strong>ijzer</strong>, <strong>nikkel</strong> en <strong>cobalt</strong>. In zo'n stof zitten <strong>weissgebieden</strong>, <strong>kleine gebieden die elk als een magneetje werken</strong>. Staan ze alle kanten op, dan heft het effect zich op; wijzen ze samen dezelfde kant uit, dan is het stuk magnetisch."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het magnetisme van een weissgebied ontstaat op atomaire schaal <strong>uit de kringstroom en de spin van de elektronen</strong>. Magnetisme is dus eigenlijk altijd bewegende lading, ook in een gewone koelkastmagneet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom kan je een magneet niet in een losse noord- en een losse zuidpool splitsen. <strong>Breek je een staafmagneet in twee, dan heb je twee kleinere magneten met elk een noord- en een zuidpool</strong>. Je kan een magneet wel kwijtspelen: <strong>een magneet kan je demagnetiseren door hem sterk op te warmen</strong>, want dan schudt de warmte de weissgebieden weer door elkaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Magnetische influentie</strong> is het verschijnsel waarbij <strong>een stuk ijzer bij een magneet zelf magnetisch wordt</strong>: de weissgebieden richten zich naar het veld. Daarom kan een magneet een hele ketting paperclips dragen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Twee noordpolen die je naar elkaar toe brengt, trekken elkaar niet aan</strong>: ze stoten elkaar af. En de <strong>magnetische kracht is wel een veldkracht</strong>; twee magneten hoeven elkaar niet te raken om kracht uit te oefenen, zoals je aan de afstoting door de lucht voelt."
+    }
+   ]
+  },
+  {
+   "kop": "Permanente magneten en elektromagneten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>verschil tussen een permanente magneet en een elektromagneet</strong> is dat <strong>een elektromagneet enkel werkt zolang er stroom door loopt</strong>. Dat is net zijn voordeel: je kan hem uitzetten."
+    },
+    {
+     "soort": "tekst",
+     "html": "Over een <strong>elektromagneet</strong> geldt: <strong>meer stroom geeft een sterker veld</strong>, <strong>meer windingen geeft een sterker veld</strong>, en <strong>de polen wisselen als je de stroomzin omdraait</strong>. Een <strong>ferromagnetische kern</strong> dient <strong>om het magnetisch veld van de spoel veel sterker te maken</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Toestellen die met een elektromagneet werken</strong>: <strong>een elektrische deurbel</strong>, <strong>een schrootkraan</strong> en <strong>een relais</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Veldlijnen lezen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Buiten een magneet loopt een <strong>magnetische veldlijn van de noordpool naar de zuidpool</strong>; binnen de magneet sluit ze de kring. <strong>Hoe dichter de veldlijnen bij elkaar liggen, hoe sterker het magnetisch veld daar is</strong>: de veldlijnendichtheid is de maat voor de sterkte."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe het veld eruitziet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Staafmagneet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het veldpatroon heet een dipoolveld, met twee polen en gebogen veldlijnen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Tussen de benen van een hoefijzermagneet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een homogeen veld: overal even sterk en in dezelfde richting</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Rond een rechte stroomvoerende draad</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cirkels rond de draad</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">In een spoel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">binnenin bijna homogeen, buiten als bij een staafmagneet</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>rechterhandregel bij een spoel</strong> gebruik je <strong>om uit de stroomzin te bepalen waar de noordpool ligt</strong>: de vingers met de stroom mee, de duim wijst naar de noordpool."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de aarde zit er een verrassing in de namen. De <strong>zuidpool van het aardmagnetisch veld ligt in de buurt van de geografische noordpool</strong>, en dat moet ook zo zijn: de <strong>noordpool van een kompasnaald wijst naar het geografische noorden</strong>, en een noordpool wordt door een zuidpool aangetrokken."
+    }
+   ]
+  },
+  {
+   "kop": "Kracht op stroom en op ladingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De magnetische kracht <strong>op een stroomvoerende geleider in een magnetisch veld</strong> heet de <strong>Laplacekracht</strong>. De kracht <strong>op een bewegende lading</strong> heet de <strong>Lorentzkracht</strong>. Het woord bewegende is wezenlijk: <strong>een lading die stilstaat in een magnetisch veld, ondervindt geen magnetische kracht</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Hangt een <strong>draad met stroom in een magnetisch veld</strong> en krijgt hij een kracht, dan <strong>wijst die kracht de andere kant op als je de stroomzin omdraait</strong>. Net daarop berust een motor die blijft draaien."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Toepassingen die berusten op een kracht op bewegende ladingen of op een stroomdraad</strong>: <strong>een gelijkstroommotor</strong>, <strong>een luidspreker</strong> en <strong>het noorderlicht</strong>, waar het aardmagnetisch veld geladen deeltjes naar de polen stuurt. Een <strong>massaspectrometer</strong> gebruikt het magnetisch veld <strong>om geladen deeltjes af te buigen volgens hun massa</strong>: zwaardere deeltjes buigen minder af."
+    }
+   ]
+  },
+  {
+   "kop": "Inductie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>magnetische flux</strong> is de grootheid die zegt <strong>hoeveel magnetisch veld er door een winding gaat</strong>. Ze hangt af <strong>van de sterkte van het magnetisch veld</strong>, <strong>van de oppervlakte van de winding</strong> en <strong>van de hoek tussen het veld en de normaal op de winding</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Verandert die flux, dan ontstaat er spanning. Daarom geldt het omgekeerde ook: <strong>een spoel waarin de flux niet verandert, levert geen inductiespanning</strong>. Een magneet die stil in een spoel ligt, levert niets op."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>grootte van de inductiespanning</strong> hangt af <strong>van hoe snel de flux verandert</strong>, <strong>van het aantal windingen van de spoel</strong> en <strong>van de grootte van de fluxverandering</strong>. Dus: <strong>duw je een magneet sneller in dezelfde spoel, dan wordt de inductiespanning groter</strong>, en <strong>een spoel met meer windingen levert bij dezelfde beweging geen kleinere maar een grotere inductiespanning</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>wet van Lenz</strong> zegt dat <strong>de inductiestroom de verandering van de flux tegenwerkt</strong>. Daarom: <strong>trek je een magneet uit een spoel in de plaats van hem erin te duwen, dan loopt de inductiestroom in de omgekeerde zin</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>wisselspanningsgenerator wekt spanning op doordat een winding in een magnetisch veld draait, waardoor de flux voortdurend verandert</strong>. Dat is de hele truc achter elke centrale."
+    }
+   ]
+  },
+  {
+   "kop": "Wervelstromen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Wervelstromen</strong> zijn <strong>de stroompjes die in een vol stuk metaal ontstaan als de flux erdoor verandert</strong>. Ze volgen dezelfde wet van Lenz, en dus werken ze de verandering tegen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom valt een magneet die je <strong>door een koperen buis</strong> laat vallen, <strong>veel trager dan verwacht</strong>: <strong>de wervelstromen in het koper maken een veld dat de val tegenwerkt</strong>. En een <strong>elektromagnetische rem heeft geen remblokken nodig die bij elke remming verslijten</strong>: ze remt zonder contact, wat haar bij treinen en achtbanen zo bruikbaar maakt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>inductiekookplaat warmt een pan op door wervelstromen in de bodem van de pan op te wekken</strong>. De plaat zelf blijft daarbij koud, op de warmte na die de pan teruggeeft."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Toestellen die op elektromagnetische inductie werken</strong>: <strong>een dynamo op een fiets</strong>, <strong>een elektrische gitaar</strong> en <strong>een draadloze oplader</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

@@ -1,0 +1,105 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Het elektromagnetisch spectrum",
+ "onder": "Het hele spectrum op een rij, wat straling met materie doet, en waar je elke soort tegenkomt.",
+ "secties": [
+  {
+   "kop": "Wat een elektromagnetische golf is",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een elektromagnetische golf is <strong>een transversale golf die geen middenstof nodig heeft</strong>. In vacuüm beweegt ze met <strong>de lichtsnelheid</strong>, en wel allemaal even snel: <strong>gammastraling gaat in vacuüm niet sneller dan radiogolven</strong>. Wat wel verandert, is de snelheid in materie: <strong>een elektromagnetische golf gaat trager als ze van vacuüm in glas komt</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Het spectrum op een rij",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Van lage naar hoge frequentie: <strong>radio, microgolven, infrarood, zichtbaar licht, ultraviolet, röntgen, gamma</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Straling</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Golflengte</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Energie</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Radiogolven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de grootste golflengte van het hele spectrum</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de laagste energie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Microgolven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">groot, niet zichtbaar, niet ioniserend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">laag</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Infrarood</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zit net naast het rode licht, aan de kant van de langere golven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">laag</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Zichtbaar licht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het enige deel dat een mens kan zien, van rood tot violet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">midden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ultraviolet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">korter dan violet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoog; het hoogenergetische deel is ioniserend</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Röntgen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">heel klein</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">heel hoog, ioniserend</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Gamma</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kleinste golflengte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de hoogste energie van het hele spectrum, en het grootste doordringend vermogen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De drie grootheden hangen vast aan elkaar. <strong>Een grotere golflengte hoort bij een lagere frequentie</strong>, en over een golf met een <strong>hoge frequentie</strong> geldt: <strong>haar golflengte is klein</strong>, <strong>haar energie is groot</strong> en <strong>ze zit aan de kant van röntgen en gamma</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Er bestaan meerdere <strong>indelingen van elektromagnetische straling</strong> naast elkaar: <strong>zichtbaar en niet-zichtbaar</strong>, <strong>schadelijk en niet-schadelijk</strong> en <strong>ioniserend en niet-ioniserend</strong>. Welke indeling je kiest, hangt af van waarover je het hebt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Ioniserend</strong> zijn <strong>gammastraling</strong>, <strong>röntgenstraling</strong> en <strong>hoogenergetische uv-straling</strong>: ze hebben genoeg energie om elektronen uit atomen te slaan. Daarom is <strong>uv-straling gevaarlijker voor je huid dan zichtbaar licht</strong>: <strong>uv heeft meer energie per golf en kan in cellen schade aanrichten</strong>. Maar <strong>niet elke soort elektromagnetische straling is schadelijk voor de mens</strong>: radiogolven en infrarood dragen daarvoor te weinig energie, en <strong>een gsm werkt met straling die niet ioniserend is</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>doordringend vermogen</strong> van een straling is <strong>hoe diep ze in materie kan binnendringen</strong>. Dat is iets anders dan haar energie, al lopen ze bij het spectrum samen op."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zo kan je raden welke straling bedoeld is. Weet je dat een straling <strong>niet zichtbaar is, een lange golflengte heeft en niet ioniserend is</strong>, dan kunnen dat <strong>microgolven</strong> zijn."
+    }
+   ]
+  },
+  {
+   "kop": "Straling en materie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Valt straling op materie, dan kunnen er drie dingen gebeuren: <strong>absorberen, doorlaten of weerkaatsen</strong>. <strong>Transmissie</strong> is de naam voor het verschijnsel waarbij <strong>straling door een stof heen gaat</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Welke van de drie het wordt, verklaart wat je ziet. <strong>Gras is groen omdat het het groene licht weerkaatst en de andere kleuren absorbeert</strong>. En <strong>op een röntgenfoto zijn de botten wit omdat ze meer straling absorberen dan het zachte weefsel</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een toepassing die <strong>straling door een voorwerp stuurt en meet wat er aan de andere kant aankomt</strong>, gebruikt dus <strong>transmissie en absorptie</strong>. Meet men <strong>in een fabriek de dikte van een metalen plaat met straling</strong>, dan is <strong>straling die diep doordringt, zoals gamma</strong>, daarvoor logisch; licht zou al aan de oppervlakte blijven."
+    }
+   ]
+  },
+  {
+   "kop": "Waar je elke straling tegenkomt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Radiogolven gebruikt men voor communicatie over grote afstand, omdat ze ver dragen en niet snel geabsorbeerd worden</strong>. Daarmee werken <strong>een wifinetwerk</strong>, <strong>een gsm</strong> en <strong>televisie via een antenne</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>magnetron gebruikt microgolven</strong>, want <strong>de watermoleculen in het eten nemen die energie goed op</strong>. Het <strong>metalen rooster in de deur houdt de microgolven binnen, omdat het als een kooi van Faraday werkt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Met <strong>infrarood</strong> werkt <strong>een afstandsbediening van een televisie</strong>, en ook <strong>een warmtebeeldcamera of een nachtkijker werkt met infraroodstraling</strong>, want elk warm lichaam straalt infrarood uit."
+    },
+    {
+     "soort": "tekst",
+     "html": "Met <strong>ultraviolette straling</strong> werken <strong>een zonnebank</strong>, <strong>een valsgelddetector</strong> en <strong>desinfectie van water of oppervlakken</strong>. Een toestel dat <strong>met onzichtbare straling bacteriën doodt in een waterleiding</strong>, werkt dus met <strong>ultraviolette straling</strong>. <strong>Een blacklight werkt niet met infraroodstraling</strong> maar met uv, en net daarom licht wit wasgoed eronder op."
+    },
+    {
+     "soort": "tekst",
+     "html": "Met <strong>röntgenstraling</strong> werkt onder meer <strong>een bagagescanner op een luchthaven</strong>, naast de röntgenfoto bij de dokter. <strong>Gammastraling gebruikt men om voedsel te steriliseren, want haar hoge energie doodt de micro-organismen erin</strong>, en bij <strong>radiotherapie tegen kanker</strong> gebruikt men <strong>gammastraling</strong> om kankercellen te doden."
+    }
+   ]
+  },
+  {
+   "kop": "Bescherming",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Tegen <strong>röntgen- en gammastraling</strong> bescherm je je <strong>met een loodschort of een dikke betonnen wand</strong>. De drie maatregelen die bij <strong>bescherming tegen hoogenergetische straling</strong> horen, zijn: <strong>een loodschort dragen</strong>, <strong>afstand houden van de bron</strong> en <strong>de tijd bij de bron zo kort mogelijk houden</strong>. Afscherming, afstand en tijd: die drie samen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Tegen uv werkt iets eenvoudigers: <strong>zonnecrème en een zonnebril met uv-filter beschermen tegen ultraviolette straling</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

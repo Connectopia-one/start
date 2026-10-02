@@ -1,0 +1,376 @@
+# -*- coding: utf-8 -*-
+"""🌍 Beyond — Kernfysica en radioactiviteit.
+
+Fysica, de kop "Kernfysica" uit de vakfiche natuurwetenschappen 3DO.
+Deel 1 gaat over de atoomkern, de nucliden en de isotopen, over waarom een kern
+stabiel is en over de halveringstijd en de activiteit. Deel 2 gaat over
+kernfusie en kernsplijting met de kerncentrale en haar afval, over alfa-, bèta-
+en gammastraling en over besmetting, bestraling en de dosiseenheden.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het massagetal A van een nuclide?",
+        opties=[
+            "het aantal protonen plus het aantal neutronen",
+            "het aantal protonen van de kern alleen",
+            "het aantal neutronen van de kern alleen",
+            "het aantal elektronen rond de kern",
+        ],
+        antwoord=0,
+        uitleg="Protonen en neutronen heten samen de nucleonen, en A telt ze allemaal. Het atoomnummer Z telt enkel de protonen.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de protonen en de neutronen van een kern samen?",
+        antwoord=["nucleonen", "nucleon", "kerndeeltjes"],
+        uitleg="Het massagetal A is het aantal nucleonen in de kern. Daarom heet A ook het nucleonental.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een nuclide heeft massagetal 23 en atoomnummer 11. Hoeveel neutronen zitten er in de kern?",
+        opties=["12", "11", "23", "34"],
+        antwoord=0,
+        uitleg="Je trekt het atoomnummer van het massagetal af, dus 23 min 11. Het aantal protonen is 11, want dat is precies het atoomnummer.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat hebben twee isotopen van hetzelfde element gemeen?",
+        opties=[
+            "het aantal protonen",
+            "het aantal neutronen",
+            "het massagetal",
+            "de halveringstijd",
+        ],
+        antwoord=0,
+        uitleg="Isotopen hebben hetzelfde atoomnummer, dus zijn ze hetzelfde element. Ze verschillen juist in het aantal neutronen en dus in het massagetal.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Twee isotopen van hetzelfde element hebben een verschillend aantal neutronen.",
+        antwoord=True,
+        uitleg="Het aantal protonen is gelijk, want dat bepaalt om welk element het gaat. Het verschil in neutronen geeft hen een ander massagetal.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke uitspraken over een nuclide zijn juist? Kruis alles aan wat juist is.",
+        opties=[
+            "het atoomnummer Z is het aantal protonen",
+            "het massagetal A is het aantal nucleonen",
+            "het aantal neutronen is A min Z",
+            "het massagetal telt ook de elektronen mee",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Elektronen zitten rond de kern en niet erin, dus tellen ze niet mee in A. Die drie eerste zijn de basisrelaties van de kernfysica.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke twee krachten strijden met elkaar in een atoomkern?",
+        opties=[
+            "de sterke kernkracht en de afstoting van de protonen",
+            "de zwaartekracht en de magnetische veldkracht",
+            "de wrijvingskracht en de normaalkracht",
+            "de veerkracht en de spankracht van een koord",
+        ],
+        antwoord=0,
+        uitleg="De kernkracht trekt alle nucleonen samen maar werkt enkel over een heel korte afstand. De coulombkracht duwt de protonen juist van elkaar weg.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wanneer is een lichte kern met Z kleiner dan 20 doorgaans stabiel?",
+        opties=[
+            "als er ongeveer evenveel neutronen als protonen zijn",
+            "als er veel meer neutronen dan protonen in zitten",
+            "als er veel meer protonen dan neutronen in zitten",
+            "als er in de kern helemaal geen neutronen zitten",
+        ],
+        antwoord=0,
+        uitleg="Bij lichte kernen loopt de stabiliteitsband mooi langs de lijn waar N gelijk is aan Z. Zwaardere kernen hebben juist een overschot aan neutronen nodig.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een zware stabiele kern heeft meer protonen dan neutronen.",
+        antwoord=False,
+        uitleg="Het is net omgekeerd: ze heeft extra neutronen nodig. Die leveren wel kernkracht maar geen afstoting, dus houden ze de kern samen.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de kaart waarop je stabiele en onstabiele nucliden terugvindt?",
+        antwoord=["nuclidenkaart", "de nuclidenkaart"],
+        uitleg="Daarop staat het aantal neutronen tegenover het aantal protonen. De stabiele kernen vormen daar een band die men de stabiliteitsband noemt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is de halveringstijd van een radionuclide?",
+        opties=[
+            "de tijd waarin de helft van de kernen vervalt",
+            "de tijd waarin alle kernen vervallen",
+            "de helft van de tijd die het verval duurt",
+            "het aantal kernen dat per seconde vervalt",
+        ],
+        antwoord=0,
+        uitleg="Na één halveringstijd blijft de helft over, na twee een kwart, na drie een achtste. Het aantal vervallen per seconde heet de activiteit.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je begint met 800 onstabiele kernen en de halveringstijd is 5 jaar. Hoeveel blijven er na 15 jaar over?",
+        opties=["100", "200", "400", "50"],
+        antwoord=0,
+        uitleg="Vijftien jaar is drie halveringstijden, dus deel je drie keer door twee. Van 800 naar 400, dan naar 200 en dan naar 100.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je het aantal kernen dat per seconde vervalt?",
+        antwoord=["activiteit", "de activiteit"],
+        uitleg="Ze wordt uitgedrukt in becquerel. Hoe meer onstabiele kernen er nog zijn, hoe hoger de activiteit, dus zakt ze mee met de tijd.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een radionuclide met een korte halveringstijd heeft bij dezelfde hoeveelheid een hogere activiteit.",
+        antwoord=True,
+        uitleg="Korte halveringstijd betekent dat er per seconde veel meer kernen vervallen. Zo'n stof is dus minder stabiel en straalt sterker.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe ziet de grafiek van het aantal onstabiele kernen in functie van de tijd uit?",
+        opties=[
+            "een kromme die steeds trager naar nul zakt",
+            "een rechte schuine lijn tot op de nullijn",
+            "een horizontale rechte lijn op dezelfde hoogte",
+            "een kromme die steeds steiler naar boven gaat",
+        ],
+        antwoord=0,
+        uitleg="Elke halveringstijd verdwijnt de helft van wat er nog is, dus zakt de kromme steeds minder snel. Ze raakt de nullijn in theorie nooit helemaal.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe haal je de halveringstijd uit een N(t)-grafiek? Kruis alles aan wat juist is.",
+        opties=[
+            "je zoekt wanneer het aantal tot de helft gezakt is",
+            "je mag van elk punt van de kromme vertrekken",
+            "je leest het resultaat op de tijdas af",
+            "je neemt de helft van de hele tijdas",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Halveren werkt vanaf elk punt, want elke halveringstijd verdwijnt opnieuw de helft. De lengte van de tijdas op de grafiek zegt daar niets over.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke uitspraken over halveringstijd en activiteit zijn juist? Kruis alles aan wat juist is.",
+        opties=[
+            "de activiteit zakt met de tijd",
+            "een korte halveringstijd hoort bij een onstabiele kern",
+            "na twee halveringstijden blijft een kwart over",
+            "de halveringstijd verandert als je de stof opwarmt",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="De halveringstijd is een vaste eigenschap van de kern; temperatuur, druk of een reactie veranderen daar niets aan. Daarom kan je er zo goed mee dateren.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een stabiele kern vervalt na verloop van tijd ook.",
+        antwoord=False,
+        uitleg="Een stabiele kern blijft wat ze is. Enkel een onstabiele kern, dus een radionuclide, vervalt naar een stabielere kern.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een kern ligt op de nuclidenkaart onder de stabiliteitsband en heeft te veel neutronen. Hoe zal ze vervallen?",
+        opties=[
+            "via bètaverval, want zo wordt een neutron een proton",
+            "via alfaverval, want zo verdwijnen er twee neutronen",
+            "ze vervalt niet, want ze ligt op de kaart",
+            "ze splijt in twee gelijke helften",
+        ],
+        antwoord=0,
+        uitleg="Bij bètaverval gaat een neutron over in een proton en wordt er een elektron uitgezonden. Zo schuift de kern naar de stabiliteitsband toe.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe schrijf je een nuclide van een element X correct?",
+        opties=[
+            "met het massagetal en het atoomnummer bij het symbool",
+            "met enkel het aantal elektronen bij het symbool",
+            "met het aantal neutronen in de plaats van het massagetal",
+            "met de halveringstijd bij het symbool",
+        ],
+        antwoord=0,
+        uitleg="Het massagetal komt linksboven en het atoomnummer linksonder. Men schrijft het ook als X-A, bijvoorbeeld koolstof-14.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat is kernfusie?",
+        opties=[
+            "twee lichte kernen die tot één zwaardere kern samensmelten",
+            "een zware kern die in twee lichtere kernen uiteenvalt",
+            "een kern die een elektron uitstoot",
+            "een kern die een foton uitzendt",
+        ],
+        antwoord=0,
+        uitleg="Dat gebeurt in de zon, met de proton-protoncyclus. Kernsplijting is net het omgekeerde: een zware kern die uiteenvalt.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Welk proces gebruikt een kerncentrale om energie op te wekken?",
+        antwoord=["kernsplijting", "kernsplitsing", "kernfissie"],
+        uitleg="Een zware uraankern valt na het invangen van een neutron uiteen in twee lichtere kernen. Daarbij komen er nieuwe neutronen vrij, en die zorgen voor de kettingreactie.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke splijtstof gebruikt een gewone kerncentrale?",
+        opties=["uraan", "koolstof", "helium", "waterstof"],
+        antwoord=0,
+        uitleg="Uraan is zwaar genoeg om bij splijting energie vrij te geven. Waterstof en helium zijn juist de lichte kernen van de kernfusie.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Bij de fusie van lichte kernen en bij de splijting van zware kernen komt er energie vrij.",
+        antwoord=True,
+        uitleg="In beide gevallen zakt de specifieke rustenergie, dus de rustenergie per nucleon. Dat verschil komt als energie vrij, volgens E is gelijk aan m maal c in het kwadraat.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarvoor dienen de regelstaven in een kernreactor?",
+        opties=[
+            "ze vangen neutronen weg en regelen zo de kettingreactie",
+            "ze voeren voortdurend nieuwe splijtstof aan",
+            "ze koelen het water in het reactorvat af",
+            "ze wekken rechtstreeks de elektrische stroom op",
+        ],
+        antwoord=0,
+        uitleg="Schuif je ze dieper in de kern, dan blijven er minder neutronen over voor nieuwe splijtingen. Zo kan de reactie versneld of afgeremd worden.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke onderdelen horen bij een kerncentrale? Kruis alles aan wat juist is.",
+        opties=["het reactorvat", "de stoomgenerator", "de turbine", "de zonnepanelen"],
+        antwoord=[0, 1, 2],
+        uitleg="De warmte van de splijting maakt stoom, de stoom drijft de turbine aan en die draait de generator. Zonnepanelen horen bij een heel andere manier van stroom maken.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Volgens welke twee kenmerken wordt radioactief afval ingedeeld?",
+        opties=[
+            "volgens de intensiteit en de duur van de straling",
+            "volgens het gewicht en de kleur van het afval",
+            "volgens de prijs en het volume van het afval",
+            "volgens de temperatuur en de druk bij de berging",
+        ],
+        antwoord=0,
+        uitleg="Zo krijg je laagactief, middelactief en hoogactief afval, elk kortlevend of langlevend. Daaruit volgen de drie bergingscategorieën A, B en C.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Welke categorie radioactief afval is kortlevend laag- en middelactief afval?",
+        antwoord=["categorie A", "A"],
+        uitleg="Categorie B is langlevend laag- en middelactief afval, categorie C is hoogactief afval. Hoe hoger de categorie, hoe zwaarder de berging.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Hoogactief afval mag met dezelfde bescherming behandeld worden als laagactief afval.",
+        antwoord=False,
+        uitleg="Hoogactief afval straalt veel sterker en geeft ook veel warmte af. Het vraagt een veel dikkere afscherming en vaak behandeling op afstand.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke straling bestaat uit een heliumkern met twee protonen en twee neutronen?",
+        opties=["alfastraling", "bètastraling", "gammastraling", "röntgenstraling"],
+        antwoord=0,
+        uitleg="Door haar grootte en haar dubbele lading botst ze snel op iets. Daarom ioniseert ze heel sterk maar dringt ze nauwelijks door.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke straling heeft het grootste doordringend vermogen?",
+        opties=["gammastraling", "alfastraling", "bètastraling", "ze zijn alle drie gelijk"],
+        antwoord=0,
+        uitleg="Gammastraling heeft geen lading en geen massa, dus botst ze veel minder snel. Je hebt dik lood of beton nodig om ze tegen te houden.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke uitspraken over alfastraling zijn juist? Kruis alles aan wat juist is.",
+        opties=[
+            "een blad papier houdt ze al tegen",
+            "ze raakt niet door de buitenste laag van je huid",
+            "ze is vooral gevaarlijk na inslikken of inademen",
+            "je hebt een meter beton nodig om ze te stoppen",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Alfastraling geeft al haar energie na een paar centimeter af. Een meter beton heb je nodig tegen gammastraling, niet tegen alfastraling.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Alfastraling heeft een groot ioniserend vermogen maar een klein doordringend vermogen.",
+        antwoord=True,
+        uitleg="Ze geeft haar energie al na een paar centimeter lucht volledig af. Gammastraling doet het net omgekeerd: ze dringt diep door maar ioniseert zwak.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat gebeurt er met het massagetal en het atoomnummer bij alfaverval?",
+        opties=[
+            "het massagetal zakt met 4 en het atoomnummer met 2",
+            "het massagetal blijft gelijk en het atoomnummer stijgt met 1",
+            "het massagetal zakt met 2 en het atoomnummer met 4",
+            "het massagetal en het atoomnummer blijven allebei gelijk",
+        ],
+        antwoord=0,
+        uitleg="Er vertrekt een heliumkern met twee protonen en twee neutronen. Dat zijn de transmutatieregels van Soddy.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat gebeurt er met de kern bij bètaverval?",
+        opties=[
+            "een neutron wordt een proton en er vertrekt een elektron",
+            "een proton wordt een neutron en er vertrekt een elektron",
+            "er vertrekt een heliumkern uit de kern",
+            "er verandert niets aan de samenstelling van de kern",
+        ],
+        antwoord=0,
+        uitleg="Het massagetal blijft daardoor gelijk en het atoomnummer stijgt met één. De kern wordt dus een ander element met hetzelfde massagetal.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Gammastraling buigt in een magnetisch veld even sterk af als bètastraling.",
+        antwoord=False,
+        uitleg="Gammastraling heeft geen lading, dus voelt ze geen magnetische kracht en gaat ze rechtdoor. Alfa- en bètastraling zijn wel geladen en buigen naar tegengestelde kanten af.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Wat is het verschil tussen bestraling en besmetting: bij welk van de twee komt de radioactieve stof op of in je lichaam?",
+        antwoord=["besmetting", "bij besmetting"],
+        uitleg="Bij bestraling blijft de bron buiten je en treft enkel de straling je. Besmetting kan uitwendig zijn, op de huid, of inwendig, na inslikken of inademen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="In welke eenheid druk je de equivalente dosis en de effectieve dosis uit?",
+        opties=["sievert", "gray", "becquerel", "joule"],
+        antwoord=0,
+        uitleg="De geabsorbeerde dosis wordt in gray uitgedrukt. Vermenigvuldig je die met de stralingsweegfactor, dan krijg je sievert.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom heeft alfastraling een veel hogere stralingsweegfactor dan bèta- of gammastraling?",
+        opties=[
+            "ze geeft al haar energie in een heel klein stukje weefsel af",
+            "ze dringt veel dieper in het lichaam door dan de andere",
+            "ze heeft geen lading en wordt daardoor niet tegengehouden",
+            "ze heeft een veel langere halveringstijd dan de andere",
+        ],
+        antwoord=0,
+        uitleg="Alle energie komt in een heel klein stukje weefsel terecht. Daardoor is de schade bij dezelfde geabsorbeerde dosis veel groter.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke toepassingen van ioniserende straling bestaan er? Kruis alles aan wat juist is.",
+        opties=[
+            "radiotherapie tegen kanker",
+            "de koolstof-14-methode om ouderdom te bepalen",
+            "een PET-scan met een radioactieve tracer",
+            "het opladen van een gsm-batterij",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Die drie gebruiken allemaal de straling of het verval van een radionuclide. Een gsm laadt op met gewone elektrische stroom.",
+    ),
+]

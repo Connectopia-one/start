@@ -1,0 +1,118 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Bescherming en afweer tegen lichaamsvreemde stoffen",
+ "onder": "Drie verdedigingslijnen, de cellen die het werk doen, en waarom een vaccin werkt.",
+ "secties": [
+  {
+   "kop": "Waarom afweer nodig is",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>immuunsysteem is noodzakelijk om te overleven, omdat we voortdurend in contact komen met ziekteverwekkers</strong>: in de lucht, in het eten, op elke deurklink. Een <strong>pathogeen is een organisme dat ziekte kan veroorzaken</strong>. Een <strong>antigeen</strong> is iets anders: een <strong>lichaamsvreemde stof die een afweerreactie uitlokt</strong>, bijvoorbeeld een eiwit op de buitenkant van zo'n kiem."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>verschil tussen een infectie en een infectieziekte</strong>: <strong>bij een infectie dringt de kiem binnen, bij een infectieziekte maakt hij ook ziek</strong>. Veel infecties ruimt het lichaam op zonder dat je er iets van merkt."
+    }
+   ]
+  },
+  {
+   "kop": "De eerste verdedigingslijn",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De eerste lijn houdt indringers buiten. Daarbij horen de <strong>opperhuid als fysische barrière</strong>, de <strong>zuurmantel en de talg op de huid</strong> en <strong>lysozym in traanvocht en speeksel</strong>, een enzym dat bacteriën aantast. Ook <strong>slijmvliezen horen bij de eerste verdedigingslijn</strong>, met hun kleverige laag en hun trilhaartjes."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>microbioom</strong> is het <strong>geheel van micro-organismen dat van nature op onze huid en in onze darm leeft</strong> en ons mee beschermt: die bewoners nemen de plaats en het voedsel in waar een indringer zich zou willen vestigen."
+    }
+   ]
+  },
+  {
+   "kop": "De niet-specifieke afweer",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Raakt een kiem toch binnen, dan komt de <strong>niet-specifieke afweer</strong> in actie. Die <strong>werkt tegen elke indringer op dezelfde manier</strong> en start onmiddellijk: dringt <strong>een bacterie door een wonde binnen, dan komt de niet-specifieke afweer meteen op gang</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Cel of stof</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Fagocyt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">omsluit een indringer en verteert hem; dat heet fagocytose</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Macrofaag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een grote fagocyt; na het verteren toont hij een stukje van de bacterie op zijn membraan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Dendritische cel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">toont een stuk van de indringer aan de lymfocyten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Mestcel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geeft histamine af, waardoor de bloedvaten verwijden en er een ontsteking ontstaat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Natural killer cel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">doorboort geïnfecteerde en kwaadaardige lichaamscellen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>ontsteking</strong> horen <strong>roodheid</strong>, <strong>zwelling</strong> en <strong>warmte</strong>, en ook pijn. Dat lijkt hinder, maar het is afweer: er stroomt meer bloed met meer afweercellen naartoe. Zo is ook <strong>koorts niet altijd schadelijk</strong>: een hogere temperatuur remt veel kiemen af en zet het eigen afweersysteem aan. Pas heel hoge of lang aanhoudende koorts is gevaarlijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Antigeenpresentatie</strong> is het <strong>tonen van een stukje van de indringer op het membraan</strong>, waardoor de <strong>specifieke afweer kan starten</strong>. Daar sluit de eerste lijn op de derde aan."
+    }
+   ]
+  },
+  {
+   "kop": "Het lymfatisch systeem",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij het <strong>lymfatisch systeem</strong> horen de <strong>thymus</strong>, de <strong>milt</strong> en de <strong>lymfeknopen</strong>. De <strong>lymfeknopen</strong> zijn de <strong>knooppunten in de lymfevaten waar afweercellen samenkomen</strong>; bij een infectie <strong>kunnen ze opzwellen</strong>, zoals de bultjes in je hals bij een keelontsteking."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>witte bloedcellen worden in het rode beenmerg aangemaakt</strong>. <strong>T-lymfocyten rijpen in de thymus, en daar komt hun letter vandaan</strong>; de B van B-lymfocyt verwijst naar het beenmerg."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Lymfe stroomt niet in gesloten kring rond zoals het bloed</strong>: ze begint in de weefsels, loopt in één richting door de lymfevaten en mondt bij het hart in het bloed uit. Er is dus geen lymfepomp; spierbewegingen duwen haar vooruit."
+    }
+   ]
+  },
+  {
+   "kop": "De specifieke afweer",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>specifieke afweer</strong> richt zich op één bepaald antigeen. Daarbij horen de <strong>B-lymfocyten</strong>, de <strong>T-helperlymfocyten</strong> en de <strong>cytotoxische T-lymfocyten</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>T-helperlymfocyt zet andere afweercellen met signaalstoffen aan het werk</strong>. Die signaalstoffen waarmee afweercellen elkaar aansturen, heten <strong>cytokines</strong>. Een <strong>cytotoxische T-lymfocyt brengt een besmette lichaamscel tot afsterven</strong>, want een virus binnen een cel kan je niet met antistoffen bereiken."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>B-lymfocyten maken antistoffen die op één bepaald antigeen passen</strong>, als een sleutel op één slot. Die <strong>antistoffen binden op het antigeen</strong> van de ziekteverwekker, <strong>klitten ziekteverwekkers samen</strong> en <strong>maken hem herkenbaar voor fagocyten</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>secundaire immuunrespons verloopt sneller en sterker dan de primaire</strong>, en dat komt door het <strong>afweergeheugen</strong>, dat berust <strong>op B- en T-geheugenlymfocyten die jaren blijven leven</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Immunisatie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Immunisatie</strong> is het <strong>verwerven van bescherming tegen een bepaalde ziekteverwekker</strong>. Men deelt ze in twee richtingen in: actief of passief, natuurlijk of kunstmatig."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Natuurlijk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kunstmatig</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Actief: je maakt zelf antistoffen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je maakt de mazelen door en bent daarna beschermd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vaccinatie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Passief: je krijgt antistoffen van elders</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">antistoffen die een baby via de borstvoeding krijgt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">serumtherapie met kant-en-klare antistoffen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Voor <strong>actieve immunisatie</strong> geldt: <strong>het lichaam maakt zelf antistoffen aan</strong>, <strong>er ontstaat een afweergeheugen</strong> en <strong>de bescherming houdt lang aan</strong>. <strong>Passieve immunisatie bouwt geen afweergeheugen op dat jaren meegaat</strong>: de geleende antistoffen zijn na enkele weken afgebroken, en dan ben je weer even kwetsbaar als voordien. Daarom is serumtherapie een noodoplossing en geen vaccin."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Vaccinatie</strong> is het <strong>kunstmatig toedienen van een verzwakte of onschadelijk gemaakte ziekteverwekker om het afweergeheugen op te bouwen</strong>. Een <strong>vaccinatiecampagne beschermt ook mensen die zelf niet gevaccineerd zijn, omdat de ziekteverwekker veel minder kans krijgt om zich te verspreiden</strong>: hij komt te weinig geschikte gastheren tegen om een ketting te vormen."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Antibiotica werken niet even goed tegen virussen als tegen bacteriën.</strong> Ze grijpen in op dingen die alleen een bacterie heeft, zoals haar celwand. Een virus heeft die niet, dus helpt een antibioticum bij griep of een verkoudheid niets."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}
