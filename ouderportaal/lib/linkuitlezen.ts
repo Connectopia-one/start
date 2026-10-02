@@ -176,10 +176,14 @@ function kort(tekst: string | null, maximum: number): string | null {
   const schoon = tekst.replace(/\s+/g, " ").trim();
   if (!schoon) return null;
   if (schoon.length <= maximum) return schoon;
-  /* Liever afbreken op een spatie dan middenin een woord. */
-  const stuk = schoon.slice(0, maximum);
+  /*
+    Liever afbreken op een spatie dan middenin een woord. Het teken … telt
+    mee in de lengte: anders komt er 121 tekens uit waar 120 mag, en dan
+    weigert de databank de hele rij.
+  */
+  const stuk = schoon.slice(0, maximum - 1);
   const spatie = stuk.lastIndexOf(" ");
-  return (spatie > maximum - 25 ? stuk.slice(0, spatie) : stuk) + "…";
+  return (spatie > maximum - 26 ? stuk.slice(0, spatie) : stuk) + "…";
 }
 
 const OEMBED: Partial<Record<Kanaal, (link: string) => string>> = {

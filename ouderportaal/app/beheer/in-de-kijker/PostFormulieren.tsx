@@ -40,14 +40,21 @@ const KANALEN = [
 const veld =
   "w-full rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest";
 
+/*
+  Hier mag wél gegooid worden: deze fout ontstaat in de browser, dus de
+  melding blijft gewoon leesbaar. Gooit een server action, dan vervangt Next
+  de melding door een nummer, en daar heeft niemand iets aan.
+*/
 async function laadBeeldOp(bestand: File) {
-  const { pad, token } = await maakBeeldUploadUrl(bestand.name);
+  const plek = await maakBeeldUploadUrl(bestand.name);
+  if (!plek.gelukt) throw new Error(plek.bericht);
+
   const supabase = createClient();
   const { error } = await supabase.storage
     .from(BAK)
-    .uploadToSignedUrl(pad, token, bestand);
+    .uploadToSignedUrl(plek.pad, plek.token, bestand);
   if (error) throw new Error(`Het beeld opladen mislukte: ${error.message}`);
-  return pad;
+  return plek.pad;
 }
 
 function eersteBestand(data: FormData, naam: string): File | null {
@@ -375,7 +382,12 @@ export function BeeldForm({
 
     try {
       const beeld = await laadBeeldOp(bestand);
-      await zetBeeld({ id, beeld });
+      const antwoord = await zetBeeld({ id, beeld });
+      if (!antwoord.gelukt) {
+        setBezig(false);
+        setFout(antwoord.bericht);
+        return;
+      }
       form.reset();
       setBezig(false);
       router.refresh();

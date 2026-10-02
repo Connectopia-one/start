@@ -51,13 +51,24 @@ export default async function InDeKijkerBeheer({
   const naam = session.profile?.full_name ?? session.email ?? "";
 
   const db = createAdminClient();
-  const { data } = await db
+  const { data, error } = await db
     .from("kijker_posts")
     .select(
       "id, titel, tekst, van, kanaal, link, beeld, eigen, zichtbaar, gezien, volledige_naam, contact, created_at",
     )
     .order("created_at", { ascending: false })
     .limit(200);
+
+  /*
+    Een leeslfout mag niet stil blijven. Zonder dit stond er "0 berichten" op
+    het scherm, ook als de tabel helemaal niet bestond, en dan valt er niets
+    aan te zien wat er misloopt.
+  */
+  const leesfout = error
+    ? /does not exist|could not find the table/i.test(error.message)
+      ? "De tabel voor In de kijker bestaat nog niet in deze Supabase. Draai website/supabase/social.sql in de SQL Editor en kijk na of er onderaan \"Success\" staat."
+      : `De berichten konden niet gelezen worden: ${error.message}`
+    : null;
 
   const posts = (data ?? []) as Post[];
   const nieuw = posts.filter((p) => !p.gezien).length;
@@ -92,6 +103,11 @@ export default async function InDeKijkerBeheer({
           anders instuurde, staat er pas op nadat jij het op de website zet.
         </p>
 
+        {leesfout && (
+          <p className="mt-4 rounded-md bg-danger/10 px-3 py-2 text-sm text-danger">
+            {leesfout}
+          </p>
+        )}
         {fout && (
           <p className="mt-4 rounded-md bg-danger/10 px-3 py-2 text-sm text-danger">
             {fout}

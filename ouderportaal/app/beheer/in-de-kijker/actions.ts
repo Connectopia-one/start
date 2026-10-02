@@ -37,16 +37,20 @@ async function admin() {
   het beeld niet door de server action heen, en loopt het niet tegen de
   limiet van ongeveer 4,5MB die Vercel op een gewoon verzoek zet.
 */
-export async function maakBeeldUploadUrl(bestandsnaam: string) {
+export async function maakBeeldUploadUrl(
+  bestandsnaam: string,
+): Promise<
+  { gelukt: true; pad: string; token: string } | { gelukt: false; bericht: string }
+> {
   const db = await admin();
   const veilig = bestandsnaam.replace(/[^a-zA-Z0-9.-]/g, "-").slice(-60);
   const pad = `${Date.now()}-${Math.random().toString(36).slice(2, 8)}-${veilig}`;
 
   const { data, error } = await db.storage.from(BAK).createSignedUploadUrl(pad);
   if (error || !data) {
-    throw new Error(error?.message || "Kon geen upload-link aanmaken.");
+    return { gelukt: false, bericht: uitleg(error ?? { message: "" }) };
   }
-  return { pad: data.path, token: data.token };
+  return { gelukt: true, pad: data.path, token: data.token };
 }
 
 /*
@@ -64,16 +68,39 @@ function mislukt(bericht: string): Antwoord {
 }
 
 /* De melding van de databank omzetten naar iets waar je iets aan hebt. */
-function uitleg(fout: { message: string; code?: string }): string {
+function uitleg(fout: { message?: string; code?: string }): string {
   const tekst = fout.message || "Er ging iets mis.";
-  const ontbreekt =
+
+  if (
     fout.code === "42P01" ||
     fout.code === "PGRST205" ||
-    /does not exist|could not find the table/i.test(tekst);
-  if (ontbreekt) {
-    return "De tabel voor In de kijker bestaat nog niet. Draai eerst website/supabase/social.sql in Supabase.";
+    /does not exist|could not find the table/i.test(tekst)
+  ) {
+    return "De tabel voor In de kijker bestaat nog niet. Draai website/supabase/social.sql in Supabase en kijk na of de melding onderaan \"Success\" zegt.";
+  }
+  if (/bucket not found/i.test(tekst)) {
+    return "De bak \"social\" voor de beelden bestaat nog niet. Die maakt website/supabase/social.sql aan.";
+  }
+  /* Een rij die te lang of te kort is. 23514 = check, 22001 = te lang. */
+  if (fout.code === "23514" || fout.code === "22001") {
+    return `De databank weigerde het bericht: ${tekst}`;
+  }
+  if (/permission denied|row-level security/i.test(tekst)) {
+    return `Geen rechten op de tabel: ${tekst}`;
   }
   return tekst;
+}
+
+/*
+  Een veld inkorten tot wat de databank toelaat.
+
+  De tabel heeft een lengtegrens per kolom. Wordt die overschreden, dan
+  weigert de hele rij, en dat is geen reden om een bericht niet te kunnen
+  bewaren: dan korten we het liever zelf in.
+*/
+function knip(tekst: string, maximum: number): string {
+  if (tekst.length <= maximum) return tekst;
+  return tekst.slice(0, maximum - 1).trimEnd() + "…";
 }
 
 /*
@@ -126,11 +153,15 @@ export async function bewaarNieuwePost(invoer: {
   const db = await admin();
 
   const link = schoonLink(invoer.link);
-  const tekst = invoer.tekst.trim();
-  const van = invoer.van.trim();
+  const tekst = knip(invoer.tekst.trim(), 600);
+  const van = knip(invoer.van.trim(), 80);
+  const titel = knip(invoer.titel?.trim() || "", 120) || null;
 
   if (!link.startsWith("https://")) {
     return mislukt("De link moet met https:// beginnen.");
+  }
+  if (link.length > 400) {
+    return mislukt("Deze link is te lang. Neem de korte deellink van het bericht.");
   }
   if (tekst.length < 2)
     return mislukt("Schrijf er even bij waar het over gaat.");
@@ -148,7 +179,7 @@ export async function bewaarNieuwePost(invoer: {
       : null);
 
   const { error } = await db.from("kijker_posts").insert({
-    titel: invoer.titel?.trim() || null,
+    titel,
     tekst,
     van,
     kanaal,
@@ -166,7 +197,10 @@ export async function bewaarNieuwePost(invoer: {
 }
 
 /* Een beeld bij een bericht dat er al staat, of een beeld vervangen. */
-export async function zetBeeld(invoer: { id: string; beeld: string }) {
+export async function zetBeeld(invoer: {
+  id: string;
+  beeld: string;
+}): Promise<Antwoord> {
   const db = await admin();
 
   const { data: oud } = await db
@@ -179,7 +213,7 @@ export async function zetBeeld(invoer: { id: string; beeld: string }) {
     .from("kijker_posts")
     .update({ beeld: invoer.beeld })
     .eq("id", invoer.id);
-  if (error) throw new Error(error.message);
+  if (error) return mislukt(uitleg(error));
 
   /* Het oude beeld mag weg, maar alleen als het echt in onze bak stond. */
   const vorige = (oud as { beeld: string | null } | null)?.beeld;
@@ -188,6 +222,7 @@ export async function zetBeeld(invoer: { id: string; beeld: string }) {
   }
 
   revalidatePath("/beheer/in-de-kijker");
+  return { gelukt: true as const };
 }
 
 export async function zetZichtbaar(formData: FormData) {
