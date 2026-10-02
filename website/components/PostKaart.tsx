@@ -1,3 +1,4 @@
+import { KanaalMerk } from "@/components/KanaalMerk";
 import { NaarLink } from "@/components/ui";
 import { datumInWoorden } from "@/lib/datum";
 import { inkijker, kanalen } from "@/content/inkijker";
@@ -24,7 +25,8 @@ export function PostKaart({
   /* Waar het beeld staat. Zonder beeld blijft dit leeg. */
   beeld?: Beeld | null;
 }) {
-  const naam = kanalen[post.kanaal as Kanaal] ?? kanalen.anders;
+  const kanaal = (post.kanaal in kanalen ? post.kanaal : "anders") as Kanaal;
+  const naam = kanalen[kanaal];
   const eigen = post.eigen === true;
   const rand = eigen ? "border-green/35" : "border-purple/35";
   const pil = eigen ? "bg-sage-soft text-green" : "bg-purple-soft text-purple";
@@ -40,7 +42,14 @@ export function PostKaart({
           alt={beeld.beschrijving}
           className="aspect-[4/3] w-full max-w-full object-cover"
         />
-      ) : null}
+      ) : (
+        /*
+          Zonder beeld krijgt het kaartje het teken van het kanaal, groot.
+          Facebook en Instagram geven het beeld van een bericht niet vrij, en
+          een kaartje met enkel tekst oogde leeg.
+        */
+        <KanaalMerk kanaal={kanaal} naam={naam} />
+      )}
 
       <div className="flex flex-1 flex-col gap-2 p-5">
         <div className="flex flex-wrap items-center gap-2">

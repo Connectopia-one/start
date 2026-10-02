@@ -4,6 +4,8 @@ import { redirect } from "next/navigation";
 import { revalidatePath } from "next/cache";
 import { requireBeheerder } from "@/lib/auth";
 import { createAdminClient } from "@/lib/supabase/admin";
+import { leesLink, haalBeeldBinnen } from "@/lib/linkuitlezen";
+import type { Gevonden } from "@/lib/linkuitlezen";
 
 /*
   Het beheer van de pagina "In de kijker" op de website: de berichten van
@@ -47,6 +49,42 @@ export async function maakBeeldUploadUrl(bestandsnaam: string) {
   return { pad: data.path, token: data.token };
 }
 
+/*
+  De link uitlezen, zodat de velden eronder al ingevuld staan. Het beeld
+  halen we hier nog niet binnen: wie de link intypt en zich dan bedenkt, mag
+  geen beeld achterlaten in onze bak. We geven het adres terug om te laten
+  zien, en halen het pas echt binnen bij het bewaren.
+*/
+export async function haalLinkGegevens(link: string): Promise<Gevonden> {
+  await requireBeheerder();
+  return leesLink(link);
+}
+
+/*
+  Het voorbeeldbeeld van een link bij ons opslaan. Zo doet de bezoeker van de
+  website nooit een verzoek naar TikTok of YouTube, en blijft het beeld staan
+  als hun eigen adres verloopt.
+*/
+async function beeldVanLinkBewaren(
+  db: Awaited<ReturnType<typeof admin>>,
+  adres: string,
+): Promise<string | null> {
+  try {
+    const beeld = await haalBeeldBinnen(adres);
+    if (!beeld) return null;
+
+    const pad = `${Date.now()}-${Math.random().toString(36).slice(2, 8)}-link.${beeld.extensie}`;
+    const { error } = await db.storage
+      .from(BAK)
+      .upload(pad, beeld.bytes, { contentType: beeld.soort });
+    if (error) return null;
+    return pad;
+  } catch {
+    /* Geen beeld is geen reden om het bericht niet te bewaren. */
+    return null;
+  }
+}
+
 export async function bewaarNieuwePost(invoer: {
   titel: string | null;
   tekst: string;
@@ -55,6 +93,8 @@ export async function bewaarNieuwePost(invoer: {
   link: string;
   eigen: boolean;
   beeld: string | null;
+  /* Het beeld dat we bij de link vonden, als er zelf niets opgeladen werd. */
+  beeldVanLink?: string | null;
 }) {
   const db = await admin();
 
@@ -73,13 +113,20 @@ export async function bewaarNieuwePost(invoer: {
     ? invoer.kanaal
     : "anders";
 
+  /* Zelf opgeladen gaat voor op wat we bij de link vonden. */
+  const beeld =
+    invoer.beeld ??
+    (invoer.beeldVanLink
+      ? await beeldVanLinkBewaren(db, invoer.beeldVanLink)
+      : null);
+
   const { error } = await db.from("kijker_posts").insert({
     titel: invoer.titel?.trim() || null,
     tekst,
     van,
     kanaal,
     link,
-    beeld: invoer.beeld,
+    beeld,
     eigen: invoer.eigen,
     /* Wat jij zelf toevoegt, staat meteen op de site. */
     zichtbaar: true,

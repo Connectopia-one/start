@@ -1,16 +1,29 @@
 "use client";
 
-import { useState, type FormEvent } from "react";
+import { useRef, useState, type FormEvent } from "react";
 import { useRouter } from "next/navigation";
 import { createClient } from "@/lib/supabase/client";
-import { bewaarNieuwePost, maakBeeldUploadUrl, zetBeeld } from "./actions";
+import {
+  bewaarNieuwePost,
+  haalLinkGegevens,
+  maakBeeldUploadUrl,
+  zetBeeld,
+} from "./actions";
 
 /*
   De twee formulieren van "In de kijker".
 
-  Het beeld gaat rechtstreeks naar Supabase Storage, niet door een server
-  action heen: zo blijft het buiten de limiet van ongeveer 4,5MB die Vercel
-  op een gewoon verzoek zet. Dezelfde aanpak als bij de foto's van een klasje.
+  Bij een nieuw bericht plak je alleen de link. Wij proberen dan zelf het
+  kanaal, wie het postte, de titel, een stukje tekst en het beeld op te halen,
+  zodat jij enkel nog nakijkt. Lukt dat niet, dan vul je het zelf aan; dat is
+  geen fout, want Facebook en Instagram geven dit niet vrij.
+
+  Wat jij zelf in een veld typt, overschrijven we nooit.
+
+  Het beeld dat je zelf oplaadt gaat rechtstreeks naar Supabase Storage, niet
+  door een server action heen: zo blijft het buiten de limiet van ongeveer
+  4,5MB die Vercel op een gewoon verzoek zet. Dezelfde aanpak als bij de
+  foto's van een klasje.
 */
 
 const BAK = "social";
@@ -47,6 +60,67 @@ export function NieuwePostForm() {
   const [bezig, setBezig] = useState(false);
   const [fout, setFout] = useState<string | null>(null);
 
+  /* De velden houden we zelf bij, zodat het ophalen ze kan invullen. */
+  const [link, setLink] = useState("");
+  const [tekst, setTekst] = useState("");
+  const [van, setVan] = useState("Connectopia");
+  const [kanaal, setKanaal] = useState("facebook");
+  const [titel, setTitel] = useState("");
+
+  /* Wat Kim met de hand aanpaste, laten we staan. */
+  const metDeHand = useRef<Set<string>>(new Set());
+
+  const [ophalen, setOphalen] = useState(false);
+  const [gelezen, setGelezen] = useState<string | null>(null);
+  /* Het beeld dat we bij de link vonden. Pas bij bewaren halen we het binnen. */
+  const [beeldVanLink, setBeeldVanLink] = useState<string | null>(null);
+  const [laatstGelezen, setLaatstGelezen] = useState("");
+
+  function zetVeld(
+    naam: string,
+    waarde: string | null,
+    huidig: string,
+    zet: (w: string) => void,
+  ) {
+    if (!waarde) return;
+    if (metDeHand.current.has(naam) && huidig.trim()) return;
+    zet(waarde);
+  }
+
+  async function leesDeLink(adres: string) {
+    const schoon = adres.trim();
+    if (!schoon || schoon === laatstGelezen) return;
+
+    setOphalen(true);
+    setGelezen(null);
+    setLaatstGelezen(schoon);
+    try {
+      const gevonden = await haalLinkGegevens(schoon);
+      setKanaal(gevonden.kanaal);
+      zetVeld("van", gevonden.van, van, setVan);
+      zetVeld("titel", gevonden.titel, titel, setTitel);
+      zetVeld("tekst", gevonden.tekst, tekst, setTekst);
+      setBeeldVanLink(gevonden.beeldUrl);
+      setGelezen(gevonden.bericht);
+    } catch {
+      setGelezen("Het ophalen lukte niet. Vul het zelf even aan.");
+    } finally {
+      setOphalen(false);
+    }
+  }
+
+  function leeg() {
+    setLink("");
+    setTekst("");
+    setVan("Connectopia");
+    setKanaal("facebook");
+    setTitel("");
+    setBeeldVanLink(null);
+    setGelezen(null);
+    setLaatstGelezen("");
+    metDeHand.current = new Set();
+  }
+
   async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     setBezig(true);
@@ -60,16 +134,19 @@ export function NieuwePostForm() {
       const beeld = bestand ? await laadBeeldOp(bestand) : null;
 
       await bewaarNieuwePost({
-        titel: String(data.get("titel") || "") || null,
-        tekst: String(data.get("tekst") || ""),
-        van: String(data.get("van") || ""),
-        kanaal: String(data.get("kanaal") || "anders"),
-        link: String(data.get("link") || ""),
+        titel: titel || null,
+        tekst,
+        van,
+        kanaal,
+        link,
         eigen: data.get("eigen") === "ja",
         beeld,
+        /* Zelf opgeladen gaat voor; anders nemen we het beeld van de link. */
+        beeldVanLink: beeld ? null : beeldVanLink,
       });
 
       form.reset();
+      leeg();
       setBezig(false);
       router.refresh();
     } catch (err) {
@@ -86,29 +163,62 @@ export function NieuwePostForm() {
         </p>
       )}
 
-      <div className="space-y-1.5">
-        <label htmlFor="link" className="text-sm font-medium text-ink">
-          De link naar het bericht
+      {/* De link staat apart in een kader: het is het enige dat echt moet. */}
+      <div className="space-y-2 rounded-lg border-2 border-forest bg-forest/5 p-4">
+        <label htmlFor="link" className="block text-sm font-medium text-ink">
+          Plak hier de link van het bericht
         </label>
-        <input
-          id="link"
-          name="link"
-          type="url"
-          required
-          placeholder="https://www.facebook.com/..."
-          className={veld}
-        />
+        <div className="flex flex-wrap items-center gap-2">
+          <input
+            id="link"
+            name="link"
+            type="url"
+            required
+            value={link}
+            onChange={(e) => setLink(e.target.value)}
+            onBlur={(e) => void leesDeLink(e.target.value)}
+            placeholder="https://www.facebook.com/..."
+            spellCheck={false}
+            autoCorrect="off"
+            autoCapitalize="off"
+            autoComplete="off"
+            className={`${veld} min-w-0 flex-1`}
+          />
+          <button
+            type="button"
+            onClick={() => {
+              setLaatstGelezen("");
+              void leesDeLink(link);
+            }}
+            disabled={ophalen || !link.trim()}
+            className="rounded-md bg-forest px-4 py-2 text-sm font-medium text-white hover:bg-forest-dark disabled:opacity-60"
+          >
+            {ophalen ? "Bezig…" : "Ophalen"}
+          </button>
+        </div>
         <p className="text-xs text-ink-dim">
-          Het volledige adres van het bericht zelf, zoals het in je adresbalk
-          staat als je het bericht opent.
+          Van Facebook, Instagram, TikTok, YouTube, LinkedIn of een gewone
+          website. Het volledige adres, dus beginnend met https://
         </p>
+        {gelezen && <p className="text-sm font-medium text-forest">{gelezen}</p>}
       </div>
 
       <div className="space-y-1.5">
         <label htmlFor="tekst" className="text-sm font-medium text-ink">
           Wat er op het kaartje komt
         </label>
-        <textarea id="tekst" name="tekst" rows={3} required className={veld} />
+        <textarea
+          id="tekst"
+          name="tekst"
+          rows={3}
+          required
+          value={tekst}
+          onChange={(e) => {
+            metDeHand.current.add("tekst");
+            setTekst(e.target.value);
+          }}
+          className={veld}
+        />
       </div>
 
       <div className="grid gap-4 sm:grid-cols-2">
@@ -120,7 +230,11 @@ export function NieuwePostForm() {
             id="van"
             name="van"
             required
-            defaultValue="Connectopia"
+            value={van}
+            onChange={(e) => {
+              metDeHand.current.add("van");
+              setVan(e.target.value);
+            }}
             className={veld}
           />
         </div>
@@ -131,7 +245,8 @@ export function NieuwePostForm() {
           <select
             id="kanaal"
             name="kanaal"
-            defaultValue="facebook"
+            value={kanaal}
+            onChange={(e) => setKanaal(e.target.value)}
             className={veld}
           >
             {KANALEN.map(([sleutel, naam]) => (
@@ -147,12 +262,50 @@ export function NieuwePostForm() {
         <label htmlFor="titel" className="text-sm font-medium text-ink">
           Kop boven het kaartje (mag leeg blijven)
         </label>
-        <input id="titel" name="titel" className={veld} />
+        <input
+          id="titel"
+          name="titel"
+          value={titel}
+          onChange={(e) => {
+            metDeHand.current.add("titel");
+            setTitel(e.target.value);
+          }}
+          className={veld}
+        />
       </div>
+
+      {beeldVanLink && (
+        <div className="flex flex-wrap items-center gap-3 rounded-lg border border-border bg-paper p-3">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={beeldVanLink}
+            alt="Het beeld dat bij deze link hoort"
+            className="h-16 w-24 rounded-md object-cover"
+          />
+          <div className="min-w-0 flex-1 space-y-1">
+            <p className="text-sm font-medium text-ink">
+              Dit beeld vonden we bij de link.
+            </p>
+            <p className="text-xs text-ink-dim">
+              Bij bewaren komt het op onze eigen server te staan, niet bij het
+              kanaal zelf.
+            </p>
+          </div>
+          <button
+            type="button"
+            onClick={() => setBeeldVanLink(null)}
+            className="rounded-md border border-border px-3 py-1.5 text-sm text-ink-dim hover:border-forest hover:text-forest-dark"
+          >
+            Niet gebruiken
+          </button>
+        </div>
+      )}
 
       <div className="space-y-1.5">
         <label htmlFor="beeld" className="text-sm font-medium text-ink">
-          Een beeld erbij (mag leeg blijven)
+          {beeldVanLink
+            ? "Of laad zelf een ander beeld op"
+            : "Een beeld erbij (mag leeg blijven)"}
         </label>
         <input
           id="beeld"
@@ -162,8 +315,8 @@ export function NieuwePostForm() {
           className="w-full text-sm"
         />
         <p className="text-xs text-ink-dim">
-          Een schermafbeelding van het bericht of de foto die je erbij postte.
-          Zonder beeld is het kaartje gewoon tekst.
+          Wat jij hier kiest, gaat voor op het beeld van de link. Zonder beeld
+          is het kaartje gewoon tekst, met het teken van het kanaal erop.
         </p>
       </div>
 
