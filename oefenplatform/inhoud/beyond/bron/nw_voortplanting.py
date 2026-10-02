@@ -1,0 +1,357 @@
+# -*- coding: utf-8 -*-
+"""🌍 Beyond — Voortplanting, zwangerschap en vruchtbaarheid.
+
+Biologie, de koppen "Voortplanting bij de mens", "Ontwikkeling van embryo en
+foetus" en "Vruchtbaarheid" uit de vakfiche natuurwetenschappen 3DO. Deel 1
+gaat over de bevruchting en de ontwikkeling van de vrucht, deel 2 over de
+geboorte, de placenta, gezondheidsgedrag en het regelen van de vruchtbaarheid.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Waar in het vrouwelijk voortplantingsstelsel gebeurt de bevruchting normaal?",
+        opties=["in de eileider", "in de baarmoederholte", "in de vagina", "in de eierstok"],
+        antwoord=0,
+        uitleg="De zaadcel ontmoet de eicel in het bovenste deel van de eileider. Pas daarna reist de bevruchte eicel naar de baarmoeder.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Op welk moment van de menstruele cyclus kan een eicel bevrucht worden?",
+        opties=[
+            "rond de eisprong, ongeveer in het midden van de cyclus",
+            "enkel tijdens de eerste dag van de menstruatie",
+            "enkel in de laatste dagen voor de menstruatie",
+            "op elk willekeurig moment van de hele cyclus",
+        ],
+        antwoord=0,
+        uitleg="De eicel leeft na de eisprong maar ongeveer een dag. Zaadcellen overleven enkele dagen, dus het vruchtbare venster ligt rond die eisprong.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke barrières moet een zaadcel overwinnen op weg naar de eicel? Kruis alles aan wat juist is.",
+        opties=[
+            "het zure milieu van de vagina",
+            "het slijm van de baarmoederhals",
+            "de corona radiata rond de eicel",
+            "de placentabarrière van de moederkoek",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="De zaadcel moet door het zure vaginale milieu, door het baarmoederhalsslijm en door de cellaag en de glashuid rond de eicel. De placenta bestaat op dat ogenblik nog niet.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe heet het blaasje vooraan op de kop van een zaadcel dat enzymen bevat om door de eihulzen te dringen?",
+        antwoord="acrosoom",
+        uitleg="Bij de acrosoomreactie komen de enzymen uit het acrosoom vrij. Die maken een doorgang door de corona radiata en de zona pellucida.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is de functie van de corticale reactie vlak na het binnendringen van één zaadcel?",
+        opties=[
+            "beletten dat er nog een tweede zaadcel binnendringt",
+            "de eicel meteen naar de eierstok terugbrengen",
+            "de zaadcel van zijn staart en kop ontdoen",
+            "de baarmoederwand volledig laten afbreken",
+        ],
+        antwoord=0,
+        uitleg="De corticale granulen storten hun inhoud uit, waardoor de glashuid tot bevruchtingsmembraan hardt. Zo blijft de bevruchting bij één zaadcel.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noemt men het samensmelten van de kern van de zaadcel met die van de eicel?",
+        antwoord="amfimixie",
+        uitleg="Bij de amfimixie versmelten de twee haploïde kernen tot één diploïde kern. De cel die zo ontstaat heet de zygote.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De zygote is diploïd en bevat erfelijk materiaal van beide ouders.",
+        antwoord=True,
+        uitleg="Elke ouder levert via zijn geslachtscel één set chromosomen. Samen vormen ze de 46 chromosomen van de zygote.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe heten de eerste delingen van de zygote, waarbij de cellen wel talrijker maar niet groter worden?",
+        opties=["klievingsdelingen", "ontsluitingsdelingen", "innestelingsdelingen", "organogenesedelingen"],
+        antwoord=0,
+        uitleg="Bij de klievingsdelingen wordt het beschikbare cytoplasma telkens verder opgedeeld. De cellen die ontstaan heten blastomeren.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke volgorde klopt bij de eerste dagen van de ontwikkeling?",
+        opties=[
+            "zygote, morula, blastula, innesteling",
+            "zygote, blastula, morula, innesteling",
+            "morula, zygote, innesteling, blastula",
+            "blastula, morula, zygote, innesteling",
+        ],
+        antwoord=0,
+        uitleg="Na de klievingsdelingen ontstaat eerst het celklompje of de morula, daarna de holle blastula. Pas die nestelt zich in de baarmoederwand in.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De innesteling gebeurt in de wand van de baarmoeder.",
+        antwoord=True,
+        uitleg="Ongeveer een week na de bevruchting dringt de blastula in het opgebouwde baarmoederslijmvlies. Daar begint de uitwisseling met de moeder.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke twee delen onderscheidt men in de blastula?",
+        opties=[
+            "de embryoblast of kiemknop en de trofoblast",
+            "de corona radiata en de zona pellucida",
+            "het geel lichaam en het bevruchtingsmembraan",
+            "de navelstrengslagader en de navelstrengader",
+        ],
+        antwoord=0,
+        uitleg="Uit de embryoblast groeit het kind zelf, uit de trofoblast de vliezen en het foetale deel van de placenta.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Welk hormoon maakt de trofoblast aan, waardoor een zwangerschapstest positief wordt?",
+        antwoord="hCG",
+        uitleg="Humaan choriongonadotrofine houdt het geel lichaam in stand, zodat de productie van progesteron doorloopt en het baarmoederslijmvlies behouden blijft.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Het geel lichaam ontstaat in de eierstok uit de resten van het gesprongen follikel.",
+        antwoord=True,
+        uitleg="Het geel lichaam of corpus luteum scheidt progesteron af. Zonder zwangerschap verdwijnt het en volgt de menstruatie.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat kenmerkt de embryonale fase? Kruis alles aan wat juist is.",
+        opties=[
+            "de kiembladen worden aangelegd",
+            "de organen worden voor het eerst gevormd",
+            "de vrucht is dan het gevoeligst voor schadelijke stoffen",
+            "de vrucht is dan al levensvatbaar buiten de baarmoeder",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="In de eerste acht weken worden alle organen uit de kiembladen aangelegd. Daarom is de vrucht in die periode het kwetsbaarst. Levensvatbaar is ze pas veel later.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noemt men het proces waarbij stamcellen zich tot gespecialiseerde celtypes ontwikkelen?",
+        antwoord="differentiatie",
+        uitleg="Alle cellen hebben hetzelfde DNA, maar er worden telkens andere genen afgelezen. Zo ontstaan spiercellen, zenuwcellen en alle andere types.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Tijdens de foetale fase worden alle organen voor het eerst aangelegd.",
+        antwoord=False,
+        uitleg="Dat gebeurt in de embryonale fase. In de foetale fase groeien en rijpen de aangelegde organen verder.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Vanaf ongeveer welk moment beschouwt men een foetus als levensvatbaar?",
+        opties=["vanaf ongeveer 24 weken zwangerschap", "vanaf ongeveer 8 weken zwangerschap", "vanaf ongeveer 12 weken zwangerschap", "vanaf ongeveer 38 weken zwangerschap"],
+        antwoord=0,
+        uitleg="Rond 24 weken zijn de longen ver genoeg ontwikkeld om met zware medische hulp te overleven. Volgroeid is een foetus pas rond 38 à 40 weken.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is de functie van het vruchtwater? Kruis alles aan wat juist is.",
+        opties=[
+            "het vangt schokken op",
+            "het houdt de temperatuur gelijk",
+            "het laat de vrucht vrij bewegen",
+            "het voert de zuurstof rechtstreeks aan",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Vruchtwater beschermt, isoleert en geeft bewegingsruimte. De zuurstof komt via de placenta en de navelstreng, niet via het vruchtwater.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe noemt men de aanleg van de organen uit de kiemschijf?",
+        opties=["organogenese", "fagocytose", "differentiatie", "innesteling"],
+        antwoord=0,
+        uitleg="Organogenese is het ontstaan van de organen. Ze gebeurt in de embryonale fase en bouwt voort op de differentiatie van de cellen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De geslachtsorganen van de vrucht zijn al vanaf de bevruchting volledig gevormd.",
+        antwoord=False,
+        uitleg="Het geslacht ligt wel genetisch vast bij de bevruchting, maar de geslachtsorganen worden pas in de loop van de zwangerschap zichtbaar gevormd.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="Welke taken vervult de placenta? Kruis alles aan wat juist is.",
+        opties=[
+            "zuurstof en voedingsstoffen doorgeven",
+            "afvalstoffen van de vrucht afvoeren",
+            "hormonen aanmaken die de zwangerschap in stand houden",
+            "het bloed van moeder en kind laten mengen",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="De placenta is uitwisselingsorgaan én hormoonklier. Het bloed van moeder en kind komt daarbij nooit rechtstreeks met elkaar in contact.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Het bloed van de moeder en dat van de vrucht mengen zich in de placenta met elkaar.",
+        antwoord=False,
+        uitleg="De twee bloedsomlopen blijven gescheiden. De stoffen gaan door de dunne wand tussen de bloedruimtes van het moederlijke en het foetale deel.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat vervoeren de navelstrengslagaders?",
+        opties=[
+            "zuurstofarm bloed van de vrucht naar de placenta",
+            "zuurstofrijk bloed van de placenta naar de vrucht",
+            "vruchtwater van de vrucht naar de baarmoeder",
+            "antistoffen van de vrucht naar de moeder",
+        ],
+        antwoord=0,
+        uitleg="Bij de navelstreng is het omgekeerd aan wat je zou denken: de slagaders voeren het zuurstofarme bloed weg van de vrucht, de ader brengt zuurstofrijk bloed aan.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noemt men de eigenschap van de placenta dat ze sommige stoffen wel en andere niet doorlaat?",
+        antwoord="selectieve placentabarrière",
+        uitleg="De barrière houdt veel ziekteverwekkers en grote moleculen tegen, maar alcohol, nicotine en heel wat medicijnen gaan er wel door.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke volgorde klopt bij de fasen van de geboorte?",
+        opties=[
+            "indaling, ontsluiting, uitdrijving, nageboorte",
+            "ontsluiting, indaling, nageboorte, uitdrijving",
+            "uitdrijving, ontsluiting, indaling, nageboorte",
+            "nageboorte, indaling, ontsluiting, uitdrijving",
+        ],
+        antwoord=0,
+        uitleg="Het kind daalt in, de baarmoederhals gaat open, het kind wordt uitgedreven en daarna komt de placenta met de vliezen naar buiten.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat gebeurt er tijdens de ontsluiting?",
+        opties=[
+            "de baarmoederhals verstrijkt en gaat open",
+            "de placenta laat los van de baarmoederwand",
+            "het kind wordt door de persweeën naar buiten geduwd",
+            "het hoofdje zakt dieper in het bekken van de moeder",
+        ],
+        antwoord=0,
+        uitleg="Door de weeën wordt de baarmoederhals korter en wijder tot ongeveer tien centimeter. Pas dan kan het kind er doorheen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De nageboorte is het naar buiten komen van de placenta en de vliezen.",
+        antwoord=True,
+        uitleg="Na de geboorte van het kind laat de placenta los en wordt ze door naweeën uitgedreven. Dat is de vierde en laatste fase.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke gewoontes van de moeder kunnen de ontwikkeling van de vrucht schaden? Kruis alles aan wat juist is.",
+        opties=["alcohol drinken", "roken", "medicijnen zonder advies innemen", "foliumzuur innemen"],
+        antwoord=[0, 1, 2],
+        uitleg="Alcohol, nicotine en sommige geneesmiddelen gaan door de placenta. Foliumzuur wordt juist aangeraden, want het beperkt het risico op een open ruggetje.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noemt men een stof die bij een ongeboren kind afwijkingen kan veroorzaken?",
+        antwoord="teratogeen",
+        uitleg="Teratogene stoffen grijpen in op de aanleg van de organen. Ze zijn het gevaarlijkst in de embryonale fase, als alles gevormd wordt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom raadt men een zwangere vrouw aan geen rauw vlees te eten en geen kattenbak te verschonen?",
+        opties=[
+            "wegens het risico op besmetting met de toxoplasmoseparasiet",
+            "wegens het risico op een tekort aan ijzer in het bloed",
+            "wegens het risico op een te snelle groei van de vrucht",
+            "wegens het risico op een te hoge inname van foliumzuur",
+        ],
+        antwoord=0,
+        uitleg="Toxoplasmose verloopt bij de moeder vaak onopgemerkt, maar kan bij de vrucht ernstige schade aan hersenen en ogen veroorzaken.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een besmetting met het rubellavirus tijdens de zwangerschap kan afwijkingen bij de vrucht veroorzaken.",
+        antwoord=True,
+        uitleg="Rodehond in de eerste maanden kan doofheid, oogafwijkingen en hartafwijkingen geven. Vaccinatie vóór een zwangerschap beschermt daartegen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het foetaal alcoholsyndroom?",
+        opties=[
+            "blijvende schade bij een kind door alcoholgebruik tijdens de zwangerschap",
+            "een tijdelijke reactie van de moeder op alcohol na de bevalling",
+            "een allergie van de vrucht voor de suikers in alcoholische dranken",
+            "een tekort aan foliumzuur bij een moeder die veel sport",
+        ],
+        antwoord=0,
+        uitleg="Alcohol passeert de placenta ongehinderd. Het kan groeiachterstand, kenmerkende gelaatstrekken en blijvende leerproblemen geven. Er is geen veilige hoeveelheid.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke anticonceptiemethode is hormonaal?",
+        opties=["de combinatiepil", "het koperspiraal", "het pessarium", "de temperatuurmethode"],
+        antwoord=0,
+        uitleg="De combinatiepil bevat oestrogeen en progestageen en onderdrukt de eisprong. Koperspiraal, pessarium en temperatuurmethode werken zonder hormonen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke methoden beschermen ook tegen seksueel overdraagbare aandoeningen?",
+        opties=[
+            "het mannencondoom en het vrouwencondoom",
+            "de combinatiepil en de minipil",
+            "het hormoonspiraal en het koperspiraal",
+            "de kalendermethode en de ovulatiemethode",
+        ],
+        antwoord=0,
+        uitleg="Alleen een condoom vormt een echte barrière tussen de slijmvliezen. Alle andere methoden regelen enkel de vruchtbaarheid.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De kalendermethode en de temperatuurmethode zijn natuurlijke methoden zonder hormonen.",
+        antwoord=True,
+        uitleg="Bij beide schat je wanneer de vruchtbare dagen vallen. Ze zijn minder betrouwbaar omdat een cyclus kan schommelen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat gebeurt er bij in-vitrofertilisatie?",
+        opties=[
+            "de bevruchting gebeurt buiten het lichaam in het laboratorium",
+            "er wordt zaad in de baarmoeder van de vrouw ingebracht",
+            "er wordt één zaadcel rechtstreeks in de eicel gespoten",
+            "er wordt een eicel van een donor ingevroren bewaard",
+        ],
+        antwoord=0,
+        uitleg="Bij IVF worden eicellen en zaadcellen in een schaaltje samengebracht. Een embryo dat zich ontwikkelt, wordt daarna in de baarmoeder geplaatst.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarin verschilt ICSI van gewone in-vitrofertilisatie?",
+        opties=[
+            "er wordt één zaadcel rechtstreeks in de eicel ingebracht",
+            "er wordt geen enkele eicel uit de eierstok gehaald",
+            "de bevruchting gebeurt volledig in de eileider zelf",
+            "er wordt uitsluitend met een donoreicel gewerkt",
+        ],
+        antwoord=0,
+        uitleg="Bij intracytoplasmatische sperma-injectie wordt de zaadcel met een naald in de eicel gebracht. Dat helpt als het zaad weinig beweeglijk is.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Bij kunstmatige inseminatie gebeurt de bevruchting buiten het lichaam, in een schaaltje.",
+        antwoord=False,
+        uitleg="Bij KI wordt zaad rechtstreeks in de baarmoeder gebracht en gebeurt de bevruchting gewoon in het lichaam. Buiten het lichaam bevruchten is IVF.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke factoren kunnen de vruchtbaarheid van man of vrouw verminderen? Kruis alles aan wat juist is.",
+        opties=["roken", "zware stress over lange tijd", "overgewicht", "voldoende beweging"],
+        antwoord=[0, 1, 2],
+        uitleg="Roken, langdurige stress en overgewicht hebben bij beide partners een ongunstig effect. Regelmatig bewegen werkt juist gunstig.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noemt men de ingreep waarbij de zaadleiders of de eileiders blijvend worden afgesloten?",
+        antwoord="sterilisatie",
+        uitleg="Bij sterilisatie worden de leiders doorgeknipt of afgebonden. De ingreep is bedoeld als definitief en wordt daarom pas na goed overleg uitgevoerd.",
+    ),
+]

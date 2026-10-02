@@ -1,0 +1,363 @@
+# -*- coding: utf-8 -*-
+"""🌍 Beyond — DNA, replicatie en celdelingen.
+
+Biologie, de koppen "Structuur en replicatie van het genetisch materiaal" en
+"Celdelingen" uit de vakfiche natuurwetenschappen 3DO. Deel 1 gaat over de
+bouw van een nucleotide, de dubbele helix en de chromosomen, deel 2 over de
+replicatie en over mitose en meiose.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Uit welke drie delen bestaat een nucleotide? Kruis alles aan wat juist is.",
+        opties=["een suiker", "een fosfaatgroep", "een stikstofbase", "een histon"],
+        antwoord=[0, 1, 2],
+        uitleg="Elke bouwsteen van DNA bestaat uit desoxyribose, een fosfaatgroep en een van de vier stikstofbasen. Histonen zijn eiwitten waarrond DNA zich wikkelt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke suiker zit er in een DNA-nucleotide?",
+        opties=["desoxyribose", "ribose", "glucose", "cellulose"],
+        antwoord=0,
+        uitleg="DNA bevat desoxyribose, dat één zuurstofatoom minder heeft dan de ribose van RNA. Vandaar de namen desoxyribonucleïnezuur en ribonucleïnezuur.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Welke stikstofbase komt wel in RNA voor en niet in DNA?",
+        antwoord="uracil",
+        uitleg="In RNA staat uracil op de plaats waar DNA thymine heeft. De andere drie basen, adenine, cytosine en guanine, komen in allebei voor.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Met welke base vormt adenine in DNA een paar?",
+        opties=["thymine", "guanine", "cytosine", "uracil"],
+        antwoord=0,
+        uitleg="Adenine paart met thymine via twee waterstofbruggen, guanine met cytosine via drie. Die vaste koppeling heet complementariteit.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Tussen guanine en cytosine liggen drie waterstofbruggen.",
+        antwoord=True,
+        uitleg="Het paar G-C is daardoor steviger dan het paar A-T met twee bruggen. DNA met veel G en C smelt bij een hogere temperatuur.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een DNA-streng leest ATGC. Hoe luidt de complementaire streng?",
+        opties=["TACG", "ATGC", "CGTA", "UACG"],
+        antwoord=0,
+        uitleg="Elke base wordt vervangen door haar partner: A wordt T, T wordt A, G wordt C en C wordt G. Uracil komt in DNA niet voor.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat betekent het dat de twee strengen van DNA antiparallel liggen?",
+        opties=[
+            "de ene loopt van 5 naar 3 en de andere in de omgekeerde richting",
+            "de twee strengen liggen precies evenwijdig in dezelfde richting",
+            "de twee strengen draaien elk apart om hun eigen as rond",
+            "de ene streng bestaat uit DNA en de andere volledig uit RNA",
+        ],
+        antwoord=0,
+        uitleg="Het ene uiteinde van een streng heeft een vrije fosfaatgroep aan het vijfde koolstofatoom, het andere een vrije OH-groep aan het derde. Die uiteinden liggen tegenover elkaar.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De twee strengen van de dubbele helix worden door waterstofbruggen bij elkaar gehouden.",
+        antwoord=True,
+        uitleg="De suiker-fosfaatketens vormen de leuningen, de gepaarde basen de treden. Die treden hangen met waterstofbruggen aan elkaar.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noemt men de eiwitten waarrond het DNA opgerold zit in de celkern?",
+        antwoord="histonen",
+        uitleg="Acht histonen vormen samen met het DNA eromheen een nucleosoom. Zo past twee meter DNA in een kern van enkele micrometers.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe noemt men het losse mengsel van DNA en eiwitten in een kern die niet aan het delen is?",
+        opties=["chromatine", "chromosoom", "centromeer", "kinetochoor"],
+        antwoord=0,
+        uitleg="In de interfase ligt het erfelijk materiaal als chromatine uitgespreid, want zo kan het afgelezen worden. Pas bij de deling condenseert het tot chromosomen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Chromosomen zijn in elke fase van de celcyclus even goed zichtbaar onder de microscoop.",
+        antwoord=False,
+        uitleg="Je ziet ze pas duidelijk tijdens de deling, als het chromatine sterk opgerold of gecondenseerd is. In de interfase liggen ze als een losse kluwen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat klopt er over het centromeer? Kruis alles aan wat juist is.",
+        opties=[
+            "het is de insnoering van een chromosoom",
+            "het houdt de zusterchromatiden samen",
+            "er zit een kinetochoor op waaraan de trekdraden aangrijpen",
+            "het is het eiwit waarrond het DNA zich opwindt",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Het centromeer is de insnoering die de chromatiden samenhoudt en waar via de kinetochoor de trekdraden aangrijpen. De eiwitten waarrond DNA zich wikkelt zijn de histonen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat lees je af van een karyogram? Kruis alles aan wat juist is.",
+        opties=[
+            "het aantal chromosomen van een cel",
+            "het geslacht van de persoon",
+            "een afwijkend aantal chromosomen",
+            "de kleur van de ogen van de persoon",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Op een karyogram staan de chromosomen gerangschikt per paar. Je ziet het aantal, de geslachtschromosomen en afwijkingen, maar geen gewone kenmerken zoals oogkleur.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het verschil tussen een autosoom en een heterosoom?",
+        opties=[
+            "een autosoom is een lichaamschromosoom, een heterosoom bepaalt het geslacht",
+            "een autosoom komt enkel bij mannen voor en een heterosoom enkel bij vrouwen",
+            "een autosoom ligt in het cytoplasma en een heterosoom in de celkern",
+            "een autosoom bestaat uit RNA en een heterosoom volledig uit DNA",
+        ],
+        antwoord=0,
+        uitleg="De mens heeft 22 paar autosomen en één paar heterosomen: XX bij een vrouw en XY bij een man.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een menselijke lichaamscel is diploïd en bevat 46 chromosomen.",
+        antwoord=True,
+        uitleg="Diploïd wil zeggen dat elk chromosoom in twee exemplaren voorkomt: 23 paren, dus 46 in totaal. Geslachtscellen zijn haploïd met 23.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat zijn homologe chromosomen?",
+        opties=[
+            "twee chromosomen van hetzelfde paar, één van elke ouder",
+            "de twee identieke helften van één gedupliceerd chromosoom",
+            "twee chromosomen die het geslacht van een persoon bepalen",
+            "twee chromosomen die enkel in geslachtscellen voorkomen",
+        ],
+        antwoord=0,
+        uitleg="Homologe chromosomen dragen dezelfde genen op dezelfde plaatsen, maar niet noodzakelijk dezelfde varianten van die genen.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noemt men de twee identieke helften van een gedupliceerd chromosoom die aan het centromeer vastzitten?",
+        antwoord="zusterchromatiden",
+        uitleg="Na de S-fase bestaat elk chromosoom uit twee zusterchromatiden met precies dezelfde informatie. Bij de deling worden ze uit elkaar getrokken.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een gen kan bij de ene mens op het ene en bij de andere mens op een heel ander chromosoom liggen.",
+        antwoord=False,
+        uitleg="Elk gen heeft een vaste plaats, de locus, op een bepaald chromosoom. Wat kan verschillen is de variant van het gen, niet de plaats.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom kan een cel haar DNA niet voortdurend sterk opgerold houden?",
+        opties=[
+            "omdat de genen dan niet afgelezen kunnen worden",
+            "omdat het DNA dan niet meer in de kern zou passen",
+            "omdat de waterstofbruggen dan allemaal breken",
+            "omdat het DNA dan in RNA zou veranderen",
+        ],
+        antwoord=0,
+        uitleg="Een strak opgerold stuk DNA is onbereikbaar voor de enzymen. Alleen losser chromatine kan overgeschreven worden.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoeveel procent van de basen in een stuk DNA is cytosine als 30 procent adenine is?",
+        opties=["20 procent", "30 procent", "40 procent", "70 procent"],
+        antwoord=0,
+        uitleg="A paart met T, dus ook 30 procent thymine. Samen 60 procent, zodat G en C samen 40 procent zijn. Die twee zijn gelijk, dus elk 20 procent.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="In welke fase van de celcyclus wordt het DNA verdubbeld?",
+        opties=["in de S-fase", "in de G1-fase", "in de G2-fase", "in de M-fase"],
+        antwoord=0,
+        uitleg="De S staat voor synthese. Na die fase bestaat elk chromosoom uit twee zusterchromatiden.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is de G0-fase?",
+        opties=[
+            "een rusttoestand waarin een cel niet meer deelt",
+            "de fase waarin de chromatiden uit elkaar gaan",
+            "de fase waarin het cytoplasma zich splitst",
+            "de fase waarin het DNA verdubbeld wordt",
+        ],
+        antwoord=0,
+        uitleg="Cellen zoals zenuwcellen stappen na hun rijping uit de cyclus en blijven in G0. Ze werken wel, maar delen niet meer.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De interfase omvat de G1-, de S- en de G2-fase.",
+        antwoord=True,
+        uitleg="De interfase is alles tussen twee delingen door. De cel groeit, kopieert haar DNA en maakt zich klaar voor de deling.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Welk enzym wikkelt de dubbele helix open bij het begin van de replicatie?",
+        antwoord="helicase",
+        uitleg="Helicase verbreekt de waterstofbruggen tussen de basen, waardoor de replicatievork ontstaat. Topoisomerase haalt ondertussen de spanning uit de helix.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat klopt er over DNA-polymerase? Kruis alles aan wat juist is.",
+        opties=[
+            "het zet nieuwe nucleotiden tegen de oude streng aan",
+            "het leest de oude streng als sjabloon",
+            "het werkt altijd in de richting van 5 naar 3",
+            "het rolt zelf de dubbele helix open",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Polymerase bouwt de nieuwe streng op tegen de oude als sjabloon, en altijd in dezelfde richting. Openrollen is het werk van helicase.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarvoor dient de primer bij de replicatie?",
+        opties=[
+            "als startpunt waarop het polymerase verder kan bouwen",
+            "als slot dat de dubbele helix weer dichtklapt",
+            "als lijm die de twee dochterstrengen samenhoudt",
+            "als merkteken dat de celdeling stopzet",
+        ],
+        antwoord=0,
+        uitleg="DNA-polymerase kan niet uit het niets beginnen. Primase legt eerst een kort stukje RNA neer, en daarop zet het polymerase de eerste nucleotiden.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat geldt voor de lagging strand? Kruis alles aan wat juist is.",
+        opties=[
+            "ze wordt in stukjes opgebouwd",
+            "die stukjes heten Okazaki-fragmenten",
+            "ligase plakt de stukjes aan elkaar",
+            "ze wordt in één ononderbroken beweging gemaakt",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Omdat het polymerase maar in één richting werkt, kan de achterblijvende streng enkel in korte stukjes gemaakt worden. De leading strand loopt wel ononderbroken door.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Na de replicatie bestaat elke dubbele helix uit één oude en één nieuwe streng.",
+        antwoord=True,
+        uitleg="Dat heet semiconservatieve replicatie. De oude streng blijft bewaard als sjabloon en controlemiddel voor de nieuwe.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het belang van de mitose?",
+        opties=[
+            "groei en herstel met cellen die genetisch identiek zijn",
+            "het vormen van haploïde geslachtscellen met variatie",
+            "het halveren van het aantal chromosomen per cel",
+            "het mengen van het erfelijk materiaal van twee ouders",
+        ],
+        antwoord=0,
+        uitleg="Bij de mitose krijgen beide dochtercellen een volledige, identieke kopie. Zo groeit een organisme en vervangt het versleten cellen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke volgorde klopt bij de fasen van de mitose?",
+        opties=[
+            "profase, metafase, anafase, telofase",
+            "metafase, profase, telofase, anafase",
+            "anafase, telofase, profase, metafase",
+            "telofase, anafase, metafase, profase",
+        ],
+        antwoord=0,
+        uitleg="In de profase condenseren de chromosomen, in de metafase staan ze in het evenaarsvlak, in de anafase gaan de chromatiden uit elkaar en in de telofase ontstaan twee kernen.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noemt men het vlak in het midden van de cel waar de chromosomen tijdens de metafase gaan staan?",
+        antwoord="evenaarsvlak",
+        uitleg="In het evenaarsvlak hangen de chromosomen aan trekdraden van beide polen. Pas als ze alle vastzitten, begint de anafase.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat gebeurt er tijdens de anafase van de mitose?",
+        opties=[
+            "de zusterchromatiden worden naar de polen getrokken",
+            "de chromosomen gaan netjes in het evenaarsvlak staan",
+            "het kernmembraan verdwijnt en de spoelfiguur ontstaat",
+            "het cytoplasma wordt in twee gelijke delen gesplitst",
+        ],
+        antwoord=0,
+        uitleg="De trekdraden korten in en elke pool krijgt één chromatide van elk chromosoom. Daardoor zijn de twee dochtercellen genetisch gelijk.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De cytokinese is de deling van de kern, nog vóór het cytoplasma zich splitst.",
+        antwoord=False,
+        uitleg="De cytokinese is net de splitsing van het cytoplasma, ná de kerndeling. Bij dierlijke cellen snoert het membraan in, bij plantencellen groeit er een nieuwe celwand tussenin.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het resultaat van een volledige meiose uit één diploïde cel?",
+        opties=[
+            "vier haploïde cellen die genetisch van elkaar verschillen",
+            "twee diploïde cellen die genetisch volledig identiek zijn",
+            "twee haploïde cellen met precies dezelfde informatie",
+            "vier diploïde cellen met elk een dubbele chromosomenset",
+        ],
+        antwoord=0,
+        uitleg="De meiose bestaat uit twee delingen na één verdubbeling. Daardoor halveert het aantal chromosomen en ontstaan er vier verschillende gameten.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Bij de meiose wordt het aantal chromosomen per cel gehalveerd.",
+        antwoord=True,
+        uitleg="Dat moet ook, anders zou het aantal chromosomen bij elke bevruchting verdubbelen. Nu brengt elke ouder er precies de helft in.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat gebeurt er bij crossing-over?",
+        opties=[
+            "homologe chromosomen wisselen stukken met elkaar uit",
+            "zusterchromatiden worden naar dezelfde pool getrokken",
+            "het DNA van de cel wordt voor de tweede keer verdubbeld",
+            "het kernmembraan vormt zich rond elk chromosoom apart",
+        ],
+        antwoord=0,
+        uitleg="Tijdens de profase van de eerste meiotische deling raken homologe chromosomen elkaar op een chiasma en ruilen daar stukken. Zo ontstaan nieuwe combinaties.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat zorgt voor genetische variatie bij de meiose? Kruis alles aan wat juist is.",
+        opties=[
+            "de crossing-over tussen homologe chromosomen",
+            "de toevallige verdeling van de chromosomenparen",
+            "de willekeurige combinatie bij de bevruchting",
+            "het identiek kopiëren van elke chromatide",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Overkruising en de onafhankelijke verdeling leveren al heel veel combinaties op, en de bevruchting voegt er nog eens toeval aan toe. Een identieke kopie geeft juist geen variatie.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noemt men het punt waar twee homologe chromosomen elkaar raken en stukken uitwisselen?",
+        antwoord="chiasma",
+        uitleg="Op het chiasma breken en herstellen de chromatiden over kruis. Het meervoud is chiasmata.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Mitose en meiose leveren allebei cellen op met hetzelfde aantal chromosomen als de moedercel.",
+        antwoord=False,
+        uitleg="Alleen de mitose doet dat. De meiose halveert het aantal, want ze maakt geslachtscellen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom gaat de tweede meiotische deling niet gepaard met een nieuwe verdubbeling van het DNA?",
+        opties=[
+            "omdat de chromosomen dan nog uit twee chromatiden bestaan",
+            "omdat de cel dan geen enkel chromosoom meer overheeft",
+            "omdat het DNA tijdens de eerste deling vernietigd wordt",
+            "omdat de cel dan al volledig haploïd geworden is",
+        ],
+        antwoord=0,
+        uitleg="Na meiose I bevat elke cel de helft van de chromosomen, maar elk chromosoom heeft nog twee chromatiden. Meiose II trekt die gewoon uit elkaar.",
+    ),
+]

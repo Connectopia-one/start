@@ -44,6 +44,8 @@ SOORTEN = [
 NIVEAUWOORDEN = [
     ("boost doorstroom", "boost-doorstroom"),
     ("boost dubbele finaliteit", "boost-dubbele-finaliteit"),
+    ("beyond dubbele finaliteit", "beyond-dubbele-finaliteit"),
+    ("beyond doorstroom", "beyond-doorstroom"),
     ("basis", "basis"),
     ("start", "start"),
     ("spark", "spark"),

@@ -1,35 +1,26 @@
 # -*- coding: utf-8 -*-
-"""Zet de themabestanden `nl_*.py` samen in ../nederlands.json.
+"""Zet de themabestanden `nw_*.py` samen in ../natuurwetenschappen.json.
 
-    python3 bron/bouw_nederlands.py
+    python3 bron/bouw_natuurwetenschappen.py
 
-🌍 Beyond, derde graad. Er zijn **twee** vakfiches Nederlands (2027, 3DO), en
-ze noemen allebei dezelfde zes studierichtingen: bedrijfswetenschappen,
-economie-wiskunde, humane wetenschappen, Latijn-wiskunde (met extra
-wetenschappen), welzijnswetenschappen en wiskunde-wetenschappen. Twee fiches
-voor hetzelfde vak worden bij ons één vak, net als bij wiskunde G1/G2/G3.
+🌍 Beyond, derde graad. De vakfiche natuurwetenschappen (2027, 3DO) noemt
+bovenaan zelf vijf studierichtingen: moderne talen, humane wetenschappen,
+Latijn-moderne talen, economie-wiskunde en bedrijfswetenschappen. De twee
+andere derdegraadsrichtingen, wetenschappen-wiskunde en Latijn-wiskunde met
+extra wetenschappen, hebben in de plaats hiervan drie aparte fiches biologie,
+chemie en fysica. Die worden bij ons dus drie andere vakken.
 
-Fiche 1 is het receptieve examen: lezen 30 %, luisteren 30 %, literatuur 20 %,
-taalbeschouwing 20 %. Fiche 2 is het productieve examen: spreken 10 %,
-schrijven 30 %, schriftelijke interactie 30 % en gesprek 30 %, met de literaire
-competentie verwerkt in die drie laatste.
+Hoe de eenentwintig thema's volgen uit de fiche. Die weegt haar vier
+onderdelen zelf: biologie 40 %, fysica 30 %, chemie 20 % en wetenschappelijk
+onderzoek en STEM 10 %. Negen thema's biologie, zes fysica, vier chemie en
+twee onderzoek komt daar het dichtst bij (43, 29, 19 en 10 %), en elk thema
+valt samen met een kop uit de fiche zelf, zodat er niets tussen valt.
 
-Hoe de eenentwintig thema's daaruit volgen. Lezen en luisteren staan samen op
-30 % van het eerste examen en leveren zes thema's. Literatuur staat op 20 % van
-het eerste examen én draagt een stuk van het tweede, en de termenlijst van de
-fiche is daar veruit het dikst, dus het worden zes thema's. Taalbeschouwing
-staat op 20 % en valt uiteen in twee thema's over taal en samenleving plus vijf
-over het taalsysteem, want fonologie, spelling, woordsoorten, morfologie,
-zinsbouw en semantiek staan alle zes als ondersteunende kennis op de twee
-fiches. Schrijven, spreken en interactie halen samen 90 % van het tweede
-examen, maar dat zijn prestaties, geen kennis: wat je er met vragen van kan
-toetsen zijn de criteria, de strategieën en het register, en dat is twee
-thema's waard.
-
-Werkt precies als bij geschiedenis: elk thema is een bestand met een lijst
-DEEL1 en een lijst DEEL2 van twintig vragen, en wordt hier twee hoofdstukken,
-"<thema> — deel 1" en "<thema> — deel 2".
+Werkt precies als bij geschiedenis en Nederlands: elk thema is een bestand met
+een lijst DEEL1 en een lijst DEEL2 van twintig vragen, en wordt hier twee
+hoofdstukken, "<thema> — deel 1" en "<thema> — deel 2".
 """
+
 import importlib
 import json
 import pathlib
@@ -37,32 +28,32 @@ import sys
 
 HIER = pathlib.Path(__file__).parent
 sys.path.insert(0, str(HIER))
-DOEL = HIER.parent / "nederlands.json"
+DOEL = HIER.parent / "natuurwetenschappen.json"
 
-# De volgorde volgt de twee fiches: eerst lezen en luisteren, dan literatuur,
-# dan taalbeschouwing met het taalsysteem, en tot slot het productieve deel.
+# De volgorde volgt de fiche: eerst biologie, dan chemie, dan fysica, en tot
+# slot het deel over wetenschappelijk onderzoek en STEM dat over alle drie gaat.
 THEMAS = [
-    ("nl_tekstsoorten", "Tekstsoorten en teksttypes"),
-    ("nl_hoofdgedachte", "Onderwerp, hoofdgedachte en samenvatten"),
-    ("nl_bronnen", "Bronnen beoordelen: betrouwbaarheid, nepnieuws en framing"),
-    ("nl_communicatie", "Het communicatiemodel en ruis"),
-    ("nl_tekstopbouw", "Tekstopbouw, alineaverbanden en structuuraanduiders"),
-    ("nl_argumentatie", "Argumentatie en drogredenen"),
-    ("nl_genres", "Literaire begrippen en genres"),
-    ("nl_verhaal", "Verhaalkenmerken en vertelperspectief"),
-    ("nl_poezie", "Poëzie: dichtvormen, strofen en rijm"),
-    ("nl_drama", "Dramatiek en theatertekens"),
-    ("nl_stijlfiguren", "Stijlfiguren en beeldspraak"),
-    ("nl_stromingen", "Literaire stromingen van de middeleeuwen tot nu"),
-    ("nl_varieteiten", "Taalvariëteiten, registers en beleefdheid"),
-    ("nl_identiteit", "Taal en identiteit: stereotypering, inclusie en non-verbale communicatie"),
-    ("nl_spelling", "Klanken, spelling, diakritische tekens en interpunctie"),
-    ("nl_woordsoorten", "Woordsoorten"),
-    ("nl_morfologie", "Morfologie: samenstellingen, afleidingen en werkwoordstijden"),
-    ("nl_zinsbouw", "Zinsontleding en zinsbouw"),
-    ("nl_semantiek", "Semantiek: betekenisrelaties, gevoelswaarde en herkomst"),
-    ("nl_schrijven", "Schrijven en schriftelijke interactie"),
-    ("nl_spreken", "Spreken en gesprekken voeren"),
+    ("nw_cel", "De cel: organellen, membranen en weefsels"),
+    ("nw_energie", "Fotosynthese en celademhaling"),
+    ("nw_afweer", "Bescherming en afweer tegen lichaamsvreemde stoffen"),
+    ("nw_voortplanting", "Voortplanting, zwangerschap en vruchtbaarheid"),
+    ("nw_dna", "DNA, replicatie en celdelingen"),
+    ("nw_overerving", "Overerving van genetisch materiaal"),
+    ("nw_genexpressie", "Genexpressie en DNA-technologie"),
+    ("nw_evolutie", "Ontstaan en evolutie van soorten"),
+    ("nw_biomoleculen", "Biomoleculen"),
+    ("nw_snelheid", "Snelheid van een chemische reactie"),
+    ("nw_evenwicht", "Chemisch evenwicht"),
+    ("nw_organisch", "Organische stoffen: classificatie, eigenschappen en toepassingen"),
+    ("nw_materialen", "Kunststoffen, nanomaterialen en duurzame chemie"),
+    ("nw_elektrostatica", "Elektrostatica"),
+    ("nw_elektromagnetisme", "Elektromagnetisme en inductie"),
+    ("nw_beweging", "Kracht en beweging"),
+    ("nw_trillingen", "Trillingen, golven en geluid"),
+    ("nw_spectrum", "Het elektromagnetisch spectrum"),
+    ("nw_kernfysica", "Kernfysica en radioactiviteit"),
+    ("nw_veilig", "Veilig en duurzaam werken, grootheden en eenheden"),
+    ("nw_onderzoek", "Onderzoeksvaardigheden en ontwerpen"),
 ]
 
 

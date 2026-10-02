@@ -17,4 +17,5 @@
 alter table public.hoofdstukken drop constraint if exists hoofdstukken_niveau_check;
 alter table public.hoofdstukken add constraint hoofdstukken_niveau_check
   check (niveau in ('basis', 'start', 'spark', 'boost-doorstroom',
-                    'boost-dubbele-finaliteit', 'beyond', 'hoekje'));
+                    'boost-dubbele-finaliteit', 'beyond-doorstroom',
+                    'beyond-dubbele-finaliteit', 'hoekje'));

@@ -4,7 +4,8 @@ export type NiveauSlug =
   | "spark"
   | "boost-doorstroom"
   | "boost-dubbele-finaliteit"
-  | "beyond"
+  | "beyond-doorstroom"
+  | "beyond-dubbele-finaliteit"
   | "hoekje";
 
 export type Niveau = {
@@ -40,8 +41,16 @@ export type Niveau = {
   wiskunde gevorderd en wiskunde basis, dubbele finaliteit heeft gewoon
   Nederlands en gewoon wiskunde. Dat zijn andere vakken met andere leerstof, dus
   twee categorieën. Op de startpagina blijft het wel één knop; de keuze tussen
-  de twee komt een stap later. Beyond krijgt dezelfde splitsing zodra die
-  vakfiches er zijn.
+  de twee komt een stap later.
+
+  🌍 Beyond splitst op dezelfde manier, sinds 2 oktober 2026. De examencommissie
+  zet de derde graad in vier lijsten, maar die vallen bij ons in twee
+  categorieën uiteen. De doorstroomfiches noemen bovenaan zelf zowel de
+  domeinoverschrijdende richtingen (economie-wiskunde, humane wetenschappen,
+  Latijn, moderne talen, wetenschappen-wiskunde) als de domeingebonden
+  (bedrijfswetenschappen, welzijnswetenschappen), dus die horen samen in één
+  categorie. De basisvorming van de dubbele finaliteit en commerciële
+  organisatie vormen de tweede.
 */
 export const NIVEAUS: Niveau[] = [
   {
@@ -80,10 +89,21 @@ export const NIVEAUS: Niveau[] = [
     groep: "boost",
   },
   {
-    slug: "beyond",
+    slug: "beyond-doorstroom",
     emoji: "🌍",
-    naam: "Beyond",
-    omschrijving: "5de & 6de middelbaar",
+    naam: "Beyond doorstroom",
+    kort: "Doorstroom",
+    omschrijving:
+      "Economie-wiskunde, humane wetenschappen, Latijn, moderne talen, wetenschappen-wiskunde, bedrijfs- en welzijnswetenschappen",
+    groep: "beyond",
+  },
+  {
+    slug: "beyond-dubbele-finaliteit",
+    emoji: "🌍",
+    naam: "Beyond dubbele finaliteit",
+    kort: "Dubbele finaliteit",
+    omschrijving: "Basisvorming en commerciële organisatie",
+    groep: "beyond",
   },
   {
     slug: "hoekje",
@@ -93,7 +113,7 @@ export const NIVEAUS: Niveau[] = [
   },
 ];
 
-export type GroepSlug = "boost";
+export type GroepSlug = "boost" | "beyond";
 
 export type Groep = {
   slug: GroepSlug;
@@ -112,6 +132,12 @@ export const GROEPEN: Groep[] = [
     emoji: "🚀",
     naam: "Boost",
     omschrijving: "3de & 4de middelbaar",
+  },
+  {
+    slug: "beyond",
+    emoji: "🌍",
+    naam: "Beyond",
+    omschrijving: "5de & 6de middelbaar",
   },
 ];
 

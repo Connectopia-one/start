@@ -1,0 +1,348 @@
+# -*- coding: utf-8 -*-
+"""🌍 Beyond — Fotosynthese en celademhaling.
+
+Biologie, tweede kop van "De cel als basiseenheid" in de vakfiche
+natuurwetenschappen 3DO. Deel 1 gaat over autotroof en heterotroof, ATP en de
+fotosynthese, deel 2 over de aerobe celademhaling, de gistingen en het
+transport en de opslag van voedingsstoffen in de plant.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat kenmerkt een autotroof organisme?",
+        opties=[
+            "het bouwt zijn eigen organische stoffen uit anorganische stoffen op",
+            "het haalt zijn organische stoffen volledig uit andere organismen",
+            "het heeft voor zijn groei geen enkele energiebron nodig",
+            "het breekt uitsluitend dode resten van andere organismen af",
+        ],
+        antwoord=0,
+        uitleg="Autotroof betekent zelfvoedend: een plant maakt met lichtenergie glucose uit koolstofdioxide en water. Een heterotroof organisme moet die organische stoffen opeten.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een schimmel is een heterotroof organisme.",
+        antwoord=True,
+        uitleg="Een schimmel kan geen fotosynthese doen en haalt zijn organische stoffen uit dood of levend materiaal van andere organismen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom noemt men ATP de energiemunt van de cel?",
+        opties=[
+            "omdat de cel er haar energie in kleine, bruikbare porties mee rondgeeft",
+            "omdat de cel er haar erfelijk materiaal volledig in bewaart",
+            "omdat de cel er haar afvalstoffen mee naar buiten brengt",
+            "omdat de cel er haar celwand mee opbouwt en herstelt",
+        ],
+        antwoord=0,
+        uitleg="Bij het afsplitsen van één fosfaatgroep uit ATP komt energie vrij die meteen bruikbaar is. Zo krijgt elk proces precies wat het nodig heeft.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat gebeurt er in het ATP-ADP-systeem?",
+        opties=[
+            "ATP geeft een fosfaatgroep af en wordt ADP, en omgekeerd",
+            "ATP wordt onomkeerbaar tot koolstofdioxide afgebroken",
+            "ADP neemt zuurstof op en wordt daarbij tot water omgezet",
+            "ADP splitst zich in glucose en in zuurstofgas op",
+        ],
+        antwoord=0,
+        uitleg="Het systeem is een kringloop: ADP plus fosfaat plus energie geeft ATP, en ATP dat een fosfaat afsplitst levert weer ADP en energie.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Bij welke processen levert ATP de energie? Kruis alles aan wat juist is.",
+        opties=["spiercontractie", "zenuwimpulsgeleiding", "de synthese van biomoleculen", "de val van een steen naar beneden"],
+        antwoord=[0, 1, 2],
+        uitleg="Alle actieve processen in een cel draaien op ATP: samentrekken, prikkels geleiden, bouwen en delen. Een vallende steen heeft geen cel nodig.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noemt men een reactie waarbij er energie vrijkomt, zoals de celademhaling?",
+        antwoord="exo-energetisch",
+        uitleg="Exo-energetische reacties geven energie af aan de omgeving. Endo-energetische reacties, zoals de fotosynthese, nemen energie op.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke reactievergelijking geeft de fotosynthese weer?",
+        opties=[
+            "6 CO2 + 6 H2O geeft C6H12O6 + 6 O2",
+            "C6H12O6 + 6 O2 geeft 6 CO2 + 6 H2O",
+            "C6H12O6 geeft 2 ethanol + 2 CO2",
+            "C6H12O6 geeft 2 melkzuur en energie",
+        ],
+        antwoord=0,
+        uitleg="Met lichtenergie en bladgroen bouwt de plant uit koolstofdioxide en water glucose op, en er komt zuurstofgas vrij.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De fotosynthese is een endo-energetische reactie.",
+        antwoord=True,
+        uitleg="De plant legt lichtenergie vast in de chemische bindingen van glucose. Er wordt dus energie opgenomen in plaats van afgegeven.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waar in de chloroplast lopen de lichtreacties?",
+        opties=["in het thylakoïdmembraan", "in het stroma eromheen", "in het celmembraan", "in de vacuole ernaast"],
+        antwoord=0,
+        uitleg="In het thylakoïdmembraan zitten de pigmenten die licht opvangen. De donkerreacties lopen daarna in het stroma.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat levert de lichtreactie op voor de donkerreactie? Kruis alles aan wat juist is.",
+        opties=["ATP", "energierijke waterstofdragers", "zuurstofgas als nevenproduct", "glucose als eindproduct"],
+        antwoord=[0, 1, 2],
+        uitleg="De lichtreactie splitst water, geeft zuurstof af en maakt ATP en waterstofdragers. Pas de donkerreactie bouwt daarmee glucose op.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De donkerreactie kan alleen in volledige duisternis plaatsvinden.",
+        antwoord=False,
+        uitleg="De naam is misleidend. De donkerreactie heeft geen licht nodig, maar wel de ATP en de waterstofdragers uit de lichtreactie, dus ze loopt juist bij daglicht.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe heet het groene pigment in de chloroplast dat het licht opvangt?",
+        antwoord="chlorofyl",
+        uitleg="Chlorofyl of bladgroen absorbeert vooral blauw en rood licht en weerkaatst groen. Daarom zien bladeren er groen uit.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom kan een plant met uitsluitend groen licht nauwelijks aan fotosynthese doen?",
+        opties=[
+            "omdat chlorofyl groen licht grotendeels weerkaatst in plaats van opneemt",
+            "omdat groen licht de huidmondjes van het blad meteen dichtduwt",
+            "omdat groen licht het water in de bladcellen doet bevriezen",
+            "omdat groen licht de celwand van de bladcellen beschadigt",
+        ],
+        antwoord=0,
+        uitleg="Een pigment werkt met het licht dat het opneemt. Chlorofyl neemt blauw en rood op en kaatst groen terug, dus groen licht levert weinig energie.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Naast chlorofyl bevat een blad nog andere pigmenten die licht opvangen.",
+        antwoord=True,
+        uitleg="Hulppigmenten zoals carotenoïden vangen golflengten op die chlorofyl mist en geven die energie door. In de herfst worden ze zichtbaar.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke structuren maken een blad geschikt voor efficiënte fotosynthese? Kruis alles aan wat juist is.",
+        opties=[
+            "een plat, breed oppervlak dat veel licht opvangt",
+            "palissadecellen vol chloroplasten onder de bovenzijde",
+            "huidmondjes die koolstofdioxide binnenlaten",
+            "een dikke houtige schors rond het hele blad",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Het blad is plat voor het licht, zit vanboven vol bladgroen en heeft huidmondjes voor het gas. Een houtige schors zou het licht juist tegenhouden.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat gebeurt er met de snelheid van de fotosynthese als de lichtsterkte blijft stijgen?",
+        opties=[
+            "ze stijgt eerst mee en loopt daarna tegen een grens aan",
+            "ze blijft recht evenredig stijgen zonder enige grens",
+            "ze daalt meteen vanaf de allereerste toename van het licht",
+            "ze verandert helemaal niet met de sterkte van het licht",
+        ],
+        antwoord=0,
+        uitleg="Op een gegeven ogenblik wordt een andere factor beperkend, bijvoorbeeld de hoeveelheid koolstofdioxide of de temperatuur. Dan helpt meer licht niet meer.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een plant doet alleen aan fotosynthese en nooit aan celademhaling.",
+        antwoord=False,
+        uitleg="Een plant ademt dag en nacht. Overdag maakt de fotosynthese meer zuurstof aan dan de ademhaling verbruikt, waardoor er netto zuurstof vrijkomt.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe heet de kleurloze vloeistof in de chloroplast waarin de donkerreacties lopen?",
+        antwoord="stroma",
+        uitleg="Het stroma vult de ruimte tussen de thylakoïden. Daar worden met ATP en waterstofdragers koolstofdioxidemoleculen tot glucose aan elkaar gezet.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke stof wordt tijdens de lichtreactie gesplitst, waardoor er zuurstof vrijkomt?",
+        opties=["water", "glucose", "zetmeel", "koolstofdioxide"],
+        antwoord=0,
+        uitleg="De zuurstof die een plant afgeeft komt uit het water, niet uit de koolstofdioxide. De splitsing van water heet fotolyse.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe bewaart een plant de suikers die ze overhoudt?",
+        opties=["als zetmeel", "als melkzuur", "als ethanol", "als pyrodruivenzuur"],
+        antwoord=0,
+        uitleg="Overtollige glucose wordt tot zetmeel aaneengeschakeld en opgeslagen in bladeren, stengels, wortels of knollen.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="Welke reactievergelijking hoort bij de aerobe celademhaling?",
+        opties=[
+            "C6H12O6 + 6 O2 geeft 6 CO2 + 6 H2O en energie",
+            "6 CO2 + 6 H2O geeft C6H12O6 + 6 O2",
+            "C6H12O6 geeft 2 ethanol + 2 CO2 en energie",
+            "C6H12O6 geeft 2 melkzuur en energie",
+        ],
+        antwoord=0,
+        uitleg="Bij de aerobe celademhaling wordt glucose met zuurstof volledig afgebroken tot koolstofdioxide en water, en komt er veel energie vrij.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waar in de cel loopt de glycolyse?",
+        opties=["in het cytoplasma", "in het mitochondrion", "in de celkern", "in de chloroplast"],
+        antwoord=0,
+        uitleg="De glycolyse splitst glucose in het cytoplasma tot twee moleculen pyrodruivenzuur. Daarvoor is nog geen zuurstof nodig.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Welke stof blijft er na de glycolyse over en gaat bij voldoende zuurstof het mitochondrion in?",
+        antwoord="pyrodruivenzuur",
+        uitleg="Pyrodruivenzuur of pyruvaat is het eindproduct van de glycolyse. Met zuurstof wordt het in het mitochondrion verder afgebroken.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De glycolyse levert veel meer ATP op dan de reacties in het mitochondrion.",
+        antwoord=False,
+        uitleg="Het is net omgekeerd. De glycolyse levert maar een kleine opbrengst; verreweg de meeste ATP komt uit de reacties in het mitochondrion.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat gebeurt er in een spiercel bij intense inspanning als er te weinig zuurstof is?",
+        opties=[
+            "het pyrodruivenzuur wordt tot melkzuur omgezet",
+            "het pyrodruivenzuur wordt tot zuiver zetmeel omgezet",
+            "de cel stopt onmiddellijk met elke energieproductie",
+            "de cel schakelt over op de fotosynthese voor energie",
+        ],
+        antwoord=0,
+        uitleg="Zonder genoeg zuurstof gaat de cel gisten. Het melkzuur dat zich ophoopt, veroorzaakt het branderige gevoel in de spier.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat geldt voor de melkzuurgisting? Kruis alles aan wat juist is.",
+        opties=[
+            "ze loopt zonder zuurstof",
+            "ze gebeurt in het cytoplasma",
+            "ze levert veel minder energie op dan de aerobe ademhaling",
+            "ze maakt koolstofdioxidegas vrij",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Melkzuurgisting is anaeroob, loopt in het cytoplasma en levert weinig energie. Koolstofdioxide komt vrij bij de alcoholische gisting, niet bij deze.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat levert de alcoholische gisting van glucose op? Kruis alles aan wat juist is.",
+        opties=["ethanol", "koolstofdioxide", "een kleine hoeveelheid energie", "zuurstofgas"],
+        antwoord=[0, 1, 2],
+        uitleg="Gist zet glucose zonder zuurstof om in ethanol en koolstofdioxide. Daarop berusten het rijzen van deeg en het brouwen van bier.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Melkzuurbacteriën worden gebruikt om yoghurt van melk te maken.",
+        antwoord=True,
+        uitleg="Melkzuurbacteriën zetten de melksuiker om in melkzuur. Door de verzuring stolt de melk en ontstaat yoghurt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom levert gisting veel minder energie op dan de aerobe celademhaling?",
+        opties=[
+            "omdat de glucose maar gedeeltelijk afgebroken wordt",
+            "omdat er bij gisting helemaal geen glucose gebruikt wordt",
+            "omdat gisting enkel buiten levende cellen kan gebeuren",
+            "omdat gisting altijd meer zuurstof nodig heeft dan lucht bevat",
+        ],
+        antwoord=0,
+        uitleg="Bij gisting blijft er nog veel energie in het melkzuur of de ethanol zitten. Alleen met zuurstof wordt glucose helemaal tot CO2 en water afgebroken.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Bij de aerobe celademhaling komt er koolstofdioxide vrij.",
+        antwoord=True,
+        uitleg="De koolstof uit de glucose verlaat de cel als koolstofdioxide. Daarom ademt een mens meer CO2 uit dan hij inademt.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noemt men het verzuren van spieren waarbij melkzuur zich ophoopt tijdens zware inspanning?",
+        antwoord="verzuring",
+        uitleg="Bij verzuring kan de bloedsomloop niet genoeg zuurstof aanvoeren. De spier schakelt over op melkzuurgisting, en het melkzuur hoopt zich op.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke weefsels verzorgen het transport van stoffen in een plant? Kruis alles aan wat juist is.",
+        opties=["het xyleem voor water en mineralen", "het floëem voor opgeloste suikers", "de vaatbundel waarin beide samen liggen", "de waslaag op de bladeren"],
+        antwoord=[0, 1, 2],
+        uitleg="Xyleem en floëem liggen samen in de vaatbundels en vormen samen het transportweefsel. De waslaag beperkt juist het verlies van water.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat bedoelt men met opwaarts transport in een plant?",
+        opties=[
+            "het vervoer van water en mineralen van de wortel naar het blad",
+            "het vervoer van suikers van het blad naar de wortel toe",
+            "het vervoer van zuurstof van de lucht naar de bodem toe",
+            "het vervoer van zetmeel van de bloem naar de bladeren",
+        ],
+        antwoord=0,
+        uitleg="Opwaarts transport gebeurt door het xyleem en wordt vooral getrokken door de verdamping in de bladeren.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De verdamping in de bladeren helpt het water in de houtvaten omhoog te trekken.",
+        antwoord=True,
+        uitleg="Door de verdamping ontstaat er zuigkracht. De watermoleculen hangen aan elkaar vast, waardoor de hele waterkolom meegetrokken wordt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom plaatst men bij een experiment over fotosynthese een plant eerst een nacht in het donker?",
+        opties=[
+            "om het aanwezige zetmeel uit de bladeren te laten verdwijnen",
+            "om de plant volledig te laten uitdrogen voor de proef",
+            "om alle bladgroenkorrels uit het blad te verwijderen",
+            "om de huidmondjes voorgoed te laten dichtgroeien",
+        ],
+        antwoord=0,
+        uitleg="Zonder dat voorwerk weet je niet of het zetmeel dat je aantoont nieuw is. Na een nacht in het donker is de voorraad opgebruikt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Met welke stof toont men zetmeel in een blad aan?",
+        opties=["met joodoplossing", "met kalkwater", "met blauw lakmoespapier", "met gedestilleerd water"],
+        antwoord=0,
+        uitleg="Jood kleurt zetmeel blauwzwart. Kalkwater gebruik je om koolstofdioxide aan te tonen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een cel kan ATP in grote voorraad opslaan voor later gebruik.",
+        antwoord=False,
+        uitleg="ATP wordt voortdurend aangemaakt en meteen weer verbruikt. Energie op voorraad bewaart een organisme als vet, zetmeel of glycogeen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een gistcultuur in suikerwater laat belletjes opborrelen. Welk gas is dat?",
+        opties=["koolstofdioxide", "zuurstofgas", "stikstofgas", "waterstofgas"],
+        antwoord=0,
+        uitleg="Gist doet aan alcoholische gisting en geeft daarbij ethanol en koolstofdioxide af. Je kan het gas met kalkwater aantonen.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Welke reeks van reacties breekt glucose in het cytoplasma af tot twee moleculen pyrodruivenzuur?",
+        antwoord="glycolyse",
+        uitleg="De glycolyse is de eerste stap van zowel de aerobe celademhaling als de gisting en gebeurt altijd in het cytoplasma.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe hangen fotosynthese en celademhaling met elkaar samen?",
+        opties=[
+            "de producten van de ene zijn de grondstoffen van de andere",
+            "ze gebruiken allebei precies dezelfde grondstoffen",
+            "ze leveren allebei precies dezelfde eindproducten op",
+            "ze kunnen allebei enkel in het volle donker doorgaan",
+        ],
+        antwoord=0,
+        uitleg="Fotosynthese maakt glucose en zuurstof uit koolstofdioxide en water; de celademhaling doet het omgekeerde. Samen vormen ze een kringloop.",
+    ),
+]

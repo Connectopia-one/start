@@ -1,0 +1,338 @@
+# -*- coding: utf-8 -*-
+"""🌍 Beyond — De cel: organellen, membranen en weefsels.
+
+Biologie, eerste kop van de vakfiche natuurwetenschappen 3DO: "De cel als
+basiseenheid", onderdeel "Celtypen en hun functie". Deel 1 gaat over de
+organisatieniveaus, de organellen en de membranen, deel 2 over weefsels en
+celtypes bij planten en dieren.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="De biologische organisatieniveaus lopen van klein naar groot. Welk niveau komt meteen boven het orgaan?",
+        opties=["het orgaanstelsel", "het weefsel", "de populatie van die soort", "de cel met haar organellen"],
+        antwoord=0,
+        uitleg="De reeks loopt van atoom en molecule over organel, cel, weefsel, orgaan, orgaanstelsel en organisme naar populatie, ecosysteem, biome en biosfeer. Boven het orgaan staat dus het orgaanstelsel.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat geldt voor een prokaryote cel zoals een bacterie? Kruis alles aan wat juist is.",
+        opties=[
+            "haar DNA ligt vrij in het cytoplasma, zonder kernmembraan",
+            "ze heeft ribosomen waarmee ze eiwitten aanmaakt",
+            "ze is omgeven door een celmembraan",
+            "ze heeft mitochondriën voor haar celademhaling",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Een prokaryote cel heeft geen kernmembraan en ook geen mitochondriën of ander membraanomsloten organel. Ribosomen en een celmembraan heeft ze wel.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke structuren vind je wel in een plantaardige cel en niet in een dierlijke cel? Kruis alles aan wat juist is.",
+        opties=["een celwand van cellulose", "chloroplasten", "een grote centrale vacuole", "een celmembraan"],
+        antwoord=[0, 1, 2],
+        uitleg="De celwand, de bladgroenkorrels en de grote centrale vacuole zijn typisch plantaardig. Een celmembraan heeft elke cel.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waar in de cel worden eiwitten voor de uitvoer naar buiten gerijpt, gesorteerd en verpakt?",
+        opties=["in het Golgi-apparaat", "in het kernlichaampje", "in de lysosomen van de cel", "in het cytoskelet"],
+        antwoord=0,
+        uitleg="Het Golgi-apparaat werkt de eiwitten uit het endoplasmatisch reticulum af en pakt ze in transportblaasjes voor hun bestemming.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Het ruw endoplasmatisch reticulum dankt zijn naam aan de ribosomen die erop vastzitten.",
+        antwoord=True,
+        uitleg="Op het ruw ER zitten ribosomen, wat het onder de microscoop korrelig maakt. Het glad ER heeft die niet en maakt onder meer vetten.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een cel ruimt versleten organellen op. Welk organel doet dat werk?",
+        opties=["het lysosoom", "het mitochondrion", "het transportblaasje", "het centrosoom"],
+        antwoord=0,
+        uitleg="Lysosomen bevatten verteringsenzymen die afgedankt materiaal en opgenomen deeltjes afbreken.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe heet het organel waar de aerobe celademhaling grotendeels gebeurt en dat daarom de energiecentrale van de cel genoemd wordt?",
+        antwoord="mitochondrion",
+        uitleg="In het mitochondrion lopen de citroenzuurcyclus en de ademhalingsketen, waar het grootste deel van de ATP gemaakt wordt. Het meervoud is mitochondriën.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waaruit bestaat de grondlaag van elk biologisch membraan?",
+        opties=[
+            "een dubbellaag van fosfolipiden",
+            "een enkele laag van losse suikers",
+            "een stevig netwerk van cellulose",
+            "een drievoudige laag van zetmeel",
+        ],
+        antwoord=0,
+        uitleg="Fosfolipiden keren hun waterminnende kop naar buiten en hun watervrezende staart naar binnen. Zo ontstaat vanzelf een dubbellaag.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke stoffen zitten er in een celmembraan ingebouwd? Kruis alles aan wat juist is.",
+        opties=["cholesterol", "transmembraaneiwitten", "perifere herkenningseiwitten", "chlorofyl uit het blad"],
+        antwoord=[0, 1, 2],
+        uitleg="Cholesterol houdt het membraan soepel, transmembraaneiwitten lopen er helemaal door en perifere eiwitten liggen aan één kant, vaak als herkenningspunt. Chlorofyl zit in de chloroplast.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een semi-permeabel membraan laat alle stoffen even vlot door.",
+        antwoord=False,
+        uitleg="Semi-permeabel wil net zeggen: selectief doorlaatbaar. Kleine, vetoplosbare deeltjes gaan vlot door, geladen en grote deeltjes hebben een eiwit nodig.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waaruit is de celwand van een plantencel hoofdzakelijk opgebouwd?",
+        opties=["uit cellulose", "uit cholesterol", "uit fosfolipiden", "uit eiwitketens"],
+        antwoord=0,
+        uitleg="Cellulose is een polysacharide van glucose-eenheden en geeft de plantencel haar stevigheid en vorm.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Ook bacteriën hebben een celwand, maar die is niet uit cellulose opgebouwd.",
+        antwoord=True,
+        uitleg="De bacteriële celwand bestaat uit peptidoglycaan. Hij beschermt de cel tegen uiteenspatten, net als bij planten, maar het bouwmateriaal verschilt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk organel maakt de ribosomen aan?",
+        opties=["het kernlichaampje", "het glad ER", "de vacuole", "het Golgi-apparaat"],
+        antwoord=0,
+        uitleg="In het kernlichaampje of de nucleolus wordt ribosomaal RNA gemaakt en tot ribosomen samengebouwd.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is de taak van het centrosoom met zijn centriolen?",
+        opties=[
+            "de trekdraden voor de celdeling aanleggen",
+            "de suikers uit het blad als zetmeel opslaan",
+            "het versleten afval van de cel verteren",
+            "de eiwitten van de cel sorteren en verpakken",
+        ],
+        antwoord=0,
+        uitleg="Het centrosoom organiseert de microtubuli en vormt tijdens de deling de spoelfiguur die de chromosomen uit elkaar trekt.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noemt men het geheel van microtubuli, microfilamenten en intermediaire filamenten dat de cel haar vorm en stevigheid geeft?",
+        antwoord="cytoskelet",
+        uitleg="Het cytoskelet is het inwendige steunnetwerk. Het houdt de vorm van de cel aan, verankert organellen en laat beweging en transport toe.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom is de verhouding tussen oppervlakte en volume belangrijk voor een cel?",
+        opties=[
+            "omdat een grote cel per eenheid volume te weinig membraan heeft om stoffen uit te wisselen",
+            "omdat een grote cel steeds minder kernen bij elkaar houdt",
+            "omdat een kleine cel geen enkel organel meer kwijt kan",
+            "omdat een kleine cel haar celwand niet meer kan sluiten",
+        ],
+        antwoord=0,
+        uitleg="Het volume groeit sneller dan de oppervlakte. Een cel die te groot wordt, krijgt via haar membraan niet genoeg stoffen binnen en buiten.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Plastiden zoals chromoplasten en amyloplasten komen zowel bij planten als bij dieren voor.",
+        antwoord=False,
+        uitleg="Plastiden zijn plantaardige organellen; dierlijke cellen hebben er geen. Chloroplasten doen aan fotosynthese, chromoplasten dragen kleurstoffen en amyloplasten slaan zetmeel op.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een plantencel ligt in zuiver water. Wat gebeurt er?",
+        opties=[
+            "de cel neemt water op en wordt stevig of turgescent",
+            "de cel verliest water en haar celwand barst open",
+            "de cel verandert helemaal niet van toestand",
+            "de cel breekt haar vacuole volledig af",
+        ],
+        antwoord=0,
+        uitleg="Water stroomt naar de hoogste opgeloste stofconcentratie, dus de cel in. De celwand houdt de cel heel en er ontstaat turgordruk.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Het glad endoplasmatisch reticulum speelt een rol bij de aanmaak van vetten en het ontgiften van stoffen.",
+        antwoord=True,
+        uitleg="Het glad ER maakt lipiden en steroïden aan en breekt in levercellen schadelijke stoffen af.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe heet de blaasje-achtige structuur die bij een rijpe plantencel het grootste deel van het volume inneemt en vocht en stoffen opslaat?",
+        antwoord="vacuole",
+        uitleg="De centrale vacuole drukt het cytoplasma tegen de wand aan, zorgt mee voor de turgordruk en bewaart water, afvalstoffen en kleurstoffen.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="Welk plantaardig weefsel vervoert water en opgeloste mineralen van de wortel naar het blad?",
+        opties=["het xyleem of houtvatenweefsel", "het floëem of zeefvatenweefsel", "het huidweefsel van de plant", "het steunweefsel in de stengel"],
+        antwoord=0,
+        uitleg="Xyleemvaten of houtvaten voeren water en mineralen omhoog. Het floëem vervoert de suikers uit het blad naar de rest van de plant.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke onderdelen horen bij het huidweefsel van een plant? Kruis alles aan wat juist is.",
+        opties=["de epidermis", "de waslaag of cuticula", "de rhizodermis met wortelharen", "de vaatbundel in de stengel"],
+        antwoord=[0, 1, 2],
+        uitleg="Epidermis, waslaag en rhizodermis vormen samen de buitenste laag van de plant. De vaatbundel hoort bij het transportweefsel.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Wortelharen vergroten het oppervlak waarmee de wortel water en mineralen opneemt.",
+        antwoord=True,
+        uitleg="Elk wortelhaartje is een uitstulping van een cel van de rhizodermis. Samen maken ze het opnameoppervlak van de wortel vele malen groter.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is de functie van de huidmondjes op een blad?",
+        opties=[
+            "de gasuitwisseling en de waterafgifte regelen",
+            "het zonlicht naar de bladgroenkorrels bundelen",
+            "het suikertransport naar de wortel verzorgen",
+            "het blad aan de stengel vastmaken en dragen",
+        ],
+        antwoord=0,
+        uitleg="Twee sluitcellen vormen samen een huidmondje. Ze gaan open en toe en regelen zo de in- en uitvoer van gassen en het verlies van waterdamp.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waar liggen de meeste huidmondjes bij een gewoon blad?",
+        opties=["aan de onderkant van het blad", "aan de bovenkant van het blad", "in de nerven van het blad", "in de stengel onder het blad"],
+        antwoord=0,
+        uitleg="Aan de onderkant is het koeler en vochtiger, zodat de plant minder water verliest bij het openen van de huidmondjes.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe heten de twee cellen die samen een huidmondje vormen en het openen en sluiten?",
+        antwoord="sluitcellen",
+        uitleg="Sluitcellen bevatten in tegenstelling tot de gewone epidermiscellen wel chloroplasten. Als ze water opnemen, buigen ze en gaat de porie open.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke vier grote weefselgroepen onderscheidt men bij dieren?",
+        opties=[
+            "epitheel-, spier-, zenuw- en transportweefsel",
+            "huid-, transport-, grond- en steunweefsel",
+            "epitheel-, hout-, zeef- en vulweefsel",
+            "spier-, schors-, zenuw- en huidweefsel",
+        ],
+        antwoord=0,
+        uitleg="Bij dieren onderscheidt men epitheelweefsel, spierweefsel, zenuwweefsel en transportweefsel. De andere rijtjes mengen er plantaardige weefsels door.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een rijpe rode bloedcel van de mens heeft geen kern meer.",
+        antwoord=True,
+        uitleg="De rode bloedcel stoot haar kern af tijdens de rijping. Zo is er meer plaats voor hemoglobine en kan ze makkelijker door de haarvaten.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke bouw van een zenuwcel past bij haar functie?",
+        opties=[
+            "een lange uitloper die prikkels over grote afstand doorgeeft",
+            "een platte vorm zonder enige uitloper of vertakking eraan",
+            "een dikke wand van cellulose rondom de hele zenuwcel heen",
+            "een ronde vorm die vooral zuurstof door het lichaam vervoert",
+        ],
+        antwoord=0,
+        uitleg="Het axon van een zenuwcel kan heel lang zijn en geleidt de prikkel snel van het ene punt naar het andere.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke celtypes zijn zo gebouwd dat ze zich kunnen samentrekken?",
+        opties=["spiercellen", "epitheelcellen", "zaadcellen", "xyleemcellen"],
+        antwoord=0,
+        uitleg="Spiercellen bevatten eiwitdraden die langs elkaar schuiven. Daardoor wordt de cel korter en trekt de spier samen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Epitheelweefsel komt in het lichaam enkel in de huid voor.",
+        antwoord=False,
+        uitleg="Epitheel bedekt oppervlakken én bekleedt holtes: het ligt ook in de darm, in de luchtwegen en in de bloedvaten.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke onderdelen van een blad horen bij het grondweefsel? Kruis alles aan wat juist is.",
+        opties=["het palissadeparenchym", "het sponsparenchym", "het steunweefsel", "de epidermis"],
+        antwoord=[0, 1, 2],
+        uitleg="Vulweefsel of parenchym en steunweefsel vormen samen het grondweefsel. De epidermis is huidweefsel.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom staan de cellen van het palissadeparenchym dicht tegen elkaar onder de bovenkant van het blad?",
+        opties=[
+            "omdat daar het meeste licht binnenvalt voor de fotosynthese",
+            "omdat daar het meeste water uit het blad verdampt",
+            "omdat daar de huidmondjes het dichtst bij elkaar liggen",
+            "omdat daar de zwaarste delen van het blad hangen",
+        ],
+        antwoord=0,
+        uitleg="Palissadecellen zitten vol chloroplasten en staan rechtop onder de bovenste epidermis, waar het licht het sterkst is.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe heet het buitenste waslaagje op een blad dat het waterverlies beperkt?",
+        antwoord="cuticula",
+        uitleg="De cuticula ligt op de epidermis en is nagenoeg ondoorlaatbaar voor water. Daardoor verliest de plant alleen water via de huidmondjes.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Het floëem vervoert de suikers uitsluitend van boven naar beneden.",
+        antwoord=False,
+        uitleg="Het floëem vervoert suikers van een plaats met overschot naar een plaats met vraag. Dat kan ook omhoog gaan, bijvoorbeeld naar een groeiende knop.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke taak vervult de schors of cortex in een wortel?",
+        opties=[
+            "opslag en transport van stoffen tussen de huid en de vaatbundel",
+            "de aanmaak van bladgroenkorrels voor de fotosynthese",
+            "het opvangen van het zonlicht voor de hele plant",
+            "het afsluiten van de wortel tegen elke wateropname",
+        ],
+        antwoord=0,
+        uitleg="De cortex ligt tussen de rhizodermis en de centrale vaatbundel. Daar worden reservestoffen opgeslagen en wordt water naar binnen geleid.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het verband tussen de bouw en de functie van een zaadcel?",
+        opties=[
+            "de staart maakt ze beweeglijk en de kleine kop draagt het erfelijk materiaal",
+            "de dikke celwand beschermt het erfelijk materiaal tegen uitdroging en kou",
+            "de grote vacuole levert de voedselvoorraad voor de hele bevruchting",
+            "de vele chloroplasten leveren de energie voor de beweging naar de eicel",
+        ],
+        antwoord=0,
+        uitleg="Een zaadcel is nagenoeg alleen kern plus een zweepstaart met mitochondriën eromheen. Zo blijft ze licht en kan ze zwemmen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een eicel is veel groter dan een zaadcel omdat ze reservestoffen voor de eerste delingen bevat.",
+        antwoord=True,
+        uitleg="De eicel brengt naast haar kern ook cytoplasma, organellen en voedingsstoffen in. De zaadcel levert vooral het erfelijk materiaal.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="De huidmondjes van een plant blijven bij droogte lang gesloten. Wat is daarvan het gevolg? Kruis alles aan wat juist is.",
+        opties=[
+            "er komt te weinig koolstofdioxide binnen",
+            "de fotosynthese valt grotendeels stil",
+            "de plant verliest veel minder waterdamp",
+            "de wortels nemen plots veel meer mineralen op",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Gesloten huidmondjes sparen water, maar sluiten ook de aanvoer van koolstofdioxide af. Zonder dat gas kan de donkerreactie niet doorgaan.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe heet het weefsel dat bij dieren stoffen door het lichaam vervoert, met bloed als bekendste voorbeeld?",
+        antwoord="transportweefsel",
+        uitleg="Transportweefsel of bindweefsel met vloeibare tussenstof vervoert zuurstof, voedingsstoffen, afvalstoffen en afweercellen door het lichaam.",
+    ),
+]

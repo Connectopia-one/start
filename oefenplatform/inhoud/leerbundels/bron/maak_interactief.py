@@ -55,12 +55,25 @@ def niveau_van(b):
         return "boost-doorstroom"
     if "Boost" in voluit and "dubbele finaliteit" in voluit:
         return "boost-dubbele-finaliteit"
+    # Beyond splitst sinds 2 oktober 2026 net zoals Boost. De bundels die er
+    # toen al waren (geschiedenis, Nederlands, wiskunde gevorderd) komen alle
+    # drie van een doorstroomfiche en zeggen enkel "Beyond"; die blijven dus
+    # zo staan in plaats van alle pdf's opnieuw te renderen.
+    if "Beyond" in voluit and "dubbele finaliteit" in voluit:
+        return "beyond-dubbele-finaliteit"
     if "Beyond" in voluit:
-        return "beyond"
+        return "beyond-doorstroom"
     raise ValueError("onbekend niveau: " + voluit)
 
 
-NIVEAUS = ("start", "spark", "boost-doorstroom", "boost-dubbele-finaliteit", "beyond")
+NIVEAUS = (
+    "start",
+    "spark",
+    "boost-doorstroom",
+    "boost-dubbele-finaliteit",
+    "beyond-doorstroom",
+    "beyond-dubbele-finaliteit",
+)
 
 
 def blok_naar_data(b):

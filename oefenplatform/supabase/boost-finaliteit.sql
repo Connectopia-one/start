@@ -34,7 +34,8 @@ update public.hoofdstukken set niveau = 'boost-doorstroom' where niveau = 'boost
 --    schema.sql, basis.sql en uitdagingshoek.sql.
 alter table public.hoofdstukken add constraint hoofdstukken_niveau_check
   check (niveau in ('basis', 'start', 'spark', 'boost-doorstroom',
-                    'boost-dubbele-finaliteit', 'beyond', 'hoekje'));
+                    'boost-dubbele-finaliteit', 'beyond-doorstroom',
+                    'beyond-dubbele-finaliteit', 'hoekje'));
 
 -- Blijft stap 3 haken, dan staat er nog een hoofdstuk met een categorie die
 -- niet in de lijst staat. Deze regel toont welke:

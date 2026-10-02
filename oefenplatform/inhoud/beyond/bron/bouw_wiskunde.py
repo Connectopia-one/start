@@ -156,7 +156,7 @@ def hoofdstukken_van(modulenaam: str, thema: str) -> list:
         for i, vraag in enumerate(vragen, start=1):
             controleer(titel, i, vraag)
         uit.append(
-            {"titel": titel, "niveau": "beyond", "gratis": False, "vragen": vragen}
+            {"titel": titel, "niveau": "beyond-doorstroom", "gratis": False, "vragen": vragen}
         )
     return uit
 
