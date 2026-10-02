@@ -1,0 +1,83 @@
+{
+ "vak": "Wiskunde",
+ "titel": "Gemiddelde verandering en het differentiequotiënt",
+ "onder": "Hoe snel verandert iets gemiddeld, en wat je daaruit wel en niet mag besluiten.",
+ "secties": [
+  {
+   "kop": "Wat een differentiequotiënt berekent",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een differentiequotiënt berekent de gemiddelde verandering over een interval.</strong> Je vergelijkt hoeveel de functiewaarde veranderde met hoeveel x veranderde. <strong>Het differentiequotiënt van f over het interval van a tot b bereken je als f(b) min f(a), gedeeld door b min a</strong>: bovenaan het verschil in functiewaarde, onderaan het verschil in x. <strong>Teller en noemer omdraaien mag niet</strong>, want dan krijg je het omgekeerde getal."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Gegeven</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Berekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Differentiequotiënt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">f(2) = 10 en f(6) = 30</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20 gedeeld door 4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">f(0) = 8 en f(4) = 0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">min 8 gedeeld door 4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">−2</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">f(1) = 4 en f(3) = 16</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">12 gedeeld door 2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">f(5) = 20 en f(9) = 20</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0 gedeeld door 4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij x = 2 hoort 7, bij x = 10 hoort 31</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">24 gedeeld door 8</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3</td></tr></table>",
+     "onderschrift": "Telkens: verschil in functiewaarde, gedeeld door verschil in x."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een negatief differentiequotiënt betekent dat de functie gemiddeld daalt over dat interval.</strong> Het teken zegt iets over de richting, niet over de ligging van de grafiek. <strong>Bij een stijgende functie is het differentiequotiënt over elk interval positief.</strong>"
+    },
+    {
+     "soort": "kader",
+     "html": "Een gemiddelde verbergt wat er onderweg gebeurde. <strong>Een differentiequotiënt van nul betekent dat de functie op het einde van het interval even hoog zit als bij het begin</strong>; daartussen kan ze gestegen en weer gedaald zijn. Daarom <strong>vertelt het differentiequotiënt je niet wat er op elk moment binnen het interval gebeurt</strong>. Een auto met een gemiddelde van 50 kilometer per uur heeft misschien stilgestaan en daarna 100 gereden, en <strong>een gemiddelde snelheid van 0 betekent niet dat je niet bewogen hebt</strong>, alleen dat je weer op je vertrekpunt staat. <strong>Men zegt gemiddelde verandering omdat ze over een heel interval uitgesmeerd is.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "Wat je ervan ziet in de grafiek",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De grafische betekenis van het differentiequotiënt over een interval is de richtingscoëfficiënt van de rechte door de twee randpunten.</strong> Je trekt een rechte door het beginpunt en het eindpunt; de steilheid van die rechte is het differentiequotiënt. <strong>Zo'n rechte raakt de grafiek niet aan</strong>, ze snijdt haar in die twee punten."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het getal dat zegt hoe steil een rechte loopt, heet de richtingscoëfficiënt.</strong> <strong>Een rechte door (1, 2) en (5, 10) heeft richtingscoëfficiënt 2.</strong> <strong>Bij een rechte is het differentiequotiënt over elk interval hetzelfde</strong>, want een rechte heeft overal dezelfde helling. Zo geeft <strong>f(x) is 3x plus 1 over het interval van 0 tot 5 het differentiequotiënt 3</strong>, en <strong>f(x) is 2x min 5 over eender welk interval 2</strong>: bij een eerstegraadsfunctie is het getal voor de x de richtingscoëfficiënt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een kromme hangt het differentiequotiënt wél af van welk interval je kiest.</strong> Neem f(x) is x in het kwadraat: <strong>over het interval van 1 tot 3 is het differentiequotiënt 4</strong>, en <strong>over het interval van 3 tot 5 is het 8</strong>. Verderop groeit dezelfde functie dus sneller. Daarom zeg je er bij een kromme altijd bij over welk interval je rekende."
+    },
+    {
+     "soort": "tekst",
+     "html": "Vergelijken kan op twee manieren. <strong>Geven twee intervallen de differentiequotiënten 3 en 7, dan groeit de functie sneller in het tweede interval</strong>: een groter differentiequotiënt betekent een steilere rechte. <strong>Van twee grafieken over hetzelfde interval heeft de steilste het grootste differentiequotiënt.</strong> Je kan dus <strong>twee differentiequotiënten vergelijken door naar de steilheid van hun rechten te kijken</strong>, of gewoon door de twee getallen naast elkaar te leggen. <strong>Is het differentiequotiënt 2 in de eerste helft van een interval en 8 in de tweede, dan wordt de grafiek steiler</strong>: een toenemende stijging."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een groter differentiequotiënt betekent niet altijd een hogere functiewaarde.</strong> Het zegt alleen iets over de verandering; een functie kan snel groeien en toch nog laag liggen."
+    }
+   ]
+  },
+  {
+   "kop": "Waar het vandaan komt en waar het over gaat",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Je kan een differentiequotiënt berekenen uit een tabel, uit een grafiek en uit een voorschrift.</strong> Je hebt alleen twee functiewaarden nodig en de bijbehorende x-waarden."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De eenheid van een differentiequotiënt is de eenheid van de functiewaarde per eenheid van x.</strong> <strong>Bij het aantal inwoners in functie van het jaartal krijg je dus inwoners per jaar</strong>, en verder euro per jaar, graden per uur of liter per minuut."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Situatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Berekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Betekenis</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">150 km in 2 uur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">150 gedeeld door 2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">75 kilometer per uur gemiddeld</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bergweg klimt 120 m over 2000 m</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">120 gedeeld door 2000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6 procent gemiddelde helling</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een plant groeit van 12 naar 30 cm in 6 weken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">18 gedeeld door 6</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3 cm per week</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spaargeld van 1000 naar 1200 euro in 4 jaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">200 gedeeld door 4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">50 euro per jaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de inhoud van een waterton gaat van 80 naar 20 liter in 10 minuten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">min 60 gedeeld door 10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gemiddeld debiet 6 liter per minuut eruit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">500 klanten in januari, 2000 in mei</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1500 gedeeld door 4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">375 klanten per maand erbij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van 20 naar 5 graden tussen 18 en 23 uur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">min 15 gedeeld door 5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">−3 graden per uur</td></tr></table>",
+     "onderschrift": "Hetzelfde rekenwerk, telkens met een andere naam in de praktijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Verliest een tank gemiddeld 4 liter per minuut en bevat hij nu 100 liter, dan zit er na 15 minuten nog 40 liter in.</strong> Zo gebruik je een gemiddelde verandering ook om vooruit te rekenen."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Differentiequotiënt: verschil in functiewaarde gedeeld door verschil in x.",
+  "Het is de richtingscoëfficiënt van de rechte door de twee randpunten.",
+  "Bij een rechte overal gelijk, bij een kromme afhankelijk van het interval.",
+  "Het teken zegt stijgen of dalen, niet boven of onder de x-as.",
+  "De eenheid is functiewaarde per eenheid van x."
+ ]
+}

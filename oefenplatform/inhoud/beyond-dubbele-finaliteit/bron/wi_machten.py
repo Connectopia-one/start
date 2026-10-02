@@ -1,0 +1,272 @@
+# -*- coding: utf-8 -*-
+"""Machtswortels en machten met een rationale exponent.
+
+Uit het onderdeel "Machtswortels en logaritmen" van de bouwsteen Analyse,
+vakfiche wiskunde 3 dubbele finaliteit: n-de machtswortels, machten met
+rationale exponent, het verband tussen machtsverheffen en worteltrekken, en
+de rekenregels voor machten.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Welke macht betekent hetzelfde als de vierkantswortel uit 9?",
+        opties=["9 tot de macht 1/2", "9 tot de macht 2", "9 tot de macht -2", "9 tot de macht 1/9"],
+        antwoord=0,
+        uitleg="Een wortel schrijf je als een macht met een breuk als exponent. De noemer van die breuk is de wortelexponent.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoeveel is 9 tot de macht 1/2?",
+        antwoord=["3", "drie"],
+        uitleg="Dat is de vierkantswortel uit 9, en 3 maal 3 is 9.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoeveel is 8 tot de macht 1/3?",
+        antwoord=["2", "twee"],
+        uitleg="Dat is de derdemachtswortel uit 8: het getal dat je drie keer met zichzelf vermenigvuldigt om 8 te krijgen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe schrijf je de derdemachtswortel uit 5 tot de macht 2 als één macht?",
+        opties=["5 tot de macht 2/3", "5 tot de macht 3/2", "5 tot de macht 6", "5 tot de macht 1/6"],
+        antwoord=0,
+        uitleg="De teller van de exponent is de macht onder de wortel, de noemer is de wortelexponent.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoeveel is 16 tot de macht 3/4?",
+        antwoord=["8", "acht"],
+        uitleg="De vierdemachtswortel uit 16 is 2, en 2 tot de macht 3 is 8.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is 2 tot de macht 3 maal 2 tot de macht 4?",
+        opties=["2 tot de macht 7", "2 tot de macht 12", "4 tot de macht 7", "2 tot de macht 1"],
+        antwoord=0,
+        uitleg="Bij hetzelfde grondtal tel je de exponenten op als je vermenigvuldigt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is 5 tot de macht 7 gedeeld door 5 tot de macht 4?",
+        opties=["5 tot de macht 3", "5 tot de macht 11", "1 tot de macht 3", "5 tot de macht 28"],
+        antwoord=0,
+        uitleg="Bij hetzelfde grondtal trek je de exponenten af als je deelt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is (3 tot de macht 2) tot de macht 5?",
+        opties=["3 tot de macht 10", "3 tot de macht 7", "3 tot de macht 25", "9 tot de macht 5"],
+        antwoord=0,
+        uitleg="Een macht van een macht: je vermenigvuldigt de twee exponenten.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De rekenregels voor machten gelden ook als de exponent een breuk is.",
+        antwoord=True,
+        uitleg="Daarom is het handig een wortel eerst als macht te schrijven: dan kan je er gewoon mee rekenen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een macht met exponent nul is altijd nul.",
+        antwoord=False,
+        uitleg="Een macht met exponent nul is 1, zolang het grondtal zelf niet nul is.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoeveel is 7 tot de macht 0?",
+        antwoord=["1", "een", "één"],
+        uitleg="Elk grondtal verschillend van nul geeft met exponent nul als uitkomst 1.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat betekent 2 tot de macht -3?",
+        opties=["1 gedeeld door 2 tot de macht 3", "min 2 tot de macht 3", "2 tot de macht 1/3", "0"],
+        antwoord=0,
+        uitleg="Een negatieve exponent keert de macht om: je krijgt de omgekeerde van de macht met de positieve exponent.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoeveel is 2 tot de macht -3? Schrijf het als decimaal getal.",
+        antwoord=["0,125", "0.125", "1/8"],
+        uitleg="2 tot de macht 3 is 8, en 1 gedeeld door 8 is 0,125.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De vierkantswortel uit een negatief getal bestaat niet binnen de reële getallen.",
+        antwoord=True,
+        uitleg="Geen enkel reëel getal geeft in het kwadraat iets negatiefs. Een derdemachtswortel uit een negatief getal bestaat wel.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoeveel is de derdemachtswortel uit -27?",
+        opties=["-3", "3", "-9", "die bestaat niet"],
+        antwoord=0,
+        uitleg="Min 3 maal min 3 maal min 3 geeft min 27. Bij een oneven wortelexponent mag het getal onder de wortel negatief zijn.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoeveel is 25 tot de macht 1/2?",
+        antwoord=["5", "vijf"],
+        uitleg="Dat is de vierkantswortel uit 25.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is de vijfdemachtswortel uit 32?",
+        opties=["2", "5", "6,4", "16"],
+        antwoord=0,
+        uitleg="2 maal 2 maal 2 maal 2 maal 2 is 32.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="16 tot de macht 1/2 en de vierkantswortel uit 16 geven hetzelfde getal.",
+        antwoord=True,
+        uitleg="Allebei 4. Het zijn twee schrijfwijzen voor dezelfde bewerking.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een rekentoestel geeft 2,2360679… als wortel uit 5. Wat noteer je als er twee cijfers na de komma gevraagd worden?",
+        opties=["2,24", "2,23", "2,2", "2,236"],
+        antwoord=0,
+        uitleg="Het derde cijfer na de komma is een 6, dus het tweede rondt naar boven af.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Je mag een tussenresultaat afronden voor je verder rekent, want dat scheelt niets aan het eindantwoord.",
+        antwoord=False,
+        uitleg="Elke afronding onderweg maakt de afwijking groter. Je rekent met zo nauwkeurig mogelijke tussenresultaten en rondt pas op het einde af.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="invultekst",
+        vraag="Hoeveel is 27 tot de macht 2/3?",
+        antwoord=["9", "negen"],
+        uitleg="De derdemachtswortel uit 27 is 3, en 3 in het kwadraat is 9.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoeveel is 4 tot de macht 3/2?",
+        antwoord=["8", "acht"],
+        uitleg="De vierkantswortel uit 4 is 2, en 2 tot de macht 3 is 8.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe schrijf je de vierkantswortel uit a tot de macht 5 als één macht van a?",
+        opties=["a tot de macht 5/2", "a tot de macht 2/5", "a tot de macht 10", "a tot de macht 7"],
+        antwoord=0,
+        uitleg="De macht onder de wortel komt in de teller, de wortelexponent in de noemer.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is 3 tot de macht 1/2 maal 3 tot de macht 1/2?",
+        opties=["3", "3 tot de macht 1/4", "9", "6"],
+        antwoord=0,
+        uitleg="Je telt de exponenten op: een half plus een half is één, dus je houdt 3 over.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is (2 maal 5) tot de macht 3?",
+        opties=["2 tot de macht 3 maal 5 tot de macht 3", "2 tot de macht 3 plus 5 tot de macht 3", "10 tot de macht 9", "2 maal 5 tot de macht 3"],
+        antwoord=0,
+        uitleg="Een macht van een product mag je over beide factoren verdelen. Allebei geven ze 1000.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een macht van een som mag je over de twee termen verdelen.",
+        antwoord=False,
+        uitleg="(2 + 3) in het kwadraat is 25, terwijl 4 plus 9 maar 13 geeft. Dat mag dus niet.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoeveel is 100 tot de macht 1/2?",
+        antwoord=["10", "tien"],
+        uitleg="De vierkantswortel uit 100.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoeveel is 81 tot de macht 1/4?",
+        antwoord=["3", "drie"],
+        uitleg="3 maal 3 maal 3 maal 3 is 81.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is 10 tot de macht -2?",
+        opties=["0,01", "0,1", "-100", "-0,01"],
+        antwoord=0,
+        uitleg="Dat is 1 gedeeld door 100. Een negatieve exponent maakt het getal klein, niet negatief.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een negatieve exponent maakt de uitkomst negatief.",
+        antwoord=False,
+        uitleg="Ze maakt de uitkomst omgekeerd, dus kleiner dan 1 bij een grondtal groter dan 1. Het teken van de uitkomst verandert niet.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is a tot de macht 1/2 gedeeld door a tot de macht 1/4?",
+        opties=["a tot de macht 1/4", "a tot de macht 3/4", "a tot de macht 2", "a tot de macht 1/8"],
+        antwoord=0,
+        uitleg="Je trekt de exponenten af: een half min een vierde is een vierde.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Elke n-de machtswortel kan je schrijven als een macht met een rationale exponent.",
+        antwoord=True,
+        uitleg="De wortelexponent wordt de noemer van de breuk in de exponent. Zo kan je met de gewone rekenregels verder.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Tussen welke twee gehele getallen ligt de wortel uit 50?",
+        opties=["tussen 7 en 8", "tussen 6 en 7", "tussen 8 en 9", "tussen 24 en 26"],
+        antwoord=0,
+        uitleg="7 in het kwadraat is 49 en 8 in het kwadraat is 64, dus de wortel uit 50 ligt net boven 7.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Tussen welke twee gehele getallen ligt de derdemachtswortel uit 100? Geef het kleinste.",
+        antwoord=["4", "vier"],
+        uitleg="4 tot de macht 3 is 64 en 5 tot de macht 3 is 125, dus de uitkomst ligt tussen 4 en 5.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een kubus heeft een inhoud van 64 kubieke centimeter. Hoe lang is een ribbe?",
+        opties=["4 cm", "8 cm", "16 cm", "21,3 cm"],
+        antwoord=0,
+        uitleg="De ribbe is de derdemachtswortel uit de inhoud, en 4 maal 4 maal 4 is 64.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een vierkant perk heeft een oppervlakte van 169 vierkante meter. Hoe lang is een zijde?",
+        opties=["13 m", "12 m", "14 m", "42,25 m"],
+        antwoord=0,
+        uitleg="De zijde is de vierkantswortel uit de oppervlakte, en 13 in het kwadraat is 169.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De wortel uit 2 is een getal dat je niet als breuk van twee gehele getallen kan schrijven.",
+        antwoord=True,
+        uitleg="Het is een irrationaal getal: de decimalen stoppen niet en herhalen zich niet.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Rond de wortel uit 10 af op één cijfer na de komma.",
+        antwoord=["3,2", "3.2"],
+        uitleg="De wortel uit 10 is ongeveer 3,1622, dus afgerond op één decimaal 3,2.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is 6 tot de macht 1/2 maal 6 tot de macht 3/2?",
+        opties=["36", "6", "216", "12"],
+        antwoord=0,
+        uitleg="Een half plus anderhalf is twee, dus je houdt 6 in het kwadraat over.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Bij het rekenen met machten mag je de exponenten optellen, ook als de grondtallen verschillen.",
+        antwoord=False,
+        uitleg="Die regel geldt alleen bij hetzelfde grondtal. 2 tot de macht 3 maal 5 tot de macht 3 geef je anders weer, namelijk als 10 tot de macht 3.",
+    ),
+]

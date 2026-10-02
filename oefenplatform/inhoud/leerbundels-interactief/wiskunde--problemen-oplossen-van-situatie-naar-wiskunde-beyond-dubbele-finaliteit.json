@@ -1,0 +1,111 @@
+{
+ "vak": "Wiskunde",
+ "titel": "Problemen oplossen: van situatie naar wiskunde",
+ "onder": "De vier stappen, de strategieën die je onderweg kan gebruiken, en wat je op het examen in handen hebt.",
+ "secties": [
+  {
+   "kop": "De vier stappen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Elke opgave pak je in dezelfde volgorde aan. <strong>De eerste van de vier stappen is: begrijp het probleem.</strong> Pas als je weet wat gevraagd wordt en wat je gegeven hebt, heeft de rest zin. <strong>De tweede stap, meteen na het begrijpen, is een plan maken.</strong> Daarna voer je het plan uit. <strong>De laatste van de vier stappen is reflecteren</strong>: je kijkt terug en vraagt je af of je antwoord klopt en of dit een handige weg was."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stap</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1. Begrijp het probleem</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onderstreep wat gegeven is en wat gevraagd wordt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2. Maak een plan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kies een strategie, voer eventueel een variabele in</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3. Voer het plan uit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">reken, en schrijf je tussenstappen op</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4. Reflecteer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">controleer de uitkomst en vertaal ze terug naar de vraag</td></tr></table>",
+     "onderschrift": "De vier stappen, van lezen tot nakijken."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Wat doe je het eerst als je een lange opgave leest en meteen vastloopt?</strong> Onderstrepen wat gegeven is en wat gevraagd wordt. Wie niet weet wat er gevraagd wordt, kan geen plan maken."
+    }
+   ]
+  },
+  {
+   "kop": "Mathematiseren en demathematiseren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Het omzetten van een concrete situatie naar wiskundetaal en wiskundige symbolen heet mathematiseren.</strong> De omgekeerde weg, <strong>het terugvertalen van een wiskundige uitkomst naar de situatie waar de opgave over ging, heet demathematiseren</strong>. <strong>Demathematiseren betekent dus dat je je uitkomst terugvertaalt naar de situatie van de opgave.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een kaal getal is nog geen antwoord. <strong>Is je uitkomst 7,5 en was de vraag hoeveel bussen er nodig zijn, dan antwoord je 8 bussen</strong>: een halve bus bestaat niet, en met zeven bussen raakt niet iedereen mee."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een opgave vraagt hoeveel liter verf je nodig hebt voor een muur. <strong>De context is dan de muur die je wil schilderen</strong>: de situatie uit de werkelijkheid waar de opgave van vertrekt."
+    }
+   ]
+  },
+  {
+   "kop": "Vraagstuk of probleem, met of zonder context",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een opgave die je kan oplossen met de leerstof van één hoofdstuk, heet een vraagstuk.</strong> <strong>Een opgave die je niet aan één hoofdstuk kan koppelen en waarvoor je leerstof moet combineren, heet een probleem.</strong> Bij een probleem kies je zelf de strategie."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarnaast kan een opgave met of zonder context zijn. <strong>Een opgave zonder context is abstract en zuiver wiskundig</strong>; een opgave met context vertrekt van een situatie uit de wereld rondom je. <strong>Een opgave met context is niet altijd moeilijker dan een opgave zonder context</strong>: het verschil zit in de verpakking. En <strong>ook een opgave zonder context kan een probleem zijn</strong>, want ook een zuiver wiskundige opgave kan leerstof uit verschillende hoofdstukken combineren."
+    }
+   ]
+  },
+  {
+   "kop": "Strategieën die vaak helpen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een oplossingsstrategie zoals een schets maken of terugrekenen, heet een heuristiek.</strong> <strong>Een heuristiek is geen stappenplan dat bij elk probleem altijd tot de oplossing leidt</strong>: het is een aanpak die vaak helpt, en soms moet je een andere proberen. <strong>Een schets maken is een van de strategieën die je bij een vraagstuk mag gebruiken.</strong>"
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Strategie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wanneer ze helpt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">terugrekenen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je weet wat er overblijft en zoekt het begin</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de gegevens in een tabel ordenen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er staan veel getallen door elkaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een variabele invoeren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je kent een waarde nog niet en noemt ze x</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">slim gissen en testen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je probeert, kijkt of het klopt en past aan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle mogelijkheden opschrijven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er zijn er weinig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">speciale gevallen gebruiken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je test een formule met x = 0 en x = 1</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">simuleren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je voert het vraagstuk zelf een aantal keer uit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">symmetrie gebruiken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de figuur is links en rechts hetzelfde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opsplitsen in deelproblemen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de opgave is te groot in één keer</td></tr></table>",
+     "onderschrift": "De strategieën die de leerstof opsomt, en waar ze van pas komen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Enkele daarvan verdienen een woord extra. <strong>Slim gissen is geen blind gokken</strong>: je gebruikt elke mislukte poging om je volgende schatting te verbeteren. <strong>Alle mogelijkheden opschrijven is een goede strategie als er weinig mogelijkheden zijn</strong>; bij een groot aantal zoek je beter naar een regel. <strong>Met symmetrie hoef je maar de helft uit te rekenen.</strong> <strong>Een variabele is het getal of de letter die in een opgave een nog onbekende waarde voorstelt</strong>, en de kleinere stukken waarin je een moeilijke opgave splitst, heten <strong>deelproblemen</strong>. Elk deelprobleem is op zich haalbaar; samen geven ze het antwoord op het geheel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Soms zie je in een reeks getallen iets terugkeren. <strong>Een reeks zoals 3, 6, 9, 12 heeft een patroon</strong>: er komt telkens drie bij. Wie het patroon ziet, hoeft niet elke stap apart te berekenen. En <strong>een tabel met de winst per aantal stuks maak je het snelst leesbaar als grafiek</strong>: dat is de voorstelling die het verloop het snelst zichtbaar maakt, want ze toont in één oogopslag of iets stijgt, daalt of een top bereikt."
+    }
+   ]
+  },
+  {
+   "kop": "Reflecteren: klopt je antwoord?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De stap waarin je achteraf nagaat of je antwoord klopt en of je aanpak handig was, heet reflecteren.</strong> Die reflectie hoort bij het oplossen zelf: een antwoord dat je niet gecontroleerd hebt, is nog geen antwoord. <strong>Bereken je dat een auto 540 kilometer per uur rijdt, dan ga je je berekening na, want dat kan niet.</strong> Een onmogelijke waarde wijst op een rekenfout."
+    }
+   ]
+  },
+  {
+   "kop": "ICT en nauwkeurigheid op het examen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Op het examen mag je ICT gebruiken om een grafiek te tekenen</strong>, om bewerkingen uit te voeren en om statistische kengetallen te berekenen. <strong>Met de rekenapps bereken je tijdens het examen de statistische kengetallen</strong>; ze staan via een link in het examen zelf, en het loont om er thuis al mee te oefenen. <strong>Een gsm mag je niet gebruiken om te rekenen</strong>: een gsm of smartwatch in de examenruimte geldt als fraude."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een berekening in meerdere stappen rond je een tussenresultaat niet af op één cijfer.</strong> Je werkt met zo nauwkeurig mogelijke tussenresultaten en rondt pas op het einde af, precies zo nauwkeurig als gevraagd. <strong>Is je uitkomst 0,333333… en vraagt de opgave twee cijfers na de komma, dan noteer je 0,33.</strong>"
+    },
+    {
+     "soort": "kader",
+     "html": "Praktisch. <strong>Bij het examen krijg je kladpapier en een balpen</strong>, en je mag naar een geodriehoek, een passer of een meetlat vragen. <strong>Het examen wiskunde duurt 150 minuten</strong> en je legt het af in het examencentrum in Brussel, op de computer, met gesloten vragen. <strong>Er is geen giscorrectie</strong>, dus een vraag onbeantwoord laten levert zeker niets op. <strong>Veertig procent van het examen gaat over kansrekenen en statistiek</strong>; de andere zestig procent gaat over analyse."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Begrijp het probleem, maak een plan, voer het plan uit, reflecteer.",
+  "Mathematiseren is naar wiskunde vertalen, demathematiseren is terug naar de situatie.",
+  "Een vraagstuk hoort bij één hoofdstuk, een probleem combineert leerstof.",
+  "Een heuristiek helpt vaak, maar werkt niet altijd.",
+  "Rond pas op het einde af, en zo nauwkeurig als gevraagd.",
+  "Geen giscorrectie: laat geen enkele vraag open."
+ ]
+}

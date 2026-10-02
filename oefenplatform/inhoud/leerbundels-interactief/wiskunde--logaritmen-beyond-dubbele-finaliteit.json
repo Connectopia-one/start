@@ -1,0 +1,96 @@
+{
+ "vak": "Wiskunde",
+ "titel": "Logaritmen",
+ "onder": "De exponent terugvinden, en waarom schalen zoals die van Richter met logaritmen werken.",
+ "secties": [
+  {
+   "kop": "Wat een logaritme vraagt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Als je de logaritme van een getal berekent, vraag je tot welke macht je het grondtal moet verheffen.</strong> Een logaritme is dus de omgekeerde bewerking van machtsverheffen: ze geeft de exponent terug. <strong>Machtsverheffen en een logaritme nemen zijn elkaars omgekeerde bewerking</strong>: bij een macht ken je de exponent en zoek je de uitkomst, bij een logaritme ken je de uitkomst en zoek je de exponent."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De uitspraak dat de logaritme van 16 met grondtal 2 gelijk is aan 4, zegt hetzelfde als 2 tot de macht 4 is 16.</strong> <strong>Schrijf je log zonder grondtal erbij, dan bedoel je de logaritme met grondtal 10.</strong> Bij een ander grondtal schrijf je dat grondtal er klein bij."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Logaritme</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Omdat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitkomst</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">log van 100, grondtal 10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10 tot de macht 2 is 100</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">log van 1000, grondtal 10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10 tot de macht 3 is 1000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">log van 10000, grondtal 10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10 tot de macht 4 is 10000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">log van 1 miljoen, grondtal 10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een 1 met zes nullen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">log van 0,1, grondtal 10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10 tot de macht -1 is een tiende</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-1</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">log van 0,01, grondtal 10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10 tot de macht -2 is 0,01</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">-2</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">log van 8, grondtal 2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2 tot de macht 3 is 8</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">log van 1024, grondtal 2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2 tot de macht 10 is 1024</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">log van 81, grondtal 3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3 tot de macht 4 is 81</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">log van 125, grondtal 5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5 tot de macht 3 is 125</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">log van 64, grondtal 4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4 tot de macht 3 is 64</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3</td></tr></table>",
+     "onderschrift": "Logaritmen die je uit het hoofd kan."
+    }
+   ]
+  },
+  {
+   "kop": "Wat kan en wat niet kan",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De logaritme van 1 is bij elk grondtal nul</strong>, want elk grondtal tot de macht nul geeft 1. <strong>De logaritme van 7 met grondtal 7 is 1</strong>, want je zoekt de exponent waarmee 7 zichzelf geeft."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De logaritme van 0 bestaat niet</strong>: je kan een positief grondtal tot geen enkele macht verheffen om nul te krijgen, en <strong>het grondtal verandert daar niets aan, hoe groot je het ook kiest</strong>. <strong>De logaritme van een negatief getal bestaat evenmin</strong>; ze is dus zeker geen negatief getal."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wel geldt: <strong>hoe groter het getal, hoe groter zijn logaritme, bij een grondtal groter dan 1</strong>, want om een groter getal te bereiken heb je een grotere exponent nodig. <strong>Een logaritme met grondtal 10 van een getal groter dan 1 is altijd positief</strong>, en <strong>de logaritme van een getal tussen 0 en 1 is negatief</strong>, want om onder de 1 te komen heb je een negatieve exponent nodig."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>De logaritme van 100 is niet bij elk grondtal gelijk aan 2.</strong> Bij grondtal 10 is ze 2, maar bij grondtal 2 ligt ze tussen 6 en 7. Het grondtal bepaalt de uitkomst mee."
+    }
+   ]
+  },
+  {
+   "kop": "Inklemmen en benaderen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Zelfs zonder toestel weet je vaak al waar een logaritme ligt. <strong>De logaritme van 50 met grondtal 10 ligt tussen 1 en 2</strong>, want 10 tot de macht 1 is 10 en 10 tot de macht 2 is 100. <strong>Los je 3 tot de macht x is 20 op, dan ligt x tussen 2 en 3</strong>, want 3 in het kwadraat is 9 en 3 tot de macht 3 is 27."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een logaritme kan een getal met cijfers na de komma zijn</strong>; alleen bij mooie machten van het grondtal krijg je een geheel getal. <strong>Geeft een rekentoestel 0,845098… als logaritme van 7 met grondtal 10, dan betekent dat: 10 tot de macht 0,845 is ongeveer 7.</strong> Omgekeerd: <strong>geeft je toestel 2,69897, dan heeft het getal een paar honderd als orde van grootte</strong>, want het gehele deel is 2. <strong>De logaritme van 300 met grondtal 10 is ongeveer 2,48, dus 300 ligt tussen 10 tot de macht 2 en 10 tot de macht 3.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een logaritme met grondtal 2 kan je ook berekenen met een toestel dat alleen grondtal 10 kent</strong>: je deelt de logaritme van het getal door de logaritme van 2, allebei met grondtal 10."
+    }
+   ]
+  },
+  {
+   "kop": "Waarvoor je ze gebruikt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een logaritme haalt de onbekende uit de exponent. <strong>De vergelijking 2 tot de macht x is 32 los je op met een logaritme</strong>, en <strong>het antwoord is x is 5</strong>. Zo ook: <strong>10 tot de macht x is 10000 geeft x is 4</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom komt een logaritme terug bij groei. <strong>Groeit een bedrag met 5 procent per jaar, dan heb je een logaritme nodig om te berekenen na hoeveel jaar het verdubbeld is</strong>, want het aantal jaren staat in de exponent. <strong>De tijd waarna een exponentieel groeiend aantal twee keer zo groot is, heet de verdubbelingstijd</strong>; bij afname heet de tegenhanger de halveringstijd. <strong>Vervalt een stof elk jaar tot de helft, dan is er na 3 jaar nog een achtste over.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "Logaritmische schalen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een getal tien keer zo groot maken verhoogt zijn logaritme met grondtal 10 met 1.</strong> Daarom werken de decibelschaal en de schaal van Richter met logaritmen: elke stap is een factor tien. <strong>Men gebruikt zo'n schaal voor aardbevingen omdat de krachten enorm uit elkaar liggen</strong>; met een logaritme breng je waarden die duizenden keren verschillen terug tot een handzame schaal."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een beving van 6 op de schaal van Richter is dan 100 keer sterker dan een van 4</strong>: twee stappen, dus tien maal tien. Hetzelfde idee zit in het voorbeeld hierboven: <strong>is de logaritme van 2 ongeveer 0,30, dan is die van 20 ongeveer 1,30</strong>, want één factor 10 erbij verhoogt de logaritme met precies 1."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een logaritme is de exponent die je zoekt.",
+  "log zonder grondtal betekent grondtal 10.",
+  "De logaritme van 0 en van een negatief getal bestaat niet.",
+  "De logaritme van 1 is nul, bij elk grondtal.",
+  "Tien keer zo groot betekent 1 erbij op een logaritmische schaal."
+ ]
+}

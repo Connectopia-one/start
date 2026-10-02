@@ -1,0 +1,92 @@
+{
+ "vak": "Wiskunde",
+ "titel": "Samenhang en causaliteit",
+ "onder": "Vier manieren waarop twee grootheden samen kunnen bewegen, en maar één daarvan is een oorzaak.",
+ "secties": [
+  {
+   "kop": "Samenhang is geen oorzaak",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Samenhang tussen twee variabelen betekent dat ze samen veranderen.</strong> <strong>Als de ene variabele de andere echt veroorzaakt, spreek je van causaliteit</strong>, of van een causaal verband. <strong>Samenhang betekent niet altijd dat er een oorzakelijk verband is</strong>; dat is de meest voorkomende denkfout in de statistiek. Samenhang is een aanwijzing, geen bewijs."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Samenhang kan ook negatief zijn</strong>: de ene gaat omhoog terwijl de andere omlaag gaat. Ook dan bewegen ze samen. <strong>Twee grootheden die samen stijgen, hebben daarom nog geen oorzakelijk verband</strong>: voor een oorzaak heb je een mechanisme nodig dat uitlegt hoe het werkt. <strong>Een verband dat je niet kan verklaren, is dus nog geen oorzaak.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "De vier gevallen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een statistisch verband moet je vier gevallen kunnen onderscheiden: causaliteit, omgewisselde causaliteit, een verborgen variabele en toeval.</strong> Pas als je de drie andere kan uitsluiten, mag je over een oorzaak spreken."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Geval</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat er aan de hand is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">causaliteit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">A veroorzaakt echt B</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">roken en longkanker</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">omgewisselde causaliteit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">B veroorzaakt A, niet omgekeerd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie hoofdpijn heeft, drinkt minder</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verborgen variabele</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C beïnvloedt A én B</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">warm weer, ijsjes en verdrinkingen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">toeval</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen verband, alleen gelijkloop</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">films van een acteur en kaasconsumptie</td></tr></table>",
+     "onderschrift": "Vier verklaringen voor hetzelfde patroon in de cijfers."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een factor die twee variabelen allebei beïnvloedt, zodat ze samen bewegen zonder elkaar te veroorzaken, heet een verborgen variabele</strong>, soms ook een storende variabele. <strong>Ze staat niet in de tabel van het onderzoek</strong>: ze is juist niet gemeten, en daarom moet je ze zelf bedenken vanuit je kennis van de situatie."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Oorzaak en gevolg kunnen in een onderzoek ook omgewisseld lijken.</strong> Uit de cijfers alleen zie je vaak niet wat eerst kwam. <strong>Als A en B samenhangen, kan B evengoed de oorzaak van A zijn.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>En een sterke samenhang kan zuiver door toeval ontstaan</strong>, zeker bij korte reeksen of als je in heel veel gegevens gaat zoeken tot er iets opvalt. <strong>Lopen twee reeksen tien jaar lang bijna perfect samen zonder dat iemand kan uitleggen waarom, dan heet dat een toevallige samenhang.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "Voorbeelden om op te oefenen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vaststelling</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Meest waarschijnlijke verklaring</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in de zomer meer ijsjes én meer verdrinkingen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het warme weer, een derde verborgen variabele</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kinderen met grotere voeten lezen beter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de leeftijd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">steden met meer brandweermannen hebben meer brandschade</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de grootte van de stad</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">scholen met meer computers halen betere resultaten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het budget van de school</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in landen met meer tv's leeft men langer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rijkere landen hebben betere zorg én meer toestellen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rode auto's hebben vaker ongevallen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie rood kiest, rijdt misschien anders</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mensen met een hond bewegen meer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie graag beweegt, neemt vaker een hond</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie meer water drinkt, heeft minder hoofdpijn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie hoofdpijn heeft, drinkt minder</td></tr></table>",
+     "onderschrift": "Telkens: niet de eerste verklaring die opkomt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dezelfde voorzichtigheid geldt bij krantenkoppen. <strong>Zegt een kop dat wie ontbijt betere punten haalt, dan is de voorzichtige lezing dat ontbijten samenhangt met betere punten</strong>; misschien speelt een rustiger gezinssituatie mee. <strong>Zegt een artikel dat koffie je leven verlengt op basis van een bevraging, dan toont dat samenhang, geen oorzaak.</strong> <strong>En halen leerlingen die veel huiswerk maken hogere punten, dan is er samenhang en is de richting nog onduidelijk</strong>: misschien is motivatie de verborgen variabele."
+    }
+   ]
+  },
+  {
+   "kop": "Hoe je een oorzaak wél aantoont",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Je toont het sterkst aan dat A werkelijk B veroorzaakt met een proef waarin je A verandert en de rest gelijk houdt.</strong> <strong>Een proef waarin je één factor verandert en al de rest gelijk houdt, heet een gecontroleerde proef, of een gecontroleerd experiment.</strong> Alleen zo'n proef kan een verborgen variabele uitsluiten; waarnemen alleen volstaat niet. <strong>Een onderzoek dat alleen waarneemt, kan nooit met zekerheid een oorzaak aantonen.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De groep die het middel niet krijgt, heet de controlegroep.</strong> <strong>Een controlegroep helpt om een causaal verband aan te tonen</strong>, want je vergelijkt met een groep die alles hetzelfde meemaakt behalve die ene factor. <strong>Zegt een reclame dat wie hun product gebruikt gezonder is, dan ontbreekt precies die vergelijking met een gelijkaardige groep zonder het product.</strong> <strong>Hangen twee variabelen samen én vindt een gecontroleerde proef hetzelfde, dan is een causaal verband veel aannemelijker.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee vragen helpen je verder. <strong>Is er een verklaring hoe de ene zaak de andere hindert of bevordert?</strong> Een plausibel mechanisme is een van de sterkste argumenten voor een oorzaak. En: <strong>gebeurde hetzelfde ook elders?</strong> Zet een gemeente meer verlichting en daalt de criminaliteit, dan moet je nagaan of de criminaliteit elders ook daalde."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Vragen naar de opzet van het onderzoek is daarom zinvol: de opzet bepaalt wat je mag besluiten.</strong> Een proef met controlegroep draagt veel verder dan een bevraging achteraf. <strong>De beste houding bij een opvallende statistiek in de krant is dan ook: vragen hoe de gegevens verzameld zijn.</strong> De rekenkunde klopt meestal wel."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Een onderzoeker die een causaal verband suggereert, heeft daarmee niet automatisch gelijk.</strong> Je mag en moet beoordelen of hij dat terecht doet, door de drie andere verklaringen te overwegen. <strong>Samenhang is geen bewijs van causaliteit</strong>: dat is de belangrijkste regel uit dit hoofdstuk, en de meest genegeerde in de krant."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Samenhang is geen bewijs van een oorzaak.",
+  "Vier verklaringen: causaliteit, omgewisselde causaliteit, verborgen variabele, toeval.",
+  "Een verborgen variabele staat niet in de tabel; je moet ze bedenken.",
+  "Alleen een gecontroleerde proef met controlegroep sluit ze uit.",
+  "Vraag altijd hoe de gegevens verzameld zijn."
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "vak": "Wiskunde",
+ "titel": "Kansbomen: product, som en complement",
+ "onder": "Vermenigvuldigen langs een pad, optellen tussen paden, en het verschil tussen met en zonder terugleggen.",
+ "secties": [
+  {
+   "kop": "Hoe een kansboom werkt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Je gebruikt een kansboom om een experiment in opeenvolgende stappen te bekijken.</strong> Elke stap wordt een nieuwe laag takken. <strong>De weg van het begin tot helemaal achteraan heet een pad</strong>, en elk pad is één mogelijke afloop van het hele experiment. <strong>Een kansboom tekenen helpt vooral omdat je elke mogelijke afloop apart ziet staan</strong>, zodat je geen enkel geval vergeet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De kansen staan bij de takken en niet bij de punten, omdat een tak één stap in het experiment is.</strong> <strong>De kansen op de takken die uit één punt vertrekken, geven samen 1</strong>, want er moet iets gebeuren bij die stap. <strong>Ook de kansen van alle paden samen geven 1</strong>, niet 2. En <strong>een tak kan nooit een kans groter dan 1 dragen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het aantal paden volgt uit de stappen. <strong>Gooi je drie keer met een muntstuk, dan heeft de kansboom 8 paden.</strong> <strong>Heeft een boom twee stappen met telkens drie mogelijkheden, dan zijn er 9 paden.</strong> <strong>Gooi je eerst met een muntstuk en dan met een dobbelsteen, dan zijn er 12 paden.</strong> <strong>Bij drie stappen met telkens twee mogelijkheden vertrekken er uit elk punt 2 takken</strong>: het aantal takken per punt is het aantal mogelijkheden van die stap, het aantal paden is het product over alle stappen. <strong>Een kansboom werkt ook als de twee stappen verschillende experimenten zijn</strong>, bijvoorbeeld eerst een muntstuk en dan een dobbelsteen."
+    }
+   ]
+  },
+  {
+   "kop": "De drie regels",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Regel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze zegt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wanneer</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">productregel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kans op een pad is het product van de kansen op zijn takken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">binnen één pad</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">somregel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kans op meerdere paden is de som van hun kansen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tussen verschillende paden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">complementregel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 min de kans dat het niet gebeurt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij minstens, bij geen enkele</td></tr></table>",
+     "onderschrift": "Vermenigvuldigen langs een pad, optellen tussen paden."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De kansen van twee takken binnen hetzelfde pad mag je niet optellen</strong>: binnen een pad vermenigvuldig je. <strong>En de somregel mag je alleen gebruiken op paden die elkaar niet overlappen</strong>; paden in een kansboom sluiten elkaar uit, en juist daarom mag je ze optellen. Overlappende gevallen zou je dubbel tellen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een paar rechtstreekse toepassingen. <strong>Heeft een pad takken 0,5 en 0,2, dan is de kans op dat pad 0,1.</strong> <strong>Hebben twee paden kansen 0,12 en 0,18, dan is de kans dat een van beide zich voordoet 0,3.</strong> <strong>Gooi je twee keer met een muntstuk, dan is de kans op kop en dan nog eens kop 0,25</strong>, en <strong>bij drie keer kop is dat 0,125</strong>. <strong>Gooi je twee keer met een dobbelsteen, dan is de kans op twee keer een zes 1/36.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De complementregel haalt je uit vragen met minstens. <strong>De kans op minstens één keer kop bij twee worpen is 0,75</strong>, namelijk 1 min de kans op twee keer munt. <strong>De kans op minstens één zes bij twee worpen met een dobbelsteen is 11/36.</strong> <strong>De complementregel is vooral handig bij een vraag met het woord minstens.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "Met of zonder terugleggen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij trekken zonder terugleggen veranderen de kansen op de tweede tak</strong>, want er ligt één voorwerp minder in de zak. <strong>Bij trekken met terugleggen blijven de kansen bij elke stap dezelfde</strong>, want de zak ziet er telkens hetzelfde uit."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Situatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Met terugleggen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Zonder terugleggen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2 rode en 3 blauwe, twee keer rood</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,4 maal 0,4 is 0,16</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,4 maal 0,25 is 0,1</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">7 goede en 3 slechte lampen, twee goede</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,7 maal 0,7 is 0,49</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">7/10 maal 6/9 is ongeveer 0,47</td></tr></table>",
+     "onderschrift": "Zonder terugleggen wordt de tweede kans kleiner."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Zitten er in een doos 7 goede en 3 slechte lampen, dan is de kans dat één genomen lamp goed is 0,7.</strong> Dat wordt de eerste tak van je boom. <strong>Zitten er in een klas 12 meisjes en 8 jongens, dan is de kans dat de eerste gekozen leerling een meisje is 0,6</strong>, en <strong>als dat zo is, is de kans dat de tweede ook een meisje is 11/19</strong>, want er blijven nog 11 meisjes over op 19 leerlingen."
+    }
+   ]
+  },
+  {
+   "kop": "Rekenen in de praktijk",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Gooi je twee keer met een muntstuk, dan is de kans op precies één keer kop 0,5</strong>: twee paden van elk 0,25, opgeteld met de somregel. <strong>Is een test 90 procent betrouwbaar en doe je hem twee keer, dan is de kans dat hij twee keer juist is 0,81.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Keurt een fabriek 95 procent van de stukken goed, dan is de kans dat drie stukken na elkaar allemaal goedgekeurd worden ongeveer 0,857</strong>, en <strong>de kans dat er minstens één afgekeurd wordt ongeveer 0,143</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Heeft een spel kans 0,4 om te winnen en speel je twee keer, dan is de kans op precies één keer winnen 0,48</strong> (twee paden van 0,4 maal 0,6) <strong>en de kans om geen enkele keer te winnen 0,36</strong>. <strong>Die drie kansen, twee keer winnen, precies één keer winnen en nooit winnen, geven samen 1</strong>: 0,16 plus 0,48 plus 0,36. <strong>Is een bus op tijd met kans 0,8, dan is de kans dat hij twee dagen na elkaar te laat is 0,04.</strong>"
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Binnen een pad vermenigvuldigen, tussen paden optellen.",
+  "De takken uit één punt geven samen 1, en alle paden samen ook.",
+  "Minstens? Reken via het complement.",
+  "Zonder terugleggen verandert de tweede kans.",
+  "Aantal paden = het product van het aantal mogelijkheden per stap."
+ ]
+}

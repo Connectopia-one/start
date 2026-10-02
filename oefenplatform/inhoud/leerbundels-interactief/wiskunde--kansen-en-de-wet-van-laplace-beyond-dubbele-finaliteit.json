@@ -1,0 +1,96 @@
+{
+ "vak": "Wiskunde",
+ "titel": "Kansen en de wet van Laplace",
+ "onder": "Gunstige gevallen tellen, en het verschil tussen een kans en wat je in een proef meet.",
+ "secties": [
+  {
+   "kop": "De woorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De verzameling van alle mogelijke uitkomsten van een kansexperiment heet de uitkomstenverzameling</strong>, en je noteert ze met de letter U. Bij een dobbelsteen zitten daar zes uitkomsten in; <strong>bij het trekken van één kaart uit een spel van 52 telt ze 52 uitkomsten</strong>. <strong>Gooi je twee keer met een muntstuk, dan zitten er 4 uitkomsten in</strong>: kop-kop, kop-munt, munt-kop en munt-munt. <strong>Gooi je met twee dobbelstenen, dan telt ze 36 uitkomsten</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een gebeurtenis in de kansrekening is een deel van de uitkomstenverzameling.</strong> Een even worp is een gebeurtenis: ze bestaat uit de uitkomsten 2, 4 en 6. Harten trekken is een gebeurtenis van dertien uitkomsten."
+    }
+   ]
+  },
+  {
+   "kop": "De wet van Laplace",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De wet van Laplace zegt: de kans is het aantal gunstige uitkomsten gedeeld door het totaal.</strong> <strong>Ze geldt alleen als alle uitkomsten even waarschijnlijk zijn</strong>, zoals bij een eerlijke dobbelsteen. <strong>Bij een vervalste dobbelsteen mag je ze dus niet gebruiken.</strong>"
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vraag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Gunstig op totaal</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kans</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een 4 met één dobbelsteen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 op 6</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1/6</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een even getal met één dobbelsteen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3 op 6</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1/2</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meer dan 4 met één dobbelsteen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2 op 6</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1/3</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">harten uit een spel van 52</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">13 op 52</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1/4</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rood uit 3 rode en 7 blauwe knikkers</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3 op 10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,3</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geel uit 4 groene, 5 gele en 11 witte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5 op 20</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,25</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bril bij 10 van de 25 leerlingen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10 op 25</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,4</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee keer kop bij twee worpen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 op 4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,25</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee zessen met twee dobbelstenen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 op 36</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1/36</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">som 2 met twee dobbelstenen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 op 36</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1/36</td></tr></table>",
+     "onderschrift": "Tellen wat gunstig is, delen door alles wat kan."
+    },
+    {
+     "soort": "weetje",
+     "html": "<strong>Gooi je met twee dobbelstenen, dan komt de som 7 het vaakst voor</strong>: zes van de zesendertig uitkomsten geven zeven, meer dan bij elke andere som."
+    }
+   ]
+  },
+  {
+   "kop": "Wat een kans kan zijn",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een kans ligt altijd tussen 0 en 1</strong>, dus <strong>1,5 kan nooit een kans zijn</strong> en <strong>negatief kan ze evenmin</strong>: hoe onwaarschijnlijker, hoe dichter bij nul. <strong>Een kans van 0 betekent dat de gebeurtenis onmogelijk is</strong>; <strong>een kans van 1 betekent dat ze zeker gebeurt</strong>, bijvoorbeeld dat je met één dobbelsteen een getal van 1 tot 6 gooit. <strong>De som van de kansen van alle uitkomsten in de uitkomstenverzameling is 1</strong>, want er moet iets gebeuren."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een kans mag je ook als percentage schrijven</strong>: 0,25 is hetzelfde als 25 procent of een vierde. <strong>Zegt een weerbericht 70 procent kans op regen, dan betekent dat dat het in zeven van de tien vergelijkbare dagen regent.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "De complementregel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De complementregel zegt: de kans dat iets gebeurt is 1 min de kans dat het niet gebeurt.</strong> Ze is handig als het makkelijker is te tellen wat er fout kan gaan dan wat er goed kan gaan."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Is de kans op regen 0,3, dan is de kans op geen regen 0,7.</strong> <strong>De kans dat je bij één worp met een dobbelsteen géén 6 gooit, is 5/6.</strong> <strong>Trek je uit een zak van 20 balletjes waarvan er 11 wit zijn, dan is de kans op geen wit 0,45.</strong> <strong>Is de kans dat een machine een goed stuk maakt 0,98, dan is de kans op een slecht stuk 0,02.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een vraag als: wat is de kans op minstens één zes bij vier worpen, is de complementregel handig omdat geen enkele zes makkelijker te tellen is.</strong> Minstens één zes is een hele stapel gevallen; geen enkele zes is er maar één."
+    }
+   ]
+  },
+  {
+   "kop": "Kans en relatieve frequentie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een relatieve frequentie is niet precies hetzelfde als een kans.</strong> Een relatieve frequentie meet je in een proef; een kans is de theoretische waarde. <strong>Gooi je 200 keer met een muntstuk en krijg je 108 keer kop, dan is de relatieve frequentie van kop 0,54</strong>: het aantal keer dat het voorkwam, gedeeld door het aantal pogingen. <strong>Komen er van 300 leerlingen 24 met de trein, dan is de relatieve frequentie 0,08.</strong> <strong>Een relatieve frequentie kan niet groter zijn dan 1</strong>, net als een kans."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Hoe vaker je een kansexperiment herhaalt, hoe dichter de relatieve frequentie bij de kans komt.</strong> Bij tien worpen kan je nog ver zitten; bij duizend worpen komt een eerlijk muntstuk heel dicht bij de helft."
+    },
+    {
+     "soort": "kader",
+     "html": "Twee hardnekkige denkfouten. <strong>Viel een muntstuk vijf keer na elkaar op kop, dan is de kans op kop bij de volgende worp nog altijd een half</strong>: het muntstuk onthoudt niets. En <strong>een kans van 1 op 1000 betekent niet dat je zeker wint als je duizend keer meedoet</strong>; het is een gemiddelde op lange termijn, geen garantie."
+    },
+    {
+     "soort": "tekst",
+     "html": "Nog twee voorbeelden met een loterij. <strong>Bij een loterij met 1 winnend lot op 1000 is de kans om te winnen 0,001.</strong> <strong>Koop je er 5 loten van, dan is je kans 0,005.</strong>"
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Wet van Laplace: gunstige uitkomsten gedeeld door alle uitkomsten.",
+  "Ze geldt alleen als alle uitkomsten even waarschijnlijk zijn.",
+  "Een kans ligt tussen 0 en 1; alle kansen samen geven 1.",
+  "Complementregel: 1 min de kans dat het niet gebeurt.",
+  "Een relatieve frequentie meet je, een kans bereken je."
+ ]
+}

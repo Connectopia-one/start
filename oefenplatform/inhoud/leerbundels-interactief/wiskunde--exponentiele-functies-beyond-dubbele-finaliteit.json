@@ -1,0 +1,96 @@
+{
+ "vak": "Wiskunde",
+ "titel": "Exponentiële functies",
+ "onder": "De x in de exponent: wat de groeifactor doet, wat de beginwaarde doet, en hoe de grafiek eruitziet.",
+ "secties": [
+  {
+   "kop": "Het voorschrift",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een exponentiële functie hoort het voorschrift f(x) is b maal a tot de macht x.</strong> Het kenmerk is dat de x in de exponent staat; staat x in het grondtal, dan is het een machtsfunctie. <strong>Het getal a heet de groeifactor</strong> en zegt met hoeveel je vermenigvuldigt bij elke stap van één in x. <strong>Het getal b heet de beginwaarde</strong>, ook wel de startwaarde: dat is de functiewaarde bij x is 0, want a tot de macht 0 is 1."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij f(x) is 200 maal 1,05 tot de macht x is de functiewaarde bij x is 0 dus 200.</strong> Zo ook: <strong>f(x) is 5 maal 2 tot de macht x geeft f(0) is 5</strong>. En met een exponent erin: <strong>f(x) is 3 maal 2 tot de macht x geeft f(3) is 24</strong>, <strong>f(x) is 2 maal 3 tot de macht x geeft f(2) is 18</strong>, <strong>f(x) is 100 maal 0,5 tot de macht x geeft f(2) is 25</strong> en <strong>f(x) is 2 tot de macht x geeft f(-2) is 0,25</strong>, want een negatieve exponent keert de macht om."
+    }
+   ]
+  },
+  {
+   "kop": "Wat de groeifactor doet",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een groeifactor groter dan 1 stijgt de exponentiële functie</strong>, want elke stap vermenigvuldigt met meer dan één. <strong>Bij een groeifactor tussen 0 en 1 daalt ze</strong>; <strong>0,8 is dus de groeifactor van een dalende exponentiële functie</strong>. <strong>De groeifactor mag niet gelijk zijn aan 1</strong>, want dan blijft de functie constant en heb je een rechte in plaats van een exponentiële functie. <strong>En de groeifactor mag niet negatief zijn</strong>, want dan zou de grafiek springen tussen positieve en negatieve waarden."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Groeifactor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Beginwaarde</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">De rij die erbij hoort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2, 6, 18, 54</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stijgt snel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">7</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">7, 14, 28, 56</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verdubbelt telkens</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1,1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">100</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">100, 110, 121, 133,1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stijgt traag maar versnellend</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,9</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">50</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">50, 45, 40,5, 36,45</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">daalt met tien procent per stap</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">80</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">80, 40, 20, 10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">halveert telkens</td></tr></table>",
+     "onderschrift": "De groeifactor vind je door een getal door het vorige te delen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een rij als 4, 9, 14, 19 groeit lineair en niet exponentieel</strong>: daar komt telkens 5 bij. <strong>Bij een exponentiële functie hoort bij elke stap van één in x dezelfde vermenigvuldiging</strong>, en dat is precies het verschil met lineaire groei. <strong>In een tabel zie je dat snel door elk getal door het vorige te delen</strong>: komt er telkens dezelfde factor uit, dan is het exponentieel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee voorbeelden van zo'n aflezing. <strong>Geeft een tabel bij x is 0 de waarde 6 en bij x is 1 de waarde 18, dan hoort daar f(x) is 6 maal 3 tot de macht x bij.</strong> <strong>Gaat een grafiek door (0, 50) en (1, 45), dan is de groeifactor 0,9</strong>, dus er gaat elke stap tien procent af. Omgekeerd: <strong>een groeifactor van 1,5 betekent dat er 50 procent per stap bijkomt.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "Hoe de grafiek loopt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Het domein van een exponentiële functie is alle reële getallen</strong>: je mag elke exponent invullen, ook negatieve en gebroken. <strong>Het bereik van f(x) is 4 maal 2 tot de macht x is alle positieve getallen</strong>: de functie wordt zo klein als je wil, maar blijft positief, en ze groeit zonder bovengrens. <strong>De grafiek van een exponentiële functie met positieve beginwaarde blijft helemaal boven de x-as</strong> en <strong>snijdt de x-as nooit</strong>; er is dus geen nulwaarde."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De grafiek van een stijgende exponentiële functie heeft een toenemende stijging</strong>: ze wordt steeds steiler, want elke stap levert meer op dan de vorige. <strong>Een exponentiële functie met groeifactor kleiner dan 1 heeft een afnemende daling</strong>: ze zakt snel in het begin en daarna steeds trager. <strong>Wordt x heel groot bij zo'n dalende functie, dan kruipt ze naar nul toe zonder die te bereiken.</strong> <strong>Zie je een grafiek die traag begint en daarna steeds steiler omhoog schiet, dan past een exponentieel model</strong>: een rechte wordt nooit steiler."
+    }
+   ]
+  },
+  {
+   "kop": "Vergelijken en voorstellen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Hebben twee exponentiële functies dezelfde groeifactor maar beginwaarden 10 en 100, dan ligt de tweede tien keer hoger.</strong> De beginwaarde rekt de grafiek verticaal uit; het groeipercentage per stap blijft hetzelfde. <strong>Verdubbelt de beginwaarde en blijft de groeifactor gelijk, dan verdubbelt elke functiewaarde.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Hebben twee exponentiële functies dezelfde beginwaarde maar groeifactoren 1,1 en 1,5, dan stijgt die met 1,5 het snelst.</strong> Een grotere groeifactor betekent elke stap een grotere vermenigvuldiging."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een exponentiële functie kan je net als elke andere in woorden en in een tabel voorstellen</strong>, niet alleen als grafiek of voorschrift. En <strong>een exponentiële grafiek met ICT tekenen en dan de kenmerken aflezen, mag</strong>: schetsen zonder ICT en nauwkeurig tekenen met ICT horen allebei bij de leerstof."
+    }
+   ]
+  },
+  {
+   "kop": "Waar je ze tegenkomt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een bacteriekolonie die elk uur verdubbelt, past het best bij een exponentieel model</strong>: verdubbelen is vermenigvuldigen. Een loon dat elk jaar 50 euro stijgt, is lineair. <strong>Een rij als 100, 110, 121, 133,1 is exponentieel met factor 1,1</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Op den duur groeit een exponentiële functie sneller dan elke lineaire functie.</strong> In het begin kan de rechte vooroplopen, maar vroeg of laat haalt de exponentiële functie haar in en loopt ze er ver voorbij."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Een exponentieel model blijft niet voor altijd geldig in de werkelijkheid.</strong> Een bevolking of een kolonie loopt tegen grenzen aan, zoals plaats of voedsel. Het model klopt dan alleen in het begin."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "f(x) is b maal a tot de macht x: b is de beginwaarde, a de groeifactor.",
+  "a groter dan 1 stijgt, a tussen 0 en 1 daalt; a is nooit 1 en nooit negatief.",
+  "Domein: alle reële getallen. Bereik: alle positieve getallen.",
+  "De grafiek raakt de x-as nooit.",
+  "Deel in een tabel elk getal door het vorige om de groeifactor te vinden."
+ ]
+}

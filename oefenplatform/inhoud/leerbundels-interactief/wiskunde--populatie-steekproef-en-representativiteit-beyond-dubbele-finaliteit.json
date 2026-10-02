@@ -1,0 +1,100 @@
+{
+ "vak": "Wiskunde",
+ "titel": "Populatie, steekproef en representativiteit",
+ "onder": "Waarom de manier van kiezen zwaarder weegt dan het aantal.",
+ "secties": [
+  {
+   "kop": "De drie woorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De hele groep waarover je iets wil weten, heet de populatie.</strong> <strong>Het deel van de populatie dat je echt onderzoekt, heet de steekproef.</strong> <strong>De variabele is het kenmerk dat je meet</strong>, bijvoorbeeld de lengte, het aantal uren slaap of het merk van de fiets."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Onderzoek</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Populatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Steekproef</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Variabele</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lengte van vijftienjarigen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle vijftienjarigen in België</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie je echt opmeet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de lengte</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">slaap van studenten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle studenten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de bevraagde studenten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uren slaap</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gewicht van zakken van 500 g</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle zakken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tien zakken per uur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het gewicht</td></tr></table>",
+     "onderschrift": "Drie onderzoeken, dezelfde drie begrippen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je werkt met een steekproef omdat de hele populatie meten vaak onmogelijk of te duur is.</strong> Het is een afweging: minder werk, maar wel onzekerheid over het besluit. <strong>Een school van 800 leerlingen die er 80 bevraagt, heeft een steekproef van 10 procent van de populatie.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De notatie houdt steekproef en populatie uit elkaar. <strong>Het steekproefgemiddelde krijgt een streepje boven de x, het populatiegemiddelde de Griekse letter mu.</strong> <strong>De standaardafwijking van een populatie noteer je met de Griekse letter sigma, die van een steekproef met een gewone s.</strong> Je spreekt dan van de populatiestandaardafwijking en de steekproefstandaardafwijking. Zo zie je aan de notatie meteen waar een getal vandaan komt."
+    }
+   ]
+  },
+  {
+   "kop": "Aselect, vertekend, representatief",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een steekproef waarin elk lid van de populatie evenveel kans heeft om gekozen te worden, heet aselect.</strong> Aselect betekent dat het toeval kiest, niet jij. <strong>Namen uit een hoed trekken is zo'n manier</strong>; in de praktijk gebruikt men een toevalsgenerator."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een steekproef waarin bepaalde leden van de populatie bevoordeeld worden, heet vertekend.</strong> Wordt je besluit over de populatie scheefgetrokken door je manier van kiezen, dan heet dat met één woord <strong>vertekening</strong>, soms ook bias genoemd; de oorzaak zit dan in de opzet van het onderzoek, niet in het rekenwerk."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een representatieve steekproef lijkt in haar samenstelling op de populatie</strong>: dezelfde verhoudingen in leeftijd, geslacht of woonplaats. <strong>Daarom kiest men bij een peiling bewust mensen uit elke provincie en elke leeftijdsgroep: om de verhoudingen van de populatie na te bootsen.</strong> <strong>Aselect trekken is geen vervanging van representativiteit</strong>, het is juist de manier om ze waarschijnlijk te maken."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Een grotere steekproef is niet vanzelf representatief.</strong> Grootte helpt tegen toeval, maar niet tegen vertekening: honderdduizend mensen op één festival zeggen nog altijd niets over het hele land. <strong>Een vertekende steekproef kan je dan ook niet rechtzetten door er meer mensen bij te nemen op dezelfde manier</strong>; je moet de manier van kiezen aanpassen. Omgekeerd geldt wel: <strong>is een steekproef aselect, dan maakt een grotere steekproef het besluit betrouwbaarder.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Ook een aselecte steekproef kan door puur toeval scheef uitvallen.</strong> De kans erop wordt kleiner naarmate de steekproef groter is, en dat is iets anders dan een vertekening. <strong>Eén persoon volstaat nooit</strong>, ook niet als die heel gemiddeld lijkt: je weet vooraf niet wie gemiddeld is, en één meting zegt niets over de spreiding."
+    }
+   ]
+  },
+  {
+   "kop": "Waar het misloopt",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Manier van bevragen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wie ontbreekt of te zwaar weegt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alleen leden van de sportclub over sporten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie niet sport; de uitkomst ligt te hoog</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vrijwillige enquête online</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alleen wie zich betrokken voelt, vult ze in</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bellen tussen 9 en 17 uur op een werkdag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie overdag werkt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alleen klanten die iets kochten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de mening van wie niets kocht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ouders bevragen op het oudercontact</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de ouders die niet komen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de baas voert zelf de tevredenheidsgesprekken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mensen antwoorden minder eerlijk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vragenlijst per post met 8 procent respons</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie terugstuurt, kan systematisch anders zijn</td></tr></table>",
+     "onderschrift": "Telkens is het de manier van kiezen die het besluit kleurt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een fabrikant die elke honderdste doos van de band test, neemt een systematische steekproef.</strong> Dat werkt goed, zolang er geen patroon in de productie zit dat met dat ritme meeloopt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Meet een onderzoeker de leeftijd van bezoekers op een rockfestival en besluit hij dat de gemiddelde Belg 24 jaar is, dan veralgemeent hij een bijzondere groep naar iedereen.</strong> Zijn steekproef is prima voor dat festival, maar niet voor het land. <strong>En hoe je de vraag stelt, kan het antwoord beïnvloeden</strong>: een sturende vraag levert sturende antwoorden op."
+    }
+   ]
+  },
+  {
+   "kop": "Wat je ermee mag besluiten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een besluit uit een vertekende steekproef mag je niet op de hele populatie toepassen.</strong> Dan schuift de fout mee naar je conclusie; je kan hoogstens iets zeggen over de groep die oververtegenwoordigd was. <strong>Voorspelt een peiling een uitslag die er ver naast zit, dan ligt het meestal aan een niet-representatieve steekproef</strong>, niet aan de rekenkunde erna."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een steekproef van 1000 mensen kan wel degelijk betrouwbare uitspraken geven over miljoenen mensen</strong>, als ze aselect en representatief is. Dat is precies waarom peilingen met zo'n klein aantal toch werken. <strong>Onderzoekers vermelden hoe groot hun steekproef was omdat het iets zegt over de betrouwbaarheid</strong>, samen met de manier van kiezen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Lees je dat uit een bevraging van 40 mensen blijkt dat 60 procent van de Belgen iets vindt, dan is je eerste vraag: hoe werden die 40 mensen gekozen.</strong> Dat weegt zwaarder dan het aantal."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Statistiek geeft geen zekerheid over de populatie.</strong> Ze geeft een onderbouwde schatting met een zekere betrouwbaarheid. Zekerheid krijg je alleen door iedereen te meten."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Populatie is het geheel, steekproef is wat je meet, variabele is wat je opschrijft.",
+  "Aselect: het toeval kiest. Vertekend: bepaalde leden worden bevoordeeld.",
+  "Groter helpt tegen toeval, niet tegen vertekening.",
+  "Vraag altijd eerst hóé de steekproef gekozen werd.",
+  "Statistiek geeft een schatting, geen zekerheid."
+ ]
+}

@@ -1,0 +1,108 @@
+{
+ "vak": "Wiskunde",
+ "titel": "Lineaire en exponentiële groeimodellen",
+ "onder": "Groeifactor en groeipercentage, verdubbelingstijd en halveringstijd, en waarom procenten niet optellen.",
+ "secties": [
+  {
+   "kop": "Twee soorten groei",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij lineaire groei komt er elke tijdseenheid hetzelfde getal bij.</strong> <strong>Bij exponentiële groei vermenigvuldig je elke tijdseenheid met dezelfde factor</strong>, waardoor het bedrag dat erbij komt zelf ook steeds groter wordt. <strong>Een grafiek van lineaire groei is een rechte</strong>, want elke stap in de tijd levert evenveel op."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De beginwaarde van een groeimodel is de waarde op het tijdstip nul.</strong> <strong>Bij lineaire groei lees je ze af als het snijpunt met de verticale as.</strong> <strong>Een abonnement van 15 euro per maand plus 25 euro aansluiting past dus bij een lineair model met beginwaarde 25.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het kenmerk van lineaire groei is dat er elke tijdseenheid hetzelfde getal bij komt; het kenmerk van exponentiële groei is dat je elke tijdseenheid met dezelfde factor vermenigvuldigt.</strong> Daardoor wordt het bedrag dat erbij komt bij exponentiële groei zelf ook steeds groter."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Reeks</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort groei</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20, 24, 28,8, 34,56</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">exponentieel, factor 1,2</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">60, 55, 50, 45</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lineair, telkens 5 eraf</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">64, 48, 36, 27</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">exponentieel, factor 0,75</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">100, 110, 120, 130</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lineair, telkens 10 erbij</td></tr></table>",
+     "onderschrift": "Toont een tabel zo'n reeks, deel dan elk getal door het vorige of trek het vorige ervan af."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Telt het ene model elke week 10 bij en groeit het andere met 10 procent per week, dan haalt het model met 10 procent het andere op lange termijn in.</strong> Exponentiële groei wint altijd van lineaire groei, al kan dat even duren."
+    }
+   ]
+  },
+  {
+   "kop": "Groeifactor en groeipercentage",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een procentuele toename van p procent per tijdseenheid hoort de groeifactor 1 plus p gedeeld door honderd.</strong> <strong>Bij een afname van p procent hoort 1 min p gedeeld door honderd.</strong> Zo is <strong>de groeifactor bij 7 procent groei per jaar 1,07</strong>, bij <strong>3 procent per maand 1,03</strong>, en bij <strong>20 procent daling per jaar 0,8</strong>. Omgekeerd: <strong>groeifactor 1,25 betekent 25 procent erbij</strong>, <strong>groeifactor 1,1 betekent 10 procent per jaar</strong>, <strong>groeifactor 0,95 betekent dat er 5 procent af gaat</strong> en <strong>een groeifactor van 2 betekent dat er honderd procent bijkomt</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Een groeipercentage van 0 procent hoort bij een groeifactor van 1</strong>, niet van 0. Bij factor 1 verandert er niets; factor 0 zou alles meteen wegvagen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Procenten tellen niet op. <strong>Twee keer tien procent erbij is samen eenentwintig procent, niet twintig</strong>, want 1,1 maal 1,1 is 1,21: de tweede keer reken je op een groter bedrag. Om dezelfde reden <strong>staat een prijs die eerst 20 procent stijgt en daarna 20 procent daalt, níét weer op haar beginwaarde</strong>: 1,2 maal 0,8 is 0,96, dus vier procent lager."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee rekenvoorbeelden. <strong>Stijgt een prijs van 80 naar 100 euro, dan is dat 25 procent.</strong> <strong>Verliest een auto elk jaar 15 procent van zijn waarde, dan is een auto van 20000 euro na een jaar 17000 euro waard.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "Van de ene tijdseenheid naar de andere",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Groeifactoren vermenigvuldig je, dus je zet ze om met machten en wortels, niet met delen. <strong>Een groeifactor van 1,2 per jaar geeft over 2 jaar een factor 1,44</strong> (1,2 maal 1,2), en <strong>een groeifactor van 1,21 per 2 jaar geeft per jaar 1,1</strong> (de wortel eruit)."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Om een groeifactor per jaar om te zetten naar een factor per maand, neem je de twaalfdemachtswortel</strong>, want twaalf maanden na elkaar moeten samen de jaarfactor geven. <strong>Delen door twaalf is dus fout</strong>: delen hoort bij optellen, wortels horen bij vermenigvuldigen. Op dezelfde manier: <strong>ken je de beginwaarde en de waarde na 10 jaar, dan vind je de groeifactor per jaar als de tiendemachtswortel uit hun verhouding</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Intrest, verval en verdubbeling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Intrest die ook op de intrest van vorige jaren berekend wordt, heet samengestelde intrest</strong>; die is exponentieel. <strong>Enkelvoudige intrest hoort bij een lineair model</strong>, want je rekent elk jaar op het beginbedrag. <strong>Zet je 1000 euro aan 10 procent per jaar, dan staat er na 2 jaar 1210 euro</strong>, want het tweede jaar krijg je ook intrest op de intrest van het eerste jaar. <strong>Een bedrag van 500 euro dat met 100 procent per jaar groeit, is na 3 jaar 4000 euro.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De tijd waarna een exponentieel dalende hoeveelheid nog maar de helft bedraagt, heet de halveringstijd.</strong> Bij radioactief verval heet dat de halfwaardetijd. <strong>Heeft een stof een halveringstijd van 5 jaar, dan is er na 15 jaar nog een achtste over</strong>, en <strong>bij een halveringstijd van 8 dagen is er na 16 dagen nog een vierde over</strong>. <strong>Verdubbelt een populatie elke 3 jaar, dan is ze na 9 jaar 8 keer zo groot.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Verdubbelingstijd en halveringstijd hangen allebei alleen van de groeifactor af, niet van de beginwaarde</strong>: of je met 100 of met 1000 begint, de tijd om te verdubbelen blijft dezelfde. <strong>Om die tijd te berekenen gebruik je een logaritme</strong>, want de vraag na hoeveel jaar iets verdubbeld is, is een vraag naar de exponent."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij exponentiële afname bereikt de hoeveelheid nooit precies nul</strong>: je blijft met een factor onder de 1 vermenigvuldigen."
+    }
+   ]
+  },
+  {
+   "kop": "Wat procentuele groei betekent",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Groeit een bevolking met 2 procent per jaar, dan groeit het aantal mensen dat er per jaar bijkomt mee</strong>, want twee procent van een grotere bevolking is een groter aantal. Dat is het verschil met lineaire groei."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>In de werkelijkheid groeit een populatie zelden eindeloos exponentieel.</strong> Plaats, voedsel en ziekte zetten vroeg of laat een rem op de groei, en dan past het model alleen nog op het begin."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Lineair telt op, exponentieel vermenigvuldigt.",
+  "Groeifactor = 1 plus of min het percentage gedeeld door honderd.",
+  "Procenten tellen niet op: 1,1 maal 1,1 is 1,21.",
+  "Tijdseenheid omzetten doe je met een wortel, niet met een deling.",
+  "Verdubbelingstijd en halveringstijd hangen niet van de beginwaarde af."
+ ]
+}

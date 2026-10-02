@@ -1,0 +1,99 @@
+{
+ "vak": "Wiskunde",
+ "titel": "De normale verdeling en de Gausskromme",
+ "onder": "De klokvorm, wat gemiddelde en standaardafwijking eraan doen, en kansen als oppervlakte.",
+ "secties": [
+  {
+   "kop": "De klokvorm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De grafiek van een normale verdeling heeft de vorm van een klok</strong>: hoog in het midden, laag en afvlakkend aan beide kanten. <strong>Die klokvormige kromme heet de Gausskromme.</strong> <strong>Een normale verdeling is symmetrisch rond haar gemiddelde</strong>: links en rechts van de top zien de helften er precies hetzelfde uit. <strong>Daardoor vallen gemiddelde, mediaan en modus samen</strong>, precies in het midden."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Twee getallen leggen een normale verdeling helemaal vast: het gemiddelde en de standaardafwijking.</strong> Je noteert ze met de letter N en die twee getallen tussen haakjes; <strong>het gemiddelde staat als eerste</strong>, de standaardafwijking als tweede. Zo weet een lezer meteen waar de kromme ligt en hoe breed ze is."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De top van de Gausskromme ligt bij het gemiddelde.</strong> <strong>De standaardafwijking bepaalt hoe breed ze is</strong>: een grotere standaardafwijking geeft een bredere en plattere klok, geen hogere en smallere. <strong>Is de lengte van volwassen mannen normaal verdeeld met gemiddelde 178 cm, dan ligt de top bij 178 cm.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Vergelijken gaat dan vanzelf. <strong>Hebben twee Gausskrommen hetzelfde gemiddelde en is de ene veel smaller, dan heeft die smalle de kleinste standaardafwijking</strong>: de waarden kleven dicht bij het gemiddelde. <strong>Zijn ze even breed en ligt de ene meer naar rechts, dan heeft die rechtse het grootste gemiddelde</strong>: verschuiven doet het gemiddelde, uitrekken doet de standaardafwijking. <strong>Hebben twee klassen hetzelfde gemiddelde maar heeft de ene een veel grotere standaardafwijking, dan liggen daar de punten verder uit elkaar</strong>: meer heel sterke én meer heel zwakke resultaten."
+    }
+   ]
+  },
+  {
+   "kop": "Oppervlakte is kans",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De totale oppervlakte onder een Gausskromme is 1</strong>, want alle kansen samen geven 1. <strong>De oppervlakte onder een stuk van de kromme stelt de kans voor dat een waarde in dat stuk valt.</strong> <strong>Daarom blijft die oppervlakte bij elke Gausskromme gelijk aan 1</strong>, en wordt de kromme platter als ze breder wordt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De kans dat een waarde onder het gemiddelde ligt, is 0,5</strong>, want de kromme is symmetrisch. <strong>De kans dat een waarde boven het gemiddelde ligt, is even groot als de kans eronder.</strong> <strong>Heeft een normale verdeling gemiddelde 100, dan is de kans dat een waarde groter is dan 100 dus 0,5.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De kans op precies één waarde kan je niet als oppervlakte berekenen</strong>: één punt heeft geen breedte. Je werkt altijd met een interval, bijvoorbeeld tussen 170 en 180 centimeter. <strong>De normale verdeling is dan ook een continu model: ze werkt met waarden die elke tussenwaarde kunnen aannemen</strong>, zoals lengte, gewicht en tijd."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Op het examen bereken je de kans bij een normaal verdeelde grootheid met de rekenapps.</strong> De oppervlakte onder de kromme is niet met de hand te berekenen; daarvoor is ICT uitdrukkelijk toegelaten. <strong>Wil een fabrikant weten hoeveel procent van zijn zakken onder 490 gram zit, dan berekent hij de oppervlakte onder de kromme links van 490.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "68, 95 en de staarten",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Binnen hoeveel standaardafwijkingen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Welk aandeel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat erbuiten ligt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 68 procent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 32 procent</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 95 procent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 5 procent</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bijna alles</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een heel kleine rest</td></tr></table>",
+     "onderschrift": "De vuistregel die je overal terugziet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Ongeveer 68 procent van de waarden ligt binnen één standaardafwijking van het gemiddelde</strong>, en <strong>ongeveer 95 procent binnen twee</strong>. <strong>Buiten twee standaardafwijkingen ligt dus ongeveer 5 procent</strong>, verdeeld over beide staarten. Daarom noemt men een waarde buiten die grens al snel uitzonderlijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een voorbeeld met lengtes. <strong>Bij gemiddelde 178 cm en standaardafwijking 7 cm ligt ongeveer 68 procent tussen 171 en 185 cm</strong>, en <strong>ongeveer 95 procent tussen 164 en 192 cm</strong>. Een voorbeeld met punten: <strong>bij gemiddelde 60 en standaardafwijking 10 is een score van 85 uitzonderlijk hoog</strong>, want die ligt meer dan twee standaardafwijkingen boven het gemiddelde."
+    },
+    {
+     "soort": "tekst",
+     "html": "En een voorbeeld dat je overal tegenkomt. <strong>Een IQ-test met gemiddelde 100 en standaardafwijking 15 geeft ongeveer 68 procent tussen 85 en 115</strong>, en <strong>ongeveer 2,5 procent boven 130</strong>: buiten twee standaardafwijkingen ligt 5 procent, verdeeld over twee staarten."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een normale verdeling heeft geen begin en geen einde</strong>: de kromme kruipt aan beide kanten eindeloos naar de as toe zonder ze te raken, dus er is geen bereik waarbuiten de kans precies nul is. Heel ver weg wordt de kans wel verwaarloosbaar klein."
+    }
+   ]
+  },
+  {
+   "kop": "Past het model?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Niet elke verzameling gegevens is normaal verdeeld.</strong> Veel wel, maar inkomens bijvoorbeeld zijn scheef verdeeld, met een lange staart naar rechts. <strong>Je beoordeelt of het model past door te kijken of het histogram klokvormig is.</strong> <strong>Een scheef histogram met een lange staart aan één kant past slecht bij een normale verdeling</strong>, want die is symmetrisch. <strong>Heeft een histogram van wachttijden veel korte wachttijden en een lange staart naar rechts, dan past het model niet.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je kan ook de dichtheidsfunctie over het histogram tekenen om te zien of het model past</strong>, met het gemiddelde en de standaardafwijking van je gegevens als schatting. <strong>Die twee gebruik je dus als schatting voor de twee getallen van de normale verdeling</strong>, en <strong>het steekproefgemiddelde geldt als schatting voor het gemiddelde van de populatie</strong>. Dat is de brug tussen je metingen en het model."
+    },
+    {
+     "soort": "weetje",
+     "html": "<strong>Is de vullijn van een machine normaal verdeeld rond 500 gram, dan betekent een kleine standaardafwijking dat de machine heel nauwkeurig vult</strong>: de zakken wijken weinig van 500 gram af."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "De Gausskromme is klokvormig en symmetrisch rond het gemiddelde.",
+  "Het gemiddelde bepaalt waar ze ligt, de standaardafwijking hoe breed ze is.",
+  "De oppervlakte eronder is 1, en een stuk oppervlakte is een kans.",
+  "68 procent binnen één, 95 procent binnen twee standaardafwijkingen.",
+  "Een scheef histogram past niet bij dit model."
+ ]
+}

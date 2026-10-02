@@ -1,0 +1,97 @@
+{
+ "vak": "Wiskunde",
+ "titel": "Machtswortels en machten met rationale exponent",
+ "onder": "Een wortel als macht schrijven, en daarna gewoon de rekenregels gebruiken.",
+ "secties": [
+  {
+   "kop": "Een wortel is een macht",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De vierkantswortel uit 9 betekent hetzelfde als 9 tot de macht 1/2.</strong> Een wortel schrijf je als een macht met een breuk als exponent, en de noemer van die breuk is de wortelexponent. Zo is <strong>9 tot de macht 1/2 gelijk aan 3</strong>, want 3 maal 3 is 9, en <strong>8 tot de macht 1/3 gelijk aan 2</strong>, want dat is de derdemachtswortel uit 8: het getal dat je drie keer met zichzelf vermenigvuldigt om 8 te krijgen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Staat er ook nog een macht onder de wortel, dan komt die in de teller. <strong>De derdemachtswortel uit 5 tot de macht 2 schrijf je als 5 tot de macht 2/3.</strong> De teller is de macht onder de wortel, de noemer is de wortelexponent. Zo is <strong>16 tot de macht 3/4 gelijk aan 8</strong>: de vierdemachtswortel uit 16 is 2, en 2 tot de macht 3 is 8. En <strong>de vierkantswortel uit a tot de macht 5 schrijf je als a tot de macht 5/2</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Elke n-de machtswortel kan je zo schrijven als een macht met een rationale exponent</strong>, en dat is precies waarom het handig is: daarna kan je met de gewone rekenregels verder."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wortelvorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Als macht</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitkomst</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wortel uit 9</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">9 tot de macht 1/2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wortel uit 25</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 tot de macht 1/2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wortel uit 100</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">100 tot de macht 1/2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">derdemachtswortel uit 8</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">8 tot de macht 1/3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">derdemachtswortel uit 27, in het kwadraat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">27 tot de macht 2/3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">9</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vierdemachtswortel uit 81</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">81 tot de macht 1/4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vijfdemachtswortel uit 32</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">32 tot de macht 1/5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wortel uit 4, tot de macht 3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4 tot de macht 3/2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">8</td></tr></table>",
+     "onderschrift": "Dezelfde bewerking, twee schrijfwijzen."
+    },
+    {
+     "soort": "weetje",
+     "html": "<strong>16 tot de macht 1/2 en de vierkantswortel uit 16 geven hetzelfde getal</strong>, namelijk 4. Het zijn twee schrijfwijzen voor dezelfde bewerking."
+    }
+   ]
+  },
+  {
+   "kop": "De rekenregels voor machten",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Regel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zelfde grondtal, vermenigvuldigen: exponenten optellen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2 tot de macht 3 maal 2 tot de macht 4 is 2 tot de macht 7</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zelfde grondtal, delen: exponenten aftrekken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5 tot de macht 7 gedeeld door 5 tot de macht 4 is 5 tot de macht 3</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">macht van een macht: exponenten vermenigvuldigen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(3 tot de macht 2) tot de macht 5 is 3 tot de macht 10</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">macht van een product: over beide factoren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(2 maal 5) tot de macht 3 is 2 tot de macht 3 maal 5 tot de macht 3</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">exponent nul</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">7 tot de macht 0 is 1</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">negatieve exponent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2 tot de macht -3 is 1 gedeeld door 2 tot de macht 3, dus 0,125</td></tr></table>",
+     "onderschrift": "De regels die je overal nodig hebt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De rekenregels voor machten gelden ook als de exponent een breuk is.</strong> Daarom schrijf je een wortel eerst als macht. Zo is <strong>3 tot de macht 1/2 maal 3 tot de macht 1/2 gelijk aan 3</strong> (een half plus een half is één), <strong>a tot de macht 1/2 gedeeld door a tot de macht 1/4 gelijk aan a tot de macht 1/4</strong>, en <strong>6 tot de macht 1/2 maal 6 tot de macht 3/2 gelijk aan 36</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "Twee valkuilen. <strong>Een macht met exponent nul is niet nul maar 1</strong>, zolang het grondtal zelf niet nul is. Zo is 2 tot de macht -3 gelijk aan 1 gedeeld door 8, als decimaal getal 0,125. En <strong>een negatieve exponent maakt de uitkomst niet negatief maar omgekeerd</strong>: 10 tot de macht -2 is 0,01, niet min 100."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee regels die níét bestaan. <strong>Een macht van een som mag je niet over de twee termen verdelen</strong>: (2 + 3) in het kwadraat is 25, terwijl 4 plus 9 maar 13 geeft. En <strong>exponenten optellen mag alleen bij hetzelfde grondtal, niet als de grondtallen verschillen</strong>: 2 tot de macht 3 maal 5 tot de macht 3 geef je anders weer, namelijk als 10 tot de macht 3."
+    }
+   ]
+  },
+  {
+   "kop": "Wat mag onder de wortel?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De vierkantswortel uit een negatief getal bestaat niet binnen de reële getallen</strong>, want geen enkel reëel getal geeft in het kwadraat iets negatiefs. Bij een oneven wortelexponent mag het wel: <strong>de derdemachtswortel uit min 27 is min 3</strong>, want min 3 maal min 3 maal min 3 geeft min 27."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De wortel uit 2 kan je niet als breuk van twee gehele getallen schrijven.</strong> Het is een irrationaal getal: de decimalen stoppen niet en herhalen zich niet."
+    }
+   ]
+  },
+  {
+   "kop": "Schatten en afronden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Je kan een wortel vaak al inklemmen zonder toestel. <strong>De wortel uit 50 ligt tussen 7 en 8</strong>, want 7 in het kwadraat is 49 en 8 in het kwadraat is 64. <strong>De derdemachtswortel uit 100 ligt tussen 4 en 5</strong>, want 4 tot de macht 3 is 64 en 5 tot de macht 3 is 125."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarna reken je nauwkeurig verder. <strong>Geeft je rekentoestel 2,2360679… als wortel uit 5 en worden er twee cijfers na de komma gevraagd, dan noteer je 2,24</strong>, want het derde cijfer is een 6. <strong>De wortel uit 10 afgerond op één cijfer na de komma is 3,2.</strong> En <strong>je mag een tussenresultaat niet zomaar afronden voor je verder rekent</strong>: elke afronding onderweg maakt de afwijking groter."
+    }
+   ]
+  },
+  {
+   "kop": "Waar je het tegenkomt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een kubus met een inhoud van 64 kubieke centimeter heeft een ribbe van 4 centimeter</strong>: de ribbe is de derdemachtswortel uit de inhoud. <strong>Een vierkant perk met een oppervlakte van 169 vierkante meter heeft een zijde van 13 meter</strong>: de zijde is de vierkantswortel uit de oppervlakte."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een wortel is een macht met een breuk als exponent; de wortelexponent is de noemer.",
+  "Zelfde grondtal: optellen bij vermenigvuldigen, aftrekken bij delen.",
+  "Exponent nul geeft 1, een negatieve exponent geeft het omgekeerde.",
+  "Een macht van een som verdelen mag niet.",
+  "Rond pas op het einde af."
+ ]
+}

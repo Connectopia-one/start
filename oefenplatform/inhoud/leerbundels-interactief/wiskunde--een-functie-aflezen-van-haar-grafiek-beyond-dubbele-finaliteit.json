@@ -1,0 +1,109 @@
+{
+ "vak": "Wiskunde",
+ "titel": "Een functie aflezen van haar grafiek",
+ "onder": "Domein, bereik, nulwaarden, tekenverloop, verloopschema en wat ze betekenen in de situatie erachter.",
+ "secties": [
+  {
+   "kop": "Vier manieren om dezelfde functie te tonen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Verwoording, tabel, grafiek en voorschrift horen bij elkaar</strong>: dezelfde functie kan je in woorden zeggen, in een tabel zetten, tekenen of als formule schrijven. <strong>Een functievoorschrift en een tabel van dezelfde functie kunnen elkaar niet tegenspreken</strong>; doen ze dat toch, dan zit er een fout in een van beide."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Heb je een tabel en wil je er een grafiek van maken, dan zet je de koppels als punten uit en verbindt ze: elk koppel uitzetten en verbinden geeft het verloop.</strong> <strong>De twee getallen tussen haakjes die de plaats van een punt aangeven, heten de coördinaten</strong>: het eerste is de x-waarde, het tweede de functiewaarde. <strong>Een grafiek schetsen zonder ICT betekent niet dat ze helemaal op schaal moet zijn</strong>: bij een schets gaat het om de vorm. Nauwkeurig tekenen doe je met ICT, en <strong>dat mag op het examen</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Domein en bereik",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Het domein is de verzameling van alle x-waarden waarvoor een functie bestaat</strong>, en je schrijft het als dom f. <strong>Het bereik is de verzameling van alle functiewaarden die een functie aanneemt</strong>, geschreven als ber f. <strong>Het bereik lees je af op de verticale as</strong>, het domein op de horizontale."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Loopt een grafiek van x is 1 tot x is 10 en nergens anders, dan is het domein alle getallen van 1 tot en met 10.</strong> <strong>Schommelt de temperatuur in een koelkast elke twintig minuten tussen 3 en 6 graden, dan is het bereik van 3 tot 6 graden</strong>; twintig minuten is de periode. <strong>Twee functies met hetzelfde bereik kunnen een heel verschillende grafiek hebben</strong>, want het bereik zegt alleen welke waarden voorkomen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het stuk van het domein dat in de gegeven situatie zinvol is, heet het praktisch domein.</strong> <strong>Het kan kleiner zijn dan het wiskundige domein</strong>: wiskundig mag x negatief zijn, maar als x het aantal verkochte stuks is, begint het praktisch domein bij nul. Er bestaat ook een praktisch bereik, op dezelfde manier."
+    }
+   ]
+  },
+  {
+   "kop": "Nulwaarden, nulpunten en snijpunten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een nulwaarde is de x-waarde van een snijpunt met de x-as</strong>; <strong>een nulpunt is de coördinaat van dat snijpunt</strong>. De nulwaarde is dus één getal, het nulpunt is het hele koppel: (3, 0) is een nulpunt, 3 is de nulwaarde."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een functie kan meerdere nulwaarden hebben</strong>, want de grafiek mag de x-as zo vaak snijden als ze wil. <strong>Ligt een grafiek tussen x is 0 en x is 8 boven de x-as en daarbuiten eronder, dan zijn de nulwaarden 0 en 8.</strong> <strong>Twee snijpunten met de y-as kan niet</strong>: bij één x-waarde hoort hoogstens één functiewaarde. <strong>Een functie heeft dus precies één snijpunt met de y-as, of geen</strong> als nul buiten het domein valt. <strong>Snijdt een grafiek de y-as in (0, 5), dan is de functiewaarde bij x is 0 gelijk aan 5.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "Tekenverloop en verloopschema",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Het overzicht dat weergeeft waar een grafiek boven en waar ze onder de x-as ligt, heet het tekenverloop.</strong> <strong>Een plusteken in het tekenverloop betekent dat de grafiek daar boven de x-as ligt</strong>, een min dat ze eronder ligt en een nul dat ze de as snijdt. <strong>Een verticale streep betekent dat de functie daar niet gedefinieerd is</strong>; voor een heel interval gebruik je drie schuine strepen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het overzicht dat weergeeft waar een functie stijgt, waar ze daalt en waar ze een top bereikt, heet het verloopschema.</strong> Daarin staan min en max. <strong>Staat er min op x is 3, dan bereikt de functie daar een minimum</strong> — pas op, een min in het tekenverloop betekent iets anders, namelijk onder de x-as."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Symbool</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">In het tekenverloop</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">In het verloopschema</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">+</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de grafiek ligt boven de x-as</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">−</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de grafiek ligt onder de x-as</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de grafiek snijdt de x-as</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">|</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de functie is daar niet gedefinieerd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">///</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de functie bestaat op dat interval niet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">min</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de functie bereikt een minimum</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">max</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de functie bereikt een maximum</td></tr></table>",
+     "onderschrift": "Dezelfde tekens, twee verschillende schema's."
+    }
+   ]
+  },
+  {
+   "kop": "Stijgen, dalen en toppen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een functie die daalt, heeft niet overal negatieve functiewaarden</strong>: dalen zegt iets over de richting, niet over het teken. Een grafiek kan van 10 naar 2 zakken en de hele tijd boven de x-as blijven. <strong>Een constante functie stijgt noch daalt</strong>: haar grafiek is een horizontale rechte."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Loopt een grafiek eerst omhoog, bereikt ze een top en gaat ze dan omlaag, dan is die top een maximum.</strong> <strong>Een maximum of een minimum heet met één woord een extremum</strong>; het meervoud is extrema."
+    },
+    {
+     "soort": "tekst",
+     "html": "Hoe een grafiek stijgt, zegt nog iets extra. <strong>Stijgt ze steeds steiler, dan heet dat een toenemende stijging</strong>: niet alleen de waarde groeit, ook de snelheid waarmee ze groeit. <strong>Een grafiek die stijgt met een afnemende stijging, gaat nog altijd omhoog</strong>, alleen steeds trager. <strong>Daalt ze en wordt ze daarbij steeds minder steil, dan heet dat een afnemende daling</strong>; vaak kruipt de grafiek dan naar een vaste waarde toe."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee andere kenmerken komen erbij. <strong>Is de grafiek links en rechts van de y-as elkaars spiegelbeeld, dan is de functie symmetrisch.</strong> <strong>Herhaalt een grafiek zich elke 24 uur precies op dezelfde manier, dan heet die 24 uur de periode.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "Wat het betekent in de situatie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Demathematiseren betekent dat je de wiskundige term vertaalt naar de situatie. <strong>Toont de grafiek de winst in functie van het aantal geproduceerde stuks, dan is een nulwaarde het aantal stuks waarbij de winst nul is</strong>: het break-evenpunt. <strong>Snijdt die winstgrafiek de x-as bij 400 stuks, dan begint de winst vanaf 400 stuks</strong>; onder de x-as is er verlies."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Stijgt de grafiek van de hartslag in functie van de tijd tussen minuut 2 en minuut 5, dan gaat de hartslag in die minuten omhoog</strong> — stijgen slaat op de verandering, niet op de hoogte. <strong>Bereikt de grafiek van het aantal bezoekers per uur om 15 uur haar hoogste punt, dan ligt daar het maximum.</strong> En <strong>daalt de grafiek van de tijd die je nodig hebt in functie van je snelheid, dan betekent sneller rijden minder tijd</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Domein op de horizontale as, bereik op de verticale.",
+  "Nulwaarde is één getal, nulpunt is een koppel.",
+  "Tekenverloop zegt boven of onder de x-as, verloopschema zegt stijgen of dalen.",
+  "Hoogstens één snijpunt met de y-as, zoveel nulwaarden als je wil.",
+  "Vertaal elk kenmerk terug naar de situatie van de opgave."
+ ]
+}
