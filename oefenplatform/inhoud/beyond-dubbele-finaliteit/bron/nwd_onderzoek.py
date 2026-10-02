@@ -1,0 +1,417 @@
+# -*- coding: utf-8 -*-
+"""🌍 Beyond dubbele finaliteit — Veilig werken, meten en onderzoeken.
+
+De kop "Wetenschappelijk onderzoek en STEM" uit de vakfiche natuurwetenschappen
+3DU. Deel 1 gaat over veilig en duurzaam werken en over de meetinstrumenten:
+P- en H-zinnen, afval, meetbereik, nauwkeurigheid en correct aflezen. Deel 2
+gaat over grootheden en eenheden, over de verbanden tussen grootheden, en over
+de stappen van een onderzoek en van een ontwerp.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat staat er in een H-zin op een etiket?",
+        opties=[
+            "waarom de stof gevaarlijk is",
+            "welke voorzorgen je moet nemen",
+            "hoe je de stof moet bewaren",
+            "waar de stof gemaakt werd",
+        ],
+        antwoord=0,
+        uitleg="De H staat voor hazard, dus gevaar: de zin beschrijft wat er mis kan gaan. Wat je zelf moet doen, staat in de P-zinnen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat staat er in een P-zin op een etiket?",
+        opties=[
+            "welke voorzorgen je moet nemen",
+            "waarom de stof gevaarlijk is",
+            "uit welke stoffen het product bestaat",
+            "hoeveel het product mag kosten",
+        ],
+        antwoord=0,
+        uitleg="De P staat voor precaution, dus voorzorg: handschoenen dragen, buiten bereik van kinderen houden, niet inademen. De H-zinnen zeggen waarom dat nodig is.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een H-zin vertelt je welke voorzorgsmaatregelen je moet nemen.",
+        antwoord=False,
+        uitleg="Dat doet een P-zin. Een H-zin beschrijft juist het gevaar van de stof.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke werkwijzen horen bij veilig en duurzaam werken? Er zijn er twee.",
+        opties=[
+            "een gemorst product onmiddellijk opkuisen",
+            "glaswerk na gebruik schoonmaken en wegzetten",
+            "een elektrisch toestel met natte handen bedienen",
+            "glasscherven met de blote hand oprapen",
+        ],
+        antwoord=[0, 1],
+        uitleg="Opkuisen en opruimen voorkomen ongevallen bij jou en bij wie na jou komt. Natte handen en blote vingers bij scherven zijn juist de klassieke fouten.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom bedien je een elektrisch toestel nooit met natte handen?",
+        opties=[
+            "water geleidt de stroom en je kan een schok krijgen",
+            "water maakt het toestel onherstelbaar vuil",
+            "water verhoogt de weerstand van het toestel",
+            "water doet de zekering onnodig uitvallen",
+        ],
+        antwoord=0,
+        uitleg="Door het water loopt de stroom veel makkelijker door je lichaam. Daarom droog je je handen af voor je een stekker of schakelaar aanraakt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe ruim je glasscherven veilig op?",
+        opties=[
+            "met een borstel en een blad, in een harde doos",
+            "met je blote handen, stuk per stuk",
+            "met een natte doek over de tafel",
+            "met je voet naar de rand van het lokaal",
+        ],
+        antwoord=0,
+        uitleg="Zo raak je het glas niet aan en snijdt niemand zich later aan de vuilnisbak. Scherven horen niet bij het gewone restafval in een zak.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Je kuist een gemorst product onmiddellijk op.",
+        antwoord=True,
+        uitleg="Wie later langskomt, weet niet wat er ligt en kan uitglijden of iets op zijn huid krijgen. Opkuisen hoort bij het experiment, niet bij het opruimen achteraf.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je het gebied tussen de kleinste en de grootste waarde die een meettoestel kan meten?",
+        antwoord=["meetbereik", "het meetbereik", "bereik"],
+        uitleg="Buiten het meetbereik klopt de meting niet meer, en vaak gaat het toestel stuk. Daarom kijk je altijd eerst of je meting erin past.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je balans meet tot 500 g, maar je moet 2 kg wegen. Wat doe je?",
+        opties=[
+            "je zoekt een balans met een groter meetbereik",
+            "je weegt het in vier keer op dezelfde balans",
+            "je legt het voorzichtig op de balans en leest af",
+            "je schat de massa en noteert je schatting",
+        ],
+        antwoord=0,
+        uitleg="Boven het meetbereik geeft de balans geen betrouwbare waarde meer en kan ze beschadigd raken. Een geschikt toestel kiezen hoort bij correct meten.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je wil een temperatuurverschil van een halve graad meten. Welke thermometer kies je?",
+        opties=[
+            "een thermometer met streepjes van 0,1 °C",
+            "een thermometer met streepjes van 1 °C",
+            "een thermometer met streepjes van 2 °C",
+            "een thermometer met streepjes van 5 °C",
+        ],
+        antwoord=0,
+        uitleg="Je kiest een toestel dat nauwkeuriger is dan het verschil dat je wil zien. Met streepjes van één graad lees je een halve graad niet af.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat doe je voor je een massa op een digitale balans afleest?",
+        opties=[
+            "de balans met het leeg recipiënt op nul zetten",
+            "de balans met het volle recipiënt op nul zetten",
+            "het recipiënt eerst met water bevochtigen",
+            "de balans tot aan het einde van haar bereik vullen",
+        ],
+        antwoord=0,
+        uitleg="Door op nul te zetten weeg je alleen de stof en niet het potje eromheen. Dat scheelt vaak meer dan de massa die je wil meten.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Je leest een maatbeker af op ooghoogte, aan de onderkant van de meniscus.",
+        antwoord=True,
+        uitleg="Van bovenaf of van onderaf kijken geeft een vertekend beeld. Het vloeistofoppervlak staat hol, en de onderkant van die holte is de juiste lijn.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarmee meet je hoe lang een proef duurt?",
+        opties=[
+            "een chronometer",
+            "een manometer",
+            "een multimeter",
+            "een decibelmeter",
+        ],
+        antwoord=0,
+        uitleg="Een chronometer meet tijd. Een manometer meet druk, een multimeter spanning en stroom, en een decibelmeter het geluidsniveau.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke voorzorgen neem je bij een bunsenbrander? Er zijn er twee.",
+        opties=[
+            "lange haren vastbinden",
+            "losse kledij en mouwen wegsteken",
+            "de vlam met je hand doven",
+            "de brander op een blad papier zetten",
+        ],
+        antwoord=[0, 1],
+        uitleg="Haar en losse stof vatten heel snel vuur boven een open vlam. Je doet de brander uit met de gaskraan, en de ondergrond is hittebestendig.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom zet je een meetinstrument uit als je even niet meet?",
+        opties=[
+            "om energie te sparen en het toestel te sparen",
+            "om de nauwkeurigheid tijdelijk te verhogen",
+            "om het meetbereik groter te maken",
+            "om de meting achteraf te kunnen herhalen",
+        ],
+        antwoord=0,
+        uitleg="Een toestel dat nodeloos aan staat, verbruikt stroom of batterij en verslijt sneller. Duurzaam werken zit ook in dat soort kleine gewoonten.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Hygiënisch omgaan met biologisch materiaal hoort bij veilig werken.",
+        antwoord=True,
+        uitleg="In biologisch materiaal kunnen micro-organismen zitten. Handschoenen, handen wassen en materiaal apart houden horen daar dus bij.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat doe je met de restproducten van een proef?",
+        opties=[
+            "sorteren volgens de aanwijzingen op het etiket",
+            "alles samen in de gewone vuilnisbak gooien",
+            "alles met veel water in de gootsteen gieten",
+            "alles bewaren tot niemand het nog nodig heeft",
+        ],
+        antwoord=0,
+        uitleg="Het etiket en de P-zinnen zeggen waar het afval hoort, vaak bij het klein gevaarlijk afval. Zo komt er niets in het riool dat daar niet thuishoort.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom gebruik je zo weinig chemische stoffen als mogelijk?",
+        opties=[
+            "minder verbruik geeft minder afval en minder risico",
+            "minder verbruik maakt de meting nauwkeuriger",
+            "minder verbruik versnelt elke reactie",
+            "minder verbruik verlengt het meetbereik",
+        ],
+        antwoord=0,
+        uitleg="Elke milliliter die je niet gebruikt, hoeft niet gemaakt en niet verwerkt te worden. Dat is zowel veiliger als duurzamer.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Met welk toestel meet je de massa van een stof?",
+        antwoord=["balans", "een balans", "weegschaal"],
+        uitleg="Een balans meet massa in gram of kilogram. Vergeet niet eerst het lege recipiënt af te trekken.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Je mag een meetinstrument boven zijn meetbereik gebruiken zolang je voorzichtig doet.",
+        antwoord=False,
+        uitleg="Buiten het bereik is de waarde niet betrouwbaar, en vaak beschadig je het toestel. Je neemt dan een toestel met een groter bereik.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat is de SI-eenheid van massa?",
+        opties=[
+            "de kilogram",
+            "de gram",
+            "de newton",
+            "de liter",
+        ],
+        antwoord=0,
+        uitleg="De kilogram is bij uitzondering een basiseenheid met een voorvoegsel erin. De newton is de eenheid van kracht, de liter die van volume.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke van deze eenheden zijn SI-basiseenheden? Er zijn er twee.",
+        opties=[
+            "de meter",
+            "de seconde",
+            "de liter",
+            "de graad Celsius",
+        ],
+        antwoord=[0, 1],
+        uitleg="Meter en seconde horen bij de zeven basiseenheden, samen met onder andere de kilogram, de kelvin en de ampère. De liter en de graad Celsius zijn afgeleide of afgesproken eenheden.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoeveel meter is 2,5 km?",
+        opties=[
+            "2500 m",
+            "250 m",
+            "25 000 m",
+            "0,0025 m",
+        ],
+        antwoord=0,
+        uitleg="Kilo betekent duizend, dus je vermenigvuldigt met 1000. Tweeënhalve kilometer is 2500 meter.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoeveel gram is 500 mg?",
+        opties=[
+            "0,5 g",
+            "5 g",
+            "50 g",
+            "0,05 g",
+        ],
+        antwoord=0,
+        uitleg="Milli betekent een duizendste, dus je deelt door 1000. Vijfhonderd milligram is een halve gram.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat betekent het voorvoegsel micro?",
+        opties=[
+            "een miljoenste",
+            "een duizendste",
+            "een miljard keer kleiner",
+            "een miljoen keer groter",
+        ],
+        antwoord=0,
+        uitleg="Micro staat voor een miljoenste deel. Milli is een duizendste en nano een miljardste.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Welk voorvoegsel gebruik je voor duizend keer een eenheid?",
+        antwoord=["kilo", "k", "kilo-"],
+        uitleg="Kilo betekent duizend, zoals in kilometer en kilogram. Een miljoen keer is mega.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Het voorvoegsel milli betekent een duizendste van de eenheid.",
+        antwoord=True,
+        uitleg="Duizend milliliter is dus één liter. Kilo betekent omgekeerd duizend keer de eenheid.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoeveel joule is 2 MJ?",
+        opties=[
+            "2 000 000 J",
+            "2000 J",
+            "200 000 J",
+            "20 000 000 J",
+        ],
+        antwoord=0,
+        uitleg="Mega betekent een miljoen, dus je vermenigvuldigt met 1 000 000. Twee megajoule is dus twee miljoen joule.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat betekent het dat twee grootheden recht evenredig zijn?",
+        opties=[
+            "verdubbelt de ene, dan verdubbelt de andere",
+            "verdubbelt de ene, dan halveert de andere",
+            "de som van beide blijft altijd gelijk",
+            "het verschil tussen beide blijft altijd gelijk",
+        ],
+        antwoord=0,
+        uitleg="Het quotiënt van de twee blijft dan constant. In een grafiek krijg je een rechte lijn door de oorsprong.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat betekent het dat twee grootheden omgekeerd evenredig zijn?",
+        opties=[
+            "verdubbelt de ene, dan halveert de andere",
+            "verdubbelt de ene, dan verdubbelt de andere",
+            "beide grootheden blijven altijd even groot",
+            "beide grootheden stijgen met hetzelfde getal",
+        ],
+        antwoord=0,
+        uitleg="Het product van de twee blijft dan constant. In een grafiek krijg je een kromme die naar beide assen toe buigt.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Bij een recht evenredig verband gaat de rechte door de oorsprong van de grafiek.",
+        antwoord=True,
+        uitleg="Is de ene grootheid nul, dan is de andere dat ook. Een rechte die de as hoger snijdt, hoort bij een lineair maar niet recht evenredig verband.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een hypothese?",
+        opties=[
+            "een verwachting die je met je proef kan testen",
+            "het besluit dat je na je proef opschrijft",
+            "de vraag waarmee je onderzoek begint",
+            "de lijst materialen die je nodig hebt",
+        ],
+        antwoord=0,
+        uitleg="Een hypothese is een voorspelling die juist of fout kan blijken. Precies daarom kan je ze testen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat kenmerkt een goede onderzoeksvraag? Er zijn er twee.",
+        opties=[
+            "ze is scherp afgebakend",
+            "je kan ze met metingen beantwoorden",
+            "ze is zo breed mogelijk gesteld",
+            "ze bevat al het antwoord dat je verwacht",
+        ],
+        antwoord=[0, 1],
+        uitleg="Hoe scherper de vraag, hoe duidelijker wat je moet meten. Een vraag als is water gezond, kan je met geen enkele proef beantwoorden.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke stappen horen bij wetenschappelijk onderzoek? Er zijn er twee.",
+        opties=[
+            "een hypothese formuleren",
+            "data verzamelen en analyseren",
+            "het besluit vooraf vastleggen",
+            "de metingen aanpassen aan je verwachting",
+        ],
+        antwoord=[0, 1],
+        uitleg="Je gaat van probleemstelling en onderzoeksvraag over hypothese en plan naar meten, analyseren en besluiten. Het besluit komt uit de data, nooit omgekeerd.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Passen je metingen niet bij je hypothese, dan pas je de metingen aan.",
+        antwoord=False,
+        uitleg="De metingen zijn wat ze zijn; de hypothese mag fout blijken. Metingen bijwerken is geen onderzoek meer.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom verander je in een proef maar één factor tegelijk?",
+        opties=[
+            "anders weet je niet wat het verschil veroorzaakt",
+            "anders duurt de proef veel te lang",
+            "anders heb je te veel materiaal nodig",
+            "anders kan je de grafiek niet tekenen",
+        ],
+        antwoord=0,
+        uitleg="Verander je er twee, dan kan het resultaat van beide komen. Al de rest gelijk houden is daarom de kern van een eerlijke proef.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Voor een vaccin was kennis nodig van de werking van het virus, van de koeling en van de verspreidingscijfers. Wat toont dat?",
+        opties=[
+            "de STEM-domeinen werken samen aan één probleem",
+            "wiskunde volstaat voor elk probleem",
+            "techniek staat los van wetenschappelijke kennis",
+            "een maatschappelijk probleem hoort niet bij STEM",
+        ],
+        antwoord=0,
+        uitleg="Wetenschap, technologie, engineering en wiskunde leveren elk een stuk van de oplossing. Grote maatschappelijke vragen zijn bijna nooit van één vak alleen.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je het besluit dat je aan het einde van een onderzoek uit je gegevens haalt?",
+        antwoord=["conclusie", "de conclusie", "besluit"],
+        uitleg="De conclusie is het antwoord op je onderzoeksvraag, en ze volgt uit de data. Daarna kijk je nog terug op je methode en vertel je wat je vond.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je hebt een probleem gedefinieerd en wil een oplossing ontwerpen. Wat is de volgende stap?",
+        opties=[
+            "criteria opstellen waaraan de oplossing moet voldoen",
+            "meteen de eerste oplossing uitvoeren",
+            "het probleem opnieuw ruimer formuleren",
+            "de kostprijs van het eindproduct berekenen",
+        ],
+        antwoord=0,
+        uitleg="Met criteria kan je achteraf nagaan of je oplossing deugt. Daarna splits je het probleem indien nodig op in deelproblemen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een onderzoek waarvan de uitkomst je hypothese tegenspreekt, is mislukt.",
+        antwoord=False,
+        uitleg="Zo'n onderzoek leert je juist iets: je verwachting was fout. Je noteert dat en stelt een nieuwe hypothese op.",
+    ),
+]

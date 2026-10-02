@@ -2609,6 +2609,3549 @@
           "uitleg": "Met weinig individuen is er weinig genetische variatie. Komt er een ziekte of een verandering, dan is de kans klein dat iemand toevallig past."
         }
       ]
+    },
+    {
+      "titel": "Productlabels, pictogrammen en risico's van stoffen — deel 1",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat lees je af van een gevarenpictogram?",
+          "opties": [
+            "welk soort gevaar de stof oplevert",
+            "hoeveel de stof weegt",
+            "hoe duur de stof is",
+            "hoe lang de stof houdbaar is"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het pictogram vat het gevaar samen in één beeld: bijtend, ontvlambaar, giftig. De H-zinnen schrijven dat gevaar daarna in woorden uit."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Waarvoor staat de H in een H-zin op een etiket?",
+          "antwoord": [
+            "hazard",
+            "gevaar",
+            "hazard of gevaar"
+          ],
+          "uitleg": "H staat voor hazard, het Engelse woord voor gevaar. Een H-zin zegt dus wat er mis kan gaan, bijvoorbeeld dat een stof ernstig oogletsel veroorzaakt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat staat er in een P-zin?",
+          "opties": [
+            "wat je moet doen om veilig met de stof om te gaan",
+            "welk gevaar de stof oplevert",
+            "uit welke elementen de stof bestaat",
+            "in welk land de stof gemaakt werd"
+          ],
+          "antwoord": 0,
+          "uitleg": "P staat voor precaution of voorzorg. Een P-zin zegt bijvoorbeeld dat je handschoenen draagt, of wat je doet als de stof in je ogen komt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk pictogram hoort bij een stof die de huid wegvreet?",
+          "opties": [
+            "het pictogram voor bijtend of corrosief",
+            "het pictogram voor ontvlambaar",
+            "het pictogram voor oxiderend",
+            "het pictogram voor gassen onder druk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bijtend of corrosief wordt getekend met een druppel die een hand en een oppervlak aantast. Ontstopper en sterk zoutzuur dragen dat teken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent het pictogram voor oxiderende stoffen?",
+          "opties": [
+            "de stof kan een brand voeden of versterken",
+            "de stof is zelf heel gemakkelijk ontvlambaar",
+            "de stof is gevaarlijk voor het waterleven",
+            "de stof staat onder hoge druk in de fles"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een oxiderende stof geeft zuurstof af. Ze brandt zelf niet goed, maar laat andere stoffen veel feller branden, en daarom staat ze nooit bij brandbare producten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een stof met het pictogram voor gassen onder druk mag je nooit in de zon laten staan.",
+          "antwoord": true,
+          "uitleg": "Warmte doet de druk in de fles stijgen, en dan kan ze barsten. Daarom bewaar je spuitbussen koel en nooit bij een warmtebron."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is geconcentreerde ontstopper corrosief en verdunde ontstopper alleen irriterend?",
+          "opties": [
+            "hoe hoger de concentratie, hoe sterker het effect",
+            "verdunnen verandert de stof in een andere stof",
+            "verdunde ontstopper bevat een ander bestanddeel",
+            "verdunde ontstopper verdampt veel sneller"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het is dezelfde stof, maar er zitten minder deeltjes in hetzelfde volume. De dosis bepaalt dus mee hoe gevaarlijk iets is."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Dezelfde stof kan in een andere concentratie een ander gevarenpictogram krijgen.",
+          "antwoord": true,
+          "uitleg": "Op een geconcentreerd product staat soms bijtend, op het verdunde product irriterend. Het etiket hoort dus altijd bij die bepaalde verpakking."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe bewaar je een ontvlambare stof zoals thinner?",
+          "opties": [
+            "goed gesloten, koel en ver van vuur",
+            "open, zodat de damp kan ontsnappen",
+            "in de buurt van de verwarming",
+            "in een glas zonder deksel in de kast"
+          ],
+          "antwoord": 0,
+          "uitleg": "De damp is het gevaar, niet de vloeistof zelf. Goed sluiten houdt de damp binnen, en koel bewaren zorgt dat er minder damp ontstaat."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een restje chemisch product hoort bij het klein gevaarlijk afval en niet in de gootsteen.",
+          "antwoord": true,
+          "uitleg": "Veel van die stoffen zijn schadelijk voor het water en voor de waterzuivering. Daarom worden ze apart ingezameld in het containerpark."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Waar breng je een halfvolle fles ontstopper of verf naartoe?",
+          "antwoord": [
+            "kga",
+            "klein gevaarlijk afval",
+            "containerpark"
+          ],
+          "uitleg": "Kga staat voor klein gevaarlijk afval. Dat wordt apart ingezameld, want het mag niet bij het restafval of in het riool terechtkomen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk afval hoort bij het gft? Er zijn er twee.",
+          "opties": [
+            "aardappelschillen",
+            "gemaaid gras",
+            "een lege conservenblik",
+            "een verfrestje"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Gft staat voor groente-, fruit- en tuinafval. Een blik gaat bij het pmd of het metaal, en verf hoort bij het klein gevaarlijk afval."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar staat de afkorting pmd voor?",
+          "opties": [
+            "plastic verpakkingen, metaal en drankkartons",
+            "papier, metaal en droog afval",
+            "plastic, modder en drankflessen",
+            "papier, mondmaskers en doosjes"
+          ],
+          "antwoord": 0,
+          "uitleg": "In de blauwe zak mogen plastic verpakkingen, metalen verpakkingen en drankkartons. Plastic voorwerpen die geen verpakking zijn, horen er niet bij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent het cijfer in de driehoek van pijltjes op een plastic verpakking?",
+          "opties": [
+            "uit welke kunststof de verpakking gemaakt is",
+            "hoeveel keer de verpakking al hergebruikt is",
+            "hoeveel jaar de verpakking meegaat",
+            "hoeveel procent ervan gerecycleerd werd"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het is een identificatiecode: 1 is PET, 2 is HDPE, 5 is PP, enzovoort. Sorteerinstallaties gebruiken die codes om soorten uit elkaar te halen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De driehoek van pijltjes met een cijfer erin betekent dat de verpakking zeker gerecycleerd wordt.",
+          "antwoord": false,
+          "uitleg": "De code zegt alleen uit welke kunststof ze gemaakt is. Of ze echt gerecycleerd wordt, hangt af van de inzameling en van de installaties in je streek."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke kunststof hoort bij de recyclagecode 1, de code van de meeste drinkflessen?",
+          "antwoord": [
+            "PET",
+            "pet",
+            "polyethyleentereftalaat"
+          ],
+          "uitleg": "PET is helder, sterk en licht. Het is een van de best gerecycleerde kunststoffen, en van oude flessen worden nieuwe flessen of vezels gemaakt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je krijgt twee ontvetters. De ene draagt het pictogram bijtend, de andere alleen irriterend. Welke kies je om thuis te gebruiken?",
+          "opties": [
+            "de irriterende, want die geeft minder ernstige schade",
+            "de bijtende, want die werkt altijd beter",
+            "het maakt geen verschil, de stof is dezelfde",
+            "de bijtende, want irriterend zegt niets"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij gelijke werking kies je altijd het minst gevaarlijke product. Bijtend betekent blijvende schade aan huid en ogen, irriterend betekent voorbijgaande hinder."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je mag ontstopper en bleekwater gerust samen in dezelfde afvoer gieten.",
+          "antwoord": false,
+          "uitleg": "Zulke producten kunnen met elkaar reageren en giftige gassen of veel warmte geven. Op het etiket staat daarom een P-zin die het mengen uitdrukkelijk afraadt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat hoort bij de voorzorgen die je op een etiket terugvindt? Er zijn er drie.",
+          "opties": [
+            "handschoenen dragen",
+            "buiten het bereik van kinderen houden",
+            "bij contact met de ogen spoelen met water",
+            "het product zo snel mogelijk opgebruiken"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "P-zinnen gaan over beschermen, bewaren en wat te doen bij een ongeval. Snel opgebruiken is geen voorzorg; dat zou je juist tot onnodig gebruik aanzetten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een product overgieten in een lege drankfles is een veilige manier om het te bewaren.",
+          "antwoord": false,
+          "uitleg": "Dan zit het product in een verpakking zonder etiket, zonder pictogram en met het uitzicht van iets drinkbaars. Dat is een van de grootste oorzaken van vergiftigingen thuis."
+        }
+      ]
+    },
+    {
+      "titel": "Productlabels, pictogrammen en risico's van stoffen — deel 2",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het kookpunt van een stof?",
+          "opties": [
+            "de temperatuur waarbij ze overgaat van vloeistof naar gas",
+            "de temperatuur waarbij ze overgaat van vast naar vloeibaar",
+            "de temperatuur waarbij ze vlam vat",
+            "de temperatuur waarbij ze uit elkaar valt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij het kookpunt verdampt de hele vloeistof, niet alleen het oppervlak. Het smeltpunt is de overgang van vast naar vloeibaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is aceton zo geschikt om glaswerk snel droog te maken?",
+          "opties": [
+            "het heeft een laag kookpunt en verdampt dus vlot",
+            "het heeft een hoog kookpunt en blijft dus staan",
+            "het bindt het water chemisch aan zich",
+            "het laat een beschermlaagje achter op het glas"
+          ],
+          "antwoord": 0,
+          "uitleg": "Aceton kookt al bij ongeveer zesenvijftig graden en verdampt dus snel bij kamertemperatuur. Datzelfde lage kookpunt maakt het ook erg brandbaar."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een stof met een laag kookpunt is meestal gemakkelijk ontvlambaar.",
+          "antwoord": true,
+          "uitleg": "Ze verdampt vlot, dus er staat altijd damp boven de vloeistof. En het is die damp die vlam vat, niet de vloeistof zelf."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je zoekt een stof die bij kamertemperatuur vast is. Waar let je op?",
+          "opties": [
+            "het smeltpunt ligt boven de kamertemperatuur",
+            "het kookpunt ligt onder de kamertemperatuur",
+            "het smeltpunt ligt onder het vriespunt",
+            "het kookpunt en het smeltpunt liggen gelijk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zolang het niet warm genoeg is om te smelten, blijft de stof vast. Ligt het smeltpunt eronder, dan is ze bij kamertemperatuur al vloeibaar."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe luidt de vuistregel over oplossen, in drie woorden?",
+          "antwoord": [
+            "soort lost soort",
+            "gelijk lost gelijk",
+            "soort lost op"
+          ],
+          "uitleg": "Soort lost soort op: wateroplosbare stoffen lossen op in water, vetoplosbare in organische oplosmiddelen. Daarom helpt water niet tegen een vetvlek."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke oplosmiddelen zijn vetoplosbaar of organisch? Er zijn er drie.",
+          "opties": [
+            "thinner",
+            "terpentine",
+            "white spirit",
+            "water"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Thinner, terpentine, white spirit en wasbenzine zijn organische oplosmiddelen en lossen vet en verf op. Water doet juist het omgekeerde en lost zouten en suikers op."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je hebt een vetvlek van olie op je kleren. Waarmee verdwijnt die het best?",
+          "opties": [
+            "met een vetoplosbaar oplosmiddel of afwasmiddel",
+            "met koud water alleen",
+            "met een scheutje azijn",
+            "met keukenzout en warm water"
+          ],
+          "antwoord": 0,
+          "uitleg": "Olie is vetoplosbaar en mengt niet met water. Een organisch oplosmiddel lost ze op, en afwasmiddel pakt haar aan omdat het aan de ene kant op vet lijkt en aan de andere kant op water."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een stof die goed in water oplost, lost meestal ook goed op in thinner.",
+          "antwoord": false,
+          "uitleg": "Het is net omgekeerd. Wat in water oplost, lost doorgaans niet op in een organisch oplosmiddel, en dat is precies wat de regel soort lost soort op zegt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar ligt de pH van een zure stof?",
+          "opties": [
+            "onder 7",
+            "boven 7",
+            "precies op 7",
+            "boven 14"
+          ],
+          "antwoord": 0,
+          "uitleg": "De schaal loopt van 0 tot 14. Onder 7 is zuur, boven 7 basisch, en precies 7 is neutraal, zoals zuiver water."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke pH heeft een neutrale stof zoals zuiver water?",
+          "antwoord": [
+            "7",
+            "pH 7",
+            "zeven"
+          ],
+          "uitleg": "Zeven is het midden van de schaal. Daar zijn er evenveel zure als basische deeltjes aanwezig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke kleur krijgt rode koolsap, een zuur-base indicator, in een zure vloeistof?",
+          "opties": [
+            "rood tot roze",
+            "groen tot geel",
+            "diepblauw",
+            "kleurloos"
+          ],
+          "antwoord": 0,
+          "uitleg": "Rode koolsap kleurt rood in zuur, paars tot blauw bij neutraal en groen tot geel in base. Zo lees je met één druppel af waarmee je te maken hebt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een indicator geeft met een kleur aan of een stof zuur of basisch is.",
+          "antwoord": true,
+          "uitleg": "De indicator verandert van kleur bij een bepaalde pH. Universeel indicatorpapier combineert er zelfs meerdere, zodat je de pH ongeveer kan aflezen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke stoffen zijn zuren? Er zijn er drie.",
+          "opties": [
+            "azijnzuur in huishoudazijn",
+            "citroenzuur in citroensap",
+            "zoutzuur in maagsap",
+            "ammoniak in een glasreiniger"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Azijnzuur, citroenzuur en zoutzuur hebben een pH onder 7. Ammoniak is juist basisch en heeft een pH boven 7."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom pak je een partje citroen beter niet in aluminiumfolie?",
+          "opties": [
+            "het zuur reageert met het aluminium",
+            "het zuur maakt de folie te koud",
+            "de folie maakt het zuur sterker",
+            "de folie lost op in het sap van de citroen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zuren tasten aluminium aan. Er ontstaan gaatjes in de folie en er komen aluminiumverbindingen in het voedsel terecht, en dat wil je niet opeten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Zuren worden ook in voeding gebruikt, bijvoorbeeld als bewaarmiddel.",
+          "antwoord": true,
+          "uitleg": "Azijnzuur in augurken en citroenzuur in frisdrank houden bacteriën tegen en geven smaak. Of een zuur gevaarlijk is, hangt af van welk zuur en van de concentratie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doe je als een bijtende stof op je huid komt?",
+          "opties": [
+            "meteen lang spoelen met veel water",
+            "eerst met een doek stevig afwrijven",
+            "er een zuur over gieten om te neutraliseren",
+            "wachten tot de stof vanzelf opdroogt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Spoelen verdunt de stof en voert ze af. Neutraliseren met een tegengestelde stof geeft warmte en maakt de schade erger, en wrijven wrijft de stof juist in."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom staat op een fles ethanol het pictogram voor ontvlambaar?",
+          "opties": [
+            "de damp erboven kan vlam vatten",
+            "de vloeistof wordt vanzelf warm",
+            "de fles staat onder druk",
+            "de stof reageert met water"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ethanol verdampt vlot en de damp mengt zich met de lucht. Een vonk volstaat dan, en daarom hou je zo'n fles ver van een vlam."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het kookpunt van een stof zegt niets over hoe gevaarlijk ze kan zijn.",
+          "antwoord": false,
+          "uitleg": "Het zegt er juist veel over. Een laag kookpunt betekent veel damp, dus meer kans op ontvlammen en op inademen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je moet kiezen tussen twee producten die even goed werken. Welk argument is doorslaggevend?",
+          "opties": [
+            "het product met het minst zware gevarenpictogram",
+            "het product in de grootste verpakking",
+            "het product met de felste kleur op het etiket",
+            "het product met de langste H-zin"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij gelijke werking kies je het minst gevaarlijke product, voor jezelf en voor het milieu. Verpakkingsgrootte en kleur zeggen niets over het risico."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je een stof met een pH boven 7?",
+          "antwoord": [
+            "base",
+            "basisch",
+            "een base"
+          ],
+          "uitleg": "Basen voelen glibberig aan en zijn in hoge concentratie net zo bijtend als sterke zuren. Ontstopper en bijtende soda zijn er voorbeelden van."
+        }
+      ]
+    },
+    {
+      "titel": "Voedingsbestanddelen en etiketten — deel 1",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen een voedingsstof en een voedingsmiddel?",
+          "opties": [
+            "een voedingsmiddel is wat je eet, een voedingsstof zit erin",
+            "een voedingsstof is wat je eet, een voedingsmiddel zit erin",
+            "een voedingsstof komt enkel uit planten",
+            "een voedingsmiddel bevat altijd maar één stof"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een appel is een voedingsmiddel; de koolhydraten, vitaminen en vezels erin zijn de voedingsstoffen. Bijna elk voedingsmiddel bevat er meerdere tegelijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke voedingsstoffen leveren energie? Er zijn er drie.",
+          "opties": [
+            "koolhydraten",
+            "vetten",
+            "eiwitten",
+            "water"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Koolhydraten, vetten en eiwitten leveren kilojoules. Water, mineralen en vitaminen zijn onmisbaar, maar leveren geen energie."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je een koolhydraat dat uit één suikermolecule bestaat, zoals glucose?",
+          "antwoord": [
+            "monosacharide",
+            "een monosacharide",
+            "monosaccharide"
+          ],
+          "uitleg": "Mono betekent één. Glucose en fructose zijn monosachariden, en je lichaam kan ze meteen opnemen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is zetmeel?",
+          "opties": [
+            "een lange keten van suikermoleculen",
+            "een enkele suikermolecule",
+            "een keten van aminozuren",
+            "een vetzuur met een lange staart"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zetmeel is een polysacharide: honderden glucosemoleculen aan elkaar. Planten slaan hun energie zo op, in aardappelen, graan en rijst."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom geeft zetmeel trager energie dan glucose?",
+          "opties": [
+            "de lange keten moet eerst afgebroken worden",
+            "zetmeel bevat minder energie per gram",
+            "zetmeel lost helemaal niet op in water",
+            "zetmeel wordt in de maag niet opgenomen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je verteringssap moet de keten eerst knippen tot losse glucosemoleculen. Dat kost tijd, en daardoor komt de suiker geleidelijk in je bloed."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Glucose en fructose komen sneller in je bloed dan zetmeel.",
+          "antwoord": true,
+          "uitleg": "Ze zijn al losse moleculen en hoeven niet geknipt te worden. Daarom helpt fruit sneller tegen een energiedip dan een boterham."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je gaat zo meteen een uur lopen. Wat eet je het best een paar uur vooraf?",
+          "opties": [
+            "iets met zetmeel, zoals pasta of brood",
+            "iets met veel losse suiker, zoals snoep",
+            "iets met veel vet, zoals een portie frieten",
+            "enkel een glas water zonder meer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zetmeel geeft zijn glucose geleidelijk af, en dat houdt je energie lang op peil. Losse suiker geeft een korte piek en daarna weer een dip."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke voedingsmiddelen zijn rijk aan zetmeel? Er zijn er drie.",
+          "opties": [
+            "aardappelen",
+            "rijst",
+            "brood",
+            "olijfolie"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Aardappelen, rijst, pasta en brood zijn de klassieke zetmeelbronnen. Olijfolie bestaat zo goed als volledig uit vet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waaruit bestaat een eiwit?",
+          "opties": [
+            "uit aminozuren",
+            "uit vetzuren",
+            "uit suikermoleculen",
+            "uit mineralen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een eiwit is een keten aminozuren. Je lichaam breekt de eiwitten uit je voeding af tot losse aminozuren en bouwt daarmee zijn eigen eiwitten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de belangrijkste functie van eiwitten in het lichaam?",
+          "opties": [
+            "ze bouwen en herstellen weefsels",
+            "ze isoleren het lichaam tegen de kou",
+            "ze vervoeren zuurstof naar de longen",
+            "ze regelen het gehalte aan mineralen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Spieren, huid, haar, enzymen en antistoffen zijn allemaal eiwitten. Ze leveren wel energie, maar dat is niet waarvoor je lichaam ze eerst gebruikt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke voedingsstof is de belangrijkste bouwstof van je spieren?",
+          "antwoord": [
+            "eiwitten",
+            "eiwit",
+            "proteïnen"
+          ],
+          "uitleg": "Spierweefsel bestaat grotendeels uit eiwit. Daarom hoort er bij groeien en bij sporten voldoende eiwit in de voeding."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is kenmerkend voor een onverzadigd vetzuur?",
+          "opties": [
+            "er zit minstens één dubbele binding in de keten",
+            "de keten bevat alleen enkelvoudige bindingen",
+            "de keten is altijd veel korter",
+            "het bevat geen koolstofatomen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Door de dubbele binding krijgt de keten een knik, en passen de moleculen minder goed op elkaar. Daardoor is zo'n vet meestal vloeibaar bij kamertemperatuur."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Verzadigde vetten zijn bij kamertemperatuur meestal vloeibaar.",
+          "antwoord": false,
+          "uitleg": "Het is net omgekeerd: boter en kokosvet zijn vast, en de onverzadigde olijfolie en zonnebloemolie zijn vloeibaar. Dat verschil zie je gewoon aan tafel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke voedingsmiddelen zijn rijk aan onverzadigde vetten? Er zijn er twee.",
+          "opties": [
+            "olijfolie",
+            "noten",
+            "roomboter",
+            "een kaantje spek"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Plantaardige oliën, noten en vette vis leveren vooral onverzadigde vetten. Boter en vet vlees leveren vooral verzadigde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor dienen vetten in het lichaam? Er zijn er drie.",
+          "opties": [
+            "energie opslaan",
+            "het lichaam isoleren tegen de kou",
+            "bepaalde vitaminen opnemen",
+            "zuurstof door het bloed vervoeren"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Vet is de voorraadkast, de deken en het vervoermiddel voor de vitaminen A, D, E en K. Zuurstof vervoeren doet hemoglobine, een eiwit."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Water levert geen energie, maar is toch onmisbaar.",
+          "antwoord": true,
+          "uitleg": "Water levert geen kilojoules, maar zonder water werkt geen enkele reactie in je lichaam. Je lichaam bestaat er voor ongeveer zestig procent uit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor heb je calcium nodig?",
+          "opties": [
+            "voor stevige botten en tanden",
+            "voor het vervoer van zuurstof",
+            "voor de aanmaak van vitamine C",
+            "voor de isolatie tegen de kou"
+          ],
+          "antwoord": 0,
+          "uitleg": "Calcium is een mineraal dat het skelet stevig maakt. Melkproducten, groene groenten en noten zijn er goede bronnen van."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk mineraal heb je nodig om hemoglobine te maken, de stof die zuurstof vervoert?",
+          "antwoord": [
+            "ijzer",
+            "Fe",
+            "het ijzer"
+          ],
+          "uitleg": "Zonder ijzer kan je lichaam te weinig hemoglobine maken en krijg je bloedarmoede. Rood vlees, peulvruchten en groene groenten leveren het aan."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Vitaminen leveren energie aan het lichaam.",
+          "antwoord": false,
+          "uitleg": "Vitaminen leveren geen kilojoules. Ze zijn wel onmisbaar omdat ze reacties in je lichaam mogelijk maken, en je hebt er maar heel kleine hoeveelheden van nodig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat laat de voedingsdriehoek zien?",
+          "opties": [
+            "waarvan je veel mag eten en waarvan beter weinig",
+            "hoeveel kilojoules elk voedingsmiddel bevat",
+            "welke volgorde je bij een maaltijd aanhoudt",
+            "welke stoffen samen in één gerecht passen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De driehoek zet voeding in zones: water en plantaardige voeding binnen de grote groep, sterk bewerkte producten in de restgroep buiten de driehoek."
+        }
+      ]
+    },
+    {
+      "titel": "Voedingsbestanddelen en etiketten — deel 2",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke volgorde staan de ingrediënten op een etiket?",
+          "opties": [
+            "van het meest naar het minst aanwezige",
+            "van het minst naar het meest aanwezige",
+            "in alfabetische volgorde",
+            "in de volgorde waarin ze toegevoegd zijn"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het eerste ingrediënt zit er het meest in. Staat suiker helemaal vooraan, dan weet je meteen hoeveel het product bevat."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Staat suiker als eerste in de ingrediëntenlijst, dan bevat het product er veel van.",
+          "antwoord": true,
+          "uitleg": "De lijst is geordend op hoeveelheid. Vooraan betekent dus dat er van die stof het meest in zit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe herken je de allergenen in een ingrediëntenlijst?",
+          "opties": [
+            "ze staan in het vet of met hoofdletters",
+            "ze staan altijd onderaan apart",
+            "ze staan tussen haakjes achteraan",
+            "ze staan nooit op het etiket vermeld"
+          ],
+          "antwoord": 0,
+          "uitleg": "De wet verplicht de veertien bekendste allergenen, zoals gluten, melk, noten en soja, duidelijk te laten opvallen in de lijst."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarop slaat de energiewaarde op een etiket meestal?",
+          "opties": [
+            "op honderd gram of honderd milliliter",
+            "op de volledige verpakking",
+            "op één gram van het product",
+            "op de dagelijkse behoefte van een volwassene"
+          ],
+          "antwoord": 0,
+          "uitleg": "Per honderd gram, zodat je producten eerlijk kan vergelijken. Daarnaast staat er soms ook de waarde per portie, en die portie is niet altijd wat jij opschept."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In welke eenheid staat de energiewaarde van voeding meestal op het etiket?",
+          "antwoord": [
+            "kilojoule",
+            "kJ",
+            "kilojoules"
+          ],
+          "uitleg": "Kilojoule is de officiële eenheid; de kilocalorie staat er meestal naast. Eén kilocalorie is ongeveer 4,2 kilojoule."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat zegt de nutriscore?",
+          "opties": [
+            "hoe gezond de samenstelling van een product is",
+            "hoeveel het product op het milieu weegt",
+            "hoe lang het product houdbaar is",
+            "waar het product vandaan komt"
+          ],
+          "antwoord": 0,
+          "uitleg": "De nutriscore weegt gunstige bestanddelen zoals vezels en eiwit tegen ongunstige zoals suiker, zout en verzadigd vet. Hij loopt van een groene A tot een rode E."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat telt mee in de ecoscore?",
+          "opties": [
+            "de belasting van het milieu over de hele levenscyclus",
+            "alleen de hoeveelheid suiker en zout",
+            "alleen de prijs in de winkel",
+            "alleen de houdbaarheidsdatum"
+          ],
+          "antwoord": 0,
+          "uitleg": "De ecoscore kijkt naar de hele weg van het product: teelt, verwerking, verpakking en vervoer. Daarna komen er bonussen en malussen bij."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de hele weg van een product, van grondstof tot afval?",
+          "antwoord": [
+            "levenscyclus",
+            "de levenscyclus",
+            "levensloop"
+          ],
+          "uitleg": "De levenscyclus loopt van teelt of ontginning over productie en gebruik tot afval. De ecoscore rekent die hele weg mee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat kan een bonus opleveren in de ecoscore? Er zijn er twee.",
+          "opties": [
+            "een biologische teelt",
+            "een goed recycleerbare verpakking",
+            "transport met het vliegtuig",
+            "een verpakking in meerdere lagen plastic"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Bonussen gaan naar een gunstige teelt en een goede verpakking. Vliegtransport en moeilijk te sorteren verpakkingen geven juist een malus."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Nutriscore en ecoscore meten hetzelfde.",
+          "antwoord": false,
+          "uitleg": "De nutriscore gaat over jouw gezondheid, de ecoscore over het milieu. Een product kan een goede nutriscore hebben en toch zwaar wegen op het milieu."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee producten zijn even voedzaam. Het ene komt van hier, het andere is overgevlogen. Wat volgt daaruit?",
+          "opties": [
+            "het product van hier haalt een betere ecoscore",
+            "het product van hier haalt een betere nutriscore",
+            "beide producten halen dezelfde ecoscore",
+            "het overgevlogen product is altijd verser"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vliegtransport weegt zwaar in de levenscyclus. De nutriscore verandert er niet door, want de samenstelling blijft dezelfde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je hebt midden in de namiddag een energiedip. Wat helpt het snelst?",
+          "opties": [
+            "een stuk fruit",
+            "een handvol noten",
+            "een boterham met kaas",
+            "een glas water"
+          ],
+          "antwoord": 0,
+          "uitleg": "Fruit bevat glucose en fructose, die meteen opgenomen worden. Noten en brood geven trager energie, en water geeft er helemaal geen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een product met nutriscore A mag je in onbeperkte hoeveelheden eten.",
+          "antwoord": false,
+          "uitleg": "De nutriscore vergelijkt producten binnen dezelfde groep en zegt niets over hoeveel je eet. De hoeveelheid blijft dus altijd meetellen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op een etiket staat: suiker 32 g per 100 g. Wat betekent dat?",
+          "opties": [
+            "bijna een derde van het product is suiker",
+            "er zit 32 gram suiker in de verpakking",
+            "je mag er 32 gram per dag van eten",
+            "er zit 32 procent minder suiker in dan gewoonlijk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Per honderd gram betekent per honderd gram product. Tweeëndertig van die honderd gram is dus suiker, en dat is bijna een derde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een pot van 250 gram bevat 32 gram suiker per 100 gram. Hoeveel suiker zit er in de hele pot?",
+          "opties": [
+            "80 g",
+            "32 g",
+            "64 g",
+            "128 g"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je rekent 32 maal 2,5, want 250 gram is twee en een halve keer honderd gram. Dat geeft tachtig gram suiker in de volledige pot."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het systeem met de letters A tot E dat zegt hoe gezond de samenstelling is?",
+          "antwoord": [
+            "nutriscore",
+            "de nutriscore",
+            "nutri-score"
+          ],
+          "uitleg": "De nutriscore staat vooraan op de verpakking, met een gekleurde letter van A tot E. Hij helpt vooral om twee producten uit dezelfde groep te vergelijken."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een etiket moet vermelden hoeveel energie, vet, koolhydraten, eiwit en zout het product bevat.",
+          "antwoord": true,
+          "uitleg": "Die voedingswaardetabel is verplicht in Europa. Daardoor kan je producten op dezelfde manier naast elkaar leggen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom staat op veel verpakkingen dat het product sporen van noten kan bevatten?",
+          "opties": [
+            "in dezelfde fabriek worden ook noten verwerkt",
+            "er zitten altijd een paar noten in het product",
+            "noten verbeteren de houdbaarheid",
+            "de wet verplicht die zin op elk etiket"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het is een waarschuwing voor onbedoelde vermenging via dezelfde machines. Voor wie zwaar allergisch is, is dat een echt risico."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke bestanddelen trekken de nutriscore naar beneden? Er zijn er drie.",
+          "opties": [
+            "veel suiker",
+            "veel zout",
+            "veel verzadigd vet",
+            "veel vezels"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Suiker, zout en verzadigd vet zijn de ongunstige punten. Vezels, eiwit, fruit en groenten tellen juist in de gunstige richting."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De ecoscore van een product hangt mee af van zijn verpakking.",
+          "antwoord": true,
+          "uitleg": "De verpakking hoort bij de levenscyclus. Een goed recycleerbare verpakking levert een bonus op, een moeilijk te sorteren verpakking een malus."
+        }
+      ]
+    },
+    {
+      "titel": "Dosis en concentratie van stoffen — deel 1",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen de dosis en de concentratie van een stof?",
+          "opties": [
+            "de dosis is hoeveel je binnenkrijgt, de concentratie hoe sterk het is",
+            "de dosis is hoe sterk het is, de concentratie hoeveel je binnenkrijgt",
+            "de dosis geldt voor vaste stoffen, de concentratie voor vloeistoffen",
+            "de dosis staat op het etiket, de concentratie moet je altijd meten"
+          ],
+          "antwoord": 0,
+          "uitleg": "De concentratie is een eigenschap van het product: hoeveel stof er in het mengsel zit. De dosis is wat er in jouw lichaam terechtkomt, en die hangt ook af van hoeveel je ervan neemt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de concentratie-uitdrukking die zegt hoeveel gram stof er in 100 gram mengsel zit?",
+          "antwoord": [
+            "massaprocent",
+            "het massaprocent",
+            "massapercentage"
+          ],
+          "uitleg": "Massaprocent vergelijkt massa met massa. Vijf massaprocent betekent vijf gram stof in elke honderd gram mengsel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Op een fles wijn staat 12 % vol. Wat betekent dat?",
+          "opties": [
+            "12 mL alcohol in elke 100 mL wijn",
+            "12 g alcohol in elke 100 g wijn",
+            "12 mL alcohol in de hele fles",
+            "12 g alcohol per glas van 100 mL"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vol staat voor volumeprocent, en dat vergelijkt volume met volume. In elke honderd milliliter wijn zit dus twaalf milliliter alcohol."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een flesje bier bevat 250 mL en 5 % vol alcohol. Hoeveel alcohol zit erin?",
+          "opties": [
+            "12,5 mL",
+            "5 mL",
+            "25 mL",
+            "50 mL"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je rekent 5 procent van 250 milliliter, dus 250 maal 0,05. Dat geeft 12,5 milliliter alcohol."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een fles wijn van 750 mL bevat 12 % vol alcohol. Hoeveel alcohol zit er in de hele fles?",
+          "opties": [
+            "90 mL",
+            "12 mL",
+            "75 mL",
+            "120 mL"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je rekent 750 maal 0,12. Dat geeft negentig milliliter, dus zeven keer zoveel als in het flesje bier van hiervoor."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Volumeprocent wordt vooral gebruikt als je twee vloeistoffen mengt.",
+          "antwoord": true,
+          "uitleg": "Bij vloeistoffen is het volume het makkelijkst te meten. Daarom staat op drank een volumeprocent en niet een massaprocent."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je lost 15 g zout op in water en krijgt 300 g pekel. Wat is het massaprocent zout?",
+          "opties": [
+            "5 %",
+            "15 %",
+            "20 %",
+            "45 %"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je deelt 15 door 300 en maakt er procent van: 0,05 maal 100 is vijf procent. Let op dat je deelt door de massa van de hele oplossing, niet door die van het water alleen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In welke eenheid druk je een massaconcentratie meestal uit?",
+          "antwoord": [
+            "g/L",
+            "gram per liter",
+            "g per L",
+            "g/l"
+          ],
+          "uitleg": "Massaconcentratie vergelijkt een massa met een volume, dus gram per liter. Bij heel kleine hoeveelheden gebruik je milligram per liter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je lost 20 g suiker op in water tot 500 mL drank. Wat is de massaconcentratie?",
+          "opties": [
+            "40 g/L",
+            "20 g/L",
+            "10 g/L",
+            "100 g/L"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vijfhonderd milliliter is een halve liter, dus in een volle liter zou er dubbel zoveel zitten. Twintig gedeeld door 0,5 is veertig gram per liter."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De concentratie van een product zegt op zich nog niet hoeveel je ervan binnenkrijgt.",
+          "antwoord": true,
+          "uitleg": "Daarvoor moet je ook weten hoeveel je ervan neemt. Een klein glas van een sterke drank kan evenveel alcohol bevatten als een groot glas van een zwakke."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze uitdrukkingen zijn concentratie-uitdrukkingen? Er zijn er drie.",
+          "opties": [
+            "massaprocent",
+            "volumeprocent",
+            "massaconcentratie",
+            "lichaamsgewicht"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Die drie vergelijken de hoeveelheid stof met de hoeveelheid mengsel. Het lichaamsgewicht hoort bij de dosis, niet bij de concentratie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Geconcentreerde ontstopper is bijtend, verdunde ontstopper enkel irriterend. Wat leer je daaruit?",
+          "opties": [
+            "het gevaar van een stof hangt af van de concentratie",
+            "het gevaar van een stof hangt enkel af van de soort stof",
+            "verdunnen maakt elke stof volledig onschadelijk",
+            "een bijtende stof is na verdunnen niet meer dezelfde stof"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het is dezelfde stof, maar hoe sterker ze is, hoe meer schade ze doet. Daarom staat er bij een sterker product ook een zwaarder pictogram op."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Dezelfde stof kan een ander gevarenpictogram krijgen als de concentratie verandert.",
+          "antwoord": true,
+          "uitleg": "Een sterk product is bijtend, een verdund product irriterend. Daarom verschilt het pictogram op een professionele fles van dat op een huishoudelijke."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een drankje bevat 2 g vitamine C per 250 mL. Wat is de massaconcentratie?",
+          "opties": [
+            "8 g/L",
+            "2 g/L",
+            "4 g/L",
+            "0,5 g/L"
+          ],
+          "antwoord": 0,
+          "uitleg": "Tweehonderdvijftig milliliter is een kwart liter, dus in een volle liter zit vier keer zoveel. Twee maal vier is acht gram per liter."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Vijf massaprocent betekent vijf gram stof per liter mengsel.",
+          "antwoord": false,
+          "uitleg": "Massaprocent rekent per honderd gram, niet per liter. Vijf gram per liter is een massaconcentratie, en dat is een andere uitdrukking."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het getal op een fles drank dat zegt welk deel van het volume alcohol is?",
+          "antwoord": [
+            "alcoholpercentage",
+            "het alcoholpercentage",
+            "volumeprocent"
+          ],
+          "uitleg": "Het alcoholpercentage is een volumeprocent. Het staat op elke fles, meestal met de afkorting vol erbij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Twee glazen bevatten dezelfde drank. Het ene is 100 mL, het andere 200 mL. Wat is juist?",
+          "opties": [
+            "in het grote glas zit twee keer zoveel alcohol",
+            "in beide glazen zit evenveel alcohol",
+            "in het kleine glas is de concentratie dubbel zo hoog",
+            "in het grote glas is de concentratie dubbel zo hoog"
+          ],
+          "antwoord": 0,
+          "uitleg": "De concentratie is in beide glazen dezelfde, want het is dezelfde drank. Het volume verdubbelt, dus de hoeveelheid alcohol ook."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat moet je kennen om te berekenen hoeveel alcohol er in een glas zit? Er zijn er twee.",
+          "opties": [
+            "het volume van het glas",
+            "het alcoholpercentage van de drank",
+            "de temperatuur van de drank",
+            "de prijs van de fles"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Je vermenigvuldigt het volume met het percentage. Temperatuur en prijs veranderen niets aan de hoeveelheid alcohol."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een fles van 1 L bevat een oplossing van 30 g/L zout. Hoeveel zout zit er in 200 mL?",
+          "opties": [
+            "6 g",
+            "30 g",
+            "15 g",
+            "3 g"
+          ],
+          "antwoord": 0,
+          "uitleg": "Tweehonderd milliliter is een vijfde van een liter, dus je deelt dertig door vijf. Dat geeft zes gram zout."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Hoe hoger de concentratie van een oplossing, hoe minder stof er in elke liter zit.",
+          "antwoord": false,
+          "uitleg": "Het is net omgekeerd: een hogere concentratie betekent meer stof in dezelfde hoeveelheid mengsel. Verdunnen verlaagt de concentratie."
+        }
+      ]
+    },
+    {
+      "titel": "Dosis en concentratie van stoffen — deel 2",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de hoeveelheid van een stof die je elke dag zonder gevaar binnen mag krijgen?",
+          "antwoord": [
+            "ADI",
+            "aanvaardbare dagelijkse inname",
+            "ADH"
+          ],
+          "uitleg": "ADI staat voor acceptable daily intake, de aanvaardbare dagelijkse inname. Ze wordt uitgedrukt per kilogram lichaamsgewicht."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is de ADI uitgedrukt per kilogram lichaamsgewicht?",
+          "opties": [
+            "een zwaarder lichaam verdraagt meer van een stof",
+            "een zwaarder lichaam verdraagt juist minder van een stof",
+            "het lichaamsgewicht bepaalt de concentratie van de stof",
+            "zo hoeft er geen aparte waarde per stof berekend te worden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een stof verdeelt zich over je hele lichaam, dus in een groter lichaam wordt dezelfde hoeveelheid meer verdund. Daarom mag een volwassene meer dan een kind."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De ADI van een zoetstof is 7 mg per kg lichaamsgewicht per dag. Hoeveel mag een kind van 30 kg?",
+          "opties": [
+            "210 mg per dag",
+            "7 mg per dag",
+            "30 mg per dag",
+            "37 mg per dag"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je rekent 7 maal 30, want elke kilogram mag zeven milligram. Dat geeft 210 milligram per dag."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de LD50 van een stof?",
+          "opties": [
+            "de dosis waarbij de helft van de proefdieren sterft",
+            "de dosis waarbij de helft van de stof afgebroken is",
+            "de helft van de aanvaardbare dagelijkse inname",
+            "de dosis waarbij de helft van de stof opgelost is"
+          ],
+          "antwoord": 0,
+          "uitleg": "LD staat voor lethale dosis, en 50 voor de helft. Het is een maat om de giftigheid van stoffen met elkaar te vergelijken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De LD50 van een stof is 2000 mg per kg. Welke dosis is dat voor een mens van 60 kg?",
+          "opties": [
+            "120 g",
+            "2 g",
+            "12 g",
+            "33 g"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je rekent 2000 maal 60, dat is 120 000 milligram. Milligram omzetten naar gram doe je door duizend keer te delen, dus 120 gram."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een stof met een lage LD50 is giftiger dan een stof met een hoge LD50.",
+          "antwoord": true,
+          "uitleg": "Bij een lage LD50 is er maar een kleine hoeveelheid nodig voor hetzelfde effect. Hoe lager het getal, hoe giftiger de stof dus is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Stof A heeft een LD50 van 50 mg per kg, stof B van 5000 mg per kg. Wat volgt daaruit?",
+          "opties": [
+            "stof A is honderd keer giftiger dan stof B",
+            "stof B is honderd keer giftiger dan stof A",
+            "beide stoffen zijn even giftig per kilogram",
+            "stof B werkt honderd keer sneller dan stof A"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van stof A is honderd keer minder nodig voor hetzelfde effect. De LD50 zegt niets over hoe snel een stof werkt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De ADI geldt per dag en per kilogram lichaamsgewicht.",
+          "antwoord": true,
+          "uitleg": "Daarom moet je altijd met je eigen gewicht rekenen. Dezelfde ADI geeft voor een kind van 20 kilogram een veel kleinere hoeveelheid dan voor een volwassene."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvan hangt het af of een stof jou schade doet? Er zijn er twee.",
+          "opties": [
+            "hoeveel je ervan binnenkrijgt",
+            "hoeveel je zelf weegt",
+            "hoe duur de stof was",
+            "in welke kleur de verpakking is"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "De dosis en je lichaamsgewicht bepalen samen hoeveel er per kilogram in je lichaam komt. Prijs en verpakking veranderen daar niets aan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een drank bevat 40 g suiker per liter. Hoeveel suiker krijg je binnen met een glas van 200 mL?",
+          "opties": [
+            "8 g",
+            "40 g",
+            "20 g",
+            "4 g"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je neemt een vijfde van een liter, dus een vijfde van veertig gram. Dat is acht gram: de concentratie maal het volume geeft de dosis."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je kan de dosis die je binnenkrijgt gewoon van het etiket aflezen, zonder te rekenen.",
+          "antwoord": false,
+          "uitleg": "Op het etiket staat de concentratie, meestal per honderd gram of per liter. Hoeveel je werkelijk binnenkrijgt, moet je er zelf bij rekenen met de hoeveelheid die je neemt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Waar staat de afkorting LD in LD50 voor?",
+          "antwoord": [
+            "lethale dosis",
+            "letale dosis",
+            "dodelijke dosis"
+          ],
+          "uitleg": "De lethale dosis is de dodelijke dosis. Het getal 50 zegt dat de helft van de proefdieren bij die dosis stierf."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een stof met een hoge LD50 kan je zonder zorgen in elke hoeveelheid gebruiken.",
+          "antwoord": false,
+          "uitleg": "Een hoge LD50 betekent alleen dat er veel van nodig is voor een dodelijke dosis. Ook keukenzout en water worden schadelijk als je er genoeg van binnenkrijgt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zegt men dat elke stof giftig kan zijn?",
+          "opties": [
+            "boven een bepaalde dosis doet elke stof schade",
+            "elke stof bevat een kleine hoeveelheid gif",
+            "elke stof heeft hetzelfde gevarenpictogram",
+            "elke stof wordt in het lichaam omgezet tot gif"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het is de dosis die het gif maakt. Zelfs water verstoort je lichaam als je er in korte tijd te veel van drinkt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom staat op een geneesmiddel voor kinderen een andere dosering dan voor volwassenen?",
+          "opties": [
+            "kinderen wegen minder, dus ze verdragen minder",
+            "kinderen breken geneesmiddelen veel sneller af",
+            "kinderen hebben een andere concentratie nodig",
+            "kinderen slikken het middel minder goed door"
+          ],
+          "antwoord": 0,
+          "uitleg": "De veilige dosis wordt per kilogram lichaamsgewicht bepaald. Een kind van twintig kilogram mag dus veel minder dan een volwassene van tachtig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een vitamine is nodig, maar in te grote hoeveelheid schadelijk. Wat leert dat je?",
+          "opties": [
+            "ook een nuttige stof heeft een veilige bovengrens",
+            "een nuttige stof heeft nooit een bovengrens",
+            "een vitamine is eigenlijk geen voedingsstof",
+            "je hebt van elke vitamine evenveel nodig"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vooral de vitaminen A, D, E en K worden in je vet opgeslagen en hopen zich dus op. Daarom staat er op een vitaminepotje een maximum."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Twee mensen die dezelfde hoeveelheid van een stof binnenkrijgen, krijgen altijd precies dezelfde dosis per kilogram.",
+          "antwoord": false,
+          "uitleg": "Dat geldt alleen als ze even veel wegen. Bij een lichter lichaam is dezelfde hoeveelheid een grotere dosis per kilogram."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een ADI geldt voor dagelijks gebruik, een LD50 voor één keer. Waarom is dat verschil belangrijk?",
+          "opties": [
+            "een kleine hoeveelheid kan op lange termijn ophopen",
+            "een kleine hoeveelheid verdwijnt altijd volledig",
+            "een grote hoeveelheid is op lange termijn veiliger",
+            "een stof werkt alleen de eerste keer dat je ze neemt"
+          ],
+          "antwoord": 0,
+          "uitleg": "De LD50 gaat over een eenmalige, zware dosis; de ADI over elke dag opnieuw een beetje. Sommige stoffen blijven in je lichaam zitten, en dan telt het op."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De ADI van een kleurstof is 4 mg per kg per dag. Een volwassene weegt 70 kg. Hoeveel mag die per dag?",
+          "opties": [
+            "280 mg",
+            "4 mg",
+            "70 mg",
+            "74 mg"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je rekent 4 maal 70. Dat geeft 280 milligram per dag voor die persoon."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Twee stoffen met dezelfde concentratie kunnen een heel verschillend gevaar inhouden.",
+          "antwoord": true,
+          "uitleg": "De concentratie zegt alleen hoeveel stof er in het mengsel zit, niet hoe giftig die stof is. Daarom kijk je ook naar de LD50 en de pictogrammen."
+        }
+      ]
+    },
+    {
+      "titel": "Duurzame chemie — deel 1",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een lineaire economie?",
+          "opties": [
+            "grondstof nemen, product maken, afval weggooien",
+            "grondstof nemen, product maken, materiaal hergebruiken",
+            "afval van het ene bedrijf wordt grondstof van het andere",
+            "elk product wordt na gebruik volledig gerecycleerd"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat is het patroon take make waste: aan het einde van de rit blijft er afval over. Een lineaire keten heet daarom ook cradle to grave, van wieg tot graf."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je een economie waarin afval opnieuw grondstof wordt?",
+          "antwoord": [
+            "circulaire economie",
+            "keteneconomie",
+            "circulair"
+          ],
+          "uitleg": "In een circulaire of keteneconomie draait het materiaal rond in plaats van weg te gaan. Cradle to cradle is daarvan de strengste vorm."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat bedoelt men met cradle to cradle?",
+          "opties": [
+            "elk materiaal wordt na gebruik opnieuw grondstof",
+            "elk materiaal wordt na gebruik netjes gestort",
+            "elk materiaal wordt na gebruik met energiewinst verbrand",
+            "elk materiaal gaat zo lang mogelijk mee in één product"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van wieg tot wieg: afval bestaat niet, want wat je weggooit begint ergens anders aan een nieuw leven. Dat is strenger dan gewoon recycleren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is downcycling?",
+          "opties": [
+            "recycleren tot een materiaal van mindere kwaliteit",
+            "recycleren tot een materiaal van hogere kwaliteit",
+            "een product in zijn geheel opnieuw gebruiken",
+            "een product verbranden en de warmte benutten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van een petfles een bloempot maken is downcycling: er komt nooit meer een fles van. Het materiaal zakt bij elke ronde in waarde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is upcycling?",
+          "opties": [
+            "er iets van hogere waarde van maken",
+            "er iets van lagere waarde van maken",
+            "het materiaal onveranderd hergebruiken",
+            "het materiaal tot grondstof laten vergaan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Van een oude ladder een boekenrek maken is upcycling. Het voorwerp wordt meer waard dan het was."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij downcycling levert het gerecycleerde materiaal een product van mindere kwaliteit op.",
+          "antwoord": true,
+          "uitleg": "Het materiaal verliest bij elke ronde eigenschappen. Daarom is downcycling beter dan storten, maar minder goed dan echte recyclage."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat staat bovenaan de ladder van Lansink?",
+          "opties": [
+            "voorkomen dat er afval ontstaat",
+            "het afval zorgvuldig recycleren",
+            "het afval met energiewinst verbranden",
+            "het afval op een stortplaats bergen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Preventie staat bovenaan: wat je niet maakt, hoef je ook niet te verwerken. Storten staat helemaal onderaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke stappen staan op de ladder van Lansink hoger dan verbranden? Er zijn er drie.",
+          "opties": [
+            "preventie",
+            "hergebruik",
+            "recyclage",
+            "storten"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "De ladder loopt van preventie over hergebruik en recyclage naar verbranden en storten. Storten is de laatste trede, dus de slechtste."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet de ladder die de stappen van afvalverwerking van best naar slechtst zet?",
+          "antwoord": [
+            "ladder van Lansink",
+            "Lansink",
+            "ladder Lansink"
+          ],
+          "uitleg": "Ze is genoemd naar de Nederlandse politicus Ad Lansink. Hoe hoger op de ladder, hoe beter voor het milieu."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is greenwashing?",
+          "opties": [
+            "zich groener voordoen dan men werkelijk is",
+            "een product met milieuvriendelijke zeep wassen",
+            "een gebouw met plantaardige verf behandelen",
+            "een verpakking volledig in het groen uitvoeren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een vaag woord als natuurlijk of een groen blaadje op de verpakking zegt niets. Kijk naar wat er echt gemeten en bewezen wordt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Staat er een groen blaadje op een verpakking, dan is het product duurzaam.",
+          "antwoord": false,
+          "uitleg": "Een blaadje is geen keurmerk en wordt door niemand gecontroleerd. Dat is precies hoe greenwashing werkt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen een keteneconomie met en zonder recyclage?",
+          "opties": [
+            "met recyclage keert het materiaal terug in de keten",
+            "met recyclage gaat elk product veel langer mee",
+            "zonder recyclage worden er geen grondstoffen gebruikt",
+            "zonder recyclage is er minder energie nodig per product"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zonder recyclage eindigt het materiaal als afval, ook al wordt het product lang gebruikt. Met recyclage gaat het terug naar het begin van de keten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "In het cradle to cradle-denken bestaat afval niet, alleen grondstof.",
+          "antwoord": true,
+          "uitleg": "Elk materiaal is bedoeld om na gebruik ergens opnieuw in te gaan. Daarom wordt er al bij het ontwerp op gelet welke materialen er samen in een product zitten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen hergebruiken en recycleren?",
+          "opties": [
+            "bij hergebruik blijft het voorwerp zoals het is",
+            "bij hergebruik wordt het voorwerp eerst vermalen",
+            "bij recyclage blijft het voorwerp volledig intact",
+            "bij recyclage wordt het voorwerp enkel hersteld"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een glazen fles opnieuw vullen is hergebruik; ze versmelten tot nieuw glas is recyclage. Hergebruik kost minder energie en staat dus hoger op de ladder."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Cradle to grave is een andere naam voor een lineaire keten.",
+          "antwoord": true,
+          "uitleg": "Van wieg tot graf: het product begint bij een grondstof en eindigt als afval. Cradle to cradle sluit die keten juist."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke ketens gaat het materiaal na gebruik verloren? Er zijn er twee.",
+          "opties": [
+            "take make waste",
+            "keteneconomie zonder recyclage",
+            "keteneconomie met recyclage",
+            "cradle to cradle"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "In beide gevallen eindigt het materiaal als afval. Een keten zonder recyclage doet het wel beter, want daar wordt het product eerst zo lang mogelijk gebruikt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waaraan meet je de duurzaamheid van een proces? Er zijn er drie.",
+          "opties": [
+            "hoeveel grondstoffen het verbruikt",
+            "hoeveel energie het verbruikt",
+            "hoe goed het materiaal recycleerbaar is",
+            "hoe bekend het merk is bij de klanten"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Grondstoffen, energie, recycleerbaarheid en milieubelasting zijn de maatstaven. De bekendheid van een merk zegt daar niets over."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel duurzame ontwikkelingsdoelstellingen of SDG's heeft de Verenigde Naties opgesteld?",
+          "antwoord": [
+            "17",
+            "zeventien"
+          ],
+          "uitleg": "De zeventien doelstellingen gaan van armoede en honger tot klimaat en vrede, en moeten tegen 2030 gehaald worden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De vijf P's van duurzaamheid zijn people, planet, prosperity, peace en partnership. Waar staat planet voor?",
+          "opties": [
+            "de zorg voor het milieu en de natuur",
+            "de zorg voor eerlijke arbeidsomstandigheden",
+            "de zorg voor welvaart en economische groei",
+            "de zorg voor samenwerking tussen landen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Planet gaat over het milieu, people over de mensen, prosperity over welvaart, peace over vrede en partnership over samenwerking."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Recycleren staat op de ladder van Lansink hoger dan hergebruiken.",
+          "antwoord": false,
+          "uitleg": "Het is net omgekeerd: hergebruiken staat hoger, want daar blijft het voorwerp heel. Recycleren kost extra energie om het materiaal te verwerken."
+        }
+      ]
+    },
+    {
+      "titel": "Duurzame chemie — deel 2",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is kenmerkend voor een thermoplast?",
+          "opties": [
+            "de ketens liggen los naast elkaar en smelten",
+            "de ketens zitten met vele bruggen vast aan elkaar",
+            "de ketens zijn veel korter dan in andere kunststoffen",
+            "de ketens bestaan niet uit koolstof maar uit silicium"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zonder bruggen tussen de ketens kunnen die bij warmte over elkaar schuiven. Daarom smelt een thermoplast en kan je er opnieuw iets van maken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom smelt een thermoharder niet?",
+          "opties": [
+            "de ketens zitten met crosslinks aan elkaar vast",
+            "de ketens zijn veel te lang om te bewegen",
+            "de ketens bevatten geen enkele koolstofbinding",
+            "de ketens zijn te zwaar om over elkaar te schuiven"
+          ],
+          "antwoord": 0,
+          "uitleg": "De crosslinks maken van alle ketens één groot netwerk. Bij opwarmen kan er niets meer schuiven, dus het materiaal verbrandt eerder dan het smelt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de bruggen die de ketens van een kunststof aan elkaar vastmaken?",
+          "antwoord": [
+            "crosslinks",
+            "crosslink",
+            "dwarsverbindingen"
+          ],
+          "uitleg": "Hoe meer crosslinks, hoe stijver en hoe minder smeltbaar het materiaal. Een thermoplast heeft er geen, een thermoharder heel veel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is kenmerkend voor een elastomeer?",
+          "opties": [
+            "het is rekbaar en springt weer in vorm",
+            "het is hard en breekt bij een stoot",
+            "het smelt bij een lage temperatuur al",
+            "het lost op in water bij kamertemperatuur"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een elastomeer heeft weinig crosslinks: genoeg om terug te veren, niet genoeg om stijf te zijn. Een autoband en een elastiek zijn elastomeren."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een thermoplast kan je omsmelten en opnieuw tot een ander product vormen.",
+          "antwoord": true,
+          "uitleg": "Dat is precies waarom thermoplasten goed te recycleren zijn. Petflessen en polyetheen zakjes zijn thermoplasten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke materialen zijn moeilijk te recycleren door hun crosslinks? Er zijn er twee.",
+          "opties": [
+            "een thermoharder",
+            "een elastomeer",
+            "een thermoplast",
+            "glas"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Allebei vormen ze een netwerk dat niet meer smelt, dus omsmelten lukt niet. Thermoplasten en glas kan je wel opnieuw vloeibaar maken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent biogebaseerd?",
+          "opties": [
+            "gemaakt uit plantaardige grondstoffen",
+            "volledig afbreekbaar in de natuur",
+            "geschikt voor de gft-container",
+            "gemaakt zonder enige energie te verbruiken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Biogebaseerd gaat over waar het materiaal vandaan komt, niet over wat ermee gebeurt na gebruik. Een biogebaseerd plastic kan jaren blijven liggen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent biodegradeerbaar?",
+          "opties": [
+            "micro-organismen kunnen het afbreken",
+            "het is uit plantaardige grondstof gemaakt",
+            "het kan eindeloos gerecycleerd worden",
+            "het laat geen koolstofdioxide vrij bij verbranding"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bacteriën en schimmels breken het materiaal af tot eenvoudige stoffen. Hoe lang dat duurt en onder welke omstandigheden, zegt het woord er niet bij."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een biogebaseerd product is daarom ook biodegradeerbaar.",
+          "antwoord": false,
+          "uitleg": "De twee woorden gaan over iets anders: het begin en het einde van het leven van het materiaal. Er bestaat biogebaseerd plastic dat niet afbreekt, en afbreekbaar plastic uit aardolie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is er strenger aan composteerbaar dan aan biodegradeerbaar?",
+          "opties": [
+            "het moet binnen een afgesproken tijd afbreken",
+            "het moet uit plantaardige grondstof komen",
+            "het mag helemaal geen koolstof bevatten",
+            "het moet volledig oplossen in koud water"
+          ],
+          "antwoord": 0,
+          "uitleg": "Composteerbaar is een getest keurmerk met een vaste termijn en vaste omstandigheden. Industrieel composteerbaar hoort bovendien niet op je composthoop thuis."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de heel kleine plasticdeeltjes die in het milieu achterblijven?",
+          "antwoord": [
+            "microplastics",
+            "microplastic",
+            "micoplastics"
+          ],
+          "uitleg": "Ze ontstaan als groter plastic afbrokkelt, en ze komen in water, bodem en voeding terecht. Afbreken tot kleine stukjes is dus niet hetzelfde als verdwijnen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Uit welke grondstoffen wordt gewone kunststof gemaakt? Er zijn er twee.",
+          "opties": [
+            "aardolie",
+            "aardgas",
+            "zand en kalksteen",
+            "ijzererts en cokes"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Kunststof komt uit fossiele grondstoffen, die niet aangroeien. Daarom zoekt de duurzame chemie naar biogebaseerde vervangers."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wanneer spreekt men van groene waterstof?",
+          "opties": [
+            "als ze met hernieuwbare stroom uit water komt",
+            "als ze met stroom uit een kerncentrale komt",
+            "als ze uit aardgas komt en de CO2 opgeslagen wordt",
+            "als ze uit aardgas komt en de CO2 vrijkomt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij elektrolyse splits je water in waterstof en zuurstof. Komt de stroom van zon of wind, dan is de waterstof groen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is grijze waterstof?",
+          "opties": [
+            "waterstof uit aardgas, waarbij de CO2 vrijkomt",
+            "waterstof uit aardgas, waarbij de CO2 opgeslagen wordt",
+            "waterstof uit water, met stroom van zon en wind",
+            "waterstof uit water, met stroom uit een kerncentrale"
+          ],
+          "antwoord": 0,
+          "uitleg": "Grijze waterstof komt uit aardgas en laat koolstofdioxide ontsnappen. Wordt die CO2 afgevangen en opgeslagen, dan heet ze blauw."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Blauwe waterstof komt uit aardgas, maar de koolstofdioxide wordt afgevangen en opgeslagen.",
+          "antwoord": true,
+          "uitleg": "Daardoor is ze beter dan grijze waterstof, maar de grondstof blijft fossiel. Alleen groene waterstof vertrekt van water en hernieuwbare stroom."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is zwart water?",
+          "opties": [
+            "afvalwater van het toilet",
+            "afvalwater van bad en wasmachine",
+            "water dat je rechtstreeks kan drinken",
+            "water dat door zand gefilterd werd"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zwart water komt van het toilet, grijs water van bad, lavabo en wasmachine. Wit water is zuiver water dat je kan drinken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke energievormen zijn hernieuwbaar? Er zijn er twee.",
+          "opties": [
+            "windenergie",
+            "zonne-energie",
+            "steenkool",
+            "kernenergie"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Zon en wind raken niet op. Steenkool is fossiel, en kernenergie gebruikt uranium, dat ook een eindige grondstof is."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Kernenergie is een fossiele energievorm.",
+          "antwoord": false,
+          "uitleg": "Kernenergie is een aparte vorm naast fossiel en hernieuwbaar. Ze stoot haast geen koolstofdioxide uit, maar ze laat radioactief afval na."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen CO2-neutrale en CO2-negatieve productie?",
+          "opties": [
+            "negatief haalt meer CO2 uit de lucht dan het uitstoot",
+            "negatief stoot meer CO2 uit dan het opneemt",
+            "neutraal stoot helemaal geen enkele stof uit",
+            "neutraal gebruikt uitsluitend hernieuwbare grondstof"
+          ],
+          "antwoord": 0,
+          "uitleg": "Neutraal betekent dat uitstoot en opname elkaar opheffen. Negatief gaat een stap verder: er verdwijnt netto koolstofdioxide uit de lucht."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Groene stroom komt uit hernieuwbare bronnen zoals zon, wind en water.",
+          "antwoord": true,
+          "uitleg": "Grijze stroom komt uit fossiele brandstoffen. Welke stroom je gebruikt, weegt mee in de duurzaamheid van een heel productieproces."
+        }
+      ]
+    },
+    {
+      "titel": "Elektromagnetisme — deel 1",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke metalen zijn ferromagnetisch? Er zijn er drie.",
+          "opties": [
+            "ijzer",
+            "nikkel",
+            "kobalt",
+            "koper"
+          ],
+          "antwoord": [
+            0,
+            1,
+            2
+          ],
+          "uitleg": "Alleen ijzer, nikkel en kobalt worden sterk door een magneet aangetrokken. Koper, aluminium en zilver zijn wel metalen, maar niet ferromagnetisch."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent het dat een stof ferromagnetisch is?",
+          "opties": [
+            "ze wordt sterk aangetrokken door een magneet",
+            "ze wordt sterk afgestoten door een magneet",
+            "ze geleidt de elektrische stroom bijzonder goed",
+            "ze is altijd zelf een permanente magneet"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een ferromagnetische stof kan zelf gemagnetiseerd worden en wordt daardoor aangetrokken. Of ze stroom geleidt, heeft er niets mee te maken."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de kleine gebiedjes in ijzer die elk als een piepklein magneetje werken?",
+          "antwoord": [
+            "weissgebieden",
+            "weissgebied",
+            "magneculen"
+          ],
+          "uitleg": "In een weissgebied wijzen alle elementaire magneetjes dezelfde kant uit. Een magneet maken betekent al die gebiedjes in dezelfde richting zetten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is een gewone ijzeren spijker niet zelf een magneet?",
+          "opties": [
+            "de weissgebieden wijzen alle richtingen uit",
+            "de weissgebieden wijzen allemaal dezelfde kant uit",
+            "er zitten helemaal geen weissgebieden in ijzer",
+            "ijzer heeft maar één magneetpool in plaats van twee"
+          ],
+          "antwoord": 0,
+          "uitleg": "De gebiedjes heffen elkaar dan op, en naar buiten blijft er niets over. Zet je ze op één lijn, dan is de spijker wel een magneet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar komt magnetisme op atomaire schaal vandaan?",
+          "opties": [
+            "van de elektronenspin en de kringstromen",
+            "van de protonen in de atoomkern",
+            "van de neutronen in de atoomkern",
+            "van de bindingen tussen de atomen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Elk elektron draait om zichzelf en om de kern, en dat maakt van elk atoom een piepklein magneetje. In een weissgebied liggen die magneetjes allemaal gelijk."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een magneet trekt een aluminium blikje aan.",
+          "antwoord": false,
+          "uitleg": "Aluminium is niet ferromagnetisch, dus het blijft liggen. Dat is net hoe een sorteerinstallatie stalen blikjes van aluminium blikjes scheidt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is magnetische influentie?",
+          "opties": [
+            "een stuk ijzer wordt bij een magneet zelf tijdelijk magnetisch",
+            "een stuk ijzer verliest bij een magneet al zijn magnetisme",
+            "een magneet wordt zwakker zodra je er ijzer bij houdt",
+            "een magneet geeft een deel van zijn lading aan het ijzer"
+          ],
+          "antwoord": 0,
+          "uitleg": "De weissgebieden in het ijzer gaan op één lijn staan onder invloed van het veld. Daardoor krijgt het ijzer een pool die de magneet aantrekt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een paperclip die aan een magneet hangt, kan zelf een tweede paperclip aantrekken.",
+          "antwoord": true,
+          "uitleg": "De eerste paperclip is door influentie zelf een magneetje geworden. Haal je de magneet weg, dan vallen ze allebei los."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe kan je een permanente magneet zijn magnetisme doen verliezen?",
+          "opties": [
+            "hem sterk verhitten of er hard op slaan",
+            "hem een nacht in het donker leggen",
+            "hem in zuiver water onderdompelen",
+            "hem tegen een andere magneet aan laten liggen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Door warmte of een harde schok gaan de weissgebieden weer door elkaar liggen. Naar buiten heffen ze elkaar dan opnieuw op."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een magneet verliest zijn magnetisme als je hem sterk verhit.",
+          "antwoord": true,
+          "uitleg": "De warmte doet de atomen heftiger bewegen, en daardoor raken de weissgebieden in de war. Boven een bepaalde temperatuur is de magneet niets meer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er als je twee noordpolen bij elkaar brengt?",
+          "opties": [
+            "ze stoten elkaar af",
+            "ze trekken elkaar aan",
+            "ze raken elkaar niet",
+            "ze wisselen van pool"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gelijksoortige polen stoten elkaar af, ongelijksoortige trekken elkaar aan. Noord tegenover zuid trekt dus wel aan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je legt de zuidpool van de ene magneet tegen de noordpool van de andere. Wat gebeurt er?",
+          "opties": [
+            "ze trekken elkaar aan",
+            "ze stoten elkaar af",
+            "er gebeurt helemaal niets",
+            "beide magneten worden zwakker"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ongelijksoortige polen trekken elkaar aan. Daarom klikken twee magneten maar in één stand tegen elkaar."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Ongelijksoortige magneetpolen stoten elkaar af.",
+          "antwoord": false,
+          "uitleg": "Het is net omgekeerd: ongelijksoortige polen trekken aan, gelijksoortige stoten af. Draai een magneet om en je voelt het verschil meteen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je breekt een staafmagneet middendoor. Wat heb je dan?",
+          "opties": [
+            "twee magneten met elk een noord- en een zuidpool",
+            "een magneet met enkel een noordpool en een met enkel een zuidpool",
+            "twee stukken ijzer zonder enig magnetisme",
+            "één magneet die dubbel zo sterk is als tevoren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een losse pool bestaat niet: elk stukje heeft er twee. Dat komt omdat de weissgebieden ook in de helften nog op één lijn staan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke pool van het aardmagnetisch veld ligt bij de geografische noordpool?",
+          "opties": [
+            "de magnetische zuidpool",
+            "de magnetische noordpool",
+            "beide polen tegelijk",
+            "er ligt daar geen pool"
+          ],
+          "antwoord": 0,
+          "uitleg": "Daar ligt de magnetische zuidpool, en daarom wordt de noordpool van een kompasnaald er net naartoe getrokken. Bij de geografische zuidpool ligt de magnetische noordpool."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De noordpool van een kompasnaald wijst naar de geografische noordpool.",
+          "antwoord": true,
+          "uitleg": "Dat is precies waarom een kompas werkt. In het aardmagnetisch veld ligt daar de magnetische zuidpool, en die trekt de noordpool van de naald aan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom staat een kompasnaald niet willekeurig stil?",
+          "opties": [
+            "ze richt zich naar het magneetveld van de aarde",
+            "ze richt zich naar de stand van de zon",
+            "ze richt zich naar de zwaartekracht van de aarde",
+            "ze richt zich naar de dichtste bijgelegen berg"
+          ],
+          "antwoord": 0,
+          "uitleg": "De naald is zelf een kleine magneet in het veld van de aarde. Leg je er een andere magneet naast, dan draait ze daar wel naartoe."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de twee uiteinden van een magneet, waar het veld het sterkst is?",
+          "antwoord": [
+            "polen",
+            "de polen",
+            "magneetpolen"
+          ],
+          "uitleg": "Elke magneet heeft een noordpool en een zuidpool. Hoe je hem ook breekt, die twee blijven altijd samen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke voorwerpen trekt een magneet aan? Er zijn er twee.",
+          "opties": [
+            "een ijzeren spijker",
+            "een stalen schroef",
+            "een koperen draad",
+            "een plastic knoop"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Staal bestaat grotendeels uit ijzer, dus ook dat wordt aangetrokken. Koper en plastic zijn niet ferromagnetisch."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een magneet trekt elk metaal aan.",
+          "antwoord": false,
+          "uitleg": "Alleen ijzer, nikkel en kobalt worden sterk aangetrokken. Koper, aluminium, zilver en goud zijn metalen die een magneet niet oppikt."
+        }
+      ]
+    },
+    {
+      "titel": "Elektromagnetisme — deel 2",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke kant uit lopen de magnetische veldlijnen buiten een magneet?",
+          "opties": [
+            "van de noordpool naar de zuidpool",
+            "van de zuidpool naar de noordpool",
+            "van beide polen naar het midden",
+            "van het midden naar beide polen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Buiten de magneet lopen ze van noord naar zuid, binnenin terug van zuid naar noord. Zo vormt elke veldlijn een gesloten lus."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Magnetische veldlijnen kunnen elkaar kruisen.",
+          "antwoord": false,
+          "uitleg": "Op een kruispunt zou het veld twee richtingen hebben, en dat kan niet. Daarom buigen veldlijnen naast elkaar weg in plaats van door elkaar te lopen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar liggen de veldlijnen van een staafmagneet het dichtst bij elkaar?",
+          "opties": [
+            "bij de polen",
+            "in het midden van de staaf",
+            "overal op dezelfde afstand",
+            "ver weg van de magneet"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hoe dichter de veldlijnen bij elkaar liggen, hoe sterker het veld. Bij de polen is het veld dus het sterkst."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een elektromagneet?",
+          "opties": [
+            "een spoel die magnetisch wordt door een stroom",
+            "een magneet die zelf elektriciteit opwekt",
+            "een magneet die enkel op koper werkt",
+            "een magneet van een bijzonder soort staal"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zodra er stroom door de wikkelingen loopt, ontstaat er een magneetveld. Zet je de stroom af, dan is het veld weg."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een elektromagneet is enkel magnetisch zolang er stroom door loopt.",
+          "antwoord": true,
+          "uitleg": "Dat is net het voordeel: je kan hem aan- en uitzetten. Een permanente magneet blijft altijd magnetisch."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe maak je een elektromagneet sterker? Er zijn er twee.",
+          "opties": [
+            "meer wikkelingen rond de spoel leggen",
+            "een grotere stroom door de spoel sturen",
+            "de spoel korter afsnijden",
+            "de spoel in een koelere kamer leggen"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Meer wikkelingen en meer stroom geven allebei een sterker veld. Een ijzeren kern in de spoel maakt het veld nog eens veel sterker."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor dient de ferromagnetische kern in een elektromagneet?",
+          "opties": [
+            "die maakt het magneetveld veel sterker",
+            "die houdt de spoel koel bij veel stroom",
+            "die verhindert dat de polen omwisselen",
+            "die zorgt voor een gelijkmatige stroomsterkte"
+          ],
+          "antwoord": 0,
+          "uitleg": "De weissgebieden in de kern gaan mee op één lijn staan en versterken zo het veld van de spoel. Zonder kern is dezelfde spoel veel zwakker."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je een draad die in vele wikkelingen rond een as gedraaid is?",
+          "antwoord": [
+            "spoel",
+            "een spoel",
+            "solenoïde"
+          ],
+          "uitleg": "Een spoel of solenoïde maakt van een gewone draad een echte magneet. Het veld binnenin lijkt op dat van een staafmagneet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor gebruik je de rechterhandregel bij een spoel?",
+          "opties": [
+            "om te vinden waar de noordpool zit",
+            "om de stroomsterkte te berekenen",
+            "om de weerstand van de draad te meten",
+            "om het aantal wikkelingen te tellen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je legt je vingers mee met de stroom rond de spoel, en je duim wijst naar de noordpool. Die regel heet ook de kurkentrekkerregel."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Draai je de stroomrichting in een spoel om, dan wisselen de noord- en de zuidpool van plaats.",
+          "antwoord": true,
+          "uitleg": "De richting van het veld volgt de richting van de stroom. Daarom kan een elektromagneet een voorwerp zowel aantrekken als afstoten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom gebruikt een schrootkraan een elektromagneet en geen permanente magneet?",
+          "opties": [
+            "zo kan de lading ook weer gelost worden",
+            "zo blijft de kraan veel lichter in gebruik",
+            "zo wordt er onderweg minder stroom verbruikt",
+            "zo kan er ook koper en aluminium opgepikt worden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Door de stroom af te zetten laat de kraan het schroot vallen waar het moet zijn. Met een permanente magneet kreeg je de lading er niet meer af."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke toepassingen zit een elektromagneet? Er zijn er twee.",
+          "opties": [
+            "een elektrische deurbel",
+            "een relais",
+            "een bordmagneet",
+            "een kastsluiting"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Een deurbel en een relais hebben een spoel die aan en uit gaat. Een bordmagneet en een kastsluiting zijn gewone permanente magneten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe werkt een elektrische deurbel?",
+          "opties": [
+            "een spoel trekt een hamertje tegen een klankschaal",
+            "een spoel laat een luidspreker een toon spelen",
+            "een permanente magneet draait rond in een spoel",
+            "een draad wordt warm en zet een plaatje in beweging"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zolang je duwt, trekt de elektromagneet het hamertje aan en verbreekt daarbij het contact. Dat herhaalt zich heel snel, en zo krijg je een ratelende bel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet een relais?",
+          "opties": [
+            "met een kleine stroom een grote stroom aanzetten",
+            "met een grote stroom een kleine stroom meten",
+            "een wisselstroom in een gelijkstroom omzetten",
+            "de spanning van een stroomkring verhogen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De elektromagneet van het relais trekt een schakelaar dicht in een tweede, zwaardere kring. Zo bedien je met een licht knopje een krachtige motor."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een bordmagneet is een elektromagneet.",
+          "antwoord": false,
+          "uitleg": "Een bordmagneet is een permanente magneet: hij heeft geen stroom nodig. Een elektromagneet werkt alleen zolang er stroom door de spoel loopt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke vorm heeft het magneetveld rond een rechte stroomvoerende draad?",
+          "opties": [
+            "cirkels rond de draad",
+            "rechte lijnen langs de draad",
+            "een bol rond het midden van de draad",
+            "lijnen die van de draad weg lopen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De veldlijnen vormen cirkels rond de draad, en ze liggen dichter bij elkaar naarmate je dichter bij de draad komt. Met je rechterduim langs de stroom wijzen je vingers de zin aan."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Rond een draad waar stroom door loopt, staat geen magneetveld.",
+          "antwoord": false,
+          "uitleg": "Er staat wel een veld: een kompasnaald naast de draad draait weg zodra je de stroom aanzet. Dat was de ontdekking waarmee de elektromagneet begon."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet de elektromagneet in een luidspreker?",
+          "opties": [
+            "hij laat de conus heen en weer trillen",
+            "hij houdt de conus stevig op zijn plaats",
+            "hij zet het geluid om in elektrische stroom",
+            "hij versterkt de stroom die binnenkomt"
+          ],
+          "antwoord": 0,
+          "uitleg": "De spoel zit in het veld van een permanente magneet en wordt beurtelings aangetrokken en afgestoten. Die trilling zet de lucht in beweging, en dat hoor je."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je weet welke kant de stroom in een spoel rondgaat. Wat vind je daarmee?",
+          "opties": [
+            "aan welk uiteinde de noordpool ligt",
+            "hoeveel wikkelingen de spoel heeft",
+            "hoe groot de weerstand van de spoel is",
+            "hoe warm de spoel zal worden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Met de rechterhandregel wijst je duim naar de noordpool. Wissel je de draden om, dan ligt de noordpool aan de andere kant."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een automatische zekering gebruikt een elektromagneet om de stroom te onderbreken.",
+          "antwoord": true,
+          "uitleg": "Wordt de stroom te groot, dan wordt de spoel sterk genoeg om de schakelaar open te trekken. Zo valt de kring uit voor er brand ontstaat."
+        }
+      ]
+    },
+    {
+      "titel": "Golven, geluid en het elektromagnetisch spectrum — deel 1",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat vervoert een golf van de ene plaats naar de andere?",
+          "opties": [
+            "energie",
+            "materie",
+            "massa",
+            "lading"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een kurk op het water gaat op en neer, maar blijft op dezelfde plek liggen. De golf gaat voorbij, het water zelf reist niet mee."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een golf vervoert materie van de ene plaats naar de andere.",
+          "antwoord": false,
+          "uitleg": "De deeltjes trillen alleen op hun plaats heen en weer. Wat zich voortplant, is de energie van de trilling."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen een mechanische en een elektromagnetische golf?",
+          "opties": [
+            "een mechanische golf heeft een middenstof nodig",
+            "een elektromagnetische golf heeft een middenstof nodig",
+            "een mechanische golf gaat altijd veel sneller",
+            "een elektromagnetische golf trilt altijd veel langzamer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Geluid heeft lucht, water of een vaste stof nodig en gaat niet door het vacuüm. Licht en radiogolven reizen wel door het lege heelal."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke golven zijn mechanische golven? Er zijn er twee.",
+          "opties": [
+            "geluid",
+            "een golf op het water",
+            "zichtbaar licht",
+            "radiogolven"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Geluid en watergolven hebben een middenstof nodig die kan trillen. Licht en radiogolven zijn elektromagnetisch en komen ook door het vacuüm."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is kenmerkend voor een transversale golf?",
+          "opties": [
+            "de deeltjes trillen dwars op de voortplantingsrichting",
+            "de deeltjes trillen langs de voortplantingsrichting",
+            "de deeltjes trillen in alle richtingen tegelijk",
+            "de deeltjes trillen helemaal niet mee"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een golf in een touw ga je op en neer terwijl de golf vooruit gaat. Licht is ook transversaal."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is geluid een longitudinale golf?",
+          "opties": [
+            "de lucht trilt in dezelfde richting als de golf loopt",
+            "de lucht trilt dwars op de richting van de golf",
+            "de lucht trilt even snel als de golf vooruitgaat",
+            "de lucht trilt alleen aan het begin van de golf"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het geluid duwt de lucht samen en laat ze weer uitzetten, telkens in de richting waarin het zich voortplant. Daarom kan geluid niet door het vacuüm."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je de afstand tussen twee opeenvolgende golftoppen?",
+          "antwoord": [
+            "golflengte",
+            "de golflengte",
+            "lambda"
+          ],
+          "uitleg": "De golflengte krijgt het symbool lambda en wordt in meter gemeten. Samen met de frequentie bepaalt ze de golfsnelheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een trilling heeft een periode van 0,004 s. Wat is de frequentie?",
+          "opties": [
+            "250 Hz",
+            "4 Hz",
+            "40 Hz",
+            "400 Hz"
+          ],
+          "antwoord": 0,
+          "uitleg": "De frequentie is één gedeeld door de periode. Eén gedeeld door 0,004 is 250, dus 250 trillingen per seconde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een golf heeft een golflengte van 2 m en een frequentie van 170 Hz. Wat is de golfsnelheid?",
+          "opties": [
+            "340 m/s",
+            "85 m/s",
+            "172 m/s",
+            "168 m/s"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je rekent de golflengte maal de frequentie: 2 maal 170 is 340 meter per seconde. Dat is net de snelheid van geluid in lucht."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de amplitude van een golf?",
+          "opties": [
+            "de grootste uitwijking uit de evenwichtsstand",
+            "de afstand tussen twee golftoppen",
+            "het aantal trillingen per seconde",
+            "de tijd van één volledige trilling"
+          ],
+          "antwoord": 0,
+          "uitleg": "De amplitude zegt hoe ver de deeltjes uitslaan. Bij geluid bepaalt ze hoe hard je de toon hoort."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Hoe hoger de frequentie van een geluidsgolf, hoe hoger de toon die je hoort.",
+          "antwoord": true,
+          "uitleg": "Frequentie en toonhoogte gaan samen. Een dunne, kort gespannen snaar trilt sneller en klinkt dus hoger."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je draait de muziek luider. Welk kenmerk van de geluidsgolf verandert?",
+          "opties": [
+            "de amplitude",
+            "de frequentie",
+            "de golflengte",
+            "de periode"
+          ],
+          "antwoord": 0,
+          "uitleg": "Luider betekent een grotere uitwijking van de lucht, dus een grotere amplitude. De toonhoogte blijft gelijk, want de frequentie verandert niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarin gaat geluid het snelst?",
+          "opties": [
+            "in een vaste stof",
+            "in een vloeistof",
+            "in een gas",
+            "in het vacuüm"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hoe dichter de deeltjes bij elkaar zitten, hoe sneller ze de trilling doorgeven. In het vacuüm gaat geluid helemaal niet."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Geluid plant zich sneller voort in warme lucht dan in koude lucht.",
+          "antwoord": true,
+          "uitleg": "In warme lucht bewegen de deeltjes sneller en geven ze de trilling vlugger door. Daardoor buigt geluid af tussen luchtlagen van verschillende temperatuur."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een regenboog ontstaat doordat licht in een waterdruppel van richting verandert. Welke eigenschap van golven is dat?",
+          "opties": [
+            "breking",
+            "buiging",
+            "weerkaatsing",
+            "resonantie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij de overgang naar water verandert de snelheid van het licht, en daardoor buigt het af. Elke kleur breekt een beetje anders, en zo ontstaan de banden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wanneer buigt een golf sterk af rond een opening?",
+          "opties": [
+            "als de opening even klein is als de golflengte",
+            "als de opening veel groter is dan de golflengte",
+            "als de golflengte veel kleiner is dan de opening",
+            "als de golf geen enkel obstakel tegenkomt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Buiging of diffractie is het sterkst als opening en golflengte in dezelfde orde liggen. Daarom hoor je iemand achter een hoek wel, maar zie je die niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke materialen slorpen geluid op in plaats van het terug te kaatsen? Er zijn er twee.",
+          "opties": [
+            "een dik gordijn",
+            "een zachte tapijtvloer",
+            "een gladde betonnen muur",
+            "een groot glazen raam"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Zacht en poreus materiaal slorpt het geluid op, hard en glad materiaal weerkaatst het. Daarom klinkt een lege kamer hol en een ingerichte kamer gedempt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een zacht materiaal kaatst geluid beter terug dan een hard materiaal.",
+          "antwoord": false,
+          "uitleg": "Het is net omgekeerd: zacht materiaal slorpt het geluid op. Daarom hangen er in een studio zachte panelen aan de wand."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het geluid dat je na de weerkaatsing tegen een verre muur opnieuw hoort?",
+          "antwoord": [
+            "echo",
+            "een echo",
+            "weerkaatsing"
+          ],
+          "uitleg": "Je hoort een echo als het weerkaatste geluid genoeg later terugkomt om apart te klinken. Van dat verschil in tijd maken sonar en echolocatie gebruik."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke toepassingen maken gebruik van de weerkaatsing van geluid? Er zijn er twee.",
+          "opties": [
+            "sonar op een schip",
+            "echolocatie bij een vleermuis",
+            "een radiozender",
+            "een microgolfoven"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Beide sturen geluid uit en meten hoe lang de weerkaatsing erover doet om terug te komen. Een radiozender en een microgolfoven werken met elektromagnetische golven."
+        }
+      ]
+    },
+    {
+      "titel": "Golven, geluid en het elektromagnetisch spectrum — deel 2",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "invultekst",
+          "vraag": "In welke eenheid druk je het geluidsniveau uit?",
+          "antwoord": [
+            "decibel",
+            "dB",
+            "decibels"
+          ],
+          "uitleg": "De decibelschaal begint bij nul, het zwakste geluid dat een mens kan horen. Ze loopt niet gelijkmatig op: tien decibel meer klinkt veel luider dan een tiende erbij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk geluidsniveau hoort bij de gehoordrempel van een mens?",
+          "opties": [
+            "0 dB",
+            "20 dB",
+            "40 dB",
+            "80 dB"
+          ],
+          "antwoord": 0,
+          "uitleg": "De gehoordrempel is het zwakste geluid dat je nog kan horen, en die is als nul decibel vastgelegd. Een gefluisterd gesprek zit al rond de dertig decibel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Vanaf welk geluidsniveau is gehoorbescherming nodig?",
+          "opties": [
+            "80 dB",
+            "40 dB",
+            "60 dB",
+            "120 dB"
+          ],
+          "antwoord": 0,
+          "uitleg": "Rond tachtig decibel ligt de gevaargrens: langer blijven staan beschadigt je gehoor. Een drilboor of een luide fuif zit daar ruim boven."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk geluidsniveau hoort bij de pijndrempel?",
+          "opties": [
+            "120 dB",
+            "60 dB",
+            "80 dB",
+            "100 dB"
+          ],
+          "antwoord": 0,
+          "uitleg": "Rond honderdtwintig decibel doet geluid pijn aan je oren. Daar is de schade ook meteen, niet pas na lange tijd."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Hoe langer je in lawaai staat, hoe groter de kans op gehoorschade.",
+          "antwoord": true,
+          "uitleg": "Het niveau en de blootstellingsduur tellen samen. Twee uur in een luide zaal is zwaarder dan tien minuten bij hetzelfde geluid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat beschadigt er in je oor bij te veel lawaai?",
+          "opties": [
+            "de haarcellen in het binnenoor",
+            "het trommelvel in het middenoor",
+            "de gehoorbeentjes in het middenoor",
+            "de oorschelp aan de buitenkant"
+          ],
+          "antwoord": 0,
+          "uitleg": "De trilhaartjes op de haarcellen knakken en komen niet meer recht. Haarcellen groeien bij de mens niet terug, dus die schade blijft."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Gehoorschade door lawaai geneest altijd volledig.",
+          "antwoord": false,
+          "uitleg": "Soms is de schade tijdelijk, maar vaak blijft ze. Beschadigde haarcellen groeien bij een mens niet opnieuw aan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je gaat twee keer zo ver van een geluidsbron staan. Wat gebeurt er met het geluidsniveau?",
+          "opties": [
+            "het daalt met 6 dB",
+            "het daalt met 2 dB",
+            "het daalt tot de helft",
+            "het blijft precies gelijk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een verdubbeling van de afstand zakt het niveau met zes decibel. Afstand nemen is dus een eenvoudige manier om je oren te sparen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "De geluidsintensiteit wordt twee keer zo groot. Wat gebeurt er met het geluidsniveau?",
+          "opties": [
+            "het stijgt met 3 dB",
+            "het stijgt met 6 dB",
+            "het wordt twee keer zo groot",
+            "het wordt tien keer zo groot"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een verdubbeling van de intensiteit geeft drie decibel meer. Een vier keer kleinere intensiteit geeft dus zes decibel minder."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe bescherm je je gehoor op een fuif? Er zijn er twee.",
+          "opties": [
+            "oordopjes dragen",
+            "verder van de boxen gaan staan",
+            "de muziek harder zetten",
+            "dichter bij de boxen gaan staan"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Oordopjes verlagen het niveau dat je oor bereikt, en elke verdubbeling van de afstand haalt er zes decibel af. Een pauze in een stillere ruimte helpt ook."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is resonantie?",
+          "opties": [
+            "een voorwerp trilt mee op zijn eigen frequentie",
+            "een voorwerp houdt een trilling volledig tegen",
+            "een voorwerp kaatst de trilling helemaal terug",
+            "een voorwerp zet de trilling om in warmte"
+          ],
+          "antwoord": 0,
+          "uitleg": "Komt de frequentie van buiten overeen met de eigenfrequentie, dan wordt de trilling steeds groter. Zo kan een glas breken van een aangehouden toon."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je geluid met een frequentie boven 20 000 Hz, dat de mens niet meer hoort?",
+          "antwoord": [
+            "ultrasoon",
+            "ultrasoon geluid",
+            "ultrageluid"
+          ],
+          "uitleg": "Ultrasoon geluid wordt gebruikt voor echografie en sonar. Onder de twintig hertz spreekt men van infrasoon geluid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke frequenties kan een mens normaal horen?",
+          "opties": [
+            "van 20 Hz tot 20 000 Hz",
+            "van 0 Hz tot 2000 Hz",
+            "van 200 Hz tot 2000 Hz",
+            "van 2000 Hz tot 200 000 Hz"
+          ],
+          "antwoord": 0,
+          "uitleg": "Daaronder is het infrasoon, daarboven ultrasoon. Met de jaren verdwijnen de hoogste tonen als eerste uit dat bereik."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat geldt voor een elektromagnetische golf in het vacuüm?",
+          "opties": [
+            "ze beweegt met de lichtsnelheid",
+            "ze beweegt met de geluidssnelheid",
+            "ze beweegt helemaal niet vooruit",
+            "ze beweegt sneller naarmate ze langer is"
+          ],
+          "antwoord": 0,
+          "uitleg": "In het vacuüm gaat elke elektromagnetische golf even snel: ongeveer 300 000 kilometer per seconde. In glas of water gaat ze trager."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke elektromagnetische straling heeft de hoogste energie?",
+          "opties": [
+            "gammastraling",
+            "radiogolven",
+            "infraroodstraling",
+            "zichtbaar licht"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het spectrum loopt van radiogolven over microgolven, infrarood, licht, uv en röntgen naar gamma. Hoe hoger de frequentie, hoe hoger de energie."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Radiogolven hebben een grotere golflengte dan röntgenstraling.",
+          "antwoord": true,
+          "uitleg": "Radiogolven staan aan de kant van de lage frequenties, en daar horen lange golven bij. Golflengte en frequentie gaan altijd omgekeerd samen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke soorten straling zijn ioniserend? Er zijn er twee.",
+          "opties": [
+            "röntgenstraling",
+            "gammastraling",
+            "radiogolven",
+            "infraroodstraling"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Alleen de hoogenergetische straling kan elektronen uit atomen losmaken: hoogenergetische uv, röntgen en gamma. Radio, microgolven, infrarood en zichtbaar licht zijn niet ioniserend."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke toestellen werken met infraroodstraling? Er zijn er twee.",
+          "opties": [
+            "een afstandsbediening",
+            "een warmtelamp",
+            "een microgolfoven",
+            "een bagagescanner"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Een afstandsbediening stuurt infrarood naar de televisie, en een warmtelamp straalt het uit als warmte. Een microgolfoven werkt met microgolven en een bagagescanner met röntgenstraling."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe bescherm je je tegen röntgenstraling bij een medisch onderzoek?",
+          "opties": [
+            "met een loodschort",
+            "met een gewone katoenen jas",
+            "met een zonnebril",
+            "met een laagje zonnecrème"
+          ],
+          "antwoord": 0,
+          "uitleg": "Lood houdt röntgenstraling tegen omdat het zwaar en dicht is. Tegen uv helpen kleding, zonnebril en zonnecrème wel."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Infraroodstraling is ioniserende straling.",
+          "antwoord": false,
+          "uitleg": "Infrarood heeft te weinig energie om elektronen los te maken; je voelt het gewoon als warmte. Pas bij hoogenergetische uv begint de ioniserende straling."
+        }
+      ]
+    },
+    {
+      "titel": "Kernfysica, kernenergie en straling — deel 1",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat geeft het massagetal van een kern aan?",
+          "opties": [
+            "het aantal protonen plus neutronen",
+            "het aantal protonen alleen",
+            "het aantal neutronen alleen",
+            "het aantal elektronen rond de kern"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het massagetal telt alle nucleonen, dus protonen en neutronen samen. Het atoomnummer telt alleen de protonen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Koolstof-14 heeft massagetal 14 en atoomnummer 6. Hoeveel neutronen zitten er in die kern?",
+          "opties": [
+            "8",
+            "6",
+            "14",
+            "20"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je trekt het atoomnummer van het massagetal af: 14 min 6 is 8 neutronen. De zes protonen maken er koolstof van."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je kernen van hetzelfde element met een verschillend aantal neutronen?",
+          "antwoord": [
+            "isotopen",
+            "isotoop",
+            "isotope nucliden"
+          ],
+          "uitleg": "Isotopen hebben hetzelfde atoomnummer maar een ander massagetal. Koolstof-12 en koolstof-14 zijn isotopen van koolstof."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Twee isotopen van hetzelfde element hebben hetzelfde aantal protonen.",
+          "antwoord": true,
+          "uitleg": "Het aantal protonen bepaalt om welk element het gaat. Alleen het aantal neutronen verschilt, en daarmee het massagetal."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke deeltjes zijn nucleonen? Er zijn er twee.",
+          "opties": [
+            "protonen",
+            "neutronen",
+            "elektronen",
+            "moleculen"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Nucleon is de gezamenlijke naam voor de deeltjes in de kern. Het massagetal is dus het aantal nucleonen; de elektronen draaien erbuiten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wanneer is een lichte kern met minder dan twintig protonen stabiel?",
+          "opties": [
+            "als er ongeveer evenveel neutronen als protonen zijn",
+            "als er veel meer neutronen dan protonen zijn",
+            "als er veel meer protonen dan neutronen zijn",
+            "als er geen enkel neutron in de kern zit"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij lichte kernen loopt de stabiliteitsband mee met de lijn waar N gelijk is aan Z. Bij zware kernen buigt die band af naar meer neutronen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat heeft een zware kern met meer dan twintig protonen nodig om stabiel te zijn?",
+          "opties": [
+            "meer neutronen dan protonen",
+            "meer protonen dan neutronen",
+            "precies evenveel van beide",
+            "een even aantal nucleonen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De protonen stoten elkaar af, en extra neutronen houden de kern bij elkaar. Daardoor buigt de stabiliteitsband op de nuclidenkaart naar boven af."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de halfwaardetijd van een radioactieve stof?",
+          "opties": [
+            "de tijd waarin de helft van de kernen vervalt",
+            "de tijd waarin alle kernen vervallen",
+            "de helft van de tijd die de stof bestaat",
+            "de tijd tot de straling de helft sneller gaat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na één halfwaardetijd is de helft over, na twee een vierde, na drie een achtste. Elke stof heeft haar eigen halfwaardetijd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een stof heeft een halfwaardetijd van 8 dagen. Welk deel is er na 24 dagen nog over?",
+          "opties": [
+            "een achtste",
+            "een derde",
+            "een vierde",
+            "niets meer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vierentwintig dagen zijn drie halfwaardetijden. Na elke periode blijft de helft over, dus de helft van de helft van de helft is een achtste."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Na één halfwaardetijd is alle straling van een stof verdwenen.",
+          "antwoord": false,
+          "uitleg": "Na één halfwaardetijd is nog de helft van de kernen over, en die stralen verder. Daarom blijft langlevend afval eeuwen gevaarlijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen kernfusie en kernsplijting?",
+          "opties": [
+            "bij fusie smelten kernen samen, bij splijting breken ze",
+            "bij fusie breken kernen, bij splijting smelten ze samen",
+            "bij fusie komt energie vrij, bij splijting niet",
+            "bij fusie verandert het element niet, bij splijting wel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Fusie voegt lichte kernen samen, zoals in de zon. Splijting breekt een zware kern in stukken, zoals in een kerncentrale."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij welke reacties komt er energie vrij? Er zijn er twee.",
+          "opties": [
+            "het samensmelten van lichte kernen",
+            "het splijten van zware kernen",
+            "het samensmelten van zware kernen",
+            "het splijten van lichte kernen"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Lichte kernen leveren energie bij fusie, zware bij splijting. In beide gevallen is de massa na de reactie kleiner dan ervoor."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar komt de energie van een kernreactie vandaan?",
+          "opties": [
+            "uit het massaverlies van de kernen",
+            "uit de warmte van het koelwater",
+            "uit de lading van de protonen",
+            "uit de beweging van de elektronen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na de reactie is er een beetje massa verdwenen, en die is omgezet in energie. De formule van Einstein, E is m maal c in het kwadraat, zegt hoeveel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke stof wordt in een Belgische kerncentrale gespleten?",
+          "opties": [
+            "uranium",
+            "waterstof",
+            "helium",
+            "koolstof"
+          ],
+          "antwoord": 0,
+          "uitleg": "De splijtstaven bevatten uranium, een zware kern die goed splijt. Waterstof en helium horen bij kernfusie, niet bij splijting."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor dienen de regelstaven in een kernreactor?",
+          "opties": [
+            "de kettingreactie afremmen of stilleggen",
+            "de kettingreactie op gang brengen",
+            "het water in de kringloop rondpompen",
+            "de stoom naar de turbine leiden"
+          ],
+          "antwoord": 0,
+          "uitleg": "De regelstaven slorpen neutronen op, en daardoor splijten er minder kernen. Zo blijft de kettingreactie beheerst en kan de reactor stilgelegd worden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke onderdelen van een kerncentrale zijn er voor de veiligheid? Er zijn er twee.",
+          "opties": [
+            "de regelstaven",
+            "de betonnen koepel",
+            "de turbine",
+            "de elektrische generator"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "De regelstaven houden de kettingreactie in de hand en de betonnen koepel houdt straling binnen. De turbine en de generator maken elektriciteit."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De kernreactie drijft in een kerncentrale rechtstreeks de generator aan.",
+          "antwoord": false,
+          "uitleg": "De reactie maakt alleen warmte. Die warmte verdampt water, de stoom drijft een turbine aan, en de turbine draait de generator."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe wordt de warmte van een kernreactor elektriciteit?",
+          "opties": [
+            "warmte maakt stoom, stoom draait een turbine en een generator",
+            "warmte wordt rechtstreeks in de stroomkring gestuurd",
+            "warmte laat de splijtstaven elektronen uitzenden",
+            "warmte doet een magneet rond de reactor draaien"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een kerncentrale is in dat opzicht een stoomcentrale: alleen de warmtebron is anders. De koeltoren zorgt daarna voor de afvoer van restwarmte."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk afval hoort bij categorie A?",
+          "opties": [
+            "kortlevend laag- en middelactief afval",
+            "langlevend laag- en middelactief afval",
+            "kort- en langlevend hoogactief afval",
+            "alle afval van een kerncentrale samen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Categorie A is het minst gevaarlijke en wordt in België aan de oppervlakte geborgen in Dessel. Categorie B is langlevend laag- en middelactief, categorie C is hoogactief."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Hoogactief radioactief afval hoort bij categorie C.",
+          "antwoord": true,
+          "uitleg": "Categorie C is het zwaarste afval, en het wordt voorlopig bovengronds bewaard. Voor categorie B en C wordt berging diep in de kleilaag voorbereid."
+        }
+      ]
+    },
+    {
+      "titel": "Kernfysica, kernenergie en straling — deel 2",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is alfastraling?",
+          "opties": [
+            "een heliumkern die de kern verlaat",
+            "een elektron dat de kern verlaat",
+            "een elektromagnetische golf uit de kern",
+            "een neutron dat de kern verlaat"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een alfadeeltje bestaat uit twee protonen en twee neutronen, dus een heliumkern. Het is zwaar en groot, en daarom komt het niet ver."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is bètamin-straling?",
+          "opties": [
+            "een elektron dat de kern verlaat",
+            "een heliumkern die de kern verlaat",
+            "een proton dat de kern verlaat",
+            "een lichtdeeltje uit de elektronenschil"
+          ],
+          "antwoord": 0,
+          "uitleg": "In de kern verandert een neutron in een proton, en daarbij wordt een elektron uitgestoten. Het atoomnummer gaat daardoor met één omhoog."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is gammastraling?",
+          "opties": [
+            "elektromagnetische straling met heel hoge energie",
+            "een stroom zware deeltjes uit de kern",
+            "een stroom elektronen uit de kern",
+            "een stroom neutronen uit de kern"
+          ],
+          "antwoord": 0,
+          "uitleg": "Gammastraling is geen deeltje maar een golf, net als licht, maar met veel meer energie. Daardoor dringt ze heel diep door."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke straling wordt al door een blad papier tegengehouden?",
+          "opties": [
+            "alfastraling",
+            "bètastraling",
+            "gammastraling",
+            "röntgenstraling"
+          ],
+          "antwoord": 0,
+          "uitleg": "Alfadeeltjes zijn groot en zwaar en raken dus niet ver. Voor bètastraling heb je een plaatje aluminium nodig, voor gammastraling lood of beton."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke soorten straling bestaan uit deeltjes en niet uit een golf? Er zijn er twee.",
+          "opties": [
+            "alfastraling",
+            "bètastraling",
+            "gammastraling",
+            "röntgenstraling"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Alfa- en bètastraling zijn echte deeltjes die wegvliegen; gamma en röntgen zijn elektromagnetische golven. Die golven dringen ook het diepst door, en daarom steriliseert men er materiaal en voedsel mee."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Alfastraling heeft het grootste ioniserend vermogen van de drie soorten.",
+          "antwoord": true,
+          "uitleg": "Een alfadeeltje geeft zijn energie over een korte afstand af, en richt daar veel schade aan. Buiten het lichaam is het ongevaarlijk, binnenin juist niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarmee houd je gammastraling tegen? Er zijn er twee.",
+          "opties": [
+            "een dikke laag lood",
+            "een dikke betonnen wand",
+            "een blad papier",
+            "een katoenen hemd"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Je hebt zware, dichte materialen nodig om gammastraling af te remmen. Papier en kleding houden alleen alfastraling tegen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een kern heeft te veel neutronen om stabiel te zijn. Welke straling zendt ze uit?",
+          "opties": [
+            "bètamin-straling",
+            "alfastraling",
+            "gammastraling",
+            "geen enkele straling"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een neutron verandert in een proton en er vertrekt een elektron. Op de nuclidenkaart schuift de kern daardoor naar de stabiliteitsband toe."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Uranium-238 zendt een alfadeeltje uit. Welke kern blijft er over?",
+          "opties": [
+            "massagetal 234 en atoomnummer 90",
+            "massagetal 238 en atoomnummer 90",
+            "massagetal 234 en atoomnummer 92",
+            "massagetal 236 en atoomnummer 91"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een alfadeeltje neemt twee protonen en twee neutronen mee. Het massagetal zakt dus met vier en het atoomnummer met twee: thorium-234."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Koolstof-14 vervalt via bètamin-straling. Wat gebeurt er met de kern?",
+          "opties": [
+            "het atoomnummer stijgt met één, het massagetal blijft",
+            "het atoomnummer daalt met één, het massagetal blijft",
+            "het massagetal daalt met vier, het atoomnummer met twee",
+            "zowel het massagetal als het atoomnummer blijven gelijk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een neutron wordt een proton, dus er zit één proton meer in dezelfde hoeveelheid nucleonen. Van koolstof-14 wordt zo stikstof-14."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je straling die elektronen uit atomen kan losmaken?",
+          "antwoord": [
+            "ioniserende straling",
+            "ioniserend",
+            "ionisatie"
+          ],
+          "uitleg": "Door die losgeslagen elektronen raken moleculen beschadigd, ook het DNA in je cellen. Alfa, bèta, gamma en röntgen zijn alle vier ioniserend."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen bestraling en besmetting?",
+          "opties": [
+            "bij besmetting zit de stof op of in je lichaam",
+            "bij bestraling zit de stof op of in je lichaam",
+            "bij besmetting gaat het altijd om gammastraling",
+            "bij bestraling gaat het altijd om alfastraling"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij bestraling blijft de bron buiten je en stopt het zodra je weggaat. Bij besmetting draag je de bron mee, dus de bestraling gaat door."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wanneer spreek je van een inwendige besmetting?",
+          "opties": [
+            "als je de radioactieve stof inademt of inslikt",
+            "als de radioactieve stof op je huid terechtkomt",
+            "als je naast een radioactieve bron staat",
+            "als je een röntgenfoto laat nemen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De stof komt dan in je lichaam en blijft er stralen tot ze vervalt of verwijderd is. Op de huid is het een uitwendige besmetting, die je kan afwassen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij bestraling komt de radioactieve stof in je lichaam terecht.",
+          "antwoord": false,
+          "uitleg": "Bij bestraling blijft de bron buiten je lichaam; alleen de straling bereikt je. Komt de stof zelf op of in je lichaam, dan heet dat besmetting."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe bescherm je je tegen ioniserende straling? Er zijn er twee.",
+          "opties": [
+            "verder van de bron gaan staan",
+            "een laag lood tussen jou en de bron zetten",
+            "dichter bij de bron gaan staan",
+            "langer bij de bron blijven"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Afstand, afscherming en tijd zijn de drie manieren: ver weg, iets zwaars ertussen, en zo kort mogelijk. Dichterbij of langer blijven doet precies het omgekeerde."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor dienen jodiumpillen bij een kernongeval?",
+          "opties": [
+            "je schildklier vullen met gewoon jodium",
+            "de straling buiten je lichaam tegenhouden",
+            "radioactieve stoffen uit je bloed filteren",
+            "de halfwaardetijd van de stof verkorten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een volle schildklier neemt geen radioactief jodium meer op. Tegen andere radioactieve stoffen helpen die pillen niet."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In welke eenheid druk je de geabsorbeerde stralingsdosis uit?",
+          "antwoord": [
+            "gray",
+            "Gy",
+            "de gray"
+          ],
+          "uitleg": "De gray meet hoeveel energie het weefsel per kilogram opneemt. De equivalente en de effectieve dosis worden in sievert uitgedrukt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "In welke eenheid druk je de effectieve dosis uit?",
+          "opties": [
+            "sievert",
+            "gray",
+            "becquerel",
+            "joule"
+          ],
+          "antwoord": 0,
+          "uitleg": "De sievert houdt rekening met de soort straling en met het weefsel dat geraakt wordt. Daarom zegt ze meer over het risico dan de gray."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Alfastraling krijgt een hogere stralingsweegfactor dan gammastraling.",
+          "antwoord": true,
+          "uitleg": "Alfastraling richt bij dezelfde opgenomen energie veel meer schade aan. Daarom weegt ze twintig keer zwaarder dan bèta- of gammastraling."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Hoe langer de halfwaardetijd van een stof, hoe sneller ze onschadelijk is.",
+          "antwoord": false,
+          "uitleg": "Het is net omgekeerd: een lange halfwaardetijd betekent dat de stof heel lang blijft stralen. Daarom is langlevend afval zo lastig te bergen."
+        }
+      ]
+    },
+    {
+      "titel": "Veilig werken, meten en onderzoeken — deel 1",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat staat er in een H-zin op een etiket?",
+          "opties": [
+            "waarom de stof gevaarlijk is",
+            "welke voorzorgen je moet nemen",
+            "hoe je de stof moet bewaren",
+            "waar de stof gemaakt werd"
+          ],
+          "antwoord": 0,
+          "uitleg": "De H staat voor hazard, dus gevaar: de zin beschrijft wat er mis kan gaan. Wat je zelf moet doen, staat in de P-zinnen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat staat er in een P-zin op een etiket?",
+          "opties": [
+            "welke voorzorgen je moet nemen",
+            "waarom de stof gevaarlijk is",
+            "uit welke stoffen het product bestaat",
+            "hoeveel het product mag kosten"
+          ],
+          "antwoord": 0,
+          "uitleg": "De P staat voor precaution, dus voorzorg: handschoenen dragen, buiten bereik van kinderen houden, niet inademen. De H-zinnen zeggen waarom dat nodig is."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een H-zin vertelt je welke voorzorgsmaatregelen je moet nemen.",
+          "antwoord": false,
+          "uitleg": "Dat doet een P-zin. Een H-zin beschrijft juist het gevaar van de stof."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke werkwijzen horen bij veilig en duurzaam werken? Er zijn er twee.",
+          "opties": [
+            "een gemorst product onmiddellijk opkuisen",
+            "glaswerk na gebruik schoonmaken en wegzetten",
+            "een elektrisch toestel met natte handen bedienen",
+            "glasscherven met de blote hand oprapen"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Opkuisen en opruimen voorkomen ongevallen bij jou en bij wie na jou komt. Natte handen en blote vingers bij scherven zijn juist de klassieke fouten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom bedien je een elektrisch toestel nooit met natte handen?",
+          "opties": [
+            "water geleidt de stroom en je kan een schok krijgen",
+            "water maakt het toestel onherstelbaar vuil",
+            "water verhoogt de weerstand van het toestel",
+            "water doet de zekering onnodig uitvallen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Door het water loopt de stroom veel makkelijker door je lichaam. Daarom droog je je handen af voor je een stekker of schakelaar aanraakt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe ruim je glasscherven veilig op?",
+          "opties": [
+            "met een borstel en een blad, in een harde doos",
+            "met je blote handen, stuk per stuk",
+            "met een natte doek over de tafel",
+            "met je voet naar de rand van het lokaal"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zo raak je het glas niet aan en snijdt niemand zich later aan de vuilnisbak. Scherven horen niet bij het gewone restafval in een zak."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je kuist een gemorst product onmiddellijk op.",
+          "antwoord": true,
+          "uitleg": "Wie later langskomt, weet niet wat er ligt en kan uitglijden of iets op zijn huid krijgen. Opkuisen hoort bij het experiment, niet bij het opruimen achteraf."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het gebied tussen de kleinste en de grootste waarde die een meettoestel kan meten?",
+          "antwoord": [
+            "meetbereik",
+            "het meetbereik",
+            "bereik"
+          ],
+          "uitleg": "Buiten het meetbereik klopt de meting niet meer, en vaak gaat het toestel stuk. Daarom kijk je altijd eerst of je meting erin past."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je balans meet tot 500 g, maar je moet 2 kg wegen. Wat doe je?",
+          "opties": [
+            "je zoekt een balans met een groter meetbereik",
+            "je weegt het in vier keer op dezelfde balans",
+            "je legt het voorzichtig op de balans en leest af",
+            "je schat de massa en noteert je schatting"
+          ],
+          "antwoord": 0,
+          "uitleg": "Boven het meetbereik geeft de balans geen betrouwbare waarde meer en kan ze beschadigd raken. Een geschikt toestel kiezen hoort bij correct meten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je wil een temperatuurverschil van een halve graad meten. Welke thermometer kies je?",
+          "opties": [
+            "een thermometer met streepjes van 0,1 °C",
+            "een thermometer met streepjes van 1 °C",
+            "een thermometer met streepjes van 2 °C",
+            "een thermometer met streepjes van 5 °C"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je kiest een toestel dat nauwkeuriger is dan het verschil dat je wil zien. Met streepjes van één graad lees je een halve graad niet af."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doe je voor je een massa op een digitale balans afleest?",
+          "opties": [
+            "de balans met het leeg recipiënt op nul zetten",
+            "de balans met het volle recipiënt op nul zetten",
+            "het recipiënt eerst met water bevochtigen",
+            "de balans tot aan het einde van haar bereik vullen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Door op nul te zetten weeg je alleen de stof en niet het potje eromheen. Dat scheelt vaak meer dan de massa die je wil meten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je leest een maatbeker af op ooghoogte, aan de onderkant van de meniscus.",
+          "antwoord": true,
+          "uitleg": "Van bovenaf of van onderaf kijken geeft een vertekend beeld. Het vloeistofoppervlak staat hol, en de onderkant van die holte is de juiste lijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarmee meet je hoe lang een proef duurt?",
+          "opties": [
+            "een chronometer",
+            "een manometer",
+            "een multimeter",
+            "een decibelmeter"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een chronometer meet tijd. Een manometer meet druk, een multimeter spanning en stroom, en een decibelmeter het geluidsniveau."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke voorzorgen neem je bij een bunsenbrander? Er zijn er twee.",
+          "opties": [
+            "lange haren vastbinden",
+            "losse kledij en mouwen wegsteken",
+            "de vlam met je hand doven",
+            "de brander op een blad papier zetten"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Haar en losse stof vatten heel snel vuur boven een open vlam. Je doet de brander uit met de gaskraan, en de ondergrond is hittebestendig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zet je een meetinstrument uit als je even niet meet?",
+          "opties": [
+            "om energie te sparen en het toestel te sparen",
+            "om de nauwkeurigheid tijdelijk te verhogen",
+            "om het meetbereik groter te maken",
+            "om de meting achteraf te kunnen herhalen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een toestel dat nodeloos aan staat, verbruikt stroom of batterij en verslijt sneller. Duurzaam werken zit ook in dat soort kleine gewoonten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Hygiënisch omgaan met biologisch materiaal hoort bij veilig werken.",
+          "antwoord": true,
+          "uitleg": "In biologisch materiaal kunnen micro-organismen zitten. Handschoenen, handen wassen en materiaal apart houden horen daar dus bij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doe je met de restproducten van een proef?",
+          "opties": [
+            "sorteren volgens de aanwijzingen op het etiket",
+            "alles samen in de gewone vuilnisbak gooien",
+            "alles met veel water in de gootsteen gieten",
+            "alles bewaren tot niemand het nog nodig heeft"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het etiket en de P-zinnen zeggen waar het afval hoort, vaak bij het klein gevaarlijk afval. Zo komt er niets in het riool dat daar niet thuishoort."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom gebruik je zo weinig chemische stoffen als mogelijk?",
+          "opties": [
+            "minder verbruik geeft minder afval en minder risico",
+            "minder verbruik maakt de meting nauwkeuriger",
+            "minder verbruik versnelt elke reactie",
+            "minder verbruik verlengt het meetbereik"
+          ],
+          "antwoord": 0,
+          "uitleg": "Elke milliliter die je niet gebruikt, hoeft niet gemaakt en niet verwerkt te worden. Dat is zowel veiliger als duurzamer."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Met welk toestel meet je de massa van een stof?",
+          "antwoord": [
+            "balans",
+            "een balans",
+            "weegschaal"
+          ],
+          "uitleg": "Een balans meet massa in gram of kilogram. Vergeet niet eerst het lege recipiënt af te trekken."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Je mag een meetinstrument boven zijn meetbereik gebruiken zolang je voorzichtig doet.",
+          "antwoord": false,
+          "uitleg": "Buiten het bereik is de waarde niet betrouwbaar, en vaak beschadig je het toestel. Je neemt dan een toestel met een groter bereik."
+        }
+      ]
+    },
+    {
+      "titel": "Veilig werken, meten en onderzoeken — deel 2",
+      "niveau": "beyond-dubbele-finaliteit",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de SI-eenheid van massa?",
+          "opties": [
+            "de kilogram",
+            "de gram",
+            "de newton",
+            "de liter"
+          ],
+          "antwoord": 0,
+          "uitleg": "De kilogram is bij uitzondering een basiseenheid met een voorvoegsel erin. De newton is de eenheid van kracht, de liter die van volume."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke van deze eenheden zijn SI-basiseenheden? Er zijn er twee.",
+          "opties": [
+            "de meter",
+            "de seconde",
+            "de liter",
+            "de graad Celsius"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Meter en seconde horen bij de zeven basiseenheden, samen met onder andere de kilogram, de kelvin en de ampère. De liter en de graad Celsius zijn afgeleide of afgesproken eenheden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel meter is 2,5 km?",
+          "opties": [
+            "2500 m",
+            "250 m",
+            "25 000 m",
+            "0,0025 m"
+          ],
+          "antwoord": 0,
+          "uitleg": "Kilo betekent duizend, dus je vermenigvuldigt met 1000. Tweeënhalve kilometer is 2500 meter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel gram is 500 mg?",
+          "opties": [
+            "0,5 g",
+            "5 g",
+            "50 g",
+            "0,05 g"
+          ],
+          "antwoord": 0,
+          "uitleg": "Milli betekent een duizendste, dus je deelt door 1000. Vijfhonderd milligram is een halve gram."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent het voorvoegsel micro?",
+          "opties": [
+            "een miljoenste",
+            "een duizendste",
+            "een miljard keer kleiner",
+            "een miljoen keer groter"
+          ],
+          "antwoord": 0,
+          "uitleg": "Micro staat voor een miljoenste deel. Milli is een duizendste en nano een miljardste."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk voorvoegsel gebruik je voor duizend keer een eenheid?",
+          "antwoord": [
+            "kilo",
+            "k",
+            "kilo-"
+          ],
+          "uitleg": "Kilo betekent duizend, zoals in kilometer en kilogram. Een miljoen keer is mega."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het voorvoegsel milli betekent een duizendste van de eenheid.",
+          "antwoord": true,
+          "uitleg": "Duizend milliliter is dus één liter. Kilo betekent omgekeerd duizend keer de eenheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel joule is 2 MJ?",
+          "opties": [
+            "2 000 000 J",
+            "2000 J",
+            "200 000 J",
+            "20 000 000 J"
+          ],
+          "antwoord": 0,
+          "uitleg": "Mega betekent een miljoen, dus je vermenigvuldigt met 1 000 000. Twee megajoule is dus twee miljoen joule."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent het dat twee grootheden recht evenredig zijn?",
+          "opties": [
+            "verdubbelt de ene, dan verdubbelt de andere",
+            "verdubbelt de ene, dan halveert de andere",
+            "de som van beide blijft altijd gelijk",
+            "het verschil tussen beide blijft altijd gelijk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het quotiënt van de twee blijft dan constant. In een grafiek krijg je een rechte lijn door de oorsprong."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent het dat twee grootheden omgekeerd evenredig zijn?",
+          "opties": [
+            "verdubbelt de ene, dan halveert de andere",
+            "verdubbelt de ene, dan verdubbelt de andere",
+            "beide grootheden blijven altijd even groot",
+            "beide grootheden stijgen met hetzelfde getal"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het product van de twee blijft dan constant. In een grafiek krijg je een kromme die naar beide assen toe buigt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een recht evenredig verband gaat de rechte door de oorsprong van de grafiek.",
+          "antwoord": true,
+          "uitleg": "Is de ene grootheid nul, dan is de andere dat ook. Een rechte die de as hoger snijdt, hoort bij een lineair maar niet recht evenredig verband."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een hypothese?",
+          "opties": [
+            "een verwachting die je met je proef kan testen",
+            "het besluit dat je na je proef opschrijft",
+            "de vraag waarmee je onderzoek begint",
+            "de lijst materialen die je nodig hebt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een hypothese is een voorspelling die juist of fout kan blijken. Precies daarom kan je ze testen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat kenmerkt een goede onderzoeksvraag? Er zijn er twee.",
+          "opties": [
+            "ze is scherp afgebakend",
+            "je kan ze met metingen beantwoorden",
+            "ze is zo breed mogelijk gesteld",
+            "ze bevat al het antwoord dat je verwacht"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Hoe scherper de vraag, hoe duidelijker wat je moet meten. Een vraag als is water gezond, kan je met geen enkele proef beantwoorden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke stappen horen bij wetenschappelijk onderzoek? Er zijn er twee.",
+          "opties": [
+            "een hypothese formuleren",
+            "data verzamelen en analyseren",
+            "het besluit vooraf vastleggen",
+            "de metingen aanpassen aan je verwachting"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Je gaat van probleemstelling en onderzoeksvraag over hypothese en plan naar meten, analyseren en besluiten. Het besluit komt uit de data, nooit omgekeerd."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Passen je metingen niet bij je hypothese, dan pas je de metingen aan.",
+          "antwoord": false,
+          "uitleg": "De metingen zijn wat ze zijn; de hypothese mag fout blijken. Metingen bijwerken is geen onderzoek meer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom verander je in een proef maar één factor tegelijk?",
+          "opties": [
+            "anders weet je niet wat het verschil veroorzaakt",
+            "anders duurt de proef veel te lang",
+            "anders heb je te veel materiaal nodig",
+            "anders kan je de grafiek niet tekenen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Verander je er twee, dan kan het resultaat van beide komen. Al de rest gelijk houden is daarom de kern van een eerlijke proef."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Voor een vaccin was kennis nodig van de werking van het virus, van de koeling en van de verspreidingscijfers. Wat toont dat?",
+          "opties": [
+            "de STEM-domeinen werken samen aan één probleem",
+            "wiskunde volstaat voor elk probleem",
+            "techniek staat los van wetenschappelijke kennis",
+            "een maatschappelijk probleem hoort niet bij STEM"
+          ],
+          "antwoord": 0,
+          "uitleg": "Wetenschap, technologie, engineering en wiskunde leveren elk een stuk van de oplossing. Grote maatschappelijke vragen zijn bijna nooit van één vak alleen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noem je het besluit dat je aan het einde van een onderzoek uit je gegevens haalt?",
+          "antwoord": [
+            "conclusie",
+            "de conclusie",
+            "besluit"
+          ],
+          "uitleg": "De conclusie is het antwoord op je onderzoeksvraag, en ze volgt uit de data. Daarna kijk je nog terug op je methode en vertel je wat je vond."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je hebt een probleem gedefinieerd en wil een oplossing ontwerpen. Wat is de volgende stap?",
+          "opties": [
+            "criteria opstellen waaraan de oplossing moet voldoen",
+            "meteen de eerste oplossing uitvoeren",
+            "het probleem opnieuw ruimer formuleren",
+            "de kostprijs van het eindproduct berekenen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Met criteria kan je achteraf nagaan of je oplossing deugt. Daarna splits je het probleem indien nodig op in deelproblemen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een onderzoek waarvan de uitkomst je hypothese tegenspreekt, is mislukt.",
+          "antwoord": false,
+          "uitleg": "Zo'n onderzoek leert je juist iets: je verwachting was fout. Je noteert dat en stelt een nieuwe hypothese op."
+        }
+      ]
     }
   ]
 }

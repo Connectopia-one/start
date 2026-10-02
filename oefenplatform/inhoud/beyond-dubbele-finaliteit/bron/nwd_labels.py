@@ -103,9 +103,9 @@ DEEL1 = [
     ),
     dict(
         type="waarofniet",
-        vraag="Een restje chemisch product giet je het best gewoon door de gootsteen.",
-        antwoord=False,
-        uitleg="Veel van die stoffen zijn schadelijk voor het water en voor de waterzuivering. Ze horen bij het klein gevaarlijk afval, in het containerpark.",
+        vraag="Een restje chemisch product hoort bij het klein gevaarlijk afval en niet in de gootsteen.",
+        antwoord=True,
+        uitleg="Veel van die stoffen zijn schadelijk voor het water en voor de waterzuivering. Daarom worden ze apart ingezameld in het containerpark.",
     ),
     dict(
         type="invultekst",

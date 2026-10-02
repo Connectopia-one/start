@@ -101,6 +101,8 @@ def main():
                 "spark",
                 "boost-doorstroom",
                 "boost-dubbele-finaliteit",
+                "beyond",
+                "beyond-dubbele-finaliteit",
                 "uitdaging",
                 "pittig",
                 "hoekje",

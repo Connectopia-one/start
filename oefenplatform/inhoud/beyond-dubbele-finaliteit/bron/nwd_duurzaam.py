@@ -1,0 +1,405 @@
+# -*- coding: utf-8 -*-
+"""🌍 Beyond dubbele finaliteit — Duurzame chemie.
+
+Chemie, de kop "Duurzame chemie" uit de vakfiche natuurwetenschappen 3DU.
+Deel 1 gaat over de ketens: lineair, met recyclage, cradle to cradle, de ladder
+van Lansink, up- en downcycling, en greenwashing. Deel 2 gaat over de materialen
+en de energie: thermoplast, thermoharder en elastomeer, biogebaseerd en
+afbreekbaar, de kleuren van waterstof en water, en CO2-neutrale productie.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een lineaire economie?",
+        opties=[
+            "grondstof nemen, product maken, afval weggooien",
+            "grondstof nemen, product maken, materiaal hergebruiken",
+            "afval van het ene bedrijf wordt grondstof van het andere",
+            "elk product wordt na gebruik volledig gerecycleerd",
+        ],
+        antwoord=0,
+        uitleg="Dat is het patroon take make waste: aan het einde van de rit blijft er afval over. Een lineaire keten heet daarom ook cradle to grave, van wieg tot graf.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je een economie waarin afval opnieuw grondstof wordt?",
+        antwoord=["circulaire economie", "keteneconomie", "circulair"],
+        uitleg="In een circulaire of keteneconomie draait het materiaal rond in plaats van weg te gaan. Cradle to cradle is daarvan de strengste vorm.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat bedoelt men met cradle to cradle?",
+        opties=[
+            "elk materiaal wordt na gebruik opnieuw grondstof",
+            "elk materiaal wordt na gebruik netjes gestort",
+            "elk materiaal wordt na gebruik met energiewinst verbrand",
+            "elk materiaal gaat zo lang mogelijk mee in één product",
+        ],
+        antwoord=0,
+        uitleg="Van wieg tot wieg: afval bestaat niet, want wat je weggooit begint ergens anders aan een nieuw leven. Dat is strenger dan gewoon recycleren.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is downcycling?",
+        opties=[
+            "recycleren tot een materiaal van mindere kwaliteit",
+            "recycleren tot een materiaal van hogere kwaliteit",
+            "een product in zijn geheel opnieuw gebruiken",
+            "een product verbranden en de warmte benutten",
+        ],
+        antwoord=0,
+        uitleg="Van een petfles een bloempot maken is downcycling: er komt nooit meer een fles van. Het materiaal zakt bij elke ronde in waarde.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is upcycling?",
+        opties=[
+            "er iets van hogere waarde van maken",
+            "er iets van lagere waarde van maken",
+            "het materiaal onveranderd hergebruiken",
+            "het materiaal tot grondstof laten vergaan",
+        ],
+        antwoord=0,
+        uitleg="Van een oude ladder een boekenrek maken is upcycling. Het voorwerp wordt meer waard dan het was.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Bij downcycling levert het gerecycleerde materiaal een product van mindere kwaliteit op.",
+        antwoord=True,
+        uitleg="Het materiaal verliest bij elke ronde eigenschappen. Daarom is downcycling beter dan storten, maar minder goed dan echte recyclage.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat staat bovenaan de ladder van Lansink?",
+        opties=[
+            "voorkomen dat er afval ontstaat",
+            "het afval zorgvuldig recycleren",
+            "het afval met energiewinst verbranden",
+            "het afval op een stortplaats bergen",
+        ],
+        antwoord=0,
+        uitleg="Preventie staat bovenaan: wat je niet maakt, hoef je ook niet te verwerken. Storten staat helemaal onderaan.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke stappen staan op de ladder van Lansink hoger dan verbranden? Er zijn er drie.",
+        opties=[
+            "preventie",
+            "hergebruik",
+            "recyclage",
+            "storten",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="De ladder loopt van preventie over hergebruik en recyclage naar verbranden en storten. Storten is de laatste trede, dus de slechtste.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe heet de ladder die de stappen van afvalverwerking van best naar slechtst zet?",
+        antwoord=["ladder van Lansink", "Lansink", "ladder Lansink"],
+        uitleg="Ze is genoemd naar de Nederlandse politicus Ad Lansink. Hoe hoger op de ladder, hoe beter voor het milieu.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is greenwashing?",
+        opties=[
+            "zich groener voordoen dan men werkelijk is",
+            "een product met milieuvriendelijke zeep wassen",
+            "een gebouw met plantaardige verf behandelen",
+            "een verpakking volledig in het groen uitvoeren",
+        ],
+        antwoord=0,
+        uitleg="Een vaag woord als natuurlijk of een groen blaadje op de verpakking zegt niets. Kijk naar wat er echt gemeten en bewezen wordt.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Staat er een groen blaadje op een verpakking, dan is het product duurzaam.",
+        antwoord=False,
+        uitleg="Een blaadje is geen keurmerk en wordt door niemand gecontroleerd. Dat is precies hoe greenwashing werkt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het verschil tussen een keteneconomie met en zonder recyclage?",
+        opties=[
+            "met recyclage keert het materiaal terug in de keten",
+            "met recyclage gaat elk product veel langer mee",
+            "zonder recyclage worden er geen grondstoffen gebruikt",
+            "zonder recyclage is er minder energie nodig per product",
+        ],
+        antwoord=0,
+        uitleg="Zonder recyclage eindigt het materiaal als afval, ook al wordt het product lang gebruikt. Met recyclage gaat het terug naar het begin van de keten.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="In het cradle to cradle-denken bestaat afval niet, alleen grondstof.",
+        antwoord=True,
+        uitleg="Elk materiaal is bedoeld om na gebruik ergens opnieuw in te gaan. Daarom wordt er al bij het ontwerp op gelet welke materialen er samen in een product zitten.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het verschil tussen hergebruiken en recycleren?",
+        opties=[
+            "bij hergebruik blijft het voorwerp zoals het is",
+            "bij hergebruik wordt het voorwerp eerst vermalen",
+            "bij recyclage blijft het voorwerp volledig intact",
+            "bij recyclage wordt het voorwerp enkel hersteld",
+        ],
+        antwoord=0,
+        uitleg="Een glazen fles opnieuw vullen is hergebruik; ze versmelten tot nieuw glas is recyclage. Hergebruik kost minder energie en staat dus hoger op de ladder.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Cradle to grave is een andere naam voor een lineaire keten.",
+        antwoord=True,
+        uitleg="Van wieg tot graf: het product begint bij een grondstof en eindigt als afval. Cradle to cradle sluit die keten juist.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="In welke ketens gaat het materiaal na gebruik verloren? Er zijn er twee.",
+        opties=[
+            "take make waste",
+            "keteneconomie zonder recyclage",
+            "keteneconomie met recyclage",
+            "cradle to cradle",
+        ],
+        antwoord=[0, 1],
+        uitleg="In beide gevallen eindigt het materiaal als afval. Een keten zonder recyclage doet het wel beter, want daar wordt het product eerst zo lang mogelijk gebruikt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waaraan meet je de duurzaamheid van een proces? Er zijn er drie.",
+        opties=[
+            "hoeveel grondstoffen het verbruikt",
+            "hoeveel energie het verbruikt",
+            "hoe goed het materiaal recycleerbaar is",
+            "hoe bekend het merk is bij de klanten",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Grondstoffen, energie, recycleerbaarheid en milieubelasting zijn de maatstaven. De bekendheid van een merk zegt daar niets over.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoeveel duurzame ontwikkelingsdoelstellingen of SDG's heeft de Verenigde Naties opgesteld?",
+        antwoord=["17", "zeventien"],
+        uitleg="De zeventien doelstellingen gaan van armoede en honger tot klimaat en vrede, en moeten tegen 2030 gehaald worden.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="De vijf P's van duurzaamheid zijn people, planet, prosperity, peace en partnership. Waar staat planet voor?",
+        opties=[
+            "de zorg voor het milieu en de natuur",
+            "de zorg voor eerlijke arbeidsomstandigheden",
+            "de zorg voor welvaart en economische groei",
+            "de zorg voor samenwerking tussen landen",
+        ],
+        antwoord=0,
+        uitleg="Planet gaat over het milieu, people over de mensen, prosperity over welvaart, peace over vrede en partnership over samenwerking.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Recycleren staat op de ladder van Lansink hoger dan hergebruiken.",
+        antwoord=False,
+        uitleg="Het is net omgekeerd: hergebruiken staat hoger, want daar blijft het voorwerp heel. Recycleren kost extra energie om het materiaal te verwerken.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat is kenmerkend voor een thermoplast?",
+        opties=[
+            "de ketens liggen los naast elkaar en smelten",
+            "de ketens zitten met vele bruggen vast aan elkaar",
+            "de ketens zijn veel korter dan in andere kunststoffen",
+            "de ketens bestaan niet uit koolstof maar uit silicium",
+        ],
+        antwoord=0,
+        uitleg="Zonder bruggen tussen de ketens kunnen die bij warmte over elkaar schuiven. Daarom smelt een thermoplast en kan je er opnieuw iets van maken.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom smelt een thermoharder niet?",
+        opties=[
+            "de ketens zitten met crosslinks aan elkaar vast",
+            "de ketens zijn veel te lang om te bewegen",
+            "de ketens bevatten geen enkele koolstofbinding",
+            "de ketens zijn te zwaar om over elkaar te schuiven",
+        ],
+        antwoord=0,
+        uitleg="De crosslinks maken van alle ketens één groot netwerk. Bij opwarmen kan er niets meer schuiven, dus het materiaal verbrandt eerder dan het smelt.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de bruggen die de ketens van een kunststof aan elkaar vastmaken?",
+        antwoord=["crosslinks", "crosslink", "dwarsverbindingen"],
+        uitleg="Hoe meer crosslinks, hoe stijver en hoe minder smeltbaar het materiaal. Een thermoplast heeft er geen, een thermoharder heel veel.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is kenmerkend voor een elastomeer?",
+        opties=[
+            "het is rekbaar en springt weer in vorm",
+            "het is hard en breekt bij een stoot",
+            "het smelt bij een lage temperatuur al",
+            "het lost op in water bij kamertemperatuur",
+        ],
+        antwoord=0,
+        uitleg="Een elastomeer heeft weinig crosslinks: genoeg om terug te veren, niet genoeg om stijf te zijn. Een autoband en een elastiek zijn elastomeren.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een thermoplast kan je omsmelten en opnieuw tot een ander product vormen.",
+        antwoord=True,
+        uitleg="Dat is precies waarom thermoplasten goed te recycleren zijn. Petflessen en polyetheen zakjes zijn thermoplasten.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke materialen zijn moeilijk te recycleren door hun crosslinks? Er zijn er twee.",
+        opties=[
+            "een thermoharder",
+            "een elastomeer",
+            "een thermoplast",
+            "glas",
+        ],
+        antwoord=[0, 1],
+        uitleg="Allebei vormen ze een netwerk dat niet meer smelt, dus omsmelten lukt niet. Thermoplasten en glas kan je wel opnieuw vloeibaar maken.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat betekent biogebaseerd?",
+        opties=[
+            "gemaakt uit plantaardige grondstoffen",
+            "volledig afbreekbaar in de natuur",
+            "geschikt voor de gft-container",
+            "gemaakt zonder enige energie te verbruiken",
+        ],
+        antwoord=0,
+        uitleg="Biogebaseerd gaat over waar het materiaal vandaan komt, niet over wat ermee gebeurt na gebruik. Een biogebaseerd plastic kan jaren blijven liggen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat betekent biodegradeerbaar?",
+        opties=[
+            "micro-organismen kunnen het afbreken",
+            "het is uit plantaardige grondstof gemaakt",
+            "het kan eindeloos gerecycleerd worden",
+            "het laat geen koolstofdioxide vrij bij verbranding",
+        ],
+        antwoord=0,
+        uitleg="Bacteriën en schimmels breken het materiaal af tot eenvoudige stoffen. Hoe lang dat duurt en onder welke omstandigheden, zegt het woord er niet bij.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een biogebaseerd product is daarom ook biodegradeerbaar.",
+        antwoord=False,
+        uitleg="De twee woorden gaan over iets anders: het begin en het einde van het leven van het materiaal. Er bestaat biogebaseerd plastic dat niet afbreekt, en afbreekbaar plastic uit aardolie.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is er strenger aan composteerbaar dan aan biodegradeerbaar?",
+        opties=[
+            "het moet binnen een afgesproken tijd afbreken",
+            "het moet uit plantaardige grondstof komen",
+            "het mag helemaal geen koolstof bevatten",
+            "het moet volledig oplossen in koud water",
+        ],
+        antwoord=0,
+        uitleg="Composteerbaar is een getest keurmerk met een vaste termijn en vaste omstandigheden. Industrieel composteerbaar hoort bovendien niet op je composthoop thuis.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de heel kleine plasticdeeltjes die in het milieu achterblijven?",
+        antwoord=["microplastics", "microplastic", "micoplastics"],
+        uitleg="Ze ontstaan als groter plastic afbrokkelt, en ze komen in water, bodem en voeding terecht. Afbreken tot kleine stukjes is dus niet hetzelfde als verdwijnen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Uit welke grondstoffen wordt gewone kunststof gemaakt? Er zijn er twee.",
+        opties=[
+            "aardolie",
+            "aardgas",
+            "zand en kalksteen",
+            "ijzererts en cokes",
+        ],
+        antwoord=[0, 1],
+        uitleg="Kunststof komt uit fossiele grondstoffen, die niet aangroeien. Daarom zoekt de duurzame chemie naar biogebaseerde vervangers.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wanneer spreekt men van groene waterstof?",
+        opties=[
+            "als ze met hernieuwbare stroom uit water komt",
+            "als ze met stroom uit een kerncentrale komt",
+            "als ze uit aardgas komt en de CO2 opgeslagen wordt",
+            "als ze uit aardgas komt en de CO2 vrijkomt",
+        ],
+        antwoord=0,
+        uitleg="Bij elektrolyse splits je water in waterstof en zuurstof. Komt de stroom van zon of wind, dan is de waterstof groen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is grijze waterstof?",
+        opties=[
+            "waterstof uit aardgas, waarbij de CO2 vrijkomt",
+            "waterstof uit aardgas, waarbij de CO2 opgeslagen wordt",
+            "waterstof uit water, met stroom van zon en wind",
+            "waterstof uit water, met stroom uit een kerncentrale",
+        ],
+        antwoord=0,
+        uitleg="Grijze waterstof komt uit aardgas en laat koolstofdioxide ontsnappen. Wordt die CO2 afgevangen en opgeslagen, dan heet ze blauw.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Blauwe waterstof komt uit aardgas, maar de koolstofdioxide wordt afgevangen en opgeslagen.",
+        antwoord=True,
+        uitleg="Daardoor is ze beter dan grijze waterstof, maar de grondstof blijft fossiel. Alleen groene waterstof vertrekt van water en hernieuwbare stroom.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is zwart water?",
+        opties=[
+            "afvalwater van het toilet",
+            "afvalwater van bad en wasmachine",
+            "water dat je rechtstreeks kan drinken",
+            "water dat door zand gefilterd werd",
+        ],
+        antwoord=0,
+        uitleg="Zwart water komt van het toilet, grijs water van bad, lavabo en wasmachine. Wit water is zuiver water dat je kan drinken.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke energievormen zijn hernieuwbaar? Er zijn er twee.",
+        opties=[
+            "windenergie",
+            "zonne-energie",
+            "steenkool",
+            "kernenergie",
+        ],
+        antwoord=[0, 1],
+        uitleg="Zon en wind raken niet op. Steenkool is fossiel, en kernenergie gebruikt uranium, dat ook een eindige grondstof is.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Kernenergie is een fossiele energievorm.",
+        antwoord=False,
+        uitleg="Kernenergie is een aparte vorm naast fossiel en hernieuwbaar. Ze stoot haast geen koolstofdioxide uit, maar ze laat radioactief afval na.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het verschil tussen CO2-neutrale en CO2-negatieve productie?",
+        opties=[
+            "negatief haalt meer CO2 uit de lucht dan het uitstoot",
+            "negatief stoot meer CO2 uit dan het opneemt",
+            "neutraal stoot helemaal geen enkele stof uit",
+            "neutraal gebruikt uitsluitend hernieuwbare grondstof",
+        ],
+        antwoord=0,
+        uitleg="Neutraal betekent dat uitstoot en opname elkaar opheffen. Negatief gaat een stap verder: er verdwijnt netto koolstofdioxide uit de lucht.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Groene stroom komt uit hernieuwbare bronnen zoals zon, wind en water.",
+        antwoord=True,
+        uitleg="Grijze stroom komt uit fossiele brandstoffen. Welke stroom je gebruikt, weegt mee in de duurzaamheid van een heel productieproces.",
+    ),
+]
