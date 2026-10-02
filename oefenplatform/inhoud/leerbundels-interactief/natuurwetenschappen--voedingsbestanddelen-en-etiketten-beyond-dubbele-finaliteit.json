@@ -1,0 +1,118 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Voedingsbestanddelen en etiketten",
+ "onder": "De voedingsstoffen en hun functie, en wat er op een etiket staat: nutriscore, ecoscore en allergenen.",
+ "secties": [
+  {
+   "kop": "Voedingsstof of voedingsmiddel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Het verschil tussen een voedingsstof en een voedingsmiddel is dat een voedingsmiddel is wat je eet en een voedingsstof erin zit.</strong> Een appel is een voedingsmiddel; de koolhydraten en vitaminen erin zijn de voedingsstoffen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Drie</strong> voedingsstoffen leveren energie: <strong>koolhydraten</strong>, <strong>vetten</strong> en <strong>eiwitten</strong>. <strong>Water levert geen energie, maar is toch onmisbaar</strong>, en <strong>vitaminen leveren evenmin energie</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>voedingsdriehoek</strong> laat zien <strong>waarvan je veel mag eten en waarvan beter weinig</strong>. Sterk bewerkte producten staan erbuiten, in de restgroep."
+    }
+   ]
+  },
+  {
+   "kop": "Koolhydraten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een koolhydraat dat <strong>uit één suikermolecule bestaat, zoals glucose</strong>, heet een <strong>monosacharide</strong>. <strong>Zetmeel</strong> is daarentegen <strong>een lange keten van suikermoleculen</strong>, dus een polysacharide."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Zetmeel geeft trager energie dan glucose, omdat de lange keten eerst afgebroken moet worden.</strong> Daarom <strong>komen glucose en fructose sneller in je bloed dan zetmeel</strong>. <strong>Ga je zo meteen een uur lopen, dan eet je een paar uur vooraf dus het best iets met zetmeel, zoals pasta of brood</strong>, en niet iets met losse suiker."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Drie</strong> voedingsmiddelen zijn rijk aan zetmeel: <strong>aardappelen</strong>, <strong>rijst</strong> en <strong>brood</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Eiwitten, vetten, water, mineralen en vitaminen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>eiwit bestaat uit aminozuren</strong>. De <strong>belangrijkste functie van eiwitten in het lichaam is dat ze weefsels bouwen en herstellen</strong>, en <strong>eiwitten zijn dus ook de belangrijkste bouwstof van je spieren</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wat <strong>kenmerkend is voor een onverzadigd vetzuur</strong>, is dat <strong>er minstens één dubbele binding in de keten zit</strong>. Daardoor krijgt de keten een knik. <strong>Verzadigde vetten zijn bij kamertemperatuur dus niet vloeibaar maar vast</strong>: boter en kokosvet zijn vast, olijfolie en zonnebloemolie vloeibaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Twee</strong> voedingsmiddelen uit de reeks zijn rijk aan onverzadigde vetten: <strong>olijfolie</strong> en <strong>noten</strong>. Vetten dienen in het lichaam voor <strong>drie</strong> dingen: <strong>energie opslaan</strong>, <strong>het lichaam isoleren tegen de kou</strong> en <strong>bepaalde vitaminen opnemen</strong>, namelijk A, D, E en K."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Calcium heb je nodig voor stevige botten en tanden.</strong> Het mineraal dat je nodig hebt <strong>om hemoglobine te maken, de stof die zuurstof vervoert</strong>, is <strong>ijzer</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Het etiket lezen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De ingrediënten staan op een etiket <strong>van het meest naar het minst aanwezige</strong>. <strong>Staat suiker als eerste in de ingrediëntenlijst, dan bevat het product er dus veel van.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De allergenen herken je in een ingrediëntenlijst doordat ze in het vet of met hoofdletters staan.</strong> Dat is wettelijk verplicht voor de veertien bekendste. <strong>Op veel verpakkingen staat ook dat het product sporen van noten kan bevatten, omdat er in dezelfde fabriek ook noten verwerkt worden.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>energiewaarde slaat op een etiket meestal op honderd gram of honderd milliliter</strong>, en staat er <strong>in kilojoule</strong>, vaak met de kilocalorie ernaast. <strong>Een etiket moet vermelden hoeveel energie, vet, koolhydraten, eiwit en zout het product bevat.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Staat er <strong>suiker 32 g per 100 g</strong>, dan betekent dat dat <strong>bijna een derde van het product suiker is</strong>. In <strong>een pot van 250 gram zit dan 80 g suiker</strong>: 32 maal 2,5."
+    }
+   ]
+  },
+  {
+   "kop": "Nutriscore en ecoscore",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>nutriscore</strong> zegt <strong>hoe gezond de samenstelling van een product is</strong>. Het is het systeem <strong>met de letters A tot E</strong>. <strong>Drie</strong> bestanddelen trekken hem naar beneden: <strong>veel suiker</strong>, <strong>veel zout</strong> en <strong>veel verzadigd vet</strong>. Vezels, eiwit, fruit en groenten tellen in de gunstige richting."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een product met nutriscore A mag je niet in onbeperkte hoeveelheden eten.</strong> De score vergelijkt producten binnen dezelfde groep en zegt niets over de hoeveelheid."
+    },
+    {
+     "soort": "tekst",
+     "html": "In de <strong>ecoscore</strong> telt <strong>de belasting van het milieu over de hele levenscyclus</strong> mee. De <strong>levenscyclus</strong> is <strong>de hele weg van een product, van grondstof tot afval</strong>. <strong>Twee</strong> dingen kunnen er een bonus opleveren in de ecoscore: <strong>een biologische teelt</strong> en <strong>een goed recycleerbare verpakking</strong>. <strong>De ecoscore hangt dus mee af van de verpakking.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Nutriscore en ecoscore meten niet hetzelfde</strong>: de ene gaat over jouw gezondheid, de andere over het milieu. Zijn <strong>twee producten even voedzaam en komt het ene van hier terwijl het andere overgevlogen is, dan haalt het product van hier een betere ecoscore</strong>; de nutriscore blijft dezelfde."
+    },
+    {
+     "soort": "tekst",
+     "html": "Heb je <strong>midden in de namiddag een energiedip, dan helpt een stuk fruit het snelst</strong>: daarin zitten glucose en fructose, die meteen opgenomen worden."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Koolhydraten, vetten en eiwitten leveren energie; water en vitaminen niet.",
+  "Zetmeel is een lange keten en geeft daarom tragere energie dan glucose.",
+  "Eiwitten bouwen en herstellen; vetten slaan op, isoleren en nemen vitaminen op.",
+  "Calcium voor botten en tanden, ijzer voor hemoglobine.",
+  "Ingrediënten staan van meest naar minst; allergenen staan in het vet.",
+  "De energiewaarde staat per 100 g of 100 mL, in kilojoule.",
+  "Nutriscore gaat over gezondheid, ecoscore over het milieu.",
+  "De ecoscore kijkt naar de hele levenscyclus, met bonussen en malussen."
+ ]
+}

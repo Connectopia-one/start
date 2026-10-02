@@ -1,0 +1,111 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Van DNA naar eiwit: genexpressie",
+ "onder": "Hoe DNA gebouwd is, hoe een gen een eiwit oplevert, en waarom je fenotype meer is dan je genen.",
+ "secties": [
+  {
+   "kop": "De bouw van DNA",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het DNA-molecule heeft de vorm van een <strong>dubbele helix</strong> of dubbelhelix: twee strengen die om elkaar draaien. De <strong>twee lange zijkanten van die helix bestaan uit suikers en fosfaatgroepen</strong>; de sporten van de ladder ertussen zijn de basen."
+    },
+    {
+     "soort": "tekst",
+     "html": "In DNA horen <strong>vier</strong> basen: <strong>adenine</strong>, <strong>cytosine</strong>, <strong>guanine</strong> en <strong>thymine</strong>. Ze staan altijd per twee tegenover elkaar: <strong>tegenover adenine staat in DNA altijd thymine</strong>, en <strong>tegenover cytosine staat altijd guanine</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">DNA</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">RNA</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Strengen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee, in een dubbele helix</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maar één streng</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Suiker</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">desoxyribose</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ribose</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Basen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">A, C, G en T</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">A, C, G en U</td></tr></table>",
+     "onderschrift": "DNA en RNA verschillen in drie dingen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>RNA verschilt in drie dingen van DNA</strong>: <strong>RNA heeft maar één streng</strong>, <strong>RNA bevat uracil in plaats van thymine</strong> en <strong>RNA bevat ribose in plaats van desoxyribose</strong>. De suiker in RNA is dus <strong>ribose</strong>, en de base die er <strong>de plaats van thymine</strong> inneemt is <strong>uracil</strong>. <strong>RNA bestaat dus niet, zoals DNA, uit twee strengen die om elkaar draaien.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "Gen, allel en chromosoom",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>gen</strong> is <strong>een stuk DNA met de code voor één eigenschap</strong>. <strong>Elk gen ligt bij elke mens op dezelfde plaats van hetzelfde chromosoom.</strong> Daarom kan men van een gen zeggen waar het zit."
+    },
+    {
+     "soort": "tekst",
+     "html": "De verschillende versies van hetzelfde gen heten <strong>allelen</strong>, vroeger ook erffactoren. <strong>Het verschil tussen een gen en een allel is dus dat een allel één van de mogelijke versies van dat gen is.</strong> <strong>Een kind lijkt op allebei zijn ouders omdat het van elke ouder één allel per gen krijgt.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een lichaamscel bevat niet één gen tegelijk</strong>, maar het hele erfelijk materiaal: tienduizenden genen, in elke cel dezelfde."
+    }
+   ]
+  },
+  {
+   "kop": "Genotype en fenotype",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>genotype</strong> van een organisme is <strong>het geheel van zijn erfelijk materiaal</strong>. Het <strong>fenotype</strong> is <strong>alles wat je aan een organisme kan waarnemen of meten</strong>. <strong>De kleur van je ogen</strong> en <strong>je lengte op volwassen leeftijd</strong> horen dus bij het fenotype."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Naast je genen bepaalt ook de omgeving waarin je opgroeit je fenotype mee.</strong> Daarom hebben <strong>twee mensen met hetzelfde genotype voor een kenmerk niet altijd exact hetzelfde fenotype</strong>: voeding, beweging en ziekte spelen mee. <strong>Omgevingsfactoren kunnen zelfs mee bepalen hoe sterk een gen tot uiting komt.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "Van gen naar eiwit",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Genexpressie</strong> betekent dat <strong>de informatie in een gen wordt omgezet in een eiwit</strong>. Dat gebeurt in twee stappen, op twee plaatsen in de cel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Eerst wordt <strong>in de celkern het mRNA van het DNA afgelezen</strong>. Het <strong>mRNA</strong>, het messenger-RNA of boodschapper-RNA, is het molecule dat <strong>de code van het DNA uit de kern naar buiten brengt</strong>. <strong>Het DNA zelf verlaat de celkern niet</strong>: het blijft veilig binnen, en alleen de kopie reist."
+    },
+    {
+     "soort": "tekst",
+     "html": "Tussen het aflezen van het gen en het klaar zijn van het eiwit zit dus één stap: <strong>het mRNA reist naar een ribosoom</strong>. <strong>Aan het ribosoom wordt het eiwit zelf in elkaar gezet.</strong> Het proces waarbij <strong>het ribosoom aminozuren aan elkaar koppelt tot een eiwit</strong>, heet de <strong>eiwitsynthese</strong> of translatie."
+    },
+    {
+     "soort": "tekst",
+     "html": "De bouwstenen van een eiwit zijn <strong>aminozuren</strong>, en <strong>een eiwit is opgebouwd uit aminozuren in een vaste volgorde</strong>. <strong>Een gen zonder eiwit is meestal zonder gevolg, want het eiwit doet het werk in de cel.</strong>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Een gen dat in een cel aanwezig is, staat daar niet altijd aan.</strong> Daarom <strong>ziet een spiercel er anders uit dan een huidcel terwijl ze hetzelfde DNA hebben: in elke cel staan andere genen aan</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Erfelijk of niet, en wat de mens eraan verandert",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Twee</strong> van de genoemde eigenschappen zijn erfelijk: <strong>je bloedgroep</strong> en <strong>je natuurlijke haarkleur</strong>. <strong>Een litteken is geen erfelijke eigenschap, omdat het niets verandert aan het DNA in je geslachtscellen.</strong> Alleen wat in de geslachtscellen zit, gaat door naar een volgende generatie."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>bewust veranderen van het erfelijk materiaal van een organisme</strong> heet <strong>genetische manipulatie</strong>, genetische modificatie of gentechnologie. <strong>Recombinant DNA-technologie</strong> is de techniek waarbij <strong>DNA van verschillende organismen wordt samengebracht</strong>. <strong>Bacteriën die menselijke insuline aanmaken</strong> zijn daarvan het bekendste voorbeeld."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Veredeling</strong> is iets anders: <strong>doelgericht kruisen en de beste nakomelingen uitkiezen</strong>. <strong>Veredeling en genetische modificatie zijn dus geen twee namen voor hetzelfde</strong>: bij veredeling blijf je binnen wat de natuur zelf kan kruisen, bij modificatie grijp je rechtstreeks in het DNA in."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "DNA is een dubbele helix van suikers en fosfaatgroepen met A, C, G en T.",
+  "A staat tegenover T, C tegenover G.",
+  "RNA: één streng, ribose, en uracil in plaats van thymine.",
+  "Een allel is één versie van een gen; je krijgt er één van elke ouder.",
+  "Genotype is het erfelijk materiaal, fenotype is wat je ziet en meet.",
+  "mRNA brengt de code uit de kern naar het ribosoom; het DNA blijft binnen.",
+  "Aan het ribosoom worden aminozuren tot een eiwit gekoppeld.",
+  "Veredeling is kruisen en kiezen; genetische modificatie grijpt in het DNA in."
+ ]
+}

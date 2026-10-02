@@ -1,0 +1,125 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Kernfysica, kernenergie en straling",
+ "onder": "Nucliden en isotopen, de halfwaardetijd, fusie en splijting, en wat straling met een mens doet.",
+ "secties": [
+  {
+   "kop": "De atoomkern in getallen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>massagetal</strong> van een kern geeft <strong>het aantal protonen plus neutronen</strong> aan. <strong>Twee</strong> soorten deeltjes zijn <strong>nucleonen</strong>: <strong>protonen</strong> en <strong>neutronen</strong>. Het atoomnummer telt alleen de protonen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Heeft <strong>koolstof-14 massagetal 14 en atoomnummer 6, dan zitten er 8 neutronen</strong> in die kern: 14 min 6."
+    },
+    {
+     "soort": "tekst",
+     "html": "Kernen van hetzelfde element <strong>met een verschillend aantal neutronen</strong> heten <strong>isotopen</strong>; één zo'n kern is een isotoop. <strong>Twee isotopen van hetzelfde element hebben hetzelfde aantal protonen</strong>, want dat bepaalt om welk element het gaat."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op de nuclidenkaart zie je welke kernen stabiel zijn. <strong>Een lichte kern met minder dan twintig protonen is stabiel als er ongeveer evenveel neutronen als protonen zijn.</strong> Een <strong>zware kern met meer dan twintig protonen heeft meer neutronen dan protonen nodig</strong> om stabiel te zijn, want de protonen stoten elkaar af."
+    }
+   ]
+  },
+  {
+   "kop": "Halfwaardetijd",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>halfwaardetijd</strong> van een radioactieve stof is <strong>de tijd waarin de helft van de kernen vervalt</strong>. Na één halfwaardetijd is de helft over, na twee een vierde, na drie een achtste."
+    },
+    {
+     "soort": "tekst",
+     "html": "Heeft <strong>een stof een halfwaardetijd van 8 dagen, dan is er na 24 dagen een achtste over</strong>, want dat zijn drie halfwaardetijden. <strong>Na één halfwaardetijd is dus niet alle straling van een stof verdwenen</strong>: de andere helft straalt verder."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Hoe langer de halfwaardetijd van een stof, hoe lánger ze blijft stralen</strong>, en dus niet hoe sneller ze onschadelijk is. Juist daarom is langlevend afval zo lastig."
+    }
+   ]
+  },
+  {
+   "kop": "Fusie, splijting en de kerncentrale",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Het verschil tussen kernfusie en kernsplijting is dat bij fusie kernen samensmelten en bij splijting breken.</strong> Bij <strong>twee</strong> soorten reacties komt er energie vrij: <strong>het samensmelten van lichte kernen</strong> en <strong>het splijten van zware kernen</strong>. <strong>Die energie komt uit het massaverlies van de kernen</strong>: na de reactie is er een beetje massa verdwenen, en de formule van Einstein, E is m maal c in het kwadraat, zegt hoeveel energie dat oplevert."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een Belgische kerncentrale wordt <strong>uranium</strong> gespleten. De <strong>regelstaven</strong> in de kernreactor dienen om <strong>de kettingreactie af te remmen of stil te leggen</strong>: ze slorpen neutronen op. <strong>Twee</strong> onderdelen zijn er voor de veiligheid: <strong>de regelstaven</strong> en <strong>de betonnen koepel</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De kernreactie drijft de generator niet rechtstreeks aan.</strong> Zo wordt de warmte van de kernreactor elektriciteit: <strong>de warmte maakt stoom, de stoom draait een turbine en die draait een generator</strong>: een kerncentrale is in dat opzicht een stoomcentrale met een andere warmtebron."
+    }
+   ]
+  },
+  {
+   "kop": "Radioactief afval",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het afval wordt ingedeeld naar hoe sterk het straalt en hoe lang. <strong>Bij categorie A hoort kortlevend laag- en middelactief afval</strong>, dat in België aan de oppervlakte geborgen wordt in Dessel. Categorie B is langlevend laag- en middelactief afval, en <strong>hoogactief radioactief afval hoort bij categorie C</strong>. Voor B en C wordt berging diep in de kleilaag voorbereid."
+    }
+   ]
+  },
+  {
+   "kop": "Alfa, bèta en gamma",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Alfastraling</strong> is <strong>een heliumkern die de kern verlaat</strong>: twee protonen en twee neutronen. <strong>Bètamin-straling</strong> is <strong>een elektron dat de kern verlaat</strong>. <strong>Gammastraling</strong> is <strong>elektromagnetische straling met heel hoge energie</strong>. <strong>Twee</strong> soorten bestaan dus uit deeltjes en niet uit een golf: <strong>alfastraling</strong> en <strong>bètastraling</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Straling</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Ioniserend vermogen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Tegengehouden door</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Alfa</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het grootst</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een blad papier</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Bèta</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">middelmatig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een plaatje aluminium</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Gamma</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het kleinst, maar dringt diep door</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een dikke laag lood of beton</td></tr></table>",
+     "onderschrift": "De drie soorten straling naast elkaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Alfastraling wordt al door een blad papier tegengehouden</strong> en heeft <strong>het grootste ioniserend vermogen van de drie soorten</strong>: ze geeft al haar energie over een korte afstand af. <strong>Gammastraling houd je tegen met twee dingen</strong>: <strong>een dikke laag lood</strong> of <strong>een dikke betonnen wand</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Straling <strong>die elektronen uit atomen kan losmaken</strong>, heet <strong>ioniserende straling</strong>; dat losmaken zelf heet ionisatie. Daardoor raken moleculen beschadigd, ook het DNA."
+    },
+    {
+     "soort": "tekst",
+     "html": "Welke straling een kern uitzendt, lees je van de nuclidenkaart af. <strong>Een kern met te veel neutronen om stabiel te zijn, zendt bètamin-straling uit</strong>: een neutron wordt dan een proton. Daarom geldt: <strong>vervalt koolstof-14 via bètamin-straling, dan stijgt het atoomnummer met één en blijft het massagetal gelijk</strong>, en wordt het stikstof-14. Bij alfaverval gaat er meer weg: <strong>zendt uranium-238 een alfadeeltje uit, dan blijft een kern over met massagetal 234 en atoomnummer 90</strong>, dus thorium-234."
+    }
+   ]
+  },
+  {
+   "kop": "Straling en de mens",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Het verschil tussen bestraling en besmetting is dat bij besmetting de stof op of in je lichaam zit.</strong> <strong>Bij bestraling komt de radioactieve stof dus niet in je lichaam terecht</strong>: alleen de straling bereikt je, en het stopt zodra je weggaat. Van een <strong>inwendige besmetting</strong> spreek je <strong>als je de radioactieve stof inademt of inslikt</strong>; op de huid is het uitwendig."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je beschermt je tegen ioniserende straling op <strong>twee</strong> manieren uit de reeks: <strong>verder van de bron gaan staan</strong> en <strong>een laag lood tussen jou en de bron zetten</strong>. Afstand, afscherming en tijd zijn samen de drie manieren. <strong>Jodiumpillen dienen bij een kernongeval om je schildklier te vullen met gewoon jodium</strong>, zodat ze het radioactieve jodium niet meer opneemt."
+    },
+    {
+     "soort": "tekst",
+     "html": "De eenheid van de <strong>geabsorbeerde stralingsdosis</strong> is de <strong>gray</strong>: hoeveel energie het weefsel per kilogram opneemt. De eenheid van de <strong>effectieve dosis</strong> staat in <strong>sievert</strong>, net als de equivalente dosis, en die houden rekening met de soort straling en met het weefsel. <strong>Alfastraling krijgt een hogere stralingsweegfactor dan gammastraling</strong>, twintig tegen één, omdat ze bij dezelfde opgenomen energie veel meer schade aanricht. De weefselweegfactor doet hetzelfde voor het orgaan dat geraakt wordt."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Massagetal = protonen + neutronen; atoomnummer = protonen.",
+  "Isotopen hebben hetzelfde aantal protonen, een ander aantal neutronen.",
+  "Na n halfwaardetijden is er (1/2) tot de n-de over.",
+  "Fusie van lichte en splijting van zware kernen leveren energie, uit massaverlies.",
+  "Warmte maakt stoom, stoom draait de turbine en de generator.",
+  "Categorie A is kortlevend laag- en middelactief, C is hoogactief.",
+  "Alfa stopt op papier maar ioniseert het sterkst; gamma dringt diep door.",
+  "Bestraling blijft buiten, besmetting zit op of in je lichaam.",
+  "Dosis in gray, equivalente en effectieve dosis in sievert."
+ ]
+}

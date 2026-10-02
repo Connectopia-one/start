@@ -1,0 +1,139 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Golven, geluid en het elektromagnetisch spectrum",
+ "onder": "Wat een golf is en hoe je haar beschrijft, geluid en de decibelschaal, en de soorten straling.",
+ "secties": [
+  {
+   "kop": "Wat een golf is",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een golf vervoert <strong>energie</strong> van de ene plaats naar de andere. <strong>Een golf vervoert geen materie</strong>: een kurk op het water gaat op en neer en blijft liggen waar hij lag."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het verschil tussen een mechanische en een elektromagnetische golf is dat een mechanische golf een middenstof nodig heeft.</strong> <strong>Twee</strong> van de genoemde golven zijn mechanisch: <strong>geluid</strong> en <strong>een golf op het water</strong>. Licht en radiogolven komen ook door het vacuüm."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wat <strong>kenmerkend is voor een transversale golf</strong>, is dat <strong>de deeltjes dwars op de voortplantingsrichting trillen</strong>. <strong>Geluid is een longitudinale golf, omdat de lucht in dezelfde richting trilt als de golf loopt.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "Een golf in cijfers",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>afstand tussen twee opeenvolgende golftoppen</strong> is de <strong>golflengte</strong>, met het symbool lambda. De <strong>amplitude</strong> is <strong>de grootste uitwijking uit de evenwichtsstand</strong>. De frequentie is het aantal trillingen per seconde, in hertz, en de periode de tijd van één trilling."
+    },
+    {
+     "soort": "kader",
+     "html": "De formules: <strong>f = 1 / T</strong> en <strong>v = λ · f</strong>, en dus ook v = λ / T."
+    },
+    {
+     "soort": "tekst",
+     "html": "Heeft een trilling <strong>een periode van 0,004 s, dan is de frequentie 250 Hz</strong>: één gedeeld door 0,004. Heeft een golf <strong>een golflengte van 2 m en een frequentie van 170 Hz, dan is de golfsnelheid 340 m/s</strong>: 2 maal 170, precies de snelheid van geluid in lucht."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Hoe hoger de frequentie van een geluidsgolf, hoe hoger de toon die je hoort.</strong> <strong>Draai je de muziek luider, dan verandert de amplitude</strong>, niet de frequentie."
+    }
+   ]
+  },
+  {
+   "kop": "Geluidssnelheid, breking, buiging en weerkaatsing",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Geluid gaat het snelst in een vaste stof</strong>, daarna in een vloeistof, dan in een gas, en in het vacuüm helemaal niet. <strong>Geluid plant zich ook sneller voort in warme lucht dan in koude lucht.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een regenboog ontstaat doordat licht in een waterdruppel van richting verandert</strong>, en die eigenschap van golven heet <strong>breking</strong>. Breking gebeurt doordat de golfsnelheid verandert bij de overgang naar een andere middenstof; bij geluid gebeurt dat tussen luchtlagen van verschillende temperatuur."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een golf buigt sterk af rond een opening als de opening even klein is als de golflengte.</strong> Daarom hoor je iemand achter een hoek wel, maar zie je die niet: geluidsgolven zijn veel langer dan lichtgolven."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Twee</strong> materialen slorpen geluid op in plaats van het terug te kaatsen: <strong>een dik gordijn</strong> en <strong>een zachte tapijtvloer</strong>. <strong>Een zacht materiaal kaatst geluid dus niet beter terug dan een hard materiaal</strong>, maar juist slechter: hard en glad weerkaatst."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het geluid dat je <strong>na de weerkaatsing tegen een verre muur opnieuw hoort</strong>, is een <strong>echo</strong>. <strong>Twee</strong> toepassingen gebruiken die weerkaatsing: <strong>sonar op een schip</strong> en <strong>echolocatie bij een vleermuis</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De decibelschaal en je gehoor",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De eenheid van het geluidsniveau is de <strong>decibel</strong>. De <strong>gehoordrempel</strong> van een mens ligt bij <strong>0 dB</strong>, <strong>vanaf 80 dB is gehoorbescherming nodig</strong> (de gevaargrens), en de <strong>pijndrempel</strong> ligt rond <strong>120 dB</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Hoe langer je in lawaai staat, hoe groter de kans op gehoorschade.</strong> Wat er beschadigt, zijn <strong>de haarcellen in het binnenoor</strong>, en die groeien bij de mens niet terug: <strong>gehoorschade door lawaai geneest dus niet altijd volledig</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Ga je twee keer zo ver van een geluidsbron staan, dan daalt het geluidsniveau met 6 dB.</strong> <strong>Wordt de geluidsintensiteit twee keer zo groot, dan stijgt het niveau met 3 dB.</strong> Een vier keer kleinere intensiteit geeft dus zes decibel minder."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op een fuif bescherm je je gehoor op <strong>twee</strong> manieren: <strong>oordopjes dragen</strong> en <strong>verder van de boxen gaan staan</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Resonantie</strong> is dat <strong>een voorwerp meetrilt op zijn eigen frequentie</strong>. Komt de frequentie van buiten overeen met die eigenfrequentie, dan wordt de trilling steeds groter."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een mens hoort normaal <strong>van 20 Hz tot 20 000 Hz</strong>. Geluid <strong>met een frequentie boven 20 000 Hz, dat de mens niet meer hoort</strong>, is <strong>ultrasoon</strong> geluid of ultrageluid; onder twintig hertz is het infrasoon."
+    }
+   ]
+  },
+  {
+   "kop": "Het elektromagnetisch spectrum",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Voor een <strong>elektromagnetische golf in het vacuüm</strong> geldt dat <strong>ze met de lichtsnelheid beweegt</strong>, ongeveer 300 000 kilometer per seconde. In glas of water gaat ze trager."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Straling</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Energie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Ioniserend?</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Radiogolven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">laagst, langste golven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Microgolven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">laag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Infraroodstraling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">laag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Zichtbaar licht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">midden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ultraviolette straling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoog</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de hoogenergetische wel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Röntgenstraling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoger</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Gammastraling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoogst, kortste golven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td></tr></table>",
+     "onderschrift": "Het spectrum van laag naar hoog."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Gammastraling heeft de hoogste energie</strong>, radiogolven de laagste. <strong>Radiogolven hebben dus een grotere golflengte dan röntgenstraling</strong>: golflengte en frequentie gaan omgekeerd samen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Twee</strong> soorten straling uit de reeks zijn ioniserend: <strong>röntgenstraling</strong> en <strong>gammastraling</strong>. <strong>Infraroodstraling is geen ioniserende straling</strong>: je voelt ze gewoon als warmte."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Twee</strong> van de genoemde toestellen werken met infraroodstraling: <strong>een afstandsbediening</strong> en <strong>een warmtelamp</strong>. Een microgolfoven werkt met microgolven, een bagagescanner met röntgenstraling."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Tegen röntgenstraling bij een medisch onderzoek bescherm je je met een loodschort.</strong> Tegen uv helpen kleding, zonnebril en zonnecrème."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een golf vervoert energie, geen materie.",
+  "Mechanisch heeft een middenstof nodig, elektromagnetisch niet.",
+  "Transversaal trilt dwars, longitudinaal mee; geluid is longitudinaal.",
+  "f = 1/T en v = λ · f.",
+  "Frequentie geeft de toonhoogte, amplitude de sterkte.",
+  "0 dB gehoordrempel, 80 dB gevaargrens, 120 dB pijndrempel.",
+  "Afstand verdubbelen is −6 dB; intensiteit verdubbelen is +3 dB.",
+  "Van radio naar gamma stijgt de energie; röntgen en gamma zijn ioniserend."
+ ]
+}

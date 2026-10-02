@@ -1,0 +1,140 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Veilig werken, meten en onderzoeken",
+ "onder": "P- en H-zinnen, meetinstrumenten en meetbereik, eenheden en voorvoegsels, en de stappen van een onderzoek.",
+ "secties": [
+  {
+   "kop": "Veilig en duurzaam werken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In een <strong>H-zin</strong> op een etiket staat <strong>waarom de stof gevaarlijk is</strong>; de H staat voor hazard. In een <strong>P-zin</strong> staat <strong>welke voorzorgen je moet nemen</strong>. <strong>Een H-zin vertelt je dus niet welke voorzorgsmaatregelen je moet nemen</strong>, dat doet de P-zin."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Twee</strong> van de genoemde werkwijzen horen bij veilig en duurzaam werken: <strong>een gemorst product onmiddellijk opkuisen</strong> en <strong>glaswerk na gebruik schoonmaken en wegzetten</strong>. <strong>Je kuist een gemorst product onmiddellijk op</strong>, want wie later langskomt weet niet wat er ligt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je bedient een elektrisch toestel nooit met natte handen, omdat water de stroom geleidt en je een schok kan krijgen.</strong> En <strong>glasscherven ruim je veilig op met een borstel en een blad, in een harde doos</strong>, nooit met je blote handen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Hygiënisch omgaan met biologisch materiaal hoort bij veilig werken</strong>, want daar kunnen micro-organismen in zitten."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een bunsenbrander neem je <strong>twee</strong> voorzorgen uit de reeks: <strong>lange haren vastbinden</strong> en <strong>losse kledij en mouwen wegsteken</strong>. Je doet de brander uit met de gaskraan, niet met je hand, en de ondergrond is hittebestendig."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je zet een meetinstrument uit als je even niet meet, om energie te sparen en het toestel te sparen.</strong> En <strong>je gebruikt zo weinig chemische stoffen als mogelijk, want minder verbruik geeft minder afval en minder risico</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Met de <strong>restproducten van een proef</strong> doe je dit: <strong>sorteren volgens de aanwijzingen op het etiket</strong>, vaak bij het klein gevaarlijk afval."
+    }
+   ]
+  },
+  {
+   "kop": "Meten met het juiste toestel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>meetbereik</strong> is <strong>het gebied tussen de kleinste en de grootste waarde die een meettoestel kan meten</strong>. <strong>Je mag een meetinstrument niet boven zijn meetbereik gebruiken, ook niet als je voorzichtig doet</strong>: de waarde is dan niet betrouwbaar en het toestel raakt beschadigd."
+    },
+    {
+     "soort": "tekst",
+     "html": "Meet <strong>je balans tot 500 g en moet je 2 kg wegen, dan zoek je een balans met een groter meetbereik</strong>. Wil je <strong>een temperatuurverschil van een halve graad meten, dan kies je een thermometer met streepjes van 0,1 °C</strong>: je toestel moet nauwkeuriger zijn dan het verschil dat je wil zien."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Voor je een massa op een digitale balans afleest, zet je de balans met het leeg recipiënt op nul.</strong> Zo weeg je alleen de stof. <strong>Je leest een maatbeker af op ooghoogte, aan de onderkant van de meniscus.</strong>"
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Grootheid</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Toestel</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Massa</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een balans</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Tijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een chronometer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Temperatuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een thermometer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Druk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een manometer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Spanning en stroom</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een multimeter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Geluidsniveau</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een decibelmeter</td></tr></table>",
+     "onderschrift": "Welk toestel bij welke grootheid hoort."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Hoe lang een proef duurt, meet je met een chronometer.</strong> De <strong>massa van een stof meet je met een balans</strong> of weegschaal."
+    }
+   ]
+  },
+  {
+   "kop": "Grootheden, eenheden en voorvoegsels",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Elke grootheid heeft haar eigen eenheid. Energie meet je in <strong>joule (J)</strong>: <strong>2 MJ is 2 000 000 joule</strong>, want mega betekent een miljoen keer."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>SI-eenheid van massa is de kilogram</strong>. <strong>Twee</strong> van de genoemde eenheden zijn SI-basiseenheden: <strong>de meter</strong> en <strong>de seconde</strong>. De liter en de graad Celsius zijn dat niet; de kelvin en de ampère wel."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorvoegsel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Betekent</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mega (M)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een miljoen keer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2 MJ is 2 000 000 J</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kilo (k)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">duizend keer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2,5 km is 2500 m</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">milli (m)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een duizendste</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">500 mg is 0,5 g</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">micro (µ)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een miljoenste</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 µm is 0,000001 m</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nano (n)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een miljardste</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 nm is 0,000000001 m</td></tr></table>",
+     "onderschrift": "De voorvoegsels van mega tot nano."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>2,5 km is 2500 m</strong>, want <strong>kilo</strong> is het voorvoegsel voor <strong>duizend keer een eenheid</strong>. <strong>500 mg is 0,5 g</strong>, want <strong>het voorvoegsel milli betekent een duizendste van de eenheid</strong>. <strong>Micro betekent een miljoenste</strong>, en <strong>2 MJ is 2 000 000 J</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee grootheden zijn <strong>recht evenredig</strong> als geldt: <strong>verdubbelt de ene, dan verdubbelt de andere</strong>. In een grafiek is dat een rechte, en <strong>bij een recht evenredig verband gaat die rechte door de oorsprong</strong>. Twee grootheden zijn <strong>omgekeerd evenredig</strong> als <strong>de andere halveert wanneer de ene verdubbelt</strong>; dan blijft hun product gelijk."
+    }
+   ]
+  },
+  {
+   "kop": "De stappen van een onderzoek",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een onderzoek begint bij een probleemstelling en een onderzoeksvraag. <strong>Een goede onderzoeksvraag is scherp afgebakend</strong> en <strong>je kan ze met metingen beantwoorden</strong>: twee eisen samen. Een vraag als is water gezond, kan je met geen enkele proef beantwoorden."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>hypothese</strong> is <strong>een verwachting die je met je proef kan testen</strong>. Ze mag fout blijken, en dat is geen probleem: <strong>een onderzoek waarvan de uitkomst je hypothese tegenspreekt, is niet mislukt</strong>. Je hebt dan geleerd dat je verwachting fout was."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Twee</strong> van de genoemde stappen horen bij wetenschappelijk onderzoek: <strong>een hypothese formuleren</strong> en <strong>data verzamelen en analyseren</strong>. Het besluit vooraf vastleggen hoort er niet bij, en <strong>passen je metingen niet bij je hypothese, dan pas je de metingen niet aan</strong>: de metingen zijn wat ze zijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je verandert in een proef maar één factor tegelijk, anders weet je niet wat het verschil veroorzaakt.</strong> Al de rest houd je gelijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het besluit <strong>dat je aan het einde van een onderzoek uit je gegevens haalt</strong>, is de <strong>conclusie</strong>: het antwoord op je onderzoeksvraag. Daarna kijk je terug op je methode en vertel je wat je vond."
+    }
+   ]
+  },
+  {
+   "kop": "Ontwerpen en STEM",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij het ontwerpen van een oplossing definieer je eerst het probleem. <strong>De volgende stap is criteria opstellen waaraan de oplossing moet voldoen.</strong> Daarna splits je het probleem indien nodig in deelproblemen, bedenk je oplossingen, en evalueer en stuur je bij."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Voor een vaccin was kennis nodig van de werking van het virus, van de koeling en van de verspreidingscijfers.</strong> Dat toont dat <strong>de STEM-domeinen samenwerken aan één probleem</strong>: wetenschap, technologie, engineering en wiskunde leveren elk een stuk van de oplossing. Grote maatschappelijke vragen zijn bijna nooit van één vak alleen, en omgekeerd maakt een nieuwe techniek nieuw onderzoek mogelijk."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "H-zin: waarom gevaarlijk. P-zin: wat je moet doen.",
+  "Opkuisen, opruimen, droge handen, haren vast: dat is veilig werken.",
+  "Blijf binnen het meetbereik en kies een toestel dat nauwkeurig genoeg is.",
+  "Zet een balans op nul met het leeg recipiënt; lees een maatbeker op ooghoogte af.",
+  "kilo is duizend keer, milli een duizendste, micro een miljoenste, mega een miljoen.",
+  "Recht evenredig: een rechte door de oorsprong. Omgekeerd evenredig: het product blijft gelijk.",
+  "Een hypothese mag fout blijken; metingen pas je nooit aan.",
+  "Verander één factor tegelijk en houd de rest gelijk."
+ ]
+}

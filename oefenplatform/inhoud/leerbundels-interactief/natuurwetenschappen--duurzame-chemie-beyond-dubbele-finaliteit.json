@@ -1,0 +1,133 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Duurzame chemie",
+ "onder": "Lineair of circulair, de ladder van Lansink, greenwashing, kunststoffen en de kleuren van waterstof.",
+ "secties": [
+  {
+   "kop": "Van lineair naar circulair",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>lineaire economie</strong> is: <strong>grondstof nemen, product maken, afval weggooien</strong>. Dat patroon heet ook take make waste, en <strong>cradle to grave is een andere naam voor zo'n lineaire keten</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een economie <strong>waarin afval opnieuw grondstof wordt</strong>, is een <strong>circulaire economie</strong> of keteneconomie. Met <strong>cradle to cradle</strong> bedoelt men dat <strong>elk materiaal na gebruik opnieuw grondstof wordt</strong>: <strong>in het cradle to cradle-denken bestaat afval niet, alleen grondstof</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het verschil tussen een keteneconomie met en zonder recyclage is dat het materiaal met recyclage terugkeert in de keten.</strong> Zonder recyclage wordt het product wel lang gebruikt, maar eindigt het materiaal toch als afval. In <strong>twee</strong> ketens gaat het materiaal dus na gebruik verloren: bij <strong>take make waste</strong> en bij de <strong>keteneconomie zonder recyclage</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De duurzaamheid van een proces meet je aan drie dingen</strong>: <strong>hoeveel grondstoffen het verbruikt</strong>, <strong>hoeveel energie het verbruikt</strong> en <strong>hoe goed het materiaal recycleerbaar is</strong>. Daar komt de milieubelasting nog bij."
+    }
+   ]
+  },
+  {
+   "kop": "Up-, down- en recycleren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Downcycling</strong> is <strong>recycleren tot een materiaal van mindere kwaliteit</strong>: <strong>het gerecycleerde materiaal levert dan een product van mindere kwaliteit op</strong>. <strong>Upcycling</strong> is het omgekeerde: <strong>er iets van hogere waarde van maken</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het verschil tussen hergebruiken en recycleren is dat bij hergebruik het voorwerp blijft zoals het is.</strong> Een glazen fles opnieuw vullen is hergebruik, ze versmelten tot nieuw glas is recyclage."
+    }
+   ]
+  },
+  {
+   "kop": "De ladder van Lansink",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De ladder <strong>die de stappen van afvalverwerking van best naar slechtst zet</strong>, is de <strong>ladder van Lansink</strong>. Bovenaan staat <strong>voorkomen dat er afval ontstaat</strong>, dus preventie. Onderaan staat storten."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Trede</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1. Preventie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorkomen dat er afval ontstaat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2. Hergebruik</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het voorwerp blijft zoals het is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3. Recyclage</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het materiaal wordt opnieuw grondstof</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4. Verbranden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de warmte wordt nog benut</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5. Storten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het materiaal gaat verloren</td></tr></table>",
+     "onderschrift": "De ladder van Lansink, van best naar slechtst."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Drie</strong> stappen staan hoger dan verbranden: <strong>preventie</strong>, <strong>hergebruik</strong> en <strong>recyclage</strong>. En let op de orde: <strong>recycleren staat niet hoger dan hergebruiken</strong>, maar lager, want recycleren kost extra energie."
+    }
+   ]
+  },
+  {
+   "kop": "Greenwashing, SDG's en de vijf P's",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Greenwashing</strong> is <strong>zich groener voordoen dan men werkelijk is</strong>. <strong>Staat er een groen blaadje op een verpakking, dan is het product dus niet daardoor duurzaam</strong>: een blaadje is geen keurmerk en wordt door niemand gecontroleerd."
+    },
+    {
+     "soort": "tekst",
+     "html": "De Verenigde Naties heeft <strong>17</strong> duurzame ontwikkelingsdoelstellingen of SDG's opgesteld, te halen tegen 2030. De <strong>vijf P's</strong> van duurzaamheid zijn people, planet, prosperity, peace en partnership; <strong>planet staat voor de zorg voor het milieu en de natuur</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Kunststoffen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Wat <strong>kenmerkend is voor een thermoplast</strong>, is dat <strong>de ketens los naast elkaar liggen en smelten</strong>. Daarom <strong>kan je een thermoplast omsmelten en opnieuw tot een ander product vormen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De bruggen <strong>die de ketens van een kunststof aan elkaar vastmaken</strong>, heten <strong>crosslinks</strong> of dwarsverbindingen. <strong>Een thermoharder smelt niet omdat de ketens met crosslinks aan elkaar vastzitten</strong> en zo één groot netwerk vormen. Een <strong>elastomeer</strong> heeft er weinig: het is <strong>rekbaar en springt weer in vorm</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Twee</strong> materialen zijn daardoor moeilijk te recycleren: <strong>een thermoharder</strong> en <strong>een elastomeer</strong>. <strong>Gewone kunststof wordt gemaakt uit twee grondstoffen</strong>: <strong>aardolie</strong> en <strong>aardgas</strong>, en die groeien niet aan."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Biogebaseerd</strong> betekent <strong>gemaakt uit plantaardige grondstoffen</strong>. <strong>Biodegradeerbaar</strong> betekent dat <strong>micro-organismen het kunnen afbreken</strong>. <strong>Een biogebaseerd product is daarom nog niet biodegradeerbaar</strong>: het ene gaat over het begin, het andere over het einde van het leven van het materiaal. <strong>Composteerbaar is strenger dan biodegradeerbaar, want het moet binnen een afgesproken tijd afbreken.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De heel kleine plasticdeeltjes <strong>die in het milieu achterblijven</strong>, heten <strong>microplastics</strong>. Afbreken tot kleine stukjes is dus niet hetzelfde als verdwijnen."
+    }
+   ]
+  },
+  {
+   "kop": "Energie, waterstof en water",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Twee</strong> van de genoemde energievormen zijn hernieuwbaar: <strong>windenergie</strong> en <strong>zonne-energie</strong>. <strong>Kernenergie is geen fossiele energievorm</strong>, maar een aparte vorm naast fossiel en hernieuwbaar. <strong>Groene stroom komt uit hernieuwbare bronnen zoals zon, wind en water</strong>; grijze stroom uit fossiele brandstoffen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waterstof</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waaruit</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">De CO2</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Grijs</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uit aardgas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">komt vrij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Blauw</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uit aardgas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wordt afgevangen en opgeslagen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Groen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uit water, met hernieuwbare stroom</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">komt niet vrij</td></tr></table>",
+     "onderschrift": "De drie kleuren waterstof."
+    },
+    {
+     "soort": "tekst",
+     "html": "Men spreekt van <strong>groene waterstof als ze met hernieuwbare stroom uit water komt</strong>. <strong>Grijze waterstof</strong> is <strong>waterstof uit aardgas, waarbij de CO2 vrijkomt</strong>. En <strong>blauwe waterstof komt uit aardgas, maar de koolstofdioxide wordt afgevangen en opgeslagen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Zwart water</strong> is <strong>afvalwater van het toilet</strong>. Grijs water komt van bad, lavabo en wasmachine; wit water is zuiver water dat je kan drinken."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het verschil tussen CO2-neutrale en CO2-negatieve productie is dat negatief meer CO2 uit de lucht haalt dan het uitstoot.</strong> Bij neutraal heffen uitstoot en opname elkaar op."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Lineair is take make waste, ook cradle to grave genoemd.",
+  "Cradle to cradle: afval bestaat niet, alles wordt opnieuw grondstof.",
+  "Downcycling verliest kwaliteit, upcycling wint waarde.",
+  "Ladder van Lansink: preventie, hergebruik, recyclage, verbranden, storten.",
+  "Greenwashing is zich groener voordoen dan men is.",
+  "Thermoplasten smelten en zijn recycleerbaar; crosslinks maken dat onmogelijk.",
+  "Biogebaseerd gaat over de grondstof, biodegradeerbaar over het afbreken.",
+  "Grijze waterstof uit aardgas, blauw met opslag van CO2, groen uit water."
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Overerving van kenmerken",
+ "onder": "Chromosomen en celdelingen, de wetten van Mendel, bloedgroepen en X-gebonden aandoeningen.",
+ "secties": [
+  {
+   "kop": "Chromosomen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>chromosoom</strong> bestaat <strong>uit sterk opgerold DNA met eiwitten</strong>. Het punt waar de <strong>twee chromatiden van een chromosoom aan elkaar vastzitten</strong>, heet het <strong>centromeer</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>menselijke lichaamscel zitten 46 chromosomen</strong>, in <strong>drieëntwintig</strong> paren. Zo'n cel is <strong>diploïd of 2n</strong>, en dat betekent dat ze <strong>van elk chromosoom twee exemplaren heeft</strong>. Cellen met <strong>maar één exemplaar van elk chromosoom</strong> heten <strong>haploïd</strong>: in een <strong>menselijke eicel zitten dus 23 chromosomen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Homologe chromosomen</strong> zijn <strong>twee chromosomen van hetzelfde paar</strong>. De foto <strong>waarop alle chromosomen van een cel per paar geordend staan</strong>, heet een <strong>karyogram</strong> of karyotype."
+    },
+    {
+     "soort": "tekst",
+     "html": "Eén paar, de geslachtschromosomen, bepaalt het geslacht. Een <strong>man heeft een X en een Y</strong>, een vrouw twee X-chromosomen. <strong>Het geslacht van een kind wordt dus bepaald door de zaadcel</strong>: de eicel draagt altijd een X, de zaadcel een X of een Y."
+    }
+   ]
+  },
+  {
+   "kop": "Mitose, meiose en mutaties",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het resultaat van een <strong>mitose of gewone celdeling</strong> is <strong>twee cellen met hetzelfde erfelijk materiaal</strong>. Het resultaat van een <strong>meiose of reductiedeling</strong> is <strong>vier haploïde cellen die onderling verschillen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De meiose dient in ons lichaam voor <strong>twee</strong> dingen: <strong>geslachtscellen maken</strong> en <strong>variatie tussen de nakomelingen brengen</strong>. <strong>Ze komt in het menselijk lichaam alleen voor in de eierstokken en de teelballen.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het DNA moet verdubbelen vóór een cel deelt, anders krijgt niet elke dochtercel een volledige set.</strong> Bij dat kopiëren kan het misgaan."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>mutatie</strong> is <strong>een blijvende verandering in de volgorde van de basen in het DNA</strong>. <strong>Drie</strong> dingen kunnen er een veroorzaken: <strong>uv-straling van de zon</strong>, <strong>bepaalde chemische stoffen</strong> en <strong>een fout bij het kopiëren van DNA</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een mutatie is <strong>erfelijk als ze in een geslachtscel zit</strong>. <strong>Een mutatie in een lichaamscel kan dus niet doorgegeven worden aan je kinderen.</strong> En <strong>niet elke mutatie is schadelijk</strong>: de meeste doen niets, en een enkele is zelfs nuttig. Juist daarop werkt de evolutie."
+    }
+   ]
+  },
+  {
+   "kop": "Homozygoot, heterozygoot en de wetten van Mendel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Iemand is <strong>homozygoot</strong> voor een kenmerk als <strong>de twee allelen voor dat kenmerk gelijk zijn</strong>. Iemand <strong>met twee verschillende allelen voor hetzelfde kenmerk</strong> is <strong>heterozygoot</strong>, ook wel hybride."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>recessief allel komt alleen tot uiting in dubbele vorm</strong>. Een dominant allel volstaat in enkelvoud. Daarom heet iemand <strong>die een recessief allel voor een aandoening draagt zonder zelf ziek te zijn</strong> een <strong>drager</strong>, of bij een vrouw een draagster."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>uniformiteitswet van Mendel</strong> zegt: <strong>kruis je twee raszuivere ouders, dan lijkt de F1 op elkaar</strong>. De <strong>splitsingswet</strong> zegt: <strong>in de F2 duikt het verborgen kenmerk weer op</strong>. Bij dominant-recessieve overerving <strong>splitsen de fenotypes zich in de F2 in de verhouding 3 op 1</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kruising Aa × Aa</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">AA</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Aa</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">aA</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">aa</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Genotype</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 %</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 %</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 %</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 %</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Vertoont het kenmerk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td></tr></table>",
+     "onderschrift": "Twee heterozygote ouders: één kind op vier vertoont het recessieve kenmerk."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Twee heterozygote ouders, Aa en Aa, krijgen statistisch gezien 25 % kinderen die het recessieve kenmerk vertonen</strong>, en <strong>50 % die het recessieve allel dragen maar het niet tonen</strong>. De overige 25 % heeft het allel helemaal niet."
+    }
+   ]
+  },
+  {
+   "kop": "Intermediair, codominant en de bloedgroepen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>intermediaire overerving zit de heterozygoot tussen de twee ouders in</strong>: een rode en een witte bloem geven een roze. Bij <strong>codominante overerving zijn beide kenmerken naast elkaar zichtbaar</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bloedgroep AB is dus geen voorbeeld van intermediaire overerving</strong>, maar van codominantie: A en B zijn er beide, niet iets ertussen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Drie</strong> allelen bepalen de ABO-bloedgroepen: <strong>het allel voor A</strong>, <strong>het allel voor B</strong> en <strong>het allel voor O</strong>. A en B zijn dominant over O. Bij <strong>bloedgroep O</strong> hoort dus het genotype met <strong>twee keer het allel O</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Twee ouders met bloedgroep A kunnen een kind met bloedgroep O krijgen</strong>, als ze beide heterozygoot zijn en elk het O-allel doorgeven."
+    }
+   ]
+  },
+  {
+   "kop": "X-gebonden overerving en stambomen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Dat een aandoening <strong>X-gebonden overerft</strong>, betekent dat <strong>het gen op het X-chromosoom ligt</strong>. <strong>Twee</strong> van de genoemde aandoeningen erven zo over: <strong>hemofilie</strong> en <strong>rood-groenkleurenblindheid</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Rood-groenkleurenblindheid komt veel vaker voor bij jongens, omdat een jongen maar één X-chromosoom heeft.</strong> Een meisje met één afwijkend allel heeft nog een gezond X-chromosoom dat het opvangt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Niet elke aandoening is recessief. <strong>De ziekte van Huntington erft dominant over, dus één afwijkend allel volstaat.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "In een stamboom <strong>staat een vierkantje niet voor een vrouw en een cirkel niet voor een man</strong>: het is net omgekeerd. Het vierkantje is de man, de cirkel de vrouw."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "46 chromosomen in een lichaamscel (2n), 23 in een geslachtscel (n).",
+  "Een man heeft X en Y; de zaadcel bepaalt het geslacht.",
+  "Mitose geeft twee gelijke cellen, meiose vier verschillende haploïde.",
+  "Een mutatie is alleen erfelijk als ze in een geslachtscel zit.",
+  "Aa × Aa geeft 25 % met het recessieve kenmerk en 50 % dragers.",
+  "In de F2 splitsen de fenotypes 3 op 1.",
+  "Bloedgroep AB is codominant, niet intermediair.",
+  "X-gebonden aandoeningen treffen jongens vaker: zij hebben maar één X."
+ ]
+}

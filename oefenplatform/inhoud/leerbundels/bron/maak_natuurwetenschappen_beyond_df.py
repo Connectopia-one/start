@@ -1156,7 +1156,9 @@ BUNDELS["elektromagnetisme-beyond-dubbele-finaliteit"] = dict(
                   "polen</strong>, en daar is het veld dus het sterkst."),
             ("p", "Ook rond een draad is er een veld: <strong>rond een draad waar stroom door loopt staat wél "
                   "een magneetveld</strong>, en het heeft de vorm van <strong>cirkels rond de draad</strong>. "
-                  "Een kompasnaald ernaast draait weg zodra je de stroom aanzet."),
+                  "Zo'n draad noem je een <strong>stroomvoerende draad</strong>: er loopt stroom door. "
+                  "<strong>Rond een rechte stroomvoerende draad zijn de veldlijnen dus cirkels rond de "
+                  "draad</strong>, en een kompasnaald ernaast draait weg zodra je de stroom aanzet."),
         ]),
         dict(kop="De elektromagneet", blokken=[
             ("p", "Een draad <strong>die in vele wikkelingen rond een as gedraaid is</strong>, heet een "
@@ -1487,6 +1489,9 @@ BUNDELS["veilig-werken-meten-en-onderzoeken-beyond-dubbele-finaliteit"] = dict(
                   "<strong>massa van een stof meet je met een balans</strong> of weegschaal."),
         ]),
         dict(kop="Grootheden, eenheden en voorvoegsels", blokken=[
+            ("p", "Elke grootheid heeft haar eigen eenheid. Energie meet je in "
+                  "<strong>joule (J)</strong>: <strong>2 MJ is 2 000 000 joule</strong>, want mega betekent een "
+                  "miljoen keer."),
             ("p", "De <strong>SI-eenheid van massa is de kilogram</strong>. "
                   "<strong>Twee</strong> van de genoemde eenheden zijn SI-basiseenheden: "
                   "<strong>de meter</strong> en <strong>de seconde</strong>. De liter en de graad Celsius zijn "

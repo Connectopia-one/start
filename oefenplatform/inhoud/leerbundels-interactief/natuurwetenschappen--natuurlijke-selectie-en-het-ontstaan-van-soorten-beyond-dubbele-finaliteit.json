@@ -1,0 +1,115 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Natuurlijke selectie en het ontstaan van soorten",
+ "onder": "Lamarck tegenover Darwin, hoe selectie werkt, hoe soorten splitsen, en de menswording.",
+ "secties": [
+  {
+   "kop": "Lamarck tegenover Darwin",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Lamarck dacht over de lange hals van de giraf dat elk dier zich uitrekte en die langere hals doorgaf.</strong> Eigenschappen die een dier tijdens zijn leven ontwikkelt en volgens hem doorgeeft, noemde hij <strong>verworven eigenschappen</strong>. <strong>Lamarck zou de kleine ogen van een mol dus verklaren doordat ze onder de grond niet gebruikt werden en daardoor kleiner werden.</strong> Zo werkt het niet: wat je tijdens je leven verandert, komt niet in je geslachtscellen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>kern van de theorie van Darwin</strong> is dat <strong>wie het best past bij de omgeving, zich het meest voortplant</strong>. Twee uitspraken horen daarbij en niet bij Lamarck: <strong>binnen een soort bestaat er variatie</strong> en <strong>er worden meer jongen geboren dan er overleven</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Darwin wist nog niet hoe eigenschappen precies worden doorgegeven.</strong> In de moderne evolutietheorie zijn er <strong>twee</strong> dingen bijgekomen: <strong>mutaties als bron van nieuwe variatie</strong> en <strong>de genetica als verklaring voor overerving</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Hoe natuurlijke selectie werkt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Survival of the fittest</strong> betekent dat <strong>wie het best bij zijn omgeving past, het best overleeft</strong>. Het gaat dus niet over de sterkste of de snelste, maar over wie past. Een kenmerk waarmee <strong>een organisme goed past bij zijn omgeving</strong>, heet een <strong>aanpassing</strong> of adaptatie. De <strong>strijd om voedsel, ruimte en partners binnen een populatie</strong> heet de <strong>struggle for life</strong> of struggle for existence."
+    },
+    {
+     "soort": "tekst",
+     "html": "Natuurlijke selectie heeft <strong>twee</strong> dingen nodig: <strong>erfelijke variatie tussen individuen</strong> en <strong>verschil in overlevings- of voortplantingskans</strong>. <strong>Variatie binnen een populatie is belangrijk omdat er dan meer kans is dat sommigen een verandering overleven</strong>, en daarom <strong>maakt een kleine populatie een soort kwetsbaar: er is weinig variatie om op terug te vallen</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "Twee veelgemaakte fouten. <strong>Natuurlijke selectie maakt zelf geen nieuwe eigenschappen aan</strong>: ze kiest uit wat er al is, en mutaties leveren het nieuwe. En <strong>ze werkt niet even goed op aangeleerde als op erfelijke kenmerken</strong>, maar <em>alleen</em> op erfelijke, want alleen die gaan door naar de volgende generatie. <strong>Een organisme kan zich ook niet doelbewust aanpassen aan zijn omgeving om beter te overleven.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Er bestaat ook <strong>seksuele selectie</strong>: <strong>partners kiezen voor bepaalde kenmerken</strong>. Zo wordt een pauwenstaart groter zonder dat hij helpt om te overleven."
+    }
+   ]
+  },
+  {
+   "kop": "Twee voorbeelden die je kan narekenen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De peper-en-zoutvlinders werden in de industriële streken donkerder, omdat donkere vlinders op roetzwarte boomstammen minder opvielen.</strong> De lichte vielen op en werden opgegeten. <strong>Toen de lucht schoner werd, nam het aandeel lichte peper-en-zoutvlinders weer toe.</strong> De vlinders veranderden zelf niet van kleur; de verhouding in de populatie veranderde."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Antibioticaresistentie bij bacteriën ontstaat doordat enkele bacteriën al ongevoelig waren en de kuur overleven.</strong> Die enkele vermenigvuldigen zich daarna ongestoord. <strong>Een antibioticakuur vroegtijdig stoppen vergroot de kans op resistentie</strong>, want dan blijven net de minst gevoelige bacteriën achter."
+    }
+   ]
+  },
+  {
+   "kop": "Hoe een nieuwe soort ontstaat",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>soort</strong> is in de biologie <strong>een groep die onderling vruchtbare nakomelingen krijgt</strong>. <strong>Een muildier is onvruchtbaar, en daarom zijn paard en ezel twee verschillende soorten.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Nieuwe erfelijke variatie ontstaat uit <strong>twee</strong> bronnen: <strong>uit mutaties in het DNA</strong> en <strong>uit het herschikken van chromosomen bij de meiose</strong>. <strong>Een mutatie draagt bij aan de evolutie van een soort doordat ze een nieuw allel levert waarop selectie kan werken.</strong> Maar <strong>een mutatie ontstaat niet omdat het organisme ze nodig heeft</strong>: ze valt toevallig, en pas daarna blijkt of ze helpt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>ontstaan van een nieuwe soort uit een bestaande</strong> heet <strong>soortvorming</strong> of speciatie. <strong>Isolatie is daarvoor nodig, want zonder isolatie blijven de groepen hun genen mengen.</strong>"
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort isolatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Geografische isolatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een rivier verandert van loop en snijdt een populatie muizen in twee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Temporele isolatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee kikkersoorten in dezelfde vijver paren in verschillende maanden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Gedragsisolatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee vogelsoorten herkennen elkaars baltsroep niet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ecologische isolatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee groepen in hetzelfde gebied gebruiken de boomtop en de bodem</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Morfologische isolatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de bouw van de dieren maakt paren onmogelijk</td></tr></table>",
+     "onderschrift": "De vormen van isolatie, elk met het voorbeeld waaraan je ze herkent."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Morfologische isolatie betekent inderdaad dat de bouw van de dieren paren onmogelijk maakt.</strong> Bij <strong>ecologische isolatie</strong> leven de groepen in hetzelfde gebied, maar op een andere leefplek."
+    }
+   ]
+  },
+  {
+   "kop": "De menswording",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het geheel van stappen <strong>waarbij de mens uit zijn voorouders ontstond</strong>, heet de <strong>hominisatie</strong> of menswording. <strong>Rechtop lopen kwam daarin het eerst</strong>, nog vóór de hersenen sterk groeiden. Het <strong>voordeel van rechtop lopen was dat de handen vrijkwamen om dingen te dragen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Mens en mensapen hebben <strong>drie</strong> dingen gemeenschappelijk: <strong>een grote hersenschors</strong>, <strong>handen met een tegenstelbare duim</strong> en <strong>zorg voor de jongen gedurende jaren</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Drie</strong> soorten horen bij de menselijke evolutie: <strong>Australopithecus</strong>, <strong>Homo habilis</strong> en <strong>Homo erectus</strong>. <strong>Homo neanderthalensis en Homo sapiens hebben een tijd naast elkaar geleefd</strong>, en de evolutie van de mens is dus geen rechte rij."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Biodiversiteit gaat niet alleen over het aantal soorten, maar ook over de variatie binnen een soort</strong> en over de verscheidenheid aan leefgebieden."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Lamarck: verworven eigenschappen worden doorgegeven. Dat klopt niet.",
+  "Darwin: er is variatie, er worden meer jongen geboren dan er overleven.",
+  "Selectie heeft erfelijke variatie én verschil in overlevingskans nodig.",
+  "Selectie kiest uit wat er is; mutaties leveren het nieuwe.",
+  "Peper-en-zoutvlinders en antibioticaresistentie zijn de schoolvoorbeelden.",
+  "Een soort krijgt onderling vruchtbare nakomelingen.",
+  "Soortvorming vraagt isolatie: geografisch, temporeel, gedrag, ecologisch of morfologisch.",
+  "In de hominisatie kwam rechtop lopen eerst; de handen kwamen vrij."
+ ]
+}

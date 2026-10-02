@@ -1,0 +1,119 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Elektromagnetisme",
+ "onder": "Ferromagnetische stoffen en weissgebieden, de polen en het aardmagnetisch veld, veldlijnen en de elektromagneet.",
+ "secties": [
+  {
+   "kop": "Welke stoffen magnetisch zijn",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Drie</strong> metalen zijn <strong>ferromagnetisch</strong>: <strong>ijzer</strong>, <strong>nikkel</strong> en <strong>kobalt</strong>. Dat een stof ferromagnetisch is, <strong>betekent dat ze sterk door een magneet aangetrokken wordt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een magneet trekt dus niet élk metaal aan</strong>: koper, aluminium, zilver en goud zijn metalen die blijven liggen, en <strong>een magneet trekt ook geen aluminium blikje aan</strong>. Van de genoemde voorwerpen trekt hij er <strong>twee</strong> aan: <strong>een ijzeren spijker</strong> en <strong>een stalen schroef</strong>, want staal bestaat grotendeels uit ijzer."
+    }
+   ]
+  },
+  {
+   "kop": "Magnetisme op atoomschaal",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De kleine gebiedjes in ijzer <strong>die elk als een piepklein magneetje werken</strong>, heten <strong>weissgebieden</strong>, elementaire magneetjes of magneculen. <strong>Magnetisme komt op atomaire schaal van de elektronenspin en de kringstromen</strong>: elk elektron draait om zichzelf en om de kern."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een gewone ijzeren spijker is niet zelf een magneet, omdat de weissgebieden alle richtingen uit wijzen.</strong> Ze heffen elkaar dan op. Zet je ze op één lijn, dan heb je wel een magneet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Magnetische influentie</strong> is dat <strong>een stuk ijzer bij een magneet zelf tijdelijk magnetisch wordt</strong>. Daarom <strong>kan een paperclip die aan een magneet hangt zelf een tweede paperclip aantrekken</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je kan <strong>een permanente magneet zijn magnetisme doen verliezen door hem sterk te verhitten of er hard op te slaan</strong>. <strong>Een magneet verliest zijn magnetisme als je hem sterk verhit</strong>, want de weissgebieden gaan weer door elkaar liggen."
+    }
+   ]
+  },
+  {
+   "kop": "Polen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>twee uiteinden van een magneet, waar het veld het sterkst is</strong>, heten de <strong>polen</strong>. <strong>Breng je twee noordpolen bij elkaar, dan stoten ze elkaar af</strong>. <strong>Leg je de zuidpool van de ene magneet tegen de noordpool van de andere, dan trekken ze elkaar aan.</strong> <strong>Ongelijksoortige magneetpolen stoten elkaar dus niet af</strong>, maar trekken aan."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Breek je een staafmagneet middendoor, dan heb je twee magneten met elk een noord- en een zuidpool.</strong> Een losse pool bestaat niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij de geografische noordpool ligt de magnetische zuidpool</strong> van het aardmagnetisch veld, en bij de geografische zuidpool de magnetische noordpool. Precies daarom <strong>wijst de noordpool van een kompasnaald naar de geografische noordpool</strong>. <strong>Een kompasnaald staat niet willekeurig stil, want ze richt zich naar het magneetveld van de aarde.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "Het magneetveld en zijn veldlijnen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Buiten een magneet lopen de magnetische veldlijnen van de noordpool naar de zuidpool</strong>, en binnenin terug. <strong>Magnetische veldlijnen kunnen elkaar niet kruisen</strong>: op een kruispunt zou het veld twee richtingen hebben."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De veldlijnen van een staafmagneet liggen het dichtst bij elkaar bij de polen</strong>, en daar is het veld dus het sterkst."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ook rond een draad is er een veld: <strong>rond een draad waar stroom door loopt staat wél een magneetveld</strong>, en het heeft de vorm van <strong>cirkels rond de draad</strong>. Zo'n draad noem je een <strong>stroomvoerende draad</strong>: er loopt stroom door. <strong>Rond een rechte stroomvoerende draad zijn de veldlijnen dus cirkels rond de draad</strong>, en een kompasnaald ernaast draait weg zodra je de stroom aanzet."
+    }
+   ]
+  },
+  {
+   "kop": "De elektromagneet",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een draad <strong>die in vele wikkelingen rond een as gedraaid is</strong>, heet een <strong>spoel</strong> of solenoïde. Een <strong>elektromagneet</strong> is <strong>een spoel die magnetisch wordt door een stroom</strong>, en hij is <strong>enkel magnetisch zolang er stroom door loopt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je maakt hem sterker op <strong>twee</strong> manieren: <strong>meer wikkelingen rond de spoel leggen</strong> en <strong>een grotere stroom door de spoel sturen</strong>. Daarnaast <strong>maakt de ferromagnetische kern het magneetveld veel sterker</strong>, doordat de weissgebieden in die kern mee op één lijn gaan staan."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>rechterhandregel</strong> gebruik je bij een spoel <strong>om te vinden waar de noordpool zit</strong>: je vingers volgen de stroom, je duim wijst naar de noordpool. <strong>Weet je welke kant de stroom in een spoel rondgaat, dan vind je dus aan welk uiteinde de noordpool ligt.</strong> En <strong>draai je de stroomrichting om, dan wisselen de noord- en de zuidpool van plaats</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Toepassingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In <strong>twee</strong> van de genoemde toepassingen zit een elektromagneet: <strong>een elektrische deurbel</strong> en <strong>een relais</strong>. <strong>Een bordmagneet is géén elektromagneet</strong>, maar een permanente magneet, net als een kastsluiting of een kompas."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>elektrische deurbel werkt doordat een spoel een hamertje tegen een klankschaal trekt</strong>, waarbij ze het contact verbreekt en weer sluit. Een <strong>relais zet met een kleine stroom een grote stroom aan</strong>. Een <strong>automatische zekering gebruikt een elektromagneet om de stroom te onderbreken</strong> als die te groot wordt. In een luidspreker <strong>laat de elektromagneet de conus heen en weer trillen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een schrootkraan gebruikt een elektromagneet en geen permanente magneet, zodat de lading ook weer gelost kan worden.</strong> Je zet de stroom af en het schroot valt waar het moet zijn."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Ferromagnetisch: ijzer, nikkel en kobalt. Koper en aluminium niet.",
+  "Weissgebieden op één lijn maken een magneet; warmte of een schok verstoort ze.",
+  "Gelijksoortige polen stoten af, ongelijksoortige trekken aan.",
+  "Bij de geografische noordpool ligt de magnetische zuidpool.",
+  "Veldlijnen lopen buiten van noord naar zuid en kruisen elkaar nooit.",
+  "Een elektromagneet werkt enkel met stroom; meer wikkelingen en meer stroom maken hem sterker.",
+  "De rechterhandregel geeft de noordpool van een spoel.",
+  "Deurbel, relais, zekering, luidspreker en schrootkraan werken met een elektromagneet."
+ ]
+}

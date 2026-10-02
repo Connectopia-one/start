@@ -1,0 +1,144 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Dosis en concentratie van stoffen",
+ "onder": "Massaprocent, volumeprocent en massaconcentratie, met de rekenwerkjes, en daarna de ADI en de LD50.",
+ "secties": [
+  {
+   "kop": "Dosis of concentratie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Het verschil tussen de dosis en de concentratie van een stof is dat de dosis is hoeveel je binnenkrijgt en de concentratie hoe sterk het is.</strong> De concentratie is een eigenschap van het product, de dosis van wat er in jouw lichaam komt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De concentratie van een product zegt op zich dus nog niet hoeveel je ervan binnenkrijgt.</strong> En <strong>je kan de dosis die je binnenkrijgt niet gewoon van het etiket aflezen zonder te rekenen</strong>: op het etiket staat de concentratie, en je moet de hoeveelheid er zelf bij rekenen."
+    }
+   ]
+  },
+  {
+   "kop": "De concentratie-uitdrukkingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Drie</strong> van de vier genoemde uitdrukkingen zijn concentratie-uitdrukkingen: <strong>massaprocent</strong>, <strong>volumeprocent</strong> en <strong>massaconcentratie</strong>. Het lichaamsgewicht hoort bij de dosis."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Uitdrukking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze vergelijkt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Massaprocent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">massa met massa, per 100 g</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">15 g zout in 300 g pekel is 5 %</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Volumeprocent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">volume met volume, per 100 mL</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">12 % vol is 12 mL alcohol per 100 mL</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Massaconcentratie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">massa met volume, in g/L</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20 g in 500 mL is 40 g/L</td></tr></table>",
+     "onderschrift": "De drie uitdrukkingen, en hoe je ze uit elkaar houdt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>massaprocent</strong> is de uitdrukking die zegt <strong>hoeveel gram stof er in 100 gram mengsel zit</strong>. Los je <strong>15 g zout op in water en krijg je 300 g pekel, dan is het massaprocent 5 %</strong>: 15 gedeeld door 300, maal honderd. Let op dat je deelt door de massa van de hele oplossing. <strong>Vijf massaprocent betekent dus niet vijf gram stof per liter mengsel</strong>; dat laatste zou een massaconcentratie zijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "Staat er op een fles wijn <strong>12 % vol</strong>, dan betekent dat <strong>12 mL alcohol in elke 100 mL wijn</strong>. <strong>Volumeprocent wordt vooral gebruikt als je twee vloeistoffen mengt</strong>, want volume is dan het makkelijkst te meten. Het getal <strong>op een fles drank dat zegt welk deel van het volume alcohol is</strong>, heet het <strong>alcoholpercentage</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>massaconcentratie</strong> druk je meestal uit in <strong>g/L</strong>, gram per liter."
+    }
+   ]
+  },
+  {
+   "kop": "Rekenen met concentratie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>flesje bier van 250 mL met 5 % vol</strong> bevat <strong>12,5 mL alcohol</strong>: 250 maal 0,05. Een <strong>fles wijn van 750 mL met 12 % vol</strong> bevat <strong>90 mL alcohol</strong>: 750 maal 0,12."
+    },
+    {
+     "soort": "tekst",
+     "html": "Los je <strong>20 g suiker op tot 500 mL drank, dan is de massaconcentratie 40 g/L</strong>, want een halve liter wordt verdubbeld naar een hele. Een <strong>drankje met 2 g vitamine C per 250 mL</strong> heeft een massaconcentratie van <strong>8 g/L</strong>, want een kwart liter wordt vier keer genomen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Omgekeerd kan je uit een concentratie de hoeveelheid halen. Een <strong>oplossing van 30 g/L zout bevat in 200 mL 6 g zout</strong>: een vijfde liter, dus dertig gedeeld door vijf."
+    },
+    {
+     "soort": "tekst",
+     "html": "Om te berekenen <strong>hoeveel alcohol er in een glas zit, moet je twee dingen kennen</strong>: <strong>het volume van het glas</strong> en <strong>het alcoholpercentage van de drank</strong>. Staan er <strong>twee glazen met dezelfde drank, één van 100 mL en één van 200 mL, dan zit er in het grote glas twee keer zoveel alcohol</strong>; de concentratie is in beide gelijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Hoe hoger de concentratie van een oplossing, hoe méér stof er in elke liter zit</strong>, niet minder. Verdunnen verlaagt de concentratie."
+    }
+   ]
+  },
+  {
+   "kop": "Concentratie en gevaar",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Geconcentreerde ontstopper is bijtend en verdunde ontstopper enkel irriterend.</strong> Daaruit leer je dat <strong>het gevaar van een stof afhangt van de concentratie</strong>, en dus <strong>kan dezelfde stof een ander gevarenpictogram krijgen als de concentratie verandert</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Twee stoffen met dezelfde concentratie kunnen toch een heel verschillend gevaar inhouden.</strong> De concentratie zegt alleen hoeveel stof er in het mengsel zit, niet hoe giftig die stof is."
+    }
+   ]
+  },
+  {
+   "kop": "ADI en LD50",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De hoeveelheid van een stof <strong>die je elke dag zonder gevaar binnen mag krijgen</strong>, heet de <strong>ADI</strong>, de aanvaardbare dagelijkse inname. <strong>De ADI geldt per dag en per kilogram lichaamsgewicht.</strong> Ze is <strong>per kilogram uitgedrukt omdat een zwaarder lichaam meer van een stof verdraagt</strong>: dezelfde hoeveelheid wordt er sterker verdund."
+    },
+    {
+     "soort": "tekst",
+     "html": "Is de <strong>ADI van een zoetstof 7 mg per kg per dag, dan mag een kind van 30 kg 210 mg per dag</strong>. Is de <strong>ADI van een kleurstof 4 mg per kg per dag, dan mag een volwassene van 70 kg 280 mg per dag</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>LD50</strong> van een stof is <strong>de dosis waarbij de helft van de proefdieren sterft</strong>. <strong>LD</strong> staat voor <strong>lethale dosis</strong> of letale dosis, de dodelijke dosis, en 50 voor die helft."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een stof met een lage LD50 is giftiger dan een stof met een hoge LD50.</strong> Heeft <strong>stof A een LD50 van 50 mg per kg en stof B van 5000 mg per kg, dan is stof A honderd keer giftiger dan stof B</strong>. Is de <strong>LD50 2000 mg per kg, dan is dat voor een mens van 60 kg een dosis van 120 g</strong>: 2000 maal 60 is 120 000 mg, en dat gedeeld door duizend geeft gram."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een stof met een hoge LD50 kan je dus niet zonder zorgen in elke hoeveelheid gebruiken.</strong> Een hoge LD50 zegt alleen dat er veel van nodig is."
+    }
+   ]
+  },
+  {
+   "kop": "Waarom de dosis alles bepaalt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Of een stof jou schade doet, hangt van twee dingen af</strong>: <strong>hoeveel je ervan binnenkrijgt</strong> en <strong>hoeveel je zelf weegt</strong>. Daarom <strong>krijgen twee mensen die dezelfde hoeveelheid van een stof binnenkrijgen niet altijd precies dezelfde dosis per kilogram</strong>: bij een lichter lichaam is het meer."
+    },
+    {
+     "soort": "tekst",
+     "html": "De concentratie maal het volume geeft de dosis. Bevat <strong>een drank 40 g suiker per liter, dan krijg je met een glas van 200 mL 8 g binnen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Men zegt dat elke stof giftig kan zijn, omdat boven een bepaalde dosis elke stof schade doet.</strong> Zelfs water. En <strong>een vitamine die nodig is maar in te grote hoeveelheid schadelijk, leert je dat ook een nuttige stof een veilige bovengrens heeft</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Op een geneesmiddel voor kinderen staat een andere dosering dan voor volwassenen, omdat kinderen minder wegen en dus minder verdragen.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een ADI geldt voor dagelijks gebruik, een LD50 voor één keer. Dat verschil is belangrijk omdat een kleine hoeveelheid op lange termijn kan ophopen.</strong>"
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Concentratie is hoe sterk het is, dosis is hoeveel je binnenkrijgt.",
+  "Massaprocent per 100 g, volumeprocent per 100 mL, massaconcentratie in g/L.",
+  "Volume maal percentage geeft de hoeveelheid; concentratie maal volume geeft de dosis.",
+  "Hoe hoger de concentratie, hoe zwaarder het gevaar van dezelfde stof.",
+  "De ADI geldt per dag en per kilogram lichaamsgewicht.",
+  "De LD50 is de dosis waarbij de helft van de proefdieren sterft.",
+  "Hoe lager de LD50, hoe giftiger de stof.",
+  "Boven een bepaalde dosis doet elke stof schade, ook een nuttige."
+ ]
+}
