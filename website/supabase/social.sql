@@ -78,16 +78,52 @@ grant insert (titel, tekst, van, kanaal, link, volledige_naam, contact)
 -- DE BEELDEN
 -- Een open bak, want deze beelden staan toch op de website. Alleen jij
 -- kan er iets in zetten of uit halen.
+--
+-- Dit stuk staat in een blok dat zijn eigen fouten opvangt, en wel hierom:
+-- de tabel storage.objects is niet van ons, en in sommige projecten mag de
+-- sql-editor er geen policy op zetten ("must be owner of table objects").
+-- De editor draait dit bestand als één geheel, dus zo'n fout rolde vroeger
+-- ook de tabel hierboven terug: je zag "Success" bij het eerste deel, en
+-- toch bestond kijker_posts nadien niet. Nu blijft de tabel staan en meldt
+-- het blok enkel dat de bak met de hand gemaakt moet worden.
 -- ============================================================
 
-insert into storage.buckets (id, name, public)
-values ('social', 'social', true)
-on conflict (id) do update set public = true;
+do $$
+begin
+  insert into storage.buckets (id, name, public)
+  values ('social', 'social', true)
+  on conflict (id) do update set public = true;
+exception when others then
+  raise notice 'De bak social kon hier niet gemaakt worden (%). Maak ze met de hand aan in Supabase onder Storage, met de naam social en het vinkje Public aan.', sqlerrm;
+end $$;
 
-drop policy if exists "social schrijven" on storage.objects;
-create policy "social schrijven" on storage.objects for insert
-  with check (bucket_id = 'social' and public.is_beheerder());
+do $$
+begin
+  execute 'drop policy if exists "social schrijven" on storage.objects';
+  execute 'create policy "social schrijven" on storage.objects for insert
+             with check (bucket_id = ''social'' and public.is_beheerder())';
+  execute 'drop policy if exists "social verwijderen" on storage.objects';
+  execute 'create policy "social verwijderen" on storage.objects for delete
+             using (bucket_id = ''social'' and public.is_beheerder())';
+exception when others then
+  raise notice 'De rechten op de bak social konden hier niet gezet worden (%). Dat hindert de tabel niet; zet ze zo nodig met de hand in Supabase onder Storage, Policies.', sqlerrm;
+end $$;
 
-drop policy if exists "social verwijderen" on storage.objects;
-create policy "social verwijderen" on storage.objects for delete
-  using (bucket_id = 'social' and public.is_beheerder());
+-- ============================================================
+-- DE API LATEN HERLEZEN
+-- Supabase praat met de databank via een tussenlaag die onthoudt welke
+-- tabellen er zijn. Blijft die lijst hangen, dan zegt het ouderportaal dat
+-- de tabel niet bestaat terwijl ze er wel staat. Deze regel zegt de
+-- tussenlaag dat ze opnieuw moet kijken.
+-- ============================================================
+
+notify pgrst, 'reload schema';
+
+-- ============================================================
+-- HET BEWIJS
+-- Deze laatste regel geeft een rij terug in plaats van "Success. No rows
+-- returned". Zie je die rij, dan staat de tabel er echt.
+-- ============================================================
+
+select 'kijker_posts staat klaar' as resultaat, count(*) as aantal_berichten
+  from public.kijker_posts;

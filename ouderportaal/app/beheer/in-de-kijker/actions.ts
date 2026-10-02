@@ -3,7 +3,7 @@
 import { redirect } from "next/navigation";
 import { revalidatePath } from "next/cache";
 import { requireBeheerder } from "@/lib/auth";
-import { createAdminClient, projectnaam } from "@/lib/supabase/admin";
+import { createAdminClient, tabelOntbreekt } from "@/lib/supabase/admin";
 import { leesLink, haalBeeldBinnen, schoonLink } from "@/lib/linkuitlezen";
 import type { Gevonden } from "@/lib/linkuitlezen";
 
@@ -71,18 +71,9 @@ function mislukt(bericht: string): Antwoord {
 function uitleg(fout: { message?: string; code?: string }): string {
   const tekst = fout.message || "Er ging iets mis.";
 
-  if (
-    fout.code === "42P01" ||
-    fout.code === "PGRST205" ||
-    /does not exist|could not find the table/i.test(tekst)
-  ) {
-    const project = projectnaam();
-    return (
-      "De tabel voor In de kijker bestaat nog niet. Draai website/supabase/social.sql in het Supabase-project" +
-      (project ? ` met het adres ${project}.supabase.co` : " van het ouderportaal") +
-      ", en kijk na of er onderaan \"Success\" staat."
-    );
-  }
+  const ontbreekt = tabelOntbreekt(fout, "voor In de kijker", "website/supabase/social.sql");
+  if (ontbreekt) return ontbreekt;
+
   if (/bucket not found/i.test(tekst)) {
     return "De bak \"social\" voor de beelden bestaat nog niet. Die maakt website/supabase/social.sql aan.";
   }

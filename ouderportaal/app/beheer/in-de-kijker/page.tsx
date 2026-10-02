@@ -1,5 +1,5 @@
 import { requireBeheerder } from "@/lib/auth";
-import { createAdminClient, projectnaam } from "@/lib/supabase/admin";
+import { createAdminClient, tabelOntbreekt } from "@/lib/supabase/admin";
 import { Header } from "@/components/Header";
 import { BeeldForm, NieuwePostForm } from "./PostFormulieren";
 import { markeerGezien, verwijderPost, zetZichtbaar } from "./actions";
@@ -60,17 +60,13 @@ export default async function InDeKijkerBeheer({
     .limit(200);
 
   /*
-    Een leeslfout mag niet stil blijven. Zonder dit stond er "0 berichten" op
+    Een leesfout mag niet stil blijven. Zonder dit stond er "0 berichten" op
     het scherm, ook als de tabel helemaal niet bestond, en dan valt er niets
     aan te zien wat er misloopt.
   */
-  const project = projectnaam();
   const leesfout = error
-    ? /does not exist|could not find the table/i.test(error.message)
-      ? "De tabel voor In de kijker bestaat nog niet. Draai website/supabase/social.sql in de SQL Editor van het Supabase-project" +
-        (project ? ` met het adres ${project}.supabase.co` : " van het ouderportaal") +
-        ", en kijk na of er onderaan \"Success\" staat. Je hebt twee projecten; in het andere staat het oefenplatform."
-      : `De berichten konden niet gelezen worden: ${error.message}`
+    ? tabelOntbreekt(error, "voor In de kijker", "website/supabase/social.sql") ??
+      `De berichten konden niet gelezen worden: ${error.message}`
     : null;
 
   const posts = (data ?? []) as Post[];
