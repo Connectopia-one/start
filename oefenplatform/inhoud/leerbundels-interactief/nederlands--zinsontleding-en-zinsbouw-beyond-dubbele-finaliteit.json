@@ -1,0 +1,94 @@
+{
+ "vak": "Nederlands",
+ "titel": "Zinsontleding en zinsbouw",
+ "onder": "De zinsdelen benoemen, en de fouten die een zin onleesbaar maken.",
+ "secties": [
+  {
+   "kop": "De zinsdelen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>persoonsvorm</strong> is <strong>het werkwoord dat verandert met het onderwerp</strong>. Zet de zin in een andere tijd: het woord dat meeverandert, is de persoonsvorm. Het <strong>onderwerp</strong> vind je door <strong>wie of wat te vragen bij de persoonsvorm</strong>: 'De hond blaft.' Wie blaft? De hond."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Zinsdeel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe je het vindt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">De <strong>persoonsvorm</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het werkwoord dat met het onderwerp meeverandert</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hij <em>leest</em> een boek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het <strong>onderwerp</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie of wat bij de persoonsvorm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>hij</em> leest een boek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het <strong>lijdend voorwerp</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie of wat na onderwerp en werkwoord samen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hij leest <em>een boek</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het <strong>meewerkend voorwerp</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aan wie; je kan 'aan' ervoor zetten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hij geeft <em>zijn zus</em> een boek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">De <strong>bijwoordelijke bepaling</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waar, wanneer, hoe, waarom</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hij speelt <em>in de tuin</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het <strong>naamwoordelijk gezegde</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een koppelwerkwoord met een naamwoord erbij</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zijn vader is <em>leraar</em></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "In 'hij leest een boek' is <strong>een boek</strong> het lijdend voorwerp. In 'hij geeft zijn zus een boek' is <strong>zijn zus</strong> het meewerkend voorwerp: aan wie geeft hij het boek? In 'hij speelt in de tuin' is <strong>in de tuin</strong> een <strong>bijwoordelijke bepaling van plaats</strong>. In 'morgen gaan wij naar de stad' is <strong>morgen een bijwoordelijke bepaling van tijd</strong> en <strong>naar de stad een bijwoordelijke bepaling van plaats</strong>; wij is het onderwerp en gaan de persoonsvorm."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Niet elke zin heeft een lijdend voorwerp</strong>: 'De hond blaft' heeft er geen, want veel werkwoorden hebben er geen nodig. Een <strong>zin kan meer dan één bijwoordelijke bepaling bevatten</strong>: 'Gisteren speelde hij lang in de tuin' heeft er drie, van tijd, van duur en van plaats. En de <strong>plaats van een bijwoordelijke bepaling kan de betekenis van een zin veranderen</strong>: 'Hij zei gisteren dat hij kwam' is iets anders dan 'hij zei dat hij gisteren kwam'."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>naamwoordelijk gezegde</strong> is <strong>een gezegde met een koppelwerkwoord en een naamwoord erbij</strong>. <strong>Zijn en worden</strong>, <strong>blijven en lijken</strong> zijn koppelwerkwoorden, net als blijken, schijnen en heten. In 'zijn vader is leraar' is <strong>leraar het naamwoordelijk deel van het gezegde</strong>: na een koppelwerkwoord volgt geen voorwerp maar een eigenschap van het onderwerp. Je weet dat een werkwoord een koppelwerkwoord is doordat <strong>het woord erna iets zegt over het onderwerp zelf</strong>: 'hij wordt dokter' tegenover 'hij wordt geroepen'."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij het ontleden volg je deze orde: <strong>eerst de persoonsvorm zoeken</strong>, en <strong>daarna wie of wat vragen om het onderwerp te vinden</strong>. Dan het gezegde, de voorwerpen en de bepalingen. <strong>Zinsontleding helpt bij het correct spellen van werkwoorden</strong>: wie het onderwerp en de persoonsvorm vindt, weet welke uitgang erbij hoort."
+    }
+   ]
+  },
+  {
+   "kop": "Hoofdzin en bijzin",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In een <strong>Nederlandse hoofdzin staat de persoonsvorm op de tweede plaats</strong>, ook als er iets anders vooraan staat: 'Morgen gaan wij', niet 'morgen wij gaan'. Het <strong>verschil met een bijzin</strong>: <strong>in een bijzin staat de persoonsvorm achteraan</strong>. 'Hij bleef thuis omdat hij ziek was.'"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>bijzin</strong> is <strong>een zin die niet op zichzelf kan staan en die met een voegwoord begint</strong>. Ze <strong>heeft wel een eigen onderwerp en een eigen persoonsvorm</strong>; het verschil is dat ze niet alleen kan staan en dat de persoonsvorm naar achteren schuift. Een <strong>bijzin kan voor de hoofdzin staan</strong>: 'Omdat hij ziek was, bleef hij thuis' — de persoonsvorm van de hoofdzin volgt dan meteen. Een <strong>zin mag dus met een voegwoord beginnen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Correct gebouwd zijn: '<strong>omdat het regende, bleven wij binnen</strong>' en '<strong>wij bleven binnen, want het regende</strong>'. Na een bijzin vooraan komt de persoonsvorm meteen; na want volgt een gewone hoofdzin. Een <strong>zin met twee bijzinnen in elkaar is niet altijd fout</strong>, maar het wordt snel onleesbaar."
+    }
+   ]
+  },
+  {
+   "kop": "De bedrijvende en de lijdende vorm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In '<strong>de wedstrijd werd door de regen afgelast</strong>' is <strong>de wedstrijd het onderwerp van de zin</strong>: in een lijdende zin wordt wat de handeling ondergaat het onderwerp. In een <strong>lijdende zin kan de handelende persoon helemaal weggelaten worden</strong>, en daarom is die vorm zo geliefd in teksten die geen naam willen noemen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Veel teksten schrijven liever in de <strong>bedrijvende vorm omdat je dan ziet wie iets doet</strong>. 'Er werden fouten gemaakt' zegt niet door wie — soms is dat net de bedoeling."
+    }
+   ]
+  },
+  {
+   "kop": "Fouten in de zinsbouw",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>tangconstructie</strong> is <strong>twee woorden die bij elkaar horen en te ver van elkaar staan</strong>: 'Hij heeft gisteren na een lange dag op het werk in de regen gelopen.' Heeft en gelopen staan te ver uiteen. Je lost dat op door <strong>de twee werkwoorden dichter bij elkaar te zetten</strong>, of door de zin in twee te knippen. Hetzelfde geldt voor 'de brief die ik gisteren kreeg, en waarin stond dat ik moest komen, lag nog op tafel': <strong>de twee bijzinnen tussen onderwerp en persoonsvorm maken de zin zwaar</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Andere veelgemaakte fouten: <strong>een deelwoord dat bij niemand in de zin hoort</strong>, en <strong>twee zinsdelen die door en verbonden worden maar niet dezelfde vorm hebben</strong>. In 'lopend door het bos viel de regen op mijn hoofd' <strong>hoort het deelwoord bij iemand die niet in de zin staat</strong>: volgens de zin loopt de regen door het bos. In 'hij houdt van lezen, wandelen en hij kookt graag' <strong>hebben de drie delen van de opsomming niet dezelfde vorm</strong>: maak er lezen, wandelen en koken van. <strong>Delen van een opsomming horen dezelfde vorm te hebben.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Ook de tijden moeten kloppen. In 'hij vertelde dat hij kwam en dat hij blijft eten' <strong>passen de werkwoordstijden in de twee bijzinnen niet bij elkaar</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>lange zin is niet altijd een slechte zin</strong>: een lange zin met een heldere bouw leest prima, het probleem is verwarring. Maar 'door de regen werd de wedstrijd afgelast, waardoor wij teleurgesteld waren en niemand kwam' <strong>rijgt te veel delen aan elkaar en wordt onduidelijk</strong>. Is je tekst te zwaar, dan <strong>knip je de zin in twee of drie kortere zinnen</strong>: wat jij niet in één keer begrijpt, begrijpt je lezer ook niet."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Eerst de persoonsvorm, dan wie of wat voor het onderwerp. Daarna gezegde, voorwerpen, bepalingen.",
+  "In een hoofdzin staat de persoonsvorm tweede, in een bijzin achteraan.",
+  "Een koppelwerkwoord geeft een eigenschap van het onderwerp, geen voorwerp.",
+  "Tangconstructie: woorden die bij elkaar horen staan te ver uiteen. Knip of schuif.",
+  "Een foutief verbonden deelwoord en een scheve opsomming zijn de klassiekers."
+ ]
+}

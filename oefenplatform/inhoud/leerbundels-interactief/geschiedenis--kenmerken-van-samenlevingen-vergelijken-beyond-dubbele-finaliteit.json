@@ -4,62 +4,113 @@
  "onder": "Hoe je twee samenlevingen naast elkaar zet zonder appelen met peren te vergelijken.",
  "secties": [
   {
-   "kop": "Wat is een kenmerk?",
+   "kop": "Vier soorten kenmerken",
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Een <strong>kenmerk van een samenleving</strong> is <strong>een eigenschap waarmee je ze met een andere kan vergelijken</strong>: hoe ze bestuurd wordt, hoe ze aan voedsel komt, hoe de groepen zich tot elkaar verhouden, wat ze gelooft en maakt."
+     "html": "Een <strong>kenmerk van een samenleving</strong> is <strong>een eigenschap waarmee je ze met een andere kan vergelijken</strong>. Je sorteert ze in vier soorten, één per maatschappelijk domein."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Vergelijken doe je per domein en met dezelfde vraag voor beide</strong>. Wie voor de ene samenleving naar haar bestuur kijkt en voor de andere naar haar kunst, vergelijkt niets."
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort kenmerken</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat eronder valt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Politieke kenmerken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de staatsvorm, de bestuurlijke organisatie, mensenrechten, imperialisme en kolonialisme, een breuklijn in een samenleving</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Economische kenmerken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">industrialisering en kapitalisme, arbeidsorganisatie en productiemethoden, handel, een consumptiemaatschappij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Sociale kenmerken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gelaagde samenleving, onderdrukking en emancipatie, migratie en minderheden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Culturele kenmerken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mens- en wereldbeelden, wetenschappen en technologie, religie, propaganda, een multiculturele samenleving</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De vier soorten kenmerken moet je niet apart houden, want ze hangen samen</strong>: <strong>een verandering in het economische domein kan gevolgen hebben in het sociale domein</strong>, en <strong>een transportrevolutie verandert ook de manier waarop er geproduceerd wordt</strong>. Een <strong>kenmerk kan ook in de ene periode aanwezig zijn en in de andere niet.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "Begrippen voor het bestuur en de economie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Begrip</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Een totalitaire staat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een staat waarin de overheid elk deel van het leven wil controleren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Een dictatuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een staat waarin één man of één partij alle macht heeft</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Een rechtsstaat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een staat waarin ook de overheid zelf aan de wet gebonden is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Kapitalisme</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het economische systeem waarin privébezit en winst centraal staan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Een postindustriële samenleving</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een samenleving waarin niet de industrie maar de diensten de grootste werkgever zijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Mondialisering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">economieën over de hele wereld raken meer met elkaar verbonden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wij-zij-denken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het denken in een eigen groep tegenover een andere groep</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een dictatuur en een totalitaire staat betekenen niet precies hetzelfde</strong>: een dictatuur houdt de politieke macht vast, een totalitaire staat wil ook het denken, het gezin, de jeugd en de vrije tijd beheersen. En <strong>een democratie is niet automatisch ook een rechtsstaat</strong>: een verkozen meerderheid kan zich boven de wet plaatsen, en dan ontbreekt de bescherming van wie in de minderheid is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij internationale samenwerking scheid je twee soorten organisaties. <strong>Het verschil tussen een supranationale en een intergouvernementele organisatie is dat een supranationale organisatie beslissingen kan opleggen aan de lidstaten</strong>; in een intergouvernementele organisatie beslissen de regeringen samen en houdt elk land zijn vetorecht."
+    }
+   ]
+  },
+  {
+   "kop": "Vergelijken: hoe en waarom",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Vergelijken doe je per domein en met dezelfde vraag voor beide samenlevingen</strong>. Wie voor de ene naar het bestuur kijkt en voor de andere naar de kunst, vergelijkt niets."
     },
     {
      "soort": "tekst",
      "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vraag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Domein</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wie beslist, en op welke grond?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het politieke domein</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Waarvan leven de mensen?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het economische domein</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Welke groepen zijn er, en wie staat waar?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het sociale domein</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wat gelooft men, en wat leert men?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het culturele domein</td></tr></table>"
-    }
-   ]
-  },
-  {
-   "kop": "Gelijkenis, verschil en verklaring",
-   "blokken": [
-    {
-     "soort": "tekst",
-     "html": "Een goede vergelijking <strong>noemt gelijkenissen én verschillen, en verklaart ze</strong>. Dat twee samenlevingen van landbouw leven, is een gelijkenis; dat de ene haar grond in handen van enkelen heeft en de andere in dorpsbezit, is een verschil met gevolgen."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Een standenmaatschappij</strong> en <strong>een klassenmaatschappij</strong> zijn zo'n paar: <strong>in de eerste ligt je plaats bij je geboorte vast</strong>, <strong>in de tweede hangt ze af van je bezit en je positie in de productie</strong>."
-    }
-   ]
-  },
-  {
-   "kop": "Vergelijken over de tijd en over de ruimte",
-   "blokken": [
-    {
-     "soort": "tekst",
-     "html": "Je kan <strong>twee tijden</strong> vergelijken (België in 1850 en in 2020) of <strong>twee plaatsen in dezelfde tijd</strong> (Europa en China rond 1900). Beide zijn evenwaardig, zolang je dezelfde kenmerken naast elkaar legt."
+     "html": "Drie regels houden een vergelijking eerlijk. <strong>Wie twee samenlevingen vergelijkt, moet niet enkel de verschillen opnoemen</strong>, maar ook de gelijkenissen, en ze verklaren. <strong>Een vergelijking tussen periodes moet niet altijd over alle vier de soorten kenmerken gaan</strong>: je kiest de kenmerken die bij je vraag passen. En <strong>bij het vergelijken beoordeel je niet welke van de twee de betere was</strong>: dat is een waardeoordeel, geen vergelijking."
     },
     {
      "soort": "tekst",
-     "html": "Pas op voor <strong>de normen van vandaag</strong>. Dat een samenleving uit 1850 geen algemeen stemrecht had, is een vaststelling; het is pas een beoordeling als je erbij zegt dat dat onrechtvaardig was. <strong>Ook een transportrevolutie verandert de manier waarop er geproduceerd wordt</strong>: verandering in één domein werkt door in de andere."
+     "html": "<strong>Waarom gebruik je bij het beschrijven van een samenleving de begrippen die bij die samenleving horen? Anders leg je er woorden op die er niet bij passen.</strong> Spreken over een parlement in het oude Egypte zegt meer over ons dan over Egypte."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je kan <strong>twee periodes</strong> vergelijken of <strong>twee samenlevingen uit dezelfde periode</strong>. <strong>Twee samenlevingen in dezelfde periode kunnen een heel andere bestuurlijke organisatie hebben</strong>, en dat is net de winst van die tweede vergelijking: <strong>je ziet dat eenzelfde tijd heel verschillende samenlevingen kan dragen</strong>, iets wat een vergelijking tussen periodes niet oplevert."
+    },
+    {
+     "soort": "tekst",
+     "html": "Welke kenmerken je gebruikt om <strong>een samenleving uit de oudheid met een samenleving uit de moderne tijd</strong> te vergelijken? <strong>De staatsvorm en de gelaagdheid van de samenleving</strong>, en <strong>de handel en de arbeidsorganisatie</strong>: kenmerken die in beide bestaan, zodat de vergelijking ergens op steunt."
     }
    ]
   },
   {
-   "kop": "Van vergelijking naar besluit",
+   "kop": "Drie vergelijkingen uitgewerkt",
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Een vergelijking eindigt in <strong>een besluit dat je kan onderbouwen</strong>. Wie zegt dat de industrialisering de levensomstandigheden verslechterde, moet zeggen voor wie, waar en wanneer: voor de eerste fabrieksarbeiders in de stad is dat beter houdbaar dan voor hun kleinkinderen."
+     "html": "<strong>Een standenmaatschappij en een klassenmaatschappij</strong>: <strong>in de eerste ligt je plaats bij je geboorte vast</strong>, <strong>in de tweede hangt ze af van je bezit en je positie in de productie</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Slavernij in de vroegmoderne tijd en arbeid in de fabrieken van de negentiende eeuw</strong>: beide zijn zware uitbuiting, maar er is een verschil. <strong>Een slaaf is iemands bezit, een arbeider sluit een arbeidsovereenkomst.</strong> Die overeenkomst was in de praktijk ongelijk, maar ze bestond, en ze kon opgezegd worden."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De staatsvorm onder Mao en de staatsvorm in China vandaag</strong>: de economie veranderde grondig, maar de belangrijkste gelijkenis blijft dat <strong>in beide gevallen één partij de macht in handen heeft</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het moderne imperialisme en het imperialisme uit de vroegmoderne tijd</strong>: een duidelijk verschil is dat <strong>het moderne imperialisme het binnenland bezet, niet enkel de kust</strong>. In de vroegmoderne tijd ging het vooral om handelsposten aan de kust."
+    }
+   ]
+  },
+  {
+   "kop": "De aard van een intercultureel contact",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Komen twee samenlevingen met elkaar in contact, dan beschrijf je dat contact met vier woordenparen: <strong>vreedzaam contact en gewelddadig contact</strong>, en <strong>wederzijdse perceptie en wederzijdse impact</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Begrip</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wederzijdse perceptie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het beeld dat twee groepen van elkaar hebben na een contact</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wederzijdse impact</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beide samenlevingen veranderen door het contact</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Uitbuiting</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de ene groep haalt voordeel ten koste van de andere</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Cultuurvermenging</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elementen van twee culturen groeien samen tot iets nieuws</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Cultuurdominantie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de ene legt zijn taal, geloof en school op aan de andere</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Handelen twee groepen met elkaar en nemen ze beide iets van de ander over, zonder dwang, dan passen de woorden vreedzaam contact en cultuurvermenging.</strong> <strong>Legt een kolonisator zijn taal, geloof en school op aan de bevolking, dan noem je dat cultuurdominantie.</strong> Die twee sluiten elkaar niet volledig uit: ook onder dwang ontstaat vermenging, in taal, muziek en keuken."
     }
    ]
   }
  ],
  "onthoud": [
-  "Vergelijk per domein, met dezelfde vraag voor beide samenlevingen.",
-  "Noem gelijkenissen én verschillen, en verklaar ze.",
-  "Standenmaatschappij: geboorte beslist. Klassenmaatschappij: bezit en positie beslissen.",
-  "Vaststellen en beoordelen zijn twee verschillende stappen."
+  "Vier soorten kenmerken: politiek, economisch, sociaal, cultureel. Ze hangen samen.",
+  "Totalitaire staat, dictatuur, rechtsstaat, kapitalisme, postindustrieel, mondialisering, wij-zij-denken.",
+  "Supranationaal kan beslissingen opleggen aan de lidstaten; intergouvernementeel niet.",
+  "Vergelijk gelijkenissen én verschillen, met dezelfde vraag voor beide, en zonder te beoordelen wie beter was.",
+  "Intercultureel contact: vreedzaam of gewelddadig, met wederzijdse perceptie en wederzijdse impact.",
+  "Uitbuiting, cultuurvermenging en cultuurdominantie beschrijven elk een andere aard van contact."
  ]
 }

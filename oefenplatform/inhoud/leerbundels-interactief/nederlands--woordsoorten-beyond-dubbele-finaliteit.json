@@ -1,0 +1,86 @@
+{
+ "vak": "Nederlands",
+ "titel": "Woordsoorten",
+ "onder": "Tien soorten woorden, en waarom de zin beslist tot welke soort een woord hoort.",
+ "secties": [
+  {
+   "kop": "De tien soorten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Woordsoort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeelden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het <strong>lidwoord</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">staat voor een zelfstandig naamwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de, het, een</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het <strong>zelfstandig naamwoord</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">noemt een persoon, een ding of een begrip</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tafel, school, vrijheid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het <strong>bijvoeglijk naamwoord</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zegt iets over een zelfstandig naamwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de snelle trein</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het <strong>werkwoord</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de enige soort die je kan vervoegen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lopen, zijn, worden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het <strong>voornaamwoord</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vervangt of wijst aan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hij, mijn, deze, wie, iemand</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het <strong>bijwoord</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zegt iets over een werkwoord, een bijvoeglijk naamwoord of de hele zin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">snel, niet, zelf, gisteren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het <strong>voorzetsel</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geeft een plaats, een tijd of een verhouding aan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onder, na, met</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het <strong>voegwoord</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verbindt woorden of zinnen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">omdat, maar, want, hoewel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het <strong>telwoord</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">noemt een aantal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie (bepaald), veel (onbepaald)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het <strong>tussenwerpsel</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">staat los van de zin en drukt een gevoel uit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">au, hé</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>Nederlands kent drie lidwoorden</strong>, niet vijf: <strong>de, het en een</strong>. <strong>Tafel</strong> is een <strong>zelfstandig naamwoord</strong>: je kan er de of het voor zetten, en dat is de eenvoudigste proef. Je gaat dus na of een woord een zelfstandig naamwoord is <strong>door te proberen of je er de, het of een voor kan zetten</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "In '<strong>onder de tafel</strong>' is <strong>onder</strong> het voorzetsel. <strong>Omdat</strong> en <strong>maar</strong> zijn <strong>voegwoorden</strong>; onder is een voorzetsel en zeer een bijwoord. <strong>Drie</strong> is een <strong>telwoord</strong>: bepaalde telwoorden noemen een aantal, onbepaalde telwoorden zoals <strong>veel</strong> of enkele niet — in 'veel mensen kwamen' is veel dus een <strong>onbepaald telwoord</strong>. <strong>Au</strong> in 'au, dat doet pijn' is een <strong>tussenwerpsel</strong>, en zo'n <strong>tussenwerpsel kan een hele zin vervangen</strong>: 'Hé!' is een volledige boodschap. <strong>Niet</strong> is een <strong>bijwoord</strong>, want het zegt iets over het werkwoord of over de hele zin. <strong>Hoewel</strong> is een <strong>voegwoord</strong> dat een bijzin inleidt."
+    }
+   ]
+  },
+  {
+   "kop": "De voornaamwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort voornaamwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeelden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Persoonlijk</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hij, zij, haar in 'ik geef haar het boek'</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Bezittelijk</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mijn, hun, haar in 'haar boek'</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Aanwijzend</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">deze en die, dit en dat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Betrekkelijk</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">die in 'de man die ik ken', dat in 'het boek dat ik las'</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Vragend</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie, wat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Onbepaald</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iemand, niemand, iets</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Hij</strong> is een <strong>persoonlijk voornaamwoord</strong>: het verwijst naar een persoon. <strong>Mijn</strong> en <strong>hun</strong> zijn <strong>bezittelijk</strong>; deze is aanwijzend, iemand onbepaald. In '<strong>die man ken ik</strong>' is die een <strong>aanwijzend voornaamwoord</strong>, in 'de man die ik ken' is hetzelfde woord <strong>betrekkelijk</strong>. In '<strong>hij vroeg wie er kwam</strong>' is wie een <strong>vragend voornaamwoord</strong>, al staat die vraag binnen een grotere zin."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>betrekkelijk voornaamwoord begint een bijzin die bij een eerder woord hoort</strong>: in 'het boek dat ik las' begint dat de bijzin en verwijst het naar het boek. Een <strong>onbepaald voornaamwoord verwijst niet naar een persoon die eerder genoemd is</strong>: het doet net het omgekeerde en laat open wie of wat bedoeld wordt."
+    }
+   ]
+  },
+  {
+   "kop": "De zin beslist",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Eén woord kan tot meerdere woordsoorten horen, afhankelijk van de zin.</strong> In 'de <strong>snelle</strong> trein' is snel een <strong>bijvoeglijk naamwoord</strong>, want het zegt iets over de trein. In 'hij loopt <strong>snel</strong>' is het een <strong>bijwoord</strong>, want het zegt iets over het werkwoord lopen. In 'de oude man liep <strong>traag</strong> naar huis' is traag <strong>een bijwoord, want het zegt iets over liep</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je onderscheidt de twee door te <strong>kijken waar het woord bij hoort: bij een naamwoord of bij een werkwoord</strong>. De zin beslist, niet de vorm van het woord. <strong>Zelf</strong> in 'ik doe het zelf' is dus een <strong>bijwoord</strong>, want het versterkt wat er over het werkwoord gezegd wordt. Een <strong>bijwoord kan niet enkel iets zeggen over een werkwoord</strong>: in 'een <strong>bijzonder</strong> mooie dag' zegt bijzonder iets over mooi. Een <strong>bijwoord van tijd</strong> <strong>zegt wanneer iets gebeurt</strong>: gisteren, straks, nooit."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>werkwoord kan ook als zelfstandig naamwoord gebruikt worden</strong>: 'Het lezen gaat hem goed af.' Door het lidwoord wordt lezen een zelfstandig naamwoord. Een <strong>voorzetsel staat niet altijd voor het woord waar het bij hoort</strong>: in 'het bos in' staat het erachter, en dan heet het een achterzetsel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee uitspraken die kloppen: <strong>de woordsoort hangt af van de rol in de zin</strong>, en <strong>hetzelfde woord kan in twee zinnen tot twee soorten horen</strong>. Daarom benoem je een woord altijd binnen zijn zin, en nooit op zichzelf."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee misverstanden. Een <strong>werkwoord staat niet altijd op de tweede plaats in een Nederlandse zin</strong>: dat geldt voor de persoonsvorm in een hoofdzin, in een bijzin staat hij achteraan. En een <strong>bijvoeglijk naamwoord kan ook na het werkwoord staan</strong>: 'De trein is snel.'"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>bijvoeglijk naamwoord krijgt niet in elke zin een e</strong>: een mooi huis heeft geen e, een mooie tuin wel. Het lidwoord en het woordgeslacht beslissen. En een <strong>zin kan uit één woordsoort bestaan</strong>: 'Kom!' is een volledige zin met enkel een werkwoord."
+    }
+   ]
+  },
+  {
+   "kop": "Waarom je ze kent",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Woordsoorten kennen helpt bij het spellen van werkwoordsvormen</strong>: wie de persoonsvorm vindt, weet welke uitgang hij moet schrijven. Moet je in een examen de woordsoorten in een zin benoemen, dan <strong>zoek je eerst de werkwoorden, want die dragen de zin</strong>. Daarna valt de rest vlugger op zijn plaats. Het <strong>werkwoord is ook de enige soort die je kan vervoegen</strong>: een zelfstandig naamwoord kan je wel in het meervoud zetten, maar niet vervoegen."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Tien soorten: lidwoord, zelfstandig en bijvoeglijk naamwoord, werkwoord, voornaamwoord, bijwoord, voorzetsel, voegwoord, telwoord, tussenwerpsel.",
+  "Drie lidwoorden: de, het, een. De proef voor een zelfstandig naamwoord: zet er de of het voor.",
+  "Zes soorten voornaamwoord: persoonlijk, bezittelijk, aanwijzend, betrekkelijk, vragend, onbepaald.",
+  "De zin beslist: snel is bijvoeglijk bij een naamwoord en bijwoord bij een werkwoord.",
+  "Begin bij het werkwoord: dat draagt de zin en bepaalt de spelling van de persoonsvorm."
+ ]
+}

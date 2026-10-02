@@ -1,0 +1,398 @@
+# -*- coding: utf-8 -*-
+"""Zinsontleding en zinsbouw — dubbele finaliteit.
+
+De fiche vraagt als ondersteunende kennis: de zinsdelen kunnen benoemen
+(persoonsvorm, onderwerp, lijdend voorwerp, meewerkend voorwerp, bijwoordelijke
+bepaling, naamwoordelijk gezegde), het verschil tussen hoofdzin en bijzin, en
+veelgemaakte fouten in de zinsbouw herkennen en herstellen.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat is de persoonsvorm in een zin?",
+        opties=[
+            "het werkwoord dat verandert met het onderwerp",
+            "het werkwoord dat achteraan de zin staat",
+            "het eerste woord van de hele zin",
+            "het woord dat de handeling ondergaat",
+        ],
+        antwoord=0,
+        uitleg="Zet de zin in de verleden tijd: het woord dat verandert, is de persoonsvorm.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe vind je het onderwerp van een zin?",
+        opties=[
+            "je vraagt wie of wat bij de persoonsvorm",
+            "je neemt het eerste woord van de zin",
+            "je neemt het woord na de persoonsvorm",
+            "je vraagt waar of wanneer bij de persoonsvorm",
+        ],
+        antwoord=0,
+        uitleg="'De hond blaft.' Wie blaft? De hond. Dat is het onderwerp.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je het werkwoord dat met het onderwerp meeverandert?",
+        antwoord=["de persoonsvorm", "persoonsvorm"],
+        uitleg="Zet de zin in een andere tijd: dat woord verandert mee.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het lijdend voorwerp in 'hij leest een boek'?",
+        opties=[
+            "een boek",
+            "hij",
+            "leest",
+            "er staat geen lijdend voorwerp in deze zin",
+        ],
+        antwoord=0,
+        uitleg="Wie of wat leest hij? Een boek. Dat is het lijdend voorwerp.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het meewerkend voorwerp in 'hij geeft zijn zus een boek'?",
+        opties=[
+            "zijn zus",
+            "een boek",
+            "hij",
+            "er staat geen meewerkend voorwerp in deze zin",
+        ],
+        antwoord=0,
+        uitleg="Aan wie geeft hij het boek? Aan zijn zus. Je kan het woordje aan ervoor zetten.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke zinsdelen staan in 'morgen gaan wij naar de stad'?",
+        opties=[
+            "morgen is een bijwoordelijke bepaling van tijd",
+            "naar de stad is een bijwoordelijke bepaling van plaats",
+            "naar de stad is een lijdend voorwerp",
+            "wij is een meewerkend voorwerp",
+        ],
+        antwoord=[0, 1],
+        uitleg="Wij is het onderwerp en gaan de persoonsvorm. De twee bepalingen zeggen wanneer en waar.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="In een Nederlandse hoofdzin staat de persoonsvorm op de tweede plaats.",
+        antwoord=True,
+        uitleg="Ook als er iets anders vooraan staat: 'Morgen gaan wij.' Niet 'morgen wij gaan.'",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Elke zin heeft een lijdend voorwerp.",
+        antwoord=False,
+        uitleg="'De hond blaft' heeft er geen. Veel werkwoorden hebben geen lijdend voorwerp nodig.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een zin kan ten hoogste één bijwoordelijke bepaling bevatten.",
+        antwoord=False,
+        uitleg="'Gisteren speelde hij lang in de tuin' heeft er drie: van tijd, van duur en van plaats.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een naamwoordelijk gezegde?",
+        opties=[
+            "een gezegde met een koppelwerkwoord en een naamwoord erbij",
+            "een gezegde dat uit twee werkwoorden bestaat",
+            "een gezegde dat achteraan de bijzin staat",
+            "een gezegde zonder onderwerp in de zin",
+        ],
+        antwoord=0,
+        uitleg="'Hij is leraar.' Is is het koppelwerkwoord, leraar het naamwoordelijk deel.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke werkwoorden zijn koppelwerkwoorden?",
+        opties=[
+            "zijn en worden",
+            "blijven en lijken",
+            "lopen en werken",
+            "geven en nemen",
+        ],
+        antwoord=[0, 1],
+        uitleg="Ook blijken, schijnen, heten en dunken. Ze koppelen een eigenschap aan het onderwerp.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het verschil tussen een hoofdzin en een bijzin?",
+        opties=[
+            "in een bijzin staat de persoonsvorm achteraan",
+            "een bijzin is altijd korter dan een hoofdzin",
+            "een hoofdzin bevat nooit een voegwoord",
+            "een bijzin heeft geen onderwerp nodig",
+        ],
+        antwoord=0,
+        uitleg="'Hij bleef thuis omdat hij ziek was.' In de bijzin staat was op het einde.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je een zin die niet op zichzelf kan staan en met een voegwoord begint?",
+        antwoord=["een bijzin", "bijzin"],
+        uitleg="De persoonsvorm schuift er naar achteren.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk zinsdeel is 'in de tuin' in 'hij speelt in de tuin'?",
+        opties=[
+            "een bijwoordelijke bepaling van plaats",
+            "een lijdend voorwerp",
+            "een meewerkend voorwerp",
+            "een naamwoordelijk deel van het gezegde",
+        ],
+        antwoord=0,
+        uitleg="Waar speelt hij? In de tuin. Een bepaling van plaats.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is er mis met 'door de regen werd de wedstrijd afgelast, waardoor wij teleurgesteld waren en niemand kwam'?",
+        opties=[
+            "de zin rijgt te veel delen aan elkaar en wordt onduidelijk",
+            "de zin bevat geen enkele persoonsvorm",
+            "de zin heeft geen onderwerp in de hoofdzin",
+            "de zin gebruikt een verkeerd voegwoord",
+        ],
+        antwoord=0,
+        uitleg="Alle delen zijn correct. Samen zijn ze te veel voor één zin: splits ze.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een lange zin is altijd een slechte zin.",
+        antwoord=False,
+        uitleg="Een lange zin met een heldere bouw leest prima. Het probleem is verwarring, niet lengte.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een tangconstructie?",
+        opties=[
+            "twee woorden die bij elkaar horen staan te ver van elkaar",
+            "twee hoofdzinnen die zonder voegwoord verbonden zijn",
+            "twee bijzinnen die in elkaar geschoven zijn",
+            "twee werkwoorden die achteraan de zin staan",
+        ],
+        antwoord=0,
+        uitleg="'Hij heeft gisteren na een lange dag op het werk in de regen gelopen.' Heeft en gelopen staan te ver uiteen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Zinsontleding helpt bij het correct spellen van werkwoorden.",
+        antwoord=True,
+        uitleg="Wie het onderwerp en de persoonsvorm vindt, weet welke uitgang erbij hoort.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe los je een tangconstructie op?",
+        opties=[
+            "je zet de twee werkwoorden dichter bij elkaar",
+            "je maakt de zin langer met een extra bepaling",
+            "je verwisselt het onderwerp en het lijdend voorwerp",
+            "je verandert de zin in een vraag",
+        ],
+        antwoord=0,
+        uitleg="Of je knipt de zin in twee. De lezer hoeft dan niets lang in zijn hoofd te houden.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een bijzin kan voor de hoofdzin staan.",
+        antwoord=True,
+        uitleg="'Omdat hij ziek was, bleef hij thuis.' De persoonsvorm van de hoofdzin volgt meteen.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat is er mis met 'hij vertelde dat hij kwam en dat hij blijft eten'?",
+        opties=[
+            "de werkwoordstijden in de twee bijzinnen passen niet bij elkaar",
+            "de zin bevat twee keer hetzelfde voegwoord",
+            "de zin heeft geen lijdend voorwerp",
+            "de zin heeft twee onderwerpen die precies hetzelfde aanduiden",
+        ],
+        antwoord=0,
+        uitleg="Kwam staat in de verleden tijd, blijft in de tegenwoordige. Kies één tijd.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is er mis met 'lopend door het bos viel de regen op mijn hoofd'?",
+        opties=[
+            "het deelwoord hoort bij iemand die niet in de zin staat",
+            "de zin bevat geen bijwoordelijke bepaling",
+            "de zin bevat twee persoonsvormen",
+            "het onderwerp staat op de verkeerde plaats in de zin",
+        ],
+        antwoord=0,
+        uitleg="Volgens de zin loopt de regen door het bos. Dat heet een foutief verbonden deelwoord.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je het verschijnsel waarbij twee woorden die bij elkaar horen te ver uiteen staan?",
+        antwoord=["een tangconstructie", "tangconstructie"],
+        uitleg="De lezer moet het eerste deel te lang vasthouden.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke fouten in de zinsbouw komen vaak voor?",
+        opties=[
+            "een deelwoord dat bij niemand in de zin hoort",
+            "twee zinsdelen die door en verbonden worden maar niet dezelfde vorm hebben",
+            "een onderwerp dat vooraan de zin geplaatst wordt",
+            "een bijzin die met een voegwoord begint",
+        ],
+        antwoord=[0, 1],
+        uitleg="De laatste twee zijn gewoon correct Nederlands. De eerste twee niet.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is er mis met 'hij houdt van lezen, wandelen en hij kookt graag'?",
+        opties=[
+            "de drie delen van de opsomming hebben niet dezelfde vorm",
+            "de zin bevat te veel komma's voor één opsomming",
+            "de zin heeft in het eerste deel helemaal geen persoonsvorm",
+            "de zin gebruikt een verkeerd voorzetsel na houden",
+        ],
+        antwoord=0,
+        uitleg="Twee werkwoorden en dan een hele zin. Maak er drie keer hetzelfde van: lezen, wandelen en koken.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Delen van een opsomming horen dezelfde vorm te hebben.",
+        antwoord=True,
+        uitleg="Drie zelfstandige naamwoorden, of drie werkwoorden, of drie zinnen. Niet door elkaar.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een zin met twee bijzinnen in elkaar is altijd fout.",
+        antwoord=False,
+        uitleg="Het mag, maar het wordt snel onleesbaar. Twee korte zinnen zijn dan vaak beter.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De plaats van een bijwoordelijke bepaling kan de betekenis van een zin veranderen.",
+        antwoord=True,
+        uitleg="'Hij zei gisteren dat hij kwam' is iets anders dan 'hij zei dat hij gisteren kwam'.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk zinsdeel is 'leraar' in 'zijn vader is leraar'?",
+        opties=[
+            "het naamwoordelijk deel van het gezegde",
+            "het lijdend voorwerp van de zin",
+            "het meewerkend voorwerp van de zin",
+            "een bijwoordelijke bepaling van hoedanigheid",
+        ],
+        antwoord=0,
+        uitleg="Is is een koppelwerkwoord. Daarna volgt geen voorwerp maar een eigenschap van het onderwerp.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe weet je of een werkwoord in een zin een koppelwerkwoord is?",
+        opties=[
+            "het woord erna zegt iets over het onderwerp zelf",
+            "het werkwoord staat achteraan de zin",
+            "het werkwoord heeft in die zin geen onderwerp nodig",
+            "het werkwoord kan niet vervoegd worden",
+        ],
+        antwoord=0,
+        uitleg="'Hij wordt dokter': dokter is wat hij wordt. 'Hij wordt geroepen': daar is worden een hulpwerkwoord.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke stappen volg je bij het ontleden van een zin?",
+        opties=[
+            "eerst de persoonsvorm zoeken",
+            "daarna wie of wat vragen om het onderwerp te vinden",
+            "eerst de langste zinsdelen aanduiden",
+            "eerst de voorzetsels van de zin onderstrepen",
+        ],
+        antwoord=[0, 1],
+        uitleg="Persoonsvorm, onderwerp, gezegde, voorwerpen, bepalingen. In die orde valt alles op zijn plaats.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is er mis met 'de brief die ik gisteren kreeg, en waarin stond dat ik moest komen, lag nog op tafel'?",
+        opties=[
+            "de twee bijzinnen tussen onderwerp en persoonsvorm maken de zin zwaar",
+            "de zin bevat geen lijdend voorwerp",
+            "de zin heeft twee onderwerpen die elkaar tegenspreken",
+            "de zin gebruikt twee keer een verkeerd betrekkelijk voornaamwoord",
+        ],
+        antwoord=0,
+        uitleg="De brief en lag staan vijftien woorden van elkaar. Splits de zin in twee.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Welk zinsdeel vind je door 'wie of wat' bij de persoonsvorm te vragen?",
+        antwoord=["het onderwerp", "onderwerp", "subject"],
+        uitleg="Bij het lijdend voorwerp vraag je wie of wat na het onderwerp en het werkwoord samen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="In 'de wedstrijd werd door de regen afgelast' wat is 'de wedstrijd'?",
+        opties=[
+            "het onderwerp van de zin",
+            "het lijdend voorwerp van de zin",
+            "het meewerkend voorwerp van de zin",
+            "een bijwoordelijke bepaling van oorzaak",
+        ],
+        antwoord=0,
+        uitleg="In een lijdende zin wordt wat de handeling ondergaat het onderwerp.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom schrijven veel teksten liever in de bedrijvende vorm?",
+        opties=[
+            "omdat je dan ziet wie iets doet",
+            "omdat de zin dan altijd korter wordt",
+            "omdat de lijdende vorm niet correct is",
+            "omdat er dan geen persoonsvorm nodig is",
+        ],
+        antwoord=0,
+        uitleg="'Er werden fouten gemaakt' zegt niet door wie. Soms is dat net de bedoeling.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="In een lijdende zin kan de handelende persoon helemaal weggelaten worden.",
+        antwoord=True,
+        uitleg="Daarom is de lijdende vorm zo geliefd in teksten die geen naam willen noemen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je schrijft een lange zin en je leest hem terug zonder hem te begrijpen. Wat doe je?",
+        opties=[
+            "je knipt hem in twee of drie kortere zinnen",
+            "je zet er meer komma's in op gevoel",
+            "je laat hem staan, want je bedoeling is duidelijk",
+            "je vervangt de moeilijke woorden door kortere",
+        ],
+        antwoord=0,
+        uitleg="Wat jij niet in één keer begrijpt, begrijpt je lezer ook niet.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een bijzin heeft geen eigen onderwerp en geen eigen persoonsvorm.",
+        antwoord=False,
+        uitleg="Die heeft ze wel. Het verschil is dat ze niet alleen kan staan en dat de persoonsvorm naar achteren schuift.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke zinnen zijn correct gebouwd?",
+        opties=[
+            "omdat het regende, bleven wij binnen",
+            "wij bleven binnen, want het regende",
+            "omdat het regende, wij bleven binnen",
+            "wij bleven binnen, want regende het",
+        ],
+        antwoord=[0, 1],
+        uitleg="Na een bijzin vooraan komt de persoonsvorm meteen. Na want volgt een gewone hoofdzin.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een zin mag nooit met een voegwoord beginnen.",
+        antwoord=False,
+        uitleg="Een bijzin vooraan begint juist met omdat, hoewel of toen. Dat is correct Nederlands.",
+    ),
+]

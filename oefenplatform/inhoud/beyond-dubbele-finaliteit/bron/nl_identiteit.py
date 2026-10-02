@@ -1,0 +1,398 @@
+# -*- coding: utf-8 -*-
+"""Taal en identiteit: stereotypering, inclusie en exclusie — dubbele finaliteit.
+
+De fiche vraagt: zien hoe taal mensen insluit of uitsluit, stereotypering en
+veralgemening in teksten herkennen, nadenken over de gevoelswaarde van woorden
+die over groepen gaan, en bewust kiezen hoe je zelf over mensen schrijft en
+spreekt.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een stereotype?",
+        opties=[
+            "een vast beeld dat aan een hele groep wordt toegekend",
+            "een woord dat in meerdere talen hetzelfde betekent",
+            "een uitdrukking die in geen woordenboek staat",
+            "een zin die uit een andere tekst overgenomen is",
+        ],
+        antwoord=0,
+        uitleg="Het hoeft niet kwaad bedoeld te zijn om toch te knellen: iedereen van die groep wordt erop afgerekend.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een veralgemening in een tekst?",
+        opties=[
+            "een uitspraak over allen op grond van enkelen",
+            "een uitspraak waarin geen enkel cijfer voorkomt",
+            "een uitspraak die in een vreemde taal staat",
+            "een uitspraak die de schrijver later tegenspreekt",
+        ],
+        antwoord=0,
+        uitleg="'Jongeren lezen niet meer' zegt iets over miljoenen mensen op grond van een handvol.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke woorden wijzen vaak op een veralgemening?",
+        opties=[
+            "altijd en nooit",
+            "iedereen en niemand",
+            "soms en vaak",
+            "ongeveer en meestal",
+        ],
+        antwoord=[0, 1],
+        uitleg="Soms, vaak en meestal nuanceren juist. Altijd en nooit laten geen uitzondering toe.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je een vast beeld dat aan een hele groep wordt toegekend?",
+        antwoord=["een stereotype", "stereotype", "een stereotiep beeld"],
+        uitleg="Het wordt gevaarlijk zodra iemand erop beoordeeld wordt in plaats van op zichzelf.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat betekent het dat taal mensen kan uitsluiten?",
+        opties=[
+            "woorden kunnen iemand buiten de groep plaatsen",
+            "woorden kunnen in een andere taal geschreven zijn",
+            "woorden kunnen te lang zijn om te begrijpen",
+            "woorden kunnen in het verkeerde register staan",
+        ],
+        antwoord=0,
+        uitleg="Een formulier dat maar twee hokjes heeft, sluit uit wie in geen van de twee past.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een tekst spreekt over 'de gewone Vlaming'. Wat gebeurt daar?",
+        opties=[
+            "er wordt een groep als norm gesteld en een andere daarbuiten",
+            "er wordt een feit over de bevolking weergegeven",
+            "er wordt een vakterm uit de politiek gebruikt",
+            "er wordt een veralgemening over een land gemaakt",
+        ],
+        antwoord=0,
+        uitleg="Wie is dan de ongewone Vlaming? De uitdrukking maakt een scheiding zonder ze te benoemen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een woord kan op zich neutraal zijn en toch kwetsend worden in een bepaalde context.",
+        antwoord=True,
+        uitleg="Dezelfde term kan in een handboek gewoon zijn en in een scheldpartij een wapen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Stereotypering komt alleen voor in teksten die kwaad bedoeld zijn.",
+        antwoord=False,
+        uitleg="Veel stereotypen staan in goedbedoelde teksten en in reclame, zonder dat iemand het merkt.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Hoe je over een groep spreekt, kan beïnvloeden hoe anderen die groep zien.",
+        antwoord=True,
+        uitleg="Wie steeds hetzelfde beeld hoort, gaat het voor de werkelijkheid houden.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is inclusief taalgebruik?",
+        opties=[
+            "taal die niemand onnodig buitensluit",
+            "taal die uit zo veel woorden mogelijk bestaat",
+            "taal die in meerdere talen beschikbaar is",
+            "taal die enkel in officiele teksten gebruikt wordt",
+        ],
+        antwoord=0,
+        uitleg="Het gaat niet om verboden woorden, maar om nadenken over wie je aanspreekt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke keuzes maken een tekst toegankelijker voor meer lezers?",
+        opties=[
+            "moeilijke vaktermen uitleggen bij het eerste gebruik",
+            "aanspreken op een manier die iedereen insluit",
+            "zo veel mogelijk afkortingen in de tekst zetten",
+            "de tekst in een kleiner lettertype afdrukken",
+        ],
+        antwoord=[0, 1],
+        uitleg="Toegankelijkheid zit in de woorden en in de vorm, niet in één van de twee alleen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is de gevoelswaarde van een woord?",
+        opties=[
+            "de positieve of negatieve kleur die het meedraagt",
+            "de plaats waar het woord in de zin staat",
+            "het aantal betekenissen dat het woord heeft",
+            "de taal waaruit het woord oorspronkelijk komt",
+        ],
+        antwoord=0,
+        uitleg="Zuinig en gierig betekenen bijna hetzelfde, maar het ene is een compliment.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk paar woorden verschilt vooral in gevoelswaarde?",
+        opties=[
+            "koppig en volhardend",
+            "lopen en wandelen",
+            "huis en woning",
+            "groot en omvangrijk",
+        ],
+        antwoord=0,
+        uitleg="Wie zelf doorgaat, is volhardend. Wie de ander is, is koppig.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de positieve of negatieve kleur die een woord meedraagt?",
+        antwoord=["de gevoelswaarde", "gevoelswaarde", "connotatie"],
+        uitleg="Twee woorden kunnen hetzelfde aanduiden en toch iets anders oproepen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een nieuwsbericht noemt bij één verdachte zijn afkomst en bij een andere niet. Wat is het effect?",
+        opties=[
+            "de lezer verbindt de daad met die afkomst",
+            "de lezer begrijpt het bericht beter dan anders",
+            "het bericht wordt daardoor volledig gemaakt",
+            "het bericht wordt korter en helderder",
+        ],
+        antwoord=0,
+        uitleg="Informatie die niets verklaart maar wel gekoppeld wordt, blijft toch hangen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een tekst kan een groep onzichtbaar maken door er gewoon niet over te spreken.",
+        antwoord=True,
+        uitleg="Wie in geen enkel voorbeeld, geen enkele foto en geen enkel verhaal voorkomt, bestaat in die tekst niet.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe ga je na of je zelf stereotypen gebruikt in een tekst?",
+        opties=[
+            "je kijkt of je uitspraak op elk lid van de groep klopt",
+            "je kijkt of de uitspraak kort genoeg geformuleerd is",
+            "je kijkt of anderen die uitspraak ook gebruiken",
+            "je kijkt of de uitspraak in het woordenboek staat",
+        ],
+        antwoord=0,
+        uitleg="Zodra je 'ja maar niet voor allemaal' moet denken, heb je een veralgemening staan.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een groep mag zelf geen invloed hebben op het woord waarmee ze benoemd wordt.",
+        antwoord=False,
+        uitleg="Veel woorden zijn net veranderd omdat de mensen zelf aangaven welke term ze willen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom verandert een aanvaarde term voor een groep soms na een tijd?",
+        opties=[
+            "omdat een woord in gebruik een negatieve kleur kan krijgen",
+            "omdat de spellingregels van het woord gewijzigd zijn",
+            "omdat het woord in het buitenland niet begrepen wordt",
+            "omdat het woord te lang was om uit te spreken",
+        ],
+        antwoord=0,
+        uitleg="Het woord sleept dan mee wat ermee gedaan is. Daarom komt er een nieuw.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Inclusief schrijven betekent dat je geen enkele mening meer mag geven.",
+        antwoord=False,
+        uitleg="Je mag scherp zijn over een idee of een daad. Het gaat over hoe je mensen benoemt.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="Een vacature zoekt 'een jonge, dynamische kracht'. Wie wordt daarmee buitengesloten?",
+        opties=[
+            "wie ouder is, ook al heeft die de gevraagde ervaring",
+            "wie geen diploma van het hoger onderwijs heeft",
+            "wie in een andere gemeente woont dan het bedrijf",
+            "wie geen rijbewijs heeft voor de verplaatsingen",
+        ],
+        antwoord=0,
+        uitleg="Jong staat er als eigenschap van de kracht, niet als voorwaarde van de job.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke formuleringen vermijden een onnodige veralgemening?",
+        opties=[
+            "veel jongeren in dit onderzoek lezen minder dan vroeger",
+            "een deel van de ondervraagden zegt dat het niet weet",
+            "jongeren lezen vandaag helemaal geen boeken meer",
+            "niemand van die generatie heeft nog belangstelling",
+        ],
+        antwoord=[0, 1],
+        uitleg="Je zegt over wie je spreekt en hoeveel. Dat kost vier woorden en het houdt stand.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je een uitspraak over allen op grond van enkelen?",
+        antwoord=["een veralgemening", "veralgemening", "generalisatie"],
+        uitleg="Woorden als altijd, nooit en iedereen verraden ze meestal.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een tekst noemt de mannelijke arts 'de dokter' en de vrouwelijke 'de vrouwelijke dokter'. Wat zit daarin?",
+        opties=[
+            "de ene vorm wordt als norm gesteld en de andere als uitzondering",
+            "de tekst gebruikt gewoon twee woorden voor hetzelfde beroep",
+            "de tekst volgt de officiele spelling van de beroepsnamen",
+            "de tekst wil de lezer op het geslacht laten letten",
+        ],
+        antwoord=0,
+        uitleg="Zodra één groep een extra woord nodig heeft, is de andere de standaard geworden.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat doet een schrijver die steeds dezelfde groep als slachtoffer voorstelt?",
+        opties=[
+            "hij maakt van een rol een eigenschap van die groep",
+            "hij geeft de groep een stem in zijn tekst",
+            "hij vermijdt elke vorm van stereotypering",
+            "hij maakt zijn tekst korter en duidelijker",
+        ],
+        antwoord=0,
+        uitleg="Ook een goedbedoeld beeld kan vastzetten. Mensen worden dan alleen nog in die rol gezien.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een stereotype kan ook positief klinken en toch beperkend zijn.",
+        antwoord=True,
+        uitleg="'Die zijn allemaal muzikaal' klinkt vriendelijk en zet toch vast wie je mag zijn.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Wie een stereotype gebruikt, is daarmee automatisch een slecht mens.",
+        antwoord=False,
+        uitleg="Stereotypen zitten in de taal die we allemaal leerden. Ze opmerken is de eerste stap.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een tekst over een groep hoort altijd zonder medewerking van die groep geschreven te worden.",
+        antwoord=False,
+        uitleg="Wie erover schrijft zonder met de mensen te spreken, mist bijna altijd iets wezenlijks.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een reclame toont enkel gezinnen van hetzelfde type. Wat is het effect op de kijker?",
+        opties=[
+            "andere gezinsvormen lijken minder gewoon",
+            "de reclame is daardoor beter te begrijpen",
+            "de reclame bereikt daardoor meer mensen",
+            "de reclame geeft daarmee een feit weer",
+        ],
+        antwoord=0,
+        uitleg="Wat je nooit ziet, lijkt zeldzaam. Herhaling bouwt een norm, ook zonder woorden.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het verschil tussen een mening over een idee en een uitspraak over een groep mensen?",
+        opties=[
+            "een idee kan je weerleggen, een groep mensen niet",
+            "een mening over een idee is altijd beter onderbouwd",
+            "een uitspraak over een groep is altijd een feit",
+            "er is geen verschil, beide zijn evengoed meningen",
+        ],
+        antwoord=0,
+        uitleg="Daarom richt een eerlijke discussie zich op wat gezegd wordt, niet op wie het zegt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke vragen stel je bij een tekst die over een groep gaat?",
+        opties=[
+            "wie komt hier aan het woord en wie niet?",
+            "op welke gegevens steunen de uitspraken over die groep?",
+            "hoeveel alinea's besteedt de tekst aan het onderwerp?",
+            "in welk lettertype werd de tekst gezet?",
+        ],
+        antwoord=[0, 1],
+        uitleg="Wie mag spreken en op welke grond: daarmee heb je het meeste al gezien.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een tekst gebruikt 'wij' en 'zij' voor twee groepen inwoners. Wat doet dat?",
+        opties=[
+            "het zet een scheiding neer die de tekst niet uitlegt",
+            "het maakt de tekst korter en vlotter leesbaar",
+            "het geeft aan wie de schrijver geïnterviewd heeft",
+            "het verwijst naar de twee delen van de tekst",
+        ],
+        antwoord=0,
+        uitleg="De lezer wordt aan één kant gezet, nog voor er een argument gevallen is.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je taal die niemand onnodig buitensluit?",
+        antwoord=["inclusief taalgebruik", "inclusieve taal", "inclusief"],
+        uitleg="Het begint bij nadenken over wie je aanspreekt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je merkt dat je eigen tekst een groep veralgemeent. Wat doe je?",
+        opties=[
+            "je noemt over wie je precies spreekt en op welke grond",
+            "je schrapt de hele alinea uit je tekst",
+            "je zet er een voorbehoud bij in een voetnoot",
+            "je laat de uitspraak staan en noemt ze een mening",
+        ],
+        antwoord=0,
+        uitleg="Preciezer worden is bijna altijd de oplossing, en de tekst wordt er sterker van.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat betekent het dat taal mee iemands identiteit draagt?",
+        opties=[
+            "hoe iemand spreekt, hoort bij wie hij is",
+            "iedereen heeft zijn eigen spelling van woorden",
+            "elke taal hoort bij precies één land",
+            "iemands taal bepaalt zijn beroep later",
+        ],
+        antwoord=0,
+        uitleg="Daarom raakt kritiek op iemands taal vaak harder aan dan bedoeld.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Twee mensen kunnen hetzelfde woord verschillend ervaren.",
+        antwoord=True,
+        uitleg="Wat voor de een gewoon is, raakt bij de ander aan een ervaring die jij niet hebt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Boven een artikel staat de kop: 'Weer problemen in die wijk'. Wat is het probleem met die formulering?",
+        opties=[
+            "ze schrijft een eigenschap toe aan een hele wijk",
+            "ze bevat te weinig woorden voor een kop",
+            "ze gebruikt een woord uit de spreektaal",
+            "ze noemt niet wie het artikel schreef",
+        ],
+        antwoord=0,
+        uitleg="Het woord 'weer' maakt van losse feiten een patroon, en de wijk draagt dat mee.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Nadenken over je woordkeuze maakt een tekst voorzichtiger en daardoor zwakker.",
+        antwoord=False,
+        uitleg="Preciezer is niet voorzichtiger. Een uitspraak die klopt, is moeilijker te weerleggen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke middelen helpen om een groep eerlijk in beeld te brengen?",
+        opties=[
+            "mensen uit die groep zelf aan het woord laten",
+            "meerdere verhalen naast elkaar zetten in plaats van één",
+            "een woordenlijst met vaktermen toevoegen",
+            "de tekst korter maken dan oorspronkelijk gepland",
+        ],
+        antwoord=[0, 1],
+        uitleg="Eén verhaal wordt al snel het verhaal. Meerdere verhalen laten de verschillen zien.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een schrijver is verantwoordelijk voor het beeld dat zijn woorden oproepen.",
+        antwoord=True,
+        uitleg="Ook wat je niet bedoelde, komt bij de lezer aan. Daarom hoort nalezen bij schrijven.",
+    ),
+]

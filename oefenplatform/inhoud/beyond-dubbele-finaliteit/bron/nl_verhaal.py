@@ -1,0 +1,398 @@
+# -*- coding: utf-8 -*-
+"""Verhaallijn, personages en vertelperspectief — dubbele finaliteit.
+
+De fiche vraagt bij literatuur: de verhaallijn kunnen navertellen, de personages
+beschrijven en hun onderlinge verhoudingen zien, en het vertelperspectief
+herkennen. Geen literatuurgeschiedenis, geen stromingen: het gaat om lezen wat
+er staat en erover kunnen spreken.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat is de verhaallijn van een boek?",
+        opties=[
+            "de opeenvolging van gebeurtenissen van begin tot eind",
+            "de mening van de schrijver over zijn personages",
+            "de lijst van alle plaatsen waar het verhaal speelt",
+            "het aantal bladzijden dat elk hoofdstuk heeft",
+        ],
+        antwoord=0,
+        uitleg="Wie de verhaallijn navertelt, zegt wat er gebeurt en in welke orde.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een hoofdpersonage?",
+        opties=[
+            "het personage om wie het verhaal draait",
+            "het personage dat het meest spreekt in dialogen",
+            "het personage dat als eerste genoemd wordt",
+            "het personage dat het verhaal zelf vertelt",
+        ],
+        antwoord=0,
+        uitleg="Soms is dat ook de verteller, maar dat hoeft niet. De twee rollen zijn verschillend.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je het personage om wie het verhaal draait?",
+        antwoord=["het hoofdpersonage", "hoofdpersonage", "de protagonist"],
+        uitleg="De andere personages heten nevenpersonages of bijfiguren.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een verhaal wordt verteld met 'ik'. Welk perspectief is dat?",
+        opties=[
+            "het ik-perspectief",
+            "het alwetende perspectief",
+            "het personale perspectief",
+            "het meervoudige perspectief",
+        ],
+        antwoord=0,
+        uitleg="Je weet alleen wat die ene persoon weet, voelt en durft te vertellen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat kenmerkt een alwetende verteller?",
+        opties=[
+            "hij kent de gedachten van alle personages",
+            "hij komt zelf voor als personage in het verhaal",
+            "hij vertelt alles in de tegenwoordige tijd",
+            "hij spreekt de lezer rechtstreeks aan",
+        ],
+        antwoord=0,
+        uitleg="Hij kan ook vooruitkijken naar wat komt. Geen personage weet zoveel als hij.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke gevolgen heeft een ik-verteller voor de lezer?",
+        opties=[
+            "je komt dicht bij de gevoelens van dat personage",
+            "je weet niet wat de andere personages denken",
+            "je weet zeker dat alles wat hij zegt waar is",
+            "je kent het einde van het verhaal al vanaf de eerste bladzijde",
+        ],
+        antwoord=[0, 1],
+        uitleg="Een ik-verteller kan zich vergissen, liegen of iets verzwijgen. Dat is net de spanning.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De verteller en de schrijver van een boek zijn niet hetzelfde.",
+        antwoord=True,
+        uitleg="De schrijver bedenkt de verteller, zoals hij de personages bedenkt.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een verhaal met een ik-verteller is altijd waargebeurd.",
+        antwoord=False,
+        uitleg="De ik-vorm is een keuze van de schrijver. Hij maakt een verhaal dichterbij, niet waar.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Eén boek kan tussen meerdere perspectieven wisselen.",
+        antwoord=True,
+        uitleg="Veel romans geven elk hoofdstuk aan een ander personage. Dezelfde gebeurtenis ziet er dan anders uit.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een nevenpersonage?",
+        opties=[
+            "een personage dat een rol speelt naast het hoofdpersonage",
+            "een personage dat enkel in de titel voorkomt",
+            "een personage dat door de verteller bedacht wordt",
+            "een personage dat nergens beschreven wordt",
+        ],
+        antwoord=0,
+        uitleg="Een goed nevenpersonage laat iets zien over het hoofdpersonage dat die zelf niet zegt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe leer je een personage kennen in een verhaal?",
+        opties=[
+            "door wat het personage doet en zegt",
+            "door wat andere personages erover zeggen",
+            "door het aantal keren dat de naam voorkomt",
+            "door de plaats van het personage in de inhoudstafel",
+        ],
+        antwoord=[0, 1],
+        uitleg="Ook door de gedachten die de verteller weergeeft, en door wat het personage juist niet zegt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een conflict in een verhaal?",
+        opties=[
+            "de tegenstelling die het verhaal in beweging zet",
+            "een ruzie tussen de schrijver en zijn uitgever",
+            "een fout in de opbouw van het verhaal",
+            "een hoofdstuk dat niet bij het verhaal past",
+        ],
+        antwoord=0,
+        uitleg="Het kan tussen twee personages zitten, maar ook in het hoofdpersonage zelf.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je een verteller die de gedachten van alle personages kent?",
+        antwoord=["alwetend", "een alwetende verteller", "alwetende verteller"],
+        uitleg="Hij staat boven het verhaal en kan overal binnenkijken.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een boek begint met het einde en gaat dan terug in de tijd. Hoe noem je zo'n sprong achteruit?",
+        opties=[
+            "een flashback",
+            "een vooruitwijzing",
+            "een nevenverhaal",
+            "een perspectiefwissel",
+        ],
+        antwoord=0,
+        uitleg="De verhaallijn is dan anders geordend dan de tijdlijn van de gebeurtenissen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom zou een schrijver met het einde beginnen?",
+        opties=[
+            "om de lezer te laten zoeken hoe het zover kwam",
+            "om het boek korter te kunnen maken",
+            "om de personages minder te hoeven beschrijven",
+            "om de tegenwoordige tijd te kunnen gebruiken",
+        ],
+        antwoord=0,
+        uitleg="De vraag is niet meer wat er gebeurt, maar waarom. Dat houdt een lezer net zo goed vast.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een personage dat in het verhaal verandert, heet een vlak personage.",
+        antwoord=False,
+        uitleg="Dat is een rond personage. Een vlak personage blijft van de eerste tot de laatste bladzijde hetzelfde.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is de functie van een vlak personage?",
+        opties=[
+            "het vervult één duidelijke rol in het verhaal",
+            "het is altijd de tegenstander van het hoofdpersonage",
+            "het vertelt het verhaal aan de lezer",
+            "het komt enkel in het slot van het verhaal voor",
+        ],
+        antwoord=0,
+        uitleg="De strenge leraar, de trouwe vriend. Ze hoeven niet te veranderen om nuttig te zijn.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Om een verhaallijn na te vertellen, moet je elk detail uit het boek noemen.",
+        antwoord=False,
+        uitleg="Je noemt de gebeurtenissen die het verhaal vooruit duwen. De rest laat je weg.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke vraag helpt je om de verhouding tussen twee personages te beschrijven?",
+        opties=[
+            "wat wil de ene van de andere, en krijgt hij dat?",
+            "wie van de twee komt in meer hoofdstukken voor?",
+            "welke van de twee heeft de langste naam?",
+            "wie van de twee wordt als eerste genoemd?",
+        ],
+        antwoord=0,
+        uitleg="Verhoudingen zitten in wat personages van elkaar willen en wat ze voor elkaar verzwijgen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een verhaal kan goed zijn zonder dat er veel gebeurt.",
+        antwoord=True,
+        uitleg="Soms zit het hele verhaal in wat er in één personage verschuift.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="Je leest: 'Ze wist niet dat hij al vertrokken was.' Welk perspectief blijkt hieruit?",
+        opties=[
+            "een alwetende verteller, want hij weet meer dan zij",
+            "een ik-verteller, want er staat een gedachte in",
+            "een personaal perspectief vanuit hem",
+            "een meervoudig perspectief in één zin",
+        ],
+        antwoord=0,
+        uitleg="De verteller weet wat zij niet weet. Een ik-verteller zou dat zo niet kunnen zeggen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een onbetrouwbare verteller?",
+        opties=[
+            "een verteller van wie de lezer gaandeweg gaat twijfelen",
+            "een verteller die de namen van personages verwisselt",
+            "een verteller die geen tijd en plaats noemt",
+            "een verteller die in de tegenwoordige tijd spreekt",
+        ],
+        antwoord=0,
+        uitleg="Hij liegt of vergist zich, en de lezer merkt dat aan wat anderen zeggen.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je een sprong terug in de tijd binnen een verhaal?",
+        antwoord=["een flashback", "flashback", "een terugblik"],
+        uitleg="De verteltijd en de vertelde tijd lopen dan niet gelijk.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke vragen stel je bij het beschrijven van een hoofdpersonage?",
+        opties=[
+            "wat wil dit personage, en wat staat in de weg?",
+            "verandert dit personage in de loop van het verhaal?",
+            "hoeveel bladzijden komt dit personage voor?",
+            "lijkt dit personage op de schrijver zelf?",
+        ],
+        antwoord=[0, 1],
+        uitleg="Verlangen en verandering: daarmee heb je het skelet van elk personage te pakken.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat verandert er als een verhaal van ik-perspectief naar alwetend overschakelt?",
+        opties=[
+            "de lezer krijgt meer te weten dan één personage",
+            "het verhaal wordt automatisch korter",
+            "de gebeurtenissen veranderen plots van volgorde",
+            "de dialogen verdwijnen uit het verhaal",
+        ],
+        antwoord=0,
+        uitleg="Je verliest de nabijheid en je wint het overzicht. Dat is een bewuste ruil.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een personage kan sympathiek zijn en toch verkeerde keuzes maken.",
+        antwoord=True,
+        uitleg="Juist die mengeling maakt een personage geloofwaardig.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Wie een boek beoordeelt, moet zijn mening over de personages voor zich houden.",
+        antwoord=False,
+        uitleg="Je mag die mening geven, maar je zegt er bij waaróm, met iets uit het boek zelf.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Twee lezers kunnen een personage heel verschillend beoordelen.",
+        antwoord=True,
+        uitleg="Wat de een moedig vindt, vindt de ander onnadenkend. Daarom is de onderbouwing het punt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een verhaal wordt verteld door drie personages, elk in eigen hoofdstukken. Wat levert dat op?",
+        opties=[
+            "dezelfde gebeurtenis komt er in drie versies te staan",
+            "het verhaal krijgt drie verschillende eindes",
+            "de verhaallijn verdwijnt uit het boek",
+            "de lezer kiest zelf welk hoofdstuk hij leest",
+        ],
+        antwoord=0,
+        uitleg="En de lezer ziet daardoor dat geen van de drie het hele beeld heeft.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het verschil tussen verteltijd en vertelde tijd?",
+        opties=[
+            "verteltijd is hoe lang je erover leest, vertelde tijd hoeveel tijd er verstrijkt",
+            "verteltijd is de tijd die de schrijver aan het boek werkte, vertelde tijd die van de lezer",
+            "verteltijd staat in het heden, vertelde tijd in het verleden",
+            "er is geen verschil, het zijn twee woorden voor hetzelfde",
+        ],
+        antwoord=0,
+        uitleg="Eén bladzijde kan twintig jaar overslaan, en twintig bladzijden kunnen één minuut duren.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke middelen gebruikt een schrijver om een personage te laten zien?",
+        opties=[
+            "wat het personage doet op moeilijke momenten",
+            "hoe andere personages op hem reageren",
+            "het aantal keren dat zijn naam valt",
+            "de plaats van zijn naam op de kaft",
+        ],
+        antwoord=[0, 1],
+        uitleg="Een personage in een keuze zien staan, zegt meer dan een bladzijde beschrijving.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je een personage dat in de loop van het verhaal verandert?",
+        antwoord=["een rond personage", "rond personage", "rond"],
+        uitleg="Het tegenovergestelde is een vlak personage.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe vertel je een verhaallijn na in vijf zinnen?",
+        opties=[
+            "je noemt de gebeurtenissen die het verhaal in gang zetten en afsluiten",
+            "je noemt alle personages met hun eigenschappen",
+            "je geeft je mening over het einde van het boek",
+            "je noemt alle plaatsen waar het verhaal zich achtereenvolgens afspeelt",
+        ],
+        antwoord=0,
+        uitleg="Beginsituatie, het conflict, de wending, het slot. De rest past er niet in.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een personage zegt niets gedurende het hele verhaal. Kan dat werken?",
+        opties=[
+            "ja, want zwijgen kan ook iets over hem zeggen",
+            "nee, want zonder dialoog bestaat een personage niet",
+            "nee, want de lezer kan hem dan niet beoordelen",
+            "ja, maar alleen als hij de verteller is",
+        ],
+        antwoord=0,
+        uitleg="Wat hij doet en wat anderen over hem zeggen, dragen hem dan.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een open einde betekent dat de schrijver zijn verhaal niet afgewerkt heeft.",
+        antwoord=False,
+        uitleg="Het is een keuze: de lezer mag zelf verder denken over hoe het aflopen zou.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom is het nuttig om het perspectief van een boek te benoemen?",
+        opties=[
+            "omdat het bepaalt wat je als lezer te weten krijgt",
+            "omdat het de lengte van het boek verklaart",
+            "omdat het de tijd van het verhaal vastlegt",
+            "omdat het zegt in welk genre het boek thuishoort",
+        ],
+        antwoord=0,
+        uitleg="Het perspectief is de deur waardoor je naar binnen kijkt. Een andere deur, een ander zicht.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="In een verhaal met een ik-verteller kan de lezer meer weten dan de verteller zelf.",
+        antwoord=True,
+        uitleg="Als de verteller zich vergist en de lezer dat merkt uit wat anderen zeggen, is dat precies wat er gebeurt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een nevenverhaal?",
+        opties=[
+            "een tweede verhaallijn naast de hoofdlijn",
+            "een verhaal dat de schrijver niet afmaakte",
+            "een verhaal dat in een ander boek verder gaat",
+            "een verhaal dat enkel in het voorwoord staat",
+        ],
+        antwoord=0,
+        uitleg="Het goede nevenverhaal raakt de hoofdlijn ergens aan, al is het pas op het einde.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke vragen horen bij een gesprek over een boek dat je las?",
+        opties=[
+            "welk personage bleef je het meest bij, en waarom?",
+            "welk moment in het verhaal veranderde alles?",
+            "hoeveel bladzijden had het boek precies?",
+            "in welk jaar werd het boek uitgegeven?",
+        ],
+        antwoord=[0, 1],
+        uitleg="Een leeservaring verwoorden begint bij wat bleef hangen, niet bij de gegevens van de uitgever.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een verhaal moet in chronologische orde verteld worden om te kloppen.",
+        antwoord=False,
+        uitleg="Veel boeken springen heen en weer. Zolang de lezer de lijn kan reconstrueren, klopt het.",
+    ),
+]

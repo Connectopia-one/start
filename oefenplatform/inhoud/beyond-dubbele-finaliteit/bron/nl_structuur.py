@@ -1,0 +1,398 @@
+# -*- coding: utf-8 -*-
+"""Structuuraanduiders: verwijswoorden en signaalwoorden — dubbele finaliteit.
+
+De fiche noemt ze twee keer, bij de strategieën en bij het inzicht in
+taalgebruik: verwijswoorden zoals zij, hem, deze en hun, en signaalwoorden
+zoals maar, ten eerste, tot slot, dus, want, hoewel en als. Deel 1:
+verwijswoorden. Deel 2: signaalwoorden en de gedachtegang.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een verwijswoord?",
+        opties=[
+            "een woord dat naar iets eerder in de tekst verwijst",
+            "een woord dat een nieuw onderwerp aankondigt",
+            "een woord dat een verband tussen alinea's noemt",
+            "een woord dat de lezer rechtstreeks aanspreekt",
+        ],
+        antwoord=0,
+        uitleg="Zij, hem, deze, hun, die: ze vervangen iets wat de lezer al kent.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom gebruikt een schrijver verwijswoorden?",
+        opties=[
+            "om niet telkens hetzelfde woord te moeten herhalen",
+            "om de tekst moeilijker te maken voor de lezer",
+            "om de spelling van de tekst te vereenvoudigen",
+            "om het aantal woorden van de tekst te verhogen",
+        ],
+        antwoord=0,
+        uitleg="Zonder verwijswoorden zou elke zin de volle naam herhalen en zou de tekst gaan stampen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Naar wie verwijst 'hem' in: 'De burgemeester sprak de inwoners toe. Daarna gaven zij hem een brief.'?",
+        opties=[
+            "naar de burgemeester",
+            "naar de inwoners",
+            "naar de brief",
+            "dat is uit de tekst niet op te maken",
+        ],
+        antwoord=0,
+        uitleg="Zij verwijst naar de inwoners, hem naar de burgemeester. Het enkelvoud en het meervoud wijzen de weg.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je woorden als zij, hem, deze en hun, die naar iets eerder in de tekst verwijzen?",
+        antwoord=["verwijswoorden", "een verwijswoord"],
+        uitleg="Samen met de signaalwoorden heten ze de structuuraanduiders.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een verwijswoord kan ook naar een hele zin of een heel idee verwijzen.",
+        antwoord=True,
+        uitleg="In 'De prijzen stijgen. Dat baart de regering zorgen' verwijst dat naar de hele eerste zin.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Verwijswoorden en signaalwoorden zijn twee namen voor hetzelfde.",
+        antwoord=False,
+        uitleg="Een verwijswoord wijst terug naar iets. Een signaalwoord kondigt een verband of een stap aan.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een onduidelijk verwijswoord kan een zin dubbelzinnig maken.",
+        antwoord=True,
+        uitleg="'Jan sprak met zijn broer over zijn auto': van wie is die auto? Dat is een echte fout in een zakelijke tekst.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke woorden zijn verwijswoorden?",
+        opties=[
+            "deze en die",
+            "hun en zij",
+            "hoewel en dus",
+            "ten eerste en tot slot",
+        ],
+        antwoord=[0, 1],
+        uitleg="De twee laatste rijen zijn signaalwoorden: ze verwijzen niet, ze kondigen aan.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="In 'De leerlingen kregen hun rapport. Ze mochten het meteen bekijken' verwijst 'het' naar wat?",
+        opties=[
+            "naar het rapport",
+            "naar de leerlingen",
+            "naar de school",
+            "naar de leerkracht",
+        ],
+        antwoord=0,
+        uitleg="Het is enkelvoud en onzijdig, net als het rapport. Ze verwijst naar de leerlingen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom let je bij lezen op verwijswoorden?",
+        opties=[
+            "omdat je anders de draad van de tekst verliest",
+            "omdat ze altijd fout gespeld worden",
+            "omdat ze het onderwerp van de tekst geven",
+            "omdat ze de bronnen van de tekst noemen",
+        ],
+        antwoord=0,
+        uitleg="Wie niet weet naar wie 'zij' verwijst, leest twee alinea's verder over de verkeerde personen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een verwijswoord staat altijd vóór het woord waarnaar het verwijst.",
+        antwoord=False,
+        uitleg="Bijna altijd erna. Vooruitwijzen bestaat ook, maar dan is het een stijlmiddel: 'Dit wil ik zeggen: ...'",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk verwijswoord past in: 'De gemeente bouwt twee scholen. ... worden volgend jaar geopend.'?",
+        opties=[
+            "Ze",
+            "Het",
+            "Hem",
+            "Diegene",
+        ],
+        antwoord=0,
+        uitleg="Twee scholen is meervoud, dus ze. Het en hem zijn enkelvoud.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je verwijswoorden en signaalwoorden samen, met één woord?",
+        antwoord=["structuuraanduiders", "een structuuraanduider"],
+        uitleg="Ze maken de structuur en de gedachtegang van een tekst zichtbaar.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke uitspraken over verwijswoorden kloppen?",
+        opties=[
+            "ze moeten in getal passen bij waarnaar ze verwijzen",
+            "ze maken een tekst korter en vlotter",
+            "ze geven het verband tussen twee alinea's",
+            "ze staan altijd aan het begin van een alinea",
+        ],
+        antwoord=[0, 1],
+        uitleg="Het verband tussen alinea's is het werk van de signaalwoorden.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat doe je als een verwijswoord in een moeilijke tekst onduidelijk is?",
+        opties=[
+            "je zoekt het laatst genoemde woord dat past in getal en geslacht",
+            "je kiest het woord dat het dichtst bij staat, altijd",
+            "je slaat de zin over en leest verder",
+            "je neemt het onderwerp van de hele tekst",
+        ],
+        antwoord=0,
+        uitleg="Getal en geslacht sluiten de helft van de kandidaten uit. Pas daarna kijk je naar de afstand.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="In een luistertekst gebruikt een spreker ook verwijswoorden.",
+        antwoord=True,
+        uitleg="Nog vaker zelfs. En omdat je niet kan terugspoelen, moet je ze meteen plaatsen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="In 'De directie en de vakbonden overlegden. Zij kwamen tot een akkoord' is 'zij' dubbelzinnig. Waarom?",
+        opties=[
+            "het kan naar beide partijen of naar één ervan verwijzen",
+            "het is geen verwijswoord maar een signaalwoord",
+            "het staat te ver van het woord waarnaar het verwijst",
+            "het is fout gespeld in deze zin",
+        ],
+        antwoord=0,
+        uitleg="Een schrijver die dat merkt, herhaalt beter de namen: 'Beide partijen kwamen tot een akkoord.'",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk woord verwijst in 'Hij kreeg een boete. Daar was hij niet blij mee.' naar de boete?",
+        opties=[
+            "Daar",
+            "Hij",
+            "Niet",
+            "Mee",
+        ],
+        antwoord=0,
+        uitleg="Daar ... mee is een verwijzing naar de boete. Hij verwijst naar de persoon.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een tekst zonder enig verwijswoord is onmogelijk te schrijven.",
+        antwoord=False,
+        uitleg="Het kan, door elke naam te herhalen, maar het leest als een juridische akte.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom zijn verwijswoorden lastig in een tekst met veel personen?",
+        opties=[
+            "omdat meer kandidaten in getal en geslacht passen",
+            "omdat je ze dan niet meer mag gebruiken",
+            "omdat ze dan langer worden dan de namen",
+            "omdat ze dan hun betekenis verliezen",
+        ],
+        antwoord=0,
+        uitleg="Drie vrouwen in één alinea en één 'zij': de lezer moet gokken. Dan herhaal je de naam.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een signaalwoord?",
+        opties=[
+            "een woord dat een verband of een stap aankondigt",
+            "een woord dat naar iets eerder in de tekst verwijst",
+            "een woord dat een nieuw personage voorstelt",
+            "een woord dat de titel van een tekst herhaalt",
+        ],
+        antwoord=0,
+        uitleg="Maar, ten eerste, tot slot, dus, want, hoewel en als: ze zeggen hoe de delen samenhangen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk verband kondigt 'want' aan?",
+        opties=[
+            "een reden",
+            "een tegenstelling",
+            "een gevolg",
+            "een opsomming",
+        ],
+        antwoord=0,
+        uitleg="Want en omdat geven de reden. Dus en daarom geven het gevolg.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk verband kondigt 'hoewel' aan?",
+        opties=[
+            "een tegenstelling of een toegeving",
+            "een reden voor het voorgaande",
+            "een gevolg van het voorgaande",
+            "een voorbeeld bij het voorgaande",
+        ],
+        antwoord=0,
+        uitleg="Hoewel geeft toe dat er iets tegen pleit, en gaat toch verder: 'Hoewel het duur is, kopen we het.'",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je woorden als maar, dus, want en hoewel, die het verband tussen delen aankondigen?",
+        antwoord=["signaalwoorden", "een signaalwoord"],
+        uitleg="Ze helpen je de gedachtegang van een tekst te reconstrueren.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke signaalwoorden horen bij een opsomming?",
+        opties=[
+            "ten eerste, ten tweede, ten derde",
+            "tot slot, ten slotte",
+            "daardoor, bijgevolg",
+            "hoewel, ondanks",
+        ],
+        antwoord=[0, 1],
+        uitleg="In een instructie vind je die opsommende aanduiders bijna altijd terug.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk verband kondigt 'als' aan?",
+        opties=[
+            "een voorwaarde",
+            "een tegenstelling",
+            "een samenvatting",
+            "een reden",
+        ],
+        antwoord=0,
+        uitleg="Als, indien en mits openen een voorwaarde: pas als die geldt, volgt het tweede deel.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Signaalwoorden kunnen je verraden welke tekststructuur een schrijver gebruikt.",
+        antwoord=True,
+        uitleg="Veel 'ten eerste' wijst op een opsomming, veel 'daardoor' op een oorzakelijke opbouw.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een tekst zonder signaalwoorden is altijd onbegrijpelijk.",
+        antwoord=False,
+        uitleg="Hij is wel moeilijker: de lezer moet de verbanden zelf aanvullen. Veel literaire teksten doen dat bewust.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Het woord 'maar' kan een hele alinea tegenover de vorige zetten.",
+        antwoord=True,
+        uitleg="Eén woord vooraan kan het hele vorige stuk relativeren. Let er bij lezen dus op.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="In 'Het plan is duur. Toch gaat het door.' Welk verband is dat?",
+        opties=[
+            "een tegenstelling",
+            "een reden",
+            "een gevolg",
+            "een voorwaarde",
+        ],
+        antwoord=0,
+        uitleg="Toch zet het tweede deel tegen het eerste in. Maar, echter en nochtans doen hetzelfde.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke signaalwoorden kondigen een gevolg aan?",
+        opties=[
+            "dus en daarom",
+            "daardoor en bijgevolg",
+            "want en omdat",
+            "als en mits",
+        ],
+        antwoord=[0, 1],
+        uitleg="Want en omdat geven de reden, als en mits de voorwaarde.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Welk signaalwoord kondigt het best een samenvatting aan? Geef er één.",
+        antwoord=["kortom", "samengevat", "alles samen"],
+        uitleg="Ook 'om af te sluiten' en 'in het kort' doen dat werk.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom zijn structuuraanduiders twee keer belangrijk voor je?",
+        opties=[
+            "omdat je ze bij het lezen gebruikt en bij het schrijven toepast",
+            "omdat ze in elke tekst precies twee keer voorkomen",
+            "omdat ze enkel in luisterteksten en in gesprekken voorkomen",
+            "omdat ze bij literatuur een heel andere naam krijgen",
+        ],
+        antwoord=0,
+        uitleg="Bij de strategieën helpen ze je begrijpen, bij het taalgebruik maken ze jouw tekst leesbaar.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een spreker die geen signaalwoorden gebruikt, heeft geen enkel middel meer om een verband aan te geven.",
+        antwoord=False,
+        uitleg="Een pauze of een handbeweging kan 'maar' betekenen. Daarom hoort non-verbale communicatie bij het vak.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een tekst staat vol met 'enerzijds' en 'anderzijds'. Wat verwacht je?",
+        opties=[
+            "een vergelijking of een afweging van twee kanten",
+            "een verhaal in chronologische volgorde",
+            "een instructie in stappen",
+            "een opsomming van voorbeelden",
+        ],
+        antwoord=0,
+        uitleg="Zo'n paar kondigt twee kanten aan, vaak voordelen en nadelen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke uitspraken over signaalwoorden kloppen?",
+        opties=[
+            "ze maken de gedachtegang van een tekst zichtbaar",
+            "ze helpen je ook bij een luisteropdracht",
+            "ze zijn nooit nodig in een zakelijke tekst",
+            "ze vervangen de inhoud van een alinea",
+        ],
+        antwoord=[0, 1],
+        uitleg="In een zakelijke tekst zijn ze juist het hardst nodig, want daar moet de lezer niets gokken.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Hetzelfde signaalwoord kan in twee teksten een ander verband aanduiden.",
+        antwoord=True,
+        uitleg="'Als' kan een voorwaarde zijn ('als het regent') of een tijd ('als hij thuiskomt').",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="In een handleiding staat: 'Ten slotte sluit je het deksel.' Wat zegt dat signaalwoord?",
+        opties=[
+            "dat dit de laatste stap is",
+            "dat dit de belangrijkste stap is",
+            "dat dit een voorwaarde is",
+            "dat dit een gevolg is",
+        ],
+        antwoord=0,
+        uitleg="Ten slotte en tot slot sluiten een opsomming af. Dat het de belangrijkste stap is, staat er niet.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Wie let op structuuraanduiders, hoeft geen notities meer te nemen.",
+        antwoord=False,
+        uitleg="Ze helpen je bij het begrijpen. Voor het onthouden blijft noteren nodig, vooral bij luisteren.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom is 'echter' een nuttig woord om op te letten in een opiniestuk?",
+        opties=[
+            "omdat het aankondigt dat de schrijver nu iets tegenspreekt",
+            "omdat het altijd het begin van het besluit markeert",
+            "omdat het altijd aan het begin van een alinea staat",
+            "omdat het aangeeft dat een feit volgt",
+        ],
+        antwoord=0,
+        uitleg="Na 'echter' komt vaak het eigen standpunt, na de weergave van dat van iemand anders.",
+    ),
+]

@@ -4,45 +4,90 @@
  "onder": "Het gereedschap van het vak: perioden, plaatsen en de vier maatschappelijke domeinen.",
  "secties": [
   {
-   "kop": "De tijd indelen",
+   "kop": "De zeven periodes",
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Het <strong>historisch referentiekader</strong> is <strong>het geheel van tijd, ruimte en maatschappelijke domeinen waarmee je een gebeurtenis plaatst</strong>. Je gebruikt het bij elk thema: wanneer, waar, en in welk domein van de samenleving."
+     "html": "Het <strong>historisch referentiekader</strong> is <strong>het geheel van tijd, ruimte en maatschappelijke domeinen waarmee je een gebeurtenis plaatst</strong>. Het is <strong>een hulpmiddel om nieuwe informatie een plaats te geven</strong>: wie de periodes, de schalen en de domeinen kent, kan een bron meteen ergens hangen. Het <strong>courante westerse referentiekader telt zeven periodes</strong>."
     },
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Periode</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Loopt van</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Tot</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">De prehistorie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het ontstaan van de mens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het eerste schrift</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">De oudheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het eerste schrift</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 500 na Christus</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">De middeleeuwen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 500</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 1500</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">De moderne tijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 1500</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1789, de Franse Revolutie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">De hedendaagse tijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1789</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vandaag</td></tr></table>"
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Periode</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Loopt van</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Tot</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">De prehistorie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het ontstaan van de mens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het eerste schrift</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het oude nabije oosten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het eerste schrift</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 800 voor Christus</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">De klassieke oudheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de Griekse stadstaten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 500 na Christus</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">De middeleeuwen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 500</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 1500</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">De vroegmoderne tijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 1500</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1789 of 1815</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">De moderne tijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1789 of 1815</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1945</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">De hedendaagse tijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1945</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vandaag</td></tr></table>"
     },
     {
      "soort": "tekst",
-     "html": "Die grenzen zijn <strong>door historici gekozen en dus bespreekbaar</strong>. Een <strong>eeuw</strong> loopt niet gelijk met haar getal: <strong>het jaar 1789 ligt in de achttiende eeuw</strong>. Een <strong>decennium</strong> is tien jaar, een <strong>millennium</strong> duizend jaar."
+     "html": "De volgorde na de middeleeuwen is dus: <strong>de vroegmoderne tijd, daarna de moderne tijd, daarna de hedendaagse tijd</strong>, de laatste van de zeven. De <strong>Reformatie situeer je in de vroegmoderne tijd</strong> (1517), de <strong>industriële revolutie en het Congres van Wenen in de moderne tijd</strong>, en <strong>de naoorlogse periode in de hedendaagse tijd</strong>."
     },
     {
      "soort": "tekst",
-     "html": "<strong>Een verschil tussen twee jaartallen bereken je door af te trekken</strong>: van 1830 tot 1914 liggen <strong>vierentachtig jaar</strong>. Let op met jaartallen voor Christus: die lopen aflopend."
+     "html": "Een <strong>eeuw</strong> loopt niet gelijk met haar getal: <strong>het jaar 1789 ligt in de achttiende eeuw</strong>. Een <strong>decennium</strong> is tien jaar, een <strong>millennium</strong> duizend jaar. <strong>Een verschil tussen twee jaartallen bereken je door af te trekken</strong>: van 1830 tot 1914 liggen <strong>vierentachtig jaar</strong>. Jaartallen voor Christus lopen aflopend."
     }
    ]
   },
   {
-   "kop": "De vier maatschappelijke domeinen",
+   "kop": "Wat een periodisering is, en wat ze niet is",
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Domein</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarover het gaat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het politieke domein</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bestuur, macht, wetten, oorlog</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een grondwet, een verkiezing</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het economische domein</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">productie, handel, arbeid, geld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een fabriek, invoerrechten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het sociale domein</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">groepen, wonen, gezin, gezondheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kinderarbeid, een arbeiderswijk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het culturele domein</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geloof, kunst, taal, onderwijs, denken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kerk, een school, een roman</td></tr></table>"
+     "html": "Een <strong>periodisering</strong> is <strong>een indeling van het verleden in periodes, achteraf gemaakt</strong>. Drie dingen horen daarbij: <strong>een periode wordt afgebakend op basis van een selectie van kenmerken en gebeurtenissen</strong>, <strong>een periode krijgt een symbolische begin- en einddatum</strong>, en <strong>een periode is een constructie die achteraf gemaakt wordt</strong>. Wat niet klopt, is dat een periode in elke beschaving even lang zou duren: de lengtes verschillen sterk, en elders ligt de indeling anders."
     },
     {
      "soort": "tekst",
-     "html": "De meeste gebeurtenissen horen <strong>in meer dan één domein</strong> tegelijk. <strong>Een wet die kinderarbeid verbiedt, situeer je in het sociale en in het politieke domein</strong>: ze is gestemd door een parlement en ze raakt het leven van gezinnen. Een <strong>staking</strong> is economisch en sociaal, en vaak ook politiek."
+     "html": "Dat een <strong>begin- en einddatum symbolisch</strong> is, betekent dat het gekozen moment staat voor een verandering die veel langer duurde; op de dag zelf veranderde voor de meeste mensen niets. Daarom werkt een <strong>tijdlijn</strong> met zulke <strong>ijkpunten</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>periodisering is nooit volledig neutraal, want ze hangt af van welke kenmerken je kiest</strong>: <strong>een periodisering met politieke scharnierpunten geeft andere grenzen dan een met economische scharnierpunten</strong>. Kies je het bestuur, dan liggen de grenzen elders dan wanneer je de techniek of de kunst kiest. Dat zijn de <strong>principes en de beperkingen</strong> van elk referentiekader."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>scharnierpunt</strong> is <strong>een gebeurtenis of evolutie die de overgang vormt tussen twee historische periodes</strong>, zoals de Franse Revolutie of het einde van de Tweede Wereldoorlog. Op een tijdlijn met 1517, 1789, 1815 en 1945 zijn <strong>1789 of 1815 het scharnierpunt aan het begin van de moderne tijd</strong> en <strong>1945 dat aan het begin van de hedendaagse tijd</strong>; 1517 hoort in de vroegmoderne tijd en begint geen nieuwe periode. Het einde van de Tweede Wereldoorlog laat een nieuwe periode beginnen omdat de machtsverhoudingen in de wereld toen grondig veranderden: twee supermachten, dekolonisatie en nieuwe internationale organisaties."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zo'n keuze heeft een <strong>beperking</strong>. Het Congres van Wenen als scharnierpunt is <strong>een westers en vooral politiek ijkpunt, dat elders weinig betekent</strong>: voor China of Afrika zegt 1815 niets, en in het economische of culturele domein lag het keerpunt ergens anders. Daarom <strong>past de westerse periodisering in zeven periodes niet even goed op de geschiedenis van China</strong>, dat vaak per dynastie wordt ingedeeld."
     }
    ]
   },
   {
-   "kop": "De ruimte",
+   "kop": "Structuurbegrippen rond tijd",
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>Plaatsen horen bij een gebeurtenis</strong>: je situeert ze op een kaart, en je let erop dat <strong>grenzen en namen veranderen</strong>. Het gebied dat wij België noemen, heette in 1800 anders en lag in een ander staatsverband."
+     "html": "<strong>Structuurbegrippen</strong> zijn de woorden waarmee je tijd en ruimte ordent."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Begrip</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Continuïteit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat over een lange tijd hetzelfde blijft</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Verandering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de breuk in die lijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Evolutie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een trage, geleidelijke verandering</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Breuk of revolutie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een plotse, diepe verandering op korte tijd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Chronologie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de ordening van gebeurtenissen in de tijd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Tijdrekening</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het stelsel waarmee je jaren nummert</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Gelijktijdigheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee gebeurtenissen in dezelfde periode op verschillende plaatsen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ongelijktijdigheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een ontwikkeling die ergens al begon en elders nog niet</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Tijdrekening en chronologie betekenen dus niet hetzelfde.</strong> En <strong>een breuk en een continuïteit kunnen in dezelfde periode naast elkaar bestaan</strong>: de fabriek verandert het werk, en toch blijft het gezin lang de plaats waar geld en zorg verdeeld worden. De industriële revolutie is een mooi voorbeeld van <strong>ongelijktijdigheid</strong>: ze begint in Engeland, daarna in België, en pas veel later elders. <strong>De val van de Berlijnse Muur in 1989 wijst op verandering in de naoorlogse periode in Europa.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>gebeurtenis</strong> duurt kort, <strong>een ontwikkeling</strong> duurt lang. De val van de Muur is een gebeurtenis, de verstedelijking een ontwikkeling."
+    }
+   ]
+  },
+  {
+   "kop": "Structuurbegrippen rond ruimte",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Om een gebeurtenis <strong>in de ruimte te situeren</strong> gebruik je een ander stel begrippen: <strong>continentaal en maritiem</strong>, stedelijk en <strong>ruraal</strong>, lokaal, regionaal, nationaal, <strong>Europees</strong> en <strong>mondiaal</strong>. Evolutie, revolutie, chronologie en tijdrekening horen bij tijd, niet bij ruimte."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Begrip</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Maritiem</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vooral op zee gericht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Continentaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vooral op het vasteland gericht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ruraal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">landelijk, op het platteland; het tegengestelde van stedelijk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Mondiaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wereldwijd, dus Europa inbegrepen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Westers</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Europa en bijvoorbeeld de Verenigde Staten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Niet-westers</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">samenlevingen buiten Europa en de westerse wereld</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een gebeurtenis die je mondiaal situeert, raakt Europa dus wél</strong>: mondiaal is geen tegenstelling met Europees maar een ruimere <strong>schaal</strong>. Lees je in bronnen dat <strong>Wilhelm II een vloot bouwt en kolonies zoekt in Afrika en Azië</strong>, dan situeer je zijn <strong>ambities mondiaal</strong>: wie overzee kolonies wil en een vloot bouwt, kijkt verder dan Europa."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ook de ligging zelf verklaart iets. <strong>De eerste industriële revolutie situeer je in de regio's met steenkool en ijzererts</strong>, want <strong>steenkool en ijzererts waren nodig voor stoom en staal</strong>; transport was duur, dus de industrie kwam naar de grondstof. Let er ten slotte op dat <strong>grenzen en namen veranderen</strong>: het gebied dat wij België noemen, heette in 1800 anders en lag in een ander staatsverband."
     },
     {
      "soort": "tekst",
@@ -51,23 +96,33 @@
    ]
   },
   {
-   "kop": "Continuïteit en verandering",
+   "kop": "De vier maatschappelijke domeinen",
    "blokken": [
     {
      "soort": "tekst",
-     "html": "<strong>Continuïteit</strong> is <strong>wat over een lange periode hetzelfde blijft</strong>; <strong>verandering</strong> is de breuk daarin. In één thema zie je altijd beide: de fabriek verandert het werk, en toch blijft het gezin lang de plaats waar geld en zorg verdeeld worden."
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Domein</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarover het gaat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het politieke domein</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bestuur, macht, wetten, oorlog</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een grondwet, een verkiezing</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het economische domein</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">handel, productie, grondstoffen, werk, geld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een fabriek, invoerrechten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het sociale domein</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">groepen, wonen, gezin, gezondheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kinderarbeid, een arbeiderswijk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het culturele domein</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">religie, kunst, taal, onderwijs, denken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kerk, een school, een roman</td></tr></table>"
     },
     {
      "soort": "tekst",
-     "html": "<strong>Een gebeurtenis</strong> duurt kort, <strong>een ontwikkeling</strong> duurt lang. De val van de Berlijnse Muur is een gebeurtenis, de verstedelijking is een ontwikkeling."
+     "html": "<strong>Kijk je naar handel, productie en werk, dan onderzoek je het economische domein</strong>; <strong>kijk je naar kunst, religie en onderwijs, dan het culturele domein</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je kan dezelfde gebeurtenis in meer dan één maatschappelijk domein situeren.</strong> <strong>Een wet die kinderarbeid verbiedt, situeer je in het sociale domein, want het raakt de arbeidersgezinnen, en in het politieke domein, want het is een beslissing van de staat.</strong> Dat de domeinen samenhangen is net de reden: een economische verandering, zoals de fabriek met haar werkomstandigheden, brengt sociale en politieke eisen mee, zoals de invoering van het algemeen enkelvoudig stemrecht. Een <strong>staking</strong> is economisch en sociaal, en vaak ook politiek."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Moet je een gebeurtenis situeren in tijd, ruimte en domein, dan lever je drie dingen af: wanneer, waar en op welk terrein het speelde.</strong> Geen beoordeling of het goed of slecht was, en geen lijst van alle aanwezigen: dat is iets anders dan situeren."
     }
    ]
   }
  ],
  "onthoud": [
-  "Het referentiekader = tijd, ruimte en de vier maatschappelijke domeinen.",
-  "Politiek, economisch, sociaal en cultureel: de meeste onderwerpen horen in meer dan één domein.",
-  "1789 ligt in de achttiende eeuw; een verschil tussen jaartallen trek je af.",
-  "Een anachronisme is iets uit een andere tijd op de verkeerde plaats zetten."
+  "Zeven periodes: prehistorie, oude nabije oosten, klassieke oudheid, middeleeuwen, vroegmoderne, moderne en hedendaagse tijd.",
+  "Een periodisering is een constructie achteraf, met symbolische data en een selectie van kenmerken.",
+  "Een scharnierpunt vormt de overgang tussen twee periodes; 1789 of 1815 en 1945 zijn er twee.",
+  "Tijd: continuïteit, evolutie, breuk, chronologie, tijdrekening, gelijktijdigheid. Ruimte: maritiem, continentaal, ruraal, mondiaal, westers.",
+  "Vier domeinen: politiek, economisch, sociaal en cultureel. De meeste onderwerpen horen in meer dan één.",
+  "Situeren = wanneer, waar en op welk terrein. Geen oordeel."
  ]
 }

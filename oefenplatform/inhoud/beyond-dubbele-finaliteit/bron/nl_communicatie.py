@@ -1,0 +1,398 @@
+# -*- coding: utf-8 -*-
+"""Het communicatiemodel en ruis — Nederlands, dubbele finaliteit.
+
+De fiche vraagt het communicatiemodel bij élke lees- en luisteropdracht:
+zender, boodschap, ontvanger, kanaal, context, doel, effect, interne en externe
+ruis. Deel 1: de begrippen. Deel 2: het model toepassen, met nepnieuws als
+voorbeeld uit de fiche zelf.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wie is de zender in het communicatiemodel?",
+        opties=[
+            "wie de boodschap maakt en verstuurt",
+            "wie de boodschap ontvangt en leest",
+            "het middel waarmee de boodschap reist",
+            "het doel dat de boodschap moet halen",
+        ],
+        antwoord=0,
+        uitleg="Bij een artikel is dat de schrijver of de redactie, bij een reclamespot het bedrijf erachter.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het kanaal in het communicatiemodel?",
+        opties=[
+            "het middel waarlangs de boodschap verspreid wordt",
+            "de persoon voor wie de boodschap bedoeld is",
+            "de bedoeling die de zender met de boodschap heeft",
+            "het gevoel dat de boodschap bij je oproept",
+        ],
+        antwoord=0,
+        uitleg="Een mail, een blog, de radio, een affiche, een gesprek aan tafel: elk kanaal heeft eigen gewoonten.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het effect in het communicatiemodel?",
+        opties=[
+            "wat de boodschap bij de ontvanger teweegbrengt",
+            "wat de zender met de boodschap wilde bereiken",
+            "de ruimte en de tijd waarin de boodschap valt",
+            "de taal waarin de boodschap geschreven is",
+        ],
+        antwoord=0,
+        uitleg="Doel en effect zijn niet hetzelfde: een campagne kan ergeren in plaats van overtuigen.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je alles wat de boodschap onderweg verstoort?",
+        antwoord=["ruis"],
+        uitleg="Ruis kan buiten je liggen, zoals lawaai, of in je hoofd, zoals vooroordelen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is externe ruis?",
+        opties=[
+            "een storing buiten de ontvanger, zoals lawaai of een slechte verbinding",
+            "een storing in de ontvanger, zoals moeheid of een vooroordeel",
+            "een boodschap die je bewust verdraait",
+            "een kanaal dat je niet kan gebruiken",
+        ],
+        antwoord=0,
+        uitleg="Een hakkelende videoverbinding of geroezemoes in de zaal: de boodschap komt vervormd aan.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is interne ruis?",
+        opties=[
+            "een storing in de ontvanger zelf, zoals moeheid of een vooroordeel",
+            "een storing buiten de ontvanger, zoals lawaai op straat",
+            "een fout in de spelling van de boodschap",
+            "een verkeerd gekozen kanaal van de zender",
+        ],
+        antwoord=0,
+        uitleg="Wie al beslist heeft wat hij gaat horen, hoort maar de helft. Honger, stress en haast werken even sterk.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Doel en effect van een boodschap vallen altijd samen.",
+        antwoord=False,
+        uitleg="De zender bepaalt het doel. Wat er bij jou gebeurt, is het effect, en dat kan het omgekeerde zijn.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Het communicatiemodel is bruikbaar bij elke lees- en luisteropdracht.",
+        antwoord=True,
+        uitleg="Zender, boodschap, ontvanger, kanaal, context, doel, effect en ruis: dat is je vaste eerste blik op een tekst.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De context van een boodschap is de tijd en de omstandigheden waarin ze valt.",
+        antwoord=True,
+        uitleg="Dezelfde zin kan in een verkiezingsweek iets anders betekenen dan twee jaar later.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke onderdelen horen bij het communicatiemodel?",
+        opties=[
+            "zender, boodschap en ontvanger",
+            "kanaal, context, doel en effect",
+            "inleiding, midden en slot",
+            "onderwerp, hoofdgedachte en hoofdpunten",
+        ],
+        antwoord=[0, 1],
+        uitleg="De twee laatste bestaan ook, maar ze horen bij de opbouw en bij de inhoud van een tekst.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom is het nuttig te weten voor wie een tekst bedoeld is?",
+        opties=[
+            "omdat de zender zijn taal en inhoud op dat publiek afstemt",
+            "omdat je anders de spelling van de tekst niet kan beoordelen",
+            "omdat een tekst zonder een eigen publiek helemaal niet bestaat",
+            "omdat het publiek de tekst in de praktijk mee geschreven heeft",
+        ],
+        antwoord=0,
+        uitleg="Een tekst voor vakmensen gebruikt jargon, een tekst voor kinderen korte zinnen. Dat verraadt ook de bedoeling.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een gesprek aan tafel heeft geen kanaal, want er zit geen toestel tussen.",
+        antwoord=False,
+        uitleg="Het kanaal is dan het gesproken woord van aangezicht tot aangezicht. Dat kanaal heeft zijn eigen voordelen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een bedrijf stuurt hetzelfde nieuws per mail naar het personeel en per persbericht naar de kranten. Wat verschilt?",
+        opties=[
+            "het kanaal en het publiek",
+            "enkel het doel van de boodschap",
+            "enkel de ruis in de boodschap",
+            "er verschilt niets wezenlijks",
+        ],
+        antwoord=0,
+        uitleg="En omdat publiek en kanaal verschillen, verschilt meestal ook de toon en wat er wel of niet in staat.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je in het communicatiemodel degene voor wie de boodschap bedoeld is?",
+        antwoord=["de ontvanger", "ontvanger"],
+        uitleg="Het publiek, de lezer, de luisteraar: in het model heet dat de ontvanger.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke vragen stel je bij het communicatiemodel?",
+        opties=[
+            "wie is de zender van de boodschap?",
+            "via welk kanaal wordt de boodschap verspreid?",
+            "hoeveel woorden bevat de boodschap?",
+            "in welke bibliotheek staat de tekst?",
+        ],
+        antwoord=[0, 1],
+        uitleg="Daarbij hoort ook: wat is het doel van de boodschap? De twee andere vragen leveren niets op.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Ruis kan de boodschap veranderen zonder dat de zender of de ontvanger het merkt.",
+        antwoord=True,
+        uitleg="Juist daarom is het een eigen onderdeel van het model: niemand bedoelde het, en toch komt iets anders aan.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Iemand leest een mail boos omdat hij de dag ervoor ruzie had met de afzender. Wat is dat?",
+        opties=[
+            "interne ruis",
+            "externe ruis",
+            "een verkeerd kanaal",
+            "een verkeerd doel",
+        ],
+        antwoord=0,
+        uitleg="De storing zit in de ontvanger. Dezelfde mail zou een week later misschien gewoon zakelijk klinken.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat kan het doel van een boodschap zijn?",
+        opties=[
+            "informeren, overtuigen, vermaken of aanzetten tot iets",
+            "enkel informeren, want dat is het enige wat taal eigenlijk doet",
+            "enkel verkopen, want elke tekst wordt door iemand betaald",
+            "het doel van een tekst staat per kanaal van tevoren vast",
+        ],
+        antwoord=0,
+        uitleg="Veel teksten mikken op meer dan één doel tegelijk, zoals een reportage die informeert en vermaakt.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Wie het kanaal van een bericht kent, weet daarmee ook wie de zender is.",
+        antwoord=False,
+        uitleg="Op sociale media is het kanaal duidelijk en de zender vaak juist niet. Dat is een belangrijk signaal.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom hoort de context bij het model?",
+        opties=[
+            "omdat dezelfde boodschap in een andere tijd anders begrepen wordt",
+            "omdat elke tekst een inleiding, een midden en een slot heeft",
+            "omdat de context de spelling en de leestekens van de tekst bepaalt",
+            "omdat de context de lengte van elke alinea van de tekst bepaalt",
+        ],
+        antwoord=0,
+        uitleg="Een oproep tot spaarzaamheid klinkt anders in een crisis dan in een periode van groei.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="Een bericht wordt enkel via sociale media verspreid en noemt geen auteur. Het wil je naar een site lokken met veel advertenties. Welke onderdelen van het model herken je?",
+        opties=[
+            "kanaal, zender en doel",
+            "enkel het kanaal en de ruis",
+            "enkel de ontvanger en het effect",
+            "enkel de context en de spelling",
+        ],
+        antwoord=0,
+        uitleg="Het kanaal verraadt het, de zender ontbreekt, en het doel zijn de bezoekers.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een school stuurt een brief over een uitstap naar de ouders. Wie is de ontvanger?",
+        opties=[
+            "de ouders",
+            "de leerlingen",
+            "de school",
+            "de busmaatschappij",
+        ],
+        antwoord=0,
+        uitleg="De school is de zender, de brief de boodschap, de ouders de ontvanger. De leerlingen zijn hier het onderwerp.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="In een reclamespot zijn het doel van de zender en het effect bij de kijker vaak niet hetzelfde.",
+        antwoord=True,
+        uitleg="Het doel is een aankoop. Het effect kan irritatie zijn, of een lied dat je niet meer uit je hoofd krijgt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je luistert naar een podcast in een drukke trein en mist de helft. Welk onderdeel speelt op?",
+        opties=[
+            "externe ruis",
+            "interne ruis",
+            "de context",
+            "het doel",
+        ],
+        antwoord=0,
+        uitleg="De storing komt van buiten. Had je slecht geslapen, dan was het interne ruis.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De zender van een tekst is altijd één persoon.",
+        antwoord=False,
+        uitleg="Een redactie, een bedrijf, een partij of een overheid kan de zender zijn.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke uitspraken over het kanaal kloppen?",
+        opties=[
+            "het kanaal bepaalt mee hoe formeel je schrijft",
+            "hetzelfde bericht kan via meer dan één kanaal gaan",
+            "het kanaal bepaalt of een bericht waar is",
+            "elk kanaal heeft precies één publiek",
+        ],
+        antwoord=[0, 1],
+        uitleg="In een mail aan een dienst schrijf je anders dan in een bericht aan een vriend, met dezelfde inhoud.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een gemeente plakt affiches over een wegomlegging. Wat is het doel?",
+        opties=[
+            "de bewoners informeren zodat ze hun weg aanpassen",
+            "de bewoners van iets overtuigen",
+            "de bewoners vermaken",
+            "de bewoners iets verkopen",
+        ],
+        antwoord=0,
+        uitleg="Informeren met het oog op een handeling. Dat hoort bij de prescriptieve kant van informatie.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een boodschap kan tegelijk informeren en overtuigen.",
+        antwoord=True,
+        uitleg="Een campagne over roken geeft cijfers én wil je gedrag veranderen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom lees je een tekst anders als je weet dat de zender een belang heeft?",
+        opties=[
+            "omdat je dan nagaat wat hij misschien niet vertelt",
+            "omdat elke zender met een belang liegt",
+            "omdat je de tekst dan niet meer mag gebruiken",
+            "omdat je de tekst dan sneller mag lezen",
+        ],
+        antwoord=0,
+        uitleg="Niet wantrouwen, wel aanvullen: je zoekt de andere kant van het verhaal erbij.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de storing die in de ontvanger zelf zit, zoals moeheid of een vooroordeel?",
+        antwoord=["interne ruis"],
+        uitleg="Ze is lastig te zien, want ze voelt als gewoon lezen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een mail met een lange, boze alinea in hoofdletters komt aan als een schreeuw. Wat is er gebeurd?",
+        opties=[
+            "de vorm heeft het effect veranderd",
+            "het kanaal is verkeerd gekozen",
+            "de zender is onbekend geworden",
+            "de context is weggevallen",
+        ],
+        antwoord=0,
+        uitleg="Hoofdletters worden online als schreeuwen gelezen. Ook dat is non-verbale communicatie.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Hetzelfde bericht kan bij twee ontvangers een ander effect hebben.",
+        antwoord=True,
+        uitleg="Voorkennis, belang en gemoed verschillen. Daarom staat het effect aan de kant van de ontvanger.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke uitspraken over nepnieuws en het communicatiemodel kloppen?",
+        opties=[
+            "de zender blijft bewust onbekend",
+            "het kanaal is meestal sociale media",
+            "het doel is de lezer correct informeren",
+            "de context doet er bij nepnieuws niet toe",
+        ],
+        antwoord=[0, 1],
+        uitleg="Geen auteur, verspreid via sociale media, met bezoekers en advertenties als doel.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een bedrijf kiest voor een korte video in plaats van een brief. Wat verandert er vooral?",
+        opties=[
+            "het kanaal, en daarmee de aandacht die het bericht krijgt",
+            "het doel, dat nu automatisch vermaken wordt",
+            "de ontvanger, die nu iemand anders is",
+            "de boodschap, die nu niet meer bestaat",
+        ],
+        antwoord=0,
+        uitleg="Kanaal en vorm bepalen mee of een boodschap gezien wordt, en hoeveel ervan blijft hangen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een zender kan het effect van zijn boodschap volledig voorspellen.",
+        antwoord=False,
+        uitleg="Hij kan het sturen met kanaal, toon en beeld, maar de ontvanger beslist wat er gebeurt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je krijgt een anonieme brief in de bus over een nieuw windpark. Wat zet je als eerste in je analyse?",
+        opties=[
+            "dat de zender onbekend is",
+            "dat het kanaal de post is",
+            "dat de brief over energie gaat",
+            "dat de brief geen spelfouten heeft",
+        ],
+        antwoord=0,
+        uitleg="Een onbekende zender bij een gevoelig onderwerp is het zwaarste gegeven: niemand is aanspreekbaar.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de bedoeling die de zender met zijn boodschap heeft?",
+        antwoord=["het doel", "doel"],
+        uitleg="Informeren, overtuigen, vermaken of aanzetten tot handelen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een leerkracht legt iets uit terwijl buiten een grasmachine draait. Welke onderdelen spelen mee?",
+        opties=[
+            "het kanaal en de externe ruis",
+            "het doel en de interne ruis",
+            "de context en de zender",
+            "het effect en de boodschap",
+        ],
+        antwoord=0,
+        uitleg="Het gesproken woord is het kanaal, het lawaai is externe ruis die dat kanaal stoort.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Wie het communicatiemodel toepast, heeft daarmee de tekst al samengevat.",
+        antwoord=False,
+        uitleg="Het model zegt wie wat met je wil. Voor de inhoud heb je onderwerp, hoofdgedachte en hoofdpunten nodig.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom staat het effect apart van het doel in het model?",
+        opties=[
+            "omdat het doel bij de zender hoort en het effect bij de ontvanger",
+            "omdat het doel later komt dan het effect",
+            "omdat enkel het effect gemeten kan worden",
+            "omdat het doel enkel bij reclame bestaat",
+        ],
+        antwoord=0,
+        uitleg="De scheiding maakt zichtbaar dat communicatie kan mislukken zonder dat iemand iets verkeerd deed.",
+    ),
+]

@@ -1,0 +1,81 @@
+{
+ "vak": "Nederlands",
+ "titel": "Tekstopbouw, alineaverbanden en vaste tekststructuren",
+ "onder": "De IMS-structuur, de verbanden tussen alinea's en de zeven vaste structuren.",
+ "secties": [
+  {
+   "kop": "Inleiding, midden en slot",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>IMS-structuur</strong> van een tekst staat voor <strong>inleiding, midden en slot</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Over de <strong>inleiding</strong> gelden twee dingen: <strong>ze kondigt het onderwerp aan</strong> en <strong>ze kan de aandacht van de lezer trekken</strong>. In de inleiding van een tekst wordt dus <strong>vaak het onderwerp aangekondigd</strong>. Over het <strong>slot</strong> ook twee: <strong>daar staat vaak het besluit</strong> van de schrijver, en <strong>daar wordt de hoofdgedachte vaak herhaald</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "In <strong>één alinea</strong> hoort volgens de afspraak <strong>één deelonderwerp van de tekst</strong>. Een nieuwe alinea geef je aan met een witregel of met een inspringing: <strong>in een gedrukte tekst mag dat dus ook met een inspringing en niet enkel met een witregel</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Tussentitels</strong> zijn de kopjes boven de delen van een tekst, die je helpen bij het overzicht. <strong>Alinea's en tussentitels verhogen je tekstbegrip</strong> <strong>omdat je per stuk weet waarover het gaat</strong>. Maar een <strong>tekst zonder tussentitels kan toch een duidelijke structuur hebben</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De verbanden tussen alinea's",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>alinea's van een tekst staan niet los van elkaar</strong>. Tussen twee alinea's zit een verband, en <strong>de gedachtegang van een tekst kan je reconstrueren uit de verbanden tussen de alinea's</strong>. Vaak voorkomende verbanden zijn <strong>chronologisch en oorzakelijk</strong>, en <strong>tegenstellend en vergelijkend</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verband</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe je het herkent</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Chronologisch</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de tijd loopt door</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">'Eerst kwam de brief. Een week later volgde de factuur.'</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Oorzakelijk</strong> of causaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de ene alinea geeft de oorzaak van de andere</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">'De prijzen stegen. Daardoor daalde de verkoop.'</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Tegenstellend</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee zaken staan tegenover elkaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">'In het noorden daalt de bevolking. In het zuiden stijgt ze juist.'</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Vergelijkend</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee zaken worden naast elkaar gelegd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">'Net als in Gent kiest ook Hasselt voor een lage snelheid.'</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Doel-middel</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er staat een doel en een middel om het te halen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">'Om de files te verminderen verlaagt de stad de parkeerplaatsen.'</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Voorwaardelijk</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het ene geldt alleen als het andere waar is</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">'Als de prijzen blijven stijgen, daalt de verkoop.'</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Opsommend</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">delen volgen elkaar zonder voorkeur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vier maatregelen na elkaar, zonder er een te verkiezen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Concluderend</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er wordt een besluit getrokken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">'Alles samen blijkt de maatregel te werken.'</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Voordelen-nadelen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de goede en de slechte kant van hetzelfde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eerst wat het oplevert, dan wat het kost</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Let op: een <strong>voordelen-nadelenverband is niet hetzelfde als een tegenstellend verband</strong>. Bij voordelen en nadelen gaat het over twee kanten van dezelfde zaak; bij een tegenstelling staan twee zaken tegenover elkaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>luistertekst bestaat er wel degelijk een alinea-indeling</strong>: een spreker maakt zijn delen hoorbaar met een pauze of een aankondiging, en dus bestaat ook daar het verband tussen de delen."
+    }
+   ]
+  },
+  {
+   "kop": "De zeven vaste tekststructuren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Naast de verbanden tussen alinea's bestaat er de <strong>vaste tekststructuur</strong>: vormen waarin een hele tekst gegoten wordt. Er zijn er zeven."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Structuur</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe ze loopt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">De <strong>probleemstructuur</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eerst het probleem, dan de oorzaken en de oplossingen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">De <strong>maatregelstructuur</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een maatregel wordt voorgesteld, uitgelegd en verdedigd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">De <strong>evaluatiestructuur</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets wordt aan criteria getoetst en beoordeeld</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">De <strong>onderzoeksstructuur</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vraag, methode, resultaten en besluit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">De <strong>argumentatiestructuur</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een stelling wordt met argumenten verdedigd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">De <strong>ontwikkelingsstructuur</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ze volgt een verloop in de tijd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">De <strong>vergelijkingsstructuur</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee zaken worden met dezelfde criteria naast elkaar gelegd</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Voorbeelden. Een tekst die beschrijft <strong>hoe een stad in honderd jaar van dorp tot stad groeide</strong>, heeft een <strong>ontwikkelingsstructuur</strong>. Een tekst die <strong>twee soorten verwarming naast elkaar zet met dezelfde vier criteria</strong>, heeft een <strong>vergelijkingsstructuur</strong>, en zo'n structuur <strong>vraagt dat je voor beide zaken dezelfde criteria gebruikt</strong>. Een <strong>recensie van een restaurant die eten, prijs, service en inrichting beoordeelt</strong>, is een <strong>evaluatiestructuur</strong>: zonder criteria is ze <strong>geen evaluatiestructuur meer</strong>. Een <strong>opiniestuk dat eerst drie argumenten voor en dan twee tegen geeft en daarna kiest</strong>, heeft een <strong>argumentatiestructuur</strong>. Een <strong>onderzoeksstructuur noemt ook de manier waarop iets onderzocht werd</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>tekst kan meer dan één vaste structuur gebruiken</strong>. Begint een artikel met 'Een op de vier jongeren slaapt te kort' en eindigt het met een voorstel om later te beginnen, dan herken je <strong>een probleemstructuur en een maatregelstructuur</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee dingen maken die structuren waardevol: <strong>ze helpen je de opbouw van een tekst sneller te zien</strong>, en <strong>je kan ze ook zelf gebruiken als je schrijft</strong>. Het is nuttig om de structuur te zien <strong>voor</strong> je grondig leest, want dan <strong>weet je waar je welke informatie mag verwachten</strong> en <strong>kan je je notities meteen in de juiste vorm zetten</strong>. De <strong>structuur van een tekst verraadt mee wat de bedoeling van de zender is.</strong>"
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "IMS: inleiding kondigt aan, midden werkt uit, slot besluit en herhaalt de hoofdgedachte.",
+  "Eén deelonderwerp per alinea; tussentitels helpen, maar zijn niet nodig voor structuur.",
+  "Alineaverbanden: chronologisch, oorzakelijk, tegenstellend, vergelijkend, doel-middel, voorwaardelijk, opsommend, concluderend, voordelen-nadelen.",
+  "Zeven vaste structuren: probleem, maatregel, evaluatie, onderzoek, argumentatie, ontwikkeling, vergelijking.",
+  "Eén tekst kan er meerdere combineren, en de structuur verraadt de bedoeling."
+ ]
+}

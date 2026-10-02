@@ -1,0 +1,392 @@
+# -*- coding: utf-8 -*-
+"""Morfologie: samenstellingen, afleidingen en werkwoordstijden — dubbele finaliteit.
+
+De fiche vraagt als ondersteunende kennis: woorden kunnen ontleden in hun delen
+(stam, voorvoegsel, achtervoegsel), het verschil tussen een samenstelling en een
+afleiding, de vorming van meervoud en verkleinwoord, en de werkwoordstijden met
+hun gebruik.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een samenstelling?",
+        opties=[
+            "een woord dat uit twee of meer zelfstandige woorden bestaat",
+            "een woord waaraan een voorvoegsel is toegevoegd",
+            "een woord dat uit een andere taal overgenomen is",
+            "een woord dat in het meervoud van vorm verandert",
+        ],
+        antwoord=0,
+        uitleg="Tuinstoel bestaat uit tuin en stoel. Beide delen kunnen ook alleen staan.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een afleiding?",
+        opties=[
+            "een woord met een voorvoegsel of een achtervoegsel erbij",
+            "een woord dat uit twee zelfstandige woorden bestaat",
+            "een woord dat in de verleden tijd staat",
+            "een woord met een trema of een accent erin",
+        ],
+        antwoord=0,
+        uitleg="Onvriendelijk is vriend plus on en lijk. Die delen kunnen niet alleen staan.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke woorden zijn samenstellingen?",
+        opties=[
+            "voetbalveld",
+            "boekenkast",
+            "ongeluk",
+            "vriendschap",
+        ],
+        antwoord=[0, 1],
+        uitleg="Ongeluk en vriendschap zijn afleidingen: on en schap kunnen niet alleen staan.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je een woorddeel dat vooraan een woord komt, zoals on in onvriendelijk?",
+        antwoord=["een voorvoegsel", "voorvoegsel", "prefix"],
+        uitleg="Achteraan heet het een achtervoegsel.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk deel van 'onbereikbaar' is het achtervoegsel?",
+        opties=[
+            "baar",
+            "on",
+            "bereik",
+            "er is geen achtervoegsel in dit woord",
+        ],
+        antwoord=0,
+        uitleg="On is het voorvoegsel, bereik de stam, baar het achtervoegsel.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat doet het achtervoegsel 'baar' met een woord?",
+        opties=[
+            "het maakt er een bijvoeglijk naamwoord van",
+            "het maakt er een meervoud van",
+            "het maakt er een werkwoord van",
+            "het maakt er een verkleinwoord van",
+        ],
+        antwoord=0,
+        uitleg="Bereiken is een werkwoord, bereikbaar een eigenschap.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Het laatste deel van een samenstelling bepaalt de woordsoort van het geheel.",
+        antwoord=True,
+        uitleg="Een voetbalveld is een veld. Een veldvoetbal zou een bal zijn.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een woord kan niet tegelijk een samenstelling en een afleiding bevatten.",
+        antwoord=False,
+        uitleg="Werkloosheid is werk plus loos plus heid: een afleiding op een samenstelling gebouwd.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een verkleinwoord is altijd kleiner dan het woord waar het van komt.",
+        antwoord=False,
+        uitleg="Een biertje is geen kleiner bier, en een momentje geen korter moment. Het is vaak een toon.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke uitgangen vormen een verkleinwoord in het Nederlands?",
+        opties=[
+            "je en tje",
+            "pje en kje",
+            "heid en schap",
+            "baar en loos",
+        ],
+        antwoord=[0, 1],
+        uitleg="Boompje, koninkje, huisje, autootje. Heid en schap maken abstracte naamwoorden.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe vormt het Nederlands meestal het meervoud?",
+        opties=[
+            "met en of met s",
+            "met en of met eren",
+            "met s of met is",
+            "met en of met ers",
+        ],
+        antwoord=0,
+        uitleg="Boeken en tafels. Een paar woorden hebben eren: kinderen, eieren.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Wat is het meervoud van 'kind'?",
+        antwoord=["kinderen"],
+        uitleg="Een van de weinige woorden met de uitgang eren.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke werkwoordstijd gebruik je voor iets dat nu gebeurt?",
+        opties=[
+            "de tegenwoordige tijd",
+            "de verleden tijd",
+            "het voltooid tegenwoordige deelwoord",
+            "de toekomende tijd",
+        ],
+        antwoord=0,
+        uitleg="Hij loopt. Dezelfde tijd kan ook een gewoonte of een algemene waarheid uitdrukken.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat drukt de voltooid tegenwoordige tijd uit?",
+        opties=[
+            "iets dat afgelopen is en nu nog gevolgen heeft",
+            "iets dat nu bezig is te gebeuren",
+            "iets dat in de toekomst zal gebeuren",
+            "iets dat nooit heeft plaatsgevonden",
+        ],
+        antwoord=0,
+        uitleg="'Hij heeft gegeten' zegt iets over nu: hij heeft geen honger meer.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de vorm 'gegeten' in 'hij heeft gegeten'?",
+        antwoord=["een deelwoord", "voltooid deelwoord", "deelwoord"],
+        uitleg="Samen met heeft of is vormt het de voltooide tijd.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Het Nederlands heeft geen eigen vorm voor de toekomende tijd.",
+        antwoord=True,
+        uitleg="Je gebruikt zullen plus de infinitief, of gewoon de tegenwoordige tijd: morgen ga ik.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom staat een verhaal vaak in de verleden tijd?",
+        opties=[
+            "omdat het verteld wordt als iets dat al gebeurd is",
+            "omdat de verleden tijd makkelijker te spellen is",
+            "omdat de tegenwoordige tijd niet in verhalen mag",
+            "omdat de verleden tijd kortere vormen heeft",
+        ],
+        antwoord=0,
+        uitleg="Veel moderne romans kiezen juist de tegenwoordige tijd, om dichter te komen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De stam van een werkwoord is hetzelfde als de infinitief.",
+        antwoord=False,
+        uitleg="De stam is de infinitief zonder uitgang: de stam van werken is werk. Daarop bouw je alle vormen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk woord is een afleiding van 'schrijven'?",
+        opties=[
+            "schrijver",
+            "schrijfmachine",
+            "briefschrijven",
+            "voorschrift",
+        ],
+        antwoord=0,
+        uitleg="Het achtervoegsel er maakt van de handeling een persoon. Schrijfmachine is een samenstelling.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Woorden ontleden in hun delen helpt bij het begrijpen van een onbekend woord.",
+        antwoord=True,
+        uitleg="Wie on en baar kent, raadt de betekenis van onbetaalbaar zonder woordenboek.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="Uit welke delen bestaat het woord 'werkloosheid'?",
+        opties=[
+            "werk, loos en heid",
+            "werk, los en heid",
+            "werkloos en id",
+            "wer, kloos en heid",
+        ],
+        antwoord=0,
+        uitleg="Werkloos is al een afleiding, en heid maakt er een toestand van.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat doet het achtervoegsel 'heid'?",
+        opties=[
+            "het maakt van een eigenschap een zelfstandig naamwoord",
+            "het maakt van een naamwoord een werkwoord",
+            "het maakt van een woord een verkleinwoord",
+            "het maakt van een woord een meervoud",
+        ],
+        antwoord=0,
+        uitleg="Vrij wordt vrijheid, waar wordt waarheid, snel wordt snelheid.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je een woorddeel dat achteraan een woord komt, zoals heid in vrijheid?",
+        antwoord=["een achtervoegsel", "achtervoegsel", "suffix"],
+        uitleg="Vooraan heet het een voorvoegsel.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke woorden zijn afleidingen?",
+        opties=[
+            "bakker",
+            "onmogelijk",
+            "keukentafel",
+            "spoorweg",
+        ],
+        antwoord=[0, 1],
+        uitleg="Keukentafel en spoorweg bestaan uit twee woorden die alleen kunnen staan.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat betekent het voorvoegsel 'her' in 'herlezen'?",
+        opties=[
+            "opnieuw",
+            "niet",
+            "veel",
+            "half",
+        ],
+        antwoord=0,
+        uitleg="Herbouwen, herhalen, herstarten: telkens opnieuw.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke betekenissen kan het voorvoegsel 'ver' hebben?",
+        opties=[
+            "een verandering van toestand, zoals in verven of vergroten",
+            "een verkeerde uitvoering, zoals in verslapen of verschrijven",
+            "een herhaling, zoals in verlezen of verzeggen",
+            "een ontkenning, zoals in vermogelijk of verwaar",
+        ],
+        antwoord=[0, 1],
+        uitleg="Verlezen en vermogelijk bestaan niet. Her betekent herhaling, on ontkenning.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Het Nederlands maakt makkelijk nieuwe samenstellingen aan.",
+        antwoord=True,
+        uitleg="Daarom staan veel samenstellingen niet in het woordenboek en zijn ze toch correct.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een samenstelling van drie woorden bestaat niet in het Nederlands.",
+        antwoord=False,
+        uitleg="Spoorwegovergang, basisschooldirecteur, arbeidsmarktbeleid. Ze kunnen heel lang worden.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De tussenletters in een samenstelling hangen af van het eerste deel.",
+        antwoord=True,
+        uitleg="Pannenkoek heeft en omdat pan een meervoud op en heeft.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke werkwoordstijd staat in 'hij had gegeten voor ik aankwam'?",
+        opties=[
+            "de voltooid verleden tijd",
+            "de voltooid tegenwoordige tijd",
+            "de verleden tijd",
+            "de toekomende tijd",
+        ],
+        antwoord=0,
+        uitleg="Ze zet iets vóór een ander moment in het verleden. Daarvoor is ze gemaakt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarvoor gebruik je de voltooid verleden tijd?",
+        opties=[
+            "voor iets dat gebeurde vóór een ander moment in het verleden",
+            "voor iets dat in de toekomst afgelopen zal zijn",
+            "voor iets dat nu nog aan het gebeuren is",
+            "voor iets dat elke dag opnieuw gebeurt",
+        ],
+        antwoord=0,
+        uitleg="Zonder die tijd kan je de orde van twee gebeurtenissen in het verleden niet aangeven.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de tijd in 'hij had gegeten'?",
+        antwoord=["voltooid verleden tijd", "de voltooid verledentijd", "voltooid verledentijd"],
+        uitleg="Ze zet iets vóór een ander moment in het verleden.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een sterk werkwoord?",
+        opties=[
+            "een werkwoord waarvan de klinker verandert in de verleden tijd",
+            "een werkwoord dat een krachtige handeling uitdrukt",
+            "een werkwoord dat altijd met zijn vervoegd wordt",
+            "een werkwoord dat geen deelwoord kan vormen",
+        ],
+        antwoord=0,
+        uitleg="Zingen wordt zong en gezongen. Werken blijft werkte en gewerkt: dat is zwak.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke werkwoorden zijn sterk vervoegd?",
+        opties=[
+            "lopen, want het wordt liep",
+            "breken, want het wordt brak",
+            "praten, want het wordt praatte",
+            "wandelen, want het wordt wandelde",
+        ],
+        antwoord=[0, 1],
+        uitleg="Bij een zwak werkwoord komt er alleen een uitgang bij. De klinker blijft dan dezelfde.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom vervoegt het Nederlands sommige werkwoorden met zijn en andere met hebben?",
+        opties=[
+            "omdat zijn bij een verandering van toestand of plaats hoort",
+            "omdat zijn bij korte werkwoorden hoort en hebben bij lange",
+            "omdat zijn bij sterke werkwoorden hoort en hebben bij zwakke",
+            "omdat zijn in Vlaanderen hoort en hebben in Nederland",
+        ],
+        antwoord=0,
+        uitleg="Hij is gevallen, hij is gegaan. Hij heeft gelezen, hij heeft gewerkt.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een onbekend woord kan je soms begrijpen door naar zijn delen te kijken.",
+        antwoord=True,
+        uitleg="Onherkenbaar is on plus herken plus baar. Drie delen en de betekenis staat er.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het verschil tussen 'een voetbalveld' en 'een veld voor voetbal'?",
+        opties=[
+            "het eerste is één woord, het tweede een woordgroep",
+            "het eerste is een afleiding, het tweede een samenstelling",
+            "het eerste is correct, het tweede is foutief Nederlands",
+            "er is geen verschil, beide schrijfwijzen gelden",
+        ],
+        antwoord=0,
+        uitleg="Een samenstelling is één begrip geworden. Daarom schrijf je ze aan elkaar.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een werkwoordsvorm heeft altijd een stam en een uitgang.",
+        antwoord=False,
+        uitleg="Bij ik werk staat de stam er alleen. Daar is geen uitgang bij.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je leest het woord 'onvervangbaar' voor het eerst. Hoe leid je de betekenis af?",
+        opties=[
+            "je splitst het in on, vervang en baar",
+            "je zoekt het woord op in de woordenlijst",
+            "je kijkt naar de woorden ernaast in de zin",
+            "je vergelijkt het met een woord uit het Engels",
+        ],
+        antwoord=0,
+        uitleg="Niet te vervangen. De delen zeggen het, nog voor je de zin leest.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Nieuwe woorden in het Nederlands zijn vrijwel altijd leenwoorden uit het Engels.",
+        antwoord=False,
+        uitleg="Veel nieuwe woorden zijn eigen samenstellingen of afleidingen, gemaakt met bestaande delen.",
+    ),
+]

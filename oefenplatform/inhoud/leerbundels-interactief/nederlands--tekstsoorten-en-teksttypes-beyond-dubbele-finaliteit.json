@@ -1,0 +1,73 @@
+{
+ "vak": "Nederlands",
+ "titel": "Tekstsoorten en teksttypes",
+ "onder": "Zeven soorten lees- en luisterteksten, en de vraag wat de zender met je wil.",
+ "secties": [
+  {
+   "kop": "De zeven soorten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Elke tekst die je leest of hoort, heeft een bedoeling. Naar die bedoeling deel je teksten in. Zeven soorten komen steeds terug."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeelden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Informatief</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geeft je informatie over een onderwerp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een interview in de krant, een stuk uit een leerboek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Persuasief</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">probeert je te overtuigen of te beïnvloeden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">reclame, propaganda, nepnieuws, een publireportage</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Opiniërend</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iemand geeft er zijn mening</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een hotelbeoordeling op een reissite, een productreview op een webwinkel, een protestlied</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Argumentatief</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">argumenten die een standpunt ondersteunen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een betoog, een debat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Prescriptief</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geeft je instructies over hoe je iets doet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een handleiding, een bijsluiter, een schoolreglement</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Narratief</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een narratieve tekst vertelt een verhaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een true crime podcast, een reisverslag</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Literair</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">heeft een esthetische waarde en speelt in op emoties</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kortverhaal, een strip, stand-upcomedy</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Nepnieuws is een voorbeeld van een persuasieve tekst</strong>: het wil je iets laten denken. Een <strong>interview in de krant is in de eerste plaats een informatieve tekst</strong>. Een <strong>strip kan net zo goed een literaire tekst zijn</strong>, en <strong>stand-upcomedy ook</strong>. Een <strong>debat is een argumentatieve tekstvorm</strong>. Een <strong>schoolreglement en veiligheidsvoorschriften in een bedrijf zijn beide prescriptieve teksten</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>protestlied hoort niet enkel bij de literaire teksten</strong>: het staat in de eerste plaats bij de <strong>opiniërende</strong> teksten, want iemand zegt er wat hij vindt. Als lied heeft het natuurlijk ook een esthetische kant."
+    }
+   ]
+  },
+  {
+   "kop": "Waarom je de soort bepaalt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vraag die je het best helpt om de soort te bepalen, is: <strong>wat wil de zender met deze tekst bereiken?</strong> Daarom is het nuttig te weten tot welke soort een tekst hoort: <strong>je weet dan wat de zender met je wil</strong>, en dus hoe kritisch je moet lezen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Soms leent een schrijver de vorm van een andere soort. Een <strong>publireportage</strong> ziet eruit als een artikel maar is <strong>betaald door een bedrijf</strong>: het is een <strong>persuasieve tekst</strong>. Waarom doet iemand dat? <strong>Omdat een neutraal uitziende tekst meer vertrouwen krijgt.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Zo lees je ook een <strong>campagne tegen te snel rijden die een zwaar ongeval toont</strong> als een <strong>persuasieve tekst</strong>, en een <strong>folder van een politieke partij met 'Genoeg is genoeg' in grote letters</strong> als een <strong>persuasieve kreet die een gevoel moet oproepen</strong>. Een <strong>reactie op een forum</strong> als 'Dit toestel ging bij mij na twee maanden stuk, koop het niet' is een <strong>opiniërende tekst</strong>. Een <strong>true crime podcast</strong> die een moordzaak van begin tot einde vertelt, is <strong>narratief</strong>. Een <strong>bijsluiter van een geneesmiddel</strong> die zegt hoeveel je mag innemen, is <strong>prescriptief</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Teksten die soorten combineren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Veel teksten combineren meer dan één bedoeling</strong>, en een <strong>tekst kan tegelijk informatief en opiniërend zijn</strong>. Je zoekt dan wat de belangrijkste bedoeling is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>recensie</strong> is het schoolvoorbeeld: <strong>ze kan zowel informatief als opiniërend zijn</strong>, want <strong>ze zegt zowel waarover iets gaat als wat de schrijver vindt</strong>. Een <strong>handleiding mag ook informatieve stukken bevatten</strong> en blijft dan prescriptief. Een <strong>gedicht dat het verhaal van een schipbreuk vertelt</strong>, is <strong>tegelijk literair en narratief</strong>. En een <strong>videoblogger die vertelt wat hem die dag overkwam en dan een merk aanraadt</strong>, laat zijn tekst <strong>van narratief naar persuasief verschuiven</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "De soort hangt af van de bedoeling, niet van het kanaal. Een <strong>reportage op televisie en een krantenartikel horen daarom niet per definitie tot een andere tekstsoort</strong>, ook al verschilt het kanaal."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>luistertekst gebruik je dezelfde indeling in soorten als bij een leestekst</strong>. En let op de taal: de <strong>teksten op je examen staan niet altijd in standaardtaal</strong>. Een <strong>tekst in dialect of jongerentaal kan er wel degelijk in voorkomen</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Zeven soorten: informatief, persuasief, opiniërend, argumentatief, prescriptief, narratief, literair.",
+  "De vraag die beslist: wat wil de zender met deze tekst bereiken?",
+  "Nepnieuws, reclame, propaganda en een publireportage zijn persuasief.",
+  "Veel teksten combineren soorten; een recensie is informatief én opiniërend.",
+  "Het kanaal bepaalt de soort niet, en teksten staan niet altijd in standaardtaal."
+ ]
+}

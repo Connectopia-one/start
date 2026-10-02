@@ -1,0 +1,94 @@
+{
+ "vak": "Nederlands",
+ "titel": "Bronnen beoordelen: betrouwbaarheid, nepnieuws en framing",
+ "onder": "Een lijst vragen bij elke bron, en wat framing met een waar bericht doet.",
+ "secties": [
+  {
+   "kop": "De criteria, vraag per vraag",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Voor je een tekst gebruikt, loop je een vaste lijst vragen af. Ze gaan over twee dingen: is dit juist, en wat wil de zender?"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Criterium</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarom het telt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Wordt de auteur vermeld?</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">anders weet je niet wie voor de inhoud verantwoordelijk is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Wie publiceert het artikel?</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">welke organisatie of site de tekst naar buiten brengt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Welke bronnen worden in de tekst gebruikt?</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dan kan je nagaan waarop de uitspraken steunen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Is het ook in andere betrouwbare bronnen te vinden?</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één losse bron kan zich vergissen of liegen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Van wanneer is het bericht?</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een cijfer van vijf jaar oud is niet voor elke vraag bruikbaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Feiten of meningen?</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dat bepaalt hoe je de tekst mag gebruiken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Wat is de bedoeling van de zender?</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat hij met de tekst bij jou wil bereiken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Is er sprake van framing?</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de invalshoek stuurt je, ook zonder onwaarheid</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee van die vragen gaan niet over de juistheid maar over de bedoeling: <strong>is het bericht reclame, nepnieuws of propaganda?</strong> en <strong>is de titel neutraal of dient hij om clicks te krijgen?</strong> Een <strong>titel die vooral moet aanzetten tot klikken, is een reden om kritisch verder te lezen</strong>. Zo'n titel heet <strong>clickbait</strong>, of een <strong>clickbaittitel</strong>: ze is er om mensen te laten doorklikken."
+    },
+    {
+     "soort": "kader",
+     "html": "Een <strong>website die er professioneel uitziet, is daarom niet betrouwbaar</strong>: een goede vormgeving is goedkoop. En een <strong>grafiek in een bericht maakt dat bericht niet automatisch betrouwbaar</strong>. Ook <strong>hoeveel volgers de zender heeft</strong> zegt niets: volgers zijn te koop."
+    }
+   ]
+  },
+  {
+   "kop": "Nepnieuws, reclame en propaganda",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Nepnieuws</strong> of <strong>fake news</strong> zijn <strong>berichten die bewust onwaar zijn en toch als nieuws worden verspreid</strong>. Welke signalen samen daarop wijzen: <strong>geen auteur en geen bronvermelding</strong>, en <strong>enkel verspreid via sociale media, met een schreeuwende titel</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>verschil tussen reclame en propaganda</strong>: <strong>reclame wil je iets laten kopen, propaganda iets laten denken</strong>. Een <strong>publireportage</strong> is een bericht dat eruitziet als een artikel maar door een bedrijf betaald is. Een <strong>influencer die betaald wordt om positief te zijn over een spel, maakt daarmee wél reclame</strong>, ook al klinkt het als een mening. Een <strong>reclamespot met een man in een witte jas</strong> die het product aanraadt, gebruikt een <strong>techniek</strong>: <strong>een beroep op gezag dat hier niet bewezen is</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Praktische regels. Duikt een bericht <strong>alleen op sociale media</strong> op en nergens anders, dan <strong>zoek je eerst of een onafhankelijke bron het ook meldt</strong>. Melden <strong>twee sites hetzelfde maar verwijst de tweede naar de eerste</strong>, dan heb je <strong>één bron, want de tweede voegt niets toe</strong>. De beste manier om een <strong>opvallende bewering te controleren</strong> is <strong>de oorspronkelijke bron van de bewering opzoeken</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zegt een bericht '<strong>Wetenschappers bewijzen dat chocolade slank maakt</strong>', dan valt als eerste op dat <strong>er niet gezegd wordt welke wetenschappers of welk onderzoek</strong>. En noemt een site zich '<strong>onafhankelijk nieuwsplatform</strong>' zonder ergens een auteur of redactie te vermelden, dan besluit je: <strong>de naam zegt niets, het ontbreken van een redactie wel iets</strong>. Let wel: een <strong>bericht zonder vermelde auteur is daarmee niet bewezen onwaar</strong>. Het is een reden om verder te kijken, geen vonnis."
+    }
+   ]
+  },
+  {
+   "kop": "Framing",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Framing</strong> is <strong>het bewust kiezen van een invalshoek, waardoor je iets in een bepaald licht ziet</strong>. Het bijzondere eraan: <strong>framing kan werken zonder dat er iets onwaar is</strong>, en <strong>de woordkeuze van een bericht is al een vorm van framing</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Schrijft de ene krant '<strong>de regering besliste</strong>' en de andere '<strong>de regering drukte door</strong>', dan is dat <strong>framing door woordkeuze</strong>. Dezelfde beslissing, een ander beeld. <strong>Framing kan ook ontstaan door iets juist niet te vermelden</strong>: wat je weglaat, bestaat voor de lezer niet. Daarom kan <strong>een tekst die enkel feiten bevat, toch een eenzijdig beeld geven</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Er is nog een verschijnsel: het <strong>herhalingseffect</strong>. Een bericht lijkt betrouwbaar <strong>omdat je het al vaak zag</strong>, niet omdat het beter onderbouwd is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Over de bedoeling van de zender gelden twee dingen: <strong>dezelfde feiten kunnen met verschillende bedoelingen gebracht worden</strong>, en <strong>de bedoeling bepaalt hoe kritisch je moet lezen</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Bruikbaar voor jouw doel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Of een bron bruikbaar is, hangt mee af van het doel waarvoor jij ze nodig hebt.</strong> Een tekst met <strong>vooral meningen kan nog altijd nuttig zijn voor je opdracht</strong>, en je mag zelfs <strong>een onbetrouwbare tekst gebruiken als bron over wat de zender wil laten geloven</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>folder van een bank die uitlegt hoe sparen werkt</strong> is bruikbaar <strong>voor de uitleg, met in gedachten dat de bank wil verkopen</strong>. Een <strong>tekst van een belangenorganisatie is dus niet per definitie onbruikbaar</strong>. Maar verkoopt een <strong>site over gezondheid onderaan elke pagina dezelfde pillen</strong>, dan besluit je dat <strong>de informatie mee dient om die pillen te verkopen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De datum doet mee. Zoek je de <strong>huidige prijs van een treinticket</strong> en vind je een artikel uit 2019, dan <strong>zoek je verder, want dat cijfer is verouderd</strong>. Bij het beoordelen van een <strong>luistertekst gelden dezelfde criteria als bij een leestekst</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Vast rijtje: auteur, uitgever, gebruikte bronnen, elders te vinden, datum, feiten of meningen, bedoeling.",
+  "Nepnieuws: geen auteur, geen bronnen, enkel sociale media, schreeuwende titel. Clickbait is een waarschuwing.",
+  "Reclame wil je laten kopen, propaganda laten denken; een publireportage is betaald.",
+  "Framing werkt zonder onwaarheid, door woordkeuze en door weglaten; herhaling maakt niet waar.",
+  "Bruikbaar hangt af van jouw doel; zelfs een gekleurde bron zegt iets over haar zender."
+ ]
+}

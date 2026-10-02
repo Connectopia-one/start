@@ -1,0 +1,398 @@
+# -*- coding: utf-8 -*-
+"""Taalvarieteiten, registers en beleefdheid — dubbele finaliteit.
+
+De fiche vraagt: standaardtaal, tussentaal, dialect en jongerentaal herkennen;
+het register kiezen dat bij de situatie past; weten wat formeel en informeel
+taalgebruik onderscheidt; beleefdheidsvormen gebruiken; en de rol van de
+gesprekspartner en het doel in die keuze meewegen.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat is standaardtaal?",
+        opties=[
+            "de taalvorm die overal in het taalgebied begrepen wordt",
+            "de taalvorm die alleen op de radio gebruikt wordt",
+            "de taalvorm die het langst in gebruik is gebleven",
+            "de taalvorm die het meeste woorden telt van allemaal",
+        ],
+        antwoord=0,
+        uitleg="Ze wordt op school geleerd en in officiele teksten gebruikt. Niemand spreekt ze de hele dag.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een dialect?",
+        opties=[
+            "de taalvariant van een bepaalde streek",
+            "de taalvariant van een bepaalde leeftijdsgroep",
+            "de taalvariant die enkel in geschreven teksten voorkomt",
+            "de taalvariant die het meest op het Duits lijkt",
+        ],
+        antwoord=0,
+        uitleg="Het heeft zijn eigen klanken, woorden en soms zijn eigen grammatica.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is tussentaal?",
+        opties=[
+            "een taalvorm tussen het dialect en de standaardtaal in",
+            "een taalvorm die uit twee talen samengesteld is",
+            "een taalvorm die alleen in het buitenland gebruikt wordt",
+            "een taalvorm die enkel in ondertitels voorkomt",
+        ],
+        antwoord=0,
+        uitleg="Veel Vlamingen spreken ze in een gesprek met iemand die ze niet goed kennen.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de taalvariant van een bepaalde streek?",
+        antwoord=["een dialect", "dialect", "streektaal"],
+        uitleg="Tussentaal zit tussen het dialect en de standaardtaal in.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een register in taalgebruik?",
+        opties=[
+            "de toon en woordkeuze die bij een situatie passen",
+            "de lijst met woorden achteraan in een boek",
+            "de volgorde waarin je je argumenten brengt",
+            "de spelling die in een bepaald land geldt",
+        ],
+        antwoord=0,
+        uitleg="Met je vrienden spreek je anders dan in een sollicitatiegesprek, met dezelfde taal.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke kenmerken horen bij formeel taalgebruik?",
+        opties=[
+            "volledige zinnen en standaardtaal",
+            "u of een beroepstitel om iemand aan te spreken",
+            "afkortingen en emoji in de tekst",
+            "woorden uit het dialect van de streek",
+        ],
+        antwoord=[0, 1],
+        uitleg="Ook: geen spreektaalwendingen en geen woorden die enkel in een vriendengroep gelden.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Je register kiezen hoort bij taalvaardigheid, niet bij hoffelijkheid alleen.",
+        antwoord=True,
+        uitleg="Wie in elke situatie dezelfde toon gebruikt, mist de helft van wat taal kan.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Wie dialect spreekt, beheerst de standaardtaal minder goed.",
+        antwoord=False,
+        uitleg="Veel mensen beheersen beide en schakelen vlot. Dat is een voordeel, geen tekort.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Jongerentaal verandert sneller dan de standaardtaal.",
+        antwoord=True,
+        uitleg="Woorden komen en gaan in een paar jaar. Dat is net de bedoeling: ze markeren een groep.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je schrijft een mail naar een bedrijf waar je nooit eerder mee sprak. Welk register kies je?",
+        opties=[
+            "formeel, met u en volledige zinnen",
+            "informeel, met jij en korte zinnen",
+            "in tussentaal, zoals je zou spreken",
+            "in jongerentaal, om op te vallen",
+        ],
+        antwoord=0,
+        uitleg="Bij een onbekende begin je formeel. Wordt het informeel, dan laat de ander dat merken.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke middelen maken een vraag beleefder?",
+        opties=[
+            "de vraag als vraag stellen in plaats van als bevel",
+            "een woordje als misschien of eventueel toevoegen",
+            "de vraag in het dialect van de streek stellen",
+            "de vraag in hoofdletters zetten voor de nadruk",
+        ],
+        antwoord=[0, 1],
+        uitleg="'Zou je dit kunnen nakijken?' klinkt anders dan 'Kijk dit na.'",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het verschil tussen u en jij?",
+        opties=[
+            "u houdt afstand, jij veronderstelt nabijheid",
+            "u is correcter Nederlands dan jij",
+            "u wordt alleen in Nederland gebruikt",
+            "u hoort enkel in gesproken taal thuis",
+        ],
+        antwoord=0,
+        uitleg="Beide zijn correct. Welke past, hangt af van wie je voor je hebt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat betekent code switching in een gesprek?",
+        opties=[
+            "wisselen van taalvariant of taal binnen één gesprek",
+            "een woord uitleggen dat de ander niet kent",
+            "een gesprek afbreken en later hervatten",
+            "een boodschap in geheimschrift doorgeven",
+        ],
+        antwoord=0,
+        uitleg="Iemand spreekt dialect met zijn ouders en tussentaal op het werk, soms in dezelfde kamer.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de toon en woordkeuze die bij een bepaalde situatie passen?",
+        antwoord=["het register", "register"],
+        uitleg="Formeel of informeel is de grofste indeling ervan.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een leerling schrijft in een sollicitatiemail 'hey, heb je nog werk?'. Wat is het probleem?",
+        opties=[
+            "het register past niet bij de situatie",
+            "de zin bevat een spelfout tegen de regels",
+            "de zin is te lang voor een mail",
+            "de zin bevat geen enkel argument",
+        ],
+        antwoord=0,
+        uitleg="Niets is fout gespeld. Het is de toon die de deur sluit.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een tekst in te formele taal kan ook storen.",
+        antwoord=True,
+        uitleg="Een bericht aan je ploegmaats in ambtelijke taal leest als een grap of als afstand.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke factoren bepalen welk register je kiest?",
+        opties=[
+            "wie je gesprekspartner is en hoe goed je die kent",
+            "wat je met je boodschap wil bereiken",
+            "hoeveel woorden je boodschap mag hebben",
+            "welk lettertype je voor je tekst gebruikt",
+        ],
+        antwoord=[0, 1],
+        uitleg="Ook de plaats en het moment doen mee: een mondeling verzoek in een gang is iets anders dan een brief.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="In een chatbericht aan een vriend hoor je dezelfde regels te volgen als in een mail aan een school.",
+        antwoord=False,
+        uitleg="Het medium en de ontvanger bepalen samen wat kan. Beide hebben hun eigen regels.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is jargon?",
+        opties=[
+            "de vaktaal van een bepaalde beroepsgroep",
+            "de taal van jongeren onderling",
+            "de taal van een bepaalde streek",
+            "de taal van officiele documenten",
+        ],
+        antwoord=0,
+        uitleg="Onder vakgenoten is het precies en snel. Tegenover een leek sluit het buiten.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Elke taalvariant is in elke situatie even geschikt.",
+        antwoord=False,
+        uitleg="Dialect op de speelplaats werkt. Dialect in een examenantwoord werkt niet.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="Een arts legt een diagnose uit aan een patiënt. Wat doet ze het best met haar jargon?",
+        opties=[
+            "ze gebruikt gewone woorden en noemt de vakterm erbij",
+            "ze gebruikt enkel vaktermen, want die zijn preciezer",
+            "ze vermijdt elke vakterm en laat hem volledig weg",
+            "ze schrijft de vaktermen op en laat de patiënt opzoeken",
+        ],
+        antwoord=0,
+        uitleg="De patiënt begrijpt het en kan het woord later terugvinden in een verslag.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het risico van jargon in een tekst voor een breed publiek?",
+        opties=[
+            "de lezer die de termen niet kent, valt af",
+            "de tekst wordt langer dan nodig",
+            "de tekst krijgt te weinig signaalwoorden",
+            "de spelling van de tekst wordt onzeker",
+        ],
+        antwoord=0,
+        uitleg="Jargon kan ook gebruikt worden om indruk te maken. Dan sluit het bewust uit.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de vaktaal van een bepaalde beroepsgroep?",
+        antwoord=["jargon", "vaktaal"],
+        uitleg="Onder vakgenoten werkt het, tegenover een leek sluit het buiten.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke keuzes maken een tekst informeler?",
+        opties=[
+            "jij in plaats van u gebruiken",
+            "korte zinnen en spreektaalwendingen toelaten",
+            "de alinea's genummerd weergeven",
+            "de bronnen achteraan de tekst zetten",
+        ],
+        antwoord=[0, 1],
+        uitleg="Informeel is niet slordig. Het is een andere toon, met evenveel zorg.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je spreekt op een vergadering met mensen die je niet kent. Hoe begin je?",
+        opties=[
+            "in standaardtaal, en je stemt af op wat de anderen doen",
+            "in tussentaal, want dat spreekt iedereen toch",
+            "in dialect, zodat je natuurlijk overkomt",
+            "in jargon, zodat je vakkennis meteen blijkt",
+        ],
+        antwoord=0,
+        uitleg="Standaardtaal is de veilige start. Daarna kan je nog altijd naar beneden bijstellen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Beleefdheid zit niet alleen in woorden, maar ook in toon en houding.",
+        antwoord=True,
+        uitleg="'Alsjeblieft' met een zucht erachter is geen beleefdheid meer.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een vraag indirect stellen is altijd beleefder dan een vraag rechtstreeks stellen.",
+        antwoord=False,
+        uitleg="Te veel omhaal kan onduidelijk of zelfs ontwijkend overkomen. De situatie beslist.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Standaardtaal is in Vlaanderen en Nederland op elk punt identiek.",
+        antwoord=False,
+        uitleg="Er zijn verschillen in woorden en in uitspraak, en ze zijn beide standaardtaal.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat doe je als je gesprekspartner plots van u naar jij overschakelt?",
+        opties=[
+            "je volgt, want hij geeft daarmee een signaal",
+            "je blijft u gebruiken, want dat is correcter",
+            "je vraagt hem waarom hij van vorm verandert",
+            "je beëindigt het gesprek zo snel mogelijk",
+        ],
+        antwoord=0,
+        uitleg="Het aanspreken afstemmen hoort bij een gesprek. De ander opende de deur.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke uitspraken over taalvarieteiten kloppen?",
+        opties=[
+            "een dialect heeft zijn eigen klanken en woorden",
+            "iemand kan meerdere varieteiten vlot beheersen",
+            "tussentaal is een gebrekkige vorm van dialect",
+            "jongerentaal blijft decennia lang hetzelfde",
+        ],
+        antwoord=[0, 1],
+        uitleg="Tussentaal zit tussen dialect en standaardtaal, en jongerentaal verandert juist heel snel.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom gebruiken mensen soms bewust dialect in een gesprek?",
+        opties=[
+            "om te laten zien dat ze bij dezelfde groep horen",
+            "om de standaardtaal niet te hoeven gebruiken",
+            "om sneller te kunnen spreken dan anders",
+            "om hun boodschap korter te kunnen maken",
+        ],
+        antwoord=0,
+        uitleg="Taal is ook een teken van verbondenheid, niet enkel een middel om iets over te brengen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een gemeente herschrijft haar brieven in heldere taal. Wat verandert er?",
+        opties=[
+            "de inwoner begrijpt meteen wat van hem gevraagd wordt",
+            "de brief wordt juridisch minder geldig dan voorheen",
+            "de brief wordt daardoor altijd langer dan hij was",
+            "de gemeente moet elke brief twee keer versturen",
+        ],
+        antwoord=0,
+        uitleg="Ambtelijke taal is geen voorwaarde om officieel te zijn. Vaak is het een gewoonte.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je het wisselen van taalvariant of taal binnen één gesprek?",
+        antwoord=["code switching", "codewisseling", "code-switching"],
+        uitleg="Veel mensen doen het zonder erbij na te denken.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je krijgt een mail die begint met 'Geachte heer of mevrouw'. Wat zegt dat?",
+        opties=[
+            "de afzender kent je naam niet en houdt het formeel",
+            "de afzender vindt het onderwerp niet belangrijk",
+            "de afzender is ouder dan de gemiddelde schrijver",
+            "de afzender verwacht geen antwoord van je",
+        ],
+        antwoord=0,
+        uitleg="Het is de standaardopening wanneer de naam onbekend is.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat hoort bij een beleefde weigering?",
+        opties=[
+            "de weigering uitspreken en er een reden bij geven",
+            "niet antwoorden en het verzoek laten liggen",
+            "antwoorden met een vraag over iets anders",
+            "verwijzen naar iemand anders zonder iets te zeggen",
+        ],
+        antwoord=0,
+        uitleg="Duidelijkheid is een vorm van hoffelijkheid. Ontwijken is dat niet.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een tekst kan correct gespeld zijn en toch in het verkeerde register staan.",
+        antwoord=True,
+        uitleg="Spelling en register zijn twee verschillende dingen. Beide kunnen een tekst doen mislukken.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke middelen houden een moeilijke boodschap toch hoffelijk?",
+        opties=[
+            "eerst zeggen wat je begrijpt van de andere kant",
+            "de boodschap zelf duidelijk en zonder omhaal brengen",
+            "de boodschap verstoppen in een lange inleiding",
+            "de boodschap door iemand anders laten doorgeven",
+        ],
+        antwoord=[0, 1],
+        uitleg="Zacht in de vorm, helder in de inhoud. Dat is de hele kunst.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Wie goed wil spreken, moet zijn dialect afleren.",
+        antwoord=False,
+        uitleg="Je voegt de standaardtaal toe aan wat je al kan. Afleren is verlies, niet winst.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een bedrijf schrijft zijn klanten aan met 'jij' in plaats van 'u'. Wat is de bedoeling?",
+        opties=[
+            "het wil dichter en toegankelijker overkomen",
+            "het wil juridisch minder gebonden zijn",
+            "het wil zijn brieven korter kunnen maken",
+            "het wil enkel jonge klanten aanspreken",
+        ],
+        antwoord=0,
+        uitleg="Niet elke klant waardeert het. Daarom is het een keuze met een risico.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Het medium waarin je schrijft, beïnvloedt het register dat je kiest.",
+        antwoord=True,
+        uitleg="Een chatbericht, een mail en een brief vragen elk een andere toon, ook bij dezelfde ontvanger.",
+    ),
+]

@@ -1,0 +1,386 @@
+# -*- coding: utf-8 -*-
+"""Onderwerp, hoofdgedachte en hoofdpunten — Nederlands, dubbele finaliteit.
+
+Naast de vakfiche van het receptieve examen geschreven, waar dit het eerste
+leerdoel is. Deel 1: onderwerp, hoofdgedachte en hoofdpunten uit elkaar houden.
+Deel 2: relevante informatie uit een of meer teksten selecteren, en het
+verschil tussen samenvatten en overschrijven.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het onderwerp van een tekst?",
+        opties=[
+            "waarover de tekst gaat, in één of enkele woorden",
+            "de belangrijkste boodschap, uitgedrukt in een hele zin",
+            "alles wat de schrijver aan voorbeelden en cijfers geeft",
+            "de mening die de schrijver op het einde formuleert",
+        ],
+        antwoord=0,
+        uitleg="Het onderwerp is kort: videogames, de huurprijzen, slapen. Eén of enkele woorden volstaan.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is de hoofdgedachte van een tekst?",
+        opties=[
+            "de belangrijkste boodschap, in één zin",
+            "het woord dat het vaakst in de tekst voorkomt",
+            "de titel die de redactie boven de tekst zette",
+            "het aantal alinea's waaruit de tekst bestaat",
+        ],
+        antwoord=0,
+        uitleg="De hoofdgedachte zegt in een zin wat de schrijver over het onderwerp beweert, bijvoorbeeld: dit is een van de slechtste games van het jaar.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat zijn de hoofdpunten van een tekst?",
+        opties=[
+            "de inhoudelijke elementen die de hoofdgedachte ondersteunen",
+            "de woorden die de schrijver vet of cursief heeft gezet",
+            "de eerste en de laatste zin van elke alinea van de tekst",
+            "de meningen van de mensen die in de tekst geciteerd worden",
+        ],
+        antwoord=0,
+        uitleg="De hoofdpunten dragen de hoofdgedachte. Bij een negatieve gamerecensie: het spel is een mix van genres, het is niet origineel, de makers pleegden plagiaat.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de belangrijkste boodschap van een tekst, uitgedrukt in één zin?",
+        antwoord=["de hoofdgedachte", "hoofdgedachte"],
+        uitleg="Het onderwerp is waarover het gaat, de hoofdgedachte is wat erover gezegd wordt.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Het onderwerp en de hoofdgedachte van een tekst zijn hetzelfde.",
+        antwoord=False,
+        uitleg="Het onderwerp is waarover het gaat, in enkele woorden. De hoofdgedachte is wat de schrijver daarover beweert, in een zin.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een tekst gaat over videogames. Welke van deze formuleringen is een hoofdgedachte en geen onderwerp?",
+        opties=[
+            "dit spel is een van de slechtste van het jaar",
+            "de nieuwste videogames van deze zomer",
+            "videogames en hun makers in Vlaanderen",
+            "het genre van de hedendaagse videogames",
+        ],
+        antwoord=0,
+        uitleg="Alleen de eerste is een zin die iets beweert. De drie andere noemen enkel waarover het gaat.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je leest: 'Het spel is een mix van genres. Het spel is niet origineel. De makers pleegden plagiaat.' Wat zijn die drie zinnen samen?",
+        opties=[
+            "de hoofdpunten van de tekst",
+            "de hoofdgedachte van de tekst",
+            "het onderwerp van de tekst",
+            "de conclusie van de schrijver",
+        ],
+        antwoord=0,
+        uitleg="Het zijn de elementen die samen de hoofdgedachte ondersteunen, dus de hoofdpunten.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waar staat de hoofdgedachte van een goed gestructureerde tekst meestal?",
+        opties=[
+            "in de inleiding of in het slot",
+            "altijd in de laatste zin van de tekst",
+            "verspreid over alle alinea's samen",
+            "nooit in de tekst zelf, enkel in de titel",
+        ],
+        antwoord=0,
+        uitleg="Veel schrijvers kondigen hun boodschap in de inleiding aan en herhalen ze in het besluit. Dat is een hulp, geen wet.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een tekst kan maar één onderwerp hebben, maar wel verschillende hoofdpunten.",
+        antwoord=True,
+        uitleg="Het onderwerp is waarover het geheel gaat. Elke alinea voegt daar een hoofdpunt aan toe.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een titel geeft altijd de hoofdgedachte van een tekst weer.",
+        antwoord=False,
+        uitleg="Een titel moet vaak vooral aandacht trekken. Soms verraadt hij de boodschap zelfs bewust niet.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke vragen helpen je om de hoofdgedachte te vinden?",
+        opties=[
+            "wat wil de schrijver dat ik hierover denk?",
+            "wat zou ik iemand zeggen die de tekst niet las?",
+            "hoeveel alinea's heeft de schrijver gebruikt?",
+            "hoeveel bronnen staan er onderaan vermeld?",
+        ],
+        antwoord=[0, 1],
+        uitleg="Beide vragen dwingen je tot één zin met een bewering. Het aantal alinea's of bronnen zegt niets over de boodschap.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een artikel heet 'Wonen in de stad wordt onbetaalbaar'. Welke uitspraken kloppen?",
+        opties=[
+            "het onderwerp is de huurprijzen in de stad",
+            "de titel geeft hier wel de hoofdgedachte weer",
+            "de titel is enkel bedoeld om clicks te krijgen",
+            "het onderwerp is in deze titel niet te vinden",
+        ],
+        antwoord=[0, 1],
+        uitleg="De titel bevat zowel waarover het gaat als wat erover beweerd wordt. Dat gebeurt, maar niet altijd.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je, in één of enkele woorden, waarover een tekst gaat?",
+        antwoord=["het onderwerp", "onderwerp"],
+        uitleg="Bijvoorbeeld: videogames, de huurmarkt, slaaptekort bij jongeren.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke uitspraken over hoofdpunten kloppen?",
+        opties=[
+            "ze ondersteunen de hoofdgedachte",
+            "je vindt er vaak één per alinea",
+            "ze staan altijd in de inleiding",
+            "ze zijn samen even lang als de tekst",
+        ],
+        antwoord=[0, 1],
+        uitleg="Een goed opgebouwde tekst behandelt per alinea één deelonderwerp, en dat levert je de hoofdpunten.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Bij een luistertekst zoek je hetzelfde als bij een leestekst: onderwerp, hoofdgedachte en hoofdpunten.",
+        antwoord=True,
+        uitleg="Alleen het kanaal verschilt. Je kan een luistertekst niet terugbladeren, dus noteer je meteen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je hoort een reportage over slaaptekort bij jongeren. De reporter besluit dat scholen later moeten beginnen. Wat is dat besluit?",
+        opties=[
+            "de hoofdgedachte van de reportage",
+            "het onderwerp van de reportage",
+            "een hoofdpunt uit de reportage",
+            "een stukje relevante informatie",
+        ],
+        antwoord=0,
+        uitleg="Het onderwerp is slaaptekort. De boodschap, in een zin, is dat scholen later moeten beginnen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Wie het onderwerp van een tekst kent, kent daarmee ook de hoofdpunten.",
+        antwoord=False,
+        uitleg="Het onderwerp zegt enkel waarover het gaat. De hoofdpunten moet je uit de tekst zelf halen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een tekst heeft de tussentitels 'Te duur', 'Te klein' en 'Te ver'. Wat leveren die je?",
+        opties=[
+            "de drie hoofdpunten in één oogopslag",
+            "de hoofdgedachte van de hele tekst",
+            "het besluit dat de schrijver trekt",
+            "de bronnen waarop de tekst steunt",
+        ],
+        antwoord=0,
+        uitleg="Tussentitels benoemen het deelonderwerp van elk stuk. Daarmee heb je de hoofdpunten al bijna.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een hoofdgedachte formuleer je het best als een volledige zin.",
+        antwoord=True,
+        uitleg="Pas in een zin kan je iets beweren. Enkele losse woorden geven alleen het onderwerp.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de inhoudelijke elementen die samen de hoofdgedachte dragen?",
+        antwoord=["de hoofdpunten", "hoofdpunten"],
+        uitleg="Ze staan meestal verspreid over de alinea's, één per deelonderwerp.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat betekent 'relevante informatie selecteren'?",
+        opties=[
+            "uit de tekst halen wat je voor je opdracht nodig hebt",
+            "alles overschrijven wat in de tekst staat",
+            "enkel de cijfers en de namen noteren",
+            "de tekst in je eigen woorden navertellen",
+        ],
+        antwoord=0,
+        uitleg="Wat relevant is, hangt af van je vraag. Dezelfde tekst levert bij een andere vraag andere informatie.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Wat relevante informatie is, hangt af van de vraag die je moet beantwoorden.",
+        antwoord=True,
+        uitleg="Zonder opdracht kan je niet beslissen wat je nodig hebt. Daarom lees je de vraag eerst.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je moet uit twee artikels de openingsuren van een museum halen. Wat doe je?",
+        opties=[
+            "je zoekt in beide teksten enkel naar die uren",
+            "je leest beide teksten eerst woord voor woord",
+            "je vat beide teksten eerst volledig samen",
+            "je kiest het langste artikel en leest dat",
+        ],
+        antwoord=0,
+        uitleg="Zoekend lezen heet scannen: je gaat met je oog over de tekst tot je het soort informatie vindt dat je zoekt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een samenvatting?",
+        opties=[
+            "de hoofdgedachte en de hoofdpunten in eigen woorden",
+            "de eerste zin van elke alinea achter elkaar",
+            "de hele tekst, maar met kleinere letters",
+            "een lijst van alle namen en cijfers uit de tekst",
+        ],
+        antwoord=0,
+        uitleg="Samenvatten is herformuleren. Wie zinnen uit de tekst overneemt, bewijst niet dat hij ze begrijpt.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="In een goede samenvatting staan ook de voorbeelden en de details uit de tekst.",
+        antwoord=False,
+        uitleg="Voorbeelden en details zijn bijzaken. Een samenvatting houdt de hoofdgedachte en de hoofdpunten over.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke uitspraken over notities nemen kloppen?",
+        opties=[
+            "je notities sluiten aan bij de inhoud van de tekst",
+            "afkortingen, symbolen en telegramstijl mogen",
+            "je schrijft de tekst woord voor woord mee",
+            "notities zijn enkel nuttig bij een leestekst",
+        ],
+        antwoord=[0, 1],
+        uitleg="Notities moeten later nog bruikbaar zijn voor jou: duidelijk genoeg om een samenvatting te maken of een vraag te beantwoorden.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="In welke vorm kan je notities bij een instructiefilmpje zetten?",
+        opties=[
+            "in een schema, een tabel of een mindmap",
+            "enkel in volle zinnen onder elkaar",
+            "enkel als letterlijke citaten uit het filmpje",
+            "enkel in de vorm van een samenvatting",
+        ],
+        antwoord=0,
+        uitleg="De vorm mag je zelf kiezen. Een schema of een mindmap laat de samenhang beter zien dan een rij zinnen.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de manier van lezen waarbij je snel over een tekst gaat tot je vindt wat je zoekt?",
+        antwoord=["scannen", "zoekend lezen"],
+        uitleg="Scannen gebruik je voor een adres, een uur of een cijfer. Voor de hoofdgedachte lees je de tekst wél door.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Bij een luistertekst neem je het best notities terwijl je luistert.",
+        antwoord=True,
+        uitleg="Je kan niet terugspoelen. Wie wacht tot het einde, is het grootste deel al vergeten.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Twee artikels over hetzelfde onderwerp geven verschillende cijfers. Wat doe je?",
+        opties=[
+            "je kijkt van wanneer elk cijfer is en van wie",
+            "je neemt altijd het hoogste van de twee cijfers",
+            "je laat de cijfers weg uit je antwoord",
+            "je neemt het cijfer uit de langste tekst",
+        ],
+        antwoord=0,
+        uitleg="Een ouder cijfer of een cijfer van een partij met een belang weegt anders. Datum en bron beslissen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een samenvatting mag langer zijn dan de tekst zelf.",
+        antwoord=False,
+        uitleg="Samenvatten is korter maken. Loopt je samenvatting even lang, dan heb je overgeschreven.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je moet in één zin zeggen wat een podcast van twintig minuten je vertelde. Wat geef je dan?",
+        opties=[
+            "de hoofdgedachte",
+            "het onderwerp",
+            "alle hoofdpunten",
+            "de eerste zin",
+        ],
+        antwoord=0,
+        uitleg="Eén zin met een bewering erin, dat is de hoofdgedachte. Het onderwerp zou maar enkele woorden zijn.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke uitspraken over het selecteren uit meerdere teksten kloppen?",
+        opties=[
+            "je mag informatie uit verschillende teksten combineren",
+            "je vermeldt uit welke tekst je iets haalt",
+            "je mag enkel uit de eerste tekst citeren",
+            "teksten die elkaar tegenspreken laat je allebei vallen",
+        ],
+        antwoord=[0, 1],
+        uitleg="Combineren is net de bedoeling. Spreken twee teksten elkaar tegen, dan meld je dat in plaats van het weg te laten.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je een korte weergave van een tekst in je eigen woorden?",
+        antwoord=["een samenvatting", "samenvatting"],
+        uitleg="Ze bevat de hoofdgedachte en de hoofdpunten, zonder de voorbeelden.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Notities met afkortingen en symbolen zijn even bruikbaar als notities in volle zinnen.",
+        antwoord=True,
+        uitleg="Dat mag gerust. De enige eis is dat jij ze achteraf nog kan lezen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een tekst over elektrische auto's noemt de prijs, het bereik en de laadtijd. Je opdracht gaat over de kostprijs. Wat is relevant?",
+        opties=[
+            "de prijs en wat het laden kost",
+            "alle drie, want ze staan in de tekst",
+            "enkel het bereik van de auto",
+            "enkel de laadtijd in minuten",
+        ],
+        antwoord=0,
+        uitleg="Relevantie volgt uit je opdracht. Bereik en laadtijd zijn interessant, maar niet voor deze vraag.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Wie goed samenvat, gebruikt zo veel mogelijk zinnen uit de oorspronkelijke tekst.",
+        antwoord=False,
+        uitleg="Dat is overschrijven. Herformuleren toont dat je de tekst begrepen hebt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarvoor gebruik je je notities achteraf?",
+        opties=[
+            "om een samenvatting te maken of een vraag te beantwoorden",
+            "om te bewijzen dat je de tekst gelezen hebt",
+            "om de tekst letterlijk te kunnen herhalen",
+            "om de schrijver van de tekst te beoordelen",
+        ],
+        antwoord=0,
+        uitleg="Je notities moeten duidelijk genoeg zijn om ze daarna nog te kunnen gebruiken.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Je mag bij een opdracht informatie uit meer dan één tekst door elkaar gebruiken.",
+        antwoord=True,
+        uitleg="Dat is precies de bedoeling: uit één of meerdere teksten de relevante informatie halen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het verschil tussen een hoofdpunt en een detail?",
+        opties=[
+            "een hoofdpunt draagt de boodschap, een detail vult aan",
+            "een hoofdpunt staat vooraan, een detail achteraan",
+            "een hoofdpunt is een cijfer, een detail een naam",
+            "er is geen verschil, het zijn twee woorden voor hetzelfde",
+        ],
+        antwoord=0,
+        uitleg="Laat je een hoofdpunt weg, dan valt de boodschap uiteen. Laat je een detail weg, dan blijft ze staan.",
+    ),
+]
