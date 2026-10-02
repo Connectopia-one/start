@@ -2,11 +2,11 @@
 """De leerbundels voor natuurwetenschappen op 🌍 Beyond-niveau.
 
 Gebaseerd op de vakfiche natuurwetenschappen van de 3de graad
-doorstroomfinaliteit, geldig vanaf 1 januari 2027. Die ene fiche geldt voor
-bedrijfswetenschappen, economie-wiskunde, humane wetenschappen, Latijn-wiskunde
-met extra wetenschappen, welzijnswetenschappen en wiskunde-wetenschappen, dus
-voor vijf van de zes doorstroomrichtingen. De richting wetenschappen-wiskunde
-heeft aparte fiches voor biologie, chemie en fysica.
+doorstroomfinaliteit, geldig vanaf 1 januari 2027. Die fiche noemt bovenaan
+zelf vijf studierichtingen: moderne talen, humane wetenschappen, Latijn-moderne
+talen, economie-wiskunde en bedrijfswetenschappen. De richtingen
+wetenschappen-wiskunde en Latijn-wiskunde met extra wetenschappen hebben in de
+plaats hiervan drie aparte fiches biologie, chemie en fysica.
 
 Eén bundel per thema, niet per deel: deel 1 en deel 2 van hetzelfde thema
 behandelen dezelfde leerstof, alleen met andere vragen. Kim uploadt de bundel
