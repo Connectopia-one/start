@@ -1,0 +1,73 @@
+{
+ "vak": "Geschiedenis",
+ "titel": "Het historisch referentiekader: tijd, ruimte en domeinen",
+ "onder": "Het gereedschap van het vak: perioden, plaatsen en de vier maatschappelijke domeinen.",
+ "secties": [
+  {
+   "kop": "De tijd indelen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>historisch referentiekader</strong> is <strong>het geheel van tijd, ruimte en maatschappelijke domeinen waarmee je een gebeurtenis plaatst</strong>. Je gebruikt het bij elk thema: wanneer, waar, en in welk domein van de samenleving."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Periode</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Loopt van</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Tot</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">De prehistorie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het ontstaan van de mens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het eerste schrift</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">De oudheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het eerste schrift</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 500 na Christus</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">De middeleeuwen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 500</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 1500</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">De moderne tijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 1500</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1789, de Franse Revolutie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">De hedendaagse tijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1789</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vandaag</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Die grenzen zijn <strong>door historici gekozen en dus bespreekbaar</strong>. Een <strong>eeuw</strong> loopt niet gelijk met haar getal: <strong>het jaar 1789 ligt in de achttiende eeuw</strong>. Een <strong>decennium</strong> is tien jaar, een <strong>millennium</strong> duizend jaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een verschil tussen twee jaartallen bereken je door af te trekken</strong>: van 1830 tot 1914 liggen <strong>vierentachtig jaar</strong>. Let op met jaartallen voor Christus: die lopen aflopend."
+    }
+   ]
+  },
+  {
+   "kop": "De vier maatschappelijke domeinen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Domein</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarover het gaat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het politieke domein</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bestuur, macht, wetten, oorlog</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een grondwet, een verkiezing</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het economische domein</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">productie, handel, arbeid, geld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een fabriek, invoerrechten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het sociale domein</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">groepen, wonen, gezin, gezondheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kinderarbeid, een arbeiderswijk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Het culturele domein</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geloof, kunst, taal, onderwijs, denken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kerk, een school, een roman</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De meeste gebeurtenissen horen <strong>in meer dan één domein</strong> tegelijk. <strong>Een wet die kinderarbeid verbiedt, situeer je in het sociale en in het politieke domein</strong>: ze is gestemd door een parlement en ze raakt het leven van gezinnen. Een <strong>staking</strong> is economisch en sociaal, en vaak ook politiek."
+    }
+   ]
+  },
+  {
+   "kop": "De ruimte",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Plaatsen horen bij een gebeurtenis</strong>: je situeert ze op een kaart, en je let erop dat <strong>grenzen en namen veranderen</strong>. Het gebied dat wij België noemen, heette in 1800 anders en lag in een ander staatsverband."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>anachronisme</strong> is <strong>iets uit een andere tijd in een verkeerde tijd plaatsen</strong>. Spreken over de Belgen in de Romeinse tijd zoals wij het woord nu gebruiken, is er een voorbeeld van."
+    }
+   ]
+  },
+  {
+   "kop": "Continuïteit en verandering",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Continuïteit</strong> is <strong>wat over een lange periode hetzelfde blijft</strong>; <strong>verandering</strong> is de breuk daarin. In één thema zie je altijd beide: de fabriek verandert het werk, en toch blijft het gezin lang de plaats waar geld en zorg verdeeld worden."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een gebeurtenis</strong> duurt kort, <strong>een ontwikkeling</strong> duurt lang. De val van de Berlijnse Muur is een gebeurtenis, de verstedelijking is een ontwikkeling."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Het referentiekader = tijd, ruimte en de vier maatschappelijke domeinen.",
+  "Politiek, economisch, sociaal en cultureel: de meeste onderwerpen horen in meer dan één domein.",
+  "1789 ligt in de achttiende eeuw; een verschil tussen jaartallen trek je af.",
+  "Een anachronisme is iets uit een andere tijd op de verkeerde plaats zetten."
+ ]
+}

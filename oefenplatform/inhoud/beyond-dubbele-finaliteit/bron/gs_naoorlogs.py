@@ -1,0 +1,406 @@
+# -*- coding: utf-8 -*-
+"""België na 1945: breuklijnen, federale staat en emancipatie.
+
+Uit de leerinhoud over de samenlevingen in de hedendaagse tijd: het eigen land na
+de Tweede Wereldoorlog, met de drie breuklijnen, de weg naar de federale staat,
+de welvaartsgroei en de emancipatie van vrouwen en minderheden.
+
+Deel 1 gaat over de breuklijnen en de staatshervormingen. Deel 2 gaat over de
+welvaart, het werk en de emancipatie tot vandaag.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Welke drie breuklijnen verdeelden de Belgische politiek na 1945?",
+        opties=[
+            "de breuklijn tussen gelovigen en vrijzinnigen",
+            "de breuklijn tussen arbeid en kapitaal",
+            "de breuklijn tussen stad en platteland",
+            "de breuklijn tussen jong en oud",
+        ],
+        antwoord=[0, 1],
+        uitleg="De derde is de communautaire breuklijn, tussen Nederlandstaligen en Franstaligen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarover ging de koningskwestie na de Tweede Wereldoorlog?",
+        opties=[
+            "over de houding van Leopold III tijdens de bezetting",
+            "over de vraag of België nog een koning nodig had",
+            "over de taal die de koning moest gebruiken",
+            "over het bezit van de koning in Congo",
+        ],
+        antwoord=0,
+        uitleg="Na een volksraadpleging en zware onrust deed hij in 1951 troonsafstand ten gunste van zijn zoon.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe eindigde de koningskwestie?",
+        opties=[
+            "Leopold III deed in 1951 troonsafstand",
+            "Leopold III bleef tot zijn dood koning",
+            "België werd een republiek zonder koning",
+            "de Verenigde Naties beslisten over de troon",
+        ],
+        antwoord=0,
+        uitleg="Zijn zoon Boudewijn volgde hem op en bleef meer dan veertig jaar koning.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarover ging de schoolstrijd van de jaren vijftig?",
+        opties=[
+            "over het geld voor het katholieke onderwijs",
+            "over de taal waarin er lesgegeven moest worden",
+            "over de leeftijd waarop de schoolplicht eindigde",
+            "over de inrichting van het hoger onderwijs",
+        ],
+        antwoord=0,
+        uitleg="Het Schoolpact van 1958 maakte er een einde aan: de vrijheid van onderwijs met geld van de staat erbij.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Welk pact beëindigde in 1958 de schoolstrijd?",
+        antwoord=["het Schoolpact", "Schoolpact", "schoolpact"],
+        uitleg="Sindsdien betaalt de overheid ook het vrije onderwijs, met afspraken over programma's en diploma's.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat werd in 1962 en 1963 met de taalwetten geregeld?",
+        opties=[
+            "de taalgrens werd vastgelegd",
+            "het Frans werd de enige bestuurstaal van heel het land",
+            "iedere gemeente mocht haar eigen bestuurstaal kiezen",
+            "het Nederlands werd in Wallonië verplicht gemaakt",
+        ],
+        antwoord=0,
+        uitleg="Ook de bestuurstaal per gebied werd toen bepaald. Over Voeren en de Brusselse rand is nog lang getwist.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarover ging de strijd om Leuven Vlaams in 1968?",
+        opties=[
+            "over het Franstalige deel van de universiteit",
+            "over het geld van de staat voor de universiteiten",
+            "over het Nederlands in de scholen van Brussel",
+            "over de taalgrens tussen Leuven en Brussel",
+        ],
+        antwoord=0,
+        uitleg="Het Franstalige deel verhuisde naar Louvain-la-Neuve. De regering van die tijd viel erover.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke twee soorten deelstaten kent de Belgische federale staat?",
+        opties=[
+            "de gemeenschappen, bevoegd voor taal, cultuur en onderwijs",
+            "de gewesten, bevoegd voor grondgebied en economie",
+            "de provincies, bevoegd voor justitie en defensie",
+            "de gemeenten, bevoegd voor de sociale zekerheid",
+        ],
+        antwoord=[0, 1],
+        uitleg="Er zijn er drie van elk. Dat België zo twee reeksen deelstaten heeft, is uitzonderlijk.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoeveel staatshervormingen waren er nodig voor België een federale staat werd?",
+        opties=[
+            "vier, tussen 1970 en 1993",
+            "één, in 1970",
+            "twee, in 1980 en 1988",
+            "zeven, tussen 1945 en 1960",
+        ],
+        antwoord=0,
+        uitleg="Pas in 1993 kwam in artikel 1 van de grondwet te staan dat België een federale staat is.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="In welk jaar werd in de grondwet geschreven dat België een federale staat is?",
+        antwoord=["1993"],
+        uitleg="Daarna volgden nog twee staatshervormingen, in 2001 en in de jaren 2011 tot 2014.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke bevoegdheden zijn in België naar de deelstaten overgegaan?",
+        opties=[
+            "het onderwijs en de cultuur",
+            "het leefmilieu en de economie van een gewest",
+            "de defensie en het buitenlands beleid",
+            "de munt en de rentevoet van het land",
+        ],
+        antwoord=[0, 1],
+        uitleg="Defensie en justitie bleven federaal, en de munt is zelfs Europees geworden.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom heeft Brussel in de Belgische staat een bijzondere plaats?",
+        opties=[
+            "het is tweetalig en hoort bij twee gemeenschappen",
+            "het is eentalig Frans en hoort bij geen gemeenschap",
+            "het is eentalig Nederlands en vormt een eigen gewest",
+            "het staat volledig onder het bestuur van Europa",
+        ],
+        antwoord=0,
+        uitleg="Het is een eigen gewest, en zowel de Vlaamse als de Franse Gemeenschap zijn er bevoegd.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="België is sinds 1993 in zijn grondwet een federale staat.",
+        antwoord=True,
+        uitleg="De weg daarnaartoe is in 1970 begonnen en is met kleine stappen afgelegd.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De taalgrens in België ligt sinds 1962 vast.",
+        antwoord=True,
+        uitleg="Er werden toen ook gemeenten overgeheveld. Over Voeren en de Brusselse rand is nog lang getwist.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De schoolstrijd ging over de taal van het onderwijs.",
+        antwoord=False,
+        uitleg="Ze ging over het geld van de staat voor de katholieke scholen, dus over de godsdienstige breuklijn.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De gemeenschappen in België zijn bevoegd voor cultuur en onderwijs.",
+        antwoord=True,
+        uitleg="De gewesten gaan over het gebied: economie, leefmilieu, mobiliteit en werk.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Leopold III is na de oorlog tot zijn dood koning van België gebleven.",
+        antwoord=False,
+        uitleg="Hij deed in 1951 troonsafstand. Zijn zoon Boudewijn volgde hem op.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De verzuiling van België staat volledig los van de drie breuklijnen.",
+        antwoord=False,
+        uitleg="Rond elke strekking groeiden juist eigen scholen, ziekenfondsen, vakbonden en verenigingen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je ziet een affiche uit 1968 met de leuze Leuven Vlaams. Waar hoort die bij?",
+        opties=[
+            "bij de communautaire breuklijn",
+            "bij de sociale breuklijn",
+            "bij de godsdienstige breuklijn",
+            "bij de koningskwestie",
+        ],
+        antwoord=0,
+        uitleg="Het ging over taal en over gebied. Dat is de breuklijn tussen Nederlandstaligen en Franstaligen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk verband zie je tussen de breuklijnen en de staatshervormingen?",
+        opties=[
+            "de communautaire breuklijn dreef de hervormingen vooruit",
+            "de godsdienstige breuklijn dreef de hervormingen vooruit",
+            "de breuklijnen hebben met de hervormingen niets te maken",
+            "de hervormingen hebben de breuklijnen volledig weggenomen",
+        ],
+        antwoord=0,
+        uitleg="Elke hervorming was een antwoord op een communautaire spanning, en zelden het einde ervan.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat werd met het sociaal pact van 1944 in België afgesproken?",
+        opties=[
+            "een stelsel van sociale zekerheid met overleg",
+            "een verbod op stakingen en op vakbonden in het hele land",
+            "een vaste loonsverhoging van tien procent per jaar",
+            "een afschaffing van alle belastingen op arbeid",
+        ],
+        antwoord=0,
+        uitleg="Werkgevers en vakbonden aan één tafel. Het stelsel van pensioen, kinderbijslag, ziekte en werkloosheid dateert daarvan.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarvoor staat de wereldtentoonstelling van 1958 in Brussel?",
+        opties=[
+            "voor het geloof in de vooruitgang na de oorlog",
+            "voor het begin van de crisis in de industrie",
+            "voor het einde van de Belgische kolonie Congo",
+            "voor de eerste staatshervorming van het land",
+        ],
+        antwoord=0,
+        uitleg="Het Atomium is er nog van over. Het atoom gold toen als het symbool van een betere toekomst.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat kenmerkte de jaren vijftig en zestig in België?",
+        opties=[
+            "een sterke groei van de welvaart en van het verbruik",
+            "een crisis met massale werkloosheid in alle sectoren",
+            "een daling van de lonen in de hele industrie",
+            "een einde van de sociale zekerheid van het land",
+        ],
+        antwoord=0,
+        uitleg="Auto, koelkast, televisie en vakantie kwamen in die jaren bij gewone gezinnen binnen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat gebeurde er met de steenkoolmijnen in België?",
+        opties=[
+            "ze sloten één na één, de laatste in de jaren negentig",
+            "ze bleven tot vandaag open en leveren nog steenkool",
+            "ze werden door de staat genationaliseerd en uitgebreid",
+            "ze werden in de jaren vijftig allemaal tegelijk gesloten",
+        ],
+        antwoord=0,
+        uitleg="De Waalse mijnen sloten eerst, de Limburgse later. Zolder was in 1992 de laatste.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke gevolgen had de economische crisis van de jaren zeventig voor België?",
+        opties=[
+            "de werkloosheid steeg sterk",
+            "de zware industrie in Wallonië ging achteruit",
+            "de welvaart groeide sneller dan ooit",
+            "alle sociale zekerheid werd afgeschaft",
+        ],
+        antwoord=[0, 1],
+        uitleg="Het economische zwaartepunt van het land is in die jaren naar Vlaanderen verschoven.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="In welk jaar mochten de Belgische vrouwen voor het eerst voor het parlement stemmen?",
+        antwoord=["1948"],
+        uitleg="Voor de gemeente mochten ze al vanaf 1920. Hun eerste stem voor de Kamer kwam dus pas na de oorlog.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarvoor staakten de vrouwen van de wapenfabriek in Herstal in 1966?",
+        opties=[
+            "voor gelijk loon voor gelijk werk",
+            "voor het stemrecht voor vrouwen",
+            "voor een eigen vakbond voor vrouwen",
+            "voor het recht om te mogen werken",
+        ],
+        antwoord=0,
+        uitleg="Die staking van drie maanden heeft de gelijke beloning in België en in Europa op de agenda gezet.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke veranderingen horen bij de emancipatie van de vrouw in België?",
+        opties=[
+            "gelijkheid van man en vrouw in het huwelijksrecht",
+            "het recht op informatie over voorbehoedsmiddelen",
+            "het verbod voor vrouwen om buitenshuis te werken",
+            "de verplichting voor vrouwen om thuis te blijven",
+        ],
+        antwoord=[0, 1],
+        uitleg="Tot in de jaren zeventig had de man wettelijk nog het laatste woord in een huwelijk.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat gebeurde er in 1990 in België met abortus?",
+        opties=[
+            "het werd onder voorwaarden uit het strafrecht gehaald",
+            "het werd voor het eerst volledig strafbaar gemaakt",
+            "het werd in de grondwet als een recht ingeschreven",
+            "het werd door de koning volledig verboden",
+        ],
+        antwoord=0,
+        uitleg="De koning raakte toen in gewetensnood. Hij werd daarom één dag onbekwaam verklaard om te regeren.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat besliste België in 2003?",
+        opties=[
+            "koppels van hetzelfde geslacht mochten huwen",
+            "het huwelijk werd voor iedereen afgeschaft",
+            "de scheiding werd uit de wet gehaald",
+            "de adoptie werd voor iedereen verboden",
+        ],
+        antwoord=0,
+        uitleg="België was daarmee het tweede land ter wereld. Adoptie volgde enkele jaren later.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="In welk jaar stelde België het huwelijk open voor koppels van hetzelfde geslacht?",
+        antwoord=["2003"],
+        uitleg="Nederland was het eerste land, België het tweede. Adoptie volgde in 2006.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat betekent ontzuiling in de Belgische samenleving?",
+        opties=[
+            "de greep van de zuilen nam af",
+            "de zuilen namen de hele samenleving over",
+            "de kerk kreeg opnieuw meer invloed dan vroeger",
+            "elke zuil kreeg een eigen gewest in het land",
+        ],
+        antwoord=0,
+        uitleg="Men kiest zijn ziekenfonds, zijn school en zijn vereniging niet meer vanzelf binnen één strekking.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat kenmerkte mei 1968 en de jaren erna in West-Europa?",
+        opties=[
+            "jongeren betwistten het gezag van school en kerk",
+            "jongeren eisten de terugkeer naar de oude orde",
+            "jongeren vroegen om een strenger onderwijs",
+            "jongeren verlieten de steden voor het platteland",
+        ],
+        antwoord=0,
+        uitleg="Het ging over seksualiteit, over gezag, over oorlog en over de inrichting van de universiteit.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De sociale zekerheid van België gaat terug op een pact uit 1944.",
+        antwoord=True,
+        uitleg="Werkgevers en vakbonden hebben dat tijdens de bezetting in het geheim voorbereid.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De Belgische vrouwen hadden al voor de Eerste Wereldoorlog stemrecht voor het parlement.",
+        antwoord=False,
+        uitleg="Zij kregen dat pas in 1948, dertig jaar na de mannen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De steenkoolmijnen van Limburg sloten later dan die van Wallonië.",
+        antwoord=True,
+        uitleg="De Kempense mijnen waren jonger. Zolder sloot in 1992 als laatste.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De welvaartsgroei van de jaren zestig ging in België samen met meer vrije tijd.",
+        antwoord=True,
+        uitleg="Betaalde vakantie en een kortere werkweek maakten reizen en uitstappen gewoon.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De emancipatiewetten in België zijn allemaal in de negentiende eeuw gestemd.",
+        antwoord=False,
+        uitleg="De meeste zijn van na 1960, en sommige van na 2000.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je vergelijkt een Belgisch gezin van 1950 met een gezin van 2020. Welk verschil valt op?",
+        opties=[
+            "veel meer vrouwen werken buitenshuis",
+            "de gezinnen van nu zijn groter dan die van 1950",
+            "de kerk speelt in het dagelijks leven een grotere rol dan toen",
+            "er is minder vrije tijd en geen betaalde vakantie",
+        ],
+        antwoord=0,
+        uitleg="Ook de gezinsvormen zijn veelzijdiger geworden. Zulke vergelijkingen horen bij dit vak: kenmerken naast elkaar zetten.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk verband zie je tussen de drie breuklijnen en de politiek van vandaag?",
+        opties=[
+            "de communautaire breuklijn weegt nog, de godsdienstige minder",
+            "de drie breuklijnen zijn alle drie volledig verdwenen",
+            "de godsdienstige breuklijn is de belangrijkste gebleven",
+            "er is sinds 1945 geen enkele nieuwe breuklijn bijgekomen",
+        ],
+        antwoord=0,
+        uitleg="Er kwamen ook nieuwe strijdpunten bij, over migratie, over leefmilieu en over Europa.",
+    ),
+]

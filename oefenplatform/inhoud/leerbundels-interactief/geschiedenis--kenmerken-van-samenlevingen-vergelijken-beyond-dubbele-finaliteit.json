@@ -1,0 +1,65 @@
+{
+ "vak": "Geschiedenis",
+ "titel": "Kenmerken van samenlevingen vergelijken",
+ "onder": "Hoe je twee samenlevingen naast elkaar zet zonder appelen met peren te vergelijken.",
+ "secties": [
+  {
+   "kop": "Wat is een kenmerk?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>kenmerk van een samenleving</strong> is <strong>een eigenschap waarmee je ze met een andere kan vergelijken</strong>: hoe ze bestuurd wordt, hoe ze aan voedsel komt, hoe de groepen zich tot elkaar verhouden, wat ze gelooft en maakt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Vergelijken doe je per domein en met dezelfde vraag voor beide</strong>. Wie voor de ene samenleving naar haar bestuur kijkt en voor de andere naar haar kunst, vergelijkt niets."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vraag</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Domein</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wie beslist, en op welke grond?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het politieke domein</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Waarvan leven de mensen?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het economische domein</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Welke groepen zijn er, en wie staat waar?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het sociale domein</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wat gelooft men, en wat leert men?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het culturele domein</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Gelijkenis, verschil en verklaring",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een goede vergelijking <strong>noemt gelijkenissen én verschillen, en verklaart ze</strong>. Dat twee samenlevingen van landbouw leven, is een gelijkenis; dat de ene haar grond in handen van enkelen heeft en de andere in dorpsbezit, is een verschil met gevolgen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een standenmaatschappij</strong> en <strong>een klassenmaatschappij</strong> zijn zo'n paar: <strong>in de eerste ligt je plaats bij je geboorte vast</strong>, <strong>in de tweede hangt ze af van je bezit en je positie in de productie</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Vergelijken over de tijd en over de ruimte",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Je kan <strong>twee tijden</strong> vergelijken (België in 1850 en in 2020) of <strong>twee plaatsen in dezelfde tijd</strong> (Europa en China rond 1900). Beide zijn evenwaardig, zolang je dezelfde kenmerken naast elkaar legt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Pas op voor <strong>de normen van vandaag</strong>. Dat een samenleving uit 1850 geen algemeen stemrecht had, is een vaststelling; het is pas een beoordeling als je erbij zegt dat dat onrechtvaardig was. <strong>Ook een transportrevolutie verandert de manier waarop er geproduceerd wordt</strong>: verandering in één domein werkt door in de andere."
+    }
+   ]
+  },
+  {
+   "kop": "Van vergelijking naar besluit",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een vergelijking eindigt in <strong>een besluit dat je kan onderbouwen</strong>. Wie zegt dat de industrialisering de levensomstandigheden verslechterde, moet zeggen voor wie, waar en wanneer: voor de eerste fabrieksarbeiders in de stad is dat beter houdbaar dan voor hun kleinkinderen."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Vergelijk per domein, met dezelfde vraag voor beide samenlevingen.",
+  "Noem gelijkenissen én verschillen, en verklaar ze.",
+  "Standenmaatschappij: geboorte beslist. Klassenmaatschappij: bezit en positie beslissen.",
+  "Vaststellen en beoordelen zijn twee verschillende stappen."
+ ]
+}
