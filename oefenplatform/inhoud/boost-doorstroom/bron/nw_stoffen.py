@@ -1,0 +1,360 @@
+# -*- coding: utf-8 -*-
+"""🚀 Boost doorstroom — Enkelvoudige en samengestelde stoffen, en chemische reacties.
+
+Chemie, de koppen "Enkelvoudige en samengestelde stoffen" en "Chemische
+reacties" van de vakfiche natuurwetenschappen 2de graad doorstroom. Deel 1
+gaat over de symbolen, de formules en de eigenschappen van metalen,
+niet-metalen en edelgassen. Deel 2 gaat over de reactie zelf: de wet van
+behoud van massa, het kloppend maken van een vergelijking en het verschil
+tussen een exo- en een endo-energetische reactie.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een enkelvoudige stof?",
+        opties=[
+            "een stof die uit maar één soort atomen bestaat",
+            "een stof die uit maar één molecule bestaat",
+            "een stof die bij kamertemperatuur altijd een gas is",
+            "een stof die je niet in water kan oplossen",
+        ],
+        antwoord=0,
+        uitleg="Zuurstofgas en ijzer zijn enkelvoudig: één atoomsoort. Water is samengesteld, want er zitten waterstof- en zuurstofatomen in.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke stoffen zijn enkelvoudig? Kruis alles aan wat juist is.",
+        opties=["zuurstofgas", "waterstofgas", "ozon", "koolstofdioxide"],
+        antwoord=[0, 1, 2],
+        uitleg="Zuurstofgas, waterstofgas en ozon bestaan elk uit één atoomsoort. In koolstofdioxide zitten twee soorten atomen, dus die is samengesteld.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Het symbool voor natrium is Na.",
+        antwoord=True,
+        uitleg="Veel symbolen komen uit het Latijn. Natrium werd natrium, ijzer werd Fe van ferrum en koper Cu van cuprum.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk element hoort bij het symbool K?",
+        opties=["kalium", "koolstof", "koper", "krypton"],
+        antwoord=0,
+        uitleg="K staat voor kalium. Koolstof is C, koper is Cu en krypton is Kr.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Welk symbool hoort bij het element goud?",
+        antwoord="Au",
+        uitleg="Au komt van het Latijnse aurum. Zilver is Ag van argentum.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="In de formule 3 H2O: wat is de index en wat is de coëfficiënt?",
+        opties=[
+            "de index is 2, de coëfficiënt is 3",
+            "de index is 3, de coëfficiënt is 2",
+            "de index is 2, de coëfficiënt is 2",
+            "de index is 3, de coëfficiënt is 3",
+        ],
+        antwoord=0,
+        uitleg="De index staat klein achter een symbool en telt de atomen in één molecule. De coëfficiënt staat vooraan en telt de moleculen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoeveel atomen in totaal staan er in 2 H2SO4?",
+        opties=["14", "7", "8", "12"],
+        antwoord=0,
+        uitleg="Eén molecule telt 2 plus 1 plus 4, dus 7 atomen. Twee moleculen geven samen 14 atomen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De formule CO2 bevat twee verschillende elementen.",
+        antwoord=True,
+        uitleg="Koolstof en zuurstof: twee atoomsoorten, dus twee elementen. Het aantal atomen is drie.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke eigenschappen zijn typisch voor metalen? Kruis alles aan wat juist is.",
+        opties=[
+            "ze geleiden elektriciteit goed",
+            "ze geleiden warmte goed",
+            "ze zijn vervormbaar",
+            "ze zijn bij kamertemperatuur altijd een gas",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Metalen geleiden, glanzen en laten zich pletten of trekken. Op kwik na zijn ze bij kamertemperatuur allemaal vast.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Welk metaal is bij kamertemperatuur vloeibaar?",
+        antwoord="kwik",
+        uitleg="Kwik of Hg is het enige metaal dat bij kamertemperatuur vloeibaar is. Vroeger zat het in thermometers.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom gebruikt men helium in ballonnen en niet waterstofgas?",
+        opties=[
+            "helium is een edelgas en reageert zo goed als nergens mee",
+            "helium is lichter dan waterstofgas en stijgt dus beter",
+            "helium is goedkoper te maken dan waterstofgas",
+            "helium geleidt de warmte veel beter dan waterstofgas",
+        ],
+        antwoord=0,
+        uitleg="Waterstofgas is brandbaar, helium niet. Edelgassen zijn inert, en dat maakt helium veilig, ook al is het zwaarder.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Edelgassen reageren gemakkelijk met andere stoffen.",
+        antwoord=False,
+        uitleg="Edelgassen zijn net inert: hun buitenste schil is vol, dus ze gaan bijna geen bindingen aan.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Grafiet en diamant zijn allebei opgebouwd uit koolstof. Hoe komt het dat ze zo verschillen?",
+        opties=[
+            "de atomen zitten in een andere structuur aan elkaar",
+            "diamant bevat zwaardere koolstofatomen dan grafiet",
+            "grafiet bevat naast koolstof ook waterstofatomen",
+            "diamant is een mengsel en grafiet een zuivere stof",
+        ],
+        antwoord=0,
+        uitleg="In diamant zit elk atoom in een stevig ruimtelijk rooster, in grafiet in losse lagen die over elkaar schuiven. Zelfde atoom, ander rooster, heel andere eigenschappen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke stof wordt gebruikt om te lassen en in de gezondheidszorg bij ademnood?",
+        opties=["zuurstofgas", "stikstofgas", "ozon", "neon"],
+        antwoord=0,
+        uitleg="Zuurstofgas onderhoudt de verbranding bij het lassen en helpt patiënten met ademhalingsproblemen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Ozon is vlak boven de grond even nuttig als hoog in de atmosfeer.",
+        antwoord=False,
+        uitleg="Hoog in de atmosfeer houdt de ozonlaag een deel van de ultraviolette straling tegen. Dichter bij de grond is ozon juist schadelijk voor de luchtwegen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke kleur heeft chloorgas?",
+        opties=["geelgroen", "roodbruin", "diepblauw", "kleurloos"],
+        antwoord=0,
+        uitleg="Chloorgas is geelgroen en scherp van geur. Koper is dan weer het metaal met de typische roodbruine kleur.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke uitspraken over niet-metalen zijn juist? Kruis alles aan wat juist is.",
+        opties=[
+            "ze geleiden elektriciteit slecht",
+            "veel ervan zijn bij kamertemperatuur een gas",
+            "ze zijn meestal broos als ze vast zijn",
+            "ze zijn allemaal glanzend en goed vervormbaar",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Niet-metalen geleiden slecht, zijn vaak gasvormig en breken makkelijk als ze vast zijn. Glans en vervormbaarheid horen juist bij metalen.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de gebruiksnaam van een stof, zoals keukenzout naast natriumchloride?",
+        antwoord="triviale naam",
+        uitleg="De triviale naam is de dagelijkse naam. De IUPAC-naam is de officiële naam die uit de formule volgt.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Neon wordt gebruikt in lichtreclame omdat het oplicht wanneer er stroom door gaat.",
+        antwoord=True,
+        uitleg="In een buis met neon onder lage druk geeft een elektrische ontlading een oranjerood licht. Andere edelgassen geven andere kleuren.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je krijgt deze omschrijving: een glanzend, roodbruin metaal dat warmte en elektriciteit uitstekend geleidt. Welke stof is het?",
+        opties=["koper", "ijzer", "zink", "lood"],
+        antwoord=0,
+        uitleg="De roodbruine kleur is typisch voor koper. Daarom zit het in elektriciteitsdraden en in kookpotten.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat zegt de wet van behoud van massa?",
+        opties=[
+            "de totale massa voor en na een reactie is gelijk",
+            "de massa neemt bij elke reactie een beetje toe",
+            "de massa neemt af omdat er energie vrijkomt",
+            "de massa blijft alleen gelijk in een open vat",
+        ],
+        antwoord=0,
+        uitleg="Er gaan geen atomen verloren en er komen er geen bij; ze worden alleen anders geschikt. Daarom weegt alles samen voor en na even veel.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Hoe maak je de vergelijking H2 + O2 geeft H2O kloppend?",
+        opties=[
+            "2 H2 + O2 geeft 2 H2O",
+            "H2 + O2 geeft H2O2",
+            "2 H2 + 2 O2 geeft 2 H2O",
+            "H2 + 2 O2 geeft 2 H2O",
+        ],
+        antwoord=0,
+        uitleg="Links staan dan 4 waterstofatomen en 2 zuurstofatomen, rechts ook. Je verandert alleen de coëfficiënten, nooit de index in een formule.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Bij het kloppend maken van een reactievergelijking mag je de index in een formule aanpassen.",
+        antwoord=False,
+        uitleg="De index hoort bij de stof zelf; verander je die, dan heb je een andere stof. Alleen de coëfficiënten voor de formules mag je aanpassen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een exo-energetische reactie?",
+        opties=[
+            "een reactie die energie afstaat aan de omgeving",
+            "een reactie die energie opneemt uit de omgeving",
+            "een reactie waarbij de massa toeneemt",
+            "een reactie die alleen in een gesloten vat verloopt",
+        ],
+        antwoord=0,
+        uitleg="Een verbranding is exo-energetisch: het mengsel wordt warm en geeft warmte of licht af. Bij een endo-energetische reactie koelt alles juist af.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je een reactie die energie opneemt uit haar omgeving?",
+        antwoord="endo-energetisch",
+        uitleg="Bij zo'n reactie daalt de temperatuur van het mengsel. Een koudekompres werkt op dat principe.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je mengt twee stoffen en de beker voelt duidelijk kouder aan. Wat besluit je?",
+        opties=[
+            "de reactie is endo-energetisch en neemt warmte op",
+            "de reactie is exo-energetisch en geeft warmte af",
+            "er is geen reactie, want anders zou het warmer worden",
+            "de massa van het mengsel is tijdens de reactie gedaald",
+        ],
+        antwoord=0,
+        uitleg="De reactie haalt energie uit haar omgeving, en jouw hand hoort daarbij. Daarom voelt de beker koud aan.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="In een energiediagram van een exo-energetische reactie liggen de reactieproducten lager dan de reagentia.",
+        antwoord=True,
+        uitleg="Het verschil in hoogte is de energie die vrijkomt. Bij een endo-energetische reactie liggen de producten juist hoger.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke stoffen in een reactievergelijking noemen we de reagentia?",
+        opties=[
+            "de stoffen die links van de pijl staan",
+            "de stoffen die rechts van de pijl staan",
+            "de stoffen die aan beide kanten staan",
+            "de stoffen die niet mee reageren",
+        ],
+        antwoord=0,
+        uitleg="Links staan de uitgangsstoffen of reagentia, rechts de reactieproducten. De pijl geeft de richting van de omzetting aan.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke vormen van energie kunnen bij een chemische reactie vrijkomen? Kruis alles aan wat juist is.",
+        opties=["warmte", "licht", "elektrische energie", "massa"],
+        antwoord=[0, 1, 2],
+        uitleg="Een vuur geeft warmte en licht, een batterij geeft elektrische energie. Massa is geen energievorm, en ze blijft bovendien behouden.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Bij een synthese ontstaat er uit twee of meer stoffen één nieuwe stof.",
+        antwoord=True,
+        uitleg="Synthese is samenstellen. Het omgekeerde is een analyse: daarbij valt één stof uiteen in twee of meer stoffen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Water valt onder invloed van elektrische stroom uiteen in waterstofgas en zuurstofgas. Hoe noem je zo'n reactie?",
+        opties=["een analyse", "een synthese", "een oplossing", "een extractie"],
+        antwoord=0,
+        uitleg="Eén stof valt uiteen in twee andere, dus het is een analyse of ontledingsreactie.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je verbrandt magnesium in een afgesloten vat en weegt opnieuw. Wat lees je af?",
+        opties=[
+            "de totale massa in het vat is gelijk gebleven",
+            "de totale massa in het vat is gedaald, want er is licht ontsnapt",
+            "de totale massa in het vat is gestegen, want er is warmte bijgekomen",
+            "de totale massa in het vat is gehalveerd, want magnesium is verdwenen",
+        ],
+        antwoord=0,
+        uitleg="In een gesloten vat kan er niets weg. Het magnesium bindt met de zuurstof uit de lucht in het vat, maar alle atomen blijven binnen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Bij een verbranding in een open schaal lijkt de massa van het vaste overblijfsel soms te dalen omdat er gassen ontsnappen.",
+        antwoord=True,
+        uitleg="De wet geldt nog altijd, maar je weegt een deel niet mee. Vang je ook de gassen op, dan klopt de balans weer.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke assen staan er op een energiediagram van een reactie?",
+        opties=[
+            "de energie en het verloop van de reactie",
+            "de massa en de temperatuur van het mengsel",
+            "de tijd en het volume van het gas",
+            "de concentratie en de druk in het vat",
+        ],
+        antwoord=0,
+        uitleg="Verticaal staat de inwendige energie, horizontaal het verloop van de reactie. Het verschil tussen begin en einde is de reactie-energie.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de stoffen die rechts van de pijl in een reactievergelijking staan?",
+        antwoord="reactieproducten",
+        uitleg="De reactieproducten zijn de nieuwe stoffen die ontstaan zijn. Links staan de reagentia waaruit ze gevormd worden.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom is een chemische reactie iets anders dan het mengen van twee stoffen?",
+        opties=[
+            "bij een reactie ontstaan er nieuwe stoffen met andere eigenschappen",
+            "bij een reactie blijven alle stoffen precies dezelfde als ervoor",
+            "bij mengen gaat er altijd massa verloren en bij een reactie niet",
+            "bij mengen komt er altijd warmte vrij en bij een reactie nooit",
+        ],
+        antwoord=0,
+        uitleg="Na een reactie heb je stoffen die er eerst niet waren. Na mengen heb je dezelfde stoffen, alleen door elkaar.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="In de reactie 2 Mg + O2 geeft 2 MgO: welke uitspraken kloppen? Kruis alles aan wat juist is.",
+        opties=[
+            "links en rechts staan twee magnesiumatomen",
+            "links en rechts staan twee zuurstofatomen",
+            "magnesium en zuurstofgas zijn de reagentia",
+            "er ontstaan twee verschillende reactieproducten",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="De vergelijking klopt: 2 Mg en 2 O aan elke kant. Er ontstaat maar één product, namelijk magnesiumoxide.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een reactie die licht uitzendt, is endo-energetisch.",
+        antwoord=False,
+        uitleg="Licht uitzenden betekent energie afstaan, en dus is die reactie exo-energetisch.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom moet je bij een reactievergelijking het aantal atomen van elk element links en rechts gelijk maken?",
+        opties=[
+            "omdat atomen bij een reactie niet verdwijnen of ontstaan",
+            "omdat de energie voor en na de reactie gelijk moet zijn",
+            "omdat de volumes van de gassen anders niet kloppen",
+            "omdat de coëfficiënten anders te groot zouden worden",
+        ],
+        antwoord=0,
+        uitleg="Een reactie herschikt alleen de atomen. Daarom moet elk element aan beide kanten even vaak voorkomen.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de hoeveelheid energie die bij een reactie opgenomen of afgestaan wordt?",
+        antwoord="reactie-energie",
+        uitleg="Op een energiediagram is dat het hoogteverschil tussen de reagentia en de reactieproducten.",
+    ),
+]

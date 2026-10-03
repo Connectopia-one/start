@@ -1,0 +1,100 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Elektriciteit en de wet van Ohm",
+ "onder": "Stroomsterkte, spanning en weerstand, het elektrisch vermogen, het Joule-effect en de veiligheid.",
+ "secties": [
+  {
+   "kop": "Stroomsterkte, spanning en weerstand",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Grootheid</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Eenheid</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Meten met</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Stroomsterkte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de lading die per seconde voorbij een punt gaat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ampère</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een ampèremeter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Spanning</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het duwtje dat de lading in beweging zet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">volt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een voltmeter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Weerstand</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoe sterk de kring de stroom tegenhoudt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ohm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een multimeter</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Eén <strong>ampère</strong> is één coulomb lading per seconde. Een <strong>multimeter</strong> kan de drie grootheden meten, als je hem juist instelt; de symbolen voor gelijkstroom en gelijkspanning staan erop. Een <strong>barometer</strong> hoort niet in een stroomkring."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>wet van Ohm</strong> zegt dat de <strong>weerstand de spanning gedeeld door de stroomsterkte</strong> is. Je kan haar in elke richting gebruiken: 12 volt over 4 ohm geeft <strong>3 ampère</strong>; 2 ampère door 5 ohm geeft <strong>10 volt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>vaste weerstand</strong> zijn spanning en stroomsterkte <strong>recht evenredig</strong>: zet je ze in een grafiek, dan krijg je een <strong>rechte door de oorsprong</strong>, en uit de steilheid haal je de weerstand. Bij <strong>gelijke spanning</strong> zijn stroomsterkte en weerstand <strong>omgekeerd evenredig</strong>: <strong>dubbele weerstand geeft halve stroom</strong>. Zet je er een extra weerstand bij, dan brandt de lamp zwakker."
+    }
+   ]
+  },
+  {
+   "kop": "Geleiders, isolatoren en de stroomkring",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>geleider</strong> heeft een <strong>kleine weerstand</strong>, en daardoor loopt er bij dezelfde spanning <strong>meer stroom</strong>. Een <strong>isolator</strong> heeft een <strong>heel grote weerstand</strong>. Daarom is de kern van een draad koper en de mantel kunststof. <strong>Geleidbaarheid en weerstand zijn tegengesteld</strong>: goed geleiden betekent een kleine weerstand. Een <strong>groter geleidingsvermogen betekent dus een kleinere weerstand</strong>, geen grotere. En een <strong>isolator heeft geen kleinere weerstand dan een geleider</strong>, net het omgekeerde."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Goede geleiders</strong> zijn koper en aluminium (vrije elektronen) en een zoutoplossing (vrije ionen). <strong>Isolatoren</strong> zijn droog hout, rubber en glas. Een <strong>lange, dunne draad</strong> heeft <strong>meer</strong> weerstand dan een korte, dikke draad van dezelfde stof; daarom gebruikt men voor zware toestellen dikkere draden."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>gelijkspanningsbron</strong> levert een spanning die <strong>altijd dezelfde zin houdt</strong>, met een plus- en een minpool: een batterij. Het stopcontact in huis levert wisselspanning. De <strong>conventionele stroomzin</strong> loopt <strong>van plus naar min</strong>, de <strong>werkelijke van min naar plus</strong>: de afspraak werd gemaakt voor men wist dat elektronen negatief zijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>elektrisch schema</strong> heeft elk onderdeel zijn eigen symbool: een gelijkspanningsbron, een al dan niet regelbare weerstand, een <strong>lamp</strong> (gewoonlijk een rondje met een kruisje erin), een schakelaar, een ampèremeter en een voltmeter. Zo kan iedereen hetzelfde schema lezen."
+    }
+   ]
+  },
+  {
+   "kop": "Vermogen en het Joule-effect",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>vermogen</strong> van een elektrisch toestel zegt hoeveel <strong>elektrische energie het per seconde omzet</strong>, in watt. Een toestel van 1000 watt dat twee uur aanstaat gebruikt <strong>2 kilowattuur</strong>. Bij <strong>dezelfde spanning</strong> hoort een <strong>groter vermogen bij een grotere stroom</strong>; daarom krijgt een elektrisch vuur een eigen, zwaardere kring."
+    },
+    {
+     "soort": "tekst",
+     "html": "Van twee toestellen die <strong>hetzelfde werk doen</strong>, is het toestel met het <strong>kleinste vermogen het zuinigst</strong>. Een ledlamp geeft met 7 watt zo veel licht als een gloeilamp met 60 watt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>Joule-effect</strong> is dat een <strong>geleider opwarmt doordat er stroom door loopt</strong>: de elektronen botsen op de deeltjes van de geleider en geven daarbij energie af. In een <strong>waterkoker is dat gewenst</strong>, in een <strong>verlengsnoer ongewenst</strong>. Een <strong>te dun snoer</strong> heeft meer weerstand en wordt dus heter; daarom staat er op een haspel hoeveel ampère hij mag dragen."
+    }
+   ]
+  },
+  {
+   "kop": "Risico's en veiligheid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Risico</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat er gebeurt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Kortsluiting</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de stroom vindt een weg met bijna geen weerstand en wordt heel groot</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Overbelasting</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">te veel toestellen samen trekken meer stroom dan de draden dragen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Brandgevaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">door kortsluiting of overbelasting worden de draden heet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Elektrocutie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er loopt stroom door een menselijk lichaam</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>kortsluiting</strong> schiet de stroomsterkte omhoog, omdat de weerstand bijna nul is. Bij <strong>overbelasting</strong> trekken alle toestellen samen te veel stroom; daarom slaat je zekering af als je de wasmachine en de oven samen aanzet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Veiligheidsvoorziening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Automatische zekering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verbreekt de kring als de stroomsterkte te groot wordt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Smeltveiligheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">doet hetzelfde door een draadje te laten smelten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Aarding met aarddraad</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voert stroom weg naar de grond als er spanning op een omhulsel komt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Verliesstroomschakelaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">slaat af als er stroom langs een onbedoelde weg wegloopt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Dubbele isolatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een tweede isolatielaag, zodat het omhulsel nooit onder spanning komt</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>verliesstroomschakelaar</strong> vergelijkt wat er in gaat met wat er terugkomt, en slaat in milliseconden af als er stroom verdwijnt, bijvoorbeeld door een mens. Een <strong>zekering</strong> kijkt naar de grootte van de stroom. Een <strong>voltmeter</strong> meet alleen en beveiligt niets."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>dubbel geïsoleerd toestel</strong> heeft geen aarddraad nodig en draagt het symbool van twee vierkanten in elkaar. Een <strong>aarddraad</strong> moet juist een <strong>zo klein mogelijke weerstand</strong> hebben."
+    },
+    {
+     "soort": "tekst",
+     "html": "Werk <strong>nooit met natte handen</strong> aan een elektrisch toestel: water <strong>verlaagt de weerstand van je huid</strong>, dus loopt er bij dezelfde spanning <strong>meer stroom</strong> door je lichaam. Een <strong>hogere spanning</strong> is bij dezelfde weerstand gevaarlijker, want ze geeft een grotere stroom. Daarom spreekt men van een <strong>veiligheidsspanning</strong>: laag genoeg om dat gevaar klein te houden."
+    },
+    {
+     "soort": "weetje",
+     "html": "Het is de stroom door je lichaam die schade doet, niet de spanning zelf. Een statische schok van duizenden volt voelt onaangenaam maar is onschuldig, omdat er bijna geen stroom bij hoort."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

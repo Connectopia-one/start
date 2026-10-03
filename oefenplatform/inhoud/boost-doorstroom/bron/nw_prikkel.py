@@ -1,0 +1,371 @@
+# -*- coding: utf-8 -*-
+"""🚀 Boost doorstroom — Van prikkel tot reactie, en het oog.
+
+Biologie, de koppen "Van prikkel tot reactie" en "Het oog" van de vakfiche
+natuurwetenschappen 2de graad doorstroom. Deel 1 gaat over de weg van prikkel
+naar reactie bij mens, dier en plant; deel 2 over de bouw en de werking van
+het oog, met de afwijkingen die daarbij horen.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="In welke volgorde loopt de weg van een prikkel naar een reactie?",
+        opties=[
+            "prikkel, receptor, conductor, effector",
+            "receptor, prikkel, effector, conductor",
+            "conductor, prikkel, receptor, effector",
+            "prikkel, effector, conductor, receptor",
+        ],
+        antwoord=0,
+        uitleg="De prikkel komt binnen bij een receptor, de conductor geleidt het signaal door, en de effector voert de reactie uit.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke van deze prikkels zijn uitwendige prikkels? Kruis alles aan wat juist is.",
+        opties=[
+            "het geluid van een toeterende auto",
+            "het licht van een felle lamp",
+            "de kou van een ijskoude wind",
+            "het hongergevoel na een lange les",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Geluid, licht en kou komen van buiten het lichaam. Honger komt van binnenuit en is dus een inwendige prikkel.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Dorst en stress zijn voorbeelden van inwendige prikkels.",
+        antwoord=True,
+        uitleg="Ze ontstaan in het lichaam zelf. Een inwendige prikkel meldt dat er aan de binnenkant iets uit evenwicht raakt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat doet een effector?",
+        opties=[
+            "hij voert de reactie uit, bijvoorbeeld een spier of een klier",
+            "hij vangt de prikkel op, bijvoorbeeld een cel in het oog",
+            "hij geleidt het signaal door, bijvoorbeeld een zenuwbaan",
+            "hij slaat de prikkel op, bijvoorbeeld in het geheugen",
+        ],
+        antwoord=0,
+        uitleg="Spieren en klieren zijn de effectoren. Zij zorgen voor de beweging of voor de stof die het antwoord vormt op de prikkel.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je het deel dat een prikkel opvangt en omzet in een signaal?",
+        antwoord="receptor",
+        uitleg="Een receptor is gevoelig voor één soort prikkel. Een fotoreceptor vangt licht op, een mechanoreceptor aanraking of druk.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke receptoren horen bij welk zintuig? Kruis alles aan wat juist is.",
+        opties=[
+            "staafjes en kegeltjes horen bij het zicht",
+            "haarcellen horen bij het gehoor",
+            "zintuigcellen op de tong horen bij de smaakzin",
+            "sluitcellen horen bij de tastzin van de huid",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Staafjes en kegeltjes, haarcellen en de zintuigcellen van de tong zijn receptoren van mens en dier. Sluitcellen zijn plantencellen rond een huidmondje.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Bij de mens verwerken de hersenen de binnenkomende signalen en bepalen ze welke reactie volgt.",
+        antwoord=True,
+        uitleg="De hersenen zijn de belangrijkste conductor. Ze vergelijken, combineren en kiezen, en sturen daarna een bevel naar de effector.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het grote verschil tussen de reactie van een plant en die van een dier op dezelfde prikkel?",
+        opties=[
+            "een plant reageert traag met groei of beweging van delen, een dier snel met spieren",
+            "een plant reageert sneller dan een dier omdat ze geen zenuwen nodig heeft",
+            "een plant reageert nooit op een prikkel, alleen een dier doet dat",
+            "een plant gebruikt zenuwen en een dier gebruikt uitsluitend hormonen",
+        ],
+        antwoord=0,
+        uitleg="Een plant heeft geen zenuwstelsel. Ze stuurt met hormonen, en haar antwoord is meestal een groeibeweging die uren of dagen duurt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een tropie bij een plant?",
+        opties=[
+            "een groeibeweging in de richting van de prikkel of er net van weg",
+            "een beweging waarvan de richting niets met de prikkel te maken heeft",
+            "het afstoten van bladeren op het einde van het groeiseizoen",
+            "het openen van een bloem op een vast tijdstip van de dag",
+        ],
+        antwoord=0,
+        uitleg="Bij een tropie bepaalt de richting van de prikkel de richting van de groei. Een stengel die naar het licht buigt, is een fototropie.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je een plantenbeweging waarvan de richting níét door de richting van de prikkel bepaald wordt?",
+        antwoord="nastie",
+        uitleg="Bij een nastie staat de richting van de beweging vast in de bouw van de plant. Het dichtklappen van een bloem bij kou is daar een voorbeeld van.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een wortel groeit naar beneden, de zwaartekracht achterna. Hoe heet dat?",
+        opties=["geotropie", "fototropie", "thigmotropie", "hydronastie"],
+        antwoord=0,
+        uitleg="Geotropie of gravitropie is de groeibeweging op de prikkel zwaartekracht. De wortel groeit ernaartoe, de stengel ervan weg.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een plant vangt licht op met mechanoreceptoren.",
+        antwoord=False,
+        uitleg="Licht wordt opgevangen door fotoreceptoren. Mechanoreceptoren reageren op aanraking, druk of beweging.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke taken vervullen plantenhormonen? Kruis alles aan wat juist is.",
+        opties=[
+            "ze sturen de strekking van cellen in de stengel",
+            "ze spelen mee bij de vorming van bijwortels en zijscheuten",
+            "ze regelen het rijpen van vruchten",
+            "ze geleiden elektrische impulsen door de plant",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Celstrekking, wortelgroei en vruchtrijping lopen bij een plant via hormonen. Elektrische impulsen over zenuwbanen bestaan bij planten niet.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk zintuig gebruik je als je ruikt dat er brood in de oven staat?",
+        opties=["de reukzin", "de smaakzin", "de tastzin", "het gehoor"],
+        antwoord=0,
+        uitleg="Geurstoffen in de lucht bereiken de receptoren hoog in de neus. Dat is de reukzin.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Smaak en geur werken samen: wie verkouden is, proeft minder.",
+        antwoord=True,
+        uitleg="Veel van wat we smaak noemen, is eigenlijk geur. Zit de neus dicht, dan vallen die signalen weg en smaakt eten vlak.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je trekt je hand weg van een hete pan nog voor je het echt beseft. Wat is hier de effector?",
+        opties=[
+            "de spier in je arm die samentrekt",
+            "de warmtereceptor in je huid",
+            "de zenuw die naar het ruggenmerg loopt",
+            "de hitte van de pan onder je hand",
+        ],
+        antwoord=0,
+        uitleg="De effector voert de reactie uit, en dat is hier de armspier. De receptor zit in de huid, de zenuw is de conductor en de hitte is de prikkel.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een prikkel leidt bij een plant altijd tot een reactie die je binnen enkele seconden ziet.",
+        antwoord=False,
+        uitleg="De meeste plantenreacties zijn groeibewegingen en duren uren tot dagen. Het dichtklappen van een vleesetende plant is een uitzondering.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom is een receptor meestal maar voor één soort prikkel gevoelig?",
+        opties=[
+            "zo weet het lichaam meteen welke prikkel er binnenkomt",
+            "zo heeft het lichaam minder receptoren nodig in het geheel",
+            "zo kan dezelfde zenuw alle prikkels door elkaar doorgeven",
+            "zo blijft de prikkel bewaard tot het lichaam tijd heeft",
+        ],
+        antwoord=0,
+        uitleg="Elke soort receptor stuurt zijn signaal naar een eigen gebied in de hersenen. Daardoor weet je of je licht ziet, geluid hoort of pijn voelt.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je het deel dat het signaal van de receptor naar de effector doorgeeft?",
+        antwoord="conductor",
+        uitleg="Bij mens en dier zijn dat de zenuwen en de hersenen. Zij vormen de verbinding tussen opvangen en uitvoeren.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Auxine hoopt zich op aan de kant van de stengel waar het licht op valt.",
+        antwoord=False,
+        uitleg="Het is net omgekeerd: auxine wordt weggedrukt van het licht. Aan de donkere kant zit er dus meer, die cellen strekken sneller, en de stengel buigt naar het licht toe.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="Uit welke drie lagen bestaat de wand van de oogbol, van buiten naar binnen?",
+        opties=[
+            "hard oogvlies, vaatvlies, netvlies",
+            "netvlies, vaatvlies, hard oogvlies",
+            "hoornvlies, ooglens, glasachtig lichaam",
+            "vaatvlies, hoornvlies, gele vlek",
+        ],
+        antwoord=0,
+        uitleg="Buitenaan ligt het harde oogvlies met vooraan het doorzichtige hoornvlies, daarbinnen het vaatvlies, en helemaal binnenin het netvlies.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke delen horen bij het vaatvlies? Kruis alles aan wat juist is.",
+        opties=["het straallichaam", "de iris met haar spieren", "de lensbanden", "de oogzenuw"],
+        antwoord=[0, 1, 2],
+        uitleg="Straallichaam, iris en lensbanden horen bij het vaatvlies. De oogzenuw vertrekt vanuit het netvlies.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is de taak van de iris?",
+        opties=[
+            "de hoeveelheid licht regelen die door de pupil binnenkomt",
+            "het licht scherp bundelen op het netvlies achteraan",
+            "het binnenkomende licht omzetten in zenuwsignalen",
+            "de oogbol in zijn geheel in de oogkas bewegen",
+        ],
+        antwoord=0,
+        uitleg="De straalspieren en kringspieren van de iris maken de pupil groter of kleiner. Bij veel licht wordt de pupil klein, bij weinig licht groot.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe heet de opening in het midden van de iris waardoor het licht naar binnen gaat?",
+        antwoord="pupil",
+        uitleg="De pupil is geen onderdeel maar een opening. Hij lijkt zwart omdat er bijna geen licht uit het oog terugkomt.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Het hoornvlies is het doorzichtige voorste deel van het harde oogvlies.",
+        antwoord=True,
+        uitleg="Het hoornvlies laat het licht binnen en breekt het al voor een groot deel, nog voor de lens eraan te pas komt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat gebeurt er bij accommodatie?",
+        opties=[
+            "de ooglens verandert van vorm zodat het beeld scherp wordt",
+            "de pupil wordt groter zodat er meer licht binnenkomt",
+            "het netvlies schuift naar voren tot het beeld scherp valt",
+            "de oogbol draait mee met het voorwerp waarnaar je kijkt",
+        ],
+        antwoord=0,
+        uitleg="De accommodatiespier in het straallichaam spant of ontspant de lensbanden. De lens wordt dan boller of platter, en daarmee stel je scherp.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je kijkt van ver weg naar iets vlakbij. Wat gebeurt er met je ooglens?",
+        opties=[
+            "ze wordt boller",
+            "ze wordt platter",
+            "ze blijft even bol",
+            "ze schuift naar achter",
+        ],
+        antwoord=0,
+        uitleg="Hoe dichterbij het voorwerp, hoe sterker het licht gebroken moet worden. Daarvoor wordt de lens boller.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Het beeld dat op het netvlies valt, staat rechtop.",
+        antwoord=False,
+        uitleg="De lens keert het beeld om, dus op het netvlies staat het op zijn kop. De hersenen draaien het weer recht, zodat je de wereld toch rechtop ziet.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke uitspraken over staafjes en kegeltjes zijn juist? Kruis alles aan wat juist is.",
+        opties=[
+            "staafjes werken ook bij weinig licht",
+            "kegeltjes zorgen voor het zien van kleur",
+            "beide liggen in het netvlies",
+            "beide liggen op de blinde vlek",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Staafjes zien grijswaarden bij weinig licht, kegeltjes zien kleur bij veel licht, en beide liggen in het netvlies. Op de blinde vlek liggen er juist geen lichtreceptoren.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe heet de plek op het netvlies waar je het scherpst ziet?",
+        antwoord="gele vlek",
+        uitleg="In de gele vlek liggen de kegeltjes het dichtst op elkaar. Daar valt het beeld van wat je recht aankijkt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom zie je niets op de blinde vlek?",
+        opties=[
+            "daar verlaat de oogzenuw het oog en liggen er geen lichtreceptoren",
+            "daar ligt een dikke laag pigmentcellen over de receptoren heen",
+            "daar valt het licht van de lens nooit op, hoe je ook kijkt",
+            "daar liggen alleen staafjes, en die werken enkel in het donker",
+        ],
+        antwoord=0,
+        uitleg="Op die plek bundelen de zenuwvezels zich tot de oogzenuw. Er is dus geen plaats voor staafjes of kegeltjes, en dus geen beeld.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De bipolaire cellen en de ganglioncellen geven het signaal van de lichtreceptoren door naar de oogzenuw.",
+        antwoord=True,
+        uitleg="Het netvlies is in lagen gebouwd: van de staafjes en kegeltjes gaat het signaal naar de bipolaire cellen en van daar naar de ganglioncellen, waarvan de uitlopers de oogzenuw vormen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat doen de pigmentcellen achteraan in het netvlies?",
+        opties=[
+            "ze slikken het licht dat er doorheen gaat, zodat er niets weerkaatst",
+            "ze geven het licht terug zodat de receptoren het twee keer vangen",
+            "ze maken de traanvloeistof die het oog vochtig houdt",
+            "ze regelen de vorm van de lens tijdens het scherpstellen",
+        ],
+        antwoord=0,
+        uitleg="De donkere pigmentlaag neemt het resterende licht op. Zonder die laag zou het licht terugkaatsen en het beeld wazig maken.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Iemand is bijziend. Wat is er aan de hand en hoe los je het op?",
+        opties=[
+            "het beeld van veraf valt vóór het netvlies, en een holle lens zet het scherp",
+            "het beeld van veraf valt achter het netvlies, en een bolle lens zet het scherp",
+            "het beeld van vlakbij valt vóór het netvlies, en een bolle lens zet het scherp",
+            "het beeld valt naast de gele vlek, en een gekleurd glas zet het scherp",
+        ],
+        antwoord=0,
+        uitleg="Bij bijziendheid is de oogbol te lang of breekt het oog het licht te sterk. Een holle of negatieve lens verzwakt de breking, zodat het beeld net op het netvlies valt.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Bij verziendheid helpt een bolle lens.",
+        antwoord=True,
+        uitleg="Bij verziendheid valt het beeld achter het netvlies. Een bolle of positieve lens breekt het licht extra, zodat het beeld naar voren schuift.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het glasachtig lichaam?",
+        opties=[
+            "de doorzichtige gelei die de oogbol vult en in vorm houdt",
+            "het heldere vocht tussen het hoornvlies en de ooglens",
+            "het stevige vlies dat helemaal rond de oogbol ligt",
+            "de laag cellen die het licht omzet in zenuwsignalen",
+        ],
+        antwoord=0,
+        uitleg="Het glasachtig lichaam vult de ruimte tussen de lens en het netvlies. Het houdt het oog bol, zodat de afstand tot het netvlies gelijk blijft.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De voorste en de achterste oogkamer liggen allebei achter de ooglens.",
+        antwoord=False,
+        uitleg="De voorste oogkamer ligt tussen het hoornvlies en de iris, de achterste tussen de iris en de lens. Beide liggen dus vóór de lens.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je komt uit het felle zonlicht een donkere kelder binnen. Wat gebeurt er in je oog? Kruis alles aan wat juist is.",
+        opties=[
+            "de pupil wordt groter",
+            "de staafjes nemen het werk over van de kegeltjes",
+            "je ziet eerst bijna geen kleuren meer",
+            "de ooglens wordt meteen een stuk boller",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Bij weinig licht gaat de pupil open en nemen de staafjes over. Die zien geen kleur, dus de wereld wordt grijzig. De lens verandert alleen bij het scherpstellen op afstand.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe heet de zenuw die de signalen van het netvlies naar de hersenen brengt?",
+        antwoord="oogzenuw",
+        uitleg="De oogzenuw verlaat het oog op de blinde vlek en loopt naar het zichtgebied achteraan in de hersenen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Het netvlies levert het beeld dat je ziet al helemaal af; de hersenen veranderen er niets meer aan.",
+        antwoord=False,
+        uitleg="Zien gebeurt maar half in het oog. Het netvlies levert signalen; pas in de hersenen worden die samengelegd, rechtgezet en herkend tot wat je als beeld ervaart.",
+    ),
+]

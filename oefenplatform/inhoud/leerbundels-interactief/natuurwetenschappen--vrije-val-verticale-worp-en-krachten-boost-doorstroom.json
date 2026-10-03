@@ -1,0 +1,117 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Vrije val, verticale worp en krachten",
+ "onder": "De vrije val en de verticale worp, de soorten krachten, de krachtenbalans en de veerkracht.",
+ "secties": [
+  {
+   "kop": "Vrije val en verticale worp",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>vrije val</strong> werkt er <strong>alleen de zwaartekracht</strong> op het voorwerp; de luchtweerstand verwaarloos je. Daardoor <strong>valt elk voorwerp even snel</strong>, hoe zwaar het ook is: een steen en een pluim samen. In lucht wint de steen alleen doordat de pluim veel meer weerstand ondervindt."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>valversnelling</strong> op aarde is ongeveer <strong>9,81 meter per seconde kwadraat</strong>; op de maan maar 1,62. Elke seconde komt er dus ongeveer 9,81 meter per seconde snelheid bij. Valt een steen uit stilstand, dan heeft hij na 2 seconden ongeveer <strong>20 meter per seconde</strong> als je met 10 rekent."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>verticale worp naar boven</strong> is de versnelling tijdens het opgaan <strong>naar beneden</strong> gericht: de zwaartekracht werkt altijd naar beneden, en daarom wordt de bal <strong>vertraagd</strong>. In het <strong>hoogste punt</strong> is de <strong>snelheid nul</strong> maar blijft de <strong>versnelling naar beneden</strong> gericht, en daarom gaat de bal onmiddellijk weer naar beneden."
+    },
+    {
+     "soort": "tekst",
+     "html": "Tijdens een vrije val <strong>blijft de versnelling gelijk</strong>; het is de <strong>snelheid</strong> die steeds groter wordt. Gooi je een bal recht naar beneden in plaats van hem te laten vallen, dan heeft hij alleen een <strong>beginsnelheid</strong>, maar dezelfde versnelling."
+    }
+   ]
+  },
+  {
+   "kop": "Krachten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>kracht</strong> is een <strong>vectoriële grootheid</strong> met een grootte, een richting, een zin en een aangrijpingspunt. De eenheid is de <strong>newton</strong>: één newton doet een massa van één kilogram één meter per seconde kwadraat versnellen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort kracht</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar ze van komt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Zwaartekracht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de aarde trekt het voorwerp naar haar middelpunt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Normaalkracht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een oppervlak duwt loodrecht terug</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wrijvingskracht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tegenwerking bij schuiven of rollen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Veerkracht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een uitgerekte of ingedrukte veer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Spankracht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gespannen koord of kabel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Motorkracht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een motor die duwt of trekt</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>resulterende kracht</strong> die niet nul is, verandert de <strong>bewegingstoestand</strong>, en dat kan op drie manieren: <strong>versnellen</strong>, <strong>vertragen</strong> of <strong>van richting veranderen</strong>. De massa van een voorwerp verandert niet door een kracht."
+    },
+    {
+     "soort": "tekst",
+     "html": "Omgekeerd: een voorwerp dat <strong>stilstaat of met een constante snelheid in een rechte lijn beweegt</strong>, heeft een <strong>resulterende kracht van nul</strong>. Dat heet een <strong>krachtenbalans</strong>. Een boek op een tafel heeft de zwaartekracht naar beneden en de normaalkracht naar boven, precies even groot."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>parachutist</strong> die met constante snelheid valt, heeft een <strong>luchtweerstand die even groot is als de zwaartekracht</strong>. Die snelheid heet de eindsnelheid. Een auto die <strong>remt</strong> heeft een resulterende kracht <strong>tegengesteld aan de beweging</strong>. Een <strong>kist op een helling</strong> die niet wegschuift, wordt tegengehouden door de <strong>wrijvingskracht</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Hangt een gewicht <strong>stil</strong> aan een koord, dan verricht geen enkele kracht erop arbeid: er is immers <strong>geen verplaatsing</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Krachten samenstellen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>resultante</strong> is de ene kracht die hetzelfde effect heeft als alle krachten samen. Werken twee krachten in <strong>dezelfde richting en zin</strong>, dan <strong>tel je hun groottes op</strong>: 30 en 40 newton geven <strong>70 newton</strong>. Bij <strong>tegengestelde zin</strong> trek je ze van elkaar af; gelijke groottes geven dan <strong>nul</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Maken twee krachten een <strong>hoek van 90 graden</strong>, dan gebruik je de <strong>stelling van Pythagoras</strong>: 30 en 40 newton geven <strong>50 newton</strong>, want de wortel uit 900 plus 1600 is 50."
+    }
+   ]
+  },
+  {
+   "kop": "Zwaartekracht, massa en gewicht",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>zwaartekracht</strong> is de <strong>massa maal de zwaarteveldsterkte</strong>. Op aarde is die sterkte ongeveer <strong>9,81 newton per kilogram</strong>, op de maan 1,62. Een massa van 2 kilogram heeft dus een zwaartekracht van <strong>20 newton</strong> als je met 10 rekent."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Massa</strong> is de <strong>hoeveelheid materie</strong> en blijft overal dezelfde, ook op de maan. <strong>Gewicht</strong> is een <strong>kracht</strong> en meet je in <strong>newton</strong>, niet in kilogram; op de maan is je gewicht zes keer kleiner. Een <strong>dynamometer</strong> meet een kracht rechtstreeks; het is in de kern een veer met een schaal erop."
+    },
+    {
+     "soort": "tekst",
+     "html": "De zwaartekracht is een <strong>veldkracht</strong>: ze werkt <strong>zonder contact</strong>. Een normaalkracht of een wrijvingskracht heeft wel contact nodig. Het <strong>zwaartepunt</strong> is het punt waarin je de hele zwaartekracht laat aangrijpen; of een voorwerp omvalt, hangt af van waar dat punt zit."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zet je de gemeten zwaartekracht tegenover de massa in een grafiek, dan krijg je een <strong>rechte door de oorsprong</strong>, want de twee zijn <strong>recht evenredig</strong>. De <strong>steilheid</strong> van die rechte is de <strong>zwaarteveldsterkte</strong>, en zo kan je uit meetresultaten afleiden op welk hemellichaam gemeten is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een astronaut die in een <strong>ruimtestation zweeft</strong> is <strong>gewichtloos</strong>, maar niet massaloos: met zijn massa is <strong>niets gebeurd</strong>, ze is <strong>net dezelfde als op aarde</strong>. Het station en de astronaut vallen samen rond de aarde, en daarom voelt hij geen druk van een vloer."
+    }
+   ]
+  },
+  {
+   "kop": "De veerkracht",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>veerkracht</strong> is de <strong>veerconstante maal de lengteverandering</strong>. De veerkracht is dus <strong>recht evenredig</strong> met hoeveel de veer uitrekt, en de <strong>veerconstante</strong> zegt hoe stug de veer is. Een <strong>grotere veerconstante</strong> betekent dat de veer bij dezelfde kracht <strong>minder uitrekt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Rekt een veer 4 centimeter uit bij 20 newton, dan is de veerconstante <strong>5 newton per centimeter</strong>. Met die constante voorspel je elke andere uitrekking."
+    },
+    {
+     "soort": "tekst",
+     "html": "Hangt een voorwerp <strong>stil</strong> aan een veer, dan is er een <strong>krachtenbalans</strong>: de <strong>veerkracht is even groot als de zwaartekracht</strong>. Een voorwerp van 5 kilogram geeft dus een veerkracht van <strong>50 newton</strong> als je met 10 newton per kilogram rekent. Daarom kan je uit de massa alleen de veerkracht berekenen."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een weegschaal in de winkel meet eigenlijk een kracht, geen massa. Ze rekent die kracht voor jou om naar kilogram, en dat lukt alleen doordat de zwaarteveldsterkte op aarde zo goed als overal gelijk is."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

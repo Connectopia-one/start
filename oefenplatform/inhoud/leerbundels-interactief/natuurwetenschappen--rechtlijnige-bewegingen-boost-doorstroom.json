@@ -1,0 +1,108 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Rechtlijnige bewegingen",
+ "onder": "De ERB en de EVRB, het verschil tussen afgelegde weg en verplaatsing, en hoe je de drie grafieken leest.",
+ "secties": [
+  {
+   "kop": "Positie, weg en verplaatsing",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>puntmassa</strong> is een voorwerp waarvan je de <strong>afmetingen verwaarloost</strong>: je doet alsof de hele massa in één punt zit. Voor een auto op de snelweg is dat een prima benadering."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>afgelegde weg</strong> is de <strong>hele baan</strong> die je volgt. De <strong>verplaatsing</strong> gaat alleen <strong>van begin naar eind</strong>. Rijd je 10 kilometer naar het oosten en 10 kilometer terug, dan is de afgelegde weg <strong>20 kilometer</strong> en de verplaatsing <strong>nul</strong>. De verplaatsing is dus nooit groter dan de afgelegde weg."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>tijdstip</strong> is een moment op de klok; het <strong>tijdsverloop</strong> is het <strong>verschil tussen twee tijdstippen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Verplaatsing, snelheid en versnelling</strong> zijn <strong>vectoriële grootheden</strong>: je stelt ze voor met een pijl. De <strong>vier kenmerken</strong> van een vector zijn de <strong>grootte</strong>, de <strong>richting</strong>, de <strong>zin</strong> en het <strong>aangrijpingspunt</strong>. Het tijdsverloop is geen vector, dat is gewoon een getal met een eenheid."
+    }
+   ]
+  },
+  {
+   "kop": "De eenparig rechtlijnige beweging",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>eenparig rechtlijnige beweging</strong> of <strong>ERB</strong> blijft de <strong>snelheid onveranderd</strong> en is de <strong>baan een rechte lijn</strong>. In elke seconde wordt dus dezelfde afstand afgelegd."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>gemiddelde snelheid</strong> is de <strong>verplaatsing gedeeld door het tijdsverloop</strong>. Rijd je 150 kilometer in 2 uur, dan is dat <strong>75 kilometer per uur</strong>. Om van kilometer per uur naar <strong>meter per seconde</strong> te gaan, deel je door <strong>3,6</strong>: 36 kilometer per uur is 10 meter per seconde."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>positiefunctie</strong> van een ERB telt bij de <strong>beginpositie</strong> de verplaatsing op. Start je op 20 meter en rijd je met 5 meter per seconde, dan zit je na 4 seconden op <strong>40 meter</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Grafiek</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Bij een ERB</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je eruit haalt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x(t)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een rechte lijn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de steilheid is de snelheid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">v(t)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vlakke rechte lijn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de oppervlakte eronder is de verplaatsing</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a(t)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ze ligt op de tijdas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er is geen versnelling</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>vlak stuk in een x(t)-grafiek</strong> betekent dezelfde positie op elk tijdstip: de puntmassa <strong>staat stil</strong>, een <strong>rustpauze</strong>. Een <strong>negatieve snelheid</strong> in een v(t)-grafiek betekent dat de beweging <strong>tegengesteld aan de zin van de x-as</strong> gaat; hoe snel het gaat, lees je aan de grootte."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zolang de puntmassa <strong>niet van zin verandert</strong>, zijn de afgelegde weg en de verplaatsing <strong>gelijk</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De eenparig veranderlijke rechtlijnige beweging",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>eenparig veranderlijke rechtlijnige beweging</strong> of <strong>EVRB</strong> blijft de <strong>versnelling onveranderd</strong> en is de baan een rechte lijn. De snelheid verandert dan in elke seconde evenveel."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>versnelling</strong> is de <strong>verandering van de snelheid per tijdseenheid</strong>. Haar symbool is <strong>a</strong> en haar eenheid <strong>meter per seconde kwadraat</strong>: meter per seconde, en dat per seconde opnieuw. Start je uit stilstand met 3 meter per seconde kwadraat, dan heb je na 4 seconden <strong>12 meter per seconde</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Grafiek</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Bij een EVRB</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je eruit haalt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x(t)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kromme, want de steilheid verandert</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de steilheid op één punt is de ogenblikkelijke snelheid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">v(t)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een schuine rechte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de steilheid is de versnelling, de oppervlakte eronder de verplaatsing</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a(t)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vlakke rechte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">boven de tijdas positief, eronder negatief</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Versnellen of vertragen?</strong> Je kijkt naar de <strong>grootte</strong> van de snelheid, niet naar het teken. Gaat die omhoog, dan is het versnellen; gaat ze omlaag, dan is het vertragen. Van min 2 naar min 8 is dus ook versnellen. Rijdt een auto vooruit en is de versnelling <strong>negatief</strong>, dan <strong>vertraagt</strong> hij."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een v(t)-grafiek die van 20 meter per seconde naar nul daalt in 5 seconden geeft een versnelling van <strong>min 4 meter per seconde kwadraat</strong>. De <strong>oppervlakte onder die driehoek</strong> is de afgelegde weg: de helft van 20 maal 5, dus <strong>50 meter</strong> remweg."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ligt de <strong>a(t)-grafiek op de tijdas</strong>, dan <strong>behoudt</strong> het voorwerp zijn snelheid. Die mag ook nul zijn, maar rijdt het, dan rijdt het gewoon verder."
+    }
+   ]
+  },
+  {
+   "kop": "Inhalen en kruisen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Twee bewegingen samen leg je naast elkaar in <strong>één x(t)-grafiek</strong>. Het <strong>snijpunt</strong> van de twee lijnen is het moment waarop ze op <strong>hetzelfde tijdstip op dezelfde positie</strong> zijn: daar halen ze elkaar in of kruisen ze."
+    },
+    {
+     "soort": "tekst",
+     "html": "Vertrekken twee wandelaars op hetzelfde ogenblik vanuit dezelfde plaats met een verschillende snelheid, dan krijg je <strong>twee rechten vanuit hetzelfde punt</strong>, waarvan de snelste de <strong>steilste</strong> is. Ze lopen daarna alleen maar verder uiteen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Van twee auto's met een v(t)-grafiek die vanuit nul stijgt, heeft de auto met de <strong>steilste lijn de grootste versnelling</strong>. Zo vergelijk je bewegingen zonder één getal te berekenen."
+    },
+    {
+     "soort": "weetje",
+     "html": "Je kan de oppervlakte onder een v(t)-grafiek ook gewoon in vakjes tellen. Bij een kromme lijn is dat vaak de snelste manier om toch een goede schatting van de afgelegde weg te krijgen."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

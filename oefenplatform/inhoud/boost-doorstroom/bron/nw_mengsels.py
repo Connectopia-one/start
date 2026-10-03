@@ -1,0 +1,363 @@
+# -*- coding: utf-8 -*-
+"""🚀 Boost doorstroom — Mengsels en zuivere stoffen.
+
+Chemie, de kop "Opbouw van materie", onderdeel "Mengsels en zuivere stoffen"
+van de vakfiche natuurwetenschappen 2de graad doorstroom. Deel 1 gaat over het
+onderscheid tussen zuivere stoffen en mengsels en over de soorten mengsels;
+deel 2 over de stofeigenschappen en de scheidingstechnieken die daarop steunen.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een zuivere stof?",
+        opties=[
+            "een stof die uit maar één soort deeltjes bestaat",
+            "een stof die helemaal geen kleur of geur heeft",
+            "een stof die je niet meer verder kan verhitten",
+            "een stof die in de natuur voorkomt zonder bewerking",
+        ],
+        antwoord=0,
+        uitleg="Zuiver slaat niet op schoon of natuurlijk, maar op één soort deeltjes. Keukenzout is zuiver, bronwater is dat niet.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke mengsels zijn homogeen? Kruis alles aan wat juist is.",
+        opties=["suiker in water", "lucht", "messing", "zand in water"],
+        antwoord=[0, 1, 2],
+        uitleg="In een homogeen mengsel zie je de bestanddelen niet meer apart. Een oplossing, lucht en een legering zijn homogeen; zand in water blijft zichtbaar gescheiden.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="In een heterogeen mengsel kan je de verschillende bestanddelen onderscheiden.",
+        antwoord=True,
+        uitleg="Met het blote oog of met een microscoop zie je bij een heterogeen mengsel afzonderlijke delen. Bij een homogeen mengsel lukt dat niet.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een emulsie?",
+        opties=[
+            "een mengsel van twee vloeistoffen die niet in elkaar oplossen",
+            "een mengsel van een vaste stof in een vloeistof",
+            "een mengsel van gasbelletjes in een vloeistof",
+            "een mengsel van vaste deeltjes in een gas",
+        ],
+        antwoord=0,
+        uitleg="Melk en vinaigrette zijn emulsies: olie- of vetdruppeltjes zweven in water. Laat je ze staan, dan scheiden ze zich weer.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je een mengsel van vaste deeltjes die zweven in een vloeistof?",
+        antwoord="suspensie",
+        uitleg="Opgeschudde modder of cacao in melk is een suspensie. Na een tijd zakken de deeltjes naar de bodem.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Rook en nevel zijn allebei voorbeelden van hetzelfde soort mengsel. Welk?",
+        opties=["een aerosol", "een legering", "een schuim", "een oplossing"],
+        antwoord=0,
+        uitleg="Bij een aerosol zweven heel kleine vaste deeltjes of vloeistofdruppels in een gas. Rook is vast in gas, nevel is vloeibaar in gas.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een legering is een homogeen mengsel van metalen.",
+        antwoord=True,
+        uitleg="Brons, messing en staal zijn legeringen. De metalen zijn op deeltjesniveau met elkaar vermengd, dus je ziet ze niet apart.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is schuim?",
+        opties=[
+            "gasbelletjes verdeeld in een vloeistof of in een vaste stof",
+            "vaste deeltjes verdeeld in een gas boven een vloeistof",
+            "twee vloeistoffen die volledig in elkaar oplossen",
+            "een vaste stof die volledig in een vloeistof oplost",
+        ],
+        antwoord=0,
+        uitleg="Slagroom en badschuim zijn schuimen. Ook een vaste stof kan schuim zijn, zoals polystyreen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke aggregatietoestanden zijn er?",
+        opties=[
+            "vast, vloeibaar en gas",
+            "vast, vloeibaar en opgelost",
+            "koud, lauw en warm",
+            "zuiver, gemengd en gescheiden",
+        ],
+        antwoord=0,
+        uitleg="Een stof kan vast, vloeibaar of gasvormig zijn. Welke toestand het is, hangt af van de temperatuur en de druk.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je een homogeen mengsel van een vaste stof in een vloeistof?",
+        antwoord="oplossing",
+        uitleg="In een oplossing zijn de deeltjes van de opgeloste stof volledig verdeeld tussen de deeltjes van het oplosmiddel.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarin verschilt een molecule van een atoom?",
+        opties=[
+            "een molecule bestaat uit twee of meer atomen die aan elkaar gebonden zijn",
+            "een molecule is altijd kleiner dan een atoom van hetzelfde element",
+            "een molecule bestaat altijd uit atomen van verschillende elementen",
+            "een molecule komt alleen voor in een vaste stof, nooit in een gas",
+        ],
+        antwoord=0,
+        uitleg="Zuurstofgas bestaat uit moleculen van twee zuurstofatomen. Een molecule kan dus ook uit atomen van één enkel element bestaan.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Lucht is een zuivere stof.",
+        antwoord=False,
+        uitleg="Lucht is een homogeen mengsel van stikstofgas, zuurstofgas, argon, koolstofdioxide en nog wat andere gassen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke uitspraken over een zuivere stof zijn juist? Kruis alles aan wat juist is.",
+        opties=[
+            "ze heeft een vast smeltpunt",
+            "ze heeft een vast kookpunt",
+            "ze bestaat uit één soort deeltjes",
+            "ze bestaat altijd uit één soort atomen",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Een zuivere stof smelt en kookt bij één temperatuur. Ze kan wel samengesteld zijn: water is zuiver en bestaat toch uit waterstof en zuurstof.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je verwarmt een mengsel en de temperatuur blijft tijdens het koken stijgen. Wat leer je daaruit?",
+        opties=[
+            "het is een mengsel, want een zuivere stof kookt bij één vaste temperatuur",
+            "het is een zuivere stof, want die heeft juist een kooktraject",
+            "het is een gas geworden nog voor het begon te koken",
+            "de thermometer staat verkeerd, want dat kan niet gebeuren",
+        ],
+        antwoord=0,
+        uitleg="Een mengsel heeft een kooktraject in plaats van een kookpunt: de temperatuur loopt tijdens het koken op. Dat is een handige manier om zuiver van gemengd te onderscheiden.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een mengsel smelt net als een zuivere stof bij één vaste temperatuur.",
+        antwoord=False,
+        uitleg="Een mengsel heeft een smelttraject: het smelt over een temperatuurgebied, omdat er verschillende stoffen in zitten. Daarom strooit men zout op een besneeuwde weg.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welk mengsel is messing?",
+        opties=[
+            "een legering van koper en zink",
+            "een oplossing van zout in water",
+            "een emulsie van olie in water",
+            "een suspensie van krijt in water",
+        ],
+        antwoord=0,
+        uitleg="Messing is een legering van koper en zink, dus een homogeen mengsel van twee metalen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke mengsels zijn heterogeen? Kruis alles aan wat juist is.",
+        opties=["slagroom", "vinaigrette", "rook", "zeewater"],
+        antwoord=[0, 1, 2],
+        uitleg="Schuim, emulsie en aerosol zijn heterogeen: je kan de delen nog onderscheiden. Zeewater is een oplossing en dus homogeen.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een bestanddeel van een mengsel behoudt zijn eigen stofeigenschappen.",
+        antwoord=True,
+        uitleg="Mengen is geen chemische reactie. Suiker blijft zoet in water, en net daarom kan je de stoffen ook weer scheiden.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je een mengsel waarvan je de bestanddelen met het blote oog of de microscoop nog kan onderscheiden?",
+        antwoord="heterogeen mengsel",
+        uitleg="Bij een heterogeen mengsel zie je meerdere fasen. Een homogeen mengsel ziet er overal hetzelfde uit.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom is water uit de kraan geen zuivere stof?",
+        opties=[
+            "er zitten opgeloste zouten en gassen in",
+            "het is nooit koud genoeg om zuiver te zijn",
+            "het bestaat uit twee verschillende elementen",
+            "het heeft geen vast kookpunt van honderd graden",
+        ],
+        antwoord=0,
+        uitleg="Kraantjeswater is een oplossing: er zitten kalk, andere zouten en opgeloste gassen in. Dat water uit twee elementen bestaat, maakt het nog niet onzuiver.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat is massadichtheid?",
+        opties=[
+            "de massa van een stof per eenheid volume",
+            "de massa van een stof per eenheid oppervlakte",
+            "het volume van een stof per eenheid massa",
+            "het gewicht van een stof op een bepaalde plaats",
+        ],
+        antwoord=0,
+        uitleg="Massadichtheid zegt hoeveel massa er in een bepaald volume zit, bijvoorbeeld in gram per kubieke centimeter. Het is een stofeigenschap.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke eigenschappen zijn stofeigenschappen? Kruis alles aan wat juist is.",
+        opties=["het kookpunt", "de oplosbaarheid", "de geleidbaarheid", "de hoeveelheid die je in de pot hebt"],
+        antwoord=[0, 1, 2],
+        uitleg="Een stofeigenschap hangt niet af van hoeveel je ervan hebt. Kookpunt, oplosbaarheid en geleidbaarheid zijn stofeigenschappen; de hoeveelheid zelf is dat niet.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Scheidingstechnieken maken gebruik van een verschil in stofeigenschap tussen de bestanddelen.",
+        antwoord=True,
+        uitleg="Je scheidt op deeltjesgrootte, op kookpunt, op massadichtheid of op oplosbaarheid. Zonder verschil valt er niets te scheiden.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je wil zand uit water halen. Welke techniek past het best?",
+        opties=["filtreren", "destilleren", "chromatografie", "extraheren"],
+        antwoord=0,
+        uitleg="Het zand blijft als residu op de filter achter, het water loopt als filtraat door. Je scheidt hier op deeltjesgrootte.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je wat er na het filtreren op de filter achterblijft?",
+        antwoord="residu",
+        uitleg="Het residu blijft achter, het filtraat loopt door. Welk van de twee je nodig hebt, hangt af van je doel.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je wil zuiver water uit zeewater halen. Welke techniek gebruik je?",
+        opties=["destilleren", "zeven", "decanteren", "centrifugeren"],
+        antwoord=0,
+        uitleg="Bij destilleren laat je het water verdampen en vang je de damp weer op als vloeistof. Het zout blijft achter, want het kookpunt ligt veel hoger.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Bij decanteren duw je het mengsel door een filter met fijne poriën.",
+        antwoord=False,
+        uitleg="Decanteren is net het voorzichtig afgieten van de vloeistof boven een bezinksel. Door een filter duwen is filtreren.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat doet een centrifuge?",
+        opties=[
+            "ze laat zware deeltjes sneller bezinken door snel rond te draaien",
+            "ze verwarmt het mengsel tot een van de stoffen verdampt",
+            "ze duwt het mengsel door een filter met heel fijne poriën",
+            "ze lost een van de bestanddelen op in een ander oplosmiddel",
+        ],
+        antwoord=0,
+        uitleg="Door de snelle draaibeweging worden de zwaarste deeltjes naar buiten geduwd. Zo scheidt een labo bloedcellen van bloedplasma.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Bij welke technieken speelt het kookpunt een rol? Kruis alles aan wat juist is.",
+        opties=["destilleren", "indampen", "het scheiden van alcohol en water", "zeven"],
+        antwoord=[0, 1, 2],
+        uitleg="Destilleren en indampen steunen allebei op verdampen, en alcohol scheidt van water omdat hun kookpunten verschillen. Zeven gaat over deeltjesgrootte.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Welke techniek gebruik je om keukenzout uit zout water terug te winnen, als het water zelf niet hoeft?",
+        antwoord="indampen",
+        uitleg="Je laat het water verdampen en het zout kristalliseert uit. Daarom spreekt men ook van kristalliseren.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat gebeurt er bij chromatografie?",
+        opties=[
+            "de bestanddelen schuiven verschillend ver mee met een loopmiddel",
+            "de bestanddelen worden op hun kookpunt van elkaar gescheiden",
+            "de bestanddelen worden door een zeef met vaste maaswijdte geduwd",
+            "de bestanddelen bezinken op volgorde van hun massadichtheid",
+        ],
+        antwoord=0,
+        uitleg="Op het papier hecht elke stof zich anders vast en reist ze dus anders ver. Zo zie je uit welke kleurstoffen een zwarte stift bestaat.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Extraheren is een stof uit een mengsel halen met een oplosmiddel waarin alleen zij oplost.",
+        antwoord=True,
+        uitleg="Zo haal je bijvoorbeeld de smaakstoffen uit theeblaadjes met heet water. Je gebruikt het verschil in oplosbaarheid.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarop steunt adsorptie als scheidingstechniek?",
+        opties=[
+            "bepaalde stoffen hechten zich vast aan het oppervlak van een vaste stof",
+            "bepaalde stoffen lossen beter op in water dan in olie",
+            "bepaalde stoffen verdampen al bij kamertemperatuur",
+            "bepaalde stoffen hebben een veel grotere massadichtheid",
+        ],
+        antwoord=0,
+        uitleg="Actieve kool heeft een enorm inwendig oppervlak. Opgeloste geur- en kleurstoffen blijven daaraan plakken en worden zo uit het water gehaald.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Zeven en filtreren steunen allebei op een verschil in deeltjesgrootte.",
+        antwoord=True,
+        uitleg="Bij allebei houd je de grote deeltjes tegen en laat je de kleine door. Zeven doe je met grovere deeltjes, filtreren met fijnere.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je hebt een mengsel van ijzervijlsel en zand. Welke techniek is hier het handigst?",
+        opties=[
+            "het ijzer met een magneet eruit halen",
+            "het mengsel voorzichtig laten bezinken",
+            "het mengsel tot boven honderd graden verhitten",
+            "het mengsel met een loopmiddel laten schuiven",
+        ],
+        antwoord=0,
+        uitleg="Alleen ijzer is magnetisch. Je gebruikt dus een stofeigenschap die het ene bestanddeel wel en het andere niet heeft.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke uitspraken over het onderscheid tussen filtraat en residu zijn juist? Kruis alles aan wat juist is.",
+        opties=[
+            "het filtraat is wat door de filter loopt",
+            "het residu blijft op de filter liggen",
+            "allebei kunnen ze het bestanddeel zijn dat je nodig hebt",
+            "het residu is altijd afval",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Wat je nodig hebt, hangt van je doel af. Bij koffiezetten gooi je het residu weg, bij goudwinning is net het residu de buit.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een scheidingstechniek verandert de bestanddelen chemisch.",
+        antwoord=False,
+        uitleg="Bij scheiden blijven de stoffen zelf dezelfde; je haalt ze alleen uit elkaar. Bij een chemische reactie ontstaan er wel nieuwe stoffen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom kan je olie en water niet goed met filtreren scheiden?",
+        opties=[
+            "de druppeltjes zijn vloeibaar en gaan gewoon door de filter",
+            "olie lost volledig op in water en is dus niet meer apart",
+            "de filter neemt de olie op en laat het water erin achter",
+            "olie en water hebben precies hetzelfde kookpunt",
+        ],
+        antwoord=0,
+        uitleg="Filtreren werkt op deeltjesgrootte, en beide vloeistoffen lopen door. Je laat ze beter uitzakken en decanteert, of je gebruikt een scheitrechter.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Welke techniek scheidt de kleurstoffen van een stift op een strook papier?",
+        antwoord="chromatografie",
+        uitleg="De kleurstoffen reizen verschillend ver mee met het loopmiddel. Zo zie je hoeveel kleuren er in de inkt zitten.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je krijgt een troebele vloeistof met zwevende deeltjes die niet bezinken. Welke twee technieken komen het eerst in aanmerking?",
+        opties=[
+            "filtreren of centrifugeren",
+            "destilleren of indampen",
+            "extraheren of adsorberen",
+            "zeven of decanteren",
+        ],
+        antwoord=0,
+        uitleg="Zweven de deeltjes te fijn om te bezinken, dan houd je ze tegen met een filter of duw je ze naar buiten met een centrifuge.",
+    ),
+]

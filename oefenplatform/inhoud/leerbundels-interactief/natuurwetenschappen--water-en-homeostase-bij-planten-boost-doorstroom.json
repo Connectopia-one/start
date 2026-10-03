@@ -1,0 +1,138 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Water en homeostase bij planten",
+ "onder": "De waterhuishouding van een plant, de huidmondjes, de transportweefsels en de plantenhormonen.",
+ "secties": [
+  {
+   "kop": "Homeostase en het feedbacksysteem",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Met <strong>homeostase</strong> bij een plant bedoelen we dat ze haar <strong>inwendig milieu stabiel houdt terwijl de omgeving verandert</strong>. Het is geen stilstand: er wordt voortdurend bijgestuurd."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat bijsturen gebeurt met een <strong>feedbacksysteem</strong>: de plant gebruikt het <strong>gevolg van een proces om dat proces zelf bij te sturen</strong>. Krijgt ze het <strong>signaal</strong> dat ze te veel water verliest, dan <strong>verslappen de sluitcellen en gaan de huidmondjes dicht</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>omgevingsfactoren</strong> die de <strong>waterhuishouding</strong> beïnvloeden zijn de <strong>lichtsterkte</strong> die op de <strong>bladeren</strong> valt, de <strong>temperatuur van de lucht</strong> rond de plant, en de <strong>vochtigheidsgraad van de bodem en de lucht</strong>. De kleur van de bloemblaadjes speelt daarin geen rol."
+    },
+    {
+     "soort": "tekst",
+     "html": "De waterhuishouding bestaat uit <strong>drie stappen</strong>: <strong>wateropname</strong>, <strong>watertransport</strong> en <strong>transpiratie</strong>. Ze staat <strong>niet los van de fotosynthese</strong>: langs dezelfde huidmondjes die water laten ontsnappen, moet ook het koolstofdioxide binnen. En ze is een voorbeeld van homeostase, want de plant <strong>stuurt opname en verlies bij zodat haar watergehalte binnen grenzen blijft</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Wateropname en turgor",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een plant neemt het grootste deel van haar water op met de <strong>wortelharen</strong>, net achter de <strong>worteltop</strong>. Dat zijn lange, dunne uitlopers van de huidcellen; ze vergroten het oppervlak waarmee de wortel opneemt. Het water gaat naar binnen door <strong>osmose</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>turgor</strong> is de <strong>druk van het vocht in de vacuole</strong>, waardoor een plantencel <strong>stevig blijft staan</strong>. Die druk houdt een niet-houtige plant rechtop. De <strong>celwand</strong> houdt de cel tegen als er veel water in zit, en daarom barst een plantencel niet open in zuiver water."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>kamerplant die je een week niet begiet</strong> gaat <strong>verwelken</strong>: de cellen <strong>verliezen hun turgor</strong> doordat de <strong>vacuoles leeglopen</strong>. Leg je een plantencel in een sterk zoute oplossing, dan trekt het celmembraan van de celwand weg, en dat heet <strong>plasmolyse</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Watertransport",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het water met de opgeloste zouten gaat van de wortel naar het blad door de <strong>xyleemvaten</strong>, ook wel <strong>houtvaten</strong> genoemd. De suikers uit het blad gaan naar de rest van de plant door het <strong>floëem</strong> of de <strong>zeefvaten</strong>. <strong>Houtvaten en zeefvaten liggen samen in vaatbundels</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Water en assimilaten gaan dus <strong>niet door dezelfde vaten</strong>: elk heeft zijn eigen transportweefsel. Het water gaat altijd naar boven, de assimilaten naar waar ze nodig zijn, dus in twee richtingen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kracht</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Worteldruk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de druk waarmee de wortel water in de houtvaten duwt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Transpiratiezuiging</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de zuigkracht die bovenaan ontstaat doordat er water uit de bladeren verdampt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Capillariteit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">water kruipt vanzelf omhoog in een heel nauwe buis</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Cohesie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de watermoleculen houden elkaar vast, zodat de kolom niet breekt</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>transpiratiezuiging</strong> is de motor van het transport. Worteldruk alleen volstaat niet om water tot in de top van een boom te brengen."
+    }
+   ]
+  },
+  {
+   "kop": "De huidmondjes",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>huidmondjes</strong> liggen bij de meeste bladeren vooral aan de <strong>onderkant van het blad</strong>. Elk huidmondje zit tussen twee <strong>boonvormige sluitcellen</strong>, en die openen en sluiten het."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Verliezen de sluitcellen hun turgor</strong>, dan <strong>gaat het huidmondje dicht</strong>, <strong>daalt de verdamping</strong> door dat blad, en wordt de <strong>opname van koolstofdioxide moeilijker</strong>. Dat is precies de tegenstelling waarmee de plant zit: sluiten spaart water maar legt de fotosynthese stil."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>felle zon en grote droogte</strong> zet een plant haar huidmondjes dus <strong>niet</strong> zo ver mogelijk open; ze sluit ze juist om water te sparen. Bij genoeg water en veel licht gaan ze wel open."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Transpiratie</strong> zorgt voor een <strong>zuigkracht die water omhoog trekt</strong>, <strong>koelt het blad af</strong> bij warm weer, en gebeurt <strong>vooral via de huidmondjes</strong>. Een plant verliest haar water dus niet via de bloemen. Staat ze in <strong>heel vochtige lucht</strong>, dan <strong>daalt</strong> haar transpiratie, want het verschil in vochtigheid met de omgeving wordt kleiner."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>volle fotosynthese</strong> ontsnapt er <strong>zuurstofgas</strong> door de huidmondjes. <strong>Water verplaatst zich in de plant van de wortel naar het blad</strong>, en nooit omgekeerd."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een grote boom kan op een warme dag honderden liters water verdampen. Bijna al het water dat door de wortels binnenkomt, verlaat de plant weer als damp."
+    }
+   ]
+  },
+  {
+   "kop": "De organen en de weefsels",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een plant onderscheid je <strong>vier organen</strong>: de <strong>wortel</strong>, de <strong>stengel</strong>, het <strong>blad</strong> en de <strong>bloem</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij het <strong>huidweefsel</strong> horen de <strong>epidermis</strong>, de <strong>cuticula</strong> of <strong>waslaag</strong>, en de <strong>bast</strong>. De <strong>cuticula</strong> op een blad <strong>beperkt het waterverlies</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>vulweefsel</strong> of parenchym vult de ruimte tussen de vaten en slaat stoffen op. In een blad bevat het <strong>wel degelijk veel bladgroenkorrels</strong>, en juist daar gebeurt het grootste deel van de fotosynthese."
+    }
+   ]
+  },
+  {
+   "kop": "Fotosynthese en de plantenhormonen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Voor de <strong>fotosynthese</strong> heeft een plant <strong>water</strong>, <strong>koolstofdioxide</strong> en <strong>licht als energiebron</strong> nodig. Er ontstaan <strong>glucose en zuurstofgas</strong>. Dat gebeurt in het organel dat <strong>chloroplast</strong> heet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een plant in het <strong>donker</strong> maakt dus <strong>niet</strong> even veel glucose als een plant in het licht: zonder licht valt de fotosynthese stil. Bij <strong>aanhoudende droogte</strong> legt een plant haar fotosynthese <strong>grotendeels stil</strong>, want haar <strong>huidmondjes staan dicht</strong> en er komt amper koolstofdioxide binnen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>assimilaat</strong> is een <strong>suiker die de plant zelf maakt bij de fotosynthese</strong>. Een <strong>fotoreceptor</strong> van een plant vangt de <strong>prikkel licht</strong> op; daarmee merkt ze van welke kant het licht komt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Plantenhormoon</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Auxine</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoopt zich op aan de donkere kant en laat die kant sneller strekken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ethyleen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">brengt de rijping van vruchten op gang</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Abscisinezuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">laat de huidmondjes sluiten bij droogte, helpt water sparen en speelt mee bij het verliezen van bladeren</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom groeit een plant op de <strong>vensterbank duidelijk naar het raam toe</strong>: het <strong>auxine</strong> hoopt zich op aan de <strong>donkere kant</strong> en laat die kant <strong>sneller strekken</strong>, waardoor de stengel naar het licht buigt."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

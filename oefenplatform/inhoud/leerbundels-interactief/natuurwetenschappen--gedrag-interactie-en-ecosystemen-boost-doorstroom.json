@@ -1,0 +1,130 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Gedrag, interactie en ecosystemen",
+ "onder": "Aangeboren en aangeleerd gedrag, de interacties tussen soorten, en hoe energie en materie door een ecosysteem gaan.",
+ "secties": [
+  {
+   "kop": "Aangeboren en aangeleerd gedrag",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Aangeboren gedrag</strong> is <strong>gedrag dat een dier vertoont zonder het ooit geleerd te hebben</strong>. <strong>Aangeleerd gedrag</strong> is er in verschillende vormen: <strong>conditioneren</strong>, <strong>trial-and-error</strong> en <strong>imitatie</strong>. <strong>Baltsgedrag</strong> is geen aangeleerd gedrag."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vorm van leren</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Conditioneren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een hond kwijlt bij het geluid van de voerbak, nog voor hij eten ziet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Gewenning</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het dier stopt met reageren op een prikkel die telkens zonder gevolg blijft</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Inprenting</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gebeurt in een korte, vaste periode kort na de geboorte</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Trial-and-error</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het dier probeert tot iets lukt en houdt dat over</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Imitatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het dier kijkt het gedrag van een ander af</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Gedrag tussen dieren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Baltsgedrag</strong> heeft als functie <strong>een partner van dezelfde soort aan te trekken en te overtuigen</strong>. <strong>Territoriumgedrag</strong> is het gedrag waarbij een <strong>dier zijn eigen gebied afbakent en verdedigt</strong>. <strong>Imponeergedrag is een vorm van conflictgedrag waarbij het meestal niet tot een echt gevecht komt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>taakverdeling binnen een mierenkolonie</strong> is <strong>gedrag dat de hele groep ten goede komt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort communicatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Chemische communicatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een mier die een geurspoor achterlaat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Visuele communicatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kleurenpracht van een pauwenstaart, de dans van een honingbij, het opzetten van de haren bij een kat</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Auditieve communicatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het blaffen van een hond bij de deur</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Interacties tussen soorten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Interactie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wie er voordeel of schade van heeft</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Mutualisme</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beide organismen hebben voordeel bij hun samenleven</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Commensalisme</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het ene heeft voordeel, het andere merkt er niets van</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Parasitisme</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het ene heeft voordeel, het andere ondervindt er schade van</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Predatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het roofdier heeft voordeel, de prooi verliest</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Concurrentie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beide soorten willen hetzelfde, bijvoorbeeld hetzelfde zaad op hetzelfde veld</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Antibiose</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het ene maakt een stof die een ander organisme remt of doodt</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>commensalisme hebben dus niet beide organismen even veel voordeel</strong>, en bij <strong>predatie hebben niet beide organismen voordeel</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Over <strong>symbiose</strong>: <strong>twee soorten leven nauw met elkaar samen</strong>, <strong>mutualisme is er een vorm van</strong> en ze <strong>kan voor één of voor beide partners voordelig zijn</strong>. Ze <strong>bestaat niet alleen tussen dieren onderling</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De aantallen van een <strong>prooi en een roofdier lopen met een vertraging achter elkaar aan</strong>: <strong>veel prooi laat de roofdieren toenemen, en veel roofdieren laten de prooi weer afnemen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zo'n interactie raakt ook onze eigen gezondheid: <strong>nuttige darmbacteriën houden ziekteverwekkers op afstand</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Wat een ecosysteem is",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>ecosysteem</strong> is <strong>alle organismen in een gebied samen met hun niet-levende omgeving</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>abiotische factoren</strong> zijn de <strong>niet-levende factoren, zoals licht, temperatuur en bodem</strong>: de <strong>temperatuur</strong>, de <strong>hoeveelheid licht</strong> en de <strong>zuurtegraad van de bodem</strong> horen erbij. <strong>Betreding, begrazing en bemesting zijn biotische factoren</strong>, want daar komt een levend wezen aan te pas; de <strong>begrazing door schapen</strong> is dus niet abiotisch."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rol in het ecosysteem</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat die groep doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Producenten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maken met fotosynthese energierijke stoffen uit energiearme</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Consumenten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eten andere organismen; een consument van de eerste orde eet plantaardig materiaal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Reducenten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">breken dood organisch materiaal af tot minerale stoffen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>consument van de eerste orde eet dus geen andere dieren</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>voedselweb is een betere voorstelling dan één voedselketen</strong> omdat de <strong>meeste soorten van meer dan één soort eten en door meer dan één soort gegeten worden</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Energie en materie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>energie in een ecosysteem stroomt in één richting en gaat stap voor stap als warmte verloren</strong>. Daarom zit er <strong>in een piramide van biomassa in elke hogere schakel minder materie dan in de schakel eronder</strong>, en zijn er <strong>veel meer planten dan toproofdieren</strong>: bij elke stap in de keten gaat het grootste deel van de energie verloren."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Celademhaling</strong> is het proces dat <strong>energierijke stoffen weer omzet in energiearme en daarbij energie vrijmaakt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de <strong>koolstofkringloop</strong> horen de <strong>fotosynthese van planten</strong>, de <strong>celademhaling van planten en dieren</strong> en het <strong>afbreken van dood materiaal door reducenten</strong>; het <strong>verdampen van water uit de oceaan</strong> hoort bij de waterkringloop. Die <strong>waterkringloop staat niet volledig los van de koolstofkringloop</strong>: ze grijpen in elkaar. <strong>Reducenten maken de materiekringloop rond.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "In de <strong>stikstofkringloop zetten bacteriën stikstof om in vormen die planten kunnen opnemen</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Verstoring en biodiversiteit",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Biodiversiteit</strong> is belangrijk omdat <strong>hoe meer soorten, hoe beter het systeem een verstoring kan opvangen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Krijgt een <strong>meer jarenlang te veel mest</strong> binnen, dan <strong>vermeerderen de algen zich sterk</strong>, <strong>dringt er minder licht door tot in de diepte</strong> en <strong>daalt het zuurstofgehalte wanneer de algen afsterven</strong>. De <strong>biodiversiteit neemt daarbij niet toe</strong>, ze gaat achteruit."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Klimaatverandering</strong> doet <strong>soorten verschuiven of verdwijnen omdat hun leefomstandigheden veranderen</strong>. Verliest een <strong>bos door ziekte bijna al zijn bomen</strong>, dan <strong>raken de voedselrelaties en de kringlopen verstoord, en verdwijnen veel soorten mee</strong>."
+    },
+    {
+     "soort": "weetje",
+     "html": "Wolven zijn in 1995 opnieuw in Yellowstone uitgezet. Omdat de elanden daarna minder lang op dezelfde plek bleven grazen, groeiden de wilgen langs de rivieren terug, en met hen de bevers en de vogels."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

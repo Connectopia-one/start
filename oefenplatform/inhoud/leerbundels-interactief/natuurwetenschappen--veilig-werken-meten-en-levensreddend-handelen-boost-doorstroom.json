@@ -1,0 +1,117 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Veilig werken, meten en levensreddend handelen",
+ "onder": "De pictogrammen en de P- en H-zinnen, de meetinstrumenten, en eerste hulp bij hartstilstand, verdrinking en verslikking.",
+ "secties": [
+  {
+   "kop": "Veilig en duurzaam werken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op een flesje met een chemische stof staan drie soorten informatie. Een <strong>pictogram</strong> toont in één beeld wat het gevaar is: een <strong>vlam</strong> betekent <strong>ontvlambaar</strong>, en voor een <strong>sterk zuur</strong> verwacht je het pictogram voor <strong>bijtende stoffen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>H-zinnen</strong> beschrijven het <strong>gevaar</strong> (H van hazard); de <strong>P-zinnen</strong> zeggen welke <strong>voorzorgen</strong> je moet nemen (P van precaution). Lees je H314, veroorzaakt ernstige brandwonden en oogletsel, dan draag je <strong>handschoenen en een veiligheidsbril</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij goed werken in het labo hoort: <strong>gemorste producten onmiddellijk opkuisen</strong>, <strong>zuinig omgaan met chemische stoffen</strong>, <strong>meetinstrumenten uitschakelen als je niet meet</strong> (dat spaart energie en de batterij), <strong>hygiënisch werken met biologisch materiaal</strong> met handschoenen, en <strong>voorzichtig met glaswerk</strong>. <strong>Glasscherven</strong> ruim je op met een borstel en een blad, in de bak voor <strong>scherp afval</strong>, nooit bij het gewone afval en nooit met je handen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Werk <strong>nooit met natte handen</strong> aan een elektrisch toestel, en lees de <strong>handleiding en de onderhoudsvoorschriften</strong> van een toestel voor je het gebruikt."
+    }
+   ]
+  },
+  {
+   "kop": "Meten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Instrument</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Meet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Balans</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">massa</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Chronometer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tijd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Thermometer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">temperatuur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Dynamometer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kracht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pH-meter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zuurtegraad</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Manometer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">druk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Multimeter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stroomsterkte, spanning en weerstand</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Calorimeter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opgenomen of afgegeven warmte</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>meetbereik</strong> van een instrument is de <strong>kleinste en de grootste waarde</strong> die het kan meten. Meet je buiten dat bereik, dan is het resultaat onbruikbaar of gaat het toestel stuk. Kies dus een instrument met genoeg <strong>nauwkeurigheid</strong> voor je meting: voor <strong>25 milliliter nauwkeurig afmeten</strong> neem je een <strong>pipet</strong> of een maatkolf, niet een maatbeker, want die is om te mengen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>meting is nooit helemaal exact</strong>, want elk instrument heeft een beperkte nauwkeurigheid. Daarom schrijf je een resultaat in het juiste aantal <strong>beduidende cijfers</strong>: meet je 1,2 meter, dan heb je er <strong>twee</strong>, en 1,200 meter opschrijven suggereert een nauwkeurigheid die er niet is. Meet je 325 gram op een balans die tot op een gram meet, dan schrijf je precies <strong>325 gram</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "In de <strong>wetenschappelijke notatie</strong> schrijf je een getal als een <strong>getal tussen 1 en 10 maal een macht van tien</strong>: 0,000045 meter wordt 4,5 maal tien tot de macht min vijf meter. En maak altijd eerst een <strong>schatting</strong>: dan zie je een uitkomst van een verkeerde grootte meteen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het voorvoegsel <strong>milli</strong> is een <strong>duizendste</strong>, <strong>micro</strong> een miljoenste en <strong>nano</strong> een miljardste; <strong>kilo</strong> is duizend en <strong>mega</strong> een miljoen. <strong>2,5 kilometer is 2500 meter</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Eerste hulp: de eerste stappen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een slachtoffer dat <strong>niet reageert</strong> doe je altijd eerst hetzelfde: <strong>roep om hulp</strong> en <strong>controleer of het normaal ademt</strong>. Eerst kijken en roepen, dan pas handelen. Zo weet je of je moet reanimeren of in zijligging moet leggen, en komt er al hulp onderweg."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het noodnummer in België en in heel Europa is <strong>112</strong>, en het is gratis. Zet je telefoon op de luidspreker, zodat je handen vrij blijven."
+    },
+    {
+     "soort": "tekst",
+     "html": "Reageert het slachtoffer <strong>niet</strong> maar ademt het <strong>wel normaal</strong>, dan leg je het in <strong>stabiele zijligging</strong>: zo blijft de <strong>luchtweg vrij</strong> en kan vocht uit de mond lopen. <strong>Op de rug</strong> kan de <strong>tong of braaksel de luchtweg afsluiten</strong>, en daarom is de rug de verkeerde houding."
+    }
+   ]
+  },
+  {
+   "kop": "Hartstilstand",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>hartstilstand pompt het hart geen bloed meer rond</strong>. Je herkent hem doordat het slachtoffer <strong>niet reageert</strong> en <strong>niet of niet normaal ademt</strong>; een paar happende bewegingen zijn geen normale ademhaling. Pijn in de arm kan een waarschuwing vooraf zijn, maar is zelf geen hartstilstand."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zonder bloedcirculatie krijgen de hersenen geen zuurstof. Je moet dus <strong>binnen enkele minuten met een reanimatie beginnen</strong>: eerst <strong>hulp bellen</strong>, dan onmiddellijk <strong>hartmassage</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>hartmassage</strong> duw je <strong>midden op de borstkas</strong>, op het onderste deel van het <strong>borstbeen</strong>, met de hiel van je hand en recht naar beneden. Je duwt <strong>vijf tot zes centimeter</strong> diep en laat de borstkas tussen twee duwbewegingen <strong>volledig terugkomen</strong>. Het tempo is ongeveer <strong>honderd tot honderdtwintig</strong> duwbewegingen per minuut."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>reanimatie</strong> wissel je <strong>dertig hartmassages af met twee beademingen</strong>. Kan je niet beademen, dan blijf je toch doorduwen. Je gaat door tot de <strong>hulpdiensten overnemen</strong> of het slachtoffer weer normaal ademt. Je mag een <strong>reanimatie dus niet stoppen zodra je moe wordt</strong>: dan wissel je af met iemand anders."
+    }
+   ]
+  },
+  {
+   "kop": "Verdrinking en verslikking",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>verdrinking</strong> is het <strong>zuurstoftekort</strong> het grootste gevaar: water in de luchtweg belet de opname van zuurstof. Zorg <strong>eerst voor je eigen veiligheid</strong>, haal het slachtoffer <strong>uit het water als dat veilig kan</strong>, en begin bij een slachtoffer dat niet ademt met <strong>beademen</strong>. Reik liever iets aan of roep hulp dan dat je zomaar het water in springt: een hulpverlener die zelf verdrinkt helpt niemand."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>verslikking</strong> zit er iets in de luchtweg. Kan de persoon nog <strong>krachtig hoesten</strong>, dan <strong>moedig je het hoesten aan</strong> en blijf je erbij: hoesten is de krachtigste manier om een voorwerp los te krijgen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>ernstige verslikking</strong> herken je doordat de persoon <strong>niet meer kan hoesten, spreken of goed ademen</strong>. Dan begin je onmiddellijk met <strong>vijf rugslagen</strong>: slagen met de hiel van je hand <strong>tussen de schouderbladen</strong>, terwijl de persoon voorover buigt zodat het voorwerp naar buiten kan."
+    },
+    {
+     "soort": "tekst",
+     "html": "Helpt dat niet, dan geef je <strong>vijf buikstoten</strong>: je staat achter de persoon en trekt je vuist schuin naar boven, onder het borstbeen. Je blijft <strong>rugslagen en buikstoten afwisselen</strong> tot het voorwerp loskomt. Verliest de persoon het bewustzijn, dan begin je te <strong>reanimeren</strong>. Laat intussen <strong>112</strong> bellen."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een leeftijd maakt verschil: bij een baby geef je geen buikstoten maar borstcompressies, en de rugslagen zijn veel zachter. Een cursus eerste hulp laat je dat op een pop oefenen, en dat is iets anders dan het lezen."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

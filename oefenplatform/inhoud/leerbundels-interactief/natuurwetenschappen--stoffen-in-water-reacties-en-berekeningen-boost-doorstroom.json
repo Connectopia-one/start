@@ -1,0 +1,117 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Stoffen in water, reacties en berekeningen",
+ "onder": "Dissociëren en ioniseren, de pH-schaal, de neerslag- en neutralisatiereactie, en het rekenen met mol.",
+ "secties": [
+  {
+   "kop": "Polair, apolair en oplossen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Water is zelf een <strong>polaire</strong> stof, en <strong>gelijk lost op in gelijk</strong>. Daarom lossen <strong>polaire stoffen goed op in water</strong> en <strong>apolaire niet</strong>. Olie mengt niet met water: watermoleculen houden elkaar met hun polaire kanten vast, en een apolaire oliemolecule past daar niet tussen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De typevoorbeelden van <strong>apolaire stoffen</strong> zijn de <strong>enkelvoudige stoffen</strong> (zuurstofgas), <strong>tetrachloormethaan</strong> en de <strong>alkanen</strong> zoals hexaan."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij het oplossen worden de ionen omringd door watermoleculen, met hun negatieve kant naar de positieve ionen en omgekeerd. Dat heet <strong>hydratatie</strong>, en zo blijven de ionen gescheiden."
+    }
+   ]
+  },
+  {
+   "kop": "Dissociëren of ioniseren?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Dissociëren</strong> doen <strong>zouten en hydroxiden</strong>: de ionen zaten al in het rooster en <strong>komen los van elkaar</strong>. De <strong>dissociatievergelijking</strong> van <strong>natriumchloride</strong> in water schrijf je dus op als <strong>NaCl wordt Na plus en Cl min</strong>, met dezelfde lading als in het rooster en niet als twee neutrale atomen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Ioniseren</strong> doen <strong>polaire moleculaire verbindingen</strong>, vooral de <strong>zuren</strong>: in <strong>waterstofchloride</strong>, het gas HCl, zitten geen ionen maar moleculen, en in water <strong>valt de molecule uiteen in ionen die er nog niet waren</strong>, een waterstofion en een chloride-ion."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>elektrolyt</strong> is een stof die in water geleidt doordat ze ionen vormt: zouten, zuren en hydroxiden. Een <strong>niet-elektrolyt</strong> lost wel op maar vormt geen ionen: <strong>suiker</strong> en alcohol. Oplossen en geleiden zijn dus twee verschillende dingen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een vast blokje keukenzout geleidt niet, een <strong>zoutoplossing</strong> wel: in de oplossing kunnen de ionen zich <strong>verplaatsen</strong>, in het rooster zitten ze vast. Een <strong>gesmolten zout</strong> geleidt om dezelfde reden, ook zonder water. Een <strong>geleider</strong> geleidt goed, een <strong>isolator</strong> niet."
+    }
+   ]
+  },
+  {
+   "kop": "Zuur, basisch en de pH",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>pH-schaal</strong> loopt gewoonlijk van <strong>0 tot 14</strong>. <strong>Onder 7 is zuur</strong>, <strong>7 is neutraal</strong>, <strong>boven 7 is basisch</strong>. Elke eenheid verschil is een <strong>factor tien</strong>: pH 3 is honderd keer zuurder dan pH 5."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>zuur ioniseert</strong> en geeft <strong>waterstofionen</strong> vrij; een <strong>hydroxide dissocieert</strong> en geeft <strong>hydroxide-ionen</strong> vrij. Los je natriumhydroxide op, dan komt de pH dus <strong>boven 7</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>zuur-base indicator</strong> verandert van <strong>kleur</strong> bij een bepaalde pH; welke kleur bij welke waarde hoort, lees je af in een tabel. Wordt een indicator <strong>rood</strong>, dan is de oplossing meestal <strong>zuur</strong>. Een <strong>pH-meter</strong> geeft de waarde als <strong>getal</strong> en is veel nauwkeuriger."
+    }
+   ]
+  },
+  {
+   "kop": "Neerslag, neutralisatie en redox",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<p>De essentiële reactievergelijking en de redoxreacties met oxidatiegetallen staan enkel in de uitgebreide fiche, dus voor moderne talen en Latijn.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>neerslagreactie</strong> ontstaat uit twee oplossingen een <strong>vaste stof die niet oplost</strong> en naar de bodem zakt. Zilverionen bij chloride-ionen geven een <strong>witte neerslag van zilverchloride</strong>. Of er neerslag komt, kijk je na in een <strong>oplosbaarheidstabel</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>neutralisatiereactie</strong> tussen een zuur en een base ontstaat er een <strong>zout en water</strong>, en de pH schuift naar <strong>7</strong> toe. De <strong>essentiële reactievergelijking</strong> laat de ionen weg die niet meedoen, de <strong>spectatorionen</strong>. Voor elke neutralisatie is dat dus: een <strong>waterstofion en een hydroxide-ion vormen samen water</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>redoxreactie</strong> worden er elektronen overgedragen. <strong>Oxidatie</strong> is <strong>elektronen afstaan</strong>, en het oxidatiegetal <strong>stijgt</strong>; <strong>reductie</strong> is ze <strong>opnemen</strong>, en het oxidatiegetal <strong>daalt</strong>. De <strong>oxidator neemt op</strong>, de <strong>reductor staat af</strong>. Het ene gaat nooit zonder het andere, en er verandert dus altijd minstens bij <strong>twee elementen</strong> een oxidatiegetal."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee stoffen die je samengiet geven <strong>vaak niets</strong>: dan lossen alle mogelijke combinaties goed op. Dat weet je vooraf uit de oplosbaarheidstabel."
+    }
+   ]
+  },
+  {
+   "kop": "Rekenen met mol",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Eén <strong>mol</strong> is altijd <strong>hetzelfde aantal deeltjes</strong>, ongeveer <strong>6 maal 10 tot de 23</strong>. Dat getal heet het <strong>getal van Avogadro</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je zoekt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe je rekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">massa</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stofhoeveelheid maal molaire massa</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stofhoeveelheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">massa gedeeld door molaire massa</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">molaire concentratie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aantal mol gedeeld door volume in liter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aantal deeltjes</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aantal mol maal het getal van Avogadro</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>molaire massa</strong> lees je af in het periodiek systeem, in <strong>gram per mol</strong>; voor een molecule tel je de atomen samen. Water heeft 18 gram per mol, dus is <strong>2 mol water 36 gram</strong>, en <strong>36 gram water 2 mol</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>molaire concentratie</strong> zegt hoeveel mol er in één liter zit, in <strong>mol per liter</strong>. Eén mol in een halve liter geeft dus <strong>2 mol per liter</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>coëfficiënten</strong> voor de formules in een reactievergelijking geven de <strong>verhouding in mol</strong> waarin de stoffen reageren; dat heet de <strong>stoichiometrische verhouding</strong>. Wil je grammen, dan reken je eerst van mol naar massa. Bij een <strong>aflopende reactie</strong> gaat het door tot <strong>één van de stoffen volledig opgebruikt</strong> is, en die bepaalt hoeveel product je krijgt."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een mol koolstof weegt 12 gram en past in je hand. Toch zitten daar meer atomen in dan er sterren in het zichtbare heelal staan."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

@@ -1,0 +1,121 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Voortplanting en de hormonale regeling",
+ "onder": "De twee voortplantingsstelsels, de menstruatiecyclus en het feedbacksysteem dat beide regelt.",
+ "secties": [
+  {
+   "kop": "Het vrouwelijk voortplantingsstelsel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij het <strong>vrouwelijk voortplantingsstelsel</strong> horen de <strong>eierstok</strong>, de <strong>eileider met de eitrechter</strong> en de <strong>baarmoeder</strong>. De <strong>bijbal</strong> hoort er niet bij, die is van de man."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>eicel rijpt in een follikel in de eierstok</strong>. Het vrijkomen van die eicel, rond het midden van de cyclus, is de <strong>eisprong</strong>. De eicel wordt daarna <strong>niet</strong> door de baarmoeder opgevangen maar door de <strong>eitrechter</strong>, en de <strong>bevruchting vindt normaal in de eileider plaats</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Uit de follikel ontstaat na de eisprong het <strong>geel lichaam</strong>. Dat maakt vooral <strong>progesteron</strong> aan."
+    },
+    {
+     "soort": "tekst",
+     "html": "De cel die ontstaat als een <strong>zaadcel en een eicel versmelten</strong>, heet de <strong>zygote</strong>; dat versmelten zelf is de <strong>bevruchting</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De menstruatiecyclus",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>menstruatiecyclus begint op de eerste dag van de menstruatie</strong> en duurt gemiddeld <strong>ongeveer 28 dagen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wanneer</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat er gebeurt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Eerste helft</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het baarmoederslijmvlies wordt dikker en beter doorbloed</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Rond dag 14</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de eisprong; de lichaamstemperatuur ligt daarna gemiddeld iets hoger</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Tweede helft</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het geel lichaam houdt met progesteron het slijmvlies in stand</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Geen bevruchting</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het geel lichaam valt weg, het slijmvlies laat los</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>vruchtbare periode</strong> ligt <strong>in de dagen rond de eisprong</strong>, niet de hele cyclus even sterk."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wordt de eicel <strong>niet bevrucht</strong>, dan <strong>valt het geel lichaam na een tiental dagen weg</strong>, <strong>daalt het gehalte progesteron</strong> en <strong>laat het baarmoederslijmvlies los, zodat de menstruatie begint</strong>. Dat komt zo: <strong>zonder progesteron kan het dikke slijmvlies niet in stand blijven</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De hormonen van de cyclus",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In de hormonale regeling van de cyclus spelen drie klieren mee: de <strong>hypothalamus</strong>, de <strong>hypofyse</strong> en de <strong>eierstok</strong>. De <strong>hypofyse ligt in de buurt van de hypothalamus, onderaan de hersenen</strong>. De schildklier staat erbuiten."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hormoon</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar het vandaan komt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">GnRH</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hypothalamus</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zet de hypofyse aan om FSH en LH te maken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">FSH</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hypofyse</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">laat de follikel in de eierstok rijpen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">LH</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hypofyse</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een plotse piek brengt de eisprong op gang</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Oestrogeen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eierstok</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">laat het slijmvlies in de eerste helft aangroeien</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Progesteron</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geel lichaam</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">houdt het slijmvlies in de tweede helft in stand</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Oestrogeen wordt dus niet door de hypofyse gemaakt</strong> maar door de eierstok."
+    }
+   ]
+  },
+  {
+   "kop": "Het mannelijk voortplantingsstelsel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij het <strong>mannelijk voortplantingsstelsel</strong> horen de <strong>teelbal</strong>, de <strong>bijbal</strong> en de <strong>zaadleider</strong>; de eitrechter hoort er niet bij. <strong>Zaadcellen worden in de teelballen gevormd</strong>, en de <strong>bijbal laat ze rijpen en bewaart ze</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>teelballen liggen buiten de buikholte</strong> omdat de <strong>zaadcelvorming beter verloopt bij een iets lagere temperatuur</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>zaadcel is klein en beweegt zich met een zweepstaart</strong>. De <strong>zaadcelvorming verloopt doorlopend</strong>, dus <strong>niet</strong> in cycli van ongeveer achtentwintig dagen zoals bij de vrouw."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Cellen in de teelbal</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze doen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Cellen van Leydig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maken testosteron aan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Cellen van Sertoli</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voeden en begeleiden de rijpende zaadcellen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Naast de zaadcelvorming zorgt <strong>testosteron voor de ontwikkeling van de secundaire geslachtskenmerken</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de man stuurt <strong>LH de cellen van Leydig aan</strong> en <strong>FSH de cellen van Sertoli</strong>; <strong>FSH stuurt dus niet vooral de cellen van Leydig aan</strong>. Het hormoon dat de <strong>afgifte van FSH remt</strong>, is <strong>inhibine</strong>; <strong>inhibine stimuleert de hypofyse dus niet</strong> om meer FSH te maken."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>GnRH, FSH en LH</strong> spelen <strong>bij zowel man als vrouw</strong> een rol; <strong>progesteron</strong> niet."
+    }
+   ]
+  },
+  {
+   "kop": "Feedback",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "We noemen de regeling van de cyclus een <strong>feedbacksysteem</strong> omdat de <strong>hormonen uit de eierstok de hypothalamus en de hypofyse op hun beurt bijsturen</strong>. Zo'n systeem <strong>kan zowel remmen als stimuleren</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wordt bij de man het <strong>testosterongehalte te hoog</strong>, dan <strong>geeft de hypothalamus minder GnRH af</strong>, <strong>geeft de hypofyse minder LH af</strong> en <strong>maken de cellen van Leydig daarna minder testosteron</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een schema van een feedbacksysteem betekent een <strong>pijl met een minteken van de eierstok naar de hypofyse</strong> dat het <strong>hormoon uit de eierstok de hypofyse afremt</strong>."
+    },
+    {
+     "soort": "weetje",
+     "html": "Precies dat remmende verband is waar de pil op werkt: hij houdt de hormonen van buitenaf op peil, zodat de hypofyse geen LH-piek meer geeft en de eisprong uitblijft."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

@@ -1,0 +1,108 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Warmte en faseovergangen",
+ "onder": "Warmtetransport, het thermisch evenwicht, de merkbare en de latente warmte, en de faseovergangen.",
+ "secties": [
+  {
+   "kop": "Temperatuur en warmte",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Temperatuur</strong> zegt hoe warm iets is en hangt samen met de <strong>kinetische energie van de deeltjes</strong>: hoe sneller ze bewegen, hoe hoger de temperatuur. <strong>Warmte</strong> is <strong>energie die overgaat</strong> en meet je in <strong>joule</strong>. Het zijn dus twee verschillende dingen: een bad van 30 graden bevat veel meer warmte dan een kop thee van 60 graden."
+    },
+    {
+     "soort": "tekst",
+     "html": "Warmte gaat <strong>altijd van warm naar koud</strong>. <strong>Koude bestaat niet</strong> als iets dat overgaat: ze is alleen een gebrek aan warmte. Het <strong>thermisch evenwicht</strong> is de toestand waarin beide voorwerpen <strong>dezelfde temperatuur</strong> hebben; dan stopt de netto overdracht."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vorm van warmtetransport</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe het werkt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stof nodig?</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Geleiding</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de deeltjes geven hun beweging aan hun buren door</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Convectie of stroming</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de stof zelf verplaatst zich en neemt de warmte mee</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Straling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de warmte gaat als golven door de ruimte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">neen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Straling</strong> is de enige vorm die <strong>door het luchtledige</strong> gaat; zo bereikt de warmte van de zon ons. In een <strong>metalen staaf</strong> gaat de warmte door <strong>geleiding</strong>: de deeltjes blijven op hun plaats en stoten hun buren aan, en in een metaal helpen de vrije elektronen daarbij. Bij <strong>convectie</strong> stijgt warme lucht of warm water: opwarmen doet een gas <strong>uitzetten</strong>, zijn massadichtheid zakt, en de koudere lucht zakt eronder."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Verdampen is een faseovergang</strong>, geen transportvorm. Let dus op het verschil."
+    }
+   ]
+  },
+  {
+   "kop": "Merkbare warmte",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Merkbare warmte</strong> is de warmte die je <strong>merkt aan een verandering van temperatuur</strong>. Je rekent ze als de <strong>specifieke warmtecapaciteit maal de massa maal het temperatuurverschil</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>grote specifieke warmtecapaciteit</strong> betekent dat je <strong>veel warmte nodig hebt om één kilogram één graad op te warmen</strong>. <strong>Water</strong> heeft een heel grote warmtecapaciteit, ongeveer <strong>4180 joule per kilogram per graad</strong>. Daarom warmt de zee veel langzamer op dan het zand op het strand, en blijft ze in september nog warm terwijl de lucht al afkoelt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een stof met een <strong>kleine</strong> warmtecapaciteit warmt juist <strong>snel op en koelt ook snel af</strong>. Verwarm je 2 kilogram water van 20 naar 30 graden, dan heb je <strong>83 600 joule</strong> nodig: 4180 maal 2 maal 10. De benodigde warmte is <strong>recht evenredig met de massa</strong>, dus een hele liter vraagt dubbel zo veel als een halve."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>tegelvloer voelt kouder aan dan een tapijt</strong> bij dezelfde temperatuur, omdat de tegel de warmte van je voet veel <strong>sneller wegleidt</strong>. Je voelt dus niet de temperatuur maar hoe snel je warmte verliest."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>calorimeter</strong> of <strong>joulevat</strong> is zo goed geïsoleerd dat je erin kan meten hoeveel warmte een stof opneemt of afgeeft. De <strong>warmtebalans</strong> is een toepassing van de <strong>wet van behoud van energie</strong>: wat het warme deel afgeeft, neemt het koude deel op. Giet je een liter water van 80 graden bij een liter van 20 graden, dan komt de eindtemperatuur op ongeveer <strong>50 graden</strong>, het gemiddelde."
+    }
+   ]
+  },
+  {
+   "kop": "De faseovergangen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Overgang</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Van</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naar</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Warmte</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Smelten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vast</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vloeibaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">neemt op</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Stollen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vloeibaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vast</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geeft af</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Verdampen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vloeibaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">neemt op</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Condenseren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vloeibaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geeft af</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Sublimeren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vast</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">neemt op</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Desublimeren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vast</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geeft af</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De overgangen naar een toestand met <strong>sterkere cohesiekrachten</strong> (stollen, condenseren, desublimeren) <strong>geven warmte af</strong>; de andere drie <strong>nemen warmte op</strong>. <strong>Cohesiekrachten</strong> zijn de krachten waarmee de deeltjes van een stof elkaar vasthouden; hoe sterker ze zijn, hoe hoger het smelt- en kookpunt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij het <strong>smelten</strong> komen de deeltjes <strong>los uit hun vaste plaats maar blijven ze bij elkaar</strong>; in een vloeistof kunnen ze langs elkaar schuiven. Pas bij <strong>verdampen</strong> laten ze elkaar echt los. <strong>Droogijs</strong> sublimeert bij kamertemperatuur; <strong>rijm</strong> op een koude ochtend ontstaat door desublimeren."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>smeltpunt en het stolpunt</strong> van een zuivere stof liggen bij <strong>dezelfde temperatuur</strong>: alleen de richting verschilt. Water smelt en stolt allebei bij nul graden."
+    }
+   ]
+  },
+  {
+   "kop": "Latente warmte",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>faseovergang blijft de temperatuur gelijk</strong>. Alle toegevoerde warmte gaat naar het <strong>verbreken of maken van de bindingen</strong> tussen de deeltjes. Daarom heet ze <strong>latente</strong>, dus verborgen, warmte: je meet er niets van op de thermometer."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom blijft ijs van nul graden <strong>op nul graden</strong> tot al het ijs gesmolten is, en blijft kokend water op <strong>honderd graden</strong> hoe hard je ook stookt; harder stoken maakt alleen dat het sneller leegkookt. In een <strong>smeltcurve</strong> zie je dat als een <strong>vlak stuk</strong>, precies op het smeltpunt."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>latente warmte</strong> is de <strong>specifieke faseovergangswarmte maal de massa</strong>. Er staat geen temperatuurverschil in, want dat is tijdens een faseovergang nul. Om 0,5 kilogram ijs te smelten heb je dus <strong>167 000 joule</strong> nodig, met 334 000 joule per kilogram."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>verdampingswarmte van water is bijzonder groot</strong>: je hebt <strong>meer warmte nodig om water bij honderd graden te laten verdampen dan om het van nul naar honderd graden op te warmen</strong>. Daarom koelt <strong>zweten</strong> zo goed: het verdampen haalt warmte uit je huid. En daarom verbrand je je erger aan <strong>stoom</strong> dan aan water van honderd graden: bij het <strong>condenseren</strong> op je huid komt de hele verdampingswarmte vrij."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>ijsblokje</strong> koelt je glas water af doordat het <strong>warmte uit het water opneemt om te smelten</strong>, niet doordat het koude afgeeft. En fruitboeren zetten bij nachtvorst water tussen de bomen, omdat het <strong>stollen van dat water warmte afgeeft</strong>."
+    },
+    {
+     "soort": "weetje",
+     "html": "Bij een warmtebalans met een faseovergang erin reken je de merkbare en de latente warmte apart en telt ze daarna samen. Vergeet je het vlakke stuk, dan kom je altijd te laag uit."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

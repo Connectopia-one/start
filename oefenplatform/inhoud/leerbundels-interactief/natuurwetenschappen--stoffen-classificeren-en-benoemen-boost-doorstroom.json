@@ -1,0 +1,96 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Stoffen classificeren en benoemen",
+ "onder": "De anorganische stofklassen, de zuurresten, de alkanen en de triviale namen die je moet kennen.",
+ "secties": [
+  {
+   "kop": "De anorganische stofklassen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stofklasse</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waaraan je ze herkent</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Oxide</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een element samen met zuurstof, twee elementen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">calciumoxide, koolstofdioxide</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Hydroxide</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een metaal met een of meer OH-groepen: de hydroxidegroep OH</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">natriumhydroxide, calciumhydroxide</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Zuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de formule begint met waterstof</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waterstofchloride, zwavelzuur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Zout</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een metaalion met een zuurrest</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">natriumchloride, calciumcarbonaat</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Binair</strong> betekent <strong>twee</strong> elementen, <strong>ternair</strong> betekent <strong>drie</strong>. Zoutzuur is dus een <strong>binair zuur</strong> (waterstof en chloor), net als <strong>waterstofchloride</strong>, <strong>waterstofsulfide</strong> en <strong>waterstoffluoride</strong>; zwavelzuur en salpeterzuur zijn <strong>ternair</strong>, want ze bevatten ook zuurstof. Keukenzout is een binair zout, calciumcarbonaat een ternair zout."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>oxide</strong> is altijd binair: één element plus zuurstof. Komt er een derde element bij, dan is het geen oxide meer."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>ammoniumzout</strong> is een zout waarin het <strong>metaalion vervangen is door een ammoniumion</strong>, NH4 plus. Dat ion gedraagt zich als een positief metaalion. Ammoniumnitraat in kunstmest is een bekend voorbeeld."
+    }
+   ]
+  },
+  {
+   "kop": "De zuurresten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Ion</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Formule</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Komt van</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Nitraation</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">NO3 min</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">salpeterzuur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Sulfaation</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">SO4 twee min</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zwavelzuur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Fosfaation</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">PO4 drie min</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fosforzuur, het zuur in frisdrank van het colatype</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Carbonaation</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">CO3 twee min, de carbonaatgroep</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">koolzuur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Chloraation</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ClO3 min</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">chloorzuur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Chloride-ion</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Cl min</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zoutzuur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Sulfide-ion</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">S twee min</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waterstofsulfide</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Let op het verschil tussen de <strong>ionen met zuurstof</strong> en de <strong>ionen zonder</strong>. Het <strong>chloraation</strong> bevat zuurstof, het <strong>chloride-ion</strong> niet; het <strong>sulfaation</strong> bevat zuurstof, het <strong>sulfide-ion</strong> niet. Hetzelfde geldt voor broom en jood."
+    },
+    {
+     "soort": "tekst",
+     "html": "In de <strong>stocknotatie</strong> zet je het <strong>oxidatiegetal van het metaal tussen haakjes</strong>, met een <strong>Romeins cijfer</strong>: ijzer(III)chloride. Dat gebruik je bij <strong>ionverbindingen</strong>. Bij <strong>atoomverbindingen</strong> gebruik je de <strong>Griekse telwoorden</strong>: koolstofdioxide, distikstofoxide."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>brutoformule</strong> telt alleen de atomen (C2H6); een <strong>structuurformule</strong> toont ook de <strong>bindingen</strong> ertussen."
+    }
+   ]
+  },
+  {
+   "kop": "De alkanen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Alkanen</strong> zijn organische stoffen die <strong>alleen uit koolstof en waterstof</strong> bestaan. Het aantal <strong>koolstofatomen</strong> zit in de naam: butaan heeft er <strong>vier</strong>, pentaan <strong>vijf</strong>, octaan <strong>acht</strong> en decaan <strong>tien</strong>. Elk koolstofatoom maakt vier bindingen en de rest wordt met waterstof opgevuld; daarom heten ze ook de verzadigde koolwaterstoffen. Hun naam eindigt op <strong>aan</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Aantal C</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Aantal C</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naam</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">methaan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hexaan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ethaan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">7</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">heptaan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">propaan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">8</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">octaan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">butaan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">9</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nonaan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pentaan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">decaan</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De telwoorden zitten in de naam: <strong>but</strong> is vier, <strong>pent</strong> vijf, <strong>oct</strong> acht, <strong>dec</strong> tien. Zo kan je van naam naar formule en omgekeerd."
+    }
+   ]
+  },
+  {
+   "kop": "De triviale namen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Triviale naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Welke stof</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarvoor</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Water</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">diwaterstofoxide</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">overal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Zoutzuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waterstofchloride in water</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ontkalker</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Zwavelzuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">H2SO4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">autobatterij, industrie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Salpeterzuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">HNO3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kunstmest, industrie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Fosforzuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">H3PO4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cola, roest verwijderen, kunstmest</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ammoniak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">NH3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schoonmaak en kunstmest</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Keukenzout</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">natriumchloride</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voeding, strooizout</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Bakpoeder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">natriumwaterstofcarbonaat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">deeg laten rijzen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Bijtende soda</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">natriumhydroxide</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ontstopper</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ongebluste kalk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">calciumoxide</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bouw</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Gebluste kalk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">calciumhydroxide</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bouw, bodem ontzuren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Koolzuurgas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">koolstofdioxide</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">frisdrank, brandblusser</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Lachgas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">distikstofoxide</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vroeger verdoving</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Aardgas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vooral methaan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verwarmen en koken</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Koolzuurgas en koolzuur zijn niet hetzelfde</strong>: koolzuurgas is koolstofdioxide, koolzuur ontstaat pas als dat gas <strong>in water oplost</strong>. Ook <strong>koolstofdioxide en koolstofmonoxide</strong> verschillen: het eerste heeft twee zuurstofatomen en ademen we uit, het tweede heeft er één en is levensgevaarlijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Koolstofmonoxide</strong> is kleurloos en geurloos, en hecht veel sterker aan je bloed dan zuurstof. Het bindt daar op de plaats waar zuurstof zou moeten zitten. Het ontstaat bij <strong>onvolledige verbranding</strong>, bijvoorbeeld in een slecht onderhouden geiser."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Calciumcarbonaat</strong> is de bouwsteen van <strong>kalksteen, krijt en marmer</strong>, en zit ook in eierschalen, schelpen en kalkaanslag. Carbonaten <strong>schuimen op met zuur</strong>, want er komt koolstofdioxide vrij. Daarom verdwijnt kalkaanslag met azijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>gasfles voor de barbecue</strong> zit <strong>propaan, butaan of een mengsel</strong> van die twee: onder druk vloeibaar, en bij het verbranden schoon. <strong>Ongebluste kalk</strong> wordt <strong>gebluste kalk</strong> als je er water bij giet, en die reactie geeft veel warmte af."
+    },
+    {
+     "soort": "weetje",
+     "html": "Bij heel bekende stoffen gebruiken we bijna altijd de triviale naam. Niemand vraagt aan tafel om diwaterstofoxide."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

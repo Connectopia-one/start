@@ -1,0 +1,125 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Grootheden, eenheden en wetenschappelijk onderzoek",
+ "onder": "Grootheden en eenheden, de verbanden tussen grootheden, en de stappen van een onderzoek of een ontwerp.",
+ "secties": [
+  {
+   "kop": "Grootheden en eenheden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>grootheid</strong> is <strong>wat je meet</strong>, een <strong>eenheid</strong> is <strong>waarin je het uitdrukt</strong>: lengte is de grootheid, de meter de eenheid. Een <strong>meetresultaat zonder eenheid zegt niets</strong>: vijf kan vijf meter of vijf kilometer zijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Grootheid</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">SI-eenheid</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Grootheid</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Eenheid</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lengte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kracht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">newton</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">massa</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kilogram</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">energie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">joule</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">seconde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vermogen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">watt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">temperatuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kelvin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">druk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pascal</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>kilometer per uur</strong> is een afgeleide eenheid die veel gebruikt wordt, maar in het SI-stelsel reken je snelheid in <strong>meter per seconde</strong>. En let op: <strong>druk meet je in pascal</strong>, niet in newton; de newton alleen is de eenheid van kracht."
+    },
+    {
+     "soort": "tekst",
+     "html": "De voorvoegsels gaan van <strong>mega</strong> (een miljoen) en <strong>kilo</strong> (duizend) over <strong>centi</strong> (een honderdste) en <strong>milli</strong> (een duizendste) naar <strong>micro</strong> (een miljoenste) en <strong>nano</strong> (een miljardste). Dus: <strong>0,25 kilogram is 250 gram</strong>, <strong>45 centimeter is 0,45 meter</strong>, en <strong>2 microseconden is 2 maal tien tot de macht min zes seconden</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Nauwkeurig meten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>beduidende cijfers</strong> van een meetresultaat zijn de cijfers die je echt gemeten hebt. Lees je met een <strong>meetlint 1,2 meter</strong> af, dan heeft dat resultaat <strong>twee</strong> beduidende cijfers. Meet je met een <strong>balans die tot op een gram nauwkeurig is</strong>, dan schrijf je <strong>325 gram</strong> op, <strong>met drie beduidende cijfers</strong>: <strong>325,00 gram ziet er nauwkeuriger uit dan je gemeten hebt</strong>, en afronden tot 300 gram gooit informatie weg die je wel had."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een meting is nooit perfect. <strong>Toevallige meetfouten</strong> springen de ene keer naar boven en de andere keer naar beneden. Daarom <strong>herhaal je een meting een paar keer: om de invloed van toevallige meetfouten kleiner te maken</strong>. Een <strong>systematische fout</strong> doet dat niet: die schuift elke meting dezelfde kant op, bijvoorbeeld een weegschaal die niet op nul stond, en die haal je er met herhalen niet uit."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Maak eerst een schatting</strong> van je antwoord: <strong>zo merk je meteen of je uitkomst een onzinnige grootte heeft</strong>. De echte berekening maak je daarna nog altijd."
+    }
+   ]
+  },
+  {
+   "kop": "Verbanden tussen grootheden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verband</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat er geldt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Grafiek</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Recht evenredig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de verhouding blijft gelijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een rechte door de oorsprong</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Lineair</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gelijkmatige toename, maar met een constante erbij</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een rechte, niet door de oorsprong</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Omgekeerd evenredig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het product blijft gelijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kromme die naar de assen buigt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Kwadratisch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee keer meer geeft vier keer meer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een parabool</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Recht evenredig is het bijzondere geval</strong> van lineair waarbij de rechte <strong>door nul</strong> gaat. De lengte van een veer in functie van de kracht is <strong>lineair maar niet recht evenredig</strong>: bij nul kracht heeft ze al een lengte. Bij een <strong>kwadratisch</strong> verband, zoals de kinetische energie en de snelheid, geeft verdubbelen <strong>vier keer</strong> zo veel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je zet meetresultaten eerst in een <strong>tabel</strong>, met de eenheid in de hoofding: zo zie je de paren bij elkaar. Pas daarna maak je de <strong>grafiek</strong>, en daarin zie je het verband. Een <strong>tabel geeft precieze waarden, een grafiek toont het verband</strong>, en uit beide kan je gegevens halen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je mag een <strong>formule omvormen</strong> zodat een andere grootheid alleen staat; je doet dan aan beide kanten hetzelfde. Uit de wet van Ohm haal je zo zowel de spanning als de stroomsterkte of de weerstand. Zie je in een grafiek dat de stroomsterkte <strong>recht evenredig</strong> met de spanning stijgt, dan is de <strong>weerstand constant</strong> gebleven, want de verhouding tussen de twee is precies de weerstand."
+    }
+   ]
+  },
+  {
+   "kop": "De wetenschappelijke methode",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De stappen in orde: de <strong>probleemstelling afbakenen</strong>, een <strong>onderzoeksvraag</strong> opstellen en een <strong>hypothese</strong> formuleren, een <strong>onderzoeksplan</strong> maken, <strong>data verzamelen</strong>, die <strong>analyseren</strong>, een <strong>conclusie formuleren</strong> en tot slot <strong>reflecteren en communiceren</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>onderzoeksvraag</strong> is de vraag die je met je onderzoek wil beantwoorden; ze moet nauwkeurig genoeg zijn om er echt op te kunnen antwoorden. De <strong>hypothese</strong> is je <strong>onderbouwde verwachting</strong>. Blijkt ze <strong>verkeerd</strong>, dan is het onderzoek <strong>niet mislukt</strong>: je weet daarna meer dan ervoor."
+    },
+    {
+     "soort": "tekst",
+     "html": "In het <strong>onderzoeksplan</strong> staat welke metingen je doet, met welk materiaal en in welke orde. Daarom <strong>schrijf je je werkwijze op</strong>: zo kan iemand anders je onderzoek <strong>herhalen</strong> en je resultaat nakijken, en herhaalbaarheid is een kern van wetenschap."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Verander maar één ding tegelijk</strong> en houd alle andere omstandigheden gelijk; anders weet je achteraf niet welke verandering het gevolg veroorzaakte. Wil je nagaan of plantjes sneller groeien met meer licht, dan neem je <strong>dezelfde plantjes, dezelfde pot en grond</strong>, en laat je <strong>alleen de lichtduur</strong> verschillen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Herhaal een meting</strong> een paar keer: het gemiddelde ligt dichter bij de echte waarde, en een grote spreiding verraadt dat er iets niet klopt. Een <strong>conclusie</strong> moet een <strong>antwoord geven op de onderzoeksvraag</strong> en <strong>steunen op je gegevens</strong>. De gegevens beslissen, niet je verwachting; <strong>gegevens aanpassen tot ze bij je hypothese passen</strong> is geen onderzoek maar bedrog."
+    },
+    {
+     "soort": "tekst",
+     "html": "In de <strong>reflectie</strong> zeg je wat goed liep, wat je anders zou doen en hoe betrouwbaar je resultaat is. Daarna communiceer je je besluit."
+    }
+   ]
+  },
+  {
+   "kop": "Een oplossing ontwerpen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een ontwerp begin je met het <strong>probleem zo scherp mogelijk te definiëren</strong>. Daarna geef je de <strong>criteria</strong> waaraan je oplossing moet voldoen; zonder criteria kan je achteraf niet beoordelen of ze goed is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Is het probleem groot, dan <strong>splits je het op in deelproblemen</strong>: elk deel is afzonderlijk makkelijker op te lossen, en samen vormen ze het geheel. Je <strong>integreert</strong> de deeloplossingen in één totaaloplossing."
+    },
+    {
+     "soort": "tekst",
+     "html": "Tot slot <strong>evalueer je je oplossing en stuur je ze bij</strong> waar nodig. Bijna geen enkel ontwerp is in één keer goed."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>STEM</strong> staat voor <strong>wetenschappen, technologie, engineering en wiskunde</strong> (de M van mathematics). Die vier werken samen aan <strong>maatschappelijke uitdagingen</strong>, en die uitdagingen zijn precies de reden waarom er nieuwe technieken en materialen ontwikkeld worden."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de ontwikkeling van een <strong>vaccin</strong> zag je dat samenspel: <strong>wetenschappelijke kennis</strong> om het vaccin te ontwikkelen, <strong>technologische kennis</strong> om het koel te bewaren en te vervoeren, en <strong>wiskundige kennis</strong> om de verspreiding van het virus in kaart te brengen."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een gat in je gegevens is zelf een resultaat. Noteer ook wat je níét gevonden hebt: zo weet de lezer wat je besluit wel en niet kan dekken."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

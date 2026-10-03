@@ -1,0 +1,129 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Het zenuwstelsel",
+ "onder": "De indeling van het zenuwstelsel, de bouw van een neuron, de actiepotentiaal, de synaps en de reflexen.",
+ "secties": [
+  {
+   "kop": "De indeling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>centrale zenuwstelsel</strong> bestaat uit twee delen: de <strong>hersenen</strong> en het <strong>ruggenmerg</strong>. Bij het <strong>perifere zenuwstelsel</strong> horen de <strong>hersenzenuwen</strong>, de <strong>ruggenmergzenuwen</strong> en de <strong>grensstrengen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>zenuw</strong> is <strong>een bundel uitlopers van veel zenuwcellen samen</strong>. Een <strong>gemengde zenuw</strong> bevat <strong>zowel sensorische als motorische vezels</strong>, dus niet alleen motorische."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>animale zenuwstelsel</strong> stuurt <strong>bewegingen aan waarover je zelf beslist</strong>. Het <strong>autonome</strong> deel doet de rest, en daar horen de <strong>grensstrengen</strong> links en rechts van de wervelkolom bij, dus <strong>niet</strong> bij het animale deel."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Tak van het autonome stelsel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Sympathisch zenuwstelsel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zet het lichaam klaar voor inspanning of gevaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Parasympathisch zenuwstelsel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vertraagt de hartslag en bevordert de spijsvertering</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Over het <strong>ruggenmerg</strong>: het <strong>ligt beschermd in het wervelkanaal</strong>, het <strong>hoort bij het centrale zenuwstelsel</strong>, en het <strong>kan zelf een reflex afhandelen zonder de hersenen</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Het neuron",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>neuron</strong> horen de <strong>dendrieten</strong>, het <strong>axon</strong> en het <strong>cellichaam met de celkern</strong>. De <strong>dendrieten vangen signalen op en het axon geeft ze door</strong>. De <strong>celkern ligt in het cellichaam</strong>, niet in het axon."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort neuron</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Sensorisch neuron</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">brengt een signaal van een zintuig naar het centrale zenuwstelsel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Motorisch neuron</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">brengt een bevel naar een effector</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Schakelneuron</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verbindt de twee, en ligt meestal in het ruggenmerg of in de hersenen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>effectoren</strong> waar een motorisch neuron naartoe gaat, zijn een <strong>spier</strong>, een <strong>klier</strong> of het <strong>hartspierweefsel</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>myelineschede</strong> rond een axon <strong>isoleert het axon zodat de impuls er sneller over gaat</strong>. De onderbreking waar de impuls als het ware naartoe springt, is de <strong>knoop van Ranvier</strong>. Buiten het centrale zenuwstelsel maken de <strong>cellen van Schwann</strong> die schede."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>gemyeliniseerde zenuwvezel</strong> is daardoor <strong>sneller</strong>: de impuls <strong>springt van knoop tot knoop in plaats van over de hele lengte te lopen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>eindknopje</strong> is het <strong>uiteinde van een axon waar de neurotransmitter vrijkomt</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Rustpotentiaal en actiepotentiaal",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<p>Dit stuk staat enkel in de uitgebreide fiche, dus voor moderne talen en Latijn.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>rustpotentiaal</strong> is het <strong>spanningsverschil over het membraan als er geen impuls is</strong>: binnen is het negatief tegenover buiten, ongeveer min 70 millivolt."
+    },
+    {
+     "soort": "tekst",
+     "html": "De stappen van een <strong>actiepotentiaal</strong> in orde: <strong>rustpotentiaal, depolarisatie, repolarisatie, herstelfase</strong>. <strong>Depolarisatie</strong> betekent dat het <strong>spanningsverschil over het membraan kortstondig omslaat</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>prikkel onder de drempelwaarde levert geen impuls op</strong>. Wordt een prikkel <strong>twee keer zo sterk</strong>, dan volgen er in één zenuwvezel <strong>meer impulsen per seconde, elk even groot</strong>: de <strong>amplitude van een actiepotentiaal wordt dus niet groter</strong> bij een sterkere prikkel."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Na een impuls is een neuron even niet in staat om opnieuw te vuren</strong>; dat is de herstelfase. Daarom kan een zenuw niet onbeperkt snel achter elkaar vuren."
+    }
+   ]
+  },
+  {
+   "kop": "De synaps",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>synaptische spleet</strong> is de <strong>smalle ruimte tussen het eindknopje van het ene neuron en het volgende neuron</strong>. De <strong>neurotransmitter</strong> is de <strong>stof die daar vrijkomt om het signaal over te dragen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>synaps</strong> gebeurt dit: de <strong>impuls laat blaasjes met neurotransmitter leeglopen</strong>, de <strong>neurotransmitter past op membraanreceptoren aan de overkant</strong>, en het <strong>signaal gaat er maar in één richting over</strong>. Dat laatste komt doordat <strong>alleen het eindknopje blaasjes heeft en alleen de overkant receptoren</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een neurotransmitter werkt volgens het <strong>sleutel-slotprincipe</strong>: hij past <strong>maar op bepaalde receptoren</strong>. En de impulsoverdracht is daarom <strong>geen zuiver elektrisch proces</strong>: binnen een neuron is ze elektrisch, in de synaps chemisch."
+    },
+    {
+     "soort": "weetje",
+     "html": "Veel geneesmiddelen en drugs werken precies op die synaps: ze bootsen een neurotransmitter na, of ze beletten dat hij weer opgeruimd wordt."
+    }
+   ]
+  },
+  {
+   "kop": "Reflexen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>terugtrekreflex</strong> legt deze weg af: <strong>receptor, sensorisch neuron, schakelneuron in het ruggenmerg, motorisch neuron, spier</strong>. De hele weg van receptor tot effector heet de <strong>reflexboog</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Reflexen</strong> zijn onder andere de <strong>pupilreflex bij fel licht</strong>, de <strong>kniepeesreflex bij een tik onder de knieschijf</strong> en het <strong>terugtrekken van je hand bij hitte</strong>. Een reflex is nuttig omdat het <strong>lichaam op gevaar reageert nog voor je erover nadenkt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je <strong>voelt pas pijn nadat je je hand al hebt weggetrokken</strong>: de <strong>reflex loopt via het ruggenmerg</strong>, en het <strong>pijnsignaal moet nog naar de hersenen</strong>. Bij een <strong>gewilde beweging komen de grote hersenen er juist wel aan te pas</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>toeschietreflex</strong> is het <strong>vrijkomen van melk uit de melkklier wanneer de baby zuigt</strong>. Ook daar is de effector een klier en geen spier."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

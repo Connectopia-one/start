@@ -1,0 +1,108 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Druk en de gaswetten",
+ "onder": "Druk op een oppervlak, de hydrostatische druk, het beginsel van Pascal en de gaswetten.",
+ "secties": [
+  {
+   "kop": "Druk op een oppervlak",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>druk</strong> is de <strong>kracht gedeeld door de oppervlakte</strong>. De SI-eenheid is de <strong>pascal</strong>: één newton per vierkante meter. Voor het weer gebruiken we handiger eenheden: <strong>kilopascal, hectopascal, millibar en bar</strong>. Eén bar is <strong>100 000 pascal</strong>, ongeveer de luchtdruk op zeeniveau, en dat lees je in het weerbericht als 1000 hectopascal."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>dezelfde kracht</strong> geeft een <strong>kleiner oppervlak een grotere druk</strong>. Daarom snijdt een scherp mes beter dan een bot mes, en daarom dringt een naald zo gemakkelijk binnen. Duw je met 200 newton op 0,5 vierkante meter, dan is de druk <strong>400 pascal</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Met <strong>sneeuwschoenen</strong> zak je minder diep weg: je gewicht verandert niet, maar het <strong>zooloppervlak is groter</strong> en dus de druk kleiner. Een naaldhak doet precies het omgekeerde. Bij <strong>dezelfde schoenmaat</strong> zakt de <strong>zwaarste persoon</strong> het diepst, want zijn kracht op de modder is groter."
+    },
+    {
+     "soort": "tekst",
+     "html": "Leg je dezelfde baksteen op zijn <strong>smalle kant</strong>, dan blijft de <strong>kracht gelijk</strong> maar wordt de <strong>druk groter</strong>, want het contactoppervlak is kleiner. De druk hangt dus af van de <strong>kracht</strong>, van het <strong>oppervlak</strong> en daarmee ook van de <strong>stand</strong> van het voorwerp, maar niet van de kleur."
+    }
+   ]
+  },
+  {
+   "kop": "Druk in vloeistoffen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>hydrostatische druk</strong> ontstaat door het <strong>gewicht van de vloeistof zelf</strong>. Ze hangt af van de <strong>diepte</strong>, van de <strong>massadichtheid</strong> van de vloeistof en van de <strong>zwaarteveldsterkte</strong>. Hoe breed of smal het vat is, maakt niets uit."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op <strong>tien meter diepte</strong> is de druk dus groter dan op twee meter: boven je hoofd staat vijf keer zo veel water. Elke tien meter water voegt ongeveer <strong>één bar</strong> toe. De <strong>totale druk</strong> is de <strong>luchtdruk plus de hydrostatische druk</strong>: de atmosfeer duwt immers ook op het wateroppervlak."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom moet je bij het <strong>duiken je oren klaren</strong>: de waterdruk duwt op je trommelvlies terwijl er binnen nog de oude druk staat. Door te klaren laat je lucht in je middenoor, zodat de druk aan beide kanten gelijk wordt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>beginsel van Pascal</strong> zegt dat een <strong>drukverandering zich in een vloeistof in alle richtingen voortplant</strong>. Daarom werkt een <strong>hydraulische rem</strong>: je duwt op het pedaal en de druk komt onverminderd bij alle vier de wielen aan. In een <strong>hydraulische pers</strong> is de druk overal gelijk maar werkt ze op een <strong>veel groter oppervlak</strong>, en kracht is druk maal oppervlakte: tien keer meer oppervlak geeft tien keer meer kracht, over een tien keer kortere weg."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>barometer</strong> meet de <strong>luchtdruk</strong> buiten; een <strong>manometer</strong> meet de druk van een gas of vloeistof in een <strong>vat of leiding</strong>, zoals op een gasfles of een fietspomp. De luchtdruk <strong>neemt af als je hoger komt</strong>, want er staat minder lucht boven je. <strong>Overdruk</strong> is hoger dan de <strong>omgevingsdruk</strong>, <strong>onderdruk</strong> lager; een zuignap werkt op onderdruk."
+    }
+   ]
+  },
+  {
+   "kop": "Druk in gassen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Volgens het <strong>deeltjesmodel</strong> ontstaat de druk van een gas doordat de deeltjes <strong>tegen de wand botsen</strong> en daar bij elke botsing op duwen. Miljarden botsingen per seconde geven samen een gelijkmatige druk. Een gas oefent dus druk uit <strong>in alle richtingen</strong>, ook naar boven."
+    },
+    {
+     "soort": "tekst",
+     "html": "Pers je een gas in een <strong>kleiner volume</strong> bij gelijke temperatuur, dan raakt elk deeltje de wand vaker en wordt de <strong>druk groter</strong>. Verwarm je een gas in een <strong>gesloten stalen fles</strong>, dan gaan de deeltjes sneller bewegen, botsen ze harder, en <strong>stijgt de druk</strong>. Daarom staat er op een spuitbus dat je ze niet mag verwarmen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>temperatuurschaal</strong> die bij het absolute nulpunt begint, is de <strong>kelvinschaal</strong>. Die begint bij het <strong>absolute nulpunt</strong>, bij <strong>min 273,15 graden Celsius</strong>. Daar hebben de deeltjes <strong>geen kinetische energie</strong> meer, zou de <strong>druk nul</strong> zijn, en <strong>lager kan niet</strong>, want trager dan stil bestaat niet. Je telt <strong>273</strong> bij de graden Celsius op: 27 graden is <strong>300 kelvin</strong>, en 273 kelvin is <strong>0 graden</strong> Celsius."
+    }
+   ]
+  },
+  {
+   "kop": "De gaswetten",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<p>De gaswetten en de kelvinschaal staan enkel in de uitgebreide fiche, dus voor moderne talen en Latijn.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>toestandsgrootheden</strong> van een gas zijn de <strong>druk</strong>, het <strong>volume</strong>, de <strong>absolute temperatuur</strong> en de <strong>stofhoeveelheid</strong>. Het vat waarin het gas zit, hoort daar niet bij."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Proces</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat constant blijft</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat er dan geldt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Isotherm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de temperatuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">druk maal volume blijft gelijk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Isobaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de druk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">volume en temperatuur zijn recht evenredig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Isochoor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het volume</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">druk en temperatuur zijn recht evenredig</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>isotherm</strong> proces is de grafiek van de druk tegenover het volume een <strong>kromme die daalt</strong>: de twee zijn <strong>omgekeerd evenredig</strong>, dus buigt de kromme naar de assen toe zonder ze te raken. Een gas van 2 liter bij 1 bar dat tot 1 liter samengeperst wordt, komt op <strong>2 bar</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>isochoor</strong> proces zijn druk en absolute temperatuur <strong>recht evenredig</strong>: een gas van 300 kelvin bij 1 bar dat tot 600 kelvin verwarmd wordt, komt op <strong>2 bar</strong>. In de gaswetten moet je de temperatuur daarom <strong>altijd in kelvin</strong> invullen; met graden Celsius kom je bij nul graden op een onmogelijke uitkomst."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>ballon in de koelkast</strong> loopt wat leeg: de deeltjes bewegen trager, en omdat de ballon van vorm kan veranderen past het <strong>volume</strong> zich aan tot de druk weer in balans is met de buitenlucht. Dat is een <strong>isobaar</strong> proces."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>ideaal gas</strong> volgt die wetten precies. Een <strong>reëel gas</strong> wijkt af bij <strong>hoge druk of lage temperatuur</strong>: dan gaan de deeltjes elkaar aantrekken en nemen ze zelf plaats in."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een fietsband wordt warm als je hem oppompt. Je perst de lucht samen en voert er daarbij energie aan toe; de wrijving in de pomp speelt ook mee, maar is niet de hoofdoorzaak."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

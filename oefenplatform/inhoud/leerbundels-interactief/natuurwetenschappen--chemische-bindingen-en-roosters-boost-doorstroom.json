@@ -1,0 +1,104 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Chemische bindingen en roosters",
+ "onder": "De drie bindingstypes, de vier roostertypes, en de eigenschappen die daaruit volgen.",
+ "secties": [
+  {
+   "kop": "De drie bindingstypes",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Binding</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Tussen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat er gebeurt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ionbinding</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">metaal en niet-metaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elektronen worden echt overgedragen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Atoombinding (covalent)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee niet-metalen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elektronenparen worden gedeeld</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Metaalbinding</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">metaal en metaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de buitenste elektronen vormen een elektronenzee</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Je bepaalt het bindingstype dus aan het <strong>metaal- of niet-metaalkarakter</strong> van de elementen. Bij een <strong>ionbinding</strong> staat het metaal elektronen af en neemt het niet-metaal ze op; de ionen die zo ontstaan trekken elkaar aan. Bij een <strong>atoombinding</strong> wil geen van beide afstaan, dus delen ze."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat natrium zijn elektron aan chloor geeft en niet omgekeerd, komt door de <strong>elektronegativiteit</strong>: chloor trekt elektronen veel sterker aan dan natrium. Hoe groter dat verschil, hoe meer de binding naar een ionbinding opschuift."
+    }
+   ]
+  },
+  {
+   "kop": "De Lewisstructuur",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<p>De Lewisstructuur en het oxidatiegetal staan enkel in de uitgebreide fiche, dus voor moderne talen en Latijn.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>Lewisstructuur</strong> tekent alleen de <strong>valentie-elektronen</strong>. Een <strong>streepje tussen twee atomen</strong> is een <strong>bindend elektronenpaar</strong>, een gedeeld paar. Een <strong>streepje bij één atoom</strong> is een <strong>vrij elektronenpaar</strong>, dat niet meedoet aan een binding."
+    },
+    {
+     "soort": "tekst",
+     "html": "Eén gedeeld paar is een <strong>enkelvoudige binding</strong>, twee paren een <strong>dubbele binding</strong> en drie paren een <strong>drievoudige binding</strong>. Stikstof heeft vijf valentie-elektronen en heeft er dus drie nodig: de twee stikstofatomen in een <strong>stikstofmolecule</strong> delen <strong>drie elektronenparen</strong>. <strong>Koolstof</strong> heeft er vier nodig en maakt daarom gewoonlijk <strong>vier bindingen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>oxidatiegetal</strong> is een hulpmiddel om te boekhouden, geen echte lading. In een <strong>enkelvoudige stof is het nul</strong>; in een neutrale stof tellen alle oxidatiegetallen samen tot <strong>nul</strong> op. <strong>Zuurstof</strong> heeft meestal <strong>min twee</strong>, <strong>waterstof plus een</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Binair</strong> betekent twee en <strong>ternair</strong> drie. Een stof die uit <strong>twee verschillende elementen</strong> bestaat, is dus <strong>geen ternaire stof</strong> maar een binaire. Zie je de <strong>brutoformule</strong> van een stof met een <strong>metaal en een niet-metaal</strong> erin, dan kan je al voorspellen dat het een <strong>ionverbinding</strong> is, <strong>opgebouwd uit een ionrooster van ionen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>formule-eenheid</strong> is de <strong>kleinste verhouding waarin de ionen in een ionrooster voorkomen</strong>. Een ionrooster bestaat immers niet uit losse moleculen maar uit een netwerk; NaCl zegt dus 'één natriumion per chloride-ion', niet 'één molecule'."
+    }
+   ]
+  },
+  {
+   "kop": "De vier roostertypes",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rooster</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Smeltpunt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Geleidt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ionrooster</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">keukenzout</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoog</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pas als het gesmolten of opgelost is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Molecuulrooster</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">water, koolstofdioxide, jood</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">laag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Atoomrooster</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">diamant, kwarts</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zeer hoog</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet (grafiet is de uitzondering)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Metaalrooster</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">koper, ijzer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meestal hoog</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ook in vaste toestand</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>ionrooster</strong> heeft een <strong>hoog smeltpunt</strong>, want de aantrekking tussen de ionen is in alle richtingen sterk. Het is <strong>breekbaar</strong>: schuif je de lagen een stukje op, dan komen gelijke ladingen tegenover elkaar en stoten die elkaar af. Het geleidt <strong>pas als de ionen kunnen bewegen</strong>, dus gesmolten of in water."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>molecuulrooster</strong> heeft een <strong>laag smelt- en kookpunt</strong>: binnen de molecule zijn de bindingen sterk, maar <strong>tussen</strong> de moleculen is de aantrekking zwak. Daarom zijn zuurstof, water en koolstofdioxide bij kamertemperatuur gas of vloeistof terwijl keukenzout vast is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>metaalrooster</strong> heeft een <strong>elektronenzee</strong>. Daardoor <strong>geleidt</strong> een metaal warmte en elektriciteit goed, <strong>glanst</strong> het, en <strong>plooit</strong> het in plaats van te breken: de lagen ionen kunnen over elkaar schuiven zonder dat de binding stuk gaat."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>atoomrooster</strong> zit elk atoom met atoombindingen aan zijn buren vast: één groot netwerk. Daarom is diamant zo hard en smelt het pas bij een enorme temperatuur. Alle elektronen zitten vast in bindingen, dus geleidt het <strong>niet</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Diamant en grafiet",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Diamant en grafiet bestaan <strong>allebei alleen uit koolstof</strong>. Het verschil zit volledig in hoe die atomen geschikt zijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "In <strong>diamant</strong> maakt elk koolstofatoom <strong>vier</strong> bindingen in een stevig driedimensionaal netwerk: heel hard, geen vrije elektronen, geen geleiding. In <strong>grafiet</strong> maakt elk atoom maar <strong>drie</strong> bindingen in een vlak. Het <strong>vierde elektron blijft vrij</strong>, en daarom <strong>geleidt grafiet wel</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De bindingen <strong>binnen een laag</strong> van grafiet zijn sterk, maar <strong>tussen de lagen</strong> is de aantrekking zwak. De lagen glijden over elkaar, en daarom voelt grafiet <strong>zacht</strong> aan en laat een potlood een streep na."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Isolatoren</strong> geleiden niet, omdat er geen ladingen zijn die zich kunnen verplaatsen: suiker, rubber, droog hout, glas. <strong>Geleiders</strong> hebben vrije elektronen (metalen) of vrije ionen (een zoutoplossing, een gesmolten zout). <strong>Suiker lost wel op in water maar geleidt niet</strong>, want suikermoleculen blijven hele moleculen."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een stof die bij 801 graden smelt, breekbaar is en pas geleidt na smelten of oplossen, kan je blind als een zout met een ionrooster aanwijzen. Dat is precies het gedrag van keukenzout."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

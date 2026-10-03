@@ -1,0 +1,368 @@
+# -*- coding: utf-8 -*-
+"""🚀 Boost doorstroom — Elektriciteit en de wet van Ohm.
+
+Fysica, de kop "Elektriciteit" van de vakfiche natuurwetenschappen 2de graad
+doorstroom. Deel 1 gaat over lading, stroomsterkte, spanning, weerstand en de
+wet van Ohm; deel 2 over het elektrisch vermogen, het Joule-effect, de
+risico's in een installatie en de veiligheidsvoorzieningen.
+"""
+
+DEEL1 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat is de stroomsterkte in een stroomkring?",
+        opties=[
+            "de hoeveelheid lading die per seconde voorbij een punt gaat",
+            "de hoeveelheid energie die de spanningsbron per seconde levert",
+            "de hoeveelheid weerstand die de draad aan de lading geeft",
+            "de hoeveelheid spanning die over de hele kring verdeeld is",
+        ],
+        antwoord=0,
+        uitleg="De eenheid is de ampère. Eén ampère is één coulomb lading per seconde.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is de eenheid van spanning?",
+        opties=["de volt", "de ampère", "de ohm", "de watt"],
+        antwoord=0,
+        uitleg="De spanning is het duwtje dat de lading in beweging zet. Hoe groter de spanning, hoe groter de stroom door dezelfde weerstand.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="De wet van Ohm zegt dat de weerstand de spanning gedeeld door de stroomsterkte is.",
+        antwoord=True,
+        uitleg="Je kan ze ook omgekeerd gebruiken: stroomsterkte is spanning gedeeld door weerstand. De eenheid van weerstand is de ohm.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je legt 12 volt over een weerstand van 4 ohm. Hoe groot is de stroomsterkte?",
+        opties=["3 ampère", "48 ampère", "0,33 ampère", "8 ampère"],
+        antwoord=0,
+        uitleg="Je deelt de spanning door de weerstand: 12 gedeeld door 4. Een grotere weerstand bij dezelfde spanning geeft dus minder stroom.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Wat is de eenheid van elektrische weerstand?",
+        antwoord="ohm",
+        uitleg="Ze is genoemd naar de natuurkundige die het verband tussen spanning en stroom vastlegde. Het symbool is de Griekse letter omega.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat gebeurt er met de stroomsterkte als je de weerstand verdubbelt en de spanning gelijk houdt?",
+        opties=[
+            "ze wordt gehalveerd",
+            "ze wordt verdubbeld",
+            "ze blijft precies gelijk",
+            "ze wordt vier keer zo klein",
+        ],
+        antwoord=0,
+        uitleg="Bij gelijke spanning zijn stroomsterkte en weerstand omgekeerd evenredig. Dubbel de weerstand geeft dus half de stroom.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Bij een vaste weerstand zijn de spanning en de stroomsterkte recht evenredig.",
+        antwoord=True,
+        uitleg="Verdubbel je de spanning, dan verdubbelt de stroom. In een grafiek geeft dat een rechte door de oorsprong.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke toestellen meet je waarmee? Kruis alles aan wat juist is.",
+        opties=[
+            "de stroomsterkte met een ampèremeter",
+            "de spanning met een voltmeter",
+            "beide met een multimeter",
+            "de weerstand met een barometer",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Een multimeter kan de drie grootheden meten, als je hem juist instelt. Een barometer meet luchtdruk en hoort niet in een stroomkring.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke uitspraken over geleiders en isolatoren zijn juist? Kruis alles aan wat juist is.",
+        opties=[
+            "een geleider heeft een kleine weerstand",
+            "door een geleider loopt bij dezelfde spanning meer stroom",
+            "een isolator heeft een heel grote weerstand",
+            "een isolator heeft een kleinere weerstand dan een geleider",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Daarom is de kern van een draad koper en de mantel kunststof. Een isolator heeft juist een veel grotere weerstand.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Wat is de eenheid van stroomsterkte?",
+        antwoord="ampère",
+        uitleg="Eén ampère is één coulomb per seconde. Een zekering in een woning is meestal op 16 of 20 ampère voorzien.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het verschil tussen de conventionele en de werkelijke stroomzin?",
+        opties=[
+            "de conventionele loopt van plus naar min, de werkelijke van min naar plus",
+            "de conventionele loopt van min naar plus, de werkelijke van plus naar min",
+            "de conventionele geldt voor gelijkstroom, de werkelijke voor wisselstroom",
+            "de conventionele geldt in een geleider, de werkelijke in een isolator",
+        ],
+        antwoord=0,
+        uitleg="De afspraak werd gemaakt voor men wist dat elektronen negatief zijn. In een metaaldraad bewegen de elektronen dus net de andere kant op.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een lange, dunne draad heeft minder weerstand dan een korte, dikke draad van dezelfde stof.",
+        antwoord=False,
+        uitleg="De lading moet dan juist een langere en nauwere weg afleggen, dus is de weerstand groter. Daarom gebruikt men voor zware toestellen dikkere draden.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een stroom van 2 ampère loopt door een weerstand van 5 ohm. Welke spanning staat erover?",
+        opties=["10 volt", "2,5 volt", "0,4 volt", "7 volt"],
+        antwoord=0,
+        uitleg="Je vermenigvuldigt de stroomsterkte met de weerstand: 2 maal 5. Dat volgt rechtstreeks uit de wet van Ohm.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat levert een gelijkspanningsbron?",
+        opties=[
+            "een spanning die altijd dezelfde zin houdt",
+            "een spanning die voortdurend van zin wisselt",
+            "een stroom zonder dat er spanning bij komt",
+            "een weerstand die zich automatisch aanpast",
+        ],
+        antwoord=0,
+        uitleg="Een batterij is een gelijkspanningsbron, met een plus- en een minpool. Het stopcontact in huis levert wisselspanning.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een groter geleidingsvermogen betekent een grotere weerstand.",
+        antwoord=False,
+        uitleg="Geleidbaarheid en weerstand zijn tegengesteld aan elkaar. Goed geleiden betekent juist een kleine weerstand.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je meet bij drie spanningen door dezelfde weerstand de stroomsterkte en zet die in een grafiek. Wat zie je?",
+        opties=[
+            "een rechte door de oorsprong, want de twee zijn recht evenredig",
+            "een kromme die naar de assen toe buigt zonder ze te raken",
+            "een vlakke lijn, want de stroomsterkte blijft steeds gelijk",
+            "een rechte die daalt, want meer spanning geeft minder stroom",
+        ],
+        antwoord=0,
+        uitleg="De steilheid van die rechte is één gedeeld door de weerstand. Zo kan je uit een meetreeks de weerstand bepalen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke stoffen zijn goede geleiders? Kruis alles aan wat juist is.",
+        opties=["koper", "aluminium", "een zoutoplossing", "droog hout"],
+        antwoord=[0, 1, 2],
+        uitleg="Metalen geleiden door hun vrije elektronen, een zoutoplossing door haar vrije ionen. Droog hout, rubber en glas zijn isolatoren.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Welke grootheid duwt de lading door een stroomkring?",
+        antwoord="spanning",
+        uitleg="Zonder spanningsverschil loopt er geen stroom. De eenheid is de volt.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="In een elektrisch schema stelt een rondje met een kruisje erin gewoonlijk een lamp voor.",
+        antwoord=True,
+        uitleg="Elk onderdeel heeft zijn eigen symbool: een bron, een weerstand, een schakelaar, een ampèremeter en een voltmeter. Zo kan iedereen hetzelfde schema lezen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je zet een extra weerstand in dezelfde kring bij en de lamp brandt zwakker. Waarom?",
+        opties=[
+            "de totale weerstand is groter, dus loopt er minder stroom",
+            "de spanning van de batterij is daardoor kleiner geworden",
+            "de lamp heeft daardoor zelf een grotere weerstand gekregen",
+            "de stroom loopt daardoor in de omgekeerde zin door de lamp",
+        ],
+        antwoord=0,
+        uitleg="Bij dezelfde spanning en een grotere weerstand zakt de stroomsterkte. Minder stroom door de lamp betekent minder licht.",
+    ),
+]
+
+DEEL2 = [
+    dict(
+        type="meerkeuze",
+        vraag="Wat zegt het vermogen van een elektrisch toestel?",
+        opties=[
+            "hoeveel elektrische energie het per seconde omzet",
+            "hoeveel elektrische energie het in totaal kan opslaan",
+            "hoe groot de weerstand van het toestel precies is",
+            "hoe lang het toestel zonder onderhoud blijft werken",
+        ],
+        antwoord=0,
+        uitleg="De eenheid is de watt, dus joule per seconde. Een toestel van 2000 watt gebruikt in een uur twee kilowattuur.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is het Joule-effect?",
+        opties=[
+            "een geleider warmt op doordat er stroom door loopt",
+            "een geleider koelt af doordat er stroom door loopt",
+            "een geleider gaat licht geven zonder warm te worden",
+            "een geleider verliest zijn weerstand bij een hoge stroom",
+        ],
+        antwoord=0,
+        uitleg="De elektronen botsen op de deeltjes van de geleider en geven daarbij energie af. Die energie komt als warmte vrij.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Het Joule-effect is in een waterkoker gewenst en in een verlengsnoer ongewenst.",
+        antwoord=True,
+        uitleg="In een verwarmingstoestel is de warmte precies de bedoeling. In een snoer is ze verlies, en bij overbelasting zelfs brandgevaarlijk.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is een kortsluiting?",
+        opties=[
+            "de stroom vindt een weg met bijna geen weerstand en wordt heel groot",
+            "de stroom vindt helemaal geen weg meer en valt volledig stil",
+            "de spanning van de bron zakt plots tot bijna nul volt terug",
+            "de weerstand in de kring wordt plots veel groter dan ze daarvoor was",
+        ],
+        antwoord=0,
+        uitleg="Bij een heel kleine weerstand schiet de stroomsterkte omhoog. De draden worden dan razendsnel heet, en dat is het brandgevaar.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je het ongeval waarbij er stroom door een menselijk lichaam loopt?",
+        antwoord="elektrocutie",
+        uitleg="Hoe lager de weerstand van je lichaam, hoe groter de stroom. Met natte handen is dat gevaar veel groter.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke voorzieningen beveiligen een elektrische installatie? Kruis alles aan wat juist is.",
+        opties=[
+            "de aarding met een aarddraad",
+            "de automatische zekering",
+            "de verliesstroomschakelaar",
+            "de voltmeter in de meterkast",
+        ],
+        antwoord=[0, 1, 2],
+        uitleg="Die drie grijpen in bij een fout of bij te veel stroom. Een voltmeter meet alleen en beveiligt niets.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat doet een automatische zekering?",
+        opties=[
+            "ze verbreekt de kring als de stroomsterkte te groot wordt",
+            "ze verlaagt de spanning tot een veilige waarde voor de toestellen",
+            "ze meet voortdurend hoeveel energie je in huis verbruikt",
+            "ze stuurt de stroom via de aarddraad weg naar de grond",
+        ],
+        antwoord=0,
+        uitleg="Bij overbelasting of kortsluiting slaat ze af. Een smeltveiligheid doet hetzelfde door een draadje te laten smelten.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een verliesstroomschakelaar grijpt pas in als de stroomsterkte in de kring te groot wordt.",
+        antwoord=False,
+        uitleg="Dat is het werk van de zekering. Een verliesstroomschakelaar vergelijkt wat er in gaat met wat er terugkomt, en slaat af als er stroom langs een onbedoelde weg wegloopt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom mag je een elektrisch toestel nooit met natte handen aanraken?",
+        opties=[
+            "water verlaagt de weerstand van je huid, dus loopt er meer stroom",
+            "water verhoogt de spanning van het toestel tot een gevaarlijke waarde",
+            "water maakt het vermogen van het toestel plots veel groter dan normaal",
+            "water zorgt ervoor dat de zekering niet meer kan afslaan bij een fout",
+        ],
+        antwoord=0,
+        uitleg="Bij dezelfde spanning bepaalt je weerstand hoe groot de stroom door je lichaam wordt. Met natte handen zakt die weerstand sterk.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je de draad die een metalen omhulsel met de aarde verbindt?",
+        antwoord="aarddraad",
+        uitleg="Komt er door een fout spanning op het omhulsel, dan loopt de stroom via die draad weg. Zo kan je het toestel veilig aanraken.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Een toestel van 1000 watt staat twee uur aan. Hoeveel energie gebruikt het?",
+        opties=["2 kilowattuur", "1 kilowattuur", "500 wattuur", "2000 kilowattuur"],
+        antwoord=0,
+        uitleg="Je vermenigvuldigt het vermogen in kilowatt met de tijd in uur: 1 maal 2. Zo komt het ook op je factuur terecht.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Van twee toestellen die hetzelfde werk doen, is het toestel met het kleinste vermogen het zuinigst.",
+        antwoord=True,
+        uitleg="Minder vermogen voor dezelfde taak betekent minder energie per seconde. Een ledlamp geeft met 7 watt zo veel licht als een gloeilamp met 60 watt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Wat is overbelasting van een stroomkring?",
+        opties=[
+            "er zijn te veel toestellen aangesloten en de stroom wordt te groot",
+            "er is te weinig spanning om alle toestellen te laten werken",
+            "er is een draad losgekomen zodat de kring niet gesloten is",
+            "er staat te veel weerstand in de kring voor de toestellen erop",
+        ],
+        antwoord=0,
+        uitleg="Alle toestellen samen trekken dan meer stroom dan de draden kunnen dragen. De zekering slaat daarom af voor het snoer te heet wordt.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom heeft een dubbel geïsoleerd toestel geen aarddraad nodig?",
+        opties=[
+            "het omhulsel kan door een tweede isolatielaag nooit onder spanning komen",
+            "het toestel werkt op een spanning die voor mensen niet gevaarlijk is",
+            "het toestel heeft een eigen zekering die bij elke fout afslaat",
+            "het toestel verbruikt zo weinig stroom dat er niets kan gebeuren",
+        ],
+        antwoord=0,
+        uitleg="Er zit een extra laag tussen de geleidende delen en de buitenkant. Zo'n toestel draagt het symbool van twee vierkanten in elkaar.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een hogere spanning is bij dezelfde weerstand gevaarlijker, want ze geeft een grotere stroom.",
+        antwoord=True,
+        uitleg="Het is de stroom door je lichaam die schade doet. Daarom spreekt men van een veiligheidsspanning: laag genoeg om dat gevaar klein te houden.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Waarom wordt een te dun verlengsnoer onder een zware belasting heet?",
+        opties=[
+            "een dunne draad heeft meer weerstand, dus wordt er meer warmte gemaakt",
+            "een dunne draad heeft minder weerstand, dus loopt er te veel stroom",
+            "een dunne draad verliest zijn isolatie bij een hoge stroomsterkte",
+            "een dunne draad geeft een hogere spanning aan het toestel erop",
+        ],
+        antwoord=0,
+        uitleg="Het Joule-effect wordt groter bij meer weerstand en meer stroom. Daarom staat er op een haspel hoeveel ampère hij mag dragen.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Welke risico's horen bij een elektrische installatie? Kruis alles aan wat juist is.",
+        opties=["elektrocutie", "kortsluiting", "brandgevaar", "een te lage weerstand van de aarddraad"],
+        antwoord=[0, 1, 2],
+        uitleg="Die drie zijn de echte risico's, en overbelasting hoort er ook bij. Een aarddraad moet juist een zo klein mogelijke weerstand hebben.",
+    ),
+    dict(
+        type="invultekst",
+        vraag="Hoe noem je het verschijnsel waarbij een geleider warm wordt doordat er stroom door loopt?",
+        antwoord="joule-effect",
+        uitleg="In een verwarmingstoestel is dat de bedoeling. In een snoer of een transformator is het verlies.",
+    ),
+    dict(
+        type="waarofniet",
+        vraag="Een toestel met een groot vermogen trekt bij dezelfde spanning minder stroom dan een toestel met een klein vermogen.",
+        antwoord=False,
+        uitleg="Bij dezelfde spanning hoort een groter vermogen bij een grotere stroom. Daarom heeft een elektrisch vuur een eigen, zwaardere kring.",
+    ),
+    dict(
+        type="meerkeuze",
+        vraag="Je zekering slaat af zodra je de wasmachine en de oven samen aanzet. Wat is er aan de hand?",
+        opties=[
+            "de kring is overbelast, de twee toestellen trekken samen te veel stroom",
+            "er is kortsluiting, de draden van de twee toestellen raken elkaar aan",
+            "de spanning in huis is te laag voor twee toestellen tegelijk",
+            "de aarddraad is losgekomen bij een van de twee toestellen",
+        ],
+        antwoord=0,
+        uitleg="Allebei hebben een groot vermogen, en samen gaan ze over de grens van de zekering. Daarom krijgen zware toestellen elk een eigen kring.",
+    ),
+]

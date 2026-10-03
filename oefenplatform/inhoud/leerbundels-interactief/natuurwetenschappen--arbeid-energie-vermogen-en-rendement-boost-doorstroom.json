@@ -1,0 +1,112 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Arbeid, energie, vermogen en rendement",
+ "onder": "Wanneer een kracht arbeid verricht, de energievormen en hun formules, en hoe je vermogen en rendement berekent.",
+ "secties": [
+  {
+   "kop": "Arbeid",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<p>Arbeid staat enkel in de uitgebreide fiche, dus voor moderne talen en Latijn.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een kracht verricht <strong>arbeid</strong> als het voorwerp zich <strong>verplaatst</strong> terwijl die kracht erop werkt. Duw je tegen een muur die niet beweegt, dan verricht je in de natuurkundige zin <strong>geen arbeid</strong>. Hangt een <strong>gewicht stil aan een koord</strong>, dan verricht de <strong>spankracht</strong> om dezelfde reden <strong>geen arbeid, want er is geen verplaatsing</strong>. De eenheid is de <strong>joule</strong>: één newton over één meter."
+    },
+    {
+     "soort": "tekst",
+     "html": "Werkt de kracht <strong>in dezelfde zin</strong> als de verplaatsing, dan is de arbeid <strong>positief</strong>; werkt ze <strong>tegengesteld</strong>, dan is de arbeid <strong>negatief</strong> (de wrijvingskracht). Staat ze <strong>loodrecht</strong> op de verplaatsing, dan verricht ze <strong>geen arbeid</strong>: de cosinus van 90 graden is nul."
+    },
+    {
+     "soort": "tekst",
+     "html": "Duw je een doos 3 meter ver met 40 newton in de zin van de beweging, dan is de arbeid <strong>120 joule</strong>: kracht maal verplaatsing. Werkt de kracht onder een hoek, dan komt er nog een cosinus bij."
+    }
+   ]
+  },
+  {
+   "kop": "De energievormen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>energievormen</strong> zijn de <strong>gravitationele potentiële energie</strong>, de <strong>elastische potentiële energie</strong>, de <strong>kinetische energie</strong>, de <strong>chemische energie</strong>, de <strong>thermische energie</strong> of warmte, de <strong>stralingsenergie</strong>, de <strong>kernenergie</strong> en de <strong>elektrische energie</strong>. Wrijving is geen energievorm maar een kracht die energie in warmte omzet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Energievorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe je ze berekent</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarvan ze afhangt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Kinetische energie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de helft van massa maal snelheid in het kwadraat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">massa en snelheid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Gravitationele potentiële energie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">massa maal zwaarteveldsterkte maal hoogte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">massa, hoogte en de plaats</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Elastische potentiële energie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de helft van veerconstante maal uitrekking in het kwadraat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">veerconstante en uitrekking</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Omdat de <strong>snelheid in het kwadraat</strong> staat, weegt die zwaar door: <strong>twee keer zo snel is vier keer zo veel kinetische energie</strong>, en daarom wordt de remweg bij dubbele snelheid veel meer dan dubbel zo lang. Een voorwerp van 2 kilogram met 3 meter per seconde heeft <strong>9 joule</strong>. Bij de elastische energie staat de uitrekking om dezelfde reden in het kwadraat."
+    },
+    {
+     "soort": "tekst",
+     "html": "Energie meet je in <strong>joule</strong>, maar ook in <strong>kilowattuur</strong> (je elektriciteitsfactuur) en in <strong>kilocalorie</strong> (een voedingslabel). De newton is géén energie-eenheid, en een <strong>kilowattuur is energie, geen vermogen</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Energieomzettingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>wet van behoud van energie</strong> zegt dat energie <strong>niet kan verdwijnen</strong>, enkel <strong>van vorm veranderen</strong>. Wat je aan de ene kant verliest, vind je ergens anders terug, vaak als warmte."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>vallende steen</strong> wordt gravitationele potentiële energie kinetische energie. Bij een <strong>uitgerekte katapult</strong> sla je elastische energie op, die bij het lossen kinetische energie wordt. In een <strong>lamp</strong> wordt elektrische energie stralingsenergie en warmte."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>energiebalans</strong> van een <strong>slingerende schommel</strong>: de hoogte-energie is het grootst in het <strong>hoogste punt</strong> en de kinetische energie het grootst in het <strong>laagste punt</strong>. In het hoogste punt staat de schommel een ogenblik stil, dus is zijn kinetische energie daar juist nul. <strong>Zonder wrijving blijft de som van de twee gelijk.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een bal van 1 kilogram die 5 meter valt heeft net voor de bodem <strong>50 joule</strong> kinetische energie, als je met 10 newton per kilogram rekent en de luchtweerstand verwaarloost: alle hoogte-energie is dan omgezet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Energiedissipatie</strong> is bruikbare energie die in een <strong>minder bruikbare vorm</strong> omgezet wordt, meestal <strong>warmte</strong>. De energie is er nog, maar je kan er weinig nuttigs meer mee doen. Daarom wordt een <strong>rem warm</strong> bij een afdaling: de wrijvingskracht verricht negatieve arbeid op de fiets, en die energie wordt warmte in de rem."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>stroomdiagram</strong> toont hoe de energie bij een omzetting over de vormen verdeeld wordt; de breedte van de pijlen zegt hoeveel er naar welke vorm gaat. Alles wat erin gaat, moet er ook weer uit komen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Systeem</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wisselt uit met de omgeving</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Open systeem</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">energie én materie (een open kookpot)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Gesloten systeem</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alleen energie (een pot met een deksel)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Geïsoleerd systeem</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niets van beide (een thermos benadert dat)</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Vermogen en rendement",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>vermogen</strong> is de <strong>omgezette energie gedeeld door de tijd</strong>, in <strong>watt</strong>: joule per seconde. Een motor die 400 joule omzet in 5 seconden heeft een vermogen van <strong>80 watt</strong>. Een toestel met een <strong>groter vermogen zet in dezelfde tijd meer energie om</strong>, en daarom kookt een waterkoker van 2000 watt sneller dan een van 1000 watt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Omgekeerd: een toestel van <strong>2000 watt</strong> dat een <strong>half uur</strong> aanstaat gebruikt <strong>1 kilowattuur</strong>. Je vermenigvuldigt het vermogen in kilowatt met de tijd in uur, en zo rekent ook je elektriciteitsmeter."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>rendement</strong> is de <strong>nuttige energie gedeeld door de totale energie</strong>, meestal in procent. Van 1000 joule met 250 joule nuttig is het rendement <strong>25 procent</strong>. De <strong>ongewenste energie</strong> is de <strong>totale min de nuttige</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een rendement <strong>boven honderd procent bestaat niet</strong>: er kan nooit meer energie uit komen dan er in gaat. Een lamp die 100 joule krijgt en 5 joule licht geeft, zet de overige <strong>95 joule in warmte</strong> om; bij een gloeilamp is dat het grootste deel, en daarom heeft een <strong>ledlamp een veel beter rendement</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Koken twee waterkokers dezelfde liter water, de ene op 2 en de andere op 4 minuten, dan heeft de <strong>snelste het grootste vermogen</strong>: voor dezelfde energie in de helft van de tijd heb je dubbel het vermogen nodig. Hun rendement kan daarnaast nog verschillen."
+    },
+    {
+     "soort": "weetje",
+     "html": "Ook bij een exotherme reactie moet je vaak eerst energie toevoeren om ze te starten. Een gasvlam moet je aansteken; daarna houdt ze zichzelf gaande met de warmte die ze zelf maakt."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

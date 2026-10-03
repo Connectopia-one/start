@@ -1,0 +1,121 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Spieren, klieren en hormonen",
+ "onder": "De drie soorten spierweefsel, de bouw van een spier, de klieren en de regeling van je bloedsuiker.",
+ "secties": [
+  {
+   "kop": "De drie soorten spierweefsel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Er zijn drie soorten: <strong>dwarsgestreept spierweefsel</strong>, <strong>glad spierweefsel</strong> en <strong>hartspierweefsel</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Willekeurige</strong> spieren, dus onder je wil, zijn bijvoorbeeld de <strong>spier die je arm buigt</strong>, de <strong>spier die je been strekt</strong> en de <strong>kauwspier in je kaak</strong>. Het <strong>hartspierweefsel werkt onwillekeurig</strong>, ook al is het dwarsgestreept."
+    },
+    {
+     "soort": "tekst",
+     "html": "Over <strong>glad spierweefsel</strong>: het <strong>ligt in de wand van organen en bloedvaten</strong>, het <strong>werkt onwillekeurig</strong>, en het <strong>trekt trager samen dan een skeletspier</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>spier kan niet duwen</strong>, alleen trekken: samentrekken en daarna weer verslappen. Daarom werken spieren in paren. De <strong>agonist</strong> is de spier die <strong>de beweging uitvoert</strong>, tegenover haar tegenspeler. Dat <strong>de biceps en de triceps elkaars antagonist</strong> zijn, betekent dat <strong>wanneer de ene samentrekt, de andere ontspant</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De bouw van een spier",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Van groot naar klein: <strong>spierbuik, spierbundel, spiervezel, spierfibril</strong>. Een <strong>spiervezel heeft meer dan één celkern</strong>; ze ontstaat doordat veel cellen samensmelten. Het <strong>celmembraan van een spiervezel</strong> heet het <strong>sarcolemma</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de <strong>microscopische bouw</strong> van een dwarsgestreepte spier horen de <strong>Z-plaat</strong>, het <strong>actinefilament</strong> en het <strong>myosinefilament</strong>. Het stukje spierfibril <strong>tussen twee Z-platen</strong> is het <strong>sarcomeer</strong>, de <strong>functionele eenheid</strong> van de spier."
+    },
+    {
+     "soort": "tekst",
+     "html": "Trekt de spier samen, dan <strong>schuiven de actinefilamenten tussen de myosinefilamenten</strong> en <strong>komen de Z-platen dichterbij</strong>. De <strong>donkere banden</strong> in een dwarsgestreepte spier danken hun naam aan het <strong>myosine</strong> dat daar ligt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het bevel om samen te trekken komt aan doordat een <strong>motorisch neuron via de motorische eindplaat een neurotransmitter afgeeft</strong>. De <strong>motorische eindplaat</strong> is de plek waar het uiteinde van een motorisch neuron op een spiervezel aankomt. Een <strong>motorische eenheid</strong> is <strong>één motorisch neuron met alle spiervezels die het aanstuurt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>spierspoeltjes meten hoe ver een spier uitgerekt is</strong>; op die informatie werkt onder andere de kniepeesreflex."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een spier haalt haar energie <strong>uit de afbraak van glycogeen en glucose in de spiervezel</strong>. Daarom heeft spierweefsel <strong>veel bloedvaten</strong> nodig: het <strong>bloed brengt zuurstof en voedingsstoffen aan en voert afvalstoffen af</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Klieren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het verschil: een <strong>endocriene klier geeft haar stof af aan het bloed</strong>, een <strong>exocriene via een afvoerbuis</strong>. Een exocriene klier geeft haar product dus <strong>niet</strong> rechtstreeks aan het bloed af."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Exocriene klieren</strong> zijn onder andere de <strong>traanklier</strong>, de <strong>zweetklier</strong> en de <strong>talgklier</strong>. De <strong>alvleesklier is een gemengde klier</strong>: ze geeft spijsverteringssappen af via een afvoerbuis én hormonen aan het bloed. De <strong>thymus is geen exocriene klier</strong>; hij speelt een rol bij de afweer."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>klier is altijd een effector</strong>: ze voert een reactie uit nadat ze een signaal kreeg."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Klier</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hormoon</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Schildklier</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">thyroxine</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Hypofyse</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onder andere het schildklierstimulerend hormoon</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Bijnier</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">adrenaline en cortisol</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Alvleesklier</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">insuline en glucagon</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>hypofyse</strong> is de klier <strong>onderaan de hersenen die veel andere klieren aanstuurt</strong>. Het <strong>doelorgaan van het schildklierstimulerend hormoon</strong> is de <strong>schildklier</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Hoe hormonen werken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>sleutel-slotprincipe</strong> bij hormonen betekent dat een <strong>hormoon alleen op de membraanreceptor van zijn doelwitcel past</strong>. De <strong>doelwitcel</strong> is dus de cel waarop een bepaald hormoon werkt. Een hormoon komt met het bloed overal, maar werkt alleen daar."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Hormonen werken trager dan zenuwen</strong>, maar hun effect houdt langer aan. Zenuwen werken snel en gericht."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Adrenaline</strong> bij <strong>stress</strong>: de <strong>hartslag versnelt</strong>, er komt <strong>extra glucose vrij in het bloed</strong>, en het <strong>lichaam wordt klaargezet voor inspanning</strong>. <strong>Cortisol</strong> komt uit de <strong>bijnier</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De regeling van je bloedsuiker",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>bètacellen</strong> in de <strong>eilandjes van Langerhans</strong> maken <strong>insuline</strong>. Stijgt je <strong>glucosegehalte na een maaltijd</strong>, dan <strong>geven de bètacellen insuline af</strong>, <strong>slaat de lever glucose op als glycogeen</strong>, en <strong>nemen de lichaamscellen meer glucose op</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wordt je glucosegehalte <strong>te laag</strong>, dan laat <strong>glucagon de lever glycogeen afbreken</strong>. Zo wordt het <strong>glucosegehalte in het bloed met een feedbacksysteem geregeld</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>diabetes type 1</strong> <strong>maakt het lichaam zelf geen of te weinig insuline meer aan</strong>. Iemand met <strong>onbehandelde diabetes</strong> heeft vaak <strong>dorst en plast veel</strong>, omdat de <strong>nieren de overtollige glucose afvoeren en daarbij veel water meenemen</strong>."
+    },
+    {
+     "soort": "weetje",
+     "html": "Insuline werd in 1921 voor het eerst uit een alvleesklier gezuiverd. Tot dan was diabetes type 1 bij kinderen zo goed als altijd dodelijk."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}

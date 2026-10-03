@@ -1,0 +1,138 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Van prikkel tot reactie, en het oog",
+ "onder": "De weg van prikkel naar reactie, de zintuigen, de bouw van het oog, en hoe een plant reageert.",
+ "secties": [
+  {
+   "kop": "De weg van prikkel tot reactie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De weg loopt altijd in dezelfde <strong>volgorde</strong>: <strong>prikkel, receptor, conductor, effector</strong>, en dan de <strong>reactie</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Schakel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Receptor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vangt een prikkel op en zet hem om in een signaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een staafje in je oog</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Conductor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geeft het signaal van de receptor naar de effector door</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een zenuw, het ruggenmerg, de hersenen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Effector</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voert de reactie uit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een spier of een klier</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>uitwendige prikkel</strong> komt van buiten je lichaam: het <strong>geluid van een toeterende auto</strong>, het <strong>licht van een felle lamp</strong>, de <strong>kou van een ijskoude wind</strong>. Een <strong>inwendige prikkel</strong> komt van binnen: <strong>dorst</strong> en <strong>stress</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de mens <strong>verwerken de hersenen de binnenkomende signalen</strong> en <strong>bepalen ze welke reactie volgt</strong>. Trek je je hand weg van een hete pan nog voor je het beseft, dan is de <strong>effector de spier in je arm die samentrekt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>receptor is meestal maar voor één soort prikkel gevoelig</strong>. Zo weet het lichaam <strong>meteen welke prikkel er binnenkomt</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De zintuigen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Receptor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Zintuig</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Staafjes en kegeltjes</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het zicht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Haarcellen in het oor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het gehoor</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Zintuigcellen op de tong</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de smaakzin</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Zintuigcellen in de neus</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de reukzin</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Mechanoreceptoren in de huid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de tastzin</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Ruik je dat er <strong>brood in de oven</strong> staat, dan gebruik je de <strong>reukzin</strong>. <strong>Smaak en geur werken samen</strong>: wie <strong>verkouden</strong> is, <strong>proeft minder</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Mechanoreceptoren</strong> reageren op druk, trek en beweging. Een plant vangt <strong>licht</strong> dus <strong>niet</strong> op met mechanoreceptoren, maar met een <strong>fotoreceptor</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Hoe een plant reageert",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>tropie</strong> is een <strong>groeibeweging in de richting van de prikkel of er net van weg</strong>. Groeit een wortel <strong>naar beneden, de zwaartekracht achterna</strong>, dan heet dat <strong>geotropie</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>nastie</strong> is een <strong>plantenbeweging waarvan de richting niet door de richting van de prikkel bepaald wordt</strong>: een tulp die bij koude dichtgaat."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het grote verschil tussen een plant en een dier: een <strong>plant reageert traag met groei of beweging van delen</strong>, een <strong>dier snel met spieren</strong>. Een prikkel leidt bij een plant dus <strong>niet</strong> altijd tot een reactie die je binnen enkele seconden ziet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Plantenhormonen</strong> <strong>sturen de strekking van cellen in de stengel</strong>, <strong>spelen mee bij de vorming van bijwortels en zijscheuten</strong>, en <strong>regelen het rijpen van vruchten</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Auxine</strong> hoopt zich op aan de <strong>donkere</strong> kant van de stengel, dus niet aan de kant waar het licht op valt. Die donkere kant strekt sneller, en daardoor buigt de stengel naar het licht toe."
+    }
+   ]
+  },
+  {
+   "kop": "De bouw van het oog",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>wand van de oogbol</strong> bestaat uit <strong>drie lagen</strong>, van buiten naar binnen: het <strong>hard oogvlies</strong>, het <strong>vaatvlies</strong> en het <strong>netvlies</strong>. Het <strong>hoornvlies</strong> is het <strong>doorzichtige voorste deel van het harde oogvlies</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij het <strong>vaatvlies</strong> horen het <strong>straallichaam</strong>, de <strong>iris met haar spieren</strong> en de <strong>lensbanden</strong>. De <strong>iris</strong> regelt de <strong>hoeveelheid licht die door de pupil binnenkomt</strong>; de <strong>pupil</strong> is de <strong>opening in het midden van de iris</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>glasachtig lichaam</strong> is de <strong>doorzichtige gelei die de oogbol vult en in vorm houdt</strong>. De <strong>voorste oogkamer</strong> ligt vóór de ooglens en de <strong>achterste</strong> erachter, dus niet beide achter de lens."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>oogzenuw</strong> brengt de signalen van het netvlies naar de hersenen."
+    }
+   ]
+  },
+  {
+   "kop": "Het netvlies en het zien",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Staafjes werken ook bij weinig licht</strong> maar zien geen kleur; <strong>kegeltjes zorgen voor het zien van kleur</strong> en hebben veel licht nodig. <strong>Beide liggen in het netvlies</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>gele vlek</strong> is de plek op het netvlies waar je het <strong>scherpst ziet</strong>. Op de <strong>blinde vlek</strong> zie je niets, want daar <strong>verlaat de oogzenuw het oog</strong> en liggen er <strong>geen lichtreceptoren</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>bipolaire cellen</strong> en de <strong>ganglioncellen</strong> geven het signaal van de <strong>lichtreceptoren</strong> door naar de oogzenuw. De <strong>pigmentcellen</strong> achteraan in het netvlies <strong>slikken het licht dat er doorheen gaat</strong>, zodat er niets weerkaatst."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het beeld dat op het netvlies valt, staat <strong>op zijn kop</strong> en niet rechtop. En het <strong>netvlies levert het beeld niet helemaal af</strong>: de <strong>hersenen verwerken het nog</strong>, draaien het om en vullen aan."
+    },
+    {
+     "soort": "tekst",
+     "html": "Kom je <strong>uit het felle zonlicht een donkere kelder binnen</strong>, dan <strong>wordt de pupil groter</strong>, <strong>nemen de staafjes het werk over van de kegeltjes</strong>, en <strong>zie je eerst bijna geen kleuren meer</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Accommodatie, bijziend en verziend",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>accommodatie verandert de ooglens van vorm zodat het beeld scherp wordt</strong>. Kijk je van ver weg naar iets <strong>vlakbij</strong>, dan wordt de ooglens <strong>boller</strong>; voor ver weg wordt ze platter."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>bijziendheid</strong> valt het <strong>beeld van veraf vóór het netvlies</strong>, en een <strong>holle lens</strong> zet het scherp. Bij <strong>verziendheid</strong> valt het erachter, en daar helpt een <strong>bolle lens</strong>."
+    },
+    {
+     "soort": "weetje",
+     "html": "Je blinde vlek merk je nooit op, omdat je hersenen het ontbrekende stukje aanvullen met wat eromheen te zien is."
+    }
+   ]
+  }
+ ],
+ "onthoud": []
+}
