@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Foto, Icoon, Kaart, PaginaKop, Sectie } from "@/components/ui";
+import { kijkje } from "@/content/kijkje";
 import { overOns } from "@/content/over-ons";
 import { site } from "@/content/site";
 
@@ -65,6 +67,47 @@ export default function OverOnsPagina() {
             </div>
           ))}
         </div>
+      </Sectie>
+
+      {/*
+        Een strookje van drie foto's met een link naar de fotopagina. Het staat
+        hier omdat iemand die het verhaal gelezen heeft, vanzelf benieuwd is
+        hoe een dag er dan uitziet.
+      */}
+      <Sectie>
+        <div className="flex flex-wrap items-end justify-between gap-3">
+          <div>
+            <h2 className="text-2xl text-green">{kijkje.strook.titel}</h2>
+            <p className="mt-2 max-w-[60ch] text-ink-dim">
+              {kijkje.strook.tekst}
+            </p>
+          </div>
+          <Link
+            href="/kijkje"
+            className="rounded-full bg-orange px-5 py-2.5 text-[16px] font-extrabold text-cream transition hover:-translate-y-0.5"
+          >
+            {kijkje.strook.knop} →
+          </Link>
+        </div>
+        <ul className="mt-5 grid gap-4 sm:grid-cols-3">
+          {kijkje.strook.bestanden.map((bestand) => {
+            const foto = kijkje.fotos.find((f) => f.bestand === bestand);
+            if (!foto) return null;
+            return (
+              <li key={bestand}>
+                <Link href="/kijkje">
+                  {/* eslint-disable-next-line @next/next/no-img-element */}
+                  <img
+                    src={`/kijkje/${foto.bestand}`}
+                    alt={foto.alt}
+                    loading="lazy"
+                    className="aspect-[4/3] w-full rounded-[20px] border border-border object-cover"
+                  />
+                </Link>
+              </li>
+            );
+          })}
+        </ul>
       </Sectie>
 
       <Sectie>
