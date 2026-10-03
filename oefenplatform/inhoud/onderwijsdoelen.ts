@@ -23,6 +23,11 @@ export const doelenTekst = {
   foutTekst:
     "Merk je dat een hoofdstuk iets mist of iets bevat dat er niet in hoort? Laat het ons weten, dan kijken we het na.",
   foutMail: "info@matmgroep.com",
+  /* Staat bij een niveau waar nog geen enkel vak en geen enkel document bij
+     hoort. Zodra je er in Beheer een vakfiche bij zet, verdwijnt deze zin
+     vanzelf en komt die fiche daar te staan. */
+  nogInOpbouw:
+    "Dit niveau is in opbouw. Zodra er vakfiches opgeladen zijn, staan ze hier.",
   /* Staat boven de documenten, en legt uit waarom we ze zelf bewaren. */
   bestandenUitleg:
     "Hieronder staat bij elk vak het officiële document waarop we ons gebaseerd hebben. We bewaren daar met opzet onze eigen kopie van, met de datum erbij. Op de site van de Examencommissie staan namelijk honderden fiches, en dan weet je nog niet welke wij precies gebruikt hebben. Zie je dat een document verouderd is, laat het ons dan weten.",
@@ -43,7 +48,9 @@ export type DoelenBlok = {
   /* Een officieel webadres. Laat leeg als je het nog niet hebt. */
   bron?: string;
   bronTekst?: string;
-  /* Per vak: wat we gebruiken, en hoe ver we ermee staan. */
+  /* Per vak: wat we gebruiken, en hoe ver we ermee staan. Deze lijst mag leeg
+     zijn: de vakfiches die je in Beheer oplaadt, krijgen dan zelf een kopje
+     met de naam die jij bij het vak getypt hebt. */
   vakken: { naam: string; doelen: string; stand?: string }[];
 };
 
@@ -137,26 +144,20 @@ export const doelenBlokken: DoelenBlok[] = [
     niveau: "Boost — 3de en 4de middelbaar",
     emoji: "🚀",
     herkomst: "De vakfiches van de Examencommissie voor de 2de graad.",
-    vakken: [
-      {
-        naam: "Alle vakken",
-        doelen: "In opbouw.",
-        stand: "Nog niet beschikbaar.",
-      },
-    ],
+    /* Leeg met opzet: elke fiche die je hier oplaadt, krijgt zelf een kopje
+       met de naam van het vak. Wil je er een zin uitleg bij, zet het vak dan
+       hieronder in dezelfde vorm als bij Start en Spark. */
+    vakken: [],
   },
   {
     slug: "beyond",
     niveau: "Beyond — 5de en 6de middelbaar",
     emoji: "🌍",
     herkomst: "De vakfiches van de Examencommissie voor de 3de graad.",
-    vakken: [
-      {
-        naam: "Alle vakken",
-        doelen: "In opbouw.",
-        stand: "Nog niet beschikbaar.",
-      },
-    ],
+    /* Leeg met opzet: elke fiche die je hier oplaadt, krijgt zelf een kopje
+       met de naam van het vak. Wil je er een zin uitleg bij, zet het vak dan
+       hieronder in dezelfde vorm als bij Start en Spark. */
+    vakken: [],
   },
 ];
 

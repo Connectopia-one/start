@@ -15,16 +15,31 @@ type Type = "link" | "pdf";
 const veld =
   "w-full rounded-md border border-border bg-paper px-3 py-2 text-sm outline-none focus:border-forest focus:ring-1 focus:ring-forest";
 
-export function NieuwDoelbestandForm() {
+export function NieuwDoelbestandForm({
+  /* De vaknamen die bij een niveau al gebruikt zijn, uit de lijst hierboven. */
+  gebruikteVakken = {},
+}: {
+  gebruikteVakken?: Record<string, string[]>;
+}) {
   const router = useRouter();
   const [niveau, setNiveau] = useState<string>(NIVEAUS[0]?.slug ?? "start");
   const [type, setType] = useState<Type>("pdf");
   const [status, setStatus] = useState<"idle" | "bezig" | "fout">("idle");
   const [fout, setFout] = useState<string | null>(null);
 
-  /* De vakken die op /onderwijsdoelen bij dit niveau staan, zodat het document
-     onder het juiste kopje terechtkomt. Een eigen vak typen mag ook. */
-  const vakken = doelenBlokken.find((b) => b.slug === niveau)?.vakken ?? [];
+  /* De vakken die op /onderwijsdoelen bij dit niveau staan, aangevuld met de
+     vakken die je er zelf al bij getypt hebt. Zo komt het document onder het
+     juiste kopje terecht. Een nieuw vak typen mag ook: dat krijgt dan vanzelf
+     een eigen kopje op de pagina. */
+  const voorstellen: string[] = [];
+  for (const naam of [
+    ...(doelenBlokken.find((b) => b.slug === niveau)?.vakken ?? []).map((v) => v.naam),
+    ...(gebruikteVakken[niveau] ?? []),
+  ]) {
+    if (!voorstellen.some((n) => n.toLowerCase() === naam.toLowerCase())) {
+      voorstellen.push(naam);
+    }
+  }
 
   async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -125,8 +140,8 @@ export function NieuwDoelbestandForm() {
         </label>
         <input id="vak" name="vak" list="doelen-vakken" className={veld} />
         <datalist id="doelen-vakken">
-          {vakken.map((v) => (
-            <option key={v.naam} value={v.naam} />
+          {voorstellen.map((naam) => (
+            <option key={naam} value={naam} />
           ))}
         </datalist>
         <p className="text-xs text-ink-dim">

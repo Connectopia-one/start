@@ -31,6 +31,17 @@ export default async function BeheerDoelenPage() {
 
   const rijen = (data ?? []) as Rij[];
 
+  /* De vaknamen die bij dit niveau al gebruikt zijn. Het formulier stelt ze
+     voor, zodat een volgende fiche vanzelf dezelfde schrijfwijze krijgt en
+     onder hetzelfde kopje op /onderwijsdoelen belandt. */
+  const gebruikteVakken: Record<string, string[]> = {};
+  for (const d of rijen) {
+    const naam = d.vak?.trim();
+    if (!naam) continue;
+    const lijst = (gebruikteVakken[d.niveau] ??= []);
+    if (!lijst.some((n) => n.toLowerCase() === naam.toLowerCase())) lijst.push(naam);
+  }
+
   return (
     <>
       <Header naam={session.profile?.full_name} rol="beheerder" />
@@ -170,7 +181,7 @@ export default async function BeheerDoelenPage() {
 
         <section className="mt-10 rounded-xl border border-border bg-surface p-6">
           <h2 className="font-display text-lg font-semibold text-ink">Nieuw document</h2>
-          <NieuwDoelbestandForm />
+          <NieuwDoelbestandForm gebruikteVakken={gebruikteVakken} />
         </section>
       </main>
     </>

@@ -2,13 +2,61 @@ import Link from "next/link";
 import { Header } from "@/components/Header";
 import { getSessionProfile } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
-import { doelenTekst, doelenBlokken } from "@/inhoud/onderwijsdoelen";
+import { doelenTekst, doelenBlokken, type DoelenBlok } from "@/inhoud/onderwijsdoelen";
 
 export const metadata = {
   title: "Waarop is dit gebaseerd? — Oefenplatform Connectopia",
   description:
     "Per niveau en per vak: op welke minimumdoelen en op welke vakfiches van de Examencommissie onze oefeningen steunen, met de documenten zelf erbij.",
 };
+
+type Vakrij = {
+  naam: string;
+  doelen?: string;
+  stand?: string;
+  documenten: Doelbestand[];
+};
+
+/* Eén hoofdletter vooraan, de rest blijft staan: "aardrijkskunde" wordt
+   "Aardrijkskunde", maar "Wiskunde gevorderd" verandert niet. */
+function metHoofdletter(tekst: string): string {
+  return tekst.charAt(0).toUpperCase() + tekst.slice(1);
+}
+
+/*
+  De vakken van één niveau, met de opgeladen documenten erbij.
+
+  Eerst de vakken die in inhoud/onderwijsdoelen.ts beschreven staan, in hun
+  eigen volgorde. Daarna de vakken die enkel in de opgeladen documenten
+  voorkomen: bij Boost en Beyond staat er geen vakkenlijst in de tekst, en wie
+  "aardrijkskunde" typt waar de tekst "Aardrijkskunde" zegt mag daar ook niet
+  op vastlopen. Zonder dit stuk stond een opgeladen fiche nergens op de pagina.
+*/
+function vakkenVanBlok(blok: DoelenBlok, vanNiveau: Doelbestand[]): Vakrij[] {
+  const sleutel = (naam: string) => naam.trim().toLowerCase();
+  const beschreven = new Set(blok.vakken.map((v) => sleutel(v.naam)));
+
+  const rijen: Vakrij[] = blok.vakken.map((v) => ({
+    naam: v.naam,
+    doelen: v.doelen,
+    stand: v.stand,
+    documenten: vanNiveau.filter((b) => b.vak && sleutel(b.vak) === sleutel(v.naam)),
+  }));
+
+  const extra = new Map<string, Vakrij>();
+  for (const b of vanNiveau) {
+    const naam = b.vak?.trim();
+    if (!naam || beschreven.has(sleutel(naam))) continue;
+    const bestaand = extra.get(sleutel(naam));
+    if (bestaand) bestaand.documenten.push(b);
+    else extra.set(sleutel(naam), { naam: metHoofdletter(naam), documenten: [b] });
+  }
+
+  return [
+    ...rijen,
+    ...[...extra.values()].sort((a, b) => a.naam.localeCompare(b.naam, "nl")),
+  ];
+}
 
 type Doelbestand = {
   id: string;
@@ -83,7 +131,8 @@ export default async function OnderwijsdoelenPage() {
         <div className="mt-8 space-y-6">
           {doelenBlokken.map((blok) => {
             const vanNiveau = bestanden.filter((b) => b.niveau === blok.slug);
-            const algemeen = vanNiveau.filter((b) => !b.vak);
+            const algemeen = vanNiveau.filter((b) => !b.vak?.trim());
+            const vakrijen = vakkenVanBlok(blok, vanNiveau);
 
             return (
               <section
@@ -114,23 +163,23 @@ export default async function OnderwijsdoelenPage() {
                 ))}
 
                 <dl className="mt-4 space-y-4 border-t border-border pt-4">
-                  {blok.vakken.map((vak) => {
-                    const vanVak = vanNiveau.filter((b) => b.vak === vak.naam);
-                    return (
-                      <div key={vak.naam}>
-                        <dt className="text-sm font-medium text-ink">{vak.naam}</dt>
-                        <dd className="mt-0.5 text-sm text-ink-dim">
-                          {vak.doelen}
-                          {vak.stand && (
-                            <span className="mt-1 block text-xs text-ink-dim">{vak.stand}</span>
-                          )}
-                          {vanVak.map((rij) => (
-                            <Document key={rij.id} rij={rij} />
-                          ))}
-                        </dd>
-                      </div>
-                    );
-                  })}
+                  {vakrijen.map((vak) => (
+                    <div key={vak.naam}>
+                      <dt className="text-sm font-medium text-ink">{vak.naam}</dt>
+                      <dd className="mt-0.5 text-sm text-ink-dim">
+                        {vak.doelen}
+                        {vak.stand && (
+                          <span className="mt-1 block text-xs text-ink-dim">{vak.stand}</span>
+                        )}
+                        {vak.documenten.map((rij) => (
+                          <Document key={rij.id} rij={rij} />
+                        ))}
+                      </dd>
+                    </div>
+                  ))}
+                  {vakrijen.length === 0 && (
+                    <p className="text-sm text-ink-dim">{doelenTekst.nogInOpbouw}</p>
+                  )}
                 </dl>
               </section>
             );
