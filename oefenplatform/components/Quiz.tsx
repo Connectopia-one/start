@@ -749,9 +749,26 @@ export function Quiz({
      daarnaartoe; is er niets meer open, dan staat ze grijs en zegt de regel
      eronder waarom. Zonder dat liep een kind vast op een reeks van één vraag. */
   const laatsteVanDeReeks = huidige >= vragen.length - 1;
-  const nogOpenElders = vragen.findIndex(
-    (v, i) => i !== huidige && !statussen[v.vraag.id]?.gecontroleerd,
+  const dezeNagekeken = Boolean(statussen[vraag.id]?.gecontroleerd);
+  /* Een vraag die het kind oversloeg. Eerst vooruit kijken, dan pas terug.
+     Dit zocht vanaf het begin van de lijst, dus bracht de knop een kind dat
+     vragen oversloeg telkens naar vraag 1, en daar liep het weer naar het
+     einde: het hoofdstuk leek eindeloos te herbeginnen. Gemeld door Kim op
+     4 oktober 2026, bij Mats in logaritmen deel 2. */
+  const openVooruit = vragen.findIndex(
+    (v, i) => i > huidige && !statussen[v.vraag.id]?.gecontroleerd,
   );
+  const openTerug = vragen.findIndex(
+    (v, i) => i < huidige && !statussen[v.vraag.id]?.gecontroleerd,
+  );
+  /* Pas als deze vraag zelf nagekeken is, brengt de knop het kind naar een
+     overgeslagen vraag. Anders kon een kind dat niets controleerde met
+     "Volgende" eindeloos rondjes blijven draaien. */
+  const nogOpenElders =
+    openVooruit >= 0 ? openVooruit : dezeNagekeken ? openTerug : -1;
+  // Springt de knop naar een vraag die eerder in de reeks staat, dan zegt de
+  // regel eronder dat erbij. Zonder die uitleg lijkt het platform te herbeginnen.
+  const springtTerug = laatsteVanDeReeks && nogOpenElders >= 0 && nogOpenElders < huidige;
   const toonBalk = Boolean(
     kinderen.find((k) => k.id === actiefKindId)?.toonVoortgang,
   );
@@ -977,9 +994,11 @@ export function Quiz({
               : "border border-border text-ink-dim hover:border-forest hover:text-ink"
           }`}
         >
-          {laatsteVanDeReeks && nogOpenElders >= 0
-            ? "Nog te doen "
-            : "Volgende "}
+          {springtTerug
+            ? `Naar vraag ${nogOpenElders + 1} `
+            : laatsteVanDeReeks && nogOpenElders >= 0
+              ? "Nog te doen "
+              : "Volgende "}
           &rarr;
         </button>
       </div>
@@ -992,6 +1011,15 @@ export function Quiz({
         <p className="text-center text-xs text-ink-dim">
           Dit is de laatste vraag van deze reeks. Klik hierboven op Controleer,
           dan is ze klaar.
+        </p>
+      )}
+
+      {/* En waarom de knop naar een eerdere vraag gaat. Zonder deze regel leek
+          het alsof het hoofdstuk vanaf nul herbegon. */}
+      {springtTerug && (
+        <p className="text-center text-xs text-ink-dim">
+          Dit was de laatste vraag van de reeks. Vraag {nogOpenElders + 1} sloeg
+          je over, dus die komt nu nog.
         </p>
       )}
 
