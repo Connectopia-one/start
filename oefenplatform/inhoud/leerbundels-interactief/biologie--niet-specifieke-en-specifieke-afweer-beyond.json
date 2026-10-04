@@ -1,0 +1,94 @@
+{
+ "vak": "Biologie",
+ "titel": "Niet-specifieke en specifieke afweer",
+ "onder": "De drie verdedigingslijnen van het lichaam, van huid tot geheugencel.",
+ "secties": [
+  {
+   "kop": "Ziekteverwekkers en begrippen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>pathogeen</strong> is een <strong>ziekteverwekker</strong>. Een <strong>antigeen</strong> is <strong>een stof die het afweersysteem of immuunsysteem als vreemd herkent</strong>. Dat immuunsysteem <strong>beschermt ons tegen bacteriën en virussen</strong>, en ook <strong>tegen eigen cellen die ontspoord zijn</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>infectie</strong> is het binnendringen en vermenigvuldigen van een ziekteverwekker; <strong>een infectieziekte is de infectie mét ziekteverschijnselen</strong>. De <strong>tijd tussen de besmetting en de eerste klachten</strong> heet de <strong>incubatietijd</strong>. Wie een infectie doormaakt, <strong>bouwt daar meestal wel bescherming tegen op</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De eerste lijn: barrières",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De eerste lijn houdt pathogenen buiten. Een <strong>fysische barrière</strong> is bijvoorbeeld de <strong>opperhuid</strong> of een <strong>slijmvlies</strong>: slijmvliezen <strong>beschermen ons doordat ze deeltjes opvangen in slijm en ze afvoeren</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>chemische barrière</strong> werkt met stoffen: <strong>lysozym in tranen en speeksel maakt de celwand van bacteriën kapot</strong>, en maagzuur doodt het meeste wat je inslikt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ook het <strong>microbioom</strong> of de <strong>microbiota</strong> helpt: dat is <strong>het geheel van onschadelijke micro-organismen dat van nature op en in ons leeft</strong>, en die eigen bacteriën <strong>nemen de plaats en het voedsel in van indringers</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De tweede lijn: niet-specifieke afweer",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De tweede lijn is <strong>niet-specifiek</strong>: ze <strong>werkt tegen elke indringer op dezelfde manier</strong>, en ze is er meteen. De derde lijn is <strong>specifiek</strong>, want ze richt zich tegen <strong>één antigeen</strong> en ze <strong>bouwt een geheugen op</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De witte bloedcellen heten samen de <strong>leukocyten</strong> of <strong>leucocyten</strong>. Een <strong>macrofaag</strong> <strong>eet indringers op en verwerkt ze</strong>; de <strong>neutrofiel</strong> is <strong>de eerste fagocyt die in grote aantallen naar een ontsteking trekt</strong>. Een <strong>natural killer cel</strong> <strong>doodt besmette of ontspoorde eigen cellen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>ontsteking</strong> zie je <strong>roodheid, warmte, zwelling en pijn</strong>. <strong>Histamine</strong>, dat de <strong>mestcellen</strong> vrijzetten, ook bij een <strong>allergische reactie</strong>, <strong>verwijdt de bloedvaten en maakt ze doorlaatbaarder</strong>, zodat er meer afweercellen ter plaatse raken."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Koorts</strong> is geen defect maar een wapen: <strong>de afweer werkt sneller en de indringer trager</strong>. In het bloed stijgt dan ook het <strong>CRP</strong> of <strong>C-reactief proteïne</strong>, dat daarom <strong>gemeten wordt als teken van ontsteking</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>complementsysteem</strong> is een reeks eiwitten die <strong>bacteriën doorboren en de afweercellen aantrekken</strong>. <strong>Interferonen</strong> worden <strong>vrijgezet door cellen die door een virus besmet zijn</strong> en <strong>waarschuwen de cellen ernaast tegen een virus</strong>. <strong>Cytokines</strong> zijn de signaalstoffen tussen afweercellen onderling: ze <strong>geven boodschappen door tussen afweercellen</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De derde lijn: specifieke afweer",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De specifieke afweer vertrekt bij een <strong>dendritische cel</strong>, die <strong>een stuk van de indringer aan de lymfocyten voorstelt</strong>. Dat tonen gebeurt op <strong>MHC-moleculen</strong>: <strong>MHC-I staat op bijna elke lichaamscel</strong>, <strong>MHC-II alleen op de cellen die antigenen presenteren</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>T-helpercel</strong> of <strong>T-helperlymfocyt</strong> is de dirigent: ze <strong>zet de andere afweercellen aan met cytokines</strong>. Een <strong>cytotoxische T-lymfocyt</strong> <strong>doodt een besmette eigen cel</strong>. De <strong>T-lymfocyten</strong> rijpen in de <strong>thymus</strong> of <strong>zwezerik</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>B-cel</strong> die geactiveerd wordt, groeit uit tot een <strong>plasmacel</strong>, en die <strong>maakt antilichamen</strong>. Een <strong>antilichaam</strong> <strong>klit aan het antigeen vast en maakt het onschadelijk</strong>, en het <strong>maakt de indringer herkenbaar voor de fagocyten</strong>. Macrofagen maken dus géén antilichamen. Het <strong>samenklonteren of agglutineren van antigenen door antilichamen</strong> heet <strong>agglutinatie</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een deel van de cellen blijft bewaard als <strong>B-geheugencel</strong>. De <strong>primaire immuunrespons duurt dagen</strong>, want <strong>de juiste lymfocyt moet zich eerst vermenigvuldigen</strong>. De <strong>secundaire immuunrespons verloopt sneller en krachtiger</strong>, want <strong>er zijn al geheugencellen aanwezig en die reageren meteen</strong>: bij een tweede ontmoeting word je vaak niet eens ziek. Zo'n geheugencel <strong>scheidt niet onafgebroken antilichamen af</strong>; ze wacht, jaren zelfs, tot het antigeen terugkomt. Vindt een arts in iemands bloed antilichamen tegen een virus maar geen virus, dan heeft die <strong>persoon het virus gehad of is ze gevaccineerd</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De afweerorganen liggen verspreid. In het <strong>beenmerg</strong> worden de witte bloedcellen gevormd, in de <strong>thymus</strong> <strong>rijpen de T-cellen</strong>, en de <strong>lymfeknopen</strong> <strong>filteren de lymfe en brengen afweercellen samen</strong>. Die knopen en de <strong>milt</strong> horen bij het <strong>lymfatisch systeem</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Eerste lijn houdt buiten, tweede lijn ruimt op, derde lijn is op maat.",
+  "Niet-specifiek is meteen en voor iedereen; specifiek is traag maar onthoudt.",
+  "T-helper dirigeert, cytotoxische T doodt, plasmacel maakt antilichamen.",
+  "Koorts en ontsteking zijn wapens, geen defecten.",
+  "Geheugencellen maken de tweede keer sneller en sterker."
+ ]
+}

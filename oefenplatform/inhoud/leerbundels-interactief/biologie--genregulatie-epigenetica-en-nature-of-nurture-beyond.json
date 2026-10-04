@@ -1,0 +1,127 @@
+{
+ "vak": "Biologie",
+ "titel": "Genregulatie, epigenetica en nature of nurture",
+ "onder": "Hoe een cel haar genen aan- en uitzet, en wat de omgeving daarmee te maken heeft.",
+ "secties": [
+  {
+   "kop": "Waarom regelen?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een cel zet niet al haar genen tegelijk aan, want <strong>ze heeft maar een deel van die eiwitten nodig</strong> en eiwitten maken kost energie en grondstoffen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ook bij een bacterie <strong>staan sommige genen doorlopend aan</strong> en <strong>blijven ze dus aanstaan</strong>, zoals die voor de ribosomen. Alleen de genen voor wisselende taken worden geregeld."
+    }
+   ]
+  },
+  {
+   "kop": "Het lac-operon van E. coli",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>operon</strong> is <strong>een groep genen bij een bacterie die samen aan- of uitgezet worden</strong>, achter dezelfde promotor en operator. Het voordeel: <strong>alle genen van één taak gaan samen aan</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>lac-operon</strong> codeert <strong>voor de eiwitten die lactose afbreken</strong>. Het <strong>regulatorgen</strong> ligt erbuiten en codeert <strong>op de repressor</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zonder lactose <strong>bindt de repressor op de operator en blokkeert hij de transcriptie</strong>. Komt er lactose, dan <strong>bindt die op de repressor, die loslaat</strong>: lactose werkt dus als <strong>inductor</strong>, <strong>een stof die een operon aanzet</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>promotor is de aanlegplaats van polymerase</strong> en de <strong>operator is de plaats waar de repressor past</strong>. Allebei zijn het stukjes DNA met een regelfunctie, geen genen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Glucose</strong> krijgt de voorkeur, want ze is <strong>zonder extra enzymen bruikbaar</strong>. Zolang er glucose is, blijft het lac-operon grotendeels uit."
+    }
+   ]
+  },
+  {
+   "kop": "Regulatie bij een eukaryoot",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een eukaryote cel kan regelen <strong>bij de transcriptie van het gen</strong> en <strong>bij de afbraak van het mRNA</strong>, en ook bij de splicing, de translatie en het afwerken van het eiwit."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Transcriptiefactoren kunnen een gen zowel aanzetten als tegenhouden</strong>. Moet een <strong>levercel</strong> plots veel van een <strong>ontgiftend</strong> enzym maken, dan <strong>wordt dat gen eerst vaker afgelezen</strong>; een transcriptiefactor kan het ook juist <strong>afremmen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Regelen op het niveau van het mRNA heeft een eigen voordeel: <strong>de cel kan snel stoppen met een eiwit te maken</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Celspecifieke genexpressie</strong> betekent dat <strong>elk celtype zijn eigen deel van het genoom gebruikt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>RNA-interferentie</strong> wordt een gen <strong>afgeremd door kleine stukjes RNA</strong>. Een <strong>micro-RNA</strong> <strong>bindt op een mRNA en legt de translatie stil</strong>. Daarbij <strong>wordt het gen zelf niet uit het DNA geknipt</strong>, dus is het effect omkeerbaar."
+    }
+   ]
+  },
+  {
+   "kop": "Epigenetica",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Epigenetica</strong> bestudeert <strong>veranderingen in de genexpressie zonder verandering van het DNA</strong>. De letters blijven dezelfde; alleen de leesbaarheid verandert."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>DNA-methylering</strong> <strong>legt een gen stil</strong>: er komt een <strong>methylgroep</strong> op het DNA, vooral op cytosinen, en de transcriptiefactoren raken er niet meer bij."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Histonacetylering</strong> doet het omgekeerde: ze <strong>maakt het chromatine losser, zodat genen leesbaar worden</strong>. En bij <strong>chromatine remodeling</strong> of <strong>chromatineremodeling</strong> <strong>worden de nucleosomen verschoven en herschikt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zo'n verandering <strong>kan ongedaan gemaakt worden</strong>. Dat een <strong>spiercel en een zenuwcel</strong> een ander <strong>uitzicht</strong> hebben, komt doordat <strong>hun chromatine anders open ligt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Voeding</strong> en <strong>langdurige stress</strong> kunnen zo'n patroon beïnvloeden. Maar <strong>epigenetische merktekens worden niet altijd aan de kinderen doorgegeven</strong>: bij het vormen van de gameten wordt het patroon grotendeels gewist."
+    }
+   ]
+  },
+  {
+   "kop": "Nature en nurture",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Nature</strong> is <strong>de aanleg die in het DNA ligt</strong>, <strong>nurture</strong> is <strong>de invloed van de opvoeding en de omgeving</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Verschillen twee eeneiige tweelingen die <strong>apart opgevoed</strong> zijn in lengte, dan ligt dat aan <strong>de omgeving, want hun DNA is gelijk</strong>. Krijgt iemand met aanleg voor hoge bloeddruk die pas na jaren ongezond eten, dan zie je dat <strong>aanleg en omgeving samenwerken</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "In <strong>tegenstelling</strong> daarmee zijn sterk door de omgeving bepaald: <strong>de taal die iemand spreekt</strong> en <strong>het lichaamsgewicht</strong>. De <strong>bloedgroep</strong> daarentegen <strong>ligt volledig in het DNA vast</strong> en <strong>hangt dus niet van de voeding af</strong>, net als de oogkleur en het geslacht."
+    },
+    {
+     "soort": "tekst",
+     "html": "Groeit een plant uit hetzelfde zaad in de schaduw kleiner op, dan is dat <strong>een invloed van de omgeving op het fenotype</strong>. Het <strong>fenotype</strong> is <strong>alles wat je aan een organisme kunt waarnemen</strong>, en volgt uit het genotype én de omgeving. Bij <strong>de meeste kenmerken valt niet te zeggen dat alleen de genen of alleen de omgeving tellen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Epigenetica is de brug tussen die twee: <strong>de omgeving verandert mee welke genen gelezen worden</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een operon zet alle genen van één taak samen aan.",
+  "Geen lactose: repressor op de operator. Lactose: repressor laat los.",
+  "Methylering legt stil, acetylering maakt leesbaar.",
+  "Epigenetica verandert de leesbaarheid, niet de letters.",
+  "Nature is aanleg, nurture is omgeving; meestal werken ze samen."
+ ]
+}

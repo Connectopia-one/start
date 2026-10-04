@@ -1,0 +1,86 @@
+{
+ "vak": "Biologie",
+ "titel": "Biomoleculen: sachariden, lipiden en proteïnen",
+ "onder": "De drie grote groepen bouwstoffen, van hun bouwsteen tot hun functie.",
+ "secties": [
+  {
+   "kop": "Sachariden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Monosachariden</strong> zijn de enkelvoudige suikers: <strong>glucose, fructose en galactose</strong>. Opgelost heeft glucose <strong>een ring van zes atomen</strong> en fructose <strong>een ring van vijf</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee monosachariden samen geven een disacharide: <strong>lactose bestaat uit glucose en galactose</strong>. De binding tussen twee suikerringen heet een <strong>glycosidebinding</strong> of <strong>glycosidische binding</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>condensatiereactie</strong> <strong>worden twee bouwstenen aan elkaar gekoppeld en komt er water vrij</strong>. Bij <strong>hydrolyse</strong> of een <strong>hydrolysereactie</strong> <strong>wordt een molecule met behulp van water weer gesplitst</strong>. Dat paar komt bij alle drie de groepen terug."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Polysachariden</strong> zijn lange ketens. Energie slaan <strong>zetmeel</strong> (bij planten) en <strong>glycogeen</strong> (bij dieren) op; zetmeel bestaat uit <strong>amylose en amylopectine</strong>. <strong>Cellulose</strong> is een bouwstof: ze is geschikt voor een celwand omdat <strong>de rechte ketens naast elkaar sterke vezels vormen</strong>, als <strong>kabels</strong> in de wand. Een mens kan cellulose niet <strong>verteren</strong>, want <strong>hij heeft het enzym voor die binding niet</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Snelle suikers zijn <strong>kort, dus sneller in het bloed</strong>; trage suikers zijn <strong>lange ketens die eerst afgebroken moeten worden</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Lipiden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>triglyceride</strong> bestaat uit <strong>glycerol en drie vetzuren</strong>. Een <strong>onverzadigd</strong> vetzuur <strong>heeft een of meer dubbele bindingen</strong> en <strong>heeft daar een knik in zijn staart</strong>. Daardoor is olie bij <strong>kamertemperatuur</strong> vloeibaar en boter vast: <strong>geknikte staarten kunnen zich minder dicht tegen elkaar stapelen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Lipiden dienen in het lichaam als <strong>energievoorraad</strong>, als <strong>isolatielaag</strong> die de warmte <strong>vasthoudt</strong>, in het <strong>vetweefsel</strong> dat energie kan <strong>opslaan</strong>, als <strong>bouwstof van de membranen</strong> en als <strong>grondstof voor hormonen</strong>. Vet levert per gram meer energie dan suiker, want <strong>het is sterker gereduceerd en bevat dus meer waterstof om te oxideren</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>fosfolipide</strong> is geschikt om een membraan te vormen omdat <strong>het een waterminnende kop en twee waterafstotende staarten heeft</strong>. Een molecule die water afstoot, heet <strong>hydrofoob</strong> of <strong>apolair</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Cholesterol</strong> is <strong>geen sacharide</strong> maar een lipide, en het zit in het <strong>celmembraan van dieren</strong>, niet in een plantencelwand. Vitaminen die in vet oplossen, <strong>kunnen in het lichaam wél opgeslagen worden</strong> — daarom kan een overdosis ervan schaden."
+    }
+   ]
+  },
+  {
+   "kop": "Proteïnen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Elk <strong>aminozuur</strong> heeft <strong>een aminogroep en een carboxylgroep</strong> gemeenschappelijk; wat verschilt is <strong>de restgroep, zijketen of zijgroep</strong>. Twee aminozuren worden verbonden door een <strong>peptidebinding</strong>; een lange keten heet een <strong>polypeptide</strong> of <strong>polypeptideketen</strong> en heeft als uiteinden een <strong>aminozijde of N-terminus</strong> en een <strong>carboxylzijde of C-terminus</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>primaire structuur</strong> is <strong>de volgorde van de aminozuren</strong>. De <strong>secundaire structuur</strong> omvat de <strong>alfahelix</strong> en de <strong>bètaplaat</strong>. De <strong>tertiaire structuur</strong>, de ruimtelijke vouw, of <strong>plooiing</strong> wordt vastgehouden door <strong>waterstofbruggen</strong>, <strong>zwavelbruggen</strong> of <strong>disulfidebindingen</strong>, <strong>ionbindingen</strong> tussen <strong>geladen</strong> zijgroepen en <strong>hydrofobe interacties</strong>. Bestaat een eiwit uit meerdere ketens, dan heet dat de <strong>quaternaire structuur</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een eiwit dat door verhitting zijn vorm verliest, is <strong>gedenatureerd</strong>. Een gedenatureerd enzym werkt niet meer, want <strong>zijn actieve plaats of actief centrum past niet meer op het substraat</strong>: die vorm is <strong>verloren</strong>. Zo bepaalt de volgorde van de aminozuren de werking: <strong>ze bepaalt de vouw, en de vouw bepaalt wat het eiwit kan</strong>. <strong>Eén veranderd aminozuur kan de werking van een heel eiwit bederven</strong>, zoals bij sikkelcelanemie."
+    },
+    {
+     "soort": "tekst",
+     "html": "Proteïnen <strong>vervullen</strong> in een cel bijna elke taak en <strong>zorgen</strong> voor bijna alles: <strong>reacties versnellen als enzym</strong>, <strong>stoffen vervoeren</strong>, <strong>bouwen en steunen</strong> en <strong>signalen doorgeven</strong>. De samentrekking van een spier doen <strong>actine en myosine</strong>. <strong>Keratine</strong>, niet collageen, geeft haren en nagels hun hardheid; collageen zit in bindweefsel. Het kanaaleiwit dat water door het membraan laat, is <strong>aquaporine</strong>. Een <strong>transcriptiefactor</strong> is een proteïne die <strong>de genexpressie mee stuurt</strong>, en een <strong>antilichaam</strong> is er een die <strong>ziekteverwekkers herkent</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "In de darm worden proteïnen <strong>door hydrolyse tot aminozuren afgebroken</strong>. En dat is wat polysachariden, lipiden en proteïnen gemeenschappelijk hebben: <strong>het zijn grote moleculen die uit kleinere bouwstenen gevormd zijn, met koolstof als basis</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Condensatie bouwt op en geeft water af, hydrolyse breekt af met water.",
+  "Zetmeel en glycogeen slaan op, cellulose bouwt.",
+  "Onverzadigd betekent dubbele binding, dus een knik, dus vloeibaar.",
+  "Een fosfolipide heeft een hydrofiele kop en hydrofobe staarten.",
+  "Primair is de volgorde, secundair helix en plaat, tertiair de vouw, quaternair meerdere ketens.",
+  "De volgorde bepaalt de vouw en de vouw bepaalt de werking."
+ ]
+}

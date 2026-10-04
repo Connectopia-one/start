@@ -1,0 +1,123 @@
+{
+ "vak": "Biologie",
+ "titel": "Overerving en de wetten van Mendel",
+ "onder": "Rekenen met kruisingen, van een eenvoudig schema tot een stamboom.",
+ "secties": [
+  {
+   "kop": "Mendel en zijn erwten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Mendel werkte voor zijn <strong>proeven</strong> met erwtenplanten omdat die daarvoor <strong>geschikt</strong> zijn: <strong>hun kenmerken duidelijk te onderscheiden zijn</strong> en omdat ze <strong>zichzelf kunnen bestuiven</strong>, zodat hij raszuivere lijnen kreeg. Hij gebruikte <strong>grote aantallen</strong>, want <strong>een verhouding klopt alleen bij veel nakomelingen</strong> en <strong>het toeval van één kruising zegt te weinig</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Hij <strong>stelde zijn wetten op</strong> zonder <strong>de chromosomen en het DNA te kennen</strong>, en sprak van erffactoren; pas veertig jaar later werd zijn werk met de chromosomen in verband gebracht."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een plant met <strong>twee dezelfde allelen</strong> is <strong>homozygoot</strong> of raszuiver, met twee verschillende <strong>heterozygoot</strong>. Een heterozygote nakomeling van twee raszuivere lijnen heet een <strong>hybride</strong>. Het <strong>genotype zijn de allelen</strong>, het <strong>fenotype is het uitzicht</strong>; AA en Aa kunnen er dus net zo uitzien."
+    },
+    {
+     "soort": "tekst",
+     "html": "De generaties heten <strong>P</strong> (<strong>de ouders waarmee je start</strong>), <strong>F1</strong> en <strong>F2</strong>. De plaats van een gen is de <strong>locus</strong>; twee homologe chromosomen <strong>dragen daar hetzelfde gen</strong>, maar <strong>de allelen kunnen verschillen</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De drie wetten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>uniformiteitswet</strong>: kruis je twee raszuivere ouders met een verschillend kenmerk, dan <strong>lijken alle nakomelingen van de F1 op elkaar</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>splitsingswet</strong>: in de F2 splitsen de kenmerken weer. Bij een dominant kenmerk krijg je dan <strong>3 op 1</strong> in fenotypes en <strong>1 AA, 2 Aa en 1 aa</strong> in genotypes. Dat komt doordat een plant <strong>Aa bij de meiose twee soorten gameten maakt: A en a</strong>. Zo’n kruising met één kenmerk heet <strong>monohybride</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>onafhankelijkheidswet</strong>: <strong>twee kenmerken erven onafhankelijk van elkaar over</strong>, tenminste als hun genen op verschillende chromosomen liggen. In een dihybride F2 geeft dat <strong>9 op 3 op 3 op 1</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Rekenen met een kruisingsschema",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In een <strong>Punnettvierkant</strong> of kruisingsschema zet je de gameten van de ene ouder boven en die van de andere links, en vul je elk vakje in. Je <strong>zet het schema dus zelf uit</strong> voor je rekent."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een plant <strong>AaBb</strong> maakt <strong>vier</strong> soorten gameten: AB, Ab, aB en ab. Daarom heeft een dihybride schema zestien vakjes."
+    },
+    {
+     "soort": "tekst",
+     "html": "Kruis je <strong>Aa met aa</strong>, dan geven twee van de vier vakjes aa: <strong>de helft</strong> toont het recessieve kenmerk. Een recessief kenmerk is immers <strong>alleen te zien bij een homozygoot recessief genotype</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wil je weten of een plant met dominant uitzicht AA of Aa is, dan <strong>kruis je ze met een recessieve plant</strong>. Komt er één recessieve nakomeling, dan was ze Aa."
+    }
+   ]
+  },
+  {
+   "kop": "Wat niet in het schema van Mendel past",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>intermediair</strong> kenmerk zie je in de F1 <strong>iets tussen de twee ouderkenmerken</strong>, bijvoorbeeld roze uit rood en wit. In de F2 krijg je dan <strong>1 op 2 op 1</strong>, want elk genotype heeft zijn eigen uitzicht."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>codominantie</strong> <strong>zie je de twee kenmerken naast elkaar</strong> en <strong>wordt geen van de twee allelen verborgen</strong>, zoals bij een rund met rode én witte haren door elkaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>multipele allelen</strong> bestaan er meer dan twee varianten van één gen. Het <strong>ABO-bloedgroepsysteem</strong> is daarvan het voorbeeld, met de <strong>bloedgroepen</strong> A, B, AB en O: A en B zijn codominant en dominant over O. Ouders met <strong>AB en O</strong> krijgen dus kinderen met <strong>alleen A of B</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>geslachtsgebonden</strong> kenmerk ligt het gen op een geslachtschromosoom, meestal het X. Daarom komt <strong>kleurenblindheid vaker voor bij mannen</strong>: zij hebben er maar één X en geen tweede om het recessieve allel te verbergen. Is een vrouw draagster van hemofilie en de vader gezond, dan <strong>heeft de helft van de zonen hemofilie</strong> en worden de dochters hoogstens draagster. Het geslacht zelf wordt bepaald <strong>door de zaadcel, met een X of een Y</strong>; de <strong>eicel</strong> draagt altijd een X. Een zaadcel met een Y geeft dus een <strong>jongen</strong>, een zaadcel met een X een <strong>meisje</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Gekoppelde genen</strong> <strong>liggen op hetzelfde chromosoom</strong> en gaan dus meestal samen naar één gameet. Alleen een <strong>crossing-over tussen de twee loci</strong> kan ze scheiden, en <strong>hoe verder ze uit elkaar liggen, hoe vaker dat gebeurt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>letaal allel</strong> is <strong>homozygoot dodelijk</strong>, dus <strong>vind je het nooit homozygoot bij een levend dier</strong>; in de nakomelingschap zie je dan 2 op 1 in plaats van 3 op 1."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>polygenie</strong> <strong>werken meerdere genen samen aan één kenmerk</strong> en bepalen ze het dus <strong>samen</strong>, zoals bij <strong>lichaamslengte</strong> en <strong>huidkleur</strong>. Daardoor krijg je een vloeiende reeks in plaats van enkele scherp gescheiden groepen."
+    }
+   ]
+  },
+  {
+   "kop": "Een stamboom lezen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In een stamboom staat een <strong>vierkant voor een man</strong> en een <strong>cirkel voor een vrouw</strong>; een gevulde vorm betekent dat de persoon het kenmerk heeft."
+    },
+    {
+     "soort": "tekst",
+     "html": "Hebben <strong>twee gezonde ouders een ziek kind</strong>, dan is <strong>het allel recessief en zijn de ouders drager</strong>. Een kenmerk dat <strong>een generatie overslaat</strong>, wijst dus eerder op een recessief allel. Komt een aandoening <strong>in elke generatie en bij beide geslachten</strong> voor, dan is een <strong>dominant allel op een lichaamschromosoom</strong> het meest waarschijnlijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "Aan een X-gebonden recessief kenmerk herken je dat <strong>veel meer mannen dan vrouwen aangetast zijn</strong> en dat <strong>een aangetaste man het aan al zijn dochters doorgeeft als draagster</strong>. Van vader op zoon gaat het juist nooit, want een zoon krijgt van zijn vader het Y-chromosoom."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Uniformiteit in F1, splitsing 3 op 1 in F2, dihybride 9:3:3:1.",
+  "Genotype zijn de allelen, fenotype is het uitzicht.",
+  "Intermediair geeft een mengvorm, codominant toont beide kenmerken.",
+  "X-gebonden gaat nooit van vader op zoon.",
+  "Overslaan van een generatie wijst op een recessief allel."
+ ]
+}

@@ -1,0 +1,106 @@
+{
+ "vak": "Biologie",
+ "titel": "De celcyclus, mitose en meiose",
+ "onder": "De twee celdelingen naast elkaar, en wat ze voor een organisme betekenen.",
+ "secties": [
+  {
+   "kop": "De celcyclus",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De celcyclus bestaat uit <strong>de interfase en de M-fase</strong>. De <strong>interfase</strong> is <strong>de hele periode tussen twee celdelingen</strong> en duurt veel langer dan de deling zelf."
+    },
+    {
+     "soort": "tekst",
+     "html": "In de <strong>G1-fase</strong> <strong>groeit de cel en maakt ze eiwitten</strong>. In de <strong>S-fase</strong> wordt <strong>het DNA gekopieerd</strong>. In de <strong>G2-fase</strong> <strong>bereidt de cel de deling voor en keurt ze het DNA</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>G0-fase</strong> is <strong>een rusttoestand buiten de celcyclus</strong>. Zenuwcellen en spiercellen blijven daar hun hele leven in, een levercel kan er weer uit komen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op de <strong>controlepunten</strong> wordt nagekeken <strong>of het DNA onbeschadigd is</strong> en <strong>of de cel groot genoeg is</strong>. Een cel met beschadigd DNA gaat beter niet in deling, want <strong>de fout wordt dan aan alle dochtercellen doorgegeven</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De mitose",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De mitose verloopt in vier fasen: <strong>profase, metafase, anafase en telofase</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "In de <strong>profase</strong> <strong>condenseren de chromosomen en verdwijnt het kernmembraan</strong>, en wordt de <strong>spoelfiguur</strong> opgebouwd, die <strong>uit microtubuli</strong> bestaat. In de <strong>metafase</strong> gaan de chromosomen op het <strong>evenaarsvlak</strong> of <strong>equatorvlak</strong> staan, waar de trekdraden op de centromeren aangrijpen."
+    },
+    {
+     "soort": "tekst",
+     "html": "In de <strong>anafase</strong> <strong>gaan de zusterchromatiden naar de polen</strong>, getrokken door de trekdraden. In de <strong>telofase</strong> <strong>vormt zich rond elke groep een nieuw kernmembraan</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarna volgt de <strong>cytokinese</strong>, <strong>het verdelen van het cytoplasma</strong>. Bij een dierlijke cel knijpt het membraan toe; <strong>bij een plant ontstaat er een celplaat</strong>, want een celwand kan niet toeknijpen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Eén mitose levert <strong>twee</strong> dochtercellen op met <strong>evenveel chromosomen als de moedercel</strong>, en ze zijn <strong>erfelijk gelijk</strong>. De mitose dient in ons <strong>lichaam</strong> om te <strong>groeien</strong> en om <strong>beschadigd weefsel te herstellen</strong>. Aan het begin heeft elk chromosoom <strong>twee chromatiden</strong>, en onder de <strong>microscoop</strong> zie je ze als <strong>losse staafjes</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De meiose",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De meiose gebeurt bij de mens <strong>alleen in de eierstokken en de teelballen</strong> en levert als <strong>resultaat vier volledige haploïde cellen</strong> op: de <strong>gameten</strong>, ook geslachtscellen of voortplantingscellen genoemd."
+    },
+    {
+     "soort": "tekst",
+     "html": "In <strong>meiose I</strong> <strong>gaan de homologe chromosomen uit elkaar</strong>. Dat is wat in een mitose nooit gebeurt, en daarom heet meiose I de <strong>reductiedeling</strong>: na afloop heeft de cel <strong>23</strong> chromosomen, elk nog met twee chromatiden."
+    },
+    {
+     "soort": "tekst",
+     "html": "In <strong>meiose II</strong> <strong>worden de zusterchromatiden gescheiden</strong>. Daartussen wordt <strong>het DNA niet opnieuw gekopieerd</strong>; anders zou het halveren niet lukken."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee mechanismen maken elke gameet anders. Bij de <strong>crossing-over</strong> of overkruising <strong>wisselen twee homologe chromosomen stukken uit</strong> op een <strong>chiasma</strong>, in het meervoud <strong>chiasmata</strong>; dat maakt <strong>nieuwe combinaties van allelen</strong>, en heet recombinatie. Bij de <strong>mixing</strong> <strong>verdelen de paren zich toevallig over de polen</strong>, onafhankelijk van elkaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "Die variatie is belangrijk: <strong>broers en zussen verschillen daardoor van elkaar</strong> en <strong>een soort kan zich beter aanpassen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Gaat er bij de meiose iets mis, bijvoorbeeld doordat een <strong>chromosomenpaar verkeerd verdeeld</strong> wordt, dan <strong>krijgt een gameet een chromosoom te veel of te weinig</strong>. Dat heet een <strong>non-disjunctie</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De twee delingen naast elkaar",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Wat ze <strong>gemeen</strong> hebben: aan beide <strong>gaat een S-fase vooraf</strong> en bij beide wordt <strong>een spoelfiguur gebruikt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Waarin ze <strong>verschillen</strong>: <strong>de mitose geeft twee cellen, de meiose vier</strong>, en na de meiose is het chromosomenaantal <strong>gehalveerd</strong>. De dochtercellen van een mitose zijn identiek, die van een meiose alle vier verschillend."
+    },
+    {
+     "soort": "tekst",
+     "html": "Doordat <strong>de meiose halveert en de bevruchting verdubbelt</strong>, blijft het aantal chromosomen van een soort over de generaties gelijk."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Interfase is G1, S en G2; delen is de M-fase.",
+  "Profase condenseert, metafase stelt op, anafase trekt uiteen, telofase sluit af.",
+  "Mitose: twee identieke cellen voor groei en herstel.",
+  "Meiose: vier verschillende haploïde gameten.",
+  "Crossing-over en mixing maken elke gameet uniek."
+ ]
+}

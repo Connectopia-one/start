@@ -1,0 +1,102 @@
+{
+ "vak": "Biologie",
+ "titel": "Genexpressie: transcriptie en translatie",
+ "onder": "Van gen naar eiwit, stap voor stap.",
+ "secties": [
+  {
+   "kop": "De genetische code",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>gen</strong> is <strong>een stuk DNA met de code voor een product</strong>. Dat die code gebruikt wordt, heet <strong>genexpressie</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op het mRNA wordt per drie gelezen. Zo'n <strong>groepje van drie nucleotiden</strong> heet een <strong>codon</strong> of triplet; op het tRNA heet het tegenovergestelde drietal het <strong>anticodon</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De code is <strong>gedegenereerd</strong>: <strong>verschillende codons geven hetzelfde aminozuur</strong>, want er zijn 64 codons voor 20 aminozuren. En ze is <strong>universeel</strong>: <strong>bijna alle organismen gebruiken dezelfde codons</strong>, wat gentechnologie mogelijk maakt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>AUG</strong> is het startcodon; UAA, UAG en UGA zijn stopcodons. Valt er vooraan een nucleotide <strong>weg</strong>, dan <strong>schuift het leesraam en veranderen alle codons erna</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De transcriptie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De transcriptie gebeurt bij een eukaryoot <strong>in de kern</strong>. <strong>RNA-polymerase</strong> maakt het mRNA, en het mRNA is <strong>complementair aan de matrijsstreng</strong>. Leest de matrijs TAC CGA, dan wordt het mRNA <strong>AUG GCU</strong>. Het mRNA wordt, net als nieuw DNA, <strong>van 5' naar 3'</strong> gebouwd."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de <strong>initiatie</strong> <strong>binden transcriptiefactoren en polymerase op de promotor</strong>, de aanlegplaats vlak voor het gen. Een <strong>transcriptiefactor</strong> is <strong>een eiwit dat helpt beslissen of een gen gelezen wordt</strong>. Daarna volgt de elongatie, en bij de <strong>terminatie</strong>, die de transcriptie <strong>beëindigt</strong>, stopt polymerase op <strong>een terminatiesignaal achter het gen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het ruwe product is <strong>pre-mRNA</strong> en moet nog afgewerkt worden: <strong>de introns worden eruit geknipt</strong> (de splicing) en er komt <strong>een 5'-cap en een poly(A)-staart</strong> op. De <strong>exonen</strong> zijn <strong>de stukken die in het rijpe mRNA blijven</strong>; een <strong>intron</strong> <strong>wordt uit het pre-mRNA geknipt</strong> en <strong>komt niet in het eiwit terecht</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>prokaryoot</strong> heeft vrijwel geen introns en geen kern: haar mRNA wordt al vertaald terwijl het gemaakt wordt. Bij een eukaryoot staat er <strong>niet meteen een eiwit klaar</strong>, want <strong>het mRNA moet eerst afgewerkt worden en de kern uit</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De translatie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De translatie gebeurt <strong>op het ribosoom</strong>, dat uit <strong>rRNA en ribosomale proteïnen</strong> bestaat, in een grote en een kleine subeenheid."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>tRNA</strong> <strong>brengt een aminozuur naar het ribosoom</strong>. Bij de <strong>activatie</strong> wordt een aminozuur <strong>met ATP aan zijn tRNA gekoppeld</strong>. Op het codon <strong>GCU</strong> past <strong>daarop</strong> het anticodon <strong>CGA</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op de <strong>A-plaats komt het nieuwe tRNA binnen</strong>, op de <strong>P-plaats zit het tRNA met de groeiende keten</strong>. <strong>Peptidyltransferase</strong> legt de peptidebinding, en daarna schuift het ribosoom één codon op."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>stopcodon</strong> past geen tRNA; een <strong>release factor</strong> laat dan de keten los en <strong>sluit de translatie af</strong>. Een stopcodon <strong>codeert voor geen enkel aminozuur</strong>. Leest het mRNA <strong>AUG GCU UAA</strong>, dan heeft het eiwit dus <strong>twee</strong> aminozuren."
+    },
+    {
+     "soort": "tekst",
+     "html": "Lezen er meerdere ribosomen tegelijk hetzelfde mRNA, dan heet dat een <strong>polysoom</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Van keten naar werkend eiwit",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Eén gen kan toch verschillende eiwitten opleveren: door <strong>alternatieve splicing van de exons</strong> en <strong>doordat het eiwit achteraf nog bewerkt wordt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De keten <strong>ondergaat</strong> die bewerkingen na de translatie; ze heten de <strong>posttranslationele modificatie</strong>, dus <strong>posttranslationeel</strong> <strong>afwerken</strong>: <strong>er worden sacharidegroepen aangehangen</strong>, stukken afgeknipt en <strong>de keten wordt in haar vorm geplooid</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>volgorde van de aminozuren volgt uit de volgorde van de nucleotiden</strong>, en uit die volgorde volgt de vorm. En <strong>alleen met de juiste vorm past een eiwit op zijn partner</strong>: een enzym op zijn substraat, een receptor op zijn hormoon."
+    },
+    {
+     "soort": "tekst",
+     "html": "Alle cellen van één mens <strong>hebben hetzelfde DNA</strong> maar <strong>brengen niet dezelfde genen tot expressie</strong>. Maakt een cel plots veel meer van een eiwit, dan is de meest waarschijnlijke oorzaak dat <strong>dat gen vaker getranscribeerd wordt</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een codon is drie nucleotiden; AUG start, UAA/UAG/UGA stoppen.",
+  "Transcriptie in de kern, translatie op het ribosoom.",
+  "Introns eruit, exons aan elkaar, cap en staart erop.",
+  "tRNA brengt het aminozuur, het anticodon past op het codon.",
+  "De volgorde bepaalt de vorm, en de vorm bepaalt de werking."
+ ]
+}

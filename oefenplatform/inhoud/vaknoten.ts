@@ -46,6 +46,19 @@ export const vaknoten: Record<string, string> = {
     "in drie aparte examens aflegt: biologie, chemie en fysica. Volg je een " +
     "andere richting met één examen wetenschappen, dan heb je het vak " +
     "natuurwetenschappen nodig in plaats van dit vak.",
+
+  "beyond-doorstroom/natuurwetenschappen":
+    "Dit is het vak voor de richtingen die hun wetenschappen in één examen " +
+    "afleggen, zoals economie-moderne talen, humane wetenschappen, Latijn en " +
+    "moderne talen. Zit je in natuurwetenschappen of een andere richting met " +
+    "drie examens wetenschappen, dan heb je de aparte vakken biologie, chemie " +
+    "en fysica nodig in plaats van dit vak.",
+
+  "beyond-doorstroom/biologie":
+    "Dit vak is er voor de richtingen die hun wetenschappen in drie aparte " +
+    "examens afleggen: biologie, chemie en fysica. Volg je een richting met één " +
+    "examen wetenschappen, dan heb je het vak natuurwetenschappen nodig in " +
+    "plaats van dit vak.",
 };
 
 /** De noot bij dit vak in deze categorie, of niets. */

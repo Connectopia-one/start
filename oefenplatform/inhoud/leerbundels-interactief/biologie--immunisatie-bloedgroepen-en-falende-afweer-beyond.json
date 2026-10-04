@@ -1,0 +1,82 @@
+{
+ "vak": "Biologie",
+ "titel": "Immunisatie, bloedgroepen en falende afweer",
+ "onder": "Vaccins, bloedgroepen, allergie, auto-immuunziekten en hiv.",
+ "secties": [
+  {
+   "kop": "Vier vormen van immunisatie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Immunisatie</strong> is <strong>het verwerven van weerstand tegen een ziekteverwekker</strong>. Ze is <strong>actief</strong> als je <strong>zelf antilichamen aanmaakt</strong>, en <strong>passief</strong> als je <strong>kant-en-klare antilichamen van buitenaf krijgt</strong>; die <strong>bescherming werkt onmiddellijk</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarnaast is ze <strong>natuurlijk</strong> of <strong>kunstmatig</strong>. <strong>Natuurlijk actief</strong> is <strong>de ziekte doormaken</strong>, bijvoorbeeld <strong>mazelen</strong>; <strong>kunstmatig actief</strong> is <strong>een vaccin krijgen</strong>, dus <strong>vaccinatie</strong>, <strong>inenting</strong> of <strong>vaccineren</strong>. <strong>Natuurlijk passief</strong> is <strong>antilichamen via de placenta of de moedermelk</strong>, <strong>kunstmatig passief</strong> is <strong>een inspuiting met antilichamen</strong>, bijvoorbeeld bij wie <strong>gebeten</strong> is en meteen antilichamen <strong>ingespoten</strong> krijgt. De bescherming die een baby via <strong>borstvoeding</strong> krijgt, <strong>verdwijnt na een tijd</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>vaccin</strong> bevat verzwakte of dode ziekteverwekkers of alleen een stukje ervan, dus <strong>nooit levende, volledig besmettelijke verwekkers</strong>, zodat je <strong>geheugencellen aanmaakt zonder ziek te worden</strong>. Passieve immunisatie werkt <strong>meteen maar kort</strong>, want er worden geen geheugencellen gevormd."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Groepsimmuniteit</strong> betekent dat er bij een hoge <strong>vaccinatiegraad</strong> <strong>zoveel mensen immuun zijn dat de verwekker bijna geen nieuwe gastheer meer vindt</strong>. Daardoor zijn ook de mensen beschermd die zelf niet gevaccineerd kunnen worden."
+    }
+   ]
+  },
+  {
+   "kop": "Bloedgroepen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>ABO-systeem</strong> of <strong>ABO-bloedgroepensysteem</strong> steunt op <strong>antigenen op de rode bloedcellen</strong> en op <strong>antilichamen in het plasma</strong>. Bloedgroep A draagt antigeen A en heeft anti-B in het plasma, B omgekeerd, <strong>AB draagt antigeen A en B</strong> en heeft geen van beide antilichamen, <strong>O draagt geen van beide antigenen</strong> maar heeft <strong>anti-A en anti-B</strong> in het plasma."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daardoor is <strong>O de universele donor</strong> voor rode bloedcellen en <strong>AB de universele ontvanger</strong>. Bij een transfusie met <strong>incompatibel</strong> bloed <strong>klitten de rode bloedcellen samen</strong> (<strong>agglutinatie</strong>) en <strong>gaan ze kapot</strong>; dat <strong>kapotgaan van rode bloedcellen</strong> heet <strong>hemolyse</strong>. Plasma van groep O mag trouwens niet zonder meer aan iedereen gegeven worden, want <strong>het bevat anti-A en anti-B</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>resusfactor</strong> is het <strong>D-antigeen</strong>. Is dat aanwezig, dan ben je resuspositief. Draagt een <strong>resusnegatieve</strong> moeder een <strong>resuspositieve</strong> kind, dan kan ze <strong>anti-D-antilichamen aanmaken</strong>. Het eerste zo’n kind loopt meestal geen gevaar, want <strong>die antilichamen ontstaan pas rond de bevalling</strong>; een volgend kind wel. Daarom wordt dat <strong>resusprobleem</strong> voorkomen doordat een <strong>anti-D-inspuiting</strong> <strong>voorkomt dat ze die aanmaakt</strong> en beschermt zo een volgende zwangerschap."
+    }
+   ]
+  },
+  {
+   "kop": "Als de afweer overdrijft of zich vergist",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>allergie</strong> is <strong>een overdreven reactie op een onschuldige stof</strong>. Daarbij <strong>speelt het IgE-antilichaam de hoofdrol</strong>: ze zetten cellen aan om <strong>histamine</strong> vrij te geven, en dat geeft <strong>een loopneus en tranende ogen</strong> en <strong>zwelling en jeuk van de huid</strong>. Een <strong>anafylactische shock</strong> is <strong>een levensbedreigende allergische reactie van het hele lichaam</strong>: ze <strong>blijft dus niet beperkt tot de huid rond de prikplaats</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>auto-immuunziekte</strong> <strong>valt de afweer eigen gezonde cellen aan</strong>. Zulke <strong>aandoeningen</strong> zijn <strong>multiple sclerose</strong>, de <strong>ziekte van Crohn</strong> en <strong>psoriasis</strong>. Ze worden meestal behandeld <strong>door de afweerreactie te onderdrukken</strong>, en <strong>volledig genezen kan meestal niet</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Als de afweer zelf aangevallen wordt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Hiv</strong> is een <strong>retrovirus</strong>: het <strong>schrijft zijn RNA met een enzym om naar DNA</strong> en bouwt dat in het menselijke DNA in. Het virus valt de <strong>T-helperlymfocyt</strong> aan, en net die cellen sturen de hele afweer aan."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wie besmet is, heet <strong>seropositief</strong>: <strong>er zijn antilichamen tegen hiv in het bloed</strong>. Daarna volgt bij een hiv-<strong>infectie</strong> vaak een lange <strong>chronische fase</strong>, waarin <strong>er jarenlang weinig of geen klachten zijn</strong> terwijl <strong>het aantal T-helpercellen traag daalt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Aids</strong> is het eindstadium: <strong>de afweer is zo verzwakt dat gewone kiemen gevaarlijk worden</strong>. Met behandeling kan dat stadium jarenlang uitgesteld worden."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Actief is zelf aanmaken, passief is krijgen; natuurlijk of kunstmatig.",
+  "Een vaccin geeft geheugen, antilichamen inspuiten werkt meteen maar kort.",
+  "O is universele donor, AB universele ontvanger.",
+  "Allergie is overdrijven, auto-immuun is zich vergissen.",
+  "Hiv treft de T-helpercel, de dirigent van de afweer."
+ ]
+}

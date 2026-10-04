@@ -1,0 +1,115 @@
+{
+ "vak": "Biologie",
+ "titel": "DNA-technologie en gentechnologie",
+ "onder": "Van plasmide en restrictie-enzym tot PCR, sequencing en CRISPR.",
+ "secties": [
+  {
+   "kop": "Het DNA van een bacterie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een bacterie heeft één chromosoom <strong>als een gesloten ring, vrij in het cytoplasma</strong>. Daarnaast kan ze <strong>plasmiden</strong> hebben: <strong>kleine losse ringetjes DNA</strong>. Zo'n plasmide <strong>kan van de ene bacterie naar de andere</strong> en <strong>kan een resistentiegen dragen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Er zijn drie vormen van natuurlijke genoverdracht. Bij <strong>transformatie</strong> <strong>neemt een bacterie vrij DNA uit haar omgeving op</strong>. Bij <strong>conjugatie</strong> <strong>wisselen twee bacteriën DNA uit via een brug</strong>, de <strong>pilus</strong>. Bij <strong>transductie</strong> neemt een virus bacterieel DNA mee naar een andere bacterie: het <strong>meeneemt</strong> dus het DNA van zijn vorige gastheer."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daardoor verspreidt <strong>antibioticumresistentie</strong> zich snel: zit het gen op een plasmide, dan kan het zelfs naar een andere soort."
+    }
+   ]
+  },
+  {
+   "kop": "De bacteriofaag",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>bacteriofaag</strong> is <strong>een virus dat bacteriën besmet</strong>. Een virus is een <strong>obligate parasiet</strong>: het <strong>kan zich alleen in een levende gastheercel vermenigvuldigen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "In de <strong>lytische cyclus</strong> <strong>maakt de cel nieuwe fagen en barst ze open</strong>. In de <strong>lysogene cyclus</strong> <strong>wordt het faag-DNA in het bacteriële chromosoom ingebouwd</strong> en <strong>bij elke deling mee gekopieerd</strong>, tot het later alsnog actief wordt. De lambdafaag van E. coli kan allebei."
+    }
+   ]
+  },
+  {
+   "kop": "Het gereedschap van de gentechnologie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>restrictie-enzym</strong> is <strong>een enzym dat DNA op een vaste plaats in de sequentie doorknipt</strong>, zoals EcoRI. Bacteriën gebruiken die enzymen zelf tegen faag-DNA."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een schuine knip laat <strong>sticky ends</strong> achter. Die zijn handig omdat ze <strong>passen op elk stuk dat met hetzelfde enzym geknipt is</strong>. Een rechte knip geeft blunt ends. <strong>Ligase</strong> <strong>hecht twee geknipte stukken definitief aan elkaar</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Recombinant DNA</strong> is <strong>DNA waarin stukken van verschillende herkomst samengebracht zijn</strong>, zoals een plasmide met een menselijk gen erin."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>vector</strong> is <strong>een drager die DNA in een cel brengt</strong>: een plasmide, een virus of een liposoom. Daarnaast bestaan er directe methoden: <strong>micro-injectie met een fijne naald</strong>, <strong>elektroporatie met een stroomstoot</strong> en, bij planten, het genenkanon. Het <strong>Ti-plasmide van een bodembacterie wordt gebruikt om planten te veranderen</strong>, want die bacterie brengt van nature T-DNA in een plantencel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>cisgeen</strong> organisme <strong>komt het gen van een verwante soort</strong> die ook natuurlijk kan kruisen; bij een <strong>transgeen</strong> organisme komt het van over die grens heen. Dat kan, want <strong>een menselijk gen werkt ook in een bacterie</strong>: de genetische code is bijna universeel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zo wordt <strong>insuline</strong> gemaakt: <strong>het insulinegen wordt in een plasmide gezet en ingebracht</strong>, en de bacterie <strong>produceert</strong> het eiwit. Een bacterie kan een menselijk gen <strong>rechtstreeks</strong> gebruiken, omdat de code dezelfde is. En een gewas <strong>weerstaat</strong> insecten doordat <strong>er een bacterieel gen voor een gifstof ingebouwd wordt</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De technieken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>PCR</strong> dient om <strong>een stukje DNA miljoenen keren te vermenigvuldigen</strong>. Elke cyclus <strong>herhaalt dezelfde drie stappen</strong>: <strong>verhitten tot de strengen loskomen</strong>, <strong>afkoelen zodat de primers kunnen binden</strong> en verlengen. Een <strong>kwantitatieve PCR</strong> meet er ook <strong>de hoeveelheid</strong> bij, en toont zo de <strong>aanwezigheid</strong> van een stukje DNA in een staal."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>gelelektroforese</strong> <strong>beweegt</strong> DNA <strong>naar de pluspool, want het is negatief geladen</strong>, en dus weg van de <strong>minpool</strong>; de pluspool is de <strong>positief</strong> geladen kant, en <strong>kleine stukken schuiven verder door de gel</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>DNA-fingerprint</strong> werkt omdat <strong>iedereen een eigen aantal herhalingen in zijn DNA heeft</strong>. Ze dient voor <strong>het vaststellen van wie de vader is</strong> en voor <strong>het vergelijken van een spoor met een verdachte</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Sequencing</strong> of <strong>sequenering</strong> <strong>leest de volledige basenvolgorde uit</strong>. <strong>CRISPR-Cas</strong> <strong>past een gen op een gekozen plaats aan</strong> en kan het dus <strong>aanpassen</strong> zonder het hele gen te vervangen: een stukje RNA wijst de plaats aan en het Cas-enzym knipt. Die techniek <strong>komt uit het afweersysteem van bacteriën</strong>. <strong>Gene editing</strong>, met de Engelse term, of <strong>genoomeditie</strong>, is <strong>het gericht wijzigen van een bestaand gen</strong> op zijn <strong>oorspronkelijke</strong> plaats."
+    }
+   ]
+  },
+  {
+   "kop": "Klonen en toepassingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Natuurlijk klonen</strong> bestaat ook: een <strong>eeneiige tweeling</strong> is er een voorbeeld van. Bij <strong>reproductief klonen</strong> wordt <strong>een volledig nieuw individu gemaakt dat genetisch gelijk is</strong>, zoals het schaap Dolly. Toch is zo'n kloon <strong>niet in gedrag precies hetzelfde dier</strong>, want de omgeving verschilt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>moleculair klonen</strong> of <strong>klonering</strong> wordt <strong>een stuk DNA in een gastheercel vermenigvuldigd</strong>; <strong>klonen</strong> betekent hier dus vermenigvuldigen, niet een dier maken. Bij <strong>therapeutisch klonen</strong> wordt <strong>weefsel of cellen gekweekt om een patiënt te behandelen</strong>, dus <strong>kweken</strong> in plaats van voortplanten, zonder nieuw individu."
+    },
+    {
+     "soort": "tekst",
+     "html": "In de geneeskunde dient dit alles onder meer voor <strong>het opsporen van afwijkingen voor de geboorte</strong> en <strong>het herkennen van een micro-organisme in een staal</strong>, en ook voor ouderschapsbepaling, daderidentificatie en kankeronderzoek. Gentherapie <strong>helpt</strong> door een werkend gen in de cellen te <strong>overdragen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Over <strong>ggo's</strong> wordt maatschappelijk gediscussieerd, want <strong>de gevolgen op lange termijn zijn niet voor iedereen even duidelijk</strong>. Dat debat wordt dus <strong>besproken</strong> over het gebruik, niet over de vraag of de techniek werkt."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Transformatie is opnemen, conjugatie is doorgeven, transductie gaat via een virus.",
+  "Restrictie-enzym knipt, ligase plakt, een vector brengt binnen.",
+  "PCR vermenigvuldigt, gel scheidt, sequencing leest, CRISPR wijzigt.",
+  "Cisgeen blijft binnen verwante soorten, transgeen gaat eroverheen.",
+  "Een plasmide met een resistentiegen reist van bacterie naar bacterie."
+ ]
+}

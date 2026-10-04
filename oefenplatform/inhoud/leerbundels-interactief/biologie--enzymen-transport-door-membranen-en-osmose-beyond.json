@@ -1,0 +1,103 @@
+{
+ "vak": "Biologie",
+ "titel": "Enzymen, transport door membranen en osmose",
+ "onder": "Hoe enzymen werken, en hoe stoffen een membraan passeren.",
+ "secties": [
+  {
+   "kop": "Wat een enzym doet",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>enzym</strong> is een <strong>eiwit dat een reactie versnelt</strong> zonder zelf verbruikt te worden: een enzym <strong>wordt bij de reactie niet opgebruikt</strong>. De naam eindigt bij bijna elk enzym op de lettergreep <strong>-ase</strong>: <strong>lactase splitst de melksuiker lactose</strong>, <strong>catalase splitst waterstofperoxide</strong> tot water en zuurstof. Let wel: een enzym versnelt een reactie, maar <strong>bepaalt niet in welke richting ze verloopt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het substraat past in het <strong>actief centrum</strong>, <strong>de holte waarin het substraat past</strong>. Samen vormen ze het <strong>enzym-substraatcomplex</strong>, de <strong>tijdelijke verbinding van het enzym met zijn substraat</strong>. Het enzym <strong>verlaagt de activeringsenergie</strong>, dus de energie die nodig is om de reactie op gang te krijgen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een enzym is <strong>substraatspecifiek</strong>: <strong>het werkt maar op één soort substraat</strong>, omdat alleen dat substraat op het actief centrum past. Enzymen zijn daarom onmisbaar bij de <strong>spijsvertering</strong> en bij de <strong>DNA-replicatie</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Wat een enzym sneller of trager maakt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Elk enzym heeft een <strong>temperatuursoptimum</strong>, ook <strong>temperatuuroptimum</strong> genoemd: <strong>de temperatuur waarbij het het snelst werkt</strong>. Daaronder gaat het trager, daarboven <strong>denatureert</strong> het. Bij die <strong>denaturatie gaat zijn ruimtelijke vorm verloren</strong>, dus <strong>valt de reactiesnelheid sterk terug</strong> en werkt het niet meer. Dat is <strong>niet omkeerbaar</strong>: kook je een stukje lever en leg je het daarna in waterstofperoxide, dan gebeurt er niets, want <strong>het catalase is gedenatureerd</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Er is ook een <strong>pH-optimum</strong>. Pepsine in de maag werkt bij een heel lage pH, enzymen in de dunne darm juist niet: <strong>elk enzym heeft dus zijn eigen pH-optimum</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Verhoog je de <strong>enzymconcentratie</strong>, dan <strong>stijgt de snelheid zolang er substraat genoeg is</strong>. Verhoog je de <strong>substraatconcentratie</strong>, dan stijgt de snelheid eerst en daarna niet meer: <strong>de curve van de reactiesnelheid buigt af omdat alle enzymen al bezig zijn</strong>. Die toestand, waarin <strong>elk actief centrum van de aanwezige enzymen bezet is</strong>, heet <strong>verzadiging</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>inhibitor</strong> <strong>remt een enzym af</strong>, bijvoorbeeld door het actief centrum te bezetten. Een <strong>co-enzym</strong> is juist <strong>een hulpmolecule die het enzym nodig heeft</strong>; veel vitaminen spelen die rol."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>anabole</strong> reactie <strong>bouwt grote moleculen op en kost energie</strong>. Een <strong>katabole</strong> reactie breekt af en levert energie: de <strong>celademhaling</strong> en de <strong>spijsvertering</strong> zijn katabool."
+    }
+   ]
+  },
+  {
+   "kop": "Passief transport",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Passief transport kost de cel geen energie</strong> en volgt de <strong>concentratiegradiënt</strong>, dus <strong>van hoge naar lage concentratie</strong>. <strong>Diffusie</strong> is de verspreiding van deeltjes langs die gradiënt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Deeltjes die niet zomaar door de vetlaag kunnen, gebruiken eiwitten. Een <strong>kanaaleiwit</strong> vormt <strong>een gaatje waardoor ionen gaan</strong> en <strong>dat open of dicht kan</strong>, een <strong>carriereiwit</strong> <strong>bindt het deeltje en verandert daarbij van vorm</strong>. Dat laatste heet <strong>geleide of gefaciliteerde diffusie</strong>, en het <strong>kost de cel geen ATP</strong>. Een <strong>aquaporine</strong> is het kanaal <strong>voor water</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Osmose",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Osmose</strong> is <strong>de diffusie van water door een halfdoorlaatbaar membraan</strong>, <strong>naar de kant met de hoogste concentratie</strong> opgeloste stof."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een oplossing met <strong>minder</strong> opgeloste stof dan de cel heet <strong>hypotoon</strong>, met <strong>evenveel</strong> <strong>isotoon</strong>, met <strong>meer</strong> <strong>hypertoon</strong>. Een <strong>isotone</strong> omgeving heeft dus <strong>dezelfde osmotische waarde als de cel</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een hypotone omgeving, zoals zuiver water, <strong>stroomt er water de cel in</strong> en <strong>kan een dierlijke cel barsten</strong>: dat is <strong>cellyse</strong>. In een hypertone omgeving verliest ze water. Leg je een plantencel in een sterke <strong>zoutoplossing</strong>, dan <strong>trekt het cytoplasma met het membraan van de celwand weg</strong>, en dat heet <strong>plasmolyse</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Staat een plantencel vol water, dan duwt de vacuole tegen de celwand. Die druk heet <strong>turgor</strong>, en <strong>daardoor staat een plant rechtop</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Actief transport en blaasjes",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Actief transport kost energie</strong> en gaat <strong>tegen de concentratiegradiënt in</strong>. De <strong>ATP levert daarvoor de energie</strong>. De <strong>natrium-kaliumpomp</strong> <strong>pompt natrium naar buiten en kalium naar binnen</strong>, en gebruikt daarvoor <strong>ATP</strong>, de energiemunt van de cel. Een <strong>protonpomp</strong> verplaatst waterstofionen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Grote deeltjes gaan in blaasjes. <strong>Endocytose</strong> is <strong>opnemen</strong>, <strong>exocytose</strong> is <strong>afgeven</strong>: bij exocytose <strong>smelt een secretieblaasje samen met het celmembraan</strong>. Het opnemen van een vast deeltje, zoals een bacterie door een witte bloedcel, heet <strong>fagocytose</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een enzym verlaagt de activeringsenergie en is substraatspecifiek.",
+  "Te warm betekent denatureren, en dat is onomkeerbaar.",
+  "Passief gaat met de gradiënt mee en kost niets; actief kost ATP.",
+  "Osmose is water dat naar de hypertone kant trekt.",
+  "Lyse is barsten, plasmolyse is het membraan dat loskomt."
+ ]
+}

@@ -1,0 +1,104 @@
+{
+ "vak": "Biologie",
+ "titel": "Veilig en duurzaam werken in het labo",
+ "onder": "Wat je leest voor je begint, hoe je meet, en wat je met de resten doet.",
+ "secties": [
+  {
+   "kop": "Voor je begint",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Voor je met een product werkt, lees je altijd eerst <strong>het etiket met de gevarenpictogrammen</strong>. En voor je een toestel gebruikt, lees je de handleiding, want <strong>daarin staat hoe je het veilig gebruikt en wat het niet mag</strong>. Op een etiket staat ook hoe je het product bewaart, want <strong>verkeerd bewaren maakt het gevaarlijker of onbruikbaar</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Voor je een proef start, kijk je ook na <strong>waar de nooddouche en de oogdouche hangen</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Meten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>meetbereik</strong> van een instrument is <strong>de kleinste en de grootste waarde die het kan meten</strong>. De <strong>resolutie</strong> is <strong>de kleinste waarde die je nog kunt onderscheiden</strong>; ze bepaalt de <strong>nauwkeurigheid</strong> of <strong>precisie</strong> van je meting, en dus hoe <strong>betrouwbaar</strong> ze is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Goed meten betekent: <strong>het juiste instrument voor de grootte van wat je meet kiezen</strong>, <strong>recht van voren aflezen</strong>, <strong>elke meting met zijn eenheid noteren</strong> en <strong>meerdere keren meten</strong>. Een balans zet je altijd op nul voor je iets afweegt. Een meettoestel zet je uit als je niet meet, want <strong>dat spaart stroom of batterijen</strong> en de levensduur van het toestel; zo <strong>spaar</strong> je energie. Noteer bij een meetwaarde ook <strong>evenveel cijfers als het toestel aangeeft</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Tijdens een proef noteer je meteen wat je doet en meet, want <strong>achteraf uit het hoofd gaan er gegevens verloren</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Veilig hanteren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Breekt er glaswerk, dan <strong>verwittig je de leraar</strong>, <strong>raak je de scherven niet met de hand aan</strong> en <strong>ruim je ze met borstel en blik op in de bak voor glasafval</strong>; <strong>opruimen</strong> doe je dus nooit met de blote hand. Mors je iets, dan <strong>meld je het en ruim je het op volgens de voorschriften</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Elektrische toestellen bedien je nooit met natte handen. Bij een <strong>bunsenbrander</strong> let je erop dat <strong>lang haar vastzit</strong>, dat <strong>er geen brandbare producten in de buurt staan</strong>, dat <strong>losse kledij</strong> en losse mouwen weg zijn en dat <strong>je de vlam nooit onbewaakt laat</strong>. Een veiligheidsbril draag je bij het verhitten van een vloeistof, want <strong>die kan plots opspatten of overkoken</strong>. Een warm bekerglas pak je vast met een <strong>bekerglastang</strong> of een hittebestendige handschoen; een kolf hang je aan de <strong>statiefarm</strong>. En een warme kolf zet je niet meteen op een koude stenen tafel, want <strong>door het plotse temperatuurverschil kan het glas barsten</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je ruikt nooit aan een product door het flesje recht onder je neus te houden: je wappert de damp voorzichtig naar je toe. <strong>Pipetteert</strong> een <strong>leerling</strong> met de mond om <strong>sneller</strong> te werken, dan is dat fout: <strong>het product kan in je mond terechtkomen</strong> of ingeademd worden; daar bestaat een pipetvuller voor. Glaswerk maak je <strong>nadien</strong> onmiddellijk <strong>schoon</strong>, want <strong>opgedroogde resten gaan er veel moeilijker af en kunnen de volgende proef bederven</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>microscoop</strong> draag je aan <strong>de arm en de voet</strong>. Bij het <strong>bekijken</strong> van een preparaat begin je met het kleinste objectief, want <strong>daarmee vind je het beeld het gemakkelijkst terug</strong>; <strong>vermijd</strong> dus om meteen met de grootste vergroting te starten. Bij de grootste vergroting stel je scherp met <strong>de fijne stelschroef</strong>, niet met de grove: anders druk je het objectief in het preparaat."
+    }
+   ]
+  },
+  {
+   "kop": "Pictogrammen en biologisch materiaal",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een pictogram met <strong>een vlam</strong> op een <strong>oranje of rood omrand ruitje</strong> betekent <strong>brandbaar</strong> of <strong>ontvlambaar</strong>. Een <strong>doodshoofd</strong> waarschuwt voor <strong>giftig</strong>: het <strong>toont</strong> dat de stof een <strong>acute vergiftiging</strong> kan geven. Een hand en een oppervlak waarop een vloeistof inwerkt, staat voor <strong>bijtend of corrosief</strong>. Een product <strong>zonder</strong> pictogram is daarmee <strong>niet automatisch volkomen veilig</strong>: je blijft voorzichtig."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een labo eet of drink je niet, want <strong>je kunt onbedoeld een product of micro-organisme in je lichaam binnenkrijgen</strong>. Met een bacteriekweek in een petrischaal werk je zo: <strong>je houdt het deksel zoveel mogelijk gesloten</strong>, je <strong>wast nadien grondig je handen</strong>, <strong>je opent ze niet onnodig</strong> en <strong>je laat ze achteraf steriliseren</strong>. Het werkblad <strong>schoonmaken</strong> of <strong>ontsmetten</strong> doe je <strong>vooraf</strong> én nadien, in beide <strong>richtingen</strong> om <strong>besmetting te voorkomen</strong>: je <strong>ontsmet</strong> dus <strong>vooraf om je proef zuiver te houden</strong> en <strong>achteraf om jezelf en de volgende gebruiker veilig te houden</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Steriliseren</strong> is <strong>het volledig kiemvrij maken van materiaal</strong>, meestal met stoom onder druk in een <strong>autoclaaf</strong>: dat heet ook <strong>autoclaveren</strong>. Handschoenen draag je bij menselijk of dierlijk weefsel, want <strong>daarin kunnen ziekteverwekkers zitten</strong>. Met levende organismen werk je zo dat ze zo weinig mogelijk ongemak hebben."
+    },
+    {
+     "soort": "tekst",
+     "html": "Spat er een bijtend product in je oog, dan <strong>spoel je het oog meteen lang met veel water aan de oogdouche</strong>; dat <strong>uitspoelen</strong> doe je als eerste, nog voor al het andere en verwittig je de leraar."
+    }
+   ]
+  },
+  {
+   "kop": "Afval en duurzaamheid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Biologisch afval mag <strong>niet</strong> gewoon bij het restafval: het gaat naar de voorziene inzameling, meestal na sterilisatie. Chemisch afval giet je niet in de gootsteen, want <strong>het komt in het oppervlaktewater terecht en belast het milieu</strong>; het hoort in het <strong>afvalvat</strong> dat <strong>daarvoor</strong> klaarstaat. Een afgemeten rest giet je ook niet terug in de voorraadfles, want dan besmet je de hele fles; die rest gaat naar het juiste afval, en de maatbeker <strong>spoel</strong> je <strong>uit</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Duurzaam werken is onder meer <strong>niet meer afmeten dan je nodig hebt</strong>, <strong>toestellen uitzetten na gebruik</strong>, <strong>afval gescheiden houden</strong> en <strong>materiaal hergebruiken waar het kan</strong>: dat zijn de duurzame <strong>werkwijzen</strong>. Laat een <strong>leerling</strong> een microscooplamp een hele les branden zonder te kijken, dan <strong>verbruikt energie en verkort de levensduur van de lamp</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Duurzaam werken hoort bij veilig werken, want <strong>minder product en minder afval betekent ook minder risico voor jezelf en voor de omgeving</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Eerst het etiket en de handleiding, dan pas het product.",
+  "Meetbereik is van waar tot waar, resolutie is hoe fijn.",
+  "Microscoop: dragen aan arm en voet, scherpstellen fijn bij grote vergroting.",
+  "Vlam is brandbaar, doodshoofd is giftig, de hand is bijtend.",
+  "Geen enkele rest terug in de fles, geen chemisch afval in de gootsteen.",
+  "Minder product en minder afval is tegelijk veiliger en duurzamer."
+ ]
+}

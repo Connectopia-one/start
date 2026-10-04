@@ -1,0 +1,97 @@
+{
+ "vak": "Biologie",
+ "titel": "DNA, RNA en de replicatie",
+ "onder": "De bouw van het erfelijk materiaal en hoe het gekopieerd wordt.",
+ "secties": [
+  {
+   "kop": "De bouwstenen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>nucleotide</strong> bestaat uit drie delen: <strong>een suiker, een fosfaatgroep en een stikstofbase</strong>. Hetzelfde geheel <strong>zonder fosfaatgroep</strong> heet een <strong>nucleoside</strong>. Nucleotiden aan elkaar vormen een <strong>nucleïnezuur</strong>; de twee <strong>nucleïnezuren</strong> zijn <strong>DNA en RNA</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "In DNA staat <strong>A tegenover T en C tegenover G</strong>. Die vaste koppels heten de <strong>complementariteit</strong>. Samen vormen ze de <strong>dubbele helix</strong>, en ze worden bijeengehouden door <strong>waterstofbruggen tussen de basen</strong>: twee tussen A en T, drie tussen C en G."
+    },
+    {
+     "soort": "tekst",
+     "html": "De twee strengen lopen <strong>in tegengestelde richting</strong>; dat is de <strong>antiparallelle oriëntatie</strong>, met een <strong>5'-einde</strong> tegenover een <strong>3'-einde</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "RNA verschilt op drie punten: het heeft <strong>ribose</strong> waar DNA <strong>desoxyribose</strong> heeft (één OH-groep meer), het heeft <strong>uracil</strong> of uraciel waar DNA <strong>thymine</strong> heeft, en het is meestal <strong>enkelstrengig</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Van een gen wordt maar één streng als voorbeeld gelezen: de <strong>antisense-streng</strong>, ook <strong>matrijs</strong>, <strong>gietvorm</strong> of <strong>template</strong> genoemd, want ze dient als mal om te <strong>kopiëren</strong>. Het RNA dat daarvan gemaakt wordt, is gelijk aan de <strong>sense-streng</strong> of coderende streng, met U in plaats van T."
+    }
+   ]
+  },
+  {
+   "kop": "Van DNA tot chromosoom",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het DNA wikkelt rond <strong>histonen</strong>, kleine <strong>positief geladen eiwitten</strong>. Acht ervan vormen een <strong>octameer</strong>, en <strong>DNA rond acht histonen</strong> heet een <strong>nucleosoom</strong>. Zo zit het DNA rond die groepjes <strong>gewonden</strong>: het <strong>windt</strong> zich rond het octameer, en die kralenketting rolt verder op tot een <strong>chromatinevezel</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Euchromatine</strong> ligt <strong>losser en wordt gelezen</strong>; <strong>heterochromatine</strong> is sterk <strong>gecondenseerd</strong> en komt nauwelijks tot expressie."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een chromosoom wordt pas zichtbaar <strong>als het chromatine sterk condenseert</strong>, dus tijdens een celdeling; in de interfase is het <strong>losgerold</strong> en zie je enkel chromatine. De insnoering heet het <strong>centromeer</strong>; daarop ligt het <strong>kinetochoor</strong>, <strong>waar de trekdraden aangrijpen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>karyogram</strong> of <strong>karyotype</strong> is <strong>een geordende foto van alle chromosomen van een cel</strong>. De mens heeft 22 paar <strong>autosomen</strong> en één paar <strong>heterosomen</strong> of geslachtschromosomen, die <strong>het geslacht bepalen</strong>. Het verschil tussen een <strong>autosoom</strong> en een <strong>heterosoom</strong> zit dus in dat ene punt: <strong>een heterosoom bepaalt het geslacht</strong>, een autosoom niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Homologe chromosomen</strong> <strong>dragen dezelfde genen op dezelfde plaats</strong>, de ene van de moeder en de andere van de vader, maar <strong>niet noodzakelijk dezelfde allelen</strong>. De plaats van een gen heet de <strong>locus</strong>. Een lichaamscel is <strong>diploïd</strong> met 46 chromosomen, een gameet <strong>haploïd</strong> met 23: een <strong>eicel</strong> of zaadcel draagt er dus de helft van."
+    }
+   ]
+  },
+  {
+   "kop": "De replicatie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het DNA wordt gekopieerd in de <strong>S-fase van de interfase</strong>. Daarna heeft elk chromosoom twee <strong>zusterchromatiden</strong> met <strong>dezelfde informatie</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>enzym</strong> <strong>helicase</strong> <strong>verbreekt de waterstofbruggen en scheidt de strengen</strong>, en zo ontstaat de <strong>replicatievork</strong>, <strong>de plaats waar de twee strengen uiteenwijken</strong>. <strong>Topoisomerase</strong> <strong>haalt de spanning uit het DNA dat ervoor te strak opgewonden raakt</strong>. De <strong>ssbp's</strong>, een <strong>afkorting</strong> van single strand binding proteins, <strong>houden de losgekomen strengen open</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>enzym</strong> <strong>primase</strong> <strong>legt een kort stukje RNA als beginpunt</strong> dat als aanhechting <strong>dient</strong>, want <strong>DNA-polymerase</strong> kan niet uit het niets starten. Dat polymerase <strong>hangt nucleotiden aan van 5' naar 3'</strong>: het blijft nieuwe nucleotiden <strong>aanhangen</strong> aan het vrije uiteinde."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daardoor verloopt het op de twee strengen anders. De <strong>leading strand</strong> <strong>loopt mee met de vork</strong> en wordt <strong>in één stuk doorgebouwd</strong>. De <strong>lagging strand</strong> loopt tegen de beweging in en wordt <strong>in stukjes</strong> gebouwd: de <strong>Okazaki-fragmenten</strong> of okazakifragmenten. <strong>Ligase</strong> <strong>plakt die stukjes aan elkaar</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>RNA-primers worden achteraf door DNA vervangen</strong> en het gat wordt gedicht. De replicatie start <strong>op honderden plaatsen per chromosoom</strong> tegelijk, anders zou het dagen duren."
+    },
+    {
+     "soort": "tekst",
+     "html": "Elke nieuwe molecule bestaat uit <strong>één oude en één nieuwe streng</strong>, dus uit een <strong>ouderlijke of oorspronkelijke moederstreng</strong>, die als mal <strong>diende</strong>, en een dochterstreng. Daarom heet de replicatie <strong>semiconservatief</strong>. Het resultaat zijn <strong>twee identieke DNA-moleculen</strong>, want <strong>de basenparen passen maar op één manier</strong> en <strong>polymerase kijkt zijn eigen werk nauwkeurig na</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zonder replicatie zou elke dochtercel maar de helft van de informatie krijgen: <strong>elke dochtercel heeft een volledige set nodig</strong>. Zo <strong>deelt</strong> een cel zonder informatie te verliezen. Een <strong>prokaryoot</strong> heeft geen kern en repliceert haar ringvormige <strong>nucleïnezuur</strong> <strong>vrij in het cytoplasma</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Nucleotide = suiker + fosfaat + base; zonder fosfaat is het een nucleoside.",
+  "A bij T, C bij G; de strengen lopen antiparallel.",
+  "RNA heeft ribose en uracil en is meestal enkelstrengig.",
+  "Helicase opent, primase start, polymerase bouwt 5' naar 3', ligase plakt.",
+  "Semiconservatief: elke kopie heeft één oude en één nieuwe streng."
+ ]
+}

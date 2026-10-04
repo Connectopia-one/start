@@ -1,0 +1,114 @@
+{
+ "vak": "Biologie",
+ "titel": "Mutaties, mutagenen en kanker",
+ "onder": "Van één veranderde base tot een ontspoorde celdeling.",
+ "secties": [
+  {
+   "kop": "Wat is een mutatie?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>mutatie</strong> is <strong>een blijvende verandering in het DNA</strong>. Ze gaat bij elke celdeling mee. Verandert alleen de leesbaarheid, dan gaat het om epigenetica."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>spontane</strong> mutatie is een kopieerfout die blijft staan. Een <strong>geïnduceerde</strong> mutatie <strong>komt door een invloed van buitenaf</strong>: <strong>straling of een gifstof kan ze veroorzaken</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zo'n invloed heet een <strong>mutageen</strong>. <strong>UV-straling van de zon</strong> doet <strong>twee naast elkaar liggende basen aan elkaar plakken</strong>. <strong>Benzopyreen uit tabaksrook</strong>, ioniserende straling, nitrieten en nitrosaminen doen het op hun eigen manier. <strong>Vrije radicalen</strong> <strong>reageren met de basen en beschadigen ze</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Gelukkig heeft een cel <strong>enzymen die beschadigd DNA kunnen herstellen</strong>. Alleen wat ontsnapt of verkeerd hersteld wordt, blijft als mutatie staan. En <strong>niet elke mutatie is schadelijk</strong>: zonder mutaties zou er geen variatie en dus geen evolutie zijn."
+    }
+   ]
+  },
+  {
+   "kop": "Genmutaties",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>puntmutatie</strong> is <strong>een verandering in één nucleotide</strong>. Bij een <strong>substitutie</strong> wordt <strong>één base door een andere vervangen</strong>, dus is ze een <strong>vervanging</strong>; het aantal blijft gelijk, dus het leesraam schuift niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>deletie</strong> van één nucleotide is meestal erger: <strong>het leesraam verschuift en alle codons erna veranderen</strong>. Een <strong>insertie van drie nucleotiden laat het leesraam ongemoeid</strong>, want drie nucleotiden zijn precies één codon."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wat een substitutie doet, hangt af van waar ze valt. Wordt <strong>AUG GCU UCA</strong> tot <strong>AUG GCC UCA</strong>, dan verandert er <strong>waarschijnlijk niets aan het eiwit</strong>, want de code is gedegenereerd: zo'n geval heet een <strong>stille mutatie</strong>. Maakt de substitutie van een gewoon codon een stopcodon, dan <strong>wordt het eiwit te vroeg afgebroken en is het te kort</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>verliesmutatie</strong> werkt het eiwit minder of niet meer; bij een <strong>winstmutatie</strong> <strong>doet het eiwit iets meer of iets nieuws</strong>, en dat kan even schadelijk zijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een mutatie is <strong>erfelijk als ze in een geslachtscel zit</strong>, want alleen die wordt aan het volgende <strong>organisme doorgegeven</strong>; wat in een lichaamscel gebeurt, gaat niet op de kinderen <strong>over</strong>. Een <strong>mutatie in een huidcel door zonlicht</strong> gaat dus <strong>niet naar de kinderen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Voorbeelden van <strong>aandoeningen</strong> door een genmutatie zijn <strong>sikkelcelanemie</strong>, ook <strong>sikkelcelziekte</strong> of <strong>sikkelcelarmoede</strong> genoemd, waarbij <strong>één aminozuur in het hemoglobine vervangen is</strong> en de rode <strong>bloedcellen van vorm veranderen</strong>, <strong>mucoviscidose</strong> en <strong>de ziekte van Huntington</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Chromosoom- en genoommutaties",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>chromosoommutatie</strong> is <strong>een verandering in de bouw van een chromosoom</strong>. Bij een <strong>deletie</strong> verdwijnt er een stuk, bij een <strong>insertie</strong> komt er een stuk bij, bij een <strong>inversie</strong> <strong>komt een stuk omgekeerd terug</strong>, en bij een <strong>translocatie</strong> gaat <strong>een stuk naar een niet-homoloog chromosoom</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>cri-du-chatsyndroom</strong> komt van een deletie. Het <strong>Philadelphiachromosoom</strong>, een translocatie tussen chromosoom 9 en 22, <strong>hoort bij een vorm van leukemie</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>genoommutatie</strong> is <strong>een verandering in het aantal chromosomen</strong>. Ze ontstaat door een <strong>non-disjunctie</strong>, <strong>de fout bij de meiose waarbij twee chromosomen niet uit elkaar gaan</strong>; het woord wordt ook zonder streepje geschreven, als <strong>nondisjunctie</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>trisomie</strong> <strong>zijn er drie in plaats van twee</strong>, bij een <strong>monosomie</strong> ontbreekt er één. <strong>Aandoeningen</strong> door een <strong>afwijkend</strong> aantal chromosomen zijn <strong>het syndroom van Down</strong> (trisomie 21), <strong>het syndroom van Turner</strong> (één X) en het syndroom van Klinefelter. Bij <strong>mozaïcisme</strong> of <strong>mozaïek</strong> <strong>hebben niet alle cellen van een persoon dezelfde chromosomenfout</strong>, en zijn de verschijnselen vaak milder."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een karyogram laat een genoommutatie zien, maar een genmutatie niet</strong>: één veranderde base is er niet op te zien."
+    }
+   ]
+  },
+  {
+   "kop": "Mutaties en kanker",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Carcinogenese</strong> is <strong>het geleidelijk ontstaan van kanker</strong>. Er zijn <strong>meerdere mutaties</strong> voor nodig in dezelfde cellijn, vaak over jaren; daarom stijgt de kans met de leeftijd. Een stof die kanker kan veroorzaken, heet een <strong>carcinogeen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>proto-oncogen</strong> is <strong>een gezond gen dat de celdeling aanstuurt</strong>. Gaat het door een mutatie te hard werken, dan wordt het een <strong>oncogen</strong>. Een <strong>tumorsuppressorgen</strong> <strong>legt de celcyclus stil bij schade</strong> en <strong>laat een beschadigde cel afsterven</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Er moet dus iets <strong>misgaan</strong> op twee plaatsen tegelijk voor een cel een kankercel wordt: <strong>een gen voor groei dat te hard werkt</strong> en <strong>een gen dat de deling afremt en uitvalt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Elk uiteinde van een chromosoom heet een <strong>telomeer</strong>; samen zijn het de <strong>telomeren</strong>, en ze worden en worden <strong>bij elke deling korter</strong>. Een kankercel blijft zich eindeloos delen doordat ze <strong>haar telomerasegen weer aanzet</strong>, zodat de telomeren hersteld worden."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een tumor <strong>laat nieuwe bloedvaten naar zich toe groeien</strong>; dat heet <strong>angiogenese</strong>. Een <strong>angiogeneseremmer</strong> <strong>belet als behandeling de tumor nieuwe bloedvaten te maken</strong>. Bij <strong>genrepressie</strong> wordt <strong>een te actief gen gericht stilgelegd</strong>, en zo kan ze bij een behandeling tegen kanker <strong>helpen</strong>, bijvoorbeeld met een klein RNA tegen het mRNA van een oncogen."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Substitutie houdt het leesraam heel, een deletie van één base niet.",
+  "Een stille mutatie verandert het eiwit niet, een stopcodon kort het af.",
+  "Erfelijk is alleen wat in een geslachtscel zit.",
+  "Gen, chromosoom, genoom: drie niveaus van mutatie.",
+  "Kanker: oncogen te actief én tumorsuppressorgen uitgevallen."
+ ]
+}

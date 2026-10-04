@@ -1,0 +1,119 @@
+{
+ "vak": "Biologie",
+ "titel": "De cel, de organellen en de biologische membranen",
+ "onder": "Van organisatieniveau tot organel, en hoe een membraan gebouwd is.",
+ "secties": [
+  {
+   "kop": "Organisatieniveaus en twee soorten cellen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het leven is in <strong>organisatieniveaus</strong> geordend: van atoom over molecule, organel, cel, weefsel, orgaan en orgaanstelsel naar organisme. Elk niveau bestaat uit delen van het niveau eronder."
+    },
+    {
+     "soort": "tekst",
+     "html": "Er zijn twee grote celtypes. Een <strong>prokaryote cel</strong>, zoals een bacterie, heeft <strong>geen kern</strong> en geen membraanorganellen; haar <strong>ringvormige chromosoom ligt vrij in het cytoplasma</strong>. Een <strong>eukaryote cel</strong> heeft wél een kern met een <strong>kernmembraan</strong> en een heel stel organellen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>kernmembraan</strong> is dubbel en zit vol <strong>kernporiën</strong>. Daardoor kan een rijp mRNA naar buiten, terwijl het DNA zelf binnen blijft."
+    }
+   ]
+  },
+  {
+   "kop": "De organellen, één voor één",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In de <strong>kern</strong> ligt het DNA, en daarin zit de <strong>nucleolus</strong> of het <strong>kernlichaampje</strong>, <strong>waar de ribosomen gemaakt worden</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>ribosoom</strong> <strong>bouwt eiwitten</strong>. Zit het vast op het endoplasmatisch reticulum, dan heet dat het <strong>ruw ER</strong>, en dat staat dus <strong>in dienst van de eiwitsynthese</strong>. Het <strong>glad ER</strong> heeft geen ribosomen en <strong>maakt lipiden en ontgift stoffen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>golgicomplex</strong> <strong>werkt eiwitten af, sorteert ze en verpakt ze in blaasjes</strong>. Zo'n blaasje heet een <strong>vesikel</strong> of <strong>transportblaasje</strong> en <strong>verplaatst stoffen binnen de cel</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>lysosoom</strong> zit vol verteringsenzymen en <strong>breekt versleten onderdelen en opgenomen deeltjes af</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>mitochondrion</strong> is de plaats van de <strong>celademhaling</strong>: daar lopen de <strong>Krebscyclus</strong> en de <strong>eindoxidaties</strong>, en daar wordt dus de <strong>ATP</strong> gemaakt. Een cel die <strong>veel energie verbruikt</strong>, zoals een spiercel, is dan ook <strong>bijzonder rijk aan mitochondriën</strong>, in het Latijn <strong>mitochondria</strong>. Zijn binnenmembraan is sterk geplooid in <strong>cristae</strong>, en dat <strong>vergroot het oppervlak voor de eindoxidaties</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>vacuole</strong> is bij een plantencel groot en <strong>bewaart water en stoffen en zorgt voor de stevigheid</strong>. Het <strong>centriool</strong> helpt bij de <strong>opbouw van de spoelfiguur</strong> tijdens een celdeling: daaraan worden de <strong>spoeldraden vastgemaakt</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Plastiden, cytoskelet, plant en dier",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Planten hebben <strong>plastiden</strong>. Een <strong>chloroplast</strong> doet de <strong>fotosynthese</strong>, een <strong>amyloplast</strong> <strong>bewaart zetmeel</strong>, een <strong>chromoplast</strong> bevat <strong>kleurstoffen</strong> en een <strong>leukoplast</strong> is kleurloos."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>cytoskelet</strong> <strong>geeft de cel vorm en laat beweging toe</strong>. Het bestaat onder meer uit <strong>microtubuli</strong>, <strong>de dikste draden, die bij een deling als spoeldraad dienen</strong>, en uit <strong>microfilamenten van actine</strong>, de dunste."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>plantencel</strong> heeft een celwand, chloroplasten en één grote vacuole; een <strong>dierlijke cel</strong> heeft die niet, maar wel centriolen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>endosymbiosetheorie</strong> verklaart waar mitochondriën en chloroplasten vandaan komen: <strong>het waren ooit vrijlevende bacteriën die door een grotere cel opgenomen werden</strong>. Dat ze een <strong>eigen ringvormig DNA en eigen ribosomen</strong> hebben en zich <strong>zelf delen</strong>, past precies bij dat idee."
+    }
+   ]
+  },
+  {
+   "kop": "Het celmembraan",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een biologisch membraan is gebouwd volgens het <strong>vloeibaar mozaïekmodel</strong>: een <strong>dubbellaag van fosfolipiden waarin eiwitten als een mozaïek ronddrijven</strong>. Vloeibaar, want de moleculen kunnen zijdelings bewegen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>fosfolipide</strong> heeft een <strong>hydrofiele kop</strong> en <strong>twee hydrofobe staarten</strong>. In water keren de staarten zich naar elkaar toe en de koppen naar buiten; zo vormt zich vanzelf een dubbellaag."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Cholesterol</strong> zit tussen de fosfolipiden en <strong>houdt het membraan soepel bij wisselende temperatuur</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De eiwitten doen het werk. Een <strong>transmembraaneiwit</strong> <strong>steekt door de hele dubbellaag</strong> en kan als kanaal of pomp dienen. Een <strong>receptoreiwit</strong> <strong>vangt een signaalmolecule of signaalstof op</strong>, bijvoorbeeld een hormoon. Omdat het membraan vloeibaar is, <strong>kunnen die eiwitten zich erin verplaatsen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Aan de buitenkant liggen sacharideketens: de <strong>glycocalyx</strong>. Die <strong>laat cellen elkaar herkennen</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Buiten het membraan",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bovenop het membraan kan er een <strong>celwand</strong> liggen. Bij een <strong>plant</strong> is die van <strong>cellulose</strong>, bij een <strong>bacterie</strong> van <strong>peptidoglycaan</strong> en bij een <strong>schimmel</strong> van <strong>chitine</strong>. Let op: <strong>een celwand is doorlaatbaar en kiest niet</strong>. <strong>Halfdoorlaatbaar of selectief is het celmembraan eronder</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Tussen twee plantencellen lopen <strong>plasmodesmata</strong>: fijne kanaaltjes door de celwand, zodat de cytoplasma's met elkaar in verbinding staan."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een prokaryoot heeft geen kern, een eukaryoot wel.",
+  "Ribosoom bouwt eiwit, golgi werkt af en verpakt, lysosoom breekt af.",
+  "Het mitochondrion maakt ATP; de cristae vergroten het oppervlak.",
+  "Een membraan is een dubbellaag fosfolipiden met eiwitten erin.",
+  "Mitochondriën en chloroplasten hebben eigen DNA: endosymbiose."
+ ]
+}

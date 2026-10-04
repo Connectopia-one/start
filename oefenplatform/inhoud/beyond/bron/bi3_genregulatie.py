@@ -188,7 +188,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Een leverkel moet plots veel van een ontgiftend enzym maken. Wat verandert er het eerst?",
+        vraag="Een levercel moet plots veel van een ontgiftend enzym maken. Wat verandert er het eerst?",
         opties=[
             "het gen voor dat enzym wordt vaker afgelezen",
             "de cel krijgt een kopie van dat gen erbij",

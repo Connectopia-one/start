@@ -1,0 +1,96 @@
+{
+ "vak": "Biologie",
+ "titel": "Wetenschappelijk onderzoek, ontwerpen en STEM",
+ "onder": "Van onderzoeksvraag tot besluit, en van eis tot prototype.",
+ "secties": [
+  {
+   "kop": "De onderzoeksvraag en de hypothese",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een onderzoek begint met <strong>een onderzoeksvraag</strong>. Een goede vraag <strong>kenmerkt</strong> zich doordat ze het onderwerp <strong>duidelijk afbakent</strong> en dus <strong>nauwkeurig afgebakend</strong> is, <strong>met een proef of meting te beantwoorden</strong> en <strong>in één zin te stellen</strong>. Ze moet dus zo gesteld zijn dat een meting ze kan beantwoorden."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het verwachte antwoord dat je vooraf opschrijft, is de <strong>hypothese</strong>. Een hypothese die weerlegd wordt, betekent <strong>niet dat de proef mislukt is</strong>: ook dat is een resultaat."
+    }
+   ]
+  },
+  {
+   "kop": "Variabelen en een eerlijke opstelling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>onafhankelijke variabele</strong> is <strong>wat je zelf verandert</strong>, de <strong>afhankelijke variabele</strong> is <strong>wat je meet</strong>. Onderzoek je of meer licht de fotosynthese versnelt, dan is de afhankelijke variabele <strong>de hoeveelheid zuurstof die de plant afgeeft</strong>, bijvoorbeeld de <strong>zuurstofbelletjes</strong> per <strong>minuut</strong>; de lichtsterkte is wat je zelf <strong>instelt</strong>. Factoren die je in elke opstelling gelijk houdt, zijn de <strong>constante variabelen</strong>. De reeks zonder de onderzochte factor is de <strong>controlegroep</strong>, <strong>controleproef</strong> of <strong>blanco</strong>, waarmee je je resultaat <strong>vergelijkt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Test je een meststof op tien planten in de zon en tien zonder meststof in de schaduw, dan is er <strong>meer dan één factor verschillend, dus weet je niet waaraan het verschil ligt</strong>. Wil je weten of een enzym sneller werkt bij hogere temperatuur, dan zet je <strong>dezelfde reeks bij verschillende temperaturen, met al het andere gelijk</strong>: bijvoorbeeld <strong>vijf buizen met hetzelfde enzym bij vijf temperaturen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een onderzoeksplan hoort <strong>de onderzoeksvraag en de hypothese</strong>, <strong>welke variabelen je verandert, meet en gelijk houdt</strong>, <strong>het nodige materiaal</strong> en <strong>de werkwijze stap voor stap</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Metingen en betrouwbaarheid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Je herhaalt een meting meerdere keren, want <strong>zo zie je of een afwijkende waarde toeval is</strong>: de <strong>afwijkingen uitmiddelen</strong> maakt het resultaat sterker. Met vijftig zaden werk je liever dan met drie, want <strong>bij een groter aantal weegt een uitzondering minder zwaar door</strong>: een grotere <strong>steekproef</strong> is <strong>betrouwbaarder</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>systematische of toevallige fout die je door beter werken kunt vermijden</strong>, is bijvoorbeeld <strong>scheef aflezen of vergeten te ijken</strong>, of een <strong>stopwatch</strong> te laat <strong>indrukken</strong>; zo’n <strong>meetfout</strong> kan je door beter werken vermijden. Een meting die duidelijk buiten de rij valt, is een <strong>uitschieter</strong> of <strong>uitbijter</strong>. Zo'n meting of een meting die niet in je verwachting past, <strong>mag je niet gewoon weglaten</strong>: je noteert ze en zegt wat je ervan denkt. Wat tijdens de proef misliep, hoort dus ook in je verslag."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je noteert je waarnemingen tijdens de proef, niet achteraf uit het hoofd. Een <strong>waarneming</strong> is <strong>wat je ziet of meet</strong>; een <strong>besluit</strong> is <strong>wat je daaruit afleidt</strong>. Iemand anders moet je proef kunnen overdoen, want <strong>zo kan ze nagekeken worden</strong> en <strong>zo weet je of het resultaat betrouwbaar is</strong>. Pas als het resultaat bij iemand anders <strong>terugkomt</strong>, is het betrouwbaar, en zo komt ook een fout in je werkwijze aan het licht. Dat <strong>herhalen</strong> om na te gaan of hetzelfde eruit komt, heet <strong>repliceren</strong> of <strong>reproduceren</strong>; het resultaat heeft dan <strong>reproduceerbaarheid</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Grafieken en besluiten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op de <strong>horizontale as</strong> zet je <strong>wat je zelf veranderd hebt</strong>. Bij elke as horen <strong>de naam van de grootheid</strong>, <strong>de eenheid</strong> en <strong>een regelmatige verdeling met getallen</strong>. Een as mag je <strong>niet</strong> bij een willekeurige waarde laten beginnen: dat vertekent het beeld. Een groei die je in de tijd volgt, zet je in een <strong>lijngrafiek</strong> of <strong>lijndiagram</strong>. Op de verticale as komt wat je <strong>gemeten</strong> hebt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>gemiddelde</strong>, of <strong>rekenkundig</strong> gemiddelde, krijg je door alle metingen op te tellen en te delen door hun aantal. Hebben twee reeksen hetzelfde gemiddelde maar liggen de metingen in de ene veel verder uit elkaar, dan besluit je <strong>dat die reeks minder betrouwbaar is en meer spreiding heeft</strong>: haar gemiddelde is <strong>onzekerder</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Toont een grafiek dat er meer ijsjes verkocht worden als er meer mensen verdrinken, dan besluit je <strong>dat er een derde factor meespeelt, namelijk warm weer</strong>. Want <strong>een verband tussen twee grootheden betekent niet dat de ene de andere veroorzaakt</strong>: een verband is geen <strong>gevolg</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een besluit hoort <strong>een antwoord op de onderzoeksvraag</strong>, <strong>of de hypothese bevestigd of weerlegd is</strong> en <strong>waarop je dat baseert</strong>. Je <strong>legt je gegevens vast</strong> in een tabel of grafiek. Achteraf reflecteer je over je werkwijze, want <strong>zo zie je wat je volgende keer beter aanpakt</strong>. Je laat je besluit door anderen nalezen, want <strong>zij zien fouten, gaten en denkfouten die jij over het hoofd ziet</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Ontwerpen en STEM",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Ontwerpen begint met <strong>de eisen waaraan de oplossing moet voldoen</strong>. Een eerste werkend model dat je bouwt en test, is een <strong>prototype</strong> of <strong>proefmodel</strong>. Voldoet het niet aan de eisen, dan <strong>pas je het ontwerp aan en test je opnieuw</strong>: <strong>aanpassen</strong> hoort bij ontwerpen. Daarin verschilt ontwerpen van onderzoeken: <strong>onderzoeken wil iets weten, ontwerpen wil een probleem oplossen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>STEM</strong> staat voor <strong>science</strong> of wetenschappen, <strong>technology</strong> of <strong>techniek</strong> en <strong>technologie</strong>, <strong>engineering</strong> en <strong>mathematics</strong> of <strong>wiskunde</strong>. Wil een school het waterverbruik van haar serre verlagen, dan is een goede eerste stap <strong>meten hoeveel water er nu verbruikt wordt en waaraan</strong>. Een goede oplossing houdt ook rekening met de kosten en met het milieu."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Vraag, hypothese, plan, proef, resultaat, besluit, reflectie.",
+  "Onafhankelijk verander je, afhankelijk meet je, constant houd je gelijk.",
+  "Eén factor per keer anders, al het andere gelijk.",
+  "Een weerlegde hypothese is een resultaat, geen mislukking.",
+  "Een verband is geen oorzaak.",
+  "Onderzoeken wil weten, ontwerpen wil oplossen."
+ ]
+}

@@ -1,0 +1,94 @@
+{
+ "vak": "Biologie",
+ "titel": "Fotosynthese, celademhaling en gisting",
+ "onder": "Hoe een cel energie vastlegt en hoe ze die weer vrijmaakt.",
+ "secties": [
+  {
+   "kop": "De fotosynthese in het groot",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De fotosynthese vat je samen als: <strong>koolstofdioxide en water geven met lichtenergie glucose en zuurstof</strong>. De <strong>reactievergelijking</strong> luidt: <strong>6 CO₂ + 6 H₂O → C₆H₁₂O₆ + 6 O₂</strong>, met <strong>C₆H₁₂O₆</strong> voor de glucose. Een organisme dat uit <strong>anorganische stoffen</strong> zijn eigen voedsel maakt, is <strong>autotroof</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het licht wordt opgevangen door <strong>pigmenten</strong>: <strong>chlorofyl a</strong>, het belangrijkste, <strong>chlorofyl b</strong> en de <strong>carotenoïden</strong>, die <strong>licht opvangen van golflengten die chlorofyl slecht opneemt</strong>. Dat het <strong>chlorofyl in de herfst afgebroken</strong> wordt, is waarom de bladeren dan geel en rood worden. Een <strong>absorptiespectrum</strong> laat aflezen <strong>welke golflengten een pigment opneemt</strong>. Chlorofyl neemt vooral blauw en rood op en kaatst groen terug; daarom zien bladeren er groen uit."
+    },
+    {
+     "soort": "tekst",
+     "html": "Meer licht geeft meer fotosynthese, maar niet eindeloos: <strong>vanaf een bepaalde lichtintensiteit stijgt de fotosynthese niet verder</strong>, omdat een andere factor dan beperkend wordt. Zet je een <strong>waterplant</strong> in steeds meer licht en meet je de <strong>zuurstofproductie</strong>, dan <strong>stijgt ze eerst en vlakt ze daarna af</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De twee fasen van de fotosynthese",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>lichtreacties</strong> gebeuren in het <strong>thylakoïdmembraan</strong> van de chloroplast, waarin <strong>fotosysteem I en fotosysteem II</strong> liggen. Fotosysteem II doet eerst de <strong>splitsing van water</strong>, en die levert <strong>zuurstofgas</strong> en <strong>elektronen</strong>; de <strong>zuurstof die een plant afgeeft, komt dus uit dat gesplitste water</strong>. De energie wordt vastgelegd als <strong>ATP en NADPH</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>Calvincyclus</strong>, ook de <strong>donkerreacties</strong> genoemd, gebeurt in het <strong>stroma</strong>, de vloeistof rond de thylakoïden. Daar wordt met die ATP en NADPH <strong>koolstofdioxide vastgelegd in een organische molecule</strong>; dat heet <strong>koolstoffixatie</strong>. Die fase heeft dus <strong>geen licht rechtstreeks nodig, wel de ATP en NADPH die de lichtreacties voor de donkerreacties aanmaken</strong>. Let op de naam: <strong>de donkerreacties lopen niet alleen in het donker</strong>, ze lopen ook bij volle zon. Een plant die in het donker staat, <strong>doet trouwens nog wel aan celademhaling</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het enzym dat ATP maakt uit de protonengradiënt heet <strong>ATP-synthase</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De celademhaling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>aerobe celademhaling</strong> is in het groot het omgekeerde, met als <strong>reactievergelijking C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O</strong>: <strong>glucose en zuurstof geven koolstofdioxide, water en energie</strong>. Ze verloopt in vier stappen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>glycolyse</strong> gebeurt in het <strong>cytoplasma</strong> en splitst glucose tot twee moleculen <strong>pyruvaat</strong> of <strong>pyrodruivenzuur</strong>. Daar is <strong>geen zuurstof</strong> voor nodig."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de <strong>oxidatieve decarboxylatie</strong> wordt pyruvaat omgezet tot <strong>acetyl-coA</strong>, waarbij <strong>koolstofdioxide vrijkomt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>Krebscyclus</strong> draait in de <strong>matrix</strong> van het mitochondrion. De <strong>eindoxidaties</strong> gebeuren op de <strong>cristae</strong>, het geplooide binnenmembraan, en leveren veruit de meeste ATP."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>NAD⁺ en FAD</strong> <strong>vervoeren elektronen en waterstof</strong>. Ze brengen die naar de eindoxidaties, waar een <strong>protonengradiënt over het binnenmembraan</strong> de ATP-synthese aandrijft en <strong>zuurstofgas de elektronen uiteindelijk opneemt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>ATP</strong> is geen voorraad maar een werkmunt: bij <strong>ATP-hydrolyse</strong> <strong>wordt er een fosfaatgroep afgesplitst en komt er energie vrij</strong>. Een cel maakt dus voortdurend nieuw ATP aan en <strong>legt er geen voorraad voor weken vooruit aan</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Zonder zuurstof: gisting",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Zonder zuurstof stopt de celademhaling na de glycolyse. Dan volgt <strong>gisting</strong>, die <strong>per molecule glucose veel minder ATP oplevert dan de aerobe celademhaling</strong>. Toch heeft de cel iets aan de omzetting van het pyruvaat: <strong>zo komt NAD⁺ weer vrij voor de glycolyse</strong>, zodat die kan blijven doorlopen. <strong>Beide gistingen verlopen zonder zuurstof</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>melkzuurgisting</strong>, onder meer in een spiercel die bij <strong>zwaar werk en te weinig zuurstof</strong> zit, wordt pyruvaat tot <strong>melkzuur</strong> omgezet. Bij <strong>alcoholische gisting</strong>, bij gist, ontstaan <strong>ethanol en koolstofdioxide</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Fotosynthese en celademhaling zijn in zekere zin <strong>elkaars omgekeerde</strong>: <strong>wat de ene opneemt, geeft de andere af</strong>, en <strong>de ene bouwt op terwijl de andere afbreekt</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Fotosynthese: licht, CO₂ en water geven glucose en zuurstof.",
+  "Lichtreacties in het thylakoïdmembraan, Calvincyclus in het stroma.",
+  "De zuurstof van de fotosynthese komt uit het gesplitste water.",
+  "Glycolyse in het cytoplasma, Krebs in de matrix, eindoxidaties op de cristae.",
+  "Zonder zuurstof: gisting, met melkzuur of met alcohol."
+ ]
+}
