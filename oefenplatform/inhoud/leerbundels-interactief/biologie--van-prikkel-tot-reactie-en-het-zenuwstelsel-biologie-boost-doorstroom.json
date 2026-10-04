@@ -1,0 +1,123 @@
+{
+ "vak": "Biologie",
+ "titel": "Van prikkel tot reactie en het zenuwstelsel",
+ "onder": "De weg van prikkel naar reactie, de reflexen, het centrale en perifere zenuwstelsel, en het neuron tot in zijn onderdelen.",
+ "secties": [
+  {
+   "kop": "Van prikkel tot reactie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>prikkel</strong> is een <strong>verandering in of rond het lichaam die een reactie kan uitlokken</strong>. Licht, geluid en warmte zijn prikkels; de reactie komt daarna."
+    },
+    {
+     "soort": "tekst",
+     "html": "De weg loopt zo: <strong>receptor, sensorische zenuw, verwerking, motorische zenuw, effector</strong>. Een <strong>receptor</strong> is een cel of structuur die een prikkel opvangt; een <strong>sensorische zenuw</strong> voert prikkels <strong>naar het centrale zenuwstelsel toe</strong>; een <strong>effector</strong> is het orgaan of de cel die <strong>de reactie uitvoert</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij ons zijn de effectoren vooral de <strong>spieren en de klieren</strong>: een skeletspier in de arm, een zweetklier in de huid, de hartspier. Een tastreceptor in de vingertop is géén effector maar staat aan het begin van de weg."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een receptor heeft een <strong>drempelwaarde</strong>: een <strong>te zwakke prikkel levert geen signaal op</strong>, zodat het lichaam niet op elk detail reageert. Pas boven die drempel ontstaat er een <strong>zenuwimpuls</strong>, een elektrisch signaal dat langs de celmembraan loopt. Die impuls heeft altijd dezelfde sterkte; de <strong>frequentie</strong> zegt hoe sterk de prikkel was."
+    },
+    {
+     "soort": "tekst",
+     "html": "In de huid staan <strong>tastreceptoren</strong>, <strong>temperatuurreceptoren</strong> en <strong>pijnreceptoren</strong>; de lichtreceptoren zitten in het netvlies. Er zijn ook <strong>inwendige receptoren</strong>, bijvoorbeeld voor de bloeddruk, het zuurstofgehalte of de rek van de maagwand."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dezelfde prikkel kan bij <strong>twee mensen tot een verschillende reactie</strong> leiden, want de verwerking hangt af van ervaring, aandacht en gemoedstoestand."
+    }
+   ]
+  },
+  {
+   "kop": "Reflexen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>reflex verloopt snel en zonder dat je het eerst beslist</strong>. De boodschap schakelt al in het <strong>ruggemerg of de hersenstam</strong> over, langs de korte weg die de <strong>reflexboog</strong> heet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Raak je een <strong>hete pan</strong> aan, dan <strong>stuurt het ruggemerg de spier al aan terwijl de boodschap nog naar de hersenen onderweg is</strong>. Dat is de <strong>terugtrekreflex</strong>: je hand is weg voor je de pijn voelt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Andere reflexen van de fiche: de <strong>kniepeesreflex</strong>, die een arts met een tikje onder de knieschijf test; de <strong>pupilreflex</strong>, waarbij je <strong>pupillen kleiner worden als er plots veel licht op valt</strong>; en de <strong>toeschietreflex</strong>, waarbij <strong>de melk begint te vloeien zodra een baby aan de borst zuigt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een reflex is <strong>niet altijd te onderdrukken</strong>. De pupilreflex blijft buiten je wil; die kan je niet afleren, ook niet met oefening."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het verschil met een <strong>bewuste reactie</strong>: een reflex is <strong>sneller</strong>, bij een bewuste reactie komen de <strong>grote hersenen</strong> tussen, en een reflex <strong>schakelt over in het ruggemerg of de hersenstam</strong>. Beide gebruiken wél zenuwcellen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een hond die bij het <strong>rinkelen van zijn voerbak</strong> begint te kwijlen, toont een <strong>geleerde reactie op een prikkel die eerst niets betekende</strong>. De reactie verloopt automatisch, maar de koppeling is geleerd."
+    }
+   ]
+  },
+  {
+   "kop": "Het centrale en het perifere zenuwstelsel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>centrale zenuwstelsel</strong> bestaat uit de <strong>hersenen en het ruggemerg</strong>: alles wat in de schedel en de wervelkolom beschut ligt. Het <strong>perifere zenuwstelsel</strong> zijn alle zenuwen en zenuwknopen <strong>buiten de hersenen en het ruggemerg</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de hersenen onderscheidt men de <strong>grote hersenen</strong>, de <strong>kleine hersenen</strong> en de <strong>hersenstam</strong>. Het ruggemerg hoort daar niet bij; dat ligt in de wervelkolom."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>kleine hersenen</strong> zorgen voor het <strong>afstemmen van bewegingen en het bewaren van het evenwicht</strong>. De <strong>hersenstam</strong> regelt de <strong>ademhaling, de hartslag en de bloeddruk</strong>, ook als je slaapt. In de <strong>grote hersenen</strong> gebeurt het <strong>bewuste denken, het plannen en het leren</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>ruggemerg geleidt signalen tussen de hersenen en het lichaam</strong>, <strong>schakelt reflexen over zonder omweg langs de hersenen</strong> en <strong>ligt beschut in de wervelkolom</strong>. Een <strong>dwarse breuk</strong> laat het gevoel en de beweging onder die hoogte <strong>wegvallen</strong>, want alle banen lopen daar door."
+    }
+   ]
+  },
+  {
+   "kop": "Het neuron",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>neuron</strong> heeft een <strong>cellichaam met de kern</strong>, <strong>dendrieten</strong> en een <strong>axon met zijn eindknopjes</strong>. De <strong>dendrieten</strong> zijn de <strong>korte uitlopers die signalen opvangen</strong>. Een neuron heeft <strong>veel dendrieten en één axon</strong>, niet omgekeerd; dat axon kan aan het einde in vele eindknopjes uitlopen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>myelineschede</strong> <strong>isoleert het axon zodat de impuls er sneller langs gaat</strong>. De onderbrekingen erin heten de <strong>knopen van Ranvier</strong>; bij elke knoop springt de impuls naar de volgende. Door die sprongen gaat hij tientallen keren sneller dan langs een kaal axon. In het perifere zenuwstelsel maakt de <strong>cel van Schwann</strong> die schede."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een ziekte die de myelineschede aantast, laat de <strong>signalen trager doorgaan, waardoor bewegen en voelen moeilijker wordt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>synaps</strong> <strong>geeft het eindknopje een stof af die aan een receptor op de volgende cel bindt</strong>. Die structuur heet een <strong>membraanreceptor</strong> en werkt als een slot waarop maar één sleutel past. Het signaal gaat daardoor <strong>altijd in één richting</strong>, van het eindknopje naar de volgende cel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>zenuwstelsel werkt sneller dan het hormonale stelsel</strong>, maar het <strong>effect van een hormoon houdt langer aan</strong>. Een impuls doet er milliseconden over; een hormoon reist met het bloed en werkt minuten tot dagen door."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "De weg van prikkel naar reactie: receptor, sensorische zenuw, verwerking, motorische zenuw, effector.",
+  "Effectoren zijn spieren en klieren; een receptor staat aan het begin, niet aan het einde.",
+  "Een receptor heeft een drempelwaarde; boven die drempel ontstaat een zenuwimpuls, en de frequentie zegt hoe sterk de prikkel was.",
+  "Een reflex schakelt over in het ruggemerg of de hersenstam en verloopt dus sneller dan een bewuste reactie.",
+  "Vier reflexen: terugtrekreflex, kniepeesreflex, pupilreflex en toeschietreflex.",
+  "Centraal zenuwstelsel is hersenen plus ruggemerg; al de rest is perifeer.",
+  "Kleine hersenen voor beweging en evenwicht, hersenstam voor ademhaling en hartslag, grote hersenen voor denken en leren.",
+  "Een neuron heeft veel dendrieten en één axon; de myelineschede met de knopen van Ranvier laat de impuls springen.",
+  "In een synaps gaat het signaal in één richting, van eindknopje naar membraanreceptor.",
+  "Het zenuwstelsel werkt sneller, een hormoon werkt langer door."
+ ]
+}

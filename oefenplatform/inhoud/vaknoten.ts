@@ -22,6 +22,30 @@ export const vaknoten: Record<string, string> = {
     "vroeger met Engels in aanraking, en een goede basis op jonge leeftijd kan " +
     "geen kwaad. Oefen dus gerust mee, maar weet dat je kind hier op school nog " +
     "niet op beoordeeld wordt.",
+
+  "boost-doorstroom/natuurwetenschappen":
+    "Dit is het vak voor de richtingen die hun wetenschappen in één examen " +
+    "afleggen: economische wetenschappen, humane wetenschappen, moderne talen " +
+    "en Latijn. Zit je in natuurwetenschappen, dan heb je de drie aparte vakken " +
+    "biologie, chemie en fysica nodig in plaats van dit vak.",
+
+  "boost-doorstroom/biologie":
+    "Dit vak is er voor de richting natuurwetenschappen, die haar wetenschappen " +
+    "in drie aparte examens aflegt: biologie, chemie en fysica. Volg je een " +
+    "andere richting met één examen wetenschappen, dan heb je het vak " +
+    "natuurwetenschappen nodig in plaats van dit vak.",
+
+  "boost-doorstroom/chemie":
+    "Dit vak is er voor de richting natuurwetenschappen, die haar wetenschappen " +
+    "in drie aparte examens aflegt: biologie, chemie en fysica. Volg je een " +
+    "andere richting met één examen wetenschappen, dan heb je het vak " +
+    "natuurwetenschappen nodig in plaats van dit vak.",
+
+  "boost-doorstroom/fysica":
+    "Dit vak is er voor de richting natuurwetenschappen, die haar wetenschappen " +
+    "in drie aparte examens aflegt: biologie, chemie en fysica. Volg je een " +
+    "andere richting met één examen wetenschappen, dan heb je het vak " +
+    "natuurwetenschappen nodig in plaats van dit vak.",
 };
 
 /** De noot bij dit vak in deze categorie, of niets. */

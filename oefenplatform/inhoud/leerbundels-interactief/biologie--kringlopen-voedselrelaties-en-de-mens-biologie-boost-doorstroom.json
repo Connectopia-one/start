@@ -1,0 +1,176 @@
+{
+ "vak": "Biologie",
+ "titel": "Kringlopen, voedselrelaties en de mens",
+ "onder": "De kringlopen van koolstof, water, stikstof en fosfor, het ecosysteem als geheel, de successie en de voetafdruk van de mens.",
+ "secties": [
+  {
+   "kop": "De koolstofkringloop",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Dat koolstof een <strong>kringloop</strong> doorloopt, betekent dat <strong>dezelfde koolstofatomen telkens hergebruikt worden</strong> in andere stoffen. Materie verdwijnt niet: een atoom zit vandaag in de lucht, morgen in een blad."
+    },
+    {
+     "soort": "tekst",
+     "html": "De grote stromen zijn: de <strong>fotosynthese haalt koolstofdioxide uit de lucht</strong>, de <strong>celademhaling geeft koolstofdioxide af</strong>, en het <strong>verbranden van steenkool en aardolie geeft koolstofdioxide af</strong>. Alleen de fotosynthese brengt koolstof uit de lucht het leven in."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Steenkool en aardolie zijn ontstaan uit resten van organismen van lang geleden</strong>. Die koolstof zat miljoenen jaren opgesloten in de bodem."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het koolstofdioxidegehalte van de lucht stijgt omdat we <strong>fossiele brandstoffen te snel verbranden</strong>: we voegen koolstof toe aan een kring die ze niet zo snel kwijtraakt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>groeiend bos legt koolstof vast</strong>: het hout dat erbij komt, is opgeslagen koolstof. Wordt het gekapt en verbrand, dan komt die weer vrij."
+    },
+    {
+     "soort": "tekst",
+     "html": "De mens grijpt in de kringloop in door <strong>fossiele brandstoffen te verbranden</strong>, <strong>bossen te kappen</strong> en <strong>veengebieden te draineren</strong>. Ploeg je <strong>oud grasland om tot akker</strong>, dan <strong>oxideert een deel van de bodemkoolstof en komt het als koolstofdioxide vrij</strong>: ploegen brengt lucht bij de organische stof."
+    }
+   ]
+  },
+  {
+   "kop": "De waterkringloop",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De waterkringloop bestaat uit <strong>verdamping uit zeeën, meren en planten</strong>, <strong>condensatie tot wolken</strong> en <strong>neerslag als regen of sneeuw</strong>. Water verbrandt niet; het is zelf al een eindproduct van verbranding."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het verdampen van water via de bladeren van planten heet <strong>transpiratie</strong>. In een bos gaat een groot deel van de neerslag zo terug de lucht in."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een hevige regen staat er sneller water op een <strong>verharde straat</strong> dan op een weide, want het <strong>water kan niet in de bodem dringen en loopt meteen oppervlakkig weg</strong>. Een bodem met planten neemt water op en geeft het traag door."
+    }
+   ]
+  },
+  {
+   "kop": "Stikstof en fosfor",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Planten kunnen het <strong>stikstofgas uit de lucht niet rechtstreeks gebruiken</strong>, want de <strong>binding in het stikstofgasmolecule is te sterk</strong>. Ze nemen stikstof op als <strong>nitraat</strong> of ammonium uit de bodem."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bacteriën</strong> maken stikstofgas voor planten bruikbaar. Ze leven vrij in de bodem of in <strong>knolletjes op de wortels van vlinderbloemigen</strong>: <strong>klaver en bonen</strong> verrijken daardoor de bodem, en boeren zaaien ze als groenbedekker."
+    },
+    {
+     "soort": "tekst",
+     "html": "Planten nemen als mineraal onder andere <strong>nitraat</strong>, <strong>fosfaat</strong> en <strong>kalium</strong> uit de bodem op. Glucose maakt de plant zelf."
+    },
+    {
+     "soort": "tekst",
+     "html": "Te veel stikstof in de natuur is een probleem omdat <strong>snelgroeiende soorten de rest verdringen</strong>: brandnetel en gras varen er wel bij, heide en veel bloemen niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Eutrofiëring</strong> van een vijver: <strong>overbemesting laat de algen woekeren en de zuurstof instorten</strong>. Een algenlaag houdt het licht weg, de waterplanten sterven, de reducenten gebruiken de zuurstof op, en dan <strong>sterven de vissen door een gebrek aan zuurstofgas</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>kringloop van fosfor verloopt veel langzamer</strong> dan die van koolstof, want <strong>fosfor heeft geen gasvorm in de lucht</strong>: het zit in gesteente en bodem en komt traag vrij."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>gesloten kringloop op een boerderij</strong>, met mest van het eigen vee op de eigen akkers, is gunstig omdat de <strong>mineralen op het bedrijf zelf blijven</strong> en er minder aanvoer van buiten nodig is."
+    }
+   ]
+  },
+  {
+   "kop": "Het ecosysteem als geheel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>ecosysteem</strong> is <strong>alle organismen samen met hun omgeving</strong>, dus ook de bodem, het water, het licht en het klimaat. Juist de wisselwerking maakt het een systeem."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Abiotische</strong> factoren zijn niet-levend: de <strong>temperatuur</strong>, de <strong>zuurtegraad van de bodem</strong>, de <strong>lichtsterkte</strong>. Het aantal roofdieren is een biotische factor."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>populatie</strong> zijn <strong>alle individuen van één soort die in hetzelfde gebied leven</strong>. Alle populaties samen vormen de levensgemeenschap."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>draagkracht</strong> is het <strong>aantal individuen dat een gebied blijvend kan onderhouden</strong>. Een populatie die erboven uitgroeit, <strong>daalt daarna weer</strong>: het voedsel raakt op en ziekten slaan toe."
+    },
+    {
+     "soort": "tekst",
+     "html": "Of een populatie groeit of krimpt, hangt af van het <strong>aantal geboorten</strong>, het <strong>aantal sterfgevallen</strong> en het <strong>aantal dieren dat het gebied binnenkomt of verlaat</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>ecologische niche</strong> is het <strong>geheel van omstandigheden en rollen waarin een soort kan leven</strong>: niet enkel waar ze woont, maar ook wat ze eet, wanneer ze actief is en wat ze verdraagt. <strong>Twee soorten met precies dezelfde niche kunnen niet blijvend naast elkaar bestaan</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>indicatorsoort</strong> is een <strong>soort waarvan de aanwezigheid iets zegt over de toestand van het milieu</strong>: korstmossen verdragen weinig luchtvervuiling, kokerjuffers weinig watervervuiling. Wil je weten of een beek vervuild is, dan is het verstandigst de <strong>waterdiertjes te bepalen en te vergelijken</strong> met een lijst van indicatorsoorten: die vertellen over de maanden ervoor, niet enkel over het ogenblik van de meting."
+    }
+   ]
+  },
+  {
+   "kop": "Successie en beheer",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Successie</strong> is het <strong>geleidelijk veranderen van een levensgemeenschap</strong>: eerst pioniers op de kale bodem, dan grassen, dan struiken en ten slotte bomen. Elke stap maakt de volgende mogelijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Pioniersplanten</strong> groeien op kale bodem omdat ze <strong>weinig voeding en veel licht verdragen</strong>; hun afgestorven resten vormen de eerste humus."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een ecosysteem in een <strong>late fase van de successie is meestal stabieler</strong> dan een jong ecosysteem: er zijn meer soorten en meer verbindingen in het voedselweb."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>natuurbeheerder die een heide wil behouden, moet er soms bomen weghalen</strong>: zonder ingrijpen zet de successie door en wordt de heide bos."
+    },
+    {
+     "soort": "tekst",
+     "html": "Laat een gemeente een <strong>beek weer kronkelen</strong> in plaats van recht door een buis, dan <strong>houdt de beek meer water vast en meer leven</strong>: bochten, ondiepe oevers en overstroombare weides geven leven een plaats en houden water op bij hevige regen."
+    }
+   ]
+  },
+  {
+   "kop": "De voetafdruk van de mens",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>ecologische voetafdruk</strong> is de maat voor het beslag dat iemands manier van leven op de aarde legt: voeding, wonen, verplaatsen en spullen omgerekend naar oppervlakte."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je verkleint haar door <strong>minder vlees te eten</strong>, <strong>minder met het vliegtuig te reizen</strong> en <strong>spullen langer te gebruiken en te herstellen</strong>. Een <strong>plantaardig dieet heeft gemiddeld een kleinere voetafdruk</strong>, want vlees komt een trofisch niveau hoger."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het beperken van de klimaatverandering is ook een zaak van biodiversiteit, want <strong>soorten kunnen niet altijd meeverhuizen</strong> als hun klimaat verschuift. Een soort op een bergtop of in een versnipperd landschap kan niet opschuiven."
+    },
+    {
+     "soort": "tekst",
+     "html": "Verdwijnen de <strong>bijen</strong> uit een gebied, dan nemen de <strong>planten die insecten nodig hebben, af</strong>: hun zaadzetting daalt en daarna hun aantal."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een kringloop betekent dat dezelfde atomen telkens hergebruikt worden; materie verdwijnt niet.",
+  "Fotosynthese haalt koolstof uit de lucht, celademhaling en verbranding brengen ze terug.",
+  "De waterkringloop is verdampen, condenseren en neerslaan; planten verdampen mee door transpiratie.",
+  "Stikstofgas is te sterk gebonden voor planten; bacteriën maken er nitraat of ammonium van.",
+  "Eutrofiëring: te veel mest, algen woekeren, de zuurstof stort in en de vissen sterven.",
+  "Een populatie is één soort op één plaats; de draagkracht is wat een gebied blijvend kan onderhouden.",
+  "Twee soorten met dezelfde niche kunnen niet blijvend naast elkaar bestaan.",
+  "Successie gaat van pioniers naar bos; een late fase is stabieler, en beheer houdt een heide met opzet jong.",
+  "De voetafdruk daalt vooral door minder vlees, minder vliegen en spullen langer gebruiken."
+ ]
+}

@@ -1,0 +1,142 @@
+{
+ "vak": "Biologie",
+ "titel": "Materie- en energiestromen in een ecosysteem",
+ "onder": "Autotroof en heterotroof, fotosynthese en celademhaling, gisting en enzymen, voedselketens en de energiepiramide.",
+ "secties": [
+  {
+   "kop": "Autotroof en heterotroof",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>autotroof</strong> organisme <strong>maakt zijn eigen organische stoffen</strong>; een <strong>heterotroof</strong> moet ze opnemen. Autotroof betekent zelfvoedend: groene planten bouwen hun eigen glucose, dieren en schimmels halen die uit hun voedsel."
+    },
+    {
+     "soort": "tekst",
+     "html": "De energiebron van een groene plant is het <strong>zonlicht</strong>. Bij de fotosynthese vangt het chlorofyl die lichtenergie op, en ze komt in de glucose terecht als chemische energie."
+    }
+   ]
+  },
+  {
+   "kop": "Fotosynthese en celademhaling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>grondstoffen van de fotosynthese</strong> zijn <strong>koolstofdioxide en water</strong>. De plant haalt koolstofdioxide uit de lucht en water uit de bodem, en bouwt daar met lichtenergie glucose van. Daarbij <strong>komt zuurstofgas vrij</strong>, van het gesplitste water."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>celademhaling</strong> levert <strong>energie voor de cel, plus koolstofdioxide en water</strong>: glucose wordt met zuurstofgas afgebroken. Dat gebeurt in het <strong>mitochondrion</strong>, het celorganel dat de energiecentrale van de cel is."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>producten van het ene zijn de grondstoffen van het andere</strong>; de <strong>fotosynthese slaat energie op en de celademhaling maakt ze vrij</strong>; en een <strong>plantencel doet beide</strong>. Een dierlijke cel doet enkel celademhaling."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>plant doet dus wél celademhaling</strong>, ook zij heeft energie nodig. Bij daglicht geeft ze netto zuurstofgas af en in het donker netto koolstofdioxide, want <strong>bij licht overheerst de fotosynthese en in het donker valt ze weg</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zet je een <strong>waterplant in een buisje in het licht</strong> en meet je de gasbelletjes, dan meet je het <strong>zuurstofgas dat bij de fotosynthese vrijkomt</strong>. Verdubbel je de lichtsterkte en stijgt het aantal belletjes niet verder, dan is een <strong>andere factor, zoals het koolstofdioxide, nu de beperkende factor</strong>: het proces loopt maar zo snel als zijn krapste grondstof toelaat."
+    }
+   ]
+  },
+  {
+   "kop": "Gisting, stofwisseling en enzymen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Gisting</strong> is de <strong>afbraak van glucose zonder zuurstofgas</strong>. De glucose wordt maar gedeeltelijk afgebroken, dus levert gisting <strong>per molecule veel minder energie</strong> op dan de celademhaling: er blijft nog energie in de ethanol of het melkzuur zitten."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Alcoholgisting</strong> door gist levert <strong>ethanol en koolstofdioxide</strong> op. Daarom gebruikt men gist voor bier, wijn en brood."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>zware sprint</strong> <strong>schakelen de spieren bij zuurstofgebrek over op melkzuurgisting</strong>, en dat melkzuur voelt branderig."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>stofwisseling</strong> of het metabolisme is het <strong>geheel van alle chemische omzettingen in een organisme</strong>, zowel het opbouwen als het afbreken van stoffen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Koolhydraten</strong>, <strong>vetten</strong> en <strong>proteïnen</strong> in ons voedsel leveren energie; mineralen en vitaminen zijn nodig maar leveren er geen. <strong>Vetten leveren per gram meer energie dan koolhydraten</strong>, en daarom slaat het lichaam zijn reserve vooral als vet op."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>enzym</strong> <strong>versnelt een bepaalde omzetting zonder er zelf bij op te gaan</strong>; het is een biokatalysator die op één bepaalde stof past. Het werkt <strong>het best binnen een nauw gebied van temperatuur en zuurtegraad</strong>; buiten dat gebied verliest het zijn vorm."
+    }
+   ]
+  },
+  {
+   "kop": "Voedselketens en voedselwebben",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In een ecosysteem onderscheidt men <strong>producenten</strong>, <strong>consumenten</strong> en <strong>reducenten</strong>. <strong>Producenten</strong> maken zelf organische stof met licht: gras, algen, een eik. Een schimmel kan dat niet en is dus een <strong>reducent</strong>: die <strong>breekt dood organisch materiaal af</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>voedselketen</strong> is een <strong>rij organismen waarin elk het volgende tot voedsel dient</strong>. De <strong>pijl wijst van het gegeten organisme naar wie het eet</strong>, want hij volgt de stroom van stof en energie: gras, pijl, koe, pijl, mens."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>voedselweb</strong> geeft de werkelijkheid beter weer, want de <strong>meeste dieren eten meer dan één soort</strong> en worden ook door meer dan één soort gegeten. Een keten is één draad uit het web."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>trofisch niveau</strong> of voedselniveau is de plaats van een organisme in de keten: producent, eerste consument, en zo verder. Een <strong>herbivoor</strong> voedt zich met plantaardig materiaal en staat op het eerste consumentenniveau."
+    }
+   ]
+  },
+  {
+   "kop": "De energiepiramide",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>energiepiramide</strong> wordt naar boven toe smaller, want <strong>bij elke stap gaat het meeste verloren als warmte</strong> en voor de eigen levensbehoeften. <strong>Ongeveer een tiende</strong> van de energie van een niveau komt in het volgende terecht."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom zijn er <strong>zelden meer dan vier of vijf trofische niveaus</strong>: <strong>na elke stap blijft er te weinig energie over</strong> voor een extra niveau."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Materie gaat rond in kringlopen, energie stroomt er maar één keer door</strong>. Koolstof en stikstof worden eindeloos hergebruikt, maar de zonne-energie verlaat het ecosysteem als warmte en komt niet terug. Daarom heeft een ecosysteem <strong>voortdurend nieuwe energie van buiten nodig</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een stuk land voedt meer mensen met graan dan met vlees, want <strong>van graan naar vlees gaat veel energie verloren</strong>: eet je het graan zelf, dan sla je een trofisch niveau over."
+    },
+    {
+     "soort": "tekst",
+     "html": "Sommige <strong>giftige stoffen hopen zich op naar de top van een voedselketen toe</strong>: een stof die het lichaam niet afbreekt, blijft bij elke stap achter in het vet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Biomassa</strong> is de <strong>totale massa levend materiaal in een gebied of op een niveau</strong>; naar de top van de piramide neemt ze sterk af."
+    },
+    {
+     "soort": "tekst",
+     "html": "Verdwijnen alle <strong>waterplanten uit een vijver</strong>, dan <strong>vallen de producenten weg, en de consumenten erbij</strong>: zij zijn de ingang van alle energie. En <strong>zonder reducenten</strong> zou een ecosysteem <strong>niet blijven werken</strong>, hoeveel licht er ook valt: de mineralen bleven in dood materiaal opgesloten."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een perceel met <strong>een mengsel van gewassen</strong> geeft <strong>meer verschillende plantenresten, dus een rijker bodemleven</strong> dan een perceel met alleen maïs."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Autotroof maakt zijn eigen organische stof, heterotroof moet ze opnemen.",
+  "Fotosynthese slaat energie op in glucose, celademhaling maakt ze weer vrij in het mitochondrion.",
+  "Een plant doet beide; een dierlijke cel enkel celademhaling.",
+  "Gisting is afbraak zonder zuurstofgas en levert veel minder energie op.",
+  "Een enzym versnelt één omzetting en werkt enkel binnen een nauw gebied van temperatuur en zuurtegraad.",
+  "Producenten maken, consumenten eten, reducenten breken af; de pijl in een keten volgt de energie.",
+  "Van elk niveau komt ongeveer een tiende in het volgende terecht, dus zijn er maar vier of vijf niveaus.",
+  "Materie gaat rond in kringlopen, energie stroomt er één keer door en verdwijnt als warmte."
+ ]
+}

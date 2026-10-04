@@ -1,0 +1,152 @@
+{
+ "vak": "Biologie",
+ "titel": "Wetenschappelijk onderzoek en STEM",
+ "onder": "De onderzoekscyclus, variabelen en controlegroep, de microscoop en het preparaat, veilig werken, tabellen en grafieken.",
+ "secties": [
+  {
+   "kop": "Van vraag tot besluit",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een goede <strong>onderzoeksvraag</strong> is een <strong>vraag die je met een meting kan beantwoorden</strong>. Of iets mooi is, kan je niet meten; hoeveel iets groeit, wel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>hypothese</strong> is een <strong>beredeneerde verwachting die je kan toetsen</strong>, en dus ook kan weerleggen. Dat ze onderuit gehaald kan worden, is net haar kracht: een <strong>weerlegde hypothese is een resultaat</strong>, geen mislukking."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het verschil tussen een <strong>waarneming</strong> en een <strong>gevolgtrekking</strong>: een <strong>waarneming is wat je vaststelt, een gevolgtrekking wat je besluit</strong>. Het blad is geel is een waarneming; de plant krijgt te weinig water is een gevolgtrekking, en die kan fout zijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>meetresultaten</strong> noteer je meteen en onbewerkt, in een tabel met de eenheden erbij. Pas daarna ga je rekenen en tekenen. Een onderzoeker die zijn <strong>metingen aanpast omdat ze niet bij zijn hypothese passen, pleegt wetenschappelijke fraude</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>verslag</strong> horen de <strong>onderzoeksvraag en de hypothese</strong>, de <strong>werkwijze en het materiaal</strong>, en de <strong>resultaten en het besluit</strong>. Een werkwijze is goed beschreven als <strong>iemand anders je proef ermee kan overdoen</strong>; daarom horen hoeveelheden, tijden en toestellen er precies in."
+    }
+   ]
+  },
+  {
+   "kop": "Variabelen en controlegroep",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>onafhankelijke variabele</strong> is de factor die je <strong>bewust verandert</strong>, bijvoorbeeld de lichtsterkte. De <strong>afhankelijke variabele</strong> is wat je meet: de lengte van de plant na enkele weken."
+    },
+    {
+     "soort": "tekst",
+     "html": "Alles behalve de variabele die je onderzoekt, houd je <strong>constant</strong>: de <strong>hoeveelheid water</strong>, de <strong>soort potgrond</strong>, de <strong>temperatuur</strong>. Anders weet je niet waar een verschil van komt."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>controlegroep</strong> is de groep die <strong>de behandeling niet krijgt, zodat je kan vergelijken</strong>. Zonder controlegroep <strong>laat een proef geen betrouwbaar besluit toe</strong>: je weet niet wat er zonder behandeling gebeurd zou zijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je <strong>herhaalt een meting</strong> om de <strong>invloed van toeval en meetfouten te verkleinen</strong>, en je gebruikt <strong>meerdere planten per groep</strong> omdat <strong>individuen verschillen en dat verschil met meer exemplaren wegvalt</strong>. Een proef met twee planten laat dus geen besluit toe: <strong>twee planten zijn te weinig om toeval uit te sluiten</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Verandert er <strong>meer dan één ding tegelijk</strong>, bijvoorbeeld omdat de ene groep ook warmer stond, dan <strong>weet je de oorzaak niet</strong>. Dat heet een <strong>storende variabele</strong>. En een <strong>verband</strong> is nog <strong>geen bewijs van oorzaak en gevolg</strong>: twee dingen kunnen samen veranderen door een derde oorzaak."
+    },
+    {
+     "soort": "tekst",
+     "html": "Komen <strong>twee groepen in de klas tot een ander besluit</strong>, dan <strong>leg je de twee werkwijzen naast elkaar en zoek je waar ze verschilden</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De microscoop",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Met een <strong>lichtmicroscoop</strong> bekijk je <strong>cellen en hun grootste celonderdelen</strong>. Voor virussen en moleculen is een elektronenmicroscoop nodig."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>totale vergroting</strong> is de <strong>vergroting van het oculair maal die van het objectief</strong>. Een oculair van 10 keer met een objectief van 40 keer geeft dus <strong>400</strong> keer."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je begint met het <strong>zwakste objectief</strong>, want dan is het <strong>beeldveld het grootst en vind je je voorwerp makkelijker</strong>. <strong>Hoe sterker de vergroting, hoe kleiner het stukje preparaat dat je ziet</strong>: vergroting en beeldveld gaan tegen elkaar in."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>dekglaasje</strong> dient om het <strong>preparaat vlak te houden en uitdrogen te voorkomen</strong>; het drukt het preparaat tot één laagje, zodat er maar één scherptevlak is. Een <strong>kleurstof</strong> zoals methyleenblauw of jood geeft <strong>contrast</strong>, want veel celonderdelen zijn doorzichtig."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zit er een <strong>luchtbel</strong> in je preparaat, dan bekijk je het best opnieuw: zo'n bel is rond met een scherpe donkere rand en <strong>lijkt op een cel</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Veilig werken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In een labo geldt: <strong>een bril en handschoenen dragen waar nodig</strong>, <strong>niet eten of drinken</strong>, en <strong>lange haren vastmaken bij het werken met een vlam</strong>. Op eigen initiatief stoffen mengen hoort nooit bij een proef."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een stof die je <strong>niet kan benoemen, laat je staan en je meldt het aan de leraar</strong>. Ze kan bijtend of brandbaar zijn; je ruikt er niet aan."
+    }
+   ]
+  },
+  {
+   "kop": "Gegevens weergeven en beoordelen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op de <strong>horizontale as</strong> van een grafiek komt de <strong>onafhankelijke variabele</strong>, die je zelf instelde; op de verticale as wat je gemeten hebt. Bij elke as horen de <strong>naam van de grootheid</strong>, de <strong>eenheid</strong> en een <strong>schaal met getallen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>staafdiagram past bij losse categorieën</strong> en een <strong>lijndiagram bij een grootheid die vloeiend verandert</strong>. Soorten vogels zijn categorieën, een stijgende temperatuur is vloeiend."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>uitschieter</strong> is een meetpunt dat sterk van de rest afwijkt. Dat kan een meetfout zijn of iets echt bijzonders: je laat hem staan en je zegt erbij dat hij er is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Noteer je een lengte als <strong>4</strong>, dan <strong>ontbreekt de eenheid bij het getal</strong> en betekent het niets. Een <strong>gemiddelde zegt meer dan één enkele meting</strong>, want het vlakt toevallige afwijkingen uit; vermeld er best bij hoe sterk de metingen onderling verschilden."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een wetenschappelijke uitspraak verschilt van een los vermoeden doordat <strong>ze getoetst is en weerlegd kan worden</strong>. Niet wie het zegt is beslissend. Lees je op een website dat een plant beter groeit met muziek, dan <strong>kijk je of er een proef met controlegroep achter zit</strong> en hoe die opgezet was. <strong>Wie een onderzoek financiert, kan een belang hebben bij de uitkomst</strong>, en dat hoort bij de beoordeling."
+    }
+   ]
+  },
+  {
+   "kop": "STEM",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>STEM</strong> staat voor <strong>wetenschappen, technologie, ingenieurswetenschappen en wiskunde</strong>, samen rond een echt probleem."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wil een klas een oplossing ontwerpen om een vijver gezonder te maken, dan is de goede eerste stap de <strong>huidige toestand meten, zodat je later kan vergelijken</strong>. Meten, ontwerpen, uitvoeren, opnieuw meten: dat is de cyclus."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een gat in je gegevens is zelf een resultaat. Noteer ook wat je níét gevonden hebt: zo weet de lezer wat je besluit wel en niet kan dekken."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een onderzoeksvraag moet je met een meting kunnen beantwoorden; een hypothese moet je kunnen weerleggen.",
+  "De onafhankelijke variabele verander je zelf, de afhankelijke meet je, de rest houd je constant.",
+  "Zonder controlegroep weet je niet wat er zonder behandeling gebeurd zou zijn.",
+  "Herhaal metingen en gebruik meerdere exemplaren, anders meet je toeval.",
+  "Een verband is nog geen oorzaak; verandert er meer dan één ding, dan weet je de oorzaak niet.",
+  "Totale vergroting is oculair maal objectief; begin altijd met het zwakste objectief.",
+  "Een dekglaasje houdt het preparaat vlak, een kleurstof geeft contrast, en een luchtbel lijkt op een cel.",
+  "Op de horizontale as de ingestelde grootheid, met naam, eenheid en schaal bij elke as.",
+  "Een wetenschappelijke uitspraak is getoetst en weerlegbaar; wie betaalt, hoort bij de beoordeling."
+ ]
+}
