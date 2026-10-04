@@ -1,0 +1,127 @@
+{
+ "vak": "Chemie",
+ "titel": "Anorganische stofklassen en naamgeving",
+ "onder": "De vier anorganische stofklassen, binair en ternair, de zuurresten, de IUPAC-naamgeving met de triviale namen, en de reactiepatronen.",
+ "secties": [
+  {
+   "kop": "De vier stofklassen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stofklasse</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waaraan je ze herkent</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oxide</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een element met zuurstof alleen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">CaO, CO₂</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hydroxide</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de functionele groep OH bij een metaalion</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">NaOH, Al(OH)₃</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de formule begint met waterstof</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">HCl, H₂SO₄</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zout</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een metaalion of ammonium met een zuurrest</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">NaCl, CaCO₃</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>oxide is een verbinding van een element met zuurstof</strong>. <strong>CaO en CO₂ zijn oxiden</strong>; NaOH is een hydroxide en HCl een zuur."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>functionele groep van een hydroxide is OH</strong>. In water geeft die groep het <strong>hydroxide-ion OH⁻</strong> en maakt ze de oplossing basisch. <strong>Al(OH)₃</strong> is een hydroxide, met de groep drie keer, want aluminium vormt een ion met lading 3+."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>anorganisch zuur staan de waterstofatomen vooraan</strong> in de formule, zoals in <strong>HCl en H₂SO₄</strong>. Die waterstof komt in water als H⁺ vrij. <strong>H₂O hoort niet bij de zuren</strong>, al begint de formule met waterstof: water is een oxide van waterstof en is neutraal."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>zout bestaat uit een positief en een negatief ion</strong>: meestal een metaalion of het ammoniumion, en een zuurrest."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>ammoniumion NH₄¹⁺</strong> is een positief geladen groepje dat de plaats van een metaalion inneemt. Ammoniumsulfaat wordt veel gebruikt als meststof."
+    }
+   ]
+  },
+  {
+   "kop": "Binair en ternair",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Binair betekent twee elementen, ternair drie.</strong> <strong>HCl is een binair zuur</strong>, want het bevat waterstof en chloor. <strong>H₂SO₄ is ternair</strong>: waterstof, zwavel en zuurstof. Ook HBr en H₂S zijn binair."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de zouten geldt hetzelfde. <strong>CaCO₃ is een ternair zout</strong>, want het bevat calcium, koolstof en zuurstof; NaCl is binair. <strong>Niet elk zout bevat zuurstof</strong>: alleen de ternaire zouten hebben zuurstof in de zuurrest."
+    }
+   ]
+  },
+  {
+   "kop": "De zuurresten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Ion</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoort bij</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">NO₃¹⁻</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nitraation</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">salpeterzuur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">SO₄²⁻</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sulfaation</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zwavelzuur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">PO₄³⁻</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fosfaation</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fosforzuur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">CO₃²⁻</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">carbonaation</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">koolzuur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ClO₃¹⁻</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">chloraation</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">chloorzuur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">BrO₃¹⁻</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bromaation</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">broomzuur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">IO₃¹⁻</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jodaation</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">joodzuur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">S²⁻</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sulfide-ion</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waterstofsulfide</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Cl¹⁻, Br¹⁻, I¹⁻, F¹⁻</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">chloride-, bromide-, jodide-, fluoride-ion</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de binaire zuren</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>zuurrest zonder zuurstof krijgt de uitgang -ide</strong>: het <strong>chloride-ion Cl¹⁻</strong>, het <strong>sulfide-ion S²⁻</strong>, het <strong>jodide-ion I¹⁻</strong>. Die horen bij een binair zuur. <strong>Carbonaat en fosfaat bevatten wel zuurstof.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Nitraten zijn allemaal goed oplosbaar in water</strong>, dus gebruikt men ze graag als men een bepaald ion in oplossing nodig heeft. <strong>Kalksteen is calciumcarbonaat.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "De naamgeving",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>atoomverbinding gebruikt men Griekse telwoorden</strong>: ze zeggen hoeveel atomen er van elk element zijn. <strong>CO₂ is koolstofdioxide</strong> en <strong>N₂O is distikstofoxide</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>ionverbinding gebruikt men geen Griekse telwoorden</strong> maar de <strong>stocknotatie</strong>, met een Romeins cijfer tussen haakjes. Dat cijfer <strong>geeft het oxidatiegetal van het metaal</strong>: ijzer kan +II of +III zijn, dus zegt <strong>ijzer(III)chloride</strong> hoeveel chloride-ionen erbij horen. Heeft een metaal maar één mogelijkheid, dan laat men het cijfer weg: <strong>CaO is calciumoxide</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Triviale naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Formule</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stofklasse</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">water</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">H₂O</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oxide</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zoutzuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">HCl in water</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">binair zuur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ammoniak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">NH₃</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">base in water</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">salpeterzuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">HNO₃</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ternair zuur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zwavelzuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">H₂SO₄</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ternair zuur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fosforzuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">H₃PO₄</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ternair zuur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">koolzuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">H₂CO₃</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ternair zuur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">koolzuurgas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">CO₂</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oxide</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lachgas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">N₂O</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oxide</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongebluste kalk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">CaO</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oxide</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gebluste kalk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ca(OH)₂</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hydroxide</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bijtende soda of loogoplossing</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">NaOH</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hydroxide</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">soda</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Na₂CO₃</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ternair zout</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bakpoeder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">NaHCO₃</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ternair zout</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">keukenzout</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">NaCl</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">binair zout</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Zoutzuur</strong> is een oplossing van waterstofchloride in water: het zit in ontkalkers en in je maag. <strong>Ammoniak NH₃</strong> is een gas met een scherpe geur dat in water een basische oplossing geeft, en het zit in kuisproducten."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Ongebluste kalk is CaO</strong> en <strong>gebluste kalk Ca(OH)₂</strong>: je maakt gebluste kalk door water bij ongebluste kalk te doen, en het zit in mortel en in kalkmelk voor de landbouw."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Soda is Na₂CO₃</strong>, gebruikt om te kuisen en om glas te maken. <strong>Bijtende soda is NaOH</strong>, en dat is iets anders. <strong>NaHCO₃ is bakpoeder</strong>, natriumwaterstofcarbonaat, en dus niet bijtende soda. Meng je <strong>bakpoeder met azijn</strong>, dan komt <strong>koolzuurgas CO₂</strong> vrij: het zuur maakt koolzuur, en dat valt meteen uiteen in water en koolstofdioxide."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Methaan is geen anorganische stof</strong> maar een alkaan, dus organisch. Het is het hoofdbestanddeel van aardgas."
+    }
+   ]
+  },
+  {
+   "kop": "De drie reactiepatronen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Patroon</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ontstaat er</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">metaal of niet-metaal + dizuurstof</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een metaaloxide of een niet-metaaloxide</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">metaaloxide + water</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een hydroxide (basevormend)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet-metaaloxide + water</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een zuur (zuurvormend)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zuur + hydroxide</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een zout en water</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>metaaloxide is basevormend</strong>: met water geeft het een <strong>hydroxide</strong>, zoals CaO dat Ca(OH)₂ wordt. Een <strong>niet-metaaloxide is zuurvormend</strong>: met water geeft het een <strong>zuur</strong>, zoals CO₂ dat koolzuur wordt. SO₂ in de lucht draagt zo bij aan zure regen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Reageert een <strong>zuur met een hydroxide</strong>, dan ontstaan <strong>een zout en water</strong>: het metaalion en de zuurrest vormen het zout, en de H⁺ en de OH⁻ vormen water."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Oxide is een element met zuurstof, hydroxide heeft OH, een zuur begint met waterstof, een zout heeft een metaalion en een zuurrest.",
+  "Binair is twee elementen, ternair drie; NaCl is binair, CaCO₃ ternair.",
+  "Zuurresten met zuurstof: nitraat, sulfaat, fosfaat, carbonaat. Zonder zuurstof krijgen ze -ide.",
+  "Atoomverbinding: Griekse telwoorden (koolstofdioxide). Ionverbinding: stocknotatie met een Romeins cijfer.",
+  "Ongebluste kalk CaO, gebluste kalk Ca(OH)₂, bijtende soda NaOH, soda Na₂CO₃, bakpoeder NaHCO₃.",
+  "Zoutzuur is HCl in water, salpeterzuur HNO₃, zwavelzuur H₂SO₄, lachgas N₂O.",
+  "Een metaaloxide is basevormend, een niet-metaaloxide zuurvormend.",
+  "Zuur plus hydroxide geeft een zout en water.",
+  "Water hoort bij de oxiden, niet bij de zuren; methaan is organisch."
+ ]
+}

@@ -1,0 +1,110 @@
+{
+ "vak": "Chemie",
+ "titel": "Het periodiek systeem der elementen",
+ "onder": "Groepen en perioden, de valentie-elektronen, de namen van de hoofdgroepen, het vormen van ionen en de elektronegativiteit.",
+ "secties": [
+  {
+   "kop": "Groepen en perioden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>verticale kolom</strong> in het periodiek systeem heet een <strong>groep</strong>, een <strong>horizontale rij</strong> een <strong>periode</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Elementen uit <strong>dezelfde hoofdgroep hebben hetzelfde aantal valentie-elektronen</strong>, en daarom <strong>gelijkaardige chemische eigenschappen</strong>. Bij een hoofdgroep is het <strong>groepsnummer in Romeinse cijfers gelijk aan het aantal elektronen in de buitenste schil</strong>: groep VIA heeft er zes, groep IIA twee."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>periodenummer is gelijk aan het aantal bezette schillen</strong>. Een element uit <strong>periode 4 heeft dus vier bezette schillen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>atoomnummer stijgt van links naar rechts in een periode</strong>, want de elementen staan op volgorde van hun aantal protonen. Het <strong>aantal elementen per periode is niet overal hetzelfde</strong>: de eerste heeft er twee, de tweede en de derde acht, en daarna worden de perioden langer."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Zwavel staat in groep VIA en periode 3</strong>: drie bezette schillen en zes valentie-elektronen, dus de configuratie 2, 8, 6. En omgekeerd: een element met de configuratie <strong>2, 8, 3 staat in groep IIIA, periode 3</strong>, en dat is aluminium."
+    }
+   ]
+  },
+  {
+   "kop": "De namen van de hoofdgroepen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Groep</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Valentie-elektronen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeelden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">IA</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alkalimetalen (zonder waterstof)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Li, Na, K</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">IIA</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aardalkalimetalen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Mg, Ca, Ba</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">VIIA</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">halogenen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">7</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">F, Cl, Br, I</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">VIIIA</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">edelgassen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">volle schil</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">He, Ne, Ar</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>alkalimetalen</strong> hebben <strong>één valentie-elektron</strong> en reageren daarom heftig met water. <strong>Waterstof staat bovenaan in de kolom van groep IA</strong>, helemaal linksboven, maar het is geen alkalimetaal en het staat zeker niet bij de edelgassen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>aardalkalimetalen zijn groep IIA</strong>: <strong>magnesium en calcium</strong> horen erbij, natrium (IA) en chloor (VIIA) niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Halogeen betekent zoutvormer</strong>: <strong>fluor, chloor, broom en jood</strong> vormen met een metaal een zout, zoals natriumchloride."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>edelgassen staan in de laatste groep</strong> en hun <strong>buitenste schil is volledig gevuld</strong>. Daarom <strong>vormen ze geen ionen</strong> en zijn ze <strong>geen metalen</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Ionen vormen uit de plaats in het systeem",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Groep</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Elektronen op of af</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Lading van het ion</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">IA</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één elektron af</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1+</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">IIA</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee elektronen af</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2+</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">IIIA</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie elektronen af</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3+</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">VA</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie elektronen op</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3−</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">VIA</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee elektronen op</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2−</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">VIIA</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één elektron op</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1−</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een atoom uit <strong>groep IA geeft één elektron af</strong>, want dan houdt het de configuratie van het edelgas ervoor. Een atoom uit <strong>groep IIA geeft er twee af</strong> en krijgt lading <strong>2+</strong>; <strong>aluminium uit groep IIIA geeft er drie af</strong> en wordt <strong>Al³⁺</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een atoom uit <strong>groep VIIA neemt één elektron op</strong> en krijgt lading <strong>1−</strong>. <strong>Zuurstof neemt twee elektronen op</strong>, want het staat in groep VIA met zes valentie-elektronen: <strong>dan heeft het een volle buitenste schil</strong>. De elementen van <strong>groep VIA vormen dus O²⁻ en S²⁻</strong>; een atoom uit <strong>groep VA neemt drie elektronen op</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>ion met tien elektronen en lading 1+</strong> heeft één elektron afgegeven, dus had het atoom er elf: dat is <strong>natrium, groep IA</strong>. Het ion <strong>Na¹⁺ heeft dezelfde elektronenconfiguratie als neon</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Elektronegativiteit en metaalkarakter",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>elektronegativiteit</strong> zegt <strong>hoe sterk een element elektronen naar zich toe trekt</strong> in een binding."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ze <strong>stijgt van links naar rechts in een periode</strong>, want naar rechts komen er protonen bij terwijl het aantal schillen gelijk blijft. Ze <strong>daalt als je in een groep naar onder gaat</strong>, want de buitenste schil komt verder van de kern. De <strong>hoogste waarden staan dus rechtsboven</strong>, en <strong>fluor</strong> en <strong>zuurstof</strong> staan daar."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>lage elektronegativiteit hoort bij een metaal</strong>: een metaal houdt zijn valentie-elektronen maar los vast en geeft ze liever af."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>metalen staan links en in het midden</strong>, de <strong>niet-metalen rechtsboven</strong>. Een atoom <strong>links</strong> in het systeem <strong>geeft makkelijk elektronen af</strong>, heeft een <strong>metaalkarakter</strong> en <strong>vormt een positief ion</strong>. Een <strong>niet-metaal neemt eerder elektronen op</strong>, want het heeft veel valentie-elektronen en een hoge elektronegativiteit."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een groep is een kolom, een periode een rij; het periodenummer geeft het aantal bezette schillen.",
+  "Bij een hoofdgroep geeft het groepsnummer het aantal valentie-elektronen.",
+  "IA alkalimetalen, IIA aardalkalimetalen, VIIA halogenen, VIIIA edelgassen.",
+  "Waterstof staat bij groep IA maar is geen alkalimetaal.",
+  "Groep IA geeft 1 elektron af, IIA 2, IIIA 3; VIIA neemt 1 op, VIA 2, VA 3.",
+  "Na¹⁺ heeft de configuratie van neon; edelgassen vormen zelf geen ionen.",
+  "Elektronegativiteit stijgt naar rechts en daalt naar onder; fluor heeft de hoogste.",
+  "Een lage elektronegativiteit hoort bij een metaal, dat elektronen afgeeft.",
+  "Metalen staan links en in het midden, niet-metalen rechtsboven."
+ ]
+}

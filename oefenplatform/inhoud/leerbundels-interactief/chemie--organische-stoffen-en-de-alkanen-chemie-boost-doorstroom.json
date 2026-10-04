@@ -1,0 +1,105 @@
+{
+ "vak": "Chemie",
+ "titel": "Organische stoffen en de alkanen",
+ "onder": "De tien laagste n-alkanen met hun formule, de vijf organische stofklassen, en de triviale namen en toepassingen.",
+ "secties": [
+  {
+   "kop": "De alkanen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Organische stoffen zijn verbindingen waarin koolstof de hoofdrol speelt</strong>: de koolstofketen is het geraamte. Koolstofdioxide en de carbonaten zijn de klassieke uitzonderingen, die rekent men bij de anorganische stoffen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>alkaan bestaat enkel uit koolstof en waterstof, met enkelvoudige bindingen</strong>. Ze zijn verzadigd, en daarom horen ze bij de koolwaterstoffen. Komt er zuurstof bij, dan gaat het om een andere stofklasse."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>algemene formule van de n-alkanen is CnH2n+2</strong>: elke extra koolstof brengt twee waterstofatomen mee, en aan de twee uiteinden komt er telkens één bij. Alle <strong>alkanen hebben de uitgang -aan</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Formule</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Formule</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">methaan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">CH₄</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hexaan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C₆H₁₄</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ethaan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C₂H₆</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">heptaan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C₇H₁₆</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">propaan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C₃H₈</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">octaan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C₈H₁₈</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">butaan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C₄H₁₀</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nonaan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C₉H₂₀</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pentaan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C₅H₁₂</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">decaan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C₁₀H₂₂</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Methaan is CH₄</strong>, want koolstof vormt vier bindingen. <strong>Ethaan is C₂H₆ en niet C₂H₄</strong>: C₂H₄ is etheen, met een dubbele binding. <strong>Hexaan heeft zes koolstofatomen</strong>, <strong>C₅H₁₂ is pentaan</strong>, <strong>C₇H₁₆ is heptaan</strong> en het <strong>alkaan met negen koolstofatomen heeft twintig waterstofatomen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de <strong>volledige verbranding van een alkaan ontstaan koolstofdioxide en water</strong>. Bij te weinig zuurstof ontstaat ook het giftige koolstofmonoxide."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>alkaan lost niet goed op in water</strong>: alkanen zijn apolair en water is polair, dus blijft benzine op water liggen. En <strong>hoe langer de koolstofketen, hoe hoger het kookpunt</strong>, want de londonkrachten tussen de moleculen worden groter. Daarom is methaan een gas en octaan een vloeistof."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Methaan is het hoofdbestanddeel van aardgas.</strong> <strong>Propaan en butaan zitten in gasflessen</strong> en in een aansteker: ze zijn bij lichte druk al vloeibaar, dus krijg je er veel van in een kleine fles. <strong>Propaan</strong> blijft ook bij koud weer verdampen, dus werkt een propaanfles buiten in de winter beter. Decaan en hexaan zijn bij kamertemperatuur vloeistoffen."
+    }
+   ]
+  },
+  {
+   "kop": "Alkenen en alkynen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>specifieke structuuronderdeel van een alkeen is een dubbele binding tussen twee koolstofatomen</strong>. Daardoor zijn er twee waterstofatomen minder dan bij het alkaan, en wordt de <strong>algemene formule CnH2n</strong>. De uitgang is <strong>-een</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>specifieke structuuronderdeel van een alkyn is een drievoudige binding tussen twee koolstofatomen</strong>. De <strong>uitgang is -yn</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Etheen is C₂H₄ en ethaan C₂H₆</strong>: de dubbele binding scheelt twee waterstofatomen, dus zijn het niet dezelfde formules. <strong>Etheen</strong> gebruikt men in de voedingssector <strong>om vruchten sneller te laten rijpen</strong>: het is een plantenhormoon dat rijping op gang brengt, en daarom rijpt fruit sneller naast een rijpe banaan."
+    }
+   ]
+  },
+  {
+   "kop": "Alcoholen en carbonzuren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>functionele groep van een alcohol is OH</strong>, en de uitgang van de naam is <strong>-ol</strong>. Die OH-groep hangt hier <strong>aan een koolstofatoom en niet aan een metaalion</strong>, en daarom is <strong>een alcohol geen base</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>functionele groep van een carbonzuur is COOH</strong>. Die groep <strong>kan haar waterstof als H⁺ afgeven</strong>, en net daarom reageert een carbonzuur zuur: azijn heeft een pH onder zeven."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Triviale naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">IUPAC-naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Formule</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stofklasse</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drankalcohol</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ethanol</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C₂H₅OH</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alcohol</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(giftige alcohol)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">methanol</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">CH₃OH</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alcohol</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mierenzuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">methaanzuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">HCOOH</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">carbonzuur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">azijnzuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ethaanzuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">CH₃COOH</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">carbonzuur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">brandspiritus</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ethanol met bittere stof</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alcohol</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Azijnzuur is ethaanzuur</strong>: twee koolstofatomen met een COOH-groep. Keukenazijn is een oplossing van ongeveer vijf procent ervan. <strong>Methaanzuur HCOOH</strong> is het eenvoudigste carbonzuur, met één koolstofatoom; het geeft een brandnetelprik en een mierenbeet hun scherpe karakter."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Drankalcohol is ethanol</strong>, dat bij de gisting van suikers ontstaat en ook in handgel zit. <strong>Methanol lijkt erop maar is zwaar giftig</strong>: het <strong>lichaam zet het om in giftige stoffen</strong> die het oog en het zenuwstelsel aantasten, en enkele milliliter kan al blind maken."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Brandspiritus</strong> is ethanol waaraan men een bittere stof toevoegt zodat niemand het opdrinkt. Men gebruikt het <strong>als brandstof en als oplosmiddel</strong>, en het brandt met een bijna onzichtbare vlam."
+    },
+    {
+     "soort": "weetje",
+     "html": "De vijf organische stofklassen van de fiche zijn alkanen, alkenen, alkynen, alcoholen en carbonzuren. Aan de uitgang van de naam zie je meteen welke het is: -aan, -een, -yn, -ol of -zuur."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een alkaan heeft enkel koolstof en waterstof met enkelvoudige bindingen; de formule is CnH2n+2.",
+  "Methaan CH₄, ethaan C₂H₆, propaan C₃H₈, butaan C₄H₁₀, pentaan C₅H₁₂, hexaan C₆H₁₄, heptaan C₇H₁₆, octaan C₈H₁₈, nonaan C₉H₂₀, decaan C₁₀H₂₂.",
+  "Een alkeen heeft een dubbele binding (CnH2n), een alkyn een drievoudige; uitgang -een en -yn.",
+  "Een alcohol heeft een OH-groep aan koolstof en is geen base; een carbonzuur heeft COOH en geeft H⁺ af.",
+  "Verbranding van een alkaan geeft CO₂ en water; bij te weinig zuurstof ook koolstofmonoxide.",
+  "Alkanen zijn apolair en lossen niet op in water; langere keten betekent hoger kookpunt.",
+  "Methaan zit in aardgas, propaan en butaan in gasflessen, etheen laat vruchten rijpen.",
+  "Drankalcohol is ethanol, azijnzuur is ethaanzuur, methaanzuur zit in een mierenbeet.",
+  "Methanol lijkt op ethanol maar is zwaar giftig; brandspiritus is ethanol met een bittere stof."
+ ]
+}

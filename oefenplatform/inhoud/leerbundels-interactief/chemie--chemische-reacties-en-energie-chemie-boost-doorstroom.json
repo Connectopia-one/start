@@ -1,0 +1,135 @@
+{
+ "vak": "Chemie",
+ "titel": "Chemische reacties en energie",
+ "onder": "De wet van behoud van massa, een vergelijking kloppend maken, en exo- en endo-energetische reacties met hun energiediagram.",
+ "secties": [
+  {
+   "kop": "De wet van behoud van massa",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>wet van behoud van massa</strong> zegt dat de <strong>totale massa tijdens een reactie gelijk blijft</strong>. Bij een reactie <strong>worden atomen anders geschikt, maar niet gemaakt of vernietigd</strong>: er verdwijnen geen atomen en er ontstaan geen nieuwe elementen. Het <strong>aantal atomen van elk element blijft gelijk</strong>, en er <strong>ontstaan nieuwe stoffen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>reactievergelijking</strong> staan de stoffen van een reactie met hun coëfficiënten. De stoffen <strong>links van de pijl</strong> zijn de <strong>reagentia</strong>, de stoffen <strong>rechts van de pijl</strong> de <strong>reactieproducten</strong>. Men schrijft een <strong>pijl en geen gelijkheidsteken</strong> omdat de pijl <strong>de richting van de omzetting aangeeft</strong>; het aantal atomen is wel links en rechts gelijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "Rekenen met de wet: <strong>tien gram ijzer met vier gram zwavel geeft veertien gram ijzersulfide</strong>, en <strong>vijftien gram koper met vier gram zuurstofgas geeft negentien gram koperoxide</strong>. Je telt dus gewoon de beginmassa's op."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>kaars die opbrandt</strong> laat de kandelaar lichter achter, en dat is <strong>geen uitzondering</strong>: de <strong>gassen zijn weggegaan in de lucht</strong>, namelijk koolstofdioxide en waterdamp. <strong>In een gesloten vat blijft de massa tijdens een verbranding gelijk</strong>, want de gassen kunnen er niet uit. Als er een gas ontstaat, <strong>verdwijnt er dus geen massa</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat er echt een reactie gebeurd is en niet enkel een vermenging, merk je doordat <strong>er een neerslag ontstaat</strong> of <strong>er een gas vrijkomt</strong>: dat zijn nieuwe stoffen. Zand dat een vloeistof troebel maakt, blijft gewoon zand."
+    }
+   ]
+  },
+  {
+   "kop": "Een vergelijking kloppend maken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Je mag <strong>enkel de coëfficiënten aanpassen</strong>, nooit een <strong>index</strong>: een index aanpassen maakt er een andere stof van, want H₂O₂ is waterstofperoxide en niet meer water. Je mag ook geen stof bijschrijven die er niet in staat. En de <strong>coëfficiënt 1 schrijf je niet op</strong>: staat er niets voor een formule, dan is ze toch 1."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vergelijking</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Coëfficiënten</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">H₂ + O₂ → H₂O</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2, 1 en 2</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Fe + O₂ → Fe₂O₃</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4, 3 en 2</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">CH₄ + O₂ → CO₂ + H₂O</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1, 2, 1 en 2</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C₂H₆ + O₂ → CO₂ + H₂O</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2, 7, 4 en 6</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>2 H₂ + O₂ → 2 H₂O</strong>: links vier waterstof- en twee zuurstofatomen, rechts precies hetzelfde. Hoort er rechts <strong>2 H₂O</strong>, dan is de <strong>coëfficiënt voor O₂ gelijk aan 1</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>4 Fe + 3 O₂ → 2 Fe₂O₃</strong>: rechts staan vier ijzeratomen en zes zuurstofatomen, dus links 4 Fe en 3 O₂."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>CH₄ + 2 O₂ → CO₂ + 2 H₂O</strong>: één CH₄ geeft één CO₂ en twee H₂O, dus rechts vier zuurstofatomen en links twee O₂."
+    }
+   ]
+  },
+  {
+   "kop": "Exo- en endo-energetische reacties",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>exo-energetische reactie komt energie vrij</strong>. Exo betekent naar buiten: de reactieproducten hebben minder inwendige energie dan de reagentia, en het verschil gaat naar de omgeving."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>endo-energetische reactie wordt energie opgenomen</strong> uit de omgeving. De stoffen hebben energie nodig en halen die uit hun omgeving."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Exo</strong>: het <strong>verbranden van aardgas</strong>, een <strong>handwarmer die warm wordt</strong>, en <strong>elke verbranding</strong>. <strong>Endo</strong>: een <strong>koudepakje dat koud wordt</strong>, het <strong>ontleden van water met elektriciteit</strong>, en de <strong>fotosynthese</strong>, waarvoor de plant lichtenergie nodig heeft."
+    },
+    {
+     "soort": "tekst",
+     "html": "Stijgt de temperatuur van een oplossing <strong>van 20 naar 34 graden</strong> tijdens een reactie, dan komt er energie vrij: de reactie is <strong>exo-energetisch</strong>. Voelt de beker <strong>koud</strong> aan, dan haalt de reactie warmte uit de beker en uit je hand: dan is ze <strong>endo-energetisch</strong>, niet exo."
+    }
+   ]
+  },
+  {
+   "kop": "Het energiediagram",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op de <strong>verticale as</strong> van een energiediagram staat de <strong>inwendige energie</strong> van de stoffen, horizontaal het verloop van de reactie."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>exo-energetische reactie liggen de reactieproducten lager dan de reagentia</strong>. Bij een <strong>endo-energetische reactie liggen ze hoger</strong>. <strong>Aan het energiediagram kan je dus zien of een reactie energie opneemt of afstaat.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>reactie-energie</strong> is het <strong>verschil in energie tussen de reagentia en de reactieproducten</strong>, dus de hoeveelheid die opgenomen of afgestaan wordt. Je leest ze af als het hoogteverschil in het diagram."
+    }
+   ]
+  },
+  {
+   "kop": "Energievormen en omzettingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Chemische energie</strong> zit <strong>opgeslagen in de bindingen van een stof</strong>. De andere vormen die de fiche noemt, zijn <strong>thermische energie</strong> (warmte), <strong>lichtenergie</strong> en <strong>elektrische energie</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat gebeurt er</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Omzetting</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kaars brandt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">chemisch naar thermisch en licht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">water ontleden met een batterij</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elektrisch naar chemisch</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een batterij doet een lampje branden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">chemisch naar elektrisch</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een plant doet fotosynthese</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">licht naar chemisch</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij het <strong>branden van een kaars</strong> komen <strong>thermische energie en lichtenergie</strong> vrij; elektriciteit komt er niet aan te pas. Een <strong>gloeiende houtskool</strong> geeft naast licht vooral <strong>warmte</strong> af."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Water ontleden met een batterij</strong> in waterstofgas en zuurstofgas is <strong>elektrische energie die chemische energie wordt</strong>: de batterij levert de energie om de bindingen te verbreken. In een <strong>batterij die een lampje doet branden</strong> gaat het net de andere kant op."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de <strong>fotosynthese</strong> zet een plant <strong>lichtenergie om in chemische energie</strong>: ze vangt met haar bladgroen het licht op en gebruikt die energie om glucose te vormen."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een energiediagram zegt niets over de snelheid van een reactie. Het hoogteverschil zegt enkel hoeveel energie er in totaal vrijkomt of nodig is. Ijzer dat roest is ook exo-energetisch, maar het duurt jaren."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Wet van behoud van massa: atomen worden anders geschikt, niet gemaakt of vernietigd.",
+  "Reagentia staan links van de pijl, reactieproducten rechts.",
+  "Bij het kloppend maken pas je enkel coëfficiënten aan, nooit een index.",
+  "Een kaars lijkt massa te verliezen omdat de gassen wegwaaien; in een gesloten vat blijft de massa gelijk.",
+  "Exo geeft energie af en de producten liggen lager; endo neemt energie op en ze liggen hoger.",
+  "Op de verticale as van een energiediagram staat de inwendige energie.",
+  "De reactie-energie is het hoogteverschil tussen reagentia en producten.",
+  "Verbranden is exo; een koudepakje, water ontleden en fotosynthese zijn endo.",
+  "Chemische energie zit in de bindingen; een batterij maakt er elektrische energie van."
+ ]
+}

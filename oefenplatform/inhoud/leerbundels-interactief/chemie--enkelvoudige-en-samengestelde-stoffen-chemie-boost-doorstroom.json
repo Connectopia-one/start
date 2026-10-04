@@ -1,0 +1,151 @@
+{
+ "vak": "Chemie",
+ "titel": "Enkelvoudige en samengestelde stoffen",
+ "onder": "De namen en symbolen van de elementen, een formule lezen, en de eigenschappen van metalen, niet-metalen en edelgassen.",
+ "secties": [
+  {
+   "kop": "Namen en symbolen van de elementen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>eerste letterteken van een elementsymbool is een hoofdletter</strong>, en een eventuele tweede letter is klein: Mg, Cl, Na."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Symbool</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Symbool</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naam</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">H</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waterstof</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Na</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">natrium</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">He</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">helium</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Mg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">magnesium</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Li</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lithium</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Al</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aluminium</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Be</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beryllium</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Si</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">silicium</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">B</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">boor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">P</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fosfor</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">koolstof</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">S</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zwavel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">N</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stikstof</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Cl</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">chloor</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">O</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zuurstof</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">argon</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">F</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fluor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">K</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kalium</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ne</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">neon</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ca</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">calcium</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Symbool</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Symbool</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naam</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Cr</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">chroom</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zilver</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Mn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mangaan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Cd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cadmium</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Fe</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ijzer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Sn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tin</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Co</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kobalt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Sb</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">antimoon</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ni</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nikkel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jood</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Cu</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">koper</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Xe</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">xenon</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Zn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zink</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ba</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">barium</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ge</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">germanium</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Pt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">platina</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">As</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">arseen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Au</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">goud</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Br</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">broom</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Hg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kwik</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Kr</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">krypton</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Pb</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lood</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Rn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">radon</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">U</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uranium</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Pu</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">plutonium</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Let op de symbolen die van een Latijnse naam komen: <strong>Fe is ijzer</strong> (ferrum), <strong>Na is natrium</strong>, <strong>K is kalium</strong>, <strong>Ag is zilver</strong> (argentum) en Au is goud (aurum). Verwar ze niet met fosfor (P), fluor (F), stikstof (N), calcium (Ca) of chloor (Cl)."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee valkuilen: <strong>koolstof is C en niet Co</strong>, want Co is kobalt. En <strong>magnesium is Mg en niet Mn</strong>, want Mn is mangaan."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Cu (koper)</strong> en <strong>Zn (zink)</strong> zijn metalen; <strong>S (zwavel)</strong> is een niet-metaal en <strong>Ne (neon)</strong> een edelgas."
+    }
+   ]
+  },
+  {
+   "kop": "Een formule lezen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>coëfficiënt</strong> staat <strong>vooraan</strong> en zegt <strong>hoeveel deeltjes van die stof er zijn</strong>. In 3 H₂SO₄ is <strong>3 de coëfficiënt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>index</strong> staat <strong>rechts onderaan bij een symbool</strong> en zegt <strong>hoeveel atomen van dat element in één deeltje zitten</strong>. De <strong>4 achter de O in H₂SO₄</strong> betekent dus dat er <strong>vier zuurstofatomen in de molecule</strong> zitten."
+    },
+    {
+     "soort": "tekst",
+     "html": "In <strong>één molecule H₂SO₄</strong> zitten <strong>zeven atomen</strong>: twee waterstof, één zwavel en vier zuurstof."
+    },
+    {
+     "soort": "tekst",
+     "html": "In <strong>2 Ca(NO₃)₂</strong> komen <strong>drie verschillende atoomsoorten</strong> voor: calcium, stikstof en zuurstof. De coëfficiënt en de indexen veranderen het aantal soorten niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>coëfficiënt geldt voor het hele deeltje</strong>. <strong>2 H₂O zijn twee watermoleculen</strong>, dus vier waterstof- en twee zuurstofatomen; het betekent niet dat er twee zuurstofatomen in één molecule zitten. In <strong>3 H₂O</strong> zitten dus <strong>zes waterstofatomen</strong> in totaal."
+    }
+   ]
+  },
+  {
+   "kop": "Enkelvoudig of samengesteld",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>enkelvoudige stof bevat maar één element</strong>: O₂ bestaat enkel uit zuurstof, Fe enkel uit ijzer. Een <strong>samengestelde stof bestaat uit meerdere verschillende elementen</strong>, zoals H₂O of NaCl."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>O₃ is een enkelvoudige stof</strong>, ook al staan er drie atomen in: <strong>alle atomen horen bij hetzelfde element</strong>. Enkelvoudig of samengesteld hangt dus af van het aantal verschillende elementen, niet van het aantal atomen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>synthese ontstaat uit meerdere stoffen één nieuwe stof</strong>. Bij een <strong>analyse valt een stof uiteen in haar bestanddelen</strong>. Het zijn dus geen twee namen voor hetzelfde."
+    },
+    {
+     "soort": "tekst",
+     "html": "De schrijfwijze <strong>NaCl voor keukenzout heet een formule-eenheid</strong>: bij een ionverbinding bestaan er geen losse moleculen, dus geeft de formule enkel de kleinste verhouding. Bij een molecule spreekt men van een <strong>brutoformule</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Metalen, niet-metalen en edelgassen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Metalen</strong>: ze <strong>geleiden elektriciteit en warmte goed</strong>, ze zijn <strong>vervormbaar</strong> en ze hebben <strong>glans</strong>. <strong>Op kwik na zijn ze bij kamertemperatuur vast</strong>; kwik is vloeibaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Vervormbaarheid</strong> is de eigenschap van een metaal om <strong>zich te laten pletten en buigen zonder te breken</strong>. Dat kan doordat de elektronen vrij bewegen, zodat de atomen langs elkaar schuiven zonder dat de binding breekt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Niet-metalen geleiden elektriciteit over het algemeen slecht</strong>, want hun elektronen zitten vast in bindingen. Grafiet is de bekende uitzondering."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Edelgassen zijn inert</strong>: ze gaan bijna geen reacties aan, want hun buitenste schil is volledig gevuld. <strong>He en Ar</strong> zijn edelgassen; <strong>N₂ en Cl₂ zijn niet-metalen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De fiche vraagt twee kleuren: <strong>chloorgas is geelgroen</strong>, met een scherpe geur, en <strong>zuiver koper is roodbruin</strong> en glanzend, terwijl de meeste andere metalen zilvergrijs zijn."
+    }
+   ]
+  },
+  {
+   "kop": "Triviale namen en toepassingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Triviale naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Formule</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Toepassing</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zuurstofgas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">O₂</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ademlucht, zuurstofmasker, verbranding</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ozon</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">O₃</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beschermt hoog in de atmosfeer tegen uv-straling</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waterstofgas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">H₂</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">brandstof: bij verbranding ontstaat enkel water</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stikstofgas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">N₂</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bijna vier vijfde van de lucht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">chloorgas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Cl₂</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">desinfecteren van water</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">grafiet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">potloodstift, elektrode (geleidt)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">diamant</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">boor- en zaagwerktuigen (hardste natuurlijke stof)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">helium</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">He</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ballonnen: licht en niet brandbaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">neon</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ne</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lichtreclame: oranjerood licht</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Zuurstofgas bestaat uit moleculen van twee zuurstofatomen</strong> (O₂). <strong>Ozon</strong> heeft er <strong>drie per molecule</strong> (O₃). <strong>Ozon en zuurstofgas zijn niet dezelfde stof</strong>, ook al bestaan ze uit hetzelfde element: ozon ruikt scherp en is giftig om in te ademen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De triviale naam van N₂ is stikstofgas</strong>; de IUPAC-naam is distikstof. <strong>Waterstofgas</strong> bestaat uit moleculen van twee waterstofatomen, dus <strong>H₂</strong>, met als IUPAC-naam diwaterstof."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Waterstofgas als brandstof</strong>: bij de verbranding met zuurstof <strong>ontstaat enkel water</strong>, dus geen koolstofdioxide. Het gas is wel heel brandbaar en vraagt dus voorzichtigheid."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Helium in een weerballon</strong> wordt gebruikt omdat het <strong>licht is en niet reageert</strong>: als edelgas is het inert en dus niet brandbaar. <strong>Neon</strong> gebruikt men vooral voor <strong>lichtreclame</strong>, want het geeft in een buis onder spanning een oranjerood licht."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Grafiet en diamant bestaan allebei uit koolstof</strong>, maar de <strong>atomen liggen anders geschikt</strong>. In <strong>diamant</strong> zit elk koolstofatoom aan vier andere vast in een stevig ruimtelijk rooster: daarom is het de hardste natuurlijke stof en gebruikt men het in <strong>boor- en zaagwerktuigen</strong>. In <strong>grafiet</strong> liggen de atomen in <strong>lagen die over elkaar schuiven</strong>, en net daarom laat een <strong>potloodstift</strong> een streep na op papier."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Grafiet geleidt elektriciteit en diamant niet</strong>: in grafiet hoort elk koolstofatoom maar aan drie andere vast, dus <strong>kunnen de overblijvende elektronen zich vrij bewegen</strong>. In diamant zit elk elektron vast in een binding."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een elementsymbool begint met een hoofdletter; Fe is ijzer, Na natrium, K kalium, Ag zilver.",
+  "Koolstof is C (Co is kobalt) en magnesium is Mg (Mn is mangaan).",
+  "De coëfficiënt staat vooraan en geldt voor het hele deeltje; de index staat rechts onderaan bij één symbool.",
+  "Enkelvoudig betekent één element, ook bij O₃; samengesteld betekent meerdere elementen.",
+  "Synthese bouwt op, analyse valt uiteen.",
+  "Metalen: glans, geleiding, vervormbaar, vast behalve kwik. Niet-metalen geleiden slecht, behalve grafiet.",
+  "Edelgassen zijn inert; chloorgas is geelgroen en koper roodbruin.",
+  "Helium voor ballonnen, neon voor lichtreclame, waterstof als brandstof met water als product.",
+  "Diamant: ruimtelijk rooster, hard, isolator. Grafiet: lagen, zacht, geleidt."
+ ]
+}

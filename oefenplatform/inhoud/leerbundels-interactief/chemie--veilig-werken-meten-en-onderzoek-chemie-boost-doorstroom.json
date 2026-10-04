@@ -1,0 +1,171 @@
+{
+ "vak": "Chemie",
+ "titel": "Veilig werken, meten en onderzoek",
+ "onder": "De veiligheidspictogrammen en de P- en H-zinnen, het glaswerk en de meetinstrumenten, de eenheden en beduidende cijfers, en de onderzoeksmethode.",
+ "secties": [
+  {
+   "kop": "De veiligheidspictogrammen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Pictogram</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bijtend of corrosief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">veroorzaakt brandwonden en tast materialen aan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ontvlambaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vat vlam bij een vonk of vlam</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oxiderend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kan brand en ontploffing veroorzaken of verergeren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">explosief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kan ontploffen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gassen onder druk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de fles zelf is gevaarlijk bij warmte of stoten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">giftig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">werkt onmiddellijk schadelijk of dodelijk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">irriterend, schadelijk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">prikt op de huid, de ogen of de luchtwegen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">langetermijngevaar voor de gezondheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kanker, erfelijke schade, orgaanschade</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gevaarlijk voor het aquatische milieu</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schadelijk voor het water en wat erin leeft</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het pictogram met de <strong>twee druppels die een hand en een plaat aantasten</strong>, betekent <strong>bijtend of corrosief</strong>: de stof veroorzaakt brandwonden. Zwavelzuur en bijtende soda horen daarbij."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het pictogram voor <strong>oxiderend</strong> staat op een fles die <strong>brand kan veroorzaken of verergeren</strong>: de stof geeft zuurstof af en voedt zo een brand. Zo'n fles houd je weg van brandbare stoffen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De pictogrammen die <strong>vooral voor schade aan je gezondheid</strong> waarschuwen, zijn <strong>giftig</strong> (dat werkt meteen) en het <strong>langetermijngevaar</strong>, dat wijst op kanker, erfelijke schade of orgaanschade. Gassen onder druk gaat over de fles zelf, en het laatste pictogram over het milieu."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>H-zinnen benoemen het gevaar</strong> van de stof; H staat voor hazard. De <strong>P-zinnen</strong> zeggen welke <strong>voorzorgen</strong> je neemt."
+    }
+   ]
+  },
+  {
+   "kop": "Veilig en duurzaam werken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>In een labo eet en drink je niet</strong>, want er kunnen sporen van stoffen op je handen of op het glaswerk zitten. Een <strong>stof die je niet kan benoemen, ruik of smaak je nooit</strong>: sommige dampen zijn al bij één keer inademen schadelijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "Morst je een product, dan <strong>kuis je dat onmiddellijk op volgens de voorschriften</strong>: het kan iemand verwonden of met een andere stof reageren."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij veilig en duurzaam werken horen: <strong>zuinig omgaan met chemische stoffen</strong>, een <strong>meetinstrument uitzetten als je niet meet</strong>, <strong>het meetbereik en de nauwkeurigheid respecteren</strong>, <strong>onderhoudsvoorschriften en handleidingen juist interpreteren</strong> en <strong>glaswerk voorzichtig behandelen en glasscherven veilig opruimen</strong>. <strong>Elektrische toestellen met natte handen bedienen</strong> en <strong>glasscherven met de hand bij elkaar vegen</strong> horen daar net niet bij."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je <strong>houdt je altijd aan het meetbereik</strong> van een instrument: buiten dat bereik is de meting niet geldig en kan het toestel beschadigen, dus belast je een balans van 200 g niet met een kilo."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>bunsenbrander laat je niet onbewaakt branden</strong>: een open vlam kan altijd iets doen ontvlammen. En <strong>chemisch afval giet je niet in de gootsteen</strong>, want het kan het water vervuilen of in de leiding reageren."
+    }
+   ]
+  },
+  {
+   "kop": "Glaswerk en meetinstrumenten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Materiaal</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarvoor</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">volpipet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één bepaald volume heel nauwkeurig afmeten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maatkolf</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een oplossing tot een nauwkeurig volume aanvullen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maatcilinder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een volume afmeten, redelijk nauwkeurig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maatbeker</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een ruwe aanduiding van het volume</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">erlenmeyer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zwenken zonder te morsen, bij een titratie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">scheitrechter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee vloeistoflagen scheiden, met een kraantje</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mortier en stamper</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vaste stof fijnmaken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">liebigkoeler</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">damp weer laten condenseren bij destilleren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">balans</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de massa van een staal bepalen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pH-meter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de pH nauwkeurig meten</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Om <strong>precies 25,0 mL</strong> af te meten gebruik je een <strong>volpipet</strong>: die is voor één volume gemaakt en dus heel nauwkeurig, terwijl een maatbeker maar een ruwe aanduiding geeft. Een <strong>maatkolf</strong> heeft één streepje op de nek, dus vul je een oplossing daarmee aan tot een <strong>nauwkeurig volume</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je <strong>kiest een instrument waarvan het meetbereik net boven je volume ligt</strong>: voor ongeveer 40 mL dus een <strong>maatcilinder van 50 mL</strong> en niet een van 500 mL, want een te grote cilinder leest veel grover af."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je <strong>leest het volume in een maatcilinder af op ooghoogte, onderaan de holle vloeistofspiegel</strong>. Die holle spiegel heet de meniscus, en op ooghoogte maak je geen kijkfout."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>erlenmeyer</strong> is het kegelvormige glas met een nauwe hals: door die hals blijft de vloeistof binnen als je ze ronddraait. Een <strong>scheitrechter</strong> is het trechtervormige glas met een kraantje. Met een <strong>mortier en stamper</strong> maak je een vaste stof fijn, zodat ze sneller oplost."
+    }
+   ]
+  },
+  {
+   "kop": "Grootheden, eenheden en nauwkeurigheid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>grootheid noteer je altijd samen met haar eenheid</strong>, want zonder eenheid betekent een getal niets."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Grootheid</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">SI-eenheid</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Ook gebruikt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">volume V</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kubieke meter m³</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">liter L</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">massa m</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kilogram kg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gram g</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">temperatuur θ</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">graden Celsius °C</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">absolute temperatuur T</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kelvin K</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">massadichtheid ρ</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kg/m³</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">g/L</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stofhoeveelheid n</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mol</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">molaire massa M</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">g/mol</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">molaire concentratie c</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mol/L of M</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">massaconcentratie c</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">g/L</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorvoegsel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Symbool</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarde</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mega</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">M</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10⁶</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kilo</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">k</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10³</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hecto</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">h</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10²</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">deca</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">da</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10¹</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">deci</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">d</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10⁻¹</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">centi</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">c</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10⁻²</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">milli</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">m</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10⁻³</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">micro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">μ</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10⁻⁶</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nano</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">n</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10⁻⁹</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Milli en nano staan voor een waarde kleiner dan één</strong> (een duizendste en een miljardste); <strong>kilo is duizend</strong> en mega een miljoen keer de eenheid. <strong>Een centimeter is een honderdste van een meter.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Omrekenen: <strong>2,5 mg is 0,0025 g</strong> en <strong>0,75 L is 750 mL</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>meting met een instrument is niet exact</strong>: elk instrument heeft een beperkte nauwkeurigheid. Daarom noteer je het juiste aantal <strong>beduidende cijfers</strong>. In <strong>0,00340 zijn er drie</strong>: de nullen vooraan tellen niet mee, de nul achteraan wel."
+    },
+    {
+     "soort": "tekst",
+     "html": "In de <strong>wetenschappelijke notatie</strong> staat er één cijfer verschillend van nul voor de komma: <strong>0,00450 wordt 4,50.10⁻³</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Verbanden tussen grootheden: <strong>recht evenredig</strong>, <strong>omgekeerd evenredig</strong>, <strong>lineair</strong> of <strong>kwadratisch</strong>. Verdubbelt het volume van een oplossing en wordt de concentratie gehalveerd, dan is dat <strong>omgekeerd evenredig</strong>: het product van de twee blijft constant, en dat product is hier het aantal mol."
+    }
+   ]
+  },
+  {
+   "kop": "De onderzoeksmethode",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De stappen: <strong>de probleemstelling definiëren en afbakenen</strong>, <strong>een onderzoeksvraag opstellen en een hypothese formuleren</strong>, <strong>een onderzoeksplan opstellen</strong>, <strong>data waarnemen en verzamelen</strong>, <strong>de data analyseren</strong>, <strong>conclusies trekken</strong> en ten slotte <strong>over je methode en resultaten reflecteren en communiceren</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>hypothese</strong> is een <strong>beredeneerde verwachting die je met een proef wil toetsen</strong>: geen gok, maar iets dat je op wat je al weet baseert. Een <strong>weerlegde hypothese betekent niet dat je onderzoek mislukt is</strong>: blijkt ze niet te kloppen, dan heb je iets geleerd."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wat <strong>niet</strong> bij onderzoek hoort: <strong>de meetwaarden aanpassen aan de hypothese</strong> of <strong>de conclusie vooraf vastleggen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Criterium</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Dit wil zeggen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">open</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het is een open vraag</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">enkelvoudig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ze gaat over één onderwerp of probleem</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">objectief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ze laat geen overtuiging of mening doorschemeren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">haalbaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het onderzoek is uitvoerbaar met genoeg tijd en middelen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onderzoekbaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het is geen opzoekvraag en niet direct oplosbaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">relevant</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het antwoord draagt bij aan de bestaande kennis</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Enkelvoudig</strong> betekent dat de vraag <strong>over één onderwerp gaat</strong>: onderzoek je twee dingen tegelijk, dan weet je achteraf niet waaraan het resultaat ligt. <strong>Objectief</strong> betekent dat ze <strong>geen overtuiging of mening laat doorschemeren</strong>; een vraag als waarom is dit middel het beste, legt het antwoord al vast."
+    },
+    {
+     "soort": "tekst",
+     "html": "De vraag <strong>wanneer werd zuurstof ontdekt, is een opzoekvraag en geen onderzoeksvraag</strong>: het antwoord ligt al in een boek, terwijl je een onderzoeksvraag met een proef of met eigen metingen moet kunnen beantwoorden."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op de <strong>horizontale as van een grafiek</strong> zet je de grootheid die je <strong>zelf instelt</strong>, de onafhankelijke variabele. De grootheid die je meet, komt op de verticale as. Bij elke as horen de naam, de eenheid en een schaal."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>STEM</strong> staat voor <strong>wetenschappen, technologie, ingenieurswetenschappen en wiskunde</strong>; de <strong>M staat dus voor wiskunde</strong>. Je zet die vier samen in om een maatschappelijk probleem op te lossen: je <strong>definieert het probleem</strong>, geeft <strong>criteria</strong> waaraan de oplossing moet voldoen, splitst het in <strong>deelproblemen</strong>, bedenkt oplossingen en <strong>evalueert en stuurt bij</strong>."
+    },
+    {
+     "soort": "weetje",
+     "html": "De criteria voor een onderzoeksvraag krijg je op het examen mee. De fiche zegt ook dat één doel over handelingen gesimuleerd wordt: je legt de handeling uit in plaats van ze uit te voeren."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "H-zinnen benoemen het gevaar, P-zinnen de voorzorgen.",
+  "Bijtend geeft brandwonden, oxiderend voedt een brand, giftig werkt meteen, het langetermijnpictogram wijst op kanker en orgaanschade.",
+  "In een labo eet en drink je niet en een onbekende stof ruik je nooit.",
+  "Volpipet en maatkolf zijn nauwkeurig, een maatbeker geeft een ruwe aanduiding.",
+  "Lees een volume af op ooghoogte, onderaan de meniscus, met een instrument dat net groot genoeg is.",
+  "SI: kubieke meter voor volume, kilogram voor massa, kelvin voor absolute temperatuur.",
+  "Kilo is 10³ en mega 10⁶; milli 10⁻³, micro 10⁻⁶ en nano 10⁻⁹.",
+  "In 0,00340 zijn er drie beduidende cijfers; 0,00450 wordt 4,50.10⁻³.",
+  "Een onderzoeksvraag is open, enkelvoudig, objectief, haalbaar, onderzoekbaar en relevant."
+ ]
+}

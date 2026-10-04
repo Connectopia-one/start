@@ -1,0 +1,114 @@
+{
+ "vak": "Chemie",
+ "titel": "De bouw van atomen en ionen",
+ "onder": "De elementaire deeltjes, het atoomnummer en het massagetal, ionen, de relatieve en absolute massa en de elektronenconfiguratie volgens Bohr.",
+ "secties": [
+  {
+   "kop": "De elementaire deeltjes",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Deeltje</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Eenheidslading</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Massa</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">proton</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in de kern</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">+1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 1 u</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">neutron</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in de kern</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 1 u</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elektron</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rond de kern</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">−1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verwaarloosbaar</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "In de <strong>atoomkern zitten de protonen en de neutronen</strong>, samen de <strong>nucleonen</strong>. De <strong>elektronen bewegen eromheen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>proton is positief</strong>, een <strong>elektron negatief</strong> en een <strong>neutron heeft geen lading</strong>. Het <strong>neutron zit in de kern</strong>, draait dus niet rond de kern, en het weegt ongeveer hetzelfde als een proton, dus veel meer dan een elektron."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>massa van een elektron is niet gelijk aan die van een proton</strong>: een elektron is bijna tweeduizend keer lichter. Daarom zit <strong>vrijwel de hele massa van een atoom in de kern</strong>. En <strong>het grootste deel van een atoom is lege ruimte</strong>, want de kern is heel klein tegenover het hele atoom."
+    }
+   ]
+  },
+  {
+   "kop": "Atoomnummer, massagetal en ionen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>atoomnummer Z is het aantal protonen in de kern</strong>. Het <strong>bepaalt om welk element het gaat</strong>: verander je het aantal protonen, dan heb je een ander element."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>massagetal A is het aantal protonen en neutronen samen</strong>, dus het aantal nucleonen. De elektronen tellen niet mee, want hun massa is verwaarloosbaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Aantal neutronen = massagetal − atoomnummer.</strong> Bij atoomnummer 17 en massagetal 35 zijn dat <strong>achttien neutronen</strong>; bij atoomnummer 26 en massagetal 56 zijn het <strong>dertig neutronen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>neutraal atoom is het aantal elektronen gelijk aan het aantal protonen</strong>, dus gelijk aan het <strong>atoomnummer</strong>. Het aantal neutronen staat daar los van, en het massagetal geeft niet het aantal elektronen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>ion is een atoom dat elektronen heeft opgenomen of afgegeven</strong>. <strong>Alleen elektronen bewegen</strong>: een positief ion ontstaat niet doordat een atoom protonen afgeeft, maar doordat het <strong>elektronen afgeeft</strong>, zodat er meer protonen overblijven."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Deeltje</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Protonen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Elektronen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Besluit</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elf protonen, tien elektronen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">11</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een positief ion (Na¹⁺)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Cl¹⁻ (Z = 17)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">17</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">18</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één elektron meer dan protonen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Mg²⁺ (Z = 12)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">12</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee elektronen minder</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">O²⁻ (Z = 8)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">8</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het aantal protonen blijft 8</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Relatieve en absolute massa",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>relatieve atoommassa</strong> is de <strong>massa van het atoom vergeleken met de eenheid u</strong>. Ze is een verhouding en <strong>heeft dus geen eenheid</strong>; ze wordt niet in gram uitgedrukt. Je leest ze af in het periodiek systeem, volgens de fiche <strong>afgerond op 0,1</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>atoommassa-eenheid u is 1,66.10⁻²⁷ kg</strong>. Dat getal staat in de bijlage die je op het examen mag gebruiken; het is ongeveer de massa van één nucleon."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>absolute massa</strong> bereken je door de relatieve massa <strong>met u te vermenigvuldigen</strong>, niet erdoor te delen. Voor koolstof met Ar = 12,0: <strong>12,0 × 1,66.10⁻²⁷ kg = 1,99.10⁻²⁶ kg</strong>. Voor helium met Ar = 4,0: <strong>4,0 × 1,66.10⁻²⁷ kg = 6,64.10⁻²⁷ kg</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De elektronenconfiguratie volgens Bohr",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>elektronenconfiguratie volgens Bohr</strong> beschrijft <strong>hoe de elektronen over de schillen verdeeld zijn</strong>. In het <strong>schillenmodel</strong> van Bohr liggen de elektronen in <strong>schillen met elk een eigen energieniveau</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>eerste schil bevat maximaal twee elektronen</strong>, de <strong>tweede acht</strong> en bij de eerste achttien elementen ook de <strong>derde tot acht</strong>. Je <strong>vult de schillen van binnen naar buiten</strong>. De elektronen zitten niet mee in de kern."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Element</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Z</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Configuratie</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zuurstof</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">8</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2, 6</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">natrium</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">11</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2, 8, 1</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">chloor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">17</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2, 8, 7</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">neon</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2, 8</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">argon</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">18</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2, 8, 8</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>edelgasconfiguratie</strong> is een <strong>volledig gevulde buitenste schil</strong>. Die toestand is bijzonder stabiel, dus nemen atomen elektronen op of geven ze af om ze te bereiken. <strong>Helium en argon</strong> hebben een volle buitenste schil; natrium heeft er één te veel en chloor één te weinig."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een natriumatoom geeft liever één elektron af dan er zeven op te nemen</strong>, want <strong>met één minder heeft het al een volle buitenste schil</strong>: van 2, 8, 1 blijft 2, 8 over, de configuratie van neon."
+    },
+    {
+     "soort": "tekst",
+     "html": "In het <strong>elektron-stipmodel</strong> tekent men <strong>stippen rond het symbool voor de buitenste elektronen</strong>. Zo zie je meteen hoeveel valentie-elektronen een atoom heeft. Het <strong>aantal elektronen in de buitenste schil bepaalt mee de eigenschappen</strong> van een element: net die elektronen doen mee aan de bindingen."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Protonen en neutronen zitten in de kern en heten nucleonen; elektronen bewegen eromheen.",
+  "Proton +1, elektron −1, neutron 0; een elektron is bijna tweeduizend keer lichter dan een proton.",
+  "Atoomnummer Z is het aantal protonen; massagetal A is protonen plus neutronen.",
+  "Aantal neutronen is A min Z; in een neutraal atoom is het aantal elektronen gelijk aan Z.",
+  "Een ion ontstaat door elektronen op te nemen of af te geven; protonen bewegen nooit.",
+  "De relatieve atoommassa heeft geen eenheid; de absolute massa is Ar maal u, met u = 1,66.10⁻²⁷ kg.",
+  "Schillen vullen van binnen naar buiten: eerste twee, tweede acht, derde acht.",
+  "Natrium is 2, 8, 1 en chloor 2, 8, 7; een volle buitenste schil is de edelgasconfiguratie.",
+  "In het stipmodel staan de valentie-elektronen als stippen rond het symbool."
+ ]
+}

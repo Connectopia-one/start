@@ -1,0 +1,155 @@
+{
+ "vak": "Chemie",
+ "titel": "Mengsels, zuivere stoffen en scheidingstechnieken",
+ "onder": "Zuivere stoffen en mengsels, de soorten mengsels, de stofeigenschappen en de negen scheidingstechnieken.",
+ "secties": [
+  {
+   "kop": "Zuivere stof of mengsel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>zuivere stof bestaat uit één soort deeltje</strong>, dus uit één soort <strong>molecule</strong> of formule-eenheid. Een <strong>mengsel</strong> bevat <strong>minstens twee bestanddelen</strong> die je er in principe weer uit kan halen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>molecule</strong> is een <strong>deeltje dat uit meerdere atomen bestaat</strong>, zoals H₂O of O₂."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>homogeen mengsel</strong> zie je de bestanddelen niet meer afzonderlijk, ook niet met een microscoop. Bij een <strong>heterogeen mengsel</strong> zie je ze nog wel, zoals zand in water of olie op azijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>oplossing</strong> van keukenzout in water is homogeen, en <strong>brons, een legering van koper en tin</strong>, ook: een <strong>legering is homogeen</strong>, want je ziet de metalen niet meer apart. Zand in water en een slaatje met olie en azijn zijn heterogeen."
+    }
+   ]
+  },
+  {
+   "kop": "De soorten mengsels",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort mengsel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat zit waarin</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aerosol</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vloeistof of vaste stof in een gas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rook (vast), nevel (vloeibaar)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oplossing</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opgeloste stof in een oplosmiddel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">keukenzout in water</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schuim</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gas in een vloeistof of vaste stof</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">slagroom, badschuim</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">suspensie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vaste deeltjes zwevend in een vloeistof</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vruchtensap met pulp</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">emulsie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vloeistof in een vloeistof</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mayonaise, melk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">legering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">metaal in een metaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">brons, messing</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Rook bestaat uit vaste deeltjes die in een gas zweven</strong>: dat is een <strong>aerosol</strong>. <strong>Nevel</strong> is de vloeibare soort: <strong>vloeibare druppeltjes die zweven in een gas</strong>, zoals mist in de lucht."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Mayonaise bestaat uit olie en water die fijn verdeeld door elkaar zitten</strong>: dat is een <strong>emulsie</strong>, een mengsel van twee vloeistoffen die normaal niet mengen. <strong>Melk is geen heldere oplossing</strong> maar ook een emulsie: er zweven vetbolletjes in het water, en daarom is ze wit en troebel."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>schuim</strong> zit een gas verdeeld in een vloeistof of in een vaste stof. <strong>Slagroom is lucht in room.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>suspensie</strong> zweven vaste deeltjes in een vloeistof zonder op te lossen; ze <strong>zakken na een tijd naar de bodem</strong>. Een glas vruchtensap met pulp is er een voorbeeld van."
+    }
+   ]
+  },
+  {
+   "kop": "Aggregatietoestand en stofeigenschappen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De drie <strong>aggregatietoestanden</strong> zijn <strong>vast, vloeibaar en gas</strong>. De aggregatietoestand zegt hoe de deeltjes ten opzichte van elkaar liggen en bewegen: bij vast liggen ze vast, bij gas bewegen ze vrij door de ruimte."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>stofeigenschap hangt niet af van hoeveel je ervan hebt</strong>. Het <strong>kookpunt</strong>, het <strong>smeltpunt</strong>, de <strong>massadichtheid</strong>, de <strong>deeltjesgrootte</strong>, de <strong>geleidbaarheid</strong>, de <strong>oplosbaarheid</strong> en het <strong>aanhechtings- of adsorptievermogen</strong> zijn stofeigenschappen. De <strong>massa en het volume van het staal zijn dat niet</strong>: die veranderen met de hoeveelheid en zeggen dus niets over welke stof het is."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>massadichtheid</strong> is de <strong>massa per volume</strong>, bijvoorbeeld in kg/m³ of in g/L. Daarom zinkt een stof met een grotere massadichtheid in water."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>oplosbaarheid</strong> zegt <strong>hoeveel van een stof in een bepaald volume oplosmiddel oplost</strong>, bij een bepaalde temperatuur."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>smeltpunt</strong> is de <strong>temperatuur waarbij een zuivere vaste stof vloeibaar wordt</strong>. Voor elke zuivere stof is dat een vast getal, dus kan je er twee witte poeders mee onderscheiden terwijl de kleur niet helpt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>adsorptievermogen</strong> is de eigenschap die <strong>actieve kool gebruikt om kleurstoffen uit water te halen</strong>: de deeltjes hechten zich vast aan het enorme oppervlak van de kool."
+    }
+   ]
+  },
+  {
+   "kop": "Kookpunt en kooktraject",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>zuivere stof heeft een vast kookpunt en een vast smeltpunt</strong>. Een <strong>mengsel heeft een kooktraject</strong> en een <strong>smelttraject</strong>, dus een <strong>temperatuurgebied</strong> in plaats van één punt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat komt doordat de <strong>samenstelling verandert terwijl het kookt</strong>: het bestanddeel met het laagste kookpunt gaat er eerst uit, en daardoor stijgt de temperatuur verder."
+    }
+   ]
+  },
+  {
+   "kop": "De negen scheidingstechnieken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Techniek</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Werkt op een verschil in</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zeven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">deeltjesgrootte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">grind uit zand</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">filtreren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">deeltjesgrootte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zand uit water</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">decanteren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">massadichtheid, niet mengen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">olie en water</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">indampen of kristalliseren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kookpunt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zout uit pekel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">centrifugeren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">massadichtheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bloedcellen uit plasma</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">destilleren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kookpunt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zuiver water uit zeewater</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">extraheren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oplosbaarheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">cafeïne uit koffiebonen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">chromatografie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aanhechtingsvermogen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kleurstoffen in een stift</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">adsorptie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">adsorptievermogen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kleur- en geurstoffen aan actieve kool</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Zand uit water</strong> haal je met <strong>filtreren</strong>: de zandkorrels zijn groter dan de poriën van het filter. Je kan het ook <strong>decanteren</strong>, want het zand zakt naar de bodem en dan giet je het water eraf. <strong>Zeven en filtreren werken allebei op een verschil in deeltjesgrootte</strong>, niet op een verschil in kookpunt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij het filtreren heet de <strong>vloeistof die door het filter gaat het filtraat</strong>, en wat <strong>op het filter achterblijft het residu</strong>. Het is dus niet omgekeerd."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een oplossing van zout in water kan je niet filtreren</strong> om het zout eruit te halen: opgeloste ionen zijn veel kleiner dan de poriën. Je moet het water laten verdampen, met <strong>indampen</strong> of <strong>kristalliseren</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Zuiver water uit zeewater</strong> haal je met <strong>destilleren</strong>, dus met een <strong>destillatie</strong>: water en zout hebben een heel verschillend kookpunt. Bij destilleren <strong>koelt de damp in een liebigkoeler weer af tot vloeistof</strong> en vang je die op als <strong>destillaat</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Olie en water in twee lagen</strong> scheid je met <strong>decanteren</strong>, in een <strong>scheitrechter</strong>, die twee <strong>vloeistoflagen</strong> van elkaar laat lopen: die heeft onderaan een kraantje, dus kan je de onderste laag eruit laten lopen en op tijd stoppen. Dat werkt omdat de twee <strong>een verschillende massadichtheid hebben en niet mengen</strong>; olie heeft de kleinste massadichtheid en gaat bovenaan liggen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Centrifugeren</strong> gebruikt een <strong>draaiende beweging om zware deeltjes sneller te laten zakken</strong>: de deeltjes met de grootste massadichtheid gaan naar buiten."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De kleurstoffen in een stift</strong> scheid je met <strong>chromatografie</strong>: een oplosmiddel loopt over papier mee, en elke kleurstof hecht anders aan het papier en komt dus op een andere hoogte terecht."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Cafeïne uit koffiebonen</strong> haal je met <strong>extraheren</strong>: je kiest een oplosmiddel waarin enkel de gewenste stof goed oplost."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee vloeistoffen die <strong>wel mengen maar een verschillend kookpunt hebben</strong>, scheid je met <strong>destilleren</strong>; decanteren werkt daar niet."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een waterzuiveringsstation gebruikt na het filteren ook adsorptie aan actieve kool. De kleur- en geurstoffen lossen niet op en gaan door geen enkel filter, maar ze blijven wel aan de kool hangen."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een zuivere stof heeft één soort deeltje; een mengsel heeft minstens twee bestanddelen.",
+  "Homogeen betekent dat je de bestanddelen niet meer apart ziet; een legering en een oplossing zijn homogeen.",
+  "Aerosol is in een gas, emulsie is vloeistof in vloeistof, schuim is gas in vloeistof, suspensie zakt naar de bodem.",
+  "Een stofeigenschap hangt niet af van de hoeveelheid; massa en volume van het staal dus niet.",
+  "Een zuivere stof heeft een kookpunt, een mengsel een kooktraject.",
+  "Zeven en filtreren werken op deeltjesgrootte, destilleren op kookpunt, extraheren op oplosbaarheid.",
+  "Filtraat gaat door het filter, residu blijft erop liggen.",
+  "Opgelost zout haal je niet uit water met een filter maar met indampen of kristalliseren.",
+  "Decanteren doe je met een scheitrechter, bij vloeistoffen die niet mengen."
+ ]
+}

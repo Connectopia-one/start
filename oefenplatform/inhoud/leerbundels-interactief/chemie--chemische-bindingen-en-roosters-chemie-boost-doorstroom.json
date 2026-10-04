@@ -1,0 +1,139 @@
+{
+ "vak": "Chemie",
+ "titel": "Chemische bindingen en roosters",
+ "onder": "De drie bindingstypes, de Lewisstructuur met haar elektronenparen, de vier roostertypes en de eigenschappen die eruit volgen.",
+ "secties": [
+  {
+   "kop": "Het bindingstype bepalen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>bindingstype kan je voorspellen uit het metaal- en niet-metaalkarakter van de elementen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Combinatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Bindingstype</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat gebeurt er</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">metaal + niet-metaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ionbinding</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elektronen gaan over, er ontstaan ionen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet-metaal + niet-metaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">atoombinding (covalent)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de atomen delen elektronenparen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">metaal + metaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">metaalbinding</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de valentie-elektronen bewegen vrij</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>ionbinding worden elektronen overgedragen</strong> en <strong>ontstaan er geladen deeltjes</strong>: het metaal geeft af, het niet-metaal neemt op, en de ionen trekken elkaar aan. Er wordt dus niets gedeeld, en de binding komt niet tussen metalen onderling voor. <strong>NaCl en MgO</strong> bevatten een ionbinding; <strong>CO₂ en Cl₂</strong> niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>atoombinding delen twee atomen een of meer elektronenparen</strong>. Zo komen ze beide aan een volle buitenste schil zonder elektronen af te geven. Een ander woord ervoor is <strong>covalente binding</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>metaalbinding</strong> ontstaat <strong>tussen metaalatomen</strong>: de <strong>valentie-elektronen bewegen vrij tussen de ionen</strong> en vormen een wolk die de positieve ionen bij elkaar houdt. Metaal met niet-metaal geeft dus geen metaalbinding."
+    }
+   ]
+  },
+  {
+   "kop": "De Lewisstructuur",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In een Lewisstructuur <strong>tekent men enkel de valentie-elektronen</strong>, niet de elektronen uit de binnenste schillen, want enkel die doen mee aan de bindingen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>bindend elektronenpaar</strong> is een <strong>paar dat door twee atomen gedeeld wordt</strong>; het vormt de binding zelf en wordt vaak als een streepje getekend. Een <strong>vrij elektronenpaar</strong> is een <strong>paar dat niet aan een binding deelneemt</strong> en bij één atoom alleen blijft."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stof</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Binding</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Gedeelde paren</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">H₂</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">enkelvoudig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">O₂</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dubbel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">N₂</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drievoudig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>dubbele binding bestaat uit twee gedeelde elektronenparen</strong>, dus vier elektronen, niet twee. In <strong>O₂ zitten twee bindende elektronenparen</strong>: zuurstof heeft zes valentie-elektronen en heeft er twee nodig. Tussen de twee stikstofatomen in <strong>N₂ zit een drievoudige binding</strong>, en die is heel sterk."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>koolstofatoom vormt gewoonlijk vier atoombindingen</strong>, want het heeft vier valentie-elektronen en heeft er vier nodig. Een <strong>waterstofatoom vormt er één</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>zuurstofatoom in een watermolecule heeft twee vrije elektronenparen</strong>: van de zes valentie-elektronen gaan er twee in de bindingen met waterstof, en de vier andere vormen twee vrije paren."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een ionverbinding geeft men de <strong>formule-eenheid</strong>, de <strong>kleinste verhouding van de ionen</strong>, want er bestaan geen losse moleculen. Magnesium met chloor geeft <strong>MgCl₂</strong>: magnesium geeft twee elektronen af en chloor neemt er één op, dus zijn er twee chloride-ionen nodig."
+    }
+   ]
+  },
+  {
+   "kop": "De vier roostertypes",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Roostertype</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Smeltpunt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Geleidt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ionrooster</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">NaCl, MgO</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hoog</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opgelost of gesmolten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">atoomrooster</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">diamant</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">heel hoog</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee (grafiet wel)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">molecuulrooster</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vast CO₂</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">laag</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">metaalrooster</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ijzer, koper</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meestal hoog</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ja, ook als vaste stof</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Natriumchloride en magnesiumoxide hebben een ionrooster</strong>: positieve en negatieve ionen liggen afwisselend in een regelmatig patroon. <strong>Diamant heeft een atoomrooster</strong>, waarin alle koolstofatomen met atoombindingen aan elkaar zitten. <strong>Ijzer heeft een metaalrooster</strong> en <strong>vast koolstofdioxide een molecuulrooster</strong>, waarin de moleculen CO₂ blijven bestaan."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>ionrooster heeft een hoog smeltpunt</strong> omdat de <strong>aantrekking tussen de ionen sterk is</strong>. Een <strong>atoomrooster heeft een heel hoog smeltpunt</strong>, want je moet de atoombindingen van het hele rooster verbreken."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>molecuulrooster heeft vaak een laag smeltpunt</strong> omdat de <strong>krachten tussen de moleculen zwak zijn</strong>, al zitten de moleculen zelf stevig aan elkaar. Daarom gaat droogijs snel over in gas."
+    }
+   ]
+  },
+  {
+   "kop": "Geleiden, breken en glanzen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>metaal geleidt elektriciteit omdat de elektronen vrij kunnen bewegen</strong>. Die vrije elektronen geven het metaal ook zijn <strong>glans</strong>, want ze kaatsen het licht terug. <strong>Een molecuulrooster geleidt niet</strong>, want daar zitten de elektronen vast in de bindingen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>zout geleidt als het opgelost is in water of gesmolten</strong> is, want dan kunnen de ionen bewegen. Een <strong>vast zout is een isolator</strong>: de ionen zitten vast in het rooster."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>zoutkristal is breekbaar</strong>: schuift een laag ionen een plaatsje op, dan <strong>komen gelijke ladingen naast elkaar</strong>, en die afstoting splijt het kristal. Een <strong>metaal is wel vervormbaar</strong>, want de <strong>elektronenwolk houdt de ionen samen bij verschuiving</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Grafiet is zacht en diamant hard</strong>, al bestaan beide uit koolstof: in <strong>grafiet liggen de atomen in lagen die over elkaar schuiven</strong>. Binnen een laag zijn de bindingen sterk, maar tussen de lagen zijn de krachten zwak."
+    }
+   ]
+  },
+  {
+   "kop": "Het oxidatiegetal",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>oxidatiegetal</strong> zegt welke lading een atoom zou hebben als je alle bindingen als ionbindingen zou rekenen. Je noteert het met een Romeins cijfer en een teken."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>enkelvoudige stof is het oxidatiegetal van het element nul</strong>, want er is geen ander element dat de elektronen naar zich toe trekt. Dat geldt dus ook voor O₂ en voor Fe."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Zuurstof is in de meeste verbindingen −II</strong>; in peroxiden is het −I, dus kijk altijd naar de formule. <strong>Waterstof in HCl is +I</strong>, want chloor is het meest elektronegatieve van de twee en krijgt de elektronen toegewezen."
+    },
+    {
+     "soort": "weetje",
+     "html": "De tabel met oxidatiegetallen in bijlage 2 mag je op het examen gebruiken. Veel metalen hebben er meerdere: ijzer is +II of +III, koper +I of +II. Daarom staat er in een naam zoals ijzer(III)chloride een Romeins cijfer."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Metaal met niet-metaal geeft een ionbinding, twee niet-metalen een atoombinding, twee metalen een metaalbinding.",
+  "Bij een ionbinding gaan elektronen over; bij een atoombinding worden paren gedeeld.",
+  "In een metaalbinding bewegen de valentie-elektronen vrij tussen de positieve ionen.",
+  "Een bindend paar wordt gedeeld, een vrij paar niet; dubbel is twee paren, drievoudig drie.",
+  "Koolstof vormt vier bindingen, waterstof één; zuurstof in water heeft twee vrije paren.",
+  "Vier roosters: ion, atoom, molecuul en metaal, met elk hun eigen smeltpunt en geleiding.",
+  "Een zout geleidt opgelost of gesmolten, nooit als vaste stof.",
+  "Een zoutkristal breekt omdat gelijke ladingen naast elkaar komen; een metaal vervormt wel.",
+  "In een enkelvoudige stof is het oxidatiegetal nul; zuurstof is meestal −II."
+ ]
+}

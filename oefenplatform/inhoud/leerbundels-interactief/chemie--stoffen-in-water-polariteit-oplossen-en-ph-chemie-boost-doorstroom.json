@@ -1,0 +1,139 @@
+{
+ "vak": "Chemie",
+ "titel": "Stoffen in water: polariteit, oplossen en pH",
+ "onder": "Polaire en apolaire stoffen, de vier intermoleculaire krachten, elektrolyten met dissociatie en ionisatie, en de pH met haar indicatoren.",
+ "secties": [
+  {
+   "kop": "Polair of apolair",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een binding is <strong>polair als het verschil in elektronegativiteit minstens 0,4 is</strong>. Onder die waarde geldt ze als <strong>apolair</strong>. Dat is een afspraak van de fiche, dus een <strong>verschil van 0,2 is apolair</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een groot verschil trekt het ene atoom de elektronen duidelijk naar zich toe, en krijgt de binding een <strong>plus- en een minkant</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>watermolecule is polair</strong> omdat ze <strong>gebogen is en zuurstof harder trekt</strong>: door de hoek vallen de twee effecten niet weg, dus blijft er een minkant en een pluskant over."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>molecule met polaire bindingen kan als geheel toch apolair zijn</strong>, als ze symmetrisch is. <strong>CCl₄ is apolair</strong>, want de polaire bindingen vallen tegen elkaar weg, en <strong>CO₂ is apolair</strong> omdat de molecule recht en symmetrisch is. <strong>Alkanen zoals hexaan</strong> zijn de klassieke apolaire stoffen, samen met de enkelvoudige stoffen."
+    }
+   ]
+  },
+  {
+   "kop": "De vier intermoleculaire krachten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kracht</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Werkt tussen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Sterkte</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waterstofbrug</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">H aan O, N of F en een naburige molecule</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de sterkste van de vier</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ion-dipoolkracht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een ion en een polaire molecule</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sterk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dipoolkracht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee polaire moleculen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">matig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">londonkracht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle moleculen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zwak</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>waterstofbrug ontstaat als waterstof aan zuurstof, stikstof of fluor hangt</strong>, en is de <strong>sterkste intermoleculaire kracht</strong>. Daarom <strong>kookt water pas bij honderd graden</strong>, veel hoger dan je bij zo'n kleine molecule zou verwachten: om te koken moet je die bruggen verbreken. Een waterstofbrug is wel <strong>veel zwakker dan een atoombinding</strong>, want die zit bínnen een molecule."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Londonkrachten werken tussen alle moleculen, ook tussen polaire</strong>: ze ontstaan uit tijdelijke, toevallige verschuivingen van de elektronen. Bij een <strong>apolaire stof zijn ze de enige kracht</strong>; bij polaire stoffen komen de dipoolkrachten erbovenop."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>dipoolkracht</strong> richt de pluskant van de ene molecule zich naar de minkant van de andere."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>ion-dipoolkracht houdt een opgelost ion vast aan de watermoleculen eromheen</strong>: de minkant van het water richt zich naar een positief ion en de pluskant naar een negatief ion. Dat omhullen heet <strong>hydratatie</strong>, en daardoor valt het rooster van het zout uiteen."
+    }
+   ]
+  },
+  {
+   "kop": "Oplosbaarheid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De vuistregel is <strong>gelijk lost op in gelijk</strong>: polaire stoffen lossen op in polaire oplosmiddelen en apolaire in apolaire."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Olie lost niet op in water omdat olie apolair en water polair is.</strong> De watermoleculen houden elkaar sterk vast met waterstofbruggen en laten de apolaire oliemoleculen er niet tussen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Keukenzout</strong> bestaat uit ionen en <strong>suiker</strong> heeft veel OH-groepen, dus lossen ze <strong>allebei goed op in water</strong>. <strong>Olijfolie en paraffine</strong> zijn apolair en lossen niet op."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>apolair oplosmiddel is geschikt om vet te verwijderen</strong>, want vet is zelf apolair. Daarom werkt vlekkenwater op een vetvlek en water niet."
+    }
+   ]
+  },
+  {
+   "kop": "Elektrolyten: dissociëren en ioniseren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>elektrolyt geeft in water vrij bewegende ionen</strong> en <strong>geleidt daardoor elektriciteit in oplossing</strong>. Zouten, zuren en hydroxiden zijn alle drie elektrolyten. Een <strong>niet-elektrolyt vormt geen ionen en geleidt dus niet</strong>: <strong>suiker en ethanol</strong> lossen wel op, maar blijven neutrale moleculen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>dissociatievergelijking</strong> en de <strong>ionisatievergelijking</strong> schrijven op wat er met een stof in water gebeurt. Bij <strong>dissociëren komen de ionen uit het rooster los in het water</strong>. Die ionen bestonden al, het water trekt ze alleen los van elkaar. Bij <strong>ioniseren ontstaan de ionen pas in het water</strong>: een polaire molecule zoals HCl heeft er nog geen. Dat is dus het verschil."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stof</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat gebeurt er</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vergelijking</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">NaCl</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dissocieert</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">NaCl → Na¹⁺ + Cl¹⁻</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">CaCl₂</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dissocieert</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">CaCl₂ → Ca²⁺ + 2 Cl¹⁻</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">NaOH</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dissocieert</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">NaOH → Na¹⁺ + OH¹⁻</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">HCl</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ioniseert</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">HCl → H¹⁺ + Cl¹⁻</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>CaCl₂</strong> zijn er <strong>twee chloride-ionen</strong> nodig, want calcium geeft een ion met lading 2+ en elk chloride-ion heeft lading 1−. Bij <strong>HCl</strong> breekt de polaire binding en laat het waterstofatoom zijn elektron bij chloor achter."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>NaCl en HCl geleiden opgelost in water</strong>; <strong>suiker</strong> lost op zonder ionen te vormen en <strong>hexaan</strong> lost niet op. Een <strong>vast zout is een isolator</strong>: de ionen zitten vast in het rooster. Opgelost of gesmolten geleidt hetzelfde zout wel, en dan is het een <strong>geleider</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De pH en de indicatoren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Zuiver water heeft een pH van 7</strong> en is neutraal: de concentratie H⁺ en OH⁻ zijn er gelijk. <strong>Onder zeven is een oplossing zuur</strong>, <strong>boven zeven basisch</strong>. Een oplossing met <strong>pH 3 is dus zuur</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Hoe lager de pH, hoe meer H⁺ in de oplossing.</strong> Een hoge pH betekent dus weinig H⁺ en veel OH⁻. Het <strong>waterstofion H⁺, ook een proton genoemd, maakt een oplossing zuur</strong>, en een <strong>hydroxide geeft in water OH⁻-ionen</strong> die ze basisch maken."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Indicator</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Zuur midden</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Neutraal</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Basisch midden</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fenolftaleïne</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kleurloos</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kleurloos</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">paars</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lakmoes</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rood</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">blauw</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Lakmoes wordt rood in een zuur en blauw in een base.</strong> <strong>Fenolftaleïne blijft kleurloos in een zuur en in een neutraal midden, en wordt paars zodra de oplossing basisch is.</strong> Die kleuren staan in de bijlage die je op het examen mag gebruiken."
+    },
+    {
+     "soort": "tekst",
+     "html": "Is een oplossing <strong>kleurloos met fenolftaleïne en rood met lakmoes</strong>, dan is ze <strong>zuur</strong>: rood lakmoes wijst op een zuur, en fenolftaleïne is in een zuur én in een neutraal midden kleurloos, dus beslist lakmoes hier."
+    },
+    {
+     "soort": "tekst",
+     "html": "Met een <strong>pH-meter</strong> meet je de pH nauwkeurig: een indicator geeft een gebied aan, een pH-meter een getal met decimalen."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een binding is polair vanaf een verschil in elektronegativiteit van 0,4; eronder apolair.",
+  "Water is polair omdat de molecule gebogen is; CO₂ en CCl₄ zijn symmetrisch en dus apolair.",
+  "Waterstofbrug is het sterkst, dan ion-dipool, dan dipool, dan londonkracht.",
+  "Gelijk lost op in gelijk; olie is apolair en lost niet op in water.",
+  "Hydratatie is het omhullen van een ion door watermoleculen, met ion-dipoolkrachten.",
+  "Een elektrolyt geeft ionen en geleidt; suiker en ethanol zijn niet-elektrolyten.",
+  "Een zout dissocieert (de ionen bestonden al), een polaire molecule zoals HCl ioniseert.",
+  "pH 7 is neutraal, eronder zuur, erboven basisch; hoe lager de pH, hoe meer H⁺.",
+  "Lakmoes: rood in zuur, blauw in base. Fenolftaleïne: kleurloos in zuur en neutraal, paars in base."
+ ]
+}

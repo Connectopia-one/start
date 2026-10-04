@@ -1,0 +1,144 @@
+{
+ "vak": "Chemie",
+ "titel": "Neerslag-, gas-, neutralisatie- en redoxreacties",
+ "onder": "De drie ionenuitwisselingsreacties met de oplosbaarheidstabel, de essentiële reactievergelijking, en de redoxreacties met hun oxidatiegetallen.",
+ "secties": [
+  {
+   "kop": "De oplosbaarheidstabel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verbindingen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Goed oplosbaar</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Slecht oplosbaar</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met Na¹⁺ of K¹⁺</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ammonium, nitraten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">chloriden, bromiden, jodiden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle behalve</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ag¹⁺ (en Hg, Pb)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sulfaten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle behalve</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ba²⁺ (en Pb, Ca matig)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sulfiden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Na, K, NH₄, Mg, Ba, Ca</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle andere</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fosfaten en carbonaten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Na, K, NH₄</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle andere</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hydroxiden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">groep IA, beperkter groep IIA</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alle andere groepen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Alle verbindingen met natrium zijn goed oplosbaar</strong>, en met kalium ook: de tabel zegt daar zonder meer alle. <strong>Alle nitraten zijn goed oplosbaar</strong>, ook zonder uitzondering. Daarom gebruikt men die stoffen graag om een reactie mee op te zetten."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bariumsulfaat is niet goed oplosbaar in water.</strong> Sulfaten zijn goed oplosbaar behalve die van barium, en juist daarom kan men bariumsulfaat veilig als contrastmiddel laten drinken."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Carbonaten van natrium, kalium en ammonium zijn goed oplosbaar, de andere niet.</strong> Daarom slaat calciumcarbonaat neer als kalksteen of ketelsteen."
+    }
+   ]
+  },
+  {
+   "kop": "De neerslagreactie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>neerslagreactie ontstaat een slecht oplosbare vaste stof</strong>: twee ionen uit de twee oplossingen vormen samen een stof die slecht oplost, en die zakt naar de bodem."
+    },
+    {
+     "soort": "tekst",
+     "html": "Giet je <strong>zilvernitraat bij een oplossing van keukenzout</strong>, dan <strong>ontstaat een witte neerslag</strong> van zilverchloride, want <strong>het zilverion en het chloride-ion reageren</strong>. Er komt geen gas vrij en de oplossing wordt niet basisch."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Ba²⁺ met SO₄²⁻</strong> en <strong>Ag¹⁺ met Cl¹⁻</strong> geven een neerslag. <strong>Na¹⁺ met NO₃¹⁻</strong> en <strong>K¹⁺ met Cl¹⁻</strong> niet, want die lossen allemaal goed op."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>essentiële reactievergelijking</strong> bevat <strong>enkel de ionen die echt reageren</strong>: <strong>Ag¹⁺ + Cl¹⁻ → AgCl</strong>. Natrium en nitraat blijven gewoon opgelost. Die ionen die niets doen, heten <strong>tribune-ionen</strong>, en in de <strong>stoffenreactievergelijking</strong> staan ze er wel bij: AgNO₃ + NaCl → AgCl + NaNO₃."
+    }
+   ]
+  },
+  {
+   "kop": "De gasontwikkelingsreactie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Combinatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Gas dat vrijkomt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">carbonaat of waterstofcarbonaat + zuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">koolstofdioxide CO₂</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sulfide + zuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waterstofsulfide H₂S</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ammoniumzout + sterke base</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ammoniak NH₃</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Giet je <strong>azijn op bakpoeder</strong>, dan schuimt er <strong>koolstofdioxide</strong> op: het zuur maakt uit het waterstofcarbonaat koolzuur, en dat valt onmiddellijk uiteen in water en koolstofdioxide. Hetzelfde gebeurt met <strong>zoutzuur op kalksteen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>zuur bij een sulfide</strong> geeft <strong>waterstofsulfide</strong>, dat naar rotte eieren ruikt en giftig is; daarom doet men zo'n proef onder een trekkast. Een <strong>sterke base bij een ammoniumzout</strong> geeft <strong>ammoniak</strong>: de base haalt een H⁺ van het ammoniumion weg."
+    }
+   ]
+  },
+  {
+   "kop": "De neutralisatiereactie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>neutralisatiereactie ontstaan een zout en water</strong>: de H⁺ van het zuur en de OH⁻ van de base vormen water, en het metaalion en de zuurrest blijven als zout over. <strong>Er ontstaat dus geen gas.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>essentiële reactievergelijking is H¹⁺ + OH¹⁻ → H₂O</strong>. Enkel die twee ionen reageren echt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Zoutzuur met natriumhydroxide geeft natriumchloride</strong> en water. <strong>Zwavelzuur met kaliumhydroxide geeft kaliumsulfaat</strong> en water, met twee kaliumionen per sulfaation."
+    }
+   ]
+  },
+  {
+   "kop": "Oxidatie, reductie, oxidator en reductor",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>oxidatie geeft een deeltje elektronen af</strong> en <strong>stijgt zijn oxidatiegetal</strong>. Bij een <strong>reductie neemt het elektronen op en daalt het oxidatiegetal</strong>. <strong>Oxidatie en reductie gebeuren altijd samen</strong>, want de elektronen die de ene stof afgeeft, moet de andere opnemen. <strong>Protonen blijven altijd in de kern.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>oxidator neemt elektronen op</strong> en wordt daarbij zelf gereduceerd. Een <strong>reductor geeft elektronen af</strong>, <strong>wordt zelf geoxideerd</strong> en zijn oxidatiegetal stijgt."
+    },
+    {
+     "soort": "tekst",
+     "html": "In <strong>2 Mg + O₂ → 2 MgO</strong> wordt <strong>magnesium geoxideerd van 0 naar +II</strong>: het geeft per atoom twee elektronen af en is dus de reductor. Het <strong>zuurstofgas is de oxidator</strong> en gaat van 0 naar −II."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>enkelvoudige stof is het oxidatiegetal van elk atoom nul</strong>, dus ook in O₂ en in Fe."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Het verbranden van propaan en het roesten van ijzer zijn redoxreacties</strong>, want er gaan elektronen over. Een <strong>neutralisatie en een neerslagreactie zijn dat niet</strong>: daar wisselen de ionen enkel van partner en blijven hun ladingen gelijk. Een <strong>neerslagreactie is dus geen elektronenoverdracht</strong> maar ionenuitwisseling."
+    }
+   ]
+  },
+  {
+   "kop": "De reactiepatronen van de redoxreacties",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Patroon</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Product</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">metaal + dizuurstof</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ijzer dat roest</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Fe₂O₃, een metaaloxide</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet-metaal + dizuurstof</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zwavel die brandt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">SO₂, een niet-metaaloxide</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">metaal + niet-metaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ijzer met zwavel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">FeS, een zout</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alkaan, alkeen, alkyn of alcohol + O₂</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verbranding</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">CO₂ en water</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een metaal met dizuurstof geeft een metaaloxide.</strong> Roest is zo een metaaloxide: ijzer gaat naar oxidatiegetal +III, dus <strong>Fe₂O₃</strong>, en roest bladdert af en beschermt het metaal eronder dus niet. <strong>Zwavel met zuurstof</strong> geeft <strong>SO₂</strong>, zwaveldioxide, een niet-metaaloxide dat met water in de lucht zure regen geeft."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de <strong>volledige verbranding van ethanol ontstaan koolstofdioxide en water</strong>: ook een alcohol bevat enkel koolstof, waterstof en zuurstof."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>slechte verbranding ontstaat koolstofmonoxide omdat er te weinig zuurstof is</strong>: elk koolstofatoom krijgt dan maar één zuurstofatoom mee. Koolstofmonoxide is kleurloos, geurloos en dodelijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "Kloppend maken: <strong>2 C₂H₆ + 7 O₂ → 4 CO₂ + 6 H₂O</strong>. En om <strong>één molecule CH₄</strong> volledig te verbranden heb je <strong>twee moleculen O₂</strong> nodig."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Alles met natrium, kalium, ammonium of nitraat lost goed op; bariumsulfaat en zilverchloride niet.",
+  "Carbonaten en fosfaten lossen enkel op met natrium, kalium of ammonium.",
+  "Een neerslagreactie geeft een vaste stof; de essentiële vergelijking laat de tribune-ionen weg.",
+  "Carbonaat met zuur geeft CO₂, sulfide met zuur H₂S, ammoniumzout met base NH₃.",
+  "Een neutralisatie geeft een zout en water: H⁺ + OH⁻ → H₂O.",
+  "Oxidatie is elektronen afgeven en het oxidatiegetal stijgt; reductie is het omgekeerde.",
+  "Een oxidator neemt elektronen op, een reductor geeft ze af en wordt zelf geoxideerd.",
+  "Verbranden en roesten zijn redox; een neutralisatie en een neerslagreactie zijn ionenuitwisseling.",
+  "Metaal met O₂ geeft een metaaloxide, niet-metaal met O₂ een zuurvormend oxide."
+ ]
+}
