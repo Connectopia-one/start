@@ -84,5 +84,15 @@
    ]
   }
  ],
- "onthoud": []
+ "onthoud": [
+  "Een groep: intern, associatief, een neutraal element, en voor elk element een invers element.",
+  "Niet elke groep is commutatief: de vermenigvuldiging van matrices bijvoorbeeld niet.",
+  "Eén tegenvoorbeeld bij één eigenschap volstaat om te besluiten dat het geen groep is.",
+  "De gehele getallen vormen met de optelling een groep, met nul als neutraal element.",
+  "De reële getallen zonder nul vormen met de vermenigvuldiging een groep; nul heeft geen invers element.",
+  "Is de Cayley-tabel symmetrisch om de hoofddiagonaal, dan is de groep commutatief.",
+  "In de Cayley-tabel van een groep komt elk element precies één keer voor in elke rij.",
+  "Een groep heeft juist één neutraal element en elk element heeft juist één invers element.",
+  "Het invers van a bewerkt met b is eerst het invers van b en dan dat van a."
+ ]
 }

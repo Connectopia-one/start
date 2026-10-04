@@ -143,6 +143,16 @@ BUNDELS["waar-ligt-het-en-hoe-weet-je-dat"] = dict(
                       "andere over je inschatting vooraf."),
         ]),
     ],
+    onthoud=[
+        "Meridianen lopen van pool tot pool en geven de lengte aan; breedtecirkels lopen evenwijdig rond de aardbol.",
+        "Evenaar 0°, keerkringen 23,5°, poolcirkels 66,5°, de pool zelf 90°.",
+        "De nulmeridiaan loopt door Greenwich; de datumlijn ligt ruwweg op de 180ste meridiaan.",
+        "Absoluut situeren doe je met geografische coördinaten: eerst de breedte, dan de lengte, op 1° nauwkeurig.",
+        "Relatief situeren kan ten opzichte van fysischgeografische of sociaaleconomische elementen.",
+        "De klimaatzone hangt vooral samen met de breedte; de lengte zegt er niets over.",
+        "Geen kaart geeft tegelijk vormen, oppervlakten en afstanden helemaal juist weer.",
+        "Werkelijke afstand is meetbaar, ervaren afstand gaat over de reis, mentale afstand over je inschatting.",
+    ],
 )
 
 # ───────────────────────── 2. Waar wonen de mensen?
@@ -235,6 +245,15 @@ BUNDELS["waar-wonen-de-mensen"] = dict(
                   "op wie ze verzameld heeft en op de klassen in de legende: door die anders te kiezen, ziet "
                   "dezelfde kaart er heel anders uit."),
         ]),
+    ],
+    onthoud=[
+        "Bevolkingsdichtheid = aantal inwoners gedeeld door de oppervlakte, in inwoners per km².",
+        "Een dichtheid is een gemiddelde en verbergt het patroon binnen het gebied.",
+        "Lees bij een thematische kaart altijd eerst de legende.",
+        "Klimaat, bodemkwaliteit en reliëf verklaren veel van het bevolkingspatroon, maar nooit alles.",
+        "De HDI van de Verenigde Naties combineert levensverwachting, scholingsduur en inkomen in een getal tussen 0 en 1.",
+        "De gewone HDI werkt met gemiddelden en ziet ongelijkheid niet.",
+        "Tussen dichtheid en HDI bestaat geen vast verband.",
     ],
 )
 
@@ -334,6 +353,17 @@ BUNDELS["hoe-een-bevolking-verandert"] = dict(
                   "veroudert dus én verliest kennis. De achterblijvende bevolking wordt gemiddeld ouder, en "
                   "het land mist net de mensen die het nodig heeft."),
         ]),
+    ],
+    onthoud=[
+        "Geboorte- en sterftecijfer tel je per duizend inwoners per jaar.",
+        "Natuurlijke aangroei = geboortecijfer min sterftecijfer; migratiesaldo = immigratie min emigratie.",
+        "Totale groei = natuurlijke aangroei plus migratiesaldo.",
+        "Vruchtbaarheidscijfer = gemiddeld aantal kinderen per vrouw; onder ongeveer 2,1 krimpt een bevolking op termijn.",
+        "Een leeftijdshistogram toont mannen links, vrouwen rechts, van jong onderaan naar oud bovenaan.",
+        "In fase 2 van de demografische transitie daalt de sterfte en blijven de geboorten hoog: de snelste groei.",
+        "Vergrijzing betekent dat het aandeel ouderen toeneemt, niet dat het aantal inwoners daalt.",
+        "Braindrain is het vertrek van hoogopgeleiden; voor het ontvangende land heet dat braingain.",
+        "Pushfactoren duwen je weg, pullfactoren trekken je aan.",
     ],
 )
 
@@ -441,6 +471,17 @@ BUNDELS["stad-en-platteland"] = dict(
                   "koste van akkers en weiden. Let er wel op dat beide beelden in hetzelfde seizoen en op "
                   "dezelfde schaal genomen zijn."),
         ]),
+    ],
+    onthoud=[
+        "Stadsvlucht is het vertrek van stadsbewoners naar de rand en het platteland.",
+        "De stedenhiërarchie hangt af van het belang van een stad, niet van haar oppervlakte of ouderdom.",
+        "De criteria voor die hiërarchie zijn economisch, cultureel en politiek.",
+        "Sociale segregatie is ruimtelijke scheiding, in West-Europese steden vooral door verschil in woningprijs.",
+        "Bij een functiewijziging blijft een gebouw staan maar wordt het anders gebruikt.",
+        "Inbreiding is bouwen binnen de bestaande stad; uitbreiding is bouwen op akkerland aan de rand.",
+        "Andere landschapsveranderingen: ontvolking van het platteland, veranderende mobiliteit en stadslandbouw.",
+        "Versnippering deelt de open ruimte op in kleine, van elkaar gescheiden stukken.",
+        "Verharding laat geen water door en versterkt het hitte-eilandeffect.",
     ],
 )
 
@@ -557,6 +598,17 @@ BUNDELS["grondstoffen-energie-en-industrie"] = dict(
                   "terrein een nieuwe bestemming."),
         ]),
     ],
+    onthoud=[
+        "In een groeve of dagbouw graaft men in open lucht; in een mijn met schachten en gangen.",
+        "Men ontgint pas als de opbrengst hoger is dan de kosten van winnen en vervoeren.",
+        "Recyclage is ook een bron van grondstoffen en vraagt veel minder energie dan nieuw erts.",
+        "Hernieuwbaar gaat over de bron, niet over de uitstoot: kernenergie is niet hernieuwbaar.",
+        "Traditionele industrie lag bij de steenkoolmijnen; moderne industrie zoekt kennis, goede verbindingen en personeel.",
+        "De afzetmarkt is de plaats waar een product verkocht wordt.",
+        "De factoren achter het industriële proces zijn geopolitiek, fysisch en sociaaleconomisch.",
+        "Outsourcing of uitbesteding is werk verplaatsen naar een bedrijf in een ander land.",
+        "Na de-industrialisatie krijgt het oude terrein bij reconversie een nieuwe functie.",
+    ],
 )
 
 # ───────────────────────── 6. Landbouw, handel en toerisme
@@ -667,6 +719,17 @@ BUNDELS["landbouw-handel-en-toerisme"] = dict(
                   "een hele streek ineens wegvallen."),
         ]),
     ],
+    onthoud=[
+        "De grote landbouwsystemen zijn akkerbouw, veeteelt en tuinbouw.",
+        "Extensieve landbouw spreidt weinig arbeid en middelen over veel grond; intensieve concentreert veel op weinig grond.",
+        "Let op het verschil tussen opbrengst per hectare en per werkende.",
+        "Wat waar groeit, volgt het klimaat en de bodem.",
+        "Schaalvergroting betekent minder bedrijven die elk meer grond bewerken.",
+        "Bodemerosie spoelt de vruchtbare bovenlaag weg; bodemdegradatie is de bredere achteruitgang van de bodemkwaliteit.",
+        "Groothandel levert aan bedrijven en winkels, kleinhandel rechtstreeks aan de consument.",
+        "Landbouw is de eerste sector, industrie de tweede, diensten de derde.",
+        "Toerisme hangt af van klimaat, landschap, erfgoed en veiligheid samen.",
+    ],
 )
 
 # ───────────────────────── 7. Mondialisering
@@ -774,6 +837,17 @@ BUNDELS["mondialisering"] = dict(
                        "vertrekken. Dat is de ruimtelijke kant ervan, en die kan je gewoon gaan bekijken."),
         ]),
     ],
+    onthoud=[
+        "Mondialisering betekent dat landen en mensen wereldwijd steeds meer met elkaar verweven raken.",
+        "Ze komt in vier vormen voor: economisch, cultureel, politiek en sociaal.",
+        "Goedkoper transport, het internet en handelsakkoorden versnelden haar samen.",
+        "De container maakte het zeetransport veel goedkoper.",
+        "Een lange internationale keten is kwetsbaar, veroorzaakt veel transport en is moeilijk te controleren.",
+        "Zes samenwerkingsverbanden: Europese Unie, Verenigde Naties, NAVO, Mercosur, G8 en G20.",
+        "Vrijhandel haalt drempels weg, protectionisme zet ze op met invoerrechten en quota.",
+        "Landgrabbing is het opkopen van grote stukken landbouwgrond door buitenlandse bedrijven of staten.",
+        "Juist de onderlinge afhankelijkheid maakt handel tot een drukmiddel.",
+    ],
 )
 
 # ───────────────────────── 8. Duurzaam omgaan met de ruimte
@@ -876,6 +950,17 @@ BUNDELS["duurzaam-omgaan-met-de-ruimte"] = dict(
                       "welk doel je elk argument verbindt. En stel je altijd eerst de vraag: wat betekent dit "
                       "op lange termijn voor mens én omgeving?"),
         ]),
+    ],
+    onthoud=[
+        "Duurzame ontwikkeling is voorzien in de noden van nu zonder die van later onmogelijk te maken.",
+        "De vijf P's zijn Planet, People, Prosperity, Peace en Partnership.",
+        "De SDG's werden in 2015 door de Verenigde Naties goedgekeurd, met 2030 als streefdatum.",
+        "De doelen gelden voor alle landen, maar zijn niet afdwingbaar bij een rechtbank.",
+        "Een hoge HDI betekent niet vanzelf een kleine ecologische voetafdruk.",
+        "Duurzaam ruimtegebruik betekent met dezelfde oppervlakte méér doen.",
+        "Gevolgen van verstedelijking: versnippering, verharding, hitte-eilandeffect, luchtvervuiling en verkeersdrukte.",
+        "Reconversie is duurzamer dan een nieuw terrein aansnijden, maar niet noodzakelijk goedkoper.",
+        "Een goed oordeel weegt af en verbindt elk argument met een P of een doel.",
     ],
 )
 
@@ -997,6 +1082,17 @@ BUNDELS["het-versterkte-broeikaseffect"] = dict(
                   "zich te beschermen. Dat is de kern van wat men klimaatrechtvaardigheid noemt."),
         ]),
     ],
+    onthoud=[
+        "De vier sferen zijn geosfeer, biosfeer, atmosfeer en hydrosfeer.",
+        "Bij fotosynthese gaat koolstof van de atmosfeer naar de biosfeer.",
+        "Broeikasgassen: waterdamp (H₂O), koolstofdioxide (CO₂), methaan (CH₄) en lachgas (N₂O).",
+        "Het albedo is het weerkaatsingsvermogen van een oppervlak, een getal tussen nul en één.",
+        "Smeltend ijs verlaagt het albedo: een terugkoppeling die de opwarming versterkt.",
+        "Zonder natuurlijk broeikaseffect was het op aarde gemiddeld ongeveer achttien graden onder nul.",
+        "Het versterkte broeikaseffect komt van extra gassen van de mens; de meeste CO₂ komt uit steenkool, olie en aardgas.",
+        "Vijf gevolgen: zeespiegelstijging, verschuivende klimaatzones en leefgebieden, extreme weerfenomenen, tropische ziektes.",
+        "Weer is wat er vandaag gebeurt, klimaat is het gemiddelde over dertig jaar.",
+    ],
 )
 
 # ───────────────────────── 10. Een geografisch onderzoek voeren
@@ -1110,5 +1206,16 @@ BUNDELS["een-geografisch-onderzoek-voeren"] = dict(
                        "zijn. Onderzoek is dus geen apart stukje leerstof, maar de manier waarop de rest "
                        "getoetst wordt."),
         ]),
+    ],
+    onthoud=[
+        "Een onderzoek begint met een onderzoeksvraag of een hypothese.",
+        "Schrijf je hypothese op vóór je meet; een weerlegde hypothese is gewoon een resultaat.",
+        "Vier thema's: mobiliteit, waterproblematieken, veranderend landgebruik en klimaatverandering.",
+        "Noteer bij elke bron het jaartal, en bij een meting waarmee, waar en wanneer.",
+        "Eén beeld toont een toestand, twee beelden tonen een proces.",
+        "Terreinkartering is op het terrein zelf op een kaart noteren wat je waar ziet.",
+        "Geopunt is de digitale kaart van de Vlaamse overheid.",
+        "Je besluit hoort bij je gegevens, niet bij je hypothese.",
+        "Benoem ook de beperkingen van je bron, zoals verouderde lagen en gekozen klassen.",
     ],
 )

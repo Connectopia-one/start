@@ -101,5 +101,15 @@
    ]
   }
  ],
- "onthoud": []
+ "onthoud": [
+  "Een rekenkundige rij telt telkens het verschil op, een meetkundige rij vermenigvuldigt telkens met de reden.",
+  "Een recursief voorschrift berekent elke term uit de vorige en heeft een beginterm nodig.",
+  "De n-de term van een rekenkundige rij is de eerste term plus n min één, maal het verschil.",
+  "De som van n termen van een rekenkundige rij is n maal het gemiddelde van de eerste en de laatste term.",
+  "Een rekenkundige rij hoort bij lineaire groei, een meetkundige rij bij exponentiële groei.",
+  "Bij een negatieve reden wisselen de termen van teken: de rij is alternerend.",
+  "Een rij convergeert als haar termen een vast eindig getal naderen.",
+  "De som van een oneindige meetkundige rij is de eerste term gedeeld door één min de reden.",
+  "Die som is alleen eindig als de absolute waarde van de reden kleiner is dan één."
+ ]
 }

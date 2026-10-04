@@ -84,5 +84,15 @@
    ]
   }
  ],
- "onthoud": []
+ "onthoud": [
+  "In de uitgebreide coëfficiëntenmatrix staan de coëfficiënten én de constanten uit het rechterlid.",
+  "Elementaire rijoperaties veranderen de oplossingenverzameling niet; een rij met nul vermenigvuldigen mag niet.",
+  "Gauss-Jordan vormt de matrix met rijoperaties om naar de rijcanonieke vorm.",
+  "Een bepaald stelsel heeft precies één oplossing: beide rangen zijn gelijk aan het aantal onbekenden.",
+  "Het aantal vrijheidsgraden is het aantal onbekenden min de rang.",
+  "Strijdig: een rij met overal nullen links en een getal dat niet nul is rechts.",
+  "De toestand na twee overgangen bereken je met het kwadraat van de overgangsmatrix.",
+  "Een evenwichtstoestand is een toestand die na de overgang gelijk blijft.",
+  "Uit drie bestellingen bereken je de prijs per artikel alleen als het stelsel bepaald is."
+ ]
 }

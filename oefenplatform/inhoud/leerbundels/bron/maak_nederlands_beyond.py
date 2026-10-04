@@ -140,6 +140,16 @@ BUNDELS["tekstsoorten-en-teksttypes-beyond"] = dict(
                   "de soort meteen."),
         ]),
     ],
+    onthoud=[
+        "De tekstsoort hangt af van het doel van de zender, niet van het onderwerp.",
+        "Zeven tekstsoorten: informatief, persuasief, argumentatief, opiniërend, prescriptief, narratief en literair.",
+        "Persuasief werkt met gevoel, beeld en herhaling; argumentatief met argumenten die een standpunt dragen.",
+        "Een tekst met feiten erin is daarom nog geen informatieve tekst.",
+        "Propaganda en nepnieuws staan bij dezelfde tekstsoort als een reclamefilmpje.",
+        "Eén tekst kan meer dan één doel tegelijk hebben: noem de doelen die je erin terugvindt.",
+        "Vraag bij lees- en luisterteksten: wat wil de zender dat ik doe of denk?",
+        "De tekstsoort zegt op zich niets over de betrouwbaarheid, maar zet je wel op je hoede.",
+    ],
 )
 
 # ───────────────────────── 2. Onderwerp, hoofdgedachte en samenvatten
@@ -229,6 +239,16 @@ BUNDELS["onderwerp-hoofdgedachte-en-samenvatten-beyond"] = dict(
                   "Verwerk je meerdere bronnen, bijvoorbeeld vier teksten over de gezondheidsrisico's van "
                   "vapen, dan <strong>verwijs je er correct naar</strong>."),
         ]),
+    ],
+    onthoud=[
+        "Het onderwerp is waarover de tekst gaat, in één of enkele woorden.",
+        "De hoofdgedachte is de belangrijkste boodschap, in één zin.",
+        "Hoofdpunten zijn alle inhoudelijke elementen die de hoofdgedachte ondersteunen.",
+        "De hoofdgedachte staat niet altijd in de eerste zin.",
+        "Signaalwoorden en verwijswoorden samen vormen de structuuraanduiders.",
+        "Notities mogen afkortingen, symbolen en telegramstijl bevatten; ze zijn voor jou.",
+        "Een samenvatting is korter dan het origineel en geeft de hoofdgedachte en de hoofdpunten weer.",
+        "Geen eigen mening en geen letterlijk overgenomen zinnen in een samenvatting.",
     ],
 )
 
@@ -334,6 +354,17 @@ BUNDELS["bronnen-beoordelen-betrouwbaarheid-nepnieuws-en-framing-beyond"] = dict
                       "volledigheid veranderen niet omdat de boodschap klinkt in plaats van staat."),
         ]),
     ],
+    onthoud=[
+        "Geen enkel criterium beslist op zichzelf: je weegt ze samen af.",
+        "Geen auteur vermeld is een reden tot wantrouwen, geen bewijs van onwaarheid.",
+        "Vijf keer exact dezelfde zinnen is waarschijnlijk vijf keer dezelfde bron, geen vijf bevestigingen.",
+        "Nepnieuws ziet eruit als nieuws maar is bewust onwaar.",
+        "Propaganda wil je denken sturen, reclame je koopgedrag.",
+        "Een publireportage ziet eruit als een artikel maar is betaald.",
+        "Framing stuurt hoe je een onderwerp ziet, via woordkeuze, wat je weglaat en beeld.",
+        "Een filterbubbel ontstaat doordat een algoritme je vooral toont wat bij je past.",
+        "Voor een luistertekst gelden dezelfde criteria als voor een leestekst.",
+    ],
 )
 
 # ───────────────────────── 4. Het communicatiemodel en ruis
@@ -414,6 +445,15 @@ BUNDELS["het-communicatiemodel-en-ruis-beyond"] = dict(
                   "bij staat en het enkel op sociale media rondgaat, gebruik je drie onderdelen van het "
                   "model tegelijk: <strong>de zender, het kanaal en het doel</strong>."),
         ]),
+    ],
+    onthoud=[
+        "Het model: zender, boodschap, ontvanger, kanaal, context, doel en effect.",
+        "Het model geldt bij lezen, luisteren, schrijven en spreken.",
+        "Een zender kan ook een organisatie zijn, en tegelijk ontvanger in een gesprek.",
+        "Het doel zit bij de zender, het effect bij de ontvanger.",
+        "Het kanaal zegt iets over de bedoeling van de zender.",
+        "Externe ruis komt van buitenaf, interne ruis zit in de persoon zelf.",
+        "Komt de boodschap niet aan, dan ligt dat niet altijd aan de ontvanger.",
     ],
 )
 
@@ -505,6 +545,16 @@ BUNDELS["tekstopbouw-alineaverbanden-en-structuuraanduiders-beyond"] = dict(
                   "titel</strong>, <strong>de tussentitels</strong> en <strong>het slot</strong>."),
         ]),
     ],
+    onthoud=[
+        "IMS staat voor inleiding, midden en slot.",
+        "Eén alinea behandelt één deelonderwerp.",
+        "Het verband tussen alinea's herken je aan de eerste woorden van de nieuwe alinea.",
+        "Structuuraanduiders zijn verwijswoorden en signaalwoorden samen.",
+        "Ten eerste, ten tweede en tot slot wijzen op een opsommend verband.",
+        "Hetzelfde signaalwoord kan in twee teksten een ander verband aangeven.",
+        "Er zijn negen vaste tekststructuren; één tekst kan er meerdere bevatten.",
+        "Multimediale elementen kunnen de boodschap ook veranderen; lees ze even kritisch als de tekst.",
+    ],
 )
 
 # ───────────────────────── 6. Argumentatie en drogredenen
@@ -584,6 +634,17 @@ BUNDELS["argumentatie-en-drogredenen-beyond"] = dict(
                   "<strong>of elk argument echt over de stelling gaat</strong>."),
         ]),
     ],
+    onthoud=[
+        "Een feit kan je nagaan, een mening niet.",
+        "Een mening is niet minder waard dan een feit.",
+        "De stelling opent, de conclusie sluit af en volgt uit de argumenten.",
+        "Een sterk argument is waar, ter zake en belangrijk genoeg.",
+        "Je weerlegt een tegenargument door te tonen waarom het niet opgaat.",
+        "Argumenteren met cijfers is niet altijd betrouwbaar.",
+        "Samenhang is nog geen bewezen oorzaak.",
+        "Een drogreden klopt op het eerste gezicht maar deugt bij nader inzien niet.",
+        "Een persoonlijke aanval valt de persoon aan in plaats van zijn argument.",
+    ],
 )
 
 # ───────────────────────── 7. Literaire begrippen en genres
@@ -662,6 +723,16 @@ BUNDELS["literaire-begrippen-en-genres-beyond"] = dict(
                   "ridders) en de <strong>dierenepiek</strong> (verhalen waarin dieren de mensenwereld "
                   "spiegelen)."),
         ]),
+    ],
+    onthoud=[
+        "Fictie is verzonnen, non-fictie gaat over de werkelijkheid.",
+        "De drie hoofdgroepen zijn epiek, lyriek en dramatiek.",
+        "Een novelle is korter dan een roman, niet langer.",
+        "Een volkssprookje heeft geen bekende auteur, een cultuursprookje wel.",
+        "Een fabel is een kort verhaal waarin dieren optreden en waar een les in zit.",
+        "Sarcasme is ironie die bijt.",
+        "Een parodie mikt op de vorm, een satire op de wereld.",
+        "Eén roman kan tot meerdere genres tegelijk gerekend worden.",
     ],
 )
 
@@ -750,6 +821,17 @@ BUNDELS["verhaalkenmerken-en-vertelperspectief-beyond"] = dict(
                   "gedachtestroom van een personage, zonder dat een verteller ertussen komt."),
         ]),
     ],
+    onthoud=[
+        "De protagonist is het personage om wie het verhaal draait, de antagonist werkt hem tegen.",
+        "Een rond personage verandert, een vlak personage blijft zichzelf gelijk.",
+        "De ruimte kan geografisch, sociaal, symbolisch of sfeerscheppend zijn.",
+        "Vertelde tijd is de duur van het verhaal, verteltijd is de leestijd.",
+        "In medias res betekent middenin de gebeurtenissen beginnen.",
+        "Spanningsboog: expositie, stijgende actie, climax en ontknoping.",
+        "Een motief keert terug; een symbool is een concreet ding dat voor iets abstracts staat.",
+        "Een ik-verteller weet niet altijd wat alle andere personages denken.",
+        "De auctoriële verteller staat buiten het verhaal en weet alles.",
+    ],
 )
 
 # ───────────────────────── 9. Poëzie
@@ -820,6 +902,16 @@ BUNDELS["poezie-dichtvormen-strofen-en-rijm-beyond"] = dict(
                   "romanschrijver is. Een <strong>semantisch veld</strong> is een groep woorden rond "
                   "hetzelfde betekenisgebied; samen kleuren ze de sfeer van een gedicht."),
         ]),
+    ],
+    onthoud=[
+        "Een sonnet telt veertien verzen, een haiku drie: vijf, zeven en vijf lettergrepen.",
+        "Een limerick is een kort, grappig gedicht van vijf verzen.",
+        "Distichon twee, terzine drie, kwatrijn vier en octaaf acht verzen.",
+        "Volrijm: klinker én medeklinkers komen overeen; assonantie: enkel de klinkers.",
+        "Alliteratie is dezelfde beginklank bij opeenvolgende woorden, ook stafrijm genoemd.",
+        "Aabb is gepaard, abba omarmend en abab gekruist rijm.",
+        "Een enjambement is een zin die over de versregel heen doorloopt.",
+        "Het lyrisch subject is niet automatisch de dichter zelf.",
     ],
 )
 
@@ -894,6 +986,16 @@ BUNDELS["dramatiek-en-theatertekens-beyond"] = dict(
                   "interpretatie, en je kan ze bespreken aan de hand van de theatertekens die ze inzet."),
         ]),
     ],
+    onthoud=[
+        "Een toneeltekst is geschreven om gespeeld te worden.",
+        "In een monoloog is één personage aan het woord, een polyloog telt meer dan twee.",
+        "De klucht is grover dan de komedie en mikt enkel op de lach.",
+        "Het mysteriespel was religieus, het abel spel wereldlijk.",
+        "Episch theater wil niet dat het publiek zich volledig inleeft.",
+        "Theatertekens zijn alles op het toneel dat betekenis draagt.",
+        "Proxemiek is de afstand tussen de spelers; rekwisieten zijn voorwerpen op scène.",
+        "Een opvoeringsanalyse onderzoekt hoe de keuzes op scène de tekst betekenis geven.",
+    ],
 )
 
 # ───────────────────────── 11. Stijlfiguren en beeldspraak
@@ -962,6 +1064,17 @@ BUNDELS["stijlfiguren-en-beeldspraak-beyond"] = dict(
                   "politieke toespraken en krantenkoppen zitten er vol mee; vaak werken ze daar zelfs het "
                   "hardst."),
         ]),
+    ],
+    onthoud=[
+        "In een vergelijking staat een woordje als zoals; in een metafoor vervangt het beeld de zaak.",
+        "Bij personificatie krijgt iets levenloos menselijke eigenschappen.",
+        "Synesthesie zet twee zintuigen door elkaar in één beeld.",
+        "Onomatopee is het andere woord voor klanknabootsing.",
+        "Een hyperbool overdrijft; een litotes ontkent het tegendeel.",
+        "Litotes, understatement en eufemisme verzwakken wat er bedoeld wordt.",
+        "Een anafoor is hetzelfde woord aan het begin van opeenvolgende zinnen.",
+        "Een antithese zet twee tegengestelde zaken naast elkaar.",
+        "Stijlfiguren komen niet enkel in literaire teksten voor.",
     ],
 )
 
@@ -1037,6 +1150,17 @@ BUNDELS["literaire-stromingen-van-de-middeleeuwen-tot-nu-beyond"] = dict(
                   "daar. Een gedicht vol ongewone woordcombinaties, zonder hoofdletters en met gebroken "
                   "zinsbouw, past het best bij de <strong>Vijftigers</strong>."),
         ]),
+    ],
+    onthoud=[
+        "Een stroming begint en eindigt niet op een scherp af te lijnen jaartal.",
+        "Voorhoofs gaat over strijd en eer, hoofs over de verheven liefde voor een onbereikbare vrouw.",
+        "De renaissance grijpt terug naar de klassieke oudheid, de barok toont de vergankelijkheid.",
+        "De verlichting zet de rede centraal, de romantiek gevoel en verbeelding.",
+        "Naturalisme: afkomst en omgeving bepalen het lot van een mens.",
+        "De Tachtigers staan voor kunst om de kunst en de kracht van het individu.",
+        "Het expressionisme drukt innerlijke gevoelens uit door de werkelijkheid te vervormen.",
+        "De Vijftigers staan voor associatie en experiment met taal en vorm.",
+        "Het postmodernisme twijfelt aan één grote waarheid.",
     ],
 )
 
@@ -1119,6 +1243,16 @@ BUNDELS["taalvarieteiten-registers-en-beleefdheid-beyond"] = dict(
                   "respect</strong>."),
         ]),
     ],
+    onthoud=[
+        "Standaardtaal is overal in het taalgebied aanvaard.",
+        "Een nationale variëteit is niet hetzelfde als een regionale variëteit.",
+        "Tussentaal zit tussen het dialect en de standaardtaal in.",
+        "Wie standaardtaal spreekt, drukt zich niet automatisch duidelijker uit dan wie dialect spreekt.",
+        "Jargon is handig onder vakgenoten, maar wie de woorden niet kent, haakt af.",
+        "Een taalregister is de toon die je kiest naargelang de situatie.",
+        "Twijfel je over het register, kies dan het meest formele van de twee.",
+        "Beleefdheidsconventies zijn niet overal ter wereld dezelfde.",
+    ],
 )
 
 # ───────────────────────── 14. Taal en identiteit
@@ -1190,6 +1324,16 @@ BUNDELS["taal-en-identiteit-stereotypering-inclusie-en-non-verbale-communicatie-
                   "maken</strong>, <strong>de armen niet gekruist houden</strong> en <strong>je naar de "
                   "spreker toe draaien</strong>."),
         ]),
+    ],
+    onthoud=[
+        "Een stereotype is gebaseerd op versimpeling, overdrijving en veralgemening.",
+        "Inclusie brengt mensen bij elkaar, exclusie sluit mensen buiten.",
+        "Jargon, elitair taalgebruik en een variëteit die anderen niet beheersen, sluiten uit.",
+        "Genderneutrale taal probeert in te sluiten.",
+        "Non-verbaal: lichaamstaal, oogcontact, kleding en uiterlijk, mimiek en proxemiek.",
+        "Paraverbaal: intonatie, articulatie, tempo en volume.",
+        "Dezelfde zin kan door de intonatie neutraal of spottend klinken.",
+        "Ironie in een appje wordt vaker verkeerd begrepen: de toon en het gezicht ontbreken.",
     ],
 )
 
@@ -1263,6 +1407,17 @@ BUNDELS["klanken-spelling-diakritische-tekens-en-interpunctie-beyond"] = dict(
                       "zin.</strong> Eén komma verschil kan van een uitnodiging een bevel maken."),
         ]),
     ],
+    onthoud=[
+        "Het klankbeeld hoor je, het schriftbeeld zie je.",
+        "De doffe klank is de onbeklemtoonde e, zoals in gemeente.",
+        "De stam is de infinitief zonder de uitgang -en.",
+        "Hij antwoordt krijgt dt: de stam eindigt op d en bij hij komt er een t bij.",
+        "Namen van maanden krijgen in het Nederlands geen hoofdletter.",
+        "Een trema en een accent zijn niet hetzelfde teken.",
+        "Een koppelteken gebruik je in samenstellingen met een eigennaam, zoals Noord-Frankrijk.",
+        "Een dubbele punt kondigt een opsomming of een citaat aan.",
+        "Leestekens bepalen mee de betekenis van een zin.",
+    ],
 )
 
 # ───────────────────────── 16. Woordsoorten
@@ -1327,6 +1482,16 @@ BUNDELS["woordsoorten-beyond"] = dict(
             ("p", "De <strong>infinitief</strong> is de onvervoegde grondvorm, zoals <em>lopen</em>. Een "
                   "<strong>voltooid deelwoord</strong> begint in het Nederlands <strong>vaak met ge</strong>."),
         ]),
+    ],
+    onthoud=[
+        "De woordsoort bepaal je uit de rol die het woord in díe zin speelt.",
+        "Hetzelfde woord kan in de ene zin een voornaamwoord zijn en in de andere een lidwoord.",
+        "Een hoofdtelwoord telt, een rangtelwoord ordent.",
+        "Deze, die en dat zijn aanwijzende voornaamwoorden.",
+        "Het antecedent is het woord waarnaar een betrekkelijk voornaamwoord terugwijst.",
+        "Een zelfstandig voornaamwoord staat alleen, een bijvoeglijk gebruikt staat bij een naamwoord.",
+        "Een hulpwerkwoord kan niet alleen in een zin staan.",
+        "Koppelwerkwoord of zelfstandig werkwoord bepaalt of er een naamwoordelijk gezegde is.",
     ],
 )
 
@@ -1403,6 +1568,17 @@ BUNDELS["morfologie-samenstellingen-afleidingen-en-werkwoordstijden-beyond"] = d
                   "<em>ik bel je op</em>."),
         ]),
     ],
+    onthoud=[
+        "Een samenstelling bestaat uit zelfstandige woorden, een afleiding niet.",
+        "On- keert de betekenis om, -heid maakt een zelfstandig naamwoord, -baar een bijvoeglijk naamwoord.",
+        "De tussenklank verbindt twee delen van een samenstelling, zoals in boekenkast.",
+        "Het meervoud van kind is kinderen, met een extra -er-.",
+        "Een verkleinwoord krijgt altijd het lidwoord het.",
+        "Hij had gewerkt is voltooid verleden tijd, hij zal gewerkt hebben voltooid toekomende tijd.",
+        "Vervoeging slaat op werkwoorden, verbuiging op naamwoorden.",
+        "Een sterk werkwoord verandert in de verleden tijd van klinker: lopen – liep.",
+        "Een scheidbaar werkwoord valt in sommige zinnen uiteen in twee delen.",
+    ],
 )
 
 # ───────────────────────── 18. Zinsontleding en zinsbouw
@@ -1474,6 +1650,17 @@ BUNDELS["zinsontleding-en-zinsbouw-beyond"] = dict(
             ("p", "Zinsontleding helpt bij het spellen van werkwoorden, want <strong>je vindt zo het "
                   "onderwerp bij de persoonsvorm</strong>, en daarmee weet je of er een t bij moet."),
         ]),
+    ],
+    onthoud=[
+        "In een passieve zin ondergaat het onderwerp de handeling.",
+        "Een enkelvoudige zin heeft maar één persoonsvorm.",
+        "Bij nevenschikking zijn de delen gelijkwaardig, bij onderschikking hangt een bijzin af van een hoofdzin.",
+        "In een bijzin staat de persoonsvorm meestal achteraan, in een mededelende hoofdzin op de tweede plaats.",
+        "Bij inversie belandt het onderwerp achter de persoonsvorm.",
+        "Een lange tangconstructie maakt een zin moeilijker te volgen.",
+        "Een zinsdeel test je door de woorden samen naar voren in de zin te verplaatsen.",
+        "Niet elke zin heeft een lijdend voorwerp.",
+        "Een naamwoordelijk gezegde is een koppelwerkwoord met een naamwoordelijk deel.",
     ],
 )
 
@@ -1547,6 +1734,17 @@ BUNDELS["semantiek-betekenisrelaties-gevoelswaarde-en-herkomst-beyond"] = dict(
                   "bestaat</strong>, maar een ingeburgerd leenwoord. En <strong>een archaïsme is geen woord "
                   "dat pas ontstaan is</strong>: dat is juist een neologisme."),
         ]),
+    ],
+    onthoud=[
+        "Synoniemen betekenen ongeveer hetzelfde, antoniemen het tegengestelde.",
+        "Homoniemen hebben dezelfde vorm maar een heel andere betekenis.",
+        "Het hyperoniem is het ruimere woord, het hyponiem het engere.",
+        "In de poot van de tafel is poot figuurlijk gebruikt.",
+        "Een pleonasme is een overbodige toevoeging die al in het woord zit: een witte schimmel.",
+        "Een contaminatie versmelt twee uitdrukkingen tot één foute, zoals duur kosten.",
+        "Denotatie is de kale betekenis, connotatie de bijklank.",
+        "Een eufemisme verzacht, een dysfemisme maakt iets ruwer of harder dan nodig.",
+        "Een bastaardwoord is een leenwoord dat aan het Nederlands is aangepast.",
     ],
 )
 
@@ -1638,6 +1836,17 @@ BUNDELS["schrijven-en-schriftelijke-interactie-beyond"] = dict(
                   "<strong>academische en objectieve taal</strong>, geen losse spreektaal."),
         ]),
     ],
+    onthoud=[
+        "Een tekst zo lang mogelijk maken is geen doel.",
+        "Creatief zijn met taal betekent technieken inzetten zoals rijm, ritme en humor.",
+        "Spelling en leestekengebruik gelden enkel bij de geschreven vorm.",
+        "Het ene criterium goed doen compenseert het andere niet.",
+        "Een foutloze tekst kan toch ongepast klinken; daarom staat register apart.",
+        "Bepaal vooraf je doel, je ontvanger en je kanaal, en maak een schrijfplan met kernwoorden.",
+        "Een spellingcontrole vindt geen fouten die toevallig bestaande woorden opleveren.",
+        "Bij interactie reageer je op wat een ander geschreven heeft.",
+        "Een formele mail heeft een gepaste aanspreking, een duidelijke onderwerpregel en een verzorgde slotgroet.",
+    ],
 )
 
 # ───────────────────────── 21. Spreken en gesprekken voeren
@@ -1724,5 +1933,16 @@ BUNDELS["spreken-en-gesprekken-voeren-beyond"] = dict(
                   "boek bij je opriep en waarom</strong>. Dat is iets anders dan het verhaal navertellen of "
                   "de achterflap opzeggen."),
         ]),
+    ],
+    onthoud=[
+        "Zo lang mogelijk aan het woord blijven is geen doel.",
+        "Maak een spreekplan met kernwoorden; voorlezen klinkt monotoon.",
+        "In het slot hoort een samenvatting of een besluit, geen nieuw argument.",
+        "Alleen bij spreken: lichaamstaal, vlotheid en uitspraak en intonatie.",
+        "Vlotheid gaat over haperen, niet over stilte.",
+        "Bij een gesprek reageer je op een ander.",
+        "Op het examen krijg je vijftien minuten voorbereiding voor een gesprek van ongeveer tien minuten.",
+        "Wie nooit doorvraagt, haalt niet het hoogste niveau van interactie.",
+        "Begrijp je iets niet, vraag dan om verduidelijking.",
     ],
 )

@@ -84,5 +84,15 @@
    ]
   }
  ],
- "onthoud": []
+ "onthoud": [
+  "Een vrije vector is een richting, een zin en een lengte, zonder vast beginpunt.",
+  "De coördinaten van de vector van A naar B zijn die van B min die van A.",
+  "Vectoren optellen doe je coördinaat per coördinaat.",
+  "De norm is de wortel uit de som van de kwadraten van de coördinaten.",
+  "Het scalair product levert een getal op: de som van de producten van de overeenkomstige coördinaten.",
+  "Het scalair product van twee loodrechte vectoren is nul.",
+  "Is het scalair product negatief, dan is de hoek stomp.",
+  "De afstand tussen twee punten is de norm van de vector tussen die twee punten.",
+  "Het zwaartepunt van een driehoek is de som van de drie hoekpunten gedeeld door drie."
+ ]
 }

@@ -213,6 +213,132 @@ ONDERTITELS = {
     "standen-domein-en-stad": "De gelaagde samenleving, de agrarische samenleving en de heropbloei van de steden.",
 }
 
+# Het lijstje "Onthoud" onderaan elke bundel. Eigen aan DF: het gaat altijd
+# boven wat de doorstroombundel eventueel meebrengt, want die kan begrippen
+# noemen die hier wegvallen.
+ONTHOUD = {
+    "het-historisch-referentiekader": [
+        "Het historisch referentiekader heeft drie assen: tijd, ruimte en maatschappelijke domeinen.",
+        "Chronologie zet gebeurtenissen in volgorde; periodisering verdeelt de tijd in stukken met een naam.",
+        "Een evolutie is geleidelijk, een revolutie ingrijpend. Het woord slaat op de omvang, niet altijd op de snelheid.",
+        "Zeven periodes: prehistorie, oude nabije oosten, klassieke oudheid, middeleeuwen, vroegmoderne tijd, moderne tijd, hedendaagse tijd.",
+        "Scharnierpunten: 476, 1453 en 1492. Een periodegrens is altijd een keuze.",
+        "Lokaal, regionaal, mondiaal, maritiem, ruraal en stedelijk zijn begrippen van de ruimte.",
+        "Vier maatschappelijke domeinen: politiek, sociaal, economisch en cultureel.",
+        "Eén gebeurtenis kan in meerdere domeinen thuishoren, zoals de Guldensporenslag.",
+        "Je gebruikt het kader om te situeren, te vergelijken en een historische vraag af te bakenen.",
+    ],
+    "van-rome-naar-de-franken": [
+        "Het West-Romeinse Rijk valt symbolisch in 476, maar de val was een proces.",
+        "Germaanse migraties: bevolkingsgroei is een interne oorzaak, de druk van de Hunnen een externe.",
+        "Germaanse, Romeinse en christelijke gewoonten versmelten tot een gemengde samenleving.",
+        "Het Frankische erfrecht verdeelde het rijk onder de zonen, waardoor het telkens uiteenviel.",
+        "Onder de laatste Merovingers lag de echte macht bij de hofmeiers.",
+        "Karel de Grote wordt in 800 in Rome tot keizer gekroond en bestuurt met graven en missi dominici.",
+        "Verdrag van Verdun, 843: het rijk wordt onder drie kleinzonen van Karel de Grote verdeeld.",
+        "Door de invallen zocht de bevolking bescherming bij de lokale heer: het begin van het leenstelsel.",
+        "Of Karel de Grote de vader van Europa is, is een historische vraag en geen feitenvraag.",
+    ],
+    "standen-domein-en-stad": [
+        "Drie standen: de geestelijkheid bidt, de adel strijdt, de derde stand werkt.",
+        "Niet je verdienste maar je geboorte bepaalde je plaats in de standensamenleving.",
+        "Een domein bestaat uit vroonland voor de heer en hoevenland voor de boeren.",
+        "Drieslagstelsel: wintergraan, zomergraan en braak. Zo ligt maar een derde braak.",
+        "Handel bestaat op drie niveaus: lokaal, regionaal en over lange afstand.",
+        "Vanaf de 11de eeuw bloeien de steden op. Een ambacht of gilde regelt wie het beroep mag uitoefenen.",
+        "Een keure is een oorkonde met stadsrechten. De patriciërs bestuurden de stad.",
+        "Vanaf 1347 sterft door de pest naar schatting een derde van de bevolking.",
+        "Stad en platteland stonden niet los van elkaar maar waren met elkaar verweven.",
+    ],
+    "geloof-kunst-en-macht-in-de-middeleeuwen": [
+        "Missionarissen bekeerden eerst de vorst, en daarna zijn volk.",
+        "De Kerk was een piramide: de paus, de bisschoppen en de pastoors in de parochies.",
+        "Joden hadden in de middeleeuwse steden niet dezelfde rechten als christenen.",
+        "Romaans: rondbogen en dikke muren. Gotisch: spitsbogen, kruisribgewelven, luchtbogen en grote glasramen.",
+        "In het middeleeuwse wereldbeeld stond de aarde in het midden en was alles door God geordend.",
+        "De Franse koning regeert steeds meer alleen, de Engelse samen met een parlement. Magna Carta: 1215.",
+        "Guldensporenslag, 11 juli 1302 bij Kortrijk: geen taalstrijd, maar macht, geld en zeggenschap in de steden.",
+        "Bagdad was een kruispunt van internationale handel, waar de handelsroutes samenkwamen.",
+        "Het contact tussen de islam en het Westen bestond uit oorlog, handel en kennisoverdracht.",
+    ],
+    "de-nieuwe-wereld-en-de-driehoekshandel": [
+        "Motieven voor de ontdekkingsreizen: economisch, godsdienstig en politiek. Goud, God en glorie.",
+        "Columbus bereikt in 1492 de Caraïben, Vasco da Gama in 1498 Calicut in Indië.",
+        "Eerste kolonisatiegolf: Portugal en Spanje. Tweede: Engeland, Frankrijk en de Verenigde Provinciën.",
+        "Ziekten zoals pokken en mazelen waren de belangrijkste oorzaak van de demografische inzinking.",
+        "Driehoekshandel: Europa, West-Afrika en Amerika. De oversteek naar Amerika heet de middenpassage.",
+        "Vergelijk standpunten over slavenhandel: ga na wie een bron maakte en met welke bedoeling.",
+        "Drie organisatievormen van ondernemingen: handelscompagnie, manufactuur en huisnijverheid.",
+        "Met een wisselbrief betaal je in de ene stad en haal je het geld op in de andere.",
+        "Technische vernieuwingen laten dezelfde grond meer opbrengen, en dus meer monden voeden.",
+    ],
+    "humanisme-reformatie-renaissance-en-barok": [
+        "Het humanisme ontstond in de rijke Italiaanse steden en greep terug naar de Griekse en Romeinse oudheid.",
+        "Erasmus schreef Lof der Zotheid; de boekdrukkunst verspreidde de ideeën snel.",
+        "In 1517 hing Luther in Wittenberg zijn vijfennegentig stellingen tegen de aflaathandel op.",
+        "Drie stromingen van de Reformatie: lutheranisme, anglicanisme en calvinisme.",
+        "De Contrareformatie is het antwoord van de katholieke Kerk. Het concilie van Trente: 1545 tot 1563.",
+        "Renaissance: evenwicht, rust, perspectief en het menselijk lichaam naar de natuur bestudeerd.",
+        "Barok: beweging, drama en licht-donkercontrasten, grotendeels de kunst van de Contrareformatie.",
+        "Een kunstwerk is ook een historische bron: vraag wie het betaalde en waarom.",
+    ],
+    "vorsten-opstand-en-de-verlichting": [
+        "Absolutisme: alle macht ligt bij de koning, die zich op het droit divin beroept.",
+        "Lodewijk XIV bond de adel aan zijn hof in Versailles.",
+        "Glorious Revolution in 1688; de Bill of Rights van 1689 begrenst de macht van de vorst.",
+        "In Frankrijk wint de vorst het van het parlement, in Engeland het parlement van de vorst.",
+        "Oorzaken van de Opstand: centralisatie, vervolging van protestanten en zware belastingen zoals de tiende penning.",
+        "Beeldenstorm in 1566, Plakkaat van Verlatinghe in 1581, Vrede van Münster in 1648.",
+        "Locke: natuurlijke rechten. Montesquieu: scheiding der machten. Rousseau: volkssoevereiniteit.",
+        "Rechtsgelijkheid: dezelfde wet voor iedereen. Rechtszekerheid: vooraf weten wat verboden is.",
+        "In de Belgische grondwet herken je de scheiding der machten en de volkssoevereiniteit.",
+    ],
+    "amerika-frankrijk-en-de-industriele-omwenteling": [
+        "No taxation without representation: wie geen vertegenwoordigers heeft, mag niet belast worden.",
+        "De Onafhankelijkheidsverklaring werd op 4 juli 1776 in Philadelphia ondertekend.",
+        "Op 14 juli 1789 werd de Bastille bestormd.",
+        "De Verklaring van de Rechten van de Mens en de Burger (1789): mensen worden vrij en gelijk in rechten geboren.",
+        "Na de Franse Revolutie maken de standen plaats voor burgers die gelijk zijn voor de wet.",
+        "Het Franse bestuur liet de burgerlijke stand, een wetboek en het metriek stelsel na.",
+        "De industriële revolutie begon in Groot-Brittannië, vanaf ongeveer 1750.",
+        "In een fabriek doen machines het zware werk, in een manufactuur handen.",
+        "Aanbodfactoren maken de productie mogelijk; de vraagkant gaat over wie het koopt.",
+    ],
+    "het-ottomaanse-rijk-en-samenlevingen-vergelijken": [
+        "In 1453 veroverden de Ottomanen Constantinopel; daarmee eindigt het Byzantijnse Rijk.",
+        "De sultan was ook kalief: wereldlijk en godsdienstig hoofd tegelijk.",
+        "Het millet-stelsel liet godsdienstige minderheden hun eigen gemeenschap besturen.",
+        "Suleyman I regeerde van 1520 tot 1566, in dezelfde jaren als Karel V.",
+        "Capitulaties zijn handelsvoorrechten die de sultan aan Europese kooplui gaf.",
+        "Je vergelijkt samenlevingen op politieke, sociale, culturele en economische kenmerken.",
+        "Imperialisme is machtsuitbreiding over andere gebieden; kolonialisme is daar één vorm van.",
+        "Contact tussen moslims en christenen: de zijderoutes, de ontmoeting tussen beide culturen, en de kruistochten.",
+        "Vergelijken is gelijkenissen én verschillen benoemen. Een anachronisme plaatst iets in de verkeerde tijd.",
+    ],
+    "redeneren-met-historische-bronnen": [
+        "Eerst stel je een historische vraag, pas daarna zoek je bronnen.",
+        "Een onderzoekbare vraag is afgebakend in tijd, ruimte en domein, en er bestaan bruikbare bronnen.",
+        "Stap 1: context verzamelen. Stap 2: lezen. Stap 3: interpreteren. Stap 4: beargumenteerd antwoorden.",
+        "Een primaire bron komt uit de tijd zelf, een secundaire bron is er later over gemaakt.",
+        "Standplaatsgebondenheid: wie iets vertelt, doet dat vanuit zijn eigen plaats, tijd en belangen.",
+        "Bruikbaarheid hangt altijd af van de vraag die je stelt.",
+        "Een veralgemening trekt uit één of enkele gevallen een besluit over het geheel.",
+        "Eén bron volstaat niet; wat twee onafhankelijke bronnen zeggen, staat sterker.",
+        "Een onbedoeld gevolg streefde niemand na: Columbus zocht Azië en veroorzaakte de kolonisatie van Amerika.",
+    ],
+    "beeldvorming-en-het-verleden-vandaag": [
+        "Historische beeldvorming is het beeld van het verleden dat iemand opbouwt uit bronnen.",
+        "Een beeld kan veranderen door nieuwe bronnen en nieuwe vragen.",
+        "De persoonlijke en de maatschappelijke context van een maker kleuren zijn beeld.",
+        "Arabische en westerse bronnen vertellen de inname van Jeruzalem in 1099 heel anders.",
+        "Vraag bij elk beeld: wie maakte dit, wanneer, met welke bronnen, en wat wordt niet verteld?",
+        "De Guldensporenslag kreeg pas in de 19de eeuw zijn Vlaamse betekenis.",
+        "Identiteit heeft lagen, en die lagen sluiten elkaar niet uit.",
+        "Een kunstuiting analyseer je in vier stappen: informatie verzamelen, beschrijven, interpreteren, verwoorden.",
+        "Begrijpen is niet hetzelfde als goedkeuren.",
+    ],
+}
+
 VERBODEN = [
     "geldeconomie",
     "mercantilis",
@@ -291,6 +417,10 @@ def bouw() -> dict:
             raise SystemExit(f"{oud!r} staat {aantal} keer in de bundels, verwacht {hoevaak}")
     for kort, onder in ONDERTITELS.items():
         uit[kort + NIEUW]["onder"] = onder
+    if set(ONTHOUD) != {s[: -len(NIEUW)] for s in uit}:
+        raise SystemExit("ONTHOUD dekt niet precies de bundels")
+    for kort, lijst in ONTHOUD.items():
+        uit[kort + NIEUW]["onthoud"] = list(lijst)
     for sleutel, b in uit.items():
         alles = " ".join(
             [b["onder"]]

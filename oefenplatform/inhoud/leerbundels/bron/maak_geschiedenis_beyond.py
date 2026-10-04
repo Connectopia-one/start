@@ -145,6 +145,17 @@ BUNDELS["het-historisch-referentiekader-beyond"] = dict(
                       "en het is <strong>een hulpmiddel, geen natuurwet</strong>."),
         ]),
     ],
+    onthoud=[
+        "Het referentiekader heeft drie assen: tijd, ruimte en maatschappelijke domeinen.",
+        "Het westerse kader telt zeven periodes; de moderne tijd begint bij de Franse Revolutie.",
+        "Chronologie ordent in volgorde, periodisering groepeert in stukken met een naam.",
+        "Continuïteit blijft in grote lijnen hetzelfde; een breuk is een scherpe onderbreking.",
+        "Het tegenovergestelde van stedelijk is ruraal; westers is ook een manier van samenleven.",
+        "Vier domeinen: politiek, sociaal, economisch en cultureel. Een gebeurtenis kan bij meerdere horen.",
+        "Een periodisering is een constructie achteraf en altijd een keuze van wie ze maakt.",
+        "Het Congres van Wenen als scharnierpunt kiezen getuigt van een eurocentrische blik.",
+        "China deelt zijn verleden in volgens dynastieën; een andere periodisering is niet verkeerd.",
+    ],
 )
 
 # ───────────────────────── 2. Restauratie, revolutie en het ontstaan van België
@@ -249,6 +260,17 @@ BUNDELS["restauratie-revolutie-en-het-ontstaan-van-belgie-beyond"] = dict(
                        "Verdrag van Versailles tekenen. Dezelfde zaal, de rollen omgedraaid."),
         ]),
     ],
+    onthoud=[
+        "Het Congres van Wenen (1814-1815) wilde de vorstenhuizen van voor 1789 herstellen.",
+        "Als buffer ten noorden van Frankrijk kwam het Verenigd Koninkrijk der Nederlanden.",
+        "Cijnskiesrecht: alleen wie genoeg belasting betaalt, mag stemmen.",
+        "Verbindend nationalisme brengt staten samen, ontbindend nationalisme maakt zich los.",
+        "Onder Willem I werd het Nederlands opgelegd en had het Zuiden te weinig zetels.",
+        "De Belgische opstand begon op 25 augustus 1830; de onafhankelijkheid volgde op 4 oktober.",
+        "De grondwet van 1831 maakte België een constitutionele parlementaire monarchie.",
+        "De Vlaamse beweging begon cultureel; de eerste taalwetten kwamen pas vanaf de jaren 1870.",
+        "Bismarck leidde de Duitse eenmaking; het Keizerrijk werd in 1871 uitgeroepen in Versailles.",
+    ],
 )
 
 # ───────────────────────── 3. Industrialisatie en de sociale kwestie
@@ -344,6 +366,17 @@ BUNDELS["industrialisatie-en-de-sociale-kwestie-beyond"] = dict(
                   "<strong>Seizoensarbeid</strong> is iets anders dan verhuizen: men ging <strong>tijdelijk, "
                   "voor een seizoen</strong>, elders werken en kwam daarna terug."),
         ]),
+    ],
+    onthoud=[
+        "De eerste industriële revolutie draaide op steenkool en begon in Engeland.",
+        "De tweede industriële revolutie bracht elektriciteit, aardolie en de verbrandingsmotor.",
+        "Economisch liberalisme: de overheid laat de economie zoveel mogelijk vrij.",
+        "De eerste spoorlijn van het vasteland reed in 1835 tussen Brussel en Mechelen.",
+        "De Belgische industrie van de 19de eeuw lag vooral in Wallonië.",
+        "Proletarisering: boeren en ambachtslui verliezen hun werktuigen en worden loonarbeider.",
+        "Een vakbond onderhandelt en staakt, een coöperatie produceert.",
+        "Marxisme wil revolutie, sociaaldemocratie wil vooruit langs verkiezingen en wetten.",
+        "Algemeen meervoudig stemrecht kwam er in 1893, algemeen enkelvoudig stemrecht voor mannen in 1919.",
     ],
 )
 
@@ -443,6 +476,17 @@ BUNDELS["modern-imperialisme-congo-en-china-beyond"] = dict(
                       "vormen van hetzelfde imperialisme, met heel andere gevolgen tot vandaag."),
         ]),
     ],
+    onthoud=[
+        "Rond 1880 begint de wedloop om Afrika: het modern imperialisme.",
+        "Repeteergeweren, stoomschepen en kinine maakten de bezetting mogelijk.",
+        "Sociaal darwinisme gebruikte de strijd om het bestaan om overheersing goed te praten.",
+        "Conferentie van Berlijn (1884-1885): je moest een gebied werkelijk bezetten en besturen.",
+        "Tegen 1914 bleven in Afrika alleen Ethiopië en Liberia zelfstandig.",
+        "Een invloedssfeer is een gebied waar een mogendheid de dienst uitmaakt zonder het te besturen.",
+        "De Congo-Vrijstaat was van 1885 tot 1908 persoonlijk bezit van Leopold II.",
+        "Belgisch Congo werd bestuurd door staat, kerk en grote bedrijven samen.",
+        "China werd niet volledig gekoloniseerd maar kreeg ongelijke verdragen en invloedssferen.",
+    ],
 )
 
 # ───────────────────────── 5. De Eerste Wereldoorlog en de Russische revoluties
@@ -530,6 +574,17 @@ BUNDELS["de-eerste-wereldoorlog-en-de-russische-revoluties-beyond"] = dict(
                   "staat</strong>, <strong>graan werd bij de boeren opgeëist</strong> en <strong>voedsel "
                   "werd op rantsoen gezet</strong>."),
         ]),
+    ],
+    onthoud=[
+        "De moord op Frans Ferdinand is de aanleiding; de oorzaken zijn de opgestapelde spanningen.",
+        "Het plan Von Schlieffen trok door het neutrale België om Frankrijk snel uit te schakelen.",
+        "Een totale oorlog zet de hele samenleving in; aan de IJzer hield het Belgische leger stand.",
+        "De Verenigde Staten traden in 1917 toe door de onbeperkte Duitse duikbotenoorlog.",
+        "Versailles legde Duitsland schuld, herstelbetalingen en een klein leger op.",
+        "De Volkenbond (1920) had geen eigen leger en de Verenigde Staten traden nooit toe.",
+        "Bij de Februarirevolutie van 1917 deed de tsaar troonsafstand.",
+        "De Oktoberrevolutie van 1917 bracht de bolsjewieken onder Lenin aan de macht.",
+        "Oorlogscommunisme: industrie in handen van de staat, graan opgeëist, voedsel op rantsoen.",
     ],
 )
 
@@ -624,6 +679,17 @@ BUNDELS["interbellum-totalitarisme-en-crisis-beyond"] = dict(
                   "meer</strong>: amper een week later viel hij Polen binnen."),
         ]),
     ],
+    onthoud=[
+        "Oorzaken van de crash van 1929: aandelen op krediet, overproductie en ongelijke welvaart.",
+        "Met de New Deal vanaf 1933 ging de Amerikaanse overheid zich met de economie bemoeien.",
+        "Stalins vijfjarenplannen vanaf 1928 moesten de zware industrie in hoog tempo uitbouwen.",
+        "Collectivisatie leidde tot een zware hongersnood, onder meer in Oekraïne.",
+        "Een totalitaire staat heeft één partij, één leider en een geheime politie.",
+        "Mussolini kwam in 1922 aan de macht na de Mars op Rome.",
+        "Hitler werd rijkskanselier in januari 1933; de Machtigingswet liet hem zonder parlement regeren.",
+        "Door de Neurenbergse wetten van 1935 verloren Joden hun burgerrechten.",
+        "Appeasement: in München (1938) mocht Duitsland het Sudetenland inlijven.",
+    ],
 )
 
 # ───────────────────────── 7. De Tweede Wereldoorlog en de Holocaust
@@ -714,6 +780,17 @@ BUNDELS["de-tweede-wereldoorlog-en-de-holocaust-beyond"] = dict(
                   "spoorwegpersoneel</strong>, dan gebruik je de redeneerwijze <strong>menselijke actoren "
                   "benoemen</strong>."),
         ]),
+    ],
+    onthoud=[
+        "De oorlog begon in Europa met de Duitse inval in Polen.",
+        "De keerpunten van 1942 zijn Stalingrad, El Alamein en Midway.",
+        "In de Tweede Wereldoorlog vielen meer burgerslachtoffers dan militaire slachtoffers.",
+        "Na de oorlog werden de Verenigde Staten en de Sovjet-Unie supermachten.",
+        "Duitsland viel België binnen op 10 mei 1940; de veldtocht duurde 18 dagen.",
+        "Collaboratie was politiek, militair of economisch; na de bevrijding volgde de repressie.",
+        "Op de Wannseeconferentie van januari 1942 werd de organisatie van de vernietiging van de Joden besproken.",
+        "Bij benadering kwamen 6 miljoen Joden om.",
+        "Uit België vertrokken de treinen vanuit de Dossinkazerne in Mechelen naar Auschwitz.",
     ],
 )
 
@@ -810,6 +887,17 @@ BUNDELS["een-nieuwe-wereldorde-vn-koude-oorlog-en-europa-beyond"] = dict(
                   "van kracht eind januari 2020."),
         ]),
     ],
+    onthoud=[
+        "De VN werden in 1945 opgericht om de vrede en de veiligheid in de wereld te bewaren.",
+        "In de Veiligheidsraad hebben 5 vaste leden een vetorecht.",
+        "De Koude Oorlog heet koud omdat de supermachten nooit rechtstreeks tegen elkaar vochten.",
+        "De Berlijnse Muur werd gebouwd in 1961; de Cubacrisis volgde in 1962.",
+        "De Berlijnse Muur viel in november 1989, twee jaar later hield de Sovjet-Unie op te bestaan.",
+        "Na de Koude Oorlog werd de wereld voorlopig unipolair.",
+        "De Europese eenmaking moest een nieuwe oorlog tussen buurlanden onmogelijk maken.",
+        "Verdragen: Rome 1957, Maastricht 1992, Lissabon 2007, in werking 2009.",
+        "De Raad van de Europese Unie en de Europese Raad zijn niet hetzelfde orgaan.",
+    ],
 )
 
 # ───────────────────────── 9. Dekolonisatie en de wereld van vandaag
@@ -905,6 +993,17 @@ BUNDELS["dekolonisatie-en-de-wereld-van-vandaag-beyond"] = dict(
                       "koloniale verleden ligt niet achter ons; het zit in de kaart, in de taal en in je "
                       "telefoon."),
         ]),
+    ],
+    onthoud=[
+        "Dekolonisatie: koloniën worden zelfstandige staten en maken zich los van hun kolonisator.",
+        "1960 heet het Afrikajaar: zeventien Afrikaanse koloniën werden toen onafhankelijk.",
+        "Neokolonialisme is economische overheersing van een land dat politiek wel onafhankelijk is.",
+        "In Bandung kwamen in 1955 Aziatische en Afrikaanse landen samen tegen kolonialisme en blokvorming.",
+        "Dekolonisering van het denken: opnieuw bekijken hoe wij over het koloniale verleden spreken.",
+        "Congo werd onafhankelijk op 30 juni 1960; Lumumba werd de eerste eerste minister.",
+        "Lumumba werd in januari 1961 in Katanga vermoord.",
+        "Mobutu greep in 1965 de macht en noemde het land in 1971 Zaïre.",
+        "In 2019 ging de macht voor het eerst na verkiezingen van de ene president naar de andere.",
     ],
 )
 
@@ -1017,6 +1116,17 @@ BUNDELS["belgie-na-1945-beyond"] = dict(
                       "breuklijn</strong>. Telkens de spanning te hoog opliep, kwam er een nieuwe ronde."),
         ]),
     ],
+    onthoud=[
+        "Het sociaal pact van 1944 legde de grondslagen van een verplichte sociale zekerheid.",
+        "Drie breuklijnen: levensbeschouwelijk, sociaaleconomisch en communautair.",
+        "Het schoolpact van 1958 regelde de financiering van het vrije en het officiële onderwijs.",
+        "Na de koningskwestie deed Leopold III troonsafstand ten voordele van zijn zoon Boudewijn.",
+        "Na Leuven Vlaams (1968) splitsten de nationale partijen in een Vlaamse en een Franstalige.",
+        "De verzuiling werd vanaf de jaren zestig zwakker, maar zuilorganisaties zijn niet verdwenen.",
+        "Eerste staatshervorming in 1970; sinds 1993 is België volgens artikel 1 een federale staat.",
+        "Gemeenschappen gaan over personen, gewesten onder meer over ruimtelijke ordening en economie.",
+        "De staatshervormingen zijn vooral antwoorden op de communautaire breuklijn.",
+    ],
 )
 
 # ───────────────────────── 11. Denken, kunst en emancipatie
@@ -1122,6 +1232,17 @@ BUNDELS["denken-kunst-en-emancipatie-beyond"] = dict(
                   "elkaar.</strong> Dezelfde jaren, dezelfde beweging: jongeren, vrouwen en minderheden "
                   "eisten een plaats op, en de kunst brak tegelijk met wat hoort en niet hoort."),
         ]),
+    ],
+    onthoud=[
+        "Emancipatie: een groep verwerft gelijke rechten en maakt zich los uit een ondergeschikte positie.",
+        "Vrouwen kregen in 1948 stemrecht voor de nationale verkiezingen.",
+        "Het glazen plafond is een onzichtbare grens die vrouwen van de hoogste functies weghoudt.",
+        "België opende in 2003 als tweede land ter wereld het huwelijk voor koppels van hetzelfde geslacht.",
+        "Rosa Parks weigerde in 1955 haar zitplaats op de bus aan een witte reiziger af te staan.",
+        "Martin Luther King staat voor geweldloos verzet en gelijke rechten voor alle Amerikanen.",
+        "Een beweging voert actie rond een thema, een partij komt op bij verkiezingen.",
+        "Popart haalt haar beelden uit reclame, strips en supermarkt, met felle, vlakke kleuren.",
+        "Warhol gebruikte de zeefdruk, Lichtenstein vergrote stripbeelden met zichtbare drukstippen.",
     ],
 )
 
@@ -1235,6 +1356,17 @@ BUNDELS["redeneren-met-historische-bronnen-beyond"] = dict(
                   "informatie uit de bronnen samenbrengen met je historische kennis</strong>. Zelf een bron "
                   "maken hoort bij geen enkele stap."),
         ]),
+    ],
+    onthoud=[
+        "Een onderzoekbare vraag is afgebakend in tijd en ruimte, en er bestaan bronnen voor.",
+        "Bij een bronnenanalyse verzamel je eerst informatie over de context van de bron.",
+        "Primair en secundair zeggen iets over de afstand in tijd, niet over de kwaliteit.",
+        "Ontbreken er contextgegevens, dan noteer je dat en hou je er rekening mee.",
+        "Standplaatsgebondenheid: de maker kijkt vanuit zijn eigen positie, tijd en belangen.",
+        "Een bron die propaganda is, is daarom niet onbruikbaar.",
+        "Je beoordeelt bruikbaarheid, betrouwbaarheid, representativiteit en presentatie.",
+        "Onafhankelijke bronnen die hetzelfde vertellen, versterken de betrouwbaarheid: dat heet kruisen.",
+        "Stappenplan: context, inhoud, interpreteren en beoordelen, samenbrengen met je kennis.",
     ],
 )
 
@@ -1363,5 +1495,16 @@ BUNDELS["beeldvorming-vergelijken-en-verleden-heden-toekomst-beyond"] = dict(
                       "kan geschiedenis niet. Herkennen wel: hoe propaganda werkt, hoe een crisis een "
                       "samenleving splijt, hoe rechten verworven en verloren raken."),
         ]),
+    ],
+    onthoud=[
+        "Historische beeldvorming is het beeld van het verleden opgebouwd uit bronnen en interpretatie.",
+        "Een historicus kan niet volledig neutraal naar het verleden kijken.",
+        "Bewijs gebruiken: elke uitspraak over het verleden moet op bronnen kunnen steunen.",
+        "Een bedoeld gevolg is wat de betrokkene wilde bereiken, een onbedoeld gevolg niet.",
+        "Actualiseren is een verband leggen met vandaag, niet het verleden beoordelen met de maatstaf van nu.",
+        "Een stereotypering is een vast en vereenvoudigd beeld van een hele groep mensen.",
+        "Je vergelijkt samenlevingen om ze beter te begrijpen, niet om er een rangorde van te maken.",
+        "Een collectieve herinnering is het gedeelde beeld dat een groep bewaart en doorgeeft.",
+        "In een rechtsstaat moet ook een verkozen meerderheid zich aan de wet en de grondrechten houden.",
     ],
 )

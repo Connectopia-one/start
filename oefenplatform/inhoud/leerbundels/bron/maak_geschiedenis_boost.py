@@ -203,6 +203,17 @@ BUNDELS["het-historisch-referentiekader-boost-doorstroom"] = dict(
                        "in elke andere bundel terug, want elk thema wordt erin geplaatst."),
         ]),
     ],
+    onthoud=[
+        "Het historisch referentiekader heeft drie assen: tijd, ruimte en maatschappelijke domeinen.",
+        "Chronologie zet gebeurtenissen in volgorde, periodisering verdeelt de tijd in stukken met een naam.",
+        "Een evolutie is geleidelijk, een revolutie ingrijpend; revolutie slaat op de omvang, niet altijd op de snelheid.",
+        "Ongelijktijdigheid: in de 13de eeuw schrijft het Arabische rijk al op papier, Europa nog op perkament.",
+        "Zeven periodes: prehistorie, oude nabije oosten, klassieke oudheid, middeleeuwen, vroegmoderne, moderne en hedendaagse tijd.",
+        "Scharnierpunten zijn 476, 1453 en 1492; een periodegrens is altijd voor discussie vatbaar.",
+        "Mondiaal raakt de hele wereld, ruraal betekent op het platteland; maritiem is een begrip van de ruimte.",
+        "Vier maatschappelijke domeinen: politiek, sociaal, economisch en cultureel. Eén gebeurtenis kan in meerdere tegelijk thuishoren.",
+        "Je gebruikt het kader om te situeren, te vergelijken en een historische vraag af te bakenen.",
+    ],
 )
 
 # ───────────────────────── 2. Van Rome naar de Franken
@@ -349,6 +360,17 @@ BUNDELS["van-rome-naar-de-franken-boost-doorstroom"] = dict(
                       "Dat het antwoord van iemand anders kan verschillen, is geen fout."),
         ]),
     ],
+    onthoud=[
+        "Het West-Romeinse Rijk valt symbolisch in 476, maar de val was een proces van meer dan een eeuw.",
+        "Interne oorzaken van de Germaanse migraties: bevolkingsgroei en gebrek aan landbouwgrond. Extern: vooral de Hunnen.",
+        "Germaanse, Romeinse en christelijke tradities versmelten tot een gemengde samenleving.",
+        "De Merovingers zijn de eerste Frankische dynastie; Clovis laat zich rond 500 dopen.",
+        "Het Frankische erfrecht verdeelt het rijk onder de zonen, waardoor het telkens uiteenvalt.",
+        "Karel de Grote wordt in 800 tot keizer gekroond en bestuurt zijn rijk met graven en missi dominici.",
+        "Bij het Verdrag van Verdun in 843 wordt het rijk onder drie kleinzonen verdeeld.",
+        "Bij de invallen van Noormannen, Saracenen en Hongaren zocht de bevolking bescherming bij de lokale heer.",
+        "Of Karel de Grote de vader van Europa is, is een historische vraag: je antwoordt met argumenten uit bronnen.",
+    ],
 )
 
 # ───────────────────────── 3. Standen, domein en stad
@@ -471,6 +493,17 @@ BUNDELS["standen-domein-en-stad-boost-doorstroom"] = dict(
                   "continuïteit: er ontstaat een nieuwe groep die rijk is zonder adellijk te zijn, en de oude "
                   "standenleer had daar geen plaats voor."),
         ]),
+    ],
+    onthoud=[
+        "Drie standen: de geestelijkheid bidt, de adel strijdt, de derde stand werkt.",
+        "Niet je verdienste maar je geboorte bepaalde je plaats in de standensamenleving.",
+        "Een domein bestaat uit vroonland voor de heer en hoevenland voor de boeren, en is zelfvoorzienend.",
+        "Een horige was niet vrij om te vertrekken, maar was geen slaaf en had een eigen hoeve.",
+        "Het drieslagstelsel verdeelt de grond in wintergraan, zomergraan en braak; zo is er meer grond in gebruik.",
+        "Vanaf de 11de eeuw bloeien de steden weer op, vaak aan een rivier.",
+        "Een ambacht of gilde regelt wie het beroep mag uitoefenen, de kwaliteit van het werk en de opleiding.",
+        "Met de stad komt de geldeconomie op; een keure is een oorkonde met stadsrechten.",
+        "Vanaf 1347 sterft door de pest naar schatting een derde van de bevolking.",
     ],
 )
 
@@ -618,6 +651,17 @@ BUNDELS["geloof-kunst-en-macht-in-de-middeleeuwen-boost-doorstroom"] = dict(
                       "ander beeld van dezelfde gebeurtenis."),
         ]),
     ],
+    onthoud=[
+        "Missionarissen bekeerden eerst de vorst, en daarna zijn volk.",
+        "De Kerk is een piramide: paus, bisschoppen, pastoors. Monniken leven in een klooster volgens een regel.",
+        "Ketterij is een geloofsopvatting die van de leer van de Kerk afwijkt.",
+        "Romaans: rondbogen, dikke muren, kleine vensters. Gotisch: spitsbogen, kruisribgewelven, luchtbogen en grote glasramen.",
+        "Op een middeleeuwse kaart staat Jeruzalem in het midden en het oosten bovenaan.",
+        "De Franse koning regeert steeds meer alleen, de Engelse steeds meer samen met een parlement.",
+        "De Guldensporenslag van 11 juli 1302 was geen taalstrijd maar een strijd om macht, geld en zeggenschap.",
+        "De motieven voor de kruistochten waren godsdienstig, economisch en sociaal; in 1291 viel Akko.",
+        "Het contact tussen de islam en het Westen bestond zowel uit oorlog als uit handel en kennisoverdracht.",
+    ],
 )
 
 # ───────────────────────── 5. De 'Nieuwe' Wereld en de driehoekshandel
@@ -759,6 +803,17 @@ BUNDELS["de-nieuwe-wereld-en-de-driehoekshandel-boost-doorstroom"] = dict(
                        "nijverheid kwijnde. De winst bleef uiteindelijk bij de landen die leverden."),
         ]),
     ],
+    onthoud=[
+        "Motieven voor de ontdekkingsreizen: economisch, godsdienstig en politiek, of goud, God en glorie.",
+        "Kompas, astrolabium en jakobsstaf maakten de reizen op open zee mogelijk.",
+        "Columbus bereikt in 1492 de Caraïben; Vasco da Gama bereikt in 1498 Calicut.",
+        "Ziekten waartegen de precolumbiaanse bevolking geen weerstand had, waren de belangrijkste oorzaak van de demografische inzinking.",
+        "Eerste kolonisatiegolf: Portugal en Spanje. Tweede golf, vanaf de 17de eeuw: Engeland, Frankrijk en de Verenigde Provinciën.",
+        "Driehoekshandel: wapens, textiel en alcohol naar Afrika, tot slaaf gemaakte mensen naar Amerika, suiker, katoen en tabak naar Europa.",
+        "Handelskapitalisme: winst opnieuw investeren, kapitaal samenleggen en het risico spreiden.",
+        "Mercantilisme: een land moet meer uitvoeren dan invoeren.",
+        "Het vruchtwisselstelsel maakt braakland overbodig; de standen blijven bestaan tot de Franse Revolutie.",
+    ],
 )
 
 # ───────────────────────── 6. Humanisme, Reformatie, renaissance en barok
@@ -897,6 +952,17 @@ BUNDELS["humanisme-reformatie-renaissance-en-barok-boost-doorstroom"] = dict(
                   "veranderen. Toch blijft veel doorlopen: de standen, de landbouw, de macht van de vorsten."),
         ]),
     ],
+    onthoud=[
+        "Het humanisme ontstond in de Italiaanse steden en grijpt terug naar de Griekse en Romeinse oudheid.",
+        "Erasmus schreef Lof der Zotheid; de boekdrukkunst verspreidde de ideeën van de humanisten snel.",
+        "Vesalius ontleedde zelf lichamen en toonde dat de oude teksten niet in alles gelijk hadden.",
+        "In 1517 hing Luther zijn stellingen tegen de aflaathandel op: sola fide en sola scriptura.",
+        "Calvinisme: predestinatie, een sobere eredienst zonder beelden en gekozen ouderlingen.",
+        "Het Concilie van Trente vergaderde van 1545 tot 1563 en legde de katholieke leer opnieuw vast.",
+        "Renaissance: evenwicht, rust, heldere verhoudingen en perspectief; ze bloeit rond 1500.",
+        "Barok: beweging, drama en licht-donkercontrasten; de kunst van de Contrareformatie, vanaf ongeveer 1600.",
+        "Een kunstwerk is ook een bron: vraag wie het betaalde, voor welk publiek en wat er bewust wel en niet op staat.",
+    ],
 )
 
 # ───────────────────────── 7. Vorsten, opstand en de Verlichting
@@ -1028,6 +1094,17 @@ BUNDELS["vorsten-opstand-en-de-verlichting-boost-doorstroom"] = dict(
                       "van het gezag verschuift van <strong>God naar het volk</strong>. Wie zegt dat de macht "
                       "van het volk komt, zegt ook dat ze teruggenomen kan worden."),
         ]),
+    ],
+    onthoud=[
+        "Bij het vorstelijk absolutisme ligt alle macht bij de koning, die zich op het droit divin beroept.",
+        "Lodewijk XIV gebruikte Versailles om de adel aan het hof te binden.",
+        "De Glorious Revolution van 1688 en de Bill of Rights van 1689 begrensden de macht van de Engelse vorst.",
+        "Oorzaken van de Opstand: aantasting van de privileges, vervolging van protestanten en zware belastingen.",
+        "De Beeldenstorm is van 1566, het Plakkaat van Verlatinghe van 1581, de Vrede van Münster van 1648.",
+        "In het zuiden werd de Schelde gesloten en bleef het gebied katholiek en onder Spaans bestuur.",
+        "Montesquieu: scheiding der machten. Rousseau: volkssoevereiniteit. Locke: natuurlijke rechten. Kant: durf zelf te denken.",
+        "Rechtsgelijkheid: dezelfde wet voor iedereen. Rechtszekerheid: vooraf weten wat verboden is en welke straf erop staat.",
+        "In de Belgische grondwet herken je de scheiding der machten en de gelijkheid van alle Belgen voor de wet.",
     ],
 )
 
@@ -1169,6 +1246,17 @@ BUNDELS["amerika-frankrijk-en-de-industriele-omwenteling-boost-doorstroom"] = di
                        "in."),
         ]),
     ],
+    onthoud=[
+        "No taxation without representation: wie geen vertegenwoordigers in het parlement heeft, mag er niet belast worden.",
+        "De Onafhankelijkheidsverklaring werd op 4 juli 1776 ondertekend; de Amerikaanse staat werd een federale republiek.",
+        "Oorzaken van de Franse Revolutie: een lege staatskas, een derde stand die betaalde zonder iets te zeggen, en misoogsten.",
+        "Op 14 juli 1789 werd de Bastille bestormd; de Verklaring van de Rechten van de Mens gaf vrouwen geen gelijke politieke rechten.",
+        "Fasen van de Franse Revolutie: grondwettelijke monarchie, republiek met de Terreur, Directoire en Napoleon.",
+        "Het Franse bestuur liet de burgerlijke stand, een wetboek en het metriek stelsel na.",
+        "De industriële revolutie begon vanaf ongeveer 1750 in Groot-Brittannië; België volgde als een van de eerste landen.",
+        "In een fabriek doen machines het zware werk, in een manufactuur handen.",
+        "Aanbodfactoren maken de productie mogelijk, de vraagkant gaat over wie het koopt; je hebt beide nodig.",
+    ],
 )
 
 # ───────────────────────── 9. Het Ottomaanse Rijk en samenlevingen vergelijken
@@ -1295,6 +1383,17 @@ BUNDELS["het-ottomaanse-rijk-en-samenlevingen-vergelijken-boost-doorstroom"] = d
                   "vragen</strong>: hoe ordenen mensen macht, hoe verdelen ze werk, hoe gaan ze om met wie "
                   "anders is?"),
         ]),
+    ],
+    onthoud=[
+        "In 1453 veroverden de Ottomanen Constantinopel.",
+        "De sultan was ook kalief: wereldlijk en godsdienstig hoofd tegelijk.",
+        "Het millet-stelsel liet godsdienstige minderheden hun eigen gemeenschap besturen.",
+        "Suleyman I regeerde van 1520 tot 1566, in dezelfde jaren als Karel V.",
+        "Capitulaties zijn handelsvoorrechten voor Europese kooplui; de naam heeft niets met overgave te maken.",
+        "De 16de eeuw is het hoogtepunt van het Ottomaanse Rijk, geen verval.",
+        "Imperialisme is macht over andere gebieden uitbreiden; kolonialisme is daar één vorm van.",
+        "Vergelijken is zowel gelijkenissen als verschillen benoemen, met vaste kenmerken.",
+        "Historische empathie is begrijpen waarom iets toen vanzelfsprekend leek; dat is niet hetzelfde als goedkeuren.",
     ],
 )
 
@@ -1429,6 +1528,17 @@ BUNDELS["redeneren-met-historische-bronnen-boost-doorstroom"] = dict(
                   "waard is, maar dat je verschillende standpunten kent en weegt."),
         ]),
     ],
+    onthoud=[
+        "Een historicus stelt eerst een vraag en zoekt pas daarna bronnen.",
+        "Een onderzoekbare vraag is afgebakend in tijd, ruimte en domein, en er bestaan bruikbare bronnen voor.",
+        "In stap 1 verzamel je, in stap 2 beoordeel je, in stap 3 interpreteer je.",
+        "Een primaire bron komt uit de tijd zelf, een secundaire bron is er later over gemaakt.",
+        "Standplaatsgebondenheid: wie iets vertelt, doet dat vanuit zijn eigen plaats, tijd en belangen.",
+        "De bruikbaarheid van een bron hangt altijd af van jouw historische vraag.",
+        "Een veralgemening trekt uit één of enkele gevallen een besluit over het geheel.",
+        "In stap 4 formuleer je een beargumenteerd antwoord; één bron volstaat daarvoor niet.",
+        "Een onbedoeld gevolg is een gevolg dat niemand nastreefde, maar dat er toch kwam.",
+    ],
 )
 
 # ───────────────────────── 11. Beeldvorming en het verleden vandaag
@@ -1555,5 +1665,15 @@ BUNDELS["beeldvorming-en-het-verleden-vandaag-boost-doorstroom"] = dict(
                       "je mag vragen <strong>door wie en waarom</strong>. Niet alles is even waar, en niet "
                       "niets is kenbaar."),
         ]),
+    ],
+    onthoud=[
+        "Historische beeldvorming is het beeld van het verleden dat iemand opbouwt uit bronnen.",
+        "Zo’n beeld is altijd een constructie en kan veranderen door nieuwe bronnen en nieuwe vragen.",
+        "Persoonlijke en maatschappelijke context kleuren het beeld; ook een geschiedenisboek van vandaag is standplaatsgebonden.",
+        "Over de inname van Jeruzalem in 1099 geven Arabische en westerse bronnen een ander beeld.",
+        "In de 19de eeuw werd de Guldensporenslag een Vlaamse overwinning op een vreemde overheerser.",
+        "Wat men herdenkt en hoe, hangt af van wat een samenleving nu belangrijk vindt.",
+        "De lagen van identiteit sluiten elkaar niet uit.",
+        "Kunst analyseer je in stappen: informatie verzamelen, beschrijven, interpreteren en je analyse verwoorden.",
     ],
 )

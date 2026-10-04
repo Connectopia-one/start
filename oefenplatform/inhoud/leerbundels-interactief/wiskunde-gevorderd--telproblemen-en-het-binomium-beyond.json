@@ -105,5 +105,15 @@
    ]
   }
  ],
- "onthoud": []
+ "onthoud": [
+  "n faculteit is het product van alle natuurlijke getallen van één tot en met n; nul faculteit is één.",
+  "Een permutatie is een rangschikking van alle elementen: vijf boeken kan op honderdtwintig manieren.",
+  "Bij een variatie telt de volgorde mee, bij een combinatie niet.",
+  "Bij een herhalingsvariatie mag een element meer dan één keer voorkomen.",
+  "Of-of betekent optellen, en-en betekent vermenigvuldigen.",
+  "Complementregel: tel de gevallen die niet voldoen en trek dat van het totaal af.",
+  "In de driehoek van Pascal is elk getal de som van de twee getallen schuin erboven.",
+  "De som van rij n van de driehoek van Pascal is twee tot de macht n.",
+  "a plus b in het kwadraat is niet a kwadraat plus b kwadraat: de middelste term twee ab ontbreekt."
+ ]
 }

@@ -92,5 +92,15 @@
    ]
   }
  ],
- "onthoud": []
+ "onthoud": [
+  "Een primitieve functie van f is een functie waarvan de afgeleide f is.",
+  "Bij een onbepaalde integraal schrijf je altijd plus C, bij een bepaalde integraal niet.",
+  "De primitieve van x tot de macht n is x tot de macht n plus één, gedeeld door n plus één.",
+  "De primitieve van één gedeeld door x is de natuurlijke logaritme van de absolute waarde van x.",
+  "De primitieve van de sinus van x is min de cosinus van x.",
+  "Een constante factor mag voor het integraalteken, een factor met een x erin niet.",
+  "Bij substitutie kies je een binnenste functie waarvan de afgeleide ook in de integrand staat.",
+  "Partiële integratie volgt uit de productregel; vergeet het minteken in de formule niet.",
+  "Controleer een onbepaalde integraal door je antwoord af te leiden."
+ ]
 }

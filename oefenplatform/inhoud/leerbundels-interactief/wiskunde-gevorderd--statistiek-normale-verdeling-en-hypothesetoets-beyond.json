@@ -109,5 +109,15 @@
    ]
   }
  ],
- "onthoud": []
+ "onthoud": [
+  "De Gausskromme is klokvormig en symmetrisch rond het gemiddelde.",
+  "Het gemiddelde bepaalt waar de top ligt, de standaardafwijking hoe breed de kromme is.",
+  "Een kans is de oppervlakte onder de kromme; de totale oppervlakte is één.",
+  "De z-score is het verschil met het gemiddelde, gedeeld door de standaardafwijking.",
+  "Binnen één standaardafwijking ligt ongeveer achtenzestig procent, binnen twee ongeveer vijfennegentig procent.",
+  "Een steekproef is representatief als ze op de belangrijke kenmerken op de populatie lijkt.",
+  "Sterke samenhang betekent niet dat de ene de oorzaak van de andere is.",
+  "De p-waarde is de kans op zo'n resultaat of extremer, als de nulhypothese waar is.",
+  "Ligt de p-waarde onder alfa, dan verwerp je de nulhypothese."
+ ]
 }
