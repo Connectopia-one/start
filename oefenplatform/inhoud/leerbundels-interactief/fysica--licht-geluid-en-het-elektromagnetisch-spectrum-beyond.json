@@ -1,0 +1,114 @@
+{
+ "vak": "Fysica",
+ "titel": "Licht, geluid en het elektromagnetisch spectrum",
+ "onder": "Van spiegel en lens tot decibel en dopplereffect.",
+ "secties": [
+  {
+   "kop": "Licht als elektromagnetische golf",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>elektromagnetische golf</strong> is <strong>een transversale golf die in vacuüm met de lichtsnelheid loopt</strong>. Die lichtsnelheid is <strong>300000000</strong> meter per seconde, en <strong>licht gaat in water langzamer dan in vacuüm</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het verschil tussen regelmatige en diffuse weerkaatsing: <strong>bij een ruw oppervlak kaatsen de stralen alle kanten op</strong>. Daarom zie je in een blad papier geen beeld en in een spiegel wel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het beeld in een vlakke spiegel <strong>is virtueel</strong>, <strong>staat rechtop</strong> en <strong>is even groot als het voorwerp</strong>. Een <strong>virtueel beeld</strong> is <strong>een beeld dat je niet op een scherm kan opvangen</strong>: de stralen komen er niet echt samen, ze lijken er enkel vandaan te komen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>kernschaduw</strong> ontstaat doordat <strong>daar geen licht van de bron meer toe komt</strong>. <strong>Bij een maansverduistering staat de maan niet tussen de zon en de aarde</strong> maar de aarde tussen de zon en de maan; staat de maan ertussen, dan is het een zonsverduistering."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>brandpunt van een bolle lens</strong> is <strong>het punt waar stralen langs de optische as samenkomen</strong>. Staat een <strong>voorwerp verder dan tweemaal de brandpuntsafstand</strong>, dan krijg je <strong>een reëel, omgekeerd en kleiner beeld</strong>, zoals in een fototoestel."
+    }
+   ]
+  },
+  {
+   "kop": "Het spectrum van radiogolf tot gamma",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Van lage naar hoge frequentie liggen de soorten straling zo: <strong>radiogolven, microgolven, infrarood, licht, uv, röntgen, gamma</strong>. Het verband met het pakketje energie: <strong>de energie stijgt met de frequentie en daalt met de golflengte</strong>. Dat kleinste pakketje energie van licht heet een <strong>foton</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Ioniserend</strong> zijn <strong>röntgenstraling</strong>, <strong>gammastraling</strong> en <strong>hoogenergetische uv-straling</strong>: die fotonen dragen genoeg energie om een elektron uit een molecule te slaan. <strong>Microgolven worden in een magnetron niet gebruikt omdat ze ioniserend zijn</strong> maar omdat ze watermoleculen doen trillen, wat warmte geeft."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Radiogolven</strong> gebruikt men voor communicatie over grote afstand omdat <strong>ze een groot doordringend vermogen hebben en goed afbuigen</strong>. Een <strong>bagagescanner op de luchthaven</strong> werkt met <strong>röntgenstraling</strong>, die door een koffer gaat en door metaal niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Beschermen tegen hoogenergetische straling doe je met <strong>zonnecrème en een zonnebril tegen uv-straling</strong>, <strong>een loden schort bij een röntgenfoto</strong> en door <strong>zo weinig en zo kort mogelijk blootgesteld te worden</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>proef van Young</strong> laat zien <strong>dat licht zich als een golf gedraagt</strong>: achter twee spleten ontstaat een patroon van lichte en donkere strepen. <strong>Voor interferentie van licht heb je twee coherente bronnen nodig</strong>, en daar zorgt die dubbele spleet voor."
+    }
+   ]
+  },
+  {
+   "kop": "Geluid: snelheid, toonhoogte en klankkleur",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Geluid loopt het snelst <strong>in staal</strong>: hoe steviger de deeltjes aan elkaar hangen, hoe vlugger de verdichting doorgeeft. <strong>Geluid loopt in warme lucht sneller dan in koude lucht</strong>, want de moleculen bewegen er heftiger. Zie je een bliksem en hoor je de donder <strong>6 s</strong> later, dan is het onweer <strong>ongeveer 2 km</strong> ver, met 340 m/s."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het verband met wat je hoort: <strong>een hogere frequentie geeft een hogere toon</strong>. Het verschil tussen een viool en een fluit op dezelfde toon hoor je <strong>aan de klankkleur, dus aan de vorm van het patroon</strong>; die klankkleur heet ook <strong>timbre</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een mens hoort normaal <strong>van ongeveer 20 Hz tot ongeveer 20 000 Hz</strong>. <strong>Ultrasoon</strong> geluid is <strong>geluid met een frequentie boven de 20 000 Hz</strong>, gebruikt bij <strong>een echografie bij de dokter</strong>, door <strong>een vleermuis die zijn weg zoekt</strong> en in <strong>een sonar die de diepte van de zee meet</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Decibel en gehoorschade",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De gehoordrempel van een mens ligt <strong>bij 0 dB</strong>. Van de gevaargrens voor het gehoor spreekt men vanaf <strong>80</strong> decibel. <strong>Gehoorschade hangt zowel van het geluidsniveau als van de duur van de blootstelling af</strong>: zacht en lang kan even schadelijk zijn als hard en kort."
+    },
+    {
+     "soort": "tekst",
+     "html": "De decibelschaal is logaritmisch: <strong>een geluid van 60 dB is niet twee keer zo intens als een geluid van 30 dB</strong> maar duizend keer. Ga je <strong>twee keer zo dicht bij een geluidsbron staan</strong>, dan wordt de intensiteit <strong>vier keer zo groot</strong>, want ze daalt met het kwadraat van de afstand."
+    },
+    {
+     "soort": "tekst",
+     "html": "Blijvende gehoorschade in het binnenoor ontstaat doordat <strong>de trilhaartjes van de haarcellen afbreken en niet terug groeien</strong>. Voorkomen doe je door <strong>oordopjes te dragen die het geluid gelijkmatig dempen</strong>, <strong>verder van de luidspreker te gaan staan</strong> en <strong>tussendoor een pauze te nemen op een stillere plek</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Snaren en het dopplereffect",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>grondfrequentie van een snaar</strong> is <strong>de laagste frequentie waarop ze als staande golf kan trillen</strong>. De harmonischen zijn er de veelvouden van: bij een grondfrequentie van <strong>220 Hz</strong> heeft de derde harmonische <strong>660 Hz</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>dopplereffect</strong> bij geluid is dat <strong>de waargenomen frequentie verschilt als bron en waarnemer bewegen</strong>: een ziekenwagen klinkt hoger als hij nadert. <strong>Bij het dopplereffect verandert de frequentie die de bron zelf uitzendt niet</strong>; enkel de golven komen dichter op elkaar of verder uit elkaar bij de waarnemer."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Licht is een transversale EM-golf, in vacuüm 3 · 10⁸ m/s.",
+  "Een spiegelbeeld is virtueel, rechtop en even groot.",
+  "Radio, micro, infrarood, licht, uv, röntgen, gamma.",
+  "Ioniserend: röntgen, gamma en harde uv.",
+  "Young laat zien dat licht een golf is.",
+  "Geluid: hoger in frequentie is hoger van toon; timbre is de klankkleur.",
+  "20 Hz tot 20 000 Hz; boven 80 dB wordt het gevaarlijk.",
+  "Doppler verandert wat je hoort, niet wat de bron uitzendt."
+ ]
+}

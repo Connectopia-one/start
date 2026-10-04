@@ -1,0 +1,97 @@
+{
+ "vak": "Fysica",
+ "titel": "Wetenschappelijk onderzoek, ontwerpen en STEM",
+ "onder": "Van een vraag naar een antwoord, en van een probleem naar een ontwerp.",
+ "secties": [
+  {
+   "kop": "Vraag, hypothese en plan",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>onderzoeksvraag</strong> is <strong>de vraag die je met je onderzoek wil beantwoorden</strong>; een <strong>hypothese</strong> is <strong>een verwachting die je vooraf opstelt en kan nagaan</strong>. De stap waarin je vastlegt hoe je je onderzoek zal uitvoeren is het <strong>onderzoeksplan</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De stappen van een wetenschappelijk onderzoek: <strong>het probleem definiëren en afbakenen</strong>, <strong>een onderzoeksvraag en een hypothese opstellen</strong> en <strong>data verzamelen en analyseren</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een bruikbare onderzoeksvraag voor een proef is er een als <strong>hoe hangt de periode van een slinger af van zijn lengte?</strong> <strong>Een onderzoeksvraag moet niet zo breed mogelijk opgesteld zijn</strong> maar juist scherp genoeg om te kunnen meten."
+    },
+    {
+     "soort": "tekst",
+     "html": "Over een hypothese geldt: <strong>ze wordt opgesteld voor je begint te meten</strong>, <strong>ze moet met een proef na te gaan zijn</strong> en <strong>ze kan door de resultaten weerlegd worden</strong>. Zo'n weerlegging is geen mislukking: <strong>een meting die je hypothese tegenspreekt, is een geldig resultaat</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Meten en verwerken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In een proef verander je maar één grootheid tegelijk, want <strong>anders weet je niet welke verandering het verschil veroorzaakte</strong>. De grootheid die je bewust verandert heet <strong>de onafhankelijke variabele</strong>. Meet je de valtijd van een bal vanaf verschillende hoogtes, dan zet je op de horizontale as <strong>de hoogte, want die kies je zelf</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je herhaalt een meting meerdere keren <strong>om toevallige afwijkingen uit je resultaat te halen</strong>. Een <strong>controleproef</strong> dient <strong>om te vergelijken met een opstelling waarin je niets verandert</strong>. Met een meting die sterk van de rest afwijkt doe je dit: <strong>je zoekt de oorzaak en vermeldt wat je ermee doet</strong>, in plaats van ze stil te laten verdwijnen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een goede conclusie moet <strong>de onderzoeksvraag beantwoorden op basis van de data</strong>; <strong>een conclusie mag niet verder gaan dan wat je gemeten hebt</strong>. In een goed verslag staat <strong>welke instrumenten je gebruikt hebt</strong>, <strong>welke grootheden je constant gehouden hebt</strong> en <strong>de meetwaarden met hun eenheid</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat een onderzoek <strong>herhaalbaar</strong> moet zijn, betekent: <strong>iemand anders moet met jouw plan hetzelfde kunnen vinden</strong>. Je laat anderen je resultaten nalezen omdat <strong>zij fouten en andere verklaringen zien die jij gemist hebt</strong>, en <strong>reflecteren over je gekozen methode hoort bij het onderzoek zelf</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Ontwerpen in stappen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De eerste stap bij het ontwerpen van een oplossing is <strong>het probleem helder definiëren</strong>. <strong>Criteria</strong> zijn <strong>de eisen waaraan je oplossing moet voldoen</strong>, en de kleinere stukken waarin je een groot probleem opsplitst zijn <strong>deelproblemen</strong>. Het geheel waarin je de oplossingen van alle deelproblemen samenbrengt is <strong>de totaaloplossing</strong>; <strong>je mag een deelprobleem niet oplossen zonder na te gaan of het in de totaaloplossing past</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een probleemoplossende strategie horen <strong>het probleem definiëren</strong>, <strong>criteria voor de oplossing opstellen</strong> en <strong>het probleem in deelproblemen splitsen</strong>. Voldoet je ontwerp niet aan een criterium, dan <strong>stuur je het ontwerp bij en test opnieuw</strong>; en ook nadat je een gegeven oplossing geëvalueerd hebt, <strong>stuur je ze bij waar ze de criteria niet haalt</strong>. <strong>Bij een ontwerp volstaat het soms om een bestaand systeem aan te passen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Vragen die je helpen een ontwerp te evalueren: <strong>haalt het elk criterium dat we opgesteld hebben?</strong>, <strong>waar zit de zwakste schakel in het geheel?</strong> en <strong>wat zou de volgende versie beter doen?</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Moet je een koeltas ontwerpen die een drankje vier uur koel houdt, dan is dit een criterium: <strong>de temperatuur mag na vier uur niet boven acht graden zijn</strong>. De fysicakennis die daarbij helpt, is <strong>hoe warmte door geleiding, stroming en straling verplaatst</strong>. Ontwerp je een brug van spaghetti die zoveel mogelijk moet dragen, dan zet je <strong>het evenwicht van krachten en het moment van een kracht</strong> in."
+    }
+   ]
+  },
+  {
+   "kop": "STEM",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De letters van <strong>STEM</strong> staan voor <strong>wetenschappen, technologie, techniek en wiskunde</strong>. Je bekijkt een probleem vanuit verschillende disciplines omdat <strong>elk vak een stuk van de oplossing aanbrengt</strong>, en <strong>bij een STEM-opdracht volstaat het niet om één discipline grondig in te zetten</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Tijdens de coronacrisis speelde wiskunde deze rol: <strong>de verspreiding van het virus in kaart brengen</strong>. Technologische kennis vroegen <strong>het vaccin op een heel lage temperatuur bewaren</strong>, <strong>het vaccin op grote schaal produceren</strong> en <strong>het vaccin over de hele wereld vervoeren</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Maatschappelijke uitdagingen zijn een reden om nieuwe technieken en materialen te ontwikkelen</strong>. Daarom is een onderzoek naar zonnepanelen ook een maatschappelijke zaak: <strong>de keuzes die eruit volgen raken ieders energie en kosten</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Onderzoeksvraag, hypothese, onderzoeksplan, meten, besluiten.",
+  "Eén grootheid tegelijk; de onafhankelijke op de horizontale as.",
+  "Herhalen haalt toevallige afwijkingen eruit.",
+  "Een conclusie blijft binnen wat je gemeten hebt.",
+  "Herhaalbaar: iemand anders vindt met jouw plan hetzelfde.",
+  "Ontwerpen: definiëren, criteria, deelproblemen, testen, bijsturen.",
+  "Elk deelprobleem moet in de totaaloplossing passen.",
+  "STEM is wetenschappen, technologie, techniek en wiskunde samen."
+ ]
+}

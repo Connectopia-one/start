@@ -1,0 +1,122 @@
+{
+ "vak": "Fysica",
+ "titel": "De wet van Coulomb en het elektrisch veld",
+ "onder": "Hoe sterk twee ladingen aan elkaar trekken, en hoe je dat als een veld beschrijft.",
+ "secties": [
+  {
+   "kop": "Een kracht die op afstand werkt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De elektrische kracht is een <strong>veldkracht</strong>: ze <strong>werkt op afstand, zonder dat er contact nodig is</strong>. Een <strong>puntlading</strong> is daarbij een lading <strong>die zo klein is dat je ze als één punt mag beschouwen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De kracht tussen twee puntladingen heet de <strong>coulombkracht</strong>, naar de man die ze beschreef. <strong>Gelijksoortige ladingen stoten elkaar af</strong> en <strong>ongelijksoortige trekken elkaar aan</strong>. Twee ladingen die elkaar afstoten, <strong>hoeven niet allebei positief te zijn</strong>: twee negatieve ladingen stoten elkaar even goed af. Kracht wordt uitgedrukt in <strong>newton</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De kracht die lading A op lading B uitoefent, is <strong>even groot als die van B op A</strong>, maar tegengesteld van zin. Dat is de derde wet van Newton, ook hier."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>neutraal voorwerp</strong> wordt toch <strong>aangetrokken</strong> door een geladen <strong>staaf</strong> omdat <strong>de dichtste kant tegengesteld geladen is en dus harder trekt</strong>. De staaf verschuift de ladingen in het voorwerp; de aantrekking van de nabije kant weegt zwaarder dan de afstoting van de verre kant, want de kracht daalt met het kwadraat van de afstand."
+    }
+   ]
+  },
+  {
+   "kop": "De wet van Coulomb",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In de <strong>wet van Coulomb</strong> staan precies drie dingen: <strong>de grootte van de beide ladingen</strong> en <strong>de afstand tussen de twee ladingen</strong>. De kracht is <strong>recht evenredig met het product van de twee ladingen</strong> en <strong>omgekeerd evenredig met het kwadraat van de afstand r</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Rekenen met die verhoudingen gaat zo. Trekken twee puntladingen elkaar aan met <strong>8 N</strong> en <strong>verdubbel je de afstand</strong>, dan wordt de kracht vier keer zo klein: <strong>2 N</strong>. Stoten ze elkaar af met <strong>6 N</strong> en <strong>verdrievoudig je één van de twee ladingen</strong>, dan wordt de kracht drie keer zo groot: <strong>18 N</strong>. <strong>Verdubbel je beide ladingen</strong>, dan wordt de kracht <strong>vier keer zo groot</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De constante <strong>k</strong> in die wet <strong>hangt af van de stof tussen de twee ladingen</strong> en <strong>staat in de bijlage die je op het examen krijgt</strong>. Omdat water de ladingen afschermt, is <strong>de elektrische kracht tussen twee ladingen zwakker in water dan in lucht</strong>, niet sterker."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>wet van Coulomb en de gravitatiewet hebben dezelfde vorm</strong>: een product boven en een kwadraat van de afstand onder. Het verschil is dat de gravitatie altijd aantrekt en de coulombkracht ook kan afstoten."
+    }
+   ]
+  },
+  {
+   "kop": "Meer dan één lading: optellen als vectoren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>resulterende kracht op een lading die door twee andere ladingen beïnvloed wordt</strong>, vind je door <strong>de twee krachten op te tellen als vectoren</strong>. Daarom reken je bij twee ladingen in twee hoekpunten van een vierkant <strong>de kracht op een derde lading niet zomaar op door op te tellen</strong>: <strong>de twee krachten wijzen in een andere richting</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Staan <strong>drie gelijke positieve ladingen op één rechte lijn, op gelijke afstand van elkaar</strong>, dan voelt de middelste <strong>geen enkele kracht</strong>, want <strong>de twee krachten heffen elkaar op</strong>: ze zijn even groot en tegengesteld van zin."
+    },
+    {
+     "soort": "tekst",
+     "html": "De kracht van een <strong>geladen bol</strong> op een puntlading is het grootst <strong>vlak bij het oppervlak van de bol</strong>, want daar is de afstand tot de lading het kleinst."
+    }
+   ]
+  },
+  {
+   "kop": "De elektrische veldsterkte",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>elektrische veldsterkte in een punt</strong> is <strong>de kracht per eenheid van lading in dat punt</strong>. Ze krijgt het symbool <strong>E</strong> en staat in <strong>N/C</strong>, newton per coulomb. Je berekent de kracht dus als F = E · q."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee rekenvoorbeelden. Is de veldsterkte in een punt <strong>200 N/C</strong>, dan werkt op een lading van <strong>3 mC</strong> een kracht van <strong>0,6 N</strong>. Werkt op een lading van <strong>5 µC</strong> in een punt een kracht van <strong>0,1 N</strong>, dan is de veldsterkte daar <strong>20 000 N/C</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het veld <strong>van een puntlading neemt af met het kwadraat van de afstand</strong> en <strong>hangt niet af van de proeflading die je erin zet</strong>: het veld hoort bij de lading die het maakt. Zit een <strong>positieve lading in een punt waar het veld naar rechts wijst</strong>, dan werkt de kracht ook <strong>naar rechts, in de zin van het veld</strong>; op een negatieve lading werkt ze er tegenin."
+    }
+   ]
+  },
+  {
+   "kop": "Veldlijnen en veldpatronen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een elektrisch veld in een punt stel je in een tekening voor <strong>met een pijl die de zin en de grootte van het veld aangeeft</strong>, en het hele veld met <strong>veldlijnen</strong>. De afspraak over hun zin: <strong>ze lopen weg van de positieve en naar de negatieve lading</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Drie regels over veldlijnen. <strong>Ze vertrekken bij een positieve lading en eindigen bij een negatieve.</strong> <strong>Ze snijden elkaar nooit</strong>, want in één punt kan het veld maar één zin hebben: <strong>twee veldlijnen kunnen elkaar dus niet kruisen</strong>. En <strong>hoe dichter de veldlijnen bij elkaar liggen, hoe sterker het veld daar is</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee patronen komen steeds terug. Rond <strong>één positieve puntlading</strong> krijg je een <strong>radiaal veld</strong>: <strong>rechte lijnen die stervormig naar buiten wijzen</strong>. Tussen <strong>twee evenwijdige, tegengesteld geladen platen</strong> krijg je een <strong>homogeen veld</strong>: daar is <strong>de veldsterkte overal dezelfde</strong>, zijn de <strong>veldlijnen recht en parallel</strong> en lopen ze <strong>van de positieve naar de negatieve plaat</strong>. Omdat zo'n veld overal even sterk is, <strong>wordt de veldsterkte niet kleiner naarmate je dichter bij de positieve plaat komt</strong>, en is <strong>de kracht op een lading er overal even groot</strong>. Tussen <strong>twee ongelijknamige puntladingen</strong> krijg je nog een derde patroon, het <strong>dipoolveld</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De kooi van Faraday",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Binnen in een geladen holle geleider is er geen veld</strong>, <strong>want de ladingen heffen elkaar daar op</strong>. Alle lading zit op het buitenoppervlak. Een metalen omhulsel dat de binnenkant zo tegen een elektrisch veld afschermt, heet een <strong>kooi van Faraday</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom is <strong>een auto een veilige plaats bij onweer</strong>: <strong>het metalen koetswerk leidt de lading rond de inzittenden</strong> naar de grond. Hetzelfde principe zit in de afscherming van een gevoelige meetkabel."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Coulomb: kracht ∝ product van de ladingen, ∝ 1/r².",
+  "Dubbele afstand is vier keer minder kracht.",
+  "Krachten van meerdere ladingen tel je op als vectoren.",
+  "Veldsterkte E is de kracht per eenheid van lading, in N/C.",
+  "Veldlijnen lopen van plus naar min en snijden elkaar nooit.",
+  "Radiaal rond een puntlading, homogeen tussen twee platen.",
+  "In een holle geleider is het veld nul: de kooi van Faraday."
+ ]
+}

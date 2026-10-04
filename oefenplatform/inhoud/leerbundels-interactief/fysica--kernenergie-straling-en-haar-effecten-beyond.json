@@ -1,0 +1,115 @@
+{
+ "vak": "Fysica",
+ "titel": "Kernenergie, straling en haar effecten",
+ "onder": "Van massadefect tot jodiumpil: waar de energie zit en wat de straling doet.",
+ "secties": [
+  {
+   "kop": "Massa is energie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De formule van Einstein zegt over een massa: <strong>elke massa is een hoeveelheid energie, namelijk m maal c kwadraat</strong>. In <strong>1 g</strong> massa zit met c gelijk aan 3 · 10⁸ m/s dus <strong>ongeveer 9 · 10¹³ J</strong>. En <strong>bij een kernproces blijft de totale massa van de deeltjes niet precies gelijk</strong>: een stukje massa wordt energie."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>massadefect</strong> van een kern is <strong>het verschil tussen de massa van de losse nucleonen en de kern</strong>. De energie die nodig is om een kern in losse nucleonen te splitsen heet de <strong>bindingsenergie</strong>; de <strong>specifieke bindingsenergie</strong> is <strong>de bindingsenergie gedeeld door het aantal nucleonen</strong>. <strong>Een kern met een grotere specifieke bindingsenergie is stabieler</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Splijting en fusie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Kernsplijting</strong> is: <strong>een zware kern valt in twee lichtere kernen uiteen</strong>. Zowel <strong>fusie van twee lichte kernen</strong> als <strong>splijting van een zware kern</strong> levert energie, want in beide gevallen schuif je naar kernen met een grotere specifieke bindingsenergie. Bij fusie van lichte kernen komt energie vrij omdat <strong>de nieuwe kern een grotere specifieke bindingsenergie heeft</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De energie van de zon komt van <strong>kernfusie van waterstof tot helium</strong>. Een gewone kerncentrale gebruikt <strong>uranium</strong> als splijtstof. Een centrale op kernfusie zou boven een op kernsplijting <strong>veel minder langlevend afval en geen kettingreactie die ontspoort</strong> hebben."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>regelstaven</strong> in een kernreactor dienen hiervoor: <strong>ze vangen neutronen weg en houden de kettingreactie in de hand</strong>. Bij een kerncentrale op kernsplijting horen <strong>een reactorvat met splijtstaven en regelstaven</strong>, <strong>een stoomgenerator en een turbine</strong> en <strong>een betonnen koepel rond de reactor</strong>. <strong>Een kerncentrale op kernsplijting stoot bij het opwekken van stroom geen CO₂ uit</strong>; het probleem zit in het afval."
+    }
+   ]
+  },
+  {
+   "kop": "Radioactief afval",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Radioactief afval wordt ingedeeld volgens twee kenmerken: <strong>de intensiteit van de straling en hoe lang ze duurt</strong>. In categorie A zit <strong>kortlevend laagactief en middelactief afval</strong>. Laagactief afval komt onder meer <strong>van beschermkledij en gereedschap uit een ziekenhuis of labo</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Voor hoogactief afval van categorie C ligt in België nog geen definitieve bergingsplaats vast</strong>: er is een onderzoekslabo in de kleilaag onder Mol, maar de keuze is niet gemaakt."
+    }
+   ]
+  },
+  {
+   "kop": "Alfa, bèta en gamma onderweg",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Alfastraling</strong> heeft het grootste ioniserend vermogen, maar <strong>alfastraling heeft van de drie soorten niet het grootste doordringend vermogen</strong>: juist het kleinste. Die twee gaan omgekeerd samen, want wie veel ioniseert, raakt zijn energie snel kwijt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wat welke straling tegenhoudt: <strong>een blad papier houdt alfastraling tegen</strong>, <strong>een plaatje aluminium houdt bètastraling tegen</strong> en <strong>een dikke laag lood of beton zwakt gammastraling af</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Omdat alfa en bèta geladen zijn, <strong>buigt alfastraling af in een elektrisch veld</strong>. In een magnetisch veld geldt: <strong>alfa en bèta buigen naar tegengestelde kanten, gamma gaat recht</strong>, want gammastraling heeft geen lading."
+    }
+   ]
+  },
+  {
+   "kop": "Dosis en bescherming",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het verschil tussen bestraling en besmetting: <strong>bij besmetting zit de radioactieve stof op of in je lichaam</strong>. Zit ze in het lichaam, dan spreekt men van <strong>inwendige besmetting</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>geabsorbeerde dosis</strong> is <strong>de energie van de straling per kilogram weefsel</strong>, in <strong>gray</strong>. De <strong>equivalente dosis</strong> is <strong>de geabsorbeerde dosis maal de stralingsweegfactor</strong>. Alfastraling heeft een veel hogere stralingsweegfactor dan gammastraling omdat <strong>ze haar energie in een heel klein gebied afgeeft</strong>. De <strong>weefselweegfactor</strong> dient <strong>om te verrekenen dat sommige organen gevoeliger zijn</strong>, en <strong>de effectieve dosis houdt rekening met de soort straling en met het bestraalde weefsel</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Beschermen tegen ioniserende straling doe je door <strong>verder van de bron te gaan staan</strong>, <strong>zo kort mogelijk in de buurt van de bron te blijven</strong> en met <strong>een afscherming van lood of beton tussen jou en de bron</strong>: afstand, tijd en afscherming."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een kernongeval deelt men jodiumpillen uit omdat <strong>de schildklier dan vol zit en geen radioactief jodium meer opneemt</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Wat straling met een cel doet, en waar ze helpt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het effect van ioniserende straling op een cel: <strong>ze kan het DNA beschadigen en de cel doen afsterven of muteren</strong>. <strong>Natuurlijke straling</strong> is <strong>straling van radon uit de bodem en van de kosmos</strong>; die is er altijd, ook zonder centrale in de buurt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Toepassingen die ioniserende straling gebruiken: <strong>het doorstralen van voedsel om het langer te bewaren</strong>, <strong>radiotherapie tegen een tumor</strong> en <strong>een PET-scan met een radioactieve tracer</strong>. <strong>Doorstraald voedsel wordt zelf niet radioactief</strong>: de straling doodt de micro-organismen en gaat er dan door."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een PET-scan gebruikt men een stof met een korte halveringstijd omdat <strong>de straling in het lichaam dan snel weer weg is</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "E = m · c²; bij een kernproces verdwijnt er massa.",
+  "Massadefect geeft de bindingsenergie; per nucleon telt.",
+  "Splijting van zwaar en fusie van licht leveren beide energie.",
+  "Regelstaven vangen neutronen en houden de reactie in de hand.",
+  "Categorie C, hoogactief, heeft in België nog geen bergingsplaats.",
+  "Alfa ioniseert het sterkst, dringt het minst door.",
+  "Gray voor de geabsorbeerde dosis, met weegfactoren naar de effectieve dosis.",
+  "Afstand, tijd en afscherming beschermen je."
+ ]
+}

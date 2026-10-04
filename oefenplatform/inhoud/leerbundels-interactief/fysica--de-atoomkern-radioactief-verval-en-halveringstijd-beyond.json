@@ -1,0 +1,89 @@
+{
+ "vak": "Fysica",
+ "titel": "De atoomkern, radioactief verval en halveringstijd",
+ "onder": "Wat er in een kern zit, wanneer ze het niet volhoudt, en hoe snel ze verdwijnt.",
+ "secties": [
+  {
+   "kop": "Hoe je een kern benoemt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>massagetal</strong> van een nuclide is <strong>het aantal protonen en neutronen samen</strong>; het <strong>atoomnummer</strong> zegt <strong>hoeveel protonen de kern bevat</strong>. De deeltjes van een atoomkern heten samen <strong>nucleonen</strong>. Je schrijft een nuclide van element X met massagetal 14 <strong>als X-14, met het massagetal achter de naam</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Heeft een nuclide <strong>massagetal 23 en atoomnummer 11</strong>, dan heeft hij <strong>12</strong> neutronen: 23 min 11. <strong>Uranium-238, met atoomnummer 92</strong>, heeft <strong>92 protonen en 146 neutronen</strong>. Zodra je massagetal en atoomnummer kent, liggen <strong>het aantal protonen in de kern</strong>, <strong>het aantal neutronen in de kern</strong> en <strong>om welk element het gaat</strong> vast. Kort: <strong>het massagetal is de som van protonen en neutronen</strong> en <strong>het atoomnummer is gelijk aan het aantal protonen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Isotopen</strong> van een element zijn <strong>kernen met hetzelfde aantal protonen en een ander aantal neutronen</strong>. <strong>Twee isotopen van hetzelfde element hebben hetzelfde atoomnummer</strong>, en <strong>een nuclide met een ander aantal neutronen is geen ander element</strong>: enkel het aantal protonen bepaalt het element. <strong>Koolstof-12 en koolstof-14</strong> verschillen dus <strong>in hun aantal neutronen</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Wat een kern stabiel houdt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De kracht die de nucleonen samenhoudt is <strong>de sterke kernkracht</strong>. In een kern spelen twee krachten tegen elkaar in: <strong>de sterke kernkracht, die alle nucleonen aantrekt</strong> en <strong>de coulombkracht, die de protonen afstoot</strong>. De kernkracht werkt enkel over heel korte afstand, de afstoting over de hele kern."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij lichte kernen met Z kleiner dan 20 zijn het aantal protonen en neutronen ongeveer gelijk</strong>. Zware kernen met Z groter dan 20 zijn pas stabiel met meer neutronen dan protonen, want <strong>de extra neutronen geven kernkracht zonder extra afstoting</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De strook stabiele kernen op een nuclidenkaart heet de <strong>stabiliteitsband</strong>. Uit de plaats van een kern op die kaart lees je <strong>of hij stabiel is en welk verval hij anders zal doen</strong>: <strong>een kern onder de stabiliteitsband heeft te veel neutronen en vervalt via bèta-min-straling</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>radionuclide</strong> is <strong>een kern die onstabiel is en spontaan vervalt</strong>. <strong>Je kan dat verval niet versnellen door hem te verwarmen</strong>: temperatuur, druk en chemie laten de kern onverschillig."
+    }
+   ]
+  },
+  {
+   "kop": "De vier soorten verval",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>alfaverval</strong> zendt een kern <strong>een kern van helium, met twee protonen en twee neutronen</strong> uit. Bij <strong>bèta-min-verval</strong> <strong>wordt een neutron een proton en vertrekt er een elektron</strong>; bij bèta-plus-verval vliegt er een <strong>positron</strong> weg. <strong>Gammastraling</strong> is <strong>een foton met heel veel energie uit de kern</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>regels van Soddy</strong> in drie regels: <strong>bij alfaverval daalt het massagetal met vier</strong>, <strong>bij bèta-min-verval stijgt het atoomnummer met één</strong> en <strong>bij gammaverval blijven A en Z dezelfde</strong>. Daarom <strong>verandert de kern bij gammaverval niet in een ander element</strong>; ze raakt enkel energie kwijt. Doet een kern met <strong>massagetal 226 en atoomnummer 88</strong> alfaverval, dan krijg je <strong>massagetal 222 en atoomnummer 86</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Halveringstijd en activiteit",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>halveringstijd</strong> is <strong>de tijd waarin de helft van de kernen vervalt</strong>. <strong>Na één halveringstijd is de helft van de kernen vervallen</strong>, <strong>ze ligt voor elk radionuclide vast</strong> en <strong>een kortere halveringstijd geeft bij dezelfde hoeveelheid een hogere activiteit</strong>. <strong>Na twee halveringstijden is een radioactieve stof niet volledig vervallen</strong> maar nog voor een kwart over. Bij een halveringstijd van <strong>8 dagen</strong> is er na <strong>24 dagen</strong> nog <strong>een achtste</strong> over, want dat zijn drie halveringen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>activiteit</strong> van een radionuclide is <strong>het aantal kernen dat per seconde vervalt</strong>. Ze <strong>staat in becquerel</strong>, ze <strong>is de desintegratieconstante maal het aantal kernen</strong> en ze <strong>halveert na elke halveringstijd</strong>. <strong>De activiteit van een bron daalt in de tijd op dezelfde manier als het aantal kernen</strong>. Een bron van <strong>800 Bq</strong> met een halveringstijd van <strong>5 jaar</strong> staat na <strong>10 jaar</strong> op <strong>200 Bq</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>desintegratieconstante</strong> bereken je als <strong>0,693 gedeeld door de halveringstijd</strong>; 0,693 is de natuurlijke logaritme van twee. Om het aantal kernen in een massa stof te berekenen heb je <strong>de massa van de stof</strong>, <strong>de molaire massa van de stof</strong> en <strong>het getal van Avogadro</strong> nodig."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>koolstof-14-methode</strong> om ouderdom te bepalen werkt omdat <strong>het gehalte koolstof-14 na de dood met een vaste halveringstijd daalt</strong>. Zolang een organisme leeft, vult het zijn voorraad aan; daarna niet meer."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "A is protonen plus neutronen, Z is het aantal protonen.",
+  "Isotopen: zelfde Z, ander aantal neutronen.",
+  "Sterke kernkracht trekt aan, coulombkracht stoot protonen af.",
+  "De stabiliteitsband zegt of en hoe een kern vervalt.",
+  "Alfa: A −4, Z −2. Bèta-min: Z +1. Gamma: niets verandert.",
+  "Verval versnel je met niets: niet met warmte, niet met chemie.",
+  "Halveringstijd: na n keer blijft (1/2)ⁿ over.",
+  "Activiteit in becquerel, is λ · N, halveert mee."
+ ]
+}

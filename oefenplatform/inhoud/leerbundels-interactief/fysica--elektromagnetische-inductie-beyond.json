@@ -1,0 +1,126 @@
+{
+ "vak": "Fysica",
+ "titel": "Elektromagnetische inductie",
+ "onder": "Flux, de wetten van Faraday en Lenz, en alles van dynamo tot draadloze lader.",
+ "secties": [
+  {
+   "kop": "De magnetische flux",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>magnetische flux door een winding</strong> is <strong>het veld maal de doorsneden oppervlakte, met de hoek erbij</strong>. Ze hangt dus af van <strong>de sterkte van het magnetisch veld</strong>, <strong>de oppervlakte van de winding</strong> en <strong>de hoek tussen de winding en het veld</strong>, en ze is het grootst als de winding loodrecht in het veld staat. Flux staat in <strong>weber</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Rekenen: een winding van <strong>0,02 m²</strong> die loodrecht in een veld van <strong>0,5 T</strong> staat, heeft een flux van <strong>0,01 Wb</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De flux door een spoel laten veranderen kan je <strong>door een magneet in of uit de spoel te bewegen</strong> of <strong>door de spoel in het veld te laten draaien</strong>. Een <strong>magneet die stil in een spoel ligt, wekt geen inductiespanning op</strong>, want dan verandert er niets."
+    }
+   ]
+  },
+  {
+   "kop": "De wet van Faraday",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>inductiewet van Faraday</strong> zegt dat <strong>de inductiespanning afhangt van hoe snel de flux verandert</strong>. Het is dus <strong>de wet die de inductiespanning met de fluxverandering verbindt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De inductiespanning van een spoel wordt bepaald door <strong>het aantal windingen</strong> en <strong>de snelheid waarmee de flux verandert</strong>. <strong>Verdubbel je het aantal windingen</strong>, dan <strong>wordt ze twee keer zo groot</strong>. Een spoel met <strong>200 windingen</strong> die de flux <strong>in 0,1 s met 0,004 Wb</strong> ziet veranderen, geeft <strong>8 V</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>magneet die je sneller in een spoel duwt, levert meer spanning op</strong>, want <strong>de flux verandert dan in minder tijd evenveel</strong>. Op een fluxgrafiek lees je dat rechtstreeks af: <strong>hoe steiler de fluxgrafiek loopt, hoe gróter de inductiespanning op dat ogenblik</strong>, en waar de <strong>flux een tijdlang constant blijft, is de inductiespanning nul</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Zonder een gesloten kring is er wel een inductiespanning, maar geen inductiestroom</strong>: de spanning staat er, maar er kan niets lopen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>rechthoekige winding die rondraait in een homogeen veld</strong> geeft een spanning die <strong>regelmatig van teken wisselt, als een sinus</strong>. Daarom levert een <strong>generator met een draaiende winding wisselspanning</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De wet van Lenz",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>wet van Lenz</strong> zegt dat <strong>de inductiestroom de verandering die hem veroorzaakt tegenwerkt</strong>. Het is dus <strong>de wet die zegt dat een inductiestroom zijn eigen oorzaak tegenwerkt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Duw je de <strong>noordpool van een magneet in een spoel</strong>, dan <strong>maakt de spoel aan die kant zelf een noordpool en duwt ze terug</strong>. Daarom <strong>moet je arbeid leveren om een magneet in een gesloten spoel te duwen</strong>: die arbeid is net de energie die de stroom meekrijgt."
+    }
+   ]
+  },
+  {
+   "kop": "Dynamo en generator",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>dynamo op een fiets</strong> wekt spanning op doordat <strong>een magneet langs een spoel draait en de flux laat wisselen</strong>. Zodra de lamp brandt, loopt er een stroom, en volgens de wet van Lenz werkt die de beweging tegen: daarom <strong>fietst een dynamo zwaarder zodra de lamp brandt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>pick-up van een elektrische gitaar</strong> werkt doordat <strong>de trillende stalen snaar de flux door een spoeltje verandert</strong>. Een <strong>detectielus in het wegdek merkt een wagen op doordat de wagen de flux door de lus verandert</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>draadloze oplader</strong> laadt een telefoon op doordat <strong>een spoel in de lader een stroom opwekt in een spoel in de telefoon</strong>. De <strong>dynamo op een fiets</strong> en de <strong>draadloze oplader</strong> berusten dus beide op inductie, net als een <strong>transformator in een laadblokje</strong> en een <strong>inductiekookplaat</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De transformator",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>transformator</strong> dient <strong>om een wisselspanning hoger of lager te maken</strong>. Hij heeft twee spoelen: een <strong>primaire en een secundaire</strong>. De spanningen staan in dezelfde verhouding als de aantallen windingen. Hij <strong>werkt niet op gelijkspanning</strong>, want dan verandert de flux niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee voorbeelden. Een transformator met <strong>500 windingen primair en 50 secundair</strong> <strong>verlaagt 230 V tot 23 V</strong>. Een transformator met <strong>100 windingen primair en 400 secundair</strong> is <strong>een optransformator, want hij verhoogt de spanning</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een transformator <strong>kan het vermogen niet groter maken dan het vermogen dat erin gaat</strong>: gaat de spanning omhoog, dan gaat de stroom omlaag. Dat is ook waarom <strong>stroom over grote afstanden op hoogspanning vervoerd wordt</strong>: <strong>bij een kleinere stroom gaat er veel minder warmte verloren</strong> in de kabels."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>kern van een transformator is uit dunne, van elkaar geïsoleerde plaatjes</strong> opgebouwd <strong>om de wervelstromen in de kern klein te houden</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Wervelstromen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Wervelstromen</strong> zijn de kringstromen die <strong>in een massief stuk metaal ontstaan bij een veranderende flux</strong>. Ze <strong>werken de beweging die ze veroorzaakt tegen</strong>, en <strong>gleuven of dunne plaatjes maken ze veel kleiner</strong>. In een isolator ontstaan ze niet, want daar zijn geen vrije elektronen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom <strong>valt de slinger van von Waltenhofen met een volle plaat trager dan die met gleuven erin</strong>, en daarom <strong>raakt een elektromagnetische rem het wiel niet aan</strong>: de wervelstromen remmen zonder contact."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>inductiekookplaat</strong> werkt doordat <strong>een wisselend veld wervelstromen opwekt in de bodem van de pan</strong>, die daardoor zelf warm wordt. Hij <strong>werkt niet met een pan van aluminium</strong>, want <strong>aluminium is niet ferromagnetisch genoeg voor de koppeling</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Flux is veld maal oppervlakte, met de hoek erbij, in weber.",
+  "Faraday: de inductiespanning hangt af van hoe snel de flux verandert.",
+  "Meer windingen of sneller veranderen geeft meer spanning.",
+  "Lenz: de inductiestroom werkt zijn eigen oorzaak tegen.",
+  "Zonder gesloten kring wel spanning, geen stroom.",
+  "Een transformator werkt enkel op wisselspanning en maakt geen vermogen bij.",
+  "Wervelstromen remmen en verwarmen; gleuven en plaatjes houden ze klein."
+ ]
+}

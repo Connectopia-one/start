@@ -1,0 +1,118 @@
+{
+ "vak": "Fysica",
+ "titel": "Magneten en het magnetisch veld",
+ "onder": "Weissgebieden, polen, veldlijnen en het veld van een stroom.",
+ "secties": [
+  {
+   "kop": "Waar magnetisme vandaan komt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>IJzer, nikkel en cobalt</strong> zijn de <strong>ferromagnetische stoffen</strong>: zij kunnen zelf magnetisch worden. Een <strong>magneet trekt dus niet elk metaal aan</strong>; aluminium en koper laat hij koud."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het magnetisme van één atoom komt <strong>van de kringstroom en de spin van zijn elektronen</strong>. In een ferromagnetische stof staan die elementaire magneetjes in kleine gebiedjes dezelfde kant op; die gebiedjes heten <strong>weissgebieden</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>ongemagnetiseerd stuk ijzer</strong> <strong>wijzen de weissgebieden alle kanten op</strong> en <strong>heffen de velden van de gebiedjes elkaar op</strong>. Wordt het stuk ijzer <strong>gemagnetiseerd</strong>, dan <strong>richten de weissgebieden zich in dezelfde zin</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een permanente magneet kan je <strong>demagnetiseren</strong> <strong>door hem sterk op te warmen</strong> of <strong>door er hard op te slaan</strong>. Een <strong>magneet die lang in het vuur ligt, stopt met werken</strong> omdat <strong>de warmte de weissgebieden weer door elkaar schudt</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Twee polen, altijd",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Elke magneet heeft een <strong>noordpool en een zuidpool</strong>. <strong>Breek je een staafmagneet in twee</strong>, dan krijg je <strong>twee kleinere magneten, elk met twee polen</strong>: een <strong>losse magnetische noordpool kan je niet maken</strong>. Een staafmagneet is het sterkst <strong>aan de twee uiteinden</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Schuif je <strong>twee magneten met hun noordpolen naar elkaar toe</strong>, dan <strong>stoten ze elkaar af</strong>. Gelijknamige polen stoten af, ongelijknamige trekken aan. Een <strong>magnetische kracht werkt wel door een blad papier heen</strong>, en zelfs door een dunne plaat hout of plastic."
+    },
+    {
+     "soort": "tekst",
+     "html": "De aarde is zelf een magneet: de <strong>magnetische zuidpool van de aarde ligt in de buurt van de geografische noordpool</strong>. Daarom <strong>wijst de noordpool van een kompasnaald naar het noorden</strong>: <strong>daar ligt de magnetische zuidpool van de aarde</strong>, en ongelijknamige polen trekken elkaar aan."
+    }
+   ]
+  },
+  {
+   "kop": "Magnetische influentie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Magnetische influentie</strong> is het verschijnsel waarbij een magneet <strong>een stuk ijzer tijdelijk zelf magnetisch maakt</strong>. Daarom <strong>blijft een paperclip aan een magneet hangen, ook al is hij zelf geen magneet</strong>: <strong>de magneet richt tijdelijk de weissgebieden in de clip</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Om dezelfde reden <strong>hangen meerdere paperclips onder elkaar aan één magneet</strong>: <strong>elke clip wordt zelf tijdelijk een magneetje</strong>. Haal je de magneet weg, dan vallen ze los."
+    }
+   ]
+  },
+  {
+   "kop": "Veldlijnen van een magneet",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De afspraak over de zin van de magnetische veldlijnen <strong>buiten een magneet</strong>: <strong>ze lopen van de noordpool naar de zuidpool</strong>. Binnen de magneet lopen ze terug, dus <strong>heeft een magnetische veldlijn geen begin en geen einde</strong>, anders dan een elektrische veldlijn: ze is altijd gesloten."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Hoe dichter de magnetische veldlijnen bij elkaar liggen, hoe sterker het veld.</strong> Een <strong>kompasnaald gaat met haar noordpool mee met de zin van de veldlijn staan</strong>, dus niet ertegenin."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee patronen om te kennen: rond een gewone staafmagneet krijg je een <strong>dipoolveld</strong>, en tussen de twee benen van een <strong>hoefijzermagneet</strong> een <strong>homogeen veld</strong>. De <strong>magnetische inductie</strong> krijgt het symbool <strong>B</strong> en staat in <strong>tesla</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Het veld van een stroom",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Rond een <strong>rechte stroomvoerende draad</strong> ziet het magnetisch veld eruit <strong>als cirkels rond de draad heen</strong>. De <strong>rechterhandregel</strong> dient <strong>om de zin van die veldlijnen rond de draad te vinden</strong>: duim in de stroomzin, de vingers krullen mee met het veld. Het is de regel waarmee je <strong>met je rechterhand de zin van een magnetisch veld vindt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Verdubbel je de stroom</strong> door een rechte draad, dan <strong>wordt het veld twee keer zo sterk</strong>. Ga je <strong>twee keer zo ver staan</strong>, dan wordt het <strong>half zo sterk</strong>: bij een rechte draad gaat het met één keer de afstand."
+    },
+    {
+     "soort": "tekst",
+     "html": "In het midden van een <strong>stroomvoerende cirkelvormige lus</strong> <strong>staat het veld loodrecht op het vlak van de lus</strong>. De <strong>noordpool van een stroomvoerende spoel</strong> vind je <strong>met de rechterhand: de vingers volgen de stroom, de duim wijst naar noord</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het veld <strong>binnen in een lange stroomvoerende spoel is nagenoeg homogeen</strong>, en het hangt af <strong>van het aantal windingen per meter</strong> en <strong>van de stroom die erdoor loopt</strong>. Zet je <strong>twee stroomvoerende spoelen met hun noordpolen naar elkaar toe</strong>, dan <strong>stoten ze elkaar af, net als twee gewone magneten</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De elektromagneet",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het verschil tussen een <strong>permanente magneet en een elektromagneet</strong>: <strong>een elektromagneet werkt alleen als er stroom loopt</strong>. Een <strong>ijzeren kern</strong> in een elektromagneet dient <strong>om het magnetisch veld veel sterker te maken</strong>, want de weissgebieden in het ijzer richten zich mee."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>schrootkraan</strong> en een <strong>elektrische deurbel</strong> berusten op een elektromagneet. Bij de schrootkraan geldt: <strong>de stroom aan betekent oppakken, de stroom af betekent lossen</strong>. Met een permanente magneet zou je het schroot nooit meer kwijtraken."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "IJzer, nikkel en cobalt zijn ferromagnetisch.",
+  "Magnetiseren is de weissgebieden gelijk richten; warmte of slaan wist het.",
+  "Elke magneet heeft twee polen; een losse pool bestaat niet.",
+  "Veldlijnen lopen buiten van noord naar zuid en zijn gesloten.",
+  "Rond een rechte draad zijn de veldlijnen cirkels; rechterhandregel.",
+  "In een spoel is het veld homogeen en hangt het af van n/l en I.",
+  "Een elektromagneet werkt alleen met stroom; een ijzeren kern versterkt."
+ ]
+}

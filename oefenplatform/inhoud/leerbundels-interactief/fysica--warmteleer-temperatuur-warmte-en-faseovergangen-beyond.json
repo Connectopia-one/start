@@ -1,0 +1,123 @@
+{
+ "vak": "Fysica",
+ "titel": "Warmteleer: temperatuur, warmte en faseovergangen",
+ "onder": "Opwarmen, warmte uitwisselen en van fase veranderen zonder dat de thermometer beweegt.",
+ "secties": [
+  {
+   "kop": "Warmte is niet hetzelfde als temperatuur",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het verschil tussen warmte en temperatuur: <strong>warmte is energie die stroomt, temperatuur is een toestand</strong>. Warmte staat daarom in <strong>joule</strong>, temperatuur in kelvin. Een <strong>voorwerp van 1000 K bevat niet altijd meer warmte dan een voorwerp van 300 K</strong>: een vonk bevat veel minder energie dan een bad, want de massa en de stof tellen even hard mee."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Warmte stroomt van het warme naar het koude voorwerp</strong>, nooit spontaan de andere kant op. Daarom <strong>houden twee voorwerpen die elkaar raken niet elk hun eigen temperatuur</strong>: er stroomt warmte tot ze gelijk staan. Die toestand <strong>waarin twee voorwerpen geen warmte meer uitwisselen</strong>, heet <strong>thermisch evenwicht</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>stijging van 10 K is hetzelfde als een stijging van 10 graden celsius</strong>: de twee schalen hebben even grote stappen, enkel hun nulpunt verschilt. Bij een verschil mag je dus wel in celsius rekenen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Warmte verplaatst zich op drie manieren: <strong>geleiding, door contact tussen de deeltjes</strong>, <strong>stroming, doordat warm water of lucht stijgt</strong>, en <strong>straling, doordat een warm voorwerp licht uitzendt</strong>. Daarom zit er <strong>tussen de twee glazen van een thermosfles een vacuüm</strong>: <strong>zonder deeltjes kan er geen warmte geleid of gestroomd worden</strong>, en de spiegelende wand houdt de straling tegen."
+    }
+   ]
+  },
+  {
+   "kop": "Meten met een calorimeter",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>calorimeter</strong> gebruik je <strong>om een hoeveelheid uitgewisselde warmte te meten</strong>. Bij een calorimeterproef geldt: <strong>de warmte die de ene stof afgeeft, neemt de andere op</strong>, en <strong>het vat moet zo goed mogelijk geïsoleerd zijn</strong>. De twee stoffen hoeven niet dezelfde massa te hebben."
+    },
+    {
+     "soort": "tekst",
+     "html": "Met een <strong>joulevat</strong> meet je <strong>hoeveel warmte een elektrische weerstand aan water geeft</strong>. Je meet spanning, stroom en tijd, en de temperatuurstijging van het water laat zien dat die energie warmte geworden is."
+    }
+   ]
+  },
+  {
+   "kop": "Warmtecapaciteit",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>warmtecapaciteit van een voorwerp</strong> is <strong>de warmte die het nodig heeft om één kelvin op te warmen</strong>, met het symbool grote C in joule per kelvin. De <strong>specifieke warmtecapaciteit van een stof</strong> is <strong>de warmte voor één kilogram en één kelvin</strong>, met het symbool kleine c; ze <strong>hangt af van de stof en niet van de massa</strong>, en <strong>water heeft een hoge waarde in vergelijking met metalen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Eén kilogram water heeft <strong>4186</strong> joule nodig om één kelvin op te warmen. Daarom warmt <strong>een pan sneller op dan het water erin</strong>: <strong>het metaal heeft een veel lagere specifieke warmtecapaciteit</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De formule is <strong>Q is c maal m maal ΔT</strong>; ken je de warmtecapaciteit van het hele voorwerp, dan volstaat Q is C maal ΔT. <strong>2 kg water 10 K</strong> opwarmen vraagt <strong>ongeveer 83,7 kJ</strong>. Giet je <strong>1 kg water van 80 °C bij 1 kg water van 20 °C</strong>, dan krijg je <strong>ongeveer 50 °C</strong>: bij gelijke massa's ligt het antwoord precies in het midden."
+    }
+   ]
+  },
+  {
+   "kop": "De zes faseovergangen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De zes faseovergangen komen in drie paren: <strong>smelten en stollen</strong>, <strong>verdampen en condenseren</strong> en <strong>sublimeren en rijpen</strong>. <strong>Smelten</strong> is de overgang van vast naar vloeibaar, <strong>condenseren</strong> die van gas naar vloeistof, <strong>sublimeren</strong> die van vast rechtstreeks naar gas, en <strong>rijpen</strong> die van gas rechtstreeks naar vast."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Smelten</strong>, <strong>verdampen</strong> en <strong>sublimeren</strong> nemen warmte op, want ze gaan naar een lossere toestand. Stollen, condenseren en rijpen geven warmte af: <strong>bij stollen geeft een stof warmte af aan haar omgeving</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Tijdens het smelten blijft de temperatuur van een zuivere stof gelijk</strong>, want alle warmte gaat naar het losmaken van de deeltjes. Op een <strong>smeltcurve</strong> zie je daarom <strong>een stijging, dan een horizontaal stuk, dan weer een stijging</strong>, en op een <strong>stolcurve</strong> <strong>een daling, dan een horizontaal stuk, dan weer een daling</strong>. Een <strong>mengsel heeft niet één scherp smeltpunt</strong> zoals een zuivere stof: het smelt over een temperatuurgebied, dus is dat stuk niet vlak."
+    }
+   ]
+  },
+  {
+   "kop": "Rekenen aan een faseovergang",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>specifieke smeltwarmte van een stof</strong> is <strong>de warmte om één kilogram ervan te laten smelten</strong>, met het symbool kleine l in joule per kilogram. De formule voor een faseovergang is <strong>Q is l maal m</strong>: er staat geen ΔT in, want de temperatuur verandert niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>0,5 kg ijs van 0 °C</strong> laten smelten vraagt <strong>ongeveer 167 kJ</strong>, met l gelijk aan 334 kJ/kg."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>specifieke verdampingswarmte van water is niet kleiner dan zijn specifieke smeltwarmte</strong> maar juist veel groter: ongeveer 2256 tegenover 334 kilojoule per kilogram. Wil je <strong>1 kg water van 20 °C eerst opwarmen tot 100 °C en dan laten verdampen</strong>, dan kost <strong>het verdampen de meeste warmte, want dat vraagt ongeveer 2256 kJ</strong> tegenover ongeveer 335 kJ voor het opwarmen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom <strong>voelt het koel aan als er water op je huid verdampt</strong>: <strong>het verdampende water neemt warmte van je huid mee</strong>. Dat is net waarom zweten werkt."
+    }
+   ]
+  },
+  {
+   "kop": "Kookpunt en smeltpunt verschuiven",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>kookpunt hangt af van de druk boven de vloeistof</strong>: <strong>bij lagere druk ligt het kookpunt lager</strong>, en het <strong>is altijd hoger dan het smeltpunt van de stof</strong>. Honderd graden is het kookpunt van water bij normale druk, niet van elke vloeistof."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom gaat <strong>koken in een snelkookpan sneller</strong>: <strong>de hogere druk duwt het kookpunt van water naar boven</strong>, en heter water gaart het eten vlugger. Hoog in de bergen kookt water juist bij een lagere temperatuur."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Men strooit zout op een besneeuwde weg</strong> omdat <strong>het zout het smeltpunt van het ijs verlaagt</strong>: pekel bevriest pas onder nul graden. Bij strenge vorst werkt dat niet meer."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Warmte is energie die stroomt; temperatuur is een toestand.",
+  "Warmte gaat altijd van warm naar koud tot thermisch evenwicht.",
+  "Geleiding, stroming en straling zijn de drie wegen.",
+  "Q = c · m · ΔT voor opwarmen; water heeft c ongeveer 4186.",
+  "Zes faseovergangen; smelten, verdampen en sublimeren nemen warmte op.",
+  "Tijdens een faseovergang blijft de temperatuur gelijk: Q = l · m.",
+  "Verdampingswarmte van water is veel groter dan zijn smeltwarmte.",
+  "Lagere druk verlaagt het kookpunt; zout verlaagt het smeltpunt."
+ ]
+}

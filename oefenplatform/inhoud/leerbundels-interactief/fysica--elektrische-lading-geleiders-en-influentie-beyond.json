@@ -1,0 +1,119 @@
+{
+ "vak": "Fysica",
+ "titel": "Elektrische lading, geleiders en influentie",
+ "onder": "Waar lading vandaan komt, waarom metaal geleidt en wat influentie doet.",
+ "secties": [
+  {
+   "kop": "Twee soorten lading, en één deeltje dat verhuist",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Er zijn <strong>twee soorten elektrische lading</strong>: <strong>positief en negatief</strong>. Gelijksoortige ladingen stoten elkaar af, ongelijksoortige trekken elkaar aan. Lading wordt uitgedrukt in <strong>coulomb</strong>, met het symbool C."
+    },
+    {
+     "soort": "tekst",
+     "html": "Als een voorwerp elektrisch geladen wordt, is het altijd <strong>het elektron dat verhuist</strong>, want dat zit het losst van de kern. De protonen en de neutronen blijven waar ze zijn. Daarom betekent <strong>negatief</strong> dat er <strong>elektronen bij gekomen</strong> zijn en <strong>positief</strong> dat er <strong>elektronen weggegaan</strong> zijn. Een voorwerp dat elektronen verloren heeft, draagt dus een <strong>positief</strong> teken."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij het laden door wrijving wordt er <strong>geen nieuwe lading gemaakt</strong>: ze verhuist alleen van het ene voorwerp naar het andere. Daardoor krijgen twee voorwerpen die je tegen elkaar wrijft <strong>een even grote maar tegengestelde lading</strong>. En omdat er alleen hele elektronen kunnen verhuizen, is <strong>de lading van een voorwerp altijd een veelvoud van de lading van één elektron</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>tribo-elektrische reeks</strong> dient <strong>om te zien welke stof bij wrijving elektronen opneemt</strong> en welke ze afgeeft. Wrijf je een <strong>pvc-staaf met een wollen doek</strong>, dan <strong>wordt de staaf negatief en de doek positief</strong>: het pvc neemt elektronen van de wol op."
+    }
+   ]
+  },
+  {
+   "kop": "Geleider of isolator",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het verschil tussen een <strong>geleider</strong> en een <strong>isolator</strong> zit op atomaire schaal: <strong>een geleider heeft vrije elektronen, een isolator niet</strong>. Die <strong>vrije elektronen</strong> zijn de elektronen in een metaal <strong>die niet aan één atoom vastzitten</strong> maar door het hele stuk metaal kunnen bewegen. Een <strong>isolator</strong> is dus een stof <strong>waarin de elektronen niet vrij kunnen bewegen</strong>: daar <strong>blijven de elektronen bij hun eigen atoom zitten</strong> en <strong>blijft aangebrachte lading plaatselijk staan</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Koper</strong> en <strong>aluminium</strong> zijn goede geleiders; glas, rubber en plastic zijn isolatoren. Lading die je op een geleider aanbrengt, <strong>verspreidt zich meteen over het hele oppervlak</strong>, want de vrije elektronen duwen elkaar zo ver mogelijk uiteen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>isolator kan je wél elektrisch laden</strong>, bijvoorbeeld door wrijving: de lading blijft dan gewoon zitten op de plaats waar ze terechtkwam. Dat metaal zo goed geleidt, merk je ook aan de warmte: een <strong>metalen kruk voelt kouder aan dan een houten deur van dezelfde temperatuur</strong>, want <strong>metaal geleidt de warmte veel sneller van je hand weg</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De elektroscoop",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>elektroscoop</strong> is het toestel <strong>met twee blaadjes dat aantoont dat een voorwerp geladen is</strong>. De <strong>blaadjes wijken uit elkaar</strong> omdat ze <strong>dezelfde lading dragen en elkaar daarom afstoten</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Laad je een elektroscoop <strong>door contact</strong> met een negatieve staaf, dan <strong>blijven de blaadjes uit elkaar staan</strong>, ook nadat je de staaf weghaalt: de lading is echt op de elektroscoop overgegaan."
+    }
+   ]
+  },
+  {
+   "kop": "Laden door contact",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Raak je een <strong>neutrale metalen bol aan met een negatief geladen staaf</strong>, dan <strong>lopen er elektronen naar de bol en wordt die negatief</strong>. <strong>Laden door contact geeft het voorwerp dus dezelfde soort lading</strong> als het geladen voorwerp."
+    },
+    {
+     "soort": "tekst",
+     "html": "Raken <strong>twee gelijke metalen bollen</strong> elkaar even aan, de ene met <strong>8 nC</strong> en de andere ongeladen, dan verdeelt de lading zich eerlijk: <strong>elke bol draagt daarna 4 nC</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Aarden</strong> betekent een geleider met de aarde verbinden, zodat lading er onbeperkt naartoe kan weglopen of vandaan kan komen. Op een <strong>vochtige dag</strong> lopen de ladingen van een voorwerp trouwens <strong>vanzelf weg</strong>, want het water in de lucht geleidt."
+    }
+   ]
+  },
+  {
+   "kop": "Influentie en polarisatie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Influentie</strong> is het verschijnsel waarbij een geladen voorwerp <strong>de lading in een ander voorwerp verschuift zonder het aan te raken</strong>. Breng je een geleider <strong>in de buurt van een negatief geladen staaf</strong>, dan <strong>worden de vrije elektronen naar de verste kant geduwd</strong> en blijft de dichtste kant positief. Het voorwerp <strong>blijft in totaal even geladen als ervoor</strong>, dus <strong>een voorwerp dat enkel door influentie beïnvloed werd, is daarna zelf niet geladen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het verschil tussen influentie <strong>bij een geleider en bij een isolator</strong>: <strong>bij een geleider verhuizen de elektronen door het hele voorwerp</strong>, bij een isolator <strong>draaien de moleculen zich een beetje</strong>. Dat verschuiven van de ladingen binnen de moleculen van een isolator heet <strong>polarisatie</strong>, en zo'n molecule met <strong>de ene kant lichtpositief en de andere lichtnegatief</strong> heet een <strong>dipool</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom trekt een <strong>geladen staaf ook een neutraal stukje papier aan</strong>: <strong>de lading in het papier verschuift en de dichtste kant trekt</strong>. Dezelfde verklaring geldt voor een <strong>neutraal voorwerp bij een geladen staaf</strong> in het algemeen, en voor een <strong>opgeblazen ballon die na wrijven aan de muur kleeft</strong>: <strong>de ballon trekt de lading in de muur naar zich toe</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Met influentie kan je een geleider ook écht laden, <strong>zonder hem ooit aan te raken met het geladen voorwerp</strong>. Houd je een negatieve staaf bij een metalen bol, <strong>aard je de bol even en haal je dan de staaf weg</strong>, dan is de bol <strong>positief</strong>, want <strong>er liepen elektronen naar de aarde weg</strong>. Laden kan dus <strong>door wrijving</strong>, <strong>door contact met een geladen voorwerp</strong> en <strong>door influentie met een aarding erbij</strong>; verwarmen hoort daar niet bij."
+    }
+   ]
+  },
+  {
+   "kop": "Elektrostatica in toepassingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>fotokopieertoestel</strong> en de <strong>poedercoating van metaal</strong> berusten op elektrostatica. In een kopieertoestel wordt <strong>de toner niet met een laagje lijm</strong> op het papier gebracht, maar <strong>door elektrische aantrekking</strong> vastgehouden en daarna ingebrand."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Poedercoating met geladen poeder werkt beter dan gewoon spuiten</strong> omdat <strong>het geladen poeder naar het hele werkstuk getrokken wordt</strong>, ook naar de achterkant en de hoeken. Zo blijft er veel minder verf in de lucht hangen."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Er zijn twee soorten lading; alleen elektronen verhuizen.",
+  "Negatief is elektronen erbij, positief is elektronen eraf.",
+  "Wrijven maakt geen lading bij: de twee voorwerpen worden tegengesteld geladen.",
+  "Een geleider heeft vrije elektronen, een isolator niet.",
+  "Lading op een geleider gaat meteen naar het hele oppervlak.",
+  "Laden kan door wrijving, door contact en door influentie met aarding.",
+  "Influentie verschuift lading; het voorwerp blijft in totaal neutraal.",
+  "Bij een isolator draaien de moleculen: dat is polarisatie."
+ ]
+}

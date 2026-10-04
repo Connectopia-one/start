@@ -1,0 +1,110 @@
+{
+ "vak": "Fysica",
+ "titel": "Elektrische energie, potentiaal en spanning",
+ "onder": "Van arbeid op een lading naar potentiaal, spanning en de elektronvolt.",
+ "secties": [
+  {
+   "kop": "Arbeid van de elektrische kracht",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een elektrische kracht verricht arbeid <strong>als de lading verplaatst wordt in de zin van de kracht</strong>. Je rekent die arbeid net zoals bij elke andere kracht: kracht maal verplaatsing. Wordt een lading van <strong>2 C</strong> over <strong>0,5 m</strong> verplaatst door een kracht van <strong>6 N</strong> in dezelfde zin, dan is de arbeid <strong>3 J</strong>. Arbeid en energie worden uitgedrukt in <strong>joule</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De arbeid van de elektrische kracht <strong>hangt niet af van de weg die de lading aflegt</strong>, alleen van het begin- en het eindpunt. De elektrische kracht is dus conservatief, net als de zwaartekracht. Daarom <strong>verandert een lading die loodrecht op de veldlijnen verplaatst wordt niet van potentiële energie</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het verband met de beweging: <strong>de verrichte arbeid is gelijk aan de winst aan kinetische energie</strong>. <strong>Kinetische energie</strong> is de energie die een deeltje heeft <strong>door zijn beweging</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Potentiële energie in een veld",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De elektrische potentiële energie van een lading kan je het best vergelijken <strong>met de hoogte-energie van een bal boven de grond</strong>. Ze <strong>hangt af van de grootte van de lading zelf</strong> én <strong>van de plaats in het elektrisch veld</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Beweegt een <strong>positieve lading vanzelf van de positieve naar de negatieve plaat</strong>, dan <strong>daalt haar potentiële energie en stijgt haar kinetische</strong>. Om een <strong>positieve lading naar de positieve plaat te duwen, moet je zelf arbeid leveren</strong>. En de potentiële energie van een <strong>negatieve lading die naar de negatieve plaat beweegt, stijgt</strong>, <strong>want de lading gaat tegen de kracht in</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de beweging van een lading in een elektrisch veld <strong>blijft de som van de kinetische en de potentiële energie behouden</strong>. Daarop berust de aanpak: <strong>je stelt de gewonnen kinetische energie gelijk aan de verloren potentiële</strong> om <strong>de snelheid te berekenen waarmee een lading uit rust bij de andere plaat aankomt</strong>. Daarvoor heb je <strong>de spanning tussen de twee platen</strong> en <strong>de massa van het geladen deeltje</strong> nodig."
+    },
+    {
+     "soort": "tekst",
+     "html": "Vertrekt een <strong>elektron uit rust bij de negatieve plaat</strong> naar de positieve, dan <strong>wordt het versneld en komt het met maximale snelheid aan</strong>. Een <strong>elektron gaat bij dezelfde spanning veel sneller dan een proton</strong>, want <strong>het elektron heeft een veel kleinere massa</strong>: bijna tweeduizend keer kleiner."
+    }
+   ]
+  },
+  {
+   "kop": "Potentiaal en spanning",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>elektrische potentiaal in een punt</strong> is <strong>de potentiële energie per eenheid van lading in dat punt</strong>. Ze staat in <strong>volt</strong>. Ze is <strong>een eigenschap van het punt, niet van de lading</strong>: de <strong>potentiaal van een punt hangt dus niet af van de lading die je erin zet</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>elektrische spanning tussen twee punten</strong> is <strong>het verschil tussen de potentialen van die twee punten</strong>. Met één woord heet dat verschil gewoon <strong>spanning</strong>. Ligt punt A op <strong>120 V</strong> en punt B op <strong>45 V</strong>, dan staat er tussen A en B <strong>75 V</strong>. Een <strong>spanning van nul volt betekent niet dat er geen lading aanwezig is</strong>, alleen dat de twee punten op dezelfde potentiaal liggen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee rekenvoorbeelden. Verliest een lading van <strong>4 mC</strong> <strong>0,8 J</strong> potentiële energie tussen twee punten, dan staat er <strong>200 V</strong> tussen die punten. Zit een lading van <strong>5 mC</strong> in een punt met een potentiaal van <strong>40 V</strong>, dan heeft ze daar <strong>0,2 J</strong> potentiële energie."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>positieve lading beweegt vanzelf van een hoge naar een lage potentiaal</strong>, zoals water van hoog naar laag stroomt. Wat een <strong>spanningsbron in een kring in stand houdt</strong>, is precies <strong>een potentiaalverschil tussen haar twee polen</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Equipotentiaallijnen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een lijn waarop de potentiaal overal dezelfde is, heet een <strong>equipotentiaallijn</strong>. Ze staat altijd <strong>loodrecht op de veldlijnen</strong>. Rond één puntlading zien die lijnen eruit <strong>als cirkels rond de lading heen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>lading die je langs een equipotentiaallijn verplaatst, kost geen arbeid</strong>, want de potentiaal verandert niet. Zo staat er ook <strong>tussen twee punten op hetzelfde equipotentiaaloppervlak een spanning van nul</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>homogeen veld</strong> geldt: <strong>de spanning is de veldsterkte maal de afstand</strong> en de <strong>equipotentiaallijnen zijn evenwijdige rechten</strong>. Staan twee platen <strong>2 cm uit elkaar met een veldsterkte van 5000 N/C</strong> ertussen, dan staat er <strong>100 V</strong> over."
+    },
+    {
+     "soort": "tekst",
+     "html": "Waarom staat er in de formule voor de potentiaal van een puntlading <strong>r en niet r kwadraat</strong>? Omdat <strong>potentiaal over energie gaat, en die telt de afstand maar één keer</strong>, terwijl een kracht ze twee keer meetelt."
+    }
+   ]
+  },
+  {
+   "kop": "De elektronvolt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Voor deeltjes is de joule een onhandig grote eenheid. Daarom gebruikt men de <strong>elektronvolt</strong>: dat is <strong>ongeveer 1,6·10⁻¹⁹ J</strong>, de energie die één elektron wint als het een spanning van één volt doorloopt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom wint een <strong>elektron dat een spanning van 500 V doorloopt</strong> precies <strong>500 eV</strong>. Omgekeerd reken je <strong>joule om naar elektronvolt door te delen door 1,6·10⁻¹⁹</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Arbeid van de elektrische kracht hangt niet van de weg af.",
+  "Potentiële plus kinetische energie blijft behouden.",
+  "Potentiaal is energie per eenheid van lading, in volt.",
+  "Spanning is het verschil tussen twee potentialen.",
+  "Equipotentiaallijnen staan loodrecht op de veldlijnen.",
+  "Langs een equipotentiaallijn kost verplaatsen geen arbeid.",
+  "In een homogeen veld is U de veldsterkte maal de afstand.",
+  "Eén elektronvolt is ongeveer 1,6·10⁻¹⁹ joule."
+ ]
+}

@@ -1,0 +1,119 @@
+{
+ "vak": "Fysica",
+ "titel": "Harmonische trillingen",
+ "onder": "Eén vergelijking voor de hele beweging, van amplitude tot resonantie.",
+ "secties": [
+  {
+   "kop": "Wat een harmonische trilling is",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>harmonische trilling</strong> is <strong>een beweging waarvan de uitwijking een sinus van de tijd is</strong>. Een massa aan een veer en een slinger met een kleine uitslag zijn de twee schoolvoorbeelden."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>amplitude</strong> is <strong>de grootste uitwijking van een trilling</strong>; ze <strong>staat in meter</strong> en <strong>kan geen negatieve waarde hebben</strong>. De uitwijking zelf wel: die krijgt aan de ene kant van de evenwichtslijn een minteken. De <strong>evenwichtslijn</strong> is <strong>de stand waar het lichaam zonder trilling zou blijven</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>periode</strong> is <strong>de tijd van één volledige heen-en-terugbeweging</strong>, in seconde. De frequentie is haar omgekeerde: een trilling met een <strong>periode van 0,25 s</strong> heeft <strong>4 Hz</strong>. Een <strong>trilling met een hogere frequentie heeft een kleinere periode</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De trillingsvergelijking",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>trillingsvergelijking</strong> luidt: <strong>y is A maal de sinus van ω maal t plus φ</strong>. Daaruit lees je rechtstreeks <strong>de amplitude van de trilling</strong>, <strong>de pulsatie van de trilling</strong> en <strong>de beginfase van de trilling</strong>; de massa staat er niet in. Om er zelf een op te stellen heb je <strong>de amplitude</strong>, <strong>de periode of de frequentie</strong> en <strong>de beginfase</strong> nodig."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>pulsatie</strong> is <strong>twee pi gedeeld door de periode</strong>; ze <strong>is dus twee pi maal de frequentie</strong> en <strong>staat in radiaal per seconde</strong>. Ze heet ook de hoeksnelheid. De <strong>beginfase staat in radiaal</strong>, want de fase is een hoek in de sinus."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>beginfase van nul</strong> betekent dat <strong>de trilling op t is nul uit de evenwichtsstand vertrekt</strong>, want de sinus van nul is nul. Vertrekt ze uit de uiterste stand, dan is de beginfase een halve pi. Een trilling met een <strong>amplitude van 5 cm en een pulsatie van 4 rad/s</strong> en beginfase nul heeft na een halve periode een uitwijking van <strong>nul, want de sinus is dan weer nul</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Snelheid en versnelling tijdens de trilling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Twee dingen die altijd gelden: <strong>de uitwijking is nul in de evenwichtsstand</strong> en <strong>de snelheid is nul in de uiterste stand</strong>. Bij een harmonische trilling is <strong>de snelheid dus niet het grootst in de uiterste stand</strong> maar in de evenwichtsstand."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>versnelling van een harmonisch trillend lichaam is het grootst in de uiterste standen, waar de uitwijking maximaal is</strong>, want daar is de terugroepkracht het grootst. In de evenwichtsstand is de versnelling nul."
+    },
+    {
+     "soort": "tekst",
+     "html": "De amplitude doet niets met de periode: <strong>verdubbel je de amplitude van een slinger met een kleine uitslag</strong>, dan <strong>blijft de periode ongeveer gelijk</strong>. Dat is net waarom een slingeruurwerk zo nauwkeurig was."
+    }
+   ]
+  },
+  {
+   "kop": "Faseverschil",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>faseverschil tussen twee harmonische trillingen</strong> is <strong>het verschil tussen hun fasen op hetzelfde tijdstip</strong>, in radiaal. Twee trillingen trillen <strong>in fase</strong> <strong>als hun faseverschil nul of een veelvoud van twee pi is</strong>; bij een faseverschil van <strong>pi radiaal</strong> zijn ze <strong>in tegenfase</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Hebben twee trillingen <strong>dezelfde frequentie en een faseverschil van een halve pi</strong>, dan is <strong>de ene een kwart periode voor op de andere</strong>: staat de ene in de evenwichtsstand, dan staat de andere uiterst."
+    }
+   ]
+  },
+  {
+   "kop": "De veer en de slinger",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>terugroepkracht bij een massa-veersysteem</strong> is <strong>de kracht van de veer, naar de evenwichtsstand gericht</strong>. Ze is recht evenredig met de uitwijking en altijd tegengesteld eraan, en net daardoor is de beweging harmonisch. De constante k van een veer heet de <strong>krachtconstante</strong>, in newton per meter."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>eigenfrequentie van een massa-veersysteem</strong> bereken je als <strong>één gedeeld door twee pi, maal de wortel van k gedeeld door m</strong>. Daarom geeft <strong>een stijvere veer een hogere eigenfrequentie</strong> en <strong>een grotere massa een lagere eigenfrequentie</strong>. Hang je een <strong>dubbel zo zware massa</strong> aan dezelfde veer, dan <strong>wordt ze kleiner, met een factor wortel twee</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>eigenfrequentie van een slinger</strong> hangt af <strong>van zijn lengte en van de valversnelling</strong>, en niet van de massa van de bol. <strong>Een langere slinger trilt langzamer dan een korte</strong>, want de lengte staat onder de wortel in de noemer."
+    }
+   ]
+  },
+  {
+   "kop": "Demping en resonantie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>gedempte harmonische trilling neemt niet vooral de frequentie af</strong> maar de amplitude: de uitwijking verloopt <strong>als een sinus die tussen twee krimpende grenzen past</strong>. <strong>Bij een gedempte trilling verdwijnt de energie van de trilling naar de omgeving</strong>, als warmte door wrijving."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>gedwongen trilling</strong> is <strong>een trilling die een uitwendige kracht blijft aandrijven</strong>. Het lichaam neemt dan de frequentie van die kracht over, terwijl de <strong>eigenfrequentie</strong> de frequentie is <strong>waarmee een lichaam vrij trilt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Resonantie</strong> treedt op <strong>als de frequentie van de kracht de eigenfrequentie benadert</strong>. Dan kan de amplitude heel groot worden met een kleine kracht: <strong>bij resonantie is de amplitude dus niet kleiner dan normaal</strong> maar juist veel groter."
+    },
+    {
+     "soort": "tekst",
+     "html": "Voorbeelden van resonantie: <strong>een schommel die je op het juiste ritme steeds hoger duwt</strong>, <strong>een glas dat breekt bij een zuivere toon van de juiste hoogte</strong> en <strong>een brug die door marcherende stappen hevig begint te trillen</strong>. Daarom <strong>zet men dempers in een gebouw dat tegen aardbevingen moet kunnen</strong>: <strong>om de amplitude bij resonantie klein te houden</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Harmonisch: de uitwijking is een sinus van de tijd.",
+  "y = A · sin(ω·t + φ); daaruit lees je A, ω en φ.",
+  "Pulsatie is 2π/T, dus 2π maal de frequentie, in rad/s.",
+  "Snelheid maximaal in het evenwicht, versnelling maximaal uiterst.",
+  "De periode hangt niet van de amplitude af.",
+  "Veer: stijver trilt sneller, zwaarder trilt langzamer.",
+  "Slinger: alleen lengte en g tellen, niet de massa.",
+  "Resonantie: aandrijven op de eigenfrequentie geeft een grote amplitude."
+ ]
+}

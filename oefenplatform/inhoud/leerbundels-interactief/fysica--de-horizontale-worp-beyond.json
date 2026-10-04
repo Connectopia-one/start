@@ -1,0 +1,105 @@
+{
+ "vak": "Fysica",
+ "titel": "De horizontale worp",
+ "onder": "Twee bewegingen tegelijk: eenparig naar voren en vallend naar beneden.",
+ "secties": [
+  {
+   "kop": "Het onafhankelijkheidsbeginsel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>onafhankelijkheidsbeginsel</strong> bij een horizontale worp zegt dat <strong>de horizontale en de verticale beweging elkaar niet beïnvloeden</strong>. Het is dus <strong>het beginsel dat de horizontale en de verticale beweging los van elkaar laat verlopen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>horizontale deel</strong> is een <strong>eenparig rechtlijnige beweging</strong> en het <strong>verticale deel</strong> een <strong>vrije val met beginsnelheid nul</strong>: de <strong>verticale beginsnelheid is dus nul</strong>. De grootheid die <strong>bij de horizontale en de verticale beweging dezelfde is</strong>, is <strong>de tijd</strong>, en dat is net wat de twee met elkaar verbindt."
+    },
+    {
+     "soort": "tekst",
+     "html": "De baan van een horizontale worp heeft de vorm van een <strong>parabool</strong>. Tijdens de vlucht werkt, zonder luchtweerstand, <strong>enkel de zwaartekracht, recht naar beneden</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Valtijd en dracht",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>valtijd</strong> hangt af <strong>van de hoogte waarvan je werpt</strong> en <strong>van de valversnelling g</strong>, en <strong>niet van de beginsnelheid</strong>: <strong>de valtijd hangt dus enkel van de hoogte af</strong>. De <strong>grootheid die je bij een horizontale worp eerst uitrekent</strong>, is daarom <strong>de valtijd</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom raken <strong>twee kogels die tegelijk van dezelfde hoogte vertrekken</strong>, de ene gewoon vallend en de andere horizontaal weggeschoten, <strong>de grond op hetzelfde ogenblik</strong>. Ook <strong>twee ballen die van dezelfde hoogte horizontaal vertrekken met verschillende snelheid, raken de grond tegelijk</strong>. Bij <strong>twee identieke ballen van dezelfde tafel, de ene twee keer zo snel als de andere</strong>, verschilt dus <strong>enkel de dracht, en die is dubbel zo groot</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>dracht</strong> is <strong>de horizontale afstand die een voorwerp bij een worp aflegt</strong>. Ze hangt af van <strong>de hoogte waarvan je werpt</strong> en <strong>de horizontale beginsnelheid</strong>. <strong>Verdubbel je de beginsnelheid</strong> bij dezelfde hoogte, dan <strong>wordt ze twee keer zo groot</strong>. <strong>Verviervoudig je de hoogte</strong> bij dezelfde beginsnelheid, dan wordt ze <strong>twee keer zo groot</strong>, want de valtijd gaat met de wortel van de hoogte. De <strong>dracht is dus niet recht evenredig met de hoogte</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zonder luchtweerstand <strong>komt een zwaarder voorwerp bij dezelfde worp even ver als een lichter voorwerp</strong>. In het echt <strong>valt een pingpongbal korter dan de formules voorspellen</strong>, want <strong>de luchtweerstand remt hem horizontaal af</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Snelheid tijdens de vlucht",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>horizontale snelheid blijft tijdens de vlucht precies even groot</strong>, zonder luchtweerstand, want in die richting werkt geen kracht. De <strong>verticale snelheid groeit elke seconde met ongeveer 9,81 m/s aan</strong>. Daardoor <strong>wordt de snelheid van het voorwerp tijdens de vlucht steeds groter</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De snelheid op een bepaald ogenblik vind je door <strong>de horizontale en de verticale snelheid samen te stellen met Pythagoras</strong>. Beweegt een voorwerp bij het neerkomen <strong>12 m/s horizontaal en 16 m/s verticaal</strong>, dan is zijn totale snelheid <strong>20 m/s</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De snelheidsvector staat <strong>halverwege de vlucht schuin naar beneden, raaklijnig aan de baan</strong>. Het voorwerp <strong>raakt de grond dus niet loodrecht</strong>: er blijft altijd een horizontale snelheid over."
+    }
+   ]
+  },
+  {
+   "kop": "Rekenen aan een worp",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een bal wordt <strong>horizontaal weggeschoten van 20 m hoog</strong>, met g gelijk aan 10 m/s². De val duurt <strong>2 s</strong>. Vertrok de bal met <strong>15 m/s</strong>, dan komt hij <strong>30 m</strong> ver, en hij valt op het ogenblik dat hij de grond raakt met <strong>20 m/s</strong> verticaal."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>kogel verlaat een tafel van 1,25 m hoog met 4 m/s</strong>: de valtijd is 0,5 s, dus komt hij <strong>2 m</strong> van de tafel neer. Een <strong>bal rolt van een tafel van 0,8 m hoog</strong> en raakt de grond na <strong>0,4 s</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>bal wordt horizontaal met 10 m/s weggeschoten</strong> en heeft na <strong>20 m horizontaal</strong> 2 s gevlogen, dus verliest hij <strong>20 m</strong> hoogte. Het <strong>hoogteverlies is niet recht evenredig met de horizontale afstand zelf</strong> maar met het kwadraat ervan."
+    },
+    {
+     "soort": "tekst",
+     "html": "Omgekeerd rekenen: een <strong>voetbal wordt van een klif van 45 m horizontaal weggetrapt en komt 60 m verder neer</strong>. De valtijd is 3 s, dus werd hij met <strong>20 m/s</strong> getrapt."
+    }
+   ]
+  },
+  {
+   "kop": "Twee situaties om te doorzien",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>vliegtuig laat een pakket vallen</strong>. Het pakket komt <strong>recht onder het vliegtuig terecht, als dat zijn koers aanhoudt</strong>, want het houdt de horizontale snelheid van het vliegtuig."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je <strong>mikt bij het werpen over een grote afstand hoger dan het doel</strong> omdat <strong>het voorwerp onderweg hoogte verliest door de val</strong>. Dat hoogteverlies hangt af van hoe lang het onderweg is."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Horizontaal is eenparig, verticaal is een vrije val; de tijd verbindt ze.",
+  "De baan is een parabool.",
+  "De valtijd hangt enkel van de hoogte af, niet van de beginsnelheid.",
+  "Twee ballen van dezelfde hoogte komen samen neer, hoe snel ze ook vertrekken.",
+  "De dracht is snelheid maal valtijd: dubbel zo snel is dubbel zo ver.",
+  "Vier keer hoger is maar twee keer verder.",
+  "Reken altijd eerst de valtijd uit."
+ ]
+}

@@ -1,0 +1,119 @@
+{
+ "vak": "Fysica",
+ "titel": "Statica: krachten, moment en evenwicht",
+ "onder": "Krachten samenstellen en ontbinden, en wanneer een lichaam niet beweegt of kantelt.",
+ "secties": [
+  {
+   "kop": "Een kracht is een vector",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een kracht heeft naast een grootte ook <strong>een richting en een zin</strong> nodig om volledig bepaald te zijn: ze is een vector. Kracht staat in newton, en de <strong>newton is uit drie basiseenheden samengesteld</strong>: <strong>kg·m/s²</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>zwaartekracht</strong> op een massa reken je als massa maal g. Op <strong>8 kg</strong> met <strong>g gelijk aan 9,81 N/kg</strong> is dat <strong>ongeveer 78 N</strong>. Het <strong>gewicht</strong> <strong>is een kracht en staat dus in newton</strong>, en het <strong>hangt af van de plaats waar je je bevindt</strong>; de massa niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Twee krachten die niet op één lijn liggen</strong>, stel je samen <strong>met de parallellogramregel voor vectoren</strong>. Staan <strong>6 N en 8 N loodrecht op elkaar</strong> in hetzelfde punt, dan is de resulterende kracht <strong>10 N</strong>, volgens de stelling van Pythagoras."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je <strong>ontbindt een kracht in componenten</strong> <strong>om apart te kunnen rekenen langs twee loodrechte assen</strong>. Staat een <strong>kist op een helling</strong>, dan laat <strong>de component langs het hellend vlak</strong> haar naar beneden glijden; de andere component drukt op het vlak."
+    }
+   ]
+  },
+  {
+   "kop": "De krachten op een lichaam",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op een lichaam dat op een vlakke tafel ligt, werken <strong>de zwaartekracht naar beneden</strong> en <strong>de normaalkracht van de tafel omhoog</strong>. De <strong>normaalkracht</strong> is de kracht <strong>waarmee een oppervlak terugduwt op wat erop rust</strong>, en ze staat <strong>altijd loodrecht op het oppervlak waarop het lichaam rust</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>wrijvingskracht</strong> is de kracht die <strong>een beweging langs een oppervlak tegenwerkt</strong>. Ze <strong>wordt groter als het lichaam harder op het oppervlak drukt</strong>. Een <strong>kist van 20 kg op een vlakke vloer met een wrijvingscoëfficiënt van 0,3</strong> vraagt minstens <strong>60 N</strong> om te schuiven, met g gelijk aan 10 N/kg."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>veerkracht is recht evenredig met de uitrekking</strong> van de veer, niet omgekeerd evenredig. Een veer met een <strong>veerconstante van 50 N/m</strong> die <strong>8 cm</strong> uitgerekt wordt, levert <strong>4 N</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Hangt een <strong>lamp stil aan één koord</strong>, dan is de <strong>spankracht even groot als de zwaartekracht op de lamp</strong>. En op een <strong>auto die met constante snelheid rijdt</strong>, werken onder meer <strong>de motorkracht naar voren</strong> en <strong>de wrijvingskracht naar achter</strong>, en die twee houden elkaar in evenwicht."
+    }
+   ]
+  },
+  {
+   "kop": "Translatie-evenwicht",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Translatie-evenwicht</strong> betekent dat <strong>de som van alle krachten op het lichaam nul is</strong>. Een <strong>lichaam in translatie-evenwicht hoeft niet stil te staan</strong>: ook een lichaam met een constante snelheid is in evenwicht, want zijn snelheid verandert niet."
+    }
+   ]
+  },
+  {
+   "kop": "Het moment van een kracht",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>moment van een kracht</strong> is <strong>de kracht maal de krachtarm ten opzichte van het draaipunt</strong>, en het staat in <strong>newtonmeter</strong>. De <strong>krachtarm</strong> is de kortste afstand van het draaipunt tot de werklijn van de kracht. Een <strong>kracht waarvan de werklijn door het draaipunt gaat, heeft geen moment</strong>, want dan is die arm nul."
+    },
+    {
+     "soort": "tekst",
+     "html": "Rekenen: een kracht van <strong>30 N</strong> die <strong>loodrecht op 0,4 m van het draaipunt</strong> werkt, geeft een moment van <strong>12 Nm</strong>. Werkt diezelfde kracht <strong>onder 30 graden met de stang</strong>, nog altijd op 0,4 m, dan is het moment maar <strong>6 Nm</strong>, want de sinus van 30 graden is een half."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom zit <strong>de klink van een deur zo ver mogelijk van de scharnieren</strong>: <strong>zo is de krachtarm groot en volstaat een kleine kracht</strong>. En daarom gebruik je <strong>een lange steeksleutel om een vastzittende bout los te draaien</strong>: <strong>de langere arm geeft bij dezelfde kracht een groter moment</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het punt waarrond een hefboom draait, heet het <strong>draaipunt</strong>. <strong>Bij het berekenen van de momenten mag je zelf kiezen welk punt je als draaipunt neemt</strong>; een handige keuze laat onbekende krachten wegvallen."
+    }
+   ]
+  },
+  {
+   "kop": "Rotatie-evenwicht",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Rotatie-evenwicht</strong> betekent dat <strong>de momenten linksom en rechtsom elkaar opheffen</strong>. <strong>Voor statisch evenwicht volstaat het dus niet dat de som van de krachten nul is</strong>: <strong>de som van alle krachten én de som van alle momenten moeten nul zijn</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op een wip: zit een <strong>kind van 30 kg op 2 m</strong> van het draaipunt, dan moet een <strong>kind van 40 kg</strong> op <strong>1,5 m</strong> zitten voor evenwicht, want 30 maal 2 is 40 maal 1,5. Werken <strong>twee krachten van 50 N</strong> op een hefboom, <strong>de ene op 0,6 m links en de andere op 0,4 m rechts</strong>, dan <strong>draait de hefboom naar de kant van de kracht op 0,6 m</strong>, want daar is het moment groter."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee toepassingen. Rust een <strong>plank van 4 m op twee steunen aan de uiteinden</strong> met een <strong>last op 1 m van de linkersteun</strong>, dan draagt <strong>de linkersteun het meest, want de last staat er het dichtst bij</strong>. En bij een <strong>torenkraan staat er een zwaar blok aan de achterste arm</strong> <strong>om het moment van de last aan de voorkant tegen te werken</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Zwaartepunt en kantelen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>zwaartepunt</strong> is het punt <strong>waarin je de hele massa van een lichaam mag denken</strong>. Voor <strong>volledig evenwicht</strong> moeten <strong>de som van alle krachten nul</strong> zijn, <strong>de som van alle momenten nul</strong> zijn en moet <strong>het zwaartepunt boven het steunvlak liggen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een voorwerp <strong>kantelt zodra zijn zwaartepunt buiten het steunvlak valt</strong>. Daarom <strong>kantelt een zwaar lichaam met een breed steunvlak juist minder makkelijk</strong> dan een smal en hoog lichaam: een laag zwaartepunt en een breed steunvlak maken een voorwerp stabiel."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een kracht heeft grootte, richting en zin; de newton is kg·m/s².",
+  "Krachten die niet op één lijn liggen: parallellogramregel.",
+  "De normaalkracht staat loodrecht op het oppervlak.",
+  "Translatie-evenwicht: som van de krachten nul, snelheid mag constant zijn.",
+  "Moment is kracht maal krachtarm, in newtonmeter.",
+  "Door het draaipunt werken betekent geen moment.",
+  "Statisch evenwicht vraagt krachten én momenten nul.",
+  "Kantelen gebeurt zodra het zwaartepunt buiten het steunvlak valt."
+ ]
+}

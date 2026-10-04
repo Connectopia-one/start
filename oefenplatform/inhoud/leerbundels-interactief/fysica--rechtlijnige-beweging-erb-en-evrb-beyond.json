@@ -1,0 +1,106 @@
+{
+ "vak": "Fysica",
+ "titel": "Rechtlijnige beweging: ERB en EVRB",
+ "onder": "Grafieken lezen en rekenen aan een beweging met en zonder versnelling.",
+ "secties": [
+  {
+   "kop": "De eenparig rechtlijnige beweging",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>eenparig rechtlijnige beweging</strong> is <strong>een beweging op een rechte lijn met constante snelheid</strong>. De afkorting <strong>ERB</strong> staat voor <strong>eenparig rechtlijnige beweging</strong>. Bij een ERB zijn <strong>de gemiddelde en de ogenblikkelijke snelheid even groot</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>x(t)-grafiek van een ERB</strong> is <strong>een rechte met een constante helling</strong>, en de <strong>a(t)-grafiek valt samen met de tijdas</strong>, want er is geen versnelling."
+    },
+    {
+     "soort": "tekst",
+     "html": "Rekenen: een <strong>auto die 150 km in 2 uur</strong> rijdt, heeft een gemiddelde snelheid van <strong>75 km/h</strong>. Een <strong>trein met 20 m/s</strong> komt in <strong>2 minuten</strong> <strong>2400 m</strong> verder. Vertrekken <strong>twee fietsers samen, de ene met 4 m/s en de andere met 6 m/s</strong>, dan liggen ze na <strong>30 s</strong> <strong>60 m</strong> uit elkaar. En <strong>72 km/h</strong> is <strong>20</strong> meter per seconde: je deelt door 3,6."
+    }
+   ]
+  },
+  {
+   "kop": "Weg, verplaatsing en snelheid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Afgelegde weg en verplaatsing zijn niet altijd even groot.</strong> Rijdt een <strong>fietser 3 km naar het noorden en daarna 3 km terug</strong>, dan is de <strong>weg 6 km en de verplaatsing 0 km</strong>: hij staat weer waar hij vertrok."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een snelheid <strong>heeft een grootte, een richting en een zin</strong> en <strong>wordt voorgesteld door een vector</strong>. Daarom <strong>kan een snelheid langs de x-as wel negatief zijn</strong>: dat betekent dat het lichaam de andere kant op gaat."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het verschil tussen de <strong>gemiddelde en de ogenblikkelijke snelheid</strong>: <strong>de gemiddelde snelheid kijkt naar een heel traject, de ogenblikkelijke naar één moment</strong>. Om een gemiddelde snelheid te berekenen heb je <strong>de afgelegde weg</strong> en <strong>de tijdsduur van de beweging</strong> nodig; je deelt de eerste door de tweede."
+    }
+   ]
+  },
+  {
+   "kop": "Grafieken lezen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Drie dingen over een <strong>x(t)-grafiek</strong>: <strong>de helling van de grafiek is de snelheid</strong> op dat ogenblik, <strong>een horizontaal stuk betekent dat het lichaam stilstaat</strong>, en <strong>een dalend stuk betekent dat het terugkeert naar het vertrekpunt</strong>. Loopt een x(t)-grafiek <strong>eerst stijgend en daarna dalend</strong>, dan <strong>keert het lichaam onderweg om en komt het terug</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>oppervlakte onder een v(t)-grafiek</strong> stelt <strong>de verplaatsing van het lichaam</strong> voor; dat is dus <strong>de grootheid die je uit die oppervlakte afleest</strong>. En de <strong>oppervlakte onder een a(t)-grafiek geeft de snelheidsverandering</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De eenparig veranderlijke rechtlijnige beweging",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>eenparig veranderlijke rechtlijnige beweging</strong> <strong>blijft de versnelling dezelfde</strong>, is <strong>de v(t)-grafiek een rechte</strong> en is <strong>de x(t)-grafiek een parabool</strong>. Die <strong>v(t)-grafiek is dus een schuine rechte</strong>. Een <strong>vrije val zonder luchtweerstand</strong> en <strong>een auto die gelijkmatig optrekt</strong> zijn er voorbeelden van."
+    },
+    {
+     "soort": "tekst",
+     "html": "Rekenen met de versnelling. Een <strong>auto die in 8 s van 0 naar 24 m/s</strong> gaat, heeft een versnelling van <strong>3 m/s²</strong>. Een <strong>fietser die van 10 m/s naar stilstand remt in 5 s</strong> heeft een versnelling van <strong>−2 m/s²</strong>. Een <strong>negatieve versnelling betekent niet altijd dat het lichaam vertraagt</strong>: ze betekent enkel dat de versnelling tegen de positieve zin van de as in wijst."
+    },
+    {
+     "soort": "tekst",
+     "html": "Rekenen met weg en snelheid. Een <strong>wagen die uit rust vertrekt met 2 m/s²</strong> komt in <strong>6 s</strong> <strong>36 m</strong> ver en rijdt dan <strong>12 m/s</strong>. Een <strong>auto met 15 m/s die remt met 3 m/s²</strong> heeft <strong>37,5 m</strong> nodig om te stoppen, en <strong>bij dubbele snelheid is de remweg vier keer zo lang</strong>, want de snelheid staat in het kwadraat."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een inhaaloefening: rijdt een <strong>wagen met 20 m/s voorbij een stilstaande motor die meteen vertrekt met 4 m/s²</strong>, dan haalt de motor hem in <strong>na 10 s</strong> in, want dan hebben beide 200 m afgelegd."
+    }
+   ]
+  },
+  {
+   "kop": "De vrije val",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>vrije val</strong> is een beweging <strong>waarbij enkel de zwaartekracht werkt en de beginsnelheid nul is</strong>. De <strong>valversnelling op aarde</strong> is ongeveer <strong>9,81 m/s²</strong>; in oefeningen rekenen we vaak met 10."
+    },
+    {
+     "soort": "tekst",
+     "html": "Drie dingen gelden voor een vrije val zonder luchtweerstand: <strong>de versnelling blijft de hele val even groot</strong>, <strong>de snelheid groeit recht evenredig met de tijd</strong> en <strong>de afgelegde hoogte groeit met het kwadraat van de tijd</strong>. De <strong>valtijd hangt niet af van de massa van het voorwerp</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Rekenen: een <strong>steen valt na 3 s</strong> met <strong>30 m/s</strong>, met g gelijk aan 10 m/s². Doet een steen <strong>2 s</strong> over het bereiken van de bodem van een put, dan is die put <strong>20 m</strong> diep."
+    },
+    {
+     "soort": "tekst",
+     "html": "Gooi je een <strong>bal recht omhoog</strong>, dan geldt in het hoogste punt: <strong>de snelheid is nul en de versnelling niet</strong>, want de zwaartekracht blijft werken. Gooi je hem met <strong>20 m/s</strong> omhoog, dan duurt het <strong>2 s</strong> tot het hoogste punt."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "ERB: rechte lijn, constante snelheid, x(t) een rechte, a(t) op de as.",
+  "Weg en verplaatsing zijn niet hetzelfde; snelheid is een vector.",
+  "Helling van x(t) is de snelheid; oppervlakte onder v(t) is de verplaatsing.",
+  "EVRB: constante versnelling, v(t) een rechte, x(t) een parabool.",
+  "Negatieve versnelling betekent niet automatisch vertragen.",
+  "Dubbele snelheid is vier keer de remweg.",
+  "Vrije val: g is ongeveer 9,81 m/s², onafhankelijk van de massa.",
+  "In het hoogste punt is de snelheid nul, de versnelling niet."
+ ]
+}

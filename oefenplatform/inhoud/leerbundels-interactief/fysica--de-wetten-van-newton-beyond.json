@@ -1,0 +1,104 @@
+{
+ "vak": "Fysica",
+ "titel": "De wetten van Newton",
+ "onder": "Traagheid, F = m · a en actie en reactie, met de voorbeelden erbij.",
+ "secties": [
+  {
+   "kop": "De eerste wet: traagheid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>eerste wet van Newton</strong> zegt dat <strong>zonder resulterende kracht de bewegingstoestand niet verandert</strong>: wat stilstaat blijft stilstaan, wat beweegt blijft met dezelfde snelheid rechtdoor gaan. Met één woord heet ze de <strong>traagheidswet</strong>. Er zijn in totaal <strong>drie</strong> wetten van Newton."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daaruit volgt dat een <strong>lichaam geen voortdurende kracht nodig heeft om met constante snelheid door te blijven bewegen</strong>, en dat een <strong>lichaam dat met constante snelheid rechtdoor beweegt, geen resulterende kracht voelt</strong>. Op een <strong>lift die met constante snelheid naar boven gaat</strong>, is de resulterende kracht dus <strong>nul, want de snelheid verandert niet</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Voorbeelden van <strong>traagheid</strong>: <strong>je glijdt vooruit als de trein plots afremt</strong> en <strong>een tafellaken wegtrekken zonder de borden mee</strong>. Ook <strong>naar voren vliegen als de bus plots remt</strong> hoort erbij: <strong>je lichaam wil met dezelfde snelheid door blijven gaan</strong>. Een <strong>gordel die je bij een botsing tegenhoudt</strong>, en een <strong>tafellaken dat onder de borden vandaan getrokken wordt</strong>, zijn allebei de <strong>eerste wet</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De grootheid die zegt <strong>hoe moeilijk een lichaam van bewegingstoestand verandert</strong>, is zijn <strong>massa</strong>. Massa is dus de maat van de traagheid."
+    }
+   ]
+  },
+  {
+   "kop": "De tweede wet: F = m · a",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>tweede wet van Newton</strong> zegt dat <strong>de resulterende kracht de massa maal de versnelling is</strong>. De <strong>resulterende kracht</strong> is <strong>de vectoriële som van alle krachten</strong> en ze <strong>wijst in dezelfde zin als de versnelling</strong>: <strong>de versnelling wijst altijd in dezelfde zin als de resulterende kracht</strong>. Versnelling staat in <strong>m/s²</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Drie keer rekenen. Werkt op een lichaam van <strong>4 kg</strong> een resulterende kracht van <strong>12 N</strong>, dan is de versnelling <strong>3 m/s²</strong>. Wordt een <strong>kist van 5 kg met 20 N geduwd</strong> terwijl ze <strong>5 N wrijving</strong> voelt, dan blijft er 15 N over en is de versnelling <strong>3 m/s²</strong>. Om een lichaam van <strong>2 kg vanuit rust in 5 s tot 10 m/s</strong> te brengen, heb je <strong>4 N</strong> nodig."
+    },
+    {
+     "soort": "tekst",
+     "html": "De massa werkt tegen: een <strong>grotere massa heeft bij dezelfde kracht een kleinere versnelling</strong>. Krijgen een <strong>wagen van 1000 kg en een vrachtwagen van 10 000 kg dezelfde kracht</strong>, dan <strong>versnelt de wagen tien keer zo hard als de vrachtwagen</strong>. Daarom verklaart de <strong>tweede wet</strong> ook waarom een <strong>volle winkelkar trager op gang komt</strong>: <strong>een grotere massa geeft minder versnelling</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De zin van de versnelling volgt uit de kracht. Bij een <strong>afremmende auto</strong> wijst ze <strong>tegen de bewegingszin in</strong>. Rolt een <strong>bal een helling af</strong>, dan zorgt <strong>de component van de zwaartekracht langs het vlak</strong> voor de versnelling."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>steen valt in een luchtledige buis even snel als een veertje</strong> omdat <strong>er geen luchtweerstand is, dus werkt enkel de zwaartekracht</strong>. In de tweede wet valt de massa dan aan beide kanten weg."
+    }
+   ]
+  },
+  {
+   "kop": "De derde wet: actie en reactie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>derde wet van Newton</strong> zegt dat <strong>elke kracht samengaat met een even grote tegengestelde kracht</strong>. Met één woord: de <strong>actie-reactiewet</strong>. Duw je <strong>met 200 N tegen een muur</strong>, dan duwt de muur <strong>met 200 N</strong> terug."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Actie en reactie heffen elkaar niet op</strong> omdat <strong>ze op twee verschillende lichamen werken</strong>: ze werken dus <strong>niet op hetzelfde lichaam</strong> in. Daarom kan je met zo'n paar nooit rechtstreeks rekenen aan één lichaam."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee krachten vormen een <strong>actie-reactiepaar</strong> als ze op elkaars lichaam werken: <strong>de aarde trekt aan de maan en de maan aan de aarde</strong>, en <strong>jij duwt tegen de muur en de muur duwt tegen jou</strong>. De reactie op <strong>de zwaartekracht die de aarde op jou uitoefent</strong>, is <strong>de kracht waarmee jij aan de aarde trekt</strong>. En <strong>als jij op de grond springt, duw jij de aarde ook een beetje weg</strong> — alleen merk je dat niet, want haar massa is onvoorstelbaar veel groter."
+    },
+    {
+     "soort": "tekst",
+     "html": "Voorbeelden van de derde wet: <strong>een zwemmer die water naar achter duwt</strong> en <strong>een ballon die leegloopt en wegvliegt</strong>. Een <strong>raket komt in de ruimte vooruit</strong> doordat <strong>ze gassen naar achter duwt en die haar naar voren duwen</strong>. En een <strong>geweer slaat terug bij het afvuren</strong> omdat <strong>de kogel even hard terugduwt als het geweer hem vooruit duwt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>paard trekt aan een kar met dezelfde kracht als waarmee de kar aan het paard trekt</strong>, en toch komt het geheel vooruit: <strong>het paard duwt ook met zijn hoeven tegen de grond</strong>, en die kracht van buiten het stel zet alles in beweging. Bij een <strong>botsing tussen een vrachtwagen en een auto zijn de twee krachten even groot</strong>; de schade is anders doordat de massa's verschillen."
+    }
+   ]
+  },
+  {
+   "kop": "Zwaarder en lichter voelen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Versnelt een <strong>lift naar boven</strong>, dan <strong>voel je je zwaarder dan anders</strong>, want de vloer moet je naast je gewicht ook nog versnellen. Bij een versnelling naar beneden voel je je lichter."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>astronaut in een baan rond de aarde voelt nog wél zwaartekracht</strong>: die houdt hem net in zijn baan. Hij zweeft omdat hij samen met zijn station in een vrije val zit."
+    },
+    {
+     "soort": "tekst",
+     "html": "Voetgangers <strong>buigen hun knieën bij het landen van een sprong</strong> omdat <strong>het afremmen dan langer duurt en de kracht kleiner is</strong>. Dat is de tweede wet in omgekeerde richting: dezelfde snelheidsverandering over een langere tijd vraagt een kleinere kracht."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Eerste wet: zonder resulterende kracht verandert de bewegingstoestand niet.",
+  "Massa is de maat van de traagheid.",
+  "Tweede wet: F = m · a; de versnelling volgt de resulterende kracht.",
+  "Dezelfde kracht geeft een tien keer zwaarder lichaam tien keer minder versnelling.",
+  "Derde wet: elke kracht heeft een even grote tegengestelde kracht.",
+  "Actie en reactie heffen elkaar niet op: ze werken op twee lichamen.",
+  "Langer afremmen betekent een kleinere kracht."
+ ]
+}

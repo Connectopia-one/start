@@ -1,0 +1,113 @@
+{
+ "vak": "Fysica",
+ "titel": "Elektrodynamica: stroom, weerstand en schakelingen",
+ "onder": "Stroom, spanning en weerstand, en hoe je er serie en parallel mee rekent.",
+ "secties": [
+  {
+   "kop": "Stroom, spanning en weerstand",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>elektrische stroomsterkte</strong> is <strong>de lading die per seconde door een doorsnede gaat</strong>. Ze staat in <strong>ampère</strong>. De <strong>afgesproken zin van de stroom is die van de positieve lading, dus van plus naar min</strong>, terwijl de elektronen in werkelijkheid de andere kant op lopen."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een stroomkring <strong>worden de elektronen niet door de draad opgebruikt</strong>: ze draaien rond en er komen er net zo veel terug als er vertrekken. Wat wél verbruikt wordt, is energie."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>wet van Ohm</strong> zegt dat <strong>de weerstand de spanning gedeeld door de stroomsterkte is</strong>, dus ook dat <strong>de spanning de weerstand maal de stroomsterkte is</strong>. <strong>Bij gelijke spanning geeft een grotere weerstand een kleinere stroom</strong>, en de wet <strong>geldt voor een weerstand waarvan de waarde niet verandert</strong>. Weerstand staat in <strong>ohm</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Drie keer rekenen. Staat er <strong>12 V</strong> over een weerstand waar <strong>3 A</strong> door loopt, dan is die weerstand <strong>4 Ω</strong>. Loopt er <strong>0,4 A</strong> door een weerstand van <strong>25 Ω</strong>, dan staat er <strong>10 V</strong> over. Staat een <strong>lamp van 6 Ω</strong> op een bron van <strong>9 V</strong>, dan loopt er <strong>1,5 A</strong>. En <strong>verdubbel je bij gelijke spanning de weerstand</strong>, dan <strong>wordt de stroom half zo groot</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De weerstand van een draad hangt af <strong>van de lengte van de draad</strong> en <strong>van de dikte van de draad</strong>: lang en dun geeft veel weerstand, kort en dik weinig. Ook de stof zelf telt mee. Een <strong>draad wordt warm als er stroom door loopt</strong> omdat <strong>de elektronen tegen de atomen van het rooster botsen</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Meten en schema's",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>ampèremeter zet je in serie</strong> met het onderdeel waarvan je de stroom meet, want de stroom moet er door. Hij heeft een <strong>heel kleine eigen weerstand</strong>, want <strong>anders verandert hij de stroom die hij wil meten</strong>. Het toestel dat de spanning tussen twee punten meet, is de <strong>voltmeter</strong>; die zet je er juist naast."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een tekening van een stroomkring met symbolen in plaats van voorwerpen heet een <strong>elektrisch schema</strong>. Daarin hebben onder meer <strong>de schakelaar</strong> en <strong>de voltmeter</strong> hun eigen symbool. Een <strong>schakelaar in open stand laat de stroom niet verder lopen</strong>: de kring is dan onderbroken. Een <strong>regelbare weerstand</strong> laat je de stroom in een kring instellen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het verschil tussen <strong>gelijkstroom en wisselstroom</strong>: <strong>gelijkstroom loopt altijd in dezelfde zin</strong>, wisselstroom keert voortdurend van zin om. Een batterij geeft gelijkstroom, het stopcontact wisselstroom."
+    }
+   ]
+  },
+  {
+   "kop": "Serieschakeling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In een <strong>serieschakeling</strong> is de <strong>stroomsterkte in elk onderdeel even groot</strong>; dat is dus <strong>de grootheid die overal even groot is</strong>. Verder geldt: <strong>de spanningen over de weerstanden tellen samen tot de bronspanning</strong>, en de <strong>vervangingsweerstand is de som van de weerstanden</strong>. De <strong>som van de deelspanningen is dus niet groter dan de bronspanning</strong>, maar precies gelijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "Die ene weerstand die je in de plaats van een hele schakeling mag denken, heet de <strong>vervangingsweerstand</strong>. Twee weerstanden van <strong>4 Ω en 6 Ω in serie</strong> geven <strong>10 Ω</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Rekenen met drie weerstanden: <strong>2 Ω, 3 Ω en 5 Ω in serie op een bron van 20 V</strong> geven samen 10 Ω, dus loopt er <strong>2 A</strong>. Over de weerstand van <strong>3 Ω</strong> staat dan <strong>6 V</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Omdat de stroom door alles moet, dooft <strong>één kapotte lamp de hele reeks</strong> als de lampen <strong>in serie</strong> staan. Dan <strong>blijft de rest dus niet werken</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Parallelschakeling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In een <strong>parallelschakeling</strong> staat <strong>over elke tak dezelfde spanning</strong> en <strong>tellen de stromen van de takken samen tot de hoofdstroom</strong>; <strong>de totale stroom is dus de som van de deelstromen</strong>. <strong>Door de kleinste weerstand loopt de grootste stroom</strong>, en <strong>door elke tak loopt dus niet dezelfde stroom</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>vervangingsweerstand is kleiner dan de kleinste weerstand</strong>: <strong>hoe meer weerstanden je parallel bijzet, hoe kleiner de totale weerstand wordt</strong>. <strong>Twee gelijke weerstanden parallel geven samen de helft van één ervan.</strong> Twee weerstanden van <strong>4 Ω en 6 Ω parallel</strong> geven <strong>2,4 Ω</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Staan <strong>6 Ω en 12 Ω parallel op 24 V</strong>, dan loopt er 4 A door de eerste en 2 A door de tweede, dus <strong>levert de bron 6 A</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Omdat <strong>elke lamp haar eigen weg naar de bron heeft</strong>, <strong>blijven de andere lampen branden als er in een parallelschakeling één lamp stukgaat</strong>. Daarom staan de lampen in een huis parallel."
+    }
+   ]
+  },
+  {
+   "kop": "Gemengde schakelingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>gemengde schakeling reken je eerst het parallelle stuk uit en pas daarna de serie</strong>. Je vervangt het parallelle stuk door één weerstand en houdt zo een gewone serieschakeling over."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een voorbeeld dat in drie stappen gaat. Een weerstand van <strong>10 Ω in serie met twee parallelle weerstanden van elk 20 Ω</strong>: die twee geven samen 10 Ω, dus is de totale weerstand <strong>20 Ω</strong>. Staat die schakeling op <strong>40 V</strong>, dan levert de bron <strong>2 A</strong>. Over het <strong>parallelle stuk</strong> staat dan 2 A maal 10 Ω, dus <strong>20 V</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Stroomsterkte is lading per seconde, in ampère.",
+  "Wet van Ohm: U = R · I.",
+  "Een ampèremeter staat in serie, een voltmeter ernaast.",
+  "In serie: dezelfde stroom, spanningen tellen op, weerstanden tellen op.",
+  "Parallel: dezelfde spanning, stromen tellen op, totale weerstand daalt.",
+  "Twee gelijke weerstanden parallel geven de helft.",
+  "Gemengd: eerst het parallelle stuk, dan de serie."
+ ]
+}

@@ -1,0 +1,105 @@
+{
+ "vak": "Fysica",
+ "titel": "De magnetische kracht op een stroom en op een lading",
+ "onder": "De laplacekracht, de lorentzkracht en wat je er in motoren en versnellers mee doet.",
+ "secties": [
+  {
+   "kop": "De laplacekracht op een draad",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De kracht op een stroomvoerende geleider in een magnetisch veld heet de <strong>laplacekracht</strong>. Ze staat <strong>loodrecht op de draad en loodrecht op het veld</strong>, dus loodrecht op het vlak van die twee."
+    },
+    {
+     "soort": "tekst",
+     "html": "De kracht hangt af <strong>van de stroomsterkte door de draad</strong>, <strong>van de sterkte van het magnetisch veld</strong> en <strong>van de lengte van de draad in het veld</strong>. Ze is dus <strong>recht evenredig met de stroomsterkte</strong> en <strong>recht evenredig met de magnetische inductie</strong>. Van de eigen weerstand van de draad hangt ze niet af."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ook de hoek telt mee. De kracht is <strong>het grootst als de draad loodrecht op de veldlijnen staat</strong>, en een <strong>draad die evenwijdig met de veldlijnen ligt, voelt geen magnetische kracht</strong>. Staat een draad <strong>onder 30 graden met de veldlijnen</strong> in plaats van loodrecht, dan <strong>wordt de kracht kleiner, want de sinus van 30 graden is maar een half</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Rekenen: een draad van <strong>0,5 m</strong> die loodrecht in een veld van <strong>0,2 T</strong> ligt en <strong>3 A</strong> voert, voelt een kracht van <strong>0,3 N</strong>. De zin van die kracht vind je <strong>met je rechterhand: vingers in de stroomzin, veld in de handpalm, duim geeft de kracht</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee evenwijdige draden werken ook op elkaar. Voeren ze <strong>stroom in dezelfde zin</strong>, dan <strong>trekken ze elkaar aan</strong>; voeren ze <strong>stroom in tegengestelde zin</strong>, dan <strong>stoten ze elkaar af</strong>. Die kracht <strong>wordt groter als ze dichter bij elkaar liggen</strong>, niet kleiner."
+    }
+   ]
+  },
+  {
+   "kop": "Motor en luidspreker",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>luidspreker</strong> werkt doordat <strong>de wisselstroom in een spoel het membraan heen en weer duwt</strong>. De kracht die dat doet, is de <strong>laplacekracht</strong>, en omdat de stroom van zin wisselt, wisselt ook de kracht van zin."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>spoel van een gelijkstroommotor draait</strong> omdat <strong>de krachten op de twee zijden in tegengestelde zin wijzen</strong>: in de ene zijde loopt de stroom de ene kant op, in de andere de andere kant. De <strong>collector</strong> dient <strong>om de stroom elke halve omwenteling om te keren</strong>, zodat het koppel altijd dezelfde kant op blijft duwen."
+    }
+   ]
+  },
+  {
+   "kop": "De lorentzkracht op een lading",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De kracht op één bewegende lading in een magnetisch veld heet de <strong>lorentzkracht</strong>. Ze hangt af <strong>van de grootte van de lading</strong> en <strong>van de snelheid van de lading</strong>, en natuurlijk ook van het veld en van de hoek ermee. Een <strong>stilstaande lading in een magnetisch veld voelt geen magnetische kracht</strong>, want zonder snelheid is er geen kracht. Een lading die <strong>precies evenwijdig met de veldlijnen</strong> beweegt, voelt <strong>geen enkele kracht, want de hoek met het veld is nul</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Rekenen: een lading van <strong>2 mC</strong> die met <strong>500 m/s</strong> loodrecht door een veld van <strong>0,4 T</strong> beweegt, voelt een kracht van <strong>0,4 N</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>magnetische kracht op een lading staat loodrecht op haar snelheid</strong>. Daardoor verricht ze geen arbeid en <strong>kan een magnetisch veld de snelheid van een lading niet groter maken</strong>: het buigt haar alleen af."
+    }
+   ]
+  },
+  {
+   "kop": "De cirkelbaan",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een lading die <strong>loodrecht een homogeen magnetisch veld binnenkomt</strong>, volgt een <strong>cirkelbaan</strong>, want de kracht blijft loodrecht op de snelheid staan en werkt dus als middelpuntzoekende kracht. Een <strong>deeltje dat schuin binnenkomt, gaat niet rechtdoor</strong>: het volgt een schroeflijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "De straal van die cirkelbaan hangt af van <strong>de massa van het deeltje</strong>, <strong>de snelheid van het deeltje</strong> en <strong>de sterkte van het magnetisch veld</strong>, en ook van zijn lading. <strong>Verdubbel je het magnetisch veld</strong>, dan <strong>wordt de straal half zo groot</strong>. Een sneller deeltje maakt een ruimere bocht."
+    },
+    {
+     "soort": "tekst",
+     "html": "Maken <strong>twee deeltjes met dezelfde lading en snelheid</strong> in hetzelfde veld een bocht met een andere straal, dan verschilt <strong>hun massa</strong>. Vliegen een <strong>positieve en een negatieve lading</strong> met dezelfde snelheid het veld binnen, dan <strong>buigen ze naar tegengestelde kanten af</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Toepassingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>massaspectrometer</strong> is het toestel dat <strong>ionen op hun massa scheidt met een magnetisch veld</strong>. Je weet <strong>aan de straal van de bocht die het deeltje beschrijft</strong> of het zwaar of licht is: een zwaar deeltje maakt een ruimere bocht."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>cyclotron</strong> dient <strong>om geladen deeltjes tot hoge snelheid te versnellen</strong>. Daarin <strong>doet het magnetisch veld niet het versnellende werk</strong>: het houdt de deeltjes in hun cirkelbaan, terwijl een elektrisch veld ze bij elke ronde een duw geeft. De <strong>massaspectrometer</strong> en het <strong>cyclotron</strong> berusten dus beide op de kracht op bewegende ladingen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>hallsensor</strong> dient <strong>om de sterkte van een magnetisch veld te meten</strong>. En je ziet het <strong>noorderlicht vooral in de buurt van de polen</strong> omdat <strong>het aardmagnetisch veld de geladen deeltjes daarheen leidt</strong>. <strong>Zuurstof geeft daarbij meestal groen licht</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Laplacekracht: op een stroomvoerende draad, loodrecht op draad en veld.",
+  "Evenwijdig met het veld is er geen kracht; loodrecht is ze maximaal.",
+  "Gelijke stroomzin trekt aan, tegengestelde stoot af.",
+  "Lorentzkracht: op een bewegende lading, loodrecht op haar snelheid.",
+  "Een magnetisch veld buigt af maar versnelt niet.",
+  "Loodrecht binnenkomen geeft een cirkelbaan; zwaarder is een ruimere bocht.",
+  "Collector: keert de stroom elke halve omwenteling om."
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "vak": "Fysica",
+ "titel": "De gravitatiekracht en de cirkelbeweging",
+ "onder": "Rondjes draaien, en waarom een satelliet niet naar beneden valt.",
+ "secties": [
+  {
+   "kop": "De eenparig cirkelvormige beweging",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een lichaam voert een <strong>eenparig cirkelvormige beweging</strong> uit <strong>als het een cirkel beschrijft met een constante baansnelheid</strong>. Bij een <strong>ECB blijft de grootte van de baansnelheid constant</strong>, terwijl <strong>de richting van de baansnelheid voortdurend verandert</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>periode</strong> is <strong>de tijd die een lichaam nodig heeft voor één volledige omwenteling</strong>; de <strong>frequentie</strong> is haar omgekeerde en staat in <strong>hertz</strong>. Een <strong>wiel dat 120 keer per minuut</strong> rondraait, heeft een frequentie van <strong>2 Hz</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>hoeksnelheid</strong> is <strong>de afgelegde hoek per seconde</strong>, in radiaal per seconde. <strong>Twee kinderen op dezelfde draaimolen hebben dezelfde hoeksnelheid, ook al zitten ze niet even ver van het midden</strong>; hun baansnelheid verschilt wel. Draait een <strong>draaimolen met 0,5 rad/s</strong>, dan beweegt een <strong>kind op 4 m van het midden</strong> met <strong>2 m/s</strong>. Doet een <strong>kind op 3 m van het midden 6 s over één ronde</strong>, dan is zijn baansnelheid <strong>ongeveer 3,1 m/s</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De middelpuntzoekende versnelling en kracht",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een lichaam in een ECB heeft toch een versnelling omdat <strong>de richting van de snelheid voortdurend verandert</strong>. Die versnelling wijst <strong>naar het middelpunt van de cirkel</strong> en heet de <strong>centripetale versnelling</strong>. Bij een ECB <strong>staan de snelheid en de versnelling loodrecht op elkaar</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Drie dingen over de <strong>middelpuntzoekende versnelling</strong>: <strong>ze wijst naar het midden van de cirkel</strong>, <strong>ze is het kwadraat van de snelheid gedeeld door de straal</strong>, en <strong>ze wordt vier keer zo groot als je twee keer zo snel rijdt</strong>. Rijdt een <strong>auto met 10 m/s door een bocht met een straal van 20 m</strong>, dan is de centripetale versnelling <strong>5 m/s²</strong>. De <strong>middelpuntzoekende kracht op een auto van 1000 kg die met 5 m/s² naar het midden versnelt</strong>, is dus <strong>5000 N</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>middelpuntzoekende kracht is geen extra kracht naast de gewone krachten</strong>: het is een rol die een bestaande kracht speelt. Die rol kan gespeeld worden door <strong>de wrijving van de wielen van een auto in een bocht</strong>, <strong>de spanning in een touw waaraan je een steen rondslingert</strong> of <strong>de gravitatiekracht op een satelliet rond de aarde</strong>. Wat een <strong>auto in een bocht houdt</strong>, is dus <strong>de wrijvingskracht tussen de banden en het wegdek</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Omdat die kracht loodrecht op de snelheid staat, <strong>verricht de middelpuntzoekende kracht geen arbeid</strong> op een lichaam in een ECB. En <strong>breekt het touw</strong> van een rondgeslingerde steen, dan <strong>vliegt de steen raaklijnig verder, niet naar buiten</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De universele gravitatiewet",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>universele gravitatiewet</strong> zegt dat <strong>elke twee massa's elkaar aantrekken, met r² in de noemer</strong>. De kracht is <strong>recht evenredig met het product van de twee massa's</strong>, <strong>omgekeerd evenredig met het kwadraat van de afstand</strong>, en ze <strong>werkt tussen alle massa's, hoe klein ook</strong>. De constante G heet de <strong>gravitatieconstante</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De gravitatiewet <strong>lijkt op de wet van Coulomb</strong>: <strong>beide hebben het kwadraat van de afstand in de noemer</strong> en <strong>beide hebben het product van twee grootheden in de teller</strong>. <strong>Verdrievoudig je de afstand</strong> tussen twee massa's, dan <strong>wordt de kracht negen keer zo klein</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je <strong>voelt geen aantrekking tussen twee gewone voorwerpen in een kamer</strong> omdat G zo klein is dat de kracht onmeetbaar blijft. En het <strong>gravitatieveld van de aarde houdt nergens op</strong>: het wordt alleen steeds zwakker."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het gravitatieveld rond een planeet ziet eruit als <strong>radiaal, met de lijnen naar de planeet toe</strong>. <strong>Vlak boven het aardoppervlak mag je het zwaarteveld als homogeen beschouwen</strong>, want over een paar meter verandert er zo goed als niets."
+    }
+   ]
+  },
+  {
+   "kop": "Zwaartekracht en valversnelling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het verband tussen zwaartekracht en gravitatiekracht: <strong>de zwaartekracht is de gravitatiekracht van de aarde op een lichaam</strong>. De <strong>valversnelling aan het oppervlak van een planeet</strong> wordt bepaald door <strong>de massa van de planeet</strong> en <strong>de straal van de planeet</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom is <strong>g op de maan ongeveer zes keer kleiner dan op aarde</strong>: <strong>de maan heeft veel minder massa, ondanks haar kleinere straal</strong>. Hebben <strong>twee planeten dezelfde massa en heeft de ene een twee keer zo grote straal</strong>, dan is g aan haar oppervlak <strong>vier keer kleiner</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je <strong>massa verandert niet als je naar de maan gaat</strong>: je gewicht wel, want dat is een kracht en hangt van g af."
+    }
+   ]
+  },
+  {
+   "kop": "Satellieten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De kracht die een <strong>satelliet in zijn baan rond de aarde houdt</strong>, is <strong>de gravitatiekracht van de aarde</strong>; zij <strong>speelt de rol van middelpuntzoekende kracht</strong>. Je <strong>berekent de baansnelheid</strong> dus door <strong>de gravitatiekracht gelijk te stellen aan de middelpuntzoekende kracht</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarbij <strong>valt de massa van de satelliet uit de formule van de baansnelheid weg</strong>: een <strong>zware en een lichte satelliet in dezelfde baan hebben dezelfde snelheid</strong>. Voor een satelliet die <strong>verder van de aarde draait</strong>, geldt: hij <strong>beweegt trager en doet er langer over per omloop</strong>, dus hoort <strong>verder weg bij een kleinere baansnelheid</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een satelliet die <strong>altijd boven hetzelfde punt van de aarde blijft hangen</strong>, heet <strong>geostationair</strong>: zijn periode is precies één dag."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Astronauten zweven in een ruimtestation</strong> omdat <strong>ze samen met het station voortdurend rond de aarde vallen</strong>, niet omdat er geen gravitatie meer zou zijn: die houdt hen juist in hun baan."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "ECB: grootte van de snelheid constant, richting niet.",
+  "Periode en frequentie zijn elkaars omgekeerde.",
+  "Centripetale versnelling is v²/r en wijst naar het midden.",
+  "Middelpuntzoekend is een rol, geen extra kracht.",
+  "Breekt het touw, dan vliegt de steen raaklijnig weg.",
+  "Gravitatie: ∝ product van de massa's, ∝ 1/r².",
+  "g aan een oppervlak hangt af van de massa en de straal van de planeet.",
+  "Bij een satelliet is de gravitatiekracht de middelpuntzoekende kracht."
+ ]
+}

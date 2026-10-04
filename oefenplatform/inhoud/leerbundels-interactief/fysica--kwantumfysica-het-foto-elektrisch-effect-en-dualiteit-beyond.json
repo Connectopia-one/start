@@ -1,0 +1,102 @@
+{
+ "vak": "Fysica",
+ "titel": "Kwantumfysica: het foto-elektrisch effect en dualiteit",
+ "onder": "Twee proeven die licht een deeltje maakten en materie een golf.",
+ "secties": [
+  {
+   "kop": "Het foto-elektrisch effect",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij het <strong>foto-elektrisch effect</strong> <strong>slaat licht elektronen uit een metaaloppervlak los</strong>. Of er elektronen loskomen, hangt af <strong>van de frequentie van het licht</strong> en niet van hoe fel het schijnt. De laagste frequentie waarbij er elektronen loskomen heet de <strong>drempelfrequentie</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Boven die drempel doet een grotere intensiteit dit: <strong>er komen meer elektronen los, met dezelfde energie</strong>. Kort samen: <strong>de frequentie beslist of er elektronen loskomen</strong> en <strong>de intensiteit beslist hoeveel elektronen er loskomen</strong>. Heeft een metaal een <strong>drempelfrequentie van 6 maal 10¹⁴ Hz</strong> en schijn je licht van <strong>4 maal 10¹⁴ Hz</strong>, dan <strong>komt er geen enkel elektron los</strong>, hoe fel je ook schijnt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>klassieke golfmodel verklaart het foto-elektrisch effect niet</strong>, want <strong>het voorspelt dat fel rood licht ook elektronen losmaakt</strong>: genoeg energie, enkel wat langer wachten. Dat gebeurt niet. <strong>Bij het foto-elektrisch effect neemt één elektron de energie van meerdere fotonen niet samen op</strong>: elk elektron krijgt precies één foton, en dat ene foton moet op zich genoeg energie hebben. Daarom <strong>laat het foto-elektrisch effect zien dat licht ook een deeltjeskarakter heeft</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De energie van een foton",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De energie van een foton bereken je als <strong>de constante van Planck maal de frequentie</strong>; de constante in die formule is die <strong>van Planck</strong>, met symbool h. Een foton van <strong>5 maal 10¹⁴ Hz</strong> heeft met h gelijk aan 6,63 · 10⁻³⁴ J·s <strong>ongeveer 3,3 · 10⁻¹⁹ J</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het verband met de golflengte: <strong>een kleinere golflengte geeft een energierijker foton</strong>. Daarom heeft <strong>blauw licht een energierijker foton dan rood licht</strong>. Om de minimale fotonenergie voor een metaal te bepalen heb je <strong>de drempelfrequentie van dat metaal</strong> en <strong>de constante van Planck</strong> nodig."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wat er van de fotonenergie overblijft nadat het elektron los is: <strong>het verschil wordt kinetische energie van het elektron</strong>. Een deel gaat naar het losmaken zelf, de rest naar de snelheid."
+    }
+   ]
+  },
+  {
+   "kop": "Waar je het effect tegenkomt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Met het foto-elektrisch effect werken <strong>een zonnepaneel op een dak</strong>, <strong>een fotocel in een bewegingsdetector</strong> en <strong>een rookdetector die met licht werkt</strong>. Een <strong>zonnecel</strong> werkt doordat <strong>het licht ladingen losmaakt die een stroom vormen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een fotocel in een bewegingsdetector zendt zelf geen licht uit om te meten</strong>: ze meet enkel het licht dat erop valt. Een <strong>rookdetector met licht</strong> gaat af omdat <strong>de rook de bundel verstrooit en de fotocel minder licht krijgt</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Materie als golf",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>experiment van Davisson en Germer</strong> liet zien <strong>dat een bundel elektronen zich als een golf gedraagt</strong>. Ze stuurden hun elektronenbundel op <strong>nikkel</strong> en kregen een buigingspatroon: <strong>ook een elektron kan een buigingspatroon geven, net als licht</strong>. Wat die proef en de proef van Young gemeen hebben: <strong>ze laten allebei een golfkarakter zien</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Met de <strong>dualiteit</strong> van licht en materie bedoelt men dat <strong>ze zich soms als een golf en soms als een deeltje gedragen</strong>. Het golfmodel verklaart het best <strong>interferentie bij de proef van Young</strong>, <strong>buiging rond een smalle opening</strong> en <strong>breking bij de overgang naar glas</strong>; het deeltjesmodel is nodig voor <strong>het foto-elektrisch effect</strong> en <strong>de drempelfrequentie van een metaal</strong>. <strong>Licht is dus niet in werkelijkheid alleen een golf met het deeltjesmodel als rekentruc</strong>: beide kanten zijn even echt, je ziet er telkens één van."
+    },
+    {
+     "soort": "tekst",
+     "html": "Waarom we de golfkant van een voetbal niet merken: <strong>zijn golflengte is onvoorstelbaar klein door zijn grote massa</strong>. Bij een elektron is die golflengte wel van de orde van een atoom, en daar zie je het effect dus."
+    }
+   ]
+  },
+  {
+   "kop": "Kansen in plaats van banen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>golffunctie</strong> van een deeltje beschrijft <strong>de kans om het deeltje op een bepaalde plaats te vinden</strong>; je bepaalt ze met de <strong>Schrödingervergelijking</strong>. Volgens de Kopenhaagse interpretatie <strong>valt ze bij een meting samen tot één uitkomst</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Volgens de kwantumfysica is de plaats van een elektron in een atoom een kansverdeling</strong>: <strong>sommige plaatsen zijn veel waarschijnlijker dan andere</strong>. Het gebied waar een elektron zich met grote kans bevindt heet een <strong>orbitaal</strong>. Een elektron <strong>heeft een golfkarakter én een deeltjeskarakter</strong> en <strong>zijn plaats in een atoom is een kansverdeling</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>onzekerheidsbeginsel van Heisenberg</strong> zegt dat <strong>plaats en impuls niet samen scherp te kennen zijn</strong>. <strong>Dat komt niet doordat onze meettoestellen nog niet nauwkeurig genoeg zijn</strong>: het zit in de natuur zelf. Daarom <strong>kan je van een elektron geen baan tekenen zoals van een planeet</strong>, want <strong>plaats en snelheid zijn niet samen scherp te kennen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Vuur je in het <strong>tweespletenexperiment</strong> de elektronen <strong>één per één</strong> af, dan <strong>staat er na lang wachten toch een patroon van strepen</strong>. Elk elektron komt als één stip aan, maar samen vormen ze het golfpatroon."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Foto-elektrisch effect: licht slaat elektronen uit een metaal.",
+  "De frequentie beslist of, de intensiteit hoeveel.",
+  "E = h · f; kleinere golflengte is energierijker.",
+  "Davisson en Germer: elektronen buigen op nikkel, dus golf.",
+  "Dualiteit: golf en deeltje zijn beide echt.",
+  "De golffunctie geeft kansen; een orbitaal is zo'n kansgebied.",
+  "Heisenberg: plaats en impuls nooit samen scherp.",
+  "Eén per één door twee spleten geeft toch strepen."
+ ]
+}
