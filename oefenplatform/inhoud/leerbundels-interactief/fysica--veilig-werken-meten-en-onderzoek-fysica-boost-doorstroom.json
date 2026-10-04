@@ -1,0 +1,163 @@
+{
+ "vak": "Fysica",
+ "titel": "Veilig werken, meten en onderzoek",
+ "onder": "Veilig en duurzaam werken, een meetinstrument kiezen en aflezen, de stappen van het wetenschappelijk onderzoek, de criteria voor een onderzoeksvraag en STEM.",
+ "secties": [
+  {
+   "kop": "Veilig en duurzaam werken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Tijdens een onderzoek werk je <strong>veilig en duurzaam</strong>. Op het examen voer je die handelingen niet uit, maar <strong>leg je uit waarom</strong> iets een goede of een slechte werkwijze is."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Goede werkwijze</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarom</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het meetbereik respecteren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">anders loopt het instrument over of gaat het stuk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een instrument uitschakelen als je niet meet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spaart de batterij, voorkomt schade</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen natte handen bij elektrische toestellen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">water verlaagt de weerstand van je huid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de handleiding en het onderhoudsvoorschrift lezen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">daar staan de grenzen en de volgorde in</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">afval volgens het etiket verwerken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet alles mag in de gootsteen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Water verlaagt de weerstand van je huid</strong> sterk, dus loopt er bij dezelfde spanning veel meer stroom door je lichaam. Dat is net wat elektrocutie gevaarlijk maakt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een instrument dat aan blijft staan als je niet meet</strong>, verbruikt zijn batterij en kan warm worden, en een multimeter op de verkeerde stand kan stuk gaan. Een <strong>onderhoudsvoorschrift hoort bij veilig en duurzaam werken</strong>: een goed onderhouden toestel meet betrouwbaarder en gaat langer mee. Ook een <strong>werktekening of een handleiding juist kunnen lezen</strong> hoort daarbij, want daar staat in welke grenzen het systeem aankan."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De restvloeistof van een proef mag je niet altijd in de gootsteen gieten.</strong> Dat hangt van de stof af, en wat op het etiket of in de handleiding staat, bepaalt waar het afval naartoe moet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op een <strong>dynamometer staat een maximale waarde</strong> omdat een <strong>grotere kracht de veer blijvend uitrekt</strong>. De veer werkt enkel binnen haar elastisch gebied; daarbuiten komt ze niet meer op haar oude lengte terug en klopt de schaal niet meer."
+    }
+   ]
+  },
+  {
+   "kop": "Meten en aflezen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Je kiest een instrument op <strong>twee</strong> dingen: eerst op <strong>meetbereik</strong>, dan op <strong>nauwkeurigheid</strong>. Het <strong>meetbereik is de grootste waarde die het instrument kan meten</strong>, en <strong>meten boven het meetbereik kan het beschadigen</strong>. De nauwkeurigheid zegt hoe fijn je kan aflezen; dat is <strong>niet hetzelfde als het meetbereik</strong>, en een <strong>groter meetbereik gaat meestal juist samen met grovere streepjes</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Een instrument met fijnere streepjes is niet altijd de beste keuze.</strong> Past de waarde niet binnen het meetbereik, dan kan je er niets mee meten of ga je het beschadigen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Meet je een <strong>stroom die mogelijk 2 A groot is met een multimeter</strong>, dan <strong>kies je eerst het grootste meetbereik en verfijn je daarna</strong>. Op een te klein bereik kan het instrument overbelast raken. Voor een <strong>tijdsduur van ongeveer 2 s</strong> neem je een <strong>chronometer tot op een honderdste seconde</strong>: met een klok die enkel seconden toont, zou je meetfout even groot zijn als de helft van je meting."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je leest een <strong>maatcilinder op ooghoogte</strong> af, want <strong>anders kijk je er schuin op en lees je verkeerd af</strong>. Die afleesfout heet een <strong>parallaxfout</strong>. Het peil lees je af <strong>onderaan de holle kromming van het oppervlak</strong>, en die kromming heet de <strong>meniscus</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Herhaal een meting en neem het gemiddelde.</strong> Zo verklein je de invloed van toevallige afleesfouten. Een waarde die er helemaal naast ligt, mag je wel apart bekijken."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een meetresultaat hoort <strong>altijd een eenheid</strong>, want <strong>zonder eenheid weet je niet wat het getal betekent</strong>: een 5 kan 5 m, 5 kg of 5 s zijn. Zonder eenheid kan je twee metingen niet vergelijken en niet verder rekenen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Welk instrument waarvoor: een <strong>thermometer</strong> voor een <strong>temperatuur</strong> (laat hem lang genoeg zitten tot hij in thermisch evenwicht is), een <strong>balans</strong> voor een massa, een <strong>dynamometer</strong> voor een kracht, een <strong>maatcilinder</strong> voor een volume, een <strong>manometer of barometer</strong> voor een druk, een <strong>chronometer</strong> voor een tijd, een <strong>meetlint</strong> voor een lengte en een <strong>multimeter</strong> voor spanning, stroomsterkte of weerstand."
+    }
+   ]
+  },
+  {
+   "kop": "De stappen van een onderzoek",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stap</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de probleemstelling definiëren en afbakenen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een onderzoeksvraag opstellen en een hypothese formuleren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een onderzoeksplan opstellen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">data waarnemen en verzamelen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de data analyseren, ook grafisch</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">conclusies trekken op basis van die data</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">7</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de conclusie als antwoord op de onderzoeksvraag formuleren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">8</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">over de methode en de resultaten reflecteren en communiceren</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De eerste stap is de probleemstelling definiëren en afbakenen.</strong> Pas als je weet wat je precies wil onderzoeken, kan je een vraag en een plan maken; zonder afbakening wordt het onderzoek te breed."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>hypothese</strong> is een <strong>voorlopig antwoord dat je gaat nakijken</strong>. Ze <strong>mag ook fout blijken</strong>: een <strong>verworpen hypothese maakt je onderzoek niet waardeloos</strong>, want je weet nu dat het anders werkt. Je hypothese achteraf aanpassen mag juist niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>onderzoeksplan</strong> staat wat je gaat meten, waarmee, en <strong>wat je gelijk houdt</strong>. Onderzoek je <strong>hoe snel water afkoelt in verschillende bekers</strong>, dan houd je de <strong>begintemperatuur en de hoeveelheid water gelijk</strong>: enkel wat je onderzoekt mag verschillen, hier het soort beker."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij het <strong>analyseren mag je geen metingen weglaten</strong> die niet in je hypothese passen: dan stuur je je eigen resultaat. Een afwijkende meting noteer je en je zoekt uit waar ze vandaan komt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>conclusie geeft antwoord op de onderzoeksvraag</strong> en baseert zich op je data. Nieuwe beweringen zonder data horen er niet in. <strong>Reflecteren over je methode</strong> hoort erbij, want <strong>zo zie je welke meetfouten je resultaat verklaren</strong> en hoe iemand anders het beter kan doen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>grafiek is een gepast model</strong> om een verband tussen twee gemeten grootheden te laten zien: uit de vorm lees je af of het verband <strong>recht evenredig, lineair, omgekeerd evenredig of kwadratisch</strong> is. Een <strong>tabel, een schets of een formule</strong> kan ook, afhankelijk van wat je wil tonen."
+    }
+   ]
+  },
+  {
+   "kop": "De criteria voor een onderzoeksvraag",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Criterium</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Dat wil zeggen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">open</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vraag is een open vraag, geen ja-of-nee-vraag</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">enkelvoudig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vraag gaat over één onderwerp, één probleem</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">objectief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vraag toont geen mening of overtuiging</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">haalbaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het onderzoek is uitvoerbaar met genoeg tijd en middelen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onderzoekbaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het is geen opzoekvraag en niet direct oplosbaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">relevant</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het antwoord draagt bij aan bestaande kennis</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Enkelvoudig</strong> betekent dat de vraag over <strong>één onderwerp gaat</strong>: zitten er twee in, dan weet je bij het antwoord niet meer waarover het gaat. <strong>Objectief</strong> betekent dat de vraag <strong>geen mening of overtuiging toont</strong>: \"Waarom is zonne-energie de beste keuze?\" zit al vol overtuiging, \"Hoeveel energie levert een zonnepaneel per maand?\" niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Haalbaar</strong> betekent <strong>uitvoerbaar met genoeg tijd en middelen</strong>: de temperatuur in de kern van de zon kan je niet zelf meten, de afkoeling van water in een thermos wel. <strong>Onderzoekbaar</strong> betekent dat het <strong>geen opzoekvraag mag zijn</strong>: kan je het antwoord gewoon in een boek vinden, dan is er geen onderzoek nodig."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Hoe spannend of hoe kort een vraag is, telt niet mee.</strong> Een vraag waarop je enkel ja of nee kan antwoorden, heet een <strong>gesloten vraag</strong>, en die voldoet dus niet aan het eerste criterium. Een goede vraag is bijvoorbeeld: \"Hoe hangt de valtijd af van het aantal filters?\""
+    },
+    {
+     "soort": "tekst",
+     "html": "De zes criteria uit de linkerkolom van die tabel krijg je ook op het examen."
+    }
+   ]
+  },
+  {
+   "kop": "Een oplossing ontwerpen en STEM",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>STEM</strong> staat voor <strong>Science, Technology, Engineering en Mathematics</strong>, in het Nederlands <strong>wetenschappen, technologie, ingenieurswetenschappen en wiskunde</strong>. De <strong>M staat dus voor wiskunde</strong>. Een STEM-probleem pak je vanuit die vier disciplines samen aan."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stap bij het ontwerpen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het probleem definiëren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">criteria geven waaraan de oplossing moet voldoen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het probleem indien nodig in deelproblemen splitsen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oplossingen bedenken en in een totaaloplossing integreren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de oplossing evalueren en indien nodig bijsturen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Criteria opstellen en het probleem in deelproblemen splitsen</strong> horen er dus bij; <strong>de eerste ingeving meteen uitvoeren</strong> niet, en <strong>achteraf bijsturen hoort er wel bij</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>STEM-disciplines werken samen met de maatschappij</strong>. Tijdens de coronacrisis was <strong>wetenschappelijke kennis</strong> nodig voor een vaccin, <strong>technologische kennis</strong> om het te maken en koel te houden, en <strong>wiskundige kennis</strong> om de verspreiding van het virus in kaart te brengen."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een onderzoeksvraag die aan de zes criteria voldoet, is vaak al half opgelost: ze zegt zelf wat je moet meten en wat je gelijk moet houden."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Op het examen leg je uit waarom een werkwijze veilig en duurzaam is, je voert ze niet uit.",
+  "Respecteer het meetbereik, schakel een instrument uit als je niet meet, en lees de handleiding.",
+  "Nooit een elektrisch toestel met natte handen: water verlaagt de weerstand van je huid.",
+  "Kies eerst op meetbereik, dan op nauwkeurigheid; begin op het grootste bereik en verfijn.",
+  "Lees een maatcilinder op ooghoogte af, onderaan de meniscus, om een parallaxfout te vermijden.",
+  "De stappen: probleemstelling, onderzoeksvraag en hypothese, plan, data, analyse, conclusie, reflectie.",
+  "Een hypothese is een voorlopig antwoord; verworpen worden is ook een resultaat.",
+  "Een onderzoeksvraag is open, enkelvoudig, objectief, haalbaar, onderzoekbaar en relevant.",
+  "STEM is wetenschappen, technologie, ingenieurswetenschappen en wiskunde."
+ ]
+}

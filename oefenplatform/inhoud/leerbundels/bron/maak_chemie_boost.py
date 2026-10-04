@@ -393,7 +393,7 @@ BUNDELS["chemische-reacties-en-energie-chemie-boost-doorstroom"] = dict(
         ]),
         dict(kop="Energievormen en omzettingen", blokken=[
             ("p", "<strong>Chemische energie</strong> zit <strong>opgeslagen in de bindingen van een "
-                  "stof</strong>. De andere vormen die de fiche noemt, zijn <strong>thermische "
+                  "stof</strong>. De andere vormen die je hier nodig hebt, zijn <strong>thermische "
                   "energie</strong> (warmte), <strong>lichtenergie</strong> en <strong>elektrische "
                   "energie</strong>."),
             ("p", tabel(["Wat gebeurt er", "Omzetting"], [
@@ -480,7 +480,7 @@ BUNDELS["de-bouw-van-atomen-en-ionen-chemie-boost-doorstroom"] = dict(
             ("p", "De <strong>relatieve atoommassa</strong> is de <strong>massa van het atoom vergeleken "
                   "met de eenheid u</strong>. Ze is een verhouding en <strong>heeft dus geen "
                   "eenheid</strong>; ze wordt niet in gram uitgedrukt. Je leest ze af in het periodiek "
-                  "systeem, volgens de fiche <strong>afgerond op 0,1</strong>."),
+                  "systeem, <strong>afgerond op 0,1</strong>."),
             ("p", "De <strong>atoommassa-eenheid u is 1,66.10⁻²⁷ kg</strong>. Dat getal staat in de "
                   "bijlage die je op het examen mag gebruiken; het is ongeveer de massa van één nucleon."),
             ("p", "De <strong>absolute massa</strong> bereken je door de relatieve massa <strong>met u te "
@@ -946,7 +946,7 @@ BUNDELS["organische-stoffen-en-de-alkanen-chemie-boost-doorstroom"] = dict(
             ("p", "<strong>Brandspiritus</strong> is ethanol waaraan men een bittere stof toevoegt zodat "
                   "niemand het opdrinkt. Men gebruikt het <strong>als brandstof en als oplosmiddel</strong>, "
                   "en het brandt met een bijna onzichtbare vlam."),
-            ("weetje", "De vijf organische stofklassen van de fiche zijn alkanen, alkenen, alkynen, "
+            ("weetje", "De vijf organische stofklassen die je kent, zijn alkanen, alkenen, alkynen, "
                        "alcoholen en carbonzuren. Aan de uitgang van de naam zie je meteen welke het is: "
                        "-aan, -een, -yn, -ol of -zuur."),
         ]),
@@ -972,7 +972,7 @@ BUNDELS["stoffen-in-water-polariteit-oplossen-en-ph-chemie-boost-doorstroom"] = 
         dict(kop="Polair of apolair", blokken=[
             ("p", "Een binding is <strong>polair als het verschil in elektronegativiteit minstens 0,4 "
                   "is</strong>. Onder die waarde geldt ze als <strong>apolair</strong>. Dat is een "
-                  "afspraak van de fiche, dus een <strong>verschil van 0,2 is apolair</strong>."),
+                  "vaste afspraak, dus een <strong>verschil van 0,2 is apolair</strong>."),
             ("p", "Bij een groot verschil trekt het ene atoom de elektronen duidelijk naar zich toe, en "
                   "krijgt de binding een <strong>plus- en een minkant</strong>."),
             ("p", "Een <strong>watermolecule is polair</strong> omdat ze <strong>gebogen is en zuurstof "
@@ -1241,7 +1241,7 @@ BUNDELS["rekenen-met-mol-massa-en-concentratie-chemie-boost-doorstroom"] = dict(
             ("p", "De <strong>molaire massa</strong> zegt hoeveel gram één mol weegt, dus is haar eenheid "
                   "<strong>g/mol</strong>. Je <strong>leest ze af uit de relatieve atoommassa's in het "
                   "periodiek systeem</strong> door die van alle atomen in de formule op te tellen; "
-                  "volgens de fiche rond je af op 0,1."),
+                  "je rondt af op 0,1."),
             ("p", tabel(["Stof", "Berekening", "Molaire massa"], [
                 ["H₂O", "2 × 1,0 + 16,0", "18,0 g/mol"],
                 ["CO₂", "12,0 + 2 × 16,0", "44,0 g/mol"],

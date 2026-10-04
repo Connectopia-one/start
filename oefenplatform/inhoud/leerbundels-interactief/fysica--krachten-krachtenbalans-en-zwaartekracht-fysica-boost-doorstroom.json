@@ -1,0 +1,142 @@
+{
+ "vak": "Fysica",
+ "titel": "Krachten, krachtenbalans en zwaartekracht",
+ "onder": "De kracht als vector, krachten samenstellen en ontbinden, de krachtenbalans, en de zwaartekracht, de veerkracht en de wrijvingskracht.",
+ "secties": [
+  {
+   "kop": "De kracht als vector",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>kracht</strong> krijgt het symbool <strong>F</strong> en wordt gemeten in <strong>newton (N)</strong>, met een <strong>dynamometer</strong>. Een <strong>balans</strong> meet een massa in kilogram, geen kracht."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een kracht is een <strong>vector</strong> met vier kenmerken: een <strong>grootte in newton</strong>, een richting, een zin en een <strong>aangrijpingspunt op het voorwerp</strong>. Je tekent een krachtvector <strong>op schaal</strong>, bijvoorbeeld 1 cm voor 10 N, dus <strong>zegt de lengte van de pijl wel iets over de grootte</strong>. Een duwkracht en een trekkracht teken je allebei met een <strong>vectorpijl</strong>; enkel de zin van die pijl verschilt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een kracht heeft altijd een voorwerp dat ze uitoefent en een voorwerp waarop ze werkt.</strong> Daarom hoort bij de naam van een kracht altijd van wie op wat."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kracht</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Symbool</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Van wie op wat</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zwaartekracht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Fz</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de aarde op het voorwerp</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">normaalkracht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Fn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het oppervlak op het voorwerp</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wrijvingskracht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Fw</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het oppervlak op het voorwerp, erlangs</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">veerkracht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Fv</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de veer op het voorwerp</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">archimedeskracht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">FA</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vloeistof op het voorwerp</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>normaalkracht</strong> is de <strong>kracht van het oppervlak op het voorwerp, loodrecht op dat oppervlak</strong>; normaal betekent hier loodrecht. De <strong>wrijvingskracht ligt langs het oppervlak</strong>, dus <strong>staan die twee loodrecht op elkaar</strong>. Hun grootte heeft niets met elkaar te maken behalve via de wrijvingscoëfficiënt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ligt een <strong>boek stil op een tafel</strong>, dan werken er <strong>twee krachten</strong>: de <strong>zwaartekracht</strong> trekt naar beneden en de <strong>normaalkracht</strong> duwt terug. Die zijn even groot, dus blijft het boek liggen."
+    }
+   ]
+  },
+  {
+   "kop": "Krachten samenstellen en ontbinden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Alle krachten op een voorwerp samen geven de <strong>resulterende kracht</strong>, of kort de <strong>resultante</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Situatie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Resultante</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">120 N en 80 N, dezelfde zin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">120 + 80</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">200 N, dezelfde zin</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">150 N en 90 N, tegengesteld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">150 − 90</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">60 N, zin van de grootste</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">30 N en 45 N, tegengesteld</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">45 − 30</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">15 N, zin van de 45 N</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee verschillende richtingen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">parallellogramregel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de diagonaal</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Krachten met <strong>dezelfde richting en zin tel je op</strong>, met een <strong>tegengestelde zin trek je ze van elkaar af</strong>, en de resultante wijst dan <strong>in de zin van de grootste kracht</strong>. <strong>Twee krachten van elk 50 N geven dus niet altijd 100 N</strong>: zijn ze tegengesteld, dan is de resultante nul, en bij een hoek ertussen iets daartussen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Hebben de krachten een <strong>verschillende richting</strong>, dan gebruik je de <strong>parallellogramregel</strong>: je tekent een parallellogram met de twee vectoren als zijden, en de <strong>diagonaal vanuit het aangrijpingspunt is de resultante</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Omgekeerd kan je één kracht <strong>ontbinden in twee componenten</strong>. Wordt een slee met een koord <strong>onder een hoek naar voren getrokken</strong>, dan ontbind je die kracht in een <strong>horizontale en een verticale component</strong>: de horizontale trekt de slee vooruit, de verticale tilt hem een beetje op en vermindert zo de normaalkracht."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>De resulterende kracht en de beweging.</strong> Is de resultante nul, dan <strong>verandert de snelheid niet</strong> in grootte, richting of zin. Dat kan rust zijn, maar ook een eenparige beweging: rijdt een auto met constante snelheid, dan is de motorkracht even groot als de wrijving. Er werken dus wel krachten, ze heffen elkaar enkel op."
+    },
+    {
+     "soort": "tekst",
+     "html": "Hangt een <strong>voorwerp stil aan een veer</strong>, dan is de resultante nul, dus is de <strong>veerkracht even groot als de zwaartekracht en omhoog gericht</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Zwaartekracht, massa en gewicht",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>zwaartekracht</strong> is <strong>Fz = m . g</strong>, de massa maal de <strong>zwaarteveldsterkte</strong>. In België is <strong>g = 9,81 N/kg</strong>. Op een massa van 5,0 kg is dat Fz = 5,0 . 9,81 = <strong>49 N</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De zwaarteveldsterkte en de valversnelling zijn hetzelfde getal met twee eenheden</strong>: 9,81 N/kg en 9,81 m/s². Je bekijkt dezelfde g eens vanuit de kracht en eens vanuit de beweging."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De massa is een hoeveelheid materie, het gewicht is een kracht.</strong> De massa in kilogram <strong>verandert niet van plaats tot plaats</strong>; het gewicht is de kracht waarmee een lichaam op zijn steun duwt en wordt op de maan wel kleiner. Daar is de zwaarteveldsterkte ongeveer 1,62 N/kg in plaats van 9,81 N/kg, dus is <strong>de zwaartekracht er ongeveer zes keer kleiner</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>astronaut in een ruimtestation lijkt gewichtloos</strong>, maar zijn <strong>massa blijft dezelfde als op aarde</strong>. Hij voelt zich gewichtloos omdat hij samen met het station in een vrije val rond de aarde beweegt, niet omdat de aarde niet meer aan hem trekt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>balans die kilogram aangeeft, meet eigenlijk een kracht</strong> en deelt die door 9,81. Op de maan zou dezelfde weegschaal daarom te weinig aangeven."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>zwaartepunt</strong> is <strong>het punt waar je de zwaartekracht mag laten aangrijpen</strong>. Bij een regelmatig voorwerp van één materiaal ligt dat in het midden, maar <strong>het ligt niet altijd binnen het voorwerp</strong>: bij een ring of een hoefijzer ligt het in de lege ruimte ertussen."
+    }
+   ]
+  },
+  {
+   "kop": "Veerkracht en wrijvingskracht",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>veerkracht</strong> is <strong>Fv = k . Δl</strong>, met <strong>k de veerconstante</strong> in <strong>newton per meter</strong> en Δl de lengteverandering. De <strong>veerkracht is recht evenredig met de lengteverandering</strong>: twee keer zo ver uitrekken vraagt twee keer zoveel kracht, en in een grafiek geeft dat een rechte door de oorsprong."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Gegeven</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Antwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">12 N rekt 4,0 cm uit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">12 / 0,040</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">k = 300 N/m</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">k = 250 N/m, F = 20 N</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20 / 250</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Δl = 8,0 cm</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2,0 kg aan k = 100 N/m</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">19,62 / 100</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Δl = 19,6 cm</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Reken de lengteverandering altijd eerst om naar meter: 4,0 cm is 0,040 m. Vergeet je dat, dan zit je er een factor honderd naast."
+    },
+    {
+     "soort": "tekst",
+     "html": "Hoe <strong>groter k, hoe stijver de veer</strong>. Hang je dezelfde massa aan twee veren en <strong>rekt veer A verder uit, dan heeft A de kleinere veerconstante</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>statische wrijvingskracht</strong> is <strong>Fw = μ . Fn</strong>. De <strong>wrijvingscoëfficiënt μ heeft geen eenheid</strong>, want het is een verhouding van twee krachten, en ze <strong>hangt af van de twee materialen die over elkaar schuiven</strong>, niet van de massa: die zit al in de normaalkracht."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op een <strong>horizontale vloer is Fn gelijk aan Fz</strong>. Voor een kist van 20 kg met μ = 0,30 is Fn = 20 . 9,81 = 196 N, dus Fw = 0,30 . 196 = <strong>59 N</strong>. Een <strong>zwaarder voorwerp op dezelfde vloer ondervindt dus een grotere wrijvingskracht</strong>, want de normaalkracht is groter. De wrijvingscoëfficiënt blijft wel dezelfde, want de materialen veranderen niet."
+    },
+    {
+     "soort": "weetje",
+     "html": "De wrijvingscoëfficiënt van rubber op droog asfalt ligt rond 0,8, maar op ijs rond 0,1. Daarom heeft een auto op ijs een remweg die een veelvoud is van die op droog wegdek, zonder dat zijn massa veranderd is."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een kracht meet je in newton met een dynamometer; ze heeft grootte, richting, zin en aangrijpingspunt.",
+  "Dezelfde zin: optellen. Tegengestelde zin: aftrekken, met de zin van de grootste. Verschillende richting: parallellogramregel.",
+  "Resultante nul betekent dat de snelheid niet verandert, dus rust of een eenparige beweging.",
+  "De normaalkracht staat loodrecht op het oppervlak, de wrijvingskracht erlangs.",
+  "Fz = m . g, met g = 9,81 N/kg in België; dezelfde g is 9,81 m/s² als valversnelling.",
+  "De massa verandert nooit van plaats tot plaats, het gewicht wel; een astronaut lijkt enkel gewichtloos.",
+  "Fv = k . Δl, met Δl in meter; een kleine k betekent een slappe veer.",
+  "Fw = μ . Fn; μ heeft geen eenheid en hangt af van de materialen, niet van de massa.",
+  "Op een horizontale vloer is Fn gelijk aan Fz."
+ ]
+}

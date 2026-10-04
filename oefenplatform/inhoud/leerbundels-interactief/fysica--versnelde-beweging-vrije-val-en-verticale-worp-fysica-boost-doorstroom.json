@@ -1,0 +1,130 @@
+{
+ "vak": "Fysica",
+ "titel": "Versnelde beweging, vrije val en verticale worp",
+ "onder": "De EVRB, het teken van de versnelling, de grafieken van een versnelde beweging, de vrije val en de verticale worp naar boven.",
+ "secties": [
+  {
+   "kop": "Wat een EVRB is",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>eenparig veranderlijke rechtlijnige beweging (EVRB)</strong> <strong>blijft de versnelling gelijk</strong>. De <strong>snelheid verandert dan elke seconde met evenveel</strong>. Dat is net wat eenparig veranderlijk betekent."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>versnelling</strong> zegt hoeveel de snelheid per seconde verandert. De SI-eenheid is de <strong>meter per seconde kwadraat (m/s²)</strong>. De <strong>gemiddelde versnelling</strong> krijgt het symbool <strong>ag</strong> en is <strong>ag = Δv / Δt</strong>; de ogenblikkelijke versnelling krijgt gewoon a."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Beweging</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">ag</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van 0 naar 20 m/s in 5,0 s</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20 / 5,0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4,0 m/s²</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van 4,0 naar 14 m/s in 5,0 s</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10 / 5,0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2,0 m/s²</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van 30 naar 10 m/s in 8,0 s</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">−20 / 8,0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">−2,5 m/s²</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>teken</strong> hoort bij de zin. Rijdt een auto <strong>in de positieve zin en vertraagt hij, dan is de versnelling negatief</strong>: de snelheid is positief maar wordt kleiner. Snelheid en versnelling hebben dan een <strong>tegengestelde zin</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Een negatieve versnelling betekent niet altijd vertragen.</strong> Beweegt een voorwerp al in de negatieve zin, dan maakt een negatieve versnelling het juist sneller. Wat telt, is of snelheid en versnelling dezelfde zin hebben of niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>vertragen liggen snelheid en versnelling op dezelfde rechte, dus hebben ze dezelfde richting, maar met tegengestelde zin</strong>. Daarom wordt de snelheid kleiner. Bij versnellen hebben ze dezelfde zin."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>voorwerp met een snelheid van nul kan toch een versnelling hebben</strong>. Een bal die je recht omhoog gooit, staat op zijn hoogste punt een ogenblik stil, maar de valversnelling werkt daar wel. Een ogenblik later valt hij."
+    }
+   ]
+  },
+  {
+   "kop": "De grafieken van een versnelde beweging",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Grafiek</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">ERB</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">versneld</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vertraagd</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x(t)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schuine rechte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kromme die steiler wordt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kromme die vlakker wordt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">v(t)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">horizontale lijn</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stijgende rechte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dalende rechte</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a(t)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lijn op nul</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">horizontale lijn boven nul</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">horizontale lijn onder nul</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>steilheid van een v(t)-grafiek is de versnelling</strong>, want Δv / Δt. Een <strong>stijgende schuine rechte</strong> betekent dus <strong>gelijkmatig versnellen</strong>. Staan er twee rechten in dezelfde v(t)-grafiek, dan hoort de <strong>steilere rechte bij de grotere versnelling</strong>; over de beginsnelheid zegt de steilheid niets."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>a(t)-grafiek van een EVRB is de lijn horizontaal</strong>, want de versnelling verandert niet. Een schuine rechte zou betekenen dat de versnelling zelf verandert. Ligt die horizontale lijn <strong>boven de tijdas</strong>, dan <strong>blijft de versnelling gelijk en neemt de snelheid toe</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>x(t)-grafiek van een eenparig versnelde beweging is de lijn een kromme die steeds steiler wordt</strong>, want de snelheid groeit. Bij vertragen wordt de kromme juist vlakker."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De oppervlakte onder een v(t)-grafiek is de verplaatsing</strong>, ook bij een versnelde beweging. Bij een schuine rechte is dat een driehoek of een trapezium."
+    }
+   ]
+  },
+  {
+   "kop": "De vrije val",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>vrije val werkt enkel de zwaartekracht</strong>, en <strong>laat je de luchtweerstand buiten beschouwing</strong>. Het is dus een model: in het echt is er altijd wat lucht. De kracht die voor de versnelling zorgt, is de <strong>zwaartekracht</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>valversnelling in België is g = 9,81 m/s²</strong>. Elke seconde komt er dus <strong>9,81 m/s</strong> bij de snelheid. Na 2,0 s valt een steen met 2,0 . 9,81 = <strong>19,6 m/s</strong>, na 3,0 s met 29,4 m/s."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Grafiek van een vrije val</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe ze eruitziet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">v(t), zin naar beneden positief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stijgende rechte door de oorsprong</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a(t)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">horizontale lijn op 9,81 m/s²</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">x(t), vanaf het startpunt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kromme die steeds steiler wordt</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Op de maan valt een voorwerp langzamer</strong>: de zwaarteveldsterkte daar is ongeveer 1,62 m/s², zes keer kleiner. <strong>Bij een vrije val neemt de afgelegde weg niet elke seconde met evenveel toe</strong>: de snelheid groeit, dus valt het voorwerp elke seconde verder dan de seconde ervoor. Enkel de snelheid groeit gelijkmatig."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Zonder luchtweerstand valt alles met dezelfde versnelling</strong>, hoe zwaar het ook is. Staan een voorwerp van 1 kg en een van 5 kg in dezelfde v(t)-grafiek, dan <strong>vallen de twee lijnen precies samen</strong>. <strong>Een zwaar voorwerp valt dus niet altijd sneller dan een licht</strong>: in de echte lucht valt een pluim trager dan een steen door de luchtweerstand, maar een lichte en een zware kogel vallen even snel. In een buis zonder lucht vallen een steen en een pluim samen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom bereikt een <strong>parachutist</strong> na een tijd een constante snelheid. Zodra de <strong>luchtweerstand even groot is als de zwaartekracht</strong>, is de <strong>resulterende kracht nul</strong> en verandert de snelheid niet meer. De zwaartekracht is dan niet verdwenen, en de versnelling is er niet 9,81 m/s² maar nul."
+    }
+   ]
+  },
+  {
+   "kop": "De verticale worp naar boven",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>verschil met een vrije val zit enkel in de beginsnelheid</strong>: bij een <strong>worp naar boven is die niet nul en omhoog gericht</strong>. De versnelling is in beide gevallen dezelfde, naar beneden."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op de weg naar boven wordt de <strong>snelheid gelijkmatig kleiner</strong>, want de valversnelling werkt tegen de beweging in. Elke seconde verdwijnt er 9,81 m/s. Gooi je een bal met 15 m/s omhoog, dan is hij na 15 / 9,81 ≈ <strong>1,5 s</strong> op zijn hoogste punt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Op het hoogste punt is de snelheid nul, maar de versnelling nog altijd 9,81 m/s² naar beneden.</strong> De zwaartekracht blijft werken, en <strong>de zin van de versnelling verandert daar niet</strong>: enkel de zin van de snelheid keert om."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Zonder luchtweerstand komt de bal met dezelfde grootte van snelheid terug in je hand</strong> als waarmee hij vertrok. De weg naar boven en de weg naar beneden zijn even lang en hebben dezelfde versnelling; enkel de zin is omgekeerd."
+    },
+    {
+     "soort": "weetje",
+     "html": "Op de maan hebben de astronauten van Apollo 15 een hamer en een valkenpluim samen laten vallen. Ze raakten de grond op hetzelfde moment, want daar is geen lucht die de pluim tegenhoudt."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Bij een EVRB blijft de versnelling gelijk; ag = Δv / Δt, in m/s².",
+  "Een negatieve versnelling betekent enkel vertragen als de snelheid positief is.",
+  "De steilheid van een v(t)-grafiek is de versnelling; een a(t)-grafiek van een EVRB is horizontaal.",
+  "Een x(t)-grafiek wordt steiler bij versnellen en vlakker bij vertragen.",
+  "Bij een vrije val werkt enkel de zwaartekracht; g = 9,81 m/s² in België.",
+  "Zonder lucht vallen een zware en een lichte kogel even snel; de twee lijnen in een v(t)-grafiek vallen samen.",
+  "Een parachutist houdt een constante snelheid zodra de luchtweerstand de zwaartekracht opheft.",
+  "Op het hoogste punt van een worp is de snelheid nul en de versnelling nog 9,81 m/s² naar beneden.",
+  "Een worp naar boven verschilt van een vrije val enkel door de beginsnelheid."
+ ]
+}

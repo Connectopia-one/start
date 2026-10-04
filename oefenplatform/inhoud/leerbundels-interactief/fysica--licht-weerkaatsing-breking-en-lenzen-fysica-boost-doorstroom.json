@@ -1,0 +1,163 @@
+{
+ "vak": "Fysica",
+ "titel": "Licht: weerkaatsing, breking en lenzen",
+ "onder": "Het stralenmodel, de terugkaatsingswetten, de vlakke spiegel, schaduwvorming, de breking tussen twee middenstoffen en het beeld bij een dunne bolle lens.",
+ "secties": [
+  {
+   "kop": "Het stralenmodel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Licht <strong>plant zich in een doorzichtige stof rechtlijnig voort</strong>. Daarom kan je <strong>een lichtstraal grafisch voorstellen als een rechte met een pijl erop</strong>: de rechte toont de weg, de pijl de <strong>voortplantingszin</strong>. Pas aan een grensvlak met een andere stof verandert de richting."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort voorwerp</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het met licht doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ondoorschijnend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">laat geen licht door</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een plank</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">doorschijnend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">laat licht door, maar niet scherp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">matglas</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">doorzichtig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">laat licht scherp door</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">helder glas</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>ondoorschijnend voorwerp laat dus geen licht door</strong>, ook geen beetje: een voorwerp dat wat licht doorlaat zonder scherp beeld, is <strong>doorschijnend</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>stralengang is omkeerbaar</strong>, en die <strong>omkeerbaarheid</strong> betekent dat <strong>licht dezelfde weg terug volgt als je de zin omkeert</strong>. Dat <strong>geldt bij weerkaatsing en bij breking</strong>, en ook bij een lens, niet enkel bij een vlakke spiegel."
+    }
+   ]
+  },
+  {
+   "kop": "Weerkaatsing",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een weerkaatsing duid je op de tekening aan: de <strong>invallende straal</strong>, het <strong>invalspunt</strong>, de <strong>normaal</strong>, de <strong>invalshoek</strong>, de <strong>weerkaatsingshoek</strong> en de <strong>weerkaatste straal</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>invalspunt</strong> is <strong>het punt waar de invallende straal het spiegeloppervlak raakt</strong>. De <strong>normaal</strong> is de <strong>lijn loodrecht op het oppervlak in dat invalspunt</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>De hoeken meet je ten opzichte van de normaal, niet ten opzichte van de spiegel.</strong> Valt een straal onder 20° met de spiegel in, dan is zijn invalshoek 70°."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>eerste terugkaatsingswet</strong> zegt dat de invallende straal, de weerkaatste straal en de normaal in <strong>hetzelfde vlak</strong> liggen. De <strong>tweede terugkaatsingswet</strong> zegt dat de <strong>invalshoek gelijk is aan de weerkaatsingshoek</strong>. Valt een straal onder <strong>35°</strong> in, dan kaatst hij onder <strong>35°</strong> terug."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>regelmatige weerkaatsing is het oppervlak glad en vlak</strong>, zoals een spiegel of stil water: de stralen blijven netjes samen. Bij een <strong>diffuse weerkaatsing</strong> is het oppervlak <strong>onregelmatig</strong> en kaatst elke straal een andere kant op. De wet geldt ook daar in elk punt, maar er komt geen beeld tot stand: <strong>in een ruw vel papier zie je je spiegelbeeld dus niet</strong>, al zie je het papier zelf wel."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kenmerk van het beeld bij een vlakke spiegel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Welk</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aard</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">virtueel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stand</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechtopstaand</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">grootte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">even groot als het voorwerp</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">beeldafstand</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">even ver achter de spiegel als het voorwerp ervoor staat</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>virtueel beeld is een beeld dat je niet op een scherm kan opvangen</strong>: de stralen komen er niet echt samen, ze lijken er enkel uit te komen. Een <strong>reëel beeld vang je wel op</strong>, zoals het beeld van een projector. Sta je <strong>1 m voor een spiegel</strong>, dan lijkt je beeld 1 m erachter, dus 2 m van jou. Het <strong>gezichtsveld</strong> van een vlakke spiegel is het gebied dat je er door kan zien; je bepaalt het met de stralen vanuit je oog langs de twee randen van de spiegel."
+    }
+   ]
+  },
+  {
+   "kop": "Schaduwvorming",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Omdat licht rechtlijnig gaat, werpt een ondoorschijnend voorwerp een <strong>schaduw</strong>. De <strong>kernschaduw is het donkerste deel</strong>: daar <strong>komt helemaal geen licht van de bron</strong>, in de <strong>bijschaduw komt licht van een deel van de bron</strong>, dus is het daar minder donker."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>kleine lichtbron geeft een scherpere schaduw</strong>: bij een puntbron is er bijna geen bijschaduw. Een grote bron, zoals een tl-balk, geeft een brede bijschaduw en dus een vage rand."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verduistering</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat staat ertussen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zonsverduistering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de maan tussen de zon en de aarde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maansverduistering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de aarde tussen de zon en de maan</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>zonsverduistering werpt de maan haar schaduw op de aarde</strong>. Wie in de kernschaduw staat, ziet de zon helemaal verdwijnen; wie in de bijschaduw staat, ziet er een stuk van."
+    }
+   ]
+  },
+  {
+   "kop": "Breking",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Gaat een lichtstraal <strong>schuin van de ene middenstof naar de andere</strong>, dan <strong>breekt</strong> hij: hij verandert van richting. Dat is <strong>breking</strong>. Je duidt aan: de invallende straal, het invalspunt, de <strong>invalshoek</strong>, de <strong>brekingshoek</strong>, de normaal en de <strong>gebroken straal</strong>. De <strong>brekingshoek is de hoek tussen de gebroken straal en de normaal</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>eerste brekingswet</strong> zegt dat de invallende straal, de gebroken straal en de normaal <strong>in hetzelfde vlak</strong> liggen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Overgang</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe de straal buigt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">De hoek</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van optisch ijl naar dicht (lucht naar water)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">naar de normaal toe</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wordt kleiner</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van optisch dicht naar ijl (glas naar lucht)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van de normaal weg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wordt groter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">loodrecht op het grensvlak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechtdoor, zonder te breken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">blijft 0°</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>optisch dichtere stof buigt een straal naar de normaal toe</strong>. Valt een straal <strong>loodrecht op het grensvlak</strong>, dan <strong>gaat hij rechtdoor</strong>: hij ligt al langs de normaal, dus is er niets om naartoe of weg te buigen. Uit een gegeven constructie kan je zo <strong>afleiden welke stof optisch dicht is en welke optisch ijl</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom lijkt een <strong>stok die schuin in het water staat geknikt</strong>: de stralen van het ondergedompelde deel veranderen van richting aan het <strong>wateroppervlak</strong>, en je oog trekt die stralen rechtdoor door."
+    },
+    {
+     "soort": "tekst",
+     "html": "Om dezelfde reden lijkt de <strong>bodem van een zwembad minder diep</strong> dan hij is. Dat is de <strong>schijnbare verhoging</strong>: bij het verlaten van het water <strong>buigen de stralen van de normaal weg</strong>, en je oog volgt ze rechtdoor tot op een punt hoger dan de echte bodem."
+    }
+   ]
+  },
+  {
+   "kop": "De dunne bolle lens",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>bolle lens is in het midden dikker dan aan de rand</strong>. Daardoor buigt ze de stralen naar elkaar toe. De lijn loodrecht door de lens heet de <strong>optische as</strong>; die <strong>gaat door het optisch middelpunt</strong>, door de twee <strong>brandpunten F</strong> en door de <strong>krommingsmiddelpunten</strong>, elk op een afstand gelijk aan de <strong>kromtestraal</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>brandpunt F</strong> is <strong>het punt waar stralen die parallel met de optische as invallen, na de lens samenkomen</strong>. De afstand van de lens tot F heet de <strong>brandpuntsafstand</strong>. Een dunne bolle lens heeft <strong>twee brandpunten</strong>, één aan elke kant, even ver van de lens."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Kenmerkende straal</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze na de lens doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">parallel met de optische as</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gaat door het brandpunt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">door het optisch middelpunt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gaat rechtdoor</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">door het brandpunt vóór de lens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gaat parallel met de optische as verder</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Met twee van die drie stralen construeer je het <strong>beeld</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar het voorwerp staat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Aard</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stand</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Grootte</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Toepassing</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verder dan 2 x de brandpuntsafstand</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">reëel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">omgekeerd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kleiner</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fototoestel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tussen de lens en het brandpunt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">virtueel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechtopstaand</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">groter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">loep</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>bolle lens maakt dus niet enkel reële beelden</strong>: staat het voorwerp binnen de brandpuntsafstand, dan is het beeld virtueel, rechtopstaand en groter. Dat is net wat een loep doet."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>vergrotingsfactor</strong> is de <strong>verhouding van de beeldgrootte tot de voorwerpsgrootte</strong>, en die is even groot als de verhouding van de <strong>beeldafstand tot de voorwerpsafstand</strong>. Dat volgt uit de <strong>gelijkvormigheid van de driehoeken</strong> in de constructie. Is een beeld <strong>drie keer zo groot</strong> als het voorwerp, dan is de vergrotingsfactor <strong>3</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Hoe verder het voorwerp, hoe dichter het beeld bij het brandpunt.</strong> Een voorwerp heel ver weg geeft een beeld precies in het brandpunt. Een voorwerp dat verder weg staat, hoort dus niet bij een beeld dat verder van de lens ligt, maar net omgekeerd."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een loep werkt enkel als je ze dicht genoeg bij het voorwerp houdt. Hou je ze verder dan haar brandpuntsafstand, dan springt het beeld om en zie je alles op zijn kop."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Licht gaat rechtlijnig; je tekent een straal als een rechte met een pijl.",
+  "Ondoorschijnend laat geen licht door, doorschijnend wel maar niet scherp, doorzichtig scherp.",
+  "De invalshoek is gelijk aan de weerkaatsingshoek, allebei gemeten ten opzichte van de normaal.",
+  "Regelmatige weerkaatsing op een glad vlak oppervlak, diffuse weerkaatsing op een ruw oppervlak.",
+  "Het beeld in een vlakke spiegel is virtueel, rechtopstaand, even groot en even ver erachter.",
+  "In de kernschaduw komt geen licht van de bron, in de bijschaduw een deel.",
+  "Van ijl naar dicht buigt een straal naar de normaal toe, van dicht naar ijl ervan weg.",
+  "Een bolle lens: parallel met de as gaat door F, door het optisch middelpunt gaat rechtdoor.",
+  "Ver van de lens: reëel, omgekeerd, kleiner. Binnen het brandpunt: virtueel, rechtopstaand, groter."
+ ]
+}

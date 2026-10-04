@@ -1,0 +1,143 @@
+{
+ "vak": "Fysica",
+ "titel": "Grootheden, eenheden en nauwkeurig meten",
+ "onder": "De grootheden en hun SI-eenheden, de voorvoegsels, omrekenen, beduidende cijfers, vectoren en verbanden tussen grootheden.",
+ "secties": [
+  {
+   "kop": "Grootheid, eenheid en symbool",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>grootheid</strong> is iets dat je kan meten, zoals een lengte of een massa. Elke grootheid heeft een <strong>symbool</strong> en een <strong>eenheid</strong>. Een getal zonder eenheid betekent in de fysica niets: een 5 kan 5 m, 5 kg of 5 s zijn. <strong>Twee metingen zijn alleen met elkaar te vergelijken als ze in dezelfde eenheid staan.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Grootheid</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Symbool</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">SI-eenheid</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Andere eenheid</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lengte, hoogte, diepte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">l, h</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meter (m)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oppervlakte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">A</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vierkante meter (m²)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">volume</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">V</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kubieke meter (m³)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">liter (L)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">massa</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">m</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kilogram (kg)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ton (t)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tijd, tijdsduur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">t, Δt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">seconde (s)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">minuut, uur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">temperatuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">θ</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">graad Celsius (°C)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">absolute temperatuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">T</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kelvin (K)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">snelheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">v, vg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meter per seconde (m/s)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">km/h</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">versnelling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a, ag, g</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">m/s²</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kracht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">F</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">newton (N)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">druk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">p</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pascal (Pa)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">arbeid, energie, warmte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">W, E, Q</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">joule (J)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kWh, calorie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vermogen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">P</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">watt (W)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">moment van een kracht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">M</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">newtonmeter (Nm)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stroomsterkte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ampère (A)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spanning</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">U</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">volt (V)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">weerstand</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">R</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ohm (Ω)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">massadichtheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ρ</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kg/m³</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">g/L</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een paar ervan zijn makkelijk te verwisselen. De <strong>newton is de SI-eenheid van kracht</strong>, niet de kilogram: die hoort bij de massa. De <strong>pascal</strong> is de eenheid van <strong>druk</strong>, want één pascal is één newton per vierkante meter. De <strong>joule</strong> hoort bij de <strong>arbeid, de energie en de warmte</strong>, en de <strong>watt</strong> bij het <strong>vermogen</strong>: <strong>één watt is één joule per seconde</strong>. De <strong>ohm</strong> hoort bij de weerstand."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>De kilogram is een uitzondering.</strong> Ze is de SI-eenheid van massa, ook al staat er al een voorvoegsel in. Alle andere SI-eenheden staan zonder voorvoegsel."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>liter en de kilometer per uur zijn geen SI-eenheden</strong>, maar je mag ze gebruiken. De SI-eenheid van volume is de kubieke meter, die van snelheid de meter per seconde. De <strong>ton is geen SI-eenheid</strong>, de kilogram wel."
+    }
+   ]
+  },
+  {
+   "kop": "De voorvoegsels, van mega tot nano",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naam</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Symbool</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarde</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mega</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">M</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10⁶</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kilo</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">k</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10³</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hecto</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">h</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10²</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">deca</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">da</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10¹</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">deci</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">d</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10⁻¹</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">centi</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">c</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10⁻²</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">milli</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">m</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10⁻³</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">micro</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">μ</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10⁻⁶</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nano</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">n</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10⁻⁹</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Kilo is duizend (10³)</strong>, <strong>mega een miljoen (10⁶)</strong>, <strong>hecto honderd (10²)</strong> en <strong>deca tien (10¹)</strong>. Naar beneden: <strong>milli een duizendste (10⁻³)</strong>, <strong>micro een miljoenste (10⁻⁶)</strong> en <strong>nano 10⁻⁹</strong>. <strong>Deca is dus niet honderd</strong>, dat is hecto."
+    }
+   ]
+  },
+  {
+   "kop": "Omrekenen en de wetenschappelijke notatie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Omrekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">km naar m</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">× 1000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2,5 km = 2500 m</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mm naar m</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">÷ 1000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">45 mm = 0,045 m</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ton naar kg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">× 1000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2,4 ton = 2400 kg</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">liter naar m³</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">÷ 1000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">500 L = 0,5 m³</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">km/h naar m/s</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">÷ 3,6</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">72 km/h = 20 m/s</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">m/s naar km/h</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">× 3,6</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 m/s = 90 km/h</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">minuut naar s</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">× 60</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kwartier = 900 s</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">°C naar K</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">+ 273,15</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 °C = 298 K</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>omrekening van km/h naar m/s</strong> komt van de twee eenheden samen: in één kilometer zitten 1000 m en in één uur 3600 s, en 3600 / 1000 = 3,6. Daarom <strong>deel je door 3,6</strong> om naar m/s te gaan en vermenigvuldig je met 3,6 om terug te keren. <strong>Een snelheid in m/s is dus een grotere eenheid dan een snelheid in km/h</strong>, hoewel er kilo in staat: de uren in de noemer maken het verschil."
+    },
+    {
+     "soort": "tekst",
+     "html": "In de <strong>wetenschappelijke notatie</strong> staat er <strong>één cijfer van 1 tot 9 voor de komma</strong>, maal een macht van tien. Zo wordt <strong>0,00045 m gelijk aan 4,5 . 10⁻⁴ m</strong>: de komma schuift vier plaatsen naar rechts, dus de exponent is −4. <strong>45 . 10⁻⁵ is dezelfde waarde maar geen wetenschappelijke notatie</strong>, want er staan twee cijfers voor de komma."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>kwadraat van een eenheid rekent anders om</strong>. Een oppervlakte van 0,20 m bij 0,20 m is 0,040 m², niet 0,40 m²: je vermenigvuldigt de twee lengtes."
+    }
+   ]
+  },
+  {
+   "kop": "Nauwkeurig meten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een meting is nooit exact.</strong> Elk meetinstrument heeft een <strong>beperkte nauwkeurigheid</strong>: dat zegt <strong>hoe fijn het kan aflezen</strong>. Daarnaast heeft elk instrument een <strong>meetbereik</strong>: <strong>het grootste getal dat het kan meten</strong>. Meet je daarboven, dan loopt het instrument over of gaat het stuk."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je kiest een instrument dus op <strong>twee</strong> dingen: de waarde moet binnen het meetbereik passen, én de streepjes moeten fijn genoeg zijn. Wil je <strong>0,8 L water afmeten</strong>, dan is een <strong>cilinder van 1 L met streepjes per 10 mL</strong> het geschiktst: in een cilinder van 100 mL of 50 mL past het niet, en bij een cilinder van 5 L met streepjes per 100 mL zijn de streepjes te grof."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het aantal <strong>beduidende cijfers</strong> van je antwoord moet bij die nauwkeurigheid passen. <strong>Nullen vooraan tellen niet mee, nullen achteraan wel</strong>: <strong>0,0250 m heeft drie beduidende cijfers</strong>, want die laatste nul zegt dat er tot op de tiende millimeter gemeten is. Noteert iemand met een gewoon meetlint <strong>1,2534 m</strong>, dan is dat vreemd: <strong>een meetlint kan niet tot op een tiende millimeter meten</strong>, dus 1,253 m is het meest dat je mag opschrijven. Staan er achteraan nullen <strong>zonder komma</strong>, dan tellen ze niet mee: <strong>7000 kg zo geschreven heeft één beduidend cijfer</strong>, want je weet niet of er tot op de kilogram gemeten is."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Je antwoord heeft nooit meer beduidende cijfers dan het minst nauwkeurige gegeven</strong>, en er staat <strong>altijd een eenheid bij</strong>. <strong>Afronden doe je pas op het einde</strong>, niet bij elk tussenresultaat: anders sleep je een afrondingsfout mee."
+    },
+    {
+     "soort": "tekst",
+     "html": "Welk instrument waarvoor: een <strong>balans</strong> meet een <strong>massa</strong>, een <strong>dynamometer</strong> een <strong>kracht</strong>, een <strong>maatcilinder</strong> een <strong>volume</strong>, een <strong>manometer</strong> een <strong>druk</strong> in een vat, een <strong>barometer</strong> de <strong>luchtdruk</strong>, een <strong>chronometer</strong> een <strong>tijd</strong>, een <strong>thermometer</strong> een <strong>temperatuur</strong> en een <strong>multimeter</strong> een <strong>spanning, stroomsterkte of weerstand</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een instrument dat je niet gebruikt, schakel je uit.</strong> Het verbruikt anders zijn batterij, het kan warm worden, en een multimeter op de verkeerde stand kan stuk gaan."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Schatten hoort bij meten.</strong> Water heeft een massadichtheid van 1000 kg/m³, dus <strong>één liter water weegt ongeveer één kilogram</strong> en een fles van 1,5 L ongeveer 1,5 kg. Een mens van 700 kg of een auto die 300 km/h door de stad rijdt, kan niet: zo'n schatting verraadt een rekenfout."
+    }
+   ]
+  },
+  {
+   "kop": "Vectoren en verbanden tussen grootheden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Sommige grootheden hebben een <strong>richting</strong>. Dat zijn de <strong>vectoriële grootheden</strong>, en die hebben <strong>vier kenmerken: grootte, richting, zin en aangrijpingspunt</strong>. <strong>Verplaatsing, snelheid, versnelling en kracht</strong> zijn vectoren; <strong>massa, temperatuur, druk en energie</strong> zijn gewone getallen met een eenheid. Een <strong>pijltje boven het symbool</strong> zegt dat je de vector bedoelt; zonder pijltje bedoel je enkel de grootte."
+    },
+    {
+     "soort": "tekst",
+     "html": "Tussen twee gemeten grootheden zoek je een <strong>verband</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verband</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat blijft gelijk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Grafiek</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">recht evenredig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de verhouding y/x</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechte door de oorsprong</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lineair</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de toename per stap</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechte, niet door de oorsprong</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">omgekeerd evenredig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het product x.y</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dalende kromme</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kwadratisch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">y/x²</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">parabool</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een lineair verband is dus niet altijd recht evenredig</strong>: enkel een rechte <em>door de oorsprong</em> is dat. Bij een <strong>omgekeerd evenredig verband tussen p en V blijft p.V gelijk</strong>: wordt V twee keer zo groot, dan wordt p twee keer zo klein. Bij een <strong>kwadratisch verband</strong>, zoals Ek = m.v²/2, wordt <strong>Ek vier keer zo groot als v verdubbelt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>steilheid van een rechte</strong> betekent iets. Zet je de veerkracht uit tegen de lengteverandering van een veer, dan is de <strong>steilheid de veerconstante</strong>, want k = Fv / Δl."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een formule omvormen</strong> om één grootheid <strong>vrij te maken</strong>, doe je stap voor stap. Uit <strong>p = F / A volgt A = F / p</strong>: vermenigvuldig beide leden met A en deel daarna door p."
+    },
+    {
+     "soort": "weetje",
+     "html": "Schatten vooraf is het goedkoopste nalezen dat bestaat. Weet je dat een fles water ongeveer een kilo weegt, dan zie je meteen dat een antwoord van 15 kg niet kan, nog voor je je berekening nakijkt."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een getal zonder eenheid betekent niets; twee metingen vergelijk je alleen in dezelfde eenheid.",
+  "Newton voor kracht, pascal voor druk, joule voor energie, watt voor vermogen, ohm voor weerstand.",
+  "De kilogram is de SI-eenheid van massa, ook al staat er kilo in.",
+  "Kilo 10³, mega 10⁶, hecto 10², deca 10¹; milli 10⁻³, micro 10⁻⁶, nano 10⁻⁹.",
+  "Van km/h naar m/s deel je door 3,6; omgekeerd vermenigvuldig je met 3,6.",
+  "In de wetenschappelijke notatie staat één cijfer van 1 tot 9 voor de komma: 0,00045 m = 4,5.10⁻⁴ m.",
+  "Nullen vooraan tellen niet mee bij de beduidende cijfers, nullen achteraan wel: 0,0250 m heeft er drie.",
+  "Kies een instrument eerst op meetbereik, dan op nauwkeurigheid; zet het uit als je niet meet.",
+  "Een vector heeft grootte, richting, zin en aangrijpingspunt; een rechte door de oorsprong betekent recht evenredig."
+ ]
+}

@@ -1,0 +1,146 @@
+{
+ "vak": "Fysica",
+ "titel": "Arbeid, energie, vermogen en rendement",
+ "onder": "Arbeid met cos α, de energievormen en hun formules, de wet van behoud van energie, de energiedissipatie, het vermogen en het rendement.",
+ "secties": [
+  {
+   "kop": "Arbeid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>arbeid</strong> van een kracht is <strong>W = F . Δx . cos α</strong>, met α de hoek tussen de kracht en de verplaatsing. Het symbool komt van het Engelse <em>work</em>, en de <strong>eenheid is de joule (J)</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoek</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">cos α</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Arbeid</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0°</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">positief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">duwen in de zin van de beweging</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">90°</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen arbeid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een doos horizontaal dragen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">180°</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">−1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">negatief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wrijving, of de zwaartekracht bij optillen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Duw je een kar <strong>8,0 m vooruit met 50 N in de zin van de beweging</strong>, dan is W = 50 . 8,0 . 1 = <strong>400 J</strong>. Een kracht van 25 N over 4,0 m geeft <strong>100 J</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>wrijvingskracht werkt tegen de beweging in</strong>, dus <strong>verricht ze negatieve arbeid</strong>: ze haalt energie uit de beweging. Ook de <strong>zwaartekracht verricht negatieve arbeid op een voorwerp dat je optilt</strong>, want ze wijst naar beneden en de verplaatsing naar boven; jij verricht dan positieve arbeid tegen haar in."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Een kracht loodrecht op de verplaatsing verricht geen arbeid.</strong> Draag je een doos horizontaal door een kamer, dan is W nul, al voelt het zwaar aan. Hetzelfde geldt voor de normaalkracht op een voorwerp dat over een vlakke vloer schuift."
+    }
+   ]
+  },
+  {
+   "kop": "De energievormen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Energievorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Formule</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kinetische energie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ek = m . v² / 2</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">potentiële gravitationele energie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ep,gr = m . g . h</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">potentiële elastische energie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ep,el = k . Δl² / 2</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De andere energievormen die je moet kennen, hebben hier geen formule: <strong>chemische energie, thermische energie of warmte, stralingsenergie, kernenergie en elektrische energie</strong>. <strong>Wrijving is een kracht en druk een grootheid</strong>, geen van beide een energievorm."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Opgave</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Antwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1200 kg met 20 m/s</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1200 . 400 / 2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">240 kJ</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5,0 kg, 3,0 m omhoog</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5,0 . 9,81 . 3,0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">147 J</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2,0 kg, 10 m hoog</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2,0 . 9,81 . 10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">196 J</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "In Ek staat de <strong>snelheid in het kwadraat</strong>. Een auto die <strong>twee keer zo snel rijdt, heeft dus vier keer zoveel kinetische energie</strong>, niet twee keer. Daarom is een remweg bij dubbele snelheid vier keer zo lang."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>voorwerp dat stilstaat kan toch potentiële energie hebben</strong>: een steen bovenop een muur heeft Ep,gr door zijn hoogte. Enkel zijn kinetische energie is nul."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>eenheid van energie is de joule</strong>, maar je komt ook de <strong>kilowattuur</strong> en de <strong>kilocalorie</strong> tegen. Een <strong>kilowattuur is een eenheid van energie, niet van vermogen</strong>: het is een vermogen maal een tijd, en één kWh is 3,6 miljoen joule."
+    }
+   ]
+  },
+  {
+   "kop": "Energieomzettingen en de energiebalans",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>wet van behoud van energie</strong> zegt dat <strong>energie niet verdwijnt maar van vorm verandert</strong>. In een geïsoleerd systeem blijft de som van alle energie gelijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort systeem</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Materie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Energie</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">open</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gaat erin en eruit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gaat erin en eruit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gesloten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">blijft binnen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gaat erin en eruit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geïsoleerd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">blijft binnen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">blijft binnen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>geïsoleerd systeem gaat er geen energie en geen materie in of uit</strong>. Binnenin mag de energie wel van vorm veranderen, zolang de som gelijk blijft."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat gebeurt er</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Omzetting</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bal valt van een muur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ep,gr naar Ek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bal omhoog gooien</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ek naar Ep,gr</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een elektrische waterkoker</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elektrisch naar thermisch</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een plant doet fotosynthese</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">straling naar chemisch</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een ingedrukte veer schiet los</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ep,el naar Ek</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>vrije val zonder luchtweerstand blijft de som van Ek en Ep,gr gelijk</strong>: de ene vorm wordt de andere, zonder verlies. Daarom kan je de snelheid onderaan uit de hoogte berekenen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij elke omzetting in het dagelijkse leven gaat een deel naar een <strong>minder bruikbare vorm, meestal warmte</strong>. Dat heet <strong>energiedissipatie</strong>. Die energie <strong>bestaat nog, maar is zo verspreid dat je ze niet meer nuttig kan gebruiken</strong>: ze is niet verdwenen."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>stroomdiagram</strong> zet je uit waar de energie naartoe gaat. De <strong>breedte van een pijl hoort bij de hoeveelheid energie</strong>, en <strong>alle uitgaande energie samen is zoveel als de ingaande</strong>, want niets verdwijnt. De <strong>ongewenste energie hoort er dus ook in</strong>, niet enkel de nuttige."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>arbeid-energietheorema</strong> zegt dat de <strong>arbeid van de resulterende kracht gelijk is aan de verandering van de kinetische energie</strong>. Verricht ze positieve arbeid, dan gaat het voorwerp sneller; verricht ze negatieve arbeid, dan vertraagt het."
+    }
+   ]
+  },
+  {
+   "kop": "Vermogen en rendement",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>vermogen</strong> is <strong>P = |ΔE| / Δt</strong>: de omgezette energie gedeeld door de tijd die het duurde. De <strong>eenheid is de watt</strong>, en <strong>één watt is één joule per seconde</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Opgave</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Antwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">48 kJ in 20 s</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">48 000 / 20</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2,4 kW</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">500 W gedurende 60 s</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">500 . 60</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">30 000 J</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Een groter vermogen betekent sneller, niet duurder.</strong> Doen twee toestellen hetzelfde werk, dan gebruikt dat met het kleinste vermogen minder energie, maar een krachtiger pomp verzet hetzelfde water in minder tijd met ongeveer dezelfde energie."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>rendement</strong> is <strong>η = Enuttig / Etotaal</strong>, met de Griekse letter eta. Het <strong>heeft geen eenheid</strong>, want het is een verhouding, en wordt vaak als percentage geschreven."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Opgave</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">η</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lamp: 60 J in, 9,0 J licht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">9,0 / 60</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">15 %</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">motor: 2000 J in, 1400 J warmte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">600 / 2000</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">30 %</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">motor: 800 J in, 200 J nuttig</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">200 / 800</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 %</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een rendement van meer dan 100 % kan niet bestaan.</strong> Je kan er niet meer uithalen dan je erin stopt, en er gaat altijd een deel naar warmte."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>joule-effect</strong> is het opwarmen van een geleider door de stroom erdoor. Dat is <strong>niet in elke toepassing ongewenst</strong>: in een gloeilamp of een waterkoker heb je het net nodig, in een laadkabel of een stekkerdoos niet."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een ledlamp haalt ongeveer 40 % rendement en een oude gloeilamp maar 5 %. De overige 95 % werd bij die gloeilamp warmte, en dat is net waarom de draad licht gaf."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "W = F . Δx . cos α; bij 0° positief, bij 90° geen arbeid, bij 180° negatief.",
+  "Ek = m . v² / 2, Ep,gr = m . g . h, Ep,el = k . Δl² / 2.",
+  "Twee keer zo snel geeft vier keer zoveel kinetische energie.",
+  "Een kilowattuur is een eenheid van energie, geen vermogen.",
+  "Energie verdwijnt niet, ze verandert van vorm; in een geïsoleerd systeem blijft de som gelijk.",
+  "Energiedissipatie: bruikbare energie wordt warmte die je niet meer kan gebruiken.",
+  "Arbeid-energietheorema: de arbeid van de resultante is de verandering van de Ek.",
+  "P = |ΔE| / Δt, in watt; één watt is één joule per seconde.",
+  "η = Enuttig / Etotaal, zonder eenheid en altijd onder 100 %."
+ ]
+}

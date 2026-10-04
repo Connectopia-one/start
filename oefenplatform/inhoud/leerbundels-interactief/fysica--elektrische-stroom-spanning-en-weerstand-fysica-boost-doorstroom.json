@@ -1,0 +1,138 @@
+{
+ "vak": "Fysica",
+ "titel": "Elektrische stroom, spanning en weerstand",
+ "onder": "De wet van Ohm, geleiders en isolatoren, meten met een multimeter, het vermogen en het joule-effect, serie- en parallelschakelingen en de veiligheid.",
+ "secties": [
+  {
+   "kop": "De grootheden en de wet van Ohm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Grootheid</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Symbool</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Eenheid</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Meetinstrument</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elektrische lading</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Q</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">coulomb (C)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stroomsterkte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ampère (A)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ampèremeter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spanning</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">U</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">volt (V)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voltmeter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">weerstand</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">R</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ohm (Ω)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ohmmeter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vermogen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">P</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">watt (W)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>wet van Ohm</strong> is <strong>R = U / I</strong>, of in de andere vormen <strong>U = R . I</strong> en <strong>I = U / R</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Opgave</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Antwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">230 V en 0,50 A</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">230 / 0,50</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">R = 460 Ω</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5,0 V over 25 Ω</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5,0 / 25</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I = 0,20 A</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">40 Ω met 0,20 A</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">40 . 0,20</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">U = 8,0 V</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een vaste weerstand zijn U en I recht evenredig</strong>: een dubbele spanning geeft een dubbele stroom, en in een grafiek krijg je een rechte door de oorsprong. <strong>Bij een vaste spanning zijn I en R omgekeerd evenredig</strong>: een dubbele weerstand geeft de helft van de stroom."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>geleider heeft een kleine weerstand, een isolator een grote</strong>. Bij dezelfde spanning loopt er door een geleider dus veel stroom en door een isolator bijna geen. Daarom zit er rubber om een koperdraad. De <strong>geleidbaarheid is omgekeerd aan de weerstand</strong>: een grote geleidbaarheid hoort bij een kleine weerstand."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>conventionele stroomzin</strong> loopt <strong>van de plus- naar de minpool buiten de bron</strong>. De <strong>elektronen bewegen in werkelijkheid net de andere kant op</strong>, van min naar plus. Die afspraak is ouder dan de kennis over elektronen, en men heeft ze behouden."
+    }
+   ]
+  },
+  {
+   "kop": "Meten en vermogen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>ampèremeter sluit je in serie aan</strong> met het onderdeel, want de stroom moet erdoor lopen. Een <strong>voltmeter sluit je parallel aan</strong>, dus over het onderdeel heen."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Zet een ampèremeter nooit rechtstreeks over de polen van een bron.</strong> Hij heeft een heel kleine weerstand, dus maak je zo een kortsluiting: de stroom wordt enorm en het toestel gaat stuk."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>multimeter</strong> kan spanning, stroomsterkte en weerstand meten. Je kiest met een draaiknop: <strong>DCV voor gelijkspanning</strong>, <strong>DCA voor gelijkstroom</strong> en de <strong>Ω-stand voor een weerstand</strong>. De afkorting <strong>DC</strong> staat voor gelijkspanning of gelijkstroom."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>elektrisch schema</strong> staan de onderdelen met hun eigen symbool: een (regelbare) gelijkspanningsbron, een (regelbare) weerstand, een lamp, een schakelaar, een ampèremeter en een voltmeter."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>elektrisch vermogen</strong> is <strong>P = U . I</strong>, en net als elk vermogen ook <strong>P = |ΔE| / Δt</strong>. Een toestel op 230 V dat 2,0 A trekt, heeft een vermogen van <strong>460 W</strong>. Doen twee toestellen hetzelfde werk, dan is <strong>het zuinigste dat met het kleinste vermogen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>joule-effect</strong> is het <strong>opwarmen van een weerstand door de stroom erdoor</strong>: de elektronen botsen op de deeltjes van de draad en geven hun energie als warmte door. In een waterkoker is dat gewenst, in een kabel niet."
+    }
+   ]
+  },
+  {
+   "kop": "Serie en parallel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Serieschakeling</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Parallelschakeling</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stroomsterkte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I = I₁ = I₂ = …</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I = I₁ + I₂ + …</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spanning</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">U = U₁ + U₂ + …</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">U = U₁ = U₂ = …</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">substitutieweerstand</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Rs = R₁ + R₂ + …</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Rs = (1/R₁ + 1/R₂ + …)⁻¹</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>serieschakeling is er maar één weg</strong>, dus loopt overal <strong>dezelfde stroom</strong> en <strong>verdeelt de spanning zich</strong>. De <strong>som van de spanningen over de onderdelen is de bronspanning</strong>, en over de grootste weerstand staat de grootste spanning."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>parallelschakeling hangt elke tak tussen dezelfde twee punten</strong>, dus staat er over elke tak <strong>dezelfde spanning</strong> en <strong>verdeelt de stroom zich</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Opgave</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rs</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">30 Ω en 60 Ω in serie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">30 + 60</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">90 Ω</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">50 Ω en 50 Ω in serie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">50 + 50</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">100 Ω</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">30 Ω en 60 Ω parallel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(1/30 + 1/60)⁻¹</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20 Ω</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">50 Ω en 50 Ω parallel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">50 / 2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 Ω</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drie keer 60 Ω parallel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">60 / 3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20 Ω</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10 Ω in serie met twee keer 20 Ω parallel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10 + 10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20 Ω</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>gelijke weerstanden parallel deel je door hun aantal</strong>. De <strong>substitutieweerstand van een parallelschakeling is altijd kleiner dan de kleinste</strong> van de weerstanden, want elke extra tak geeft de stroom een weg bij. Enkel bij serie wordt de totale weerstand groter."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>gemengde schakeling</strong> werk je <strong>van binnen naar buiten uit</strong>: eerst de parallelle groep tot één weerstand, dan die in serie met de rest. Over een serieschakeling van 20 Ω en 40 Ω met 12 V loopt I = 12 / 60 = <strong>0,20 A</strong>, en over de 40 Ω staat dan U = 40 . 0,20 = <strong>8,0 V</strong>; over de 20 Ω staat 4,0 V, samen weer 12 V."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>kerstboomsnoer in serie gaat helemaal uit als één lampje stuk is</strong>: de <strong>kring is onderbroken, dus loopt er nergens stroom</strong>. <strong>Parallel geschakelde lampjes blijven wel branden</strong>: elke lamp krijgt de volle spanning van de bron en trekt even veel stroom als alleen. Daarom staan de <strong>stopcontacten in een huis parallel</strong>, zodat op elk ervan 230 V staat."
+    }
+   ]
+  },
+  {
+   "kop": "Risico's en veiligheid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Risico</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat er gebeurt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kortsluiting</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">R wordt heel klein, dus I heel groot</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">overbelasting</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">te veel toestellen op één kring</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">brandgevaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de draden worden heet door het joule-effect</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elektrocutie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stroom door het lichaam van een mens</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>kortsluiting is de weerstand in de kring heel klein geworden</strong>, dus <strong>wordt de stroomsterkte heel groot</strong> volgens I = U / R. De spanning van de bron verandert daar niet door. Door het joule-effect worden de draden dan snel heet, met <strong>brandgevaar</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Veiligheidsaspect</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aarding en aarddraad</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">leidt stroom op een metalen kast naar de aarde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">automatische zekering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">legt de kring af bij een te grote stroom</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">smeltveiligheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een draad die doorsmelt bij te veel stroom</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verliesstroomschakelaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">legt af als er stroom wegloopt die niet terugkomt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elektrische isolatie, dubbele isolatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">houdt de stroom in de draad</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">veiligheidsspanning</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een spanning die laag genoeg is om geen gevaar te zijn</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>aarddraad leidt een stroom die op de metalen kast van een toestel komt veilig naar de aarde</strong>, zodat die niet door de persoon gaat die de kast aanraakt. Een <strong>automatische zekering beschermt tegen een te grote stroom</strong>; een <strong>verliesstroomschakelaar merkt dat er stroom wegloopt die niet terugkomt</strong>, bijvoorbeeld door een mens, en legt de kring af. Dat zijn dus twee verschillende dingen."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Nooit een elektrisch toestel met natte handen bedienen.</strong> Water verlaagt de weerstand van je huid sterk, dus loopt er bij dezelfde spanning veel meer stroom door je lichaam. Ook onder 230 V blijft dat gevaarlijk."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een verliesstroomschakelaar in een woning slaat af bij een verschil van ongeveer 30 milliampère tussen de stroom die gaat en de stroom die terugkomt. Dat is minder dan wat een spaarlamp trekt."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "R = U / I; bij vaste R zijn U en I recht evenredig, bij vaste U zijn I en R omgekeerd evenredig.",
+  "Een geleider heeft een kleine weerstand, een isolator een grote; geleidbaarheid is omgekeerd aan weerstand.",
+  "De conventionele stroomzin gaat van plus naar min; de elektronen bewegen de andere kant op.",
+  "Ampèremeter in serie, voltmeter parallel; DCV voor gelijkspanning, DCA voor gelijkstroom.",
+  "P = U . I, en het joule-effect warmt een weerstand op: gewenst in een waterkoker, niet in een kabel.",
+  "Serie: dezelfde I, de spanningen tellen op, Rs = R₁ + R₂.",
+  "Parallel: dezelfde U, de stromen tellen op, Rs kleiner dan de kleinste weerstand.",
+  "Een gemengde schakeling werk je van binnen naar buiten uit.",
+  "Zekering tegen te veel stroom, verliesstroomschakelaar tegen stroom die wegloopt, aarddraad naar de aarde."
+ ]
+}

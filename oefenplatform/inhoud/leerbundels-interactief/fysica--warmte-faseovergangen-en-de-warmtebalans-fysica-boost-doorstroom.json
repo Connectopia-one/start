@@ -1,0 +1,138 @@
+{
+ "vak": "Fysica",
+ "titel": "Warmte, faseovergangen en de warmtebalans",
+ "onder": "Temperatuur en warmte, het thermisch evenwicht, geleiding, convectie en straling, de merkbare en de latente warmte, en de warmtebalans.",
+ "secties": [
+  {
+   "kop": "Temperatuur, warmte en inwendige energie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Temperatuur en warmte zijn niet hetzelfde.</strong> De <strong>temperatuur hoort bij de gemiddelde kinetische energie van de deeltjes</strong>: ze zegt hoe snel die gemiddeld bewegen. <strong>Warmte is energie die overgedragen wordt</strong>, met symbool <strong>Q</strong> en als eenheid de <strong>joule</strong>. Dezelfde letter Q staat ook voor elektrische lading, dus let op de context."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>warmtestroom gaat altijd van het warme naar het koude voorwerp</strong>, en <strong>stopt zodra beide dezelfde temperatuur hebben</strong>. Dat eindpunt heet het <strong>thermisch evenwicht</strong>. De <strong>massa van de voorwerpen beslist daar niets over</strong>: een kopje thee kan heter zijn dan een vol zwembad, dus heeft een <strong>groot voorwerp niet altijd een hogere temperatuur</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>inwendige energie</strong> van een voorwerp bestaat uit <strong>twee delen</strong>: de <strong>inwendige kinetische energie</strong> van de bewegende deeltjes en de <strong>inwendige potentiële energie</strong> van hun onderlinge aantrekking. Ze <strong>stijgt als de absolute temperatuur stijgt</strong>. Bij <strong>0 °C is ze niet nul</strong>: er is daar nog beweging, pas bij 0 K zou die stoppen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>warmtebalans is een toepassing van de wet van behoud van energie</strong>: de warmte die het warme voorwerp afgeeft, neemt het koude op. Je meet die op in een <strong>calorimeter</strong> of <strong>joulevat</strong>, dat goed geïsoleerd is."
+    }
+   ]
+  },
+  {
+   "kop": "Warmtetransport",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe het werkt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geleiding</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de deeltjes geven hun beweging door</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vooral in vaste stoffen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">convectie of stroming</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de warme stof beweegt zelf</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in vloeistoffen en gassen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">straling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zonder stof, door golven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ook door de lege ruimte</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>convectie beweegt de warme stof zelf naar een andere plaats</strong>: warme lucht of warm water is lichter en stijgt, koude stof zakt. In een vaste stof kan de stof niet stromen, dus werkt daar geleiding."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Straling heeft geen stof nodig</strong>, en dat is net het verschil met de twee andere. Daarom kan de <strong>warmte van de zon ons door de lege ruimte bereiken</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Metaal en hout van dezelfde temperatuur voelen niet even koud aan.</strong> Metaal <strong>geleidt de warmte van je hand snel weg</strong>, dus voelt het kouder. Hout geleidt slecht, dus blijft je hand daar warm."
+    }
+   ]
+  },
+  {
+   "kop": "Merkbare warmte",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Merkbare warmte</strong> is de warmte die de <strong>temperatuur van een stof doet veranderen</strong>: <strong>Q = c . m . ΔT</strong> voor een stof, of <strong>Q = C . ΔT</strong> voor een voorwerp."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Grootheid</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Symbool</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Eenheid</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarvoor</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">specifieke warmtecapaciteit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">c</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">J/(kg.K)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">per kilogram van een stof</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">warmtecapaciteit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">J/K</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">van dat ene voorwerp</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>C hoort dus bij een voorwerp en c bij één kilogram van een stof.</strong> De specifieke warmtecapaciteit van <strong>water is 4186 J/(kg.K)</strong>: dat is net de warmte die je nodig hebt om <strong>1,0 kg water 1,0 K op te warmen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Opgave</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Antwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2,0 kg water 10 K opwarmen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4186 . 2,0 . 10</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 84 kJ</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,50 kg met c = 900, Q = 9,0 kJ</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">9000 / (900 . 0,50)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ΔT = 20 K</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,10 kg van 80 °C bij 0,10 kg van 20 °C</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">(80 + 20) / 2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">50 °C</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>grote c betekent dat er veel warmte nodig is per kilogram per kelvin</strong>, dus dat de stof <strong>traag opwarmt</strong>. Water heeft een grote c en blijft daarom lang koel in de lente en lang warm in de herfst. <strong>Een kleine c betekent net snel opwarmen</strong>: een pan van metaal is sneller heet dan het water erin."
+    }
+   ]
+  },
+  {
+   "kop": "Faseovergangen en latente warmte",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Faseovergang</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Van</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naar</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Warmte</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">smelten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vast</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vloeibaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nodig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stollen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vloeibaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vast</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">komt vrij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verdampen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vloeibaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nodig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">condenseren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vloeibaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">komt vrij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sublimeren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vast</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nodig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">desublimeren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vast</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">komt vrij</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Stollen en condenseren geven warmte af</strong>, want de stof gaat naar een meer gebonden toestand. <strong>Smelten en verdampen hebben juist warmte nodig.</strong> <strong>Sublimeren slaat de vloeibare fase over</strong>: droogijs doet dat, en <strong>rijp die verdwijnt zonder eerst te smelten</strong> ook."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>latente warmte</strong> is <strong>Q = l . m</strong>. Er staat <strong>geen ΔT in</strong>, want <strong>tijdens een faseovergang blijft de temperatuur gelijk</strong>: alle warmte gaat naar het veranderen van de fase, niet naar de beweging van de deeltjes. In een opwarmingscurve zie je daarom een <strong>horizontaal stuk, een plateau</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort latente warmte</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Symbool</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">specifieke smeltwarmte en stolwarmte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ls</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">specifieke verdampingswarmte en condensatiewarmte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lv</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Ook <strong>sublimeren vraagt latente warmte</strong>. Omdat de stof de vloeibare fase overslaat, is die <strong>ongeveer de som van de smeltwarmte en de verdampingswarmte</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>specifieke smeltwarmte en de specifieke stolwarmte van een stof zijn dezelfde waarde</strong>: wat je bij het smelten moet toevoegen, komt bij het stollen weer vrij. Enkel de zin van de warmtestroom is omgekeerd. De eenheid is <strong>J/kg</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Opgave</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Antwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,20 kg ijs smelten, ls = 334 kJ/kg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">334 000 . 0,20</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 67 kJ</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,50 kg smelten, ls = 200 kJ/kg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">200 000 . 0,50</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">100 kJ</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Tijdens het <strong>smelten worden de cohesiekrachten tussen de deeltjes losser</strong> en <strong>stijgt de inwendige potentiële energie</strong>. Hun gemiddelde snelheid, en dus de temperatuur, blijft gelijk: <strong>ijs van 0 °C blijft 0 °C terwijl het smelt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom voelt <strong>verdampende alcohol op je hand koud aan</strong>: de alcohol <strong>neemt warmte van je hand om te verdampen</strong>. Zweten werkt op dezelfde manier."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Verdampen kost veel méér dan opwarmen.</strong> 1 kg water van 0 naar 100 °C brengen kost ongeveer 419 kJ; datzelfde water laten verdampen ongeveer 2260 kJ. En <strong>water verdampt niet enkel bij 100 °C</strong>: aan het oppervlak gebeurt dat bij elke temperatuur, zoals natte was die droogt. Bij 100 °C, het <strong>kookpunt</strong>, begint het ook van binnenuit te verdampen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Naast het kookpunt zijn er het <strong>smeltpunt</strong> en het <strong>sublimatiepunt</strong>. Bij <strong>normale luchtdruk ligt het kookpunt van water op 100 °C</strong> en zijn smeltpunt op 0 °C."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een warmtepomp gebruikt net deze twee faseovergangen: een vloeistof verdampt buiten en neemt daar warmte op, en condenseert binnen en geeft die daar weer af."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Temperatuur hoort bij de gemiddelde kinetische energie van de deeltjes; warmte is overgedragen energie.",
+  "Warmte stroomt van warm naar koud en stopt bij het thermisch evenwicht.",
+  "Geleiding in vaste stoffen, convectie in vloeistoffen en gassen, straling ook zonder stof.",
+  "Q = c . m . ΔT voor een stof, Q = C . ΔT voor een voorwerp; c van water is 4186 J/(kg.K).",
+  "Een grote c betekent traag opwarmen, een kleine c snel.",
+  "Q = l . m voor een faseovergang; tijdens die overgang blijft de temperatuur gelijk.",
+  "Smelten, verdampen en sublimeren vragen warmte; stollen, condenseren en desublimeren geven ze af.",
+  "De specifieke smeltwarmte en stolwarmte van een stof zijn dezelfde waarde.",
+  "Water verdampt bij elke temperatuur aan het oppervlak; bij 100 °C begint het te koken."
+ ]
+}

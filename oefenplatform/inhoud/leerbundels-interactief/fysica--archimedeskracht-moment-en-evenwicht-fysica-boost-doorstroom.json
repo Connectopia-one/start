@@ -1,0 +1,130 @@
+{
+ "vak": "Fysica",
+ "titel": "Archimedeskracht, moment en evenwicht",
+ "onder": "De wet van Archimedes, zinken, zweven, stijgen en drijven, het moment van een kracht, en het translatie- en rotatie-evenwicht.",
+ "secties": [
+  {
+   "kop": "De archimedeskracht",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een voorwerp in een vloeistof ondervindt een <strong>opwaartse kracht</strong>. Dat is de <strong>archimedeskracht</strong>, genoemd naar de <strong>wet van Archimedes</strong>: de <strong>archimedeskracht is even groot als de zwaartekracht op de weggeduwde vloeistof</strong>. Daarom staat in de formule de massadichtheid van de <em>vloeistof</em> en niet die van het voorwerp."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>FA = ρ . g . Vond</strong>, met <strong>ρ</strong> de <strong>massadichtheid</strong> van de vloeistof in <strong>kg/m³</strong>, g de zwaarteveldsterkte en <strong>Vond het ondergedompelde volume</strong>. De massadichtheid van <strong>water is 1000 kg/m³</strong>, of één kilogram per liter."
+    },
+    {
+     "soort": "tekst",
+     "html": "De archimedeskracht is <strong>verticaal naar boven</strong> gericht. Daarom lijkt een steen onder water lichter: hangt een <strong>steen van 50 N aan een dynamometer en wijst die onder water 32 N aan</strong>, dan is de archimedeskracht <strong>50 − 32 = 18 N</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Gegeven</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">FA</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,0020 m³ volledig onder water</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1000 . 9,81 . 0,0020</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">19,6 N</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0,0050 m³ volledig onder water</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1000 . 9,81 . 0,0050</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">49 N</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Enkel ρ, g en Vond staan in de formule.</strong> De <strong>massa en de vorm van het voorwerp tellen niet mee</strong>: twee voorwerpen van hetzelfde volume ondervinden dezelfde archimedeskracht, ook als het ene veel zwaarder is. <strong>De diepte staat er ook niet in</strong>: zolang het hele voorwerp onder water zit, blijft FA dezelfde, ook tien meter lager. Drijft een blok <strong>met driekwart van zijn volume onder water</strong>, dan gebruik je <strong>driekwart van het volume</strong>, want enkel dat deel duwt water weg."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Op de maan zou de archimedeskracht in hetzelfde bad water kleiner zijn</strong>, want g staat in de formule. De zwaartekracht op het voorwerp wordt wel even veel kleiner, dus drijft het nog altijd even diep."
+    }
+   ]
+  },
+  {
+   "kop": "Zinken, zweven, stijgen en drijven",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat gebeurt er</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Krachten</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Massadichtheid</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zinken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Fz groter dan FA</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ρ voorwerp groter dan ρ vloeistof</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zweven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Fz gelijk aan FA</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ρ voorwerp gelijk aan ρ vloeistof</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stijgen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">FA groter dan Fz</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ρ voorwerp kleiner dan ρ vloeistof</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">drijven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">FA gelijk aan Fz</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ρ voorwerp kleiner dan ρ vloeistof</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een voorwerp dat <strong>zweeft</strong> blijft op dezelfde diepte hangen, dus is de resulterende kracht nul en is de <strong>archimedeskracht even groot als de zwaartekracht</strong>. Een voorwerp met een massadichtheid van <strong>1200 kg/m³ zinkt in water</strong>, want dat is meer dan 1000 kg/m³. Een <strong>voorwerp dat stijgt heeft juist een kleinere massadichtheid</strong> dan de vloeistof."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>drijven ligt het voorwerp stil</strong>, dus is de resultante ook nul: het <strong>zakt net zo diep tot de archimedeskracht even groot is als zijn eigen zwaartekracht</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>zwaar stalen schip drijft</strong> en een stalen bout zinkt, omdat het <strong>schip hol is</strong>: binnenin zit lucht, dus komt zijn <strong>gemiddelde massadichtheid onder 1000 kg/m³</strong>. Een <strong>duikboot</strong> laat <strong>water in haar tanks om zwaarder te worden</strong>: de massa stijgt terwijl het volume gelijk blijft, dus haalt de zwaartekracht het van de archimedeskracht."
+    },
+    {
+     "soort": "tekst",
+     "html": "Leg je hetzelfde voorwerp in <strong>zout water</strong>, dat een grotere massadichtheid heeft, dan is de <strong>archimedeskracht groter bij hetzelfde ondergedompelde volume</strong>, dus <strong>zit er een kleiner deel onder water</strong>. De zwaartekracht hangt enkel van de massa af en verandert niet: het voorwerp wordt in zout water niet zwaarder."
+    }
+   ]
+  },
+  {
+   "kop": "Het moment van een kracht",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een kracht kan een voorwerp doen <strong>draaien</strong>. Hoeveel draaieffect ze heeft, zegt het <strong>moment</strong>: <strong>M = F . d . sin α</strong>, met <strong>d de krachtarm</strong> en α de hoek tussen de kracht en de arm. De eenheid is de <strong>newtonmeter (Nm)</strong>, <strong>niet de joule</strong>: die hoort bij arbeid en energie, ook al is ze eveneens een newton maal een meter."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>krachtarm d</strong> is de <strong>afstand van het draaipunt tot het aangrijpingspunt</strong> van de kracht. Een <strong>draaipunt heet ook een steunpunt</strong> als het voorwerp erop rust, zoals bij een wip."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Gegeven</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">M</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">40 N loodrecht op 0,50 m</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">40 . 0,50 . sin 90°</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20 Nm</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 N loodrecht op 0,80 m</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 . 0,80 . 1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">20 Nm</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">60 N onder 30° op 0,40 m</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">60 . 0,40 . 0,50</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">12 Nm</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een hoek van 90° is het moment het grootst</strong>, want sin 90° is 1 en blijft M = F . d over. Bij <strong>0° of 180° werkt de kracht langs de arm en is het moment nul</strong>. Een <strong>kracht die door het draaipunt gaat, levert geen moment</strong>: duwen op het hengsel van een deur doet ze niet draaien."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom gaat een <strong>moer losdraaien makkelijker met een lange sleutel</strong>: de <strong>krachtarm is groter, dus wordt het moment groter</strong> bij dezelfde kracht. Verdubbel je d, dan verdubbelt M."
+    }
+   ]
+  },
+  {
+   "kop": "Statisch evenwicht",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een voorwerp in <strong>statisch evenwicht</strong> verschuift niet en draait niet. Daar horen <strong>twee voorwaarden samen</strong> bij."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorwaarde</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Balans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat staat erin</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">translatie-evenwicht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">krachtenbalans</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de som van alle krachten is nul</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rotatie-evenwicht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">krachtmomentenbalans</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de som van alle momenten is nul</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Er mogen wel krachten werken, zolang ze elkaar opheffen.</strong> In een <strong>krachtenbalans zet je enkel krachten in newton</strong>: voor een balk op twee steunpunten zijn dat de <strong>zwaartekracht op de balk</strong> en de <strong>twee steunkrachten</strong>. De momenten horen in de krachtmomentenbalans, en een massa in kilogram is geen kracht."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Een krachtenbalans alleen is niet genoeg.</strong> Twee gelijke en tegengestelde krachten op verschillende plaatsen heffen elkaar op als kracht, maar kunnen het voorwerp wel doen draaien. Daarom bestaat er naast de krachtenbalans ook een krachtmomentenbalans."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>wip</strong> moeten de momenten links en rechts gelijk zijn. Zit links een kind van 30 kg op 1,2 m, dan geldt voor een kind van 36 kg rechts: 30 . 1,2 = 36 . d, dus <strong>d = 1,0 m</strong>. Het <strong>zwaardere kind zit dus dichter bij het draaipunt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>zwaartepunt bepaalt hoe stabiel</strong> iets staat. Een <strong>bus met passagiers op het bovendek</strong> staat minder stabiel omdat zijn <strong>zwaartepunt hoger ligt</strong>: hij moet minder ver kantelen voor het zwaartepunt buiten het steunvlak komt, en dan doet het moment van de zwaartekracht hem omvallen."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een hijskraan heeft een zwaar contragewicht aan de korte arm. Zo is het moment van dat gewicht even groot als dat van de last aan de lange arm, en blijft de kraan in rotatie-evenwicht."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "FA = ρ . g . Vond; de massadichtheid van water is 1000 kg/m³.",
+  "De massa, de vorm en de diepte van het voorwerp staan niet in die formule, enkel het ondergedompelde volume.",
+  "Zinken: Fz groter dan FA. Zweven en drijven: even groot. Stijgen: FA groter.",
+  "Een schip drijft omdat het hol is, dus met een gemiddelde massadichtheid onder 1000 kg/m³.",
+  "M = F . d . sin α, in newtonmeter, niet in joule.",
+  "Het moment is maximaal bij 90° en nul als de kracht door het draaipunt gaat.",
+  "Een langere krachtarm geeft bij dezelfde kracht een groter moment.",
+  "Statisch evenwicht: de som van de krachten is nul én de som van de momenten is nul.",
+  "Op een wip: F₁ . d₁ = F₂ . d₂, dus het zwaardere kind zit dichter bij het draaipunt."
+ ]
+}

@@ -189,7 +189,7 @@ BUNDELS["van-prikkel-tot-reactie-en-het-zenuwstelsel-biologie-boost-doorstroom"]
             ("p", "Raak je een <strong>hete pan</strong> aan, dan <strong>stuurt het ruggemerg de spier al "
                   "aan terwijl de boodschap nog naar de hersenen onderweg is</strong>. Dat is de "
                   "<strong>terugtrekreflex</strong>: je hand is weg voor je de pijn voelt."),
-            ("p", "Andere reflexen van de fiche: de <strong>kniepeesreflex</strong>, die een arts met een "
+            ("p", "Andere reflexen die je moet kennen: de <strong>kniepeesreflex</strong>, die een arts met een "
                   "tikje onder de knieschijf test; de <strong>pupilreflex</strong>, waarbij je "
                   "<strong>pupillen kleiner worden als er plots veel licht op valt</strong>; en de "
                   "<strong>toeschietreflex</strong>, waarbij <strong>de melk begint te vloeien zodra een "

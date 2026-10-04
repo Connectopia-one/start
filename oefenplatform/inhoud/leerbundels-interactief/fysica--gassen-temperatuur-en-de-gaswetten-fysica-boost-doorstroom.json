@@ -1,0 +1,126 @@
+{
+ "vak": "Fysica",
+ "titel": "Gassen, temperatuur en de gaswetten",
+ "onder": "Gasdruk volgens het deeltjesmodel, de kelvinschaal en het absolute nulpunt, de afzonderlijke gaswetten, de ideale gaswet en de grafieken.",
+ "secties": [
+  {
+   "kop": "Gasdruk en het deeltjesmodel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>deeltjes van een gas bewegen vrij door elkaar</strong> en <strong>vullen altijd het hele volume van hun vat</strong>. Elk deeltje dat <strong>tegen de wand botst</strong>, duwt er even tegen, en samen geven die miljarden botsingen een constante <strong>druk</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Hoe sneller de deeltjes bewegen, hoe groter de druk</strong>, want ze botsen harder en vaker. Wordt een gas <strong>opgewarmd in een gesloten vat van vast volume, dan stijgt de druk</strong>. Wordt het bij gelijke temperatuur <strong>samengedrukt</strong>, dan stijgt de druk ook, want dezelfde deeltjes botsen dan op een kleiner oppervlak. En <strong>meer deeltjes in hetzelfde volume geven ook meer druk</strong>: dat is wat je doet bij het oppompen van een band. Laat je <strong>lucht uit een fietsband ontsnappen</strong>, dan blijven er <strong>minder deeltjes over, dus daalt de druk</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Hoger in de atmosfeer wordt de luchtdruk kleiner</strong>, want de luchtdruk komt van het gewicht van alle lucht erboven en daar zit er minder lucht boven je."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Overdruk</strong> is wat er boven de luchtdruk zit. Een gas op <strong>1,5 bar overdruk</strong> staat dus op een totale druk van ongeveer <strong>2,5 bar</strong>. Zit de druk onder de luchtdruk, dan heet het <strong>onderdruk</strong>. De luchtdruk meet je met een <strong>barometer</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De kelvinschaal en het absolute nulpunt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>absolute temperatuur T</strong> staat in <strong>kelvin (K)</strong>, de SI-eenheid, en wordt zonder gradenteken geschreven. Reken om met <strong>T = θ + 273,15</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Omrekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Antwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 °C naar K</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">25 + 273,15</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 298 K</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0 °C naar K</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0 + 273,15</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">273,15 K (de normtemperatuur)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">200 K naar °C</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">200 − 273,15</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer −73 °C</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0 K naar °C</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">0 − 273,15</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">−273,15 °C</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een temperatuursverschil van 20 °C is hetzelfde als een verschil van 20 K</strong>: de stappen van de twee schalen zijn even groot, enkel hun nulpunt ligt anders, en bij een verschil valt dat weg."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>absolute temperatuur is een maat voor de gemiddelde kinetische energie van de deeltjes</strong>: warmer betekent gemiddeld sneller. Bij het <strong>absolute nulpunt, 0 K of −273,15 °C</strong>, staan de deeltjes in het model stil. Dan is de <strong>kinetische energie van de deeltjes nul</strong>, de <strong>druk van het gas nul</strong> en het <strong>volume van een ideaal gas nul</strong>. Hun massa blijft wel bestaan, en lager dan 0 K kan niet: de deeltjes kunnen niet langzamer dan stil."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>In de gaswetten vul je de temperatuur altijd in kelvin in.</strong> De wetten gaan uit van het absolute nulpunt, en met graden Celsius kom je bij 0 °C zelfs op een deling door nul."
+    }
+   ]
+  },
+  {
+   "kop": "De gaswetten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>vier toestandsgrootheden</strong> van een gas zijn <strong>druk p, volume V, absolute temperatuur T en stofhoeveelheid n</strong> (in mol). De <strong>ideale gaswet</strong> bindt ze samen: <strong>p . V = n . R . T</strong>, met <strong>R = 8,31 J/(mol.K)</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>universele gasconstante R geldt voor elk gas</strong>. Enkel een <em>specifieke</em> gasconstante per kilogram verschilt van gas tot gas."
+    },
+    {
+     "soort": "tekst",
+     "html": "Blijft de <strong>stofhoeveelheid gelijk</strong>, dan geldt de <strong>algemene gaswet p.V/T = constant</strong>. Daar mogen p, V en T alle drie veranderen. Houd je er één vast, dan krijg je de <strong>afzonderlijke gaswetten</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Proces</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat blijft gelijk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verband</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">isotherm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de temperatuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">p . V = constant</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">omgekeerd evenredig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">isobaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de druk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">V / T = constant</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">recht evenredig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">isochoor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het volume</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">p / T = constant</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">recht evenredig</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Iso betekent gelijk.</strong> <strong>Therm</strong> hoort bij warmte, <strong>baar</strong> bij druk en <strong>choor</strong> bij ruimte, dus bij het volume."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Opgave</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Antwoord</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3,0 L bij 2,0 bar naar 1,0 L, isotherm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2,0 . 3,0 = p . 1,0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6,0 bar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4,0 L bij 1,0 bar naar 2,0 bar, isotherm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1,0 . 4,0 = 2,0 . V</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2,0 L</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2,0 L bij 300 K naar 450 K, isobaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2,0 / 300 = V / 450</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3,0 L</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1,0 bar bij 290 K naar 580 K, isochoor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">T verdubbelt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2,0 bar</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Gaat een gas van 2,0 bar in 5,0 L naar 4,0 bar in 2,5 L, dan <strong>blijft het product p.V gelijk</strong> (10 in beide gevallen). Volgens p.V/T = constant <strong>blijft T dan ook gelijk</strong>: het is een isotherm proces, en er is geen gas weggelopen."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Een spuitbus hoort niet in de zon.</strong> Bij vast volume is p/T constant, dus stijgt de druk mee met de temperatuur. Daarom staat er op de bus dat ze niet boven 50 °C mag komen."
+    }
+   ]
+  },
+  {
+   "kop": "De grafieken van een gas",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Grafiek</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat constant blijft</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vorm</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">p(V)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de temperatuur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dalende kromme die de assen niet raakt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">V(T), T in kelvin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de druk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechte door de oorsprong</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">p(T), T in kelvin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het volume</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rechte door de oorsprong</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>isotherm proces zijn p en V omgekeerd evenredig</strong>, dus blijft hun product gelijk en krijg je een <strong>kromme die steeds vlakker daalt</strong>. Bij een <strong>isobaar proces is V recht evenredig met T</strong>: in kelvin gaat die rechte <strong>door de oorsprong</strong>, want bij 0 K zou het volume nul zijn. Hetzelfde geldt voor <strong>p(T) bij vast volume</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je kan een <strong>p(V)-grafiek omzetten naar een p(T)-grafiek</strong> met p.V/T = constant, punt per punt. Je moet wel weten <strong>welke grootheid vastgehouden werd</strong>, anders kan je niet omrekenen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>normomstandigheden</strong> hoort de <strong>normdruk van 1013 hPa</strong> en de <strong>normtemperatuur van 273,15 K</strong>. Een gasvolume dat men vergelijkt, wordt meestal naar die omstandigheden herrekend."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een <strong>ideaal gas bestaat in het echt niet</strong>: in het model hebben de deeltjes geen eigen volume en trekken ze elkaar niet aan. Echte gassen volgen de wetten wel goed bij lage druk en hoge temperatuur, en gaan er pas van afwijken als ze bijna vloeibaar worden."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Gasdruk komt van de botsingen van de deeltjes op de wand; sneller of meer deeltjes geeft meer druk.",
+  "T = θ + 273,15; het absolute nulpunt is 0 K of −273,15 °C.",
+  "Bij 0 K zijn de kinetische energie, de druk en het volume van een ideaal gas nul.",
+  "Een verschil van 20 °C is hetzelfde als een verschil van 20 K.",
+  "In de gaswetten vul je de temperatuur altijd in kelvin in.",
+  "Isotherm: p . V = constant. Isobaar: V / T = constant. Isochoor: p / T = constant.",
+  "Ideale gaswet: p . V = n . R . T, met R = 8,31 J/(mol.K) voor elk gas.",
+  "Een p(V)-grafiek bij vaste T is een dalende kromme; V(T) en p(T) in kelvin zijn rechten door de oorsprong.",
+  "Normdruk 1013 hPa en normtemperatuur 273,15 K zijn de normomstandigheden."
+ ]
+}

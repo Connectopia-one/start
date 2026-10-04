@@ -1,0 +1,126 @@
+{
+ "vak": "Fysica",
+ "titel": "Druk bij vaste stoffen en in vloeistoffen",
+ "onder": "p = F/A en de eenheden van druk, de hydrostatische druk, de totale druk, het beginsel van Pascal en de hydraulische pers.",
+ "secties": [
+  {
+   "kop": "Druk op een oppervlak",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>druk</strong> krijgt het symbool <strong>p</strong> (niet te verwarren met P van vermogen) en is <strong>p = F / A</strong>: de kracht gedeeld door de <strong>oppervlakte A</strong> waarop ze werkt. <strong>Druk is geen vector</strong>: ze heeft geen richting, enkel een grootte en een eenheid. De kracht in de formule is wel een vector."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>SI-eenheid is de pascal (Pa)</strong>, en <strong>één pascal is één newton per vierkante meter</strong>: twee namen voor dezelfde eenheid."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Eenheid</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">In pascal</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 Pa</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 N/m²</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 hPa (hectopascal)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">100 Pa</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 mbar (millibar)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">100 Pa, dus even groot als 1 hectopascal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 kPa</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1000 Pa</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1 bar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">100 000 Pa, dus 1000 hPa</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom staat op een weerkaart soms mbar en soms hPa voor hetzelfde getal. Een <strong>fietsband op 4 bar staat op 400 000 Pa</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Gegeven</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">p</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">600 N op 0,30 m²</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">600 / 0,30</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2000 Pa</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">240 N op 0,20 m bij 0,20 m</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">240 / 0,040</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6000 Pa</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">50 N op 0,010 m²</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">50 / 0,010</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5000 Pa</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>F staat in de teller en A in de noemer.</strong> Dus geeft <strong>dezelfde kracht op een kleiner oppervlak een grotere druk</strong>, en een <strong>grotere kracht op hetzelfde oppervlak ook</strong>. Leg je hetzelfde blok op zijn <strong>kleinste zijde</strong>, dan blijft de kracht gelijk maar wordt A kleiner, dus <strong>wordt de druk groter</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Druk in het dagelijkse leven",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorwerp</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat met A</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Gevolg</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">scherp mes, punaise, naald</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">klein contactoppervlak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">veel druk bij weinig kracht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sneeuwschoen, brede ski</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">groot zooloppervlak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">weinig druk, je zakt niet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">plank onder een kraanpoot</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kracht uitspreiden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de grond zakt niet in</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dubbele wielen op een vrachtwagen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meer contactoppervlak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">minder schade aan het wegdek</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Met <strong>sneeuwschoenen zak je minder diep</strong> omdat het <strong>zooloppervlak groter is, dus de druk kleiner</strong>. Je gewicht verandert niet; het verdeelt zich enkel over een grotere oppervlakte. Een <strong>naaldhak</strong> doet net het omgekeerde en is dus geen goed idee voor een wandeling in de sneeuw."
+    },
+    {
+     "soort": "tekst",
+     "html": "Staan <strong>twee mensen met dezelfde schoenmaat in de modder</strong>, dan zakt de zwaarste dieper: de <strong>oppervlakte is gelijk, dus beslist de kracht</strong>, en een grotere massa geeft een grotere zwaartekracht."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wil je met een gegeven kracht een <strong>zo grote druk mogelijk</strong>, dan maak je het <strong>contactoppervlak zo klein mogelijk</strong>. Daarom slijpt men een mes scherp."
+    }
+   ]
+  },
+  {
+   "kop": "Druk in een vloeistof",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In een vloeistof <strong>draagt elke laag het gewicht van alles erboven</strong>. Daarom <strong>ontstaat er hydrostatische druk</strong>, en die groeit gelijkmatig met de diepte: <strong>p = ρ . g . h</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Enkel ρ, g en h staan in de formule.</strong> De <strong>vorm van het vat en de totale hoeveelheid vloeistof tellen niet mee</strong>: op dezelfde diepte is de druk in een <strong>smal buisje even groot als in een breed bad</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Diepte in water</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Rekenwerk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hydrostatische druk</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2,0 m</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1000 . 9,81 . 2,0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 20 kPa</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5,0 m</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1000 . 9,81 . 5,0</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 49 kPa</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 10 m</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1000 . 9,81 . 10,3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer 1013 hPa</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>totale druk</strong> op een diepte is de <strong>hydrostatische druk plus de luchtdruk</strong>, want boven het water duwt de atmosfeer al met <strong>1013 hPa</strong>. Op ongeveer <strong>10 m diepte is de hydrostatische druk even groot als de luchtdruk</strong>, dus is de totale druk daar al bijna het dubbele van aan het oppervlak."
+    },
+    {
+     "soort": "tekst",
+     "html": "In <strong>zeewater</strong> is de <strong>massadichtheid groter</strong>, dus is de <strong>hydrostatische druk op dezelfde diepte groter</strong>. De diepte telt nog altijd mee, en de luchtdruk boven de zee is dezelfde."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>druk in een vloeistof werkt in alle richtingen</strong>, dus ook <strong>op de zijwanden van het vat</strong>. Daarom spuit er water uit een gaatje in de zijkant van een emmer."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je meet de <strong>luchtdruk met een barometer</strong> en de druk in een vat of een leiding met een <strong>manometer</strong>. <strong>Overdruk</strong> is wat er boven de luchtdruk zit, <strong>onderdruk</strong> wat eronder zit. Een manometer die <strong>2 bar overdruk</strong> aangeeft, hoort bij een totale druk van ongeveer <strong>3 bar</strong>. <strong>Hoger in de atmosfeer wordt de luchtdruk kleiner</strong>, want er zit minder lucht boven je: op een hoge berg is ze maar twee derde van die aan de zee."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij het <strong>duiken moet je je oren klaren</strong> omdat de <strong>druk op het trommelvlies met de diepte groeit</strong> terwijl de druk binnen gelijk blijft. Klaren laat lucht door de buis van Eustachius zodat de druk aan beide kanten even groot wordt."
+    }
+   ]
+  },
+  {
+   "kop": "Het beginsel van Pascal",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>beginsel van Pascal</strong> zegt dat een <strong>drukverandering zich in heel de vloeistof voortplant</strong>. Duw je ergens op een ingesloten vloeistof, dan stijgt de druk overal met hetzelfde bedrag."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daar werkt een <strong>hydraulische pers</strong> op, en ook een hydraulische schijfrem. Uit p = F / A volgt <strong>F = p . A</strong>: de <strong>druk is overal gelijk, dus geeft een grotere oppervlakte een grotere kracht</strong>. Bij een tien keer grotere zuiger krijg je tien keer meer kracht."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Een pers maakt geen energie bij.</strong> De kracht wordt groter, maar de weg wordt even veel kleiner: de grote zuiger komt tien keer minder ver. De arbeid blijft dus dezelfde, op de wrijving na."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een autokrik met vloeistof werkt op dit beginsel. Je duwt tientallen keren op een kleine hendel en de auto komt elke keer een paar millimeter hoger, want de energie die je erin stopt, moet er ook weer uit."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "p = F / A; de pascal is één newton per vierkante meter.",
+  "1 hPa = 1 mbar = 100 Pa, en 1 bar = 100 000 Pa = 1000 hPa.",
+  "Een kleiner oppervlak of een grotere kracht geeft meer druk: mes en punaise tegenover ski en plank.",
+  "p = ρ . g . h voor de hydrostatische druk; de vorm van het vat telt niet mee.",
+  "De totale druk is de hydrostatische druk plus de luchtdruk van 1013 hPa.",
+  "Op ongeveer 10 m diepte in water is de hydrostatische druk even groot als de luchtdruk.",
+  "De druk in een vloeistof werkt in alle richtingen, ook op de zijwanden.",
+  "Barometer voor de luchtdruk, manometer voor de druk in een vat; overdruk zit boven de luchtdruk.",
+  "Beginsel van Pascal: een drukverandering plant zich overal voort; een pers geeft meer kracht maar geen extra energie."
+ ]
+}
