@@ -1,0 +1,84 @@
+{
+ "vak": "Chemie",
+ "titel": "Nanomaterialen",
+ "onder": "Waarom dezelfde stof op nanomaat heel andere eigenschappen krijgt.",
+ "secties": [
+  {
+   "kop": "Hoe klein is nano",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>nanometer</strong> is <strong>een miljardste van een meter</strong>, dus 10⁻⁹ m. Een nanomateriaal ligt tussen <strong>1 en 100</strong> nanometer: onder één nanometer kom je bij losse atomen en moleculen, erboven bij gewoon materiaal. Een atoom is ongeveer een tiende van een nanometer en een <strong>menselijke haar is duizenden keren groter</strong> dan een nanodeeltje, ongeveer 80 000 nanometer dik. <strong>Nanodeeltjes zijn met een gewone lichtmicroscoop niet te zien</strong>, want ze zijn kleiner dan de golflengte van licht; daarvoor heb je een <strong>elektronenmicroscoop</strong> nodig."
+    },
+    {
+     "soort": "tekst",
+     "html": "Men deelt nanomaterialen in naar het aantal richtingen waarin ze klein zijn. Een <strong>0D-nanomateriaal</strong> is <strong>een deeltje dat in alle drie de richtingen nanoklein is</strong>, zoals een <strong>buckyball</strong> of een <strong>quantumdot</strong>. Bij <strong>1D</strong> is één richting lang, zoals bij een nanobuis of een nanodraad; bij <strong>2D</strong> zijn twee richtingen groot, en <strong>grafeen is een 2D-nanomateriaal</strong>. Een <strong>3D-nanomateriaal</strong> is <strong>een gewoon groot materiaal met een structuur op nanomaat erin</strong>, zoals een materiaal vol nanoporen of nanokorrels."
+    },
+    {
+     "soort": "tekst",
+     "html": "Er zijn twee manieren om ze te maken. <strong>Top-down</strong> begint bij groot materiaal en haalt er stukken af: <strong>een vaste stof fijnmalen tot nanodeeltjes</strong> en <strong>een laag wegetsen tot er een nanopatroon overblijft</strong>. <strong>Bottom-up</strong> betekent <strong>het materiaal opbouwen vanuit losse atomen of moleculen</strong>, bijvoorbeeld atomen laten neerslaan tot een dun laagje of moleculen zichzelf laten ordenen."
+    }
+   ]
+  },
+  {
+   "kop": "De drie koolstofvormen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Grafeen</strong> en <strong>de buckyball</strong> zijn nanomaterialen; diamant in een ring en houtskool zijn gewone vormen van koolstof. <strong>Grafeen</strong> is <strong>één laag koolstofatomen in een honingraatpatroon</strong>. Het is <strong>sterk</strong> omdat <strong>de koolstofatomen met sterke bindingen in een vlak net zitten</strong>: per gewicht veel sterker dan staal, en toch doorzichtig en buigbaar. Juist die combinatie — <strong>doorzichtig en geleidend</strong> — maakt grafeen geschikt voor een buigbaar scherm."
+    },
+    {
+     "soort": "tekst",
+     "html": "De bekendste <strong>buckyball</strong> bestaat uit <strong>60</strong> koolstofatomen, C₆₀, met de vorm van een voetbal uit vijf- en zeshoeken. Een <strong>koolstofnanobuis</strong> is <strong>een opgerolde laag koolstofatomen, dus 1D</strong>. Ze <strong>geleidt elektrische stroom goed</strong> omdat <strong>de elektronen van de pi-bindingen langs de hele buis kunnen bewegen</strong>, en ze is geschikt om een materiaal te versterken door <strong>haar grote sterkte bij een heel klein gewicht</strong>: nanobuizen in een kunststof geven een licht en stevig materiaal voor sportgerief en luchtvaart."
+    }
+   ]
+  },
+  {
+   "kop": "Waarom nanomaat andere eigenschappen geeft",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De verhouding <strong>oppervlak tot volume</strong> <strong>wordt groter als het deeltje kleiner wordt</strong> en <strong>verklaart waarom nanodeeltjes zo reactief zijn</strong>. <strong>Hoe kleiner een deeltje, hoe groter zijn oppervlak ten opzichte van zijn volume</strong>: dat is de kern van de nanochemie."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daaruit volgt veel. Een <strong>nanodeeltje goud smelt bij een lagere temperatuur dan een goudklomp</strong> omdat <strong>een groot deel van de atomen aan het oppervlak zit en daar minder vastzit</strong>. Een <strong>nanodeeltje van een metaal is reactiever dan een blok</strong> omdat <strong>er veel meer oppervlak per gram is waar de reactie kan gebeuren</strong> — hetzelfde idee als een poeder dat sneller brandt dan een blok. En <strong>nanodeeltjes kunnen als katalysator werken met heel weinig materiaal</strong>, want een katalysator werkt aan zijn oppervlak; het <strong>voordeel van een nanokatalysator</strong> is dan ook dat <strong>er veel minder materiaal nodig is voor hetzelfde effect</strong>. De reactie-energie verandert daarbij niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een nanomateriaal heeft dus niet dezelfde eigenschappen als dezelfde stof in het groot.</strong> Wat kan veranderen zijn de <strong>optische eigenschappen, zoals de kleur</strong>, en de <strong>mechanische eigenschappen, zoals de sterkte</strong>; het aantal protonen en de molaire massa veranderen natuurlijk niet, want de stof blijft chemisch dezelfde. Ook magnetisch kan het verschillen: <strong>een nanomateriaal kan magnetisch zijn terwijl dezelfde stof in het groot dat niet is</strong>, en dat gebruikt men in medische beeldvorming."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Goud op nanomaat is niet goudkleurig</strong> omdat <strong>de elektronen in zo'n klein deeltje anders op licht reageren</strong>; de kleur hangt af van de grootte van het deeltje. Daarop berust de <strong>kleur van een quantumdot in een scherm</strong>, een toepassing van de optische eigenschappen."
+    }
+   ]
+  },
+  {
+   "kop": "Toepassingen, voordelen en nadelen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In <strong>zonnecrème</strong> gebruikt men nanodeeltjes omdat <strong>ze uv-licht tegenhouden en toch doorzichtig blijven op de huid</strong>. Dat zijn <strong>zinkoxide</strong> en <strong>titaandioxide</strong>, die in grove vorm een witte laag geven."
+    },
+    {
+     "soort": "tekst",
+     "html": "Van <strong>zilvernanodeeltjes</strong> gebruikt men <strong>hun antibacteriële werking</strong> in verband en sokken: door het grote oppervlak komen er genoeg zilverionen vrij om bacteriën te doden. In een <strong>covidtest</strong> zorgen nanodeeltjes van <strong>goud</strong> voor de gekleurde streep; ze hangen aan antilichamen die het virus herkennen. Op een etiket van een cosmetisch product schrijft men <strong>nano</strong> <strong>zodat de koper weet dat er deeltjes op nanomaat in zitten</strong>: de wet vraagt die vermelding omdat nanomaat andere eigenschappen geeft. <strong>Nanotechnologie is dus geen zaak van de verre toekomst</strong>: ze zit al in zonnecrème, verband, tandpasta, schermen en autokatalysatoren."
+    },
+    {
+     "soort": "tekst",
+     "html": "De nadelen: <strong>hun effect op gezondheid en milieu is nog niet overal onderzocht</strong> en <strong>ze zijn moeilijk te meten en te volgen in een product</strong>. <strong>Nanodeeltjes in het lichaam zijn een risico</strong> omdat <strong>ze zo klein zijn dat ze tot in de cellen kunnen komen</strong>. <strong>Nanoplastics</strong> zijn in dat opzicht <strong>kleiner dan microplastics</strong> en <strong>kunnen door een celmembraan geraken</strong>: nano is duizend keer kleiner dan micro."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Nano is 10⁻⁹ m; een nanomateriaal ligt tussen 1 en 100 nm.",
+  "0D deeltje, 1D buis, 2D laag, 3D nanostructuur in een blok.",
+  "Top-down maalt of etst, bottom-up bouwt op vanuit atomen.",
+  "Grafeen is 2D, de buckyball C₆₀ is 0D, de nanobuis is opgerold grafeen.",
+  "Kleiner deeltje, grotere verhouding oppervlak tot volume, dus reactiever.",
+  "Zonnecrème zinkoxide en titaandioxide, verband zilver, covidtest goud.",
+  "Risico: ze komen tot in de cellen en zijn moeilijk te volgen."
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "vak": "Chemie",
+ "titel": "Veilig werken, meetinstrumenten en beduidende cijfers",
+ "onder": "Wat je leest voor je begint, waarmee je meet, en hoeveel cijfers je mag opschrijven.",
+ "secties": [
+  {
+   "kop": "Het etiket lezen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op een etiket staan twee soorten zinnen. Een <strong>H-zin</strong> gaat <strong>over het gevaar dat de stof zelf oplevert</strong>; de <strong>H</strong> komt van <strong>hazard</strong>, dus <strong>gevaar</strong>. Een <strong>P-zin</strong> gaat <strong>over de voorzorg en wat je bij een ongeval doet</strong>; de P komt van precaution, en zo'n zin zegt bijvoorbeeld dat je een veiligheidsbril draagt of de huid grondig spoelt."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>gevarenpictogrammen zijn ruitvormig</strong>, met een rode rand en een wit vlak; <strong>ronde groene tekens</strong> zijn gebodstekens. Vier om te kennen. <strong>Een hand en een oppervlak waar een druppel een gat in bijt</strong> betekent dat <strong>de stof bijtend is voor huid en materiaal</strong>, dus corrosief: bril en handschoenen. Een <strong>doodshoofd met twee gekruiste beenderen</strong> betekent dat <strong>de stof giftig is, ook in een kleine hoeveelheid</strong>. Het <strong>uitroepteken</strong> staat voor schadelijk of irriterend, dus <strong>niet altijd dodelijk giftig</strong>. En een <strong>boom met een dode vis</strong> betekent dat <strong>de stof schadelijk is voor het leven in het water</strong>, dus nooit in de gootsteen maar in een aparte afvalfles."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>veiligheidsfiche</strong> <strong>vermeldt de H- en P-zinnen van de stof</strong> en <strong>zegt wat je bij een ongeval moet doen</strong>. Ze <strong>vervangt het etiket op de fles niet</strong>: dat blijft nodig, en de fiche staat erbij voor wie meer wil weten over opslag, blussen en eerste hulp."
+    }
+   ]
+  },
+  {
+   "kop": "Glaswerk en meten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Om precies <strong>250,0 mL oplossing</strong> te maken gebruik je <strong>een maatkolf van 250 mL</strong>: die heeft één streepje en is daarvoor gekalibreerd. Nauwkeurig genoeg voor een volume dat in een berekening komt, zijn <strong>de maatkolf</strong> en <strong>de volumetrische pipet</strong>; een bekerglas en een erlenmeyer dienen om in te werken, niet om in te meten, en een maatcilinder zit ertussen. Voor een volume tot op honderdsten bij een titratie gebruik je <strong>een buret</strong>: daar <strong>lees je het volume af dat eruit gelopen is</strong>, en daarom loopt de schaal van boven naar onder."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je leest een volume af bij <strong>de meniscus</strong>, en wel bij de onderkant van die holle kromming, op ooghoogte; van boven of onder kijken geeft een afleesfout. Je <strong>spoelt een pipet eerst met de oplossing die je gaat pipetteren</strong>, want achtergebleven water zou verdunnen; bij een maatkolf is het net omgekeerd, die mag wel nat zijn van water."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>meetbereik</strong> van een instrument is <strong>de kleinste en de grootste waarde die het kan meten</strong>; buiten dat bereik is de waarde onbetrouwbaar. De <strong>resolutie</strong> of <strong>schaalverdeling</strong> is <strong>de kleinste stap die het nog kan onderscheiden</strong>. Daarom <strong>meet je 5 mL niet af in een maatcilinder van 500 mL</strong>: <strong>de streepjes staan daar veel te ver van elkaar</strong>, en één streepje ernaast is al 5 mL."
+    },
+    {
+     "soort": "tekst",
+     "html": "Nog twee veiligheidsregels. <strong>Een zuur verdun je door het zuur bij het water te gieten, niet omgekeerd</strong>, want het verdunnen geeft veel warmte en water bij geconcentreerd zuur kan spatten of koken. En gemorst zuur ruim je op door het <strong>eerst te neutraliseren met een zwakke base</strong> en het <strong>daarna op te nemen en af te voeren bij het juiste afval</strong>; een sterke base maakt er een tweede probleem van, terwijl natriumwaterstofcarbonaat zwak genoeg is."
+    }
+   ]
+  },
+  {
+   "kop": "Eenheden en voorvoegsels",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De SI-eenheid van massa is de <strong>kilogram</strong>, de enige basiseenheid met een voorvoegsel erin. Basiseenheden zijn onder meer de <strong>seconde</strong> en de <strong>kelvin</strong>; de <strong>liter is een afgeleide eenheid</strong> en de <strong>celsiusgraad is geen basiseenheid</strong>. De zeven zijn meter, kilogram, seconde, ampère, kelvin, mol en candela."
+    },
+    {
+     "soort": "tekst",
+     "html": "De voorvoegsels gaan telkens drie machten van tien verder. <strong>Mega</strong> is <strong>een miljoen</strong> (10⁶), kilo is 10³ en giga 10⁹; <strong>milli</strong> is 10⁻³, <strong>micro</strong> is <strong>10⁻⁶</strong> en nano 10⁻⁹. Daarom gaan er <strong>1000</strong> micrometer in één millimeter."
+    },
+    {
+     "soort": "tekst",
+     "html": "Deel je <strong>massa in gram door volume in milliliter</strong>, dan krijg je <strong>g/mL</strong>, de massadichtheid; in SI-eenheden zou dat kg/m³ zijn."
+    }
+   ]
+  },
+  {
+   "kop": "Beduidende cijfers en wetenschappelijke notatie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>0,00450</strong> heeft <strong>drie</strong> beduidende cijfers: de nullen vooraan dienen enkel om de komma te plaatsen, en <strong>nullen vooraan tellen dus niet mee</strong>, terwijl de nul achteraan wel meetelt omdat ze zegt dat er echt tot daar gemeten is. Ook <strong>2,40</strong> en <strong>0,00106</strong> hebben er drie; 0,0012 heeft er twee, en bij 12 000 weet je het niet — schrijf het als 1,20·10⁴ als je er drie bedoelt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>vermenigvuldigen en delen</strong> volg je de factor met het minste aantal beduidende cijfers: <strong>2,5 maal 3,142</strong> geeft dus <strong>twee</strong> beduidende cijfers, 7,9 en niet 7,855. Bij <strong>optellen en aftrekken</strong> kijk je naar <strong>het aantal decimalen</strong>: <strong>12,11 g plus 0,2 g is 12,3 g</strong>. <strong>Bij optellen volg je dus niet het aantal beduidende cijfers.</strong> En <strong>een rekenmachine geeft vaak meer cijfers dan je mag opschrijven</strong>, want het toestel weet niet hoe nauwkeurig je gemeten hebt."
+    },
+    {
+     "soort": "tekst",
+     "html": "In de <strong>wetenschappelijke notatie</strong> <strong>staat er precies één cijfer voor de komma</strong>, van 1 tot 9, en <strong>ze maakt het aantal beduidende cijfers duidelijk</strong>: <strong>1,0·10³</strong> heeft er <strong>2</strong>. <strong>De exponent is niet altijd positief</strong> en de notatie is juist bij kleine getallen het handigst: <strong>0,000 072</strong> schrijf je als <strong>7,2·10⁻⁵</strong>, want de komma schuift vijf plaatsen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee grootheden zijn <strong>recht evenredig</strong> als <strong>de andere ook verdubbelt wanneer de ene verdubbelt</strong>: hun quotiënt blijft constant, en in een grafiek geeft dat <strong>een rechte door de oorsprong</strong> — door de oorsprong is de voorwaarde, want een rechte die hoger begint is wel lineair maar niet evenredig. Ze zijn <strong>omgekeerd evenredig</strong> als <strong>de andere halveert wanneer de ene verdubbelt</strong>: dan blijft <strong>het product constant</strong>, zoals bij druk en volume van een gas, en geeft de grafiek een hyperbool."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "H-zin is het gevaar (hazard), P-zin de voorzorg (precaution).",
+  "Pictogrammen zijn ruitvormig met een rode rand.",
+  "Maatkolf en volumetrische pipet zijn nauwkeurig, bekerglas niet.",
+  "Meetbereik is van klein tot groot, resolutie is de kleinste stap.",
+  "Zuur bij water, nooit water bij zuur.",
+  "Vermenigvuldigen volgt beduidende cijfers, optellen volgt decimalen.",
+  "Recht evenredig: quotiënt constant. Omgekeerd: product constant."
+ ]
+}

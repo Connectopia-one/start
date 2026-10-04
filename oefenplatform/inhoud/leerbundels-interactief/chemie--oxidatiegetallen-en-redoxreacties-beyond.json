@@ -1,0 +1,96 @@
+{
+ "vak": "Chemie",
+ "titel": "Oxidatiegetallen en redoxreacties",
+ "onder": "Elektronen die van hand wisselen, en hoe je dat in een vergelijking zet.",
+ "secties": [
+  {
+   "kop": "Oxidatiegetallen bepalen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In een <strong>enkelvoudige stof</strong> is het oxidatiegetal <strong>nul</strong>: in O₂, Fe en Cl₂ is er geen verschil tussen de atomen. <strong>Zuurstof</strong> heeft in de meeste verbindingen <strong>min twee</strong>; alleen in een peroxide is het min een door de O-O-brug, en in OF₂ zelfs positief. <strong>Waterstof</strong> heeft in een verbinding met een niet-metaal <strong>+I</strong>, maar in een metaalhydride zoals NaH min een, want daar is waterstof het meest elektronegatieve atoom. <strong>Zuurstof heeft dus niet overal −II</strong>: niet <strong>in waterstofperoxide H₂O₂</strong> en niet <strong>in zuurstofgas O₂</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De som van de oxidatiegetallen in een neutrale verbinding is nul</strong>, en bij een ion is die som gelijk aan de lading. Dat is je controle. Reken mee: zwavel in <strong>H₂SO₄</strong> is <strong>+VI</strong>, mangaan in <strong>MnO₄⁻</strong> is <strong>+VII</strong>, chroom in <strong>Cr₂O₇²⁻</strong> is <strong>+VI</strong> (de twee chroomatomen dragen samen +12), stikstof in <strong>NO₃⁻</strong> is <strong>+V</strong>, koolstof in <strong>CH₄</strong> is <strong>−IV</strong> en in <strong>koolstofdioxide</strong> <strong>+IV</strong> — zo sterk geoxideerd als het kan, en daarom brandt CO₂ niet meer."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Koolstof heeft niet in elke organische verbinding hetzelfde oxidatiegetal</strong>: in methanol is het −II, in methanal nul en in methaanzuur +II. Zo zie je dat de reeks alcohol, aldehyde en zuur telkens een oxidatie is."
+    }
+   ]
+  },
+  {
+   "kop": "Oxidatie, reductie, oxidator en reductor",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>oxidatie</strong> <strong>staat een deeltje elektronen af en stijgt zijn oxidatiegetal</strong>; oxidatie heeft dus niet noodzakelijk met zuurstof te maken. Bij een <strong>reductie</strong> neemt een deeltje <strong>elektronen op</strong> en daalt het oxidatiegetal."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>oxidator</strong> <strong>neemt elektronen op</strong> en <strong>wordt zelf gereduceerd</strong>; een <strong>reductor</strong> of <strong>reducens</strong> is het deeltje dat <strong>elektronen afstaat</strong> en zelf geoxideerd wordt."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>redoxreactie</strong> <strong>is er altijd een oxidatie en een reductie samen</strong> en is <strong>het aantal afgestane elektronen gelijk aan het aantal opgenomen</strong>, want elektronen kunnen niet los blijven rondzweven."
+    },
+    {
+     "soort": "tekst",
+     "html": "Oefen het herkennen. <strong>Bij de verbranding van methaan wordt koolstof geoxideerd</strong>, van −IV naar +IV, dus acht eenheden stijging. Gaat ijzer <strong>van Fe²⁺ naar Fe³⁺</strong>, dan <strong>is het geoxideerd en heeft het een elektron afgestaan</strong>. Eén <strong>aluminiumatoom</strong> dat Al³⁺ wordt, staat <strong>drie</strong> elektronen af. En <strong>een stof die zuurstof opneemt, wordt niet gereduceerd maar geoxideerd</strong>, want zuurstof trekt de elektronen naar zich toe."
+    }
+   ]
+  },
+  {
+   "kop": "Een redoxvergelijking opstellen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De eerste stap is <strong>de oxidatiegetallen bepalen en zien welk atoom verandert</strong>. Pas dan kan je de <strong>halfreacties</strong> schrijven. Zo'n halfreactie <strong>bevat de elektronen die afgestaan of opgenomen worden</strong> en <strong>beschrijft enkel de oxidatie of enkel de reductie</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je <strong>vermenigvuldigt de twee halfreacties met een factor</strong> omdat <strong>het aantal afgestane en opgenomen elektronen gelijk moet zijn</strong>: staat de ene er twee af en neemt de andere er drie op, dan vermenigvuldig je met drie en met twee. Bij het optellen vallen de elektronen weg, en <strong>in de eindvergelijking mogen er dus geen losse elektronen meer staan</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Om de vergelijking in evenwicht te brengen gebruik je in zuur midden <strong>water en H₃O⁺</strong>, in basisch midden water en hydroxide-ionen: daar <strong>gebruik je hydroxide-ionen om de lading te regelen</strong> en <strong>water om de waterstofatomen te regelen</strong>. <strong>De lading links en rechts van een ionenreactievergelijking moet gelijk zijn</strong> — niet nul, maar gelijk — en dat is naast het aantal atomen je tweede controle."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het verschil tussen een <strong>ionenreactievergelijking</strong> en een <strong>stoffenreactievergelijking</strong> is dat je <strong>in de eerste de ionen weglaat die niet meedoen</strong>. Zo'n ion dat <strong>aan beide kanten onveranderd staat</strong>, heet een <strong>toeschouwerion</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Voorspellen met de normpotentialen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Om te voorspellen of een redoxreactie spontaan doorgaat, gebruik je de tabel van de <strong>normpotentialen</strong>; op het examen krijg je die in de bijlage. Een <strong>hoge normpotentiaal</strong> betekent dat <strong>de geoxideerde vorm een sterke oxidator is</strong>: hoog in de tabel staat de sterkste oxidator, onderaan de sterkste reductoren zoals de alkalimetalen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een reactie tussen twee redoxkoppels gaat spontaan door als de sterkste oxidator met de sterkste reductor reageert</strong>: de oxidator moet een hogere normpotentiaal hebben dan het koppel van de reductor. Zo'n <strong>spontane reactie</strong> levert energie; een gedwongen reactie heeft een spanningsbron nodig."
+    },
+    {
+     "soort": "tekst",
+     "html": "Drie voorspellingen. Leg je <strong>een stukje zink in een oplossing van kopersulfaat</strong>, dan <strong>lost het zink op en slaat er koper op het stukje neer</strong>, want zink is de sterkere reductor. Met <strong>Cu²⁺/Cu op +0,34 V en Zn²⁺/Zn op −0,76 V</strong> <strong>wordt zink geoxideerd en het koperion gereduceerd</strong>. En laat je <strong>ijzer reageren met zoutzuur</strong>, dan ontstaan er <strong>ijzer(II)ionen en waterstofgas</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Koper wordt niet aangetast door zoutzuur</strong>, want <strong>het hydroxoniumion is een te zwakke oxidator voor koper</strong>: koper staat in de tabel boven waterstof. <strong>Salpeterzuur tast koper wel aan, want het nitraation is een sterkere oxidator dan het hydroxoniumion</strong>, en daarbij ontstaat NO of NO₂; de sterkte van het zuur speelt daar dus geen rol. Algemeen: <strong>een metaal boven waterstof lost niet op in een gewoon zuur</strong>, een metaal eronder wel, en dan komt er waterstofgas vrij."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Enkelvoudige stof nul, zuurstof meestal −II, waterstof +I.",
+  "De som is nul in een verbinding en gelijk aan de lading in een ion.",
+  "Oxidatie stijgt en staat elektronen af; reductie daalt en neemt ze op.",
+  "De oxidator wordt gereduceerd, de reductor geoxideerd.",
+  "Halfreacties gelijkstellen op elektronen, dan optellen.",
+  "Lading én atomen moeten links en rechts kloppen.",
+  "Hoog in de tabel staat de sterkste oxidator."
+ ]
+}

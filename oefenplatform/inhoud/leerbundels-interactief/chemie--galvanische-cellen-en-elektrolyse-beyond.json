@@ -1,0 +1,74 @@
+{
+ "vak": "Chemie",
+ "titel": "Galvanische cellen en elektrolyse",
+ "onder": "Een redoxreactie die stroom levert, en een stroom die een reactie afdwingt.",
+ "secties": [
+  {
+   "kop": "De galvanische cel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>galvanische cel zet chemische energie om in elektrische energie</strong>: de reactie gaat spontaan door en levert daarbij spanning. Een <strong>batterij is een toepassing van een galvanische cel</strong>, en is de reactie uitgewerkt, dan is ze leeg."
+    },
+    {
+     "soort": "tekst",
+     "html": "Aan de <strong>anode</strong> gebeurt <strong>de oxidatie, waarbij elektronen vrijkomen</strong>; aan de <strong>kathode</strong> gebeurt de <strong>reductie</strong>. In een galvanische cel is de anode <strong>de negatieve pool</strong>, want daar is een overschot aan negatieve lading. <strong>De oxidatie gebeurt in een galvanische cel dus niet aan de positieve pool.</strong> De <strong>elektronen lopen van de anode naar de kathode, door de draad</strong>; de stroomrichting die men in de natuurkunde afspreekt, is net omgekeerd."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee bruggen verbinden de halfcellen. De <strong>elektronenbrug</strong> is <strong>de draad</strong> met eventueel een toestel ertussen en <strong>brengt de elektronen van de ene elektrode naar de andere</strong>. De <strong>zoutbrug</strong> dient <strong>om de ladingen in de twee halfcellen in evenwicht te houden</strong>; <strong>de elektronen lopen dus niet door de zoutbrug</strong>, enkel ionen doen dat. De <strong>negatieve ionen bewegen daarin naar de halfcel van de anode</strong>, waar positieve metaalionen bijkomen. Elke halfcel moet haar eigen oplossing hebben, want <strong>anders reageren de twee koppels rechtstreeks, zonder stroom door de draad</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De voorstelling <strong>Zn/Zn²⁺//Cu²⁺/Cu</strong> betekent: <strong>links de anode met haar oplossing, rechts de kathode met de hare</strong>, met de dubbele streep als zoutbrug. Links staat altijd de oxidatie."
+    },
+    {
+     "soort": "tekst",
+     "html": "De elektroden veranderen tijdens het gebruik. <strong>Aan de anode gebeurt de oxidatie</strong> en <strong>wordt de anode tijdens het gebruik dunner</strong>, want het metaal lost op als ion. De <strong>massa van de kathode wordt juist groter, want er slaat metaal op neer</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>bronspanning</strong> bij normomstandigheden bereken je als <strong>de normpotentiaal van de kathode min die van de anode</strong>, zodat er bij een spontane cel een positief getal uitkomt; het koppel met de hoogste waarde wordt de kathode. Ze <strong>wordt uitgedrukt in volt</strong> en <strong>is groter als de twee normpotentialen verder uit elkaar liggen</strong>; de afstand tussen de elektroden speelt geen rol. Met <strong>Cu²⁺/Cu op +0,34 V en Zn²⁺/Zn op −0,76 V</strong> is de bronspanning <strong>1,10 V</strong>, met <strong>zink</strong> als anode, want het heeft de laagste normpotentiaal en is dus de sterkste reductor."
+    }
+   ]
+  },
+  {
+   "kop": "De elektrolyse",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>elektrolyse</strong> heeft <strong>een spanningsbron die de reactie afdwingt</strong> nodig, want ze verloopt niet spontaan. Dat is een <strong>gedwongen reactie</strong>: <strong>een reactie die enkel doorgaat met energie van buitenaf</strong>. Bij een elektrolyse <strong>wordt elektrische energie omgezet in chemische energie</strong> en <strong>zou de reactie zonder spanningsbron niet doorgaan</strong>. <strong>Een elektrolyse levert dus geen elektrische energie op</strong>, ze verbruikt die juist."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een elektrolyse en in een galvanische cel gebeurt de oxidatie telkens aan de anode</strong>; alleen het teken van de polen verschilt. Bij een elektrolyse is <strong>de kathode de negatieve pool</strong>, want de spanningsbron duwt daar elektronen naartoe, en <strong>de anode de positieve pool</strong>, waar ze elektronen wegtrekt. De <strong>positieve ionen bewegen dus naar de kathode</strong> en niet naar de anode."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wat een galvanische cel en een elektrolyse gemeen hebben: <strong>er is een oxidatie en een reductie</strong> en <strong>er moeten ionen kunnen bewegen in de vloeistof</strong>. Wat ze onderscheidt: <strong>de reactie is spontaan of gedwongen</strong> en <strong>het teken van de polen is omgekeerd</strong>. Daarom kan je <strong>gesmolten keukenzout elektrolyseren en vast keukenzout niet</strong>: <strong>in de smelt kunnen de ionen bewegen, in het vaste rooster niet</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Drie toepassingen. Bij de elektrolyse van een oplossing van een koperzout <strong>slaat koper als metaal op de kathode neer</strong>. Bij de <strong>elektrolyse van water</strong> ontstaat het <strong>waterstofgas aan de kathode, want daar gebeurt de reductie</strong>, en het volume waterstofgas is dubbel dat van het zuurstofgas. En <strong>aluminium</strong> maakt men met elektrolyse omdat <strong>het aluminiumion een te zwakke oxidator is om spontaan te reageren</strong>; daarom kost het veel elektriciteit."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Galvaniseren</strong> is <strong>het aanbrengen van een metaallaagje met behulp van elektrolyse</strong>, zoals verzilveren en verkoperen. Het <strong>voorwerp</strong> hangt daarbij aan de <strong>negatieve pool</strong>, de kathode, want daar gebeurt de reductie. Bij het verzilveren <strong>lost de zilveren anode langzaam op in de oplossing</strong>, zodat de concentratie zilverionen gelijk blijft."
+    },
+    {
+     "soort": "tekst",
+     "html": "Laad je een <strong>oplaadbare batterij</strong> op, dan <strong>wordt de reactie door een elektrolyse teruggeduwd</strong>. Opladen is dus een gedwongen reactie: het kost energie, terwijl ontladen ze levert."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Oxidatie altijd aan de anode, reductie altijd aan de kathode.",
+  "Galvanische cel: anode negatief. Elektrolyse: anode positief.",
+  "Elektronen door de draad, ionen door de zoutbrug.",
+  "Bronspanning = normpotentiaal kathode min die van de anode.",
+  "De anode lost op, de kathode wordt zwaarder.",
+  "Elektrolyse is gedwongen en verbruikt energie; een cel levert ze.",
+  "Galvaniseren: het voorwerp hangt aan de kathode."
+ ]
+}

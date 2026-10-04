@@ -1,0 +1,100 @@
+{
+ "vak": "Chemie",
+ "titel": "Atoombinding en lewisstructuren",
+ "onder": "Sigma en pi, vrije elektronenparen, formele lading en de drie soorten binding.",
+ "secties": [
+  {
+   "kop": "Sigma- en pi-bindingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>sigma-binding</strong> ontstaat doordat <strong>twee orbitalen recht tegenover elkaar overlappen, langs de bindingsas</strong>. Die overlapping ligt op de lijn tussen de twee kernen en heet daarom <strong>coaxiaal</strong>; ze is <strong>radiaal symmetrisch</strong> rond die as, wat betekent dat <strong>de binding er van alle kanten rond de as hetzelfde uitziet</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daardoor <strong>kan een molecule vrij draaien rond een enkelvoudige binding</strong>: <strong>de sigma-binding blijft bij draaien even goed overlappen</strong>. Bij een pi-binding zou de overlapping juist verdwijnen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>pi-binding</strong> ontstaat uit <strong>de overlapping van twee p-orbitalen die naast elkaar staan</strong>, boven en onder het vlak van de molecule. Ze <strong>verhindert het draaien rond de binding</strong> en ze <strong>is reactiever dan een sigma-binding</strong>. Een <strong>pi-binding is ook zwakker</strong> dan een sigma-binding tussen dezelfde atomen, want de zijdelingse overlapping is kleiner. Daarom breekt bij een reactie meestal eerst de pi-binding."
+    },
+    {
+     "soort": "tekst",
+     "html": "Tussen twee atomen ligt <strong>altijd precies één</strong> sigma-binding: <strong>er kunnen geen meerdere sigma-bindingen naast elkaar liggen</strong>, want de coaxiale plaats is maar één keer vrij. Een <strong>dubbele binding</strong> heeft dus <strong>één</strong> pi-binding en een <strong>drievoudige binding bestaat niet uit drie sigma-bindingen</strong> maar uit <strong>één sigma en twee pi</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Tellen op drie moleculen: <strong>methaan CH₄</strong> heeft <strong>vier</strong> sigma-bindingen en geen pi, want het is verzadigd; <strong>etheen CH₂=CH₂</strong> heeft <strong>vijf sigma en één pi</strong>; <strong>ethyn HC≡CH</strong> heeft <strong>drie sigma en twee pi</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Komt er een pi-binding bij, dan <strong>wordt de bindingslengte korter, want de atomen worden dichter naar elkaar getrokken</strong>: een C-C is ongeveer 154 pm, een C=C 134 pm en een C≡C 120 pm. Dat verklaart ook waarom <strong>de drievoudige binding van stikstofgas zo moeilijk te breken is</strong>: <strong>er moeten één sigma- en twee pi-bindingen samen verbroken worden</strong>, en daarom kost kunstmest maken uit N₂ zoveel energie."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>alkeen</strong> is <strong>de dubbele binding reactiever dan een enkelvoudige</strong> en <strong>kunnen de twee koolstofatomen niet vrij draaien</strong>. Een alkeen is reactiever dan een alkaan omdat <strong>de elektronen van de pi-binding open liggen voor een aanval</strong>. Bij een <strong>additiereactie</strong> gaat dan ook <strong>de pi-binding</strong> open en blijft de sigma-binding tussen de koolstofatomen bestaan, zodat de molecule niet uiteenvalt. In een <strong>benzeenring liggen de pi-elektronen over de hele ring verspreid</strong>, en daardoor is benzeen stabieler dan drie losse dubbele bindingen zouden doen vermoeden."
+    }
+   ]
+  },
+  {
+   "kop": "Lewisstructuren en de octetregel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>streepje tussen twee atomen</strong> in een <strong>lewisstructuur</strong> stelt <strong>een bindend elektronenpaar</strong> voor, dus twee elektronen die samen de binding vormen. Een <strong>vrij paar</strong> tekent men als twee puntjes naast het atoom. In <strong>één elektronenpaar</strong> zitten altijd <strong>twee</strong> elektronen, bindend of vrij."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>octetregel</strong> zegt dat <strong>elk atoom streeft naar acht elektronen in zijn buitenste niveau</strong>, en <strong>de vrije elektronenparen tellen daarvoor mee</strong>: bij water heeft zuurstof twee bindende en twee vrije paren, samen acht. <strong>Waterstof</strong> is de uitzondering: dat atoom is <strong>tevreden met twee elektronen</strong>, de configuratie van helium. Een <strong>koolstofatoom in een neutrale organische molecule heeft altijd vier</strong> bindingen, enkelvoudig of niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Vrije paren tellen is een vaardigheid op zich. Het zuurstofatoom in <strong>water</strong> heeft <strong>twee</strong> vrije paren, het stikstofatoom in <strong>ammoniak</strong> <strong>één</strong>, en elk chlooratoom in <strong>Cl₂</strong> <strong>drie</strong>. Het koolstofatoom in <strong>koolstofdioxide</strong> heeft <strong>vier bindende elektronenparen, verdeeld over twee dubbele bindingen</strong>: O=C=O, en zo komt koolstof aan zijn octet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Heeft een <strong>polyatomisch ion</strong> een lading van 2−, dan <strong>zitten er twee elektronen meer in dan de neutrale atomen samen hebben</strong>. Bij het sulfaation SO₄²⁻ reken je die twee dus mee bij het verdelen over de bindingen en de vrije paren."
+    }
+   ]
+  },
+  {
+   "kop": "Donor-acceptorbinding en formele lading",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>normale atoombinding</strong> <strong>levert elk atoom één elektron voor het bindende paar</strong>. Bij een <strong>donor-acceptorbinding</strong> <strong>levert één atoom het hele elektronenpaar</strong>: het stikstofatoom van ammoniak geeft zijn vrij paar aan een H⁺, en zo ontstaat het <strong>ammoniumion NH₄⁺</strong>. Ook <strong>in het hydroxoniumion H₃O⁺ zit een donor-acceptorbinding</strong>: het zuurstofatoom van water geeft een vrij paar aan een H⁺, en daarna zijn de drie bindingen niet meer van elkaar te onderscheiden."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>formele lading</strong> van een atoom in een lewisstructuur bereken je als <strong>de valentie-elektronen min de vrije elektronen min het aantal bindingen</strong>. Voor het stikstofatoom in NH₄⁺ geeft 5 − 0 − 4 dus <strong>+1</strong>, en dat verklaart de lading van het hele ion. Het ammoniumion <strong>heeft vier bindende elektronenparen</strong> en geen vrij paar meer."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De formele lading is niet hetzelfde als het oxidatiegetal.</strong> Bij de formele lading verdeel je de bindende elektronen eerlijk over de twee atomen; bij het oxidatiegetal geef je ze helemaal aan het meest elektronegatieve atoom."
+    }
+   ]
+  },
+  {
+   "kop": "Ionbinding en metaalbinding",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>ionbinding</strong> <strong>worden elektronen volledig overgedragen</strong> en <strong>trekken de deeltjes elkaar aan door hun lading</strong>: natrium geeft zijn elektron aan chloor, en de <strong>coulombkracht</strong> tussen Na⁺ en Cl⁻ houdt het rooster samen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>metaalbinding</strong> is de binding <strong>tussen positieve metaalionen en vrij bewegende elektronen</strong>. Een <strong>metaal geleidt stroom</strong> omdat <strong>de valentie-elektronen vrij door het hele rooster bewegen</strong>. Die elektronenzee verklaart ook waarom je een metaal kunt pletten zonder dat het breekt."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Sigma is coaxiaal en draait vrij; pi overlapt zijdelings en zet vast.",
+  "Dubbel is één sigma plus één pi, drievoudig één sigma plus twee pi.",
+  "Meer bindingen betekent korter en sterker.",
+  "Octet: bindende én vrije paren tellen mee; waterstof is tevreden met twee.",
+  "Donor-acceptor: één atoom levert het hele paar (NH₄⁺, H₃O⁺).",
+  "Formele lading = valentie-elektronen − vrije elektronen − bindingen.",
+  "Ionbinding draagt elektronen over, metaalbinding heeft een elektronenzee."
+ ]
+}

@@ -1,0 +1,109 @@
+{
+ "vak": "Chemie",
+ "titel": "Wetenschappelijk onderzoek, ontwerpen en STEM",
+ "onder": "De stappen van een onderzoek, de stappen van een ontwerp, en het verschil ertussen.",
+ "secties": [
+  {
+   "kop": "Van vraag naar hypothese",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een goede <strong>onderzoeksvraag</strong> is <strong>een vraag die je met een meting kan beantwoorden</strong>: nauwkeurig afgebakend en meetbaar. Hoe los het zout op is geen onderzoeksvraag, hoeveel gram per 100 mL water wel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>hypothese</strong> is <strong>een onderbouwd vermoeden dat je kan testen</strong>: ze zegt wat je verwacht en waarom. <strong>Een hypothese die verworpen wordt, maakt het onderzoek niet waardeloos</strong>: ook dat is een antwoord op de vraag."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>stappen van een onderzoek</strong> zijn onder meer <strong>een onderzoeksvraag opstellen</strong> en <strong>de resultaten rapporteren</strong>. Wat er niet bij hoort, is het besluit vooraf vastleggen of de metingen aanpassen aan de hypothese: <strong>het besluit volgt uit de metingen, niet omgekeerd</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De proefopzet",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Wat je zelf instelt, is de <strong>onafhankelijke</strong> variabele; wat je meet, is de <strong>afhankelijke</strong> variabele; al de rest houd je <strong>constant</strong>. Onderzoek je hoe de temperatuur de reactiesnelheid beïnvloedt, dan is <strong>de temperatuur de onafhankelijke variabele, want die stel jij zelf in</strong>, en houd je bijvoorbeeld <strong>de concentratie van de oplossing</strong> en <strong>de hoeveelheid vaste stof per proef</strong> gelijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>controleproef</strong> of <strong>blanco</strong> dient <strong>om te zien wat er zonder de behandeling gebeurt</strong>. Zonder dat vergelijkingspunt weet je niet of het verschil van jouw ingreep komt; daarom hoort er bij een katalysatorproef een buis zonder katalysator."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je <strong>herhaalt een meting meerdere keren</strong> <strong>om toevallige afwijkingen te kunnen uitvlakken</strong>. Een <strong>systematische fout wijkt altijd naar dezelfde kant af</strong> en verdwijnt niet met een gemiddelde: een balans die 0,2 g te veel aangeeft, doet dat elke keer, en dan helpt kalibreren. Dat is ook het verschil tussen <strong>nauwkeurig en precies</strong>: <strong>nauwkeurig ligt dicht bij de echte waarde, precies dicht bij elkaar</strong>. Vijf metingen die mooi samen liggen maar alle vijf te hoog, zijn precies maar niet nauwkeurig."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je <strong>noteert ook wat er misliep</strong>, <strong>omdat dat de afwijking in je resultaat kan verklaren</strong>. Een <strong>uitschieter</strong> of outlier is <strong>een meting die sterk afwijkt van de andere</strong>: <strong>je mag een meting die niet in je verwachting past niet gewoon weglaten</strong>, je noteert ze en zoekt uit waar ze van komt."
+    }
+   ]
+  },
+  {
+   "kop": "Rapporteren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In een <strong>besluit</strong> hoort <strong>een antwoord op de onderzoeksvraag, met de meting erbij</strong>: het zegt of de hypothese klopt en waaruit je dat besluit. De werkwijze hoort in het verslag."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een grafiek hoort een titel en op beide assen een eenheid te krijgen</strong>, want zonder eenheid betekent een getal niets; de as met wat je instelde komt liggend, de as met wat je meette staand."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Reproduceerbaarheid</strong> betekent dat <strong>iemand anders hetzelfde resultaat moet kunnen krijgen</strong> en dat <strong>daarvoor je werkwijze nauwkeurig beschreven moet zijn</strong>. Eén keer lukken bij jou is niet genoeg, en geheimhouden kan niet. <strong>Peer review betekent dat vakgenoten het werk nakijken voor het verschijnt</strong>; dat maakt een artikel niet onfeilbaar, maar wel betrouwbaarder."
+    }
+   ]
+  },
+  {
+   "kop": "Ontwerpen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>ontwerpvraag</strong> is <strong>een vraag naar iets wat je moet maken of oplossen</strong>. Daarin zit het hele <strong>verschil tussen onderzoeken en ontwerpen</strong>: <strong>onderzoeken zoekt kennis, ontwerpen zoekt een oplossing</strong>. Ook een ontwerper meet, maar hij meet om na te gaan of zijn oplossing de criteria haalt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>criterium</strong> is <strong>een eis waaraan de oplossing moet voldoen</strong>; een <strong>randvoorwaarde</strong> is <strong>een beperking waarbinnen je moet blijven werken</strong>, zoals het budget, de tijd en de beschikbare materialen. Het filter moet minstens 90 % van het zand tegenhouden: dat is een criterium. Je hebt maar één lesuur: dat is een randvoorwaarde. Criteria zijn <strong>best meetbaar opgeschreven</strong> en je <strong>legt ze vast voor je begint te bouwen</strong>; <strong>ze achteraf versoepelen zodat je ontwerp wel slaagt, is geen ontwerpen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je <strong>splitst een ontwerpopdracht in deelproblemen</strong> <strong>omdat je elk stuk apart kan oplossen en testen</strong>: bij een waterzuivering zijn het bezinken, het filtreren en het ontsmetten elk een eigen probleem."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>prototype</strong> is <strong>een eerste bouwsel waarmee je het idee uittest</strong>; het mag ruw zijn en van karton en tape, want de bedoeling is leren wat werkt. Voldoet het niet aan de criteria, dan ga je <strong>nagaan waar het faalt en het bijsturen</strong>: ontwerpen gaat in rondes van bouwen, testen, bijsturen en opnieuw testen, dus <strong>hoort er niet één poging bij</strong>. <strong>Een ontwerp is pas af als het aan elk opgeschreven criterium voldoet.</strong> Bij een ontwerpproces horen dus <strong>de criteria en randvoorwaarden vastleggen</strong> en <strong>het prototype testen en bijsturen</strong>; een hypothese en variabelen horen bij onderzoek."
+    }
+   ]
+  },
+  {
+   "kop": "STEM en de samenleving",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>STEM</strong> staat voor <strong>science, technology, engineering en mathematics</strong>. Die vier horen samen: een technisch probleem vraagt wetenschap, techniek, ontwerp en rekenwerk tegelijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een wetenschappelijke vondst is niet meteen klaar voor gebruik</strong>: tussen het labo en een product zitten jaren van opschalen, testen en goedkeuren, en veel vondsten halen die weg nooit. <strong>Opschalen van labo naar fabriek is niet vanzelfsprekend</strong> omdat <strong>warmte en menging zich anders gedragen in het groot</strong>: in een reactor van duizend liter raak je de warmte veel moeilijker kwijt, al blijft de reactievergelijking natuurlijk dezelfde. En <strong>de kostprijs van een proces kan bepalen of een reactie in de industrie gebruikt wordt</strong>: een reactie die chemisch mooi werkt maar te duur is, haalt de fabriek niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij het beoordelen van een nieuwe chemische toepassing horen vragen als <strong>wat gebeurt er met de stof na gebruik</strong> en <strong>wie draagt het risico en wie het voordeel</strong>. Die vragen lossen de cijfers alleen niet op. Een <strong>risicoafweging</strong> hoort erbij <strong>omdat het voordeel moet opwegen tegen wat het kan kosten</strong>: geen enkele toepassing is volledig zonder risico, en de vraag is of het voordeel groot genoeg is en wie het risico draagt."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een onderzoeksvraag is meetbaar, een hypothese is een onderbouwd vermoeden.",
+  "Onafhankelijk stel je in, afhankelijk meet je, de rest houd je constant.",
+  "Een controleproef laat zien wat er zonder de ingreep gebeurt.",
+  "Herhalen vlakt toevallige fouten uit; een systematische fout niet.",
+  "Nauwkeurig is dicht bij de echte waarde, precies is dicht bij elkaar.",
+  "Criteria zijn eisen, randvoorwaarden zijn beperkingen.",
+  "Onderzoeken wil weten, ontwerpen wil oplossen; een prototype mag mislukken."
+ ]
+}

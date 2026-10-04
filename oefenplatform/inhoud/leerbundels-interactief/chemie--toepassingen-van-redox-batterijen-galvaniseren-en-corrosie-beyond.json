@@ -1,0 +1,88 @@
+{
+ "vak": "Chemie",
+ "titel": "Toepassingen van redox: batterijen, galvaniseren en corrosie",
+ "onder": "Wat er in een batterij gebeurt, hoe je een laagje metaal aanbrengt, en hoe roest werkt.",
+ "secties": [
+  {
+   "kop": "Batterijen en brandstofcellen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een batterij levert spanning omdat <strong>er binnenin een spontane redoxreactie verloopt</strong>; het verschil in normpotentiaal tussen de twee koppels is <strong>de bronspanning in volt</strong>, en hoeveel lading er in zit staat er apart bij in milliampère-uur. De <strong>anode van een batterij</strong> is <strong>de negatieve</strong> pool, waar de oxidatie gebeurt. Een batterij <strong>levert gelijkspanning</strong>, want de oxidatie gebeurt altijd aan dezelfde pool; het stopcontact levert wisselspanning. Ze <strong>raakt leeg</strong> omdat <strong>de stoffen die de reactie voeden, opgebruikt zijn</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een batterij mag je niet kortsluiten</strong>, want <strong>de reactie loopt dan heel snel en de batterij wordt gevaarlijk warm</strong>: zonder weerstand in de kring beperkt niets de stroom, en bij een lithiumbatterij kan dat brand geven. <strong>Oude batterijen horen bij het klein gevaarlijk afval</strong> omdat <strong>ze zware metalen bevatten die in het milieu terechtkomen</strong>; bij de inzameling worden die metalen teruggewonnen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>oplaadbare</strong> batterij of <strong>accu</strong> kan je opnieuw opladen: <strong>de reactie wordt door een elektrolyse teruggeduwd</strong> en de stoffen van het begin worden opnieuw gevormd. Op lange termijn is ze goedkoper omdat je <strong>de reactie honderden keren kan terugduwen met een lader</strong>, al gaat elke cyclus een beetje slechter. <strong>Een gewone alkalinebatterij kan je niet veilig opladen</strong>: haar reactie is niet goed omkeerbaar, er ontstaat gas, en dan kan de cel openbarsten of lekken."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>brandstofcel wordt de brandstof voortdurend aangevoerd</strong>, en daarom raakt ze niet leeg. Ze <strong>zet chemische energie direct om in elektrische energie</strong> en <strong>blijft werken zolang er brandstof aangevoerd wordt</strong>: het is een galvanische cel met een open toevoer, die je dus bijvult in plaats van oplaadt. Aan een waterstofbrandstofcel voedt men <strong>waterstof en zuurstof</strong> aan: het waterstofgas wordt aan de anode geoxideerd en het zuurstofgas aan de kathode gereduceerd, en het <strong>reactieproduct is water</strong>, dus geen broeikasgas."
+    }
+   ]
+  },
+  {
+   "kop": "Galvaniseren in de praktijk",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>galvaniseren</strong> <strong>hangt het voorwerp aan de kathode</strong> en <strong>wordt er een laagje metaal op het voorwerp neergeslagen</strong>, want daar gebeurt de reductie. Het aanbrengen van een dun laagje zilver heet <strong>verzilveren</strong>: het voorwerp hangt in een oplossing van een zilverzout en de zilveren anode lost langzaam op. Bij het <strong>verkoperen</strong> <strong>levert de anode koperionen, doordat ze zelf oplost</strong>, zodat de concentratie in het bad gelijk blijft."
+    },
+    {
+     "soort": "tekst",
+     "html": "Men verguldt of verzilvert juwelen in plaats van ze volledig uit dat metaal te maken omdat <strong>een dun laagje volstaat voor het uitzicht en veel minder kost</strong>; de kern mag van een goedkoper metaal zijn. <strong>De dikte van het laagje ligt daarbij niet vast</strong>: hoe langer en hoe sterker de stroom, hoe meer metaal er neerslaat, want dat volgt rechtstreeks uit het aantal elektronen dat erdoor gaat."
+    }
+   ]
+  },
+  {
+   "kop": "Corrosie en roest",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Corrosie</strong> is <strong>het aantasten van een metaal door een redoxreactie met zijn omgeving</strong>: het metaal wordt geoxideerd, meestal door zuurstof uit de lucht. Om te roesten heeft ijzer <strong>zuurstof en water</strong> nodig; in droge lucht of onder water zonder zuurstof roest het bijna niet. Bij het roesten <strong>wordt het ijzer geoxideerd tot ionen</strong> en <strong>wordt het zuurstofgas gereduceerd</strong>: ijzer speelt dus de rol van <strong>reductor</strong> en water is enkel het midden waarin de ionen kunnen bewegen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een auto roest sneller aan de kust of in de winter</strong> omdat <strong>zout het water geleidend maakt en de redoxreactie versnelt</strong>: de ionen laten de lading door het laagje water stromen, zodat de oxidatie op de ene plaats en de reductie op de andere kan gebeuren."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Roest beschermt het metaal eronder niet</strong>: hij is poreus en laat water en lucht door. Bij <strong>aluminium</strong> is dat anders — <strong>er vormt zich een dicht laagje oxide dat de rest afschermt</strong> — en daarom corrodeert aluminium in de praktijk zo weinig, al is het juist een sterke reductor. Algemeen geldt: <strong>een metaal dat laag in de tabel van de normpotentialen staat, corrodeert juist makkelijker</strong>, want laag betekent een sterke reductor; goud en platina staan hoog en corroderen bijna niet."
+    }
+   ]
+  },
+  {
+   "kop": "Beschermen tegen corrosie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De eenvoudigste bescherming is een barrière. <strong>Een laag verf beschermt ijzer doordat ze het van lucht en water afsluit</strong>, maar komt er een kras in, dan begint het roesten daar. <strong>Vet of olie op een gereedschap</strong> werkt net zo: <strong>het laagje houdt water en zuurstof van het metaal weg</strong>, en beschermt niet meer zodra het weg is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>laagje zink</strong> beschermt ijzer ook nog <strong>als er een kras in zit</strong>, want <strong>zink is de sterkere reductor en wordt in plaats van het ijzer aangetast</strong>. Dat aanbrengen van zink op staal heet <strong>verzinken</strong> of galvaniseren, door onderdompelen in gesmolten zink of met elektrolyse; dakgoten en schroeven zijn vaak zo behandeld. Bij een <strong>conservenblik roest het juist op een kras in het tinlaagje</strong>, want <strong>tin is een zwakkere reductor, dus wordt het ijzer aangetast</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Kathodische bescherming</strong> is <strong>de bescherming waarbij je het metaal aan de negatieve pool legt</strong>: als kathode kan het geen elektronen meer afstaan. <strong>Dat kan ook zonder spanningsbron, met een onedeler metaal</strong>, en dan heet dat een <strong>verteringselektrode</strong>. Zo'n elektrode <strong>is van een metaal dat een sterkere reductor is</strong> en <strong>wordt opgebruikt en moet af en toe vervangen worden</strong>; daarom hoort ze op het onderhoudsschema. Men hangt <strong>magnesiumblokken aan een stalen scheepsromp</strong> omdat <strong>het magnesium opgegeten wordt in plaats van het staal</strong>, en een <strong>boiler met een anode van magnesium</strong> gaat langer mee omdat <strong>de anode aangetast wordt in plaats van de stalen wand</strong>. Het <strong>magnesium</strong> en zink zijn daarvoor de gebruikelijke metalen; welk van de twee hangt af van het water of de grond errond."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee manieren die werken, samengevat: <strong>een laagje zink erop brengen</strong> en <strong>een verteringselektrode van magnesium aansluiten</strong>. Aan de positieve pool zou het ijzer juist de anode worden en dus sneller oxideren."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een batterij is een spontane redoxreactie; leeg betekent de stoffen zijn op.",
+  "Een accu laad je op met een elektrolyse; een alkalinebatterij niet.",
+  "Een brandstofcel wordt bijgevuld en geeft enkel water.",
+  "Galvaniseren: het voorwerp aan de kathode, de anode lost op.",
+  "Roesten vraagt zuurstof én water; zout versnelt het.",
+  "Zink beschermt ook door een kras heen, tin niet.",
+  "Een verteringselektrode van magnesium wordt opgegeten in plaats van het staal."
+ ]
+}

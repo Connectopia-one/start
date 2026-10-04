@@ -1,0 +1,104 @@
+{
+ "vak": "Chemie",
+ "titel": "Atoombouw, orbitalen en het periodiek systeem",
+ "onder": "Van kwantumgetal tot configuratie, en hoe het systeem dat allemaal samenvat.",
+ "secties": [
+  {
+   "kop": "Orbitalen en kwantumgetallen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>orbitaal</strong> is <strong>het gebied waar een elektron zich met grote kans bevindt</strong>. In het <strong>model van Schrödinger</strong> ligt de plaats van een elektron niet vast: een orbitaal is dus een <strong>kansgebied, geen baan</strong>. Twee modellen gaan verder dan de schillen van Bohr: het <strong>model van Bohr-Sommerfeld, met subniveaus</strong>, en het <strong>model van Schrödinger, met orbitalen</strong> en de golfmechanica."
+    },
+    {
+     "soort": "tekst",
+     "html": "In één orbitaal passen <strong>twee elektronen, met tegengestelde spin</strong>. Dat volgt uit het <strong>uitsluitingsprincipe van Pauli</strong>: <strong>twee elektronen in hetzelfde atoom kunnen nooit alle vier hun kwantumgetallen gelijk hebben</strong>, en vaak is de spin het enige verschil."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Vier</strong> kwantumgetallen beschrijven één elektron volledig. Het <strong>hoofdkwantumgetal n</strong> geeft <strong>het hoofdniveau of de schil waarin het elektron zit</strong>; hoe groter n, hoe verder van de kern en hoe hoger de energie. Het <strong>nevenkwantumgetal</strong> <strong>bepaalt of een elektron in een s-, p-, d- of f-orbitaal zit</strong>, dus het subniveau, en elk subniveau heeft zijn eigen vorm: <strong>s is bolvormig, p heeft twee lobben</strong>. Het <strong>magnetisch kwantumgetal</strong> zegt <strong>in welk orbitaal van dat subniveau</strong> het elektron zit, en dus <strong>niet hoeveel elektronen er in een subniveau passen</strong>. Het <strong>spinkwantumgetal</strong> kan <strong>+½ en −½</strong> zijn, in de hokjesvoorstelling een pijl omhoog en een pijl omlaag."
+    },
+    {
+     "soort": "tekst",
+     "html": "Hoeveel elektronen passen er in een subniveau? Een <strong>p-subniveau</strong> heeft drie orbitalen en dus <strong>zes</strong> plaatsen, s heeft er 2, een volledig <strong>d-subniveau</strong> heeft vijf orbitalen en dus <strong>tien</strong> plaatsen, en f heeft er 14."
+    }
+   ]
+  },
+  {
+   "kop": "De vulregels en de configuratie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>regel van Hund</strong> zegt dat <strong>orbitalen van dezelfde energie eerst elk met één elektron vullen</strong>. Pas als elk orbitaal van dat subniveau één elektron heeft, komt het tweede erbij, en die eerste elektronen hebben dezelfde spin."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>diagonaalregel</strong> dient <strong>om de volgorde te vinden waarin de subniveaus gevuld worden</strong>. Daarom komt <strong>4s</strong> vóór <strong>3d</strong>: de diagonaal loopt niet gewoon van laag naar hoog hoofdniveau, en de configuratie van calcium eindigt op 4s²."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een voorbeeld: een <strong>zuurstofatoom met acht elektronen</strong> heeft de configuratie <strong>1s² 2s² 2p⁴</strong>, dus zes valentie-elektronen en twee te kort voor een octet. In de <strong>verkorte notatie</strong> <strong>vervang je het begin van de configuratie door het symbool van het vorige edelgas</strong>: kalium wordt <strong>[Ar] 4s¹</strong>. De <strong>valentie-elektronen</strong> zijn die van het hoogste hoofdniveau, dus een atoom met <strong>[Ne] 3s² 3p³</strong> heeft er <strong>vijf</strong>: dat is fosfor."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>hokjesvoorstelling</strong> toont <strong>hoe de elektronen over de orbitalen verdeeld zijn, met hun spin</strong>; de exponentennotatie doet dat niet. Zo zie je of de regel van Hund gevolgd is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee uitzonderingen horen bij het d-blok. De configuratie van <strong>chroom</strong> eindigt op <strong>3d⁵ 4s¹</strong> en niet op 3d⁴ 4s², want <strong>een halfgevuld d-subniveau is stabieler dan een gewone vulling</strong>. Bij chroom en koper schuift er daarom één elektron van 4s naar 3d."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ook een ion heeft een configuratie. <strong>Na⁺</strong> <strong>heeft tien elektronen</strong> en <strong>heeft de configuratie van neon</strong>: natrium staat één elektron af en wat overblijft is 1s² 2s² 2p⁶."
+    }
+   ]
+  },
+  {
+   "kop": "Groepen, perioden en blokken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Alle elementen van dezelfde <strong>groep</strong> hebben <strong>het aantal elektronen in het buitenste hoofdniveau</strong> gemeen, en daarom reageren ze op dezelfde manier. Het <strong>groepsnummer van een hoofdgroepelement heeft dus wél alles te maken met het aantal valentie-elektronen</strong>: groep 1 heeft er één, groep 2 twee, groep 16 zes en groep 17 zeven."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>periode is een rij in het systeem</strong> en <strong>het nummer geeft het hoogste hoofdniveau</strong>. Een groep is de kolom. Drie groepsnamen om te kennen: <strong>groep 17 heet de halogenen</strong> (fluor, chloor, broom en jood, met zeven valentie-elektronen), <strong>groep 1 met lithium, natrium en kalium heet de alkalimetalen</strong>, die heftig met water reageren en een hydroxide vormen, en <strong>groep 16 met zuurstof, zwavel en selenium heet de zuurstofgroep</strong>, die graag twee elektronen opneemt tot een ion met lading 2−."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het blok draagt de naam van het subniveau dat als laatste gevuld wordt. De <strong>overgangselementen</strong> of nevengroepelementen staan <strong>in het d-blok</strong>, waarvan <strong>een volledige rij tien elementen</strong> heeft. De <strong>zeldzame aarden staan in het f-blok</strong>, de twee rijen die onder het systeem apart staan; ze zitten in magneten en in de elektronica van een gsm. Zit het buitenste elektron in een p-orbitaal, dan staat het element in het <strong>p-blok</strong>, dus groep 13 tot 18. Een atoom met <strong>[Ar] 4s² 3d¹⁰ 4p⁵</strong> staat <strong>in groep 17, bij de halogenen</strong>: 2 plus 5 valentie-elektronen, dus broom."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>edelgassen</strong> zijn zo weinig reactief omdat <strong>hun buitenste hoofdniveau helemaal volgevuld is</strong>: acht valentie-elektronen, en dat is de edelgasconfiguratie waar de <strong>octetregel</strong> naar verwijst. <strong>Helium volgt die regel niet met acht</strong> maar met twee, want zijn enige hoofdniveau is dan al vol. Uit het groepsnummer volgt ook het verwachte oxidatiegetal: bij <strong>groep 2</strong> is dat <strong>+II</strong>, dus Mg²⁺."
+    }
+   ]
+  },
+  {
+   "kop": "Trends in het systeem",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De atoomradius van de hoofdgroepelementen neemt toe naar beneden in een groep</strong>, want elk nieuw hoofdniveau ligt verder van de kern: kalium is groter dan natrium. Ga je <strong>in een periode naar rechts</strong>, dan <strong>wordt hij kleiner, want de kern trekt sterker aan</strong>: er komt elke keer een proton bij terwijl de elektronen in hetzelfde hoofdniveau blijven."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>positief ion</strong> <strong>is kleiner dan het atoom waaruit het ontstond</strong> en <strong>heeft minder elektronen dan protonen</strong>: bij het afstaan van een elektron verdwijnt vaak een heel hoofdniveau. Een <strong>negatief ion is groter</strong>, want <strong>de extra elektronen stoten elkaar af en de kernlading blijft gelijk</strong>: Cl⁻ is duidelijk groter dan het chlooratoom."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Fluor</strong> heeft <strong>de hoogste elektronegatieve waarde</strong> en trekt dus het hardst aan de elektronen van een binding; naar links en naar beneden wordt die waarde kleiner. Het sterkste <strong>metaalkarakter</strong> vind je <strong>linksonder in het periodiek systeem</strong>, want een metaal staat zijn elektronen makkelijk af en dat gaat het best als ze ver van de kern zitten en er maar één of twee zijn."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een orbitaal is een kansgebied; er passen twee elektronen met tegengestelde spin.",
+  "Vier kwantumgetallen: hoofdniveau, subniveau, magnetisch niveau, spin.",
+  "s 2, p 6, d 10, f 14 elektronen.",
+  "Hund: eerst elk orbitaal één elektron. Diagonaalregel: 4s voor 3d.",
+  "Groep is de kolom en geeft de valentie-elektronen; periode is de rij.",
+  "Naar rechts kleiner, naar beneden groter; fluor is het meest elektronegatief.",
+  "Positief ion kleiner dan zijn atoom, negatief ion groter."
+ ]
+}

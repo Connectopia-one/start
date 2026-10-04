@@ -1,0 +1,117 @@
+{
+ "vak": "Chemie",
+ "titel": "Organische stoffen: stofklassen en naamgeving",
+ "onder": "De functionele groepen, de IUPAC-namen en de voorstellingen van een molecule.",
+ "secties": [
+  {
+   "kop": "Koolwaterstoffen: verzadigd en onverzadigd",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een keten is <strong>verzadigd</strong> als er <strong>enkel enkelvoudige bindingen tussen de koolstofatomen</strong> zitten: er kan geen waterstof meer bij. Een <strong>alkaan</strong> is verzadigd, en de <strong>brutoformule van een alkaan met n koolstofatomen is CnH2n+2</strong>: butaan heeft vier koolstofatomen en dus tien waterstofatomen, C₄H₁₀."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>alkeen heeft minstens één dubbele binding</strong>, een C=C, en de formule CnH2n. Een <strong>alkyn heeft een drievoudige binding</strong>, met de uitgang <strong>-yn</strong>, zoals <strong>ethyn of acetyleen</strong> in de snijbrander. Een <strong>alkeen heeft dus geen drievoudige binding</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>aromatische</strong> molecule, ook een <strong>aromaat</strong>, heeft <strong>een benzeenring</strong> erin. <strong>Benzeen is C₆H₆</strong>: <strong>de ring heeft zes koolstofatomen</strong>, elk met één waterstofatoom, en <strong>de elektronen zijn over de hele ring verdeeld</strong>. Daardoor reageert benzeen anders dan een gewoon alkeen. <strong>Cyclisch is niet hetzelfde als aromatisch</strong>: cyclohexaan is een ring zonder dubbele bindingen en dus niet aromatisch."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een keten kan <strong>vertakt</strong> of onvertakt zijn. <strong>2-methylbutaan</strong> is <strong>vertakt</strong> én <strong>verzadigd</strong>: de methylgroep aan het tweede koolstofatoom maakt de vertakking, en er zit geen dubbele binding in. Dat we een onvertakte keten <strong>lineair</strong> noemen, is eigenlijk een afspraak: <strong>een onvertakte keten is in werkelijkheid een zigzag, geen rechte lijn</strong>, want de bindingshoek rond koolstof is ongeveer 109°."
+    }
+   ]
+  },
+  {
+   "kop": "De functionele groepen, klasse per klasse",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij de <strong>alcoholen</strong> hoort <strong>een OH-groep aan een koolstofatoom</strong>, de <strong>hydroxylgroep</strong>: ethaan wordt <strong>ethanol</strong>. Het aantal OH-groepen is de waardigheid: een <strong>tweewaardige alcohol heeft twee OH-groepen</strong>, zoals <strong>ethaandiol</strong>, waar de uitgang <strong>-diol</strong> zegt dat <strong>er twee OH-groepen in de molecule zitten</strong>, en <strong>propaantriol</strong> heeft er drie."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>aldehyden</strong> en de <strong>ketonen</strong> hebben beide een <strong>C=O-groep</strong>: bij een aldehyde staat die <strong>aan het uiteinde</strong>, bij een keton <strong>ertussen</strong>. Een aldehyde eindigt op <strong>-al</strong>, een keton op <strong>-on</strong>, een alcohol op <strong>-ol</strong>. <strong>Propanon</strong> is het eenvoudigste keton."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>carbonzuur</strong> heeft de <strong>carboxylgroep COOH</strong>, zoals azijnzuur; het is dat waterstofatoom dat als H⁺ kan weggaan. Een <strong>tweewaardig carbonzuur heeft twee COOH-groepen</strong>, zoals <strong>ethaandizuur of oxaalzuur</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>ether</strong> heeft <strong>een zuurstofatoom tussen twee koolstofketens, zonder dubbele binding</strong>: CH₃-O-CH₃. Er is dus geen OH-groep, en daarom vormt een ether geen waterstofbruggen met zichzelf."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>ester</strong> krijgt een naam uit twee delen, met <strong>de alcoholkant vooraan en de zuurkant achteraan</strong> met de uitgang <strong>-oaat</strong>: <strong>ethylethanoaat</strong> en <strong>methylpropanoaat</strong> zijn esters, en in <strong>methylethanoaat</strong> staat de methylgroep van de alcohol vooraan."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>amine</strong> herken je <strong>aan een stikstofatoom met waterstof eraan</strong>: CH₃-NH₂ is methaanamine. Zit er naast de stikstof ook een C=O, dan is het een <strong>amide</strong>: dat is wat je krijgt als je <strong>de OH van een carbonzuur vervangt door NH₂</strong>. In een eiwit heet die verbinding een <strong>peptidebinding</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>halogeenalkaan</strong> is <strong>minstens één waterstofatoom vervangen door F, Cl, Br of I</strong>: <strong>chloormethaan</strong> en <strong>broomethaan</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Primair, secundair en tertiair",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>alcohol is secundair</strong> als <strong>het koolstofatoom met de OH-groep aan twee andere koolstofatomen zit</strong>. Je kijkt dus naar <strong>de buren van dat ene koolstofatoom</strong>, niet naar het nummer in de naam: propaan-2-ol is secundair."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>amine</strong> tel je iets anders: <strong>het aantal koolstofketens aan het stikstofatoom</strong>. Eén bij primair, twee bij secundair, drie bij tertiair. Een <strong>primair amine heeft dus niet drie ketens</strong> aan de stikstof."
+    }
+   ]
+  },
+  {
+   "kop": "Namen en nummers",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>stamwoord</strong> zegt hoeveel koolstofatomen <strong>de hoofdketen</strong> heeft: <strong>meth-</strong> 1, <strong>eth-</strong> 2, <strong>prop-</strong> 3, <strong>but-</strong> 4, <strong>pent-</strong> 5, <strong>hex-</strong> 6. In <strong>pentaan</strong> zitten er dus <strong>vijf</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een cijfer in de naam <strong>zegt bij welk koolstofatoom de functionele groep of de dubbele binding zit</strong>. In <strong>but-1-een</strong> zit de dubbele binding vooraan, in <strong>but-2-een</strong> in het midden: dat zijn twee verschillende stoffen. <strong>Bij het nummeren van de hoofdketen begin je aan de kant die de functionele groep het laagste nummer geeft</strong>, dus is het propaan-1-ol en niet propaan-3-ol."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee voorbeelden om zelf na te rekenen. <strong>CH₃-CH₂-CHO</strong> heet <strong>propanal</strong>: de CHO-groep aan het uiteinde maakt er een aldehyde van, met drie koolstofatomen. <strong>CH₃-CH₂-COOH</strong> heet <strong>propaanzuur</strong>: je telt het koolstofatoom van de COOH-groep mee."
+    }
+   ]
+  },
+  {
+   "kop": "Voorstellingen en gebruiksnamen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>skeletnotatie</strong> laat <strong>de koolstofatomen en hun waterstofatomen</strong> weg: elke hoek en elk uiteinde van de lijn is een koolstofatoom, en de waterstof wordt niet getekend. Functionele groepen schrijf je wel uit. In een <strong>beknopte structuurformule</strong> staan <strong>de waterstofatomen samengenomen per koolstofatoom</strong>, zoals CH₃-CH₂-OH; <strong>uitgebreid</strong> teken je elke C-H-binding apart. Het <strong>bolstaafmodel</strong> zegt het meest over de <strong>ruimtelijke bouw</strong>, want daarin zie je ook de hoeken tussen de bindingen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Enkele namen uit het dagelijks leven. <strong>Ethanol</strong> (CH₃-CH₂-OH) is de <strong>drankalcohol</strong>; brandspiritus is ethanol die ondrinkbaar gemaakt is. <strong>Azijnzuur</strong> heet volgens IUPAC <strong>ethaanzuur</strong>, mierenzuur is methaanzuur en boterzuur is butaanzuur. <strong>Glycerol</strong> is <strong>propaantriol</strong>, met <strong>drie</strong> OH-groepen, en <strong>glycol</strong> is <strong>ethaandiol</strong>: beide dus <strong>alcoholen</strong>. <strong>Aceton</strong> is <strong>propanon</strong>, dus een <strong>keton</strong>, en <strong>formol is een oplossing van methanal in water</strong>, dat gebruikt werd om preparaten te bewaren."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Aardgas bestaat hoofdzakelijk uit methaan</strong>, CH₄, het kortste alkaan. <strong>Chloroform</strong> heet volgens IUPAC <strong>trichloormethaan</strong>: drie van de vier waterstofatomen van methaan zijn vervangen door chloor, CHCl₃."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Alkaan CnH2n+2, alkeen een dubbele binding, alkyn een drievoudige.",
+  "OH is alcohol, C=O aan het eind aldehyde, ertussen keton, COOH zuur.",
+  "Ether: zuurstof tussen twee ketens. Ester: alcoholkant vooraan.",
+  "Amine: stikstof met waterstof. Amide: stikstof plus C=O.",
+  "Nummer zo dat de functionele groep het laagste nummer krijgt.",
+  "Alcohol: tel de buren van de koolstof. Amine: tel de ketens aan N.",
+  "Benzeen C₆H₆ is aromatisch; cyclohexaan is enkel cyclisch."
+ ]
+}

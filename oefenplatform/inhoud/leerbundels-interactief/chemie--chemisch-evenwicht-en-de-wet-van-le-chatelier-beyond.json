@@ -1,0 +1,79 @@
+{
+ "vak": "Chemie",
+ "titel": "Chemisch evenwicht en de wet van Le Chatelier",
+ "onder": "Twee reacties die even snel lopen, en wat er gebeurt als je eraan komt.",
+ "secties": [
+  {
+   "kop": "Wat een evenwicht is",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>chemisch evenwicht</strong> is <strong>dynamisch</strong>: <strong>de heen- en de terugreactie blijven doorgaan, even snel</strong>. Van buitenaf lijkt er niets te gebeuren, want <strong>de concentraties blijven constant</strong> en <strong>er zijn nog van alle stoffen aanwezig</strong>. Bij een aflopende reactie is minstens één beginstof op. Je schrijft een evenwicht met een <strong>dubbele pijl ⇌</strong>, twee pijlen in tegengestelde richting; een enkele pijl staat voor een aflopende reactie. De reactie die <strong>van rechts naar links</strong> verloopt, heet de <strong>terugreactie</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op het ogenblik dat het evenwicht bereikt wordt, <strong>is de snelheid van de heenreactie gelijk aan die van de terugreactie</strong> en <strong>veranderen de concentraties vanaf dan niet meer</strong>. In het begin is de heenreactie het snelst; terwijl er product bijkomt, wordt de terugreactie sneller, tot de twee gelijk zijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De concentraties van reagentia en producten zijn daarbij niet gelijk aan elkaar</strong>: ze zijn constant. Vaak ligt het evenwicht sterk aan één kant. In het labo zie je dat een reactie een evenwicht is doordat <strong>er van elke beginstof iets overblijft, hoelang je ook wacht</strong>, of doordat het mengsel de andere kant op gaat als je een product toevoegt. <strong>Een mengsel waarin niets gebeurt, is daarom nog geen chemisch evenwicht</strong>: misschien is er geen reactie mogelijk of is de drempel te hoog. Een evenwicht kan je ook <strong>van twee kanten bereiken: vanuit de reagentia of vanuit de producten</strong>, en je komt bij dezelfde verhouding uit. Blijft in een evenwicht van een gekleurde met een kleurloze stof de kleur gelijk, dan <strong>verandert de verhouding tussen de twee stoffen niet meer</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De evenwichtsconstante",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Voor het evenwicht <strong>A + 2 B ⇌ C</strong> is <strong>K gelijk aan [C] gedeeld door [A] maal [B]²</strong>: de producten komen in de teller, de reagentia in de noemer, en <strong>de coëfficiënten staan als exponent</strong>. Bij N₂ + 3 H₂ ⇌ 2 NH₃ wordt dat [NH₃]² gedeeld door [N₂] maal [H₂]³."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>evenwichtsconstante</strong> <strong>verandert enkel met de temperatuur</strong> en <strong>heeft de producten in de teller</strong>. Is ze <strong>heel groot</strong>, dan <strong>ligt het evenwicht sterk aan de kant van de producten</strong>; is ze <strong>gelijk aan 1</strong>, dan <strong>zijn teller en noemer ongeveer even groot</strong> en ligt het evenwicht in het midden. Een K van duizend ligt rechts, een K van een duizendste links. <strong>Een hoge K zegt niets over de snelheid</strong>, want <strong>K gaat over de verhouding in het evenwicht, niet over de weg ernaartoe</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>reactiequotiënt Q</strong> heeft dezelfde vorm als K, maar met de concentraties van dat ogenblik. Is <strong>Q kleiner dan K</strong>, dan <strong>verloopt de reactie verder naar rechts, naar meer product</strong>, tot Q gelijk is aan K."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>omzettingsgraad</strong> is <strong>het deel van een beginstof dat werkelijk gereageerd heeft</strong>: heeft 0,2 mol van 1 mol gereageerd, dan is dat 20 procent. Bij een evenwicht blijft die altijd onder de honderd procent. Het <strong>rendement</strong> is <strong>de werkelijke opbrengst gedeeld door de theoretische opbrengst</strong>: 8 gram van de 10 mogelijke is 80 procent."
+    }
+   ]
+  },
+  {
+   "kop": "De wet van Le Chatelier-Van 't Hoff",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>wet van Le Chatelier-Van 't Hoff</strong> zegt dat <strong>een verstoord evenwicht verschuift zo dat het de verstoring tegenwerkt</strong>. Voeg je iets toe, dan wordt het deels weggewerkt; neem je iets weg, dan wordt het deels bijgemaakt. Bij een verstoring <strong>zijn de snelheden van heen- en terugreactie even tijdelijk verschillend</strong> en <strong>zijn de twee na een tijd weer gelijk</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Extra reagens</strong> toevoegen stuurt het evenwicht <strong>naar rechts, naar meer producten</strong>. Een <strong>product wegnemen</strong> stuurt het ook <strong>naar rechts</strong>. Daarom <strong>haalt men in de industrie het product voortdurend uit het mengsel</strong>: <strong>zo blijft het evenwicht naar rechts werken en reageert er meer weg</strong>, want Q blijft kleiner dan K."
+    },
+    {
+     "soort": "tekst",
+     "html": "Druk werkt enkel bij gassen. Maak je <strong>het volume van een gasevenwicht kleiner</strong>, dan gaat het <strong>naar de kant met het minste aantal mol gas</strong>, want minder volume betekent meer druk. <strong>Verlaag je de druk</strong>, dan gaat het <strong>naar meer gas</strong>. In <strong>N₂ + 3 H₂ ⇌ 2 NH₃</strong> <strong>neemt de hoeveelheid ammoniak bij hogere druk toe, want rechts staan minder mol gas</strong>: links vier, rechts twee, en daarom werkt de industrie bij hoge druk. <strong>Een evenwicht met links en rechts evenveel mol gas verschuift niet door een drukverandering.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De temperatuur is bijzonder: zij is <strong>de enige verstoring die de waarde van de evenwichtsconstante verandert</strong>. Bij een temperatuurverandering <strong>krijgt de evenwichtsconstante een andere waarde</strong> én <strong>verschuift het evenwicht naar één kant</strong>. Verwarm je een <strong>exo-energetisch evenwicht</strong>, dan gaat het <strong>naar links, want de endo-energetische richting werkt de warmte weg</strong>. Wordt een gekleurd evenwicht lichter bij verwarmen, dan is <strong>de reactie naar de kleurloze kant endo-energetisch</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>katalysator verschuift het evenwicht niet</strong> naar de producten: hij versnelt heen- en terugreactie evenveel, dus <strong>wordt het evenwicht sneller bereikt, op dezelfde plaats</strong>. <strong>Bij het toevoegen van een reagens verandert de evenwichtsconstante evenmin</strong>: het evenwicht verschuift juist om K weer te laten uitkomen. Samengevat: <strong>de ligging van een evenwicht kan je met druk, concentratie en temperatuur beïnvloeden</strong>, en de verstoringen die een gasevenwicht doen verschuiven zijn onder meer <strong>het volume van het vat verkleinen</strong> en <strong>de temperatuur verhogen</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Dynamisch evenwicht: heen en terug lopen even snel, de concentraties staan stil.",
+  "K: producten boven, reagentia onder, coëfficiënten als exponent.",
+  "Grote K betekent veel product, maar zegt niets over de snelheid.",
+  "Q kleiner dan K: de reactie loopt verder naar rechts.",
+  "Le Chatelier: het evenwicht werkt elke verstoring tegen.",
+  "Meer druk stuurt naar de kant met het minste mol gas.",
+  "Alleen de temperatuur verandert K; een katalysator verschuift niets."
+ ]
+}

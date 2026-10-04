@@ -1,0 +1,92 @@
+{
+ "vak": "Chemie",
+ "titel": "Zuren en basen en het doorgeven van protonen",
+ "onder": "Het model van Brønsted-Lowry: geconjugeerde paren, amfolyten, sterk en zwak.",
+ "secties": [
+  {
+   "kop": "Zuur en base volgens Brønsted-Lowry",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>zuur volgens Brønsted-Lowry</strong> is <strong>een stof die een proton kan afstaan</strong>; een proton is hier een H⁺-ion. Een <strong>base</strong> is het omgekeerde: ze neemt dat proton op. <strong>Een base moet dus niet altijd een hydroxidegroep bevatten</strong>: ammoniak heeft geen OH en is toch een base."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>protolysereactie</strong> <strong>gaat een proton van het zuur naar de base</strong>. Daarom heeft een protolyse altijd een zuur én een base nodig, en <strong>kan een stof alleen zuur zijn als er een base aanwezig is die het proton opneemt</strong>: zuiver zwavelzuur zonder water ioniseert niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Neemt water een proton op, dan ontstaat het <strong>hydroxoniumion H₃O⁺</strong>. Daarom schrijft men de ionisatie van een zuur in water met het hydroxoniumion en niet met een los H⁺. Het <strong>hydroxoniumion kan zelf geen base zijn</strong>: het heeft al een proton te veel en staat het liever af, en het is dus het sterkste zuur dat in water kan bestaan."
+    }
+   ]
+  },
+  {
+   "kop": "Geconjugeerde paren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Twee deeltjes die <strong>precies één proton van elkaar verschillen</strong>, vormen een <strong>geconjugeerd paar</strong> of <strong>zuurbasekoppel</strong>. Het deeltje met het extra proton is het zuur, het andere de base, en elke protolyse heeft twee zulke paren. <strong>Een zuur en zijn geconjugeerde base verschillen dus precies één proton</strong>, zoals azijnzuur CH₃COOH en het acetaation CH₃COO⁻."
+    },
+    {
+     "soort": "tekst",
+     "html": "Oefen het op drie voorbeelden. De geconjugeerde base van <strong>waterstofchloride HCl</strong> is <strong>het chloride-ion</strong>. Het geconjugeerde zuur van <strong>ammoniak NH₃</strong> is <strong>het ammoniumion</strong>, dat het proton weer kan afstaan. En <strong>H₂CO₃ en HCO₃⁻</strong> en <strong>NH₄⁺ en NH₃</strong> zijn paren, terwijl H₂O en H₃O⁺ een paar vormen met water als base."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>hydroxide-ion</strong> <strong>neemt een proton op en wordt water</strong> en <strong>is de geconjugeerde base van water</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Sommige stoffen kunnen beide rollen spelen. Een <strong>amfolyt</strong> of <strong>amfoteer</strong> deeltje kan een proton afstaan én opnemen: <strong>water</strong> en <strong>het waterstofcarbonaation</strong> zijn de twee voorbeelden, want HCO₃⁻ kan naar CO₃²⁻ of naar H₂CO₃. Tegenover HCl is water een base, tegenover ammoniak een zuur: reageert <strong>water met ammoniak</strong>, dan <strong>is het water het zuur en staat het een proton af</strong>, want NH₃ plus H₂O geeft NH₄⁺ plus OH⁻. <strong>In de reactie van azijnzuur met water is het water juist de base</strong>. Welke reactie een amfolyt in water aangaat, weet je door <strong>zijn zuurconstante met zijn baseconstante te vergelijken</strong>: is Kz groter dan Kb, dan gedraagt het zich vooral als zuur; bij HCO₃⁻ is het omgekeerd, en daarom is bakpoeder in water lichtbasisch."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een zuur kan meer dan één proton kwijt. <strong>Zwavelzuur is tweewaardig</strong> omdat het <strong>twee protonen kan afstaan, in twee stappen</strong>: eerst H₂SO₄ naar HSO₄⁻, dan naar SO₄²⁻, waarbij de eerste stap veel sterker is. <strong>Fosforzuur H₃PO₄</strong> kan er <strong>drie</strong> afstaan. Een <strong>meerwaardige base</strong> <strong>kan meer dan één proton opnemen</strong>, zoals het carbonaation CO₃²⁻."
+    }
+   ]
+  },
+  {
+   "kop": "Sterk en zwak",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>sterk zuur in water</strong> <strong>staat zijn proton zo goed als volledig af</strong>: <strong>zoutzuur</strong> en <strong>salpeterzuur</strong> zijn sterke zuren, terwijl azijnzuur en koolzuur zwakke zuren zijn die grotendeels als molecule in de oplossing blijven. De <strong>ionisatiegraad</strong> is <strong>het deel van de moleculen dat zijn proton heeft afgestaan</strong>; bij verdunnen wordt die graad groter."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Sterk en geconcentreerd betekenen niet hetzelfde</strong>: sterk gaat over hoe goed een zuur ioniseert, geconcentreerd over hoeveel mol er per liter in zit. Verdund zoutzuur blijft een sterk zuur. En <strong>een zwak zuur kan wél een lage pH geven</strong> als het geconcentreerd genoeg is: azijn is daarvan een voorbeeld. Twee zuren van <strong>dezelfde concentratie, één sterk en één zwak</strong>, verschillen in <strong>de pH van de twee oplossingen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>zuurconstante</strong> van een zuur HA in water is <strong>Kz is [H₃O⁺] maal [A⁻] gedeeld door [HA]</strong>, gewoon de evenwichtsconstante van de protolyse; het water staat er niet in, want het is in overmaat. De <strong>baseconstante Kb</strong> heeft dezelfde vorm met het hydroxide-ion in de teller. Een <strong>kleine pKz-waarde</strong> hoort bij een <strong>sterk</strong> zuur, want pKz is de negatieve logaritme van Kz: van twee zuren met <strong>pKz 3 en pKz 5</strong> is <strong>het zuur met pKz 3 het sterkste</strong>, en twee eenheden verschil is een factor honderd."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Voor een geconjugeerd paar geldt: hoe sterker het zuur, hoe zwakker zijn base</strong>, want het product van Kz en Kb is altijd de ionisatieconstante van water. <strong>De geconjugeerde base van een sterk zuur is dus een heel zwakke base</strong>: het chloride-ion neemt bijna nooit een proton terug op."
+    }
+   ]
+  },
+  {
+   "kop": "Zouten in water, en hoe je de pH ziet",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Daaruit volgt hoe een zout in water reageert. <strong>Een oplossing van keukenzout in water is neutraal</strong>, want Na⁺ en Cl⁻ komen van een sterke base en een sterk zuur; ook <strong>kaliumnitraat in water</strong> is neutraal. Een oplossing van <strong>natriumacetaat is basisch</strong> omdat <strong>het acetaation de geconjugeerde base van een zwak zuur is</strong> en dus sterk genoeg om een proton van water af te pakken. Een oplossing van <strong>ammoniumchloride is zuur</strong> omdat <strong>het ammoniumion een proton afstaat aan het water</strong>. Soda is basisch."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>pH-meter</strong> meet de pH nauwkeurig als een getal; je ijkt ze eerst met bufferoplossingen van bekende pH. Een <strong>zuurbase-indicator</strong> geeft maar een gebied: <strong>het is zelf een zwak zuur waarvan de twee vormen anders gekleurd zijn</strong>. Het <strong>omslaggebied</strong> <strong>ligt rond de pKz van de indicator</strong> en <strong>beslaat ongeveer twee pH-eenheden</strong>: <strong>fenolftaleïen</strong> is <strong>kleurloos in zuur en roze in basisch midden</strong> met een omslag rond pH 9, en methyloranje slaat om rond pH 4. Daarom kies je je indicator bij de titratie die je doet."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Zuur geeft een proton, base neemt het op; zonder base geen protolyse.",
+  "Een geconjugeerd paar verschilt precies één proton.",
+  "Een amfolyt kan beide: water en HCO₃⁻.",
+  "Sterk is niet hetzelfde als geconcentreerd.",
+  "Kleine pKz betekent sterk zuur; Kz · Kb is de constante van water.",
+  "Sterk zuur plus sterke base geeft een neutraal zout.",
+  "Fenolftaleïen: kleurloos in zuur, roze in basisch, omslag rond pH 9."
+ ]
+}

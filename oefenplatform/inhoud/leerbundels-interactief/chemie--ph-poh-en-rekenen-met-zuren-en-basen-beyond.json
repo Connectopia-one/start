@@ -1,0 +1,79 @@
+{
+ "vak": "Chemie",
+ "titel": "pH, pOH en rekenen met zuren en basen",
+ "onder": "De logaritmische schaal, en hoe je er een echte concentratie uit haalt.",
+ "secties": [
+  {
+   "kop": "De pH-schaal",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>pH</strong> van een oplossing is <strong>de negatieve logaritme van de concentratie hydroxoniumionen</strong>: is [H₃O⁺] gelijk aan 10⁻³ mol/L, dan is de pH 3. Men gebruikt zo'n <strong>logaritmische schaal</strong> omdat <strong>de concentraties over heel veel machten van tien verspreid liggen</strong>: van 1 mol/L tot 10⁻¹⁴ mol/L is veertien machten verschil."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De schaal is logaritmisch opgebouwd</strong> en <strong>één eenheid verschil is een factor tien</strong>. Zo bevat <strong>een oplossing met pH 3 honderd keer meer hydroxoniumionen dan een met pH 5</strong>, zit er in <strong>pH 2</strong> <strong>100</strong> keer meer dan in pH 4, en is een oplossing met <strong>pH 1</strong> <strong>duizend keer</strong> zuurder dan een met pH 4. Bij heel geconcentreerde oplossingen kan de pH zelfs onder nul of boven veertien liggen: de schaal is geen grens, maar een rekenwijze. Let op het minteken: <strong>hoe hoger de pH, hoe minder hydroxoniumionen</strong> er in de oplossing zitten."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>product van de concentratie hydroxonium en hydroxide</strong> in water heet de <strong>ionisatieconstante van water</strong> of <strong>Kw</strong>, en is bij 25 °C <strong>10⁻¹⁴</strong>, namelijk 10⁻⁷ maal 10⁻⁷. Daaruit volgt dat <strong>pH plus pOH</strong> bij 25 °C <strong>veertien</strong> is, en dat <strong>zuiver water pH 7</strong> heeft: dat is het neutrale punt. <strong>De pH hangt wél af van de temperatuur</strong>, want Kw verandert ermee, en dus ook het neutrale punt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Reken heen en terug. Bij <strong>pH 4</strong> hoort <strong>pOH tien</strong>; bij <strong>pOH 2</strong> hoort <strong>pH twaalf</strong>, zoals ontstopper; bij <strong>pH 11</strong> hoort <strong>pOH 3</strong>. Bij <strong>[H₃O⁺] gelijk aan 10⁻² mol/L</strong> hoort <strong>pH 2</strong>, ongeveer zo zuur als citroensap, en bij <strong>pH 5</strong> hoort <strong>10⁻⁵ mol/L</strong>, want [H₃O⁺] is tien tot de macht min de pH. Bij <strong>pH 9</strong> is de concentratie hydroxide-ionen <strong>10⁻⁵ mol/L</strong>, want pOH is dan vijf."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>basische oplossing</strong> heeft <strong>een pH groter dan 7</strong> en <strong>een pOH kleiner dan 7</strong>, en <strong>er zit meer hydroxide dan hydroxonium</strong> in; hydroxoniumionen blijven er altijd in, want het evenwicht van water staat nooit helemaal stil. Zuur zijn onder meer <strong>een oplossing met pH 2</strong> en <strong>een oplossing met pOH 12</strong>, want die hoort bij pH 2. Meet je <strong>pH 6,5 in regenwater</strong>, dan <strong>is het lichtzuur, want de pH ligt onder zeven</strong>: er lost koolstofdioxide uit de lucht in op, en dat vormt koolzuur."
+    }
+   ]
+  },
+  {
+   "kop": "Rekenen met een sterk zuur of een sterke base",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>sterk zuur mag je de concentratie van het zuur als [H₃O⁺] nemen</strong>, want <strong>elk molecule staat zijn proton af, dus is de omzetting volledig</strong>. Zo heeft <strong>0,1 mol/L zoutzuur pH 1</strong>, <strong>0,01 mol/L zoutzuur pH 2</strong> en <strong>0,0001 mol/L zoutzuur pH 4</strong>; let goed op het aantal nullen voor de komma. Bij een <strong>tweewaardig sterk zuur is de concentratie hydroxoniumionen dubbel die van het zuur</strong>: zwavelzuur van 0,05 mol/L geeft ongeveer 0,1 mol/L, dus pH 1. Reken dus altijd de waardigheid mee."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>sterke base</strong> reken je eerst de pOH uit. <strong>0,001 mol/L natriumhydroxide</strong> geeft [OH⁻] gelijk aan 10⁻³, dus pOH 3 en <strong>pH 11</strong>; <strong>0,01 mol/L natriumhydroxide</strong> geeft <strong>pH 12</strong>. Van een rij oplossingen heeft <strong>0,1 mol/L natriumhydroxide</strong> dan ook de hoogste pH: pOH 1 en dus pH 13."
+    },
+    {
+     "soort": "tekst",
+     "html": "Verdunnen en inkoken schuiven de pH. <strong>Verdun je een sterk zuur tien keer, dan stijgt de pH met één eenheid</strong>. <strong>Door heel sterk te verdunnen komt de pH niet boven zeven</strong>: ze kruipt naar zeven toe en blijft eronder, want water zelf kan de oplossing niet basisch maken. Damp je een oplossing <strong>in tot de helft van het volume</strong>, dan <strong>daalt de pH, want de concentratie wordt groter</strong>, met ongeveer 0,3. En <strong>de pH van een sterk zuur komt bij gewone concentraties niet onder nul</strong>, want <strong>daarvoor zou de concentratie boven 1 mol per liter moeten liggen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Meng je <strong>gelijke volumes van een sterk zuur en een sterke base van dezelfde concentratie</strong>, dan krijg je <strong>een neutrale oplossing met pH 7</strong>: alle hydroxonium- en hydroxide-ionen reageren precies weg tot water, en er blijft een neutraal zout over."
+    }
+   ]
+  },
+  {
+   "kop": "En bij een zwak zuur",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>De pH van een zwak zuur bereken je niet rechtstreeks uit zijn concentratie.</strong> Je hebt daarvoor <strong>de concentratie van het zuur</strong> én <strong>de zuurconstante van het zuur</strong> nodig, want maar een deel van de moleculen staat zijn proton af."
+    },
+    {
+     "soort": "tekst",
+     "html": "Van twee oplossingen van 0,1 mol/L heeft <strong>het zoutzuur de laagste pH, want het is een sterk zuur</strong>: azijnzuur geeft maar een paar procent van zijn protonen af, al zit er in beide bekers evenveel mol zuur. Daarom geldt ook: <strong>een zwak zuur en een sterk zuur van dezelfde concentratie neutraliseren evenveel base</strong>, want het aantal mol zuur bepaalt hoeveel base je nodig hebt, niet de sterkte."
+    },
+    {
+     "soort": "tekst",
+     "html": "Verdun je een zwak zuur, dan <strong>wordt de ionisatiegraad groter</strong> en <strong>wordt de pH hoger</strong>: het evenwicht schuift naar de kant van de ionen, maar er zijn in totaal toch minder ionen per liter."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "pH = −log[H₃O⁺]; één eenheid is een factor tien.",
+  "Kw is 10⁻¹⁴, dus pH + pOH = 14 bij 25 °C; zuiver water heeft pH 7.",
+  "Hoge pH betekent weinig hydroxonium, veel hydroxide.",
+  "Sterk zuur: de concentratie van het zuur is [H₃O⁺]; reken de waardigheid mee.",
+  "Bij een base eerst de pOH, dan 14 min pOH.",
+  "Tien keer verdunnen schuift de pH één eenheid, maar nooit over zeven.",
+  "Voor een zwak zuur heb je ook Kz nodig."
+ ]
+}

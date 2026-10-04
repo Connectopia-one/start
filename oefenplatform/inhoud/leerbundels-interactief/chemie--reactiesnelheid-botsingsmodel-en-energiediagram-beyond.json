@@ -1,0 +1,84 @@
+{
+ "vak": "Chemie",
+ "titel": "Reactiesnelheid, botsingsmodel en energiediagram",
+ "onder": "Waarom botsingen wel of niet lukken, en wat een berg in een diagram betekent.",
+ "secties": [
+  {
+   "kop": "Snelheid meten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De snelheid van een reactie druk je uit <strong>als de verandering van een concentratie per tijdseenheid</strong>, dus in <strong>mol/(L·s)</strong>: de mol per liter staat in de teller en de seconde in de noemer. Je kan ook het aantal effectieve botsingen per tijdseenheid nemen."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>concentratie-tijdgrafiek</strong> zet je <strong>de tijd op de horizontale as</strong> en <strong>de concentratie op de verticale as</strong>. Uit <strong>de steilheid</strong> lees je <strong>de snelheid van de reactie op dat ogenblik</strong>: een steile kromme betekent een hoge snelheid, een vlakke kromme een trage reactie. <strong>Een reactie verloopt in het begin meestal het snelst</strong>, want dan is de concentratie van de reagentia het hoogst; naar het einde toe vlakt de kromme af."
+    }
+   ]
+  },
+  {
+   "kop": "Het botsingsmodel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een reactie kan niet verlopen als de deeltjes elkaar nooit raken.</strong> Dat is de kern van het <strong>botsingsmodel</strong>, en daarom roer je, verwarm je of maal je een stof fijn. Een <strong>effectieve botsing</strong> is <strong>een botsing met genoeg energie en de juiste stand om te reageren</strong>; beide voorwaarden moeten kloppen. Een botsing die er niet aan voldoet, heet <strong>elastisch</strong> of niet-effectief: de deeltjes ketsen af en er gebeurt niets. Verreweg de meeste botsingen zijn van dat soort."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>activeringsenergie</strong> of <strong>activeringsdrempel</strong> is <strong>de energie die een botsing minstens moet hebben om te kunnen reageren</strong>. De <strong>Boltzmannverdeling</strong> <strong>toont hoe de energie over de deeltjes verdeeld is</strong>, want niet alle deeltjes hebben dezelfde energie, en <strong>bij een hogere temperatuur schuift ze naar rechts</strong>: er komen dus meer deeltjes boven de activeringsenergie uit."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wat maakt een reactie sneller? <strong>Een hogere concentratie van de reagentia</strong> en <strong>een fijnere verdeling van een vaste stof</strong>; verdunnen of afkoelen doet het omgekeerde. Een <strong>poeder reageert sneller dan één groot stuk</strong> omdat het <strong>een veel groter contactoppervlak</strong> heeft: dat is de <strong>verdelingsgraad</strong>, en daarom is meelstof in een silo zo gevaarlijk. Bij een hogere temperatuur <strong>botsen de deeltjes niet alleen vaker, maar ook harder</strong>, en dat tweede weegt het zwaarst. Daarom <strong>staat voedsel langer goed in de koelkast</strong>: <strong>bij een lagere temperatuur verlopen de reacties van bederf trager</strong>, al stoppen ze niet, vandaar een houdbaarheidsdatum. Ook <strong>licht versnelt sommige reacties</strong>, want <strong>het levert de energie om een binding te verbreken</strong>: daarom staat zuurstofwater in een donkere fles."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>katalysator</strong> <strong>verlaagt de activeringsenergie, zodat meer botsingen effectief zijn</strong>, en <strong>wordt tijdens de reactie niet verbruikt</strong>: hij doet mee en komt er onveranderd weer uit, en daarom schrijft men hem boven de pijl. <strong>Een katalysator wordt dus niet opgebruikt</strong>, en een kleine hoeveelheid kan heel veel reactie op gang brengen. Een katalysator die in een levend organisme werkt, heet een <strong>enzym</strong> of <strong>biokatalysator</strong>. Een enzym werkt maar op één soort stof omdat <strong>de vorm van zijn actieve plaats op één soort molecule past</strong>: dat is de <strong>specificiteit</strong>, en door hitte of een scheve pH verandert die vorm."
+    }
+   ]
+  },
+  {
+   "kop": "Het energiediagram",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>activeringsenergie</strong> in een energiediagram is <strong>de energie die nodig is om de reactie op gang te brengen</strong>: de hoogte van de berg die de deeltjes over moeten. De top heet het <strong>geactiveerd complex</strong>, <strong>de onstabiele toestand op de top van het energiediagram</strong>, waar de oude bindingen half verbroken en de nieuwe half gevormd zijn; het bestaat maar heel kort."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>reactie-energie</strong> bepaal je <strong>als het verschil in energie tussen producten en reagentia</strong>. Liggen <strong>de producten lager dan de reagentia</strong>, dan is <strong>de reactie exo-energetisch en zet ze energie vrij</strong>; zo'n reactie heet <strong>exotherm</strong> of exo-energetisch. Bij een <strong>endo-energetische reactie</strong> <strong>liggen de producten hoger in energie dan de reagentia</strong> en <strong>koelt de omgeving tijdens de reactie af</strong>: een koudepakje in de sportzaal werkt op dat principe."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een exo-energetische reactie verloopt niet altijd snel.</strong> De reactie-energie en de activeringsenergie zijn twee verschillende dingen: benzine geeft veel energie en heeft toch een vlam nodig. Zet je een katalysator in het diagram, dan <strong>komt de top van de berg lager te liggen</strong> maar <strong>blijven het begin- en eindpunt op dezelfde hoogte</strong>: een katalysator verandert de weg, niet de bestemming."
+    }
+   ]
+  },
+  {
+   "kop": "De snelheidsvergelijking",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Voor een <strong>eenstapsreactie A + B → C</strong> is de snelheidsvergelijking <strong>v is k maal [A] maal [B]</strong>: bij één stap zijn de exponenten gelijk aan de coëfficiënten. <strong>Bij een meerstapsreactie volgt de orde van een reagens uit meetresultaten</strong>: je meet wat er met de snelheid gebeurt als je één concentratie verandert."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>orde</strong> lees je zo af. Verdubbel je een concentratie en <strong>verdubbelt de snelheid</strong>, dan is de reactie van <strong>eerste orde</strong> in die stof. Wordt de snelheid <strong>vier keer groter</strong>, dan is het <strong>tweede orde</strong>, want twee tot de macht twee is vier. <strong>Blijft de snelheid gelijk, dan is de reactie van nulde orde</strong> in die stof, want alles tot de macht nul is één; zo'n stof komt niet voor in de snelheidsbepalende stap. De <strong>totale orde</strong> is de som van de exponenten: bij <strong>v is k maal [A]² maal [B]</strong> is dat <strong>drie</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De letter <strong>k</strong> staat voor de <strong>snelheidsconstante</strong>. Ze <strong>wordt groter bij een hogere temperatuur</strong> en <strong>haar eenheid hangt af van de orde van de reactie</strong>: bij <strong>eerste orde</strong> is dat <strong>per seconde</strong>, want links staat mol/(L·s) en [A] levert al mol/L. <strong>Een katalysator laat k niet onveranderd</strong>: door de lagere activeringsenergie wordt k juist groter, en ook de orde kan veranderen, want de weg is een andere."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Snelheid is concentratieverandering per tijd, in mol/(L·s).",
+  "Effectief = genoeg energie én de juiste stand; anders elastisch.",
+  "Concentratie, verdelingsgraad, temperatuur, licht en katalysator versnellen.",
+  "Een katalysator verlaagt de drempel en wordt niet verbruikt.",
+  "Activeringsenergie is de berg, reactie-energie het hoogteverschil.",
+  "Exo-energetisch zegt niets over de snelheid.",
+  "v = k·[A]^x·[B]^y; de orde meet je, behalve bij één stap."
+ ]
+}

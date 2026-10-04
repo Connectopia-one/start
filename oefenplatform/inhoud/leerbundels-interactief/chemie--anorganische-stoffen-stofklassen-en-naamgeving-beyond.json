@@ -1,0 +1,117 @@
+{
+ "vak": "Chemie",
+ "titel": "Anorganische stoffen: stofklassen en naamgeving",
+ "onder": "Hoe je een anorganische stof in een klasse zet, en hoe ze aan haar naam komt.",
+ "secties": [
+  {
+   "kop": "Enkelvoudig of samengesteld, binair of ternair",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>enkelvoudige stof</strong> bestaat uit <strong>één soort atoom, dus één element</strong>. <strong>Zuurstofgas</strong> is O₂ en <strong>ozon</strong> is O₃: beide zijn enkelvoudig, maar ze zijn <strong>niet dezelfde stof</strong> en gedragen zich heel anders. Water en keukenzout zijn <strong>samengesteld</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>binaire verbinding</strong> bestaat uit <strong>twee verschillende elementen</strong>, niet uit twee atomen: Fe₂O₃ heeft vijf atomen en is toch binair. Een <strong>ternaire verbinding</strong> heeft <strong>drie verschillende elementen</strong>, zoals <strong>calciumcarbonaat CaCO₃</strong> met calcium, koolstof en zuurstof."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>brutoformule</strong> of <strong>molecuulformule</strong> zegt <strong>enkel hoeveel atomen van elk element</strong> er in een molecule zitten, zoals C₂H₆O. Hoe die atomen aan elkaar zitten, zegt pas een <strong>structuurformule</strong>. Bij een ionverbinding spreken we van een <strong>formule-eenheid</strong>: die geeft <strong>de kleinste verhouding van de ionen</strong> en niet één molecule, want <strong>NaCl bestaat niet als losse molecule</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De vier grote stofklassen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>oxide</strong> is een <strong>verbinding van zuurstof met één ander element</strong>, zoals <strong>calciumoxide CaO</strong> en <strong>zwaveldioxide SO₂</strong>. Omdat er precies twee elementen in zitten, zijn <strong>alle oxiden binaire verbindingen</strong>. In NaOH zit wel zuurstof, maar samen met waterstof <strong>als hydroxidegroep</strong>, dus dat is geen oxide."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>hydroxide</strong> heeft als functionele groep de <strong>OH-groep</strong>, dus één of meer <strong>OH⁻-ionen</strong>: NaOH, Ca(OH)₂, Al(OH)₃. <strong>Calciumhydroxide</strong> heeft <strong>twee hydroxide-ionen</strong>, want Ca²⁺ heeft er twee nodig om neutraal uit te komen, en is dus <strong>tweewaardig</strong>. Een waterige oplossing van een hydroxide heet een <strong>loogoplossing</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>zuur</strong> <strong>begint in de formule met waterstof dat als H⁺ kan weggaan</strong>: <strong>waterstofsulfaat H₂SO₄</strong> en <strong>waterstofnitraat HNO₃</strong>. De <strong>waardigheid van een zuur</strong> is <strong>het aantal waterstofatomen dat het als ion kan afstaan</strong>: <strong>fosforzuur H₃PO₄ is driewaardig</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>zout</strong> is een <strong>verbinding van een metaalion met een zuurrest</strong>, zoals NaCl, CaCO₃ en KNO₃. Een zout ontstaat uit een zuur en een base: <strong>de zuurrest komt uit het zuur</strong> en het metaalion uit de base. Uit HNO₃ en NaOH ontstaat zo NaNO₃. Staat er natrium op de plaats van de waterstof, zoals in Na₂SO₄, dan is het dus een zout en geen zuur."
+    }
+   ]
+  },
+  {
+   "kop": "Vier bijzondere gevallen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>peroxide</strong> zitten <strong>twee zuurstofatomen aan elkaar gebonden</strong>: in H₂O₂ en in Na₂O₂ zit een <strong>O–O-brug</strong>, en zuurstof heeft daar oxidatiegetal <strong>−I</strong> in plaats van −II. <strong>Zuurstofwater</strong> is <strong>waterstofperoxide H₂O₂</strong>; het valt langzaam uiteen in water en zuurstofgas, en daarom staat het in een donkere fles."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>hydraat</strong> zit <strong>kristalwater in het rooster</strong>. <strong>CuSO₄·5H₂O</strong> heet <strong>kopersulfaatpentahydraat</strong>: het Griekse telwoord <strong>penta-</strong> zegt hoeveel moleculen water er per formule-eenheid vast ingebouwd zitten."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>waterstofzout</strong> is <strong>maar een deel van de waterstofionen van het zuur vervangen</strong>, dus blijft er één in de zuurrest zitten: <strong>natriumwaterstofcarbonaat NaHCO₃</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>ammoniumzout</strong> neemt het <strong>ammoniumion NH₄⁺</strong> <strong>de plaats van het metaalion</strong> in. Daarom is NH₄Cl een zout, ook al zit er geen metaal in, en <strong>bevat een ammoniumzout dus niet altijd een metaal</strong>: in NH₄NO₃ zit geen enkel metaalatoom."
+    }
+   ]
+  },
+  {
+   "kop": "Namen geven volgens de regels",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>Romeinse cijfer in de stocknotatie</strong>, zoals in <strong>ijzer(III)chloride</strong>, <strong>geeft het oxidatiegetal van het metaal</strong>. IJzer kan +II of +III zijn; het cijfer zegt welk van de twee, en daaruit volgt de formule FeCl₃."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Griekse telwoorden zoals di- en tri-</strong> gebruik je <strong>bij atoomverbindingen</strong>: CO₂ is <strong>koolstofdioxide</strong>. Bij een ionverbinding volgt het aantal al uit de ladingen, dus zijn telwoorden daar niet nodig."
+    },
+    {
+     "soort": "tekst",
+     "html": "De uitgang zegt hoeveel zuurstof er in de zuurrest zit. De <strong>uitgang -iet duidt op minder zuurstofatomen dan de uitgang -aat</strong>: <strong>sulfaat is SO₄²⁻, sulfiet is SO₃²⁻</strong>, en zo hoort <strong>zwavelzuur bij H₂SO₄</strong> en <strong>zwaveligzuur bij H₂SO₃</strong>. Nitraat hoort bij HNO₃ en nitriet bij HNO₂. Het voorvoegsel <strong>hypo-</strong> betekent <strong>nog één zuurstofatoom minder dan bij de uitgang -iet</strong>. De volle rij loopt van <strong>perchloorzuur HClO₄</strong> over <strong>chloorzuur HClO₃</strong> en <strong>chlorigzuur HClO₂</strong> naar <strong>hypochlorigzuur HClO</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Eén stof heeft dus vaak twee namen. <strong>HNO₃</strong> heet <strong>salpeterzuur</strong> en <strong>waterstofnitraat</strong>. Een <strong>waterige oplossing van waterstofchloride</strong> heet <strong>zoutzuur</strong>; de IUPAC-naam waterstofchloride hoort bij het gas zelf."
+    }
+   ]
+  },
+  {
+   "kop": "Symbolen en namen uit het dagelijks leven",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Enkele symbolen om te kennen: <strong>K</strong> is <strong>kalium</strong>, van het Latijnse kalium; <strong>Pb</strong> is <strong>lood</strong>, van plumbum, waar ook loodgieter van komt; Ca is calcium en C is koolstof. <strong>Fe</strong> en <strong>Cu</strong> zijn <strong>metalen uit het d-blok</strong>, dus overgangsmetalen; silicium staat in het p-blok en argon is een edelgas."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>triviale naam</strong> of gebruiksnaam <strong>zegt niets over de formule</strong>. <strong>Bijtende soda</strong> is <strong>natriumhydroxide</strong> en <strong>gebluste kalk</strong> is <strong>calciumhydroxide</strong>. <strong>Ongebluste kalk is CaO, gebluste kalk is Ca(OH)₂</strong>: giet je water bij CaO, dan ontstaat Ca(OH)₂ en komt er veel warmte vrij, en dat blussen zit in de naam."
+    },
+    {
+     "soort": "tekst",
+     "html": "Drie natriumstoffen worden vaak verward. <strong>Soda</strong> is <strong>Na₂CO₃</strong> of natriumcarbonaat, <strong>bakpoeder</strong> is <strong>natriumwaterstofcarbonaat NaHCO₃</strong>, dat bij verwarmen koolstofdioxide afgeeft en zo het deeg laat rijzen, en <strong>ontstopper</strong> is <strong>een sterke oplossing van natriumhydroxide</strong>, die vet en haar aantast."
+    },
+    {
+     "soort": "tekst",
+     "html": "Nog drie gassen: <strong>N₂O</strong> heet <strong>lachgas</strong> of distikstofmonoxide, <strong>CO₂</strong> heet in drank <strong>koolzuurgas</strong> omdat het in water deels koolzuur H₂CO₃ vormt, en <strong>blauwzuur</strong> is <strong>HCN of waterstofcyanide</strong>, heel giftig en met een geur van bittere amandelen. <strong>Blauwzuur is dus niet de gebruiksnaam van waterstofchloride</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Enkelvoudig is één element, binair twee elementen, ternair drie.",
+  "Oxide: zuurstof met één ander element. Hydroxide: OH-groep.",
+  "Zuur: H dat als H⁺ weggaat. Zout: metaalion plus zuurrest.",
+  "Peroxide heeft een O–O-brug, hydraat heeft kristalwater.",
+  "-aat heeft meer zuurstof dan -iet; hypo- nog één minder.",
+  "Stocknotatie: het Romeinse cijfer is het oxidatiegetal.",
+  "Soda Na₂CO₃, bakpoeder NaHCO₃, bijtende soda NaOH."
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "vak": "Chemie",
+ "titel": "Buffers en zuurbasetitraties",
+ "onder": "Een mengsel dat de pH vasthoudt, en een proef die een concentratie verraadt.",
+ "secties": [
+  {
+   "kop": "Wat een buffer doet",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>buffer</strong> of <strong>buffermengsel</strong> is een mengsel <strong>dat de pH bijna gelijk houdt als je zuur of base toevoegt</strong>. Het bestaat uit <strong>een zwak zuur samen met zijn geconjugeerde base</strong>, beide in vergelijkbare hoeveelheden; <strong>azijnzuur met natriumacetaat</strong> is het schoolvoorbeeld, en <strong>ammoniak met ammoniumchloride</strong> is de basische tegenhanger."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een buffer werkt naar twee kanten</strong>, niet enkel tegen toegevoegd zuur. Giet je er een beetje <strong>sterk zuur</strong> bij, dan <strong>neemt de geconjugeerde base de hydroxoniumionen weg</strong> en wordt ze zelf het zwakke zuur. Voeg je een beetje <strong>sterke base</strong> toe, dan <strong>neemt het zwakke zuur van het paar de hydroxide-ionen weg</strong> en ontstaat er water."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een buffer houdt de pH niet precies gelijk, hoeveel je er ook bij giet.</strong> Hij vangt het op zolang er genoeg van beide deeltjes is; is er te veel bijgekomen, dan is de buffer uitgeput en schiet de pH weg. De <strong>capaciteit</strong> van een buffer <strong>is groter als de concentraties hoger zijn</strong> en <strong>is op als een van de twee deeltjes verbruikt is</strong>: een buffer van 1 mol/L vangt veel meer op dan een van 0,01 mol/L, ook al hebben ze dezelfde pH. <strong>Verdunnen verandert de pH van een buffer bijna niet</strong>, want de verhouding tussen zuur en base blijft gelijk; de capaciteit wordt wel kleiner."
+    }
+   ]
+  },
+  {
+   "kop": "Welke buffer voor welke pH",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een buffer werkt het best <strong>als het zuur en zijn geconjugeerde base in dezelfde concentratie aanwezig zijn</strong>: dan kan hij naar beide kanten evenveel opvangen, en dan is zijn <strong>pH gelijk aan de pKz</strong> van het zuur, want de twee concentraties vallen tegen elkaar weg."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het bereik van een buffer is ongeveer <strong>één</strong> pH-eenheid rond die pKz, plus of min. Een buffer met een zuur van <strong>pKz 5</strong> werkt dus <strong>ongeveer tussen pH 4 en pH 6</strong>, en een <strong>buffer met pKz 7 is geschikt om een oplossing rond pH 7 te houden</strong>. Daarbuiten is de verhouding tussen zuur en base te scheef geworden. Zo kies je het zuur op basis van de pH die je nodig hebt: voor een buffer rond pH 9 meng je <strong>ammoniak met ammoniumchloride</strong>, want het ammoniumion heeft een pKz van ongeveer 9,2, terwijl azijnzuur je rond pH 5 zou brengen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>basische buffer</strong> <strong>bestaat uit een zwakke base met haar geconjugeerde zuur</strong> en <strong>zijn pH ligt boven zeven</strong>. Een <strong>mengsel van zoutzuur en natriumchloride buffert niet</strong>, want <strong>het chloride-ion is een te zwakke base om protonen op te nemen</strong>: bij een sterk zuur is de geconjugeerde base daarvoor te zwak. Hetzelfde geldt voor een sterke base met haar zout."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je kan een buffer ook per ongeluk maken. Meng je een <strong>zwak zuur met een sterke base, maar niet genoeg base om alles weg te werken</strong>, dan krijg je <strong>een buffer van het zwakke zuur met zijn geconjugeerde base</strong>: de base zet een deel van het zuur om, en zo zitten beide deeltjes in dezelfde beker."
+    },
+    {
+     "soort": "tekst",
+     "html": "In het lichaam is dat levensbelangrijk. <strong>De pH van bloed blijft zo constant omdat koolzuur en het waterstofcarbonaation er een buffer vormen</strong>. Dat <strong>geconjugeerde paar</strong> houdt de pH rond 7,4, en een afwijking van een paar tienden is al levensgevaarlijk. Door sneller te ademen verlies je koolstofdioxide, en dat verschuift dat evenwicht."
+    }
+   ]
+  },
+  {
+   "kop": "Een titratie uitvoeren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een titratie laat je het <strong>titrans</strong> of <strong>titreervloeistof</strong> uit de buret lopen; haar concentratie moet nauwkeurig gekend zijn. De onbekende oplossing staat in de <strong>erlenmeyer</strong>, waarvan de schuine wanden je laten zwenken zonder te spatten. Om precies 20 mL van de onbekende oplossing af te meten gebruik je een <strong>pipet</strong>, die je met een pipetvuller vult en nooit met de mond."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je <strong>spoelt de buret met titrans</strong> voor je begint, want water zou het verdunnen. <strong>De erlenmeyer mag wel nat zijn van water</strong>, want <strong>water verandert het aantal mol in de erlenmeyer niet</strong>: daar gaat het om mol, niet om concentratie. <strong>Je mag de buret niet tot boven de nulstreep vullen en dan het verschil berekenen</strong>, want boven de nulstreep is er geen schaal. Bij het aflezen <strong>lees je af bij de onderkant van de meniscus</strong> en <strong>houd je je oog op dezelfde hoogte als de vloeistof</strong>; scheef aflezen geeft een parallaxfout. Een <strong>proeftitratie</strong> doe je <strong>om ongeveer te weten waar de sprong ligt, zodat je daarna traag kan druppelen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Fouten die een te groot volume titrans geven</strong> zijn onder meer: <strong>de buret is met water gespoeld en niet met titrans</strong>, en <strong>je druppelt door na de kleuromslag</strong>. Beide geven een te hoge berekende concentratie."
+    }
+   ]
+  },
+  {
+   "kop": "De curve lezen en de concentratie berekenen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>equivalentiepunt</strong> is <strong>het punt waarop er precies genoeg base is voor al het zuur</strong>, dus waar het aantal mol gelijk is, met de waardigheid meegerekend. Je ziet het op de curve <strong>aan de steile sprong in de pH, midden in het verloop</strong>. <strong>De pH is daar niet altijd zeven</strong>: bij een <strong>sterk zuur met een sterke base</strong> ligt het <strong>bij pH 7, want er blijft een neutraal zout over</strong>, maar <strong>bij de titratie van een zwak zuur met een sterke base ligt het equivalentiepunt boven pH 7</strong>, want er blijft de geconjugeerde base van een zwak zuur over."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>indicator</strong> kies je zo dat <strong>haar omslaggebied binnen de pH-sprong van de curve valt</strong>; bij een zwak zuur met een sterke base past fenolftaleïen dus goed. <strong>Het equivalentiepunt en het punt van de kleuromslag zijn niet precies hetzelfde</strong>: dat laatste heet het <strong>eindpunt</strong> en ligt er meestal een druppel naast. Je kan het equivalentiepunt ook <strong>met een pH-meter of met een geleidbaarheidsmeting</strong> bepalen, dus zonder indicator."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee eigenschappen van de curve. <strong>Bij de titratie van een zwak zuur loopt er een stuk van de curve vlak, want daar werkt een buffer</strong>: halverwege zitten het zuur en zijn geconjugeerde base samen in de beker, en daar is de pH gelijk aan de pKz. En titreer je een verdunder zuur, dan <strong>wordt de sprong kleiner en minder steil</strong>, want begin en einde liggen dichter bij pH 7."
+    },
+    {
+     "soort": "tekst",
+     "html": "Rekenen doe je in mol. Titreer je <strong>20 mL zuur met 0,1 mol/L base en verbruik je 20 mL</strong>, dan is het eenwaardige zuur <strong>0,1 mol/L</strong>: 0,1 maal 0,020 is 0,002 mol base, dus ook 0,002 mol zuur. Titreer je <strong>20 mL van een tweewaardig zuur en verbruik je 40 mL</strong> van 0,1 mol/L base, dan is het zuur ook <strong>0,1 mol/L</strong>: 0,004 mol base neutraliseert 0,002 mol tweewaardig zuur."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een buffer is een zwak zuur met zijn geconjugeerde base.",
+  "Gelijke concentraties: pH = pKz; bereik is pKz plus of min één.",
+  "Capaciteit hangt af van de concentraties, niet van de pH.",
+  "Bloed wordt gebufferd door koolzuur en waterstofcarbonaat, rond pH 7,4.",
+  "Buret spoelen met titrans, erlenmeyer mag nat zijn van water.",
+  "Equivalentiepunt is de steile sprong; bij een zwak zuur ligt die boven pH 7.",
+  "Kies de indicator met haar omslaggebied binnen de sprong."
+ ]
+}

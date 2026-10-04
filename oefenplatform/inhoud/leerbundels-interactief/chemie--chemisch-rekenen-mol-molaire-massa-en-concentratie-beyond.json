@@ -1,0 +1,96 @@
+{
+ "vak": "Chemie",
+ "titel": "Chemisch rekenen: mol, molaire massa en concentratie",
+ "onder": "Van gram naar mol naar deeltjes, en van mol naar een concentratie in de beker.",
+ "secties": [
+  {
+   "kop": "De mol en het getal van Avogadro",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In één mol van een stof zitten <strong>6,022 × 10²³</strong> deeltjes. Dat is het <strong>getal van Avogadro</strong>, en het geldt voor atomen, moleculen en ionen evengoed. In <strong>2 mol</strong> zitten er dus <strong>ongeveer 1,2 × 10²⁴</strong> moleculen: let op het verspringen van de exponent bij het verdubbelen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>stofhoeveelheid</strong> heeft als <strong>symbool n</strong> en als <strong>eenheid de mol</strong>. <strong>Eén mol zuurstofgas en één mol waterstofgas bevatten evenveel moleculen</strong>, want het aantal staat vast; hun massa verschilt wel, 32 gram tegenover 2 gram."
+    }
+   ]
+  },
+  {
+   "kop": "Molaire massa: van gram naar mol en terug",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>molaire massa M</strong> is de massa van één mol, met als <strong>eenheid gram per mol</strong>; de getalwaarde is dezelfde als die van de molecuulmassa in atomaire eenheden. De formule die de stofhoeveelheid uit de massa geeft, is <strong>n is gelijk aan m gedeeld door M</strong>, en omgekeerd is <strong>m is n maal M</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je rekent de molaire massa uit door de atoommassa's op te tellen, elk zo vaak als het element in de formule staat. Met H 1, C 12, O 16 en S 32 g/mol: <strong>water H₂O is 18 g/mol</strong> (twee keer 1 plus 16), <strong>zwavelzuur H₂SO₄ is 98 g/mol</strong> (2 plus 32 plus vier keer 16) en koolstofdioxide is 44 g/mol. In één mol zwavelzuur zitten dan ook <strong>vier mol</strong> zuurstofatomen, want per molecule zitten er vier."
+    },
+    {
+     "soort": "tekst",
+     "html": "Vijf rekenvoorbeelden. <strong>36 gram water</strong> bij 18 g/mol is <strong>2 mol</strong>. <strong>100 gram calciumcarbonaat</strong> bij 100 g/mol is <strong>1 mol</strong>, met daarin één mol calciumionen en één mol carbonaationen. <strong>0,5 mol koolstofdioxide</strong> bij 44 g/mol weegt <strong>22 gram</strong>. <strong>2 mol natriumchloride</strong> bij 58,5 g/mol weegt <strong>117 gram</strong>. En <strong>3 mol waterstofgas</strong> bij 2 g/mol weegt <strong>6 gram</strong>, want waterstofgas is H₂ en niet H."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Twee stoffen met dezelfde massa bevatten dus niet altijd hetzelfde aantal mol</strong>: achttien gram water is één mol, achttien gram glucose maar een tiende van een mol. Van <strong>één mol ijzer</strong> geldt wel dat het <strong>6,022 × 10²³ atomen bevat</strong> en dat het <strong>56 gram weegt als de molaire massa 56 g/mol is</strong>: het aantal deeltjes staat vast, de massa hangt af van het element."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>massadichtheid</strong> is iets anders: daarvoor heb je <strong>de massa van de stof</strong> en <strong>het volume van de stof</strong> nodig. Haar eenheid is <strong>gram per kubieke centimeter</strong>, voor water ongeveer 1 g/cm³ en voor ijzer bijna 8."
+    },
+    {
+     "soort": "tekst",
+     "html": "Eén mol gas neemt bij <strong>normomstandigheden</strong> <strong>22,4 liter</strong> in, het <strong>molair volume</strong> bij 0 °C en normale druk. Dat is voor elk gas ongeveer gelijk, maar het geldt <strong>niet bij elke temperatuur</strong>: warm je het gas op, dan zet het uit en neemt het meer plaats in."
+    }
+   ]
+  },
+  {
+   "kop": "Concentratie uitdrukken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>molaire concentratie</strong> heeft als symbool <strong>c</strong> en als eenheid mol per liter, die men ook als M schrijft (0,1 M zoutzuur). De formule is <strong>c is n gedeeld door V</strong>, met het <strong>volume altijd in liter</strong>: <strong>250 milliliter is 0,25 liter</strong>. Zo is een oplossing met <strong>0,5 mol in 2 liter</strong> <strong>0,25 mol/L</strong> sterk, zit er in <strong>500 mL van 0,2 mol/L</strong> <strong>0,1 mol</strong> opgeloste stof, en weeg je voor <strong>250 mL van 0,4 mol/L</strong> <strong>0,1 mol</strong> stof af."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een oplossing van 1 mol/L bevat niet altijd één mol</strong>: ze bevat één mol per liter, dus in 100 mL heb je maar 0,1 mol in handen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Naast de molaire concentratie bestaan er uitdrukkingen in massa en volume. De <strong>massaconcentratie</strong> en het <strong>massaprocent</strong> gebruiken <strong>een massa in de teller</strong>. Een <strong>massaprocent van 5 %</strong> betekent <strong>5 gram opgeloste stof per 100 gram oplossing</strong>, dus de massa van het oplosmiddel én van de opgeloste stof samen: in <strong>200 gram oplossing van 10 massaprocent</strong> zit <strong>20 gram</strong> zout en 180 gram water. Een <strong>wijn van 12 volumeprocent</strong> bevat <strong>12 mL alcohol per 100 mL wijn</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Voor heel kleine hoeveelheden gebruikt men kleinere eenheden. <strong>Procent</strong> is op honderd, <strong>promille betekent één deel op duizend</strong>, <strong>1 ppm</strong> is <strong>één deel op een miljoen</strong> en, omdat een liter water duizend gram weegt, ook <strong>1 milligram per liter water</strong>. <strong>Ppb</strong> <strong>staat voor één deel op een miljard</strong> en <strong>wordt gebruikt voor heel kleine hoeveelheden</strong>, zoals een spoor van een zwaar metaal in drinkwater."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee praktische punten. Je <strong>vult bij het maken van een oplossing aan tot de maatstreep</strong> en meet niet eerst het water af, want <strong>de opgeloste stof neemt zelf ook plaats in het eindvolume</strong>: de concentratie hoort bij het volume van de oplossing. En <strong>het massaprocent verandert wél als je er water bij giet</strong>, want de massa van de oplossing wordt groter terwijl die van de opgeloste stof gelijk blijft."
+    }
+   ]
+  },
+  {
+   "kop": "Verdunnen en een formule uit percentages",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij het verdunnen van een oplossing blijft het aantal mol opgeloste stof gelijk</strong>: je giet er enkel water bij. Daarom geldt de <strong>verdunningsregel</strong>: <strong>c₁ maal V₁ is gelijk aan c₂ maal V₂</strong>. Verdun je <strong>10 mL van 2 mol/L tot 100 mL</strong>, dan wordt het volume tien keer groter en de concentratie tien keer kleiner: <strong>0,2 mol/L</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Uit massapercentages vind je een formule door elk percentage door de atoommassa te delen. Bij <strong>40 % koolstof, 6,7 % waterstof en 53,3 % zuurstof</strong> geeft 40/12, 6,7/1 en 53,3/16 ongeveer 3,3 : 6,7 : 3,3, dus 1 : 2 : 1 en de formule <strong>CH₂O</strong>. Omgekeerd zit er in water <strong>ongeveer 11 %</strong> waterstof in massa: twee gram op achttien. Het aantal atomen en de massa zijn dus twee verschillende dingen."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Eén mol is 6,022 × 10²³ deeltjes, het getal van Avogadro.",
+  "n = m / M en m = n · M; M in gram per mol.",
+  "Eén mol gas is 22,4 liter, maar enkel bij normomstandigheden.",
+  "c = n / V, met V altijd in liter.",
+  "Massaprocent rekent per 100 gram oplossing, niet per 100 gram water.",
+  "ppm is één op een miljoen, ppb één op een miljard.",
+  "Verdunnen: c₁V₁ = c₂V₂, want het aantal mol blijft gelijk."
+ ]
+}

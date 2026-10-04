@@ -1,0 +1,88 @@
+{
+ "vak": "Chemie",
+ "titel": "Organische reacties: substitutie en het radicalaire mechanisme",
+ "onder": "Vier reactietypes, drie soorten aanvallers, en de kettingreactie met radicalen.",
+ "secties": [
+  {
+   "kop": "Splitsen, aanvallen en de vier types",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een binding kan op twee manieren breken. Bij een <strong>homolytische splitsing</strong> <strong>houdt elk atoom één elektron van het bindende paar</strong>, en zo ontstaan er twee <strong>radicalen</strong>: <strong>een deeltje met een ongepaard elektron</strong>, dat daardoor heel reactief is. Bij een <strong>heterolytische splitsing</strong> neemt één atoom het hele paar mee, en dan ontstaat er een positief en een negatief deeltje. <strong>Bij een heterolytische splitsing ontstaan er dus geen radicalen.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een aanvallend deeltje dat <strong>een vrij elektronenpaar aanbiedt</strong>, heet een <strong>nucleofiel</strong>: het zoekt een plaats met een elektronentekort. Een <strong>elektrofiel</strong> zoekt juist <strong>een plaats met veel elektronen, zoals een dubbele binding</strong>; het betekent letterlijk elektronenvriend en valt dus de pi-elektronen van een alkeen of een benzeenring aan."
+    },
+    {
+     "soort": "tekst",
+     "html": "De vier organische reactietypes zijn <strong>substitutie</strong>, <strong>additie</strong>, eliminatie en condensatie; neutralisatie en neerslagvorming horen bij de anorganische chemie. <strong>Bij een substitutiereactie wordt een atoom of groep vervangen door een andere</strong>, en daarbij <strong>verandert het aantal koolstofatomen van de hoofdketen niet</strong>. Bij een additie komt er iets bij zonder dat er iets weggaat. Bij een <strong>eliminatiereactie</strong> <strong>gaat er een kleine molecule uit de stof en ontstaat er een dubbele binding</strong>: water of een waterstofhalogenide gaat eruit. Bij een <strong>condensatie</strong> koppelen <strong>twee moleculen en komt er water vrij</strong>; het vormen van een ester uit een alcohol en een carbonzuur is <strong>een condensatie, want er komt water vrij</strong>, en de omgekeerde reactie met water heet hydrolyse."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een substitutie kan radicalair, elektrofiel of nucleofiel verlopen.</strong> Welk van de drie het is, hangt af van de stof: een alkaan radicalair, benzeen elektrofiel en een halogeenalkaan nucleofiel."
+    }
+   ]
+  },
+  {
+   "kop": "De radicalaire substitutie van een alkaan",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een alkaan reageert niet met een elektrofiel</strong>, want <strong>het heeft geen plaats met veel elektronen om aan te vallen</strong>: alle bindingen zijn sigma-bindingen en bijna apolair. Daarom heeft een alkaan een radicaal nodig om toch te reageren, en is <strong>uv-licht</strong> of warmte nodig om de reactie te starten."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zo'n reactie <strong>verloopt in drie soorten stappen</strong>. In de <strong>initiatiestap</strong> <strong>splitst het dihalogeen homolytisch in twee radicalen</strong>: Cl₂ wordt onder uv-licht twee chloorradicalen. In de <strong>propagatiestappen</strong> <strong>reageert een radicaal en ontstaat er telkens een nieuw radicaal</strong>, zodat de reactie als een ketting doorloopt; één lichtdeeltje kan zo duizenden moleculen laten reageren. In de laatste stap, de <strong>terminatie</strong>, <strong>ontstaan er geen twee nieuwe radicalen</strong> maar koppelen twee radicalen tot een molecule zonder ongepaard elektron, en stopt die ketting. Daarom vindt men bij de chlorering van methaan ook wat ethaan in het mengsel terug."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de radicalaire substitutie van methaan met chloorgas ontstaan er <strong>chloormethaan en waterstofchloride</strong>: één waterstofatoom wordt door chloor vervangen, en dat waterstofatoom gaat met het tweede chlooratoom mee als HCl. Zo'n reactie <strong>geeft een mengsel van verschillende producten</strong>, want er kan een tweede en een derde waterstofatoom vervangen worden. Ook bij de <strong>chlorering van een cycloalkaan onder uv-licht</strong> valt <strong>een radicaal</strong> aan, want een cycloalkaan is net als een alkaan verzadigd en apolair."
+    }
+   ]
+  },
+  {
+   "kop": "De elektrofiele substitutie van benzeen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Benzeen ondergaat een substitutie en geen additie met broom omdat <strong>de ring bij een additie haar stabiele elektronenwolk zou verliezen</strong>: de verspreide pi-elektronen maken benzeen bijzonder stabiel, en een substitutie houdt de ring intact. Het aanvallende deeltje is een <strong>elektrofiel</strong>, want de ring is rijk aan elektronen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Met broom en een katalysator ontstaan er <strong>broombenzeen en waterstofbromide</strong>. Die <strong>katalysator is nodig omdat ze het broom pas echt elektrofiel maakt</strong>: met een stof als ijzerbromide wordt het broommolecule gepolariseerd, en dan is het sterk genoeg om de stabiele ring aan te vallen. Het verschil met de chlorering van methaan is dus dat <strong>bij methaan een radicaal aanvalt en bij benzeen een elektrofiel</strong>: methaan heeft uv-licht nodig, benzeen een katalysator, en in beide gevallen wordt een waterstofatoom vervangen."
+    }
+   ]
+  },
+  {
+   "kop": "De nucleofiele substitutie van een halogeenalkaan",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een halogeenalkaan is <strong>het koolstofatoom naast het halogeen lichtpositief</strong> en <strong>valt het nucleofiel juist dat koolstofatoom aan</strong>: het halogeen is sterk elektronegatief en trekt de elektronen naar zich toe. <strong>Een alkaan reageert dus niet makkelijker met een nucleofiel dan een halogeenalkaan</strong>, want in een alkaan is er geen plaats met zo'n tekort. De naam zegt waarom het nucleofiel heet: <strong>het aanvallende deeltje brengt zelf een elektronenpaar mee</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bij een nucleofiele substitutie verlaat het halogeen de molecule als ion</strong>, want de binding splitst heterolytisch. Bij broomethaan gaat dat weg als <strong>bromide-ion</strong>, dat het hele bindende elektronenpaar meeneemt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Welke producten krijg je? Met <strong>water</strong> ontstaat er <strong>een alcohol</strong>, met een <strong>alcohol</strong> ontstaat er <strong>een ether</strong>, en met <strong>ammoniak</strong> ontstaat er <strong>een amine</strong>, doordat het vrije paar van de stikstof het koolstofatoom aanvalt. Als nucleofiel kunnen onder meer <strong>water</strong> en <strong>een amine</strong> optreden, want beide hebben een vrij elektronenpaar, op zuurstof of op stikstof."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee reacties tussen alcoholen en zuren om niet te verwarren. Uit een alcohol en een carbonzuur ontstaat een <strong>ester</strong>: de <strong>verestering</strong>, waarbij <strong>er water vrijkomt</strong> en die <strong>omkeerbaar is met water als reagens</strong>. <strong>Uit een alcohol met een carbonzuur ontstaat dus geen ether</strong>; een ether krijg je uit <strong>twee alcoholen</strong>, waarbij <strong>een ether en water</strong> ontstaan, of uit een alcohol met een halogeenalkaan. Valt een ester met water terug uiteen, dan heet dat <strong>hydrolyse</strong>; met een base heet het <strong>verzeping</strong>, en dan ontstaat het zout van het carbonzuur: zo wordt zeep gemaakt."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Homolytisch geeft radicalen, heterolytisch geeft ionen.",
+  "Nucleofiel brengt een elektronenpaar mee, elektrofiel zoekt er een.",
+  "Substitutie vervangt, additie voegt toe, eliminatie haalt weg, condensatie koppelt.",
+  "Alkaan radicalair met uv-licht, benzeen elektrofiel met katalysator.",
+  "Initiatie, propagatie, terminatie; het mengsel bevat meerdere producten.",
+  "Halogeenalkaan plus water geeft een alcohol, plus ammoniak een amine.",
+  "Alcohol plus carbonzuur geeft een ester; hydrolyse draait het terug."
+ ]
+}

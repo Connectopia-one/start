@@ -1,0 +1,92 @@
+{
+ "vak": "Chemie",
+ "titel": "Organische reacties: additie, eliminatie en condensatie",
+ "onder": "Een dubbele binding die opengaat, en een die juist ontstaat.",
+ "secties": [
+  {
+   "kop": "Additie aan een alkeen en een alkyn",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>additiereactie aan een alkeen</strong> <strong>gaat de pi-binding open en komen er twee groepen bij</strong>. De sigma-binding tussen de twee koolstofatomen blijft bestaan en de keten wordt verzadigd. <strong>Een additie is geen substitutie</strong>, want <strong>er gaat geen enkel atoom weg uit de molecule</strong>. Bij een <strong>alkyn</strong> gaat er ook <strong>een pi-binding</strong> open, en omdat er twee zijn, <strong>kan de additie twee keer gebeuren</strong>. Ook een <strong>cycloalkeen kan een additie ondergaan</strong>: de ring blijft bestaan en de dubbele binding erin gaat open; het is de ring van benzeen die niet addeert."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wat kan adderen? Onder meer <strong>waterstofchloride</strong> en <strong>diwaterstof</strong>: aan een dubbele binding adderen diwaterstof, een dihalogeen, een waterstofhalogenide en water. Een zout addeert niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "De producten, één voor één. De additie van <strong>diwaterstof aan etheen</strong> geeft <strong>ethaan</strong>; die <strong>hydrogenering</strong> heeft een katalysator van nikkel of platina nodig, en zo maakt men van vloeibare olie een vaster vet. De additie van <strong>broom aan een alkeen</strong> geeft <strong>een dibroomalkaan</strong>: elk koolstofatoom van de dubbele binding krijgt één broomatoom. De additie van <strong>water aan etheen, met een zuur als katalysator</strong>, geeft <strong>ethanol</strong>, en zo maakt men industrieel alcohol. <strong>De additie van water verloopt dus niet zonder katalysator</strong>: zonder zuur zou water veel te zwak zijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarop berust een test. Men gebruikt <strong>broomwater</strong> om te weten of een stof onverzadigd is, want <strong>het broom reageert weg en de bruine kleur verdwijnt</strong>; bij een alkaan gebeurt er in het donker niets."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>verzadigingsgraad</strong> <strong>zegt hoeveel keer diwaterstof er kan adderen</strong>, en <strong>een alkyn heeft een verzadigingsgraad van twee</strong>: <strong>een alkyn kan dus twee keer diwaterstof opnemen</strong>, eerst tot een dubbele en dan tot een enkelvoudige binding. Een alkaan is al verzadigd en heeft dus verzadigingsgraad nul."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>regel van Markownikov</strong> zegt dat <strong>het waterstofatoom naar het koolstofatoom met het meeste waterstof gaat</strong>; het halogeen of de OH-groep komt dus op het meest vertakte koolstofatoom. Laat je <strong>HCl adderen aan propeen</strong>, dan overheerst dus <strong>2-chloorpropaan</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Elektrofiel of nucleofiel adderen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij de additie van <strong>HBr aan een alkeen</strong> valt <strong>een elektrofiel</strong> aan: de pi-elektronen van de dubbele binding trekken het lichtpositieve waterstofatoom aan, en daarom heet het een <strong>elektrofiele additie</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een aldehyde of een keton is het omgekeerd, want <strong>het koolstofatoom van de C=O-groep is lichtpositief en trekt een nucleofiel aan</strong>: zuurstof trekt de elektronen van de dubbele binding naar zich toe, terwijl bij een alkeen beide atomen gelijk zijn. <strong>Bij een nucleofiele additie aan een aldehyde ontstaat er een primaire alcohol</strong>, want de C=O-groep aan het uiteinde wordt een CH-OH-groep. De additie van <strong>diwaterstof aan een aldehyde</strong> geeft dus <strong>een primaire alcohol</strong>, en die aan <strong>propanon</strong> geeft <strong>propaan-2-ol</strong>, een secundaire alcohol, want de C=O-groep zit in het midden."
+    }
+   ]
+  },
+  {
+   "kop": "Eliminatie: water of waterstof eruit",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een eliminatie maakt een verzadigde keten onverzadigd</strong>: er gaan twee groepen weg van twee buuratomen en daar komt een dubbele binding. <strong>Een eliminatie is dan ook het omgekeerde van een additie.</strong>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de <strong>dehydratatie</strong> of <strong>waterafsplitsing</strong> van een alcohol <strong>gaat er water uit en ontstaat er een dubbele binding</strong>: de OH-groep en een waterstofatoom van het buuratoom gaan samen weg. <strong>Het is een eliminatiereactie</strong> en <strong>er ontstaat een alkeen uit een alcohol</strong>. In het labo heb je daarvoor <strong>geconcentreerd zwavelzuur en warmte</strong> nodig. De dehydratatie van <strong>butaan-2-ol</strong> levert twee verschillende alkenen op, want <strong>het water kan aan twee kanten van de OH-groep weggaan</strong>: je krijgt but-1-een en but-2-een naast elkaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de <strong>dehydrogenatie</strong> gaat er diwaterstof uit. Een <strong>primaire alcohol</strong> wordt dan <strong>een aldehyde</strong> en een <strong>secundaire alcohol</strong> wordt <strong>een keton</strong>; propaan-2-ol geeft propanon en <strong>butaan-2-ol</strong> geeft <strong>butanon</strong>. <strong>Een tertiaire alcohol kan geen dehydrogenatie ondergaan</strong> omdat <strong>het koolstofatoom met de OH-groep geen waterstofatoom meer heeft</strong>: bij zo'n alcohol <strong>draagt dat koolstofatoom drie koolstofketens</strong>, maar <strong>ze kan wel een dehydratatie ondergaan</strong>, want daarvoor moet er enkel een waterstofatoom op een buuratoom zitten. Bij een <strong>secundaire alcohol</strong> zitten er <strong>twee</strong> koolstofketens aan dat koolstofatoom; bij een primaire één."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ook bij een halogeenalkaan kan je elimineren: uit broomethaan ontstaat <strong>etheen</strong>, want het broomatoom en een waterstofatoom van het buuratoom gaan samen weg als HBr. <strong>Dat verloopt niet zonder base</strong>: de base haalt juist dat waterstofatoom weg, en zonder base verloopt eerder een nucleofiele substitutie. <strong>Een eliminatie bij een alcohol en een eliminatie bij een halogeenalkaan geven beide een alkeen.</strong>"
+    }
+   ]
+  },
+  {
+   "kop": "Oxideren en condenseren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De oxidatieladder van een primaire alcohol loopt van alcohol over aldehyde naar carbonzuur. Oxideer je <strong>propaan-1-ol</strong> voorzichtig, dan ontstaat er eerst <strong>propanal</strong>. <strong>Bij de oxidatie van een primaire alcohol kan je wel stoppen bij het aldehyde</strong>, met een voorzichtige oxidator en door het aldehyde af te destilleren. Oxideer je <strong>volledig</strong>, dan krijg je <strong>een carbonzuur</strong>; daarom wordt wijn die te lang openstaat azijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>condensatie tussen een carbonzuur en een alcohol</strong> ontstaan er <strong>een ester</strong> en <strong>water</strong>: de OH van het zuur en de H van de alcohol gaan samen weg, en wat overblijft koppelt tot de ester."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Additie opent de pi-binding; er gaat niets weg.",
+  "Broomwater ontkleurt bij een onverzadigde stof.",
+  "Verzadigingsgraad: alkeen één, alkyn twee, alkaan nul.",
+  "Markownikov: de waterstof gaat naar de koolstof met het meeste waterstof.",
+  "Alkeen addeert elektrofiel, een C=O-groep nucleofiel.",
+  "Dehydratatie geeft een alkeen, dehydrogenatie een aldehyde of keton.",
+  "Primair geeft aldehyde dan zuur, secundair geeft keton, tertiair geen van beide."
+ ]
+}

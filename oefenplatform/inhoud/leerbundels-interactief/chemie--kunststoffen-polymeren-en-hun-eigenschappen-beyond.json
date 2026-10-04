@@ -1,0 +1,92 @@
+{
+ "vak": "Chemie",
+ "titel": "Kunststoffen: polymeren en hun eigenschappen",
+ "onder": "Van monomeer naar keten, en waarom de ene plooit en de andere niet.",
+ "secties": [
+  {
+   "kop": "Monomeer en polymeer",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>polymeer</strong> is <strong>een heel lange molecule van veel gelijke bouwstenen</strong>. Die bouwsteen heet het <strong>monomeer</strong>: mono betekent één, poly veel, en twee bouwstenen samen vormen een <strong>dimeer</strong>. In één polymeerketen zitten er <strong>duizenden</strong> monomeren. Daarom is de molaire massa van een kunststof enorm en verschilt ze van keten tot keten, en daarom <strong>heeft een kunststof geen scherp smeltpunt zoals een zout</strong> maar een <strong>smelttraject</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>De eigenschappen van een kunststof volgen uit de bouw van haar ketens</strong>: de lengte van de ketens, hun zijgroepen en het aantal crosslinks bepalen of het materiaal hard, buigzaam of elastisch is."
+    }
+   ]
+  },
+  {
+   "kop": "Twee manieren om te polymeriseren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>polymerisatie</strong> of <strong>polyadditie</strong> <strong>gaan de dubbele bindingen open en komt er geen bijproduct vrij</strong>. <strong>Bij een polyadditie zit de volledige massa van de monomeren in het polymeer</strong>, dus is de atoomeconomie heel hoog. Een <strong>monomeer voor een polyadditie moet een dubbele binding hebben</strong>, want die levert de twee nieuwe bindingen naar de buren; een verzadigd alkaan kan dus niet polymeriseren."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>polycondensatie</strong> verdwijnt er bij elke koppeling een kleine molecule, meestal <strong>water</strong>. Daarom zit niet alle massa van de monomeren in het polymeer. <strong>PET</strong> en <strong>PA of nylon</strong> worden zo gemaakt; PE en PS komen van een polyadditie. <strong>Nylon heeft twee verschillende monomeren nodig</strong> omdat <strong>een amidebinding ontstaat tussen een zuurgroep en een aminegroep</strong>: het ene monomeer brengt de COOH-groepen aan, het andere de NH₂-groepen. <strong>PET</strong> <strong>wordt gemaakt uit een tweewaardige alcohol en een tweewaardig zuur</strong> en <strong>wordt met een polycondensatie gemaakt</strong>; de esterbindingen geven het zijn naam, polyethyleentereftalaat, en daarom kan je het ook weer afbreken met water."
+    },
+    {
+     "soort": "tekst",
+     "html": "Om het monomeer uit de structuur van een polyadditiepolymeer terug te vinden, <strong>neem je het stukje dat zich herhaalt en zet je de dubbele binding terug</strong>. Dat herhalende stukje heet de <strong>repeterende eenheid</strong>: bij PVC is dat CH₂-CHCl, en dus is het monomeer chlooretheen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De monomeren om te kennen: <strong>PE</strong> komt van <strong>etheen</strong>, met <strong>een polyadditie</strong>; <strong>PVC</strong> van <strong>chlooretheen</strong>, ook wel vinylchloride, vandaar de naam; <strong>PP</strong> van <strong>propeen</strong>, waarvan de methylgroep als zijgroep in de keten hangt en PP steviger maakt dan PE; <strong>PS</strong> van <strong>fenyletheen</strong> of styreen, een etheenmolecule met een benzeenring eraan; en <strong>PTFE</strong> van <strong>tetrafluoretheen</strong>, waarin alle vier de waterstofatomen van etheen vervangen zijn door fluor. <strong>PVC en PE hebben dus niet hetzelfde monomeer</strong>: dat ene chlooratoom maakt de eigenschappen helemaal anders."
+    }
+   ]
+  },
+  {
+   "kop": "Thermoplast, thermoharder en elastomeer",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De bruggen tussen de ketens heten <strong>crosslinks</strong> of <strong>dwarsverbindingen</strong>. Veel crosslinks geven een thermoharder, enkele een elastomeer en geen een thermoplast."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>thermoplast</strong> <strong>wordt zacht bij verwarmen en is opnieuw te vormen</strong>: <strong>de ketens liggen los naast elkaar</strong> en <strong>worden enkel door intermoleculaire krachten samengehouden</strong>, dus verbreekt verwarmen die zwakke krachten en niet de bindingen in de ketens zelf. PE, PP, PET, PVC en PS horen daarbij."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>thermoharder</strong> <strong>ontleedt of verbrandt zonder eerst te smelten</strong>, want de ketens zitten met veel crosslinks vast aan elkaar en kunnen niet verschuiven. <strong>Je kan hem dus niet opnieuw in een andere vorm persen.</strong> Voor een <strong>tandwiel</strong> is een thermoharder beter omdat hij <strong>niet vervormt als het mechanisme warm wordt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>elastomeer</strong> <strong>vervormt onder een kracht en veert daarna terug</strong>, want enkele crosslinks houden de ketens samen en laten ze toch uitrekken. Wil je een voorwerp dat terugveert na het indrukken, dan kies je dus <strong>een elastomeer</strong>. <strong>Gevulkaniseerd rubber heeft wel crosslinks</strong>, namelijk bruggen van zwavel, en die maken van kleverig natuurrubber een elastomeer dat terugveert."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een thermoplast is beter te recycleren dan een thermoharder</strong>, want hij kan opnieuw gesmolten en gevormd worden; een thermoharder kan alleen nog vermalen worden als vulstof. Bij recycleren geldt verder: <strong>gesorteerde, zuivere kunststof levert een beter product op</strong> en <strong>een thermoplast kan opnieuw gesmolten worden</strong>. Gemengde kunststof geeft een materiaal van mindere kwaliteit, en dat heet downcycling."
+    }
+   ]
+  },
+  {
+   "kop": "Welke kunststof waarvoor",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>PE</strong> zit in een <strong>plastic zak</strong>: zacht, buigzaam en goedkoop, met een hardere variant voor flessen en emmers. <strong>PET</strong> is de kunststof voor <strong>drankflessen</strong>, want het is sterk, doorzichtig en laat weinig gas door; daarom staat de recyclagecode 1 erop. <strong>PVC</strong> dient onder meer voor <strong>buizen voor afvoer</strong> en <strong>profielen voor een raam</strong>, want het is stevig en weerbestendig."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>PS-schuim</strong> dient als verpakking omdat <strong>het heel licht is en tegen stoten beschermt</strong>: het bestaat bijna volledig uit lucht. <strong>PUR</strong> of <strong>polyurethaan</strong> is het <strong>isolatieschuim</strong> in een huis, want de kleine gasbelletjes geleiden de warmte slecht. <strong>PTFE</strong> of teflon zit in de <strong>antikleeflaag van een pan</strong>: de fluoratomen maken het oppervlak heel apolair, dus blijft er niets aan plakken. En <strong>PA</strong> of <strong>nylon</strong> dient voor <strong>kleding en touw</strong>, want de amidebindingen maken de vezel sterk — dezelfde soort binding als in een eiwit."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Microplastics zijn een probleem</strong> omdat <strong>ze niet afbreken en in het water en in de voedselketen terechtkomen</strong>: de ketens zijn zo stabiel dat bacteriën er niet aan kunnen, en daarom blijven de deeltjes honderden jaren rondzwerven."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Monomeer is de bouwsteen, polymeer de lange keten van duizenden ervan.",
+  "Polyadditie: dubbele binding open, geen bijproduct. Polycondensatie: water eruit.",
+  "PE etheen, PVC chlooretheen, PP propeen, PS fenyletheen, PTFE tetrafluoretheen.",
+  "PET en nylon komen van een polycondensatie.",
+  "Geen crosslinks: thermoplast. Enkele: elastomeer. Veel: thermoharder.",
+  "Een thermoplast is herbruikbaar, een thermoharder niet.",
+  "Een kunststof heeft een smelttraject, geen scherp smeltpunt."
+ ]
+}
