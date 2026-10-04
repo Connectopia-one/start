@@ -157,16 +157,21 @@ const EIGENNAAMSTAMMEN = [
 
 /* "breuken-en-kommagetallen.pdf" wordt "Breuken en kommagetallen". Een
    categorie achteraan ("maten-omzetten-basis.pdf") dient enkel om de bestanden
-   uit elkaar te houden en hoort niet in de titel die een kind ziet. */
+   uit elkaar te houden en hoort niet in de titel die een kind ziet.
+
+   De categorie gaat er af zolang de streepjes er nog in staan. Slugs als
+   "boost-doorstroom" bestaan uit twee woorden, en wie eerst de streepjes door
+   spaties verving, herkende die niet meer: dan bleef "boost doorstroom"
+   gewoon in de titel staan. */
 function titelUitBestandsnaam(bestandsnaam: string): string {
   const kaal = bestandsnaam
     .replace(/\.[a-z0-9]+$/i, "")
-    .replace(/[_-]+/g, " ")
-    .trim()
     .replace(
-      new RegExp(`\\s+(${NIVEAUS.map((n) => n.slug).join("|")})$`, "i"),
+      new RegExp(`[_-](${NIVEAUS.map((n) => n.slug).join("|")})$`, "i"),
       "",
-    );
+    )
+    .replace(/[_-]+/g, " ")
+    .trim();
   return metHoofdletters(kaal);
 }
 
@@ -182,9 +187,20 @@ export function metHoofdletters(tekst: string): string {
 
 /* Is dit een nieuwe versie van iets wat er al hangt, of komt het ernaast?
    Vroeger ging dit enkel op "staat er al iets", waardoor een oefenbundel de
-   leerbundel van hetzelfde hoofdstuk zou wissen. De titel beslist nu mee. */
+   leerbundel van hetzelfde hoofdstuk zou wissen. De titel beslist nu mee.
+
+   De naam van de categorie telt daarbij niet mee. Bundels die opgeladen zijn
+   toen die naam nog in de titel bleef hangen, heten nog "… boost doorstroom";
+   zonder deze uitzondering zou dezelfde pdf opnieuw opladen naast de oude
+   komen in plaats van die te vervangen. */
+const NIVEAUWOORDEN = new Set(NIVEAUS.flatMap((n) => n.slug.split("-")));
+
 function vervangtBestaande(titel: string, bestaande: Bundel[]): boolean {
-  const kaal = (t: string) => woorden(t).join(" ");
+  const kaal = (t: string) => {
+    const w = woorden(t);
+    while (w.length > 1 && NIVEAUWOORDEN.has(w[w.length - 1])) w.pop();
+    return w.join(" ");
+  };
   const nieuw = kaal(titel);
   return bestaande.some((b) => kaal(b.titel) === nieuw);
 }

@@ -17,10 +17,26 @@ export default async function BeheerLeerstofPage() {
 
   // Welke bundels staan er al? Daarmee kan het formulier waarschuwen dat een
   // hoofdstuk er al een heeft, en aanbieden om die te vervangen.
-  const { data: bundels } = await supabase
-    .from("leerstof")
-    .select("id, hoofdstuk_id, titel, created_at")
-    .order("created_at", { ascending: true });
+  //
+  // Dit haalt ze in schijven op. Supabase geeft per verzoek hoogstens duizend
+  // rijen terug, en er hangen er intussen meer dan dat. Met één verzoek kreeg
+  // je dus de duizend óúdste, waardoor een vak dat je net opgeladen had hier
+  // helemaal leeg leek te zijn. Sorteren op created_at alleen is niet genoeg:
+  // twee bundels van dezelfde seconde zouden tussen twee schijven kunnen
+  // wisselen van plaats, vandaar id erbij.
+  const SCHIJF = 1000;
+  const bundels: Bundel[] = [];
+  for (let begin = 0; ; begin += SCHIJF) {
+    const { data, error } = await supabase
+      .from("leerstof")
+      .select("id, hoofdstuk_id, titel, created_at")
+      .order("created_at", { ascending: true })
+      .order("id", { ascending: true })
+      .range(begin, begin + SCHIJF - 1);
+    if (error || !data?.length) break;
+    bundels.push(...(data as Bundel[]));
+    if (data.length < SCHIJF) break;
+  }
 
   return (
     <>
@@ -51,7 +67,7 @@ export default async function BeheerLeerstofPage() {
             .
           </p>
         ) : (
-          <BulkLeerstofForm vakken={lijst} bundels={(bundels as Bundel[] | null) ?? []} />
+          <BulkLeerstofForm vakken={lijst} bundels={bundels} />
         )}
       </main>
     </>
