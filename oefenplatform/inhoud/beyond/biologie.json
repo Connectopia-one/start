@@ -1,0 +1,3960 @@
+{
+  "hoofdstukken": [
+    {
+      "titel": "De cel, de organellen en de biologische membranen — deel 1",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke reeks zet de biologische organisatieniveaus van klein naar groot?",
+          "opties": [
+            "atoom, molecule, organel, cel, weefsel, orgaan, organisme",
+            "cel, atoom, molecule, organel, weefsel, orgaan, organisme",
+            "molecule, atoom, cel, organel, orgaan, weefsel, organisme",
+            "organel, atoom, molecule, cel, orgaan, weefsel, organisme"
+          ],
+          "antwoord": 0,
+          "uitleg": "De reeks loopt van atoom tot biosfeer. Een atoom zit in een molecule, moleculen vormen een organel, organellen een cel, cellen een weefsel, weefsels een orgaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat heeft een prokaryote cel niet? Kruis alles aan wat juist is.",
+          "opties": [
+            "een kern met een kernmembraan",
+            "mitochondria",
+            "ribosomen",
+            "een celmembraan"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Een prokaryote cel heeft geen kernmembraan en geen membraanorganellen, dus ook geen mitochondria. Ribosomen en een celmembraan heeft ze wel."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet het organel waarin de ribosomen gemaakt worden? Het ligt in de kern.",
+          "antwoord": [
+            "nucleolus",
+            "kernlichaampje"
+          ],
+          "uitleg": "De nucleolus of het kernlichaampje is de plaats in de kern waar het ribosomaal RNA gemaakt wordt en waar de ribosomen in elkaar gezet worden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk organel breekt versleten celonderdelen af met behulp van enzymen?",
+          "opties": [
+            "het lysosoom",
+            "het ribosoom",
+            "het centrosoom",
+            "het transportblaasje"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een lysosoom is een blaasje vol afbrekende enzymen. Het ruimt versleten organellen en opgenomen deeltjes op."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een ribosoom is een organel zonder membraan.",
+          "antwoord": true,
+          "uitleg": "Een ribosoom bestaat uit rRNA en eiwitten, zonder membraan erom. Daarom hebben ook prokaryote cellen ribosomen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarin verschilt het ruw endoplasmatisch reticulum van het gladde?",
+          "opties": [
+            "er zitten ribosomen op het ruwe",
+            "het ruwe ligt altijd buiten de cel",
+            "het ruwe heeft geen membraan",
+            "het ruwe bevat het DNA van de cel"
+          ],
+          "antwoord": 0,
+          "uitleg": "De ribosomen op het ruw ER maken het korrelig onder de microscoop. Daar worden eiwitten gemaakt; het glad ER maakt vooral lipiden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet het Golgi-apparaat?",
+          "opties": [
+            "het werkt eiwitten af en verpakt ze in blaasjes",
+            "het maakt het DNA van de cel na",
+            "het breekt glucose af tot pyruvaat",
+            "het vangt zonlicht op voor de fotosynthese"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het Golgi-apparaat werkt eiwitten uit het ER verder af, sorteert ze en stuurt ze in transportblaasjes naar hun bestemming."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In welk organel gebeuren de Krebscyclus en de eindoxidaties?",
+          "antwoord": [
+            "mitochondrion",
+            "mitochondrie",
+            "mitochondriën"
+          ],
+          "uitleg": "Het mitochondrion is de plaats van de aerobe celademhaling. De Krebscyclus speelt in de matrix, de eindoxidaties op de cristae."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De vacuole van een plantencel houdt mee de stevigheid van de cel in stand.",
+          "antwoord": true,
+          "uitleg": "Een volle vacuole duwt met haar waterdruk tegen de celwand. Die turgor houdt het blad stevig; valt ze weg, dan verslapt de plant."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een cel maakt heel veel eiwitten om uit te scheiden. Welke organellen zijn dan rijk aanwezig? Kruis alles aan wat juist is.",
+          "opties": [
+            "het ruw endoplasmatisch reticulum",
+            "het Golgi-apparaat",
+            "de chloroplasten",
+            "de celwand"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Het ruw ER maakt de eiwitten en het Golgi-apparaat werkt ze af en verpakt ze. Een kliercel heeft daar veel van. Chloroplasten en een celwand horen bij een plantencel, niet bij uitscheiding."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de functie van een centriool?",
+          "opties": [
+            "de spoeldraden vastmaken bij een celdeling",
+            "de cel van energie voorzien",
+            "het afval van de cel afbreken",
+            "de eiwitten van de cel sorteren"
+          ],
+          "antwoord": 0,
+          "uitleg": "De twee centriolen van het centrosoom vormen het aangrijpingspunt van de microtubuli die de chromosomen uit elkaar trekken."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een transportblaasje of vesikel verplaatst stoffen binnen de cel.",
+          "antwoord": true,
+          "uitleg": "Een vesikel is een membraanblaasje. Het brengt stoffen van het ER naar het Golgi-apparaat, en van daar naar het celmembraan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom heeft een cel een kernmembraan?",
+          "opties": [
+            "om het DNA van het cytoplasma te scheiden",
+            "om de cel haar stevigheid te geven",
+            "om zonlicht op te vangen",
+            "om de cel te laten bewegen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het kernmembraan houdt het DNA apart, zodat de transcriptie in de kern gebeurt en de translatie pas erbuiten. Zo kan de cel de twee stappen apart regelen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men de openingen in het kernmembraan waarlangs het mRNA de kern verlaat?",
+          "antwoord": [
+            "kernporiën",
+            "kernporen",
+            "kernporie"
+          ],
+          "uitleg": "Door de kernporiën gaan mRNA en ribosomale onderdelen naar buiten en enzymen naar binnen. Het membraan is daardoor niet dicht."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een cel is bijzonder rijk aan mitochondria. Wat zegt dat over die cel?",
+          "opties": [
+            "ze verbruikt veel energie",
+            "ze maakt veel suiker aan",
+            "ze deelt zich bijna nooit",
+            "ze heeft geen kern"
+          ],
+          "antwoord": 0,
+          "uitleg": "Mitochondria leveren ATP. Een spiercel of een zenuwcel heeft er veel, want die verbruiken onafgebroken energie."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het cytoplasma is alles binnen het celmembraan, de kern inbegrepen.",
+          "antwoord": false,
+          "uitleg": "Het cytoplasma is alles binnen het celmembraan buiten de kern. De kern wordt er dus niet bij gerekend."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk verband tussen structuur en functie klopt?",
+          "opties": [
+            "de cristae van een mitochondrion vergroten het oppervlak voor de eindoxidaties",
+            "de cristae van een mitochondrion houden het DNA van de cel bij elkaar",
+            "de cristae van een mitochondrion maken de cel stevig",
+            "de cristae van een mitochondrion vangen het licht op"
+          ],
+          "antwoord": 0,
+          "uitleg": "De cristae zijn de inplooiingen van het binnenmembraan. Meer oppervlak betekent plaats voor meer elektronentransportketens en ATP-synthase."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een lysosoom en een vacuole doen in een cel precies hetzelfde.",
+          "antwoord": false,
+          "uitleg": "Een lysosoom breekt af met enzymen. Een vacuole slaat vooral water en stoffen op en zorgt bij een plant voor de turgor."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraak over het celmembraan is juist?",
+          "opties": [
+            "het laat sommige stoffen door en andere niet",
+            "het laat alle stoffen even goed door",
+            "het laat helemaal niets door",
+            "het bestaat uit cellulose"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het celmembraan is semi-permeabel of halfdoorlaatbaar. Water en kleine apolaire moleculen gaan er zelf door, ionen en grote moleculen niet."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet het geheel van vezels dat de cel haar vorm geeft en haar organellen op hun plaats houdt?",
+          "antwoord": [
+            "cytoskelet"
+          ],
+          "uitleg": "Het cytoskelet bestaat uit microtubuli, microfilamenten en intermediaire filamenten. Het geeft vorm, houdt organellen vast en laat beweging toe."
+        }
+      ]
+    },
+    {
+      "titel": "De cel, de organellen en de biologische membranen — deel 2",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke plastide slaat zetmeel op?",
+          "opties": [
+            "de amyloplast",
+            "de chloroplast",
+            "de chromoplast",
+            "het lysosoom"
+          ],
+          "antwoord": 0,
+          "uitleg": "Amylum is het Latijnse woord voor zetmeel. In een aardappelknol zitten de amyloplasten vol zetmeelkorrels."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke plastiden geven een vrucht of een bloem haar kleur?",
+          "opties": [
+            "de chromoplasten",
+            "de leukoplasten",
+            "de amyloplasten",
+            "de lysosomen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Chromoplasten bevatten gele, oranje en rode pigmenten. Een rijpe tomaat krijgt haar kleur doordat chloroplasten tot chromoplasten omgevormd worden."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een leukoplast is een kleurloze plastide.",
+          "antwoord": true,
+          "uitleg": "Leukos betekent wit. Een leukoplast heeft geen pigment en dient vooral om voorraad op te slaan; een amyloplast is er een soort van."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke onderdelen van het cytoskelet zijn de dikste en dienen als spoeldraad bij een celdeling?",
+          "opties": [
+            "de microtubuli",
+            "de microfilamenten",
+            "de intermediaire filamenten",
+            "de plasmodesmata"
+          ],
+          "antwoord": 0,
+          "uitleg": "Microtubuli zijn holle buisjes van tubuline. Ze vormen de spoelfiguur en liggen ook in trilharen en in de staart van een zaadcel."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk eiwit vormt de microfilamenten van het cytoskelet?",
+          "antwoord": [
+            "actine"
+          ],
+          "uitleg": "Microfilamenten bestaan uit actine. Ze liggen vooral net onder het celmembraan en zorgen voor vormverandering en beweging van de cel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat heeft een plantencel wel en een dierlijke cel niet? Kruis alles aan wat juist is.",
+          "opties": [
+            "een celwand",
+            "chloroplasten",
+            "mitochondria",
+            "een celmembraan"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Een celwand en chloroplasten horen bij een plantencel. Mitochondria en een celmembraan heeft een dierlijke cel evengoed."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een dierlijke cel heeft nooit een vacuole.",
+          "antwoord": false,
+          "uitleg": "Een dierlijke cel heeft wel kleine blaasjes die als vacuole werken. Wat ze mist, is de ene grote centrale vacuole van een plantencel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarop steunt de endosymbiosetheorie? Kruis alles aan wat juist is.",
+          "opties": [
+            "een mitochondrion heeft zijn eigen DNA",
+            "een mitochondrion heeft een dubbel membraan",
+            "een mitochondrion wordt door het Golgi-apparaat gemaakt",
+            "een mitochondrion ontstaat uit het kernmembraan"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Eigen DNA, eigen ribosomen, een dubbel membraan en deling door tweedeling wijzen erop dat mitochondria en chloroplasten ooit vrij levende bacteriën waren die door een grotere cel opgenomen werden."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet het model dat de bouw van een biologische membraan beschrijft?",
+          "antwoord": [
+            "vloeibaar mozaïekmodel",
+            "mozaïekmodel",
+            "vloeibaar mozaiekmodel"
+          ],
+          "uitleg": "Het vloeibaar mozaïekmodel ziet het membraan als een dubbellaag fosfolipiden waarin eiwitten als stukjes van een mozaïek liggen en kunnen bewegen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom vormen fosfolipiden in water van zichzelf een dubbellaag?",
+          "opties": [
+            "hun kop is hydrofiel en hun staarten zijn hydrofoob",
+            "ze zijn allemaal volledig hydrofiel",
+            "ze zijn allemaal volledig hydrofoob",
+            "ze hebben een positieve lading over hun hele lengte"
+          ],
+          "antwoord": 0,
+          "uitleg": "De fosfaatkoppen gaan naar het water, de vetzuurstaarten keren zich van het water af. Twee lagen met de staarten naar elkaar is dan de stabielste vorm."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Cholesterol in een dierlijk membraan regelt mee hoe vloeibaar dat membraan is.",
+          "antwoord": true,
+          "uitleg": "Cholesterol schuift tussen de vetzuurstaarten. Het houdt het membraan soepel bij lage temperatuur en stijver bij hoge."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk eiwit van het membraan steekt helemaal door de dubbellaag?",
+          "opties": [
+            "het transmembraaneiwit",
+            "het perifere eiwit",
+            "het ribosomale eiwit",
+            "het histon"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een transmembraaneiwit loopt van de ene kant naar de andere en kan zo een kanaal of een pomp vormen. Een perifeer eiwit ligt alleen tegen één kant aan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de functie van de glycocalyx aan de buitenkant van een cel?",
+          "opties": [
+            "cellen laten herkennen door andere cellen",
+            "ATP aanmaken voor de cel",
+            "het DNA van de cel verdubbelen",
+            "water uit de cel pompen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De glycocalyx is de laag suikerketens op de membraaneiwitten en -lipiden. Daar steunt onder meer de herkenning van bloedgroepen op."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een receptoreiwit in het membraan vangt een signaalstof op.",
+          "antwoord": true,
+          "uitleg": "Een receptoreiwit past op één signaalstof, bijvoorbeeld een hormoon. Past die erin, dan geeft het eiwit het signaal door naar binnen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waaruit bestaat de celwand van een plant?",
+          "opties": [
+            "cellulose",
+            "peptidoglycaan",
+            "chitine",
+            "cholesterol"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een plantencelwand bestaat vooral uit cellulose. Een bacterie gebruikt peptidoglycaan en een schimmel chitine."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Waaruit bestaat de celwand van een schimmel?",
+          "antwoord": [
+            "chitine"
+          ],
+          "uitleg": "Chitine is dezelfde stof als in het uitwendig skelet van een insect. Een plant gebruikt cellulose en een bacterie peptidoglycaan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat zijn plasmodesmata?",
+          "opties": [
+            "openingen tussen twee plantencellen",
+            "de pigmenten van een chloroplast",
+            "de enzymen van een lysosoom",
+            "de staartjes van een zaadcel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Plasmodesmata zijn kanaaltjes door de celwand heen. Daardoor staat het cytoplasma van naburige plantencellen met elkaar in verbinding."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De celwand van een plant is halfdoorlaatbaar en bepaalt welke stoffen de cel in mogen.",
+          "antwoord": false,
+          "uitleg": "De celwand is vooral stevig en laat water en opgeloste stoffen gewoon door. Het celmembraan eronder beslist wat er binnen mag."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is een membraan dat vloeibaar is nuttig voor de cel?",
+          "opties": [
+            "de eiwitten erin kunnen zich verplaatsen",
+            "het membraan kan dan geen stoffen tegenhouden",
+            "de cel heeft dan geen cytoskelet meer nodig",
+            "het membraan hoeft dan geen lipiden te bevatten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Omdat de lipiden langs elkaar schuiven, kunnen de eiwitten bewegen, kan het membraan zich herstellen en kan het blaasjes afsnijden of opnemen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraken over een biologische membraan zijn juist? Kruis alles aan wat juist is.",
+          "opties": [
+            "het omgeeft ook organellen binnen de cel",
+            "het is opgebouwd uit twee lagen lipiden",
+            "het bestaat uit één laag eiwitten",
+            "het komt enkel bij plantencellen voor"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Niet alleen het celmembraan maar ook het kernmembraan en de membranen van de organellen zijn zulke dubbellagen. Ze komen bij elke cel voor."
+        }
+      ]
+    },
+    {
+      "titel": "Celdifferentiatie, weefsels en celtypes — deel 1",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke reeks beschrijft de groei van een plantencel?",
+          "opties": [
+            "celdeling, celstrekking, celdifferentiatie",
+            "celdifferentiatie, celdeling, celstrekking",
+            "celstrekking, celdifferentiatie, celdeling",
+            "celdifferentiatie, celstrekking, celdeling"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst deelt de cel, dan rekt ze uit doordat haar vacuole water opneemt, en pas daarna krijgt ze haar definitieve vorm en taak."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heten de cellen in een plant die zich blijven delen, bijvoorbeeld in de worteltop?",
+          "antwoord": [
+            "meristeemcellen",
+            "meristeem"
+          ],
+          "uitleg": "Meristeemcellen zijn de nog niet gedifferentieerde cellen van een plant. Ze liggen in de toppen van stengel en wortel en in het cambium."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is celdifferentiatie?",
+          "opties": [
+            "een cel krijgt een vorm en een taak",
+            "een cel deelt zich in twee dochtercellen",
+            "een cel neemt water op en rekt uit",
+            "een cel wordt door een lysosoom afgebroken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij differentiatie gaan in een cel andere genen aan en andere uit. Zo wordt uit dezelfde erfelijke informatie een spiercel of een zenuwcel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is kenmerkend voor een stamcel? Kruis alles aan wat juist is.",
+          "opties": [
+            "ze kan zich blijven delen",
+            "ze kan nog verschillende celtypes worden",
+            "ze heeft geen kern",
+            "ze is altijd een spiercel"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Een stamcel is nog niet gedifferentieerd en blijft deelbaar. Daarom kan ze een voorraad vormen waaruit nieuwe gespecialiseerde cellen ontstaan."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een plant zit er tussen de celdeling en de celdifferentiatie een stamcelstadium.",
+          "antwoord": false,
+          "uitleg": "Dat is de weg bij een dier. Bij een plant komt daar celstrekking in de plaats: de cel neemt water op en rekt uit voor ze haar taak krijgt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarvoor kan stamceltherapie gebruikt worden? Kruis alles aan wat juist is.",
+          "opties": [
+            "beschadigd weefsel vervangen",
+            "nieuwe bloedcellen laten aanmaken",
+            "de bloedgroep van iemand veranderen",
+            "een virus sneller doen groeien"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Bij een beenmergtransplantatie krijgt iemand bloedstamcellen die weer nieuwe bloedcellen aanmaken. Hetzelfde idee loopt bij onderzoek naar huid, hoornvlies en hartspier."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men een organisme dat erfelijk helemaal gelijk is aan het organisme waaruit het komt?",
+          "antwoord": [
+            "kloon",
+            "een kloon"
+          ],
+          "uitleg": "Een kloon heeft hetzelfde DNA als zijn ouderorganisme. Bij planten komt dat van nature voor, bij dieren moet het kunstmatig gebeuren."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe kloneert een tuinder een plant?",
+          "opties": [
+            "door een stek of een scheut te laten wortelen",
+            "door twee planten met elkaar te kruisen",
+            "door zaad van twee ouders te zaaien",
+            "door stuifmeel op een stamper te brengen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een stek, een uitloper of een knol geeft een plant met hetzelfde DNA. Zaad uit een kruising geeft juist nieuwe combinaties, dus geen kloon."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een kloon van een plant kan uit één enkele gedifferentieerde cel groeien.",
+          "antwoord": true,
+          "uitleg": "Plantencellen blijven totipotent: ze kunnen weer alles worden. In een weefselkweek groeit uit een paar cellen een volledige nieuwe plant."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk weefsel van een plant beschermt haar tegen uitdroging?",
+          "opties": [
+            "het huidweefsel",
+            "het transportweefsel",
+            "het grondweefsel",
+            "het meristeem"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het huidweefsel ligt aan de buitenkant. Op het blad maken de epidermiscellen een waslaag of cuticula die water binnenhoudt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet de waslaag op de epidermis van een blad?",
+          "antwoord": [
+            "cuticula",
+            "waslaag"
+          ],
+          "uitleg": "De cuticula is een dun vetachtig laagje op de epidermis. Ze laat geen water door, waardoor het blad niet uitdroogt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke cellen van een plant transporteren water en mineralen van de wortel naar het blad?",
+          "opties": [
+            "de xyleemcellen",
+            "de floëemcellen",
+            "de epidermiscellen",
+            "de collenchymcellen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Xyleem of houtvaten vervoeren water en mineralen omhoog. Het floëem of de zeefvaten vervoeren de gemaakte suikers in beide richtingen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De xyleemcellen zijn bij volle werking dode cellen zonder inhoud.",
+          "antwoord": true,
+          "uitleg": "Een rijpe houtvat heeft geen cytoplasma meer: er blijft een holle buis met verstevigde wand over. Daardoor stroomt het water er bijna zonder weerstand door."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom staan de cellen van een vaatbundel in een bundel bij elkaar?",
+          "opties": [
+            "transport en stevigheid gaan dan samen",
+            "zo kan de plant beter fotosynthese doen",
+            "zo blijven de huidmondjes gesloten",
+            "zo kan de wortel sneller delen"
+          ],
+          "antwoord": 0,
+          "uitleg": "In een vaatbundel liggen xyleem, floëem en steunweefsel samen. De dikke wanden van het xyleem geven de stengel mee zijn stevigheid."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke cellen horen bij het grondweefsel van een plant? Kruis alles aan wat juist is.",
+          "opties": [
+            "parenchymcellen",
+            "sclerenchymcellen",
+            "zeefvaten",
+            "wortelharen"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Het grondweefsel bestaat uit parenchym, collenchym en sclerenchym. Zeefvaten horen bij het transportweefsel en wortelharen bij het huidweefsel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de functie van sclerenchymcellen?",
+          "opties": [
+            "de plant stevigheid geven",
+            "suikers vervoeren",
+            "licht opvangen",
+            "water opnemen uit de bodem"
+          ],
+          "antwoord": 0,
+          "uitleg": "Sclerenchymcellen hebben een sterk verdikte, verhoute wand en zijn meestal dood. Ze dienen alleen nog als steun, bijvoorbeeld in vlasvezels."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Wortelharen vergroten het oppervlak waarmee een plant water opneemt.",
+          "antwoord": true,
+          "uitleg": "Een wortelhaar is een lange uitloper van een rhizodermiscel. Duizenden ervan maken het contactoppervlak met de bodem veel groter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar liggen de huidmondjes van een blad meestal?",
+          "opties": [
+            "aan de onderkant",
+            "aan de bovenkant",
+            "in de nerven",
+            "in de wortel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Aan de onderkant is er minder zon en minder wind, dus verliest het blad daar minder water bij hetzelfde gasuitwisseling."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet een huidmondje?",
+          "opties": [
+            "gassen in en uit het blad laten",
+            "suikers naar de wortel vervoeren",
+            "het blad stevigheid geven",
+            "licht opvangen voor de fotosynthese"
+          ],
+          "antwoord": 0,
+          "uitleg": "Door een huidmondje gaat koolstofdioxide naar binnen en zuurstof en waterdamp naar buiten. De twee sluitcellen kunnen de opening dichtzetten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij droogte zet een plant haar huidmondjes wijder open.",
+          "antwoord": false,
+          "uitleg": "Bij droogte sluit de plant ze juist, om water te sparen. Dat remt dan wel de fotosynthese, want er komt minder koolstofdioxide binnen."
+        }
+      ]
+    },
+    {
+      "titel": "Celdifferentiatie, weefsels en celtypes — deel 2",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk deel van een blad bevat de meeste chloroplasten?",
+          "opties": [
+            "het palissadeparenchym",
+            "de cuticula",
+            "de epidermis aan de onderkant",
+            "het xyleem"
+          ],
+          "antwoord": 0,
+          "uitleg": "De palissadecellen liggen net onder de bovenste epidermis, rechtop en dicht tegen elkaar. Daar valt het meeste licht, dus daar zit het meeste chlorofyl."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk weefsel van een blad heeft veel luchtruimten tussen de cellen, zodat gassen er door kunnen?",
+          "antwoord": [
+            "sponsparenchym",
+            "sponsweefsel"
+          ],
+          "uitleg": "Het sponsparenchym ligt onder het palissadeparenchym. Zijn luchtholten staan in verbinding met de huidmondjes, zodat gassen tot bij elke cel komen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet de cortex in een wortel?",
+          "opties": [
+            "water en stoffen naar de vaatbundel brengen",
+            "licht opvangen voor de fotosynthese",
+            "de bloem laten openen",
+            "zaad maken"
+          ],
+          "antwoord": 0,
+          "uitleg": "De cortex is het grondweefsel tussen de wortelhuid en de vaatbundel. Water dat de wortelharen opnamen, gaat erdoor naar het xyleem."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een stengel heeft onder andere als taak het blad naar het licht te brengen.",
+          "antwoord": true,
+          "uitleg": "De stengel draagt de bladeren en zet ze in het licht, en vervoert tegelijk water omhoog en suikers naar beneden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke weefsels komen bij een dier voor? Kruis alles aan wat juist is.",
+          "opties": [
+            "epitheelweefsel",
+            "zenuwweefsel",
+            "grondweefsel",
+            "huidmondjesweefsel"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Een dier heeft epitheel-, bind-, spier-, zenuw- en transportweefsel. Grondweefsel en huidmondjes horen bij een plant."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de functie van epitheelweefsel?",
+          "opties": [
+            "oppervlakken bedekken en afschermen",
+            "prikkels doorgeven",
+            "het lichaam doen bewegen",
+            "zuurstof vervoeren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Epitheel bedekt de huid en de binnenkant van darm, longen en bloedvaten. De cellen liggen dicht tegen elkaar, zodat er niets tussendoor lekt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk weefsel verbindt en ondersteunt andere weefsels, en bevat onder meer kraakbeen en bot?",
+          "antwoord": [
+            "bindweefsel",
+            "steunweefsel"
+          ],
+          "uitleg": "Bindweefsel heeft weinig cellen en veel tussenstof. Kraakbeen, bot, vet en bloed worden er allemaal bij gerekend."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom heeft een rode bloedcel bij de mens geen kern?",
+          "opties": [
+            "er is dan meer plaats voor hemoglobine",
+            "ze heeft dan geen zuurstof meer nodig",
+            "ze kan dan sneller delen",
+            "ze kan dan prikkels doorgeven"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zonder kern en zonder organellen is de cel één zak hemoglobine, en kan ze zich ook makkelijker vervormen om door een haarvat te glippen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een rode bloedcel van de mens kan zich niet meer delen.",
+          "antwoord": true,
+          "uitleg": "Zonder kern is er geen DNA om na te maken. Nieuwe rode bloedcellen ontstaan daarom uit stamcellen in het beenmerg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is een zenuwcel zo lang uitgerekt?",
+          "opties": [
+            "om een prikkel over een grote afstand door te geven",
+            "om zuurstof op te slaan",
+            "om zich sneller te kunnen delen",
+            "om water uit het bloed te halen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het axon van één zenuwcel kan bijna een meter lang zijn. Zo gaat een prikkel van het ruggemerg tot in de voet zonder van cel naar cel te moeten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat heeft een spiercel in grote hoeveelheid, en waarom?",
+          "opties": [
+            "mitochondria, want samentrekken kost energie",
+            "chloroplasten, want ze maakt haar eigen suiker",
+            "lysosomen, want ze breekt voedsel af",
+            "vacuolen, want ze moet stevig blijven"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een spiercel heeft onafgebroken ATP nodig om actine en myosine langs elkaar te laten schuiven. Vandaar de vele mitochondria."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Door kraakbeen lopen bloedvaten die de kraakbeencellen van zuurstof voorzien.",
+          "antwoord": false,
+          "uitleg": "Kraakbeen heeft geen bloedvaten. De cellen worden gevoed door stoffen die door de tussenstof heen diffunderen, en daarom herstelt kraakbeen traag."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk celtype van de mens is haploïd?",
+          "opties": [
+            "de geslachtscel",
+            "de epitheelcel",
+            "de spiercel",
+            "de zenuwcel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een ei- of zaadcel heeft 23 chromosomen, de helft van een lichaamscel. Bij de bevruchting komen de twee helften weer samen op 46."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke cellen van de luchtwegen hebben trilharen die slijm naar boven duwen?",
+          "antwoord": [
+            "trilhaarcellen",
+            "trilhaarepitheel",
+            "epitheelcellen"
+          ],
+          "uitleg": "Het trilhaarepitheel van de luchtwegen slaat ritmisch naar boven. Zo wordt slijm met stof en bacteriën richting de keel geduwd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een darmcel heeft aan haar binnenkant duizenden kleine uitsteeksels. Waarom?",
+          "opties": [
+            "om meer voedingsstoffen op te nemen",
+            "om prikkels door te geven",
+            "om zich sneller te delen",
+            "om zuurstof te vervoeren"
+          ],
+          "antwoord": 0,
+          "uitleg": "Die microvilli vergroten het oppervlak enorm. Meer oppervlak betekent meer transporteiwitten en dus meer opname per cel."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Alle cellen van een mens hebben dezelfde genen, maar niet dezelfde genen staan aan.",
+          "antwoord": true,
+          "uitleg": "Elke lichaamscel heeft hetzelfde DNA. Wat een cel tot spiercel of zenuwcel maakt, is welke genen in die cel tot expressie komen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke uitspraken over een weefsel zijn juist? Kruis alles aan wat juist is.",
+          "opties": [
+            "het bestaat uit cellen met een gelijkaardige taak",
+            "verschillende weefsels samen vormen een orgaan",
+            "een weefsel bestaat altijd uit één enkele cel",
+            "een weefsel komt alleen bij dieren voor"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Een weefsel is een groep cellen met dezelfde opdracht. Een orgaan zoals de maag bestaat uit epitheel-, spier-, bind- en zenuwweefsel samen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom kan een gedifferentieerde zenuwcel zich niet meer delen?",
+          "opties": [
+            "ze is uit de celcyclus gestapt",
+            "ze heeft geen DNA meer",
+            "ze heeft geen celmembraan",
+            "ze bevat geen water"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een volledig gedifferentieerde cel blijft in de G0-fase staan. Ze doet haar werk, maar begint niet meer aan een nieuwe celcyclus."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een dier doen het xyleem en het floëem het transport van stoffen.",
+          "antwoord": false,
+          "uitleg": "Xyleem en floëem zijn weefsels van een plant. Bij een dier vervoeren bloed en lymfe de stoffen; dat is zijn transportweefsel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een onderzoeker ziet onder de microscoop cellen met een dikke wand, zonder inhoud, in lange buizen aan elkaar. Welk weefsel is dat?",
+          "opties": [
+            "transportweefsel van een plant",
+            "zenuwweefsel van een dier",
+            "epitheelweefsel van een dier",
+            "meristeem van een plant"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dode cellen met verdikte wand, op elkaar gestapeld tot een buis: dat is het beeld van houtvaten in het xyleem."
+        }
+      ]
+    },
+    {
+      "titel": "Enzymen, transport door membranen en osmose — deel 1",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een enzym?",
+          "opties": [
+            "een eiwit dat een reactie versnelt",
+            "een suiker die energie levert",
+            "een vetzuur in een membraan",
+            "een stuk DNA met een code"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een enzym is een biokatalysator: een eiwit dat een reactie in de cel versnelt zonder er zelf bij op te gaan."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Op welke lettergreep eindigt de naam van bijna elk enzym?",
+          "antwoord": [
+            "ase",
+            "-ase"
+          ],
+          "uitleg": "Lactase, amylase, helicase, polymerase: de uitgang -ase verraadt een enzym, en het eerste deel verwijst naar het substraat of de reactie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het actief centrum van een enzym?",
+          "opties": [
+            "de holte waarin het substraat past",
+            "de kern van het enzym met zijn DNA",
+            "het membraan rond het enzym",
+            "de suikerketen op het enzym"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het actief centrum is het slot en het substraat de sleutel. Alleen een molecule met de juiste vorm past erin."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe noemt men de tijdelijke verbinding van een enzym met zijn substraat?",
+          "opties": [
+            "het enzym-substraatcomplex",
+            "het co-enzym",
+            "de inhibitor",
+            "de cofactor"
+          ],
+          "antwoord": 0,
+          "uitleg": "In het enzym-substraatcomplex zitten de twee even aan elkaar. Daarna laat het enzym de producten los en is het weer vrij."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een enzym verlaagt de activeringsenergie van een reactie.",
+          "antwoord": true,
+          "uitleg": "Door het substraat in de juiste stand te houden, kost het minder energie om de reactie te starten. Daardoor verloopt ze bij lichaamstemperatuur."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een enzym wordt bij de reactie zelf opgebruikt.",
+          "antwoord": false,
+          "uitleg": "Een enzym komt er onveranderd uit en kan meteen een volgend substraat aanpakken. Daarom volstaat er heel weinig van."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent het dat een enzym substraatspecifiek is?",
+          "opties": [
+            "het past maar op één soort molecule",
+            "het werkt bij elke temperatuur",
+            "het zit altijd in een membraan",
+            "het heeft geen cofactor nodig"
+          ],
+          "antwoord": 0,
+          "uitleg": "Lactase splitst lactose en niets anders. De vorm van het actief centrum laat maar één substraat toe."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er met een enzym bij denaturatie?",
+          "opties": [
+            "zijn ruimtelijke vorm gaat verloren",
+            "zijn DNA wordt verdubbeld",
+            "het wordt in een vesikel verpakt",
+            "het wordt tot glucose afgebroken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij hoge temperatuur of een verkeerde zuurtegraad vouwt het eiwit open. Het actief centrum past dan niet meer en het enzym werkt niet meer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een enzym werkt het best bij 37 °C. Wat gebeurt er bij 70 °C? Kruis alles aan wat juist is.",
+          "opties": [
+            "het enzym denatureert",
+            "de reactiesnelheid valt sterk terug",
+            "de reactiesnelheid blijft stijgen",
+            "het enzym wordt substraatspecifieker"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Boven het temperatuursoptimum verliest het eiwit zijn vorm. De curve stijgt dus eerst, bereikt een top en valt daarna steil terug."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men de temperatuur waarbij een enzym het snelst werkt?",
+          "antwoord": [
+            "temperatuursoptimum",
+            "optimum",
+            "temperatuuroptimum"
+          ],
+          "uitleg": "Het temperatuursoptimum is de top van de curve. Bij de mens ligt dat voor de meeste enzymen rond 37 °C."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Pepsine in de maag werkt het best bij pH 2. Wat zegt dat?",
+          "opties": [
+            "elk enzym heeft zijn eigen pH-optimum",
+            "elk enzym werkt het best bij pH 7",
+            "de zuurtegraad doet niets met een enzym",
+            "pepsine is geen enzym"
+          ],
+          "antwoord": 0,
+          "uitleg": "Pepsine hoort in het zure maagsap, trypsine in de basische dunne darm. Buiten hun pH-optimum denatureren ze."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Hoe meer enzym je toevoegt bij voldoende substraat, hoe sneller de reactie verloopt.",
+          "antwoord": true,
+          "uitleg": "Zolang er substraat genoeg is, geeft elke extra enzymmolecule extra omzetting. De grafiek is dan een stijgende rechte."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom buigt de curve van de reactiesnelheid af als je steeds meer substraat toevoegt?",
+          "opties": [
+            "alle enzymen zijn dan bezig",
+            "het substraat denatureert dan",
+            "de enzymen worden dan afgebroken",
+            "de temperatuur stijgt dan te veel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij verzadiging is elk actief centrum bezet. De maximale reactiesnelheid is bereikt en meer substraat verandert er niets meer aan."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men de toestand waarin elk actief centrum van de aanwezige enzymen bezet is?",
+          "antwoord": [
+            "verzadiging",
+            "verzadigd"
+          ],
+          "uitleg": "Bij verzadiging ligt de reactiesnelheid op haar maximum. De curve loopt dan horizontaal verder."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet een inhibitor?",
+          "opties": [
+            "de werking van een enzym remmen",
+            "de werking van een enzym versnellen",
+            "een enzym van een cofactor voorzien",
+            "het substraat van een enzym aanmaken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een inhibitor bezet het actief centrum of verandert de vorm van het enzym. Veel geneesmiddelen en gifstoffen werken zo."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een co-enzym is zelf een eiwit.",
+          "antwoord": false,
+          "uitleg": "Een co-enzym is een kleine organische molecule, vaak uit een vitamine. Het helpt het enzym, maar is geen eiwit; een cofactor is vaak zelfs een ion."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Bij welke processen zijn enzymen onmisbaar? Kruis alles aan wat juist is.",
+          "opties": [
+            "de spijsvertering",
+            "de DNA-replicatie",
+            "de diffusie van zuurstof",
+            "het neerslaan van kalk in water"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Elke stap van de spijsvertering en van de replicatie heeft haar eigen enzym. Diffusie verloopt van zichzelf en kalkaanslag is geen celproces."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een onderzoeker kookt een stukje lever en legt het dan in waterstofperoxide. Er gebeurt niets. Waarom?",
+          "opties": [
+            "het catalase is gedenatureerd",
+            "er zat geen catalase in de lever",
+            "waterstofperoxide is geen substraat",
+            "koken maakt het enzym specifieker"
+          ],
+          "antwoord": 0,
+          "uitleg": "Rauwe lever doet waterstofperoxide schuimen door catalase. Na koken is het eiwit open gevouwen en werkt het niet meer."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk enzym splitst de melksuiker lactose?",
+          "antwoord": [
+            "lactase"
+          ],
+          "uitleg": "Lactase splitst lactose in glucose en galactose. Wie het niet genoeg aanmaakt, verdraagt melk slecht."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een enzym bepaalt in welke richting een reactie uiteindelijk zal verlopen.",
+          "antwoord": false,
+          "uitleg": "Een enzym versnelt alleen. Welke kant de reactie uitgaat, hangt af van de concentraties en de energie, niet van het enzym."
+        }
+      ]
+    },
+    {
+      "titel": "Enzymen, transport door membranen en osmose — deel 2",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is kenmerkend voor passief transport? Kruis alles aan wat juist is.",
+          "opties": [
+            "het kost de cel geen energie",
+            "het volgt de concentratiegradiënt",
+            "het gaat tegen de gradiënt in",
+            "het gebeurt enkel bij plantencellen"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Passief transport volgt de concentratiegradiënt, dus van veel naar weinig. Dat verloopt van zichzelf en kost geen ATP."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is diffusie?",
+          "opties": [
+            "deeltjes spreiden zich van veel naar weinig",
+            "deeltjes hopen zich op aan één kant",
+            "water gaat door een membraan naar het zout",
+            "een pomp duwt ionen naar buiten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Door hun eigen beweging verdelen deeltjes zich tot de concentratie overal gelijk is. Dan is er een evenwicht."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men het verschil in concentratie tussen twee kanten van een membraan?",
+          "antwoord": [
+            "concentratiegradiënt",
+            "gradiënt",
+            "concentratiegradient"
+          ],
+          "uitleg": "De concentratiegradiënt is de drijvende kracht van diffusie en osmose. Is hij weg, dan stopt het netto transport."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet een kanaaleiwit in een membraan?",
+          "opties": [
+            "een gaatje vormen waardoor ionen gaan",
+            "ionen tegen de gradiënt in pompen",
+            "glucose afbreken tot pyruvaat",
+            "het membraan stevig maken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een kanaaleiwit vormt een doorgang met de juiste maat en lading. Het transport blijft passief: het volgt de gradiënt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat laat een aquaporine door?",
+          "opties": [
+            "water",
+            "glucose",
+            "natriumionen",
+            "eiwitten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Aquaporines zijn waterkanalen. Ze laten veel meer water per seconde door dan het blote membraan zou toelaten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Geleide diffusie door een carriereiwit kost de cel ATP.",
+          "antwoord": false,
+          "uitleg": "Een carriereiwit verandert wel van vorm, maar het transport volgt nog altijd de gradiënt. Het blijft dus passief en gratis."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is osmose?",
+          "opties": [
+            "water gaat door een membraan naar de hogere concentratie",
+            "zout gaat door een membraan naar het water",
+            "een pomp duwt water naar buiten",
+            "een cel neemt een deeltje op in een blaasje"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij osmose gaat het water door een halfdoorlaatbaar membraan naar de kant met de meeste opgeloste stof, want die stof zelf kan er niet door."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je legt een dierlijke cel in zuiver water. Wat gebeurt er? Kruis alles aan wat juist is.",
+          "opties": [
+            "er stroomt water de cel in",
+            "de cel kan barsten",
+            "de cel verschrompelt",
+            "er stroomt water de cel uit"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Zuiver water is hypotoon. Het water stroomt naar binnen en zonder celwand om de druk op te vangen, treedt cellyse op."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men een omgeving met dezelfde osmotische waarde als de cel?",
+          "antwoord": [
+            "isotoon",
+            "isotone omgeving"
+          ],
+          "uitleg": "In een isotone omgeving gaat er even veel water in als uit. Een fysiologische oplossing is daarom isotoon met ons bloed."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je legt een plantencel in een sterke zoutoplossing. Wat gebeurt er?",
+          "opties": [
+            "het cytoplasma trekt van de celwand weg",
+            "de cel barst open",
+            "de vacuole wordt groter",
+            "de celwand lost op"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het water verlaat de vacuole en het cytoplasma krimpt los van de celwand. Dat is plasmolyse; in water komt het weer bij, deplasmolyse."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Turgor is de druk waarmee een volle vacuole tegen de celwand duwt.",
+          "antwoord": true,
+          "uitleg": "Die druk houdt een blad of een steel stevig. Verliest de plant water, dan daalt de turgor en gaat ze slap hangen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom barst een plantencel niet in zuiver water, en een rode bloedcel wel?",
+          "opties": [
+            "de plantencel heeft een celwand",
+            "de plantencel laat geen water door",
+            "de plantencel heeft geen vacuole",
+            "de plantencel is isotoon met water"
+          ],
+          "antwoord": 0,
+          "uitleg": "De celwand kan de druk van binnenuit opvangen. Een rode bloedcel heeft er geen en lyseert."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is kenmerkend voor de natrium-kaliumpomp?",
+          "opties": [
+            "ze pompt tegen de gradiënt in met ATP",
+            "ze laat ionen passief doorstromen",
+            "ze pompt enkel water",
+            "ze zit enkel in plantencellen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De pomp zet drie natriumionen naar buiten en twee kaliumionen naar binnen, tegen hun gradiënt in. Dat kost ATP en maakt actief transport."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke molecule levert de energie voor actief transport?",
+          "antwoord": [
+            "ATP",
+            "atp"
+          ],
+          "uitleg": "Bij de hydrolyse van ATP naar ADP en fosfaat komt energie vrij. Die gebruikt het transporteiwit om van vorm te veranderen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet een protonpomp?",
+          "opties": [
+            "waterstofionen door een membraan pompen",
+            "water in de cel pompen",
+            "glucose afbreken",
+            "eiwitten uit de cel brengen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een protonpomp bouwt een protonengradiënt op. Die gradiënt wordt in het mitochondrion en de chloroplast gebruikt om ATP te maken."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij endocytose brengt de cel iets naar buiten.",
+          "antwoord": false,
+          "uitleg": "Endocytose is opnemen: het membraan plooit naar binnen en snijdt een blaasje af. Naar buiten brengen is exocytose."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe noemt men het opnemen van een vast deeltje, bijvoorbeeld een bacterie, door een witte bloedcel?",
+          "opties": [
+            "fagocytose",
+            "exocytose",
+            "osmose",
+            "plasmolyse"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij fagocytose omsluit de cel het deeltje. Het blaasje smelt daarna samen met een lysosoom, dat de inhoud afbreekt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij exocytose smelt een secretieblaasje samen met het celmembraan.",
+          "antwoord": true,
+          "uitleg": "Het blaasje versmelt met het membraan en giet zijn inhoud naar buiten. Zo komt insuline of een enzym in het bloed of in de darm."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is kenmerkend voor een anabole reactie?",
+          "opties": [
+            "ze bouwt grote moleculen op en kost energie",
+            "ze breekt moleculen af en levert energie",
+            "ze verloopt zonder enzym",
+            "ze gebeurt enkel buiten de cel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Anabool is opbouwen, zoals eiwitsynthese en fotosynthese: endoenergetisch. Katabool is afbreken, zoals de celademhaling: exoenergetisch."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke processen zijn katabool? Kruis alles aan wat juist is.",
+          "opties": [
+            "de celademhaling",
+            "de spijsvertering",
+            "de fotosynthese",
+            "de eiwitsynthese"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Celademhaling en spijsvertering breken moleculen af en leveren energie. Fotosynthese en eiwitsynthese bouwen op en kosten energie."
+        }
+      ]
+    },
+    {
+      "titel": "Fotosynthese, celademhaling en gisting — deel 1",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke reactievergelijking hoort bij de fotosynthese?",
+          "opties": [
+            "6 CO₂ + 6 H₂O → C₆H₁₂O₆ + 6 O₂",
+            "C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O",
+            "C₆H₁₂O₆ → 2 C₃H₆O₃",
+            "6 O₂ + 6 H₂O → C₆H₁₂O₆ + 6 CO₂"
+          ],
+          "antwoord": 0,
+          "uitleg": "De plant maakt met lichtenergie glucose uit koolstofdioxide en water, en geeft zuurstof af. De tweede vergelijking is net de celademhaling."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men een organisme dat zijn eigen voedsel maakt uit anorganische stoffen?",
+          "antwoord": [
+            "autotroof",
+            "autotroof organisme"
+          ],
+          "uitleg": "Een autotroof organisme, zoals een groene plant, maakt zelf organische stof. Een heterotroof organisme moet die opeten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk pigment is het belangrijkste bij de fotosynthese?",
+          "opties": [
+            "chlorofyl a",
+            "caroteen",
+            "xanthofyl",
+            "hemoglobine"
+          ],
+          "antwoord": 0,
+          "uitleg": "Chlorofyl a zit in het reactiecentrum van beide fotosystemen. Chlorofyl b en de carotenoïden vangen licht op en geven het aan chlorofyl a door."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom ziet een blad groen?",
+          "opties": [
+            "het chlorofyl kaatst groen licht terug",
+            "het chlorofyl neemt groen licht het best op",
+            "het blad maakt groen pigment uit glucose",
+            "de carotenoïden zijn groen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Chlorofyl neemt vooral rood en blauw licht op. Groen wordt weerkaatst, en dat is net de kleur die ons oog bereikt."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Uit een absorptiespectrum van chlorofyl kan je aflezen welke golflengten het pigment opneemt.",
+          "antwoord": true,
+          "uitleg": "Het absorptiespectrum zet de opname uit tegen de golflengte. Voor chlorofyl zie je twee toppen, in het blauw en in het rood, en een dal in het groen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar in de chloroplast gebeuren de lichtreacties?",
+          "opties": [
+            "in het thylakoïdmembraan",
+            "in het stroma",
+            "in de matrix",
+            "in het cytoplasma"
+          ],
+          "antwoord": 0,
+          "uitleg": "De fotosystemen en het ATP-synthase zitten in het thylakoïdmembraan. De donkerreacties spelen daarbuiten, in het stroma."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Waar in de chloroplast gebeuren de donkerreacties?",
+          "antwoord": [
+            "stroma",
+            "het stroma"
+          ],
+          "uitleg": "Het stroma is de vloeistof rond de thylakoïden. Daar loopt de Calvincyclus, met de enzymen die koolstofdioxide vastleggen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat levert de splitsing van water bij de lichtreacties op? Kruis alles aan wat juist is.",
+          "opties": [
+            "zuurstofgas",
+            "elektronen voor fotosysteem II",
+            "glucose",
+            "koolstofdioxide"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Water wordt gesplitst in zuurstof, waterstofionen en elektronen. Die elektronen vullen het gat in fotosysteem II; de zuurstof is afvalgas voor de plant."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat maken de lichtreacties aan voor de donkerreacties? Kruis alles aan wat juist is.",
+          "opties": [
+            "ATP",
+            "NADPH",
+            "glucose",
+            "zetmeel"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "De lichtreacties leveren ATP en NADPH. De Calvincyclus gebruikt die twee om koolstofdioxide tot suiker op te bouwen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De donkerreacties kunnen alleen in het donker verlopen.",
+          "antwoord": false,
+          "uitleg": "Ze hebben geen licht nodig, maar ze lopen in het licht gewoon door. Ze hebben wel het ATP en het NADPH van de lichtreacties nodig."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet de cyclus van de donkerreacties waarin koolstofdioxide vastgelegd wordt?",
+          "antwoord": [
+            "Calvincyclus",
+            "calvincyclus",
+            "de Calvincyclus"
+          ],
+          "uitleg": "In de Calvincyclus wordt CO₂ aan een bestaande koolstofketen gehangen. Dat vastleggen heet koolstoffixatie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet het ATP-synthase in het thylakoïdmembraan?",
+          "opties": [
+            "ATP maken met de protonengradiënt",
+            "water splitsen tot zuurstof",
+            "glucose afbreken tot pyruvaat",
+            "licht opvangen voor fotosysteem I"
+          ],
+          "antwoord": 0,
+          "uitleg": "De protonen stromen door het ATP-synthase terug naar het stroma. Die stroom drijft het enzym aan, dat ADP en fosfaat tot ATP samenvoegt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Je zet een waterplant in steeds meer licht en meet de zuurstofproductie. Wat zie je?",
+          "opties": [
+            "ze stijgt eerst en vlakt daarna af",
+            "ze blijft onbeperkt stijgen",
+            "ze daalt van begin af aan",
+            "ze blijft altijd gelijk"
+          ],
+          "antwoord": 0,
+          "uitleg": "Eerst is licht de beperkende factor. Daarna wordt iets anders beperkend, zoals de hoeveelheid koolstofdioxide of de temperatuur, en vlakt de curve af."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een plant doet alleen fotosynthese en geen celademhaling.",
+          "antwoord": false,
+          "uitleg": "Een plant ademt dag en nacht. In het licht maakt ze meer zuurstof dan ze verbruikt, dus lijkt het alsof ze alleen fotosynthese doet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke stof is bij de fotosynthese de bron van de elektronen?",
+          "opties": [
+            "water",
+            "koolstofdioxide",
+            "glucose",
+            "zuurstofgas"
+          ],
+          "antwoord": 0,
+          "uitleg": "Water wordt gesplitst en levert de elektronen. Daarom komt de zuurstof die een plant afgeeft uit het water en niet uit de koolstofdioxide."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Carotenoïden vangen licht op van golflengten die chlorofyl slecht opneemt.",
+          "antwoord": true,
+          "uitleg": "Ze nemen vooral blauw en blauwgroen licht op. Zo gebruikt het blad een breder stuk van het zonlicht, en ze beschermen chlorofyl tegen te veel licht."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom worden bladeren in de herfst geel en rood?",
+          "opties": [
+            "het chlorofyl wordt afgebroken",
+            "de carotenoïden worden pas dan gemaakt",
+            "het blad neemt meer water op",
+            "de chloroplasten worden amyloplasten"
+          ],
+          "antwoord": 0,
+          "uitleg": "De carotenoïden zaten er al, maar het groen overheerste. Valt het chlorofyl weg, dan komen de andere pigmenten tevoorschijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Fotosysteem I en fotosysteem II liggen in dezelfde membraan. Wat doet fotosysteem II eerst?",
+          "opties": [
+            "water splitsen en elektronen doorgeven",
+            "NADPH afleveren aan het stroma",
+            "glucose tot zetmeel verwerken",
+            "koolstofdioxide vastleggen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ondanks hun nummers begint de keten bij fotosysteem II. Dat splitst water en stuurt de elektronen via de keten naar fotosysteem I, dat NADPH maakt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men het vastleggen van koolstofdioxide in een organische molecule?",
+          "antwoord": [
+            "koolstoffixatie",
+            "fixatie",
+            "CO2-fixatie"
+          ],
+          "uitleg": "Bij koolstoffixatie wordt anorganische koolstof organisch. Dat is de stap waarmee de hele voedselketen begint."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een plant staat in het donker. Welke processen lopen er dan nog?",
+          "opties": [
+            "de celademhaling",
+            "de lichtreacties",
+            "het splitsen van water",
+            "de opname van licht door chlorofyl"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zonder licht vallen de lichtreacties stil, en daarmee na een tijd ook de donkerreacties. De celademhaling blijft gewoon doorgaan."
+        }
+      ]
+    },
+    {
+      "titel": "Fotosynthese, celademhaling en gisting — deel 2",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke reactievergelijking hoort bij de aerobe celademhaling?",
+          "opties": [
+            "C₆H₁₂O₆ + 6 O₂ → 6 CO₂ + 6 H₂O",
+            "6 CO₂ + 6 H₂O → C₆H₁₂O₆ + 6 O₂",
+            "C₆H₁₂O₆ → 2 C₂H₅OH + 2 CO₂",
+            "C₆H₁₂O₆ → 2 C₃H₆O₃"
+          ],
+          "antwoord": 0,
+          "uitleg": "Glucose en zuurstof worden koolstofdioxide en water, en er komt energie vrij die in ATP vastgelegd wordt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar in de cel gebeurt de glycolyse?",
+          "opties": [
+            "in het cytoplasma",
+            "in de matrix van het mitochondrion",
+            "op de cristae",
+            "in de kern"
+          ],
+          "antwoord": 0,
+          "uitleg": "De glycolyse is de enige stap buiten het mitochondrion. Daarom kan ook een cel zonder zuurstof die stap nog uitvoeren."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke stof blijft er na de glycolyse over uit één molecule glucose?",
+          "antwoord": [
+            "pyruvaat",
+            "pyrodruivenzuur",
+            "2 pyruvaat"
+          ],
+          "uitleg": "De glycolyse splitst glucose in twee moleculen pyruvaat, ook pyrodruivenzuur genoemd, en levert daarbij een kleine winst aan ATP."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er bij de decarboxylatie van pyruvaat? Kruis alles aan wat juist is.",
+          "opties": [
+            "er komt koolstofdioxide vrij",
+            "er ontstaat acetyl-coA",
+            "er ontstaat glucose",
+            "er komt zuurstofgas vrij"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Pyruvaat verliest een koolstofatoom als CO₂ en wordt aan co-enzym A gekoppeld. Dat acetyl-coA gaat de Krebscyclus in."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar loopt de Krebscyclus?",
+          "opties": [
+            "in de matrix van het mitochondrion",
+            "op de cristae",
+            "in het cytoplasma",
+            "in het stroma van de chloroplast"
+          ],
+          "antwoord": 0,
+          "uitleg": "De enzymen van de Krebscyclus zweven vrij in de matrix. De elektronentransportketen zit in het membraan van de cristae."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar gebeuren de eindoxidaties?",
+          "opties": [
+            "op de cristae van het mitochondrion",
+            "in de matrix van het mitochondrion",
+            "in het cytoplasma",
+            "in het kernmembraan"
+          ],
+          "antwoord": 0,
+          "uitleg": "De cristae zijn de inplooiingen van het binnenmembraan. Daar liggen de elektronendragers en het ATP-synthase."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De meeste ATP van de celademhaling komt uit de eindoxidaties.",
+          "antwoord": true,
+          "uitleg": "De glycolyse en de Krebscyclus leveren maar een klein deel direct. Het grootste deel komt uit de protonengradiënt bij de eindoxidaties."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke stof neemt bij de eindoxidaties de elektronen uiteindelijk op?",
+          "antwoord": [
+            "zuurstof",
+            "zuurstofgas",
+            "O2"
+          ],
+          "uitleg": "Zuurstof is de laatste elektronenacceptor en wordt daarbij water. Zonder zuurstof loopt de keten vast en stopt de ATP-productie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doen NAD⁺ en FAD in de celademhaling?",
+          "opties": [
+            "elektronen en waterstof vervoeren",
+            "glucose in twee splitsen",
+            "zuurstof naar de cel brengen",
+            "ATP afbreken tot ADP"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ze worden NADH en FADH₂ en brengen hun lading naar de elektronentransportketen. Daar wordt die lading in ATP omgezet."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "ATP geeft energie vrij als er een fosfaatgroep van afgesplitst wordt.",
+          "antwoord": true,
+          "uitleg": "Bij de hydrolyse van ATP naar ADP en fosfaat komt energie vrij. Die gebruikt de cel voor spiercontractie, transport en biosynthese."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat drijft het ATP-synthase van een mitochondrion aan?",
+          "opties": [
+            "een protonengradiënt over het membraan",
+            "de warmte van het lichaam",
+            "het licht dat de cel bereikt",
+            "de afbraak van het membraan zelf"
+          ],
+          "antwoord": 0,
+          "uitleg": "De keten pompt protonen naar de intermembraanruimte. Hun terugstroom door het ATP-synthase levert de energie om ATP te maken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er in een spiercel bij zwaar werk en te weinig zuurstof?",
+          "opties": [
+            "melkzuurgisting",
+            "alcoholische gisting",
+            "fotosynthese",
+            "de Calvincyclus"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het pyruvaat wordt tot melkzuur omgezet, zodat de glycolyse kan doorgaan. Dat melkzuur geeft het branderige gevoel in de spier."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke twee stoffen levert de alcoholische gisting op? Noem de alcohol.",
+          "antwoord": [
+            "ethanol",
+            "ethanol en koolstofdioxide",
+            "alcohol"
+          ],
+          "uitleg": "Gist zet glucose om in ethanol en koolstofdioxide. Dat gas doet brooddeeg rijzen en bier schuimen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Gisting levert per molecule glucose meer ATP op dan de aerobe celademhaling.",
+          "antwoord": false,
+          "uitleg": "Gisting levert maar de kleine winst van de glycolyse. De aerobe celademhaling haalt er een veelvoud uit, want ze breekt de glucose volledig af."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom heeft een cel ook bij gisting nog iets aan die omzetting van pyruvaat?",
+          "opties": [
+            "zo komt NAD⁺ weer vrij voor de glycolyse",
+            "zo maakt ze extra zuurstof aan",
+            "zo bouwt ze glucose weer op",
+            "zo maakt ze nieuwe mitochondria"
+          ],
+          "antwoord": 0,
+          "uitleg": "De glycolyse heeft NAD⁺ nodig. Door pyruvaat te reduceren komt dat weer vrij, zodat de glycolyse en dus de ATP-winst kan doorgaan."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Melkzuurgisting en alcoholische gisting verlopen beide zonder zuurstof.",
+          "antwoord": true,
+          "uitleg": "Beide zijn anaeroob. Het verschil zit in het product: melkzuur bij spier en melkzuurbacterie, ethanol en koolstofdioxide bij gist."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke stappen van de celademhaling gebeuren in het mitochondrion? Kruis alles aan wat juist is.",
+          "opties": [
+            "de Krebscyclus",
+            "de eindoxidaties",
+            "de glycolyse",
+            "de alcoholische gisting"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "De decarboxylatie, de Krebscyclus en de eindoxidaties spelen in het mitochondrion. De glycolyse en de gistingen blijven in het cytoplasma."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Fotosynthese en celademhaling zijn in zekere zin elkaars omgekeerde. Wat klopt daarbij? Kruis alles aan wat juist is.",
+          "opties": [
+            "wat de ene opneemt, geeft de andere af",
+            "de ene bouwt op, de andere breekt af",
+            "ze gebeuren in hetzelfde organel",
+            "ze hebben beide licht nodig"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "De fotosynthese is anabool en gebeurt in de chloroplast, de celademhaling katabool en in het mitochondrion. Alleen de celademhaling heeft geen licht nodig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een onderzoeker meet in een cel zonder zuurstof dat er nog ATP gemaakt wordt. Welke stap loopt er dan nog?",
+          "opties": [
+            "de glycolyse",
+            "de Krebscyclus",
+            "de eindoxidaties",
+            "de decarboxylatie"
+          ],
+          "antwoord": 0,
+          "uitleg": "De glycolyse heeft geen zuurstof nodig en levert al wat ATP. De drie andere stappen vallen zonder zuurstof stil."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een cel maakt ATP aan als voorraad voor weken vooruit.",
+          "antwoord": false,
+          "uitleg": "ATP is geen voorraad maar een werkmunt: de cel maakt het en gebruikt het binnen enkele seconden. Als voorraad dienen glycogeen en vet."
+        }
+      ]
+    },
+    {
+      "titel": "Niet-specifieke en specifieke afweer — deel 1",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Waartegen beschermt het immuunsysteem? Kruis alles aan wat juist is.",
+          "opties": [
+            "bacteriën en virussen",
+            "eigen cellen die ontspoord zijn",
+            "een tekort aan vitaminen",
+            "een breuk in een bot"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Het immuunsysteem keert zich tegen ziekteverwekkers en ruimt ook eigen cellen op die beschadigd of kankerachtig zijn. Een vitaminetekort of een breuk valt daarbuiten."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men een ziekteverwekker, met één woord?",
+          "antwoord": [
+            "pathogeen",
+            "een pathogeen",
+            "ziekteverwekker"
+          ],
+          "uitleg": "Een pathogeen is een organisme of virus dat ziekte kan veroorzaken: een bacterie, een virus, een schimmel of een parasiet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een antigeen?",
+          "opties": [
+            "een stof die het immuunsysteem als vreemd herkent",
+            "een eiwit dat een ziekteverwekker onschadelijk maakt",
+            "een witte bloedcel die vreemde cellen opeet",
+            "een orgaan van het lymfatisch systeem"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een antigeen is meestal een eiwit of een suikerketen op het oppervlak van een indringer. Het antilichaam is wat ons lichaam ertegen maakt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de incubatietijd van een infectieziekte?",
+          "opties": [
+            "de tijd tussen de besmetting en de eerste klachten",
+            "de tijd dat iemand besmettelijk blijft",
+            "de tijd die een vaccin nodig heeft om te werken",
+            "de tijd die een wonde nodig heeft om te sluiten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Tijdens de incubatietijd vermenigvuldigt de ziekteverwekker zich al, terwijl je nog niets voelt. Toch kan je dan al besmettelijk zijn."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een infectie en een infectieziekte zijn hetzelfde.",
+          "antwoord": false,
+          "uitleg": "Een infectie is het binnendringen en vermenigvuldigen van een pathogeen. Pas als dat klachten geeft, spreek je van een infectieziekte."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke barrière is een fysische barrière?",
+          "opties": [
+            "de opperhuid",
+            "het lysozym in tranen",
+            "de zuurmantel van de huid",
+            "het maagzuur"
+          ],
+          "antwoord": 0,
+          "uitleg": "De opperhuid is een muur van dode, verhoornde cellen. Lysozym, zuurmantel en maagzuur werken met stoffen en zijn dus chemisch."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet lysozym in tranen en in speeksel?",
+          "opties": [
+            "de celwand van bacteriën kapotmaken",
+            "virussen uit de lucht filteren",
+            "het oog vochtig houden",
+            "antilichamen aanmaken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Lysozym is een enzym dat peptidoglycaan afbreekt. Zonder celwand barst de bacterie open."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men het geheel van onschadelijke micro-organismen dat van nature op en in ons leeft?",
+          "antwoord": [
+            "microbioom",
+            "het microbioom",
+            "microbiota"
+          ],
+          "uitleg": "Het microbioom neemt plaats en voedsel in, zodat pathogenen minder kans krijgen. Het hoort bij de niet-specifieke afweer."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom beschermen slijmvliezen ons?",
+          "opties": [
+            "ze vangen deeltjes op en voeren ze af",
+            "ze maken antilichamen op maat",
+            "ze doden alle bacteriën onmiddellijk",
+            "ze vormen een harde laag dode cellen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Slijm plakt stof en bacteriën vast, en het trilhaarepitheel duwt dat naar de keel. Een harde laag dode cellen is de opperhuid."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De niet-specifieke afweer werkt tegen elke indringer op dezelfde manier.",
+          "antwoord": true,
+          "uitleg": "Ze maakt geen onderscheid tussen de ene en de andere bacterie, en ze staat meteen klaar. Daarom heet ze ook de aangeboren immuniteit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is kenmerkend voor de specifieke afweer? Kruis alles aan wat juist is.",
+          "opties": [
+            "ze is op één antigeen gericht",
+            "ze bouwt een geheugen op",
+            "ze komt meteen volledig op gang",
+            "ze werkt zonder lymfocyten"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "De specifieke afweer heeft dagen nodig om op gang te komen, maar is precies gericht en onthoudt de indringer. Daarom heet ze verworven immuniteit."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "In welk orgaan rijpen de T-lymfocyten?",
+          "antwoord": [
+            "thymus",
+            "de thymus",
+            "zwezerik"
+          ],
+          "uitleg": "De T van T-lymfocyt komt van thymus. Dat orgaan achter het borstbeen is bij een kind groot en wordt bij een volwassene kleiner."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar worden alle bloedcellen, en dus ook de witte, aangemaakt?",
+          "opties": [
+            "in het beenmerg",
+            "in de milt",
+            "in de lever",
+            "in de thymus"
+          ],
+          "antwoord": 0,
+          "uitleg": "Uit de stamcellen in het rode beenmerg komen alle bloedcellen. De B van B-lymfocyt verwijst naar bone marrow."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doen de lymfeknopen?",
+          "opties": [
+            "lymfe filteren en afweercellen samenbrengen",
+            "lymfe aanmaken uit het bloedplasma van de aders",
+            "oude rode bloedcellen uit de bloedbaan halen",
+            "hormonen vanuit de klieren in het bloed brengen"
+          ],
+          "antwoord": 0,
+          "uitleg": "In een lymfeknoop ontmoeten antigenen en lymfocyten elkaar. Daarom zwellen de klieren in je hals op als je ziek bent."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De milt hoort bij het lymfatisch systeem.",
+          "antwoord": true,
+          "uitleg": "De milt filtert bloed in plaats van lymfe, breekt oude rode bloedcellen af en bevat veel lymfocyten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke verschijnselen horen bij een ontsteking? Kruis alles aan wat juist is.",
+          "opties": [
+            "roodheid en warmte",
+            "zwelling en pijn",
+            "een lagere lichaamstemperatuur",
+            "een trager hartritme"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "De bloedvaten ter plaatse worden wijder en doorlaatbaarder, dus komt er meer bloed en vocht bij. Dat geeft rood, warm, gezwollen en pijnlijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is koorts nuttig bij een infectie?",
+          "opties": [
+            "de afweer werkt sneller en de indringer trager",
+            "de indringer krijgt dan geen voedsel meer",
+            "de huid wordt er dikker door",
+            "er komen dan minder witte bloedcellen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een hogere temperatuur versnelt de afweerreacties en remt de vermenigvuldiging van veel bacteriën en virussen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke stof in het bloed stijgt sterk bij een ontsteking en wordt daarom gemeten?",
+          "antwoord": [
+            "CRP",
+            "crp",
+            "C-reactief proteïne"
+          ],
+          "uitleg": "CRP of C-reactief proteïne wordt door de lever gemaakt bij een ontsteking. Een arts leest aan dat getal af hoe fel de reactie is."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De drie lijnen van onze afweer zijn barrières, niet-specifieke afweer en specifieke afweer.",
+          "antwoord": true,
+          "uitleg": "Eerst houden huid en slijmvliezen tegen, dan pakt de niet-specifieke afweer wat erdoor is, en pas daarna komt de specifieke afweer op gang."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Wie een infectie doormaakt, bouwt daar nooit bescherming tegen op.",
+          "antwoord": false,
+          "uitleg": "De specifieke afweer laat geheugencellen achter. Een tweede ontmoeting met hetzelfde antigeen wordt daardoor veel sneller afgehandeld."
+        }
+      ]
+    },
+    {
+      "titel": "Niet-specifieke en specifieke afweer — deel 2",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men alle witte bloedcellen samen, met één woord?",
+          "antwoord": [
+            "leukocyten",
+            "leucocyten",
+            "witte bloedcellen"
+          ],
+          "uitleg": "Leukocyten is de verzamelnaam. Daaronder vallen de granulocyten, de monocyten en de lymfocyten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet een macrofaag?",
+          "opties": [
+            "indringers opeten en verwerken",
+            "antilichamen uitscheiden",
+            "histamine vrijzetten bij een allergie",
+            "rode bloedcellen aanmaken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een macrofaag is een grote fagocyt. Ze neemt de indringer op en breekt hem met haar lysosomen af."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke cel is de eerste fagocyt die in grote aantallen naar een ontsteking trekt?",
+          "opties": [
+            "de neutrofiel",
+            "de plasmacel",
+            "de B-geheugencel",
+            "de rode bloedcel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Neutrofielen zijn de talrijkste granulocyten. Ze komen snel ter plaatse en vormen samen met dood weefsel de pus."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet een natural killer cel?",
+          "opties": [
+            "besmette of ontspoorde eigen cellen doden",
+            "stukjes antigeen aan de T-cellen voorstellen",
+            "antilichamen tegen één antigeen aanmaken",
+            "de lymfe door de lymfevaten pompen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een natural killer cel hoort bij de niet-specifieke afweer. Ze doorboort het membraan van een verdachte cel, zodat die sterft."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een dendritische cel stelt een stuk van de indringer voor aan de lymfocyten.",
+          "antwoord": true,
+          "uitleg": "Een dendritische cel eet de indringer op en zet een stukje antigeen op haar MHC-II-eiwitten. Zo brengt ze de specifieke afweer op gang."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke stof zetten mestcellen vrij bij een allergische reactie?",
+          "antwoord": [
+            "histamine"
+          ],
+          "uitleg": "Histamine maakt de bloedvaten wijder en doorlaatbaarder. Dat geeft zwelling, jeuk en een loopneus."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de taak van een T-helperlymfocyt?",
+          "opties": [
+            "de andere afweercellen aanzetten met cytokines",
+            "besmette lichaamscellen zelf doorboren en doden",
+            "antilichamen in grote aantallen uitscheiden",
+            "oude rode bloedcellen in de milt afbreken"
+          ],
+          "antwoord": 0,
+          "uitleg": "De T-helpercel is de dirigent. Ze erkent het antigeen op een MHC-II-eiwit en stuurt met cytokines de B-cellen en de cytotoxische T-cellen aan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet een cytotoxische T-lymfocyt?",
+          "opties": [
+            "een besmette eigen cel doden",
+            "antilichamen in het bloed brengen",
+            "het complementsysteem aanmaken",
+            "antigenen voorstellen aan B-cellen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ze herkent het antigeen op een MHC-I-eiwit van een besmette cel en brengt die cel tot celdood. Zo wordt de virusfabriek stilgelegd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet een plasmacel?",
+          "opties": [
+            "antilichamen aanmaken",
+            "indringers opeten",
+            "antigenen voorstellen",
+            "bloedplasma aanmaken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een plasmacel is een B-lymfocyt die zich helemaal op productie heeft gezet. Ze giet duizenden antilichamen per seconde in het bloed."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Antilichamen worden aangemaakt door de macrofagen.",
+          "antwoord": false,
+          "uitleg": "Antilichamen, ook immunoglobulines genoemd, komen van de B-lymfocyten en hun plasmacellen. Een macrofaag eet op, maar maakt geen antilichamen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet een antilichaam met een antigeen? Kruis alles aan wat juist is.",
+          "opties": [
+            "het klit eraan vast en maakt het onschadelijk",
+            "het maakt de indringer herkenbaar voor fagocyten",
+            "het breekt het antigeen af met zijn eigen enzymen",
+            "het verandert het DNA van de indringer blijvend"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Antilichamen neutraliseren en klonteren indringers samen. Afbreken doen de fagocyten en het complementsysteem."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men het samenklonteren van antigenen door antilichamen?",
+          "antwoord": [
+            "agglutinatie",
+            "agglutineren"
+          ],
+          "uitleg": "Bij agglutinatie binden antilichamen meerdere deeltjes aan elkaar. Dat maakt ze onbeweeglijk en makkelijker op te ruimen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet het complementsysteem?",
+          "opties": [
+            "het membraan van een bacterie doorboren",
+            "antigenen voorstellen aan T-cellen",
+            "antilichamen aanmaken",
+            "koorts opwekken in de hersenen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het complementsysteem is een reeks eiwitten in het bloedplasma. Ze vormen samen een porie in het membraan van de indringer, die daardoor barst."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Interferonen worden vrijgezet door cellen die door een virus besmet zijn.",
+          "antwoord": true,
+          "uitleg": "Een besmette cel waarschuwt met interferonen haar buren. Die maken zich dan klaar om een virus tegen te houden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarin verschillen MHC-I- en MHC-II-eiwitten?",
+          "opties": [
+            "MHC-I staat op bijna elke cel, MHC-II enkel op afweercellen",
+            "MHC-I staat enkel op de afweercellen, MHC-II op elke cel",
+            "MHC-I zit in de kern van de cel, MHC-II in het cytoplasma",
+            "MHC-I is een suikerketen en MHC-II een vetzuurstaart"
+          ],
+          "antwoord": 0,
+          "uitleg": "Op MHC-I toont elke cel wat er binnen in haar gebeurt, voor de cytotoxische T-cellen. MHC-II zit op de antigeenpresenterende cellen, voor de T-helpercellen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom duurt de primaire immuunrespons dagen?",
+          "opties": [
+            "de juiste lymfocyt moet zich eerst vermenigvuldigen",
+            "het antigeen moet eerst helemaal afgebroken worden",
+            "de huid moet zich eerst volledig herstellen",
+            "de koorts moet eerst helemaal gezakt zijn"
+          ],
+          "antwoord": 0,
+          "uitleg": "Er is maar één lymfocyt op miljoenen die op dat antigeen past. Die moet zich eerst delen tot een hele groep, voor er genoeg antilichamen zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom verloopt de secundaire immuunrespons sneller en krachtiger? Kruis alles aan wat juist is.",
+          "opties": [
+            "er zijn al geheugencellen aanwezig",
+            "die geheugencellen reageren meteen",
+            "het antigeen is dan onschadelijk geworden",
+            "de huid laat het antigeen dan niet door"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "De B- en T-geheugencellen van de eerste keer staan klaar. Ze slaan toe voor je iets voelt, en daarom word je een tweede keer vaak niet ziek."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een B-geheugencel scheidt onafgebroken antilichamen af, jaren na de infectie.",
+          "antwoord": false,
+          "uitleg": "Een geheugencel wacht af. Pas als het antigeen terugkomt, deelt ze zich snel tot plasmacellen die wel antilichamen maken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is de rol van cytokines?",
+          "opties": [
+            "boodschappen doorgeven tussen afweercellen",
+            "bacteriën met een porie rechtstreeks doden",
+            "losse antigenen tot klompjes samenklitten",
+            "extra zuurstof naar de wonde brengen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Cytokines zijn signaalstoffen. Ze lokken cellen naar de plaats van de infectie en zetten andere afweercellen aan tot delen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een arts vindt in het bloed van iemand antilichamen tegen een virus, maar geen virus. Wat besluit ze?",
+          "opties": [
+            "die persoon heeft het virus gehad of is gevaccineerd",
+            "die persoon is op dit moment zelf besmettelijk",
+            "die persoon heeft een immuunsysteem dat niet werkt",
+            "die persoon zal nooit meer een infectie oplopen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Antilichamen zonder virus wijzen op een eerdere ontmoeting, door ziekte of door een vaccin. Het virus zelf is dan opgeruimd."
+        }
+      ]
+    },
+    {
+      "titel": "Immunisatie, bloedgroepen en falende afweer — deel 1",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is immunisatie?",
+          "opties": [
+            "immuniteit verwerven tegen een bepaald antigeen",
+            "een ontsteking in een wonde onderdrukken met zalf",
+            "het aantal rode bloedcellen in het bloed verhogen",
+            "de temperatuur van het lichaam kunstmatig verlagen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij immunisatie krijgt iemand bescherming tegen één antigeen, door zelf antilichamen te maken of door ze te ontvangen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is kenmerkend voor actieve immunisatie? Kruis alles aan wat juist is.",
+          "opties": [
+            "je maakt zelf antilichamen aan",
+            "je bouwt geheugencellen op",
+            "de bescherming is onmiddellijk volledig",
+            "je krijgt kant-en-klare antilichamen"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Bij actieve immunisatie doet je eigen afweer het werk. Dat duurt langer, maar levert geheugencellen en dus langdurige bescherming op."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is kenmerkend voor passieve immunisatie? Kruis alles aan wat juist is.",
+          "opties": [
+            "je krijgt antilichamen van buitenaf",
+            "de bescherming werkt onmiddellijk",
+            "je maakt zelf geheugencellen aan",
+            "je afweer leert het antigeen zelf kennen"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Bij passieve immunisatie krijg je kant-en-klare antilichamen. Die werken meteen, maar verdwijnen na weken en laten geen geheugen achter."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een kind maakt mazelen door en is daarna beschermd. Welke immunisatie is dat?",
+          "opties": [
+            "natuurlijke actieve immunisatie",
+            "kunstmatige actieve immunisatie",
+            "natuurlijke passieve immunisatie",
+            "kunstmatige passieve immunisatie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het kind maakte zelf antilichamen, dus actief, en zonder dat iemand ingreep, dus natuurlijk."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men kunstmatige actieve immunisatie, met het gewone woord?",
+          "antwoord": [
+            "vaccinatie",
+            "inenting",
+            "vaccineren"
+          ],
+          "uitleg": "Bij een vaccinatie krijg je een onschadelijk gemaakte of afgezwakte vorm van het antigeen. Je afweer maakt daar zelf antilichamen en geheugencellen tegen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een baby krijgt via de placenta antilichamen van zijn moeder. Welke immunisatie is dat?",
+          "opties": [
+            "natuurlijke passieve immunisatie",
+            "natuurlijke actieve immunisatie",
+            "kunstmatige passieve immunisatie",
+            "kunstmatige actieve immunisatie"
+          ],
+          "antwoord": 0,
+          "uitleg": "De baby krijgt de antilichamen kado, dus passief, en op een natuurlijke weg. Borstvoeding werkt op dezelfde manier."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand wordt gebeten door een dier en krijgt onmiddellijk antilichamen ingespoten. Welke immunisatie is dat?",
+          "opties": [
+            "kunstmatige passieve immunisatie",
+            "kunstmatige actieve immunisatie",
+            "natuurlijke passieve immunisatie",
+            "natuurlijke actieve immunisatie"
+          ],
+          "antwoord": 0,
+          "uitleg": "Dat is serumtherapie: kant-en-klare antilichamen van buitenaf. Het werkt meteen, wat nodig is als er geen tijd is om zelf antilichamen te maken."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De bescherming die een baby via borstvoeding krijgt, verdwijnt na een tijd.",
+          "antwoord": true,
+          "uitleg": "Het zijn geleende antilichamen, zonder geheugencellen. Na enkele maanden zijn ze afgebroken en moet het kind zijn eigen afweer opbouwen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een vaccin bevat altijd levende, volledig besmettelijke ziekteverwekkers.",
+          "antwoord": false,
+          "uitleg": "Een vaccin bevat een afgezwakte of dode verwekker, een stukje ervan of enkel de boodschap om dat stukje te maken. Ziek word je er niet van."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom beschermt een hoge vaccinatiegraad ook wie zelf niet gevaccineerd is?",
+          "opties": [
+            "de verwekker vindt bijna geen nieuwe gastheer meer",
+            "de verwekker verdwijnt dan uit alle dieren tegelijk",
+            "iedereen krijgt dan automatisch antilichamen",
+            "de verwekker verliest dan zijn eigen erfelijk materiaal"
+          ],
+          "antwoord": 0,
+          "uitleg": "Als bijna iedereen beschermd is, stokt de besmettingsketen. Dat heet groepsimmuniteit en beschermt wie te jong of te ziek is om zich te laten inenten."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarop steunt het ABO-bloedgroepensysteem?",
+          "opties": [
+            "de antigenen op de rode bloedcellen",
+            "het aantal witte bloedcellen in het bloed",
+            "de hoeveelheid hemoglobine per cel",
+            "de dikte van het membraan van de cellen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Op de rode bloedcellen staan suikerketens A, B, beide of geen van beide. Dat bepaalt de bloedgroep A, B, AB of O."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke antigenen staan er op de rode bloedcellen van iemand met bloedgroep AB?",
+          "antwoord": [
+            "A en B",
+            "A en B",
+            "AB"
+          ],
+          "uitleg": "Bloedgroep AB heeft beide antigenen. Daarom heeft die persoon geen anti-A- en geen anti-B-antilichamen in zijn plasma."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke antilichamen zitten in het plasma van iemand met bloedgroep A?",
+          "opties": [
+            "anti-B",
+            "anti-A",
+            "anti-A en anti-B",
+            "geen van de twee"
+          ],
+          "antwoord": 0,
+          "uitleg": "Je maakt antilichamen tegen wat je zelf niet hebt. Bloedgroep A heeft dus anti-B in het plasma."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is bloedgroep O de universele donor voor rode bloedcellen?",
+          "opties": [
+            "haar cellen hebben geen A- en geen B-antigeen",
+            "haar plasma bevat geen enkel antilichaam",
+            "haar cellen hebben beide antigenen",
+            "haar cellen hebben helemaal geen membraan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zonder A- en B-antigeen is er niets waaraan de antilichamen van de ontvanger zich kunnen vastklitten."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke bloedgroep is de universele ontvanger?",
+          "antwoord": [
+            "AB",
+            "ab",
+            "bloedgroep AB"
+          ],
+          "uitleg": "Bloedgroep AB heeft geen anti-A en geen anti-B in haar plasma. Daardoor kan ze rode bloedcellen van elke groep aannemen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er bij een transfusie met incompatibel bloed? Kruis alles aan wat juist is.",
+          "opties": [
+            "de rode bloedcellen klitten samen",
+            "de rode bloedcellen gaan kapot",
+            "het plasma verandert van bloedgroep",
+            "de ontvanger krijgt een nieuwe bloedgroep"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "De antilichamen van de ontvanger laten de gegeven cellen agglutineren en daarna hemolyseren. De klompjes verstoppen bloedvaten; dat is levensgevaarlijk."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Hemolyse is het kapotgaan van rode bloedcellen.",
+          "antwoord": true,
+          "uitleg": "Bij hemolyse barst de cel en komt de hemoglobine vrij in het plasma. Dat belast onder meer de nieren zwaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Iemand met bloedgroep B krijgt bloed van groep A. Waarom loopt dat fout?",
+          "opties": [
+            "de anti-A van de ontvanger valt de cellen aan",
+            "de anti-B van de ontvanger valt de cellen aan",
+            "de ontvanger heeft geen antilichamen in zijn plasma",
+            "de gegeven cellen hebben geen enkel antigeen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bloedgroep B heeft anti-A in het plasma. Komen er cellen met A-antigeen binnen, dan klitten die samen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De bloedgroep van iemand verandert in de loop van zijn leven.",
+          "antwoord": false,
+          "uitleg": "De bloedgroep staat in het DNA en blijft dezelfde. Enkel na een beenmergtransplantatie kan ze mee veranderen met het nieuwe beenmerg."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom mag plasma van groep O niet zonder meer aan iedereen gegeven worden?",
+          "opties": [
+            "het bevat anti-A en anti-B",
+            "het bevat geen enkel antilichaam",
+            "het bevat A- en B-antigenen",
+            "het bevat geen enkel eiwit meer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Voor rode bloedcellen is O de universele donor, voor plasma net niet: daar zitten juist beide antilichamen in. Voor plasma is AB de universele donor."
+        }
+      ]
+    },
+    {
+      "titel": "Immunisatie, bloedgroepen en falende afweer — deel 2",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent resuspositief?",
+          "opties": [
+            "er staat een D-antigeen op de rode bloedcellen",
+            "er staat geen enkel antigeen op de rode bloedcellen",
+            "er zitten anti-D-antilichamen in het plasma",
+            "er zitten geen antilichamen in het plasma"
+          ],
+          "antwoord": 0,
+          "uitleg": "De resusfactor is het D-antigeen. Wie het heeft, is resuspositief; wie het niet heeft, is resusnegatief."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe heet het antigeen van de resusfactor?",
+          "antwoord": [
+            "D-antigeen",
+            "D",
+            "het D-antigeen"
+          ],
+          "uitleg": "Het D-antigeen bepaalt of iemand resuspositief of resusnegatief is. Een resusnegatieve persoon kan er anti-D-antilichamen tegen maken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom kan een resusnegatieve moeder met een resuspositief kind een probleem krijgen?",
+          "opties": [
+            "ze kan anti-D-antilichamen aanmaken",
+            "haar bloedgroep verandert door de zwangerschap",
+            "haar kind maakt anti-D tegen haar bloed",
+            "haar plasma verliest al zijn antilichamen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Komt bloed van het kind in haar bloedbaan, dan ziet haar afweer het D-antigeen als vreemd. Dat geeft anti-D-antilichamen en geheugencellen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom loopt het eerste resuspositieve kind meestal geen gevaar?",
+          "opties": [
+            "de antilichamen ontstaan pas rond de bevalling",
+            "het eerste kind heeft nog geen D-antigeen",
+            "de moeder maakt in het begin geen enkel antilichaam",
+            "de placenta laat helemaal geen antilichamen door"
+          ],
+          "antwoord": 0,
+          "uitleg": "De bloedmenging gebeurt vooral tijdens de bevalling. Het eerste kind is dan al geboren; een volgend kind loopt wel gevaar."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe wordt het resusprobleem bij een zwangerschap voorkomen?",
+          "opties": [
+            "de moeder krijgt een anti-D-inspuiting",
+            "het kind krijgt een vaccin tegen resus",
+            "de moeder krijgt bloed van groep O",
+            "het kind krijgt extra ijzer toegediend"
+          ],
+          "antwoord": 0,
+          "uitleg": "De anti-D-inspuiting ruimt de cellen van het kind op voor de moeder zelf antilichamen kan maken. Zo blijft er geen geheugen achter."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Antilichamen van de moeder kunnen de placenta over en in het bloed van het kind komen.",
+          "antwoord": true,
+          "uitleg": "Daarom beschermt een moeder haar baby de eerste maanden, maar daarom kunnen anti-D-antilichamen ook de rode bloedcellen van het kind aanvallen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een allergie?",
+          "opties": [
+            "een overdreven afweer tegen iets onschuldigs",
+            "een afweer die zich tegen eigen cellen keert",
+            "een afweer die helemaal niet meer werkt",
+            "een tekort aan rode bloedcellen in het bloed"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een allergie reageert de afweer hevig op stuifmeel, huisstofmijt of een voedingsmiddel. De stof zelf is niet gevaarlijk."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk soort antilichaam speelt de hoofdrol bij een allergie?",
+          "antwoord": [
+            "IgE",
+            "ige",
+            "IgE-antilichamen"
+          ],
+          "uitleg": "IgE-antilichamen gaan op de mestcellen zitten. Komt het allergeen opnieuw, dan zetten die mestcellen histamine vrij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke klachten komen van de histamine bij een allergische reactie? Kruis alles aan wat juist is.",
+          "opties": [
+            "een loopneus en tranende ogen",
+            "zwelling en jeuk van de huid",
+            "een blijvend lagere bloeddruk na jaren",
+            "een tekort aan witte bloedcellen"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Histamine maakt de bloedvaten wijder en doorlaatbaarder en zet klieren aan het werk. Vandaar het vocht, de zwelling en de jeuk."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een anafylactische shock blijft beperkt tot de huid rond de prikplaats.",
+          "antwoord": false,
+          "uitleg": "Een anafylactische shock treft het hele lichaam: de bloedvaten worden overal wijder, de bloeddruk valt en de luchtwegen vernauwen. Dat vraagt onmiddellijk adrenaline."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een auto-immuunziekte?",
+          "opties": [
+            "de afweer valt eigen gezonde cellen aan",
+            "de afweer reageert te hevig op stuifmeel",
+            "de afweer wordt door een virus uitgeschakeld",
+            "de afweer maakt geen enkel antilichaam meer"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een auto-immuunziekte leest het immuunsysteem eigen cellen als vreemd. Het onderscheid tussen eigen en vreemd is dan stuk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke aandoeningen zijn auto-immuunziekten? Kruis alles aan wat juist is.",
+          "opties": [
+            "multiple sclerose",
+            "de ziekte van Crohn",
+            "een allergie voor pinda's",
+            "een infectie met het griepvirus"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Bij multiple sclerose valt de afweer de isolatielaag van de zenuwen aan, bij Crohn de darmwand. Psoriasis hoort er ook bij."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe wordt een auto-immuunziekte meestal behandeld?",
+          "opties": [
+            "door de afweerreactie te onderdrukken",
+            "door de afweerreactie juist te versterken",
+            "door een vaccin tegen de eigen cellen",
+            "door een bloedtransfusie van groep O"
+          ],
+          "antwoord": 0,
+          "uitleg": "Met ontstekingsremmers of middelen die de afweer onderdrukken, wordt de aanval geremd. De keerzijde is meer kans op infecties."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een auto-immuunziekte kan meestal volledig genezen worden.",
+          "antwoord": false,
+          "uitleg": "De meeste zijn chronisch: de behandeling houdt de klachten onder controle, maar de oorzaak blijft."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk soort virus is hiv, dat zijn RNA in DNA laat omzetten?",
+          "antwoord": [
+            "retrovirus",
+            "een retrovirus"
+          ],
+          "uitleg": "Een retrovirus draagt RNA en maakt met omgekeerde transcriptase een DNA-kopie, die in het DNA van de gastheercel wordt ingebouwd."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke cel valt hiv aan?",
+          "opties": [
+            "de T-helperlymfocyt",
+            "de rode bloedcel",
+            "de plasmacel",
+            "de zenuwcel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hiv dringt de T-helpercellen binnen. Omdat die de hele afweer aansturen, stort het systeem in als hun aantal daalt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is kenmerkend voor de chronische fase van een hiv-infectie? Kruis alles aan wat juist is.",
+          "opties": [
+            "er zijn jarenlang weinig of geen klachten",
+            "het aantal T-helpercellen daalt traag",
+            "er is meteen een zware longontsteking",
+            "het virus verdwijnt helemaal uit het lichaam"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Na een korte acute fase volgt een lange stille periode. Het virus blijft zich vermenigvuldigen en het aantal T-helpercellen daalt traag."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Seropositief betekent dat er antilichamen tegen hiv in het bloed zitten.",
+          "antwoord": true,
+          "uitleg": "Een test zoekt die antilichamen. Ze verschijnen pas enkele weken na de besmetting, dus kan een test in het begin nog negatief zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom sterft iemand met aids meestal aan een andere infectie?",
+          "opties": [
+            "de afweer kan die infectie niet meer aan",
+            "het hiv-virus valt zelf de longen aan",
+            "de rode bloedcellen worden afgebroken",
+            "het beenmerg maakt geen bloed meer aan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zonder T-helpercellen krijgen verwekkers die een gezond lichaam makkelijk opruimt, vrij spel. Dat zijn de opportunistische infecties."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom bestaat er nog geen vaccin tegen hiv?",
+          "opties": [
+            "het virus verandert voortdurend zijn oppervlak",
+            "het virus heeft geen enkel antigeen",
+            "het virus leeft buiten het lichaam verder",
+            "het virus is te groot voor een antilichaam"
+          ],
+          "antwoord": 0,
+          "uitleg": "Hiv muteert heel snel, dus past een antilichaam na een tijd niet meer. Daarbij schakelt het net de cellen uit die de afweer moeten aansturen."
+        }
+      ]
+    },
+    {
+      "titel": "Gametogenese en de hormonale regeling — deel 1",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar in het vrouwelijk voortplantingsstelsel rijpt een eicel?",
+          "opties": [
+            "in de eierstok",
+            "in de eileider",
+            "in de baarmoeder",
+            "in de baarmoederhals"
+          ],
+          "antwoord": 0,
+          "uitleg": "De follikels met de eicellen zitten in de eierstok. Na de ovulatie wordt de eicel door de trechter van de eileider opgevangen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men de franjes aan de trechter van de eileider die de eicel opvangen?",
+          "antwoord": [
+            "franjes",
+            "fimbriae",
+            "de franjes"
+          ],
+          "uitleg": "De franjes strijken over de eierstok en vegen de vrijgekomen eicel de eileider in. Zonder dat zou ze in de buikholte verdwijnen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe heten de cellen waaruit de oögenese vertrekt?",
+          "opties": [
+            "oögoniën",
+            "spermatogonia",
+            "poollichaampjes",
+            "follikelcellen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De oögoniën zijn de diploïde voorlopercellen. Ze zijn bij de geboorte al aanwezig en worden primaire oöcyten."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij een meisje liggen de primaire oöcyten al bij de geboorte in de eierstok klaar.",
+          "antwoord": true,
+          "uitleg": "Ze zijn al aan de eerste meiotische deling begonnen en staan daar stil. Pas vanaf de puberteit gaat er elke cyclus één verder."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke follikel is het verst in haar rijping en staat op het punt te barsten?",
+          "opties": [
+            "de Graafse follikel",
+            "de primordiale follikel",
+            "de primaire follikel",
+            "de secundaire follikel"
+          ],
+          "antwoord": 0,
+          "uitleg": "De reeks loopt van primordiaal over primair en secundair naar de Graafse follikel. Die laatste bolt uit tegen de wand van de eierstok."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat ontstaat er bij de eerste meiotische deling van een primaire oöcyt? Kruis alles aan wat juist is.",
+          "opties": [
+            "een secundaire oöcyt",
+            "een poollichaampje",
+            "twee gelijke eicellen",
+            "vier rijpe eicellen"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "De deling is ongelijk: bijna al het cytoplasma gaat naar de secundaire oöcyt, en het poollichaampje krijgt enkel chromosomen en gaat verloren."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men het kleine celletje dat bij de oögenese het cytoplasma niet meekrijgt?",
+          "antwoord": [
+            "poollichaampje",
+            "poolcel",
+            "poollichaampjes"
+          ],
+          "uitleg": "Een poollichaampje bevat wel chromosomen, maar bijna geen cytoplasma. Het sterft af, zodat één eicel alle voorraad krijgt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is de ongelijke verdeling van het cytoplasma bij de oögenese nuttig?",
+          "opties": [
+            "de eicel heeft voorraad nodig voor het begin van de ontwikkeling",
+            "de eicel moet zich sneller door de eileider kunnen bewegen",
+            "de eicel heeft dan geen celmembraan meer nodig om zich te delen",
+            "de eicel kan dan door meerdere zaadcellen bevrucht worden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Na de bevruchting deelt de zygote zich dagen zonder eten. Al die voorraad, mitochondria inbegrepen, komt uit de eicel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wanneer maakt de secundaire oöcyt haar tweede meiotische deling af?",
+          "opties": [
+            "pas als ze bevrucht wordt",
+            "al in de eierstok voor de ovulatie",
+            "altijd precies bij de ovulatie",
+            "nooit, ook niet na een bevruchting"
+          ],
+          "antwoord": 0,
+          "uitleg": "De tweede deling staat stil in de metafase. Dringt een zaadcel binnen, dan wordt ze afgewerkt en ontstaat de oötide met een tweede poollichaampje."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Wordt de secundaire oöcyt niet bevrucht, dan blijft ze tot de volgende cyclus in de eileider liggen.",
+          "antwoord": false,
+          "uitleg": "Ze sterft binnen een dag af. Daarna verdwijnt het geel lichaam, dalen de hormonen en laat het baarmoederslijmvlies los: de menstruatie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke lagen liggen rond een vrijgekomen eicel? Kruis alles aan wat juist is.",
+          "opties": [
+            "de zona pellucida",
+            "de corona radiata",
+            "het baarmoederslijmvlies",
+            "de slijmprop van de baarmoederhals"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "De zona pellucida of glashuid ligt tegen de eicel en de corona radiata is de krans follikelcellen daarrond. Een zaadcel moet er door."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk klierachtig weefsel blijft na de ovulatie in de eierstok achter en maakt progesteron?",
+          "antwoord": [
+            "geel lichaam",
+            "het geel lichaam",
+            "corpus luteum"
+          ],
+          "uitleg": "De leeggelopen follikel wordt het geel lichaam. Het houdt het baarmoederslijmvlies op peil tot de placenta dat overneemt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke klier stuurt met GnRH de hypofyse aan?",
+          "opties": [
+            "de hypothalamus",
+            "de eierstok",
+            "de schildklier",
+            "de bijnier"
+          ],
+          "antwoord": 0,
+          "uitleg": "De hypothalamus geeft GnRH af aan de hypofyse. Die maakt dan FSH en LH, die op hun beurt de eierstok aansturen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet FSH in de eerste helft van de cyclus? Kruis alles aan wat juist is.",
+          "opties": [
+            "de follikels laten rijpen",
+            "de follikels oestrogeen laten maken",
+            "de ovulatie meteen uitlokken",
+            "het baarmoederslijmvlies afbreken"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "FSH staat voor follikelstimulerend hormoon. Het laat een groep follikels groeien, waarvan er één de Graafse follikel wordt."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk hormoon veroorzaakt met een plotse piek de ovulatie?",
+          "antwoord": [
+            "LH",
+            "lh",
+            "luteïniserend hormoon"
+          ],
+          "uitleg": "De LH-piek laat de Graafse follikel barsten. Daarna vormt het achtergebleven weefsel onder invloed van LH het geel lichaam."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet oestrogeen in de folliculaire fase?",
+          "opties": [
+            "het baarmoederslijmvlies laten opbouwen",
+            "het baarmoederslijmvlies laten loslaten",
+            "de eicel haar tweede deling laten afmaken",
+            "de zaadcellen in de eileider tegenhouden"
+          ],
+          "antwoord": 0,
+          "uitleg": "De rijpende follikels maken oestrogeen. Dat bouwt het slijmvlies op, zodat een bevruchte eicel zich kan innestelen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een hoge concentratie oestrogeen en progesteron remt de afgifte van FSH en LH.",
+          "antwoord": true,
+          "uitleg": "Dat is negatieve feedback. Daar steunt ook de combinatiepil op: hoge hormoonwaarden houden FSH en LH laag, dus komt er geen ovulatie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke fase van de cyclus volgt op de ovulatie?",
+          "opties": [
+            "de luteale fase",
+            "de folliculaire fase",
+            "de menstruatiefase",
+            "de innestelingsfase"
+          ],
+          "antwoord": 0,
+          "uitleg": "Luteaal verwijst naar het corpus luteum, het geel lichaam. Die fase duurt ongeveer veertien dagen, ongeacht hoe lang de eerste helft duurde."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De menstruatie komt doordat het progesteron sterk stijgt.",
+          "antwoord": false,
+          "uitleg": "Het is net omgekeerd: het geel lichaam verdwijnt, het progesteron zakt en daardoor laat het slijmvlies los."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk hormoon houdt bij een zwangerschap het geel lichaam in stand?",
+          "opties": [
+            "hCG",
+            "FSH",
+            "GnRH",
+            "inhibine"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het jonge embryo maakt hCG. Daardoor blijft het geel lichaam progesteron maken en laat het slijmvlies niet los. Een zwangerschapstest zoekt dat hCG."
+        }
+      ]
+    },
+    {
+      "titel": "Gametogenese en de hormonale regeling — deel 2",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar worden de zaadcellen gemaakt?",
+          "opties": [
+            "in de zaadbuisjes van de teelbal",
+            "in de prostaatklier",
+            "in de zaadblaasjes",
+            "in de zaadleider"
+          ],
+          "antwoord": 0,
+          "uitleg": "De spermatogenese loopt in de wand van de zaadbuisjes. De bijbal slaat de zaadcellen daarna op tot ze rijp zijn."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom hangen de teelballen buiten de buikholte, in de balzak?",
+          "opties": [
+            "daar is het een paar graden koeler",
+            "daar is er meer plaats om te groeien",
+            "daar komen ze dichter bij de prostaat",
+            "daar is de bloeddruk veel hoger"
+          ],
+          "antwoord": 0,
+          "uitleg": "De spermatogenese verloopt het best een paar graden onder de lichaamstemperatuur. Bij warmte daalt de aanmaak van zaadcellen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke cellen in de zaadbuisjes voeden en ondersteunen de rijpende zaadcellen?",
+          "antwoord": [
+            "cellen van Sertoli",
+            "Sertolicellen",
+            "Sertoli"
+          ],
+          "uitleg": "De cellen van Sertoli voeden de rijpende cellen en vormen een barrière tussen het bloed en de zaadbuisjes."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke cellen tussen de zaadbuisjes maken testosteron?",
+          "opties": [
+            "de cellen van Leydig",
+            "de cellen van Sertoli",
+            "de spermatogonia",
+            "de follikelcellen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De cellen van Leydig liggen in het bindweefsel tussen de buisjes. LH zet ze aan tot de productie van testosteron."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke reeks beschrijft de spermatogenese?",
+          "opties": [
+            "spermatogonium, spermatocyt, spermatide, spermatozoïde",
+            "spermatozoïde, spermatide, spermatocyt, spermatogonium",
+            "spermatide, spermatogonium, spermatocyt, spermatozoïde",
+            "spermatocyt, spermatozoïde, spermatogonium, spermatide"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het diploïde spermatogonium wordt een primaire spermatocyt. Na de meiose volgen de haploïde spermatiden, die uitgroeien tot spermatozoïden."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Uit één primaire spermatocyt ontstaan vier bruikbare zaadcellen.",
+          "antwoord": true,
+          "uitleg": "De twee meiotische delingen geven vier gelijke haploïde cellen. Bij de oögenese blijft er maar één eicel over, met drie poollichaampjes."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat zit er in het acrosoom van een zaadcel?",
+          "opties": [
+            "enzymen om door de lagen rond de eicel te geraken",
+            "de mitochondria die de staart van energie voorzien",
+            "het erfelijk materiaal dat naar de eicel moet",
+            "de voedingsvoorraad voor de eerste celdelingen"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het acrosoom is een blaasje met enzymen op de kop. Die maken een weg door de corona radiata en de zona pellucida."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat zit er in het middenstuk van een zaadcel?",
+          "opties": [
+            "de mitochondria",
+            "het acrosoom",
+            "de kern met de chromosomen",
+            "de voedingsvoorraad van de eicel"
+          ],
+          "antwoord": 0,
+          "uitleg": "De mitochondria in het middenstuk leveren het ATP voor de zweepslag van de staart. De kop draagt de kern, de staart is een flagel."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men de staart van een zaadcel met een vakwoord?",
+          "antwoord": [
+            "flagel",
+            "zweepstaart",
+            "flagellum"
+          ],
+          "uitleg": "De flagel is opgebouwd uit microtubuli. Haar golfbeweging duwt de zaadcel vooruit."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke klieren leveren vocht aan het sperma? Kruis alles aan wat juist is.",
+          "opties": [
+            "de zaadblaasjes",
+            "de prostaatklier",
+            "de bijnieren",
+            "de schildklier"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "De zaadblaasjes, de prostaat en de klieren van Cowper leveren het vocht. Dat voedt de zaadcellen en maakt het zure milieu in de vagina minder zuur."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het voorvocht uit de klieren van Cowper kan al zaadcellen bevatten.",
+          "antwoord": true,
+          "uitleg": "Er kunnen zaadcellen uit de zaadleider in meegekomen zijn. Daarom is terugtrekken geen betrouwbare methode."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk hormoon stuurt bij de man de cellen van Leydig aan?",
+          "opties": [
+            "LH",
+            "FSH",
+            "inhibine",
+            "progesteron"
+          ],
+          "antwoord": 0,
+          "uitleg": "LH werkt op de cellen van Leydig, die testosteron maken. FSH werkt samen met testosteron op de cellen van Sertoli."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet testosteron? Kruis alles aan wat juist is.",
+          "opties": [
+            "de spermatogenese op gang houden",
+            "de secundaire geslachtskenmerken vormen",
+            "de ovulatie elke maand uitlokken",
+            "het baarmoederslijmvlies opbouwen"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Testosteron houdt de aanmaak van zaadcellen aan de gang en zorgt voor baardgroei, een lagere stem en spiergroei."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk hormoon van de cellen van Sertoli remt de afgifte van FSH?",
+          "antwoord": [
+            "inhibine"
+          ],
+          "uitleg": "Zijn er genoeg zaadcellen in de maak, dan geven de cellen van Sertoli inhibine af. Dat remt FSH: negatieve feedback."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is negatieve feedback bij de hormonale regeling?",
+          "opties": [
+            "het product remt zijn eigen aanmaak",
+            "het product versterkt zijn eigen aanmaak",
+            "het hormoon werkt alleen in het donker",
+            "het hormoon wordt in de lever gemaakt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Stijgt het testosteron, dan daalt GnRH en dus LH, en zakt het testosteron weer. Zo blijft de waarde rond een vast niveau."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De spermatogenese bij de man loopt in cycli van ongeveer 28 dagen, zoals de eicelrijping.",
+          "antwoord": false,
+          "uitleg": "De spermatogenese loopt onafgebroken, van de puberteit tot op hoge leeftijd. Het is de vrouwelijke cyclus die in maandelijkse golven werkt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarin verschillen de twee gametogenesen? Kruis alles aan wat juist is.",
+          "opties": [
+            "een eicel krijgt veel cytoplasma, een zaadcel bijna niets",
+            "uit één voorlopercel komt één eicel maar vier zaadcellen",
+            "enkel de spermatogenese gebruikt meiose",
+            "enkel de oögenese geeft haploïde cellen"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Beide gebruiken meiose en geven haploïde cellen. Het verschil zit in de ongelijke verdeling van het cytoplasma en in het aantal bruikbare cellen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel chromosomen heeft een menselijke zaadcel?",
+          "opties": [
+            "23",
+            "46",
+            "22",
+            "92"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een gameet is haploïd: 23 chromosomen. Bij de bevruchting worden het weer 46, de helft van elke ouder."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Bij de man dalen de hormonen op latere leeftijd even plots als bij de vrouw in de menopauze.",
+          "antwoord": false,
+          "uitleg": "Bij de man zakt het testosteron heel traag en blijft de aanmaak van zaadcellen doorgaan. Bij de vrouw stopt de eicelrijping wel."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Een arts vindt in een spermastaal heel weinig beweeglijke zaadcellen. Welk onderdeel werkt dan slecht?",
+          "opties": [
+            "het middenstuk met zijn mitochondria",
+            "het acrosoom met zijn enzymen",
+            "de kern met haar chromosomen",
+            "de zona pellucida rond de cel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Zonder genoeg ATP uit het middenstuk beweegt de staart niet goed. Het acrosoom speelt pas een rol bij de eicel, en de zona pellucida hoort bij de eicel."
+        }
+      ]
+    },
+    {
+      "titel": "Bevruchting, embryo en foetus — deel 1",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Waar in het vrouwelijk voortplantingsstelsel gebeurt de bevruchting meestal?",
+          "opties": [
+            "in de eileider",
+            "in de baarmoeder",
+            "in de eierstok",
+            "in de baarmoederhals"
+          ],
+          "antwoord": 0,
+          "uitleg": "De eicel wordt in het eerste derde van de eileider bevrucht. De bevruchte eicel reist daarna nog dagen naar de baarmoeder."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke barrières moet een zaadcel overwinnen op weg naar de eicel? Kruis alles aan wat juist is.",
+          "opties": [
+            "het zure milieu van de vagina",
+            "de slijmprop van de baarmoederhals",
+            "het baarmoederslijmvlies van de vorige cyclus",
+            "de celwand van de eicel"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "De zuurtegraad, de slijmprop, de lengte van de weg en de afweercellen onderweg laten maar enkele honderden zaadcellen over. Een eicel heeft geen celwand."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een eicel is na de ovulatie ongeveer een dag bevruchtbaar.",
+          "antwoord": true,
+          "uitleg": "De eicel leeft nog ongeveer 12 tot 24 uur. Zaadcellen houden het langer uit, drie tot vijf dagen, dus is de vruchtbare periode breder dan één dag."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men het openbreken van het blaasje op de kop van de zaadcel?",
+          "antwoord": [
+            "acrosoomreactie",
+            "de acrosoomreactie"
+          ],
+          "uitleg": "Bij de acrosoomreactie komen de enzymen vrij die een weg banen door de corona radiata en de zona pellucida."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet de corticale reactie in de eicel?",
+          "opties": [
+            "beletten dat een tweede zaadcel binnendringt",
+            "de eerste celdeling van de zygote starten",
+            "de eicel naar de baarmoeder voeren",
+            "het acrosoom van de zaadcel openen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De corticale granulen storten hun inhoud uit en vormen het bevruchtingsmembraan. Daardoor kan er geen tweede zaadcel meer in."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men het samensmelten van de kern van de zaadcel met die van de eicel?",
+          "antwoord": [
+            "amfimixie",
+            "de amfimixie"
+          ],
+          "uitleg": "Bij de amfimixie komen de twee haploïde kernen samen. Vanaf dat moment is er één diploïde cel: de zygote."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een zygote?",
+          "opties": [
+            "de bevruchte eicel met 46 chromosomen",
+            "de onbevruchte eicel in de eileider",
+            "het bolletje cellen dat zich innestelt",
+            "het blaasje met enzymen op de zaadcel"
+          ],
+          "antwoord": 0,
+          "uitleg": "De zygote is de eerste cel van het nieuwe organisme, diploïd en met de helft van het DNA van elke ouder."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is kenmerkend voor de klievingsdelingen? Kruis alles aan wat juist is.",
+          "opties": [
+            "de cellen delen zonder te groeien",
+            "het geheel wordt niet groter",
+            "elke cel wordt groter na elke deling",
+            "er komt bij elke deling DNA bij"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Het klompje blijft even groot en de cellen worden dus kleiner. Ze leven van de voorraad uit de eicel."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men het compacte bolletje cellen dat na enkele klievingsdelingen ontstaat?",
+          "antwoord": [
+            "morula",
+            "de morula"
+          ],
+          "uitleg": "Morula betekent moerbei, naar de vorm. Daarna vormt zich een holte en wordt het een blastula of blastocyst."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk deel van de blastocyst wordt later het embryo?",
+          "opties": [
+            "de embryoblast of kiemknop",
+            "de trofoblast",
+            "de blastulaholte",
+            "de zona pellucida"
+          ],
+          "antwoord": 0,
+          "uitleg": "De embryoblast of kiemknop is het klompje binnenin. De trofoblast is de buitenlaag en wordt het foetale deel van de placenta."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet de trofoblast bij de innesteling?",
+          "opties": [
+            "met enzymen in het slijmvlies binnendringen",
+            "de eerste zenuwcellen van het embryo vormen",
+            "de navelstreng van het embryo aanleggen",
+            "het hart van het embryo laten kloppen"
+          ],
+          "antwoord": 0,
+          "uitleg": "De trofoblast maakt lytische enzymen die het baarmoederslijmvlies openmaken. Zo graaft de blastocyst zich erin; dat is de innesteling."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De innesteling gebeurt pas ongeveer een maand na de bevruchting.",
+          "antwoord": false,
+          "uitleg": "De blastocyst reist eerst enkele dagen door de eileider. Al rond dag zes of zeven nestelt ze zich in het baarmoederslijmvlies in."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke lagen vormt een driebladige kiemschijf?",
+          "opties": [
+            "ectoderm, mesoderm en endoderm",
+            "epiblast, trofoblast en morula",
+            "amnion, chorion en placenta",
+            "zona pellucida, corona radiata en glashuid"
+          ],
+          "antwoord": 0,
+          "uitleg": "De gastrulatie maakt van twee bladen drie. Uit elk blad komen andere organen, en dat heet organogenese."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat ontstaat er uit het ectoderm?",
+          "opties": [
+            "de huid en het zenuwstelsel",
+            "de spieren en het skelet",
+            "de darm en de longen",
+            "de placenta en de navelstreng"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ecto betekent buiten: huid en zenuwstelsel. Mesoderm geeft spieren, bot en bloedvaten, endoderm het darmkanaal en de longen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk kiemblad levert de spieren, het skelet en de bloedvaten?",
+          "antwoord": [
+            "mesoderm",
+            "het mesoderm"
+          ],
+          "uitleg": "Het mesoderm is het middelste blad. Meso betekent midden, en daar komen spieren, bot, bloed en nieren uit."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Tijdens de gastrulatie verplaatsen cellen zich en ontstaat er een derde kiemblad.",
+          "antwoord": true,
+          "uitleg": "Cellen schuiven naar binnen en vormen tussen de twee bestaande bladen het mesoderm. Daarmee ligt de bouwplan van het lichaam vast."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat beschermt het embryo tegen schokken?",
+          "opties": [
+            "het vruchtwater in de amnionholte",
+            "de zona pellucida rond de eicel",
+            "de slijmprop van de baarmoederhals",
+            "het bevruchtingsmembraan"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het amnionvlies houdt het vruchtwater vast. Dat water vangt schokken op en laat het kind vrij bewegen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wanneer spreekt men van een foetus in plaats van een embryo?",
+          "opties": [
+            "vanaf ongeveer de negende week",
+            "vanaf de innesteling",
+            "vanaf de eerste klievingsdeling",
+            "pas vanaf de geboorte"
+          ],
+          "antwoord": 0,
+          "uitleg": "De eerste acht weken is het een embryo: dan worden de organen aangelegd. Daarna heet het een foetus en gaat het vooral om groei en afwerking."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het hart van een embryo begint pas in de derde maand te kloppen.",
+          "antwoord": false,
+          "uitleg": "Het hart begint rond de derde of vierde week te kloppen, nog voor de moeder iets voelt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zijn de eerste acht weken de gevoeligste periode van een zwangerschap?",
+          "opties": [
+            "dan worden alle organen aangelegd",
+            "dan is het kind het grootst",
+            "dan werkt de placenta nog niet",
+            "dan is er nog geen vruchtwater"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een stoornis tijdens de organogenese raakt de bouw van een orgaan zelf. Later gaat het vooral om groei, en is de schade meestal beperkter."
+        }
+      ]
+    },
+    {
+      "titel": "Bevruchting, embryo en foetus — deel 2",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet de placenta? Kruis alles aan wat juist is.",
+          "opties": [
+            "voedingsstoffen en zuurstof doorgeven",
+            "afvalstoffen van het kind afvoeren",
+            "het bloed van moeder en kind mengen",
+            "het kind van vruchtwater voorzien"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Stoffen gaan door de placentabarrière heen, maar de twee bloedsomlopen blijven gescheiden. De placenta maakt ook hormonen, onder meer progesteron."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het bloed van de moeder en dat van het kind komen in de placenta rechtstreeks samen.",
+          "antwoord": false,
+          "uitleg": "Ze stromen langs elkaar, gescheiden door de placentabarrière. Stoffen wisselen door die barrière; bloedcellen blijven aan hun kant."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoeveel bloedvaten zitten er in een navelstreng?",
+          "opties": [
+            "twee slagaders en één ader",
+            "één slagader en één ader",
+            "twee slagaders en twee aders",
+            "drie aders en geen slagader"
+          ],
+          "antwoord": 0,
+          "uitleg": "Twee navelstrengslagaders brengen zuurstofarm bloed naar de placenta, en één navelstrengader brengt zuurstofrijk bloed terug naar het kind."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men de placenta in gewone taal?",
+          "antwoord": [
+            "moederkoek",
+            "de moederkoek"
+          ],
+          "uitleg": "De moederkoek bestaat uit een foetaal deel uit de trofoblast en een moederlijk deel uit het baarmoederslijmvlies."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke reeks geeft de fasen van de geboorte in de juiste orde?",
+          "opties": [
+            "indaling, ontsluiting, uitdrijving, nageboorte",
+            "ontsluiting, indaling, nageboorte, uitdrijving",
+            "uitdrijving, indaling, ontsluiting, nageboorte",
+            "nageboorte, ontsluiting, indaling, uitdrijving"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het kind daalt in, de baarmoederhals verstrijkt en opent, het kind wordt uitgedreven en daarna komt de placenta."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er tijdens de ontsluiting?",
+          "opties": [
+            "de baarmoederhals opent zich",
+            "het kind wordt naar buiten geduwd",
+            "de placenta laat los van de wand",
+            "het kind draait met zijn hoofd naar boven"
+          ],
+          "antwoord": 0,
+          "uitleg": "De weeën laten de baarmoederhals verstrijken en opengaan tot ongeveer tien centimeter. Dat is de langste fase van een bevalling."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men de laatste fase van de bevalling, waarin de placenta eruit komt?",
+          "antwoord": [
+            "nageboorte",
+            "de nageboorte"
+          ],
+          "uitleg": "De naweeën laten de placenta loskomen en uitdrijven. Blijft er een stukje achter, dan geeft dat bloedverlies en infectiegevaar."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Het breken van de vruchtvliezen betekent dat het vruchtwater wegvloeit.",
+          "antwoord": true,
+          "uitleg": "Het amnionvlies scheurt en het vruchtwater loopt weg. Dat gebeurt meestal tijdens de ontsluiting, soms al ervoor."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk onderzoek tijdens de zwangerschap gebruikt geluidsgolven?",
+          "opties": [
+            "de echografie",
+            "de vruchtwaterpunctie",
+            "de vlokkentest",
+            "de bloedtest op hCG"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een echografie werkt met ultrageluid en is niet invasief. Ze toont de bouw en de groei, maar niet de chromosomen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke onderzoeken halen cellen van het kind weg en geven dus een klein risico? Kruis alles aan wat juist is.",
+          "opties": [
+            "de vruchtwaterpunctie",
+            "de vlokkentest",
+            "de echografie",
+            "het meten van de bloeddruk"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Bij een punctie of een vlokkentest wordt met een naald materiaal weggenomen. Dat geeft een kleine kans op een miskraam, maar levert wel het karyogram."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een beperking van prenataal onderzoek?",
+          "opties": [
+            "het vindt niet elke aandoening",
+            "het kan de bloedgroep niet bepalen",
+            "het werkt alleen na de geboorte",
+            "het geeft nooit een uitslag"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een test zoekt naar bepaalde afwijkingen, niet naar alles. Daarbij bestaan er valse uitslagen, en een gevonden afwijking is meestal niet te behandelen."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een niet-invasieve prenatale test onderzoekt DNA van het kind dat in het bloed van de moeder zit.",
+          "antwoord": true,
+          "uitleg": "Er circuleren kleine stukjes foetaal DNA in haar bloed. Een bloedstaal volstaat dus, zonder risico voor het kind."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men een stof die een afwijking bij een embryo kan veroorzaken?",
+          "antwoord": [
+            "teratogeen",
+            "teratogene stof",
+            "een teratogeen"
+          ],
+          "uitleg": "Een teratogene stof grijpt in op de ontwikkeling. Alcohol, bepaalde medicijnen en sommige zware metalen zijn voorbeelden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom wordt een zwangere vrouw aangeraden foliumzuur te nemen?",
+          "opties": [
+            "het verkleint de kans op een open rug",
+            "het verhoogt het gewicht van het kind",
+            "het beschermt tegen toxoplasmose",
+            "het versnelt de bevalling"
+          ],
+          "antwoord": 0,
+          "uitleg": "Foliumzuur is nodig bij het sluiten van de neurale buis, in de eerste weken. Daarom start men er het best al voor de zwangerschap mee."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke gevolgen kan alcohol tijdens de zwangerschap hebben? Kruis alles aan wat juist is.",
+          "opties": [
+            "een lager geboortegewicht",
+            "een blijvende ontwikkelingsachterstand",
+            "een hogere kans op een tweeling",
+            "een snellere bevalling"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Alcohol gaat vlot door de placenta en treft vooral de hersenen. Er is geen veilige ondergrens bekend, dus is helemaal niet drinken het advies."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom is roken tijdens de zwangerschap schadelijk?",
+          "opties": [
+            "het kind krijgt minder zuurstof",
+            "het kind krijgt te veel ijzer binnen",
+            "de placenta maakt dan geen hormonen",
+            "het vruchtwater wordt dan te zout"
+          ],
+          "antwoord": 0,
+          "uitleg": "Koolstofmonoxide bezet de hemoglobine en nicotine vernauwt de bloedvaten. Dat geeft een lager geboortegewicht en meer kans op vroeggeboorte."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een zwangere vrouw moet beter helemaal niet bewegen.",
+          "antwoord": false,
+          "uitleg": "Matig bewegen is juist goed voor de bloeddruk, het gewicht en de bevalling. Alleen zware schokken en valrisico zijn af te raden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom mag een zwangere vrouw geen rauw vlees eten?",
+          "opties": [
+            "om toxoplasmose te vermijden",
+            "om rubella te vermijden",
+            "om het zikavirus te vermijden",
+            "om een te hoge bloeddruk te vermijden"
+          ],
+          "antwoord": 0,
+          "uitleg": "De toxoplasmoseparasiet zit in rauw vlees en in kattenuitwerpselen. Bij een eerste besmetting tijdens de zwangerschap kan het kind schade oplopen."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Tegen welk virus, dat rode hond veroorzaakt, worden meisjes gevaccineerd om hun latere zwangerschap te beschermen?",
+          "antwoord": [
+            "rubella",
+            "rubellavirus",
+            "rodehondvirus"
+          ],
+          "uitleg": "Een rubella-infectie in de eerste maanden kan doofheid, blindheid en hartafwijkingen geven. Vaccinatie voor de zwangerschap voorkomt dat."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke stoffen uit onze omgeving kunnen via de placenta de ontwikkeling storen? Kruis alles aan wat juist is.",
+          "opties": [
+            "zware metalen zoals lood",
+            "hormoonverstorende stoffen",
+            "vezels uit volkoren brood",
+            "zuurstof uit de ingeademde lucht"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Zware metalen, hormoonverstoorders, pesticiden en microplastics halen de placenta en kunnen de ontwikkeling raken. Vezels en zuurstof zijn gewone voeding en gewone ademhaling."
+        }
+      ]
+    },
+    {
+      "titel": "Vruchtbaarheid regelen en behandelen — deel 1",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarop berusten de natuurlijke methoden om de vruchtbaarheid te regelen?",
+          "opties": [
+            "op het mijden van de vruchtbare dagen",
+            "op het stilleggen van de eisprong met hormonen",
+            "op het tegenhouden van de zaadcellen met een vlies",
+            "op het doorknippen van de zaadleiders"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij een natuurlijke methode wordt de vruchtbare periode opgespoord en gemeden. Er komt geen hormoon en geen barrière aan te pas."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke methoden sporen de vruchtbare dagen op? Kruis alles aan wat juist is.",
+          "opties": [
+            "de temperatuurmethode",
+            "de ovulatiemethode",
+            "de combinatiepil",
+            "het koperspiraal"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "De temperatuurmethode volgt de lichte stijging van de lichaamstemperatuur na de ovulatie, de ovulatiemethode volgt het slijm van de baarmoederhals. De kalendermethode rekent met de lengte van de vorige cycli."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "De natuurlijke methoden zijn minder betrouwbaar omdat een cyclus kan verschuiven.",
+          "antwoord": true,
+          "uitleg": "Ziekte, stress of een onregelmatige cyclus verschuiven de ovulatie. Daardoor valt de vruchtbare periode anders dan de berekening zegt."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe werkt een condoom?",
+          "opties": [
+            "het houdt de zaadcellen tegen",
+            "het belet de eisprong",
+            "het maakt het slijmvlies ongeschikt",
+            "het doodt de eicel"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een condoom is een barrièremiddel: het sperma komt niet in de vagina. Daarmee houdt het ook ziekteverwekkers tegen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke middelen beschermen ook tegen soa's? Kruis alles aan wat juist is.",
+          "opties": [
+            "het mannencondoom",
+            "het vrouwencondoom",
+            "de combinatiepil",
+            "de temperatuurmethode"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Alleen de condooms vormen een echte barrière tussen de slijmvliezen. Hormonale middelen en spiraaltjes regelen wel de vruchtbaarheid, maar laten ziekteverwekkers gewoon door."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men het kapje dat voor de baarmoederhals geplaatst wordt?",
+          "antwoord": [
+            "pessarium",
+            "diafragma",
+            "een pessarium"
+          ],
+          "uitleg": "Het pessarium of diafragma sluit de baarmoederhals af en wordt met een zaaddodend middel gebruikt. Het beschermt niet tegen soa's."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat doet de combinatiepil in het lichaam?",
+          "opties": [
+            "de eisprong tegenhouden met oestrogeen en progestageen",
+            "de zaadcellen in de vagina doden",
+            "de bevruchte eicel uit de baarmoeder verwijderen",
+            "het slijm van de baarmoederhals dunner maken"
+          ],
+          "antwoord": 0,
+          "uitleg": "De pil houdt het hormoonpeil kunstmatig hoog. De hypofyse geeft daardoor geen LH-piek meer, en zonder LH-piek geen ovulatie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke middelen werken met hormonen? Kruis alles aan wat juist is.",
+          "opties": [
+            "de hormoonpleister",
+            "de prikpil",
+            "het koperspiraal",
+            "het pessarium"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Pleister, vaginale ring, prikpil, implantaat, minipil en hormoonspiraal geven alle een hormoon af. Het koperspiraal en het pessarium doen dat niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen een koperspiraal en een hormoonspiraal?",
+          "opties": [
+            "het koperspiraal werkt zonder hormoon",
+            "het koperspiraal zit buiten het lichaam",
+            "het hormoonspiraal beschermt tegen soa's",
+            "het hormoonspiraal blijft maar één cyclus zitten"
+          ],
+          "antwoord": 0,
+          "uitleg": "Koper maakt de baarmoeder ongeschikt voor zaadcellen en innesteling. Een hormoonspiraal geeft daarbovenop een progestageen af."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men de ingreep waarbij bij een man de zaadleiders doorgeknipt worden?",
+          "antwoord": [
+            "sterilisatie",
+            "vasectomie",
+            "de sterilisatie"
+          ],
+          "uitleg": "Bij een man worden de zaadleiders onderbroken, bij een vrouw de eileiders. Een sterilisatie is bedoeld als blijvend en dus niet zomaar om te keren."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Na een sterilisatie bij een man maakt hij geen testosteron meer aan.",
+          "antwoord": false,
+          "uitleg": "De cellen van Leydig blijven testosteron maken. Alleen de weg van de zaadcellen naar buiten is onderbroken."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is noodanticonceptie?",
+          "opties": [
+            "een middel na onbeschermd vrijen",
+            "een middel dat elke dag genomen wordt",
+            "een middel dat tegen soa's beschermt",
+            "een middel dat de vruchtbaarheid verhoogt"
+          ],
+          "antwoord": 0,
+          "uitleg": "De morning-afterpil en het noodspiraaltje worden achteraf gebruikt, zo snel mogelijk. Ze zijn bedoeld voor een uitzondering, niet als vaste methode."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Hoe werkt de morning-afterpil vooral?",
+          "opties": [
+            "door de ovulatie uit te stellen",
+            "door een ingenestelde vrucht af te breken",
+            "door de zaadcellen in de vagina te doden",
+            "door het baarmoederslijmvlies dikker te maken"
+          ],
+          "antwoord": 0,
+          "uitleg": "Ze stelt de eisprong uit of houdt hem tegen, en werkt dus beter naarmate ze sneller genomen wordt. De abortuspil werkt anders: die beëindigt een bestaande zwangerschap."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een zaaddodend middel is alleen betrouwbaar als het samen met een barrièremiddel gebruikt wordt.",
+          "antwoord": true,
+          "uitleg": "Alleen gebruikt is een zaaddodend middel weinig betrouwbaar. Samen met een pessarium of een condoom vult het de bescherming aan."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom zegt men bij een methode altijd hoe betrouwbaar ze is?",
+          "opties": [
+            "omdat verkeerd gebruik de betrouwbaarheid verlaagt",
+            "omdat elke methode even betrouwbaar is",
+            "omdat de betrouwbaarheid niet te meten is",
+            "omdat de betrouwbaarheid van het weer afhangt"
+          ],
+          "antwoord": 0,
+          "uitleg": "Er is een verschil tussen het ideale gebruik en het werkelijke gebruik. Een pil die een dag vergeten wordt, is minder betrouwbaar dan de cijfers op de bijsluiter."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men het hormoon dat de eisprong uitlokt en dat de pil onderdrukt?",
+          "antwoord": [
+            "LH",
+            "luteïniserend hormoon",
+            "lh"
+          ],
+          "uitleg": "De LH-piek laat de Graafse follikel springen. Zonder die piek komt er geen eicel vrij."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een vrouwencondoom regelt de vruchtbaarheid, maar beschermt niet tegen soa's.",
+          "antwoord": false,
+          "uitleg": "Het vrouwencondoom bekleedt de vaginawand en bedekt ook een stukje eromheen. Daardoor beschermt het, net als het mannencondoom, wel tegen soa's."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk hormoon zit er in de minipil, naast geen oestrogeen?",
+          "antwoord": [
+            "progestageen",
+            "progesteron",
+            "een progestageen"
+          ],
+          "uitleg": "De minipil bevat alleen een progestageen. Daardoor kan ze gebruikt worden als oestrogeen niet mag, maar ze moet wel heel regelmatig genomen worden."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk voordeel heeft een hormoonimplantaat tegenover de pil?",
+          "opties": [
+            "het werkt jaren zonder dagelijkse inname",
+            "het beschermt ook tegen soa's",
+            "het kan elke dag weggelaten worden",
+            "het werkt zonder enig hormoon"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een staafje onder de huid van de bovenarm geeft jarenlang een progestageen af. Er is dus niets dagelijks te onthouden, en dat verhoogt de betrouwbaarheid in de praktijk."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is een nadeel van een spiraaltje?",
+          "opties": [
+            "het moet door een arts geplaatst worden",
+            "het moet elke dag ingenomen worden",
+            "het werkt maar één dag",
+            "het belet de eisprong nooit"
+          ],
+          "antwoord": 0,
+          "uitleg": "Het plaatsen en verwijderen gebeurt bij een arts en kan pijnlijk zijn. Daarna werkt het wel jaren zonder dat er iets te onthouden valt."
+        }
+      ]
+    },
+    {
+      "titel": "Vruchtbaarheid regelen en behandelen — deel 2",
+      "niveau": "beyond-doorstroom",
+      "gratis": false,
+      "vragen": [
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat gebeurt er bij kunstmatige inseminatie?",
+          "opties": [
+            "sperma wordt in de baarmoeder gebracht",
+            "een eicel wordt buiten het lichaam bevrucht",
+            "een eicel wordt bij een donor weggenomen",
+            "een embryo wordt in de eileider gelegd"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij inseminatie wordt het sperma rechtstreeks ingebracht, rond de ovulatie. De bevruchting gebeurt dus nog in het lichaam zelf."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat betekent KID tegenover KI?",
+          "opties": [
+            "het sperma komt van een donor",
+            "de eicel komt van een donor",
+            "de bevruchting gebeurt in een schaaltje",
+            "er wordt één zaadcel ingespoten"
+          ],
+          "antwoord": 0,
+          "uitleg": "KI gebruikt sperma van de partner, KID dat van een donor. Daar wordt voor gekozen als de partner geen bruikbare zaadcellen heeft."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoe noemt men de techniek waarbij eicel en zaadcellen buiten het lichaam samengebracht worden?",
+          "antwoord": [
+            "ivf",
+            "in-vitrofertilisatie",
+            "IVF"
+          ],
+          "uitleg": "Bij in-vitrofertilisatie gebeurt de bevruchting in een schaaltje in het labo. Daarna wordt een embryo in de baarmoeder geplaatst."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen IVF en ICSI?",
+          "opties": [
+            "bij ICSI wordt één zaadcel in de eicel gespoten",
+            "bij ICSI gebeurt alles in het lichaam zelf",
+            "bij ICSI wordt er geen eicel gebruikt",
+            "bij ICSI is er geen hormonale stimulatie nodig"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij IVF moeten de zaadcellen zelf binnendringen, bij ICSI wordt er één met een naald ingebracht. ICSI helpt dus als de zaadcellen te traag of te weinig beweeglijk zijn."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Voor een IVF-behandeling worden de eierstokken hormonaal gestimuleerd.",
+          "antwoord": true,
+          "uitleg": "Met hormonen rijpen er meerdere follikels in plaats van één. Zo zijn er meerdere eicellen te oogsten in één cyclus."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is in-vitromaturatie?",
+          "opties": [
+            "onrijpe eicellen buiten het lichaam laten rijpen",
+            "sperma buiten het lichaam laten rijpen",
+            "een embryo langer in het labo houden",
+            "de baarmoeder op de innesteling voorbereiden"
+          ],
+          "antwoord": 0,
+          "uitleg": "Bij IVM worden onrijpe eicellen geoogst en pas in het labo verder gerijpt. Dat vraagt minder of geen hormonale stimulatie."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wanneer komt eiceldonatie in beeld?",
+          "opties": [
+            "als de vrouw zelf geen bruikbare eicellen heeft",
+            "als de man geen bruikbare zaadcellen heeft",
+            "als de baarmoeder te klein is",
+            "als het koppel een tweeling wil"
+          ],
+          "antwoord": 0,
+          "uitleg": "Een donoreicel wordt met het sperma van de partner bevrucht via IVF. Het embryo wordt daarna bij de wensmoeder geplaatst."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welk onderzoek bij een man kijkt naar het aantal, de vorm en de beweeglijkheid van de zaadcellen?",
+          "antwoord": [
+            "spermaonderzoek",
+            "een spermaonderzoek",
+            "spermogram"
+          ],
+          "uitleg": "Een spermastaal laat zien of er genoeg goed gebouwde en beweeglijke zaadcellen zijn. Daarmee wordt beslist of IVF volstaat of ICSI nodig is."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welk gedrag verlaagt de vruchtbaarheid van een man? Kruis alles aan wat juist is.",
+          "opties": [
+            "roken",
+            "veel alcohol drinken",
+            "regelmatig matig bewegen",
+            "voldoende slapen"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Roken, alcohol en drugs verminderen het aantal en de kwaliteit van de zaadcellen. Bewegen en slapen werken juist de goede kant op."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Alleen de leeftijd van de vrouw speelt een rol bij de vruchtbaarheid van een koppel.",
+          "antwoord": false,
+          "uitleg": "Bij een vrouw daalt het aantal en de kwaliteit van de eicellen sneller, maar ook bij een man neemt de kwaliteit van het sperma met de jaren af."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom kan overgewicht de vruchtbaarheid verlagen?",
+          "opties": [
+            "het verstoort het hormonale evenwicht",
+            "het verkleint de baarmoeder",
+            "het sluit de eileiders af",
+            "het verandert de bloedgroep"
+          ],
+          "antwoord": 0,
+          "uitleg": "Vetweefsel maakt zelf hormonen aan en verstoort zo de cyclus en de spermaproductie. Dat geldt bij mannen en bij vrouwen."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom kan een kankerbehandeling de vruchtbaarheid aantasten?",
+          "opties": [
+            "ze raakt ook de snel delende geslachtscellen",
+            "ze verhoogt het testosteronpeil te sterk",
+            "ze verdikt het baarmoederslijmvlies",
+            "ze maakt het sperma te vloeibaar"
+          ],
+          "antwoord": 0,
+          "uitleg": "Chemotherapie en bestraling treffen snel delende cellen, en dat zijn ook de cellen van de gametogenese. Daarom wordt er soms vooraf sperma of eierstokweefsel bewaard."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Langdurige stress kan de cyclus van een vrouw verstoren.",
+          "antwoord": true,
+          "uitleg": "Stresshormonen grijpen in op de hypothalamus en de hypofyse. Daardoor kan de ovulatie verschuiven of helemaal uitblijven."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Welke invloeden van buitenaf kunnen de vruchtbaarheid verlagen? Kruis alles aan wat juist is.",
+          "opties": [
+            "zware metalen",
+            "bepaalde medicijnen",
+            "water uit de kraan",
+            "zuurstof in de lucht"
+          ],
+          "antwoord": [
+            0,
+            1
+          ],
+          "uitleg": "Zware metalen, sommige medicijnen, pesticiden en hormoonverstoorders grijpen in op de hormonen of op de gameten zelf. Water en zuurstof doen dat niet."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom hangen de teelballen buiten het lichaam?",
+          "opties": [
+            "zaadcellen rijpen bij een lagere temperatuur",
+            "zaadcellen hebben meer zuurstof nodig",
+            "zaadcellen moeten sneller naar buiten kunnen",
+            "zaadcellen worden daar door hormonen bereikt"
+          ],
+          "antwoord": 0,
+          "uitleg": "De spermatogenese verloopt het best enkele graden onder de lichaamstemperatuur. Daarom verlaagt langdurige warmte, zoals een hete bad of een laptop op de schoot, de kwaliteit van het sperma."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Hoeveel chromosomen zitten er in een gezonde menselijke zaadcel?",
+          "antwoord": [
+            "23",
+            "drieëntwintig"
+          ],
+          "uitleg": "Een gameet is haploïd: 23 chromosomen. Bij de bevruchting komt het aantal weer op 46."
+        },
+        {
+          "type": "waarofniet",
+          "vraag": "Een vruchtbaarheidsbehandeling lukt altijd vanaf de eerste poging.",
+          "antwoord": false,
+          "uitleg": "De kans per poging ligt duidelijk onder de helft en daalt met de leeftijd. Daarom zijn er meestal meerdere pogingen nodig."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Waarom worden bij een IVF-behandeling meestal niet alle embryo's tegelijk geplaatst?",
+          "opties": [
+            "om een meerlingzwangerschap te vermijden",
+            "omdat embryo's niet bewaard kunnen worden",
+            "omdat de baarmoeder er maar één aankan per jaar",
+            "omdat er anders geen hormonen genoeg zijn"
+          ],
+          "antwoord": 0,
+          "uitleg": "Meerdere embryo's tegelijk verhogen de kans op een tweeling of drieling, en dat geeft meer risico. De overige embryo's worden ingevroren voor een volgende poging."
+        },
+        {
+          "type": "meerkeuze",
+          "vraag": "Wat is het verschil tussen de morning-afterpil en de abortuspil?",
+          "opties": [
+            "de eerste voorkomt, de tweede beëindigt een zwangerschap",
+            "de eerste beëindigt, de tweede voorkomt een zwangerschap",
+            "ze doen precies hetzelfde",
+            "de eerste werkt met koper, de tweede met een hormoon"
+          ],
+          "antwoord": 0,
+          "uitleg": "De morning-afterpil stelt de ovulatie uit en werkt dus voor er een zwangerschap is. De abortuspil breekt een bestaande zwangerschap af en gebeurt onder medisch toezicht."
+        },
+        {
+          "type": "invultekst",
+          "vraag": "Welke stoffen in ons milieu lijken op hormonen en kunnen daardoor de vruchtbaarheid storen?",
+          "antwoord": [
+            "hormoonverstoorders",
+            "hormoonverstorende stoffen"
+          ],
+          "uitleg": "Hormoonverstoorders binden op dezelfde receptoren als echte hormonen. Daardoor sturen ze de cyclus of de spermaproductie de verkeerde kant op."
+        }
+      ]
+    }
+  ]
+}
