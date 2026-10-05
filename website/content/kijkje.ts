@@ -149,6 +149,69 @@ export const kijkje = {
       alt: "Bakken met knutselmateriaal",
     },
     {
+      bestand: "de-katteket-natekenen.jpg",
+      bijschrift:
+        "De Katteket: helemaal met de hand nagetekend, naast het voorbeeld op het scherm.",
+      alt: "Een getekende poster met kattenastronauten naast een laptop met hetzelfde beeld",
+    },
+    {
+      bestand: "tekenen-naar-voorbeeld.jpg",
+      bijschrift: "Eerst de lijnen in potlood, de kleur komt later.",
+      alt: "Kind tekent aan een werktafel met een tablet en een bak stiften ernaast",
+      gezichten: true,
+    },
+    {
+      bestand: "samen-een-denkspel.jpg",
+      bijschrift: "Samen een denkspel oplossen, en dan die duim omhoog.",
+      alt: "Een begeleidster en een kind aan een schoolbank met een denkspel tussen hen in",
+      gezichten: true,
+    },
+    {
+      bestand: "bouwen-met-een-begeleider.jpg",
+      bijschrift: "Bouwen volgens plan, met hulp waar het vastloopt.",
+      alt: "Kind en begeleidster bouwen een constructie met bouwstenen aan een schoolbank",
+      gezichten: true,
+    },
+    {
+      bestand: "de-aarde-en-de-maan-bouwen.jpg",
+      bijschrift: "De aarde, de maan en de zon in elkaar zetten, met tandwielen en een motortje.",
+      alt: "Twee kinderen buigen zich over een houten bouwpakket met een wereldbol",
+    },
+    {
+      bestand: "een-boek-over-natuurkunde.jpg",
+      bijschrift: "Een boek over natuurkunde, en even niet gestoord worden.",
+      alt: "Kind leest een boek over natuurkunde aan een houten tafel",
+      gezichten: true,
+    },
+    {
+      bestand: "werken-waar-het-goed-voelt.jpg",
+      bijschrift:
+        "Werken waar het goed voelt: op de grond, met de moleculen binnen handbereik.",
+      alt: "Kind zit op de vloer te typen op een laptop, naast molecuulmodellen en een tijdklok",
+    },
+    {
+      bestand: "lego-werelden.jpg",
+      bijschrift: "Eigen werelden in een doos: van de oceaan tot het bos.",
+      alt: "Zelfgebouwde LEGO-landschappen en voertuigen in een kartonnen doos",
+    },
+    {
+      bestand: "bloemen-zoeken-op-de-campus.jpg",
+      bijschrift: "Bloemen zoeken in het veld naast de campus.",
+      alt: "Twee kinderen zoeken bloemen in een veld met hoog gras en wilde bloemen",
+      gezichten: true,
+    },
+    {
+      bestand: "op-bezoek-in-het-atheneum.jpg",
+      bijschrift: "Op bezoek in het atheneum, waar ze ook aan hoogbegaafden denken.",
+      alt: "Kind steekt twee duimen op naast een banner van het atheneum",
+      gezichten: true,
+    },
+    {
+      bestand: "het-knutselmagazijn.jpg",
+      bijschrift: "Het knutselmagazijn: alles in een bak, met een etiket erop.",
+      alt: "Rekken vol doorzichtige bakken met knutselmateriaal, elk met een etiket",
+    },
+    {
       bestand: "telewerkhokjes-t2.jpg",
       bijschrift: "Op de T2-campus kunnen ouders telewerken in rustige hokjes.",
       alt: "Houten telewerkhokjes met tafel op de T2-campus",
