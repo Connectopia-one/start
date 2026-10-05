@@ -1,0 +1,112 @@
+{
+ "vak": "Frans",
+ "titel": "Woordvelden: eten, kleding, wonen en winkelen",
+ "onder": "De woorden van een gewone dag: een menu, een boodschappenlijst, een kassa, een zoekertje voor een woning.",
+ "secties": [
+  {
+   "kop": "Eten en drinken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De woordvelden van dit thema: <strong>eten en drinken</strong>; <strong>winkels en diensten</strong>; <strong>cijfers, gewichten, maten en hoeveelheden</strong>; <strong>kleding en accessoires</strong>; <strong>kleuren, vormen en materialen</strong>; de <strong>woning</strong> met haar meubels en uitrusting; <strong>dagelijkse bezigheden</strong>; en <strong>dagelijkse of persoonlijke voorwerpen</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Een menu lezen.</strong> <em>Menu du jour — Entrée : soupe de légumes ou salade de tomates. Plat : poulet et frites, ou pâtes aux champignons (plat végétarien). Dessert : glace, fruits de saison ou crêpe au sucre. Boisson comprise : eau, jus d'orange ou limonade. 14 euros.</em><br>Drie gangen: <em>entrée</em>, <em>plat</em>, <em>dessert</em>. <em>Boisson comprise</em> betekent drank inbegrepen, en koffie staat er niet bij."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le poulet, le poisson, le porc</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kip, vis, varkensvlees</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le pain, le fromage</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">brood, kaas</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">les légumes, les fruits</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de groenten, het fruit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">l'eau, le jus d'orange</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">water, sinaasappelsap</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une entrée, un plat, un dessert</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een voorgerecht, een hoofdgerecht, een nagerecht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">végétarien</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vegetarisch</td></tr></table>",
+     "onderschrift": "Vier woorden met een p die je niet mag verwarren: poulet, poisson, porc, pain."
+    }
+   ]
+  },
+  {
+   "kop": "Hoeveelheden, maten en de kassa",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Na een <strong>hoeveelheid</strong> komt in het Frans alleen <em>de</em>: <em>un kilo de pommes de terre</em>, <em>500 grammes de carottes</em>, <em>une bouteille de lait</em>, <em>un paquet de pâtes</em>, <em>un litre d'eau</em>, <em>beaucoup de monde</em>, <em>un peu de sel</em>, <em>trop de bruit</em>, <em>assez de places</em> — nooit <em>des</em> of <em>du</em>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un kilo, un gramme, un litre</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kilo, een gram, een liter</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une bouteille, un paquet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een fles, een pak</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">six œufs</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zes eieren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un billet, une pièce</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een biljet, een muntstuk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">payer par carte / en espèces</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met de kaart / met cash geld betalen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un ticket</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een kassabon</td></tr></table>",
+     "onderschrift": "Un billet kan ook een ticket zijn, bijvoorbeeld voor de trein."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Aan de kassa.</strong> <em>— Bonjour, ce sera tout ? — Oui, et je voudrais un sac, s'il vous plaît. — Ça fait 23,40 euros. Vous payez par carte ou en espèces ? — Par carte. — Voilà votre ticket, bonne journée !</em><br><em>Ce sera tout ?</em> betekent: is dat alles? Vragen wat iets kost doe je met <em>Ça coûte combien ?</em>"
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">winkel of dienst</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je er vindt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la boulangerie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">brood, une baguette</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la boucherie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vlees</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la pharmacie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geneesmiddelen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la librairie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">boeken (geen bibliotheek!)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la poste, la banque</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">post, bank</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le magasin, le marché</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de winkel, de markt</td></tr></table>",
+     "onderschrift": "La librairie is een boekhandel; een bibliotheek is une bibliothèque."
+    }
+   ]
+  },
+  {
+   "kop": "Kleding, kleuren, vormen en materialen",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<em>Pour l'entretien, mets un pantalon noir et une chemise blanche. Pas de baskets : des chaussures fermées. S'il fait froid, prends ta veste grise, mais laisse ton bonnet dans ton sac.</em><br><em>Pas de baskets</em> betekent geen sportschoenen; <em>des chaussures fermées</em> zijn gesloten schoenen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un pantalon, une chemise</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een broek, een hemd</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une veste, un pull</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vest, een trui</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une jupe, une robe</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een rok, een kleed</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">des chaussures, des baskets</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schoenen, sportschoenen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un bonnet, un sac</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een muts, een zak of tas</td></tr></table>",
+     "onderschrift": "Un bonnet de bain is een badmuts, verplicht in veel Franse zwembaden."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 108\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"6.0\" y=\"4\" width=\"30\" height=\"30\" rx=\"7\" fill=\"#1f2328\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"44.0\" y=\"17\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">noir / noire</text><text x=\"44.0\" y=\"31\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">zwart</text><rect x=\"123.5\" y=\"4\" width=\"30\" height=\"30\" rx=\"7\" fill=\"#f7f5ee\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"161.5\" y=\"17\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">blanc / blanche</text><text x=\"161.5\" y=\"31\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">wit</text><rect x=\"241.0\" y=\"4\" width=\"30\" height=\"30\" rx=\"7\" fill=\"#8d9298\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"279.0\" y=\"17\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">gris / grise</text><text x=\"279.0\" y=\"31\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">grijs</text><rect x=\"358.5\" y=\"4\" width=\"30\" height=\"30\" rx=\"7\" fill=\"#c0392b\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"396.5\" y=\"17\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">rouge</text><text x=\"396.5\" y=\"31\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">rood</text><rect x=\"6.0\" y=\"64\" width=\"30\" height=\"30\" rx=\"7\" fill=\"#2f5d50\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"44.0\" y=\"77\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">vert / verte</text><text x=\"44.0\" y=\"91\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">groen</text><rect x=\"123.5\" y=\"64\" width=\"30\" height=\"30\" rx=\"7\" fill=\"#2c5f8a\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"161.5\" y=\"77\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">bleu / bleue</text><text x=\"161.5\" y=\"91\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">blauw</text><rect x=\"241.0\" y=\"64\" width=\"30\" height=\"30\" rx=\"7\" fill=\"#e0b43a\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"279.0\" y=\"77\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">jaune</text><text x=\"279.0\" y=\"91\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">geel</text><rect x=\"358.5\" y=\"64\" width=\"30\" height=\"30\" rx=\"7\" fill=\"#7a5230\" stroke=\"#234539\" stroke-width=\"1.2\"/><text x=\"396.5\" y=\"77\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">brun / marron</text><text x=\"396.5\" y=\"91\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">bruin</text></svg>",
+     "onderschrift": "Een kleur past zich aan het naamwoord aan, en staat erachter: une voiture rouge."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Vormen</strong> en <strong>materialen</strong> horen bij hetzelfde woordveld maar zijn geen kleuren: <em>rond</em>, <em>carré</em> (vierkant), <em>rectangulaire</em> (rechthoekig) zijn vormen; <em>le bois</em> (hout), <em>le verre</em> (glas), <em>le coton</em> (katoen), <em>le métal</em>, <em>le plastique</em> zijn materialen."
+    }
+   ]
+  },
+  {
+   "kop": "De woning",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<strong>Een zoekertje.</strong> <em>L'appartement a deux chambres, une cuisine équipée et une petite salle de bains. Le salon donne sur un balcon. Il y a un lave-linge dans la cave. Le loyer est de 650 euros par mois, charges comprises.</em><br><em>Une chambre</em> is een slaapkamer, <em>une cave</em> een kelder, <em>le loyer</em> de huurprijs, en <em>charges comprises</em> betekent kosten inbegrepen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la cuisine, le salon</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de keuken, de woonkamer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la chambre, la salle de bains</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de slaapkamer, de badkamer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la cave, le grenier</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kelder, de zolder</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le balcon, le jardin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het balkon, de tuin</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une table, une chaise, un lit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een tafel, een stoel, een bed</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un frigo, un lave-linge</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een koelkast, een wasmachine</td></tr></table>",
+     "onderschrift": "Le loyer is geen voorwerp maar de prijs die je elke maand betaalt."
+    }
+   ]
+  },
+  {
+   "kop": "Een dag thuis",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<em>En semaine, je me lève à six heures et demie. Je me douche, je prends mon petit-déjeuner et je pars à sept heures et quart. L'après-midi, je fais mes devoirs avant de sortir. Le soir, c'est moi qui mets la table et mon frère qui fait la vaisselle.</em>"
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">se lever, se doucher</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opstaan, zich douchen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">se raser, s'habiller</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zich scheren, zich kleden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mettre la table</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de tafel dekken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">faire la vaisselle</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vaat doen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ranger sa chambre</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zijn kamer opruimen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sortir la poubelle</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het vuilnis buitenzetten</td></tr></table>",
+     "onderschrift": "De eerste vier zijn wederkerend of met faire; de laatste twee zijn gewone werkwoorden."
+    },
+    {
+     "soort": "tekst",
+     "html": "En de dingen die je op zak hebt: <em>les clés</em> (de sleutels), <em>le portefeuille</em> (de portefeuille), <em>le parapluie</em> (de paraplu), <em>le téléphone</em>. Een <em>balcon</em> hoort bij de woning en gaat niet mee in je zak."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Entrée – plat – dessert. Boisson comprise = drank inbegrepen.",
+  "Na een hoeveelheid komt de: un kilo de pommes, beaucoup de monde.",
+  "payer par carte of en espèces; ce sera tout ? = is dat alles?",
+  "La librairie is een boekhandel, la bibliothèque een bibliotheek.",
+  "Een kleur staat achter het naamwoord en past zich aan: une veste grise.",
+  "le loyer = de huur; charges comprises = kosten inbegrepen.",
+  "mettre la table, faire la vaisselle, ranger sa chambre."
+ ]
+}

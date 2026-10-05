@@ -1,0 +1,127 @@
+{
+ "vak": "Frans",
+ "titel": "Spreken, gesprekken, klank en spelling",
+ "onder": "Hoe het examen verloopt, wat je in een gesprek zegt, en hoe het Frans klinkt dat je ziet staan.",
+ "secties": [
+  {
+   "kop": "Zo ziet je examen eruit",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<strong>Dit oefenplatform oefent alleen het schriftelijke Frans.</strong> Je examen bestaat uit drie delen: een <strong>spreekopdracht</strong> die je thuis opneemt en indient tot drie dagen voor je digitale examen, het <strong>digitale examen</strong> van 150 minuten in het examencentrum in Brussel, en een <strong>gesprek</strong> van tien minuten met vijftien minuten voorbereidingstijd voor twee opdrachten. De punten liggen zo: lezen 30 %, luisteren 30 %, schrijven 8 %, schriftelijke interactie 8 %, spreken 8 %, en twee keer mondelinge interactie, elk 8 %. Luisteren, spreken en de gesprekken oefen je hier niet: daar heb je geluid en een gesprekspartner voor nodig. Wat je hier wél oefent — lezen, schrijven, woordenschat en grammatica — draagt de helft van je punten, en je hebt het ook nodig om te kunnen luisteren en spreken."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">onderdeel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waar en hoelang</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spreekopdracht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">thuis opnemen, indienen tot drie dagen voor je digitale examen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">digitaal examen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">150 minuten in het examencentrum in Brussel: lezen, luisteren en schrijven</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorbereiding mondeling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">15 minuten voor twee opdrachten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gesprek</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">10 minuten met de examinator</td></tr></table>",
+     "onderschrift": "Dien je spreekopdracht tijdig in: anders mag je niet deelnemen aan het examen in het centrum."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je krijgt ter plaatse een <strong>balpen en kladpapier</strong>, een <strong>hoofdtelefoon</strong>, en in je examen staan <strong>links</strong> naar het digitale woordenboek en de spellingcontrole. Een eigen laptop breng je niet mee."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je persoonlijke spullen laat je in een <strong>locker</strong> in de onthaalruimte: je jas, je tas en je gsm. Een gsm, een smartwatch, cursusmateriaal of een samenvatting bij je hebben in de examenruimte wordt als <strong>examenfraude</strong> beschouwd."
+    },
+    {
+     "soort": "weetje",
+     "html": "Je krijgt voorbereidingstijd voor de mondelinge opdrachten, maar je moet in het gesprek zelf ook <strong>spontaan</strong> kunnen reageren. Een uitgeschreven tekst voorlezen werkt daar dus niet."
+    }
+   ]
+  },
+  {
+   "kop": "Een gesprek beginnen, gaande houden en beëindigen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>spreekopdracht</strong> ben je alleen aan het woord. Bij een <strong>gesprek</strong> moet je reageren op je gesprekspartner: je begint een eenvoudig gesprek, je houdt het gaande en je beëindigt het."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 156\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"6.0\" y=\"6\" width=\"319.6\" height=\"42\" rx=\"12\" fill=\"#2f5d5018\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"19.0\" y=\"23\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#2f5d50\" font-weight=\"600\">beginnen</text><text x=\"19.0\" y=\"39\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" fill=\"#234539\">Bonjour, je peux vous poser une question ?</text><rect x=\"144.4\" y=\"56\" width=\"319.6\" height=\"42\" rx=\"12\" fill=\"#c17f2b18\" stroke=\"#c17f2b\" stroke-width=\"1.5\"/><text x=\"157.4\" y=\"73\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#c17f2b\" font-weight=\"600\">gaande houden</text><text x=\"157.4\" y=\"89\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" fill=\"#234539\">Et vous, qu'en pensez-vous ?</text><rect x=\"6.0\" y=\"106\" width=\"319.6\" height=\"42\" rx=\"12\" fill=\"#2f5d5018\" stroke=\"#2f5d50\" stroke-width=\"1.5\"/><text x=\"19.0\" y=\"123\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#2f5d50\" font-weight=\"600\">beëindigen</text><text x=\"19.0\" y=\"139\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" fill=\"#234539\">Merci beaucoup, bonne journée !</text></svg>",
+     "onderschrift": "Beginnen, de ander erbij halen, afsluiten: drie verschillende dingen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">als …</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">dan zeg je</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je iets niet begrepen hebt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Vous pouvez répéter, s'il vous plaît ?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het te snel gaat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Pouvez-vous parler plus lentement ?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de ander jou niet begrijpt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je herhaalt, of je zegt het op een andere manier</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je een woord niet vindt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je zegt het met de woorden die je wél kent</td></tr></table>",
+     "onderschrift": "Dat vragen is een strategie, geen zwakte. Luider spreken helpt zelden."
+    },
+    {
+     "soort": "tekst",
+     "html": "Speel in op wat je gesprekspartner zegt, toon interesse en toon respect. Een gesprek gaande houden is net dát: niet je eigen verhaal afmaken, maar ingaan op de ander."
+    }
+   ]
+  },
+  {
+   "kop": "Waarop je bij spreken beoordeeld wordt",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">rij</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze nakijkt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lichaamstaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je gebruikt een gepaste lichaamstaal</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spreektempo en vlotheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onderbrekingen, valse starts en herformuleringen zijn aanvaardbaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uitspraak en intonatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je uitspraak is voldoende helder en belemmert het begrip niet</td></tr></table>",
+     "onderschrift": "Drie rijen die alleen bij spreken gelden. Klinken als een moedertaalspreker hoeft niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "De vier rijen die je ook bij schrijven hebt, blijven gelden: taakvoltooiing, woordenschat, grammatica en zinsbouw, tekststructuur en samenhang, en register en beleefdheidsconventies. <em>Spelling en leestekengebruik</em> en <em>tekstopbouw en lay-out</em> gelden hier niet: die kan je al sprekend niet laten zien."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bereid een spreekopdracht voor met een <strong>plan met kernwoorden</strong> en oefen <strong>luidop</strong>. Dat helpt je tempo en je uitspraak meer dan een tekst uit het hoofd leren."
+    }
+   ]
+  },
+  {
+   "kop": "Klanken en klankencombinaties",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">schrift</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">klank</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ou</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oe</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bouche, rouge, tout</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">oi</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ongeveer wa</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">moi, trois, voiture</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ai</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">è</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">maison, français</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eu</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eu</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">deux, heureux</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">an, en</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nasaal an</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dans, prendre</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">on</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nasaal on</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bonjour, maison</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in, ain</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nasaal in</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">matin, pain</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sj</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">chercher, chambre</td></tr></table>",
+     "onderschrift": "Acht combinaties. Wie ze kent, leest een onbekend woord meteen juist."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een paar letters <strong>schrijf je wel en hoor je niet</strong>. De slot-t van <em>petit</em> blijft stil, de uitgang <em>-ent</em> van <em>ils parlent</em> hoor je niet (<em>ils parlent</em> klinkt als <em>il parle</em>), en de <strong>h</strong> aan het begin is altijd stil: daarom zeg je <em>l'heure</em> en niet <em>la heure</em>, en <em>l'hôtel</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>c</strong> en de <strong>g</strong> hangen af van de letter erna: voor <em>e</em> en <em>i</em> klinkt de c als een s (<em>cent</em>, <em>ciel</em>), voor <em>a</em>, <em>o</em> en <em>u</em> als een k (<em>car</em>, <em>couleur</em>). Dezelfde regel bij de g: <em>gentil</em> tegenover <em>gare</em>. Wil je toch een s-klank voor een a of een o, dan zet je een <strong>cédille</strong> onder de c: <em>ça</em>, <em>garçon</em>, <em>français</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Accenten, klemtoon en intonatie",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">paar</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">verschil</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a / à</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il a = hij heeft; à Bruxelles = in Brussel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ou / où</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">of / waar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la / là</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het lidwoord / daar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">é / è</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">été (gesloten, zoals in beek) / père (open, zoals in bed)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aller / allé</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">infinitief / voltooid deelwoord</td></tr></table>",
+     "onderschrift": "Eén accent maakt er een ander woord van. Dat is geen versiering."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>accent aigu</strong> helt naar rechts (<em>été</em>, <em>élève</em>), het <strong>accent grave</strong> naar links (<em>père</em>, <em>très</em>). En het verschil tussen <em>aller</em> (infinitief), <em>allez</em> (persoonsvorm) en <em>allé</em> (voltooid deelwoord) zie je alleen in het schrift: ze klinken bijna gelijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>klemtoon</strong> van een Frans woord of woordgroep valt meestal op de <strong>laatste</strong> lettergreep: vergelijk het Nederlandse TE-le-foon met het Franse té-lé-PHONE. Dat is een van de dingen die Frans Frans doet klinken."
+    },
+    {
+     "soort": "tekst",
+     "html": "Met je <strong>intonatie</strong> alleen kan je van een mededeling een vraag maken: <em>Tu viens.</em> wordt <em>Tu viens ?</em> door je stem op het einde omhoog te laten gaan. En duidelijk <strong>articuleren</strong> betekent dat je elke klank goed vormt, ook aan het einde van een woord."
+    },
+    {
+     "soort": "tekst",
+     "html": "Tot slot vraagt het examen de <strong>spelling van frequente woorden</strong>. Een spellingcontrole helpt je daar niet volledig: ze ziet niet dat je <em>a</em> schreef waar <em>à</em> moest staan."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Drie delen: spreekopdracht thuis, digitaal examen van 150 minuten, gesprek van 10 minuten.",
+  "Gsm, smartwatch en samenvattingen in de locker; anders is het examenfraude.",
+  "Vous pouvez répéter ? en Pouvez-vous parler plus lentement ? mag je altijd vragen.",
+  "ou = oe, oi = wa, ch = sj, en de h aan het begin hoor je nooit.",
+  "c en g klinken zacht voor e en i; de cédille maakt ç zacht voor a, o en u.",
+  "a / à, ou / où, la / là: één accent, een ander woord.",
+  "De klemtoon valt in het Frans op de laatste lettergreep."
+ ]
+}

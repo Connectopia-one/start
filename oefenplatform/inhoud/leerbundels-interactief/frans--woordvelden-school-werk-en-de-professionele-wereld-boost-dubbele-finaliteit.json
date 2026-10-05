@@ -1,0 +1,106 @@
+{
+ "vak": "Frans",
+ "titel": "Woordvelden: school, werk en de professionele wereld",
+ "onder": "Onderwijs, beroepen, solliciteren, multimedia, sport en vrije tijd.",
+ "secties": [
+  {
+   "kop": "Op school",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De woordvelden van dit thema: <strong>onderwijs en vorming</strong>; de <strong>professionele wereld</strong> met de beroepen; <strong>communicatie en multimedia</strong>; en <strong>sport en ontspanning</strong>. Dit zijn de woorden waarmee je over jezelf en je toekomst spreekt, en net daarom komen ze op het examen terug in een mail over een vakantiejob of in een verslag over je stage."
+    },
+    {
+     "soort": "kader",
+     "html": "<em>Je suis en quatrième année. Mes cours préférés sont le français et les sciences. Les maths, c'est plus difficile pour moi, mais j'ai un bon professeur. Nous avons cours de huit heures vingt à quatre heures, avec une heure de midi. Le mercredi, on finit à midi.</em><br><em>Être en quatrième année</em>: in het vierde jaar zitten, met een rangtelwoord. <em>Midi</em> is twaalf uur 's middags; <em>minuit</em> is middernacht."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un cours, une heure de cours</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een les, een lesuur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un devoir, une interrogation</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een taak, een overhoring</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un examen, un bulletin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een examen, een rapport</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un trimestre, un semestre</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een trimester, een halfjaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le professeur, le titulaire</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de leraar, de klastitularis</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une année scolaire</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een schooljaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une remarque, une note</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een opmerking, een cijfer</td></tr></table>",
+     "onderschrift": "Une remarque is een opmerking; een cijfer is une note."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Een rapport lezen.</strong> <em>Bulletin du premier trimestre — Français : 14/20. Mathématiques : 11/20. Sciences : 16/20. Éducation physique : 15/20. Remarque du titulaire : élève attentif, mais doit rendre ses devoirs à temps.</em><br><em>Doit rendre ses devoirs à temps</em>: moet zijn taken op tijd inleveren. Attentief is hij juist wél."
+    }
+   ]
+  },
+  {
+   "kop": "Beroepen",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<em>Dans ma famille, tout le monde travaille avec les mains. Mon père est électricien, ma mère est infirmière et mon oncle est boulanger. Moi, je voudrais devenir éducateur.</em>"
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">mannelijk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vrouwelijk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un vendeur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une vendeuse</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verkoper</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un coiffeur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une coiffeuse</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kapper</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un infirmier</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une infirmière</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verpleegkundige</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un boulanger</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une boulangère</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bakker</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un cuisinier</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une cuisinière</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kok</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un ouvrier</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une ouvrière</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">arbeider</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un médecin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un médecin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dokter</td></tr></table>",
+     "onderschrift": "De meeste beroepsnamen veranderen mee met het geslacht; een paar blijven gelijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "Na <strong>être</strong> en <strong>devenir</strong> komt een beroepsnaam <strong>zonder lidwoord</strong>: <em>ma mère est infirmière</em>, <em>je voudrais devenir cuisinier</em>. En <em>être au chômage</em> betekent werkloos zijn — dat is geen beroep."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le travail, travailler</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het werk, werken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un salaire</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een loon</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un contrat</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een contract</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un horaire</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een uurregeling</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un bureau</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bureau of kantoor</td></tr></table>",
+     "onderschrift": "Le travail wordt in het meervoud les travaux."
+    }
+   ]
+  },
+  {
+   "kop": "Stage en solliciteren",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<strong>Een verslag over een stage.</strong> <em>Mon stage s'est bien passé. Le premier jour, j'avais peur de mal faire, mais l'équipe m'a aidé. J'ai appris à répondre au téléphone et à classer des documents. Ce que j'ai trouvé difficile, c'est de rester assis toute la journée. Je recommencerais quand même.</em><br><em>Apprendre à</em> betekent leren om, <em>rester assis</em> blijven zitten, en <em>quand même</em> toch."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Een zoekertje.</strong> <em>Magasin de sport cherche étudiant pour les samedis. Tâches : accueillir les clients, ranger les rayons, aider à la caisse. Expérience non exigée. Envoyez votre CV par mail avant le 15 du mois.</em><br><em>Une tâche</em> is een taak, <em>un rayon</em> een rek, en <em>expérience non exigée</em> betekent: ervaring is niet vereist."
+    },
+    {
+     "soort": "tekst",
+     "html": "In je eigen <strong>sollicitatiemail</strong> zet je wie je bent en in welk jaar je zit, wanneer je kan werken, en waarom je net die job wil. <em>Envoyer</em> is sturen (niet invullen: dat is <em>remplir</em>)."
+    }
+   ]
+  },
+  {
+   "kop": "Communicatie en multimedia",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un ordinateur, un écran</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een computer, een scherm</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une application</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een app</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un compte, un mot de passe</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een account, een wachtwoord</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">se connecter / se déconnecter</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">inloggen / uitloggen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un mail, un courriel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een mail</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un appel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een telefoongesprek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">les courriers indésirables</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de ongewenste berichten, de spam</td></tr></table>",
+     "onderschrift": "Se connecter is wederkerend: je me connecte, tu te connectes."
+    },
+    {
+     "soort": "kader",
+     "html": "<em>Pour vous inscrire, créez un compte avec votre adresse mail. Vous recevrez un message avec un lien. Si le message n'arrive pas, regardez dans les courriers indésirables. N'envoyez jamais votre mot de passe par mail.</em><br>Dat laatste is geen taalregel maar een goede raad: je wachtwoord stuur je nooit met een mail."
+    }
+   ]
+  },
+  {
+   "kop": "Sport en ontspanning",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Hier zit één vaste valkuil. Bij een <strong>sport of een spel</strong> hoort <em>jouer à</em>: <em>jouer au basket</em>, <em>jouer au football</em>. Bij een <strong>instrument</strong> hoort <em>jouer de</em>: <em>jouer du piano</em>, <em>jouer de la guitare</em>. En voor veel sporten gebruik je <em>faire de</em>: <em>faire du vélo</em>, <em>faire de la danse</em>. <em>Jouer du tennis</em> bestaat niet."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un match, une équipe</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een wedstrijd, een ploeg</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un joueur, un entraîneur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een speler, een trainer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nager, courir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zwemmen, lopen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un film, une série, un livre</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een film, een reeks, een boek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">deux fois par semaine</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee keer per week</td></tr></table>",
+     "onderschrift": "Na aimer komt een infinitief: j'aime nager, j'aime lire."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Je suis en quatrième année. Midi = 12 u 's middags, minuit = middernacht.",
+  "Een beroepsnaam na être of devenir staat zonder lidwoord.",
+  "Beroepen veranderen mee: un vendeur, une vendeuse.",
+  "expérience non exigée = ervaring niet vereist; envoyer = sturen.",
+  "mot de passe = wachtwoord; se connecter = inloggen.",
+  "jouer au basket, jouer du piano, faire du vélo.",
+  "deux fois par semaine = twee keer per week."
+ ]
+}

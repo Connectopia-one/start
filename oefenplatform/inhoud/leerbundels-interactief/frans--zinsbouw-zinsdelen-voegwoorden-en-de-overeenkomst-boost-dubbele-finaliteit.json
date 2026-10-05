@@ -1,0 +1,134 @@
+{
+ "vak": "Frans",
+ "titel": "Zinsbouw, zinsdelen, voegwoorden en de overeenkomst",
+ "onder": "Hoe een Franse zin in elkaar zit, hoe je ze vraagt of ontkent, en wat met wat moet kloppen.",
+ "secties": [
+  {
+   "kop": "Zes soorten zinnen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarvoor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mededelend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets vertellen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Il travaille à Bruxelles.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vragend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets vragen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Où travaille-t-il ?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bevelend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bevel of een raad</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Travaillez plus vite !</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uitroepend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verbazing of gevoel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Quel beau jardin !</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ontkennend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iets tegenspreken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Il ne travaille pas.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wensend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een wens of een hoop</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">J'aimerais travailler ici.</td></tr></table>",
+     "onderschrift": "Aan het teken achteraan zie je er al veel: een punt, een vraagteken of een uitroepteken."
+    },
+    {
+     "soort": "tekst",
+     "html": "De gewone woordorde van het Frans is <strong>onderwerp – persoonsvorm – de rest</strong>. Anders dan bij ons komt er na een woord vooraan <strong>geen</strong> omkering: <em>Demain je vais à Bruxelles</em>, niet <em>demain vais je</em>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 74\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"4.0\" y=\"4\" width=\"148.7\" height=\"62\" rx=\"9\" fill=\"#2f5d5022\" stroke=\"#2f5d50\" stroke-width=\"1.7\"/><text x=\"78.3\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">onderwerp</text><text x=\"78.3\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">Marie</text><rect x=\"160.7\" y=\"4\" width=\"148.7\" height=\"62\" rx=\"9\" fill=\"#c17f2b22\" stroke=\"#c17f2b\" stroke-width=\"1.7\"/><text x=\"235.0\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">persoonsvorm</text><text x=\"235.0\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">mange</text><rect x=\"317.3\" y=\"4\" width=\"148.7\" height=\"62\" rx=\"9\" fill=\"#6b726022\" stroke=\"#6b7260\" stroke-width=\"1.7\"/><text x=\"391.7\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">rest</text><text x=\"391.7\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">une pomme à midi</text></svg>",
+     "onderschrift": "Marie mange une pomme à midi."
+    }
+   ]
+  },
+  {
+   "kop": "Drie manieren om een vraag te stellen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">register</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">intonatie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Tu viens ?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">spreektaal, heel gewoon</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">est-ce que</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Est-ce que tu viens ?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">neutraal, overal goed</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">omkering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Viens-tu ? / Travaille-t-il ?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">formeler, schrijftaal</td></tr></table>",
+     "onderschrift": "Alle drie vragen hetzelfde; ze klinken alleen anders."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de omkering komt er een <strong>-t-</strong> tussen als er twee klinkers tegen elkaar zouden komen: <em>travaille-t-il</em>, <em>a-t-elle</em>, <em>va-t-on</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Vraagwoorden: <em>qui</em> (wie), <em>que / qu'est-ce que</em> (wat), <em>où</em> (waar), <em>quand</em> (wanneer), <em>comment</em> (hoe), <em>pourquoi</em> (waarom), <em>combien</em> (hoeveel), <em>quel / quelle</em> (welke). Ze staan vooraan: <em>Pourquoi est-ce que tu pleures ?</em>"
+    }
+   ]
+  },
+  {
+   "kop": "De ontkenning: twee delen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een Franse ontkenning is bijna altijd <strong>twee woorden rond de persoonsvorm</strong>: <em>ne … pas</em>. Voor een klinker wordt <em>ne</em> <em>n'</em>: <em>je n'aime pas</em>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">ontkenning</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">betekenis</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ne … pas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je ne comprends pas.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ne … jamais</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nooit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Il ne vient jamais.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ne … plus</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet meer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Elle ne fume plus.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ne … rien</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niets</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je ne vois rien.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ne … personne</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niemand</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je ne connais personne.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ne … pas encore</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nog niet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Il n'est pas encore là.</td></tr></table>",
+     "onderschrift": "Het eerste deel staat voor de persoonsvorm, het tweede erachter."
+    },
+    {
+     "soort": "tekst",
+     "html": "In de <strong>passé composé</strong> en de <strong>futur proche</strong> gaat de ontkenning rond het <strong>hulpwerkwoord</strong>: <em>je n'ai pas mangé</em>, <em>je ne vais pas manger</em>. En na een ontkenning wordt <em>un, une, du, de la, des</em> meestal <strong>de</strong>: <em>je n'ai pas de voiture</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Enkelvoudig of samengesteld, en de voegwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>enkelvoudige zin</strong> heeft één persoonsvorm: <em>Il travaille à Bruxelles.</em> Een <strong>samengestelde zin</strong> heeft er twee of meer, en dan zit er een <strong>voegwoord</strong> tussen: <em>Il travaille à Bruxelles <strong>parce qu'</strong>il aime la ville.</em>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Tel dus de <strong>persoonsvormen</strong>, niet de werkwoorden: <em>je veux partir</em> is één persoonsvorm plus een infinitief, en dus een enkelvoudige zin."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">nevenschikkend (gelijkwaardig)</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">onderschikkend (ondergeschikt)</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">et (en)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">parce que (omdat)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ou (of)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">quand (wanneer)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mais (maar)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">si (als)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">donc (dus)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">comme (zoals, aangezien)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">car (want)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pendant que (terwijl)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ni … ni (noch … noch)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">que (dat)</td></tr></table>",
+     "onderschrift": "Car en parce que betekenen allebei 'want of omdat'; car is nevenschikkend, parce que niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dezelfde woorden zijn ook de <strong>signaalwoorden</strong> waarmee je het tekstverband ziet: <em>mais</em> kondigt een tegenstelling aan, <em>donc</em> een gevolg, <em>parce que</em> een reden."
+    }
+   ]
+  },
+  {
+   "kop": "De zinsdelen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Vier zinsdelen moet je kunnen benoemen: het <strong>sujet</strong> (onderwerp), de <strong>verbe conjugué</strong> (persoonsvorm), het <strong>COD</strong> (lijdend voorwerp, zonder voorzetsel) en het <strong>COI</strong> (meewerkend voorwerp, met <em>à</em>)."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 70\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"4.0\" y=\"4\" width=\"92.5\" height=\"34\" rx=\"8\" fill=\"#2f5d5022\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"50.2\" y=\"26\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#234539\">Marie</text><text x=\"50.2\" y=\"55\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#2f5d50\">sujet</text><rect x=\"102.5\" y=\"4\" width=\"92.5\" height=\"34\" rx=\"8\" fill=\"#c17f2b22\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"148.8\" y=\"26\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#234539\">donne</text><text x=\"148.8\" y=\"55\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#c17f2b\">verbe</text><rect x=\"201.0\" y=\"4\" width=\"148.0\" height=\"34\" rx=\"8\" fill=\"#23453922\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"275.0\" y=\"26\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#234539\">un livre</text><text x=\"275.0\" y=\"55\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#234539\">COD</text><rect x=\"355.0\" y=\"4\" width=\"111.0\" height=\"34\" rx=\"8\" fill=\"#6b726022\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"410.5\" y=\"26\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#234539\">à Paul</text><text x=\"410.5\" y=\"55\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">COI</text></svg>",
+     "onderschrift": "Marie donne un livre à Paul."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zoek het <strong>sujet</strong> met de vraag 'wie of wat doet het?', het <strong>COD</strong> met <em>qui ?</em> of <em>quoi ?</em> na het werkwoord, en het <strong>COI</strong> met <em>à qui ?</em> Dat onderscheid heb je nodig om het juiste voornaamwoord te kiezen: een COD wordt <em>le, la, les</em>, een COI wordt <em>lui, leur</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Drie soorten overeenkomst",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat met wat</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">regel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sujet en persoonsvorm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de persoonsvorm volgt het onderwerp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">les enfants jouent, mon frère joue</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">naamwoord en adjectief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het adjectief volgt in geslacht en getal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une petite maison, des livres verts</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">être en deelwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het deelwoord volgt het onderwerp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elle est partie, ils sont partis</td></tr></table>",
+     "onderschrift": "Met avoir verandert het deelwoord niet: elle a mangé, ils ont mangé."
+    },
+    {
+     "soort": "tekst",
+     "html": "Let bij de eerste op een <strong>onderwerp dat verder weg staat</strong>: in <em>les élèves de ma classe travaillent bien</em> hoort de persoonsvorm bij <em>les élèves</em>, niet bij <em>ma classe</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "En let op het <strong>samengestelde onderwerp</strong>: <em>Marie et Paul sont partis</em> — twee namen samen zijn een meervoud."
+    },
+    {
+     "soort": "kader",
+     "html": "Dit is in het schrift veel belangrijker dan in de klank. <em>Il joue</em> en <em>ils jouent</em> klinken gelijk, net als <em>une maison verte</em> en <em>des maisons vertes</em> op de laatste klank na. Bij een <strong>schrijfopdracht</strong> wordt juist dat nagekeken."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Zes soorten zinnen: mededelend, vragend, bevelend, uitroepend, ontkennend, wensend.",
+  "De woordorde blijft onderwerp, persoonsvorm, rest: demain je vais, geen omkering.",
+  "Een vraag stellen: intonatie, est-ce que, of omkering met -t- ertussen.",
+  "De ontkenning is twee delen rond de persoonsvorm: ne … pas, jamais, plus, rien.",
+  "Na een ontkenning wordt un, du of des meestal de: je n'ai pas de voiture.",
+  "Tel de persoonsvormen om enkelvoudig van samengesteld te onderscheiden.",
+  "Sujet, verbe conjugué, COD (zonder à), COI (met à).",
+  "Drie overeenkomsten: onderwerp met persoonsvorm, naamwoord met adjectief, être met deelwoord."
+ ]
+}

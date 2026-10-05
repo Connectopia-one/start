@@ -1,0 +1,110 @@
+{
+ "vak": "Frans",
+ "titel": "Bijvoeglijke naamwoorden, bijwoorden en de trappen",
+ "onder": "Vorm, plaats en vergelijking, plus de bijwoorden en de voorzetsels.",
+ "secties": [
+  {
+   "kop": "De vorm: mee met het naamwoord",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Je gebruikt bijvoeglijke naamwoorden om je tekst <strong>rijker</strong> te maken. Daarvoor moet je twee dingen in orde hebben: de vorm en de plaats."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">mannelijk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vrouwelijk</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">regel</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">petit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">petite</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gewoon een e erbij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">difficile</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">difficile</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eindigt al op een e: niets verandert</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">heureux</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">heureuse</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">woorden op -eux worden -euse</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sportif</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sportive</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">woorden op -if worden -ive</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">blanc</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">blanche</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onregelmatig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bon / beau / vieux</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bonne / belle / vieille</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onregelmatig</td></tr></table>",
+     "onderschrift": "In het meervoud komt er nog een s bij: petites, heureuses, sportives."
+    },
+    {
+     "soort": "tekst",
+     "html": "Die uitgangen <strong>hoor</strong> je soms wel (<em>petit</em> tegenover <em>petite</em>) en soms niet (<em>jeune</em>, <em>difficiles</em>). Schrijven moet je ze altijd."
+    }
+   ]
+  },
+  {
+   "kop": "De plaats: meestal erachter",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 74\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"4.0\" y=\"4\" width=\"148.7\" height=\"62\" rx=\"9\" fill=\"#6b726022\" stroke=\"#6b7260\" stroke-width=\"1.7\"/><text x=\"78.3\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">lidwoord</text><text x=\"78.3\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">une</text><rect x=\"160.7\" y=\"4\" width=\"148.7\" height=\"62\" rx=\"9\" fill=\"#23453922\" stroke=\"#234539\" stroke-width=\"1.7\"/><text x=\"235.0\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">naamwoord</text><text x=\"235.0\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">voiture</text><rect x=\"317.3\" y=\"4\" width=\"148.7\" height=\"62\" rx=\"9\" fill=\"#c17f2b22\" stroke=\"#c17f2b\" stroke-width=\"1.7\"/><text x=\"391.7\" y=\"24\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">bijvoeglijk nw.</text><text x=\"391.7\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12.5\" font-weight=\"600\" fill=\"#234539\">rouge</text></svg>",
+     "onderschrift": "In het Frans komt het bijvoeglijk naamwoord meestal ná het naamwoord."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat is net omgekeerd aan het Nederlands: <em>un film intéressant</em>, <em>un livre intéressant</em>, <em>une voiture rouge</em>. <em>Une rouge voiture</em> bestaat niet, en een <strong>kleur</strong> staat altijd erachter."
+    },
+    {
+     "soort": "tekst",
+     "html": "Eén kleine groep gaat wél <strong>vooraan</strong>: <em>grand</em>, <em>petit</em>, <em>bon</em>, <em>mauvais</em>, <em>beau</em>, <em>joli</em>, <em>jeune</em>, <em>vieux</em>, <em>nouveau</em>. Vandaar <em>c'est une belle journée</em>, met <em>belle</em> vooraan én in de vrouwelijke vorm."
+    }
+   ]
+  },
+  {
+   "kop": "Vergelijken: de drie trappen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je zegt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meer dan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">plus … que</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">plus grand que moi</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">minder dan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">moins … que</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">moins cher que l'autre</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">even als</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aussi … que</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aussi grande que son frère</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de meeste / de minste</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le, la, les plus / moins … de</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la plus grande maison de la rue</td></tr></table>",
+     "onderschrift": "In een vergelijking hoort que; bij de overtreffende trap hoort de."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het bijvoeglijk naamwoord blijft ook in een vergelijking <strong>meegaan</strong> met het woord waarbij het hoort: <em>ma sœur est plus âgé<strong>e</strong> que moi</em>. En een lang bijvoeglijk naamwoord verandert in het Frans niet van vorm zoals bij ons: het blijft <em>plus intéressant que</em>."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Twee onregelmatige.</strong> <em>bon</em> → <em>meilleur</em> → <em>le meilleur</em> (goed, beter, de beste). <em>Plus bon</em> bestaat niet. Bij het bijwoord gaat het net zo: <em>bien</em> → <em>mieux</em> → <em>le mieux</em>."
+    }
+   ]
+  },
+  {
+   "kop": "De bijwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>bijwoord</strong> hoort bij een werkwoord en verandert <strong>nooit</strong> van vorm: <em>elle parle lentement</em>, <em>ils parlent lentement</em> — geen e en geen s. Dat is het grote verschil met een bijvoeglijk naamwoord: <em>elle est rapide</em> zegt iets over haar, <em>elle parle rapidement</em> over hoe ze spreekt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je maakt er een van een bijvoeglijk naamwoord door <strong>-ment</strong> achter de <strong>vrouwelijke</strong> vorm te zetten: lent → lente → <em>lentement</em>; heureux → heureuse → <em>heureusement</em>; normal → normale → <em>normalement</em>; facile → <em>facilement</em>; rapide → <em>rapidement</em>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">hoe vaak</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">altijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">toujours</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vaak</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">souvent</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">soms</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">parfois, quelquefois</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zelden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rarement</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nooit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ne … jamais</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nog niet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pas encore</td></tr></table>",
+     "onderschrift": "Ne … jamais staat in twee stukken rond het werkwoord, net als ne … pas."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zo'n bijwoord staat meestal <strong>achter</strong> het vervoegde werkwoord: <em>je vais souvent à la piscine</em>. In de passé composé komt het tussen het hulpwerkwoord en het deelwoord: <em>j'ai souvent mangé là</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Beaucoup</em> is ook een bijwoord, van hoeveelheid: <em>j'ai beaucoup travaillé</em>. Voor een naamwoord komt er <em>de</em> bij: <em>beaucoup de travail</em>."
+    }
+   ]
+  },
+  {
+   "kop": "De voorzetsels",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wanneer</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">à</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij een stad, en bij te voet of per fiets</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">à Bruxelles, à pied, à vélo</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">en</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij een vrouwelijk land en bij een vervoermiddel waar je in zit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">en France, en train, en voiture</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">au / aux</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij een mannelijk land of een meervoud</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">au Portugal, aux Pays-Bas</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">chez</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij een persoon of een beroep</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">chez Lila, chez le médecin</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">depuis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sinds — met een présent erbij!</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">j'habite ici depuis trois ans</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pendant</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tijdens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pendant les vacances</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">avant / après</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voor / na</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">avant midi, après l'école</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">avec / sans</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met / zonder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">avec sucre, sans sucre</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sur / sous</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">op / onder</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sur la table, sous la table</td></tr></table>",
+     "onderschrift": "Depuis staat in het Frans bij een tegenwoordige tijd, waar wij 'ik woon hier al' zeggen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>De</em> wordt <em>d'</em> voor een klinker of een stille h: <em>un verre d'eau</em>, <em>beaucoup d'amis</em>, <em>pas d'histoire</em>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Het bijvoeglijk naamwoord gaat mee met het naamwoord: une petite maison, des exercices difficiles.",
+  "Het staat meestal erachter; grand, petit, bon, beau en jeune gaan vooraan.",
+  "Een kleur staat altijd erachter: une voiture rouge.",
+  "plus / moins / aussi … que. Overtreffend: le plus … de.",
+  "bon → meilleur → le meilleur. Plus bon bestaat niet.",
+  "Een bijwoord verandert nooit van vorm; -ment komt achter de vrouwelijke vorm.",
+  "en France, au Portugal, à Paris, chez le médecin, en train maar à vélo."
+ ]
+}

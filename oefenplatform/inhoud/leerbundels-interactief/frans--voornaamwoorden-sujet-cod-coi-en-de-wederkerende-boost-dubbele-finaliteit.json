@@ -1,0 +1,133 @@
+{
+ "vak": "Frans",
+ "titel": "Voornaamwoorden: sujet, COD, COI en de wederkerende",
+ "onder": "Wie doet het, wat ondergaat het, aan wie gebeurt het — en waar dat woordje dan staat.",
+ "secties": [
+  {
+   "kop": "Waarom dit bij lezen én bij schrijven telt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een voornaamwoord <strong>verwijst</strong> naar een persoon, een voorwerp, een begrip of een plaats uit een vorige zin. Als je niet weet waarnaar het verwijst, verlies je de draad van de tekst. En als je zelf schrijft, gebruik je ze om niet elke keer hetzelfde woord te moeten herhalen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 168\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"24.0\" y=\"50.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#6b7260\">Nederlands</text><rect x=\"128\" y=\"26\" width=\"100\" height=\"40\" rx=\"9\" fill=\"#6b726018\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"178.0\" y=\"52.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#234539\">ik</text><rect x=\"240\" y=\"26\" width=\"100\" height=\"40\" rx=\"9\" fill=\"#23453918\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"290.0\" y=\"52.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#234539\">zie</text><rect x=\"352\" y=\"26\" width=\"100\" height=\"40\" rx=\"9\" fill=\"#c17f2b18\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"402.0\" y=\"52.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#234539\">haar</text><text x=\"24.0\" y=\"124.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#2f5d50\">Frans</text><rect x=\"128\" y=\"100\" width=\"100\" height=\"40\" rx=\"9\" fill=\"#6b726018\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"178.0\" y=\"126.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#234539\">je</text><rect x=\"240\" y=\"100\" width=\"100\" height=\"40\" rx=\"9\" fill=\"#c17f2b18\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"290.0\" y=\"126.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#234539\">la</text><rect x=\"352\" y=\"100\" width=\"100\" height=\"40\" rx=\"9\" fill=\"#23453918\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"402.0\" y=\"126.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#234539\">vois</text><text x=\"235.0\" y=\"158.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">Het voorwerp staat in het Frans vóór het werkwoord, in het Nederlands erachter.</text></svg>",
+     "onderschrift": "Het grote verschil met het Nederlands: in het Frans staat het voorwerp vóór het werkwoord."
+    }
+   ]
+  },
+  {
+   "kop": "Het onderwerp",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">let op</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je (j' voor een klinker)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">j'aime, j'ai</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jij</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tu</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bij een vriend of klasgenoot</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hij / zij</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il / elle</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">men, de mensen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">on</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">krijgt dezelfde vorm als il: on parle</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wij</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nous</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iemand én ik: Marie et moi = nous</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jullie / u</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vous</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Marie et toi = vous; ook de hoffelijke vorm</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zij (meervoud)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ils / elles</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één mannelijk woord erbij = ils</td></tr></table>",
+     "onderschrift": "Mon frère et ma sœur worden ils; deux filles worden elles."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het onderwerp valt in het Frans <strong>nooit</strong> weg: je zegt <em>je parle</em>, nooit <em>parle</em> alleen. Alleen in de <em>impératif</em> gebeurt dat: <em>parle !</em>"
+    },
+    {
+     "soort": "tekst",
+     "html": "En <em>moi</em> is géén onderwerp. Dat staat alleen, of na een voorzetsel: <em>avec moi</em>, <em>chez moi</em>, <em>plus grand que moi</em>. <em>Moi parle</em> bestaat niet."
+    }
+   ]
+  },
+  {
+   "kop": "COD en COI: het verschil",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 70\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"4.0\" y=\"4\" width=\"38.6\" height=\"34\" rx=\"8\" fill=\"#6b726022\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"23.3\" y=\"26\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#234539\">Je</text><text x=\"23.3\" y=\"55\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">onderwerp</text><rect x=\"48.6\" y=\"4\" width=\"96.5\" height=\"34\" rx=\"8\" fill=\"#23453922\" stroke=\"#234539\" stroke-width=\"1.6\"/><text x=\"96.9\" y=\"26\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#234539\">donne</text><text x=\"96.9\" y=\"55\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#234539\">persoonsvorm</text><rect x=\"151.1\" y=\"4\" width=\"193.0\" height=\"34\" rx=\"8\" fill=\"#c17f2b22\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"247.7\" y=\"26\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#234539\">mon numéro</text><text x=\"247.7\" y=\"55\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#c17f2b\">COD</text><rect x=\"350.2\" y=\"4\" width=\"115.8\" height=\"34\" rx=\"8\" fill=\"#2f5d5022\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"408.1\" y=\"26\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"13\" font-weight=\"600\" fill=\"#234539\">à Lila</text><text x=\"408.1\" y=\"55\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#2f5d50\">COI</text></svg>",
+     "onderschrift": "Eén zin, vier delen. Wat geef ik? Mon numéro. Aan wie? À Lila."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>lijdend voorwerp (COD)</strong> antwoordt op <em>wie of wat ondergaat de handeling?</em> en staat <strong>zonder voorzetsel</strong>: <em>je regarde la télévision</em>, <em>je lis un livre</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>meewerkend voorwerp (COI)</strong> antwoordt op <em>aan wie?</em> en staat met <strong>à</strong>: <em>j'écris à ma grand-mère</em>, <em>il parle à ses parents</em>. Werkwoorden die dat vragen: <em>parler à</em>, <em>écrire à</em>, <em>téléphoner à</em>, <em>répondre à</em>, <em>demander à</em>, <em>donner à</em>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">COD</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">COI</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mij / jou</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">me, te</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">me, te</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hem / haar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le, la (l')</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lui</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ons / jullie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nous, vous</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nous, vous</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">les</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">leur</td></tr></table>",
+     "onderschrift": "Alleen in de derde persoon zie je het verschil: le/la/les tegenover lui/leur."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dus: <em>Je regarde la télévision</em> wordt <em>je <strong>la</strong> regarde</em>; <em>tu connais mon frère ?</em> wordt <em>tu <strong>le</strong> connais ?</em>; <em>j'écris à ma grand-mère</em> wordt <em>je <strong>lui</strong> écris</em>; <em>il parle à ses parents</em> wordt <em>il <strong>leur</strong> parle</em>. <em>Leur</em> krijgt hier geen s, ook al gaat het over meerdere mensen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Lui</em> kan 'aan hem' én 'aan haar' betekenen; dat moet uit de rest van de tekst blijken. En een zin kan allebei hebben: <em>je donne le livre à Lila</em> wordt <em>je le lui donne</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Waar het voornaamwoord staat",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort zin</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">plaats</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gewone zin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vóór het vervoegde werkwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je la vois, il me parle</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ontkenning</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">binnen de ne … pas, bij het werkwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je ne le connais pas</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met een infinitief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vóór die infinitief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tu peux m'aider ?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bevel zonder ontkenning</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">erachter, met een koppelteken</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">regarde-moi, donne-le-moi</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bevel met ontkenning</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">weer ervoor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ne me regarde pas</td></tr></table>",
+     "onderschrift": "In een bevel wordt me moi: appelle-moi, lève-toi."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>twee voornaamwoorden samen</strong> komt in de derde persoon het COD eerst: <em>je <strong>le lui</strong> donne</em>. Bij <em>me, te, nous, vous</em> is het omgekeerd: <em>il <strong>me le</strong> donne</em>."
+    }
+   ]
+  },
+  {
+   "kop": "De wederkerende werkwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>wederkerend</strong> werkwoord heeft een <em>se</em> bij zich in de infinitief: <em>se lever</em>, <em>se laver</em>, <em>s'appeler</em>, <em>se doucher</em>, <em>se sentir</em>. Dat woordje verandert mee met de persoon."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 113\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"117.5\" y=\"16\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">je</text><text x=\"117.5\" y=\"31\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">tu</text><text x=\"117.5\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">il, elle, on</text><path d=\"M117.5 61 v12 m0 0 l-4 -5 m4 5 l4 -5\" stroke=\"#2f5d50\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"79.5\" y=\"77\" width=\"76\" height=\"30\" rx=\"8\" fill=\"#2f5d50\" /><text x=\"117.5\" y=\"97\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#ffffff\">me lave, te laves, se lave</text><text x=\"352.5\" y=\"16\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">nous</text><text x=\"352.5\" y=\"31\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">vous</text><text x=\"352.5\" y=\"46\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" fill=\"#6b7260\">ils, elles</text><path d=\"M352.5 61 v12 m0 0 l-4 -5 m4 5 l4 -5\" stroke=\"#c17f2b\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"314.5\" y=\"77\" width=\"76\" height=\"30\" rx=\"8\" fill=\"#c17f2b\" /><text x=\"352.5\" y=\"97\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"14\" font-weight=\"600\" fill=\"#ffffff\">nous lavons, vous lavez, se lavent</text></svg>",
+     "onderschrift": "In de wij- en jullie-vorm staat het woordje twee keer: nous nous lavons."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het zegt dat de handeling op het onderwerp zelf terugslaat: <em>il lave la voiture</em> (hij wast iets anders) tegenover <em>il se lave</em> (hij wast zich). Hetzelfde werkwoord kan dus allebei."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het kan ook <strong>elkaar</strong> betekenen: <em>on se voit demain</em> (we zien elkaar morgen), <em>ils se parlent</em>. En voor een klinker wordt <em>te</em> <em>t'</em>: <em>Comment tu t'appelles ?</em>"
+    }
+   ]
+  },
+  {
+   "kop": "Y en en",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">woord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vervangt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">y</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een plaats met à, dans of chez</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Tu vas à la poste ? → Tu y vas ?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">en</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een onbepaalde hoeveelheid of een getal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Tu as des frères ? → J'en ai deux.</td></tr></table>",
+     "onderschrift": "Allebei staan ze, net als de andere voornaamwoorden, vóór het werkwoord."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>J'y vais demain</em> betekent: ik ga er morgen heen. <em>Il y est</em>: hij is daar. Let op de samentrekking: <em>je y vais</em> bestaat niet, het wordt <em>j'y vais</em>, en <em>j'en ai deux</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee vaste uitdrukkingen om te onthouden: <em>j'en ai assez</em> (ik heb er genoeg van) en <em>on y va !</em> (we gaan!)."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "In het Frans staat het voorwerp vóór het werkwoord: je la vois.",
+  "COD = zonder voorzetsel (le, la, les). COI = met à (lui, leur).",
+  "leur krijgt geen s als voornaamwoord: il leur parle.",
+  "In een bevel komt het erachter met een streepje: donne-le-moi.",
+  "Een wederkerend werkwoord verandert mee: je me lève, nous nous levons.",
+  "y = een plaats, en = een hoeveelheid. j'y vais, j'en ai deux.",
+  "Een voornaamwoord verwijst altijd terug, nooit vooruit."
+ ]
+}

@@ -1,0 +1,137 @@
+{
+ "vak": "Frans",
+ "titel": "Een Franse tekst begrijpen",
+ "onder": "Het onderwerp, de hoofdgedachte, de hoofdpunten en de gegevens die je nodig hebt.",
+ "secties": [
+  {
+   "kop": "Waarvoor dient dit vak hier?",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<strong>Dit oefenplatform oefent alleen het schriftelijke Frans.</strong> Je examen bestaat uit drie delen: een <strong>spreekopdracht</strong> die je thuis opneemt en indient tot drie dagen voor je digitale examen, het <strong>digitale examen</strong> van 150 minuten in het examencentrum in Brussel, en een <strong>gesprek</strong> van tien minuten met vijftien minuten voorbereidingstijd voor twee opdrachten. De punten liggen zo: lezen 30 %, luisteren 30 %, schrijven 8 %, schriftelijke interactie 8 %, spreken 8 %, en twee keer mondelinge interactie, elk 8 %. Luisteren, spreken en de gesprekken oefen je hier niet: daar heb je geluid en een gesprekspartner voor nodig. Wat je hier wél oefent — lezen, schrijven, woordenschat en grammatica — draagt de helft van je punten, en je hebt het ook nodig om te kunnen luisteren en spreken."
+    },
+    {
+     "soort": "tekst",
+     "html": "Lezen is met 30 % het zwaarste onderdeel dat je hier kan inoefenen, evenveel als luisteren. En wie vlot leest, herkent dezelfde woorden ook terug als hij ze hoort."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het ERK-niveau van dit jaar is <strong>A2</strong>. Dat betekent korte, duidelijke teksten over het dagelijkse leven: een zoekertje, een bericht van de school, een recept, een verslagje van een weekend, een affiche, een beoordeling van een hotel. Reken er wel op dat er ook een tekst bij zit die iets uitdagender is."
+    }
+   ]
+  },
+  {
+   "kop": "Vier vragen bij elke tekst",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>onderwerp</strong> is waarover een tekst gaat. Je zegt het in één of enkele <strong>woorden</strong>: 'iemand verkoopt zijn fiets', 'tweedehands kopen'. Niet in een volledige zin dus."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>hoofdgedachte</strong> is de belangrijkste boodschap, in één <strong>zin</strong>: 'Deze fiets is weinig gebruikt en kost 95 euro.' De <strong>hoofdpunten</strong> zijn de inhoudelijke elementen die die hoofdgedachte <strong>ondersteunen</strong>: de fiets is blauw, de buitenbanden zijn nieuw, je moet hem zelf komen halen."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 196\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"160\" y=\"8\" width=\"150\" height=\"38\" rx=\"9\" fill=\"#2f5d5018\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"26.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">onderwerp</text><text x=\"235.0\" y=\"39.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">één of enkele woorden</text><rect x=\"110\" y=\"54\" width=\"250\" height=\"38\" rx=\"9\" fill=\"#c17f2b18\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"72.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">hoofdgedachte</text><text x=\"235.0\" y=\"85.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">de belangrijkste boodschap, in één zin</text><rect x=\"65\" y=\"100\" width=\"340\" height=\"38\" rx=\"9\" fill=\"#2f5d5018\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"118.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">hoofdpunten</text><text x=\"235.0\" y=\"131.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">wat die boodschap ondersteunt</text><rect x=\"20\" y=\"146\" width=\"430\" height=\"38\" rx=\"9\" fill=\"#6b726018\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"164.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">details</text><text x=\"235.0\" y=\"177.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">voorbeelden, cijfers, namen</text></svg>",
+     "onderschrift": "Onderwerp in enkele woorden, hoofdgedachte in één zin, daaronder de punten die haar dragen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De vierde vraag is de praktische: <strong>informatie selecteren</strong>. Dan hoef je de tekst niet helemaal te begrijpen, je moet er één gegeven uit halen — een uur, een prijs, een dag, een aantal."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Doe het eens op een echte tekst.</strong> <em>À vendre : vélo de ville bleu, taille moyenne. Je l'ai acheté il y a deux ans et je roule très peu. Les pneus sont neufs. Prix : 95 euros. Je ne fais pas d'envoi : il faut venir le chercher à Liège.</em><br><strong>Onderwerp:</strong> iemand verkoopt zijn fiets. <strong>Hoofdgedachte:</strong> die fiets is weinig gebruikt en kost 95 euro. <strong>Hoofdpunten:</strong> blauw, nieuwe buitenbanden, zelf komen halen. <strong>Te selecteren:</strong> 95 euro."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">à vendre</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">te koop</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un vélo, les pneus</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een fiets, de buitenbanden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je roule très peu</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik rijd er heel weinig mee</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le prix</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de prijs</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je ne fais pas d'envoi</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ik verstuur niet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">venir chercher</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">komen halen</td></tr></table>",
+     "onderschrift": "Die woorden komen terug in elk zoekertje."
+    }
+   ]
+  },
+  {
+   "kop": "Teksten uit het dagelijkse leven",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>bericht van de school</strong> zegt vooral wat er verandert: <em>le lundi 12 octobre, les cours commencent à 10 h</em>, want <em>les professeurs ont une réunion le matin</em>. De rest legt uit hoe het dan wél loopt: <em>la garderie est ouverte à partir de 8 h</em> en <em>le repas de midi se passe comme d'habitude</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>recept</strong> zegt je in welke orde je iets doet: <em>coupez deux oignons</em>, <em>ajoutez le riz</em>, <em>laissez cuire vingt minutes sans couvercle</em>, <em>salez à la fin, pas avant</em>. <em>Pour quatre personnes</em> staat bovenaan."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>verslagje</strong> vertelt wat er gebeurde: <em>samedi, je suis allée à la mer</em>, <em>nous avons pris le train de 7 h 40 pour éviter le monde</em>, <em>il faisait froid, mais le ciel était bleu</em>, <em>j'avais mal aux jambes, mais j'étais contente</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>affiche</strong> wil je overhalen: <em>viens essayer l'escalade</em>, <em>inscris-toi avant le 30 septembre</em>, <em>le groupe est limité à douze jeunes</em>. En een <strong>beoordeling</strong> geeft een mening met een maar: <em>la chambre était propre</em>, <em>par contre, la fenêtre donne sur la rue et j'ai mal dormi</em>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une réunion, la garderie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vergadering, de opvang</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">comme d'habitude</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zoals gewoonlijk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un oignon, un couvercle</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een ui, een deksel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">éviter le monde</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de drukte vermijden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">avoir mal aux jambes</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pijn in de benen hebben</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">par contre</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">daarentegen</td></tr></table>",
+     "onderschrift": "Zes uitdrukkingen die je in zulke teksten voortdurend terugziet."
+    }
+   ]
+  },
+  {
+   "kop": "Informatie opzoeken: uren, prijzen en berichten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>openingsuren</strong> zoek je alleen de regel die je nodig hebt. <em>Lundi : fermé</em> betekent maandag gesloten; <em>mercredi : 14 h – 19 h</em> is dus de namiddag; <em>samedi : 9 h – 13 h</em> betekent dat je er in de namiddag niet meer binnen kan. <em>Fermée les jours fériés</em>: gesloten op feestdagen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>prijslijst</strong> let je op de voorwaarden. <em>Jeunes de moins de 18 ans : 2,50 €</em> geldt voor wie jonger is dan achttien. <em>Location d'une serviette : 2 €</em> is de huur van een handdoek, en <em>le bonnet de bain est obligatoire et n'est pas en location</em> betekent dat je je badmuts zelf moet meebrengen. Soms moet je even rekenen: twee volwassenen plus één handdoek is 4,50 + 4,50 + 2 = 11 euro."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>gesprekje</strong> tussen twee mensen moet je volgen wie wat zegt. <em>Je finis à 17 h, donc j'arrive vers 18 h 30</em>: <em>vers</em> betekent rond. <em>Pas de souci</em> is geen probleem, <em>on mange à 19 h</em> zegt het uur, en <em>des fruits, il y a déjà un gâteau</em> zegt waarom het fruit moet zijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>waslabel</strong> of een gebruiksaanwijzing zegt wat je moet en niet mag doen: <em>lavez le vêtement seul, à 30 degrés</em>, <em>n'utilisez pas de sèche-linge</em>, <em>repassez à l'envers</em>, <em>en cas de tache, lavez tout de suite à l'eau froide</em>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fermé, ouvert</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gesloten, open</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">moins de 18 ans</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">jonger dan achttien</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">en location</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">te huur</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vers 18 h 30</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rond half zeven</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pas de souci</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen probleem</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une tache, tout de suite</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vlek, onmiddellijk</td></tr></table>",
+     "onderschrift": "Woorden waarmee je een uurtabel, een prijslijst of een label kan lezen."
+    }
+   ]
+  },
+  {
+   "kop": "Een artikel en een mail",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>krantenstukje</strong> heeft vaak een maatregel en een gevolg: <em>les élèves laissent leur téléphone dans un casier pendant les cours</em>, <em>les professeurs trouvent les classes plus calmes</em>, <em>certains élèves se plaignent, mais la plupart disent qu'ils se concentrent mieux</em>, <em>l'école va garder la règle jusqu'en juin</em>. Let op het verschil tussen <em>certains</em> (sommige) en <em>la plupart</em> (de meeste): 'iedereen is tevreden' staat er dus niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>mail om te solliciteren</strong> zegt waarom je schrijft en wanneer je kan. <em>Je vous écris au sujet de votre annonce pour un job d'été</em>: <em>au sujet de</em> betekent in verband met. <em>Je suis libre du 1er au 31 juillet, sauf le week-end du 14</em>: <em>sauf</em> betekent behalve."
+    },
+    {
+     "soort": "weetje",
+     "html": "Je mag op het examen een <strong>online woordenboek</strong> gebruiken, maar je hebt niet de tijd om elk woord op te zoeken. Zorg dus voor een basiswoordenschat, en zoek alleen op wat je echt nodig hebt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Er is geen giscorrectie.</strong> Een fout antwoord kost je niets extra, dus vul altijd iets in, ook als je twijfelt."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Onderwerp = enkele woorden. Hoofdgedachte = één zin. Hoofdpunten = wat haar draagt.",
+  "Informatie selecteren: zoek alleen de regel die je nodig hebt.",
+  "fermé = gesloten, ouvert = open; vers = rond; sauf = behalve.",
+  "par contre zet twee dingen tegenover elkaar; déjà betekent al.",
+  "certains = sommige, la plupart = de meeste. Dat is niet iedereen.",
+  "Lezen telt voor 30 % van het examen, evenveel als luisteren.",
+  "Er is geen giscorrectie, dus vul altijd iets in."
+ ]
+}

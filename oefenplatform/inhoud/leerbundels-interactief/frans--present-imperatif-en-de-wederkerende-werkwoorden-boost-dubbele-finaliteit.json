@@ -1,0 +1,115 @@
+{
+ "vak": "Frans",
+ "titel": "Présent, impératif en de wederkerende werkwoorden",
+ "onder": "De tegenwoordige tijd, het bevel, de infinitief, en de werkwoorden zonder persoon.",
+ "secties": [
+  {
+   "kop": "Drie vormen die bijna gelijk klinken",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<strong>Dit is de belangrijkste regel van het hele vak.</strong> Je moet het verschil kennen tussen een <strong>infinitief</strong> (<em>aller</em>), een <strong>persoonsvorm</strong> (<em>allez</em>) en een <strong>voltooid deelwoord</strong> (<em>allé</em>). Ze klinken bijna gelijk, maar ze doen iets anders in de zin. Wie dat verschil kent, leest een Franse zin juist én schrijft ze juist."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">infinitief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aller, parler, finir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">staat na een ander werkwoord of in een woordenboek</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">persoonsvorm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vous allez, je parle</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">is vervoegd en hoort bij een onderwerp</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voltooid deelwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">allé, parlé, fini</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">staat bij avoir of être</td></tr></table>",
+     "onderschrift": "parler, parlez en parlé klinken hetzelfde en schrijf je anders."
+    }
+   ]
+  },
+  {
+   "kop": "De présent: de drie regelmatige groepen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">-er: parler</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">-ir: finir</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">-re: vendre</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je parle</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je finis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je vends</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tu parles</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tu finis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tu vends</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il parle</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il finit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il vend</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nous parlons</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nous finissons</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nous vendons</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vous parlez</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vous finissez</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vous vendez</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ils parlent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ils finissent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ils vendent</td></tr></table>",
+     "onderschrift": "Let bij finir op de dubbele s in het meervoud: finissons, finissez, finissent."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een werkwoord op <strong>-er</strong> klinken <em>je parle</em>, <em>tu parles</em>, <em>il parle</em> en <em>ils parlent</em> <strong>allemaal hetzelfde</strong>. Vier vormen, één klank: het verschil zie je alleen in het schrift. Daarom moet je die uitgangen kennen, ook al hoor je ze niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Niet alle werkwoorden op -ir doen het zoals <em>finir</em>: <em>venir</em>, <em>partir</em>, <em>sortir</em> en <em>dormir</em> gaan hun eigen weg. <em>Finir</em> en <em>choisir</em> volgen wel hetzelfde patroon."
+    }
+   ]
+  },
+  {
+   "kop": "De onregelmatige die je echt nodig hebt",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">werkwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">je</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">tu</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">il</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">nous</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vous</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">ils</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">être</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">suis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">es</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">est</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sommes</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">êtes</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sont</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">avoir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ai</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">as</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">a</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">avons</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">avez</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ont</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aller</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vais</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">va</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">allons</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">allez</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vont</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">faire</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fais</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fais</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fait</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">faisons</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">faites</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">font</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">prendre</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">prends</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">prends</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">prend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">prenons</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">prenez</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">prennent</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pouvoir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">peux</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">peux</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">peut</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pouvons</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pouvez</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">peuvent</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vouloir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">veux</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">veux</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">veut</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voulons</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voulez</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">veulent</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">devoir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dois</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">dois</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">doit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">devons</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">devez</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">doivent</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">venir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">viens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">viens</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vient</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">venons</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">venez</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">viennent</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">savoir</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sais</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sais</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sait</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">savons</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">savez</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">savent</td></tr></table>",
+     "onderschrift": "Verwar ils ont (avoir) niet met ils sont (être). Vous faites en vous êtes eindigen niet op -ez."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee dingen waar het Frans <strong>avoir</strong> gebruikt en wij 'zijn': <em>j'ai quinze ans</em> (leeftijd) en <em>j'ai faim</em>, <em>j'ai froid</em>, <em>j'ai peur</em> (gevoelens en behoeften)."
+    }
+   ]
+  },
+  {
+   "kop": "De impératif: een bevel, een raad, een instructie",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">parler</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">finir</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">être / avoir</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tu</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">parle ! (zonder s)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">finis !</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sois ! / aie !</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nous</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">parlons !</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">finissons !</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">soyons ! / ayons !</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vous</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">parlez !</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">finissez !</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">soyez ! / ayez !</td></tr></table>",
+     "onderschrift": "Drie vormen, en het onderwerp valt weg. Bij -er verliest de tu-vorm zijn s."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een bevel geven aan 'hij' kan niet: er zijn alleen deze drie. De <strong>nous-vorm</strong> betekent 'laten we': <em>allons !</em>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Je komt de impératif overal tegen in een <strong>prescriptieve tekst</strong>: <em>coupez deux oignons</em>, <em>ajoutez le riz</em>, <em>n'utilisez pas de sèche-linge</em>, <em>inscris-toi avant le 30 septembre</em>. Daarom staat er in een recept <em>ajoutez le riz</em> en niet <em>vous ajoutez le riz</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>wederkerend</strong> werkwoord komt het voornaamwoord erachter met een koppelteken, en wordt <em>te</em> <em>toi</em>: <em>lève-toi !</em>, <em>assieds-toi !</em> Ook <em>me</em> wordt <em>moi</em>: <em>appelle-moi !</em>, <em>regarde-moi !</em>"
+    }
+   ]
+  },
+  {
+   "kop": "De infinitief na een ander werkwoord",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Na <em>aimer</em>, <em>vouloir</em>, <em>pouvoir</em>, <em>devoir</em>, <em>aller</em> en <em>il faut</em> komt een <strong>infinitief</strong>, geen tweede persoonsvorm: <em>j'aime jouer au basket</em>, <em>je veux partir</em>, <em>tu peux venir ?</em>, <em>je dois travailler</em>, <em>je vais manger</em>, <em>il faut partir</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Je veux je mange</em> bestaat dus niet. En het voornaamwoord hoort bij de infinitief die het aanvult: <em>tu peux <strong>m'</strong>aider ?</em>"
+    }
+   ]
+  },
+  {
+   "kop": "De onpersoonlijke werkwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een paar werkwoorden bestaan <strong>alleen in de derde persoon enkelvoud</strong>, want er is geen echte persoon die de handeling doet. <em>Nous pleuvons</em> bestaat niet."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">betekenis</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il pleut</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het regent (pleuvoir)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il neige</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het sneeuwt (neiger)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il faut</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het is nodig, men moet (falloir)</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il y a</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">er is, er zijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">il fait beau / froid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het is mooi / koud weer</td></tr></table>",
+     "onderschrift": "Die il verwijst naar niets of niemand; hij houdt alleen de plaats van het onderwerp bezet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Il y a</em> blijft hetzelfde in het enkelvoud en het meervoud: <em>il y a un problème</em>, <em>il y a trois chaises</em>. En over het weer zegt het Frans <em>il fait</em>: <em>il fait beau aujourd'hui</em>, <em>il fait vingt degrés</em>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "aller (infinitief), allez (persoonsvorm), allé (deelwoord): dezelfde klank, ander werk.",
+  "-er: e, es, e, ons, ez, ent. -ir: is, is, it, issons, issez, issent.",
+  "être, avoir, aller, faire, prendre, pouvoir, vouloir en venir ken je uit het hoofd.",
+  "j'ai quinze ans, j'ai faim: het Frans zegt avoir waar wij zijn zeggen.",
+  "De impératif heeft drie vormen en geen onderwerp; bij -er valt de s weg.",
+  "Na aimer, vouloir, pouvoir, devoir, aller en il faut komt een infinitief.",
+  "il pleut, il neige, il faut, il y a: alleen in de derde persoon enkelvoud."
+ ]
+}

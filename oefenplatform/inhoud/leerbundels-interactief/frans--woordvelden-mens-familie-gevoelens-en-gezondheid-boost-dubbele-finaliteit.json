@@ -1,0 +1,116 @@
+{
+ "vak": "Frans",
+ "titel": "Woordvelden: mens, familie, gevoelens en gezondheid",
+ "onder": "Jezelf en je gezin, wat je voelt, en wat je zegt als je je niet goed voelt.",
+ "secties": [
+  {
+   "kop": "Waarom woordenschat nooit een doel op zich is",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Je hebt woorden nodig om teksten te begrijpen en om zelf te schrijven of te spreken. Daarom staan ze hier niet in een kale lijst, maar in zinnen waarin ze iets doen. Hoe rijker je woordenschat, hoe vlotter het gaat — en hoe minder je moet opzoeken op een examen waar je daar de tijd niet voor hebt."
+    },
+    {
+     "soort": "tekst",
+     "html": "De woordvelden van dit thema: <strong>familie</strong>, <strong>gevoelens</strong>, <strong>gezondheid en lichaamsdelen</strong>, <strong>persoonlijke gegevens</strong>, en de <strong>instructietaal</strong> die je op een examen nodig hebt."
+    }
+   ]
+  },
+  {
+   "kop": "De familie en je persoonlijke gegevens",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 184\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"67.0\" y=\"4\" width=\"104\" height=\"38\" rx=\"9\" fill=\"#ffffff\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"119.0\" y=\"20\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">grandfather</text><text x=\"119.0\" y=\"34\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">grootvader</text><rect x=\"299.0\" y=\"4\" width=\"104\" height=\"38\" rx=\"9\" fill=\"#ffffff\" stroke=\"#6b7260\" stroke-width=\"1.6\"/><text x=\"351.0\" y=\"20\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">grandmother</text><text x=\"351.0\" y=\"34\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">grootmoeder</text><rect x=\"67.0\" y=\"70\" width=\"104\" height=\"38\" rx=\"9\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"119.0\" y=\"86\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">father</text><text x=\"119.0\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">vader</text><rect x=\"299.0\" y=\"70\" width=\"104\" height=\"38\" rx=\"9\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"351.0\" y=\"86\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">mother</text><text x=\"351.0\" y=\"100\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">moeder</text><rect x=\"67.0\" y=\"136\" width=\"104\" height=\"38\" rx=\"9\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"119.0\" y=\"152\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">brother</text><text x=\"119.0\" y=\"166\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">broer</text><rect x=\"183.0\" y=\"136\" width=\"104\" height=\"38\" rx=\"9\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"152\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">me</text><text x=\"235.0\" y=\"166\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">ik</text><rect x=\"299.0\" y=\"136\" width=\"104\" height=\"38\" rx=\"9\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"351.0\" y=\"152\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">sister</text><text x=\"351.0\" y=\"166\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" fill=\"#6b7260\">zus</text><line x1=\"119.0\" y1=\"42\" x2=\"119.0\" y2=\"70\" stroke=\"#e4ded0\" stroke-width=\"1.6\"/><line x1=\"351.0\" y1=\"42\" x2=\"351.0\" y2=\"70\" stroke=\"#e4ded0\" stroke-width=\"1.6\"/><line x1=\"119.0\" y1=\"108\" x2=\"351.0\" y2=\"108\" stroke=\"#e4ded0\" stroke-width=\"1.6\"/><line x1=\"119.0\" y1=\"108\" x2=\"119.0\" y2=\"136\" stroke=\"#e4ded0\" stroke-width=\"1.6\"/><line x1=\"235.0\" y1=\"108\" x2=\"235.0\" y2=\"136\" stroke=\"#e4ded0\" stroke-width=\"1.6\"/><line x1=\"351.0\" y1=\"108\" x2=\"351.0\" y2=\"136\" stroke=\"#e4ded0\" stroke-width=\"1.6\"/></svg>",
+     "onderschrift": "Dezelfde namen als in het Nederlands, maar elk met zijn eigen lidwoord."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">les parents, le père, la mère</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de ouders, de vader, de moeder</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le frère, la sœur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de broer, de zus</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">les grands-parents</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de grootouders</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">l'oncle, la tante</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de oom, de tante</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le cousin, la cousine</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de neef, de nicht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">l'aîné, le cadet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de oudste, de jongste</td></tr></table>",
+     "onderschrift": "Le voisin, de buur, hoort niet bij de familie maar bij het woordveld wonen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Om iemand te <strong>vergelijken</strong> gebruik je <em>plus … que</em>: <em>J'ai un frère plus jeune que moi.</em> En let op: <em>sœur</em> schrijf je met een œ, maar <em>soeur</em> mag ook als je dat teken niet vindt."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">op een formulier</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nom / prénom</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">familienaam / voornaam</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">date de naissance</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geboortedatum</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">lieu de naissance</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geboorteplaats</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nationalité</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nationaliteit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">adresse</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">adres</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">numéro de téléphone</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">telefoonnummer</td></tr></table>",
+     "onderschrift": "In het Frans staat de familienaam eerst: nom, dan prénom."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op de vraag <em>Quelle est votre nationalité ?</em> antwoord je <em>Je suis belge</em> — met een <strong>kleine letter</strong>, want een nationaliteit is in het Frans een bijvoeglijk naamwoord. Het land krijgt wel een hoofdletter: <em>la Belgique</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Gevoelens",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">content, contente</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tevreden, blij</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">triste</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verdrietig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">fatigué, fatiguée</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">moe</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">être en colère / fâché</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">boos zijn, kwaad zijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">avoir peur</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bang zijn</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">heureux, heureuse</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gelukkig</td></tr></table>",
+     "onderschrift": "Een gevoel verandert mee met wie het zegt: fatigué of fatiguée."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee dingen om op te letten. <em>Je suis fatigué</em> en <em>je suis fatiguée</em> klinken <strong>gelijk</strong>: die extra e schrijf je omdat een meisje het zegt. En het Frans gebruikt <strong>avoir</strong> waar wij 'zijn' zeggen: <em>j'ai faim</em> (ik heb honger), <em>j'ai soif</em>, <em>j'ai froid</em>, <em>j'ai chaud</em>, <em>j'ai peur</em> — telkens zonder lidwoord."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>In een tekstje.</strong> <em>Hier, j'étais vraiment fatiguée, et un peu triste aussi. Ce matin, ça va beaucoup mieux : j'ai reçu une bonne nouvelle et je suis contente. Mon frère, lui, est en colère parce que son équipe a perdu.</em><br>Drie gevoelens, drie personen, en twee tijden: <em>j'étais</em> voor gisteren, <em>je suis</em> voor vandaag."
+    }
+   ]
+  },
+  {
+   "kop": "Het lichaam en de gezondheid",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la tête, la gorge</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het hoofd, de keel of hals</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">le ventre, le dos</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de buik, de rug</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la main, le pied</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de hand, de voet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la jambe, le bras</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het been, de arm</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">l'épaule, le coude, le genou</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de schouder, de elleboog, de knie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un œil, les yeux; une dent</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een oog, de ogen; een tand</td></tr></table>",
+     "onderschrift": "Les yeux is een onregelmatig meervoud: dat moet je kennen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Pijn zeg je met <strong>avoir mal à</strong>: <em>j'ai mal à la tête</em>, <em>j'ai mal au ventre</em> (want à + le wordt au), <em>j'ai mal aux dents</em> (à + les wordt aux). Verwar <em>aux dents</em> (tandpijn) niet met <em>aux oreilles</em> (oorpijn)."
+    },
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Nederlands</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je ne me sens pas bien.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ik voel me niet goed.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Je suis malade.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Ik ben ziek.</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">avoir de la fièvre</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">koorts hebben</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">une ordonnance</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een voorschrift</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">un comprimé, un médicament</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een tablet, een geneesmiddel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">la pharmacie, le pharmacien</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de apotheek, de apotheker</td></tr></table>",
+     "onderschrift": "Se sentir is wederkerend: je me sens, tu te sens, il se sent."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Bij de dokter.</strong> <em>— Bonjour, qu'est-ce qui ne va pas ? — J'ai mal au ventre depuis deux jours, docteur. — Vous avez de la fièvre ? — Non, mais je dors mal. — Je vous donne une ordonnance. Prenez un comprimé matin et soir, pendant cinq jours.</em><br><em>Qu'est-ce qui ne va pas ?</em> is de gewone openingsvraag van een dokter, en <em>depuis</em> betekent sinds."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>afspraak</strong> maak je met <em>Je voudrais prendre un rendez-vous, s'il vous plaît.</em> In de <strong>apotheek</strong> krijg je paracetamol <em>sans ordonnance</em>, maar voor een antibioticum heb je er wel een nodig; vraag advies met <em>Demandez conseil au pharmacien.</em> En zoek je een dokter in een vreemde stad: <em>Excusez-moi, où est le médecin le plus proche ?</em>"
+    }
+   ]
+  },
+  {
+   "kop": "Instructietaal: de opdracht zelf begrijpen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Frans</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat je moet doen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Complétez le texte avec les mots suivants.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vul de tekst aan met de woorden die erbij staan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Cochez la bonne réponse.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kruis het juiste antwoord aan</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Reliez.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verbind met elkaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Mettez dans le bon ordre.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zet in de juiste orde</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Répondez en français.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">antwoord in het Frans</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Justifiez votre réponse.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verantwoord je antwoord</td></tr></table>",
+     "onderschrift": "Wie de opdracht niet begrijpt, verliest punten zonder één taalfout te maken."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee woorden om te onthouden: <em>une question</em> is de vraag, <em>une réponse</em> het antwoord. En <em>suivant</em> betekent volgend."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Het lidwoord hoort bij het woord: la sœur, le frère, l'oncle, la tante.",
+  "nom = familienaam, prénom = voornaam. Nationaliteit met een kleine letter.",
+  "Het Frans zegt avoir waar wij zijn zeggen: j'ai faim, j'ai peur, j'ai quinze ans.",
+  "avoir mal à la tête, au ventre, aux dents.",
+  "un œil wordt les yeux.",
+  "ordonnance = voorschrift; sans ordonnance = zonder voorschrift.",
+  "Lees de instructietaal: cochez, complétez, reliez, justifiez."
+ ]
+}
