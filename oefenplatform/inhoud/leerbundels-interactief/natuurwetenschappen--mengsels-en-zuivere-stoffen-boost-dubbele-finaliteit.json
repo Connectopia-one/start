@@ -1,0 +1,101 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Mengsels en zuivere stoffen",
+ "onder": "Het verschil tussen een mengsel en een zuivere stof, de soorten mengsels en de technieken om ze te scheiden.",
+ "secties": [
+  {
+   "kop": "Zuivere stof of mengsel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>zuivere stof</strong> is <strong>een stof die uit maar één soort deeltjes bestaat</strong>. Over een zuivere stof geldt: ze <strong>heeft een vast smeltpunt</strong>, ze <strong>heeft een vast kookpunt</strong> en ze <strong>bestaat uit één soort deeltjes</strong>. Ze bestaat daarmee <strong>niet altijd uit één soort atomen</strong>: water is een zuivere stof en toch een verbinding van twee elementen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Lucht is dus geen zuivere stof</strong>, en <strong>water uit de kraan evenmin</strong>: <strong>er zitten opgeloste zouten en gassen in</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Verwarm je een mengsel en <strong>blijft de temperatuur tijdens het koken stijgen</strong>, dan weet je dat het <strong>een mengsel is, want een zuivere stof kookt bij één vaste temperatuur</strong>. Ook bij het smelten geldt dat: een <strong>mengsel smelt niet bij één vaste temperatuur</strong> maar over een traject."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>bestanddeel van een mengsel behoudt zijn eigen stofeigenschappen</strong>. In een <strong>heterogeen mengsel kan je de verschillende bestanddelen onderscheiden</strong>, met het blote oog of met de microscoop; in een homogeen mengsel niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>molecule</strong> verschilt van een atoom doordat ze <strong>uit twee of meer atomen bestaat die aan elkaar gebonden zijn</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De soorten mengsels",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort mengsel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het is</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Oplossing</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een homogeen mengsel van een vaste stof in een vloeistof</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">suiker in water</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Legering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een homogeen mengsel van metalen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">messing, een legering van koper en zink</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Suspensie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vaste deeltjes die zweven in een vloeistof</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">krijt in water</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Emulsie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">twee vloeistoffen die niet in elkaar oplossen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vinaigrette</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Aerosol</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">heel fijne deeltjes of druppels in een gas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rook en nevel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Schuim</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gasbelletjes verdeeld in een vloeistof of in een vaste stof</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">slagroom</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Homogeen</strong> zijn dus <strong>suiker in water</strong>, <strong>lucht</strong> en <strong>messing</strong>; <strong>zand in water</strong> is heterogeen. <strong>Heterogeen</strong> zijn <strong>slagroom</strong>, <strong>vinaigrette</strong> en <strong>rook</strong>; <strong>zeewater</strong> is homogeen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>aggregatietoestanden</strong> zijn <strong>vast, vloeibaar en gas</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Stofeigenschappen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Stofeigenschappen</strong> zijn eigenschappen van de stof zelf, hoeveel je er ook van hebt: het <strong>kookpunt</strong>, de <strong>oplosbaarheid</strong> en de <strong>geleidbaarheid</strong>. De <strong>hoeveelheid die je in de pot hebt</strong> is er geen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Massadichtheid</strong> is <strong>de massa van een stof per eenheid volume</strong>, in kilogram per kubieke meter of in gram per kubieke centimeter."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Scheidingstechnieken maken gebruik van een verschil in stofeigenschap tussen de bestanddelen</strong>, en <strong>een scheidingstechniek verandert de bestanddelen niet chemisch</strong>: na het scheiden heb je dezelfde stoffen, apart."
+    }
+   ]
+  },
+  {
+   "kop": "Scheidingstechnieken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Techniek</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarop ze steunt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wanneer je ze gebruikt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Zeven</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een verschil in deeltjesgrootte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">grove van fijne vaste deeltjes scheiden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Filtreren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een verschil in deeltjesgrootte</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zand uit water halen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Decanteren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een verschil in massadichtheid; je giet de bovenste laag af</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bezonken mengsel voorzichtig overgieten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Centrifugeren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zware deeltjes bezinken sneller door snel rond te draaien</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zwevende deeltjes die niet van zelf bezinken</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Destilleren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een verschil in kookpunt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zuiver water uit zeewater halen, alcohol en water scheiden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Indampen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het oplosmiddel laten verdampen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">keukenzout uit zout water terugwinnen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Extraheren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een stof lost in een bepaald oplosmiddel wel op en de rest niet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één stof uit een mengsel halen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Chromatografie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de bestanddelen schuiven verschillend ver mee met een loopmiddel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kleurstoffen van een stift op een strook papier</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Adsorptie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bepaalde stoffen hechten zich vast aan het oppervlak van een vaste stof</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">water of lucht zuiveren met actieve kool</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Een magneet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ijzer is magnetisch en zand niet</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ijzervijlsel uit zand halen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>decanteren duw je het mengsel dus niet door een filter met fijne poriën</strong>, je giet het af. Het <strong>kookpunt</strong> speelt mee bij <strong>destilleren</strong>, bij <strong>indampen</strong> en bij het <strong>scheiden van alcohol en water</strong>, niet bij zeven."
+    },
+    {
+     "soort": "tekst",
+     "html": "Na het <strong>filtreren</strong> blijft het <strong>residu</strong> op de filter achter en loopt het <strong>filtraat</strong> erdoor. Allebei <strong>kunnen ze het bestanddeel zijn dat je nodig hebt</strong>, dus het <strong>residu is niet altijd afval</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Olie en water</strong> scheid je niet goed met filtreren, want de <strong>druppeltjes zijn vloeibaar en gaan gewoon door de filter</strong>. Voor een <strong>troebele vloeistof met zwevende deeltjes die niet bezinken</strong> komen <strong>filtreren of centrifugeren</strong> het eerst in aanmerking."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een waterzuiveringsinstallatie gebruikt die technieken na elkaar: eerst zeven, dan laten bezinken, dan bacteriën het werk laten doen, en als laatste stap soms nog actieve kool."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een zuivere stof bestaat uit één soort deeltjes en heeft een vast smeltpunt en kookpunt.",
+  "Een mengsel kookt en smelt niet bij één vaste temperatuur.",
+  "In een heterogeen mengsel kan je de bestanddelen onderscheiden, in een homogeen mengsel niet.",
+  "Suiker in water, lucht en messing zijn homogeen; slagroom, vinaigrette en rook heterogeen.",
+  "Massadichtheid is de massa van een stof per eenheid volume.",
+  "Een scheidingstechniek gebruikt een verschil in stofeigenschap en verandert de bestanddelen niet chemisch.",
+  "Filtreren steunt op deeltjesgrootte, destilleren op een verschil in kookpunt.",
+  "Na het filtreren blijft het residu op de filter en loopt het filtraat erdoor."
+ ]
+}

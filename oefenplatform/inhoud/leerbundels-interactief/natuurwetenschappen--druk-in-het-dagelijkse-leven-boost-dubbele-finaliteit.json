@@ -1,0 +1,124 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Druk in het dagelijkse leven",
+ "onder": "De formule p = F / A, de eenheden pascal, kilopascal en hectopascal, de luchtdruk met haar overdruk en onderdruk, en de druk van een gas.",
+ "secties": [
+  {
+   "kop": "Druk op een oppervlak",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>druk</strong> is de <strong>kracht gedeeld door de oppervlakte</strong>. De SI-eenheid is de <strong>pascal</strong>: één newton per vierkante meter. Voor het weer gebruiken we handiger eenheden: <strong>kilopascal, hectopascal, millibar en bar</strong>. Eén bar is <strong>100 000 pascal</strong>, ongeveer de luchtdruk op zeeniveau, en dat lees je in het weerbericht als 1000 hectopascal."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>dezelfde kracht</strong> geeft een <strong>kleiner oppervlak een grotere druk</strong>. Daarom snijdt een scherp mes beter dan een bot mes, en daarom dringt een naald zo gemakkelijk binnen. Duw je met 200 newton op 0,5 vierkante meter, dan is de druk <strong>400 pascal</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Met <strong>sneeuwschoenen</strong> zak je minder diep weg: je gewicht verandert niet, maar het <strong>zooloppervlak is groter</strong> en dus de druk kleiner. Een naaldhak doet precies het omgekeerde. Bij <strong>dezelfde schoenmaat</strong> zakt de <strong>zwaarste persoon</strong> het diepst, want zijn kracht op de modder is groter."
+    },
+    {
+     "soort": "tekst",
+     "html": "Leg je dezelfde baksteen op zijn <strong>smalle kant</strong>, dan blijft de <strong>kracht gelijk</strong> maar wordt de <strong>druk groter</strong>, want het contactoppervlak is kleiner. De druk hangt dus af van de <strong>kracht</strong>, van het <strong>oppervlak</strong> en daarmee ook van de <strong>stand</strong> van het voorwerp, maar niet van de kleur."
+    }
+   ]
+  },
+  {
+   "kop": "Rekenen met de druk",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De formule in woorden: <strong>druk is de grootte van de kracht per oppervlakte</strong>, of <strong>p = F / A</strong>. De grootheid die je door de oppervlakte deelt, is dus de <strong>kracht</strong>. Duw je met <strong>600 newton op 0,2 vierkante meter</strong>, dan is de druk <strong>3000 pascal</strong>, of 3 kilopascal."
+    },
+    {
+     "soort": "tekst",
+     "html": "De eenheden: de <strong>pascal</strong> is de SI-eenheid, en daarnaast gebruik je de <strong>kilopascal</strong> en de <strong>hectopascal</strong>. <strong>Eén kilopascal is 1000 pascal</strong> en <strong>één hectopascal is 100 pascal</strong>; de 1013 hectopascal van het weerbericht zijn dus 101 300 pascal. De <strong>newton</strong> is géén eenheid van druk, maar van kracht."
+    },
+    {
+     "soort": "tekst",
+     "html": "Uit de formule volgt rechtstreeks hoe je de druk <strong>kleiner</strong> maakt: het <strong>oppervlak vergroten</strong> of de <strong>kracht verkleinen</strong>. Daar werken de <strong>brede rupsbanden</strong> van een graafmachine op, de <strong>sneeuwschoenen</strong> van een wandelaar, de <strong>brede poten</strong> onder een zware kast en de brede banden van een rugzak. Een <strong>duimspijker</strong> wil net het omgekeerde: alle kracht op een piepklein oppervlak."
+    },
+    {
+     "soort": "kader",
+     "html": "Zo'n keuze tussen twee gelijkaardige voorwerpen is een klassieke examenvraag: welke van de twee kies je, en waarom? Je legt dat telkens uit met <strong>p = F / A</strong>: welke kracht werkt er, en op hoeveel oppervlak?"
+    }
+   ]
+  },
+  {
+   "kop": "Luchtdruk, overdruk en onderdruk",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>luchtdruk</strong> of <strong>atmosferische druk</strong> komt van het gewicht van de lucht boven ons en is op zeeniveau ongeveer <strong>1013 hectopascal</strong>. Hij is <strong>niet op elke hoogte dezelfde</strong>: hoe hoger je komt, hoe minder lucht er nog boven je ligt en hoe lager de luchtdruk. Daarom staat een zak chips in de bergen bol."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>barometer</strong> meet de <strong>luchtdruk</strong> buiten; een <strong>manometer</strong> meet de druk van een gas of vloeistof in een <strong>vat of leiding</strong>, zoals op een gasfles of een fietspomp. De luchtdruk <strong>neemt af als je hoger komt</strong>, want er staat minder lucht boven je. <strong>Overdruk</strong> is hoger dan de <strong>omgevingsdruk</strong>, <strong>onderdruk</strong> lager; een zuignap werkt op onderdruk."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een druk die <strong>hoger</strong> is dan die van de omgeving, is <strong>overdruk</strong>; een druk die <strong>lager</strong> is, is <strong>onderdruk</strong>. In een opgepompte fietsband heerst overdruk, in een vacuümzak voor voeding onderdruk."
+    },
+    {
+     "soort": "tekst",
+     "html": "Met die twee verklaar je een rij alledaagse dingen. Je kan een vloeistof <strong>met een rietje opzuigen</strong> omdat je in het rietje <strong>onderdruk</strong> maakt: het verschil met de luchtdruk op de drank in het glas <strong>duwt de vloeistof omhoog</strong>. En je <strong>oren suizen bij het opstijgen van een vliegtuig</strong> omdat de <strong>luchtdruk buiten daalt</strong> terwijl de druk in je oor nog hoog blijft; slikken of gapen maakt die twee weer gelijk."
+    }
+   ]
+  },
+  {
+   "kop": "Druk in gassen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Volgens het <strong>deeltjesmodel</strong> ontstaat de druk van een gas doordat de deeltjes <strong>tegen de wand botsen</strong> en daar bij elke botsing op duwen. Miljarden botsingen per seconde geven samen een gelijkmatige druk. Een gas oefent dus druk uit <strong>in alle richtingen</strong>, ook naar boven."
+    },
+    {
+     "soort": "tekst",
+     "html": "Pers je een gas in een <strong>kleiner volume</strong> bij gelijke temperatuur, dan raakt elk deeltje de wand vaker en wordt de <strong>druk groter</strong>. Verwarm je een gas in een <strong>gesloten stalen fles</strong>, dan gaan de deeltjes sneller bewegen, botsen ze harder, en <strong>stijgt de druk</strong>. Daarom staat er op een spuitbus dat je ze niet mag verwarmen."
+    }
+   ]
+  },
+  {
+   "kop": "Gasdruk in het dagelijkse leven",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Omdat de deeltjes <strong>in alle richtingen</strong> bewegen, duwt een gas <strong>overal even hard</strong> tegen de wand, dus ook naar boven en naar de zijkanten. <strong>Niet alleen naar beneden</strong>: de deeltjes vallen niet naar de bodem."
+    },
+    {
+     "soort": "tekst",
+     "html": "Verwarm je een gas, dan gaan de deeltjes <strong>sneller bewegen</strong> en botsen ze <strong>vaker en harder</strong> tegen de wand. In een <strong>gesloten fles</strong>, die niet kan uitzetten, <strong>stijgt dan de druk</strong>. Daarom kan een <strong>gasfles in de volle zon</strong> ontploffen, staat er op een spuitbus dat je ze niet mag verwarmen, en pompen <strong>wielrijders hun banden in de zomer wat minder hard op</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op een drukvat zit daarom een <strong>veiligheidsklep</strong>: die <strong>gaat open zodra de druk binnen te hoog wordt</strong> en laat gas ontsnappen voor het vat kan barsten."
+    },
+    {
+     "soort": "tekst",
+     "html": "Koel je een gas af, dan gebeurt het omgekeerde. Een <strong>ballon in de koelkast</strong> loopt wat leeg: de deeltjes bewegen trager, de druk daalt en de ballon krimpt tot de druk binnen weer in evenwicht is met de luchtdruk buiten."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een fietsband wordt warm als je hem oppompt. Je perst de lucht samen en voert er daarbij energie aan toe; de wrijving in de pomp speelt ook mee, maar is niet de hoofdoorzaak."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Druk is de grootte van de kracht per oppervlakte: p = F / A, in pascal.",
+  "Bij dezelfde kracht geeft een kleiner oppervlak een grotere druk.",
+  "De druk kleiner maken: het oppervlak vergroten of de kracht verkleinen.",
+  "Eén kilopascal is 1000 pascal, één hectopascal is 100 pascal. De newton is geen drukeenheid.",
+  "600 newton op 0,2 vierkante meter geeft 3000 pascal.",
+  "De luchtdruk is op zeeniveau ongeveer 1013 hectopascal en daalt als je hoger komt.",
+  "Een barometer meet de luchtdruk buiten, een manometer de druk in een vat of leiding.",
+  "Overdruk is hoger dan de omgevingsdruk, onderdruk lager.",
+  "Een rietje werkt met onderdruk; de luchtdruk duwt de drank omhoog.",
+  "Je oren suizen bij het opstijgen omdat de luchtdruk buiten daalt.",
+  "De gasdruk komt van de botsingen van de deeltjes tegen de wand, in alle richtingen.",
+  "Verwarmen in een gesloten vat doet de druk stijgen: gasflessen uit de zon, banden in de zomer zachter.",
+  "Een veiligheidsklep gaat open als de druk te hoog wordt.",
+  "Een gas in een kleiner volume persen geeft een hogere druk."
+ ]
+}

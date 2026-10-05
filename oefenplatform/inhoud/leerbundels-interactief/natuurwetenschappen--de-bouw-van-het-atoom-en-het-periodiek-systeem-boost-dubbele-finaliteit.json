@@ -1,0 +1,141 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "De bouw van het atoom en het periodiek systeem",
+ "onder": "De deeltjes in een atoom, het atoomnummer en het massagetal, de elektronenconfiguratie, en wat je uit het PSE kan aflezen.",
+ "secties": [
+  {
+   "kop": "De deeltjes in een atoom",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een atoom heeft een <strong>atoomkern</strong> met daarrond de <strong>elektronen</strong>. In de kern zitten de <strong>protonen</strong> en de <strong>neutronen</strong>; samen heten die de <strong>nucleonen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Deeltje</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Lading</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Proton</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in de kern</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">positief</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Neutron</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">in de kern</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niet geladen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Elektron</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">rond de kern</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">negatief</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "In een <strong>neutraal atoom</strong> zijn er <strong>evenveel protonen als elektronen</strong>, en daarom heffen de ladingen elkaar precies op. Bijna de hele <strong>massa zit in de kern</strong>: een elektron weegt bijna tweeduizend keer minder dan een proton."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>atoomnummer</strong> is het <strong>aantal protonen</strong> en bepaalt <strong>om welk element</strong> het gaat. Lees je atoomnummer 17, dan weet je meteen dat de <strong>kern 17 protonen bevat</strong>, dat een <strong>neutraal atoom 17 elektronen heeft</strong> en dat het element <strong>op de zeventiende plaats in het PSE staat</strong>; over het aantal neutronen zegt het niets. Het <strong>massagetal</strong> is het <strong>aantal protonen plus neutronen</strong>. Het aantal <strong>neutronen</strong> vind je dus door het <strong>atoomnummer van het massagetal af te trekken</strong>: bij atoomnummer 11 en massagetal 23 zijn er 12 neutronen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Isotopen</strong> zijn atomen van <strong>hetzelfde element met een ander aantal neutronen</strong>. Hun atoomnummer is gelijk, hun massagetal niet, en chemisch gedragen ze zich hetzelfde."
+    }
+   ]
+  },
+  {
+   "kop": "Ionen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>ion</strong> is een atoom dat <strong>elektronen afgestaan of opgenomen heeft</strong>. Het aantal protonen verandert daarbij niet, dus blijft het <strong>hetzelfde element</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Elektronen afstaan</strong> geeft een <strong>positief ion</strong>: er blijft positieve lading over. <strong>Elektronen opnemen</strong> geeft een <strong>negatief ion</strong>. Een deeltje met 12 protonen en 10 elektronen heeft dus lading <strong>2 plus</strong>; een deeltje met 17 protonen en 18 elektronen is een <strong>chloride-ion</strong> met lading 1 min."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>symbolische voorstelling</strong> van een ion zegt dus twee dingen: <strong>welk element</strong> het is, en <strong>hoeveel elektronen</strong> er af of bij gekomen zijn. Hoeveel neutronen de kern bevat, lees je er niet uit af."
+    }
+   ]
+  },
+  {
+   "kop": "Het periodiek systeem",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>periode</strong> is een <strong>horizontale rij</strong>; een <strong>groep</strong> is een <strong>verticale kolom</strong>. Het <strong>periodenummer</strong> geeft het <strong>aantal bezette schillen</strong>; het <strong>groepsnummer</strong> van een hoofdgroep geeft het <strong>aantal valentie-elektronen</strong>, de elektronen in de buitenste schil. Het aantal valentie-elektronen van een <strong>hoofdgroepelement lees je dus af aan het groepsnummer en niet aan het periodenummer</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een element in <strong>groep 2 en periode 4</strong> heeft dus <strong>twee valentie-elektronen en vier bezette schillen</strong>. Omgekeerd kan je uit die twee gegevens ook opzoeken welk element het is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je vult de schillen van binnen naar buiten. In de <strong>eerste schil</strong> passen <strong>2</strong> elektronen, in de <strong>tweede 8</strong>. De <strong>elektronenconfiguratie</strong> van een natriumatoom, atoomnummer 11, is dus <strong>2, 8, 1</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Links en in het midden</strong> van het systeem staan de <strong>metalen</strong>, <strong>rechtsboven</strong> de <strong>niet-metalen</strong>, en in de <strong>laatste kolom</strong> de <strong>edelgassen</strong>: <strong>helium</strong>, <strong>neon</strong>, <strong>argon</strong> en nog drie zwaardere. <strong>Waterstof</strong> staat vooraan en is er geen. Het <strong>metaalkarakter neemt naar rechts af</strong>, en de <strong>elektronegativiteit</strong>, de gretigheid naar elektronen, neemt naar rechts juist toe."
+    }
+   ]
+  },
+  {
+   "kop": "Waarom elementen reageren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>volle buitenste schil</strong> is de stabiele toestand. Die <strong>bijzonder stabiele elektronenverdeling</strong> heet de <strong>edelgasconfiguratie</strong>. Een atoom met zo'n volle schil is <strong>weinig reactief</strong>, en daarom gaan de edelgassen bijna geen bindingen aan."
+    },
+    {
+     "soort": "tekst",
+     "html": "Alle andere elementen zoeken de kortste weg naar die volle schil. <strong>Groep 1</strong> heeft één valentie-elektron en <strong>staat dat af</strong>; natrium houdt dan 2, 8 over, net de configuratie van neon. <strong>Groep 2</strong> staat er twee af en wordt een ion met lading <strong>2 plus</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>zuurstofatoom</strong> heeft zes valentie-elektronen. Het neemt <strong>liever twee elektronen op dan er zes af te staan</strong>, want <strong>twee opnemen vraagt veel minder dan zes afstaan om de volle schil te bereiken</strong>, en daarom wordt zuurstof een ion met lading <strong>2 min</strong>. Zo kan je uit de plaats in het systeem voorspellen welk ion een element vormt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Elementen in <strong>dezelfde groep lijken sterk op elkaar</strong>, net omdat ze evenveel valentie-elektronen hebben. Het chemische gedrag wordt immers helemaal door de buitenste schil bepaald."
+    },
+    {
+     "soort": "weetje",
+     "html": "Mendelejev liet in zijn eerste tabel plaatsen open voor elementen die nog niet gevonden waren, en voorspelde hun eigenschappen. Toen ze later gevonden werden, klopte zijn voorspelling verrassend goed."
+    }
+   ]
+  },
+  {
+   "kop": "De elektronen op hun plaats",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Uit de <strong>symbolische voorstelling van een atoom</strong>, met zijn <strong>massagetal A</strong> linksboven en zijn <strong>atoomnummer Z</strong> linksonder het symbool, lees je af <strong>hoeveel protonen, neutronen en elektronen</strong> het atoom heeft: Z protonen, in een neutraal atoom ook Z elektronen, en A min Z neutronen. Het atoomnummer zegt je ook <strong>waar in het PSE</strong> het atoom staat."
+    },
+    {
+     "soort": "tekst",
+     "html": "Omgekeerd werkt het ook: krijg je het <strong>aantal van de elementaire deeltjes</strong>, dan kan je de symbolische voorstelling opschrijven en het element in het periodiek systeem terugvinden."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>elektronenconfiguratie volgens Bohr</strong> zegt hoeveel elektronen er op elk <strong>energieniveau</strong> zitten. Je vult van binnen naar buiten: <strong>2</strong> in de eerste schil, dan <strong>8</strong>, dan <strong>8</strong>. Voor de <strong>eerste achttien elementen</strong> moet je dat kunnen noteren."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Atoom</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Atoomnummer</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Configuratie</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">waterstof H</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zuurstof O</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">8</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2, 6</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">natrium Na</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">11</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2, 8, 1</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zwavel S</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">16</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2, 8, 6</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">argon Ar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">18</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2, 8, 8</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Een <strong>zwavelatoom met atoomnummer 16</strong> krijgt dus <strong>2, 8, 6</strong>: eerst twee, dan acht, en de zes die overblijven in de derde schil. Tel altijd na of je uitkomt op het atoomnummer."
+    },
+    {
+     "soort": "tekst",
+     "html": "In het <strong>elektron-stipmodel</strong> zet je <strong>alleen de elektronen van de buitenste schil</strong> als stipjes rond het symbool van het element. Bij zuurstof zijn dat er zes, bij natrium één. De binnenste schillen laat je weg, want <strong>de buitenste bepaalt hoe het atoom reageert</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Met die kennis van het PSE, de bouw van het atoom en de elektronenconfiguratie los je oefeningen op: hoeveel deeltjes zitten erin, welk element is het, en wat doet het liever, elektronen afstaan of opnemen?"
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "In de kern zitten protonen en neutronen, daarrond de elektronen.",
+  "Het atoomnummer Z is het aantal protonen; in een neutraal atoom ook het aantal elektronen.",
+  "Massagetal A min atoomnummer Z is het aantal neutronen.",
+  "Isotopen zijn atomen van hetzelfde element met een ander aantal neutronen.",
+  "Een ion is een atoom dat elektronen afgestaan (positief) of opgenomen (negatief) heeft.",
+  "De elektronenconfiguratie volgens Bohr vult van binnen naar buiten: 2, dan 8, dan 8.",
+  "Zwavel met atoomnummer 16 wordt 2, 8, 6.",
+  "In het elektron-stipmodel zet je alleen de buitenste schil rond het symbool.",
+  "Een periode is een rij, een groep een kolom; het periodenummer geeft het aantal schillen.",
+  "Elementen in dezelfde groep hebben evenveel valentie-elektronen en reageren daarom gelijk.",
+  "Een volle buitenste schil is de stabiele edelgasconfiguratie."
+ ]
+}

@@ -1,0 +1,161 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Biologische feedback en homeostase",
+ "onder": "Hoe een organisme zijn inwendige milieu stabiel houdt: de vier schakels van een feedbacksysteem, en de regeling van de lichaamstemperatuur en de glucosespiegel.",
+ "secties": [
+  {
+   "kop": "Homeostase",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Homeostase</strong> betekent dat een organisme zijn <strong>inwendige milieu binnen nauwe grenzen houdt</strong>, terwijl de omgeving verandert. Het is <strong>geen stilstand</strong>: je lichaamstemperatuur, je glucosegehalte en je bloeddruk schommelen voortdurend een beetje en worden telkens teruggebracht."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een organisme <strong>heeft die regeling nodig om zich te handhaven</strong>, want zijn <strong>cellen werken alleen binnen nauwe grenzen</strong> van temperatuur en samenstelling. Loopt het te ver uit, dan vallen de processen in de cellen stil."
+    },
+    {
+     "soort": "tekst",
+     "html": "De waarde waarrond het lichaam het inwendige milieu houdt, is de <strong>normwaarde</strong>. Voor de lichaamstemperatuur ligt die rond 37 graden. Wijkt de gemeten waarde daarvan af, dan grijpt het systeem in."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zo'n afwijking begint met een <strong>prikkel</strong>: <strong>elke verandering in het inwendige of het uitwendige milieu</strong>. Koude lucht op je huid is een <strong>uitwendige</strong> prikkel, een dalend glucosegehalte in je bloed een <strong>inwendige</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De regeling zelf gebeurt met een <strong>regelsysteem</strong> of <strong>feedbacksysteem</strong>: het <strong>gebruikt het gevolg van een proces om dat proces bij te sturen</strong>. Het <strong>meet</strong>, het <strong>vergelijkt met de normwaarde</strong> en het <strong>stuurt bij</strong>, dag en nacht, ook terwijl je beweegt. Een afwijking hoeft dus niet groot te worden voor het systeem in werking komt, en net daardoor blijft de verstoring klein."
+    }
+   ]
+  },
+  {
+   "kop": "De vier schakels",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Elk feedbacksysteem doorloopt dezelfde weg: <strong>prikkel, receptor, conductor, effector, reactie</strong>. Die reactie verandert de prikkel zelf weer, en zo is de cirkel rond."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Schakel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat ze doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het bij de mens is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">receptor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vangt de prikkel op en zet hem om in een signaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">zintuigcellen, bijvoorbeeld de warmte- en koudereceptoren in de huid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">conductor</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geeft het signaal door</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het zenuwstelsel en de hormonen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">controlecentrum</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vergelijkt met de normwaarde en beslist</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de hersenen en de hersenstam</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">effector</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voert de reactie uit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de spieren en de klieren</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>signaaloverdracht</strong> verloopt op <strong>twee manieren</strong>: <strong>elektrisch via de zenuwbanen</strong> of <strong>chemisch via de hormonen</strong>. Een zenuwsignaal is <strong>snel</strong> en gaat naar een nauwkeurig doel; een hormoon gaat met het bloed mee, werkt <strong>langzamer</strong>, maar bereikt <strong>alle cellen die er gevoelig voor zijn</strong>, en niet alleen de cellen die de zenuwen aanwijzen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op een <strong>schema</strong> van een feedbacksysteem geeft een <strong>pijl</strong> de richting van de invloed. Gaat de pijl van de <strong>huid naar de hersenen</strong>, dan is dat het <strong>signaal van de receptoren naar het controlecentrum</strong>; de pijlen die terugkeren naar de bloedvaten en de klieren zijn de <strong>bevelen aan de effectoren</strong>. Een <strong>minteken</strong> op een pijl betekent dat die invloed <strong>remmend</strong> is, een plusteken dat ze <strong>stimuleert</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Negatieve en positieve feedback",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>negatieve feedback</strong> werkt de reactie de gemeten verandering <strong>tegen</strong>; bij <strong>positieve feedback</strong> <strong>versterkt</strong> ze die juist. De woorden zeggen dus <strong>niets over goed of slecht</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bijna alles wat je lichaam regelt, werkt met <strong>negatieve</strong> feedback: je gaat <strong>zweten</strong> als je temperatuur stijgt, je alvleesklier geeft <strong>insuline</strong> af als je glucosegehalte stijgt, en de <strong>huidmondjes</strong> van een plant gaan dicht bij te veel waterverlies. Telkens duwt de reactie de waarde terug naar de normwaarde."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Positieve</strong> feedback komt veel minder voor en stopt pas als het doel bereikt is. Bij een <strong>bloeding</strong> lokken de eerste stollingsstoffen <strong>nog meer stolling</strong> uit tot de wonde dicht is, en bij een <strong>bevalling</strong> worden de weeën <strong>steeds krachtiger</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De lichaamstemperatuur",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De receptoren die meten of je het warm of koud hebt, zitten <strong>in de huid</strong>: de <strong>warmte- en koudereceptoren</strong>. De huid is het grensvlak met de omgeving. Hun signaal gaat naar de hersenen, die het met de normwaarde vergelijken."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Je hebt het</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat de effectoren doen</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je merkt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">te warm</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de bloedvaten in de huid verwijden, de zweetklieren geven zweet af</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je huid wordt roder en je zweet</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">te koud</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de bloedvaten in de huid vernauwen, de spieren beginnen te rillen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">je huid wordt bleek en koud, je rilt</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Verwijde</strong> bloedvaten brengen meer warm bloed naar de huid, waar de warmte weg kan; <strong>vernauwde</strong> bloedvaten houden het warme bloed in je binnenste, zodat je organen op temperatuur blijven terwijl je handen koud worden. <strong>Rillen</strong> maakt extra warmte met je spieren."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Zweet</strong> koelt je af doordat het <strong>water verdampt en daarvoor warmte van je lichaam opneemt</strong>. In vochtige lucht verdampt zweet slechter, en dan werkt dat koelen minder goed. De <strong>zweetklieren</strong> zijn hier de effector."
+    }
+   ]
+  },
+  {
+   "kop": "De glucosespiegel in het bloed",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>alvleesklier</strong> maakt de <strong>twee hormonen</strong> die elkaar tegenwerken: <strong>insuline</strong> en <strong>glucagon</strong>. Welk van de twee ze afgeeft, hangt af van het glucosegehalte dat ze meet. De <strong>lever</strong> en de <strong>spiercellen</strong> zijn de effectoren."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Het gehalte</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hormoon</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat de lever en de spiercellen doen</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">te hoog, na een maaltijd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">insuline</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">glucose uit het bloed halen en opslaan als glycogeen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">te laag, na een paar uur niet eten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">glucagon</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">glycogeen afbreken en glucose aan het bloed geven</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Glycogeen</strong> is een lange keten van glucosemoleculen. Let op de rolverdeling: het is <strong>insuline</strong> dat de lever glucose laat <strong>opslaan</strong>, en <strong>glucagon</strong> dat het glycogeen weer laat <strong>afbreken</strong>. Zweet voert geen glucose af."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dit is <strong>negatieve feedback</strong>, want de reactie brengt het gehalte telkens <strong>terug naar de normwaarde</strong>: stijgt het, dan volgt een reactie die het doet dalen, en daalt het, dan volgt een reactie die het doet stijgen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>diabetes type 1</strong> maakt de alvleesklier <strong>geen insuline</strong> meer. Het meten gaat nog, maar het <strong>signaal valt weg</strong>: de lever en de spiercellen krijgen geen bevel om glucose op te nemen, en het <strong>gehalte blijft te hoog</strong> staan."
+    }
+   ]
+  },
+  {
+   "kop": "Nog drie feedbacksystemen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Drie andere voorbeelden, en ze werken met dezelfde schakels."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>bloeddruk</strong>: <strong>receptoren in de wand van grote bloedvaten</strong> meten de druk, de <strong>hersenstam</strong> is het controlecentrum, en het <strong>hart en de bloedvaten</strong> zijn de effectoren. Bij een te hoge druk <strong>vertraagt het hart en verwijden de bloedvaten</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>hartritme bij stress</strong>: je hartritme <strong>versnelt</strong>, zodat je <strong>spieren meer zuurstof en glucose krijgen</strong> en je lichaam klaar is om te handelen. Het vertraagt dus niet om energie te sparen. Is de stress voorbij, dan brengt het lichaam het ritme weer naar zijn normwaarde."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>waterhuishouding bij planten</strong>: dreigt een plant te veel water te verliezen, dan <strong>sluit ze haar huidmondjes</strong>. Ook dat is negatieve feedback: het waterverlies is de prikkel, de huidmondjes zijn de effector, en door te sluiten gaat het verlies naar beneden."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een koortsthermometer meet niet of je ziek bent, maar of je lichaam zijn normwaarde <em>zelf</em> hoger gezet heeft. Bij koorts stuurt je lichaam even naar een andere waarde toe, en daarom heb je het koud terwijl je temperatuur stijgt."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Homeostase: het inwendige milieu binnen nauwe grenzen houden terwijl de omgeving verandert.",
+  "De normwaarde is de waarde waarrond het systeem regelt; voor de temperatuur rond 37 graden.",
+  "Een prikkel is elke verandering in het inwendige of het uitwendige milieu.",
+  "Een feedbacksysteem meet, vergelijkt met de normwaarde en stuurt bij.",
+  "De weg: prikkel, receptor, conductor, effector, reactie.",
+  "Receptoren zijn zintuigcellen, conductoren het zenuwstelsel en de hormonen, effectoren de spieren en de klieren.",
+  "De hersenen en de hersenstam zijn het controlecentrum.",
+  "Signaaloverdracht: elektrisch via de zenuwbanen of chemisch via de hormonen.",
+  "Op een schema betekent een minteken een remmende invloed, een plusteken een stimulerende.",
+  "Negatieve feedback werkt de verandering tegen, positieve feedback versterkt ze.",
+  "Positieve feedback: bloedstolling en de weeën bij een bevalling.",
+  "Te warm: bloedvaten verwijden, zweetklieren geven zweet af. Te koud: vernauwen en rillen.",
+  "Zweet koelt doordat het verdampt en daarvoor warmte van je lichaam opneemt.",
+  "Insuline laat de lever glucose opslaan als glycogeen; glucagon laat glycogeen afbreken.",
+  "De alvleesklier maakt beide hormonen; de lever en de spiercellen zijn de effectoren.",
+  "Bij diabetes type 1 valt het signaal insuline weg en blijft het glucosegehalte te hoog.",
+  "Bloeddruk: receptoren in de vaatwand, de hersenstam, het hart en de bloedvaten.",
+  "Bij stress versnelt je hartritme; een plant sluit haar huidmondjes bij waterverlies."
+ ]
+}

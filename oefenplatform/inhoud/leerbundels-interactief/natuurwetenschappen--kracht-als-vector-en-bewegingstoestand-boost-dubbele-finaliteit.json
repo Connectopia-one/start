@@ -1,0 +1,167 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Kracht als vector en bewegingstoestand",
+ "onder": "De vier kenmerken van een kracht, het samenstellen van krachtvectoren, de bewegingstoestand van een lichaam en de traagheid in het verkeer.",
+ "secties": [
+  {
+   "kop": "Een kracht tekenen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>kracht</strong> is een <strong>vectoriële grootheid</strong>. Ze heeft dus niet alleen een getal, maar <strong>vier kenmerken</strong>: een <strong>grootte</strong>, een <strong>richting</strong>, een <strong>zin</strong> en een <strong>aangrijpingspunt</strong>. De eenheid van kracht is de <strong>newton</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je stelt een kracht voor <strong>met een pijl die in het aangrijpingspunt begint</strong>. De <strong>lengte</strong> van de pijl geeft de grootte, de <strong>lijn</strong> waarop ze ligt de richting, en de <strong>punt</strong> de zin. Twee krachten van tien newton kunnen elkaar opheffen of samen twintig newton geven: dat hangt af van hun zin."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een voorbeeld moet je <strong>alle krachten</strong> die op een voorwerp werken kunnen tekenen en met het <strong>juiste symbool</strong> benoemen, en daarbij rekening houden met de <strong>bewegingstoestand</strong>: ligt het voorwerp in <strong>rust</strong>, beweegt het met een <strong>constante snelheid</strong>, <strong>versnelt</strong> het of <strong>vertraagt</strong> het? De grootte van je pijlen moet daarbij passen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>dynamometer</strong> of krachtmeter meet de grootte van een kracht rechtstreeks, in newton."
+    }
+   ]
+  },
+  {
+   "kop": "De soorten krachten en de resulterende kracht",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>kracht</strong> is een <strong>vectoriële grootheid</strong> met een grootte, een richting, een zin en een aangrijpingspunt. De eenheid is de <strong>newton</strong>: één newton doet een massa van één kilogram één meter per seconde kwadraat versnellen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort kracht</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar ze van komt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Zwaartekracht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de aarde trekt het voorwerp naar haar middelpunt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Normaalkracht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een oppervlak duwt loodrecht terug</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Wrijvingskracht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">tegenwerking bij schuiven of rollen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Veerkracht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een uitgerekte of ingedrukte veer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Spankracht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gespannen koord of kabel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Motorkracht</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een motor die duwt of trekt</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>resulterende kracht</strong> die niet nul is, verandert de <strong>bewegingstoestand</strong>, en dat kan op drie manieren: <strong>versnellen</strong>, <strong>vertragen</strong> of <strong>van richting veranderen</strong>. De massa van een voorwerp verandert niet door een kracht."
+    },
+    {
+     "soort": "tekst",
+     "html": "Omgekeerd: een voorwerp dat <strong>stilstaat of met een constante snelheid in een rechte lijn beweegt</strong>, heeft een <strong>resulterende kracht van nul</strong>. Dat heet een <strong>krachtenbalans</strong>. Een boek op een tafel heeft de zwaartekracht naar beneden en de normaalkracht naar boven, precies even groot."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>parachutist</strong> die met constante snelheid valt, heeft een <strong>luchtweerstand die even groot is als de zwaartekracht</strong>. Die snelheid heet de eindsnelheid. Een auto die <strong>remt</strong> heeft een resulterende kracht <strong>tegengesteld aan de beweging</strong>. Een <strong>kist op een helling</strong> die niet wegschuift, wordt tegengehouden door de <strong>wrijvingskracht</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Rust, constante snelheid, versnellen of vertragen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Staat een <strong>kist stil op de vloer</strong>, dan is de <strong>resulterende kracht nul newton</strong>: de <strong>zwaartekracht en de normaalkracht heffen elkaar op</strong>. Hetzelfde geldt voor een boek op een tafel. Dat is het <strong>traagheidsbeginsel</strong>: een voorwerp <strong>blijft in rust of beweegt rechtdoor met een constante snelheid zolang de resulterende kracht nul is</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een kracht is dus <strong>niet nodig om een beweging aan te houden</strong>, alleen om ze te <strong>veranderen</strong>. Een voorwerp dat <strong>vertraagt</strong>, heeft dus wél een kracht op zich: een resulterende kracht <strong>tegen de beweging in</strong>. Bij een auto die remt is dat de wrijvingskracht van de remmen en van de weg."
+    },
+    {
+     "soort": "tekst",
+     "html": "Die drie veranderingen samen noemen we de <strong>dynamische effecten</strong> van een resulterende kracht: <strong>versnellen</strong>, <strong>vertragen</strong> en <strong>van richting veranderen</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Krachten samenstellen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>resultante</strong> is de ene kracht die hetzelfde effect heeft als alle krachten samen. Werken twee krachten in <strong>dezelfde richting en zin</strong>, dan <strong>tel je hun groottes op</strong>: 30 en 40 newton geven <strong>70 newton</strong>. Bij <strong>tegengestelde zin</strong> trek je ze van elkaar af; gelijke groottes geven dan <strong>nul</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Maken twee krachten een <strong>hoek van 90 graden</strong>, dan gebruik je de <strong>stelling van Pythagoras</strong>: 30 en 40 newton geven <strong>50 newton</strong>, want de wortel uit 900 plus 1600 is 50."
+    }
+   ]
+  },
+  {
+   "kop": "Rekenen met krachten op één lijn",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op <strong>één lijn en in dezelfde zin</strong> tel je de grootten op. Duwen twee mensen een kast in dezelfde zin, de een met <strong>80</strong> en de ander met <strong>50 newton</strong>, dan is de resulterende kracht <strong>130 newton</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op <strong>één lijn maar in tegengestelde zin</strong> trek je ze van elkaar af, en de <strong>zin van de grootste</strong> wint. Werken er <strong>60</strong> en <strong>25 newton</strong> tegen elkaar in, dan blijft er <strong>35 newton</strong> over. Zijn ze <strong>precies even groot</strong>, dan is de resulterende kracht <strong>nul</strong>, en niet het dubbele."
+    }
+   ]
+  },
+  {
+   "kop": "Zwaartekracht, massa en gewicht",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>zwaartekracht</strong> is de kracht waarmee de aarde aan een voorwerp trekt. Ze is een <strong>veldkracht</strong>: ze werkt <strong>zonder contact</strong>. Een <strong>normaalkracht</strong> of een <strong>wrijvingskracht</strong> heeft wel contact nodig."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Massa</strong> is de <strong>hoeveelheid materie</strong> en blijft overal dezelfde, ook op de maan. <strong>Gewicht</strong> is een <strong>kracht</strong> en meet je in <strong>newton</strong>, niet in kilogram; op de maan is je gewicht zes keer kleiner. Een <strong>dynamometer</strong> meet een kracht rechtstreeks; het is in de kern een veer met een schaal erop."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zet je de gemeten <strong>zwaartekracht tegenover de massa</strong> in een grafiek, dan krijg je een <strong>rechte door de oorsprong</strong>: de twee zijn <strong>recht evenredig</strong>. Twee keer zoveel massa geeft twee keer zoveel zwaartekracht."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een astronaut die in een <strong>ruimtestation zweeft</strong> is <strong>gewichtloos</strong>, maar niet massaloos: met zijn massa is <strong>niets gebeurd</strong>, ze is <strong>net dezelfde als op aarde</strong>. Het station en de astronaut vallen samen rond de aarde, en daarom voelt hij geen druk van een vloer."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het punt waarin je de <strong>hele zwaartekracht</strong> op een voorwerp laat aangrijpen, is het <strong>zwaartepunt</strong>. Bij een regelmatig voorwerp ligt dat in het midden; bij een onregelmatig voorwerp niet, en net daarom kipt het sneller om."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>veerkracht</strong> is de kracht waarmee een veer terugduwt of terugtrekt als je ze indrukt of uitrekt. Ze werkt <strong>tegen de vervorming in</strong>, en laat je de veer los, dan brengt die kracht ze terug naar haar oorspronkelijke lengte."
+    }
+   ]
+  },
+  {
+   "kop": "Traagheid in het verkeer",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>lading van een vrachtwagen</strong> moet goed vastgemaakt worden omdat ze <strong>door haar traagheid bij het remmen doorschuift</strong>. Zonder kracht gaat die lading verder met de snelheid die ze had, tot iets haar tegenhoudt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>vrachtwagen en een auto die met dezelfde snelheid rijden, hebben niet dezelfde remkracht nodig</strong>. De vrachtwagen heeft veel meer massa en dus veel meer traagheid: om hem op dezelfde afstand tot stilstand te brengen is een <strong>veel grotere remkracht</strong> nodig."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>remafstand</strong> hangt af van de <strong>snelheid</strong> en van de <strong>wrijvingskracht</strong>. Op een <strong>natte weg</strong> is de wrijvingskracht tussen de band en het wegdek <strong>kleiner</strong>, dus vertraagt de auto minder hard en wordt de remweg langer. Bij een hogere snelheid loopt die afstand nog veel sneller op."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op een <strong>vliegtuig in de lucht</strong> werken de <strong>stuwkracht</strong> van de motoren, de <strong>zwaartekracht</strong> naar beneden en de <strong>wrijvingskracht van de lucht</strong>, naast de draagkracht van de vleugels. Een <strong>normaalkracht</strong> is er niet: die bestaat alleen zolang het vliegtuig op een oppervlak rust. Bij een raket is de <strong>stuwkracht</strong> wat hem vooruit laat gaan; bij een auto heet die kracht de <strong>motorkracht</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>kist die stil op een helling staat</strong> en niet wegschuift, wordt tegengehouden door de <strong>wrijvingskracht</strong> tussen de kist en de helling."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een kracht heeft vier kenmerken: grootte, richting, zin en aangrijpingspunt. Eenheid: newton.",
+  "Je tekent een kracht als een pijl die in het aangrijpingspunt begint.",
+  "Soorten krachten: normaalkracht, wrijvingskracht, zwaartekracht, veerkracht, stuwkracht, motorkracht.",
+  "Teken je krachten, let dan op de bewegingstoestand: rust, constante snelheid, versnellen of vertragen.",
+  "Traagheidsbeginsel: in rust of constante snelheid zolang de resulterende kracht nul is.",
+  "Dynamische effecten van een resulterende kracht: versnellen, vertragen, van richting veranderen.",
+  "Op één lijn en dezelfde zin: optellen. Tegengestelde zin: aftrekken, de grootste wint.",
+  "Twee even grote krachten in tegengestelde zin geven samen nul, niet het dubbele.",
+  "Massa is de hoeveelheid materie en blijft overal gelijk; gewicht is een kracht in newton.",
+  "De zwaartekracht is een veldkracht: ze werkt zonder contact.",
+  "Zwaartekracht tegenover massa in een grafiek geeft een rechte door de oorsprong.",
+  "Een dynamometer meet de grootte van een kracht in newton.",
+  "Lading vastmaken: bij het remmen schuift ze door haar traagheid door.",
+  "Meer massa betekent meer traagheid en dus een grotere remkracht.",
+  "Een natte weg geeft minder wrijving en dus een langere remafstand."
+ ]
+}

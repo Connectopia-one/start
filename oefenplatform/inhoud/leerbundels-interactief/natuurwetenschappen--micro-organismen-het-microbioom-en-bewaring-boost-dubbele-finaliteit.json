@@ -1,0 +1,155 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Micro-organismen, het microbioom en bewaring",
+ "onder": "De bouw van bacteriën, virussen, gisten en schimmels, wat ze voor ons doen, en hoe je je ertegen beschermt.",
+ "secties": [
+  {
+   "kop": "De bouw van bacteriën, virussen, gisten en schimmels",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Je moet bacteriën, virussen, schimmels en gisten kunnen onderscheiden op <strong>vier punten</strong>: hun <strong>bouw</strong>, hun <strong>vermenigvuldigingswijze</strong>, hun <strong>voedingswijze</strong> en de <strong>plaatsen waar ze voorkomen</strong>. En om ze op een afbeelding te herkennen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Bouw</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vermeerdert zich door</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bacterie</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eencellig, geen kern, wel een celwand</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">celsplitsing</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gist</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eencellig, met een kern</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">knopvorming</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">schimmel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meercellig, schimmeldraden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sporen, aseksueel of seksueel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">virus</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geen cel, erfelijk materiaal in een eiwitmantel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gastheercel</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Onder de microscoop zie je aan de <strong>vorm</strong> van een bacterie al veel. Ze zijn <strong>bolvormig, staafvormig, kommavormig of spiraalvormig</strong>, en die vormen hebben eigen namen: <strong>kokken</strong>, <strong>bacillen</strong>, <strong>vibrionen</strong> en <strong>spirillen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een bacterie kan je deze onderdelen terugvinden: het <strong>DNA</strong> dat vrij in de cel ligt, een <strong>celmembraan</strong> met daarrond een <strong>celwand</strong>, en daarbij vaak nog een <strong>slijmlaag</strong>, een <strong>plasmide</strong> (een extra ringetje DNA), <strong>pili</strong> en een <strong>zweephaar</strong> om zich te bewegen. Een <strong>echte kern met een kernmembraan heeft ze niet</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een organisme dat <strong>eencellig is, geen kern heeft en zich door celsplitsing vermeerdert, is dus een bacterie</strong>. Een <strong>gist is ook eencellig maar heeft wél een kern</strong>, een <strong>schimmel is meercellig</strong> en bestaat uit <strong>schimmeldraden</strong>, en een virus is geen cel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>virus</strong> bestaat uit <strong>erfelijk materiaal</strong> in een <strong>eiwitmantel of kapsel</strong>, bij sommige soorten met een <strong>enveloppe</strong> en <strong>spikes</strong> errond. Virussen zijn <strong>gastheerafhankelijk</strong>: ze vermeerderen zich alleen binnen in een levende cel. Naar hun gastheer deelt men ze in <strong>dierlijke virussen, plantaardige virussen en bacteriofagen</strong>. Een <strong>bacteriofaag</strong> gebruikt bacteriën als gastheer."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>voedingswijze</strong> zegt waar een micro-organisme zijn energie haalt. <strong>Autotroof</strong> maakt zijn energierijke stoffen zelf, <strong>heterotroof</strong> haalt ze uit andere organismen. <strong>Aeroob</strong> heeft zuurstof nodig, <strong>anaeroob</strong> niet. En de <strong>plaatsen van voorkomen</strong> gaan van je eigen microbioom tot de bodem, het water en de lucht van een heel ecosysteem."
+    },
+    {
+     "soort": "tekst",
+     "html": "Micro-organismen dringen je lichaam binnen <strong>langs de mond, de luchtwegen, de ogen en wondjes in de huid</strong>. De gave huid is een goede barrière, de openingen van je lichaam niet. Daarom sluiten handen wassen, hoesten in je elleboog, en een wondje afdekken net die wegen af."
+    },
+    {
+     "soort": "weetje",
+     "html": "Bacteriofagen worden onderzocht als middel tegen bacteriën die niet meer op antibiotica reageren: je zet dan het ene micro-organisme in tegen het andere."
+    }
+   ]
+  },
+  {
+   "kop": "Bacteriën, gisten en virussen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij de <strong>micro-organismen</strong> horen de <strong>bacteriën</strong>, de <strong>gisten en schimmels</strong> en de <strong>protozoa en eencellige algen</strong>. <strong>Mossen</strong> horen er niet bij, die zijn met het blote oog te zien."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>bacterie heeft een celwand</strong> en <strong>vermeerdert zich door celsplitsing, waarbij één cel in twee gelijke cellen deelt</strong>. Een <strong>gistcel</strong> doet dat anders: bij <strong>knopvorming</strong> vormt ze een <strong>kleine uitstulping die daarna loskomt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>virus</strong> bestaat in zijn eenvoudigste vorm uit <strong>genetisch materiaal met een eiwitmantel eromheen</strong>. Die eiwitjas rond het erfelijk materiaal is dus de <strong>eiwitmantel</strong>. Een virus <strong>vermeerdert zich doordat het een gastheercel nieuwe virusdeeltjes laat maken</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een bacterie heeft als <strong>groeivoorwaarden voedsel, vocht en een geschikte temperatuur</strong> nodig. Een <strong>bacteriekweek groeit niet van het begin af even snel</strong>: eerst komt ze traag op gang, dan volgt een snelle fase, en daarna valt de groei stil. Vormt een bacterie een <strong>spore</strong>, dan doet ze dat <strong>om een periode met slechte omstandigheden te overleven</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Woord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Anaëroob</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het organisme kan leven zonder zuurstofgas</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Aëroob</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het heeft juist zuurstofgas nodig</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Autotroof</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het maakt zijn eigen energierijke stoffen, bijvoorbeeld uit licht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Heterotroof</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het haalt zijn energierijke stoffen uit andere organismen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>autotroof organisme haalt zijn energierijke stoffen dus niet uit andere organismen</strong>; dat doet een heterotroof organisme."
+    }
+   ]
+  },
+  {
+   "kop": "Micro-organismen in de keuken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Bakkersgist laat brood rijzen</strong>. Micro-organismen spelen ook een rol bij <strong>yoghurt</strong>, <strong>zuurkool</strong> en <strong>schimmelkaas</strong>; bij <strong>gekookt water</strong> niet. <strong>Melkzuurbacteriën maken melk zuur en dik, en zo ontstaat yoghurt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>gist</strong> is geschikt om <strong>bier te brouwen</strong> omdat ze <strong>suikers zonder zuurstofgas omzet in alcohol en koolstofdioxide</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Bewaren</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het doet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Pasteuriseren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het product wordt kort verhit zodat de meeste micro-organismen sterven</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Drogen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het water gaat eruit, zodat micro-organismen niet meer kunnen groeien</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Inmaken in zuur of zout</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de meeste micro-organismen kunnen in die omstandigheden niet groeien</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Invriezen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de groei valt stil zolang het product koud blijft</td></tr></table>"
+    },
+    {
+     "soort": "weetje",
+     "html": "Pasteuriseren maakt melk dus niet steriel. Daarom moet ze in de koelkast en blijft ze maar een week of zo goed."
+    }
+   ]
+  },
+  {
+   "kop": "Ziekte en afweer",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>antibioticum werkt op bacteriën</strong>. Daarom werkt het <strong>niet tegen griep: griep wordt veroorzaakt door een virus</strong>. Een <strong>schimmelinfectie behandel je ook niet met een antibioticum</strong>, maar met een <strong>antimycoticum</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Antibioticaresistentie</strong> ontstaat doordat de <strong>bacteriën die het middel overleven zich verder vermenigvuldigen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>vaccin laat het afweersysteem oefenen, zodat je later sneller reageert</strong>. Het doodt dus niet wat er nu in je lichaam zit."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Handen wassen</strong> en andere hygiënemaatregelen zijn zo doeltreffend omdat ze <strong>de weg waarlangs ziekteverwekkers zich verspreiden onderbreken</strong>. Ze doden niet alle bacteriën en ze vervangen geen vaccinatie."
+    }
+   ]
+  },
+  {
+   "kop": "Micro-organismen in de natuur en in ons lichaam",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Micro-organismen <strong>breken dood materiaal af bij het composteren</strong>, ze <strong>zuiveren water in een waterzuiveringsinstallatie</strong> en ze <strong>helpen planten aan stikstof via mycorrhiza</strong>. Bladgroen hebben ze daarbij niet nodig."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>zelfzuiverende capaciteit van een waterloop komt wel van micro-organismen</strong>, niet enkel van de stroming. Raakt het water <strong>overbemest</strong>, dan krijg je <strong>eutrofiëring</strong>: <strong>algen bloeien op en het zuurstofgehalte daalt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het geheel van micro-organismen in je darm is je <strong>darmmicrobioom</strong>. Bij een <strong>microbioomtransplantatie</strong> worden <strong>darmbacteriën van een gezonde donor naar een patiënt overgebracht</strong>. <strong>Probiotica</strong> zijn <strong>levende micro-organismen die je inneemt om je microbioom te ondersteunen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Over het <strong>huidmicrobioom</strong>: het <strong>bestaat uit micro-organismen die normaal op je huid leven</strong>, het <strong>houdt ziekteverwekkers mee op afstand</strong> en het <strong>hoort bij een gezonde huid</strong>. Je moet het dus <strong>niet zo volledig mogelijk wegwassen</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Bacterie: eencellig, geen kern, wel een celwand, vermeerdert zich door celsplitsing.",
+  "Gist: eencellig met een kern, door knopvorming. Schimmel: meercellig, schimmeldraden.",
+  "Bacterievormen: kokken bolvormig, bacillen staafvormig, vibrionen kommavormig, spirillen spiraalvormig.",
+  "Een bacterie kan ook een slijmlaag, een plasmide, pili en een zweephaar hebben.",
+  "Een virus is erfelijk materiaal in een eiwitmantel, soms met enveloppe en spikes.",
+  "Virussen naar gastheer: dierlijke, plantaardige en bacteriofagen. Ze vermeerderen zich alleen in een gastheercel.",
+  "Autotroof maakt zijn stoffen zelf, heterotroof niet; aeroob heeft zuurstof nodig, anaeroob niet.",
+  "Micro-organismen komen binnen langs de mond, de luchtwegen, de ogen en wondjes in de huid.",
+  "Een antibioticum werkt op bacteriën, niet op virussen; tegen schimmels gebruik je een antimycoticum.",
+  "Antibioticaresistentie: de bacteriën die het middel overleven, vermeerderen zich verder.",
+  "Een vaccin laat je afweersysteem oefenen zonder dat je eerst ziek wordt.",
+  "Bewaren: koelen, drogen, roken, pasteuriseren, steriliseren, opleggen in zuur, alcohol of suiker, pekelen, uv.",
+  "Je darmmicrobioom en je huidmicrobioom helpen je; overmatige hygiëne en antibiotica verstoren ze."
+ ]
+}

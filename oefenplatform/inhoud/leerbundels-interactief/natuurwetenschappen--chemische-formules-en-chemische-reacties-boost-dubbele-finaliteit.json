@@ -1,0 +1,144 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Chemische formules en chemische reacties",
+ "onder": "Symbolen en formules, de stoffen die je moet kennen, en hoe je een reactievergelijking kloppend maakt.",
+ "secties": [
+  {
+   "kop": "Enkelvoudig en samengesteld",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>enkelvoudige stof</strong> is <strong>een stof die uit maar één soort atomen bestaat</strong>. <strong>Zuurstofgas</strong>, <strong>waterstofgas</strong> en <strong>ozon</strong> zijn dus enkelvoudig; <strong>koolstofdioxide</strong> is samengesteld, want de <strong>formule CO2 bevat twee verschillende elementen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Naast de wetenschappelijke naam heeft een stof vaak een <strong>triviale naam</strong>, de gebruiksnaam: <strong>keukenzout naast natriumchloride</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Symbolen en formules",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Element</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Symbool</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">natrium</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Na</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kalium</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">K</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">koolstof</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">C</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">koper</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Cu</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">goud</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Au</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">magnesium</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Mg</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "In een formule staat de <strong>index</strong> klein achteraan en zegt hoeveel atomen van dat element in één deeltje zitten; de <strong>coëfficiënt</strong> staat vooraan en zegt hoeveel van die deeltjes je neemt. In <strong>3 H2O</strong> is de <strong>index 2 en de coëfficiënt 3</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<p>Atomen tellen in <strong>2 H2SO4</strong>: per deeltje 2 waterstof, 1 zwavel en 4 zuurstof, dat is 7 atomen. Twee van die deeltjes maakt <strong>14</strong> atomen in totaal.</p>"
+    }
+   ]
+  },
+  {
+   "kop": "Metalen en niet-metalen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Typisch voor <strong>metalen</strong>: ze <strong>geleiden elektriciteit goed</strong>, ze <strong>geleiden warmte goed</strong> en ze zijn <strong>vervormbaar</strong>. Ze zijn <strong>bij kamertemperatuur niet altijd een gas</strong>, integendeel: op <strong>kwik</strong> na zijn ze allemaal vast."
+    },
+    {
+     "soort": "tekst",
+     "html": "Over de <strong>niet-metalen</strong>: ze <strong>geleiden elektriciteit slecht</strong>, <strong>veel ervan zijn bij kamertemperatuur een gas</strong> en ze zijn <strong>meestal broos als ze vast zijn</strong>. Ze zijn dus <strong>niet allemaal glanzend en goed vervormbaar</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Stof</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waaraan je ze herkent of waarvoor ze dient</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Koper</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een glanzend, roodbruin metaal dat warmte en elektriciteit uitstekend geleidt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Kwik</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het enige metaal dat bij kamertemperatuur vloeibaar is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Zuurstofgas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">om te lassen, en in de gezondheidszorg bij ademnood</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Chloorgas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een geelgroen gas</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Neon</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">licht op wanneer er stroom door gaat, vandaar de lichtreclame</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Helium</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een edelgas dat zo goed als nergens mee reageert, daarom in ballonnen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Edelgassen reageren dus niet gemakkelijk</strong> met andere stoffen; dat is precies de reden dat men <strong>helium in ballonnen gebruikt en geen waterstofgas</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Grafiet en diamant</strong> zijn allebei uit koolstof opgebouwd en verschillen toch zo sterk omdat de <strong>atomen in een andere structuur aan elkaar zitten</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Ozon</strong> is hoog in de atmosfeer nuttig, want daar houdt het ultraviolet licht tegen. <strong>Vlak boven de grond is het dat niet</strong>: daar is het schadelijk om in te ademen."
+    }
+   ]
+  },
+  {
+   "kop": "Een chemische reactie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>chemische reactie is iets anders dan het mengen van twee stoffen</strong>: <strong>bij een reactie ontstaan er nieuwe stoffen met andere eigenschappen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>reagentia</strong> zijn de <strong>stoffen die links van de pijl staan</strong>, de <strong>reactieproducten</strong> die <strong>rechts van de pijl</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort reactie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat er gebeurt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Synthese</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uit twee of meer stoffen ontstaat één nieuwe stof</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Analyse</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">één stof valt uiteen, zoals water onder invloed van elektrische stroom in waterstofgas en zuurstofgas</td></tr></table>"
+    }
+   ]
+  },
+  {
+   "kop": "Behoud van massa en kloppend maken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>wet van behoud van massa</strong> zegt: de <strong>totale massa voor en na een reactie is gelijk</strong>. Verbrand je <strong>magnesium in een afgesloten vat</strong> en weeg je opnieuw, dan is de <strong>totale massa in het vat gelijk gebleven</strong>. Bij een <strong>verbranding in een open schaal lijkt de massa van het vaste overblijfsel soms te dalen omdat er gassen ontsnappen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je maakt een reactievergelijking kloppend door het <strong>aantal atomen van elk element links en rechts gelijk te maken</strong>, <strong>omdat atomen bij een reactie niet verdwijnen of ontstaan</strong>. Daarbij mag je <strong>de index in een formule niet aanpassen</strong>, alleen de coëfficiënt ervoor."
+    },
+    {
+     "soort": "kader",
+     "html": "<p>H2 + O2 geeft H2O wordt kloppend als <strong>2 H2 + O2 geeft 2 H2O</strong>: links 4 waterstof en 2 zuurstof, rechts ook.</p>"
+    },
+    {
+     "soort": "tekst",
+     "html": "In <strong>2 Mg + O2 geeft 2 MgO</strong> geldt: <strong>links en rechts staan twee magnesiumatomen</strong>, <strong>links en rechts staan twee zuurstofatomen</strong> en <strong>magnesium en zuurstofgas zijn de reagentia</strong>. Er ontstaat <strong>maar één reactieproduct</strong>, geen twee."
+    }
+   ]
+  },
+  {
+   "kop": "Energie bij een reactie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De hoeveelheid energie die bij een reactie opgenomen of afgestaan wordt, is de <strong>reactie-energie</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort reactie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat je merkt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Exo-energetisch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de reactie staat energie af aan de omgeving; het wordt warmer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Endo-energetisch</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de reactie neemt energie op uit haar omgeving; het wordt kouder</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Voelt de <strong>beker duidelijk kouder aan</strong>, dan is de <strong>reactie endo-energetisch en neemt ze warmte op</strong>. Een <strong>reactie die licht uitzendt is niet endo-energetisch</strong> maar exo-energetisch: ze geeft energie af."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een chemische reactie kunnen <strong>warmte</strong>, <strong>licht</strong> en <strong>elektrische energie</strong> vrijkomen. <strong>Massa</strong> is geen vorm van energie die vrijkomt; die blijft net bewaard."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op een <strong>energiediagram</strong> staan <strong>de energie en het verloop van de reactie</strong> op de assen. Bij een <strong>exo-energetische reactie liggen de reactieproducten lager dan de reagentia</strong>."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een handwarmer werkt op precies dat verschil: het knikje laat een exo-energetische kristallisatie beginnen, en het zakje geeft die warmte een half uur lang af."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een enkelvoudige stof bestaat uit maar één soort atomen; CO2 is samengesteld.",
+  "De index zegt hoeveel atomen in één deeltje zitten, de coëfficiënt hoeveel deeltjes je neemt.",
+  "Metalen geleiden elektriciteit en warmte goed en zijn vervormbaar.",
+  "Edelgassen reageren niet gemakkelijk; daarom gebruikt men helium in ballonnen.",
+  "Bij een chemische reactie ontstaan nieuwe stoffen met andere eigenschappen.",
+  "De reagentia staan links van de pijl, de reactieproducten rechts.",
+  "Wet van behoud van massa: de totale massa voor en na een reactie is gelijk.",
+  "Kloppend maken doe je met de coëfficiënten; de index in een formule pas je niet aan.",
+  "Exo-energetisch: energie afgeven, het wordt warmer. Endo-energetisch: energie opnemen, het wordt kouder."
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Energieomzettingen, vermogen en rendement",
+ "onder": "De energievormen en hun eenheden, de energiebalans met haar nuttige en ongewenste energie, en hoe je vermogen en rendement berekent.",
+ "secties": [
+  {
+   "kop": "De energievormen en hun eenheden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Er staan acht <strong>soorten energie</strong> op je lijst: de <strong>gravitationele</strong> energie (door de hoogte van een voorwerp), de <strong>elastische</strong> energie (in een uitgerekte veer of katapult), de <strong>kinetische</strong> energie (doordat iets beweegt), de <strong>chemische</strong> energie (in brandstof en voeding), de <strong>thermische</strong> energie of <strong>warmte</strong>, de <strong>stralingsenergie</strong> (van de zon of een lamp), de <strong>kernenergie</strong> en de <strong>elektrische</strong> energie."
+    },
+    {
+     "soort": "tekst",
+     "html": "De energie die een voorwerp heeft <strong>door zijn hoogte boven de grond</strong> is de <strong>gravitationele potentiële energie</strong>. Hoe hoger en hoe zwaarder, hoe meer. De energie die een voorwerp heeft <strong>omdat het beweegt</strong>, is de <strong>kinetische energie</strong>. Rek je een katapult uit, dan sla je <strong>elastische energie</strong> op."
+    },
+    {
+     "soort": "tekst",
+     "html": "Energie meet je in <strong>joule</strong>, en voor grotere hoeveelheden in <strong>kilojoule</strong>, <strong>kilowattuur</strong> en <strong>kilocalorie</strong>. Een <strong>kilowattuur</strong> is duizend watt gedurende één uur, dus <strong>3 600 000 joule</strong>. Daarom rekent je elektriciteitsfactuur in kilowattuur en niet in joule."
+    },
+    {
+     "soort": "kader",
+     "html": "Een <strong>kilowattuur is energie, geen vermogen</strong>. De watt is het vermogen, de wattuur en de joule zijn de energie. Dat verschil is op het examen al vaak de hele vraag."
+    }
+   ]
+  },
+  {
+   "kop": "Open, gesloten en geïsoleerd",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Of energie een systeem in of uit kan, hangt af van het soort systeem:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Systeem</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wisselt uit met de omgeving</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">open</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">energie én materie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gesloten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">alleen energie, geen materie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geïsoleerd</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">niets van de twee</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>open kookpot</strong> is een open systeem: er gaat warmte weg en er verdwijnt ook waterdamp. Doe je het deksel erop, dan heb je bijna een <strong>gesloten</strong> systeem. Een goede thermosfles komt in de buurt van een <strong>geïsoleerd</strong> systeem, maar helemaal lukt dat nooit."
+    }
+   ]
+  },
+  {
+   "kop": "Energieomzettingen en de energiebalans",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>wet van behoud van energie</strong> zegt dat energie <strong>niet kan verdwijnen</strong>, enkel <strong>van vorm kan veranderen</strong>. Op die wet steunt de <strong>energiebalans</strong>: alles wat erin gaat, komt er ook weer uit, al is het in een andere vorm."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waar</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Welke omzetting</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een vallende steen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gravitationele energie wordt kinetische energie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een lamp op het net</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">elektrische energie wordt stralingsenergie en warmte</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een gasfornuis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">chemische energie wordt thermische energie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een zonnepaneel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stralingsenergie wordt elektrische energie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een windmolen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kinetische energie van de wind wordt elektrische energie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een remmende fiets</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kinetische energie wordt warmte in de rem</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>stroomdiagram</strong> toont hoe de energie bij een omzetting over de vormen verdeeld wordt: één brede pijl gaat erin, en er komen smallere pijlen uit, één per vorm."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij elke omzetting in het dagelijkse leven gaat <strong>een deel van de bruikbare energie naar een minder bruikbare of ongewenste vorm, meestal warmte</strong>. Dat heet <strong>energiedissipatie</strong>. Wat je wél wou, is de <strong>nuttige energie</strong>; de rest is de <strong>niet-nuttige of ongewenste energie</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>gloeilamp</strong> is het licht de nuttige energie en de warmte de ongewenste: het <strong>grootste deel komt als warmte vrij</strong>, dus is haar rendement voor licht laag. Een <strong>ledlamp</strong> geeft bij hetzelfde licht veel minder warmte. Een rem die warm wordt op een afdaling is net hetzelfde verhaal: de wrijving zet de energie van de bewegende fiets om in warmte."
+    },
+    {
+     "soort": "tekst",
+     "html": "Omdat die ongewenste warmte in het systeem blijft, heeft een toestel <strong>koeling of isolatie</strong> nodig. Een <strong>computer</strong> moet gekoeld worden omdat <strong>een deel van de elektrische energie warmte wordt</strong>; zonder ventilator loopt de temperatuur te hoog op. Laat je de deur van een <strong>koelkast</strong> in een afgesloten keuken openstaan, dan <strong>stijgt</strong> de temperatuur in die keuken: de koelkast verplaatst warmte en de motor zet er zelf nog elektrische energie in warmte om."
+    },
+    {
+     "soort": "weetje",
+     "html": "Daarom bestaat er geen koelkast die een kamer koelt. Een airco kan dat alleen omdat ze haar warmte aan de <em>buitenkant</em> van het huis kwijt kan; de keuken met een open koelkast heeft die buitenkant niet."
+    }
+   ]
+  },
+  {
+   "kop": "Vermogen en rendement",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>vermogen</strong> is de <strong>omgezette energie gedeeld door de tijd</strong>, in <strong>watt</strong>: joule per seconde. Een motor die 400 joule omzet in 5 seconden heeft een vermogen van <strong>80 watt</strong>. Een toestel met een <strong>groter vermogen zet in dezelfde tijd meer energie om</strong>, en daarom kookt een waterkoker van 2000 watt sneller dan een van 1000 watt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Omgekeerd: een toestel van <strong>2000 watt</strong> dat een <strong>half uur</strong> aanstaat gebruikt <strong>1 kilowattuur</strong>. Je vermenigvuldigt het vermogen in kilowatt met de tijd in uur, en zo rekent ook je elektriciteitsmeter."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>rendement</strong> is de <strong>nuttige energie gedeeld door de totale energie</strong>, meestal in procent. Van 1000 joule met 250 joule nuttig is het rendement <strong>25 procent</strong>. De <strong>ongewenste energie</strong> is de <strong>totale min de nuttige</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een rendement <strong>boven honderd procent bestaat niet</strong>: er kan nooit meer energie uit komen dan er in gaat. Een lamp die 100 joule krijgt en 5 joule licht geeft, zet de overige <strong>95 joule in warmte</strong> om; bij een gloeilamp is dat het grootste deel, en daarom heeft een <strong>ledlamp een veel beter rendement</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Koken twee waterkokers dezelfde liter water, de ene op 2 en de andere op 4 minuten, dan heeft de <strong>snelste het grootste vermogen</strong>: voor dezelfde energie in de helft van de tijd heb je dubbel het vermogen nodig. Hun rendement kan daarnaast nog verschillen."
+    },
+    {
+     "soort": "weetje",
+     "html": "Ook bij een exotherme reactie moet je vaak eerst energie toevoeren om ze te starten. Een gasvlam moet je aansteken; daarna houdt ze zichzelf gaande met de warmte die ze zelf maakt."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Soorten energie: gravitationele, elastische, kinetische, chemische, thermische, stralings-, kern- en elektrische energie.",
+  "De energie door de hoogte is de gravitationele potentiële energie; door de beweging de kinetische.",
+  "Energie meet je in joule, kilojoule, kilowattuur en kilocalorie. Eén kilowattuur is 3 600 000 joule.",
+  "Een kilowattuur is energie, een watt is vermogen.",
+  "Open systeem: energie en materie. Gesloten: alleen energie. Geïsoleerd: niets van de twee.",
+  "Energie kan niet verdwijnen, enkel van vorm veranderen. Daarop steunt de energiebalans.",
+  "Energiedissipatie: een deel van de energie gaat naar een ongewenste vorm, meestal warmte.",
+  "Nuttige energie is wat je wou, de rest is de ongewenste energie.",
+  "Een stroomdiagram toont hoe de energie bij een omzetting over de vormen verdeeld wordt.",
+  "Koeling en isolatie zijn nodig omdat de ongewenste warmte anders in het systeem blijft.",
+  "Vermogen = omgezette energie gedeeld door de tijd, in watt: P = |ΔE| / Δt.",
+  "Rendement = nuttige energie gedeeld door totale energie. Honderd procent bestaat niet."
+ ]
+}

@@ -1,0 +1,133 @@
+{
+ "vak": "Natuurwetenschappen",
+ "titel": "Warmte, faseovergangen en inwendige energie",
+ "onder": "Het verschil tussen warmte en temperatuur, de warmtebalans, de inwendige energie, en de faseovergangen met hun toepassingen.",
+ "secties": [
+  {
+   "kop": "Warmte en temperatuur",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Temperatuur</strong> zegt hoe warm iets is en hangt samen met de <strong>kinetische energie van de deeltjes</strong>: hoe sneller ze bewegen, hoe hoger de temperatuur. <strong>Warmte</strong> is <strong>energie die overgaat</strong> en meet je in <strong>joule</strong>. Het zijn dus twee verschillende dingen: een bad van 30 graden bevat veel meer warmte dan een kop thee van 60 graden."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Warmte</strong> is de energie die van het ene systeem naar het andere gaat <strong>door een verschil in temperatuur</strong>. Zonder temperatuurverschil gaat er geen warmte over. Warmte zit dus niet in een voorwerp; ze is energie die <strong>onderweg</strong> is. Daarom meet je <strong>temperatuur in graden Celsius</strong> en <strong>warmte in joule</strong>, en zijn het <strong>geen twee woorden voor hetzelfde</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Warmte gaat <strong>altijd van warm naar koud</strong>. <strong>Koude bestaat niet</strong> als iets dat overgaat: ze is alleen een gebrek aan warmte. Het <strong>thermisch evenwicht</strong> is de toestand waarin beide voorwerpen <strong>dezelfde temperatuur</strong> hebben; dan stopt de netto overdracht."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een voorwerp met een <strong>hogere temperatuur bevat niet automatisch meer warmte</strong>: dat hangt ook af van de massa en van de stof. Een kopje thee van 80 graden geeft veel minder warmte af dan een vol bad van 40 graden. Een <strong>thermometer</strong> meet dan ook de <strong>temperatuur</strong>, niet de warmte."
+    },
+    {
+     "soort": "tekst",
+     "html": "In een concrete situatie moet je kunnen zeggen <strong>wie warmte afgeeft en wie ze opneemt</strong>. Leg je een <strong>warm blok metaal in koud water</strong>, dan <strong>geeft het blok warmte af en neemt het water ze op</strong>, tot ze dezelfde temperatuur hebben. Roer je <strong>koude melk in warme koffie</strong>, dan <strong>neemt de melk op wat de koffie afgeeft</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dat laatste is de <strong>warmtebalans</strong>, en die is niets anders dan de <strong>wet van behoud van energie</strong>: wat het ene systeem afgeeft, komt bij het andere terecht. Hebben twee systemen uiteindelijk dezelfde temperatuur en gaat er geen warmte meer over, dan is er <strong>thermisch evenwicht</strong>: een glas water dat al een uur in de kamer staat, een thermometer die niet meer verandert, twee blokken metaal met dezelfde temperatuur tegen elkaar."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wil je de <strong>eindtemperatuur</strong> van een mengsel <strong>berekenen</strong>, dan stel je zo'n <strong>warmtebalans</strong> op: de warmte die het warme deel afgeeft, is de warmte die het koude deel opneemt."
+    }
+   ]
+  },
+  {
+   "kop": "De inwendige energie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De energie die in de <strong>deeltjes van een stof zelf</strong> zit, is de <strong>inwendige energie</strong>. Ze bestaat uit twee delen: de <strong>inwendige kinetische energie</strong> van de bewegende deeltjes, en de <strong>inwendige potentiële energie</strong> die in de krachten tussen de deeltjes zit."
+    },
+    {
+     "soort": "tekst",
+     "html": "Verwarm je een stof <strong>zonder faseovergang</strong>, dan gaan de deeltjes <strong>sneller bewegen</strong>: de inwendige <strong>kinetische</strong> energie stijgt, en dat lees je af op de thermometer. Gebeurt er een <strong>faseovergang</strong>, dan gaat de warmte naar het <strong>losmaken van de deeltjes uit hun plaats</strong>: de inwendige <strong>potentiële</strong> energie stijgt en de <strong>temperatuur blijft gelijk</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De krachten die de deeltjes van een vloeistof bij elkaar houden, zijn de <strong>cohesiekrachten</strong>. Om een vloeistof te laten verdampen moet je die overwinnen, en dat kost veel energie."
+    }
+   ]
+  },
+  {
+   "kop": "De faseovergangen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Overgang</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Van</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Naar</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Warmte</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Smelten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vast</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vloeibaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">neemt op</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Stollen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vloeibaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vast</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geeft af</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Verdampen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vloeibaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">neemt op</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Condenseren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vloeibaar</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geeft af</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Sublimeren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vast</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">neemt op</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Desublimeren</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gas</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vast</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geeft af</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De overgangen naar een toestand met <strong>sterkere cohesiekrachten</strong> (stollen, condenseren, desublimeren) <strong>geven warmte af</strong>; de andere drie <strong>nemen warmte op</strong>. <strong>Cohesiekrachten</strong> zijn de krachten waarmee de deeltjes van een stof elkaar vasthouden; hoe sterker ze zijn, hoe hoger het smelt- en kookpunt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij het <strong>smelten</strong> komen de deeltjes <strong>los uit hun vaste plaats maar blijven ze bij elkaar</strong>; in een vloeistof kunnen ze langs elkaar schuiven. Pas bij <strong>verdampen</strong> laten ze elkaar echt los. <strong>Droogijs</strong> sublimeert bij kamertemperatuur; <strong>rijm</strong> op een koude ochtend ontstaat door desublimeren."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>smeltpunt en het stolpunt</strong> van een zuivere stof liggen bij <strong>dezelfde temperatuur</strong>: alleen de richting verschilt. Water smelt en stolt allebei bij nul graden."
+    }
+   ]
+  },
+  {
+   "kop": "Warmte bij een faseovergang",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij een <strong>faseovergang blijft de temperatuur gelijk</strong>. Alle toegevoerde warmte gaat naar het <strong>verbreken of maken van de bindingen</strong> tussen de deeltjes. Daarom heet ze <strong>latente</strong>, dus verborgen, warmte: je meet er niets van op de thermometer."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom blijft ijs van nul graden <strong>op nul graden</strong> tot al het ijs gesmolten is, en blijft kokend water op <strong>honderd graden</strong> hoe hard je ook stookt; harder stoken maakt alleen dat het sneller leegkookt. In een <strong>smeltcurve</strong> zie je dat als een <strong>vlak stuk</strong>, precies op het smeltpunt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom kan je je <strong>lelijk verbranden aan stoom van honderd graden</strong>, erger dan aan water van honderd graden: bij het <strong>condenseren op je huid</strong> komt de warmte er weer uit die het water nodig had om te verdampen, en die komt <strong>bovenop</strong> de warmte van het water zelf. Let dus op als je het deksel van een stoomapparaat opent."
+    },
+    {
+     "soort": "tekst",
+     "html": "Hetzelfde mechanisme houdt een drankje koud. Een <strong>ijsblokje</strong> neemt <strong>warmte uit het water op om te kunnen smelten</strong>, zonder zelf warmer te worden. Zolang er ijs smelt, blijft het mengsel rond nul graden; pas als het laatste blokje weg is, warmt het drankje op. <strong>Koude bestaat niet</strong> als iets dat overgaat."
+    }
+   ]
+  },
+  {
+   "kop": "Warmte in het dagelijkse leven",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Water</strong> gedraagt zich bijzonder: het <strong>neemt veel warmte op zonder snel op te warmen</strong>. Daarom is het een <strong>goede koelvloeistof</strong> in een motor, en daarom blijft het aan de <strong>kust</strong> in de winter zachter dan in het binnenland: het zeewater <strong>geeft zijn warmte traag en lang af</strong>. In september is de zee nog warm terwijl de lucht al afkoelt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wie zijn <strong>buitenmuren en dak isoleert</strong>, zorgt dat hij <strong>minder warmte verliest en dus minder moet verwarmen</strong>. Isolatie vertraagt het weglopen van de warmte naar buiten. <strong>Zweten</strong> doet het omgekeerde: het water op je huid <strong>verdampt en neemt daarvoor warmte van je lichaam op</strong>, en zo koel je af. In vochtige lucht verdampt zweet slechter, en dus koel je minder goed af."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee toepassingen die op het eerste gezicht vreemd lijken. <strong>Fruitboeren beregenen hun bomen</strong> als er nachtvorst op weg is, omdat <strong>water bij het bevriezen warmte afgeeft</strong> aan de knoppen en ze zo rond nul graden houdt. En een <strong>brandwonde</strong> houd je onder <strong>koud stromend water</strong>, omdat dat water de <strong>warmte uit de huid blijft wegnemen</strong>; koude breng je niet binnen, warmte voer je af."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Temperatuur hangt samen met de beweging van de deeltjes en meet je in graden Celsius.",
+  "Warmte is energie die overgaat door een temperatuurverschil, en meet je in joule.",
+  "Warmte gaat altijd van warm naar koud, tot het thermisch evenwicht. Koude bestaat niet.",
+  "Een hogere temperatuur betekent niet meer warmte: de massa en de stof spelen mee.",
+  "De warmtebalans is de wet van behoud van energie: wat het ene afgeeft, neemt het andere op.",
+  "Inwendige energie = inwendige kinetische energie plus inwendige potentiële energie.",
+  "Verwarmen zonder faseovergang: de deeltjes bewegen sneller en de temperatuur stijgt.",
+  "Bij een faseovergang stijgt de potentiële energie en blijft de temperatuur gelijk.",
+  "Cohesiekrachten houden de deeltjes van een vloeistof bij elkaar.",
+  "Stollen, condenseren en desublimeren geven warmte af; smelten, verdampen en sublimeren nemen op.",
+  "Het smeltpunt en het stolpunt van een zuivere stof liggen op dezelfde temperatuur.",
+  "Stoom verbrandt erger dan water van honderd graden, want bij condenseren komt er warmte vrij.",
+  "Water neemt veel warmte op zonder snel op te warmen: goede koelvloeistof, zacht zeeklimaat.",
+  "Zweten koelt doordat het verdampen warmte uit je huid haalt.",
+  "Beregenen beschermt tegen nachtvorst, want bevriezend water geeft warmte af."
+ ]
+}
