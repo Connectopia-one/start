@@ -84,5 +84,15 @@
    ]
   }
  ],
- "onthoud": []
+ "onthoud": [
+  "Voor de vergelijking van een rechte heb je een punt en een richtingsvector nodig.",
+  "Een rechte in de ruimte heeft twee cartesische vergelijkingen, in het vlak precies één.",
+  "Een vlak ligt vast door drie punten die niet op eenzelfde rechte liggen.",
+  "Cartesische vergelijking van een vlak: a maal x plus b maal y plus c maal z plus d is nul.",
+  "De coëfficiënten van x, y en z vormen samen een normaalvector van dat vlak.",
+  "Kruisende rechten zijn niet evenwijdig en hebben toch geen snijpunt.",
+  "Twee vlakken zijn evenwijdig als hun normaalvectoren veelvouden van elkaar zijn.",
+  "De afstand van een punt tot een vlak meet je langs de loodlijn uit dat punt op het vlak.",
+  "De hoek tussen twee vlakken is de scherpe hoek tussen hun normaalvectoren."
+ ]
 }

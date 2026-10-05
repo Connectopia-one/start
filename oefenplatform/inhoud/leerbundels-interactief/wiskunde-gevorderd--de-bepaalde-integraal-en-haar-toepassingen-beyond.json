@@ -106,5 +106,15 @@
    ]
   }
  ],
- "onthoud": []
+ "onthoud": [
+  "Een Riemannsom is de som van de oppervlakten van rechthoekjes onder een grafiek.",
+  "De ondersom is het kleinst en de bovensom het grootst; de echte oppervlakte ligt ertussen.",
+  "De bepaalde integraal geeft de georiënteerde oppervlakte: onder de x-as telt ze negatief mee.",
+  "Verwissel je de twee grenzen, dan wisselt het resultaat van teken.",
+  "De integraal van a tot b is de primitieve in b min de primitieve in a.",
+  "De oppervlakte tussen twee krommen is de integraal van de bovenste functie min de onderste.",
+  "Omwentelingslichaam om de x-as: pi maal de integraal van f tot de tweede macht.",
+  "In de formule voor de booglengte staat onder de wortel één plus de afgeleide in het kwadraat.",
+  "De integraal van de snelheid over de tijd is de verplaatsing, niet de afgelegde weg."
+ ]
 }

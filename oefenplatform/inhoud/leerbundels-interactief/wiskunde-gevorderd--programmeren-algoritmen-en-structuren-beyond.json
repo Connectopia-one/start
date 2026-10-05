@@ -94,5 +94,15 @@
    ]
   }
  ],
- "onthoud": []
+ "onthoud": [
+  "Een algoritme is een stappenplan dat na eindig veel stappen tot een oplossing komt.",
+  "Vier stappen: analyseren, een algoritme ontwerpen, programmeren, en testen en debuggen.",
+  "De bouwstenen zijn variabele, constante, conditie, iteratie en functie.",
+  "Een list is aanpasbaar, een tuple ligt vast, een set bevat elk element maar één keer.",
+  "Elke recursieve functie heeft een stopgeval nodig waarin ze zichzelf niet meer oproept.",
+  "Verdeel-en-heers splitst een probleem in kleinere deelproblemen en voegt de deeloplossingen samen.",
+  "Bij dynamisch programmeren bewaar je tussenresultaten: het kost meer geheugen maar wint tijd.",
+  "Correct is het juiste antwoord voor elke toegelaten invoer; eindig is stoppen na eindig veel stappen.",
+  "Je mag matplotlib, numpy en random gebruiken; andere alleen als de opdracht er uitdrukkelijk een vermeldt."
+ ]
 }

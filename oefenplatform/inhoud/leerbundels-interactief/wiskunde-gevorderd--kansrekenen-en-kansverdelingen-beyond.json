@@ -100,5 +100,15 @@
    ]
   }
  ],
- "onthoud": []
+ "onthoud": [
+  "Laplace: de kans is het aantal gunstige gedeeld door het aantal mogelijke uitkomsten.",
+  "Een kans ligt altijd tussen nul en één.",
+  "In een kansboom vermenigvuldig je de kansen langs één pad en tel je verschillende paden op.",
+  "Een voorwaardelijke kans is de kans op A als je al weet dat B gebeurd is.",
+  "De kans op minstens één succes is één min de kans op nul successen.",
+  "Een discrete kansvariabele neemt losse waarden aan, een continue elke waarde in een interval.",
+  "De verwachtingswaarde is het gemiddelde op lange termijn en hoeft zelf geen mogelijke uitkomst te zijn.",
+  "Binomiaal verdeeld: een vast aantal onafhankelijke pogingen met telkens dezelfde slaagkans.",
+  "De binomiale verwachtingswaarde is het aantal pogingen maal de kans per poging."
+ ]
 }

@@ -100,5 +100,15 @@
    ]
   }
  ],
- "onthoud": []
+ "onthoud": [
+  "Een matrix van dimensie drie bij vier heeft drie rijen en vier kolommen.",
+  "Twee matrices optellen kan alleen als ze precies dezelfde dimensie hebben.",
+  "A maal B bestaat als het aantal kolommen van A gelijk is aan het aantal rijen van B.",
+  "Het vermenigvuldigen van matrices is niet commutatief.",
+  "De eenheidsmatrix is het neutraal element voor de vermenigvuldiging van vierkante matrices.",
+  "De getransponeerde van A maal B is de getransponeerde van B maal de getransponeerde van A.",
+  "Determinant van orde twee: het product van de hoofddiagonaal min het product van de andere diagonaal.",
+  "Een vierkante matrix is inverteerbaar als haar determinant verschillend is van nul.",
+  "De rang is het aantal rijen dat niet nul is in de rijcanonieke vorm."
+ ]
 }

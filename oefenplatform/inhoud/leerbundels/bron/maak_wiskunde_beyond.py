@@ -133,6 +133,17 @@ BUNDELS["machtswortels-machten-en-logaritmen-beyond"] = dict(
                   "het getal waarvan je de logaritme zoekt staat boven, het oude grondtal onder."),
         ]),
     ],
+    onthoud=[
+        "Elk getal behalve nul tot de macht nul is één.",
+        "Een negatieve exponent betekent omkeren: twee tot de macht min drie is één achtste.",
+        "Een macht verdeelt zich over een product en een quotiënt, nooit over een som.",
+        "a tot de macht m op n is de n-de machtswortel uit a tot de macht m.",
+        "De n-de machtswortel uit een negatief getal bestaat in R alleen als n oneven is.",
+        "De vierkantswortel uit vijftig is vijf keer de vierkantswortel uit twee.",
+        "De logaritme van x met grondtal a is de exponent waartoe je a verheft om x te krijgen.",
+        "Zonder grondtal bedoelt men grondtal tien; ln heeft grondtal e, ongeveer 2,718.",
+        "Veranderen van grondtal: de logaritme van x gedeeld door de logaritme van a.",
+    ],
 )
 
 # ───────────────────────── 2. Veeltermen, deelbaarheid en Horner
@@ -238,6 +249,17 @@ BUNDELS["veeltermen-deelbaarheid-en-horner-beyond"] = dict(
                        "staan, want die heeft geen reële nulwaarden."),
         ]),
     ],
+    onthoud=[
+        "Deeltal is deler maal quotiënt plus rest.",
+        "De graad van de rest is kleiner dan die van de deler.",
+        "De rest bij de deling van P door x min a is gelijk aan P van a.",
+        "Is de waarde van P in a nul, dan is x min a een deler van P.",
+        "Horner werkt alleen bij een deler x min a; bij x plus drie zet je min drie links.",
+        "Bovenaan in Horner staan alle coëfficiënten; een ontbrekende graad schrijf je als nul.",
+        "Een veelterm van graad n heeft hoogstens n reële nulwaarden.",
+        "Zoek een gehele nulwaarde eerst bij de delers van de constante term.",
+        "a kwadraat min b kwadraat is a min b, maal a plus b.",
+    ],
 )
 
 # ───────────────────────── 3. Vergelijkingen en ongelijkheden oplossen
@@ -340,6 +362,17 @@ BUNDELS["vergelijkingen-en-ongelijkheden-oplossen-beyond"] = dict(
                       "zomaar met x</strong>, want het teken van x is niet gekend: is x negatief, dan moet "
                       "het teken omdraaien, en is x nul, dan klopt er niets meer."),
         ]),
+    ],
+    onthoud=[
+        "Bij f van x is g van x is de oplossing de x van het snijpunt, niet de y.",
+        "Wat onder een even wortel staat mag niet negatief zijn; het argument van een logaritme moet strikt positief zijn.",
+        "Na het kwadrateren controleer je elke oplossing in de oorspronkelijke vergelijking.",
+        "De discriminant: positief geeft twee oplossingen, nul geeft er één, negatief geen enkele.",
+        "Deel nooit beide leden door een uitdrukking met x in.",
+        "f van x groter dan nul betekent dat de grafiek boven de horizontale as ligt.",
+        "Breng bij een tweedegraadsongelijkheid eerst alles naar één lid zodat er nul overblijft.",
+        "Bij een positieve a is de functie negatief tussen de twee nulwaarden in.",
+        "Deel je beide leden door een negatief getal, dan draait het ongelijkheidsteken om.",
     ],
 )
 
@@ -445,6 +478,17 @@ BUNDELS["een-functie-aflezen-van-haar-grafiek-beyond"] = dict(
                        "een functie."),
         ]),
     ],
+    onthoud=[
+        "Het domein zijn alle x-waarden waarvoor de functie bestaat, het bereik alle functiewaarden die ze aanneemt.",
+        "Een verticale rechte mag de grafiek van een functie hoogstens één keer snijden.",
+        "Een nulwaarde is een getal, een nulpunt is een punt op de grafiek.",
+        "Een even functie is symmetrisch om de verticale as, een oneven functie om de oorsprong.",
+        "Een buigpunt is het punt waar hol in bol overgaat.",
+        "Een plaatselijk maximum is enkel de hoogste waarde in zijn eigen omgeving.",
+        "Bij een horizontale asymptoot nadert de grafiek op oneindig een vaste hoogte.",
+        "De inverse functie vind je door x en y te verwisselen en naar y op te lossen.",
+        "Een functie en haar inverse zijn elkaars spiegelbeeld om de eerste bissectrice, y is gelijk aan x.",
+    ],
 )
 
 # ───────────────────────── 5. Tweedegraadsfuncties en transformaties
@@ -542,6 +586,17 @@ BUNDELS["tweedegraadsfuncties-en-transformaties-beyond"] = dict(
                        "vlak loopt."),
         ]),
     ],
+    onthoud=[
+        "De grafiek van een tweedegraadsfunctie heet een parabool.",
+        "Is a positief, dan is het een dalparabool; is a negatief, een bergparabool.",
+        "De x van de top is min b gedeeld door twee a; de symmetrieas gaat door de top.",
+        "De discriminant is b kwadraat min vier a c.",
+        "In de topvorm a maal x min p, in het kwadraat, plus q is de top het punt p en q.",
+        "Buiten de haakjes werkt verticaal, binnen de haakjes werkt omgekeerd.",
+        "Min f van x is een spiegeling om de horizontale as.",
+        "Een verticale uitrekking laat de nulwaarden onveranderd.",
+        "Een verticale verschuiving verandert het bereik, maar laat de symmetrieas op haar plaats.",
+    ],
 )
 
 # ───────────────────────── 6. Exponentiële en logaritmische functies
@@ -636,6 +691,17 @@ BUNDELS["exponentiele-en-logaritmische-functies-beyond"] = dict(
                       "geld. En <strong>een groeimodel heeft vaak een praktisch domein</strong>, omdat een "
                       "negatieve tijd meestal geen betekenis heeft."),
         ]),
+    ],
+    onthoud=[
+        "Het domein van a tot de macht x zijn alle reële getallen, het bereik de strikt positieve getallen.",
+        "Is a groter dan één, dan stijgt de functie; ligt a tussen nul en één, dan daalt ze.",
+        "Twee tot de macht x heeft de rechte y is nul als horizontale asymptoot.",
+        "De logaritmische functie heeft als domein de getallen strikt groter dan nul en gaat door het punt één en nul.",
+        "Exponentiële en logaritmische functie met hetzelfde grondtal zijn elkaars spiegelbeeld om de eerste bissectrice.",
+        "Bij een toename van p procent is de groeifactor één plus p gedeeld door honderd.",
+        "Groeifactoren combineer je door te vermenigvuldigen, nooit door op te tellen.",
+        "In het model b maal a tot de macht x is b de beginwaarde.",
+        "De verdubbelingstijd is de tijd die nodig is om twee keer zo groot te worden.",
     ],
 )
 
@@ -736,6 +802,17 @@ BUNDELS["goniometrische-functies-en-goniometrie-beyond"] = dict(
                       "daar klopt, niet dat ze altijd klopt. Een grafiek is een aanwijzing, geen bewijs."),
         ]),
     ],
+    onthoud=[
+        "De som van de hoeken in een driehoek is honderdtachtig graden.",
+        "Ken je een zijde met haar overstaande hoek, dan gebruik je de sinusregel; anders de cosinusregel.",
+        "Cosinusregel: a kwadraat is b kwadraat plus c kwadraat min twee bc maal de cosinus van A.",
+        "Pi radialen is honderdtachtig graden.",
+        "Op de goniometrische cirkel is de cosinus de x-coördinaat en de sinus de y-coördinaat.",
+        "Grondformule: de sinus in het kwadraat plus de cosinus in het kwadraat is één.",
+        "Supplementaire hoeken hebben dezelfde sinus, tegengestelde hoeken dezelfde cosinus.",
+        "In de algemene sinusfunctie is a de amplitude en is de periode twee pi gedeeld door b.",
+        "De sinus van twee x is twee maal de sinus van x maal de cosinus van x.",
+    ],
 )
 
 # ───────────────────────── 8. Limieten, continuïteit en asymptoten
@@ -832,6 +909,17 @@ BUNDELS["limieten-continuiteit-en-asymptoten-beyond"] = dict(
             ("kader", "<strong>Teken asymptoten als stippellijnen</strong>, want ze horen niet bij de "
                       "grafiek. Een asymptoot is een hulplijn die het gedrag beschrijft."),
         ]),
+    ],
+    onthoud=[
+        "Een limiet zegt iets over de buurt van a, niet over a zelf.",
+        "De limiet in een punt bestaat als de linkerlimiet en de rechterlimiet gelijk zijn.",
+        "Bij nul op nul ontbind je en schrap je de gemeenschappelijke factor.",
+        "Op oneindig bepaalt enkel de term met de hoogste graad het gedrag van een veeltermfunctie.",
+        "De regel van de l'Hôpital pas je rechtstreeks toe op nul op nul en op oneindig op oneindig.",
+        "Een functie is continu in a als de functiewaarde in a bestaat en gelijk is aan de limiet daar.",
+        "Een functie die in een punt afleidbaar is, is daar ook continu; omgekeerd niet.",
+        "Een verticale asymptoot hoort bij een pool; je vindt ze door de noemer nul te stellen.",
+        "Bij een schuine asymptoot is het quotiënt van de euclidische deling de vergelijking van de asymptoot.",
     ],
 )
 
@@ -935,6 +1023,17 @@ BUNDELS["afgeleiden-en-het-verloop-van-een-functie-beyond"] = dict(
                        "functiewaarde maar één keer voorkomt."),
         ]),
     ],
+    onthoud=[
+        "Een differentiequotiënt berekent de gemiddelde verandering over een interval.",
+        "De afgeleide in een punt is de richtingscoëfficiënt van de raaklijn in dat punt.",
+        "De afgeleide van x tot de macht n is n maal x tot de macht n min één.",
+        "De afgeleide van een product is niet het product van de afgeleiden.",
+        "Kettingregel: de afgeleide van de buitenste functie maal de afgeleide van de binnenste.",
+        "Waar de functie een vloeiend maximum heeft, snijdt haar afgeleide de x-as.",
+        "Is de afgeleide nul zonder tekenwissel, dan is er geen extremum.",
+        "Buigpunten vind je waar de tweede afgeleide nul is en van teken wisselt.",
+        "De stelling van Rolle eist dat de functiewaarden in de twee uiteinden gelijk zijn.",
+    ],
 )
 
 # ───────────────────────── 10. Rijen en hun limiet
@@ -1029,6 +1128,17 @@ BUNDELS["rijen-en-hun-limiet-beyond"] = dict(
                        "en reden een tiende, en die som is precies één."),
         ]),
     ],
+    onthoud=[
+        "Een rekenkundige rij telt telkens het verschil op, een meetkundige rij vermenigvuldigt telkens met de reden.",
+        "Een recursief voorschrift berekent elke term uit de vorige en heeft een beginterm nodig.",
+        "De n-de term van een rekenkundige rij is de eerste term plus n min één, maal het verschil.",
+        "De som van n termen van een rekenkundige rij is n maal het gemiddelde van de eerste en de laatste term.",
+        "Een rekenkundige rij hoort bij lineaire groei, een meetkundige rij bij exponentiële groei.",
+        "Bij een negatieve reden wisselen de termen van teken: de rij is alternerend.",
+        "Een rij convergeert als haar termen een vast eindig getal naderen.",
+        "De som van een oneindige meetkundige rij is de eerste term gedeeld door één min de reden.",
+        "Die som is alleen eindig als de absolute waarde van de reden kleiner is dan één.",
+    ],
 )
 
 # ───────────────────────── 11. Primitieven en de onbepaalde integraal
@@ -1120,6 +1230,17 @@ BUNDELS["primitieven-en-de-onbepaalde-integraal-beyond"] = dict(
                   "afleiden is eenduidig; opnieuw rekenen herhaalt vaak dezelfde fout. En vergeet de "
                   "<strong>constante</strong> niet: de integraal van vijf dx is vijf x plus een constante."),
         ]),
+    ],
+    onthoud=[
+        "Een primitieve functie van f is een functie waarvan de afgeleide f is.",
+        "Bij een onbepaalde integraal schrijf je altijd plus C, bij een bepaalde integraal niet.",
+        "De primitieve van x tot de macht n is x tot de macht n plus één, gedeeld door n plus één.",
+        "De primitieve van één gedeeld door x is de natuurlijke logaritme van de absolute waarde van x.",
+        "De primitieve van de sinus van x is min de cosinus van x.",
+        "Een constante factor mag voor het integraalteken, een factor met een x erin niet.",
+        "Bij substitutie kies je een binnenste functie waarvan de afgeleide ook in de integrand staat.",
+        "Partiële integratie volgt uit de productregel; vergeet het minteken in de formule niet.",
+        "Controleer een onbepaalde integraal door je antwoord af te leiden.",
     ],
 )
 
@@ -1220,6 +1341,17 @@ BUNDELS["de-bepaalde-integraal-en-haar-toepassingen-beyond"] = dict(
                       "rekenwerk ondersteunt, terwijl je redenering en je tussenstappen op papier staan."),
         ]),
     ],
+    onthoud=[
+        "Een Riemannsom is de som van de oppervlakten van rechthoekjes onder een grafiek.",
+        "De ondersom is het kleinst en de bovensom het grootst; de echte oppervlakte ligt ertussen.",
+        "De bepaalde integraal geeft de georiënteerde oppervlakte: onder de x-as telt ze negatief mee.",
+        "Verwissel je de twee grenzen, dan wisselt het resultaat van teken.",
+        "De integraal van a tot b is de primitieve in b min de primitieve in a.",
+        "De oppervlakte tussen twee krommen is de integraal van de bovenste functie min de onderste.",
+        "Omwentelingslichaam om de x-as: pi maal de integraal van f tot de tweede macht.",
+        "In de formule voor de booglengte staat onder de wortel één plus de afgeleide in het kwadraat.",
+        "De integraal van de snelheid over de tijd is de verplaatsing, niet de afgelegde weg.",
+    ],
 )
 
 # ───────────────────────── 13. Complexe getallen
@@ -1315,6 +1447,17 @@ BUNDELS["complexe-getallen-beyond"] = dict(
                        "nulwaarden</strong>, als je ze met hun multipliciteit telt. Dat is de hoofdstelling "
                        "van de algebra. In de reële getallen kunnen het er minder zijn."),
         ]),
+    ],
+    onthoud=[
+        "De imaginaire eenheid i is het getal waarvan het kwadraat min één is.",
+        "De machten van i herhalen zich om de vier: i, min één, min i, één.",
+        "Bij zeven min twee i is het imaginair deel min twee, zonder de i erbij.",
+        "Het toegevoegde van twee plus drie i is twee min drie i.",
+        "Delen doe je door teller en noemer met de toegevoegde van de noemer te vermenigvuldigen.",
+        "De modulus is de afstand tot de oorsprong, het argument de hoek met de positieve reële as.",
+        "Bij vermenigvuldigen vermenigvuldig je de moduli en tel je de argumenten op.",
+        "Formule van de Moivre: verhef de modulus tot de macht n en vermenigvuldig het argument met n.",
+        "z tot de macht n is a heeft precies n oplossingen, gelijkmatig verdeeld op één cirkel.",
     ],
 )
 
@@ -1416,6 +1559,17 @@ BUNDELS["telproblemen-en-het-binomium-beyond"] = dict(
                       "voor alle n geldt."),
         ]),
     ],
+    onthoud=[
+        "n faculteit is het product van alle natuurlijke getallen van één tot en met n; nul faculteit is één.",
+        "Een permutatie is een rangschikking van alle elementen: vijf boeken kan op honderdtwintig manieren.",
+        "Bij een variatie telt de volgorde mee, bij een combinatie niet.",
+        "Bij een herhalingsvariatie mag een element meer dan één keer voorkomen.",
+        "Of-of betekent optellen, en-en betekent vermenigvuldigen.",
+        "Complementregel: tel de gevallen die niet voldoen en trek dat van het totaal af.",
+        "In de driehoek van Pascal is elk getal de som van de twee getallen schuin erboven.",
+        "De som van rij n van de driehoek van Pascal is twee tot de macht n.",
+        "a plus b in het kwadraat is niet a kwadraat plus b kwadraat: de middelste term twee ab ontbreekt.",
+    ],
 )
 
 # ───────────────────────── 15. Kansrekenen en kansverdelingen
@@ -1507,6 +1661,17 @@ BUNDELS["kansrekenen-en-kansverdelingen-beyond"] = dict(
                       "standaardafwijking berekenen.</strong> Beoordelen of het model past en wat het "
                       "antwoord betekent, blijft jouw werk."),
         ]),
+    ],
+    onthoud=[
+        "Laplace: de kans is het aantal gunstige gedeeld door het aantal mogelijke uitkomsten.",
+        "Een kans ligt altijd tussen nul en één.",
+        "In een kansboom vermenigvuldig je de kansen langs één pad en tel je verschillende paden op.",
+        "Een voorwaardelijke kans is de kans op A als je al weet dat B gebeurd is.",
+        "De kans op minstens één succes is één min de kans op nul successen.",
+        "Een discrete kansvariabele neemt losse waarden aan, een continue elke waarde in een interval.",
+        "De verwachtingswaarde is het gemiddelde op lange termijn en hoeft zelf geen mogelijke uitkomst te zijn.",
+        "Binomiaal verdeeld: een vast aantal onafhankelijke pogingen met telkens dezelfde slaagkans.",
+        "De binomiale verwachtingswaarde is het aantal pogingen maal de kans per poging.",
     ],
 )
 
@@ -1613,6 +1778,17 @@ BUNDELS["statistiek-normale-verdeling-en-hypothesetoets-beyond"] = dict(
                       "niets is: misschien was je steekproef gewoon te klein."),
         ]),
     ],
+    onthoud=[
+        "De Gausskromme is klokvormig en symmetrisch rond het gemiddelde.",
+        "Het gemiddelde bepaalt waar de top ligt, de standaardafwijking hoe breed de kromme is.",
+        "Een kans is de oppervlakte onder de kromme; de totale oppervlakte is één.",
+        "De z-score is het verschil met het gemiddelde, gedeeld door de standaardafwijking.",
+        "Binnen één standaardafwijking ligt ongeveer achtenzestig procent, binnen twee ongeveer vijfennegentig procent.",
+        "Een steekproef is representatief als ze op de belangrijke kenmerken op de populatie lijkt.",
+        "Sterke samenhang betekent niet dat de ene de oorzaak van de andere is.",
+        "De p-waarde is de kans op zo'n resultaat of extremer, als de nulhypothese waar is.",
+        "Ligt de p-waarde onder alfa, dan verwerp je de nulhypothese.",
+    ],
 )
 
 # ───────────────────────── 17. Matrices en hun bewerkingen
@@ -1710,6 +1886,17 @@ BUNDELS["matrices-en-hun-bewerkingen-beyond"] = dict(
                       "kost één bewerking en vangt elke tikfout."),
         ]),
     ],
+    onthoud=[
+        "Een matrix van dimensie drie bij vier heeft drie rijen en vier kolommen.",
+        "Twee matrices optellen kan alleen als ze precies dezelfde dimensie hebben.",
+        "A maal B bestaat als het aantal kolommen van A gelijk is aan het aantal rijen van B.",
+        "Het vermenigvuldigen van matrices is niet commutatief.",
+        "De eenheidsmatrix is het neutraal element voor de vermenigvuldiging van vierkante matrices.",
+        "De getransponeerde van A maal B is de getransponeerde van B maal de getransponeerde van A.",
+        "Determinant van orde twee: het product van de hoofddiagonaal min het product van de andere diagonaal.",
+        "Een vierkante matrix is inverteerbaar als haar determinant verschillend is van nul.",
+        "De rang is het aantal rijen dat niet nul is in de rijcanonieke vorm.",
+    ],
 )
 
 # ───────────────────────── 18. Stelsels oplossen en matrixmodellen
@@ -1801,6 +1988,17 @@ BUNDELS["stelsels-oplossen-en-matrixmodellen-beyond"] = dict(
                   "bestellingen echt nieuwe informatie geven; anders is het stelsel onbepaald of strijdig."),
         ]),
     ],
+    onthoud=[
+        "In de uitgebreide coëfficiëntenmatrix staan de coëfficiënten én de constanten uit het rechterlid.",
+        "Elementaire rijoperaties veranderen de oplossingenverzameling niet; een rij met nul vermenigvuldigen mag niet.",
+        "Gauss-Jordan vormt de matrix met rijoperaties om naar de rijcanonieke vorm.",
+        "Een bepaald stelsel heeft precies één oplossing: beide rangen zijn gelijk aan het aantal onbekenden.",
+        "Het aantal vrijheidsgraden is het aantal onbekenden min de rang.",
+        "Strijdig: een rij met overal nullen links en een getal dat niet nul is rechts.",
+        "De toestand na twee overgangen bereken je met het kwadraat van de overgangsmatrix.",
+        "Een evenwichtstoestand is een toestand die na de overgang gelijk blijft.",
+        "Uit drie bestellingen bereken je de prijs per artikel alleen als het stelsel bepaald is.",
+    ],
 )
 
 # ───────────────────────── 19. Algebraïsche structuren en groepen
@@ -1890,6 +2088,17 @@ BUNDELS["algebraische-structuren-en-groepen-beyond"] = dict(
                   "In een groep die niet commutatief is, is die kant belangrijk."),
         ]),
     ],
+    onthoud=[
+        "Een groep: intern, associatief, een neutraal element, en voor elk element een invers element.",
+        "Niet elke groep is commutatief: de vermenigvuldiging van matrices bijvoorbeeld niet.",
+        "Eén tegenvoorbeeld bij één eigenschap volstaat om te besluiten dat het geen groep is.",
+        "De gehele getallen vormen met de optelling een groep, met nul als neutraal element.",
+        "De reële getallen zonder nul vormen met de vermenigvuldiging een groep; nul heeft geen invers element.",
+        "Is de Cayley-tabel symmetrisch om de hoofddiagonaal, dan is de groep commutatief.",
+        "In de Cayley-tabel van een groep komt elk element precies één keer voor in elke rij.",
+        "Een groep heeft juist één neutraal element en elk element heeft juist één invers element.",
+        "Het invers van a bewerkt met b is eerst het invers van b en dan dat van a.",
+    ],
 )
 
 # ───────────────────────── 20. Punten, vectoren en afstanden in de ruimte
@@ -1975,6 +2184,17 @@ BUNDELS["punten-vectoren-en-afstanden-in-de-ruimte-beyond"] = dict(
                        "verplaatsingsvectoren</strong>: vijf meter, niet zeven. De afgelegde weg is wel "
                        "zeven meter."),
         ]),
+    ],
+    onthoud=[
+        "Een vrije vector is een richting, een zin en een lengte, zonder vast beginpunt.",
+        "De coördinaten van de vector van A naar B zijn die van B min die van A.",
+        "Vectoren optellen doe je coördinaat per coördinaat.",
+        "De norm is de wortel uit de som van de kwadraten van de coördinaten.",
+        "Het scalair product levert een getal op: de som van de producten van de overeenkomstige coördinaten.",
+        "Het scalair product van twee loodrechte vectoren is nul.",
+        "Is het scalair product negatief, dan is de hoek stomp.",
+        "De afstand tussen twee punten is de norm van de vector tussen die twee punten.",
+        "Het zwaartepunt van een driehoek is de som van de drie hoekpunten gedeeld door drie.",
     ],
 )
 
@@ -2062,6 +2282,17 @@ BUNDELS["rechten-en-vlakken-in-de-ruimte-beyond"] = dict(
                        "tussen de twee vlakken <strong>de hoek tussen hun normaalvectoren, als scherpe hoek "
                        "genomen</strong>. De hellingshoek van het dak met de grond is een andere hoek."),
         ]),
+    ],
+    onthoud=[
+        "Voor de vergelijking van een rechte heb je een punt en een richtingsvector nodig.",
+        "Een rechte in de ruimte heeft twee cartesische vergelijkingen, in het vlak precies één.",
+        "Een vlak ligt vast door drie punten die niet op eenzelfde rechte liggen.",
+        "Cartesische vergelijking van een vlak: a maal x plus b maal y plus c maal z plus d is nul.",
+        "De coëfficiënten van x, y en z vormen samen een normaalvector van dat vlak.",
+        "Kruisende rechten zijn niet evenwijdig en hebben toch geen snijpunt.",
+        "Twee vlakken zijn evenwijdig als hun normaalvectoren veelvouden van elkaar zijn.",
+        "De afstand van een punt tot een vlak meet je langs de loodlijn uit dat punt op het vlak.",
+        "De hoek tussen twee vlakken is de scherpe hoek tussen hun normaalvectoren.",
     ],
 )
 
@@ -2154,5 +2385,16 @@ BUNDELS["programmeren-algoritmen-en-structuren-beyond"] = dict(
                   "oppervlakte van heel veel smalle stroken op te tellen</strong>: precies de Riemannsom, "
                   "maar dan door de computer uitgevoerd."),
         ]),
+    ],
+    onthoud=[
+        "Een algoritme is een stappenplan dat na eindig veel stappen tot een oplossing komt.",
+        "Vier stappen: analyseren, een algoritme ontwerpen, programmeren, en testen en debuggen.",
+        "De bouwstenen zijn variabele, constante, conditie, iteratie en functie.",
+        "Een list is aanpasbaar, een tuple ligt vast, een set bevat elk element maar één keer.",
+        "Elke recursieve functie heeft een stopgeval nodig waarin ze zichzelf niet meer oproept.",
+        "Verdeel-en-heers splitst een probleem in kleinere deelproblemen en voegt de deeloplossingen samen.",
+        "Bij dynamisch programmeren bewaar je tussenresultaten: het kost meer geheugen maar wint tijd.",
+        "Correct is het juiste antwoord voor elke toegelaten invoer; eindig is stoppen na eindig veel stappen.",
+        "Je mag matplotlib, numpy en random gebruiken; andere alleen als de opdracht er uitdrukkelijk een vermeldt.",
     ],
 )

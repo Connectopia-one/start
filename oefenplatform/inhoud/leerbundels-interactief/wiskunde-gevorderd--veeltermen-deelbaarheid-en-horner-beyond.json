@@ -109,5 +109,15 @@
    ]
   }
  ],
- "onthoud": []
+ "onthoud": [
+  "Deeltal is deler maal quotiënt plus rest.",
+  "De graad van de rest is kleiner dan die van de deler.",
+  "De rest bij de deling van P door x min a is gelijk aan P van a.",
+  "Is de waarde van P in a nul, dan is x min a een deler van P.",
+  "Horner werkt alleen bij een deler x min a; bij x plus drie zet je min drie links.",
+  "Bovenaan in Horner staan alle coëfficiënten; een ontbrekende graad schrijf je als nul.",
+  "Een veelterm van graad n heeft hoogstens n reële nulwaarden.",
+  "Zoek een gehele nulwaarde eerst bij de delers van de constante term.",
+  "a kwadraat min b kwadraat is a min b, maal a plus b."
+ ]
 }

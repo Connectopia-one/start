@@ -96,5 +96,14 @@
    ]
   }
  ],
- "onthoud": []
+ "onthoud": [
+  "Stroomsterkte meet je in ampère, spanning in volt, weerstand in ohm.",
+  "Wet van Ohm: weerstand = spanning gedeeld door stroomsterkte.",
+  "Bij gelijke spanning geeft dubbele weerstand halve stroom.",
+  "Een geleider heeft een kleine weerstand, een isolator een heel grote.",
+  "De conventionele stroomzin loopt van plus naar min, de werkelijke van min naar plus.",
+  "Joule-effect: een geleider warmt op doordat er stroom door loopt.",
+  "Bij een kortsluiting is de weerstand bijna nul en schiet de stroomsterkte omhoog.",
+  "Een verliesstroomschakelaar slaat af als er stroom langs een onbedoelde weg wegloopt."
+ ]
 }

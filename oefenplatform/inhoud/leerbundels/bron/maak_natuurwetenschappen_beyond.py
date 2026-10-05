@@ -174,6 +174,17 @@ BUNDELS["snelheid-van-een-chemische-reactie-beyond"] = dict(
                       "verdelen</strong>, of de concentratie verhogen."),
         ]),
     ],
+    onthoud=[
+        "Reactiesnelheid is de verandering van een concentratie per tijdseenheid.",
+        "Alleen een effectieve botsing leidt tot een reactie: genoeg energie én de juiste kant.",
+        "Hoe steiler de lijn op een concentratie-tijdgrafiek, hoe sneller de reactie; vlak betekent afgelopen of in evenwicht.",
+        "Vier factoren: verdelingsgraad, temperatuur (of licht), concentratie en katalysator.",
+        "De verdelingsgraad verandert alleen de snelheid, niet de opbrengst.",
+        "Activeringsenergie is de hoogte van de berg boven de reagentia; reactie-energie is het verschil tussen producten en reagentia.",
+        "Exo-energetisch: producten liggen lager dan de reagentia. Endo-energetisch: producten hebben meer inwendige energie.",
+        "Een katalysator verlaagt de activeringsenergie, wordt niet opgebruikt en verandert de reactie-energie niet.",
+        "Enzymen zijn biokatalysatoren: ze laten reacties bij lichaamstemperatuur snel genoeg verlopen.",
+    ],
 )
 
 # ───────────────────────── 1. De cel
@@ -306,6 +317,17 @@ BUNDELS["de-cel-organellen-membranen-en-weefsels-beyond"] = dict(
                   "delingen bevat</strong>."),
         ]),
     ],
+    onthoud=[
+        "Organisatieniveaus: molecule, organel, cel, weefsel, orgaan, orgaanstelsel, organisme.",
+        "Een prokaryote cel heeft geen kernmembraan: haar DNA ligt vrij in het cytoplasma.",
+        "Wel in een plantaardige cel, niet in een dierlijke: celwand van cellulose, chloroplasten, grote centrale vacuole.",
+        "Een eiwit voor de uitvoer gaat van het ribosoom op het ruw ER naar het Golgi-apparaat en dan naar het celmembraan.",
+        "Elk biologisch membraan is een dubbellaag van fosfolipiden en is semi-permeabel.",
+        "Een plantencel in zuiver water neemt water op en wordt turgescent.",
+        "Xyleem vervoert water en mineralen van wortel naar blad; floëem vervoert suikers naar waar de plant ze nodig heeft.",
+        "Huidmondjes regelen de gasuitwisseling en de waterafgifte; sluitcellen openen en sluiten ze.",
+        "Vier dierlijke weefselgroepen: epitheel-, spier-, zenuw- en transportweefsel.",
+    ],
 )
 
 # ───────────────────────── 2. Fotosynthese en celademhaling
@@ -408,6 +430,17 @@ BUNDELS["fotosynthese-en-celademhaling-beyond"] = dict(
                   "Daarna toont men <strong>zetmeel in een blad aan met joodoplossing</strong>, die "
                   "blauwzwart kleurt."),
         ]),
+    ],
+    onthoud=[
+        "Een autotroof organisme bouwt organische stoffen op uit anorganische; een schimmel is heterotroof.",
+        "ATP is de energiemunt van de cel: het geeft een fosfaatgroep af en wordt ADP.",
+        "Fotosynthese: 6 CO2 + 6 H2O geeft C6H12O6 + 6 O2, een endo-energetische reactie.",
+        "De lichtreacties lopen in het thylakoïdmembraan, de donkerreacties in het stroma.",
+        "De zuurstof komt vrij doordat water tijdens de lichtreactie gesplitst wordt.",
+        "Aerobe celademhaling: C6H12O6 + 6 O2 geeft 6 CO2 + 6 H2O en energie.",
+        "De glycolyse in het cytoplasma levert veel minder ATP op dan de reacties in het mitochondrion.",
+        "Gisting levert weinig energie, omdat de glucose maar gedeeltelijk afgebroken wordt.",
+        "Zetmeel in een blad toon je aan met joodoplossing, die blauwzwart kleurt.",
     ],
 )
 
@@ -512,6 +545,17 @@ BUNDELS["bescherming-en-afweer-tegen-lichaamsvreemde-stoffen-beyond"] = dict(
                       "celwand. Een virus heeft die niet, dus helpt een antibioticum bij griep of een "
                       "verkoudheid niets."),
         ]),
+    ],
+    onthoud=[
+        "Een pathogeen kan ziekte veroorzaken; een antigeen is een lichaamsvreemde stof die een afweerreactie uitlokt.",
+        "Bij een infectie dringt de kiem binnen, bij een infectieziekte maakt hij ook ziek.",
+        "Eerste verdedigingslijn: opperhuid, zuurmantel en talg, lysozym en slijmvliezen.",
+        "De niet-specifieke afweer werkt tegen elke indringer op dezelfde manier en start onmiddellijk.",
+        "Bij een ontsteking horen roodheid, zwelling, warmte en pijn.",
+        "Witte bloedcellen worden in het rode beenmerg aangemaakt; T-lymfocyten rijpen in de thymus.",
+        "B-lymfocyten maken antistoffen die op één bepaald antigeen passen.",
+        "De secundaire immuunrespons verloopt sneller en sterker dankzij B- en T-geheugenlymfocyten.",
+        "Actieve immunisatie bouwt een afweergeheugen op, passieve immunisatie niet.",
     ],
 )
 
@@ -633,6 +677,17 @@ BUNDELS["voortplanting-zwangerschap-en-vruchtbaarheid-beyond"] = dict(
                   "<strong>overgewicht</strong>, naast leeftijd en bepaalde aandoeningen."),
         ]),
     ],
+    onthoud=[
+        "De bevruchting gebeurt normaal in de eileider, rond de eisprong.",
+        "Na de amfimixie is de zygote diploïd en bevat ze erfelijk materiaal van beide ouders.",
+        "Volgorde: zygote, morula, blastula, innesteling in de wand van de baarmoeder.",
+        "De trofoblast maakt hCG aan, waardoor een zwangerschapstest positief wordt.",
+        "De embryonale fase is de eerste acht weken; dan is de vrucht het gevoeligst voor schadelijke stoffen.",
+        "Het bloed van de moeder en dat van de vrucht mengen zich niet in de placenta.",
+        "Geboorte: indaling, ontsluiting, uitdrijving, nageboorte.",
+        "Een teratogeen is een stof die bij een ongeboren kind afwijkingen kan veroorzaken.",
+        "Alleen het mannen- en het vrouwencondoom beschermen ook tegen seksueel overdraagbare aandoeningen.",
+    ],
 )
 
 # ───────────────────────── 5. DNA, replicatie en celdelingen
@@ -738,6 +793,17 @@ BUNDELS["dna-replicatie-en-celdelingen-beyond"] = dict(
                   "DNA, omdat de chromosomen dan nog uit twee chromatiden bestaan</strong>: die tweede "
                   "deling trekt ze gewoon los van elkaar."),
         ]),
+    ],
+    onthoud=[
+        "Een nucleotide bestaat uit een suiker, een fosfaatgroep en een stikstofbase.",
+        "A paart met T via twee waterstofbruggen, G met C via drie.",
+        "De twee strengen liggen antiparallel en vormen samen een dubbele helix.",
+        "Een menselijke lichaamscel is diploïd en bevat 46 chromosomen, dus 23 paren.",
+        "Het centromeer houdt de zusterchromatiden samen.",
+        "Het DNA wordt verdubbeld in de S-fase van de interfase.",
+        "Na de replicatie bestaat elke dubbele helix uit één oude en één nieuwe streng.",
+        "Mitose: profase, metafase, anafase, telofase; ze geeft genetisch identieke cellen.",
+        "Een volledige meiose levert uit één diploïde cel vier haploïde cellen die genetisch verschillen.",
     ],
 )
 
@@ -863,6 +929,17 @@ BUNDELS["overerving-van-genetisch-materiaal-beyond"] = dict(
                   "zou dan ook van haar vader een aangedane X moeten krijgen, en die toont het kenmerk niet."),
         ]),
     ],
+    onthoud=[
+        "Het genotype is de erfelijke aanleg, het fenotype het zichtbare kenmerk.",
+        "De drie wetten van Mendel: uniformiteitswet, splitsingswet en onafhankelijkheidswet.",
+        "Aa × Aa geeft genotypisch 1 op 2 op 1 en fenotypisch 3 op 1.",
+        "Een terugkruising toont of de onderzochte ouder homozygoot of heterozygoot is.",
+        "Bij intermediaire overerving geven een rode en een witte leeuwenbek roze.",
+        "Bij codominantie komen beide allelen volledig tot uiting, zoals bij bloedgroep AB.",
+        "AaBb × AaBb geeft de fenotypische verhouding 9 op 3 op 3 op 1.",
+        "Geslachtsgebonden recessieve aandoeningen komen vaker bij mannen voor: een man heeft maar één X-chromosoom.",
+        "Twee ouders zonder het kenmerk krijgen een dochter met het kenmerk: recessief en niet geslachtsgebonden.",
+    ],
 )
 
 # ───────────────────────── 7. Genexpressie en DNA-technologie
@@ -968,6 +1045,17 @@ BUNDELS["genexpressie-en-dna-technologie-beyond"] = dict(
                   "<strong>een vaderschap aan te tonen</strong> en "
                   "<strong>familieleden van elkaar te onderscheiden</strong>."),
         ]),
+    ],
+    onthoud=[
+        "Eén codon bestaat uit drie basen; de genetische code is bij nagenoeg alle organismen dezelfde.",
+        "RNA heeft ribose en uracil in plaats van desoxyribose en thymine, en is meestal enkelstrengig.",
+        "Transcriptie gebeurt in de celkern, translatie op het ribosoom.",
+        "Bij splicing worden de introns eruit geknipt en de exons aan elkaar geplakt.",
+        "Na een deletie van één base worden alle codons erna verschoven afgelezen.",
+        "Een mutatie is erfelijk als ze in een geslachtscel zit.",
+        "Een plasmide is een klein, ringvormig stukje DNA naast het bacterieel chromosoom.",
+        "Een restrictie-enzym knipt het DNA, ligase plakt het donor-DNA vast in het plasmide.",
+        "Een PCR kopieert een klein stukje DNA miljoenen keren; gelelektroforese scheidt fragmenten op lengte.",
     ],
 )
 
@@ -1086,6 +1174,17 @@ BUNDELS["ontstaan-en-evolutie-van-soorten-beyond"] = dict(
                   "omgeving</strong>. Een aangeleerde vaardigheid is dus geen adaptatie, hoe nuttig ze ook is."),
         ]),
     ],
+    onthoud=[
+        "Biologische evolutie is de verandering van de erfelijke eigenschappen van een populatie over generaties.",
+        "Homologe organen hebben dezelfde bouw en oorsprong; analoge organen dezelfde functie maar een andere oorsprong.",
+        "Archaeopteryx is een overgangsfossiel met kenmerken van reptielen en vogels.",
+        "Verwante soorten hebben sterk gelijkende aminozuursequenties.",
+        "Lamarck dacht dat verworven eigenschappen doorgegeven worden; dat bleek niet te kloppen.",
+        "De kern van Darwins theorie: variatie, selectie en erfelijkheid.",
+        "Fitness is hoeveel vruchtbare nakomelingen een fenotype gemiddeld oplevert.",
+        "Genetische drift werkt sterker in een kleine populatie dan in een grote.",
+        "Twee aparte soorten geven onder natuurlijke omstandigheden geen vruchtbaar nageslacht meer.",
+    ],
 )
 
 # ───────────────────────── 9. Biomoleculen
@@ -1179,6 +1278,16 @@ BUNDELS["biomoleculen-beyond"] = dict(
                   "<strong>eiwit in de darm verteerd</strong>, dan komen er "
                   "<strong>aminozuren</strong> vrij. En een polysacharide valt uiteen in monosachariden."),
         ]),
+    ],
+    onthoud=[
+        "Monosachariden zijn glucose, fructose en galactose.",
+        "Sacharose bestaat uit glucose en fructose, verbonden door een glycosidische binding.",
+        "Zetmeel en cellulose zijn allebei polysachariden van glucose; een dier slaat glycogeen op.",
+        "Triglyceriden zijn opgebouwd uit glycerol en drie vetzuren.",
+        "Een onverzadigd vetzuur bevat een of meer dubbele bindingen in zijn koolstofketen.",
+        "Elk aminozuur heeft een carboxylgroep, een aminogroep en een restgroep.",
+        "De primaire structuur van een eiwit is de volgorde van de aminozuren.",
+        "Condensatie verbindt bouwstenen en maakt water vrij; hydrolyse verbreekt een binding met water.",
     ],
 )
 
@@ -1298,6 +1407,17 @@ BUNDELS["chemisch-evenwicht-beyond"] = dict(
                   "evenwicht toch bijna alles wat erin zit."),
         ]),
     ],
+    onthoud=[
+        "Een reactie is aflopend als minstens één reagens volledig opraakt.",
+        "In een chemisch evenwicht gaan heen- en terugreactie even snel en veranderen de concentraties niet meer.",
+        "In een evenwicht zijn de concentraties van reagentia en producten niet altijd aan elkaar gelijk.",
+        "Het limiterend reagens is als eerste opgebruikt en stopt zo de reactie.",
+        "Onderweg naar het evenwicht vertraagt de heenreactie en versnelt de terugreactie.",
+        "Een kleurverandering is een handige manier om een verschuiving van een evenwicht te volgen.",
+        "Le Chatelier en Van 't Hoff: een evenwicht schuift zo op dat het de verstoring tegenwerkt.",
+        "Een katalysator laat het evenwicht sneller bereiken, maar het ligt niet anders.",
+        "Bij een kleiner vat schuift een gasevenwicht naar de kant met minder gasdeeltjes.",
+    ],
 )
 
 # ───────────────────────── 12. Organische stoffen
@@ -1396,6 +1516,17 @@ BUNDELS["organische-stoffen-classificatie-eigenschappen-en-toepassingen-beyond"]
                   "polyetheen</strong>. Die dubbele binding is precies wat duizenden etheenmoleculen aan "
                   "elkaar laat haken tot een kunststof."),
         ]),
+    ],
+    onthoud=[
+        "Elke organische stofklasse heeft een kenmerkende groep.",
+        "Een alkaan bevat enkel koolstof en waterstof, met enkelvoudige bindingen.",
+        "Bij een aldehyde staat de carbonylgroep aan het uiteinde van de keten, bij een keton middenin.",
+        "Uitgangen: -aan bij de alkanen, -een bij de alkenen, -ol bij de alcoholen.",
+        "De waterstofbrug is de sterkste intermoleculaire kracht, de londondispersiekracht de zwakste.",
+        "Ethanol heeft een veel hoger kookpunt dan ethaan, omdat ethanol waterstofbruggen vormt.",
+        "Een apolaire stof lost niet goed op in water: gelijk lost op in gelijk.",
+        "Een zeepmolecule heeft een lange apolaire staart en een polaire kop.",
+        "Propanon is de wetenschappelijke naam van aceton.",
     ],
 )
 
@@ -1513,6 +1644,17 @@ BUNDELS["kunststoffen-nanomaterialen-en-duurzame-chemie-beyond"] = dict(
                   "<strong>hernieuwbare energie</strong>. Pas dan weet je of een proces echt minder weegt."),
         ]),
     ],
+    onthoud=[
+        "Een monomeer is de kleine molecule waaruit een kunststof opgebouwd wordt.",
+        "Polyadditie gebruikt een dubbele binding; bij polycondensatie komt een kleine molecule vrij, meestal water.",
+        "Een thermoplast kan je opnieuw smelten, een thermoharder niet; een elastomeer komt na vervormen terug.",
+        "Een nanomateriaal is tussen 1 en 100 nanometer groot, in minstens één richting.",
+        "Nanodeeltjes hebben een veel grotere verhouding van oppervlak tot volume en zijn daardoor vaak reactiever.",
+        "Op de Ladder van Lansink staat preventie bovenaan en hergebruiken hoger dan recycleren.",
+        "Cradle to cradle: afval van het ene product is grondstof voor het volgende.",
+        "Een biogebaseerde kunststof is niet altijd biodegradeerbaar.",
+        "Greenwashing is een product duurzamer voorstellen dan het is.",
+    ],
 )
 
 # ───────────────────────── 14. Elektrostatica
@@ -1621,6 +1763,17 @@ BUNDELS["elektrostatica-beyond"] = dict(
                   "geladen</strong>, want <strong>zo haalt een tegengesteld geladen plaat ze uit de "
                   "lucht</strong>."),
         ]),
+    ],
+    onthoud=[
+        "Gelijksoortige ladingen stoten elkaar af, ongelijksoortige trekken elkaar aan.",
+        "Een geleider heeft vrije elektronen, een isolator niet.",
+        "Bij laden door wrijving verhuizen elektronen: het ene voorwerp wordt positief, het andere even sterk negatief.",
+        "Na laden door contact hebben de twee voorwerpen een lading met hetzelfde teken.",
+        "Influentie is het verschuiven van ladingen in een voorwerp door een geladen voorwerp in de buurt.",
+        "Een geladen staaf trekt een neutraal snippertje aan, omdat door influentie de tegengestelde lading dichterbij komt.",
+        "Wet van Coulomb: verdubbel je de afstand, dan wordt de kracht vier keer kleiner.",
+        "Binnen een geladen holle geleider is er geen elektrisch veld; zo werkt een kooi van Faraday.",
+        "Een fotokopietoestel, poedercoating en een stoffilter in een luchtzuiveraar werken op elektrostatica.",
     ],
 )
 
@@ -1743,6 +1896,17 @@ BUNDELS["elektromagnetisme-en-inductie-beyond"] = dict(
                   "<strong>een draadloze oplader</strong>."),
         ]),
     ],
+    onthoud=[
+        "IJzer, nikkel en cobalt zijn ferromagnetisch; ze bevatten weissgebieden.",
+        "Breek je een staafmagneet in twee, dan heb je twee magneten met elk een noord- en een zuidpool.",
+        "Een elektromagneet werkt enkel zolang er stroom door loopt; meer stroom of meer windingen geven een sterker veld.",
+        "Buiten een magneet loopt een veldlijn van de noordpool naar de zuidpool.",
+        "Hoe dichter de veldlijnen bij elkaar liggen, hoe sterker het magnetisch veld.",
+        "De Laplacekracht werkt op een stroomvoerende geleider, de Lorentzkracht op een bewegende lading.",
+        "Alleen een veranderende flux levert een inductiespanning op.",
+        "Wet van Lenz: de inductiestroom werkt de verandering van de flux tegen.",
+        "Een inductiekookplaat warmt een pan op door wervelstromen in de bodem van de pan.",
+    ],
 )
 
 # ───────────────────────── 16. Kracht en beweging
@@ -1844,6 +2008,17 @@ BUNDELS["kracht-en-beweging-beyond"] = dict(
                   "<strong>ontbind je ze in een x-component en een y-component</strong> en reken je elke "
                   "richting apart."),
         ]),
+    ],
+    onthoud=[
+        "ERB: gelijke snelheid en rechte baan. EVRB: rechte baan en constante versnelling die niet nul is.",
+        "Bij een eenparig cirkelvormige beweging wijst de versnelling naar het middelpunt van de cirkel.",
+        "Bij een vertraagde beweging wijst de versnelling tegen de bewegingszin in.",
+        "Een steen die valt zonder luchtweerstand voert een eenparig versnelde rechtlijnige beweging uit.",
+        "De steilheid van een x(t)-grafiek geeft de snelheid; bij een ERB is de v(t)-grafiek horizontaal.",
+        "Eerste wet van Newton: zonder resulterende kracht blijft de snelheid van een lichaam gelijk.",
+        "Tweede wet van Newton: F = m·a, de resulterende kracht is de massa maal de versnelling.",
+        "Derde wet: actie en reactie zijn even groot, tegengesteld van zin en werken op verschillende lichamen.",
+        "De resulterende kracht bepaal je door alle krachtvectoren samen te tellen.",
     ],
 )
 
@@ -1950,6 +2125,17 @@ BUNDELS["trillingen-golven-en-geluid-beyond"] = dict(
                   "te pas, en net daarom mag ze bij een zwangerschap."),
         ]),
     ],
+    onthoud=[
+        "De amplitude is de grootste uitwijking, de periode de tijd van één volledige trilling.",
+        "Frequentie is één gedeeld door de periode: een periode van 0,5 seconde geeft 2 hertz.",
+        "Resonantie treedt op als de uitwendige kracht de eigenfrequentie treft.",
+        "Een golf transporteert energie, maar geen materie.",
+        "Bij een transversale golf trillen de deeltjes loodrecht op de golfrichting; geluid in lucht is longitudinaal.",
+        "De golfsnelheid is de golflengte maal de frequentie.",
+        "Toonhoogte hangt af van de frequentie, luidheid van de amplitude.",
+        "Vanaf ongeveer 80 decibel is gehoorbescherming nodig.",
+        "Echografie werkt met ultrasoon geluid en meet wat tegen de grens tussen weefsels terugkaatst.",
+    ],
 )
 
 # ───────────────────────── 18. Het elektromagnetisch spectrum
@@ -2051,6 +2237,17 @@ BUNDELS["het-elektromagnetisch-spectrum-beyond"] = dict(
                   "<strong>zonnecrème en een zonnebril met uv-filter beschermen tegen ultraviolette "
                   "straling</strong>."),
         ]),
+    ],
+    onthoud=[
+        "Een elektromagnetische golf is transversaal en heeft geen middenstof nodig.",
+        "In vacuüm gaan alle elektromagnetische golven even snel: met de lichtsnelheid.",
+        "Van lage naar hoge frequentie: radio, microgolven, infrarood, zichtbaar licht, ultraviolet, röntgen, gamma.",
+        "Een hoge frequentie hoort bij een kleine golflengte en een grote energie.",
+        "Gammastraling, röntgenstraling en hoogenergetische uv-straling zijn ioniserend.",
+        "Straling die op materie valt, wordt geabsorbeerd, doorgelaten of weerkaatst.",
+        "Op een röntgenfoto zijn de botten wit, omdat ze meer straling absorberen dan het zachte weefsel.",
+        "Een magnetron gebruikt microgolven; een afstandsbediening werkt met infrarood.",
+        "Bescherming tegen hoogenergetische straling: afscherming, afstand en tijd.",
     ],
 )
 
@@ -2170,6 +2367,17 @@ BUNDELS["kernfysica-en-radioactiviteit-beyond"] = dict(
                   "<strong>een PET-scan met een radioactieve tracer</strong>."),
         ]),
     ],
+    onthoud=[
+        "Het massagetal A is het aantal nucleonen; het aantal neutronen is A min Z.",
+        "Isotopen hebben hetzelfde aantal protonen en een verschillend aantal neutronen.",
+        "In een kern strijden de sterke kernkracht en de afstoting van de protonen.",
+        "Een kern met te veel neutronen vervalt via bètaverval: een neutron wordt een proton.",
+        "De halveringstijd is de tijd waarin de helft van de kernen vervalt; na twee halveringstijden blijft een kwart over.",
+        "Een kerncentrale gebruikt kernsplijting; regelstaven vangen neutronen weg en regelen zo de kettingreactie.",
+        "Alfastraling heeft een groot ioniserend maar een klein doordringend vermogen: een blad papier houdt ze al tegen.",
+        "Bij alfaverval zakt het massagetal met 4 en het atoomnummer met 2.",
+        "De equivalente en de effectieve dosis druk je uit in sievert.",
+    ],
 )
 
 # ───────────────────────── 20. Veilig en duurzaam werken, grootheden en eenheden
@@ -2270,6 +2478,17 @@ BUNDELS["veilig-en-duurzaam-werken-grootheden-en-eenheden-beyond"] = dict(
                   "<strong>F is m maal a</strong> de <strong>m</strong> uitdrukken, dan wordt het "
                   "<strong>m is F gedeeld door a</strong>."),
         ]),
+    ],
+    onthoud=[
+        "Een H-zin zegt welk gevaar een stof oplevert, P-zinnen zeggen hoe je er veilig mee omgaat.",
+        "Afval van een chemisch product hoort in het vat voor chemisch afval, niet in de gootsteen.",
+        "Meetbereik: de kleinste en grootste meetbare waarde. Nauwkeurigheid: de kleinste verandering die het toestel nog weergeeft.",
+        "Een vloeistofniveau in een maatcilinder lees je af op ooghoogte.",
+        "Een grootheid is wat je meet, een eenheid is waarin je het uitdrukt.",
+        "De SI-eenheid van massa is de kilogram, niet de gram.",
+        "Mega is een miljoen, kilo duizend, milli een duizendste, micro een miljoenste, nano een miljardste.",
+        "De minst nauwkeurige meting bepaalt het aantal cijfers in het antwoord.",
+        "Recht evenredig: een rechte door de oorsprong. Omgekeerd evenredig: het product blijft gelijk.",
     ],
 )
 
@@ -2374,5 +2593,16 @@ BUNDELS["onderzoeksvaardigheden-en-ontwerpen-beyond"] = dict(
                   "<strong>kan een nieuwe techniek nieuw wetenschappelijk onderzoek mogelijk maken</strong>: "
                   "zonder microscoop geen celbiologie."),
         ]),
+    ],
+    onthoud=[
+        "Een onderzoek begint met het probleem definiëren en afbakenen.",
+        "Een hypothese is de verwachting die je vóór het onderzoek over de uitkomst opschrijft.",
+        "De onafhankelijke variabele verander je zelf, de afhankelijke variabele meet je.",
+        "In een goede proef verander je één grootheid en houd je de andere gelijk.",
+        "Een meting die niet bij je hypothese past, mag je niet gewoon weglaten.",
+        "Een goede conclusie antwoordt op de onderzoeksvraag, steunt op de data en zegt of de hypothese klopte.",
+        "Onderzoeken antwoordt op een vraag, ontwerpen lost op.",
+        "Criteria zijn de eisen waaraan je ontwerp moet voldoen.",
+        "STEM staat voor wetenschappen, techniek, engineering en wiskunde.",
     ],
 )

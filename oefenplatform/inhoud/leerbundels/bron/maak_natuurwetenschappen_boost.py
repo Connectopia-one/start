@@ -151,6 +151,17 @@ BUNDELS["water-en-homeostase-bij-planten-boost-doorstroom"] = dict(
                   "die kant <strong>sneller strekken</strong>, waardoor de stengel naar het licht buigt."),
         ]),
     ],
+    onthoud=[
+        "Homeostase: de plant houdt haar inwendig milieu stabiel terwijl de omgeving verandert.",
+        "De waterhuishouding bestaat uit wateropname, watertransport en transpiratie.",
+        "Wortelharen nemen water op door osmose; de turgor is de druk van het vocht in de vacuole.",
+        "Water gaat door de xyleemvaten of houtvaten, suikers door het floëem of de zeefvaten.",
+        "De transpiratiezuiging is de motor van het watertransport.",
+        "Verliezen de sluitcellen hun turgor, dan gaat het huidmondje dicht en daalt de verdamping.",
+        "Een plant heeft vier organen: wortel, stengel, blad en bloem.",
+        "Fotosynthese: water, koolstofdioxide en licht geven glucose en zuurstofgas, in de chloroplast.",
+        "Auxine hoopt zich op aan de donkere kant; ethyleen laat vruchten rijpen; abscisinezuur sluit de huidmondjes.",
+    ],
 )
 
 # ───────────────────────── 2. Van prikkel tot reactie, en het oog
@@ -259,6 +270,17 @@ BUNDELS["van-prikkel-tot-reactie-en-het-oog-boost-doorstroom"] = dict(
                        "aanvullen met wat eromheen te zien is."),
         ]),
     ],
+    onthoud=[
+        "De volgorde is altijd: prikkel, receptor, conductor, effector, reactie.",
+        "Een receptor is meestal maar voor één soort prikkel gevoelig.",
+        "Smaak en geur werken samen: wie verkouden is, proeft minder.",
+        "Een tropie groeit naar de prikkel toe of ervan weg; bij een nastie bepaalt de prikkel de richting niet.",
+        "De wand van de oogbol, van buiten naar binnen: hard oogvlies, vaatvlies, netvlies.",
+        "De iris regelt de hoeveelheid licht die door de pupil binnenkomt.",
+        "Staafjes werken ook bij weinig licht, kegeltjes zorgen voor het zien van kleur.",
+        "Op de gele vlek zie je het scherpst, op de blinde vlek zie je niets.",
+        "Bijziend: beeld vóór het netvlies, holle lens. Verziend: beeld erachter, bolle lens.",
+    ],
 )
 
 # ───────────────────────── 3. Het zenuwstelsel
@@ -363,6 +385,16 @@ BUNDELS["het-zenuwstelsel-boost-doorstroom"] = dict(
                   "wanneer de baby zuigt</strong>. Ook daar is de effector een klier en geen spier."),
         ]),
     ],
+    onthoud=[
+        "Het centrale zenuwstelsel bestaat uit de hersenen en het ruggenmerg.",
+        "Het animale zenuwstelsel stuurt bewegingen waarover je zelf beslist; het autonome doet de rest.",
+        "Dendrieten vangen signalen op, het axon geeft ze door.",
+        "De myelineschede isoleert het axon; de impuls springt van knoop tot knoop van Ranvier.",
+        "De rustpotentiaal is ongeveer min 70 millivolt: binnen negatief tegenover buiten.",
+        "Een sterkere prikkel geeft meer impulsen per seconde, geen grotere amplitude.",
+        "In een synaps gaat het signaal chemisch over, en maar in één richting.",
+        "Reflexboog: receptor, sensorisch neuron, schakelneuron in het ruggenmerg, motorisch neuron, spier.",
+    ],
 )
 
 # ───────────────────────── 4. Spieren, klieren en hormonen
@@ -464,6 +496,17 @@ BUNDELS["spieren-klieren-en-hormonen-boost-doorstroom"] = dict(
                        "diabetes type 1 bij kinderen zo goed als altijd dodelijk."),
         ]),
     ],
+    onthoud=[
+        "Drie soorten spierweefsel: dwarsgestreept, glad en hartspierweefsel.",
+        "Een spier kan niet duwen, alleen trekken; daarom werken spieren in paren.",
+        "Van groot naar klein: spierbuik, spierbundel, spiervezel, spierfibril.",
+        "Het sarcomeer ligt tussen twee Z-platen en is de functionele eenheid van de spier.",
+        "Een endocriene klier geeft haar stof af aan het bloed, een exocriene via een afvoerbuis.",
+        "Een hormoon past alleen op de membraanreceptor van zijn doelwitcel.",
+        "Hormonen werken trager dan zenuwen, maar hun effect houdt langer aan.",
+        "Stijgt het glucosegehalte, dan geven de bètacellen insuline af.",
+        "Is het glucosegehalte te laag, dan laat glucagon de lever glycogeen afbreken.",
+    ],
 )
 
 # ───────────────────────── 5. Voortplanting en de hormonale regeling
@@ -558,6 +601,17 @@ BUNDELS["voortplanting-en-de-hormonale-regeling-boost-doorstroom"] = dict(
                        "buitenaf op peil, zodat de hypofyse geen LH-piek meer geeft en de eisprong "
                        "uitblijft."),
         ]),
+    ],
+    onthoud=[
+        "Een eicel rijpt in een follikel in de eierstok; de bevruchting gebeurt normaal in de eileider.",
+        "Na de eisprong ontstaat uit de follikel het geel lichaam, dat vooral progesteron maakt.",
+        "De menstruatiecyclus begint op de eerste dag van de menstruatie en duurt ongeveer 28 dagen.",
+        "Zonder progesteron kan het dikke baarmoederslijmvlies niet in stand blijven.",
+        "FSH laat de follikel rijpen, een plotse LH-piek brengt de eisprong op gang.",
+        "Oestrogeen komt uit de eierstok, niet uit de hypofyse.",
+        "Zaadcellen worden in de teelballen gevormd; de cellen van Leydig maken testosteron.",
+        "Bij de man stuurt LH de cellen van Leydig aan en FSH de cellen van Sertoli.",
+        "Een feedbacksysteem kan zowel remmen als stimuleren.",
     ],
 )
 
@@ -660,6 +714,17 @@ BUNDELS["biodiversiteit-en-micro-organismen-boost-doorstroom"] = dict(
                   "afstand</strong> en het <strong>hoort bij een gezonde huid</strong>. Je moet het dus "
                   "<strong>niet zo volledig mogelijk wegwassen</strong>."),
         ]),
+    ],
+    onthoud=[
+        "Het driedomeinensysteem bestaat uit archaea, bacteriën en eukaryoten.",
+        "Een prokaryote cel heeft geen kernmembraan; een eukaryoot heeft een echte kern met kernmembraan.",
+        "Virussen staan niet in de tree of life: ze hebben geen eigen stofwisseling.",
+        "Een bacterie vermeerdert zich door celsplitsing, een gistcel door knopvorming.",
+        "Gist zet suikers zonder zuurstofgas om in alcohol en koolstofdioxide.",
+        "Pasteuriseren verhit kort zodat de meeste micro-organismen sterven, maar maakt melk niet steriel.",
+        "Een antibioticum werkt op bacteriën, dus niet tegen griep: dat is een virus.",
+        "Een vaccin laat het afweersysteem oefenen, zodat je later sneller reageert.",
+        "Eutrofiëring: in overbemest water bloeien algen op en daalt het zuurstofgehalte.",
     ],
 )
 
@@ -771,6 +836,17 @@ BUNDELS["gedrag-interactie-en-ecosystemen-boost-doorstroom"] = dict(
                        "terug, en met hen de bevers en de vogels."),
         ]),
     ],
+    onthoud=[
+        "Aangeboren gedrag vertoont een dier zonder het ooit geleerd te hebben.",
+        "Vormen van leren: conditioneren, gewenning, inprenting, trial-and-error en imitatie.",
+        "Baltsgedrag trekt een partner van dezelfde soort aan; territoriumgedrag bakent een eigen gebied af.",
+        "Mutualisme: beide hebben voordeel. Parasitisme: het ene voordeel, het andere schade.",
+        "Commensalisme: het ene heeft voordeel, het andere merkt er niets van.",
+        "Een ecosysteem is alle organismen in een gebied samen met hun niet-levende omgeving.",
+        "Producenten maken energierijke stoffen, consumenten eten andere organismen, reducenten breken dood materiaal af.",
+        "De energie stroomt in één richting en gaat stap voor stap als warmte verloren.",
+        "Hoe meer soorten, hoe beter het systeem een verstoring kan opvangen.",
+    ],
 )
 
 # ───────────────────────── 8. Mengsels en zuivere stoffen
@@ -854,6 +930,16 @@ BUNDELS["mengsels-en-zuivere-stoffen-boost-doorstroom"] = dict(
                        "dan laten bezinken, dan bacteriën het werk laten doen, en als laatste stap soms "
                        "nog actieve kool."),
         ]),
+    ],
+    onthoud=[
+        "Een zuivere stof bestaat uit één soort deeltjes en heeft een vast smeltpunt en kookpunt.",
+        "Een mengsel kookt en smelt niet bij één vaste temperatuur.",
+        "In een heterogeen mengsel kan je de bestanddelen onderscheiden, in een homogeen mengsel niet.",
+        "Suiker in water, lucht en messing zijn homogeen; slagroom, vinaigrette en rook heterogeen.",
+        "Massadichtheid is de massa van een stof per eenheid volume.",
+        "Een scheidingstechniek gebruikt een verschil in stofeigenschap en verandert de bestanddelen niet chemisch.",
+        "Filtreren steunt op deeltjesgrootte, destilleren op een verschil in kookpunt.",
+        "Na het filtreren blijft het residu op de filter en loopt het filtraat erdoor.",
     ],
 )
 
@@ -969,6 +1055,17 @@ BUNDELS["enkelvoudige-en-samengestelde-stoffen-en-chemische-reacties-boost-doors
                        "uur lang af."),
         ]),
     ],
+    onthoud=[
+        "Een enkelvoudige stof bestaat uit maar één soort atomen; CO2 is samengesteld.",
+        "De index zegt hoeveel atomen in één deeltje zitten, de coëfficiënt hoeveel deeltjes je neemt.",
+        "Metalen geleiden elektriciteit en warmte goed en zijn vervormbaar.",
+        "Edelgassen reageren niet gemakkelijk; daarom gebruikt men helium in ballonnen.",
+        "Bij een chemische reactie ontstaan nieuwe stoffen met andere eigenschappen.",
+        "De reagentia staan links van de pijl, de reactieproducten rechts.",
+        "Wet van behoud van massa: de totale massa voor en na een reactie is gelijk.",
+        "Kloppend maken doe je met de coëfficiënten; de index in een formule pas je niet aan.",
+        "Exo-energetisch: energie afgeven, het wordt warmer. Endo-energetisch: energie opnemen, het wordt kouder.",
+    ],
 )
 
 # ───────────────────────── 10. De bouw van het atoom en het periodiek systeem
@@ -1074,6 +1171,17 @@ BUNDELS["de-bouw-van-het-atoom-en-het-periodiek-systeem-boost-doorstroom"] = dic
                        "klopte zijn voorspelling verrassend goed."),
         ]),
     ],
+    onthoud=[
+        "In de kern zitten protonen en neutronen, samen de nucleonen; rond de kern de elektronen.",
+        "Een neutraal atoom heeft evenveel protonen als elektronen.",
+        "Atoomnummer = aantal protonen. Massagetal = protonen plus neutronen.",
+        "Isotopen zijn atomen van hetzelfde element met een ander aantal neutronen.",
+        "Elektronen afstaan geeft een positief ion, elektronen opnemen een negatief ion.",
+        "De relatieve atoommassa heeft geen eenheid, de absolute massa wel: de kilogram.",
+        "Periodenummer = aantal bezette schillen; groepsnummer van een hoofdgroep = aantal valentie-elektronen.",
+        "In de eerste schil passen 2 elektronen, in de tweede 8: natrium is 2, 8, 1.",
+        "Een volle buitenste schil, de edelgasconfiguratie, is de stabiele toestand.",
+    ],
 )
 
 # ───────────────────────── 11. Chemische bindingen en roosters
@@ -1172,6 +1280,16 @@ BUNDELS["chemische-bindingen-en-roosters-boost-doorstroom"] = dict(
                        "oplossen, kan je blind als een zout met een ionrooster aanwijzen. Dat is precies "
                        "het gedrag van keukenzout."),
         ]),
+    ],
+    onthoud=[
+        "Ionbinding: tussen metaal en niet-metaal worden elektronen echt overgedragen.",
+        "Atoombinding: twee niet-metalen delen elektronenparen. Metaalbinding: een elektronenzee.",
+        "Hoe groter het verschil in elektronegativiteit, hoe meer de binding naar een ionbinding opschuift.",
+        "In een Lewisstructuur is een streepje tussen twee atomen een bindend elektronenpaar.",
+        "Het oxidatiegetal is nul in een enkelvoudige stof; zuurstof heeft meestal min twee.",
+        "Een ionrooster heeft een hoog smeltpunt, is breekbaar en geleidt pas gesmolten of opgelost.",
+        "Een molecuulrooster heeft een laag smelt- en kookpunt: tussen de moleculen is de aantrekking zwak.",
+        "Grafiet geleidt wel, want het vierde elektron van elk koolstofatoom blijft vrij.",
     ],
 )
 
@@ -1278,6 +1396,17 @@ BUNDELS["stoffen-classificeren-en-benoemen-boost-doorstroom"] = dict(
                        "vraagt aan tafel om diwaterstofoxide."),
         ]),
     ],
+    onthoud=[
+        "Oxide: een element samen met zuurstof. Hydroxide: een metaal met een of meer OH-groepen.",
+        "De formule van een zuur begint met waterstof; een zout is een metaalion met een zuurrest.",
+        "Binair betekent twee elementen, ternair drie.",
+        "Nitraat NO3 min, sulfaat SO4 twee min, fosfaat PO4 drie min, carbonaat CO3 twee min.",
+        "Chloraat en sulfaat bevatten zuurstof, chloride en sulfide niet.",
+        "Stocknotatie bij ionverbindingen, Griekse telwoorden bij atoomverbindingen.",
+        "Alkanen bestaan alleen uit koolstof en waterstof; hun naam eindigt op aan.",
+        "But is vier, pent vijf, oct acht, dec tien.",
+        "Koolzuurgas is koolstofdioxide; koolzuur ontstaat pas als dat gas in water oplost.",
+    ],
 )
 
 # ───────────────────────── 13. Stoffen in water, reacties en berekeningen
@@ -1379,6 +1508,17 @@ BUNDELS["stoffen-in-water-reacties-en-berekeningen-boost-doorstroom"] = dict(
                        "dan er sterren in het zichtbare heelal staan."),
         ]),
     ],
+    onthoud=[
+        "Gelijk lost op in gelijk: polaire stoffen lossen goed op in water, apolaire niet.",
+        "Zouten en hydroxiden dissociëren: de ionen zaten al in het rooster en komen los.",
+        "Zuren ioniseren: de molecule valt uiteen in ionen die er nog niet waren.",
+        "Een elektrolyt geleidt in water doordat ze ionen vormt; suiker is een niet-elektrolyt.",
+        "Onder pH 7 is zuur, 7 is neutraal, boven 7 is basisch; elke eenheid is een factor tien.",
+        "Bij een neutralisatie ontstaan uit een zuur en een base een zout en water.",
+        "Oxidatie is elektronen afstaan, reductie is elektronen opnemen.",
+        "Massa = stofhoeveelheid maal molaire massa.",
+        "Molaire concentratie = aantal mol gedeeld door volume in liter.",
+    ],
 )
 
 # ───────────────────────── 14. Rechtlijnige bewegingen
@@ -1472,6 +1612,17 @@ BUNDELS["rechtlijnige-bewegingen-boost-doorstroom"] = dict(
                        "kromme lijn is dat vaak de snelste manier om toch een goede schatting van de "
                        "afgelegde weg te krijgen."),
         ]),
+    ],
+    onthoud=[
+        "Een puntmassa is een voorwerp waarvan je de afmetingen verwaarloost.",
+        "De afgelegde weg is de hele baan, de verplaatsing gaat alleen van begin naar eind.",
+        "Een vector heeft vier kenmerken: grootte, richting, zin en aangrijpingspunt.",
+        "ERB: de snelheid blijft onveranderd en de baan is een rechte lijn.",
+        "Gemiddelde snelheid = verplaatsing gedeeld door tijdsverloop. Van kilometer per uur naar meter per seconde: delen door 3,6.",
+        "EVRB: de versnelling blijft onveranderd; haar eenheid is meter per seconde kwadraat.",
+        "In een v(t)-grafiek is de steilheid de versnelling en de oppervlakte eronder de verplaatsing.",
+        "Versnellen of vertragen lees je aan de grootte van de snelheid, niet aan het teken.",
+        "Het snijpunt van twee lijnen in een x(t)-grafiek is waar ze elkaar inhalen of kruisen.",
     ],
 )
 
@@ -1585,6 +1736,17 @@ BUNDELS["vrije-val-verticale-worp-en-krachten-boost-doorstroom"] = dict(
                        "zwaarteveldsterkte op aarde zo goed als overal gelijk is."),
         ]),
     ],
+    onthoud=[
+        "Bij een vrije val werkt alleen de zwaartekracht, en valt elk voorwerp even snel.",
+        "De valversnelling op aarde is ongeveer 9,81 meter per seconde kwadraat.",
+        "In het hoogste punt van een verticale worp is de snelheid nul, de versnelling blijft naar beneden.",
+        "Een resulterende kracht die niet nul is, verandert de bewegingstoestand.",
+        "Stilstaan of constante snelheid in een rechte lijn: resulterende kracht nul, een krachtenbalans.",
+        "Bij een hoek van 90 graden gebruik je Pythagoras: 30 en 40 newton geven 50 newton.",
+        "Zwaartekracht = massa maal zwaarteveldsterkte, op aarde ongeveer 9,81 newton per kilogram.",
+        "Massa blijft overal dezelfde; gewicht is een kracht en meet je in newton.",
+        "Veerkracht = veerconstante maal lengteverandering.",
+    ],
 )
 
 # ───────────────────────── 16. Druk en de gaswetten
@@ -1688,6 +1850,17 @@ BUNDELS["druk-en-de-gaswetten-boost-doorstroom"] = dict(
                        "daarbij energie aan toe; de wrijving in de pomp speelt ook mee, maar is niet de "
                        "hoofdoorzaak."),
         ]),
+    ],
+    onthoud=[
+        "Druk = kracht gedeeld door oppervlakte, in pascal: één newton per vierkante meter.",
+        "Bij dezelfde kracht geeft een kleiner oppervlak een grotere druk.",
+        "De hydrostatische druk hangt af van diepte, massadichtheid en zwaarteveldsterkte, niet van de breedte van het vat.",
+        "Elke tien meter water voegt ongeveer één bar toe.",
+        "Beginsel van Pascal: een drukverandering plant zich in een vloeistof in alle richtingen voort.",
+        "Een barometer meet de luchtdruk, een manometer de druk in een vat of leiding.",
+        "De kelvinschaal begint bij het absolute nulpunt, min 273,15 graden Celsius.",
+        "Isotherm: druk maal volume blijft gelijk. Isochoor: druk en absolute temperatuur zijn recht evenredig.",
+        "In de gaswetten vul je de temperatuur altijd in kelvin in.",
     ],
 )
 
@@ -1793,6 +1966,16 @@ BUNDELS["arbeid-energie-vermogen-en-rendement-boost-doorstroom"] = dict(
                        "starten. Een gasvlam moet je aansteken; daarna houdt ze zichzelf gaande met de "
                        "warmte die ze zelf maakt."),
         ]),
+    ],
+    onthoud=[
+        "Een kracht verricht arbeid als het voorwerp zich verplaatst terwijl die kracht erop werkt.",
+        "Een kracht loodrecht op de verplaatsing verricht geen arbeid.",
+        "Kinetische energie is de helft van massa maal snelheid in het kwadraat.",
+        "Gravitationele potentiële energie is massa maal zwaarteveldsterkte maal hoogte.",
+        "Een kilowattuur is energie, geen vermogen.",
+        "Energie kan niet verdwijnen, enkel van vorm veranderen.",
+        "Vermogen = omgezette energie gedeeld door de tijd, in watt.",
+        "Rendement = nuttige energie gedeeld door totale energie; boven honderd procent bestaat niet.",
     ],
 )
 
@@ -1904,6 +2087,17 @@ BUNDELS["warmte-en-faseovergangen-boost-doorstroom"] = dict(
                        "te laag uit."),
         ]),
     ],
+    onthoud=[
+        "Temperatuur hangt samen met de kinetische energie van de deeltjes; warmte is energie die overgaat.",
+        "Warmte gaat altijd van warm naar koud, tot het thermisch evenwicht.",
+        "Geleiding en convectie hebben een stof nodig; straling gaat ook door het luchtledige.",
+        "Merkbare warmte = specifieke warmtecapaciteit maal massa maal temperatuurverschil.",
+        "Water heeft een heel grote warmtecapaciteit, ongeveer 4180 joule per kilogram per graad.",
+        "Stollen, condenseren en desublimeren geven warmte af; smelten, verdampen en sublimeren nemen op.",
+        "Bij een faseovergang blijft de temperatuur gelijk.",
+        "Latente warmte = specifieke faseovergangswarmte maal de massa.",
+        "Zweten koelt doordat het verdampen warmte uit je huid haalt.",
+    ],
 )
 
 # ───────────────────────── 19. Elektriciteit en de wet van Ohm
@@ -2008,6 +2202,16 @@ BUNDELS["elektriciteit-en-de-wet-van-ohm-boost-doorstroom"] = dict(
                        "statische schok van duizenden volt voelt onaangenaam maar is onschuldig, omdat er "
                        "bijna geen stroom bij hoort."),
         ]),
+    ],
+    onthoud=[
+        "Stroomsterkte meet je in ampère, spanning in volt, weerstand in ohm.",
+        "Wet van Ohm: weerstand = spanning gedeeld door stroomsterkte.",
+        "Bij gelijke spanning geeft dubbele weerstand halve stroom.",
+        "Een geleider heeft een kleine weerstand, een isolator een heel grote.",
+        "De conventionele stroomzin loopt van plus naar min, de werkelijke van min naar plus.",
+        "Joule-effect: een geleider warmt op doordat er stroom door loopt.",
+        "Bij een kortsluiting is de weerstand bijna nul en schiet de stroomsterkte omhoog.",
+        "Een verliesstroomschakelaar slaat af als er stroom langs een onbedoelde weg wegloopt.",
     ],
 )
 
@@ -2127,6 +2331,17 @@ BUNDELS["veilig-werken-meten-en-levensreddend-handelen-boost-doorstroom"] = dict
                        "borstcompressies, en de rugslagen zijn veel zachter. Een cursus eerste hulp laat je "
                        "dat op een pop oefenen, en dat is iets anders dan het lezen."),
         ]),
+    ],
+    onthoud=[
+        "H-zinnen beschrijven het gevaar, P-zinnen de voorzorgen.",
+        "Glasscherven gaan in de bak voor scherp afval, nooit met je handen.",
+        "Het meetbereik is de kleinste en de grootste waarde die een instrument kan meten.",
+        "Milli is een duizendste, micro een miljoenste, nano een miljardste; kilo is duizend.",
+        "Reageert iemand niet: roep om hulp en controleer of het normaal ademt.",
+        "Het noodnummer in België en in heel Europa is 112.",
+        "Reageert het slachtoffer niet maar ademt het wel normaal: stabiele zijligging.",
+        "Reanimatie: dertig hartmassages, vijf tot zes centimeter diep, afwisselen met twee beademingen.",
+        "Ernstige verslikking: vijf rugslagen, dan vijf buikstoten, en blijven afwisselen.",
     ],
 )
 
@@ -2249,5 +2464,16 @@ BUNDELS["grootheden-eenheden-en-wetenschappelijk-onderzoek-boost-doorstroom"] = 
             ("weetje", "Een gat in je gegevens is zelf een resultaat. Noteer ook wat je níét gevonden "
                        "hebt: zo weet de lezer wat je besluit wel en niet kan dekken."),
         ]),
+    ],
+    onthoud=[
+        "Een grootheid is wat je meet, een eenheid is waarin je het uitdrukt.",
+        "Druk meet je in pascal, niet in newton; de newton is de eenheid van kracht.",
+        "Beduidende cijfers zijn de cijfers die je echt gemeten hebt.",
+        "Herhalen verkleint de invloed van toevallige meetfouten; een systematische fout haal je er niet uit.",
+        "Recht evenredig: een rechte door de oorsprong. Omgekeerd evenredig: het product blijft gelijk.",
+        "Kwadratisch: twee keer meer geeft vier keer meer.",
+        "Een hypothese is een onderbouwde verwachting; blijkt ze verkeerd, dan is het onderzoek niet mislukt.",
+        "Verander maar één ding tegelijk en houd alle andere omstandigheden gelijk.",
+        "Bij een ontwerp definieer je het probleem, stel je criteria op, en evalueer en stuur je bij.",
     ],
 )
