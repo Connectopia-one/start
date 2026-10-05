@@ -1,0 +1,107 @@
+{
+ "vak": "Aardrijkskunde",
+ "titel": "Duurzaam omgaan met de ruimte",
+ "onder": "De vijf P's en de duurzame ontwikkelingsdoelen, en hoe je er een plan of een bedrijf mee beoordeelt.",
+ "secties": [
+  {
+   "kop": "Wat duurzame ontwikkeling is",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Duurzame ontwikkeling</strong> is voorzien in de noden van nu zonder die van later onmogelijk te maken. Die omschrijving zet de huidige generatie en de volgende naast elkaar, en daarom gaat duurzaamheid over de planeet én over mensen én over welvaart tegelijk. Ze gaat dus niet alleen over het milieu: armoede, onderwijs, ongelijkheid, werk en vrede staan er evengoed in."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 210\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"8.0\" y=\"10\" width=\"82.8\" height=\"150\" rx=\"6\" fill=\"#fff\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><rect x=\"8.0\" y=\"10\" width=\"82.8\" height=\"30\" rx=\"6\" fill=\"#c17f2b\"/><rect x=\"8.0\" y=\"30\" width=\"82.8\" height=\"10\" fill=\"#c17f2b\"/><text x=\"49.4\" y=\"30.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#ffffff\">People</text><text x=\"49.4\" y=\"56.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">mensen</text><text x=\"49.4\" y=\"76.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#23291f\">een eerlijk loon,</text><text x=\"49.4\" y=\"87.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#23291f\">veilig werk,</text><text x=\"49.4\" y=\"98.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#23291f\">onderwijs voor</text><text x=\"49.4\" y=\"109.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#23291f\">iedereen</text><rect x=\"98.8\" y=\"10\" width=\"82.8\" height=\"150\" rx=\"6\" fill=\"#fff\" stroke=\"#3f7a46\" stroke-width=\"1.6\"/><rect x=\"98.8\" y=\"10\" width=\"82.8\" height=\"30\" rx=\"6\" fill=\"#3f7a46\"/><rect x=\"98.8\" y=\"30\" width=\"82.8\" height=\"10\" fill=\"#3f7a46\"/><text x=\"140.2\" y=\"30.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#ffffff\">Planet</text><text x=\"140.2\" y=\"56.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">de aarde</text><text x=\"140.2\" y=\"76.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#23291f\">een beekvallei</text><text x=\"140.2\" y=\"87.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#23291f\">beschermen, een</text><text x=\"140.2\" y=\"98.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#23291f\">bos aanleggen</text><rect x=\"189.6\" y=\"10\" width=\"82.8\" height=\"150\" rx=\"6\" fill=\"#fff\" stroke=\"#5b7f9c\" stroke-width=\"1.6\"/><rect x=\"189.6\" y=\"10\" width=\"82.8\" height=\"30\" rx=\"6\" fill=\"#5b7f9c\"/><rect x=\"189.6\" y=\"30\" width=\"82.8\" height=\"10\" fill=\"#5b7f9c\"/><text x=\"231.0\" y=\"30.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#ffffff\">Prosperity</text><text x=\"231.0\" y=\"56.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">welvaart</text><text x=\"231.0\" y=\"76.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#23291f\">werk dat genoeg</text><text x=\"231.0\" y=\"87.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#23291f\">opbrengt,</text><text x=\"231.0\" y=\"98.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#23291f\">betaalbare</text><text x=\"231.0\" y=\"109.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#23291f\">energie</text><rect x=\"280.4\" y=\"10\" width=\"82.8\" height=\"150\" rx=\"6\" fill=\"#fff\" stroke=\"#7a5b8f\" stroke-width=\"1.6\"/><rect x=\"280.4\" y=\"10\" width=\"82.8\" height=\"30\" rx=\"6\" fill=\"#7a5b8f\"/><rect x=\"280.4\" y=\"30\" width=\"82.8\" height=\"10\" fill=\"#7a5b8f\"/><text x=\"321.8\" y=\"30.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#ffffff\">Peace</text><text x=\"321.8\" y=\"56.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">vrede</text><text x=\"321.8\" y=\"76.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#23291f\">zonder vrede</text><text x=\"321.8\" y=\"87.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#23291f\">wordt er niets</text><text x=\"321.8\" y=\"98.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#23291f\">opgebouwd of</text><text x=\"321.8\" y=\"109.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#23291f\">beschermd</text><rect x=\"371.2\" y=\"10\" width=\"82.8\" height=\"150\" rx=\"6\" fill=\"#fff\" stroke=\"#a2521f\" stroke-width=\"1.6\"/><rect x=\"371.2\" y=\"10\" width=\"82.8\" height=\"30\" rx=\"6\" fill=\"#a2521f\"/><rect x=\"371.2\" y=\"30\" width=\"82.8\" height=\"10\" fill=\"#a2521f\"/><text x=\"412.6\" y=\"30.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#ffffff\">Partnership</text><text x=\"412.6\" y=\"56.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">samenwerking</text><text x=\"412.6\" y=\"76.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#23291f\">landen, bedrijven</text><text x=\"412.6\" y=\"87.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#23291f\">en burgers die</text><text x=\"412.6\" y=\"98.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"8\" fill=\"#23291f\">samen aanpakken</text><text x=\"235.0\" y=\"180.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">De vijf hangen samen: wat de ene vooruithelpt, kan de andere tegelijk schaden.</text><text x=\"235.0\" y=\"196.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">Daarom is duurzaamheid altijd een afweging en nooit één knop.</text></svg>",
+     "onderschrift": "De vijf P's, met van elk een voorbeeld. Samen tonen ze dat duurzaamheid meer is dan milieu alleen."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Planet</strong> gaat over de aarde zelf: klimaat, water, bodem, lucht en biodiversiteit. <strong>People</strong> gaat over de basisvoorwaarden van een menswaardig leven: onderwijs voor iedereen, goede gezondheidszorg, het uitbannen van honger. <strong>Prosperity</strong> gaat over welvaart en werk dat genoeg opbrengt. <strong>Peace</strong> staat er niet toevallig bij: zonder veiligheid werkt niets anders, want in oorlogsgebied is er geen onderwijs, geen zorg, geen investering en geen bosbeheer. <strong>Partnership</strong> is samenwerking, want geen enkel land lost deze problemen alleen op: klimaat, oceanen, ziektes en handel stoppen niet aan een grens."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>duurzame ontwikkelingsdoelen</strong> of SDG's werden in 2015 door de landen van de <strong>Verenigde Naties</strong> goedgekeurd, met <strong>2030</strong> als streefdatum. Ze gaan over milieu, mensen en economie samen, ze gelden voor alle landen ter wereld, en ze hebben een afgesproken einddatum. Afdwingbaar bij een rechtbank zijn ze niet: landen rapporteren vrijwillig, en dat is meteen hun zwakke plek."
+    },
+    {
+     "soort": "kader",
+     "html": "De doelen gelden óók voor welvarende landen. Dat is het verschil met de oudere millenniumdoelen, die vooral op arme landen mikten. Uitstoot, afval en ongelijkheid zijn in rijke landen vaak juist het grootst. Op het examen krijg je trouwens een overzicht van de doelen mee: je hoeft ze niet uit het hoofd te kennen, je moet ermee kunnen redeneren."
+    }
+   ]
+  },
+  {
+   "kop": "Ontwikkeling en duurzaamheid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een hogere <strong>ontwikkelingsgraad</strong> kan een stap naar een duurzamere wereld zijn: beter onderwijs en betere zorg geven mensen ruimte om verder te kijken dan de dag van morgen. Wie zeker is van eten, gezondheid en school, kan investeren in de lange termijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "Tegelijk stijgt met welvaart ook het verbruik, en juist dat spanningsveld is de kern van het debat. Een welvarend land heeft dus niet vanzelf een kleine <strong>ecologische voetafdruk</strong>; vaak is het omgekeerde waar. De ecologische voetafdruk is de oppervlakte aarde die nodig is om iemands verbruik te dekken en zijn afval te verwerken. Leefden alle mensen zoals de gemiddelde West-Europeaan, dan was er meer dan één aarde nodig."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom botsen de vijf P's soms met elkaar: wat goed is voor de welvaart, is niet altijd goed voor de planeet. Een nieuw bedrijventerrein op akkerland brengt werk en inkomen, dus vanuit Prosperity valt er iets voor te zeggen, maar er verdwijnt open ruimte en er komt verharding bij, dus vanuit Planet is het moeilijk te verdedigen. Duurzaam beslissen betekent die afweging bewust maken in plaats van één kant te vergeten. Een duurzame keuze is trouwens zelden de goedkoopste op korte termijn: isoleren, hergebruiken en zuiveren kosten eerst meer en verdienen zich later terug."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Duurzaam ruimtegebruik</strong> betekent met dezelfde oppervlakte méér doen, in plaats van telkens nieuwe ruimte aan te snijden: hergebruik van een leegstaand gebouw, bouwen op een oud bedrijfsterrein, een terrein met meerdere functies. Nieuwe grond aansnijden is altijd de duurste keuze voor de planeet. Duurzaamheid en economische groei sluiten elkaar daarbij niet uit: hergebruik, isolatie, hernieuwbare energie en kringloop leveren ook werk en omzet op. De spanning is echt, maar ze is geen wet."
+    }
+   ]
+  },
+  {
+   "kop": "Verstedelijking beoordelen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Verstedelijking heeft vijf gevolgen voor het leefmilieu: <strong>versnippering</strong> van de open ruimte, de gevolgen van <strong>verharding</strong>, het <strong>hitte-eilandeffect</strong>, <strong>luchtvervuiling</strong> en <strong>verkeersdrukte</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Versnippering is een probleem omdat kleine losse stukken minder goed werken dan één groot gebied: dieren kunnen zich niet verplaatsen tussen de stukken, en de randen drogen uit en verstoren. Daarom bouwt men ecoducten en verbindingsstroken. Verharding is een probleem bij hevige regen omdat het water niet in de grond kan en alles tegelijk naar dezelfde riool loopt, die overloopt; het grondwater onder de stad wordt ondertussen niet aangevuld. Meer groen en water in een stad verzachten het hitte-eilandeffect, want bomen geven schaduw en verdampen water."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een stad die een fietssnelweg aanlegt en parkeerplaatsen schrapt, pakt drie van die vijf tegelijk aan: minder auto's betekent minder uitstoot, minder drukte en minder asfalt."
+    }
+   ]
+  },
+  {
+   "kop": "Industrie en landbouw beoordelen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Bij grondstofontginning, energieproductie en industrie horen twee begrippen: <strong>industrialisatie</strong> (er komt fabrieksactiviteit bij, met werk en met ruimtebeslag) en <strong>de-industrialisatie</strong> (die verdwijnt weer, en het werk ermee)."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bouwen op een oud bedrijfsterrein is duurzamer dan een nieuw terrein aansnijden, want de grond werd al gebruikt en er gaat geen open ruimte verloren. Goedkoper is het niet noodzakelijk: een oude fabriekssite kan vervuilde grond bevatten, want zware metalen, olie en oplosmiddelen blijven decennia in de bodem. Die grond moet eerst <strong>gesaneerd</strong> worden, en die kost is een van de redenen waarom zo'n site soms jaren leeg blijft liggen. Kiest een gemeente tussen een verkaveling op akkerland en het opknappen van zo'n site, dan is de site de duurzamere keuze."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij de landbouw gaat het om <strong>ontbossing</strong> en <strong>schaalvergroting</strong>. Ontbossing voor landbouwgrond laat koolstof vrij die in het bos en de bosbodem opgeslagen zat, bovenop het verlies aan biodiversiteit. En akkerbouw op een pas ontbost tropisch perceel levert na enkele jaren veel minder op, want de vruchtbare laag is er dun en raakt snel uitgeput. Schaalvergroting maakt de velden groter en de bedrijven minder talrijk, en veegt hagen, houtkanten en veldwegen uit het landschap."
+    },
+    {
+     "soort": "tekst",
+     "html": "Krijg je op het examen de beschrijving van een landbouwbedrijf en de lijst met doelen, dan is de opdracht: beoordelen of het bedrijf duurzaam werkt, met argumenten uit die lijst of uit de vijf P's. Een bedrijf dat jaar na jaar hetzelfde gewas op dezelfde hellende percelen teelt zonder groenbedekker, werkt niet duurzaam: geen vruchtwisseling put de bodem uit, en een kale helling laat de regen de bovenlaag meenemen. Wisselt het zijn gewassen af, houdt het hagen en bufferstroken, en bemest het niet meer dan de teelt opneemt, dan wél."
+    },
+    {
+     "soort": "kader",
+     "html": "Een goed oordeel <strong>weegt af</strong> in plaats van te kiezen. Een windmolenpark levert energie zonder uitstoot, maar neemt ruimte in en raakt landschap, geluid en vogels. Zeg dus wat er aan beide kanten van de weegschaal ligt, en zeg met welke P of welk doel je elk argument verbindt. En stel je altijd eerst de vraag: wat betekent dit op lange termijn voor mens én omgeving?"
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Duurzame ontwikkeling is voorzien in de noden van nu zonder die van later onmogelijk te maken.",
+  "De vijf P's zijn Planet, People, Prosperity, Peace en Partnership.",
+  "De SDG's werden in 2015 door de Verenigde Naties goedgekeurd, met 2030 als streefdatum.",
+  "De doelen gelden voor alle landen, maar zijn niet afdwingbaar bij een rechtbank.",
+  "Veel welvaart betekent niet vanzelf een kleine ecologische voetafdruk.",
+  "Duurzaam ruimtegebruik betekent met dezelfde oppervlakte méér doen.",
+  "Gevolgen van verstedelijking: versnippering, verharding, hitte-eilandeffect, luchtvervuiling en verkeersdrukte.",
+  "Bouwen op een oud bedrijfsterrein is duurzamer dan nieuwe grond aansnijden, maar niet noodzakelijk goedkoper.",
+  "Een goed oordeel weegt af en verbindt elk argument met een P of een doel."
+ ]
+}

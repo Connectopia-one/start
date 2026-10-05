@@ -1,0 +1,115 @@
+{
+ "vak": "Aardrijkskunde",
+ "titel": "Hoe een bevolking verandert",
+ "onder": "De kengetallen, het leeftijdshistogram, het verloop van de cijfers, en waarom mensen migreren.",
+ "secties": [
+  {
+   "kop": "De kengetallen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Om bevolkingen te vergelijken, werk je met <strong>kengetallen</strong>. Het <strong>geboortecijfer</strong> en het <strong>sterftecijfer</strong> zijn het aantal geboorten en sterfgevallen <strong>per duizend inwoners per jaar</strong>. Juist doordat het verhoudingsgetallen zijn, kan je India met België vergelijken; absolute aantallen zouden altijd naar het grootste land wijzen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>natuurlijke aangroei</strong> is het geboortecijfer min het sterftecijfer. Bij 14 ‰ geboorten en 9 ‰ sterften is dat 5 ‰. Ze kan ook negatief zijn: sterven er meer mensen dan er geboren worden, dan krimpt de bevolking, tenzij migratie dat opvangt."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Emigratie</strong> is vertrekken, <strong>immigratie</strong> is aankomen; dezelfde persoon is emigrant in het land dat hij verlaat en immigrant in het land waar hij aankomt. Wie uit een land emigreert, immigreert dus in een ander. Voor de wereld samen heffen aankomst en vertrek elkaar op; alleen per land blijft er een verschil over."
+    },
+    {
+     "soort": "kader",
+     "html": "De <strong>totale groei</strong> van een land is de natuurlijke aangroei plus wie erbij komt en min wie vertrekt. Daarom kan een land met een negatieve natuurlijke aangroei toch groeien: in verschillende West-Europese landen komt de groei vandaag bijna helemaal van immigratie."
+    },
+    {
+     "soort": "weetje",
+     "html": "Het ruwe sterftecijfer hangt ook van de leeftijdsstructuur af. Een land met heel veel ouderen kan een hóger sterftecijfer hebben dan een land met een jonge bevolking en slechtere zorg. Goede gezondheidszorg betekent dus niet automatisch een laag sterftecijfer."
+    }
+   ]
+  },
+  {
+   "kop": "Het leeftijdshistogram",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>leeftijdshistogram</strong> toont de bevolking per leeftijdsgroep: links de mannen, rechts de vrouwen, van jong onderaan naar oud bovenaan, met per balk een aantal of een percentage. Meestal gaat het per vijf jaar: met honderd smalle balken zie je alleen ruis, met twintig bredere zie je de vorm en dus de structuur. Inkomen en woonplaats staan er niet op."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 230\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"16.0\" y=\"173\" width=\"62.3\" height=\"11\" fill=\"#9fb7c8\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"78.3\" y=\"173\" width=\"62.3\" height=\"11\" fill=\"#d8bfa6\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"23.5\" y=\"160\" width=\"54.9\" height=\"11\" fill=\"#9fb7c8\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"78.3\" y=\"160\" width=\"54.9\" height=\"11\" fill=\"#d8bfa6\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"31.0\" y=\"147\" width=\"47.4\" height=\"11\" fill=\"#9fb7c8\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"78.3\" y=\"147\" width=\"47.4\" height=\"11\" fill=\"#d8bfa6\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"38.4\" y=\"134\" width=\"39.9\" height=\"11\" fill=\"#9fb7c8\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"78.3\" y=\"134\" width=\"39.9\" height=\"11\" fill=\"#d8bfa6\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"45.3\" y=\"121\" width=\"33.0\" height=\"11\" fill=\"#9fb7c8\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"78.3\" y=\"121\" width=\"33.0\" height=\"11\" fill=\"#d8bfa6\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"52.2\" y=\"108\" width=\"26.2\" height=\"11\" fill=\"#9fb7c8\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"78.3\" y=\"108\" width=\"26.2\" height=\"11\" fill=\"#d8bfa6\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"58.4\" y=\"95\" width=\"19.9\" height=\"11\" fill=\"#9fb7c8\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"78.3\" y=\"95\" width=\"19.9\" height=\"11\" fill=\"#d8bfa6\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"64.6\" y=\"82\" width=\"13.7\" height=\"11\" fill=\"#9fb7c8\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"78.3\" y=\"82\" width=\"13.7\" height=\"11\" fill=\"#d8bfa6\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"70.2\" y=\"69\" width=\"8.1\" height=\"11\" fill=\"#9fb7c8\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"78.3\" y=\"69\" width=\"8.1\" height=\"11\" fill=\"#d8bfa6\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"74.6\" y=\"56\" width=\"3.7\" height=\"11\" fill=\"#9fb7c8\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"78.3\" y=\"56\" width=\"3.7\" height=\"11\" fill=\"#d8bfa6\" stroke=\"#234539\" stroke-width=\"0.7\"/><line x1=\"78.3\" y1=\"56\" x2=\"78.3\" y2=\"186\" stroke=\"#234539\" stroke-width=\"1.2\"/><line x1=\"16.0\" y1=\"186\" x2=\"140.7\" y2=\"186\" stroke=\"#23291f\" stroke-width=\"1.6\"/><text x=\"78.3\" y=\"202.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">piramide</text><text x=\"78.3\" y=\"216.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">veel kinderen, weinig</text><text x=\"78.3\" y=\"228.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">ouderen</text><rect x=\"190.1\" y=\"173\" width=\"44.9\" height=\"11\" fill=\"#9fb7c8\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"235.0\" y=\"173\" width=\"44.9\" height=\"11\" fill=\"#d8bfa6\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"186.4\" y=\"160\" width=\"48.6\" height=\"11\" fill=\"#9fb7c8\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"235.0\" y=\"160\" width=\"48.6\" height=\"11\" fill=\"#d8bfa6\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"182.6\" y=\"147\" width=\"52.4\" height=\"11\" fill=\"#9fb7c8\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"235.0\" y=\"147\" width=\"52.4\" height=\"11\" fill=\"#d8bfa6\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"180.1\" y=\"134\" width=\"54.9\" height=\"11\" fill=\"#9fb7c8\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"235.0\" y=\"134\" width=\"54.9\" height=\"11\" fill=\"#d8bfa6\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"181.4\" y=\"121\" width=\"53.6\" height=\"11\" fill=\"#9fb7c8\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"235.0\" y=\"121\" width=\"53.6\" height=\"11\" fill=\"#d8bfa6\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"186.4\" y=\"108\" width=\"48.6\" height=\"11\" fill=\"#9fb7c8\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"235.0\" y=\"108\" width=\"48.6\" height=\"11\" fill=\"#d8bfa6\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"195.1\" y=\"95\" width=\"39.9\" height=\"11\" fill=\"#9fb7c8\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"235.0\" y=\"95\" width=\"39.9\" height=\"11\" fill=\"#d8bfa6\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"206.3\" y=\"82\" width=\"28.7\" height=\"11\" fill=\"#9fb7c8\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"235.0\" y=\"82\" width=\"28.7\" height=\"11\" fill=\"#d8bfa6\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"218.2\" y=\"69\" width=\"16.8\" height=\"11\" fill=\"#9fb7c8\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"235.0\" y=\"69\" width=\"16.8\" height=\"11\" fill=\"#d8bfa6\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"228.1\" y=\"56\" width=\"6.9\" height=\"11\" fill=\"#9fb7c8\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"235.0\" y=\"56\" width=\"6.9\" height=\"11\" fill=\"#d8bfa6\" stroke=\"#234539\" stroke-width=\"0.7\"/><line x1=\"235.0\" y1=\"56\" x2=\"235.0\" y2=\"186\" stroke=\"#234539\" stroke-width=\"1.2\"/><line x1=\"172.7\" y1=\"186\" x2=\"297.3\" y2=\"186\" stroke=\"#23291f\" stroke-width=\"1.6\"/><text x=\"235.0\" y=\"202.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">klok</text><text x=\"235.0\" y=\"216.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">de groepen liggen</text><text x=\"235.0\" y=\"228.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">dicht bij elkaar</text><rect x=\"363.0\" y=\"173\" width=\"28.7\" height=\"11\" fill=\"#9fb7c8\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"391.7\" y=\"173\" width=\"28.7\" height=\"11\" fill=\"#d8bfa6\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"359.3\" y=\"160\" width=\"32.4\" height=\"11\" fill=\"#9fb7c8\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"391.7\" y=\"160\" width=\"32.4\" height=\"11\" fill=\"#d8bfa6\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"354.3\" y=\"147\" width=\"37.4\" height=\"11\" fill=\"#9fb7c8\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"391.7\" y=\"147\" width=\"37.4\" height=\"11\" fill=\"#d8bfa6\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"348.0\" y=\"134\" width=\"43.6\" height=\"11\" fill=\"#9fb7c8\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"391.7\" y=\"134\" width=\"43.6\" height=\"11\" fill=\"#d8bfa6\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"340.6\" y=\"121\" width=\"51.1\" height=\"11\" fill=\"#9fb7c8\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"391.7\" y=\"121\" width=\"51.1\" height=\"11\" fill=\"#d8bfa6\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"335.6\" y=\"108\" width=\"56.1\" height=\"11\" fill=\"#9fb7c8\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"391.7\" y=\"108\" width=\"56.1\" height=\"11\" fill=\"#d8bfa6\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"338.1\" y=\"95\" width=\"53.6\" height=\"11\" fill=\"#9fb7c8\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"391.7\" y=\"95\" width=\"53.6\" height=\"11\" fill=\"#d8bfa6\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"346.8\" y=\"82\" width=\"44.9\" height=\"11\" fill=\"#9fb7c8\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"391.7\" y=\"82\" width=\"44.9\" height=\"11\" fill=\"#d8bfa6\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"361.7\" y=\"69\" width=\"29.9\" height=\"11\" fill=\"#9fb7c8\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"391.7\" y=\"69\" width=\"29.9\" height=\"11\" fill=\"#d8bfa6\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"379.2\" y=\"56\" width=\"12.5\" height=\"11\" fill=\"#9fb7c8\" stroke=\"#234539\" stroke-width=\"0.7\"/><rect x=\"391.7\" y=\"56\" width=\"12.5\" height=\"11\" fill=\"#d8bfa6\" stroke=\"#234539\" stroke-width=\"0.7\"/><line x1=\"391.7\" y1=\"56\" x2=\"391.7\" y2=\"186\" stroke=\"#234539\" stroke-width=\"1.2\"/><line x1=\"329.3\" y1=\"186\" x2=\"454.0\" y2=\"186\" stroke=\"#23291f\" stroke-width=\"1.6\"/><text x=\"391.7\" y=\"202.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#c17f2b\">urn</text><text x=\"391.7\" y=\"216.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">weinig kinderen, veel</text><text x=\"391.7\" y=\"228.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">ouderen</text><text x=\"44.3\" y=\"20.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">mannen</text><text x=\"112.3\" y=\"20.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">vrouwen</text><text x=\"462.0\" y=\"20.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">onderaan de jongste groep, bovenaan de oudste</text></svg>",
+     "onderschrift": "Drie vormen. De piramide hoort bij een hoog geboortecijfer en een levensverwachting die nog laag ligt; de urn bij een bevolking die vergrijst."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een brede basis die snel smal toeloopt, betekent veel kinderen en weinig ouderen. Is het histogram bovenaan even breed als in het midden en smaller onderaan, dan <strong>vergrijst</strong> de bevolking. Een <strong>inkeping</strong> halverwege wijst vaak op een oorlog of een crisis van vroeger: wie toen geboren had moeten worden, ontbreekt, en die deuk schuift zijn hele leven mee omhoog. Een land dat jarenlang gezinnen tot één kind beperkte, heeft om dezelfde reden smalle balken bij die leeftijdsgroepen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ook migratie verandert de vorm. Wie migreert is vaak jongvolwassen, dus krijgt een land met veel immigratie bredere balken rond de twintig tot veertig jaar."
+    }
+   ]
+  },
+  {
+   "kop": "Demografische processen en migratie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>demografische processen</strong> zijn de bevolkingsevolutie, de vergrijzing, de immigratie en de emigratie. <strong>Vergrijzing</strong> betekent dat het <em>aandeel</em> ouderen toeneemt, niet dat het aantal inwoners daalt. Ze komt van een dalend geboortecijfer en een stijgende levensverwachting samen, en zet pensioenen, zorg en arbeidsmarkt onder druk terwijl scholen juist leeg komen te staan."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Braindrain</strong> is het vertrek van hoogopgeleide mensen naar het buitenland; voor het ontvangende land heet dat <strong>braingain</strong>. Het land dat de opleiding betaalde, verliest net de artsen, ingenieurs en leerkrachten die het nodig heeft. Wat er soms tegenover staat, is het geld dat migranten naar huis sturen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>beïnvloedende factoren</strong> zijn het klimaat en de klimaatverandering, het reliëf, de bodemkwaliteit, de politieke situatie, de oorlogssituatie, het geboortebeleid, de welvaart en het welzijn, en armoede. Een geboortecijfer blijft laag wanneer vrouwen lang naar school gaan en werken, wanneer beleid grote gezinnen ontmoedigt, en wanneer huisvesting en kinderopvang duur zijn. Hoge kindersterfte en een landbouweconomie duwen het juist omhoog: dan zijn kinderen handen op het veld en een zekerheid voor later."
+    },
+    {
+     "soort": "tekst",
+     "html": "Mensen migreren om <strong>pushfactoren</strong> en <strong>pullfactoren</strong>. Push duwt je weg: oorlog, armoede, droogte, werkloosheid, vervolging. Pull trekt je aan: werk, veiligheid, onderwijs, familie die er al woont. De meeste mensen die migreren blijven binnen hun eigen wereldregio: de reis is korter, de taal vaak dichterbij, en er wonen al bekenden."
+    },
+    {
+     "soort": "weetje",
+     "html": "Klimaat is ook een pushfactor, maar wie door droogte of overstroming wegtrekt, steekt zelden meteen een oceaan over. De meeste mensen verhuizen eerst binnen hun eigen land, vaak van het platteland naar de stad. Een verre reis kost geld dat ze net niet hebben."
+    },
+    {
+     "soort": "tekst",
+     "html": "Vertrekken er veel jonge, opgeleide mensen uit een land en komen er weinig bij, dan veroudert dat land én verliest het kennis. De achterblijvende bevolking wordt gemiddeld ouder, en het land mist net de mensen die het nodig heeft."
+    }
+   ]
+  },
+  {
+   "kop": "Het verloop van de cijfers lezen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Je legt het verloop van het geboorte- en het sterftecijfer van een land uit met <strong>grafieken</strong> en <strong>tabellen</strong>. Een lijngrafiek zet de twee cijfers naast elkaar en laat zien waar het gat tussen beide wijder of smaller wordt. Dat gat is precies de natuurlijke aangroei."
+    },
+    {
+     "soort": "tekst",
+     "html": "Drie beelden komen vaak terug. Liggen <strong>beide cijfers hoog</strong>, dan blijft de bevolking ongeveer gelijk: er worden veel kinderen geboren, maar er sterven ook veel mensen. <strong>Daalt het sterftecijfer snel terwijl het geboortecijfer hoog blijft</strong>, dan groeit de bevolking snel; dat gebeurt als voeding, drinkwater en gezondheidszorg beter worden, want gewoonten rond kinderen krijgen veranderen veel trager. Liggen <strong>beide cijfers laag</strong> en leven mensen lang, dan groeit de bevolking weer traag, maar met veel meer ouderen."
+    },
+    {
+     "soort": "kader",
+     "html": "Een geboortecijfer van 34 ‰ naast een sterftecijfer van 9 ‰ geeft een natuurlijke aangroei van 25 per duizend, dus bijna drie procent per jaar. Zo'n land heeft een brede basis in zijn leeftijdshistogram."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee landen waarvan de bevolking even traag groeit, hebben daarom nog niet dezelfde <strong>leeftijdsopbouw</strong>. Traag groeien kan met veel kinderen en veel sterfgevallen, of met weinig kinderen en veel ouderen. In het histogram zien die twee er helemaal anders uit."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Geboorte- en sterftecijfer tel je per duizend inwoners per jaar.",
+  "Natuurlijke aangroei = geboortecijfer min sterftecijfer.",
+  "Totale groei = natuurlijke aangroei plus wie erbij komt, min wie vertrekt.",
+  "De vijf kengetallen: geboortecijfer, sterftecijfer, natuurlijke aangroei, immigratie en emigratie.",
+  "Een leeftijdshistogram toont mannen links, vrouwen rechts, van jong onderaan naar oud bovenaan.",
+  "Daalt de sterfte terwijl de geboorten hoog blijven, dan groeit een bevolking het snelst.",
+  "Vergrijzing betekent dat het aandeel ouderen toeneemt, niet dat het aantal inwoners daalt.",
+  "Braindrain is het vertrek van hoogopgeleiden; voor het ontvangende land heet dat braingain.",
+  "Pushfactoren duwen je weg, pullfactoren trekken je aan."
+ ]
+}
