@@ -56,6 +56,17 @@ export default function OverOnsPagina() {
         </p>
       </Sectie>
 
+      {overOns.welkom ? (
+        <Sectie>
+          <h2 className="text-2xl text-green">{overOns.welkom.titel}</h2>
+          <div className="mt-3 grid max-w-[68ch] gap-4 text-ink-dim">
+            {overOns.welkom.tekst.map((alinea) => (
+              <p key={alinea.slice(0, 24)}>{alinea}</p>
+            ))}
+          </div>
+        </Sectie>
+      ) : null}
+
       <Sectie>
         <h2 className="text-2xl text-green">Onze kernwaarden</h2>
         <div className="mt-5 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">

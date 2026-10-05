@@ -34,6 +34,17 @@ export const overOns = {
   citaat:
     "Niet elk kind past in hetzelfde hokje. Sommige kinderen hebben gewoon een grotere speeltuin nodig.",
 
+  /*
+    Het stukje "Iedereen is welkom". Wil je het even niet tonen?  welkom: null,
+  */
+  welkom: {
+    titel: "Iedereen is welkom, welke zorg er ook bij hoort",
+    tekst: [
+      "Bij ons is elk kind welkom, ook als er zorg bij komt kijken. Een sonde, een pompje, medicatie, een rolstoel, een prikkelarme hoek, een eigen tempo: het hoort erbij en het staat niemand in de weg. We zijn het zelf gewend, thuis en in de werking.",
+      "Wat we wel vragen, is dat je het ons op voorhand vertelt. Dan spreken we samen af wat je kind nodig heeft en wie wat doet, zodat het op de dag zelf gewoon een leuke dag is. Twijfel je of het haalbaar is? Bel of mail ons gerust, dan zoeken we het samen uit.",
+    ],
+  },
+
   kernwaarden: [
     {
       titel: "Nieuwsgierigheid",
