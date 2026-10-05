@@ -212,6 +212,13 @@ export const kijkje = {
       alt: "Rekken vol doorzichtige bakken met knutselmateriaal, elk met een etiket",
     },
     {
+      bestand: "het-pompje-gaat-mee.jpg",
+      bijschrift:
+        "Werken met een koek erbij, het pompje gaat gewoon mee. Kinderen met extra zorg zijn hier even welkom als iedereen.",
+      alt: "Jongen van achteren aan een laptop in een lichte hal, met een infuuspomp in een tasje op zijn stoel",
+      gezichten: true,
+    },
+    {
       bestand: "telewerkhokjes-t2.jpg",
       bijschrift: "Op de T2-campus kunnen ouders telewerken in rustige hokjes.",
       alt: "Houten telewerkhokjes met tafel op de T2-campus",
