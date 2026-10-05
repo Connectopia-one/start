@@ -1,0 +1,155 @@
+{
+ "vak": "Engels",
+ "titel": "Klank, klemtoon, intonatie en spelling",
+ "onder": "Hoe het Engels klinkt, waar de klemtoon valt, wat je wel schrijft maar niet hoort, en hoe je de frequente woorden spelt.",
+ "secties": [
+  {
+   "kop": "Klank en schriftbeeld",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het Engels schrijft niet wat het zegt. Dezelfde letter kan telkens anders klinken: vergelijk de a van <em>cat</em>, <em>car</em>, <em>cake</em> en <em>about</em>. Omgekeerd kan dezelfde klank op verschillende manieren geschreven worden: <em>see</em>, <em>sea</em> en <em>scene</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Sommige letters schrijf je wel en hoor je niet. Een paar frequente:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Woord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Je hoort niet</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>knee</em>, <em>knife</em>, <em>know</em></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de k</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>hour</em>, <em>honest</em></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de h</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>island</em></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de s</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>listen</em>, <em>castle</em></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de t</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>half</em>, <em>talk</em>, <em>walk</em></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de l</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>write</em>, <em>wrong</em></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de w</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Omdat <em>hour</em> met een klinkerklank begint, schrijf je er <strong>an</strong> voor: <em>an hour</em>. Het lidwoord volgt de <strong>klank</strong>, niet de letter."
+    },
+    {
+     "soort": "tekst",
+     "html": "Woorden die hetzelfde klinken maar anders geschreven worden, zijn een bekende valkuil: <em>their</em> en <em>there</em>, <em>to</em>, <em>too</em> en <em>two</em>, <em>write</em> en <em>right</em>, <em>your</em> en <em>you're</em>. Je hoort het verschil niet; je ziet het."
+    },
+    {
+     "soort": "weetje",
+     "html": "Ook de verleden tijd <em>read</em> klinkt als <em>red</em>, terwijl de tegenwoordige tijd <em>read</em> als <em>reed</em> klinkt. Eén schriftbeeld, twee klanken."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een paar klanken die het Nederlands niet heeft. De <strong>th</strong> komt in twee soorten: stemloos in <em>think</em> en <em>thank</em>, stemhebbend in <em>this</em>, <em>that</em> en <em>they</em>. En de lengte van een klinker maakt een ander woord: <em>ship</em> is kort, <em>sheep</em> is lang."
+    }
+   ]
+  },
+  {
+   "kop": "Woordaccent",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In elk Engels woord van meer dan één lettergreep ligt de klemtoon op één bepaalde lettergreep: <em>TA-ble</em>, <em>WA-ter</em>, <em>O-pen</em>, maar <em>a-BOUT</em> en <em>com-PU-ter</em>. Leg je ze verkeerd, dan klinkt het woord meteen vreemd, ook al zijn alle klanken juist."
+    },
+    {
+     "soort": "tekst",
+     "html": "De onbeklemtoonde lettergrepen worden half ingeslikt. Daarom hoor je bij het luisteren vooral de <strong>beklemtoonde</strong> lettergrepen, en haal je de inhoud van een zin er het snelst uit als je daarop mikt."
+    },
+    {
+     "soort": "kader",
+     "html": "Bij sommige woorden <strong>verschuift</strong> de klemtoon en verandert daarmee de woordsoort. Het cadeau is een <em><strong>PRE</strong>-sent</em>, een zelfstandig naamwoord; iets voorstellen is <em>pre-<strong>SENT</strong></em>, een werkwoord. Zo ook <em>RE-cord</em> en <em>re-CORD</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Intonatie en articulatie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Intonatie</strong> is de melodie van je zin: hoe je stem stijgt en daalt. Bij een vraag die je met yes of no beantwoordt, gaat je stem aan het eind <strong>omhoog</strong>: <em>Are you coming?</em> Bij een vraag met een vraagwoord daalt ze juist: <em>Where are you going?</em>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Articulatie</strong> is hoe duidelijk je de klanken vormt. Wie de klanken afmaakt in plaats van ze in te slikken, wordt zonder moeite verstaan. Je uitspraak hoeft niet te klinken als die van iemand uit Londen; ze moet je boodschap niet in de weg staan."
+    }
+   ]
+  },
+  {
+   "kop": "De uitgangen -ed en -s",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>-ed</strong> van de verleden tijd klinkt op drie manieren, zonder dat de spelling verandert:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Na een</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Klinkt als</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">t- of d-klank</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een extra lettergreep</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>wanted</em>, <em>needed</em>, <em>started</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stemloze klank</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een t</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>worked</em>, <em>liked</em>, <em>stopped</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stemhebbende klank</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een d</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>played</em>, <em>lived</em>, <em>opened</em></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Met de <strong>meervouds-s</strong> gebeurt hetzelfde: een z na een stemhebbende klank (<em>dogs</em>, <em>pens</em>), een s na een stemloze (<em>cats</em>, <em>books</em>), en een hele lettergreep erbij na een sisklank (<em>boxes</em>, <em>watches</em>, <em>buses</em>)."
+    }
+   ]
+  },
+  {
+   "kop": "De spelling van frequente woorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een paar regels halen de meeste fouten eruit:"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Regel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">korte klinker plus één medeklinker: verdubbelen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stop → stopping, run → running, swim → swimming</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">stomme e valt weg voor -ing</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">make → making, write → writing, dance → dancing</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">y achter een medeklinker wordt ie of ies</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">study → studied, baby → babies, carry → carries</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">y achter een klinker blijft staan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">boy → boys, play → plays</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">na een sisklank komt -es</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">box → boxes, watch → watches, bus → buses</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sommige woorden op -f krijgen -ves</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">leaf → leaves, knife → knives, wife → wives</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "En een paar woorden die bijna iedereen fout schrijft: <strong>because</strong>, <strong>friend</strong>, <strong>beautiful</strong>, <strong>necessary</strong>, <strong>receive</strong>, <strong>definitely</strong> (er zit <em>finite</em> in) en <strong>address</strong>, met dubbele d én dubbele s, terwijl het Nederlandse <em>adres</em> er geen enkele heeft."
+    },
+    {
+     "soort": "kader",
+     "html": "Het ezelsbruggetje <strong>i before e except after c</strong> dekt de meeste gevallen: <em>believe</em> en <em>field</em>, maar <em>receive</em> en <em>ceiling</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Hoofdletters liggen anders dan in het Nederlands. Dagen, maanden, talen, landen en nationaliteiten krijgen er een: <em>Monday</em>, <em>July</em>, <em>English</em>, <em>Belgium</em>. De <strong>seizoenen</strong> niet: <em>winter</em>, <em>spring</em>, <em>summer</em>, <em>autumn</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De apostrof staat waar letters weggevallen zijn: <em>don't</em>, <em>can't</em>, <em>I'm</em>, <em>won't</em>. Zonder apostrof is het een ander woord, of geen woord."
+    },
+    {
+     "soort": "weetje",
+     "html": "Je mag op het examen een spellingcontrole gebruiken om je tekst na te kijken. Die vindt je typfouten, maar ze schrijft niets voor jou en ze ziet niet dat je <em>their</em> schreef waar <em>there</em> moest staan: allebei bestaan ze."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Spelfouten</strong> kosten je niet meteen al je punten: ze tellen pas mee als ze het <strong>begrip</strong> van je tekst in de weg staan. Een lezer die moet raden wat je bedoelt, kost je er wel."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op dit platform oefen je lezen, woordenschat en grammatica. Maar <strong>luisteren</strong> en <strong>spreken</strong> zijn samen bijna de helft van je examen, en die oefen je alleen met geluid en met iemand tegenover je."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> zoek de tekst van een Engels liedje dat je goed kent en lees mee terwijl het speelt. Let op de woorden waar je iets anders hoorde dan er staat."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Het Engels schrijft niet wat het zegt: dezelfde letter kan verschillende klanken hebben.",
+  "Stomme letters: de k van knee, de h van hour, de s van island, de t van listen, de l van half.",
+  "An hour, want het lidwoord volgt de klank en niet de letter.",
+  "Gelijkklinkend maar anders geschreven: their en there, to, too en two, write en right, your en you're.",
+  "De th is stemloos in think en stemhebbend in this. Ship is kort, sheep is lang.",
+  "De klemtoon ligt op één lettergreep: TA-ble, maar a-BOUT en com-PU-ter.",
+  "Verschuift de klemtoon, dan verandert de woordsoort: PRE-sent en pre-SENT.",
+  "Intonatie stijgt bij een ja-neevraag en daalt bij een vraag met een vraagwoord.",
+  "Articulatie is de klanken afmaken. Een accent is geen fout.",
+  "De -ed is een extra lettergreep na t of d, een t na een stemloze klank, een d na een stemhebbende.",
+  "De meervouds-s klinkt als z na een stemhebbende klank en wordt een lettergreep na een sisklank.",
+  "Korte klinker plus één medeklinker: verdubbelen. Stomme e valt weg voor -ing.",
+  "Y achter een medeklinker wordt ie of ies; achter een klinker blijft ze staan.",
+  "Na een sisklank komt -es: boxes, watches, buses.",
+  "i before e except after c: believe, maar receive.",
+  "Dagen, maanden, talen en landen met een hoofdletter, de seizoenen niet."
+ ]
+}

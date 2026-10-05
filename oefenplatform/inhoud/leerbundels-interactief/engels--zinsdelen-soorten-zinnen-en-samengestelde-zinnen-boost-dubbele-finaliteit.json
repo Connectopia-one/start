@@ -1,0 +1,167 @@
+{
+ "vak": "Engels",
+ "titel": "Zinsdelen, soorten zinnen en samengestelde zinnen",
+ "onder": "De zinsdelen, de woordvolgorde, de vijf soorten zinnen, de congruentie, en zinnen aan elkaar knopen met nevenschikking en onderschikking.",
+ "secties": [
+  {
+   "kop": "De zinsdelen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Zinsdeel</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe je het vindt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>onderwerp</strong> (subject)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wie of wat doet de persoonsvorm?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em><strong>My little sister</strong> reads three books a week.</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>persoonsvorm</strong> (finite verb)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">welk werkwoord verandert mee met het onderwerp?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>The children <strong>were</strong> playing outside.</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>lijdend voorwerp</strong> (direct object)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat ondergaat de handeling?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>She wrote <strong>a long letter</strong>.</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>meewerkend voorwerp</strong> (indirect object)</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voor wie of aan wie?</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>He gave <strong>his friend</strong> a present.</em></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Staat het meewerkend voorwerp <strong>achter</strong> het lijdend voorwerp, dan komt er <strong>to</strong> of <strong>for</strong> voor: <em>he gave a present <strong>to</strong> his friend</em>, <em>she sent a card to him</em>. Zonder voorzetsel staat het meewerkend voorwerp eerst: <em>she sent him a card</em>."
+    },
+    {
+     "soort": "weetje",
+     "html": "In <em>The children <strong>were</strong> playing outside</em> is <em>were</em> de persoonsvorm en <em>playing</em> niet: playing verandert niet mee als je het onderwerp verandert."
+    }
+   ]
+  },
+  {
+   "kop": "De woordvolgorde",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De gewone volgorde in een mededelende zin is <strong>onderwerp, persoonsvorm, rest</strong>, en het Engels houdt die veel strenger vast dan het Nederlands."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zet je een bepaling vooraan, dan wisselen het onderwerp en de persoonsvorm <strong>niet</strong> van plaats: <em><strong>Yesterday I went home.</strong></em> Het Nederlands doet dat wel, en dat is de fout die je het vaakst hoort."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zet <strong>nooit iets tussen het werkwoord en zijn lijdend voorwerp</strong>: <em>I like <strong>this film very much</strong></em>, niet <em>I like very much this film</em>."
+    },
+    {
+     "soort": "kader",
+     "html": "De bepalingen achteraan staan in de volgorde <strong>hoe, waar, wanneer</strong>: <em>She sang <strong>beautifully at the concert last night</strong>.</em> Het Nederlands doet het net omgekeerd, en daarom klinkt een letterlijke vertaling altijd vreemd."
+    }
+   ]
+  },
+  {
+   "kop": "De vijf soorten zinnen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Hoe hij eruitziet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">mededelend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onderwerp, persoonsvorm, rest</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>She plays tennis.</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ontkennend</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met don't, doesn't of didn't, of met een hulpwerkwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em><strong>She doesn't want to go.</strong></em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>vragend</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">hulpwerkwoord vooraan</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em><strong>Does she play tennis?</strong></em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bevelend</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kale basisvorm, geen onderwerp</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>Close the door.</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>uitroepend</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>What a</strong> + naamwoord, of <strong>How</strong> + bijvoeglijk naamwoord</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em><strong>What a beautiful garden!</strong></em>, <em>How lovely!</em></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij een uitroep <strong>draait de volgorde niet om</strong>: <em>How fast she runs!</em>, <em>What a mess!</em> Zodra er een vraagteken staat en de volgorde wél omdraait, heb je een gewone vraag: <em>How do you do it?</em>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Staat er al een <strong>hulpwerkwoord</strong> in de zin, dan heb je voor een vraag <strong>geen do</strong> nodig: <em>Is she coming?</em>, <em>Have you finished?</em>, <em>Can he swim?</em> Het hulpwerkwoord schuift gewoon naar voren."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>aanhangvraag</strong> keert om: is de zin bevestigend, dan is de aanhangvraag ontkennend. <em>You're coming tonight, <strong>aren't you</strong>?</em> en <em>You aren't coming, are you?</em>"
+    }
+   ]
+  },
+  {
+   "kop": "Congruentie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Congruentie</strong> betekent dat het werkwoord zich aanpast aan het onderwerp. Twee onderwerpen samen zijn meervoud: <em>My brother and I <strong>are</strong> going out.</em>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Zin</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Waarom</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>The news is good.</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">news eindigt op s maar is enkelvoud</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>Everybody was there.</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">onbepaalde voornaamwoorden zijn enkelvoud</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>The police are looking for him.</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">police staat in het Engels altijd in het meervoud</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>One of my friends is coming tonight.</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het onderwerp is <em>one</em>, niet friends: kijk naar het woord vóór <em>of</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">My family is big.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">gewoner dan are, al mag are als je de leden apart bedoelt</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "Het Engels laat het onderwerp <strong>nooit</strong> weg, behalve bij de imperatief. <em>Is raining today</em> bestaat niet: het moet <em><strong>It</strong> is raining today</em> zijn."
+    }
+   ]
+  },
+  {
+   "kop": "Nevenschikking en onderschikking",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Nevenschikking</strong> knoopt <strong>twee zinnen van gelijke waarde</strong> aan elkaar: allebei de delen kunnen alleen staan. <em>I called her <strong>and</strong> she answered.</em> De nevenschikkende voegwoorden zijn <strong>and</strong>, <strong>but</strong>, <strong>or</strong>, <strong>so</strong>, for en yet."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Onderschikking</strong> hangt een <strong>bijzin</strong> onder een hoofdzin. Een bijzin kan <strong>niet alleen staan</strong>: <em>because it was raining</em> is geen zin. De onderschikkende voegwoorden zijn <strong>because</strong>, <strong>although</strong>, <strong>unless</strong>, <strong>while</strong>, if, when, since en until."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voegwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Wat het doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>because</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de reden</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>I stayed at home <strong>because</strong> it was raining.</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>so</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het gevolg</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>It was raining, <strong>so</strong> I stayed at home.</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>but</strong> / <strong>yet</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een tegenstelling</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em>She was tired, <strong>but</strong> she kept working.</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>although</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een tegenstelling, vooraan in een bijzin</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em><strong>Although</strong> she was tired, she kept working.</em></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>unless</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">if not</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><em><strong>Unless you hurry</strong>, you will miss the bus.</em></td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Although</strong> en <strong>but</strong> zet je <strong>niet samen</strong> in één zin. Eén tegenstelling volstaat. En <strong>unless</strong> bevat al een ontkenning, dus daar komt er geen tweede bij."
+    },
+    {
+     "soort": "tekst",
+     "html": "Komt de bijzin <strong>vooraan</strong>, dan staat de komma <strong>achter de bijzin</strong>: <em>When I arrived, she was asleep.</em> Komt hij achteraan, dan valt de komma meestal weg: <em>she was asleep when I arrived</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een paar onderschikkende voegwoorden die vaak terugkomen: <strong>because</strong> geeft de reden, <strong>although</strong> en <strong>though</strong> een tegenstelling, <strong>unless</strong> een voorwaarde, <strong>while</strong> een gelijktijdigheid en <strong>until</strong> of <strong>till</strong> een einde in de tijd: <em>I will wait <strong>until</strong> you come back.</em>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>So</strong> hoort bij de nevenschikkers en betekent dan 'dus': <em>It was late, <strong>so</strong> we went home.</em> Pas op, want so is ook een bijwoord: <em>It was <strong>so</strong> late.</em> Daar verbindt het niets."
+    },
+    {
+     "soort": "kader",
+     "html": "Tel de <strong>persoonsvormen</strong>. Eén persoonsvorm is een <strong>enkelvoudige</strong> zin, twee of meer maken er een <strong>samengestelde</strong> van, met of zonder voegwoord."
+    }
+   ]
+  },
+  {
+   "kop": "Als-zinnen en afwisseling",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>als-zin</strong> met <strong>if</strong> gebruik je vaak: <em><strong>If it rains</strong>, we <strong>will</strong> stay at home.</em> <em><strong>If I miss</strong> the train, I <strong>will</strong> take the bus.</em>"
+    },
+    {
+     "soort": "kader",
+     "html": "Na <strong>if</strong> zet je <strong>geen will</strong>: <em>if it will rain</em> is fout. De will hoort in de <strong>hoofdzin</strong>. De hoofdzin mag ook vooraan staan, en dan valt de komma weg: <em>we will stay at home if it rains</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Tot slot: wissel af tussen de soorten zinnen. Alleen maar korte hoofdzinnen leest hakkelend, alleen maar lange samengestelde zinnen leest zwaar. Een <strong>verhaal wordt levendiger</strong> van de afwisseling."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op dit platform oefen je lezen, woordenschat en grammatica. Maar <strong>luisteren</strong> is 30 % van je examen, en <strong>spreken</strong> met de twee <strong>mondelinge interacties</strong> samen nog eens <strong>24 %</strong>. Die drie leer je niet achter een scherm. Je leert ze door te luisteren naar mensen die echt Engels spreken, en door zelf je mond open te doen, ook als het hakkelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> luister naar een Engelstalige stand-upcomedian of presentator en let op de zinslengte. Hoor je afwisseling tussen korte en lange zinnen? Doe het één keer, en let daarna op wat je miste of niet gezegd kreeg. Dat is precies je volgende oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "De zinsdelen: onderwerp, persoonsvorm, lijdend voorwerp en meewerkend voorwerp.",
+  "Staat het meewerkend voorwerp achter het lijdend voorwerp, dan komt er to of for voor.",
+  "De gewone volgorde is onderwerp, persoonsvorm, rest. Zet nooit iets tussen het werkwoord en het lijdend voorwerp.",
+  "De bepalingen achteraan staan in de volgorde hoe, waar, wanneer.",
+  "De vijf soorten zinnen: mededelend, ontkennend, vragend, bevelend en uitroepend.",
+  "Bij een uitroep draait de volgorde niet om: how fast she runs, what a mess.",
+  "Een bevelende zin heeft geen onderwerp: close the door.",
+  "Staat er al een hulpwerkwoord in de zin, dan heb je voor een vraag geen do nodig.",
+  "Congruentie: het werkwoord past zich aan het onderwerp aan. The news is, the police are.",
+  "Nevenschikking knoopt twee gelijkwaardige zinnen aan elkaar: and, but, or, so.",
+  "Onderschikking hangt een bijzin onder een hoofdzin: because, although, unless, while, until.",
+  "Although en but zet je niet samen in één zin.",
+  "Komt de bijzin vooraan, dan staat de komma achter de bijzin.",
+  "Tel de persoonsvormen: twee of meer maken er een samengestelde zin van.",
+  "Wissel af tussen soorten zinnen, anders leest je tekst hakkelend of juist te zwaar."
+ ]
+}

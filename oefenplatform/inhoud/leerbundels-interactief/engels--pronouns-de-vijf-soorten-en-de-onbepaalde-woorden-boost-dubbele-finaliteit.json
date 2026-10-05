@@ -1,0 +1,157 @@
+{
+ "vak": "Engels",
+ "titel": "Pronouns: de vijf soorten en de onbepaalde woorden",
+ "onder": "De persoonlijke, bezittelijke, wederkerende, aanwijzende en vragende voornaamwoorden, plus de onbepaalde woorden en de hoeveelheden.",
+ "secties": [
+  {
+   "kop": "Persoonlijke voornaamwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Onderwerpsvorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Voorwerpsvorm</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Bezittelijk (voor een naamwoord)</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Zelfstandig bezittelijk</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">I</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>me</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">my</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>mine</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">you</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">you</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">your</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>yours</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">he / she / it</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>him</strong> / her / <strong>it</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">his / her / <strong>its</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">his / <strong>hers</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">we</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">us</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">our</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ours</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>they</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>them</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>their</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>theirs</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Wie de handeling <strong>doet</strong>, staat in de onderwerpsvorm: <em><strong>She and I</strong> went to the cinema.</em> Laat de andere persoon even weg en je hoort het meteen: <em>I went</em>, niet <em>me went</em>. Staat het voornaamwoord <strong>na het werkwoord</strong> of <strong>na een voorzetsel</strong>, dan neem je de voorwerpsvorm: <em>my parents called <strong>me</strong></em>, <em>this is for <strong>her</strong></em>, <em>between you and <strong>me</strong></em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>It</strong> verwijst naar <strong>een ding of een dier</strong>. Bij een huisdier met een naam wordt het vaak he of she."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Its</strong> en <strong>it's</strong> zijn twee verschillende woorden. <em>Its</em> is bezittelijk: <em>the dog wagged <strong>its</strong> tail</em>, <em>the cat has hurt <strong>its</strong> paw</em>, <em>the house and <strong>its</strong> garden are for sale</em>. <em>It's</em> is de korte vorm van it is of it has. En <strong>yours</strong> schrijf je nooit met een apostrof."
+    }
+   ]
+  },
+  {
+   "kop": "Wederkerende voornaamwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Slaat de handeling terug op het onderwerp, dan neem je de vorm op <strong>-self</strong> of <strong>-selves</strong>: <em>I hurt <strong>myself</strong></em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Enkelvoud</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Meervoud</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">myself, yourself, <strong>himself</strong>, herself, itself</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ourselves</strong>, yourselves, <strong>themselves</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<em>Theirselves</em> en <em>hisself</em> bestaan niet. <strong>By myself</strong> betekent dat je iets <strong>alleen</strong> doet, zonder hulp; <em>I did it myself</em> legt de nadruk op wie het deed."
+    },
+    {
+     "soort": "tekst",
+     "html": "Let op: <strong>wash</strong> en <strong>dress</strong> zijn in het Engels <strong>niet wederkerend</strong>. Wij zeggen zich wassen, het Engels zegt gewoon <em>she washed and got dressed</em>."
+    }
+   ]
+  },
+  {
+   "kop": "Aanwijzende voornaamwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\"></th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Dichtbij</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Verder weg</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">enkelvoud</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>this</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>that</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meervoud</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>these</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>those</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<em><strong>Those</strong> shoes over there are mine.</em> Over there zegt dat ze ver zijn, en shoes is meervoud."
+    }
+   ]
+  },
+  {
+   "kop": "Vragende voornaamwoorden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vraagwoord</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">Vraagt naar</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>who</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een persoon als onderwerp: Who broke the window?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>whom</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een persoon als voorwerp, formeel: To whom did you speak?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>whose</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de eigenaar: <strong>Whose bag is this?</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>which</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een keuze uit een beperkte groep: Which colour, red or blue?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>what</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een open keuze: What colour do you want?</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">where / when / why</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een plaats / een tijd / een reden</td></tr></table>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Who's</strong> is de korte vorm van <em>who is</em>: <em>Who's coming tonight?</em> <strong>Whose</strong> is bezittelijk. Ze klinken hetzelfde en betekenen iets heel anders."
+    },
+    {
+     "soort": "tekst",
+     "html": "Vraag je met <strong>who</strong> naar het <strong>onderwerp</strong>, dan heb je <strong>geen do</strong> nodig: <em>Who <strong>wants</strong> tea?</em> Vraag je naar iets anders, dan wel: <em>Who <strong>do</strong> you want?</em>, <em>What <strong>does</strong> your father do?</em> Na do of does blijft het werkwoord kaal."
+    },
+    {
+     "soort": "tekst",
+     "html": "De volgorde in een vraag is <strong>vraagwoord, hulpwerkwoord, onderwerp, werkwoord</strong>. Het onderwerp staat dus <strong>achter</strong> de persoonsvorm, niet ervoor. <em>What you want?</em> is fout; het is <em>What <strong>do</strong> you want?</em>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>How much</strong> of <strong>how many</strong>? Kan je het tellen, dan is het <em>how many</em>: <em>how many apples</em>. Kan je het niet tellen, dan is het <em>how much</em>: <em>how much milk</em>, <em>how much is this jacket?</em>"
+    }
+   ]
+  },
+  {
+   "kop": "Onbepaalde voornaamwoorden en hoeveelheden",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Someone</strong>, <strong>anything</strong>, <strong>nobody</strong>, everybody, everything, none en each. Ze zijn grammaticaal <strong>enkelvoud</strong>: <em>Somebody <strong>has</strong> left their umbrella.</em> <em>Everybody <strong>is</strong> here.</em> <em>Each of the students <strong>has</strong> a laptop</em>, ook al volgt er een meervoud na <em>of</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "In vragen en ontkenningen gebruik je <strong>anything</strong>, in bevestigende zinnen something: <em>Do you need anything?</em>, <em>I didn't see <strong>anything</strong>.</em> Bied je iets aan, dan mag something: <em>Would you like something to drink?</em>"
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Twee ontkenningen in één zin mag niet</strong> in het Engels. Het is <em>I didn't see anything</em> of <em>I saw nothing</em>, nooit <em>I didn't see nothing</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>None of them came</strong> betekent dat <strong>niemand van hen gekomen is</strong>. None is de ontkenning van all. En <em>there is <strong>nobody</strong> in the room</em> zegt dat de kamer leeg is; <em>there isn't anybody</em> betekent hetzelfde, maar dan met de ontkenning in het werkwoord."
+    }
+   ]
+  },
+  {
+   "kop": "Duidelijk blijven",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het Engels heeft <strong>één woord voor jij en u</strong>: <strong>you</strong>, enkelvoud én meervoud, beleefd én gewoon. Beleefdheid toon je met andere woorden, bijvoorbeeld met <em>could you</em>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Juist omdat er zo weinig vormen zijn, wordt een verwijzing snel onduidelijk. <em>Tom told Ben that he had passed.</em> Je <strong>weet niet wie geslaagd is</strong>: he kan naar Tom of naar Ben verwijzen. En <em>The teachers helped the pupils, and they thanked them</em> is even troebel, want allebei de groepen zijn meervoud."
+    },
+    {
+     "soort": "kader",
+     "html": "Zodra twee mogelijke antwoorden even goed passen, <strong>herhaal je het naamwoord</strong>: <em>The teachers helped the pupils, and <strong>the pupils</strong> thanked them.</em> Dat leest minder elegant en is veel duidelijker."
+    }
+   ]
+  },
+  {
+   "kop": "Oefen dit ook buiten het scherm",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op dit platform oefen je lezen, woordenschat en grammatica. Maar <strong>luisteren</strong> is 30 % van je examen, en <strong>spreken</strong> met de twee <strong>mondelinge interacties</strong> samen nog eens <strong>24 %</strong>. Die drie leer je niet achter een scherm. Je leert ze door te luisteren naar mensen die echt Engels spreken, en door zelf je mond open te doen, ook als het hakkelt."
+    },
+    {
+     "soort": "kader",
+     "html": "<strong>Deze week:</strong> luister naar een gesprek in een Engelstalige serie en let één scène lang alleen op de voornaamwoorden: weet je telkens naar wie ze verwijzen? Doe het één keer, en let daarna op wat je miste of niet gezegd kreeg. Dat is precies je volgende oefening."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Onderwerpsvorm: I, you, he, she, it, we, they. Voorwerpsvorm: me, you, him, her, it, us, them.",
+  "Na een voorzetsel komt de voorwerpsvorm: this is for her.",
+  "It verwijst naar een ding of een dier.",
+  "Its is van hem of van haar; it's is de korte vorm van it is.",
+  "Bezittelijk bijvoeglijk: my, your, his, her, its, our, their. Zelfstandig: mine, yours, his, hers, ours, theirs.",
+  "Wederkerend: myself, yourself, himself, herself, itself, ourselves, yourselves, themselves.",
+  "Wash en dress zijn in het Engels niet wederkerend: she washed and got dressed.",
+  "Aanwijzend dichtbij: this en these. Veraf: that en those.",
+  "Vragend: who, whom, whose, which en what. Which bij een beperkte keuze, what bij een open keuze.",
+  "Vraag je met who naar het onderwerp, dan geen do: who wants tea?",
+  "De volgorde in een vraag: vraagwoord, hulpwerkwoord, onderwerp, werkwoord.",
+  "How many bij wat je kan tellen, how much bij wat je niet kan tellen en bij een prijs.",
+  "Onbepaald: someone, anything, nobody, everybody. Ze horen bij een werkwoord in het enkelvoud.",
+  "In vragen en ontkenningen anything, in bevestigende zinnen something.",
+  "Twee ontkenningen in één zin mag niet: I didn't see anything.",
+  "You is in het Engels enkelvoud én meervoud, jij én u.",
+  "Is een verwijzing onduidelijk, herhaal dan gewoon het naamwoord."
+ ]
+}
