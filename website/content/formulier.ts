@@ -102,6 +102,12 @@ export type Veld = {
     label: string;
     aantal?: { naam: string; label: string };
   }[];
+  /*
+    Alleen bij soort "keuzes": zet de vakjes naast elkaar in 2 of 3
+    kolommen in plaats van onder elkaar. Handig bij korte vakjes zoals de
+    dagen van de week; laat het weg en ze staan gewoon onder elkaar.
+  */
+  kolommen?: 2 | 3;
 };
 
 export const velden: Veld[] = [
@@ -150,6 +156,19 @@ export const velden: Veld[] = [
     hulp: "Iets dat we moeten weten? Schrijf het hier gerust. Dit veld mag ook leeg blijven.",
   },
 ];
+
+/*
+  De gewone vragen, met daartussen vragen die alleen bij één formulier
+  horen (de dagen waarop we mogen bellen, of bij een traject de dagen van
+  het kamp). Ze komen net boven "Je vraag of boodschap", want dat is het
+  afsluitende vakje; eronder leest niemand ze nog.
+*/
+export function vragenMetExtra(extra?: Veld[]): Veld[] {
+  if (!extra?.length) return velden;
+  const plek = velden.findIndex((v) => v.soort === "lang");
+  if (plek === -1) return [...velden, ...extra];
+  return [...velden.slice(0, plek), ...extra, ...velden.slice(plek)];
+}
 
 export const formulierTekst = {
   /* Het kadertje bovenaan als de ouder al een traject koos. */

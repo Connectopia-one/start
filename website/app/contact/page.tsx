@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Aanvraagformulier } from "@/components/Aanvraagformulier";
 import { Icoon, Kaart, PaginaKop, Sectie } from "@/components/ui";
-import { contactTekst } from "@/content/contact";
+import { contactTekst, terugbelVragen } from "@/content/contact";
+import { vragenMetExtra } from "@/content/formulier";
 import { site, volgOns } from "@/content/site";
 
 export const metadata: Metadata = {
@@ -66,6 +67,8 @@ export default async function ContactPagina() {
           <div className="mt-6">
             <Aanvraagformulier
               onderwerp={contactTekst.terugbellen.onderwerp}
+              /* Plus de vraag wanneer het best past om te bellen. */
+              vragen={vragenMetExtra(terugbelVragen)}
               verborgen={[
                 { naam: "Soort aanvraag", waarde: "Terugbelverzoek" },
               ]}

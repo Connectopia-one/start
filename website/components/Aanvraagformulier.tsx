@@ -90,7 +90,15 @@ export function Aanvraagformulier({
                 {veld.hulp ? (
                   <p className="mt-1 text-[14px] text-ink-dim">{veld.hulp}</p>
                 ) : null}
-                <div className="mt-2 grid gap-2.5">
+                <div
+                  className={`mt-2 grid gap-2.5 ${
+                    veld.kolommen === 3
+                      ? "sm:grid-cols-3"
+                      : veld.kolommen === 2
+                        ? "sm:grid-cols-2"
+                        : ""
+                  }`}
+                >
                   {(veld.keuzes ?? []).map((keuze) => (
                     <div
                       key={keuze.naam}

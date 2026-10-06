@@ -2,10 +2,51 @@
   De contactpagina. Een ouder kiest hier zelf: meteen bellen, of het nummer
   achterlaten om teruggebeld te worden.
 
-  De vragen op het terugbelformulier staan niet hier maar in
+  De gewone vragen op het terugbelformulier staan niet hier maar in
   content/formulier.ts, bij "velden". Zo staan alle formuliervragen van de
-  site op één plek.
+  site op één plek. Hieronder staan alleen de twee vragen die alleen op dit
+  formulier horen: wanneer we mogen bellen.
 */
+
+import type { Veld } from "@/content/formulier";
+
+/*
+  Wanneer het best past om te bellen. Twee groepjes aankruisvakjes, en een
+  ouder mag er zoveel aanvinken als hij wil. Wat niet aangevinkt is, komt
+  ook niet in de aanvraag terecht.
+
+  Wil je een dag of een moment toevoegen of weghalen? Zet er een regel bij
+  of haal er een weg. De "naam" is wat er in Beheer bij de aanvraag komt te
+  staan, het "label" is wat de ouder leest.
+*/
+export const terugbelVragen: Veld[] = [
+  {
+    naam: "Bellen op welke dagen",
+    label: "Op welke dagen bellen we je het best?",
+    soort: "keuzes",
+    hulp: "Kruis er gerust meerdere aan, dan vinden we sneller een moment.",
+    kolommen: 3,
+    keuzes: [
+      { naam: "Bellen op maandag", label: "Maandag" },
+      { naam: "Bellen op dinsdag", label: "Dinsdag" },
+      { naam: "Bellen op woensdag", label: "Woensdag" },
+      { naam: "Bellen op donderdag", label: "Donderdag" },
+      { naam: "Bellen op vrijdag", label: "Vrijdag" },
+      { naam: "Bellen maakt niet uit welke dag", label: "Maakt niet uit" },
+    ],
+  },
+  {
+    naam: "Bellen op welk moment",
+    label: "En wanneer op de dag?",
+    soort: "keuzes",
+    kolommen: 3,
+    keuzes: [
+      { naam: "Bellen overdag", label: "Overdag (9u tot 17u)" },
+      { naam: "Bellen 's avonds", label: "'s Avonds (na 17u)" },
+      { naam: "Bellen maakt niet uit welk uur", label: "Maakt niet uit" },
+    ],
+  },
+];
 
 export const contactTekst = {
   label: "Contact",
