@@ -605,20 +605,32 @@ BUNDELS["meetkunde-spark"] = dict(
                   "hoogtelijn vertrekt uit een hoekpunt en de middelloodlijn uit het midden van de zijde. "
                   "Alleen in een gelijkbenige of gelijkzijdige driehoek vallen ze samen."),
         ]),
+        # Sarah Splingaer meldde op 6 oktober 2026 dat congruent hier te
+        # ingewikkeld was. De uitleg begon meteen bij de kenmerken met hun
+        # afkortingen; nu begint ze bij een beeld dat je voor je ziet, en
+        # komen de afkortingen pas daarna. Zelfde tekst als in de tocht,
+        # inhoud/leerbundels-interactief/wiskunde--meetkunde-spark.json.
         dict(kop="Congruente driehoeken", blokken=[
-            ("p", "Twee figuren zijn <strong>congruent</strong> als ze volledig gelijk zijn: zelfde vorm "
-                  "én zelfde grootte. Je hoeft niet alle zes de maten te vergelijken; drie goed gekozen "
-                  "volstaan."),
-            ("p", "De kenmerken: <strong>ZZZ</strong> (drie zijden), <strong>ZHZ</strong> (twee zijden en "
-                  "de hoek ertussen), <strong>HZH</strong> (twee hoeken en de zijde ertussen), "
-                  "<strong>ZHH</strong> (een zijde en twee hoeken) en <strong>ZZ90°</strong> (twee zijden "
-                  "en een rechte hoek)."),
-            ("kader", "Drie gelijke <strong>hoeken</strong> volstaat <strong>niet</strong>. Twee "
-                      "gelijkzijdige driehoeken van 2 cm en van 5 cm hebben alle drie hun hoeken van 60°, "
-                      "maar ze zijn niet even groot. Gelijke hoeken geven dezelfde vorm, niet dezelfde maat."),
-            ("p", "Toon je aan dat twee driehoeken congruent zijn, dan zijn <strong>alle</strong> "
-                  "overeenkomstige zijden en hoeken gelijk. Net daarom gebruik je congruentie: om te "
-                  "bewijzen dat twee zijden even lang of twee hoeken even groot zijn."),
+            ("p", "Twee figuren zijn <strong>congruent</strong> als ze precies dezelfde vorm én precies "
+                  "dezelfde grootte hebben. Knip je de ene uit, dan kan je ze zo op de andere leggen en "
+                  "valt alles samen. Draaien of omkeren mag daarbij."),
+            ("kader", "Pas op voor de verwarring: dezelfde vorm maar <em>niet</em> even groot heet "
+                      "<strong>gelijkvormig</strong>, zoals een foto die je groter trekt. Pas als ze ook "
+                      "even groot zijn, zijn ze congruent."),
+            ("p", "Om zeker te zijn hoef je niet alle zijden en hoeken na te meten. <strong>Drie goed "
+                  "gekozen maten volstaan</strong>, en daar zijn vijf manieren voor."),
+            ("p", "De drie zijden zijn gelijk (<strong>ZZZ</strong>). Twee zijden en de hoek ertussen "
+                  "(<strong>ZHZ</strong>). Twee hoeken en de zijde ertussen (<strong>HZH</strong>). Een "
+                  "zijde en twee hoeken (<strong>ZHH</strong>). Twee zijden en een rechte hoek "
+                  "(<strong>ZZ90°</strong>). De Z staat voor zijde, de H voor hoek, in de volgorde "
+                  "waarin ze staan."),
+            ("kader", "Drie gelijke <strong>hoeken</strong> volstaat <strong>niet</strong>. Een "
+                      "gelijkzijdige driehoek van 2 cm en een van 5 cm hebben allebei hoeken van 60°, en "
+                      "toch is de ene veel kleiner. Gelijke hoeken geven dezelfde vorm, niet dezelfde "
+                      "grootte."),
+            ("p", "Weet je eenmaal dat twee driehoeken congruent zijn, dan zijn <strong>alle</strong> "
+                  "zijden en hoeken die bij elkaar horen gelijk. Daarvoor gebruik je het: om aan te tonen "
+                  "dat twee zijden even lang of twee hoeken even groot zijn, zonder ze te meten."),
         ]),
         dict(kop="Transformaties en symmetrie", blokken=[
             ("p", "Een <strong>translatie</strong> schuift een figuur op over een vector. Een "

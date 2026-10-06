@@ -534,6 +534,52 @@ function VraagKaart({
   );
 }
 
+/*
+  Enter werkt bij élke soort vraag, niet alleen in het invulvakje.
+
+  Febe meldde op 6 oktober 2026: "Fijn dat ik al 1 vraag met een enter kon
+  indienen. Maar helaas kan ik het niet overal doen." Bij een meerkeuzevraag
+  staat er geen invulvakje, dus was er niets dat enter opving.
+
+  Dit onderdeel toont zelf niets; het luistert alleen naar de entertoets en
+  doet dan wat de quiz meegeeft: de vraag nakijken, of naar de volgende gaan.
+
+  Een knop, een link, een invulvakje, een keuzelijst of iets in een formulier
+  (het meldvakje) regelt enter zelf; daar blijven we af. Aankruisvakjes en
+  bolletjes niet: die doen uit zichzelf niets met enter.
+*/
+function EnterToets({ doe }: { doe: () => void }) {
+  const laatste = useRef(doe);
+  useEffect(() => {
+    laatste.current = doe;
+  });
+  useEffect(() => {
+    function opToets(e: KeyboardEvent) {
+      if (e.key !== "Enter" || e.repeat) return;
+      const doel = e.target as HTMLElement | null;
+      const soort = doel?.tagName;
+      const tekstvak =
+        soort === "INPUT" &&
+        !["radio", "checkbox"].includes((doel as HTMLInputElement).type);
+      if (
+        soort === "BUTTON" ||
+        soort === "A" ||
+        soort === "TEXTAREA" ||
+        soort === "SELECT" ||
+        tekstvak ||
+        doel?.closest("form")
+      ) {
+        return;
+      }
+      e.preventDefault();
+      laatste.current();
+    }
+    window.addEventListener("keydown", opToets);
+    return () => window.removeEventListener("keydown", opToets);
+  }, []);
+  return null;
+}
+
 export function Quiz({
   vragen: alleVragen,
   kinderen = [],
@@ -602,6 +648,7 @@ export function Quiz({
   const vraagKop = useRef<HTMLDivElement>(null);
   const volgendeKnop = useRef<HTMLButtonElement>(null);
   const eersteKeer = useRef(true);
+
 
   // Na "Volgende" begint de nieuwe vraag bovenaan, anders sta je midden in de
   // vorige te kijken. Bij het openen van het hoofdstuk niet scrollen.
@@ -798,6 +845,57 @@ export function Quiz({
     ? Math.round((aantalGecontroleerd / vragen.length) * 100)
     : 0;
 
+  /* Nakijken en verdergaan staan hier apart, want de knoppen én de entertoets
+     doen allebei net hetzelfde. */
+  const controleerHuidige = (vanToetsenbord?: boolean) => {
+    const correct = isCorrect(
+      vraag,
+      statussen[vraag.id].gegevenAntwoord,
+      !taalvak,
+    );
+    setStatussen((s) => ({
+      ...s,
+      [vraag.id]: { ...s[vraag.id], gecontroleerd: true, correct },
+    }));
+    if (actiefKindId) {
+      registreerAntwoord(
+        actiefKindId,
+        vraag.id,
+        hoofdstukId ?? null,
+        correct,
+        zoalsOpgeslagen(vraag, statussen[vraag.id].gegevenAntwoord),
+        beurt,
+      ).catch(() => {});
+    }
+    if (vanToetsenbord) {
+      // preventScroll, want de uitleg verschijnt net boven de knop en
+      // die mag niet onder het kind weg springen.
+      requestAnimationFrame(() =>
+        volgendeKnop.current?.focus({ preventScroll: true }),
+      );
+    }
+  };
+
+  const gaVerder = () =>
+    laatsteVanDeReeks
+      ? setHuidige(nogOpenElders)
+      : setHuidige((i) => Math.min(vragen.length - 1, i + 1));
+
+  /* Wat de entertoets doet op de vraag waar het kind nu staat. Staat de knop
+     Volgende grijs, dan doet enter ook niets; anders zou het lijken alsof er
+     iets gebeurde. */
+  const enterActie = () => {
+    if (klaar) return;
+    if (dezeNagekeken) {
+      if (laatsteVanDeReeks && nogOpenElders < 0) return;
+      gaVerder();
+      return;
+    }
+    if (isIngevuld(statussen[vraag.id]?.gegevenAntwoord ?? null)) {
+      controleerHuidige(true);
+    }
+  };
+
   return (
     <div className="mt-8 space-y-4">
       {kinderen.length > 1 && (
@@ -923,6 +1021,8 @@ export function Quiz({
         </p>
       )}
 
+      <EnterToets doe={enterActie} />
+
       <div ref={vraagKop} className="scroll-mt-4">
         {wachtOpBeurt ? (
           <p className="rounded-xl border border-border bg-surface px-5 py-8 text-center text-sm text-ink-dim">
@@ -941,34 +1041,7 @@ export function Quiz({
                 [vraag.id]: { ...s[vraag.id], gegevenAntwoord: v },
               }))
             }
-            onControleer={(vanToetsenbord) => {
-              const correct = isCorrect(
-                vraag,
-                statussen[vraag.id].gegevenAntwoord,
-                !taalvak,
-              );
-              setStatussen((s) => ({
-                ...s,
-                [vraag.id]: { ...s[vraag.id], gecontroleerd: true, correct },
-              }));
-              if (actiefKindId) {
-                registreerAntwoord(
-                  actiefKindId,
-                  vraag.id,
-                  hoofdstukId ?? null,
-                  correct,
-                  zoalsOpgeslagen(vraag, statussen[vraag.id].gegevenAntwoord),
-                  beurt,
-                ).catch(() => {});
-              }
-              if (vanToetsenbord) {
-                // preventScroll, want de uitleg verschijnt net boven de knop en
-                // die mag niet onder het kind weg springen.
-                requestAnimationFrame(() =>
-                  volgendeKnop.current?.focus({ preventScroll: true }),
-                );
-              }
-            }}
+            onControleer={controleerHuidige}
           />
         )}
 
@@ -1012,11 +1085,7 @@ export function Quiz({
         <button
           ref={volgendeKnop}
           type="button"
-          onClick={() =>
-            laatsteVanDeReeks
-              ? setHuidige(nogOpenElders)
-              : setHuidige((i) => Math.min(vragen.length - 1, i + 1))
-          }
+          onClick={() => gaVerder()}
           disabled={laatsteVanDeReeks && nogOpenElders < 0}
           className={`rounded-md px-4 py-2 text-sm font-medium transition disabled:cursor-not-allowed disabled:opacity-40 ${
             statussen[vraag.id]?.gecontroleerd

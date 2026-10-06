@@ -148,19 +148,27 @@
    "blokken": [
     {
      "soort": "tekst",
-     "html": "Twee figuren zijn <strong>congruent</strong> als ze volledig gelijk zijn: zelfde vorm én zelfde grootte. Je hoeft niet alle zes de maten te vergelijken; drie goed gekozen volstaan."
-    },
-    {
-     "soort": "tekst",
-     "html": "De kenmerken: <strong>ZZZ</strong> (drie zijden), <strong>ZHZ</strong> (twee zijden en de hoek ertussen), <strong>HZH</strong> (twee hoeken en de zijde ertussen), <strong>ZHH</strong> (een zijde en twee hoeken) en <strong>ZZ90°</strong> (twee zijden en een rechte hoek)."
+     "html": "Twee figuren zijn <strong>congruent</strong> als ze precies dezelfde vorm én precies dezelfde grootte hebben. Knip je de ene uit, dan kan je ze zo op de andere leggen en valt alles samen. Draaien of omkeren mag daarbij."
     },
     {
      "soort": "kader",
-     "html": "Drie gelijke <strong>hoeken</strong> volstaat <strong>niet</strong>. Twee gelijkzijdige driehoeken van 2 cm en van 5 cm hebben alle drie hun hoeken van 60°, maar ze zijn niet even groot. Gelijke hoeken geven dezelfde vorm, niet dezelfde maat."
+     "html": "Pas op voor de verwarring: dezelfde vorm maar <em>niet</em> even groot heet <strong>gelijkvormig</strong>, zoals een foto die je groter trekt. Pas als ze ook even groot zijn, zijn ze congruent."
     },
     {
      "soort": "tekst",
-     "html": "Toon je aan dat twee driehoeken congruent zijn, dan zijn <strong>alle</strong> overeenkomstige zijden en hoeken gelijk. Net daarom gebruik je congruentie: om te bewijzen dat twee zijden even lang of twee hoeken even groot zijn."
+     "html": "Om zeker te zijn hoef je niet alle zijden en hoeken na te meten. <strong>Drie goed gekozen maten volstaan</strong>, en daar zijn vijf manieren voor."
+    },
+    {
+     "soort": "tekst",
+     "html": "De drie zijden zijn gelijk (<strong>ZZZ</strong>). Twee zijden en de hoek ertussen (<strong>ZHZ</strong>). Twee hoeken en de zijde ertussen (<strong>HZH</strong>). Een zijde en twee hoeken (<strong>ZHH</strong>). Twee zijden en een rechte hoek (<strong>ZZ90°</strong>). De Z staat voor zijde, de H voor hoek, in de volgorde waarin ze staan."
+    },
+    {
+     "soort": "kader",
+     "html": "Drie gelijke <strong>hoeken</strong> volstaat <strong>niet</strong>. Een gelijkzijdige driehoek van 2 cm en een van 5 cm hebben allebei hoeken van 60°, en toch is de ene veel kleiner. Gelijke hoeken geven dezelfde vorm, niet dezelfde grootte."
+    },
+    {
+     "soort": "tekst",
+     "html": "Weet je eenmaal dat twee driehoeken congruent zijn, dan zijn <strong>alle</strong> zijden en hoeken die bij elkaar horen gelijk. Daarvoor gebruik je het: om aan te tonen dat twee zijden even lang of twee hoeken even groot zijn, zonder ze te meten."
     }
    ]
   },

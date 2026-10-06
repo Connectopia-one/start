@@ -22,6 +22,7 @@ import { Leestekst, type Woord } from "@/components/Leestekst";
 import { Prent } from "@/components/Prent";
 import { vindPrent } from "@/lib/prent";
 import { MeldingKnop } from "@/components/MeldingKnop";
+import { TerugNaarVak } from "@/components/TerugNaarVak";
 import { heeftKlikbareBundel } from "@/lib/leerbundel";
 
 export default async function HoofdstukPage({
@@ -180,7 +181,7 @@ export default async function HoofdstukPage({
             daar kwam het kind net vandaan. */}
         <Link
           href={niveau ? `/niveaus/${niveau.slug}/${vak.slug}` : "/"}
-          className="text-sm text-ink-dim hover:text-ink"
+          className="inline-flex items-center gap-1.5 rounded-full border border-border bg-surface px-3.5 py-1.5 text-sm text-ink-dim transition hover:border-forest hover:text-ink"
         >
           &larr;{" "}
           {niveau
@@ -299,6 +300,15 @@ export default async function HoofdstukPage({
             volgnummer: v.volgnummer,
             vraag: v.vraag,
           }))}
+        />
+
+        <TerugNaarVak
+          href={niveau ? `/niveaus/${niveau.slug}/${vak.slug}` : "/"}
+          label={
+            niveau
+              ? `${vak.naam} in ${niveau.emoji} ${niveau.naam}`
+              : "de categorieën"
+          }
         />
       </main>
     </>
