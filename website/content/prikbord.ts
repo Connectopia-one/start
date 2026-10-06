@@ -52,10 +52,14 @@ export type Bord = {
 
 export const prikbord = {
   label: "Prikbord voor ouders",
-  titel: "Vijf borden, één plek om te delen",
+  titel: "Alles wat er hangt, in één oogopslag",
   handgeschreven: "Jouw zoektocht mag minder eenzaam zijn.",
   tekst:
-    "Hang een briefje op, lees wat anderen ophingen en vind elkaar. Kies hieronder het bord waar jouw briefje thuishoort.",
+    "Hieronder hangen alle briefjes door elkaar, het nieuwste eerst, met telkens het bord erbij. Wil je er maar één soort uit, kies dan een bord met de knoppen hieronder.",
+
+  /* De titel boven de muur met alle briefjes op het overzicht. */
+  muurTitel: "Wat er nu op het prikbord hangt",
+  muurAlles: "Alle borden",
 
   /*
     De afspraak die bovenaan het prikbord en boven elk bord staat.
@@ -86,6 +90,7 @@ export const prikbord = {
     tekst:
       "Schrijf hieronder wat er op je briefje moet komen. Het hangt er meteen.",
     knopTekst: "Ophangen",
+    bordLabel: "Op welk bord?",
     briefjeLabel: "Wat komt er op je briefje?",
     wanneerLabel: "Wanneer en waar gaat het door?",
     voornaamLabel: "Voornaam",

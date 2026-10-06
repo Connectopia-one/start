@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { briefjeMeldenActie } from "@/app/prikbord/acties";
 import { NaarLink } from "@/components/ui";
 import { datumInWoorden } from "@/lib/datum";
@@ -27,6 +28,8 @@ export function Briefje({
   briefje,
   nummer,
   meldbaar,
+  categorie,
+  terug,
 }: {
   briefje: BriefjeType;
   nummer: number;
@@ -36,6 +39,14 @@ export function Briefje({
     briefjes uit content/prikbord.ts staat dat er niet.
   */
   meldbaar?: { id: string; bord: string };
+  /*
+    Op het overzicht hangen de briefjes van alle borden door elkaar, dus
+    staat er bovenaan elk briefje bij van welk bord het komt. Op een bord
+    zelf laat je dit weg: daar weet je het al.
+  */
+  categorie?: { slug: string; naam: string; icoon: string };
+  /* Waar je na een melding weer terechtkomt. Standaard het bord zelf. */
+  terug?: string;
 }) {
   const blaadje = blaadjes[nummer % blaadjes.length];
   const hoek = scheef[nummer % scheef.length];
@@ -49,6 +60,16 @@ export function Briefje({
         aria-hidden
         className="mx-auto mb-3 block h-3 w-3 rounded-full bg-orange shadow-[0_1px_3px_rgba(0,0,0,0.3)]"
       />
+
+      {categorie ? (
+        <Link
+          href={`/prikbord?bord=${categorie.slug}`}
+          className="mb-2 inline-flex items-center gap-1.5 rounded-full bg-white/70 px-3 py-1 text-[13px] font-bold text-ink-dim transition hover:text-green"
+        >
+          <span aria-hidden>{categorie.icoon}</span>
+          {categorie.naam}
+        </Link>
+      ) : null}
 
       {briefje.label ? (
         <p className="text-[13px] font-bold text-ink-dim">{briefje.label}</p>
@@ -96,6 +117,7 @@ export function Briefje({
           <form action={briefjeMeldenActie} className="mt-2 grid gap-2">
             <input type="hidden" name="bord" value={meldbaar.bord} />
             <input type="hidden" name="briefjeId" value={meldbaar.id} />
+            {terug ? <input type="hidden" name="terug" value={terug} /> : null}
             <p className="text-[13.5px] text-ink-dim">
               {prikbord.formulier.meldUitleg}
             </p>

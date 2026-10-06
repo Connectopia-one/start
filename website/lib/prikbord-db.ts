@@ -50,6 +50,26 @@ export async function haalBriefjes(bord: string): Promise<DbBriefje[]> {
   return (data ?? []) as DbBriefje[];
 }
 
+/*
+  Alles wat er op het hele prikbord hangt, nieuwste eerst. Daarmee toont
+  /prikbord meteen de briefjes van alle borden door elkaar, in plaats van
+  eerst een bord te laten kiezen.
+*/
+export async function haalAlleBriefjes(): Promise<DbBriefje[]> {
+  const db = verbinding();
+  if (!db) return [];
+  const { data, error } = await db
+    .from("prikbord_briefjes")
+    .select("id, bord, tekst, naam, wanneer, created_at")
+    .order("created_at", { ascending: false })
+    .limit(200);
+  if (error) {
+    console.error("Prikbord lezen mislukt:", error.message);
+    return [];
+  }
+  return (data ?? []) as DbBriefje[];
+}
+
 export async function bewaarBriefje(briefje: {
   bord: string;
   tekst: string;
