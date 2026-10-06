@@ -119,3 +119,56 @@ export async function verwijderWerk(formData: FormData) {
 
   revalidatePath(`/begeleiding/${kindId}`);
 }
+
+/*
+  Een gezin naar een andere groep zetten.
+
+  Alleen de beheerder mag dit. Een begeleider ziet het keuzelijstje niet staan
+  (zie page.tsx), en voor de zekerheid staat de controle hier ook: deze actie
+  werkt met de service-sleutel en slaat de regels van de databank over.
+
+  De groep hangt aan het gezin, niet aan het kind: hebben twee broers hetzelfde
+  account achter zich, dan schuiven ze samen mee. Dat is ook wat je wil, want
+  het is het gezin dat met één code registreerde.
+*/
+export async function zetGroep(formData: FormData) {
+  const kindId = String(formData.get("kindId") || "");
+  const code = String(formData.get("code") || "").trim();
+  if (!kindId) return;
+
+  const { session, admin } = await bevestigPlusklasKind(kindId);
+  if (session.profile?.role !== "beheerder") {
+    throw new Error("Alleen de beheerder kan een gezin naar een groep zetten.");
+  }
+
+  const { data: kind } = await admin
+    .from("kinderen")
+    .select("profile_id")
+    .eq("id", kindId)
+    .single();
+  const profileId = (kind as { profile_id?: string } | null)?.profile_id;
+  if (!profileId) throw new Error("Dit kind hoort bij geen enkel gezin.");
+
+  // Een lege keuze betekent "nog geen groep", en dat is null in de databank.
+  // Een code die niet meer bestaat weigeren we: de verwijzing in de databank
+  // zou ze toch tegenhouden, maar dan met een melding die niemand begrijpt.
+  let nieuw: string | null = null;
+  if (code) {
+    const { data: bestaat } = await admin
+      .from("plusklas_codes")
+      .select("code")
+      .eq("code", code)
+      .maybeSingle();
+    if (!bestaat) throw new Error("Deze code bestaat niet meer.");
+    nieuw = code;
+  }
+
+  const { error } = await admin
+    .from("profiles")
+    .update({ plusklas_code: nieuw })
+    .eq("id", profileId);
+  if (error) throw new Error(error.message);
+
+  revalidatePath("/begeleiding");
+  revalidatePath(`/begeleiding/${kindId}`);
+}

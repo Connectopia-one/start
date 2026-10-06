@@ -52,16 +52,21 @@ function inMensentaal(melding: string): string {
  * Hier mag `role` niet mee: wie al beheerder of begeleider is en zich per
  * ongeluk opnieuw registreert, zou anders teruggezet worden op "ouder".
  * `is_plusklas` zetten we enkel áán, nooit uit: een leeg codeveld betekent
- * "ik vul niets in", niet "haal mijn gratis toegang weg".
+ * "ik vul niets in", niet "haal mijn gratis toegang weg". Hetzelfde geldt voor
+ * `plusklas_code`: die schrijven we alleen als er écht een code ingevuld is,
+ * zodat iemand die zich een tweede keer registreert zonder code niet uit zijn
+ * groep valt.
  */
 async function vulProfielAan(
   userId: string,
   naam: string,
   isPlusklas: boolean,
+  code: string | null,
 ) {
   const admin = createAdminClient();
   const rij: Record<string, unknown> = { id: userId, full_name: naam };
   if (isPlusklas) rij.is_plusklas = true;
+  if (code) rij.plusklas_code = code;
   return admin.from("profiles").upsert(rij, { onConflict: "id" });
 }
 
@@ -81,6 +86,9 @@ export async function registreren(formData: FormData) {
   const supabase = await createClient();
 
   let isPlusklas = false;
+  // De code zoals ze in de databank staat, niet zoals ze ingetikt werd. Daarmee
+  // weten we later bij welke groep dit gezin hoort; zie supabase/groepen.sql.
+  let gevondenCode: string | null = null;
   if (plusklasCode) {
     const code = await zoekPlusklasCode(plusklasCode);
     if (!code) {
@@ -89,6 +97,7 @@ export async function registreren(formData: FormData) {
       );
     }
     isPlusklas = true;
+    gevondenCode = code;
   }
 
   // Ben je al ingelogd met precies dit adres, dan is deze registratie al
@@ -110,6 +119,7 @@ export async function registreren(formData: FormData) {
       reeds.user.id,
       naam,
       isPlusklas,
+      gevondenCode,
     );
     if (aanvulFout) {
       console.error("profiel aanvullen mislukt:", aanvulFout.message);
@@ -160,6 +170,7 @@ export async function registreren(formData: FormData) {
         full_name: naam,
         role: "ouder",
         is_plusklas: isPlusklas,
+        plusklas_code: gevondenCode,
       },
       { onConflict: "id" },
     );

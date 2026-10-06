@@ -162,10 +162,11 @@ export default async function BeheerPage() {
           </section>
 
           <section>
-            <h2 className="font-display text-lg font-semibold text-ink">Opvolging plusklas</h2>
+            <h2 className="font-display text-lg font-semibold text-ink">Opvolging</h2>
             <p className="mt-3 text-sm text-ink-dim">
-              De fiche per plusklaskind: voortgang, jullie opmerkingen en het werk dat ze
-              thuis maakten. Om bij de hand te hebben op een oudercontact.
+              De fiche per kind: voortgang, jullie opmerkingen en het werk dat ze thuis
+              maakten. Om bij de hand te hebben op een oudercontact. Je filtert bovenaan
+              per groep, zodat de plusklas niet door de testgezinnen loopt.
             </p>
             <Link
               href="/begeleiding"

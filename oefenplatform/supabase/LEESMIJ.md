@@ -30,10 +30,12 @@ importeren mag je wél maar één keer doen, tenzij je "vervangen" aanvinkt.
 | 14  | `berichten.sql`        | Een bericht van jou aan alle ouders, bovenaan het platform. Beheer → Berichten.                                     |
 | 15  | `voortgangsbalk.sql`   | Laat ouders per kind kiezen of er een voortgangsbalk bij de oefeningen staat.                                       |
 | 16  | `melding-antwoord.sql` | Laat je bij "Afgehandeld" een woordje terugschrijven; de melder ziet dat bovenaan het platform. Ná `meldingen.sql`. |
+| 17  | `groepen.sql`          | Splitst de opvolging op per plusklascode: de plusklas en de testgroepen in een eigen lijst. Ná `plusklasfiche.sql`. |
 
-De volgorde telt maar op drie plaatsen: `schema.sql` moet eerst,
-`weetjes-bericht.sql` moet ná `weetjes.sql` en `melding-antwoord.sql` ná
-`meldingen.sql`. De rest mag door elkaar.
+De volgorde telt maar op vier plaatsen: `schema.sql` moet eerst,
+`weetjes-bericht.sql` moet ná `weetjes.sql`, `melding-antwoord.sql` ná
+`meldingen.sql` en `groepen.sql` ná `plusklasfiche.sql`. De rest mag door
+elkaar.
 
 ## Eén ding om te weten
 

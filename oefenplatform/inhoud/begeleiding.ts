@@ -18,6 +18,36 @@ export const begeleidingTekst = {
   leegTekst:
     "Nog geen kinderen van de plusklas. Een kind verschijnt hier zodra het gezin met een plusklascode geregistreerd is en een kind toegevoegd heeft.",
 
+  /*
+    Het overzicht met de groepen. Elke actieve code krijgt een eigen scherm,
+    zodat de plusklas van Hasselt niet door de testgezinnen loopt. Een gezin
+    hoort bij de code waarmee het registreerde; zie supabase/groepen.sql.
+  */
+  groepen: {
+    titel: "Opvolging",
+    intro:
+      "Elke code is een eigen groep. Klik bovenaan op een groep en je ziet alleen de kinderen die met die code registreerden.",
+    leeg:
+      "Er zijn nog geen codes. Maak er een aan bij Beheer, Plusklas-codes, en deel ze met de gezinnen.",
+    filterLabel: "Kies een groep",
+    zonderGroepTitel: "Nog geen groep",
+    zonderGroepUitleg:
+      "Deze gezinnen registreerden voor de groepen bestonden, dus weten we niet met welke code. Open de fiche van een kind en kies daar de juiste groep.",
+    terug: "Terug naar de opvolging",
+    groepLeeg: "Nog geen kinderen in deze groep.",
+    inactief: "Niet meer actief",
+  },
+
+  /* Het keuzelijstje op de fiche waarmee je een gezin naar een groep zet. */
+  groepKiezen: {
+    kop: "Groep",
+    uitleg:
+      "Bij welke groep hoort dit gezin? Verandert dit, dan schuiven alle kinderen van het gezin mee.",
+    geen: "Nog geen groep",
+    bewaren: "Bewaren",
+    alleenBeheerder: "Alleen de beheerder kan een gezin naar een andere groep zetten.",
+  },
+
   /* Het scherm van één kind. */
   fiche: {
     notitiesKop: "Opmerkingen",

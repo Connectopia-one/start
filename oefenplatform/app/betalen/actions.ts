@@ -70,9 +70,11 @@ export async function gebruikPlusklasCode(formData: FormData) {
   }
 
   const admin = createAdminClient();
+  // We bewaren ook mét welke code, zodat dit gezin in het juiste opvolgscherm
+  // terechtkomt. Zie supabase/groepen.sql.
   const { error } = await admin
     .from("profiles")
-    .update({ is_plusklas: true })
+    .update({ is_plusklas: true, plusklas_code: code })
     .eq("id", session.userId);
 
   if (error) {

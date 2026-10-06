@@ -6,7 +6,8 @@ import { createClient } from "@/lib/supabase/server";
 import { begeleidingTekst as t } from "@/inhoud/begeleiding";
 import { NotitieForm } from "./NotitieForm";
 import { WerkForm } from "./WerkForm";
-import { verwijderNotitie, verwijderWerk } from "./actions";
+import { haalCodes } from "@/lib/begeleidingsgroepen";
+import { verwijderNotitie, verwijderWerk, zetGroep } from "./actions";
 
 type VoortgangRij = {
   correct: boolean;
@@ -56,24 +57,43 @@ function datum(waarde: string) {
 
 export default async function FichePage({
   params,
+  searchParams,
 }: {
   params: Promise<{ kindId: string }>;
+  searchParams: Promise<{ groep?: string }>;
 }) {
   const session = await requireBegeleider();
   const { kindId } = await params;
+  /* De groep waar je vandaan kwam, zodat de terugknop je daar weer afzet. */
+  const { groep: vanGroep } = await searchParams;
   const supabase = await createClient();
 
   const { data: kind } = await supabase
     .from("kinderen")
-    .select("id, naam, created_at, profiles(full_name, is_plusklas)")
+    .select("id, naam, created_at, profiles(full_name, is_plusklas, plusklas_code)")
     .eq("id", kindId)
     .single();
 
   const gezin = (
-    kind as { profiles?: { full_name: string; is_plusklas: boolean } } | null
+    kind as {
+      profiles?: {
+        full_name: string;
+        is_plusklas: boolean;
+        plusklas_code: string | null;
+      };
+    } | null
   )?.profiles;
   /* Enkel plusklaskinderen hebben een fiche — ook voor jou als beheerder. */
   if (!kind || !gezin?.is_plusklas) notFound();
+
+  /*
+    Bij welke groep hoort dit gezin? Alleen de beheerder mag dat veranderen;
+    een begeleider leest het gewoon mee. Zie supabase/groepen.sql.
+  */
+  const magGroepZetten = session.profile?.role === "beheerder";
+  const codes = magGroepZetten ? await haalCodes() : [];
+  const huidigeCode = gezin.plusklas_code ?? "";
+  const huidigeGroep = codes.find((c) => c.code === huidigeCode);
 
   const [
     { data: rijen },
@@ -154,10 +174,14 @@ export default async function FichePage({
       <Header naam={session.profile?.full_name} rol={session.profile?.role} />
       <main className="mx-auto w-full max-w-3xl flex-1 px-6 py-10">
         <Link
-          href="/begeleiding"
+          href={
+            vanGroep
+              ? `/begeleiding?groep=${encodeURIComponent(vanGroep)}`
+              : "/begeleiding"
+          }
           className="niet-afdrukken text-sm text-ink-dim hover:text-ink"
         >
-          &larr; {t.titel}
+          &larr; {t.groepen.terug}
         </Link>
 
         <h1 className="mt-2 font-display text-2xl font-semibold text-ink">
@@ -167,6 +191,55 @@ export default async function FichePage({
           Gezin {gezin.full_name} &middot; op het platform sinds{" "}
           {datum(kind.created_at)}
         </p>
+
+        {/* De groep waar het gezin bij hoort. */}
+        <section className="mt-4 rounded-xl border border-border bg-surface px-5 py-4">
+          <h2 className="font-display text-base font-semibold text-ink">
+            {t.groepKiezen.kop}
+          </h2>
+          {magGroepZetten ? (
+            <>
+              <p className="mt-1 text-sm text-ink-dim">
+                {t.groepKiezen.uitleg}
+              </p>
+              <form
+                action={zetGroep}
+                className="niet-afdrukken mt-3 flex flex-wrap items-center gap-2"
+              >
+                <input type="hidden" name="kindId" value={kindId} />
+                <label className="sr-only" htmlFor="groepkeuze">
+                  {t.groepKiezen.kop}
+                </label>
+                <select
+                  id="groepkeuze"
+                  name="code"
+                  defaultValue={huidigeCode}
+                  className="rounded-lg border border-border bg-paper px-3 py-2 text-sm text-ink"
+                >
+                  <option value="">{t.groepKiezen.geen}</option>
+                  {codes.map((c) => (
+                    <option key={c.code} value={c.code}>
+                      {c.label ? `${c.label} (${c.code})` : c.code}
+                      {c.actief ? "" : " — niet meer actief"}
+                    </option>
+                  ))}
+                </select>
+                <button
+                  type="submit"
+                  className="rounded-lg bg-forest px-4 py-2 text-sm font-medium text-white hover:bg-forest-dark"
+                >
+                  {t.groepKiezen.bewaren}
+                </button>
+              </form>
+            </>
+          ) : (
+            <p className="mt-1 text-sm text-ink-dim">
+              {huidigeGroep?.label || huidigeCode || t.groepKiezen.geen}
+              {" — "}
+              {t.groepKiezen.alleenBeheerder}
+            </p>
+          )}
+        </section>
 
         {/* Voortgang */}
         <section className="mt-8">
