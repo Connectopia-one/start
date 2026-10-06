@@ -83,19 +83,32 @@
   .proefles p { font-size: 9.4pt; line-height: 1.38; color: #4a3566; font-weight: 600; margin-top: 1.2mm; }
   .proefles .icoon { font-size: 22pt; }
 
-  /* ---------- kampen ---------- */
-  .kampen { margin: 4mm 14mm 0; border-radius: 20px; background: var(--green); color: #fff;
-            padding: 4mm 6mm 4.4mm; }
-  .kampen .hand { font-family: "Caveat"; font-size: 17pt; color: var(--sage-soft); line-height: 1; }
-  .kampen h2 { font-weight: 900; font-size: 16pt; line-height: 1.1; margin-top: .8mm; }
-  .kampen .rij { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm; margin-top: 3.2mm; }
-  .kampen .vak { background: rgba(255,255,255,.12); border-radius: 15px; padding: 2.6mm 4mm 3mm; }
-  .kampen .vak .wanneer { font-size: 10.4pt; font-weight: 900; line-height: 1.18; }
-  .kampen .vak .plek { font-size: 9pt; font-weight: 700; color: var(--sage-soft); margin-top: .8mm; line-height: 1.3; }
-  .kampen .vak .thema { font-size: 9pt; font-weight: 700; margin-top: 1.2mm; line-height: 1.32; }
-  .kampen .breed { grid-column: 1 / -1; }
-  .kampen .slot { margin-top: 3mm; font-size: 9.6pt; font-weight: 700; line-height: 1.4; }
-  .kampen .slot b { color: #fff3d8; }
+  /* ---------- kampkaarten, in dezelfde vorm als de vierkante kamppost ---------- */
+  .wanneer { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm; padding: 3mm 14mm 0; }
+  .datum { border-radius: 20px; background: #fff; border: .35mm solid var(--border);
+           padding: 3mm 4.5mm 3.2mm 5.5mm; position: relative; overflow: hidden; }
+  .datum::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 2.4mm; }
+  .datum.oranje::before { background: var(--orange); }
+  .datum.groen::before { background: var(--green-mid); }
+  .datum.ye::before { background: var(--ye); }
+  .datum .plaats { font-weight: 900; font-size: 9.6pt; letter-spacing: .1em; text-transform: uppercase; }
+  .datum.oranje .plaats { color: var(--orange); }
+  .datum.groen .plaats { color: var(--green-mid); }
+  .datum.ye .plaats { color: var(--ye); }
+  .datum .dagen { font-weight: 900; font-size: 14pt; color: var(--green); line-height: 1.1; margin-top: .4mm; }
+  .datum.ye .dagen { color: var(--ye-navy); }
+  .datum .thema { margin-top: 1.4mm; font-weight: 800; font-size: 9.6pt; line-height: 1.25; }
+  .datum .waar { margin-top: 1.6mm; padding-top: 1.6mm; border-top: .3mm dashed var(--border);
+                 font-size: 9pt; font-weight: 700; line-height: 1.3; }
+  .datum .waar span { display: block; color: var(--ink-dim); font-weight: 600; }
+  .datum .yemerk { position: absolute; right: 4mm; top: 3mm; width: 21mm; object-fit: contain; }
+  .datum.ye { border-color: #bcd9f2; }
+  .datum.breed { grid-column: 1 / -1; }
+  .praktisch { grid-column: 1 / -1; border-radius: 16px; background: var(--sage-soft);
+               border: .3mm solid #cdd9bb; padding: 2.2mm 5mm; display: flex; align-items: baseline;
+               justify-content: space-between; gap: 4mm; font-size: 9.6pt; font-weight: 700; }
+  .praktisch b { font-weight: 900; color: var(--green); font-size: 10.6pt; }
+  .praktisch .stip { color: var(--sage); font-weight: 900; }
 
   /* ---------- korting ---------- */
   .korting { margin: 4mm 14mm 0; border-radius: 20px; background: var(--orange-soft);
@@ -127,8 +140,14 @@
   .voet .contact { text-align: right; font-size: 9.6pt; font-weight: 700; color: var(--ink-dim); line-height: 1.45; }
   .voet .contact b { color: var(--green); font-weight: 900; }
 
+  .voet.actiebalk { background: var(--green); border-top: none; padding: 4.4mm 14mm 5mm; }
+  .voet.actiebalk .naam { color: #fff; }
+  .voet.actiebalk .naam small { color: var(--sage-soft); }
+  .voet.actiebalk .contact { color: var(--sage-soft); }
+  .voet.actiebalk .contact b { color: #f4b27c; }
+
   .blaadje { position: absolute; z-index: 0; opacity: .5; }
-  .kop, .strook, h2.titel, .aanbod, .duo, .kampen, .korting, .slotregel { position: relative; z-index: 1; }
+  .kop, .strook, h2.titel, .aanbod, .duo, .wanneer, .korting, .slotregel { position: relative; z-index: 1; }
 </style>
 </head>
 <body>
@@ -226,34 +245,45 @@
     <div class="tekst">
       <div class="hand">En in elke vakantie</div>
       <h1>Kampen in de herfst<br><span>en in de kerstvakantie</span></h1>
-      <p>Twee dagen of alle dagen, dat kies je zelf. Elke dag van <b>9u tot 15u</b>, voor kinderen van 6 tot 12 jaar, <b>€40 per dag</b>. De plaatsen zijn beperkt.</p>
+      <p>Twee dagen of alle dagen, dat kies je zelf. De plaatsen zijn beperkt, dus wie zeker wil zijn schrijft best op tijd in. Het kamp in Hasselt is er eentje van <b>Young Engineers</b>.</p>
     </div>
     <div class="merken">
       <img class="co" src="logo-kim-transparant.png" alt="Connectopia">
+      <img class="ye" src="ye-logo.png" alt="Young Engineers">
     </div>
   </div>
 
-  <div class="kampen">
-    <div class="hand">Zet het alvast in je agenda</div>
-    <h2>De kampen van dit najaar</h2>
-    <div class="rij">
-      <div class="vak">
-        <div class="wanneer">Maandag 2 en dinsdag 3 november</div>
-        <div class="plek">Hasselt, bij Level X 28, Vilderstraat 28</div>
-        <div class="thema">Thema: Young Engineer Held</div>
-      </div>
-      <div class="vak">
-        <div class="wanneer">Woensdag 4 en donderdag 5 november</div>
-        <div class="plek">Genk, op T2 Campus, Thor Park 8040</div>
-        <div class="thema">Thema: Creatieve duizendpoot, van techniek tot design</div>
-      </div>
-      <div class="vak breed">
-        <div class="wanneer">Kerstvakantie: 21, 22 en 23 december en 28, 29 en 30 december</div>
-        <div class="plek">In Hasselt of in Genk, jij zegt wat het best past</div>
-        <div class="thema">Deze kampen gaan door als er genoeg inschrijvingen zijn, dus laat gerust nu al weten waar je interesse in hebt.</div>
-      </div>
+  <h2 class="titel">De kampen van dit najaar
+    <small>Zet ze alvast in je agenda. Daarna volgen nog de krokus-, paas- en zomervakantie.</small>
+  </h2>
+
+  <div class="wanneer">
+    <div class="datum ye">
+      <img class="yemerk" src="ye-logo.png" alt="Young Engineers">
+      <div class="plaats">Hasselt</div>
+      <div class="dagen">ma 2 &amp; di 3 november</div>
+      <div class="thema">Thema: Young Engineer Held</div>
+      <div class="waar">Level X 28<span>Vilderstraat 28, Hasselt</span></div>
     </div>
-    <div class="slot">Daarna volgen de krokus-, paas- en zomervakantie. <b>Inschrijven doe je op www.connectopia.one/aanbod</b></div>
+    <div class="datum oranje">
+      <div class="plaats">Genk</div>
+      <div class="dagen">wo 4 &amp; do 5 november</div>
+      <div class="thema">Thema: Creatieve duizendpoot,<br>van techniek tot design</div>
+      <div class="waar">T2 Campus<span>Thor Park 8040, Genk</span></div>
+    </div>
+    <div class="datum groen breed">
+      <div class="plaats">Kerstvakantie</div>
+      <div class="dagen">21, 22 en 23 december &nbsp;&middot;&nbsp; 28, 29 en 30 december</div>
+      <div class="thema">In Hasselt of in Genk, jij zegt wat het best past</div>
+      <div class="waar">Deze kampen gaan door als er genoeg inschrijvingen zijn<span>Laat gerust nu al weten waar je interesse in hebt, dan weten wij of we ze kunnen laten doorgaan.</span></div>
+    </div>
+    <div class="praktisch">
+      <span>Elke dag van <b>9u tot 15u</b></span>
+      <span class="stip">&#9679;</span>
+      <span><b>&euro;40</b> per dag</span>
+      <span class="stip">&#9679;</span>
+      <span><b>6 tot 12 jaar</b></span>
+    </div>
   </div>
 
   <div class="strook twee hoog">
@@ -274,15 +304,10 @@
     </div>
   </div>
 
-  <div class="slotregel">
-    <div class="hand">Tot binnenkort?</div>
-    <div class="url">www.connectopia.one/aanbod</div>
-  </div>
-
-  <div class="voet">
+  <div class="voet actiebalk">
     <div class="rij">
-      <div class="naam">Connectopia vzw<small>Hasselt en Genk · ook Young Engineers Demerland</small></div>
-      <div class="contact"><b>www.connectopia.one</b><br>info@matmgroep.com · 0468 35 74 96</div>
+      <div class="naam">Inschrijven op www.connectopia.one/aanbod<small>Plaatsen zijn beperkt · Connectopia vzw, Hasselt en Genk</small></div>
+      <div class="contact"><b>0468 35 74 96</b><br>info@matmgroep.com</div>
     </div>
   </div>
 </section>
