@@ -84,6 +84,26 @@ export default async function MeetestenPagina() {
         </div>
       </Sectie>
 
+      {/* Wat een tester ervoor teruggeeft. */}
+      <Sectie className="py-8">
+        <div className="rounded-[20px] bg-purple-soft px-6 py-5">
+          <h2 className="text-2xl text-purple">{meetesten.afspraakTitel}</h2>
+          <p className="mt-2 max-w-[68ch] text-[16px] text-ink">
+            {meetesten.afspraakTekst}
+          </p>
+          <ul className="mt-3 grid gap-2">
+            {meetesten.afspraak.map((punt) => (
+              <li key={punt} className="flex gap-2 text-[16px] text-ink">
+                <span aria-hidden className="text-purple">
+                  ✓
+                </span>
+                <span>{punt}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </Sectie>
+
       {/* Voor wie niet gekozen wordt: wat het anders kost. */}
       <Sectie className="py-8">
         <div className="rounded-[20px] bg-orange-soft px-6 py-5">
@@ -101,10 +121,16 @@ export default async function MeetestenPagina() {
               </li>
             ))}
           </ul>
-          <div className="mt-5">
+          <div className="mt-5 flex flex-wrap items-center gap-4">
             <Knop href={meetesten.prijzenKnop.link}>
               {meetesten.prijzenKnop.tekst}
             </Knop>
+            <a
+              href={meetesten.prijzenLink.link}
+              className="text-[16px] font-extrabold text-green underline-offset-4 hover:underline"
+            >
+              {meetesten.prijzenLink.tekst} →
+            </a>
           </div>
         </div>
       </Sectie>
@@ -127,6 +153,9 @@ export default async function MeetestenPagina() {
             <>
               <p className="mt-2 max-w-[62ch] text-[16px] text-ink-dim">
                 {meetesten.formulierTekst}
+              </p>
+              <p className="mt-3 rounded-[16px] bg-sage-soft px-4 py-3 text-[16px] font-bold text-green">
+                {meetesten.formulierPlaatsen}
               </p>
               <div className="mt-6">
                 <Aanvraagformulier

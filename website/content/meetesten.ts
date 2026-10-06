@@ -27,9 +27,9 @@ export const meetesten = {
 
   label: "Meetesten",
   titel: "Test ons oefenplatform mee",
-  handgeschreven: "Wij bouwen, jij vertelt ons wat er beter kan",
+  handgeschreven: "Wij geven je alles open, jij vertelt ons wat er beter kan",
   tekst:
-    "Ons oefenplatform groeit elke week. Gezinnen die thuisonderwijs geven, testen het al. Nu zoeken we er twee groepen bij die de leerstof van een heel andere kant bekijken. Herken je jezelf hieronder? Dan test je een maand lang gratis mee, en wie daarna de evaluatie invult, krijgt een gratis jaarlicentie.",
+    "Ons oefenplatform loopt van het 5de leerjaar tot het 6de middelbaar en groeit elke week. Gezinnen die thuisonderwijs geven, testen het al. Nu zoeken we er twee groepen bij die de leerstof van een heel andere kant bekijken. Je test een maand lang gratis, en wie daarna de evaluatie invult, krijgt een gratis jaarlicentie. Het aantal plaatsen is beperkt.",
 
   groepenTitel: "Wie we erbij zoeken",
   groepen: [
@@ -81,6 +81,20 @@ export const meetesten = {
   ],
 
   /*
+    Dit kader staat er met opzet streng in. Kim wil dat vooraf duidelijk is
+    dat meetesten geen gratis toegang zonder meer is: wie niets laat weten,
+    krijgt ook geen gratis jaar.
+  */
+  afspraakTitel: "Wat we van jou vragen",
+  afspraakTekst:
+    "Meetesten is geen gratis toegang zonder meer. We zetten alles voor je open omdat we je mening nodig hebben, dus we rekenen erop dat je er in die maand ook echt mee werkt.",
+  afspraak: [
+    "Werk er die maand echt mee, niet \u00e9\u00e9n keertje aan het begin",
+    "Laat ons onderweg weten wat je opvalt, ook de kleine dingen",
+    "Vul op het einde de evaluatie in; daar hangt je gratis jaar aan vast",
+  ],
+
+  /*
     Wie zich opgeeft maar niet gekozen wordt, mag niet met lege handen
     achterblijven. Daarom staan de prijzen er meteen bij.
     De tijdelijke prijs van 20 euro staat ook in oefenplatform/lib/prijs.ts;
@@ -92,6 +106,11 @@ export const meetesten = {
   prijzenKnop: {
     tekst: "Maak een account aan",
     link: "https://oefenplatform.connectopia.one/registreren",
+  },
+  /* Voor wie eerst wil rondkijken voor hij iets aanmaakt. */
+  prijzenLink: {
+    tekst: "Of kijk eerst rond op het oefenplatform",
+    link: "https://oefenplatform.connectopia.one",
   },
   prijzen: [
     {
@@ -118,6 +137,8 @@ export const meetesten = {
   formulierTitel: "Geef je op om mee te testen",
   formulierTekst:
     "Vink aan wat op jou past en laat je gegevens achter. We nemen contact op om je toegang in orde te brengen.",
+  formulierPlaatsen:
+    "Het aantal plaatsen is beperkt. Je hoort van ons of je erbij bent, en we laten het ook weten als het deze keer niet lukt.",
   onderwerp: "Aanmelding om mee te testen via de website",
 
   gesloten:

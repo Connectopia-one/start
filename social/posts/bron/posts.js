@@ -426,13 +426,16 @@ module.exports = [
     tekst:
       "Onze hoofdstukken volgen de vakfiches van de Examencommissie. Klopt dat met wat jij op je examen krijgt?",
     woorden: [
-      { ic: "🚀", tekst: "Boost · 3de en 4de middelbaar" },
-      { ic: "🌍", tekst: "Beyond · 5de en 6de middelbaar" },
+      { ic: "📚", tekst: "Van het 5de leerjaar tot het 6de middelbaar" },
       { ic: "📄", tekst: "Doorstroom en dubbele finaliteit" },
     ],
     nadruk:
       "<b>Een maand gratis testen.</b> Vul je daarna de evaluatie in en je krijgt een gratis jaarlicentie: een heel jaar toegang tot alles.",
-    voet: { hand: "Geef je op via", url: "connectopia.one/meetesten" },
+    voet: {
+      hand: "Geef je op via",
+      url: "connectopia.one/meetesten",
+      klein: "Plaatsen zijn beperkt",
+    },
   },
 
   {
@@ -450,6 +453,10 @@ module.exports = [
     ],
     nadruk:
       "<b>Een maand gratis bij je leerlingen.</b> Vul je daarna de evaluatie in en je krijgt een gratis jaarlicentie, voor maximaal 5 leerlingen.",
-    voet: { hand: "Geef je op via", url: "connectopia.one/meetesten" },
+    voet: {
+      hand: "Geef je op via",
+      url: "connectopia.one/meetesten",
+      klein: "Plaatsen zijn beperkt · 5de leerjaar tot 6de middelbaar",
+    },
   },
 ];
