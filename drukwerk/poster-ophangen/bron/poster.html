@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<title>Poster om op te hangen</title>
+<style>
+  /*
+    A4 (210 x 297 mm), bedoeld om op te hangen in scholen en op de plaatsen
+    waar we werken. Zelfde inhoud als de uitnodigingsmail, maar zonder de
+    kortingscode: die is persoonlijk en hoort niet aan een muur.
+    Dezelfde kleuren en fonts als de rest van het drukwerk.
+  */
+  @font-face { font-family: "Nunito"; src: url(nunito.woff2) format("woff2"); font-weight: 200 1000; }
+  @font-face { font-family: "Caveat"; src: url(caveat.woff2) format("woff2"); font-weight: 700; }
+  @page { size: 210mm 297mm; margin: 0; }
+
+  :root {
+    --cream: #fbf6ea; --ink: #2a2d26; --ink-dim: #61675a; --border: #e6e0d0;
+    --green: #2f4a22; --green-mid: #5c7a45; --sage: #8aa173; --sage-soft: #dfe7d0;
+    --purple: #5e2d91; --purple-soft: #eae0f6; --orange: #d96e25; --orange-soft: #fae5d1;
+    --ye: #1b6db3; --ye-navy: #0f3a66; --ye-soft: #dbeafa;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { background: #cfc8b6; }
+  body { font-family: "Nunito", sans-serif; color: var(--ink);
+         -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  .blad { width: 210mm; height: 297mm; background: var(--cream);
+          position: relative; overflow: hidden; }
+
+  /* alles wat inhoud is, staat boven de blaadjes in de achtergrond */
+  .band, .kop, .strook, h2.titel, .aanbod, .kampen, .extra, .voet { position: relative; z-index: 1; }
+
+  .blaadje { position: absolute; z-index: 0; }
+
+  .band { height: 8mm; background: var(--green); }
+
+  /* ---------- kop ---------- */
+  .kop { padding: 4mm 14mm 0; display: flex; align-items: flex-start; gap: 6mm; }
+  .kop .tekst { flex: 1; }
+  .kop .hand { font-family: "Caveat"; font-size: 19pt; color: var(--orange); line-height: 1; }
+  .kop h1 { font-weight: 900; color: var(--green); font-size: 22pt; line-height: 1.04;
+            letter-spacing: -.015em; margin-top: 1.5mm; }
+  .kop h1 span { color: var(--green-mid); }
+  .kop p { margin-top: 2.2mm; font-size: 10.2pt; line-height: 1.4; color: var(--ink-dim); font-weight: 600; }
+  .kop p b { color: var(--ink); font-weight: 800; }
+  .kop .merken { display: flex; flex-direction: column; align-items: center; gap: 2mm; }
+  .kop .merken img.co { width: 23mm; height: 23mm; object-fit: contain; }
+  .kop .merken img.ye { width: 23mm; object-fit: contain; }
+
+  /* ---------- fotostrook ----------
+     De foto's zijn vierkant (1254 x 1254) en de vakjes even hoog als breed
+     (40 x 40 mm), dus er wordt niets afgesneden. */
+  .strook { display: grid; grid-template-columns: repeat(4, 40mm); justify-content: center;
+            gap: 3mm; padding: 3.5mm 14mm 0; }
+  .strook figure { border-radius: 16px; overflow: hidden; border: .35mm solid var(--border); }
+  .strook img { display: block; width: 100%; height: 40mm; object-fit: cover; }
+
+  /* ---------- titel boven een blok ---------- */
+  h2.titel { padding: 3.5mm 14mm 0; font-weight: 900; color: var(--green);
+             font-size: 16pt; letter-spacing: -.01em; }
+  h2.titel small { display: block; font-size: 10pt; font-weight: 600;
+                   color: var(--ink-dim); margin-top: .8mm; letter-spacing: 0; }
+
+  /* ---------- de vier werkingen ---------- */
+  .aanbod { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm; padding: 2.5mm 14mm 0; }
+  .kaart { border-radius: 18px; background: #fff; border: .35mm solid var(--border);
+           padding: 2.8mm 4.2mm 3.2mm; }
+  .kaart.ye { background: #fff; border-color: #bcd9f2; }
+  .kaart .rij1 { display: flex; align-items: center; gap: 2.6mm; }
+  .kaart .schijf { width: 7.6mm; height: 7.6mm; border-radius: 50%; flex: none;
+                   display: flex; align-items: center; justify-content: center; font-size: 11pt; }
+  .kaart.groen .schijf { background: var(--sage-soft); }
+  .kaart.paars .schijf { background: var(--purple-soft); }
+  .kaart.oranje .schijf { background: var(--orange-soft); }
+  .kaart.ye .schijf { background: var(--ye-soft); }
+  .kaart h3 { font-size: 12.2pt; font-weight: 900; color: var(--green); line-height: 1.1; }
+  .kaart.ye h3 { color: var(--ye); }
+  .kaart .onder { font-size: 7.6pt; font-weight: 900; letter-spacing: .09em;
+                  text-transform: uppercase; color: var(--ye-navy); margin-top: .6mm; }
+  .kaart ul { list-style: none; margin-top: 1.8mm; }
+  .kaart li { font-size: 9.2pt; font-weight: 600; line-height: 1.32; color: var(--ink); }
+  .kaart li b { font-weight: 800; }
+  .kaart li.dim { color: var(--ink-dim); }
+  .kaart .prijs { margin-top: 1.8mm; font-size: 10.6pt; font-weight: 900; color: var(--orange); }
+  .kaart.ye .prijs { color: var(--ye); }
+  .kaart .prijs s { font-weight: 700; color: var(--ink-dim); opacity: .75; }
+
+  /* ---------- de kampen ---------- */
+  .kampen { margin: 2.5mm 14mm 0; border-radius: 20px; background: var(--sage-soft);
+            border: .35mm solid #cdd9bb; padding: 3.2mm 5mm 3.4mm; }
+  .kampen h3 { font-size: 12.6pt; font-weight: 900; color: var(--green); line-height: 1.1; }
+  .kampen h3 span { font-family: "Caveat"; font-size: 14pt; color: var(--orange); }
+  .kampen .rij { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 4mm; margin-top: 2.2mm; }
+  .kampen .vak { border-left: 1.6mm solid var(--green-mid); padding-left: 3mm; }
+  .kampen .vak.oranje { border-left-color: var(--orange); }
+  .kampen .vak.blauw { border-left-color: var(--ye); }
+  .kampen .wat { font-size: 7.6pt; font-weight: 900; letter-spacing: .09em;
+                 text-transform: uppercase; color: var(--ink-dim); }
+  .kampen .wanneer { font-size: 10.4pt; font-weight: 900; color: var(--green); line-height: 1.16; margin-top: .4mm; }
+  .kampen .waar { font-size: 9pt; font-weight: 600; color: var(--ink); line-height: 1.3; margin-top: .6mm; }
+  .kampen .praktisch { margin-top: 2.4mm; padding-top: 2.2mm; border-top: .3mm dashed #b9c8a4;
+                       display: flex; justify-content: space-between; font-size: 10pt; font-weight: 700; }
+  .kampen .praktisch b { font-weight: 900; color: var(--green); }
+  .kampen .praktisch .stip { color: var(--sage); font-weight: 900; }
+
+  /* ---------- proefles en oefenplatform ---------- */
+  .extra { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm; padding: 2.5mm 14mm 0; }
+  .extra div { border-radius: 16px; padding: 2.6mm 4.2mm 2.8mm; }
+  .extra .proef { background: var(--purple-soft); }
+  .extra .plat { background: var(--orange-soft); }
+  .extra h4 { font-size: 11.4pt; font-weight: 900; line-height: 1.1; }
+  .extra .proef h4 { color: var(--purple); }
+  .extra .plat h4 { color: var(--orange); }
+  .extra p { font-size: 9pt; font-weight: 600; line-height: 1.32; margin-top: .8mm; color: var(--ink); }
+
+  /* ---------- de voettekst met de qr-code ---------- */
+  .voet { position: absolute; left: 0; right: 0; bottom: 0; height: 40mm; background: var(--green);
+          color: #fff; display: flex; align-items: center; gap: 7mm; padding: 0 14mm; }
+  .voet .tekst { flex: 1; }
+  .voet .groot { font-size: 15.5pt; font-weight: 900; line-height: 1.1; }
+  .voet .groot span { color: #f4b27c; }
+  .voet .klein { margin-top: 1.4mm; font-size: 9.8pt; font-weight: 600; opacity: .92; line-height: 1.4; }
+  .voet .gegevens { margin-top: 1.8mm; font-size: 11pt; font-weight: 800; }
+  .voet .qr { background: var(--cream); border-radius: 14px; padding: 3mm 3mm 2mm; text-align: center; flex: none; }
+  .voet .qr img { display: block; width: 25mm; height: 25mm; }
+  .voet .qr figcaption { font-size: 7.6pt; font-weight: 800; color: var(--ink-dim); margin-top: 1.2mm; }
+  .voet img.logo { width: 21mm; height: 21mm; object-fit: contain; flex: none;
+                   background: var(--cream); border-radius: 14px; padding: 2mm; }
+</style>
+</head>
+<body>
+
+<section class="blad" id="poster">
+  <div class="band"></div>
+
+  <svg class="blaadje" style="right:-14mm; top:60mm; width:52mm" viewBox="0 0 100 100">
+    <path d="M10 90 C 10 40, 50 10, 90 10 C 90 50, 55 90, 10 90 Z" fill="#e8efdc"/>
+  </svg>
+
+  <div class="kop">
+    <div class="tekst">
+      <div class="hand">Voor nieuwsgierige koppen van 6 tot 12 jaar</div>
+      <h1>Ruimte voor nieuwsgierigheid,<br><span>talent en uitdaging</span></h1>
+      <p>Connectopia vzw begeleidt kinderen die meer uitdaging, begrip of ruimte nodig hebben, in <b>Hasselt</b> en in <b>Genk</b>. Een gratis proefles mag altijd eerst.</p>
+    </div>
+    <div class="merken">
+      <img class="co" src="logo-kim-transparant.png" alt="Connectopia vzw">
+      <img class="ye" src="ye-logo.png" alt="Young Engineers">
+    </div>
+  </div>
+
+  <div class="strook">
+    <figure><img src="young-engineers-bouwpakket.jpg" alt=""></figure>
+    <figure><img src="pluswerking-tekenen.jpg" alt=""></figure>
+    <figure><img src="plusklas-planeten.jpg" alt=""></figure>
+    <figure><img src="karton-brug-bouwen.jpg" alt=""></figure>
+  </div>
+
+  <h2 class="titel">Wat er dit schooljaar te doen is
+    <small>Instappen kan nog, ook midden in het jaar.</small>
+  </h2>
+
+  <div class="aanbod">
+    <div class="kaart groen">
+      <div class="rij1"><div class="schijf">&#128640;</div><h3>Externe plusklas</h3></div>
+      <ul>
+        <li><b>Dinsdag, 9u &ndash; 15u</b></li>
+        <li class="dim">Atheneum Hasselt, Kleine-Breemstraat 33</li>
+        <li class="dim">Drie trajecten van telkens tien dagen</li>
+      </ul>
+      <div class="prijs">&euro;50 per dag <s>&euro;60</s></div>
+    </div>
+
+    <div class="kaart paars">
+      <div class="rij1"><div class="schijf">&#127891;</div><h3>Pluswerking woensdag</h3></div>
+      <ul>
+        <li><b>Woensdagvoormiddag, 9u &ndash; 12u</b></li>
+        <li class="dim">T2 Campus, Thor Park 8040, Genk</li>
+        <li class="dim">Schoolse uitdaging en examencommissie</li>
+      </ul>
+      <div class="prijs">&euro;25 per 3 uur <s>&euro;30</s></div>
+    </div>
+
+    <div class="kaart oranje">
+      <div class="rij1"><div class="schijf">&#127912;</div><h3>Pluswerking zaterdag</h3></div>
+      <ul>
+        <li><b>Zaterdagvoormiddag, 9u &ndash; 12u</b></li>
+        <li class="dim">Level X 28, Vilderstraat 28, Hasselt</li>
+        <li class="dim">Creativiteit en techniek samen</li>
+      </ul>
+      <div class="prijs">&euro;25 per 3 uur <s>&euro;30</s></div>
+    </div>
+
+    <div class="kaart ye">
+      <div class="rij1"><div class="schijf">&#9881;&#65039;</div><h3>Young Engineers</h3></div>
+      <div class="onder">een tak van Connectopia vzw</div>
+      <ul>
+        <li><b>Dinsdag, woensdag of zaterdag</b></li>
+        <li class="dim">Hasselt of Genk, &eacute;&eacute;n les duurt 1u15</li>
+        <li class="dim">Met LEGO&reg; en techniek echte dingen bouwen</li>
+      </ul>
+      <div class="prijs">&euro;20 per les <s>&euro;25</s></div>
+    </div>
+  </div>
+
+  <div class="kampen">
+    <h3>Vakantiekampen <span>in elke schoolvakantie</span></h3>
+    <div class="rij">
+      <div class="vak blauw">
+        <div class="wat">Herfst &middot; Hasselt</div>
+        <div class="wanneer">ma 2 &amp; di 3 november</div>
+        <div class="waar">Level X 28, Vilderstraat 28<br>Thema: Young Engineer Held</div>
+      </div>
+      <div class="vak oranje">
+        <div class="wat">Herfst &middot; Genk</div>
+        <div class="wanneer">wo 4 &amp; do 5 november</div>
+        <div class="waar">T2 Campus, Thor Park 8040<br>Thema: Creatieve duizendpoot</div>
+      </div>
+      <div class="vak">
+        <div class="wat">Kerstvakantie</div>
+        <div class="wanneer">21, 22 en 23 december<br>28, 29 en 30 december</div>
+        <div class="waar">In Hasselt of in Genk, jij kiest</div>
+      </div>
+    </div>
+    <div class="praktisch">
+      <span>Elke dag van <b>9u tot 15u</b></span>
+      <span class="stip">&#9679;</span>
+      <span><b>&euro;40</b> per dag</span>
+      <span class="stip">&#9679;</span>
+      <span><b>6 tot 12 jaar</b></span>
+      <span class="stip">&#9679;</span>
+      <span>Plaatsen zijn <b>beperkt</b></span>
+    </div>
+  </div>
+
+  <div class="extra">
+    <div class="proef">
+      <h4>Eerst eens proeven? De proefles is gratis</h4>
+      <p>Je kind mag vrijblijvend een keer meedoen, zonder dat je iets vastlegt.</p>
+    </div>
+    <div class="plat">
+      <h4>Nieuw: ons eigen oefenplatform</h4>
+      <p>Oefenen op maat, van de lagere school tot de derde graad. E&eacute;n hoofdstuk per vak is gratis.</p>
+    </div>
+  </div>
+
+  <footer class="voet">
+    <img class="logo" src="logo-kim-transparant.png" alt="Connectopia vzw">
+    <div class="tekst">
+      <div class="groot">Alle info en inschrijven op<br><span>www.connectopia.one/aanbod</span></div>
+      <div class="klein">Connectopia vzw &middot; samen ontdekken, leren, cre&euml;ren en groeien</div>
+      <div class="gegevens">0468 35 74 96 &nbsp;&middot;&nbsp; info@matmgroep.com</div>
+    </div>
+    <figure class="qr">
+      <img src="qr-aanbod.png" alt="">
+      <figcaption>scan en je bent er</figcaption>
+    </figure>
+  </footer>
+</section>
+
+</body>
+</html>
