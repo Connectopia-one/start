@@ -40,19 +40,21 @@
   /* ---------- fotostrook ---------- */
   .strook { display: grid; gap: 3mm; padding: 4mm 14mm 0; }
   .strook.drie { grid-template-columns: 1fr 1fr 1fr; }
-  /* twee foto's naast elkaar, smaller zodat ze er volledig op passen */
-  .strook.twee { grid-template-columns: 73mm 73mm; justify-content: center; }
+  /* blad 2: twee liggende foto's en een vierkante, alle drie 44mm hoog */
+  .strook.drieplus { grid-template-columns: 58.67mm 58.67mm 44mm; justify-content: center; }
   .strook figure { border-radius: 16px; overflow: hidden; background: #fff;
                    border: .35mm solid var(--border); }
   /*
-    De hoogtes hieronder zijn precies 3:4 van de kolombreedte, zodat er van de
-    foto's (allemaal 1600x1200) niets wordt afgesneden.
-      blad 1: (210 - 28 - 2x3) / 3 = 58,67mm breed  ->  44mm hoog
-      blad 2: 73mm breed                            ->  54,75mm hoog
+    De hoogtes hieronder horen precies bij de breedte van hun kolom, zodat er
+    van de foto's niets wordt afgesneden.
+      blad 1: vierkante foto's, kolom (210 - 28 - 2x3) / 3 = 58,67mm breed.
+      blad 2: liggende foto's (4:3) van 58,67mm breed zijn 44mm hoog; de
+              vierkante foto staat daarnaast in een kolom van 44mm, zodat
+              alle drie de vakjes even hoog zijn.
   */
   .strook img { display: block; width: 100%; object-fit: cover; }
-  .strook.drie img { height: 44mm; }
-  .strook.twee img { height: 54.75mm; }
+  .strook.drie img { height: 58.67mm; }
+  .strook.drieplus img { height: 44mm; }
   .strook figcaption { font-size: 8pt; font-weight: 700; color: var(--ink-dim);
                        padding: 1.6mm 3mm 2mm; line-height: 1.25; }
 
@@ -181,9 +183,9 @@
   </div>
 
   <div class="strook drie">
-    <figure><img src="lego-buggy-bouwen.jpg" alt=""><figcaption>Bouwen met motor en tandwielen bij Young Engineers</figcaption></figure>
-    <figure><img src="tekenen-in-de-klas.jpg" alt=""><figcaption>Beginnen met een leeg blad, op de pluswerking</figcaption></figure>
-    <figure><img src="plusklas-mars-projecten.jpg" alt=""><figcaption>De marskolonie van de plusklas, klaar voor de tentoonstelling</figcaption></figure>
+    <figure><img src="young-engineers-bouwpakket.jpg" alt=""><figcaption>Bouwen op plan bij Young Engineers</figcaption></figure>
+    <figure><img src="pluswerking-tekenen.jpg" alt=""><figcaption>Een eigen ontwerp uittekenen, op de pluswerking</figcaption></figure>
+    <figure><img src="plusklas-planeten.jpg" alt=""><figcaption>De planeten op hun plaats zetten, in de plusklas</figcaption></figure>
   </div>
 
   <h2 class="titel">Wat er dit schooljaar te doen is
@@ -294,9 +296,10 @@
     </div>
   </div>
 
-  <div class="strook twee">
+  <div class="strook drieplus">
     <figure><img src="bouwpakket-in-genk.jpg" alt=""><figcaption>Aan het werk in T2 Campus Genk, waar ook het kamp doorgaat</figcaption></figure>
     <figure><img src="werken-aan-de-groene-tafels.jpg" alt=""><figcaption>Een zelfgemaakt bordspel van karton, vooraan op tafel</figcaption></figure>
+    <figure><img src="karton-brug-bouwen.jpg" alt=""><figcaption>Met z&rsquo;n drie&euml;n een brug bouwen uit karton</figcaption></figure>
   </div>
 
   <div class="korting">

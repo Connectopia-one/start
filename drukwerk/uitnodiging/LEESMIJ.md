@@ -35,19 +35,23 @@ Wil je scherpere afbeeldingen (bijvoorbeeld om te laten drukken):
 
 ## Welke foto's erop staan
 
-Uit `social/fotos/`, de foto's die vrijgegeven zijn voor gebruik:
+- Blad 1, een foto per werking, alle drie vierkant (1254 x 1254), door Kim
+  gekozen op 6 oktober 2026: `young-engineers-bouwpakket`,
+  `pluswerking-tekenen`, `plusklas-planeten`.
+- Blad 2: `bouwpakket-in-genk` en `werken-aan-de-groene-tafels` (liggend,
+  1600 x 1200) plus `karton-brug-bouwen` (vierkant).
 
-- Blad 1: `lego-buggy-bouwen`, `tekenen-in-de-klas`,
-  `plusklas-mars-projecten`.
-- Blad 2: `bouwpakket-in-genk`, `werken-aan-de-groene-tafels`.
-
-Alle vijf zijn liggende foto's van 1600 x 1200. **Dat is geen toeval**: de
-fotovakjes zijn precies 3:4 van hun breedte, zodat er niets wordt afgesneden.
-Zet je er een staande foto in, dan knipt hij de boven- en onderkant eraf.
+**De maten van de vakjes horen bij de vorm van de foto**, zodat er niets wordt
+afgesneden. Op blad 1 is de kolom 58,67mm breed en het vakje even hoog, want de
+foto's zijn vierkant. Op blad 2 staan de twee liggende foto's in kolommen van
+58,67mm bij 44mm hoog, en de vierkante ernaast in een kolom van 44mm, zodat de
+drie vakjes toch even hoog zijn.
 
 Wil je een andere foto, zet ze dan in `bron/` en verander de bestandsnaam in
-`uitnodiging.html`. Neem er een waar meerdere kinderen op staan; dat leest
-warmer dan een close-up van één paar handen.
+`uitnodiging.html`. Let op de vorm: een staande foto past nergens in deze
+vakjes zonder dat de boven- en onderkant eraf gaan. Neem er liefst een waar
+meerdere kinderen op staan; dat leest warmer dan een close-up van één paar
+handen.
 
 ## Wat je zeker nakijkt als je het later hergebruikt
 
