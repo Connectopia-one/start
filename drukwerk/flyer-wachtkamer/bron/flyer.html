@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<title>Flyer voor de wachtkamer</title>
+<style>
+  /*
+    A5 (148 x 210 mm), om uit te delen en in wachtkamers te leggen bij
+    kinesisten, logopedisten en artsen. Dezelfde opbouw als de poster in
+    drukwerk/poster-ophangen/, maar met twee vakjes in plaats van het grote
+    kampenblok: links de vakantiekampen kort, rechts wie we zijn en waarom.
+
+    Het blad is op A5 getekend en wordt daarna ook op A4 geschaald
+    (maak-a4.py). A4 en A5 hebben dezelfde verhouding, dus op A4 is het
+    exact hetzelfde blad, alleen groter.
+  */
+  @font-face { font-family: "Nunito"; src: url(nunito.woff2) format("woff2"); font-weight: 200 1000; }
+  @font-face { font-family: "Caveat"; src: url(caveat.woff2) format("woff2"); font-weight: 700; }
+  @page { size: 148mm 210mm; margin: 0; }
+
+  :root {
+    --cream: #fbf6ea; --ink: #2a2d26; --ink-dim: #61675a; --border: #e6e0d0;
+    --green: #2f4a22; --green-mid: #5c7a45; --sage: #8aa173; --sage-soft: #dfe7d0;
+    --purple: #5e2d91; --purple-soft: #eae0f6; --orange: #d96e25; --orange-soft: #fae5d1;
+    --ye: #1b6db3; --ye-navy: #0f3a66; --ye-soft: #dbeafa;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { background: #cfc8b6; }
+  body { font-family: "Nunito", sans-serif; color: var(--ink);
+         -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  .blad { width: 148mm; height: 210mm; background: var(--cream);
+          position: relative; overflow: hidden; }
+
+  .band, .kop, .strook, h2.titel, .aanbod, .waarvoor, .duo, .voet { position: relative; z-index: 1; }
+  .blaadje { position: absolute; z-index: 0; }
+
+  .band { height: 5.5mm; background: var(--green); }
+
+  /* ---------- kop ---------- */
+  .kop { padding: 3mm 12mm 0; display: flex; align-items: flex-start; gap: 4mm; }
+  .kop .tekst { flex: 1; }
+  .kop .hand { font-family: "Caveat"; font-size: 12.5pt; color: var(--orange); line-height: 1; }
+  .kop h1 { font-weight: 900; color: var(--green); font-size: 15pt; line-height: 1.04;
+            letter-spacing: -.015em; margin-top: 1mm; }
+  .kop h1 span { color: var(--green-mid); }
+  .kop p { margin-top: 1.8mm; font-size: 8.2pt; line-height: 1.4; color: var(--ink-dim); font-weight: 600; }
+  .kop p b { color: var(--ink); font-weight: 800; }
+  .kop .merken { display: flex; flex-direction: column; align-items: center; gap: 1.4mm; }
+  .kop .merken img.co { width: 15mm; height: 15mm; object-fit: contain; }
+  .kop .merken img.ye { width: 15mm; object-fit: contain; }
+
+  /* ---------- fotostrook ----------
+     Vier vierkante foto's (1254 x 1254) in vierkante vakjes, dus er wordt
+     niets afgesneden. */
+  .strook { display: grid; grid-template-columns: repeat(4, 17.5mm); justify-content: center;
+            gap: 2.5mm; padding: 2.5mm 12mm 0; }
+  .strook figure { border-radius: 11px; overflow: hidden; border: .3mm solid var(--border); }
+  .strook img { display: block; width: 100%; height: 17.5mm; object-fit: cover; }
+
+  /* ---------- titel boven een blok ---------- */
+  h2.titel { padding: 2.5mm 12mm 0; font-weight: 900; color: var(--green);
+             font-size: 12pt; letter-spacing: -.01em; }
+  h2.titel small { display: block; font-size: 7.6pt; font-weight: 600;
+                   color: var(--ink-dim); margin-top: .5mm; letter-spacing: 0; }
+
+  /* ---------- de vier werkingen ---------- */
+  .aanbod { display: grid; grid-template-columns: 1fr 1fr; gap: 2.2mm; padding: 2mm 12mm 0; }
+  .kaart { border-radius: 13px; background: #fff; border: .3mm solid var(--border);
+           padding: 2mm 2.8mm 2.2mm; }
+  .kaart.ye { border-color: #bcd9f2; }
+  .kaart .rij1 { display: flex; align-items: center; gap: 1.8mm; }
+  .kaart .schijf { width: 5.6mm; height: 5.6mm; border-radius: 50%; flex: none;
+                   display: flex; align-items: center; justify-content: center; font-size: 7.6pt; }
+  .kaart.groen .schijf { background: var(--sage-soft); }
+  .kaart.paars .schijf { background: var(--purple-soft); }
+  .kaart.oranje .schijf { background: var(--orange-soft); }
+  .kaart.ye .schijf { background: var(--ye-soft); }
+  .kaart h3 { font-size: 9.2pt; font-weight: 900; color: var(--green); line-height: 1.1; }
+  .kaart.ye h3 { color: var(--ye); }
+  .kaart ul { list-style: none; margin-top: .9mm; }
+  .kaart li { font-size: 7.4pt; font-weight: 600; line-height: 1.3; color: var(--ink); }
+  .kaart li.dim { color: var(--ink-dim); }
+  .kaart .prijs { margin-top: .9mm; font-size: 8.2pt; font-weight: 900; color: var(--orange); }
+  .kaart.ye .prijs { color: var(--ye); }
+  .kaart .prijs s { font-weight: 700; color: var(--ink-dim); opacity: .75; }
+
+  /* ---------- de strook met waar we voor staan ---------- */
+  .waarvoor {
+    margin: 2mm 12mm 0; border-radius: 13px; background: var(--sage-soft);
+    border: .3mm solid #cdd9bb; padding: 2.2mm 3.4mm;
+    display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between;
+    gap: 2mm; font-size: 7.6pt; font-weight: 700; color: var(--ink);
+  }
+  .waarvoor b { font-weight: 900; color: var(--green); }
+  .waarvoor .stip { color: var(--sage); font-weight: 900; }
+
+  /* ---------- de twee vakjes: kampen en ons verhaal ---------- */
+  .duo { display: grid; grid-template-columns: 1fr 1.4fr; gap: 2.2mm; padding: 2mm 12mm 0; }
+  .vak { border-radius: 13px; padding: 2.6mm 3.4mm 3mm; }
+  .vak.kampen { background: var(--orange-soft); border: .3mm solid #f0cfae; }
+  .vak.verhaal { background: #fff; border: .3mm solid var(--border); }
+  .vak .hand { font-family: "Caveat"; font-size: 11pt; line-height: 1; }
+  .vak.kampen .hand { color: var(--orange); }
+  .vak.verhaal .hand { color: var(--purple); }
+  .vak h3 { font-size: 9.6pt; font-weight: 900; line-height: 1.1; margin-top: .3mm; }
+  .vak.kampen h3 { color: var(--orange); }
+  .vak.verhaal h3 { color: var(--green); }
+  .vak p { font-size: 7.4pt; font-weight: 600; line-height: 1.36; margin-top: 1.4mm; color: var(--ink); }
+  .vak p b { font-weight: 900; }
+  .vak ul { list-style: none; margin-top: 1.4mm; display: grid; gap: .8mm; }
+  .vak li { font-size: 7.4pt; font-weight: 600; line-height: 1.3; color: var(--ink); }
+  .vak li b { font-weight: 900; color: var(--green); }
+  .vak .lijn { margin-top: 1.8mm; padding-top: 1.4mm; border-top: .25mm dashed #e0cdb6;
+               font-size: 7.2pt; font-weight: 700; color: var(--ink-dim); }
+  .vak.verhaal .lijn { border-top-color: var(--border); }
+
+  /* ---------- de voettekst met de qr-code ---------- */
+  .voet { position: absolute; left: 0; right: 0; bottom: 0; height: 26.5mm; background: var(--green);
+          color: #fff; display: flex; align-items: center; gap: 4mm; padding: 0 12mm; }
+  .voet .tekst { flex: 1; }
+  .voet .groot { font-size: 11.5pt; font-weight: 900; line-height: 1.12; }
+  .voet .groot span { color: #f4b27c; }
+  .voet .klein { margin-top: 1.2mm; font-size: 7.4pt; font-weight: 600; opacity: .92; line-height: 1.35; }
+  .voet .gegevens { margin-top: 1.4mm; font-size: 8.4pt; font-weight: 800; }
+  .voet .qr { background: var(--cream); border-radius: 10px; padding: 2mm 2mm 1.4mm; text-align: center; flex: none; }
+  .voet .qr img { display: block; width: 16.5mm; height: 16.5mm; }
+  .voet .qr figcaption { font-size: 6pt; font-weight: 800; color: var(--ink-dim); margin-top: .8mm; }
+  .voet img.logo { width: 13.5mm; height: 13.5mm; object-fit: contain; flex: none;
+                   background: var(--cream); border-radius: 10px; padding: 1.4mm; }
+</style>
+</head>
+<body>
+
+<section class="blad" id="flyer">
+  <div class="band"></div>
+
+  <svg class="blaadje" style="right:-10mm; top:42mm; width:36mm" viewBox="0 0 100 100">
+    <path d="M10 90 C 10 40, 50 10, 90 10 C 90 50, 55 90, 10 90 Z" fill="#e8efdc"/>
+  </svg>
+
+  <div class="kop">
+    <div class="tekst">
+      <div class="hand">Voor nieuwsgierige koppen van 6 tot 12 jaar</div>
+      <h1>Ruimte voor nieuwsgierigheid,<br><span>talent en uitdaging</span></h1>
+      <p>Connectopia vzw begeleidt kinderen die meer uitdaging, begrip of ruimte nodig hebben, in <b>Hasselt</b> en in <b>Genk</b>. Een <b>gratis proefles</b> mag altijd eerst.</p>
+    </div>
+    <div class="merken">
+      <img class="co" src="logo-kim-transparant.png" alt="Connectopia vzw">
+      <img class="ye" src="ye-logo.png" alt="Young Engineers">
+    </div>
+  </div>
+
+  <div class="strook">
+    <figure><img src="young-engineers-bouwpakket.jpg" alt=""></figure>
+    <figure><img src="pluswerking-tekenen.jpg" alt=""></figure>
+    <figure><img src="plusklas-planeten.jpg" alt=""></figure>
+    <figure><img src="karton-brug-bouwen.jpg" alt=""></figure>
+  </div>
+
+  <h2 class="titel">Wat er dit schooljaar te doen is</h2>
+
+  <div class="aanbod">
+    <div class="kaart groen">
+      <div class="rij1"><div class="schijf">&#128640;</div><h3>Externe plusklas</h3></div>
+      <ul>
+        <li><b>Dinsdag, 9u &ndash; 15u</b></li>
+        <li class="dim">Atheneum Hasselt, Kleine-Breemstraat 33</li>
+      </ul>
+      <div class="prijs">&euro;50 per dag <s>&euro;60</s></div>
+    </div>
+
+    <div class="kaart paars">
+      <div class="rij1"><div class="schijf">&#127891;</div><h3>Pluswerking woensdag</h3></div>
+      <ul>
+        <li><b>Woensdagvoormiddag, 9u &ndash; 12u</b></li>
+        <li class="dim">T2 Campus, Thor Park 8040, Genk</li>
+      </ul>
+      <div class="prijs">&euro;25 per 3 uur <s>&euro;30</s></div>
+    </div>
+
+    <div class="kaart oranje">
+      <div class="rij1"><div class="schijf">&#127912;</div><h3>Pluswerking zaterdag</h3></div>
+      <ul>
+        <li><b>Zaterdagvoormiddag, 9u &ndash; 12u</b></li>
+        <li class="dim">Level X 28, Vilderstraat 28, Hasselt</li>
+      </ul>
+      <div class="prijs">&euro;25 per 3 uur <s>&euro;30</s></div>
+    </div>
+
+    <div class="kaart ye">
+      <div class="rij1"><div class="schijf">&#9881;&#65039;</div><h3>Young Engineers</h3></div>
+      <ul>
+        <li><b>Dinsdag, woensdag of zaterdag</b></li>
+        <li class="dim">Hasselt of Genk, &eacute;&eacute;n les duurt 1u15</li>
+      </ul>
+      <div class="prijs">&euro;20 per les <s>&euro;25</s></div>
+    </div>
+  </div>
+
+  <div class="waarvoor">
+    <span><b>Kennis en ervaring met HB en UHB</b></span>
+    <span class="stip">&#9679;</span>
+    <span><b>inclusief</b></span>
+    <span class="stip">&#9679;</span>
+    <span><b>prikkelarm</b></span>
+    <span class="stip">&#9679;</span>
+    <span><b>kleine groepen</b></span>
+  </div>
+
+  <div class="duo">
+    <div class="vak kampen">
+      <div class="hand">In elke schoolvakantie</div>
+      <h3>Vakantiekampen met uitdaging</h3>
+      <ul>
+        <li>Elke dag van <b>9u tot 15u</b>, <b>&euro;40</b> per dag</li>
+        <li>Voor <b>6 tot 12 jaar</b>, in Hasselt of in Genk</li>
+      </ul>
+      <div class="lijn">Eerstvolgend: 2 tot 5 november en de kerstvakantie. Alle datums staan op de website.</div>
+    </div>
+
+    <div class="vak verhaal">
+      <div class="hand">Waarom we dit doen</div>
+      <h3>Ik ben Kim</h3>
+      <p>Mama van vier kinderen met heel verschillende talenten en uitdagingen: van hoogbegaafdheid (HB en UHB) en ASS of ADHD tot fysieke en medische zorg. Zelf leef ik met een spierziekte. Elke zoektocht naar begeleiding was een reis. Daarom bestaat Connectopia: jouw zoektocht mag korter zijn, minder eenzaam en met meer houvast.</p>
+      <div class="lijn">Ervaringsdeskundige ouders met een pedagogische achtergrond. Wij stellen geen diagnoses en geven geen therapie.</div>
+    </div>
+  </div>
+
+  <footer class="voet">
+    <img class="logo" src="logo-kim-transparant.png" alt="Connectopia vzw">
+    <div class="tekst">
+      <div class="groot">Alle info en inschrijven op<br><span>www.connectopia.one/aanbod</span></div>
+      <div class="klein">Connectopia vzw &middot; ook nieuw: ons eigen oefenplatform, &eacute;&eacute;n hoofdstuk per vak gratis</div>
+      <div class="gegevens">0468 35 74 96 &nbsp;&middot;&nbsp; info@matmgroep.com</div>
+    </div>
+    <figure class="qr">
+      <img src="qr-aanbod.png" alt="">
+      <figcaption>scan en je bent er</figcaption>
+    </figure>
+  </footer>
+</section>
+
+</body>
+</html>
