@@ -33,7 +33,7 @@
   .blad { width: 148mm; height: 210mm; background: var(--cream);
           position: relative; overflow: hidden; }
 
-  .band, .kop, .strook, h2.titel, .aanbod, .waarvoor, .duo, .voet { position: relative; z-index: 1; }
+  .band, .kop, h2.titel, .aanbod, .waarvoor, .duo, .voet { position: relative; z-index: 1; }
   .blaadje { position: absolute; z-index: 0; }
 
   .band { height: 5.5mm; background: var(--green); }
@@ -51,14 +51,6 @@
   .kop .merken img.co { width: 15mm; height: 15mm; object-fit: contain; }
   .kop .merken img.ye { width: 15mm; object-fit: contain; }
 
-  /* ---------- fotostrook ----------
-     Vier vierkante foto's (1254 x 1254) in vierkante vakjes, dus er wordt
-     niets afgesneden. */
-  .strook { display: grid; grid-template-columns: repeat(4, 17.5mm); justify-content: center;
-            gap: 2.5mm; padding: 2.5mm 12mm 0; }
-  .strook figure { border-radius: 11px; overflow: hidden; border: .3mm solid var(--border); }
-  .strook img { display: block; width: 100%; height: 17.5mm; object-fit: cover; }
-
   /* ---------- titel boven een blok ---------- */
   h2.titel { padding: 2.5mm 12mm 0; font-weight: 900; color: var(--green);
              font-size: 12pt; letter-spacing: -.01em; }
@@ -67,22 +59,23 @@
 
   /* ---------- de vier werkingen ---------- */
   .aanbod { display: grid; grid-template-columns: 1fr 1fr; gap: 2.2mm; padding: 2mm 12mm 0; }
+  /*
+    Elke werking heeft haar eigen foto in het kaartje. De foto's zijn
+    vierkant (1254 x 1254) en het vakje ook, dus er wordt niets afgesneden.
+  */
   .kaart { border-radius: 13px; background: #fff; border: .3mm solid var(--border);
-           padding: 2mm 2.8mm 2.2mm; }
+           padding: 2.4mm 3mm 2.6mm; display: grid; grid-template-columns: 21mm 1fr;
+           gap: 2.6mm; align-items: start; }
+  .kaart img { display: block; width: 21mm; height: 21mm; object-fit: cover;
+               border-radius: 10px; border: .3mm solid var(--border); }
   .kaart.ye { border-color: #bcd9f2; }
-  .kaart .rij1 { display: flex; align-items: center; gap: 1.8mm; }
-  .kaart .schijf { width: 5.6mm; height: 5.6mm; border-radius: 50%; flex: none;
-                   display: flex; align-items: center; justify-content: center; font-size: 7.6pt; }
-  .kaart.groen .schijf { background: var(--sage-soft); }
-  .kaart.paars .schijf { background: var(--purple-soft); }
-  .kaart.oranje .schijf { background: var(--orange-soft); }
-  .kaart.ye .schijf { background: var(--ye-soft); }
-  .kaart h3 { font-size: 9.2pt; font-weight: 900; color: var(--green); line-height: 1.1; }
+  .kaart h3 { font-size: 9.4pt; font-weight: 900; color: var(--green); line-height: 1.1;
+              text-wrap: balance; }
   .kaart.ye h3 { color: var(--ye); }
   .kaart ul { list-style: none; margin-top: .9mm; }
-  .kaart li { font-size: 7.4pt; font-weight: 600; line-height: 1.3; color: var(--ink); }
+  .kaart li { font-size: 7.8pt; font-weight: 600; line-height: 1.32; color: var(--ink); }
   .kaart li.dim { color: var(--ink-dim); }
-  .kaart .prijs { margin-top: .9mm; font-size: 8.2pt; font-weight: 900; color: var(--orange); }
+  .kaart .prijs { margin-top: 1.2mm; font-size: 8.6pt; font-weight: 900; color: var(--orange); }
   .kaart.ye .prijs { color: var(--ye); }
   .kaart .prijs s { font-weight: 700; color: var(--ink-dim); opacity: .75; }
 
@@ -144,7 +137,7 @@
     <div class="tekst">
       <div class="hand">Voor nieuwsgierige koppen van 6 tot 12 jaar</div>
       <h1>Ruimte voor nieuwsgierigheid,<br><span>talent en uitdaging</span></h1>
-      <p>Connectopia vzw begeleidt kinderen die meer uitdaging, begrip of ruimte nodig hebben, in <b>Hasselt</b> en in <b>Genk</b>. Een <b>gratis proefles</b> mag altijd eerst.</p>
+      <p>Connectopia vzw begeleidt kinderen die meer uitdaging, begrip of ruimte nodig hebben, in <b>Hasselt</b> en in <b>Genk</b>. <b>Kom gerust eerst een keertje gratis meedoen.</b></p>
     </div>
     <div class="merken">
       <img class="co" src="logo-kim-transparant.png" alt="Connectopia vzw">
@@ -152,50 +145,55 @@
     </div>
   </div>
 
-  <div class="strook">
-    <figure><img src="young-engineers-bouwpakket.jpg" alt=""></figure>
-    <figure><img src="pluswerking-tekenen.jpg" alt=""></figure>
-    <figure><img src="plusklas-planeten.jpg" alt=""></figure>
-    <figure><img src="karton-brug-bouwen.jpg" alt=""></figure>
-  </div>
-
   <h2 class="titel">Wat er dit schooljaar te doen is</h2>
 
   <div class="aanbod">
     <div class="kaart groen">
-      <div class="rij1"><div class="schijf">&#128640;</div><h3>Externe plusklas</h3></div>
-      <ul>
-        <li><b>Dinsdag, 9u &ndash; 15u</b></li>
-        <li class="dim">Atheneum Hasselt, Kleine-Breemstraat 33</li>
-      </ul>
-      <div class="prijs">&euro;50 per dag <s>&euro;60</s></div>
+      <img src="plusklas-planeten.jpg" alt="">
+      <div>
+        <h3>Externe plusklas</h3>
+        <ul>
+          <li><b>Dinsdag, 9u &ndash; 15u</b></li>
+          <li class="dim">Atheneum Hasselt, Kleine-Breemstraat 33</li>
+        </ul>
+        <div class="prijs">&euro;50 per dag <s>&euro;60</s></div>
+      </div>
     </div>
 
     <div class="kaart paars">
-      <div class="rij1"><div class="schijf">&#127891;</div><h3>Pluswerking woensdag</h3></div>
-      <ul>
-        <li><b>Woensdagvoormiddag, 9u &ndash; 12u</b></li>
-        <li class="dim">T2 Campus, Thor Park 8040, Genk</li>
-      </ul>
-      <div class="prijs">&euro;25 per 3 uur <s>&euro;30</s></div>
+      <img src="pluswerking-tekenen.jpg" alt="">
+      <div>
+        <h3>Pluswerking woensdag</h3>
+        <ul>
+          <li><b>Woensdagvoormiddag, 9u &ndash; 12u</b></li>
+          <li class="dim">T2 Campus, Thor Park 8040, Genk</li>
+        </ul>
+        <div class="prijs">&euro;25 per 3 uur <s>&euro;30</s></div>
+      </div>
     </div>
 
     <div class="kaart oranje">
-      <div class="rij1"><div class="schijf">&#127912;</div><h3>Pluswerking zaterdag</h3></div>
-      <ul>
-        <li><b>Zaterdagvoormiddag, 9u &ndash; 12u</b></li>
-        <li class="dim">Level X 28, Vilderstraat 28, Hasselt</li>
-      </ul>
-      <div class="prijs">&euro;25 per 3 uur <s>&euro;30</s></div>
+      <img src="karton-brug-bouwen.jpg" alt="">
+      <div>
+        <h3>Pluswerking zaterdag</h3>
+        <ul>
+          <li><b>Zaterdagvoormiddag, 9u &ndash; 12u</b></li>
+          <li class="dim">Level X 28, Vilderstraat 28, Hasselt</li>
+        </ul>
+        <div class="prijs">&euro;25 per 3 uur <s>&euro;30</s></div>
+      </div>
     </div>
 
     <div class="kaart ye">
-      <div class="rij1"><div class="schijf">&#9881;&#65039;</div><h3>Young Engineers</h3></div>
-      <ul>
-        <li><b>Dinsdag, woensdag of zaterdag</b></li>
-        <li class="dim">Hasselt of Genk, &eacute;&eacute;n les duurt 1u15</li>
-      </ul>
-      <div class="prijs">&euro;20 per les <s>&euro;25</s></div>
+      <img src="young-engineers-bouwpakket.jpg" alt="">
+      <div>
+        <h3>Young Engineers</h3>
+        <ul>
+          <li><b>Dinsdag, woensdag of zaterdag</b></li>
+          <li class="dim">Hasselt of Genk, &eacute;&eacute;n les duurt 1u15</li>
+        </ul>
+        <div class="prijs">&euro;20 per les <s>&euro;25</s></div>
+      </div>
     </div>
   </div>
 
@@ -223,7 +221,7 @@
     <div class="vak verhaal">
       <div class="hand">Waarom we dit doen</div>
       <h3>Ik ben Kim</h3>
-      <p>Mama van vier kinderen met heel verschillende talenten en uitdagingen: van hoogbegaafdheid (HB en UHB) en ASS of ADHD tot fysieke en medische zorg. Zelf leef ik met een spierziekte. Elke zoektocht naar begeleiding was een reis. Daarom bestaat Connectopia: jouw zoektocht mag korter zijn, minder eenzaam en met meer houvast.</p>
+      <p>Mama van vier kinderen met heel verschillende talenten en uitdagingen: van hoogbegaafdheid (HB en UHB) en ASS of ADHD tot fysieke en medische zorg. Elke zoektocht naar begeleiding was een reis. Daarom bestaat Connectopia: jouw zoektocht mag korter zijn, minder eenzaam en met meer houvast.</p>
       <div class="lijn">Ervaringsdeskundige ouders met een pedagogische achtergrond. Wij stellen geen diagnoses en geven geen therapie.</div>
     </div>
   </div>

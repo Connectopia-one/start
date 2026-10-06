@@ -18,12 +18,12 @@ staan: wie we zijn en waar hij moet zijn.
 
 ## De zes beelden
 
-1. Wie we zijn, met vier foto's uit de werking
+1. Wie we zijn, met drie foto's uit de werking
 2. Waarom we dit doen: Kims verhaal, en waar we voor staan
 3. Het aanbod in de week: plusklas en pluswerking woensdag
 4. Het aanbod in het weekend: pluswerking zaterdag en Young Engineers
 5. De vakantiekampen, met de datums van de herfst en de kerst
-6. Zo begin je: gratis proefles, website, telefoon en mail
+6. Zo begin je: een keertje gratis meedoen, website, telefoon en mail
 
 ## Een berichtje om erbij te zetten
 

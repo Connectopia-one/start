@@ -10,6 +10,25 @@ logopedisten, coaches en artsen. Dezelfde opbouw als de poster in
   en UHB, inclusief, prikkelarm, kleine groepen**. Die stond nergens op het
   drukwerk, terwijl het voor een ouder in een wachtkamer net het zinnetje is
   dat telt.
+- **In elk kaartje staat een foto**, links naast de tekst. De strook foto's
+  bovenaan is daarvoor weggevallen: zo is er meer plaats voor de tekst en
+  zie je meteen bij elk stuk aanbod wat je er doet.
+
+## De foto's in de kaartjes
+
+Elk vakje is **21 x 21 mm en dus vierkant**, en de vier foto's zijn ook
+vierkant. Daardoor wordt er niets afgeknipt. Wissel je er een om, neem dan
+opnieuw een vierkante foto, anders snijdt hij bij.
+
+| Kaartje | Foto |
+| --- | --- |
+| Externe plusklas | `plusklas-planeten.jpg` |
+| Pluswerking woensdag | `pluswerking-tekenen.jpg` |
+| Pluswerking zaterdag | `karton-brug-bouwen.jpg` |
+| Young Engineers | `young-engineers-bouwpakket.jpg` |
+
+In `bron/` liggen ook `bouwpakket-in-genk.jpg` en
+`werken-aan-de-groene-tafels.jpg` klaar als wisselstuk.
 
 ## Wat staat er
 
