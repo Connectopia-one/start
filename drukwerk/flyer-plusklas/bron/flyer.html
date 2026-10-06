@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<title>Folder externe plusklas</title>
+<style>
+  /*
+    A5 (148 x 210 mm), over één ding: de externe plusklas op dinsdag in de
+    gebouwen van het Atheneum in Hasselt. Bedoeld om mee te geven via de
+    school, digitaal of op papier.
+
+    Zusterblad van drukwerk/flyer-stem-naschools/ (de naschoolse STEM-lessen
+    op dinsdagnamiddag). Zelfde opbouw, groen in plaats van blauw.
+
+    Op A5 getekend en daarna naar A4 geschaald (maak-a4.py).
+  */
+  @font-face { font-family: "Nunito"; src: url(nunito.woff2) format("woff2"); font-weight: 200 1000; }
+  @font-face { font-family: "Caveat"; src: url(caveat.woff2) format("woff2"); font-weight: 700; }
+  @page { size: 148mm 210mm; margin: 0; }
+
+  :root {
+    --cream: #fbf6ea; --ink: #2a2d26; --ink-dim: #61675a; --border: #e6e0d0;
+    --green: #2f4a22; --green-mid: #5c7a45; --sage: #8aa173; --sage-soft: #dfe7d0;
+    --orange: #d96e25; --orange-soft: #fae5d1; --purple: #5e2d91;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { background: #cfc8b6; }
+  body { font-family: "Nunito", sans-serif; color: var(--ink);
+         -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  .blad { width: 148mm; height: 210mm; background: var(--cream);
+          position: relative; overflow: hidden; }
+  .band, .kop, .strook, h2.titel, .watdoen, .duo, .voet { position: relative; z-index: 1; }
+  .blaadje { position: absolute; z-index: 0; }
+
+  .band { height: 5.5mm; background: var(--green); }
+
+  /* ---------- kop ---------- */
+  .kop { padding: 3.5mm 12mm 0; display: flex; align-items: flex-start; gap: 4mm; }
+  .kop .tekst { flex: 1; }
+  .kop .hand { font-family: "Caveat"; font-size: 14pt; color: var(--orange); line-height: 1; }
+  .kop h1 { font-weight: 900; color: var(--green); font-size: 16.5pt; line-height: 1.03;
+            letter-spacing: -.02em; margin-top: 1.2mm; }
+  .kop h1 span { color: var(--green-mid); }
+  .kop p { margin-top: 2mm; font-size: 8.8pt; line-height: 1.4; color: var(--ink-dim); font-weight: 600; }
+  .kop p b { color: var(--ink); font-weight: 800; }
+  .kop img.co { width: 17mm; height: 17mm; object-fit: contain; flex: none; }
+
+  /*
+    ---------- de fotostrook ----------
+    Elk vakje heeft dezelfde verhouding als zijn foto, dus er wordt niets
+    afgesneden: twee liggende foto's (4:3) en één vierkante, even hoog.
+  */
+  .strook { display: grid; grid-template-columns: 29.33mm 29.33mm 22mm; justify-content: center;
+            gap: 2.5mm; padding: 3.5mm 12mm 0; }
+  .strook img { display: block; width: 100%; height: 22mm; object-fit: cover;
+                border-radius: 12px; border: .3mm solid var(--border); }
+
+  /* ---------- titel boven een blok ---------- */
+  h2.titel { padding: 3mm 12mm 0; font-weight: 900; color: var(--green); font-size: 13.5pt; }
+
+  /* ---------- hoe een dag eruitziet ---------- */
+  .watdoen { margin: 1.6mm 12mm 0; border-radius: 15px; background: #fff;
+             border: .3mm solid var(--border); padding: 3.4mm 4mm;
+             display: grid; grid-template-columns: 1fr 23mm; gap: 3.6mm; align-items: center; }
+  .watdoen img { display: block; width: 23mm; height: 30.67mm; object-fit: cover;
+                 border-radius: 12px; border: .3mm solid var(--border); }
+  .watdoen p { font-size: 8.6pt; font-weight: 700; line-height: 1.34; color: var(--ink); }
+  .watdoen ul { list-style: none; margin-top: 2mm; display: grid; gap: 1.2mm; }
+  .watdoen li { font-size: 8.2pt; font-weight: 600; line-height: 1.28; color: var(--ink);
+                padding-left: 5mm; position: relative; }
+  .watdoen li::before { content: "\25CF"; position: absolute; left: 0; top: -.2mm;
+                        color: var(--sage); font-size: 7pt; }
+  .watdoen li b { font-weight: 900; color: var(--green); }
+
+  /* ---------- de twee vakjes ---------- */
+  .duo { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5mm; padding: 3mm 12mm 0; }
+  .vak { border-radius: 15px; padding: 3mm 4mm 3.2mm; }
+  .vak.praktisch { background: #fff; border: .3mm solid var(--border); }
+  .vak.inbegrepen { background: var(--sage-soft); border: .3mm solid #cdd9bb; }
+  .vak .hand { font-family: "Caveat"; font-size: 12pt; line-height: 1; }
+  .vak.praktisch .hand { color: var(--green-mid); }
+  .vak.inbegrepen .hand { color: var(--purple); }
+  .vak h3 { font-size: 11pt; font-weight: 900; line-height: 1.1; margin-top: .6mm; color: var(--green); }
+  .vak ul { list-style: none; margin-top: 2mm; display: grid; gap: 1.2mm; }
+  .vak li { font-size: 7.9pt; font-weight: 600; line-height: 1.28; color: var(--ink); }
+  .vak li b { font-weight: 900; color: var(--green); }
+  .vak p { font-size: 8.2pt; font-weight: 600; line-height: 1.36; margin-top: 1.6mm; color: var(--ink); }
+  .vak p b { font-weight: 900; }
+  .vak .prijs { margin-top: 2.2mm; font-size: 11pt; font-weight: 900; color: var(--orange); }
+  .vak .prijs s { font-size: 9pt; font-weight: 700; color: var(--ink-dim); opacity: .75; }
+  .vak .lijn { margin-top: 2.4mm; padding-top: 2mm; border-top: .25mm dashed #c9d4b6;
+               font-size: 7.8pt; font-weight: 700; color: var(--ink-dim); }
+  .vak .lijn b { color: var(--green); font-weight: 900; }
+
+  /* ---------- de voettekst met de qr-code ---------- */
+  .voet { position: absolute; left: 0; right: 0; bottom: 0; height: 28mm; background: var(--green);
+          color: #fff; display: flex; align-items: center; gap: 4mm; padding: 0 12mm; }
+  .voet .tekst { flex: 1; }
+  .voet .groot { font-size: 12pt; font-weight: 900; line-height: 1.12; }
+  .voet .groot span { color: #f4b27c; }
+  .voet .klein { margin-top: 1.4mm; font-size: 7.6pt; font-weight: 600; opacity: .92; line-height: 1.35; }
+  .voet .gegevens { margin-top: 1.6mm; font-size: 8.6pt; font-weight: 800; }
+  .voet .qr { background: var(--cream); border-radius: 10px; padding: 1.6mm 1.6mm 1.2mm; text-align: center; flex: none; }
+  .voet .qr img { display: block; width: 18mm; height: 18mm; }
+  .voet .qr figcaption { font-size: 6pt; font-weight: 800; color: var(--ink-dim); margin-top: .6mm; }
+  .voet img.logo { width: 14mm; height: 14mm; object-fit: contain; flex: none;
+                   background: var(--cream); border-radius: 10px; padding: 1.4mm; }
+</style>
+</head>
+<body>
+
+<section class="blad" id="flyer">
+  <div class="band"></div>
+
+  <svg class="blaadje" style="right:-12mm; top:52mm; width:40mm" viewBox="0 0 100 100">
+    <path d="M10 90 C 10 40, 50 10, 90 10 C 90 50, 55 90, 10 90 Z" fill="#e8efdc"/>
+  </svg>
+
+  <div class="kop">
+    <div class="tekst">
+      <div class="hand">Elke dinsdag, een hele dag</div>
+      <h1>De externe plusklas<br><span>in het Atheneum</span></h1>
+      <p>Van Connectopia vzw, in de <b>Kleine-Breemstraat 33 in Hasselt</b>. Voor kinderen van <b>6 tot 12 jaar</b> die meer uitdaging, begrip of ruimte nodig hebben.</p>
+    </div>
+    <img class="co" src="logo-kim-transparant.png" alt="Connectopia vzw">
+  </div>
+
+  <div class="strook">
+    <img src="plusklas-mars-projecten.jpg" alt="">
+    <img src="papieren-figuurtjes-knippen.jpg" alt="">
+    <img src="plusklas-planeten.jpg" alt="">
+  </div>
+
+  <h2 class="titel">Hoe zo'n dag eruitziet</h2>
+
+  <div class="watdoen">
+    <div>
+      <p>Een veilige haven waar gelijkgestemde kinderen samen een diepgaand leertraject aangaan, met aandacht voor het proces, de samenwerking en het plezier in leren.</p>
+      <ul>
+        <li><b>Brainstormen</b>: idee&euml;n bedenken en nieuwsgierigheid prikkelen</li>
+        <li><b>Bijleren</b>: nieuwe dingen ontdekken en kennis vergroten</li>
+        <li><b>Uitwerken</b>: idee&euml;n omzetten in echte projecten</li>
+        <li>Afgestemd op de talenten van <b>hoogbegaafde kinderen</b></li>
+      </ul>
+    </div>
+    <img src="schaken-met-lego.jpg" alt="">
+  </div>
+
+  <div class="duo">
+    <div class="vak praktisch">
+      <div class="hand">Praktisch</div>
+      <h3>Elke dinsdag</h3>
+      <ul>
+        <li><b>9u &ndash; 15u</b>, een volledige dag</li>
+        <li>Atheneum Hasselt, <b>Kleine-Breemstraat 33</b></li>
+        <li>3 trajecten van telkens <b>10 dagen</b></li>
+        <li>Later instappen kan, ook nu nog</li>
+      </ul>
+      <div class="prijs">&euro;50 per dag <s>&euro;60</s></div>
+    </div>
+
+    <div class="vak inbegrepen">
+      <div class="hand">Zonder bijkomende kosten</div>
+      <h3>Dit zit er altijd bij</h3>
+      <ul>
+        <li>Al het <b>materiaal</b> waarmee de kinderen werken</li>
+        <li><b>Gesprekken met de school</b> van je kind, gratis</li>
+        <li><b>Overlegmomenten</b> met jou als ouder</li>
+      </ul>
+      <div class="lijn"><b>Een eerste keer meedoen is gratis.</b> Zo voelt je kind zelf of het past.</div>
+    </div>
+  </div>
+
+  <footer class="voet">
+    <img class="logo" src="logo-kim-transparant.png" alt="Connectopia vzw">
+    <div class="tekst">
+      <div class="groot">Alle info en inschrijven op<br><span>www.connectopia.one/aanbod</span></div>
+      <div class="klein">Connectopia vzw &middot; kennis en ervaring met HB en UHB, inclusief, prikkelarm, kleine groepen</div>
+      <div class="gegevens">0468 35 74 96 &nbsp;&middot;&nbsp; info@matmgroep.com</div>
+    </div>
+    <figure class="qr">
+      <img src="qr-proefles-plusklas.png" alt="">
+      <figcaption>scan en schrijf in</figcaption>
+    </figure>
+  </footer>
+</section>
+
+</body>
+</html>
