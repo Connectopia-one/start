@@ -415,4 +415,41 @@ module.exports = [
       "<b>Zo een vraag bijvoorbeeld:</b> als het heelal oneindig vol sterren staat, waarom is de nacht dan donker?",
     voet: { hand: "De uitdagingshoek vind je op", url: "oefenplatform.connectopia.one" },
   },
+
+  {
+    bestand: "meetesten-examencommissie",
+    kleur: "paars",
+    pil: "Testers gezocht",
+    hand: "Doe jij examen bij de Examencommissie?",
+    titel: "Oefen gratis<br><span>en zeg ons wat beter kan</span>",
+    titelKlein: true,
+    tekst:
+      "Onze hoofdstukken volgen de vakfiches van de Examencommissie. Klopt dat met wat jij op je examen krijgt?",
+    woorden: [
+      { ic: "🚀", tekst: "Boost · 3de en 4de middelbaar" },
+      { ic: "🌍", tekst: "Beyond · 5de en 6de middelbaar" },
+      { ic: "📄", tekst: "Doorstroom en dubbele finaliteit" },
+    ],
+    nadruk:
+      "<b>Meetesten kost je niets.</b> Laat je ons daarna weten wat je ervan vond, dan houd je gratis toegang tot het einde van dit schooljaar.",
+    voet: { hand: "Geef je op via", url: "connectopia.one/meetesten" },
+  },
+
+  {
+    bestand: "meetesten-leerkrachten",
+    kleur: "blauw",
+    pil: "Leerkrachten",
+    hand: "Geef je TOAH of bijles?",
+    titel: "Kijk mee met<br><span>ons oefenplatform</span>",
+    titelKlein: true,
+    tekst:
+      "Jij ziet elke week waar één leerling vastloopt. Ons platform loopt van het 5de leerjaar tot het 6de middelbaar. Wat kan je gebruiken tijdens je uur?",
+    woorden: [
+      { ic: "🧭", tekst: "Uitleg bij elk hoofdstuk" },
+      { ic: "✍️", tekst: "Geen AI in de oefeningen" },
+    ],
+    nadruk:
+      "<b>Gratis te gebruiken bij je leerlingen.</b> Vertel ons daarna wat je ervan vond en het blijft gratis tot het einde van dit schooljaar.",
+    voet: { hand: "Geef je op via", url: "connectopia.one/meetesten" },
+  },
 ];
