@@ -16,6 +16,7 @@ import {
 } from "@/lib/antwoord";
 import { WEEKDOEL } from "@/lib/dagvraag";
 import { NIVEAUS, vindNiveau } from "@/lib/niveaus";
+import { zonderOordeel } from "@/lib/uitleg";
 import {
   leesWeekstand,
   noteerVraagGedaan,
@@ -296,7 +297,9 @@ export function Dagvraag() {
               {!correct && (
                 <p className="mt-1 text-ink">{juisteAntwoord(vraag)}</p>
               )}
-              {vraag.uitleg && <p className="mt-1 text-ink">{vraag.uitleg}</p>}
+              {vraag.uitleg && (
+                <p className="mt-1 text-ink">{zonderOordeel(vraag.uitleg)}</p>
+              )}
             </div>
           )}
 

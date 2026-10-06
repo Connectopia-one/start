@@ -140,9 +140,9 @@ WOORDEN = [
     {
         "type": "meerkeuze",
         "vraag": 'Wat betekent "s\'il vous plaît"?',
-        "opties": ["dank je wel", "alsjeblieft", "sorry", "tot ziens"],
+        "opties": ["dank je wel", "alstublieft", "sorry", "tot ziens"],
         "antwoord": 1,
-        "uitleg": "S'il vous plaît is alstublieft. Tegen een vriend zeg je s'il te plaît.",
+        "uitleg": "S'il vous plaît is alstublieft, de beleefde vorm. Tegen een vriend zeg je s'il te plaît, en dat is alsjeblieft.",
     },
     {
         "type": "waarofniet",

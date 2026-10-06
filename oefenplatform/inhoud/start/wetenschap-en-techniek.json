@@ -101,13 +101,13 @@
           "type": "meerkeuze",
           "vraag": "Waarom laten bomen in de herfst hun bladeren vallen?",
           "opties": [
-            "om water te sparen in de koude maanden",
-            "omdat de bladeren in de zomer ziek geworden zijn",
-            "omdat het onder de bladeren te warm wordt in de winter",
-            "om lichter te worden en niet om te waaien"
+            "om water te sparen: uit bevroren grond halen de wortels weinig",
+            "omdat de bladeren bevriezen zodra de eerste vorst komt",
+            "omdat de herfstwind ze van de takken rukt",
+            "omdat de boom in de winter zijn voedsel uit de grond haalt in plaats van uit de bladeren"
           ],
           "antwoord": 0,
-          "uitleg": "Zonder bladeren verdampt de boom veel minder water in de winter."
+          "uitleg": "De boom laat zijn bladeren zelf los: hij maakt er een kurklaagje onder. Zonder bladeren verdampt hij veel minder water, en dat is nodig, want uit bevroren grond komt er weinig bij."
         },
         {
           "type": "meerkeuze",
@@ -390,13 +390,13 @@
           "type": "meerkeuze",
           "vraag": "Wat kan je zelf doen om meer leven in je tuin te krijgen?",
           "opties": [
-            "bloemen laten bloeien en een hoekje laten verwilderen",
-            "het gras elke week heel kort maaien",
-            "alle insecten wegjagen",
-            "alles met tegels bedekken"
+            "een hoekje laten verwilderen en bloemen laten uitbloeien",
+            "het gras elke week kort maaien zodat de tuin netjes blijft",
+            "elk jaar verse potgrond en kunstmest op de borders leggen",
+            "de bladeren en de takken elke herfst meteen opruimen"
           ],
           "antwoord": 0,
-          "uitleg": "Een rommelig hoekje met bloemen, een takkenhoop en wat water is voor insecten en vogels meer waard dan een perfect gazon."
+          "uitleg": "Bloemen die mogen uitbloeien, een takkenhoop en wat water geven insecten en vogels eten en een schuilplaats. In afgevallen bladeren en dood hout overwinteren egels, kevers en rupsen: ruim je die elke herfst op, dan ruim je hun winterslaapplek op."
         }
       ]
     },

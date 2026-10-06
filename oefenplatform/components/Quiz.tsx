@@ -26,6 +26,7 @@ import {
 } from "@/lib/antwoord";
 import { bewaarActiefKind, leesActiefKind } from "@/lib/actiefkind";
 import { beurtnummer, type GetoondeVariant } from "@/lib/spellingvariant";
+import { stellingZin, zonderOordeel } from "@/lib/uitleg";
 
 /*
   toonVoortgang: staat er een voortgangsbalk bij de vragen van dit kind?
@@ -327,7 +328,7 @@ function VraagKaart({
   /** Buiten de taalvakken telt een enkelvoud ook als het meervoud gevraagd is. */
   soepel: boolean;
   onAntwoord: (v: string | number | boolean | number[]) => void;
-  onControleer: () => void;
+  onControleer: (vanToetsenbord?: boolean) => void;
 }) {
   const gegeven = status.gegevenAntwoord;
   // Een invulvraag kan ook een kleur- of sleepoefening zijn, zie Figuren.tsx.
@@ -443,6 +444,16 @@ function VraagKaart({
           disabled={status.gecontroleerd}
           value={typeof gegeven === "string" ? gegeven : ""}
           onChange={(e) => onAntwoord(e.target.value)}
+          /* Febe vroeg op 5 oktober 2026 of ze haar antwoord ook met enter kon
+             indienen. Dat doet enter nu, en daarna springt de aandacht naar
+             Volgende, zodat een tweede enter haar naar de volgende vraag
+             brengt zonder dat ze naar de muis moet grijpen. */
+          onKeyDown={(e) => {
+            if (e.key !== "Enter" || status.gecontroleerd) return;
+            if (!isIngevuld(gegeven)) return;
+            e.preventDefault();
+            onControleer(true);
+          }}
           spellCheck={false}
           autoCorrect="off"
           autoCapitalize="off"
@@ -455,7 +466,7 @@ function VraagKaart({
       {!status.gecontroleerd ? (
         <button
           type="button"
-          onClick={onControleer}
+          onClick={() => onControleer()}
           disabled={!isIngevuld(gegeven)}
           className="mt-4 rounded-md bg-forest px-4 py-2 text-sm font-medium text-white transition hover:bg-forest-dark disabled:cursor-not-allowed disabled:opacity-40"
         >
@@ -506,7 +517,17 @@ function VraagKaart({
               </strong>
             </p>
           )}
-          {vraag.uitleg && <p className="mt-1 text-ink">{vraag.uitleg}</p>}
+          {/* Bij waar of niet waar stond nergens wat er nu eigenlijk van de
+              stelling klopt. "Juist!" ging over het antwoord van het kind, en
+              de uitleg begon met "Niet juist." over de stelling. Febe meldde
+              dat dat verwarring geeft, dus staat het er nu met zoveel woorden,
+              en haalt zonderOordeel het dubbele woordje weg. */}
+          {vraag.type === "waarofniet" && typeof vraag.antwoord === "boolean" && (
+            <p className="mt-1 text-ink">{stellingZin(vraag.antwoord)}</p>
+          )}
+          {vraag.uitleg && (
+            <p className="mt-1 text-ink">{zonderOordeel(vraag.uitleg)}</p>
+          )}
         </div>
       )}
     </div>
@@ -579,6 +600,7 @@ export function Quiz({
   */
   const [huidige, setHuidige] = useState(0);
   const vraagKop = useRef<HTMLDivElement>(null);
+  const volgendeKnop = useRef<HTMLButtonElement>(null);
   const eersteKeer = useRef(true);
 
   // Na "Volgende" begint de nieuwe vraag bovenaan, anders sta je midden in de
@@ -919,7 +941,7 @@ export function Quiz({
                 [vraag.id]: { ...s[vraag.id], gegevenAntwoord: v },
               }))
             }
-            onControleer={() => {
+            onControleer={(vanToetsenbord) => {
               const correct = isCorrect(
                 vraag,
                 statussen[vraag.id].gegevenAntwoord,
@@ -938,6 +960,13 @@ export function Quiz({
                   zoalsOpgeslagen(vraag, statussen[vraag.id].gegevenAntwoord),
                   beurt,
                 ).catch(() => {});
+              }
+              if (vanToetsenbord) {
+                // preventScroll, want de uitleg verschijnt net boven de knop en
+                // die mag niet onder het kind weg springen.
+                requestAnimationFrame(() =>
+                  volgendeKnop.current?.focus({ preventScroll: true }),
+                );
               }
             }}
           />
@@ -981,6 +1010,7 @@ export function Quiz({
         )}
 
         <button
+          ref={volgendeKnop}
           type="button"
           onClick={() =>
             laatsteVanDeReeks
