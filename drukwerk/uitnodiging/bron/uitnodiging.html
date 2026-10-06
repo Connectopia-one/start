@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<title>Uitnodiging najaar 2026</title>
+<style>
+  @font-face { font-family: "Nunito"; src: url(nunito.woff2) format("woff2"); font-weight: 200 1000; }
+  @font-face { font-family: "Caveat"; src: url(caveat.woff2) format("woff2"); font-weight: 700; }
+  @page { size: 210mm 297mm; margin: 0; }
+  :root {
+    --cream: #fbf6ea; --ink: #2a2d26; --ink-dim: #61675a; --border: #e6e0d0;
+    --green: #2f4a22; --green-mid: #5c7a45; --sage: #8aa173; --sage-soft: #dfe7d0;
+    --purple: #5e2d91; --purple-soft: #eae0f6; --orange: #d96e25; --orange-soft: #fae5d1;
+    --ye: #1b6db3; --ye-navy: #0f3a66; --ye-soft: #dbeafa;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { background: #cfc8b6; }
+  body { font-family: "Nunito", sans-serif; color: var(--ink);
+         -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  .blad { width: 210mm; height: 297mm; background: var(--cream);
+          position: relative; overflow: hidden; }
+
+  .band { height: 7mm; background: var(--green); }
+  .band.blauw { background: var(--ye); }
+
+  /* ---------- kop ---------- */
+  .kop { padding: 6mm 14mm 0; display: flex; align-items: flex-start; gap: 6mm; }
+  .kop .tekst { flex: 1; }
+  .kop .hand { font-family: "Caveat"; font-size: 19pt; color: var(--orange); line-height: 1; }
+  .kop h1 { font-weight: 900; color: var(--green); font-size: 23pt; line-height: 1.06;
+            letter-spacing: -.01em; margin-top: 1.5mm; }
+  .kop h1 span { color: var(--green-mid); }
+  .kop p { margin-top: 2.6mm; font-size: 10.4pt; line-height: 1.42; color: var(--ink-dim); font-weight: 600; }
+  .kop p b { color: var(--ink); font-weight: 800; }
+  .kop .merken { display: flex; flex-direction: column; align-items: center; gap: 2mm; }
+  .kop .merken img.co { width: 25mm; height: 25mm; object-fit: contain; }
+  .kop .merken img.ye { width: 25mm; object-fit: contain; }
+
+  /* ---------- fotostrook ---------- */
+  .strook { display: grid; gap: 3mm; padding: 4mm 14mm 0; }
+  .strook.drie { grid-template-columns: 1fr 1fr 1fr; }
+  .strook.twee { grid-template-columns: 1.25fr 1fr; }
+  .strook figure { border-radius: 16px; overflow: hidden; background: #fff;
+                   border: .35mm solid var(--border); }
+  .strook img { display: block; width: 100%; height: 40mm; object-fit: cover; }
+  .strook.hoog img { height: 44mm; }
+  .strook figcaption { font-size: 8pt; font-weight: 700; color: var(--ink-dim);
+                       padding: 1.6mm 3mm 2mm; line-height: 1.25; }
+
+  h2.titel { padding: 5mm 14mm 0; font-size: 14.5pt; font-weight: 900; color: var(--green); }
+  h2.titel small { display: block; font-size: 9.6pt; font-weight: 700; color: var(--ink-dim); margin-top: .5mm; }
+
+  /* ---------- aanbodblokken ---------- */
+  .aanbod { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm; padding: 2.8mm 14mm 0; }
+  .aanbod > div { border-radius: 18px; border: .35mm solid var(--border); background: #fff;
+                  padding: 2.8mm 4.5mm 3mm; position: relative; }
+  .aanbod .wat { font-weight: 900; font-size: 11pt; color: var(--green); display: flex;
+                 align-items: center; gap: 2mm; }
+  .aanbod .wat .bol { width: 7mm; height: 7mm; border-radius: 50%; background: var(--sage-soft);
+                      display: flex; align-items: center; justify-content: center; font-size: 10.5pt; }
+  .aanbod .waar { font-size: 9.2pt; line-height: 1.4; color: var(--ink-dim); font-weight: 600; margin-top: 1.4mm; }
+  .aanbod .waar b { color: var(--ink); font-weight: 800; }
+  .aanbod .prijs { margin-top: 1.6mm; font-size: 9.4pt; font-weight: 900; color: var(--orange); }
+  .aanbod .prijs s { color: var(--ink-dim); font-weight: 700; }
+  .aanbod .blauwblok { border-color: #bcd9f2; background: #fbfdff; }
+  .aanbod .blauwblok .wat { color: var(--ye-navy); }
+  .aanbod .blauwblok .wat .bol { background: var(--ye-soft); }
+  .aanbod .blauwblok .prijs { color: var(--ye); }
+  .aanbod .merkje { font-size: 7.6pt; font-weight: 900; letter-spacing: .06em;
+                    text-transform: uppercase; color: var(--ye); margin-top: 1mm; }
+
+  /* ---------- proefles ---------- */
+  .duo { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm; margin: 3.5mm 14mm 0; }
+  .proefles { border-radius: 20px; background: var(--purple-soft);
+              padding: 3.2mm 5mm 3.6mm; display: flex; align-items: flex-start; gap: 4mm; }
+  .proefles.oranje { background: var(--orange-soft); }
+  .proefles.oranje .hand { color: var(--orange); }
+  .proefles.oranje h3 { color: #8a4513; }
+  .proefles.oranje p { color: #6b4a2c; }
+  .proefles .hand { font-family: "Caveat"; font-size: 17pt; color: var(--purple); line-height: 1; }
+  .proefles h3 { font-weight: 900; font-size: 12.4pt; color: var(--purple); line-height: 1.1; margin-top: .4mm; }
+  .proefles p { font-size: 9.4pt; line-height: 1.38; color: #4a3566; font-weight: 600; margin-top: 1.2mm; }
+  .proefles .icoon { font-size: 22pt; }
+
+  /* ---------- kampen ---------- */
+  .kampen { margin: 4mm 14mm 0; border-radius: 20px; background: var(--green); color: #fff;
+            padding: 4mm 6mm 4.4mm; }
+  .kampen .hand { font-family: "Caveat"; font-size: 17pt; color: var(--sage-soft); line-height: 1; }
+  .kampen h2 { font-weight: 900; font-size: 16pt; line-height: 1.1; margin-top: .8mm; }
+  .kampen .rij { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm; margin-top: 3.2mm; }
+  .kampen .vak { background: rgba(255,255,255,.12); border-radius: 15px; padding: 2.6mm 4mm 3mm; }
+  .kampen .vak .wanneer { font-size: 10.4pt; font-weight: 900; line-height: 1.18; }
+  .kampen .vak .plek { font-size: 9pt; font-weight: 700; color: var(--sage-soft); margin-top: .8mm; line-height: 1.3; }
+  .kampen .vak .thema { font-size: 9pt; font-weight: 700; margin-top: 1.2mm; line-height: 1.32; }
+  .kampen .breed { grid-column: 1 / -1; }
+  .kampen .slot { margin-top: 3mm; font-size: 9.6pt; font-weight: 700; line-height: 1.4; }
+  .kampen .slot b { color: #fff3d8; }
+
+  /* ---------- korting ---------- */
+  .korting { margin: 4mm 14mm 0; border-radius: 20px; background: var(--orange-soft);
+             border: .5mm dashed var(--orange); padding: 3.6mm 6mm 4mm;
+             display: flex; align-items: center; gap: 6mm; }
+  .korting .links { flex: 1; }
+  .korting .hand { font-family: "Caveat"; font-size: 17pt; color: var(--orange); line-height: 1; }
+  .korting h2 { font-weight: 900; font-size: 14pt; color: #8a4513; line-height: 1.1; margin-top: .6mm; }
+  .korting p { font-size: 9.4pt; line-height: 1.4; color: #6b4a2c; font-weight: 600; margin-top: 1.4mm; }
+  .korting p b { color: var(--orange); font-weight: 900; }
+  .korting .vak { border-radius: 16px; background: #fff; border: .4mm solid #f0cfae;
+                  padding: 3mm 6mm; text-align: center; min-width: 46mm; }
+  .korting .vak .klein { font-size: 8.2pt; font-weight: 800; letter-spacing: .08em;
+                         text-transform: uppercase; color: var(--orange); }
+  .korting .vak .groot { font-weight: 900; font-size: 16pt; letter-spacing: .02em;
+                         color: var(--green); line-height: 1.2; margin-top: .6mm; }
+  .korting .vak .tot { font-size: 8.2pt; font-weight: 700; color: var(--ink-dim); margin-top: .8mm; }
+
+  .slotregel { margin: 3.4mm 14mm 0; text-align: center; }
+  .slotregel .hand { font-family: "Caveat"; font-size: 18pt; color: var(--green-mid); line-height: 1.1; }
+  .slotregel .url { margin-top: .8mm; font-size: 12pt; font-weight: 900; color: var(--green); }
+
+  /* ---------- voet ---------- */
+  .voet { position: absolute; left: 0; right: 0; bottom: 0; padding: 4mm 14mm 5mm;
+          border-top: .35mm solid var(--border); background: var(--cream); }
+  .voet .rij { display: flex; align-items: center; justify-content: space-between; gap: 6mm; }
+  .voet .naam { font-weight: 900; color: var(--green); font-size: 12pt; }
+  .voet .naam small { display: block; font-weight: 700; color: var(--ink-dim); font-size: 9.2pt; }
+  .voet .contact { text-align: right; font-size: 9.6pt; font-weight: 700; color: var(--ink-dim); line-height: 1.45; }
+  .voet .contact b { color: var(--green); font-weight: 900; }
+
+  .blaadje { position: absolute; z-index: 0; opacity: .5; }
+  .kop, .strook, h2.titel, .aanbod, .duo, .kampen, .korting, .slotregel { position: relative; z-index: 1; }
+</style>
+</head>
+<body>
+
+<!-- ======================= BLAD 1 ======================= -->
+<section class="blad" id="blad1">
+  <div class="band"></div>
+
+  <svg class="blaadje" style="right:-8mm; top:40mm; width:38mm" viewBox="0 0 100 100">
+    <path d="M10 90 C 10 40, 50 10, 90 10 C 90 50, 55 90, 10 90 Z" fill="#dfe7d0"/>
+  </svg>
+
+  <div class="kop">
+    <div class="tekst">
+      <div class="hand">We zijn je niet vergeten</div>
+      <h1>Je vond ons ooit.<br><span>Sindsdien is er veel bijgekomen.</span></h1>
+      <p>Je stuurde ons ooit een bericht, of je kind was er al eens bij op een kamp of een les. Daarom krijg je dit: <b>we zijn sinds dit schooljaar een vzw</b>, we zitten nu ook <b>in Genk op T2 Campus</b>, en onze prijzen gingen daardoor omlaag in plaats van omhoog.</p>
+    </div>
+    <div class="merken">
+      <img class="co" src="logo-kim-transparant.png" alt="Connectopia">
+      <img class="ye" src="ye-logo.png" alt="Young Engineers">
+    </div>
+  </div>
+
+  <div class="strook drie">
+    <figure><img src="lego-buggy-bouwen.jpg" alt=""><figcaption>Bouwen met motor en tandwielen bij Young Engineers</figcaption></figure>
+    <figure><img src="robot-van-karton-in-de-hand.jpg" alt=""><figcaption>Een zelfbedachte robot van karton, op de pluswerking</figcaption></figure>
+    <figure><img src="plusklas-mars-projecten.jpg" alt=""><figcaption>De marskolonie van de plusklas, klaar voor de tentoonstelling</figcaption></figure>
+  </div>
+
+  <h2 class="titel">Wat er dit schooljaar te doen is
+    <small>Alles voor kinderen van 6 tot 12 jaar, in Hasselt en in Genk. Instappen kan nog.</small>
+  </h2>
+
+  <div class="aanbod">
+    <div>
+      <div class="wat"><span class="bol">🚀</span> Externe plusklas</div>
+      <div class="waar"><b>Dinsdag, 9u – 15u</b><br>Atheneum Hasselt, Kleine-Breemstraat 33<br>Drie trajecten van telkens tien dagen</div>
+      <div class="prijs">€50 per dag <s>€60</s> · materiaal en schooloverleg inbegrepen</div>
+    </div>
+    <div>
+      <div class="wat"><span class="bol">🎓</span> Pluswerking woensdag</div>
+      <div class="waar"><b>Woensdagvoormiddag, 9u – 12u</b><br>T2 Campus, Thor Park 8040, Genk<br>Schoolse uitdaging en examencommissie</div>
+      <div class="prijs">€25 per 3 uur <s>€30</s></div>
+    </div>
+    <div>
+      <div class="wat"><span class="bol">🎨</span> Pluswerking zaterdag</div>
+      <div class="waar"><b>Zaterdagvoormiddag, 9u – 12u</b><br>Vilderstraat 28, Hasselt<br>Creativiteit en techniek samen</div>
+      <div class="prijs">€25 per 3 uur <s>€30</s></div>
+    </div>
+    <div class="blauwblok">
+      <div class="wat"><span class="bol">⚙️</span> Young Engineers</div>
+      <div class="merkje">een tak van Connectopia vzw</div>
+      <div class="waar"><b>Dinsdag, woensdag of zaterdag</b><br>Hasselt of Genk, één les duurt 1u15<br>Met LEGO® en techniek echte dingen bouwen</div>
+      <div class="prijs">€20 per les <s>€25</s></div>
+    </div>
+  </div>
+
+  <div class="duo">
+    <div class="proefles">
+      <span class="icoon">🎁</span>
+      <div>
+        <div class="hand">Eerst eens proeven?</div>
+        <h3>De proefles is gratis</h3>
+        <p>Je kind mag vrijblijvend een keer meedoen, zonder dat je iets vastlegt. Zo voelt het zelf of de groep past.</p>
+      </div>
+    </div>
+    <div class="proefles oranje">
+      <span class="icoon">💻</span>
+      <div>
+        <div class="hand">Ook nieuw dit jaar</div>
+        <h3>Ons eigen oefenplatform</h3>
+        <p>Oefenen op maat, van de lagere school tot de derde graad. Eén hoofdstuk per vak is gratis, zonder account.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="voet">
+    <div class="rij">
+      <div class="naam">Connectopia vzw<small>samen ontdekken, leren, creëren en groeien</small></div>
+      <div class="contact"><b>www.connectopia.one</b><br>info@matmgroep.com · 0468 35 74 96</div>
+    </div>
+  </div>
+</section>
+
+<!-- ======================= BLAD 2 ======================= -->
+<section class="blad" id="blad2">
+  <div class="band"></div>
+
+  <svg class="blaadje" style="left:-10mm; top:30mm; width:36mm" viewBox="0 0 100 100">
+    <path d="M10 90 C 10 40, 50 10, 90 10 C 90 50, 55 90, 10 90 Z" fill="#fae5d1"/>
+  </svg>
+
+  <div class="kop">
+    <div class="tekst">
+      <div class="hand">En in elke vakantie</div>
+      <h1>Kampen in de herfst<br><span>en in de kerstvakantie</span></h1>
+      <p>Twee dagen of alle dagen, dat kies je zelf. Elke dag van <b>9u tot 15u</b>, voor kinderen van 6 tot 12 jaar, <b>€40 per dag</b>. De plaatsen zijn beperkt.</p>
+    </div>
+    <div class="merken">
+      <img class="co" src="logo-kim-transparant.png" alt="Connectopia">
+    </div>
+  </div>
+
+  <div class="kampen">
+    <div class="hand">Zet het alvast in je agenda</div>
+    <h2>De kampen van dit najaar</h2>
+    <div class="rij">
+      <div class="vak">
+        <div class="wanneer">Maandag 2 en dinsdag 3 november</div>
+        <div class="plek">Hasselt, bij Level X 28, Vilderstraat 28</div>
+        <div class="thema">Thema: Young Engineer Held</div>
+      </div>
+      <div class="vak">
+        <div class="wanneer">Woensdag 4 en donderdag 5 november</div>
+        <div class="plek">Genk, op T2 Campus, Thor Park 8040</div>
+        <div class="thema">Thema: Creatieve duizendpoot, van techniek tot design</div>
+      </div>
+      <div class="vak breed">
+        <div class="wanneer">Kerstvakantie: 21, 22 en 23 december en 28, 29 en 30 december</div>
+        <div class="plek">In Hasselt of in Genk, jij zegt wat het best past</div>
+        <div class="thema">Deze kampen gaan door als er genoeg inschrijvingen zijn, dus laat gerust nu al weten waar je interesse in hebt.</div>
+      </div>
+    </div>
+    <div class="slot">Daarna volgen de krokus-, paas- en zomervakantie. <b>Inschrijven doe je op www.connectopia.one/aanbod</b></div>
+  </div>
+
+  <div class="strook twee hoog">
+    <figure><img src="reuzenbellen-buiten.jpg" alt=""><figcaption>Reuzenbellen maken, buiten op het kamp</figcaption></figure>
+    <figure><img src="solar-rover-bouwen.jpg" alt=""><figcaption>Een solar rover in elkaar zetten, stap voor stap</figcaption></figure>
+  </div>
+
+  <div class="korting">
+    <div class="links">
+      <div class="hand">Omdat je er toen al bij was</div>
+      <h2>Tien euro korting op je inschrijving</h2>
+      <p>Op één inschrijving naar keuze: een kamp, een traject of een reeks lessen. Vermeld het woord <b>DANKJEWEL</b> in het boodschapvak van het formulier, dan trekken wij het bedrag er zelf af.</p>
+    </div>
+    <div class="vak">
+      <div class="klein">jouw code</div>
+      <div class="groot">DANKJEWEL</div>
+      <div class="tot">tot en met 31 december 2026</div>
+    </div>
+  </div>
+
+  <div class="slotregel">
+    <div class="hand">Tot binnenkort?</div>
+    <div class="url">www.connectopia.one/aanbod</div>
+  </div>
+
+  <div class="voet">
+    <div class="rij">
+      <div class="naam">Connectopia vzw<small>Hasselt en Genk · ook Young Engineers Demerland</small></div>
+      <div class="contact"><b>www.connectopia.one</b><br>info@matmgroep.com · 0468 35 74 96</div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
