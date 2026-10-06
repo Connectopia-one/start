@@ -1,0 +1,107 @@
+{
+ "vak": "Economie",
+ "titel": "Nut, preferentie en de indifferentiecurve",
+ "onder": "Hoe een econoom tekent wat een consument even goed vindt, en waarom dat altijd daalt.",
+ "secties": [
+  {
+   "kop": "Nut, totaal nut en grensnut",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Nut</strong> is de <strong>voldoening</strong> die een goed je geeft. Nut is <strong>subjectief</strong>: het is voor iedereen anders en je kan het niet netjes in euro uitdrukken. Geef een vegetariër en een vleesliefhebber hetzelfde stuk vlees, en het nut is voor beiden totaal verschillend."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>totale nut</strong> is het nut van <strong>alle eenheden samen</strong>. Het <strong>marginale nut</strong> of <strong>grensnut</strong> is het nut van <strong>de laatste bijgekomen eenheid</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>wet van het afnemende grensnut</strong> zegt: elke volgende eenheid levert <strong>minder</strong> bij dan de vorige. Drinkt iemand op een warme dag glazen water met een nut van 10, 7, 4 en 1, dan daalt het grensnut en <strong>stijgt het totale nut nog</strong> (10, 17, 21, 22). Een dalend grensnut betekent dus <strong>niet</strong> dat het totale nut daalt."
+    },
+    {
+     "soort": "kader",
+     "html": "Het <strong>totale nut bereikt zijn maximum</strong> waar het <strong>grensnut nul wordt</strong>. Eet iemand pannenkoeken met een grensnut van 8, 6, 3 en daarna &minus;2, dan zegt die laatste waarde dat de vierde pannenkoek het totale nut <strong>verlaagt</strong>: hij had beter gestopt na de derde."
+    },
+    {
+     "soort": "tekst",
+     "html": "Dezelfde wet geldt ook voor <strong>geld</strong>: honderd euro extra betekent veel voor wie weinig heeft en weinig voor wie veel heeft. Daarmee leg je ook de waterparadox uit: in de woestijn betaalt iemand veel voor het <strong>eerste</strong> glas water en weinig voor het tiende, want het grensnut van dat tiende glas is bijna nul."
+    }
+   ]
+  },
+  {
+   "kop": "Preferentie en indifferentie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Preferentie</strong> is het <strong>verkiezen</strong> van de ene combinatie boven de andere. <strong>Indifferentie</strong> is het omgekeerde: twee combinaties zijn <strong>even goed</strong>, het maakt de consument niet uit welke hij krijgt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wie 3 broden en 2 liter melk even goed vindt als 2 broden en 4 liter melk, is dus <strong>indifferent</strong> tussen die twee combinaties."
+    },
+    {
+     "soort": "tekst",
+     "html": "De theorie gaat uit van drie veronderstellingen over de consument: hij <strong>kent zijn eigen voorkeuren</strong>, hij handelt <strong>rationeel</strong>, en hij wil zijn <strong>nut maximaliseren</strong> met het geld dat hij heeft. Dat laatste is geen morele uitspraak: het is de eenvoudigste aanname waarmee je gedrag kan voorspellen."
+    }
+   ]
+  },
+  {
+   "kop": "De indifferentiecurve",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>indifferentiecurve</strong> stelt <strong>alle combinaties van twee goederen voor die even veel nut geven</strong>. Langs één curve blijft het <strong>nut</strong> dus gelijk."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 430 250\" width=\"430\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"44\" y1=\"14\" x2=\"44\" y2=\"214\" stroke=\"#23291f\" stroke-width=\"1.8\"/><line x1=\"44\" y1=\"214\" x2=\"418\" y2=\"214\" stroke=\"#23291f\" stroke-width=\"1.8\"/><text x=\"42.0\" y=\"12.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">goed A</text><text x=\"418.0\" y=\"230.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">goed B</text><polyline points=\"88.4,67.0 95.8,88.0 103.2,103.7 110.6,116.0 118.0,125.8 125.4,133.8 132.8,140.5 140.2,146.2 147.6,151.0 155.0,155.2 162.4,158.9 169.8,162.1 177.2,165.0 184.6,167.6 192.0,169.9 199.4,172.0 206.8,173.9 214.2,175.7 221.6,177.2 229.0,178.7 236.4,180.1 243.8,181.3 251.2,182.5 258.6,183.6 266.0,184.6 273.4,185.5 280.8,186.4 288.2,187.3 295.6,188.1 303.0,188.8 310.4,189.5 317.8,190.2 325.2,190.8 332.6,191.4 340.0,192.0 347.4,192.5 354.8,193.0 362.2,193.5 369.6,194.0 377.0,194.4 384.4,194.8 391.8,195.2\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"2.1\"/><text x=\"396.8\" y=\"195.2\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#c17f2b\">IC1</text><polyline points=\"132.8,42.5 140.2,55.7 147.6,67.0 155.0,76.8 162.4,85.4 169.8,92.9 177.2,99.7 184.6,105.7 192.0,111.1 199.4,116.0 206.8,120.5 214.2,124.5 221.6,128.3 229.0,131.7 236.4,134.8 243.8,137.8 251.2,140.5 258.6,143.0 266.0,145.4 273.4,147.6 280.8,149.7 288.2,151.6 295.6,153.5 303.0,155.2 310.4,156.8 317.8,158.4 325.2,159.8 332.6,161.2 340.0,162.6 347.4,163.8 354.8,165.0 362.2,166.1 369.6,167.2 377.0,168.3 384.4,169.3 391.8,170.2\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"2.1\"/><text x=\"396.8\" y=\"170.2\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#2f5d50\">IC2</text><polyline points=\"177.2,34.3 184.6,43.8 192.0,52.3 199.4,60.0 206.8,67.0 214.2,73.4 221.6,79.3 229.0,84.6 236.4,89.6 243.8,94.2 251.2,98.5 258.6,102.5 266.0,106.2 273.4,109.7 280.8,112.9 288.2,116.0 295.6,118.9 303.0,121.6 310.4,124.2 317.8,126.6 325.2,128.9 332.6,131.1 340.0,133.2 347.4,135.1 354.8,137.0 362.2,138.8 369.6,140.5 377.0,142.1 384.4,143.7 391.8,145.2\" fill=\"none\" stroke=\"#234539\" stroke-width=\"2.1\"/><text x=\"396.8\" y=\"145.2\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#234539\">IC3</text></svg>",
+     "onderschrift": "Drie indifferentiecurven van dezelfde consument."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een indifferentiecurve <strong>daalt</strong>: krijg je van het ene goed meer, dan moet je van het andere iets afgeven om even goed te blijven zitten. Ze is ook <strong>bol naar de oorsprong</strong>, en dat komt recht uit het afnemende grensnut: wie al veel brood en weinig melk heeft, geeft <strong>veel brood</strong> voor één liter melk, en omgekeerd. Was ze een rechte, dan zou die ruilverhouding overal gelijk zijn, en dat klopt niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>helling</strong> van de curve is precies die <strong>ruilverhouding</strong>: de <strong>marginale substitutievoet</strong>. Naar rechts wordt de curve <strong>vlakker</strong>, want daar heeft de consument al veel van het goed op de onderas en geeft hij er makkelijker van af. Ziet hij twee goederen als bijna gelijkwaardig, dan ligt de curve bijna als een <strong>rechte</strong> lijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee combinaties op <strong>dezelfde</strong> curve geven even veel nut, en de consument is er dus <strong>indifferent</strong> tussen: hij zal er geen van beide verkiezen. Vindt iemand 4 boeken met 1 spel even goed als 1 boek met 4 spellen, dan teken je die twee punten op <strong>één en dezelfde</strong> curve."
+    }
+   ]
+  },
+  {
+   "kop": "De indifferentiemap",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het geheel van <strong>alle</strong> indifferentiecurven van één consument heet een <strong>indifferentiemap</strong>. Daarin geldt: hoe <strong>verder van de oorsprong</strong>, hoe <strong>meer nut</strong>. Ligt punt A op een hogere curve dan punt B, dan geeft A dus <strong>meer nut</strong> en verkiest de consument A."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee curven van <strong>dezelfde</strong> consument kunnen elkaar <strong>niet snijden</strong>: in het snijpunt zou dezelfde combinatie twee verschillende nutsniveaus hebben, en dat kan niet. Krijgt een consument van allebei de goederen één eenheid meer, dan schuift hij naar een <strong>hogere</strong> curve."
+    },
+    {
+     "soort": "weetje",
+     "html": "Uit een indifferentiemap <strong>alleen</strong> kan je niet afleiden wat iemand koopt. Je weet wel wat hij liever heeft, maar niet wat hij kan betalen. Daarvoor heb je de <strong>budgetlijn</strong> nodig, en die staat in het volgende hoofdstuk."
+    },
+    {
+     "soort": "tekst",
+     "html": "En waarom tekent men dit met <strong>twee</strong> goederen in plaats van met alle producten samen? Omdat een tekening met twee assen te volgen is. Met drie goederen heb je een ruimtelijk model nodig, en het <strong>inzicht blijft hetzelfde</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Nut is de voldoening die een goed geeft; het is subjectief en niet in euro te meten.",
+  "Totaal nut is alle eenheden samen, grensnut is de laatste bijgekomen eenheid.",
+  "De wet van het afnemende grensnut: elke volgende eenheid levert minder bij.",
+  "Het totale nut is maximaal waar het grensnut nul wordt; een negatief grensnut verlaagt het totaal.",
+  "Preferentie is verkiezen, indifferentie is even goed vinden.",
+  "Een indifferentiecurve toont alle combinaties met hetzelfde nut: ze daalt en is bol naar de oorsprong.",
+  "De helling van de curve is de marginale substitutievoet, de verhouding waarin je wil ruilen.",
+  "In een indifferentiemap geeft de curve die het verst van de oorsprong ligt het meeste nut; twee curven snijden nooit.",
+  "Uit een map alleen weet je wat iemand liever heeft, niet wat hij koopt."
+ ]
+}

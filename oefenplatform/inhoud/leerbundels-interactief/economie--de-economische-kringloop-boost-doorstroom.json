@@ -1,0 +1,115 @@
+{
+ "vak": "Economie",
+ "titel": "De economische kringloop",
+ "onder": "Wie wat levert aan wie, en welke twee stromen daarbij in tegengestelde richting lopen.",
+ "secties": [
+  {
+   "kop": "Waarover gaat economie?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Economie als wetenschap gaat over <strong>keuzes maken met beperkte middelen</strong>. De behoeften van mensen zijn onbeperkt, maar geld, tijd, grond en machines zijn dat niet. Dat spanningsveld heet <strong>schaarste</strong>, en elke economische vraag komt daarop neer: wie krijgt wat, en waarom?"
+    },
+    {
+     "soort": "tekst",
+     "html": "Om dat overzichtelijk te houden, tekent een econoom een <strong>kringloopschema</strong>. In het eenvoudige binnenlandse schema staan drie <strong>actoren</strong>: de <strong>gezinnen</strong>, de <strong>bedrijven</strong> en de <strong>overheid</strong>. Het buitenland hoort daar niet bij; dat komt er pas bij in het open schema."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zo'n schema is een vereenvoudiging, en dat is precies de bedoeling. Het laat de <strong>samenhang</strong> zien: wie van wie afhankelijk is, en hoe geld rondgaat. Daarvoor hoef je niet elk bedrijf apart te tekenen."
+    }
+   ]
+  },
+  {
+   "kop": "De drie actoren en wat ze doen",
+   "blokken": [
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 258\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"14\" y=\"24\" width=\"140\" height=\"100\" rx=\"11\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"84.0\" y=\"50.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">de gezinnen</text><rect x=\"316\" y=\"24\" width=\"140\" height=\"100\" rx=\"11\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"386.0\" y=\"50.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">de bedrijven</text><text x=\"235.0\" y=\"35.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">arbeid</text><path d=\"M166 40 H304 l-7 -4 m7 4 l-7 4\" stroke=\"#2f5d50\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><text x=\"235.0\" y=\"57.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">loon</text><path d=\"M304 62 H166 l7 -4 m-7 4 l7 4\" stroke=\"#c17f2b\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><text x=\"235.0\" y=\"79.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">goederen en diensten</text><path d=\"M304 84 H166 l7 -4 m-7 4 l7 4\" stroke=\"#c17f2b\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><text x=\"235.0\" y=\"101.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">je betaling</text><path d=\"M166 106 H304 l-7 -4 m7 4 l-7 4\" stroke=\"#2f5d50\" stroke-width=\"1.8\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"60\" y=\"186\" width=\"350\" height=\"56\" rx=\"11\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"210.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#234539\">de overheid</text><text x=\"235.0\" y=\"228.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">int belastingen en geeft voorzieningen terug</text><path d=\"M72 128 V182 l-4 -7 m4 7 l4 -7\" stroke=\"#2f5d50\" stroke-width=\"1.6\" fill=\"none\" stroke-linecap=\"round\"/><text x=\"82.0\" y=\"142.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">belastingen</text><path d=\"M150 182 V128 l-4 7 m4 -7 l4 7\" stroke=\"#234539\" stroke-width=\"1.6\" fill=\"none\" stroke-linecap=\"round\"/><text x=\"160.0\" y=\"174.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">uitkeringen</text><path d=\"M398 128 V182 l-4 -7 m4 7 l4 -7\" stroke=\"#2f5d50\" stroke-width=\"1.6\" fill=\"none\" stroke-linecap=\"round\"/><text x=\"388.0\" y=\"142.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">belastingen</text><path d=\"M320 182 V128 l-4 7 m4 -7 l4 7\" stroke=\"#234539\" stroke-width=\"1.6\" fill=\"none\" stroke-linecap=\"round\"/><text x=\"310.0\" y=\"174.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9\" fill=\"#6b7260\">wegen en scholen</text></svg>",
+     "onderschrift": "De drie actoren van het binnenlandse schema."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>gezinnen</strong> doen twee dingen tegelijk. Ze <strong>verbruiken</strong> goederen en diensten, en ze <strong>leveren de productiefactoren</strong>: hun arbeid, hun spaargeld, hun grond. Ze zijn dus nooit alleen verbruiker. Een <strong>zelfstandige kapster zonder personeel</strong> hoort in het schema bij de gezinnen: ze levert haar eigen arbeid en krijgt daarvoor een inkomen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>bedrijven</strong> produceren goederen en diensten met die productiefactoren. Koopt een bakker bloem bij een molenaar, dan staan er twee <strong>bedrijven</strong> tegenover elkaar; dat heet een verrichting tussen bedrijven. Koopt een bedrijf een <strong>nieuwe machine</strong>, dan is die uitgave een <strong>investering</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>overheid</strong> doet drie dingen: ze <strong>heft belastingen</strong>, ze <strong>betaalt uitkeringen en subsidies</strong>, en ze <strong>levert collectieve goederen</strong> zoals wegen, scholen en veiligheid. Een <strong>werkloosheidsuitkering</strong> is dus een geldstroom van de overheid naar de gezinnen, en een <strong>subsidie aan een sportclub</strong> is er ook een. Bouwt de overheid een school en betaalt ze een aannemer, dan gaat die geldstroom van de overheid naar een bedrijf."
+    }
+   ]
+  },
+  {
+   "kop": "Twee stromen, in tegengestelde richting",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In een kringloop lopen altijd <strong>twee stromen</strong>. De <strong>reële stroom</strong> is alles wat echt van hand tot hand gaat: goederen, diensten en productiefactoren. De <strong>geldstroom</strong> is de betaling daarvoor. Die twee lopen <strong>tegengesteld</strong>: wat de ene kant uitgaat, wordt de andere kant betaald. Twee stromen in dezelfde richting bestaan dus niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Koopt een gezin brood bij de bakker, dan gaat er een <strong>geldstroom</strong> van het gezin naar de bakker en een reële stroom (het brood) terug. Gaat een werknemer werken bij een bedrijf, dan loopt er een <strong>reële stroom</strong> van het gezin naar het bedrijf: zijn <strong>arbeid</strong>. De <strong>diensten van een kapper</strong> horen bij de reële stroom, niet bij de geldstroom: een dienst is niet tastbaar, maar wel echt geleverd."
+    },
+    {
+     "soort": "kader",
+     "html": "Geldstromen zijn: een loon, een belasting, een uitkering, een betaling voor goederen. Reële stromen zijn: arbeid, goederen, diensten, het gebruik van grond of kapitaal. Daarom tekent een econoom de kringloop vaak met <strong>pijlen in twee kleuren</strong>: zo zie je in één oogopslag welke pijl geld is en welke niet."
+    }
+   ]
+  },
+  {
+   "kop": "De vergoeding voor elke productiefactor",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Wie een productiefactor levert, krijgt er een vergoeding voor. Die vier namen moet je uit elkaar kunnen houden:"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">productiefactor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vergoeding</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">arbeid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>loon</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kapitaal</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>intrest</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">natuur of grond</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>pacht</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">ondernemerschap</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>winst</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "In de kringloop betaalt dus het <strong>bedrijf een vergoeding aan het gezin</strong> voor de geleverde productiefactoren, en het gezin betaalt het bedrijf voor de goederen en diensten. Daarom heet het een <strong>kringloop en geen rechte lijn</strong>: het geld komt telkens weer terug bij wie het uitgegeven heeft. Elke <strong>uitgave van de ene actor is een inkomen voor een andere</strong>, en dus: geeft de ene minder uit, dan verliest een andere inkomen."
+    }
+   ]
+  },
+  {
+   "kop": "Lekken en injecties",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Niet al het geld blijft rondgaan. Een <strong>lek</strong> is geld dat uit de binnenlandse kringloop verdwijnt. Een <strong>injectie</strong> is geld dat erbij komt. Met die twee woorden kan je uitleggen waarom de kringloop krimpt of groeit."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">lekken</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">injecties</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">sparen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">investeringen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">belastingen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">overheidsuitgaven</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">invoer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">uitvoer</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Spaart een gezin een deel van zijn inkomen, dan gaat dat deel <strong>niet</strong> naar de bedrijven: er lekt geld weg. <strong>Invoer</strong> is dus een lek en geen injectie, want het geld gaat naar het buitenland. Wat een gezin overhoudt om te besteden, reken je zo uit: van 2 500 euro loon gaan 600 euro belasting en 300 euro sparen af, dus blijft er <strong>1 600 euro</strong> over."
+    }
+   ]
+  },
+  {
+   "kop": "Het buitenland erbij",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Neem je het buitenland mee, dan komen er twee stromen bij: <strong>invoer</strong> en <strong>uitvoer</strong>. Invoer zijn de goederen die uit het buitenland het land <strong>binnenkomen</strong>; uitvoer is wat het land verkoopt. Verkoopt een Belgisch bedrijf machines aan een klant in Spanje, dan is dat voor België <strong>uitvoer</strong>, en komt er geld van buiten de kringloop binnen."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Economie gaat over keuzes maken met schaarse middelen.",
+  "Het eenvoudige binnenlandse schema heeft drie actoren: gezinnen, bedrijven en de overheid.",
+  "Gezinnen verbruiken én leveren de productiefactoren; een zelfstandige zonder personeel hoort bij de gezinnen.",
+  "De reële stroom (goederen, diensten, arbeid) en de geldstroom lopen tegengesteld.",
+  "Arbeid geeft loon, kapitaal intrest, natuur pacht, ondernemerschap winst.",
+  "Elke uitgave van de ene actor is een inkomen voor een andere.",
+  "Lekken: sparen, belastingen, invoer. Injecties: investeringen, overheidsuitgaven, uitvoer."
+ ]
+}

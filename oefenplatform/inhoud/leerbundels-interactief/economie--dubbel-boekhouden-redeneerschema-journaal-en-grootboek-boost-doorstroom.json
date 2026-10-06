@@ -1,0 +1,116 @@
+{
+ "vak": "Economie",
+ "titel": "Dubbel boekhouden: redeneerschema, journaal en grootboek",
+ "onder": "Debet en credit, het redeneerschema in vier vragen, en waar een boeking daarna terechtkomt.",
+ "secties": [
+  {
+   "kop": "Debet en credit",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Debet</strong> is de <strong>linkerkant</strong> van een rekening, <strong>credit</strong> de <strong>rechterkant</strong>. Die twee woorden zeggen niets over goed of slecht, en niets over schuld of bezit: ze duiden alleen een kant aan."
+    },
+    {
+     "soort": "tekst",
+     "html": "In <strong>elke</strong> boeking is het <strong>totaal in het debet gelijk aan het totaal in het credit</strong>. Klopt dat niet, dan zit er een fout in de boeking. Daarom heet het <strong>dubbel</strong> boekhouden: <strong>elke verrichting raakt minstens twee rekeningen</strong>, één links en één rechts, voor hetzelfde bedrag."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort rekening</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">stijgt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">daalt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">actief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>debet</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">credit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">passief</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">credit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>debet</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">kosten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>debet</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">opbrengsten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">credit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">—</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>kost</strong> komt dus in het <strong>debet</strong> en een <strong>opbrengst</strong> in het <strong>credit</strong>. Betaalt een klant zijn factuur, dan <strong>daalt</strong> de vordering en komt ze in het <strong>credit</strong>; een nieuwe schuld aan een leverancier <strong>stijgt</strong> en komt in het <strong>credit</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Het redeneerschema",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>redeneerschema</strong> is de vaste reeks vragen die je bij elke verrichting stelt:"
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"49.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">welke</text><text x=\"49.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">rekeningen?</text><path d=\"M103.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"124.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"173.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">welke</text><text x=\"173.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">soort?</text><path d=\"M227.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"248.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"297.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">stijgt of</text><text x=\"297.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">daalt ze?</text><path d=\"M351.0 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"372.0\" y=\"6\" width=\"98.0\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"421.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">debet of</text><text x=\"421.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">credit?</text></svg>",
+     "onderschrift": "De vier vragen van het redeneerschema, altijd in deze orde."
+    },
+    {
+     "soort": "tekst",
+     "html": "Pas als die vier vragen beantwoord zijn, schrijf je iets op. De winst volgt pas op het einde van het boekjaar en speelt hier dus geen rol."
+    }
+   ]
+  },
+  {
+   "kop": "Het MAR",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>MAR</strong>, het minimum algemeen rekeningstelsel, geeft <strong>elke rekening een eigen nummer</strong> in zeven klassen. Daardoor boekt iedereen dezelfde verrichting op dezelfde rekening, en kan je elke jaarrekening lezen."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">klasse</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat erin staat</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">1</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">eigen vermogen en schulden op meer dan één jaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">2</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vaste activa</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">3</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">voorraden</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">4</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">vorderingen en schulden op ten hoogste één jaar</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">5</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">geldbeleggingen en liquide middelen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">6</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>kosten</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">7</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>opbrengsten</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De klassen <strong>1 tot 5</strong> komen op de <strong>balans</strong>, de klassen <strong>6 en 7</strong> vormen de <strong>resultatenrekening</strong>. Klasse 2 zijn dus de <strong>vaste activa</strong> en niet de opbrengsten. In klasse 6 zitten bijvoorbeeld de <strong>bezoldigingen</strong>, de <strong>aankopen van handelsgoederen</strong> en de <strong>huur</strong>; <strong>verkopen</strong> horen bij klasse 7. En de <strong>btw op je aankopen</strong> boek je op <strong>terug te vorderen btw</strong>: die mag je van de staat terugvragen, dus is het een <strong>vordering</strong> in het debet."
+    }
+   ]
+  },
+  {
+   "kop": "Journaal en grootboek",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In het <strong>journaal</strong> komt <strong>elke verrichting op datum</strong>, in de orde waarin ze gebeurd is. Het <strong>grootboek</strong> sorteert dezelfde boekingen <strong>per rekening</strong>, zodat je het <strong>saldo</strong> van elke rekening ziet. Een <strong>grootboekrekening</strong> is dus <strong>één rekening apart</strong>, met haar debet- en haar creditkant."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het zijn twee manieren om naar <strong>dezelfde</strong> boekingen te kijken: een boeking in het journaal komt daarna <strong>ook</strong> in het grootboek. Het verschil tussen de debet- en de creditkant van een grootboekrekening heet het <strong>saldo</strong>; staat het grootste bedrag links, dan is er een <strong>debetsaldo</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De gewone verrichtingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Een aankoopfactuur van handelsgoederen.</strong> In het debet: <strong>Aankopen handelsgoederen</strong> (een kost) en de <strong>terug te vorderen btw</strong>. In het credit: de <strong>leverancier</strong>, voor het hele factuurbedrag. Bij 1 000 euro goederen met 21 % btw krijgt de leverancier dus <strong>1 210 euro</strong> in het credit."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Een verkoopfactuur van handelsgoederen.</strong> In het debet: de <strong>handelsvordering</strong> op de klant. In het credit: de <strong>verkopen</strong> en de <strong>te betalen btw</strong>. Bij 2 000 euro goederen met 21 % btw is het factuurtotaal <strong>2 420 euro</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Betalingen.</strong> Betaal je een aankoopfactuur via de bank, dan <strong>daalt</strong> de schuld — de leverancier komt in het <strong>debet</strong> — en daalt de bank in het credit. Aan de <strong>kosten verandert er niets</strong>: die stonden al in de boeken bij de factuur. Ontvang je een betaling van een klant, dan komt de <strong>bank in het debet</strong> en de vordering in het credit."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Creditnota's.</strong> Een <strong>inkomende</strong> creditnota is een <strong>correctie van een aankoop</strong>: ze <strong>verlaagt</strong> je schuld aan de leverancier, bijvoorbeeld na een terugzending. Een <strong>uitgaande</strong> creditnota draait een stuk van een <strong>verkoop</strong> terug: de verkoop daalt, de <strong>vordering</strong> op de klant daalt en de <strong>te betalen btw</strong> daalt mee. Er komt géén geld binnen, dus de bank blijft ongemoeid."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>btw</strong> boek je apart omdat het <strong>geld van de staat</strong> is: wat je aanrekent stort je door, wat je betaalt vorder je terug. Ze hoort dus niet bij je kosten of je opbrengsten."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een boekhouder deelt de <strong>aankopen</strong> in drie soorten in: <strong>handelsgoederen</strong> (gaan door naar de klant), <strong>diensten en diverse goederen</strong> (werkingskosten zoals huur en verzekering) en <strong>investeringsgoederen</strong> (gaan jaren mee). Een <strong>bestelwagen</strong> voor de zaak is dus een <strong>investering</strong>, in klasse 2, en de kost volgt via de <strong>afschrijvingen</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Debet is links, credit is rechts; in elke boeking zijn de twee totalen gelijk.",
+  "Actief stijgt in het debet en daalt in het credit; passief net omgekeerd.",
+  "Kosten boek je in het debet, opbrengsten in het credit.",
+  "Het redeneerschema: welke rekeningen, welke soort, stijgt of daalt, debet of credit.",
+  "MAR: klassen 1 tot 5 vormen de balans, 6 zijn de kosten en 7 de opbrengsten.",
+  "Het journaal staat op datum, het grootboek per rekening; het saldo is het verschil tussen de twee kanten.",
+  "Aankoopfactuur: aankopen en terug te vorderen btw in het debet, de leverancier in het credit.",
+  "Verkoopfactuur: de vordering in het debet, de verkoop en de te betalen btw in het credit.",
+  "Een betaling raakt de kosten niet. Een creditnota corrigeert een eerdere factuur, btw inbegrepen."
+ ]
+}

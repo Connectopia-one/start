@@ -1,0 +1,94 @@
+{
+ "vak": "Economie",
+ "titel": "Bedrijfsstrategie: missie, visie, SWOT en stakeholders",
+ "onder": "Waarvoor een bedrijf bestaat, waar het naartoe wil, en met wie het rekening houdt.",
+ "secties": [
+  {
+   "kop": "Missie en visie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>missie</strong> zegt <strong>waarvoor een bedrijf bestaat</strong>: <strong>wat</strong> het doet, <strong>voor wie</strong>, en <strong>waarin het anders</strong> is. Ze gaat over <strong>vandaag</strong> en bevat geen cijfers; die staan in de jaarrekening. Ook een <strong>vzw</strong> heeft een missie — daar is ze zelfs nog belangrijker, want winst is er het doel niet."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>visie</strong> is het beeld van <strong>waar het bedrijf naartoe wil</strong>, bijvoorbeeld binnen tien jaar. Ze kijkt dus <strong>vooruit</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">uitspraak van een bakkerij</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">We bakken elke ochtend verse broden voor de buurt.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>missie</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Over vijf jaar hebben we in elke stad een filiaal.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>visie</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">In 2035 werken we volledig zonder afval.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>visie</strong></td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">Deze maand 2 000 euro meer omzet dan vorige maand.</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>doelstelling</strong></td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>doelstelling</strong> is iets anders dan een missie: ze is <strong>meetbaar</strong> en heeft een <strong>datum</strong>. Een <strong>kernwaarde</strong> is weer iets anders: dat is <strong>iets waar het bedrijf voor staat</strong> en niet van afwijkt, zoals eerlijkheid of duurzaamheid."
+    }
+   ]
+  },
+  {
+   "kop": "Waarom een strategie telt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>bedrijfsstrategie</strong> gaat over de <strong>grote lijnen</strong>: <strong>doelen op lange termijn</strong>, de <strong>keuze van de doelgroep</strong> en <strong>hoe het bedrijf zich onderscheidt</strong>. De planning van de leveringen van morgen hoort daar niet bij; dat is dagelijkse organisatie."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ze is belangrijk om drie redenen: <strong>iedereen trekt dezelfde kant uit</strong>, <strong>keuzes maken wordt makkelijker</strong>, en de <strong>kans op succes stijgt</strong>. Een strategie helpt ook om te kiezen <strong>wat je niet doet</strong>: welke klanten, producten en markten je laat liggen, zodat je je kracht niet versnippert. Concurrenten verdwijnen er natuurlijk niet door, en een bedrijf zonder strategie maakt niet <strong>altijd</strong> verlies — de kans op verkeerde keuzes is wel groter."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>leiding</strong> bepaalt de strategie: de zaakvoerder of de raad van bestuur, vaak na overleg met het personeel. De missie wordt uitgeschreven <strong>zodat iedereen hetzelfde weet</strong> en mensen dezelfde soort beslissingen nemen, ook zonder dat de baas erbij staat."
+    }
+   ]
+  },
+  {
+   "kop": "De SWOT-analyse",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>SWOT</strong> staat voor <strong>sterktes, zwaktes, kansen en bedreigingen</strong> (strengths, weaknesses, opportunities, threats). <strong>Sterktes en zwaktes</strong> zijn <strong>intern</strong>: ze gaan over het bedrijf zelf. <strong>Kansen en bedreigingen</strong> komen van <strong>buiten</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 202\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"0\" width=\"230.0\" height=\"93\" rx=\"8\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"12.0\" y=\"19.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2f5d50\">Sterktes</text><text x=\"12.0\" y=\"38.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· vakkundig personeel</text><text x=\"12.0\" y=\"55.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· een sterke merknaam</text><text x=\"12.0\" y=\"72.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· een eigen recept</text><rect x=\"240.0\" y=\"0\" width=\"230.0\" height=\"93\" rx=\"8\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"252.0\" y=\"19.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#c17f2b\">Zwaktes</text><text x=\"252.0\" y=\"38.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· oude machines</text><text x=\"252.0\" y=\"55.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· één verkooppunt</text><text x=\"252.0\" y=\"72.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· weinig reserves</text><rect x=\"0.0\" y=\"103\" width=\"230.0\" height=\"93\" rx=\"8\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.6\"/><text x=\"12.0\" y=\"122.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#2f5d50\">Kansen</text><text x=\"12.0\" y=\"141.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· een groeiende vraag</text><text x=\"12.0\" y=\"158.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· een nieuwe fietsroute langs de winkel</text><text x=\"12.0\" y=\"175.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· goedkopere techniek</text><rect x=\"240.0\" y=\"103\" width=\"230.0\" height=\"93\" rx=\"8\" fill=\"#ffffff\" stroke=\"#c17f2b\" stroke-width=\"1.6\"/><text x=\"252.0\" y=\"122.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#c17f2b\">Bedreigingen</text><text x=\"252.0\" y=\"141.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· een nieuwe wet</text><text x=\"252.0\" y=\"158.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· een stijgende grondstofprijs</text><text x=\"252.0\" y=\"175.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">· een nieuwe concurrent</text><text x=\"115.0\" y=\"194.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">binnen het bedrijf</text><text x=\"355.0\" y=\"194.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"9.5\" fill=\"#6b7260\">buiten het bedrijf</text></svg>",
+     "onderschrift": "De vier vakken van een SWOT, met de interne links en de externe rechts."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>eigen recept dat niemand anders heeft</strong> is dus een <strong>sterkte</strong>; een <strong>stijgende energieprijs</strong> is een <strong>bedreiging</strong>; een <strong>nieuwe wet</strong> die het lastiger maakt is een bedreiging, en een wet die deuren opent een <strong>kans</strong>. Een drukke <strong>fietsroute</strong> langs de winkel is een kans: meer passage, van buiten gekomen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>zwakte</strong> kan een bedrijf <strong>wel</strong> zelf aanpakken — ze zit in het bedrijf: opleiding geven, machines vernieuwen, de website herbouwen. Een SWOT helpt daarna om te <strong>kiezen waar je op inzet</strong>: leg je sterktes op de kansen om te zien waar je kan groeien, en je zwaktes naast de bedreigingen om te zien waar je moet oppassen."
+    }
+   ]
+  },
+  {
+   "kop": "Stakeholders",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>stakeholder</strong> of belanghebbende is <strong>iedereen met een belang</strong> bij wat de onderneming doet. Dat zijn <strong>mensen en organisaties</strong>, geen machines. <strong>Interne</strong> stakeholders zitten in de onderneming: het <strong>personeel</strong>, de zaakvoerders, de aandeelhouders. <strong>Externe</strong> staan erbuiten: klanten, leveranciers, de overheid, de buurt."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">stakeholder</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">zijn belang</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>werknemers</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een goed loon, een veilige werkplek, werkzekerheid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>aandeelhouders</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">winst en dividend, een aandeel dat in waarde stijgt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>klanten</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een goed product aan een redelijke prijs</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>leveranciers</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">op tijd betaald worden en vaste orders</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>buurt</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">weinig lawaai, geur en verkeer</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de <strong>overheid</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">belastingen, regels die nageleefd worden</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een onderneming houdt rekening met haar stakeholders omdat ze hen <strong>nodig heeft</strong>: zonder personeel, klanten, leveranciers of een buurt die haar aanvaardt, kan ze niet werken. Wie hun belangen negeert, komt dat vroeg of laat tegen. En die belangen <strong>botsen</strong> soms: hogere lonen tegen een hoger dividend, een uitbreiding tegen de rust van de buurt. Daarover gaat het overleg."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "De missie zegt waarvoor een bedrijf bestaat: wat, voor wie en waarin het anders is.",
+  "De visie kijkt vooruit; een doelstelling is meetbaar en heeft een datum.",
+  "Een strategie gaat over doelen, doelgroep en eigen karakter, en zegt ook wat je niet doet.",
+  "SWOT: sterktes en zwaktes zijn intern, kansen en bedreigingen komen van buiten.",
+  "Een zwakte kan een bedrijf zelf aanpakken; een bedreiging niet.",
+  "Leg sterktes op kansen om te groeien, en zwaktes naast bedreigingen om op te passen.",
+  "Een stakeholder is iedereen met een belang; intern zijn personeel en aandeelhouders, extern klanten, buurt en overheid.",
+  "Belangen van stakeholders botsen soms; daarover gaat het overleg."
+ ]
+}

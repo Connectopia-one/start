@@ -1,0 +1,111 @@
+{
+ "vak": "Economie",
+ "titel": "De markt met volkomen concurrentie en de overheid",
+ "onder": "Hoe vraag en aanbod samen een prijs maken, en wat een maximum- of minimumprijs daarmee doet.",
+ "secties": [
+  {
+   "kop": "Vraag, aanbod en het evenwicht",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>vraagcurve daalt</strong>: bij een <strong>hogere prijs</strong> willen consumenten <strong>minder</strong> kopen. De <strong>aanbodcurve stijgt</strong>: bij een hogere prijs willen producenten <strong>meer</strong> aanbieden, want het wordt interessanter om te produceren."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 430 250\" width=\"430\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"44\" y1=\"14\" x2=\"44\" y2=\"214\" stroke=\"#23291f\" stroke-width=\"1.8\"/><line x1=\"44\" y1=\"214\" x2=\"418\" y2=\"214\" stroke=\"#23291f\" stroke-width=\"1.8\"/><text x=\"42.0\" y=\"12.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">prijs</text><text x=\"418.0\" y=\"230.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">hoeveelheid</text><line x1=\"81.0\" y1=\"37.6\" x2=\"377.0\" y2=\"194.4\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><line x1=\"81.0\" y1=\"194.4\" x2=\"377.0\" y2=\"37.6\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><text x=\"383.0\" y=\"194.4\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#2f5d50\">V</text><text x=\"383.0\" y=\"37.6\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#c17f2b\">A</text><line x1=\"44.0\" y1=\"116.0\" x2=\"229.0\" y2=\"116.0\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"229.0\" y1=\"214.0\" x2=\"229.0\" y2=\"116.0\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><circle cx=\"229.0\" cy=\"116.0\" r=\"4\" fill=\"#23291f\"/><text x=\"236.0\" y=\"109.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">E</text></svg>",
+     "onderschrift": "Het marktevenwicht is het snijpunt van de vraag- en de aanbodcurve."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>marktevenwicht</strong> is de toestand waarin <strong>de gevraagde en de aangeboden hoeveelheid gelijk</strong> zijn. In de grafiek vind je het in het <strong>snijpunt</strong> van de twee curven. De prijs daar heet de <strong>evenwichtsprijs</strong>, de hoeveelheid de evenwichtshoeveelheid."
+    },
+    {
+     "soort": "kader",
+     "html": "Rekenen met functies doe je door ze <strong>aan elkaar gelijk te stellen</strong>. Met Qv = 200 &minus; 4P en Qa = 20 + 2P: 200 &minus; 4P = 20 + 2P geeft 180 = 6P, dus <strong>P = 30</strong>. Vul dat in één van de twee functies in: Qa = 20 + 60 = <strong>80</strong>. Dat is de evenwichtshoeveelheid. En één functie invullen kan ook los: Qv = 120 &minus; 2P bij P = 25 geeft <strong>70</strong>, en Qa = 10 + 5P bij P = 8 geeft <strong>50</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ligt de prijs <strong>boven</strong> het evenwicht, dan is er een <strong>overschot</strong>: er wordt meer aangeboden dan gevraagd, en de prijs zakt. Ligt de prijs <strong>onder</strong> het evenwicht, dan is er een <strong>tekort</strong>: de vraag is groter dan het aanbod, en de prijs <strong>stijgt</strong>. Een tekort duwt de prijs dus <strong>omhoog</strong>, niet omlaag."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom noemt men het marktmechanisme <strong>zelfregulerend</strong>: de prijs beweegt <strong>zelf</strong> naar het evenwicht, zonder dat iemand ze oplegt. Maar het evenwicht is <strong>geen vast punt voor altijd</strong>: zodra het inkomen, de smaak, de kosten of het aantal aanbieders verandert, verschuift een curve en ligt het evenwicht elders."
+    }
+   ]
+  },
+  {
+   "kop": "Langs de curve of de curve zelf",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Hier moet je scherp zijn. Een <strong>prijsverandering</strong> doet je <strong>langs</strong> de curve bewegen; ze <strong>verschuift de curve niet</strong>. Alleen iets <strong>anders</strong> dan de prijs van het goed zelf verschuift een hele curve."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat de vraagcurve verschuift</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat de aanbodcurve verschuift</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het inkomen van de gezinnen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de prijs van de grondstoffen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de smaak en de mode</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de techniek en de productiviteit</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de prijs van een vervangend goed</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het aantal aanbieders</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het aantal consumenten</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">belastingen en subsidies</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Stijgt het <strong>inkomen</strong> van de gezinnen, dan schuift de vraagcurve bij een gewoon goed naar <strong>rechts</strong>: de prijs <strong>en</strong> de hoeveelheid stijgen beide. Worden de <strong>grondstoffen duurder</strong>, dan schuift de aanbodcurve naar <strong>links</strong>: de prijs stijgt en de hoeveelheid daalt."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 430 250\" width=\"430\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"44\" y1=\"14\" x2=\"44\" y2=\"214\" stroke=\"#23291f\" stroke-width=\"1.8\"/><line x1=\"44\" y1=\"214\" x2=\"418\" y2=\"214\" stroke=\"#23291f\" stroke-width=\"1.8\"/><text x=\"42.0\" y=\"12.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">prijs</text><text x=\"418.0\" y=\"230.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">hoeveelheid</text><line x1=\"81.0\" y1=\"37.6\" x2=\"377.0\" y2=\"194.4\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><line x1=\"81.0\" y1=\"194.4\" x2=\"377.0\" y2=\"37.6\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><text x=\"383.0\" y=\"194.4\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#2f5d50\">V</text><text x=\"383.0\" y=\"37.6\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#c17f2b\">A</text><line x1=\"44.0\" y1=\"116.0\" x2=\"229.0\" y2=\"116.0\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"229.0\" y1=\"214.0\" x2=\"229.0\" y2=\"116.0\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><circle cx=\"229.0\" cy=\"116.0\" r=\"4\" fill=\"#23291f\"/><text x=\"236.0\" y=\"109.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">E</text><line x1=\"155.0\" y1=\"37.6\" x2=\"377.0\" y2=\"155.2\" stroke=\"#2f5d50\" stroke-width=\"2.2\" stroke-dasharray=\"6 4\"/><line x1=\"44.0\" y1=\"96.4\" x2=\"266.0\" y2=\"96.4\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"266.0\" y1=\"214.0\" x2=\"266.0\" y2=\"96.4\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><circle cx=\"266.0\" cy=\"96.4\" r=\"4\" fill=\"#23291f\"/><text x=\"273.0\" y=\"89.4\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">E′</text></svg>",
+     "onderschrift": "De vraagcurve schuift naar rechts; het evenwicht verschuift mee."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>hittegolf</strong> doet de vraag naar ijs stijgen. Het gevolg: de vraagcurve schuift naar rechts, de <strong>prijs stijgt</strong> en de <strong>verkochte hoeveelheid stijgt</strong> ook. Het is dus niet zo dat één van de twee gelijk blijft."
+    }
+   ]
+  },
+  {
+   "kop": "Wat volkomen concurrentie betekent",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Volkomen concurrentie</strong> is een markt met vier kenmerken: <strong>veel kleine aanbieders en vragers</strong>, een <strong>homogeen product</strong>, <strong>volledige informatie</strong> bij iedereen over prijs en kwaliteit, en <strong>vrije toe- en uittreding</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>homogeen product</strong> is een product dat bij elke aanbieder <strong>hetzelfde</strong> is, zodat het de koper niet uitmaakt bij wie hij koopt. Daardoor is elke aanbieder een <strong>prijsnemer</strong>: hij <strong>moet de marktprijs aanvaarden</strong> en kan zijn eigen prijs dus <strong>niet</strong> kiezen. Vraagt hij meer, dan koopt niemand bij hem; vraagt hij minder, dan laat hij geld liggen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De markt die dit model het best benadert, is een markt voor <strong>landbouwgrondstoffen</strong> zoals graan of aardappelen: duizenden aanbieders, een product dat overal hetzelfde is, en een prijs die op de wereldmarkt tot stand komt. Volkomen concurrentie blijft wel vooral een <strong>model</strong>: in de werkelijkheid zijn producten bijna altijd een beetje verschillend en is de informatie nooit volledig. Het model dient om te <strong>vergelijken</strong>, niet om de werkelijkheid te beschrijven."
+    }
+   ]
+  },
+  {
+   "kop": "Maximum- en minimumprijzen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>maximumprijs</strong> is een <strong>opgelegde bovengrens</strong>: de prijs mag niet hoger. Een <strong>minimumprijs</strong> is een <strong>opgelegde ondergrens</strong>: de prijs mag niet lager."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een maximumprijs werkt alleen <strong>onder</strong> de evenwichtsprijs. Dan is de prijs te laag, wordt er <strong>meer gevraagd dan aangeboden</strong>, en ontstaat er een <strong>tekort</strong>. Ligt de maximumprijs <strong>boven</strong> het evenwicht, dan verandert er <strong>niets</strong>: de markt zat er al onder, en de grens knelt niet. Legt de overheid bij een evenwicht van 10 euro een maximumprijs van <strong>7 euro</strong> op, dan komt er dus een <strong>tekort</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zo'n tekort heeft gevolgen: <strong>wachtlijsten</strong>, <strong>rantsoenering</strong> en een <strong>zwarte markt</strong> waar toch meer betaald wordt. En toch legt een overheid soms een maximumprijs op, namelijk om een goed <strong>betaalbaar</strong> te houden voor wie het nodig heeft, bijvoorbeeld bij huur, energie of geneesmiddelen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een minimumprijs werkt omgekeerd: ze heeft alleen effect <strong>boven</strong> het evenwicht, en dan ontstaat er een <strong>overschot</strong> en géén tekort. Een minimumprijs <strong>onder</strong> de evenwichtsprijs verandert <strong>niets</strong>. Met het overschot doet een overheid soms iets bijzonders: ze <strong>koopt het zelf op</strong> en slaat het op, vernietigt het of voert het uit, zoals dat bij landbouwproducten gebeurd is."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "De vraagcurve daalt, de aanbodcurve stijgt; hun snijpunt is het marktevenwicht.",
+  "Boven het evenwicht: overschot, de prijs zakt. Onder het evenwicht: tekort, de prijs stijgt.",
+  "Reken met functies door Qv en Qa aan elkaar gelijk te stellen.",
+  "Een prijsverandering doet je langs de curve bewegen; alles behalve de prijs verschuift de curve.",
+  "Volkomen concurrentie: veel kleine partijen, een homogeen product, volledige informatie, vrije toetreding.",
+  "Een prijsnemer moet de marktprijs aanvaarden.",
+  "Een maximumprijs werkt alleen onder het evenwicht en geeft een tekort.",
+  "Een minimumprijs werkt alleen boven het evenwicht en geeft een overschot."
+ ]
+}

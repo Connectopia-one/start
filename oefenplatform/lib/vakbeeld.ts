@@ -19,6 +19,7 @@ const ICONEN: Record<string, string> = {
   geschiedenis: "🏛️",
   aardrijkskunde: "🌍",
   "samenleving-en-economie": "🤝",
+  economie: "📊",
   // De vakken van 🔭 de uitdagingshoek.
   "de-ruimte": "🪐",
   "coderen-en-computers": "💻",

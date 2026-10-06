@@ -1,0 +1,103 @@
+{
+ "vak": "Economie",
+ "titel": "Internationale handel en handelsbelemmeringen",
+ "onder": "Invoer, uitvoer en de vier manieren waarop een land handel moeilijker maakt.",
+ "secties": [
+  {
+   "kop": "Invoer, uitvoer en de Europese Unie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Invoer</strong> of import zijn de <strong>aankopen in het buitenland</strong>; <strong>uitvoer</strong> of export zijn de <strong>verkopen aan het buitenland</strong>. Bij invoer gaat er geld naar buiten, bij uitvoer komt er geld binnen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Binnen de <strong>Europese Unie</strong> gebruikt men die woorden niet. Een <strong>aankoop</strong> bij een leverancier in een ander EU-land is een <strong>intracommunautaire verwerving</strong>; een <strong>verkoop</strong> aan een klant in een ander EU-land is een <strong>intracommunautaire levering</strong>. Kaas kopen in Nederland is dus een verwerving, machines verkopen aan Duitsland een levering, en een aankoop in Spanje heet <strong>geen</strong> invoer. Verkopen aan de Verenigde Staten is wél uitvoer, want die liggen buiten de Unie."
+    }
+   ]
+  },
+  {
+   "kop": "Waarom landen handel drijven",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>motieven</strong> voor internationale handel zijn er drie. Eén: een land heeft bepaalde <strong>grondstoffen niet</strong>. <strong>Cacao</strong> groeit hier niet, dus voeren we de bonen in en verwerken ze tot chocolade, die weer uitgevoerd wordt. Twee: een <strong>groter afzetgebied</strong> betekent meer verkoop, grotere reeksen en een lagere kost per stuk. Drie: er zijn <strong>verschillen in loonkosten en in techniek</strong>, waardoor iets elders goedkoper te maken is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daar zit het idee van <strong>specialisatie</strong> achter: <strong>elk land doet waar het best in is</strong> en koopt de rest aan. Samen is er dan meer te verdelen dan wanneer elk land alles zelf probeert te maken. Voor een bedrijf levert uitvoeren bovendien <strong>meer klanten</strong>, <strong>schaalvoordelen</strong> en <strong>minder afhankelijkheid van één markt</strong> op — concurrentie verdwijnt er niet door."
+    }
+   ]
+  },
+  {
+   "kop": "Cijfers over de Belgische handel",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>handelsbalans</strong> is de <strong>uitvoer min de invoer</strong>. Is ze positief, dan spreekt men van een <strong>overschot</strong>; is ze negatief, van een <strong>tekort</strong>. Een land dat voor 320 miljard euro uitvoerde en voor 290 miljard invoerde, heeft een <strong>overschot van 30 miljard euro</strong>. Een tekort betekent <strong>meer invoer dan uitvoer</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "België is een <strong>kleine open economie</strong>: de uitvoer is erg groot in verhouding tot het bbp, en de binnenlandse markt is klein. Het <strong>grootste deel</strong> van onze handel loopt met de <strong>Europese Unie</strong>, en vooral met de buurlanden <strong>Duitsland, Nederland en Frankrijk</strong>: afstand speelt een grote rol. De grootste uitvoergroep is de <strong>chemie en de farmacie</strong>, daarna komen onder meer voertuigen en machines."
+    },
+    {
+     "soort": "tekst",
+     "html": "Uit een tabel met de invoer en de uitvoer per jaar lees je de <strong>handelsbalans per jaar</strong>, de <strong>groei</strong> van elke reeks en de <strong>vergelijking</strong> tussen beide. Over de winst van een afzonderlijk bedrijf zegt ze niets. En reken een groeivoet altijd op het <strong>oude</strong> cijfer: van 200 naar 210 miljard is 10 op 200, dus <strong>5 %</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De vier handelsbelemmeringen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een land kan handel op vier manieren moeilijker maken:"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">belemmering</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat ze doet</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">waarop ze werkt</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>invoerquotum</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een maximum op de ingevoerde hoeveelheid</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de hoeveelheid</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>importheffing</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een belasting op invoer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de prijs</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>uitvoersubsidie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">steun van de overheid bij uitvoer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de prijs</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>niet-tarifaire belemmering</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">normen, keuringen, labels, papierwerk</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de regels</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>importheffing</strong> maakt het ingevoerde goed <strong>duurder</strong> op de binnenlandse markt: het aanbod schuift naar boven, de <strong>prijs stijgt</strong> en de ingevoerde hoeveelheid daalt. Een toestel van 100 euro met 15 % heffing kost de koper dus <strong>115 euro</strong>. Een <strong>invoerquotum</strong> werkt op de <strong>hoeveelheid</strong> en niet op de prijs: het snijdt een stuk van het aanbod weg, waardoor de <strong>prijs stijgt</strong>, het <strong>aanbod kleiner</strong> wordt en de <strong>binnenlandse producenten meer verkopen</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 430 250\" width=\"430\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"44\" y1=\"14\" x2=\"44\" y2=\"214\" stroke=\"#23291f\" stroke-width=\"1.8\"/><line x1=\"44\" y1=\"214\" x2=\"418\" y2=\"214\" stroke=\"#23291f\" stroke-width=\"1.8\"/><text x=\"42.0\" y=\"12.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">prijs</text><text x=\"418.0\" y=\"230.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">hoeveelheid</text><line x1=\"81.0\" y1=\"37.6\" x2=\"377.0\" y2=\"194.4\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><line x1=\"81.0\" y1=\"194.4\" x2=\"377.0\" y2=\"37.6\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><text x=\"383.0\" y=\"194.4\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#2f5d50\">V</text><text x=\"383.0\" y=\"37.6\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"12\" font-weight=\"600\" fill=\"#c17f2b\">A</text><line x1=\"44.0\" y1=\"116.0\" x2=\"229.0\" y2=\"116.0\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"229.0\" y1=\"214.0\" x2=\"229.0\" y2=\"116.0\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><circle cx=\"229.0\" cy=\"116.0\" r=\"4\" fill=\"#23291f\"/><text x=\"236.0\" y=\"109.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">E</text><line x1=\"81.0\" y1=\"155.2\" x2=\"303.0\" y2=\"37.6\" stroke=\"#c17f2b\" stroke-width=\"2.2\" stroke-dasharray=\"6 4\"/><line x1=\"44.0\" y1=\"96.4\" x2=\"192.0\" y2=\"96.4\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><line x1=\"192.0\" y1=\"214.0\" x2=\"192.0\" y2=\"96.4\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/><circle cx=\"192.0\" cy=\"96.4\" r=\"4\" fill=\"#23291f\"/><text x=\"199.0\" y=\"89.4\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#23291f\">E′</text></svg>",
+     "onderschrift": "Een belemmering duwt het aanbod naar links: de prijs stijgt, de hoeveelheid daalt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>uitvoersubsidie</strong> helpt een binnenlands bedrijf om in het buitenland te verkopen: de overheid legt geld bij, dus kan het een lagere prijs vragen dan de buitenlandse concurrent. Een <strong>niet-tarifaire belemmering</strong> gebruikt geen geld en geen hoeveelheid, maar <strong>regels</strong>: strenge technische normen, keuringen aan de grens, labels, papierwerk."
+    },
+    {
+     "soort": "tekst",
+     "html": "Wie <strong>wint</strong> erbij? De <strong>binnenlandse producent</strong> (minder concurrentie), zijn <strong>personeel</strong> (werk) en bij een heffing ook de <strong>overheid</strong> (inkomsten). Wie <strong>verliest</strong>? De <strong>consument</strong>, die meer betaalt en minder keuze heeft. Handelsbelemmeringen zijn dus <strong>niet</strong> goed voor de consument in het eigen land. Een land legt ze toch op om <strong>eigen bedrijven en jobs te beschermen</strong>, of om inkomsten te halen."
+    }
+   ]
+  },
+  {
+   "kop": "Het handelsakkoord",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>handelsakkoord</strong> is een <strong>afspraak tussen landen</strong> om belemmeringen te verlagen of weg te nemen: <strong>lagere invoerheffingen</strong>, <strong>dezelfde normen</strong> zodat één keuring volstaat, en <strong>ruimere of afgeschafte quota</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het effect op de markt is het <strong>omgekeerde</strong> van een belemmering: zonder heffing schuift het aanbod naar beneden, de <strong>invoer wordt goedkoper</strong> en de ingevoerde hoeveelheid stijgt. De consument wint, de binnenlandse producent krijgt meer concurrentie."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Invoer is aankopen in het buitenland, uitvoer verkopen aan het buitenland.",
+  "Binnen de EU: intracommunautaire verwerving (aankoop) en levering (verkoop).",
+  "Motieven voor handel: ontbrekende grondstoffen, een groter afzetgebied, verschillen in kosten.",
+  "Handelsbalans = uitvoer − invoer; positief is een overschot, negatief een tekort.",
+  "België is een kleine open economie; de meeste handel loopt met de EU-buurlanden, en chemie en farmacie is de grootste uitvoergroep.",
+  "Vier belemmeringen: invoerquotum (hoeveelheid), importheffing (prijs), uitvoersubsidie (prijs), niet-tarifaire belemmering (regels).",
+  "Een belemmering verhoogt de prijs en verlaagt de ingevoerde hoeveelheid; de consument betaalt ze.",
+  "Een handelsakkoord doet het omgekeerde: goedkopere invoer en meer concurrentie."
+ ]
+}

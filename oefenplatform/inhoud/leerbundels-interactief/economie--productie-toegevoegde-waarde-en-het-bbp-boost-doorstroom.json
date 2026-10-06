@@ -1,0 +1,124 @@
+{
+ "vak": "Economie",
+ "titel": "Productie, toegevoegde waarde en het bbp",
+ "onder": "Van wat één bedrijf toevoegt naar het cijfer van een heel land, nominaal en reëel.",
+ "secties": [
+  {
+   "kop": "Produceren en toegevoegde waarde",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Produceren</strong> betekent in economische zin: <strong>waarde toevoegen</strong>. Dat hoeft niets met een fabriek te maken te hebben. Een transportbedrijf dat goederen van de haven naar een winkel brengt, voegt waarde toe: daar zijn ze meer waard dan in de haven."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>toegevoegde waarde</strong> van een bedrijf is de <strong>omzet min de aankopen bij andere bedrijven</strong>. Lonen trek je er niet af, want die zijn juist een deel van wat het bedrijf toevoegt. Een meubelmaker die voor 400 euro hout koopt en een kast voor 1 100 euro verkoopt, voegt dus <strong>700 euro</strong> toe. Een garagist die onderdelen voor 1 200 euro koopt, 2 000 euro lonen betaalt en 4 500 euro factureert, voegt <strong>3 300 euro</strong> toe: 4 500 &minus; 1 200, en de lonen blijven erin."
+    },
+    {
+     "soort": "weetje",
+     "html": "Veel omzet betekent niet automatisch veel toegevoegde waarde. Een handelaar die voor miljoenen inkoopt en met een kleine marge doorverkoopt, heeft een grote omzet en een kleine toegevoegde waarde."
+    }
+   ]
+  },
+  {
+   "kop": "De bedrijfskolom",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De keten van bedrijven van <strong>grondstof tot eindproduct</strong> heet een <strong>bedrijfskolom</strong>. Elk bedrijf in die kolom voegt een stuk waarde toe."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"69.7\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">boer</text><text x=\"69.7\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">graan 200</text><path d=\"M144.33333333333334 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"165.3\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">maalderij</text><text x=\"235.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">meel 350</text><path d=\"M309.6666666666667 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"330.7\" y=\"6\" width=\"139.3\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"400.3\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">bakker</text><text x=\"400.3\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">brood 800</text></svg>",
+     "onderschrift": "Eén bedrijfskolom, met de verkoopprijs van elke schakel."
+    },
+    {
+     "soort": "tekst",
+     "html": "De toegevoegde waarde van de <strong>maalderij</strong> is 350 &minus; 200 = <strong>150</strong>. Die van de boer is 200, die van de bakker 800 &minus; 350 = 450. Samen: 200 + 150 + 450 = <strong>800</strong>, en dat is precies de <strong>waarde van het eindproduct</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom tel je in een bedrijfskolom de <strong>toegevoegde waarden</strong> op en niet de omzetten: anders tel je het graan drie keer mee. Om diezelfde reden tellen <strong>intermediaire goederen</strong> niet apart mee in het bbp. Papier dat een drukkerij koopt om er boeken van te maken, is zo'n intermediair goed: zijn waarde zit al in het boek."
+    }
+   ]
+  },
+  {
+   "kop": "Wat is het bbp?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>bruto binnenlands product</strong> is de <strong>som van alle toegevoegde waarden binnen de grenzen van een land in één jaar</strong>. Waar het eigendom zit, doet niet mee: een <strong>Duits bedrijf met een fabriek in Gent</strong> telt mee in het Belgische bbp, want de productie gebeurt hier."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het woord <strong>bruto</strong> zegt dat de <strong>afschrijvingen er nog niet af zijn</strong>: de slijtage van machines en gebouwen is niet in mindering gebracht. En het bbp is een <strong>stroomgrootheid</strong>: het meet wat er in een periode bijkomt, niet wat er op een bepaald moment staat."
+    },
+    {
+     "soort": "kader",
+     "html": "Deze zaken tellen <strong>niet</strong> mee in het bbp van dit jaar: <strong>gratis werk thuis</strong> (koken voor je gezin), <strong>zwartwerk</strong>, de verkoop van een <strong>tweedehandswagen</strong> (die productie zat in een eerder jaar) en de <strong>intermediaire goederen</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Nominaal, reëel en het basisjaar",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>nominale bbp</strong> rekent met de prijzen van <strong>dit</strong> jaar. Het <strong>reële bbp</strong> rekent met de prijzen van een vast <strong>basisjaar</strong>, zodat je twee jaren eerlijk kan vergelijken. In het basisjaar zelf zijn ze aan elkaar gelijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "Produceert een land evenveel stuks als vorig jaar, maar stijgen alle prijzen met 4 %, dan stijgt het <strong>nominale</strong> bbp met ongeveer 4 % en blijft het <strong>reële</strong> bbp gelijk. Een stijging van het nominale bbp betekent dus <strong>niet</strong> automatisch dat er meer geproduceerd is."
+    },
+    {
+     "soort": "kader",
+     "html": "De <strong>reële groei</strong> krijg je zo: neem de groei van het nominale bbp en haal de <strong>prijsstijging</strong> eraf. Nominaal +5 % met prijzen +2 % geeft ongeveer <strong>+3 %</strong>. Nominaal +2 % met prijzen +3 % geeft ongeveer <strong>&minus;1 %</strong>: de reële groei is dan negatief."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een gewone <strong>groeivoet</strong> reken je altijd op het oude cijfer. Gaat het bbp van 400 naar 420 miljard euro, dan is de groei 20 op 400, dus <strong>5 %</strong>. Staat er in een tabel: 2026 bbp 500, 2027 bbp 530 en prijzen +2 %, dan is de nominale groei 6 % en de reële groei ongeveer 4 %."
+    }
+   ]
+  },
+  {
+   "kop": "Bbp per capita",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>bbp per capita</strong> is het <strong>bbp gedeeld door het aantal inwoners</strong>. Een land met 600 miljard euro bbp en 12 miljoen inwoners komt uit op <strong>50 000 euro per inwoner</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarmee vergelijk je landen eerlijker dan met het bbp zelf: een groot land heeft bijna altijd een groter bbp, ook als zijn inwoners minder welvarend zijn. Let wel op de verhouding tussen de twee cijfers: stijgt het bbp met 2 % en de bevolking met 3 %, dan <strong>daalt</strong> het bbp per capita."
+    }
+   ]
+  },
+  {
+   "kop": "Waar de cijfers staan, en wat ze niet zeggen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De Belgische cijfers komen van <strong>Statbel</strong>, de statistische dienst van de federale overheid, en van de <strong>Nationale Bank van België</strong>, die de nationale rekeningen en de economische vooruitzichten publiceert."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het bbp heeft <strong>beperkingen</strong> als maatstaf. Het zegt niets over de <strong>verdeling</strong> van de welvaart, niets over het <strong>milieu</strong>, en het negeert <strong>onbetaald werk</strong>. Het kan zelfs stijgen door iets slechts: worden na een storm veel daken hersteld, dan <strong>stijgt</strong> het bbp, terwijl niemand er beter van geworden is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een grafiek met <strong>jaarlijkse groeicijfers</strong> lees je het best door naar het <strong>teken en de trend</strong> te kijken: blijven de staven boven nul, dan groeit de economie elk jaar, ook als de staven kleiner worden. Een kleinere staaf betekent <strong>minder snelle groei</strong>, geen krimp."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Produceren is waarde toevoegen; toegevoegde waarde = omzet min de aankopen bij andere bedrijven.",
+  "De lonen trek je niet af van de toegevoegde waarde.",
+  "In een bedrijfskolom is de som van de toegevoegde waarden gelijk aan de waarde van het eindproduct.",
+  "Het bbp is de som van alle toegevoegde waarden binnen de grenzen van een land in één jaar.",
+  "Bruto betekent: de afschrijvingen zijn er nog niet af. Het bbp is een stroomgrootheid.",
+  "Reële groei ≈ nominale groei min de prijsstijging; het reële bbp rekent met de prijzen van het basisjaar.",
+  "Bbp per capita = bbp gedeeld door het aantal inwoners.",
+  "Het bbp zegt niets over verdeling, milieu of onbetaald werk."
+ ]
+}

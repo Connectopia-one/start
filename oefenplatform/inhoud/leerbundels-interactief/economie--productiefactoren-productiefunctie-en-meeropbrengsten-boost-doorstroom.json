@@ -1,0 +1,109 @@
+{
+ "vak": "Economie",
+ "titel": "Productiefactoren, productiefunctie en meeropbrengsten",
+ "onder": "Waarmee een bedrijf produceert, en waarom de twintigste werknemer minder toevoegt dan de tweede.",
+ "secties": [
+  {
+   "kop": "De vier productiefactoren",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De economie onderscheidt <strong>vier</strong> productiefactoren: <strong>arbeid</strong>, <strong>kapitaal</strong>, <strong>natuur</strong> en <strong>ondernemerschap</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">productiefactor</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat eronder valt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">vergoeding</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>arbeid</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">al het werk van mensen, met hoofd en handen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">loon</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>kapitaal</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">machines, gebouwen, werktuigen, vervoer</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">intrest</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>natuur</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">grond, grondstoffen, water, wind</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">pacht</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>ondernemerschap</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de andere drie samenbrengen en het risico dragen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">winst</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Pas op met twee verwarringen. De <strong>machines</strong> die grondstoffen verwerken horen bij <strong>kapitaal</strong>, niet bij natuur; de <strong>grondstoffen zelf</strong> horen bij natuur. En <strong>geld is geen productiefactor</strong>: met geld koop je productiefactoren, maar geld zelf maakt niets. Een landbouwer die grond huurt, betaalt dus <strong>pacht</strong> voor de productiefactor <strong>natuur</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>ondernemer</strong> staat apart omdat hij geen vast bedrag krijgt: hij draagt het <strong>risico</strong> en houdt over wat er na alle andere vergoedingen overblijft. Zijn beslissingen zijn: <strong>wat</strong> er geproduceerd wordt, <strong>hoeveel</strong>, <strong>met welke combinatie</strong> van factoren, en <strong>of</strong> er geïnvesteerd wordt. De theorie veronderstelt dat hij naar <strong>maximale winst</strong> streeft: dat is de eenvoudigste aanname waarmee je zijn keuzes kan voorspellen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>kapitaalgoed</strong> gaat <strong>jaren</strong> mee en wordt niet verwerkt (een oven, een bestelwagen). Een <strong>intermediair goed</strong> wordt juist <strong>verwerkt</strong> of verbruikt in de productie (bloem, papier, stroom). Schakelt een bedrijf over op <strong>zonnepanelen</strong> voor zijn eigen stroom, dan spelen <strong>kapitaal</strong> (de panelen) en <strong>natuur</strong> (de zon) samen."
+    }
+   ]
+  },
+  {
+   "kop": "Korte en lange termijn",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In de productietheorie is de <strong>korte termijn</strong> de periode waarin <strong>minstens één productiefactor vastligt</strong>; op de <strong>lange termijn</strong> kan een bedrijf <strong>al</strong> zijn factoren aanpassen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een bakkerij kan snel een extra bakker aanwerven, maar niet snel een tweede oven plaatsen. Daaruit volgt dat <strong>arbeid de variabele factor</strong> is en <strong>kapitaal de factor die op korte termijn vastligt</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>productiefunctie</strong> is het verband tussen de ingezette productiefactoren en de hoeveelheid die eruit komt. Dat verband is geen natuurwet: twee bedrijven met dezelfde machines en evenveel werknemers kunnen toch een <strong>verschillende</strong> productie halen, want organisatie, ervaring en motivatie spelen mee."
+    },
+    {
+     "soort": "tekst",
+     "html": "Over <strong>arbeid</strong> moet je drie dingen weten: het is een <strong>menselijke</strong> factor en dus geen voorraad die je kan opslaan, ze wordt vergoed met <strong>loon</strong>, en ze is op korte termijn meestal de <strong>variabele</strong> factor."
+    }
+   ]
+  },
+  {
+   "kop": "Totale, marginale en gemiddelde productie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>totale productie TP</strong> is alles wat een bedrijf bij een bepaalde inzet maakt. De <strong>marginale productie MP</strong> is wat er bijkomt door <strong>één eenheid arbeid meer</strong>; MP staat voor <strong>marginale productie</strong>. De <strong>gemiddelde productie</strong> is de productie <strong>per eenheid arbeid</strong>: TP gedeeld door het aantal werknemers."
+    },
+    {
+     "soort": "tekst",
+     "html": "Produceert een bedrijf met 3 werknemers 90 stuks en met 4 werknemers 112 stuks, dan is de MP van de vierde <strong>22</strong>. Maakt een bedrijf met 6 werknemers 150 stuks, dan is de gemiddelde productie <strong>25 stuks</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Uit de tabel TP = 10, 26, 48, 60, 65 bij 1 tot 5 werknemers lees je de MP af als het <strong>verschil</strong> tussen twee opeenvolgende getallen: 10, 16, 22, 12, 5. De MP is dus het grootst bij de <strong>derde</strong> werknemer."
+    }
+   ]
+  },
+  {
+   "kop": "De wet van de toe- en afnemende meeropbrengsten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>wet van de toe- en afnemende meeropbrengsten</strong> zegt: voeg je bij een <strong>vaste</strong> factor steeds meer van een variabele factor toe, dan <strong>stijgt</strong> de meeropbrengst eerst en <strong>daalt</strong> ze daarna."
+    },
+    {
+     "soort": "tekst",
+     "html": "MP <strong>stijgt in het begin</strong> omdat mensen kunnen samenwerken en zich specialiseren: twee bakkers samen doen meer dan twee keer één. MP <strong>daalt vanaf een bepaald punt</strong> omdat de vaste factor te klein wordt: er is maar één oven, en de zevende bakker staat te wachten. Een restaurant met één keuken waar het bij 8 koks trager begint te gaan, zit precies in dat <strong>afnemende</strong> deel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Zolang <strong>MP positief</strong> is, <strong>stijgt TP nog</strong>, ook als MP daalt. Een dalende MP betekent dus <strong>niet</strong> dat het bedrijf minder produceert, enkel dat de stijging kleiner wordt. <strong>TP bereikt zijn maximum waar MP nul is</strong>, en bij een <strong>negatieve MP daalt TP</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "Een reeks MP van 12, 20, 25, 18 en 9 zegt drie dingen: de meeropbrengst <strong>stijgt eerst</strong> tot de derde werknemer, <strong>daalt daarna</strong>, en <strong>TP blijft intussen stijgen</strong> omdat alle waarden positief zijn."
+    },
+    {
+     "soort": "tekst",
+     "html": "Deze wet geldt <strong>alleen op korte termijn</strong>, want ze heeft een vaste factor nodig. Op lange termijn kan een bedrijf alles aanpassen. Verdubbelt een tuinbedrijf dan zijn machines <strong>én</strong> zijn personeel en stijgt de productie met <strong>meer</strong> dan het dubbele, dan heet dat <strong>schaalvoordelen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Waarom dit voor de <strong>kosten</strong> belangrijk is: zolang elke extra werknemer <strong>meer</strong> toevoegt, daalt de kost per stuk; zodra hij <strong>minder</strong> toevoegt, stijgt ze. De vorm van de kostencurven in het volgende hoofdstuk komt dus recht uit deze wet."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Vier productiefactoren: arbeid (loon), kapitaal (intrest), natuur (pacht), ondernemerschap (winst).",
+  "Machines horen bij kapitaal, grondstoffen bij natuur, en geld is geen productiefactor.",
+  "Korte termijn: minstens één factor ligt vast, meestal kapitaal. Lange termijn: alles kan mee.",
+  "Een productiefunctie is het verband tussen de ingezette factoren en de productie.",
+  "TP is de totale productie, MP de marginale productie (één eenheid arbeid meer), gemiddelde productie is TP per werknemer.",
+  "De wet van de toe- en afnemende meeropbrengsten: MP stijgt eerst en daalt daarna.",
+  "Zolang MP positief is, stijgt TP; TP is maximaal waar MP nul is.",
+  "De wet geldt alleen op korte termijn; op lange termijn kan er van schaalvoordelen sprake zijn."
+ ]
+}

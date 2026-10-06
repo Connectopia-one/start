@@ -1,0 +1,115 @@
+{
+ "vak": "Economie",
+ "titel": "De budgetlijn en de optimale goederencombinatie",
+ "onder": "Wat een consument kan betalen, en waar dat samenvalt met wat hij het liefst heeft.",
+ "secties": [
+  {
+   "kop": "De budgetvergelijking",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>budgetvergelijking</strong> zegt dat alles wat een consument koopt samen <strong>precies zijn budget</strong> opsoupeert. Ze heeft altijd dezelfde vorm: <strong>prijs van x · aantal x + prijs van y · aantal y = het budget</strong>. Het <strong>budget</strong> staat dus <strong>rechts</strong> van het gelijkheidsteken, in het <strong>rechterlid</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een consument met <strong>60 euro</strong>, boeken van 12 euro en films van 6 euro heeft als budgetvergelijking <strong>12b + 6f = 60</strong>. Koopt hij niets anders, dan kan hij <strong>5 boeken</strong> kopen. Koopt hij <strong>3 boeken</strong> (36 euro), dan blijft er 24 euro over voor <strong>4 films</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het bedrag dat een consument te besteden heeft, heet zijn <strong>budget</strong> of inkomen. Nog een rekenvoorbeeld: een gezin met 240 euro, vlees aan 12 euro per kilo en groenten aan 4 euro per kilo kan bij 10 kilo vlees (120 euro) nog <strong>30 kilo groenten</strong> kopen."
+    }
+   ]
+  },
+  {
+   "kop": "De budgetlijn",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>budgetlijn</strong>, ook <strong>budgetrechte</strong> genoemd, is de lijn met <strong>alle combinaties die de consument precies kan betalen</strong>. Om ze te tekenen heb je <strong>drie</strong> gegevens nodig: het <strong>budget</strong> en de <strong>prijs van elk van de twee goederen</strong>. Wat hij liever heeft, speelt hier nog geen rol."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 430 250\" width=\"430\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"44\" y1=\"14\" x2=\"44\" y2=\"214\" stroke=\"#23291f\" stroke-width=\"1.8\"/><line x1=\"44\" y1=\"214\" x2=\"418\" y2=\"214\" stroke=\"#23291f\" stroke-width=\"1.8\"/><text x=\"42.0\" y=\"12.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">goed A</text><text x=\"418.0\" y=\"230.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">goed B</text><line x1=\"44.0\" y1=\"57.2\" x2=\"340.0\" y2=\"214.0\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><polyline points=\"118.0,57.2 125.4,71.5 132.8,83.3 140.2,93.4 147.6,102.0 155.0,109.5 162.4,116.0 169.8,121.8 177.2,126.9 184.6,131.5 192.0,135.6 199.4,139.3 206.8,142.7 214.2,145.8 221.6,148.7 229.0,151.3 236.4,153.7 243.8,155.9 251.2,158.0 258.6,159.9 266.0,161.7 273.4,163.4 280.8,165.0 288.2,166.5 295.6,167.9 303.0,169.2 310.4,170.4 317.8,171.6 325.2,172.7 332.6,173.8 340.0,174.8\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><circle cx=\"192.0\" cy=\"135.6\" r=\"4\" fill=\"#23291f\"/><text x=\"200.0\" y=\"127.6\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#23291f\">raakpunt</text><text x=\"346.0\" y=\"216.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"600\" fill=\"#2f5d50\">budgetlijn</text><text x=\"346.0\" y=\"174.8\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#c17f2b\">IC</text></svg>",
+     "onderschrift": "De budgetlijn en de hoogste indifferentiecurve die ze nog raakt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een punt <strong>onder</strong> de budgetlijn is <strong>haalbaar</strong>, maar de consument houdt er geld over: hij <strong>besteedt zijn budget niet volledig</strong>. Een punt <strong>boven</strong> de lijn kan hij <strong>niet betalen</strong>. Daarom ligt het <strong>optimum altijd óp de lijn</strong>: wie geld overhoudt, kan er altijd nog iets mee kopen en zo meer nut halen."
+    },
+    {
+     "soort": "tekst",
+     "html": "De budgetlijn is een <strong>rechte</strong> lijn zolang de prijzen vastliggen, en haar <strong>helling</strong> wordt bepaald door de <strong>prijsverhouding</strong> van de twee goederen. Kost een boek 12 euro en een film 6 euro, dan kost één boek extra hem <strong>twee films</strong>, niet een halve. Met 100 euro, x aan 10 euro en y aan 20 euro snijdt de lijn de <strong>y-as bij 5</strong>, want 100 gedeeld door 20 is 5."
+    },
+    {
+     "soort": "kader",
+     "html": "Let op het verschil: de helling van de <strong>budgetlijn</strong> komt van de <strong>prijzen op de markt</strong>, de helling van een <strong>indifferentiecurve</strong> van de <strong>voorkeuren</strong> van de consument. In het optimum vallen die twee hellingen samen. En alle punten op één budgetlijn geven zeker <strong>niet</strong> evenveel nut; dat doen de punten op één indifferentiecurve."
+    }
+   ]
+  },
+  {
+   "kop": "Wat de lijn doet verschuiven of kantelen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Verandert alleen het <strong>budget</strong>, dan schuift de lijn <strong>parallel</strong> op: naar buiten bij meer geld, naar binnen bij minder. Die beweging heet een <strong>parallelverschuiving</strong>, en de helling blijft gelijk."
+    },
+    {
+     "soort": "tekst",
+     "html": "Verandert de <strong>prijs van één goed</strong>, dan <strong>kantelt</strong> de lijn: één snijpunt met een as blijft staan, het andere schuift. Een prijswijziging van één goed verandert dus wél de helling. Zakt bij een budget van 120 euro de prijs van x van 10 naar <strong>6 euro</strong>, dan kan de consument maximaal <strong>20 stuks x</strong> kopen in plaats van 12."
+    },
+    {
+     "soort": "tekst",
+     "html": "Veranderen <strong>budget en prijzen in dezelfde verhouding</strong>, dan blijft de lijn waar ze was. Verdubbelen prijzen én budget, dan zijn de <strong>haalbare combinaties exact dezelfde</strong>. Een gezin dat 10 % opslag krijgt terwijl alle prijzen 10 % stijgen, heeft dus <strong>dezelfde budgetlijn</strong> als daarvoor."
+    }
+   ]
+  },
+  {
+   "kop": "De optimale goederencombinatie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Leg je de budgetlijn en de indifferentiemap over elkaar, dan ligt het <strong>optimum</strong> waar de <strong>budgetlijn de hoogst bereikbare indifferentiecurve raakt</strong>. Dat punt heet het <strong>raakpunt</strong>, en in dat punt zijn de <strong>helling van de budgetlijn en die van de indifferentiecurve gelijk</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De lijn <strong>raakt</strong> de curve in plaats van ze te snijden, en dat is geen detail: bij een <strong>snijpunt</strong> ligt er altijd nog een stuk van de budgetlijn aan de andere kant van de curve, en dus een <strong>hogere</strong> curve die ook haalbaar is. Een snijpunt is dus <strong>nooit</strong> het optimum. En in het optimum kan de consument zijn nut <strong>niet</strong> meer verhogen zonder zijn budget te overschrijden."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een combinatie die <strong>haalbaar maar niet optimaal</strong> is, zie je in de tekening zo: ze ligt op of onder de budgetlijn, maar op een <strong>lagere</strong> indifferentiecurve dan het raakpunt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Stijgt het <strong>budget</strong>, dan schuift het optimum naar een <strong>hogere</strong> curve: de consument kan meer nut halen. Daalt de <strong>prijs van goed x</strong>, dan zijn er twee gevolgen mogelijk: hij koopt meer van x, en hij kan ook meer van y kopen, want hij houdt geld over."
+    },
+    {
+     "soort": "tekst",
+     "html": "Twee consumenten met <strong>hetzelfde budget en dezelfde prijzen</strong> kunnen toch een <strong>andere</strong> combinatie kiezen, want hun indifferentiemappen verschillen. Dat is ook het antwoord op de vraag waarom deze theorie nuttig is, ook al rekent niemand zo in de winkel: ze <strong>voorspelt de richting</strong> van het gedrag — wordt iets duurder, dan kopen mensen er minder van — en meer moet een model niet doen."
+    },
+    {
+     "soort": "weetje",
+     "html": "Een rekenvoorbeeld in het optimum: iemand besteedt 200 euro, x kost 20 euro en y kost 10 euro. Koopt hij 6 stuks x (120 euro), dan blijft er 80 euro over, dus <strong>8 stuks y</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Wat de overheid eraan verandert",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De overheid kan de budgetlijn van een gezin <strong>naar buiten</strong> laten schuiven door het <strong>budget te verhogen</strong> (een uitkering, een premie, minder belasting) of door de <strong>prijzen te verlagen</strong> (een subsidie, een lagere btw). In beide gevallen kan het gezin een hogere indifferentiecurve bereiken."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Budgetvergelijking: prijs x · aantal x + prijs y · aantal y = het budget.",
+  "De budgetlijn toont alle combinaties die de consument precies kan betalen; je hebt het budget en twee prijzen nodig.",
+  "Onder de lijn: haalbaar maar niet alles besteed. Boven de lijn: niet te betalen.",
+  "De helling van de budgetlijn komt van de prijsverhouding, die van een indifferentiecurve van de voorkeuren.",
+  "Alleen het budget wijzigt: parallelverschuiving. Eén prijs wijzigt: de lijn kantelt.",
+  "Budget en prijzen in dezelfde verhouding: dezelfde budgetlijn.",
+  "Het optimum is het raakpunt van de budgetlijn met de hoogst bereikbare indifferentiecurve.",
+  "Een snijpunt is nooit het optimum, want dan is er nog een hogere curve haalbaar."
+ ]
+}

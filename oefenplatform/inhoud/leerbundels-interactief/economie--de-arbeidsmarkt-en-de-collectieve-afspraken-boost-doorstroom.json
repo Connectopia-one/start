@@ -1,0 +1,85 @@
+{
+ "vak": "Economie",
+ "titel": "De arbeidsmarkt en de collectieve afspraken",
+ "onder": "Wie op deze markt vraagt en wie aanbiedt, en wat er verandert als er samen onderhandeld wordt.",
+ "secties": [
+  {
+   "kop": "Vraag en aanbod van arbeid",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op de arbeidsmarkt staan de rollen <strong>omgekeerd</strong> ten opzichte van een gewone markt. De <strong>bedrijven vragen</strong> arbeid, de <strong>gezinnen bieden</strong> ze aan. De prijs op deze markt is het <strong>loon</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>vraag naar arbeid daalt</strong> als het loon stijgt: arbeid wordt dan duurder en een bedrijf neemt minder mensen aan. Het <strong>aanbod van arbeid stijgt</strong> als het loon stijgt: werken wordt aantrekkelijker. Waar de twee elkaar kruisen, ligt het <strong>evenwichtsloon</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "Rekenen gaat zoals op elke markt. Met Qv = 1 000 &minus; 20W en Qa = 400 + 10W: 1 000 &minus; 20W = 400 + 10W geeft 600 = 30W, dus <strong>W = 20</strong>. Vul in: Qa = 400 + 200 = <strong>600</strong> eenheden arbeid."
+    },
+    {
+     "soort": "tekst",
+     "html": "De vraag naar arbeid is een <strong>afgeleide vraag</strong>: een bedrijf vraagt arbeid niet voor zichzelf, maar omdat het <strong>goederen en diensten wil verkopen</strong>. Loopt de verkoop terug, dan daalt de vraag naar arbeid mee, hoe laag het loon ook is."
+    }
+   ]
+  },
+  {
+   "kop": "Wat de curven verschuift",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de vraag naar arbeid verschuift door</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">het aanbod van arbeid verschuift door</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de verkoop op de goederenmarkt</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de omvang van de bevolking</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nieuwe technologie en machines</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de vergrijzing</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de loonkosten en de bijdragen</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">migratie</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de productiviteit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de pensioenleeftijd en de studieduur</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Vergrijzing</strong> doet het <strong>aanbod van arbeid dalen</strong>: er gaan meer mensen op pensioen dan er jongeren bijkomen. <strong>Migratie</strong> kan het aanbod juist doen <strong>stijgen</strong>. <strong>Technologie</strong> werkt op de vraag: machines kunnen werk overnemen, maar ze maken ook nieuwe soorten werk."
+    },
+    {
+     "soort": "tekst",
+     "html": "Blijft er in een beroep een <strong>tekort</strong> bestaan omdat er te weinig geschoolde mensen zijn, dan heet dat een <strong>knelpuntberoep</strong>. De vraag is daar groter dan het aanbod, en het loon alleen lost dat niet op: er moeten eerst mensen opgeleid worden."
+    }
+   ]
+  },
+  {
+   "kop": "Collectieve afspraken",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op de arbeidsmarkt onderhandelt niet iedereen voor zichzelf. Een <strong>cao</strong>, een <strong>collectieve arbeidsovereenkomst</strong>, is een akkoord over <strong>loon en arbeidsvoorwaarden</strong> tussen <strong>werkgevers en werknemers</strong>. Ze geldt voor een hele sector of een heel bedrijf, en niet voor één persoon."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>interprofessioneel akkoord</strong> of <strong>ipa</strong> gaat nog breder: het is een akkoord <strong>over alle sectoren heen</strong>, dat de grote lijnen voor twee jaar vastlegt. De partijen die dat allemaal onderhandelen, heten de <strong>sociale partners</strong>: de <strong>vakbonden</strong> aan de ene kant en de <strong>werkgeversorganisaties</strong> aan de andere."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>minimumloon</strong> is een ondergrens: lager mag een loon niet. Het bestaat om te vermijden dat mensen <strong>werken en toch niet rondkomen</strong>, en omdat <strong>één werknemer zwak staat</strong> tegenover een werkgever. Daarom onderhandelen ze samen: met duizenden achter zich weegt een vakbond even zwaar als de werkgever."
+    },
+    {
+     "soort": "tekst",
+     "html": "Al die afspraken doen één ding met het marktmechanisme: ze <strong>leggen het loon deels vast</strong>, zodat het niet meer vrij door vraag en aanbod beweegt. Ligt een minimumloon <strong>boven</strong> het evenwichtsloon, dan ontstaat er net als bij elke minimumprijs een <strong>overschot</strong> aan arbeid: werkloosheid in dat segment."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Indexering</strong> is de automatische aanpassing van de lonen aan de prijzen. Ze beschermt de koopkracht, maar voor de bedrijven betekent ze dat de <strong>loonkosten stijgen</strong>, wat hun vraag naar arbeid kan drukken. Stijgt de <strong>productiviteit</strong> mee, dan is er ruimte: de lonen kunnen dan stijgen <strong>zonder hogere kost per stuk</strong>."
+    },
+    {
+     "soort": "weetje",
+     "html": "Arbeid is geen gewoon product: je kan het <strong>niet opslaan</strong> en er zitten <strong>mensen</strong> achter. Een dag die niemand gewerkt heeft, is weg. Daarom is deze markt zwaarder gereglementeerd dan de markt voor aardappelen."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Op de arbeidsmarkt vragen de bedrijven en bieden de gezinnen aan; de prijs is het loon.",
+  "De vraag naar arbeid daalt bij een hoger loon, het aanbod stijgt; het snijpunt is het evenwichtsloon.",
+  "De vraag naar arbeid is een afgeleide vraag: ze volgt uit de verkoop van goederen en diensten.",
+  "Vergrijzing verkleint het arbeidsaanbod, migratie kan het vergroten.",
+  "Een knelpuntberoep is een beroep met een blijvend tekort aan geschoolde mensen.",
+  "Een cao regelt loon en arbeidsvoorwaarden voor een sector of een bedrijf; een ipa gaat over alle sectoren.",
+  "De sociale partners zijn de vakbonden en de werkgeversorganisaties.",
+  "Een minimumloon boven het evenwichtsloon geeft een overschot aan arbeid.",
+  "Indexering verhoogt de loonkosten; stijgende productiviteit maakt ruimte voor hogere lonen."
+ ]
+}

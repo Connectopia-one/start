@@ -1,0 +1,107 @@
+{
+ "vak": "Economie",
+ "titel": "Facturen, kortingen en btw",
+ "onder": "De vaste orde waarin je een factuur narekent, van de brutoprijs tot het te betalen totaal.",
+ "secties": [
+  {
+   "kop": "De orde van rekenen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een factuur reken je <strong>altijd in dezelfde orde</strong> na. Wie de stappen omwisselt, komt op een ander bedrag uit."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 76\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0.0\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"36.6\" y=\"37.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">brutoprijs</text><path d=\"M78.2 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"99.2\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"135.8\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">&minus; handels-</text><text x=\"135.8\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">korting</text><path d=\"M177.4 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"198.4\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"235.0\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">&minus; financiële</text><text x=\"235.0\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">korting</text><path d=\"M276.6 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"297.6\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"334.2\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">+ doorgerekende</text><text x=\"334.2\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">kosten</text><path d=\"M375.8 37.0 h12 m0 0 l-6 -5 m6 5 l-6 5\" stroke=\"#2f5d50\" stroke-width=\"2\" fill=\"none\" stroke-linecap=\"round\"/><rect x=\"396.8\" y=\"6\" width=\"73.2\" height=\"62\" rx=\"10\" fill=\"#ffffff\" stroke=\"#2f5d50\" stroke-width=\"1.8\"/><text x=\"433.4\" y=\"29.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11.5\" font-weight=\"600\" fill=\"#234539\">= maatstaf</text><text x=\"433.4\" y=\"45.0\" text-anchor=\"middle\" dominant-baseline=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10\" font-weight=\"400\" fill=\"#6b7260\">van heffing</text></svg>",
+     "onderschrift": "De weg naar de maatstaf van heffing."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarna komt de <strong>btw</strong> op die maatstaf, en pas <strong>na</strong> de btw komt de <strong>terugstuurbare verpakking</strong> bij het totaal."
+    }
+   ]
+  },
+  {
+   "kop": "De twee kortingen",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>handelskorting</strong> is een korting op de <strong>prijs zelf</strong>: bij een <strong>grote hoeveelheid</strong>, voor een <strong>vaste klant</strong> of tijdens een <strong>actie</strong>. Ze kan op de factuur staan <strong>in procent of in euro</strong>, en ze gaat als <strong>eerste</strong> van de brutoprijs af."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>financiële korting</strong> krijg je omdat je <strong>snel betaalt</strong>; ze heet ook korting voor contante betaling. De leverancier geeft ze om <strong>sneller zijn geld te hebben</strong>. Je rekent ze op de prijs <strong>na</strong> de handelskorting, dus niet op de brutoprijs."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Beide</strong> kortingen gaan van de <strong>maatstaf van heffing</strong> af, en de financiële korting <strong>ook als de klant ze niet gebruikt</strong> en later gewoon het volle bedrag betaalt. De maatstaf van heffing is het bedrag <strong>waarop je de btw berekent</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "Rekenen: 1 000 euro met 10 % handelskorting geeft <strong>900 euro</strong>. Daarvan 2 % financiële korting is <strong>18 euro</strong>, dus blijft er <strong>882 euro</strong> over — en let op: die 2 % reken je op 900, niet op 1 000. Andere voorbeelden: 25 % op 2 000 euro laat <strong>1 500 euro</strong> over, en 20 % op 500 euro is <strong>100 euro</strong> korting."
+    }
+   ]
+  },
+  {
+   "kop": "Kosten, verpakking en btw",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Doorgerekende kosten</strong> horen bij de prijs van de levering en <strong>verhogen</strong> de maatstaf van heffing: <strong>vervoer</strong>, een <strong>verzekering</strong>, <strong>verpakking die niet terugkeert</strong>. Er komt dus <strong>btw</strong> op. Een factuur met 1 000 euro goederen en 100 euro vervoer heeft een maatstaf van <strong>1 100 euro</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een <strong>terugstuurbare verpakking</strong> werkt als een <strong>waarborg</strong>: stuurt de klant de kratten terug, dan <strong>krijgt hij dat bedrag terug</strong>. Het is dus geen verkoop, en er komt <strong>geen btw</strong> op. Ze staat apart op de factuur en komt <strong>na</strong> de btw bij het totaal."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>gewone btw-tarief</strong> in België is <strong>21 %</strong>; er bestaan verlaagde tarieven van 6 en 12 % voor onder meer voeding en woningwerken. Reken: 21 % van 1 000 euro is <strong>210 euro</strong>; van 950 euro is het <strong>199,50 euro</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "Een volledig voorbeeld: 500 euro goederen, 21 % btw en 60 euro terugstuurbare verpakking. De btw is 105 euro, en de verpakking komt daarna erbij: 500 + 105 + 60 = <strong>665 euro</strong> te betalen."
+    }
+   ]
+  },
+  {
+   "kop": "De creditnota",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een factuur mag je <strong>niet aanpassen</strong>. Wil je iets rechtzetten, dan maak je een <strong>creditnota</strong>: bij een <strong>terugzending</strong>, bij een <strong>te hoog aangerekend bedrag</strong> of bij een <strong>korting achteraf</strong>. Bij een gewone betaling hoort er geen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Draait de creditnota een verkoop met btw terug, dan staat de <strong>btw er ook op</strong>. Anders zou de staat te veel btw houden."
+    }
+   ]
+  },
+  {
+   "kop": "Wat je op een factuur nakijkt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Op een factuur staan de <strong>goederen met hun prijs</strong>, de <strong>kortingen</strong>, de <strong>doorgerekende kosten</strong>, de <strong>btw</strong> en de <strong>vervaldag</strong>. Wat de leverancier eraan verdient, staat er niet op."
+    },
+    {
+     "soort": "tekst",
+     "html": "Narekenen doe je dus op drie dingen: staan de <strong>afgesproken kortingen</strong> erop, kloppen de <strong>aangerekende kosten</strong>, en is de <strong>btw</strong> juist berekend? De <strong>vervaldag</strong> is de <strong>uiterste betaaldatum</strong>: staat er dertig dagen, dan heb je dertig dagen om te betalen, en daarna kan de leverancier verwijlintresten aanrekenen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Herhaal ten slotte de indeling van de <strong>aankopen</strong>: <strong>handelsgoederen</strong> zijn goederen om <strong>door te verkopen</strong>, een <strong>verzekeringspremie</strong> is een aankoop van <strong>diensten en diverse goederen</strong>, en een <strong>computer die vijf jaar meegaat</strong> is een <strong>investeringsgoed</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "De orde: brutoprijs − handelskorting − financiële korting + doorgerekende kosten = maatstaf van heffing.",
+  "Daarop komt de btw; de terugstuurbare verpakking komt pas na de btw bij het totaal.",
+  "Een handelskorting hangt af van de aankoop, een financiële korting van het moment van betalen.",
+  "De financiële korting reken je op de prijs na de handelskorting, en ze gaat altijd van de btw-basis af.",
+  "Doorgerekend vervoer, verzekering en verloren verpakking verhogen de maatstaf; er komt btw op.",
+  "Op een terugstuurbare verpakking komt geen btw: het is een waarborg.",
+  "Het gewone btw-tarief is 21 %.",
+  "Een creditnota corrigeert een eerdere factuur, met de btw erop."
+ ]
+}

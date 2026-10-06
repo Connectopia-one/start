@@ -1,0 +1,105 @@
+{
+ "vak": "Economie",
+ "titel": "De optimale productiegrootte en winstmaximalisatie",
+ "onder": "Waarom een producent stopt waar MK gelijk is aan MO, en wanneer hij toch beter sluit.",
+ "secties": [
+  {
+   "kop": "Waar de winst het grootst is",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De winst van een bedrijf is het grootst bij de hoeveelheid waar de <strong>marginale kost gelijk is aan de marginale opbrengst</strong>: de twee grootheden <strong>MK en MO</strong> zijn daar aan elkaar gelijk. Die hoeveelheid heet de <strong>optimale productiegrootte</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De reden is eenvoudig. Is <strong>MO groter dan MK</strong>, dan brengt het volgende stuk <strong>meer op dan het kost</strong>: het bedrijf <strong>moet dus meer produceren</strong>, en de winst stijgt nog. Is <strong>MK groter dan MO</strong>, dan kost het laatste stuk meer dan het opbrengt, en kan het bedrijf zijn winst <strong>verhogen door minder te produceren</strong>. Alleen waar ze gelijk zijn, valt er aan geen van beide kanten nog iets te winnen. Wie per vergissing <strong>één stuk te veel</strong> maakt, verliest daar dus iets op en moet terug naar het optimum."
+    },
+    {
+     "soort": "tekst",
+     "html": "Verkoopt een bedrijf aan <strong>12 euro</strong> op een markt met volkomen concurrentie, dan is MO gelijk aan 12 euro, en ligt zijn optimum waar <strong>MK 12 euro</strong> is. Staat er in een tabel MK = 8 bij 5 stuks, 10 bij 6 stuks en 13 bij 7 stuks met een prijs van 10 euro, dan is de optimale hoeveelheid <strong>6 stuks</strong>: bij 7 kost het extra stuk meer dan het opbrengt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een producent kijkt naar <strong>marginale</strong> en niet naar gemiddelde grootheden omdat zijn beslissing altijd gaat over <strong>één stuk meer of minder</strong>. Een gemiddelde zegt niets over dat laatste stuk. En het heet <strong>winst</strong>maximalisatie en geen opbrengstmaximalisatie omdat de <strong>kosten meetellen</strong>: meer verkopen met verlies op elk stuk maakt een bedrijf armer. In het optimum is de totale opbrengst dus <strong>niet</strong> het hoogst; het <strong>verschil</strong> tussen opbrengst en kosten is dat wel."
+    },
+    {
+     "soort": "tekst",
+     "html": "Alleen het snijpunt in het <strong>stijgende</strong> deel van de MK-curve telt. In het dalende deel zou één stuk meer juist <strong>minder</strong> kosten dan het opbrengt, en dan is doorgaan nog altijd voordelig. Daarom is de <strong>stijgende tak van de MK-curve de aanbodcurve van het bedrijf</strong>: ze zegt bij elke prijs hoeveel het wil aanbieden. Stijgt de prijs van 10 naar <strong>14 euro</strong>, dan schuift het optimum naar rechts en <strong>produceert het bedrijf meer</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "Om het optimum <strong>grafisch</strong> te vinden heb je twee curven nodig: de <strong>MK-curve</strong> en de <strong>MO-lijn</strong> (bij volkomen concurrentie de prijs). Met een tabel van <strong>TO en TK</strong> per hoeveelheid vind je het ook: zoek de rij waar <strong>TO &minus; TK</strong> het grootst is."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>optimum van de consument</strong> en dat van de <strong>producent</strong> lijken op elkaar maar zijn niet hetzelfde: de consument maximaliseert zijn <strong>nut</strong> binnen zijn budget, de producent zijn <strong>winst</strong>. En <strong>niet alle bedrijven</strong> in een sector hebben dezelfde optimale productiegrootte: hun kostenstructuur verschilt."
+    }
+   ]
+  },
+  {
+   "kop": "Het break-evenpunt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het <strong>break-evenpunt</strong> is de hoeveelheid waarbij de <strong>winst nul</strong> is: de totale opbrengst dekt precies de totale kosten. Het heet ook de <strong>kritische hoeveelheid</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Je vindt het met de <strong>marge</strong>: het verschil tussen de <strong>prijs en de variabele kost per stuk</strong>. Elk verkocht stuk levert die marge op om de constante kosten te dekken. Een bedrijf met 4 000 euro constante kosten, een prijs van 20 euro en een variabele kost van 12 euro heeft een marge van 8 euro per stuk, en moet dus <strong>500 stuks</strong> verkopen om break-even te draaien."
+    },
+    {
+     "soort": "tekst",
+     "html": "Verkoopt een bedrijf <strong>boven</strong> zijn break-evenpunt, dan weet je twee dingen: de constante kosten zijn <strong>gedekt</strong> en elk extra stuk voegt zijn volle <strong>marge</strong> aan de winst toe."
+    }
+   ]
+  },
+  {
+   "kop": "Winst en verlies in beeld",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "In een grafiek met de prijs, de GK-curve en de hoeveelheid lees je de winst zo af: neem het <strong>verschil tussen de prijs en GK</strong> bij de gekozen hoeveelheid en <strong>vermenigvuldig het met die hoeveelheid</strong>. Dat is de oppervlakte van een rechthoek. Een bedrijf dat 2 000 stuks maakt bij een prijs van 15 euro en een GK van 13 euro, maakt dus <strong>4 000 euro</strong> winst."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ligt de <strong>prijs boven GK</strong>, dan is er winst; ligt ze <strong>eronder</strong>, dan verlies; vallen ze samen, dan is de winst nul. Een bedrijf kan dus in zijn optimum <strong>toch verlies maken</strong>: MK = MO zegt alleen dat het <strong>zo weinig mogelijk verliest</strong>, niet dat het winst maakt. Een bedrijf dat zijn <strong>omzet verdubbelt</strong>, verdubbelt zijn winst dus niet automatisch: de kosten stijgen mee."
+    }
+   ]
+  },
+  {
+   "kop": "Doorgaan of sluiten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een bedrijf met verlies blijft op <strong>korte termijn</strong> soms toch produceren, en dat is verstandig zolang de <strong>prijs boven de gemiddelde variabele kost</strong> ligt. Dan dekt elke verkoop zijn eigen variabele kost én een stuk van de constante kosten, die toch doorlopen. Sluiten zou <strong>meer</strong> verlies geven."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het punt waar de <strong>prijs gelijk is aan de laagste gemiddelde variabele kost</strong> heet daarom het <strong>sluitingspunt op korte termijn</strong>. Zakt de prijs <strong>daaronder</strong>, dan brengt elk stuk minder op dan het aan grondstof en energie kost, en is <strong>stoppen</strong> het beste."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een bedrijf dat aan 9 euro verkoopt met een GVK van 7 euro en een GK van 11 euro, maakt <strong>verlies</strong> maar <strong>blijft op korte termijn produceren</strong>: 9 ligt boven 7. Op <strong>lange termijn</strong> stopt het beter als de prijs onder de <strong>gemiddelde kost</strong> blijft liggen, want dan worden de constante kosten nooit gedekt. Een restaurant dat 's winters met verlies open blijft, doet dat dus terecht zolang de opbrengst de <strong>variabele</strong> kosten dekt — en zolang het in de zomer het verschil ophaalt."
+    },
+    {
+     "soort": "weetje",
+     "html": "Valt er in een markt met volkomen concurrentie <strong>winst</strong> te halen, dan <strong>treden er nieuwe bedrijven toe</strong>. Het aanbod stijgt, de prijs zakt, en de winst slinkt tot ze net nul is. Daarom blijft overwinst in zo'n markt niet duren."
+    },
+    {
+     "soort": "tekst",
+     "html": "Op basis van deze theorie neemt een bedrijf drie soorten beslissingen: <strong>hoeveel</strong> het produceert, <strong>of</strong> het bij een gegeven prijs nog produceert, en <strong>wanneer</strong> het beter stopt."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "De winst is maximaal waar MK = MO; dat is de optimale productiegrootte.",
+  "MO > MK: meer produceren. MK > MO: minder produceren.",
+  "Alleen het snijpunt in het stijgende deel van MK telt; die stijgende tak is de aanbodcurve van het bedrijf.",
+  "Met een tabel van TO en TK vind je het optimum waar TO − TK het grootst is.",
+  "Het break-evenpunt is de hoeveelheid met winst nul: constante kosten gedeeld door (prijs − variabele kost per stuk).",
+  "Winst = (prijs − GK) × hoeveelheid. In het optimum kan er toch verlies zijn.",
+  "Korte termijn: doorgaan zolang de prijs boven de gemiddelde variabele kost ligt.",
+  "Lange termijn: stoppen als de prijs onder de gemiddelde kost blijft liggen."
+ ]
+}

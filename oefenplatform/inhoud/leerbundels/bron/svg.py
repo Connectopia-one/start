@@ -5327,3 +5327,207 @@ def stralingsbalans(breedte=470):
         d.append(_tekst(x0 + b / 2, 220,
                         "kaatst veel terug" if terug > op else "neemt veel warmte op", 9, DIM))
     return _svg(breedte, h, "".join(d))
+
+
+# ──────────────────────────────────── economie
+
+def _as_vlak(breedte, hoogte, xlabel, ylabel, links=44, onder=36, boven=18, rechts=16):
+    """Twee assen met een label eraan. Geeft (lijst, x(), y()) terug.
+
+    De labels staan buiten het vlak: dat van de zij-as bovenaan, dat van de
+    onderas rechts, zodat ze nooit over een curve komen.
+    """
+    b, h = breedte - links - rechts, hoogte - onder - boven
+    def x(v):
+        return links + v / 10 * b
+    def y(v):
+        return hoogte - onder - v / 10 * h
+    d = [f'<line x1="{links}" y1="{boven-4}" x2="{links}" y2="{hoogte-onder}" stroke="{INK}" stroke-width="1.8"/>',
+         f'<line x1="{links}" y1="{hoogte-onder}" x2="{breedte-rechts+4}" y2="{hoogte-onder}" stroke="{INK}" stroke-width="1.8"/>',
+         _tekst(links - 2, boven - 6, ylabel, 10.5, DIM, "start", True),
+         _tekst(breedte - rechts + 4, hoogte - onder + 16, xlabel, 10.5, DIM, "end", True)]
+    return d, x, y
+
+
+def marktevenwicht(breedte=430, verschuiving=None, xlabel="hoeveelheid", ylabel="prijs"):
+    """De vraag- en de aanbodcurve met hun snijpunt.
+
+    verschuiving kan "vraag rechts", "vraag links", "aanbod rechts" of
+    "aanbod links" zijn. De verschoven curve komt er in stippellijn bij, met
+    het nieuwe snijpunt erbij getekend.
+    """
+    hoogte = 250
+    d, x, y = _as_vlak(breedte, hoogte, xlabel, ylabel)
+
+    def lijn(p1, p2, kleur, stip=False, dik=2.2):
+        s = ' stroke-dasharray="6 4"' if stip else ""
+        d.append(f'<line x1="{x(p1[0]):.1f}" y1="{y(p1[1]):.1f}" x2="{x(p2[0]):.1f}" '
+                 f'y2="{y(p2[1]):.1f}" stroke="{kleur}" stroke-width="{dik}"{s}/>')
+
+    def punt(q, p, label):
+        d.append(f'<line x1="{x(0):.1f}" y1="{y(p):.1f}" x2="{x(q):.1f}" y2="{y(p):.1f}" '
+                 f'stroke="{DIM}" stroke-width="1" stroke-dasharray="3 3"/>')
+        d.append(f'<line x1="{x(q):.1f}" y1="{y(0):.1f}" x2="{x(q):.1f}" y2="{y(p):.1f}" '
+                 f'stroke="{DIM}" stroke-width="1" stroke-dasharray="3 3"/>')
+        d.append(f'<circle cx="{x(q):.1f}" cy="{y(p):.1f}" r="4" fill="{INK}"/>')
+        d.append(_tekst(x(q) + 7, y(p) - 7, label, 11, INK, "start", True))
+
+    # vraag: p = 10 - q, aanbod: p = q, snijpunt in (5, 5)
+    lijn((1, 9), (9, 1), FOREST)
+    lijn((1, 1), (9, 9), AMBER)
+    d.append(_tekst(x(9) + 6, y(1), "V", 12, FOREST, "start", True))
+    d.append(_tekst(x(9) + 6, y(9), "A", 12, AMBER, "start", True))
+    punt(5, 5, "E")
+
+    if verschuiving == "vraag rechts":
+        lijn((3, 9), (9, 3), FOREST, True)          # p = 12 - q
+        punt(6, 6, "E′")
+    elif verschuiving == "vraag links":
+        lijn((1, 7), (7, 1), FOREST, True)          # p = 8 - q
+        punt(4, 4, "E′")
+    elif verschuiving == "aanbod rechts":
+        lijn((3, 1), (9, 7), AMBER, True)           # p = q - 2
+        punt(6, 4, "E′")
+    elif verschuiving == "aanbod links":
+        lijn((1, 3), (7, 9), AMBER, True)           # p = q + 2
+        punt(4, 6, "E′")
+    return _svg(breedte, hoogte, "".join(d))
+
+
+def kostencurven(breedte=430):
+    """De gemiddelde totale kost, de gemiddelde variabele kost en de
+    marginale kost, met het snijpunt in het laagste punt van de GTK."""
+    hoogte = 250
+    d, x, y = _as_vlak(breedte, hoogte, "hoeveelheid", "kost per stuk")
+    # TK = 18 + 2q + 0,5q²  →  GTK = 18/q + 2 + 0,5q, GVK = 2 + 0,5q, MK = 2 + q
+    # GTK is het laagst bij q = 6, en MK snijdt ze daar: beide 8.
+    def reeks(f, van, tot):
+        pts = []
+        q = van
+        while q <= tot + 1e-9:
+            pts.append(f"{x(q):.1f},{y(f(q)):.1f}")
+            q += 0.25
+        return " ".join(pts)
+
+    gtk = lambda q: 18 / q + 2 + 0.5 * q
+    gvk = lambda q: 2 + 0.5 * q
+    mk = lambda q: 2 + q
+    # de y-as loopt tot 10, dus GTK start pas waar ze daaronder zakt (q ≈ 2,6)
+    d.append(f'<polyline points="{reeks(gtk, 2.75, 9.5)}" fill="none" stroke="{FOREST}" stroke-width="2.2"/>')
+    d.append(f'<polyline points="{reeks(gvk, 1, 9.5)}" fill="none" stroke="{DIM}" stroke-width="1.8" stroke-dasharray="6 4"/>')
+    d.append(f'<polyline points="{reeks(mk, 1, 8)}" fill="none" stroke="{AMBER}" stroke-width="2.2"/>')
+    d.append(_tekst(x(9.5) + 4, y(gtk(9.5)), "GTK", 10.5, FOREST, "start", True))
+    d.append(_tekst(x(9.5) + 4, y(gvk(9.5)), "GVK", 10.5, DIM, "start", True))
+    d.append(_tekst(x(8) + 4, y(mk(8)) - 8, "MK", 10.5, AMBER, "start", True))
+    d.append(f'<circle cx="{x(6):.1f}" cy="{y(8):.1f}" r="4" fill="{INK}"/>')
+    d.append(f'<line x1="{x(6):.1f}" y1="{y(0):.1f}" x2="{x(6):.1f}" y2="{y(8):.1f}" '
+             f'stroke="{DIM}" stroke-width="1" stroke-dasharray="3 3"/>')
+    return _svg(breedte, hoogte, "".join(d))
+
+
+def budgetlijn(breedte=430):
+    """Een budgetlijn met één indifferentiecurve die ze net raakt."""
+    hoogte = 250
+    d, x, y = _as_vlak(breedte, hoogte, "goed B", "goed A")
+    # budgetlijn: A + B = 8, indifferentiecurve: A·B = 16, raakpunt in (4, 4)
+    d.append(f'<line x1="{x(0):.1f}" y1="{y(8):.1f}" x2="{x(8):.1f}" y2="{y(0):.1f}" '
+             f'stroke="{FOREST}" stroke-width="2.2"/>')
+    pts = []
+    b = 2.0
+    while b <= 8.0 + 1e-9:
+        pts.append(f"{x(b):.1f},{y(16 / b):.1f}")
+        b += 0.2
+    d.append(f'<polyline points="{" ".join(pts)}" fill="none" stroke="{AMBER}" stroke-width="2.2"/>')
+    d.append(f'<circle cx="{x(4):.1f}" cy="{y(4):.1f}" r="4" fill="{INK}"/>')
+    d.append(_tekst(x(4) + 8, y(4) - 8, "raakpunt", 10.5, INK, "start", True))
+    d.append(_tekst(x(8) + 6, y(0) + 2, "budgetlijn", 10, FOREST, "start", True))
+    d.append(_tekst(x(8) + 6, y(2), "IC", 10.5, AMBER, "start", True))
+    return _svg(breedte, hoogte, "".join(d))
+
+
+def balansschema(actief, passief, breedte=470):
+    """Een balans in T-vorm. actief en passief zijn lijsten van regels;
+    een regel die met - begint, wordt als onderverdeling gezet."""
+    kolom = (breedte - 10) / 2
+    regels = max(len(actief), len(passief))
+    h = 40 + regels * 19 + 10
+    d = [f'<rect x="0" y="0" width="{kolom:.1f}" height="{h}" rx="8" fill="#ffffff" stroke="{DARK}" stroke-width="1.6"/>',
+         f'<rect x="{kolom+10:.1f}" y="0" width="{kolom:.1f}" height="{h}" rx="8" fill="#ffffff" stroke="{DARK}" stroke-width="1.6"/>',
+         f'<rect x="0" y="0" width="{kolom:.1f}" height="26" rx="8" fill="{FOREST}"/>',
+         f'<rect x="{kolom+10:.1f}" y="0" width="{kolom:.1f}" height="26" rx="8" fill="{AMBER}"/>',
+         _tekst(kolom / 2, 17, "ACTIEF", 11, "#ffffff", "middle", True),
+         _tekst(kolom + 10 + kolom / 2, 17, "PASSIEF", 11, "#ffffff", "middle", True)]
+    for i, r in enumerate(actief):
+        onder = r.startswith("-")
+        d.append(_tekst(14 + (12 if onder else 0), 46 + i * 19, r.lstrip("- "),
+                        10.5 if onder else 11, DIM if onder else DARK, "start", not onder))
+    for i, r in enumerate(passief):
+        onder = r.startswith("-")
+        d.append(_tekst(kolom + 24 + (12 if onder else 0), 46 + i * 19, r.lstrip("- "),
+                        10.5 if onder else 11, DIM if onder else DARK, "start", not onder))
+    return _svg(breedte, h, "".join(d))
+
+
+def levenscyclus(breedte=470):
+    """De productlevenscyclus: de verkoop van de ontwikkeling tot de neergang."""
+    hoogte = 230
+    links, onder, boven = 44, 46, 18
+    b, h = breedte - links - 16, hoogte - onder - boven
+    def x(v):
+        return links + v / 10 * b
+    def y(v):
+        return hoogte - onder - v / 10 * h
+    d = [f'<line x1="{links}" y1="{boven-4}" x2="{links}" y2="{hoogte-onder}" stroke="{INK}" stroke-width="1.8"/>',
+         f'<line x1="{links}" y1="{hoogte-onder}" x2="{breedte-12}" y2="{hoogte-onder}" stroke="{INK}" stroke-width="1.8"/>',
+         _tekst(links - 2, boven - 6, "verkoop", 10.5, DIM, "start", True),
+         _tekst(breedte - 12, hoogte - onder + 16, "tijd", 10.5, DIM, "end", True)]
+    punten = [(0, 0), (1.4, 0), (2.4, 1.2), (3.6, 4.2), (5, 7.6), (6.4, 8.6),
+              (7.6, 8.4), (8.6, 6.2), (9.6, 3.4)]
+    pts = " ".join(f"{x(q):.1f},{y(p):.1f}" for q, p in punten)
+    d.append(f'<polyline points="{pts}" fill="none" stroke="{FOREST}" stroke-width="2.4"/>')
+    fases = [(0.7, "ontwikkeling"), (2.4, "introductie"), (4.4, "groei"),
+             (7.0, "volwassen"), (9.1, "neergang")]
+    for q, naam in fases:
+        d.append(f'<line x1="{x(q)+ (0 if q==0.7 else 0):.1f}" y1="{y(0):.1f}" '
+                 f'x2="{x(q):.1f}" y2="{y(9.4):.1f}" stroke="{BORDER}" stroke-width="1"/>')
+        d.append(_tekst(x(q), hoogte - onder + 18, naam, 9.5, DIM, "middle", False))
+    return _svg(breedte, hoogte, "".join(d))
+
+
+def swotvakken(sterk, zwak, kansen, bedreigingen, breedte=470):
+    """De vier vakken van een SWOT, met per vak enkele voorbeelden."""
+    kolom = (breedte - 10) / 2
+    regels = max(len(sterk), len(zwak), len(kansen), len(bedreigingen))
+    vh = 34 + regels * 17 + 8
+    h = vh * 2 + 10
+    d = []
+    vakken = [(0, 0, "Sterktes", sterk, FOREST), (kolom + 10, 0, "Zwaktes", zwak, AMBER),
+              (0, vh + 10, "Kansen", kansen, FOREST), (kolom + 10, vh + 10, "Bedreigingen", bedreigingen, AMBER)]
+    for vx, vy, kop, regels_, kleur in vakken:
+        d.append(f'<rect x="{vx:.1f}" y="{vy}" width="{kolom:.1f}" height="{vh}" rx="8" '
+                 f'fill="#ffffff" stroke="{kleur}" stroke-width="1.6"/>')
+        d.append(_tekst(vx + 12, vy + 19, kop, 11.5, kleur, "start", True))
+        for i, r in enumerate(regels_):
+            d.append(_tekst(vx + 12, vy + 38 + i * 17, "· " + r, 10.5, DIM, "start", False))
+    d.append(_tekst(kolom / 2, h - 2, "binnen het bedrijf", 9.5, DIM, "middle", False))
+    d.append(_tekst(kolom + 10 + kolom / 2, h - 2, "buiten het bedrijf", 9.5, DIM, "middle", False))
+    return _svg(breedte, h + 6, "".join(d))
+
+
+def indifferentiemap(breedte=430, aantal=3):
+    """Enkele indifferentiecurven van één consument, bol naar de oorsprong."""
+    hoogte = 250
+    d, x, y = _as_vlak(breedte, hoogte, "goed B", "goed A")
+    for i in range(aantal):
+        k = 9.0 + i * 12.0            # A·B = k, dus hoe groter k, hoe verder weg
+        pts = []
+        b = 1.2
+        while b <= 9.4 + 1e-9:
+            a = k / b
+            if 0.6 <= a <= 9.4:
+                pts.append(f"{x(b):.1f},{y(a):.1f}")
+            b += 0.2
+        kleur = [AMBER, FOREST, DARK][i % 3]
+        d.append(f'<polyline points="{" ".join(pts)}" fill="none" stroke="{kleur}" stroke-width="2.1"/>')
+        d.append(_tekst(x(9.4) + 5, y(k / 9.4), f"IC{i+1}", 10, kleur, "start", True))
+    return _svg(breedte, hoogte, "".join(d))

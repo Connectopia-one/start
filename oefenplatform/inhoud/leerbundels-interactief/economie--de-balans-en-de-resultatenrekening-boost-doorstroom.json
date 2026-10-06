@@ -1,0 +1,99 @@
+{
+ "vak": "Economie",
+ "titel": "De balans en de resultatenrekening",
+ "onder": "Een foto van één dag naast de film van een heel jaar.",
+ "secties": [
+  {
+   "kop": "De balans: actief en passief",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>balans</strong> is een <strong>foto op één bepaalde dag</strong>, meestal 31 december. Links staat het <strong>actief</strong>: alles wat de onderneming <strong>bezit</strong>. Rechts staat het <strong>passief</strong>: de <strong>financiering</strong>, dus waar het geld vandaan komt."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 470 202\" width=\"470\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"0\" y=\"0\" width=\"230.0\" height=\"202\" rx=\"8\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.6\"/><rect x=\"240.0\" y=\"0\" width=\"230.0\" height=\"202\" rx=\"8\" fill=\"#ffffff\" stroke=\"#234539\" stroke-width=\"1.6\"/><rect x=\"0\" y=\"0\" width=\"230.0\" height=\"26\" rx=\"8\" fill=\"#2f5d50\"/><rect x=\"240.0\" y=\"0\" width=\"230.0\" height=\"26\" rx=\"8\" fill=\"#c17f2b\"/><text x=\"115.0\" y=\"17.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#ffffff\">ACTIEF</text><text x=\"355.0\" y=\"17.0\" text-anchor=\"middle\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#ffffff\">PASSIEF</text><text x=\"14.0\" y=\"46.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">Vaste activa</text><text x=\"26.0\" y=\"65.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">immaterieel (software)</text><text x=\"26.0\" y=\"84.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">materieel (gebouw, machine)</text><text x=\"26.0\" y=\"103.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">financieel</text><text x=\"14.0\" y=\"122.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">Vlottende activa</text><text x=\"26.0\" y=\"141.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">voorraden</text><text x=\"26.0\" y=\"160.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">handelsvorderingen</text><text x=\"26.0\" y=\"179.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">liquide middelen</text><text x=\"254.0\" y=\"46.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">Eigen vermogen</text><text x=\"266.0\" y=\"65.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">kapitaal</text><text x=\"266.0\" y=\"84.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">reserves</text><text x=\"266.0\" y=\"103.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">overgedragen resultaat</text><text x=\"254.0\" y=\"122.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">Schulden > 1 jaar</text><text x=\"266.0\" y=\"141.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">lening op lange termijn</text><text x=\"254.0\" y=\"160.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"11\" font-weight=\"600\" fill=\"#234539\">Schulden ≤ 1 jaar</text><text x=\"266.0\" y=\"179.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" fill=\"#6b7260\">leveranciers, btw, lonen</text></svg>",
+     "onderschrift": "De twee kanten van een balans, met hun onderverdelingen."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>totaal van het actief is altijd gelijk aan het totaal van het passief</strong>. Dat komt niet van een afspraak maar van de logica: achter <strong>elk bezit zit een bron</strong> — eigen inbreng, winst of schuld. Daarom heet het een balans."
+    },
+    {
+     "soort": "kader",
+     "html": "Daaruit volgen twee rekenregels: <strong>actief = eigen vermogen + schulden</strong>, en dus <strong>eigen vermogen = actief &minus; schulden</strong>. Met 150 000 euro actief en 60 000 euro eigen vermogen zijn er <strong>90 000 euro</strong> schulden; met 200 000 euro actief en 120 000 euro schulden is het eigen vermogen <strong>80 000 euro</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Wat waar staat",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Vaste activa</strong> blijven <strong>langer dan een jaar</strong> in de onderneming: een gebouw, een machine, een bestelwagen. Een <strong>immaterieel</strong> vast actief kan je niet aanraken en is toch jaren bruikbaar, zoals een <strong>softwarelicentie</strong> of een octrooi. <strong>Vlottende activa</strong> veranderen snel: de <strong>voorraad</strong>, de <strong>handelsvorderingen</strong> (geld dat een klant nog moet betalen) en de <strong>liquide middelen</strong> (geld in kas en op de bank). Een machine hoort dus <strong>niet</strong> bij de vlottende activa."
+    },
+    {
+     "soort": "tekst",
+     "html": "Aan de passiefzijde staan het <strong>eigen vermogen</strong> — wat de eigenaars inbrachten plus de winst die in de zaak gebleven is, en wat niet terugbetaald moet worden — en de <strong>schulden</strong>, opgesplitst volgens <strong>looptijd</strong>. Een lening op tien jaar staat bij de schulden op <strong>meer dan één jaar</strong>; te betalen <strong>leveranciers, btw en lonen</strong> bij de schulden op <strong>ten hoogste één jaar</strong>. Het <strong>kapitaal</strong> is dus geen bezit maar financiering: het staat <strong>rechts</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De resultatenrekening",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>resultatenrekening</strong> zet de <strong>kosten en de opbrengsten</strong> van een <strong>hele periode</strong> naast elkaar, meestal een boekjaar. Ze geldt dus <strong>niet</strong> voor één dag; dat is net de balans. Samen vormen de twee de jaarrekening."
+    },
+    {
+     "soort": "tekst",
+     "html": "Ze werkt in <strong>stappen</strong>:"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">stap</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">hoe je ze berekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>bedrijfsresultaat</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bedrijfsopbrengsten &minus; bedrijfskosten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>financieel resultaat</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">financiële opbrengsten &minus; financiële kosten</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>resultaat voor belastingen</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de twee vorige samen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>resultaat van het boekjaar</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">resultaat voor belastingen &minus; de belastingen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Bedrijfsopbrengsten en -kosten</strong> komen uit de gewone werking: de <strong>omzet</strong> is een bedrijfsopbrengst, en de aankoop van handelsgoederen, de <strong>lonen</strong> en de <strong>afschrijvingen</strong> zijn bedrijfskosten. Alles wat met <strong>lenen en beleggen</strong> te maken heeft, hoort bij het financieel resultaat: de intrest die je <strong>betaalt</strong>, de intrest die je <strong>ontvangt</strong>, een ontvangen dividend. Intrest op een lening is dus <strong>geen</strong> bedrijfskost."
+    },
+    {
+     "soort": "kader",
+     "html": "Rekenen met de stappen: 500 000 euro bedrijfsopbrengsten en 440 000 euro bedrijfskosten geven een bedrijfsresultaat van <strong>60 000 euro winst</strong>. Met een financieel resultaat van 10 000 euro negatief is het resultaat voor belastingen <strong>50 000 euro</strong>. Daarvan 25 % belasting is 12 500 euro, dus blijft er <strong>37 500 euro</strong> over."
+    },
+    {
+     "soort": "tekst",
+     "html": "Een onderneming maakt <strong>verlies</strong> zodra de <strong>kosten hoger</strong> zijn dan de opbrengsten. Een stijgende omzet met nog sneller stijgende kosten geeft dus nog altijd verlies."
+    }
+   ]
+  },
+  {
+   "kop": "Afschrijvingen en wat je eruit leest",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Een <strong>afschrijving</strong> <strong>spreidt de kost</strong> van een machine <strong>over de jaren</strong> waarin ze meegaat. Het is een <strong>kost</strong>, ook al vertrekt er dat jaar <strong>geen geld</strong>: het geld ging eruit bij de aankoop. Zo staat de kost in hetzelfde jaar als de opbrengst die ze helpt maken."
+    },
+    {
+     "soort": "tekst",
+     "html": "Uit een resultatenrekening lees je of er <strong>winst</strong> gemaakt is, <strong>waar de grootste kosten</strong> zitten en <strong>hoe zwaar de intresten</strong> wegen. Hoeveel <strong>klanten</strong> er in de winkel kwamen, staat er niet in."
+    },
+    {
+     "soort": "weetje",
+     "html": "In het <strong>MAR</strong>, het minimum algemeen rekeningstelsel, zijn de <strong>kosten klasse 6</strong> en de <strong>opbrengsten klasse 7</strong>. Die twee klassen vormen samen de resultatenrekening; de klassen 1 tot 5 vormen de balans."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "De balans is een foto op één dag: links het actief (bezittingen), rechts het passief (financiering).",
+  "Actief = eigen vermogen + schulden, dus eigen vermogen = actief − schulden.",
+  "Vaste activa blijven langer dan een jaar; vlottende activa zijn voorraden, vorderingen en geld.",
+  "Schulden staan op het passief, opgesplitst in meer en ten hoogste één jaar. Kapitaal staat ook rechts.",
+  "De resultatenrekening gaat over een periode en werkt in stappen.",
+  "Bedrijfsresultaat, dan financieel resultaat, samen het resultaat voor belastingen, en daarna na belastingen.",
+  "Intrest is een financiële kost, geen bedrijfskost.",
+  "Een afschrijving is een kost zonder dat er dat jaar geld vertrekt.",
+  "In het MAR zijn de kosten klasse 6 en de opbrengsten klasse 7."
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "vak": "Economie",
+ "titel": "Economische groei, welvaart en welzijn",
+ "onder": "Waar groei vandaan komt, wat ze oplevert, en waarom welvaart en welzijn niet hetzelfde zijn.",
+ "secties": [
+  {
+   "kop": "Wat is economische groei?",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Economische groei</strong> is een <strong>stijging van het reële bbp</strong>. Reëel, want een stijging die enkel van hogere prijzen komt, is geen groei. Stijgt het reële bbp vijf jaar na elkaar met 2 %, dan wordt er elk jaar <strong>meer</strong> geproduceerd dan het jaar ervoor, en komt er dus elk jaar iets bij."
+    }
+   ]
+  },
+  {
+   "kop": "Waar groei vandaan komt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Er zijn vijf oorzaken die je moet kunnen noemen:"
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">oorzaak</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het betekent</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>arbeidsproductiviteit</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de productie per werknemer stijgt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>kapitaalvorming</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">investeren in machines en gebouwen om later meer te kunnen produceren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>technologische ontwikkeling</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">nieuwe machines en methodes</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>menselijk kapitaal</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de kennis en de vaardigheden van de mensen in een land</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>bevolkingsgroei</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">meer handen aan het werk</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Arbeidsproductiviteit</strong> is de productie <strong>per werknemer</strong>. Bakt een bakkerij met 4 werknemers eerst 800 en na een nieuwe oven 1 000 broden per dag, dan is de <strong>productiviteit gestegen</strong>, niet het aantal mensen. Omgekeerd: een stijging van de arbeidsproductiviteit betekent dus <strong>niet</strong> dat er meer mensen werken."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Onderwijs</strong> is een oorzaak van groei omdat het het menselijk kapitaal verhoogt: mensen die meer kunnen, produceren meer per uur. Een land dat zwaar investeert in <strong>internetverbindingen en opleidingen</strong>, zet daarmee twee oorzaken in: <strong>kapitaalvorming</strong> en <strong>menselijk kapitaal</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Investeren</strong> kost vandaag geld en levert pas later meer productie op. Een land dat veel <strong>spaart</strong>, kan daarmee ook meer investeren: het spaargeld van de gezinnen is wat de bedrijven lenen. Koopt een bedrijf robots en ontslaat het niemand, dan is het meest waarschijnlijke gevolg dat het <strong>meer produceert met dezelfde mensen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Groei kan niet eindeloos uit <strong>bevolkingsgroei alleen</strong> komen: komen er even veel mensen bij als er productie bijkomt, dan blijft het bbp <strong>per inwoner</strong> gelijk. Stijgt het bbp door bevolkingsgroei, dan gaat dus niet automatisch elke inwoner erop vooruit. Een regering die de groei wil aanzwengelen, mikt daarom het best op <strong>productiviteit</strong>: opleiding, onderzoek en investeringen."
+    }
+   ]
+  },
+  {
+   "kop": "Welvaart en welzijn",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Welvaart</strong> is de mate waarin je met de beschikbare middelen je behoeften kan voldoen: het gaat over <strong>goederen en diensten</strong>, en je kan ze in geld uitdrukken. <strong>Welzijn</strong> is breder: hoe <strong>goed</strong> iemand zich voelt, met zijn gezondheid, zijn vrije tijd, zijn omgeving en zijn veiligheid erbij. Het zijn dus <strong>geen synoniemen</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom gebruiken economen naast het bbp ook <strong>andere maatstaven</strong>: cijfers over gezondheid, onderwijs, ongelijkheid en milieu. Een hoog bbp per capita is <strong>geen waarborg</strong> dat een land ook hoog scoort op gezondheid of onderwijs, en het <strong>bbp per capita zegt niets over de verdeling</strong>: één gemiddelde kan een heel gelijke en een heel ongelijke samenleving beschrijven."
+    },
+    {
+     "soort": "kader",
+     "html": "Zaken die het <strong>welzijn verhogen maar niet in het bbp komen</strong>: vrije tijd, een gezonde leefomgeving, vrijwilligerswerk, mantelzorg, veiligheid op straat."
+    }
+   ]
+  },
+  {
+   "kop": "Wat groei oplevert, en wat ze kost",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Groei kan <strong>werk</strong> opleveren, <strong>hogere inkomens</strong>, en meer belastinginkomsten waarmee de overheid scholen en zorg betaalt. Het meest genoemde <strong>negatieve</strong> effect is de <strong>belasting van het milieu</strong>: meer productie betekent vaak meer uitstoot, afval en grondstofgebruik."
+    },
+    {
+     "soort": "tekst",
+     "html": "Stijgt het bbp van een land sterk terwijl de lucht in de steden slechter wordt, dan kan je besluiten dat de <strong>welvaart stijgt en het welzijn daalt</strong>. Werkt een land minder uren en houdt het meer vrije tijd over, waardoor het bbp licht daalt, dan is dat <strong>niet noodzakelijk slechter</strong>: het bbp daalt, het welzijn kan stijgen. En groei leidt er niet altijd toe dat <strong>iedereen</strong> erop vooruitgaat; dat hangt van de verdeling af."
+    }
+   ]
+  },
+  {
+   "kop": "Hoe welvaart verdeeld wordt",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>primaire inkomensverdeling</strong> is de verdeling van de productie onder de productiefactoren: <strong>loon, intrest, pacht en winst</strong>. Dat is de verdeling zoals ze uit de markt komt, vóór de overheid iets doet."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarna <strong>herverdeelt</strong> de overheid: ze heft <strong>belastingen</strong> volgens draagkracht, betaalt <strong>uitkeringen</strong> en levert <strong>diensten</strong> zoals onderwijs en gezondheidszorg die iedereen kan gebruiken."
+    }
+   ]
+  },
+  {
+   "kop": "Schaarste en duurzame groei",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Schaarste</strong> is het verschijnsel dat de middelen beperkt zijn tegenover de behoeften. Het is het <strong>uitgangspunt van heel de economie</strong>: was er van alles genoeg, dan hoefde niemand te kiezen en bestond er geen economische vraag."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>Duurzame groei</strong> is groei die ook <strong>rekening houdt met de generaties na ons</strong>: ze gebruikt grondstoffen en milieu niet sneller op dan ze zich herstellen. Een gezin dat een duurdere wasmachine kiest die minder energie verbruikt, denkt op die manier: het betaalt vandaag meer om later minder te verbruiken."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Economische groei is een stijging van het reële bbp.",
+  "De oorzaken: arbeidsproductiviteit, kapitaalvorming, technologie, menselijk kapitaal en bevolkingsgroei.",
+  "Arbeidsproductiviteit is de productie per werknemer, niet het aantal werknemers.",
+  "Groei uit bevolkingsgroei alleen laat het bbp per inwoner gelijk.",
+  "Welvaart gaat over goederen en diensten, welzijn over hoe goed iemand het heeft.",
+  "Het bbp per capita zegt niets over de verdeling, het milieu of onbetaald werk.",
+  "De primaire inkomensverdeling is loon, intrest, pacht en winst; daarna herverdeelt de overheid.",
+  "Duurzame groei houdt rekening met de generaties na ons."
+ ]
+}

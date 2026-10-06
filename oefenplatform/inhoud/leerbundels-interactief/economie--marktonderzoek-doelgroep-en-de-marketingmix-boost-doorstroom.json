@@ -1,0 +1,86 @@
+{
+ "vak": "Economie",
+ "titel": "Marktonderzoek, doelgroep en de marketingmix",
+ "onder": "Eerst weten voor wie je werkt, dan de vier P's — en dezelfde vier door de ogen van de klant.",
+ "secties": [
+  {
+   "kop": "Marktonderzoek",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "Het doel van een <strong>marktonderzoek</strong> is de <strong>markt leren kennen</strong>: wie de klanten zijn, wat ze willen, wat ze willen betalen en wat de concurrenten doen. Zo kan een bedrijf beslissen met minder gokwerk. Je doet het dus <strong>vóór</strong> je een nieuw product start, niet nadat het gefaald is."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">indeling</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">soort</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat het is</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">naar <strong>herkomst</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>primair</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het bedrijf verzamelt de gegevens <strong>zelf</strong>: een enquête, een gesprek, een test in de winkel</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>secundair</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">het gebruikt gegevens die <strong>al bestaan</strong>: cijfers van de overheid, een rapport van een studiebureau, een artikel in een vakblad</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">naar <strong>soort gegeven</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>kwantitatief</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met <strong>cijfers</strong>: hoeveel, hoeveel procent, een enquête bij duizend mensen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>kwalitatief</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">met <strong>waarom</strong>: een diepte-interview, een groepsgesprek</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De twee indelingen staan los van elkaar: een eigen enquête bij vijftig klanten met een cijfer van 1 tot 10 is <strong>primair én kwantitatief</strong>. En primair onderzoek is meestal <strong>duurder</strong> dan secundair, niet goedkoper: het bedrijf moet alles zelf opzetten."
+    }
+   ]
+  },
+  {
+   "kop": "Segmentatie en doelgroep",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "<strong>Marktsegmentatie</strong> is de markt <strong>in groepen delen</strong> die op elkaar lijken. Dat kan op <strong>leeftijd</strong>, gezinssamenstelling, <strong>woonplaats</strong>, inkomen, <strong>levensstijl</strong> of gedrag — op kenmerken van <strong>mensen</strong> dus, niet op de verpakking die het bedrijf zelf kiest."
+    },
+    {
+     "soort": "tekst",
+     "html": "Uit die segmenten kiest het bedrijf er één of enkele: dat is de <strong>doelgroep</strong>, de groep die het wil bereiken. Een merk dat schoenen maakt <strong>speciaal voor lopers</strong>, doet precies dat."
+    },
+    {
+     "soort": "tekst",
+     "html": "Waarom kiezen? Omdat de <strong>boodschap</strong> dan beter past, het <strong>reclamegeld</strong> meer rendeert en het <strong>product</strong> beter aansluit. Wie géén doelgroep kiest, maakt een boodschap voor iedereen, en die <strong>raakt niemand echt</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "B2B, B2C, C2C en C2B",
+   "blokken": [
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">afkorting</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">van wie naar wie</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">voorbeeld</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>B2B</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bedrijf aan bedrijf</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een groothandel levert aan een winkel; een drukkerij print voor een school</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>B2C</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">bedrijf aan consument</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een bakker verkoopt brood aan een gezin; een webshop verkoopt kleren</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>C2C</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">consument aan consument</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">een tweedehandsplatform</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>C2B</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">consument aan bedrijf</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">iemand verkoopt zijn foto's of zijn mening aan een bedrijf</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "Let op de richting: <strong>C2B is niet hetzelfde als B2C</strong>. En of een verkoop in een winkel of online gebeurt, verandert de soort <strong>niet</strong>: een webshop die aan gezinnen verkoopt, blijft <strong>B2C</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De marketingmix: vier P's en vier C's",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>marketingmix</strong> zijn de vier knoppen waaraan een bedrijf draait. Eerst kiest het zijn <strong>strategie</strong> — doelgroep en eigen plaats in de markt — en pas <strong>daarna</strong> de mix, want <strong>de mix volgt uit die keuzes</strong>."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de vier P's</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">wat eronder valt</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">de vier C's</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>product</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat je aanbiedt, met kwaliteit, merk en verpakking</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>customer value</strong>: wat het de klant waard is</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>prijs</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">wat het kost en welke strategie daarachter zit</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>cost</strong>: wat het de klant kost, ook in tijd en verplaatsing</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>plaats</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">de winkel, de webshop, de levering aan huis</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>convenience</strong>: hoe makkelijk de klant eraan komt</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>promotie</strong></td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">reclame, sociale media, een actie in de winkel</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\"><strong>communication</strong>: een gesprek in twee richtingen</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>vier C's</strong> zijn dezelfde mix, maar <strong>door de ogen van de klant</strong>. Dat helpt een bedrijf om niet enkel aan zijn eigen product te denken. Het verschil met promotie is tekenend: <strong>promotie</strong> vertrekt van het bedrijf dat zendt, <strong>communication</strong> van een gesprek waarin de klant ook antwoordt."
+    },
+    {
+     "soort": "tekst",
+     "html": "Pas op met de grenzen tussen de P's: de <strong>ligging</strong> van de winkel hoort bij <strong>plaats</strong> en niet bij promotie, en de <strong>prijs per stuk</strong> is een eigen P. <strong>Personeel</strong> hoort niet bij deze vier."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Een marktonderzoek leert de markt kennen; je doet het vóór je start.",
+  "Primair = zelf verzamelen, secundair = bestaande gegevens gebruiken.",
+  "Kwantitatief werkt met cijfers, kwalitatief met het waarom.",
+  "Marktsegmentatie deelt de markt in groepen; de gekozen groep is de doelgroep.",
+  "Zonder doelgroep raakt de boodschap niemand echt.",
+  "B2B bedrijf aan bedrijf, B2C bedrijf aan consument, C2C tussen consumenten, C2B consument aan bedrijf.",
+  "De vier P's: product, prijs, plaats en promotie.",
+  "De vier C's zijn dezelfde mix door de ogen van de klant: customer value, cost, convenience, communication.",
+  "Eerst de strategie, dan de mix."
+ ]
+}

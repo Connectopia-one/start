@@ -1,0 +1,98 @@
+{
+ "vak": "Economie",
+ "titel": "De kosten- en de opbrengstencurven",
+ "onder": "Constant en variabel, totaal, gemiddeld en marginaal — en wat er bij volkomen concurrentie binnenkomt.",
+ "secties": [
+  {
+   "kop": "Constante en variabele kosten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>totale constante kosten TCK</strong> zijn de kosten die <strong>niet van de productie afhangen</strong>. Ze lopen door, <strong>ook als een bedrijf even niets produceert</strong>: huur, verzekering, afschrijvingen, het loon van de vaste boekhouder. De <strong>variabele</strong> kosten bewegen wel mee: grondstoffen, verpakking, energie voor de machines, uurlonen van tijdelijk personeel."
+    },
+    {
+     "soort": "kader",
+     "html": "<table style=\"width:100%;border-collapse:collapse;font-family:'IBM Plex Sans',sans-serif;font-size:10.5pt;text-align:left;\"><tr><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">constante kosten</th><th style=\"border:1px solid #e4ded0;background:rgba(47,93,80,.09);padding:6px 9px;color:#234539;font-weight:600;text-align:left;\">variabele kosten</th></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">huur van het gebouw</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">aankoop van grondstoffen</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verzekering</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">verpakking per stuk</td></tr><tr><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">afschrijving van de machines</td><td style=\"border:1px solid #e4ded0;padding:6px 9px;color:#23291f;\">energie van de machines</td></tr></table>"
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>totale kosten TK</strong> zijn de <strong>constante plus de variabele</strong> kosten. Een bedrijf met 2 000 euro constante kosten en 6 euro variabele kost per stuk heeft bij 500 stuks TK van 2 000 + 3 000 = <strong>5 000 euro</strong>. TK staat voor <strong>totale kosten</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Het <strong>onderscheid</strong> tussen beide soorten is belangrijk, want het zegt wat er gebeurt als de productie verandert. Wie zijn constante kosten kent, weet welk bedrag hij ook bij nul productie kwijt is, en dus hoeveel hij minstens moet verkopen om die te dekken. Een bakkerij met 1 500 euro huur per maand en 0,80 euro grondstof per brood heeft dus <strong>1 500 euro constante kosten</strong>, een <strong>variabele kost van 0,80 euro per brood</strong>, en ze betaalt die huur <strong>ook in een week zonder verkoop</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "Gemiddelde en marginale kosten",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>gemiddelde kost GK</strong> is de <strong>kost per stuk</strong>: TK gedeeld door de hoeveelheid. 5 000 euro totale kosten bij 500 stuks geeft een gemiddelde kost van <strong>10 euro</strong>. De <strong>gemiddelde variabele kost</strong> kort je af als <strong>GVK</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>marginale kost MK</strong> is de <strong>extra kost van één stuk meer</strong>. Het is dus <strong>niet</strong> het gemiddelde van alle stuks samen. Kost 100 stuks 1 200 euro en 101 stuks 1 209 euro, dan is MK van het 101ste stuk <strong>9 euro</strong>."
+    },
+    {
+     "soort": "figuur",
+     "html": "<svg viewBox=\"0 0 430 250\" width=\"430\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"44\" y1=\"14\" x2=\"44\" y2=\"214\" stroke=\"#23291f\" stroke-width=\"1.8\"/><line x1=\"44\" y1=\"214\" x2=\"418\" y2=\"214\" stroke=\"#23291f\" stroke-width=\"1.8\"/><text x=\"42.0\" y=\"12.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">kost per stuk</text><text x=\"418.0\" y=\"230.0\" text-anchor=\"end\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">hoeveelheid</text><polyline points=\"145.8,19.6 155.0,27.8 164.2,34.4 173.5,39.7 182.8,44.0 192.0,47.4 201.2,50.1 210.5,52.3 219.8,54.0 229.0,55.2 238.2,56.2 247.5,56.8 256.8,57.1 266.0,57.2 275.2,57.1 284.5,56.8 293.8,56.4 303.0,55.8 312.2,55.1 321.5,54.3 330.8,53.3 340.0,52.3 349.2,51.2 358.5,50.0 367.8,48.7 377.0,47.4 386.2,46.0 395.5,44.6\" fill=\"none\" stroke=\"#2f5d50\" stroke-width=\"2.2\"/><polyline points=\"81.0,165.0 90.2,162.6 99.5,160.1 108.8,157.7 118.0,155.2 127.2,152.8 136.5,150.3 145.8,147.8 155.0,145.4 164.2,142.9 173.5,140.5 182.8,138.1 192.0,135.6 201.2,133.2 210.5,130.7 219.8,128.2 229.0,125.8 238.2,123.3 247.5,120.9 256.8,118.5 266.0,116.0 275.2,113.6 284.5,111.1 293.8,108.7 303.0,106.2 312.2,103.8 321.5,101.3 330.8,98.8 340.0,96.4 349.2,93.9 358.5,91.5 367.8,89.1 377.0,86.6 386.2,84.2 395.5,81.7\" fill=\"none\" stroke=\"#6b7260\" stroke-width=\"1.8\" stroke-dasharray=\"6 4\"/><polyline points=\"81.0,155.2 90.2,150.3 99.5,145.4 108.8,140.5 118.0,135.6 127.2,130.7 136.5,125.8 145.8,120.9 155.0,116.0 164.2,111.1 173.5,106.2 182.8,101.3 192.0,96.4 201.2,91.5 210.5,86.6 219.8,81.7 229.0,76.8 238.2,71.9 247.5,67.0 256.8,62.1 266.0,57.2 275.2,52.3 284.5,47.4 293.8,42.5 303.0,37.6 312.2,32.7 321.5,27.8 330.8,22.9 340.0,18.0\" fill=\"none\" stroke=\"#c17f2b\" stroke-width=\"2.2\"/><text x=\"399.5\" y=\"44.6\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#2f5d50\">GTK</text><text x=\"399.5\" y=\"81.7\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#6b7260\">GVK</text><text x=\"344.0\" y=\"10.0\" text-anchor=\"start\" font-family=\"IBM Plex Sans,sans-serif\" font-size=\"10.5\" font-weight=\"600\" fill=\"#c17f2b\">MK</text><circle cx=\"266.0\" cy=\"57.2\" r=\"4\" fill=\"#23291f\"/><line x1=\"266.0\" y1=\"214.0\" x2=\"266.0\" y2=\"57.2\" stroke=\"#6b7260\" stroke-width=\"1\" stroke-dasharray=\"3 3\"/></svg>",
+     "onderschrift": "De gemiddelde totale kost, de gemiddelde variabele kost en de marginale kost."
+    },
+    {
+     "soort": "tekst",
+     "html": "De <strong>gemiddelde constante kost GCK</strong> <strong>daalt</strong> voortdurend als de productie stijgt: hetzelfde vaste bedrag wordt over meer stuks verdeeld. De <strong>GK-curve</strong> heeft daardoor de vorm van een <strong>U</strong>: eerst dalend, want de constante kost wordt uitgesmeerd, dan stijgend, want de variabele kost per stuk gaat omhoog."
+    },
+    {
+     "soort": "tekst",
+     "html": "<strong>MK stijgt vanaf een bepaald punt</strong>, en dat komt recht uit de wet van de afnemende meeropbrengsten: elke extra werknemer voegt minder toe dan de vorige, dus kost elk extra stuk meer. En onthoud de rekenregel tussen MK en GK: zolang <strong>MK onder GK</strong> ligt, <strong>daalt</strong> GK; ligt MK erboven, dan stijgt GK. De MK-curve snijdt de GK-curve dus precies in haar <strong>laagste punt</strong>."
+    }
+   ]
+  },
+  {
+   "kop": "De opbrengsten bij volkomen concurrentie",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>totale opbrengst TO</strong> is de <strong>prijs maal de hoeveelheid</strong>. 400 stuks aan 15 euro geeft een TO van <strong>6 000 euro</strong>. De <strong>gemiddelde opbrengst GO</strong> is de opbrengst per stuk, en de <strong>marginale opbrengst MO</strong> is wat er bijkomt door <strong>één stuk meer</strong> te verkopen. MO staat voor <strong>marginale opbrengst</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Bij <strong>volkomen concurrentie</strong> is een bedrijf te klein om de prijs te beïnvloeden: het moet de marktprijs aanvaarden. Daardoor is <strong>GO gelijk aan de prijs</strong> — elk stuk brengt hetzelfde op — en is <strong>MO óók gelijk aan de prijs</strong>. Een landbouwer die aardappelen op de wereldmarkt verkoopt aan 0,35 euro per kilo heeft bij de duizendste kilo dus een MO van <strong>0,35 euro</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daaruit volgt de vorm van de curven: <strong>TO</strong> is een <strong>rechte stijgende</strong> lijn door de oorsprong, en <strong>MO</strong> een <strong>horizontale</strong> lijn op de hoogte van de prijs. En wie bij volkomen concurrentie meer wil verkopen, hoeft zijn prijs <strong>niet</strong> te verlagen: hij kan aan de marktprijs alles kwijt wat hij maakt."
+    }
+   ]
+  },
+  {
+   "kop": "Van kosten en opbrengsten naar winst",
+   "blokken": [
+    {
+     "soort": "tekst",
+     "html": "De <strong>totale winst</strong> kort je af als <strong>TW</strong>, en ze is <strong>TO min TK</strong>. Een bedrijf met 8 000 euro TO en 7 200 euro TK maakt dus <strong>800 euro winst</strong>. Een bedrijf maakt <strong>verlies</strong> zodra de <strong>totale kosten hoger zijn dan de totale opbrengst</strong>; een hoge totale opbrengst is dus <strong>geen</strong> waarborg voor winst."
+    },
+    {
+     "soort": "tekst",
+     "html": "Om de winst bij een bepaalde hoeveelheid te berekenen, heb je <strong>drie</strong> gegevens nodig: de <strong>prijs</strong>, de <strong>hoeveelheid</strong> en de <strong>totale kosten</strong> (of de constante en variabele kosten waaruit je die berekent). Voorbeeld: 250 stuks aan 20 euro geeft TO = 5 000 euro; met 3 000 euro constante kosten en 10 euro variabele kost per stuk is TK = 3 000 + 2 500 = 5 500 euro, dus een <strong>verlies van 500 euro</strong>."
+    },
+    {
+     "soort": "tekst",
+     "html": "Daarom tekent men de kosten- en de opbrengstencurven in <strong>dezelfde grafiek</strong>: zo zie je in één blik bij welke hoeveelheden de opbrengst boven de kosten ligt, en waar het verschil het grootst is. Ligt de prijs <strong>precies op de laagste gemiddelde kost</strong>, dan maakt het bedrijf <strong>geen winst en geen verlies</strong>."
+    }
+   ]
+  }
+ ],
+ "onthoud": [
+  "Constante kosten lopen door bij nul productie; variabele kosten bewegen mee met de productie.",
+  "TK = constante kosten + variabele kosten. GK is TK per stuk.",
+  "MK is de extra kost van één stuk meer, niet een gemiddelde.",
+  "GCK daalt altijd; de GK-curve heeft de vorm van een U.",
+  "Zolang MK onder GK ligt, daalt GK; MK snijdt GK in haar laagste punt.",
+  "TO is prijs maal hoeveelheid; bij volkomen concurrentie zijn GO en MO gelijk aan de prijs.",
+  "TO is dan een rechte door de oorsprong en MO een horizontale lijn.",
+  "TW = TO − TK. Veel omzet is geen waarborg voor winst."
+ ]
+}
