@@ -37,12 +37,17 @@ Wil je scherpere afbeeldingen (bijvoorbeeld om te laten drukken):
 
 Uit `social/fotos/`, de foto's die vrijgegeven zijn voor gebruik:
 
-- Blad 1: `lego-buggy-bouwen`, `robot-van-karton-in-de-hand`,
+- Blad 1: `lego-buggy-bouwen`, `tekenen-in-de-klas`,
   `plusklas-mars-projecten`.
-- Blad 2: `reuzenbellen-buiten`, `solar-rover-bouwen`.
+- Blad 2: `bouwpakket-in-genk`, `werken-aan-de-groene-tafels`.
+
+Alle vijf zijn liggende foto's van 1600 x 1200. **Dat is geen toeval**: de
+fotovakjes zijn precies 3:4 van hun breedte, zodat er niets wordt afgesneden.
+Zet je er een staande foto in, dan knipt hij de boven- en onderkant eraf.
 
 Wil je een andere foto, zet ze dan in `bron/` en verander de bestandsnaam in
-`uitnodiging.html`.
+`uitnodiging.html`. Neem er een waar meerdere kinderen op staan; dat leest
+warmer dan een close-up van één paar handen.
 
 ## Wat je zeker nakijkt als je het later hergebruikt
 
