@@ -431,7 +431,7 @@ module.exports = [
       { ic: "📄", tekst: "Doorstroom en dubbele finaliteit" },
     ],
     nadruk:
-      "<b>Meetesten kost je niets.</b> Laat je ons daarna weten wat je ervan vond, dan houd je gratis toegang tot het einde van dit schooljaar.",
+      "<b>Een maand gratis testen.</b> Vul je daarna de evaluatie in en je krijgt een gratis jaarlicentie: een heel jaar toegang tot alles.",
     voet: { hand: "Geef je op via", url: "connectopia.one/meetesten" },
   },
 
@@ -449,7 +449,7 @@ module.exports = [
       { ic: "✍️", tekst: "Geen AI in de oefeningen" },
     ],
     nadruk:
-      "<b>Gratis te gebruiken bij je leerlingen.</b> Vertel ons daarna wat je ervan vond en het blijft gratis tot het einde van dit schooljaar.",
+      "<b>Een maand gratis bij je leerlingen.</b> Vul je daarna de evaluatie in en je krijgt een gratis jaarlicentie, voor maximaal 5 leerlingen.",
     voet: { hand: "Geef je op via", url: "connectopia.one/meetesten" },
   },
 ];

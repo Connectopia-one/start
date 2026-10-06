@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Aanvraagformulier } from "@/components/Aanvraagformulier";
-import { Kaart, PaginaKop, Sectie } from "@/components/ui";
+import { Kaart, Knop, PaginaKop, Sectie } from "@/components/ui";
 import { meetesten, meetestenVelden } from "@/content/meetesten";
 import { site } from "@/content/site";
 
@@ -81,6 +81,31 @@ export default async function MeetestenPagina() {
               <p className="mt-2 text-[16px] text-ink-dim">{stap.tekst}</p>
             </Kaart>
           ))}
+        </div>
+      </Sectie>
+
+      {/* Voor wie niet gekozen wordt: wat het anders kost. */}
+      <Sectie className="py-8">
+        <div className="rounded-[20px] bg-orange-soft px-6 py-5">
+          <h2 className="text-2xl text-orange">{meetesten.prijzenTitel}</h2>
+          <p className="mt-2 max-w-[68ch] text-[16px] text-ink">
+            {meetesten.prijzenTekst}
+          </p>
+          <ul className="mt-4 grid gap-3 sm:grid-cols-3">
+            {meetesten.prijzen.map((prijs) => (
+              <li key={prijs.titel}>
+                <p className="text-[16px] font-extrabold text-green">
+                  {prijs.titel}
+                </p>
+                <p className="text-[15px] text-ink-dim">{prijs.tekst}</p>
+              </li>
+            ))}
+          </ul>
+          <div className="mt-5">
+            <Knop href={meetesten.prijzenKnop.link}>
+              {meetesten.prijzenKnop.tekst}
+            </Knop>
+          </div>
         </div>
       </Sectie>
 

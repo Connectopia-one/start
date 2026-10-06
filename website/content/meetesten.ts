@@ -29,7 +29,7 @@ export const meetesten = {
   titel: "Test ons oefenplatform mee",
   handgeschreven: "Wij bouwen, jij vertelt ons wat er beter kan",
   tekst:
-    "Ons oefenplatform groeit elke week. Gezinnen die thuisonderwijs geven, testen het al. Nu zoeken we er twee groepen bij die de leerstof van een heel andere kant bekijken. Herken je jezelf hieronder? Dan mag je gratis mee testen.",
+    "Ons oefenplatform groeit elke week. Gezinnen die thuisonderwijs geven, testen het al. Nu zoeken we er twee groepen bij die de leerstof van een heel andere kant bekijken. Herken je jezelf hieronder? Dan test je een maand lang gratis mee, en wie daarna de evaluatie invult, krijgt een gratis jaarlicentie.",
 
   groepenTitel: "Wie we erbij zoeken",
   groepen: [
@@ -64,19 +64,47 @@ export const meetesten = {
   stappenTitel: "Zo verloopt het",
   stappen: [
     {
-      titel: "Je krijgt alles open",
+      titel: "Je test een maand lang",
       tekst:
-        "Alle niveaus, alle vakken, de leerbundels en de oefeningen. Je hoeft niets te betalen en er is geen opzeg.",
+        "Een maand lang staat alles voor je open: alle niveaus, alle vakken, de leerbundels en de oefeningen. Je betaalt niets en er is geen opzeg.",
     },
     {
-      titel: "Je laat ons weten wat je denkt",
+      titel: "Je vult de evaluatie in",
       tekst:
-        "Na een paar weken vragen we je kort wat werkt, wat mist en wat beter kan. In een mail of aan de telefoon, wat jij liever hebt.",
+        "Op het einde van die maand vragen we je wat werkt, wat mist en wat beter kan. Je krijgt er een korte vragenlijst voor.",
     },
     {
-      titel: "Je houdt je toegang",
+      titel: "Je krijgt een jaar gratis",
       tekst:
-        "Wie ons zijn ervaring bezorgt, houdt gratis toegang tot het einde van het schooljaar 2026-2027.",
+        "Heb je je evaluatie ingediend, dan krijg je een gratis jaarlicentie. Een heel jaar toegang tot alles, zonder iets te betalen.",
+    },
+  ],
+
+  /*
+    Wie zich opgeeft maar niet gekozen wordt, mag niet met lege handen
+    achterblijven. Daarom staan de prijzen er meteen bij.
+    De tijdelijke prijs van 20 euro staat ook in oefenplatform/lib/prijs.ts;
+    verandert die, pas dan allebei aan.
+  */
+  prijzenTitel: "Wil je nu al alles, en meteen voor een jaar?",
+  prijzenTekst:
+    "Dan hoef je niet te wachten tot we de testers kiezen. Zolang we volop bouwen, koop je een jaarlicentie voor 20 euro. Je maakt zelf een account aan op het oefenplatform en je kan meteen beginnen.",
+  prijzenKnop: {
+    tekst: "Maak een account aan",
+    link: "https://oefenplatform.connectopia.one/registreren",
+  },
+  prijzen: [
+    {
+      titel: "Nu, zolang we bouwen",
+      tekst: "20 euro voor een heel jaar toegang tot alles.",
+    },
+    {
+      titel: "Vanaf volgend schooljaar",
+      tekst: "50 euro per gezin, voor 1 tot 5 personen.",
+    },
+    {
+      titel: "Geef je tijdelijk onderwijs aan huis?",
+      tekst: "Dan is het een licentie per leerkracht, voor maximaal 5 leerlingen.",
     },
   ],
 
