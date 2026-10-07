@@ -148,7 +148,7 @@ DEEL1 = [
     ),
     dict(
         type="meerkeuze",
-        vraag="Welke twee stelsels heeft een plant volgens de vakfiche?",
+        vraag="Welke twee stelsels heeft een plant?",
         opties=[
             "Een transportstelsel",
             "Een voortplantingsstelsel",
