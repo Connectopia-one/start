@@ -737,6 +737,55 @@ CONTROLES = [
     ("wb verband: de trendlijn stijgt",             True,
      helling([(152, 36), (156, 37), (160, 38), (163, 38), (165, 39),
               (168, 40), (170, 41), (174, 41), (178, 43), (182, 44)]) > 0),
+
+    # ── toegepaste economie 🚀 Boost dubbele finaliteit (7 oktober 2026)
+    # balans en resultatenrekening
+    ("te balans: 80 000 − 30 000 geeft 50 000",     50000,      80000 - 30000),
+    ("te balans: 25 000 − 25 000 geeft nul",        0,          25000 - 25000),
+    ("te balans: 120 000 − 95 000 is 25 000 winst", 25000,      120000 - 95000),
+    ("te balans: 72 000 − 60 000 is 12 000 verlies", 12000,     72000 - 60000),
+    # aankoopfactuur
+    ("te aankoop: 1 000 min 10 % is 900",           900,        1000 - F(10, 100) * 1000),
+    ("te aankoop: 21 % btw op 800 is 168",          168,        F(21, 100) * 800),
+    ("te aankoop: 6 % btw op 200 is 12",            12,         F(6, 100) * 200),
+    ("te aankoop: 500 plus 50 vervoer is 550",      550,        500 + 50),
+    ("te aankoop: 21 % btw op 1 000 is 210",        210,        F(21, 100) * 1000),
+    ("te aankoop: 1 000 plus btw is 1 210",         1210,       1000 + F(21, 100) * 1000),
+    ("te aankoop: 21 % btw op 100 is 21",           21,         F(21, 100) * 100),
+    # verkoopfactuur
+    ("te verkoop: 2 000 min 5 % is 1 900",          1900,       2000 - F(5, 100) * 2000),
+    ("te verkoop: 21 % btw op 1 900 is 399",        399,        F(21, 100) * 1900),
+    ("te verkoop: 10 % korting op 500 is 50",       50,         F(10, 100) * 500),
+    ("te verkoop: 6 % btw op 600 is 36",            36,         F(6, 100) * 600),
+    ("te verkoop: 21 % btw op 400 is 84",           84,         F(21, 100) * 400),
+    ("te verkoop: samen 120 euro btw",              120,        F(6, 100) * 600 + F(21, 100) * 400),
+    ("te verkoop: 6 % btw op 500 is 30",            30,         F(6, 100) * 500),
+    ("te verkoop: 500 plus die btw is 530",         530,        500 + F(6, 100) * 500),
+    # de btw-aangifte
+    ("te btw: bakker stort 18 min 6 is 12 door",    12,         18 - 6),
+    ("te btw: 4 200 min 2 800 is 1 400 betalen",    1400,       4200 - 2800),
+    ("te btw: 3 000 min 3 000 is een saldo nul",    0,          3000 - 3000),
+    ("te btw: 21 % op 50 is 10,5",                  F(21, 2),   F(21, 100) * 50),
+    # boeken
+    ("te boeken: 21 % btw op 500 is 105",           105,        F(21, 100) * 500),
+    ("te boeken: 500 plus 105 geeft 605",           605,        500 + 105),
+    ("te boeken: 21 % btw op 2 000 is 420",         420,        F(21, 100) * 2000),
+    ("te boeken: 2 000 plus 420 geeft 2 420",       2420,       2000 + 420),
+    ("te boeken: 100 plus 21 geeft 121",            121,        100 + F(21, 100) * 100),
+    # proefbalans en eindejaar
+    ("te saldo: 5 000 debet min 3 200 credit",      1800,       5000 - 3200),
+    ("te saldo: 1 500 credit min 900 debet",        600,        1500 - 900),
+    ("te afschrijving: 20 000 over 5 jaar",         4000,       F(20000, 5)),
+    ("te afschrijving: 30 000 over 6 jaar",         5000,       F(30000, 6)),
+    ("te afschrijving: 15 000 aan 3 000 per jaar",  5,          F(15000, 3000)),
+    ("te afschrijving: boekwaarde na 3 jaar",       8000,       20000 - 3 * 4000),
+    # rekenblad
+    ("te rekenblad: =(2+3)*4 geeft 20",             20,         (2 + 3) * 4),
+    ("te rekenblad: =2+3*4 geeft 14",               14,         2 + 3 * 4),
+    ("te rekenblad: AFRONDEN(12,348;2) geeft 12,35", 12.35,     round(12.348, 2)),
+    ("te rekenblad: =SOM(A1:A5) telt 5 cellen",     5,          len(range(1, 6))),
+    # afdrukken
+    ("te afdrukken: 20 bladzijden op 10 bladen",    10,         F(20, 2)),
 ]
 
 
