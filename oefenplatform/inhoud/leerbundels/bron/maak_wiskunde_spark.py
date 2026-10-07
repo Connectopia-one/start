@@ -81,9 +81,18 @@ BUNDELS["getallenleer"] = dict(
                   "moet je haakjes zetten: (2 + 3) × 4 = 20."),
         ]),
         dict(kop="Eigenschappen en rekenregels", blokken=[
-            ("p", "<strong>Commutatief</strong>: de volgorde mag wisselen, a + b = b + a. "
-                  "<strong>Associatief</strong>: de haakjes mogen anders, (a + b) + c = a + (b + c). "
-                  "<strong>Distributief</strong>: 3 × (4 + 5) = 3 × 4 + 3 × 5."),
+            ("p", "Drie eigenschappen hebben een eigen naam. Elk zegt wat je met een bewerking mag doen "
+                  "zonder dat de uitkomst verandert."),
+            ("kader", bundel.tabel(["eigenschap", "wat ze zegt", "voorbeeld"],
+                            [["<strong>commutatief</strong>",
+                              "de volgorde mag wisselen",
+                              "a + b = b + a"],
+                             ["<strong>associatief</strong>",
+                              "de haakjes mogen ergens anders staan",
+                              "(a + b) + c = a + (b + c)"],
+                             ["<strong>distributief</strong>",
+                              "het getal voor de haakjes verdeel je over elke term apart",
+                              "3 × (4 + 5) = 3 × 4 + 3 × 5"]])),
             ("kader", "Commutatief en associatief gelden bij optellen en vermenigvuldigen, maar "
                       "<strong>niet</strong> bij aftrekken en delen. 5 − 3 is niet hetzelfde als 3 − 5."),
             ("p", "Het <strong>neutraal element</strong> verandert niets: 0 bij optellen, 1 bij "
@@ -99,13 +108,19 @@ BUNDELS["getallenleer"] = dict(
                   "13 … 1 hoort er niet bij, want dat heeft er maar één. En 2 is het <strong>enige "
                   "even</strong> priemgetal: elk ander even getal is ook deelbaar door 2 en heeft dus meer "
                   "dan twee delers."),
-            ("p", "Splits je een getal in priemfactoren, dan vallen ggd en kgv er zo uit. "
-                  "12 = 2 × 2 × 3 en 18 = 2 × 3 × 3."),
-            ("p", "De <strong>grootste gemeenschappelijke deler</strong> is wat ze allebei hebben: "
-                  "2 × 3 = <strong>6</strong>. Die gebruik je om breuken te vereenvoudigen. Het "
-                  "<strong>kleinste gemeenschappelijk veelvoud</strong> van 4 en 6 is "
-                  "<strong>12</strong>: het eerste getal dat in beide rijtjes veelvouden voorkomt. Dat "
-                  "gebruik je om breuken gelijknamig te maken."),
+            ("p", "Splits je twee getallen in priemfactoren, dan vallen de ggd en het kgv er allebei uit. "
+                  "Neem 12 en 18: 12 = 2 × 2 × 3 en 18 = 2 × 3 × 3."),
+            ("p", "De <strong>grootste gemeenschappelijke deler</strong> krijg je door de priemfactoren te "
+                  "<strong>vermenigvuldigen die ze gemeenschappelijk hebben</strong>. Een 2 komt in allebei "
+                  "voor, en een 3 ook, dus ggd(12, 18) = 2 × 3 = <strong>6</strong>. Elke factor telt "
+                  "daarbij zo vaak mee als hij in het <strong>minst</strong> voorkomt. Die ggd gebruik je om "
+                  "breuken te vereenvoudigen."),
+            ("p", "Het <strong>kleinste gemeenschappelijk veelvoud</strong> krijg je uit diezelfde splitsing, "
+                  "maar dan neem je elke priemfactor zo vaak als hij in het <strong>meest</strong> voorkomt. "
+                  "De 2 komt twee keer voor bij 12, de 3 komt twee keer voor bij 18, dus "
+                  "kgv(12, 18) = 2 × 2 × 3 × 3 = <strong>36</strong>. En inderdaad: 36 is deelbaar "
+                  "door 12 en door 18, en kleiner lukt niet. Het kgv gebruik je om breuken gelijknamig te "
+                  "maken."),
         ]),
         dict(kop="Procent, verhouding en schaal", blokken=[
             ("p", "<strong>Procent</strong> betekent 'per honderd'. Van breuk naar procent: deel de teller "
@@ -114,8 +129,15 @@ BUNDELS["getallenleer"] = dict(
              "Vijfentwintig van de honderd vakjes: 25 %, ofwel 1/4, ofwel 0,25. Drie schrijfwijzen voor hetzelfde."),
             ("p", "Een trui van € 40 met 25 % korting: de korting is 10 euro, dus je betaalt € 30. Sneller "
                   "gaat het in één keer: je betaalt 75 %, en 0,75 × 40 = 30."),
+            ("p", "<strong>Verhouding.</strong> Twee grootheden staan in verhouding als ze samen even hard "
+                  "mee veranderen: twee keer zoveel broden, twee keer zoveel geld. In een "
+                  "<strong>verhoudingstabel</strong> zet je ze onder elkaar en reken je van de ene rij naar "
+                  "de andere."),
+            ("p", "Vier broden kosten € 6. Ga eerst naar <strong>één</strong> brood, want vanaf daar kan je "
+                  "naar elk aantal: € 6 gedeeld door 4 is € 1,50 per brood. Tien broden kosten dan "
+                  "10 × € 1,50 = <strong>€ 15</strong>. Wat je met de ene rij doet, doe je met de andere ook."),
             ("fig", svg.verhoudingstabel([("1", "€ 1,50"), ("4", "€ 6"), ("10", "€ 15")]),
-             "Vier broden voor € 6. Ga eerst naar één brood, dan kan je naar elk aantal. Wat je met de ene rij doet, doe je met de andere ook."),
+             "De verhoudingstabel voor vier broden van € 6."),
             ("p", "<strong>Schaal</strong> 1 : 100 wil zeggen dat één centimeter op het plan honderd "
                   "centimeter in het echt is. Een muur van 3 cm op het plan is dus 300 cm, ofwel 3 meter."),
         ]),

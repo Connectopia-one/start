@@ -336,6 +336,7 @@ export const KLIKBARE_BUNDELS: Record<string, () => Promise<{ default: unknown }
   "boost-doorstroom/nederlands/werkwoorden-tijden-en-woordvorming": () => import("./nederlands--werkwoorden-tijden-en-woordvorming-boost-doorstroom.json"),
   "boost-doorstroom/nederlands/zender-ruis-en-de-zeven-tekstsoorten": () => import("./nederlands--zender-ruis-en-de-zeven-tekstsoorten-boost-doorstroom.json"),
   "boost-doorstroom/nederlands/zinsdelen-en-samengestelde-zinnen": () => import("./nederlands--zinsdelen-en-samengestelde-zinnen-boost-doorstroom.json"),
+  "boost-doorstroom/sociale-en-gedragswetenschappen/ontwikkeling-groeien-rijpen-en-leren": () => import("./sociale-en-gedragswetenschappen--ontwikkeling-groeien-rijpen-en-leren-boost-doorstroom.json"),
   "boost-doorstroom/wiskunde-gevorderd/de-parabool-transformaties-en-functiekenmerken": () => import("./wiskunde-gevorderd--de-parabool-transformaties-en-functiekenmerken-boost-doorstroom.json"),
   "boost-doorstroom/wiskunde-gevorderd/een-opgave-aanpakken-van-context-naar-wiskunde": () => import("./wiskunde-gevorderd--een-opgave-aanpakken-van-context-naar-wiskunde-boost-doorstroom.json"),
   "boost-doorstroom/wiskunde-gevorderd/formules-omvormen-en-eerstegraadsvergelijkingen": () => import("./wiskunde-gevorderd--formules-omvormen-en-eerstegraadsvergelijkingen-boost-doorstroom.json"),
