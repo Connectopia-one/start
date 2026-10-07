@@ -1,6 +1,7 @@
 import { Header } from "@/components/Header";
 import { requireIngelogd } from "@/lib/auth";
 import { PRIJS_NU_EUR, PRIJS_STRAKS_EUR, TIJDELIJKE_PRIJS, TIJDELIJKE_PRIJS_UITLEG } from "@/lib/prijs";
+import { isTestSleutel } from "@/lib/mollie";
 import { huidigSchooljaar, schooljaarEindeLabel } from "@/lib/schooljaar";
 import { gebruikPlusklasCode, startBetaling } from "./actions";
 
@@ -41,14 +42,21 @@ export default async function BetalenPage({
               {TIJDELIJKE_PRIJS_UITLEG}
             </p>
           )}
-          <form action={startBetaling} className="mt-6">
-            <button
-              type="submit"
-              className="w-full rounded-md bg-forest px-4 py-2 text-sm font-medium text-white transition hover:bg-forest-dark"
-            >
-              Betalen met Mollie
-            </button>
-          </form>
+          {isTestSleutel() ? (
+            <p className="mt-6 rounded-md bg-amber/10 px-4 py-3 text-left text-sm text-ink">
+              Betalen staat even stil: we zetten de betalingen juist. Stuur een mailtje naar
+              info@matmgroep.com en we regelen je toegang met de hand.
+            </p>
+          ) : (
+            <form action={startBetaling} className="mt-6">
+              <button
+                type="submit"
+                className="w-full rounded-md bg-forest px-4 py-2 text-sm font-medium text-white transition hover:bg-forest-dark"
+              >
+                Betalen met Mollie
+              </button>
+            </form>
+          )}
         </div>
 
         <div className="mt-6 rounded-xl border border-border bg-surface p-6">

@@ -28,7 +28,9 @@ export async function POST(request: NextRequest) {
     .update({ status: nieuweStatus, betaald_op: nieuweStatus === "betaald" ? new Date().toISOString() : null })
     .eq("mollie_payment_id", paymentId);
 
-  if (nieuweStatus === "betaald") {
+  // Een betaling in testmodus kiest haar eigen status op het afrekenscherm,
+  // dus ze zegt niets over echt geld en mag nooit toegang openzetten.
+  if (nieuweStatus === "betaald" && payment.mode !== "test") {
     const metadata = (payment.metadata ?? {}) as { profile_id?: string; schooljaar?: string };
     const profileId = String(metadata.profile_id || "");
     const schooljaar = String(metadata.schooljaar || "");

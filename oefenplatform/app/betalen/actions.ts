@@ -5,7 +5,7 @@ import { redirect } from "next/navigation";
 import { requireIngelogd } from "@/lib/auth";
 import { heeftVolledigeToegang } from "@/lib/toegang";
 import { huidigSchooljaar } from "@/lib/schooljaar";
-import { mollieClient } from "@/lib/mollie";
+import { isTestSleutel, mollieClient } from "@/lib/mollie";
 import { zoekPlusklasCode } from "@/lib/plusklas";
 import { PRIJS_NU_EUR } from "@/lib/prijs";
 import { createAdminClient } from "@/lib/supabase/admin";
@@ -14,6 +14,15 @@ export async function startBetaling() {
   const session = await requireIngelogd();
   if (heeftVolledigeToegang(session.profile)) {
     redirect("/account");
+  }
+
+  if (isTestSleutel()) {
+    redirect(
+      "/betalen?fout=" +
+        encodeURIComponent(
+          "Betalen staat even stil: we zetten de betalingen juist. Stuur een mailtje naar info@matmgroep.com en we regelen je toegang met de hand.",
+        ),
+    );
   }
 
   const schooljaar = huidigSchooljaar();
