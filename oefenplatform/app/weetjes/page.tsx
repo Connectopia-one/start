@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Header } from "@/components/Header";
+import { bordKlassen } from "@/components/Blaadje";
 import { Weetje, type WeetjeRij } from "@/components/Weetje";
 import { getSessionProfile } from "@/lib/auth";
 import { createClient } from "@/lib/supabase/server";
@@ -94,7 +95,7 @@ export default async function WeetjesPage({
           </p>
         ) : (
           /* Zoals op een echt prikbord: de briefjes vullen de kolommen op. */
-          <div className="mt-8 rounded-[20px] border border-border bg-[#f1e8d7] p-5 pb-0 shadow-[inset_0_2px_8px_rgba(35,41,31,0.08)]">
+          <div className={`mt-8 ${bordKlassen}`}>
             <div className="columns-1 gap-5 sm:columns-2 lg:columns-3">
               {weetjes.map((w, nummer) => (
                 <Weetje key={w.id} weetje={w} nummer={nummer} />
