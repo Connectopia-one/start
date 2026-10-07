@@ -10,6 +10,14 @@
   De kleuren staan hier als vaste waarden en niet als thema-kleuren: het
   oefenplatform heeft zelf een sobere kaft, en deze hoekjes mogen eruitzien
   als papier.
+
+  Twee manieren om de blaadjes te schikken. Op het prikbord van de weetjes
+  staan ze in kolommen: de volgorde doet er niet toe en de blaadjes schuiven
+  mooi in elkaar. Bij de tips telt de volgorde wel, en kolommen lezen dan van
+  boven naar beneden: 1, 2, 3 onder elkaar en pas daarna 4 ernaast. Daarom
+  zetten de tips ze in een raster, dat rij per rij van links naar rechts
+  leest. Zet daar `inRaster` aan, zodat het blaadje zijn eigen ondermarge
+  loslaat en de tussenruimte van het raster volgt.
 */
 
 const blaadjes = [
@@ -29,17 +37,20 @@ export const bordKlassen =
 
 export function Blaadje({
   nummer,
+  inRaster = false,
   children,
 }: {
   nummer: number;
+  inRaster?: boolean;
   children: React.ReactNode;
 }) {
   const blaadje = blaadjes[nummer % blaadjes.length];
   const hoek = scheef[nummer % scheef.length];
+  const plaatsing = inRaster ? "" : "mb-5 break-inside-avoid";
 
   return (
     <article
-      className={`mb-5 break-inside-avoid rounded-[14px] border p-5 pt-6 shadow-[0_4px_14px_rgba(35,41,31,0.12)] ${blaadje} ${hoek} transition hover:rotate-0`}
+      className={`${plaatsing} rounded-[14px] border p-5 pt-6 shadow-[0_4px_14px_rgba(35,41,31,0.12)] ${blaadje} ${hoek} transition hover:rotate-0`}
     >
       {/* De punaise */}
       <span

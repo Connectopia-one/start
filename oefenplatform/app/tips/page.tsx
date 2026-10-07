@@ -38,11 +38,14 @@ export default async function TipsPage() {
         </h1>
         <p className="mt-4 max-w-2xl text-sm text-ink-dim">{tipsTekst.intro}</p>
 
-        {/* Zoals op het prikbord: de blaadjes vullen de kolommen op. */}
-        <div className={`mt-8 ${bordKlassen}`}>
-          <div className="columns-1 gap-5 sm:columns-2 lg:columns-3">
+        {/* Een raster, geen kolommen: de stappen moeten rij per rij van links
+            naar rechts te lezen zijn. In kolommen staan stap 1, 2 en 3 onder
+            elkaar en komt 4 pas ernaast, en dat leest lastig bij een
+            volgorde. Met items-start houdt elk blaadje zijn eigen hoogte. */}
+        <div className={`mt-8 ${bordKlassen} pb-5`}>
+          <div className="grid grid-cols-1 items-start gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {tipsTekst.stappen.map((stap, i) => (
-              <Blaadje key={stap.kop} nummer={i}>
+              <Blaadje key={stap.kop} nummer={i} inRaster>
                 <p className="font-display text-[13px] font-semibold uppercase tracking-wide text-ink-dim">
                   Stap {i + 1}
                 </p>
