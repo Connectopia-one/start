@@ -124,6 +124,26 @@ export default async function HomePage() {
             bezig in plaats van eerst te moeten kiezen waar te beginnen. */}
         <Dagvraag />
 
+        {/* Hoe wij een hoofdstuk aanpakken. Staat vóór de categorieën, want wie
+            hier voor het eerst komt, weet nog niet waar te beginnen. */}
+        <Link
+          href="/tips"
+          className="mt-5 flex items-center justify-between gap-4 rounded-xl border border-border bg-surface px-6 py-5 transition hover:border-forest hover:shadow-sm"
+        >
+          <span>
+            <span className="font-display text-lg font-semibold text-ink">
+              🧭 Zo gebruiken wij het
+            </span>
+            <span className="mt-1 block text-sm text-ink-dim">
+              Hoe wij een hoofdstuk aanpakken, van de tocht tot de oefenbundel.
+              Als richtlijn, niet als regel.
+            </span>
+          </span>
+          <span aria-hidden className="shrink-0 text-forest">
+            &rarr;
+          </span>
+        </Link>
+
         <p className="mt-5 rounded-md bg-info/10 px-4 py-3 text-sm text-ink">
           💡 Kies de categorie die het beste past bij wat je kind{" "}
           <strong>al kan</strong> — niet per se het officiële leerjaar of de

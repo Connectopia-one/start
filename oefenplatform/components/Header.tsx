@@ -20,6 +20,7 @@ type Rol = "ouder" | "beheerder" | "begeleider";
 function menuLinks(rol?: Rol) {
   const lijst = [
     { href: "/", tekst: "Vakken" },
+    { href: "/tips", tekst: "Tips" },
     { href: "/weetjes", tekst: "Weetjes" },
     { href: "/materiaal", tekst: "Materiaal" },
     { href: "/over-ons", tekst: "Over ons" },
